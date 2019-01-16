@@ -16,11 +16,11 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Meer informatie over de beveiligingsfuncties van Microsoft 365 Business.
-ms.openlocfilehash: bfddb419dbe5db441741a73ecb49e3d52649e382
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 17bcc57d57e837f18b05f66cfd54185324f3cad8
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26983172"
 ---
 # <a name="microsoft-365-business-security-features"></a>Beveiligingsfuncties van Microsoft 365 Business
@@ -130,11 +130,9 @@ De mogelijkheid om de volgende beperkingen van toepassing bij het verzenden van 
 
 Om te verifiëren dat de AIP is geactiveerd:
 
-1. Inloggen op [Azure Active Directory admin center](https://portal.azure.com/).
+1. Inloggen op [portal Azure](https://portal.azure.com/).
 
-    U kunt ook weerklinken door **Admin centers** \> **Azure Active Directory** in de Linkernavigatie in het admin center.
-
-2. Selecteer **alle services** en tyoe in *Azure informatiebeveiliging* in het **Vak Zoeken**.
+2. Selecteer **alle services** en typ in *Azure informatiebeveiliging* in het **Vak Zoeken**.
 
 3. Zodra de resultaten worden weergegeven, klikt u op het begin volgende **Informatiebescherming Azure** een favoriet maken en later gemakkelijk te vinden.
 
@@ -144,7 +142,7 @@ Om te verifiëren dat de AIP is geactiveerd:
 
 Als u wilt weergeven en wijzigen, de bestaande labels:
 
-1. Selecteer op het dashboard Azure informatiebescherming **classificaties** \> ** Labels. <br/>![Standaard etiketten voor informatiebescherming Azure.](media/AIPLabels.png)
+1. Selecteer op het dashboard Azure informatiebescherming **classificaties** \> **etiketten**. <br/>![Standaard etiketten voor informatiebescherming Azure.](media/AIPLabels.png)
 
 2. U kunt een label om opties weer te geven, kunt u de weergavenaam, kleuren, enz.
  
@@ -159,6 +157,16 @@ De client AIP handmatig installeren:
 2. U kunt controleren of de installatie heeft gewerkt door een Word-document bekijken en ervoor te zorgen dat de optie **Protect** beschikbaar op het tabblad **Start is** . <br/>![Tabblad Beveiliging vervolgkeuzelijst in een Word-document.](media/Word_Protect.png)
 
 Zie voor meer informatie [de client installeren](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3)
+
+## <a name="go-to-intune-admin-center"></a>Ga naar Intune admin center
+
+1. Inloggen op [portal Azure](https://portal.azure.com/).
+
+2. Selecteer **alle services** en typ *Intune* in het **Vak Zoeken**.
+
+3. Zodra de resultaten worden weergegeven, klikt u op het begin volgende voor **Microsoft Intune** een favoriet maken en later gemakkelijk te vinden.
+ 
+Intune kunt u inschrijven voor apparaten en beheren van uw organisatie. Zie voor meer informatie [mogelijkheden door de methode voor certificaatinschrijving voor apparaten met Windows](https://docs.microsoft.com/intune/enrollment-method-capabs) en [Opties voor inschrijving voor apparaten beheerd door Intune](https://docs.microsoft.com/intune/enrollment-options).
     
 ## <a name="faq"></a>Veelgestelde vragen
 
@@ -174,15 +182,4 @@ Ja, zijn deze functies beschikbaar in alle markten waar Microsoft 365 Business w
     
     ![Kies in de Linkernavigatie in het midden van Microsoft 365 admin Admin centers.](media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
-3. Kies **beveiliging &amp; dat** naar beveiliging &amp; conformiteit. 
-    
- ### <a name="how-do-i-find-the-intune-admin-center"></a>Hoe vind ik het Intune admin center
-  
-  
-1. [Aanmelden bij Microsoft 365 Business](https://portal.microsoft.com/) met uw Administrator-referenties. 
-    
-2. Zoek **Admin gecentreerd** in de Linkernavigatie en vouwen. 
-    
-3. Kies **Intune** naar Intune admin center te gaan. 
-    
-
+3. Kies **beveiliging &amp; dat** naar beveiliging &amp; conformiteit.

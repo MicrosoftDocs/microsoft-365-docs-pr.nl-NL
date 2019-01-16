@@ -23,10 +23,10 @@ search.appverid:
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
 description: Informatie over het beleid die gericht zijn op specifieke apparaten en beveiligingsgroepen voor het beschermen van bedrijfsgegevens op van de gebruiker persoonlijke apparaten.
 ms.openlocfilehash: e52026ccc96e032bbccb7334992a447e14b2cc05
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26982262"
 ---
 # <a name="how-policies-in-microsoft-365-business-protect-company-data"></a>Hoe beleid in Microsoft 365 voor Bedrijven bedrijfsgegevens beveiligt
