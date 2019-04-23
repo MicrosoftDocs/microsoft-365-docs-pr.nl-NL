@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -16,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: Apparaat beleidsmaatregelen en acties weergeven door het aanmelden bij Microsoft 365 business met globale beheerder van credintials.
-ms.openlocfilehash: 0018abc6dcf2163dc50c6c792793c9f5d9e29d45
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 524e5382fb242ea6b77abd72191073ce4df14f0c
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982172"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285797"
 ---
 # <a name="view-policies-and-devices"></a>Beleid en apparaten weergeven
 
@@ -29,7 +32,7 @@ ms.locfileid: "26982172"
 
 1. Meld u aan bij [Microsoft 365 Business](https://portal.office.com) met globale-beheerdersreferenties. 
     
-2. Kies in het beheercentrum op de kaart **Apparaatbeleid** de optie **Apparaatbeleid** om de pagina **Apparaatbeleid** te openen. 
+2. Kies op de Linkernavigatie **apparaten** \> **beleid** \> **toevoegen**.
     
     Op deze pagina kunt u doelgroepen maken, bewerken en wijzigen of een beleid verwijderen.
     

@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -16,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Informatie over hoe u uw bedrijf naar Microsoft 365 Business.
-ms.openlocfilehash: fd6f18c02453e6751d6163ab79e726eae9c951a9
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 3e45ba13e4cfe772829f545219bf86a9a3317d59
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983492"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285640"
 ---
 # <a name="migrate-to-microsoft-365-business-from-office-365-business-premium"></a>Migreren naar Microsoft 365 Business van Office 365 Business Premium
 
@@ -55,7 +58,7 @@ Als u een koppeling naar uw licenties te kopen, wordt een wizard zoals in de ond
     
 2. Op de pagina **aanpassen, het aanmelden en e-mailadres** , kunt u een domein door **verbinding maken met een domein dat u al eigenaar** kiezen als u gebruiken de opportunity wilt naar een ander domein toevoegen aan uw abonnement toevoegen. 
     
-    Als u al een domein hebt ingesteld, het tweede veld dat wordt aangegeven en vanzelfsprekend **Doorgaan met behulp van** \< _de domeinnaam_ \> **voor e-mail en het aanmelden**. Als u een domein met u abonnement niet hebt ingesteld, wordt dat **Doorgaan met behulp van** \< _de name.onmicrosoft.com van uw bedrijf_ \> **voor e-mail en het aanmelden**.    
+    Als u al een domein hebt ingesteld, het tweede veld dat wordt aangegeven en vanzelfsprekend **Doorgaan met behulp van** \< _de domeinnaam_ \> **voor e-mail en het aanmelden**.   Als u een domein met u abonnement niet hebt ingesteld, wordt dat **Doorgaan met behulp van** \< _de name.onmicrosoft.com van uw bedrijf_ \> **voor e-mail en het aanmelden**.  
     
     Kies **Volgende**.
     
@@ -65,7 +68,7 @@ Als u een koppeling naar uw licenties te kopen, wordt een wizard zoals in de ond
     
     Als u geen nieuwe werknemers toevoegen en certificaten toewijzen aan bestaande gebruikers wilt, kies **volgende**.
     
-4. Op de ** migreren e-mailberichten ** pagina u kiezen kunt voor het migreren van e-mailadres voor alle nieuwe gebruikers die u in stap 3 hebt toegevoegd. U kunt deze stap ook overslaan. Kies **volgende**.
+4. Op de ** migreren e-mailberichten ** pagina u kiezen kunt voor het migreren van e-mailadres voor alle nieuwe gebruikers die u in stap 3 hebt toegevoegd. U kunt deze stap ook overslaan. Kies **Volgende**.
     
 5. Kies **Ga naar het beheercentrum**en doorgaan met setup er op de laatste pagina.
     
@@ -95,7 +98,7 @@ Nadat u licenties hebt toegewezen aan Microsoft 365 Business, kunt u beginnen me
     
   - [Instellingen voor toepassingsbeveiliging instellen voor Windows 10-apparaten](protection-settings-for-windows-10-devices.md)
     
-  - [Instellingen voor apparaatbeveiliging instellen voor Windows 10-pc's](protection-settings-for-windows-10-pcs.md)
+  - [Stel het apparaat bescherming voor Windows 10 pc 's](protection-settings-for-windows-10-pcs.md)
     
    ![Voer een naam voor het in het venster van het beleid toevoegen en kiest u het type uit de vervolgkeuzelijst.](media/76ef37e4-1d18-4f34-8a0f-391ab1d0ae2b.png)
   

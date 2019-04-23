@@ -1,5 +1,5 @@
 # [Aan de slag](microsoft-365-business-overview.md)
-## [Microsoft 365 Business kopen](get-microsoft-365-business.md)
+## [Microsoft 365 bedrijf](sign-up.md)
 ## [Minimumvereisten voor de bescherming van gegevens](pre-requisites-for-data-protection.md)
 ## [Beveiligingsfuncties](security-features.md)
 ## [Instellen](set-up.md)

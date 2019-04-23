@@ -7,7 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -18,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: 'Installeren of verwijderen van Office voor Windows 10-apparaten van het Microsoft 365 Business admin center. '
-ms.openlocfilehash: 997c001ed1520f1ac989255632d36f9b7bedd16c
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: fef4a543aed489202bf05dfb1e8cafbb784ca819
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983332"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277266"
 ---
 # <a name="automatically-install-or-uninstall-office-on-windows-10-devices"></a>Office automatisch installeren op of verwijderen van Windows 10-apparaten
 
@@ -35,7 +37,8 @@ Lees [Office-clientinstallatie voorbereiden](prepare-for-office-client-deploymen
 
 1. Meld u aan bij het [beheercentrum](https://aka.ms/bcsportal) met globale-beheerdersreferenties. 
     
-2. Kies op de kaart **apparaten** **Beheren de implementatie van Office**.    Als u de kaart **apparaat acties** niet ziet in de admin **Home** pagina, klikt u op **toevoegen** (+) toe te voegen aan uw startpagina voor beheerders.
+2. Kies op de kaart **Apparaten** de optie **Office-implementatie beheren**.
+      Als u de kaart **apparaat acties** niet ziet in de admin **Home** pagina, klikt u op **toevoegen** (+) toe te voegen aan uw startpagina voor beheerders.
     
     ![Screenshot of the Devices card in the admin center](media/9982e784-dbf9-4a76-a159-bb3e2e5aa23f.png)
   

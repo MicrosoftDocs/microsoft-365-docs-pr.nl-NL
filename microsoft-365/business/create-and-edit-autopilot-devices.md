@@ -7,7 +7,10 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -19,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
 description: Informatie over het laden van apparaten met automatische piloot in Microsoft 365 Business. U kunt een profiel toewijzen aan een apparaat of een groep apparaten.
-ms.openlocfilehash: cc1f81e9efd9b16e27b8abfbb0927d241535077e
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: fff2dbc6af45ef9d4189f23849d638172c19dfb2
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277021"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>AutoPilot-apparaten maken en bewerken
 
@@ -37,10 +40,8 @@ Apparaten moeten aan deze vereisten voldoen:
 - Windows 10 versie 1703 of hoger.
     
 - Nieuwe apparaten die niet de Out-of-Box Experience van Windows hebben doorlopen.
-    
-1. Kies in het beheercentrum van Microsoft 365 Business de optie **Windows implementeren met AutoPilot** op de kaart **Apparaatacties**. 
-    
-    ![On the Device actions card, choose Deploy Windows with Autopilot.](media/160d5c2a-11a8-48f9-a8aa-70f084b85448.png)
+
+1. Kies in het beheercentrum van Microsoft 365 Business **apparaten** \> **automatische piloot** \> **toevoegen**.
   
 2. Kies op de pagina **Windows voorbereiden** het tabblad **Apparaten** \> **Apparaten toevoegen**.
     

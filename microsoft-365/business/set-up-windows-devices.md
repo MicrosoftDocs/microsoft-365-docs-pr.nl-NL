@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -16,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Informatie over het instellen van Windows-apparaten met Windows 10 Pro voor Microsoft 365 zakelijke gebruikers. '
-ms.openlocfilehash: 482199b175c568bfae420619aa02024303894789
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: f93257bd9a68385fca4f178a2e09c5c11506ee2c
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284301"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Windows-pc's instellen voor gebruikers van Microsoft 365 Business
 
@@ -33,7 +36,7 @@ Als u Windows-apparaten met Windows 7 Pro, Windows 8 Pro of Windows 8.1 Pro hebt
   
 Volg de stappen in dit onderwerp voor meer informatie over het voor Windows-apparaten uitvoeren van een upgrade naar de Windows 10 Pro makersupdate. [Voor Windows-apparaten upgrade uitvoeren naar Windows Pro makersupdate](upgrade-to-windows-pro-creators-update.md).
   
-Zie [Controleren of het apparaat is bijgewerkt naar Windows 10 Business](set-up-windows-devices.md#bkmk_verifywin10) om te controleren of u de upgrade al hebt, of om te na te gaan of de upgrade is geslaagd. 
+Zie [controleren of het apparaat is aangesloten op de Azure AD](#verify-the-device-is-connected-to-azure-ad) om te controleren of dat u de upgrade hebt, of om te controleren of de upgrade heeft gewerkt. 
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10-apparaten koppelen aan Azure AD van uw organisatie
 
@@ -51,7 +54,7 @@ Voor een nieuw apparaat met Windows 10 Pro makersupdate of voor een apparaat waa
     
 3. Voltooi de apparaatinstellingen voor Windows 10.
     
-   Als u klaar bent, wordt de gebruiker verbonden met Azure AD van uw organisatie. In [Controleren of het apparaat is verbonden met Azure AD](set-up-windows-devices.md#bkmk_verifyaad) kunt u zien hoe u dit kunt controleren. 
+   Als u klaar bent, wordt de gebruiker verbonden met Azure AD van uw organisatie. In [Controleren of het apparaat is verbonden met Azure AD](#verify-the-device-is-connected-to-azure-ad) kunt u zien hoe u dit kunt controleren. 
   
 ### <a name="for-a-device-already-set-up-and-running-windows-10-pro"></a>Voor een apparaat dat al is ingesteld en waarop Windows 10 Pro wordt uitgevoerd
 
@@ -79,7 +82,7 @@ Voor een nieuw apparaat met Windows 10 Pro makersupdate of voor een apparaat waa
   
    ![Enter your work or school email on the Let's get you signed in page](media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
-6. Op de ** zorg ervoor dat dit is uw organisatie ** pagina, controleert u of de informatie klopt en klik op **deelnemen aan**.
+6. Verifieer de informatie op de pagina **te controleren of dit uw organisatie** en klik op **deelnemen aan**.
   
    Klik op de pagina **U bent nu helemaal klaar** op **Gereed**.
   

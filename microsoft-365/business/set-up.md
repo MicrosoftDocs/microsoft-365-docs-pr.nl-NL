@@ -10,7 +10,9 @@ f1_keywords:
 - BCS365_M365SetupBanner
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -20,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Informatie over het instellen van Microsoft 365 Business door vier stappen uit te voeren.
-ms.openlocfilehash: f57239b884bd2e186c0bc01973130a10fa4cfe84
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: a1c8a41c3e291983276280a063248bdd10a7f85a
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982192"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283886"
 ---
 # <a name="set-up-microsoft-365-business-by-using-the-setup-wizard"></a>Microsoft 365 Business instellen met de wizard Setup
 
@@ -53,11 +55,11 @@ De installatie stappen omvatten informatie over instellingen die de lokale Activ
     
 3. Voer de domeinnaam in die u wilt gebruiken (zoals contoso.com).
     
-    Ga verder en geef uw domein, zelfs als u dit hebt gecontroleerd tijdens het gebruik van Azure AD Connect, bijvoorbeeld. De volgende twee stappen niet van toepassing op u als u Azure AD verbinden om te controleren of uw domein gebruikt.
+    Geef nu uw domein op, zelfs als u dit hebt geverifieerd met bijvoorbeeld Azure AD Connect. De volgende twee stappen niet van toepassing op u als u Azure AD verbinden om te controleren of uw domein gebruikt.
     
 4. Volg de stappen in de wizard [maken DNS-records bij een DNS-hosting provider voor Office 365](https://support.office.com/article/7b7b075d-79f9-4e37-8a9e-fb60c1d95166) waarmee wordt gecontroleerd of dat u de eigenaar van het domein. 
     
-    Ziet u een voorbeeld van de video van [Video: Office 365-instelling in het nieuwe Admin Center](https://support.office.com/article/a8c2002a-34bc-4ab3-93d8-9b5156c48bf8). Opmerking: deze video bevat niet de stappen van de bescherming van gegevens van Microsoft 365 Business.
+    Ziet u een voorbeeld van de video van [Video: Office 365-instelling in het nieuwe Admin Center](https://support.office.com/article/a8c2002a-34bc-4ab3-93d8-9b5156c48bf8). In deze video zijn de stappen voor de gegevensbescherming van Microsoft 365 Business niet opgenomen.
     
     ![Screenshot of the Business Cloud Suite setup wizard.](media/3c4fd40c-2de1-4a87-8ee0-78d3928c7bb7.png)
   
@@ -84,13 +86,13 @@ De installatie stappen omvatten informatie over instellingen die de lokale Activ
   
 Als u services wilt instellen, moet u enkele records bij uw DNS-host of domeinregistrar bijwerken.
   
-1. De wizard setup detecteert uw registratieservice meestal en geeft u een koppeling naar de stapsgewijze instructies voor het bijwerken van de NS-records bij de domeinregistratie. Als dat niet het geval, [nameservers voor het instellen van Office 365 met een domeinregistratieservice wijzigen](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2).
+1. Meestal wordt uw registrar automatisch gedetecteerd met de installatiewizard en wordt een koppeling weergegeven naar stapsgewijze instructies voor het bijwerken van uw NS-records op de website van de registrar. Als dat niet het geval, [nameservers voor het instellen van Office 365 met een domeinregistratieservice wijzigen](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2).
     
 2. E-mail en andere services worden voor u ingesteld
     
 ### <a name="step-4-manage-devices-and-work-files"></a>Stap 4: Apparaten beheren en bestanden te werken
 
-1. Op de **werkbestanden beveiligen op uw mobiele apparaten** instellen pagina **beveiligen werkbestanden bij verlies of diefstal van de apparaten** en instellingen **beheren hoe gebruikers toegang kunnen krijgen tot Office-bestanden op mobiele apparaten** **aan**. U kunt ook toegang krijgen tot elk sub instellen door te klikken op de pijltjes naast elke instelling.
+1. Stel op de pagina **Werkbestanden beveiligen op uw mobiele apparaten** de instellingen **Werkbestanden beveiligen bij verlies of diefstal van de apparaten** en **Beheren hoe gebruikers Office-bestanden op mobiele apparaten openen** in op **Aan**. U kunt ook toegang krijgen tot elk sub instellen door te klikken op de pijltjes naast elke instelling.
   
   Alle werkbestanden van uw gelicentieerde gebruikers kunnen nu worden beveiligd op iOS en Android-apparaten, zodra ze [Office apps installeren](set-up-mobile-devices.md) (en te verifiëren met hun referenties Microsoft 365 Business). 
   

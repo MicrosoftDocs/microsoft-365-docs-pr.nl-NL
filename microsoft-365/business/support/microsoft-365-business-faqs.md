@@ -5,16 +5,17 @@ author: jasongroce
 ms.author: jasgro
 ms.topic: article 
 ms.prod: microsoft-365-business
+ms.collection: M365-subscription-management
 localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, veelgestelde vragen, antwoorden, business
 ms.date: 06/08/2018
-ms.openlocfilehash: e5937b1436701e872898dc079ba892181772202f
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 1e277aed366d82e524ef99c43ab0401b5d35e5b0
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286120"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft 365 Business
 
@@ -29,11 +30,11 @@ Microsoft 365 is een geïntegreerde oplossing die productiviteitstools best in c
 * Zakelijke toepassingen van Office (boekingen, Klantenbeheer voor Outlook, MileIQ<sup>[1](#footnote1)</sup>, Microsoft aanbiedingen<sup>[1](#footnote1)</sup>, Microsoft verbindingen<sup>[1](#footnote1)</sup>, Microsoft facturering-<sup>[1](#footnote1)</sup>) 
  
 **Enterprise-grade apparaat mogelijkheden voor beheer en beveiliging** 
-- Zorgt voor bescherming tegen externe bedreigingen, zoals phishing & Geavanceerde malware met Office 365 Advanced Threat Protection en Windows Defender misbruiken Guard 
--  Helpt bepalen en beheren hoe gevoelige informatie is toegankelijk en verzonden met een beleid voor Office 365 gegevensverlies voorkomen (beschikbaar te zijn in de zomer van 2018) en Azure informatie bescherming Plan 1 
+- Zorgt voor bescherming tegen externe bedreigingen, zoals phishing & geavanceerde malware met Office 365 Advanced Threat Protection en Windows Defender misbruiken Guard 
+-  Helpt bij het besturingselement & beheren hoe gevoelige informatie is toegankelijk en verzonden met een beleid voor Office 365 gegevensverlies voorkomen (beschikbaar te zijn in de zomer van 2018) en Azure informatie bescherming Plan 1 
 -  Beschermen, bewaren en back-up van uw gegevens met Exchange Online Archiving  
--   App-bescherming voor Office en andere mobiele toepassingen met Intune App Protection 
--  Apparaatbeheer van Windows 10 pc's, MacOS en apparaten voor mobiele telefoons met Apparaatbeheer Intune 
+-   App-bescherming voor Office & andere mobiele toepassingen met Intune App Protection 
+-  Apparaatbeheer voor Windows 10 pc's, MacOS & apparaten voor mobiele telefoons met Apparaatbeheer Intune 
 -  Consistente beveiligingsconfiguratie tussen apparaten - bescherming van bedrijfsgegevens via apparaten - Windows Defender, altijd actief en up-to-date 
  
  
@@ -81,10 +82,10 @@ Microsoft 365 Business biedt klanten een eenvoudige maar krachtige manier medewe
   
 * Bedrijven die aallows **Device Management voor Windows 10 pc's** instellen en afdwingen van mogelijkheden, zoals de bescherming van Windows Defender voor malware, automatische updates en schermen uitschakelen na een voorgeschreven tijd kiezen. Verloren of gestolen Windows 10-apparaten kunnen bovendien volledig gewist van zakelijke toepassingen en gegevens via het Admin center. 
 
-* **Apparaat voor iOS, Android en MacOS** beheerfuncties kunnen ondernemingen veilig beheer van een apparaatecosysteem van diverse met iOS, Android, Windows en Mac OS-apparaten. 
+* **Apparaat voor iOS, Android & MacOS** beheerfuncties kunnen ondernemingen veilig beheer van een apparaatecosysteem van diverse met iOS, Android, Windows en Mac OS-apparaten. 
 
 ### <a name="how-does-microsoft-365-business-help-protect-pcs-in-my-organization-from-malicious-attacks"></a>Hoe beschermt Microsoft 365 zakelijke pc's in mijn organisatie tegen schadelijke aanvallen tegen? 
-Pc's die worden beheerd met Microsoft 365 Business zijn beveiligd met Windows Defender, de nr. 1 antivirus functie op Windows 10, bescherming van meer computers tegen virussen, malware, spyware en andere bedreigingen dan een andere oplossing is.  Met Microsoft 365 Business, kunnen bedrijven ervoor zorgen voor bescherming van Windows Defender wordt uitgevoerd en altijd bijgewerkt op al hun apparaten Windows 10.  
+Beheerd met Microsoft 365 zakelijke pc's zijn beveiligd met Windows Defender, wordt het veld. 1 antivirus-functie in Windows 10, bescherming van meer computers tegen virussen, malware, spyware en andere bedreigingen dan een andere oplossing.  Met Microsoft 365 Business, kunnen bedrijven ervoor zorgen voor bescherming van Windows Defender wordt uitgevoerd en altijd bijgewerkt op al hun apparaten Windows 10.  
  
 Windows bevat 10 Windows Defender misbruiken Guard, een nieuwe reeks inbraak preventie-mogelijkheden. Een van de functies, toegang tot een map gereguleerde, stopt ransomware in haar nummers door mappen te vergrendelen en te voorkomen dat niet-geautoriseerde apps toegang hebben tot belangrijke bestanden van de gebruiker. 
 
@@ -179,7 +180,7 @@ Microsoft 365 Business maakt geen een anders niet-legitieme versie van Windows l
 Dezelfde ondersteuning kanalen voor vandaag CSP partners (premier support en geavanceerde support-programma) op Microsoft 365 Business zijn getraind en gereed zijn voor de ondersteuning van uw partners. 
 
 ### <a name="what-is-the-gdpr-and-how-does-microsoft-365-business-help-customers-with-their-compliance-obligations"></a>Wat is de GDPR en hoe Microsoft 365 Business helpt klanten met hun verplichtingen?
-Algemene Data Protection Verordening (GDPR) is een uitgebreide nieuwe privacy wet die ingezetenen van de Europese Unie (EU) meer controle over hun 'persoonlijke gegevens' geeft en organisaties die de integriteit van de persoonlijke gegevens vereist. De GDPR organisaties, moet dat besturingselement of proces dat persoonlijke gegevens die zijn gekoppeld aan inwoners van de EU-fabrikanten verwerkers die voldoen aan de vereisten van de GDPR voor de verwerking van persoonlijke gegevens alleen worden gebruikt. Microsoft heeft in maart 2017, beschikbare contractuele garanties die deze garanties bieden. Klanten met vragen over hoe Microsoft kan hen helpen voldoen aan hun verplichtingen in het extra GDPR moeten informatie over de naleving van geavanceerde en beveiligingsmogelijkheden beschikbaar als invoegtoepassingen (bv. informatiebeveiliging Azure, gegevensverlies voorkomen, Advnaced Threat Protection, enz.) en in andere pakketten (bijvoorbeeld Microsoft 365 Enterprise E5). Voor meer informatie, Ga naar [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr).
+Algemene Data Protection Verordening (GDPR) is een uitgebreide nieuwe privacy wet die ingezetenen van de Europese Unie (EU) meer controle over hun 'persoonlijke gegevens' geeft en organisaties die de integriteit van de persoonlijke gegevens vereist. De GDPR organisaties, moet dat besturingselement of proces dat persoonlijke gegevens die zijn gekoppeld aan inwoners van de EU-fabrikanten verwerkers die voldoen aan de vereisten van de GDPR voor de verwerking van persoonlijke gegevens alleen worden gebruikt. Microsoft heeft in maart 2017, beschikbare contractuele garanties die deze garanties bieden. Klanten met vragen over hoe Microsoft kan hen helpen voldoen aan hun verplichtingen in het extra GDPR moeten informatie over de naleving van geavanceerde en beveiligingsmogelijkheden beschikbaar als invoegtoepassingen (bv. informatiebeveiliging Azure, gegevensverlies voorkomen, Geavanceerd Threat Protection, enz.) en in andere pakketten (bijvoorbeeld Microsoft 365 Enterprise E5). Voor meer informatie, Ga naar [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr).
 
 
 

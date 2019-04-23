@@ -8,7 +8,10 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -19,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
 description: Informatie over hoe de beveiligingsfuncties van Microsoft 365 Business toewijzen aan instellingen Intune. Het abonnement biedt u een licentie voor het wijzigen van instellingen voor Intune.
-ms.openlocfilehash: 5ee5a457fe3f265dd37f6806ca8c11fe096718b6
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: ddd520cd059c84e5d64e967fe5631fe2f6bce0d4
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983012"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278550"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-map-to-intune-settings"></a>Hoe beveiligingsfuncties in Microsoft 365 Business zijn toegewezen aan Intune-instellingen
 
@@ -85,7 +88,7 @@ Klik op de beleidsnaam die u wilt selecteren en kies **Algemeen, Toewijzingen**,
 
 In de volgende tabel vindt u informatie over hoe de apparaatconfiguratie voor Windows 10-apparaten wordt toegewezen aan Intune-instellingen.
   
-De Intune zoeken instellen, terwijl u aangemeld met de referenties van Microsoft 365 Business admin, Ga naar de [Azure portal](https://portal.azure.com)Selecteer **meer services**en Intune in de **Filter**Typ en selecteer vervolgens **Intune** \> **apparaat configuratie** \> **profielen**. Selecteer **apparaatbeleid voor Windows 10** \> **Eigenschappen** \> **Instellingen**.
+De Intune zoeken instellen, terwijl u aangemeld met de referenties van Microsoft 365 Business admin, Ga naar de [Azure portal](https://portal.azure.com)Selecteer **meer services**en Intune in de **Filter**Typ en selecteer vervolgens **Intune** \> **apparaat configuratie** \> **profielen**. Then select **Device policy for Windows 10** \> **Properties** \> **Settings**.
   
 |**Beleidsinstelling voor Windows 10-apparaten**|**Intune-instelling(en)**|
 |:-----|:-----|
@@ -95,7 +98,7 @@ De Intune zoeken instellen, terwijl u aangemeld met de referenties van Microsoft
 |Gebruikers toestaan om apps te downloaden vanuit de Microsoft Store  <br/> |Aangepast URI-beleid  <br/> |
 |Gebruikers toestaan om Cortana te openen  <br/> |**Algemeen** \> **Cortana** wordt ingesteld op **Blokkeren** in Intune als indien ingesteld op **Uit** in Microsoft 365 Business.  <br/> |
 |Gebruikers toestaan om Windows-tips en reclame van Microsoft te ontvangen  <br/> |**Windows-spotlight**, volledig geblokkeerd indien ingesteld op **Uit** in Microsoft 365 Business.  <br/> |
-|Windows 10-apparaten automatisch bijwerken  <br/> | Deze instelling bevindt zich in **Microsoft Intune** \> **Service-updates - Windows 10-updateringen**. Kies **Updatebeleid voor Windows 10-apparaten** en vervolgens **Eigenschappen** \> **Instellingen**.    <br/>  Als de instelling Microsoft 365 Business is ingesteld op **Aan**, worden de volgende instellingen ingesteld:  <br/> **Servicebranch** wordt ingesteld op **CB** (CBB als dit is uitgeschakeld in Microsoft 365 Business).  <br/> **Microsoft-productupdates** wordt ingesteld op **Toestaan**.  <br/> **Windows-stuurprogramma's** wordt ingesteld op **Toestaan**.  <br/> **Gedrag van automatische updates** wordt ingesteld op **Automatisch installeren op het tijdstip voor onderhoud** met:  <br/> **Start gebruikstijd** ingesteld op **6 uur**.  <br/> **Einde gebruikstijd** ingesteld op **22 uur**.  <br/> **Uitstelperiode voor kwaliteitsupdates (dagen)** wordt ingesteld op **0**.  <br/> **Uitstelperiode voor onderdelenupdates (dagen)** wordt ingesteld op **0**.  <br/> **Delivery Optimization-downloadmodus** wordt ingesteld op **HTTP gemengd met peers achter hetzelfde NAT**.  <br/> |
+|Windows 10-apparaten automatisch bijwerken  <br/> | Deze instelling bevindt zich in **Microsoft Intune** \> **Service-updates - Windows 10-updateringen**. Kies **Updatebeleid voor Windows 10-apparaten** en vervolgens **Eigenschappen** \> **Instellingen**.      <br/>  Als de instelling Microsoft 365 Business is ingesteld op **Aan**, worden de volgende instellingen ingesteld:  <br/> **Servicebranch** wordt ingesteld op **CB** (CBB als dit is uitgeschakeld in Microsoft 365 Business).  <br/> **Microsoft-productupdates** wordt ingesteld op **Toestaan**.  <br/> **Windows-stuurprogramma's** wordt ingesteld op **Toestaan**.  <br/> **Gedrag van automatische updates** wordt ingesteld op **Automatisch installeren op het tijdstip voor onderhoud** met:  <br/> **Start gebruikstijd** ingesteld op **6 uur**.  <br/> **Einde gebruikstijd** ingesteld op **22 uur**.  <br/> **Uitstelperiode voor kwaliteitsupdates (dagen)** wordt ingesteld op **0**.  <br/> **Uitstelperiode voor onderdelenupdates (dagen)** wordt ingesteld op **0**.  <br/> **Delivery Optimization-downloadmodus** wordt ingesteld op **HTTP gemengd met peers achter hetzelfde NAT**.  <br/> |
 |||
    
 

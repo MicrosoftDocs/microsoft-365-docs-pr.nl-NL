@@ -10,11 +10,11 @@ audience: microsoft-business 
 keywords: Microsoft Business 365, Microsoft 365, SMB, overgang CSP-abonnement
 ms.date: 11/01/2017
 ms.openlocfilehash: 8109c0b00f06a15c12bbccf89e7f49dc3fa4b34a
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286214"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Overgang van een Cryptografieprovider van Microsoft 365 Business abonnement
 
@@ -48,7 +48,7 @@ Als u een Cryptografieprovider van Microsoft 365 Business Preview-abonnement heb
 
     ![Controleer dat de status van het voorbeeld-abonnement is uitgesteld.](images/pc_customer_m365bpreview_suspend_confirm.png)
 
-9. U kunt desgewenst ook de gebruiksrechtovereenkomst valideren. Ga hiervoor als volgt te werk:
+9. U kunt desgewenst ook de gebruiksrechtovereenkomst valideren. Volg deze stappen om dit te doen:
     1. Selecteer **gebruikers en licenties** in de pagina **abonnementen** van het bedrijf.
     2. Selecteer een gebruiker op de pagina **gebruikers en licenties** .
     3. Pagina van de gebruiker de sectie voor het **toewijzen van licenties** en controleer dat het bevat **Microsoft 365 Business**.
@@ -81,7 +81,7 @@ De tabel followint bevat een overzicht van de gevolgen voor het beleid voor app 
 |                            | Volledige licentie ervaring                      | T + 60 dagen na vervaldatum          |
 |----------------------------|------------------------------------------------|------------------------------------|
 | **Werkbestanden verwijderen van een apparaat niet-actief** | De werkbestanden worden verwijderd nadat de geselecteerde dagen | Werkbestanden blijven op persoonlijke apparaten van de gebruiker |
-| **Afdwingen dat gebruikers alle werkbestanden opslaan in OneDrive voor Bedrijven** | Werkbestanden kunnen alleen worden opgeslagen naar OneDrive voor bedrijven | Werkbestanden kunnen overal worden opgeslagen. |
+| **Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven** | Werkbestanden kunnen alleen worden opgeslagen naar OneDrive voor bedrijven | Werkbestanden kunnen overal worden opgeslagen. |
 | **Werkbestanden versleutelen** | Werkbestanden worden gecodeerd | Werkbestanden zijn niet langer gecodeerd.</br> Beveiligingsbeleid worden verwijderd en gegevens op apps Office is verwijderd. |
 | **PIN nodig of toegang tot Office apps vingerafdruk** | Beperkte toegang tot apps | Geen beperking van app-niveau |
 | **PINCODE opnieuw instellen wanneer het aanmelden is mislukt** | Beperkte toegang tot apps | Geen beperking van app-niveau |

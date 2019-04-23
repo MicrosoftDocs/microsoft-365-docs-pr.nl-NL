@@ -5,10 +5,12 @@ author: Sirkkuw
 manager: scotv
 ms.date: 9/20/2018
 ms.audience: Admin
-ms.topic: overview
+ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -19,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Informatie over Microsoft 365 Business instellen.
-ms.openlocfilehash: ee15ffa98de032d7936d950124cdf772335949bd
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 80c6590a682af5fadeceac7a75e409adac897f6f
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983282"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32276717"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Aan de slag met Microsoft 365 Business
 
@@ -44,7 +46,7 @@ Microsoft 365 Business is bedoeld voor maximaal 300 licenties. Als u meer licent
 
  **Overzicht van Microsoft 365 Business Suite instellen**
   
-In het volgende diagram wordt beschreven hoe Microsoft 365 Business beheerders instellen. Hierin worden ook de stappen voor het voorbereiden van Windows-pc's voor Microsoft 365 Business. U kunt ook nieuwe apparaten aan toevoegen in het Microsoft 365 Business admin center met de [Windows Automatische piloot](add-autopilot-devices-and-profile.md). U kunt automatische piloot en vooraf configureren nieuwe apparaten voorbereiden ze productief gebruik als een gebruiker zich met de referenties van Microsoft 365 Business aanmeldt.
+In het volgende diagram wordt beschreven hoe Microsoft 365 Business beheerders instellen. Ook worden de stappen beschreven voor de voorbereiding van Windows-pc's voor Microsoft 365 Business. U kunt ook nieuwe apparaten toevoegen in het Microsoft 365 Business-beheercentrum met de [Windows AutoPilot](add-autopilot-devices-and-profile.md). U kunt AutoPilot gebruiken voor het instellen en vooraf configureren van nieuwe apparaten, zodat deze klaar zijn voor productief gebruik wanneer een gebruiker zich aanmeldt met de Microsoft 365 Business-referenties.
   
 ![A diagram that shows the setup and management flow for admins, and also for a user](media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
   
@@ -58,13 +60,13 @@ Meld u aan bij het [Microsoft 365 Business-beheercentrum](https://portal.office.
     
 2. [Microsoft 365 Business instellen met de wizard Setup](set-up.md)
     
-    Als u **permanent verplaatsen van een lokale Active Directory naar de cloud**, kunt u ofwel uw gebruikers handmatig toevoegen in het beheercentrum voor Microsoft 365 Business met behulp van de wizard setup of u kunt een eenmalige synchronisatie met Azure AD verbinden doen. Er zijn twee manieren om dit te doen: 
+    Als u **permanent verplaatsen van een lokale Active Directory naar de cloud**, kunt u ofwel uw gebruikers handmatig toevoegen in het beheercentrum voor Microsoft 365 Business met behulp van de wizard setup of u kunt een eenmalige synchronisatie met Azure AD verbinden doen. U kunt dit op twee manieren doen: 
     
-  - Hebt u ook een Exchange 2010, Exchange 2013 of 2016 van Exchange server, kunt u de [Minimale hybride gebruik snel migreren naar Office 365 Exchange-postbussen](https://support.office.com/article/fdecceed-0702-4af3-85be-f2a0013937ef). De minimale hybride stappen omvatten een eenmalige synchronisatie van gebruikers naar Azure AD evenals e-migratie op ruimten naar de cloud. Na voltooiing van de migratie van de e-mail wordt de directory-synchronisatie automatisch uitgeschakeld als u deze methode gebruikt.
+  - Hebt u ook een Exchange 2010, Exchange 2013 of 2016 van Exchange server, kunt u de [Minimale hybride gebruik snel migreren naar Office 365 Exchange-postbussen](https://support.office.com/article/fdecceed-0702-4af3-85be-f2a0013937ef). De minimale hybride stappen omvatten een eenmalige synchronisatie van gebruikers met Azure AD en de e-mailmigratie van on-premises naar de cloud. Wanneer de e-mailmigratie is voltooid, wordt de adreslijstsynchronisatie automatisch uitgeschakeld bij gebruik van deze methode.
     
   - Gebruik de Office 365-wizard voor adreslijstsynchronisatie om uw gebruikers te synchroniseren met de cloud. Volg de stappen in [Set up directory synchronization for Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) om dit proces te voltooien. Nadat u uw gebruikers hebt gesynchroniseerd met de cloud, moet u [Turn off directory synchronization for Office 365](https://support.office.com/article/ee5f861e-bd48-4267-83d1-a4ead4b4a00d).
     
-    U moet elke gebruiker die op deze manier een licentie is toegevoegd aan Microsoft 365 Business geven. U kunt dit doen in de [wizard setup](set-up.md)of in het [toewijzen van licenties aan gebruikers in Office 365 voor bedrijven](https://support.office.com/article/997596B5-4173-4627-B915-36ABAC6786DC).
+    U moet ook aan elke gebruiker die op deze manier is toegevoegd, een licentie voor Microsoft 365 Business verlenen. U kunt dit doen in de [wizard setup](set-up.md)of in het [toewijzen van licenties aan gebruikers in Office 365 voor bedrijven](https://support.office.com/article/997596B5-4173-4627-B915-36ABAC6786DC).
     
 ### <a name="2-prepare-mobile-devices"></a>2: voorbereiden van mobiele apparaten
 

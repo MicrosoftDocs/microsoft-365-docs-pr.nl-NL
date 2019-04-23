@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -16,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Meer informatie over standaard- en andere instellingen die beschikbaar zijn in Microsoft 365 Business voor het beveiligen van Windows 10-apparaten.
-ms.openlocfilehash: ebfe5f59e544b67e5a4f2ecd990031e9221ff8e5
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: f9e890cde7a8290a9a8e81720d32a6a2889c312f
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285910"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Instellingen voor apparaatbeveiliging instellen voor Windows 10-pc's
 
@@ -31,17 +34,15 @@ Bekijk een video over het beveiligen van Windows 10-apparaten met Microsoft 365 
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
-1. Meld u aan bij [Microsoft 365 Business](https://portal.office.com) met globale-beheerdersreferenties. 
+1. Het aanmelden bij [admin center](https://go.microsoft.com/fwlink/p/?linkid=837890) met de globale Administrator-referenties. 
     
-2. Kies in het beheercentrum op de kaart **Apparaatbeleid** de optie **Beleid toevoegen**.
-    
-    ![Device policies card in the admin center.](media/27c12b61-d112-4348-b557-4f3e46204797.png)
+2. Kies op de Linkernavigatie **apparaten** \> **beleid** \> **toevoegen**.
   
 3. Voer in het deelvenster **Beleid toevoegen** een unieke naam in voor dit beleid. 
     
 4. Kies onder **Beleidstype** **Configuratie voor Windows 10-apparaat**.
     
-5. Vouw **Windows 10-apparaten beveiligen** uit \> configureer de instellingen op de manier die u wilt. Zie [Beschikbare instellingen](protection-settings-for-windows-10-pcs.md#bkmk_availablesettings) voor meer informatie. 
+5. Vouw **Windows 10-apparaten beveiligen** uit \> configureer de instellingen op de manier die u wilt. Zie [Beschikbare instellingen](#available-settings) voor meer informatie. 
     
     U kunt altijd de koppeling **Standaardwaarden herstellen** gebruiken om terug te keren naar de standaardinstelling. 
     

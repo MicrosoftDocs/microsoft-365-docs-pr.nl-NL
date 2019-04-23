@@ -7,7 +7,10 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -18,28 +21,26 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: Informatie over het maken, bewerken, of verwijderen van een beleid voor het beheer van app en werkbestanden op Android of iOS apparaten te beschermen.
-ms.openlocfilehash: ed03227496120369b94bf2396974eebfd7798678
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: e81ff8a4bd71dbbbf7ccc31249d450e03f4bd241
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277441"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Instellingen voor app-beveiliging instellen voor Android- of iOS-apparaten
 
 ## <a name="create-an-app-management-policy"></a>Beleid voor app-beheer maken
 
-1. Meld u aan bij [Microsoft 365 Business](https://portal.office.com) met globale-beheerdersreferenties. 
+1. Aanmelden bij [Microsoft 365 Business admin center](https://go.microsoft.com/fwlink/p/?linkid=837890) met de referenties van de globale beheerder. 
     
-2. Kies in het beheercentrum op de kaart **Apparaatbeleid** de optie **Beleid toevoegen**.
-    
-    ![Device policies card in the admin center.](media/27c12b61-d112-4348-b557-4f3e46204797.png)
+2. Kies in het beheercentrum **apparaten** \> **beleid** \> **beleid toevoegen**.
   
 3. Voer in het deelvenster **Beleid toevoegen** een unieke naam in voor dit beleid. 
     
 4. Kies onder **Type beleid** de optie **Toepassingsbeheer voor Android** of **Toepassingsbeheer voor iOS**, afhankelijk van de set beleidsregels die u wilt maken. 
     
-5. Vouw **Werkbestanden beveiligen bij verlies of diefstal van apparaten** en **Beheren hoe gebruikers Office-bestanden op mobiele apparaten openen** uit \> configureer de instellingen op de gewenste manier. De optie **Beheren hoe gebruikers Office-bestanden op mobiele apparaten openen** is standaard **Uit**. U wordt echter aangeraden de optie in te stellen op **Aan** en de standaardwaarden te accepteren. Zie [Beschikbare instellingen](app-protection-settings-for-android-and-ios.md#bkmk_availablesettings) voor meer informatie. 
+5. Vouw **werkbestanden beveiligen bij verlies of diefstal van de apparaten** en **hoe gebruikers toegang kunnen krijgen tot Office-bestanden op mobiele apparaten beheren** \> de gewenste instellingen te configureren. De **manier waarop gebruikers toegang kunnen krijgen tot Office-bestanden op mobiele apparaten beheren** is standaard **uitgeschakeld** , maar het is aanbevolen dat u **deze functie inschakelen** en accepteer de standaardwaarden. Zie de [beschikbare instellingen](#available-settings) voor meer informatie. 
     
     U kunt altijd de koppeling **Standaardwaarden herstellen** gebruiken om terug te keren naar de standaardinstelling. 
     
@@ -63,7 +64,7 @@ ms.locfileid: "26983662"
 
 1. Kies op de kaart **Beleid** de optie **Beleid verwijderen**.
     
-2. Kies het beleid dat u wilt verwijderen in het deelvenster **beleid verwijderen** \> **selecteren**en vervolgens **bevestigen** verwijderen van het beleid of het beleid dat u hebt gekozen. 
+2. On the **Delete policy** pane, choose the policies you want to delete \> **Select**, then **Confirm** to delete the policy or policies you chose. 
     
 ## <a name="available-settings"></a>Beschikbare instellingen
 
@@ -78,13 +79,13 @@ De volgende instellingen zijn beschikbaar voor het beveiligen van werkbestanden 
 |||
 |:-----|:-----|
 |Instelling  <br/> |Beschrijving  <br/> |
-|Werkbestanden van een inactief apparaat verwijderen na zoveel dagen  <br/> |Als een apparaat het aantal dagen dat u hier opgeeft, niet wordt gebruikt, worden werkbestanden die op het apparaat zijn opgeslagen, automatisch verwijderd.  <br/> |
-|Afdwingen dat gebruikers alle werkbestanden opslaan in OneDrive voor Bedrijven  <br/> |Als deze instelling is **ingeschakeld**, is OneDrive voor Bedrijven de enige beschikbare opslaglocatie voor werkbestanden.  <br/> |
-|Werkbestanden versleutelen  <br/> |Laat deze instelling **ingeschakeld**, zodat werkbestanden worden beveiligd met versleuteling. Zelfs bij verlies of diefstal van het apparaat kan niemand de bedrijfsgegevens lezen.  <br/> |
+|Werkbestanden van een inactief apparaat verwijderen na zoveel dagen  <br/> |Als een apparaat niet het aantal dagen wordt gebruikt dat u hier opgeeft, worden werkbestanden die op het apparaat zijn opgeslagen, automatisch verwijderd.  <br/> |
+|Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven  <br/> |Als deze instelling is **ingeschakeld**, is OneDrive voor Bedrijven de enige beschikbare opslaglocatie voor werkbestanden.  <br/> |
+|Werkbestanden versleutelen  <br/> |Laat deze instelling **ingeschakeld** zodat werkbestanden worden beveiligd door versleuteling. Zelfs bij verlies of diefstal van het apparaat kan niemand de bedrijfsgegevens lezen.  <br/> |
    
 ### <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>Instellingen waarmee wordt bepaald hoe gebruikers toegang hebben tot Office-bestanden op mobiele apparaten
 
-De volgende instellingen zijn beschikbaar om te beheren hoe gebruikers toegang hebben tot Office-werkbestanden:
+De volgende instellingen zijn beschikbaar om te bepalen hoe gebruikers toegang tot Office-werkbestanden hebben:
   
 |||
 |:-----|:-----|
@@ -92,8 +93,8 @@ De volgende instellingen zijn beschikbaar om te beheren hoe gebruikers toegang h
 |Een pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps  <br/> |Als deze instelling is **ingeschakeld**, moeten gebruikers een extra vorm van verificatie gebruiken, naast het verstrekken van gebruikersnaam en wachtwoord, voordat ze de Office-apps op hun mobiele apparaat kunnen gebruiken.  <br/> |
 |Pincode opnieuw instellen wanneer het aanmelden ... keer mislukt  <br/> |Om te voorkomen dat een niet-geautoriseerde gebruiker een pincode kan raden, wordt de pincode opnieuw ingesteld na het aantal door u opgegeven verkeerde aanmeldpogingen.  <br/> |
 |Vereisen dat gebruikers zich opnieuw aanmelden als Office-apps inactief zijn geweest gedurende  <br/> |Met deze instelling wordt bepaald hoelang gebruikers inactief kunnen zijn voordat hun wordt gevraagd zich opnieuw aan te melden.  <br/> |
-|Toegang weigeren tot werkbestanden op jailbroken of geroote apparaten  <br/> |Slimme gebruikers hebben mogelijk een jailbroken of geroot apparaat. Dit betekent dat de gebruiker het besturingssysteem kan aanpassen, waardoor het apparaat gevoeliger kan worden voor malware. Deze apparaten worden geblokkeerd wanneer deze instelling **Aan** is.  <br/> |
-|Gebruikers toestaan om inhoud uit Office-apps te kopiëren naar persoonlijke apps  <br/> |Wij staan toe dat dit standaard, maar als de instelling **ingeschakeld is**, de gebruiker informatie in een werkbestand kan kopiëren naar een bestand met persoonlijke. Als de instelling **uitgeschakeld is**, wordt de gebruiker om gegevens te kopiëren van een werk-rekening in een persoonlijke account of een persoonlijke app kan zijn.<br/> |
+|Toegang weigeren tot werkbestanden op jailbroken of geroote apparaten  <br/> |Slimme gebruikers hebben mogelijk een jailbroken of geroot apparaat. Dit betekent dat de gebruiker het besturingssysteem kan aanpassen, waardoor het apparaat gevoeliger zou kunnen worden voor malware. Deze apparaten worden geblokkeerd wanneer deze instelling is **ingeschakeld**.  <br/> |
+|Gebruikers toestaan om inhoud uit Office-apps te kopiëren naar persoonlijke apps  <br/> |Dit is standaard toegestaan, maar als de instelling **Aan** is, kan de gebruiker gegevens uit een werkbestand kopiëren naar een persoonlijk bestand. Als de instelling **Uit** is, kan de gebruiker geen gegevens uit een werkbestand kopiëren naar een persoonlijke app of persoonlijk account.  <br/> |
    
 
   
