@@ -8,14 +8,15 @@ keywords: Microsoft 365 Business, Microsoft 365, business, SMB, kleine tot midde
 localization_priority: Normal
 audience: microsoft-business
 ms.prod: microsoft-365-business
+ms.collection: M365-subscription-management
 title: Microsoft 365 Business resources
 description: Informatie over het plannen, implementeren en Microsoft Office 365, Windows 10, en Enterprise Mobility-beveiliging niet samen gebruiken in uw bedrijf voor een geïntegreerde en veilige infrastructuur waarmee teamwork en creativiteit wordt ontgrendeld.
-ms.openlocfilehash: 386c829a6b635b1b23301e838f05b0b84bbfb3b4
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: fc3a702f76426f3b7ffcb0f45996b097d0d17e94
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982502"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278492"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -41,7 +42,7 @@ ms.locfileid: "26982502"
                                             <div class="cardText">
                                                 <h3>Verkennen</h3>
                                                 <P><a href="https://support.office.com/article/what-is-microsoft-365-business-901e2522-c2cf-4b8c-894e-f482cda3347a" target="_blank">Overzicht</a></p>
-                                                <P><a href="microsoft-365-business-overview.md" target="_blank">Aan de slag met Microsoft 365 Business</a></p> <P><a href="https://docs.microsoft.com/microsoft-365/business/support/microsoft-365-business-faqs" target="_blank">Veelgestelde vragen</a></p>
+                                                <P><a href="microsoft-365-business-overview.md" target="_blank">Aan de slag met Microsoft 365 Business</a></p> <P><a href="https://docs.microsoft.com/microsoft-365/business/support/microsoft-365-business-faqs" target="_blank">FAQ</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -110,7 +111,7 @@ ms.locfileid: "26982502"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Gebruik de modus </h3>
+                                                <h3>Gebruik</h3>
                                                 <P><a href="set-up-mobile-devices.md" target="_blank">Mobiele apparaten instellen</a></p>
                                                 <P><a href="https://support.office.com/office-training-center" target="_blank">Help iedereen leren werken met Office</a></p>
                                                 <P><a href="https://www.microsoft.com/itpro/windows-10/end-user-readiness" target="_blank">Help iedereen overschakelen naar Windows 10</a></p>

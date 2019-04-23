@@ -7,6 +7,7 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection: M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -16,40 +17,28 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 'Informatie over het Windows-apparaten een upgrade naar Windows 10 Pro makers van Update. '
-ms.openlocfilehash: 5a9d232ffa50b642bdeab2dea391895e759e118b
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: ec1ef0462cc1ba1cd1ae01ee28795096097e01a9
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279860"
 ---
-# <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a><span data-ttu-id="53e59-103">Upgrade Windows devices to Windows Pro Creators Update (Windows-apparaten bijwerken naar de Windows Pro-makersupdate</span><span class="sxs-lookup"><span data-stu-id="53e59-103">Upgrade Windows devices to Windows Pro Creators Update</span></span>
+# <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a><span data-ttu-id="eec01-103">Upgrade Windows devices to Windows Pro Creators Update (Windows-apparaten bijwerken naar de Windows Pro-makersupdate</span><span class="sxs-lookup"><span data-stu-id="eec01-103">Upgrade Windows devices to Windows Pro Creators Update</span></span>
 
-## <a name="upgrade-to-windows-10-pro-creators-update"></a><span data-ttu-id="53e59-104">Upgraden naar Windows 10 Pro makers bijwerken</span><span class="sxs-lookup"><span data-stu-id="53e59-104">Upgrade to Windows 10 Pro Creators update</span></span>
-
-1. <span data-ttu-id="53e59-105">Aanmelden bij het [beheercentrum van Microsoft](https://portal.office.com/adminportal/home) en Ga naar de **Windows 10 Upgrade** -kaart.</span><span class="sxs-lookup"><span data-stu-id="53e59-105">Sign in to the [Microsoft admin center](https://portal.office.com/adminportal/home) and locate the **Windows 10 Upgrade** card.</span></span> 
-    
-    ![Windows 10 Upgrade-kaart in het admin center.](media/066f47bf-7b88-4fea-8fd0-82798ea66716.png)
+## <a name="upgrade-to-windows-10-pro-creators-update"></a><span data-ttu-id="eec01-104">Upgraden naar Windows 10 Pro makers bijwerken</span><span class="sxs-lookup"><span data-stu-id="eec01-104">Upgrade to Windows 10 Pro Creators update</span></span>
   
-2. <span data-ttu-id="53e59-p101">Als u wilt upgraden naar Windows 10 Pro makers Update, hebt u verschillende mogelijkheden. U kunt:</span><span class="sxs-lookup"><span data-stu-id="53e59-p101">To upgrade to Windows 10 Pro Creators Update, you have several options. You can:</span></span>
+1. <span data-ttu-id="eec01-105">Als u wilt upgraden naar Windows 10 Pro makers Update, hebt u verschillende mogelijkheden.</span><span class="sxs-lookup"><span data-stu-id="eec01-105">To upgrade to Windows 10 Pro Creators Update, you have several options.</span></span> <span data-ttu-id="eec01-106">U kunt:</span><span class="sxs-lookup"><span data-stu-id="eec01-106">You can:</span></span>
     
-- <span data-ttu-id="53e59-109">De upgrade van de site voor het downloaden van Microsoft-Software te installeren: Selecteer deze optie als het apparaat dat u bent aangemeld op het apparaat als die u wilt bijwerken.</span><span class="sxs-lookup"><span data-stu-id="53e59-109">Install the upgrade from the Microsoft Software Download site - Select this option if the device that you're logged in is on the same device as the one you want to update.</span></span>
+    - <span data-ttu-id="eec01-107">De upgrade te installeren vanaf de [downloadsite van Microsoft Software](https://go.microsoft.com/fwlink/?LinkID=836951 ) - Selecteer deze optie als het apparaat dat u bent aangemeld op het apparaat als die u wilt bijwerken.</span><span class="sxs-lookup"><span data-stu-id="eec01-107">Install the upgrade from the [Microsoft Software Download site](https://go.microsoft.com/fwlink/?LinkID=836951 ) - Select this option if the device that you're logged in is on the same device as the one you want to update.</span></span>
     
-  <span data-ttu-id="53e59-p102">a. Selecteer **upgrade te installeren**.</span><span class="sxs-lookup"><span data-stu-id="53e59-p102">a. Select **Install upgrade**.</span></span>
+      <span data-ttu-id="eec01-108">een.</span><span class="sxs-lookup"><span data-stu-id="eec01-108">a.</span></span> <span data-ttu-id="eec01-109">Downloaden van de software site, klikt u op **Nu bijwerken** om te starten met het apparaat upgraden naar Windows 10 Pro makers van Update.</span><span class="sxs-lookup"><span data-stu-id="eec01-109">From the software download site, click **Update now** to start upgrading the device to Windows 10 Pro Creators Update.</span></span> 
     
-  <span data-ttu-id="53e59-p103">b. de software downloaden site, klikt u op **Nu bijwerken** om te starten met het apparaat upgraden naar Windows 10 Pro makers van Update.</span><span class="sxs-lookup"><span data-stu-id="53e59-p103">b. From the software download site, click **Update now** to start upgrading the device to Windows 10 Pro Creators Update.</span></span> 
+     - <span data-ttu-id="eec01-110">Maken van een van installatiemedia met behulp van het [Hulpprogramma voor het maken van Media](https://go.microsoft.com/fwlink/?LinkID=836960) - Selecteer deze optie om een Windows 10 Pro makers Update installatiemedium (USB-flashstation of ISO-bestand) naar Windows 10 te installeren op een PC die verschilt van u maken.</span><span class="sxs-lookup"><span data-stu-id="eec01-110">Create an installation media using the [Media Creation Tool](https://go.microsoft.com/fwlink/?LinkID=836960) - Select this option to create a Windows 10 Pro Creators Update installation media (USB flash drive or ISO file) to install Windows 10 on a PC that's different from the one you're using.</span></span>
     
-- <span data-ttu-id="53e59-114">Delen van de koppeling - Selecteer deze optie als u een e-mail sturen naar personen in uw organisatie zodat ze naar Windows 10 Pro zelf bijwerken kunnen wilt maken.</span><span class="sxs-lookup"><span data-stu-id="53e59-114">Share the download link - Select this option if you want to send an email to people in your organization so they can upgrade to Windows 10 Pro by themselves.</span></span>
- 
-   <span data-ttu-id="53e59-p104">a. Selecteer **delen van de download** -koppeling voor het openen van een e-mailbericht met een koppeling naar de Windows-software download site.</span><span class="sxs-lookup"><span data-stu-id="53e59-p104">a. Select **Share the download** link to open an email that contains a link to the Windows software download site.</span></span> 
+        <span data-ttu-id="eec01-111">een.</span><span class="sxs-lookup"><span data-stu-id="eec01-111">a.</span></span> <span data-ttu-id="eec01-112">Lees de instructies voor het gebruik van het hulpprogramma en de installatiemedia maken.</span><span class="sxs-lookup"><span data-stu-id="eec01-112">Read the instructions on how to use the tool and create your installation media.</span></span> 
     
- - <span data-ttu-id="53e59-117">Maken van een van installatiemedia met behulp van het hulpprogramma voor het maken van Media - Selecteer deze optie om een Windows 10 Pro makers Update installatiemedium (USB-flashstation of ISO-bestand) naar Windows 10 te installeren op een PC die verschilt van u maken.</span><span class="sxs-lookup"><span data-stu-id="53e59-117">Create an installation media using the Media Creation Tool - Select this option to create a Windows 10 Pro Creators Update installation media (USB flash drive or ISO file) to install Windows 10 on a PC that's different from the one you're using.</span></span>
-    
-    <span data-ttu-id="53e59-p105">a. Selecteer **installatiemedia maken**.</span><span class="sxs-lookup"><span data-stu-id="53e59-p105">a. Select **Create installation media**.</span></span>
-    
-    <span data-ttu-id="53e59-p106">b. Lees de instructies voor het gebruik van het hulpprogramma en de installatiemedia maken.</span><span class="sxs-lookup"><span data-stu-id="53e59-p106">b. Read the instructions on how to use the tool and create your installation media.</span></span> 
-    
-<span data-ttu-id="53e59-122">Zie [Windows-apparaten voor Microsoft 365 zakelijke gebruikers instellen](set-up-windows-devices.md) voor het voltooien van Windows 10-apparaten ingesteld.</span><span class="sxs-lookup"><span data-stu-id="53e59-122">See [Set up Windows devices for Microsoft 365 Business users](set-up-windows-devices.md) to complete setting up Windows 10 devices.</span></span> 
+<span data-ttu-id="eec01-113">Zie [Windows-apparaten voor Microsoft 365 zakelijke gebruikers instellen](set-up-windows-devices.md) voor het voltooien van Windows 10-apparaten ingesteld.</span><span class="sxs-lookup"><span data-stu-id="eec01-113">See [Set up Windows devices for Microsoft 365 Business users](set-up-windows-devices.md) to complete setting up Windows 10 devices.</span></span> 
   
-<span data-ttu-id="53e59-123">Zie [instellen van mobiele apparaten voor gebruikers van Microsoft 365 Business](set-up-mobile-devices.md) voltooid instellen van Android- en iOS-apparaten.</span><span class="sxs-lookup"><span data-stu-id="53e59-123">See [Set up mobile devices for Microsoft 365 Business users](set-up-mobile-devices.md) to complete setting up Android and iOS devices.</span></span> 
+<span data-ttu-id="eec01-114">Zie [instellen van mobiele apparaten voor gebruikers van Microsoft 365 Business](set-up-mobile-devices.md) voltooid instellen van Android- en iOS-apparaten.</span><span class="sxs-lookup"><span data-stu-id="eec01-114">See [Set up mobile devices for Microsoft 365 Business users](set-up-mobile-devices.md) to complete setting up Android and iOS devices.</span></span> 
   

@@ -7,7 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -18,38 +20,39 @@ search.appverid:
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: 'Installeren of verwijderen van Office voor Windows 10-apparaten van het Microsoft 365 Business admin center. '
-ms.openlocfilehash: 997c001ed1520f1ac989255632d36f9b7bedd16c
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: fef4a543aed489202bf05dfb1e8cafbb784ca819
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983332"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277266"
 ---
-# <a name="automatically-install-or-uninstall-office-on-windows-10-devices"></a><span data-ttu-id="ecd26-103">Office automatisch installeren op of verwijderen van Windows 10-apparaten</span><span class="sxs-lookup"><span data-stu-id="ecd26-103">Automatically install or uninstall Office on Windows 10 devices</span></span>
+# <a name="automatically-install-or-uninstall-office-on-windows-10-devices"></a><span data-ttu-id="baf36-103">Office automatisch installeren op of verwijderen van Windows 10-apparaten</span><span class="sxs-lookup"><span data-stu-id="baf36-103">Automatically install or uninstall Office on Windows 10 devices</span></span>
 
-<span data-ttu-id="ecd26-104">U kunt snel en eenvoudig Office installeren op pc's met Windows 10 vanuit het Microsoft 365 Business-beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="ecd26-104">You can quickly and easily install Office to Windows 10 PCs from the Microsoft 365 Business admin center.</span></span>
+<span data-ttu-id="baf36-104">U kunt snel en eenvoudig Office installeren op pc's met Windows 10 vanuit het Microsoft 365 Business-beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="baf36-104">You can quickly and easily install Office to Windows 10 PCs from the Microsoft 365 Business admin center.</span></span>
   
-<span data-ttu-id="ecd26-105">Lees [Office-clientinstallatie voorbereiden](prepare-for-office-client-deployment.md) voordat u begint als u wilt weten hoe dit werkt met eerder geïnstalleerde Office-apps.</span><span class="sxs-lookup"><span data-stu-id="ecd26-105">To understand how this works with previously installed Office apps, read [Prepare for Office client installation](prepare-for-office-client-deployment.md) before you get started.</span></span> 
+<span data-ttu-id="baf36-105">Lees [Office-clientinstallatie voorbereiden](prepare-for-office-client-deployment.md) voordat u begint als u wilt weten hoe dit werkt met eerder geïnstalleerde Office-apps.</span><span class="sxs-lookup"><span data-stu-id="baf36-105">To understand how this works with previously installed Office apps, read [Prepare for Office client installation](prepare-for-office-client-deployment.md) before you get started.</span></span> 
   
-## <a name="manage-office-deployments"></a><span data-ttu-id="ecd26-106">Office-implementaties beheren</span><span class="sxs-lookup"><span data-stu-id="ecd26-106">Manage Office deployments</span></span>
+## <a name="manage-office-deployments"></a><span data-ttu-id="baf36-106">Office-implementaties beheren</span><span class="sxs-lookup"><span data-stu-id="baf36-106">Manage Office deployments</span></span>
 
-1. <span data-ttu-id="ecd26-107">Meld u aan bij het [beheercentrum](https://aka.ms/bcsportal) met globale-beheerdersreferenties.</span><span class="sxs-lookup"><span data-stu-id="ecd26-107">Sign in to the [admin center](https://aka.ms/bcsportal) with global admin credentials.</span></span> 
+1. <span data-ttu-id="baf36-107">Meld u aan bij het [beheercentrum](https://aka.ms/bcsportal) met globale-beheerdersreferenties.</span><span class="sxs-lookup"><span data-stu-id="baf36-107">Sign in to the [admin center](https://aka.ms/bcsportal) with global admin credentials.</span></span> 
     
-2. <span data-ttu-id="ecd26-p101">Kies op de kaart **apparaten** **Beheren de implementatie van Office**.    Als u de kaart **apparaat acties** niet ziet in de admin **Home** pagina, klikt u op **toevoegen** (+) toe te voegen aan uw startpagina voor beheerders.</span><span class="sxs-lookup"><span data-stu-id="ecd26-p101">On the **Devices** card, choose **Manage Office Deployment**.    If you do not see the **Device actions** card, in the admin center **Home** page, click **Add** (+) to add it to your admin home.</span></span>
+2. <span data-ttu-id="baf36-108">Kies op de kaart **Apparaten** de optie **Office-implementatie beheren**.</span><span class="sxs-lookup"><span data-stu-id="baf36-108">On the **Devices** card, choose **Manage Office Deployment**.</span></span>
+      <span data-ttu-id="baf36-109">Als u de kaart **apparaat acties** niet ziet in de admin **Home** pagina, klikt u op **toevoegen** (+) toe te voegen aan uw startpagina voor beheerders.</span><span class="sxs-lookup"><span data-stu-id="baf36-109">If you do not see the **Device actions** card, in the admin center **Home** page, click **Add** (+) to add it to your admin home.</span></span>
     
     ![Screenshot of the Devices card in the admin center](media/9982e784-dbf9-4a76-a159-bb3e2e5aa23f.png)
   
-3. <span data-ttu-id="ecd26-111">In het deelvenster **Office-implementatie beheren** dat wordt geopend, kiest u **Een groep toevoegen** en selecteert u de groepen die u wilt gebruiken.</span><span class="sxs-lookup"><span data-stu-id="ecd26-111">On the **Manage Office deployment** pane that opens, choose **Add a group**, then select the groups you want use.</span></span>
+3. <span data-ttu-id="baf36-111">In het deelvenster **Office-implementatie beheren** dat wordt geopend, kiest u **Een groep toevoegen** en selecteert u de groepen die u wilt gebruiken.</span><span class="sxs-lookup"><span data-stu-id="baf36-111">On the **Manage Office deployment** pane that opens, choose **Add a group**, then select the groups you want use.</span></span>
     
-4. <span data-ttu-id="ecd26-112">Nadat u de groep of groepen die u wilt gebruiken, hebt toegevoegd, selecteert u vanuit de vervolgkeuzelijst **Implementatie-actie** de optie **Office zo snel mogelijk installeren** of **Office verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="ecd26-112">After you have added the group or groups you want to use, from the **Deployment Action** drop-down, select either **Install Office as soon as possible** or **Uninstall Office**.</span></span>
+4. <span data-ttu-id="baf36-112">Nadat u de groep of groepen die u wilt gebruiken, hebt toegevoegd, selecteert u vanuit de vervolgkeuzelijst **Implementatie-actie** de optie **Office zo snel mogelijk installeren** of **Office verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="baf36-112">After you have added the group or groups you want to use, from the **Deployment Action** drop-down, select either **Install Office as soon as possible** or **Uninstall Office**.</span></span>
     
     ![In the Manage Office deployment pane, choose either Install Office as soon as possible, or Uninstall Office.](media/00f24a61-1848-40c0-b037-78d726c7d757.png)
   
-5. <span data-ttu-id="ecd26-114">Kies **Volgende** \> Controleer de instellingen en kies vervolgens **Bevestigen**.</span><span class="sxs-lookup"><span data-stu-id="ecd26-114">Choose **Next** \> review the settings and then choose **Confirm**.</span></span>
+5. <span data-ttu-id="baf36-114">Kies **Volgende** \> Controleer de instellingen en kies vervolgens **Bevestigen**.</span><span class="sxs-lookup"><span data-stu-id="baf36-114">Choose **Next** \> review the settings and then choose **Confirm**.</span></span>
     
-<span data-ttu-id="ecd26-115">Een 32-bits versie van Office wordt automatisch geïnstalleerd op, of verwijderd van de apparaten die het eigendom zijn van gebruikers van de groep of groepen die u gebruikt.</span><span class="sxs-lookup"><span data-stu-id="ecd26-115">A 32-bit Office will be automatically installed, or uninstalled in the devices owned by users specified by the group or groups you used.</span></span>
+<span data-ttu-id="baf36-115">Een 32-bits versie van Office wordt automatisch geïnstalleerd op, of verwijderd van de apparaten die het eigendom zijn van gebruikers van de groep of groepen die u gebruikt.</span><span class="sxs-lookup"><span data-stu-id="baf36-115">A 32-bit Office will be automatically installed, or uninstalled in the devices owned by users specified by the group or groups you used.</span></span>
   
-<span data-ttu-id="ecd26-116">Om te controleren of u Taakbeheer kunt openen op een computer die is geselecteerd voor een Office-installatie en om naar het Microsoft Office Klik-en-klaar-proces te zoeken.</span><span class="sxs-lookup"><span data-stu-id="ecd26-116">To verify you can open the Task Manager on a computer that was selected for an Office install and look for Microsoft Office Click-to-Run process.</span></span>
+<span data-ttu-id="baf36-116">Om te controleren of u Taakbeheer kunt openen op een computer die is geselecteerd voor een Office-installatie en om naar het Microsoft Office Klik-en-klaar-proces te zoeken.</span><span class="sxs-lookup"><span data-stu-id="baf36-116">To verify you can open the Task Manager on a computer that was selected for an Office install and look for Microsoft Office Click-to-Run process.</span></span>
   
 
 
