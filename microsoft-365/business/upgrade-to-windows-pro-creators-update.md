@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 'Informatie over het Windows-apparaten een upgrade naar Windows 10 Pro makers van Update. '
-ms.openlocfilehash: ec1ef0462cc1ba1cd1ae01ee28795096097e01a9
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 13a964b19b1fbd43e9c255a90161ca6b48099305
+ms.sourcegitcommit: 2f7791159b715790463c6ce4835fbd9c0b48c047
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279860"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "33138159"
 ---
 # <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a>Upgrade Windows devices to Windows Pro Creators Update (Windows-apparaten bijwerken naar de Windows Pro-makersupdate
 
@@ -37,6 +37,9 @@ ms.locfileid: "32279860"
      - Maken van een van installatiemedia met behulp van het [Hulpprogramma voor het maken van Media](https://go.microsoft.com/fwlink/?LinkID=836960) - Selecteer deze optie om een Windows 10 Pro makers Update installatiemedium (USB-flashstation of ISO-bestand) naar Windows 10 te installeren op een PC die verschilt van u maken.
     
         een. Lees de instructies voor het gebruik van het hulpprogramma en de installatiemedia maken. 
+
+> [!Note]
+> Als u Windows-apparaten met Windows 7 Pro, Windows 8 Pro of Windows 8.1 Pro, Microsoft 365 Business abonnement hebt u recht op een Windows 10 upgrade - nodig niet hebt u een productcode.
     
 Zie [Windows-apparaten voor Microsoft 365 zakelijke gebruikers instellen](set-up-windows-devices.md) voor het voltooien van Windows 10-apparaten ingesteld. 
   
