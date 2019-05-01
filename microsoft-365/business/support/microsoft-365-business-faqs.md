@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, veelgestelde vragen, antwoorden, business
 ms.date: 06/08/2018
-ms.openlocfilehash: 1e277aed366d82e524ef99c43ab0401b5d35e5b0
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: bdcfd6a78278aff83b3fc21ae0fbb43bce140a16
+ms.sourcegitcommit: 1034f54472de62897f2e8f12459db8043ac8443b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286120"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33497747"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft 365 Business
 
@@ -116,7 +116,7 @@ Klanten die de volledige mogelijkheden van Microsoft 365 Business ervaring wille
 De meest directe pad naar een geslaagde implementatie van Microsoft 365 Business is koppelen aan een Microsoft-Partner. Ze hebben uitgebreide training en ervaring met een groot aantal scenario's van klanten en best uitgeruste te begrijpen uw omgeving en behoeften. Klanten die als gevolg van IT op personeel kunt gebruiken de <a href="https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364" target="_blank">Microsoft 365 Business aan de slag</a> om te helpen bij de implementatie van Microsoft 365 Business. 
 
 ### <a name="does-microsoft-365-business-include-the-full-capabilities-of-microsoft-intune"></a>Omvat Microsoft 365 Business de volledige mogelijkheden van Microsoft Intune 
-Ja, Microsoft 365 Business abonnees mag u de volledige mogelijkheden van Intune voor iOS, Android, Mac OS en andere platforms Apparaatbeheer. Functies die niet beschikbaar zijn in de vereenvoudigde beheerconsole in Microsoft 365 Business, zoals een 3de partij app beheren en configureren van dingen zoals WiFi profielen, VPN-certificaten, enz., kunnen worden beheerd in de console met volledige Intune.   
+Ja, Microsoft 365 Business abonnees mag u de volledige mogelijkheden van Intune voor iOS, Android, Mac OS en andere platforms Apparaatbeheer. Functies die niet beschikbaar zijn in de vereenvoudigde beheerconsole in Microsoft 365 Business, zoals een 3de partij app beheren en configureren van de Wi-Fi-profielen, VPN-certificaten, enz., kunnen worden beheerd in de console met volledige Intune. Hebt u recht op het Configuration Manager gebruiken voor het beheren van clients de EMS-licentie. SCCM raadpleegt gerelateerde query's, u <a href="https://docs.microsoft.com/en-us/sccm/core/understand/product-and-licensing-faq#bkmk_csp" target="_blank">Veelgestelde vragen over SCCM</a>
   
 
 ### <a name="does-azure-active-directory-premium-p1-come-with-microsoft-365-business"></a>Azure Active Directory Premium P1 is wordt geleverd met Microsoft 365 Business? 
