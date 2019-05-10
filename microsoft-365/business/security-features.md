@@ -19,18 +19,20 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Meer informatie over de beveiligingsfuncties van Microsoft 365 Business.
-ms.openlocfilehash: 24d4c4e79e7d8737beb82336796956774f127209
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: adf1cf183022f3d2c19364b9f60868e285f78637
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286858"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660548"
 ---
 # <a name="microsoft-365-business-security-features"></a>Beveiligingsfuncties van Microsoft 365 Business
 
 Microsoft 365 Business biedt vereenvoudigde beveiligingsfuncties beschermen uw gegevens op pc's, telefoons en tablets.
     
 ## <a name="microsoft-365-business-admin-center-security-features"></a>Beveiligingsfuncties van Microsoft 365 Business admin center
+
+![Banner die verwijzen naar https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
 
 U kunt veel van de beveiligingsfuncties van Microsoft 365 Business in de admin center, dat u deze functies inschakelen kunt of uitschakelen een vereenvoudigde manier beheren. In het admin center kunt u het volgende doen:
   
@@ -86,90 +88,6 @@ Geavanceerde functies in Microsoft 365 Business zijn beschikbaar voor het beveil
     
 De volgende secties wordt beschreven hoe u deze functies in de beveiliging kunt beheren &amp; conformiteit en het Intune admin center. Na verloop van tijd wordt de vereenvoudigde besturingselementen toegevoegd aan het Microsoft 365 Business admin center.
   
-## <a name="set-up-advanced-threat-protection-features"></a>Advanced Threat Protection functies instellen
-
-- **Beveiligen tegen onveilige bijlagen:** ATP schadelijke inhoud worden aangeduid met het openen van bijlagen in een virtuele omgeving en het uitvoeren van analyses van het resulterende gedrag. De inhoud wordt geëvalueerd om te bepalen van de intentie (of normale schadelijke), en ATP levering van onveilige bijlagen blokkeert, helpt u te beschermen tegen phishing-trucs en ransomware infecties. Zie bijlage bescherming activeren [Office 365 ATP veilige bijlagen beleid instellen](https://support.office.com/article/078eb946-819a-4e13-8673-fe0c0ad3a775).
-    
-- Bescherm uw omgeving wanneer de gebruiker op een schadelijke koppelingen: ATP ook koppelingen in e-mail wordt gecontroleerd op het moment dat een gebruiker op deze. Als u een koppeling onveilig is, wordt de gebruiker gewaarschuwd niet te bezoeken of op de hoogte gesteld dat de site is geblokkeerd. Dit biedt bescherming tegen phishing-trucs. U kunt [Office 365 ATP veilige koppelingen beleid instellen](https://support.office.com/article/bdd5372d-775e-4442-9c1b-609627b94b5d#reveddefaultscc) of [Office 365 ATP veilige koppelingen beleid instellen](https://support.office.com/article/bdd5372d-775e-4442-9c1b-609627b94b5d#addemailpolscc).
-    
-## <a name="set-up-dlp-features"></a>DLP-functies instellen
-
-Zie [een DLP-beleid van een sjabloon maken](https://support.office.com/article/59414438-99f5-488b-975c-5023f2254369) voor een voorbeeld van het instellen van een beleid ter bescherming tegen persoonlijk identificeerbare informatie (PII). 
-  
-DLP wordt geleverd met een groot aantal kant-en-klare sjablonen voor veel verschillende landinstellingen. Bijvoorbeeld financiële gegevens van Australië, Canada persoonlijk informatie handelen, Amerikaanse financiële gegevens, enz. Zie [Wat de DLP-beleidssjablonen opnemen](https://support.office.com/article/c2e588d3-8f4f-4937-a286-8c399f28953a) voor een volledige lijst. Al deze sjablonen kunnen worden ingeschakeld als in het voorbeeld van de sjabloon PII. 
-  
-## <a name="set-up-email-retention-with-exchange-online-archiving"></a>E-mail bewaren met Exchange Online Archiving instellen
-
- Functies van **Exchange Online Archiving** licentie kunnen u op peil te houden naleving van regelgeving en wettelijke normen behouden e-mail content ten behoeve van eDiscovery. Ook vermindert het risico in geval van een rechtszaak en biedt een manier om gegevens te herstellen na een inbreuk op de beveiliging of als u verwijderde items herstellen. U kunt u activeert deze mogelijkheden, rechtszaak wacht gebruiken voor het behoud van de inhoud van een gebruiker of bewaarbeleid gebruiken voor betere aanpassingsmogelijkheden. 
-  
-**Rechtszaak geblokkeerd:** U kunt alle inhoud met inbegrip van verwijderde items door het volledige postvak van een gebruiker in de rechtszaak plaatsen houdt behouden. 
-    
-Om een postbus Afwachten rechtszaak, in de Admin center:
-    
-1. Ga naar **gebruikers** in de Linkernavigatie \> **actieve gebruikers**.
-    
-2. Selecteer een gebruiker wiens postvak u wilt plaatsen op de rechtszaak houdt en vouw in het deelvenster gebruiker **e-mailinstellingen** en kies **Eigenschappen bewerken Exchange**naast **meer instellingen** .
-    
-3. Kies op de pagina postvak voor de gebruiker ** postbus functies ** op de Linkernavigatie en kies vervolgens de koppeling **inschakelen** onder **rechtszaak houdt**.
-    
-4. In de **rechtszaak houdt** in het dialoogvenster kunt u opgeven dat de rechtszaak duur in het veld **rechtszaak duur houdt** ingedrukt, laat het veld leeg als u wilt een oneindige wachtruimte te plaatsen. U kunt ook notities toevoegen en rechtstreeks van de eigenaar van het vak e-mail naar een website die u wellicht meer informatie over de rechtszaak houdt uitgelegd \> **Opslaan**.
-    
-**Bewaren:** U kunt bijvoorbeeld aangepaste bewaarbeleid behouden gedurende een bepaalde tijd of permanent verwijderen van inhoud aan het einde van de bewaarperiode inschakelen. Voor meer informatie, Zie [overzicht van het bewaarbeleid](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423).
-## <a name="set-up-azure-information-protection-features"></a>Azure informatie beveiligingsfuncties instellen
-
-Azure informatie Protection (AIP) is een cloud-gebaseerde oplossing waarmee een organisatie te classificeren en eventueel de documenten en e-mails beveiligen door labels toe te passen. Labels kunnen automatisch worden toegepast door beheerders die de regels en voorwaarden door gebruikers of een combinatie waar gebruikers aanbevelingen krijgen handmatig te definiëren.
-
-De mogelijkheid om de volgende beperkingen van toepassing bij het verzenden van e-mailberichten in Outlook op het web is standaard ingeschakeld voor alle gebruikers:
-  
-- **Niet doorsturen**: geadresseerden kunnen het bericht lezen, maar ze kunnen doorsturen, afdrukken of kopiëren van inhoud
-    
-- **Coderen**: het hele bericht is gecodeerd. Ontvangers moeten extra stappen ondernemen om te hun identiteit te bevestigen voordat de gecodeerde inhoud en codering niet verwijderen.
-    
-- **Vertrouwelijk**: de werknemers in uw organisatie biedt volledige machtigingen voor de inhoud van e-mail en bijlagen, maar niet voor personen buiten uw organisatie. Eigenaars van gegevens kunnen bijhouden en de inhoud op elk moment intrekken.
-    
-- **Zeer vertrouwelijke**: deze beperking tot zeer vertrouwelijke gegevens, zodat werknemers kunnen bekijken, bewerken, en beantwoorden, maar niet doorsturen, afdrukken of kopiëren van de gegevens kan worden toegepast. Eigenaars van gegevens kunnen bijhouden en de inhoud op elk moment intrekken.
-
-### <a name="make-sure-azure-information-protection-is-activated"></a>Zorg ervoor dat informatiebeveiliging Azure is geactiveerd.
-
-Om te verifiëren dat de AIP is geactiveerd:
-
-1. Inloggen op [portal Azure](https://portal.azure.com/).
-
-2. Selecteer **alle services** en typ in *Azure informatiebeveiliging* in het **Vak Zoeken**.
-
-3. Zodra de resultaten worden weergegeven, klikt u op het begin volgende **Informatiebescherming Azure** een favoriet maken en later gemakkelijk te vinden.
-
-4. **Azure informatie** beveiliging \> **activering bescherming** en zorg ervoor dat de status is ingesteld op actief. 
-
-### <a name="view-the-azure-information-protection-policy-and-default-labels"></a>De Azure informatiebeveiliging en de standaard etiketten weergeven 
-
-Als u wilt weergeven en wijzigen, de bestaande labels:
-
-1. Selecteer op het dashboard Azure informatiebescherming **classificaties** \> **etiketten**. <br/>![Standaard etiketten voor informatiebescherming Azure.](media/AIPLabels.png)
-
-2. U kunt een label om opties weer te geven, kunt u de weergavenaam, kleuren, enz.
- 
-3. Zie [wijzigen en nieuwe labels maken](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step2) als u wilt uw eigen maken. 
-
-### <a name="install-the-azure-information-protection-client-manually"></a>De client Azure informatiebeveiliging handmatig installeren
-
-De client AIP handmatig installeren:
-
-1. **AzInfoProtection.exe** downloaden van het [Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53018).
- 
-2. U kunt controleren of de installatie heeft gewerkt door een Word-document bekijken en ervoor te zorgen dat de optie **Protect** beschikbaar op het tabblad **Start is** . <br/>![Tabblad Beveiliging vervolgkeuzelijst in een Word-document.](media/Word_Protect.png)
-
-Zie voor meer informatie [de client installeren](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3)
-
-## <a name="go-to-intune-admin-center"></a>Ga naar Intune admin center
-
-1. Inloggen op [portal Azure](https://portal.azure.com/).
-
-2. Selecteer **alle services** en typ *Intune* in het **Vak Zoeken**.
-
-3. Zodra de resultaten worden weergegeven, klikt u op het begin volgende voor **Microsoft Intune** een favoriet maken en later gemakkelijk te vinden.
- 
-Intune kunt u inschrijven voor apparaten en beheren van uw organisatie. Zie voor meer informatie [mogelijkheden door de methode voor certificaatinschrijving voor apparaten met Windows](https://docs.microsoft.com/intune/enrollment-method-capabs) en [Opties voor inschrijving voor apparaten beheerd door Intune](https://docs.microsoft.com/intune/enrollment-options).
     
 ## <a name="faq"></a>Veelgestelde vragen
 

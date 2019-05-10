@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Informatie over het inschakelen van Microsoft 365 te beschermen lokale AD verbonden apparaten met Windows 10.
-ms.openlocfilehash: d61b3bf6be50d6b21e7b883774567bb63995e60e
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 661e5bf8205a661eb4382b4bdd8fcf3a54ecc12f
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278072"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660304"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Toestaan dat aan een domein toegevoegde Windows 10-apparaten door Microsoft 365 Business worden beheerd
 
@@ -33,7 +33,7 @@ Als uw organisatie gebruikmaakt van Windows Server Active Directory op lokalen, 
   
 ## <a name="set-up-domain-joined-devices-to-be-managed-by-microsoft-365-business"></a>Apparaten die deel uitmaakt van een domein wordt beheerd door Microsoft 365 Business instellen
 
-Om in te stellen van uw organisatie deel uitmaakt van een domein apparaten om te profiteren van de mogelijkheden die Azure Active Directory ondersteunt naast Active Directory voor het bedrijf, kunt u de **hybride Azure AD verbonden apparaten**implementeren. Dit zijn apparaten die deel van zowel op ruimten Active Directory en Azure Active Directory uitmaken. Hybride Azure AD verbonden apparaten kunnen worden beveiligd en beheerd door Microsoft 365 Business... 
+Om in te stellen van uw organisatie deel uitmaakt van een domein apparaten om te profiteren van de mogelijkheden die Azure Active Directory ondersteunt naast Active Directory voor het bedrijf, kunt u de **hybride Azure AD verbonden apparaten**implementeren. Dit zijn apparaten die deel van zowel op ruimten Active Directory en Azure Active Directory uitmaken. Hybride Azure AD verbonden apparaten kunnen worden beveiligd en beheerd door Microsoft 365 Business. 
   
 De stappen hieronder om uw Windows 10-apparaten hybride Azure AD toegevoegd en beheerd door Microsoft 365 Business.
   
@@ -43,15 +43,13 @@ De stappen hieronder om uw Windows 10-apparaten hybride Azure AD toegevoegd en b
     > De stappen zijn precies hetzelfde voor Microsoft 365 Business. 
   
 2. Voordat u stap 3 waarmee Windows 10-apparaten hybride Azure AD lid worden voltooid, moet u om ervoor te zorgen dat u aan de volgende vereisten voldoen:
-    
+
    - U gebruikt de meest recente versie van Azure AD verbinding.
-    
+
    - Verbinding Azure AD is de computerobjecten van de gewenste hybride Azure AD verbonden apparaten gesynchroniseerd. Als u de computerobjecten behoren tot de specifieke organisatie-eenheden (OU), moeten u ervoor zorgen dat deze organisatie-eenheden zijn ingesteld voor synchronisatie in Azure AD ook verbinden.
     
 3. Registreren bestaande domein behoren Windows 10-apparaten worden verbonden met Azure AD hybride en ze inschrijven voor mobiel Apparaatbeheer door Intune (Business Microsoft 365):
     
 4. Volg de instructies stap voor stap in [hybride Azure Active Directory verbonden apparaten configureren](https://go.microsoft.com/fwlink/p/?linkid=872870). Hiermee schakelt u de synchronisatie van Active Directory op ruimten verbonden computers met Windows 10 en deze cloud klaar te maken.
     
-5. Om te kunnen inschrijven voor een apparaat met Windows 10 voor mobile device management, Zie [inschrijven voor een Windows 10-apparaat met Intune met behulp van een Groepsbeleid](https://go.microsoft.com/fwlink/p/?linkid=872871) voor meer informatie. U kunt het groepsbeleid op een lokale computer niveau of voor bulkbewerkingen, kunt u deze instelling voor Groepsbeleid op uw server domain controller. 
-    
-
+5. Om te kunnen inschrijven voor een apparaat met Windows 10 voor mobile device management, Zie [inschrijven voor een Windows 10-apparaat met Intune met behulp van een Groepsbeleid](https://go.microsoft.com/fwlink/p/?linkid=872871) voor meer informatie. U kunt het groepsbeleid op een lokale computer niveau of voor bulkbewerkingen, kunt u deze instelling voor Groepsbeleid op uw server domain controller.

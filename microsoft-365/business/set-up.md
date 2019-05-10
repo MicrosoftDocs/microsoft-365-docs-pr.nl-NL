@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business instellen met de wizard Setup
+title: Microsoft 365 Business instellen
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,113 +21,192 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Informatie over het instellen van Microsoft 365 Business door vier stappen uit te voeren.
-ms.openlocfilehash: a1c8a41c3e291983276280a063248bdd10a7f85a
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+description: Informatie over het instellen van Microsoft 365 Business.
+ms.openlocfilehash: e635b828609fc47cd8b92bb179a25bcc43cb0a1a
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283886"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660754"
 ---
-# <a name="set-up-microsoft-365-business-by-using-the-setup-wizard"></a>Microsoft 365 Business instellen met de wizard Setup
+# <a name="set-up-microsoft-365-business"></a>Microsoft 365 Business instellen
 
-De stappen 1-4 hieronder.
-  
-### <a name="set-up-microsoft-365-business"></a>Microsoft 365 Business instellen
+Voordat u begint, Zie [Microsoft 365 Business ophalen](get-microsoft-365-business.md) voor aanmelding details.
 
-Bekijk een video over hoe Microsoft 365 Business instellen wanneer u een Active Directory op de locatie niet hebt:
+Bekijk een [korte video over het instellen van Microsoft 365 Business](https://support.office.com/article/38003e30-9d10-44cf-b596-f1b5f662bfa1) met behulp van de wizard, en wanneer er een Active Directory op de gebouwen
   
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/0705c337-f3e8-4d28-bb6c-530cd28e99f2?autoplay=false]
-  
-De installatie stappen omvatten informatie over instellingen die de lokale Active Directory opnemen. Als u doorgaan wilt naar apparaten die deel uitmaakt van een domein, leest u de volgende artikelen voor twee verschillende manier in te schakelen die en voer de stappen uit voordat u de wizard Setup uitvoert:
+
+## <a name="overview"></a>Overzicht
+
+De meeste van de instellen van de stappen in de wizard setup kan worden uitgevoerd, maar de andere opties worden ook weergegeven.
+
+1. [Uw domein toevoegen](#add-your-domain-to-personalize-sign-in) (als u uw domein tijdens het [aanmelden](sign-up.md)hebt gekocht, wordt deze stap hebt gedaan.)
+2. Gebruikers toevoegen. U kunt dit op een van de drie manieren doen:
+    - In de [wizard setup](#add-users-in-the-wizard).
+    - Adreslijstsynchronisatie toevoegen van [gebruikers met Azure AD verbinding](#add-users-by-using-azure-ad-connect) gebruiken als u een Active directory op gebouwen.
+    - U kunt ook [gebruikers later toevoegen](add-users-m365b.md) in het beheercentrum.
+3. Beveiligingsbeleid instellen en configureren van apparaten. U kunt dit op een van de drie manieren doen:
+    - In de [wizard setup](#set-up-policies-in-the-wizard).  
+    - In de [admin center](#modify-or-add-policies-in-the-admin-center).
+    - Klik in het [beheercentrum Intune](https://docs.microsoft.com/intune/what-is-device-management).
+4. Instellen en beheren van apparaten in Windows 10.
+
+    Wanneer u een apparaat met WIndows 10 naar Azure AD, krijgen alle beleidsregels toegepast op.
+    - Configuraties in de [wizard setup van](#set-up-policies-in-the-wizard)Windows 10 instellen.
+    - Lid worden van een [nieuw apparaat met Windows 10](set-up-windows-devices.md#for-a-brand-new-or-newly-upgraded-windows-10-pro-device) naar Azure AD.
+    - Lid worden van een [bestaande Windows 10-apparaat](set-up-windows-devices.md#for-a-device-already-set-up-and-running-windows-10-pro) naar Azure AD.
+1. Installeer Office 365 Business.
+    - Automatisch kunt in de Windows-apparaten u Office installeren met de [wizard setup](#set-up-policies-in-the-wizard).
+    - Automatisch [Office installeren](auto-install-or-uninstall-office.md) vanaf het admin center.
+    - Laat de gebruikers [installeren Office apps](https://docs.microsoft.com/office365/admin/setup/install-applications) voor Windows en apparaten.
+     
+1. Extra beveiliging instellen.
+    - De wizard setup voegt beleid om uw apparaten te beveiligen, maar kunt u ook profiteren van de mogelijkheden voor [Extra beveiliging](#additional-security-settings) kunt veilig uw gegevens, accounts en e-mailberichten. 
+
+## <a name="add-your-domain-users-and-set-up-policies"></a>Uw domein, gebruikers toevoegen en instellen van het beleid
+
+![Banner die verwijzen naar https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+
+Wanneer u Microsoft 365 Business aanschaft, hebt u de mogelijkheid van een domein dat u de eigenaar of kopen tijdens de [aanmelding](sign-up.md).
+
+- Als u een nieuw domein gekocht toen u zich aanmeldde, uw domein is ingesteld op alle en u kunt [gebruikers toevoegen en toewijzen van licenties](#add-users-and-assign-licenses)kunt verplaatsen.
+
+### <a name="add-your-domain-to-personalize-sign-in"></a>Toevoegen van uw domein om aan te passen-in
+
+1. Aanmelden bij [Microsoft 365 admin center](https://admin.microsoft.com) via uw globale Administrator-referenties. 
+
+2. Kies **een domein toevoegen** om de wizard te starten.
+
+    ![Selecteer een domein toevoegen.](media/addadomainadmincenter.png)
+    
+3. Voer in de wizard de naam van het domein dat u wilt gebruiken (zoals contoso.com).
+
+
+    ![Screenshot van het aanpassen van uw pagina.](media/personalizesignin.png)
+
+    
+4. Volg de stappen in de wizard [maken DNS-records bij een DNS-hosting provider voor Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) waarmee wordt gecontroleerd of dat u de eigenaar van het domein. Als u uw domeinhost, Zie ook de [host-specifieke instructies](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+
+    Als uw hostingprovider GoDaddy, het proces is eenvoudig en wordt u automatisch gevraagd aangemeld en laten verifiëren namens Microsoft:
+
+    ![Selecteer machtigen op GoDaddy bevestigen Access-pagina.](media/godaddyauth.png)
+
+### <a name="add-users-and-assign-licenses"></a>Gebruikers toevoegen en licenties toewijzen
+
+In de wizard kunt u gebruikers toevoegen, maar u kunt ook [gebruikers later toevoegen](add-users-m365b.md) in het beheercentrum. Als er een lokale domeincontroller, kunt u ook gebruikers met [Azure AD verbinden](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express)toevoegen.
+
+#### <a name="add-users-in-the-wizard"></a>Gebruikers toevoegen in de wizard
+
+Gebruikers die u in de wizard toevoegt krijgen automatisch een licentie van Microsoft 365 Business toegewezen.
+Als u een lokale domeincontroller en Active Directory gebruikt, Zie [ddd gebruikers met Azure AD verbinding](#add-users-by-using-azure-ad-connect).
+
+![Schermafbeelding van de pagina nieuwe gebruikers toevoegen in de wizard](media/addnewuserspage.png)
+
+1. Als uw Microsoft 365 Business-abonnement bestaande gebruikers heeft (bijvoorbeeld als u Azure AD Connect hebt gebruikt), hebt u een optie om nu licenties aan hen toe te wijzen. Wijs nu licenties aan hen toe.
+
+3. Nadat u de gebruikers hebt toegevoegd, krijgt u ook een optie voor het delen van referenties met de nieuwe gebruikers die u hebt toegevoegd. U kunt deze afdrukken, hun een e-mail sturen of deze downloaden.
+
+4. Sla het migreren van e-mailberichten over en kies **Volgende** op de pagina **E-mailberichten migreren**. 
+
+    Als u van een andere e-mailprovider verplaatst en kopieer de gegevens later wilt, kunt u [e-mail migreren en contactpersonen voor Office 365](https://support.office.com/article/a3e3bddb-582e-4133-8670-e61b9f58627e).
+
+#### <a name="add-users-by-using-azure-ad-connect"></a>Gebruikers toevoegen met behulp van Azure AD verbinden
+
+ Als er een lokale domeincontroller met Active Directory, gesynchroniseerd u uw gebruikers met Microsoft 365 Business met [Azure AD verbinding](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express). Voltooien voordat u de wizard setup. U kunt deze in het admin center downloaden:
+
+- Ga naar **gebruikers** \> **actieve gebruikers**, selecteer de ovalen boven aan de pagina en selecteer vervolgens **adreslijstsynchronisatie** Azure AD verbinden downloaden.
+
+    ![Selecteer op de pagina actieve gebruikers ellipsen > Directory snchronization.](media/setupdirsync.png)
+
+    > [!IMPORTANT]
+    > Als u gebruikers op deze manier maakt, moet u nog steeds licenties hieraan toewijzen in het beheercentrum.
+
+##### <a name="continue-to-access-domain-joined-apps-and-devices"></a>Doorgaan naar deel uitmaakt van een domein apps en apparaten
+
+Als u doorgaan wilt naar deel uitmaakt van een domein apps en apparaten, lees de volgende artikelen voor twee verschillende richtingen die in te schakelen:
   
 - [Toestaan dat aan een domein toegevoegde Windows 10-apparaten door Microsoft 365 Business worden beheerd](manage-windows-devices.md)
-    
-    -Dit is de aanbevolen manier.
-    
+    - Dit is de aanbevolen manier.
+
 - [Toegang op-premises resources uit een Azure AD verbonden apparaat in Microsoft 365 Business](access-resources.md)
-    
-### <a name="step-1-personalize-sign-in"></a>Stap 1: Aanmelden aanpassen
 
-1. Meld u aan bij [Microsoft 365 Business](https://portal.microsoft.com) met uw globale-beheerdersreferenties. Kies de tegel **Beheerder** om naar het beheercentrum te gaan. 
-    
-2. Kies **Setup starten** (afhankelijk van uw status ziet u in plaats hiervan mogelijk **Doorgaan met setup** in het beheercentrum om de wizard te starten. 
-    
-3. Voer de domeinnaam in die u wilt gebruiken (zoals contoso.com).
-    
-    Geef nu uw domein op, zelfs als u dit hebt geverifieerd met bijvoorbeeld Azure AD Connect. De volgende twee stappen niet van toepassing op u als u Azure AD verbinden om te controleren of uw domein gebruikt.
-    
-4. Volg de stappen in de wizard [maken DNS-records bij een DNS-hosting provider voor Office 365](https://support.office.com/article/7b7b075d-79f9-4e37-8a9e-fb60c1d95166) waarmee wordt gecontroleerd of dat u de eigenaar van het domein. 
-    
-    Ziet u een voorbeeld van de video van [Video: Office 365-instelling in het nieuwe Admin Center](https://support.office.com/article/a8c2002a-34bc-4ab3-93d8-9b5156c48bf8). In deze video zijn de stappen voor de gegevensbescherming van Microsoft 365 Business niet opgenomen.
-    
-    ![Screenshot of the Business Cloud Suite setup wizard.](media/3c4fd40c-2de1-4a87-8ee0-78d3928c7bb7.png)
-  
-### <a name="step-2-add-users-and-assign-licenses"></a>Stap 2: Toevoegen van gebruikers en toewijzen van licenties
-
-1. U kunt hier gebruikers toevoegen of u kunt [gebruikers later toevoegen](add-users-m365b.md) in het beheercentrum. 
-    
-    Aan gebruikers die u toevoegt, wordt automatisch een Microsoft 365 Business-licentie toegewezen.
-    
-2. Als uw Microsoft 365 Business-abonnement bestaande gebruikers heeft (bijvoorbeeld als u Azure AD Connect hebt gebruikt), hebt u een optie om nu licenties aan hen toe te wijzen. Wijs nu licenties aan hen toe.
-    
-3. U krijgt ook een optie voor het delen van referenties met de nieuwe gebruikers die u hebt toegevoegd. U kunt deze afdrukken, hun een e-mail sturen of deze downloaden.
-    
-4. Sla het migreren van e-mailberichten over en kies **Volgende** op de pagina **E-mailberichten migreren**. 
-    
-    Als u van een andere e-mailprovider verplaatst en kopieer de gegevens later wilt, kunt u [e-mail migreren en contactpersonen voor Office 365](https://support.office.com/article/a3e3bddb-582e-4133-8670-e61b9f58627e).
-    
-    ![Screenshot of two new users added in the setup wizard](media/8f729967-5c65-4ceb-b737-18119db40564.png)
-  
-### <a name="step-3-connect-your-domain"></a>Stap 3: Uw domein verbinding
+### <a name="connect-your-domain"></a>Uw domein verbinden
 
 > [!NOTE]
-> Als u hebt gekozen voor het gebruik van het domein .onmicrosoft of Azure AD Connect gebruikt, ziet u deze stap niet. 
+> Als u wilt gebruiken het .onmicrosoft domein of verbinden met Azure AD gebruikt om gebruikers in te stellen, worden er niet in deze stap.
   
 Als u services wilt instellen, moet u enkele records bij uw DNS-host of domeinregistrar bijwerken.
   
-1. Meestal wordt uw registrar automatisch gedetecteerd met de installatiewizard en wordt een koppeling weergegeven naar stapsgewijze instructies voor het bijwerken van uw NS-records op de website van de registrar. Als dat niet het geval, [nameservers voor het instellen van Office 365 met een domeinregistratieservice wijzigen](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2).
-    
-2. E-mail en andere services worden voor u ingesteld
-    
-### <a name="step-4-manage-devices-and-work-files"></a>Stap 4: Apparaten beheren en bestanden te werken
+1. Meestal wordt uw registrar automatisch gedetecteerd met de installatiewizard en wordt een koppeling weergegeven naar stapsgewijze instructies voor het bijwerken van uw NS-records op de website van de registrar. Als dat niet het geval, [nameservers voor het instellen van Office 365 met een domeinregistratieservice wijzigen](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2). 
 
-1. Stel op de pagina **Werkbestanden beveiligen op uw mobiele apparaten** de instellingen **Werkbestanden beveiligen bij verlies of diefstal van de apparaten** en **Beheren hoe gebruikers Office-bestanden op mobiele apparaten openen** in op **Aan**. U kunt ook toegang krijgen tot elk sub instellen door te klikken op de pijltjes naast elke instelling.
-  
-  Alle werkbestanden van uw gelicentieerde gebruikers kunnen nu worden beveiligd op iOS en Android-apparaten, zodra ze [Office apps installeren](set-up-mobile-devices.md) (en te verifiëren met hun referenties Microsoft 365 Business). 
-  
-  ![Screenshot of protect work files on your mobile devices page](media/3139a9aa-6228-4e74-8166-c6a886d7319f.PNG)
-  
-2. Klik op de pagina **configuratie van Windows 10 instellen** instellen **Secure Windows 10-apparaten** **aan**.
-  
-   U kunt ook toegang krijgen tot elke Sub instellen door te klikken op de dubbele punthaken ernaast.
-  
-3. De **Installatie van Office op Windows 10-apparaten** instelt op **Ja** als alle gebruikers computers Windows 10 hebt en geen bestaande Office installeert of klik-en-klaar Office wordt geïnstalleerd. Als dit niet het geval is, moet u deze optie instelt op **Nee**. Kunt u [automatisch installeren van Office](auto-install-or-uninstall-office.md) later via het admin center nadat u de computer van gebruikers hebt voorbereid. Zie [Office client-installatie voorbereiden](prepare-for-office-client-deployment.md)voor meer informatie.
-  
-    De gelicentieerde gebruikers werkbestanden op apparaten met Windows 10 worden zodra ze worden geprojecteerd [deelnemen aan hun Windows 10-apparaat](set-up-windows-devices.md) naar een Business 365 Microsoft Azure AD-domein of [Windows 10 op een nieuwe computer hebt geïnstalleerd](https://support.office.com/article/c654bd23-d256-4ac7-8fba-0c993bf5a771.aspx) , terwijl het tegelijkertijd lid worden van de Microsoft-365 Business Azure AD-domein. 
-  
-4. Klik op **volgende** en u klaar bent met de installatie. 
-  
-    Laat ons feedback op deze stap om te helpen bij het verbeteren van de ervaring.
-  
-    ![Screenshot of Prepare Windows 10 devices page](media/bff701c1-48a3-44f4-aa95-9d959d57c85b.PNG)
-  
+    - Als u bestaande DNS-records, bijvoorbeeld met een bestaande website, wilt u uw eigen DNS-records om ervoor te zorgen dat de bestaande services blijven beheren. Zie [de grondbeginselen van het domein](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) voor meer informatie.
+
+        ![Verbinding maken met uw domein pagina met ik mijn eigen DNS-records kunt beheren.](media/connectyourdomainpage.png)
+
+2. Volg de stappen in de wizard en e-mailadres en andere diensten zal worden voor u ingesteld.
+
+### <a name="set-up-security-policies-and-device-configurations"></a>Instellen van beveiligingsbeleid en -configuraties 
+
+Dit beleid van toepassing op alle gebruikers u een licentie verlenen tot, of een groep gebruikers als u verschillende soorten beleid toewijzen aan een groep gebruikers.
+
+#### <a name="set-up-policies-in-the-wizard"></a>Instellen van het beleid van de wizard
+
+Het beleid dat u hebt ingesteld in de wizard worden automatisch toegepast op de [groep](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) *Alle gebruikers*.
+
+1. Op het **werkbestanden op mobiele apparaten beveiligen** de optie is **Protect werkbestanden bij verlies of diefstal van de apparaten** standaard geselecteerd. U hebt een optie om te **beheren hoe gebruikers toegang kunnen krijgen tot Office-bestanden op mobiele apparaten**inschakelen en deze optie wordt aanbevolen.
+
+    ![Screenshot van bescherming van werk-bestanden op mobiele apparaten pagina.](media/protectworkfilesondevices.png)
+
+     - Als u **de werkbestanden beveiligen wanneer apparaten zijn verloren of gestolen**uitvouwt, worden de [standaardwaarden](protect-work-files-on-lost-or-stolen-device.md) vooraf geselecteerde:
+
+        ![Screenshot van standaardwaarden voor het beveiligen van bestanden op apparaten verloren.](media/protectworkfilesondevicesdefault.png)
+
+    - Als u selecteren **hoe gebruikers toegang kunnen krijgen tot Office-bestanden op mobiele apparaten beheren** en vouwen, worden de [standaardwaarden](manage-user-access-on-mobile-devices.md) weergegeven. Het is raadzaam dat u de standaardwaarden tijdens de installatie accepteert om beleid voor toepassingen voor Android, iOS en Windows 10 te maken die voor alle gebruikers gelden. Nadat de installatie is voltooid, kunt u meer beleidsregels maken.
+
+        ![Screenshot van beveiligingsinstellingen voor Office-bestanden op een mobiel.](media/useraccessonmobile.png)
+
+2. De laatste stap op bescherming van gegevens en apparaten kunt u een beleid instellen voor het beveiligen van Windows 10-apparaten. Deze instellingen worden automatisch toegepast wanneer een gebruiker Windows 10 verbinding met uw organisatie maakt. U kunt **beveiligde Windows 10-apparaten** als u wilt zien en wijzigen van de [standaardwaarden](secure-windows-10-devices.md)kunt uitbreiden.
+3. U kunt ook op Windows 10-apparaten [automatisch installeren van Office](install-office-on-windows-10-during-setup.md) .
+
+    ![Screenshot van Windows 10 apparaat configuratiepagina instellen.](media/setwin10config.png)
+
+#### <a name="modify-or-add-policies-in-the-admin-center"></a>Wijzigen of toevoegen van beleid in het admin center
+
+Zie [Microsoft 365 Business beheren](manage.md) voor koppelingen naar onderwerpen over het weergeven en wijzigen van apparaat- en app-bescherming beleid, en hoe u kunt gegevens verwijderen uit of opnieuw ingesteld Gebruikersapparaten.
+
+## <a name="deploy-and-manage-windows-10"></a>Implementeren en beheren van Windows 10
+Zie [Windows apparaten voor gebruikers van Microsoft 365 Business instellen](set-up-windows-devices.md) handmatig verbinding maken met Azure AD, hetzij tijdens de installatie voor nieuwe computers, of door het profiel aanmelden voor bestaande computers wijzigen. 
+
+### <a name="use-autopilot-to-set-up-new-devices"></a>Automatische piloot gebruiken voor het instellen van nieuwe apparaten
+
+U kunt [Windows Automatische piloot](add-autopilot-devices-and-profile.md) automatisch vooraf configureren voor een gebruiker **nieuwe** Windows 10-apparaten, maar is het misschien gemakkelijker om een [partner](https://www.microsoft.com/solution-providers/search) die dit voor u kan doen. U kunt ook gaat u naar de [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=874598) en vragen een deskundige cloud-technologie nieuwe apparaten die u voor u aanschaft ingesteld.
+
+### <a name="access-on-premises-resources"></a>Toegang op ruimten resources
+
+Als uw organisatie gebruikmaakt van Windows Server Active Directory op lokalen, kunt u Microsoft 365 Business instellen ter bescherming van uw Windows 10-apparaten, terwijl zij toch toegang tot bronnen voor ruimten die lokale verificatie vereisen. Volg de stappen in [Windows 10-apparaten worden beheerd door Microsoft 365 Business domein behoren](manage-windows-devices.md) tot dit instellen. Dit is de aanbevolen methode en apparaten in deze toestand worden genoemd hybride Azure AD verbonden apparaten.
+
+Als uw bedrijf een lokale Active Directory met sommige op-ruimten (zoals bestandsshares en printers), u kunt uw Azure AD verbonden apparaten toegang geven tot deze bronnen door de stappen hier: [toegang op-premises resources uit een Azure AD verbonden apparaat in Microsoft 365 Business](access-resources.md).
+
+## <a name="deploy-office-365-client-apps"></a>Office 365-clienttoepassingen installeren
+
+Als u Office apps in automatisch geïnstalleerd tijdens de installatie van, installeert de apps op de Windows 10-apparaten nadat de gebruikers zijn aangemeld bij Azure AD van hun Windows-apparaten met de referenties van hun werk.
+Zie [mobiele apparaten voor Microsoft 365 zakelijke gebruikers](set-up-mobile-devices.md)Office installeren op mobiele iOS- of Android apparaten.
+
+U kunt Office ook afzonderlijk installeren. Zie [Office op een PC of Mac installeren](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc471665) voor instructies.
+
 ## <a name="additional-security-settings"></a>Extra beveiligingsinstellingen
 
 Naast de beveiliging en naleving instellen in de wizard setup kunt u ook de volgende aanvullende instellingen instellen:
   
-- Bescherming tegen onveilige bijlagen instellen. **Advanced Threat Protection** (ATP) identificeert schadelijke inhoud en vervolgens blokkeert levering van onveilige bijlagen te beschermen u tegen phishing-trucs en ransomware infecties. Zie bijlage bescherming activeren [Office 365 ATP veilige bijlagen beleid instellen](https://support.office.com/article/078eb946-819a-4e13-8673-fe0c0ad3a775#setpolicy).
-    
-- Bescherm uw omgeving wanneer de gebruiker op een schadelijke koppelingen. ATP onderzoekt koppelingen in e-mailbericht op het moment dat een gebruiker klikt. Als u een koppeling onveilig is, wordt de gebruiker gewaarschuwd niet te bezoeken of op de hoogte gesteld dat de site is geblokkeerd. Dit biedt bescherming tegen phishing-trucs. [Instellen van het beleid van Office 365 ATP veilige koppelingen](https://support.office.com/article/bdd5372d-775e-4442-9c1b-609627b94b5d#reveddefaultscc) of [Office 365 ATP veilige koppelingen beleid instellen](https://support.office.com/article/bdd5372d-775e-4442-9c1b-609627b94b5d#addemailpolscc).
-    
-- U kunt alle inhoud met inbegrip van verwijderde items door het volledige postvak van een gebruiker plaatsen op **rechtszaak houdt**behouden. Zie voor meer informatie 
-- Het [vasthouden van e-mail met Exchange Online archiveren instellen](security-features.md#set-up-email-retention-with-exchange-online-archiving).
-    
-- Stel aangepaste **bewaarbeleid**, bijvoorbeeld gedurende een bepaalde tijd behouden of definitief verwijderen van inhoud aan het einde van de bewaarperiode. Kunt u aangepaste bewaarbeleid in effecten en Ga naar de **Data governance** conformiteit \> **vasthouden**, en volg de stappen in de wizard. Voor meer informatie, Zie [overzicht van het bewaarbeleid](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423).
-    
-## <a name="next-steps"></a>Volgende stappen
+- **E-mail beveiliging tegen ongewenste software**
+- **Geavanceerde Threat Protection (ATP) veilige bijlagen**
+- **ATP veilig koppelingen**
+- **APT anti-phishing**
+- **Exchange Online Archiving**
+- **Gegevensverlies voorkomen (DLP)**
+- **Azure informatiebescherming** (Plan 1)
+- **Intune portal beschikbaarheid**
 
-Voor gebruikers die de benodigde licenties al hebben, is de volgende stap het instellen van apparaten.<br/> Zie [Windows-apparaten instellen voor gebruikers van Microsoft 365 Business](set-up-windows-devices.md) en [Mobiele apparaten instellen voor gebruikers van Microsoft 365 Business](set-up-mobile-devices.md). <br/>Zie [Microsoft 365 Business beheren](manage.md) voor koppelingen naar onderwerpen over het instellen van beveiligingsbeleid voor apparaten en apps en over het verwijderen van gegevens uit gebruikersapparaten. 
-  
+Zie [Geavanceerde beveiligingsbeleid instellen](set-up-advanced-security.md)om op te halen is gestart.
 
-
+Zie ook de [top 10 manieren voor het beveiligen van uw bedrijf Microsoft 365](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) voor een overzicht van aanbevolen beveiligingsprocedures.

@@ -18,16 +18,18 @@ search.appverid:
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
 description: Klik hier voor informatie voor het beheer van Microsoft 365 Business gerelateerde taken admin, mobiele apparaten Windows 10PCs en veel dergelijke taken.
-ms.openlocfilehash: 993db51ec487237395ca57290e37a6c5edbce8b8
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 0d0f9292307144314d25f712867cf1caa7cdd0ff
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278570"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660444"
 ---
 # <a name="manage-microsoft-365-business"></a>Microsoft 365 Business beheren
 
 ## <a name="general-microsoft-365-business-admin-tasks"></a>Algemene Microsoft 365 Business-beheertaken
+
+De meeste van de [admin-inhoud](/Office365/Admin/admin-home.md) voor Office 365 voor bedrijven geldt ook voor Microsoft 365 Business.
 
 - [Extra gebruikers toevoegen aan Microsoft 365 Business](add-users-m365b.md)
     

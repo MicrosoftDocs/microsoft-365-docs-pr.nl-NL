@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Informatie over het verkrijgen van toegang tot bronnen voor bedrijfsruimten zoals Line Of Business apps, bestandsshares en printers uit een Azure Active Directory Windows 10-apparaat gekoppeld.
-ms.openlocfilehash: 212685bc229f519152e69b09d0a745bfac7a38cd
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 2be8eb16b9d17547d3bc4c3e4fe499b4c14117a4
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276876"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660264"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Toegang op-premises resources uit een Azure AD verbonden apparaat in Microsoft 365 Business
 
@@ -47,11 +47,9 @@ Als uw organisatie niet implementeren in Azure AD verbonden configuratie van het
 Als u Azure AD lid worden van een Windows-apparaat dat eerder deel uitmaakt van een domein is of een werkgroep, moet u rekening houden met de volgende beperkingen:
   
 - Wanneer een apparaat Azure AD lid, wordt een nieuwe gebruiker zonder te verwijzen naar een bestaand profiel gemaakt. U kunt dit oplossen moeten profielen handmatig worden gemigreerd. Een gebruikersprofiel bevat informatie zoals Favorieten, lokale bestanden, instellingen, instellingen van het menu Start, enz. Een beste benadering is een hulpprogramma van derden voor het toewijzen van bestanden en instellingen naar het nieuwe profiel vinden
-    
-- Als het apparaat wordt met behulp van Group Policy objecten (GPO), sommige groepsbeleidsobjecten niet mogelijk een vergelijkbare [Configuratie Service Provider](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) (CSP) in Intune. Het [hulpprogramma MMAT](https://www.microsoft.com/download/details.aspx?id=45520) om te zoeken naar vergelijkbare CSP's voor bestaande groepsbeleidsobjecten uitvoeren. 
-    
-- Gebruikers worden niet geverifieerd aan toepassingen die afhankelijk van de verificatie van Active Directory zijn. Omgaan met met behulp van een oude toepassingen evalueren en bij te werken naar een toepassing die gebruikmaakt van moderne Auth indien mogelijk.
-    
-- Detectie van Active Directory printer werkt niet. U kunt dit oplossen direct printerpaden bieden voor alle gebruikers of maak gebruik van [Hybride Cloud Print](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).
-    
 
+- Als het apparaat wordt met behulp van Group Policy objecten (GPO), sommige groepsbeleidsobjecten niet mogelijk een vergelijkbare [Configuratie Service Provider](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) (CSP) in Intune. Het [hulpprogramma MMAT](https://www.microsoft.com/download/details.aspx?id=45520) om te zoeken naar vergelijkbare CSP's voor bestaande groepsbeleidsobjecten uitvoeren.
+
+- Gebruikers worden niet geverifieerd aan toepassingen die afhankelijk van de verificatie van Active Directory zijn. Omgaan met met behulp van een oude toepassingen evalueren en bij te werken naar een toepassing die gebruikmaakt van moderne Auth indien mogelijk.
+
+- Detectie van Active Directory printer werkt niet. U kunt dit oplossen direct printerpaden bieden voor alle gebruikers of maak gebruik van [Hybride Cloud Print](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).

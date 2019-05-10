@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Informatie over automatische piloot Windows gebruiken voor het instellen van nieuwe Windows 10-apparaten voor uw bedrijf.
-ms.openlocfilehash: e0802ddcc0964d0b8d102f7dbdb9116b33cdcf58
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 8c4a14b4b9dcbf7a30c1e6e0bdd53418a1ab8a03
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277090"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660656"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>De stapsgewijze handleiding gebruiken om Autopilot-apparaten en -profielen toe te voegen
 
-U kunt de WIndows Autopilot gebruiken om nieuwe Windows 10-apparaten voor uw bedrijf in te stellen, zodat deze klaar zijn voor gebruik zodra u ze aan uw werknemers geeft.
+Automatische piloot van Windows kunt u een **nieuwe** Windows 10-apparaten instellen voor uw bedrijf zodat ze gereed voor een efficiënter gebruik zijn zodra u ze aan uw werknemers geven.
   
 ## <a name="device-requirements"></a>Apparaatvereisten
 
@@ -41,13 +41,17 @@ Apparaten moeten aan deze vereisten voldoen:
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>De installatiehandleiding gebruiken om apparaten en profielen te maken
 
+![Banner die verwijzen naar https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+
 Als u nog geen apparaatgroepen of profielen hebt gemaakt, kunt u het beste aan de slag gaan met de stapsgewijze handleiding, maar u kunt ook [apparaten toevoegen](create-and-edit-autopilot-devices.md) en hieraan [profielen toewijzen](create-and-edit-autopilot-profiles.md) zonder de handleiding te gebruiken. 
   
-1. Zoek in het beheercentrum van Microsoft 365 Business naar de kaart **Apparaatacties** en kies **Windows implementeren met AutoPilot**.
-    
-    ![On the Device actions card, choose Deploy Windows with Autopilot.](media/160d5c2a-11a8-48f9-a8aa-70f084b85448.png)
+1. Ga naar de admin center op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+
+2. Kies op de Linkernavigatie **apparaten** \> **automatische piloot**.
+
+    ![Kies in het admin center apparaten en klik vervolgens op automatische piloot.](media/AutoPilot.png)
   
-2. Klik of tik op de pagina **Windows voorbereiden** op **Handleiding starten**.
+2. Klik of tik op **Start guide**op de pagina **automatische piloot** .
     
     ![Click Start guide for step-by-step instructions for Autopilot.](media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   

@@ -21,20 +21,22 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: Informatie over het maken, bewerken, of verwijderen van een beleid voor het beheer van app en werkbestanden op Android of iOS apparaten te beschermen.
-ms.openlocfilehash: e81ff8a4bd71dbbbf7ccc31249d450e03f4bd241
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 04479360bf13a8ff685a91ed95440c08f8cf80b4
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277441"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660521"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Instellingen voor app-beveiliging instellen voor Android- of iOS-apparaten
 
+![Banner die verwijzen naar https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+
 ## <a name="create-an-app-management-policy"></a>Beleid voor app-beheer maken
 
-1. Aanmelden bij [Microsoft 365 Business admin center](https://go.microsoft.com/fwlink/p/?linkid=837890) met de referenties van de globale beheerder. 
+1. Ga naar de admin center op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. Kies in het beheercentrum **apparaten** \> **beleid** \> **beleid toevoegen**.
+2. Kies in de Linkernavigatie **apparaten** \> **beleid** \> **toevoegen**.
   
 3. Voer in het deelvenster **Beleid toevoegen** een unieke naam in voor dit beleid. 
     
@@ -62,9 +64,9 @@ ms.locfileid: "32277441"
     
 ## <a name="delete-an-app-management-policy"></a>Beleid voor app-beheer verwijderen
 
-1. Kies op de kaart **Beleid** de optie **Beleid verwijderen**.
+1. Kies op de pagina **beleid** een beleid en vervolgens te **verwijderen**.
     
-2. On the **Delete policy** pane, choose the policies you want to delete \> **Select**, then **Confirm** to delete the policy or policies you chose. 
+2. Kies in het deelvenster **beleid verwijderen** **bevestigen** verwijderen van het beleid of het beleid dat u hebt gekozen. 
     
 ## <a name="available-settings"></a>Beschikbare instellingen
 

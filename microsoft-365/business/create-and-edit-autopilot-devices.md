@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
 description: Informatie over het laden van apparaten met automatische piloot in Microsoft 365 Business. U kunt een profiel toewijzen aan een apparaat of een groep apparaten.
-ms.openlocfilehash: fff2dbc6af45ef9d4189f23849d638172c19dfb2
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 6492f1469a1ac9ea67750e9ffa071d19c88c743f
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277021"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660379"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>AutoPilot-apparaten maken en bewerken
 
@@ -41,9 +41,9 @@ Apparaten moeten aan deze vereisten voldoen:
     
 - Nieuwe apparaten die niet de Out-of-Box Experience van Windows hebben doorlopen.
 
-1. Kies in het beheercentrum van Microsoft 365 Business **apparaten** \> **automatische piloot** \> **toevoegen**.
+1. Kies in het beheercentrum van Microsoft 365 Business **apparaten** \> **automatische piloot**.
   
-2. Kies op de pagina **Windows voorbereiden** het tabblad **Apparaten** \> **Apparaten toevoegen**.
+2. Kies het tabblad **apparaten** op de pagina **automatische piloot** \> **apparaten toevoegen**.
     
     ![In the Devices tab, choose Add devices.](media/6ba81e22-c873-40ad-8a72-ce64d15ea6ba.png)
   

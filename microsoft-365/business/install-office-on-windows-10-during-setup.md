@@ -21,14 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
 description: Informatie nu automatisch om Office te implementeren op Windows 10-apparaten tijdens setup.
-ms.openlocfilehash: 3b702f2a57fcd0ebffc51e17ed6af00e8f1c485b
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: b4359a18d93800def558121cdfd7c97ead058180
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278298"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660651"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>Office installeren op Windows 10 tijdens Setup
+
+![Banner die verwijzen naar https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
 
 Standaard is deze instelling uitgeschakeld. U kunt deze instelling inschakelen om ervoor te zorgen dat gebruikers de nieuwste versie van Office op al hun Windows 10-apparaten hebben, maar u moet eerst controleren of aan alle vereisten is voldaan. Gebruikers moeten een licentie hebben voor Microsoft 365 Business voordat de software via deze instelling op het apparaat kan worden geïnstalleerd. Daarnaast gelden er andere vereisten die worden beschreven in [Bereid u voor op de implementatie van de Office-client door Microsoft 365 Business](prepare-for-office-client-deployment.md). 
   
