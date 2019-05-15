@@ -3,8 +3,9 @@
 ## [Wat is Microsoft 365 Business?](microsoft-365-business-overview.md)
 ## [Microsoft 365 bedrijf](sign-up.md)
 ## [Minimumvereisten voor de bescherming van gegevens](pre-requisites-for-data-protection.md)
-## [Overzicht van instellen](set-up-overview.md)
-## [Instellen](set-up.md)
+## Installatie
+### [Overzicht van de installatie](set-up-overview.md)
+### [Microsoft 365 Business instellen](set-up.md)
 ### [Upgraden naar Windows Pro makers bijwerken](upgrade-to-windows-pro-creators-update.md)
 ### [Mobiele apparaten instellen](set-up-mobile-devices.md)
 ### [Windows-apparaten instellen](set-up-windows-devices.md)
