@@ -3,7 +3,7 @@ title: Microsoft 365 Business instellen
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - O365E_M365SetupBanner
@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Informatie over het instellen van Microsoft 365 Business.
-ms.openlocfilehash: f3a9ad62f5ec8779296e800b9ecc8d6181d7aff7
-ms.sourcegitcommit: f420a5cdedf3ec2babc6d8ad7e7c79da0b08e115
+ms.openlocfilehash: 42a35810531b6abd5b22e5fdbce2c0cfea57b8d7
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33966973"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074585"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Microsoft 365 Business instellen in de wizard setup
 

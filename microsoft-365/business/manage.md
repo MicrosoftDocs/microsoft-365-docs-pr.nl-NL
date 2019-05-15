@@ -3,7 +3,7 @@ title: Microsoft 365 Business beheren
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
 description: Klik hier voor informatie voor het beheer van Microsoft 365 Business gerelateerde taken admin, mobiele apparaten Windows 10PCs en veel dergelijke taken.
-ms.openlocfilehash: 0d0f9292307144314d25f712867cf1caa7cdd0ff
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: 8cae8f580b8967eeafe8a22658fd95d41f22a43c
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660444"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074235"
 ---
 # <a name="manage-microsoft-365-business"></a>Microsoft 365 Business beheren
 
