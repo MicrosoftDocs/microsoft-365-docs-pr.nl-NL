@@ -2,8 +2,8 @@
 layout: HubPage
 hide_bc: true
 ms.topic: hub-page
-ms.author: robmazz
-author: robmazz
+ms.author: sirkkuw
+author: sirkkuw
 keywords: Microsoft 365 Business, Microsoft 365, business, SMB, kleine tot middelgrote ondernemingen, Microsoft 365 Business documentatie, docs, documentatie, technische informatie
 localization_priority: Normal
 audience: microsoft-business
@@ -11,12 +11,12 @@ ms.prod: microsoft-365-business
 ms.collection: M365-subscription-management
 title: Microsoft 365 Business resources
 description: Informatie over het plannen, implementeren en Microsoft Office 365, Windows 10, en Enterprise Mobility-beveiliging niet samen gebruiken in uw bedrijf voor een geïntegreerde en veilige infrastructuur waarmee teamwork en creativiteit wordt ontgrendeld.
-ms.openlocfilehash: 3c5cc341734896cb9a42565c8647f3f5ac37fc5b
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: 1a2ce52c9132a63ef6535e287dc2e37421984b61
+ms.sourcegitcommit: f420a5cdedf3ec2babc6d8ad7e7c79da0b08e115
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660285"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "33966953"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -61,7 +61,7 @@ ms.locfileid: "33660285"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Instellen</h3>
-                                              <P><a href="get-microsoft-365-business.md" target="_blank">Microsoft 365 bedrijf</a></p>
+                                              <P><a href="sign-up.md" target="_blank">Microsoft 365 bedrijf</a></p>
                                                <P><a href="set-up.md" target="_blank">Microsoft 365 Business instellen</a></p>
                                                 <P><a href="set-up-windows-devices.md" target="_blank">Windows 10-apparaten instellen</a></p>
                                                 <P><a href="set-up-mobile-devices.md" target="_blank">IPhone- en Android-apparaten instellen</a></p>

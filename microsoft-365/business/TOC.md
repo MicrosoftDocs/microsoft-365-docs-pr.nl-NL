@@ -1,7 +1,9 @@
-# [Microsoft 365 Business](index.md)
-## [Overzicht](microsoft-365-business-overview.md)
+# Microsoft 365 Business
+## [Microsoft 365](index.md)
+## [Wat is Microsoft 365 Business?](microsoft-365-business-overview.md)
 ## [Microsoft 365 bedrijf](sign-up.md)
 ## [Minimumvereisten voor de bescherming van gegevens](pre-requisites-for-data-protection.md)
+## [Overzicht van instellen](set-up-overview.md)
 ## [Instellen](set-up.md)
 ### [Upgraden naar Windows Pro makers bijwerken](upgrade-to-windows-pro-creators-update.md)
 ### [Mobiele apparaten instellen](set-up-mobile-devices.md)
@@ -14,8 +16,10 @@
 ## [Beveiligen](security-features.md)
 ### [Beveiliging van uw bedrijf](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Geavanceerde beveiligingsfuncties instellen](set-up-advanced-security.md)
-## [Beheren](manage.md)
+## Gebruikers
 ### [Add users](add-users-m365b.md)
+### [Verwijder een werknemer](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+## Apparaten beheren
 ### [Beleid en apparaten weergeven en bewerken](view-policies-and-devices.md)
 ### [Bedrijfsgegevens verwijderen](remove-company-data.md)
 ### [Standaardinstellingen gebruiken apparaten](reset-devices-to-factory-settings.md)
@@ -26,7 +30,12 @@
 #### [Instellingen van Windows 10 pc's valideren](validate-settings-on-windows-10-pcs.md)
 ### [Beveiligingsinstellingen voor Windows 10-apparaten](protection-settings-for-windows-10-devices.md)
 ## [Migreren naar Microsoft 365 Business](migrate-to-microsoft-365-business.md)
-## [Automatische piloot apparaten en profiel toevoegen](add-autopilot-devices-and-profile.md)
+## Facturering
+### [Uw factuur](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+### [Betalen](/Office365/Admin/subscriptions-and-billing/pay-for-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+### [Annuleren](/Office365/Admin/subscriptions-and-billing/cancel-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+## Automatische piloot
+### [Automatische piloot apparaten en profiel toevoegen](add-autopilot-devices-and-profile.md)
 ### [AutoPilot-profielen maken en bewerken](create-and-edit-autopilot-profiles.md)
 ### [AutoPilot-apparaten maken en bewerken](create-and-edit-autopilot-devices.md)
 ### [Profielinstellingen op automatische piloot](autopilot-profile-settings.md)
