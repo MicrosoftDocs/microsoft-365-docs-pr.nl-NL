@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, veelgestelde vragen, antwoorden, business
 ms.date: 06/08/2018
-ms.openlocfilehash: 9757abb98f4f1c2612f20c75fffd5da10bbbc381
-ms.sourcegitcommit: b05aa01a72c3bc257a9f3b06a7779d88a89758c6
+ms.openlocfilehash: 6ef500c9b0c9e83e77e46c1eaf7057e3e46cfe0d
+ms.sourcegitcommit: 5c6bbf6dd7020b462b56b644b5a0fcc0217d6a53
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33657202"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276218"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft 365 Business
 
@@ -80,7 +80,7 @@ Veel werknemers liever hun eigen mobiele telefoons of tablets om toegang tot per
 Microsoft 365 Business biedt klanten een eenvoudige maar krachtige manier medewerkers hun persoonlijke apparaten gebruiken voor het werk, terwijl het bedrijf de mogelijkheid om te voorkomen dat deze apparaten toegang tot, te behouden en/of delen van gegevens . Meer in het bijzonder: 
 * **App-bescherming voor mobiele toepassingen van Office** Office helpt gegevens te beschermen, met inbegrip van e-mail, agenda, contactpersonen en documenten op iOS en Android mobiele apparaten, door het afdwingen van beleid zoals zakelijke gegevens automatisch worden verwijderd na een voorgeschreven tijd geen verbinding te maken met de service, vereisen dat gegevens worden opgeslagen op OneDrive voor bedrijven, waarbij een PIN/vingerafdruk verificatie toegang te krijgen tot Office-toepassingen en gegevens van uw bedrijf voorkomen in persoonlijke apps worden gekopieerd vanuit een Office-toepassing. Mobiele toepassingen beheren voor andere mobiele apps via Intune is ook beschikbaar voor abonnees van Microsoft 365 Business. 
   
-* Bedrijven die aallows **Device Management voor Windows 10 pc's** instellen en afdwingen van mogelijkheden, zoals de bescherming van Windows Defender voor malware, automatische updates en schermen uitschakelen na een voorgeschreven tijd kiezen. Verloren of gestolen Windows 10-apparaten kunnen bovendien volledig gewist van zakelijke toepassingen en gegevens via het Admin center. 
+* **Device Management voor Windows 10 pc's** kunnen bedrijven instellen en afdwingen van mogelijkheden, zoals de bescherming van Windows Defender voor malware, automatische updates en schermen uitschakelen na een voorgeschreven tijd kiezen. Verloren of gestolen Windows 10-apparaten kunnen bovendien volledig gewist van zakelijke toepassingen en gegevens via het Admin center. 
 
 * **Apparaat voor iOS, Android & MacOS** beheerfuncties kunnen ondernemingen veilig beheer van een apparaatecosysteem van diverse met iOS, Android, Windows en Mac OS-apparaten. 
 
