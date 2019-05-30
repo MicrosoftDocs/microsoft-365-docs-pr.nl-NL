@@ -7,17 +7,18 @@
 ### [Overzicht van de installatie](set-up-overview.md)
 ### [Microsoft 365 Business instellen](set-up.md)
 ### [Upgraden naar Windows Pro makers bijwerken](upgrade-to-windows-pro-creators-update.md)
-### [Mobiele apparaten instellen](set-up-mobile-devices.md)
-### [Windows-apparaten instellen](set-up-windows-devices.md)
 ### [Voorbereiden voor de implementatie van Office-client](prepare-for-office-client-deployment.md)
 ### [Automatisch installeren of verwijderen van Office](auto-install-or-uninstall-office.md)
 ### [Toegang op ruimten resources]()
 #### [Windows 10-apparaten te beheren domein behoren](manage-windows-devices.md)
 #### [Toegang tot bronnen vanaf een Azure AD verbonden apparaat](access-resources.md)
+## Gebruiker apparaat instellen
+### [Mobiele apparaten instellen](set-up-mobile-devices.md)
+### [Windows-apparaten instellen](set-up-windows-devices.md)
 ## [Beveiligen](security-features.md)
 ### [Beveiliging van uw bedrijf](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Geavanceerde beveiligingsfuncties instellen](set-up-advanced-security.md)
-## Gebruikers
+## Gebruikers beheren
 ### [Add users](add-users-m365b.md)
 ### [Verwijder een werknemer](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ## Apparaten beheren
