@@ -15,9 +15,10 @@
 ## Gebruiker apparaat instellen
 ### [Mobiele apparaten instellen](set-up-mobile-devices.md)
 ### [Windows-apparaten instellen](set-up-windows-devices.md)
-## [Beveiligen](security-features.md)
-### [Beveiliging van uw bedrijf](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
-### [Geavanceerde beveiligingsfuncties instellen](set-up-advanced-security.md)
+## [Beveiliging van uw bedrijf](security-features.md)
+### [Dreigingen verhogen](increase-threat-protection.md)
+### [Aan de slag met voorwaardelijke toegang](set-up-conditional-access-policies.md)
+### [Naleving van functies instellen](set-up-compliance.md)
 ## Gebruikers beheren
 ### [Add users](add-users-m365b.md)
 ### [Verwijder een werknemer](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
