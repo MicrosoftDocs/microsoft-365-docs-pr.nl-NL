@@ -1,5 +1,5 @@
 ---
-title: Beveiligingsfuncties van Microsoft 365 Business
+title: Beveiliging en naleving van functies van Microsoft 365 Business
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,14 +19,14 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Meer informatie over de beveiligingsfuncties van Microsoft 365 Business.
-ms.openlocfilehash: 6ce69f387461edc0eea6c705f15a9083547698ff
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 54bac38ca3a60f88f848ec3ab8bdd8a7c0fabd54
+ms.sourcegitcommit: ab04fea2765a63489d70b506f0e14303a5be16a0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074525"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34780774"
 ---
-# <a name="microsoft-365-business-security-features"></a>Beveiligingsfuncties van Microsoft 365 Business
+# <a name="microsoft-365-business-security-and-compliance-features"></a>Beveiliging en naleving van functies van Microsoft 365 Business
 
 Microsoft 365 Business biedt vereenvoudigde beveiligingsfuncties beschermen uw gegevens op pc's, telefoons en tablets.
     
@@ -36,7 +36,6 @@ Microsoft 365 Business biedt vereenvoudigde beveiligingsfuncties beschermen uw g
 
 U kunt veel van de beveiligingsfuncties van Microsoft 365 Business in de admin center, dat u deze functies inschakelen kunt of uitschakelen een vereenvoudigde manier beheren. In het admin center kunt u het volgende doen:
   
-![Screenshot of the Devices card in the admin center](media/9982e784-dbf9-4a76-a159-bb3e2e5aa23f.png)
   
 - [Instellingen voor toepassing voor Android of iOS-apparaten instellen](app-protection-settings-for-android-and-ios.md) . 
     
@@ -69,7 +68,18 @@ Geavanceerde functies in Microsoft 365 Business zijn beschikbaar voor het beveil
   - Geavanceerde bijlage scannen en AI-aangedreven analyse te detecteren en verwijderen van gevaarlijke berichten.
     
   - Automatisch gecontroleerd van koppelingen in e-mailbericht te beoordelen als ze deel van een phishing-truc uitmaken. Hierdoor blijft u veilig toegang krijgen tot onveilige websites.
+
+- **[De volledige mogelijkheden van Intune in Azure portal](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
+    Toegang tot de Intune admin center in Azure portal kunt u aanvullende beveiligingsvoorzieningen, zoals het beheer van apparaten, iPhone en Android apparaten en Geavanceerd beheer voor Windows, MacOS instellen die niet beschikbaar zijn via Microsoft 365 business admin center.
+- **Als het plan Azure AD P1 dezelfde [Voorwaardelijke toegang](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)**
+
+    Voorwaardelijke toegang kunt helpen voorkomen dat risico-in uw organisatie, toegang tot pogingen van een onverwachte of landinstellingen, wordt geprobeerd formulier riskant apparaattypen, enzovoort. Voorwaardelijke toegang beleid worden toegepast nadat de eerste verificatie is voltooid en de signalen van de eerste Verificatiegebeurtenis wordt gebruikt om te bepalen als de poging tot toegang moet worden goedgekeurd, geweigerd of meer bewijs (bijvoorbeeld de tweede vorm van identificatie) f Vereist.
+    
+## <a name="compliance-features"></a>Naleving van functies
+
+Uw Microsoft 365 Business abonnement bevat functies waarmee u onderhouden naleving van regelgeving en wettelijke normen.
+
 - **[Overzicht van beleid ter preventie van data verlies](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)** (DLP). 
     
     U kunt DLP zo instellen dat er automatisch detecteren van gevoelige informatie, zoals een creditcardnummer, sofi-nummers, enz., om te voorkomen dat hun onbedoelde delen buiten het bedrijf.
@@ -80,13 +90,9 @@ Geavanceerde functies in Microsoft 365 Business zijn beschikbaar voor het beveil
     
 - **[Azure informatiebescherming](https://go.microsoft.com/fwlink/p/?linkid=871406)**
     
-    Informatie beveiliging kunt die u toegang tot vertrouwelijke gegevens in e-mail en documenten met besturingselementen zoals 'Niet doorsturen' en "Niet kopiëren." Ook kunt u gevoelige informatie zoals 'Vertrouwelijk' classificeren en opgeven hoe gerubriceerde informatie kan worden gedeeld buiten en binnen het bedrijf. Enterprise-grade codering is eenvoudig toe te passen op e-mail en documenten gegevens privé te houden. Microsoft 365 Business bevat alle functies van [Azure informatie bescherming Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407). U kunt ook de Azure informatiebescherming client-invoegtoepassing voor Office-toepassingen installeren. Zie [Azure informatiebescherming client beheerder guide](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide)voor meer informatie.
-    
-- **[De volledige mogelijkheden van Intune in Azure portal](https://go.microsoft.com/fwlink/p/?linkid=871403)**
-    
-    Toegang tot de Intune admin center in Azure portal kunt u aanvullende beveiligingsvoorzieningen, zoals het beheer van apparaten, iPhone en Android apparaten en Geavanceerd beheer voor Windows, MacOS instellen die niet beschikbaar zijn via Microsoft 365 business admin center.
-    
-De volgende secties wordt beschreven hoe u deze functies in de beveiliging kunt beheren &amp; conformiteit en het Intune admin center. Na verloop van tijd wordt de vereenvoudigde besturingselementen toegevoegd aan het Microsoft 365 Business admin center.
+    Informatie beveiliging kunt die u toegang tot vertrouwelijke gegevens in e-mail en documenten met besturingselementen zoals 'Niet doorsturen' en "Niet kopiëren." Ook kunt u gevoelige informatie zoals 'Vertrouwelijk' classificeren en opgeven hoe gerubriceerde informatie kan worden gedeeld buiten en binnen het bedrijf. Enterprise-grade codering is eenvoudig toe te passen op e-mail en documenten gegevens privé te houden. Microsoft 365 Business bevat alle functies van [Azure informatie bescherming Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407). U kunt ook de Azure informatiebescherming client-invoegtoepassing voor Office-toepassingen installeren. Zie [Azure informatiebescherming client administrator guide](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide)voor meer informatie.
+
+U kunt deze functies in de beveiliging beheren &amp; conformiteit en het Intune admin center. Na verloop van tijd wordt de vereenvoudigde besturingselementen toegevoegd aan het Microsoft 365 Business admin center.
   
     
 ## <a name="faq"></a>Veelgestelde vragen
