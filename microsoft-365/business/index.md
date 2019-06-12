@@ -11,12 +11,12 @@ ms.prod: microsoft-365-business
 ms.collection: M365-subscription-management
 title: Microsoft 365 Business resources
 description: Informatie over het plannen, implementeren en Microsoft Office 365, Windows 10, en Enterprise Mobility-beveiliging niet samen gebruiken in uw bedrijf voor een geïntegreerde en veilige infrastructuur waarmee teamwork en creativiteit wordt ontgrendeld.
-ms.openlocfilehash: 1a2ce52c9132a63ef6535e287dc2e37421984b61
-ms.sourcegitcommit: f420a5cdedf3ec2babc6d8ad7e7c79da0b08e115
+ms.openlocfilehash: a7b6ef6b3c86868ffd9dd2ab912c427911075911
+ms.sourcegitcommit: 7ac06563c6ff034358e8fd3f9298fc426187ade2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33966953"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34653041"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -99,7 +99,6 @@ ms.locfileid: "33966953"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Zakelijke gegevens en apparaten beveiligen</h3>
-                                                 <P><a href="https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data"target="_blank">Top 10 manieren voor het beveiligen van Microsoft 365 Business</a></p>
                                                 <P><a href="security-features.md" target="_blank">Meer informatie over beveiligingsfuncties</a></p>
                                                 <P><a href="remove-company-data.md" target="_blank">Gegevens verwijderen uit apparaten</a></p>
                                                 <P><a href="reset-devices-to-factory-settings.md" target="_blank">Apparaten opnieuw instellen</a></p>
