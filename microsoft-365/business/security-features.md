@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Meer informatie over de beveiligingsfuncties van Microsoft 365 Business.
-ms.openlocfilehash: 54bac38ca3a60f88f848ec3ab8bdd8a7c0fabd54
-ms.sourcegitcommit: ab04fea2765a63489d70b506f0e14303a5be16a0
+ms.openlocfilehash: bd61ad3bf1b34635a7b80f1c9ccf63fa98d31915
+ms.sourcegitcommit: 274af83139ad7da3aa33366c3323d533d95c7db4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34780774"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35017517"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Beveiliging en naleving van functies van Microsoft 365 Business
 
@@ -75,6 +75,19 @@ Geavanceerde functies in Microsoft 365 Business zijn beschikbaar voor het beveil
 - **Als het plan Azure AD P1 dezelfde [Voorwaardelijke toegang](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)**
 
     Voorwaardelijke toegang kunt helpen voorkomen dat risico-in uw organisatie, toegang tot pogingen van een onverwachte of landinstellingen, wordt geprobeerd formulier riskant apparaattypen, enzovoort. Voorwaardelijke toegang beleid worden toegepast nadat de eerste verificatie is voltooid en de signalen van de eerste Verificatiegebeurtenis wordt gebruikt om te bepalen als de poging tot toegang moet worden goedgekeurd, geweigerd of meer bewijs (bijvoorbeeld de tweede vorm van identificatie) f Vereist.
+
+    De voorwaardelijke toegang tot functies zijn:
+
+    - Toegang op basis van de gebruikersnaam, de groep en de rol
+    - Toegang [op basis van een app](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) 
+    - [Toegang op basis van locatie](https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined#conditional-access-policies-for-combined-registration);  alleen toegang tot vertrouwde IP-adresbereiken of bepaalde landen 
+    - MVR gesloten vereist om toegang te krijgen
+    - Toegang tot toepassingen die gebruikmaken van [oudere verificatie](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication) blokkeren
+    - Gebruik van apps tp [Intune app beveiliging](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) vereisen
+    - Aangepaste verificatie zoals MVR gesloten met andere leveranciers, bijvoorbeeld DUO.
+   
+    Andere functies:
+    - Voor hybride Azure AD [zelf wachtwoord opnieuw instellen](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-customization)
     
 ## <a name="compliance-features"></a>Naleving van functies
 
