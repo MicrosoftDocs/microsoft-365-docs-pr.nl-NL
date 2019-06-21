@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Informatie over het aanschaffen van Microsoft 365 Business van Microsoft Partner Center.
-ms.openlocfilehash: 4f36edb356d382880bb1dda407bd52ca8e2dcce6
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 61e178b73c83880aab22336814dd9dc7fca046a5
+ms.sourcegitcommit: 64a7511d8c5ef527673b4c05753e6bb52ce9ab86
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072695"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35114937"
 ---
 # <a name="get-microsoft-365-business"></a>Microsoft 365 Business kopen
 
@@ -34,6 +34,8 @@ ms.locfileid: "34072695"
 Als u niet met een partner werkt en Microsoft 365 Business wilt kopen, kunt u [contact opnemen met ](https://www.microsoft.com/en-US/microsoft-365/business).
 
 Zie [aanmelden bij Microsoft 365 Business](sign-up.md) voor gedetailleerde instructies.
+
+U kunt ook head over aan een [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) kopen van Microsoft 365 Business en hulp bij het installeren.
   
 ## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a>Microsoft 365 Business verkrijgen via Microsoft Partner Center
 

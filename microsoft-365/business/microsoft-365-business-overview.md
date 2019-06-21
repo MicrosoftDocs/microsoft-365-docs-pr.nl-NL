@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Informatie over Microsoft 365 Business instellen.
-ms.openlocfilehash: b34db3dcfbe5ccd5feae7b275b6455e67c5f0029
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 6fd328ebd4a8d3fbcde836c4aa87b56b9775c3cd
+ms.sourcegitcommit: 64a7511d8c5ef527673b4c05753e6bb52ce9ab86
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074275"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35114957"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Overzicht van Microsoft 365 Business
 
@@ -60,3 +60,5 @@ De volledige lijst van echtheidskenmerken, Zie [beveiligingsvoorzieningen van Mi
 - Als u een partner hebt, ontvangt deze Microsoft 365 Business: [Microsoft 365 Business verkrijgen via Microsoft Partner Center](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
 
 - Als u niet een partner wilt ophalen van Microsoft 365 Business, kunt u [hier kopen](https://www.microsoft.com/microsoft-365/business) en volg de instructies voor het [aanmelden](sign-up.md) .
+
+- U kunt ook head over aan een [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) kopen van Microsoft 365 Business en hulp bij het installeren.
