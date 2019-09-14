@@ -1,5 +1,5 @@
 ---
-title: Toegang op-premises resources uit een Azure AD verbonden apparaat in Microsoft 365 Business
+title: Toegang tot on-premises bronnen van een Azure AD-apparaat in Microsoft 365 Business
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -16,40 +16,45 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
-description: Informatie over het verkrijgen van toegang tot bronnen voor bedrijfsruimten zoals Line Of Business apps, bestandsshares en printers uit een Azure Active Directory Windows 10-apparaat gekoppeld.
-ms.openlocfilehash: fa3cf640e799feb81ff08c5b7b81d57f707e0152
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Informatie over hoe u toegang krijgt tot on-premises resources, zoals zakelijke apps, bestandsshares en printers, vanuit een Azure Active Directory dat is gekoppeld aan een Windows 10-apparaat.
+ms.openlocfilehash: ab9049e78617372463b8446dc8f8bc0089d8c117
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072025"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981656"
 ---
-# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Toegang op-premises resources uit een Azure AD verbonden apparaat in Microsoft 365 Business
+# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Toegang tot on-premises bronnen van een Azure AD-apparaat in Microsoft 365 Business
 
-Elk Windows 10-apparaat dat is Azure Active Directory toegevoegd toegang hebben tot alle cloud-gebaseerde bronnen zoals uw apps Office 365 en kan worden beveiligd door Microsoft 365 Business. Als u ook toegang tot bronnen voor bedrijfsruimten zoals apps, bestandsshares en printers lijn van Business (LOB), moet u Active Directory op ruimten synchroniseren met Azure Active Directory met [Azure AD verbinding](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect). Zie [Inleiding tot device management in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) voor meer informatie. 
-  
-## <a name="run-azure-ad-connect"></a>Verbinding Azure AD uitvoeren
+Elk Windows 10-apparaat dat is gekoppeld aan Azure Active Directory, heeft toegang tot alle cloudgebaseerde bronnen, zoals uw Office 365-apps en kan worden beveiligd door Microsoft 365 Business. Om ook toegang tot on-premises resources zoals LOB-apps (line of Business), bestandsshares en printers toe te staan, moet u uw on-premises Active Directory synchroniseren met Azure Active Directory met behulp van [Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect). De volgende Videodetails de stappen voor het instellen van dit voor de meest voorkomende scenario.
+ 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
 
-Voer de volgende stappen voor het inschakelen van uw organisatie Azure AD verbonden apparaten toegang krijgen tot bronnen op gebouwen.
+Zie [Inleiding tot Apparaatbeheer in azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) voor meer informatie.
+De stappen worden ook samengevat in de volgende secties.
+
+## <a name="run-azure-ad-connect"></a>Azure AD Connect uitvoeren
+
+Voltooi de volgende stappen om in te schakelen van uw organisatie Azure AD gekoppelde apparaten voor toegang tot on-premises resources.
   
-1. Als u uw gebruikers, groepen en contactpersonen uit de lokale Active Directory naar Azure Active Directory, de Directory synchronisatie-wizard uitvoeren en Azure AD verbinden als beschreven in de [directory-synchronisatie voor Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846).
+1. Voor het synchroniseren van uw gebruikers, groepen en contactpersonen van lokale Active Directory in azure Active Directory, voert u de wizard Directory-synchronisatie en Azure AD Connect zoals beschreven in [Directory-synchronisatie voor Office 365 instellen](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846).
     
-2. Nadat de adreslijstsynchronisatie is voltooid, moet u ervoor zorgen van uw organisatie Windows 10-apparaten zijn Azure advertentie toegevoegd. Deze stap gebeurt afzonderlijk op elk apparaat met Windows 10. Zie [Windows-apparaten voor Microsoft 365 zakelijke gebruikers instellen](set-up-windows-devices.md) voor meer informatie. 
+2. Nadat de adreslijstsynchronisatie is voltooid, zorg ervoor dat de Windows 10-apparaten van uw organisatie zijn gekoppeld aan Azure AD. Deze stap wordt afzonderlijk uitgevoerd op elk apparaat met Windows 10. Zie [Windows-apparaten instellen voor Microsoft 365 zakelijke gebruikers](set-up-windows-devices.md) voor meer informatie. 
     
-3. Nadat de Windows 10-apparaten Azure AD toegevoegd zijn, moet elke gebruiker opnieuw hun apparaten en meld u aan met de referenties van Microsoft 365 Business. Alle apparaten hebben nu toegang tot ook bronnen voor gebouwen.
+3. Zodra de Windows 10-apparaten zijn gekoppeld aan Azure AD, moet elke gebruiker hun apparaten opnieuw opstarten en aanmelden met hun Microsoft 365 zakelijke referenties. Alle apparaten hebben nu ook toegang tot on-premises resources.
     
-Er zijn geen extra stappen vereist voor toegang tot lokale bronnen voor AD Azure verbonden apparaten. Dit is de ingebouwde functionaliteit die beschikbaar is in Windows 10. 
+Er zijn geen extra stappen nodig om toegang te krijgen tot on-premises bronnen voor Azure AD gekoppelde apparaten. Dit is ingebouwde functionaliteit beschikbaar in Windows 10. 
   
-Als uw organisatie niet implementeren in Azure AD verbonden configuratie van het apparaat beschreven, kunt u [configuratie van hybride Azure AD verbonden apparaat](manage-windows-devices.md).
+Als uw organisatie is niet gereed voor implementatie in de Azure AD gekoppelde apparaatconfiguratie hierboven beschreven, overweeg het instellen van [hybride Azure AD gekoppelde apparaatconfiguratie](manage-windows-devices.md).
   
-### <a name="considerations-when-joining-your-windows-devices-to-azure-ad"></a>Overwegingen wanneer u uw Windows-apparaten met Azure AD
+### <a name="considerations-when-joining-your-windows-devices-to-azure-ad"></a>Overwegingen bij het verbinden van uw Windows-apparaten met Azure AD
 
-Als u Azure AD lid worden van een Windows-apparaat dat eerder deel uitmaakt van een domein is of een werkgroep, moet u rekening houden met de volgende beperkingen:
+Als u Azure AD lid worden van een Windows-apparaat dat eerder lid van een domein of in een werkgroep is, moet u rekening houden met de volgende beperkingen:
   
-- Wanneer een apparaat Azure AD lid, wordt een nieuwe gebruiker zonder te verwijzen naar een bestaand profiel gemaakt. U kunt dit oplossen moeten profielen handmatig worden gemigreerd. Een gebruikersprofiel bevat informatie zoals Favorieten, lokale bestanden, instellingen, instellingen van het menu Start, enz. Een beste benadering is een hulpprogramma van derden voor het toewijzen van bestanden en instellingen naar het nieuwe profiel vinden
+- Wanneer een apparaat Azure AD wordt toegevoegd, wordt een nieuwe gebruiker gemaakt zonder te verwijzen naar een bestaand profiel. Om dit op te lossen, moeten profielen handmatig worden gemigreerd. Een gebruikersprofiel bevat informatie zoals Favorieten, lokale bestanden, browserinstellingen, instellingen in het menu Start, enz. De beste manier is om een hulpprogramma van derden te vinden voor het toewijzen van bestaande bestanden en instellingen aan het nieuwe profiel
 
-- Als het apparaat wordt met behulp van Group Policy objecten (GPO), sommige groepsbeleidsobjecten niet mogelijk een vergelijkbare [Configuratie Service Provider](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) (CSP) in Intune. Het [hulpprogramma MMAT](https://www.microsoft.com/download/details.aspx?id=45520) om te zoeken naar vergelijkbare CSP's voor bestaande groepsbeleidsobjecten uitvoeren.
+- Als het apparaat gebruikmaakt van groepsbeleidsobjecten (GPO), hebben sommige groepsbeleidobjecten mogelijk geen vergelijkbare [configuratie service provider](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) (CSP) in intune. Voer het [hulpprogramma Mmat](https://www.microsoft.com/download/details.aspx?id=45520) uit om vergelijkbare csp's voor bestaande groepsbeleidobjecten te vinden.
 
-- Gebruikers worden niet geverifieerd aan toepassingen die afhankelijk van de verificatie van Active Directory zijn. Omgaan met met behulp van een oude toepassingen evalueren en bij te werken naar een toepassing die gebruikmaakt van moderne Auth indien mogelijk.
+- Gebruikers kunnen niet worden geverifieerd bij toepassingen die afhankelijk van Active Directory-verificatie zijn. Om te gaan met deze evaluatie met behulp van een verouderde app en overweeg het bijwerken naar een app die gebruikmaakt van moderne auth indien mogelijk.
 
-- Detectie van Active Directory printer werkt niet. U kunt dit oplossen direct printerpaden bieden voor alle gebruikers of maak gebruik van [Hybride Cloud Print](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).
+- Detectie van Active Directory-printers werkt niet. U dit oplossen door directe printer paden voor alle gebruikers te bieden of gebruik te maken van [Hybrid Cloud print](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).

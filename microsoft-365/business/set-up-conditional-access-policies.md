@@ -1,5 +1,5 @@
 ---
-title: Instellen van het beleid voor Microsoft 365 campagnes voorwaardelijke toegang
+title: Beleid voor voorwaardelijke toegang instellen voor Microsoft 365-campagnes
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,42 +19,42 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Informatie over het instellen van het beleid van voorwaardelijke toegang voor Microsoft 365 campagnes.
-ms.openlocfilehash: 7d8e1f16019d151478aae57b1593b0e0758e5b19
-ms.sourcegitcommit: 7e46db0b35c188ee6a7b40ab3eb2d76ff6c101c5
+description: Informatie over het instellen van beleid voor voorwaardelijke toegang voor Microsoft 365-campagnes.
+ms.openlocfilehash: 614e3a6e13a14114f40ecf87bf936d4165744503
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35086307"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982376"
 ---
-# <a name="set-up-conditional-access-policies"></a>Instellen van het beleid van voorwaardelijke toegang
+# <a name="set-up-conditional-access-policies"></a>Beleid voor voorwaardelijke toegang instellen
 
-[-Voorwaardelijke](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) beleidsregels toevoegen substancial extra beveiliging. Microsoft biedt een reeks basislijn voorwaardelijke toegang beleidsregels die worden aanbevolen voor alle klanten. Beleid van de basislijn zijn een reeks vooraf gedefinieerde beleidsinstellingen die organisaties tegen veel voorkomende aanvallen beschermen. Deze gemeenschappelijke aanvallen zijn wachtwoord spray, replay en phishing.
+Beleid voor [voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) toevoegen verbouwings extra beveiliging. Microsoft biedt een set basislijn beleid voor voorwaardelijke toegang die worden aanbevolen voor alle klanten. Basislijn beleid is een set vooraf gedefinieerde beleidsregels die organisaties helpen beschermen tegen veel veelvoorkomende aanvallen. Deze veelvoorkomende aanvallen kunnen bestaan uit het wachtwoord spray, replay en phishing.
 
-Dit beleid is vereist voor beheerders en gebruikers kunnen invoeren, een tweede vorm van verificatie (multifactor-verificatie of MVR gesloten genoemd) wanneer aan bepaalde voorwaarden wordt voldaan. Bijvoorbeeld als een gebruiker vanaf een ander land aanmeldt zich, moet het aanmelden kan worden beschouwd als riskant en de gebruiker een extra vorm van verificatie. 
+Deze beleidsregels vereisen dat beheerders en gebruikers een tweede vorm van verificatie (multi factor Authentication, of MFA) invoeren wanneer aan bepaalde voorwaarden wordt voldaan. Als een gebruiker zich bijvoorbeeld aanmeldt vanuit een ander land, kan de aanmelding als riskant worden beschouwd en moet de gebruiker een extra verificatie vorm opgeven. 
 
-Op dit moment omvatten basislijn beleid het volgende:
-- **MVR gesloten nodig voor beheerders** — meerledige verificatie vereist is voor de meeste bevoegdheden beheerdersrollen, inclusief globale beheerder.
-- **Bescherming van de eindgebruiker** — meerledige verificatie vereist is voor gebruikers alleen wanneer een aanmelden riskant is. 
-- **Verouderde verificatie blok** , oudere clienttoepassingen en sommige nieuwe apps geen nieuwere, meer beveiligde verificatieprotocollen gebruiken. Deze oudere apps kunnen omzeilen van beleid voor voorwaardelijke toegang en onbevoegde toegang krijgen tot uw omgeving. Dit beleid blokkeert de toegang van clients die geen ondersteuning voor voorwaardelijke toegang bieden. 
-- **MVR gesloten vereist voor servicebeheer** , meerledige verificatie vereist is voor toegang tot de beheerprogramma's, waaronder Azure portal (waar u basislijn beleidsregels configureren). 
+Op dit moment basislijn beleid omvatten de volgende:
+- **MFA vereisen voor beheerders** : multi-factor Authentication vereist voor de meest bevoorrechte beheerdersrollen, met inbegrip van de globale beheerder.
+- **Bescherming van eindgebruikers** : multi-factor Authentication vereist voor gebruikers alleen wanneer een aanmelding riskant is. 
+- **Verouderde verificatie blokkeren** : oudere client-apps en sommige nieuwe apps gebruiken geen nieuwere, veiligere verificatieprotocollen. Deze oudere apps kunnen beleid voor voorwaardelijke toegang omzeilen en onbevoegde toegang tot uw omgeving te krijgen. Dit beleid blokkeert de toegang van clients die geen ondersteuning bieden voor voorwaardelijke toegang. 
+- **MFA vereisen voor Service beheer** : multi-factor Authentication vereist voor toegang tot beheerhulpprogramma's, met inbegrip van Azure Portal (waar u Basisbeleid configureren). 
 
-Microsoft adviseert dat u deze basislijn beleid inschakelen. Nadat u dit beleid hebt ingeschakeld, worden beheerders en gebruikers te registreren voor Azure Multii-Factor verificatie gevraagd.
+Microsoft raadt aan dat u al deze basislijn beleid inschakelen. Nadat dit beleid is ingeschakeld, worden beheerders en gebruikers gevraagd om zich te registreren voor Azure Multii-Factor Authentication.
 
-Zie [Wat zijn volgens de basislijn beleid](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection)voor meer informatie over deze beleidsregels?
+Zie voor meer informatie over dit beleid, [Wat zijn Basisbeleid](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection)?
 
 
-## <a name="set-up-baseline-policies"></a>Beleid basislijn instellen
+## <a name="set-up-baseline-policies"></a>Basislijn beleid instellen
 
-1. Ga naar [Azure portal](https://portal.azure.com)en navigeer vervolgens naar **Azure Active Directory** \> **Voorwaardelijke toegang**.
+1. Ga naar [Azure Portal](https://portal.azure.com), en navigeer vervolgens naar **Azure Active Directory** \> **voorwaardelijke toegang**.
     
-    Het beleid van de basislijn worden vermeld op de pagina. <br/> <br/>
-    ![Pagina met basislijn beleid voor voorwaardelijke toegang.](media/baslinepolicies.png)
+    Het basislijn beleid wordt weergegeven op de pagina. <br/> <br/>
+    ![Pagina waarop het basisbeleid voor voorwaardelijke toegang wordt vermeld.](media/baslinepolicies.png)
 1. Zie de volgende specifieke instructies voor elk beleid:
 
-  - [MVR gesloten voor beheerders vereisen](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
-- [MFA Reequire voor gebruikers](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
+  - [MFA vereisen voor beheerders](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
+- [MFA vereisen voor gebruikers](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
  - [Verouderde verificatie blokkeren](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
-  - [MVR gesloten vereist voor servicebeheer](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
+  - [MFA vereisen voor servicebeheer](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
-U kunt veel aanvullend beleid, zoals het verplicht stellen van goedgekeurde clienttoepassingen instellen. Raadpleeg de [Documentatie van voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/) voor meer informatie.
+U veel extra beleidsregels instellen, zoals het vereisen van goedgekeurde client-apps. Zie de [documentatie voor voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/) voor meer informatie.

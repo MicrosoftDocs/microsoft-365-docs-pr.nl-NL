@@ -1,5 +1,5 @@
 ---
-title: Migreren naar Microsoft 365 Business van Office 365 Business Premium
+title: Migreren naar Microsoft 365 Business vanuit Office 365 Business Premium
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -18,99 +18,99 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
-description: Informatie over hoe u uw bedrijf naar Microsoft 365 Business.
-ms.openlocfilehash: e4bb18904355663f9f26f58a3fd3aaf7420e5378
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Meer informatie over hoe u uw bedrijf verplaatsen naar Microsoft 365 Business.
+ms.openlocfilehash: a3f77bd18b9b900151c50f923b705e4ff0150519
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072735"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982436"
 ---
-# <a name="migrate-to-microsoft-365-business-from-office-365-business-premium"></a>Migreren naar Microsoft 365 Business van Office 365 Business Premium
+# <a name="migrate-to-microsoft-365-business-from-office-365-business-premium"></a>Migreren naar Microsoft 365 Business vanuit Office 365 Business Premium
 
-Als u al een Office 365 voor zakelijke abonnement, bijvoorbeeld Office 365 Business Premium, kunt u eenvoudig licenties toevoegen aan Microsoft 365 Business en deze toewijzen aan bepaalde of alle gebruikers.
+Als u al een abonnement op Office 365 voor bedrijven hebt, bijvoorbeeld Office 365 Business Premium, u eenvoudig licenties toevoegen aan Microsoft 365 Business en deze toewijzen aan sommige of alle gebruikers.
   
 > [!NOTE]
-> U kunt de knop [Switch plannen](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a?.aspx#switchbutton) niet gebruiken voor een upgrade naar Microsoft 365 Business nog. 
+> U de knop [Switch plannen](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a?.aspx#switchbutton) niet gebruiken om te upgraden naar microsoft 365 Business nog. 
   
-## <a name="add-microsoft-365-business-licenses"></a>Microsoft 365 Business licenties toevoegen
+## <a name="add-microsoft-365-business-licenses"></a>Microsoft 365 Business-licenties toevoegen
 
-Er zijn twee manieren om Microsoft 365 Business. Als u een partner hebt, kan hij of zij kopen Microsoft 365 Business voor u bij [Microsoft Partner Center](get-microsoft-365-business.md). Uw partner kunt u ook de overgang naar Microsoft 365 Business.
+U hebt twee manieren om Microsoft 365 Business te krijgen. Een partner kan Microsoft 365 Business aanschaffen bij [Microsoft Partner Center](get-microsoft-365-business.md). Uw partner kan u ook helpen bij de overgang naar Microsoft 365 Business.
   
-Als u zelf uw abonnement beheren, kunt u [contact op met sales](https://www.microsoft.com/microsoft-365/business) Microsoft 365 Business licenties kopen. 
+Als u uw eigen abonnement beheert, u [contact opnemen met Sales](https://www.microsoft.com/microsoft-365/business) om microsoft 365 Business-licenties te kopen. 
   
-Zie [toevoegen, wijzigen of verwijderen van een abonnement advisor partner](https://support.office.com/article/f86e8177-936e-491e-9024-44dea2b296ff) om erachter te komen hoe u kunt aan de slag met een partner. 
+Zie [een partner van Subscription Advisor toevoegen, wijzigen of verwijderen](https://support.office.com/article/f86e8177-936e-491e-9024-44dea2b296ff) om erachter te komen hoe u met een partner gaan werken. 
   
-Als u een koppeling naar uw licenties te kopen, wordt een wizard zoals in de onderstaande doorlopen. Kies **Ja, voeg toe aan Mijn account**. U kunt ook het nummer van het certificaat en de betalingsmethode kiezen.
+Als je een link krijgt om je licenties te kopen, loop je door een wizard zoals hieronder. Kies **Ja, voeg het toe aan mijn account**. U ook het aantal licenties en de betalingsmethode kiezen.
   
-![Kopen op de directe Microsoft 365 Business link, kiest u toevoegen aan uw huidige account of meld u aan voor een nieuwe account.](media/8bc54fd1-9cab-44d5-af91-c471e89aea46.png)
+![Kies op de koppeling Microsoft 365 Business direct kopen om toe te voegen aan uw huidige account of Meld u aan voor een nieuw account.](media/8bc54fd1-9cab-44d5-af91-c471e89aea46.png)
   
-## <a name="assign-microsoft-365-licenses"></a>Licenties voor Microsoft 365 toewijzen
+## <a name="assign-microsoft-365-licenses"></a>Microsoft 365-licenties toewijzen
 
-1. Zodra u nieuwe licenties hebt aangeschaft en dit is de eerste keer dat u hebt gedaan, wordt het spandoek setup voor Microsoft 365 Business op het admin center weergegeven.
+1. Zodra u nieuwe licenties hebt aangeschaft, en dit is de eerste keer dat u hebt gedaan, wordt de setup-banner voor Microsoft 365 Business weergegeven op de top van het Admin Center.
     
     > [!NOTE]
-    > De setup banner is een gelegenheid voor nieuwe gebruikers, een nieuw domein toevoegen en e-mailadres voor nieuwe gebruikers migreren. Als u niet doen wilt, u nog steeds de wizard en standaardopties kiezen om te maken van de introductiepagina voor beheer. 
+    > De setup-banner is een mogelijkheid om nieuwe gebruikers toe te voegen, een nieuw domein en e-mail voor nieuwe gebruikers te migreren. Als u niet van plan bent om te doen, moet u nog steeds door de wizard en kies standaardopties om het te laten verdwijnen uit de admin homepage. 
   
-   ![Kies Start op de Microsoft 365 Business is gereed voor het instellen van een spandoek.](media/8d3b0d97-7cca-497f-9364-4b00ad670209.png)
+   ![Kies Start Setup op de Microsoft 365 Business is klaar om banner in te stellen.](media/8d3b0d97-7cca-497f-9364-4b00ad670209.png)
   
     Kies **Setup starten**.
     
-2. Op de pagina **aanpassen, het aanmelden en e-mailadres** , kunt u een domein door **verbinding maken met een domein dat u al eigenaar** kiezen als u gebruiken de opportunity wilt naar een ander domein toevoegen aan uw abonnement toevoegen. 
+2. Op de pagina **uw aanmelding en E-mail personaliseren** u een domein toevoegen door **een domein koppelen dat u al bezit** te kiezen als u deze mogelijkheid wilt gebruiken om een ander domein aan uw abonnement toe te voegen. 
     
-    Als u al een domein hebt ingesteld, het tweede veld dat wordt aangegeven en vanzelfsprekend **Doorgaan met behulp van** \< _de domeinnaam_ \> **voor e-mail en het aanmelden**.   Als u een domein met u abonnement niet hebt ingesteld, wordt dat **Doorgaan met behulp van** \< _de name.onmicrosoft.com van uw bedrijf_ \> **voor e-mail en het aanmelden**.  
+    Als u al een domein hebt ingesteld, geeft het tweede veld aan dat en zal zeggen **blijven met behulp van** \< _uw domeinnaam_ \> **voor e-mail en aanmelden**.   Als u een domein met uw abonnement nog niet hebt ingesteld, wordt er gezegd dat u _uw bedrijfs name.onmicrosoft.com_ \> **blijven gebruiken** \< **voor e-mail en aanmelden**.  
     
     Kies **Volgende**.
     
-    ![Kies een domein toevoegen, of degene die u hebt gebruikt op de persoonlijke instellingen voor het aanmelden en e-pagina.](media/c3f5cfb2-1189-4d2f-803b-c9feb008a7a3.png)
+    ![Kies op de pagina uw aanmeldings-en e-mailadres aanpassen of u een domein wilt toevoegen of gebruik de optie die u hebt gebruikt.](media/c3f5cfb2-1189-4d2f-803b-c9feb008a7a3.png)
   
-3. U kunt op de pagina **nieuwe gebruikers toevoegen** , nieuwe gebruikers toevoegen als u nieuwe werknemers die u wilt toewijzen aan de licenties voor Microsoft 365 Business. 
+3. Op de pagina **nieuwe gebruikers toevoegen** u nieuwe gebruikers toevoegen als u nieuwe werknemers hebt waaraan u de microsoft 365 Business-licenties wilt toewijzen. 
     
-    Als u geen nieuwe werknemers toevoegen en certificaten toewijzen aan bestaande gebruikers wilt, kies **volgende**.
+    Als er geen nieuwe werknemers zijn die u wilt toevoegen en licenties wilt toewijzen aan bestaande gebruikers, kiest u **volgende**.
     
-4. Op de ** migreren e-mailberichten ** pagina u kiezen kunt voor het migreren van e-mailadres voor alle nieuwe gebruikers die u in stap 3 hebt toegevoegd. U kunt deze stap ook overslaan. Kies **Volgende**.
+4. Op de * * migreren e-mail berichten * * pagina u kiezen voor het migreren van e-mail voor een van de nieuwe gebruikers die u in stap 3 hebt toegevoegd. U deze stap ook overslaan. Kies **Volgende**.
     
-5. Kies **Ga naar het beheercentrum**en doorgaan met setup er op de laatste pagina.
+5. Kies op de laatste pagina **Ga naar het Admin Center**, en ga verder met Setup daar.
     
-6. Ga in het beheercentrum op **gebruikers** \> **actieve gebruikers**.
+6. In het Admin Center, gaat u naar **gebruikers** \> **actieve gebruikers**.
     
-7. Selecteer de gebruiker aan wie u wilt de **Microsoft 365 Business** licentie toewijzen en kies vervolgens **bewerken** naast **Productlicenties**.
+7. Selecteer de gebruiker aan wie u de **Microsoft 365 Business** -licentie wilt toewijzen en kies vervolgens **bewerken** naast **product licenties**.
     
-    ![Kies Bewerken naast productlicenties in Gebruikerskaart voor de.](media/be0fe2d8-7ff8-447c-88f6-d212ed78451c.png)
+    ![Kies in de gebruikerskaart bewerken naast product licenties.](media/be0fe2d8-7ff8-447c-88f6-d212ed78451c.png)
   
-8. Dia in de **productlicenties van** **Microsoft 365 Business** **aan** \> **Opslaan**, en vervolgens op **sluiten**.
+8. In **product licenties** dia **Microsoft 365 Business** **op** \> **Opslaan**en **sluit**.
     
-Nadat u de oorspronkelijke licentie hebt aangeschaft voor Microsoft 365 Business, kunt u nu ook toevoegen meer in **Facturering** \> **Inkoop services**. U kunt op de pagina **services kopen** klikt u op de weglatingstekens op het visitekaartje van **Microsoft 365** en **licentie-aantal wijzigen** meer kiezen. 
+Zodra u de eerste licentie voor Microsoft 365 Business hebt aangeschaft, u nu ook meer toevoegen aan de **Inkoop Services**voor **facturering** \> . Op de pagina **Inkoop Services** u klikken op de weglatingstekens op het visitekaartje van **Microsoft 365** en kiest u **licentie hoeveelheid wijzigen** om meer te kopen. 
   
-## <a name="protect-user-devices-and-files"></a>Gebruikersapparaten en -bestanden beveiligen
+## <a name="protect-user-devices-and-files"></a>Gebruikers apparaten en bestanden beveiligen
 
-Nadat u licenties hebt toegewezen aan Microsoft 365 Business, kunt u beginnen met het beschermen van apparaten en bestanden van de gebruikers.
+Nadat u licenties hebt toegewezen aan Microsoft 365 Business, u beginnen met het beveiligen van de apparaten en bestanden van de gebruikers.
   
-1. Ga naar **apparaten** in het admin center, in de Linkernavigatie \> **beleid**.
+1. In het Admin Center, in de linker NAV, gaat u naar **apparaten** \> **beleid**.
     
-2. Kies op de pagina **beleid voor apparaat** **toevoegen**.
+2. Kies op de pagina **apparaatbeleid** de optie **toevoegen**.
     
-3. Het beleid een naam geven in het deelvenster **beleid toevoegen** en kies een **type beleid** in de vervolgkeuzelijst. 
+3. Geef in het deelvenster **beleid toevoegen** het beleid een naam en kies vervolgens een **beleidstype** in de vervolgkeuzelijst. 
     
-    U kunt beleidsregels voor toepassingen voor het beveiligen van bestanden op Android en iPhone-apparaten, evenals Windows 10 instellen en kunt u een apparaat configuratie van beleid voor een bedrijf dat eigendom is Windows 10-apparaten instellen. Zie de volgende koppelingen voor meer informatie:
+    U toepassingsbeleid instellen voor het beveiligen van bestanden op Android-en iPhone-apparaten, evenals Windows 10, en u apparaatconfiguratiebeleid instellen voor Windows 10-apparaten die eigendom zijn van het bedrijf. Zie de volgende koppelingen voor meer informatie:
     
   - [Instellingen voor app-beveiliging instellen voor Android- of iOS-apparaten](app-protection-settings-for-android-and-ios.md)
     
   - [Instellingen voor toepassingsbeveiliging instellen voor Windows 10-apparaten](protection-settings-for-windows-10-devices.md)
     
-  - [Stel het apparaat bescherming voor Windows 10 pc 's](protection-settings-for-windows-10-pcs.md)
+  - [Instellingen voor apparaatbeveiliging instellen voor Windows 10-Pc's](protection-settings-for-windows-10-pcs.md)
     
-   ![Voer een naam voor het in het venster van het beleid toevoegen en kiest u het type uit de vervolgkeuzelijst.](media/76ef37e4-1d18-4f34-8a0f-391ab1d0ae2b.png)
+   ![Voer in het deelvenster beleid toevoegen een naam voor het in en kies het beleidstype in het dropdownmenu.](media/76ef37e4-1d18-4f34-8a0f-391ab1d0ae2b.png)
   
-4. Als u een beleid ingesteld, kunnen u en uw medewerkers-apparaten instellen:
+4. Zodra u beleid hebt ingesteld, kunnen u en uw werknemers apparaten instellen:
     
-  - Als Windows niet al op Pro Maker Windows update, moet u [deze Pro makers van Update voor Windows bijwerken](upgrade-to-windows-pro-creators-update.md).
+  - Als uw Windows nog niet is geïnstalleerd op de Windows Pro Creator-update, moet u [deze upgraden naar Windows Pro Creators update](upgrade-to-windows-pro-creators-update.md).
     
-  - Zie [Windows-apparaten voor gebruikers van Microsoft 365 Business](set-up-windows-devices.md) voor stappen voor Windows-apparaten. 
+  - Zie [Windows-apparaten instellen voor Microsoft 365 zakelijke gebruikers](set-up-windows-devices.md) voor stappen voor Windows-apparaten. 
     
-  - Zie [mobiele apparaten voor gebruikers van Microsoft 365 Business](set-up-mobile-devices.md) voor stappen voor Android-telefoons en iPhones. 
+  - Zie [mobiele apparaten instellen voor Microsoft 365 zakelijke gebruikers](set-up-mobile-devices.md) voor stappen voor Android-telefoons en iPhones. 
     
-5. Zie [voorbereiden voor clientimplementatie Office van Microsoft 365 Business](prepare-for-office-client-deployment.md) en [automatisch installeren of verwijderen van Office voor Windows 10-apparaten](auto-install-or-uninstall-office.md)automatisch installeren van Office-clienttoepassingen.
+5. Voor het automatisch installeren van Office-client-apps, Zie [voorbereiden voor Office-clientimplementatie door Microsoft 365 Business](prepare-for-office-client-deployment.md) en [automatisch installeren of verwijderen van Office op Windows 10-apparaten](auto-install-or-uninstall-office.md).
     
 
 
