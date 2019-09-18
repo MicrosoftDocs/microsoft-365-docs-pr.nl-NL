@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, veelgestelde vragen, antwoorden, Business
 ms.date: 06/08/2018
-ms.openlocfilehash: 3ab99b402bf440cd0c113a87dc453ff388a5befb
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: e722cc117d967796f0063b20e3d117b36b179f3e
+ms.sourcegitcommit: 14624abb412b6a34138a6266c994bb9cae411ad9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982316"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37028402"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft 365 Business
 
@@ -24,7 +24,7 @@ ms.locfileid: "36982316"
 ### <a name="what-is-microsoft-365-business"></a>Wat is Microsoft 365 Business? 
 Microsoft 365 is een geïntegreerde oplossing die de allerbeste productiviteitstools, beveiliging en mogelijkheden voor Apparaatbeheer voor kleine tot middelgrote bedrijven samenbrengt. 
 
-**Een holistische set zakelijke productiviteits-en samenwerkingshulpmiddelen** 
+**Een set zakelijke productiviteits-en samenwerkingshulpmiddelen** 
 * Word, Excel, PowerPoint, Outlook, OneNote, Publisher en Access 
 * Exchange, OneDrive, Skype voor bedrijven, Microsoft teams, SharePoint 
 * Zakelijke apps van Office (boekingen, Outlook Customer Manager, MileIQ<sup>[1](#footnote1)</sup>, Microsoft invoicing<sup>[1](#footnote1)</sup>) 
@@ -118,11 +118,11 @@ Klanten die de volledige mogelijkheden van Microsoft 365 Business willen ervaren
 Het meest directe pad naar een geslaagde implementatie van Microsoft 365 Business is om contact te maken met een Microsoft-partner. Ze hebben uitgebreide training en ervaring met een breed scala aan klantscenario's en zijn het best uitgerust om uw omgeving en behoeften te begrijpen. Klanten die de IT-medewerkers hebben ervaren, kunnen de <a href="https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364" target="_blank">Microsoft 365 Business</a> aan de slag gebruiken om hen te helpen bij hun implementatie van microsoft 365 Business. 
 
 ### <a name="does-microsoft-365-business-include-the-full-capabilities-of-microsoft-intune"></a>Bevat Microsoft 365 Business de volledige mogelijkheden van Microsoft intune? 
-Ja, Microsoft 365 zakelijke abonnees zijn gelicentieerd voor het gebruik van de volledige mogelijkheden van intune voor iOS, Android, MacOS en andere cross-platform Device Management. Functies die niet beschikbaar zijn in de vereenvoudigde beheerconsole in Microsoft 365 Business, zoals 3rd party-app-beheer en configuratie van WiFi-profielen, VPN-certificaten, enz., kunnen worden beheerd in de volledige intune-console. U hebt rechten voor het gebruik van Configuration Manager voor het beheren van clients die worden gedekt door de EMS-licentie. Raadpleeg voor SCCM-gerelateerde query's de <a href="https://docs.microsoft.com/en-us/sccm/core/understand/product-and-licensing-faq#bkmk_csp" target="_blank">Veelgestelde vragen over SCCM</a>
+Ja, Microsoft 365 zakelijke abonnees zijn gelicentieerd voor het gebruik van de volledige mogelijkheden van intune voor iOS, Android, MacOS en andere cross-platform Device Management. Functies die niet beschikbaar zijn in de vereenvoudigde beheerconsole in Microsoft 365 Business, zoals 3rd party-app-beheer en configuratie van WiFi-profielen, VPN-certificaten, enz., kunnen worden beheerd in de volledige intune-console. 
   
 
 ### <a name="does-azure-active-directory-premium-p1-come-with-microsoft-365-business"></a>Wordt Azure Active Directory Premium P1 geleverd met Microsoft 365 Business? 
-Microsoft 365 Business is gebaseerd op technologie van over Microsoft en terwijl het sommige functies met Azure Active Directory deelt, is het niet een volledige versie. Het beveiligings-en beheerbeleid dat is gemaakt in Microsoft 365 Business, is afhankelijk van bepaalde functionaliteit van Azure, maar bevat niet alle functies (zoals selfservice functies, functies voor voorwaardelijke toegang en rapportage). Klanten kunnen ervoor kiezen om Azure Active Directory Premium P1 of P2 aan te schaffen als een add-on voor Microsoft 365 Business. Raadpleeg de beschrijving van de [Microsoft 365 Business Service](https://technet.microsoft.com/library/b042d1fd-c997-46d8-8c02-1df4c932f148) voor meer informatie 
+Microsoft 365 Business omvat Selecteer Azure AD Premium P1 (AADP P1) functies zoals self-service wachtwoord opnieuw instellen met AD write-back, Azure MFA en voorwaardelijke toegang. Het omvat niet het geheel van AADP P1. Zie de beschrijving van de [Microsoft 365 Business Service](https://technet.microsoft.com/library/b042d1fd-c997-46d8-8c02-1df4c932f148) voor meer informatie 
  
  
 ### <a name="does-microsoft-365-business-allow-customers-to-manage-macs"></a>Staat Microsoft 365 Business klanten toe om Macs te beheren? 
