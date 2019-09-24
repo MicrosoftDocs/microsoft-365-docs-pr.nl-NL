@@ -19,17 +19,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
-description: Informatie over automatische piloot Windows gebruiken voor het instellen van nieuwe Windows 10-apparaten voor uw bedrijf.
-ms.openlocfilehash: 9a70978156fb26ac3aad08f1758b7ee125067d38
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Informatie over het gebruik van Windows AutoPilot voor het instellen van nieuwe Windows 10-apparaten voor uw bedrijf.
+ms.openlocfilehash: ee4b4a9b06c08b8f9456822b680542665c27baf3
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072145"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121193"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>De stapsgewijze handleiding gebruiken om Autopilot-apparaten en -profielen toe te voegen
 
-Automatische piloot van Windows kunt u een **nieuwe** Windows 10-apparaten instellen voor uw bedrijf zodat ze gereed voor een efficiënter gebruik zijn zodra u ze aan uw werknemers geven.
+U Windows AutoPilot gebruiken om **nieuwe** Windows 10-apparaten voor uw bedrijf in te stellen, zodat ze klaar zijn voor productief gebruik zodra u ze aan uw werknemers geeft.
   
 ## <a name="device-requirements"></a>Apparaatvereisten
 
@@ -41,17 +41,17 @@ Apparaten moeten aan deze vereisten voldoen:
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>De installatiehandleiding gebruiken om apparaten en profielen te maken
 
-![Banner die verwijzen naar https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+[![Label om u te laten weten dat het Admin Center is aan het veranderen en u meer informatie vinden op aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Als u nog geen apparaatgroepen of profielen hebt gemaakt, kunt u het beste aan de slag gaan met de stapsgewijze handleiding, maar u kunt ook [apparaten toevoegen](create-and-edit-autopilot-devices.md) en hieraan [profielen toewijzen](create-and-edit-autopilot-profiles.md) zonder de handleiding te gebruiken. 
   
-1. Ga naar de admin center op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+1. Ga naar het Admin Center op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
 
-2. Kies op de Linkernavigatie **apparaten** \> **automatische piloot**.
+2. Kies op de linker navigatie **apparaten** \> **Autopilot**.
 
-    ![Kies in het admin center apparaten en klik vervolgens op automatische piloot.](media/AutoPilot.png)
+    ![Kies in het Admin Center apparaten en vervolgens AutoPilot.](media/AutoPilot.png)
   
-2. Klik of tik op **Start guide**op de pagina **automatische piloot** .
+2. Klik of tik op de pagina **stuurautomaat** op **start gids**.
     
     ![Click Start guide for step-by-step instructions for Autopilot.](media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   

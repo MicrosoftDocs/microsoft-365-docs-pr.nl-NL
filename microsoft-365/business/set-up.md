@@ -22,18 +22,18 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Meer informatie over het instellen van Microsoft 365 Business.
-ms.openlocfilehash: 1efb7379930f639cf10875cf5aa6731001bb41c8
-ms.sourcegitcommit: 2e5ae52bb641ee1f72c077260b5d0f35622935fe
+ms.openlocfilehash: dbd2e740c85f52d3f43e6cd3d6ce45c478a9b1a9
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "37005193"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121313"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Microsoft 365 Business instellen in de wizard Setup
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Uw domein, gebruikers en beleidsinstellingen toevoegen
 
-![Banner die naar https://aka.ms/aboutM365previewwijst.](media/m365admincenterchanging.png)
+[![Label om u te laten weten dat het Admin Center is aan het veranderen en u meer informatie vinden op aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Wanneer u Microsoft 365 Business aanschaft, hebt u de mogelijkheid om een domein te gebruiken waarvan u eigenaar bent, of om er een te kopen tijdens de [aanmelding](sign-up.md).
 

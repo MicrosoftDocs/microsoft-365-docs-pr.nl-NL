@@ -19,17 +19,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
-description: 'Installeren of verwijderen van Office voor Windows 10-apparaten van het Microsoft 365 Business admin center. '
-ms.openlocfilehash: 1e962f51882ddfd97da566858a0a1e6fb56ecbb8
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: 'Installeer of Verwijder Office op Windows 10-apparaten vanuit het Microsoft 365 Business Admin Center. '
+ms.openlocfilehash: 70fd2f1ded87e04f506b1ba415c820af5d535938
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34071955"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121253"
 ---
 # <a name="automatically-install-or-uninstall-office-on-windows-10-devices"></a>Office automatisch installeren op of verwijderen van Windows 10-apparaten
 
-![Banner die verwijzen naar https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+[![Label om u te laten weten dat het Admin Center is aan het veranderen en u meer informatie vinden op aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 U kunt snel en eenvoudig Office installeren op pc's met Windows 10 vanuit het Microsoft 365 Business-beheercentrum.
   
@@ -40,7 +40,7 @@ Lees [Office-clientinstallatie voorbereiden](prepare-for-office-client-deploymen
 1. Meld u aan bij het [beheercentrum](https://aka.ms/bcsportal) met globale-beheerdersreferenties. 
     
 2. Kies op de kaart **Apparaten** de optie **Office-implementatie beheren**.
-      Als u de kaart **apparaat acties** niet ziet in de admin **Home** pagina, klikt u op **toevoegen** (+) toe te voegen aan uw startpagina voor beheerders.
+      Als u de kaart met **apparaatacties** niet ziet, klikt u op de **Start** pagina van het Admin Center op **toevoegen** (+) om deze toe te voegen aan uw admin Home.
     
     ![Screenshot of the Devices card in the admin center](media/9982e784-dbf9-4a76-a159-bb3e2e5aa23f.png)
   
