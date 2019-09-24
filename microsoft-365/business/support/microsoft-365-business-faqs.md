@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, veelgestelde vragen, antwoorden, Business
 ms.date: 06/08/2018
-ms.openlocfilehash: e722cc117d967796f0063b20e3d117b36b179f3e
-ms.sourcegitcommit: 14624abb412b6a34138a6266c994bb9cae411ad9
+ms.openlocfilehash: cc6cc924cf45fa19d7f91235515981b636abf77d
+ms.sourcegitcommit: bd17ee20da1685e5c660d5f99746c81c63a17b22
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37028402"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37141504"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft 365 Business
 
@@ -43,6 +43,9 @@ Microsoft 365 is een geïntegreerde oplossing die de allerbeste productiviteitst
 * Automatische installatie van Office-apps op Windows 10-Pc's 
 * Altijd up-to-date Office + Windows 10 
 * Gestroomlijnde implementatie van Pc's met Windows AutoPilot
+
+**Voorwaardelijke toegang inschakelen**
+- Microsoft 365 zakelijke klanten kunnen voorwaardelijke toegang via de Azure Directory-instellingen in azure Portal inschakelen. Voor meer informatie over het configureren van beleid voor voorwaardelijke toegang, raadpleegt u het artikel [Wat is voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
 
 ### <a name="who-should-consider-adopting-microsoft-365-business"></a>Wie moet overwegen om Microsoft 365 Business te adopteren? 
 Microsoft 365 Business is gebouwd voor kleine en middelgrote klanten die weinig tot geen IT-resources hebben voor medewerkers en die de beste productiviteits-en samenwerkingsmogelijkheden van Office 365 willen, samen met Apparaatbeheer en beveiligingsoplossingen die Beveilig bedrijfsgegevens. De Microsoft 365 Business-klant is klaar om hun IT-activiteiten naar de cloud te verplaatsen en is geïnteresseerd in het handhaven van een proactieve houding om gegevens te helpen beschermen op apparaten die eigendom zijn van het bedrijf en de werknemer.
