@@ -8,40 +8,37 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
-description: 'Informatie over het Windows-apparaten een upgrade naar Windows 10 Pro makers van Update. '
-ms.openlocfilehash: baa0dd6ad1c91a0ad7497ce9496681eb87e65d87
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: 'Meer informatie over het upgraden van Windows-apparaten naar Windows 10 Pro Creators update. '
+ms.openlocfilehash: 95efe45ec43c027ff62b0468e0cfb1fbcc7b60bf
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074335"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288083"
 ---
 # <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a>Upgrade Windows devices to Windows Pro Creators Update (Windows-apparaten bijwerken naar de Windows Pro-makersupdate
 
-## <a name="upgrade-to-windows-10-pro-creators-update"></a>Upgraden naar Windows 10 Pro makers bijwerken
+## <a name="upgrade-to-windows-10-pro-creators-update"></a>Upgrade naar Windows 10 Pro Creators update
   
-1. Als u wilt upgraden naar Windows 10 Pro makers Update, hebt u verschillende mogelijkheden. U kunt:
+1. Als u wilt upgraden naar Windows 10 Pro Creators update, hebt u verschillende opties. U kunt:
     
-    - De upgrade te installeren vanaf de [downloadsite van Microsoft Software](https://go.microsoft.com/fwlink/?LinkID=836951 ) - Selecteer deze optie als het apparaat dat u bent aangemeld op het apparaat als die u wilt bijwerken.
+    - Installeer de upgrade van de [Microsoft-software download site](https://go.microsoft.com/fwlink/?LinkID=836951 ) -Selecteer deze optie als het apparaat dat u bent aangemeld, zich op hetzelfde apparaat bevindt als dat dat u wilt bijwerken.
     
-      een. Downloaden van de software site, klikt u op **Nu bijwerken** om te starten met het apparaat upgraden naar Windows 10 Pro makers van Update. 
+      A. Klik vanaf de site voor het downloaden van software op **Nu bijwerken** om te beginnen met het upgraden van het apparaat naar Windows 10 Pro Creators update. 
     
-     - Maken van een van installatiemedia met behulp van het [Hulpprogramma voor het maken van Media](https://go.microsoft.com/fwlink/?LinkID=836960) - Selecteer deze optie om een Windows 10 Pro makers Update installatiemedium (USB-flashstation of ISO-bestand) naar Windows 10 te installeren op een PC die verschilt van u maken.
+     - Een installatiemedium maken met het [hulpprogramma](https://go.microsoft.com/fwlink/?LinkID=836960) voor het maken van media-Selecteer deze optie om een Windows 10 Pro Creators update-installatiemedium (USB-flashstation of ISO-bestand) te maken om Windows 10 te installeren op een PC die verschilt van de computer die u gebruikt.
     
-        een. Lees de instructies voor het gebruik van het hulpprogramma en de installatiemedia maken. 
+        A. Lees de instructies voor het gebruik van het hulpprogramma en het maken van uw installatiemedia. 
 
 > [!Note]
-> Als u Windows-apparaten met Windows 7 Pro, Windows 8 Pro of Windows 8.1 Pro, Microsoft 365 Business abonnement hebt u recht op een Windows 10 upgrade - nodig niet hebt u een productcode.
+> Als u Windows-apparaten met Windows 7 Pro, Windows 8 Pro of Windows 8,1 Pro hebt, geeft uw Microsoft 365 Business-abonnement u recht op een Windows 10-upgrade-u hebt geen product code nodig.
     
-Zie [Windows-apparaten voor Microsoft 365 zakelijke gebruikers instellen](set-up-windows-devices.md) voor het voltooien van Windows 10-apparaten ingesteld. 
+Zie [Windows-apparaten instellen voor Microsoft 365 zakelijke gebruikers](set-up-windows-devices.md) om het instellen van Windows 10-apparaten te voltooien. 
   
-Zie [instellen van mobiele apparaten voor gebruikers van Microsoft 365 Business](set-up-mobile-devices.md) voltooid instellen van Android- en iOS-apparaten. 
+Zie [mobiele apparaten instellen voor Microsoft 365 zakelijke gebruikers](set-up-mobile-devices.md) om het instellen van Android-en IOS-apparaten te voltooien. 
   

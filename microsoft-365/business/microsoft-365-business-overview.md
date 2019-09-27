@@ -11,22 +11,18 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Informatie over Microsoft 365 Business instellen.
-ms.openlocfilehash: 64cfa460311af6cdafb637ceb3415511e003e394
-ms.sourcegitcommit: dd0d99d2ff930cd1777d6704f4d88a70adc9ca74
+description: Meer informatie over het instellen van Microsoft 365 Business.
+ms.openlocfilehash: 8568232eb65485f1e016342bb13de9a07f706c00
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35853144"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288530"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Overzicht van Microsoft 365 Business
 
@@ -36,29 +32,29 @@ Microsoft 365 Business is een uitgebreide reeks zakelijke hulpmiddelen voor prod
   
 Microsoft 365 Business is bedoeld voor maximaal 300 licenties. Als u meer licenties nodig hebt, raadpleegt u de documentatie voor [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) voor meer informatie.
 
-Zie [Beschrijving van de service Microsoft 365 Business](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) voor de volledige lijst met functies.
+Zie [Microsoft 365 Business servicebeschrijving](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) voor de volledige lijst met functies.
   
-## <a name="small-business-security-needs"></a>Beveiligingsbehoeften van kleine bedrijven
+## <a name="small-business-security-needs"></a>Beveiligingsbehoeften voor kleine bedrijven
 
-Uw bedrijfsgegevens kan op vele manieren worden aangetast. U en uw gebruikers kunnen een beveiligingsrisico van uw organisatie tijdens het aanmelden bij gemanipuleerde referenties of organisatiegegevens weergeven op verschillende apparaten en toepassingen. Uw organisatie wordt meer in het bijzonder kwetsbaar voor:
+Uw bedrijfsgegevens kunnen op vele manieren worden aangetast. U en uw gebruikers kunnen de beveiliging van uw organisatie in gevaar brengen wanneer u zich aanmeldt met gecompromitteerde referenties of organisatiegegevens weergeven op verschillende apparaten en toepassingen. Meer specifiek loopt uw organisatie gevaar:
 
-1. Beschadigde of zwakke referenties.
-2. Gemanipuleerde apparaat met een zwakke pincode of een gebruiker het apparaat eigendom.
-3. Gebruikers die u kunnen kopiëren/plakken/opslaan van persoonlijke apps gegevens van uw organisatie.
-4. Gebruikers die de installatie en het gebruik van 3<sup>rd</sup> partij apps met zwakke beveiliging.
-5. E-mailadres beveiligingsproblemen met inbegrip van gevoelige gegevens delen, pogingen phishing, malware, enz.
-6. Wanneer mensen die geen toegang tot documenten met vertrouwelijke informatie.
+1. Gecompromitteerde of zwakke inloggegevens.
+2. Gecompromitteerde apparaat met een zwakke PIN of een gebruiker eigendom apparaat.
+3. Gebruikers die de gegevens van uw organisatie kunnen kopiëren/plakken/opslaan in persoonlijke apps.
+4. Gebruikers die 3<sup>RD</sup> -party-apps installeren en gebruiken met zwakke beveiliging.
+5. E-mail kwetsbaarheden, waaronder het delen van gevoelige gegevens, phishing-pogingen, malware, enz.
+6. Wanneer mensen die dat niet moeten doen, toegang hebben tot documenten met gevoelige informatie.
 
-Microsoft 365 Business helpt bij het beschermen van uw gegevens in elk van deze instanties. De beveiligingsfuncties die uw gegevens beschermen worden beschreven in de volgende afbeelding.
+Microsoft 365 Business helpt bij het beveiligen van uw gegevens in elk van deze gevallen. De beveiligingsfuncties die uw bedrijfsgegevens beschermen, worden gedetailleerd beschreven in de volgende afbeelding.
 
-![Een afbeelding die weergeeft hoe M365B beschermt uw bedrijf.](media/m365businessvalueadd.png)
+![Een cijfer dat laat zien hoe M365B uw bedrijf beschermt.](media/m365businessvalueadd.png)
 
-De volledige lijst van echtheidskenmerken, Zie [beveiligingsvoorzieningen van Microsoft 365 Business](security-features.md). Nadat u [Microsoft 365 Business](set-up.md), Zie [Geavanceerde beveiligingsbeleid instellen](set-up-advanced-security.md) om aan de slag met de beveiligingsfuncties die niet opgenomen als onderdeel van de installatie zijn. Lees ook [Top 10 manieren voor het beveiligen van Office 365 en Microsoft 365 Business plannen](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) voor een goed overzicht over het instellen van beveiligingen tegen cyber criminelen en hackers.
+Zie [Microsoft 365 zakelijke beveiligingsfuncties](security-features.md)voor de volledige lijst met beveiligingsfuncties. Nadat u [Microsoft 365 Business hebt ingesteld](set-up.md), raadpleegt u [Geavanceerd beveiligingsbeleid instellen](set-up-advanced-security.md) om aan de slag te gaan met de beveiligingsfuncties die niet zijn opgenomen als onderdeel van de installatie. Lees ook [Top 10 manieren om Office 365 en Microsoft 365 business plannen te beveiligen](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) voor een goed overzicht over hoe je bescherming tegen cybercriminelen en hackers instellen.
 
 ## <a name="get-microsoft-365-business"></a>Microsoft 365 Business kopen
 
 - Als u een partner hebt, ontvangt deze Microsoft 365 Business: [Microsoft 365 Business verkrijgen via Microsoft Partner Center](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
 
-- Als u niet een partner wilt ophalen van Microsoft 365 Business, kunt u [hier kopen](https://www.microsoft.com/microsoft-365/business) en volg de instructies voor het [aanmelden](sign-up.md) .
+- Als u geen partner hebt en Microsoft 365 Business wilt krijgen, u deze [hier kopen](https://www.microsoft.com/microsoft-365/business) en de [aanmeld](sign-up.md) instructies volgen.
 
-- U kunt ook head over aan een [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) kopen van Microsoft 365 Business en hulp bij het installeren.
+- U ook naar een [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) gaan om zowel microsoft 365 Business te kopen als hulp bij het instellen.

@@ -11,23 +11,19 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
-description: Informatie over het laden van apparaten met automatische piloot in Microsoft 365 Business. U kunt een profiel toewijzen aan een apparaat of een groep apparaten.
-ms.openlocfilehash: dee77a014ef519f3487a082edc3cf81058ec1c00
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Meer informatie over het uploaden van apparaten met behulp van AutoPilot in Microsoft 365 Business. U een profiel toewijzen aan een apparaat of een groep apparaten.
+ms.openlocfilehash: 9ae94266f5a41d8d115fc92f0f080a6fdbdc9f15
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34071635"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288010"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>AutoPilot-apparaten maken en bewerken
 
@@ -41,13 +37,13 @@ Apparaten moeten aan deze vereisten voldoen:
     
 - Nieuwe apparaten die niet de Out-of-Box Experience van Windows hebben doorlopen.
 
-1. Kies in het beheercentrum van Microsoft 365 Business **apparaten** \> **automatische piloot**.
+1. Kies in het Microsoft 365 Business Admin Center **apparaten** \> **Autopilot**.
   
-2. Kies het tabblad **apparaten** op de pagina **automatische piloot** \> **apparaten toevoegen**.
+2. Kies op de pagina **stuurautomaat** het **** tabblad \> apparaten **apparaten toevoegen**.
     
     ![In the Devices tab, choose Add devices.](media/6ba81e22-c873-40ad-8a72-ce64d15ea6ba.png)
   
-3. Ga in het venster **apparaten toevoegen** naar een [CSV-bestand lijst met apparaten](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e) die u hebt voorbereid \> **Opslaan** \> **sluiten**.
+3. Ga naar het deelvenster **apparaten toevoegen** en blader naar een [CSV-bestand met Apparaatlijst](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e) dat \> u hebt voorbereid **Opslaan** \> **sluiten**.
     
     U kunt deze informatie van uw hardwareleverancier krijgen of u kunt het [Get-WindowsAutoPilotInfo-PowerShell-script](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) gebruiken, waarmee een CSV-bestand wordt gegenereerd. 
     

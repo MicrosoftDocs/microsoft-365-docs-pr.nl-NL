@@ -11,38 +11,34 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
-description: Informatie over het maken, bewerken, of verwijderen van een beleid voor het beheer van app en werkbestanden op Android of iOS apparaten te beschermen.
-ms.openlocfilehash: 21cc1d91c2952c6e9414d3742c26547fc36016a5
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Informatie over het maken, bewerken of verwijderen van een app-beheerbeleid en het beveiligen van werkbestanden op Android-of iOS-apparaten.
+ms.openlocfilehash: 68a338ffb4f9b6cab16c677f80d27481ccec4bd8
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073505"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287690"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Instellingen voor app-beveiliging instellen voor Android- of iOS-apparaten
 
-![Banner die verwijzen naar https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+![Banner die naar https://aka.ms/aboutM365previewwijst.](media/m365admincenterchanging.png)
 
 ## <a name="create-an-app-management-policy"></a>Beleid voor app-beheer maken
 
-1. Ga naar de admin center op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
+1. Ga naar het Admin Center op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. Kies in de Linkernavigatie **apparaten** \> **beleid** \> **toevoegen**.
+2. Kies in de linker navigatie \> **apparaatbeleidsregels** \> **toevoegen**. ****
   
 3. Voer in het deelvenster **Beleid toevoegen** een unieke naam in voor dit beleid. 
     
 4. Kies onder **Type beleid** de optie **Toepassingsbeheer voor Android** of **Toepassingsbeheer voor iOS**, afhankelijk van de set beleidsregels die u wilt maken. 
     
-5. Vouw **werkbestanden beveiligen bij verlies of diefstal van de apparaten** en **hoe gebruikers toegang kunnen krijgen tot Office-bestanden op mobiele apparaten beheren** \> de gewenste instellingen te configureren. De **manier waarop gebruikers toegang kunnen krijgen tot Office-bestanden op mobiele apparaten beheren** is standaard **uitgeschakeld** , maar het is aanbevolen dat u **deze functie inschakelen** en accepteer de standaardwaarden. Zie de [beschikbare instellingen](#available-settings) voor meer informatie. 
+5. Vouw **werkbestanden beveiligen wanneer apparaten zijn verloren of gestolen** en **beheren hoe gebruikers toegang hebben tot Office-bestanden op mobiele apparaten** \> Configureer de instellingen hoe u wilt. De **gebruikers toegang tot Office-bestanden op mobiele apparaten beheren** is standaard **uitgeschakeld** , **maar het is** raadzaam deze functie in te schakelen en de standaardwaarden te accepteren. Zie de [beschikbare instellingen](#available-settings) voor meer informatie. 
     
     U kunt altijd de koppeling **Standaardwaarden herstellen** gebruiken om terug te keren naar de standaardinstelling. 
     
@@ -54,7 +50,7 @@ ms.locfileid: "34073505"
     
 ## <a name="edit-an-app-management-policy"></a>Beleid voor app-beheer bewerken
 
-1. Kies op de kaart **beleid** **beleid bewerken**.
+1. Kies **beleid bewerken**op de kaart **beleid** .
     
 2. Kies in het deelvenster **Beleid bewerken** het beleid dat u wilt wijzigen 
     
@@ -64,9 +60,9 @@ ms.locfileid: "34073505"
     
 ## <a name="delete-an-app-management-policy"></a>Beleid voor app-beheer verwijderen
 
-1. Kies op de pagina **beleid** een beleid en vervolgens te **verwijderen**.
+1. Op de **beleid** pagina, kiest u een beleid en vervolgens **verwijderen**.
     
-2. Kies in het deelvenster **beleid verwijderen** **bevestigen** verwijderen van het beleid of het beleid dat u hebt gekozen. 
+2. Kies in het deelvenster **beleid verwijderen** de optie **bevestigen** om het beleid of beleid te verwijderen dat u hebt gekozen. 
     
 ## <a name="available-settings"></a>Beschikbare instellingen
 

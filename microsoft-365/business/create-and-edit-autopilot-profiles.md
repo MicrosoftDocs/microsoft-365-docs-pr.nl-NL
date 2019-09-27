@@ -11,23 +11,19 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
-description: 'Informatie over te maken, bewerken, verwijderen of automatische piloot profielen verwijderen. '
-ms.openlocfilehash: 7987cafb3ea234d81be72c79aee8e584a3770875
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: 'Informatie over het maken, bewerken, verwijderen of verwijderen van AutoPilot-profielen. '
+ms.openlocfilehash: 8fae8af5e7aa7b866745d0b34a4fe11862de6e9d
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073485"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287770"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>AutoPilot-profielen maken en bewerken
 
@@ -35,9 +31,9 @@ ms.locfileid: "34073485"
 
 Een profiel geldt voor een apparaat of een groep apparaten.
   
-1. Kies in het beheercentrum van Microsoft 365 Business **apparaten** \> **automatische piloot**.
+1. Kies in het Microsoft 365 Business Admin Center **apparaten** \> **Autopilot**.
   
-2. Kies het tabblad **profielen** op de pagina **automatische piloot** \> **profiel maken**.
+2. Kies op de pagina **stuurautomaat** het **** tabblad \> profielen **profiel maken**.
     
 3. Voer op de pagina **Profiel maken** een naam in voor het profiel waaraan u deze kunt herkennen, bijvoorbeeld Marketing, schakel de gewenste instelling in (zie [Info over AutoPilot-profielinstellingen](autopilot-profile-settings.md) voor meer informatie) en kies **Opslaan**.
     

@@ -1,5 +1,5 @@
 ---
-title: Overzicht van instellen
+title: Overzicht van de set-up
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -13,74 +13,71 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Overzicht van de stappen instellen voor Microsoft 365 Business.
-ms.openlocfilehash: ae7ed0aab36a6e759e0f0c1fbc3d3183273a284e
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Overzicht van de stappen voor het instellen van Microsoft 365 Business.
+ms.openlocfilehash: f156d236a783942ec06d457c9b7ca087d12d6f58
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "35086298"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288570"
 ---
-# <a name="overview-of-setup"></a>Overzicht van de installatie
+# <a name="overview-of-setup"></a>Overzicht van instellingen
 
-De meeste van de instellen van de stappen in de wizard setup kan worden uitgevoerd, maar de andere opties worden ook weergegeven.
+De meeste instellingsstappen kunnen worden uitgevoerd in de instelwizard, maar de andere opties worden ook weergegeven.
 
 
-## <a name="step-1-add-your-domain-and-users"></a>Stap 1: Uw domein en gebruikers toevoegen
+## <a name="step-1-add-your-domain-and-users"></a>Stap 1: Voeg uw domein en gebruikers toe
 
-   - **[Uw domein toevoegen](set-up.md#add-your-domain-to-personalize-sign-in)** (als u uw domein tijdens het [aanmelden](sign-up.md)hebt gekocht, wordt deze stap hebt gedaan.)
+   - **[Voeg uw domein toe](set-up.md#add-your-domain-to-personalize-sign-in)** (als u uw domein heeft gekocht tijdens het [Aanmelden](sign-up.md), is deze stap al gedaan.)
 
-    - **Gebruikers toevoegen**. U kunt dit op een van de drie manieren doen:
+    - **Gebruikers toevoegen**. U dit op de volgende drie manieren doen:
         - In de [wizard](set-up.md#add-users-in-the-wizard).
-        - Adreslijstsynchronisatie toevoegen van [gebruikers met Azure AD verbinding](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) gebruiken als u een Active directory op gebouwen.
-        - U kunt ook [gebruikers later toevoegen](add-users-m365b.md) in het beheercentrum.
-## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Stap 2: Instellen van beveiligingsbeleid en -apparaten configureren 
+        - Gebruik adreslijstsynchronisatie om [gebruikers toe te voegen met behulp van Azure AD Connect](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) als u een on-premises Active Directory hebt.
+        - U ook [gebruikers later toevoegen](add-users-m365b.md) in het Admin Center.
+## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Stap 2: beveiligingsbeleid instellen en apparaten configureren 
 
-  - Gebruik de [wizard Setup van](set-up.md#set-up-security-policies-and-device-configurations) apparaat-en beveiligingsbeleid configureren. 
-  - U kunt ook meer toevoegen of bewerken verderop in de [admin center](view-policies-and-devices.md) en in het [portal Intune](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal).
-  - Naast de instellingen in de wizard setup, kunt u de beveiliging vergroten door de volgende instellingen toe te voegen:
+  - Gebruik de [wizard Setup](set-up.md#set-up-security-policies-and-device-configurations) om het apparaat-en beveiligingsbeleid te configureren. 
+  - U ook meer toevoegen of later bewerken in het [Beheercentrum](view-policies-and-devices.md) en in de [intune-Portal](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal).
+  - Naast de beveiligingsinstellingen in de installatiewizard u de beveiliging verhogen door de volgende instellingen toe te voegen:
 
-      - **E-mail beveiliging tegen ongewenste software**
-      - **Geavanceerde bedreiging (ATB) veilige koppelingen**
+      - **E-malware bescherming**
+      - **Veilige koppelingen voor geavanceerde Bedreigingsbeveiliging (ATP)**
       - **ATP veilige bijlagen**
       - **ATP anti-phishing**
       - **Exchange Online Archiving**
-      - **Gegevensverlies voorkomen (DLP)**
-      - **Azure informatiebeveiliging (Plan1**)
+      - **Preventie van gegevensverlies (DLP)**
+      - **Azure Information Protection (Plan1**)
 
-          Zie [Geavanceerde beveiligingsbeleid instellen](set-up-advanced-security.md)om op te halen is gestart.
+          Om aan de slag te gaan, [stelt u Geavanceerd beveiligingsbeleid in](set-up-advanced-security.md).
 
-        Zie ook de [top 10 manieren voor het beveiligen van uw bedrijf Microsoft 365](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) voor een overzicht van aanbevolen beveiligingsprocedures.
+        Zie ook [de Top 10-manieren om uw Microsoft 365-bedrijf te beveiligen](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) voor een roadmap van de beste beveiligingspraktijken.
 
-## <a name="step-3-set-up-and-manage-windows-10-devices"></a>Stap 3: Instellen en beheren van apparaten in Windows 10
+## <a name="step-3-set-up-and-manage-windows-10-devices"></a>Stap 3: Windows 10-apparaten instellen en beheren
 
-   Wanneer u een apparaat met Windows 10 naar Azure AD, krijg het beleid dat u in [stap 2](#step-2-set-up-security-policies-and-configure-devices) hebt ingesteld toegepast.
+   Wanneer u een Windows 10-apparaat aan Azure AD toevoegen, wordt het beleid dat u hebt ingesteld in [stap 2](#step-2-set-up-security-policies-and-configure-devices) toegepast op het.
 
-   - Windows 10 Pro is een [vereist item](pre-requisites-for-data-protection.md) voor Microsoft 365 Business, maar als u Windows 7 Pro, Windows 8 Pro of Windows 8.1 Pro hebt, uw abonnement hebt u recht op een [upgrade naar Windows 10 Pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
-    - Gebruik de [wizard setup](set-up.md#set-up-security-policies-and-device-configurations) om beleid voor Windows 10-apparaten te configureren.
+   - Windows 10 Pro is een [vereiste](pre-requisites-for-data-protection.md) voor microsoft 365 Business, maar als u Windows 7 Pro, Windows 8 Pro of Windows 8,1 Pro hebt, geeft uw abonnement u recht op een [upgrade naar Windows 10 Pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
+    - Gebruik de [installatiewizard](set-up.md#set-up-security-policies-and-device-configurations) om beleid voor Windows 10-apparaten te configureren.
 
-## <a name="stes-4-install-office-365-business"></a>Stes 4: Installatie van Office 365 Business
-- Automatisch kunt in de Windows-apparaten u Office installeren met de [wizard setup](set-up.md#deploy-office-365-client-apps).
-- Automatisch [Office installeren](auto-install-or-uninstall-office.md) vanaf het admin center.
-- Laat de gebruikers [installeren Office apps](https://docs.microsoft.com/office365/admin/setup/install-applications) voor Windows en apparaten.
+## <a name="stes-4-install-office-365-business"></a>Stes 4: Installeer Office 365 Business
+- U Office op de Windows-apparaten automatisch installeren met behulp van de [wizard Setup](set-up.md#deploy-office-365-client-apps).
+- [Office automatisch installeren](auto-install-or-uninstall-office.md) vanuit het Admin Center.
+- Laat gebruikers [Office-apps](https://docs.microsoft.com/office365/admin/setup/install-applications) voor Windows en apparaten installeren.
      
 ## <a name="advanced"></a>Geavanceerde
-- **Automatische piloot gebruiken voor het instellen van nieuwe apparaten**
+- **Autopilot gebruiken om nieuwe apparaten in te stellen**
             
-     U kunt [Windows Automatische piloot](add-autopilot-devices-and-profile.md) automatisch vooraf configureren voor een gebruiker **nieuwe** Windows 10-apparaten, maar is het misschien gemakkelijker om een [partner](https://www.microsoft.com/solution-providers/search) die dit voor u kan doen. U kunt ook gaat u naar de [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=874598) en vragen een deskundige cloud-technologie nieuwe apparaten die u voor u aanschaft ingesteld.
+     U [Windows Autopilot](add-autopilot-devices-and-profile.md) gebruiken voor het automatisch vooraf configureren van **nieuwe** Windows 10-apparaten voor een gebruiker, maar het is misschien gemakkelijker om een [partner](https://www.microsoft.com/solution-providers/search) die dit voor u kan doen. U ook naar de [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=874598) gaan en een cloudtechnologie-expert vragen nieuwe apparaten in te stellen die u voor u aanschaft.
 
-- **Toegang op ruimten resources**
+- **Toegang tot on-premises bronnen**
 
-     - Als uw organisatie gebruikmaakt van Windows Server Active Directory op lokalen, kunt u Microsoft 365 Business instellen ter bescherming van uw Windows 10-apparaten, terwijl zij toch toegang tot bronnen voor ruimten die lokale verificatie vereisen. Volg de stappen in [Windows 10-apparaten worden beheerd door Microsoft 365 Business domein behoren](manage-windows-devices.md) tot dit instellen. Dit is de aanbevolen methode en apparaten in deze toestand worden genoemd hybride Azure AD verbonden apparaten.
+     - Als uw organisatie gebruikmaakt van on-premises Windows Server Active Directory, u Microsoft 365 Business instellen om uw Windows 10-apparaten te beveiligen, terwijl u nog steeds toegang hebt tot on-premises bronnen waarvoor lokale verificatie is vereist. Volg de stappen in [Windows 10-apparaten met een domein verbinding inschakelen die door Microsoft 365 Business worden beheerd](manage-windows-devices.md) om dit in te stellen. Dit is de voorkeursmethode en apparaten in deze status worden hybride Azure AD gekoppelde apparaten genoemd.
 
-    - Als uw bedrijf een lokale Active Directory met sommige op-ruimten (zoals bestandsshares en printers), u kunt uw Azure AD verbonden apparaten toegang geven tot deze bronnen door de stappen hier: [toegang op-premises resources uit een Azure AD verbonden apparaat in Microsoft 365 Business](access-resources.md).
+    - Als uw bedrijf een lokale Active Directory heeft die bepaalde on-premises bronnen bevat (zoals bestandsshares en printers), u uw Azure AD-apparaten toegang geven tot deze resources door de stappen hier te volgen: [toegang tot on-premises resources van een Azure AD gekoppelde apparaat in Microsoft 365 Business](access-resources.md).
 
   

@@ -10,21 +10,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: 'Informatie over het instellen van Windows-apparaten met Windows 10 Pro voor Microsoft 365 zakelijke gebruikers. '
-ms.openlocfilehash: 5efe3aa1e329e7a9edcfd49fcc1f1391f95fd97f
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: 'Meer informatie over het instellen van Windows-apparaten met Windows 10 Pro voor Microsoft 365 zakelijke gebruikers. '
+ms.openlocfilehash: c4edd09d952ed1c98be8f41f6bcbaff8a16319a7
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074545"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288470"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Windows-pc's instellen voor gebruikers van Microsoft 365 Business
 
@@ -36,7 +33,7 @@ Als u Windows-apparaten met Windows 7 Pro, Windows 8 Pro of Windows 8.1 Pro hebt
   
 Volg de stappen in dit onderwerp voor meer informatie over het voor Windows-apparaten uitvoeren van een upgrade naar de Windows 10 Pro makersupdate. [Voor Windows-apparaten upgrade uitvoeren naar Windows Pro makersupdate](upgrade-to-windows-pro-creators-update.md).
   
-Zie [controleren of het apparaat is aangesloten op de Azure AD](#verify-the-device-is-connected-to-azure-ad) om te controleren of dat u de upgrade hebt, of om te controleren of de upgrade heeft gewerkt. 
+Zie [controleren of het apparaat is verbonden met Azure AD](#verify-the-device-is-connected-to-azure-ad) om te controleren of u de upgrade hebt, of om ervoor te zorgen dat de upgrade heeft gewerkt. 
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10-apparaten koppelen aan Azure AD van uw organisatie
 
@@ -82,7 +79,7 @@ Voor een nieuw apparaat met Windows 10 Pro makersupdate of voor een apparaat waa
   
    ![Enter your work or school email on the Let's get you signed in page](media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
-6. Verifieer de informatie op de pagina **te controleren of dit uw organisatie** en klik op **deelnemen aan**.
+6. Controleer op de pagina **Zorg ervoor dat dit uw organisatie is** , of de informatie juist is en klik op **join**.
   
    Klik op de pagina **U bent nu helemaal klaar** op **Gereed**.
   

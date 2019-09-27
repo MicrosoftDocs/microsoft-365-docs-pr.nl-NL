@@ -12,22 +12,18 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
-description: Informatie over hoe de beveiligingsfuncties van Microsoft 365 Business toewijzen aan instellingen Intune. Het abonnement biedt u een licentie voor het wijzigen van instellingen voor Intune.
-ms.openlocfilehash: a6aaf6cc06c31b870eb85582f5aa47699919d75d
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Meer informatie over hoe beveiligingsfuncties in Microsoft 365 Business map naar intune-instellingen. Het abonnement biedt u een licentie voor het wijzigen van intune-instellingen.
+ms.openlocfilehash: 316dc8efbe69057f049bf8fadd3c3f41c358a33e
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074255"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287952"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-map-to-intune-settings"></a>Hoe beveiligingsfuncties in Microsoft 365 Business zijn toegewezen aan Intune-instellingen
 
@@ -37,7 +33,7 @@ In de volgende tabel vindt u informatie over hoe de beleidsinstellingen voor And
   
 Als u de Intune-instellingen wilt zoeken en bent aangemeld met uw Microsoft 365 Business-beheerdersreferenties, gaat u naar **Admin centers** en vervolgens naar **Intune**.
   
- **Belangrijk:** Een Microsoft 365 Business-abonnement beschikt u over een licentie om alle Intune-instellingen te wijzigen. Zie [Intune aan de slag-inleiding.](https://docs.microsoft.com/intune/introduction-intune)
+ **Belangrijk:** Een Microsoft 365 Business-abonnement biedt u een licentie voor het wijzigen van alle intune-instellingen. Zie [Inleiding tot intune om aan de slag](https://docs.microsoft.com/intune/introduction-intune) te gaan.
   
 Klik op de beleidsnaam die u wilt selecteren (bijvoorbeeld toepassingsbeleid voor Android) en kies **Beleidsinstellingen**.
   
@@ -68,7 +64,7 @@ Onder **Beheren hoe gebruikers Office-bestanden op mobiele apparaten openen**
 
 In de volgende tabel vindt u informatie over hoe de beleidsinstellingen voor Windows 10-toepassingen worden toegewezen aan Intune-instellingen.
   
-De Intune zoeken instellen, terwijl u aangemeld met de referenties van Microsoft 365 Business admin, Ga naar de [Azure portal](https://portal.azure.com)Selecteer **meer services**en Intune in de **Filter**Typ en selecteer vervolgens **Intune App bescherming** \> ** App beleid**.
+Als u de intune-instelling wilt vinden terwijl u bent aangemeld met de referenties van uw Microsoft 365 Business admin, gaat u naar [Azure Portal](https://portal.azure.com), selecteert u **meer services**en typt u intune in het **filter**, selecteert u **intune-app-beveiliging** \> ** App-beleid**.
   
  **Belangrijk**: Met een Microsoft 365 Business-abonnement beschikt u over een licentie om alleen de Intune-instellingen te wijzigen die zijn toegewezen aan de instellingen in Microsoft 365 Business. 
   
@@ -88,7 +84,7 @@ Klik op de beleidsnaam die u wilt selecteren en kies **Algemeen, Toewijzingen**,
 
 In de volgende tabel vindt u informatie over hoe de apparaatconfiguratie voor Windows 10-apparaten wordt toegewezen aan Intune-instellingen.
   
-De Intune zoeken instellen, terwijl u aangemeld met de referenties van Microsoft 365 Business admin, Ga naar de [Azure portal](https://portal.azure.com)Selecteer **meer services**en Intune in de **Filter**Typ en selecteer vervolgens **Intune** \> **apparaat configuratie** \> **profielen**. Then select **Device policy for Windows 10** \> **Properties** \> **Settings**.
+Als u de intune-instelling wilt vinden terwijl u bent aangemeld met de referenties van uw Microsoft 365 Business admin, gaat u naar [Azure Portal](https://portal.azure.com), selecteert u **meer services**en typt u intune in het **filter**, selecteert u **intune** \> - **apparaat configuratie** \> **profielen**. Then select **Device policy for Windows 10** \> **Properties** \> **Settings**.
   
 |**Beleidsinstelling voor Windows 10-apparaten**|**Intune-instelling(en)**|
 |:-----|:-----|

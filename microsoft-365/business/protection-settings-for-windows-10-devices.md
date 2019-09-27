@@ -14,22 +14,19 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
-description: Informatie over het maken van een beleid voor het beheer van app en werkbestanden op Windows 10-apparaten te beschermen.
-ms.openlocfilehash: 670184a2e81721fb5cc063e854822e9b271164d9
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Meer informatie over het maken van een app-beheerbeleid en het beveiligen van werkbestanden op Windows 10-apparaten.
+ms.openlocfilehash: 92cd3facbd3eabbfef674300abe0257c370294ea
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074605"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288410"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Instellingen voor toepassingsbeveiliging instellen voor Windows 10-apparaten
 
@@ -37,15 +34,15 @@ ms.locfileid: "34074605"
 
 Als uw gebruikers persoonlijke Windows 10-apparaten gebruiken voor hun werk, kunt u de gegevens op die apparaten ook beschermen.
   
-1. Ga naar de admin center op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
+1. Ga naar het Admin Center op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. Kies op de Linkernavigatie **apparaten** \> **beleid** \> **toevoegen**.
+2. Kies op de linker navigatie \> **apparaatbeleidsregels** \> **toevoegen**. ****
 
 3. Voer in het deelvenster **Beleid toevoegen** een unieke naam in voor dit beleid. 
     
 4. Kies onder **Type beleid** de optie **Toepassingsbeheer voor Windows 10**.
     
-5. Kies onder **type apparaat**, **persoonlijke** of **Bedrijf eigendom**.
+5. Kies onder **Apparaattype**de optie **persoonlijk** of **eigendom van bedrijf**.
     
 6. De optie **Werkbestanden versleutelen** is automatisch ingeschakeld. 
     

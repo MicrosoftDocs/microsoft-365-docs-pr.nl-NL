@@ -12,23 +12,19 @@ f1_keywords:
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
-description: Informatie over wat u kunt verwachten nadat Business wolk Suite setup voltooid is.
-ms.openlocfilehash: 1a777d5ebc733fb286c8d66f85515c148379ffac
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Lees wat u verwachten nadat de installatie van Business Cloud Suite is voltooid.
+ms.openlocfilehash: 62a1a64bea0db3793e903469d8898a789cbc4242
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072045"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288050"
 ---
 # <a name="help-users-connect-to-microsoft-365-business"></a>Gebruikers helpen verbinding te maken met Microsoft 365 voor Bedrijven
 

@@ -10,53 +10,50 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
-description: Informatie over het aanschaffen en aanmelden voor Microsoft 365 Business.
-ms.openlocfilehash: 0f92bf35d2a7898d530fd509d8d13c91f32ccab3
-ms.sourcegitcommit: 64a7511d8c5ef527673b4c05753e6bb52ce9ab86
+description: Meer informatie over het aanschaffen en registreren van Microsoft 365 Business.
+ms.openlocfilehash: bcdf0adc60c597a5eca485415f33662402d12cf4
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35114917"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288230"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Aanmelden voor Microsoft 365 Business
 
-Als u een partner, Zie [Microsoft 365 Business ophalen van Microsoft Partner Center](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
+Als u een partner bent, raadpleegt u [Microsoft 365 Business ophalen van Microsoft Partner Center](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
 
-Microsoft 365 Business online aanschaffen, gaat u naar het [ontdekken van Microsoft 365 Business advantage](https://www.microsoft.com/microsoft-365/business#pmg-cmp-desktop) en kies **Nu kopen** onder Microsoft 365 Business.
+Als u Microsoft 365 Business Online wilt aanschaffen, gaat u naar [Microsoft 365 bedrijfsvoorsprong ontdekken](https://www.microsoft.com/microsoft-365/business#pmg-cmp-desktop) en kiest u **Nu kopen** onder Microsoft 365 Business.
 
-U kunt ook head over aan een [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) kopen van Microsoft 365 Business en hulp bij het installeren.
+U ook naar een [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) gaan om zowel microsoft 365 Business te kopen als hulp bij het instellen.
 
-## <a name="complete-the-sign-up-steps"></a>Voltooi de stappen voor aanmelding
+## <a name="complete-the-sign-up-steps"></a>Voltooi de aanmeld stappen
 
-Nadat u Microsoft 365 Business hebt aangeschaft, kunt u de volgende stappen.
+Nadat u Microsoft 365 Business hebt aangeschaft, voert u de volgende stappen uit.
 
-1. Voer de vereiste informatie op de pagina **Welkom, we leren u kennen** . Houd rekening met:
+1. Op de **Welkom, laten we leren kennen u** pagina de vereiste informatie invoeren. Merk op dat:
  
-    -  **Land of de regio's:** Hiermee bepaalt u de service die u ontvangt en later kan niet worden gewijzigd.
-    - **Zakelijke e-mailadres:** Geef uw huidige e-mailadres. Microsoft gebruikt dit adres om te corresponderen met u over uw abonnement op Microsoft 365.
-    - **Naam van bedrijf** Tonen wij u uw bedrijfsnaam in het admin center; Dit is waar u Microsoft 365-gebruikers en -licenties kunt beheren. We nemen we ook deze in een SharePoint-site-URL's.
+    -  **Land of regio's:** Dit bepaalt de service die u ontvangt en kan later niet meer worden gewijzigd.
+    - **Zakelijk e-mailadres:** Voer uw huidige e-mailadres in. Microsoft gebruikt dit adres om met u te corresponderen met uw Microsoft 365-abonnement.
+    - **Bedrijfsnaam** We geven uw bedrijfsnaam weer in het Admin Center. hier beheert u Microsoft 365-gebruikers, licenties, enzovoort. We nemen deze ook op in alle SharePoint-site-Url's.
 
-2. Op de pagina **maken, uw gebruikers-ID** :
+2. Op de pagina **uw gebruikers-id maken** :
 
-    - **Gebruikersnaam**: Voer de naam (alias genoemd) waarmee u voor uw eigen zakelijke e-mailadres. Bijvoorbeeld, Robert Young gebruiken RobY of RobYoung als een alias werk.
-    - **Uw bedrijf**: Voer de naam van uw unieke zakelijke. Dit is de naam die uw website als u dit hebt gebruikt en is ook de naam die u opnemen wilt na het @-teken als u een zakelijke e-mail ontvangen. Deze naam wordt een domein genoemd. Bijvoorbeeld, als uw bedrijf, Contoso ski's wordt genoemd, voert ContosoSkis na het @-teken.
-    - **Selecteer een domein**: als u al uw domeinnaam bezit, selecteer. onmicrosoft.com uit de vervolgkeuzelijst en wordt u gevraagd om deze later instellen. Anders is het gemakkelijk om te kopen een domeinnaam die uw bedrijf vertegenwoordigt. Hiervoor selecteert u het gewenste domein uit de vervolgkeuzelijst. Uw volledige e-mailadres kan bijvoorbeeld *Teresa@ContosoSkis.net*zijn. We laten u meteen weet of de domeinnaam beschikbaar is. Als dit het geval is, gaan we de kosten van uw domein toevoegen aan de kosten van uw abonnement op Microsoft 365 Business. Het nieuwe domein zal ook worden ingesteld direct klaar voor gebruik in Microsoft 365 als u hier kopen. Zie de [Veelgestelde vragen over domeinen](https://docs.microsoft.com/office365/admin/setup/domains-faq)voor informatie over domeinen.
+    - **Gebruikers**naam: Voer de naam in (een alias genoemd) die u voor uw eigen zakelijke e-mail wilt gebruiken. Robert Young kan bijvoorbeeld RobY of RobYoung gebruiken als een werk alias.
+    - **Uw bedrijf**: Voer uw unieke bedrijfsnaam in. Dit is de naam die uw bedrijfswebsite gebruikt als u er een hebt, en is ook de naam die u na het @-teken wilt opnemen wanneer u een zakelijke e-mail ontvangt. Deze naam wordt een domein genoemd. Als uw bedrijf bijvoorbeeld contoso Ski's wordt genoemd, voert u ContosoSkis in na het @-teken.
+    - **Selecteer een domein**: als u uw domeinnaam al bezit, selecteert u. onmicrosoft.com in het vervolgkeuzemenu en vragen we u deze later in te stellen. Anders is het eenvoudig om een domeinnaam te kopen die uw bedrijf vertegenwoordigt. Selecteer hiervoor het gewenste domein in het vervolgkeuzemenu. Uw volledige e-mailadres kan bijvoorbeeld *Teresa@ContosoSkis.net*zijn. We laten het je meteen weten als de domeinnaam beschikbaar is. Als dit het is, voegen we de kosten van uw domein toe aan de kosten van uw Microsoft 365 Business-abonnement. Het nieuwe domein wordt ook ingesteld en klaar voor gebruik in Microsoft 365 als u het hier koopt. Zie voor meer informatie over domeinen [Veelgestelde vragen over domeinen](https://docs.microsoft.com/office365/admin/setup/domains-faq).
     
-        ![Screenshot van de pagina van uw gebruiker-ID maken.](media/signinuserid.png)
+        ![Screenshot van Maak uw gebruikersnaam pagina.](media/signinuserid.png)
 
-3. Vul de rest van de velden en selecteer **Mijn account maken**.
-4. Op de **bewijzen .kunt bent. Not.A.Robot.** pagina een telefoonnummer aan een-code via tekst of een gesprek en selecteer **tekst me** of **Bel me**ontvangt, voert u de verificatiecode invoeren \> **volgende**.
-5. Voer op de pagina **waar gebruikt u dit** adres van uw bedrijf. Deze informatie wordt bepaald welke belastingen die u betaalt en welke abonnementen beschikbaar zijn. Zie voor meer informatie over belastingen, [welke btw ik brengt?](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide) 
-1. Selecteer **volgende**, Controleer uw bestelling en **volgende** opnieuw.
-1. Voer uw betalingsgegevens en **plaatsen**op de pagina **hoe u wilt betalen** .
-    Vervolgens gaat u naar de [admin center](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide) kunt u klaar bent met het [instellen](set-up.md).
+3. Vul de overige velden in en selecteer **Mijn account maken**.
+4. Op het **bewijs. je bent. Niet. A. robot.** pagina voer een telefoonnummer in om een code te ontvangen via tekst of een oproep en selecteer **SMS me** of **Bel me**en voer vervolgens de verificatie \> **code in**.
+5. Voer op de plaats **waar u deze pagina gebruikt** uw bedrijfsadres in. Deze informatie bepaalt welke belastingen u betaalt en welke abonnementen beschikbaar zijn. Voor meer informatie over belastingen, Zie [welke belasting zal ik in rekening worden gebracht?](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide) 
+1. Selecteer **volgende**, Controleer uw bestelling en selecteer **volgende** opnieuw.
+1. Op de pagina **Hoe wilt u betalen** , voert u uw betalingsgegevens in en plaatst u **de bestelling**.
+    U vervolgens naar het [Beheercentrum](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide) gaan om de [set-up](set-up.md)te voltooien.
 
     > [!NOTE]
-    > Als aan het einde van de instellingen u de koppeling **gaat u naar de admin center selecteert**, wordt u direct naar de ervaring [instellen](set-up.md) worden genomen.
+    > Als u aan het einde van de installatie de koppeling naar **het Admin Center**selecteert, wordt u rechtstreeks naar de [set-up](set-up.md) -ervaring gebracht.

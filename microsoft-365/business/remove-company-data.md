@@ -10,21 +10,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: "Informatie over het gebruik van Microsoft 365 Business om bedrijfsgegevens te verwijderen van gebruikers apparaten of Windows-Pc's. "
-ms.openlocfilehash: b9dc2d612ee1e63428526fc486a565cfd997e1ab
-ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
+ms.openlocfilehash: b6d953fcf52c4da0d97dfe5c75236740baf4b607
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "37121293"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288720"
 ---
 # <a name="remove-company-data-from-devices"></a>Bedrijfsgegevens van apparaten verwijderen
 

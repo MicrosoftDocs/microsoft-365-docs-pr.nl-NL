@@ -15,23 +15,19 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 99bfbf81-e719-4630-9b0f-c187edfa1f8a
-description: Automatische piloot profielen kunnen u bepalen hoe Windows Gebruikersapparaten wordt geïnstalleerd. De profielen bevatten standaard en optionele instellingen zoals Cortana installatie overslaan.
-ms.openlocfilehash: adc8112861b67fd96a91ff24dc155aeb0c394532
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Met AutoPilot-profielen u bepalen hoe Windows op gebruikers apparaten wordt geïnstalleerd. De profielen bevatten standaard en optionele instellingen, zoals de installatie van Skip Cortana.
+ms.openlocfilehash: cd66627943301f4a4f2410bafeff6074919ec29d
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34071855"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287470"
 ---
 # <a name="about-autopilot-profile-settings"></a>Info over AutoPilot-profielinstellingen
 
@@ -44,7 +40,7 @@ U kunt bepalen hoe Windows op gebruikersapparaten wordt geïnstalleerd door de A
 |**Instelling**|**Beschrijving**|
 |:-----|:-----|
 |Cortana, OneDrive en OEM-registratie overslaan  <br/> |Het installeren van consumentenapplicaties zoals Cortana en persoonlijke OneDrive wordt overgeslagen. De gebruiker van het apparaat kan ze later installeren als hij of zij een lokale administrator op het apparaat is. De OEM-registratie wordt overgeslagen omdat het apparaat wordt beheerd door Microsoft 365 Business.  <br/> |
-|Aanmeldervaring met de huisstijl van uw bedrijf  <br/> |Als uw bedrijf beschikt over een [van uw bedrijf toevoegen aan Office 365 aanmeldingspagina huisstijl](https://support.office.com/article/a1229cdb-ce19-4da5-90c7-2b9b146aef0a), krijgt de gebruiker van het apparaat dat de ervaring tijdens het aanmelden.  <br/> |
+|Aanmeldervaring met de huisstijl van uw bedrijf  <br/> |Als uw bedrijf heeft een [huisstijl toevoegen aan Office 365 aanmelden pagina](https://support.office.com/article/a1229cdb-ce19-4da5-90c7-2b9b146aef0a), de gebruiker van het apparaat krijgt die ervaring bij het aanmelden.  <br/> |
 |Automatische inschrijving van MDM met geconfigureerde AAD-accounts.  <br/> |De gebruikersidentiteit wordt beheerd door Azure Active Directory, en de gebruikers melden zich aan bij Windows en Office 365 met hun Microsoft 365 Business gegevens.  <br/> |
    
  **Optionele instellingen:**

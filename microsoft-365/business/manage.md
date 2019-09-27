@@ -8,34 +8,30 @@ ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: Klik hier voor informatie voor het beheer van Microsoft 365 Business gerelateerde taken admin, mobiele apparaten Windows 10PCs en veel dergelijke taken.
-ms.openlocfilehash: 8cae8f580b8967eeafe8a22658fd95d41f22a43c
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Leer hoe u Microsoft 365 Business-gerelateerde beheertaken, mobiele apparaten, Windows 10 STKS en vele dergelijke taken beheren.
+ms.openlocfilehash: 87ba4093a37c708fe405cd0876a53f8b9ae91567
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074235"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287957"
 ---
 # <a name="manage-microsoft-365-business"></a>Microsoft 365 Business beheren
 
 ## <a name="general-microsoft-365-business-admin-tasks"></a>Algemene Microsoft 365 Business-beheertaken
 
-De meeste van de [admin-inhoud](/Office365/Admin/admin-home.md) voor Office 365 voor bedrijven geldt ook voor Microsoft 365 Business.
+Het merendeel van de [admin-inhoud](/Office365/Admin/admin-home.md) voor Office 365 voor bedrijven geldt ook voor microsoft 365 Business.
 
 - [Extra gebruikers toevoegen aan Microsoft 365 Business](add-users-m365b.md)
     
 - [Beleid en apparaten weergeven](view-policies-and-devices.md)
     
-- [Beveiligingsfuncties van Microsoft 365 Business](security-features.md)
+- [Microsoft 365 beveiligingsfuncties voor bedrijven](security-features.md)
     
 - [Hoe beveiligingsfuncties in Microsoft 365 Business zijn toegewezen aan Intune-instellingen](map-protection-features-to-intune-settings.md)
     
@@ -47,7 +43,7 @@ Zie de volgende secties voor meer informatie over het gebruik van Microsoft 365 
     
 - [Instellingen voor app-beveiliging instellen voor Android- of iOS-apparaten](app-protection-settings-for-android-and-ios.md)
     
-    Zie [beveiligingsinstellingen van Validate app op een Android of iOS-apparaat](validate-settings-on-android-or-ios.md) om te controleren of dit gewerkt. 
+    Zie [app-beveiligingsinstellingen valideren op een Android-of IOS-apparaat](validate-settings-on-android-or-ios.md) om te controleren of dit werkt. 
     
 - [Bedrijfsgegevens van apparaten verwijderen](remove-company-data.md)
     
