@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Informatie over het inschakelen van Microsoft 365 voor het beveiligen van lokale AD gekoppelde Windows 10-apparaten.
-ms.openlocfilehash: d1dbfc6a35d54db653ae0f911fad05ac2ce0a993
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 452e884f952a4b2c2e87148bb7203ed48a48d944
+ms.sourcegitcommit: 3a632d8ec009abf1aac57363eaf78aeeda5db136
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288030"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37376090"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Toestaan dat aan een domein toegevoegde Windows 10-apparaten door Microsoft 365 Business worden beheerd
 
@@ -37,9 +37,9 @@ De volgende Videodetails de stappen voor het instellen van dit voor de meest voo
 
 Voordat u uw gebruikers en computers synchroniseert vanuit het lokale Active Directory-domein, controleert u de [voorbereidingen voor adreslijstsynchronisatie naar Office 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). In het bijzonder:
 
-   - Zorg ervoor dat er geen duplicaten in uw Directory voor de volgende kenmerken zijn: **mail**, **proxyAddresses**, en **userPrincipalName**. Deze waarden moeten uniek zijn en eventuele duplicaten moeten worden verwijderd..
+   - Zorg ervoor dat er geen duplicaten in uw Directory voor de volgende kenmerken zijn: **mail**, **proxyAddresses**, en **userPrincipalName**. Deze waarden moeten uniek zijn en eventuele duplicaten moeten worden verwijderd.
    
-   - We raden aan dat het kenmerk **userPrincipalName** (UPN) voor elke lokale gebruikersaccount is geconfigureerd zodat deze overeenkomt met het primaire e-mailadres dat overeenkomt met de gelicentieerde microsoft 365-gebruiker. Bijvoorbeeld *Mary. Shelley @<span>contoso.<span> com* in plaats van *Mary @ contoso. local*
+   - Het is raadzaam dat het kenmerk **userPrincipalName** (UPN) voor elke lokale gebruikersaccount is geconfigureerd zodat deze overeenkomt met het primaire e-mailadres dat overeenkomt met de gelicentieerde microsoft 365-gebruiker. Bijvoorbeeld *Mary.Shelley@contoso.com* in plaats van *Mary @ contoso. local*
    
    - Als het Active Directory-domein wordt beëindigd in een niet-routeerbaar achtervoegsel zoals *. local* of *. LAN*, in plaats van een Internet routeerbaar achtervoegsel zoals *. com* of *. org*, moet u het UPN-achtervoegsel van de lokale gebruikersaccounts eerst aanpassen, zoals wordt beschreven in [Een niet-routeerbaar domein voorbereiden voor adreslijstsynchronisatie](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization). 
 
@@ -75,6 +75,6 @@ Als u wilt registreren bestaande domein Windows 10-apparaten als hybride Azure A
 
 ## <a name="6-set-up-windows-hello-for-business"></a>6. Windows hello voor bedrijven instellen
 
- Windows hello voor bedrijven vervangt wachtwoorden met sterke tweeledige verificatie (2FA) voor aanmelding bij een lokale computer. Een factor is een asymmetrisch sleutelpaar, en de andere is een pincode of ander lokaal gebaar zoals vingerafdruk-of gezichtsherkenning als uw apparaat dit ondersteunt. We raden u aan om wachtwoorden te vervangen door 2FA en Windows hello voor bedrijven, waar mogelijk.
+ Windows hello voor bedrijven vervangt wachtwoorden met sterke tweeledige verificatie (2FA) voor aanmelding bij een lokale computer. Een factor is een asymmetrisch sleutelpaar, en de andere is een pincode of ander lokaal gebaar zoals vingerafdruk-of gezichtsherkenning als uw apparaat dit ondersteunt. Het is raadzaam dat u wachtwoorden vervangen door 2FA en Windows hello voor bedrijven waar mogelijk.
 
 Voor het configureren van hybride Windows hello voor bedrijven, controleert u de [hybride sleutel vertrouwen Windows hello voor zakelijke vereisten](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-trust-prereqs). Volg de instructies in [configureren hybride Windows hello voor bedrijven sleutel vertrouwensinstellingen](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-whfb-settings). 
