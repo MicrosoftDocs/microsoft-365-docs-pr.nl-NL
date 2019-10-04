@@ -15,12 +15,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Stel de geavanceerde Bedreigingsbeveiliging van Office 365 in en beveilig gevoelige gegevens.
-ms.openlocfilehash: 81197a8baf1c4d0cbfd898c41a305c1a99bab57c
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 5009379d6a5d8c3a692799aa7c0f137dae1482fd
+ms.sourcegitcommit: 492f03a2c83e36846602fced396c8f8d32315c85
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288110"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37398904"
 ---
 # <a name="increase-threat-protection"></a>Verhoog de bescherming tegen dreigingen
 
@@ -146,8 +146,6 @@ Als u een ATP anti-phishing-beleid wilt maken, bekijkt u [deze korte trainingsvi
 |Mailbox Intelligence  <br/> |Mailbox Intelligence wordt standaard geselecteerd wanneer u een nieuw antiphishing-beleid maakt. Laat **deze instelling voor** de beste resultaten.  <br/> |
 |Vertrouwde afzenders en domeinen toevoegen  <br/> |Hier u uw eigen domein of andere vertrouwde domeinen toevoegen.  <br/> |
 |Toegepast op  <br/> |Selecteer **het domein van de geadresseerde is**. Selecteer onder **een van deze**, **kiezen**. Selecteer **+ toevoegen**. Schakel het selectievakje in naast de naam van het domein, bijvoorbeeld *contoso.<span> com <span>*, in de lijst en selecteer vervolgens **toevoegen**. Selecteer **Gereed**.  <br/> |
-   
-Zie voor meer informatie, [Office 365 ATP anti-phishing-beleid instellen](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409).
   
 ## <a name="protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>Bescherm tegen schadelijke bijlagen en bestanden met ATP veilige bijlagen
 
