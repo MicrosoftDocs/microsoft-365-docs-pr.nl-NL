@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Meer informatie over het instellen van Microsoft 365 Business.
-ms.openlocfilehash: d33839693001f36fbb56541775015f739300b043
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 4f31af3fa63416d3b1bd7281f7712313252ad437
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288490"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37440587"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Microsoft 365 Business instellen in de wizard Setup
 
@@ -44,7 +44,7 @@ Wanneer u Microsoft 365 Business aanschaft, hebt u de mogelijkheid om een domein
     > [!IMPORTANT]
     > Als u een domein heeft aangeschaft tijdens de aanmelding, ziet u hier geen **domein toevoegen** . Ga in plaats daarvan naar [gebruikers toevoegen](#add-users-and-assign-licenses) .
 
-    ![Selecteer een domein toevoegen.](media/addadomainadmincenter.png)
+    ![Selecteer Ga naar Setup.](media/gotosetupinadmincenter.png)
     
 3. Voer in de wizard de domeinnaam in die u wilt gebruiken (zoals contoso.com).
 
@@ -70,7 +70,9 @@ Gebruikers die u toevoegt aan de wizard krijgen automatisch een licentie voor Mi
 
 1. Als uw Microsoft 365 Business-abonnement bestaande gebruikers heeft (bijvoorbeeld, als u Azure AD Connect hebt gebruikt), krijgt u een optie om licenties toe te wijzen aan hen nu. Wijs nu licenties aan hen toe.
 
-3. Nadat u de gebruikers hebt toegevoegd, krijgt u ook een optie om referenties te delen met de nieuwe gebruikers die u hebt toegevoegd. U kunt deze afdrukken, hun een e-mail sturen of deze downloaden.
+2. Nadat u de gebruikers hebt toegevoegd, krijgt u ook een optie om referenties te delen met de nieuwe gebruikers die u hebt toegevoegd. U kunt deze afdrukken, hun een e-mail sturen of deze downloaden.
+
+3. Op de teams maken voor uw organisatie, u teams toevoegen en gebruikers toevoegen aan hen. U dit ook later doen. Zie [een bedrijfsbreed team maken](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)voor meer informatie.
 
 4. Sla het migreren van e-mailberichten over en kies **Volgende** op de pagina **E-mailberichten migreren**. 
 
@@ -86,14 +88,14 @@ Als u services wilt instellen, moet u enkele records bij uw DNS-host of domeinre
   
 1. Meestal wordt uw registrar automatisch gedetecteerd met de installatiewizard en wordt een koppeling weergegeven naar stapsgewijze instructies voor het bijwerken van uw NS-records op de website van de registrar. Als dit niet het [geval is, wijzigt u nameservers om Office 365 in te stellen met een domeinregistrar](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2). 
 
-    - Als u bestaande DNS-records hebt, bijvoorbeeld een bestaande website, maar uw DNS-host is ingeschakeld voor [domein verbinding](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), kiest u **records toevoegen voor mij**. 
+    - Als u bestaande DNS-records hebt, bijvoorbeeld een bestaande website, maar uw DNS-host is ingeschakeld voor [domein verbinding](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), kiest u **records toevoegen voor mij**. Accepteer alle standaardinstellingen op de pagina **Kies uw online services** en kies **volgende**en kies **autoriseren** op de pagina van uw DNS-host.
     - Als u bestaande DNS-records hebt met andere DNS-hosts (niet ingeschakeld voor domein verbinding), wilt u uw eigen DNS-records beheren om ervoor te zorgen dat de bestaande services verbonden blijven. Zie [basisbeginselen](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) van het domein voor meer informatie.
 
         ![Verbind uw domein pagina met ik beheer mijn eigen DNS-records.](media/connectyourdomainpage.png)
 
 2. Volg de stappen in de wizard en e-mail en andere services worden voor u ingesteld.
 
-### <a name="set-up-security-policies-and-device-configurations"></a>Beveiligingsbeleid en apparaatconfiguraties instellen 
+### <a name="protect-data-and-devices"></a>Gegevens en apparaten beveiligen 
 
 Het beleid dat u in de wizard hebt ingesteld, wordt automatisch toegepast op een [beveiligingsgroep](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) met de naam *alle gebruikers*. U ook extra groepen maken om beleidsregels toe te wijzen in het Admin Center.
 
@@ -113,7 +115,6 @@ Het beleid dat u in de wizard hebt ingesteld, wordt automatisch toegepast op een
 3. U er ook voor kiezen om [Office automatisch te installeren](install-office-on-windows-10-during-setup.md) op Windows 10-apparaten.
 
     ![Screenshot van set Windows 10 Device configuration pagina.](media/setwin10config.png)
-
 
 
 ## <a name="deploy-office-365-client-apps"></a>Office 365-client-Apps implementeren

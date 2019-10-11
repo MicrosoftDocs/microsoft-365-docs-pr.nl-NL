@@ -14,13 +14,13 @@ ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
-description: Stel de geavanceerde Bedreigingsbeveiliging van Office 365 in en beveilig gevoelige gegevens.
-ms.openlocfilehash: 8144bcebe8a0cdf28a5e092f592362922ccbdd48
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+description: Stel nalevingsfuncties in om gegevensverlies te voorkomen en gevoelige gegevens te labelen.
+ms.openlocfilehash: a0ba2fa6dbe7c786d577ad7098c1790f569f5acc
+ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288740"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37453906"
 ---
 # <a name="set-up-compliance-features"></a>Nalevingsfuncties instellen
 
@@ -50,48 +50,21 @@ Om een postbus te plaatsen in de rechtszaak Hold, in het Admin Center:
     
 **Retentie:** U aangepaste bewaarbeleid inschakelen, bijvoorbeeld om te behouden voor een bepaalde hoeveelheid tijd of verwijderen van inhoud permanent aan het einde van de bewaarperiode. Zie [overzicht van bewaarbeleid](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423)voor meer informatie.
 
-## <a name="set-up-azure-information-protection-features"></a>Azure Information Protection-functies instellen
+## <a name="set-up-sensitivity-labels"></a>Gevoeligheids etiketten instellen
 
-Azure Information Protection (AIP) helpt u bij het classificeren en optioneel beveiligen van uw documenten en e-mail berichten, door het toepassen van labels. Labels kunnen automatisch worden toegepast door beheerders die regels en voorwaarden, handmatig door gebruikers definiëren of met behulp van een combinatie waar gebruikers aanbevelingen worden gegeven.
+Gevoeligheidslabels worden geleverd met Azure Information Protection (AIP) plan 1 en helpen u bij het classificeren en optioneel beveiligen van uw documenten en e-mail berichten, door het toepassen van labels. Labels kunnen automatisch worden toegepast door beheerders die regels en voorwaarden, handmatig door gebruikers definiëren of met behulp van een combinatie waar gebruikers aanbevelingen worden gegeven.
 
-In Outlook op het web u de volgende ingebouwde labels en beperkingen toepassen op uw e-mails:
-  
-- **Niet doorsturen**: geadresseerden kunnen het bericht lezen, maar niet doorsturen, afdrukken of inhoud kopiëren
-    
-- **Versleutelen**: het hele bericht is versleuteld. Ontvangers moeten hun identiteit bevestigen voordat ze toegang krijgen tot versleutelde inhoud en kunnen geen versleuteling verwijderen.
-    
-- **Vertrouwelijk**: geeft de werknemers in uw organisatie volledige machtigingen voor de e-mail inhoud en bijlagen, maar niet voor mensen buiten uw organisatie. Eigenaren van gegevens kunnen op elk gewenst moment inhoud bijhouden en intrekken.
-    
-- **Zeer vertrouwelijk**: deze beperking kan worden toegepast op zeer vertrouwelijke gegevens, zodat werknemers de gegevens kunnen bekijken, bewerken en beantwoorden, maar niet doorsturen, afdrukken of kopiëren. Eigenaren van gegevens kunnen op elk gewenst moment inhoud bijhouden en intrekken.
+Als u gevoeligheids labels wilt instellen, u video met [gevoeligheids etiketten maken en beheren](https://support.office.com/en-us/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) .
 
-### <a name="make-sure-azure-information-protection-is-activated"></a>Zorg ervoor dat Azure Information Protection is geactiveerd
 
-Om te controleren of AIP is geactiveerd:
-
-1. Meld u aan bij [Azure Portal](https://portal.azure.com/).
-
-2. Selecteer **alle services** en typ *Azure Information Protection* in het **zoekvak**.
-
-3. Zodra de resultaten weergegeven, klikt u op de start naast **Azure Information Protection** om het een favoriet en gemakkelijk te vinden later.
-
-4. Selecteer **Azure Information Protection** \> - **beveiligingsactivering** en zorg ervoor dat de status is ingesteld op geactiveerd. 
-
-### <a name="view-the-azure-information-protection-policy-and-default-labels"></a>Het Azure Information Protection-beleid en de standaardlabels weergeven 
-
-De bestaande labels weergeven en wijzigen:
-
-1. Op de Azure Information Protection-dashboard, selecteer **classificaties** \> **labels**. <br/>![Standaard labels voor Azure Information Protection.](media/AIPLabels.png)
-
-2. U elk label kiezen om opties te bekijken, u de weergavenaam, kleuren, etc. wijzigen.
- 
-3. Zie [wijzigen en maken van nieuwe labels](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step2) als u wilt maken van uw eigen. 
 
 ### <a name="install-the-azure-information-protection-client-manually"></a>De Azure Information Protection-client handmatig installeren
 
 De AIP-client handmatig installeren:
 
-1. Download **Azinfoprotection. exe** van [het Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53018).
+1. Download **AzinfoProtection_UL. exe** van [het Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53018).
  
-2. U controleren of de installatie heeft gewerkt door een Word-document te bekijken en ervoor te zorgen dat de optie **beveiligen** beschikbaar is op het tabblad **Start** . <br/>![Drop-down bescherming tabblad in een Word-document.](media/Word_Protect.png)
+2. U controleren of de installatie heeft gewerkt door een Word-document te bekijken en ervoor te zorgen dat de optie **gevoeligheid** beschikbaar is op het tabblad **Start** .
+<br/>![Drop-down bescherming tabblad in een Word-document.](media/word-sensitivity.png)
 
 Zie voor meer informatie, [de client installeren](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3).

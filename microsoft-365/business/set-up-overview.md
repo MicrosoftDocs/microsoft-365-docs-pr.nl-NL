@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Overzicht van de stappen voor het instellen van Microsoft 365 Business.
-ms.openlocfilehash: f156d236a783942ec06d457c9b7ca087d12d6f58
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 4be0a8aa1b050ee3e20a045eb2c07666765118ed
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288570"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37440532"
 ---
 # <a name="overview-of-setup"></a>Overzicht van instellingen
 
@@ -41,7 +41,7 @@ De meeste instellingsstappen kunnen worden uitgevoerd in de instelwizard, maar d
         - U ook [gebruikers later toevoegen](add-users-m365b.md) in het Admin Center.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Stap 2: beveiligingsbeleid instellen en apparaten configureren 
 
-  - Gebruik de [wizard Setup](set-up.md#set-up-security-policies-and-device-configurations) om het apparaat-en beveiligingsbeleid te configureren. 
+  - Gebruik de [wizard Setup](set-up.md#protect-data-and-devices) om het apparaat-en beveiligingsbeleid te configureren. 
   - U ook meer toevoegen of later bewerken in het [Beheercentrum](view-policies-and-devices.md) en in de [intune-Portal](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal).
   - Naast de beveiligingsinstellingen in de installatiewizard u de beveiliging verhogen door de volgende instellingen toe te voegen:
 
@@ -62,7 +62,7 @@ De meeste instellingsstappen kunnen worden uitgevoerd in de instelwizard, maar d
    Wanneer u een Windows 10-apparaat aan Azure AD toevoegen, wordt het beleid dat u hebt ingesteld in [stap 2](#step-2-set-up-security-policies-and-configure-devices) toegepast op het.
 
    - Windows 10 Pro is een [vereiste](pre-requisites-for-data-protection.md) voor microsoft 365 Business, maar als u Windows 7 Pro, Windows 8 Pro of Windows 8,1 Pro hebt, geeft uw abonnement u recht op een [upgrade naar Windows 10 Pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
-    - Gebruik de [installatiewizard](set-up.md#set-up-security-policies-and-device-configurations) om beleid voor Windows 10-apparaten te configureren.
+    - Gebruik de [installatiewizard](set-up.md#protect-data-and-devices) om beleid voor Windows 10-apparaten te configureren.
 
 ## <a name="stes-4-install-office-365-business"></a>Stes 4: Installeer Office 365 Business
 - U Office op de Windows-apparaten automatisch installeren met behulp van de [wizard Setup](set-up.md#deploy-office-365-client-apps).
