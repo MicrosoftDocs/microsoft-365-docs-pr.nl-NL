@@ -10,32 +10,36 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
 description: 'Leer hoe u Microsoft 365 Business gebruiken om uw Windows 10-apparaten opnieuw in de fabriek te resetten. '
-ms.openlocfilehash: 38a754d6e55210d8a4189fde445481868621bb7a
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 70e4fac2112db177587c04f58fbe8f8d0247ffa9
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288700"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37575713"
 ---
-# <a name="reset-windows-10-devices-to-their-factory-settings"></a><span data-ttu-id="c2e31-103">Fabrieksinstellingen terugzetten voor Windows 10-apparaten</span><span class="sxs-lookup"><span data-stu-id="c2e31-103">Reset Windows 10 devices to their factory settings</span></span>
+# <a name="reset-windows-10-devices-to-their-factory-settings"></a><span data-ttu-id="b9dc5-103">Fabrieksinstellingen terugzetten voor Windows 10-apparaten</span><span class="sxs-lookup"><span data-stu-id="b9dc5-103">Reset Windows 10 devices to their factory settings</span></span>
 
-<span data-ttu-id="c2e31-104">[![Label om u te laten weten dat het Admin Center is aan het veranderen en u meer informatie vinden op aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span><span class="sxs-lookup"><span data-stu-id="c2e31-104">[![Label to let you know the admin center is changing and you can find more details at aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span></span>
+<span data-ttu-id="b9dc5-104">[![Label om u te laten weten dat het Admin Center is aan het veranderen en u meer informatie vinden op aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span><span class="sxs-lookup"><span data-stu-id="b9dc5-104">[![Label to let you know the admin center is changing and you can find more details at aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span></span>
 
-<span data-ttu-id="c2e31-p101">Het herstellen van de fabrieksinstellingen zet de instellingen op het apparaat terug naar de oorspronkelijke instellingen toen het apparaat is gekocht. Alle apps en gegevens die op het apparaat zijn geïnstalleerd na aankoop worden verwijderd. U kunt Microsoft 365 Business gebruiken om voor Windows 10-apparaten die u beheert de fabrieksinstellingen te herstellen.</span><span class="sxs-lookup"><span data-stu-id="c2e31-p101">A factory reset reverts a device to the original settings it had when the device was purchased. All apps and data on the device that were installed after purchase are removed. You can use Microsoft 365 Business to factory reset Windows 10 devices you manage.</span></span>
+<span data-ttu-id="b9dc5-p101">Het herstellen van de fabrieksinstellingen zet de instellingen op het apparaat terug naar de oorspronkelijke instellingen toen het apparaat is gekocht. Alle apps en gegevens die op het apparaat zijn geïnstalleerd na aankoop worden verwijderd. U kunt Microsoft 365 Business gebruiken om voor Windows 10-apparaten die u beheert de fabrieksinstellingen te herstellen.</span><span class="sxs-lookup"><span data-stu-id="b9dc5-p101">A factory reset reverts a device to the original settings it had when the device was purchased. All apps and data on the device that were installed after purchase are removed. You can use Microsoft 365 Business to factory reset Windows 10 devices you manage.</span></span>
   
-1. <span data-ttu-id="c2e31-108">Ga naar het Admin Center op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>..</span><span class="sxs-lookup"><span data-stu-id="c2e31-108">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>..</span></span> 
+1. <span data-ttu-id="b9dc5-108">Ga naar het Admin Center op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>..</span><span class="sxs-lookup"><span data-stu-id="b9dc5-108">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>..</span></span> 
     
-2. <span data-ttu-id="c2e31-109">Kies in de linker navigatie **apparaten** \> **beheren**.</span><span class="sxs-lookup"><span data-stu-id="c2e31-109">In the left nav, choose **Devices** \> **Manage**.</span></span>
+2. <span data-ttu-id="b9dc5-109">Kies in de linker navigatie **apparaten** \> **beheren**.</span><span class="sxs-lookup"><span data-stu-id="b9dc5-109">In the left nav, choose **Devices** \> **Manage**.</span></span>
 
-3. <span data-ttu-id="c2e31-110">Vink op de pagina **beheren** het selectievakje aan naast het apparaat waaruit u gegevens wilt verwijderen en kies vervolgens in het dropdownmenu **beheren** de optie fabrieksinstellingen **herstellen**.</span><span class="sxs-lookup"><span data-stu-id="c2e31-110">On the **Manage** page, check the checkbox next to the device you want to remove data from and then, in the **Manage** drop-down choose **Factory reset**.</span></span>
+3. <span data-ttu-id="b9dc5-110">Vink op de pagina **beheren** het selectievakje aan naast het apparaat waaruit u gegevens wilt verwijderen en kies vervolgens in het dropdownmenu **beheren** de optie fabrieksinstellingen **herstellen**.</span><span class="sxs-lookup"><span data-stu-id="b9dc5-110">On the **Manage** page, check the checkbox next to the device you want to remove data from and then, in the **Manage** drop-down choose **Factory reset**.</span></span>
     
-4. <span data-ttu-id="c2e31-111">Kies in het deelvenster **Weet u zeker dat u de fabrieksinstellingen op de volgende apparaten wilt herstellen?** de optie **Bevestigen** \> **Sluiten**.</span><span class="sxs-lookup"><span data-stu-id="c2e31-111">On the **Are you sure you want to factory reset the devices below** pane, choose **Confirm** \> **Close**.</span></span>
+4. <span data-ttu-id="b9dc5-111">Kies in het deelvenster **Weet u zeker dat u de fabrieksinstellingen op de volgende apparaten wilt herstellen?** de optie **Bevestigen** \> **Sluiten**.</span><span class="sxs-lookup"><span data-stu-id="b9dc5-111">On the **Are you sure you want to factory reset the devices below** pane, choose **Confirm** \> **Close**.</span></span>
     
   
 
