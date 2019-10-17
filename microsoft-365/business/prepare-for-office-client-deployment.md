@@ -9,18 +9,22 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: M365-subscription-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: Informatie over het automatisch installeren van de 32-bits Office-apps op Windows 10-computers en deze op de hoogte houden.
-ms.openlocfilehash: fe1f946e4a216050e533604afa7c6e74e7b5980f
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 5b28c1e62d813c52b41ce8e7619c865cdf7690e2
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288390"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37575813"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-business"></a>Bereid u voor op de implementatie van de Office-client door Microsoft 365 Business
 

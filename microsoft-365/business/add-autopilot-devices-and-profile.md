@@ -10,19 +10,23 @@ ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
 localization_priority: Normal
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Informatie over het gebruik van Windows AutoPilot voor het instellen van nieuwe Windows 10-apparaten voor uw bedrijf.
-ms.openlocfilehash: 563c3bbbc9f69996778417b35cfaa64d089770ef
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: d028ea3e902965d55c445dc3b3a02aa315201b25
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37287590"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37574783"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>De stapsgewijze handleiding gebruiken om Autopilot-apparaten en -profielen toe te voegen
 

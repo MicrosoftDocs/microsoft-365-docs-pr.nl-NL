@@ -10,18 +10,23 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Adm_O365
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Informatie over het toevoegen van nieuwe gebruikers, het beveiligen van hun apparaten en het toewijzen van rollen in Microsoft 365 Business.
-ms.openlocfilehash: 9451be8a13c78230d0314e6d4ac74a6c9d7564ae
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 0ea3a4845e46ed1d13abf966eea895aa394aebca
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37287430"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37574753"
 ---
 # <a name="add-additional-users-to-microsoft-365-business"></a>Extra gebruikers toevoegen aan Microsoft 365 Business
 
