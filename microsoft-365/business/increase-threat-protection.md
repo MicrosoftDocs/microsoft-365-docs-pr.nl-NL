@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Stel de geavanceerde Bedreigingsbeveiliging van Office 365 in en beveilig gevoelige gegevens.
-ms.openlocfilehash: 0b0c1ac1d23bc7b167a58ecf93019a77c51c4366
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: fb63ca7e3cf38ecf31aab98e425b02e8b9983bf8
+ms.sourcegitcommit: 4d5e4cb3fa3ab45ad15f103c720c77277b22fc23
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37576013"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "37636747"
 ---
 # <a name="increase-threat-protection"></a>Verhoog de bescherming tegen dreigingen
 
@@ -134,7 +134,7 @@ Als u een ATP anti-phishing-beleid wilt maken, bekijkt u [deze korte trainingsvi
     
 4. Selecteer **+ maken**op de pagina **anti-phishing** . Er wordt een wizard gestart die u begeleidt bij het definiëren van uw anti-phishingbeleid.
     
-5. Geef de naam, beschrijving en instellingen voor uw beleid zoals aanbevolen in de onderstaande grafiek. Zie [meer informatie over ATP anti-phishing-beleidsopties](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409) voor meer informatie. 
+5. Geef de naam, beschrijving en instellingen voor uw beleid zoals aanbevolen in de onderstaande grafiek. Zie [meer informatie over ATP anti-phishing-beleidsopties](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#learn-about-atp-anti-phishing-policy-options) voor meer informatie. 
     
 6. Nadat u uw instellingen hebt gecontroleerd, kiest u **dit beleid maken** of **Opslaan**, indien van toepassing.
     

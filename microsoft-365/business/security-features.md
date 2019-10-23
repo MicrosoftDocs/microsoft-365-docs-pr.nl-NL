@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Informatie over de beveiligingsfuncties die bij Microsoft 365 Business worden geleverd.
-ms.openlocfilehash: 668b83e363a40e61391cbe56b0dbfab88cae7c43
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 0d1c35192bf82ac61e59356cda4d9fb29cb3d995
+ms.sourcegitcommit: 4d5e4cb3fa3ab45ad15f103c720c77277b22fc23
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575693"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "37636767"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 zakelijke beveiligings-en compliancefuncties
 
@@ -48,7 +48,7 @@ U veel van de Microsoft 365 Business Security-functies beheren in het Admin Cent
     
 - [Stel instellingen voor Apparaatbeveiliging in voor Windows 10-apparaten](protection-settings-for-windows-10-pcs.md) . 
     
-    U [BitLocker](https://go.microsoft.com/fwlink/p/?linkid=871405) -versleuteling inschakelen om gegevens te beschermen in het geval een apparaat is verloren of gestolen, en [Windows exploit Guard](https://go.microsoft.com/fwlink/p/?linkid=871404) inschakelen om geavanceerde bescherming tegen Ransomware te bieden. 
+    U [BitLocker](https://go.microsoft.com/fwlink/p/?linkid=871405) -versleuteling inschakelen om gegevens te beschermen in het geval een apparaat is verloren of gestolen, en [Windows exploit Guard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) inschakelen om geavanceerde bescherming tegen Ransomware te bieden. 
     
 - [Bedrijfsgegevens van apparaten verwijderen](remove-company-data.md)
     
