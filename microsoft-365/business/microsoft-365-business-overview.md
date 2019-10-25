@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie over het instellen van Microsoft 365 Business.
-ms.openlocfilehash: e6f99d6d2f2d7951303591a806a3618615a25310
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 0c717271da17ff4bf28d8d3546df3a9da427dba5
+ms.sourcegitcommit: 53148fc3663bdcfa9605684317785cb19f37e141
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575913"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37697760"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Overzicht van Microsoft 365 Business
 
@@ -54,7 +54,43 @@ Microsoft 365 Business helpt bij het beveiligen van uw gegevens in elk van deze 
 
 ![Een cijfer dat laat zien hoe M365B uw bedrijf beschermt.](media/m365businessvalueadd.png)
 
-Zie [Microsoft 365 zakelijke beveiligingsfuncties](security-features.md)voor de volledige lijst met beveiligingsfuncties. Nadat u [Microsoft 365 Business hebt ingesteld](set-up.md), raadpleegt u [Geavanceerd beveiligingsbeleid instellen](set-up-advanced-security.md) om aan de slag te gaan met de beveiligingsfuncties die niet zijn opgenomen als onderdeel van de installatie. Lees ook [Top 10 manieren om Office 365 en Microsoft 365 business plannen te beveiligen](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) voor een goed overzicht over hoe je bescherming tegen cybercriminelen en hackers instellen.
+## <a name="how-your-data-and-devices-are-protected"></a>Hoe uw gegevens en apparaten worden beschermd
+
+Microsoft 365 Business helpt **bedreigingen te verdedigen** door:
+
+Het scannen van koppelingen in e-mails en documenten in real time om onveilige websites te blokkeren (ATP Safe links).
+
+- Het uitvoeren van geavanceerde analyse van e-mailbijlagen in een sandbox-omgeving om nieuw ontwikkelde malware (ATP veilige bijlagen) te detecteren. 
+
+- Het inschakelen van antiphishing-beleidsregels die gebruikmaken van machine learning-modellen en imitatie detectie om bescherming te bieden tegen geavanceerde aanvallen (ATP anti-phishing-intelligentie). 
+
+- Instellen van geavanceerde beleidsregels die toegang van niet-vertrouwde locaties uitschakelen of bypass multi factor Authentication van vertrouwde plaatsen zoals uw Office-netwerk (Azure MFA met inbegrip van vertrouwde IP-adressen en voorwaardelijke toegang). 
+
+- Handhaving van malware bescherming op alle Windows 10-apparaten van uw bedrijf en het beschermen van bestanden in belangrijke systeemmappen van wijzigingen die door Ransomware (Windows Defender)
+
+Uw **bedrijfsgegevens worden beschermd** door:
+
+- Met behulp van automatische detectie om te voorkomen dat gevoelige informatie zoals sociale-zekerheids nummers of creditcards buiten uw bedrijf lekt (preventie van gegevensverlies). 
+
+- Versleutelen van gevoelige e-mails, zodat u veilig met klanten of andere mensen buiten uw bedrijf communiceren, ervoor te zorgen dat alleen de beoogde ontvanger het bericht kan lezen (Office 365 bericht versleuteling).
+
+- Beheren wie toegang tot bedrijfsgegevens heeft door beperkingen toe te passen, zoals **niet kopiëren** en **niet doorsturen** naar E-mail en documenten (Azure Information Protection, plan 1).
+
+- Onbeperkte Cloud archivering mogelijk maken, zodat u alle e-mails van uw bedrijf behouden, inclusief de postvakken van voormalige werknemers (Exchange Online-archivering).
+
+Uw **apparaten worden beveiligd** door:
+
+- Bepalen welke apparaten en gebruikers toegang hebben tot uw Office 365-gegevens; met opties om te voorkomen dat gebruikers zich aanmelden vanaf thuiscomputers, niet-goedgekeurde apps of buitenwerk uren (voorwaardelijke toegang).
+
+- Beveiligingsbeleid toepassen om bedrijfsgegevens op iOS-en Android-apparaten te beschermen.  U bijvoorbeeld vereisen dat gebruikers een pincode of vingerafdruk opgeven voor toegang tot bedrijfsgegevens en gegevens coderen op mobiele apparaten (app-beveiliging voor mobiele Office-apps).
+
+- Zakelijke documenten, e-mails en andere gegevens in goedgekeurde Office Mobile-apps bewaren en voorkomen dat werknemers deze opslaan op niet-geautoriseerde apps en locaties (app-beveiliging voor mobiele Office-apps).
+
+- Bedrijfsgegevens op afstand wissen van verloren of gestolen apparaten zonder dat dit van invloed is op persoonlijke gegevens (intune selectief wissen).
+
+- Met behulp van vereenvoudigde besturingselementen voor het beheren van beleid voor alle Pc's met Windows 10 in uw bedrijf, afdwingen van BitLocker-versleuteling en automatisch essentiële Windows-updates installeren (afdwingen van Windows Update-beleid).
+
+Zie [Microsoft 365 zakelijke beveiligingsfuncties](security-features.md)voor de volledige lijst met beveiligingsfuncties. Nadat u [Microsoft 365 Business hebt ingesteld](set-up.md), raadpleegt u [Geavanceerd beveiligingsbeleid instellen](set-up-advanced-security.md) om aan de slag te gaan met de beveiligingsfuncties die niet zijn opgenomen als onderdeel van de begeleide instelling. Lees ook [Top 10 manieren om Office 365 en Microsoft 365 business plannen te beveiligen](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) voor een goed overzicht over hoe je bescherming tegen cybercriminelen en hackers instellen.
 
 ## <a name="get-microsoft-365-business"></a>Microsoft 365 Business kopen
 
