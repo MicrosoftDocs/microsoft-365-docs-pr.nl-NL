@@ -1,9 +1,9 @@
 # Microsoft 365 Business
-## [Microsoft 365](index.md)
+## [Microsoft 365](index.yml)
 ## [Wat is Microsoft 365 Business?](microsoft-365-business-overview.md)
 ## [Microsoft 365 Business ophalen](sign-up.md)
 ## [Pre-vereisten voor gegevensbescherming](pre-requisites-for-data-protection.md)
-## Installatie
+## Configuratie
 ### [Overzicht van instellingen](set-up-overview.md)
 ### [Microsoft 365 Business instellen](set-up.md)
 ### [Upgrade naar Windows Pro Creators update](upgrade-to-windows-pro-creators-update.md)
@@ -20,7 +20,7 @@
 ### [Verhoog de bescherming tegen dreigingen](increase-threat-protection.md)
 ### [Nalevingsfuncties instellen](set-up-compliance.md)
 ## Gebruikers beheren
-### [Add users](add-users-m365b.md)
+### [Gebruikers toevoegen](add-users-m365b.md)
 ### [Een werknemer verwijderen](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ## Apparaten beheren
 ### [Beleid en apparaten weergeven en bewerken](view-policies-and-devices.md)
@@ -32,7 +32,10 @@
 ### [Instellingen voor apparaatbeveiliging voor Windows 10-Pc's](protection-settings-for-windows-10-pcs.md)
 #### [Instellingen valideren op Windows 10-Pc's](validate-settings-on-windows-10-pcs.md)
 ### [App-beveiligingsinstellingen voor Windows 10-Pc's](protection-settings-for-windows-10-devices.md)
-## [Migreren naar Microsoft 365 Business](migrate-to-microsoft-365-business.md)
+## Migreren naar Microsoft 365 Business
+### [Migreren van Office 365 Business Premium](migrate-to-microsoft-365-business.md)
+### [Migreren van Office 365 E3](migrate-from-e3.md)
+### [Ro Microsoft 365 Enterprise migreren](migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md)
 ## Facturering
 ### [Uw factuur](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Betalen](/Office365/Admin/subscriptions-and-billing/pay-for-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
