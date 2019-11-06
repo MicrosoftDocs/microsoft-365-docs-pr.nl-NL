@@ -1,5 +1,5 @@
 ---
-title: Migreren naar Microsoft 365 Business vanuit Office 365 Business Premium
+title: Upgrade naar Microsoft 365 Business vanaf Office 365 Business Premium
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,34 +19,24 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
-description: Meer informatie over hoe u uw bedrijf verplaatsen naar Microsoft 365 Business.
-ms.openlocfilehash: ae9ca0fe97916fdae6104a6edbb04efba5d9299e
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+description: Stappen die uw bedrijf upgraden van Office 365 Business Premium naar Microsoft 365 Business.
+ms.openlocfilehash: 1e337b908f848da1d33cbd8e662652550d302b14
+ms.sourcegitcommit: 0fa897d06b664c0ed005817752da1426d4ee17cb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575873"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38002108"
 ---
-# <a name="migrate-to-microsoft-365-business-from-office-365-business-premium"></a>Migreren naar Microsoft 365 Business vanuit Office 365 Business Premium
+# <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Upgrade naar Microsoft 365 Business vanaf Office 365 Business Premium
 
-Als u al een abonnement op Office 365 voor bedrijven hebt, bijvoorbeeld Office 365 Business Premium, u eenvoudig licenties toevoegen aan Microsoft 365 Business en deze toewijzen aan sommige of alle gebruikers.
-  
-> [!NOTE]
-> U de knop [Switch plannen](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a?.aspx#switchbutton) niet gebruiken om te upgraden naar microsoft 365 Business nog. 
-  
-## <a name="add-microsoft-365-business-licenses"></a>Microsoft 365 Business-licenties toevoegen
+Als u een [abonnement op office 365 voor bedrijven](https://products.office.com/compare-all-microsoft-office-products-4-column?activetab=tab:primaryr2)hebt, bijvoorbeeld Office 365 Business Premium, u eenvoudig upgraden naar microsoft 365 Business. Upgrade naar Microsoft 365 Business als u wilt toevoegen: 
+- Windows 10 Pro (naar Pc's met Windows 8 of hoger)
+- Eenvoudige besturingselementen waarmee bedrijfsgegevens op apparaten worden beheerd
+- Geavanceerde beveiligingsmogelijkheden.
+Lees meer over Microsoft 365 Business op [Microsoft.com](https://www.microsoft.com/microsoft-365/business)
 
-U hebt twee manieren om Microsoft 365 Business te krijgen. Een partner kan Microsoft 365 Business aanschaffen bij [Microsoft Partner Center](get-microsoft-365-business.md). Uw partner kan u ook helpen bij de overgang naar Microsoft 365 Business.
-  
-Als u uw eigen abonnement beheert, u [contact opnemen met Sales](https://www.microsoft.com/microsoft-365/business) om microsoft 365 Business-licenties te kopen. 
-  
-Zie [een partner van Subscription Advisor toevoegen, wijzigen of verwijderen](https://support.office.com/article/f86e8177-936e-491e-9024-44dea2b296ff) om erachter te komen hoe u met een partner gaan werken. 
-  
-Als je een link krijgt om je licenties te kopen, loop je door een wizard zoals hieronder. Kies **Ja, voeg het toe aan mijn account**. U ook het aantal licenties en de betalingsmethode kiezen.
-  
-![Kies op de koppeling Microsoft 365 Business direct kopen om toe te voegen aan uw huidige account of Meld u aan voor een nieuw account.](media/8bc54fd1-9cab-44d5-af91-c471e89aea46.png)
-  
-## <a name="assign-microsoft-365-licenses"></a>Microsoft 365-licenties toewijzen
+## <a name="whats-the-difference-between-office-365-business-premium-and-microsoft-365-business"></a>Wat is het verschil tussen Office 365 Business Premium en Microsoft 365 Business?
+We hebben een side-by-side vergelijking van deze twee plannen toegevoegd aan de [Microsoft 365 Business servicebeschrijving](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description). 
 
 1. Zodra u nieuwe licenties hebt aangeschaft, en dit is de eerste keer dat u hebt gedaan, wordt de setup-banner voor Microsoft 365 Business weergegeven op de top van het Admin Center.
     
@@ -69,7 +59,7 @@ Als je een link krijgt om je licenties te kopen, loop je door een wizard zoals h
     
     Als er geen nieuwe werknemers zijn die u wilt toevoegen en licenties wilt toewijzen aan bestaande gebruikers, kiest u **volgende**.
     
-4. Op de * * migreren e-mail berichten * * pagina u kiezen voor het migreren van e-mail voor een van de nieuwe gebruikers die u in stap 3 hebt toegevoegd. U deze stap ook overslaan. Kies **Volgende**.
+4. Op de pagina **e-mail berichten migreren** u ervoor kiezen om e-mail te migreren naar een van de nieuwe gebruikers die u in stap 3 hebt toegevoegd. U deze stap ook overslaan. Kies **Volgende**.
     
 5. Kies op de laatste pagina **Ga naar het Admin Center**, en ga verder met Setup daar.
     
@@ -79,19 +69,47 @@ Als je een link krijgt om je licenties te kopen, loop je door een wizard zoals h
     
     ![Kies in de gebruikerskaart bewerken naast product licenties.](media/be0fe2d8-7ff8-447c-88f6-d212ed78451c.png)
   
-8. In **product licenties** dia **Microsoft 365 Business** **op** \> **Opslaan**en **sluit**.
-    
-Zodra u de eerste licentie voor Microsoft 365 Business hebt aangeschaft, u nu ook meer toevoegen aan de **Inkoop Services**voor **facturering** \> . Op de pagina **Inkoop Services** u klikken op de weglatingstekens op het visitekaartje van **Microsoft 365** en kiest u **licentie hoeveelheid wijzigen** om meer te kopen. 
+## <a name="before-you-get-started"></a>Voordat u aan de slag gaat
+
+- **Wanneer moet ik een upgrade kiezen?** Upgrade is de juiste keuze wanneer u wilt upgraden van **alle gebruikers** die zijn toegewezen aan een enkel abonnement. Wanneer u kiest voor upgrade, worden alle gebruikers van het abonnement op hetzelfde moment overgeschakeld naar een ander abonnement. Als u niet wilt upgraden van iedereen die is toegewezen aan een enkel abonnement, licenties voor het nieuwe abonnement kopen (in dit geval Microsoft 365 Business) en [deze licenties afzonderlijk toewijzen](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users) aan elke gebruiker die u wilt upgraden. 
+- **Sommige invoegtoepassingen kunnen de upgrade verhinderen** Als u probeert een upgrade te starten en u hebt een invoeg versie die verhindert dat u doorgaat, u eerst de add-on verwijderen en deze later opnieuw toevoegen-als u deze nog nodig hebt. 
+- **Als u uw abonnement vooruitbetaald** Er is geen eenvoudig upgradepad voor vooruitbetaalde plannen. U weet of u een prepaid-abonnement hebt omdat u uw abonnement hebt ingesteld met behulp van een product-ID die u mogelijk in een winkel hebt gekocht. Neem contact op met een partner, ga naar de Microsoft Store of wacht tot uw prepaid-abonnement verloopt om over te schakelen naar een nieuw abonnement.
+
+## <a name="upgrade-to-microsoft-365-business"></a>Upgrade naar Microsoft 365 Business
+Koop uw licenties door deze stappen te volgen in het [nieuwe Admin Center](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview):
+1. Meld u aan bij het admin <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>Center op.
+2. Ga naar het navigatiedeelvenster en selecteer **facturerings** \> **producten & Services**. Zoek uw abonnement op Office 365 en selecteer het om de details weer te geven. 
+
+    ![Een schermafbeelding laat zien hoe u uw abonnement vinden en selecteren in het Admin Center.](media/FindYourSubscription.png)
+
+3. Selecteer op de volgende pagina de optie **upgrade**. 
+
+      ![Een screenshot laat zien waar te selecteren upgrade in het Admin Center.](media/SelectUpgrade.png)
+
+  > [!NOTE]
+  > Als u een bericht dat ' upgraden van uw abonnement wordt niet ondersteund met groepslicenties in azure Active Directory ' ziet, u dit veilig negeren, tenzij u een zeer grote organisatie hebt. Organisaties die deze optie hebben geselecteerd, zijn zich ervan bewust dat ze op groepen gebaseerde licenties gebruiken.
+
+4. Vervolgens u een lijst weergeven met Office-abonnementen waarop u een upgrade uitvoeren. Zoek in dit geval het Microsoft 365 business plan. U naar beneden scrollen als u wilt zien van alle Office-apps en services die zijn opgenomen in dit plan. Selecteer onder **Microsoft 365 Business**de optie **upgrade** om Microsoft 365 Business aan uw winkelwagentje toe te voegen.
+5. In de winkelwagen:
+    1. We nemen automatisch licenties op voor al uw huidige gebruikers in het winkelwagentje. Als u meer of minder licenties nodig hebt, moet u [deze licenties afzonderlijk aanschaffen en toewijzen](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users).  
+    2. U aanpassen hoe u wilt betalen-maandelijks of jaarlijks. Selecteer het vervolgkeuzemenu om uw keuze te maken.
+6. Selecteer **Ga naar afhandeling** waar je een overzicht van je aankoop ziet, inclusief de betalingsmethode voor dit account. U hier ook een promo code toevoegen als u er een hebt.
+7. Selecteer **bestelling plaatsen** om uw aankoop te voltooien.
+Het duurt enkele minuten voordat Microsoft uw nieuwe service plannen instelt. Als u de voortgang wilt controleren, selecteert u **Upgradestatus controleren**. 
+1. Zodra uw plan gereed is, moet u mogelijk enkele extra stappen in het Beheercentrum uitvoeren. Selecteer in het navigatiedeelvenster **Home** om eventuele aanvullende instellingsstappen te voltooien.
+
+> [!NOTE]
+> U ontvangt een pro rata restitutie voor de Ofifce 365-licenties die u niet meer nodig hebt. Uw bankrekening of creditcard wordt ongeveer twee dagen na het instellen van het nieuwe abonnement in rekening gebracht.
   
 ## <a name="protect-user-devices-and-files"></a>Gebruikers apparaten en bestanden beveiligen
 
-Nadat u licenties hebt toegewezen aan Microsoft 365 Business, u beginnen met het beveiligen van de apparaten en bestanden van de gebruikers.
+Nu dat Microsoft 365 Business-licenties zijn toegewezen, voltooit u de stappen om te beginnen met het beveiligen van apparaten en bestanden. U gebruikt enkele nieuwe opties die zijn opgenomen in het navigatiedeelvenster Admin Center.
   
-1. In het Admin Center, in de linker NAV, gaat u naar **apparaten** \> **beleid**.
+1. In het Beheercentrum, in het navigatiedeelvenster, gaat u naar **apparaten** \> **beleid**.
     
-2. Kies op de pagina **apparaatbeleid** de optie **toevoegen**.
+2. Selecteer op de pagina **apparaatbeleid** de optie **toevoegen**.
     
-3. Geef in het deelvenster **beleid toevoegen** het beleid een naam en kies vervolgens een **beleidstype** in de vervolgkeuzelijst. 
+3. Geef in het deelvenster **beleid toevoegen** het beleid een naam (bijvoorbeeld werkbestanden beveiligen) en kies vervolgens een **beleidstype** in de vervolgkeuzelijst. 
     
     U toepassingsbeleid instellen voor het beveiligen van bestanden op Android-en iPhone-apparaten, evenals Windows 10, en u apparaatconfiguratiebeleid instellen voor Windows 10-apparaten die eigendom zijn van het bedrijf. Zie de volgende koppelingen voor meer informatie:
     
@@ -101,17 +119,14 @@ Nadat u licenties hebt toegewezen aan Microsoft 365 Business, u beginnen met het
     
   - [Instellingen voor apparaatbeveiliging instellen voor Windows 10-Pc's](protection-settings-for-windows-10-pcs.md)
     
-   ![Voer in het deelvenster beleid toevoegen een naam voor het in en kies het beleidstype in het dropdownmenu.](media/76ef37e4-1d18-4f34-8a0f-391ab1d0ae2b.png)
   
-4. Zodra u beleid hebt ingesteld, kunnen u en uw werknemers apparaten instellen:
+4. Nadat u beleid hebt ingesteld, kunnen u en uw werknemers apparaten instellen:
     
-  - Als uw Windows nog niet is geïnstalleerd op de Windows Pro Creator-update, moet u [deze upgraden naar Windows Pro Creators update](upgrade-to-windows-pro-creators-update.md).
+  - Als uw Windows-apparaten de Windows Pro Creator-update nog niet gebruiken, moet u [ze upgraden naar Windows Pro Creators update](upgrade-to-windows-pro-creators-update.md).
     
   - Zie [Windows-apparaten instellen voor Microsoft 365 zakelijke gebruikers](set-up-windows-devices.md) voor stappen voor Windows-apparaten. 
     
   - Zie [mobiele apparaten instellen voor Microsoft 365 zakelijke gebruikers](set-up-mobile-devices.md) voor stappen voor Android-telefoons en iPhones. 
-    
-5. Voor het automatisch installeren van Office-client-apps, Zie [voorbereiden voor Office-clientimplementatie door Microsoft 365 Business](prepare-for-office-client-deployment.md) en [automatisch installeren of verwijderen van Office op Windows 10-apparaten](auto-install-or-uninstall-office.md).
-    
+
 
 
