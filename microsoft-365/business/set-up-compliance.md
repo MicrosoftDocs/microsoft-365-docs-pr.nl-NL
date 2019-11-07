@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Stel nalevingsfuncties in om gegevensverlies te voorkomen en gevoelige gegevens te labelen.
-ms.openlocfilehash: 73709c1302a2e9e46eb2d54ea021438b5f1743c5
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 5213c55f4a8ce0e223896f1b960847714d6d06cb
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575653"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031410"
 ---
 # <a name="set-up-compliance-features"></a>Nalevingsfuncties instellen
 
@@ -57,7 +57,7 @@ Om een postbus te plaatsen in de rechtszaak Hold, in het Admin Center:
 
 Gevoeligheidslabels worden geleverd met Azure Information Protection (AIP) plan 1 en helpen u bij het classificeren en optioneel beveiligen van uw documenten en e-mail berichten, door het toepassen van labels. Labels kunnen automatisch worden toegepast door beheerders die regels en voorwaarden, handmatig door gebruikers definiëren of met behulp van een combinatie waar gebruikers aanbevelingen worden gegeven.
 
-Als u gevoeligheids labels wilt instellen, u video met [gevoeligheids etiketten maken en beheren](https://support.office.com/en-us/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) .
+Als u gevoeligheids labels wilt instellen, u video met [gevoeligheids etiketten maken en beheren](https://support.office.com/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) .
 
 
 

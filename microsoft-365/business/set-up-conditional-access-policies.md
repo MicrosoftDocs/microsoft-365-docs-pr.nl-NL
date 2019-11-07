@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Informatie over het instellen van beleid voor voorwaardelijke toegang voor Microsoft 365-campagnes.
-ms.openlocfilehash: 31f3b7f3678671af3b5ca3947dec37041b226fac
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 3772aa0d505ef54a0587423e890ede519d571e0c
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575633"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031390"
 ---
 # <a name="set-up-conditional-access-policies"></a>Beleid voor voorwaardelijke toegang instellen
 
@@ -53,9 +53,9 @@ Zie voor meer informatie over dit beleid, [Wat zijn Basisbeleid](https://docs.mi
     ![Pagina waarop het basisbeleid voor voorwaardelijke toegang wordt vermeld.](media/baslinepolicies.png)
 1. Zie de volgende specifieke instructies voor elk beleid:
 
-  - [MFA vereisen voor beheerders](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
-- [MFA vereisen voor gebruikers](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
- - [Verouderde verificatie blokkeren](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
+  - [MFA vereisen voor beheerders](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
+- [MFA vereisen voor gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
+ - [Verouderde verificatie blokkeren](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
   - [MFA vereisen voor servicebeheer](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
 U veel extra beleidsregels instellen, zoals het vereisen van goedgekeurde client-apps. Zie de [documentatie voor voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/) voor meer informatie.

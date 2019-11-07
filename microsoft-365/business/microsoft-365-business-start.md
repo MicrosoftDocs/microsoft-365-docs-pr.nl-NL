@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie over het instellen van Microsoft 365 Business.
-ms.openlocfilehash: ed302a79d125ffc9c6203d902f437749a5b0f8d4
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 4c744d6a900dba3c11ee51e75602a430268e15bb
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575893"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029099"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Aan de slag met Microsoft 365 Business
 
@@ -40,7 +40,7 @@ Microsoft 365 Business is bedoeld voor maximaal 300 licenties. Als u meer licent
 
 - Als u een partner hebt, ontvangt deze Microsoft 365 Business: [Microsoft 365 Business verkrijgen via Microsoft Partner Center](get-microsoft-365-business.md).
     
-- Als u niet met een partner werkt en Microsoft 365 Business wilt kopen, kunt u [contact opnemen met ](https://www.microsoft.com/en-us/microsoft-365/business).
+- Als u niet met een partner werkt en Microsoft 365 Business wilt kopen, kunt u [contact opnemen met ](https://www.microsoft.com/microsoft-365/business).
     
 ## <a name="set-up-microsoft-365-business"></a>Microsoft 365 Business instellen
 

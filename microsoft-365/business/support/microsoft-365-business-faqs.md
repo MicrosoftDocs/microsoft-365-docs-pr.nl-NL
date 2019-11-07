@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, veelgestelde vragen, antwoorden, Business
 ms.date: 06/08/2018
-ms.openlocfilehash: 23cf7c4770387050c60ac21f537fbd7738a8aab4
-ms.sourcegitcommit: 1e3916bbe94d4fbb858566e7db5018e1e46bcd0d
+ms.openlocfilehash: 2067badcb78b48bac59770993de25c0ebbeaa829
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37646380"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031360"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft 365 Business
 
@@ -161,7 +161,7 @@ Nee, klanten die Windows Defender Advanced Threat Protection vereisen, hebben Wi
 IT-service providers die nog niet Microsoft-partners zijn, kunnen meer te weten komen over het [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business)Microsoft Cloud Solution Provider-programma op.
 
 ### <a name="where-can-i-learn-how-to-sell-microsoft-365-business"></a>Waar kan ik leren hoe ik Microsoft 365 business verkoop? 
-Partners die nu Office 365 verkopen, kunnen dezelfde consultatieve verkoopmethoden gebruiken om Microsoft 365 Business te verkopen. Daarnaast introduceren we meer resources en trainingen voor uw verkoopteam om inzicht te krijgen in de bestaande bureaublad omgeving van de klanten, de afhankelijkheid van Active Directory, mobiliteit en beveiliging om de volledige waarde van Microsoft 365 Business effectief te communiceren op een manier die relevant is voor de klant. Zoek deze bronnen op de Office Partner-Portal [http://partners.office.com/microsoft365business](http://partners.office.com/microsoft365business)op. 
+Partners die nu Office 365 verkopen, kunnen dezelfde consultatieve verkoopmethoden gebruiken om Microsoft 365 Business te verkopen. Daarnaast introduceren we meer resources en trainingen voor uw verkoopteam om inzicht te krijgen in de bestaande bureaublad omgeving van de klanten, de afhankelijkheid van Active Directory, mobiliteit en beveiliging om de volledige waarde van Microsoft 365 Business effectief te communiceren op een manier die relevant is voor de klant. Zoek deze bronnen op de Office Partner-Portal [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business)op. 
 
 ### <a name="how-can-microsoft-365-business-help-partners-increase-the-profitability"></a>Hoe kan Microsoft 365 business partners helpen de winstgevendheid te verhogen? 
 Microsoft 365 Business helpt partners kosten te verlagen door grotere operationele efficiëntie en omzet te verhogen door de verkoop van aanvullende services. Het onderzoek van Forrester Research, Microsoft 365 Business Total Economic impact (TEI), junihttps://www.microsoft.com/microsoft-365/partners/PartnerTEI)2017 (, laat zien dat microsoft 365 Business een positieve impact zal hebben op de winstgevendheid van partners. 

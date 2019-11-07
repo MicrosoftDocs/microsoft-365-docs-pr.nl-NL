@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Informatie over de beveiligingsfuncties die bij Microsoft 365 Business worden geleverd.
-ms.openlocfilehash: 0d1c35192bf82ac61e59356cda4d9fb29cb3d995
-ms.sourcegitcommit: 4d5e4cb3fa3ab45ad15f103c720c77277b22fc23
+ms.openlocfilehash: 5e295480b1a578ca26646a89d6a0a4183a15428d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "37636767"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031440"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 zakelijke beveiligings-en compliancefuncties
 
@@ -73,7 +73,7 @@ Geavanceerde functies in Microsoft 365 Business zijn beschikbaar om u te helpen 
 - **[De volledige mogelijkheden van intune in azure Portal](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
     Toegang tot het intune-Beheercentrum in azure Portal stelt u in staat extra beveiligingsfuncties in te stellen, zoals het beheer van MacOS-apparaten, iPhone-en Android-apparaten, samen met Geavanceerd Apparaatbeheer voor Windows, die niet beschikbaar zijn via Microsoft 365 Business Admin Center.
-- **Dezelfde [voorwaardelijke toegang](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) als Azure AD P1-abonnement**
+- **Dezelfde [voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) als Azure AD P1-abonnement**
 
     Voorwaardelijke toegang kan helpen uw organisatie te beschermen tegen aanmeldingsrisico, toegang tot pogingen van een onverwacht netwerk of locale, toegangspogingen vormen riskante apparaattypen, enzovoort. Beleid voor voorwaardelijke toegang worden afgedwongen nadat de eerste verificatie is voltooid en maakt gebruik van signalen van de eerste verificatie gebeurtenis om te bepalen of de poging tot toegang moet worden goedgekeurd, weigert of f meer bewijs (zoals tweede vorm van identificatie) is Vereist.
 

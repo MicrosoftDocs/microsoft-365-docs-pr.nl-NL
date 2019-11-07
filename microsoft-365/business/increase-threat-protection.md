@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Stel de geavanceerde Bedreigingsbeveiliging van Office 365 in en beveilig gevoelige gegevens.
-ms.openlocfilehash: fb63ca7e3cf38ecf31aab98e425b02e8b9983bf8
-ms.sourcegitcommit: 4d5e4cb3fa3ab45ad15f103c720c77277b22fc23
+ms.openlocfilehash: 1827b70f1e4d78a072753390c1a99d7cb4bd5cfd
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "37636747"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030759"
 ---
 # <a name="increase-threat-protection"></a>Verhoog de bescherming tegen dreigingen
 
@@ -31,7 +31,7 @@ Dit artikel helpt u bij het verhogen van de beveiliging in uw Microsoft 365-abon
 
 Controleer voordat u begint de Secure Score van Office 365. Office 365 Secure Score analyseert de beveiliging van uw Office 365-organisatie op basis van uw reguliere activiteiten en beveiligingsinstellingen en wijst een score aan. Begin met het noteren van uw huidige score. Het nemen van de acties aanbevolen in dit artikel verhoogt uw score. Het doel is niet om de maximale score te behalen, maar om zich bewust te zijn van de mogelijkheden om uw omgeving te beschermen die de productiviteit voor uw gebruikers niet nadelig beïnvloeden. 
 
-Zie [Microsoft Secure Score](https://docs.microsoft.com/en-us/office365/securitycompliance/microsoft-secure-score)voor meer informatie.
+Zie [Microsoft Secure Score](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score)voor meer informatie.
 
 ## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Verhoog het niveau van bescherming tegen malware in mail
 

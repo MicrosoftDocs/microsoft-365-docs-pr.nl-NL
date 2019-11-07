@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Informatie over hoe u toegang krijgt tot on-premises resources, zoals zakelijke apps, bestandsshares en printers, vanuit een Azure Active Directory dat is gekoppeld aan een Windows 10-apparaat.
-ms.openlocfilehash: 92e8ccb99dfece7687c25db84b81fc7bc7158d71
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 2af5d4b4f84f39f5b157313e5b38ef030da7263d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574673"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030529"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Toegang tot on-premises bronnen van een Azure AD-apparaat in Microsoft 365 Business
 
-Elk Windows 10-apparaat dat is gekoppeld aan Azure Active Directory, heeft toegang tot alle cloudgebaseerde bronnen, zoals uw Office 365-apps en kan worden beveiligd door Microsoft 365 Business. Om ook toegang tot on-premises resources zoals LOB-apps (line of Business), bestandsshares en printers toe te staan, moet u uw on-premises Active Directory synchroniseren met Azure Active Directory met behulp van [Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect). 
+Elk Windows 10-apparaat dat is gekoppeld aan Azure Active Directory, heeft toegang tot alle cloudgebaseerde bronnen, zoals uw Office 365-apps en kan worden beveiligd door Microsoft 365 Business. Om ook toegang tot on-premises resources zoals LOB-apps (line of Business), bestandsshares en printers toe te staan, moet u uw on-premises Active Directory synchroniseren met Azure Active Directory met behulp van [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect). 
 
-Zie [Inleiding tot Apparaatbeheer in azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) voor meer informatie.
+Zie [Inleiding tot Apparaatbeheer in azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction) voor meer informatie.
 De stappen worden ook samengevat in de volgende secties.
 
 ## <a name="run-azure-ad-connect"></a>Azure AD Connect uitvoeren
