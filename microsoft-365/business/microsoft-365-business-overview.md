@@ -22,18 +22,18 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie over het instellen van Microsoft 365 Business.
-ms.openlocfilehash: afc39ce57e63ad039780ad33e60fa81d8e8eec7a
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 86af927c05168fabe5a72f331c14c9f3e5cbc1dd
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031460"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038944"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Overzicht van Microsoft 365 Business
 
 ## <a name="what-is-microsoft-365-business"></a>Wat is Microsoft 365 Business
 
-Microsoft 365 Business is een uitgebreide reeks zakelijke hulpmiddelen voor productiviteit en samenwerking, zoals Outlook, Word, Excel en andere Office-producten, die altijd up-to-date zijn. U kunt uw werkbestanden op al uw iOS-, Android- en Windows 10-apparaten beveiligen met geavanceerde beveiliging die eenvoudig is te beheren.
+Microsoft 365 Business is een abonnementsservice met Office 365-productiviteitstools plus geavanceerde mogelijkheden om uw bedrijf te beschermen tegen cyberdreigingen, uw gegevens te beschermen en de apparaten te beheren.
   
 Microsoft 365 Business is bedoeld voor maximaal 300 licenties. Als u meer licenties nodig hebt, raadpleegt u de documentatie voor [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) voor meer informatie.
 
