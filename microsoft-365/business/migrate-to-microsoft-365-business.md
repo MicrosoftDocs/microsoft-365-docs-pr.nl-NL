@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Stappen die uw bedrijf upgraden van Office 365 Business Premium naar Microsoft 365 Business.
-ms.openlocfilehash: 1e337b908f848da1d33cbd8e662652550d302b14
-ms.sourcegitcommit: 0fa897d06b664c0ed005817752da1426d4ee17cb
+ms.openlocfilehash: f3a25746cf123fa471c29084a62a6fcfc1542a02
+ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38002108"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231406"
 ---
 # <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Upgrade naar Microsoft 365 Business vanaf Office 365 Business Premium
 
@@ -38,37 +38,6 @@ Lees meer over Microsoft 365 Business op [Microsoft.com](https://www.microsoft.c
 ## <a name="whats-the-difference-between-office-365-business-premium-and-microsoft-365-business"></a>Wat is het verschil tussen Office 365 Business Premium en Microsoft 365 Business?
 We hebben een side-by-side vergelijking van deze twee plannen toegevoegd aan de [Microsoft 365 Business servicebeschrijving](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description). 
 
-1. Zodra u nieuwe licenties hebt aangeschaft, en dit is de eerste keer dat u hebt gedaan, wordt de setup-banner voor Microsoft 365 Business weergegeven op de top van het Admin Center.
-    
-    > [!NOTE]
-    > De setup-banner is een mogelijkheid om nieuwe gebruikers toe te voegen, een nieuw domein en e-mail voor nieuwe gebruikers te migreren. Als u niet van plan bent om te doen, moet u nog steeds door de wizard en kies standaardopties om het te laten verdwijnen uit de admin homepage. 
-  
-   ![Kies Start Setup op de Microsoft 365 Business is klaar om banner in te stellen.](media/8d3b0d97-7cca-497f-9364-4b00ad670209.png)
-  
-    Kies **Setup starten**.
-    
-2. Op de pagina **uw aanmelding en E-mail personaliseren** u een domein toevoegen door **een domein koppelen dat u al bezit** te kiezen als u deze mogelijkheid wilt gebruiken om een ander domein aan uw abonnement toe te voegen. 
-    
-    Als u al een domein hebt ingesteld, geeft het tweede veld aan dat en zal zeggen **blijven met behulp van** \< _uw domeinnaam_ \> **voor e-mail en aanmelden**.   Als u een domein met uw abonnement nog niet hebt ingesteld, wordt er gezegd dat u _uw bedrijfs name.onmicrosoft.com_ \> **blijven gebruiken** \< **voor e-mail en aanmelden**.  
-    
-    Kies **Volgende**.
-    
-    ![Kies op de pagina uw aanmeldings-en e-mailadres aanpassen of u een domein wilt toevoegen of gebruik de optie die u hebt gebruikt.](media/c3f5cfb2-1189-4d2f-803b-c9feb008a7a3.png)
-  
-3. Op de pagina **nieuwe gebruikers toevoegen** u nieuwe gebruikers toevoegen als u nieuwe werknemers hebt waaraan u de microsoft 365 Business-licenties wilt toewijzen. 
-    
-    Als er geen nieuwe werknemers zijn die u wilt toevoegen en licenties wilt toewijzen aan bestaande gebruikers, kiest u **volgende**.
-    
-4. Op de pagina **e-mail berichten migreren** u ervoor kiezen om e-mail te migreren naar een van de nieuwe gebruikers die u in stap 3 hebt toegevoegd. U deze stap ook overslaan. Kies **Volgende**.
-    
-5. Kies op de laatste pagina **Ga naar het Admin Center**, en ga verder met Setup daar.
-    
-6. In het Admin Center, gaat u naar **gebruikers** \> **actieve gebruikers**.
-    
-7. Selecteer de gebruiker aan wie u de **Microsoft 365 Business** -licentie wilt toewijzen en kies vervolgens **bewerken** naast **product licenties**.
-    
-    ![Kies in de gebruikerskaart bewerken naast product licenties.](media/be0fe2d8-7ff8-447c-88f6-d212ed78451c.png)
-  
 ## <a name="before-you-get-started"></a>Voordat u aan de slag gaat
 
 - **Wanneer moet ik een upgrade kiezen?** Upgrade is de juiste keuze wanneer u wilt upgraden van **alle gebruikers** die zijn toegewezen aan een enkel abonnement. Wanneer u kiest voor upgrade, worden alle gebruikers van het abonnement op hetzelfde moment overgeschakeld naar een ander abonnement. Als u niet wilt upgraden van iedereen die is toegewezen aan een enkel abonnement, licenties voor het nieuwe abonnement kopen (in dit geval Microsoft 365 Business) en [deze licenties afzonderlijk toewijzen](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users) aan elke gebruiker die u wilt upgraden. 
