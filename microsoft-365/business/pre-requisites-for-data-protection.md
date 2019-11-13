@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
 description: 'Ken de vereisten voor het instellen van uw organisatie met Microsoft 365 Business. '
-ms.openlocfilehash: 3bf02ab831a1eb158959490ff7f4d4274a15bb3f
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 157abf0a3396ab374297441bf90d6defc4093390
+ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575833"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290525"
 ---
 # <a name="pre-requisites-for-protecting-data-on-devices-with-microsoft-365-business"></a>Vereisten voor het beschermen van gegevens op apparaten met Microsoft 365 Business
 
@@ -34,6 +34,8 @@ De eerste stap bij het instellen van Microsoft 365 Business in uw organisatie is
 - Op Windows-apparaten moet Windows 7 Professional, Windows 8 Pro of Windows 8.1 Pro worden uitgevoerd.
     
     [Upgrade Windows devices to Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md) (Windows-apparaten bijwerken naar de Windows Pro-makersupdate
+    
+    Als u Windows 10 Home gebruikt, moet u Windows 10 Pro **aanschaffen** . Zie [Windows 10 Home upgraden naar Windows 10 Pro](https://support.office.com/article/0aee10c1-4d34-43ee-a325-579c6c2df90e?ui=en-US&rs=en-US&ad=US) voor instructies. 
     
 - Verwijder apparaten uit beheeroplossingen voor mobiele apparaten (Mobile Iron, AirWatch, enzovoort). U schrijft alle personen in uw organisatie in bij het mobiele beheer van Microsoft 365 Business.
     
