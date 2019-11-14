@@ -1,5 +1,5 @@
 ---
-title: Extra gebruikers toevoegen aan Microsoft 365 Business
+title: Meer gebruikers toevoegen aan Microsoft 365 Business
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,29 +21,29 @@ search.appverid:
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Informatie over het toevoegen van nieuwe gebruikers, het beveiligen van hun apparaten en het toewijzen van rollen in Microsoft 365 Business.
-ms.openlocfilehash: 0ea3a4845e46ed1d13abf966eea895aa394aebca
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 25f19873400dad1c57445a63dd354bbb5d1fce49
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574753"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38322530"
 ---
-# <a name="add-additional-users-to-microsoft-365-business"></a>Extra gebruikers toevoegen aan Microsoft 365 Business
+# <a name="add-more-users-to-microsoft-365-business"></a>Meer gebruikers toevoegen aan Microsoft 365 Business
 
 ## <a name="add-new-users"></a>Nieuwe gebruikers toevoegen
 
 1. Ga naar het Admin Center op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
-2. Kies in de linker NAV **gebruikers** \> **actieve gebruikers**.
-1. Kies op de pagina **actieve gebruikers** de optie **een gebruiker toevoegen**.
- 4. In het deelvenster **Nieuwe gebruiker** typt u de vereiste gegevens. 
+2. Kies in het linkernavigatievenster **gebruikers** \> **actieve gebruikers**.
+3. Kies op de pagina **actieve gebruikers** de optie **een gebruiker toevoegen**.
+4. Typ de vereiste informatie in het deelvenster **nieuwe gebruiker** . 
   
-    U kunt ook meer informatie invoeren onder **Contactgegevens**, kies hoe u het wachtwoord instelt onder **Wachtwoord** instellen en wijs rollen toe onder **Rollen**.
+    U meer informatie invoeren onder **contact gegevens**, kiezen hoe u het wachtwoord instelt onder **wachtwoord** instelling en rollen toewijzen onder **rollen**.
       
     ![Enter user information in the New user card](media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
       
-    Stel in de sectie Productlicenties de productlicentieinstelling **Microsoft 365 Business** in op **Ingeschakeld**.
+    Stel in het gedeelte product licenties de instelling **Microsoft 365 Business** product License in **op**aan.
       
     ![Set the license setting to On position](media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
   
-Zie ook [gebruikers afzonderlijk of bulksgewijs toevoegen](https://docs.microsoft.com/office365/admin/add-users/add-users).
+Zie [gebruikers afzonderlijk of bulksgewijs toevoegen](https://docs.microsoft.com/office365/admin/add-users/add-users)voor meer informatie over het toevoegen van gebruikers.
   
