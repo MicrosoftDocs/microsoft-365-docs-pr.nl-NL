@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: Informatie over het maken, bewerken, verwijderen of verwijderen van AutoPilot-profielen.
-ms.openlocfilehash: 4305340a2fc5df8202cf4d85f9e2541690bf9ed0
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: f7fdc2632e93c48e043fe158842f8395d6a89e14
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574713"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320233"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>AutoPilot-profielen maken en bewerken
 
@@ -40,17 +40,17 @@ Een profiel geldt voor een apparaat of een groep apparaten.
   
 2. Kies op de pagina **stuurautomaat** het **** tabblad \> profielen **profiel maken**.
     
-3. Voer op de pagina **Profiel maken** een naam in voor het profiel waaraan u deze kunt herkennen, bijvoorbeeld Marketing, schakel de gewenste instelling in (zie [Info over AutoPilot-profielinstellingen](autopilot-profile-settings.md) voor meer informatie) en kies **Opslaan**.
+3. Voer op de pagina **profiel maken** een naam in voor het profiel dat u helpt om het te identificeren, bijvoorbeeld Marketing. Schakel de gewenste instelling in en kies vervolgens **Opslaan**. Voor meer informatie over de instellingen van het stuurautomaat-profiel, Zie [informatie over Autopilot-profielinstellingen](autopilot-profile-settings.md).
     
     ![Enter name and turn on settings in the Create profile panel.](media/63b5a00d-6a5d-48d0-9557-e7531e80702a.png)
   
 ### <a name="apply-profile-to-a-device"></a>Een profiel toepassen op een apparaat
 
-Wanneer u een profiel hebt gemaakt, kunt u deze toepassen op een apparaat of een groep apparaten. U kunt een bestaand profiel kiezen in de [stapsgewijze handleiding](add-autopilot-devices-and-profile.md), u kunt dit toepassen op nieuwe apparaten of u kunt een bestaand profiel voor een apparaat of groep apparaten vervangen. 
+Nadat u een profiel hebt gemaakt, u het toepassen op een apparaat of een groep apparaten. U een bestaand profiel kiezen in de [Stapsgewijze handleiding](add-autopilot-devices-and-profile.md) en het toepassen op nieuwe apparaten of een bestaand profiel vervangen voor een apparaat of een groep apparaten. 
   
 1. Kies op de pagina **Windows voorbereiden** het tabblad **Apparaten**. 
     
-2. Klik op het selectievakje naast een apparaatnaam en kies in het deelvenster **Apparaat** een profiel in de vervolgkeuzelijst **Toegewezen profiel** \> **Opslaan**.
+2. Schakel het selectievakje naast de naam van een apparaat in en kies in het deelvenster **apparaat** een profiel in de vervolg \> keuzelijst **toegewezen profiel** **Opslaan**.
     
     ![In the Device panel, select an Assigned profile to apply it.](media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
@@ -62,7 +62,7 @@ Wanneer u een profiel aan een apparaat hebt toegewezen, kunt u dit bijwerken, ze
 
 1. Kies op de pagina **Windows voorbereiden** het tabblad **Profielen**. 
     
-2. Klik op het selectievakje naast een apparaatnaam en werk in het deelvenster **Profiel** de gewenste beschikbare instellingen bij \> **Opslaan**.
+2. Schakel het selectievakje naast een apparaatnaam in en werk in het deelvenster **profiel** een van de beschik \> **bare instellingen bij**.
     
     Als u dit doet voordat een gebruiker het apparaat verbindt met internet, wordt het profiel toegepast tijdens het installatieproces.
     
@@ -70,7 +70,7 @@ Wanneer u een profiel aan een apparaat hebt toegewezen, kunt u dit bijwerken, ze
 
 1. Kies op de pagina **Windows voorbereiden** het tabblad **Profielen**. 
     
-2. Klik op het selectievakje naast een apparaatnaam en klik in het deelvenster **Profiel** op **Profiel verwijderen** \> **Opslaan**.
+2. Schakel het selectievakje naast de naam van een apparaat in en selecteer **profiel** \> **Opslaan**verwijderen in het deelvenster **profiel** .
     
     Wanneer u een profiel verwijdert, wordt dit verwijderd van het apparaat of de groep apparaten waaraan dit was toegewezen.
     
@@ -78,5 +78,5 @@ Wanneer u een profiel aan een apparaat hebt toegewezen, kunt u dit bijwerken, ze
 
 1. Kies op de pagina **Windows voorbereiden** het tabblad **Apparaten**. 
     
-2. Klik op het selectievakje naast een apparaatnaam en kies in het deelvenster **Apparaat** de optie **Geen** in de vervolgkeuzelijst **Toegewezen profiel** \> **Opslaan**.
+2. Schakel het selectievakje naast de naam van een apparaat in en kies in het deelvenster **apparaat** **geen** in de vervolg \> keuzelijst **toegewezen profiel** **Opslaan**.
     

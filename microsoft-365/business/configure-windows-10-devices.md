@@ -24,18 +24,18 @@ search.appverid:
 - MOE150
 ms.assetid: da60e08e-2547-491a-9c97-94ac6d715623
 description: Meer informatie over apparaatbeleid voor Windows 10 dat van toepassing is op alle gebruikers in uw organisatie.
-ms.openlocfilehash: 11c8f75f56a86895d7f81fc242490303c10ac24e
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: ad092d2b2760a55e16c44a66350626c90c9ac7c5
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575423"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38321359"
 ---
 # <a name="configure-windows-10-devices"></a>Windows 10-apparaten configureren
 
-Tijdens de installatie maken we een beleid voor apparaten voor Windows 10 dat geldt voor alle gebruikers in uw organisatie. Wanneer gebruikers zich met hun werk- of schoolaccount aanmelden bij een Office-app op hun Windows 10-apparaat, worden de door u geconfigureerde instellingen automatisch toegepast om te controleren of de gebruiker op een veilige manier verbinding maakt.
+Tijdens de installatie maakt u een apparaatbeleid voor Windows 10 dat van toepassing is op alle gebruikers in uw organisatie. Wanneer een gebruiker zich aanmeldt bij een Office-app op hun apparaat met Windows 10 met hun werk of school-account, worden de instellingen die u configureert automatisch toegepast om ervoor te zorgen dat de gebruiker verbinding maakt op een veilige manier.
   
-Het is raadzaam de standaardconfiguratie tijdens de installatie te accepteren. Na de installatie kunt u aanvullende beleidsregels opstellen en ze op specifieke groepen gebruikers afstemmen.
+Het is raadzaam de standaardconfiguratie tijdens de installatie te accepteren. Na de installatie u meer beleidsregels maken en deze targeten op specifieke groepen gebruikers.
   
 Zie [Apparaatconfiguraties voor Windows 10-pc's instellen](protection-settings-for-windows-10-pcs.md) voor informatie over het toevoegen van beleid voor het beheren van Windows 10-apparaatconfiguraties.
   

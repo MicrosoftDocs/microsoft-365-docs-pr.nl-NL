@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: Informatie over het maken, bewerken of verwijderen van een app-beheerbeleid en het beveiligen van werkbestanden op Android-of iOS-apparaten.
-ms.openlocfilehash: 914e6848ac46eb334516aadff2827da2b83a38c4
-ms.sourcegitcommit: 0fa897d06b664c0ed005817752da1426d4ee17cb
+ms.openlocfilehash: 2eebe5b603837d7e4125ab7e88b61792ca3a1e5d
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38002080"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38321840"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Instellingen voor app-beveiliging instellen voor Android- of iOS-apparaten
 
@@ -41,17 +41,17 @@ ms.locfileid: "38002080"
   
 3. Voer in het deelvenster **Beleid toevoegen** een unieke naam in voor dit beleid. 
     
-4. Kies onder **Type beleid** de optie **Toepassingsbeheer voor Android** of **Toepassingsbeheer voor iOS**, afhankelijk van de set beleidsregels die u wilt maken. 
+4. Onder **beleidstype**, kiest u **Toepassingsbeheer voor Android** of **Toepassingsbeheer voor IOS**, afhankelijk van welke set beleidsregels die u wilt maken. 
     
-5. Vouw **werkbestanden beveiligen wanneer apparaten zijn verloren of gestolen** en **beheren hoe gebruikers toegang hebben tot Office-bestanden op mobiele apparaten** \> Configureer de instellingen hoe u wilt. De **gebruikers toegang tot Office-bestanden op mobiele apparaten beheren** is standaard **uitgeschakeld** , **maar het is** raadzaam deze functie in te schakelen en de standaardwaarden te accepteren. Zie de [beschikbare instellingen](#available-settings) voor meer informatie. 
+5. Vouw **werkbestanden beveiligen wanneer apparaten zijn verloren of gestolen** en **beheren hoe gebruikers toegang hebben tot Office-bestanden op mobiele apparaten**. Configureer de instellingen zoals u dat wilt. **Beheren hoe gebruikers toegang hebben tot Office-bestanden op mobiele apparaten** is standaard **uitgeschakeld** , maar we raden **u aan deze** in te schakelen en de standaardwaarden te accepteren. Zie voor meer informatie, [beschikbare instellingen](#available-settings). 
     
     U kunt altijd de koppeling **Standaardwaarden herstellen** gebruiken om terug te keren naar de standaardinstelling. 
     
     ![Screenshot of Create a policy with Application management for Android selected](media/eabbe06d-ac0a-4f3a-8630-68c808b1e662.png)
   
-6. Bepaal nu **Voor wie zijn deze instellingen?** Als u niet de standaardbeveiligingsgroep **Alle gebruikers** wilt gebruiken, kiest u **Wijzigen**, zoekt u de beveiligingsgroep die deze instellingen krijgt \> **Selecteren**.
+6. Bepaal nu **Voor wie zijn deze instellingen?** Als u de standaard beveiligingsgroep **alle gebruikers** niet wilt gebruiken, kiest u **wijzigen**, kiest u de beveiligingsgroepen die deze instellingen \> krijgen **selecteren**.
     
-7. Kies ten slotte **Gereed** om het beleid op te slaan en dit toe te wijzen aan apparaten. 
+7. Kies ten slotte, **Klaar** om het beleid op te slaan en dit toe te wijzen aan apparaten. 
     
 ## <a name="edit-an-app-management-policy"></a>Beleid voor app-beheer bewerken
 
@@ -59,9 +59,9 @@ ms.locfileid: "38002080"
     
 2. Kies in het deelvenster **Beleid bewerken** het beleid dat u wilt wijzigen 
     
-3. Kies **Bewerken** naast elke instelling om de waarden in het beleid te wijzigen. Wanneer u een waarde wijzigt, wordt dit automatisch opgeslagen in het beleid 
+3. Kies **Bewerken** naast elke instelling om de waarden in het beleid te wijzigen. Wanneer u een waarde wijzigt, wordt deze automatisch opgeslagen in het beleid.
     
-4. Wanneer u klaar bent, sluit u het deelvenster **Beleid bewerken**. 
+4. Wanneer u klaar bent, sluit u het deelvenster **beleid bewerken** . 
     
 ## <a name="delete-an-app-management-policy"></a>Beleid voor app-beheer verwijderen
 
@@ -73,7 +73,7 @@ ms.locfileid: "38002080"
 
 De volgende tabellen geven gedetailleerde informatie over de beschikbare instellingen voor het beveiligen van werkbestanden op apparaten en de instellingen die bepalen hoe gebruikers toegang hebben tot Office-bestanden vanaf hun mobiele apparaten.
   
- Zie [How do protection features in Microsoft 365 Business map to Intune settings](map-protection-features-to-intune-settings.md) (Hoe beveiligingsfuncties in Microsoft 365 Business zijn toegewezen aan Intune-instellingen) voor meer informatie. 
+ Zie [Hoe beveiligingsfuncties in Microsoft 365 Business zijn toegewezen aan Intune-instellingen](map-protection-features-to-intune-settings.md) voor meer informatie. 
   
 ### <a name="settings-that-protect-work-files"></a>Instellingen voor het beveiligen van werkbestanden
 
@@ -82,23 +82,19 @@ De volgende instellingen zijn beschikbaar voor het beveiligen van werkbestanden 
 |||
 |:-----|:-----|
 |Instelling  <br/> |Beschrijving  <br/> |
-|Werkbestanden van een inactief apparaat verwijderen na zoveel dagen  <br/> |Als een apparaat niet het aantal dagen wordt gebruikt dat u hier opgeeft, worden werkbestanden die op het apparaat zijn opgeslagen, automatisch verwijderd.  <br/> |
-|Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven  <br/> |Als deze instelling is **ingeschakeld**, is OneDrive voor Bedrijven de enige beschikbare opslaglocatie voor werkbestanden.  <br/> |
-|Werkbestanden versleutelen  <br/> |Laat deze instelling **ingeschakeld** zodat werkbestanden worden beveiligd door versleuteling. Zelfs bij verlies of diefstal van het apparaat kan niemand de bedrijfsgegevens lezen.  <br/> |
+|Werkbestanden van een inactief apparaat verwijderen na zoveel dagen  <br/> |Als een apparaat niet wordt gebruikt voor het aantal dagen dat u hier opgeeft, worden alle werkbestanden die op het apparaat zijn opgeslagen, automatisch verwijderd.  <br/> |
+|Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven  <br/> |Als deze instelling is **ingeschakeld**, is de enige beschikbare opslaglocatie voor werkbestanden OneDrive voor bedrijven.  <br/> |
+|Werkbestanden versleutelen  <br/> |Laat deze instelling **ingeschakeld** zodat werkbestanden worden beveiligd door versleuteling. Zelfs als het apparaat is kwijtgeraakt of gestolen, kan niemand uw bedrijfsgegevens lezen.  <br/> |
    
-### <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>Instellingen waarmee wordt bepaald hoe gebruikers toegang hebben tot Office-bestanden op mobiele apparaten
+### <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>Instellingen die bepalen hoe gebruikers Office-bestanden op mobiele apparaten kunnen openen
 
 De volgende instellingen zijn beschikbaar om te bepalen hoe gebruikers toegang tot Office-werkbestanden hebben:
   
 |||
 |:-----|:-----|
 |Instelling  <br/> |Beschrijving  <br/> |
-|Een pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps  <br/> |Als deze instelling is **ingeschakeld**, moeten gebruikers een extra vorm van verificatie gebruiken, naast het verstrekken van gebruikersnaam en wachtwoord, voordat ze de Office-apps op hun mobiele apparaat kunnen gebruiken.  <br/> |
+|Een pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps  <br/> |Als deze instelling **op** gebruikers moet bieden een andere vorm van verificatie, naast hun gebruikersnaam en wachtwoord, voordat ze Office-apps op hun mobiele apparaten kunnen gebruiken.<br/> |
 |Pincode opnieuw instellen wanneer het aanmelden ... keer mislukt  <br/> |Om te voorkomen dat een niet-geautoriseerde gebruiker een pincode kan raden, wordt de pincode opnieuw ingesteld na het aantal door u opgegeven verkeerde aanmeldpogingen.  <br/> |
-|Vereisen dat gebruikers zich opnieuw aanmelden als Office-apps inactief zijn geweest gedurende  <br/> |Met deze instelling wordt bepaald hoelang gebruikers inactief kunnen zijn voordat hun wordt gevraagd zich opnieuw aan te melden.  <br/> |
+|Vereisen dat gebruikers zich opnieuw aanmelden als Office-apps inactief zijn geweest gedurende  <br/> |Deze instelling bepaalt hoe lang een gebruiker inactief kan zijn voordat deze wordt gevraagd om opnieuw aan te melden.  <br/> |
 |Toegang weigeren tot werkbestanden op jailbroken of geroote apparaten  <br/> |Slimme gebruikers hebben mogelijk een jailbroken of geroot apparaat. Dit betekent dat de gebruiker het besturingssysteem kan aanpassen, waardoor het apparaat gevoeliger zou kunnen worden voor malware. Deze apparaten worden geblokkeerd wanneer deze instelling is **ingeschakeld**.  <br/> |
 |Gebruikers toestaan om inhoud uit Office-apps te kopiëren naar persoonlijke apps  <br/> |Dit is standaard toegestaan, maar als de instelling **Aan** is, kan de gebruiker gegevens uit een werkbestand kopiëren naar een persoonlijk bestand. Als de instelling **Uit** is, kan de gebruiker geen gegevens uit een werkbestand kopiëren naar een persoonlijke app of persoonlijk account.  <br/> |
-   
-
-  
-
