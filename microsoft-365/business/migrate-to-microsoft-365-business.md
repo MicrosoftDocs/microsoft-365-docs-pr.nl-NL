@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Stappen die uw bedrijf upgraden van Office 365 Business Premium naar Microsoft 365 Business.
-ms.openlocfilehash: f3a25746cf123fa471c29084a62a6fcfc1542a02
-ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
+ms.openlocfilehash: 95c4504d7e6e33bdededee0cfca7add0cb5f7204
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231406"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38640556"
 ---
 # <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Upgrade naar Microsoft 365 Business vanaf Office 365 Business Premium
 
@@ -36,12 +36,12 @@ Als u een [abonnement op office 365 voor bedrijven](https://products.office.com/
 Lees meer over Microsoft 365 Business op [Microsoft.com](https://www.microsoft.com/microsoft-365/business)
 
 ## <a name="whats-the-difference-between-office-365-business-premium-and-microsoft-365-business"></a>Wat is het verschil tussen Office 365 Business Premium en Microsoft 365 Business?
-We hebben een side-by-side vergelijking van deze twee plannen toegevoegd aan de [Microsoft 365 Business servicebeschrijving](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description). 
+We hebben een side-by-side vergelijking van deze twee plannen toegevoegd aan de [Microsoft 365 Business Service Beschrijving](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description). 
 
 ## <a name="before-you-get-started"></a>Voordat u aan de slag gaat
 
-- **Wanneer moet ik een upgrade kiezen?** Upgrade is de juiste keuze wanneer u wilt upgraden van **alle gebruikers** die zijn toegewezen aan een enkel abonnement. Wanneer u kiest voor upgrade, worden alle gebruikers van het abonnement op hetzelfde moment overgeschakeld naar een ander abonnement. Als u niet wilt upgraden van iedereen die is toegewezen aan een enkel abonnement, licenties voor het nieuwe abonnement kopen (in dit geval Microsoft 365 Business) en [deze licenties afzonderlijk toewijzen](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users) aan elke gebruiker die u wilt upgraden. 
-- **Sommige invoegtoepassingen kunnen de upgrade verhinderen** Als u probeert een upgrade te starten en u hebt een invoeg versie die verhindert dat u doorgaat, u eerst de add-on verwijderen en deze later opnieuw toevoegen-als u deze nog nodig hebt. 
+- **Wanneer moet ik kiezen om te upgraden?** Upgrade is de juiste keuze wanneer u wilt upgraden van **alle gebruikers** die zijn toegewezen aan een enkel abonnement. Wanneer u kiest voor upgrade, worden alle gebruikers van het abonnement op hetzelfde moment overgeschakeld naar een ander abonnement. Als u niet wilt upgraden van iedereen die is toegewezen aan een enkel abonnement, licenties voor het nieuwe abonnement kopen (in dit geval Microsoft 365 Business) en [deze licenties afzonderlijk toewijzen](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users) aan elke gebruiker die u wilt upgraden. 
+- **Sommige invoegtoepassingen kunnen voorkomen dat de upgrade** Als u probeert een upgrade te starten en u hebt een invoeg versie die verhindert dat u doorgaat, u eerst de add-on verwijderen en deze later opnieuw toevoegen als u deze nog nodig hebt. 
 - **Als u uw abonnement vooruitbetaald** Er is geen eenvoudig upgradepad voor vooruitbetaalde plannen. U weet of u een prepaid-abonnement hebt omdat u uw abonnement hebt ingesteld met behulp van een product-ID die u mogelijk in een winkel hebt gekocht. Neem contact op met een partner, ga naar de Microsoft Store of wacht tot uw prepaid-abonnement verloopt om over te schakelen naar een nieuw abonnement.
 
 ## <a name="upgrade-to-microsoft-365-business"></a>Upgrade naar Microsoft 365 Business
@@ -56,12 +56,12 @@ Koop uw licenties door deze stappen te volgen in het [nieuwe Admin Center](https
       ![Een screenshot laat zien waar te selecteren upgrade in het Admin Center.](media/SelectUpgrade.png)
 
   > [!NOTE]
-  > Als u een bericht dat ' upgraden van uw abonnement wordt niet ondersteund met groepslicenties in azure Active Directory ' ziet, u dit veilig negeren, tenzij u een zeer grote organisatie hebt. Organisaties die deze optie hebben geselecteerd, zijn zich ervan bewust dat ze op groepen gebaseerde licenties gebruiken.
+  > Als u een bericht ziet dat het **upgraden van uw abonnement wordt niet ondersteund met groepslicenties in azure Active Directory**, u dit negeren, tenzij u een zeer grote organisatie hebt. Organisaties die deze optie hebben geselecteerd, zijn zich ervan bewust dat ze op groepen gebaseerde licenties gebruiken.
 
 4. Vervolgens u een lijst weergeven met Office-abonnementen waarop u een upgrade uitvoeren. Zoek in dit geval het Microsoft 365 business plan. U naar beneden scrollen als u wilt zien van alle Office-apps en services die zijn opgenomen in dit plan. Selecteer onder **Microsoft 365 Business**de optie **upgrade** om Microsoft 365 Business aan uw winkelwagentje toe te voegen.
 5. In de winkelwagen:
-    1. We nemen automatisch licenties op voor al uw huidige gebruikers in het winkelwagentje. Als u meer of minder licenties nodig hebt, moet u [deze licenties afzonderlijk aanschaffen en toewijzen](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users).  
-    2. U aanpassen hoe u wilt betalen-maandelijks of jaarlijks. Selecteer het vervolgkeuzemenu om uw keuze te maken.
+    1. We nemen automatisch licenties op voor al uw huidige gebruikers. Als u meer of minder licenties nodig hebt, moet u [deze licenties afzonderlijk aanschaffen en toewijzen](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users).  
+    2. U aanpassen hoe u wilt betalen: maandelijks of jaarlijks. Selecteer het vervolgkeuzemenu om uw keuze te maken.
 6. Selecteer **Ga naar afhandeling** waar je een overzicht van je aankoop ziet, inclusief de betalingsmethode voor dit account. U hier ook een promo code toevoegen als u er een hebt.
 7. Selecteer **bestelling plaatsen** om uw aankoop te voltooien.
 Het duurt enkele minuten voordat Microsoft uw nieuwe service plannen instelt. Als u de voortgang wilt controleren, selecteert u **Upgradestatus controleren**. 
@@ -96,6 +96,3 @@ Nu dat Microsoft 365 Business-licenties zijn toegewezen, voltooit u de stappen o
   - Zie [Windows-apparaten instellen voor Microsoft 365 zakelijke gebruikers](set-up-windows-devices.md) voor stappen voor Windows-apparaten. 
     
   - Zie [mobiele apparaten instellen voor Microsoft 365 zakelijke gebruikers](set-up-mobile-devices.md) voor stappen voor Android-telefoons en iPhones. 
-
-
-

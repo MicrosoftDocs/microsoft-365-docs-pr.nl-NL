@@ -1,5 +1,5 @@
 ---
-title: Vereisten voor het beschermen van gegevens op apparaten met Microsoft 365 Business
+title: Vereisten voor het beveiligen van gegevens op apparaten met Microsoft 365 Business
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -17,19 +17,19 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
-description: 'Ken de vereisten voor het instellen van uw organisatie met Microsoft 365 Business. '
-ms.openlocfilehash: 157abf0a3396ab374297441bf90d6defc4093390
-ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
+description: Ken de vereisten voor het instellen van uw organisatie met Microsoft 365 Business.
+ms.openlocfilehash: 874a85859e315ef17e10fdd8094860e1e6bf2560
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290525"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38640536"
 ---
-# <a name="pre-requisites-for-protecting-data-on-devices-with-microsoft-365-business"></a>Vereisten voor het beschermen van gegevens op apparaten met Microsoft 365 Business
+# <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-business"></a>Vereisten voor het beveiligen van gegevens op apparaten met Microsoft 365 Business
 
-De eerste stap bij het instellen van Microsoft 365 Business in uw organisatie is controleren of u aan de vereisten voldoet.
+De eerste stap bij het instellen van uw organisatie met Microsoft 365 Business is om ervoor te zorgen dat u aan de vereisten voldoen.
   
-## <a name="pre-requisites"></a>Vereisten
+## <a name="prerequisites"></a>Voorwaarden
 
 - Op Windows-apparaten moet Windows 7 Professional, Windows 8 Pro of Windows 8.1 Pro worden uitgevoerd.
     
@@ -37,13 +37,10 @@ De eerste stap bij het instellen van Microsoft 365 Business in uw organisatie is
     
     Als u Windows 10 Home gebruikt, moet u Windows 10 Pro **aanschaffen** . Zie [Windows 10 Home upgraden naar Windows 10 Pro](https://support.office.com/article/0aee10c1-4d34-43ee-a325-579c6c2df90e?ui=en-US&rs=en-US&ad=US) voor instructies. 
     
-- Verwijder apparaten uit beheeroplossingen voor mobiele apparaten (Mobile Iron, AirWatch, enzovoort). U schrijft alle personen in uw organisatie in bij het mobiele beheer van Microsoft 365 Business.
+- Verwijder apparaten uit mobiele beheeroplossingen (mobiel ijzer, AirWatch, enzovoort). U registreert alle mensen in uw organisatie in Microsoft 365 Business Mobile Management.
     
 - Apple iOS 8.0 en hoger.
     
-    Google Android 4.0 en hoger (inclusief Samsung KNOX Standard 4.0 en hoger). Zie [Intune supported devices](https://go.microsoft.com/fwlink/p/?linkid=852307) (Door Intune ondersteunde apparaten) voor meer informatie.
+    Google Android 4.0 en hoger (inclusief Samsung KNOX Standard 4.0 en hoger). Zie voor meer informatie, [intune ondersteunde apparaten](https://go.microsoft.com/fwlink/p/?linkid=852307).
     
-- Als u bestaande Office-toepassingen op de computers van gebruikers hebt, leest u [voorbereiden voor Office-clientinstallatie](prepare-for-office-client-deployment.md) voor informatie over de stappen die u mogelijk moet uitvoeren voordat u Microsoft 365 Business kunt instellen om Office 2016 op de computers van gebruikers te installeren. 
-    
-
-
+- Als u bestaande Office-toepassingen op gebruikers computers hebt, leest u [voorbereiden voor Office-clientinstallatie](prepare-for-office-client-deployment.md) om te begrijpen stappen die u mogelijk moet uitvoeren voordat u microsoft 365 Business instellen om Office 2016 te installeren op gebruikers computers. 
