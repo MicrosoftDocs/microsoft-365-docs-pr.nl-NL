@@ -23,19 +23,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
-description: Informatie over opnieuw instellen of wissen van een apparaat dat wordt beheerd via het beleid voor bescherming.
-ms.openlocfilehash: 78eff4b4d29ee5de6f773841cc77239f6acf0634
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Meer informatie over het resetten of wissen van een apparaat dat wordt beheerd via beveiligingsbeleid.
+ms.openlocfilehash: ef3b8ed0e3b3f8b9136d3929bce1b835309498c7
+ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074665"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38633324"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business"></a>Beveiligde apparaten beheren met Microsoft 365 voor Bedrijven
 
-Wanneer gebruikers een apparaat verbinden met uw organisatie door zich aan te melden met hun werkaccount bij het apparaat of bij Office-apps op het apparaat, kunnen we het apparaat beveiligen met het beleid dat u hebt ingesteld. Het beleid wordt dan weergegeven op de pagina **Apparaten**. Bij verlies of diefstal van een apparaat kunt u dat apparaat beheren vanaf deze pagina om de aanwezige bedrijfsgegevens te verwijderen. U kunt voor Windows 10-apparaten ook de fabrieksinstellingen terugzetten om alle aangepaste instellingen te wissen. Meer informatie over de taken die u kunt uitvoeren om apparaten te beheren, vindt u in deze artikelen: 
+Nadat een gebruiker zijn apparaat met uw organisatie verbindt door zich aan te melden met hun werkaccount op het apparaat of Office-apps op het apparaat, u het apparaat beveiligen met het beleid dat u hebt ingesteld. Aangesloten apparaten worden weergegeven op de pagina **apparaten** . Als een apparaat is kwijtgeraakt of wordt gestolen, u het vanaf deze pagina beheren om bedrijfsgegevens te verwijderen. U ook Windows 10-apparaten resetten naar hun fabrieksinstellingen om eventuele aangepaste instellingen te wissen. 
+
+Zie de volgende artikelen voor meer informatie over de taken die u gebruiken om apparaten te beheren: 
   
-[Bedrijfsgegevens verwijderen van apparaten](remove-company-data.md)
+[Bedrijfsgegevens van apparaten verwijderen](remove-company-data.md)
   
 [Fabrieksinstellingen terugzetten voor Windows 10-apparaten](reset-devices-to-factory-settings.md)
   

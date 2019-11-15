@@ -1,5 +1,5 @@
 ---
-title: Overzicht Microsoft 365 Business
+title: Overzicht van Microsoft 365 Business
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,21 +21,21 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Meer informatie over het instellen van Microsoft 365 Business.
-ms.openlocfilehash: 86af927c05168fabe5a72f331c14c9f3e5cbc1dd
-ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
+description: Meer informatie over Microsoft 365 Business.
+ms.openlocfilehash: 03e16c336a2d6d3d8ffd5875ed7419bba3c7e378
+ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038944"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38633394"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Overzicht van Microsoft 365 Business
 
 ## <a name="what-is-microsoft-365-business"></a>Wat is Microsoft 365 Business
 
-Microsoft 365 Business is een abonnementsservice met Office 365-productiviteitstools plus geavanceerde mogelijkheden om uw bedrijf te beschermen tegen cyberdreigingen, uw gegevens te beschermen en de apparaten te beheren.
+Microsoft 365 Business is een abonnementsservice met Office 365-productiviteitstools plus geavanceerde mogelijkheden om uw bedrijf te beschermen tegen cyberdreigingen, uw gegevens te beschermen en apparaten te beheren.
   
-Microsoft 365 Business is bedoeld voor maximaal 300 licenties. Als u meer licenties nodig hebt, raadpleegt u de documentatie voor [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) voor meer informatie.
+Microsoft 365 Business is bedoeld voor maximaal 300 licenties. Als u meer licenties nodig hebt, raadpleegt u de documentatie bij [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) voor meer informatie.
 
 Zie [Microsoft 365 Business servicebeschrijving](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) voor de volledige lijst met functies.
   
@@ -43,12 +43,12 @@ Zie [Microsoft 365 Business servicebeschrijving](https://docs.microsoft.com/offi
 
 Uw bedrijfsgegevens kunnen op vele manieren worden aangetast. U en uw gebruikers kunnen de beveiliging van uw organisatie in gevaar brengen wanneer u zich aanmeldt met gecompromitteerde referenties of organisatiegegevens weergeven op verschillende apparaten en toepassingen. Meer specifiek loopt uw organisatie gevaar:
 
-1. Gecompromitteerde of zwakke inloggegevens.
-2. Gecompromitteerde apparaat met een zwakke PIN of een gebruiker eigendom apparaat.
-3. Gebruikers die de gegevens van uw organisatie kunnen kopiëren/plakken/opslaan in persoonlijke apps.
-4. Gebruikers die 3<sup>RD</sup> -party-apps installeren en gebruiken met zwakke beveiliging.
-5. E-mail kwetsbaarheden, waaronder het delen van gevoelige gegevens, phishing-pogingen, malware, enz.
-6. Wanneer mensen die dat niet moeten doen, toegang hebben tot documenten met gevoelige informatie.
+- Gecompromitteerde of zwakke inloggegevens.
+- Gecompromitteerde apparaat met een zwakke PIN of een gebruiker eigendom apparaat.
+- Gebruikers die de gegevens van uw organisatie kunnen kopiëren/plakken/opslaan in persoonlijke apps.
+- Gebruikers die apps van derden installeren en gebruiken met zwakke beveiliging.
+- E-mail kwetsbaarheden, waaronder het delen van gevoelige gegevens, phishing-pogingen, malware, enzovoort.
+- Wanneer mensen die dat niet moeten doen, toegang hebben tot documenten met gevoelige informatie.
 
 Microsoft 365 Business helpt bij het beveiligen van uw gegevens in elk van deze gevallen. De beveiligingsfuncties die uw bedrijfsgegevens beschermen, worden gedetailleerd beschreven in de volgende afbeelding.
 
@@ -58,7 +58,7 @@ Microsoft 365 Business helpt bij het beveiligen van uw gegevens in elk van deze 
 
 Microsoft 365 Business helpt **bedreigingen te verdedigen** door:
 
-Het scannen van koppelingen in e-mails en documenten in real time om onveilige websites te blokkeren (ATP Safe links).
+- Koppelingen in e-mails en documenten in real-time scannen om onveilige websites te blokkeren (ATP Safe links).
 
 - Het uitvoeren van geavanceerde analyse van e-mailbijlagen in een sandbox-omgeving om nieuw ontwikkelde malware (ATP veilige bijlagen) te detecteren. 
 
@@ -66,23 +66,23 @@ Het scannen van koppelingen in e-mails en documenten in real time om onveilige w
 
 - Instellen van geavanceerde beleidsregels die toegang van niet-vertrouwde locaties uitschakelen of bypass multi factor Authentication van vertrouwde plaatsen zoals uw Office-netwerk (Azure MFA met inbegrip van vertrouwde IP-adressen en voorwaardelijke toegang). 
 
-- Handhaving van malware bescherming op alle Windows 10-apparaten van uw bedrijf en het beschermen van bestanden in belangrijke systeemmappen van wijzigingen die door Ransomware (Windows Defender)
+- Afdwingen van bescherming tegen malware op alle Windows 10-apparaten van uw organisatie en het beschermen van bestanden in belangrijke systeemmappen van wijzigingen die door Ransomware (Windows Defender)
 
 Uw **bedrijfsgegevens worden beschermd** door:
 
 - Met behulp van automatische detectie om te voorkomen dat gevoelige informatie zoals sociale-zekerheids nummers of creditcards buiten uw bedrijf lekt (preventie van gegevensverlies). 
 
-- Versleutelen van gevoelige e-mails, zodat u veilig met klanten of andere mensen buiten uw bedrijf communiceren, ervoor te zorgen dat alleen de beoogde ontvanger het bericht kan lezen (Office 365 bericht versleuteling).
+- Gevoelige e-mails versleutelen, zodat u veilig communiceren met klanten of andere mensen buiten uw organisatie. Dit zorgt ervoor dat alleen de beoogde geadresseerde het bericht kan lezen (Office 365 bericht versleuteling).
 
 - Beheren wie toegang tot bedrijfsgegevens heeft door beperkingen toe te passen, zoals **niet kopiëren** en **niet doorsturen** naar E-mail en documenten (Azure Information Protection, plan 1).
 
-- Onbeperkte Cloud archivering mogelijk maken, zodat u alle e-mails van uw bedrijf behouden, inclusief de postvakken van voormalige werknemers (Exchange Online-archivering).
+- Onbeperkte Cloud archivering inschakelen zodat u alle e-mails van uw organisatie bewaren, inclusief de postvakken van voormalige werknemers (Exchange Online-archivering).
 
 Uw **apparaten worden beveiligd** door:
 
-- Bepalen welke apparaten en gebruikers toegang hebben tot uw Office 365-gegevens; met opties om te voorkomen dat gebruikers zich aanmelden vanaf thuiscomputers, niet-goedgekeurde apps of buitenwerk uren (voorwaardelijke toegang).
+- Bepalen welke apparaten en gebruikers toegang hebben tot uw Office 365-gegevens, met opties om te voorkomen dat gebruikers zich aanmelden vanaf thuiscomputers, niet-goedgekeurde apps of buiten de werkuren (voorwaardelijke toegang).
 
-- Beveiligingsbeleid toepassen om bedrijfsgegevens op iOS-en Android-apparaten te beschermen.  U bijvoorbeeld vereisen dat gebruikers een pincode of vingerafdruk opgeven voor toegang tot bedrijfsgegevens en gegevens coderen op mobiele apparaten (app-beveiliging voor mobiele Office-apps).
+- Beveiligingsbeleid toepassen om bedrijfsgegevens op iOS-en Android-apparaten te beschermen. U bijvoorbeeld vereisen dat gebruikers een pincode of vingerafdruk opgeven voor toegang tot bedrijfsgegevens en gegevens coderen op mobiele apparaten (app-beveiliging voor mobiele Office-apps).
 
 - Zakelijke documenten, e-mails en andere gegevens in goedgekeurde Office Mobile-apps bewaren en voorkomen dat werknemers deze opslaan op niet-geautoriseerde apps en locaties (app-beveiliging voor mobiele Office-apps).
 
@@ -94,7 +94,7 @@ Zie [Microsoft 365 zakelijke beveiligingsfuncties](security-features.md)voor de 
 
 ## <a name="get-microsoft-365-business"></a>Microsoft 365 Business kopen
 
-- Als u een partner hebt, ontvangt deze Microsoft 365 Business: [Microsoft 365 Business verkrijgen via Microsoft Partner Center](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
+- Als u een partner hebt, krijgen ze Microsoft 365 Business: [Microsoft 365 Business ophalen bij Microsoft Partner Center](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
 
 - Als u geen partner hebt en Microsoft 365 Business wilt krijgen, u deze [hier kopen](https://www.microsoft.com/microsoft-365/business) en de [aanmeld](sign-up.md) instructies volgen.
 

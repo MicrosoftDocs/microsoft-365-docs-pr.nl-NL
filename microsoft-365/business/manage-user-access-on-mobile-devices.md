@@ -22,17 +22,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
-description: Meer informatie over bescherming beleid waarmee beveiligde toegang tot Office apps vanaf mobiele apparaten.
-ms.openlocfilehash: cade979635dd5d4a618537d544a7a76ef64a2963
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Meer informatie over beveiligingsbeleid dat kan helpen bij het beveiligen van toegang tot Office-apps vanaf mobiele apparaten.
+ms.openlocfilehash: c24dae7e0eea777e728ebead9a2abcc3785763dd
+ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34071525"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38633344"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>Beheren hoe gebruikers Office-documenten op mobiele apparaten openen
 
- Beleidsinstellingen die bepalen hoe gebruikers toegang hebben tot Office-bestanden op hun mobiele apparaten zijn standaard **uitgeschakeld**. Het is raadzaam dat u de standaardwaarden tijdens de installatie accepteert om beleid voor toepassingen voor Android, iOS en Windows 10 te maken die voor alle gebruikers gelden. Nadat de installatie is voltooid, kunt u meer beleidsregels maken. 
+ Beleidsinstellingen die bepalen hoe gebruikers toegang hebben tot Office-bestanden op hun mobiele apparaten zijn standaard **uitgeschakeld**. We raden u aan de standaardwaarden tijdens de installatie te accepteren om toepassings beleidsregels te maken voor Android, iOS en Windows 10 die van toepassing zijn op alle gebruikers. Nadat de installatie is voltooid, kunt u meer beleidsregels maken. 
   
 ## <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>Instellingen die bepalen hoe gebruikers Office-bestanden op mobiele apparaten kunnen openen
 
@@ -41,10 +41,10 @@ De volgende instellingen zijn beschikbaar om te bepalen hoe gebruikers toegang t
 |||
 |:-----|:-----|
 |Instelling  <br/> |Beschrijving  <br/> |
-|Een pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps  <br/> |Als deze instelling is **ingeschakeld**, moeten gebruikers een extra vorm van verificatie gebruiken, naast het verstrekken van gebruikersnaam en wachtwoord, voordat ze de Office-apps op hun mobiele apparaat kunnen gebruiken.  <br/> |
+|Een pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps  <br/> |Als deze instelling is **ingeschakeld**, moeten gebruikers naast hun gebruikersnaam en wachtwoord nog een andere vorm van verificatie opgeven voordat ze Office-apps op hun mobiele apparaat kunnen gebruiken.  <br/> |
 |Pincode opnieuw instellen wanneer het aanmelden ... keer mislukt  <br/> |Om te voorkomen dat een niet-geautoriseerde gebruiker een pincode kan raden, wordt de pincode opnieuw ingesteld na het aantal door u opgegeven verkeerde aanmeldpogingen.  <br/> |
-|Vereisen dat gebruikers zich opnieuw aanmelden als Office-apps inactief zijn geweest gedurende  <br/> |Met deze instelling wordt bepaald hoelang gebruikers inactief kunnen zijn voordat hun wordt gevraagd zich opnieuw aan te melden.  <br/> |
-|Toegang weigeren tot werkbestanden op jailbroken of geroote apparaten  <br/> |Slimme gebruikers hebben mogelijk een jailbroken of geroot apparaat. Dit betekent dat de gebruiker het besturingssysteem kan aanpassen, waardoor het apparaat gevoeliger zou kunnen worden voor malware. Deze apparaten worden geblokkeerd wanneer deze instelling is **ingeschakeld**.  <br/> |
-|Niet toestaan dat gebruikers inhoud kopiëren vanuit Office apps naar persoonlijke apps  <br/> |Wanneer de instelling **ingeschakeld is**, kan de gebruiker informatie in een werkbestand naar een bestand met persoonlijke kopiëren. Als de instelling **uitgeschakeld is**, kan de gebruiker gegevens kopiëren uit een werkbestand naar een persoonlijke app of een persoonlijke account.  <br/> |
+|Vereisen dat gebruikers zich opnieuw aanmelden als Office-apps inactief zijn geweest gedurende  <br/> |Deze instelling bepaalt hoe lang een gebruiker inactief kan zijn voordat deze wordt gevraagd om opnieuw aan te melden.  <br/> |
+|Toegang weigeren tot werkbestanden op jailbroken of geroote apparaten  <br/> |Slimme gebruikers hebben mogelijk een jailbroken of geroot apparaat. Dit betekent dat de gebruiker het besturingssysteem kan wijzigen, waardoor het apparaat gevoeliger kan zijn voor malware. Deze apparaten worden geblokkeerd wanneer deze instelling is **ingeschakeld**.  <br/> |
+|Gebruikers niet toestaan inhoud van Office-apps naar persoonlijke apps te kopiëren  <br/> |Wanneer de instelling is **ingeschakeld**, kan de gebruiker geen gegevens in een werkbestand naar een persoonlijk bestand kopiëren. Als de instelling is **uitgeschakeld**, kan de gebruiker gegevens uit een werkbestand kopiëren naar een persoonlijke app of persoonlijk account.  <br/> |
    
 

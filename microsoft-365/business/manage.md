@@ -18,21 +18,21 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: Leer hoe u Microsoft 365 Business-gerelateerde beheertaken, mobiele apparaten, Windows 10 STKS en vele dergelijke taken beheren.
-ms.openlocfilehash: 1e39adad50688686ef1d03ef7ed51534e067e6b3
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+description: Leer hoe u Microsoft 365 Business-gerelateerde beheertaken, mobiele apparaten, Windows 10-Pc's en veel dergelijke taken beheren.
+ms.openlocfilehash: ee1c856c6c0005842df8b3581a602dd539490bea
+ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575953"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38633304"
 ---
 # <a name="manage-microsoft-365-business"></a>Microsoft 365 Business beheren
 
 ## <a name="general-microsoft-365-business-admin-tasks"></a>Algemene Microsoft 365 Business-beheertaken
 
-Het merendeel van de [admin-inhoud](/Office365/Admin/admin-home.md) voor Office 365 voor bedrijven geldt ook voor microsoft 365 Business.
+De meeste [beheer inhoud](/Office365/Admin/admin-home.md) voor Office 365 voor bedrijven is ook van toepassing op microsoft 365 Business.
 
-- [Extra gebruikers toevoegen aan Microsoft 365 Business](add-users-m365b.md)
+- [Meer gebruikers toevoegen aan Microsoft 365 Business](add-users-m365b.md)
     
 - [Beleid en apparaten weergeven](view-policies-and-devices.md)
     
@@ -40,7 +40,7 @@ Het merendeel van de [admin-inhoud](/Office365/Admin/admin-home.md) voor Office 
     
 - [Hoe beveiligingsfuncties in Microsoft 365 Business zijn toegewezen aan Intune-instellingen](map-protection-features-to-intune-settings.md)
     
-Zie de volgende secties voor meer informatie over het gebruik van Microsoft 365 Business om de gegevens van uw organisatie op pc's en mobiele apparaten te beschermen.
+Zie de volgende secties over het gebruik van Microsoft 365 Business om de gegevens van uw organisatie op Pc's en mobiele apparaten te beveiligen.
   
 ## <a name="manage-mobile-devices"></a>Mobiele apparaten beheren
 
@@ -48,7 +48,7 @@ Zie de volgende secties voor meer informatie over het gebruik van Microsoft 365 
     
 - [Instellingen voor app-beveiliging instellen voor Android- of iOS-apparaten](app-protection-settings-for-android-and-ios.md)
     
-    Zie [app-beveiligingsinstellingen valideren op een Android-of IOS-apparaat](validate-settings-on-android-or-ios.md) om te controleren of dit werkt. 
+    Zie [app-beveiligingsinstellingen valideren op een Android-of IOS-apparaat](validate-settings-on-android-or-ios.md)om ervoor te zorgen dat dit werkt. 
     
 - [Bedrijfsgegevens van apparaten verwijderen](remove-company-data.md)
     
@@ -62,11 +62,11 @@ Zie de volgende secties voor meer informatie over het gebruik van Microsoft 365 
     
 - [Apparaatconfiguraties instellen voor Windows 10-pc's](protection-settings-for-windows-10-pcs.md)
     
-    Zie [Validate device protection settings on Windows 10 devices](validate-settings-on-windows-10-pcs.md) (Apparaatconfiguraties valideren op Windows 10-apparaten) om te controleren of dit heeft gewerkt. 
+    Zie [apparaatbeveiligings instellingen op Windows 10-apparaten valideren](validate-settings-on-windows-10-pcs.md)om ervoor te zorgen dat dit werkt. 
     
 - [Instellingen voor toepassingsbeveiliging instellen voor Windows 10-apparaten](protection-settings-for-windows-10-devices.md)
     
-    Zie [Validate app protection settings on Windows 10 PCs](validate-protection-settings-on-windows-10-pcs.md) (Appconfiguraties valideren op Windows 10-pc's) om te controleren of dit heeft gewerkt. 
+    Zie [app-beveiligingsinstellingen op pc's met Windows 10 valideren](validate-protection-settings-on-windows-10-pcs.md)om ervoor te zorgen dat dit werkt. 
     
 - [Bedrijfsgegevens van apparaten verwijderen](remove-company-data.md)
     
@@ -88,9 +88,9 @@ In de volgende onderwerpen wordt beschreven hoe u Windows AutoPilot in Microsoft
     
 - [Info over AutoPilot-profielinstellingen](autopilot-profile-settings.md)
     
-## <a name="set-up-and-pre-requisite-information"></a>Informatie over instellen en vereisten
+## <a name="set-up-and-prerequisite-information"></a>Instellen en vereiste informatie
 
-- [Vereisten voor het beschermen van gegevens op apparaten met Microsoft 365 Business](pre-requisites-for-data-protection.md)
+- [Vereisten voor het beveiligen van gegevens op apparaten met Microsoft 365 Business](pre-requisites-for-data-protection.md)
     
 - [Microsoft 365 Business instellen met de wizard Setup](set-up.md)
     
@@ -98,8 +98,4 @@ In de volgende onderwerpen wordt beschreven hoe u Windows AutoPilot in Microsoft
     
 - [Toestaan dat aan een domein toegevoegde Windows 10-apparaten door Microsoft 365 Business worden beheerd](manage-windows-devices.md)
     
-[Aanvullende beveiligings functies](security-features.md#additional-security-features)
-    
-
-  
-
+- [Aanvullende beveiligings functies](security-features.md#additional-security-features)
