@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
 description: Leer hoe u Microsoft 365 Business-gerelateerde beheertaken, mobiele apparaten, Windows 10-Pc's en veel dergelijke taken beheren.
-ms.openlocfilehash: ee1c856c6c0005842df8b3581a602dd539490bea
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+ms.openlocfilehash: 77b8757d9e6ab644b16e97ff20f50c0ce3123088
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633304"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675963"
 ---
 # <a name="manage-microsoft-365-business"></a>Microsoft 365 Business beheren
 
 ## <a name="general-microsoft-365-business-admin-tasks"></a>Algemene Microsoft 365 Business-beheertaken
 
-De meeste [beheer inhoud](/Office365/Admin/admin-home.md) voor Office 365 voor bedrijven is ook van toepassing op microsoft 365 Business.
+De meeste [beheer inhoud](https://docs.microsoft.com/office365/admin/admin-home) voor Office 365 voor bedrijven is ook van toepassing op microsoft 365 Business.
 
 - [Meer gebruikers toevoegen aan Microsoft 365 Business](add-users-m365b.md)
     
@@ -55,9 +55,7 @@ Zie de volgende secties over het gebruik van Microsoft 365 Business om de gegeve
 ## <a name="manage-windows-10-pcs"></a>Windows 10-pc's beheren
 
 - [Windows-apparaten instellen voor gebruikers van Microsoft 365 Business](set-up-windows-devices.md)
-    
-- [Office automatisch installeren op of verwijderen van Windows 10-apparaten](auto-install-or-uninstall-office.md)
-    
+
     Lees [Voorbereiden van implementatie van Office-client door Microsoft 365 Business](prepare-for-office-client-deployment.md) voordat u Office automatisch installeert. 
     
 - [Apparaatconfiguraties instellen voor Windows 10-pc's](protection-settings-for-windows-10-pcs.md)

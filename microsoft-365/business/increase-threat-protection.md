@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Stel de geavanceerde Bedreigingsbeveiliging van Office 365 in en beveilig gevoelige gegevens.
-ms.openlocfilehash: 00a40ceb6d51add2ebe8cc7ca4c299fe07a10b89
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: bca5400a04ca2986496c4a704289474887eb834b
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38320103"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676003"
 ---
 # <a name="increase-threat-protection"></a>Verhoog de bescherming tegen dreigingen
 
@@ -86,7 +86,7 @@ Een regel voor e-mail transport maken:
    
 Zie voor meer informatie:
   
-- [Hoe om te gaan met Ransomware](https://go.microsoft.com/fwlink/?linkid=2016501&amp;clcid=0x409)
+- [Hoe om te gaan met Ransomware](https://go.microsoft.com/fwlink/?linkid=2016501)
     
 - [Uw OneDrive herstellen](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15.aspx)
 
@@ -178,7 +178,7 @@ Als u een ATP Safe Attachment-beleid wilt maken, bekijkt u [deze korte video](ht
 |Omleidings bijlage bij detectie  <br/> |Omleiding inschakelen (Schakel dit selectievakje in) Voer de beheerdersaccount of een postbus instellen voor quarantaine in.          De bovenstaande selectie toepassen als het scannen van malware voor bijlagen een time-out of fout optreedt (Selecteer dit vak).  <br/> |
 |Toegepast op  <br/> |Het domein van de geadresseerde is. . . Selecteer uw domein.  <br/> |
    
-Zie voor meer informatie, [Office 365 ATP anti-phishing-beleid instellen](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409).
+Zie voor meer informatie, [Office 365 ATP anti-phishing-beleid instellen](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
   
 
 
