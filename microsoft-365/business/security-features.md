@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Informatie over de beveiligingsfuncties die bij Microsoft 365 Business worden geleverd.
-ms.openlocfilehash: 5e295480b1a578ca26646a89d6a0a4183a15428d
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: f24836ef93c529eddc05c767d6e4fa8af6aef314
+ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031440"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38715137"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 zakelijke beveiligings-en compliancefuncties
 
@@ -33,14 +33,13 @@ Microsoft 365 Business biedt vereenvoudigde beveiligingsfuncties om uw gegevens 
     
 ## <a name="microsoft-365-business-admin-center-security-features"></a>Beveiligingsfuncties van Microsoft 365 Business Admin Center
 
-[![Label om u te laten weten dat het Admin Center is aan het veranderen en u meer informatie vinden op aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 U veel van de Microsoft 365 Business Security-functies beheren in het Admin Center, waarmee u een vereenvoudigde manier om deze functies in of uit te schakelen. In het Admin Center u het volgende doen:
   
-  
 - [Instellingen voor toepassingsbeheer instellen voor Android-of IOS-apparaten](app-protection-settings-for-android-and-ios.md) . 
     
-    Deze instellingen omvatten het verwijderen van bestanden van een inactief apparaat na een bepaalde periode, het versleutelen van werkbestanden, vereisen dat gebruikers een pincode instellen, enz.
+    Deze instellingen omvatten het verwijderen van bestanden van een inactief apparaat na een bepaalde periode, het versleutelen van werkbestanden, vereisen dat gebruikers een pincode instellen, enzovoort.
     
 - [Instellingen voor toepassingsbeveiliging instellen voor Windows 10-apparaten](protection-settings-for-windows-10-devices.md) . 
     
@@ -72,10 +71,10 @@ Geavanceerde functies in Microsoft 365 Business zijn beschikbaar om u te helpen 
 
 - **[De volledige mogelijkheden van intune in azure Portal](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
-    Toegang tot het intune-Beheercentrum in azure Portal stelt u in staat extra beveiligingsfuncties in te stellen, zoals het beheer van MacOS-apparaten, iPhone-en Android-apparaten, samen met Geavanceerd Apparaatbeheer voor Windows, die niet beschikbaar zijn via Microsoft 365 Business Admin Center.
+    Toegang tot het intune Admin Center in azure Portal u aanvullende beveiligingsfuncties, zoals het beheer van MacOS-apparaten, iPhone en Android-apparaten, samen met geavanceerde Apparaatbeheer voor Windows, die niet beschikbaar zijn via Microsoft instellen 365 Business Admin Center.
 - **Dezelfde [voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) als Azure AD P1-abonnement**
 
-    Voorwaardelijke toegang kan helpen uw organisatie te beschermen tegen aanmeldingsrisico, toegang tot pogingen van een onverwacht netwerk of locale, toegangspogingen vormen riskante apparaattypen, enzovoort. Beleid voor voorwaardelijke toegang worden afgedwongen nadat de eerste verificatie is voltooid en maakt gebruik van signalen van de eerste verificatie gebeurtenis om te bepalen of de poging tot toegang moet worden goedgekeurd, weigert of f meer bewijs (zoals tweede vorm van identificatie) is Vereist.
+    Voorwaardelijke toegang kan helpen uw organisatie te beschermen tegen aanmeldingsrisico, toegang tot pogingen van een onverwacht netwerk of locale, toegang tot pogingen van riskante apparaattypen, enzovoort. Beleid voor voorwaardelijke toegang worden afgedwongen nadat de eerste verificatie is voltooid en maakt gebruik van signalen van de eerste verificatie gebeurtenis om te bepalen of de poging tot toegang moet worden goedgekeurd, geweigerd of meer bewijs (zoals de tweede vorm van identificatie) is vereist.
 
     De functies voor voorwaardelijke toegang zijn:
 
@@ -85,7 +84,7 @@ Geavanceerde functies in Microsoft 365 Business zijn beschikbaar om u te helpen 
     - MFA vereisen voor toegang
     - Toegang tot apps blokkeren die gebruikmaken van [verouderde verificatie](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication)
     - Apps vereisen TP gebruik [intune app Protection](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
-    - Aangepaste verificatie, zoals MFA met derden-providers, bijvoorbeeld DUO.
+    - Aangepaste verificatie zoals MFA met externe providers, bijvoorbeeld DUO.
    
     Andere functies:
     - [Self-service voor wachtwoordherstel](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-customization) voor hybride Azure AD
@@ -96,7 +95,7 @@ Uw Microsoft 365 Business-abonnement bevat functies waarmee u nalevings-en regel
 
 - **[Overzicht van beleid voor preventie van gegevensverlies](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)** (DLP). 
     
-    U DLP instellen om automatisch gevoelige informatie te detecteren, zoals creditcardnummers, sociale-zekerheids nummers, enzovoort, om te voorkomen dat ze onbedoeld worden gedeeld buiten uw bedrijf.
+    U DLP instellen om automatisch gevoelige informatie, zoals creditcardnummers, sociale-zekerheids nummers, enzovoort, te detecteren om te voorkomen dat ze onbedoeld worden gedeeld buiten uw bedrijf.
     
 - **[Exchange Online Archiving](https://products.office.com/exchange/microsoft-exchange-online-archiving-email)**
     
@@ -104,7 +103,7 @@ Uw Microsoft 365 Business-abonnement bevat functies waarmee u nalevings-en regel
     
 - **[Gevoeligheidslabels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
 
-   Microsoft 365 Business bevat alle functies van [Azure Information Protection Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407). Met dit plan u **gevoeligheidslabels**maken, waarmee u de toegang tot gevoelige informatie in e-mail en documenten met besturingselementen zoals niet doorsturen en niet kopiëren. beheren. U gevoelige informatie ook classificeren als ' vertrouwelijk ' en opgeven hoe gerubriceerde informatie kan worden gedeeld buiten en binnen het bedrijf. Versleuteling op ondernemingsniveau is eenvoudig toe te passen op e-mail en documenten om uw informatie privé te houden. U ook de Azure Information Protection-Client-invoegtoepassingen voor Office-apps installeren. Zie voor meer informatie, [Azure Information Protection Unified labelen client](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). Voor gevoeligheids labels installeert u de **AzInfoProtection_UL. exe**.
+   Microsoft 365 Business bevat alle functies van [Azure Information Protection Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407). Met dit plan u **gevoeligheidslabels** maken waarmee u de toegang tot gevoelige informatie in e-mail en documenten, met besturingselementen zoals ' niet doorsturen ' en ' niet kopiëren ' beheren. U gevoelige informatie ook classificeren als ' vertrouwelijk ' en opgeven hoe gerubriceerde informatie kan worden gedeeld buiten en binnen het bedrijf. Versleuteling op ondernemingsniveau is eenvoudig toe te passen op e-mail en documenten om uw informatie privé te houden. U ook de Azure Information Protection-Client-invoegtoepassingen voor Office-apps installeren. Zie voor meer informatie, [Azure Information Protection Unified labelen client](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). Voor gevoeligheids labels installeert u de **AzInfoProtection_UL. exe**.
 
 U deze functies beheren in het Security &amp; compliance Center en het intune Admin Center. Na verloop van tijd zullen de vereenvoudigde besturingselementen worden toegevoegd aan het Microsoft 365 Business Admin Center.
   
