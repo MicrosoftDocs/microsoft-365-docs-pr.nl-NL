@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Stel de geavanceerde Bedreigingsbeveiliging van Office 365 in en beveilig gevoelige gegevens.
-ms.openlocfilehash: bca5400a04ca2986496c4a704289474887eb834b
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: 87a5c79636a2eefe394b4a30e72971eb851e3ecb
+ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676003"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38704070"
 ---
 # <a name="increase-threat-protection"></a>Verhoog de bescherming tegen dreigingen
 
@@ -233,4 +233,4 @@ Zie voor meer informatie, [Office 365 ATP veilige koppelingen](https://go.micros
 
 3. Zodra de resultaten worden weergegeven, selecteert u de start naast **Microsoft intune** om het een favoriet te maken en later gemakkelijk te vinden.
 
-Naast het Beheercentrum u intune gebruiken om de apparaten van uw organisatie in te schrijven en te beheren. Zie [mogelijkheden per inschrijvingsmethode voor Windows-apparaten](https://docs.microsoft.com/intune/enrollment-method-capabs) en [inschrijvingsopties voor apparaten die worden beheerd door intune](https://docs.microsoft.com/intune/enrollment-options)voor meer informatie.
+Naast het Beheercentrum u intune gebruiken om de apparaten van uw organisatie in te schrijven en te beheren. Zie [mogelijkheden per inschrijvingsmethode voor Windows-apparaten](https://docs.microsoft.com/intune/enrollment/enrollment-method-capab) en [inschrijvingsopties voor apparaten die worden beheerd door intune](https://docs.microsoft.com/intune/enrollment-options)voor meer informatie.

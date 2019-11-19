@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie over het instellen van Microsoft 365 Business.
-ms.openlocfilehash: 5986e3fb7786ebb3fa7bcf42b34345be98af44a2
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+ms.openlocfilehash: f269e970cc1ee5ba7455ea799b238db577116f09
+ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633424"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38704110"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Aan de slag met Microsoft 365 Business
 
@@ -80,7 +80,6 @@ Als uw organisatie gebruikmaakt van on-premises Windows Server Active Directory,
   
 Als u een lokale Active Directory met bepaalde on-premises resources (zoals bestandsshares en printers) bewaart, u uw **Azure AD-gekoppelde apparaten** toegang geven tot deze resources door de stappen hier: [toegang tot on-premises resources van een Azure AD gekoppelde apparaat in Microsoft 365 Business](access-resources.md).
   
-Nadat u Windows 10-Pc's hebt ingesteld, u [Office automatisch](auto-install-or-uninstall-office.md) op de apparaten installeren. 
   
 ## <a name="contact-support"></a>Neem contact op met ondersteuning.
 
