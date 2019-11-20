@@ -1,5 +1,5 @@
 ---
-title: Overzicht van de set-up
+title: Overzicht van instellingen
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -22,24 +22,23 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Overzicht van de stappen voor het instellen van Microsoft 365 Business.
-ms.openlocfilehash: 3e1cf240db673a7b961ec8aa574f3e09efee476b
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+description: Overzicht van de installatie stappen voor Microsoft 365 Business.
+ms.openlocfilehash: 3447f06d031462a7bebc6f129238de9f0c5dee41
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676023"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38721554"
 ---
 # <a name="overview-of-setup"></a>Overzicht van instellingen
 
-De meeste instellingsstappen kunnen worden uitgevoerd in de instelwizard, maar de andere opties worden ook weergegeven.
-
+De meeste installatie stappen kunnen worden uitgevoerd in de installatiewizard, maar de andere opties worden ook weergegeven.
 
 ## <a name="step-1-add-your-domain-and-users"></a>Stap 1: Voeg uw domein en gebruikers toe
 
    - **[Voeg uw domein toe](set-up.md#add-your-domain-to-personalize-sign-in)** (als u uw domein heeft gekocht tijdens het [Aanmelden](sign-up.md), is deze stap al gedaan.)
 
-    - **Gebruikers toevoegen**. U dit op de volgende drie manieren doen:
+    - **Gebruikers toevoegen**. U op de volgende drie manieren gebruikers toevoegen:
         - In de [wizard](set-up.md#add-users-in-the-wizard).
         - Gebruik adreslijstsynchronisatie om [gebruikers toe te voegen met behulp van Azure AD Connect](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) als u een on-premises Active Directory hebt.
         - U ook [gebruikers later toevoegen](add-users-m365b.md) in het Admin Center.
@@ -68,14 +67,14 @@ De meeste instellingsstappen kunnen worden uitgevoerd in de instelwizard, maar d
    - Windows 10 Pro is een [vereiste](pre-requisites-for-data-protection.md) voor microsoft 365 Business, maar als u Windows 7 Pro, Windows 8 Pro of Windows 8,1 Pro hebt, geeft uw abonnement u recht op een [upgrade naar Windows 10 Pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
     - Gebruik de [installatiewizard](set-up.md#protect-data-and-devices) om beleid voor Windows 10-apparaten te configureren.
 
-## <a name="stes-4-install-office-365-business"></a>Stes 4: Installeer Office 365 Business
+## <a name="step-4-install-office-365-business"></a>Stap 4: Installeer Office 365 Business
 - U Office op de Windows-apparaten automatisch installeren met behulp van de [wizard Setup](set-up.md#deploy-office-365-client-apps).
 - Laat gebruikers [Office-apps](https://docs.microsoft.com/office365/admin/setup/install-applications) voor Windows en apparaten installeren.
      
 ## <a name="advanced"></a>Geavanceerde
 - **Autopilot gebruiken om nieuwe apparaten in te stellen**
             
-     U [Windows Autopilot](add-autopilot-devices-and-profile.md) gebruiken voor het automatisch vooraf configureren van **nieuwe** Windows 10-apparaten voor een gebruiker, maar het is misschien gemakkelijker om een [partner](https://www.microsoft.com/solution-providers/search) die dit voor u kan doen. U ook naar de [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=874598) gaan en een cloudtechnologie-expert vragen nieuwe apparaten in te stellen die u voor u aanschaft.
+     U [Windows Autopilot](add-autopilot-devices-and-profile.md) gebruiken voor het automatisch vooraf configureren van **nieuwe** Windows 10-apparaten voor een gebruiker, maar het is misschien gemakkelijker om een [partner](https://www.microsoft.com/solution-providers/search) die dit voor u kan doen. U ook naar de [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=874598)gaan en een cloudtechnologie-expert vragen om nieuwe apparaten in te stellen die u aanschaft.
 
 - **Toegang tot on-premises bronnen**
 

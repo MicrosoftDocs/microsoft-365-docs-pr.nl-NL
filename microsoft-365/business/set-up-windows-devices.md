@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Meer informatie over het instellen van Windows-apparaten met Windows 10 Pro voor Microsoft 365 zakelijke gebruikers. '
-ms.openlocfilehash: 7b6fa2ce3243500c3ddcff7883fa9d8da27dcf86
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: f929c64b00e4ebf24e9f82fcfea433119abf2f1c
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575563"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718864"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Windows-pc's instellen voor gebruikers van Microsoft 365 Business
 
@@ -41,7 +41,7 @@ Zie [controleren of het apparaat is verbonden met Azure AD](#verify-the-device-i
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10-apparaten koppelen aan Azure AD van uw organisatie
 
-Wanneer voor alle Windows-apparaten in uw organisatie een upgrade is uitgevoerd naar Windows 10 Pro makersupdate of als daarop Windows 10 Pro makersupdate al wordt uitgevoerd, kunt deze apparaten koppelen aan Azure Active Directory van uw organisatie. Als de apparaten eenmaal zijn gekoppeld, worden deze automatisch bijgewerkt naar Windows 10 Business, dat deel uitmaakt van het abonnement op Microsoft 365 Business.
+Wanneer alle Windows-apparaten in uw organisatie zijn bijgewerkt naar Windows 10 Pro Creators update of al Windows 10 Pro Creators update worden uitgevoerd, u deze apparaten toevoegen aan Azure Active Directory van uw organisatie. Zodra de apparaten zijn samengevoegd, worden ze automatisch geüpgraded naar Windows 10 Business, dat deel uitmaakt van uw Microsoft 365 Business-abonnement.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>Voor een Windows 10 Pro-apparaat dat nieuw is of waarvoor pas een upgrade is uitgevoerd
 
@@ -89,7 +89,7 @@ Voor een nieuw apparaat met Windows 10 Pro makersupdate of voor een apparaat waa
   
    ![On the Make sure this is your organization screen, click Join](media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
-Als u bestanden hebt geüpload naar OneDrive voor Bedrijven, kunt u deze weer terug synchroniseren. Als u een hulpprogramma van derden hebt gebruikt om het profiel en de bestanden te migreren, moeten deze ook naar het nieuwe profiel worden gesynchroniseerd.
+Als u bestanden hebt geüpload naar OneDrive voor Bedrijven, kunt u deze weer terug synchroniseren. Als u een hulpprogramma van derden hebt gebruikt om profiel en bestanden te migreren, synchroniseert u deze ook met het nieuwe profiel.
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>Controleren of het apparaat is verbonden met Azure AD
 
@@ -97,7 +97,7 @@ Als u de synchronisatiestatus wilt controleren, klikt u op de pagina **Toegang t
   
 Klik op de pagina Synchronisatiestatus op Synchroniseren om het recentste beleid voor het beheren van mobiele apparaten naar de pc te downloaden.
   
-Als u het Microsoft 365 Business-account wilt gaan gebruiken, gaat u naar de knop **Start** van Windows, klikt u met de rechtermuisknop op uw huidige accountafbeelding en klikt u op **Ander account**. Meld u aan met het e-mailadres en wachtwoord van uw organisatie.
+Als u de Microsoft 365 Business-account wilt gaan gebruiken, gaat u naar de **Start** knop van Windows, klikt u met de rechtermuisknop op de afbeelding van uw huidige account en schakelt u vervolgens **account**in. Meld u aan met het e-mailadres en wachtwoord van uw organisatie.
   
 ![Click Info button to view synchronization status](media/818f7043-adbf-402a-844a-59d50034911d.png)
   

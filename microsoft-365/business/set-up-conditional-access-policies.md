@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Informatie over het instellen van beleid voor voorwaardelijke toegang voor Microsoft 365-campagnes.
-ms.openlocfilehash: 0fccd103e3633c7fa5ac07c731341eee93059986
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+ms.openlocfilehash: aebdb733c2dd9a05947335ad4f151104d801568e
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715077"
+ms.locfileid: "38718824"
 ---
 # <a name="set-up-conditional-access-policies"></a>Beleid voor voorwaardelijke toegang instellen
 
@@ -35,10 +35,10 @@ Beleid voor [voorwaardelijke toegang](https://docs.microsoft.com/azure/active-di
 Deze beleidsregels vereisen dat beheerders en gebruikers een tweede vorm van verificatie (multi factor Authentication, of MFA) invoeren wanneer aan bepaalde voorwaarden wordt voldaan. Als een gebruiker zich bijvoorbeeld aanmeldt vanuit een ander land, kan de aanmelding als riskant worden beschouwd en moet de gebruiker een extra verificatie vorm opgeven. 
 
 Op dit moment basislijn beleid omvatten de volgende:
-- **MFA vereisen voor beheerders** : multi-factor Authentication vereist voor de meest bevoorrechte beheerdersrollen, met inbegrip van de globale beheerder.
-- **Bescherming van eindgebruikers** : multi-factor Authentication vereist voor gebruikers alleen wanneer een aanmelding riskant is. 
-- **Verouderde verificatie blokkeren** : oudere client-apps en sommige nieuwe apps gebruiken geen nieuwere, veiligere verificatieprotocollen. Deze oudere apps kunnen beleid voor voorwaardelijke toegang omzeilen en onbevoegde toegang tot uw omgeving te krijgen. Dit beleid blokkeert de toegang van clients die geen ondersteuning bieden voor voorwaardelijke toegang. 
-- **MFA vereisen voor Service beheer** : multi-factor Authentication vereist voor toegang tot beheerhulpprogramma's, met inbegrip van Azure Portal (waar u Basisbeleid configureren). 
+- **MFA vereisen voor beheerders** &ndash; vereist meervoudige verificatie voor de meest bevoorrechte beheerdersrollen, met inbegrip van de globale beheerder.
+- **Bescherming** &ndash; van eindgebruikers vereist meervoudige verificatie voor gebruikers alleen wanneer een aanmelding riskant is. 
+- **Verouderde verificatie** &ndash; voor oudere client-apps blokkeren en sommige nieuwe apps gebruiken geen nieuwere, veiligere verificatieprotocollen. Deze oudere apps kunnen beleid voor voorwaardelijke toegang omzeilen en onbevoegde toegang tot uw omgeving te krijgen. Dit beleid blokkeert de toegang van clients die geen ondersteuning bieden voor voorwaardelijke toegang. 
+- **MFA vereisen voor Service beheer** &ndash; vereist meervoudige verificatie voor toegang tot beheerhulpprogramma's, met inbegrip van Azure Portal (waar u Basisbeleid configureren). 
 
 Microsoft raadt aan dat u al deze basislijn beleid inschakelen. Nadat dit beleid is ingeschakeld, worden beheerders en gebruikers gevraagd om zich te registreren voor Azure Multii-Factor Authentication.
 

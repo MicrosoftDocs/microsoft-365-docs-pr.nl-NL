@@ -18,19 +18,19 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Informatie over het valideren van de beveiligingsinstellingen van Microsoft 365 Business app in Windows 10-apparaten.
-ms.openlocfilehash: 7710accf9a3cd1db788dd5215ab6d7bbb97e48a6
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Meer informatie over het valideren van Microsoft 365 Business app Protection-instellingen in Windows 10-apparaten.
+ms.openlocfilehash: c54b053c1f6efbca8fd02431c416793a044c6821
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074375"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38721855"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Beveiligingsinstellingen voor apps op Windows 10-pc's valideren
 
 ## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-corporate-devices"></a>Controleren of gebruikers geen bedrijfsgegevens kunnen kopiëren naar persoonlijke bestanden op bedrijfsapparaten
 
-Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-windows-10-devices.md), kan het enkele uren duren voordat het beleid van kracht wordt op apparaten van gebruikers. Als u de instelling **Voorkomen dat gebruikers bedrijfsgegevens kopiëren naar persoonlijke bestanden en afdwingen dat werkbestanden worden opgeslagen in OneDrive voor Bedrijven** hebt **ingeschakeld** op apparaten die eigendom zijn van het bedrijf, kunt u dit controleren op het apparaat van de gebruiker nadat deze verbinding heeft gemaakt met Azure AD en zich heeft aangemeld. 
+Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-windows-10-devices.md), kan het enkele uren duren voordat het beleid van kracht wordt op apparaten van gebruikers. Als u hebt ingeschakeld de **voorkomen dat gebruikers bedrijfsgegevens naar persoonlijke bestanden kopiëren en hen dwingen om werkbestanden op te slaan in OneDrive voor bedrijven** -instelling voor apparaten die eigendom zijn **van het bedrijf** , u dit controleren op het apparaat van de gebruiker nadat ze verbinding hebben gemaakt met Azure AD en aangemeld. 
   
  **Verbindingsinstellingen controleren**
   
@@ -38,11 +38,11 @@ Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-wi
     
     ![Click or tap Info on the Connected to Azure AD dialog.](media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
-2. Op de pagina **Beheerd door** \<naam tenant\> kunt u de **verbindingsgegevens** zien met een **adres van een beheerserver**, zoals in de volgende afbeelding. 
+2. Op de **beheerde door** \<tenantnaam\> pagina, ziet u de **verbindingsgegevens** die een **beheer server-adres** zoals wordt weergegeven in de volgende afbeelding bevat. 
     
     ![Managed by page shows connection info of the device manager URL.](media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   
- **Controleren of u geen bedrijfsgegeven kunt plakken naar een niet-beheerde app**
+ **Controleren of u bedrijfsgegevens niet in een niet-beheerde app plakken**
   
 1. Open Outlook 2016, geïnstalleerd door Microsoft 365 Business.
     
@@ -50,7 +50,7 @@ Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-wi
     
     Open Kladblok en plak het deel hierin.
     
-    U krijgt een foutmelding met de mededeling dat de app geen toegang heeft tot inhoud.
+    U ontvangt een foutbericht waarin wordt bepaald dat de app geen toegang heeft tot inhoud.
     
     ![A dialog that states app can't access content when you paste into an unmanaged app.](media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   
@@ -60,7 +60,7 @@ Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-wi
 
  **Verbindingsinstellingen controleren**
   
-1. Ga op uw persoonlijke Windows 10-apparaat, waarop u als lokale gebruiker bent aangemeld, naar **Windows-instellingen** en klik of tik op **Accounts** \> **Toegang tot werk of school**.
+1. Op uw Windows 10 Personal-apparaat waar u bent aangemeld als een lokale gebruiker, gaat u **naar Windows-instellingen**en klikt of tikt u op **accounts** \> **toegang werk of school**.
     
 2. Kies **Verbinden** onder **Toegang tot werk of school**.
     
@@ -68,13 +68,13 @@ Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-wi
     
 4. Kies op de pagina **Toegang tot werk of school** de optie **Werk- of schoolaccount** en vervolgens **Info**.
     
-    ![Click or tap Info on the Work or school account dalog.](media/63bd8b32-cb32-4afa-8ce0-6070ac403abc.png)
+    ![Klik of tik op info in het dialoogvenster werk of schoolaccount.](media/63bd8b32-cb32-4afa-8ce0-6070ac403abc.png)
   
-5. Op de pagina **Toegang tot werk of school** ziet u de **verbindingsgegevens** met het **adres van de beheerserver**, zoals in de volgende afbeelding. Dit adres bevat de woorden  *wip*  en  *mam*  . 
+5. Op de pagina **toegang werk of school** ziet u de **verbindingsgegevens** met een adres van de **beheer server** , zoals in de volgende afbeelding wordt weergegeven, en bevat de woorden *OHW* en *mam* binnen. 
     
     ![Managed by page shows connection info URL that includes the words mam and wpi.](media/abd4eaf4-44fa-4538-a3e8-1e0d331dfe1e.png)
   
- **Controleren of u geen bedrijfsgegeven kunt plakken naar een niet-beheerde app**
+ **Controleren of u bedrijfsgegevens niet in een niet-beheerde app plakken**
   
 1. Open Outlook 2016 en voeg eventueel uw Microsoft 365 Business-account toe en meld u aan met uw Microsoft 365 Business-referenties.
     
@@ -82,7 +82,7 @@ Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-wi
     
     Open Kladblok en plak het deel hierin.
     
-    U krijgt een foutmelding met de mededeling dat de app geen toegang heeft tot inhoud.
+    Er wordt een foutbericht weergegeven dat de app geen toegang heeft tot inhoud.
     
     ![A dialog that states app can't access content when you paste into an unmanaged app.](media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   

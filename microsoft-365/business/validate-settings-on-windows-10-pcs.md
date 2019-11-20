@@ -21,39 +21,39 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Meer informatie over het valideren van Microsoft 365 Business app Protection-instellingen in Windows 10-apparaten.
-ms.openlocfilehash: 5fed2278856f40233b142d3c7c4bc623e3777799
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+description: Meer informatie over het valideren van Microsoft 365 Business app Protection-instellingen op Windows 10-apparaten.
+ms.openlocfilehash: b8793ab7f77bbc7f608f237e2455f6fd12c3bb26
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575463"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38721795"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Instellingen voor apparaatbeveiliging controleren op Windows 10-pc's
 
 ## <a name="verify-that-windows-10-device-policies-are-set"></a>Controleren of Windows 10-apparaatbeleid is ingesteld
 
-Nadat u [apparaatbeleid hebt ingesteld](protection-settings-for-windows-10-pcs.md), kan het enkele uren duren voordat het beleid van kracht wordt op apparaten van gebruikers. U kunt controleren of het beleid van kracht is door verschillende schermen met Windows-instellingen te bekijken op de apparaten van gebruikers. Omdat de gebruikers niet de mogelijkheid hebben om de instellingen voor Windows Update en Windows Defender Antivirus te wijzigen op hun Windows 10-apparaten, worden veel van deze opties lichter gekleurd weergegeven.
+Nadat u [apparaatbeleid hebt ingesteld](protection-settings-for-windows-10-pcs.md), kan het enkele uren duren voordat het beleid van kracht wordt op apparaten van gebruikers. U kunt controleren of het beleid van kracht is door verschillende schermen met Windows-instellingen te bekijken op de apparaten van gebruikers. Omdat de gebruikers de Windows Update-en Windows Defender antivirus-instellingen niet kunnen wijzigen op hun Windows 10-apparaten, worden veel opties grijs weergegeven.
   
-1. Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Restart options** and confirm that all settings are greyed out. 
+1. Ga naar **instellingen** \> **Update &amp; beveiliging** \> **Windows Update** \> **herstartopties** en bevestig dat alle instellingen grijs worden weergegeven. 
     
-    ![All the Restart options are greyed out.](media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
+    ![Alle opties voor opnieuw opstarten zijn grijs weergegeven.](media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
   
-2. Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** and confirm that all settings are greyed out. 
+2. Ga naar **instellingen** \> **Update &amp; beveiliging** \> **Windows Update** \> **Geavanceerde opties** en bevestig dat alle instellingen grijs worden weergegeven. 
     
-    ![Windows Advanced updates options are all greyed out.](media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
+    ![Windows Advanced updates-opties zijn allemaal lichter gekleurd.](media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
   
 3. Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** \> **Choose how updates are delivered**.
     
-    Controleer of u het bericht (in het rood) ziet dat bepaalde instellingen zijn verborgen of worden beheerd door uw organisatie en dat alle opties lichter gekleurd worden weergegeven.
+    Bevestig dat u het bericht (in het rood) dat sommige instellingen zijn verborgen of beheerd door uw organisatie zien en alle opties zijn grijs weergegeven.
     
     ![Choose how updates are delivered page indicates settings are hidden or managed by your organization.](media/6b3e37c5-da41-4afd-9983-b4f406216b59.png)
   
 4. To open the Windows Defender Security Center, go to **Settings** \> **Update &amp; security** \> **Windows Defender** \> click **Open Windows Defender Security Center** \> **Virus &amp; thread protection** \> **Virus &amp; threat protection settings**. 
     
-5. Controleer of alle opties lichter gekleurd worden weergegeven. 
+5. Controleer of alle opties grijs worden weergegeven. 
     
-    ![The Virus and threat protection settings are greyed out.](media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
+    ![De instellingen voor virus-en bedreigingsbeveiliging zijn grijs weergegeven.](media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
   
 ## <a name="related-topics"></a>Verwante onderwerpen
 

@@ -23,18 +23,18 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Meer informatie over het instellen van Microsoft 365 Business.
-ms.openlocfilehash: cd59570cbcb9b027780e160117b44be88770d6b9
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: f29dbdb61636fdfe573a1a6920d0aed963b737ad
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575543"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38721484"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Microsoft 365 Business instellen in de wizard Setup
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Uw domein, gebruikers en beleidsinstellingen toevoegen
 
-[![Label om u te laten weten dat het Admin Center is aan het veranderen en u meer informatie vinden op aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Wanneer u Microsoft 365 Business aanschaft, hebt u de mogelijkheid om een domein te gebruiken waarvan u eigenaar bent, of om er een te kopen tijdens de [aanmelding](sign-up.md).
 
@@ -58,7 +58,7 @@ Wanneer u Microsoft 365 Business aanschaft, hebt u de mogelijkheid om een domein
     
 4. Volg de stappen in de wizard om [DNS-records te maken bij elke DNS-hosting provider voor Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) die controleert of u de eigenaar van het domein bent. Als u uw domeinhost kent, raadpleegt u ook de [hostspecifieke instructies](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
 
-    Als uw hosting provider GoDaddy is of een andere host die is ingeschakeld met [Domain Connect](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), is het proces eenvoudig en wordt u automatisch gevraagd om in te loggen en Microsoft namens u te laten verifiëren:
+    Als uw hosting provider GoDaddy is of een andere host die is ingeschakeld met [Domain Connect](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), is het proces eenvoudig en wordt u automatisch gevraagd om in te loggen en Microsoft namens u te laten verifiëren.
 
     ![Selecteer op GoDaddy toegangspagina bevestigen de optie autoriseren.](media/godaddyauth.png)
 
@@ -103,7 +103,7 @@ Als u services wilt instellen, moet u enkele records bij uw DNS-host of domeinre
 
 Het beleid dat u in de wizard hebt ingesteld, wordt automatisch toegepast op een [beveiligingsgroep](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) met de naam *alle gebruikers*. U ook extra groepen maken om beleidsregels toe te wijzen in het Admin Center.
 
-1. Op de **Bescherm uw werkbestanden op mobiele apparaten** de optie **werkbestanden beveiligen wanneer apparaten zijn verloren of gestolen** is standaard geselecteerd. U hebt een optie om in te schakelen **beheren hoe gebruikers toegang hebben tot Office-bestanden op mobiele apparaten**, en dit wordt aanbevolen.
+1. Op de **Bescherm uw werkbestanden op mobiele apparaten**, de optie **werkbestanden beveiligen wanneer apparaten zijn verloren of gestolen** is standaard geselecteerd. U hebt een optie om in te schakelen **beheren hoe gebruikers toegang hebben tot Office-bestanden op mobiele apparaten**, en dit wordt aanbevolen.
 
     ![Screenshot van werkbestanden beschermen op de pagina mobiele apparaten.](media/protectworkfilesondevices.png)
 
@@ -123,7 +123,8 @@ Het beleid dat u in de wizard hebt ingesteld, wordt automatisch toegepast op een
 
 ## <a name="deploy-office-365-client-apps"></a>Office 365-client-Apps implementeren
 
-Als u ervoor kiest om automatisch Office-apps te installeren tijdens de installatie, worden de apps geïnstalleerd op de Windows 10-apparaten zodra de gebruikers zich hebben aangemeld bij Azure AD vanaf hun Windows-apparaten met hun werkreferenties.
+Als u ervoor kiest om automatisch Office-apps te installeren tijdens de installatie, worden de apps geïnstalleerd op de Windows 10-apparaten zodra de gebruikers zich hebben aangemeld bij Azure AD vanaf hun Windows-apparaten, met hun werkreferenties.
+
 Als u Office op mobiele iOS-of Android-apparaten wilt installeren, raadpleegt u [mobiele apparaten instellen voor zakelijke gebruikers van Microsoft 365](set-up-mobile-devices.md).
 
 U Office ook afzonderlijk installeren. Zie [Office installeren op een PC of Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658) voor instructies.
