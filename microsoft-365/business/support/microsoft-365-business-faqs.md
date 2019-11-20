@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, veelgestelde vragen, antwoorden, Business
 ms.date: 06/08/2018
-ms.openlocfilehash: e4db583fa52807e27bb088083aae028e2e1c05ce
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 09a155c87bf90309f8a4cdd2eb5c0b71d2337d58
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38311059"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748366"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft 365 Business
 
@@ -36,7 +36,7 @@ Microsoft 365 is een geïntegreerde oplossing die de allerbeste productiviteitst
 -   App-beveiliging voor Office en andere mobiele apps met intune-app-beveiliging. 
 -  Apparaatbeheer voor Windows 10-Pc's, MacOS en mobiele apparaten met intune-Apparaatbeheer. 
 -  Identity Protection met multi-factor Authentication, selfservice voor wachtwoordherstel en voorwaardelijke toegang.
--  Consistente beveiligingsconfiguratie voor apparaten&mdash;die de beveiliging van bedrijfsgegevens op verschillende apparaten beschermen; Windows Defender, dat altijd-aan en up-to-date is. 
+-  Consistente beveiligingsconfiguratie voor apparaten&mdash;die de beveiliging van bedrijfsgegevens op verschillende apparaten beschermen; Windows Defender, dat altijd op en up-to-date is. 
  
  
 **Vereenvoudigde apparaatimplementatie en gebruikersinstellingen** 
@@ -57,7 +57,7 @@ Microsoft 365 Business is een uitgebreide, cloudgebaseerde beveiligingsoplossing
 Microsoft 365 Business is volledig geïntegreerd met Office 365 om u te voorzien van een vertrouwde locatie voor beheer, facturering en 24x7 ondersteuning. Het bestaat uit Enterprise-grade technologie die is gebouwd voor bedrijven met minder dan 300 werknemers. 
 
 ### <a name="how-can-i-get-microsoft-365-business-for-my-business"></a>Hoe kan ik Microsoft 365 Business voor mijn bedrijf krijgen? 
-Microsoft 365 Business kan worden aangeschaft via een <a href="https://www.microsoft.com/solution-providers/search" target="_blank">Microsoft-partner</a> of rechtstreeks van <a href="https://www.microsoft.com//microsoft-365/business" target="_blank">Microsoft</a>. Als u wilt kiezen of u rechtstreeks bij Microsoft of via een Microsoft-partner wilt kopen, moet u rekening houden met uw capaciteiten en wensen om een IT-infrastructuur te onderhouden. Een Microsoft-partner kan u helpen bij het implementeren en beheren van uw IT-infrastructuur, inclusief Microsoft Solutions.
+Microsoft 365 Business kan worden aangeschaft via een <a href="https://www.microsoft.com/solution-providers/search" target="_blank">Microsoft-partner</a> of rechtstreeks van <a href="https://www.microsoft.com//microsoft-365/business" target="_blank">Microsoft</a>. Als u wilt kiezen of u rechtstreeks bij Microsoft of via een Microsoft-partner wilt kopen, moet u rekening houden met uw capaciteiten en wensen om een IT-infrastructuur te onderhouden. Een Microsoft-partner kan u helpen bij het implementeren en beheren van uw IT-infrastructuur, inclusief Microsoft-oplossingen.
 
 ### <a name="how-much-does-microsoft-365-business-cost"></a>Hoeveel kost Microsoft 365 Business? 
 Microsoft 365 Business wordt aangeboden op USD $20.00 gebruiker/maand op basis van een _jaarcontract_ als rechtstreeks bij Microsoft aangeschaft. Bij aanschaf via een Microsoft-partner kunnen prijzen variëren op basis van de services die de partner biedt en hun prijsmodel voor Microsoft 365 Business. 
@@ -81,7 +81,7 @@ Als de hardware die u vandaag uitvoert Windows 7 Pro of hoger wordt uitgevoerd, 
 Compatibiliteit van bestaande desktop-toepassingen (Win32) is sterk in Windows 10, waarbij de meeste bestaande applicaties zonder wijzigingen werken. Klanten en hun vertrouwde IT-adviseurs moeten het aanbevolen toepassings testproces voor <a href="https://docs.microsoft.com/windows/deployment/planning/windows-10-compatibility#recommended-application-testing-process" target="_blank">compatibiliteit met Windows 10</a> lezen en de <a href="https://products.office.com/office-system-requirements#subscription-plans-section" target="_blank">systeemvereisten van Office</a> controleren om een soepele overgang naar Microsoft 365 Business te garanderen. 
 
 ### <a name="what-is-windows-10-business"></a>Wat is Windows 10 Business? 
-Windows 10 Business is een set Cloud Services-en Apparaatbeheerfuncties die Windows 10 Pro aanvullen en de gecentraliseerde beheer-en beveiligingscontroles van Microsoft 365-bedrijven mogelijk maken.
+Windows 10 Business is een set Cloud Services en Apparaatbeheerfuncties die Windows 10 Pro aanvullen en de gecentraliseerde beheer-en beveiligingscontroles van Microsoft 365-bedrijven mogelijk maken.
 
 Windows 10 Business wordt ook geleverd met bepaalde Premium functies van Microsoft Defender, zoals gecontroleerde maptoegang en netwerkbeveiliging voor threads op het web. Het bevat ook Windows AutoPilot, een service die de implementatie van nieuwe Windows 10-Pc's stroomlijnt.
 
@@ -135,7 +135,7 @@ Ja, Microsoft 365 zakelijke abonnees zijn gelicentieerd voor het gebruik van de 
   
 
 ### <a name="does-azure-active-directory-premium-p1-come-with-microsoft-365-business"></a>Wordt Azure Active Directory Premium P1 geleverd met Microsoft 365 Business? 
-Microsoft 365 Business omvat Selecteer Azure AD Premium P1 (AADP P1) functies zoals selfservice voor wachtwoord opnieuw instellen met AD write-back, Azure MFA en voorwaardelijke toegang. Het omvat niet het geheel van AADP P1. Zie de [Beschrijving van de Microsoft 365 Business Service](https://technet.microsoft.com/library/b042d1fd-c997-46d8-8c02-1df4c932f148) voor meer informatie. 
+Microsoft 365 Business omvat Selecteer Azure AD Premium P1 (AADP P1) functies zoals selfservice voor wachtwoord opnieuw instellen met AD write-back, Azure MFA en voorwaardelijke toegang. Het omvat niet het geheel van AADP P1. Zie de beschrijving van de [Microsoft 365 Business Service](https://technet.microsoft.com/library/b042d1fd-c997-46d8-8c02-1df4c932f148)voor meer informatie.
  
  
 ### <a name="does-microsoft-365-business-allow-customers-to-manage-macs"></a>Staat Microsoft 365 Business klanten toe om Macs te beheren? 
@@ -178,16 +178,16 @@ Microsoft biedt een brede selectie van bronnen voor CSP-partners om Microsoft 36
 ### <a name="what-up-sell-opportunities-does-microsoft-365-business-give-partners"></a>Welke mogelijkheden tot up-sell biedt Microsoft 365 business partners? 
 Met Microsoft 365 Business kunnen partners hun vertrouwde Advisor-positie met klanten handhaven door een solide en veilig platform te creëren waarop aanvullende services kunnen worden verkocht en bestaande producten en services kunnen worden uitgebreid. Microsoft 365 Business biedt een mogelijkheid om een upgrade discussie met klanten nu met behulp van Exchange Server, Exchange Online of Office 365 Business Essentials. Partners kunnen ook meer opbrengsten behalen uit verhoogde Managed Services en/of ondersteuningskosten van peruser. 
  
-Met de nieuwe Windows AutoPilot-functie die is opgenomen in Microsoft 365 Business, vinden partners die terughoudend zijn om nieuwe Windows-apparaten te verkopen vanwege implementatie logistiek en-kosten, deze kans veel aantrekkelijker. Klanten die vertrouwen hebben in de beveiliging van hun on-premises en mobiele apparaten, hebben ook meer kans om te investeren in meer services, zoals Dynamics 365. 
+Met de nieuwe Windows AutoPilot-functie die is opgenomen in Microsoft 365 Business, zullen partners die terughoudend zijn om nieuwe Windows-apparaten te verkopen vanwege implementatie logistiek en-kosten, deze kans veel aantrekkelijker vinden. Klanten die vertrouwen hebben in de beveiliging van hun on-premises en mobiele apparaten, hebben ook meer kans om te investeren in meer services, zoals Dynamics 365. 
  
 ### <a name="should-partners-sell-microsoft-365-business-over-other-plans-from-microsoft"></a>Moeten partners Microsoft 365 Business verkopen via andere abonnementen van Microsoft? 
 Een Microsoft Cloud solution provider moet altijd het plan dat het beste past bij de behoeften van de klant bedrijf en budget verkopen. Als een klant bijvoorbeeld aan de privacy-en beveiligingsvoorschriften moet voldoen, kan een CSP Microsoft 365 Business verkopen plus eventuele add-ons die de klant helpen aan zijn vereisten te voldoen of de geavanceerde beveiliging en het beheer van Microsoft 365 Business kunnen voorstellen Enterprise-Sku's. 
  
-### <a name="some-of-my-customers-have-devices-that-are-not-genuine-will-microsoft-365-business-make-these-devices-genuine"></a>Sommige van mijn klanten hebben apparaten die niet echt zijn; maakt Microsoft 365 Business deze apparaten echt? 
+### <a name="some-of-my-customers-have-devices-that-arent-genuine-will-microsoft-365-business-make-these-devices-genuine"></a>Sommige van mijn klanten hebben apparaten die niet echt zijn; maakt Microsoft 365 Business deze apparaten echt? 
 Microsoft 365 Business maakt niet een anderszins niet-legitieme versie van Windows, Genuine. Microsoft 365 Business biedt een upgrade voordeel waarmee klanten met legitieme Windows 7, 8 of 8,1 Pro kunnen upgraden naar de meest recente, legitieme versie van Windows 10 Pro. 
 
 ### <a name="what-is-the-gdpr-and-how-does-microsoft-365-business-help-customers-with-their-compliance-obligations"></a>Wat is de AVG en hoe kan Microsoft 365 Business klanten helpen met hun nalevingsverplichtingen?
-De algemene verordening gegevensbescherming (AVG) is een uitgebreide nieuwe Privacywet die inwoners van de Europese Unie (EU) meer zeggenschap geeft over hun "persoonlijke gegevens" en vereist dat organisaties de integriteit van die persoonsgegevens handhaven. De AVG vereist dat organisaties die persoonsgegevens van inwoners van de EU beheren of verwerken, alleen gegevensverwerkers van derden gebruiken die voldoen aan de GDPR-vereisten voor de verwerking van persoonsgegevens. In maart 2017 heeft Microsoft contractuele garanties ter beschikking gesteld die deze garanties bieden. Klanten die vragen hebben over hoe Microsoft hen kan helpen om hun aanvullende GDPR-verplichtingen na te komen, moeten meer te weten komen over de geavanceerde nalevings-en beveiligingsmogelijkheden die beschikbaar zijn in Microsoft 365 Business (bijvoorbeeld Azure Information Protection, Data verlies preventie, geavanceerde Bedreigingsbeveiliging, enzovoort) en in andere suites (bijvoorbeeld Microsoft 365 Enterprise E5). Ga voor meer informatie naar [www.Microsoft.com/gdpr](https://www.microsoft.com/gdpr).
+De algemene verordening gegevensbescherming (AVG) is een uitgebreide nieuwe Privacywet die inwoners van de Europese Unie (EU) meer zeggenschap geeft over hun "persoonlijke gegevens" en vereist dat organisaties de integriteit van die persoonsgegevens handhaven. De AVG vereist organisaties die persoonsgegevens die zijn gekoppeld aan EU-ingezetenen, beheren of verwerken om alleen gegevensverwerkers van derden te gebruiken die voldoen aan de GDPR-vereisten voor de verwerking van persoonsgegevens. In maart 2017 heeft Microsoft contractuele garanties ter beschikking gesteld die deze garanties bieden. Klanten die vragen hebben over hoe Microsoft hen kan helpen om hun aanvullende GDPR-verplichtingen na te komen, moeten meer te weten komen over de geavanceerde nalevings-en beveiligingsmogelijkheden die beschikbaar zijn in Microsoft 365 Business (bijvoorbeeld Azure Information Protection, Data verlies preventie, geavanceerde Bedreigingsbeveiliging, enzovoort) en in andere suites (bijvoorbeeld Microsoft 365 Enterprise E5). Ga voor meer informatie naar [www.Microsoft.com/gdpr](https://www.microsoft.com/gdpr).
 
 
 ## <a name="footnotes"></a>Voetnoten

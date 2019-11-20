@@ -15,14 +15,14 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Bepalen of Office 365 E3, Office 365 Business Premium of Microsoft 365 Business geschikt voor uw bedrijf is.
-ms.openlocfilehash: 1422e75af9a035b8a82aa6f85b8acfd340aac846
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Bepaal of Office 365 E3, Office 365 Business Premium of Microsoft 365 Business geschikt is voor uw bedrijf.
+ms.openlocfilehash: f3adf67cf164b14596bc0cedf1cacd7dec41955e
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "35086296"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748316"
 ---
-# <a name="what-subscription-is-right-for-your-small-business"></a>Welk abonnement is geschikt voor uw bedrijf?
+# <a name="what-subscription-is-right-for-your-small-business"></a>Welk abonnement is geschikt voor uw kleine bedrijf?
 
-Microsoft biedt verschillende programma's voor kleine bedrijven, de aanbevolen abonnementen Office 365 Business Premium of Microsoft 365 Business met maximaal 300 gebruikers. Microsoft 365 Business biedt meer beveiligingsfuncties dan Office 365 Business Premium voor extra kosten.
+Microsoft biedt verschillende plannen voor kleine bedrijven. De aanbevolen abonnementen zijn Office 365 Business Premium of Microsoft 365 Business met maximaal 300 gebruikers. Microsoft 365 Business biedt meer beveiligingsfuncties dan Office 365 Business Premium voor extra kosten.
