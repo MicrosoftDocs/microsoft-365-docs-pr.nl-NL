@@ -35,7 +35,7 @@
 ## Migreren naar Microsoft 365 Business
 ### [Migreren van Office 365 Business Premium](migrate-to-microsoft-365-business.md)
 ### [Migreren van Office 365 E3](migrate-from-e3.md)
-### [Ro Microsoft 365 Enterprise migreren](migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md)
+### [Migreren naar Microsoft 365 Enterprise](migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md)
 ## Facturering
 ### [Uw factuur](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Betalen](/Office365/Admin/subscriptions-and-billing/pay-for-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
