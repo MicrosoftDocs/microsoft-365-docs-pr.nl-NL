@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Informatie over hoe u toegang krijgt tot on-premises resources, zoals zakelijke apps, bestandsshares en printers, vanuit een Azure Active Directory dat is gekoppeld aan een Windows 10-apparaat.
-ms.openlocfilehash: fdc1eca6913ba6af4f6b65691fdee2165e7c827e
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: 4a2ff28107c6e2ec4473859c75bf720df7662747
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38323390"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668783"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Toegang tot on-premises bronnen van een Azure AD-apparaat in Microsoft 365 Business
 
@@ -32,6 +32,9 @@ Elk Windows 10-apparaat dat is Azure Active Directory toegevoegd heeft toegang t
 Zie voor meer informatie, [Inleiding tot Apparaatbeheer in azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction).
 De stappen worden ook samengevat in de volgende secties.
 
+> [!IMPORTANT]
+> Deze procedure is alleen van toepassing op OAuth en NTLM. Kerberos wordt niet ondersteund.
+ 
 ## <a name="run-azure-ad-connect"></a>Azure AD Connect uitvoeren
 
 Voltooi de volgende stappen om in te schakelen van uw organisatie Azure AD gekoppelde apparaten voor toegang tot on-premises resources.
@@ -43,6 +46,8 @@ Voltooi de volgende stappen om in te schakelen van uw organisatie Azure AD gekop
 3. Zodra de Windows 10-apparaten Azure AD zijn gekoppeld, moet elke gebruiker hun apparaten opnieuw opstarten en meld u aan met hun Microsoft 365 zakelijke referenties. Alle apparaten hebben nu ook toegang tot on-premises bronnen.
     
 Er zijn geen extra stappen nodig om toegang te krijgen tot on-premises bronnen voor Azure AD gekoppelde apparaten. Deze functionaliteit is ingebouwd in Windows 10. 
+
+Als u van plan bent om in te loggen op het AADJ-apparaat anders dan de wachtwoord methode zoals PIN/bio-metric via WHFB-inloggegevens en vervolgens toegang tot on-premise bronnen (shares, printers.. etc), volg danhttps://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
   
 Als uw organisatie niet gereed is voor implementatie in de Azure AD gekoppelde apparaatconfiguratie die hierboven wordt beschreven, u overwegen [hybride Azure AD gekoppelde apparaatconfiguratie](manage-windows-devices.md)in te stellen.
   

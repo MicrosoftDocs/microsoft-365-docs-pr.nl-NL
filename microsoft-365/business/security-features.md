@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Informatie over de beveiligingsfuncties die bij Microsoft 365 Business worden geleverd.
-ms.openlocfilehash: f24836ef93c529eddc05c767d6e4fa8af6aef314
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+ms.openlocfilehash: 98eb0c2015ed6088b2d5e8621c8e72a5b63f2a17
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715137"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668843"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 zakelijke beveiligings-en compliancefuncties
 
@@ -74,7 +74,8 @@ Geavanceerde functies in Microsoft 365 Business zijn beschikbaar om u te helpen 
     Toegang tot het intune Admin Center in azure Portal u aanvullende beveiligingsfuncties, zoals het beheer van MacOS-apparaten, iPhone en Android-apparaten, samen met geavanceerde Apparaatbeheer voor Windows, die niet beschikbaar zijn via Microsoft instellen 365 Business Admin Center.
 - **Dezelfde [voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) als Azure AD P1-abonnement**
 
-    Voorwaardelijke toegang kan helpen uw organisatie te beschermen tegen aanmeldingsrisico, toegang tot pogingen van een onverwacht netwerk of locale, toegang tot pogingen van riskante apparaattypen, enzovoort. Beleid voor voorwaardelijke toegang worden afgedwongen nadat de eerste verificatie is voltooid en maakt gebruik van signalen van de eerste verificatie gebeurtenis om te bepalen of de poging tot toegang moet worden goedgekeurd, geweigerd of meer bewijs (zoals de tweede vorm van identificatie) is vereist.
+
+    Voorwaardelijke toegang kan helpen uw organisatie te beschermen tegen aanmeldingsrisico, toegang tot pogingen van een onverwacht netwerk of locale, toegang tot pogingen van riskante apparaattypen, enzovoort. Beleid voor voorwaardelijke toegang worden afgedwongen nadat de eerste verificatie is voltooid en maakt gebruik van signalen van de eerste verificatie gebeurtenis om te bepalen of de poging tot toegang moet worden goedgekeurd, geweigerd of als meer bewijs (zoals een tweede vorm van identificatie) is vereist.
 
     De functies voor voorwaardelijke toegang zijn:
 
