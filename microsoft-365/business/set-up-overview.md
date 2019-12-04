@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Overzicht van de installatie stappen voor Microsoft 365 Business.
-ms.openlocfilehash: 3447f06d031462a7bebc6f129238de9f0c5dee41
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 425c465262c266ca764ae8c7a52130903fa635a5
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38721554"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812773"
 ---
 # <a name="overview-of-setup"></a>Overzicht van instellingen
 
@@ -44,16 +44,15 @@ De meeste installatie stappen kunnen worden uitgevoerd in de installatiewizard, 
         - U ook [gebruikers later toevoegen](add-users-m365b.md) in het Admin Center.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Stap 2: beveiligingsbeleid instellen en apparaten configureren 
 
-  - Gebruik de [wizard Setup](set-up.md#protect-data-and-devices) om het apparaat-en beveiligingsbeleid te configureren. 
+  - Gebruik de [wizard Setup](set-up.md#protect-your-organization) om apparaatbeleid te configureren. 
   - U ook meer toevoegen of later bewerken in het [Beheercentrum](view-policies-and-devices.md) en in de [intune-Portal](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal).
-  - Naast de beveiligingsinstellingen in de installatiewizard u de beveiliging verhogen door de volgende instellingen toe te voegen:
+  - De instelwizard stelt ook de instellingen voor preventie van bescherming en gegevensverlies in.
+  
+  Naast de beveiligingsinstellingen in de installatiewizard u de beveiliging verhogen door de volgende instellingen toe te voegen:
 
       - **E-malware bescherming**
-      - **Veilige koppelingen voor geavanceerde Bedreigingsbeveiliging (ATP)**
-      - **ATP veilige bijlagen**
       - **ATP anti-phishing**
       - **Exchange Online Archiving**
-      - **Preventie van gegevensverlies (DLP)**
       - **Azure Information Protection (Plan1**)
 
           Om aan de slag te gaan, [stelt u Geavanceerd beveiligingsbeleid in](set-up-advanced-security.md).
@@ -62,10 +61,12 @@ De meeste installatie stappen kunnen worden uitgevoerd in de installatiewizard, 
 
 ## <a name="step-3-set-up-and-manage-windows-10-devices"></a>Stap 3: Windows 10-apparaten instellen en beheren
 
-   Wanneer u een Windows 10-apparaat aan Azure AD toevoegen, wordt het beleid dat u hebt ingesteld in [stap 2](#step-2-set-up-security-policies-and-configure-devices) toegepast op het.
+Nadat u de wizard instellen hebt uitgevoerd, wilt u alle Windwos 10-computers in uw organisatie proctect.
+  
+- Windows 10 Pro is een [vereiste](pre-requisites-for-data-protection.md) voor microsoft 365 Business, maar als u Windows 7 Pro, Windows 8 Pro of Windows 8,1 Pro hebt, geeft uw abonnement u recht op een [upgrade naar Windows 10 Pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
+- Volg de stappen in [beveiligde Windows 10-pc's](secure-win-10-pcs.md) om beleid in te stellen voor Windows 10-apparaten.
 
-   - Windows 10 Pro is een [vereiste](pre-requisites-for-data-protection.md) voor microsoft 365 Business, maar als u Windows 7 Pro, Windows 8 Pro of Windows 8,1 Pro hebt, geeft uw abonnement u recht op een [upgrade naar Windows 10 Pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
-    - Gebruik de [installatiewizard](set-up.md#protect-data-and-devices) om beleid voor Windows 10-apparaten te configureren.
+Wanneer u lid wordt van een Windows 10-apparaat naar Azure AD, wordt het beleid dat u voor Windows 10-computers hebt ingesteld op deze toegepast. Zie [Windows-apparaten instellen voor Microsoft 365 zakelijke gebruikers](set-up-windows-devices.md)voor meer informatie.
 
 ## <a name="step-4-install-office-365-business"></a>Stap 4: Installeer Office 365 Business
 - U Office op de Windows-apparaten automatisch installeren met behulp van de [wizard Setup](set-up.md#deploy-office-365-client-apps).
@@ -82,4 +83,6 @@ De meeste installatie stappen kunnen worden uitgevoerd in de installatiewizard, 
 
     - Als uw bedrijf een lokale Active Directory heeft die bepaalde on-premises bronnen bevat (zoals bestandsshares en printers), u uw Azure AD-gekoppelde apparaten toegang geven tot deze resources door de stappen hier te volgen: [toegang tot on-premises resources van een Azure AD-apparaat in Microsoft 365 Business](access-resources.md).
 
-  
+## <a name="see-also"></a>Zie ook
+
+[Microsoft 365 zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

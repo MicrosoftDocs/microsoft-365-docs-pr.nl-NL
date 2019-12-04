@@ -10,6 +10,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -21,18 +22,22 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie over het instellen van Microsoft 365 Business.
-ms.openlocfilehash: f269e970cc1ee5ba7455ea799b238db577116f09
-ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
+ms.openlocfilehash: 2e6e1e6153fe4033aa7dd47280c737957d0e4bd5
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38704110"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813053"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Aan de slag met Microsoft 365 Business
 
 ## <a name="what-is-microsoft-365-business"></a>Wat is Microsoft 365 Business
 
 Microsoft 365 Business is een uitgebreide set zakelijke productiviteits-en samenwerkingshulpmiddelen, zoals Outlook, Word, Excel en andere Office-producten, die altijd up-to-date zijn. U uw werkbestanden op al uw iOS-, Android-en Windows 10-apparaten beschermen met hoogwaardige beveiliging die eenvoudig te beheren is.
+
+Bekijk deze video voor een snel overzicht van Microsoft 365 Business.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
 Microsoft 365 Business is bedoeld voor maximaal 300 licenties. Als u meer licenties nodig hebt, raadpleegt u de documentatie bij [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) voor meer informatie. 
   
@@ -49,6 +54,13 @@ Microsoft 365 Business is bedoeld voor maximaal 300 licenties. Als u meer licent
 In het volgende diagram wordt beschreven hoe beheerders Microsoft 365 Business hebben ingesteld. Ook worden de stappen beschreven voor de voorbereiding van Windows-pc's voor Microsoft 365 Business. U ook nieuwe apparaten toevoegen in het Microsoft 365 Business Admin Center met [Windows Autopilot](add-autopilot-devices-and-profile.md). U AutoPilot gebruiken om nieuwe apparaten in te stellen en vooraf te configureren, zodat ze klaar zijn voor productief gebruik zodra een gebruiker zich aanmeldt met de referenties van hun Microsoft 365 Business.
   
 ![A diagram that shows the setup and management flow for admins, and also for a user](media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
+
+Bekijk deze video voor een overzicht van Microsoft 365 Business Setup.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
+
+Als u deze video nuttig vond, Bekijk dan de [complete trainingreeks voor kleine bedrijven en die nieuw bij Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+
   
 ### <a name="1-set-up-microsoft-365-business-admin"></a>1: Microsoft 365 Business (admin) instellen
 
@@ -89,9 +101,10 @@ Als u een lokale Active Directory met bepaalde on-premises resources (zoals best
     
 - Als Microsoft 365 Business admin heb je toegang tot ons Customer Support team: ** [contact opnemen met ondersteuning voor zakelijke producten-admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
     
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="see-also"></a>Zie ook
+
 [Microsoft 365 Business-documentatie en -informatiebronnen](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
 [Microsoft 365 Business beheren](manage.md)[Migreren naar Microsoft 365 Business](migrate-to-microsoft-365-business.md)
-  
 
+[Microsoft 365 zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 

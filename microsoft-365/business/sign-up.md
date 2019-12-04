@@ -10,6 +10,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -19,12 +20,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Meer informatie over het aanschaffen en registreren van Microsoft 365 Business.
-ms.openlocfilehash: 16953f7c752c3105af795e721332e2e6d6bdebe5
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 3470d07f98a1c5806a27d8f21f152a818e4a0371
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38718714"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812793"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Aanmelden voor Microsoft 365 Business
 
@@ -42,6 +43,12 @@ Er zijn drie manieren om Microsoft 365 Business te verkrijgen:
 - [Meld je aan voor een thuis-of gezinsabonnement](https://go.microsoft.com/fwlink/?linkid=2109398) als je niet voor een bedrijf koopt. 
 
 ## <a name="sign-up-steps"></a>Aanmelden stappen
+
+Bekijk deze video voor een snel overzicht van het aanmeldproces.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3znhX] 
+
+Als u deze video nuttig vond, Bekijk dan de [complete trainingreeks voor kleine bedrijven en die nieuw bij Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Voer de volgende stappen uit om u aan te melden en Microsoft 365 voor uw bedrijf te kopen:
 
@@ -82,3 +89,6 @@ Selecteer **Ga naar Setup** om andere stappen te voltooien, zoals het toevoegen 
 
 Zie [instellen](set-up.md)voor hulp bij het instellen van Setup.
 
+## <a name="see-also"></a>Zie ook
+
+[Microsoft 365 zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

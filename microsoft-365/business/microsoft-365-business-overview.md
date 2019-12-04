@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -22,22 +23,28 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie over Microsoft 365 Business.
-ms.openlocfilehash: abd1e8374ef7530a879de71ab7ad0125f1ca4616
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: 419754b5ea06baabac8c170a860e076dc7fa8f81
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676067"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812853"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Overzicht van Microsoft 365 Business
 
 ## <a name="what-is-microsoft-365-business"></a>Wat is Microsoft 365 Business
 
 Microsoft 365 Business is een abonnementsservice met Office 365-productiviteitstools plus geavanceerde mogelijkheden om uw bedrijf te beschermen tegen cyberdreigingen, uw gegevens te beschermen en apparaten te beheren.
+
+Bekijk deze video voor een snel overzicht van Microsoft 365 Business.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
+Als u deze video nuttig vond, Bekijk dan de [complete trainingreeks voor kleine bedrijven en die nieuw bij Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+
 Microsoft 365 Business is bedoeld voor maximaal 300 licenties. Als u meer licenties nodig hebt, raadpleegt u de documentatie bij [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) voor meer informatie.
 
-Zie [Microsoft 365 Business servicebeschrijving](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) voor de volledige lijst met functies.
+Zie de [Beschrijving van de Microsoft 365 Business Service](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) voor de volledige lijst met functies.
   
 ## <a name="small-business-security-needs"></a>Beveiligingsbehoeften voor kleine bedrijven
 
@@ -102,3 +109,7 @@ Zie [Microsoft 365 zakelijke beveiligingsfuncties](security-features.md)voor de 
 
     > [!NOTE]
     > Deze link is alleen voor winkels in de VS
+
+## <a name="see-also"></a>Zie ook
+
+[Microsoft 365 zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
