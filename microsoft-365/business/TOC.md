@@ -10,7 +10,7 @@
 ### [Upgrade naar Windows Pro Creators update](upgrade-to-windows-pro-creators-update.md)
 ### [Voorbereiden op implementatie van Office-clients](prepare-for-office-client-deployment.md)
 ### [Help gebruikers Office te installeren](help-users-install-office.md)
-### [Toegang tot on-premises bronnen]
+### Toegang tot on-premises bronnen
 #### [Windows 10-apparaten die lid van domein zijn, inschakelen om te worden beheerd](manage-windows-devices.md)
 #### [Toegang tot resources van een apparaat met Azure AD verbonden](access-resources.md)
 ## Apparaat instellen van gebruiker
