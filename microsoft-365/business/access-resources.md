@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Informatie over hoe u toegang krijgt tot on-premises resources, zoals zakelijke apps, bestandsshares en printers, vanuit een Azure Active Directory dat is gekoppeld aan een Windows 10-apparaat.
-ms.openlocfilehash: 4a2ff28107c6e2ec4473859c75bf720df7662747
-ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+ms.openlocfilehash: 89ac38f3da9cbdd3ff1a5eb33dc129d2e83521c7
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39668783"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967158"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Toegang tot on-premises bronnen van een Azure AD-apparaat in Microsoft 365 Business
 
@@ -47,7 +47,7 @@ Voltooi de volgende stappen om in te schakelen van uw organisatie Azure AD gekop
     
 Er zijn geen extra stappen nodig om toegang te krijgen tot on-premises bronnen voor Azure AD gekoppelde apparaten. Deze functionaliteit is ingebouwd in Windows 10. 
 
-Als u van plan bent om in te loggen op het AADJ-apparaat anders dan de wachtwoord methode zoals PIN/bio-metric via WHFB-inloggegevens en vervolgens toegang tot on-premise bronnen (shares, printers.. etc), volg danhttps://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
+Als u van plan bent om in te loggen op het AADJ-apparaat anders dan de wachtwoord methode zoals PIN/bio-metric via WHFB-inloggegevens en vervolgens toegang tot on-premise bronnen (shares, printers.. etc), volg danhttps://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
   
 Als uw organisatie niet gereed is voor implementatie in de Azure AD gekoppelde apparaatconfiguratie die hierboven wordt beschreven, u overwegen [hybride Azure AD gekoppelde apparaatconfiguratie](manage-windows-devices.md)in te stellen.
   

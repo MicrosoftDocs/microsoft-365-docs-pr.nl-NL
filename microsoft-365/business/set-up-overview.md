@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Overzicht van de installatie stappen voor Microsoft 365 Business.
-ms.openlocfilehash: 425c465262c266ca764ae8c7a52130903fa635a5
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+ms.openlocfilehash: f531830bffbe1cb6ce4e39ee2ba12da5738a2684
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39812773"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967618"
 ---
 # <a name="overview-of-setup"></a>Overzicht van instellingen
 
@@ -50,14 +50,16 @@ De meeste installatie stappen kunnen worden uitgevoerd in de installatiewizard, 
   
   Naast de beveiligingsinstellingen in de installatiewizard u de beveiliging verhogen door de volgende instellingen toe te voegen:
 
-      - **E-malware bescherming**
-      - **ATP anti-phishing**
-      - **Exchange Online Archiving**
-      - **Azure Information Protection (Plan1**)
 
-          Om aan de slag te gaan, [stelt u Geavanceerd beveiligingsbeleid in](set-up-advanced-security.md).
+- **E-malware bescherming**
+- **ATP anti-phishing**
+- **Exchange Online Archiving**
+- **Azure Information Protection (Plan1**)
 
-        Zie ook [de Top 10-manieren om uw Microsoft 365-bedrijf te beveiligen](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) voor een roadmap van de beste beveiligingspraktijken.
+
+Om aan de slag te gaan, [stelt u Geavanceerd beveiligingsbeleid in](set-up-advanced-security.md).
+
+Zie ook [de Top 10-manieren om uw Microsoft 365-bedrijf te beveiligen](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) voor een roadmap van de beste beveiligingspraktijken.
 
 ## <a name="step-3-set-up-and-manage-windows-10-devices"></a>Stap 3: Windows 10-apparaten instellen en beheren
 
