@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Overzicht van de installatie stappen voor Microsoft 365 Business.
-ms.openlocfilehash: 4aca617015cceb85ca35c8d8ada7b83d1416d959
-ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
+ms.openlocfilehash: cab999493bf86ed0adf32521eaf6b3943f107f79
+ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/23/2019
-ms.locfileid: "40850799"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995245"
 ---
 # <a name="overview-of-setup"></a>Overzicht van instellingen
 
@@ -36,7 +36,7 @@ Bekijk een korte video over Microsoft 365 Business Setup.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-Als u deze video nuttig vond, Bekijk dan de [complete trainingreeks voor kleine bedrijven en die nieuw bij Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine bedrijven en degene die nieuw zijn bij Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 De meeste installatie stappen kunnen worden uitgevoerd in de installatiewizard, maar de andere opties worden ook weergegeven.
 
@@ -61,7 +61,7 @@ De meeste installatie stappen kunnen worden uitgevoerd in de installatiewizard, 
 - **Exchange Online Archiving**
 - **Azure Information Protection (Plan1**)
 
-Zie [Geavanceerd beveiligingsbeleid instellen](set-up-advanced-security.md)om aan de slag te gaan.
+Om aan de slag te gaan, Zie [bedreigingsbeveiliging verhogen](increase-threat-protection.md) en [nalevingsfuncties instellen](set-up-compliance.md).
 
 Zie ook [de Top 10-manieren om uw Microsoft 365-bedrijf te beveiligen](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) voor een roadmap van de beste beveiligingspraktijken.
 
@@ -91,4 +91,4 @@ Wanneer u lid wordt van een Windows 10-apparaat naar Azure AD, wordt het beleid 
 
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft 365 zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
