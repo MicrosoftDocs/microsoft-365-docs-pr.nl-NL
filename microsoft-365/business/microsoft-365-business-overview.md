@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie over Microsoft 365 Business.
-ms.openlocfilehash: 1d4eb62a31cc44ab8dc75964c038f0a3deef4005
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: eafd03be90c128051c8c91bc339af69a0a613136
+ms.sourcegitcommit: d48b7852383262083a6a109530d84f0858cb3801
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831428"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40999549"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Overzicht van Microsoft 365 Business
 
@@ -42,7 +42,7 @@ Bekijk deze video voor een snel overzicht van Microsoft 365 Business.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Als u deze video nuttig vond, Bekijk dan de [complete trainingreeks voor kleine bedrijven en die nieuw bij Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine bedrijven en degene die nieuw zijn bij Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
 
 Microsoft 365 Business is bedoeld voor maximaal 300 licenties. Als u meer licenties nodig hebt, raadpleegt u de documentatie bij [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) voor meer informatie.
 
@@ -99,7 +99,7 @@ Uw **apparaten worden beveiligd** door:
 
 - Met behulp van vereenvoudigde besturingselementen voor het beheren van beleid voor alle Pc's met Windows 10 in uw bedrijf, afdwingen van BitLocker-versleuteling en automatisch essentiële Windows-updates installeren (afdwingen van Windows Update-beleid).
 
-Zie [Microsoft 365 zakelijke beveiligingsfuncties](security-features.md)voor de volledige lijst met beveiligingsfuncties. Nadat u [Microsoft 365 Business hebt ingesteld](set-up.md), raadpleegt u [Geavanceerd beveiligingsbeleid instellen](set-up-advanced-security.md) om aan de slag te gaan met de beveiligingsfuncties die niet zijn opgenomen als onderdeel van de begeleide instelling. Lees ook [Top 10 manieren om Office 365 en Microsoft 365 business plannen te beveiligen](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) voor een goed overzicht over hoe je bescherming tegen cybercriminelen en hackers instellen.
+Zie [Microsoft 365 zakelijke beveiligingsfuncties](security-features.md)voor de volledige lijst met beveiligingsfuncties. Nadat u [Microsoft 365 Business hebt ingesteld](set-up.md), Zie [bedreigingsbeveiliging verhogen](increase-threat-protection.md) en [nalevingsfuncties instellen](set-up-compliance.md) om aan de slag te gaan met de beveiligingsfuncties die niet zijn opgenomen als onderdeel van de begeleide instelling. Lees ook [Top 10 manieren om Office 365 en Microsoft 365 business plannen te beveiligen](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) voor een goed overzicht over hoe je bescherming tegen cybercriminelen en hackers instellen.
 
 ## <a name="get-microsoft-365-business"></a>Microsoft 365 Business kopen
 
@@ -114,4 +114,4 @@ Zie [Microsoft 365 zakelijke beveiligingsfuncties](security-features.md)voor de 
 
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft 365 zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
