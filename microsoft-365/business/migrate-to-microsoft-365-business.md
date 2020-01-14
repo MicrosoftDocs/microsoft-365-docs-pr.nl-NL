@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Stappen die uw bedrijf upgraden van Office 365 Business Premium naar Microsoft 365 Business.
-ms.openlocfilehash: 95c4504d7e6e33bdededee0cfca7add0cb5f7204
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 61da9148ccb87654aa2391ff90c4f086a4cbbe24
+ms.sourcegitcommit: 3c296126ba69a32af07e339f2f1eacdd8e5b878e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640556"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41120136"
 ---
 # <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Upgrade naar Microsoft 365 Business vanaf Office 365 Business Premium
 
@@ -68,7 +68,7 @@ Het duurt enkele minuten voordat Microsoft uw nieuwe service plannen instelt. Al
 1. Zodra uw plan gereed is, moet u mogelijk enkele extra stappen in het Beheercentrum uitvoeren. Selecteer in het navigatiedeelvenster **Home** om eventuele aanvullende instellingsstappen te voltooien.
 
 > [!NOTE]
-> U ontvangt een pro rata restitutie voor de Ofifce 365-licenties die u niet meer nodig hebt. Uw bankrekening of creditcard wordt ongeveer twee dagen na het instellen van het nieuwe abonnement in rekening gebracht.
+> U ontvangt een pro rata restitutie voor de Office 365-licenties die u niet meer nodig hebt. Uw bankrekening of creditcard wordt ongeveer twee dagen na het instellen van het nieuwe abonnement in rekening gebracht.
   
 ## <a name="protect-user-devices-and-files"></a>Gebruikers apparaten en bestanden beveiligen
 
