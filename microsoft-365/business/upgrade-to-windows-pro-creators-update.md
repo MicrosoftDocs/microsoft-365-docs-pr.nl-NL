@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 'Meer informatie over het upgraden van Windows-apparaten naar Windows 10 Pro. '
-ms.openlocfilehash: acad4a393e0870299df768fd4c821d9c1e83ecac
-ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
+ms.openlocfilehash: 3457b35c5f9e313e176664ca088e64ce5dd4f881
+ms.sourcegitcommit: 1db269c0349a252eaf3f315ee72ff679fff829f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40995265"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41265853"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Windows-apparaten upgraden naar Windows 10 Pro
 
@@ -50,7 +50,7 @@ Als u wilt upgraden naar Windows 10 Pro, hebt u verschillende opties. U kunt:
     - Lees de instructies voor het gebruik van het hulpprogramma en het maken van uw installatiemedia. 
 
 > [!NOTE]
-> Als u Windows-apparaten met Windows 7 Pro, Windows 8 Pro of Windows 8,1 Pro hebt, geeft uw Microsoft 365 Business-abonnement u recht op een upgrade van Windows Pro 10; u hebt geen product code nodig.
+> Als u Windows-apparaten met Windows 7 Pro, Windows 8 Pro of Windows 8,1 Pro hebt, geeft uw Microsoft 365 Business-abonnement u recht op een upgrade van Windows Pro 10.
     
 Zie [Windows-apparaten instellen voor Microsoft 365 zakelijke gebruikers](set-up-windows-devices.md) om het instellen van Windows 10-apparaten te voltooien. 
   
