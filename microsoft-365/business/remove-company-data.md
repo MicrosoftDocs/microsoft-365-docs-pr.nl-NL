@@ -1,5 +1,7 @@
 ---
 title: Bedrijfsgegevens van apparaten verwijderen
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,13 +21,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
-description: "Informatie over het gebruik van Microsoft 365 Business om bedrijfsgegevens te verwijderen van gebruikers apparaten of Windows-Pc's. "
-ms.openlocfilehash: 59e94a08e149a5cb119aabbbe816ccd2f4a9f9fb
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+description: "Meer informatie over het gebruik van Microsoft 365 Business om bedrijfsgegevens van gebruikersapparaten of Windows-pc's te verwijderen. "
+ms.openlocfilehash: ff0ad9d7f22f9bb1b21ee15fe383c6994896a9a8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715227"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593491"
 ---
 # <a name="remove-company-data-from-devices"></a>Bedrijfsgegevens van apparaten verwijderen
 
@@ -35,17 +37,17 @@ ms.locfileid: "38715227"
 
 U kunt Microsoft 365 Business gebruiken om bedrijfsgegevens te verwijderen die uw gebruikers hebben opgeslagen op hun [apparaten](app-protection-settings-for-android-and-ios.md) of [Windows-pc's](protection-settings-for-windows-10-devices.md) die worden beschermd door Microsoft 365. **Als u bedrijfsgegevens van een apparaat verwijdert, kunt u dit later niet herstellen**. 
   
-1. Ga naar het Admin Center op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>beheercentrum bij .
     
-2. Kies op de linker navigatie **apparaten** \> **beheren**.  
+2. Kies **Apparaten** \> **beheren**op het linkernavigatiescherm.  
   
-3. Kies op de pagina **beheren** of zoek naar de gegevens van een gebruiker die u wilt verwijderen en kies de naam. 
+3. Kies of zoek op de pagina **Beheren** naar een gebruiker die de gegevens is die u wilt verwijderen en kies de naam. 
     
-4. Selecteer in het volgende deelvenster het apparaat of de apparaten in de lijst **apparaten** . In het apparaatvenster dat wordt geopend, u ervoor kiezen om het apparaat terug te zetten naar de fabrieksinstellingen of bedrijfsgegevens te verwijderen, afhankelijk van het apparaattype. 
+4. Selecteer in het volgende deelvenster het apparaat of de apparaten in de lijst **Apparaten.** In het apparaatvenster dat wordt geopend, u ervoor kiezen om het apparaat opnieuw in de fabrieksinstellingen te zetten of bedrijfsgegevens te verwijderen, afhankelijk van het apparaattype. 
     
-    ![Selecteer in het deelvenster bedrijfsgegevens verwijderen het apparaat waarvan u de gegevens wilt verwijderen.](media/resetorremove.png)
+    ![Selecteer in het gegevensvenster van het bedrijf verwijderen het apparaat waaruit u de gegevens wilt verwijderen.](media/resetorremove.png)
   
-5. Kies in het bevestigingsvenster de optie **sluiten** **bevestigen** \> .
+5. **Kies** \> **sluiten bevestigen**in het bevestigingsvenster.
     
 
 

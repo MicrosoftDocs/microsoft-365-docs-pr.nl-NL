@@ -1,104 +1,106 @@
 ---
-title: Een Microsoft 365 Business CSP-abonnement overstappen 
-description: Ontdek hoe u een Microsoft 365 Business CSP-abonnement overstappen van preview naar GA. 
+title: Een Microsoft 365 Business CSP-abonnement wijzigen 
+description: Ontdek hoe u een Microsoft 365 Business CSP-abonnement overschakelen van preview naar GA. 
 author: jasongroce
+f1.keywords:
+- NOCSH
 ms.author: jasgro
 ms.topic: article 
 ms.prod: microsoft-365-business
 localization_priority: Normal
 audience: microsoft-business 
-keywords: Microsoft 365 Business, Microsoft 365, SMB, transitie CSP-abonnement
+keywords: Microsoft 365 Business, Microsoft 365, SMB, transition CSP-abonnement
 ms.date: 11/01/2017
-ms.openlocfilehash: 72e620df69a425ca7e5c41c5a6651bc0f7f533de
-ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
+ms.openlocfilehash: 4aadfa24bec8728c7e011ac6da48a8e30516e145
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38748336"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595040"
 ---
-# <a name="transition-a-microsoft-365-business-csp-subscription"></a>Een Microsoft 365 Business CSP-abonnement overstappen
+# <a name="transition-a-microsoft-365-business-csp-subscription"></a>Een Microsoft 365 Business CSP-abonnement wijzigen
 
-Als u een Microsoft 365 Business preview CSP-abonnement hebt, volgt u deze handleiding om erachter te komen hoe u uw bestaande preview-abonnement overstappen op Microsoft 365 Business GA (algemene beschikbaarheid).
+Als u een Microsoft 365 Business Preview CSP-abonnement hebt, volgt u deze handleiding om te zien hoe u uw bestaande preview-abonnement overzetten naar Microsoft 365 Business GA (algemene beschikbaarheid).
 
-**Een preview-abonnement overstappen op GA**
+**Een voorbeeldabonnement overschakelen naar GA**
 
-1. Meld u aan bij het <a href="https://partnercenter.microsoft.com" target="_blank">partner centrum</a>.
-2. Selecteer in het dashboard **klanten**, en zoek en selecteer de naam van het bedrijf.
+1. Meld u aan bij <a href="https://partnercenter.microsoft.com" target="_blank">Partner Center</a>.
+2. Selecteer **klanten**in het dashboard en zoek en selecteer vervolgens de bedrijfsnaam.
 
-    De abonnementen voor het bedrijf worden weergegeven.
+    De abonnementen voor het bedrijf worden vermeld.
 
-    ![Abonnementen van klanten in het partner centrum](images/pc_customer_subscriptions_1.png)
+    ![Abonnementen van klanten in Partner Center](images/pc_customer_subscriptions_1.png)
     
-3. Selecteer op de pagina **abonnementen** van het bedrijf **abonnement toevoegen**.
-4. Selecteer op de pagina **Nieuw abonnement** de optie **Small Business** en selecteer vervolgens **Microsoft 365 Business** in de lijst.
-5. Voeg het aantal licenties toe en selecteer vervolgens **volgende: controleren** om het abonnement te bekijken en selecteer vervolgens **verzenden**.
+3. Selecteer op de pagina **Abonnementen** van het bedrijf de optie **Abonnement toevoegen**.
+4. Selecteer op de pagina **Nieuw abonnement** de optie **Kleine bedrijven** en selecteer Vervolgens **Microsoft 365 Business** in de lijst.
+5. Voeg het aantal licenties toe en selecteer **Volgende: Controleer** het abonnement en selecteer **Verzenden.**
 
     ![Bekijk het nieuwe abonnement op Microsoft 365 Business](images/pc_customer_reviewnewsubscription.png)
 
-    De **abonnementen op basis van licentie** worden weergegeven **Microsoft 365 Business preview** en **Microsoft 365 Business**. U onderbreekt het preview-abonnement volgende.
+    De **op licenties gebaseerde abonnementen** tonen Microsoft **365 Business Preview** en Microsoft **365 Business.** Je schort het preview-abonnement vervolgens op.
 
-6. Selecteer **Microsoft 365 Business preview**.
-7. Selecteer op de pagina **Microsoft 365 Business preview** **geschorst** om het preview-abonnement op te schorten.
+6. Selecteer **Microsoft 365 Business Preview**.
+7. Selecteer op de pagina **Microsoft 365 Business Preview** de optie **Opgeschort** om het preview-abonnement op te schorten.
 
-    ![Het Microsoft 365 Business preview-abonnement opschorten](images/pc_customer_m365bpreview_suspend.png)
+    ![Het Microsoft 365 Business Preview-abonnement opschorten](images/pc_customer_m365bpreview_suspend.png)
 
-8. Selecteer **verzenden** om te bevestigen.
+8. Selecteer **Verzenden** om te bevestigen.
 
-    Controleer op de pagina **abonnementen** of de status van **Microsoft 365 Business preview** is **opgeschort**.
+    Controleer op de pagina **Abonnementen** of de status **van Microsoft 365 Business Preview** opgeschort **wordt**weergegeven.
 
-    ![Bevestig dat de status van het preview-abonnement is opgeschort](images/pc_customer_m365bpreview_suspend_confirm.png)
+    ![De status van voorbeeldabonnement bevestigen is opgeschort](images/pc_customer_m365bpreview_suspend_confirm.png)
 
-9. U desgewenst ook de gebruiksrechtovereenkomst valideren. Volg deze stappen om dit te doen:
-    1. Selecteer **gebruikers en licenties** op de pagina **abonnementen** van het bedrijf.
-    2. Selecteer een gebruiker op de pagina **gebruikers en licenties** .
-    3. Vink op de pagina van de gebruiker de sectie **licenties toewijzen** aan en bevestig dat **Microsoft 365 Business**wordt weergegeven.
+9. Optioneel u ook de licentieovereenkomst valideren. Volg deze stappen om dit te doen:
+    1. Selecteer **Gebruikers en licenties** op de pagina **Abonnementen** van het bedrijf.
+    2. Selecteer op de pagina **Gebruikers en licenties** een gebruiker.
+    3. Controleer op de pagina van de gebruiker de sectie **Licenties toewijzen** en bevestig of deze **Microsoft 365 Business**weergeeft.
 
-        ![Bevestig dat de Microsoft 365 business-licentie aan de gebruiker is toegewezen](images/pc_customer_userslicenses_m365b_validate.png)
+        ![De Microsoft 365 Business-licentie aan de gebruiker toegewezen](images/pc_customer_userslicenses_m365b_validate.png)
 
-## <a name="impact-to-customers-and-users-during-and-after-transition"></a>Impact op klanten en gebruikers tijdens en na de transitie
+## <a name="impact-to-customers-and-users-during-and-after-transition"></a>Impact op klanten en gebruikers tijdens en na de overgang
 
-Er is geen invloed op klanten en gebruikers tijdens de overgang en na de overgang.
+Er is geen impact op klanten en gebruikers tijdens de overgang en na de overgang.
 
 ## <a name="impact-to-customers-who-dont-transition"></a>Impact op klanten die niet overstappen
 
-De volgende tabel bevat een overzicht van de gevolgen voor klanten die niet overstappen van een Microsoft 365 Business preview-abonnement op een Microsoft 365 Business-abonnement.
+In de volgende tabel wordt de impact samengevat voor klanten die niet overstappen van een Microsoft 365 Business Preview-abonnement op een Microsoft 365 Business-abonnement.
 
-|       | T-0 tot T + 30     | T + 30 tot T + 60 | T + 60 tot T + 120 | Beyond T + 120  |
+|       | T-0 naar T+30     | T+30 naar T+60 | T+60 naar T+120 | Voorbij T+120  |
 |-------|-----------------|--------------|---------------|---------------|
-| **Status** | In respijtperiode | Verlopen      | Handicap      | Deprovisioned |
-| **Impact op de service**                                                        |
-| **Microsoft 365 Business admin Portal** | Geen invloed op functionaliteit | Geen invloed op functionaliteit | toevoegen/verwijderen van gebruikers, abonnementen aanschaffen.</br> Kan geen licenties toewijzen/intrekken. | Abonnement van de klant en alle gegevens worden verwijderd. Admin kan andere betaalde abonnementen beheren. |
-| **Office-apps**                         | Geen gevolgen voor eindgebruikers | Geen gevolgen voor eindgebruikers | Office voert de modus voor verminderde functionaliteit uit.</br> Gebruikers kunnen alleen bestanden bekijken. | Office voert de modus voor verminderde functionaliteit uit.</br> Gebruikers kunnen alleen bestanden bekijken. |
-| **Cloud Services (SharePoint Online, Exchange Online, Skype, teams en meer)** | Geen gevolgen voor eindgebruikers | Geen gevolgen voor eindgebruikers | Eindgebruikers en beheerders hebben geen toegang tot gegevens in de Cloud. | Abonnement van de klant en alle gegevens worden verwijderd. |
-| **EM + S componenten** | Geen invloed op admin</br> Geen gevolgen voor eindgebruikers | Geen invloed op admin</br> Geen gevolgen voor eindgebruikers | De capaciteit wordt niet langer afgedwongen.</br> Zie de [impact van mobiele apparaten op de vervaldatum](#mobile-device-impacts-upon-subscription-expiration) van het abonnement en de [gevolgen van Windows 10 PC bij het verlopen van abonnementen](#windows-10-pc-impacts-upon-subscription-expiration) voor meer informatie. | De capaciteit wordt niet langer afgedwongen.</br> Zie de [impact van mobiele apparaten op de vervaldatum](#mobile-device-impacts-upon-subscription-expiration) van het abonnement en de [gevolgen van Windows 10 PC bij het verlopen van abonnementen](#windows-10-pc-impacts-upon-subscription-expiration) voor meer informatie. |
-| **Windows 10 Business** | Geen invloed op admin</br> Geen gevolgen voor eindgebruikers | Geen invloed op admin</br> Geen gevolgen voor eindgebruikers | De capaciteit wordt niet langer afgedwongen.</br> Zie de [impact van mobiele apparaten op de vervaldatum](#mobile-device-impacts-upon-subscription-expiration) van het abonnement en de [gevolgen van Windows 10 PC bij het verlopen van abonnementen](#windows-10-pc-impacts-upon-subscription-expiration) voor meer informatie. | De capaciteit wordt niet langer afgedwongen.</br> Zie de [impact van mobiele apparaten op de vervaldatum](#mobile-device-impacts-upon-subscription-expiration) van het abonnement en de [gevolgen van Windows 10 PC bij het verlopen van abonnementen](#windows-10-pc-impacts-upon-subscription-expiration) voor meer informatie. |
-| **Azure AD-aanmelding bij een Windows 10-PC** | Geen invloed op admin</br> Geen gevolgen voor eindgebruikers | Geen invloed op admin</br> Geen gevolgen voor eindgebruikers | Geen invloed op admin</br> Geen gevolgen voor eindgebruikers | Zodra de Tenant is verwijderd, kan een gebruiker zich alleen aanmelden met lokale referenties. Herbeeld het apparaat als er geen lokale referenties. |
+| **Status** | In respijtperiode | Verlopen      | Handicap      | Gedeprovisioneerd |
+| **Service-effecten**                                                        |
+| **Microsoft 365 Business-beheerportal** | Geen invloed op functionaliteit | Geen invloed op functionaliteit | Kan toevoegen / verwijderen van gebruikers, abonnementen kopen.</br> Kan geen licenties toewijzen/intrekken. | Het abonnement van de klant en alle gegevens worden verwijderd. De beheerder kan andere betaalde abonnementen beheren. |
+| **Office-apps**                         | Geen impact van de eindgebruiker | Geen impact van de eindgebruiker | Office voert de modus met beperkte functionaliteit in.</br> Gebruikers kunnen alleen bestanden bekijken. | Office voert de modus met beperkte functionaliteit in.</br> Gebruikers kunnen alleen bestanden bekijken. |
+| **Cloudservices (SharePoint Online, Exchange Online, Skype, Teams en meer)** | Geen impact van de eindgebruiker | Geen impact van de eindgebruiker | Eindgebruikers en beheerders hebben geen toegang tot gegevens in de cloud. | Het abonnement van de klant en alle gegevens worden verwijderd. |
+| **EM+S-componenten** | Geen beheerdersimpact</br> Geen impact van de eindgebruiker | Geen beheerdersimpact</br> Geen impact van de eindgebruiker | Het vermogen wordt niet langer afgedwongen.</br> Zie [De gevolgen voor mobiele apparaten voor het verlopen van abonnementen](#mobile-device-impacts-upon-subscription-expiration) en de gevolgen van Windows [10-pc voor](#windows-10-pc-impacts-upon-subscription-expiration) het verlopen van het abonnement voor meer informatie. | Het vermogen wordt niet langer afgedwongen.</br> Zie [De gevolgen voor mobiele apparaten voor het verlopen van abonnementen](#mobile-device-impacts-upon-subscription-expiration) en de gevolgen van Windows [10-pc voor](#windows-10-pc-impacts-upon-subscription-expiration) het verlopen van het abonnement voor meer informatie. |
+| **Windows 10 Business** | Geen beheerdersimpact</br> Geen impact van de eindgebruiker | Geen beheerdersimpact</br> Geen impact van de eindgebruiker | Het vermogen wordt niet langer afgedwongen.</br> Zie [De gevolgen voor mobiele apparaten voor het verlopen van abonnementen](#mobile-device-impacts-upon-subscription-expiration) en de gevolgen van Windows [10-pc voor](#windows-10-pc-impacts-upon-subscription-expiration) het verlopen van het abonnement voor meer informatie. | Het vermogen wordt niet langer afgedwongen.</br> Zie [De gevolgen voor mobiele apparaten voor het verlopen van abonnementen](#mobile-device-impacts-upon-subscription-expiration) en de gevolgen van Windows [10-pc voor](#windows-10-pc-impacts-upon-subscription-expiration) het verlopen van het abonnement voor meer informatie. |
+| **Azure AD-inloging op een Windows 10-pc** | Geen beheerdersimpact</br> Geen impact van de eindgebruiker | Geen beheerdersimpact</br> Geen impact van de eindgebruiker | Geen beheerdersimpact</br> Geen impact van de eindgebruiker | Zodra de tenant is verwijderd, kan een gebruiker zich alleen aanmelden met lokale referenties. Afbeelding van het apparaat opnieuw als er geen lokale referenties zijn. |
 
-## <a name="mobile-device-impacts-upon-subscription-expiration"></a>Het mobiele apparaat heeft invloed op de vervaldatum van het abonnement
+## <a name="mobile-device-impacts-upon-subscription-expiration"></a>Mobiele apparaat heeft invloed op het verlopen van het abonnement
 
-De volgende tabel bevat een overzicht van de gevolgen voor het app-beheerbeleid op mobiele apparaten.
+In de volgende tabel wordt een overzicht gemaakt van de impact op het beleid voor app-beheer op mobiele apparaten.
 
-|                            | Volledig gelicentieerde ervaring                      | T + 60 dagen na afloop          |
+|                            | Volledig gelicentieerde ervaring                      | T+60 dagen na het verstrijken          |
 |----------------------------|------------------------------------------------|------------------------------------|
-| **Werkbestanden verwijderen van een inactief apparaat** | Werkbestanden worden na geselecteerde dagen verwijderd | Werkbestanden blijven op de persoonlijke apparaten van de gebruiker staan |
-| **Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven** | Werkbestanden kunnen alleen worden opgeslagen in OneDrive voor bedrijven | Werkbestanden kunnen overal worden opgeslagen |
-| **Werkbestanden versleutelen** | Werkbestanden worden versleuteld | Werkbestanden worden niet meer versleuteld.</br> Beveiligingsbeleid wordt verwijderd en Office-gegevens in apps worden verwijderd. |
-| **PINCODE of vingerafdruk vereisen voor toegang tot Office-apps** | Beperkte toegang tot apps | Geen toegangsbeperking op app-niveau |
-| **PINCODE opnieuw instellen wanneer de aanmelding mislukt** | Beperkte toegang tot apps | Geen toegangsbeperking op app-niveau |
-| **Vereisen dat gebruikers zich opnieuw aanmelden nadat Office-apps inactief zijn geweest** | Aanmelden vereist | Geen aanmelding vereist |
-| **Toegang weigeren tot werkbestanden op opengebroken of geroote apparaten** | Werkbestanden kunnen niet worden geopend op jailbroken/geroote apparaten | Werkbestanden kunnen worden benaderd op jailbroken/geroote apparaten |
-| **Gebruikers toestaan inhoud van Office-apps naar persoonlijke apps te kopiëren** | Kopiëren/plakken beperkt tot apps die beschikbaar zijn als onderdeel van Microsoft 365 Business Subscription | Kopiëren/plakken beschikbaar voor alle apps |
+| **Werkbestanden verwijderen van een inactief apparaat** | Werkbestanden worden na geselecteerde dagen verwijderd | Werkbestanden blijven op de persoonlijke apparaten van de gebruiker |
+| **Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven** | Werkbestanden kunnen alleen worden opgeslagen in OneDrive voor Bedrijven | Werkbestanden kunnen overal worden opgeslagen |
+| **Werkbestanden versleutelen** | Werkbestanden zijn versleuteld | Werkbestanden worden niet meer versleuteld.</br> Beveiligingsbeleid wordt verwijderd en Office-gegevens in apps worden verwijderd. |
+| **Pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps** | Beperkte toegang tot apps | Geen toegangsbeperking op app-niveau |
+| **Pincode opnieuw instellen wanneer het inloggen mislukt** | Beperkte toegang tot apps | Geen toegangsbeperking op app-niveau |
+| **Gebruikers verplichten zich opnieuw aan te melden nadat Office-apps niet actief zijn geweest** | Aanmelden vereist | Aanmelden is niet nodig |
+| **Toegang weigeren tot werkbestanden op opengebroken of geroote apparaten** | Werkbestanden zijn niet toegankelijk op jailbroken/gewortelde apparaten | Werkbestanden kunnen worden geopend op jailbroken / geworteld apparaten |
+| **Gebruikers toestaan inhoud van Office-apps naar persoonlijke apps te kopiëren** | Kopiëren/plakken beperkt tot apps die beschikbaar zijn als onderdeel van microsoft 365 Business-abonnement | Kopiëren/plakken beschikbaar voor alle apps |
 
-## <a name="windows-10-pc-impacts-upon-subscription-expiration"></a>Windows 10 PC heeft gevolgen bij het verlopen van het abonnement
+## <a name="windows-10-pc-impacts-upon-subscription-expiration"></a>Windows 10 PC heeft invloed op het verlopen van het abonnement
 
-De volgende tabel bevat een overzicht van de gevolgen voor het configuratiebeleid voor Windows 10-apparaten.
+In de volgende tabel wordt een overzicht gemaakt van de impact op het configuratiebeleid voor Windows 10-apparaten.
 
-|                            | Volledig gelicentieerde ervaring                      | T + 60 dagen na afloop          |
+|                            | Volledig gelicentieerde ervaring                      | T+60 dagen na het verstrijken          |
 |----------------------------|------------------------------------------------|------------------------------------|
-| **Pc's beschermen tegen dreigingen met Windows Defender** | In-en uitschakelen is buiten de gebruikersbesturing | Gebruiker kan Windows Defender in-of uitschakelen op de Windows 10-PC |
-| **Bescherm pc's tegen internetdreigingen in Microsoft Edge** | PC-beveiliging in Microsoft Edge | Gebruiker kan PC-beveiliging in-of uitschakelen in Microsoft Edge |
-| **Apparaatscherm uitschakelen wanneer deze inactief is** | Admin definieert time-outinterval beleid voor scherm | Scherm timeout kan worden geconfigureerd door eindgebruiker |
-| **Gebruikers toestaan om apps te downloaden vanuit de Microsoft Store** | Beheerder bepaalt of een gebruiker apps uit de Microsoft Store kan downloaden | Gebruiker kan apps downloaden van de Microsoft Store op elk gewenst moment |
-| **Gebruikers toestaan om Cortana te openen** | Admin definieert beleid voor gebruikers toegang tot Cortana | Gebruikers apparaten om Cortana aan/uit te zetten |
-| **Gebruikers toestaan om tips en advertenties van Microsoft te ontvangen** | Admin definieert beleid voor gebruikers ontvangen tips en advertenties van Microsoft | Gebruiker kan tips en advertenties van Microsoft in-of uitschakelen |
-| **Gebruikers toestaan om inhoud uit Office-apps te kopiëren naar persoonlijke apps** | Admin definieert beleid om Windows 10-apparaten up-to-date te houden | Gebruikers kunnen bepalen wanneer Windows moet worden bijgewerkt |
+| **Pc's beschermen tegen bedreigingen met Windows Defender** | In-/uit-of in- en uitschakelen valt buiten de gebruikersbesturing | Gebruiker kan Windows Defender in-/uitschakelen op de Windows 10-pc |
+| **Bescherm pc's tegen internetdreigingen in Microsoft Edge** | PC-beveiliging in Microsoft Edge | Gebruiker kan pc-beveiliging in-/uitschakelen in Microsoft Edge |
+| **Apparaatscherm uitschakelen wanneer u niet actief bent** | Beheerder definieert het schermtime-outintervalbeleid | Time-out voor het scherm kan worden geconfigureerd door de eindgebruiker |
+| **Gebruikers toestaan om apps te downloaden vanuit de Microsoft Store** | Beheerder bepaalt of een gebruiker apps uit de Microsoft Store kan downloaden | Gebruiker kan apps downloaden uit de Microsoft Store op elk gewenst moment |
+| **Gebruikers toestaan om Cortana te openen** | Beheerder definieert beleid voor gebruikerstoegang tot Cortana | Gebruikersapparaten om Cortana in/uit te schakelen |
+| **Gebruikers toestaan tips en advertenties van Microsoft te ontvangen** | Beheerder definieert beleid voor gebruikersontvangen tips en advertenties van Microsoft | Gebruiker kan tips en advertenties van Microsoft in- en uitschakelen |
+| **Gebruikers toestaan om inhoud uit Office-apps te kopiëren naar persoonlijke apps** | Beheerder definieert beleid om Windows 10-apparaten up-to-date te houden | Gebruikers kunnen beslissen wanneer ze Windows willen bijwerken |

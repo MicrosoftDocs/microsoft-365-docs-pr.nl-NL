@@ -1,5 +1,7 @@
 ---
 title: Statuswaarden voor apparaten
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -22,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
 description: Meer informatie over apparaatstatussen in Microsoft 365 Business.
-ms.openlocfilehash: b55e6a5d538ec28d195225e93797cea27afd2e8b
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: 02b4eebac62a48e3ddd53d362db2d60067ac05eb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38320203"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593966"
 ---
 # <a name="device-states"></a>Statuswaarden voor apparaten
 
@@ -41,12 +43,12 @@ Apparaten in de lijst **Apparaatacties** lijst (startpagina beheerders \> **Appa
 |In afwachting van buiten gebruik stellen  <br/> |Microsoft 365 Business is bezig met de voorbereiding om bedrijfsgegevens van het apparaat te verwijderen.  <br/> |
 |Buitengebruikstelling wordt uitgevoerd  <br/> |Microsoft 365 Business verwijdert momenteel bedrijfsgegevens van het apparaat.  <br/> |
 |Buiten gebruik stellen is mislukt  <br/> | Het verwijderen van bedrijfsgegevens is mislukt.  <br/> |
-|Geannuleerd intrekken  <br/> |Actie intrekken is geannuleerd.  <br/> |
+|Met pensioen geannuleerd  <br/> |De actie voor de pensionering is geannuleerd.  <br/> |
 |Wissen in behandeling  <br/> |Wachten tot de fabrieksinstellingen opnieuw worden ingesteld.  <br/> |
 |Wissen wordt uitgevoerd  <br/> |De fabrieksinstellingen worden opnieuw ingesteld.  <br/> |
-|Wissen is mislukt  <br/> |Kon niet Factory Reset doen.  <br/> |
-|Wissen geannuleerd  <br/> |Fabrieksinstelling wissen is geannuleerd.  <br/> |
-|Niet in orde  <br/> |Een actie is in behandeling (of wordt uitgevoerd), maar het apparaat is niet ingecheckt voor 30 + dagen.  <br/> |
+|Wissen is mislukt  <br/> |Kon niet doen fabriek resetten.  <br/> |
+|Veeg geannuleerd  <br/> |Fabrieksdoek werd geannuleerd.  <br/> |
+|Niet in orde  <br/> |Er is een actie in behandeling (of in uitvoering), maar het apparaat is al meer dan 30 dagen niet ingecheckt.  <br/> |
 |In afwachting van verwijderen  <br/> |Het verwijderen is in behandeling.  <br/> |
 |Gedetecteerd  <br/> |Microsoft 365 Business heeft het apparaat gedetecteerd.  <br/> |
    

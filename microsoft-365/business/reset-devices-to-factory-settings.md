@@ -1,5 +1,7 @@
 ---
 title: Fabrieksinstellingen terugzetten voor Windows 10-apparaten
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,13 +21,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
-description: 'Leer hoe u Microsoft 365 Business gebruiken om uw Windows 10-apparaten opnieuw in de fabriek te resetten. '
-ms.openlocfilehash: 867b87b488ec13c7b84a9eb810a076fbb6da545d
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+description: 'Meer informatie over het gebruik van Microsoft 365 Business om uw Windows 10-apparaten in de fabriek te resetten. '
+ms.openlocfilehash: b5039693640a17e531296d019117a9f40bf98a7f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715157"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593471"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Fabrieksinstellingen terugzetten voor Windows 10-apparaten
 
@@ -33,11 +35,11 @@ ms.locfileid: "38715157"
 
 Het herstellen van de fabrieksinstellingen zet de instellingen op het apparaat terug naar de oorspronkelijke instellingen toen het apparaat is gekocht. Alle apps en gegevens die op het apparaat zijn geïnstalleerd na aankoop worden verwijderd. U kunt Microsoft 365 Business gebruiken om voor Windows 10-apparaten die u beheert de fabrieksinstellingen te herstellen.
   
-1. Ga naar het Admin Center op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>beheercentrum bij .
     
-2. Kies in de linker navigatie **apparaten** \> **beheren**.
+2. Kies **Apparaten** \> **beheren**in het linkernavigatienav.
 
-3. Vink op de pagina **beheren** het selectievakje aan naast het apparaat waaruit u gegevens wilt verwijderen en kies vervolgens in het dropdownmenu **beheren** de optie fabrieksinstellingen **herstellen**.
+3. Schakel op de pagina **Beheren** het selectievakje in naast het apparaat waaruit u gegevens wilt verwijderen en kies vervolgens in **de** vervolgkeuzelijst **Fabrieksreset beheren**.
     
 4. Kies in het deelvenster **Weet u zeker dat u de fabrieksinstellingen op de volgende apparaten wilt herstellen?** de optie **Bevestigen** \> **Sluiten**.
     

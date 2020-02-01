@@ -1,5 +1,7 @@
 ---
 title: Beveiligde apparaten beheren met Microsoft 365 voor Bedrijven
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -23,17 +25,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
-description: Meer informatie over het resetten of wissen van een apparaat dat wordt beheerd via beveiligingsbeleid.
-ms.openlocfilehash: ef3b8ed0e3b3f8b9136d3929bce1b835309498c7
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+description: Leer een apparaat dat wordt beheerd door middel van beveiligingsbeleid opnieuw in te stellen of af te vegen.
+ms.openlocfilehash: b022d9076b60b0d29771b2ba8f7afc0435bda096
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633324"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593836"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business"></a>Beveiligde apparaten beheren met Microsoft 365 voor Bedrijven
 
-Nadat een gebruiker zijn apparaat met uw organisatie verbindt door zich aan te melden met hun werkaccount op het apparaat of Office-apps op het apparaat, u het apparaat beveiligen met het beleid dat u hebt ingesteld. Aangesloten apparaten worden weergegeven op de pagina **apparaten** . Als een apparaat is kwijtgeraakt of wordt gestolen, u het vanaf deze pagina beheren om bedrijfsgegevens te verwijderen. U ook Windows 10-apparaten resetten naar hun fabrieksinstellingen om eventuele aangepaste instellingen te wissen. 
+Nadat een gebruiker zijn apparaat met uw organisatie hebt verbonden door zich met zijn werkaccount aan te melden bij het apparaat of met Office-apps op het apparaat, u het apparaat beveiligen met het door u ingestelde beleid. Verbonden apparaten staan vermeld op de pagina **Apparaten.** Als een apparaat verloren of gestolen is, u het vanaf deze pagina beheren om bedrijfsgegevens te verwijderen. U Windows 10-apparaten ook opnieuw instellen op hun fabrieksinstellingen om aangepaste instellingen uit te wissen. 
 
 Zie de volgende artikelen voor meer informatie over de taken die u gebruiken om apparaten te beheren: 
   

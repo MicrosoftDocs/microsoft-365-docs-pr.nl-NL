@@ -1,5 +1,7 @@
 ---
 title: Instellingen voor apparaatbeveiliging instellen voor Windows 10-pc's
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,13 +21,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
-description: Meer informatie over standaard-en andere instellingen die beschikbaar zijn in Microsoft 365 Business om Windows 10-apparaten te beveiligen.
-ms.openlocfilehash: 1846ee7ae09db94575ef27dcf4f5721661f7666d
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+description: Meer informatie over standaardinstellingen en andere instellingen die beschikbaar zijn in Microsoft 365 Business om Windows 10-apparaten te beveiligen.
+ms.openlocfilehash: b286eb417a8e723b01838c16286ceb612d497c7d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715197"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593511"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Instellingen voor apparaatbeveiliging instellen voor Windows 10-pc's
 
@@ -35,15 +37,15 @@ Bekijk een video over het beveiligen van Windows 10-apparaten met Microsoft 365 
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
-1. Ga naar het Admin Center op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
+1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>beheercentrum bij . 
     
-2. Kies op de linker navigatie \> **apparaatbeleidsregels** \> **toevoegen**. ****
+2. Kies op het linkernavigatiescherm het **beleid** \> **Voor apparaten** \> **toevoegen**.
   
 3. Voer in het deelvenster **Beleid toevoegen** een unieke naam in voor dit beleid. 
     
 4. Kies onder **Beleidstype** **Configuratie voor Windows 10-apparaat**.
     
-5. Vouw **Windows 10-apparaten beveiligen** uit \> configureer de instellingen op de manier die u wilt. Zie voor meer informatie, [beschikbare instellingen](#available-settings). 
+5. Vouw **Windows 10-apparaten beveiligen** uit \> configureer de instellingen op de manier die u wilt. Zie [Beschikbare instellingen](#available-settings)voor meer informatie. 
     
     U kunt altijd de koppeling **Standaardwaarden herstellen** gebruiken om terug te keren naar de standaardinstelling. 
     
@@ -65,11 +67,11 @@ Zie [Hoe beveiligingsfuncties in Microsoft 365 Business zijn toegewezen aan Intu
 |Bescherm pc's tegen virussen en andere bedreigingen met Windows Defender-antivirussoftware  <br/> |Daarvoor moet Windows Defender-antivirussoftware zijn ingeschakeld om pc's te beschermen tegen de gevaren die verbinding met internet met zich meebrengt.  <br/> |
 |Bescherm pc's tegen internetdreigingen in Microsoft Edge  <br/> |Hiermee worden instellingen in Edge ingeschakeld die gebruikers helpen beschermen tegen schadelijke websites en downloads.  <br/> |
 |Gebruik regels die de kwetsbaarheid voor aanvallen van apparaten verminderen  <br/> |Wanneer deze optie is ingeschakeld, kunnen hiermee acties en apps worden geblokkeerd die doorgaans door malware worden gebruikt om apparaten te infecteren. Deze instelling is alleen beschikbaar als Windows Defender Antivirus is ingesteld op Aan. Zie [Kwetsbaarheid voor aanvallen verminderen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/exploit-protection) voor meer informatie.  <br/> |
-|Mappen beschermen tegen bedreigingen, zoals ransomware  <br/> |Deze instelling maakt gebruik van gecontroleerde mappentoegang om bedrijfsgegevens te beschermen tegen wijzigingen die worden aangebracht door verdachte of kwaadaardige apps, zoals ransomware. Deze typen apps worden geblokkeerd zodat er geen wijzigingen in beveiligde mappen kunnen worden aangebracht. Deze instelling is alleen beschikbaar als Windows Defender Antivirus is ingesteld op Aan. Zie [mappen beveiligen met gecontroleerde maptoegang](https://docs.microsoft.com/configmgr/protect/deploy-use/create-deploy-exploit-guard-policy#bkmk_CFA) voor meer informatie.  <br/> |
-|Netwerktoegang tot mogelijke schadelijke inhoud op internet voorkomen  <br/> |Gebruik deze instelling om uitgaande gebruikers verbindingen te blokkeren voor Internet locaties met een laag reputatie die mogelijk phishing, exploits of andere schadelijke inhoud hosten. Deze instelling is alleen beschikbaar als Windows Defender antivirus is ingesteld **op**aan. Zie [uw netwerk beveiligen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-real-time-protection-windows-defender-antivirus)voor meer informatie.  <br/> |
-|Bestanden en mappen op pc's beschermen tegen onbevoegde toegang met BitLocker  <br/> |Bitlocker beschermt gegevens door de harde schijven van de computer te versleutelen en te beschermen tegen blootstelling van gegevens als een computer zoekraakt of wordt gestolen. Zie [Veelgestelde vragen over BitLocker](https://go.microsoft.com/fwlink/?linkid=871000)voor meer informatie.  <br/> |
+|Mappen beschermen tegen bedreigingen, zoals ransomware  <br/> |Deze instelling maakt gebruik van gecontroleerde mappentoegang om bedrijfsgegevens te beschermen tegen wijzigingen die worden aangebracht door verdachte of kwaadaardige apps, zoals ransomware. Deze typen apps worden geblokkeerd zodat er geen wijzigingen in beveiligde mappen kunnen worden aangebracht. Deze instelling is alleen beschikbaar als Windows Defender Antivirus is ingesteld op Aan. Zie [Mappen beveiligen met beheerde maptoegang](https://docs.microsoft.com/configmgr/protect/deploy-use/create-deploy-exploit-guard-policy#bkmk_CFA) voor meer informatie.  <br/> |
+|Netwerktoegang tot mogelijke schadelijke inhoud op internet voorkomen  <br/> |Gebruik deze instelling om uitgaande gebruikersverbindingen met internetlocaties met een lage reputatie te blokkeren die phishing- of exploits of andere schadelijke inhoud kunnen hosten. Deze instelling is alleen beschikbaar als Windows Defender Antivirus is ingesteld op **Aan.** Zie [Uw netwerk beveiligen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-real-time-protection-windows-defender-antivirus)voor meer informatie.  <br/> |
+|Bestanden en mappen op pc's beschermen tegen onbevoegde toegang met BitLocker  <br/> |Bitlocker beschermt gegevens door de harde schijven van de computer te versleutelen en te beschermen tegen blootstelling van gegevens als een computer zoekraakt of wordt gestolen. Zie [Bitlocker FAQ voor](https://go.microsoft.com/fwlink/?linkid=871000)meer informatie.  <br/> |
 |Gebruikers toestaan om apps te downloaden vanuit de Microsoft Store  <br/> |Hiermee kunnen gebruikers apps downloaden en installeren vanuit de Microsoft Store. Omdat apps kunnen variëren van spelletjes tot productiviteitsprogramma's, laten we deze instelling **ingeschakeld**, maar u kunt de instelling uitschakelen voor extra beveiliging.  <br/> |
-|Gebruikers toestaan om Cortana te openen  <br/> |Cortana kan zeer nuttig zijn! Cortana kan instellingen voor u in-of uitschakelen, routebeschrijvingen geven en ervoor zorgen dat u op tijd bent voor afspraken, dus we houden deze **instelling standaard bij.**  <br/> |
+|Gebruikers toestaan om Cortana te openen  <br/> |Cortana kan zeer nuttig zijn! Cortana kan instellingen voor u in- of uitschakelen, aanwijzingen geven en ervoor zorgen dat u op tijd bent voor afspraken, dus we houden deze instelling standaard **ingeschakeld.**  <br/> |
 |Gebruikers toestaan om Windows-tips en reclame van Microsoft te ontvangen  <br/> |Windows-tips kunnen handig zijn en gebruikers op weg helpen wanneer er nieuwe functies beschikbaar zijn.  <br/> |
 |Windows 10-apparaten automatisch bijwerken  <br/> |Hiermee ontvangen Windows 10-apparaten automatisch de nieuwste updates.  <br/> |
 |Apparaatscherm uitschakelen indien inactief gedurende deze periode  <br/> |Hiermee weet u zeker dat bedrijfsgegevens beveiligd zijn als een gebruiker niet actief is. Een gebruiker kan in een openbare locatie werken, zoals een café, en even weggaan of afgeleid worden, waardoor de informatie op het apparaat gemakkelijk door onbekenden bekeken kan worden. Met deze instelling kunt u bepalen hoelang de gebruiker inactief kan zijn voordat het scherm wordt uitgeschakeld.  <br/> |

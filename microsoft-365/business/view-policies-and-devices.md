@@ -1,5 +1,7 @@
 ---
 title: Beleid en apparaten weergeven
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,13 +21,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
-description: Bekijk apparaatbeleid en-acties door u aan te melden bij Microsoft 365 Business met globale beheerdersreferenties.
-ms.openlocfilehash: 982c1f410802f9589d40073a11768b7dd68567c0
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+description: Bekijk apparaatbeleid en -acties door u aan te melden bij Microsoft 365-bedrijven met globale beheerdersreferenties.
+ms.openlocfilehash: 9664a72d85cf6eed9993937299d38a84b9a8f0d2
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38718914"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595582"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>Beleid en apparaten weergeven en beheren
 
@@ -33,18 +35,18 @@ ms.locfileid: "38718914"
 
 ## <a name="view-and-edit-device-policies"></a>Apparaatbeleid weergeven en bewerken
 
-1.  Ga naar het Admin Center op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
-2. **Kies** \> op de linkernavigatiebalk **apparaatbeleid**.
+1.  Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>beheercentrum bij .
+2. Kies op het linkernavigatiescherm **het beleid voor** **apparaten** \> .
 
-    Op deze pagina u een beleid maken, bewerken, doelgroep wijzigen of verwijderen.
+    Op deze pagina u een doelgroep maken, bewerken, wijzigen of een beleid verwijderen.
 
     ![Screenshot of the Policies page](media/devicepolicies.png)
   
 ## <a name="view-and-manage-devices"></a>Apparaten weergeven en beheren
 
-1. Kies op de linker navigatie **apparaten** \> **beheren**. 
+1. Kies **Apparaten** \> **beheren**op het linkernavigatiescherm. 
     
     Op deze pagina u een of meer apparaten selecteren en bedrijfsgegevens verwijderen. Voor Windows 10-apparaten waarvoor u apparaatbeveiliging hebt ingesteld, kunt u er ook voor kiezen de fabrieksinstellingen van het apparaat terug te zetten.
   
-   ![Apparaten beheren, pagina](media/devicesmanage.png)
+   ![Pagina Apparaten beheren](media/devicesmanage.png)
 

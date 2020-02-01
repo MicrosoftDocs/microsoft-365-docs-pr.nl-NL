@@ -1,5 +1,7 @@
 ---
 title: Windows-pc's instellen voor gebruikers van Microsoft 365 Business
+f1.keywords:
+- CSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,13 +23,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: 'Meer informatie over het instellen van Windows-apparaten met Windows 10 Pro voor Microsoft 365 zakelijke gebruikers. '
-ms.openlocfilehash: 1e160d624ce5150a1fb74899949aca824589d908
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+description: 'Meer informatie over het instellen van Windows-apparaten met Windows 10 Pro voor Microsoft 365 Business-gebruikers. '
+ms.openlocfilehash: a93a184d6209561712144c0947e62d450f850daf
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831338"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594284"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Windows-pc's instellen voor gebruikers van Microsoft 365 Business
 
@@ -39,17 +41,17 @@ Als u Windows-apparaten met Windows 7 Pro, Windows 8 Pro of Windows 8.1 Pro hebt
   
 Volg de stappen in dit onderwerp voor meer informatie over het voor Windows-apparaten uitvoeren van een upgrade naar de Windows 10 Pro makersupdate. [Voor Windows-apparaten upgrade uitvoeren naar Windows Pro makersupdate](upgrade-to-windows-pro-creators-update.md).
   
-Zie [controleren of het apparaat is verbonden met Azure AD](#verify-the-device-is-connected-to-azure-ad) om te controleren of u de upgrade hebt, of om ervoor te zorgen dat de upgrade heeft gewerkt.
+Zie [Controleren of het apparaat is verbonden met Azure AD](#verify-the-device-is-connected-to-azure-ad) om te controleren of u de upgrade hebt of om te controleren of de upgrade is uitgevoerd.
 
 Bekijk een korte video over het verbinden van Windows met Microsoft 365.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
-Als u deze video nuttig vond, Bekijk dan de [complete trainingreeks voor kleine bedrijven en die nieuw bij Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine bedrijven en degene die nieuw zijn bij Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10-apparaten koppelen aan Azure AD van uw organisatie
 
-Wanneer alle Windows-apparaten in uw organisatie zijn bijgewerkt naar Windows 10 Pro Creators update of al Windows 10 Pro Creators update worden uitgevoerd, u deze apparaten toevoegen aan Azure Active Directory van uw organisatie. Zodra de apparaten zijn samengevoegd, worden ze automatisch geüpgraded naar Windows 10 Business, dat deel uitmaakt van uw Microsoft 365 Business-abonnement.
+Wanneer alle Windows-apparaten in uw organisatie zijn geüpgraded naar Windows 10 Pro Creators Update of al Windows 10 Pro Creators Update uitvoeren, u lid worden van deze apparaten in de Azure Active Directory van uw organisatie. Zodra de apparaten zijn samengevoegd, worden ze automatisch geüpgraded naar Windows 10 Business, dat deel uitmaakt van uw Microsoft 365 Business-abonnement.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>Voor een Windows 10 Pro-apparaat dat nieuw is of waarvoor pas een upgrade is uitgevoerd
 
@@ -91,7 +93,7 @@ Voor een nieuw apparaat met Windows 10 Pro makersupdate of voor een apparaat waa
   
    ![Enter your work or school email on the Let's get you signed in page](media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
-6. Controleer op de pagina **Zorg ervoor dat dit uw organisatie is** , of de informatie juist is en klik op **join**.
+6. Controleer op de pagina **Controleren of dit uw organisatie is,** controleer of de informatie juist is en klik op **Deelnemen**.
   
    Klik op de pagina **U bent nu helemaal klaar** op **Gereed**.
   
@@ -105,7 +107,7 @@ Als u de synchronisatiestatus wilt controleren, klikt u op de pagina **Toegang t
   
 Klik op de pagina Synchronisatiestatus op Synchroniseren om het recentste beleid voor het beheren van mobiele apparaten naar de pc te downloaden.
   
-Als u de Microsoft 365 Business-account wilt gaan gebruiken, gaat u naar de **Start** knop van Windows, klikt u met de rechtermuisknop op de afbeelding van uw huidige account en schakelt u vervolgens **account**in. Meld u aan met het e-mailadres en wachtwoord van uw organisatie.
+Als u het Microsoft 365 Business-account wilt gebruiken, gaat u naar de **knop** Start van Windows, klikt u met de rechtermuisknop op uw weergegeven accountafbeelding en vervolgens van **account wisselen**. Meld u aan met het e-mailadres en wachtwoord van uw organisatie.
   
 ![Click Info button to view synchronization status](media/818f7043-adbf-402a-844a-59d50034911d.png)
   
@@ -125,4 +127,4 @@ Voor het instellen van mobiele apparaten raadpleegt u [Mobiele apparaten instell
   
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft 365 zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

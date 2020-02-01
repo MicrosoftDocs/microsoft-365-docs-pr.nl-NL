@@ -1,5 +1,7 @@
 ---
 title: Hoe beveiligingsfuncties in Microsoft 365 Business zijn toegewezen aan Intune-instellingen
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -22,13 +24,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
-description: Meer informatie over hoe beveiligingsfuncties in Microsoft 365 Business map naar intune-instellingen. Het abonnement biedt u een licentie voor het wijzigen van intune-instellingen.
-ms.openlocfilehash: b7d87e9a174e942a6533ae034b4f4a551ae2159f
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+description: Lees hoe beveiligingsfuncties in Microsoft 365 Business-kaart voor Instellingen voor Intune. Het abonnement biedt u een licentie om intune-instellingen te wijzigen.
+ms.openlocfilehash: f8c28d5ee5c543e76e960b5c9f868048b91ee704
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633284"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593756"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-map-to-intune-settings"></a>Hoe beveiligingsfuncties in Microsoft 365 Business zijn toegewezen aan Intune-instellingen
 
@@ -36,13 +38,13 @@ ms.locfileid: "38633284"
 
 In de volgende tabel vindt u informatie over hoe de beleidsinstellingen voor Android- en iOS-toepassingen worden toegewezen aan Intune-instellingen.
   
-Als u de intune-instelling wilt vinden, meldt u zich aan met uw Microsoft 365 Business admin-referenties en gaat u naar **admin Centers**en vervolgens naar **intune**.
+Als u de instelling Intune wilt vinden, meldt u zich aan met uw Microsoft 365 Business-beheerdersreferenties en gaat u naar **beheercentra**en vervolgens **intune**.
   
  > [!IMPORTANT]
  > 
- > Een Microsoft 365 Business-abonnement biedt u een licentie voor het wijzigen van alle intune-instellingen. Zie [Inleiding tot intune om aan de slag](https://docs.microsoft.com/intune/introduction-intune) te gaan.
+ > Een Microsoft 365 Business-abonnement geeft u een licentie om alle Intune-instellingen te wijzigen. Zie [Inleiding tot Intune om aan de slag te gaan.](https://docs.microsoft.com/intune/introduction-intune)
   
-Selecteer de gewenste &mdash; Beleidsnaam, bijvoorbeeld toepassingsbeleid voor Android &mdash; en kies vervolgens **beleidsinstellingen**.
+Selecteer bijvoorbeeld de &mdash; gewenste beleidsnaam, toepassingsbeleid voor Android &mdash; en kies vervolgens **Beleidsinstellingen**.
   
 Onder **Werkbestanden beveiligen bij verlies of diefstal van apparaten**
   
@@ -61,29 +63,29 @@ Onder **Beheren hoe gebruikers Office-bestanden op mobiele apparaten openen**
 |Werkbestanden versleutelen  <br/> |App-gegevens versleutelen  <br/> |
 |Onder **Beheren hoe gebruikers Office-bestanden op mobiele apparaten openen** <br/> ||
 |Een pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps  <br/> | Pincode vereisen voor toegang  <br/>  Hiermee wordt het volgende ingesteld:  <br/> **Eenvoudige pincode toestaan** op **Ja** <br/> **Lengte van de pincode** op 4  <br/> **Gebruik van vingerafdruk in plaats van pincode toestaan** op **Ja** <br/> **App-pincode uitschakelen wanneer de pincode van het apparaat wordt beheerd** op **Nee** <br/> |
-|PINCODE opnieuw instellen wanneer de aanmelding mislukt dit vele malen (dit is uitgeschakeld als PIN is niet vereist)  <br/> |Aantal pogingen voordat pincode opnieuw wordt ingesteld  <br/> |
-|Vereisen dat gebruikers zich opnieuw aanmelden nadat Office-apps inactief zijn geweest (dit is uitgeschakeld als PIN niet vereist is)  <br/> | Toegangsvereisten opnieuw controleren na (minuten)  <br/>  Hiermee wordt het volgende ingesteld:  <br/> **Timeout** wordt ingesteld op minuten  <br/>  Dit is gelijk aan het aantal minuten dat u in Microsoft 365 Business hebt ingesteld.  <br/> **Offline respijtperiode** is standaard ingesteld op 720 minuten  <br/> |
+|Pincode opnieuw instellen wanneer inloggen dit vele malen mislukt (dit is uitgeschakeld als pincode niet vereist is)  <br/> |Aantal pogingen voordat pincode opnieuw wordt ingesteld  <br/> |
+|Gebruikers verplichten zich opnieuw aan te melden nadat Office-apps niet actief zijn geweest (dit is uitgeschakeld als pincode niet vereist is)  <br/> | Toegangsvereisten opnieuw controleren na (minuten)  <br/>  Hiermee wordt het volgende ingesteld:  <br/> **Timeout** wordt ingesteld op minuten  <br/>  Dit is gelijk aan het aantal minuten dat u in Microsoft 365 Business hebt ingesteld.  <br/> **Offline respijtperiode** is standaard ingesteld op 720 minuten  <br/> |
 |Toegang weigeren tot werkbestanden op opengebroken of geroote apparaten  <br/> |Verhinderen dat beheerde apps worden uitgevoerd op apparaten die zijn opengebroken of geroot.  <br/> |
-|Gebruikers toestaan om inhoud uit Office-apps te kopiëren naar persoonlijke apps  <br/> | Knippen, kopiëren en plakken beperken met andere apps  <br/>  Als optie Microsoft 365 Business is ingesteld op **Aan**, dan worden deze drie opties ook ingesteld op **Alle apps** in Intune:  <br/> **Apps toestaan gegevens over te dragen op andere apps** <br/> **Apps toestaan gegevens te ontvangen van andere apps** <br/> **Knippen, kopiëren en plakken met andere apps beperken** <br/>  Als optie Microsoft 365 Business is ingesteld op **Aan**, dan worden alle Intune-opties als volgt ingesteld:  <br/> **Apps toestaan gegevens over te dragen op andere apps** wordt ingesteld op **Door beleid beheerde apps** <br/> **Apps toestaan gegevens te ontvangen van andere apps** wordt ingesteld op **Alle apps** <br/> **Knippen, kopiëren en plakken met andere apps beperken** wordt ingesteld op **Door beleid beheerde apps met inplakken** <br/> |
+|Gebruikers toestaan om inhoud uit Office-apps te kopiëren naar persoonlijke apps  <br/> | Knippen, kopiëren en plakken met andere apps beperken  <br/>  Als optie Microsoft 365 Business is ingesteld op **Aan**, dan worden deze drie opties ook ingesteld op **Alle apps** in Intune:  <br/> **Apps toestaan gegevens over te dragen op andere apps** <br/> **Apps toestaan gegevens te ontvangen van andere apps** <br/> **Knippen, kopiëren en plakken met andere apps beperken** <br/>  Als optie Microsoft 365 Business is ingesteld op **Aan**, dan worden alle Intune-opties als volgt ingesteld:  <br/> **Apps toestaan gegevens over te dragen op andere apps** wordt ingesteld op **Door beleid beheerde apps** <br/> **Apps toestaan gegevens te ontvangen van andere apps** wordt ingesteld op **Alle apps** <br/> **Knippen, kopiëren en plakken met andere apps beperken** wordt ingesteld op **Door beleid beheerde apps met inplakken** <br/> |
 |||
    
 ## <a name="windows-10-app-protection-settings"></a>Beveiligingsinstellingen voor Windows 10-app
 
 In de volgende tabel vindt u informatie over hoe de beleidsinstellingen voor Windows 10-toepassingen worden toegewezen aan Intune-instellingen.
   
-Als u de intune-instelling wilt vinden, meldt u zich aan met uw Microsoft 365 Business admin-referenties en gaat u naar [Azure Portal](https://portal.azure.com). Selecteer **meer services**, en typ intune in het **filter**. Selecteer **intune app Protection** \> - **app-beleid**.
+Als u de instelling Intune wilt vinden, meldt u zich aan met uw Microsoft 365 Business-beheerdersreferenties en gaat u naar [Azure-portal.](https://portal.azure.com) Selecteer **Meer services**en typ Intune in het **filter**. Selecteer \> **App-beleid** **voor app-beveiliging van intune** .
   
  > [!IMPORTANT]
  >
- >Een Microsoft 365 Business-abonnement biedt u een licentie voor het wijzigen van alleen de intune-instellingen die worden toewijzen aan de instellingen die beschikbaar zijn in Microsoft 365 Business. 
+ >Een Microsoft 365 Business-abonnement geeft u een licentie om alleen de Intune-instellingen te wijzigen die worden toegewezen aan de instellingen die beschikbaar zijn in Microsoft 365 Business. 
   
-Als u de beschikbare instellingen wilt verkennen, selecteert u de gewenste Beleidsnaam en kiest u **Algemeen, toewijzingen**, **toegestane apps**, **vrijgestelde apps**, **vereiste instellingen**of **Geavanceerde instellingen** in het linkernavigatievenster. 
+Als u de gewenste instellingen wilt verkennen, selecteert u de gewenste beleidsnaam en kiest u **Algemene, Toewijzingen,** **Toegestane apps,** **Vrijgestelde apps**, **Vereiste instellingen**of Geavanceerde **instellingen** in het linkernavigatiedeelvenster. 
   
 |**Beleidsinstelling voor Windows 10-toepassingen**|**Intune-instelling(en)**|
 |:-----|:-----|
 |Werkbestanden versleutelen  <br/> |**Geavanceerde instellingen** \> **Gegevensbescherming**: **Versleutelingssleutels intrekken bij het ongedaan maken van de registratie** en **Toegang tot beveiligde gegevens intrekken wanneer het apparaat wordt ingeschreven bij MDM** zijn beide ingesteld op **Aan**.  <br/> |
-|Voorkomen dat gebruikers bedrijfsgegevens kopiëren naar persoonlijke bestanden  <br/> |**Verplichte instellingen** \> **Modus Windows Information Protection**. **Op** in microsoft 365 Business Maps naar: **overschrijvingen verbergen**, **off** in Microsoft 365 Business Maps naar: **uit**.  <br/> |
-|Toegangsbeheer Office-documenten  <br/> | Als dit is ingesteld op **Aan** in Microsoft 365 Business, dan wordt  <br/> **Geavanceerde instellingen** \> **Toegang**, **Windows Hello voor Bedrijven gebruiken als methode om u aan te melden bij Windows** ingesteld op **Aan**, in combinatie met de volgende instellingen:  <br/> **Het minimum aantal tekens instellen dat is vereist voor de pincode** wordt ingesteld op **4**.  <br/> **Het gebruik van hoofdletters in de pincode voor Windows Hello voor Bedrijven configureren** wordt ingesteld op **Geen hoofdletters gebruiken in een pincode**.  <br/> **Het gebruik van kleine letters in de pincode voor Windows Hello voor Bedrijven configureren** wordt ingesteld op **Geen kleine letters gebruiken in een pincode**.  <br/> **Het gebruik van speciale tekens in de pincode voor Windows Hello voor Bedrijven configureren** wordt ingesteld op **Geen speciale tekens toestaan in een pincode**.  <br/> **Geef de tijdsperiode (in dagen) op dat een pincode kan worden gebruikt voordat de gebruiker de wijziging moet wijzigen** , is ingesteld op **0**.  <br/> **Het aantal oude pincodes dat kan worden toegewezen aan een gebruikersaccount opgeven die niet opnieuw kunnen worden gebruikt** wordt ingesteld op **0**.  <br/> **Het aantal toegestane mislukte authenticaties voordat een apparaat wordt gewist** wordt net zo ingesteld als in Microsoft 365 Business (standaardwaarde 5).  <br/> **De maximale hoeveelheid tijd (in minuten) die het apparaat niet-actief mag zijn voordat het apparaat wordt vergrendeld met een pincode of wachtwoord** wordt net zo ingesteld als in Microsoft 365 Business.  <br/> |
+|Voorkomen dat gebruikers bedrijfsgegevens kopiëren naar persoonlijke bestanden  <br/> |**Verplichte instellingen** \> **Modus Windows Information Protection**. **Aan** in Microsoft 365 Business maps to: **Hide Overrides**, **Off** in Microsoft 365 Business maps to: **Off**.  <br/> |
+|Toegangsbeheer Office-documenten  <br/> | Als dit is ingesteld op **Aan** in Microsoft 365 Business, dan wordt  <br/> **Geavanceerde instellingen** \> **Toegang**, **Windows Hello voor Bedrijven gebruiken als methode om u aan te melden bij Windows** ingesteld op **Aan**, in combinatie met de volgende instellingen:  <br/> **Het minimum aantal tekens instellen dat is vereist voor de pincode** wordt ingesteld op **4**.  <br/> **Het gebruik van hoofdletters in de pincode voor Windows Hello voor Bedrijven configureren** wordt ingesteld op **Geen hoofdletters gebruiken in een pincode**.  <br/> **Het gebruik van kleine letters in de pincode voor Windows Hello voor Bedrijven configureren** wordt ingesteld op **Geen kleine letters gebruiken in een pincode**.  <br/> **Het gebruik van speciale tekens in de pincode voor Windows Hello voor Bedrijven configureren** wordt ingesteld op **Geen speciale tekens toestaan in een pincode**.  <br/> **Geef de periode (in dagen) op dat een pincode kan worden gebruikt voordat het systeem vereist dat de gebruiker moet wijzigen** is ingesteld op **0**.  <br/> **Het aantal oude pincodes dat kan worden toegewezen aan een gebruikersaccount opgeven die niet opnieuw kunnen worden gebruikt** wordt ingesteld op **0**.  <br/> **Het aantal toegestane mislukte authenticaties voordat een apparaat wordt gewist** wordt net zo ingesteld als in Microsoft 365 Business (standaardwaarde 5).  <br/> **De maximale hoeveelheid tijd (in minuten) die het apparaat niet-actief mag zijn voordat het apparaat wordt vergrendeld met een pincode of wachtwoord** wordt net zo ingesteld als in Microsoft 365 Business.  <br/> |
 |Herstel of beveiligde gegevens toestaan  <br/> |**Geavanceerde instellingen** \> **Gegevensbescherming**: **Het pictogram voor ondernemingsgegevensbescherming weergeven** en **Azure RMS voor WIP gebruiken** worden ingesteld op **Aan**.  <br/> |
 |Aanvullende cloudlocaties van bedrijf beschermen  <br/> |**Geavanceerde instellingen** \> **Beveiligde domeinen** en **Cloudresources** geven domeinen en SharePoint-sites weer.  <br/> |
 |Bestanden die worden gebruikt door deze apps zijn beveiligd  <br/> |De lijst met beveiligde apps wordt weergegeven in **Toegestane apps**.  <br/> |
@@ -93,7 +95,7 @@ Als u de beschikbare instellingen wilt verkennen, selecteert u de gewenste Belei
 
 In de volgende tabel vindt u informatie over hoe de apparaatconfiguratie voor Windows 10-apparaten wordt toegewezen aan Intune-instellingen.
   
-Als u de intune-instelling wilt vinden, meldt u zich aan met uw Microsoft 365 Business admin-referenties en gaat u naar [Azure Portal](https://portal.azure.com), selecteert u **meer services**en typt u intune in het **filter**en selecteert u **intune** \> - **apparaatconfiguratieprofielen** \> ****. Then select **Device policy for Windows 10** \> **Properties** \> **Settings**.
+Als u de instelling Intune wilt vinden, meldt u zich aan met uw Microsoft 365 Business-beheerdersreferenties en gaat u naar [Azure-portal](https://portal.azure.com)en selecteert u **Meer services**en typt u Intune in het **filter**, selecteert u **Configuratieprofielen** \> **van intune-apparaten** \> **** . Then select **Device policy for Windows 10** \> **Properties** \> **Settings**.
   
 |**Beleidsinstelling voor Windows 10-apparaten**|**Intune-instelling(en)**|
 |:-----|:-----|
@@ -103,7 +105,7 @@ Als u de intune-instelling wilt vinden, meldt u zich aan met uw Microsoft 365 Bu
 |Gebruikers toestaan om apps te downloaden vanuit de Microsoft Store  <br/> |Aangepast URI-beleid  <br/> |
 |Gebruikers toestaan om Cortana te openen  <br/> |**Algemeen** \> **Cortana** wordt ingesteld op **Blokkeren** in Intune als indien ingesteld op **Uit** in Microsoft 365 Business.  <br/> |
 |Gebruikers toestaan om Windows-tips en reclame van Microsoft te ontvangen  <br/> |**Windows-spotlight**, volledig geblokkeerd indien ingesteld op **Uit** in Microsoft 365 Business.  <br/> |
-|Windows 10-apparaten automatisch bijwerken  <br/> | Deze instelling is in **Microsoft intune** \> **service-updates-Windows 10 update Rings**, kies **Update beleid voor Windows 10-apparaten**, en vervolgens **Eigenschappen** \> **instellingen**.  <br/>  Wanneer de instelling Microsoft 365 Business is ingesteld **op aan**, worden alle volgende instellingen ingesteld:  <br/> **Servicebranch** wordt ingesteld op **CB** (CBB als dit is uitgeschakeld in Microsoft 365 Business).  <br/> **Microsoft-productupdates** wordt ingesteld op **Toestaan**.  <br/> **Windows-stuurprogramma's** wordt ingesteld op **Toestaan**.  <br/> **Gedrag van automatische updates** wordt ingesteld op **Automatisch installeren op het tijdstip voor onderhoud** met:  <br/> **Start gebruikstijd** ingesteld op **6 uur**.  <br/> **Einde gebruikstijd** ingesteld op **22 uur**.  <br/> **Uitstelperiode voor kwaliteitsupdates (dagen)** wordt ingesteld op **0**.  <br/> **Uitstelperiode voor onderdelenupdates (dagen)** wordt ingesteld op **0**.  <br/> **Delivery Optimization-downloadmodus** wordt ingesteld op **HTTP gemengd met peers achter hetzelfde NAT**.  <br/> |
+|Windows 10-apparaten automatisch bijwerken  <br/> | Deze instelling bevindt zich in **Microsoft Intune** \> **Service-updates - Windows 10 Updateringsringen**, kies Het beleid bijwerken voor Windows **10-apparaten**en vervolgens **eigenschappeninstellingen** \> ****.  <br/>  Wanneer de instelling Microsoft 365 Business is ingesteld op **Aan,** worden alle volgende instellingen ingesteld:  <br/> **Servicebranch** wordt ingesteld op **CB** (CBB als dit is uitgeschakeld in Microsoft 365 Business).  <br/> **Microsoft-productupdates** wordt ingesteld op **Toestaan**.  <br/> **Windows-stuurprogramma's** wordt ingesteld op **Toestaan**.  <br/> **Gedrag van automatische updates** wordt ingesteld op **Automatisch installeren op het tijdstip voor onderhoud** met:  <br/> **Start gebruikstijd** ingesteld op **6 uur**.  <br/> **Einde gebruikstijd** ingesteld op **22 uur**.  <br/> **Uitstelperiode voor kwaliteitsupdates (dagen)** wordt ingesteld op **0**.  <br/> **Uitstelperiode voor onderdelenupdates (dagen)** wordt ingesteld op **0**.  <br/> **Delivery Optimization-downloadmodus** wordt ingesteld op **HTTP gemengd met peers achter hetzelfde NAT**.  <br/> |
 |||
    
 

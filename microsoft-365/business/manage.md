@@ -1,5 +1,7 @@
 ---
 title: Microsoft 365 Business beheren
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -18,29 +20,29 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: Leer hoe u Microsoft 365 Business-gerelateerde beheertaken, mobiele apparaten, Windows 10-Pc's en veel dergelijke taken beheren.
-ms.openlocfilehash: 77b8757d9e6ab644b16e97ff20f50c0ce3123088
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+description: Leer microsoft 365 Business gerelateerde beheertaken, mobiele apparaten, Windows 10-pc's en veel van dergelijke taken beheren.
+ms.openlocfilehash: 41b627b0bb7cbb009832d3e7c45e44ceb8a8fdcd
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675963"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593776"
 ---
 # <a name="manage-microsoft-365-business"></a>Microsoft 365 Business beheren
 
 ## <a name="general-microsoft-365-business-admin-tasks"></a>Algemene Microsoft 365 Business-beheertaken
 
-De meeste [beheer inhoud](https://docs.microsoft.com/office365/admin/admin-home) voor Office 365 voor bedrijven is ook van toepassing op microsoft 365 Business.
+De meeste [beheerinhoud](https://docs.microsoft.com/office365/admin/admin-home) voor Office 365 voor Bedrijven is ook van toepassing op Microsoft 365 Business.
 
 - [Meer gebruikers toevoegen aan Microsoft 365 Business](add-users-m365b.md)
     
 - [Beleid en apparaten weergeven](view-policies-and-devices.md)
     
-- [Microsoft 365 beveiligingsfuncties voor bedrijven](security-features.md)
+- [Microsoft 365 Business-beveiligingsfuncties](security-features.md)
     
 - [Hoe beveiligingsfuncties in Microsoft 365 Business zijn toegewezen aan Intune-instellingen](map-protection-features-to-intune-settings.md)
     
-Zie de volgende secties over het gebruik van Microsoft 365 Business om de gegevens van uw organisatie op Pc's en mobiele apparaten te beveiligen.
+Bekijk de volgende secties over het gebruik van Microsoft 365 Business om de gegevens van uw organisatie op pc's en mobiele apparaten te beschermen.
   
 ## <a name="manage-mobile-devices"></a>Mobiele apparaten beheren
 
@@ -48,7 +50,7 @@ Zie de volgende secties over het gebruik van Microsoft 365 Business om de gegeve
     
 - [Instellingen voor app-beveiliging instellen voor Android- of iOS-apparaten](app-protection-settings-for-android-and-ios.md)
     
-    Zie [app-beveiligingsinstellingen valideren op een Android-of IOS-apparaat](validate-settings-on-android-or-ios.md)om ervoor te zorgen dat dit werkt. 
+    Zie [Instellingen voor app-beveiliging valideren op een Android- of iOS-apparaat](validate-settings-on-android-or-ios.md)om er zeker van te zijn dat dit werkt. 
     
 - [Bedrijfsgegevens van apparaten verwijderen](remove-company-data.md)
     
@@ -60,11 +62,11 @@ Zie de volgende secties over het gebruik van Microsoft 365 Business om de gegeve
     
 - [Apparaatconfiguraties instellen voor Windows 10-pc's](protection-settings-for-windows-10-pcs.md)
     
-    Zie [apparaatbeveiligings instellingen op Windows 10-apparaten valideren](validate-settings-on-windows-10-pcs.md)om ervoor te zorgen dat dit werkt. 
+    Zie [Instellingen voor apparaatbeveiliging valideren op Windows 10-apparaten](validate-settings-on-windows-10-pcs.md)om er zeker van te zijn dat dit werkt. 
     
 - [Instellingen voor toepassingsbeveiliging instellen voor Windows 10-apparaten](protection-settings-for-windows-10-devices.md)
     
-    Zie [app-beveiligingsinstellingen op pc's met Windows 10 valideren](validate-protection-settings-on-windows-10-pcs.md)om ervoor te zorgen dat dit werkt. 
+    Zie [Instellingen voor app-beveiliging valideren op Windows 10-pc's](validate-protection-settings-on-windows-10-pcs.md)om er zeker van te zijn dat dit werkt. 
     
 - [Bedrijfsgegevens van apparaten verwijderen](remove-company-data.md)
     
@@ -86,9 +88,9 @@ In de volgende onderwerpen wordt beschreven hoe u Windows AutoPilot in Microsoft
     
 - [Info over AutoPilot-profielinstellingen](autopilot-profile-settings.md)
     
-## <a name="set-up-and-prerequisite-information"></a>Instellen en vereiste informatie
+## <a name="set-up-and-prerequisite-information"></a>Informatie instellen en vereiste informatie
 
-- [Vereisten voor het beveiligen van gegevens op apparaten met Microsoft 365 Business](pre-requisites-for-data-protection.md)
+- [Voorwaarden voor het beveiligen van gegevens op apparaten met Microsoft 365 Business](pre-requisites-for-data-protection.md)
     
 - [Microsoft 365 Business instellen met de wizard Setup](set-up.md)
     
