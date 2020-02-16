@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie over Microsoft 365 Business.
-ms.openlocfilehash: 0a7aafdda384624767e06c0b39c5a58784ac0a0a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bfda6801bee526084ad11ead819fcd04787d17ce
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593736"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065641"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Overzicht van Microsoft 365 Business
 
@@ -63,7 +63,7 @@ Uw bedrijfsgegevens kunnen op vele manieren worden gecompromitteerd. U en uw geb
 
 Microsoft 365 Business helpt uw gegevens in elk van deze exemplaren te beveiligen. De beveiligingsfuncties die uw bedrijfsgegevens beschermen, worden in de volgende afbeelding beschreven.
 
-![Een cijfer dat laat zien hoe M365B uw bedrijf beschermt.](media/m365businessvalueadd.png)
+![Een cijfer dat laat zien hoe M365B uw bedrijf beschermt.](../media/m365businessvalueadd.png)
 
 ## <a name="how-your-data-and-devices-are-protected"></a>Hoe uw gegevens en apparaten worden beschermd
 

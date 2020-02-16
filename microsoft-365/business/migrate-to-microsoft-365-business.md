@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Stappen die uw bedrijf upgraden van Office 365 Business Premium naar Microsoft 365 Business.
-ms.openlocfilehash: 0732f76e5bd8540e5954bd7ea7b88061326901b5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e17ac2658c7276ba4a77de371847343866815c42
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593674"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065264"
 ---
 # <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Upgraden naar Microsoft 365 Business vanuit Office 365 Business Premium
 
@@ -51,11 +51,11 @@ Koop uw licenties door deze stappen te volgen in het [nieuwe beheercentrum:](htt
 1. Meld u aan <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>bij het beheercentrum bij .
 2. Ga naar het navigatiedeelvenster en selecteer \> **Factureringsproducten & Services**. **** Zoek uw Office 365-abonnement en selecteer het om de details te bekijken. 
 
-    ![Op een schermafbeelding is te zien hoe u uw abonnement vinden en selecteren in het beheercentrum.](media/FindYourSubscription.png)
+    ![Op een schermafbeelding is te zien hoe u uw abonnement vinden en selecteren in het beheercentrum.](../media/FindYourSubscription.png)
 
 3. Selecteer op de volgende pagina **Upgraden**. 
 
-      ![Op een schermafbeelding ziet u waar u Upgraden in het beheercentrum selecteren.](media/SelectUpgrade.png)
+      ![Op een schermafbeelding ziet u waar u Upgraden in het beheercentrum selecteren.](../media/SelectUpgrade.png)
 
   > [!NOTE]
   > Als u een bericht ziet waarin staat dat het upgraden van **uw abonnement niet wordt ondersteund met groepslicenties in Azure Active Directory,** u dit veilig negeren, tenzij u een zeer grote organisatie hebt. Organisaties die deze optie hebben geselecteerd, zijn zich ervan bewust dat ze groepslicenties gebruiken.

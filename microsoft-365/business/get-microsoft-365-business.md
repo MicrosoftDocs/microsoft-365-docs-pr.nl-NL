@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Meer informatie over het aanschaffen van Microsoft 365 Business in Microsoft Partner Center.
-ms.openlocfilehash: 18af5b0aee378784199e91c8254b50fd1104172b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ba6aa806e3e628e8c3478abb57c4529e4f5692bf
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593946"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065801"
 ---
 # <a name="get-microsoft-365-business"></a>Microsoft 365 Business kopen
 
@@ -46,13 +46,13 @@ U ook naar een [Microsoft Store](https://www.microsoft.com/en-us/store/locations
     
 2. Kies in het partnerdashboard **Klanten**en selecteer vervolgens uw klant of voeg een nieuwe klant toe voordat u Microsoft 365 Business krijgt.
     
-    ![Voeg in het Microsoft Partner center een klant toe.](media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
+    ![Voeg in het Microsoft Partner center een klant toe.](../media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
 3. Selecteer op de pagina **Abonnement** van de klant **een abonnement toevoegen**, kies de optie Kleine bedrijven onder Catalogus en kies vervolgens Microsoft **365 Business**.
     
     Selecteer het aantal licenties dat u nodig hebt (maximaal 300). Als u meer dan 300 gebruikers hebt, raadpleeg dan [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316). 
     
-    ![Kies op de pagina Nieuw abonnement voor kleine bedrijven.](media/52d99e89-2175-4974-84bb-dd626048541b.png)
+    ![Kies op de pagina Nieuw abonnement voor kleine bedrijven.](../media/52d99e89-2175-4974-84bb-dd626048541b.png)
   
     Voer de rest van de stappen uit voor het toevoegen van een nieuwe klant, inclusief de bedrijfsnaam.
     

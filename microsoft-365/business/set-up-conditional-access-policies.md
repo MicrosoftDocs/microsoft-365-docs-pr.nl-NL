@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het instellen van beleid voor voorwaardelijke toegang voor Microsoft 365-campagnes.
-ms.openlocfilehash: 335fbd7e771b1595e1846529daed76e5ddd3a8f5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1ef90bd77da43ded624d85cef9c7a33beec74345
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593380"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064600"
 ---
 # <a name="set-up-conditional-access-policies"></a>Beleid voor voorwaardelijke toegang instellen
 
@@ -52,7 +52,7 @@ Zie [Wat zijn basislijnbeleid](https://docs.microsoft.com/azure/active-directory
 1. Ga naar [Azure-portal](https://portal.azure.com)en navigeer vervolgens naar **Azure Active Directory** \> **Conditional Access**.
     
     Het basislijnbeleid wordt op de pagina weergegeven. <br/> <br/>
-    ![Pagina met basislijnbeleid voor voorwaardelijke toegang.](media/baslinepolicies.png)
+    ![Pagina met basislijnbeleid voor voorwaardelijke toegang.](../media/baslinepolicies.png)
 1. Zie de volgende specifieke instructies voor elk beleid:
 
   - [MFA vereisen voor beheerders](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)

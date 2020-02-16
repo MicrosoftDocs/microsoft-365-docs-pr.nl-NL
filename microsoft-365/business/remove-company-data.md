@@ -22,22 +22,22 @@ search.appverid:
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: "Meer informatie over het gebruik van Microsoft 365 Business om bedrijfsgegevens van gebruikersapparaten of Windows-pc's te verwijderen. "
-ms.openlocfilehash: ff0ad9d7f22f9bb1b21ee15fe383c6994896a9a8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 338ce030cb37a6cbd4a1f63c33dc6866bef93c24
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593491"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064894"
 ---
 # <a name="remove-company-data-from-devices"></a>Bedrijfsgegevens van apparaten verwijderen
 
-[![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 ## <a name="remove-company-data"></a>Bedrijfsgegevens verwijderen
 
 U kunt Microsoft 365 Business gebruiken om bedrijfsgegevens te verwijderen die uw gebruikers hebben opgeslagen op hun [apparaten](app-protection-settings-for-android-and-ios.md) of [Windows-pc's](protection-settings-for-windows-10-devices.md) die worden beschermd door Microsoft 365. **Als u bedrijfsgegevens van een apparaat verwijdert, kunt u dit later niet herstellen**. 
   
-1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>beheercentrum bij .
+1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     
 2. Kies **Apparaten** \> **beheren**op het linkernavigatiescherm.  
   
@@ -45,7 +45,7 @@ U kunt Microsoft 365 Business gebruiken om bedrijfsgegevens te verwijderen die u
     
 4. Selecteer in het volgende deelvenster het apparaat of de apparaten in de lijst **Apparaten.** In het apparaatvenster dat wordt geopend, u ervoor kiezen om het apparaat opnieuw in de fabrieksinstellingen te zetten of bedrijfsgegevens te verwijderen, afhankelijk van het apparaattype. 
     
-    ![Selecteer in het gegevensvenster van het bedrijf verwijderen het apparaat waaruit u de gegevens wilt verwijderen.](media/resetorremove.png)
+    ![Selecteer in het gegevensvenster van het bedrijf verwijderen het apparaat waaruit u de gegevens wilt verwijderen.](../media/resetorremove.png)
   
 5. **Kies** \> **sluiten bevestigen**in het bevestigingsvenster.
     

@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: Meer informatie over het maken, bewerken, verwijderen of verwijderen van AutoPilot-profielen.
-ms.openlocfilehash: 35967cb1f6e2cdeea9d7c42a529526410fa8b586
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 28f5b679d58711d11d9af26dffb7022024b72c79
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593986"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065880"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>AutoPilot-profielen maken en bewerken
 
@@ -44,7 +44,7 @@ Een profiel geldt voor een apparaat of een groep apparaten.
     
 3. Voer op de pagina **Profiel maken** een naam in voor het profiel waarmee u deze identificeren, bijvoorbeeld Marketing. Schakel de gewenste instelling in en kies **Opslaan**. Zie [Instellingen voor AutoPilot-profiel voor](autopilot-profile-settings.md)meer informatie over de profielinstellingen van AutoPilot.
     
-    ![Enter name and turn on settings in the Create profile panel.](media/63b5a00d-6a5d-48d0-9557-e7531e80702a.png)
+    ![Enter name and turn on settings in the Create profile panel.](../media/63b5a00d-6a5d-48d0-9557-e7531e80702a.png)
   
 ### <a name="apply-profile-to-a-device"></a>Een profiel toepassen op een apparaat
 
@@ -54,7 +54,7 @@ Nadat u een profiel hebt gemaakt, u het toepassen op een apparaat of een groep a
     
 2. Schakel het selectievakje naast een apparaatnaam in en kies in het deelvenster **Apparaat** \> een profiel in de vervolgkeuzelijst **Toegewezen profiel** **opslaan**.
     
-    ![In the Device panel, select an Assigned profile to apply it.](media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
+    ![In the Device panel, select an Assigned profile to apply it.](../media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
 ## <a name="edit-delete-or-remove-a-profile"></a>Een profiel bewerken of verwijderen
 

@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Meer informatie over het toevoegen van nieuwe gebruikers, het beveiligen van hun apparaten en het toewijzen van rollen in Microsoft 365 Business.
-ms.openlocfilehash: 932b969d089dd223426e35c5bea4efde4409ad48
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a7893a8b070b37b7643a4d4e7de3e8ef2ec704f2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593288"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068580"
 ---
 # <a name="add-more-users-to-microsoft-365-business"></a>Meer gebruikers toevoegen aan Microsoft 365 Business
 
@@ -44,18 +44,18 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine
 
 Een gebruiker toevoegen:
 
-1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>beheercentrum bij . 
+1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
 2. Kies **gebruikers** \> **actieve gebruikers**in het linkernavigatiedeelvenster.
 3. Kies op de pagina **Actieve gebruikers** de optie Een **gebruiker toevoegen**.
 4. Typ in het **deelvenster Nieuw** de vereiste informatie. 
   
     U meer informatie invoeren onder **Contactgegevens,** kiezen hoe u het wachtwoord instelt onder **Wachtwoordinstelling** en rollen toewijzen onder **Rollen**.
       
-    ![Enter user information in the New user card](media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
+    ![Enter user information in the New user card](../media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
       
     Stel in de sectie Productlicenties de productlicentie-instelling **van Microsoft 365 in** op **Aan.**
       
-    ![Set the license setting to On position](media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
+    ![Set the license setting to On position](../media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
   
 Zie Gebruikers individueel of [in bulk](https://docs.microsoft.com/office365/admin/add-users/add-users)toevoegen voor meer informatie over het toevoegen van gebruikers.
   

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: Meer informatie over het automatisch installeren van de 32-bits Office-apps op Windows 10-computers en deze up-to-date te houden.
-ms.openlocfilehash: fa5b2ce1852ebdb1e76c1fa844793fee56af3d68
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0f8cd7df49ad627b190fad6737ec95a6d64d99d0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065096"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-business"></a>Bereid u voor op de implementatie van de Office-client door Microsoft 365 Business
 
@@ -44,7 +44,7 @@ Automatische installatie werkt het beste als de computer van de eindgebruiker zi
     
 Om te bepalen of u de Klik-en-klaar-versie van Office hebt, gaat u in een Office-app naar **Bestand** \> **Account** ( **Office-Account** in Outlook). Als u **Office-updates** ziet zoals weergegeven in de volgende afbeelding, is de installatie uitgevoerd met Klik-en-Klaar. 
   
-![Screenshot of Office updates in Office app Account](media/e3439380-fa43-4ed6-ae5d-64851c297df5.png)
+![Screenshot of Office updates in Office app Account](../media/e3439380-fa43-4ed6-ae5d-64851c297df5.png)
   
  **Wie profiteert van het hebben van deze functie**
   

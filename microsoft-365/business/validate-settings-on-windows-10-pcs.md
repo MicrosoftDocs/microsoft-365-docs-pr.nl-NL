@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Meer informatie over het valideren van beveiligingsinstellingen voor Microsoft 365 Business-apps op Windows 10-apparaten.
-ms.openlocfilehash: e3cd0a1927e0b81c9a97d26196603086b9ea2293
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1762382aec00a80e006cf38b66c28d02c0c25989
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594950"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42056642"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Instellingen voor apparaatbeveiliging controleren op Windows 10-pc's
 
@@ -39,23 +39,23 @@ Nadat u [apparaatbeleid hebt ingesteld](protection-settings-for-windows-10-pcs.m
   
 1. Ga **naar** \> **Instellingen Beveiligingsupdateopties &amp; ** \> **Windows Update** \> Opnieuw **opstarten** en bevestig dat alle instellingen grijs zijn. 
     
-    ![Alle opties voor opnieuw opstarten zijn grijs weergegeven.](media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
+    ![Alle opties voor opnieuw opstarten zijn grijs weergegeven.](../media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
   
 2. Ga naar **Beveiligingsupdate instellingen** \> \> ** &amp; Windows** **Update** \> **Geavanceerde opties** en bevestig dat alle instellingen grijs zijn. 
     
-    ![Windows Advanced-updates opties zijn allemaal grijs.](media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
+    ![Windows Advanced-updates opties zijn allemaal grijs.](../media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
   
 3. Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** \> **Choose how updates are delivered**.
     
     Controleer of u het bericht (in het rood) zien dat sommige instellingen zijn verborgen of beheerd door uw organisatie en dat alle opties grijs zijn.
     
-    ![Choose how updates are delivered page indicates settings are hidden or managed by your organization.](media/6b3e37c5-da41-4afd-9983-b4f406216b59.png)
+    ![Choose how updates are delivered page indicates settings are hidden or managed by your organization.](../media/6b3e37c5-da41-4afd-9983-b4f406216b59.png)
   
 4. To open the Windows Defender Security Center, go to **Settings** \> **Update &amp; security** \> **Windows Defender** \> click **Open Windows Defender Security Center** \> **Virus &amp; thread protection** \> **Virus &amp; threat protection settings**. 
     
 5. Controleer of alle opties grijs zijn. 
     
-    ![De instellingen voor virus- en bedreigingsbeveiliging zijn grijs.](media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
+    ![De instellingen voor virus- en bedreigingsbeveiliging zijn grijs.](../media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
   
 ## <a name="related-topics"></a>Gerelateerde onderwerpen
 

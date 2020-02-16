@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Meer informatie over de beveiligingsfuncties die bij Microsoft 365 Business worden geleverd.
-ms.openlocfilehash: 0e1823374ec1843b6caa3f080393ca013302bf72
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e5f67d70c5a8f22e95b60a229d68ae12574d0036
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593420"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064792"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Business-beveiligings- en nalevingsfuncties
 
@@ -35,7 +35,7 @@ Microsoft 365 Business biedt vereenvoudigde beveiligingsfuncties om uw gegevens 
     
 ## <a name="microsoft-365-business-admin-center-security-features"></a>Beveiligingsfuncties voor Microsoft 365 Business-beheercentrum
 
-[![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 U veel van de beveiligingsfuncties van Microsoft 365 Business beheren in het beheercentrum, waardoor u deze functies op een vereenvoudigde manier in- of uitschakelen. In het beheercentrum u het volgende doen:
   
@@ -123,6 +123,6 @@ Ja, deze functies zijn beschikbaar in alle markten waar Microsoft 365 Business w
     
 2. Zoek in het linkernavigatienav **beheercentra** en vouw deze uit. 
     
-    ![Kies in het linkernavigatiescherm in het Microsoft 365-beheercentrum de optie Beheercentra.](media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
+    ![Kies in het linkernavigatiescherm in het Microsoft 365-beheercentrum de optie Beheercentra.](../media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
 3. Kies ** &amp; Beveiligingscompliance** om &amp; naar security compliance center te gaan.
