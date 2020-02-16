@@ -11,12 +11,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, transition CSP-abonnement
 ms.date: 11/01/2017
-ms.openlocfilehash: 4aadfa24bec8728c7e011ac6da48a8e30516e145
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7d8e04a0136f86d3c4bb51208081fd1dcbecf59d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595040"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42057189"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Een Microsoft 365 Business CSP-abonnement wijzigen
 
@@ -29,33 +29,33 @@ Als u een Microsoft 365 Business Preview CSP-abonnement hebt, volgt u deze handl
 
     De abonnementen voor het bedrijf worden vermeld.
 
-    ![Abonnementen van klanten in Partner Center](images/pc_customer_subscriptions_1.png)
+    ![Abonnementen van klanten in Partner Center](../../media/pc_customer_subscriptions_1.png)
     
 3. Selecteer op de pagina **Abonnementen** van het bedrijf de optie **Abonnement toevoegen**.
 4. Selecteer op de pagina **Nieuw abonnement** de optie **Kleine bedrijven** en selecteer Vervolgens **Microsoft 365 Business** in de lijst.
 5. Voeg het aantal licenties toe en selecteer **Volgende: Controleer** het abonnement en selecteer **Verzenden.**
 
-    ![Bekijk het nieuwe abonnement op Microsoft 365 Business](images/pc_customer_reviewnewsubscription.png)
+    ![Bekijk het nieuwe abonnement op Microsoft 365 Business](../../media/pc_customer_reviewnewsubscription.png)
 
     De **op licenties gebaseerde abonnementen** tonen Microsoft **365 Business Preview** en Microsoft **365 Business.** Je schort het preview-abonnement vervolgens op.
 
 6. Selecteer **Microsoft 365 Business Preview**.
 7. Selecteer op de pagina **Microsoft 365 Business Preview** de optie **Opgeschort** om het preview-abonnement op te schorten.
 
-    ![Het Microsoft 365 Business Preview-abonnement opschorten](images/pc_customer_m365bpreview_suspend.png)
+    ![Het Microsoft 365 Business Preview-abonnement opschorten](../../media/pc_customer_m365bpreview_suspend.png)
 
 8. Selecteer **Verzenden** om te bevestigen.
 
     Controleer op de pagina **Abonnementen** of de status **van Microsoft 365 Business Preview** opgeschort **wordt**weergegeven.
 
-    ![De status van voorbeeldabonnement bevestigen is opgeschort](images/pc_customer_m365bpreview_suspend_confirm.png)
+    ![De status van voorbeeldabonnement bevestigen is opgeschort](../../media/pc_customer_m365bpreview_suspend_confirm.png)
 
 9. Optioneel u ook de licentieovereenkomst valideren. Volg deze stappen om dit te doen:
     1. Selecteer **Gebruikers en licenties** op de pagina **Abonnementen** van het bedrijf.
     2. Selecteer op de pagina **Gebruikers en licenties** een gebruiker.
     3. Controleer op de pagina van de gebruiker de sectie **Licenties toewijzen** en bevestig of deze **Microsoft 365 Business**weergeeft.
 
-        ![De Microsoft 365 Business-licentie aan de gebruiker toegewezen](images/pc_customer_userslicenses_m365b_validate.png)
+        ![De Microsoft 365 Business-licentie aan de gebruiker toegewezen](../../media/pc_customer_userslicenses_m365b_validate.png)
 
 ## <a name="impact-to-customers-and-users-during-and-after-transition"></a>Impact op klanten en gebruikers tijdens en na de overgang
 
