@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Installeer Office op een iPhone of een Android-telefoon en uw werkbestanden in Office-apps worden beschermd door Microsoft 365 Business.
-ms.openlocfilehash: 097330c99fac2eb03eec0b9b1cba87b3e5b20350
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 36cc3cb9b35cb5746a4147509f17e4f4d7909617
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594304"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42089294"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-business-users"></a>Mobiele apparaten instellen voor gebruikers van Microsoft 365 Business
 
@@ -49,27 +49,27 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine
 
 Ga naar **App store** en typ in het zoekveld Microsoft Outlook.
   
-![Go to the iPhone App Store](media/886913de-76e5-4883-8ed0-4eb3ec06188f.png)
+![Go to the iPhone App Store](../media/886913de-76e5-4883-8ed0-4eb3ec06188f.png)
   
 Tik op het cloudpictogram voor de installatie van Outlook.
   
-![Tap the cloud icon to install Outlook](media/665e1620-948a-4ab8-b914-dca49530142c.png)
+![Tap the cloud icon to install Outlook](../media/665e1620-948a-4ab8-b914-dca49530142c.png)
   
 Wanneer de installatie is voltooid, tikt u op de knop **Openen** om Outlook te openen en vervolgens op **Aan de slag**.
   
-![Screenshot of Outlook with Get Started button](media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
+![Screenshot of Outlook with Get Started button](../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
 Voer in het scherm **e-mailaccount toevoegen** uw werk-e-mailadres in \> **Account toevoegen** en voer vervolgens uw Microsoft 365 Business referenties in \> **Aanmelden**.
   
-![Sign in to your work account](media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
+![Sign in to your work account](../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
 Als uw organisatie bestanden in apps beschermt, ziet u een dialoogvenster waarin staat dat uw organisatie nu de gegevens in de app beschermt en dat u de app opnieuw moet starten om deze te kunnen blijven gebruiken. Tik op **OK** en sluit Outlook. 
   
-![Schermafbeelding waarop uw organisatie wordt weergegeven, beschermt nu uw Outlook-app](media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
+![Schermafbeelding waarop uw organisatie wordt weergegeven, beschermt nu uw Outlook-app](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
   
 Ga naar Outlook op de iPhone en start het opnieuw. Voer desgevraagd een pincode in en controleer deze. Outlook op uw iPhone is nu klaar voor gebruik.
   
-![Set a PIN to access your organization's data](media/64f2630b-3164-47a4-9dd6-ca0c29ed5fb3.png)
+![Set a PIN to access your organization's data](../media/64f2630b-3164-47a4-9dd6-ca0c29ed5fb3.png)
   
 ## <a name="androidtabandroid"></a>[Android](#tab/Android)
   
@@ -81,27 +81,27 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine
 
 Ga naar de Play Store om te beginnen met instellen op je Android-telefoon.
   
-![On the Android home screen, tap Play Store](media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
+![On the Android home screen, tap Play Store](../media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
   
 Voer Microsoft Outlook in het zoekvak Van Google Play in en tik op **Installeren**. Als Outlook klaar is met installeren, tikt u op **Openen**.
   
-![Tap Open to open Outlook app](media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
+![Tap Open to open Outlook app](../media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
 Tik in de Outlook-app op **Aan de slag** \> en voeg vervolgens uw E-mailaccount **Doorgaan**van Microsoft 365 Business toe en meld u aan met uw organisatiereferenties.
   
-![Sign in to your organizational account in Outlook](media/18f67c66-4bab-4b99-94bd-080839312e29.png)
+![Sign in to your organizational account in Outlook](../media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
 In het dialoogvenster waarin wordt aangegeven dat u de app Bedrijfsportal Intune moet installeren, tikt u op **Ga naar de store**.
   
-![Tap on Go to store to get Intune Company Portal app](media/a702d712-5622-45dd-a511-b1adaee63071.png)
+![Tap on Go to store to get Intune Company Portal app](../media/a702d712-5622-45dd-a511-b1adaee63071.png)
   
 Installeer Intune Company Portal in de Play Store.
   
-![Screenshot that shows the install button for Intune Company Portal in Google Play Store](media/5e0408f2-3f37-44dd-80ed-13ca2ac6df0c.png)
+![Screenshot that shows the install button for Intune Company Portal in Google Play Store](../media/5e0408f2-3f37-44dd-80ed-13ca2ac6df0c.png)
   
 Open Outlook opnieuw en voer een pincode in en bevestig deze. Uw Outlook-app is nu gereed voor gebruik.
   
-![Set  PIN for Outlook app in Android](media/edb91afb-f1ed-451a-bc6b-8ccba664e055.png)
+![Set  PIN for Outlook app in Android](../media/edb91afb-f1ed-451a-bc6b-8ccba664e055.png)
 
 ## <a name="see-also"></a>Zie ook
 
