@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Meer informatie over het instellen van Microsoft 365 Business.
-ms.openlocfilehash: c370a5b3fd735e704eea56ac1079bb2e5dad4c4b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a41d03c4f9e250cf3b16d11bf23897e31adaf866
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594264"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42090836"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Microsoft 365 Business instellen in de wizard Setup
 
@@ -45,7 +45,7 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Uw domein, gebruikers en beleid instellen
 
-[![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Wanneer u Microsoft 365 Business koopt, hebt u de mogelijkheid om een domein te gebruiken dat u bezit of een domein te kopen tijdens de [aanmelding.](sign-up.md)
 
@@ -57,7 +57,7 @@ Wanneer u Microsoft 365 Business koopt, hebt u de mogelijkheid om een domein te 
 
 2. Kies **Ga naar setup** om de wizard te starten.
 
-    ![Selecteer Ga naar de installatie.](media/gotosetupinadmincenter.png)
+    ![Selecteer Ga naar de installatie.](../media/gotosetupinadmincenter.png)
 
 3. Op de pagina **Uw Office-apps installeren** u de apps optioneel op uw eigen computer installeren.
     
@@ -66,14 +66,14 @@ Wanneer u Microsoft 365 Business koopt, hebt u de mogelijkheid om een domein te 
     > [!IMPORTANT]
     > Als u tijdens de aanmelding een domein hebt gekocht, ziet u hier geen **domeinstap toevoegen.** Ga in plaats daarvan naar [Gebruikers toevoegen.](#add-users-and-assign-licenses)
 
-    ![Schermafbeelding van de aanmeldingspagina personaliseren.](media/adddomain.png)
+    ![Schermafbeelding van de aanmeldingspagina personaliseren.](../media/adddomain.png)
 
     
 4. Volg de stappen in de wizard om [DNS-records te maken bij elke DNS-hostingprovider voor Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) die controleert of u eigenaar bent van het domein. Als u uw domeinhost kent, raadpleegt u ook de [hostspecifieke instructies.](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions)
 
     Als uw hostingprovider GoDaddy of een andere host is ingeschakeld met [domeinverbinding,](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect)is het proces eenvoudig en wordt u automatisch gevraagd om u aan te melden en Microsoft namens u te laten verifiëren.
 
-    ![Selecteer Gemachtigden op de pagina GoDaddy Bevestigen toegang.](media/godaddyauth.png)
+    ![Selecteer Gemachtigden op de pagina GoDaddy Bevestigen toegang.](../media/godaddyauth.png)
 
 ### <a name="add-users-and-assign-licenses"></a>Gebruikers toevoegen en licenties toewijzen
 
@@ -83,7 +83,7 @@ U gebruikers toevoegen in de wizard, maar u later ook [gebruikers toevoegen](add
 
 Gebruikers die u in de wizard toevoegt, krijgen automatisch een Microsoft 365 Business-licentie toegewezen.
 
-![Schermafbeelding van de pagina Nieuwe gebruikers toevoegen in de wizard](media/addnewuserspage.png)
+![Schermafbeelding van de pagina Nieuwe gebruikers toevoegen in de wizard](../media/addnewuserspage.png)
 
 1. Als uw Microsoft 365 Business-abonnement bestaande gebruikers heeft (bijvoorbeeld als u Azure AD Connect hebt gebruikt), krijgt u nu een optie om licenties aan hen toe te wijzen. Wijs nu licenties aan hen toe.
 
@@ -101,7 +101,7 @@ Als u services wilt instellen, moet u enkele records bij uw DNS-host of domeinre
     - Als u bestaande DNS-records hebt, bijvoorbeeld een bestaande website, maar uw DNS-host is ingeschakeld voor [domeinverbinding,](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect)kiest u **Records voor mij toevoegen**. Accepteer op de pagina **Uw onlineservices kiezen** alle standaardinstellingen en kies **Volgende**en kies **Autoriseren** op de pagina van uw DNS-host.
     - Als u bestaande DNS-records hebt met andere DNS-hosts (niet ingeschakeld voor domeinverbinding), wilt u uw eigen DNS-records beheren om ervoor te zorgen dat de bestaande services verbonden blijven. Zie [domeinbasisbeginselen](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) voor meer informatie.
 
-        ![Recordpagina activeren.](media/activaterecords.png)
+        ![Recordpagina activeren.](../media/activaterecords.png)
 
 2. Volg de stappen in de wizard en e-mail en andere services worden voor u ingesteld.
 
@@ -111,14 +111,14 @@ Het beleid dat u in de wizard hebt ingesteld, wordt automatisch toegepast op een
 
 1. Op de **bescherming tegen geavanceerde cyberbedreigingen**verhogen, wordt aanbevolen dat u de standaardinstellingen accepteert om [Office 365 Advance Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) bestanden en koppelingen in Office-apps te laten scannen.
 
-    ![Schermafbeelding van pagina Beveiliging vergroten.](media/increasetreatprotection.png)
+    ![Schermafbeelding van pagina Beveiliging vergroten.](../media/increasetreatprotection.png)
 
 
 2. Accepteer op de pagina **Voorkomen dat gegevens lekken van gevoelige gegevens** voorkomen de standaardinstellingen om Office 365 Data Loss Prevention (DLP) in te schakelen om gevoelige gegevens in Office-apps bij te houden en te voorkomen dat deze per ongeluk buiten uw organisatie worden gedeeld.
 
 3. Laat het beheer van mobiele apps op de pagina **Beveiligen in Office voor mobiele** pagina aan staan, vouw de instellingen uit en bekijk ze en selecteer vervolgens Beleid voor beheer van mobiele **apps**maken .
 
-    ![Schermafbeelding van Gegevens beveiligen in de pagina Office voor mobiel.](media/protectdatainmobile.png)
+    ![Schermafbeelding van Gegevens beveiligen in de pagina Office voor mobiel.](../media/protectdatainmobile.png)
 
 
 ## <a name="secure-windows-10-pcs"></a>Windows 10-pc's beveiligen
