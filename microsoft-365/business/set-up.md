@@ -30,11 +30,11 @@ search.appverid:
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Ontdek de installatiestappen voor Microsoft 365 Business, waaronder het toevoegen van een domein en gebruikers, het instellen van beveiligingsbeleid en meer.
 ms.openlocfilehash: 4535a32b579b91b6c2bb0e64ec95904be6c08fce
-ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417291"
+ms.locfileid: "42543934"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Microsoft 365 Business instellen in de wizard Setup
 
