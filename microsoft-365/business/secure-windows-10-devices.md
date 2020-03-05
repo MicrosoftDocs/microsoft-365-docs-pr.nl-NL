@@ -24,13 +24,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
-description: 'Meer informatie over standaardinstellingen en andere instellingen om Windows 10-apparaten te beveiligen. '
-ms.openlocfilehash: 9560bb4e299dba8f92d435a64670261b0e7e0290
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Meer informatie over het configureren van de instellingen van het standaardapparaatbeleid dat elk Windows 10-apparaat ontvangt wanneer u zich aanmeldt bij hun werk- of schoolaccount.
+ms.openlocfilehash: fa780aa24dadab39b97dcbb298eee709f81ca42f
+ms.sourcegitcommit: ab916c216053999c9c4ef4838217e82cd861f23f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593440"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42415630"
 ---
 # <a name="secure-windows-10-devices"></a>Windows 10-apparaten beveiligen
 

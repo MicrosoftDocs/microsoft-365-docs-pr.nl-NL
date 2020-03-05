@@ -24,13 +24,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Overzicht van de installatiestappen voor Microsoft 365 Business.
-ms.openlocfilehash: 07cbd4fd187f78474783db848ac9b69068d2b44a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Meer informatie over de installatiestappen voor Microsoft 365 Business, van een abonnement, het toevoegen van een domein en gebruikers, tot het instellen van beveiligingsbeleid en meer.
+ms.openlocfilehash: 4c9c3ee4c45625cebe5d19eb03fcb6d90eb9243e
+ms.sourcegitcommit: ab916c216053999c9c4ef4838217e82cd861f23f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595060"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42415560"
 ---
 # <a name="overview-of-setup"></a>Overzicht van de installatie
 
@@ -38,7 +38,7 @@ Bekijk een korte video over microsoft 365 Business setup.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine bedrijven en degene die nieuw zijn bij Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 De meeste installatiestappen kunnen worden uitgevoerd in de installatiewizard, maar de andere opties worden ook weergegeven.
 

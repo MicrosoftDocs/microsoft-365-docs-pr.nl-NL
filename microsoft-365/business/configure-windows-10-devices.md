@@ -25,13 +25,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: da60e08e-2547-491a-9c97-94ac6d715623
-description: Meer informatie over apparaatbeleid voor Windows 10 dat van toepassing is op alle gebruikers in uw organisatie.
-ms.openlocfilehash: ef4d4cc64438c6cf3f1a2fec6e22ac679b4ffe10
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Meer informatie over het configureren van apparaatbeleid voor Windows 10 dat van toepassing is op alle gebruikers in uw organisatie, zodat ze op een veilige manier verbinding maken.
+ms.openlocfilehash: c6fd2aa76dd7af570bd5d78c6c457041e6a8d605
+ms.sourcegitcommit: ab916c216053999c9c4ef4838217e82cd861f23f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593349"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42415580"
 ---
 # <a name="configure-windows-10-devices"></a>Windows 10-apparaten configureren
 
