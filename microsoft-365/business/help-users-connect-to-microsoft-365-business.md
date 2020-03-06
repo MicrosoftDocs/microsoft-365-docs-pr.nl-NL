@@ -20,18 +20,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
-description: Ontdek wat u verwachten nadat de installatie van Business Cloud Suite is voltooid.
-ms.openlocfilehash: 41055b02f0ca62aad27c2fd1838abac5f58832f4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Meer informatie over wat u verwachten nadat de installatie van Business Cloud Suite is voltooid en uw standaardapparaatbeleid is ingesteld en klaar is om toe te passen.
+ms.openlocfilehash: 7ec5a5e7e1f3fadbcdb8422ae041544436c185ed
+ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593926"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42547686"
 ---
 # <a name="help-users-connect-to-microsoft-365-business"></a>Gebruikers helpen verbinding te maken met Microsoft 365 voor Bedrijven
 

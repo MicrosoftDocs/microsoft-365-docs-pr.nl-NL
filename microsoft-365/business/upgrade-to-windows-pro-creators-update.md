@@ -19,17 +19,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
-description: 'Meer informatie over het upgraden van Windows-apparaten naar Windows 10 Pro. '
-ms.openlocfilehash: 60ffb507e2a572d0ca52d7adf2db70ea6cb446f2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Ontdek verschillende manieren waarop u uw Windows-apparaten upgraden naar Windows 10 Pro om te genieten van geavanceerdere beveiligings- en zakelijke netwerkfuncties.
+ms.openlocfilehash: 0668945d107be7abc0698035fa458e1c805c7201
+ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594183"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42547486"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Windows-apparaten upgraden naar Windows 10 Pro
 
@@ -37,7 +38,7 @@ Bekijk een korte video over het upgraden van Windows-apparaten naar Windows 10 P
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3t58j] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine bedrijven en degene die nieuw zijn bij Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="upgrade-to-windows-10-pro"></a>Upgraden naar Windows 10 Pro
   

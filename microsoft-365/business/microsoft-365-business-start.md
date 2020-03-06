@@ -21,17 +21,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Meer informatie over het instellen van Microsoft 365 Business.
-ms.openlocfilehash: 5491486c2bf8da1ee38fcd986d5ecd682d57c82e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Meer informatie over Microsoft 365 Business, hoe u deze instellen en hoe u de apparaten en pc's van uw gebruikers voorbereidt om ervoor te zorgen dat ze worden beschermd door Microsoft 365 Business.
+ms.openlocfilehash: f6fd73762c0b57777c19d32886f758875e2e7e6a
+ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065601"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42547706"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Aan de slag met Microsoft 365 Business
 
@@ -63,7 +64,7 @@ Bekijk deze video voor een overzicht van microsoft 365 Business setup.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine bedrijven en degene die nieuw zijn bij Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
   
 ### <a name="1-set-up-microsoft-365-business-admin"></a>1: Microsoft 365 Business instellen (beheerder)
@@ -97,7 +98,7 @@ Als uw organisatie On-premises gebruik maakt van Windows Server Active Directory
 Als u een lokale Active Directory behoudt die een aantal on-premises bronnen (zoals bestandsshares en printers) bevat, u uw **azure AD-verbonden apparaten** toegang geven tot deze bronnen door de stappen hier te volgen: [On-premises bronnen openen vanaf een Azure AD-verbonden apparaat in Microsoft 365 Business](access-resources.md).
   
   
-## <a name="contact-support"></a>Neem contact op met ondersteuning.
+## <a name="contact-support"></a>Contact opnemen met de ondersteuning
 
  **Ga als volgt te werk als u contact wilt opnemen met Ondersteuning:**
   

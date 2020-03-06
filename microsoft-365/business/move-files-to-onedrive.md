@@ -17,17 +17,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
-description: Meer informatie over het verplaatsen van uw bestanden naar OneDrive.
-ms.openlocfilehash: 85ff7ad2ecab3646eeb196a380f85983b1403f7a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Ontdek hoe u uw persoonlijke werkbestanden en gevoelige bedrijfsbestanden in slechts een paar eenvoudige stappen naar OneDrive voor Bedrijven verplaatsen.
+ms.openlocfilehash: 2f4e21096570e1b830a7a8ceee87d652abb9448f
+ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065204"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42547746"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Bestanden verplaatsen naar OneDrive voor Bedrijven
 
@@ -35,7 +36,7 @@ Bekijk een korte video over het verplaatsen van bestanden naar OneDrive voor Bed
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine bedrijven en degene die nieuw zijn bij Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 
 ## <a name="move-files-to-onedrive-for-business"></a>Bestanden verplaatsen naar OneDrive voor Bedrijven
