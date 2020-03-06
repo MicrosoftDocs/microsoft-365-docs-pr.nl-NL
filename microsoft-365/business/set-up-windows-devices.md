@@ -19,21 +19,22 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: 'Meer informatie over het instellen van Windows-apparaten met Windows 10 Pro voor Microsoft 365 Business-gebruikers. '
-ms.openlocfilehash: 427e1c25b5c6ad52ab280502133a0e2808bb48b1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Meer informatie over het instellen van Windows-apparaten met Windows 10 Pro voor Microsoft 365 Business-gebruikers, waardoor gecentraliseerd beheer en beveiligingsbesturingselementen mogelijk worden.
+ms.openlocfilehash: 62d909b1e5658131f9381d1a800a70fad6e16cab
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42090644"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550012"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Windows-pc's instellen voor gebruikers van Microsoft 365 Business
 
-## <a name="prerequisites"></a>Vereisten
+## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-users"></a>Vereisten voor het instellen van Windows-apparaten voor Microsoft 365 Business-gebruikers
 
 Voordat u Windows-apparaten voor gebruikers van Microsoft 365 Business kunt instellen, moet u ervoor zorgen dat op alle Windows-apparaten Windows 10 Pro, versie 1703 (makersupdate) wordt uitgevoerd. Windows 10 Pro is een vereiste voor de implementatie van Windows 10 Business. Dat is een set cloudservices en apparaatbeheerfuncties die een aanvulling vormt op Windows 10 Pro en die het centrale beheer en de besturingselementen voor beveiliging van Microsoft 365 Business inschakelt.
   
@@ -47,7 +48,7 @@ Bekijk een korte video over het verbinden van Windows met Microsoft 365.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine bedrijven en degene die nieuw zijn bij Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10-apparaten koppelen aan Azure AD van uw organisatie
 
@@ -125,6 +126,6 @@ Controleer of voor de Windows 10-apparaten die aan Azure AD zijn gekoppeld, een 
 
 Voor het instellen van mobiele apparaten raadpleegt u [Mobiele apparaten instellen voor gebruikers van Microsoft 365 Business](set-up-mobile-devices.md). Voor het instellen van het beveiligingsbeleid voor apparaten of apps raadpleegt u [Microsoft 365 Business beheren](manage.md).
   
-## <a name="see-also"></a>Zie ook
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Voor meer informatie over het instellen en gebruiken van Microsoft 365 Business
 
 [Trainingsvideo's voor Microsoft 365 Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

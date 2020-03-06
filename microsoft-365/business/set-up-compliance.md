@@ -16,16 +16,17 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
-description: Stel nalevingsfuncties in om gegevensverlies te voorkomen en gevoelige gegevens te labelen.
-ms.openlocfilehash: d569ff8d84faf82881035f0ed54e5d175605776f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Stel compliancefuncties in om gegevensverlies te voorkomen en help de gevoelige informatie van u en uw klanten veilig te houden.
+ms.openlocfilehash: 4c8efc4ca96f2db7bc4d1592ad3fdc85dfb6b3b5
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42064695"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550052"
 ---
 # <a name="set-up-compliance-features"></a>Nalevingsfuncties instellen
 

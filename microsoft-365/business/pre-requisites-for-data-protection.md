@@ -15,23 +15,24 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
-description: Ken de voorwaarden voor het instellen van uw organisatie met Microsoft 365 Business.
-ms.openlocfilehash: 3ca0433faaaeacbe6e0d2c88c820ebad19afec51
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Meer informatie over de vereisten voor het instellen van uw organisatie met Microsoft 365 Business en het beveiligen van werkgegevens op de apparaten van uw gebruikers.
+ms.openlocfilehash: 9e35e3b1cd4f0df1c5852b0fec407a99c9bcf4f4
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593634"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550182"
 ---
 # <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-business"></a>Voorwaarden voor het beveiligen van gegevens op apparaten met Microsoft 365 Business
 
 De eerste stap bij het instellen van uw organisatie met Microsoft 365 Business is ervoor te zorgen dat u aan de vereisten voldoen.
   
-## <a name="prerequisites"></a>Voorwaarden
+## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-business"></a>Vereisten voor het instellen van uw organisatie met Microsoft 365 Business
 
 - Op Windows-apparaten moet Windows 7 Professional, Windows 8 Pro of Windows 8.1 Pro worden uitgevoerd.
     

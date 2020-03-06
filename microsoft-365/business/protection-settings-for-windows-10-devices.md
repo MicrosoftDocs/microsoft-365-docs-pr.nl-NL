@@ -21,18 +21,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
-description: Meer informatie over het maken van een app-beheerbeleid en het beveiligen van werkbestanden op Windows 10-apparaten.
-ms.openlocfilehash: eb9c5465bf7376efa95162cd39be3f1c6840a3e4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Meer informatie over het maken van een app-beheerbeleid en het beveiligen van werkbestanden op de persoonlijke Windows 10-apparaten van uw gebruikers.
+ms.openlocfilehash: ce389980ceb8bd889214404b0c48769380044bcf
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42064999"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550202"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Instellingen voor toepassingsbeveiliging instellen voor Windows 10-apparaten
 

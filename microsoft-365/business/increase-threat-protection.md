@@ -16,16 +16,17 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
-description: Stel Geavanceerde bedreigingsbeveiliging van Office 365 in en bescherm gevoelige gegevens.
-ms.openlocfilehash: 191e1ad301e12ae45fe3a5d6d990d2357c5d0bab
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Stel Office 365 Advanced Threat Protection in en bescherm gevoelige gegevens tegen phishing, malware en andere bedreigingen.
+ms.openlocfilehash: 9d7bae60091c87fa0246a697f2a49e1cbc6e2f06
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593876"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550352"
 ---
 # <a name="increase-threat-protection"></a>De bescherming van bedreigingen vergroten
 
@@ -76,7 +77,7 @@ Ga als u een regel voor e-mailtransport maken:
     
 5. Pas de instellingen in de volgende tabel toe voor de regel. Gebruik de standaardwaarden voor de rest van de instellingen, tenzij u deze wilt wijzigen.
     
-6. Selecteer **Opslaan**.
+6. Kies **Opslaan**.
     
 |**Instelling**|**Gebruikers waarschuwen voordat bijlagen van Office-bestanden worden geopend**||
 |:-----|:-----|:-----|
@@ -108,7 +109,7 @@ Als u een regel voor e-mailtransport wilt maken, bekijkt u [deze korte video](ht
     
 5. Pas de instellingen toe in de volgende tabel. Gebruik de standaardwaarden voor de rest van de instellingen, tenzij u deze wilt wijzigen.
     
-6. Selecteer **Opslaan**.
+6. Kies **Opslaan**.
     
 |**Instelling**|**Gebruikers waarschuwen voordat bijlagen van Office-bestanden worden geopend**|
 |:-----|:-----|
@@ -208,7 +209,7 @@ Ga als reactie op het standaardbeleid:
     
 2. Selecteer onder **Instellingen die van toepassing zijn op inhoud behalve e-mail**de optie Office **365 ProPlus, Office voor iOS en Android**.
     
-3. Selecteer **Opslaan**. 
+3. Kies **Opslaan**. 
     
 Ga als reactie op een nieuw beleid dat is gericht op alle ontvangers in uw domein:
   
@@ -216,7 +217,7 @@ Ga als reactie op een nieuw beleid dat is gericht op alle ontvangers in uw domei
     
 2. Pas de instellingen in de volgende tabel toe.
     
-3. Selecteer **Opslaan**. 
+3. Kies **Opslaan**. 
 
 |**Instelling of optie**|**Aanbevolen instelling** <br/>|
 |:-----|:-----|
