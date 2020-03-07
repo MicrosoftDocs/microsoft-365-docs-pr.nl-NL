@@ -19,18 +19,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Meer informatie over hoe u controleren of de beveiligingsinstellingen voor Microsoft 365 Business-apps van kracht zijn geworden op de Windows 10-apparaten van uw gebruikers.
-ms.openlocfilehash: 1b661b41a8042e81f653463cbd32fc6bf6428b53
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 47977f8d79eb6dbb2f4d087af8f8ad7da4313c61
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42549952"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42560675"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Instellingen voor apparaatbeveiliging controleren op Windows 10-pc's
 

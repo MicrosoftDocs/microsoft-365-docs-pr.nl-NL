@@ -18,18 +18,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Ontdek uw opties voor de aankoop van Microsoft 365 Business en stapsgewijze instructies voor de aankoop ervan in Microsoft Partner Center.
-ms.openlocfilehash: decfd3b99ebd0134715d721287057b7131a8f066
-ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
+ms.openlocfilehash: ccbdb928c0f1268fb7019793b6246eef386daa45
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42547806"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42560738"
 ---
 # <a name="get-microsoft-365-business"></a>Microsoft 365 Business kopen
 

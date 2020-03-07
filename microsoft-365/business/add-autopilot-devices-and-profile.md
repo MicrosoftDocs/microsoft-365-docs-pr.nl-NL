@@ -17,19 +17,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Meer informatie over het gebruik van Windows AutoPilot om nieuwe Windows 10-apparaten voor uw bedrijf in te stellen, zodat ze klaar zijn voor gebruik van werknemers.
-ms.openlocfilehash: 8449d5a3672a20b0cd1ba61bbda863073138c04c
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 3b1cf297914862aaa74fdf9a8bb7290d00f73b1d
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550382"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561575"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>De stapsgewijze handleiding gebruiken om Autopilot-apparaten en -profielen toe te voegen
 

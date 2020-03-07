@@ -18,19 +18,19 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: c12164c7-6190-4294-b88a-590580c9869a
 description: Meer informatie over de instellingen die beschikbaar zijn in Microsoft 365 Business om werkbestanden te beschermen als het apparaat van een gebruiker verloren of gestolen is.
-ms.openlocfilehash: 244e4773f1efa9548dd2126e03a007aefb840b40
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 4371acd53da902aa4dea93e7b8bd087d1cf27100
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550162"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561645"
 ---
 # <a name="protect-work-files-when-a-mobile-device-is-lost-or-stolen"></a>Werkbestanden beveiligen bij verlies of diefstal van een mobiel apparaat
 

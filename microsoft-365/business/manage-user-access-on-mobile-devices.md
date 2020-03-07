@@ -19,19 +19,19 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
 description: Meer informatie over beveiligingsbeleid waarmee u beheren hoe gebruikers toegang krijgen tot Office-apps en werkbestanden vanaf mobiele apparaten.
-ms.openlocfilehash: 21e83114664d06aaeb27b08d9f4e2153eea02030
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 870706103a6c05e2e193c80f7a586eab529bb1e7
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550312"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561495"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>Beheren hoe gebruikers Office-documenten op mobiele apparaten openen
 
