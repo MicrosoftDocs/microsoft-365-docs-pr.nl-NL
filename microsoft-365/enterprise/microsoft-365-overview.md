@@ -1,0 +1,155 @@
+---
+title: Overzicht van Microsoft 365 voor ondernemingen
+f1.keywords:
+- NOCSH
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: laurawi
+ms.date: 09/19/2019
+audience: ITPro
+ms.topic: article
+ms.service: o365-solutions
+localization_priority: Normal
+ms.collection: M365-subscription-management
+ms.custom: it-pro
+description: Biedt een inleiding tot de onderdelen, plannen en implementatiepaden voor Microsoft 365 voor bedrijven.
+ms.openlocfilehash: 035c7bc2086b4f70dacc31c3489a4a8adc8fb3dd
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42805469"
+---
+# <a name="microsoft-365-for-enterprise-overview"></a>Overzicht van Microsoft 365 voor ondernemingen
+
+Microsoft 365 for Enterprise is een complete, intelligente oplossing die iedereen in staat stelt om creatief te zijn en veilig samen te werken. 
+
+Hoewel ontworpen voor grote organisaties, kan Microsoft 365 voor ondernemingen ook worden gebruikt voor middelgrote en kleine bedrijven die de meest geavanceerde beveiligings- en productiviteitsmogelijkheden nodig hebben. 
+
+## <a name="components"></a>Onderdelen
+
+Microsoft 365 voor ondernemingen bestaat uit:
+
+|||
+|:-------|:-----|
+| Lokale en cloudgebaseerde apps en productiviteitsservices | Bevat zowel Office 365 ProPlus, de nieuwste Office-apps voor uw pc en Mac (zoals Word, Excel, PowerPoint, Outlook en anderen) en een volledig pakket onlineservices voor e-mail, bestandsopslag en samenwerking, vergaderingen en meer. |
+| Windows 10 Enterprise | Voldoet aan de behoeften van zowel grote als middelgrote organisaties en biedt gebruikers de meest productieve en veilige versie van Windows- en IT-professionals met uitgebreide implementatie, apparaat- en app-beheer. |
+| Apparaatbeheer en geavanceerde beveiligingsservices | Inclusief Microsoft Intune, een emm-service (Enterprise Mobility Management) in de cloud waarmee uw personeel productief kan zijn en tegelijkertijd uw bedrijfsgegevens beschermd houdt. |
+|||
+
+## <a name="plans"></a>Plannen
+
+Microsoft 365 voor ondernemingen is beschikbaar in drie abonnementen.
+
+|||
+|:-------|:-----|
+| E3 | Krijg toegang tot kernproducten en functies binnen Microsoft 365 om de productiviteit op de werkplek te verbeteren en innovatie te stimuleren, veilig. |
+| E5 | Krijg toegang tot de nieuwste producten en functies binnen Microsoft 365, inclusief geavanceerde hulpprogramma's voor bescherming van bedreigingen, beveiliging en samenwerking.. Bevat alle mogelijkheden van E3 plus geavanceerde tools voor beveiliging, spraak en gegevensanalyse. |
+| F1 F1 | Maak contact met uw Firstline Workers via speciaal gebouwde tools en resources waarmee ze hun beste werk kunnen doen. |
+|||
+
+Als u Microsoft 365 E3 hebt, u deze [aanbiedingen](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/)ook krijgen:
+
+- Identiteits- & bescherming tegen bedreigingen
+- Informatiebescherming & naleving
+
+Deze aanbiedingen bevatten extra functies die zijn opgenomen in Microsoft 365 E5.
+
+Zie [Functies en mogelijkheden voor elk plan voor](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)meer informatie.
+
+## <a name="get-the-big-picture"></a>Krijg het grote plaatje
+
+De [Microsoft 365 voor bedrijfsposter](../media/m365-poster/Microsoft365Enterprise.pdf) is een centrale locatie die u bekijken:
+
+- De voordelen van Microsoft 365 voor bedrijven en hoe apps en services in kaart worden brengen met de waardepijlers
+- Microsoft 365 voor bedrijfsplannen en welke onderdelen ze bevatten 
+- De belangrijkste onderdelen van de Moderne Werkplek, die Microsoft 365 voor ondernemingen mogelijk maakt
+- De [Microsoft 365 Productivity Library](https://www.microsoft.com/microsoft-365/success/) en representatieve scenario's voor sommige algemene organisatieafdelingen
+- De goedkeuringsroadmap die de Microsoft 365 for enterprise [Deployment Guide](deploy-microsoft-365-enterprise.md) belicht
+
+[![Afbeelding voor de Microsoft 365 voor bedrijfsposter](../media/m365-poster/m365e-poster.png)](../media/m365-poster/Microsoft365Enterprise.pdf)
+
+Om een kopie van de poster te downloaden, klik [hier](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/m365-poster/Microsoft365Enterprise.pdf).
+
+
+## <a name="transition-your-entire-organization"></a>Uw hele organisatie overschakelen
+
+Download de [overgangsposter](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)om een beter beeld te krijgen van hoe u uw hele organisatie verplaatsen naar de producten en services in Microsoft 365 voor bedrijven.
+
+[![Afbeelding voor de poster Overgang naar Microsoft 365](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
+
+Deze poster van twee pagina's is een snelle manier om uw bestaande infrastructuur te inventariseren en de richtlijnen te vinden voor het verplaatsen naar het bijbehorende product of de bijbehorende service in Microsoft 365 voor ondernemingen. Het omvat Windows- en Office-producten en andere infrastructuur- en beveiligingselementen zoals apparaatbeheer, identiteit en informatie- en bedreigingsbeveiliging.
+
+U [deze poster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) ook downloaden en afdrukken in letter-, juridische of tabloid (11 x 17) formaten.
+
+## <a name="avoid-end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Einde ondersteuning voor Windows 7- en Office 2010-clients en -servers voorkomen
+
+De volgende producten bereiken het einde van de steun op **14 januari 2020**:
+
+- [Windows 7](https://aka.ms/win7upgrade)
+
+De volgende producten bereiken het einde van de steun op **13 oktober 2020**:
+
+- [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
+- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
+- [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010)
+
+Zie het einde van de [ondersteuningsposter](../media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)voor een visueel overzicht van de upgrade, migreren en verplaatsen naar de cloud.
+
+[![Afbeelding voor het einde van de ondersteuning voor Office 2010-clients en -servers en Windows 7-poster](../media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](../media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
+
+Deze poster van één pagina is een snelle manier om inzicht te krijgen in de verschillende paden die u volgen om te voorkomen dat Windows 7- en Office 2010-client- en serverproducten het einde van de ondersteuning bereiken, met voorkeurspaden en ondersteuning in Microsoft 365 voor enterprise gemarkeerd.
+
+U [deze poster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) ook downloaden en afdrukken in letter-, juridische of tabloid (11 x 17) formaten.
+
+## <a name="deploy"></a>Implementeren
+
+Er zijn drie manieren om de producten, functies en onderdelen van Microsoft 365 voor bedrijven te implementeren:
+
+1. In samenwerking met FastTrack
+  
+   Met FastTrack helpen Microsoft-technici u om in uw eigen tempo naar de cloud te gaan. Zie [FastTrack voor Microsoft 365](https://fasttrack.microsoft.com/microsoft365).
+  
+2. Met behulp van Microsoft Consulting Services of een [Microsoft-partner.](https://partner.microsoft.com/)
+
+   Consultants kunnen uw huidige infrastructuur analyseren en u helpen bij het ontwikkelen van een plan om alle software en services van Microsoft 365 voor bedrijven op te nemen.
+
+3. Doe het zelf
+
+   De [implementatiehandleiding voor Microsoft 365 voor ondernemingen](deploy-microsoft-365-enterprise.md) neemt u stap voor stap mee door de infrastructuur- en productiviteitsworkloads uit te bouwen. 
+
+Zie voor meer implementatiegegevens hoe:
+
+- [Klanten](deploy-microsoft-365-enterprise.md#how-customers-use-microsoft-365-for-enterprise) gebruiken Microsoft 365 voor bedrijven.
+- [Microsoft](deploy-microsoft-365-enterprise.md#how-microsoft-uses-microsoft-365-for-enterprise) gebruikt Microsoft 365 voor ondernemingen.
+- [De Contoso Corporation](contoso-overview.md), een fictieve maar representatieve multinationale organisatie, heeft Microsoft 365 ingezet voor ondernemingen.
+
+## <a name="additional-microsoft-365-solutions"></a>Aanvullende Microsoft 365-oplossingen
+
+- [Microsoft 365 Business](https://docs.microsoft.com/microsoft-365/business/)
+ 
+  Breng de beste productiviteits- en samenwerkingsmogelijkheden van Office 365 samen met apparaatbeheer- en beveiligingsoplossingen om bedrijfsgegevens voor kleine en middelgrote bedrijven (MKB) te beveiligen.
+
+- [Microsoft 365 Onderwijs](https://docs.microsoft.com/education)
+ 
+  Geef docenten de mogelijkheid om creativiteit te ontsluiten, teamwork te promoten en een eenvoudige en veilige ervaring te bieden in één betaalbare oplossing die is gebouwd voor onderwijs.
+
+- [Microsoft 365-regering](https://www.microsoft.com/microsoft-365/government)
+ 
+  Geef werknemers in de Amerikaanse publieke sector de mogelijkheid om veilig samen te werken.
+
+## <a name="microsoft-365-training"></a>Microsoft 365-training
+
+|||
+|:-------|:-----|
+![Microsoft 365 Fundamentals-training](../media/m365-poster/m365-fundamentals.svg)| Laat je trainen en werk toe naar een Microsoft 365-certificering. <BR> Begin met [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/).
+|||
+
+
+## <a name="next-step"></a>Volgende stap
+
+Als u de implementatie zelf doet, start u uw [Microsoft 365 voor de implementatiereis van de onderneming.](deploy-microsoft-365-enterprise.md)
+
+## <a name="see-also"></a>Zie ook
+
+[Microsoft 365 voor bedrijfsproductpagina](https://www.microsoft.com/microsoft-365/enterprise)

@@ -25,11 +25,11 @@ search.appverid:
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Ontdek uw opties voor de aankoop van Microsoft 365 Business en stapsgewijze instructies voor de aankoop ervan in Microsoft Partner Center.
 ms.openlocfilehash: ccbdb928c0f1268fb7019793b6246eef386daa45
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560738"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42805872"
 ---
 # <a name="get-microsoft-365-business"></a>Microsoft 365 Business kopen
 

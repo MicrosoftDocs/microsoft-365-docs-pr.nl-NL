@@ -1,0 +1,109 @@
+### YamlMime:Landing
+title: Documation office 365 beheren
+summary: Snelkoppelingen voor de meest voorkomende beheertaken in Office 365.
+metadata:
+  title: Documation office 365 beheren
+  description: Snelkoppelingen voor de meest voorkomende beheertaken in Office 365.
+  ms.service: o365-administration
+  ms.topic: landing-page
+  ms.collection:
+  - Adm_O365
+  - Adm_TOC
+  author: wingtofree
+  ms.author: v-qingao
+  ms.date: 03/06/2020
+  ms.openlocfilehash: 47d5fa7ffb64b8af8d3bde2a126e153768654fa2
+  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 03/19/2020
+  ms.locfileid: "42857573"
+landingContent:
+- title: Microsoft Teams
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Overzicht van Microsoft Teams
+      url: https://go.microsoft.com/fwlink/p/?linkid=863169
+    - text: Microsoft Teams
+      url: https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams
+    - text: Skype voor Bedrijven Online-beheerder
+      url: https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online
+  - linkListType: how-to-guide
+    links:
+    - text: Gebruikers contact laten opnemen met externe gebruikers van Skype voor Bedrijven
+      url: https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+    - text: Skype voor Bedrijven-gebruikers Skype-contactpersonen laten toevoegen
+      url: https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+    - text: Skype voor Bedrijven Online instellen
+      url: https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+    - text: Skype voor Bedrijven installeren op een pc
+      url: https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb
+    - text: Problemen oplossen
+      url: https://docs.microsoft.com/SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+- title: Sharepoint
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: SharePoint Online
+      url: https://docs.microsoft.com/sharepoint/sharepoint-online
+  - linkListType: how-to-guide
+    links:
+    - text: Extern delen in- of uitschakelen voor SharePoint Online
+      url: https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off
+    - text: Sites maken en beheren
+      url: https://docs.microsoft.com/sharepoint/manage-sites-in-new-admin-center
+    - text: Intranetplanningshandleiding
+      url: https://docs.microsoft.com/sharepoint/planning-hub-sites
+    - text: Sitecreatie beheren
+      url: https://docs.microsoft.com/sharepoint/manage-site-creation
+    - text: De zoekervaring aanpassen
+      url: https://docs.microsoft.com/sharepoint/overview-of-search
+- title: E-mail
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: E-mail in Office 365 voor Bedrijven
+      url: https://docs.microsoft.com/en-us/microsoft-365/admin/email/email?view=o365-worldwide
+  - linkListType: how-to-guide
+    links:
+    - text: Een nieuwe werknemer toevoegen
+      url: https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/add-users?view=o365-worldwide
+    - text: E-mailberichten herstellen als deze niet worden verzonden
+      url: https://support.office.com/article/97748418-bbd5-4743-a05b-581f22a466dd
+    - text: Problemen oplossen
+      url: https://docs.microsoft.com/office365/troubleshoot/troubleshooting/troubleshoot-email-issues
+- title: Yammer
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Help voor Yammer-beheerders
+      url: https://docs.microsoft.com/yammer/yammer-landing-page
+  - linkListType: how-to-guide
+    links:
+    - text: Office 365-aanmelding voor Yammer
+      url: https://docs.microsoft.com/yammer/manage-yammer-users/office-365-sign-in
+    - text: Gebruikers van Yammer beheren vanuit Office 365
+      url: https://docs.microsoft.com/yammer/manage-yammer-users/manage-users-across-their-lifecycle
+    - text: Office 365-identiteit voor gebruikers van Yammer afdwingen
+      url: https://docs.microsoft.com/yammer/configure-your-yammer-network/enforce-office-365-identity
+    - text: Een Yammer-feed insluiten in een SharePoint-site
+      url: https://docs.microsoft.com/yammer/integrate-yammer-with-other-apps/embed-a-feed-into-a-sharepoint-site
+- title: OneDrive
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: OneDrive in Office 365
+      url: https://support.office.com/article/3e21f8f0-e0a1-43be-aa3e-8c0236bf11bb
+  - linkListType: how-to-guide
+    links:
+    - text: Download de OneDrive-synchronisatieclient en de mobiele apps
+      url: https://go.microsoft.com/fwlink/p/?LinkId=798319
+    - text: Bestanden synchroniseren met de OneDrive-synchronisatieclient in Windows
+      url: https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49
+    - text: Delen in OneDrive en SharePoint beheren
+      url: https://docs.microsoft.com/onedrive/manage-sharing
+    - text: De standaardopslagruimte voor OneDrive-gebruikers instellen
+      url: https://docs.microsoft.com/onedrive/set-default-storage-space
+    - text: Problemen met synchroniseren in OneDrive oplossen
+      url: https://support.office.com/article/fix-onedrive-sync-problems-0899b115-05f7-45ec-95b2-e4cc8c4670b2

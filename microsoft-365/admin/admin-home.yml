@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: Documation Microsoft 365 administrator
+summary: Meer informatie over bronnen die beschikbaar zijn voor Microsoft 365-beheerders.
+metadata:
+  title: Documation Microsoft 365 administrator
+  description: Meer informatie over bronnen die beschikbaar zijn voor Microsoft 365-beheerders.
+  ms.service: o365-administration
+  ms.topic: landing-page
+  ms.collection:
+  - Adm_O365
+  - Adm_TOC
+  author: wingtofree
+  ms.author: v-qingao
+  ms.date: 03/05/2020
+  ms.openlocfilehash: 9baffa7688223c57c5ef863d9d39beed7bc38f62
+  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 03/19/2020
+  ms.locfileid: "42857535"
+landingContent:
+- title: Informatie over beheercentrum
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat is beheercentrum
+      url: admin-overview/admin-overview.md
+  - linkListType: whats-new
+    links:
+    - text: Nieuwe functies krijgen
+      url: manage/stay-on-top-of-updates.md
+- title: Aan de slag
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: De installatie plannen
+      url: setup/plan-your-setup.md
+    - text: Office 365 instellen
+      url: setup/setup.md
+    - text: Een domein toevoegen aan Office 365
+      url: setup/add-domain.md
+    - text: E-mail en contactpersonen migreren naar Office 365
+      url: setup/migrate-email-and-contacts-admin.md
+    - text: Bestandsopslag en -deling voor Office 365 instellen
+      url: setup/set-up-file-storage-and-sharing.md
+    - text: Add users
+      url: add-users/add-users.md
+    - text: Meervoudige verificatie instellen
+      url: security-and-compliance/set-up-multi-factor-authentication.md
+- title: Problemen oplossen
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Problemen bij de installatie van Office oplossen
+      url: https://support.office.com/article/troubleshoot-installing-office-35ff2def-e0b2-4dac-9784-4cf212c1f6c2
+    - text: Problemen met Outlook en Office 365 oplossen met Microsoft Ondersteunings- en Herstelassistent
+      url: https://support.office.com/article/about-the-microsoft-support-and-recovery-assistant-e90bb691-c2a7-4697-a94f-88836856c72f
+    - text: E-mailproblemen oplossen
+      url: https://docs.microsoft.com/office365/troubleshoot/troubleshooting/troubleshoot-email-issues
+    - text: Synchronisatieproblemen in OneDrive voor Bedrijven oplossen
+      url: https://go.microsoft.com/fwlink/?linkid=866431
+- title: Abonneren
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Een abonnement kopen vanuit uw gratis proefversie
+      url: https://docs.microsoft.com/microsoft-365/commerce/buy-a-subscription-from-your-free-trial
+    - text: Uw abonnement opzeggen
+      url: https://docs.microsoft.com/microsoft-365/commerce/subscriptions/cancel-your-subscription?
+- title: Meer informatie
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Microsoft Teams-documentatie
+      url: https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams
+    - text: Office 365 Enterprise-documentatie
+      url: https://docs.microsoft.com/Office365/Enterprise
+    - text: Trainingscentrum voor Office 365
+      url: https://support.office.com/office-training-center
+    - text: Aan de slag met Microsoft 365
+      url: https://docs.microsoft.com/en-us/learn/m365/
