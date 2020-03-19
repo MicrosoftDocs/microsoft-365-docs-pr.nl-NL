@@ -1,0 +1,104 @@
+### YamlMime:Landing
+title: Documation Office 365-domeinen
+summary: Gebruik deze informatiebronnen om aan de slag te gaan met uw eigen domein voor e-mail, websites en accounts in Office 365.
+metadata:
+  title: Documation Office 365-domeinen
+  description: Gebruik deze informatiebronnen om aan de slag te gaan met uw eigen domein voor e-mail, websites en accounts in Office 365.
+  ms.service: o365-administration
+  ms.topic: landing-page
+  ms.collection:
+  - M365-subscription-management
+  - Adm_O365
+  - Adm_TOC
+  author: wingtofree
+  ms.author: v-qingao
+  ms.date: 03/06/2020
+  ms.openlocfilehash: 572cc546b73612880169c151783f297cc72077cc
+  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 03/19/2020
+  ms.locfileid: "42857581"
+landingContent:
+- title: Meer informatie over domeinen
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Wat is een domein
+      url: what-is-a-domain.md
+    - text: DNS-basisprincipes
+      url: dns-basics.md
+    - text: Meer informatie over uw eerste onmicrosoft-domein
+      url: https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain
+    - text: De werking van DNS-beheer in Office 365
+      url: https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq
+    - text: De beschrijving van de Office 365-service voor domeinen lezen
+      url: https://go.microsoft.com/fwlink/p/?LinkId=402693
+  - linkListType: how-to-guide
+    links:
+    - text: De invloed van het toevoegen van een domein of het wijzigen van DNS-records op huidige e-mail
+      url: https://docs.microsoft.com/microsoft-365/admin/setup/add-domain
+- title: Aan de slag
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Uw domein verifiëren (bewijzen dat u eigenaar bent van het domein)
+      url: https://docs.microsoft.com/microsoft-365/admin/setup/add-domain
+    - text: De informatie verzamelen die u nodig hebt om DNS-records te maken
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/information-for-dns-records
+    - text: De registrar van uw domein zoeken
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-your-domain-registrar
+    - text: Een domeinnaam kopen
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/buy-a-domain-name
+    - text: Een pilot met uw aangepaste domein instellen voor enkele personen in uw bedrijf
+      url: https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-to-set-up-an-office-365-pilot
+    - text: Snel een GoDaddy-domein toevoegen aan Office 365
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/domain-connect
+    - text: De vereiste DNS-records voor Office 365-services toevoegen
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider
+    - text: How to prepare a non-routable domain for directory synchronization
+      url: https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization
+    - text: Veelgestelde vragen over domeinen
+      url: https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq
+- title: DNS-records maken voor Office 365
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: DNS-records maken bij GoDaddy
+      url: https://docs.microsoft.com/microsoft-365/admin/dns/create-dns-records-at-godaddy
+    - text: DNS-records maken op 1&1 IONOS
+      url: https://docs.microsoft.com/microsoft-365/admin/dns/create-dns-records-at-1-1-internet
+    - text: DNS-records maken bij Netwerkoplossingen
+      url: https://docs.microsoft.com/microsoft-365/admin/dns/create-dns-records-at-network-solutions
+    - text: DNS-records voor Office 365 maken wanneer u uw DNS-records beheert
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider
+- title: Naamservers wijzigen in Office 365
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Naamservers wijzigen om Office 365 in te stellen met 1&1 IONOS
+      url: https://docs.microsoft.com/microsoft-365/admin/dns/change-nameservers-at-1-1-internet
+    - text: Naamservers wijzigen voor het instellen van Office 365 bij Network Solutions
+      url: https://docs.microsoft.com/microsoft-365/admin/dns/change-nameservers-at-network-solutions
+    - text: Snel een GoDaddy-domein toevoegen aan Office 365
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/domain-connect
+    - text: Naamservers wijzigen in Office 365 zodat records voor u zijn ingesteld
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions
+- title: Wijzigingen aanbrengen
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Problemen na het wijzigen van uw domeinnaam of DNS-records vinden en oplossen
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-and-fix-issues
+    - text: Aangepaste DNS-records toevoegen of bewerken in Office 365
+      url: https://docs.microsoft.com/microsoft-365/admin/dns/add-or-edit-custom-dns-records
+    - text: Aangepaste subdomeinen of meerdere domeinen toevoegen in Office 365?
+      url: hhttps://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#can-i-add-custom-subdomains-or-multiple-domains-to-office-365
+    - text: Wijzigen hoe DNS voor uw domein wordt beheerd in Office 365
+      url: https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-do-i-change-how-my-dns-records-are-managed-in-office-365
+    - text: Een domein verwijderen
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/remove-a-domain
+    - text: Office 365 integration with on-premises environments
+      url: https://docs.microsoft.com/office365/enterprise/office-365-integration
+    - text: Contact opnemen met ondersteuning voor zakelijke producten
+      url: https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products
