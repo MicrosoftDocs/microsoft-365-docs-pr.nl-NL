@@ -1,0 +1,152 @@
+---
+title: Migreren van Microsoft 365 Business naar Microsoft 365 E3
+f1.keywords:
+- NOCSH
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: laurawi
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+ms.custom:
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+search.appverid:
+- BCS160
+- MET150
+ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
+description: Meer informatie over het verplaatsen van uw bedrijf van Microsoft 365 Business naar Microsoft 365 E3.
+ms.openlocfilehash: 9e9cfcf2212faa69f600267e4f9bfd2391e3f4e5
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42811671"
+---
+# <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a><span data-ttu-id="11bc2-103">Migreren van Microsoft 365 Business naar Microsoft 365 E3</span><span class="sxs-lookup"><span data-stu-id="11bc2-103">Migrate from Microsoft 365 Business to Microsoft 365 E3</span></span>
+
+<span data-ttu-id="11bc2-104">Microsoft 365 Business heeft alles wat u nodig hebt voor uw kleine bedrijf en combineert de beste cloudgebaseerde productiviteitsapps met eenvoudig apparaatbeheer en -beveiliging waarmee uw medewerkers hun beste werk kunnen doen.</span><span class="sxs-lookup"><span data-stu-id="11bc2-104">Microsoft 365 Business has everything you need for your small business, combining the best-in-class cloud-based productivity apps with simple device management and security that enable your employees to do their best work.</span></span> <span data-ttu-id="11bc2-105">In sommige gevallen moet u echter uw Microsoft 365 Business-abonnement migreren naar Microsoft 365 E3.</span><span class="sxs-lookup"><span data-stu-id="11bc2-105">In some cases, however, you may need to migrate your Microsoft 365 Business subscription to Microsoft 365 E3.</span></span> 
+
+<span data-ttu-id="11bc2-106">Uw bedrijf is bijvoorbeeld gegroeid en heeft meer dan 300 licenties nodig (gefeliciteerd, trouwens).</span><span class="sxs-lookup"><span data-stu-id="11bc2-106">For example, your business has grown and needs more than 300 licenses (congratulations, by the way).</span></span>
+
+<span data-ttu-id="11bc2-107">Uw bedrijf heeft ook zakelijke functies nodig, zoals Office 365 ProPlus, Windows 10 Enterprise E3 of Enterprise Client Access Licenses (CALs).</span><span class="sxs-lookup"><span data-stu-id="11bc2-107">Or, your business needs enterprise features, such as Office 365 ProPlus, Windows 10 Enterprise E3, or Enterprise Client Access Licenses (CALs).</span></span>
+
+<span data-ttu-id="11bc2-108">Upgraden is eenvoudig: u de upgrade starten [vanuit het beheercentrum.](../commerce/subscriptions/upgrade-to-different-plan.md)</span><span class="sxs-lookup"><span data-stu-id="11bc2-108">Upgrading is easy: you can start the upgrade [from the Admin center](../commerce/subscriptions/upgrade-to-different-plan.md).</span></span> <span data-ttu-id="11bc2-109">Al uw gegevens en configuratie in uw huidige abonnement worden bijgehouden.</span><span class="sxs-lookup"><span data-stu-id="11bc2-109">All your data and configuration in your current subscription is maintained.</span></span> <span data-ttu-id="11bc2-110">Er is niets voor u om te doen om voor te bereiden op de migratie en niets te doen daarna, behalve profiteren van de nieuwe functies.</span><span class="sxs-lookup"><span data-stu-id="11bc2-110">There's nothing for you to do to prepare for the migration and nothing to do afterward, except take advantage of the new features.</span></span>
+
+>[!Note]
+><span data-ttu-id="11bc2-111">U ook een Microsoft 365 Business-abonnement gebruiken voor maximaal 300 zitplaatsen en een Microsoft 365 E3-abonnement voor meer dan 300 zitplaatsen.</span><span class="sxs-lookup"><span data-stu-id="11bc2-111">You can also use a Microsoft 365 Business subscription for up to 300 seats and get a Microsoft 365 E3 subscription for more than 300 seats.</span></span> <span data-ttu-id="11bc2-112">Office 365 ATP is echter niet inbegrepen bij Microsoft 365 E3.</span><span class="sxs-lookup"><span data-stu-id="11bc2-112">However, Office 365 ATP is not included with Microsoft 365 E3.</span></span> <span data-ttu-id="11bc2-113">Voor voortdurende bescherming van bedreigingen moet u extra Office 365 ATP-licenties toevoegen, zodat alle gebruikers in het kader van uw Office 365 ATP-politiegegevens een licentie hebben.</span><span class="sxs-lookup"><span data-stu-id="11bc2-113">For continued threat protection, you should add additional Office 365 ATP licenses so that all of the users in scope of your Office 365 ATP polices are licensed.</span></span>
+>
+
+## <a name="differences-between-microsoft-365-business-and-microsoft-365-enterprise"></a><span data-ttu-id="11bc2-114">Verschillen tussen Microsoft 365 Business en Microsoft 365 Enterprise</span><span class="sxs-lookup"><span data-stu-id="11bc2-114">Differences between Microsoft 365 Business and Microsoft 365 Enterprise</span></span>
+
+<span data-ttu-id="11bc2-115">In deze tabel ziet u de verschillen tussen Microsoft 365 Business en Microsoft 365 E3.</span><span class="sxs-lookup"><span data-stu-id="11bc2-115">This table shows the differences between Microsoft 365 Business and Microsoft 365 E3.</span></span>
+
+| <span data-ttu-id="11bc2-116">Functie</span><span class="sxs-lookup"><span data-stu-id="11bc2-116">Feature</span></span>    | <span data-ttu-id="11bc2-117">Ondersteuning in Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="11bc2-117">Support in Microsoft 365 Business</span></span>    | <span data-ttu-id="11bc2-118">Ondersteuning in Microsoft 365 E3</span><span class="sxs-lookup"><span data-stu-id="11bc2-118">Support in Microsoft 365 E3</span></span> | 
+|:-------|:-----|:-----|
+| <span data-ttu-id="11bc2-119">**On-premises**</span><span class="sxs-lookup"><span data-stu-id="11bc2-119">**On-premises**</span></span>        | | | 
+| <span data-ttu-id="11bc2-120">Windows 10</span><span class="sxs-lookup"><span data-stu-id="11bc2-120">Windows 10</span></span>    | <span data-ttu-id="11bc2-121">Windows 10 Business</span><span class="sxs-lookup"><span data-stu-id="11bc2-121">Windows 10 Business</span></span>  |     <span data-ttu-id="11bc2-122">Windows 10 Enterprise E3</span><span class="sxs-lookup"><span data-stu-id="11bc2-122">Windows 10 Enterprise E3</span></span>| 
+| <span data-ttu-id="11bc2-123">Office-apps\*</span><span class="sxs-lookup"><span data-stu-id="11bc2-123">Office apps\*</span></span>    | [<span data-ttu-id="11bc2-124">Office 365 Business</span><span class="sxs-lookup"><span data-stu-id="11bc2-124">Office 365 Business</span></span>](#office-365-business)    | <span data-ttu-id="11bc2-125">Office 365 ProPlus</span><span class="sxs-lookup"><span data-stu-id="11bc2-125">Office 365 ProPlus</span></span> | 
+| <span data-ttu-id="11bc2-126">**Apps voor cloudproductiviteit**</span><span class="sxs-lookup"><span data-stu-id="11bc2-126">**Cloud productivity apps**</span></span>        | | | 
+| <span data-ttu-id="11bc2-127">Exchange Online en Outlook</span><span class="sxs-lookup"><span data-stu-id="11bc2-127">Exchange Online and Outlook</span></span>    | <span data-ttu-id="11bc2-128">50 GB opslaglimiet per postvak en onbeperkte Exchange Online-archivering</span><span class="sxs-lookup"><span data-stu-id="11bc2-128">50 GB storage limit per mailbox and unlimited Exchange Online archiving</span></span>    | <span data-ttu-id="11bc2-129">100 GB opslaglimiet per postvak en onbeperkte Exchange Online-archivering</span><span class="sxs-lookup"><span data-stu-id="11bc2-129">100 GB storage limit per mailbox and unlimited Exchange Online archiving</span></span> | 
+| <span data-ttu-id="11bc2-130">Teams</span><span class="sxs-lookup"><span data-stu-id="11bc2-130">Teams</span></span>    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| <span data-ttu-id="11bc2-133">OneDrive voor Bedrijven</span><span class="sxs-lookup"><span data-stu-id="11bc2-133">OneDrive for Business</span></span>    | <span data-ttu-id="11bc2-134">1 TB opslaglimiet per gebruiker</span><span class="sxs-lookup"><span data-stu-id="11bc2-134">1 TB storage limit per user</span></span>    | <span data-ttu-id="11bc2-135">Onbeperkt</span><span class="sxs-lookup"><span data-stu-id="11bc2-135">Unlimited</span></span> | 
+| <span data-ttu-id="11bc2-136">Yammer, SharePoint Online, Planner, Stream</span><span class="sxs-lookup"><span data-stu-id="11bc2-136">Yammer, SharePoint Online, Planner, Stream</span></span>    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| <span data-ttu-id="11bc2-139">Outlook Customer Manager, MileIQ</span><span class="sxs-lookup"><span data-stu-id="11bc2-139">Outlook Customer Manager, MileIQ</span></span>    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | | 
+| <span data-ttu-id="11bc2-141">**Bescherming tegen bedreigingen**</span><span class="sxs-lookup"><span data-stu-id="11bc2-141">**Threat Protection**</span></span>        | | | 
+| <span data-ttu-id="11bc2-142">Mogelijkheden voor vermindering van het oppervlak aanvallen</span><span class="sxs-lookup"><span data-stu-id="11bc2-142">Attack surface reduction capabilities</span></span>    | [<span data-ttu-id="11bc2-143">Bekijk deze lijst</span><span class="sxs-lookup"><span data-stu-id="11bc2-143">See this list</span></span>](#threat-protection) | <span data-ttu-id="11bc2-144">Enterprise-beheer van hardwaregebaseerde isolatie voor Microsoft Edge</span><span class="sxs-lookup"><span data-stu-id="11bc2-144">Enterprise management of hardware-based isolation for Microsoft Edge</span></span> | 
+| <span data-ttu-id="11bc2-145">Office 365 Advanced Threat Protection (ATP) Plan 1</span><span class="sxs-lookup"><span data-stu-id="11bc2-145">Office 365 Advanced Threat Protection (ATP) Plan 1</span></span> | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | <span data-ttu-id="11bc2-147">Niet inbegrepen, maar kan worden toegevoegd op</span><span class="sxs-lookup"><span data-stu-id="11bc2-147">Not included, but can be added on</span></span> | 
+| <span data-ttu-id="11bc2-148">**Identiteitsbeheer**</span><span class="sxs-lookup"><span data-stu-id="11bc2-148">**Identity management**</span></span>        | | | 
+| <span data-ttu-id="11bc2-149">Selfservice wachtwoord opnieuw instellen voor hybride Azure Active Directory -accounts (Azure AD), Azure multi-factor authentication (MFA), Voorwaardelijke toegang, wachtwoordterugschrijfterugzet voor on-premises identiteiten</span><span class="sxs-lookup"><span data-stu-id="11bc2-149">Self-service password reset for hybrid Azure Active Directory (Azure AD) accounts, Azure multi-factor authentication (MFA), Conditional Access, password writeback for on-premises identities</span></span>|     ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| <span data-ttu-id="11bc2-152">Detectie van cloud-apps, Azure AD Connect-status</span><span class="sxs-lookup"><span data-stu-id="11bc2-152">Cloud App Discovery, Azure AD Connect Health</span></span>    |     | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| <span data-ttu-id="11bc2-154">Azure AD Office 365-apps Eenmalige aanmelding (SSO): 10 apps per gebruiker (Galerij SaaS-apps zoals Salesforce)\*</span><span class="sxs-lookup"><span data-stu-id="11bc2-154">Azure AD Office 365 apps Single Sign-On (SSO): 10 apps per user (Gallery SaaS apps such as Salesforce)\*</span></span> | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| <span data-ttu-id="11bc2-157">Azure AD Premium 1 SSO: geen limiet (on-premises apps via Azure AD Application Proxy en niet-galerijapps met selfservice-app-integratiesjablonen)</span><span class="sxs-lookup"><span data-stu-id="11bc2-157">Azure AD Premium 1 SSO: no limit (On-premises apps through Azure AD Application Proxy and non-gallery apps using Self-Service App Integration templates)</span></span>    |     | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| <span data-ttu-id="11bc2-159">**Apparaat- en appbeheer**</span><span class="sxs-lookup"><span data-stu-id="11bc2-159">**Device and app management**</span></span>        | | | 
+| <span data-ttu-id="11bc2-160">Microsoft Intune, Windows Autopilot</span><span class="sxs-lookup"><span data-stu-id="11bc2-160">Microsoft Intune, Windows Autopilot</span></span>|     ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+|<span data-ttu-id="11bc2-163">Virtuele desktoptoegang (VDA)</span><span class="sxs-lookup"><span data-stu-id="11bc2-163">Virtual Desktop Access (VDA)</span></span>    |  |     ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+|<span data-ttu-id="11bc2-165">Windows Virtueel bureaublad (WVD)</span><span class="sxs-lookup"><span data-stu-id="11bc2-165">Windows Virtual Desktop (WVD)</span></span>    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png) |     ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+|<span data-ttu-id="11bc2-168">Gedeelde computeractivering (SCA)</span><span class="sxs-lookup"><span data-stu-id="11bc2-168">Shared Computer Activation (SCA)</span></span>    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png) |     ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| <span data-ttu-id="11bc2-171">Microsoft Desktop-optimalisatiepakket</span><span class="sxs-lookup"><span data-stu-id="11bc2-171">Microsoft Desktop Optimization Package</span></span>    | |     ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| <span data-ttu-id="11bc2-173">**Informatiebescherming**</span><span class="sxs-lookup"><span data-stu-id="11bc2-173">**Information protection**</span></span>        | | | 
+| <span data-ttu-id="11bc2-174">Office 365-preventie van gegevensverlies, Azure Information Protection Plan 1</span><span class="sxs-lookup"><span data-stu-id="11bc2-174">Office 365 Data Loss Prevention, Azure Information Protection Plan 1</span></span>    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| <span data-ttu-id="11bc2-177">Venstergegevensbescherming voor eindpunt DLP</span><span class="sxs-lookup"><span data-stu-id="11bc2-177">Window Information Protection for endpoint DLP</span></span>    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| <span data-ttu-id="11bc2-180">**Client Access License (CAL-rechten)**</span><span class="sxs-lookup"><span data-stu-id="11bc2-180">**Client Access License (CAL rights)**</span></span>    | | |     
+| <span data-ttu-id="11bc2-181">Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, Windows Rights Management)</span><span class="sxs-lookup"><span data-stu-id="11bc2-181">Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, Windows Rights Management)</span></span>| |         ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| <span data-ttu-id="11bc2-183">**Naleving**</span><span class="sxs-lookup"><span data-stu-id="11bc2-183">**Compliance**</span></span>        | | | 
+| <span data-ttu-id="11bc2-184">Onbeperkte e-mailarchivering</span><span class="sxs-lookup"><span data-stu-id="11bc2-184">Unlimited email archiving</span></span>    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| <span data-ttu-id="11bc2-187">Compliance Score/Compliance Manager</span><span class="sxs-lookup"><span data-stu-id="11bc2-187">Compliance Score/Compliance Manager</span></span>    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| <span data-ttu-id="11bc2-190">eDiscovery</span><span class="sxs-lookup"><span data-stu-id="11bc2-190">eDiscovery</span></span>    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| <span data-ttu-id="11bc2-193">In-place hold en litigation hold</span><span class="sxs-lookup"><span data-stu-id="11bc2-193">In-place hold and litigation hold</span></span>    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| <span data-ttu-id="11bc2-196">Mrm-bewaartags en bewaarbeleid (Messaging Records Management)</span><span class="sxs-lookup"><span data-stu-id="11bc2-196">Messaging Records Management (MRM) retention tags and retention policies</span></span>    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+||||
+
+<span data-ttu-id="11bc2-199">\*Gebruikers die toegang hebben gekregen tot SaaS-apps, kunnen SSO-toegang krijgen tot maximaal 10 apps.</span><span class="sxs-lookup"><span data-stu-id="11bc2-199">\* Users who have been assigned access to SaaS apps can get SSO access to up to 10 apps.</span></span> <span data-ttu-id="11bc2-200">Beheerders kunnen SSO configureren en de toegang van gebruikers wijzigen tot verschillende SaaS-apps, maar SSO-toegang is alleen toegestaan voor 10 apps per gebruiker tegelijk.</span><span class="sxs-lookup"><span data-stu-id="11bc2-200">Admins can configure SSO and change user access to different SaaS apps, but SSO access is only allowed for 10 apps per user at a time.</span></span> <span data-ttu-id="11bc2-201">Alle Office 365-apps worden als één app geteld.</span><span class="sxs-lookup"><span data-stu-id="11bc2-201">All Office 365 apps are counted as a single app.</span></span>
+
+## <a name="migration"></a><span data-ttu-id="11bc2-202">Migratie</span><span class="sxs-lookup"><span data-stu-id="11bc2-202">Migration</span></span>
+
+<span data-ttu-id="11bc2-203">Als u wilt migreren, werkt u samen met uw partner om uw Microsoft 365 Business-abonnement en licenties te verplaatsen naar een geschikt Microsoft 365 E3-abonnement met zijn licenties.</span><span class="sxs-lookup"><span data-stu-id="11bc2-203">To migrate, work with your partner to move your Microsoft 365 Business subscription and licenses to a suitable Microsoft 365 E3 subscription with its licenses.</span></span>
+
+<span data-ttu-id="11bc2-204">In de volgende secties worden beschreven welke wijzigingen u eventueel moet aanbrengen en wat u na de migratie doen.</span><span class="sxs-lookup"><span data-stu-id="11bc2-204">The following sections describe what changes you need to make, if any, and what you can do after the migration.</span></span>
+
+### <a name="microsoft-365-subscription-configuration-and-data"></a><span data-ttu-id="11bc2-205">Microsoft 365-abonnementsconfiguratie en -gegevens</span><span class="sxs-lookup"><span data-stu-id="11bc2-205">Microsoft 365 subscription configuration and data</span></span>
+
+<span data-ttu-id="11bc2-206">U hoeft geen wijzigingen aan te brengen in uw huidige abonnement of gegevens voordat u migreert, waaronder:</span><span class="sxs-lookup"><span data-stu-id="11bc2-206">You don't need to make any changes to your current subscription or data before migrating, which includes:</span></span>
+
+- <span data-ttu-id="11bc2-207">Abonnementsconfiguratie, zoals DNS-domeinnamen.</span><span class="sxs-lookup"><span data-stu-id="11bc2-207">Subscription configuration, such as DNS domain names.</span></span>
+- <span data-ttu-id="11bc2-208">Gebruikers- en groepsaccounts en verificatie-instellingen, zoals verificatie met meerdere factoren of beleid voor voorwaardelijke toegang.</span><span class="sxs-lookup"><span data-stu-id="11bc2-208">User and group accounts and authentication settings, such as multi factor authentication or conditional access policies.</span></span>
+- <span data-ttu-id="11bc2-209">Productiviteitsserviceconfiguraties en hun gegevens, zoals Teams, Exchange Online-postvakken, SharePoint Online-sites, OneDrive voor Bedrijven-mappen en OneNote-notitieblokken.</span><span class="sxs-lookup"><span data-stu-id="11bc2-209">Productivity service configurations and their data, such as Teams, Exchange Online mailboxes, SharePoint Online sites, OneDrive for Business folders, and OneNote notebooks.</span></span>
+
+<span data-ttu-id="11bc2-210">Uw gebruikers kunnen nu onbeperkt opslaan in de Exchange Online-postvakken en OneDrive voor Bedrijven-mappen.</span><span class="sxs-lookup"><span data-stu-id="11bc2-210">Your users can now enjoy unlimited storage in the Exchange Online mailboxes and OneDrive for Business folders.</span></span>
+
+<span data-ttu-id="11bc2-211">U cloudappdetectie, Azure AD Connect-status en SSO gebruiken voor meer dan 10 apps.</span><span class="sxs-lookup"><span data-stu-id="11bc2-211">You can begin using Cloud App Discovery, Azure AD Connect Health, and SSO for more than 10 apps.</span></span>
+
+>[!Note]
+><span data-ttu-id="11bc2-212">Gebruikers die zijn gemigreerd naar Microsoft 365 E3 kunnen Outlook Customer Manager en MileIQ niet meer gebruiken.</span><span class="sxs-lookup"><span data-stu-id="11bc2-212">Users migrated to Microsoft 365 E3 can no longer use Outlook Customer Manager and MileIQ.</span></span>
+>
+
+<a name="threat-protection"></a>
+### <a name="threat-protection"></a><span data-ttu-id="11bc2-213">Bescherming tegen bedreigingen</span><span class="sxs-lookup"><span data-stu-id="11bc2-213">Threat protection</span></span>
+
+<span data-ttu-id="11bc2-214">Windows 10 Business bevat de volgende beveiligingen:</span><span class="sxs-lookup"><span data-stu-id="11bc2-214">Windows 10 Business includes these protections:</span></span>
+
+- <span data-ttu-id="11bc2-215">Integriteitshandhaving van het opstartproces van het besturingssysteem</span><span class="sxs-lookup"><span data-stu-id="11bc2-215">Integrity enforcement of operating system boot up process</span></span>
+- <span data-ttu-id="11bc2-216">Integriteitshandhaving van gevoelige bedrijfsonderdelen</span><span class="sxs-lookup"><span data-stu-id="11bc2-216">Integrity enforcement of sensitive operating components</span></span>
+- <span data-ttu-id="11bc2-217">Geavanceerde kwetsbaarheid en zero-day exploit mitigations</span><span class="sxs-lookup"><span data-stu-id="11bc2-217">Advanced vulnerability and zero-day exploit mitigations</span></span>
+- <span data-ttu-id="11bc2-218">Netwerkbeveiliging op basis van reputatie voor Microsoft Edge, Internet Explorer en Chrome</span><span class="sxs-lookup"><span data-stu-id="11bc2-218">Reputation-based network protection for Microsoft Edge, Internet Explorer, and Chrome</span></span>
+- <span data-ttu-id="11bc2-219">Firewall op basis van host</span><span class="sxs-lookup"><span data-stu-id="11bc2-219">Host-based firewall</span></span>
+- <span data-ttu-id="11bc2-220">Ransomware mitigaties</span><span class="sxs-lookup"><span data-stu-id="11bc2-220">Ransomware mitigations</span></span>
+- <span data-ttu-id="11bc2-221">Hardwaregebaseerde isolatie voor Microsoft Edge</span><span class="sxs-lookup"><span data-stu-id="11bc2-221">Hardware-based isolation for Microsoft Edge</span></span>
+- <span data-ttu-id="11bc2-222">Toepassingsbesturing aangedreven door de Intelligent Security Graph</span><span class="sxs-lookup"><span data-stu-id="11bc2-222">Application control powered by the Intelligent Security Graph</span></span>
+- <span data-ttu-id="11bc2-223">Apparaatbesturing (USB)</span><span class="sxs-lookup"><span data-stu-id="11bc2-223">Device control (USB)</span></span>
+- <span data-ttu-id="11bc2-224">Netwerkbescherming voor webgebaseerde bedreigingen</span><span class="sxs-lookup"><span data-stu-id="11bc2-224">Network protection for web-based threats</span></span>
+- <span data-ttu-id="11bc2-225">Regels voor inbraakpreventie hosten</span><span class="sxs-lookup"><span data-stu-id="11bc2-225">Host intrusion prevention rules</span></span>
+
+<span data-ttu-id="11bc2-226">Windows 10 Enterprise E3 bevat ook enterprise management van hardwaregebaseerde isolatie voor Microsoft Edge.</span><span class="sxs-lookup"><span data-stu-id="11bc2-226">Windows 10 Enterprise E3 also includes enterprise management of hardware-based isolation for Microsoft Edge.</span></span>
+
+>[!Note]
+><span data-ttu-id="11bc2-227">Gebruikers die zijn gemigreerd naar Microsoft 365 E3 hebben elk een Office 365 ATP-licentie nodig voor voortdurende bescherming tegen bedreigingen.</span><span class="sxs-lookup"><span data-stu-id="11bc2-227">Users migrated to Microsoft 365 E3 will each require an Office 365 ATP license for continued threat protection.</span></span> <span data-ttu-id="11bc2-228">Zorg ervoor dat u extra Office 365 ATP-licenties aanschaft, zodat alle gebruikers in het kader van uw Office 365 ATP-politieeen licentie hebben.</span><span class="sxs-lookup"><span data-stu-id="11bc2-228">Be sure to purchase additional Office 365 ATP licenses so that all of the users in scope of your Office 365 ATP polices are licensed.</span></span> 
+>
+
+### <a name="device-management-with-intune"></a><span data-ttu-id="11bc2-229">Apparaatbeheer met Intune</span><span class="sxs-lookup"><span data-stu-id="11bc2-229">Device management with Intune</span></span>
+
+<span data-ttu-id="11bc2-230">U hoeft geen wijzigingen aan te brengen in uw huidige Intune-configuratie voordat u migreert, inclusief ingeschreven apparaten en apparaat- en app-instellingen.</span><span class="sxs-lookup"><span data-stu-id="11bc2-230">You don't need to make any changes to your current Intune configuration before migrating, which includes enrolled devices and device and app settings.</span></span>
+
+### <a name="windows-10"></a><span data-ttu-id="11bc2-231">Windows 10</span><span class="sxs-lookup"><span data-stu-id="11bc2-231">Windows 10</span></span>
+
+<span data-ttu-id="11bc2-232">Microsoft 365 Business bevat Windows 10 Business, dat u installeren met Windows AutoPilot.</span><span class="sxs-lookup"><span data-stu-id="11bc2-232">Microsoft 365 Business includes Windows 10 Business, which you can install with Windows AutoPilot.</span></span> <span data-ttu-id="11bc2-233">Wanneer u migreert naar Microsoft 365 E3, bevat elke gebruikerslicentie Windows 10 Enterprise E3, die u ook installeren met Windows Autopilot.</span><span class="sxs-lookup"><span data-stu-id="11bc2-233">When you migrate to Microsoft 365 E3, each user license includes Windows 10 Enterprise E3, which you can also install with Windows Autopilot.</span></span>
+
+<a name="office-365-business"></a>
+### <a name="office-365-business"></a><span data-ttu-id="11bc2-234">Office 365 Business</span><span class="sxs-lookup"><span data-stu-id="11bc2-234">Office 365 Business</span></span>
+
+<span data-ttu-id="11bc2-235">Uw Office 365 Business-client die op uw apparaten is geïnstalleerd, gebruikt automatisch de functies van Office 365 ProPlus.</span><span class="sxs-lookup"><span data-stu-id="11bc2-235">Your Office 365 Business client installed on your devices will automatically begin to use the features of Office 365 ProPlus.</span></span> <span data-ttu-id="11bc2-236">Na migratie u nu het:</span><span class="sxs-lookup"><span data-stu-id="11bc2-236">After migration, you can now use:</span></span>
+
+ - <span data-ttu-id="11bc2-237">Volumeactivering via groepsbeleid</span><span class="sxs-lookup"><span data-stu-id="11bc2-237">Volume activation through Group Policy</span></span>
+ - <span data-ttu-id="11bc2-238">App-telemetrie</span><span class="sxs-lookup"><span data-stu-id="11bc2-238">App telemetry</span></span>
+ - <span data-ttu-id="11bc2-239">Besturingselementen bijwerken</span><span class="sxs-lookup"><span data-stu-id="11bc2-239">Update controls</span></span>
+ - <span data-ttu-id="11bc2-240">Spreadsheet vergelijken en informeren</span><span class="sxs-lookup"><span data-stu-id="11bc2-240">Spreadsheet compare and inquire</span></span>
+ - <span data-ttu-id="11bc2-241">Business intelligence</span><span class="sxs-lookup"><span data-stu-id="11bc2-241">Business intelligence</span></span>
+
