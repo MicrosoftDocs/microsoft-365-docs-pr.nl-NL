@@ -1,0 +1,61 @@
+---
+title: Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten
+f1.keywords:
+- NOCSH
+ms.author: sirkkuw
+author: Sirkkuw
+manager: scotv
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+- Adm_TOC
+search.appverid:
+- BCS160
+- MET150
+- MOE150
+ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
+description: Leer registersleutels in te stellen om moderne verificatie in te schakelen voor apparaten waarop Microsoft Office 2013 is geïnstalleerd.
+ms.openlocfilehash: f1264affa5be93b19e564a0edea00bfb78f452f1
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42805965"
+---
+# <a name="enable-modern-authentication-for-office-2013-on-windows-devices"></a><span data-ttu-id="861e8-103">Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten</span><span class="sxs-lookup"><span data-stu-id="861e8-103">Enable Modern Authentication for Office 2013 on Windows devices</span></span>
+
+<span data-ttu-id="861e8-104">Als u moderne verificatie wilt inschakelen voor Windows-apparaten waarop Office 2013 is geïnstalleerd, moet u bepaalde registersleutels instellen.</span><span class="sxs-lookup"><span data-stu-id="861e8-104">To enable modern authentication for any Windows devices that have Office 2013 installed, you need to set specific registry keys.</span></span>
+  
+## <a name="enable-modern-authentication-for-office-2013-clients"></a><span data-ttu-id="861e8-105">Moderne verificatie voor Office 2013-clients inschakelen</span><span class="sxs-lookup"><span data-stu-id="861e8-105">Enable modern authentication for Office 2013 clients</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="861e8-106">Moderne verificatie is al ingeschakeld voor Office 2016-clients. U hoeft geen registersleutels in te stellen voor Office 2016.</span><span class="sxs-lookup"><span data-stu-id="861e8-106">Modern authentication is already enabled for Office 2016 clients, you do not need to set registry keys for Office 2016.</span></span> 
+  
+<span data-ttu-id="861e8-p101">Als u moderne verificatie wilt inschakelen voor Windows-apparaten, zoals laptops en tablets, waarop Microsoft Office 2013 is geïnstalleerd, moet u de volgende registersleutels instellen. De sleutels moeten worden ingesteld op elk apparaat waarop u de moderne verificatie wilt inschakelen:</span><span class="sxs-lookup"><span data-stu-id="861e8-p101">To enable modern authentication for any devices running Windows (for example on laptops and tablets), that have Microsoft Office 2013 installed, you need to set the following registry keys. The keys have to be set on each device that you want to enable for modern authentication:</span></span>
+  
+|<span data-ttu-id="861e8-109">**Registersleutel**</span><span class="sxs-lookup"><span data-stu-id="861e8-109">**Registry key**</span></span>|<span data-ttu-id="861e8-110">**Type**</span><span class="sxs-lookup"><span data-stu-id="861e8-110">**Type**</span></span>|<span data-ttu-id="861e8-111">**Value**</span><span class="sxs-lookup"><span data-stu-id="861e8-111">**Value**</span></span> |
+|:-------|:------:|--------:|
+|<span data-ttu-id="861e8-112">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL</span><span class="sxs-lookup"><span data-stu-id="861e8-112">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL</span></span>  |<span data-ttu-id="861e8-113">Reg_dword</span><span class="sxs-lookup"><span data-stu-id="861e8-113">REG_DWORD</span></span>  |<span data-ttu-id="861e8-114">1</span><span class="sxs-lookup"><span data-stu-id="861e8-114">1</span></span>  |
+|<span data-ttu-id="861e8-115">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version</span><span class="sxs-lookup"><span data-stu-id="861e8-115">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version</span></span> |<span data-ttu-id="861e8-116">Reg_dword</span><span class="sxs-lookup"><span data-stu-id="861e8-116">REG_DWORD</span></span> |<span data-ttu-id="861e8-117">1</span><span class="sxs-lookup"><span data-stu-id="861e8-117">1</span></span> |
+   
+<span data-ttu-id="861e8-118">Nadat u de registersleutels hebt ingesteld, kunt u instellen in Office 2013-apps wordt gebruikgemaakt van [meervoudige verificatie (MFA)](set-up-multi-factor-authentication.md) met Office 365.</span><span class="sxs-lookup"><span data-stu-id="861e8-118">Once you have set the registry keys, you can set Office 2013 devices apps to use [multifactor authentication (MFA)](set-up-multi-factor-authentication.md) with Office 365</span></span> 
+  
+<span data-ttu-id="861e8-p102">Als u momenteel bent aangemeld met een van de client-apps, moet u zich afmelden en opnieuw aanmelden om de wijziging te effectueren. Anders zijn de MRU- en roaminginstellingen niet beschikbaar tot de ADAL-identiteit is vastgesteld.</span><span class="sxs-lookup"><span data-stu-id="861e8-p102">If you're currently signed-in with any of the client apps, you need to sign out and sign back in for the change to take effect. Otherwise, the MRU and roaming settings will be unavailable until the ADAL identity is established.</span></span>
+  
+## <a name="disable-modern-authentication-on-devices"></a><span data-ttu-id="861e8-121">Moderne verificatie uitschakelen op apparaten</span><span class="sxs-lookup"><span data-stu-id="861e8-121">Disable modern authentication on devices</span></span>
+
+<span data-ttu-id="861e8-122">Als u moderne verificatie wilt uitschakelen op een apparaat, stelt u de volgende registersleutels in op het apparaat:</span><span class="sxs-lookup"><span data-stu-id="861e8-122">To disable modern authentication on a device, set the following registry keys on the device:</span></span>
+  
+|<span data-ttu-id="861e8-123">**Registersleutel**</span><span class="sxs-lookup"><span data-stu-id="861e8-123">**Registry key**</span></span>|<span data-ttu-id="861e8-124">**Type**</span><span class="sxs-lookup"><span data-stu-id="861e8-124">**Type**</span></span>|<span data-ttu-id="861e8-125">**Value**</span><span class="sxs-lookup"><span data-stu-id="861e8-125">**Value**</span></span>|
+|:-------|:------:|--------:|
+|<span data-ttu-id="861e8-126">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL</span><span class="sxs-lookup"><span data-stu-id="861e8-126">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL</span></span> |<span data-ttu-id="861e8-127">Reg_dword</span><span class="sxs-lookup"><span data-stu-id="861e8-127">REG_DWORD</span></span>|<span data-ttu-id="861e8-128">0</span><span class="sxs-lookup"><span data-stu-id="861e8-128">0</span></span>|
+   
+## <a name="related-articles"></a><span data-ttu-id="861e8-129">Verwante artikelen</span><span class="sxs-lookup"><span data-stu-id="861e8-129">Related articles</span></span>
+[<span data-ttu-id="861e8-130">Aanmelden bij Office 2013 met een tweede verificatiemethode</span><span class="sxs-lookup"><span data-stu-id="861e8-130">Sign in to Office 2013 with a second verification method</span></span>](https://support.office.com/article/2b856342-170a-438e-9a4f-3c092394d3cb.aspx)
+
+  
+

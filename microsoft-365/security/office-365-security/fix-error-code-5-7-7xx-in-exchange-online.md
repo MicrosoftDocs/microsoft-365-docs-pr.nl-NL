@@ -1,0 +1,87 @@
+---
+title: Problemen met e-mailbezorging oplossen voor foutcode 5.7.7xx in Exchange Online
+f1.keywords:
+- NOCSH
+ms.author: tracyp
+author: MSFTTracyP
+manager: dansimp
+ms.date: ''
+audience: Admin
+ms.topic: overview
+ms.service: O365-seccomp
+localization_priority: Normal
+search.appverid:
+- MET150
+- MOE150
+ms.collection:
+- M365-security-compliance
+description: Meer informatie over het oplossen van e-mailproblemen voor foutcode 5.7.7xx in Exchange Online (tenant geblokkeerd voor het verzenden van e-mail).
+ms.openlocfilehash: e8e134793db946ddfc3ef09d0adc19b2a04df30b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "42808802"
+---
+# <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a><span data-ttu-id="907da-103">Problemen met e-mailbezorging oplossen voor foutcode 5.7.7xx in Exchange Online</span><span class="sxs-lookup"><span data-stu-id="907da-103">Fix email delivery issues for error code 5.7.7xx in Exchange Online</span></span>
+
+<span data-ttu-id="907da-104">In dit onderwerp wordt beschreven wat u doen als u statuscode 550 5.7.7xx ziet in een rapport dat niet wordt geleverd (ook bekend als een NDR, bouncebericht, melding van de leveringsstatus of DSN).</span><span class="sxs-lookup"><span data-stu-id="907da-104">This topic describes what you can do if you see status code 550 5.7.7xx in a non-delivery report (also known as an NDR, bounce message, delivery status notification, or DSN).</span></span> <span data-ttu-id="907da-105">U ziet deze geautomatiseerde melding wanneer uw tenant op de een of andere manier geen e-mail mag verzenden.</span><span class="sxs-lookup"><span data-stu-id="907da-105">You'll see this automated notification when your tenant is restricted from sending email in one way or another.</span></span> <span data-ttu-id="907da-106">Deze foutcodes komen meestal binnen als 705 of 750.</span><span class="sxs-lookup"><span data-stu-id="907da-106">These error codes will usually come in as 705 or 750.</span></span>
+
+## <a name="57705-tenant-has-exceeded-threshold-restriction-what-you-need-to-know"></a><span data-ttu-id="907da-107">5.7.705: Huurder heeft drempelbeperking overschreden: Wat u moet weten</span><span class="sxs-lookup"><span data-stu-id="907da-107">5.7.705: Tenant has exceeded threshold restriction: What you need to know</span></span>
+
+<span data-ttu-id="907da-108">Zodra uw gebruikers (collectief, als organisatie) een bepaalde hoeveelheid verdachte e-mail via de service verzenden, kunnen alle gebruikers worden verhinderd om e-mail te verzenden totdat het probleem is opgelost.</span><span class="sxs-lookup"><span data-stu-id="907da-108">Once your users (collectively, as organization) send a certain amount of suspicious email through the service, all users can be prevented from sending any email until the problem is fixed.</span></span> <span data-ttu-id="907da-109">Dit is meestal het resultaat van een compromis (meest voorkomende) of het verzenden van te veel bulk post.</span><span class="sxs-lookup"><span data-stu-id="907da-109">This is usually the result of a compromise (most common) or sending too much bulk mail.</span></span> <span data-ttu-id="907da-110">Gebruikers ontvangen een NDR met als status:</span><span class="sxs-lookup"><span data-stu-id="907da-110">Users will receive an NDR that states:</span></span>
+
+`550 5.7.705 Access denied, tenant has exceeded threshold`
+
+<span data-ttu-id="907da-111">In zeldzame gevallen kan dit ook gebeuren als u uw abonnement verlengt nadat het al is verlopen.</span><span class="sxs-lookup"><span data-stu-id="907da-111">In rare cases, this could also happen if you renew your subscription after it has already expired.</span></span> <span data-ttu-id="907da-112">Het kost tijd voor de service om de nieuwe abonnementsinformatie te synchroniseren (meestal niet meer dan één dag), maar uw organisatie kan worden geblokkeerd om e-mail in de tussentijd te verzenden.</span><span class="sxs-lookup"><span data-stu-id="907da-112">It takes time for the service to sync the new subscription information (typically, no more than one day), but your organization could be blocked from sending email in the meantime.</span></span> <span data-ttu-id="907da-113">De beste manier om dit te voorkomen is om ervoor te zorgen dat uw abonnement niet verloopt.</span><span class="sxs-lookup"><span data-stu-id="907da-113">The best way to prevent this is to make sure your subscription does not expire.</span></span>
+
+## <a name="57750-unregistered-domain-email-restriction-what-you-need-to-know"></a><span data-ttu-id="907da-114">5.7.750: Niet-geregistreerde domeine-mailbeperking: wat u moet weten</span><span class="sxs-lookup"><span data-stu-id="907da-114">5.7.750: Unregistered Domain Email restriction: What you need to know</span></span>
+
+<span data-ttu-id="907da-115">Met Office 365 kunnen tenants bepaalde berichten doorgeven via Exchange Online Protection (EOP).</span><span class="sxs-lookup"><span data-stu-id="907da-115">Office 365 allows tenants to relay some messages through Exchange Online Protection (EOP).</span></span> <span data-ttu-id="907da-116">Bijvoorbeeld:</span><span class="sxs-lookup"><span data-stu-id="907da-116">For example:</span></span>
+
+- <span data-ttu-id="907da-117">Een Office 365-postvak ontvangt e-mail van een externe afzender.</span><span class="sxs-lookup"><span data-stu-id="907da-117">An Office 365 mailbox receives email from an external sender.</span></span> <span data-ttu-id="907da-118">E-mail doorsturen is geconfigureerd in het Office 365-postvak, zodat het bericht teruggaat naar het externe e-mailadres van de gebruiker.</span><span class="sxs-lookup"><span data-stu-id="907da-118">Mail forwarding is configured on the Office 365 mailbox, so the message goes back out to the user's external email address.</span></span> <span data-ttu-id="907da-119">Dit scenario komt het meest voor in onderwijsomgevingen waar studenten hun persoonlijke e-mailaccounts willen gebruiken om schoolgerelateerde berichten te bekijken.</span><span class="sxs-lookup"><span data-stu-id="907da-119">This scenario is most common in education environments where students want to use their personal email accounts to view school-related messages.</span></span>
+
+- <span data-ttu-id="907da-120">Hybride omgevingen met on-premises e-mailservers die uitgaande e-mail verzenden via EOP.</span><span class="sxs-lookup"><span data-stu-id="907da-120">Hybrid environments that have on-premises email servers that send outgoing mail through EOP.</span></span>
+
+### <a name="problems-with-unregistered-domains"></a><span data-ttu-id="907da-121">Problemen met niet-geregistreerde domeinen</span><span class="sxs-lookup"><span data-stu-id="907da-121">Problems with unregistered domains</span></span>
+
+<span data-ttu-id="907da-122">Het probleem is wanneer gecompromitteerd on-premises e-mailservers relais een groot volume van spam via EOP.</span><span class="sxs-lookup"><span data-stu-id="907da-122">The problem is when compromised on-premises email servers relay a large volume of spam through EOP.</span></span> <span data-ttu-id="907da-123">In bijna alle gevallen worden de connectors correct ingesteld, maar e-mail wordt verzonden vanuit niet-geregistreerde (ook wel niet-ingerichte) domeinen genoemd.</span><span class="sxs-lookup"><span data-stu-id="907da-123">In almost all cases, the connectors are set up correctly, but email is being sent from unregistered (also known as unprovisioned) domains.</span></span> <span data-ttu-id="907da-124">Office 365 staat een redelijke hoeveelheid e-mail toe van niet-geregistreerde domeinen, maar u moet elk domein configureren dat u gebruikt om e-mail te verzenden als een geaccepteerd domein.</span><span class="sxs-lookup"><span data-stu-id="907da-124">Office 365 allows a reasonable amount of email from unregistered domains, but you should configure every domain that you use to send email as an accepted domain.</span></span>
+
+<span data-ttu-id="907da-125">Eenmaal gecompromitteerd, zullen huurders worden verhinderd uitgaande e-mail te verzenden voor niet-geregistreerde domeinen.</span><span class="sxs-lookup"><span data-stu-id="907da-125">Once compromised, tenants will be prevented from sending outbound email for unregistered domains.</span></span> <span data-ttu-id="907da-126">Gebruikers ontvangen een NDR met als status:</span><span class="sxs-lookup"><span data-stu-id="907da-126">Users will receive an NDR that states:</span></span>
+
+`550 5.7.750 Service unavailable. Client blocked from sending from unregistered domains`
+
+## <a name="unblocking-tenant-in-order-to-send-again"></a><span data-ttu-id="907da-127">Tenant deblokkeren om opnieuw te verzenden</span><span class="sxs-lookup"><span data-stu-id="907da-127">Unblocking tenant in order to send again</span></span>
+
+<span data-ttu-id="907da-128">Er zijn verschillende dingen die u moet doen als uw tenant is geblokkeerd voor het verzenden van e-mail:</span><span class="sxs-lookup"><span data-stu-id="907da-128">There are several things you need to do if your tenant is blocked from sending email:</span></span>
+
+1. <span data-ttu-id="907da-129">Wijzig het wachtwoord voor uw beheerdersaccounts.</span><span class="sxs-lookup"><span data-stu-id="907da-129">Change the password for your admin accounts.</span></span> <span data-ttu-id="907da-130">Als een tenant is geblokkeerd voor het verzenden, is het zeer waarschijnlijk dat een beheerdersaccount is gecompromitteerd.</span><span class="sxs-lookup"><span data-stu-id="907da-130">If a tenant is blocked from sending, it's most likely that an admin account was compromised.</span></span> <span data-ttu-id="907da-131">Het wijzigen van wachtwoorden is de eerste stap om te voorkomen dat de aanvaller meer schade aanricht.</span><span class="sxs-lookup"><span data-stu-id="907da-131">Changing passwords is the first step to prevent the attacker from doing more harm.</span></span>
+
+2. <span data-ttu-id="907da-132">[Mfa inschakelen](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) voor alle beheerders in uw Office 365-organisatie.</span><span class="sxs-lookup"><span data-stu-id="907da-132">[Enable MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) for all admins in your Office 365 organization.</span></span>
+
+3. <span data-ttu-id="907da-133">Controleer of al uw e-maildomeinen zijn geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="907da-133">Verify that all of your email domains are registered.</span></span> <span data-ttu-id="907da-134">Zie [Een domein toevoegen aan Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain) en [Geaccepteerde domeinen beheren in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="907da-134">For more information, see [Add a domain to Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain) and [Manage accepted domains in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).</span></span>
+
+4. <span data-ttu-id="907da-135">Zoek naar ongebruikelijke [connectoren.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)</span><span class="sxs-lookup"><span data-stu-id="907da-135">Look for unusual [connectors](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).</span></span> <span data-ttu-id="907da-136">Kwaadwillenden maken vaak nieuwe binnenkomende connectors in uw Office 365-organisatie om spam te verzenden.</span><span class="sxs-lookup"><span data-stu-id="907da-136">Malicious actors will often create new inbound connectors in your Office 365 organization to send spam.</span></span> <span data-ttu-id="907da-137">Zie [Connectors valideren in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors)als u uw bestaande connectors wilt weergeven.</span><span class="sxs-lookup"><span data-stu-id="907da-137">To view your existing connectors, see [Validate connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors).</span></span>
+
+5. <span data-ttu-id="907da-138">Controleer op gecompromitteerde gebruikers zoals beschreven in [Reageren op een gecompromitteerd e-mailaccount in Office 365](responding-to-a-compromised-email-account.md).</span><span class="sxs-lookup"><span data-stu-id="907da-138">Check for compromised users as described in [Responding to a compromised email account in Office 365](responding-to-a-compromised-email-account.md).</span></span>
+
+6. <span data-ttu-id="907da-139">Vergrendel uw on-premises e-mailservers en controleer of deze niet zijn gecompromitteerd.</span><span class="sxs-lookup"><span data-stu-id="907da-139">Lock down your on-premises email servers and verify that they are not compromised.</span></span>
+
+   > [!TIP]
+   > <span data-ttu-id="907da-140">Er zijn veel factoren hier, vooral als je servers van derden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="907da-140">There are many factors here, especially if you're using third-party servers.</span></span> <span data-ttu-id="907da-141">Hoe dan ook, u moet controleren of uw uitgaande e-mail geen spam bevat.</span><span class="sxs-lookup"><span data-stu-id="907da-141">Regardless, you'll need to verify that your outgoing mail does not include spam.</span></span>
+
+7. <span data-ttu-id="907da-142">Bel Microsoft Support en vraag om uw tenant te laten deblokkeren om e-mail opnieuw te verzenden.</span><span class="sxs-lookup"><span data-stu-id="907da-142">Call Microsoft Support and ask to get your tenant unblocked to send email again.</span></span> <span data-ttu-id="907da-143">De foutcode is handig, maar u moet bewijzen dat uw omgeving is beveiligd en niet in staat is om spam te verzenden.</span><span class="sxs-lookup"><span data-stu-id="907da-143">The error code is helpful, but you'll need to prove that your environment has been secured and is incapable of sending spam.</span></span> <span data-ttu-id="907da-144">Zie [Contactondersteuning voor zakelijke producten - Help voor beheerders](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)om een ondersteuningsaanvraag te openen.</span><span class="sxs-lookup"><span data-stu-id="907da-144">To open a support case, see [Contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).</span></span>
+
+## <a name="for-more-information"></a><span data-ttu-id="907da-145">Voor meer informatie</span><span class="sxs-lookup"><span data-stu-id="907da-145">For more information</span></span>
+
+[<span data-ttu-id="907da-146">Office 365 email anti-spam protection</span><span class="sxs-lookup"><span data-stu-id="907da-146">Office 365 email anti-spam protection</span></span>](anti-spam-protection.md)
+
+[<span data-ttu-id="907da-147">Richtlijnen voor bulkmail in het sectie verzendlimieten van de beschrijving van de Exchange Online-service</span><span class="sxs-lookup"><span data-stu-id="907da-147">Bulk Mail guidance in the sending limits section of the Exchange Online service description</span></span>](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits)
+
+[<span data-ttu-id="907da-148">Rapporten over niet-uitgevoerde bezorging e-mailen in Office 365 e-mail</span><span class="sxs-lookup"><span data-stu-id="907da-148">Email non-delivery reports in Office 365</span></span>](https://docs.microsoft.com/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)
+
+<span data-ttu-id="907da-149">[Configure email forwarding for a mailbox](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)(Doorsturen van e-mail voor een postvak configureren)</span><span class="sxs-lookup"><span data-stu-id="907da-149">[Configure email forwarding for a mailbox](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)</span></span>
+
+[<span data-ttu-id="907da-150">Een multifunctioneel apparaat of een toepassing instellen voor het verzenden van e-mail via Office 365</span><span class="sxs-lookup"><span data-stu-id="907da-150">How to set up a multifunction device or application to send email using Office 365</span></span>](https://docs.microsoft.com/Exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-office-3)
+
+<span data-ttu-id="907da-151">[Geaccepteerde domeinen beheren in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).</span><span class="sxs-lookup"><span data-stu-id="907da-151">[Manage accepted domains in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).</span></span>

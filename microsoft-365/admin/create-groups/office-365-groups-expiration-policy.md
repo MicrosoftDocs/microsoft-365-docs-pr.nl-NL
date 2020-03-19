@@ -1,0 +1,89 @@
+---
+title: Verloopbeleid van een Office 365 Groep
+ms.reviewer: arvaradh
+f1.keywords:
+- NOCSH
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
+audience: Admin
+ms.topic: get-started-article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+- Adm_TOC
+search.appverid:
+- BCS160
+- MET150
+- MOE150
+description: Meer informatie over het verloopbeleid voor Office 365-groepen.
+ms.openlocfilehash: c4c2f7b98247cc81b3fadc561f92084f9bd39c96
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42809216"
+---
+# <a name="office-365-group-expiration-policy"></a><span data-ttu-id="4982e-103">Verloopbeleid van een Office 365 Groep</span><span class="sxs-lookup"><span data-stu-id="4982e-103">Office 365 Group Expiration Policy</span></span>
+
+<span data-ttu-id="4982e-104">Met de toename van het gebruik van Office 365-groepen hebben beheerders en gebruikers een manier nodig om ongebruikte groepen op te ruimen.</span><span class="sxs-lookup"><span data-stu-id="4982e-104">With the increase in usage of Office 365 Groups, administrators and users need a way to clean up unused groups.</span></span> <span data-ttu-id="4982e-105">Expiratiebeleid kan helpen bij het verwijderen van inactieve groepen uit het systeem en dingen schoner maken.</span><span class="sxs-lookup"><span data-stu-id="4982e-105">Expiration policies can help remove inactive groups from the system and make things cleaner.</span></span>
+
+<span data-ttu-id="4982e-106">Wanneer een groep verloopt, worden ook alle bijbehorende services (het postvak, Planner, SharePoint-site, enz.) verwijderd.</span><span class="sxs-lookup"><span data-stu-id="4982e-106">When a group expires, all of its associated services (the mailbox, Planner, SharePoint site, etc.) are also deleted.</span></span>
+
+<span data-ttu-id="4982e-107">Wanneer een groep verloopt, wordt deze "soft-deleted" wat betekent dat deze nog maximaal 30 dagen kan worden hersteld.</span><span class="sxs-lookup"><span data-stu-id="4982e-107">When a group expires it is "soft-deleted" which means it can still be recovered for up to 30 days.</span></span>
+
+<span data-ttu-id="4982e-108">Beheerders kunnen een vervaldatum opgeven en elke inactieve groep die het einde van die periode bereikt en niet wordt verlengd, worden verwijderd.</span><span class="sxs-lookup"><span data-stu-id="4982e-108">Administrators can specify an expiration period and any inactive group that reaches the end of that period, and is not renewed, will be deleted.</span></span> <span data-ttu-id="4982e-109">De vervaldatum begint wanneer de groep wordt gemaakt of op de datum waarop deze voor het laatst is verlengd.</span><span class="sxs-lookup"><span data-stu-id="4982e-109">The expiration period begins when the group is created, or on the date it was last renewed.</span></span> <span data-ttu-id="4982e-110">Groepseigenaren ontvangen automatisch een e-mail voor de vervaldatum, zodat ze de groep kunnen vernieuwen voor een ander verloopinterval.</span><span class="sxs-lookup"><span data-stu-id="4982e-110">Group owners will automatically be sent an email before the expiration that allows them to renew the group for another expiration interval.</span></span> <span data-ttu-id="4982e-111">Teams-gebruikers zien aanhoudende meldingen in Teams.</span><span class="sxs-lookup"><span data-stu-id="4982e-111">Teams users will see persistent notifications in Teams.</span></span>
+
+<span data-ttu-id="4982e-112">Groepen die actief in gebruik zijn, worden automatisch vernieuwd.</span><span class="sxs-lookup"><span data-stu-id="4982e-112">Groups that are actively in use are renewed automatically.</span></span> <span data-ttu-id="4982e-113">Een van de volgende acties zal een groep automatisch vernieuwen:</span><span class="sxs-lookup"><span data-stu-id="4982e-113">Any of the following actions will auto-renew a group:</span></span>
+- <span data-ttu-id="4982e-114">SharePoint - bestanden weergeven, bewerken, downloaden, verplaatsen, delen of uploaden.</span><span class="sxs-lookup"><span data-stu-id="4982e-114">SharePoint - view, edit, download, move, share, or upload files.</span></span>
+- <span data-ttu-id="4982e-115">Outlook - word lid van groep, lees of schrijf groepsbericht uit de groep en like een bericht (Web versie).</span><span class="sxs-lookup"><span data-stu-id="4982e-115">Outlook - join group, read or write group message from the group, and like a message (Outlook on the web).</span></span>
+- <span data-ttu-id="4982e-116">Teams - een bezoek aan een teamkanaal.</span><span class="sxs-lookup"><span data-stu-id="4982e-116">Teams - visiting a teams channel.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="4982e-117">Wanneer u het verloopbeleid wijzigt, berekent de service de vervaldatum voor elke groep opnieuw.</span><span class="sxs-lookup"><span data-stu-id="4982e-117">When you change the expiration policy, the service recalculates the expiration date for each group.</span></span> <span data-ttu-id="4982e-118">Het begint altijd te tellen vanaf de datum waarop de groep is gemaakt en past vervolgens het nieuwe verloopbeleid toe.</span><span class="sxs-lookup"><span data-stu-id="4982e-118">It always starts counting from the date when the group was created, and then applies the new expiration policy.</span></span>
+
+<span data-ttu-id="4982e-119">Het is belangrijk om te weten dat de vervaldatum standaard is uitgeschakeld.</span><span class="sxs-lookup"><span data-stu-id="4982e-119">It's important to know that expiration is turned off by default.</span></span> <span data-ttu-id="4982e-120">Beheerders moeten het inschakelen voor hun tenant als ze het willen gebruiken.</span><span class="sxs-lookup"><span data-stu-id="4982e-120">Administrators will have to enable it for their tenant if they want to use it.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="4982e-121">Als u het verloopbeleid voor Office 365-groepen configureert en gebruikt, moet u Azure AD Premium-licenties bezitten, maar niet noodzakelijkerwijs Azure AD Premium-licenties toewijzen voor de leden van alle groepen waarop het verloopbeleid wordt toegepast.</span><span class="sxs-lookup"><span data-stu-id="4982e-121">Configuring and using the expiration policy for Office 365 groups requires you to possess but not necessarily assign Azure AD Premium licenses for the members of all groups to which the expiration policy is applied.</span></span> <span data-ttu-id="4982e-122">Zie voor meer informatie [Aan de slag met Azure Active Directory Premium](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium).</span><span class="sxs-lookup"><span data-stu-id="4982e-122">For more information see [Getting started with Azure Active Directory Premium](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium).</span></span>
+
+## <a name="who-can-configure-and-use-the-office-365-groups-expiration-policy"></a><span data-ttu-id="4982e-123">Wie kan het verloopbeleid voor Office 365-groepen configureren en gebruiken?</span><span class="sxs-lookup"><span data-stu-id="4982e-123">Who can configure and use the Office 365 Groups expiration policy?</span></span>
+
+|<span data-ttu-id="4982e-124">Rol</span><span class="sxs-lookup"><span data-stu-id="4982e-124">Role</span></span>|<span data-ttu-id="4982e-125">Wat ze kunnen doen</span><span class="sxs-lookup"><span data-stu-id="4982e-125">What they can do</span></span>|
+|---------|---------|
+|<span data-ttu-id="4982e-126">Globale beheerder van Office 365 (in Azure, de beheerder van het bedrijf), gebruikersbeheerder</span><span class="sxs-lookup"><span data-stu-id="4982e-126">Office 365 global admin (in Azure, the Company administrator), User administrator</span></span>|<span data-ttu-id="4982e-127">De instellingen voor het verloop van het verloop van office 365-groepen maken, lezen, bijwerken of verwijderen.</span><span class="sxs-lookup"><span data-stu-id="4982e-127">Create, read, update, or delete the Office 365 groups expiration policy settings.</span></span>|
+|<span data-ttu-id="4982e-128">Gebruiker</span><span class="sxs-lookup"><span data-stu-id="4982e-128">User</span></span>|<span data-ttu-id="4982e-129">Een Office 365-groep die zij bezitten vernieuwen of [herstellen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted)</span><span class="sxs-lookup"><span data-stu-id="4982e-129">Renew or [restore](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted) an Office 365 Group that they own</span></span>|
+
+## <a name="how-to-set-the-expiration-policy"></a><span data-ttu-id="4982e-130">Het verloopbeleid instellen</span><span class="sxs-lookup"><span data-stu-id="4982e-130">How to set the expiration policy</span></span>
+
+<span data-ttu-id="4982e-131">Zoals hierboven vermeld, verloopt verlopen standaard.</span><span class="sxs-lookup"><span data-stu-id="4982e-131">As noted above, expiry is turned off by default.</span></span> <span data-ttu-id="4982e-132">Een beheerder moet het verloopbeleid inschakelen en de eigenschappen instellen om deze van kracht te laten worden.</span><span class="sxs-lookup"><span data-stu-id="4982e-132">An administrator will have to enable the expiration policy and set the properties for it to take effect.</span></span> <span data-ttu-id="4982e-133">Als u het inschakelen wilt gaan naar **Aad-groepen** > **van** > Azure Active Directory **(Verlopen.**</span><span class="sxs-lookup"><span data-stu-id="4982e-133">To enable it go to **Azure Active Directory (AAD)** > **Groups** > **Expiration**.</span></span> <span data-ttu-id="4982e-134">Hier u de standaardgroepslevensduur instellen en opgeven hoe ver van tevoren u wilt dat de eerste en tweede verloopmeldingen naar de groepseigenaar gaan.</span><span class="sxs-lookup"><span data-stu-id="4982e-134">Here you can set the default group lifetime and specify how far in advance you want the first and second expiration notifications to go to the group owner.</span></span>
+
+<span data-ttu-id="4982e-135">De groepslevensduur wordt opgegeven in dagen en kan worden ingesteld op 180, 365 of op een aangepaste waarde die u opgeeft.</span><span class="sxs-lookup"><span data-stu-id="4982e-135">The group lifetime is specified in days and can be set to 180, 365 or to a custom value that you specify.</span></span> <span data-ttu-id="4982e-136">De aangepaste waarde moet ten minste 30 dagen zijn.</span><span class="sxs-lookup"><span data-stu-id="4982e-136">The custom value has to be at least 30 days.</span></span>
+
+<span data-ttu-id="4982e-137">Als de groep geen eigenaar heeft, gaan de verlopen e-mails naar een opgegeven beheerder.</span><span class="sxs-lookup"><span data-stu-id="4982e-137">If the group does not have an owner the expiration emails will go to a specified administrator.</span></span>
+
+<span data-ttu-id="4982e-138">U het beleid instellen voor al uw groepen, alleen geselecteerde groepen of het volledig uitschakelen door **Geen**te selecteren.</span><span class="sxs-lookup"><span data-stu-id="4982e-138">You can set the policy for all of your groups, only selected groups, or turn it off completely by selecting **None**.</span></span> <span data-ttu-id="4982e-139">Houd er rekening mee dat u momenteel geen ander beleid voor verschillende groepen hebben.</span><span class="sxs-lookup"><span data-stu-id="4982e-139">Note that currently you can't have different policies for different groups.</span></span>
+
+![Schermafbeelding van instellingen voor het verlopen van groepen in Azure Active Directory](../../media/azure-groups-expiration-settings.png)
+
+## <a name="how-expiry-works-with-the-retention-policy"></a><span data-ttu-id="4982e-141">Hoe expiraal werkt met het bewaarbeleid</span><span class="sxs-lookup"><span data-stu-id="4982e-141">How expiry works with the retention policy</span></span>
+
+<span data-ttu-id="4982e-142">Als u een instellingsbeleid hebt in het beveiligings- en nalevingscentrum voor groepen, werkt het verloopbeleid naadloos samen met het bewaarbeleid.</span><span class="sxs-lookup"><span data-stu-id="4982e-142">If you have setup retention policy in Security and Compliance center for groups, expiration policy works seamlessly with retention policy.</span></span> <span data-ttu-id="4982e-143">Wanneer een groep verloopt, worden de gesprekken van de groep in de postbus en bestanden op de groepssite bewaard in de bewaarcontainer voor het specifieke aantal dagen dat in het bewaarbeleid is gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="4982e-143">When a group expires, the group's conversations in mail box and files in the group site are retained in the retention container for the specific number of days defined in the retention policy.</span></span> <span data-ttu-id="4982e-144">Gebruikers zien de groep, of de inhoud ervan, echter niet na het verstrijken.</span><span class="sxs-lookup"><span data-stu-id="4982e-144">Users will not see the group, or its content, after expiration however.</span></span>
+
+## <a name="how-and-when-a-group-owner-learns-if-their-groups-are-going-to-expire"></a><span data-ttu-id="4982e-145">Hoe en wanneer een groepseigenaar erachter komt of zijn groepen verlopen</span><span class="sxs-lookup"><span data-stu-id="4982e-145">How and when a Group owner learns if their Groups are going to expire</span></span>
+
+<span data-ttu-id="4982e-146">Groepseigenaren worden alleen per e-mail op de hoogte gebracht.</span><span class="sxs-lookup"><span data-stu-id="4982e-146">Group owners will only be notified via email.</span></span> <span data-ttu-id="4982e-147">Als de groep is gemaakt via Planner, SharePoint of een andere app, komen de verloopmeldingen altijd via e-mail.</span><span class="sxs-lookup"><span data-stu-id="4982e-147">If the group was created via Planner, SharePoint, or any other app, the expiration notifications will always come via email.</span></span> <span data-ttu-id="4982e-148">Als de groep is gemaakt via Teams, ontvangt de eigenaar van de groep een melding om te verlengen via de activiteitssectie.</span><span class="sxs-lookup"><span data-stu-id="4982e-148">If the group was created via Teams, the group owner will receive a notification to renew through the activity section.</span></span> <span data-ttu-id="4982e-149">Het wordt afgeraden om de vervaldatum van een groep in te schakelen als de eigenaar van uw groep geen geldig e-mailadres heeft.</span><span class="sxs-lookup"><span data-stu-id="4982e-149">It's not recommended that you enable expiration on a group if your group owner doesn't have a valid email address.</span></span>
+
+<span data-ttu-id="4982e-150">30 dagen voordat de groep verloopt, ontvangen de groepseigenaren (of de e-mailadressen die u hebt opgegeven voor groepen die geen eigenaar hebben) een e-mail waarmee ze de groep eenvoudig kunnen vernieuwen.</span><span class="sxs-lookup"><span data-stu-id="4982e-150">30 days before the group expires, the group owners (or the email addresses that you specified for groups that don't have an owner) will receive an email allowing them to easily renew the group.</span></span> <span data-ttu-id="4982e-151">Als ze het niet verlengen, ontvangen ze 15 dagen voor het verstrijken een andere verlengingse-mail.</span><span class="sxs-lookup"><span data-stu-id="4982e-151">If they don't renew it, they'll receive another renewal email 15 days before expiration.</span></span> <span data-ttu-id="4982e-152">Als ze het nog steeds niet hebben verlengd, ontvangen ze de dag voor het verstrijken nog een e-mailmelding.</span><span class="sxs-lookup"><span data-stu-id="4982e-152">If they still haven't renewed it, they will receive one more email notification the day before expiration.</span></span>
+
+<span data-ttu-id="4982e-153">Als om de een of andere reden geen van de eigenaren of beheerders de groep verlengen voordat deze verloopt, kan de beheerder de groep nog steeds tot 30 dagen na het verstrijken herstellen.</span><span class="sxs-lookup"><span data-stu-id="4982e-153">If for some reason none of the owners or admins renew the group before it expires, the admin can still restore the group for up to 30 days after expiration.</span></span> <span data-ttu-id="4982e-154">Zie voor meer informatie: [Een verwijderde Office 365-groep herstellen](https://support.office.com/article/restore-a-deleted-office-365-group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54).</span><span class="sxs-lookup"><span data-stu-id="4982e-154">For details see: [Restore a deleted Office 365 Group](https://support.office.com/article/restore-a-deleted-office-365-group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54).</span></span>
+
+## <a name="related-articles"></a><span data-ttu-id="4982e-155">Verwante artikelen</span><span class="sxs-lookup"><span data-stu-id="4982e-155">Related articles</span></span>
+
+[<span data-ttu-id="4982e-156">Overzicht van bewaarbeleid</span><span class="sxs-lookup"><span data-stu-id="4982e-156">Overview of retention policies</span></span>](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423)
+
+[<span data-ttu-id="4982e-157">Een nieuwe eigenaar toewijzen aan een groep zonder eigenaar</span><span class="sxs-lookup"><span data-stu-id="4982e-157">Assign a new owner to an orphaned group</span></span>](https://support.office.com/article/86bb3db6-8857-45d1-95c8-f6d540e45732)
+
+[<span data-ttu-id="4982e-158">Verlopen van Office 365-groepen configureren</span><span class="sxs-lookup"><span data-stu-id="4982e-158">Configure Office 365 groups expiration</span></span>](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal)

@@ -1,0 +1,71 @@
+---
+title: Beleid voor identiteits- en apparaattoegangsbeleid voor het toestaan van gast- en externe B2B-toegang - Microsoft 365 Enterprise | Microsoft Documenten
+description: Beschrijft de aanbevolen voorwaardelijke toegang en bijbehorende beleidsregels voor het beschermen van de toegang van gast- en externe gebruikers.
+author: BrendaCarter
+manager: johmar
+ms.prod: microsoft-365-enterprise
+ms.topic: article
+f1.keywords:
+- NOCSH
+ms.author: bcarter
+ms.reviewer: martincoetzer
+ms.custom:
+- it-pro
+- goldenconfig
+ms.collection:
+- M365-identity-device-management
+- M365-security-compliance
+ms.openlocfilehash: 8276dcf85f6c5fd61e01e67deee4fea35c1a15c4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42806858"
+---
+# <a name="policies-for-allowing-guest-and-external-b2b-access"></a><span data-ttu-id="22218-103">Beleid voor het toestaan van gast- en externe B2B-toegang</span><span class="sxs-lookup"><span data-stu-id="22218-103">Policies for allowing guest and external B2B access</span></span>
+<span data-ttu-id="22218-104">In dit artikel wordt beschreven hoe u het aanbevolen algemene beleid voor identiteits- en apparaattoegangsaan aanpassen om B2B-accounttoegang (gast- en externe gebruikers) toe te staan.</span><span class="sxs-lookup"><span data-stu-id="22218-104">This article describes how to adjust the recommended common identity and device access policies to allow B2B account access (guest and external users).</span></span> <span data-ttu-id="22218-105">Deze richtlijnen zijn voortgebouwd op het [beleid voor algemene identiteits- en apparaattoegangsbeleid](identity-access-policies.md).</span><span class="sxs-lookup"><span data-stu-id="22218-105">This guidance builds on the [Common identity and device access policies](identity-access-policies.md).</span></span>
+
+<span data-ttu-id="22218-106">Deze aanbevelingen zijn ontworpen om te worden toegepast op de **basislaag** van bescherming.</span><span class="sxs-lookup"><span data-stu-id="22218-106">These recommendations are designed to apply to the **baseline** tier of protection.</span></span> <span data-ttu-id="22218-107">U de aanbevelingen echter aanpassen op basis van de granulariteit van uw behoeften aan **gevoelige** en **sterk gereguleerde** bescherming.</span><span class="sxs-lookup"><span data-stu-id="22218-107">However, you can adjust the recommendations based on the granularity of your needs for **sensitive** and **highly regulated** protection.</span></span> 
+
+<span data-ttu-id="22218-108">Als u B2B-gebruikers een pad biedt om te verifiëren met uw Azure AD-tenant, hebben deze gebruikers geen toegang tot uw hele omgeving.</span><span class="sxs-lookup"><span data-stu-id="22218-108">Providing a path for B2B users to authenticate with your Azure AD tenant doesn't give these users access to your entire environment.</span></span> <span data-ttu-id="22218-109">B2B-gebruikers hebben alleen toegang tot bronnen die met hen worden gedeeld (zoals bestanden) binnen de services die worden verleend in het beleid voor voorwaardelijke toegang.</span><span class="sxs-lookup"><span data-stu-id="22218-109">B2B users only have access to resources that are shared with them (such as files) within the services granted in the conditional access policies.</span></span>
+
+## <a name="updating-the-common-policies-to-allow-and-protect-guest-and-external-access"></a><span data-ttu-id="22218-110">Het gemeenschappelijke beleid bijwerken om gast- en externe toegang toe te staan en te beschermen</span><span class="sxs-lookup"><span data-stu-id="22218-110">Updating the common policies to allow and protect guest and external access</span></span> 
+
+<span data-ttu-id="22218-111">In het volgende diagram wordt het algemene beleid voor identiteits- en apparaattoegangs weergegeven en wordt (met een potloodpictogram) aangegeven welk beleid moet worden toegevoegd of bijgewerkt om gast- en externe toegang te beschermen.</span><span class="sxs-lookup"><span data-stu-id="22218-111">The following diagram illustrates the common identity and device access policies and indicates (with a pencil icon) which policies to add or update to protect guest and external access.</span></span> 
+
+![Overzicht van beleidsupdates voor het beveiligen van gasttoegang](../media/identity-access-ruleset-guest.png)
+
+<span data-ttu-id="22218-113">In de volgende tabel worden de beleidsregels weergegeven die u moet bijwerken of nieuwe opties moet maken.</span><span class="sxs-lookup"><span data-stu-id="22218-113">The following table lists the policies you either need to update or create new.</span></span> <span data-ttu-id="22218-114">De algemene beleidsregels zijn gekoppeld aan de bijbehorende configuratie-instructies in het artikel [Algemene identiteits- en apparaattoegangsbeleidsregels.](identity-access-policies.md)</span><span class="sxs-lookup"><span data-stu-id="22218-114">The common policies link to the associated configuration instructions in the [Common identity and device access policies](identity-access-policies.md) article.</span></span>
+
+|<span data-ttu-id="22218-115">Beschermingsniveau</span><span class="sxs-lookup"><span data-stu-id="22218-115">Protection level</span></span>|<span data-ttu-id="22218-116">Beleid</span><span class="sxs-lookup"><span data-stu-id="22218-116">Policies</span></span>|<span data-ttu-id="22218-117">Meer informatie</span><span class="sxs-lookup"><span data-stu-id="22218-117">More information</span></span>|
+|:---------------|:-------|:----------------|
+|<span data-ttu-id="22218-118">**Basislijn**</span><span class="sxs-lookup"><span data-stu-id="22218-118">**Baseline**</span></span>|[<span data-ttu-id="22218-119">MFA altijd vereisen voor gast- en externe gebruikers</span><span class="sxs-lookup"><span data-stu-id="22218-119">Require MFA always for guest and external users</span></span>](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|<span data-ttu-id="22218-120">Maak deze nieuwe regel en pas deze alleen toe op gasten en externe gebruikers.</span><span class="sxs-lookup"><span data-stu-id="22218-120">Create this new rule and apply it only to guests and external users.</span></span> <span data-ttu-id="22218-121">Onder aanmeldingsrisico laat u alle opties ongecontroleerd om MFA altijd af te dwingen.</span><span class="sxs-lookup"><span data-stu-id="22218-121">Under sign-in risk, leave all options unchecked to always enforce MFA.</span></span>|
+|        |[<span data-ttu-id="22218-122">MFA vereisen wanneer het aanmeldingsrisico *gemiddeld* of *hoog* is</span><span class="sxs-lookup"><span data-stu-id="22218-122">Require MFA when sign-in risk is *medium* or *high*</span></span>](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|<span data-ttu-id="22218-123">Wijzig deze regel om gast- en externe gebruikers uit te sluiten.</span><span class="sxs-lookup"><span data-stu-id="22218-123">Modify this rule to exclude guest and external users.</span></span>|
+|        |[<span data-ttu-id="22218-124">Compatibele pc's vereisen</span><span class="sxs-lookup"><span data-stu-id="22218-124">Require compliant PCs</span></span>](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|<span data-ttu-id="22218-125">Wijzig deze regel om gast- en externe gebruikers uit te sluiten.</span><span class="sxs-lookup"><span data-stu-id="22218-125">Modify this rule to exclude guest and external users.</span></span>|
+
+<span data-ttu-id="22218-126">Als u gasten en externe gebruikers wilt opnemen of uitsluiten in regels voor voorwaardelijke toegang, klikt u op het tabblad Opnemen of uitsluiten en controleert **u Alle gasten en externe gebruikers.**</span><span class="sxs-lookup"><span data-stu-id="22218-126">To include or exclude guests and external users in conditional access rules, click the include or exclude tab and check **All guests and external users**.</span></span>
+
+![schermopname van besturingselementen voor het uitsluiten van gasten](../media/identity-access-exclude-guests-ui.png)
+
+## <a name="more-information"></a><span data-ttu-id="22218-128">Meer informatie</span><span class="sxs-lookup"><span data-stu-id="22218-128">More information</span></span>
+
+### <a name="guests-vs-external-users"></a><span data-ttu-id="22218-129">Gasten versus externe gebruikers</span><span class="sxs-lookup"><span data-stu-id="22218-129">Guests vs. external users</span></span>
+<span data-ttu-id="22218-130">In Azure AD zijn gast- en externe gebruikers hetzelfde.</span><span class="sxs-lookup"><span data-stu-id="22218-130">In Azure AD, guest and external users are the same.</span></span> <span data-ttu-id="22218-131">Het gebruikerstype voor beide is Gast.</span><span class="sxs-lookup"><span data-stu-id="22218-131">The user type for both of these is Guest.</span></span> <span data-ttu-id="22218-132">Gastgebruikers zijn B2B-gebruikers.</span><span class="sxs-lookup"><span data-stu-id="22218-132">Guest users are B2B users.</span></span>
+
+<span data-ttu-id="22218-133">Microsoft Teams maakt onderscheid tussen gastgebruikers en externe gebruikers in de app, maar dit zijn beide B2B-gebruikers bij het verifiëren.</span><span class="sxs-lookup"><span data-stu-id="22218-133">Microsoft Teams differentiates between guest users and external users within the app, but these are both B2B users when authenticating.</span></span> <span data-ttu-id="22218-134">Zie [Gast- en externe toegang inschakelen voor Teams voor](teams-access-policies.md#enabling-guest-and-external-access-for-teams)meer informatie over gast- en externe gebruikers van Teams.</span><span class="sxs-lookup"><span data-stu-id="22218-134">For more information about Teams guest and external users, see [Enabling guest and external access for Teams](teams-access-policies.md#enabling-guest-and-external-access-for-teams).</span></span>
+
+### <a name="require-mfa-always-for-guest-and-external-users"></a><span data-ttu-id="22218-135">MFA altijd vereisen voor gast- en externe gebruikers</span><span class="sxs-lookup"><span data-stu-id="22218-135">Require MFA always for guest and external users</span></span>
+<span data-ttu-id="22218-136">Deze regel vraagt gasten zich te registreren voor MFA in uw tenant, ongeacht of ze zijn geregistreerd voor MFA in hun woninghuurder.</span><span class="sxs-lookup"><span data-stu-id="22218-136">This rule prompts guests to register for MFA in your tenant, regardless of whether they're registered for MFA in their home tenant.</span></span> <span data-ttu-id="22218-137">Wanneer u toegang krijgt tot bronnen in uw tenant, moeten gasten en externe gebruikers MFA voor elk verzoek gebruiken.</span><span class="sxs-lookup"><span data-stu-id="22218-137">When accessing resources in your tenant, guests and external users are required to use MFA for every request.</span></span> 
+
+### <a name="excluding-guest-and-external-users-from-risk-based-mfa"></a><span data-ttu-id="22218-138">Gasten en externe gebruikers uitsluiten van op risico's gebaseerde MFA</span><span class="sxs-lookup"><span data-stu-id="22218-138">Excluding guest and external users from risk-based MFA</span></span>
+<span data-ttu-id="22218-139">Hoewel organisaties op risico's gebaseerd beleid kunnen afdwingen voor B2B-gebruikers met behulp van Identiteitsbescherming, zijn er beperkingen in de implementatie van gebruikers van Identiteitsbescherming voor B2B-samenwerkingsgebruikers in een bronmap vanwege hun identiteit die in hun huis bestaat Directory.</span><span class="sxs-lookup"><span data-stu-id="22218-139">While organizations can enforce risk-based policies for B2B users using Identity Protection, there are limitations in the implementation of Identity Protection for B2B collaboration users in a resource directory due to their identity existing in their home directory.</span></span> <span data-ttu-id="22218-140">Vanwege deze beperkingen raadt Microsoft u aan gastgebruikers uit te sluiten van een op risico gebaseerd MFA-beleid en deze gebruikers te verplichten mfa altijd te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="22218-140">Due to these limitations, Microsoft recommends you exclude guest users from risk-based MFA policies and require these users to always use MFA.</span></span> 
+
+<span data-ttu-id="22218-141">Zie [Beperkingen van identiteitsbescherming voor Gebruikers van B2B-samenwerkingsverbanden voor](https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-b2b#limitations-of-identity-protection-for-b2b-collaboration-users)meer informatie.</span><span class="sxs-lookup"><span data-stu-id="22218-141">For more information, see [Limitations of Identity Protection for B2B collaboration users](https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-b2b#limitations-of-identity-protection-for-b2b-collaboration-users).</span></span> 
+
+### <a name="excluding-guest-and-external-users-from-device-management"></a><span data-ttu-id="22218-142">Gasten en externe gebruikers uitsluiten van apparaatbeheer</span><span class="sxs-lookup"><span data-stu-id="22218-142">Excluding guest and external users from device management</span></span> 
+<span data-ttu-id="22218-143">Slechts één organisatie kan een apparaat beheren.</span><span class="sxs-lookup"><span data-stu-id="22218-143">Only one organization can manage a device.</span></span> <span data-ttu-id="22218-144">Als u gast- en externe gebruikers niet uitsluit van beleid waarvoor apparaatnaleving vereist is, worden deze gebruikers met dit beleid geblokkeerd.</span><span class="sxs-lookup"><span data-stu-id="22218-144">If you don't exclude guest and external users from policies that require device compliance, these policies will block these users.</span></span> 
+
+## <a name="next-steps"></a><span data-ttu-id="22218-145">Volgende stappen</span><span class="sxs-lookup"><span data-stu-id="22218-145">Next steps</span></span>
+
+[<span data-ttu-id="22218-146">Meer informatie over het inschakelen van voorwaardelijke toegang voor Teams</span><span class="sxs-lookup"><span data-stu-id="22218-146">Learn how to enable Teams conditional access</span></span>](teams-access-policies.md)
+

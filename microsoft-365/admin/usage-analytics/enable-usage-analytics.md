@@ -1,0 +1,97 @@
+---
+title: Microsoft 365 Gebruiksanalyse inschakelen
+f1.keywords:
+- CSH
+ms.author: sirkkuw
+author: Sirkkuw
+manager: scotv
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+- Adm_TOC
+search.appverid:
+- BCS160
+- MET150
+- MOE150
+ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
+description: Meer informatie over het verzamelen van gegevens voor uw tenant met de sjabloon-app Microsoft 365 Usage Analytics in Power BI.
+ms.openlocfilehash: 249fadce15ca2e4c979d6e1930ff0d14ccd9bc08
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42808869"
+---
+# <a name="enable-microsoft-365-usage-analytics"></a><span data-ttu-id="18458-103">Microsoft 365 Gebruiksanalyse inschakelen</span><span class="sxs-lookup"><span data-stu-id="18458-103">Enable Microsoft 365 usage analytics</span></span>
+
+<span data-ttu-id="18458-104">Microsoft 365-gebruiksanalyses zijn ook beschikbaar voor de Microsoft 365-overheidsgemeenschap van de Amerikaanse overheid.</span><span class="sxs-lookup"><span data-stu-id="18458-104">Microsoft 365 usage analytics is also available for Microsoft 365 US Government Community.</span></span>
+  
+## <a name="steps-to-enable-microsoft-365-usage-analytics"></a><span data-ttu-id="18458-105">Stappen voor het inschakelen van Microsoft 365 Gebruiksanalyse</span><span class="sxs-lookup"><span data-stu-id="18458-105">Steps to enable Microsoft 365 usage analytics</span></span>
+
+<span data-ttu-id="18458-106">Om aan de slag te gaan met Microsoft 365-gebruiksanalyses moet u de gegevens eerst beschikbaar maken in het Microsoft 365-beheercentrum en vervolgens de sjabloon-app starten in Power BI.</span><span class="sxs-lookup"><span data-stu-id="18458-106">To get started with Microsoft 365 usage analytics you must first make the data available in the Microsoft 365 admin center, then initiate the template app in Power BI.</span></span>
+  
+### <a name="get-power-bi"></a><span data-ttu-id="18458-107">Power BI downloaden</span><span class="sxs-lookup"><span data-stu-id="18458-107">Get Power BI</span></span>
+
+<span data-ttu-id="18458-108">Als u nog geen Power BI hebt, u [zich aanmelden voor Power BI Pro.](https://go.microsoft.com/fwlink/p/?linkid=845347)</span><span class="sxs-lookup"><span data-stu-id="18458-108">If you don't already have Power BI, you can [sign up for Power BI Pro](https://go.microsoft.com/fwlink/p/?linkid=845347).</span></span> <span data-ttu-id="18458-109">Selecteer **Probeer je gratis** aan te melden voor een proefversie of Koop **nu** om Power BI Pro te krijgen.</span><span class="sxs-lookup"><span data-stu-id="18458-109">Select **Try free** to sign up for a trial, or **Buy now** to get Power BI Pro.</span></span>
+  
+  
+<span data-ttu-id="18458-110">U kunt ook **Products** uitvouwen om een versie van Power BI te kopen.</span><span class="sxs-lookup"><span data-stu-id="18458-110">You can also expand **Products** to buy a version of Power BI.</span></span> 
+
+> [!NOTE]
+> <span data-ttu-id="18458-111">U hebt een Power BI Pro-licentie nodig om een sjabloon-app te installeren, aan te passen en te distribueren.</span><span class="sxs-lookup"><span data-stu-id="18458-111">You need a Power BI Pro license to install, customize, and distribute a template app.</span></span> <span data-ttu-id="18458-112">Zie [Voorwaarden voor](https://docs.microsoft.com/power-bi/service-template-apps-install-distribute?source=docs#prerequisites)meer informatie.</span><span class="sxs-lookup"><span data-stu-id="18458-112">For more information, please see [Prerequisites](https://docs.microsoft.com/power-bi/service-template-apps-install-distribute?source=docs#prerequisites).</span></span>
+
+<span data-ttu-id="18458-113">U hebt een Power BI Pro-licentie nodig om uw inhoud te delen, en de mensen met wie u deze deelt, doen dat ook, of de inhoud moet zich in een werkruimte in een [Premium-capaciteit bevinden.](https://docs.microsoft.com/power-bi/service-premium-what-is)</span><span class="sxs-lookup"><span data-stu-id="18458-113">You need a Power BI Pro license to share your content, and the people you share it with do too, or the content needs to be in a workspace in a [Premium capacity](https://docs.microsoft.com/power-bi/service-premium-what-is).</span></span> 
+  
+### <a name="enable-the-template-app"></a><span data-ttu-id="18458-114">De sjabloon-app inschakelen</span><span class="sxs-lookup"><span data-stu-id="18458-114">Enable the template app</span></span>
+
+<span data-ttu-id="18458-115">Als u de sjabloon-app wilt inschakelen, moet u een **globale beheerder**zijn, **rapportlezer,** **Exchange-beheerder,** **Skype voor Bedrijven-beheerder**of **SharePoint-beheerder**.</span><span class="sxs-lookup"><span data-stu-id="18458-115">To enable the template app, you have to be either a **global administrator**, **report reader**, **Exchange administrator**, **Skype for Business administrator**, or **SharePoint administrator**.</span></span> 
+  
+<span data-ttu-id="18458-116">Zie [Over beheerdersrollen](../add-users/about-admin-roles.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="18458-116">See [About admin roles](../add-users/about-admin-roles.md) for more information.</span></span> 
+  
+1. <span data-ttu-id="18458-117">Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.</span><span class="sxs-lookup"><span data-stu-id="18458-117">In the admin center, go to the **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a> page.</span></span> 
+    
+2. <span data-ttu-id="18458-118">Zoek **op** de pagina Gebruik de **Microsoft 365-analysekaart voor gebruik** en selecteer Aan de **slag**.</span><span class="sxs-lookup"><span data-stu-id="18458-118">On the **Usage** page, locate the **Microsoft 365 usage analytics** card, and select **Get started**.</span></span>
+    
+3. <span data-ttu-id="18458-119">Stel gegevens beschikbaar maken **voor Microsoft 365-gebruiksanalyses voor Power BI** **in** \> het deelvenster Rapporten dat wordt **geopend.**</span><span class="sxs-lookup"><span data-stu-id="18458-119">On the Reports panel that opens, set **Make data available to Microsoft 365 usage analytics for Power BI** to **On** \> **Save**.</span></span> 
+  
+<span data-ttu-id="18458-p103">Hiermee wordt het gegevensverzamelingsproces gestart, en dit zal voltooid worden in 2 tot 48 uur, afhankelijk van de grootte van uw tenant. De knop **Ga naar Power BI** zal ingeschakeld zijn (niet langer grijs) als het verzamelen van gegevens is voltooid.</span><span class="sxs-lookup"><span data-stu-id="18458-p103">This initiates the data collection process and will complete in 2 to 48 hours depending on the size of your tenant. The **Go to Power BI** button will be enabled (no longer gray) when data collection is complete.</span></span> 
+    
+### <a name="initiate-the-template-app"></a><span data-ttu-id="18458-122">De sjabloon-app starten</span><span class="sxs-lookup"><span data-stu-id="18458-122">Initiate the template app</span></span>
+
+<span data-ttu-id="18458-123">Als u de sjabloon-app wilt starten, moet u een **globale beheerder**zijn, **rapportlezer,** **Exchange-beheerder,** **Skype voor Bedrijven-beheerder**of **SharePoint-beheerder**.</span><span class="sxs-lookup"><span data-stu-id="18458-123">To initiate the template app, you have to be either a **global administrator**, **report reader**, **Exchange administrator**, **Skype for Business administrator**, or **SharePoint administrator**.</span></span> 
+  
+1. <span data-ttu-id="18458-124">Kopieer de tenant-id en selecteer **Ga naar Power BI**.</span><span class="sxs-lookup"><span data-stu-id="18458-124">Copy the tenant Id and select **Go to Power BI**.</span></span>
+    
+2.  <span data-ttu-id="18458-125">Meld u aan wanneer u in Power BI komt.</span><span class="sxs-lookup"><span data-stu-id="18458-125">When you get to Power BI, sign in.</span></span> <span data-ttu-id="18458-126">Selecteer Apps->Apps ophalen in het navigatiemenu.</span><span class="sxs-lookup"><span data-stu-id="18458-126">Select Apps->Get apps from the navigation menu.</span></span>    
+  
+3. <span data-ttu-id="18458-127">In het tabblad **Apps** typt u Microsoft 365 in het zoekvak en selecteer vervolgens **Microsoft 365 Gebruiksanalyse** \> **Koop het vandaag nog**.</span><span class="sxs-lookup"><span data-stu-id="18458-127">In the **Apps** tab, type Microsoft 365 in the search box and then select **Microsoft 365 usage analytics** \> **Get it now**.</span></span>
+
+    <span data-ttu-id="18458-128">[![Selecteer Nu weergeven](../../media/78102250-9874-4a32-8365-436f13560b52.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics)</span><span class="sxs-lookup"><span data-stu-id="18458-128">[![Select Get it now](../../media/78102250-9874-4a32-8365-436f13560b52.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics)</span></span>
+    
+4.  <span data-ttu-id="18458-129">Zodra de app is geïnstalleerd.</span><span class="sxs-lookup"><span data-stu-id="18458-129">Once the app is installed.</span></span> <span data-ttu-id="18458-130">Klik op de tegel om deze te openen.</span><span class="sxs-lookup"><span data-stu-id="18458-130">Click on the tile to open it.</span></span>
+
+5.  <span data-ttu-id="18458-131">Klik **op App verkennen** om de app te bekijken met voorbeeldgegevens.</span><span class="sxs-lookup"><span data-stu-id="18458-131">Click **Explore app** to view the app with sample data.</span></span> <span data-ttu-id="18458-132">Klik **op Verbinding maken** om de app te verbinden met de gegevens van uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="18458-132">Click **Connect** to connect the app to your organization’s data.</span></span>
+
+6.  <span data-ttu-id="18458-133">Nadat u op **Verbinding hebt**geklikt , typt u in het scherm Verbinding maken met \> Microsoft **365 gebruiksanalyse** de tenant-id die u in stap (1) **Volgende**hebt gekopieerd.</span><span class="sxs-lookup"><span data-stu-id="18458-133">After clicking **Connect**, on the **Connect to Microsoft 365 usage analytics** screen, type in the tenant Id you copied in step (1) \> **Next**.</span></span>
+    
+7. <span data-ttu-id="18458-134">Selecteer in het volgende scherm **oAuth2** als **de verificatiemethode** \> **Aanmelden**.</span><span class="sxs-lookup"><span data-stu-id="18458-134">On the next screen, select **oAuth2** as the **Authentication method** \> **Sign in**.</span></span> <span data-ttu-id="18458-135">Als u een andere verificatiemethode kiest, mislukt de verbinding met de sjabloon-app.</span><span class="sxs-lookup"><span data-stu-id="18458-135">If you choose any other authentication method, the connection to the template app will fail.</span></span>
+    
+    ![Choose oAuth2 as authentication method](../../media/ac85a360-c278-4c60-8aa3-68f4828f1d96.png)
+  
+8. <span data-ttu-id="18458-137">Zodra de sjabloon-app is geinstantieerd, is het Microsoft 365-dashboard voor gebruiksanalyse beschikbaar in Power BI op internet.</span><span class="sxs-lookup"><span data-stu-id="18458-137">Once the template app is instantiated the Microsoft 365 usage analytics dashboard will be available in Power BI on the web.</span></span> <span data-ttu-id="18458-138">Het eerste laden van het dashboard duurt 2 tot 30 minuten.</span><span class="sxs-lookup"><span data-stu-id="18458-138">The initial loading of the dashboard will take between 2 to 30 minutes.</span></span>
+  
+<span data-ttu-id="18458-139">Samengevoegde gegevens op tenantniveau zijn beschikbaar in alle rapporten.</span><span class="sxs-lookup"><span data-stu-id="18458-139">Tenant level aggregates will be available in all reports.</span></span> <span data-ttu-id="18458-140">**Gegevens op gebruikersniveau zijn pas beschikbaar na de 1e of 15e dag van de kalendermaand na aanmelding**.</span><span class="sxs-lookup"><span data-stu-id="18458-140">**User-level details will only become available after the 1st or 15th day of the calendar month after opting in**.</span></span> <span data-ttu-id="18458-141">Dit heeft gevolgen voor alle rapporten onder Gebruikersactiviteit (Zie [Navigeren en gebruik de rapporten in Microsoft 365-gebruiksanalyses](navigate-and-utilize-reports.md) voor tips over het bekijken en gebruiken van deze rapporten).</span><span class="sxs-lookup"><span data-stu-id="18458-141">This will impact all reports under User Activity (See [Navigate and utilize the reports in Microsoft 365 usage analytics](navigate-and-utilize-reports.md) for tips on how to view and use these reports).</span></span>
+    
+## <a name="make-the-collected-data-anonymous"></a><span data-ttu-id="18458-142">Verzamelde gegevens anoniem maken</span><span class="sxs-lookup"><span data-stu-id="18458-142">Make the collected data anonymous</span></span>
+
+<span data-ttu-id="18458-143">Alleen hoofdbeheerders kunnen de gegevens die worden verzameld voor alle rapporten anoniem maken.</span><span class="sxs-lookup"><span data-stu-id="18458-143">To make the data that is collected for all reports anonymous, you have to be a global administrator.</span></span> <span data-ttu-id="18458-144">Hiermee worden identificeerbare informatie zoals gebruikers-, groeps- en sitenamen verborgen in rapporten en in de sjabloon-app.</span><span class="sxs-lookup"><span data-stu-id="18458-144">This will hide identifiable information such as user, group and site names in reports and in the template app .</span></span>
+  
+1. <span data-ttu-id="18458-145">Ga in het beheercentrum naar de **instellingen** \> **instellingen**en kies onder het tabblad **Services** de optie **Rapporten**.</span><span class="sxs-lookup"><span data-stu-id="18458-145">In the admin center, go to the **Settings** \> **Settings**, and under **Services** tab, choose **Reports**.</span></span>
+    
+2. <span data-ttu-id="18458-146">Selecteer **Rapporten**en kies vervolgens voor **Anonieme id's weergeven**.</span><span class="sxs-lookup"><span data-stu-id="18458-146">Select **Reports**, and then choose to **Display anonymous identifiers**.</span></span> <span data-ttu-id="18458-147">Deze instelling wordt zowel toegepast op de gebruiksrapporten als op de sjabloon-app.</span><span class="sxs-lookup"><span data-stu-id="18458-147">This setting gets applied both to the usage reports as well as to the template app.</span></span>
+  
+3. <span data-ttu-id="18458-148">Selecteer **Wijzigingen opslaan**.</span><span class="sxs-lookup"><span data-stu-id="18458-148">Select **Save changes**.</span></span>

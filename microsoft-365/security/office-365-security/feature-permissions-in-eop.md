@@ -1,0 +1,45 @@
+---
+title: Functiemachtigingen in EOP
+f1.keywords:
+- NOCSH
+ms.author: tracyp
+author: MSFTTracyP
+manager: dansimp
+ms.date: 1/30/2018
+audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+localization_priority: Normal
+ms.assetid: 34674847-a6b7-4a7e-9eaa-b64f22bc150d
+description: De machtigingen die nodig zijn om taken uit te voeren om Microsoft Exchange Online Protection (EOP) te beheren, zijn afhankelijk van de functie die u beheert.
+ms.openlocfilehash: 2129df7faaa977d59f8af8082291520d33bc9cc7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "42806624"
+---
+# <a name="feature-permissions-in-eop"></a><span data-ttu-id="c064a-103">Functiemachtigingen in EOP</span><span class="sxs-lookup"><span data-stu-id="c064a-103">Feature permissions in EOP</span></span>
+
+<span data-ttu-id="c064a-104">De machtigingen die nodig zijn om taken uit te voeren om Exchange Online Protection (EOP) te beheren, zijn afhankelijk van de functie die u beheert.</span><span class="sxs-lookup"><span data-stu-id="c064a-104">The permissions required to perform tasks to manage Exchange Online Protection (EOP) vary depending on the feature you are managing.</span></span>
+
+<span data-ttu-id="c064a-105">Als u EOP wilt instellen, moet u een Globale Beheerder van Office 365 of een Exchange Company Administrator (de rolgroep Organisatiebeheer) zijn.</span><span class="sxs-lookup"><span data-stu-id="c064a-105">To set up EOP, you must be an Office 365 Global Admin, or an Exchange Company Administrator (the Organization Management role group).</span></span>
+
+## <a name="exchange-online-protection-permissions"></a><span data-ttu-id="c064a-106">Machtigingen voor exchange online-beveiliging</span><span class="sxs-lookup"><span data-stu-id="c064a-106">Exchange Online Protection permissions</span></span>
+
+<span data-ttu-id="c064a-107">Zie de volgende tabel om te weten te komen welke machtigingen u nodig hebt om EOP-functies te beheren.</span><span class="sxs-lookup"><span data-stu-id="c064a-107">To find out what permissions you need to manage EOP features, see the following table.</span></span> <span data-ttu-id="c064a-108">Als een functie meer dan een rolgroep opnoemt, moet u slechts een van de rolgroepen hebben toegewezen om de functie te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="c064a-108">If a feature lists more than one role group, you only need to be assigned one of the role groups to use the feature.</span></span>
+
+|<span data-ttu-id="c064a-109">**Functie**</span><span class="sxs-lookup"><span data-stu-id="c064a-109">**Feature**</span></span>|<span data-ttu-id="c064a-110">**Vereiste machtigingen**</span><span class="sxs-lookup"><span data-stu-id="c064a-110">**Permissions required**</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="c064a-111">Anti-malware</span><span class="sxs-lookup"><span data-stu-id="c064a-111">Anti-malware</span></span>|<span data-ttu-id="c064a-112">Organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-112">Organization Management</span></span> <br/><br/> <span data-ttu-id="c064a-113">Hygiënemanagement</span><span class="sxs-lookup"><span data-stu-id="c064a-113">Hygiene Management</span></span>|
+|<span data-ttu-id="c064a-114">Anti-spam</span><span class="sxs-lookup"><span data-stu-id="c064a-114">Anti-spam</span></span>|<span data-ttu-id="c064a-115">Organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-115">Organization Management</span></span> <br/><br/> <span data-ttu-id="c064a-116">Hygiënemanagement</span><span class="sxs-lookup"><span data-stu-id="c064a-116">Hygiene Management</span></span>|
+|<span data-ttu-id="c064a-117">Regels voor e-mailstroom</span><span class="sxs-lookup"><span data-stu-id="c064a-117">Mail flow rules</span></span>|<span data-ttu-id="c064a-118">Organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-118">Organization Management</span></span> <br/><br/> <span data-ttu-id="c064a-119">Beheer van records</span><span class="sxs-lookup"><span data-stu-id="c064a-119">Records Management</span></span>|
+|<span data-ttu-id="c064a-120">Domeinen</span><span class="sxs-lookup"><span data-stu-id="c064a-120">Domains</span></span>|<span data-ttu-id="c064a-121">Organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-121">Organization Management</span></span> <br/><br/> <span data-ttu-id="c064a-122">Alleen-view organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-122">View-Only Organization Management</span></span>|
+|<span data-ttu-id="c064a-123">Advanced Threat Protection (ATP)</span><span class="sxs-lookup"><span data-stu-id="c064a-123">Advanced Threat Protection (ATP)</span></span>|<span data-ttu-id="c064a-124">Organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-124">Organization Management</span></span> <br/><br/> <span data-ttu-id="c064a-125">Hygiënemanagement</span><span class="sxs-lookup"><span data-stu-id="c064a-125">Hygiene Management</span></span>|
+|<span data-ttu-id="c064a-126">Office 365-connectors</span><span class="sxs-lookup"><span data-stu-id="c064a-126">Office 365 connectors</span></span>|<span data-ttu-id="c064a-127">Organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-127">Organization Management</span></span>|
+|<span data-ttu-id="c064a-128">Berichttracering</span><span class="sxs-lookup"><span data-stu-id="c064a-128">Message trace</span></span>|<span data-ttu-id="c064a-129">Organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-129">Organization Management</span></span> <br/><br/> <span data-ttu-id="c064a-130">Alleen-view organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-130">View-Only Organization Management</span></span>|
+|<span data-ttu-id="c064a-131">Organisatieconfiguratie</span><span class="sxs-lookup"><span data-stu-id="c064a-131">Organization configuration</span></span>|<span data-ttu-id="c064a-132">Organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-132">Organization Management</span></span>|
+|<span data-ttu-id="c064a-133">Quarantaine</span><span class="sxs-lookup"><span data-stu-id="c064a-133">Quarantine</span></span>|<span data-ttu-id="c064a-134">Organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-134">Organization Management</span></span> <br/><br/> <span data-ttu-id="c064a-135">Alleen-view organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-135">View-Only Organization Management</span></span> <br/><br/> <span data-ttu-id="c064a-136">Hygiënemanagement</span><span class="sxs-lookup"><span data-stu-id="c064a-136">Hygiene Management</span></span>|
+|<span data-ttu-id="c064a-137">Gebruikers, contactpersonen en rolgroepen</span><span class="sxs-lookup"><span data-stu-id="c064a-137">Users, Contacts, and Role Groups</span></span>|<span data-ttu-id="c064a-138">Organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-138">Organization Management</span></span> <br/><br/> <span data-ttu-id="c064a-139">Alleen-view organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-139">View-Only Organization Management</span></span> <br/><br/> <span data-ttu-id="c064a-140">Hygiënemanagement</span><span class="sxs-lookup"><span data-stu-id="c064a-140">Hygiene Management</span></span>|
+|<span data-ttu-id="c064a-141">Distributiegroepen en beveiligingsgroepen</span><span class="sxs-lookup"><span data-stu-id="c064a-141">Distribution Groups and Security Groups</span></span>|<span data-ttu-id="c064a-142">Organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-142">Organization Management</span></span> <br/><br/> <span data-ttu-id="c064a-143">Alleen-view organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="c064a-143">View-Only Organization Management</span></span> <br/><br/> <span data-ttu-id="c064a-144">Hygiënemanagement</span><span class="sxs-lookup"><span data-stu-id="c064a-144">Hygiene Management</span></span>|
+|<span data-ttu-id="c064a-145">Rapporten weergeven</span><span class="sxs-lookup"><span data-stu-id="c064a-145">View reports</span></span>|<span data-ttu-id="c064a-146">Organisatiebeheer: toegang tot e-mailbeveiligingsrapporten.</span><span class="sxs-lookup"><span data-stu-id="c064a-146">Organization Management: Access to mail protection reports.</span></span> <br/><br/> <span data-ttu-id="c064a-147">Ontvangers die alleen voor weergave zijn: toegang tot e-mailbeveiligingsrapporten.</span><span class="sxs-lookup"><span data-stu-id="c064a-147">View-Only Recipients: Access to mail protection reports.</span></span>  <br/><br/> <span data-ttu-id="c064a-148">Compliance Management: Toegang tot e-mailbeveiligingsrapporten en DLP-rapporten (Data Loss Prevention) (als uw abonnement DLP-mogelijkheden heeft).</span><span class="sxs-lookup"><span data-stu-id="c064a-148">Compliance Management: Access to mail protection reports and Data Loss Prevention (DLP) reports (if your subscription has DLP capabilities).</span></span>|

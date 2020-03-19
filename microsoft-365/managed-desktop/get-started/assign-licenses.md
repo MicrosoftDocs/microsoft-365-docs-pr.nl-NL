@@ -1,0 +1,34 @@
+---
+title: Licenties toewijzen
+description: Als onderdeel van de inschrijving moet u licenties toewijzen die u al hebt verkregen aan uw gebruikers
+keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
+ms.service: m365-md
+author: jaimeo
+ms.localizationpriority: normal
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: 8b12ec5f3b7d33f171790224a22ab55b33382187
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42812439"
+---
+# <a name="assign-licenses"></a><span data-ttu-id="7224b-104">Licenties toewijzen</span><span class="sxs-lookup"><span data-stu-id="7224b-104">Assign licenses</span></span>
+
+<span data-ttu-id="7224b-105">Als onderdeel van de voorbereiding om u in te schrijven voor Microsoft Managed Desktop, moet u er zeker van zijn dat u de benodigde licenties hebt verkregen.</span><span class="sxs-lookup"><span data-stu-id="7224b-105">As part of preparing to enroll in Microsoft Managed Desktop, you'll need to be sure you've obtained the necessary licenses.</span></span> <span data-ttu-id="7224b-106">Als u dit nog niet hebt gedaan, raadpleegt u [Meer informatie over licenties](../get-ready/prerequisites.md#more-about-licenses) voor meer informatie over welke licenties u precies nodig hebt.</span><span class="sxs-lookup"><span data-stu-id="7224b-106">If you haven't already done this, see [More about licenses](../get-ready/prerequisites.md#more-about-licenses) for details about exactly which licenses you need.</span></span>
+
+
+<span data-ttu-id="7224b-107">Als uw licentie allemaal is opgesteld, is het nu tijd om ze toe te wijzen aan uw gebruikers.</span><span class="sxs-lookup"><span data-stu-id="7224b-107">If your license are all lined up, it's time now to assign them to your users.</span></span> <span data-ttu-id="7224b-108">Om dit te doen, raden we u aan gebruik te maken van de [groepslicentiefunctie](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal) van Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="7224b-108">To do this, we recommend that you take advantage of the [group-based licensing feature](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal) of Azure Active Directory.</span></span>
+
+<span data-ttu-id="7224b-109">Als u problemen hebt met licentietoewijzing, neemt u contact op met [de ondersteuning](../working-with-managed-desktop/admin-support.md)van de beheerder.</span><span class="sxs-lookup"><span data-stu-id="7224b-109">If you have any difficulty with license assignment, contact Admin [support](../working-with-managed-desktop/admin-support.md).</span></span>
+
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a><span data-ttu-id="7224b-110">Stappen om aan de slag te gaan met Microsoft Managed Desktop</span><span class="sxs-lookup"><span data-stu-id="7224b-110">Steps to get started with Microsoft Managed Desktop</span></span>
+
+1. [<span data-ttu-id="7224b-111">Beheerderscontactpersonen toevoegen en verifiëren in de portal Beheerder</span><span class="sxs-lookup"><span data-stu-id="7224b-111">Add and verify admin contacts in the Admin portal</span></span>](add-admin-contacts.md)
+2. [<span data-ttu-id="7224b-112">Voorwaardelijke toegang aanpassen</span><span class="sxs-lookup"><span data-stu-id="7224b-112">Adjust conditional access</span></span>](conditional-access.md)
+3. <span data-ttu-id="7224b-113">Licenties toewijzen (dit onderwerp)</span><span class="sxs-lookup"><span data-stu-id="7224b-113">Assign licenses (this topic)</span></span>
+4. [<span data-ttu-id="7224b-114">Intune Company Portal implementeren</span><span class="sxs-lookup"><span data-stu-id="7224b-114">Deploy Intune Company Portal</span></span>](company-portal.md)
+5. [<span data-ttu-id="7224b-115">Enterprise State Roaming inschakelen</span><span class="sxs-lookup"><span data-stu-id="7224b-115">Enable Enterprise State Roaming</span></span>](enterprise-state-roaming.md)
+6. [<span data-ttu-id="7224b-116">Apparaten instellen</span><span class="sxs-lookup"><span data-stu-id="7224b-116">Set up devices</span></span>](set-up-devices.md)
+7. [<span data-ttu-id="7224b-117">Uw gebruikers klaar maken voor gebruiksapparaten</span><span class="sxs-lookup"><span data-stu-id="7224b-117">Get your users ready to use devices</span></span>](get-started-devices.md)
+8. [<span data-ttu-id="7224b-118">Apps implementeren</span><span class="sxs-lookup"><span data-stu-id="7224b-118">Deploy apps</span></span>](deploy-apps.md)
