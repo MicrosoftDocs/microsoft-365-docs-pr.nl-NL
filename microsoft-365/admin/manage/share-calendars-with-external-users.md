@@ -1,0 +1,58 @@
+---
+title: Agenda's delen met externe gebruikers
+f1.keywords:
+- NOCSH
+ms.author: twerner
+author: twernermsft
+manager: scotv
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+- Adm_TOC
+ms.custom:
+- MSStore_Link
+search.appverid:
+- BCS160
+- MET150
+- MOE150
+ms.assetid: fb00dd4e-2d5f-4e8d-8ff4-94b2cf002bdd
+description: "Meer informatie over hoe u uw gebruikers hun agenda's laten delen met externe gebruikers voor vergaderingen en afspraken. "
+ms.openlocfilehash: 42bce53c3963c41684644d02dab18210f9ed828a
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42811395"
+---
+# <a name="share-calendars-with-external-users"></a>Agenda's delen met externe gebruikers
+
+Het is vaak noodzakelijk om vergaderingen met mensen buiten uw organisatie te plannen. Het vinden van wederzijds overeen te komen vergadertijden kunt u vereenvoudigen door in Office 365 een agenda beschikbaar te stellen voor 'externe gebruikers', personen die beschikbaarheidsinfo willen zien maar geen gebruikersaccounts voor uw Office 365-omgeving hebben.
+  
+Agendadelen is een algemene instelling, wat betekent dat u, de beheerder, deze inschakelen voor alle gebruikers in de tenant. Nadat delen is ingeschakeld, kunnen gebruikers Outlook Web App gebruiken om hun agenda's te delen met iemand binnen of buiten de organisatie. Mensen binnen de organisatie kunnen de gedeelde agenda naast die van henzelf bekijken. Mensen buiten de organisatie ontvangen een URL die ze kunnen gebruiken om de agenda te bekijken. Gebruikers beslissen wanneer ze willen delen, hoe veel ze willen delen en wanneer ze hun agenda privé willen houden.
+  
+> [!NOTE]
+> Als u agenda's wilt delen met een organisatie die Exchange Server 2013 (een on-premises oplossing) gebruikt, moet de Exchange-beheerder een verificatierelatie met de cloud instellen. Dit wordt ook wel 'federatie' genoemd en moet voldoen aan de minimale softwarevereisten. Zie [Delen](https://technet.microsoft.com/library/dd638083%28v=exchg.150%29.aspx) voor meer informatie. 
+  
+## <a name="enable-calendar-sharing-using-the-microsoft-365-admin-center"></a>Agendadelen inschakelen met het Microsoft 365-beheercentrum
+
+1. Ga in het beheercentrum naar de pagina **Instellingenservices** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">& invoegingen.</a> 
+    
+  
+2. Selecteer **Agenda**op de pagina **Invoegtoepassing &amp; Services** .
+  
+3. Kies **op** de pagina Agenda die wordt geopend of u uw gebruikers hun agenda's wilt laten delen met mensen buiten uw organisatie die Office 365 of Exchange hebben.
+    
+4. Kies of u anonieme gebruikers (gebruikers zonder aanmeldingsgegevens) toegang wilt geven tot agenda's via een e-mailuitnodiging.
+
+5. Kies welk type agenda-informatie u beschikbaar wilt maken voor gebruikers. U alle informatie toestaan of beperken tot alleen tijd of tijd, onderwerp en locatie.
+
+    
+## <a name="invite-people-to-access-calendars"></a>Mensen uitnodigen voor toegang tot agenda's
+
+Nadat delen voor de tenant is ingeschakeld, kunnen eigenaren van agenda's uitnodigingen uitbreiden tot specifieke gebruikers. Zie [Uw agenda delen in Outlook Web App](https://support.office.com/article/7ecef8ae-139c-40d9-bae2-a23977ee58d5.aspx) voor instructies. 
+  
+

@@ -1,0 +1,108 @@
+---
+title: Informatie over abonnementen en licenties in Office 365 voor Bedrijven
+f1.keywords:
+- NOCSH
+ms.author: cmcatee
+author: cmcatee-MSFT
+manager: mnirkhe
+audience: Admin
+ms.topic: conceptual
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+- Adm_TOC
+- commerce
+search.appverid:
+- MET150
+- MOE150
+- BEA160
+- GEA150
+ms.assetid: 7ac93507-0e38-4398-8bfe-9c1d123cb387
+description: 'Meer informatie over abonnementen en licenties in Office 365 voor Bedrijven en weet wie licenties kan toewijzen en wat er gebeurt wanneer u een licentie aan iemand toewijst. '
+ms.custom: okr_SMB
+ms.openlocfilehash: 1a90e4b80322ad075f2149801aebd02ac07a2aef
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42812127"
+---
+# <a name="understand-subscriptions-and-licenses-in-office-365-for-business"></a>Informatie over abonnementen en licenties in Office 365 voor Bedrijven
+
+In dit artikel wordt de relatie tussen abonnementen en licenties uitgelegd en worden aanvullende informatie verstrekt over [wie licenties kan toewijzen,](#find-out-who-can-assign-licenses) [te begrijpen wat er gebeurt wanneer u een licentie aan iemand toewijst](#understand-what-happens-when-you-assign-a-license-to-someone)en [op hoeveel apparaten mensen Office kunnen installeren.](#how-many-devices-can-people-install-office-on) Het bevat ook links naar [het begrijpen van licenties voor niet-gebruikerspostvakken](#understand-licenses-for-non-user-mailboxes)en artikelen over het beheren van [licenties.](#articles-about-managing-licenses)
+  
+Wanneer u een abonnement op Office 365 voor Bedrijven koopt, meldt u zich aan voor een reeks toepassingen en services waarvoor u maandelijks of jaarlijks betaalt. De toepassingen en services die u ontvangt als onderdeel van uw abonnement, zijn afhankelijk van het product dat u hebt gekocht, zoals Office 365 Business of Office 365 Business Premium. U bekijken wat bij elk product wordt geleverd op de [pagina Office 365 kopen.](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1) 
+
+Wanneer u een abonnement koopt, geeft u het aantal licenties op dat u nodig hebt, op basis van het aantal personen in uw organisatie. Wanneer uw aankoop is voltooid, maakt u een account voor de betreffende personen en wijst u vervolgens elk van deze personen een licentie toe. Als uw organisatiebehoeften veranderen, u meer licenties kopen om nieuwe mensen tegemoet te komen of licenties opnieuw toewijzen aan andere gebruikers wanneer iemand uw organisatie verlaat. 
+
+Als u meer dan één abonnement hebt, u licenties toewijzen aan verschillende personen voor elk abonnement. Al uw gebruikers kunnen bijvoorbeeld worden toegewezen aan alle Office 365-toepassingen en -services als onderdeel van een Office 365 Business Premium-abonnement, terwijl een subset van gebruikers ook via een apart Visio-abonnement aan Visio Online kan worden toegewezen. 
+
+  
+## <a name="find-out-who-can-assign-licenses"></a>Wie kan licenties toewijzen?
+
+Verschillende typen beheerders kunnen op verschillende manieren met licenties werken, afhankelijk van hun rol. In de volgende tabel ziet u de meest voorkomende opties. Zie [Informatie over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor een volledige lijst met rollen en bevoegdheden van beheerders.
+  
+|**Beheerdersrol**|**Een licentie toewijzen**|**Een licentie intrekken**|**Meer licenties aanschaffen**|**Een account verwijderen**|
+|:-----|:-----|:-----|:-----|:-----|
+|Algemene beheerder  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
+|Factureringsbeheerder  <br/> |Nee  <br/> |Nee  <br/> |Ja  <br/> |Nee  <br/> |
+|Beheerder gebruikertoegang  <br/> |Ja  <br/> |Ja  <br/> |Nee  <br/> |Ja  <br/> |
+|Servicebeheerder  <br/> |Nee  <br/> |Nee  <br/> |Nee  <br/> |Nee  <br/> |
+|Wachtwoordbeheerder  <br/> |Nee  <br/> |Nee  <br/> |Nee  <br/> |Nee  <br/> |
+   
+## <a name="understand-what-happens-when-you-assign-a-license-to-someone"></a>Meer informatie over wat er gebeurt als u een licentie aan iemand toewijst
+
+In de volgende tabel ziet u wat er automatisch gebeurt als u iemand een licentie toewijst:
+  
+|**Als deze service is opgenomen in het abonnement**|**Gebeurt dit automatisch**|
+|:-----|:-----|
+|Exchange Online  <br/> |Er wordt een postvak voor die medewerker gemaakt.  <br/> |
+|SharePoint Online  <br/> |De medewerker krijgt machtigingen voor bewerken voor de standaardteamsite van SharePoint Online.  <br/> |
+|Skype voor Bedrijven Online  <br/> |De medewerker krijgt toegang tot de functies die bij de licentie horen.  <br/> |
+|Office 365 ProPlus  <br/> |De medewerker kan Microsoft Office downloaden op maximaal vijf Macs of pc's, vijf tablets en vijf smartphones.  <br/> |
+   
+## <a name="how-many-devices-can-people-install-office-on"></a>Op hoeveel apparaten kan iemand Office installeren?
+
+Als uw abonnement een van de volgende producten bevat, kan elke medewerker Office installeren op maximaal vijf pc's of Macs, vijf tablets en vijf telefoons.
+  
+- Office 365 Business
+    
+- Office 365 Business Premium
+    
+- Office 365 ProPlus
+    
+- Office 365 Enterprise E3
+    
+- Office 365 Enterprise E5
+    
+## <a name="understand-licenses-for-non-user-mailboxes"></a>Licenties voor postvakken van niet-gebruikers
+
+U hoeft geen licenties toe te wijzen aan resourcepostvakken, postvakken voor vergaderruimten en gedeelde postvakken, behalve wanneer het opslagquotum van 50 GB (gigabytes) is overschreden. Zie de volgende artikelen voor meer informatie over postvakken van niet-gebruikers:
+  
+- [Een gedeeld postvak maken](../../admin/email/create-a-shared-mailbox.md)
+    
+- [Gedeelde postvakken in Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=847433) voor overige Office 365-abonnementen. 
+    
+- [Postvakken voor vergaderruimten maken en beheren](https://go.microsoft.com/fwlink/p/?linkid=847434)
+    
+- [Postvakken van apparatuur beheren](https://go.microsoft.com/fwlink/p/?linkid=847435)
+    
+## <a name="articles-about-managing-licenses"></a>Artikelen over het beheren van licenties
+
+- [Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md)
+    
+- [Licenties van gebruikers verwijderen](../../admin/manage/remove-licenses-from-users.md)
+    
+- [Licenties kopen voor uw abonnement](buy-licenses.md)
+    
+- [Nog een abonnement kopen](../buy-another-subscription.md)
+    
+- [Een invoegtoepassing kopen of bewerken](../buy-or-edit-an-add-on.md)
+    
+- [Licenties verwijderen uit uw abonnement](remove-licenses-from-subscription.md)
+    
+- [Licentieconflicten oplossen](../../admin/manage/resolve-license-conflicts.md)
+    
+- [Yammer-gebruikerslicenties beheren](https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-licenses-in-office-365)

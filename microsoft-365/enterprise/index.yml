@@ -1,0 +1,106 @@
+### YamlMime:Hub
+title: Microsoft 365 voor bedrijfsdocumentatie en -bronnen
+summary: De beste productiviteitsapps met intelligente cloudservices die de manier waarop u werkt transformeren.
+brand: m365
+metadata:
+  title: Microsoft 365 voor bedrijfsdocumentatie en -bronnen
+  description: Meer informatie over de productdocumentatie en -bronnen die beschikbaar zijn voor Microsoft 365 voor bedrijven voor IT-professionals, informatiewerkers en partners.
+  services: service
+  ms.prod: microsoft-365-enterprise
+  ms.service: O365-seccomp
+  ms.topic: hub-page
+  ms.collection: M365-subscription-management
+  author: robmazz
+  ms.author: robmazz
+  ms.date: 11/29/2019
+  ms.openlocfilehash: d7c4eccccc47a9264cdd14fab2b7740789dd33b0
+  ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 12/19/2019
+  ms.locfileid: "42812799"
+highlightedContent:
+  items:
+  - title: Meer informatie over Microsoft 365 voor bedrijven
+    itemType: get-started
+    url: microsoft-365-overview.md
+  - title: Versnel uw implementatie met FastTrack
+    itemType: quickstart
+    url: https://www.microsoft.com/fasttrack/microsoft-365
+  - title: Train uw IT-professionals en -beheerders
+    itemType: learn
+    url: https://docs.microsoft.com/learn/m365/
+conceptualContent:
+  title: Hulp krijgen bij Microsoft 365 voor bedrijven en andere bronnen
+  summary: Ontdek Microsoft 365 voor richtlijnen, functies en services voor bedrijfsimplementatie.
+  items:
+  - title: Volg de implementatieroadmap
+    links:
+    - url: deploy-microsoft-365-enterprise.md
+      itemType: deploy
+      text: Implementatieoverzicht
+    - url: deploy-foundation-infrastructure.md
+      itemType: how-to-guide
+      text: Funderingsinfrastructuur
+    - url: deploy-workloads.md
+      itemType: how-to-guide
+      text: Workloads en scenario's
+    - url: desktop-deployment-center-home.md
+      itemType: get-started
+      text: Bureaubladimplementatiecentrum
+  - title: Belangrijke elementen implementeren
+    links:
+    - url: identity-infrastructure.md
+      itemType: how-to-guide
+      text: Identiteitsinfrastructuur
+    - url: https://docs.microsoft.com/windows/deployment/
+      itemType: get-started
+      text: Windows 10 Enterprise
+    - url: https://docs.microsoft.com/deployoffice/plan-office-365-proplus
+      itemType: deploy
+      text: Office 365 ProPlus
+    - url: https://docs.microsoft.com/intune/fundamentals/planning-guide
+      itemType: deploy
+      text: Microsoft Intune
+  - title: Belangrijke scenario's implementeren
+    links:
+    - url: secure-teams-highly-regulated-data-scenario.md
+      itemType: how-to-guide
+      text: Microsoft Teams voor sterk gereguleerde gegevens
+    - url: teams-sharepoint-online-sites-highly-regulated-data.md
+      itemType: how-to-guide
+      text: SharePoint-sites voor sterk gereguleerde gegevens
+    - url: empower-people-to-work-remotely.md
+      itemType: how-to-guide
+      text: Externe werknemers
+    - url: migration-microsoft-365-enterprise-workload.md
+      itemType: deploy
+      text: Migratie van Office-client en -server en Windows
+  - title: Microsoft 365 voor bedrijven beheren
+    links:
+    - url: https://docs.microsoft.com/windows/deployment/update/
+      itemType: how-to-guide
+      text: Windows 10 Enterprise
+    - url: https://docs.microsoft.com/deployoffice/overview-of-update-channels-for-office-365-proplus
+      itemType: concept
+      text: Office 365 ProPlus
+    - url: https://docs.microsoft.com/intune/apps/app-management
+      itemType: get-started
+      text: Apps met Intune
+    - url: https://docs.microsoft.com/office365/
+      itemType: get-started
+      text: Office 365-services
+additionalContent:
+  sections:
+  - title: Aanvullende bronnen
+    summary: Meer informatie over andere Microsoft 365-functies en -bronnen.
+    items:
+    - title: Microsoft 365-naleving
+      summary: Help uw organisatie informatie te beheren, te beschermen tegen risico's en te voldoen aan wettelijke of wettelijke normen.
+      url: https://docs.microsoft.com/microsoft-365/compliance/index
+    - title: Microsoft 365-beveiliging
+      summary: Bescherm uw organisatie op het oppervlak van de aanval met robuuste beveiligingsservices en oplossingen.
+      url: https://docs.microsoft.com/microsoft-365/security/index
+    - title: Technische community van Microsoft 365
+      summary: Maak verbinding en werk samen met collega's en experts in de Microsoft Tech Community en deel microsoft 365-aanbevolen procedures.
+      url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365

@@ -1,0 +1,73 @@
+### YamlMime:Landing
+title: Zakelijke abonnementen en factureringsdocumentatie
+summary: Meer informatie over het kopen en beheren van zakelijke abonnementen, het uitvoeren van licentiebeheertaken en het beheren van facturering en betalingen voor uw zakelijke accounts bij Microsoft.
+metadata:
+  title: Zakelijke abonnementen en factureringsdocumentatie
+  description: Meer informatie over het kopen en beheren van zakelijke abonnementen, het uitvoeren van licentiebeheertaken en het beheren van facturering en betalingen voor uw zakelijke accounts bij Microsoft.
+  ms.service: o365-administration
+  ms.topic: landing-page
+  ms.collection: commerce
+  author: cmcatee-MSFT
+  ms.author: cmcatee
+  ms.date: 02/27/2020
+  localization_priority: Normal
+  search.appverid: MET150
+  ms.openlocfilehash: 76f86bcd65fe1d5894777d8263f8c48f5fc5493b
+  ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 02/29/2020
+  ms.locfileid: "42806224"
+landingContent:
+- title: Rekeningen en betalingen beheren
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Uw factuur weergeven
+      url: billing-and-payments/view-your-bill-or-invoice.md
+    - text: Betalingsmethoden beheren
+      url: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
+    - text: Inzicht in uw factuur
+      url: billing-and-payments/understand-your-invoice.md
+    - text: Factureringsprofielen beheren
+      url: billing-and-payments/manage-billing-profiles.md
+    - text: Factureringsaccounts beheren
+      url: manage-billing-accounts.md
+- title: Licenties beheren
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Licenties aan gebruikers toewijzen
+      url: ../admin/manage/assign-licenses-to-users.md
+    - text: Informatie over abonnementen en licenties
+      url: licenses/subscriptions-and-licenses.md
+    - text: Licenties kopen voor uw abonnement
+      url: licenses/buy-licenses.md
+    - text: Licenties verwijderen uit uw abonnement
+      url: licenses/remove-licenses-from-subscription.md
+- title: Upgraden, verlengen of annuleren
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Upgraden naar een ander abonnement
+      url: subscriptions/upgrade-to-different-plan.md
+    - text: Uw abonnement verlengen
+      url: subscriptions/renew-your-subscription.md
+    - text: Uw abonnement opzeggen
+      url: subscriptions/cancel-your-subscription.md
+    - text: Uw abonnement opnieuw activeren
+      url: subscriptions/reactivate-your-subscription.md
+    - text: Uw account sluiten
+      url: close-your-account.md
+- title: Uitproberen of kopen
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Probeer of koop Microsoft 365
+      url: try-or-buy-microsoft-365.md
+    - text: Een abonnement kopen in uw gratis proefperiode
+      url: buy-a-subscription-from-your-free-trial.md
+    - text: Uw proefabonnement verlengen
+      url: extend-your-trial.md
+    - text: Een domeinnaam kopen
+      url: ../admin/get-help-with-domains/buy-a-domain-name.md
