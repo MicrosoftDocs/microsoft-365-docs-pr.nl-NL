@@ -1,0 +1,93 @@
+### YamlMime:Landing
+title: E-maildocumentatie
+summary: Informatie over het beheren van e-mail voor uw Office 365-postvakken.
+metadata:
+  title: E-maildocumentatie
+  description: Informatie over het beheren van e-mail voor uw Office 365-postvakken.
+  ms.service: o365-administration
+  ms.topic: landing-page
+  ms.collection:
+  - Adm_O365
+  - Adm_TOC
+  author: wingtofree
+  ms.author: v-qingao
+  ms.date: 11/03/2020
+  ms.openlocfilehash: e4ec9d99fdba8e577feb07628d8d617afbf8c9f7
+  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 03/19/2020
+  ms.locfileid: "42857586"
+landingContent:
+- title: E-mail instellen
+  linkLists:
+  - linkListType: video
+    links:
+    - text: Outlook instellen voor e-mail
+      url: https://support.office.microsoft.com/article/f5bf0cd1-e1f3-4b0d-a022-ecab17efe86f
+    - text: E-mail importeren en omleiden
+      url: https://support.office.microsoft.com/article/6a3771d4-4c1d-4a25-92a6-0b8e476335de
+  - linkListType: tutorial
+    links:
+    - text: Outlook-training
+      url: https://support.office.microsoft.com/article/8a5b816d-9052-4190-a5eb-494512343cca
+  - linkListType: how-to-guide
+    links:
+    - text: E-mail en contactpersonen migreren
+      url: https://support.office.com/article/a3e3bddb-582e-4133-8670-e61b9f58627e
+    - text: Gedeelde postvakken maken
+      url: https://docs.microsoft.com/microsoft-365/admin/email/create-a-shared-mailbox
+    - text: Extra e-mailadressen toevoegen aan een gebruiker
+      url: https://docs.microsoft.com/microsoft-365/admin/email/add-another-email-alias-for-a-user
+    - text: Gebruikers in staat stellen e-mailcontactpersonen te synchroniseren met hun iPhone of iPad
+      url: https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/owa-for-devices-contact-sync
+    - text: Een multifunctioneel apparaat instellen om e-mail te verzenden
+      url: https://support.office.com/article/69f58e99-c550-4274-ad18-c805d654b4c4
+    - text: Een ander account toevoegen aan Outlook
+      url: https://support.office.com/article/c5224df4-5885-4e79-91ba-523aa743f0ba
+- title: Uw e-mail beveiligen
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Een beveiligingsgroep maken, bewerken of verwijderen
+      url: https://docs.microsoft.com/microsoft-365/admin/email/create-edit-or-delete-a-security-group
+    - text: Antispambescherming e-mailen
+      url: https://docs.microsoft.com/office365/securitycompliance/anti-spam-protection
+    - text: Bescherming tegen ongewenste e-mail en malware
+      url: https://docs.microsoft.com/office365/securitycompliance/anti-spam-and-anti-malware-protection
+    - text: Voorkomen dat e-mail wordt gemarkeerd als spam
+      url: https://docs.microsoft.com/office365/securitycompliance/prevent-email-from-being-marked-as-spam
+- title: Problemen met e-mailverbinding en -bezorging oplossen
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Fix Outlook connection problems in Office 365 and Exchange Online (Outlook-verbindingsproblemen in Office 365 en Exchange Online oplossen)
+      url: https://diagnostics.outlook.com/#/
+    - text: Verwijderde items herstellen in het postvak van een gebruiker
+      url: https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox
+    - text: Problemen met e-mailbezorging zoeken en oplossen
+      url: https://support.office.com/article/e7758b99-1896-41db-bf39-51e2dba21de6
+    - text: Problemen opsporen en oplossen (inclusief e-mailproblemen) nadat u uw domein of DNS-records hebt toegevoegd
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-and-fix-issues
+    - text: NDR-foutcodes opzoeken in rapporten voor niet-bezorging van e-mail
+      url: https://support.office.com/article/51daa6b9-2e35-49c4-a0c9-df85bf8533c3
+    - text: Outlook-problemen oplossen
+      url: https://go.microsoft.com/fwlink/?LinkID=618675
+- title: Middelen voor ondernemingen
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Best practices voor e-mailstroom voor Exchange Online en Office 365
+      url: https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices
+    - text: Exchange Online
+      url: https://docs.microsoft.com/exchange/exchange-online
+    - text: Exchange Online
+      url: https://docs.microsoft.com/office365/securitycompliance/eop/exchange-online-protection-overview
+  - linkListType: deploy
+    links:
+    - text: Inhoud voor hybride implementatie van Exchange
+      url: https://docs.microsoft.com/exchange/exchange-hybrid
+  - linkListType: how-to-guide
+    links:
+    - text: Manieren om meerdere e-mailaccounts naar Office 365 te migreren
+      url: https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration
