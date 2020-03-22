@@ -1,11 +1,11 @@
 ---
-title: Een risicovolle leveringsgroep voor uitgaande berichten
+title: Leveringspool met een hoog risico voor uitgaande berichten
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 8/24/2016
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,42 +15,41 @@ search.appverid:
 ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 ms.collection:
 - M365-security-compliance
-description: Wanneer het e-mailsysteem van een klant is gecompromitteerd door malware of een kwaadaardige spamaanval en het uitgaande spam verzendt via de gehoste filterservice, kan dit ertoe leiden dat de IP-adressen van de Office 365-datacenterservers worden vermeld op blok van derden Lijsten.
-ms.openlocfilehash: 19987ae74b9c78a796ddb5f13cf8291a5ed269ad
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Lees hoe de leveringspool met een hoog risico wordt gebruikt om de reputatie van e-mailservers in de Office 365-datacenters te beschermen.
+ms.openlocfilehash: 5d1bd2b14eb17ed74ee1cf1e44967f660f4595b8
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42805479"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895357"
 ---
-# <a name="high-risk-delivery-pool-for-outbound-messages"></a><span data-ttu-id="f08e4-103">Een risicovolle leveringsgroep voor uitgaande berichten</span><span class="sxs-lookup"><span data-stu-id="f08e4-103">High-risk delivery pool for outbound messages</span></span>
+# <a name="high-risk-delivery-pool-for-outbound-messages-in-office-365"></a><span data-ttu-id="0933b-103">Leveringspool met een hoog risico voor uitgaande berichten in Office 365</span><span class="sxs-lookup"><span data-stu-id="0933b-103">High-risk delivery pool for outbound messages in Office 365</span></span>
 
-<span data-ttu-id="f08e4-104">Wanneer het e-mailsysteem van een klant is gecompromitteerd door malware of een kwaadaardige spamaanval en het uitgaande spam verzendt via de gehoste filterservice, kan dit ertoe leiden dat de IP-adressen van de Office 365-datacenterservers worden vermeld op blok van derden Lijsten.</span><span class="sxs-lookup"><span data-stu-id="f08e4-104">When a customer's email system has been compromised by malware or a malicious spam attack, and it's sending outbound spam through the hosted filtering service, this can result in the IP addresses of the Office 365 data center servers being listed on third-party block lists.</span></span> <span data-ttu-id="f08e4-105">Doelservers die de gehoste filterservice niet gebruiken, maar deze bloklijsten wel gebruiken, weigeren alle e-mail die is verzonden vanaf een van de gehoste filterIP-adressen die aan die lijsten zijn toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="f08e4-105">Destination servers that do not use the hosted filtering service, but do use these block lists, reject all email sent from any of the hosted filtering IP addresses that have been added to those lists.</span></span> <span data-ttu-id="f08e4-106">Om dit te voorkomen, worden alle uitgaande berichten die de spamdrempel overschrijden, verzonden via een groep met een hoog risico.To prevent this, all outbound messages that exceed the spam threshold are sent through a high-risk delivery pool.</span><span class="sxs-lookup"><span data-stu-id="f08e4-106">To prevent this, all outbound messages that exceed the spam threshold are sent through a high-risk delivery pool.</span></span> <span data-ttu-id="f08e4-107">Deze secundaire uitgaande e-mailgroep wordt alleen gebruikt om berichten te verzenden die van lage kwaliteit kunnen zijn.</span><span class="sxs-lookup"><span data-stu-id="f08e4-107">This secondary outbound email pool is only used to send messages that may be of low quality.</span></span> <span data-ttu-id="f08e4-108">Dit helpt om de rest van het netwerk te beschermen tegen het verzenden van berichten die waarschijnlijk ertoe leiden dat het verzenden van IP-adres wordt geblokkeerd.</span><span class="sxs-lookup"><span data-stu-id="f08e4-108">This helps to protect the rest of the network from sending messages that are more likely to result in the sending IP address being blocked.</span></span>
-  
-<span data-ttu-id="f08e4-109">Het gebruik van een speciale groep met een hoog risico zorgt ervoor dat de normale uitgaande pool alleen berichten verzendt waarvan bekend is dat ze van hoge kwaliteit zijn.</span><span class="sxs-lookup"><span data-stu-id="f08e4-109">The use of a dedicated high-risk delivery pool helps ensure that the normal outbound pool is only sending messages that are known to be of a high-quality.</span></span> <span data-ttu-id="f08e4-110">Het gebruik van deze secundaire IP-pool helpt om de kans te verkleinen dat de normale uitgaande IP-groep wordt toegevoegd aan een geblokkeerde lijst.</span><span class="sxs-lookup"><span data-stu-id="f08e4-110">Using this secondary IP pool helps to reduce the probability of the normal outbound-IP pool being added to a blocked list.</span></span> <span data-ttu-id="f08e4-111">De mogelijkheid dat de risicovolle bezorgpool op een geblokkeerde lijst wordt geplaatst, blijft een risico.</span><span class="sxs-lookup"><span data-stu-id="f08e4-111">The possibility of the high-risk delivery pool being placed on a blocked list remains a risk.</span></span> <span data-ttu-id="f08e4-112">Dit is normaal.</span><span class="sxs-lookup"><span data-stu-id="f08e4-112">This is by design.</span></span>
-  
-<span data-ttu-id="f08e4-113">Berichten waarin het verzendende domein geen adresrecord (A-record) heeft, waardoor u het IP-adres van het domein krijgt en geen MX-record, waarmee direct mail wordt verzonden naar de servers die de e-mail moeten ontvangen voor een bepaald domein in de DNS, worden altijd door de een risicovolle bezorgpool, ongeacht hun spampositie.</span><span class="sxs-lookup"><span data-stu-id="f08e4-113">Messages where the sending domain has no address record (A record), which gives you the IP address of the domain, and no MX record, which helps direct mail to the servers that should receive the mail for a particular domain in the DNS, are always routed through the high-risk delivery pool regardless of their spam disposition.</span></span>
-  
-## <a name="understanding-delivery-status-notification-dsn-messages"></a><span data-ttu-id="f08e4-114">DSN-berichten (Delivery Status Notification) begrijpen</span><span class="sxs-lookup"><span data-stu-id="f08e4-114">Understanding Delivery Status Notification (DSN) messages</span></span>
+<span data-ttu-id="0933b-104">E-mailservers in de Office 365-datacenters maken zich mogelijk tijdelijk schuldig aan het verzenden van spam.</span><span class="sxs-lookup"><span data-stu-id="0933b-104">Email servers in the Office 365 datacenters might be temporarily guilty of sending spam.</span></span> <span data-ttu-id="0933b-105">Bijvoorbeeld een malware- of schadelijke spamaanval in een on-premises e-mailorganisatie die uitgaande e-mail verzendt via Office 365 of gecompromitteerde Office 365-accounts.</span><span class="sxs-lookup"><span data-stu-id="0933b-105">For example, a malware or malicious spam attack in an on-premises email organization that sends outbound mail through Office 365, or compromised Office 365 accounts.</span></span> <span data-ttu-id="0933b-106">Deze scenario's kunnen ertoe leiden dat het IP-adres van de getroffen Office 365-datacenterservers wordt weergegeven op bloklijsten van derden.</span><span class="sxs-lookup"><span data-stu-id="0933b-106">These scenarios can result in the IP address of the affected Office 365 datacenter servers appearing on third-party block lists.</span></span> <span data-ttu-id="0933b-107">Bestemmingse-e-mailorganisaties die deze bloklijsten gebruiken, weigeren e-mail van deze berichtenbronnen.</span><span class="sxs-lookup"><span data-stu-id="0933b-107">Destination email organizations that use these block lists will reject email from those messages sources.</span></span>
 
-<span data-ttu-id="f08e4-115">De uitgaande groep met een hoog risico beheert de levering voor alle "bounced" of "failed" (DSN) berichten.</span><span class="sxs-lookup"><span data-stu-id="f08e4-115">The outbound high-risk delivery pool manages the delivery for all "bounced" or "failed" (DSN) messages.</span></span>
-  
-<span data-ttu-id="f08e4-116">Mogelijke oorzaken voor een piek in DSN-berichten zijn de volgende:</span><span class="sxs-lookup"><span data-stu-id="f08e4-116">Possible causes for a surge in DSN messages include the following:</span></span>
-  
-- <span data-ttu-id="f08e4-117">Een spoofing-campagne die van invloed is op een van de klanten die de service gebruiken</span><span class="sxs-lookup"><span data-stu-id="f08e4-117">A spoofing campaign affecting one of the customers using the service</span></span>
-    
-- <span data-ttu-id="f08e4-118">Een directory oogst aanval</span><span class="sxs-lookup"><span data-stu-id="f08e4-118">A directory harvest attack</span></span>
-    
-- <span data-ttu-id="f08e4-119">Een spamaanval</span><span class="sxs-lookup"><span data-stu-id="f08e4-119">A spam attack</span></span>
-    
-- <span data-ttu-id="f08e4-120">Een malafide SMTP-server</span><span class="sxs-lookup"><span data-stu-id="f08e4-120">A rogue SMTP server</span></span>
-    
-<span data-ttu-id="f08e4-121">Al deze problemen kunnen leiden tot een plotselinge toename van het aantal DSN-berichten dat door de service wordt verwerkt.</span><span class="sxs-lookup"><span data-stu-id="f08e4-121">All of these issues can result in a sudden increase in the number of DSN messages being processed by the service.</span></span> <span data-ttu-id="f08e4-122">Vaak lijken deze DSN-berichten spam te zijn voor andere e-mailservers en -services.</span><span class="sxs-lookup"><span data-stu-id="f08e4-122">Many times, these DSN messages appear to be spam to other email servers and services.</span></span>
-  
-## <a name="for-more-information"></a><span data-ttu-id="f08e4-123">Voor meer informatie</span><span class="sxs-lookup"><span data-stu-id="f08e4-123">For more information</span></span>
+<span data-ttu-id="0933b-108">Om dit te voorkomen, worden alle uitgaande berichten van Office 365-datacenterservers waarvan is vastgesteld dat ze spam zijn of die de verzendlimieten van [de service](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) of het [uitgaande spambeleid](configure-the-outbound-spam-policy.md) overschrijden, verzonden via de _groep voor levering met een hoog risico._</span><span class="sxs-lookup"><span data-stu-id="0933b-108">To prevent this, all outbound messages from Office 365 datacenter servers that's determined to be spam or that exceeds the sending limits of [the service](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) or [outbound spam policies](configure-the-outbound-spam-policy.md) are sent through the _high-risk delivery pool_.</span></span>
 
-[<span data-ttu-id="f08e4-124">Het uitgaande spambeleid configureren</span><span class="sxs-lookup"><span data-stu-id="f08e4-124">Configure the outbound spam policy</span></span>](configure-the-outbound-spam-policy.md)
-  
-[<span data-ttu-id="f08e4-125">Veelgestelde vragen over antispambescherming</span><span class="sxs-lookup"><span data-stu-id="f08e4-125">Anti-spam protection FAQ</span></span>](anti-spam-protection-faq.md)
-  
+<span data-ttu-id="0933b-109">De groep voor levering met een hoog risico is een secundaire IP-adresgroep voor uitgaande e-mail die alleen wordt gebruikt om berichten van "lage kwaliteit" te verzenden (bijvoorbeeld spam en [backscatter).](backscatter-messages-and-eop.md)</span><span class="sxs-lookup"><span data-stu-id="0933b-109">The high risk delivery pool is a secondary IP address pool for outbound email that's only used to send "low quality" messages (for example, spam and [backscatter](backscatter-messages-and-eop.md)).</span></span> <span data-ttu-id="0933b-110">Als u de groep voor levering met een hoog risico gebruikt, voorkomt u dat de normale IP-adresgroep voor uitgaande e-mail spam verzendt.</span><span class="sxs-lookup"><span data-stu-id="0933b-110">Using the high risk delivery pool helps prevent the normal IP address pool for outbound email from sending spam.</span></span> <span data-ttu-id="0933b-111">De normale IP-adresgroep voor uitgaande e-mail behoudt de reputatie die berichten van "hoge kwaliteit" verzendt, waardoor de kans kleiner is dat dit IP-adres op IP-bloklijsten wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="0933b-111">The normal IP address pool for outbound email maintains the reputation sending "high quality" messages, which reduces the likelihood that these IP address will appear on IP block lists.</span></span>
 
+<span data-ttu-id="0933b-112">De zeer reële mogelijkheid dat IP-adressen in de risicogroep worden geplaatst op IP-bloklijsten blijft bestaan, maar dit is door het ontwerp.</span><span class="sxs-lookup"><span data-stu-id="0933b-112">The very real possibility that IP addresses in the high-risk delivery pool will be placed on IP block lists remains, but this is by design.</span></span> <span data-ttu-id="0933b-113">Levering aan de beoogde ontvangers is niet gegarandeerd, omdat veel e-mailorganisaties geen berichten accepteren uit de groep voor levering met een hoog risico.</span><span class="sxs-lookup"><span data-stu-id="0933b-113">Delivery to the intended recipients isn't guaranteed, because many email organizations won't accept messages from the high risk delivery pool.</span></span>
+
+<span data-ttu-id="0933b-114">Zie [Uitgaande spam in Office 365](outbound-spam-controls.md)voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="0933b-114">For more information, see [Control outbound spam in Office 365](outbound-spam-controls.md).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="0933b-115">Berichten waarbij het brone-maildomein geen A-record heeft en geen MX-record die is gedefinieerd in openbare DNS, worden altijd door de groep met een hoog risico geleid, ongeacht hun spam of het verzenden van limietdispositie.</span><span class="sxs-lookup"><span data-stu-id="0933b-115">Messages where the source email domain has no A record and no MX record defined in public DNS are always routed through the high-risk delivery pool, regardless of their spam or sending limit disposition.</span></span>
+
+## <a name="bounce-messages"></a><span data-ttu-id="0933b-116">Bounceberichten</span><span class="sxs-lookup"><span data-stu-id="0933b-116">Bounce messages</span></span>
+
+<span data-ttu-id="0933b-117">De uitgaande delivery pool met hoog risico beheert de levering voor alle niet-leveringsrapporten (ook bekend als NDR's, bounceberichten, meldingen over de leveringsstatus of DSN's).</span><span class="sxs-lookup"><span data-stu-id="0933b-117">The outbound high-risk delivery pool manages the delivery for all non-delivery reports (also known as NDRs, bounce messages, delivery status notifications, or DSNs).</span></span>
+
+<span data-ttu-id="0933b-118">Mogelijke oorzaken voor een stijging van de NDR's zijn:</span><span class="sxs-lookup"><span data-stu-id="0933b-118">Possible causes for a surge in NDRs include:</span></span>
+
+- <span data-ttu-id="0933b-119">Een spoofing-campagne die van invloed is op een van de klanten die de service gebruiken.</span><span class="sxs-lookup"><span data-stu-id="0933b-119">A spoofing campaign that affects one of the customers using the service.</span></span>
+
+- <span data-ttu-id="0933b-120">Een directory oogst aanval.</span><span class="sxs-lookup"><span data-stu-id="0933b-120">A directory harvest attack.</span></span>
+
+- <span data-ttu-id="0933b-121">Een spamaanval.</span><span class="sxs-lookup"><span data-stu-id="0933b-121">A spam attack.</span></span>
+
+- <span data-ttu-id="0933b-122">Een malafide e-mailserver.</span><span class="sxs-lookup"><span data-stu-id="0933b-122">A rogue email server.</span></span>
+
+<span data-ttu-id="0933b-123">Al deze problemen kunnen resulteren in een plotselinge toename van het aantal NDR's dat door de service wordt verwerkt.</span><span class="sxs-lookup"><span data-stu-id="0933b-123">All of these issues can result in a sudden increase in the number of NDRs being processed by the service.</span></span> <span data-ttu-id="0933b-124">Vele malen, deze NDR's lijken te zijn spam naar andere e-mailservers en diensten (ook wel bekend als _[backscatter).](backscatter-messages-and-eop.md)_</span><span class="sxs-lookup"><span data-stu-id="0933b-124">Many times, these NDRs appear to be spam to other email servers and services (also known as _[backscatter](backscatter-messages-and-eop.md)_).</span></span>
