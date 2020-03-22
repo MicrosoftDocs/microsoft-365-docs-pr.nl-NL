@@ -1,8 +1,7 @@
 ---
 title: Beheer van Office 365-groepen plannen
 ms.reviewer: johasand
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -20,12 +19,12 @@ search.appverid:
 - MOE150
 - BSA160
 description: Meer informatie over het plannen van office 365-groepenbeheer.
-ms.openlocfilehash: b79da69995446aa7e61eea4d836e322743a7d2bb
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 2608f3803e13319a349e9a915392778b9793e847
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42806162"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894731"
 ---
 # <a name="plan-for-governance-in-office-365-groups"></a>Beheer voor beheer in Office 365 Groepen
 
@@ -38,24 +37,24 @@ We weten dat organisaties tegenwoordig een diverse toolset gebruiken. Er is het 
 
 Als gebruikers het gevoel hebben dat de door IT geleverde tools niet aan hun behoeften voldoen, zullen ze waarschijnlijk hun favoriete consumentenapp downloaden die hun scenario's ondersteunt. Hoewel dit proces gebruikers in staat stelt om snel aan de slag te gaan, leidt dit tot een frustrerende gebruikerservaring in de hele organisatie met meerdere aanmeldingen, moeite met delen en geen enkele plaats om inhoud te bekijken. Dit concept wordt "Shadow IT" genoemd en vormt een aanzienlijk risico voor organisaties. Het vermindert de mogelijkheid om gebruikerstoegang uniform te beheren, beveiliging en servicecompliance-behoeften te garanderen.
 
-Office 365-groepen stelt gebruikers in staat en vermindert het risico op schaduw-IT door in één stap veel van de tools te bieden die nodig zijn om samen te werken. Met Office 365-groepen u een groep mensen kiezen waarmee u wilt samenwerken en eenvoudig een verzameling bronnen instellen die deze mensen kunnen delen. Het handmatig toewijzen van machtigingen aan resources behoort tot het verleden, omdat het toevoegen van leden aan de Groep automatisch de benodigde machtigingen verleent aan alle activa die door de groep worden geleverd.
+Office 365-groepen stelt gebruikers in staat en vermindert het risico op schaduw-IT door in één stap veel van de tools te bieden die nodig zijn om samen te werken. Met Office 365-groepen u een groep mensen kiezen met wie u wilt samenwerken en eenvoudig een verzameling bronnen instellen die deze mensen kunnen delen. Het handmatig toewijzen van machtigingen aan resources behoort tot het verleden, omdat het toevoegen van leden aan de groep automatisch de benodigde machtigingen verleent aan alle assets die door de groep worden geleverd.
 
 ## <a name="technical-architecture"></a>Technische architectuur
 
-Er zijn drie belangrijke communicatiemodaliteiten die worden ondersteund door Office 365-groepen. Groepen kunnen worden gemaakt binnen deze ervaringen en worden gebruikt in de Office 365-suite:
-- [Outlook](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2): samenwerken via e-mail met een postvak IN-groep en agenda
-- [Microsoft Teams](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2): een permanente chatwerkruimte waar u informele, realtime gesprekken voeren rond verschillende onderwerpen, georganiseerd door specifieke subgroepen
-- [Yammer](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2): sociale ervaring voor samenwerking
+Er zijn drie belangrijke communicatiemethoden die worden ondersteund door Office 365-groepen. Groepen kunnen worden gemaakt binnen deze ervaringen en worden gebruikt in Office 365:
+- Outlook: samenwerken via e-mail met een postvak IN en agenda voor gedeelde groepen
+- Microsoft Teams: een werkruimte op basis van permanente chatwaar u informele, realtime gesprekken voeren rond verschillende onderwerpen, georganiseerd door specifieke subgroepen
+- Yammer: sociale ervaring voor samenwerking
 
 > [!NOTE]
-> Als u een nieuwe groep maakt via andere toepassingen voor teamwork - zoals SharePoint, Planner of Stream - wordt een groep gemaakt met een Outlook-communicatiemodaliteit met de mogelijkheid om verbinding te maken met Microsoft Teams.
+> Als u een nieuwe groep maakt via andere toepassingen voor teamwork - zoals SharePoint, Planner of Stream - wordt een groep gemaakt met een Postvak IN van Outlook en de mogelijkheid om verbinding te maken met Microsoft Teams.
 
 Afhankelijk van waar een groep wordt gemaakt, worden bepaalde resources automatisch ingericht, zoals:
-- [Postvak IN](https://support.office.com/article/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22) - Voor e-mailgesprekken tussen uw leden. Deze inbox heeft een e-mailadres en kan worden ingesteld om berichten te accepteren van mensen buiten de groep en zelfs buiten uw organisatie, net als een traditionele distributielijst.
+- [Postvak IN](https://support.office.com/article/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22) - Voor e-mailgesprekken tussen groepsleden. Deze inbox heeft een e-mailadres en kan worden ingesteld om berichten te accepteren van mensen buiten de groep en zelfs buiten uw organisatie, net als een traditionele distributielijst.
  - [Agenda](https://support.office.com/article/schedule-a-meeting-on-a-group-calendar-in-outlook-0cf1ad68-1034-4306-b367-d75e9818376a) : voor het plannen van afspraken met betrekking tot de groep
-- [SharePoint-teamsite](https://support.office.com/article/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) – een centrale opslagplaats voor informatie, koppelingen en inhoud met betrekking tot uw groep
+- [SharePoint-teamsite](https://support.office.com/article/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) – Een centrale opslagplaats voor informatie, koppelingen en inhoud met betrekking tot uw groep
 - [SharePoint-documentbibliotheek](https://support.office.com/article/share-group-files-749bc73b-90c9-4760-9b6f-9aa1cf01b403) : een centrale plek voor de groep om bestanden op te slaan en te delen
-- [OneNote-notitieblok](https://support.office.com/article/get-started-with-onenote-e768fafa-8f9b-4eac-8600-65aa10b2fe97) – voor het verzamelen van ideeën, onderzoek en informatie
+- [OneNote-notitieblok](https://support.office.com/article/get-started-with-onenote-e768fafa-8f9b-4eac-8600-65aa10b2fe97) – Voor het verzamelen van ideeën, onderzoek en informatie
 - [Planner](https://support.office.com/article/microsoft-planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) – Voor het toewijzen en beheren van projecttaken onder uw groepsleden
 - [Yammer-groep](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) – Een gemeenschappelijke plaats om gesprekken te voeren en informatie te delen
 - Microsoft Teams – Een werkruimte op basis van chatin Office 365
@@ -63,36 +62,31 @@ Afhankelijk van waar een groep wordt gemaakt, worden bepaalde resources automati
 Ga naar [Meer informatie over Office 365-groepen](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)voor meer informatie over welke resources voor elke groep worden gemaakt.
 
 > [!NOTE]
-> Wanneer een nieuwe Office 365-groep wordt gemaakt via Yammer of Teams, is de groep niet zichtbaar in Outlook of het adresboek omdat de primaire communicatie tussen deze gebruikers plaatsvindt in hun respectievelijke clients.
-
-> [!IMPORTANT]
-> Wanneer een nieuwe Yammer-groep wordt gemaakt, maakt de Office 365-groep geen groepspostvak of agendabron. Daarom kan een Yammer-groep niet worden verbonden met Microsoft Teams. [Bekijk Yammer en Groepen](https://docs.microsoft.com/yammer/manage-yammer-groups/yammer-and-office-365-groups)
+> Wanneer een nieuwe Office 365-groep wordt gemaakt via Yammer of Teams, is de groep niet zichtbaar in Outlook of het adresboek omdat de primaire communicatie tussen deze gebruikers plaatsvindt in hun respectievelijke clients. Yammer-groepen kunnen niet worden verbonden met Microsoft Teams.
 
 ## <a name="where-to-start-a-conversation"></a>Waar een gesprek te beginnen
 Er zijn meerdere plaatsen om een gesprek te voeren binnen Office 365. Als u begrijpt waar ze een gesprek moeten starten, kunnen organisaties een communicatiestrategie definiëren.
 
-![afbeelding desc](../../media/02.png)
+![afbeelding desc](../../media/03.png)
 
 - Teams: chat-based workspace (high velocity collaboration) – inner loop
    - Gebouwd voor samenwerking met de mensen met wie je elke dag werkt
   - Zet informatie binnen handbereik van gebruikers in één ervaring
   - Tabbladen, connectors en bots toevoegen
-  - Live chat, audio/video conferencing, opgenomen vergaderingen.
+  - Live chat, audio/video conferencing, opgenomen vergaderingen
 
 - Yammer: verbinding maken via de organisatie (sociaal ondernemen) – externe lus
-  - Practice - Cross-functionele groepen mensen die een gemeenschappelijk belang of expertise delen, maar niet noodzakelijkerwijs dagelijks samenwerken
+  - Praktijkgemeenschappen - Crossfunctionele groepen mensen die een gemeenschappelijk belang of expertise delen, maar niet noodzakelijkerwijs dagelijks samenwerken
   - Leiderschapsverbinding, leergemeenschappen, op rollen gebaseerde gemeenschappen
 
 - Outlook-groepen: moderne DL (e-mailgebaseerde samenwerking)
   - Alomtegenwoordig voor gerichte communicatie
-  - DLs upgraden naar Office 365-groepen : [waarom moet u upgraden?](https://support.office.com/article/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
+  - DLs upgraden naar Office 365-groepen : [Waarom moet u upgraden?](https://support.office.com/article/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
 
 - SharePoint – Core-ervaring met inhoud voor alle Office 365-groepen
   - Elke groep krijgt een verbonden SharePoint-teamsite
   - Inhoud delen, aangepaste pagina's maken en nieuws over auteurs
   - [Bestaande](https://docs.microsoft.com/sharepoint/dev/features/groupify/groupify-overview) SharePoint-teamsites koppelen aan nieuwe Office 365-groepen
-
-![afbeelding desc](../../media/03.png)
 
 ##  <a name="managing-and-governing-office-365-at-scale"></a>Office 365 beheren en beheren op schaal
 
@@ -108,8 +102,8 @@ Office 365-groepen hebben een uitgebreide set hulpprogramma's om alle beheermoge
 - [Traditionele samenwerkingstools upgraden](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance#upgrade-traditional-collaboration-tools)
 - [Groepsrapportage](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance#groups-reporting)
 
-### <a name="control-who-can-create-office-365-groups"></a>Bepalen wie Office 365-groepen kan maken
-Groepen kunnen worden gemaakt door eindgebruikers van meerdere eindpunten, waaronder Outlook, SharePoint, Microsoft Teams en andere omgevingen.
+### <a name="control-who-can-create-office-365-groups"></a><a name="control-who-can-create-office-365-groups"></a>Bepalen wie Office 365-groepen kan maken
+Groepen kunnen worden gemaakt door eindgebruikers van meerdere eindpunten, waaronder Outlook, SharePoint, Teams en andere omgevingen.
 
 ![afbeelding desc](../../media/04.png)
 > [!Tip]
@@ -117,9 +111,9 @@ Groepen kunnen worden gemaakt door eindgebruikers van meerdere eindpunten, waaro
 >- Documenteer en communiceer hoe u een groep aanvraagt.
 >- Bekijk opnieuw wie groepen kan maken tijdens uw cloudreis.
 >- Overweeg dynamisch lidmaatschap te gebruiken om de leden van de beveiligingsgroep te configureren om het maken van groepen te beheren.
->- Beoordeel welke groepen scenario's kunnen worden beheerd via een dynamisch lidmaatschap en laat selfservice voor de rest.
+>- Beoordeel welke groepen scenario's kunnen worden beheerd via een dynamisch lidmaatschap en laat self-service voor de rest.
 
-Er zijn drie primaire modellen van provisioning in groepen: Open, IT-led of Controlled. In de volgende tabel worden de voordelen van elk model beschreven.
+Er zijn drie primaire modellen van inrichting in groepen: open, IT-led, en gecontroleerd. In de volgende tabel worden de voordelen van elk model beschreven.
 
 | Model          | Voordelen                                                   |
 | -------------- | ------------------------------------------------------------ |
@@ -143,7 +137,7 @@ Uw organisatie heeft mogelijk specifieke vereisten om strenge controles uit te v
 - [De standaardinstelling van Office 365-groepen voor Outlook wijzigen in openbaar of privé](https://support.office.com/article/office-365-groups-in-outlook-private-by-default-36236e39-26d3-420b-b0ac-8072d2d2bedc)
 - [Beveiligingsgroepen synchroniseren met een teamlidmaatschap](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Syncing-Security-Groups-with-team-membership/ba-p/241959)
 
-### <a name="group-soft-delete-and-restore"></a>Zachte verwijderen en herstellen groeperen
+### <a name="group-soft-delete-and-restore"></a><a name="group-soft-delete-and-restore"></a>Zachte verwijderen en herstellen groeperen
 Als u een Office 365-groep hebt verwijderd, blijft deze standaard gedurende een periode van 30 dagen bewaard. Tijdens deze periode van 30 dagen kunt u de groep nog steeds herstellen. Na 30 dagen worden de groep en de bijbehorende inhoud definitief verwijderd en kunnen deze niet worden hersteld.
 
 > [!Tip]
@@ -164,7 +158,7 @@ Als u een Office 365-groep hebt verwijderd, blijft deze standaard gedurende een 
 - [Een verwijderde Office 365-groep herstellen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted)
 - [Delete groups using the Remove-UnifiedGroup cmdlet](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx) (Groepen verwijderen met de cmdlet Remove-UnifiedGroup)
 
-### <a name="group-naming-policy"></a>Groepsnaamgevingsbeleid
+### <a name="group-naming-policy"></a><a name="group-naming-policy"></a>Groepsnaamgevingsbeleid
 Met een naamgevingsbeleid kunnen u en uw gebruikers de functie van de groep, het lidmaatschap, de geografische regio of de groep identificeren. Het naamgevingsbeleid kan ook helpen bij het categoriseren van groepen in het adresboek. U het beleid gebruiken om te voorkomen dat specifieke woorden worden gebruikt in groepsnamen en aliassen.
 
 > [!Tip]
@@ -188,8 +182,8 @@ Met een naamgevingsbeleid kunnen u en uw gebruikers de functie van de groep, het
 - [Azure Active Directory-cmdlets voor het configureren van groepsinstellingen](https://go.microsoft.com/fwlink/?linkid=868341)
 - [Voorbeeld van functies voor groepsnaamgeving](https://portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/NamingPolicy)
 
-### <a name="group-expiration-policy"></a>Verloopbeleid voor groep
-Beheerders kunnen een vervaldatum opgeven en elke groep die het einde van die periode bereikt en niet wordt verlengd, wordt verwijderd. De vervaldatum begint wanneer de groep wordt gemaakt of op de datum waarop de groep voor het laatst is verlengd. Groepseigenaren ontvangen automatisch een e-mail vóór het verstrijken, zodat ze de groep opnieuw kunnen verlengen voor een ander verloopinterval.
+### <a name="group-expiration-policy"></a><a name="group-expiration-policy"></a>Verloopbeleid voor groep
+Beheerders kunnen een vervaldatum opgeven en elke groep die het einde van die periode bereikt en niet wordt verlengd, wordt verwijderd. De vervaldatum begint wanneer de groep wordt gemaakt of op de datum waarop de groep voor het laatst is verlengd. Groepseigenaren ontvangen automatisch een e-mail vóór het verstrijken, zodat ze de groep opnieuw kunnen verlengen voor een ander verloopinterval. Actieve groepen worden automatisch vernieuwd.
 
 Zodra u hebt ingesteld dat een groep verloopt:
 - Eigenaren van de groep worden op de hoogte gesteld om de groep te vernieuwen als de vervaldatum nadert
@@ -206,7 +200,7 @@ Zodra u hebt ingesteld dat een groep verloopt:
 
 |         |         |         |
 |---------|---------|---------|
-|![afbeelding desc](../../media/decision_point.png)|Beslissingspunten|<ul><li>Heeft uw organisatie een vervaldatum voor teams nodig?</li><li>De strategie bepalen voor het omgaan met weesgroepen?</li></ul>|
+|![afbeelding desc](../../media/decision_point.png)|Beslissingspunten|<ul><li>Heeft uw organisatie een vervaldatum voor teams nodig?</li><li>Bepaal de strategie voor het omgaan met weesgroepen.</li></ul>|
 |![afbeelding desc](../../media/next_steps.png)|Volgende stappen|<ul><li>Documenteer de vereisten van uw organisatie voor het verlopen, bewaren en archiveren van gegevens van uw organisatie.</li><li>Plan om deze vereisten te implementeren als onderdeel van de implementatie van uw groepen.</li><li>Plan om een aangepaste taak te implementeren om te rapporteren over groepen die afzonderlijke eigenaren hebben of zonder eigenaar zijn. </li></ul>|
 
 > [!Important]
@@ -216,7 +210,7 @@ Zodra u hebt ingesteld dat een groep verloopt:
 - [Verloopbeleid van een Office 365 Groep](https://support.office.com/article/Office-365-Group-Expiration-Policy-8d253fe5-0e09-4b3c-8b5e-f48def064733?ui=en-US&rs=en-US&ad=US)
 - [Het verloopbeleid voor Office 365-groepen configureren](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)
 
-### <a name="group-guest-access"></a>Toegang tot groepsgasten
+### <a name="group-guest-access"></a><a name="group-guest-access"></a>Toegang tot groepsgasten
 Beheerders kunnen bepalen of gasten toegang moeten krijgen tot Office 365-groepen voor hun hele organisatie of voor afzonderlijke Office 365-groepen. Ze kunnen ook bepalen wie gasten aan groepen kan toevoegen.
 >[!Tip]
 >- Gasttoegang inschakelen op tenantniveau. Blokkeer indien nodig voor specifieke groepen.
@@ -230,15 +224,14 @@ Beheerders kunnen bepalen of gasten toegang moeten krijgen tot Office 365-groepe
 
 
 #### <a name="resources"></a>*Resources*
+- [Samenwerken met mensen buiten uw organisatie](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 - [Gasttoegang beheren in Office 365-groepen](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups)
 - [Gasttoegang in Office 365-groepen](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)
-- [Gasttoegang in Office 365-groepen – Help voor beheerders](https://support.office.com/article/Guest-access-to-Office-365-groups-Admin-Help-7c713d74-a144-4eab-92e7-d50df526ff96)
 - [Azure AD-toegangsbeoordelingen](https://docs.microsoft.com/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
 - [Functie gebruiksvoorwaarden voor Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-tou)
 - [Google Federatie](https://docs.microsoft.com/azure/active-directory/b2b/google-federation)
-- [Gasttoegang in Microsoft Teams autoriseren](https://docs.microsoft.com/microsoftteams/teams-dependencies)
 
-### <a name="group-policies--information-protection"></a>Groepsbeleid & informatiebescherming
+### <a name="group-policies--information-protection"></a><a name="group-policies--information-protection"></a>Groepsbeleid & informatiebescherming
 Office 365-groepen zijn gebaseerd op de geavanceerde beveiligings- en nalevingsmogelijkheden van Office 365 en ondersteunen classificaties, controle en rapportage, zoeken naar nalevingsinhoud, e-discovery, juridische blokkering en bewaarbeleid.
 >[!Tip]
 >- Configureer classificatie, gebruiksrichtlijnen en labels die zijn afgestemd op de behoeften van uw organisatie.
@@ -248,8 +241,8 @@ Office 365-groepen zijn gebaseerd op de geavanceerde beveiligings- en nalevingsm
 
 |         |         |         |
 |---------|---------|---------|
-|![afbeelding desc](../../media/decision_point.png)|Beslissingspunten|<ul><li>Heeft uw organisatie specifieke gebruiksvereisten die aan alle gebruikers moeten worden gecommuniceerd?</li><li>Heeft uw organisatie de classificaties van alle inhoud nodig?</li><li>Vereist uw organisatie dat inhoud voor een bepaalde periode wordt bewaard?</li><li>Vereist uw organisatie dat specifieke beleid voor het bewaren van gegevens wordt gebruikt voor groepen?</li><li>Verwacht uw organisatie de mogelijkheid te vereisen om inactieve groepen te archiveren om de inhoud te bewaren?</li><li>Hebben groepsmakers de mogelijkheid nodig om organisatiespecifieke classificaties toe te wijzen aan teams?</li></ul>|
-|![afbeelding desc](../../media/next_steps.png)|Volgende stappen|<ul><li>De gebruiksrichtlijnen van uw organisatie voor groepen documenteren</li><li>Documenteer de vereisten van uw organisatie voor classificatie.</li><li>Bepaal het af te dwingen beleid op basis van de classificatie, bijvoorbeeld gevoeligheid, retentie, gasttoegang</li><li>Definieer de gevoeligheidslabels voor uw organisatie en welke beveiligingsinstellingen u wilt toevoegen.</li><li>Definieer een labelbeleid om te bepalen welke gebruikers en groepen deze labels zien.</li><li>Configureer het voorbeeld van het [gevoeligheidslabel Groepen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites) en begin met het classificeren van de groepen in uw organisatie.</li><li>Plan om deze vereisten te implementeren als onderdeel van de implementatie van uw groepen.</li></ul>|
+|![afbeelding desc](../../media/decision_point.png)|Beslissingspunten|<ul><li>Heeft uw organisatie specifieke gebruiksvereisten die aan alle gebruikers moeten worden gecommuniceerd?</li><li>Heeft uw organisatie de classificaties van alle inhoud nodig?</li><li>Vereist uw organisatie dat inhoud voor een bepaalde periode wordt bewaard?</li><li>Vereist uw organisatie dat er specifieke beleid voor het bewaren van gegevens wordt toegepast op groepen?</li><li>Verwacht uw organisatie de mogelijkheid te vereisen om inactieve groepen te archiveren om de inhoud te bewaren?</li><li>Hebben groepsmakers de mogelijkheid nodig om organisatiespecifieke classificaties toe te wijzen aan teams?</li></ul>|
+|![afbeelding desc](../../media/next_steps.png)|Volgende stappen|<ul><li>De gebruiksrichtlijnen van uw organisatie voor groepen documenteren</li><li>Documenteer de vereisten van uw organisatie voor classificatie.</li><li>Bepaal het af te dwingen beleid op basis van de classificatie, bijvoorbeeld gevoeligheid, retentie, gasttoegang.</li><li>Definieer de gevoeligheidslabels voor uw organisatie en welke beveiligingsinstellingen u wilt toevoegen.</li><li>Definieer een labelbeleid om te bepalen welke gebruikers en groepen deze labels zien.</li><li>Configureer het voorbeeld van het [gevoeligheidslabel Groepen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites) en begin met het classificeren van de groepen in uw organisatie.</li><li>Plan om deze vereisten te implementeren als onderdeel van de implementatie van uw groepen.</li></ul>|
 
 
 #### <a name="resources"></a>*Resources*
@@ -265,7 +258,7 @@ Office 365-groepen zijn gebaseerd op de geavanceerde beveiligings- en nalevingsm
 - [Een inhoudszoekopdracht uitvoeren in het Office 365-beveiligingscentrum & Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/content-search)
 - [Bulk maken en publiceren bewaarlabels met PowerShell](https://docs.microsoft.com/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 
-### <a name="upgrade-traditional-collaboration-tools"></a>Traditionele samenwerkingstools upgraden
+### <a name="upgrade-traditional-collaboration-tools"></a><a name="upgrade-traditional-collaboration-tools"></a>Traditionele samenwerkingstools upgraden
 Al jaren vertrouwen organisaties op distributiegroepen om te communiceren en samen te werken met groepen mensen, zowel binnen als buiten het bedrijf. Nu bieden Office 365-groepen in Outlook echter een krachtigere oplossing voor samenwerking. Bovendien is het belangrijk om een Office 365-groep te kunnen koppelen aan een bestaande SharePoint-site als u die site wilt moderniseren.
 
 >[!Tip]
@@ -274,20 +267,19 @@ Al jaren vertrouwen organisaties op distributiegroepen om te communiceren en sam
 
 |         |         |         |
 |---------|---------|---------|
-|![afbeelding desc](../../media/decision_point.png)|Beslissingspunten|<ul><li>Heeft uw organisatie distributielijsten die [niet in aanmerking komen](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists#how-do-i-check-which-dls-are-eligible-for-upgrade) voor een upgrade?<li>Bepalen naar welk type groep de distributielijst het best kan worden gemigreerd?</li></ul>|
+|![afbeelding desc](../../media/decision_point.png)|Beslissingspunten|<ul><li>Heeft uw organisatie distributielijsten die [niet in aanmerking komen](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists#how-do-i-check-which-dls-are-eligible-for-upgrade) voor een upgrade?<li>Bepaal naar welk type groep de distributielijst het best kan worden gemigreerd.</li></ul>|
 |![afbeelding desc](../../media/next_steps.png)|Volgende stappen|<ul><li>Bepaal welke distributielijsten kandidaten zouden zijn voor een upgrade naar Office 365-groepen.</li><li>Analyseer uw bestaande SharePoint-teamsites om te zien welke sites klaar zijn om met groepen te worden verbonden.</li><li>Laat andere teams in uw bedrijf weten dat u uw distributiegroep hebt geüpgraded en welke stappen u hebt genomen om deze succesvol te maken!</li></ul>|
 
 
 #### <a name="resources"></a>*Resources*
-- [Distributielijsten (DL) upgraden naar groepen in Outlook:](https://aka.ms/whyupgradedls)
-- [Waarom u uw DL moet upgraden naar groepen in Outlook](https://aka.ms/whyupgradedls)
-- Upgrade met één klik via Exchange-beheercentrum of via [PowerShell-scripts](https://support.office.com/article/Migrate-distribution-lists-to-Office-365-Groups-Admin-help-787d7a75-e201-46f3-a242-f698162ff09f?ui=en-US&rs=en-US&ad=US)
+- [Distributielijsten (DL) bijwerken naar groepen in Outlook](https://aka.ms/whyupgradedls)
+- Upgrade met één klik via Exchange-beheercentrum of via [PowerShell-scripts](https://support.office.com/article/787d7a75-e201-46f3-a242-f698162ff09f)
 - [Distributielijsten migreren naar Office 365-groepen - Help voor beheerders](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists)
 - [Bestaande SharePoint-sites verbinden met Office 365-groepen:](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group)
 - [De scannergegevens analyseren en gebruiken](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group-scanner)
 - [SharePoint-moderniseringsscanner](https://github.com/SharePoint/sp-dev-modernization/tree/master/Tools/SharePoint.Modernization) (een tool op GitHub)
 
-### <a name="groups-reporting"></a>Groepsrapportage
+### <a name="groups-reporting"></a><a name="groups-reporting"></a>Groepsrapportage
 Het dashboard Rapporten van Office 365 toont een overzicht van de activiteiten in alle Office 365-producten in uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product.
 > [!TIP]
 >- U de activiteitenrapporten Groepen gebruiken om inzicht te krijgen in de activiteiten van Office 365-groepen in uw organisatie en te zien hoeveel groepen worden gemaakt en gebruikt.
@@ -317,27 +309,27 @@ Het dashboard Rapporten van Office 365 toont een overzicht van de activiteiten i
 Office 365-groepen bieden een uitgebreide set beheermogelijkheden die uw organisatie mogelijk nodig heeft. Beschouw de volgende organisatieprofielen als richtlijnen om best practices te begrijpen, stel de juiste vragen om de vereisten voor governance te bepalen en hoe u daaraan voldoen.
 
 **Houd rekening met de volgende organisatieprofielen:**
-- Small Business
+- Kleine bedrijven
 - Middelgrote bedrijven
-- Gereguleerd of Enterprise
+- Gereguleerd of onderneming
 
 ### <a name="small-business"></a>Kleine bedrijven
 Overweeg een organisatie die Office 365 heeft geïmplementeerd met ten minste Exchange Online- en SharePoint Online-licenties die de business essentials- en Business Premium-abonnementen bevatten, en de Enterprise E1-, E3- en E5-abonnementen zonder Azure Active Director Premium Licentieverlening.
 
 | Fase | Beschrijving |
 | --------------- | ------------------------------------------------------------ |
-| Begeleiding |<ul><li>Overweeg een selfservice-inrichtingsmodel</li><li> Groepen in Outlook & SharePoint-sites zijn [standaard privé](https://techcommunity.microsoft.com/t5/Office-365-Groups/Groups-in-Outlook-and-Group-connected-team-sites-are-now-private/m-p/186395).</li><li> Groepen kunnen worden gemaakt door bestaande distributielijsten (DLs) één voor één of in bulk te upgraden via PowerShell. Zie [Distributielijsten voor upgrades naar Office 365-groepen](https://support.office.com/article/Upgrade-distribution-lists-to-Office-365-Groups-in-Outlook-787D7A75-E201-46F3-A242-F698162FF09F).</li><li> Gasttoegang inschakelen, maar regelen met het toestaan/blokkeren van gastdomeinen.</li><li> Gebruik groepsrapportage om inzicht te krijgen in hoe gebruikers groepen gebruiken.</li><li> Overweeg om een organisatiebreed team Microsoft Teams te maken als een manier voor iedereen om deel uit te maken van één team voor samenwerking. </li></ul>|
-| Volgende stappen      |<ul><li>Overweeg [siteontwerpen en sitescripts](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview) te gebruiken om het standaardontwerp te definiëren voor besturingselementen met behulp van de acties die zijn gedefinieerd in de [verwijzing naar JSON-schema.](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema)</li><li>Rapportage [van groepen bekijken](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40)</li><li>Totaalgroepen en inactieve/actieve groepen bijhouden</li><li>Zowel Exchange- als SharePoint-opslag bijhouden</li><li>Groepsactiviteit weergeven voor groepspostvakgesprekken, groepssite-/bestandenactiviteit, enz.</li></ul> |
+| Begeleiding |<ul><li>Overweeg een selfservice-inrichtingsmodel.</li><li> Groepen in Outlook & SharePoint-sites zijn [standaard privé](https://techcommunity.microsoft.com/t5/Office-365-Groups/Groups-in-Outlook-and-Group-connected-team-sites-are-now-private/m-p/186395).</li><li> Groepen kunnen worden gemaakt door bestaande distributielijsten (DLs) één voor één of in bulk te upgraden via PowerShell. Zie [Distributielijsten voor upgrades naar Office 365-groepen](https://support.office.com/article/Upgrade-distribution-lists-to-Office-365-Groups-in-Outlook-787D7A75-E201-46F3-A242-F698162FF09F).</li><li> Gasttoegang inschakelen, maar regelen met het toestaan/blokkeren van gastdomeinen.</li><li> Gebruik groepsrapportage om inzicht te krijgen in hoe gebruikers groepen gebruiken.</li><li> Overweeg om een organisatiebreed Microsoft Teams-team te maken als een manier voor iedereen om deel uit te maken van één team voor samenwerking. </li></ul>|
+| Volgende stappen      |<ul><li>Overweeg [siteontwerpen en sitescripts](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview) te gebruiken om het standaardontwerp te definiëren voor besturingselementen met behulp van de acties die zijn gedefinieerd in de [verwijzing naar JSON-schema.](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema)</li><li>Rapportage [van groepen bekijken](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40).</li><li>Totale groepen en inactieve/actieve groepen bijhouden.</li><li>Houd zowel Exchange- als SharePoint-opslag bij.</li><li>Groepsactiviteit weergeven voor groepspostvakgesprekken, groepssite-/bestandenactiviteit, enz.</li></ul> |
 
 ### <a name="medium-sized-business"></a>Middelgrote bedrijven
 Naast de bovenstaande aanbevelingen wordt rekening gehouden met het volgende voor middelgrote bedrijven die Office 365 hebben geïmplementeerd met ten minste een Enterprise E3/E5 met Azure Active Directory Premium P1-licenties.
 
 | Fase | Beschrijving |
 | --------------- | ------------------------------------------------------------ |
-| Begeleiding |<ul><li>Kies over een open of IT-led inrichtingsmodel.</li><li> Overweeg om bepaalde groepen te maken die zijn gekoppeld aan [dynamische lidmaatschapsregels](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) op basis van Azure AD-kenmerken zoals Afdeling</li><li> Definieer classificaties binnen uw organisatie, bijvoorbeeld Highly Confidential, Confidential (default), General.</li><li>  Definieer het beleid op basis van classificatie, zoals retentie en gevoeligheid.</li><li> SharePoint is de inhoudsservice voor elke Office 365-groep. Overweeg [sharepoint online-sites te](https://docs.microsoft.com/office365/enterprise/deploy-sharepoint-online-sites-for-three-tiers-of-protection) ontwerpen en te implementeren voor drie beveiligingsniveaus (basislijn, gevoelig en zeer vertrouwelijk). Zie [Beveiligde SharePoint Online-sites en -bestanden voor](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files)meer informatie over deze drie beschermingsniveaus.</li><li> Zowel openbare als particuliere groepen worden standaard in de GAL vermeld. Bepaal welke groepen u wilt weergeven in de GAL-specifieke groepen die buiten Microsoft Teams zijn gemaakt.  Gebruik de cmdlet 'HiddenFromAddressListsEnabled' of 'HidefromExchangeClients' van de [set-UnifiedGroup](https://technet.microsoft.com/library/mt238274(v=exchg.160).aspx) om specifieke groepen te verbergen </li></ul> |
+| Begeleiding |<ul><li>Kies over een open of IT-led inrichtingsmodel.</li><li> Overweeg om bepaalde groepen te maken die zijn gekoppeld aan [dynamische lidmaatschapsregels](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) op basis van Azure AD-kenmerken zoals Afdeling</li><li> Definieer classificaties binnen uw organisatie, bijvoorbeeld Highly Confidential, Confidential (default), General.</li><li>  Definieer het beleid op basis van classificatie, zoals retentie en gevoeligheid.</li><li> SharePoint is de inhoudsservice voor elke Office 365-groep. Overweeg [sharepoint online-sites te](https://docs.microsoft.com/office365/enterprise/deploy-sharepoint-online-sites-for-three-tiers-of-protection) ontwerpen en te implementeren voor drie beveiligingsniveaus (basislijn, gevoelig en zeer vertrouwelijk). Zie [Beveiligde SharePoint Online-sites en -bestanden voor](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files)meer informatie over deze drie beschermingsniveaus.</li><li> Zowel openbare als particuliere groepen worden standaard in de GAL vermeld. Bepaal welke groepen u wilt weergeven in de GAL-specifieke groepen die buiten Microsoft Teams zijn gemaakt.  Gebruik de cmdlet 'HiddenFromAddressListsEnabled' of 'HidefromExchangeClients' van de [Set-UnifiedGroup](https://technet.microsoft.com/library/mt238274(v=exchg.160).aspx) om specifieke groepen te verbergen.</li></ul> |
 | Volgende stappen      |<ul><li>Definieer [gebruiksrichtlijnen](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets) om uw gebruikers te informeren over aanbevolen procedures die hun groepen effectief houden en hen te informeren over intern inhoudsbeleid. Bijvoorbeeld het begrijpen van classificaties, beleid en procedures. </li><li>Definieer de levenscyclusperiode van groepen die moeten worden verlengd of worden verwijderd - vervaldatumbeleid.</li><li>Overweeg de volgende aangepaste taken te maken om beleid te implementeren op basis van classificaties.</li><li>Stel Privacy in op Privé.</li><li>Extern lidmaatschap/delen uitschakelen. </li><li>E-mails om groepsleden op de hoogte te stellen van groepen [zonder eigenaar.](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)</li><li>Eigendomsbeleid afdwingen (min. 2 eigenaren).</li><li> Bewaarbeleid voor groepen definiëren op basis van classificatie. </li><li>Overzicht van bewaarbeleid.</li><li>Powershell gebruiken om groepen te identificeren met een classificatie- en [setretentiecompliancebeleid](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancepolicy?view=exchange-ps).</li><li>Overweeg siteontwerpen en sitescripts te gebruiken om de besturingselementen te definiëren met behulp van de acties die zijn gedefinieerd in de [verwijzing naar json-schema.](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema)</li><li>Overweeg [een eenvoudige sitemap te](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-trigger-flow-tutorial) maken met behulp van een siteontwerp en Microsoft Flow. Wanneer een site wordt gemaakt met behulp van deze site ontwerp, details van de site worden vastgelegd en geschreven naar een lijst. </li></ul>|
 
-### <a name="regulated-or-enterprise"></a>Gereguleerd of Enterprise
+### <a name="regulated-or-enterprise"></a>Gereguleerd of onderneming
 Naast de bovenstaande aanbevelingen wordt rekening gehouden met het volgende voor sterk gereguleerde of grote ondernemingen zoals overheids-, financiële services of gezondheidszorg die Office 365 heeft geïmplementeerd met ten minste een Enterprise E3/E5 met Azure Active Directory Premium P1/P2-licenties.
 
 | Fase | Beschrijving |

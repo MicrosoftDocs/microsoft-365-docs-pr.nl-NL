@@ -16,12 +16,12 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: 'De invoegtoepassing Microsoft Voor het melden van ongewenste e-mail voor Microsoft Office Outlook biedt verschillende manieren om ongewenste e-mailberichten te melden:'
-ms.openlocfilehash: 3f8d07a2499fa3c8690393aa444e018b83c632b1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b1ed918e4b954cc7b2d79e52abd6f58a99eda0f0
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42806305"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895177"
 ---
 # <a name="report-junk-email-messages-to-microsoft"></a>Ongewenste e-mailberichten melden aan Microsoft
 
@@ -33,7 +33,7 @@ De invoegtoepassing Microsoft Voor het melden van ongewenste e-mail voor Microso
 
 - Vanuit een geopend e-mailbericht
 
-Met de invoegtoepassing Voor het melden voor ongewenste e-mailrapportage u rapporten indienen bij de EOP-service (Microsoft Exchange Online Protection). Als uw postvak niet door de service wordt beschermd, heeft het indienen van uw ongewenste e-mailrapport geen invloed op uw spamfilters. Beheerders kunnen meer te weten komen over spam-instellingen die van toepassing zijn op een hele organisatie bij [Hoe te voorkomen dat goede e-mail wordt gemarkeerd als spam in Office 365](prevent-email-from-being-marked-as-spam.md) of Hoe [spam-e-mail in Office 365 te verminderen.](reduce-spam-email.md) Deze zijn handig als u controle op administratorniveau hebt en u valse positieven of valse negatieven wilt voorkomen.
+Met de invoegtoepassing Voor het melden voor ongewenste e-mailrapportage u rapporten indienen bij de EOP-service (Microsoft Exchange Online Protection). Als uw postvak niet door de service wordt beschermd, heeft het indienen van uw ongewenste e-mailrapport geen invloed op uw spamfilters. Beheerders kunnen meer informatie krijgen over spam-instellingen die van toepassing zijn op een hele organisatie bij [Lijsten met veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md) en [Lijsten met geblokkeerde afzenders maken in Office 365](create-block-sender-lists-in-office-365.md). Deze zijn handig als u controle op administratorniveau hebt en u valse positieven of valse negatieven wilt voorkomen.
 
 > [!TIP]
 > U ook spamberichten rechtstreeks naar Microsoft verzenden met behulp van het [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) e-mailadres en fout-positieve (niet-spam)berichten met behulp van het [not_junk@office365.microsoft.com](mailto:not_junk@office365.microsoft.com) e-mailadres. Zie [Spam, niet-spam en phishing-scamberichten verzenden voor analyse voor](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)meer informatie.
@@ -68,13 +68,3 @@ De geselecteerde berichten worden naar Microsoft verzonden voor analyse en verpl
     > Als u dit bevestigingsbericht niet wilt ontvangen bij het verzenden van ongewenste berichten, schakelt u **Dit bericht niet meer weergeven in.**
 
 Het geselecteerde bericht wordt naar Microsoft verzonden voor analyse en verplaatst naar de map Ongewenste e-mail. Als u wilt bevestigen dat het bericht is verzonden, opent u de map **Verzonden items** om het ingediende bericht weer te geven.
-
-## <a name="for-more-information"></a>Voor meer informatie
-
-[De invoegtoepassing Rapportbericht inschakelen](enable-the-report-message-add-in.md)
-
-[Informatie over probleemoplossing en ondersteuning](troubleshooting-and-support-information.md)
-
-[Voorkomen dat goede e-mail wordt gemarkeerd als spam in Office 365](prevent-email-from-being-marked-as-spam.md)
-
-[Spam-e-mail verminderen in Office 365](reduce-spam-email.md)

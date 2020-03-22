@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Wat zijn best practices voor Exchange Online Protection (EOP) en Advanced Threat Protection (ATP) beveiligingsinstellingen? Wat zijn de huidige aanbevelingen voor standaardbescherming? Wat moet worden gebruikt als u strenger wilt zijn? En welke extra's krijg je als je ook gebruik maakt van Advanced Threat Protection (ATP)?
-ms.openlocfilehash: b7c98fe4b362a5be72be9e103a2602cd4954e028
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b68c10eccfdacd7782f402b5712a808ff278254d
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42810450"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895225"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Aanbevolen instellingen voor EOP- en Office 365 ATP-beveiliging
 
@@ -30,7 +30,7 @@ ms.locfileid: "42810450"
 Hoewel we beveiligingsbeheerders in staat stellen hun beveiligingsinstellingen aan te passen, zijn er twee beveiligingsniveaus in EOP en Office 365 ATP die we aanbevelen: **Standaard** en **Strikt.** De omgeving en behoeften van elke klant zijn verschillend, maar we zijn van mening dat deze niveaus van e-mailfilteringconfiguraties zullen helpen voorkomen dat ongewenste e-mail in de meeste situaties de inbox van uw werknemers bereikt.
 
 > [!IMPORTANT]
-> De configuratie van ongewenste e-mail moet op het postvak worden ingeschakeld om te kunnen filteren om goed te kunnen filteren. Dit is standaard ingeschakeld, maar moet worden gecontroleerd als het filteren niet lijkt te werken. Lees [Set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration) voor meer informatie. 
+> De regel voor ongewenste e-mail moet in een postvak worden ingeschakeld om te kunnen filteren om goed te kunnen filteren. Het is standaard ingeschakeld, maar u moet controleren of het filteren niet lijkt te werken. Zie [Instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md)voor meer informatie.
 
 In dit onderwerp worden deze door Microsoft aanbevolen instellingen beschreven om uw Office 365-gebruikers te beschermen.
 
@@ -43,64 +43,80 @@ Anti-spam, anti-malware en anti-phishing zijn functies van EOP die door beheerde
 
 ### <a name="eop-anti-spam-policy-settings"></a>EOP-beleidsinstellingen voor spam
 
-|Naam beveiligingsfunctie|Standaard|Strikte|Opmerking|
-|---------|---------|---------|---------|
-|Spamdetectieactie|Bericht verplaatsen naar map Ongewenste e-mail|Quarantainebericht||
-|Actie voor spamdetectie met hoog vertrouwen|Quarantainebericht|Quarantainebericht||
-|Actie voor detectie van phishing-e-mail|Quarantainebericht|Quarantainebericht||
-|Hoog vertrouwen Phish e-mail detectie actie|Quarantainebericht|Quarantainebericht||
-|Actie voor detectie van bulke-mail|Bericht verplaatsen naar map Ongewenste e-mail|Quarantainebericht||
-|Bulk-e-maildrempel instellen op|6|4|De standaardwaarde is momenteel 7, maar we raden u aan deze te wijzigen in 6. Zie Waarden [bulkklachtenniveau](bulk-complaint-level-values.md)voor meer informatie .|
-|Bewaartermijn quarantaine|30 dagen|30 dagen||
-|Veiligheidstips|Op|Op||
-|Toegestane afzenders|Geen|Geen||
-|Toegestane afzendersdomeinen|Geen|Geen|Het is niet vereist om domeinen die u bezit (ook wel _geaccepteerde domeinen_genoemd) toe te voegen aan de lijst met toegestane afzenders. In feite wordt het beschouwd als een hoog risico, omdat het kansen creëert voor slechte acteurs om u e-mail te sturen die anders zou worden gefilterd. Gebruik [spoofinformatie](learn-about-spoof-intelligence.md) in het Security & Compliance Center op de pagina **Anti-spam-instellingen** om alle afzenders te controleren die domeinen spoofen die deel uitmaken van uw organisatie of externe domeinen spoofen.|
-|Geblokkeerde afzenders|Geen|Geen||
-|Geblokkeerde domeinen afzenders|Geen|Geen||
-|Frequentie van de melding van spam voor eindgebruikers|Ingeschakeld|Ingeschakeld|3 dagen|
-|Zero Hour automatische zuivering|Op|Op|Voor zowel Spam als Phish ZAP|
-|MarkasspamBulkMail|Op|Op|Deze instelling is alleen beschikbaar in PowerShell|
+Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md)voor het maken en configureren van antispambeleid.
 
-Er zijn verschillende andere parameters in het antispambeleid genaamd Advanced Spam filter (AsF) die in het proces van afgeschaft zijn. Meer informatie over de tijdlijnen voor de afschrijving van deze functies zal worden meegedeeld buiten dit onderwerp.
+|||||
+|---|---|---|---|
+|**Naam beveiligingsfunctie**|**Standaard**|**Strikte**|**Opmerking**|
+|**Spamdetectieactie** <br/><br/> _SpamActie_|**Bericht verplaatsen naar map Ongewenste e-mail** <br/><br/> `MoveToJmf`|**Quarantainebericht** <br/><br/> `Quarantine`||
+|**Actie voor spamdetectie** met hoog vertrouwen <br/><br/> _HighConfidenceSpamAction_|**Quarantainebericht** <br/><br/> `Quarantine`|**Quarantainebericht** <br/><br/> `Quarantine`||
+|Actie voor detectie van **phishing-e-mail** <br/><br/> _PhishSpamAction PhishSpamActie_|**Quarantainebericht** <br/><br/> `Quarantine`|**Quarantainebericht** <br/><br/> `Quarantine`||
+|**Hoog vertrouwen phishing e-mail** detectie actie <br/><br/> _HighConfidencePhishActie_|**Quarantainebericht** <br/><br/> `Quarantine`|**Quarantainebericht** <br/><br/> `Quarantine`||
+|Actie voor detectie van **bulke-mail** <br/><br/> _BulkSpamActie_|**Bericht verplaatsen naar map Ongewenste e-mail** <br/><br/> `MoveToJmf`|**Quarantainebericht** <br/><br/> `Quarantine`||
+|Drempelwaarde voor bulke-mail <br/><br/> _Bulkdrempel_|6|4|De standaardwaarde is momenteel 7, maar we raden u aan deze te wijzigen in 6. Zie [Bulkklachtenniveau (BCL) in Office 365 voor](bulk-complaint-level-values.md)meer informatie.|
+|Bewaartermijn quarantaine <br/><br/> _QuarantaineBewaarperiode_|30 dagen|30 dagen||
+|**Veiligheidstips** <br/><br/> _InlineSafetyTipsIngeschakeld_|Op <br/><br/> `$true`|Op <br/><br/> `$true`||
+|Toegestane afzenders <br/><br/> _Toegestane afzenders_|Geen|Geen||
+|Toegestane afzenderdomeinen <br/><br/> _Toegestane SenderDomains_|Geen|Geen|Het is niet vereist om domeinen die u bezit (ook wel _geaccepteerde domeinen_genoemd) toe te voegen aan de lijst met toegestane afzenders. In feite wordt het beschouwd als een hoog risico, omdat het kansen creëert voor slechte acteurs om u e-mail te sturen die anders zou worden gefilterd. Gebruik [spoofinformatie](learn-about-spoof-intelligence.md) in het Security & Compliance Center op de pagina **Anti-spam-instellingen** om alle afzenders te controleren die domeinen spoofen die deel uitmaken van uw organisatie of externe domeinen spoofen.|
+|Geblokkeerde afzenders <br/><br/> _Geblokkeerde afzenders_|Geen|Geen||
+|Geblokkeerde afzenderdomeinen <br/><br/> _Geblokkeerde senderdomeinen_|Geen|Geen||
+|**Spammeldingen van eindgebruikers inschakelen** <br/><br/> _EndUserSpammeldingen inschakelen_|Ingeschakeld <br/><br/> `$true`|Ingeschakeld <br/><br/> `$true`||
+|**Elke (dag) spammeldingen van eindgebruikers verzenden** <br/><br/> _Frequentie van de gebruikerspammelding_|3 dagen|3 dagen||
+|**Spam ZAP** <br/><br/> _SpamZapEnabled SpamZapEnabled_|Ingeschakeld <br/><br/> `$true`|Ingeschakeld <br/><br/> `$true`||
+|**Phish ZAP** <br/><br/> _PhishZapEnabled PhishZapEnabled_|Ingeschakeld <br/><br/> `$true`|Ingeschakeld <br/><br/> `$true`||
+|_MarkasspamBulkMail_|Op|Op|Deze instelling is alleen beschikbaar in PowerShell.|
+|
 
-We raden u aan deze instellingen **uit te** schakelen voor zowel standaard- als strikte niveaus:
+Er zijn verschillende andere Advanced Spam Filter (AsF) instellingen in anti-spam beleid die in het proces van worden afgeschaft. Meer informatie over de tijdlijnen voor de afschrijving van deze functies zal worden meegedeeld buiten dit onderwerp.
 
-|Naam beveiligingsfunctie|Opmerkingen|
-|---------|---------|
-|VerhogingScoreWithImageLinks||
-|IncreaseScorewithNumericIps||
-|VerhogingScoreWithRedirecttoOtherPort||
-|IncreaseScoreWithBizOrInfoUrls||
-|MarkAsSpamEmptyMessages||
-|MarkasspamJavaScriptinhtml||
-|Markasspamframesinhtml||
-|Markasspamobjecttagsinhtml||
-|Markasspamembedtagsinhtml||
-|Markasspamformtagsinhtml||
-|MarkasspamWebbugsinhtml||
-|MarkasspamSensitiveWordList||
-|MarkasspamfromAddressAuthFail||
-|MarkAsSpamNdrBackscatter MarkAsSpamNdrBackscatter||
-|MarkasspamSpfRecordHardFail||
+We raden u aan deze ASF-instellingen **uit te** schakelen voor zowel **standaard-** als **strikte** niveaus. Zie Instellingen voor [Geavanceerd spamfilter (Asf) in Office 365](advanced-spam-filtering-asf-options.md)voor meer informatie over asf-instellingen.
 
-#### <a name="eop-outbound-spam-filter-policy-settings"></a>Beleidsinstellingen voor eOP-uitgaande spamfilters
+|||
+|----|---|
+|**Naam beveiligingsfunctie**|**Opmerkingen**|
+|**Afbeeldingskoppelingen naar externe sites** _(IncreaseScoreWithImageLinks)_||
+|**Numeriek IP-adres in URL** _(IncreaseScoreWithNumericIps)_||
+|**UL omleiden naar andere poort** _(IncreaseScoreWithRedirectToOtherPort)_||
+|**URL naar .biz of .info websites** _(IncreaseScoreWithBizOrInfoUrls)_||
+|**Lege berichten** _(MarkAsSpamEmptyMessages)_||
+|**JavaScript of VBScript in HTML** _(MarkAsSpamJavaScriptInHtml)_||
+|**Frame- of IFrame-tags in HTML** _(MarkAsSpamFramesInHtml)_||
+|**Objecttags in HTML** _(MarkAsSpamObjectTagsInHtml)_||
+|**Tags insluiten in HTML** _(MarkAsSpamEmbedTagsInHtml)_||
+|**Formuliertags in HTML** _(MarkAsSpamFormTagsInHtml_)||
+|**Webbugs in HTML** _(MarkAsSpamWebBugsInHtml)_||
+|**Gevoelige woordenlijst toepassen** (_MarkAsSpamSensitiveWordList_)||
+|**SPF record: hard fail** _(MarkAsSpamSpfRecordHardFail)_||
+|**Voorwaardelijke sender ID filtering: hard fail** _(MarkAsSpamFromAddressAuthFail)_||
+|**NDR backscatter** (_MarkAsSpamNdrBackscatter_)||
+|
 
-|Naam beveiligingsfunctie|Standaard|Strikte|Opmerking|
-|---------|---------|---------|---------|
-|Limieten voor uitgaande spammeldingen - Externe uurlimiet|500|400||
-|Limieten voor uitgaande spam -Ontvangers van uitgaande spam - Interne uurlimiet|1000|800||
-|Limieten voor uitgaande spammeldingen ontvangen ontvangers - dagelijkse limiet|1000|800||
-|Actie wanneer een gebruiker de limieten overschrijdt|De gebruiker beperken om e-mail te verzenden|De gebruiker beperken om e-mail te verzenden||
+#### <a name="eop-outbound-spam-policy-settings"></a>Instellingen voor eOP-uitgaand spambeleid
+
+Zie [Uitgaand spamfiltering configureren in Office 365](configure-the-outbound-spam-policy.md)voor het maken en configureren van uitgaande spambeleid.
+
+||||
+|---|---|---|---|
+|**Naam beveiligingsfunctie**|**Standaard**|**Strikte**|**Opmerking**|
+|**Maximum aantal ontvangers per gebruiker: externe uurlimiet** <br/><br/> _RecipientLimitExternalPerhour_|500|400||
+|**Maximum aantal ontvangers per gebruiker: interne uurlimiet** <br/><br/> _RecipientLimitInternalPerHour_|1000|800||
+|**Maximum aantal ontvangers per gebruiker: dagelijkse limiet** <br/><br/> _RecipientLimitperday_|1000|800||
+|**Actie wanneer een gebruiker de limieten overschrijdt** <br/><br/> _ActionWhenThresholdReached_|**De gebruiker beperken om e-mail te verzenden** <br/><br/> `BlockUser`|**De gebruiker beperken om e-mail te verzenden** <br/><br/> `BlockUser`||
+|
 
 ### <a name="eop-anti-malware-policy-settings"></a>EOP anti-malware beleidsinstellingen
 
-|Naam beveiligingsfunctie|Standaard|Strikte|Opmerking|
-|---------|---------|---------|---------|
-|Reactie op malwaredetectie|Nee|Nee|Als er malware wordt gedetecteerd in een e-mailbijlage, wordt het bericht in quarantaine geplaatst en kan het alleen door een beheerder worden vrijgegeven.|
-|Filter 'Common Attachment Types' voor het blokkeren van verdachte bestandstypen|Op|Op||
-|Malware Zero-hour Auto Purge|Op|Op||
-|Interne afzenders op de hoogte stellen van het niet-afgeleverde bericht|Handicap|Handicap||
-|Externe afzenders op de hoogte stellen van het niet-afgeleverde bericht|Handicap|Handicap||
+Zie [Beleid voor antimalware configureren in Office 365](configure-anti-malware-policies.md)als u anti-malwarebeleid wilt maken en configureren.
+
+|||||
+|---|---|---|---|
+|**Naam beveiligingsfunctie**|**Standaard**|**Strikte**|**Opmerking**|
+|**Wilt u ontvangers op de hoogte stellen als hun berichten in quarantaine zijn geplaatst?** <br/><br/> _Actie_|Nee <br/><br/> _Bericht verwijderen_|Nee <br/><br/> _Bericht verwijderen_|Als er malware wordt gedetecteerd in een e-mailbijlage, wordt het bericht in quarantaine geplaatst en kan het alleen door een beheerder worden vrijgegeven.|
+|**Common Attachment Types Filter** <br/><br/> _Bestandfilter inschakelen_|Op <br/><br/> `$true`|Op <br/><br/> `$true`|Met deze instelling worden berichten in quarantaine geplaatst die uitvoerbare bijlagen bevatten op basis van het bestandstype, ongeacht de inhoud van de bijlage.|
+|**Malware Zero-hour Auto Purge** <br/><br/> _ZapEnabled ZapEnabled_|Op <br/><br/> `$true`|Op <br/><br/> `$true`||
+|**Interne afzenders op** de hoogte stellen van het niet-afgeleverde bericht <br/><br/> _InternalSenderMeldingen inschakelen_|Handicap <br/><br/> `$false`|Handicap <br/><br/> `$false`||
+|**Externe afzenders op** de hoogte stellen van het niet-afgeleverde bericht <br/><br/> _Extern verzondenmeldingen inschakelen_|Handicap <br/><br/> `$false`|Handicap <br/><br/> `$false`||
+|
 
 ### <a name="eop-anti-phishing-policy-settings"></a>EOP-beleidsinstellingen tegen phishing
 

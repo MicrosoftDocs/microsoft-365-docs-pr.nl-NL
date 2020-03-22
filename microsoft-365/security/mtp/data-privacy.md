@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b715cd2dcbc41e2aa5a4ae829677dfe250394346
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 04e60128512d5e9b65a06e158efa95228a53619a
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42805493"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894262"
 ---
 # <a name="microsoft-threat-protection-data-security-and-privacy"></a>Gegevensbeveiliging en privacy van Microsoft Threat Protection
 
@@ -33,12 +33,9 @@ ms.locfileid: "42805493"
 
 
 
-Met het voorbeeld van Microsoft Threat Protection stemt u in met de volgende voorwaarden:
+Door de Microsoft Threat Protection te gebruiken, stemt u in met de volgende voorwaarden:
 
-Uw toepasselijke klantgegevens (zoals gedefinieerd in de Online Service Voorwaarden ("OST")) worden overgedragen van andere Microsoft-services naar Microsoft Threat Protection en van Microsoft Threat Protection terug naar toepasselijke Microsoft-services. Voor de duur van deze preview volgt het gebruik van uw klantgegevens in Microsoft Threat Protection de normen en toezeggingen voor gegevensverwerking voor Microsoft Defender Advanced Threat Protection (Microsoft Defender ATP). U erkent dat dergelijke toezeggingen kunnen verschillen van de services van die klantgegevens die worden overgedragen. Bovendien worden klantgegevens die zijn opgeslagen in Microsoft Threat Protection in rust opgeslagen in de Geo die u hebt geselecteerd voor opslag van uw Microsoft Defender ATP-klantgegevens, die kunnen verschillen van de Geo die u hebt geselecteerd in verband met andere services. Microsoft zal de klantgegevens niet buiten een dergelijke geo overdragen, behalve zoals vermeld in het gedeelte 'Gegevenslocatie' van het Microsoft Trust Center in [het Microsoft Trust Center.](https://www.microsoft.com/trust-center)
-
-Terwijl u bepaalt welke van uw gebruikers toegang heeft tot Microsoft Threat Protection, staat Microsoft Threat Protection momenteel geen toegangsbeheer op basis van rollen toe ('RBAC'). U erkent dat voor zover Microsoft Threat Protection gegevens ontvangt van een Microsoft-service die RBAC ondersteunt, toegangsniveaus in die service niet van toepassing zijn in Microsoft Threat Protection.
-
+Door Microsoft Threat Protection (MTP) in te schakelen, stemt u in met de volgende voorwaarden. Uw toepasselijke klantgegevens zoals gedefinieerd in de Online Service Terms (OST) worden overgedragen van andere Microsoft-services naar MTP. Het gebruik van uw klantgegevens in MTP volgt de normen en toezeggingen voor gegevensverwerking voor Microsoft Defender Advanced Threat Protection (Microsoft Defender ATP). U erkent dat dergelijke toezeggingen kunnen verschillen van de services van die klantgegevens die worden overgedragen. Verder worden klantgegevens die in MTP zijn opgeslagen, in rust opgeslagen in de Geo die u hebt geselecteerd voor de opslag van uw MDATP-klantgegevens, die kunnen verschillen van de Geo die u hebt geselecteerd in verband met andere services. Microsoft zal de klantgegevens niet buiten een dergelijke Geo overdragen, behalve zoals vermeld in de sectie Gegevenslocatie van het [Microsoft Trust Center](https://www.microsoft.com/trust-center)
 
 Zie voor meer informatie over de gegevensopslag en privacyinformatie van de specifieke producten:
 - [Microsoft Defender ATP-gegevensopslag en -privacy](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)

@@ -16,12 +16,12 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: 'U en uw gebruikers kunnen valse negatieve en fout-positieve spamberichten naar Microsoft sturen voor analyse. '
-ms.openlocfilehash: 7b53f74be78bc1203189815c6a7adf3337decd21
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 27e0698d1ad7d05adfa69e18e9b5b21edb74b1eb
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42856867"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42893644"
 ---
 # <a name="submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis"></a>Spam-, spam- en phishing-scamberichten verzenden naar Microsoft voor analyse
 
@@ -36,7 +36,7 @@ Beheerders kunnen e-mail, url en bijlagen ter controle naar Microsoft verzenden.
 
 Als u een bericht ontvangt dat door de spamfilters is verzonden en moet worden geclassificeerd als ongewenste of phishing-scam, u het bericht 'vals negatief' indienen bij de microsoft spamanalyse- en Microsoft Phishing-analyseteams, indien van toepassing. De analisten zullen het bericht bekijken en toevoegen aan de servicebrede filters als het voldoet aan de classificatiecriteria.
 
-Zie [E-mailspam blokkeren met het spamfilter van Office 365 om valse negatieve problemen te voorkomen voor](reduce-spam-email.md)meer spaminstellingen die van toepassing zijn op de hele organisatie. Dit artikel bevat tips om valse negatieven te voorkomen.
+Zie Bescherming tegen spam in Office [365](anti-spam-protection.md)voor meer spam-instellingen die van toepassing zijn op de hele organisatie. Dit artikel bevat tips om valse negatieven te voorkomen.
 
 U ongewenste e-mailberichten op de volgende manieren verzenden:
 
@@ -59,16 +59,16 @@ Ga als lid van microsoft over een scambericht voor ongewenste e-mail of phishing
 3. Kopieer en plak de junk of phishing scam bericht in het nieuwe bericht als een bijlage.
 
    > [!NOTE]
-   > • U meerdere berichten toevoegen in het nieuwe bericht. Zorg ervoor dat alle berichten hetzelfde type zijn: phishing-scamberichten of ongewenste e-mailberichten. <br/><br/>• Laat het lichaam van het nieuwe bericht leeg. <br/><br/>• Gebruik .msg (standaard Outlook-indeling) of .eml (standaard Outlook op de webindeling) voor de bijgevoegde berichten.
+   > * U meerdere berichten toevoegen in het nieuwe bericht. Zorg ervoor dat alle berichten hetzelfde type zijn: phishing-scamberichten of ongewenste e-mailberichten. <br/><br/>* Laat het lichaam van het nieuwe bericht leeg. <br/><br/>* Gebruik .msg (standaard Outlook-indeling) of .eml (standaard Outlook op de webindeling) voor de bijgevoegde berichten.
 
 4. Klik op **Verzenden**.
 
 ## <a name="submit-messages-that-were-tagged-as-junk-but-should-have-been-allowed-through"></a>Berichten verzenden die als ongewenste e-mail zijn getagd, maar die via
 
 Als een bericht ten onrechte is geïdentificeerd als ongewenste e-mail, u het bericht 'fout-positief' indienen bij het Microsoft Spam Analysis Team. De analisten zullen de boodschap evalueren en analyseren. Afhankelijk van de resultaten van de analyse kunnen de filterregels voor spaminhoud voor de hele service worden aangepast om het bericht door te laten gaan.
-  
-Beheerders kunnen meer informatie over het instellen van spam controleren die van toepassing is op een hele organisatie. Zie [Hoe u ervoor zorgen dat een bericht niet is gemarkeerd als spam.](prevent-email-from-being-marked-as-spam.md) Deze informatie is handig als u controle hebt op administratorniveau en u fout-positieven wilt voorkomen.
-  
+
+Beheerders kunnen meer informatie over het instellen van spam controleren die van toepassing is op een hele organisatie. Zie [Lijsten met veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md). Deze informatie is handig als u controle hebt op administratorniveau en u fout-positieven wilt voorkomen.
+
 U op de volgende manieren niet-spamberichten verzenden:
 
 - Als u de map **Bericht verplaatsen naar ongewenste e-mail** gebruikt wanneer u uw inhoudsfilters configureert (dit is de standaardactie), kunnen gebruikers fout-positieve berichten vrijgeven in de map Ongewenste e-mail in Outlook of Outlook (voorheen bekend als de map Ongewenste e-mail van Outlook).
@@ -114,14 +114,3 @@ Nadat ze deze informatie hebben bekeken, kan het spamteam wijzigingen aanbrengen
 [Microsoft Exchange Spam-teamvideo](https://youtu.be/-TpX_-GMC7o?hd=1)
 
 Spamevaluatie is een doorlopend proces dat van toepassing is ongeacht de taal of tekenset die van oorsprong is. Omdat een spambericht vaag kan zijn of zelfs tekst in de onderwerp- of berichtentekst kan missen, vertrouwt het spamteam op andere berichtkenmerken om filtering uit te voeren. Dit betekent dat nadat het spamteam een bepaald bericht als spam heeft gevlagd en de nodige wijzigingen in de regelbasis heeft aangebracht, dat bericht in de toekomst wordt geblokkeerd totdat de kenmerken ervan voldoende zijn gewijzigd om onze filters te vermijden. Nieuwe spamregels worden continu geïmplementeerd. De termijnen voor regels voor afzonderlijke inzendingen variëren afhankelijk van de hoeveelheid en de kwaliteit van de inzendingen. Omdat er wereldwijd nieuwe spamregels worden ingesteld voor alle klanten, zullen niet alle afzonderlijke spam-inzendingen resulteren in een nieuwe spamregel.
-
-## <a name="for-more-information"></a>Voor meer informatie
-
-[Bescherming tegen ongewenste e-mail en malware](anti-spam-and-anti-malware-protection.md)
-  
-[Hoe ervoor te zorgen dat een bericht niet is gemarkeerd als spam](prevent-email-from-being-marked-as-spam.md)
-  
-[Block email spam with the Office 365 spam filter to prevent false negative issues](reduce-spam-email.md)
-  
-
-[Block email spam with the Office 365 spam filter to prevent false negative issues](reduce-spam-email.md)

@@ -1,11 +1,11 @@
 ---
-title: Een risicovolle leveringsgroep voor uitgaande berichten
+title: Leveringspool met een hoog risico voor uitgaande berichten
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 8/24/2016
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,42 +15,41 @@ search.appverid:
 ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 ms.collection:
 - M365-security-compliance
-description: Wanneer het e-mailsysteem van een klant is gecompromitteerd door malware of een kwaadaardige spamaanval en het uitgaande spam verzendt via de gehoste filterservice, kan dit ertoe leiden dat de IP-adressen van de Office 365-datacenterservers worden vermeld op blok van derden Lijsten.
-ms.openlocfilehash: 19987ae74b9c78a796ddb5f13cf8291a5ed269ad
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Lees hoe de leveringspool met een hoog risico wordt gebruikt om de reputatie van e-mailservers in de Office 365-datacenters te beschermen.
+ms.openlocfilehash: 5d1bd2b14eb17ed74ee1cf1e44967f660f4595b8
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42805479"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895357"
 ---
-# <a name="high-risk-delivery-pool-for-outbound-messages"></a>Een risicovolle leveringsgroep voor uitgaande berichten
+# <a name="high-risk-delivery-pool-for-outbound-messages-in-office-365"></a>Leveringspool met een hoog risico voor uitgaande berichten in Office 365
 
-Wanneer het e-mailsysteem van een klant is gecompromitteerd door malware of een kwaadaardige spamaanval en het uitgaande spam verzendt via de gehoste filterservice, kan dit ertoe leiden dat de IP-adressen van de Office 365-datacenterservers worden vermeld op blok van derden Lijsten. Doelservers die de gehoste filterservice niet gebruiken, maar deze bloklijsten wel gebruiken, weigeren alle e-mail die is verzonden vanaf een van de gehoste filterIP-adressen die aan die lijsten zijn toegevoegd. Om dit te voorkomen, worden alle uitgaande berichten die de spamdrempel overschrijden, verzonden via een groep met een hoog risico.To prevent this, all outbound messages that exceed the spam threshold are sent through a high-risk delivery pool. Deze secundaire uitgaande e-mailgroep wordt alleen gebruikt om berichten te verzenden die van lage kwaliteit kunnen zijn. Dit helpt om de rest van het netwerk te beschermen tegen het verzenden van berichten die waarschijnlijk ertoe leiden dat het verzenden van IP-adres wordt geblokkeerd.
-  
-Het gebruik van een speciale groep met een hoog risico zorgt ervoor dat de normale uitgaande pool alleen berichten verzendt waarvan bekend is dat ze van hoge kwaliteit zijn. Het gebruik van deze secundaire IP-pool helpt om de kans te verkleinen dat de normale uitgaande IP-groep wordt toegevoegd aan een geblokkeerde lijst. De mogelijkheid dat de risicovolle bezorgpool op een geblokkeerde lijst wordt geplaatst, blijft een risico. Dit is normaal.
-  
-Berichten waarin het verzendende domein geen adresrecord (A-record) heeft, waardoor u het IP-adres van het domein krijgt en geen MX-record, waarmee direct mail wordt verzonden naar de servers die de e-mail moeten ontvangen voor een bepaald domein in de DNS, worden altijd door de een risicovolle bezorgpool, ongeacht hun spampositie.
-  
-## <a name="understanding-delivery-status-notification-dsn-messages"></a>DSN-berichten (Delivery Status Notification) begrijpen
+E-mailservers in de Office 365-datacenters maken zich mogelijk tijdelijk schuldig aan het verzenden van spam. Bijvoorbeeld een malware- of schadelijke spamaanval in een on-premises e-mailorganisatie die uitgaande e-mail verzendt via Office 365 of gecompromitteerde Office 365-accounts. Deze scenario's kunnen ertoe leiden dat het IP-adres van de getroffen Office 365-datacenterservers wordt weergegeven op bloklijsten van derden. Bestemmingse-e-mailorganisaties die deze bloklijsten gebruiken, weigeren e-mail van deze berichtenbronnen.
 
-De uitgaande groep met een hoog risico beheert de levering voor alle "bounced" of "failed" (DSN) berichten.
-  
-Mogelijke oorzaken voor een piek in DSN-berichten zijn de volgende:
-  
-- Een spoofing-campagne die van invloed is op een van de klanten die de service gebruiken
-    
-- Een directory oogst aanval
-    
-- Een spamaanval
-    
-- Een malafide SMTP-server
-    
-Al deze problemen kunnen leiden tot een plotselinge toename van het aantal DSN-berichten dat door de service wordt verwerkt. Vaak lijken deze DSN-berichten spam te zijn voor andere e-mailservers en -services.
-  
-## <a name="for-more-information"></a>Voor meer informatie
+Om dit te voorkomen, worden alle uitgaande berichten van Office 365-datacenterservers waarvan is vastgesteld dat ze spam zijn of die de verzendlimieten van [de service](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) of het [uitgaande spambeleid](configure-the-outbound-spam-policy.md) overschrijden, verzonden via de _groep voor levering met een hoog risico._
 
-[Het uitgaande spambeleid configureren](configure-the-outbound-spam-policy.md)
-  
-[Veelgestelde vragen over antispambescherming](anti-spam-protection-faq.md)
-  
+De groep voor levering met een hoog risico is een secundaire IP-adresgroep voor uitgaande e-mail die alleen wordt gebruikt om berichten van "lage kwaliteit" te verzenden (bijvoorbeeld spam en [backscatter).](backscatter-messages-and-eop.md) Als u de groep voor levering met een hoog risico gebruikt, voorkomt u dat de normale IP-adresgroep voor uitgaande e-mail spam verzendt. De normale IP-adresgroep voor uitgaande e-mail behoudt de reputatie die berichten van "hoge kwaliteit" verzendt, waardoor de kans kleiner is dat dit IP-adres op IP-bloklijsten wordt weergegeven.
 
+De zeer reële mogelijkheid dat IP-adressen in de risicogroep worden geplaatst op IP-bloklijsten blijft bestaan, maar dit is door het ontwerp. Levering aan de beoogde ontvangers is niet gegarandeerd, omdat veel e-mailorganisaties geen berichten accepteren uit de groep voor levering met een hoog risico.
+
+Zie [Uitgaande spam in Office 365](outbound-spam-controls.md)voor meer informatie.
+
+> [!NOTE]
+> Berichten waarbij het brone-maildomein geen A-record heeft en geen MX-record die is gedefinieerd in openbare DNS, worden altijd door de groep met een hoog risico geleid, ongeacht hun spam of het verzenden van limietdispositie.
+
+## <a name="bounce-messages"></a>Bounceberichten
+
+De uitgaande delivery pool met hoog risico beheert de levering voor alle niet-leveringsrapporten (ook bekend als NDR's, bounceberichten, meldingen over de leveringsstatus of DSN's).
+
+Mogelijke oorzaken voor een stijging van de NDR's zijn:
+
+- Een spoofing-campagne die van invloed is op een van de klanten die de service gebruiken.
+
+- Een directory oogst aanval.
+
+- Een spamaanval.
+
+- Een malafide e-mailserver.
+
+Al deze problemen kunnen resulteren in een plotselinge toename van het aantal NDR's dat door de service wordt verwerkt. Vele malen, deze NDR's lijken te zijn spam naar andere e-mailservers en diensten (ook wel bekend als _[backscatter).](backscatter-messages-and-eop.md)_

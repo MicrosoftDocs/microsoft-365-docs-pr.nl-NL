@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Tijdens en na een geautomatiseerd onderzoek in Office 365 u de resultaten en belangrijkste bevindingen bekijken.
-ms.openlocfilehash: 638559efe5f7028a647b466c030a339c677601ce
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 104be669dcb6d22cba00974075418e2d14ed629c
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42809924"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894226"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-office-365"></a>Details en resultaten van een geautomatiseerd onderzoek in Office 365
 
@@ -248,6 +248,6 @@ U kunt:
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [In behandeling zijnde acties controleren en goedkeuren](air-remediation-actions.md)
+- [In behandeling zijnde acties controleren en goedkeuren](https://review.docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)
 
 - [Meer informatie over geautomatiseerd onderzoek en reactie in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

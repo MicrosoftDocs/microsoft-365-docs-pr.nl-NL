@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: e109077e-cc85-4c19-ae40-d218ac7d0548
 description: Als Exchange Online Protection (EOP)-klant gaan alle berichten die naar uw organisatie worden verzonden via EOP voordat uw werknemers ze zien. Of u nu al uw postvakken in de cloud host met Exchange Online, of uw postvakken op locatie host (een standalone scenario genoemd), misschien om gebruik te blijven maken van uw bestaande infrastructuur, hebt u opties over het routeren van berichten die zal door EOP voor verwerking voordat ze worden doorgestuurd naar uw werknemer inboxen.
-ms.openlocfilehash: dfd4457dcdd036798add5ad9611c3246db22d018
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6ade456cb4c61203a810784eaa94d6091b05d47b
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42811642"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42893656"
 ---
 # <a name="mail-flow-in-eop"></a>E-mailstroom in EOP
 
@@ -37,7 +37,7 @@ Als u subdomeinen aan uw organisatie toevoegt, kan uw EOP-service u ook helpen d
 
 [Configureer e-mailstroom met behulp van connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) introduceert connectors en laat zien hoe u ze gebruiken om e-mailroutering aan te passen. Scenario's omvatten het waarborgen van veilige communicatie met een partnerorganisatie en het opzetten van een slimme host.
 
-Als u ervoor wilt zorgen dat ongewenste e-mail correct wordt doorgestuurd naar de map met ongewenste e-mail van elke gebruiker, moet u een paar configuratiestappen uitvoeren. Deze worden beschreven in [Ervoor zorgen dat spam wordt doorgestuurd naar de map Ongewenste e-mail van elke gebruiker.](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) Als u geen berichten naar de map met ongewenste e-mail van elke gebruiker wilt verplaatsen, u een andere actie kiezen door uw inhoudsfilterbeleid te bewerken in het Exchange-beheercentrum. Zie [Beleid voor spamfilters configureren](configure-your-spam-filter-policies.md)voor meer informatie.
+Als u ervoor wilt zorgen dat ongewenste e-mail correct wordt doorgestuurd naar de map met ongewenste e-mail van elke gebruiker, moet u een paar configuratiestappen uitvoeren. Deze worden beschreven in [Standalone EOP configureren om spam te leveren aan de map Ongewenste e-mail in hybride omgevingen.](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) Als u geen berichten naar de map met ongewenste e-mail van elke gebruiker wilt verplaatsen, u een andere actie kiezen door uw inhoudsfilterbeleid te bewerken in het Exchange-beheercentrum. Zie [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md)voor meer informatie.
 
 ## <a name="verify-mail-flow"></a>E-mailstroom verifiëren
 

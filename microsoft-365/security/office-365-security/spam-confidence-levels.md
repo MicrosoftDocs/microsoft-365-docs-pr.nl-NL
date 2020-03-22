@@ -1,11 +1,11 @@
 ---
-title: Vertrouwensniveaus voor spam
+title: Spamvertrouwensniveau
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 10/02/2017
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,30 +15,35 @@ search.appverid:
 ms.assetid: 34681000-0022-4b92-b38a-e32b3ed96bf6
 ms.collection:
 - M365-security-compliance
-description: Wanneer een e-mailbericht via spamfiltering gaat, krijgt het een spamscore toegewezen. Die score is in kaart gebracht aan een individuele Spam Confidence Level (SCL) rating en gestempeld in een X-header. De dienst onderneemt acties op de berichten, afhankelijk van de spam vertrouwen interpretatie van de SCL rating. In de volgende tabel ziet u hoe de verschillende SCL-classificaties worden geïnterpreteerd door de filters en de standaardactie die wordt uitgevoerd op binnenkomende berichten voor elke beoordeling.
-ms.openlocfilehash: 65b6f51199e6d8f6ce17a05b28c5bad15d9d1760
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Beheerders kunnen meer te weten komen over hoe het spamvertrouwensniveau (SCL) bepaalt hoe waarschijnlijk of onwaarschijnlijk een bericht spam is en welke standaardacties spamfiltereren op berichten op basis van de SCL.
+ms.openlocfilehash: b8f194f9aecc31896fb816433e71d1b26de708f7
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42810443"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42893692"
 ---
-# <a name="spam-confidence-levels"></a>Vertrouwensniveaus voor spam
+# <a name="spam-confidence-level-scl-in-office-365"></a>Spambetrouwbaarheidsniveau (SCL) in Office 365
 
-Wanneer een e-mailbericht via spamfiltering gaat, krijgt het een spamscore toegewezen. Die score is in kaart gebracht aan een individuele Spam Confidence Level (SCL) rating en gestempeld in een X-header. De dienst onderneemt acties op de berichten, afhankelijk van de spam vertrouwen interpretatie van de SCL rating. In de volgende tabel ziet u hoe de verschillende SCL-classificaties worden geïnterpreteerd door de filters en de standaardactie die wordt uitgevoerd op binnenkomende berichten voor elke beoordeling.
-  
-|**SCL-beoordeling**|**Spam vertrouwen interpretatie**|**Standaardactie**|
-|:-----|:-----|:-----|
-|-1|Niet-spam afkomstig van een veilige afzender, veilige ontvanger of veilig vermeld IP-adres (vertrouwde partner).|Lever het bericht af bij het postvak IN van de ontvangers.|
-|0, 1|Niet-spam omdat het bericht is gescand en bepaald om schoon te zijn.|Lever het bericht af bij het postvak IN van de ontvangers.|
-|5, 6|Spam|Lever het bericht af op de map Ongewenste e-mail van de geadresseerden.|
-|7, 8, 9|Hoog vertrouwen spam|Lever het bericht af op de map Ongewenste e-mail van de geadresseerden.|
-   
-> [!TIP]
-> SCL ratings van 2, 3, 4, 7 en 8 worden niet vastgesteld door de service. Een SCL rating van 5 of 6 wordt beschouwd als vermoedelijke spam, die minder zeker spam dan een SCL rating van 9, die wordt beschouwd als bepaalde spam. Verschillende acties voor spam en spam met een hoog vertrouwen kunnen worden geconfigureerd via uw beleid voor inhoudsfilter in het Exchange-beheercentrum. Zie [Uw spamfilterbeleid configureren](configure-your-spam-filter-policies.md)voor meer informatie. U ook de SCL-classificatie instellen voor berichten die overeenkomen met specifieke voorwaarden met behulp van e-mailstroomregels (ook wel transportregels genoemd), zoals beschreven in regels voor [de stroomstroom gebruiken om het spamvertrouwenniveau (SCL) in berichten in te stellen.](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md) Als u een e-mailstroomregel gebruikt om SCL van 7, 8 of 9 in te stellen, wordt het bericht behandeld als spam met een hoog vertrouwen. 
-  
+Wanneer Office 365 (Exchange Online of zelfstandige Exchange Online Protection (EOP) zonder Exchange Online-postvakken) een binnenkomend e-mailbericht ontvangt, wordt het bericht door spamgefilterd en krijgt het een spamscore toegewezen. Die score wordt toegewezen aan een individueel spambetrouwbaarheidsniveau (SCL) dat in een X-header aan het bericht is toegevoegd. Een hogere SCL geeft aan dat een bericht eerder spam is. De service onderneemt actie op basis van het bericht op basis van de SCL.
+
+Wat de SCL betekent en de standaardacties die op berichten worden uitgevoerd, worden beschreven in de volgende tabel. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md)voor meer informatie over acties die u uitvoeren op berichten op basis van het spamfiltervonnis.
+
+||||
+|:---:|---|---|
+|**Scl**|**Definitie**|**Standaardactie**|
+|-1|Het bericht heeft spamfilters overgeslagen. Het bericht is bijvoorbeeld van een veilige afzender, is verzonden naar een veilige ontvanger of is afkomstig van een e-mailbronserver op de LIJST met IP-toegestane. Zie [Lijsten met veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md)voor meer informatie.|Breng het bericht naar het postvak IN van de geadresseerden.|
+|0, 1|Spamfiltering bepaalde dat het bericht geen spam was.|Breng het bericht naar het postvak IN van de geadresseerden.|
+|5, 6|Spamfiltering heeft het bericht gemarkeerd als **Spam**|Breng het bericht naar de map Ongewenste e-mail van de geadresseerden.|
+|9|Spamfiltering markeerde het bericht als **spam met een hoog vertrouwen**|Breng het bericht naar de map Ongewenste e-mail van de geadresseerden.|
+|
+
+U zult merken dat SCL 2, 3, 4, 7 en 8 niet worden gebruikt door spamfiltering.
+
+U de regels voor e-mailstroom (ook wel transportregels genoemd) gebruiken om de SCL op berichten te stempelen. Als u een regel voor e-mailstroom gebruikt om de SCL in te stellen, activeren de waarden 5 of 6 de spamfilteractie voor **Spam**en activeren de waarden 7, 8 of 9 de spamfilteractie voor **spam met een hoog vertrouwen**. Zie [Regels voor e-mailstroom gebruiken om het spamvertrouwensniveau (SCL) in berichten in te stellen](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)voor meer informatie.
+
+Vergelijkbaar met de SCL, de bulk klacht niveau (BCL) identificeert slechte bulk e-mail (ook bekend als _grijze e-mail)._ Een hogere BCL geeft aan dat een bulk e-mailbericht meer kans heeft om klachten te genereren (en daarom meer kans heeft op spam). U configureert de BCL-drempel in antispambeleid. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md), [Bulkklachtenniveau (BCL) in Office 365](bulk-complaint-level-values.md)en [Wat is het verschil tussen ongewenste e-mail en bulke-mail configureren?](what-s-the-difference-between-junk-email-and-bulk-email.md).
+
 ||
 |:-----|
-|![Het korte pictogram voor](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) LinkedIn Learning **Nieuw in Office 365?**         Ontdek gratis videocursussen voor **Office 365-beheerders en IT-professionals**, aangeboden via LinkedIn Learning.|
-   
-
+|![Het korte pictogram voor](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) LinkedIn Learning **New to Office 365?**         Ontdek gratis videocursussen voor **Office 365-beheerders en IT-professionals**, aangeboden via LinkedIn Learning.|

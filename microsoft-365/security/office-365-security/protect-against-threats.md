@@ -17,12 +17,12 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: Gebruik dit artikel als een handleiding om uw functies voor bedreigingsbescherming nu te configureren.
-ms.openlocfilehash: 96d5c85a5511ec67991283fbc164bb07d2ab34e9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: da920083b521e905633473efbabc5930ad7a6770
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42807327"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895309"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Beschermen tegen bedreigingen in Office 365
 
@@ -189,7 +189,7 @@ Zie [Antiphishingbeleid instellen](set-up-anti-phishing-policies.md)voor meer in
 
 4. Klik op **Opslaan**.
 
-Zie Het antispambeleid configureren voor meer informatie over uw [antispambeleidsopties.](configure-the-anti-spam-policies.md)
+Zie [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md)voor meer informatie over de opties voor antispambeleid.
 
 ## <a name="part-5---additional-settings-to-configure"></a>Deel 5 - Extra instellingen om te configureren
 

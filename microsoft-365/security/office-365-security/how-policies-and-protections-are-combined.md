@@ -1,64 +1,71 @@
 ---
-title: Hoe beleid en beveiligingen worden gecombineerd wanneer e-mail rood gemarkeerd is
-description: Beschrijft welk beleid en beveiligingen van toepassing zijn wanneer e-mail meerdere beveiligingen tegenkomt en wordt gescand door meerdere vormen van detectie. Welk beleid is van toepassing en welke acties moeten worden ondernomen wanneer e-mail is gemarkeerd als malware, spam, spam met veel vertrouwen, phishing en bulk door EOP en/of ATP.
+title: Volgorde en voorrang van e-mailbeveiliging in Office 365
 keywords: beveiliging, malware, Microsoft 365, M365, beveiligingscentrum, ATP, Microsoft Defender ATP, Office 365 ATP, Azure ATP
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyp
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 03/26/2019
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: c6b3fcc931aa396187eb81d0db495f77877f667b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Beschrijft de toepassingsvolgorde van Office 365-beveiligingen en hoe de prioriteitswaarde in beveiligingsbeleid bepaalt welk beleid wordt toegepast.
+ms.openlocfilehash: 9f2033b1ec066c1f8501ce019b8f8c7f3748fd15
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42812424"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895333"
 ---
-# <a name="what-policy-applies-when-multiple-protection-methods-and-detection-scans-run-on-your-email"></a>Welk beleid is van toepassing wanneer meerdere beveiligingsmethoden en detectiescans op uw e-mail worden uitgevoerd
+# <a name="order-and-precedence-of-email-protection-in-office-365"></a>Volgorde en voorrang van e-mailbeveiliging in Office 365
 
-Mogelijk kan uw inkomende e-mail worden gemarkeerd door meerdere vormen van bescherming (bijvoorbeeld EOP *en* ATP) en meerdere detectiescans (zoals spam *en* phishing). Dit is mogelijk omdat er ATP Anti-phishing-beleid voor ATP-klanten en EOP Anti-phishing beleid voor EOP-klanten. Dit betekent ook dat het bericht meerdere detectiescans kan doornemen voor bijvoorbeeld malware, phishing en imitatie van gebruikers. Gezien al deze activiteiten kan er enige verwarring bestaan over welk beleid van toepassing is.
+Als Office 365-gebruiker kan uw binnenkomende e-mail worden gemarkeerd door meerdere vormen van bescherming. Bijvoorbeeld het ingebouwde EOP-antiphishingbeleid dat beschikbaar is voor alle Office 365-klanten en het robuustere ATP-antiphishingbeleid dat ook beschikbaar is voor klanten van Office 365 Advanced Threat Protection. Berichten passeren ook meerdere detectiescans voor malware, spam, phishing, enz. Gezien al deze activiteiten kan er enige verwarring bestaan over welk beleid wordt toegepast.
 
-In het algemeen wordt een beleid dat op een bericht wordt toegepast, geïdentificeerd in de header **X-Forefront-Antispam-Report** in de eigenschap **CAT (Categorie).** Als u meerdere antiphishingbeleidsregels hebt, is deze met de hoogste prioriteit van toepassing.
+In het algemeen wordt een beleid dat op een bericht wordt toegepast, geïdentificeerd in de header **X-Forefront-Antispam-Report** in de eigenschap **CAT (Categorie).** Zie [Kopteksten voor antispamberichten](anti-spam-message-headers.md)voor meer informatie.
 
-Het onderstaande beleid is van toepassing op _alle organisaties._
+Er zijn twee belangrijke factoren die bepalen welk beleid wordt toegepast op een bericht:
 
-|Priority |Beleid  |Categorie  |Waar beheerd |
-|---------|---------|---------|---------|
-|1     | Malware      | MALW (MALW)      | Malwarebeleid   |
-|2     | Phishing     | PHSH PHSH     | Uw beleid voor spamfilters configureren     |
-|3     | Veel vertrouwen spam      | HSPM (HSPM)        | Uw beleid voor spamfilters configureren        |
-|4     | Spoofing        | Spoof        | Anti-phishing beleid, spoof intelligentie        |
-|5     | Spam         | Spm         | Uw beleid voor spamfilters configureren         |
-|6     | Bulk         | Bulk        | Uw beleid voor spamfilters configureren         |
+- **De prioriteit van het type e-mailbeveiliging:** deze volgorde is niet configureerbaar en wordt beschreven in de volgende tabel:
 
-Bovendien zijn deze beleidsregels van toepassing op _organisaties met ATP._
+  |||||
+  |---|---|---|---|
+  |**Priority**|**E-mailbeveiliging**|**Categorie**|**Waar te beheren**|
+  |1|Malware|CAT:MALW|[Anti-malwarebeleid configureren in Office 365](configure-anti-malware-policies.md)|
+  |2|Phishing|CAT:PHSH|[Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md)|
+  |3|Veel vertrouwen spam|CAT:HSPM|[Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md)|
+  |4|Spoofing|CAT:SPOOF|[Office 365 ATP antiphishing- en antiphishingbeleid instellen](set-up-anti-phishing-policies.md) <Br/><br/> [Meer informatie over spoofinformatie](learn-about-spoof-intelligence.md)|
+  |5|Spam|CAT:SPM|[Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md)|
+  |6|Bulk|CAT:BULK|[Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md)|
+  |7<sup>\*</sup>|Imitatie van domeinen|DIMP (DIMP)|[Office 365 ATP antiphishing- en antiphishingbeleid instellen](set-up-anti-phishing-policies.md)|
+  |8<sup>\*</sup>|Imitatie van gebruiker|UIMP (UIMP)|[Office 365 ATP antiphishing- en antiphishingbeleid instellen](set-up-anti-phishing-policies.md)|
+  |
 
-|Priority |Beleid  |Categorie  |Waar beheerd |
-|---------|---------|---------|---------|
-|7     | Imitatie van domeinen         | DIMP (DIMP)         | Office 365 ATP antiphishing- en antiphishingbeleid instellen        |
-|8     | Imitatie van gebruiker        | UIMP (UIMP)         | Office 365 ATP antiphishing- en antiphishingbeleid instellen         |
+  <sup>\*</sup>Deze functies zijn alleen beschikbaar in ATP.
 
-Als u bijvoorbeeld twee beleidsregels hebt met hun respectieve prioriteiten:
+- **De prioriteit van het beleid:** Voor elk beveiligingstype (anti-spam, anti-malware, anti-phishing, enz.) is er een standaardbeleid dat voor iedereen geldt, maar u aangepaste beleidsregels maken die van toepassing zijn op specifieke gebruikers. Elk aangepast beleid heeft een prioriteitswaarde die de volgorde bepaalt waarin het beleid wordt toegepast. Het standaardbeleid wordt altijd als laatste toegepast.
 
-|Beleid  |Priority  |Imitatie van gebruiker/domein  |Anti-spoofing  |
-|---------|---------|---------|---------|
-|A     | 1        | Op        |Uit         |
-|B     | 2        | Uit        | Op        |
+  Als een gebruiker is gedefinieerd in meerdere aangepaste beleidsregels, wordt alleen het beleid met de hoogste prioriteit op deze opties toegepast. Alle resterende beleidsregels worden niet geëvalueerd voor de gebruiker (inclusief het standaardbeleid).
 
-Als een bericht wordt geïdentificeerd als zowel _gebruikersimitatie_ als _spoofing_ (zie anti-spoofing in de bovenstaande tabel) en dezelfde set gebruikers die zijn ingesteld op beleid A, wordt het bericht gemarkeerd en behandeld als een _spoof_. Er wordt echter geen actie toegepast omdat hoewel spoof wordt uitgevoerd met een hogere prioriteit (4) dan User Impersonation (8), anti-spoofing is uitgeschakeld.
+Denk bijvoorbeeld aan de volgende antiphishingbeleidsregels **die van toepassing zijn op dezelfde gebruikers**en een bericht dat is geïdentificeerd als zowel gebruikersimitatie als spoofing:
 
-Houd er rekening mee dat beheerders een geprioriteerd lijst met beleidsregels kunnen maken (zie het prioriteitsveld hierboven), maar slechts één beleid voert de acties uit en past deze toe. Dat betekent dat een gebruiker in zowel beleid A als B het beleid met een hogere prioriteit (A is #1) zal uitvoeren en dat het bericht niet door verdere beleidsregels wordt gefilterd. Als de anti-spoofiing is uitgeschakeld, worden er geen acties uitgevoerd.
+  |||||
+  |---|---|---|---|
+  |**Antispambeleid**|**Priority**|**Imitatie van gebruikers (ATP)**|**Anti-spoofing (EOP)**|
+  |Beleid A|1|Op|Uit|
+  |Beleid B|2|Uit|Op|
+  |
 
-Omdat er een potentieel is om veel groepen gebruikers in veel beleidsregels te hebben, kan het zijn dat beheerders overwegen om minder beleidsregels met meer mogelijkheden te gebruiken. Het is ook belangrijk om er zeker van te zijn dat alle gebruikers onder een alomvattend beleid vallen.
+1. Het bericht wordt gemarkeerd en behandeld als spoof, omdat spoofing een hogere prioriteit heeft (4) dan gebruikersimitatie (8).
+2. Beleid A wordt toegepast op de gebruikers omdat het een hogere prioriteit heeft dan prioriteit B.
+3. Op basis van de instellingen in Beleid A wordt er geen actie ondernomen op het bericht, omdat anti-spoofing is uitgeschakeld in het beleid.
+4. Verwerking van antispambeleid stopt, zodat beleid B nooit wordt toegepast op de gebruikers.
 
-Als u andere soorten phishingbeleid wilt toepassen, moet u de instellingen aanpassen van op wie de verschillende beleidsregels van toepassing zijn.
+Omdat er een potentieel is om veel gebruikers in veel aangepaste beleidsregels van hetzelfde type te hebben, u de volgende ontwerprichtlijnen voor aangepaste beleidsregels overwegen:
 
-
-
+- Wijs een hogere prioriteit toe aan beleid dat van toepassing is op een klein aantal gebruikers en een lagere prioriteit voor beleidsregels die van toepassing zijn op een groot aantal gebruikers. Houd er rekening mee dat het standaardbeleid altijd als laatste wordt toegepast.
+- Configureer uw beleid met een hogere prioriteit om strengere of meer gespecialiseerde instellingen te hebben dan beleid met een lagere prioriteit.
+- Overweeg minder aangepaste beleidsregels te gebruiken (gebruik alleen aangepast beleid voor gebruikers die strengere of meer gespecialiseerde instellingen nodig hebben).

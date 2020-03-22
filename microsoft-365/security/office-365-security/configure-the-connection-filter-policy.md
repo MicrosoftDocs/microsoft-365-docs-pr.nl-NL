@@ -1,11 +1,11 @@
 ---
-title: Het verbindingsfilterbeleid configureren, lijst toestaan, lijst Blokkeren
+title: Het standaardverbindingsfilterbeleid, IP-lijst met toegestane gegevens, IP-bloklijst configureren, veilige lijst in- of uitschakelen
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 8/27/2019
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,150 +15,179 @@ search.appverid:
 ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
-description: U het verbindingsfilterbeleid gebruiken om een lijst met toegestane gegevens te maken, ook wel een veilige afzenderlijst genoemd, van IP-adressen die u vertrouwt. U ook een lijst met geblokkeerde afzenders maken.
-ms.openlocfilehash: db0d7acc6189f29b247c1dc4004311d2843d139b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: U het verbindingsfilterbeleid gebruiken om een lijst met IP-adressen die u vertrouwt, te gebruiken om ervoor te zorgen dat e-mail die wordt verzonden van mensen die u vertrouwt, niet wordt geblokkeerd. U ook een IP-bloklijst met geblokkeerde afzenders maken.
+ms.openlocfilehash: bc0f99102daa422cefe5a7c9cb3e0e5476237f63
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42808443"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42893996"
 ---
-# <a name="configure-the-connection-filter-policy"></a>Het beleid voor verbindingsfilter configureren
+# <a name="configure-connection-filtering-in-office-365"></a>Verbindingsfiltering configureren in Office 365
 
-De meesten van ons hebben vrienden en zakenpartners die we vertrouwen. Het kan frustrerend zijn om e-mail van hen te vinden in uw ongewenste e-mailmap, of zelfs volledig geblokkeerd door een spamfilter. Als u ervoor wilt zorgen dat e-mail die wordt verzonden van mensen die u vertrouwt niet wordt geblokkeerd, u het beleid voor verbindingsfilter gebruiken om een lijst met toestaan te maken, ook wel een veilige afzenderlijst genoemd, van IP-adressen die u vertrouwt. U ook een lijst met geblokkeerde afzenders maken, een lijst met IP-adressen, meestal van bekende spammers, waarvan u nooit e-mailberichten wilt ontvangen.
+Als u een Office 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection-klant (EOP) zonder Exchange Online-postvakken, gebruikt u verbindingsfiltering in EOP (met name het standaardverbindingsfilterbeleid) om te bepalen goede of slechte bron e-mailservers door hun IP-adressen. De belangrijkste onderdelen van het standaardverbindingsfilterbeleid zijn:
 
-- Houd bij het denken over *[Lijsten toestaan](create-safe-sender-lists-in-office-365.md)* rekening met het beleid voor verbindingsfilter en houdt zich bezig met de vertrouwde accounts die door het filter *zijn toegestaan.* Dit wordt gedaan in het belang van nauwkeuriger filteren van minder vertrouwde of niet-vertrouwde mailers terwijl het houden van wat je nodig hebt. Een lijst met verbindingsfilteropties Gaat over het filteren naar de weinige vertrouwde IP's uit een veel grotere groep accounts en IP's en het verzekeren van een betere toegang voor uw vertrouwde mailers.
+- **LIJST met IP-regels:** Spamfilters overslaan voor alle binnenkomende berichten van de brone-mailservers die u opgeeft op IP-adres of IP-adresbereik. Zie de [scenario's waarin berichten van bronnen in de lijst met IP-toestaan](#scenarios-where-messages-from-sources-in-the-ip-allow-list-are-still-filtered) later in dit onderwerp nog steeds worden gefilterd voor scenario's waarin spamfiltering mogelijk nog steeds plaatsvindt op berichten uit deze bronnen. Zie Lijsten met [veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md)voor meer informatie over hoe de lijst met IP-toegestane gegevens moet passen in uw algemene strategie voor veilige afzenders.
 
-- Een verbindingsfilterbeleid dat een bloklijst maakt, kan worden beschouwd als het vangen van minder of onbetrouwbare accounts in het filter.
+- **IP-bloklijst:** blokkeer alle binnenkomende berichten van de bron-e-mailservers die u opgeeft op IP-adres of IP-adresbereik. De binnenkomende berichten worden geweigerd, worden niet gemarkeerd als spam en er vindt geen extra filtering plaats. Zie Lijsten met [blokafzenders maken in Office 365](create-block-sender-lists-in-office-365.md)voor meer informatie over hoe de IP-bloklijst moet passen in uw algemene strategie voor geblokkeerde afzenders.
 
- Voor meer spam-instellingen die van toepassing zijn op de hele organisatie, kijk op [Hoe te voorkomen dat goede e-mail wordt gemarkeerd als spam in Office 365](prevent-email-from-being-marked-as-spam.md) of Hoe [spam-e-mail in Office 365 te verminderen.](reduce-spam-email.md) Deze zijn handig als u controle op administratorniveau hebt en u valse positieven of valse negatieven wilt voorkomen.
+- **Veilige lijst:** De *veilige lijst* is een lijst met dynamische toegestane in het Microsoft-datacenter waarvoor geen klantconfiguratie vereist is. Microsoft identificeert deze vertrouwde e-mailbronnen van abonnementen op verschillende lijsten van derden. U schakelt het gebruik van de veilige lijst in of uit; u de brone-mailservers in de veilige lijst niet configureren. Spamfiltering wordt overgeslagen bij binnenkomende berichten van de e-mailservers op de veilige lijst.
 
-> [!TIP]
-> U pauzeren en lezen hoe u [lijsten voor toestaan (of veilige afzenders)](create-safe-sender-lists-in-office-365.md) en lijsten blokkeren [maken.](create-block-sender-lists-in-office-365.md)
+In dit onderwerp wordt beschreven hoe u het standaardverbindingsfilterbeleid configureert in het Office 365 Security & Compliance Center of in PowerShell (Exchange Online PowerShell voor Office 365-klanten; Exchange Online Protection PowerShell voor zelfstandige EOP-klanten). Zie [Antispambeveiliging in Office 365](anti-spam-protection.md)voor meer informatie over het gebruik van eOP-filtering.
 
-In de volgende video worden de configuratiestappen voor het verbindingsfilterbeleid weergegeven:
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/b2f5bea3-e1a7-44b3-b7e2-07fac0d0ca40?autoplay=false]
+> [!NOTE]
+> De LIJST met IP-toegestane, de veilige lijst en de IP-bloklijst maken deel uit van uw algemene strategie om e-mail toe te staan of te blokkeren in uw organisatie. Zie [Lijsten met veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md) en Lijsten met [geblokkeerde afzenders maken in Office 365](create-block-sender-lists-in-office-365.md)voor meer informatie.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Geschatte tijdsduur: 15 minuten
+- U opent het Security <https://protection.office.com/>& Compliance Center op . Als u rechtstreeks naar de pagina <https://protection.office.com/antispam> **Anti-spam-instellingen** wilt gaan, gebruikt u .
 
-- U moet beschikken over bepaalde machtigingen om deze procedure of procedures te kunnen uitvoeren. Zie het item 'Antispam' in het onderwerp [Functiemachtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions) om te zien welke machtigingen u nodig hebt.
+- Zie Verbinding maken met Exchange Online PowerShell als u verbinding wilt maken met Exchange Online [PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) Zie Verbinding maken met Exchange Online Protection PowerShell als u verbinding wilt maken met zelfstandige Exchange Online Protection [PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)
 
-- Als u het IP-adres wilt verkrijgen van de afzender wiens berichten u wilt toestaan of blokkeren, u de internetheader van het bericht controleren. Zoek naar de CIP-header zoals beschreven in [antispamberichtenkoppen.](anti-spam-message-headers.md) Zie [Kopteksten voor internetberichten weergeven in Outlook](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)voor informatie over het weergeven van een berichtkop in verschillende e-mailclients.
+- U moet machtigingen krijgen voordat u deze procedures uitvoeren. Als u het standaardverbindingsfilterbeleid wilt wijzigen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Voor alleen-lezen toegang tot het standaardverbindingsfilterbeleid moet u lid zijn van de rolgroep **Beveiligingslezer.** Zie [Machtigingen in het Office 365 Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rolgroepen in het Beveiligingscentrum & Compliance.
 
-- E-mailberichten die vanaf een IP-adres in de IP-bloklijst worden verzonden, worden geweigerd, niet gemarkeerd als spam en er vindt geen extra filtering plaats.
+- Als u de bron-IP-adressen wilt vinden van de e-mailservers (afzenders) die u wilt toestaan of blokkeren, u het koptekstveld verbinding maken met IP **(CIP)** in de berichtkop. Zie [Kopteksten voor internetberichten weergeven in Outlook](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)als u een berichtkopin in verschillende e-mailclients wilt weergeven.
 
-- De volgende verbindingsfilterprocedure kan ook worden uitgevoerd via externe PowerShell. Gebruik de cmdlet [Get-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedconnectionfilterpolicy) om uw instellingen te controleren en het Beleid voor het instellen [van verbindingsfilter](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedconnectionfilterpolicy) om de beleidsinstellingen van uw verbindingsfilter te bewerken. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)voor meer informatie over het gebruik van Windows PowerShell om verbinding te maken met Exchange Online Protection. Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)voor meer informatie over het gebruik van Windows PowerShell om verbinding te maken met Exchange Online.
+- De IP-lijst met toegestane heeft voorrang op de IP-bloklijst (een adres op beide lijsten wordt niet geblokkeerd).
 
-## <a name="use-the-eac-to-edit-the-default-connection-filter-policy"></a>De EAC gebruiken om het standaardverbindingsfilterbeleid te bewerken
+- De IP-lijst met toegestane en de IP-bloklijst ondersteunen elk maximaal 1273 vermeldingen, waarbij een item één IP-adres, een IP-adresbereik of een CIDR-IP (Classless InterDomain Routing) is.
 
-U maakt een lijst met IP-toestaan of IP-blok door het verbindingsfilterbeleid te bewerken in het Exchange-beheercentrum (EAC). De beleidsinstellingen voor verbindingsfilters worden alleen toegepast op binnenkomende berichten.
+## <a name="use-the-security--compliance-center-to-modify-the-default-connection-filter-policy"></a>Het beveiligingscentrum & compliancecenter gebruiken om het standaardbeleid voor verbindingsfilter te wijzigen
 
-1. Navigeer in het Exchange-beheercentrum (EAC) naar het \> **filter** **Beveiligingsverbinding** en dubbelklik op het standaardbeleid.
+1. Ga in het Security & Compliance Center naar **Threat management** \> **Policy** \> **Anti-Spam**.
 
-2. Klik **op het menu-item Verbindingsfiltering** en maak vervolgens de gewenste lijsten: een lijst met IP-toestaan, een IP-bloklijst of beide.
+2. Vouw op de pagina **Instellingen voor antispam** ![het](../../media/scc-expand-icon.png) **filterbeleid van verbinding** uit door op Pictogram Uitvouwen te klikken en klik vervolgens op **Beleid bewerken**.
 
-   Als u deze ![lijsten](../../media/ITPro-EAC-AddIcon.gif)wilt maken, klikt u op Pictogram toevoegen . Geef in het volgende dialoogvenster het IP-adres- of adresbereik op en klik op **ok**. Herhaal dit proces om extra adressen toe te voegen. (U ook IP-adressen bewerken of verwijderen nadat ze zijn toegevoegd.)
+3. Configureer in de **standaardflyout** die wordt weergegeven een van de volgende instellingen:
 
-   IPV4 IP-adressen opgeven in de indeling nnn.nnn.nnnn waar nnn een getal van 0 tot 255 is. U ook CIDR-bereiken (Classless Inter-Domain Routing) opgeven in de indeling nnn.nnn.nnn/rr waar rr een getal van 24 tot 32 is. Als u bereiken buiten het bereik van 24 tot 32 wilt opgeven, raadpleegt u de volgende sectie, [Aanvullende overwegingen bij het configureren van IP-lijst toestaan](#additional-considerations-when-configuring-ip-allow-lists).
+   - **Beschrijving**: Voer optionele beschrijvende tekst in.
 
-   > [!NOTE]
-   > Als u een IP-adres aan beide lijsten toevoegt, is e-mail die vanaf dat IP-adres wordt verzonden, toegestaan. <br/><br/> U maximaal 1273 vermeldingen opgeven, waarbij een vermelding één IP-adres of een CIDR-reeks IP-adressen is van /24 tot /32. <br/><br/> Als u TLS-versleutelde berichten verzendt, worden IPv6-adressen en adresbereiken niet ondersteund.
+   - **Lijst met IP-toestaan**: Klik op **Bewerken**. Voer in de flyout van de **lijst IP-lijst toestaan** die wordt weergegeven, een IPV4-adres in het vak **Adres of adresbereik** in met de volgende syntaxis:
 
-3. Schakel optioneel het selectievakje **Veilige lijst inschakelen** in om ontbrekende e-mail van bepaalde bekende afzenders te voorkomen. Hoe? Microsoft abonneert zich op bronnen van vertrouwde afzenders van derden. Als u deze veilige lijst gebruikt, worden deze vertrouwde afzenders niet ten onrechte gemarkeerd als spam. We raden u aan deze optie te selecteren omdat het aantal false positives (goede e-mail die is geclassificeerd als spam) moet verminderen.
+     - Single IP: Bijvoorbeeld 192.168.1.1.
 
-4. Klik **op Opslaan**. In het rechterdeelvenster verschijnt een overzicht van uw standaardbeleidsinstellingen.
+     - IP-bereik: Bijvoorbeeld 192.168.0.1-192.168.0.254.
 
-## <a name="additional-considerations-when-configuring-ip-allow-lists"></a>Aanvullende overwegingen bij het configureren van IP-lijsttoestaan
+     - CIDR IP: Bijvoorbeeld 192.168.0.1/25. Geldige netwerkmaskerwaarden zijn /24 tot en met /32. Zie [het filteren van spam voor een CIDR-IP-masker later](#skip-spam-filtering-for-a-cidr-ip-outside-of-the-available-range) in dit onderwerp om spamfilters voor CIDR-ip over te slaan voor CIDR-ip.
 
-De volgende zijn aanvullende overwegingen die u overwegen of waarvan u zich bewust moet zijn bij het configureren van een IP-lijst toestaan.
+     Als u het IP-adres- **Add** ![of](../../media/ITPro-EAC-AddIcon.png)adresbereik wilt toevoegen, klikt u op Pictogram toevoegen . Als u een item wilt verwijderen, selecteert u het](../../media/scc-remove-icon.png)item in Toegestaan **IP-adres** en klikt u op **Verwijderen** ![. Klik op **Opslaan** wanneer u gereed bent.
 
-### <a name="specifying-a-cidr-range-that-falls-outside-of-the-recommended-range"></a>Een CIDR-bereik opgeven dat buiten het aanbevolen bereik valt
+   - **IP-bloklijst:** klik op **Bewerken**. Voer in de flyout **van de IP-bloklijst** die wordt weergegeven, één IP-, IP-bereik of CIDR-IP in het vak **Adres- of adresbereik** in, zoals eerder beschreven in de instelling **Lijst met IP-lijst toestaan.**
 
-Als u een CIDR-IP-adresbereik van /1 tot /23 wilt opgeven, moet u een e-mailstroomregel maken die werkt op het IP-adresbereik waarmee het spamvertrouwensniveau (SCL) wordt ingesteld op **Het filteren van spam omzeilen** (wat betekent dat alle berichten die binnen dit IP-adresbereik zijn ontvangen, zijn ingesteld op "geen spam") en dat er geen extra filtering wordt uitgevoerd door de service). Als een van deze IP-adressen echter op een van de eigen bloklijsten van Microsoft of op een van onze bloklijsten van derden wordt weergegeven, worden deze berichten nog steeds geblokkeerd. Het wordt daarom ten zeerste aanbevolen om het IP-adresbereik van 24 tot /32 te gebruiken.
+     Als u het IP-adres- **Add** ![of](../../media/ITPro-EAC-AddIcon.png)adresbereik wilt toevoegen, klikt u op Pictogram toevoegen . Als u een item wilt verwijderen, selecteert u het](../../media/scc-remove-icon.png)item in geblokkeerd **IP-adres** en klikt u op **Verwijderen** ![. Klik op **Opslaan** wanneer u gereed bent.
 
-Voer de volgende stappen uit om deze regel voor e-mailstroom te maken.
+   - **Schakel een veilige lijst in:** Schakel het gebruik van de veilige lijst in of uit om bekende, goede afzenders te identificeren die spamfilters overslaan.
 
-1. Navigeer in de EAC naar **E-mailstroomregels** \> **Rules**.
+4. Klik op **Opslaan** wanneer u gereed bent.
 
-2. Klik ![op](../../media/ITPro-EAC-AddIcon.gif) Pictogram toevoegen en selecteer **Vervolgens Een nieuwe regel maken**.
+## <a name="use-the-security--compliance-center-to-view-the-default-connection-filter-policy"></a>Het beveiligingscentrum & compliancecenter gebruiken om het standaardbeleid voor verbindingsfilter weer te geven
 
-3. Geef de regel een naam en klik op **Meer opties**.
+1. Ga in het Security & Compliance Center naar **Threat management** \> **Policy** \> **Anti-Spam**.
 
-4. Selecteer **onder Deze regel toepassen als**u De **afzender** selecteert en vervolgens **IP-adres**kiest in een van deze bereiken of exact overeenkomt met .
+2. Klik op de pagina **Antispaminstellingen** op de vervolgkeuzelijst naast het standaardbeleid met de naam **Verbindingsfilterbeleid**.
 
-5. Geef in het **IP-adres opgeven**op, geef](../../media/ITPro-EAC-AddIcon.gif)het IP-adresbereik op, klik op Pictogram **toevoegen** ![en klik vervolgens op **ok**.
+3. De beleidsinstellingen worden weergegeven in de vervolgkeuzelijst die wordt geopend.
 
-6. Stel **onder Het volgende** vak de actie in door de eigenschappen van het bericht **wijzigen** te kiezen en vervolgens **het spamvertrouwensniveau (SCL) in te stellen.** Selecteer in het vak **SCL opgeven** de optie **Spamfilteren omzeilen**en klik op **ok**.
+## <a name="use-exchange-online-powershell-or-standalone-exchange-online-protection-powershell-to-modify-the-default-connection-filter-policy"></a>Exchange Online PowerShell of zelfstandige Exchange Online Protection PowerShell gebruiken om het standaardbeleid voor verbindingsfilter te wijzigen
 
-7. Als u wilt, u selecties maken om de regel te controleren, de regel te testen, de regel te activeren gedurende een bepaalde periode en andere selecties. We raden u aan de regel te testen voor een periode voordat u deze afdwingt. [Procedures voor e-mailstroomregels in Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/mail-flow-rule-procedures) bevatten meer informatie over deze selecties.
+Gebruik de volgende syntaxis:
 
-8. Klik **op Opslaan** om de regel op te slaan. De regel wordt weergegeven in uw lijst met regels.
+```powershell
+Set-HostedConnectionFilterPolicy -Identity Default [-AdminDisplayName <"Optional Comment">] [-EnableSafeList <$true | $false>] [-IPAllowList <IPAddressOrRange1,IPAddressOrRange2...>] [-IPBlockList <IPAddressOrRange1,IPAddressOrRange2...>]
+```
 
-Nadat u de regel hebt gemaakt en gehandhaafd, omzeilt de service spamfilters voor het opgegeven IP-adresbereik.
+**Toelichting :**
 
-### <a name="scoping-an-ip-allow-list-exception-for-a-specific-domain"></a>Een uitzondering voor een IP-lijst toestaan voor een specifiek domein scoping
+- Geldige IP-adres- of adresbereikwaarden zijn:
 
-In het algemeen raden we u aan de IP-adressen (of IP-adresbereiken) toe te voegen voor al uw domeinen die u als veilig beschouwt aan de lijst IP-toegestane. Als u echter niet wilt dat uw IP-lijstvermelding toestaan van toepassing is op al uw domeinen, u een e-mailstroomregel (ook wel een transportregel genoemd) maken die specifieke domeinen met uitzondering van.
+  - Single IP: Bijvoorbeeld 192.168.1.1.
 
-Stel dat u drie domeinen hebt: ContosoA.com, ContosoB.com en ContosoC.com en u wilt het IP-adres toevoegen (omwille van de eenvoud, laten we 1.2.3.4 gebruiken) en filtering alleen overslaan voor domeinContosoB.com. U zou een IP-lijst toestaan voor 1.2.3.4, die de spam vertrouwen niveau (SCL) sets op -1 (wat betekent dat het is geclassificeerd als niet-spam) voor alle domeinen. U vervolgens een e-mailstroomregel maken die de SCL voor alle domeinen instelt, behalve ContosoB.com op 0. Dit resulteert in het bericht dat opnieuw wordt gescand voor alle domeinen die zijn gekoppeld aan het IP-adres, behalve voor ContosoB.com dat is het domein dat wordt vermeld als uitzondering in de regel. ContosoB.com heeft nog steeds een SCL van -1, wat betekent dat u filtert, terwijl ContosoA.com en ContosoC.com SL's van 0 hebben, wat betekent dat ze opnieuw worden gescand door het inhoudsfilter.
+  - IP-bereik: Bijvoorbeeld 192.168.0.1-192.168.0.254.
 
-Voer hiervoor de volgende stappen uit:
+  - CIDR IP: Bijvoorbeeld 192.168.0.1/25. Geldige netwerkmaskerwaarden zijn /24 tot en met /32.
 
-1. Navigeer in de EAC naar **E-mailstroomregels** \> **Rules**.
+- Als u bestaande vermeldingen met de opgegeven waarden wilt `IPAddressOrRange1,IPAddressOrRange2,...,IPAddressOrRangeN` *overschrijven,* gebruikt u de volgende syntaxis: .
 
-2. Klik ![op](../../media/ITPro-EAC-AddIcon.gif) Pictogram toevoegen en selecteer **Vervolgens Een nieuwe regel maken**.
+- Als u IP-adressen of adresbereiken *wilt toevoegen of verwijderen* zonder `@{Add="IPAddressOrRange1","IPAddressOrRange2",...,"IPAddressOrRangeN";Remove="IPAddressOrRange3","IPAddressOrRange4",...,"IPAddressOrRangeN"}`dat dit gevolgen heeft voor andere bestaande vermeldingen, gebruikt u de volgende syntaxis: .
 
-3. Geef de regel een naam en klik op **Meer opties**.
+- Als u de lijst met IP-toegestane `$null`of IP-bloklijst wilt legen, gebruikt u de waarde .
 
-4. Selecteer **onder Deze regel toepassen als**u De **afzender** selecteert en vervolgens **IP-adres**kiest in een van deze bereiken of exact overeenkomt met .
+In dit voorbeeld worden de lijst met IP-toegestane en de IP-bloklijst geconfigureerd met de opgegeven IP-adressen en adresbereiken.
 
-5. Geef in het vak **IP-adressen opgeven** het IP-adres of ip-adresbereik op](../../media/ITPro-EAC-AddIcon.gif)dat u hebt ingevoerd in de lijst IP-toestaan, klik op Pictogram **toevoegen** ![en klik vervolgens op **OK**.
+```powershell
+Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList 192.168.1.10,192.168.1.23 -IPBlockList 10.10.10.0/25,172.17.17.0/24
+```
 
-6. Stel **onder Voer het volgende**in door de actie in te stellen door de eigenschappen van het bericht **wijzigen** te kiezen en vervolgens **het spamvertrouwensniveau (SCL) in te stellen.** Selecteer in het vak **SCL opgeven** de optie **0**en klik op **OK**.
+In dit voorbeeld worden de opgegeven IP-adressen en adresbereiken toegevoegd en verwijderd uit de lijst met IP-toegestane adressen.
 
-7. Klik **op Uitzondering toevoegen**en selecteer onder Behalve **als**, Selecteer **De afzender** en kies domein **is**.
+```powershell
+Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2.10","192.169.3.0/24","192.168.4.1-192.168.4.5";Remove="192.168.1.10"}
+```
 
-8. Voer **in** het vak Domein opgeven het domein in waarvoor u spamfilters wilt omzeilen, zoals **contosob.com**. Klik **op** ![](../../media/ITPro-EAC-AddIcon.gif) Pictogram toevoegen om het naar de lijst met woordgroepen te verplaatsen. Herhaal deze stap als u extra domeinen wilt toevoegen als uitzonderingen en klik op **ok** wanneer u klaar bent.
+Zie [Set-HostedConnectionFilterPolicy voor](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedconnectionfilterpolicy)gedetailleerde syntaxis- en parametergegevens.
 
-9. Als u wilt, u selecties maken om de regel te controleren, de regel te testen, de regel te activeren gedurende een bepaalde periode en andere selecties. We raden u aan de regel te testen voor een periode voordat u deze afdwingt. [Procedures voor e-mailstroomregels in Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/mail-flow-rule-procedures) bevatten meer informatie over deze selecties.
+## <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
-10. Klik **op Opslaan** om de regel op te slaan. De regel wordt weergegeven in uw lijst met regels.
+Ga een van de volgende stappen uit om te controleren of u het standaardbeleid voor verbindingsfilter hebt gewijzigd:
 
-Nadat u de regel hebt gemaakt en gehandhaafd, wordt spamfiltering voor het door u opgegeven IP-adres- of IP-adresbereik alleen omzeild voor de domeinuitzondering die u hebt ingevoerd.
+- Ga in het Beveiligings- & Compliance Center naar **Bedreigingsbeheerbeleid** \> **Policy** \> **Anti-Spam** \> klik op de vervolgkeuzelijst naast **Het filterbeleid van Verbinding (altijd aan)** en controleer de instellingen.
 
-### <a name="scenarios-where-allowed-ip-addresses-are-still-filtered"></a>Scenario's waarin toegestane IP-adressen nog steeds worden gefilterd
+- Voer in Exchange Online PowerShell of zelfstandige Exchange Online Protection PowerShell de volgende opdracht uit en controleer de instellingen:
 
-Berichten van toegestane IP-adressen die u hebt geconfigureerd in het filterbeleid voor verbindingen, zijn nog steeds onderhevig aan spamfiltering in de volgende scenario's:
+  ```powershell
+  Get-HostedConnectionFilterPolicy -Identity Default
+  ```
 
-- Het bron-IP-adres in uw verbindingsfilterbeleid is ook geconfigureerd in een on-premises, IP-gebaseerde inkomende connector in *elke* tenant (laten we dit Tenant A noemen) **en** Tenant A en de Exchange Online Protection-server die het bericht voor het eerst tegenkomt in Office 365, bevinden zich toevallig in hetzelfde Active Directory-forest in de Microsoft-datacenters. In dit scenario wordt **IPV:CAL** toegevoegd aan de [antispamberichtenkoppen](anti-spam-message-headers.md) van het bericht (met vermelding van het bericht dat spamfiltering wordt omzeild), maar is het bericht nog steeds onderhevig aan spamfiltering.
+- Een testbericht verzenden vanuit een item op de lijst met IP-toegestane.
 
-- Uw tenant (waarbij u het verbindingsfilterbeleid hebt geconfigureerd) en de Exchange Online Protection-server die het bericht voor het eerst tegenkomt in Office 365, bevinden zich toevallig in verschillende Active Directory-forests in de Microsoft-datacenters. In dit scenario wordt **IPV:CAL** niet toegevoegd aan de berichtkoppen, dus het bericht is nog steeds onderhevig aan spamfiltering.
+## <a name="additional-considerations-for-the-ip-allow-list"></a>Aanvullende overwegingen voor de lijst met IP-toegestane
 
-Als u een van deze scenario's tegenkomt, u een e-mailstroomregel in de EAC maken met (ten minste) de volgende instellingen om ervoor te zorgen dat berichten vanaf het IP-adres of adressen spamfilters omzeilen:
+In de volgende secties worden aanvullende items geïdentificeerd die u moet weten wanneer u de lijst met IP-toegestane items configureert.
+
+### <a name="skip-spam-filtering-for-a-cidr-ip-outside-of-the-available-range"></a>Spamfiltering overslaan voor een CIDR-IP buiten het beschikbare bereik
+
+Zoals eerder beschreven in dit onderwerp, u alleen een CIDR IP gebruiken met het netwerkmasker /24 tot /32 in de IP-lijst met toegestane gegevens. Als u spamfilters wilt overslaan op berichten van brone-mailservers in het bereik van /1 tot /23, moet u de regels voor de e-mailstroom van Exchange gebruiken (ook wel transportregels genoemd). Maar we raden u aan dit niet te doen als dit mogelijk is, omdat de berichten worden geblokkeerd als een IP-adres in het IP-bereik van /1 tot /23 wordt weergegeven op een van microsofts eigen bloklijsten of blokkeringen van derden.
+
+Nu u zich volledig bewust bent van de mogelijke problemen, u een regel voor e-mailstroom maken met de volgende instellingen (minimaal) om ervoor te zorgen dat berichten van deze IP-adressen spamfilters overslaan:
+
+- Regelvoorwaarde: **Pas deze regel toe als** \> het IP-adres van de **afzender** \> **zich in een van deze bereiken bevindt of precies overeenkomt** \> (voer uw CIDR-IP in met een /1 tot /23-netwerkmasker).
+
+- Regelactie: **Wijzig de eigenschappen** \> van het bericht **Stel het spamvertrouwensniveau (SCL)** \> **Spamfiltering in.**
+
+U de regel controleren, de regel testen, de regel activeren tijdens een bepaalde periode en andere selecties. We raden u aan de regel te testen voor een periode voordat u deze afdwingt. Zie [Regels voor e-mailstroom beheren in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)voor meer informatie.
+
+### <a name="skip-spam-filtering-on-selective-email-domains-from-the-same-source"></a>Spamfiltering op selectieve e-maildomeinen van dezelfde bron overslaan
+
+Als u een IP-adres- of adresbereik toevoegt aan de lijst met IP-toegestane gegevens, vertrouwt u doorgaans alle binnenkomende berichten van die e-mailbron. Maar wat als die bron e-mail van meerdere domeinen verzendt en u spamfiltering voor sommige van die domeinen wilt overslaan, maar andere niet? U de IP-lijst toestaan niet alleen gebruiken om dit te doen, maar u de ip-lijst toestaan gebruiken in combinatie met een regel voor e-mailstroom.
+
+De bron-e-mailserver 192.168.1.25 verzendt bijvoorbeeld e-mail van de domeinen contoso.com, fabrikam.com en tailspintoys.com, maar u wilt alleen spamfilters overslaan voor berichten van afzenders in fabrikam.com. Gebruik hiervoor de volgende stappen:
+
+1. Voeg 192.168.1.25 toe aan de lijst met IP-toegestane.
+
+2. Een regel voor e-mailstroom configureren met de volgende instellingen (minimaal):
+
+   - Regelvoorwaarde: **Pas deze regel toe als** \> het IP-adres van de **afzender** \> **zich in een van deze bereiken bevindt of exact overeenkomt met** \> 192.168.1.25 (hetzelfde IP-adres of adresbereik dat u in de vorige stap aan de lijst met IP-toegestane gegevens hebt toegevoegd).
+
+   - Regelactie: **Wijzig de eigenschappen** \> van het bericht **Stel het spamvertrouwensniveau (SCL)** \> **0**in.
+
+   - Regeluitzondering: **het afzenderdomein** \> **is** \> fabrikam.com (alleen het domein of de domeinen die u wilt overslaan naar spamfilters).
+
+### <a name="scenarios-where-messages-from-sources-in-the-ip-allow-list-are-still-filtered"></a>Scenario's waarin berichten van bronnen in de lijst met IP-toegestane nog steeds worden gefilterd
+
+Berichten van een e-mailserver in uw lijst met IP-toegestane gegevens worden in de volgende scenario's nog steeds gefilterd op spam:
+
+- Een IP-adres in uw IP-lijst met toegestane gegevens is ook geconfigureerd in een on-premises, IP-gebaseerde inkomende connector in *elke* tenant in Office 365 (laten we deze tenant A noemen) **en** Tenant A en de EOP-server die het bericht voor het eerst tegenkomt in Office 365, bevinden zich toevallig in *hetzelfde* Active Directory-forest in de Microsoft-datacenters. In dit scenario *wordt* **IPV:CAL** toegevoegd aan de [antispamberichtenkoppen](anti-spam-message-headers.md) van het bericht (met vermelding van het bericht dat spamfiltering wordt omzeild), maar is het bericht nog steeds onderhevig aan spamfiltering.
+
+- Uw tenant die de IP-lijst met toegestane gegevens bevat en de EOP-server die het bericht voor het eerst tegenkomt in Office 365, bevindt zich toevallig in *verschillende* Active Directory-forests in de Microsoft-datacenters. In dit scenario wordt **IPV:CAL** *niet* toegevoegd aan de berichtkoppen, dus het bericht is nog steeds onderhevig aan spamfiltering.
+
+Als u een van deze scenario's tegenkomt, u een regel voor e-mailstroom maken met de volgende instellingen (minimaal) om ervoor te zorgen dat berichten van de problematische IP-adressen spamfilters overslaan:
 
 - Regelvoorwaarde: **Pas deze regel toe als** \> het IP-adres van de **afzender** \> **zich in een van deze bereiken bevindt of precies overeenkomt** \> (uw IP-adres of adressen).
 
 - Regelactie: **Wijzig de eigenschappen** \> van het bericht **Stel het spamvertrouwensniveau (SCL)** \> **Spamfiltering in.**
-
-Dit is in principe dezelfde regelcreatieprocedure van de vorige [Scoping an IP Allow-lijstuitzondering voor een specifieke domeinsectie.](#scoping-an-ip-allow-list-exception-for-a-specific-domain)
 
 ## <a name="new-to-office-365"></a>Nieuw in Office 365?
 
 ||
 |:-----|
 |![Het korte pictogram voor](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) LinkedIn Learning **New to Office 365?** Ontdek gratis videocursussen voor **Office 365-beheerders en IT-professionals**, aangeboden via LinkedIn Learning.|
-
-## <a name="for-more-information"></a>Voor meer informatie
-
-[Lijsten met veilige afzenders en geblokkeerde afzenders in Exchange Online](safe-sender-and-blocked-sender-lists-faq.md)
-
-[Uw beleid voor spamfilters configureren](configure-your-spam-filter-policies.md)
-
-[Het uitgaande spambeleid configureren](configure-the-outbound-spam-policy.md)
-
-[Voorkomen dat goede e-mail wordt gemarkeerd als spam in Office 365](prevent-email-from-being-marked-as-spam.md)
-
-[Spam-e-mail verminderen in Office 365](reduce-spam-email.md)

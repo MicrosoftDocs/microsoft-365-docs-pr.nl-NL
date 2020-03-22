@@ -1,9 +1,9 @@
 ---
-title: Regels voor e-mailstroom gebruiken om bulke-mailfiltering in Exchange Online Protection te configureren
+title: Regels voor e-mailstromen gebruiken om bulke-mail te filteren in Office 365
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -14,134 +14,162 @@ search.appverid:
 ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen leren hoe ze regels voor e-mailstromen kunnen gebruiken in Exchange Online Protection voor bulke-mailfiltering.
-ms.openlocfilehash: 81b0f4cc58d712c3a1c1e09dab02d1c6f56cb69d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Beheerders kunnen leren hoe u regels voor e-mailstroom gebruiken in Exchange Online Protection voor het filteren van bulke-mail.
+ms.openlocfilehash: 2ac81d798af957f23f95b92f633b93bdda677991
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42809173"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895045"
 ---
-# <a name="use-mail-flow-rules-to-configure-bulk-email-filtering-in-exchange-online-protection"></a>Regels voor e-mailstroom gebruiken om bulke-mailfiltering in Exchange Online Protection te configureren
+# <a name="use-mail-flow-rules-to-filter-bulk-email-in-office-365"></a>Regels voor e-mailstromen gebruiken om bulke-mail te filteren in Office 365
 
-U bedrijfsbrede inhoudsfilters instellen voor spam en bulke-mail met behulp van het standaardbeleid voor spaminhoud. Bekijk [Het beleid voor spamfilters](configure-your-spam-filter-policies.md) configureren en het beleid voor [inhoudsfilter instellen](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/Set-HostedContentFilterPolicy) over het instellen van het beleid voor inhoudsfilter.
+Als u een Office 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection-klant (EOP) zonder Exchange Online-postvakken, gebruikt EOP antispambeleid (ook wel beleid voor spamfilters of inhoudsfilterbeleid genoemd) om te scannen binnenkomende berichten voor spam en bulkmail (ook wel grijze e-mail genoemd). Zie [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md)voor meer informatie.
 
-Als u meer opties wilt om bulkberichten te filteren, u regels voor e-mailstroom (ook wel transportregels genoemd) maken om te zoeken naar tekstpatronen of -zinnen die vaak in bulke-mails worden gevonden. Elk bericht met deze kenmerken wordt gemarkeerd als spam. Het gebruik van deze regels kan helpen de hoeveelheid ongewenste bulke-mail die uw organisatie ontvangt te verminderen.
+Als u meer opties wilt filteren voor bulkmail, u regels voor e-mailstromen (ook wel transportregels genoemd) maken om te zoeken naar tekstpatronen of zinnen die vaak in bulkmail worden gevonden en deze berichten markeren als spam. Zie Wat is het [verschil tussen ongewenste e-mail en bulke-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md) en [Bulk klachtenniveau (BCL) in Office 365](bulk-complaint-level-values.md)voor meer informatie over bulkmail.
 
-> [!IMPORTANT]
-> Voordat u de regels voor de e-mailstroom maakt die dit onderwerp hebben gedocumenteerd, [Bulk Complaint Level values](bulk-complaint-level-values.md)raden we u aan eerst te lezen [Wat is het verschil tussen ongewenste e-mail en bulke-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md)<br>
-> De volgende procedures markeren een bericht als spam voor uw hele organisatie. U echter een andere voorwaarde toevoegen om deze regels alleen toe te passen op specifieke ontvangers in uw organisatie. Op deze manier kunnen de agressieve instellingen voor bulke-mailfiltering van toepassing zijn op een paar gebruikers die zeer gericht zijn, terwijl de rest van uw gebruikers (die meestal de bulke-mail krijgen waarvoor ze zich hebben aangemeld) niet worden beïnvloed.
+In dit onderwerp wordt uitgelegd hoe deze regels voor e-mailstroom worden gemaakt in het Exchange-beheercentrum (EAC) en PowerShell (Exchange Online PowerShell voor Office 365-klanten; Exchange Online Protection PowerShell voor zelfstandige EOP-klanten).
 
-## <a name="create-a-mail-flow-rule-to-filter-bulk-email-messages-based-on-text-patterns"></a>Een e-mailstroomregel maken om bulke-mailberichten te filteren op basis van tekstpatronen
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-1. Ga in het Exchange-beheercentrum (EAC) naar **Regels voor de mailstroom** \> **.**
+- U moet machtigingen in Exchange Online krijgen toegewezen voordat u deze procedures uitvoeren. U moet in het bijzonder de rol **Transportregels** toegewezen krijgen, die standaard is toegewezen aan de rollen **Organisatiebeheer,** **Compliancebeheer**en **Records Management.** Zie [Rolgroepen beheren in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)voor meer informatie .
 
-2. Klik **Add** ![op](../../media/ITPro-EAC-AddIcon.gif) Pictogram Toevoegen toevoegen en selecteer **Vervolgens Een nieuwe regel maken**.
+- Zie [Exchange-beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center)als u de EAC in Exchange Online wilt openen.
 
-3. Geef een naam voor de regel op.
+- Zie Verbinding maken met Exchange Online PowerShell als u verbinding wilt maken met Exchange Online [PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) Zie Verbinding maken met Exchange Online Protection PowerShell als u verbinding wilt maken met zelfstandige Exchange Online Protection [PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)
 
-4. Klik op **Meer** ![](../../media/ITPro-EAC-MoreOptionsIcon.png)opties Pictogram Meer opties . Selecteer onder **Toepassen van deze regel als**u Het onderwerp of de **hoofdtekst** \> selecteert **die overeenkomt met deze tekstpatronen**.
+- Zie de volgende onderwerpen voor meer informatie over regels voor e-mailstromen in Exchange Online en zelfstandige EOP:
 
-5. Voeg in het dialoogvenster **Woorden of zinnen** opgeven de volgende reguliere expressies toe die vaak worden gevonden in bulke-mails, één voor één, en klik op **OK** wanneer u klaar bent:
+  - [Regels voor e-mailstroom (transportregels) in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
 
-   - `If you are unable to view the content of this email\, please`
+  - [Voorwaarden en uitzonderingen voor e-mailstroomregels (predicaten) in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
 
-   - `\>(safe )?unsubscribe( here)?\</a\>`
+  - [Acties voor e-mailstroomregel in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
 
-   - `If you do not wish to receive further communications like this\, please`
+- De lijst met woorden en tekstpatronen die worden gebruikt om bulkpost in de voorbeelden te identificeren, is niet volledig; u items indien nodig toevoegen en verwijderen. Ze zijn echter een goed uitgangspunt.
 
-   - `\<img height\="?1"? width\="?1"? sr\c=.?http\://`
+- Het zoeken naar woorden of tekstpatronen in de onderwerp- of andere koptekstvelden in het bericht vindt plaats *nadat* het bericht is gedecodeerd vanuit de MIME-inhoudsoverdrachtcoderingsmethode die is gebruikt om het binaire bericht tussen SMTP-servers in ASCII-tekst te verzenden. U geen voorwaarden of uitzonderingen gebruiken om te zoeken naar de ruwe (meestal Base64) gecodeerde waarden van het onderwerp of andere koptekstvelden in berichten.
 
-   - `To stop receiving these+emails\:http\://`
+- De volgende procedures markeren een bulkbericht als spam voor uw hele organisatie. U echter een andere voorwaarde toevoegen om deze regels alleen toe te passen op specifieke ontvangers, zodat u agressieve filtering gebruiken op een paar, zeer gerichte gebruikers, terwijl de rest van uw gebruikers (die meestal de bulke-mail krijgen waarvoor ze zich hebben aangemeld) geen invloed hebben.
 
-   - `To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)`
-
-   - `no longer (wish )?(to )?(be sent|receive) w+ email`
-
-   - `If you are unable to view the content of this email\, please click here`
-
-   - `To ensure you receive (your daily deals|our e-?mails)\, add`
-
-   - `If you no longer wish to receive these emails`
-
-   - `to change your (subscription preferences|preferences or unsubscribe)`
-
-   - `click (here to|the) unsubscribe`
-
-   De bovenstaande lijst is niet een uitputtende set van regelmatige uitdrukkingen gevonden in bulk e-mails; meer kan worden toegevoegd of verwijderd als dat nodig is. Het is echter een goed uitgangspunt.
-
-   De zoekopdracht naar woorden of tekstpatronen in het onderwerp of andere kopvelden in het bericht vindt plaats *nadat* het bericht is gedecodeerd uit de mime-methode voor het coderen van inhoudsoverdracht die is gebruikt om het binaire bericht tussen SMTP-servers in ASCII-tekst te verzenden. U geen voorwaarden of uitzonderingen gebruiken om te zoeken naar de onbewerkte (doorgaans Base64) gecodeerde waarden van het onderwerp of andere kopvelden in berichten.
-
-6. Selecteer onder **Ga als volgt**de optie De \> eigenschappen van het bericht **wijzigen** **en stel het betrouwbaarheidsniveau voor spam (SCL)** in .
-
-7. Stel in het dialoogvenster **SCL** op **5,** **6**of **9**op op opgeven en klik op **ok**.
-
-   Als u de SCL instelt op 5 of 6, neemt de **actie Spam in** beslag, terwijl het instellen van de SCL op 9 de **spamactie met veel vertrouwen** neemt, zoals geconfigureerd in het beleid voor inhoudsfilter. De service voert de actieset uit in het beleid voor inhoudsfilter. De standaardactie is om het bericht te leveren aan de map Ongewenste e-mail van de geadresseerden, maar verschillende acties kunnen worden geconfigureerd zoals beschreven in [Het beleid voor spamfilters](configure-your-spam-filter-policies.md)configureren .
-
-   Als uw geconfigureerde actie is om het bericht in quarantaine te plaatsen in plaats van het te verzenden naar de map Ongewenste e-mail van de geadresseerden, wordt het bericht verzonden naar de beheerder quarantaine als een e-mailstroomregel overeenkomen, en het zal niet beschikbaar zijn in de quarantaine van de eindgebruiker of via de eindgebruiker spammeldingen.
-
-   Zie [Vertrouwensniveaus](spam-confidence-levels.md)voor spam voor meer informatie over SCL-waarden in de service.
-
-8. Sla de regel op.
-
-## <a name="create-a-mail-flow-rule-to-filter-bulk-email-messages-based-on-phrases"></a>Een e-mailstroomregel maken om bulke-mailberichten te filteren op basis van zinnen
+## <a name="use-the-eac-to-create-mail-flow-rules-that-filter-bulk-email"></a>De EAC gebruiken om regels voor e-mailstromen te maken die bulke-mail filteren
 
 1. Ga in de EAC naar **Mail flow** \> **Rules**.
 
-2. Klik **Add** ![op](../../media/ITPro-EAC-AddIcon.gif) Pictogram Toevoegen toevoegen en selecteer **Vervolgens Een nieuwe regel maken**.
+2. Klik **op** ![](../../media/ITPro-EAC-AddIcon.png) Pictogram Toevoegen toevoegen en selecteer **vervolgens Een nieuwe regel maken**.
 
-3. Geef een naam voor de regel op.
+3. Configureer op de pagina **Nieuwe regel** die wordt geopend de volgende instellingen:
 
-4. Klik **op Meer opties**. Selecteer onder **Toepassen van deze regel als**u Het onderwerp of de **instantie** \> **of het lichaam een van deze woorden bevat**.
+   - **Naam:** Voer een unieke, beschrijvende naam voor de regel in.
 
-5. Voeg in het dialoogvenster **Woorden of zinnen** op te geven de volgende zinnen die vaak worden gevonden in bulke-mails, één voor één, toe en klik op **ok** wanneer u klaar bent:
+   - Klik **op Meer opties**.
 
-   - `to change your preferences or unsubscribe`
+   - **Pas deze regel toe als:** Een van de volgende instellingen configureren om inhoud in berichten te zoeken met behulp van reguliere expressies (RegEx) of woorden of zinnen:
 
-   - `Modify email preferences or unsubscribe`
+     - **Het onderwerp of het onderwerp** \> van het **hoofd of de hoofdtekst komt overeen met deze tekstpatronen:** Voer in het dialoogvenster **Woorden of zinnen opgeven** dat wordt weergegeven een van de volgende waarden in, **klik** ![op Pictogram](../../media/ITPro-EAC-AddIcon.png)toevoegen en herhaal zo vaak als nodig is.
 
-   - `This is a promotional email`
+       - `If you are unable to view the content of this email\, please`
 
-   - `You are receiving this email because you requested a subscription`
+       - `\>(safe )?unsubscribe( here)?\</a\>`
 
-   - `click here to unsubscribe`
+       - `If you do not wish to receive further communications like this\, please`
 
-   - `You have received this email because you are subscribed`
+       - `\<img height\="?1"? width\="?1"? sr\c=.?http\://`
 
-   - `If you no longer wish to receive our email newsletter`
+       - `To stop receiving these+emails\:http\://`
 
-   - `to unsubscribe from this newsletter`
+       - `To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)`
 
-   - `If you have trouble viewing this email`
+       - `no longer (wish )?(to )?(be sent|receive) w+ email`
 
-   - `This is an advertisement`
+       - `If you are unable to view the content of this email\, please click here`
 
-   - `you would like to unsubscribe or change your`
+       - `To ensure you receive (your daily deals|our e-?mails)\, add`
 
-   - `view this email as a webpage`
+       - `If you no longer wish to receive these emails`
 
-   - `You are receiving this email because you are subscribed`
+       - `to change your (subscription preferences|preferences or unsubscribe)`
 
-   Deze lijst is niet een uitputtende set van zinnen gevonden in bulk e-mails; meer kan worden toegevoegd of verwijderd als dat nodig is. Het is echter een goed uitgangspunt.
+       - `click (here to|the) unsubscribe`
 
-6. Selecteer onder **Ga als volgt**de optie De \> eigenschappen van het bericht **wijzigen** **en stel het betrouwbaarheidsniveau voor spam (SCL)** in .
+      Als u een item wilt **Edit** ![bewerken, selecteert](../../media/ITPro-EAC-EditIcon.png)u het item en klikt u op pictogram Bewerken bewerken . Als u een item wilt **Remove** ![verwijderen,](../../media/ITPro-EAC-DeleteIcon.png)selecteert u het item en klikt u op Pictogram Verwijderen .
 
-7. Stel in het dialoogvenster **SCL** op **5,** **6**of **9**op op opgeven en klik op **ok**.
+       Klik op **OK**als u klaar bent.
 
-   Als u de SCL instelt op 5 of 6, neemt de **actie Spam in** beslag, terwijl het instellen van de SCL op 9 de **spamactie met veel vertrouwen** neemt, zoals geconfigureerd in het beleid voor inhoudsfilter. De service voert de actieset uit in het beleid voor inhoudsfilter. De standaardactie is om het bericht te leveren aan de map Ongewenste e-mail van de geadresseerden, maar verschillende acties kunnen worden geconfigureerd zoals beschreven in [Het beleid voor spamfilters](configure-your-spam-filter-policies.md)configureren .
+     - **Het onderwerp of het onderwerp** \> **of de hoofdtekst bevat een van deze woorden:** In het dialoogvenster Woorden](../../media/ITPro-EAC-AddIcon.png)of zinnen **opgeven** dat wordt weergegeven, voert u een van de volgende waarden in, **klikt** ![u op Pictogram toevoegen en herhaal tumoet zo vaak als nodig is.
 
-   Als uw geconfigureerde actie is om het bericht in quarantaine te plaatsen in plaats van het te verzenden naar de map Ongewenste e-mail van de geadresseerden, wordt het bericht verzonden naar de beheerder quarantaine als een e-mailstroomregel overeenkomen, en het zal niet beschikbaar zijn in de quarantaine van de eindgebruiker of via de eindgebruiker spammeldingen.
+       - `to change your preferences or unsubscribe`
 
-   Zie [Vertrouwensniveaus](spam-confidence-levels.md)voor spam voor meer informatie over SCL-waarden in de service.
+       - `Modify email preferences or unsubscribe`
 
-8. Sla de regel op.
+       - `This is a promotional email`
 
-## <a name="for-more-information"></a>Voor meer informatie
+       - `You are receiving this email because you requested a subscription`
 
-[Wat is het verschil tussen ongewenste e-mail en bulke-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md)
+       - `click here to unsubscribe`
 
-[Waarden op bulkklachtenniveau](bulk-complaint-level-values.md)
+       - `You have received this email because you are subscribed`
 
-[Uw spamfilterbeleid configureren](configure-your-spam-filter-policies.md)
+       - `If you no longer wish to receive our email newsletter`
 
-[Geavanceerde opties voor spamfilter](advanced-spam-filtering-asf-options.md)
+       - `to unsubscribe from this newsletter`
+
+       - `If you have trouble viewing this email`
+
+       - `This is an advertisement`
+
+       - `you would like to unsubscribe or change your`
+
+       - `view this email as a webpage`
+
+       - `You are receiving this email because you are subscribed`
+
+      Als u een item wilt **Edit** ![bewerken, selecteert](../../media/ITPro-EAC-EditIcon.png)u het item en klikt u op pictogram Bewerken bewerken . Als u een item wilt **Remove** ![verwijderen,](../../media/ITPro-EAC-DeleteIcon.png)selecteert u het item en klikt u op Pictogram Verwijderen .
+
+       Klik op **OK**als u klaar bent.
+
+   - **Ga als volgt**te werk: Selecteer **De eigenschappen** \> van het bericht **wijzigen stel het spamvertrouwensniveau (SCL) in.** Configureer in het dialoogvenster **SCL opgeven** dat wordt weergegeven een van de volgende instellingen:
+
+     - Als u berichten als **spam**wilt markeren, selecteert u **6**. De actie die u hebt **Spam** ingesteld voor spamfiltervonnissen in uw antispambeleid, wordt toegepast op de berichten (de standaardwaarde is **Bericht verplaatsen naar map Ongewenste e-mail).**
+
+     - Om berichten te markeren als **Spam met een hoog vertrouwen** selecteert u **9**. De actie die u hebt geconfigureerd voor spamfilteringsvonnissen met **een hoog vertrouwen** in uw antispambeleid, wordt toegepast op de berichten (de standaardwaarde is Bericht verplaatsen naar map Ongewenste **e-mail).**
+
+    Zie [SCL (Spam confidence level) in Office 365](spam-confidence-levels.md)voor meer informatie over SCL-waarden.
+
+   Klik op **Opslaan** als u klaar bent
+
+## <a name="use-powershell-to-create-a-mail-flow-rules-that-filter-bulk-email"></a>PowerShell gebruiken om een e-mailstroomregels te maken die bulke-mail filteren
+
+Gebruik de volgende syntaxis om een of beide regels voor e-mailstromen (reguliere expressies versus woorden) te maken:
+
+```powershell
+New-TransportRule -Name "<UniqueName>" [-SubjectOrBodyMatchesPatterns "<RegEx1>","<RegEx2>"...] [-SubjectOrBodyContainsWords "<WordOrPrhase1>","<WordOrPhrase2>"...] -SetSCL <6 | 9>
+```
+
+In dit voorbeeld wordt een nieuwe regel gemaakt met de naam 'Bulk e-mailfiltering - RegEx' die dezelfde lijst met reguliere expressies van eerder in het onderwerp gebruikt om berichten in te stellen als **Spam.**
+
+```powershell
+New-TransportRule -Name "Bulk email filtering - RegEx" -SubjectOrBodyMatchesPatterns "If you are unable to view the content of this email\, please","\>(safe )?unsubscribe( here)?\</a\>","If you do not wish to receive further communications like this\, please","\<img height\="?1"? width\="?1"? sr\c=.?http\://","To stop receiving these+emails\:http\://","To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)","no longer (wish )?(to )?(be sent|receive) w+ email","If you are unable to view the content of this email\, please click here","To ensure you receive (your daily deals|our e-?mails)\, add","If you no longer wish to receive these emails","to change your (subscription preferences|preferences or unsubscribe)","click (here to|the) unsubscribe"... -SetSCL 6
+```
+
+In dit voorbeeld wordt een nieuwe regel gemaakt met de naam 'Bulk e-mailfiltering - Woorden' die dezelfde lijst met woorden van eerder in het onderwerp gebruikt om berichten in te stellen als **spam met een hoog vertrouwen.**
+
+```powershell
+New-TransportRule -Name "Bulk email filtering - Words" -SubjectOrBodyContainsWords "to change your preferences or unsubscribe","Modify email preferences or unsubscribe","This is a promotional email","You are receiving this email because you requested a subscription","click here to unsubscribe","You have received this email because you are subscribed","If you no longer wish to receive our email newsletter","to unsubscribe from this newsletter","If you have trouble viewing this email","This is an advertisement","you would like to unsubscribe or change your","view this email as a webpage","You are receiving this email because you are subscribed" -SetSCL 9
+```
+
+Zie [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule) voor gedetailleerde syntaxis- en parameterinformatie.
+
+## <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
+
+Ga een van de volgende stappen uit om te controleren of u regels voor e-mail hebt geconfigureerd om bulke-mail te filteren:
+
+- Ga in de EAC naar **EAC-regels** \> **Rules** \> en selecteer](../../media/ITPro-EAC-EditIcon.png)de regel \> klik op Pictogram Bewerken **bewerken** ![en controleer de instellingen.
+
+- Vervang in \<PowerShell\> regelnaam door de naam van de regel en voer de volgende opdracht uit om de instellingen te verifiëren:
+
+  ```powershell
+  Get-TransportRule -Identity "<Rule Name>" | Format-List
+  ```
+
+- Stuur vanuit een extern account een testbericht naar een getroffen ontvanger die een van de zinnen of tekstpatronen bevat en verifieer de resultaten.

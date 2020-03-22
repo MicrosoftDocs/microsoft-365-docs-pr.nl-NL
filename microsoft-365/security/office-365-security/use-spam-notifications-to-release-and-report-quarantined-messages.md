@@ -1,5 +1,5 @@
 ---
-title: Spammeldingen van eindgebruikers in Office 36
+title: Spammeldingen voor eindgebruikers in Office 36
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,33 +17,33 @@ search.appverid:
 ms.assetid: 56de4ed5-b0aa-4195-9f46-033d7cc086bc
 ms.collection:
 - M365-security-compliance
-description: Wanneer een beheerder spammeldingen van eindgebruikers inschakelt in antispambeleid, ontvangen ontvangers van berichten periodieke meldingen over hun in quarantaine geplaatste berichten.
-ms.openlocfilehash: 67dbf311c37ae61c007b78110522033d79c0b161
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+description: Wanneer een beheerder spammeldingen van eindgebruikers inantispambeleid inschakelt, ontvangen ontvangers van berichten periodieke meldingen over hun in quarantaine geplaatste berichten.
+ms.openlocfilehash: 6cde4681d7ea3ef5795201e9a2816b7224ad36f6
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857143"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895057"
 ---
 # <a name="end-user-spam-notifications-in-office-365"></a>Spammeldingen voor eindgebruikers in Office 365
 
-Quarantaine bevat mogelijk gevaarlijke of ongewenste berichten in Office 365-organisaties met postvakken in Exchange Online- of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken. Zie [Quarantaine in Office 365](quarantine-email-messages.md)voor meer informatie.
+Quarantaine bevat potentieel gevaarlijke of ongewenste berichten in Office 365-organisaties met postvakken in Exchange Online- of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken. Zie [Quarantaine in Office 365](quarantine-email-messages.md)voor meer informatie.
 
-Spammeldingen van eindgebruikers zijn standaard uitgeschakeld in het antispambeleid. Wanneer een beheerder spammeldingen van [eindgebruikers inschakelt,](configure-your-spam-filter-policies.md)ontvangen ontvangers van berichten periodieke meldingen over hun berichten die in quarantaine zijn geplaatst als spam, bulke-mail of (vanaf april 2020) phishing.
+Standaard worden spammeldingen van eindgebruikers uitgeschakeld in het antispambeleid. Wanneer een beheerder [spammeldingen van eindgebruikers inschakelt,](configure-your-spam-filter-policies.md)ontvangen ontvangers van berichten periodieke meldingen over hun berichten die in quarantaine zijn geplaatst als spam, bulke-mail of (vanaf april 2020) phishing.
 
 > [!NOTE]
-> In oktober 2019 hebben we de mogelijkheid om in quarantaine geplaatste berichten rechtstreeks uit spammeldingen van eindgebruikers vrij te geven, verwijderd. In plaats daarvan kunnen gebruikers nu naar het Office 365 Security & Compliance Center gaan om hun berichten in quarantaine vrij te geven (rechtstreeks of door op **Controleren** in de melding te klikken). Zie Berichten in [quarantaine zoeken en vrijgeven als gebruiker in Office 365](find-and-release-quarantined-messages-as-a-user.md)voor meer informatie. <br/><br/> Berichten die in quarantaine zijn geplaatst als phishing, malware of mailflowregels (ook wel transportregels genoemd) zijn alleen beschikbaar voor beheerders. Zie Berichten in [quarantaine zoeken en vrijgeven als beheerder in Office 365](find-and-release-quarantined-messages-as-an-administrator.md)voor meer informatie.
+> In oktober 2019 hebben we de mogelijkheid verwijderd om in quarantaine geplaatste berichten rechtstreeks uit spammeldingen van eindgebruikers vrij te geven. In plaats daarvan kunnen gebruikers nu naar het Office 365 Security & Compliance Center gaan om hun in quarantaine geplaatste berichten vrij te geven (rechtstreeks of door op **Controleren** in de melding te klikken). Zie [In quarantaine geplaatste berichten zoeken en vrijgeven als gebruiker in Office 365](find-and-release-quarantined-messages-as-a-user.md)voor meer informatie. <br/><br/> Berichten die in quarantaine zijn geplaatst als phishing, malware of door regels voor e-mailstromen (ook wel transportregels genoemd) zijn alleen beschikbaar voor beheerders. Zie [In quarantaine geplaatste berichten en bestanden beheren als beheerder in Office 365](manage-quarantined-messages-and-files.md)voor meer informatie.
 
-Een spammelding van eindgebruikers bevat de volgende informatie voor elk bericht in quarantaine:
+Een spammelding voor eindgebruikers bevat de volgende informatie voor elk in quarantaine geplaatst bericht:
 
-- **Afzender**: De verzendnaam en het e-mailadres van het bericht in quarantaine.
+- **Afzender:** de verzendnaam en het e-mailadres van het in quarantaine geplaatste bericht.
 
-- **Onderwerp**: De onderwerpregeltekst van het bericht in quarantaine.
+- **Onderwerp:** De onderwerpregeltekst van het in quarantaine geplaatste bericht.
 
 - **Datum**: De datum en tijd (in UTC) dat het bericht in quarantaine is geplaatst.
 
-- **Afzender blokkeren:** Klik op deze koppeling om de afzender toe te voegen aan de lijst Met geblokkeerde afzenders.
+- **Afzender blokkeren:** klik op deze koppeling om de afzender toe te voegen aan de lijst Geblokkeerde afzenders.
 
-- **Review**: Klik op deze link om de quarantaine in het Security & Compliance Center te gaan, waar u uw berichten in quarantaine vrijgeven, verwijderen of rapporteren.
+- **Controle:** Klik op deze koppeling om de quarantaine in het Security & Compliance Center te gaan, waar u uw in quarantaine geplaatste berichten vrijgeven, verwijderen of rapporteren.
 
-![Voorbeeld spammelding voor eindgebruikers](../../media/end-user-spam-notification.png)
+![Voorbeeld van spammelding voor eindgebruikers](../../media/end-user-spam-notification.png)

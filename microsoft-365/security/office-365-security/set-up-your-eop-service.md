@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: In dit onderwerp wordt uitgelegd hoe u Microsoft Exchange Online Protection (EOP) instelt. Als u hier bent geland vanuit de wizard Office 365-domeinen, gaat u terug naar de wizard Office 365-domeinen als u Exchange Online-beveiliging niet wilt gebruiken. Zie E-mailstroom configureren met connectors in Office 365 als u meer informatie wilt over het configureren van connectors.
-ms.openlocfilehash: 135f3ce2d966c2c2918199f4680678031d9dc8d4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5a28bc606b22b044515e737bf1ddf8250452f250
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42807332"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895141"
 ---
 # <a name="set-up-your-eop-service"></a>Uw EOP-service instellen
 
@@ -68,11 +68,11 @@ Nadat u connectors hebt geconfigureerd, wacht u 72 uur om de verspreiding van uw
 > [!TIP]
 > Configureer instellingen op de SMTP-server met een verbindingstijd van 60 seconden. Deze instelling is acceptabel voor de meeste situaties, waardoor er bijvoorbeeld enige vertraging optreedt in het geval van een bericht dat met een grote bijlage wordt verzonden.
 
-## <a name="step-5-use-the-shell-to-ensure-that-spam-is-routed-to-each-users-junk-email-folder"></a>Stap 5: Gebruik de Shell om ervoor te zorgen dat spam wordt doorgestuurd naar de ongewenste e-mailmap van elke gebruiker
+## <a name="step-5-ensure-that-spam-is-routed-to-each-users-junk-email-folder"></a>Stap 5: Ervoor zorgen dat spam wordt doorgestuurd naar de map Ongewenste e-mail van elke gebruiker
 
-Om ervoor te zorgen dat spam (ongewenste e-mail) correct wordt doorgestuurd naar de map Ongewenste e-mail van elke gebruiker, moet u een paar configuratiestappen uitvoeren. De stappen worden aangeboden in [Ervoor zorgen dat spam wordt doorgestuurd naar de map Ongewenste e-mail van elke gebruiker.](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)
+Om ervoor te zorgen dat spam (ongewenste e-mail) correct wordt doorgestuurd naar de map Ongewenste e-mail van elke gebruiker, moet u een paar configuratiestappen uitvoeren. De stappen zijn beschikbaar in [Standalone EOP configureren om spam te leveren aan de map Ongewenste e-mail in hybride omgevingen.](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)
 
-Als u geen berichten naar de map Ongewenste e-mail van elke gebruiker wilt verplaatsen, u een andere actie kiezen door uw inhoudsfilterbeleid te bewerken in het Exchange-beheercentrum. Zie [Beleid voor spamfilters configureren](configure-your-spam-filter-policies.md)voor meer informatie.
+Als u geen berichten naar de map Ongewenste e-mail van elke gebruiker wilt verplaatsen, u een andere actie kiezen door uw inhoudsfilterbeleid te bewerken in het Exchange-beheercentrum. Zie [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md)voor meer informatie.
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Stap 6: Gebruik het Microsoft 365-beheercentrum om uw MX-record naar EOP te richten
 

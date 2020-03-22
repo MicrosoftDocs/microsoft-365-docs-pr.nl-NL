@@ -22,30 +22,30 @@ search.appverid:
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Meer informatie over het kopen van een domeinnaam in Office 365.
 ms.custom: okr_smb
-ms.openlocfilehash: 1982ac054ca64f2442e108b457553a58ebcb234c
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 5ffb5f9268dcd8b38245e0b85c7d790b46628766
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857437"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894465"
 ---
 # <a name="buy-a-domain-name-in-office-365"></a>Een domeinnaam kopen in Office 365
 
- *Als u domeinen wilt toevoegen, wijzigen of **verwijderen, moet** u een **globale beheerder** van een [bedrijfs- of ondernemingsplan](https://products.office.com/business/office)zijn. Deze wijzigingen zijn van invloed op de hele tenant, *aangepaste beheerders* of *gewone gebruikers* kunnen deze wijzigingen niet aanbrengen.*  
+ *Als u domeinen wilt toevoegen, wijzigen of **verwijderen, moet** u een **globale beheerder** van een [bedrijfs- of ondernemingsplan zijn.](https://products.office.com/business/office) Deze wijzigingen zijn van invloed op de hele tenant, *aangepaste beheerders* of *gewone gebruikers* kunnen deze wijzigingen niet aanbrengen.*  
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
-### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Aanmelden en naar \> Instellingen \> Domeinen Een domein kopen
+### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Aanmelden en naar \> Instellingen \> domeinen Een domein kopen
 
 1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
     
-3. Selecteer op de pagina **Domeinen** de optie **Domein kopen**.
+3. Selecteer **op** de pagina Domeinen de optie **Domein kopen**.
     
 U kunt kiezen uit de volgende topleveldomeinen voor uw domein.
   
 - .biz
     
-- .com
+- .nl
     
 - .info
     
@@ -65,13 +65,13 @@ U kunt kiezen uit de volgende topleveldomeinen voor uw domein.
     
 
 > [!NOTE]
-> Wanneer u **Domein kopen**selecteert, wordt u mogelijk doorgestuurd naar de website van uw Microsoft-partner als de tenant wordt gekocht/beheerd via een Microsoft-partner.
+> Wanneer u **Domein kopen**selecteert, u worden doorgestuurd naar de website van uw Microsoft-partner als de tenant wordt gekocht/beheerd via een Microsoft-partner.
 
 ### <a name="domain-privacy"></a>Domeinprivacy
-Wij bieden een gratis Domain Privacy Abonnement bij de aankoop van een domein. Hierdoor blijven uw contactgegevens gekoppeld aan de registratie van uw domein met ICANN privé. [Meer informatie.](https://whois.icann.org/en/privacy-and-proxy-services)
+Wij bieden een gratis Domain Privacy Subscription met de aankoop van een domein. Dit houdt uw contactgegevens verbonden aan de registratie van uw domein met ICANN privé. [Meer informatie.](https://whois.icann.org/en/privacy-and-proxy-services)
   
 ### <a name="buy-a-domain-from-another-domain-registrar"></a>Een domein kopen bij een andere domeinregistrar
-Als u een domein wilt kopen bij een andere domeinregistrar dan [GoDaddy,](https://www.godaddy.com)raden we u aan er hieronder een te gebruiken die automatische installatie ondersteunt (Domain Connect). 
+Als u een domein wilt kopen bij een andere domeinregistrar dan [GoDaddy,](https://www.godaddy.com)raden we u aan er een hieronder te gebruiken die automatische installatie ondersteunt (Domain Connect). 
   
 - [1&amp;1 IONOS](https://www.1and1.com/)
 - [Wordpress](https://www.wordpress.com) 
@@ -121,4 +121,6 @@ Nadat u uw domein hebt geregistreerd (bij een domeinregistrar), meldt u zich als
 
 [Veelgestelde vragen over domeinen](../setup/domains-faq.md)
 
-[Hulp krijgen bij Office 365-domeinen](get-help-with-domains.yml)
+[Hulp krijgen bij Office 365-domeinen](get-help-with-domains.md)
+
+[DNS-records bijwerken om uw website bij uw huidige hostingprovider te houden](https://docs.microsoft.com/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider) 

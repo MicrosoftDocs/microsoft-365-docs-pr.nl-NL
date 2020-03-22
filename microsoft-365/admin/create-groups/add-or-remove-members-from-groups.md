@@ -1,8 +1,7 @@
 ---
-title: Leden toevoegen of verwijderen uit Office 365-groepen
+title: Leden toevoegen aan of verwijderen uit Office 365-groepen
 ms.reviewer: arvaradh
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -20,36 +19,30 @@ search.appverid:
 - MOE150
 - BSA160
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
-description: Meer informatie over het toevoegen van een lid aan een groep, het verwijderen van leden uit groep en het beheren van de status van groepseigenaar in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: b2c6e33be368dc08893d27ef291bb801b784bb98
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: Meer informatie over het toevoegen van een lid aan een groep, het verwijderen van de status van lid uit de groep en het beheren van de status van groepseigenaar in het Microsoft 365-beheercentrum.
+ms.openlocfilehash: 5c708b88f2e4a2b4aa1aa84fd7d7700ab6545f87
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42812110"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894709"
 ---
-# <a name="add-or-remove-members-from-office-365-groups-using-the-admin-center"></a>Leden toevoegen of verwijderen uit Office 365-groepen met behulp van het beheercentrum
+# <a name="add-or-remove-members-from-office-365-groups-using-the-admin-center"></a>Leden uit Office 365-groepen toevoegen of verwijderen met behulp van het beheercentrum
 
-::: moniker range="o365-worldwide"
+In Office 365 maken groepsleden doorgaans hun eigen groepen, voegen ze zichzelf toe aan groepen waaraan ze lid willen worden of worden ze uitgenodigd door groepseigenaren. Als het groepseigendom verandert of als u vaststelt dat een lid moet worden toegevoegd of verwijderd, u als beheerder ook die wijziging aanbrengen. Alleen een globale beheerder, Exchange-beheerder, groepsbeheerder of gebruikersbeheerder kan deze wijzigingen aanbrengen. [Wat is een Office 365-groep?](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
 
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren. 
-
-::: moniker-end
-
-In Office 365 maken groepsleden meestal hun eigen groepen, voegen ze zichzelf toe aan groepen waaraan ze willen deelnemen of worden ze uitgenodigd door groepseigenaren. Als de eigenaar van de groep wijzigt of als u bepaalt dat een lid moet worden toegevoegd of verwijderd, kunt u als beheerder die wijziging doorvoeren. Alleen een globale beheerder, Exchange-beheerder, beheerder groepen of gebruikersbeheerder kan deze wijzigingen aanbrengen. [Meer informatie over Office 365-groepen.](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
-  
- **Tip:** Als u geen beheerder bent, u [leden toevoegen of verwijderen met Outlook](https://support.office.com/article/3b650f4a-5c9b-4f94-a1bb-0cca4b1091de.aspx). 
+> [!TIP]
+> Als u geen beheerder bent, kunt u [leden toevoegen of verwijderen met behulp van Outlook](https://support.office.com/article/3b650f4a-5c9b-4f94-a1bb-0cca4b1091de.aspx). 
   
 ## <a name="add-a-member-to-a-group-in-the-admin-center"></a>Een lid toevoegen aan een groep in het beheercentrum
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a> **Groups**  
+1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>  
     
 2. Selecteer een groepsnaam.
     
-3. Selecteer in het detailvenster op het tabblad **Leden** **alles weergeven en leden beheren**en selecteer vervolgens Leden **toevoegen**.
+3. Selecteer in het detailvenster op het tabblad **Leden** de optie **Alle objecten weergeven en leden beheren**en selecteer Vervolgens Leden **toevoegen**.
       
 4. Zoek of selecteer de naam van het lid dat u wilt toevoegen.
     
@@ -59,11 +52,11 @@ In Office 365 maken groepsleden meestal hun eigen groepen, voegen ze zichzelf to
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a> **Groups**  
+1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>  
     
 2. Selecteer een groepsnaam.
     
-3. Selecteer in het detailvenster naast **Leden**de optie **Bewerken**en selecteer vervolgens **Leden toevoegen**.
+3. **Selecteer**Bewerken en selecteer Vervolgens **Leden toevoegen**in het detailvenster naast **Leden**.
       
 4. Zoek of selecteer de naam van het lid dat u wilt toevoegen.
     
@@ -73,11 +66,11 @@ In Office 365 maken groepsleden meestal hun eigen groepen, voegen ze zichzelf to
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a> **Groups**  
+1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>  
     
 2. Selecteer een groepsnaam.
     
-3. Selecteer in het detailvenster naast **Leden**de optie **Bewerken**en selecteer vervolgens **Leden toevoegen**.
+3. **Selecteer**Bewerken en selecteer Vervolgens **Leden toevoegen**in het detailvenster naast **Leden**.
       
 4. Zoek of selecteer de naam van het lid dat u wilt toevoegen.
     
@@ -107,7 +100,7 @@ In Office 365 maken groepsleden meestal hun eigen groepen, voegen ze zichzelf to
     
 2. Selecteer een gebruikersnaam.
     
-3. Selecteer **bewerken**en selecteer vervolgens **Lidmaatschappen toevoegen**in het detailvenster, naast **Groepslidmaatschappen.**
+3. Selecteer **Bewerken**en selecteer vervolgens **Lidmaatschappen toevoegen**in het detailvenster naast **Groepslidmaatschappen**.
       
 4. Zoek naar of selecteer de naam van de groep die u wilt toevoegen.
     
@@ -121,7 +114,7 @@ In Office 365 maken groepsleden meestal hun eigen groepen, voegen ze zichzelf to
     
 2. Selecteer een gebruikersnaam.
     
-3. Selecteer **bewerken**en selecteer vervolgens **Lidmaatschappen toevoegen**in het detailvenster, naast **Groepslidmaatschappen.**
+3. Selecteer **Bewerken**en selecteer vervolgens **Lidmaatschappen toevoegen**in het detailvenster naast **Groepslidmaatschappen**.
       
 4. Zoek naar of selecteer de naam van de groep die u wilt toevoegen.
     
@@ -138,11 +131,11 @@ In Office 365 maken groepsleden meestal hun eigen groepen, voegen ze zichzelf to
  
 ::: moniker range="o365-worldwide"
  
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a> **Groups**
+1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
     
 2. Selecteer een groepsnaam.
     
-3. Selecteer in het detailvenster op het tabblad **Leden** de optie **Alle weergeven en leden beheren**.
+3. Selecteer in het detailvenster op het tabblad **Leden** de optie **Alle objecten weergeven en leden beheren.**
     
 4. Selecteer naast het lid dat u wilt verwijderen de X.
     
@@ -152,11 +145,11 @@ In Office 365 maken groepsleden meestal hun eigen groepen, voegen ze zichzelf to
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a> **Groups**
+1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
     
 2. Selecteer een groepsnaam.
     
-3. Selecteer in het detailvenster naast **Leden**de optie **Bewerken**.
+3. **Selecteer**Bewerken in het detailvenster naast **Leden**.
     
 4. Selecteer naast het lid dat u wilt verwijderen de X.
     
@@ -166,11 +159,11 @@ In Office 365 maken groepsleden meestal hun eigen groepen, voegen ze zichzelf to
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a> **Groups**
+1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
     
 2. Selecteer een groepsnaam.
     
-3. Selecteer in het detailvenster naast **Leden**de optie **Bewerken**.
+3. **Selecteer**Bewerken in het detailvenster naast **Leden**.
     
 4. Selecteer naast het lid dat u wilt verwijderen de X.
     
@@ -182,65 +175,65 @@ In Office 365 maken groepsleden meestal hun eigen groepen, voegen ze zichzelf to
 
 Standaard is de maker van de groep de groepseigenaar. Vaak heeft een groep meerdere eigenaren als back-upondersteuning of om andere redenen. Leden kunnen worden gepromoveerd naar de status van eigenaar. Eigenaren kunnen worden gedegradeerd naar de lidstatus.
   
-### <a name="promote-a-member-to-owner-status-in-the-admin-center"></a>Een lid promoten als eigenaarin het beheercentrum
+### <a name="promote-a-member-to-owner-status-in-the-admin-center"></a>Een lid promoten in de status van eigenaar in het beheercentrum
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a> **Groups**
+1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
     
 2. Selecteer een groepsnaam.
     
-3. Selecteer in het detailvenster op het tabblad **Leden** de optie **Alle weergeven en eigenaren beheren**.
+3. Selecteer in het detailvenster op het tabblad **Leden** de optie **Alle eigenaren weergeven en beheren**.
 
 4. Zoek naar een lid of selecteer **Eigenaren toevoegen**.
     
 5. Schakel het selectievakje in naast de naam van het lid dat u wilt toevoegen.
     
-6. Selecteer **Opslaan**en **sluit**.   
+6. Selecteer **Opslaan**en vervolgens **Sluiten**.   
    
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a> **Groups**
+1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
     
 2. Selecteer een groepsnaam.
 
-3. **Selecteer**bewerken in het detailvenster naast **Eigenaren.**
+3. **Selecteer**Bewerken in het detailvenster naast **Eigenaren**.
 
 4. Zoek naar een lid of selecteer **Eigenaren toevoegen**.
     
 5. Schakel het selectievakje in naast de naam van het lid dat u wilt toevoegen.
     
-6. Selecteer **Opslaan**en **sluit**.   
+6. Selecteer **Opslaan**en vervolgens **Sluiten**.   
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a> **Groups**
+1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
     
 2. Selecteer een groepsnaam.
 
-3. **Selecteer**bewerken in het detailvenster naast **Eigenaren.**
+3. **Selecteer**Bewerken in het detailvenster naast **Eigenaren**.
 
 4. Zoek naar een lid of selecteer **Eigenaren toevoegen**.
     
 5. Schakel het selectievakje in naast de naam van het lid dat u wilt toevoegen.
     
-6. Selecteer **Opslaan**en **sluit**.   
+6. Selecteer **Opslaan**en vervolgens **Sluiten**.   
 
 ::: moniker-end
 
-### <a name="remove-owner-status-in-the-admin-center"></a>Eigenaarstatus verwijderen in het beheercentrum
+### <a name="remove-owner-status-in-the-admin-center"></a>De status van de eigenaar in het beheercentrum verwijderen
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a> **Groups**
+1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
     
 2. Selecteer een groepsnaam.
     
-3. Selecteer in het detailvenster op het tabblad **Leden** de optie **Alle weergeven en eigenaren beheren**.
+3. Selecteer in het detailvenster op het tabblad **Leden** de optie **Alle eigenaren weergeven en beheren**.
     
 5. Selecteer de X naast de naam van de eigenaar. 
     
@@ -250,11 +243,11 @@ Standaard is de maker van de groep de groepseigenaar. Vaak heeft een groep meerd
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a> **Groups**
+1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
     
 2. Selecteer een groepsnaam.
     
-3. **Selecteer**bewerken in het detailvenster naast **Eigenaren.**
+3. **Selecteer**Bewerken in het detailvenster naast **Eigenaren**.
     
 5. Selecteer de X naast de naam van de eigenaar. 
     
@@ -264,11 +257,11 @@ Standaard is de maker van de groep de groepseigenaar. Vaak heeft een groep meerd
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a> **Groups**
+1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
     
 2. Selecteer een groepsnaam.
     
-3. **Selecteer**bewerken in het detailvenster naast **Eigenaren.**
+3. **Selecteer**Bewerken in het detailvenster naast **Eigenaren**.
     
 5. Selecteer de X naast de naam van de eigenaar. 
     
@@ -281,7 +274,7 @@ Standaard is de maker van de groep de groepseigenaar. Vaak heeft een groep meerd
 
 - [Groepen beheren in Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=847632): zie de sectie Hoe kan ik het lidmaatschap van een groep dynamisch beheren?
     
-- Als u honderden of duizenden gebruikers aan groepen wilt toevoegen, gebruikt u de [Add-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616191).
+- Als u honderden of duizenden gebruikers aan groepen wilt toevoegen, gebruikt u De [Add-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616191).
     
 - [Een nieuwe eigenaar toewijzen aan een groep zonder eigenaar](https://support.office.com/article/86bb3db6-8857-45d1-95c8-f6d540e45732.aspx)
     
@@ -291,7 +284,7 @@ Standaard is de maker van de groep de groepseigenaar. Vaak heeft een groep meerd
     
 - [Waarom u een upgrade voor uw distributielijsten moet uitvoeren naar groepen in Outlook](https://support.office.com/article/7fb3d880-593b-4909-aafa-950dd50ce188.aspx)
 
-[Toegang tot gasten beheren in Office 365-groepen](manage-guest-access-in-groups.md)    
+[Gasttoegang beheren in Office 365-groepen](manage-guest-access-in-groups.md)    
     
 - [Manage Office 365 Groups with PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540): dit artikel is een inleiding (met voorbeelden) tot de belangrijkste cmdlets
     

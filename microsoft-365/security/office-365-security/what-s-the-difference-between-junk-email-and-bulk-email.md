@@ -16,12 +16,12 @@ ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
 ms.collection:
 - M365-security-compliance
 description: Klanten vragen soms wat is het verschil tussen ongewenste e-mail en bulk e-mailberichten? Het doel van dit onderwerp is om het verschil uit te leggen en om informatie te verstrekken over de verschillende opties die beschikbaar zijn voor zowel In Exchange Online en Exchange Online Protection (EOP).
-ms.openlocfilehash: a427fd7a37ec4a5b9828a0f78a32d6e5fd54d69b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 55924ac5e83ca109fd66d1723cdb7c5f43f20df6
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42805900"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895033"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>Wat is het verschil tussen ongewenste e-mail en bulke-mail?
 
@@ -32,7 +32,7 @@ Klanten vragen soms "wat is het verschil tussen ongewenste e-mail en bulk e-mail
 Ongewenste e-mailberichten zijn "spam"-berichten, die ongevraagde (en meestal ongewenste) e-mailberichten zijn die door de service worden gefilterd. Standaard wijst de service het spambericht af op basis van de reputatie van het verzendende IP-adres. Als het echter door de IP-inspectie wordt doorgegeven, maar door de inhoudsfilters als spam wordt geclassificeerd, wordt het bericht verzonden naar de map Ongewenste e-mail van de beoogde ontvangers. 
   
 > [!NOTE]
-> De actie die wordt uitgevoerd op door inhoud gefilterde berichten, kan worden geconfigureerd via het beleid voor inhoudsfilter in het Exchange-beheercentrum (EAC), zoals beschreven in [Beleid voor spamfilters configureren.](configure-your-spam-filter-policies.md) Ook als u het niet eens bent met de spamclassificatie, u berichten die u als spam of niet-spam beschouwt op verschillende manieren aan Microsoft rapporteren, zoals beschreven in [Spam verzenden, niet-spam en phishing-scamberichten aan Microsoft voor analyse.](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md) 
+> De actie die wordt uitgevoerd op door inhoud gefilterde berichten, kan worden geconfigureerd via inhoudsfilterbeleid in het Exchange-beheercentrum (EAC), zoals beschreven in [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md). Ook als u het niet eens bent met de spamclassificatie, u berichten die u als spam of niet-spam beschouwt op verschillende manieren aan Microsoft rapporteren, zoals beschreven in [Spam verzenden, niet-spam en phishing-scamberichten aan Microsoft voor analyse.](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md) 
   
  **Wat is bulk e-mail?**
   
@@ -44,6 +44,6 @@ Hoe bulk e-mail te beheren is niet een duidelijke cut beslissing, want als alle 
   
 ### <a name="enable-bulk-mail-sensitivity-control-in-the-content-filter-policy"></a>Gevoeligheidscontrole voor bulkmail inschakelen in het inhoudsfilterbeleid
 
-Afhankelijk van het beleid van uw bedrijf ten aanzien van bulke-mailberichten, kunnen beheerders een drempelwaarde selecteren om de bulke-mail toe te wijzen. De instelling is configureerbaar via inhoudsfilterbeleid in de EAC. Bekijk [Uw spamfilterbeleid configureren](configure-your-spam-filter-policies.md) voor de stappen. U een drempelinstelling kiezen van 1-9, waarbij 1 de meeste bulke-mail markeert als spam en 9 de meeste bulke-mail kan worden bezorgd. De service voert vervolgens de geconfigureerde actie uit, zoals het verzenden van het bericht naar de map Ongewenste e-mail van de ontvanger. 
+Afhankelijk van het beleid van uw bedrijf ten aanzien van bulke-mailberichten, kunnen beheerders een drempelwaarde selecteren om de bulke-mail toe te wijzen. De instelling is configureerbaar via inhoudsfilterbeleid in de EAC. Bekijk [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor de stappen. U een drempelinstelling kiezen van 1-9, waarbij 1 de meeste bulke-mail markeert als spam en 9 de meeste bulke-mail kan worden bezorgd. De service voert vervolgens de geconfigureerde actie uit, zoals het verzenden van het bericht naar de map Ongewenste e-mail van de ontvanger. 
   
 

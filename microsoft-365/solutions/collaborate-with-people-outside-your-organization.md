@@ -10,14 +10,23 @@ ms.collection: SPO_Content
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Meer informatie over het configureren van Microsoft 365 voor samenwerking met mensen buiten uw organisatie.
-ms.openlocfilehash: eb6bbdc4dd0520f240edbdebde6851ec917cd0d9
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 80b5aacbf73a7845913acdcc6ada2321e49f77cd
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42806436"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894951"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Samenwerken met mensen buiten uw organisatie
+
+De mogelijkheden voor extern delen in Microsoft 365 bieden mensen in uw organisatie de mogelijkheid om samen te werken met partners, leveranciers, klanten en anderen die geen account in uw directory hebben. U hele teams of sites delen met mensen buiten uw organisatie of alleen afzonderlijke bestanden.
+
+Samenwerken met mensen buiten uw organisatie bestaat uit twee belangrijke onderdelen:
+
+- **Delen inschakelen** : Configureer de besturingselementen voor delen in Azure Active Directory, Teams, Office 365-groepen en SharePoint om het gewenste deelniveau voor uw organisatie mogelijk te maken.
+- **Extra beveiliging inschakelen** - Hoewel de basisfuncties voor delen kunnen worden geconfigureerd om mensen buiten uw organisatie te verplichten zich te authenticeren, biedt Microsoft 365 veel extra beveiligings- en nalevingsfuncties om u te helpen uw gegevens te beschermen en uw governancebeleid te onderhouden terwijl u extern deelt.
+
+## <a name="enable-sharing"></a>Delen inschakelen
 
 In Microsoft 365 is delen met mensen buiten uw organisatie standaard ingeschakeld voor SharePoint en OneDrive, maar uitgeschakeld voor Teams. Veel scenario's voor extern delen van SharePoint en OneDrive werken zonder verdere configuratie. Als u de instellingen wilt bevestigen voor een scenario dat u gebruikt of een nieuw scenario wilt inschakelen, kiest u uit de volgende opties:
 
@@ -27,7 +36,7 @@ In Microsoft 365 is delen met mensen buiten uw organisatie standaard ingeschakel
 
 Zie Microsoft [365-referentie voor](microsoft-365-guest-settings.md)instellingen voor delen via de gast voor een uitgebreide blik op de instellingen voor het delen van gasten in Microsoft 365.
 
-## <a name="secure-your-environment"></a>Uw omgeving beveiligen
+## <a name="enable-additional-security"></a>Extra beveiliging inschakelen
 
 Zodra u het scenario hebt ingeschakeld dat u wilt gebruiken voor het delen met mensen buiten uw organisatie, u aanvullende beveiligingen overwegen om uw inhoud te beschermen tegen onbedoeld of opzettelijk ongepast delen.
 

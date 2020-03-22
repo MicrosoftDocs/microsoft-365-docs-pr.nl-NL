@@ -16,12 +16,12 @@ ms.assetid: 0bcecdd4-3343-4cc0-9e58-e19d4de515e8
 ms.collection:
 - M365-security-compliance
 description: Krijgt u een foutbericht wanneer u een e-mail probeert te verzenden naar een ontvanger wiens e-mailadres zich in Office 365 bevindt? Als u denkt dat u het foutbericht niet moet ontvangen, u de lijst met verwijderde portal gebruiken om uzelf uit de lijst met geblokkeerde afzenders van Office 365 te verwijderen.
-ms.openlocfilehash: 3e131addb391ecbf90d74ad4fdfa65b802c5e1ac
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: cd85a06bfd4122dcacd798a48f5a1755e2969b4a
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42808794"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895081"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-list"></a>De lijstmetnaamportal gebruiken om uzelf uit de lijst met geblokkeerde afzenders van Office 365 te verwijderen
 
@@ -58,4 +58,4 @@ waar _IP-adres_ het IP-adres is van de computer waarop de e-mailserver wordt uit
     > [!NOTE]
     > Het kan tot 24 uur duren of de resultaten kunnen sterk variëren voordat beperkingen worden verwijderd.
 
-Lees [meer Over Hoe voorkom je dat echte e-mail wordt gemarkeerd als spam in Office 365](prevent-email-from-being-marked-as-spam.md ) en [Controle op uitgaande spam in Office 365](outbound-spam-controls.md) om te voorkomen dat IP op de zwarte lijst komt te staan.
+Zie [Lijsten met veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md) en Uitgaande [spambeveiliging in Office 365](outbound-spam-controls.md) om te voorkomen dat IP op de zwarte lijst komt te staan.

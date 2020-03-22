@@ -1,9 +1,8 @@
 ---
 title: Overzicht van Office 365-groepen voor beheerders
 ms.reviewer: arvaradh
-f1.keywords:
-- NOCSH
-ms.author: v-teflor
+f1.keywords: NOCSH
+ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
@@ -19,16 +18,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over Office 365-groepen.
-ms.openlocfilehash: e7a65c41d4ecdbc91e163d9a84241ae549a2f9ec
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2257af16106e47b490beebd6d48e566bb3c07ca6
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42811371"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894489"
 ---
 # <a name="overview-of-office-365-groups-for-administrators"></a>Overzicht van Office 365-groepen voor beheerders
 
-Office 365 Groups is de basislidmaatschapsservice die alle teamwork in Microsoft 365 stimuleert. Met Office 365-groepen u een groep mensen toegang geven tot een verzameling samenwerkingsbronnen die deze mensen kunnen delen. Deze bronnen omvatten:
+Office 365-groepen is de basislidmaatschapsservice die alle teamwork in Microsoft 365 stimuleert. Met Office 365-groepen u een groep mensen toegang geven tot een verzameling samenwerkingsbronnen die deze mensen kunnen delen. Deze bronnen omvatten:
 
 - Een gedeeld Postvak IN van Outlook
 - Een gedeelde agenda
@@ -39,17 +38,17 @@ Office 365 Groups is de basislidmaatschapsservice die alle teamwork in Microsoft
 - Een team (als de groep is gemaakt vanuit Teams)
 - Roadmap (als je Project voor het web hebt)
 
-Met een Office 365-groep hoeft u geen machtigingen handmatig toe te wijzen aan elk van deze bronnen, omdat het toevoegen van leden aan de groep hen automatisch de machtigingen geeft die ze nodig hebben voor de hulpprogramma's die de groep biedt.
+Met een Office 365-groep hoeft u geen machtigingen handmatig toe te wijzen aan elk van deze bronnen, omdat het toevoegen van personen aan de groep hen automatisch de machtigingen geeft die ze nodig hebben voor de hulpprogramma's die de groep biedt.
 
-Elke Office 365-gebruiker kan een groep maken, tenzij u [het maken van groepen beperkt tot een specifieke groep personen.](manage-creation-of-groups.md) Houd er rekening mee dat als u het maken van groepen beperkt, gebruikers die geen groepen kunnen maken, geen SharePoint-sites, Planners of teams kunnen maken. Deze services moeten een groep kunnen maken met behulp van de gebruikerscontext. Gebruikers kunnen nog steeds deelnemen aan groepsactiviteiten, zoals het maken van taken in Planner of het reageren op gesprekken in Outlook, mits ze lid zijn van de groep.
+Elke Office 365-gebruiker kan een groep maken, tenzij u [het maken van groepen beperkt tot een specifieke groep personen.](manage-creation-of-groups.md) Houd er rekening mee dat als u het maken van groepen beperkt, gebruikers die geen groepen kunnen maken, geen SharePoint-sites, Planners of teams kunnen maken. Deze services vereisen dat de mensen die ze maken, een groep kunnen maken. Gebruikers kunnen nog steeds deelnemen aan groepsactiviteiten, zoals het maken van taken in Planner of het gebruik van Teams chat, op voorwaarde dat ze lid zijn van de groep.
 
 Groepen hebben de volgende rollen:
 
 - **Eigenaren** - Groepseigenaren kunnen leden toevoegen of verwijderen en hebben unieke machtigingen, zoals de mogelijkheid om gesprekken uit het gedeelde postvak in te verwijderen of verschillende instellingen over de groep te wijzigen. Groepseigenaren kunnen de naam van de groep wijzigen, de beschrijving of afbeelding bijwerken en meer.
-- **Leden** - Leden hebben toegang tot alles in de groep, maar kunnen de groepsinstellingen niet wijzigen.
-- **Gasten** - Groepsgasten zijn leden van buiten uw organisatie. Standaard kunnen groepsleden gasten uitnodigen om lid te worden van uw groep, maar u [die instelling wel beheren.](manage-guest-access-in-groups.md)
+- **Leden** - Leden hebben toegang tot alles in de groep, maar kunnen de groepsinstellingen niet wijzigen. Standaard kunnen groepsleden gasten uitnodigen om lid te worden van uw groep, maar u [die instelling wel beheren.](manage-guest-access-in-groups.md)
+- **Gasten** - Groepsgasten zijn leden van buiten uw organisatie.
 
-Alleen globale beheerders en gebruikersbeheerbeheerders kunnen groepen maken en beheren in het beheercentrum. U kunt geen gedelegeerde beheerder zijn (bijvoorbeeld een consultant die plaatsvervangend beheerder is).
+Alleen globale beheerders, gebruikersbeheerders en groepenbeheerders kunnen groepen maken en beheren in het Microsoft 365-beheercentrum. U kunt geen gedelegeerde beheerder zijn (bijvoorbeeld een consultant die plaatsvervangend beheerder is).
 
 Als beheerder u:
 
@@ -79,23 +78,23 @@ De volgende limieten gelden voor Office 365-groepen:
 |Bestandsopslag|1 Terabyte + 10 GB per geabonneerde gebruiker + eventuele extra opslagruimte aangeschaft. U een onbeperkte hoeveelheid extra opslagruimte aanschaffen.|
 |Grootte van postvak groeperen|50 GB|
 
-Momenteel kan een Office 365-organisatie standaard maximaal 500.000 Office 365 Groepen hebben, maar dit aantal kan op verzoek worden verhoogd. Zie [Office 365-groepen - Help voor beheerders](https://support.office.com/article/3f780e8e-61aa-4287-830d-ff6209cbc192.aspx) voor meer informatie over de limieten voor Office 365-groepen
+Het standaard maximumaantal Office 365-groepen dat een Office 365-organisatie kan hebben, is 500.000, maar kan op verzoek worden verhoogd. Zie Office 365-groepen - Help voor beheerders voor meer informatie over de limieten van Office [365-groepen.](https://support.office.com/article/3f780e8e-61aa-4287-830d-ff6209cbc192.aspx)
 
 Het beheren van uw Office 365-groepen is effectiever wanneer u bruikbare informatie hebt over het gebruik van groepen. Het Microsoft 365-beheercentrum heeft een rapportagetool waarmee u dingen zien zoals opslaggebruik, hoeveel actieve groepen u hebt en zelfs hoe uw gebruikers de groepen gebruiken. Zie: [Office 365-rapporten in het beheercentrum](../activity-reports/office-365-groups.md) voor meer informatie.
 
 ## <a name="which-office-365-plans-include-groups"></a>Welke Office 365-abonnementen bevatten groepen?
 
-Elk Office 365-abonnement met Exchange Online en SharePoint Online ondersteunt groepen. Dat geldt ook voor de Business Essentials- en Business Premium-abonnementen en de Enterprise E1-, E3- en E5-abonnementen. De Groep neemt de licentie op zich van de persoon die de groep maakt (ook wel bekend als de "organisator" van de Groep). Zolang de organisator de juiste licentie heeft voor alle functies die u wilt dat de Groep heeft, wordt die licentie doorgegeven aan de Groep.
+Elk Office 365-abonnement met Exchange Online en SharePoint Online ondersteunt groepen. Dat geldt ook voor de Business Essentials- en Business Premium-abonnementen en de Enterprise E1-, E3- en E5-abonnementen. De groep neemt de licentie van de persoon die de groep maakt (ook bekend als de "organisator" van de groep). Zolang de organisator de juiste licentie heeft voor welke functies u wilt dat de groep heeft, zal die licentie aan de groep worden overgegeven.
 
 > [!NOTE]
-> Voor meer informatie over Office 365-servicefamilies en -abonnementen raadpleegt u [de opties voor office 365-abonnementen](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
+> Zie [Office 365-abonnementen voor](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) meer informatie over Office 365-servicefamilies en -abonnementen
 
-Als u een Exchange-abonnement hebt, u nog steeds de gedeelde Postvak IN en gedeelde agendafuncties van groepen in Outlook krijgen, maar u krijgt de documentbibliotheek, planner of een van de andere mogelijkheden niet.
+Als u een Exchange-abonnement hebt, u nog steeds de gedeelde inbox- en gedeelde agendafuncties van groepen in Outlook krijgen, maar u krijgt de documentbibliotheek, planner of een van de andere mogelijkheden niet.
 
-Office 365-groepen werken met Azure Active Directory (AAD). Welke functies u krijgt, zijn afhankelijk van welk Azure Active Directory-abonnement u hebt en welke licentie(s) is toegewezen aan de organisator van de groep.
+Office 365-groepen werken met Azure Active Directory (AAD). Welke groepenfuncties u krijgt, is afhankelijk van welk Azure Active Directory-abonnement u hebt en welke licentie(s) is toegewezen aan de organisator van de groep.
 
 > [!IMPORTANT]
-> Voor alle functies Groepen kunnen gebruikers, als u een Azure AD Premium-abonnement hebt, lid worden van de groep, ongeacht of ze al dan niet een AAD P1-licentie aan hen hebben toegewezen. Licenties worden niet afgedwongen.
+> Voor alle groepenfuncties kunnen gebruikers, als u een Azure AD Premium-abonnement hebt, lid worden van de groep, ongeacht of ze al dan niet een AAD P1-licentie aan hen hebben toegewezen. Licenties worden niet afgedwongen.
 > Periodiek zullen we gebruiksrapporten genereren die u vertellen welke gebruikers een licentie missen en er een nodig hebben die aan hen is toegewezen om te voldoen aan de licentievereisten. Stel dat een gebruiker geen licentie heeft en wordt toegevoegd aan een groep waarin het naamgevingsbeleid wordt afgedwongen. Het rapport zal vlag voor u dat ze een licentie nodig hebben.
 
 ## <a name="related-articles"></a>Verwante artikelen
