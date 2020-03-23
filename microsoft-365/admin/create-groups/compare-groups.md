@@ -1,8 +1,7 @@
 ---
 title: Groepen vergelijken in Office 365
 ms.reviewer: arvaradh
-f1.keywords:
-- CSH
+f1.keywords: CSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -20,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Meer informatie over de typen groepen die u kunt gebruiken in Office 365.
-ms.openlocfilehash: 5b8a3a7859a510a07b579f3b1da255e555d6ae1f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7d0a18606918884381b0bf7863cfac6cafb29c29
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42805753"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894597"
 ---
 # <a name="compare-groups"></a>Groepen vergelijken
 
@@ -33,7 +32,7 @@ In de sectie **Groepen** van het Microsoft 365-beheercentrum kunt u de volgende 
 
 - **Office 365-groepen** worden gebruikt voor samenwerking tussen gebruikers, zowel binnen als buiten uw bedrijf.
 - **Distributiegroepen** worden gebruikt voor het verzenden van meldingen aan een groep personen.
-- **Beveiligingsgroepen** worden gebruikt voor het verlenen van toegang tot SharePoint-bronnen.
+- **Beveiligingsgroepen** worden gebruikt voor het verlenen van toegang tot SharePoint-bronnen zoals websites.
 - **Beveiligingsgroepen met e-mail** worden gebruikt om toegang te verlenen tot SharePoint-bronnen en het verzenden van meldingen aan die gebruikers.
 - **Gedeelde postvakken** worden gebruikt als meerdere mensen toegang tot hetzelfde postvak nodig hebben, zoals bedrijfsgegevens of ondersteuningsadressen.
 
@@ -41,7 +40,7 @@ In de sectie **Groepen** van het Microsoft 365-beheercentrum kunt u de volgende 
 
 Office 365-groepen worden gebruikt voor samenwerking tussen gebruikers, zowel binnen als buiten uw bedrijf. Met elke Office 365-groep ontvangen leden een groeps-e-mail en een gedeelde werkruimte voor gesprekken, bestanden, agenda-items en een planner.
 
-U kunt externe gebruikers toevoegen aan een groep zolang dit is [ingeschakeld door de beheerder](manage-guest-access-in-groups.md). U kunt ook externe afzenders toestemming geven e-mail te verzenden naar het groeps-e-mailadres.
+U kunt personen buiten uw organisatie toevoegen aan een groep zolang dit is [ingeschakeld door de beheerder](manage-guest-access-in-groups.md). U kunt ook externe afzenders toestemming geven e-mail te verzenden naar het groeps-e-mailadres.
 
 Office 365-groepen kunnen worden [geconfigureerd voor dynamisch lidmaatschap van Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type), zodat groepsleden automatisch kunnen worden toegevoegd of verwijderd op basis van gebruikerskenmerken zoals afdeling, locatie, titel, enzovoort.
 
