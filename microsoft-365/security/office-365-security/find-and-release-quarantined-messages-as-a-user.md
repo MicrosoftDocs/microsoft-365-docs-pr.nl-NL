@@ -1,0 +1,179 @@
+---
+title: Berichten in quarantaine zoeken en vrijgeven als gebruiker in Office 365
+f1.keywords:
+- NOCSH
+ms.author: chrisda
+author: chrisda
+manager: dansimp
+ms.date: ''
+audience: Consumer/IW
+ms.topic: article
+ms.service: O365-seccomp
+localization_priority: Priority
+search.appverid:
+- MET150
+- MEW150
+ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
+ms.collection:
+- M365-security-compliance
+description: Als Office 365-gebruiker kunt u uw berichten in quarantaine (berichten waarvan u ontvanger bent en het spamfilter het bericht in quarantaine heeft geplaatst als spam of bulkmail) zien, vrijgeven en verwijderen. U kunt uw berichten in quarantaine zien en beheren in het Beveiligings- en compliancecentrum.
+ms.openlocfilehash: 04f04cfddb123bf176f3c71568789c77d225a601
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42893668"
+---
+# <a name="find-and-release-quarantined-messages-as-a-user-in-office-365"></a>Berichten in quarantaine zoeken en vrijgeven als gebruiker in Office 365
+
+Potentieel gevaarlijke of ongewenste berichten worden in quarantaine geplaatst in Office 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken. Zie [Quarantaine in Office 365](quarantine-email-messages.md) voor meer informatie.
+
+Als gebruiker kunt u uw berichten in quarantaine waarvan u ontvanger bent en het bericht in quarantaine werd geplaatst als spam, bulkmail of (vanaf april 2020) phishing, zien, vrijgeven en verwijderen. U kunt ook fout-positieven melden aan Microsoft.
+
+U kunt uw berichten in quarantaine zien en beheren in het Beveiligings- en compliancecentrum.
+
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
+
+- Ga naar <https://protection.office.com> om het Office 365-beveiligings- en compliancecentrum te openen. Ga naar <https://protection.office.com/quarantine> als u de quarantainepagina direct wilt openen.
+
+- Beheerders kunnen instellen hoe lang berichten in quarantaine blijven voordat ze permanent worden verwijderd (antispambeleid). Berichten waarvan de quarantaine is verlopen, kunnen niet meer worden hersteld. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
+
+- Beheerders kunnen ook [Spammeldingen voor eindgebruikers inschakelen](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications) in antispambeleid. Vanaf oktober 2019 kunt u berichten in quarantaine niet meer direct vrijgeven vanuit deze meldingen. U kunt in de melding klikken op **Bekijken**, waarmee u naar Quarantaine gaat in het Beveiligings- en compliancecentrum.   Zie [Spammeldingen voor eindgebruikers in Office 365](use-spam-notifications-to-release-and-report-quarantined-messages.md) voor meer informatie.
+
+- Berichten die in quarantaine zijn geplaatst voor phishing van vertrouwelijke informatie, malware of door e-mailstroomregels (ook wel transportregels genoemd), zijn alleen beschikbaar voor beheerders. Zie [Berichten en bestanden in quarantaine beheren als Office 365-beheerder](manage-quarantined-messages-and-files.md).
+
+- U kunt een bericht slechts eenmaal vrijgeven en melden als fout-positief (geen ongewenste e-mail).
+
+## <a name="view-your-quarantined-messages"></a>Uw berichten in quarantaine bekijken
+
+1. Ga in het beveiligings- en compliancecentrum naar **Risicobeheer** \> **Bekijken** \> **Quarantaine**.
+
+2. U kunt de resultaten sorteren door op een beschikbare kolomkop te klikken. Klik op **Kolommen wijzigen** om maximaal zeven kolommen te laten zien. Standaardwaarden worden aangegeven met een sterretje (<sup>\*</sup>):
+
+   - **Ontvangen**<sup>\*</sup>
+
+   - **Afzender**<sup>\*</sup>
+
+   - **Onderwerp**<sup>\*</sup>
+
+   - **Reden van quarantaine**<sup>\*</sup>
+
+   - **Vrijgegeven?**<sup>\*</sup>
+
+   - **Beleidstype**<sup>\*</sup>
+
+   - **Veloopt op**<sup>\*</sup>
+
+   - **Ontvanger**
+
+   - **Bericht-ID**
+
+   - **Beleidsnaam**
+
+   - **Grootte**
+
+   - **Richting**
+
+   Klik op **Opslaan** of op **Instellen op standaard** wanneer u gereed bent.
+
+3. Klik op **Filter** om de resultaten te filteren. De beschikbare filters zijn:
+
+   - **Vervaldatum**: filtert de berichten op de datum dat de quarantaineperiode verloopt:
+
+     - **Vandaag**
+
+     - **Volgende 2 dagen**
+
+     - **Volgende 7 dagen**
+
+     - **Aangepast**: voer een **begindatum** en **einddatum** in.
+
+   - **Ontvangen**: voer een **begindatum** en**einddatum** in.
+
+   - **Reden van quarantaine**:
+
+     - **Bulk**
+
+     - **Spam**
+
+     - **Phish** (vanaf april 2020)
+
+   Als u het filter wilt wissen, drukt u op **wissen**. Als u het filterdeelvenster wilt verbergen, klikt u opnieuw op **Filter**.
+
+4. Gebruik **Resultaten sorteren op** (standaard de knop **Bericht-ID**) en een bijbehorende waarde om naar specifieke berichten te zoeken. Jokertekens worden niet ondersteund. U kunt zoeken op een van de volgende waarden:
+
+   - **Bericht-ID**: de wereldwijd unieke identificatie van het bericht. Als u een bericht selecteert in de lijst, verschijnt de waarde **Bericht-ID** in het deelvenster **Details** dat wordt weergegeven. Beheerders kunnen [berichttracering](message-trace-scc.md) gebruiken om naar berichten en de bijbehorende bericht-ID’s te zoeken.
+
+   - **E-mailadres afzender**: een e-mailadres van een afzender.
+
+   - **E-mailadres ontvanger**: een e-mailadres van een ontvanger.
+
+   - **Onderwerp**: gebruik het volledige onderwerp van het bericht. De zoekopdracht is niet hoofdlettergevoelig.
+
+   Nadat u de zoekcriteria hebt opgegeven, klikt u op de ![knop Vernieuwen](../media/scc-quarantine-refresh.png) **Vernieuwen** om de resultaten te filteren.
+
+Nadat u een specifiek bericht in quarantaine hebt gevonden, selecteert u het bericht om de details te bekijken en actie te ondernemen (bijvoorbeeld bericht bekijken, vrijgeven of verwijderen).
+
+### <a name="export-message-results"></a>Berichtresultaat exporteren
+
+1. Selecteer de berichten waarin u bent geïnteresseerd en klik op **Resultaten exporteren**.
+
+2. Klik op **Ja** in het bevestigingsbericht dat een waarschuwing weergeeft om het browservenster open te houden.
+
+3. Wanneer uw export klaar is, kunt u de downloadlocatie voor het .csv-bestand benoemen en kiezen.
+
+### <a name="view-quarantined-message-details"></a>Gegevens van bericht in quarantaine bekijken
+
+Wanneer u een e-mailbericht selecteert in de lijst verschijnen de volgende berichtdetails in het deelvenster **Details**:
+
+- **Bericht-ID**: de wereldwijd unieke identificatie van het bericht.
+
+- **Adres afzender**
+
+- **Ontvangen**: de datum/tijd waarop het bericht is ontvangen.
+
+- **Onderwerp**
+
+- **Reden van quarantaine**: wordt getoond als een bericht is geïdentificeerd als **Spam**, **Bulk** of (vanaf april 2020) **Phish**.
+
+- **Ontvangers**: als het bericht naar meerdere ontvangers is gestuurd, moet u klikken op **Preview bericht** of **Berichtkop bekijken** om de volledige lijst met ontvangers te zien.
+
+- **Verloopt**: de datum/tijd waarop het bericht automatisch en permanent wordt verwijderd uit quarantaine.
+
+- **Vrijgegeven aan**: alle e-mailadressen (indien aanwezig) waaraan het bericht is vrijgegeven.
+
+- **Nog niet vrijgegeven aan**: alle e-mailadressen (indien aanwezig) waaraan het bericht nog niet is vrijgegeven.
+
+### <a name="take-action-on-quarantined-email"></a>Actie ondernemen op e-mail in Quarantaine
+
+Nadat u een bericht selecteert, heb u in het deelvenster **Details** opties wat u met het bericht kunt doen:
+
+- **Bericht vrijgeven**: kies in het deelvenster dat wordt weergegeven of u **Berichten wilt rapporteren aan Microsoft voor analyse**. Dit is standaard geselecteerd en rapporteert het bericht dat onterecht in quarantaine is geplaatst aan Microsoft als een fout-positief.
+
+  Klik op **Berichten vrijgeven** wanneer u gereed bent.
+
+- **Berichtkop bekijken**: kies deze koppeling om de tekst van de berichtkop te bekijken. Kopieer om de kopvelden en -waarden beter te bekijken, de berichtkoptekst naar uw klembord en kies vervolgens **Microsoft-berichtkopanalyse** om naar de Verbindingsanalyse op afstand te gaan (klik met de rechtermuisknop en kies **In een nieuw tabblad openen** als u Office 365 niet wilt verlaten om deze taak te voltooien). Plak de berichtkop in de pagina in de sectie Berichtkopanalyse en kies **Koppen analyseren**:
+
+- **Preview van bericht**: kies in het deelvenster dat wordt weergegeven een van de volgende opties:
+
+  - **Bronweergave**: toont de HTML-versie van het bericht met uitgeschakelde koppelingen.
+  
+  - **Tekstweergave**: toont het bericht in gewone tekst.
+
+- **Bericht downloaden**: selecteer in het deelvenster dat wordt weergegeven **Ik begrijp de risico’s van het downloaden van dit bericht** om een lokale kopie van het bericht op te slaan in .eml-indeling.
+
+- **Verwijderen uit quarantaine**: nadat u op **Ja** hebt geklikt in de waarschuwing die wordt weergegeven, wordt het bericht onmiddellijk verwijderd.
+
+Klik op **Sluiten** wanneer u gereed bent.
+
+Als u het bericht niet vrijgeeft of verwijdert, wordt het verwijderd nadat de standaardquarantaineperiode is verlopen.
+
+#### <a name="take-action-on-multiple-quarantined-email-messages"></a>Actie ondernemen op meerdere e-mailberichten in quarantaine
+
+Wanneer u meerdere e-mailberichten in quarantaine selecteert (maximaal 100), verschijnt het deelvenster **Bulkopdrachten**, waar u de volgende acties kunt uitvoeren:
+
+- **Berichten vrijgeven**: de opties zijn hetzelfde als wanneer u een enkel bericht vrijgeeft, behalve dat u **Berichten vrijgeven aan specifieke ontvangers** niet kunt selecteren. U kunt alleen **Bericht vrijgeven aan alle ontvangers** of **Berichten vrijgeven aan andere personen**.
+
+- **Berichten verwijderen**: nadat u op **Ja** hebt geklikt in de waarschuwing die wordt weergegeven, worden de berichten onmiddellijk verwijderd, zonder naar de originele ontvanger te worden verzonden.
+
+Klik op **Sluiten** wanneer u gereed bent.
