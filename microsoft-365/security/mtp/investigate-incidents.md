@@ -1,7 +1,7 @@
 ---
-title: Incidenten onderzoeken in Microsoft Threat Protection
+title: Incidenten in Microsoft Threat Protection onderzoeken
 description: Analyseer incidenten met betrekking tot apparaten, gebruikers en postvakken.
-keywords: incidenten, incidenten, machines, apparaten, gebruikers, identiteiten, e-mail, e-mail, mailbox, onderzoek, grafiek, bewijs
+keywords: incidenten, machines, apparaten, gebruikers, identiteiten, e-mail, e-mail, postvak, onderzoek, grafiek, bewijs
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -19,100 +19,100 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 82069224a3f38357e52c2772c984d20d6597342d
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 1883f61f50dad9b601329369bf180ddecba70138
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857485"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928960"
 ---
-# <a name="investigate-incidents-in-microsoft-threat-protection"></a>Incidenten onderzoeken in Microsoft Threat Protection
+# <a name="investigate-incidents-in-microsoft-threat-protection"></a>Incidenten in Microsoft Threat Protection onderzoeken
 
 **Van toepassing op:**
 
 - Microsoft-bedreigingsbeveiliging
 
-Microsoft Threat Protection verzamelt alle gerelateerde waarschuwingen, assets, onderzoeken en bewijsmateriaal van alle apparaten, gebruikers en postvakken om u een uitgebreid overzicht te geven van de gehele breedte van een aanval.
+Microsoft Threat Protection verzamelt alle gerelateerde waarschuwingen, activa, onderzoeken en bewijsmateriaal van al uw apparaten, gebruikers en postvakken om u een uitgebreide blik te geven op de gehele breedte van een aanval.
 
-Onderzoek de waarschuwingen die van invloed zijn op uw netwerk, begrijp wat ze betekenen en collate bewijs in verband met de incidenten, zodat u een effectief herstelplan bedenken.
+Onderzoek de waarschuwingen die van invloed zijn op uw netwerk, begrijp wat ze betekenen en verwerk bewijsmateriaal in verband met de incidenten, zodat u een effectief herstelplan opstellen.
 
-## <a name="investigate-an-incident"></a>Een incident onderzoeken
+## <a name="investigate-an-incident"></a>Onderzoek een incident
 
 1. Selecteer een incident in de wachtrij voor incidenten. <BR> Hiermee wordt een zijpaneel geopend en wordt een voorbeeld gegeven van belangrijke informatie zoals status, ernst, categorieën en de getroffen entiteiten.
 
-    ![Afbeelding van het zijpaneel van incidenten](../../media/incident-side-panel.png)
+    ![Afbeelding van het zijpaneel van incident](../../media/incident-side-panel.png)
 
-2. Selecteer **Incidentpagina openen**. <BR> Hiermee wordt de incidentenpagina geopend waar u meer informatievindt over incidentgegevens, opmerkingen en acties, tabbladen (overzicht, waarschuwingen, apparaten, gebruikers, onderzoeken, bewijsmateriaal).
+2. Selecteer **De pagina Incident openen openen**. <BR> Hiermee wordt de incidentpagina geopend waar u meer informatie vindt over incidentdetails, opmerkingen en acties, tabbladen (overzicht, waarschuwingen, apparaten, gebruikers, onderzoeken, bewijsmateriaal).
 
 3. Bekijk de waarschuwingen, apparaten, gebruikers, andere entiteiten die betrokken zijn bij het incident.
 
-## <a name="incident-overview"></a>Incidentoverzicht
+## <a name="incident-overview"></a>Overzicht van incidenten
 
-De overzichtspagina geeft u een momentopname een blik in de bovenste dingen om op te merken over het incident.
+De overzichtspagina geeft u een momentopname van de belangrijkste dingen om op te merken over het incident.
 
-![Afbeelding van de overzichtspagina incidenten](../../media/incidents-overview.png)
+![Afbeelding van de overzichtspagina voor incidenten](../../media/incidents-overview.png)
 
 De aanvalscategorieën geven u een visueel en numeriek beeld van hoe geavanceerd de aanval is gevorderd tegen de kill chain. Net als bij andere Microsoft-beveiligingsproducten is Microsoft Threat Protection afgestemd op het [MITRE&trade; ATT-&CK-framework.](https://attack.mitre.org/)
 
-De sectie bereik geeft u een lijst met de belangrijkste beïnvloede activa die deel uitmaken van dit incident. Als er specifieke informatie over dit actief, zoals risiconiveau, onderzoek prioriteit evenals eventuele tagging op de activa zal dit ook opduiken in deze sectie.
+De sectie scope geeft u een lijst met de belangrijkste getroffen activa die deel uitmaken van dit incident. Als er specifieke informatie over dit actief, zoals risiconiveau, onderzoek prioriteit evenals eventuele tagging op de activa zal dit ook naar boven komen in deze sectie.
 
-De tijdlijn met waarschuwingen biedt een voorproefje van de chronologische volgorde waarin de waarschuwingen zijn opgetreden, evenals de redenen dat deze waarschuwingen verband houden met dit incident.
+De tijdlijn van waarschuwingen biedt een voorproefje van de chronologische volgorde waarin de waarschuwingen hebben plaatsgevonden, evenals de redenen waarom deze waarschuwingen verband houden met dit incident.
 
-En als laatste - de bewijssectie geeft een samenvatting van hoeveel verschillende artefacten zijn opgenomen in het incident en hun herstelstatus, zodat u onmiddellijk identificeren of er actie nodig is aan uw kant.
+En ten slotte - het bewijs sectie biedt een samenvatting van hoeveel verschillende artefacten werden opgenomen in het incident en hun herstelstatus, zodat u onmiddellijk identificeren of er actie nodig is aan uw kant.
 
-Dit overzicht kan helpen bij de eerste triage van het incident door inzicht te geven in de topkenmerken van het incident waarvan u op de hoogte moet zijn.
+Dit overzicht kan helpen bij de eerste triage van het incident door inzicht te geven in de belangrijkste kenmerken van het incident waar u zich bewust van moet zijn.
 
 ## <a name="alerts"></a>Waarschuwingen
 
-U alle waarschuwingen met betrekking tot het incident en andere informatie over het incident bekijken, zoals de ernst, entiteiten die betrokken waren bij de waarschuwing, de bron van de waarschuwingen (Azure ATP, Microsoft Defender ATP, Office 365 ATP) en de reden waarom ze met elkaar zijn verbonden.
+U alle waarschuwingen met betrekking tot het incident en andere informatie over het incident bekijken, zoals ernst, entiteiten die betrokken waren bij de waarschuwing, de bron van de waarschuwingen (Azure ATP, Microsoft Defender ATP, Office 365 ATP) en de reden waarom ze aan elkaar zijn gekoppeld.
 
-![Afbeelding van de pagina incidentwaarschuwingen](../../media/incident-alerts.png)
+![Afbeelding van de pagina incidentmeldingen](../../media/incident-alerts.png)
 
-Standaard worden de waarschuwingen chronologisch geordend, zodat u eerst zien hoe de aanval zich in de loop van de tijd heeft afgespeeld. Als u op elke waarschuwing klikt, leidt u naar de relevante waarschuwingspagina waar u een diepgaand onderzoek naar die waarschuwing uitvoeren.
+Standaard worden de waarschuwingen chronologisch geordend, zodat u eerst zien hoe de aanval in de loop van de tijd is afgespeeld. Als u op elke waarschuwing klikt, leidt u naar de relevante waarschuwingspagina waar u een diepgaand onderzoek naar die waarschuwing uitvoeren.
 
 ## <a name="devices"></a>Apparaten
 
-Het tabblad Apparaten bevat alle apparaten waar waarschuwingen met betrekking tot het incident worden gezien.
+Op het tabblad Apparaten worden alle apparaten weergegeven waar waarschuwingen met betrekking tot het incident worden weergegeven.
 
-Als u op de naam van de machine klikt waar de aanval is uitgevoerd, navigeert u naar de machinepagina waar u waarschuwingen zien die daarop zijn geactiveerd en gerelateerde gebeurtenissen die zijn verstrekt om het onderzoek te vergemakkelijken.
+Als u op de naam klikt van de machine waar de aanval is uitgevoerd, navigeert u naar de machinepagina, waar u waarschuwingen zien die erop zijn geactiveerd en gerelateerde gebeurtenissen die worden verstrekt om het onderzoek te vergemakkelijken.
 
 ![Afbeelding van het tabblad machines van een incident](../../media/incident-machines.png)
 
-Als u het tabblad Tijdlijn selecteert, u door de tijdlijn van de machine bladeren en alle gebeurtenissen en gedragingen bekijken die op de machine in chronologische volgorde worden waargenomen, afgewisseld met de opgehaalde waarschuwingen.
+Als u het tabblad Tijdlijn selecteert, u door de tijdlijn van de machine bladeren en alle gebeurtenissen en gedragingen die op de machine worden waargenomen in chronologische volgorde bekijken, afgewisseld met de opgehaalde waarschuwingen.
 
 ## <a name="users"></a>Gebruikers
 
-Bekijk gebruikers waarvan is vastgesteld dat ze deel uitmaken van of verband houden met een bepaald incident.
+Bekijk gebruikers waarvan is vastgesteld dat ze deel uitmaken van of gerelateerd zijn aan een bepaald incident.
 
-Als u op de gebruikersnaam klikt, gaat u naar de cloudappbeveiligingspagina van de gebruiker waar verder onderzoek kan worden uitgevoerd.
+Als u op de gebruikersnaam klikt, navigeert u naar de cloud-appbeveiligingspagina van de gebruiker, waar verder onderzoek kan worden uitgevoerd.
 
 ![Afbeelding van het tabblad gebruikers van een incident](../../media/incident-users.png)
 
 ## <a name="mailboxes"></a>Postvakken
 
-Onderzoek mailboxen waarvan is vastgesteld dat ze deel uitmaken van of verband houden met een incident. Als u verder onderzoekswerk wilt doen, opent u office 365 Advanced Threat Protection bij het selecteren van de e-mail, waar u herstelacties uitvoeren.
+Onderzoek postvakken waarvan is vastgesteld dat ze deel uitmaken van of gerelateerd zijn aan een incident. Als u verder onderzoekswerk wilt doen, opent u de waarschuwing voor e-mailgerelateerde meldingen van Office 365 Advanced Threat Protection, waar u herstelacties uitvoeren.
 
-![Afbeelding van postvakrekening van een incident](../../media/incident-mailboxes.png)
+![Afbeelding van het postvaktabblad van een incident](../../media/incident-mailboxes.png)
 
 ## <a name="investigations"></a>Onderzoeken
 
-Selecteer **Onderzoeken** om alle geautomatiseerde onderzoeken te zien die worden geactiveerd door waarschuwingen in dit incident. De onderzoeken voeren herstelacties uit of wachten op goedkeuring door analisten van acties, afhankelijk van hoe u uw geautomatiseerde onderzoeken hebt geconfigureerd om te worden uitgevoerd in Microsoft Defender ATP en Office 365 Advanced Threat Protection.
+Selecteer **Onderzoeken** om alle geautomatiseerde onderzoeken te zien die worden geactiveerd door waarschuwingen in dit incident. De onderzoeken voeren herstelacties uit of wachten op goedkeuring door analisten van acties, afhankelijk van hoe u uw geautomatiseerde onderzoeken hebt geconfigureerd om uit te voeren in Microsoft Defender ATP en Office 365 Advanced Threat Protection.
 
 ![Afbeelding van het tabblad onderzoeken van een incident](../../media/incident-investigations.png)
 
-Selecteer een onderzoek om naar de pagina Onderzoeksgegevens te navigeren om volledige informatie te krijgen over de onderzoeks- en herstelstatus. Als er acties in behandeling zijn voor goedkeuring als onderdeel van het onderzoek, worden ze weergegeven op het tabblad In behandeling zijnde acties. Onderneem actie in het kader van incidentsanering.
+Selecteer een onderzoek om naar de pagina Details van het Onderzoek te navigeren om volledige informatie over de status van het onderzoek en de herstelstatus te krijgen. Als er acties in behandeling zijn voor goedkeuring als onderdeel van het onderzoek, worden ze weergegeven op het tabblad In behandeling zijnde acties. Onderneem actie als onderdeel van incidentherstel.
 
 ## <a name="evidence"></a>Bewijs
 
-Microsoft Threat Protection onderzoekt automatisch alle ondersteunde gebeurtenissen en verdachte entiteiten van de incidenten in de waarschuwingen, zodat u automatisch reageren en informatie krijgt over de belangrijke bestanden, processen, services, e-mails en meer. Dit helpt bij het snel detecteren en blokkeren van potentiële bedreigingen in het incident.
+Microsoft Threat Protection onderzoekt automatisch de ondersteunde gebeurtenissen en verdachte entiteiten van alle incidenten in de waarschuwingen, zodat u automatisch wordt gereageerd en informatie krijgt over de belangrijke bestanden, processen, services, e-mails en meer. Dit helpt bij het snel detecteren en blokkeren van potentiële bedreigingen in het incident.
 
 ![Afbeelding van het bewijstabblad van een incident](../../media/incident-evidence.png)
 
-Elk van de geanalyseerde entiteiten wordt gemarkeerd met een vonnis (Kwaadaardig, Verdacht, Schoon) en een herstelstatus. Dit helpt u bij het begrijpen van de herstelstatus van het hele incident en wat zijn de volgende stappen die kunnen worden genomen om verder te saneren.
+Elk van de geanalyseerde entiteiten zal worden gemarkeerd met een vonnis (Kwaadaardig, Verdacht, Schoon) en een herstelstatus. Dit helpt u bij het begrijpen van de herstelstatus van het gehele incident en wat de volgende stappen zijn die kunnen worden genomen om verder te herstellen.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 - [Overzicht van incidenten](incidents-overview.md)
-- [Incidenten prioriteren](incident-queue.md)
+- [Prioriteit geven aan incidenten](incident-queue.md)
 - [Incidenten beheren](manage-incidents.md)
-- [Gebeurtenissen en waarschuwingen op een specifieke machine bekijken](machine-profile.md)
+

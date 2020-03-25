@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 7ff46226e2535ed9826a61afa857e38b03c06ce1
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 38eb3c39c5473d0a729b12771b61e965dbc81931
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42807337"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42929478"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>Gedeelde query's gebruiken in geavanceerde jacht
 
@@ -66,8 +66,9 @@ Microsoft security onderzoekers delen regelmatig geavanceerde jacht query's in e
 >Microsoft security onderzoekers bieden ook geavanceerde jacht query's die u gebruiken om activiteiten en indicatoren in verband met opkomende bedreigingen te lokaliseren. Deze query's worden geleverd als onderdeel van de [rapporten over bedreigingsanalyse](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) in Microsoft Defender Security Center.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Proactief op zoek naar bedreigingen](advanced-hunting-overview.md)
+- [Geavanceerd jachtoverzicht](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
+- [Werken met queryresultaten](advanced-hunting-query-results.md)
 - [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)
 - [Het schema begrijpen](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)
