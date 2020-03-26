@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Biedt een inleiding tot de onderdelen, plannen en implementatiepaden voor Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 035c7bc2086b4f70dacc31c3489a4a8adc8fb3dd
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 01c5eac2c1ad90bfaa189c26fa4997a1bd2fc10e
+ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42805469"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951992"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Overzicht van Microsoft 365 voor ondernemingen
 
@@ -67,9 +67,9 @@ De [Microsoft 365 voor bedrijfsposter](../media/m365-poster/Microsoft365Enterpri
 - De [Microsoft 365 Productivity Library](https://www.microsoft.com/microsoft-365/success/) en representatieve scenario's voor sommige algemene organisatieafdelingen
 - De goedkeuringsroadmap die de Microsoft 365 for enterprise [Deployment Guide](deploy-microsoft-365-enterprise.md) belicht
 
-[![Afbeelding voor de Microsoft 365 voor bedrijfsposter](../media/m365-poster/m365e-poster.png)](../media/m365-poster/Microsoft365Enterprise.pdf)
+[![Afbeelding voor de poster Microsoft 365 voor bedrijven](../media/m365-poster/m365e-poster.png)](../media/m365-poster/Microsoft365Enterprise.pdf)
 
-Om een kopie van de poster te downloaden, klik [hier](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/m365-poster/Microsoft365Enterprise.pdf).
+Om een kopie van de poster te downloaden, klik [hier](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/m365-poster/Microsoft365Enterprise.pdf).
 
 
 ## <a name="transition-your-entire-organization"></a>Uw hele organisatie overschakelen
@@ -80,7 +80,7 @@ Download de [overgangsposter](../media/deploy-microsoft-365-enterprise/transitio
 
 Deze poster van twee pagina's is een snelle manier om uw bestaande infrastructuur te inventariseren en de richtlijnen te vinden voor het verplaatsen naar het bijbehorende product of de bijbehorende service in Microsoft 365 voor ondernemingen. Het omvat Windows- en Office-producten en andere infrastructuur- en beveiligingselementen zoals apparaatbeheer, identiteit en informatie- en bedreigingsbeveiliging.
 
-U [deze poster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) ook downloaden en afdrukken in letter-, juridische of tabloid (11 x 17) formaten.
+U [deze poster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) ook downloaden en afdrukken in letter-, juridische of tabloid (11 x 17) formaten.
 
 ## <a name="avoid-end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Einde ondersteuning voor Windows 7- en Office 2010-clients en -servers voorkomen
 
@@ -96,11 +96,11 @@ De volgende producten bereiken het einde van de steun op **13 oktober 2020**:
 
 Zie het einde van de [ondersteuningsposter](../media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)voor een visueel overzicht van de upgrade, migreren en verplaatsen naar de cloud.
 
-[![Afbeelding voor het einde van de ondersteuning voor Office 2010-clients en -servers en Windows 7-poster](../media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](../media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
+[![Afbeelding voor de poster Eindgebruikersondersteuning voor Office 2010-clients en -servers en Windows 7](../media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](../media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
 
 Deze poster van één pagina is een snelle manier om inzicht te krijgen in de verschillende paden die u volgen om te voorkomen dat Windows 7- en Office 2010-client- en serverproducten het einde van de ondersteuning bereiken, met voorkeurspaden en ondersteuning in Microsoft 365 voor enterprise gemarkeerd.
 
-U [deze poster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) ook downloaden en afdrukken in letter-, juridische of tabloid (11 x 17) formaten.
+U [deze poster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) ook downloaden en afdrukken in letter-, juridische of tabloid (11 x 17) formaten.
 
 ## <a name="deploy"></a>Implementeren
 

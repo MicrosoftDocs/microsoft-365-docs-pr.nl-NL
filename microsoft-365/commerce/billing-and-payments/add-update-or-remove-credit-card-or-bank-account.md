@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Meer informatie over het beheren van uw betalingsmethoden in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 49f1c0847ef53bea9a16a6aedb20f7d3a96d6e2c
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 47635f5fe5ffd37fbd33c258ab1df729dfc13399
+ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42811023"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42952004"
 ---
 # <a name="add-update-or-remove-your-payment-methods"></a>Uw betalingsmethoden toevoegen, bijwerken of verwijderen
 
@@ -158,9 +158,7 @@ Als uw betalingsmethode is gekoppeld aan een factureringsprofiel en ook wordt ge
 U moet een globale beheerder of factureringsbeheerder zijn om de taken in dit artikel uit te voeren.
   
  **Bent u geen beheerder?** Neem contact op met uw IT-beheerder voor hulp. [Wie heeft beheerdersmachtigingen in mijn bedrijf?](../../admin/admin-overview/admin-overview.md#who-has-admin-permissions-in-my-business)
-  
- Zie [De betalingsmethode of creditcard wijzigen die is gekoppeld aan uw Microsoft-account voor](https://support.microsoft.com/help/4026594)Office **365 Home of Persoonlijk.**
-  
+
 > [!NOTE]
 > De optie om te betalen met een bankrekening is niet beschikbaar in sommige landen of regio's.
 >
@@ -181,7 +179,7 @@ U moet een globale beheerder of factureringsbeheerder zijn om de taken in dit ar
 4. Voer de gegevens voor de nieuwe creditcard of bankrekening in en selecteer **Verzenden**.
 
     > [!NOTE]
-    > De nieuwe creditcard of bankrekening wordt alleen gebruikt voor het Office 365-abonnement dat u in stap 2 hebt gekozen. Als u de nieuwe creditcard of bankrekening voor een van uw andere abonnementen wilt gebruiken, volgt u de stappen in dit artikel om de creditcard of bankrekening voor elk abonnement te wijzigen.
+    > De nieuwe creditcard of bankrekening wordt alleen gebruikt voor het abonnement dat u in stap 2 hebt gekozen. Als u de nieuwe creditcard of bankrekening voor een van uw andere abonnementen wilt gebruiken, volgt u de stappen in dit artikel om de creditcard of bankrekening voor elk abonnement te wijzigen.
 
 ::: moniker-end
 
@@ -191,8 +189,6 @@ U moet een globale beheerder of factureringsbeheerder zijn om de taken in dit ar
 U moet een globale beheerder of factureringsbeheerder zijn om de taken in dit artikel uit te voeren.
   
  **Bent u geen beheerder?** Neem contact op met uw IT-beheerder. [Wie heeft beheerdersmachtigingen in mijn bedrijf?](../../admin/admin-overview/admin-overview.md#who-has-admin-permissions-in-my-business)
-  
- Zie [De betalingsmethode of creditcard wijzigen die is gekoppeld aan uw Microsoft-account voor](https://support.microsoft.com/help/4026594)Office **365 Home of Persoonlijk.**
   
 > [!NOTE]
 > De optie om te betalen met een bankrekening is niet beschikbaar in sommige landen of regio's.
@@ -212,7 +208,7 @@ U moet een globale beheerder of factureringsbeheerder zijn om de taken in dit ar
 4. Voer de gegevens voor de nieuwe creditcard of bankrekening in en selecteer **Verzenden**.
 
     > [!NOTE]
-    > De nieuwe creditcard of bankrekening wordt alleen gebruikt voor het Office 365-abonnement dat u in stap 2 hebt gekozen. Als u de nieuwe creditcard of bankrekening voor een van uw andere abonnementen wilt gebruiken, volgt u de stappen in dit artikel om de creditcard of bankrekening voor elk abonnement te wijzigen.
+    > De nieuwe creditcard of bankrekening wordt alleen gebruikt voor het abonnement dat u in stap 2 hebt gekozen. Als u de nieuwe creditcard of bankrekening voor een van uw andere abonnementen wilt gebruiken, volgt u de stappen in dit artikel om de creditcard of bankrekening voor elk abonnement te wijzigen.
 
 ::: moniker-end
 

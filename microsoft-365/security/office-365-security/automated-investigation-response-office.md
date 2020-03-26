@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Krijg een overzicht van geautomatiseerde onderzoeks- en reactiemogelijkheden in Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air
-ms.openlocfilehash: 420143a6a2888900cdc128b22f7b0bcb05adad27
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: f6bbad82f3dce7080aca079a5f750dfc1fea068b
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826401"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955568"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Geautomatiseerd onderzoek en antwoord (AIR) in Office 365
 
@@ -92,7 +92,7 @@ Elke stap op hoog niveau bevat een aantal substappen die worden uitgevoerd om ee
 
 ## <a name="example-a-user-reported-phish-message-launches-an-investigation-playbook"></a>Voorbeeld: Een door de gebruiker gerapporteerd phish-bericht lanceert een onderzoeksplaybook
 
-Wanneer een gebruiker in uw organisatie een e-mailbericht indient en rapporteert aan Microsoft met behulp van de [invoegtoepassing Rapportbericht voor Outlook of Outlook Web App,](enable-the-report-message-add-in.md)wordt het rapport ook naar uw systeem verzonden en is het zichtbaar in Explorer in de weergave Door gebruikers gerapporteerde weergave. Dit door de gebruiker gerapporteerde bericht activeert nu een systeemgebaseerde informatieve waarschuwing, die automatisch het onderzoeksplaybook start.
+Stel dat een gebruiker in uw organisatie een e-mail ontvangt waarvan hij denkt dat het een phishing-poging is. De gebruiker, die is getraind om dergelijke berichten te rapporteren, gebruikt de [invoegtoepassing Rapportbericht voor Outlook of Outlook Web App](enable-the-report-message-add-in.md) om deze naar Microsoft te verzenden voor analyse. De indiening wordt ook naar uw systeem verzonden en is zichtbaar in Explorer in de weergave **Inzendingen** (voorheen aangeduid als de weergave Door de **gebruiker gerapporteerde** weergave). Bovendien activeert het door de gebruiker gerapporteerde bericht nu een systeemgebaseerde informatieve waarschuwing, die automatisch het onderzoeksplaybook start.
 
 Tijdens de wortelonderzoeksfase worden verschillende aspecten van de e-mail beoordeeld. Deze omvatten:
 - Een bepaling over wat voor soort bedreiging het zou kunnen zijn;
@@ -121,13 +121,13 @@ Herstel is de laatste fase van het draaiboek. In deze fase worden saneringsmaatr
 
 Naast automatische onderzoeken die worden geactiveerd door een waarschuwing, kan het beveiligingsteam van uw organisatie een automatisch onderzoek starten vanuit een weergave in [Threat Explorer.](threat-explorer.md)
 
-Stel dat u gegevens in Explorer over door gebruikers gerapporteerde berichten bekijkt. U een item selecteren in de lijst met resultaten en vervolgens in het actiemenu op **Onderzoek** klikken (ervan uitgaande dat u over de juiste herstelmachtigingen beschikt).
+Stel dat u de weergave **Malware** gebruikt in Threat Explorer. Met de tabbladen onder de grafiek selecteert u het tabblad **E-mail.** Als u een of meer items in de lijst selecteert, wordt de knop **+ Acties** geactiveerd. 
 
-![Door de gebruiker gerapporteerde berichten in Explorer met knop Onderzoeken](../../media/Explorer-UserReported-Investigate.png)
+:::image type="content" source="../../media/Explorer-Malware-Email-ActionsInvestigate.png" alt-text="Explorer met geselecteerde berichten":::
 
-Stel dat u gegevens over gedetecteerde e-mailberichten bekijkt die malware bevatten en dat er verschillende e-mailberichten zijn gedetecteerd die malware bevatten. U het tabblad **E-mail** selecteren, een of meer e-mailberichten selecteren en vervolgens in het menu **Acties** de optie **Onderzoeken selecteren**. 
+In het menu **Acties** u **Onderzoek activeren**selecteren.
 
-![Een onderzoek starten naar malware in Explorer](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
+:::image type="content" source="../../media/explorer-malwareview-selectedemails-actions.jpg" alt-text="Menu Acties voor geselecteerde berichten":::
 
 Net als bij playbooks die worden geactiveerd door een waarschuwing, bevatten automatische onderzoeken die vanuit een weergave in Explorer worden geactiveerd een root-onderzoek, stappen om bedreigingen te identificeren en te correleren en aanbevolen acties om deze bedreigingen te beperken.
 

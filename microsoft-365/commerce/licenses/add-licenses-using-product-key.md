@@ -23,20 +23,20 @@ search.appverid:
 - BEA160
 ms.assetid: 4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53
 ROBOTS: NOINDEX
-description: Meer informatie over het toevoegen van licenties aan uw Office 365-abonnement.
-ms.openlocfilehash: 93c2929ae575282716cad7b6f64519f5974e3158
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: Meer informatie over het toevoegen van licenties aan uw abonnement.
+ms.openlocfilehash: 4d559d977ac507b448d816f3f87e85a923df810f
+ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42805950"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951944"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>Licenties toevoegen aan of verlengen van een abonnement dat is betaald voor het gebruik van een productcode
 
 Vooruitbetaalde gebruikerslicenties worden aan u verstrekt in de vorm van een alfanumerieke code met 25 tekens. Nadat u de licenties hebt gekocht die u nodig hebt, u deze toevoegen aan uw abonnement. U ook een productcode gebruiken om de vervaldatum van uw abonnement te verlengen.
 
 > [!NOTE]
-> Als u geen nieuwe productcode wilt kopen, u er altijd voor kiezen om een creditcard of bankrekening aan uw abonnement toe te voegen om voor meer licenties te betalen of om de vervaldatum van uw abonnement te verlengen. Zie [Office 365 voor Bedrijven vernieuwen voor](../subscriptions/renew-your-subscription.md)meer informatie.
+> Als u geen nieuwe productcode wilt kopen, u er altijd voor kiezen om een creditcard of bankrekening aan uw abonnement toe te voegen om voor meer licenties te betalen of om de vervaldatum van uw abonnement te verlengen. Zie [Uw abonnement verlengen](../subscriptions/renew-your-subscription.md)voor meer informatie.
   
 ## <a name="add-licenses-to-your-subscription"></a>Licenties toevoegen aan uw abonnement
 

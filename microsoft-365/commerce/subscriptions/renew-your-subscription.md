@@ -24,18 +24,18 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: 'Meer informatie over het verlengen van uw Office 365 voor Bedrijven-abonnement met een productcode en het in- of uitschakelen van terugkerende facturering. '
-ms.openlocfilehash: bef43359b2a073339488648466adaf4603a12c43
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 777f60ae40e72a6762015b24ffe1a1f0fed055ba
+ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42808908"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42959214"
 ---
 # <a name="renew-office-365-for-business"></a>Office 365 voor Bedrijven verlengen
 
 Dit artikel is van toepassing op de meeste betaalde Abonnementen op Office 365 voor Bedrijven.
   
-Zie [EFind en voer uw productcode in](../enter-your-product-key.md)met een productcode die u hebt gekocht in een winkel of Office 365-partner.
+Zie [Uw productcode zoeken en invoeren](../enter-your-product-key.md)als u wilt verlengen met een productcode die u hebt gekocht in een winkel of Office 365-partner.
 
 > [!NOTE]
 > Betalen per bankrekening is niet beschikbaar in sommige landen of regio's.
@@ -109,7 +109,7 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
 
     > [!NOTE]
     > - U alleen de instelling **Terugkerende facturering** voor actieve abonnementen wijzigen. Als uw abonnement al is verlopen of is uitgeschakeld, moet u [het opnieuw activeren](reactivate-your-subscription.md) voordat u Terugkerende **facturering** in- of uitschakelen.
-    > - Wanneer **Terugkerende facturering** is uitgeschakeld, wordt het abonnement niet meteen opgezegd. Het blijft actief totdat het verloopt. U de vervaldatum bekijken op de abonnementskaart
+    > - Wanneer **Terugkerende facturering** is uitgeschakeld, wordt het abonnement niet meteen opgezegd. Het blijft actief totdat het verloopt. U de vervaldatum bekijken op de abonnementskaart.
     > - Zie [Mijn abonnement opzeggen](cancel-your-subscription.md)voor meer informatie over het opzeggen van het abonnement.
 
 ::: moniker-end

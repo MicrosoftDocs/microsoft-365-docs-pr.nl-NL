@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: aea95dae0165eb23331b2fa24d5fc752df3f4345
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 8370744d244ce424fa21e496e8dfd4f470de88e6
+ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42807292"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42959180"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Beleidsaanbevelingen voor het beveiligen van e-mail
 
@@ -41,42 +41,20 @@ Als u Exchange Online en Outlook hebt opgenomen in het toepassingsgebied van het
 |Beschermingsniveau|Beleid|Meer informatie|
 |:---------------|:-------|:----------------|
 |**Basislijn**|[MFA vereisen wanneer het aanmeldingsrisico *gemiddeld* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Exchange Online opnemen in de toewijzing van cloud-apps|
-|        |[Clients blokkeren die geen moderne verificatie ondersteunen](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Exchange Online opnemen in de toewijzing van cloud-apps|
+|        |[Cliënten blokkeren die geen moderne verificatie ondersteunen](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Exchange Online opnemen in de toewijzing van cloud-apps|
 |        |[Beleid voor app-beveiliging definiëren](identity-access-policies.md#high-risk-users-must-change-password)|Zorg ervoor dat Outlook is opgenomen in de lijst met apps. Zorg ervoor dat u het beleid voor elk platform bijwerkt (iOS, Android, Windows)|
-|        |[Goedgekeurde apps vereisen](identity-access-policies.md#require-approved-apps)|Exchange Online opnemen in de lijst met cloud-apps|
-|        |[Compatibele pc's vereisen](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Exchange Online opnemen in lijst met cloud-apps|
+|        |[Apps vereisen die het beleid voor app-beveiliging van Intune ondersteunen](identity-access-policies.md#require-apps-that-support-intune-app-protection-policies)|Exchange Online opnemen in de lijst met cloud-apps|
+|        |[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Exchange Online opnemen in lijst met cloud-apps|
 |        |[ActiveSync-clients blokkeren](#block-activesync-clients)|Dit nieuwe beleid toevoegen| 
-|**Gevoelige**|[MFA vereisen wanneer het aanmeldingsrisico *laag,* *gemiddeld* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)| Exchange Online opnemen in de toewijzing van cloud-apps|
+|**Gevoelig**|[MFA vereisen wanneer het aanmeldingsrisico *laag,* *gemiddeld* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)| Exchange Online opnemen in de toewijzing van cloud-apps|
 |         |[Compatibele pc's *en* mobiele apparaten vereisen](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Exchange Online opnemen in de lijst met cloud-apps|
-|**Sterk gereguleerd**|[*Altijd* mfa nodig](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Exchange Online opnemen in de toewijzing van cloud-apps|
+|**Sterk gereglementeerd**|[*Altijd* mfa nodig](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Exchange Online opnemen in de toewijzing van cloud-apps|
 
 ## <a name="block-activesync-clients"></a>ActiveSync-clients blokkeren
 
-Met dit beleid voorkomt u dat ActiveSync-clients andere regels voor voorwaardelijke toegang omzeilen. De regelconfiguratie is alleen van toepassing op ActiveSync-clients. Door **de goedgekeurde clientapp vereisen te**selecteren, blokkeert dit beleid ActiveSync-clients. Ga als volgt te werk om dit beleid te configureren:
+Met dit beleid voorkomt u dat ActiveSync-clients andere regels voor voorwaardelijke toegang omzeilen. De regelconfiguratie is alleen van toepassing op ActiveSync-clients. Door **[het beleid voor app-beveiliging vereisen te selecteren,](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)** blokkeert dit beleid ActiveSync-clients. Details over het maken van dit beleid vindt u in [Het beveiligingsbeleid voor apps vereisen voor toegang tot de cloud-app met voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access).
 
-1. Ga naar de [Azure-portal](https://portal.azure.com)en meld u aan met uw referenties. Nadat u zich hebt aangemeld, ziet u het Azure-dashboard.
-
-2. Kies **Azure Active Directory** in het linkermenu.
-
-3. Kies voorwaardelijke **toegang**onder de sectie **Beveiliging** .
-
-4. Kies **Nieuw beleid**.
-
-5. Voer een beleidsnaam in en kies vervolgens de **gebruikers en groepen** waarvoor u het beleid wilt toepassen.
-
-6. Kies **Cloud-apps**.
-
-7. Kies **Apps selecteren**en selecteer Office **365 Exchange Online**. Kies **Selecteren** en **gereed**.
-
-8. Kies **Voorwaarden**en kies **client-apps**.
-
-9. Selecteer **Ja**voor **Configureren.** Controleer alleen het volgende: **mobiele apps en desktopclients** en **Exchange ActiveSync-clients**. Kies **Done**.
-
-10. Kies **Verlenen** in de sectie **Toegangsbesturingselementen.**
-
-11. Kies **Toegang verlenen,** selecteer **Goedgekeurde clientapp vereisen**.  Selecteer Voor meerdere besturingselementen **De geselecteerde besturingselementen vereisen**en kies Selecteer **Selecteren**.
-
-12. Kies **Create**.
+1. Volg 'Stap 2: Configureer een Azure AD Conditional Access-beleid voor Exchange Online met ActiveSync (EAS)" in [scenario 1: Voor Office 365-apps zijn goedgekeurde apps met een beleid voor app-beveiliging vereist,](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)waardoor Exchange ActiveSync-clients geen basisverificatie kunnen gebruiken voor Exchange Online.
 
 ## <a name="setup-office-365-message-encryption"></a>Office 365-berichtversleuteling instellen
 

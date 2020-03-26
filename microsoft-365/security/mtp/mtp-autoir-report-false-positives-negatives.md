@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 2f3808f599caa4ed347fc182005397c14b9f51b2
-ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
+ms.openlocfilehash: 90651aa258adb9f7fe46f99bcadf1d4d552a5b76
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42810458"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955659"
 ---
 # <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Omgaan met false positives/negatives in geautomatiseerde onderzoeks- en reactiemogelijkheden
 
@@ -46,19 +46,19 @@ Gebruik dit artikel als een gids.
 |Object gemist of ten onrechte gedetecteerd |Service  |Wat te doen  |
 |---------|---------|---------|
 |- E-mailbericht <br/>- E-mailbijlage <br/>- URL in een e-mailbericht<br/>- URL in een Office-bestand      |[Geavanceerde bedreigingsbeveiliging van Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)        |[Vermoedelijke spam, phish, URL's en bestanden verzenden naar Microsoft voor het scannen van Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission)         |
-|Bestand of app op een apparaat    |[Geavanceerde bescherming voor geavanceerde bedreigingen van Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection)         |[Een bestand indienen bij Microsoft voor malware-analyse](https://www.microsoft.com/wdsi/filesubmission)         |
+|Bestand of app op een apparaat    |[Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection)         |[Een bestand indienen bij Microsoft voor malware-analyse](https://www.microsoft.com/wdsi/filesubmission)         |
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>Een waarschuwing aanpassen om te voorkomen dat fout-positieven terugkeren
 
 |Scenario |Service |Wat te doen |
 |--------|--------|--------|
 |- Een waarschuwing wordt geactiveerd door legitiem gebruik <br/>- Een waarschuwing is onjuist    |[Beveiliging van Microsoft Cloud-apps](https://docs.microsoft.com/cloud-app-security)<br/> of <br/>[Azure Advanced Threat Detection](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)         |[Waarschuwingen beheren in de cloudapp-beveiligingsportal](https://docs.microsoft.com/cloud-app-security/managing-alerts)         |
-|Een bestand, IP-adres, URL of domein wordt behandeld als malware op een apparaat, ook al is het veilig|[Geavanceerde bescherming voor geavanceerde bedreigingen van Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection) |[Een aangepaste indicator maken met de actie 'Toestaan'](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
+|Een bestand, IP-adres, URL of domein wordt behandeld als malware op een apparaat, ook al is het veilig|[Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection) |[Een aangepaste indicator maken met de actie 'Toestaan'](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
 
 
 ## <a name="undo-a-remediation-action-that-was-taken-on-a-device"></a>Een herstelactie ongedaan maken die op een apparaat is uitgevoerd
 
-Als er een herstelactie is uitgevoerd op een apparaat (zoals een Windows 10-apparaat) en het item daadwerkelijk schoon is, kan uw beveiligingsteam de herstelactie in het [actiecentrum](mtp-action-center.md)ongedaan maken.
+Als er een herstelactie is uitgevoerd op een apparaat (zoals een Windows 10-apparaat) en het item is eigenlijk geen bedreiging, kan uw beveiligingsteam de herstelactie in het [Actiecentrum](mtp-action-center.md)ongedaan maken.
 
 > [!IMPORTANT]
 > Zorg ervoor dat u over de [benodigde machtigingen beschikt](mtp-action-center.md#required-permissions-for-action-center-tasks) voordat u probeert de volgende taak uit te voeren.

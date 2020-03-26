@@ -2,8 +2,8 @@
 title: Threat Explorer en real-time detecties, nieuw in Threat Explorer, wijzigingen in Threat Explorer, nieuw in Office 365, Beveiliging, Cloud Security, nieuw voor beveiliging in ATP, nieuwe ATP-functies
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over Explorer- en realtime &amp; detecties in het Security Compliance Center.
-ms.openlocfilehash: 3ddcaf4dc457ead7a203e00d71d0d18c23ee6557
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 47dd871a385613c08ad5b4c02a7be8701e4b93a8
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42806103"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955601"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Threat Explorer en real-time detecties
 
@@ -139,7 +139,7 @@ Als u phish-URL's wilt controleren in berichten en wilt klikken op URL's in phis
 
    - **De belangrijkste URL's** zijn de URL's in de berichten waarnaar u hebt gefilterd en de actie voor e-mailbezorging telt voor elke URL. In de phish-e-mailweergave bevat deze lijst doorgaans legitieme URL's. Aanvallers bevatten een mix van goede en slechte URL's in hun berichten om te proberen om ze geleverd, maar ze zullen de kwaadaardige links interessanter voor de gebruiker om te klikken. De tabel met URL's wordt gesorteerd op het totale aantal e-mail (LET OP: deze kolom wordt niet weergegeven om de weergave te vereenvoudigen).
 
-   - **De hoogste klikken** zijn de in veilige koppelingen verpakte URL's waarop is geklikt, gesorteerd op totaal aantal klikken (deze kolom wordt ook niet weergegeven om de weergave te vereenvoudigen). Het totaal aantal tellingen per kolom geeft het aantal klikken op veilige koppelingen aan op het aantal klikken voor elke klik-URL. In de phish-e-mailweergave zijn dit vaker verdachte of schadelijke URL's, maar kunnen schone URL's bevatten die zich in phish-berichten bevinden. URL-klikken op onverpakte links worden hier niet weergegeven.
+   - **De hoogste klikken** zijn de in veilige koppelingen verpakte URL's waarop is geklikt, gesorteerd op totaal aantal klikken (deze kolom wordt ook niet weergegeven om de weergave te vereenvoudigen). Het totaal aantal tellingen per kolom geeft het aantal klikken op veilige koppelingen aan op het aantal klikken voor elke klik-URL. In de phish-e-mailweergave zijn dit vaker verdachte of schadelijke URL's, maar kunnen URL's bevatten die geen bedreigingen zijn, maar in phish-berichten staan. URL-klikken op onverpakte links worden hier niet weergegeven.
    
    De twee URL-tabellen tonen de belangrijkste URL's in phishing-e-mailberichten op basis van leveringsactie en locatie, en ze tonen URL-klikken die zijn geblokkeerd (of bezocht ondanks een waarschuwing), zodat u begrijpen welke potentiële slechte koppelingen door gebruikers zijn ontvangen en waarmee gebruikers hebben samengewerkt. Vanaf hier u verdere analyse uitvoeren. Onder de grafiek ziet u bijvoorbeeld de bovenste URL's in e-mailberichten die zijn geblokkeerd in de omgeving van uw organisatie.
    

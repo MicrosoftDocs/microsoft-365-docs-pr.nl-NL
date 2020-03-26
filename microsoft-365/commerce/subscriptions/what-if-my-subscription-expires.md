@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Lees wat er met uw gegevens gebeurt wanneer uw abonnement op Office 365 voor Bedrijven verloopt, is uitgeschakeld of als u opzegt.
-ms.openlocfilehash: 717beff94255fe669f9ce9bc733300679ffc3d53
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2529d5027305a9ceaf71033b4de52a867b9fa9fb
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42807447"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955671"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-office-365-for-business-subscription-ends"></a>Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement op Office 365 voor Bedrijven afloopt?
 
@@ -44,7 +44,7 @@ In de volgende tabel wordt uitgelegd wat u verwachten wanneer een betaald Abonne
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | *Gegevens die toegankelijk zijn voor iedereen*                                               | *Gegevens die toegankelijk zijn voor iedereen*                                                     | *Alleen gegevens die toegankelijk zijn voor beheerders*                                             | **Gegevens verwijderd<br/>Azure Active Directory wordt verwijderd, indien niet in gebruik door andere services** |
 | Gebruikers hebben normale toegang tot Office 365,gegevens en Office-toepassingen  | Gebruikers hebben normale toegang tot Office 365, bestanden en toepassingen              | Gebruikers hebben geen toegang tot Office 365, bestanden of toepassingen                        | Gebruikers hebben geen toegang tot Office 365, bestanden of toepassingen                                     |
-| Beheerders hebben normale toegang tot Office 365,gegevens en Office-toepassingen | Beheerders hebben toegang tot het beheercentrum                                           | Beheerders hebben toegang tot het beheercentrum, maar kunnen geen licenties toewijzen aan gebruikers       | Beheerders hebben toegang tot het beheercentrum om andere abonnementen te kopen en te beheren             |
+| Beheerders hebben normale toegang tot Office 365,gegevens en Office-toepassingen | Beheerders hebben toegang tot het beheercentrum, maar kunnen geen licenties toewijzen aan gebruikers   | Beheerders hebben toegang tot het beheercentrum, maar kunnen geen licenties toewijzen aan gebruikers       | Beheerders hebben toegang tot het beheercentrum om andere abonnementen te kopen en te beheren             |
 |                                                                        | Globale of factureringsbeheerders kunnen het abonnement opnieuw activeren in het beheercentrum | Globale of factureringsbeheerders kunnen het abonnement opnieuw activeren in het beheercentrum |                                                                                           |
 
 *Voor de meeste aanbiedingen, in de meeste landen en regio's.
@@ -66,7 +66,7 @@ Voordat het abonnement daadwerkelijk de vervaldatum bereikt, hebt u een paar opt
 
   - Als u Office 365 Business hebt gekocht met een prepaidkaart, u Terugkerende facturering voor uw abonnement [inschakelen.](renew-your-subscription.md)
 
-  - Als u een klant bent in Open Volume Licensing met een prepaid abonnement van één jaar, neemt u contact op met uw partner om een nieuwe productcode aan te schaffen. U ontvangt instructies via e-mail om uw sleutel te activeren in het [Volume Licensing Service Center.](https://go.microsoft.com/fwlink/p/?LinkID=282016) Zie Uw [Office 365-partner of -reseller zoeken](../../admin/manage/find-your-partner-or-reseller.md)voor meer informatie over het vinden van een nieuwe partner of de partner waarmee u in het verleden hebt samengewerkt.
+  - Als u een klant bent in Open Volume Licensing met een prepaid abonnement van één jaar, neemt u contact op met uw partner om een nieuwe productcode aan te schaffen. U ontvangt instructies via e-mail om uw sleutel te activeren in het [Volume Licensing Service Center.](https://go.microsoft.com/fwlink/p/?LinkID=282016) Zie Uw [partner of reseller](../../admin/manage/find-your-partner-or-reseller.md)zoeken voor meer informatie over het vinden van een nieuwe partner of de partner waarmee u in het verleden hebt samengewerkt.
 
   - Zie Terugkerende facturering voor uw [abonnement beheren](renew-your-subscription.md)als u Office 365 Business hebt.
 
@@ -90,9 +90,9 @@ Voordat het abonnement daadwerkelijk de vervaldatum bereikt, hebt u een paar opt
 
   - Als u Office 365 Business hebt gekocht met een prepaidkaart, u Terugkerende facturering voor uw abonnement [inschakelen.](renew-your-subscription.md)
 
-  - Als u een klant bent in Open Volume Licensing met een prepaid abonnement van één jaar, neemt u contact op met uw partner om een nieuwe productcode aan te schaffen. U ontvangt instructies via e-mail om uw sleutel te activeren in het [Volume Licensing Service Center.](https://go.microsoft.com/fwlink/p/?LinkID=282016) Zie Uw [Office 365-partner of -reseller zoeken](../../admin/manage/find-your-partner-or-reseller.md)voor meer informatie over het vinden van een nieuwe partner of de partner waarmee u in het verleden hebt samengewerkt.
+  - Als u een klant bent in Open Volume Licensing met een prepaid abonnement van één jaar, neemt u contact op met uw partner om een nieuwe productcode aan te schaffen. U ontvangt instructies via e-mail om uw sleutel te activeren in het [Volume Licensing Service Center.](https://go.microsoft.com/fwlink/p/?LinkID=282016) Zie Uw [partner of reseller](../../admin/manage/find-your-partner-or-reseller.md)zoeken voor meer informatie over het vinden van een nieuwe partner of de partner waarmee u in het verleden hebt samengewerkt.
 
-  - Zie [Office 365 voor Bedrijven vernieuwen](renew-your-subscription.md)als u Office 365 voor Bedrijven hebt.
+  - Zie [Uw abonnement verlengen](renew-your-subscription.md)als u Office 365 Business hebt.
 
 - **Laat het abonnement verlopen.**
 
@@ -143,7 +143,7 @@ Dit is wat u verwachten wanneer uw abonnement in elke staat is.
 
 In deze status hebben gebruikers normale toegang tot de Office 365-portal, Office-toepassingen en services zoals e-mail en SharePoint Online.
   
-Als beheerder heb je nog steeds toegang tot het beheercentrum. Maak je geen zorgen: globale of factureringsbeheerders kunnen [het abonnement opnieuw activeren](reactivate-your-subscription.md) en Office 365 blijven gebruiken. Als u niet opnieuw activeert, moet u [een back-up maken van uw gegevens.](back-up-data-before-switching-plans.md)
+Als beheerder hebt u nog steeds toegang tot het beheercentrum, maar u geen licenties toewijzen aan gebruikers. Globale of factureringsbeheerders kunnen [het abonnement opnieuw activeren](reactivate-your-subscription.md) en Office 365 blijven gebruiken. Als u niet opnieuw activeert, moet u [een back-up maken van uw gegevens.](back-up-data-before-switching-plans.md)
   
 ### <a name="state-disabled"></a>Staat: Uitgeschakeld
   
