@@ -17,16 +17,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: e093bd9c5a76b44cf66591b4212f37014189186e
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: 5715baaccd95d975f7d15196906a6326177bbc2e
+ms.sourcegitcommit: 242f051c4cf3683f8c1a5da20ceca81bde212cfc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928994"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982006"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Leer de geavanceerde jachtquerytaal
 
-**Van toepassing op:**
+**Geldt voor:**
 - Microsoft-bedreigingsbeveiliging
 
 Geavanceerde jacht is gebaseerd op de [Kusto query taal](https://docs.microsoft.com/azure/kusto/query/). U kusto-syntaxis en operatoren gebruiken om query's te maken die informatie vinden in het [schema](advanced-hunting-schema-tables.md) dat specifiek is gestructureerd voor geavanceerde jacht. Voer uw eerste query uit om deze concepten beter te begrijpen.
@@ -57,8 +57,9 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 
 Dit is hoe het eruit zal zien in geavanceerde jacht.
 
-![Afbeelding van geavanceerde jachtquery van Microsoft Threat Protection](../../media/advanced-hunting-query-example.png)
+![Afbeelding van geavanceerde jachtquery van Microsoft Threat Protection](../../media/advanced-hunting-query-example-2.png)
 
+### <a name="describe-the-query-and-specify-the-tables-to-search"></a>Beschrijf de query en geef de tabellen op die moeten zoeken
 Er is een korte opmerking toegevoegd aan het begin van de query om te beschrijven waar deze voor is. Dit helpt als u later besluit om de query op te slaan en te delen met anderen in uw organisatie. 
 
 ```kusto
@@ -70,12 +71,14 @@ De query zelf begint meestal met een tabelnaam, gevolgd door`|`een reeks element
 ```kusto
 union DeviceProcessEvents, DeviceNetworkEvents
 ```
+### <a name="set-the-time-range"></a>Het tijdsbereik instellen
 Het eerste piped element is een tijdfilter dat is uitgevoerd naar de voorgaande zeven dagen. Als u het tijdsbereik zo beperkt mogelijk houdt, zorgt u ervoor dat query's goed presteren, beheerbare resultaten opleveren en geen time-out krijgen.
 
 ```kusto
 | where Timestamp > ago(7d)
 ```
 
+### <a name="check-specific-processes"></a>Specifieke processen controleren
 Het tijdsbereik wordt onmiddellijk gevolgd door een zoekopdracht naar procesbestandsnamen die de PowerShell-toepassing vertegenwoordigen.
 
 ```
@@ -83,20 +86,23 @@ Het tijdsbereik wordt onmiddellijk gevolgd door een zoekopdracht naar procesbest
 | where FileName in~ ("powershell.exe", "powershell_ise.exe")
 ```
 
+### <a name="search-for-specific-command-strings"></a>Zoeken naar specifieke opdrachttekenreeksen
 Daarna zoekt de query naar tekenreeksen in opdrachtregels die doorgaans worden gebruikt om bestanden te downloaden met PowerShell.
 
 ```kusto
 // Suspicious commands
 | where ProcessCommandLine has_any("WebClient",
- "DownloadFile",
- "DownloadData",
- "DownloadString",
-"WebRequest",
-"Shellcode",
-"http",
-"https")
+    "DownloadFile",
+    "DownloadData",
+    "DownloadString",
+    "WebRequest",
+    "Shellcode",
+    "http",
+    "https")
 ```
-Nu uw query duidelijk de gegevens identificeert die u wilt vinden, u elementen toevoegen die bepalen hoe de resultaten eruit zien. `project`retourneert `top` specifieke kolommen en beperkt het aantal resultaten, waardoor de resultaten goed zijn opgemaakt en redelijk groot en eenvoudig te verwerken zijn.
+
+### <a name="customize-result-columns-and-length"></a>Resultaatkolommen en lengte aanpassen 
+Nu uw query duidelijk de gegevens identificeert die u wilt vinden, u elementen toevoegen die bepalen hoe de resultaten eruit zien. `project`retourneert specifieke `top` kolommen en beperkt het aantal resultaten. Deze operators zorgen ervoor dat de resultaten goed geformatteerd en redelijk groot en eenvoudig te verwerken zijn.
 
 ```kusto
 | project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
@@ -104,9 +110,12 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | top 100 by Timestamp
 ```
 
-Klik **op Query uitvoeren** om de resultaten te bekijken. Selecteer het uitvouwpictogram rechtsboven in de queryeditor om u te concentreren op uw jachtquery en de resultaten.
+Klik **op Query uitvoeren** om de resultaten te bekijken. Selecteer het uitvouwpictogram rechtsboven in de queryeditor om u te concentreren op uw jachtquery en de resultaten. 
 
 ![Afbeelding van het besturingselement Uitvouwen in de geavanceerde besturingselement voor jachtquery's](../../media/advanced-hunting-expand.png)
+
+>[!TIP]
+>U queryresultaten als grafieken weergeven en filters snel aanpassen. Lees voor richtlijnen [meer over werken met queryresultaten](advanced-hunting-query-results.md)
 
 ## <a name="learn-common-query-operators-for-advanced-hunting"></a>Meer informatie over algemene query-operators voor geavanceerde jacht
 

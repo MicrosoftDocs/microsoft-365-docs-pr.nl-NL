@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 772c4c5785115995593a4946bfbac49312ad15f3
-ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
+ms.openlocfilehash: cfeef08c087d826d3e6f90bd1bb87bd852859a7c
+ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 03/26/2020
-ms.locfileid: "42959226"
+ms.locfileid: "42978264"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Gemeenschappelijk beleid voor identiteits- en apparaattoegangs
 In dit artikel worden de algemene aanbevolen beleidsregels beschreven voor het beveiligen van toegang tot cloudservices, waaronder on-premises toepassingen die zijn gepubliceerd met Azure AD Application Proxy. 
@@ -217,7 +217,7 @@ Met Voorwaardelijke toegang kunnen organisaties de toegang tot goedgekeurde (mod
    > [!NOTE]
    > Dit beleid zorgt ervoor dat mobiele gebruikers toegang hebben tot alle Office-eindpunten met behulp van de toepasselijke apps.
 
-2. Als u mobiele toegang tot Exchange Online inschakelt, implementeert u [ActiveSync-clients blokkeren] (secure-email-recommended-policies.md#block-activesync-clients), waardoor Exchange ActiveSync-clients geen verbinding kunnen maken met Exchange Online.
+2. Als u mobiele toegang tot Exchange Online inschakelt, implementeert u [Block ActiveSync-clients](secure-email-recommended-policies.md#block-activesync-clients), waardoor Exchange ActiveSync-clients geen verbinding kunnen maken met Exchange Online.
 
    Het bovenstaande beleid maakt gebruik van de subsidiebesturingselementen [Vereist goedgekeurde client-app](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-approved-client-app) en [Vereist app-beveiligingsbeleid](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy).
 
