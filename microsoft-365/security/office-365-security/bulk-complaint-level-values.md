@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 8/23/2019
 audience: ITPro
 ms.topic: article
@@ -15,13 +15,13 @@ search.appverid:
 ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over bcl-waarden (bulkbomplain level) in Office 365.
-ms.openlocfilehash: 6b90064db7dd9b27fdc729b65fb798dfbe756da7
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: Meer informatie over de BCL-waarden (Bulk Compliance Level) in Office 365.
+ms.openlocfilehash: aa839fc1bcab141fe71c76e7f27b4f6bb23048b2
+ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895391"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43030149"
 ---
 # <a name="bulk-complaint-level-bcl-in-office-365"></a>Bulkklachtenniveau (BCL) in Office 365
 
@@ -35,7 +35,7 @@ De BCL-drempels worden beschreven in de volgende tabel.
 
 |||
 |:---:|---|
-|**Bcl**|**Beschrijving**|
+|**BCL**|**Beschrijving**|
 |0|Het bericht is niet van een afzender in bulk.|
 |1, 2, 3|Het bericht is van een bulk afzender die weinig klachten genereert.|
 |4, 5, 6, 7|Het bericht is van een bulk afzender die een gemengd aantal klachten genereert.|
