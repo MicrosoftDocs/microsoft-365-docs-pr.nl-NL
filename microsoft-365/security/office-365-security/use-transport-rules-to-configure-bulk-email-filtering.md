@@ -15,16 +15,16 @@ ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u regels voor e-mailstroom gebruiken in Exchange Online Protection voor het filteren van bulke-mail.
-ms.openlocfilehash: 2ac81d798af957f23f95b92f633b93bdda677991
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: b08edfdd88f6f522d3bf212b209ee4b293d7198a
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895045"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033636"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-office-365"></a>Regels voor e-mailstromen gebruiken om bulke-mail te filteren in Office 365
 
-Als u een Office 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection-klant (EOP) zonder Exchange Online-postvakken, gebruikt EOP antispambeleid (ook wel beleid voor spamfilters of inhoudsfilterbeleid genoemd) om te scannen binnenkomende berichten voor spam en bulkmail (ook wel grijze e-mail genoemd). Zie [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md)voor meer informatie.
+Als u een Office 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection-klant (EOP) zonder Exchange Online-postvakken, gebruikt EOP antispambeleid (ook wel beleid voor spamfilters of inhoudsfilterbeleid genoemd) om te scannen binnenkomende berichten voor spam en bulkmail (ook wel grijze e-mail genoemd). Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
 
 Als u meer opties wilt filteren voor bulkmail, u regels voor e-mailstromen (ook wel transportregels genoemd) maken om te zoeken naar tekstpatronen of zinnen die vaak in bulkmail worden gevonden en deze berichten markeren als spam. Zie Wat is het [verschil tussen ongewenste e-mail en bulke-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md) en [Bulk klachtenniveau (BCL) in Office 365](bulk-complaint-level-values.md)voor meer informatie over bulkmail.
 
@@ -36,7 +36,7 @@ In dit onderwerp wordt uitgelegd hoe deze regels voor e-mailstroom worden gemaak
 
 - Zie [Exchange-beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center)als u de EAC in Exchange Online wilt openen.
 
-- Zie Verbinding maken met Exchange Online PowerShell als u verbinding wilt maken met Exchange Online [PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) Zie Verbinding maken met Exchange Online Protection PowerShell als u verbinding wilt maken met zelfstandige Exchange Online Protection [PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone Exchange Online Protection PowerShell.
 
 - Zie de volgende onderwerpen voor meer informatie over regels voor e-mailstromen in Exchange Online en zelfstandige EOP:
 
@@ -66,7 +66,7 @@ In dit onderwerp wordt uitgelegd hoe deze regels voor e-mailstroom worden gemaak
 
    - **Pas deze regel toe als:** Een van de volgende instellingen configureren om inhoud in berichten te zoeken met behulp van reguliere expressies (RegEx) of woorden of zinnen:
 
-     - **Het onderwerp of het onderwerp** \> van het **hoofd of de hoofdtekst komt overeen met deze tekstpatronen:** Voer in het dialoogvenster **Woorden of zinnen opgeven** dat wordt weergegeven een van de volgende waarden in, **klik** ![op Pictogram](../../media/ITPro-EAC-AddIcon.png)toevoegen en herhaal zo vaak als nodig is.
+     - **Het onderwerp of het onderwerp** \> **of de hoofdtekst komt overeen met deze tekstpatronen:** voer in](../../media/ITPro-EAC-AddIcon.png)het dialoogvenster Woorden of zinnen **opgeven** dat wordt weergegeven een van de volgende waarden in, **klik** ![op Pictogram toevoegen en herhaal totdat u alle waarden hebt ingevoerd.
 
        - `If you are unable to view the content of this email\, please`
 
@@ -96,7 +96,7 @@ In dit onderwerp wordt uitgelegd hoe deze regels voor e-mailstroom worden gemaak
 
        Klik op **OK**als u klaar bent.
 
-     - **Het onderwerp of het onderwerp** \> **of de hoofdtekst bevat een van deze woorden:** In het dialoogvenster Woorden](../../media/ITPro-EAC-AddIcon.png)of zinnen **opgeven** dat wordt weergegeven, voert u een van de volgende waarden in, **klikt** ![u op Pictogram toevoegen en herhaal tumoet zo vaak als nodig is.
+     - **Het onderwerp of het onderwerp** \> **of de hoofdtekst bevat een van deze woorden:** Voer in het dialoogvenster](../../media/ITPro-EAC-AddIcon.png)Woorden of zinnen **opgeven** dat wordt weergegeven een van de volgende waarden in, **klik** ![op Pictogram toevoegen en herhaal totdat u alle waarden hebt ingevoerd.
 
        - `to change your preferences or unsubscribe`
 
@@ -138,7 +138,7 @@ In dit onderwerp wordt uitgelegd hoe deze regels voor e-mailstroom worden gemaak
 
    Klik op **Opslaan** als u klaar bent
 
-## <a name="use-powershell-to-create-a-mail-flow-rules-that-filter-bulk-email"></a>PowerShell gebruiken om een e-mailstroomregels te maken die bulke-mail filteren
+## <a name="use-powershell-to-create-mail-flow-rules-that-filter-bulk-email"></a>PowerShell gebruiken om regels voor e-mailstromen te maken die bulke-mail filteren
 
 Gebruik de volgende syntaxis om een of beide regels voor e-mailstromen (reguliere expressies versus woorden) te maken:
 

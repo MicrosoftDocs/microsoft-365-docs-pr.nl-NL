@@ -2,10 +2,10 @@
 title: Wat is het verschil tussen ongewenste e-mail en bulke-mail?
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 1/7/2015
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,35 +15,36 @@ search.appverid:
 ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
 ms.collection:
 - M365-security-compliance
-description: Klanten vragen soms wat is het verschil tussen ongewenste e-mail en bulk e-mailberichten? Het doel van dit onderwerp is om het verschil uit te leggen en om informatie te verstrekken over de verschillende opties die beschikbaar zijn voor zowel In Exchange Online en Exchange Online Protection (EOP).
-ms.openlocfilehash: 55924ac5e83ca109fd66d1723cdb7c5f43f20df6
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: In dit onderwerp wordt het verschil uitgelegd tussen ongewenste e-mail (spam) en bulke-mail en de bijbehorende besturingselementen in Office 365.
+ms.openlocfilehash: 56e997235a374ee9f56956be96458b46bffcdc21
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895033"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033624"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>Wat is het verschil tussen ongewenste e-mail en bulke-mail?
 
-Klanten vragen soms "wat is het verschil tussen ongewenste e-mail en bulk e-mailberichten?" Het doel van dit onderwerp is om het verschil uit te leggen en om informatie te verstrekken over de verschillende opties die beschikbaar zijn voor zowel In Exchange Online en Exchange Online Protection (EOP).
-  
- **Wat is ongewenste e-mail?**
-  
-Ongewenste e-mailberichten zijn "spam"-berichten, die ongevraagde (en meestal ongewenste) e-mailberichten zijn die door de service worden gefilterd. Standaard wijst de service het spambericht af op basis van de reputatie van het verzendende IP-adres. Als het echter door de IP-inspectie wordt doorgegeven, maar door de inhoudsfilters als spam wordt geclassificeerd, wordt het bericht verzonden naar de map Ongewenste e-mail van de beoogde ontvangers. 
-  
-> [!NOTE]
-> De actie die wordt uitgevoerd op door inhoud gefilterde berichten, kan worden geconfigureerd via inhoudsfilterbeleid in het Exchange-beheercentrum (EAC), zoals beschreven in [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md). Ook als u het niet eens bent met de spamclassificatie, u berichten die u als spam of niet-spam beschouwt op verschillende manieren aan Microsoft rapporteren, zoals beschreven in [Spam verzenden, niet-spam en phishing-scamberichten aan Microsoft voor analyse.](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md) 
-  
- **Wat is bulk e-mail?**
-  
-Bulk e-mail, ook wel grijze e-mail genoemd, is een type e-mailbericht dat moeilijker te classificeren is. Terwijl ongewenste e-mail is een constante bedreiging, bulk e-mail is meestal samengesteld uit een advertentie of marketing bericht dat is waarschijnlijk niet herhaaldelijk verzonden. Bulk e-mail wordt gezocht door sommige gebruikers, en in feite kunnen ze opzettelijk hebben aangemeld om deze berichten te ontvangen, terwijl andere gebruikers kunnen overwegen dit soort berichten te zijn spam. Sommige gebruikers willen bijvoorbeeld advertentie-e-mails van de Contoso Corporation of uitnodigingen voor een komende conferentie over cyberbeveiliging ontvangen, terwijl andere gebruikers dergelijke e-mails als spam beschouwen.
-  
+Office 365-klanten met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-klanten zonder Exchange Online-postvakken vragen soms: "wat is het verschil tussen ongewenste e-mail en bulke-mail?" In dit onderwerp wordt het verschil uitgelegd en worden de besturingselementen beschreven die beschikbaar zijn in EOP.
+
+- **Ongewenste e-mail** is spam, die ongevraagde en universeel ongewenste berichten (wanneer correct geïdentificeerd). Standaard wijst de EOP spam af op basis van de reputatie van de bron-e-mailserver. Als een bericht de IP-inspectie van de bron doorgeeft, wordt het verzonden naar spamfiltering. Als het bericht wordt geclassificeerd als spam door spamfiltering, wordt het bericht (standaard) geleverd aan de beoogde ontvangers en verplaatst naar de map Ongewenste e-mail.
+
+  - U de acties configureren die u wilt uitvoeren op spamfilteringsvonnissen. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md)voor instructies.
+
+  - Als u het niet eens bent met het spamfiltervonnis, u berichten die u als spam of niet-spam beschouwt op verschillende manieren aan Microsoft rapporteren, zoals beschreven in [Berichten en bestanden rapporteren aan Microsoft.](report-junk-email-messages-to-microsoft.md)
+
+- **Bulk e-mail** (ook wel bekend als _grijze e-mail),_ is moeilijker te classificeren. Terwijl spam is een constante bedreiging, bulk e-mail is vaak eenmalige advertenties of marketing berichten. Sommige gebruikers willen bulk e-mailberichten (en in feite, ze hebben bewust aangemeld om ze te ontvangen), terwijl andere gebruikers overwegen bulk e-mail te zijn spam. Sommige gebruikers willen bijvoorbeeld advertentieberichten ontvangen van de Contoso Corporation of uitnodigingen voor een komende conferentie over cyberbeveiliging, terwijl andere gebruikers dezelfde berichten als spam beschouwen.
+
+  Zie [Bulkklachtenniveau (BCL) in Office 365 voor](bulk-complaint-level-values.md)meer informatie over de manier waarop bulke-mail wordt geïdentificeerd.
+
 ## <a name="how-to-manage-bulk-email"></a>Bulke-mail beheren
 
-Hoe bulk e-mail te beheren is niet een duidelijke cut beslissing, want als alle bulk e-mail is geclassificeerd als spam, de gebruikers die het willen kan klagen en indienen als een vals-positief (niet-spam) bericht dat ten onrechte werd gemarkeerd als spam. Aan de andere kant, als alle bulk e-mail wordt verhuurd door, de gebruikers die niet willen dat het kan klagen en indienen als een gemiste spam-bericht (vals negatief) dat ten onrechte aangekomen in hun inbox.
-  
-### <a name="enable-bulk-mail-sensitivity-control-in-the-content-filter-policy"></a>Gevoeligheidscontrole voor bulkmail inschakelen in het inhoudsfilterbeleid
+Vanwege de gemengde reactie op bulk e-mail, is er geen universele begeleiding die van toepassing is op elke organisatie.
 
-Afhankelijk van het beleid van uw bedrijf ten aanzien van bulke-mailberichten, kunnen beheerders een drempelwaarde selecteren om de bulke-mail toe te wijzen. De instelling is configureerbaar via inhoudsfilterbeleid in de EAC. Bekijk [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor de stappen. U een drempelinstelling kiezen van 1-9, waarbij 1 de meeste bulke-mail markeert als spam en 9 de meeste bulke-mail kan worden bezorgd. De service voert vervolgens de geconfigureerde actie uit, zoals het verzenden van het bericht naar de map Ongewenste e-mail van de ontvanger. 
-  
+Anti-spam politie heeft een standaard BCL drempel die wordt gebruikt om bulk e-mail te identificeren als spam. Beheerders kunnen de drempelwaarde verhogen of verlagen. Lees de volgende onderwerpen voor meer informatie:
 
+- [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md).
+
+- [EOP-beleidsinstellingen voor spam](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)
+
+Een andere optie die gemakkelijk over het hoofd te zien: als een gebruiker klaagt over het ontvangen van bulk e-mail, maar de berichten zijn van gerenommeerde afzenders die spam filtering passeren in EOP, hebben de gebruiker controleren op een uitschrijven optie in de bulk e-mailbericht.

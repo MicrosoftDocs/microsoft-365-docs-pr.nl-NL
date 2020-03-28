@@ -1,5 +1,5 @@
 ---
-title: Ongewenste e-mailberichten melden aan Microsoft
+title: Spam-, spam- en phishingberichten melden aan Microsoft
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,55 +16,25 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: 'De invoegtoepassing Microsoft Voor het melden van ongewenste e-mail voor Microsoft Office Outlook biedt verschillende manieren om ongewenste e-mailberichten te melden:'
-ms.openlocfilehash: b1ed918e4b954cc7b2d79e52abd6f58a99eda0f0
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: b7e7ed56f171ee3b74b36ed7c10c46286fb1e570
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895177"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033660"
 ---
-# <a name="report-junk-email-messages-to-microsoft"></a>Ongewenste e-mailberichten melden aan Microsoft
+# <a name="report-messages-and-files-to-microsoft"></a>Berichten en bestanden rapporteren aan Microsoft
 
-De invoegtoepassing Microsoft Voor het melden van ongewenste e-mail voor Microsoft Office Outlook biedt verschillende manieren om ongewenste e-mailberichten te melden:
+Gebruikers en beheerders in Office 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken om e-mailberichten in te dienen, hebben verschillende methoden voor het rapporteren van berichten en bestanden naar Microsoft.
 
-- Vanaf het outlook-lint
+|||
+|---|---|
+|**Methode**|**Beschrijving**|
+|[Beheerbeheer gebruiken om vermoedelijke spam, phish, URL's en bestanden bij Microsoft in te dienen](admin-submission.md)|Dit is de aanbevolen rapportagemethode voor beheerders in organisaties met Exchange Online-postvakken (niet beschikbaar in zelfstandige EOP).|
+|[De invoegtoepassing Rapportbericht inschakelen in Office 365](enable-the-report-message-add-in.md)|Werkt met Outlook, Outlook voor Mac en de webversie van Outlook. Dit is de aanbevolen invoegtoepassing. <br/><br/> Afhankelijk van uw licentie zijn de gerapporteerde berichten beschikbaar in [de resultaten van Automated Investigation and Response (AIR),](air-view-investigation-results.md)het door de gebruiker [gerapporteerde berichtenrapport](view-email-security-reports.md#user-reported-messages-report) en [Threat Explorer.](threat-explorer-views.md#email--submissions)|
+|[De invoegtoepassing Voor melding van ongewenste e-mail rapportage voor Microsoft Outlook installeren en gebruiken in Office 365](junk-email-reporting-add-in-for-microsoft-outlook.md)|Werkt alleen in Outlook.|
+|[Ongewenste en phishing-e-mail melden in de webversie van Outlook in Office 365](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)|Gebruik de ingebouwde mogelijkheden in de webversie van Outlook voor organisaties met Exchange Online-postvakken (niet beschikbaar in zelfstandige EOP).|
+|[Malware en niet-malware indienen bij Microsoft voor analyse](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Gebruik de Microsoft Security Intelligence-site om bijlagen en andere bestanden in te dienen.|
+|
 
-- Vanuit je Postvak IN
-
-- Vanuit een geopend e-mailbericht
-
-Met de invoegtoepassing Voor het melden voor ongewenste e-mailrapportage u rapporten indienen bij de EOP-service (Microsoft Exchange Online Protection). Als uw postvak niet door de service wordt beschermd, heeft het indienen van uw ongewenste e-mailrapport geen invloed op uw spamfilters. Beheerders kunnen meer informatie krijgen over spam-instellingen die van toepassing zijn op een hele organisatie bij [Lijsten met veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md) en [Lijsten met geblokkeerde afzenders maken in Office 365](create-block-sender-lists-in-office-365.md). Deze zijn handig als u controle op administratorniveau hebt en u valse positieven of valse negatieven wilt voorkomen.
-
-> [!TIP]
-> U ook spamberichten rechtstreeks naar Microsoft verzenden met behulp van het [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) e-mailadres en fout-positieve (niet-spam)berichten met behulp van het [not_junk@office365.microsoft.com](mailto:not_junk@office365.microsoft.com) e-mailadres. Zie [Spam, niet-spam en phishing-scamberichten verzenden voor analyse voor](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)meer informatie.
-
-### <a name="to-report-junk-email-messages-from-outlook"></a>Ongewenste e-mailberichten vanuit Outlook rapporteren
-
-[De invoegtoepassing Rapportbericht gebruiken](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
-
-### <a name="to-report-junk-email-messages-from-your-inbox"></a>Ongewenste e-mailberichten vanuit uw Postvak IN rapporteren
-
-1. Klik met de rechtermuisknop op het bericht of de berichten die u als ongewenste e-mail wilt melden.
-
-2. Selecteer **Ongewenste e-mail** en klik op **Ongewenste e-mail melden**.
-    ![Ongewenste berichten rapporteren vanuit uw Postvak IN](../../media/EOP-Outlook-Junk-Reporting-Tool-3.jpg)
-
-3. Het dialoogvenster **Invoegtoepassing microsoft-e-mailrapportage** wordt geopend. Als u zeker weet dat u de berichten die u als ongewenste e-mail hebt geselecteerd, wilt verzenden, klikt u op **Ja**.
-    ![Rapport bevestigen als ongewenste e-mail](../../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
-
-    > [!NOTE]
-    > Als u dit bevestigingsbericht niet wilt ontvangen bij het verzenden van ongewenste berichten, schakelt u **Dit bericht niet meer weergeven in.**
-
-De geselecteerde berichten worden naar Microsoft verzonden voor analyse en verplaatst naar de map Ongewenste e-mail. Als u wilt bevestigen dat de berichten zijn verzonden, opent u de map **Verzonden items** om de ingediende berichten weer te geven.
-
-### <a name="to-report-a-junk-email-message-from-within-an-opened-message"></a>Een ongewenste e-mailbericht melden vanuit een geopend bericht
-
-1. Klik vanuit een geopend bericht op de knop **Ongewenste e-mail melden** op het berichtlint. Klik bijvoorbeeld op **Ongewenste** \> **e-mail** ![melden voor een ongewenste e-mail vanuit een bericht](../../media/EOP-Outlook-Junk-Reporting-Tool-4.jpg)
-
-2. Het dialoogvenster **Invoegtoepassing microsoft-e-mailrapportage** wordt geopend. Als u zeker weet dat u het bericht wilt verzenden dat u als ongewenste e-mail hebt geselecteerd, klikt u op **Ja**.
-    ![Rapport bevestigen als ongewenste e-mail](../../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
-
-    > [!NOTE]
-    > Als u dit bevestigingsbericht niet wilt ontvangen bij het verzenden van ongewenste berichten, schakelt u **Dit bericht niet meer weergeven in.**
-
-Het geselecteerde bericht wordt naar Microsoft verzonden voor analyse en verplaatst naar de map Ongewenste e-mail. Als u wilt bevestigen dat het bericht is verzonden, opent u de map **Verzonden items** om het ingediende bericht weer te geven.
+Als de spam- of phishingberichten in quarantaine zijn geplaatst in plaats van geleverd, kunnen gebruikers de berichten aan Microsoft rapporteren vanuit de quarantaineportal in het Office 365 Security & Compliance Center. Zie In [quarantaine geplaatste berichten zoeken en vrijgeven als gebruiker in Office 365](find-and-release-quarantined-messages-as-a-user.md).

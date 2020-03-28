@@ -1,5 +1,5 @@
 ---
-title: Spam-, spam- en phishing-scamberichten verzenden naar Microsoft voor analyse
+title: Berichten handmatig verzenden naar Microsoft voor analyse
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,101 +16,138 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: 'U en uw gebruikers kunnen valse negatieve en fout-positieve spamberichten naar Microsoft sturen voor analyse. '
-ms.openlocfilehash: 27e0698d1ad7d05adfa69e18e9b5b21edb74b1eb
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 13b2e42f749b54e0c2b71fe095c077992560ea8c
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893644"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032802"
 ---
-# <a name="submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis"></a>Spam-, spam- en phishing-scamberichten verzenden naar Microsoft voor analyse
+# <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Berichten handmatig verzenden naar Microsoft voor analyse
 
-Het kan frustrerend zijn wanneer gebruikers in uw organisatie ongewenste berichten (spam) of phishing-scamberichten ontvangen in hun Postvak IN, of als ze geen legitiem e-mailbericht ontvangen omdat het is gemarkeerd als ongewenste e-mailberichten. We verfijnen onze spamfilters voortdurend om nauwkeuriger te zijn. U en uw gebruikers kunnen dit proces helpen door valse negatieve en fout-positieve spamberichten bij Microsoft in te dienen voor analyse. Een "vals negatief" is een spambericht dat had moeten zijn, maar niet werd geïdentificeerd als spam. Een "vals positief" is een legitiem e-mailbericht dat ten onrechte is geïdentificeerd als spam.
+> [!NOTE]
+> Als u een beheerder bent in een Office 365-organisatie met Exchange Online-postvakken, raden we u aan de portal Inzendingen te gebruiken in het Office 365 Security & Compliance Center. Zie [Het indienen van beheerders gebruiken om vermoedelijke spam, phish, URL's en bestanden in te dienen bij Microsoft.](admin-submission.md)
+
+Het kan frustrerend zijn wanneer gebruikers in uw organisatie ongewenste berichten (spam) of phishingberichten ontvangen in hun Postvak IN, of als ze geen legitiem e-mailbericht ontvangen omdat het is gemarkeerd als ongewenste e-mail. We verfijnen onze spamfilters voortdurend om nauwkeuriger te zijn.
+
+U en uw gebruikers kunnen dit proces helpen door false positives (goede e-mail gemarkeerd als slecht), valse negatieven (slechte e-mail toegestaan) en phishing-berichten bij Microsoft in te dienen voor analyse.
 
 > [!NOTE]
 > Vanwege het grote aantal inzendingen dat we ontvangen, kunnen we mogelijk niet alle verzoeken om analyse beantwoorden.
 
-Beheerders kunnen e-mail, url en bijlagen ter controle naar Microsoft verzenden. Zie [Beheerdersinzendingen in Office 365 ATP](admin-submission.md).
+## <a name="submit-false-negatives-to-microsoft"></a>Valse negatieven verzenden bij Microsoft
 
-## <a name="submit-junk-or-phishing-messages-that-passed-through-the-spam-filters"></a>Ongewenste of phishingberichten verzenden die door de spamfilters zijn verzonden
+> [!TIP]
+> In plaats van de volgende procedures te gebruiken om valse negatieven te melden, kunnen gebruikers in de webversie van Outlook en Outlook (voorheen Outlook Web App) de invoegtoepassing Berichtrapport voor Microsoft Outlook gebruiken. Zie [Invoegtoepassing Rapportbericht inschakelen](enable-the-report-message-add-in.md)voor informatie over het installeren en gebruiken van deze tool.
 
-Als u een bericht ontvangt dat door de spamfilters is verzonden en moet worden geclassificeerd als ongewenste of phishing-scam, u het bericht 'vals negatief' indienen bij de microsoft spamanalyse- en Microsoft Phishing-analyseteams, indien van toepassing. De analisten zullen het bericht bekijken en toevoegen aan de servicebrede filters als het voldoet aan de classificatiecriteria.
+Als u een bericht ontvangt dat door spamfiltering is verzonden en dat als spam of phishing had moeten worden geïdentificeerd, u het bericht naar gelang van het geval indienen bij de microsoft spamanalyse- en Microsoft Phishing-analyseteams. De analisten zullen het bericht bekijken en toevoegen aan de servicebrede filters als het voldoet aan de classificatiecriteria.
 
-Zie Bescherming tegen spam in Office [365](anti-spam-protection.md)voor meer spam-instellingen die van toepassing zijn op de hele organisatie. Dit artikel bevat tips om valse negatieven te voorkomen.
+1. Maak een nieuw, leeg e-mailbericht met een van de volgende ontvangers:
 
-U ongewenste e-mailberichten op de volgende manieren verzenden:
+   - **Junk**:`junk@office365.microsoft.com`
 
-- Voor webgebruikers outlook en Outlook voor de webgebruikers gebruikt u de invoegtoepassing Berichtrapport voor Microsoft Outlook. Zie [Invoegtoepassing Rapportbericht inschakelen](enable-the-report-message-add-in.md)voor informatie over het installeren en gebruiken van deze tool.
+   - **Phishing**:`phish@office365.microsoft.com`
 
-- U ook e-mail gebruiken om berichten aan Microsoft in te dienen die moeten worden geclassificeerd als ongewenste of phishing-scams, zoals beschreven in de volgende procedure.
-
-### <a name="use-email-to-submit-junk-spam-or-phishing-scam-messages-to-microsoft"></a>E-mail gebruiken om ongewenste (spam) of phishing-scamberichten naar Microsoft te verzenden
-
-Ga als lid van microsoft over een scambericht voor ongewenste e-mail of phishing:
-
-1. Maak een leeg e-mailbericht.
-
-2. Adres het bericht aan het Microsoft-team dat berichten als volgt beoordeelt:
-
-   - Voor ongewenste berichten: junk@office365.microsoft.com
-
-   - Voor phishing scam berichten: phish@office365.microsoft.com
-
-3. Kopieer en plak de junk of phishing scam bericht in het nieuwe bericht als een bijlage.
+2. Sleep en drop de ongewenste of phishing-bericht in het nieuwe bericht. Dit zal de junk of phishing-bericht op te slaan als een bijlage in het nieuwe bericht. Kopieer en plak de inhoud van het bericht niet of stuur het bericht door (we hebben het oorspronkelijke bericht nodig zodat we de berichtkoppen kunnen inspecteren).
 
    > [!NOTE]
-   > * U meerdere berichten toevoegen in het nieuwe bericht. Zorg ervoor dat alle berichten hetzelfde type zijn: phishing-scamberichten of ongewenste e-mailberichten. <br/><br/>* Laat het lichaam van het nieuwe bericht leeg. <br/><br/>* Gebruik .msg (standaard Outlook-indeling) of .eml (standaard Outlook op de webindeling) voor de bijgevoegde berichten.
+   > <ul><li>U meerdere berichten toevoegen in het nieuwe bericht. Zorg ervoor dat alle berichten hetzelfde type zijn: phishing-scamberichten of ongewenste e-mailberichten.</li><li>Laat het lichaam van het nieuwe bericht leeg.<li></li>Gebruik .msg (standaardOutlook-indeling) of .eml (standaard Outlook op de webindeling) voor de bijgevoegde berichten.</li></ul>
 
-4. Klik op **Verzenden**.
+3. Klik op **Verzenden**als u klaar bent.
 
-## <a name="submit-messages-that-were-tagged-as-junk-but-should-have-been-allowed-through"></a>Berichten verzenden die als ongewenste e-mail zijn getagd, maar die via
+> [!TIP]
+> Beheerders hebben verschillende manieren om specifieke berichten te blokkeren die verkeerd worden geïdentificeerd als spam. Zie Lijsten [met geblokkeerde afzenders maken in Office 365](create-block-sender-lists-in-office-365.md)voor meer informatie.
 
-Als een bericht ten onrechte is geïdentificeerd als ongewenste e-mail, u het bericht 'fout-positief' indienen bij het Microsoft Spam Analysis Team. De analisten zullen de boodschap evalueren en analyseren. Afhankelijk van de resultaten van de analyse kunnen de filterregels voor spaminhoud voor de hele service worden aangepast om het bericht door te laten gaan.
+## <a name="submit-false-positives-to-microsoft"></a>Valse positieven verzenden bij Microsoft
 
-Beheerders kunnen meer informatie over het instellen van spam controleren die van toepassing is op een hele organisatie. Zie [Lijsten met veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md). Deze informatie is handig als u controle hebt op administratorniveau en u fout-positieven wilt voorkomen.
+> [!TIP]
+> In plaats van de volgende procedures te gebruiken om fout-positieven te melden, kunnen gebruikers in de webversie van Outlook en Outlook de invoegtoepassing Rapportbericht voor Microsoft Outlook gebruiken. Zie [Invoegtoepassing Rapportbericht inschakelen](enable-the-report-message-add-in.md)voor informatie over het installeren en gebruiken van deze tool.
 
-U op de volgende manieren niet-spamberichten verzenden:
+Als een bericht ten onrechte is geïdentificeerd als spam, u het bericht indienen bij het Microsoft Spam Analysis Team. De analisten evalueren het bericht en (afhankelijk van de resultaten van de analyse) kunnen de servicebrede filters worden aangepast om het bericht door te laten gaan.
 
-- Als u de map **Bericht verplaatsen naar ongewenste e-mail** gebruikt wanneer u uw inhoudsfilters configureert (dit is de standaardactie), kunnen gebruikers fout-positieve berichten vrijgeven in de map Ongewenste e-mail in Outlook of Outlook (voorheen bekend als de map Ongewenste e-mail van Outlook).
+1. Maak een nieuw, leeg `not_junk@office365.microsoft.com` e-mailbericht met als ontvanger:
 
-  - Outlook-gebruikers kunnen fout-positieve berichten vrijgeven met de menuoptie **Niet ongewenste** berichten met de rechtermuisknop. Ze moeten het bericht echter via e-mail aan Microsoft voorleggen, zoals blijkt uit de procedure in dit artikel.
+2. Sleep en laat het verkeerd geïdentificeerde bericht in het nieuwe bericht vallen. Hiermee wordt het verkeerd geïdentificeerde bericht opgeslagen als bijlage in het nieuwe bericht. Kopieer en plak de inhoud van het bericht niet of stuur het bericht door (we hebben het oorspronkelijke bericht nodig zodat we de berichtkoppen kunnen inspecteren).
 
-  - Webgebruikers van Outlook kunnen fout-positieve berichten vrijgeven en deze naar Microsoft verzenden voor analyse met behulp van de **merkactie als geen ongewenste** actie. Zie [Ongewenste e-mail en phishing melden in de webversie van Outlook voor ](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)meer informatie over hoe u dit doen.
+   > [!NOTE]
+   > <ul><li>U meerdere berichten toevoegen in het nieuwe bericht. Zorg ervoor dat alle berichten hetzelfde type zijn: phishing-scamberichten of ongewenste e-mailberichten.</li><li>Laat het lichaam van het nieuwe bericht leeg.<li></li>Gebruik .msg (standaardOutlook-indeling) of .eml (standaard Outlook op de webindeling) voor de bijgevoegde berichten.</li></ul>
 
-- Als u de actie **Bericht quarantaine** gebruikt in plaats van de actie Bericht verplaatsen naar **ongewenste e-mail** wanneer u de inhoudsfilters configureert:
+3. Klik op **Verzenden**als u klaar bent.
 
-  - Beheerders kunnen in quarantaine geplaatste berichten vrijgeven en deze rapporteren als false positives vanuit het Exchange-beheercentrum. Zie [In quarantaine geplaatste berichten en bestanden beheren als beheerder in Office 365](manage-quarantined-messages-and-files.md)voor meer informatie.
+> [!TIP]
+> Beheerders hebben verschillende manieren om specifieke berichten toe te staan spamfilters over te slaan. Zie Lijsten [met veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md)voor meer informatie.
 
-  - Gebruikers kunnen hun eigen spam-quarantaine berichten vrijgeven en ze rapporteren als valse positieven via de volgende kanalen:
+## <a name="create-a-mail-flow-rule-to-receive-copies-of-messages-that-are-reported-to-microsoft"></a>Een e-mailstroomregel maken om kopieën te ontvangen van berichten die aan Microsoft worden gerapporteerd
 
-  - De gebruikersinterface van het Exchange-beheercentrum (EAC). Zie [In quarantaine geplaatste berichten (eindgebruikers) zoeken en vrijgeven](find-and-release-quarantined-messages-as-a-user.md)voor meer informatie.
+U een regel voor e-mailstroom (ook wel een transportregel genoemd) maken die zoekt naar e-mailberichten die aan Microsoft worden gerapporteerd met behulp van de methoden die in dit onderwerp zijn beschreven, en u BCC-ontvangers configureren om kopieën van deze gerapporteerde berichten te ontvangen.
 
-  - Spammeldingen van eindgebruikers (als deze zijn ingeschakeld door uw beheerder).
+U de regel voor e-mailstroom maken in het Exchange-beheercentrum (EAC) en PowerShell (Exchange Online PowerShell voor Office 365-klanten. Exchange Online Protection PowerShell voor zelfstandige EOP-klanten).
 
-- U e-mail ook gebruiken om berichten aan Microsoft in te dienen die niet als spam moeten worden geclassificeerd. Wanneer u dit doet, moet u ervoor zorgen dat u de stappen in de volgende procedure gebruikt.
+### <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-### <a name="use-email-to-submit-false-positive-messages"></a>E-mail gebruiken om fout-positieve berichten in te dienen
+- U moet machtigingen in Exchange Online krijgen toegewezen voordat u deze procedures uitvoeren. U moet in het bijzonder de rol **Transportregels** toegewezen krijgen, die standaard is toegewezen aan de rollen **Organisatiebeheer,** **Compliancebeheer**en **Records Management.** Zie [Rolgroepen beheren in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)voor meer informatie .
 
-Gebruik dezelfde procedure als beschreven in de [e-mail gebruiken om ongewenste (spam) of phishing-scamberichten naar de](#use-email-to-submit-junk-spam-or-phishing-scam-messages-to-microsoft) sectie Microsoft te verzenden, maar stuur het bericht naar not_junk@office365.microsoft.com.
+- Zie [Exchange-beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center)als u de EAC in Exchange Online wilt openen.
 
-## <a name="spam-evaluation-and-rules-deployment"></a>Spamevaluatie en implementatie van regels
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone Exchange Online Protection PowerShell.
 
-Het spamanalyseteam onderzoekt berichten die u indient en past de spamfilters aan om toekomstige ongewenste e-mail te voorkomen. Als gevolg hiervan worden de spamfilters van Office 365 voortdurend verfijnd. Alle ingediende items worden geëvalueerd op netwerkbreed niveau. Fout-positieve inzendingen worden onderzocht en beoordeeld op mogelijke regelaanpassing om toekomstige berichten via de spamfilters toe te staan. Daarom is het melden van de service van false positives en ook valse negatieven (ongefilterde spam) voordelig voor u en alle klanten die gebruik maken van het wereldwijde netwerk. Het spamteam onderzoekt indicatoren binnen elk verzonden bericht, zoals:
+- Zie de volgende onderwerpen voor meer informatie over regels voor e-mailstromen in Exchange Online en zelfstandige EOP:
 
-- Vanaf adres
+  - [Regels voor e-mailstroom (transportregels) in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
 
-- IP-adres verzenden
+  - [Voorwaarden en uitzonderingen voor e-mailstroomregels (predicaten) in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
 
-- Zoekwoorden
+  - [Acties voor e-mailstroomregel in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
 
-- Zinnen
+### <a name="use-the-eac-to-create-a-mail-flow-rule-to-receive-copies-of-reported-messages"></a>De EAC gebruiken om een e-mailstroomregel te maken om kopieën van gerapporteerde berichten te ontvangen
 
-- Frequentie van de transmissie
+1. Ga in de EAC naar **Mail flow** \> **Rules**.
 
-- Andere trends en patronen
+2. Klik **op** ![](../../media/ITPro-EAC-AddIcon.png) Pictogram Toevoegen toevoegen en selecteer **vervolgens Een nieuwe regel maken**.
 
-Nadat ze deze informatie hebben bekeken, kan het spamteam wijzigingen aanbrengen in de spamfilterlagen van de service. Voor meer informatie over het spamteam u de volgende video met alleen Engels bekijken:
+3. Configureer op de pagina **Nieuwe regel** die wordt geopend de volgende instellingen:
 
-[Microsoft Exchange Spam-teamvideo](https://youtu.be/-TpX_-GMC7o?hd=1)
+   - **Naam:** Voer een unieke, beschrijvende naam voor de regel in. Bijvoorbeeld, BCC Berichten Gerapporteerd aan Microsoft.
 
-Spamevaluatie is een doorlopend proces dat van toepassing is ongeacht de taal of tekenset die van oorsprong is. Omdat een spambericht vaag kan zijn of zelfs tekst in de onderwerp- of berichtentekst kan missen, vertrouwt het spamteam op andere berichtkenmerken om filtering uit te voeren. Dit betekent dat nadat het spamteam een bepaald bericht als spam heeft gevlagd en de nodige wijzigingen in de regelbasis heeft aangebracht, dat bericht in de toekomst wordt geblokkeerd totdat de kenmerken ervan voldoende zijn gewijzigd om onze filters te vermijden. Nieuwe spamregels worden continu geïmplementeerd. De termijnen voor regels voor afzonderlijke inzendingen variëren afhankelijk van de hoeveelheid en de kwaliteit van de inzendingen. Omdat er wereldwijd nieuwe spamregels worden ingesteld voor alle klanten, zullen niet alle afzonderlijke spam-inzendingen resulteren in een nieuwe spamregel.
+   - Klik **op Meer opties**.
+
+   - **Deze regel toepassen als**: **Selecteer Het geadresseerdeadres** \> **bevat een van deze woorden:** Voer in het dialoogvenster](../../media/ITPro-EAC-AddIcon.png)Woorden of zinnen **opgeven** dat wordt weergegeven een van de volgende waarden in, klik op Pictogram **toevoegen** ![en herhaal totdat u alle waarden hebt ingevoerd.
+
+     - `junk@office365.microsoft.com`
+     - `abuse@messaging.microsoft.com`
+     - `phish@office365.microsoft.com`
+     - `false_positive@messaging.microsoft.com`
+
+     Als u een item wilt **Edit** ![bewerken, selecteert](../../media/ITPro-EAC-EditIcon.png)u het item en klikt u op pictogram Bewerken bewerken . Als u een item wilt **Remove** ![verwijderen,](../../media/ITPro-EAC-DeleteIcon.png)selecteert u het item en klikt u op Pictogram Verwijderen .
+
+     Klik op **OK**als u klaar bent.
+
+   - **Ga als volgt**te werk : Selecteer **Geadresseerden** \> toevoegen **aan het vak BCC**. Zoek en selecteer in het dialoogvenster dat wordt weergegeven de geadresseerden die u wilt toevoegen. Klik op **OK**als u klaar bent.
+
+4. U extra selecties maken om de regel te controleren, de regel te testen, de regel te activeren gedurende een bepaalde periode en andere instellingen. We raden u aan de regel te testen voordat u deze afdwingt.
+
+5. Klik op **Opslaan** wanneer u gereed bent.
+
+### <a name="use-powershell-to-create-a-mail-flow-rule-to-receive-copies-of-reported-messages"></a>PowerShell gebruiken om een e-mailstroomregel te maken om kopieën van gerapporteerde berichten te ontvangen
+
+In dit voorbeeld wordt een nieuwe regel voor e-mailstroom gemaakt met de naam BCC-berichten die aan Microsoft worden gerapporteerd en die wordt gerapporteerd met behulp van de methoden die in dit onderwerp zijn beschreven, en worden de gebruikers laura@contoso.com en julia@contoso.com toegevoegd als BCC-ontvangers.
+
+```powershell
+New-TransportRule -Name "Bcc Messages Reported to Microsoft" -RecipientAddressContainsWords "junk@office365.microsoft.com","abuse@messaging.microsoft.com","phish@office365.microsoft.com","false_positive@messaging.microsoft.com" -BlindCopyTo "laura@contoso.com","julia@contoso.com".
+```
+
+Zie [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule) voor gedetailleerde syntaxis- en parameterinformatie.
+
+### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
+
+Ga een van de volgende stappen uit om te controleren of u een e-mailstroomregels hebt geconfigureerd om kopieën van gerapporteerde berichten te ontvangen:
+
+- Ga in de EAC naar **EAC-regels** \> **Rules** \> en selecteer](../../media/ITPro-EAC-EditIcon.png)de regel \> klik op Pictogram Bewerken **bewerken** ![en controleer de instellingen.
+
+- Voer in PowerShell de volgende opdracht uit om de instellingen te verifiëren:
+
+  ```powershell
+  Get-TransportRule -Identity "Bcc Messages Reported to Microsoft" | Format-List
+  ```
+
+- Stuur een testbericht naar een van de rapportage-e-mailadressen en verifieer de resultaten.

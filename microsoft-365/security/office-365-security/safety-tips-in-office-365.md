@@ -17,12 +17,12 @@ ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
 description: Introduceert veiligheidstips voor e-mailberichten die zijn gefilterd door het eop- en Office 365-spamfilter.
-ms.openlocfilehash: bd493fba7a41f9452f915ff456c9483f48e299f5
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 3e4e645c6ac0285d9d6fff43b301f1f5c61a90e3
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895189"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032814"
 ---
 # <a name="safety-tips-in-email-messages-in-office-365"></a>Veiligheidstips in e-mailberichten in Office 365
 
@@ -58,6 +58,6 @@ De veiligheidstip, een bericht met kleurcodes, waarschuwt u voor mogelijk schade
 
 ## <a name="working-with-safety-tips"></a>Werken met veiligheidstips
 
-Veiligheidstips zijn altijd ingeschakeld voor de webversie van Outlook, ook al ontvangt niet elk bericht er een. Office 365-beheerders kunnen veiligheidstips uitschakelen voor andere e-mailclients, zoals Outlook. Zie [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md)voor meer informatie.
+Veiligheidstips zijn altijd ingeschakeld voor de webversie van Outlook, ook al ontvangt niet elk bericht er een. Office 365-beheerders kunnen veiligheidstips uitschakelen voor andere e-mailclients, zoals Outlook. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
 
-Als u het niet eens bent met de manier waarop Office 365 en EOP een bericht hebben gecategoriseerd (dat wil zeggen, het is geen spam of het is niet legitiem), u de berichten voor analyse indienen om uw ervaring beter te maken. Zie [Ongewenste e-mail en phishing melden voor](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)meer informatie in de webversie van Outlook. U ook op de koppeling Feedback in de veiligheidstip klikken om rechtstreeks opmerkingen bij Microsoft in te dienen om ons te helpen verbeteren.
+Als u het niet eens bent met de manier waarop EOP een bericht heeft gecategoriseerd (dat wil zeggen, het bericht is geen spam of het had moeten worden gemarkeerd als spam), u de berichten voor analyse naar Microsoft verzenden om uw ervaring beter te maken. Zie Berichten [en bestanden rapporteren aan Microsoft voor](report-junk-email-messages-to-microsoft.md)instructies. U ook op de koppeling Feedback in de veiligheidstip klikken om rechtstreeks opmerkingen bij Microsoft in te dienen om ons te helpen verbeteren.

@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Wat zijn best practices voor Exchange Online Protection (EOP) en Advanced Threat Protection (ATP) beveiligingsinstellingen? Wat zijn de huidige aanbevelingen voor standaardbescherming? Wat moet worden gebruikt als u strenger wilt zijn? En welke extra's krijg je als je ook gebruik maakt van Advanced Threat Protection (ATP)?
-ms.openlocfilehash: b68c10eccfdacd7782f402b5712a808ff278254d
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 9ddf704f767dfa5ff5c93888e51b91b2079a6c43
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895225"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032850"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Aanbevolen instellingen voor EOP- en Office 365 ATP-beveiliging
 
@@ -30,7 +30,7 @@ ms.locfileid: "42895225"
 Hoewel we beveiligingsbeheerders in staat stellen hun beveiligingsinstellingen aan te passen, zijn er twee beveiligingsniveaus in EOP en Office 365 ATP die we aanbevelen: **Standaard** en **Strikt.** De omgeving en behoeften van elke klant zijn verschillend, maar we zijn van mening dat deze niveaus van e-mailfilteringconfiguraties zullen helpen voorkomen dat ongewenste e-mail in de meeste situaties de inbox van uw werknemers bereikt.
 
 > [!IMPORTANT]
-> De regel voor ongewenste e-mail moet in een postvak worden ingeschakeld om te kunnen filteren om goed te kunnen filteren. Het is standaard ingeschakeld, maar u moet controleren of het filteren niet lijkt te werken. Zie [Instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md)voor meer informatie.
+> De regel voor ongewenste e-mail moet in een postvak worden ingeschakeld om te kunnen filteren om goed te kunnen filteren. Het is standaard ingeschakeld, maar u moet controleren of het filteren niet lijkt te werken. Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
 
 In dit onderwerp worden deze door Microsoft aanbevolen instellingen beschreven om uw Office 365-gebruikers te beschermen.
 
@@ -190,12 +190,11 @@ Niet bijhouden wanneer gebruikers op veilige koppelingen klikken|Handicap|Handic
 |Bijlage bij detectie omleiden|Ingeschakeld|Ingeschakeld|Omleiden naar e-mailadres voor een beveiligingsbeheerder die weet hoe te bepalen of de bijlage malware is of niet|
 |ATP Safe bijlagen reactie als malware scannen op bijlagen een tijd uit of fout optreedt|Ingeschakeld|Ingeschakeld||
 
-
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 - Bent u op zoek naar best practices met **Exchange Mail Flow / Exchange Transport Rules?** Zie [dit artikel](https://docs.microsoft.com/microsoft-365/security/office-365-security/best-practices-for-configuring-eop) voor meer informatie.
 
-- Stuur verdachte e-mails, vermoedelijke spam, phish of URL's naar Microsoft voor scan. Gebruik de aanwijzingen **voor inzendingen voor beheerders** in dit [artikel](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission).
+- Beheerders en gebruikers kunnen valse positieven (goede e-mail gemarkeerd als slecht) en valse negatieven (slechte e-mail toegestaan) naar Microsoft voor analyse. Zie [Berichten en bestanden rapporteren aan Microsoft voor](report-junk-email-messages-to-microsoft.md)meer informatie.
 
 - Gebruik deze koppelingen voor informatie over het **instellen van** uw [EOP-service](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)en **configureren van** [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp). (Vergeet niet de nuttige aanwijzingen te zien in['Beschermen tegen bedreigingen in Office 365'.)](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)
 

@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Krijg een overzicht van geautomatiseerde onderzoeks- en reactiemogelijkheden in Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air
-ms.openlocfilehash: f6bbad82f3dce7080aca079a5f750dfc1fea068b
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: e8e10160da4ddb43b47ecf41e2184dc1b8953941
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955568"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033444"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Geautomatiseerd onderzoek en antwoord (AIR) in Office 365
 
@@ -92,7 +92,7 @@ Elke stap op hoog niveau bevat een aantal substappen die worden uitgevoerd om ee
 
 ## <a name="example-a-user-reported-phish-message-launches-an-investigation-playbook"></a>Voorbeeld: Een door de gebruiker gerapporteerd phish-bericht lanceert een onderzoeksplaybook
 
-Stel dat een gebruiker in uw organisatie een e-mail ontvangt waarvan hij denkt dat het een phishing-poging is. De gebruiker, die is getraind om dergelijke berichten te rapporteren, gebruikt de [invoegtoepassing Rapportbericht voor Outlook of Outlook Web App](enable-the-report-message-add-in.md) om deze naar Microsoft te verzenden voor analyse. De indiening wordt ook naar uw systeem verzonden en is zichtbaar in Explorer in de weergave **Inzendingen** (voorheen aangeduid als de weergave Door de **gebruiker gerapporteerde** weergave). Bovendien activeert het door de gebruiker gerapporteerde bericht nu een systeemgebaseerde informatieve waarschuwing, die automatisch het onderzoeksplaybook start.
+Stel dat een gebruiker in uw organisatie een e-mail ontvangt waarvan hij denkt dat het een phishing-poging is. De gebruiker, die is getraind om dergelijke berichten te rapporteren, gebruikt de [invoegtoepassing Rapportbericht](enable-the-report-message-add-in.md) om deze naar Microsoft te verzenden voor analyse. De indiening wordt ook naar uw systeem verzonden en is zichtbaar in Explorer in de weergave **Inzendingen** (voorheen aangeduid als de weergave Door de **gebruiker gerapporteerde** weergave). Bovendien activeert het door de gebruiker gerapporteerde bericht nu een systeemgebaseerde informatieve waarschuwing, die automatisch het onderzoeksplaybook start.
 
 Tijdens de wortelonderzoeksfase worden verschillende aspecten van de e-mail beoordeeld. Deze omvatten:
 - Een bepaling over wat voor soort bedreiging het zou kunnen zijn;

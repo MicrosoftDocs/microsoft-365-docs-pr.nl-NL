@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: cfeef08c087d826d3e6f90bd1bb87bd852859a7c
-ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
+ms.openlocfilehash: b6e10757c3a4370c83b6ee0c1fb6c818a13089ea
+ms.sourcegitcommit: 7eaecb91c7cb1f8679f99882563f5c1149175992
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978264"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43022919"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Gemeenschappelijk beleid voor identiteits- en apparaattoegangs
 In dit artikel worden de algemene aanbevolen beleidsregels beschreven voor het beveiligen van toegang tot cloudservices, waaronder on-premises toepassingen die zijn gepubliceerd met Azure AD Application Proxy. 
@@ -90,7 +90,7 @@ Ga als lid van het volgende over een nieuw beleid voor voorwaardelijke toegang:
 
 **Toewijzingen**
 
-|Type|Eigenschappen|Waarden|Opmerkingen|
+|Type|Eigenschappen|Waarden|Notities|
 |:---|:---------|:-----|:----|
 |Gebruikers en groepen|Opnemen|Gebruikers en groepen selecteren – Selecteer specifieke beveiligingsgroep met gerichte gebruikers|Begin met beveiligingsgroep inclusief pilotgebruikers|
 ||Uitsluiten|Uitzonderingsbeveiligingsgroep; serviceaccounts (app-identiteiten)|Lidmaatschap gewijzigd op een indien nodig tijdelijke basis|
@@ -102,7 +102,7 @@ Ga als lid van het volgende over een nieuw beleid voor voorwaardelijke toegang:
 
 Pas de instellingen toe op basis van het beveiligingsniveau dat u target.
 
-|Eigenschap|Beschermingsniveau|Waarden|Opmerkingen|
+|Eigenschap|Beschermingsniveau|Waarden|Notities|
 |:---|:---------|:-----|:----|
 |Risiconiveau|Basislijn|Hoog, gemiddeld|Controleer beide|
 | |Gevoelig|Hoog, gemiddeld, laag|Controleer alle drie|
@@ -110,7 +110,7 @@ Pas de instellingen toe op basis van het beveiligingsniveau dat u target.
 
 **Toegangsbesturingselementen**
 
-|Type|Eigenschappen|Waarden|Opmerkingen|
+|Type|Eigenschappen|Waarden|Notities|
 |:---|:---------|:-----|:----|
 |Verlenen|Toegang verlenen|Waar|Geselecteerde|
 ||MFA vereisen|Waar|Cheque|
@@ -137,7 +137,7 @@ In de volgende tabellen worden de beleidsinstellingen voor voorwaardelijke toega
 
 **Toewijzingen**
 
-|Type|Eigenschappen|Waarden|Opmerkingen|
+|Type|Eigenschappen|Waarden|Notities|
 |:---|:---------|:-----|:----|
 |Gebruikers en groepen|Opnemen|Gebruikers en groepen selecteren – Selecteer specifieke beveiligingsgroep met gerichte gebruikers|Begin met beveiligingsgroep inclusief pilotgebruikers|
 ||Uitsluiten|Uitzonderingsbeveiligingsgroep; serviceaccounts (app-identiteiten)|Lidmaatschap gewijzigd op tijdelijke basis|
@@ -147,7 +147,7 @@ In de volgende tabellen worden de beleidsinstellingen voor voorwaardelijke toega
 
 **Toegangsbesturingselementen**
 
-|Type|Eigenschappen|Waarden|Opmerkingen|
+|Type|Eigenschappen|Waarden|Notities|
 |:---|:---------|:-----|:----|
 |Verlenen|Toegang blokkeren|Waar|Geselecteerde|
 ||MFA vereisen|Valse||
@@ -168,7 +168,7 @@ Meld u aan bij de [Microsoft Azure-portal (methttps://portal.azure.com) ](https:
 
 **Toewijzingen**
 
-|Type|Eigenschappen|Waarden|Opmerkingen|
+|Type|Eigenschappen|Waarden|Notities|
 |:---|:---------|:-----|:----|
 |Gebruikers|Opnemen|Alle gebruikers|Geselecteerde|
 ||Uitsluiten|Geen||
@@ -176,7 +176,7 @@ Meld u aan bij de [Microsoft Azure-portal (methttps://portal.azure.com) ](https:
 
 **Besturingselementen**
 
-| Type | Eigenschappen | Waarden                  | Opmerkingen |
+| Type | Eigenschappen | Waarden                  | Notities |
 |:-----|:-----------|:------------------------|:------|
 |      | Access     | Toegang toestaan            | Waar  |
 |      | Access     | Wachtwoordwijziging vereisen | Waar  |
@@ -225,24 +225,28 @@ Met Voorwaardelijke toegang kunnen organisaties de toegang tot goedgekeurde (mod
 
 ## <a name="define-device-compliance-policies"></a>Beleid voor naleving van apparaten definiëren
 
-In het beleid voor naleving van apparaten worden de vereisten gedefinieerd waaraan apparaten moeten voldoen om als compatibel te worden gemarkeerd. Maak intune-beleid voor apparaatnaleving vanuit de Azure-portal. 
+In het beleid voor naleving van apparaten worden de vereisten gedefinieerd waaraan apparaten moeten voldoen om als compatibel te worden gemarkeerd. Maak intune-beleid voor apparaatnaleving vanuit het Microsoft Endpoint Manager-beheercentrum.
 
 Maak een beleid voor elk platform:
-- Android
-- Android-onderneming
-- Ios
+- Beheerder van Android-apparaten
+- Android Enterprise
+- iOS/iPadOS
 - Macos
 - Windows Phone 8.1
 - Windows 8.1 en hoger
 - Windows 10 en hoger
 
-Als u beleid voor naleving van apparaten wilt maken, meldt u zich aan bij de Microsoft Azure-portal met uw beheerreferenties en navigeert u vervolgens naar **Intune >-apparaatnaleving.** Selecteer **Beleid maken**.
+Als u beleid voor naleving van apparaten wilt maken, meldt u zich aan bij het [Microsoft Endpoint Manager-beheercentrum](https://go.microsoft.com/fwlink/?linkid=2109431) met uw beheerreferenties en navigeert u vervolgens naar**het beleid****voor** > naleving **van apparaten** > . Selecteer **Beleid maken**.
+
+Als u het nalevingsbeleid van apparaten wilt implementeren, moeten deze worden toegewezen aan gebruikersgroepen. U wijst een beleid toe nadat u het hebt gemaakt en opgeslagen. Selecteer in het beheercentrum het beleid en selecteer **Toewijzingen**. Nadat u de groepen hebt geselecteerd die u het beleid wilt ontvangen, selecteert u **Opslaan** om die groepstoewijzing op te slaan en het beleid te implementeren.
+
+Zie [Een nalevingsbeleid maken in Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/create-compliance-policy) in de Intune-documentatie voor stapsgewijze richtlijnen voor het maken van nalevingsbeleid in Intune.
 
 De volgende instellingen worden aanbevolen voor Windows 10.
 
 **Apparaatstatus: evaluatieregels voor windows health attestation service**
 
-|Eigenschappen|Waarden|Opmerkingen|
+|Eigenschappen|Waarden|Notities|
 |:---------|:-----|:----|
 |BitLocker vereisen|Vereisen||
 |Secure Boot moeten worden ingeschakeld op het apparaat|Vereisen||
@@ -251,15 +255,13 @@ De volgende instellingen worden aanbevolen voor Windows 10.
 
 **Eigenschappen van het apparaat**
 
-|Type|Eigenschappen|Waarden|Opmerkingen|
+|Type|Eigenschappen|Waarden|Notities|
 |:---|:---------|:-----|:----|
 |Versie van het besturingssysteem|Alle|Niet geconfigureerd||
 
-Voor al het bovenstaande beleid dat als geïmplementeerd moet worden beschouwd, moeten ze zijn gericht op gebruikersgroepen. U dit doen door het beleid (op Opslaan) of hoger te maken door **Implementatie beheren** te selecteren in de sectie **Beleid** (hetzelfde niveau als Toevoegen).
-
 **Systeembeveiliging**
 
-|Type|Eigenschappen|Waarden|Opmerkingen|
+|Type|Eigenschappen|Waarden|Notities|
 |:---|:---------|:-----|:----|
 |Wachtwoord|Een wachtwoord vereisen om mobiele apparaten te ontgrendelen|Vereisen||
 ||Eenvoudige wachtwoorden|Blok||
@@ -273,16 +275,17 @@ Voor al het bovenstaande beleid dat als geïmplementeerd moet worden beschouwd, 
 |Apparaatbeveiliging|Firewall|Vereisen||
 ||Antivirus|Vereisen||
 ||Antispyware|Vereisen|Deze instelling vereist een anti-spyware-oplossing die is geregistreerd bij Windows Security Center|
-|Verdediger|Windows Defender Antimalware|Vereisen||
-||Windows Defender Antimalware minimumversie||Alleen ondersteund voor Windows 10-bureaublad. Microsoft raadt versies niet meer dan vijf achter van de meest recente versie|
-||Windows Defender Antimalware-handtekening up-to-date|Vereisen||
+|Verdediger|Microsoft Defender Antimalware|Vereisen||
+||Microsoft Defender Antimalware minimumversie||Alleen ondersteund voor Windows 10-bureaublad. Microsoft raadt versies niet meer dan vijf achter van de meest recente versie|
+||Microsoft Defender Antimalware-handtekening up-to-date|Vereisen||
 ||Real-time bescherming|Vereisen|Alleen ondersteund voor Windows 10-bureaublad|
 
 **Microsoft Defender ATP**
 
-|Type|Eigenschappen|Waarden|Opmerkingen|
+|Type|Eigenschappen|Waarden|Notities|
 |:---|:---------|:-----|:----|
 |Microsoft Defender Advanced Threat Protection-regels|Het apparaat moeten op of onder de machine-risicoscore bevinden|Medium||
+
 
 ## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>Compatibele pc's vereisen (maar niet voldoen aan telefoons en tablets)
 Voordat u een beleid toevoegt dat compatibele pc's vereist, moet u apparaten inschrijven voor beheer in Intune. Het gebruik van multi-factor authenticatie wordt aanbevolen voordat u apparaten inschrijft bij Intune om te garanderen dat het apparaat in het bezit is van de beoogde gebruiker. 

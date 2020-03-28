@@ -13,20 +13,20 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Office 365-beheerders kunnen leren hoe ze kunnen herstellen van een ransomware-aanval.
-ms.openlocfilehash: aa606ea3bf3f549645fe26a4aa95066568132243
-ms.sourcegitcommit: 72983702a42552a29228d387bb279e8ff2ab59b4
+ms.openlocfilehash: 6d57142bac6dad22d38cc26a9353b528a9f8eb10
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42812444"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032874"
 ---
-# <a name="recover-from-a-ransomware-attack-in-office-365"></a>Herstellen van een ransomware aanval in Office 365
+# <a name="recover-from-a-ransomware-attack-in-office-365"></a>Herstellen van een ransomware-aanval in Office 365
 
 Zelfs als u alle voorzorgsmaatregelen neemt om uw Office 365-organisatie te beschermen, u nog steeds het slachtoffer worden van een [ransomware-aanval.](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) Ransomware is big business, en de aanvallen zijn te verifiëren geavanceerde.
 
-De stappen in dit onderwerp geeft u de beste kans om gegevens die werd versleuteld door de ransomware te herstellen, en zal helpen stoppen met de verspreiding van de infectie in uw Office 365 organisatie. Voordat u aan de slag gaat, moet u rekening houden met de volgende items:
+De stappen in dit onderwerp geeft u de beste kans om gegevens die werd versleuteld door de ransomware te herstellen, en zal helpen stoppen met de verspreiding van de infectie in uw Office 365 organisatie. Voordat u aan de slag gaat, moet u de volgende items overwegen:
 
-- Er is geen garantie dat het betalen van het losgeld toegang tot uw bestanden zal terugkeren. In feite, het betalen van het losgeld kan je een doelwit voor meer ransomware. Als u al hebt betaald, maar u uw bestanden hebt kunnen herstellen zonder de oplossing van de aanvaller te hoeven gebruiken, moet u uw bank bellen om te zien of ze de transactie kunnen blokkeren. We raden u ook aan de ransomware-aanval te melden aan de rechtshandhaving, scam rapportage websites en Microsoft zoals later beschreven in dit onderwerp.
+- Er is geen garantie dat het betalen van het losgeld toegang tot uw bestanden zal terugkeren. In feite, het betalen van het losgeld kan je een doelwit voor meer ransomware. Als u al hebt betaald, maar u uw bestanden met succes hebt kunnen herstellen zonder dat u de resolutie van de aanvaller hoeft te gebruiken, moet u uw bank bellen om te zien of ze de transactie kunnen blokkeren. We raden u ook aan de ransomware-aanval te melden aan de rechtshandhaving, scam rapportage websites en Microsoft zoals later beschreven in dit onderwerp.
 
 - Het is heel belangrijk dat je snel reageert op de aanval en de gevolgen ervan. Hoe langer u wacht, hoe kleiner de kans dat u de getroffen gegevens herstellen.
 
@@ -34,47 +34,47 @@ De stappen in dit onderwerp geeft u de beste kans om gegevens die werd versleute
 
 Als u offline back-ups hebt, u waarschijnlijk de versleutelde gegevens herstellen **nadat** u de ransomware payload (malware) uit uw omgeving hebt verwijderd.
 
-Als u geen back-ups, of als uw back-ups werden ook beïnvloed door de ransomware, u deze stap overslaan.
+Als u geen back-ups hebt, of als uw back-ups ook werden beïnvloed door de ransomware, u deze stap overslaan.
 
-## <a name="step-2-disable-activesync-and-onedrive-sync"></a>Stap 2: ActiveSync en Synchronisatie van OneDrive uitschakelen
+## <a name="step-2-disable-activesync-and-onedrive-sync"></a>Stap 2: ActiveSync en OneDrive-synchronisatie uitschakelen
 
-Het belangrijkste punt hier is om de verspreiding van gegevensencryptie door de ransomware te stoppen.
+Het belangrijkste punt hier is om de verspreiding van data-encryptie te stoppen door de ransomware.
 
-Als u vermoedt dat e-mail een doel is, moet u gebruikerstoegang tot postvakken tijdelijk uitschakelen. Exchange ActiveSync wordt door mobiele apparaten gebruikt om gegevens te synchroniseren tussen het apparaat en het Exchange Online-postvak.
+Als u vermoedt dat e-mail een doelwit is, moet u de toegang van gebruikers tot postvakken tijdelijk uitschakelen. Exchange ActiveSync wordt door mobiele apparaten gebruikt om gegevens te synchroniseren tussen het apparaat en het Exchange Online-postvak.
 
-Zie [Exchange ActiveSync voor gebruikers uitschakelen in Office 365](https://support.microsoft.com/help/2795303/how-to-disable-exchange-activesync-for-users-in-office-365)als u ActiveSync voor een postvak wilt uitschakelen.
+Zie [ActiveSync uitschakelen voor gebruikers in Office 365](https://support.microsoft.com/help/2795303/how-to-disable-exchange-activesync-for-users-in-office-365)als u ActiveSync voor een postvak wilt uitschakelen.
 
-Zie:
+Zie als:
 
-- [MAPI voor een postvak in- of uitschakelen](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-mapi).
+- [MAPI in- of uitschakelen voor een postvak](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-mapi).
 
 - [POP3- of IMAP4-toegang voor een gebruiker in- of uitschakelen](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
 
-Als u OneDrive-synchronisatie pauzeert, kunnen uw cloudgegevens niet worden bijgewerkt door mogelijk geïnfecteerde apparaten. Zie [Synchronisatie onderbreken en hervatten in OneDrive voor](https://support.office.com/article/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)meer informatie.
+Als u OneDrive-synchronisatie pauzeert, u voorkomen dat uw cloudgegevens worden bijgewerkt door mogelijk geïnfecteerde apparaten. Zie [Synchronisatie onderbreken en hervatten in OneDrive](https://support.office.com/article/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)voor meer informatie.
 
 ## <a name="step-3-remove-the-malware-from-the-affected-devices"></a>Stap 3: Verwijder de malware van de getroffen apparaten
 
-Voer een volledige antivirus scan met de nieuwste updates op alle verdachte computers en apparaten te detecteren en te verwijderen van de payload die is gekoppeld aan de ransomware. Vergeet niet apparaten die gegevens synchroniseren, of het doel van toegewezen netwerkstations (die computers en apparaten moeten ook worden gescand).
+Voer een volledige antivirusscan uit met de nieuwste updates op alle verdachte computers en apparaten om de payload te detecteren en te verwijderen die is gekoppeld aan de ransomware. Vergeet niet apparaten die gegevens synchroniseren, of het doel van toegewezen netwerkstations (die computers en apparaten moeten ook worden gescand).
 
 U [Windows Defender](https://www.microsoft.com/windows/comprehensive-security) of (voor oudere clients) Microsoft Security [Essentials](https://www.microsoft.com/download/details.aspx?id=5201)gebruiken.
 
-Een alternatief dat u ook zal helpen ransomware of malware te verwijderen is de [Malicious Software Removal Tool (MSRT).](https://www.microsoft.com/download/details.aspx?id=9905)
+Een alternatief dat u ook zal helpen ransomware of malware te verwijderen is de [Malicious Software Removal Tool (MSRT)](https://www.microsoft.com/download/details.aspx?id=9905).
 
 Als deze opties niet werken, u [Windows Defender Offline](https://support.microsoft.com/help/17466/windows-defender-offline-help-protect-my-pc) proberen of problemen met het detecteren en verwijderen van malware [oplossen.](https://support.microsoft.com/help/4466982/windows-10-troubleshoot-problems-with-detecting-and-removing-malware)
 
 ## <a name="step-4-recover-files-on-a-cleaned-computer-or-device"></a>Stap 4: Bestanden herstellen op een opgeschoonde computer of apparaat
 
-Nadat u de vorige stap hebt voltooid om de ransomware-payload uit uw omgeving te verwijderen (waardoor de ransomware uw bestanden niet kan versleutelen of verwijderen), u [Bestandsgeschiedenis](https://support.microsoft.com/help/17128/windows-8-file-history) in Windows 10 en Windows 8.1 of Systeembeveiliging in Windows 7 gebruiken om te proberen uw lokale bestanden en mappen te herstellen.
+Nadat u de vorige stap hebt voltooid om de ransomware-payload uit uw omgeving te verwijderen (waardoor de ransomware uw bestanden niet kan versleutelen of verwijderen), u [bestandsgeschiedenis](https://support.microsoft.com/help/17128/windows-8-file-history) gebruiken in Windows 10 en Windows 8.1 of Systeembeveiliging in Windows 7 om te proberen uw lokale bestanden en mappen te herstellen.
 
-**Toelichting**:
+**Opmerkingen**:
 
-- Sommige ransomware zal ook versleutelen of verwijderen van de back-up versies, dus je geen bestandsgeschiedenis of systeembeveiliging gebruiken om bestanden te herstellen. Als dat gebeurt, moet u back-ups gebruiken op externe schijven of apparaten die niet werden beïnvloed door de ransomware of OneDrive zoals beschreven in de volgende sectie.
+- Sommige ransomware zal ook versleutelen of verwijderen van de back-up versies, dus je niet gebruiken Bestandsgeschiedenis of systeembeveiliging om bestanden te herstellen. Als dat gebeurt, moet u back-ups gebruiken op externe schijven of apparaten die niet zijn beïnvloed door de ransomware of OneDrive, zoals beschreven in de volgende sectie.
 
-- Als een map is gesynchroniseerd met OneDrive en u de nieuwste versie van Windows niet gebruikt, kunnen er enkele beperkingen zijn met bestandsgeschiedenis.
+- Als een map is gesynchroniseerd met OneDrive en u de nieuwste versie van Windows niet gebruikt, zijn er mogelijk enkele beperkingen met bestandsgeschiedenis.
 
 ## <a name="step-5-recover-your-files-in-your-onedrive-for-business"></a>Stap 5: Uw bestanden herstellen in uw OneDrive voor Bedrijven
 
-Met het herstellen van bestanden in OneDrive voor Bedrijven u uw hele OneDrive in de afgelopen 30 dagen naar een eerder tijdstip herstellen. Zie [Uw OneDrive herstellen](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15)voor meer informatie.
+Met Bestanden herstellen in OneDrive voor Bedrijven u uw volledige OneDrive in de afgelopen 30 dagen naar een eerder tijdstip herstellen. Zie [Uw OneDrive herstellen](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15)voor meer informatie.
 
 ## <a name="step-6-recover-deleted-email"></a>Stap 6: Verwijderde e-mail herstellen
 
@@ -86,25 +86,25 @@ In het zeldzame geval dat de ransomware al uw e-mail verwijderd, u waarschijnlij
 
 ## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>Stap 7: Exchange ActiveSync en OneDrive-synchronisatie opnieuw inschakelen
 
-Nadat u uw computers en apparaten hebt schoongemaakt en uw gegevens hebt hersteld, u ActiveSync- en OneDrive-synchronisatie opnieuw inschakelen die u eerder hebt uitgeschakeld in [stap 2.](#step-2-disable-activesync-and-onedrive-sync)
+Nadat u uw computers en apparaten hebt opgemaakt en uw gegevens hebt hersteld, u activesync en OneDrive-synchronisatie die u eerder hebt uitgeschakeld in [stap 2](#step-2-disable-activesync-and-onedrive-sync)opnieuw inschakelen.
 
-## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>Stap 8 (optioneel): Synchronisatie met OneDrive blokkeren voor specifieke bestandsextensies
+## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>Stap 8 (optioneel): OneDrive-synchronisatie blokkeren voor specifieke bestandsextensies
 
-Nadat u hebt hersteld, u voorkomen dat OneDrive voor Bedrijven-clients de bestandstypen synchroniseren die door deze ransomware zijn beïnvloed. Zie [Set-SPOTenantSyncClientRestriction](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction) voor meer informatie
+Nadat u bent hersteld, u voorkomen dat Klanten van OneDrive voor Bedrijven de bestandstypen synchroniseren die door deze ransomware zijn getroffen. Zie [Set-SPOTenantSyncClientRestriction voor](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction) meer informatie
 
 ## <a name="report-the-attack"></a>De aanval melden
 
 ### <a name="contact-law-enforcement"></a>Neem contact op met de politie
 
-Neem contact op met uw lokale of federale wetshandhavingsinstanties. Als u zich bijvoorbeeld in de Verenigde Staten bevindt, u contact opnemen met het lokale kantoor van de [FBI,](https://www.fbi.gov/contact-us/field) [IC3](http://www.ic3.gov/complaint/default.aspx) of [de geheime dienst.](http://www.secretservice.gov/)
+Neem contact op met uw lokale of federale wetshandhavingsinstanties. Als u zich bijvoorbeeld in de Verenigde Staten bevindt, u contact opnemen met het [lokale fieldoffice](https://www.fbi.gov/contact-us/field)van de FBI, [IC3](http://www.ic3.gov/complaint/default.aspx) of [de geheime dienst.](http://www.secretservice.gov/)
 
-### <a name="submit-a-report-to-your-countrys-scam-reporting-website"></a>Stuur een rapport naar de website voor scamrapportage van uw land
+### <a name="submit-a-report-to-your-countrys-scam-reporting-website"></a>Een rapport indienen bij de website van uw land voor het melden van oplichting
 
-Scam rapportage websites bieden informatie over hoe te voorkomen en te voorkomen dat oplichting. Ze bieden ook mechanismen te melden als je slachtoffer waren van oplichting.
+Scam rapportage websites bieden informatie over hoe te voorkomen en te voorkomen oplichting. Ze bieden ook mechanismen om te melden als je slachtoffer was van oplichting.
 
 - Australië: [SCAMwatch](http://www.scamwatch.gov.au/)
 
-- Canada: [Canadian Anti-Fraud Centre](http://www.antifraudcentre-centreantifraude.ca/)
+- Canada: [Canadees Centrum voor fraudebestrijding](http://www.antifraudcentre-centreantifraude.ca/)
 
 - Frankrijk: [Agence nationale de la sécurité des systèmes d'information](http://www.ssi.gouv.fr/)
 
@@ -112,17 +112,17 @@ Scam rapportage websites bieden informatie over hoe te voorkomen en te voorkomen
 
 - Ierland: [An Garda Síochána](http://www.garda.ie/)
 
-- Nieuw-Zeeland: [Consumer Affairs Scams](http://www.consumeraffairs.govt.nz/scams)
+- Nieuw-Zeeland: [Consumentenzaken Oplichting](http://www.consumeraffairs.govt.nz/scams)
 
 - Verenigd Koninkrijk: [Actiefraude](http://www.actionfraud.police.uk/)
 
 - Verenigde Staten: [On Guard Online](http://www.onguardonline.gov/)
 
-Als uw land niet wordt vermeld, vraag dan uw lokale of federale wetshandhavingsinstanties.
+Als uw land niet op de lijst staat, vraag het dan aan uw lokale of federale wetshandhavingsinstanties.
 
 ### <a name="submit-email-messages-to-microsoft"></a>E-mailberichten verzenden naar Microsoft
 
-U phishingberichten die ransomware bevatten melden door de instructies in [Spam- en niet-spamberichten](https://docs.microsoft.com/microsoft-365/security/office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis)verzenden te volgen aan Microsoft voor analyse.
+U phishing-berichten die ransomware bevatten met behulp van een van de verschillende methoden. Zie [Berichten en bestanden rapporteren aan Microsoft voor](report-junk-email-messages-to-microsoft.md)meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 
@@ -132,7 +132,7 @@ U phishingberichten die ransomware bevatten melden door de instructies in [Spam-
 
 - [Norsk Hydro reageert op ransomware aanval met transparantie](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
 
-- [Ransomware detectie en herstel van uw bestanden in OneDrive](https://support.office.com/article/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
+- [Ransomware detectie en het herstellen van uw bestanden in OneDrive](https://support.office.com/article/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
 
 - [Microsoft Security Intelligence-rapport](https://www.microsoft.com/securityinsights/)
 
@@ -142,9 +142,9 @@ U phishingberichten die ransomware bevatten melden door de instructies in [Spam-
 
 - [Een waardige upgrade: Next-gen beveiliging op Windows 10 blijkt veerkrachtig tegen ransomware uitbraken in 2017](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
 
-- [Geen mas, Samas: Wat is er in deze ransomware modus operandi?](https://www.microsoft.com/security/blog/2016/03/17/no-mas-samas-whats-in-this-ransomwares-modus-operandi/)
+- [Geen mas, Samas: Wat zit er in de modus operandi van deze ransomware?](https://www.microsoft.com/security/blog/2016/03/17/no-mas-samas-whats-in-this-ransomwares-modus-operandi/)
 
-- [Locky malware, gelukkig om het te vermijden](https://www.microsoft.com/security/blog/2016/02/24/locky-malware-lucky-to-avoid-it/)
+- [Locky malware, geluk om het te vermijden](https://www.microsoft.com/security/blog/2016/02/24/locky-malware-lucky-to-avoid-it/)
 
 - [MSRT juli 2016: Cerber ransomware](https://www.microsoft.com/security/blog/2016/07/12/msrt-july-2016-cerber-ransomware/)
 

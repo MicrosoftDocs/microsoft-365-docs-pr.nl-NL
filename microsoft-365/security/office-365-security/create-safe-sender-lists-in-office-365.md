@@ -14,12 +14,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: Beheerders kunnen meer te weten komen over de beschikbare opties in Office 365 en EOP waarmee binnenkomende berichten spamfilters kunnen overslaan.
-ms.openlocfilehash: 2b7463165bb376655fd7f63ac0bdd79a8eccb617
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f9178dae93f8eb33996d05034d27fceed66edd39
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893848"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033408"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Lijsten met veilige afzenders maken in Office 365
 
@@ -38,9 +38,9 @@ De beschikbare lijsten met veilige afzenders worden in de volgende lijst beschre
 Regels voor e-mailstroom bieden de meeste flexibiliteit om ervoor te zorgen dat alleen de juiste berichten zijn toegestaan. Toegestane afzender- en toegestane domeinlijsten in antispambeleid zijn niet zo veilig als de LIJST met IP-toegestane lijsten, omdat het e-maildomein van de afzender gemakkelijk kan worden vervalst. Maar de IP-lijst toestaan brengt ook een risico met zich mee, omdat e-mail van _elk_ domein dat vanaf dat IP-adres wordt verzonden, spamfilters omzeilt.
 
 > [!IMPORTANT]
-> <ul><li>Wees voorzichtig en houd *eventuele* uitzonderingen in de gaten die u gebruiken voor het filteren van spam met behulp van lijsten met veilige afzenders.</li><li>Hoewel u veilige afzenderlijsten gebruiken om te helpen met valse positieven (goede e-mail gemarkeerd als spam), moet u het gebruik van veilige afzenderlijsten beschouwen als een tijdelijke oplossing die indien mogelijk moet worden vermeden. We raden u aan valse positieven te beheren met behulp van lijsten met veilige afzenders, omdat uitzonderingen op spamfiltering uw organisatie kunnen openen voor spoofing en andere aanvallen. Als u erop staat om veilige afzenderlijsten te gebruiken om fout-positieven te beheren, moet u waakzaam zijn en het onderwerp bewaren voor [het indienen van spam, niet-spam en phishingmails bij Microsoft voor analyse](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md) in de aanslag.</li><li>Als u wilt toestaan dat een domein niet-geverifieerde e-mail verzendt (anti-spoofingbescherming omzeilt), maar antispam- en anti-malwarecontroles niet omzeilt, u deze toevoegen aan de [lijst met veilige afzenders allowedTospoof](walkthrough-spoof-intelligence-insight.md)</li><li>EOP en Outlook inspecteren verschillende berichteigenschappen om de afzender van het bericht te bepalen. Zie de sectie [Overwegingen voor bulke-mail](#considerations-for-bulk-email) later in dit onderwerp voor meer informatie.</li></ul>
+> <ul><li>Wees voorzichtig en houd *eventuele* uitzonderingen in de gaten die u gebruiken voor het filteren van spam met behulp van lijsten met veilige afzenders.</li><li>Hoewel u veilige afzenderlijsten gebruiken om te helpen met valse positieven (goede e-mail gemarkeerd als spam), moet u het gebruik van veilige afzenderlijsten beschouwen als een tijdelijke oplossing die indien mogelijk moet worden vermeden. We raden u aan valse positieven te beheren met behulp van lijsten met veilige afzenders, omdat uitzonderingen op spamfiltering uw organisatie kunnen openen voor spoofing en andere aanvallen. Als u erop staat veilige afzenderlijsten te gebruiken om fout-positieven te beheren, moet u waakzaam zijn en het onderwerp [Berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md) in de aanslag houden.</li><li>Als u wilt toestaan dat een domein niet-geverifieerde e-mail verzendt (anti-spoofingbescherming omzeilt), maar antispam- en anti-malwarecontroles niet omzeilt, u deze toevoegen aan de [lijst met veilige afzenders allowedTospoof](walkthrough-spoof-intelligence-insight.md)</li><li>EOP en Outlook inspecteren verschillende berichteigenschappen om de afzender van het bericht te bepalen. Zie de sectie [Overwegingen voor bulke-mail](#considerations-for-bulk-email) later in dit onderwerp voor meer informatie.</li></ul>
 
-U hebt daarentegen ook verschillende opties om e-mail van specifieke bronnen te blokkeren met behulp van _geblokkeerde afzenderlijsten._ Zie [Lijsten met blokafzenders maken in Office 365](create-block-sender-lists-in-office-365.md)voor meer informatie.
+U hebt daarentegen ook verschillende opties om e-mail van specifieke bronnen te blokkeren met behulp van _geblokkeerde afzenderlijsten._ Zie [Lijsten met geblokkeerde afzenders maken in Office 365](create-block-sender-lists-in-office-365.md) voor meer informatie.
 
 ## <a name="recommended-use-mail-flow-rules"></a>(Aanbevolen) Regels voor e-mailstromen gebruiken
 
@@ -71,9 +71,9 @@ In het volgende voorbeeld wordt ervan uitgegaan dat u e-mail van contoso.com nod
 
 4. **Actie:** Configureer beide acties in de regel:
 
-   A. **Wijzig de eigenschappen** \> van het bericht **en stel het spamvertrouwensniveau (SCL)** \> **Bypass spamfiltering in.**
+   a. **Wijzig de eigenschappen** \> van het bericht **en stel het spamvertrouwensniveau (SCL)** \> **Bypass spamfiltering in.**
 
-   B. **Een berichtkop bevat** \> een van \<deze **woorden** \> **Koptekstnaam:**\>CustomHeaderName\> Header **value:** \<CustomHeaderValue .
+   b. **Een berichtkop bevat** \> een van \<deze **woorden** \> **Koptekstnaam:**\>CustomHeaderName\> Header **value:** \<CustomHeaderValue .
 
       Bijvoorbeeld `X-ETR: Bypass spam filtering for authenticated sender 'contoso.com'`. Als u meer dan één domein in de regel hebt, u de koptekst naar gelang van het geval aanpassen.
 
@@ -91,7 +91,7 @@ Wanneer berichten spamfilters overslaan vanwege de lijst Met veilige afzenders v
 
 Als u geen e-mailstroomregels gebruiken zoals eerder beschreven, u de volgende beste optie toevoegen aan de lijst met brone-mailgegevens in het verbindingsfilterbeleid. Zie [Verbindingsfiltering configureren in Office 365](configure-the-connection-filter-policy.md)voor meer informatie.
 
-**Toelichting :**
+**Opmerkingen**:
 
 - Het is belangrijk dat u het aantal toegestane IP-adressen tot een minimum beperkt, dus vermijd het gebruik van volledige IP-adresbereiken waar mogelijk.
 

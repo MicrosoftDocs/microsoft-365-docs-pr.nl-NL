@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Volg deze aanbevolen aanbevelingen voor Exchange Online Protection (EOP) om uzelf voor succes op te stellen en veelvoorkomende configuratiefouten te voorkomen.
-ms.openlocfilehash: b4b1f02e3b034b7e89d605a2164b6add3f20dae5
-ms.sourcegitcommit: 3d17c1d6b80672719b1878e2f321f0de39595226
+ms.openlocfilehash: fd0baf81b516c30e2cee3b702e2ca0be560e9f4d
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "42811307"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033432"
 ---
 # <a name="best-practices-for-configuring-eop-and-office-365-atp"></a>Aanbevolen procedures voor het configureren van EOP en Office 365 ATP
 
@@ -61,11 +61,9 @@ Deze instellingen hebben betrekking op een reeks functies die buiten het beveili
 
 Los algemene problemen en trends op door de rapporten in het beheercentrum te gebruiken. Zoek specifieke gegevens over een bericht met één punt met behulp van het hulpprogramma berichttracering. Meer informatie over rapporteren bij [Rapportage en berichttracering in Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md). Meer informatie over het hulpprogramma voor berichttracering in [Berichttracering in het Security & Compliance Center](message-trace-scc.md).
 
-## <a name="reporting-false-positive-and-false-negatives-to-microsoft"></a>Melding van false positive en false negatives aan Microsoft
+## <a name="report-false-positive-and-false-negatives-to-microsoft"></a>Valse positieve en valse negatieven melden aan Microsoft
 
-Beheerders dienen valse negatieven (spam) en false positives (niet-spam) bij Microsoft in te dienen via onze portal voor beheerdersinzendingen. E-mails, bestanden en URL's kunnen worden ingediend om beheerders te helpen bepalen waarom we al dan niet berichten aan eindgebruikers hebben geleverd. Zie [Vermoedelijke spam, phish, URL's en bestanden indienen bij Microsoft voor het scannen van Office 365 voor](admin-submission.md)meer informatie.
-
-Eindgebruikers kunnen ook direct valse negatieven (spam) en false positives (non-spam) melden bij Microsoft voor analyse wanneer ze het niet eens zijn met gegeven uitspraken. Zie [Spam, niet-spam en phishing-scamberichten verzenden voor analyse voor meer informatie.](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)
+Om spamfiltering in de service voor iedereen te verbeteren, moet u valse positieven (goede e-mail gemarkeerd als slecht) en valse negatieven (slechte e-mail toegestaan) melden aan Microsoft voor analyse. Zie [Berichten en bestanden rapporteren aan Microsoft voor](report-junk-email-messages-to-microsoft.md)meer informatie.
 
 ## <a name="create-mail-flow-rules"></a>Regels voor e-mailstromen maken
 

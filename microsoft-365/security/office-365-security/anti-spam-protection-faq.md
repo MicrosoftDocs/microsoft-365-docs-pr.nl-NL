@@ -16,12 +16,12 @@ ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
 description: Dit onderwerp biedt veelgestelde vragen en antwoorden over anti-spam bescherming. Antwoorden zijn van toepassing op Klanten van Microsoft Exchange Online en Exchange Online Protection (EOP).
-ms.openlocfilehash: daabb84115f1f993fd01891bcef74c23f0391bb4
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 47970cd2f67873b3c8b1fbfa70b7e1754fc8359c
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894056"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033492"
 ---
 # <a name="anti-spam-protection-in-office-365-faq"></a>Veelgestelde vragen over spam in Office 365
 
@@ -36,13 +36,15 @@ Zie [Veelgestelde vragen](anti-malware-protection-faq-eop.md)over bescherming te
 A. **Voor binnenkomende berichten:** De meerderheid van de spam wordt verwijderd via verbindingsfiltering, die is gebaseerd op het IP-adres van de bron-e-mailserver. Antispambeleid (ook wel spamfilterbeleid of inhoudsfilterbeleid genoemd) inspecteert en classificeert berichten als spam, bulk of phishing. Standaard worden berichten die zijn geclassificeerd als spam of bulk, bezorgd in de map Ongewenste e-mail van de ontvanger, terwijl berichten die als phishing zijn geclassificeerd, in quarantaine worden geplaatst. U het standaard antispambeleid wijzigen (van toepassing op alle ontvangers) of u aangepaste antispambeleidsregels maken met strengere instellingen voor specifieke groepen gebruikers (u bijvoorbeeld spam die naar leidinggevenden wordt verzonden, in quarantaine plaatsen). Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) en [Aanbevolen antispambeleidsinstellingen](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)voor meer informatie.
 
 > [!IMPORTANT]
-> In hybride implementaties waarbij EOP on-premises postvakken beschermt, moet u twee Exchange-mailstroomregels (ook wel transportregels genoemd) configureren in uw on-premises Exchange-organisatie om de EOP-spamfilterkoppen te detecteren die aan berichten worden toegevoegd. Zie Zelfstandige [EOP configureren om spam te leveren aan de map Ongewenste e-mail in hybride omgevingen](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)voor meer informatie.
+> In hybride implementaties waarbij EOP on-premises postvakken beschermt, moet u twee Exchange-mailstroomregels (ook wel transportregels genoemd) configureren in uw on-premises Exchange-organisatie om de EOP-spamfilterkoppen te detecteren die aan berichten worden toegevoegd. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. 
 
  **Voor uitgaande berichten:** Het bericht wordt omgeleid via de groep voor levering met [een hoog risico](high-risk-delivery-pool-for-outbound-messages.md) of wordt teruggestuurd naar de afzender in een rapport zonder levering (ook wel een NDR- of bouncebericht genoemd). Zie [Uitgaande spambesturingselementen in Office 365](outbound-spam-controls.md)voor meer informatie over uitgaande spambeveiliging.
 
 ## <a name="q-whats-a-zero-day-spam-variant-and-how-is-it-handled-by-the-service"></a>V. Wat is een zero-day spam variant en hoe wordt deze behandeld door de service?
 
-A. Een zero-day spam variant is een eerste generatie, voorheen onbekende variant van spam die nooit is vastgelegd of geanalyseerd, dus onze anti-spam filters hebben nog geen informatie beschikbaar voor het detecteren ervan. Nadat een zero-day spamsample is vastgelegd en geanalyseerd door onze spamanalisten, als het voldoet aan de spamclassificatiecriteria, worden onze antispamfilters bijgewerkt om het te detecteren en wordt het niet langer beschouwd als 'zero-day'. (**Opmerking:** Als u een bericht ontvangt dat een zero-day spamvariant kan zijn, dient u het bericht ter analyse bij Microsoft in te dienen met behulp van een van de methoden die zijn beschreven in [Spam verzenden, niet-spam en phishing-scamberichten aan Microsoft](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md).)
+A. Een zero-day spam variant is een eerste generatie, voorheen onbekende variant van spam die nooit is vastgelegd of geanalyseerd, dus onze anti-spam filters hebben nog geen informatie beschikbaar voor het detecteren ervan. Nadat een zero-day spamsample is vastgelegd en geanalyseerd door onze spamanalisten, als het voldoet aan de spamclassificatiecriteria, worden onze antispamfilters bijgewerkt om het te detecteren en wordt het niet langer beschouwd als 'zero-day'.
+
+**Let op:** Als u een bericht ontvangt dat mogelijk een zero-day spamvariant is, dient u het bericht bij Microsoft in te dienen met behulp van een van de methoden die in [Berichten en bestanden melden aan Microsoft.](report-junk-email-messages-to-microsoft.md)
 
 ## <a name="q-do-i-need-to-configure-the-service-to-provide-anti-spam-protection"></a>V. Moet ik de service configureren om bescherming tegen spam te bieden?
 
@@ -72,7 +74,7 @@ A. Ja, de service heeft een URL-filter dat controleert op URL's binnen berichten
 
 ## <a name="q-how-can-customers-using-the-service-send-false-negative-spam-and-false-positive-non-spam-messages-to-microsoft"></a>V. Hoe kunnen klanten die de service gebruiken valse negatieve (spam) en fout-positieve (niet-spam) berichten naar Microsoft sturen?
 
-A. Spam- en niet-spamberichten kunnen op verschillende manieren bij Microsoft worden ingediend voor analyse. Zie [Spam, niet-spam en phishing-scamberichten verzenden voor analyse voor](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)meer informatie.
+A. Spam- en niet-spamberichten kunnen op verschillende manieren bij Microsoft worden ingediend voor analyse. Zie [Berichten en bestanden rapporteren aan Microsoft voor](report-junk-email-messages-to-microsoft.md)meer informatie.
 
 ## <a name="q-can-i-get-spam-reports"></a>V. Kan ik spamrapporten ontvangen?
 

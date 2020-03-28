@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 description: Beheerders kunnen meer te weten komen over de beschikbare opties in Office 365 en EOP om binnenkomende berichten te blokkeren.
-ms.openlocfilehash: a588c9c869dae39ab60fc7ad68b6496f57ae015a
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 0bfab3024bc781e53600092ebc88fae25c5f4afc
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893860"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033420"
 ---
 # <a name="create-blocked-sender-lists-in-office-365"></a>Lijsten met geblokkeerde afzenders maken in Office 365
 
@@ -30,12 +30,12 @@ De beste methode om afzenders te blokkeren, is afhankelijk van de impact. Voor �
 
 2. Lijsten met geblokkeerde afzenders of geblokkeerde domeinlijsten (antispambeleid)
 
-3. Mai stroomregels
+3. Regels voor e-mailstromen
 
 4. De IP-bloklijst (verbindingsfiltering)
 
 > [!NOTE]
-> Hoewel u blokinstellingen voor de hele organisatie gebruiken om foutnegatieven (gemiste spam) aan te pakken, moet u deze berichten ook voor analyse bij Microsoft indienen. Het beheren van foute negatieven door bloklijsten te gebruiken, verhoogt uw administratieve overhead aanzienlijk. Als u bloklijsten gebruikt om gemiste spam af te leiden, moet u het onderwerp voor [het indienen van spam, niet-spam en phishing-scamberichten bij Microsoft](https://docs.microsoft.com/office365/SecurityCompliance/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis)houden voor analyse , klaar.
+> Hoewel u blokinstellingen voor de hele organisatie gebruiken om foutnegatieven (gemiste spam) aan te pakken, moet u deze berichten ook voor analyse bij Microsoft indienen. Het beheren van foute negatieven door bloklijsten te gebruiken, verhoogt uw administratieve overhead aanzienlijk. Als u bloklijsten gebruikt om gemiste spam af te leiden, moet u het onderwerp [Berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md) in de aanslag houden.
 
 U hebt daarentegen ook verschillende opties om e-mail van specifieke bronnen altijd toe te staan met behulp van _lijsten met veilige afzenders._ Zie [Lijsten met veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md)voor meer informatie.
 
@@ -50,7 +50,7 @@ Wanneer berichten met succes worden geblokkeerd vanwege de lijst Geblokkeerde af
 
 ## <a name="use-blocked-sender-lists-or-blocked-domain-lists"></a>Geblokkeerde afzenderlijsten of geblokkeerde domeinlijsten gebruiken
 
-Wanneer meerdere gebruikers worden beïnvloed, is het bereik breder, dus de volgende beste optie is geblokkeerde afzenderlijsten of geblokkeerde domeinlijsten in antispambeleid. Berichten van afzenders op de lijsten worden gemarkeerd als **Spam**en de actie die u hebt ingesteld voor **het** spamfiltervonnis wordt op het bericht uitgevoerd. Zie [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md)voor meer informatie.
+Wanneer meerdere gebruikers worden beïnvloed, is het bereik breder, dus de volgende beste optie is geblokkeerde afzenderlijsten of geblokkeerde domeinlijsten in antispambeleid. Berichten van afzenders op de lijsten worden gemarkeerd als **Spam**en de actie die u hebt ingesteld voor **het** spamfiltervonnis wordt op het bericht uitgevoerd. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
 
 De maximumlimiet voor deze lijsten is ongeveer 1000 vermeldingen; hoewel, u zult slechts 30 ingangen in de portaal kunnen ingaan. U moet PowerShell gebruiken om meer dan 30 vermeldingen toe te voegen.
 

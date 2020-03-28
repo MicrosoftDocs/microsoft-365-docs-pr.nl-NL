@@ -1,11 +1,11 @@
 ---
-title: Beheerdersinzendingen in Office 365, O365-inzendingen, Office 365-spamprobleem, O365 vals negatief, phish indienen in Office 365, e-mail indienen voor scannen, verdachte e-mail in Office 365, een e-mail scannen, Microsoft laten scannen op phish, Microsoft laten scannen op spam, verzenden e-mail, e-mail indienen, dodgy e-mail, slechte acteur mail, verdacht, niet-vertrouwde e-mail, phish e-mails melden aan Microsoft, phish e-mails melden aan Microsoft, meld scam e-mail aan Microsoft, meld malware in e-mail naar Microsoft, spam e-mail in inbox office 365, virus in e-mail office 365
+title: Admin inzendingen in Office 365, O365 inzendingen, Office 365 spam probleem, O365 vals negatief, phish indienen in Office 365, e-mail indienen voor scannen, verdachte e-mail in Office 365, een e-mail scannen, microsoft laten scannen op phish, Microsoft laten scannen op spam, indienen e-mail, e-mail indienen, onbetrouwbare e-mail, slechte actor mail, verdachte, niet-vertrouwde e-mail, verslag phish e-mails aan Microsoft, verslag kwaadaardige e-mail aan Microsoft, verslag scam e-mail naar Microsoft, malware melden in e-mail aan Microsoft, spam e-mail in postvak IN Office 365, virus in e-mail office 365
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 08/06/2019
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,63 +14,66 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over het verzenden van verdachte e-mails, vermoedelijke phishingmails, spam en andere mogelijk schadelijke berichten, URL's en bestanden van uw Office 365-tenant aan Microsoft voor het scannen.
-ms.openlocfilehash: b123aef485628728df9db27875117b47295975ad
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Meer informatie over het verzenden van verdachte e-mails, vermoedelijke phishingmails, spam en andere mogelijk schadelijke berichten, URL's en bestanden van uw Office 365-tenant bij Microsoft voor het scannen.
+ms.openlocfilehash: 539d09f03a8a9c5956f2d1e3584f893b0e4ffbb4
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42808814"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033612"
 ---
-# <a name="how-to-submit-suspected-spam-phish-urls-and-files-to-microsoft-for-office-365-scanning"></a>Verdachte spam, phish, URL's en bestanden indienen bij Microsoft voor Office 365-scannen
+# <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Beheerbeheer gebruiken om vermoedelijke spam, phish, URL's en bestanden bij Microsoft in te dienen
 
-Beheerders kunnen e-mails verzenden met behulp van bestands- of netwerkbericht-id, URL's en bestanden voor het scannen door Microsoft in Office 365.
-De bijgewerkte inzendingen sectie bevat nog steeds door de gebruiker gerapporteerde berichten en beschikbaar voor alle klanten met behulp van EOP.
+Als u een beheerder bent in een Office 365-organisatie met postvakken in Exchange Online, u de portal Inzendingen in het Office 365 Security & Compliance Center gebruiken om e-mailberichten, URL's en bijlagen bij Microsoft in te dienen om te scannen.
 
-Wanneer u een e-mail indient, krijgt u informatie over alle beleidsregels die de inkomende e-mail mogelijk in uw tenant hebben toegestaan, evenals het onderzoeken van URL's en bijlagen in de e-mail. Beleid waarmee een e-mail mogelijk is, omvat de lijst met veilige afzenders van een individuele gebruiker en beleid op tenantniveau, zoals exchange-mailstroomregels (ook wel transportregels genoemd).
+Wanneer u een e-mail indient, ontvangt u informatie over het beleid dat de binnenkomende e-mail mogelijk in uw tenant heeft toegestaan, evenals het onderzoeken van URL's en bijlagen in de e-mail. Beleidsregels waarmee een e-mail mogelijk is toegestaan, bevatten de lijst met veilige afzenders van een individuele gebruiker en beleid op tenantniveau, zoals de regels voor de e-mailstroom van Exchange (ook wel transportregels genoemd).
 
-## <a name="how-to-direct-suspicious-content-to-microsoft-for-office-365-scanning"></a>Verdachte inhoud doorsturen naar Microsoft voor Office 365-scannen
+Zie voor andere manieren om e-mailberichten, URL's en bijlagen bij Microsoft in te dienen 
 
-Als u inhoud wilt verzenden naar Microsoft, klikt u op de knop **Nieuwe indiening** in de linkerbovenhoek van de inzendingenpagina. Er verschijnt een fly-out aan de rechterkant van de pagina met de optie om een e-mail, URL of bestand in te dienen.
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
+
+- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de <https://protection.office.com/reportsubmission>pagina **Indiening** wilt gaan, gebruikt u .
+
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone Exchange Online Protection PowerShell.
+
+- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u antispambeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rolgroepen **Organisatiebeheer,** **Beveiligingsbeheerder**of **Beveiligingslezer.** Zie [Machtigingen in het Office 365-beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
+
+- Zie Berichten en bestanden rapporteren aan Microsoft voor meer informatie over hoe gebruikers berichten en bestanden kunnen verzenden naar [Microsoft.](report-junk-email-messages-to-microsoft.md)
+
+## <a name="how-to-direct-suspicious-content-to-microsoft-for-office-365-scanning"></a>Verdachte inhoud doorsturen naar het scannen van Microsoft voor Office 365
+
+Als u inhoud wilt verzenden naar Microsoft, klikt u op de knop **Nieuwe indiening** in de linkerbovenhoek van de inzendingenpagina. Er wordt een flyout aan de rechterkant van de pagina weergegeven met de optie om een e-mail, URL of bestand in te dienen.
 
 ### <a name="submit-a-questionable-email-to-microsoft"></a>Een twijfelachtige e-mail verzenden naar Microsoft
 
 ![Voorbeeld van e-mailindiening](../../media/submission-flyout-email.PNG)
 
-1. Als u een e-mail wilt verzenden, selecteert u **e-mail** en geeft u de **e-mailbericht-id** op of uploadt u het e-mailbestand.
+1. Als u een e-mail wilt verzenden, selecteert u **e-mail** en geeft u de e-mailbericht-id op of uploadt u het e-mailbestand. **network message ID**
 
-2. Geef de ontvanger(s) op tegen wie u de beleidscontrole wilt uitvoeren. De beleidscontrole bepaalt of de e-mail het scannen heeft omzeild vanwege beleid op gebruikers- of tenantniveau.
+2. Geef de ontvanger(s) op waartegen u de beleidscontrole wilt uitvoeren. De beleidscontrole bepaalt of de e-mail scannen omzeild als gevolg van gebruiker of tenant niveau beleid.
 
-3. Geef op of de e-mail al dan niet geblokkeerd had moeten zijn. Als de e-mail had moeten worden geblokkeerd, geeft u aan of deze had moeten worden geblokkeerd als spam, phishing of malware. Als u niet zeker weet welk type het zou kunnen zijn, gebruik dan uw beste oordeel.
+3. Geef op of de e-mail had moeten worden geblokkeerd of niet. Als de e-mail had moeten worden geblokkeerd, geeft u op of deze had moeten worden geblokkeerd als Spam, Phishing of Malware. Als u niet zeker weet welk type het zou kunnen zijn, gebruik dan uw beste oordeel.
 
-   - Als het filter is omzeild vanwege beleid bij indiening, ziet u informatie over dat beleid.
+   - Als het filter is omzeild vanwege het beleid bij indiening, ziet u informatie over dat beleid.
 
-   - Als het filter niet is omzeild vanwege een of meer beleidsregels, wordt de scan binnen enkele minuten voltooid. U ziet aanvullende informatie over de indiening door op de statuskoppeling te klikken. Dit omvat de resultaten van de beleidscontrole en het herscannen. Houd er rekening mee dat de e-mail niet opnieuw wordt uitgevoerd via de volledige filterstack van Office 365 ATP, maar een gedeeltelijke herscan uitvoert op basis van bepaalde kenmerken van de e-mail, URL of het bestand.
+   - Als het filter niet is omzeild vanwege een of meer beleidsregels, wordt de scan binnen enkele minuten voltooid. U ziet aanvullende informatie over de indiening door op de statuskoppeling te klikken. Dit omvat de resultaten van de beleidscontrole en het rescanvonnis. Houd er rekening mee dat de e-mail niet opnieuw wordt uitgevoerd via de volledige filterstapel van Office 365 ATP, maar dat er een gedeeltelijke recan wordt uitgevoerd op basis van bepaalde kenmerken van de e-mail, URL of het bestand.
 
-4. Klik op **Verzenden.**
+4. Klik **op Verzenden.**
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Een verdachte URL naar Microsoft verzenden
 
 ![Voorbeeld van e-mailindiening](../../media/submission-url-flyout.png)
 
-1. Als u een URL wilt indienen, selecteert u **URL** van de flyout. Typ de volledige URL in inclusief het protocol **(https://).**
+1. Als u een URL wilt verzenden, selecteert u **URL** in de flyout. Typ de volledige URL inclusief het protocol **(https://).**
 
-   Als u hebt geselecteerd **Moet zijn gefilterd,** geef dan op of de URL phishing of malware is.
+   Als u Moet hebben **gefilterd,** geeft u op of de URL phishing of malware is.
 
-2. Klik op **Verzenden.**
+2. Klik **op Verzenden.**
 
 ### <a name="submit-a-suspected-file-to-microsoft"></a>Een verdacht bestand indienen bij Microsoft
 
 ![Voorbeeld van e-mailindiening](../../media/submission-file-flyout.PNG)
 
-1. Als u een bestand wilt indienen, selecteert u **Bestand** uit de flyout en uploadt u het bestand dat u wilt scannen.
+1. Als u een bestand wilt verzenden, selecteert u **Bestand** uit de flyout en uploadt u het bestand dat u wilt scannen.
 
-2. Klik op **Verzenden.**
-
-## <a name="related-topics"></a>Verwante onderwerpen
-
-[Office 365 Advanced Threat Protection Plan 2](office-365-ti.md)
-
-[Beschermen tegen bedreigingen in Office 365](protect-against-threats.md)
-
-[Rapporten weergeven voor geavanceerde bedreigingsbeveiliging van Office 365](view-reports-for-atp.md)
+2. Klik **op Verzenden.**
