@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 8370744d244ce424fa21e496e8dfd4f470de88e6
-ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
+ms.openlocfilehash: dd35bf0d7439a19d7b1562e7a0d0681679b34c36
+ms.sourcegitcommit: c079cc893cd1bd5d894b13814063a2f42238806e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42959180"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43035109"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Beleidsaanbevelingen voor het beveiligen van e-mail
 
@@ -42,8 +42,8 @@ Als u Exchange Online en Outlook hebt opgenomen in het toepassingsgebied van het
 |:---------------|:-------|:----------------|
 |**Basislijn**|[MFA vereisen wanneer het aanmeldingsrisico *gemiddeld* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Exchange Online opnemen in de toewijzing van cloud-apps|
 |        |[Cliënten blokkeren die geen moderne verificatie ondersteunen](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Exchange Online opnemen in de toewijzing van cloud-apps|
-|        |[Beleid voor app-beveiliging definiëren](identity-access-policies.md#high-risk-users-must-change-password)|Zorg ervoor dat Outlook is opgenomen in de lijst met apps. Zorg ervoor dat u het beleid voor elk platform bijwerkt (iOS, Android, Windows)|
-|        |[Apps vereisen die het beleid voor app-beveiliging van Intune ondersteunen](identity-access-policies.md#require-apps-that-support-intune-app-protection-policies)|Exchange Online opnemen in de lijst met cloud-apps|
+|        |[App-beleid voor gegevensbescherming toepassen](identity-access-policies.md#apply-app-data-protection-policies)|Zorg ervoor dat Outlook is opgenomen in de lijst met apps. Zorg ervoor dat u het beleid voor elk platform bijwerkt (iOS, Android, Windows)|
+|        |[Goedgekeurde apps en APP-beveiliging vereisen](identity-access-policies.md#require-approved-apps-and-app-protection)|Exchange Online opnemen in de lijst met cloud-apps|
 |        |[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Exchange Online opnemen in lijst met cloud-apps|
 |        |[ActiveSync-clients blokkeren](#block-activesync-clients)|Dit nieuwe beleid toevoegen| 
 |**Gevoelig**|[MFA vereisen wanneer het aanmeldingsrisico *laag,* *gemiddeld* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)| Exchange Online opnemen in de toewijzing van cloud-apps|

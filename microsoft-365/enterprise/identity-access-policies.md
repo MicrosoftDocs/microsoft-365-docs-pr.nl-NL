@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: b6e10757c3a4370c83b6ee0c1fb6c818a13089ea
-ms.sourcegitcommit: 7eaecb91c7cb1f8679f99882563f5c1149175992
+ms.openlocfilehash: eb06db140e4e3c9c245b7689edecf4b0cb86b674
+ms.sourcegitcommit: c079cc893cd1bd5d894b13814063a2f42238806e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43022919"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43035137"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Gemeenschappelijk beleid voor identiteits- en apparaattoegangs
 In dit artikel worden de algemene aanbevolen beleidsregels beschreven voor het beveiligen van toegang tot cloudservices, waaronder on-premises toepassingen die zijn gepubliceerd met Azure AD Application Proxy. 
@@ -31,8 +31,8 @@ In deze leidraad wordt besproken hoe u het aanbevolen beleid in een nieuw ingeri
 
 In het volgende diagram wordt de aanbevolen set beleidsregels weergegeven. Hierin wordt weergegeven op welke beschermingslaag elk beleid van toepassing is en of het beleid van toepassing is op pc's of telefoons en tablets, of op beide categorieën apparaten. Het geeft ook aan waar deze beleidsregels zijn geconfigureerd.
 
-![Algemeen beleid voor het configureren van identiteit en apparaattoegang](../media/Identity_device_access_policies_byplan.png)
-
+[![Algemeen beleid voor het configureren van identiteit en apparaattoegang](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
+[Zie een grotere versie van deze afbeelding](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
 
 In de rest van dit artikel wordt beschreven hoe u dit beleid configureren. 
 
@@ -46,8 +46,8 @@ Als u tijd wilt geven om deze taken uit te voeren, raden we u aan het basislijnb
 |**Basislijn**|[MFA vereisen wanneer het aanmeldingsrisico *gemiddeld* of *hoog* is](#require-mfa-based-on-sign-in-risk)| |
 |        |[Cliënten blokkeren die geen moderne verificatie ondersteunen](#block-clients-that-dont-support-modern-authentication)|Clients die geen moderne authenticatie gebruiken, kunnen regels voor voorwaardelijke toegang omzeilen, dus het is belangrijk om deze te blokkeren|
 |        |[Gebruikers met een hoog risico moeten het wachtwoord wijzigen](#high-risk-users-must-change-password)|Dwingt gebruikers om hun wachtwoord te wijzigen wanneer ze zich aanmelden als activiteit met een hoog risico wordt gedetecteerd voor hun account|
-|        |[Beleid voor app-beveiliging definiëren](#define-app-protection-policies)|Eén beleid per platform (iOS, Android, Windows).|
-|        |[Apps vereisen die het beleid voor app-beveiliging van Intune ondersteunen](#require-apps-that-support-intune-app-protection-policies)|Dwingt mobiele app-beveiliging voor telefoons en tablets af|
+|        |[App-beleid voor gegevensbescherming toepassen](#apply-app-data-protection-policies)|Eén beleid per platform (iOS, Android, Windows). Intune App Protection Policies (APP) zijn vooraf gedefinieerde sets van bescherming, van niveau 1 tot niveau 3.|
+|        |[Goedgekeurde apps en APP-beveiliging vereisen](#require-approved-apps-and-app-protection)|Dwingt mobiele app-beveiliging voor telefoons en tablets af|
 |        |[Nalevingsbeleid voor apparaten definiëren](#define-device-compliance-policies)|Eén beleid voor elk platform|
 |        |[Eis conforme pc’s](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Dwingt Intune-beheer van pc's af|
 |**Gevoelig**|[MFA vereisen wanneer het aanmeldingsrisico *laag,* *gemiddeld* of *hoog* is](#require-mfa-based-on-sign-in-risk)| |
@@ -186,14 +186,14 @@ Meld u aan bij de [Microsoft Azure-portal (methttps://portal.azure.com) ](https:
 > [!NOTE]
 > Zorg ervoor dat u dit beleid inschakelt door **Op**te kiezen . Overweeg ook het gebruik van de [tool Wat als](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) om het beleid te testen
 
-## <a name="define-app-protection-policies"></a>Beleid voor app-beveiliging definiëren
+## <a name="apply-app-data-protection-policies"></a>App-beleid voor gegevensbescherming toepassen
 App-beveiligingsbeleid (APP) bepaalt welke apps zijn toegestaan en welke acties ze kunnen uitvoeren met de gegevens van uw organisatie. De keuzes die beschikbaar zijn in APP stellen organisaties in staat om de bescherming af te stemmen op hun specifieke behoeften. Voor sommigen is het mogelijk niet duidelijk welke beleidsinstellingen nodig zijn om een volledig scenario te implementeren. Om organisaties te helpen prioriteit te geven aan het verharden van het eindpunt van mobiele klanten, heeft Microsoft taxonomie geïntroduceerd voor het APP-beheer voor gegevensbescherming voor iOS- en Android-mobiele apps. 
 
 Het APP-kader voor gegevensbescherming is ingedeeld in drie verschillende configuratieniveaus, waarbij elk niveau het vorige niveau afbouwt: 
 
-- Enterprise basic data protection zorgt ervoor dat apps worden beveiligd met een pincode en versleuteld en voert selectieve veegbewerkingen uit. Voor Android-apparaten valideert dit niveau de attest van Android-apparaten. Dit is een instapconfiguratie die vergelijkbare gegevensbeschermingscontrole biedt in het postvakbeleid van Exchange Online en IT en de gebruikerspopulatie introduceert in APP. 
-- Enterprise enhanced data protection introduceert APP data lek preventie mechanismen en minimale OS-vereisten. Dit is de configuratie die van toepassing is op de meeste mobiele gebruikers die toegang hebben tot werk- of schoolgegevens. 
-- Enterprise hoge gegevensbescherming introduceert geavanceerde mechanismen voor gegevensbescherming, verbeterde PIN-configuratie en APP Mobile Threat Defense. Deze configuratie is wenselijk voor gebruikers die toegang hebben tot gegevens met een hoog risico. 
+- **Enterprise Basic Data Protection** (Level 1) zorgt ervoor dat apps worden beveiligd met een pincode en versleuteld en selectieve veegbewerkingen uitvoeren. Voor Android-apparaten valideert dit niveau de attest van Android-apparaten. Dit is een instapconfiguratie die vergelijkbare gegevensbeschermingscontrole biedt in het postvakbeleid van Exchange Online en IT en de gebruikerspopulatie introduceert in APP. 
+- **Enterprise enhanced data protection** (Level 2) introduceert APP data lekpreventie mechanismen en minimale OS-vereisten. Dit is de configuratie die van toepassing is op de meeste mobiele gebruikers die toegang hebben tot werk- of schoolgegevens. 
+- **Enterprise high data protection** (Level 3) introduceert geavanceerde mechanismen voor gegevensbescherming, verbeterde pincodeconfiguratie en APP Mobile Threat Defense. Deze configuratie is wenselijk voor gebruikers die toegang hebben tot gegevens met een hoog risico. 
 
 Als u de specifieke aanbevelingen voor elk configuratieniveau en de minimale apps wilt bekijken die moeten worden beschermd, controleert u [het kader voor gegevensbescherming met behulp van app-beveiligingsbeleid](https://docs.microsoft.com/mem/intune/apps/app-protection-framework). 
 
@@ -206,22 +206,39 @@ Met behulp van de principes die worden beschreven in [de configuraties voor iden
 |Sterk gereguleerd     | [Niveau 3 onderneming hoge gegevensbescherming](https://docs.microsoft.com/mem/intune/apps/app-protection-framework#level-3-enterprise-high-data-protection)        | De beleidsinstellingen die in niveau 3 worden afgedwongen, bevatten alle beleidsinstellingen die worden aanbevolen voor niveau 1 en 2 en worden alleen toegevoegd aan of worden bijgewerkt met de onderstaande beleidsinstellingen om meer besturingselementen en een meer geavanceerde configuratie dan niveau 2 te implementeren.        |
 
 Als u een nieuw beleid voor app-beveiliging wilt maken voor elk platform (iOS en Android) binnen Microsoft Endpoint Manager met behulp van de instellingen voor het kader voor gegevensbescherming, kunnen beheerders:
-1. Maak het beleid handmatig door de stappen te volgen in [Het beveiligingsbeleid voor apps maken en implementeren met Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/app-protection-policies).
+1. Maak het beleid handmatig door de stappen te volgen in [Het beveiligingsbeleid voor apps maken en implementeren met Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/app-protection-policies). 
 2. Importeer het voorbeeld [Van het Intune App Protection Policy Configuration Framework JSON-sjablonen](https://github.com/microsoft/Intune-Config-Frameworks/tree/master/AppProtectionPolicies) met [de PowerShell-scripts van Intune.](https://github.com/microsoftgraph/powershell-intune-samples)
 
-## <a name="require-apps-that-support-intune-app-protection-policies"></a>Apps vereisen die het beleid voor app-beveiliging van Intune ondersteunen
-Met Voorwaardelijke toegang kunnen organisaties de toegang tot goedgekeurde (moderne verificatiegeschikte) iOS- en Android-client-apps beperken met intune-app-beveiligingsbeleid dat op hen wordt toegepast. Er zijn verschillende beleid voor voorwaardelijke toegang vereist, waarbij elk beleid zich richt op alle potentiële gebruikers. Details over het maken van dit beleid vindt u in [Het beveiligingsbeleid voor apps vereisen voor toegang tot de cloud-app met voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access).
+## <a name="require-approved-apps-and-app-protection"></a>Goedgekeurde apps en APP-beveiliging vereisen
+Als u het app-beveiligingsbeleid wilt afdwingen dat u in Intune hebt toegepast, moet u een regel voor voorwaardelijke toegang maken om goedgekeurde client-apps en de voorwaarden in het app-beveiligingsbeleid te vereisen. 
 
-1. Volg 'Stap 1: Configureer een Azure AD Conditional Access-beleid voor Office 365' in [scenario 1: Voor Office 365-apps zijn goedgekeurde apps met een beleid voor app-beveiliging vereist,](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)waarmee Outlook voor iOS en Android is ingesteld, maar kan UAuth-compatibele Exchange ActiveSync-clients worden verwijderd van een verbinding met Exchange Online.
+Voor het afdwingen van app-beveiligingsbeleid is een reeks beleidsregels vereist die zijn beschreven in [Het beleid voor app-beveiliging vereisen voor toegang tot cloud-apps met voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access). Deze beleidsregels zijn elk opgenomen in deze aanbevolen set identiteits- en toegangsconfiguratiebeleid.
+
+Als u de regel voor voorwaardelijke toegang wilt maken waarvoor goedgekeurde apps en app-beveiliging vereist zijn, volgt u 'Stap 1: Configureer een Azure AD Conditional Access-beleid voor Office 365' in [Scenario 1: Voor Office 365-apps zijn goedgekeurde apps met een app-beveiligingsbeleid vereist,](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)waarmee Outlook voor iOS en Android is toegestaan, maar blokkeert UAuth-compatibele Exchange ActiveSync-clients om verbinding te maken met Exchange Online.
 
    > [!NOTE]
    > Dit beleid zorgt ervoor dat mobiele gebruikers toegang hebben tot alle Office-eindpunten met behulp van de toepasselijke apps.
 
-2. Als u mobiele toegang tot Exchange Online inschakelt, implementeert u [Block ActiveSync-clients](secure-email-recommended-policies.md#block-activesync-clients), waardoor Exchange ActiveSync-clients geen verbinding kunnen maken met Exchange Online.
+Als u mobiele toegang tot Exchange Online inschakelt, implementeert u [Block ActiveSync-clients](secure-email-recommended-policies.md#block-activesync-clients), waardoor Exchange ActiveSync-clients geen verbinding kunnen maken met Exchange Online. Dit beleid is niet afgebeeld in de afbeelding bovenaan dit artikel. Het wordt beschreven en afgebeeld in [beleidsaanbevelingen voor het beveiligen van e-mail.](secure-email-recommended-policies.md)
 
-   Het bovenstaande beleid maakt gebruik van de subsidiebesturingselementen [Vereist goedgekeurde client-app](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-approved-client-app) en [Vereist app-beveiligingsbeleid](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy).
+ Met dit beleid wordt gebruikgemaakt van de subsidiebesturingselementen [Vereist goedgekeurde client-app](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-approved-client-app) en [Vereist app-beveiligingsbeleid](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy).
 
-3. Schakel verouderde verificatie voor andere client-apps op iOS- en Android-apparaten uit. Zie [Clients blokkeren die geen moderne verificatie ondersteunen](#block-clients-that-dont-support-modern-authentication)voor meer informatie.
+Ten slotte zorgt het blokkeren van oudere verificatie voor andere client-apps op iOS- en Android-apparaten ervoor dat deze clients voorwaardelijke toegangsregels niet kunnen omzeilen. Als u de richtlijnen in dit artikel volgt, hebt u Blokclients die [geen moderne verificatie ondersteunen,](#block-clients-that-dont-support-modern-authentication)al geconfigureerd.
+
+<!---
+With Conditional Access, organizations can restrict access to approved (modern authentication capable) iOS and Android client apps with Intune app protection policies applied to them. Several conditional access policies are required, with each policy targeting all potential users. Details on creating these policies can be found in [Require app protection policy for cloud app access with Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access).
+
+1. Follow "Step 1: Configure an Azure AD Conditional Access policy for Office 365" in [Scenario 1: Office 365 apps require approved apps with app protection policies](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), which allows Outlook for iOS and Android, but blocks OAuth capable Exchange ActiveSync clients from connecting to Exchange Online.
+
+   > [!NOTE]
+   > This policy ensures mobile users can access all Office endpoints using the applicable apps.
+
+2. If enabling mobile access to Exchange Online, implement [Block ActiveSync clients](secure-email-recommended-policies.md#block-activesync-clients), which prevents Exchange ActiveSync clients leveraging basic authentication from connecting to Exchange Online.
+
+   The above policies leverage the grant controls [Require approved client app](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-approved-client-app) and [Require app protection policy](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy).
+
+3. Disable legacy authentication for other client apps on iOS and Android devices. For more information, see [Block clients that don't support modern authentication](#block-clients-that-dont-support-modern-authentication).
+-->
 
 ## <a name="define-device-compliance-policies"></a>Beleid voor naleving van apparaten definiëren
 

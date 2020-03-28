@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 052edafa64f2704fb5a6df525b0ad5609ddc72b9
-ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
+ms.openlocfilehash: 28d0893d08e588e52cf202be8d03b00434f7cb10
+ms.sourcegitcommit: c079cc893cd1bd5d894b13814063a2f42238806e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42959192"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43035097"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Beleidsaanbevelingen voor het beveiligen van Teams-chats, -groepen en -bestanden
 
@@ -63,8 +63,8 @@ In deze tabel worden de beleidsregels weergegeven die opnieuw moeten worden beke
 |**Basislijn**|[MFA vereisen wanneer het aanmeldingsrisico *gemiddeld* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Zorg ervoor dat Teams en afhankelijke services zijn opgenomen in de lijst met apps. Teams hebben ook gasttoegangs- en externe toegangsregels om rekening mee te houden, u vindt hier later in dit artikel meer over.|
 |        |[Cliënten blokkeren die geen moderne verificatie ondersteunen](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Neem Teams en afhankelijke services op in de toewijzing van cloud-apps.|
 |        |[Gebruikers met een hoog risico moeten het wachtwoord wijzigen](identity-access-policies.md#high-risk-users-must-change-password)|Dwingt Teams-gebruikers om hun wachtwoord te wijzigen wanneer ze zich aanmelden als activiteit met een hoog risico wordt gedetecteerd voor hun account. Zorg ervoor dat Teams en afhankelijke services zijn opgenomen in de lijst met apps.|
-|        |[Beleid voor app-beveiliging definiëren](identity-access-policies.md#define-app-protection-policies)|Zorg ervoor dat Teams en afhankelijke services zijn opgenomen in de lijst met apps. Werk het beleid voor elk platform (iOS, Android, Windows) bij.|
-|        |[Apps vereisen die het beleid voor app-beveiliging van Intune ondersteunen](identity-access-policies.md#require-apps-that-support-intune-app-protection-policies)|Neem teams en afhankelijke services op in dit beleid.|
+|        |[App-beleid voor gegevensbescherming toepassen](identity-access-policies.md#apply-app-data-protection-policies)|Zorg ervoor dat Teams en afhankelijke services zijn opgenomen in de lijst met apps. Werk het beleid voor elk platform (iOS, Android, Windows) bij.|
+|        |[Goedgekeurde apps en APP-beveiliging vereisen](identity-access-policies.md#require-approved-apps-and-app-protection)|Neem teams en afhankelijke services op in dit beleid.|
 |        |[Nalevingsbeleid voor apparaten definiëren](identity-access-policies.md#define-device-compliance-policies)|Neem teams en afhankelijke services op in dit beleid.|
 |        |[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Neem teams en afhankelijke services op in dit beleid.|
 |**Gevoelig**|[MFA vereisen wanneer het aanmeldingsrisico *laag,* *gemiddeld* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Teams hebben ook gasttoegangs- en externe toegangsregels om rekening mee te houden, u vindt hier later in dit artikel meer over. Neem teams en afhankelijke services op in dit beleid.|
