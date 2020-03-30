@@ -2,8 +2,8 @@
 title: Een aangepaste gebruikersweergave maken, bewerken of verwijderen in Office 365
 f1.keywords:
 - NOCSH
-ms.author: twerner
-author: twernermsft
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4fe7f6ac-be8e-4b57-9e13-24ff889a4b28
 description: Informatie over het gebruik van filters om aangepaste gebruikersweergave in Office 365 te maken, bewerken of verwijderen.
-ms.openlocfilehash: ba03d3da3e8bfdc4f2a661d1dc59845a8a22609f
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: ae12675afd47434ac6dd12dae683c79aae64be1f
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42810279"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047057"
 ---
 # <a name="create-edit-or-delete-a-custom-user-view-in-office-365"></a>Een aangepaste gebruikersweergave maken, bewerken of verwijderen in Office 365
 
@@ -89,6 +89,13 @@ Ook kunt u filteren op andere gegevens uit het gebruikersprofiel die worden gebr
 - **Gebruikers zonder licentie** Selecteer dit vakje als u alle gebruikers wilt weergeven waaraan geen licentie is toegewezen. Het resultaat van deze weergave kan ook gebruikers omvatten die een Exchange-postvak hebben maar geen licentie. Als u deze gebruikers specifiek wilt opsporen, gebruikt u het filter **Gebruikers zonder licentie met Exchange-postvakken of -archieven**. Het resultaat van deze weergave kan ook gebruikers omvatten die een Exchange-archief hebben maar geen licentie.
     
 - **Gebruikers zonder licentie met Exchange-postvakken of -archieven** Selecteer dit vakje als u gebruikersaccounts wilt weergeven die zijn gemaakt in Exchange Online en een Exchange-postvak hebben, maar waaraan geen Office 365-licentie is toegewezen. De resultaten van dit filter omvatten gebruikers met een Exchange-archief of waaraan een archief is toegewezen. 
+
+> [!NOTE]
+> Het filter **Zonder licentie voor gebruikers met Exchange-postvakken** werkt wanneer:
+1. Het postvak is onlangs geconverteerd van **gedeeld** naar **gebruiker** en heeft geen licentie.
+2. Het postvak is onlangs gemigreerd naar Office 365, maar er is geen licentie toegewezen.
+3. Het postvak is gemaakt met PowerShell en er is geen licentie toegewezen.
+4. Een nieuwe mailbox die on-premise is gemaakt met een Nieuw-RemoteMailbox-cmdlet is ingericht voor de gebruiker.
     
 > [!TIP]
 > Als u een aangepaste weergave maakt die meer dan 2.000 gebruikers oplevert, is de resulterende lijst ongesorteerd. Gebruik in dit geval het zoekvak om gebruikers te vinden of uw aangepaste weergave te bewerken om uw zoekopdracht te verfijnen. 
@@ -170,4 +177,3 @@ Ook kunt u filteren op andere gegevens uit het gebruikersprofiel die worden gebr
 
 
      
-

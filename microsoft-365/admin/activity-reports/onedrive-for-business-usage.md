@@ -21,12 +21,12 @@ search.appverid:
 - ODB160
 ms.assetid: 0de3b312-c4e8-4e4b-a02d-32b2f726a680
 description: 'Laat het gebruiksrapport van OneDrive voor Bedrijven weten over het totale aantal bestanden en opslag dat in uw organisatie wordt gebruikt. '
-ms.openlocfilehash: 8bbf904faf1afe28f4a8a83209f681a44eaa932f
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 4c7cfaeed03627b6dfab6c694f3a5e858b125c40
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42811372"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047105"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-usage"></a>Microsoft 365-rapporten in het beheercentrum - Gebruik van OneDrive voor Bedrijven
 
@@ -35,7 +35,7 @@ Het dashboard Microsoft 365 **Rapporten** toont u het activiteitenoverzicht voor
 De OneDrive-kaart op het dashboard geeft u bijvoorbeeld een overzicht op hoog niveau van de toegevoegde waarde van OneDrive voor Bedrijven voor wat betreft het totale aantal bestanden en de totale hoeveelheid opslag die in uw organisatie wordt gebruikt. U kunt vervolgens inzoomen om meer informatie te krijgen over de trends in de actieve OneDrive-accounts, te zien hoeveel bestanden worden gebruikt en hoeveel opslag wordt gebruikt. U vindt hier ook details voor de OneDrive van elke gebruiker.
   
 > [!NOTE]
-> U moet een globale beheerder, wereldwijde lezer of rapportenlezer zijn in Microsoft 365 of een Exchange-, SharePoint- of Skype voor Bedrijven-beheerder om rapporten te bekijken. 
+> U moet een globale beheerder, wereldwijde lezer of rapportenlezer zijn in Microsoft 365 of een Exchange-, SharePoint-, Teams-service-, Teams-communicatie- of Skype voor Bedrijven-beheerder om rapporten te bekijken.  
  
 ## <a name="how-do-i-get-to-the-onedrive-usage-report"></a>Hoe ga ik naar het OneDrive-gebruiksrapport?
 

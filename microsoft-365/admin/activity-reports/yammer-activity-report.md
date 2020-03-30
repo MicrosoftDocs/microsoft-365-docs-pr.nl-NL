@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: c7c9f938-5b8e-4d52-b1a2-c7c32cb2312a
 description: Ontvang het rapport Yammer-activiteit en weet meer over het aantal gebruikers dat Yammer gebruikt om een bericht te plaatsen, leuk te vinden of te lezen.
-ms.openlocfilehash: e4e51707aa487486e2d41d5d8bd4e84294c36ef2
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: de62ef0ceed54da76ead64274923ac646240ce44
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42811721"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047021"
 ---
 # <a name="office-365-reports-in-the-admin-center---yammer-activity-report"></a>Office 365-rapporten in het beheercentrum - Yammer-activiteitenrapport
 
 Als Microsoft 365-beheerder worden in het dashboard **Rapporten** u gegevens weergegeven over het gebruik van de producten binnen uw organisatie. Bekijk [activiteitenrapporten in het beheercentrum](activity-reports.md). Met het **Yammer-activiteitenoverzicht** kunt u meer informatie krijgen over het gebruiksniveau van Yammer binnen uw organisatie door naar het aantal unieke gebruikers te kijken die werken met Yammer voor het plaatsen, leuk vinden of lezen van een bericht en naar de hoeveelheid activiteit die in de gehele organisatie wordt gegenereerd. 
   
 > [!NOTE]
-> U moet een globale beheerder, wereldwijde lezer of rapportenlezer zijn in Microsoft 365 of een Exchange-, SharePoint- of Skype voor Bedrijven-beheerder om rapporten te bekijken. 
+> U moet een globale beheerder, wereldwijde lezer of rapportenlezer zijn in Microsoft 365 of een Exchange-, SharePoint-, Teams-service-, Teams-communicatie- of Skype voor Bedrijven-beheerder om rapporten te bekijken. 
  
 ## <a name="how-to-get-to-the-yammer-activity-report"></a>Hoe u toegang tot het Yammer-activiteitsrapport krijgt
 

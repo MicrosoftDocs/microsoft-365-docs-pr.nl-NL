@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Meer informatie over het maken van een activiteitenrapport van Microsoft Forms met het dashboard Microsoft 365 Reports in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 601e110719e4d69a647cfd55ecd4ae6db2568947
-ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
+ms.openlocfilehash: c836644f88fe635bfe608f57e015f06e9f815862
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42809666"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046937"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Microsoft 365-rapporten in het beheercentrum - Formulierenactiviteit
 
@@ -32,7 +32,7 @@ Het dashboard Microsoft 365 **Rapporten** toont u het activiteitenoverzicht voor
 U bijvoorbeeld de activiteit begrijpen van elke gebruiker die microsoft formulieren mag gebruiken door te kijken naar de interactie met formulieren. Het helpt u ook om het niveau van samenwerking te begrijpen dat aan de hand is door te kijken naar het aantal formulieren dat is gemaakt en formulieren waarop de gebruiker heeft gereageerd.
   
 > [!NOTE]
-> U moet een globale beheerder, wereldwijde lezer of rapportenlezer zijn in Microsoft 365 of een Exchange-, SharePoint- of Skype voor Bedrijven-beheerder om rapporten te bekijken. 
+> U moet een globale beheerder, wereldwijde lezer of rapportenlezer zijn in Microsoft 365 of een Exchange-, SharePoint-, Teams-service-, Teams-communicatie- of Skype voor Bedrijven-beheerder om rapporten te bekijken. 
 
 ## <a name="how-to-get-to-the-forms-activity-report"></a>Naar het activiteitenrapport Formulieren gaan
 

@@ -21,12 +21,12 @@ search.appverid:
 - ODB160
 ms.assetid: 8bbe4bf8-221b-46d6-99a5-2fb3c8ef9353
 description: Download het OneDrive-gebruiksrapport voor uw organisatie en ken de activiteit van elke OneDrive-gebruiker, het aantal gedeelde bestanden en het opslaggebruik.
-ms.openlocfilehash: b51071fe8c91b0064d6680b628b58df1f370c73d
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: b94e5e34f7599cc372b506c2c365503ea1334685
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42805945"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047083"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-activity"></a>Microsoft 365-rapporten in het beheercentrum - Activiteit van OneDrive voor Bedrijven
 
@@ -40,7 +40,7 @@ U kunt bijvoorbeeld inzicht krijgen in de activiteiten van elke gebruiker die ee
 Raadpleeg het [rapport Gebruik van OneDrive](onedrive-for-business-usage.md) om te begrijpen hoeveel activiteit plaatsvindt op elk OneDrive-account en hoe de opslagruimte wordt gebruikt.
   
 > [!NOTE]
-> U moet een globale beheerder, wereldwijde lezer of rapportenlezer zijn in Microsoft 365 of een Exchange-, SharePoint- of Skype voor Bedrijven-beheerder om rapporten te bekijken. 
+> U moet een globale beheerder, wereldwijde lezer of rapportenlezer zijn in Microsoft 365 of een Exchange-, SharePoint-, Teams-service-, Teams-communicatie- of Skype voor Bedrijven-beheerder om rapporten te bekijken.  
  
 ## <a name="how-do-i-get-to-the-onedrive-activity-report"></a>Hoe ga ik naar het OneDrive-activiteitenrapport?
 
