@@ -1,5 +1,5 @@
 ---
-title: Top 12 taken voor beveiligingsteams om thuiste werken te ondersteunen
+title: Top 12 taken voor beveiligingsteams ter ondersteuning van thuiswerken
 f1.keywords:
 - CSH
 ms.author: bcarter
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 'Bescherm uw zakelijke e-mail en gegevens tegen cyberbedreigingen, waaronder ransomware, phishing en schadelijke bijlagen. '
-ms.openlocfilehash: 73f2ae19a7424d392bb365d7a24a83532a1950bf
-ms.sourcegitcommit: 37f17c918208b83fc04ba92e986e0a7548d4c38d
+ms.openlocfilehash: b675f8abc5487dcb08324795fb1d6cc3b91592a1
+ms.sourcegitcommit: 71612ef8f2f93063c2a070e8a079506362f54c58
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 03/29/2020
-ms.locfileid: "43036382"
+ms.locfileid: "43037474"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>Top 12 taken voor beveiligingsteams ter ondersteuning van thuiswerken
 
@@ -116,7 +116,7 @@ U moet samenwerken met uw Exchange Online-beheerder en SharePoint Online-beheerd
 Nu u Office 365 ATP en Azure ATP hebt geconfigureerd, u de gecombineerde signalen van deze mogelijkheden in één dashboard bekijken. [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) (MTP) brengt waarschuwingen, incidenten, geautomatiseerd onderzoek en respons en geavanceerde jacht over workloads (Azure ATP, Office 365 ATP, Microsoft Defender ATP en Microsoft Cloud App Security) samen in één deelvenster op [security.microsoft.com.](https://security.microsoft.com) 
 <br>
 
-![Afbeelding van het MTP-dashboard](../media/top-10-security-remote-work-mtp-dashboard.png)
+![Afbeelding van het MTP-dashboard](../media/top-ten-security-remote-work-mtp-dashboard.png)
 <br><br>
 Nadat u een of meer van uw geavanceerde services voor bedreigingsbescherming hebt geconfigureerd, schakelt u MTP in. Nieuwe functies worden voortdurend toegevoegd aan MTP; overweeg u zich aan te melden voor preview-functies.
 
@@ -128,7 +128,7 @@ Nadat u een of meer van uw geavanceerde services voor bedreigingsbescherming heb
 ## <a name="6-configure-intune-mobile-app-protection-for-phones-and-tablets"></a>6: Intune-beveiliging voor mobiele apps configureren voor telefoons en tablets
 
 Met Microsoft Intune Mobile Application Management (MAM) u de gegevens van uw organisatie op telefoons en tablets beheren en beveiligen zonder deze apparaten te beheren. Zo werkt het:
-- U maakt een app (App) (App) dat bepaalt welke apps op een apparaat worden beheerd en welk gedrag is toegestaan (zoals het voorkomen dat gegevens uit een beheerde app worden gekopieerd naar een niet-beheerde app). U maakt één beleid voor elke platorm (iOS, Android).
+- U maakt een app (App) voor app-beveiliging dat bepaalt welke apps op een apparaat worden beheerd en welk gedrag is toegestaan (zoals voorkomen dat gegevens uit een beheerde app worden gekopieerd naar een niet-beheerde app). U maakt één beleid voor elke platorm (iOS, Android).
 - Nadat u het beleid voor app-beveiliging hebt gemaakt, u deze afdwingen door een regel voor voorwaardelijke toegang in Azure AD te maken om goedgekeurde apps en app-gegevensbescherming te vereisen.
 
 App-beveiligingsbeleid bevat veel instellingen. Gelukkig hoef je niet elke instelling te leren en de opties af te wegen. Microsoft maakt het eenvoudig om een configuratie van instellingen toe te passen door startpunten aan te bevelen. Het [kader voor gegevensbescherming met app-beveiligingsbeleid](https://docs.microsoft.com/mem/intune/apps/app-protection-framework) bevat drie niveaus waaruit u kiezen. 
