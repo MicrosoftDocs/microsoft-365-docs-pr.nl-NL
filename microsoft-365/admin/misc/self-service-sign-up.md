@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 4f8712ff-9346-4c6c-bb63-a21ad7a62cbd
 description: Meer informatie over de office 365-zelfservice-aanmelding strekken en beschikbare selfserviceprogramma's zoals Microsoft Power Apps, Microsoft Flow en Dynamics 365 voor Financials.
 ms.custom: okr_SMB
-ms.openlocfilehash: 54509ff60eee4d52e39acf597eca48bc8a350c28
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 24a300540237dc1cb7810ca712ead5ef7d4bea83
+ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42805782"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43058891"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>Zelfregistratie gebruiken in uw organisatie
 
@@ -37,13 +37,13 @@ We luisteren naar uw feedback en hebben het eenvoudiger gemaakt voor gebruikers 
 Hieronder volgt een voorbeeld van zelfregistratie bij een onderwijsinstelling. De procedure is dezelfde voor elke organisatie die selfservice-programma's heeft ingeschakeld in de tenant.
   
 1. Leerlingen, studenten en faculteitsleden hebben een e-mailadres dat duidelijk maakt dat ze verbonden zijn aan uw instelling. Het e-mailadres jakob@uw.edu kan bijvoorbeeld aangeven dat het hier gaat om een student aan de University of Washington.
-    
+
 2. Studenten en docenten gaan naar [onze website](https://go.microsoft.com/fwlink/p/?LinkId=536628)en gebruiken hun e-mailadres om zich aan te melden voor de services die uw organisatie aanbiedt, zoals Office 365 ProPlus. Ze kunnen zich ook aanmelden voor gratis services die we bieden.
-    
-3. Nadat we het e-mailadres hebben gevalideerd, kunnen ze direct aan de slag met Office 365, Power BI of andere services.
-    
-4. Als bedrijfsbeheerder ziet u wie zich heeft aangemeld voor een abonnement door de pagina **Abonnementen** in het beheercentrum te bekijken. Op deze manier u zien wanneer er nieuwe of niet-herkende licenties voor services in uw tenant zijn. 
-    
+
+3. We valideren hun e-mailadres en vervolgens kunnen ze meteen Office 365, Power BI of andere services gebruiken.
+
+4. Als bedrijfsbeheerder ziet u wie zich heeft aangemeld voor een abonnement door de pagina **Producten & services** in het beheercentrum te bekijken. Op deze manier u zien wanneer er nieuwe of niet-herkende licenties voor services in uw tenant zijn. Als u wilt bepalen of gebruikers zich kunnen aanmelden voor selfservice-abonnementen, gebruikt u de [PowerShell-cmdlet Set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0) met de parameter **AllowAdHocSubscriptions.** Zie [Hoe beheer ik selfservice-instellingen?](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide)
+
 ## <a name="available-self-service-programs"></a>Beschikbare selfservice-programma 's
 
 Hier volgen de selfservice-programma's die momenteel beschikbaar zijn Deze lijst wordt bijgewerkt wanneer er nieuwe programma's worden toegevoegd.
@@ -66,4 +66,3 @@ Hier volgen de selfservice-programma's die momenteel beschikbaar zijn Deze lijst
 |**Minecraft Education Edition** <br/> |Door Minecraft in te zetten als een onderwijsplatform kan het onderwijzend personeel leerlingen en studenten motiveren en inspireren om meer te bereiken. Daarnaast kan op deze manier een passie voor leren worden ontwikkeld. Word lid van een community van docenten en ontdek hoe u met Minecraft de mogelijkheden van leerlingen en studenten optimaal kunt benutten.  <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841480) <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841471) <br/> |
 |**Microsoft Stream** <br/> |Upload en deel video's binnen uw organisatie om verbeteringen te realiseren op het gebied van communicatie, participatie en leren.  <br/> |[Sign up &amp; Day 0 experience](https://go.microsoft.com/fwlink/p/?linkid=841472) <br/> |[Microsoft Stream](https://go.microsoft.com/fwlink/p/?linkid=841473) <br/> |
 |**Power Virtual Agents** <br/> |Power Virtual Agents stelt teams in staat om eenvoudig krachtige bots te maken met behulp van een begeleide, no-code grafische interface zonder dat gegevenswetenschappers of ontwikkelaars nodig zijn. Power Virtual Agents pakt veel van de belangrijkste problemen met bot gebouw in de industrie vandaag. Het elimineert de kloof tussen het onderwerp deskundigen en de ontwikkeling teams het bouwen van de bots, en de lange latentie tussen teams herkennen van een probleem en het bijwerken van de bot om het aan te pakken.  <br/> |[Licentie- en toegangsgegevens](https://go.microsoft.com/fwlink/?linkid=2113708) <br/> |[Meld u aan voor Power Virtual Agents](https://aka.ms/TryPVA) <br/> |
-

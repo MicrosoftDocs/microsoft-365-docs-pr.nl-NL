@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 3f60c40ecd1810d630a4607d6b0915d6f3089a99
-ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
+ms.openlocfilehash: 22c602bcc49ce2a81e511d79f4de23f7a60e657f
+ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42806314"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43058903"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Overzicht van het Microsoft 365-beveiligingscentrum
 
@@ -45,7 +45,7 @@ Het Microsoft 365-beveiligingscentrum bevat:
 
 * **Home** - Krijg in één oogopslag een overzicht van de algehele beveiligingsstatus van uw organisatie.
 * **Incidenten** - Bekijk het bredere verhaal van een aanval door de punten van individuele waarschuwingen op entiteiten met elkaar te verbinden. U weet precies waar een aanval is begonnen, welke apparaten worden beïnvloed, welke worden beïnvloed en waar de dreiging is verdwenen.
-* **Waarschuwingen** : heb meer inzicht in alle waarschuwingen in uw Microsoft 356-omgeving, inclusief waarschuwingen van Microsoft Cloud App Security, Office 365 ATP, Azure AD, Azure ATP en Microsoft Defender ATP. Beschikbaar voor E3- en E5-klanten.  
+* **Waarschuwingen** : heb meer inzicht in alle waarschuwingen in uw Microsoft 365-omgeving, inclusief waarschuwingen van Microsoft Cloud App Security, Office 365 ATP, Azure AD, Azure ATP en Microsoft Defender ATP. Beschikbaar voor E3- en E5-klanten.  
 * **Actiecentrum** : verminder het aantal waarschuwingen dat uw beveiligingsteam handmatig moet aanpakken, zodat uw beveiligingsteam zich kan richten op geavanceerdere bedreigingen en andere waardevolle initiatieven.
 * **Rapporten** : krijg de details en informatie die u nodig hebt om uw gebruikers, apparaten, apps en meer beter te beschermen.
 * **Veilige score** : verbeter uw algehele beveiligingshouding met Microsoft Secure Score. Deze pagina bevat een overzicht van de verschillende beveiligingsfuncties en -mogelijkheden die u hebt ingeschakeld en bevat aanbevelingen voor gebieden die u verbeteren.
