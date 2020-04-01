@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: In dit artikel wordt beschreven hoe Office 365 phishingaanvallen tegengaat die gebruikmaken van domeinen die zijn vervalst, wat ook wel 'spoofing' wordt genoemd. Het doet dit door berichten te analyseren en degenen te blokkeren die niet kunnen worden geverifieerd met behulp van standaard e-mailverificatiemethoden, noch met andere afzendertechnieken. Deze wijziging is doorgevoerd om het aantal phishingaanvallen te verminderen waaraan organisaties in Office 365 worden blootgesteld.
-ms.openlocfilehash: 9e1a4cf31c2565eeb6be53b5c43bda0154f9ea6f
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: a81c22d83e0a476657aa89823e52d3eb6afc4514
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894136"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033480"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Bescherming tegen adresvervalsing in Office 365
 
@@ -222,9 +222,9 @@ To: receiver @ contoso.com
 
 In de e-mailclient (Outlook, de webversie van Outlook of een andere e-mailclient) wordt alleen het Van-domein weergegeven, niet het domein in de SPF of DKIM, en dat kan de gebruiker misleiden door te suggereren dat het bericht afkomstig is van fabrikam.com, terwijl het eigenlijk van maliciousDomain.com afkomstig is.
 
-![Geverifieerd bericht maar Van-domein komt niet overeen met dat in de SPF of DKIM](../../media/a9b5ab2a-dfd3-47c6-8ee8-e3dab2fae528.jpg)
+![Geverifieerd bericht, maar van:-domein komt niet overeen met de doorgegeven SPF of DKIM](../../media/a9b5ab2a-dfd3-47c6-8ee8-e3dab2fae528.jpg)
 
-Om die reden vereist Office 365 dat het domein in het Van-adres overeenkomt met het domein in de SPF- of DKIM-handtekening en als dat niet zo is, andere signalen bevat die aangeven dat het bericht legitiem is. Anders is het bericht een compauth-mislukking.
+Om die reden vereist Office 365 dat het domein in het Van-adres overeenkomt met het domein in de SPF- of DKIM-handtekening en als dat niet zo is, dat het andere signalen bevat die aangeven dat het bericht legitiem is. Anders is het bericht een compauth-mislukking.
 
 ```text
 Authentication-Results: spf=none (sender IP is 5.6.7.8)
@@ -238,7 +238,7 @@ To: someone@fabrikam.com
 
 Office 365-anti beschermt zo tegen adresvervalsing van domeinen zonder verificatie en tegen domeinen die verificatie hebben ingesteld, maar die niet overeenkomen met het domein in het Van-adres dat de gebruiker ziet en waarvan hij gelooft dat het de afzender van het bericht is. Dit geldt voor zowel domeinen buiten uw organisatie als voor domeinen binnen uw organisatie.
 
-Als u ooit een bericht ontvangt waarvan de gecombineerde verificatie mislukt dat wordt gemarkeerd als spoofed, ook al komt het bericht goed door SPF en DKIM, dan is dat omdat het domein dat goed door SPF en DKIM kwam, niet overeenkomt met het domein in het Van-adres.
+Als u ooit een bericht ontvangt waarvan de gecombineerde verificatie mislukt en dat wordt gemarkeerd als spoofed, ook al komt het bericht goed door SPF en DKIM, dan is dat omdat het domein dat goed door SPF en DKIM kwam, niet overeenkomt met het domein in het Van-adres.
 
 ### <a name="understanding-changes-in-how-spoofed-emails-are-treated"></a>Wijzigingen begrijpen in de behandeling van valse e-mails
 
@@ -341,7 +341,7 @@ Om deze afzender toe te staan niet-geverifieerde e-mail te verzenden, wijzigt u 
 
 ![Anti-adresvervalsing instellen voor toegestane afzenders](../../media/d4334921-d820-4334-8217-788279701e94.jpg)
 
-U kunt ook PowerShell gebruiken om specifieke afzenders toestemming te geven niet-geverifieerde e-mail naar uw domein te zenden:
+U kunt ook PowerShell gebruiken om een specifieke afzender toe te staan uw domein te vervalsen:
 
 ```powershell
 $file = "C:\My Documents\Summary Spoofed Internal Domains and Senders.csv"
@@ -387,7 +387,7 @@ U kunt wisselen tussen de verschillende rapporten om te zien hoeveel berichten z
 
 U kunt nog geen onderscheid maken tussen berichten die zijn gemarkeerd als adresvervalsing en andere typen van phishing (algemeen phishing, domein- of gebruikersimitatie, enzovoort). Later zult u dit echter wel kunnen doen via het Beveiligings- en compliancecentrum. Wanneer u dat doet, kunt u dit rapport gebruiken als uitgangspunt voor de identificatie van zendende domeinen die legitiem kunnen zijn, maar worden gemarkeerd als adresvervalsing vanwege mislukte verificatie.
 
-De volgende schermafbeelding is een voorstelling van hoe deze gegevens eruit zullen zien, maar die nog kan worden gewijzigd wanneer ze worden uitgebracht:
+De volgende schermafbeelding is een voorstelling van hoe deze gegevens eruit zullen zien, maar die nog kunnen worden gewijzigd wanneer ze worden uitgebracht:
 
 ![Phishingrapporten bekijken op detectietype](../../media/dd25d63f-152c-4c55-a07b-184ecda2de81.jpg)
 
@@ -447,9 +447,9 @@ Het ontvangende domein is niet gevonden in de vetgedrukte rode tekst erboven, in
 
 Aan: Voorbeeldgeadresseerde \< geadresseerde @ contoso.com\>
 
-Voer een MX-recordzoekactie uit van het feitelijke ontvangende domein. Als dit \*.protection.outlook.com, mail.messaging.microsoft.com, \*.eo.outlook.com, or mail.global.frontbridge.com bevat, betekent dit dat het MX verwijst naar Office 365.
+Voer een MX-recordzoekactie uit van het feitelijke ontvangende domein. Als dit \*.protection.outlook.com, mail.messaging.microsoft.com, \*.eo.outlook.com, of mail.global.frontbridge.com bevat, betekent dit dat de MX verwijst naar Office 365.
 
-Als het deze waarden niet bevat, betekent het dat het MX niet naar Office 365 verwijst. Een hulpprogramma dat u kunt gebruiken om dit te verifiëren is MX Toolbox.
+Als het deze waarden niet bevat, betekent het dat de MX niet naar Office 365 verwijst. Een hulpprogramma dat u kunt gebruiken om dit te verifiëren is MX Toolbox.
 
 Voor dit specifieke voorbeeld wordt aangegeven dat contoso.com, het domein dat lijkt op de geadresseerde, omdat het de Aan:-header was, een MX-record heeft dat verwijst naar een on-premises server:
 
@@ -631,7 +631,7 @@ De anti-adresvervalsingtechnologie van Microsoft werd aanvankelijk geïmplemente
 
 ### <a name="how-can-i-report-spam-or-non-spam-messages-back-to-microsoft"></a>Hoe kan ik spam- of niet-spamberichten terugmelden bij Microsoft?
 
-U kunt de invoegtoepassing [Bericht rapporteren voor Outlook](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) gebruiken of, als deze niet is geïnstalleerd, [Spam-, niet-spam- en phishingscamberichten verzenden naar Microsoft voor analyse](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md).
+Zie [ Berichten en bestanden rapporteren aan Microsoft ](report-junk-email-messages-to-microsoft.md).
 
 ### <a name="im-a-domain-administrator-who-doesnt-know-who-all-my-senders-are"></a>Ik ben een domeinbeheerder die niet weet wie al mijn afzenders zijn.
 

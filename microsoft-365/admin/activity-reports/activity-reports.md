@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Office 365-services gebruiken. Met het dashboard Gebruiksoverzicht kunt u voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
-ms.openlocfilehash: 490f7722d0bb8eb93d0d6e0ff18b7364cca5185c
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: af6817471224e5747849b6020df3c56b64e29fed
+ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42812108"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43029858"
 ---
 # <a name="activity-reports-in-the-microsoft-365-admin-center"></a>Activiteitenoverzichten in het Microsoft 365-beheercentrum
 
@@ -75,6 +75,10 @@ Personen met de volgende machtigingen:
 - Algemene lezer
     
 - Rapportenlezer
+
+- Teams-servicebeheerder
+
+- Teams-communicatiebeheerder
     
 Zie [Informatie over beheerdersrollen](../add-users/about-admin-roles.md) en [Beheerdersrollen toewijzen](../add-users/assign-admin-roles.md) voor meer informatie.
   
