@@ -16,16 +16,46 @@ ms.collection:
 ms.assetid: b9acfd4c-df82-4eb5-a652-232a6829870a
 description: Meer informatie over de informatiebronnen die beschikbaar zijn voor Microsoft 365-beheerders.
 ms.custom: okr_smb
-ms.openlocfilehash: baeaa78d7af889366b0a981ee3d0d684c6396bc7
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: cafb63d53178a2cc21448643ba9fd78773265aa8
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42897061"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046913"
 ---
 # <a name="microsoft-365-admin-help-center"></a>Helpcentrum voor beheerders van Microsoft 365
 
 Informatie over de informatiebronnen die beschikbaar zijn voor beheerders.
+
+<ul class="panelContent cardsJ">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="What's new megaphone symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Office 365 wordt Microsoft 365</h3>
+                        <p>We wijzigen enkele namen van de Office 365- en Microsoft 365-abonnementen. U hoeft verder niets te doen. Uw-services, apps en functies en de prijs van uw abonnement veranderen niet. De naam van uw abonnement wordt automatisch bijgewerkt in het Microsoft 365-beheercentrum en uw factuuroverzichten worden bijgewerkt op of na 21 april 2020</p>
+                        <ul>
+                            <li><p>Office 365 Business Essentials wordt nu Microsoft 365 Business Basic</p></li>
+                            <li><p>Office 365 Business Premium wordt nu Microsoft 365 Business Standard</p></li>
+                            <li><p>Microsoft 365 Business wordt nu Microsoft 365 Business Premium</p></li>
+                            <li><p>Office 365 Business wordt nu Microsoft 365-apps voor bedrijven</p></li>
+                            <li><p>Office 365 ProPlus wordt nu Microsoft 365-apps voor Enterprise</p></li>
+                        </ul>
+                        <p><a href="https://go.microsoft.com/fwlink/?linkid=2120533">Meer informatie</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+
+---
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -35,7 +65,7 @@ Informatie over de informatiebronnen die beschikbaar zijn voor beheerders.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/sign-up.svg" alt="Buy Office" />
+                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-blue.svg" alt="Buy Office" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -53,7 +83,7 @@ Informatie over de informatiebronnen die beschikbaar zijn voor beheerders.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started.svg" alt="Setup" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Setup" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -71,7 +101,7 @@ Informatie over de informatiebronnen die beschikbaar zijn voor beheerders.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/headset.svg" alt="Contact support" />
+                            <img src="https://docs.microsoft.com/office/media/icons/headset-blue.svg" alt="Contact support" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -89,7 +119,7 @@ Informatie over de informatiebronnen die beschikbaar zijn voor beheerders.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/radar.svg" alt="Get new features" />
+                            <img src="https://docs.microsoft.com/office/media/icons/radar-blue.svg" alt="Get new features" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -147,7 +177,7 @@ Informatie over de informatiebronnen die beschikbaar zijn voor beheerders.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/small-business.svg" alt="Small business" />
+                            <img src="https://docs.microsoft.com/office/media/icons/small-business-blue.svg" alt="Small business" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -164,7 +194,7 @@ Informatie over de informatiebronnen die beschikbaar zijn voor beheerders.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/on-premises.svg" alt="Enterprise" />
+                            <img src="https://docs.microsoft.com/office/media/icons/on-premises-blue.svg" alt="Enterprise" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -181,7 +211,7 @@ Informatie over de informatiebronnen die beschikbaar zijn voor beheerders.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="Training" />
                         </div>
                     </div>
                     <div class="cardText">
