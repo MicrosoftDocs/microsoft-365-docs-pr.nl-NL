@@ -22,15 +22,18 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Leer hoe u met de standaardinstellingen voor beveiliging meervoudige verificatie kunt instellen voor Office 365-gebruikers.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 4dc52c25c3a9351be1a9f4d094d664bc4ed527f9
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 914d01bf2f045c6752aba4f2df3a204c6a21d09c
+ms.sourcegitcommit: 4d4d27a49eb258dc560439ca4baf61ebb9c1eff3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42805580"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43075606"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Meervoudige verificatie instellen
   
+> [!IMPORTANT]
+> Als u uw abonnement of proefversie na 21 oktober 2019 hebt gekocht en u onverwacht wordt gevraagd voor MFA, zijn [beveiligingsstandaards](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) automatisch ingeschakeld voor uw abonnement.
+
 De standaardinstellingen voor beveiliging zijn automatisch ingeschakeld in elk nieuw abonnement op Office 365 voor bedrijven of Microsoft 365 Business. Dit betekent dat alle gebruikers meervoudige verificatie (MFA) moeten instellen en de verificatie-app op hun mobiele apparaat moeten installeren. Zie [Verificatie in twee stappen instellen voor Office 365](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14) voor meer informatie.  
 
 De volgende negen beheerdersrollen moeten aanvullende verificatie uitvoeren wanneer ze zich aanmelden:
@@ -50,7 +53,10 @@ Alle andere gebruikers wordt gevraagd om indien nodig extra verificatie uit te v
 > U moet een globale beheerder van Office 365 zijn om meervoudige verificatie in te stellen of te wijzigen. <br><br>
 > Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
-Als u al een MFA hebt ingesteld met basislijnbeleid, dan [moet u deze uitschakelen en de standaardinstellingen voor beveiliging inschakelen](#move-from-baseline-policies-to-security-defaults). Maar als u Microsoft 365 Business hebt of uw abonnement bevat [Azure Active Directory Premium 1 of Azure Active Directory Premium 2](https://azure.microsoft.com/pricing/details/active-directory/), dan kunt u ook beleid voor [voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) instellen. Als u beleid voor voorwaardelijke toegang wilt gebruiken, moet u controleren of [moderne verificatie is ingeschakeld](#enable-multi-factor-authentication-for-your-organization).
+Als u al een MFA hebt ingesteld met basislijnbeleid, dan [moet u deze uitschakelen en de standaardinstellingen voor beveiliging inschakelen](#move-from-baseline-policies-to-security-defaults). Maar als u Microsoft 365 Business hebt of uw abonnement bevat [Azure Active Directory Premium 1 of Azure Active Directory Premium 2](https://azure.microsoft.com/pricing/details/active-directory/), dan kunt u ook beleid voor [voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) instellen. Als u beleid voor voorwaardelijke toegang wilt gebruiken, moet u ervoor zorgen dat [moderne verificatie](#enable-modern-authentication-for-your-organization) is ingeschakeld.
+
+> [!TIP]
+> Ga naar [Microsoft Authenticator gebruiken met Office 365](https://support.office.com/article/use-microsoft-authenticator-with-office-365-1412611f-ad8d-43ab-807c-7965e5155411?ui=en-US&rs=en-US&ad=US#ID0EAADAAA=_Step_1) als u uw gebruikers wilt uitleggen hoe ze de Authenticator-app moeten instellen.
 
 ## <a name="manage-security-defaults"></a>Standaardinstellingen voor beveiliging beheren
 
@@ -82,24 +88,6 @@ Alle Office 2016-clienttoepassingen bieden ondersteuning voor MFA door middel va
 
     ![Moderne verificatievenster met selectievakje inschakelen aangevinkt.](../../media/enablemodernauth.png)
     
-## <a name="enable-multi-factor-authentication-for-your-organization"></a>Meervoudige verificatie inschakelen voor uw organisatie
-    
-1. Selecteer in het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=834822) **Gebruikers** en **actieve gebruikers**.
-
-2. Klik in de sectie **Actieve gebruikers** op **meervoudige verificatie**.
-
-3. Selecteer op de pagina **Meervoudige verificatie** **de gebruiker** als u dit voor één gebruiker inschakelt of **selecteert Bulkupdate** om meerdere gebruikers in te schakelen.
-
-4. CLick **ingeschakeld** onder **Snelle stappen**.
-
-5. Klik in het pop-upvenster op **Multifactorverificatie inschakelen**.
-
-Nadat u meervoudige verificatie voor uw organisatie hebt ingesteld, moeten uw gebruikers tweestapsverificatie op hun apparaten instellen. Zie [Verificatie in twee stappen instellen voor Office 365](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14) voor meer informatie.
-    
-> [!TIP]
-> Ga naar [Microsoft Authenticator gebruiken met Office 365](https://support.office.com/article/use-microsoft-authenticator-with-office-365-1412611f-ad8d-43ab-807c-7965e5155411?ui=en-US&rs=en-US&ad=US#ID0EAADAAA=_Step_1) als u uw gebruikers wilt uitleggen hoe ze de Authenticator-app moeten instellen.
-
-
 > [!IMPORTANT]
 > Moderne verificatie is vanaf augustus 2017 standaard ingeschakeld voor alle nieuwe Office 365-tenants met de webversie van Skype voor Bedrijven en Exchange Online. U kunt de status van moderne verificatie voor de webversie van Skype voor Bedrijven controleren via de webversie van Skype voor Bedrijven PowerShell met globale beheerdersreferenties. Voer Get-CsOAuthConfiguration uit om de uitvoer van ClientADALAuthOverride te controleren. Als -ClientADALAuthOverride is 'toegestaan', is moderne verificatie ingeschakeld.
 Als u uw MA-status wilt controleren voor Exchange Online, gaat u naar [Moderne verificatie inschakelen in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online).

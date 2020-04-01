@@ -11,13 +11,14 @@ ms.service: o365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
+- remotework
 description: 'Bescherm uw zakelijke e-mail en gegevens tegen cyberbedreigingen, waaronder ransomware, phishing en schadelijke bijlagen. '
-ms.openlocfilehash: b675f8abc5487dcb08324795fb1d6cc3b91592a1
-ms.sourcegitcommit: 71612ef8f2f93063c2a070e8a079506362f54c58
+ms.openlocfilehash: 3bbd5951ac6005f20584d53e17ac55927acd4c89
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/29/2020
-ms.locfileid: "43037474"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081302"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>Top 12 taken voor beveiligingsteams ter ondersteuning van thuiswerken
 
@@ -165,8 +166,8 @@ U ook profiteren van deze tutorials:
 - [Gebruik de functies Corporate Device Enrollment van Apple in Apple Business Manager (ABM) om iOS/iPadOS-apparaten in te schrijven in Intune](https://docs.microsoft.com/mem/intune/enrollment/tutorial-use-device-enrollment-program-enroll-ios)
 
 Nadat u apparaten hebt ingeschreven, gebruikt u de richtlijnen in [beleid voor algemene identiteit en toegang tot apparaten](../enterprise/identity-access-policies.md) om dit beleid te maken:
-- [Beleid voor naleving van apparaten definiëren](../enterprise/identity-access-policies.md#define-device-compliance-policies)
-- [Compatibele pc's vereisen](../enterprise/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) (regel voor voorwaardelijke toegang)
+- [Beleid](../enterprise/identity-access-policies.md#define-device-compliance-policies) voor naleving van apparaten definiëren : de aanbevolen instellingen voor Windows 10 vereisen onder meer antivirusbescherming. Als u Microsoft 365 E5 hebt, gebruikt u Microsoft Defender Advanced Threat Protection om de status van werknemersapparaten te controleren. Zorg ervoor dat nalevingsbeleid voor andere besturingssystemen antivirusbeveiliging en end-point beveiligingssoftware omvat. 
+- [Compatibele pc's vereisen:](../enterprise/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) dit is de regel voor voorwaardelijke toegang in Azure AD die het nalevingsbeleid voor apparaten afdwingt.
 
 Slechts één organisatie kan een apparaat beheren, dus sluit gastaccounts uit van de regel voor voorwaardelijke toegang in Azure AD. Als u gast- en externe gebruikers niet uitsluit van beleid waarvoor apparaatnaleving vereist is, worden deze gebruikers met dit beleid geblokkeerd. Zie [Het algemene beleid bijwerken om gast- en externe toegang toe te staan en te beschermen voor](../enterprise/identity-access-policies-guest-access.md)meer informatie.
 
@@ -174,7 +175,7 @@ Slechts één organisatie kan een apparaat beheren, dus sluit gastaccounts uit v
 
 Als u het grootste deel van uw werknemers snel vanuit huis laat werken, kan deze plotselinge omschakeling van connectiviteitspatronen een aanzienlijke impact hebben op de bedrijfsnetwerkinfrastructuur. Veel netwerken werden geschaald en ontworpen voordat cloudservices werden overgenomen. In veel gevallen zijn netwerken tolerant ten opzichte van externe werknemers, maar zijn ze niet ontworpen om op afstand door alle gebruikers tegelijk te worden gebruikt.
 
-Netwerkelementen zoals VPN concentrators, centrale netwerkuitgangsapparatuur (zoals proxy's en gegevensverliespreventieapparaten), centrale internetbandbreedte, backhaul MPLS-circuits, NAT-mogelijkheden enzovoort, worden plotseling onder enorme druk gezet door de belasting van het hele bedrijf gebruikt ze. Het eindresultaat is slechte prestaties en productiviteit in combinatie met een slechte gebruikerservaring voor gebruikers die zich aanpassen aan het werken vanuit huis.
+Netwerkelementen zoals VPN-concentrators, centrale netwerkuitgangsapparatuur (zoals proxy's en apparaten voor het voorkomen van gegevensverlies), centrale internetbandbreedte, backhaul MPLS-circuits, NAT-mogelijkheden enzovoort, worden plotseling onder enorme druk gezet door de belasting van het hele bedrijf dat ze gebruikt. Het eindresultaat is slechte prestaties en productiviteit in combinatie met een slechte gebruikerservaring voor gebruikers die zich aanpassen aan het werken vanuit huis.
 
 Sommige van de beveiligingen die traditioneel zijn geboden door het routeren van verkeer terug via een bedrijfsnetwerk worden geleverd door de cloud-apps die uw gebruikers openen. Als u deze stap in dit artikel hebt bereikt, hebt u een reeks geavanceerde cloudbeveiligingsbesturingselementen voor Microsoft 365-services en -gegevens geïmplementeerd. Met deze besturingselementen u het verkeer van externe gebruikers rechtstreeks naar Office 365 routeren. Als u nog steeds een VPN-link nodig hebt voor toegang tot andere toepassingen, u uw prestaties en gebruikerservaring sterk verbeteren door split tunneling te implementeren. Zodra u overeenstemming bereikt in uw oganization, kan dit binnen een dag worden bereikt door een goed gecoördineerd netwerkteam.
 

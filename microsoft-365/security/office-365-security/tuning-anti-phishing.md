@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Beheerders kunnen leren om te bepalen waarom en hoe een phishing-berichten is doorgekomen en wat ze moeten doen om meer phishingberichten in de toekomst te voorkomen.
-ms.openlocfilehash: 56baf39335837158cd061b4cbaede25a81c484ee
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 37d1e8bbf91bc6f0a1c8e9b5aa97fe460e8b5c82
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033648"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081206"
 ---
 # <a name="tune-anti-phishing-protection-in-office-365"></a>Bescherming tegen phishing afstemmen in Office 365
 
@@ -45,7 +45,7 @@ Het melden van phishingberichten is handig bij het afstemmen van de filters die 
 
 U de headers van het phishingbericht bekijken om te zien of er iets is dat u zelf doen om te voorkomen dat er meer phishingberichten binnenkomen. Met andere woorden, het onderzoeken van de berichten headers kan u helpen bij het identificeren van alle instellingen in uw organisatie die verantwoordelijk waren voor het toestaan van de phishing-berichten in.
 
-In het bijzonder moet u het headerveld **X-Forefront-Antispam-Report** in de berichtkoppen controleren op aanwijzingen van overgeslagen spam of phish-filtering in de Waarde van het Spamfiltering Verdict (SFV). Berichten die filteren overslaan hebben een `SCL:-1`vermelding van , wat betekent dat een van uw instellingen dit bericht doorliet door de spam- of phish-uitspraken te overschrijven die door de service zijn bepaald. Zie [Anti-spam berichtkoppen](https://docs.microsoft.com/office365/SecurityCompliance/anti-spam-message-headers)voor meer informatie over het ontvangen van berichtenkoppen en de volledige lijst met alle beschikbare antispam- en anti-phish-berichtkoppen.
+In het bijzonder moet u het headerveld **X-Forefront-Antispam-Report** in de berichtkoppen controleren op aanwijzingen van overgeslagen spam of phish-filtering in de Waarde van het Spamfiltering Verdict (SFV). Berichten die filteren overslaan hebben een `SCL:-1`vermelding van , wat betekent dat een van uw instellingen dit bericht doorliet door de spam- of phish-uitspraken te overschrijven die door de service zijn bepaald. Zie [Kopteksten voor antispamberichten in Office 365](anti-spam-message-headers.md)voor meer informatie over het ontvangen van berichtenkoppen en de volledige lijst met alle beschikbare antispam- en anti-phish-berichtkoppen.
 
 ## <a name="best-practices-to-stay-protected"></a>Aanbevolen procedures om beschermd te blijven
 
@@ -61,18 +61,18 @@ In het bijzonder moet u het headerveld **X-Forefront-Antispam-Report** in de ber
 
   - Controleer of uw SPF-record _alle_ bronnen van e-mail identificeert voor afzenders in uw domein (vergeet services van derden niet!).
 
-  - Gebruik hard\-fail ( ) om ervoor te zorgen dat onbevoegde afzenders worden afgewezen door e-mailsystemen die zijn geconfigureerd om dit te doen. U [spoofinformatie](https://docs.microsoft.com/office365/securitycompliance/learn-about-spoof-intelligence) gebruiken om afzenders te identificeren die uw domein gebruiken, zodat u geautoriseerde afzenders van derden in uw SPF-record opnemen.
+  - Gebruik hard\-fail ( ) om ervoor te zorgen dat onbevoegde afzenders worden afgewezen door e-mailsystemen die zijn geconfigureerd om dit te doen. U [spoofinformatie](learn-about-spoof-intelligence.md) gebruiken om afzenders te identificeren die uw domein gebruiken, zodat u geautoriseerde afzenders van derden in uw SPF-record opnemen.
 
   Zie voor configuratie-instructies:
   
-  - [Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md) (SPF in Office 365 instellen om spoofing te helpen voorkomen)
+  - [SPF in Office 365 instellen om adresvervalsing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md) 
 
-  - [DKIM gebruiken om uitgaande e-mail die vanuit uw aangepaste domein in Office 365 wordt verzonden, te valideren](use-dkim-to-validate-outbound-email.md)
+  - [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein in Office 365](use-dkim-to-validate-outbound-email.md)
 
-  - [DMARC gebruiken om e-mail te valideren in Office 365](use-dmarc-to-validate-email.md)
+  - [DMARC gebruiken om e-mail in Office 365 te valideren](use-dmarc-to-validate-email.md)
 
-- Waar mogelijk raden we u aan e-mail voor uw domein rechtstreeks naar Office 365 te sturen. Met andere woorden, wijs de MX-record van uw Office 365-domein naar Office 365. Exchange Online Protection (EOP) is in staat om de beste bescherming te bieden aan uw cloudgebruikers wanneer hun e-mail rechtstreeks naar Office 365 wordt bezorgd. Als u een e-mailhygiënesysteem van derden moet gebruiken voor EOP, moet u ervoor zorgen dat u de richtlijnen hier hebt [gevolgd.](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-mail-flow-using-third-party-cloud)
+- Waar mogelijk raden we u aan e-mail voor uw domein rechtstreeks naar Office 365 te sturen. Met andere woorden, wijs de MX-record van uw Office 365-domein naar Office 365. Exchange Online Protection (EOP) is in staat om de beste bescherming te bieden aan uw cloudgebruikers wanneer hun e-mail rechtstreeks naar Office 365 wordt bezorgd. Als u een e-mailhygiënesysteem van derden moet gebruiken voor EOP, gebruikt u Verbeterde filtering voor connectors. Zie Uitgebreide [filtering voor connectors in Exchange Online voor](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)instructies .
 
-- Multi factor authentication (MFA) is een echt goede manier om gecompromitteerde accounts te voorkomen. U moet sterk overwegen mfa in te schakelen voor al uw gebruikers. Voor een gefaseerde aanpak u beginnen met mfa in te schakelen voor uw meest gevoelige gebruikers (beheerders, leidinggevenden, enz.) voordat u MFA voor iedereen inschakelt. Zie Meervoudige [verificatie instellen](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)voor instructies .
+- Multi factor authentication (MFA) is een echt goede manier om gecompromitteerde accounts te voorkomen. U moet sterk overwegen mfa in te schakelen voor al uw gebruikers. Voor een gefaseerde aanpak u beginnen met mfa in te schakelen voor uw meest gevoelige gebruikers (beheerders, leidinggevenden, enz.) voordat u MFA voor iedereen inschakelt. Zie Meervoudige [verificatie instellen](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)voor instructies .
 
 - Doorsturen van regels naar externe ontvangers worden vaak gebruikt door aanvallers om gegevens te extraheren. Gebruik de gegevens **van postvakdoorstuurregels controleren** in [Microsoft Secure Score](../mtp/microsoft-secure-score.md) om regels naar externe ontvangers te zoeken en zelfs te voorkomen. Zie [Externe doorstuurregels van client beperken met beveiligde score](https://blogs.technet.microsoft.com/office365security/mitigating-client-external-forwarding-rules-with-secure-score/)voor meer informatie.

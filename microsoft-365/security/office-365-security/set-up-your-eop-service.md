@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: In dit onderwerp wordt uitgelegd hoe u Microsoft Exchange Online Protection (EOP) instelt. Als u hier bent geland vanuit de wizard Office 365-domeinen, gaat u terug naar de wizard Office 365-domeinen als u Exchange Online-beveiliging niet wilt gebruiken. Zie E-mailstroom configureren met connectors in Office 365 als u meer informatie wilt over het configureren van connectors.
-ms.openlocfilehash: 5a28bc606b22b044515e737bf1ddf8250452f250
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 6686e95f343a116a53991957e7746ef841e858ba
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895141"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081230"
 ---
 # <a name="set-up-your-eop-service"></a>Uw EOP-service instellen
 
@@ -62,8 +62,7 @@ Controleer de e-mailstroom tussen de service en uw omgeving. Zie [E-mailstroom t
 
 ## <a name="step-4-allow-inbound-port-25-smtp-access"></a>Stap 4: Inkomende poort 25 SMTP-toegang toestaan
 
-Nadat u connectors hebt geconfigureerd, wacht u 72 uur om de verspreiding van uw DNS-recordupdates mogelijk te maken. Beperk hierna het inkomende poort-25 SMTP-verkeer op uw firewall of e-mailservers om alleen e-mail te accepteren vanuit de EOP-datacenters, met name vanaf de IP-adressen die worden vermeld op [IP-adressen](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges
-)van Exchange Online Protection. Dit beschermt uw on-premises omgeving door het beperken van de reikwijdte van binnenkomende berichten die u ontvangen. Als u bovendien instellingen op uw e-mailserver hebt die de IP-adressen beheren die zijn toegestaan om verbinding te maken voor e-mailrelay, werkt u deze instellingen ook bij.
+Nadat u connectors hebt geconfigureerd, wacht u 72 uur om de verspreiding van uw DNS-recordupdates mogelijk te maken. Beperk hierna het inkomende poort-25 SMTP-verkeer op uw firewall of e-mailservers om alleen e-mail te accepteren vanuit de EOP-datacenters, met name vanaf de IP-adressen die worden vermeld op [IP-adressen](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)van Exchange Online Protection. Dit beschermt uw on-premises omgeving door het beperken van de reikwijdte van binnenkomende berichten die u ontvangen. Als u bovendien instellingen op uw e-mailserver hebt die de IP-adressen beheren die zijn toegestaan om verbinding te maken voor e-mailrelay, werkt u deze instellingen ook bij.
 
 > [!TIP]
 > Configureer instellingen op de SMTP-server met een verbindingstijd van 60 seconden. Deze instelling is acceptabel voor de meeste situaties, waardoor er bijvoorbeeld enige vertraging optreedt in het geval van een bericht dat met een grote bijlage wordt verzonden.
@@ -72,7 +71,7 @@ Nadat u connectors hebt geconfigureerd, wacht u 72 uur om de verspreiding van uw
 
 Om ervoor te zorgen dat spam (ongewenste e-mail) correct wordt doorgestuurd naar de map Ongewenste e-mail van elke gebruiker, moet u een paar configuratiestappen uitvoeren. De stappen zijn beschikbaar in [Standalone EOP configureren om spam te leveren aan de map Ongewenste e-mail in hybride omgevingen.](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)
 
-Als u geen berichten naar de map Ongewenste e-mail van elke gebruiker wilt verplaatsen, u een andere actie kiezen door uw inhoudsfilterbeleid te bewerken in het Exchange-beheercentrum. Zie [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md)voor meer informatie.
+Als u geen berichten naar de map Ongewenste e-mail van elke gebruiker wilt verplaatsen, u een andere actie kiezen door uw inhoudsfilterbeleid te bewerken in het Exchange-beheercentrum. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Stap 6: Gebruik het Microsoft 365-beheercentrum om uw MX-record naar EOP te richten
 

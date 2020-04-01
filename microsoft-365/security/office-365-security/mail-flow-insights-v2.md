@@ -1,5 +1,5 @@
 ---
-title: Inzichten in de mailstroom in het Security & Compliance Center
+title: Inzicht in e-mailstromen in het Security & Compliance Center
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -10,66 +10,66 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
-description: Beheerders kunnen meer te weten komen over het dashboard voor e-mailstroom in het Security & Compliance Center.
-ms.openlocfilehash: 36183f6b5f664a8d5a971f9e141b0607fa66a0bb
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Beheerders kunnen meer te weten komen over het dashboard met e-mailstroom in het Beveiligings- & Compliance Center.
+ms.openlocfilehash: 792fb07c1faae54696354619347d1eb5367d45b2
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42805892"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081434"
 ---
-# <a name="mail-flow-insights-in-the-security--compliance-center"></a>Inzichten in de mailstroom in het Security & Compliance Center
+# <a name="mail-flow-insights-in-the-security--compliance-center"></a>Inzicht in e-mailstromen in het Security & Compliance Center
 
-Beheerders kunnen het dashboard voor e-mailstroom in het Security & Compliance Center gebruiken om trends, inzichten te ontdekken en acties te ondernemen om problemen met betrekking tot de e-mailstroom in hun Office 365-organisatie op te lossen.
+Beheerders kunnen het dashboard voor e-mailstroom gebruiken in het Security & Compliance Center om trends, inzichten te ontdekken en acties te ondernemen om problemen met betrekking tot de e-mailstroom in hun Office 365-organisatie op te lossen.
 
-De inzichten, rapporten en widgets die beschikbaar zijn in het dashboard voor e-mailstroom zijn:
+De inzichten, rapporten en widgets die beschikbaar zijn in het dashboard van de e-mailstroom zijn:
 
-- [Het kaartrapport van de poststroom](mfi-mail-flow-map-report.md)
+- [Rapport van de e-mailstroomkaart](mfi-mail-flow-map-report.md)
 
-- [Inzicht in de status van domeinmailstroom](mfi-domain-mail-flow-status-insight.md)
+- [Statusinzicht domeinmailstroom](mfi-domain-mail-flow-status-insight.md)
 
-- [SMTP Auth clients rapport](mfi-smtp-auth-clients-report.md)
+- [SMTP Auth-clients rapporteren](mfi-smtp-auth-clients-report.md)
 
-- [Inzicht in het domein van afzenders](mfi-sender-domain-insight.md)
+- [Inzicht in afzenderdomein](mfi-sender-domain-insight.md)
 
-- [Niet-leveringsrapport](mfi-non-delivery-report.md)
+- [Rapport niet-levering](mfi-non-delivery-report.md)
 
 - [Niet-geaccepteerd domeinrapport](mfi-non-accepted-domain-report.md)
 
-- [Uitgaande en inkomende e-mailstroom](mfi-outbound-and-inbound-mail-flow.md)
+- [Uitgaande en binnenkomende e-mailstroom](mfi-outbound-and-inbound-mail-flow.md)
 
 - [Wachtrijwaarschuwingen en wachtrijen](mfi-queue-alerts-and-queues.md)
 
-- [Rapport automatisch doorgestuurde berichten](mfi-auto-forwarded-messages-report.md)
+- [Rapport met automatisch doorgestuurde berichten](mfi-auto-forwarded-messages-report.md)
 
-- [Mail loop inzicht](mfi-mail-loop-insight.md)
+- [Inzicht in e-maillus](mfi-mail-loop-insight.md)
 
-- [Inzicht in de regels voor slow mailflowregels](mfi-slow-mail-flow-rules-insight.md)
+- [Inzicht in de regels voor trage e-mailregels](mfi-slow-mail-flow-rules-insight.md)
 
-## <a name="permissions-required-to-view-the-mail-flow-dashboard"></a>Machtigingen die nodig zijn om het dashboard voor e-mailstroom weer te geven
+## <a name="permissions-required-to-view-the-mail-flow-dashboard"></a>Machtigingen die nodig zijn om het dashboard van de e-mailstroom weer te geven
 
-Het dashboard voor e-mailstroom is beschikbaar voor:
+Het dashboard van de e-mailstroom is beschikbaar voor:
 
-- Leden van de **wereldwijde beheerdersrol van Office 365.**
+- Leden van de **algemene beheerdersrol van Office 365.**
 
-- Rol van **Office 365 Exchange-beheerders.**
+- Leden van **de office 365 Exchange-beheerdersrol.**
 
-- Leden van de **functie Mail flow administrator** in het Security & Compliance Center. Als deze rol expliciet is toegewezen aan een gebruiker die geen lid is van de wereldwijde beheerders- of Exchange-beheerdersrollen:
+- Leden van de **functie Mail flow administrator** in het Security & Compliance Center. Als deze rol expliciet is toegewezen aan een gebruiker die geen lid is van de rollen van de globale beheerder of Exchange-beheerder:
 
-  - De gebruiker moet zich rechtstreeks bij het [https://protection.office.com](https://protection.office.com)Security & Compliance Center aanmelden.
+  - De gebruiker moet zich rechtstreeks aanmelden bij [https://protection.office.com](https://protection.office.com)het Security & Compliance Center op .
 
-  - De gebruiker heeft alleen alleen alleen-lezen toestemming voor het dashboard voor de e-mailstroom.
+  - De gebruiker heeft alleen-lezen toestemming voor het dashboard van de e-mailstroom.
 
   - De gebruiker heeft geen toegang tot de Office 365-beheerportal.
 
-Zie [Informatie over office 365-beheerdersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)voor meer informatie over de functie voor globale beheer van Office 365.
+Zie Algemene beheerrollen voor [Office 365-beheerders](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)voor meer informatie over de globale beheerrol van Office 365 .
 
-Zie Gebruikers toegang geven tot het Security [& Compliance Center](https://docs.microsoft.com/office365/securitycompliance/grant-access-to-the-security-and-compliance-center)voor informatie over het toewijzen van beveiligings- & Compliance Center-rollen aan gebruikers.
+Zie Gebruikers toegang geven tot het Office [365 Security & Compliance Center](grant-access-to-the-security-and-compliance-center.md)voor informatie over het toewijzen van functies voor beveiliging & Compliance Center aan gebruikers.
 
-## <a name="where-to-find-the-mail-flow-dashboard"></a>Waar vindt u het dashboard voor e-mailstroom
+## <a name="where-to-find-the-mail-flow-dashboard"></a>Waar vindt u het dashboard van de e-mailstroom
 
-1. Ga naar het Security [https://protection.office.com](https://protection.office.com)& Compliance Center bij .
+1. Ga naar het Security [https://protection.office.com](https://protection.office.com)& Compliance Center op .
 
-2. De **e-mailstroom** uitvouwen en **vervolgens Dashboard**selecteren .
+2. Vouw **de e-mailstroom** uit en selecteer **vervolgens Dashboard**.
 
    ![Het dashboard voor e-mailstroom in het Office 365 Security & Compliance Center](../../media/mail-flow-dashboard-v2.png)

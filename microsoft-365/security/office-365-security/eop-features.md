@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: In de volgende tabel vindt u een lijst met functies die beschikbaar zijn in de door Exchange Online Protection (EOP) gehoste e-mailfilterservice.
-ms.openlocfilehash: f8a9165cd377549d355a72da5428b777e7c1a505
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 1bab584c62114c74c0eb4d9937acef4f17b89073
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032886"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081446"
 ---
 # <a name="eop-features"></a>EOP-functies
 
@@ -91,4 +91,4 @@ In de volgende tabel vindt u een lijst met functies die beschikbaar zijn in de d
 |**Andere functies**||
 |Een georedundant wereldwijd netwerk van servers|EOP draait op een wereldwijd netwerk van datacenters die zijn ontworpen om de beste beschikbaarheid te bieden. Zie voor meer informatie de sectie "EOP-datacenters" in [het overzicht van Exchange Online Protection.](exchange-online-protection-overview.md)|
 |Bericht wachtrijen wanneer de on-premises server geen e-mail kan accepteren|Berichten in uitstel blijven één dag in onze wachtrijen staan. Pogingen voor het opnieuw proberen van berichten zijn gebaseerd op de fout die we terugkrijgen van het e-mailsysteem van de ontvanger. Gemiddeld worden berichten elke 5 minuten opnieuw geprobeerd. Zie [Veelgestelde vragen over eop in de wachtrij, uitgesteld en teruggestuurde berichten](eop-queued-deferred-and-bounced-messages-faq.md)voor meer informatie.|
-|Office 365-berichtversleuteling beschikbaar als invoegservice|Zie [Versleuteling in Office 365](https://docs.microsoft.com/office365/securitycompliance/encryption)voor meer informatie.|
+|Office 365-berichtversleuteling beschikbaar als invoegservice|Zie [Versleuteling in Office 365](../../compliance/encryption.md)voor meer informatie.|
