@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Doorloop het proces van het migreren van versies van Microsoft Office, Office-servers en Windows naar Microsoft 365 Enterprise binnen uw organisatie.
-ms.openlocfilehash: 3a501ec7919972e5b8b289bbddb3bf7e6ae9a8f0
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 7506d374391e05202be685d8ebfe8a04e8d62761
+ms.sourcegitcommit: 144c0f3c2c6112bffc5a9b04392a38123a979ebc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42952016"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053081"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Migratie naar Microsoft 365 Enterprise
 
@@ -30,7 +30,7 @@ Om de bedrijfswaarde van de geïntegreerde productsuite van Microsoft 365 Enterp
 - Windows 7 en Windows 8,1 op uw apparaten naar Windows 10 Enterprise
 
 >[!Note]
->Windows 7 bereikt het einde van de ondersteuning op **14 januari 2020**. Voor meer informatie klikt u [hier](https://support.microsoft.com/help/4057281/windows-7-support-will-end-on-january-14-2020).
+>Windows 7 heeft het einde van de ondersteuning bereikt op **14 januari 2020**. Voor meer informatie klikt u [hier](https://support.microsoft.com/help/4057281/windows-7-support-will-end-on-january-14-2020).
 >
 
 Door al deze migraties in de loop van de tijd te voltooien, komt uw organisatie dichter bij de [moderne werkplek](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/): een veilige en geïntegreerde omgeving die teamwerk en creativiteit in uw organisatie ontsluit, mogelijk gemaakt door Microsoft 365 Enterprise. 
@@ -46,14 +46,14 @@ Voor meer informatie over het migreren van gebruikers en gegevens voor specifiek
 In veel grote en kleine organisaties wordt mogelijk een combinatie gebruikt van oudere versies van de Office-clientproducten, zoals Word, Excel en PowerPoint. Deze oudere versies:
 
 - Kunnen worden [bijgewerkt](https://support.office.com/article/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5) met de nieuwste beveiligingsupdates en ondersteuningsoplossingen, maar het proces is soms handmatig en kan mogelijk niet worden geschaald binnen uw organisatie.
-- Zijn niet optimaal geschikt om de cloud-technologieën van Microsoft te gebruiken en u te helpen bij het digitaal transformeren van uw bedrijf.
+- Zijn niet optimaal geschikt om de cloudtechnologieën van Microsoft te gebruiken en u te helpen bij het digitaal transformeren van uw bedrijf.
 - Bevatten geen nieuwe functies.
  
 Microsoft 365 Enterprise omvat Office 365 ProPlus, een versie van de Office-clientproducten die beschikbaar is met een Microsoft 365 Enterprise-licentie en die wordt geïnstalleerd en bijgewerkt vanuit de Microsoft-Cloud. Office 365 ProPlus bevat beveiligingsupdates en de nieuwste functies. Zie [Informatie over Office 365 ProPlus in de onderneming](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise) voor meer informatie.
 
 ### <a name="office-2007"></a>Office 2007
 
-Voor versies van Office in de Office 2007-release, deze worden niet langer ondersteund. Zie [Roadmap einde van ondersteuning voor Office 2007](https://docs.microsoft.com/deployoffice/office-2007-end-support-roadmap) voor meer informatie.
+Versies van Office in de Office 2007-release worden inmiddels niet meer ondersteund. Zie [Roadmap einde van ondersteuning voor Office 2007](https://docs.microsoft.com/deployoffice/office-2007-end-support-roadmap) voor meer informatie.
 
 In plaats van uw computers met Office 2007 te upgraden naar Office 2010, Office 2013 of Office 2016, kunt u het volgende overwegen:
 
@@ -92,7 +92,7 @@ Office 365 ProPlus installeert updates voor zowel beveiliging als nieuwe functie
 In veel grote en kleine organisaties wordt mogelijk een combinatie gebruikt van oudere versies van de Office-serverproducten, zoals Exchange Server en SharePoint Server. Deze oudere versies:
 
 - Moeten worden bijgewerkt met de nieuwste beveiligingsupdates en ondersteuningsoplossingen. In sommige gevallen worden deze updates maandelijks uitgebracht.
-- Zijn niet optimaal geschikt om de cloud-technologieën van Microsoft te gebruiken en u te helpen bij het digitaal transformeren van uw bedrijf.
+- Zijn niet optimaal geschikt om de cloudtechnologieën van Microsoft te gebruiken en u te helpen bij het digitaal transformeren van uw bedrijf.
 - Voegen geen nieuwe productiviteitstoepassingen toe, zoals Microsoft Teams.
 - Voegen niet de nieuwste beveiligingsfuncties toe, zoals Exchange Advanced Threat Protection.
 
@@ -145,7 +145,7 @@ Voor serverproducten in de Office 2016-release is de einddatum voor de ondersteu
 
 ## <a name="migration-for-microsoft-windows-7-and-81"></a>Migratie voor Microsoft Windows 7 en 8.1
 
-Windows 7 bereikt het einde van de ondersteuning op **14 januari 2020**. Als u uw apparaten met Windows 7 of Windows 8.1 wilt migreren, kunt u een [in-place upgrade](https://docs.microsoft.com/microsoft-365/enterprise/windows10-deploy-inplaceupgrade)uitvoeren. 
+Windows 7 heeft het einde van de ondersteuning bereikt op **14 januari 2020**. Als u uw apparaten met Windows 7 of Windows 8.1 wilt migreren, kunt u een [in-place upgrade](https://docs.microsoft.com/microsoft-365/enterprise/windows10-deploy-inplaceupgrade)uitvoeren. 
 
 Zie [Windows 10 deployment scenarios](https://docs.microsoft.com/windows/deployment/windows-10-deployment-scenarios) (Implementatiescenario's voor Windows 10) voor aanvullende methoden. U kunt ook zelf [de implementatie van Windows 10 plannen](https://aka.ms/planforwin10deployment).
 
