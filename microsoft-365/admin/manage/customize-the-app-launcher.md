@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: 'Maak snelle koppelingen naar uw e-mail, documenten, apps, SharePoint-sites, externe sites en andere bronnen door aangepaste tegels toe te voegen aan het startprogramma voor apps. '
-ms.openlocfilehash: 65c8da7aa0cdb68f4bf32a52b21140413a38a69a
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: e52bad5cdd1809e8aa0d97c681b69daa5143d3fd
+ms.sourcegitcommit: 4b73f070747a66874c03fdf670ffdf16f736585a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42809250"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43103073"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Aangepaste tegels toevoegen aan het startprogramma voor apps
 
@@ -69,7 +69,7 @@ U en uw gebruikers zien nu de aangepaste tegel in het startprogramma voor apps o
   
 ## <a name="edit-or-delete-a-custom-tile"></a>Edit or delete a custom tile
 
-1. Ga in het beheercentrum naar de<a href="https://go.microsoft.com/fwlink/p/?linkid=2067339" target="_blank">profielpagina Instellingenorganisatie.</a> **Settings** > 
+1. Ga in het beheercentrum naar het profieltabblad **Instellingen** > **instellingen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2067339" target="_blank">organisatie.</a>
     
 2. Selecteer op de pagina **Organisatieprofiel** naast **Aangepaste tegels toevoegen voor uw organisatie**de optie **Bewerken**.
 
