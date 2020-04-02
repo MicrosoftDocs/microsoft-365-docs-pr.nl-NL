@@ -15,117 +15,107 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: 44335889432d1c5998b76836c9d8f0201a62dc67
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e0942f88605e1b11cdbc83155ebc43b5fdb1bea1
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42812413"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081278"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit
 
-Deze downloadbare, praktische labs zijn gericht op de implementatie van Windows 10 en Office 365, vergezeld van overwegingen met betrekking tot configuratie en beheer na implementatie. Deze training wordt ten zeerste aanbevolen voor organisaties die zich voorbereiden op het einde van de levensduur van Windows 7, maar is ook van toepassing als u Windows 10 en Office 365 Plus of Office 2019 gebruikt. Inclusief handleidingen voor Windows 10, Office 365 ProPlus, Enterprise Mobility + Security en verwante producten en services.
-
 Deze labs zijn bedoeld om u te helpen bij het plannen, testen en valideren van uw implementatie en het beheer van desktops met Windows 10 Enterprise en Office 365 ProPlus. De labs bevatten de stappen en hulpmiddelen die worden beschreven in het desktopimplementatiewiel, en omvatten Microsoft Endpoint Configuration Manager, Desktop Analytics, Office Customization Tool, OneDrive, Windows Autopilot en meer.
 
-Als onderdeel van het [desktopimplementatieproces](https://www.aka.ms/howtoshift) voor Windows 10 en Office 365 ProPlus wordt aangeraden eerst een sandbox- of geïsoleerde labomgeving te bouwen als u zich gaat bezighouden met de updates van implementatiehulpmiddelen en uw aan de implementatie verwante automatisering wilt testen.
+Deze training wordt ten zeerste aanbevolen voor organisaties die zich voorbereiden op het einde van de levensduur van Windows 7, maar is ook van toepassing als u Windows 10 en Office 365 Plus of Office 2019 gebruikt. Als een geïsoleerde omgeving is het lab bovendien ideaal voor het verkennen van het implementatieprogramma en het testen van uw implementatie.
 
-U kunt de labkit gratis downloaden. Deze maakt gebruik van software op proef.
+[Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-### <a name="download-the-windows-and-office-deployment-lab-kit"></a>[**Windows en Office Deployment Lab Kit downloaden**](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
+## <a name="a-complete-lab-environment"></a>Een volledige testomgeving
 
-## <a name="a-complete-lab-environment"></a>**Een volledige labomgeving**
+Met het lab beschikt u over een automatisch ingerichte virtuele testomgeving, inclusief desktopclients die lid zijn van een domein, een domeincontroller, een internetgateway en een volledig geconfigureerd Configuration Manager-exemplaar. Het lab bevat de nieuwste evaluatieversies van de volgende producten:
 
-Met het lab beschikt u over een automatisch ingerichte virtuele labomgeving, inclusief desktopclients die lid zijn van een domein, een domeincontroller, een internetgateway en een volledig geconfigureerd ConfigMgr-exemplaar. Het lab bevat evaluatieversies van de volgende producten:
-
-  - Windows 10 Enterprise, versie 1909
+  - Windows 10 Enterprise
   - Windows 7 Enterprise
-  - Microsoft Endpoint Configuration Manager, versie 1902
-  - Windows Assessment and Deployment Kit voor Windows 10, versie 1903
+  - Microsoft Endpoint Configuration Manager
+  - Windows Assessment and Deployment Kit voor Windows 10
   - Microsoft Deployment Toolkit
-  - Microsoft Application Virtualization (App-V) 5.1
-  - Microsoft BitLocker Administration and monitoring 2.5 SP1
-  - Windows Server 2019
-  - Microsoft SQL Server 2017
+  - Microsoft Application Virtualization (App-V)
+  - Microsoft BitLocker Administration and Monitoring 
+  - Windows Server 
+  - Microsoft SQL Server 
 
 Bovendien is het lab ontwikkeld om te worden verbonden met proefversies voor: 
 
-  - Microsoft 365 E5
-
-Of
+  - Microsoft 365 E5, of
   - Office 365 Enterprise E5
   - Enterprise Mobility + Security
 
-## <a name="step-by-step-labs"></a>**Stapsgewijze labs**
+## <a name="step-by-step-labs"></a>Stapsgewijze labs
 
-Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario's voor implementatie en beheer. De labs zijn bijgewerkt voor de nieuwste versies van Intune en Configuration Manager (versie 1910).  
+Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario's voor implementatie en beheer. De labs zijn bijgewerkt voor de nieuwste versies van Intune en Configuration Manager (versie 1910). 
 
-### <a name="device-and-app-readiness"></a>**Gereedheid van apparaten en apps**
+### <a name="device-and-app-readiness"></a>Gereedheid van apparaten en apps
 
   - Desktop Analytics
-  - Ondernemingsmodus en sitelijst voor Ondernemingsmodus voor Internet Explorer
+  - NIEUW! De nieuwe Microsoft Edge implementeren en bijwerken 
+  - Internet Explorer-modus 
+  - Application Guard 
 
-### <a name="directory-and-network-readiness"></a>**Gereedheid van mappen en netwerken**
+### <a name="directory-and-network-readiness"></a>Gereedheid van mappen en netwerken
 
-  - Basisinstallatie voor Azure Active Directory en Microsoft 365
-  - Netwerkoptimalisatie met Delivery Optimization, peer-cache in ConfigMgr en LEDBAT
-  - Co-beheer van ConfigMgr en Microsoft Intune
+  - NIEUW! Windows 10 Update Delivery Optimization 
+  - Co-beheer van Configuration Manager en Microsoft Intune
   - Externe toegang (VPN)
 
-### <a name="office-and-lob-app-delivery"></a>**Levering van Office- en LOB-apps**
+### <a name="office-and-lob-app-delivery"></a>Levering van Office- en LOB-apps
 
-  - Implementatie van Office 365 ProPlus met behulp van Microsoft Endpoint Configuration Manager
-  - Implementatie van Office 365 ProPlus met behulp van Microsoft Intune
-  - Implementatie en beheer van apps met behulp van Microsoft Intune
-  - Implementatie en self-service-installatie van apps met behulp van Microsoft Store voor Bedrijven
-  - Conversie van de toepassing Desktopbrug naar UWP
-  - Windows Kit voor app-certificering
-  - Herstel van browsercompatibiliteit met behulp van Enterprise Mode voor Internet Explorer
+  - Implementatie van Office 365 ProPlus 
+  - Beheerde implementatie door onderneming met Configuration Manager en Microsoft Intune
+  - Implementatie en beheer van apps met Microsoft Intune
+  - Implementatie en self-service-installatie van apps met Microsoft Store voor Bedrijven
 
-### <a name="user-file-and-settings-migration"></a>**Migratie van gebruikersbestanden en -instellingen**
+### <a name="user-file-and-settings-migration"></a>Migratie van gebruikersbestanden en -instellingen
 
-  - Hulpprogramma voor migratie van gebruikersstatus als onderdeel van pc-vernieuwing en -vervanging in ConfigMgr en MDT
-  - Verplaatsen van bekende mappen in OneDrive
+  - Migratie van bekende mappen bestanden 
+  - Hulpprogramma voor migratie van gebruikersstatus 
   - Enterprise State Roaming
+  - Startmenu aanpassen en UWP-app verwijderen 
+  - Virtualisatie voor gebruikerservaring (UE-V) 
 
-### <a name="security-and-compliance"></a>**Beveiliging en compliance**
+### <a name="security-and-compliance"></a>Beveiliging en naleving
 
   - Apparaatontsleuteling met BitLocker
   - Windows Defender Antivirus
   - Windows Hello voor Bedrijven
-  - Conversie van BIOS naar UEFI voor het inschakelen van beveiliging op basis van virtualisatie
-  - Windows Defender Credential Guard
+  - Conversie van BIOS naar UEFI
   - Windows Defender Application Guard
   - Windows Defender Exploit Guard
   - Windows Defender-toepassingsbeheer
-  - Microsoft Defender Advanced Threat Protection
+  - Windows Defender Advanced Threat Protection
 
-### <a name="os-deployment-and-feature-updates"></a>**Implementatie van besturingssysteem en functie-updates**
+### <a name="os-deployment-and-feature-updates"></a>Implementatie van besturingssysteem en functie-updates
 
   - Maken van installatiekopie van besturingssysteem
-  - Takenreeksen voor implementatie van besturingssysteem in ConfigMgr
-      - Bare metal
-      - Vernieuwen
-      - Nieuwe situatie
-      - Upgraden
+  - Takenreeksen voor implementatie van besturingssysteem in Configuration Manager 
   - Takenreeksen voor implementatie van besturingssysteem in MDT
-  - Functie-updates met behulp van upgradetakenreeksen in ConfigMgr
   - Windows Autopilot
+  - Inrichtingspakketten 
 
-### <a name="windows-and-office-servicing"></a>**Onderhoud van Windows en Office**
+### <a name="windows-and-office-as-a-service"></a>Windows en Office als een service
+  - Windows-updates beheren via Groepsbeleid
+  - Onderhoud van Windows 10 met Configuration Manager en Intune
+  - Onderhoud van Office 365 ProPlus met Configuration Manager
 
-  - Beheer van software-updates met behulp van Configuration Manager
-  - Beheer van Office 365 ProPlus-updates in Configuration Manager
-  - Mobile Device Management toegepast op Windows 10 met behulp van Microsoft Intune
-
-### <a name="new-windows-virtual-desktop"></a>**Nieuw! Windows Virtual Desktop**
+### <a name="new-windows-virtual-desktop"></a>NIEUW! Windows Virtual Desktop
   - Windows Virtual Desktop: voorbereiden, implementeren, optimaliseren 
 
-### <a name="download-the-windows-and-office-deployment-lab-kit"></a>[**Windows en Office Deployment Lab Kit downloaden**](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
+### <a name="download-the-windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit downloaden
+
+[Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
 *Gebruik een grote bandbreedte om deze inhoud sneller te kunnen te downloaden. Houd rekening met 30-45 minuten voor automatische inrichting. De labomgeving vereist minimaal 16 GB beschikbaar geheugen en 150 GB beschikbare schijfruimte. Voor optimale prestaties wordt 32 GB beschikbaar geheugen aanbevolen. Het lab verloopt op 18 april 2020. Voor die tijd wordt een nieuwe versie gepubliceerd.*
 
-## <a name="additional-guidance"></a>**Aanvullende richtlijnen**
+## <a name="additional-guidance"></a>Aanvullende richtlijnen
 
   - [Desktop Deployment Center](https://www.aka.ms/howtoshift) (Implementatiecentrum voor desktops)
 
@@ -139,7 +129,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 
   - [<span class="underline">Aan de slag met Intune</span>](https://docs.microsoft.com/intune/get-started-evaluation)
 
-## <a name="related-resources"></a>**Verwante informatiebronnen**
+## <a name="related-resources"></a>Verwante informatiebronnen
 
   - [<span class="underline">Inleiding tot Microsoft 365</span>](https://www.microsoft.com/microsoft-365/default.aspx)
 
