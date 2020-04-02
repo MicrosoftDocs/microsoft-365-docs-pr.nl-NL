@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b9acfd4c-df82-4eb5-a652-232a6829870a
 description: Meer informatie over de informatiebronnen die beschikbaar zijn voor Microsoft 365-beheerders.
 ms.custom: okr_smb
-ms.openlocfilehash: cafb63d53178a2cc21448643ba9fd78773265aa8
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: e38c15d0e68e908bada941443b019e9f243c7f11
+ms.sourcegitcommit: 4d4d27a49eb258dc560439ca4baf61ebb9c1eff3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046913"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43075594"
 ---
 # <a name="microsoft-365-admin-help-center"></a>Helpcentrum voor beheerders van Microsoft 365
 
@@ -39,13 +39,13 @@ Informatie over de informatiebronnen die beschikbaar zijn voor beheerders.
                     </div>
                     <div class="cardText">
                         <h3>Office 365 wordt Microsoft 365</h3>
-                        <p>We wijzigen enkele namen van de Office 365- en Microsoft 365-abonnementen. U hoeft verder niets te doen. Uw-services, apps en functies en de prijs van uw abonnement veranderen niet. De naam van uw abonnement wordt automatisch bijgewerkt in het Microsoft 365-beheercentrum en uw factuuroverzichten worden bijgewerkt op of na 21 april 2020</p>
+                        <p>We wijzigen enkele namen van de Office 365- en Microsoft 365-abonnementen. U hoeft verder niets te doen. Uw services, apps en functies en de prijs van uw abonnement veranderen niet. De naam van uw abonnement wordt automatisch bijgewerkt in het Microsoft 365-beheercentrum en uw factuuroverzichten worden bijgewerkt op of na 21 april 2020.</p>
                         <ul>
-                            <li><p>Office 365 Business Essentials wordt nu Microsoft 365 Business Basic</p></li>
-                            <li><p>Office 365 Business Premium wordt nu Microsoft 365 Business Standard</p></li>
-                            <li><p>Microsoft 365 Business wordt nu Microsoft 365 Business Premium</p></li>
-                            <li><p>Office 365 Business wordt nu Microsoft 365-apps voor bedrijven</p></li>
-                            <li><p>Office 365 ProPlus wordt nu Microsoft 365-apps voor Enterprise</p></li>
+                            <li><p><b>Office 365 Business Essentials</b> wordt nu <b>Microsoft 365 Business Basic</b>.</p></li>
+                            <li><p><b>Office 365 Business Premium</b> wordt nu <b>Microsoft 365 Business Standard</b>.</p></li>
+                            <li><p><b>Microsoft 365 Business</b> wordt nu <b>Microsoft 365 Business Premium</b>.</p></li>
+                            <li><p><b>Office 365 Business</b> wordt nu <b>Microsoft 365 Apps for Business</b>.</p></li>
+                            <li><p><b>Office 365 ProPlus</b> wordt nu <b>Microsoft 365 Apps for Enterprise</b>.</p></li>
                         </ul>
                         <p><a href="https://go.microsoft.com/fwlink/?linkid=2120533">Meer informatie</a></p>
                     </div>
