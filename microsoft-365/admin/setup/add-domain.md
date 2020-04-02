@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Voeg uw domein toe aan Office 365 in het Microsoft 365-beheercentrum door een DNS-record toe te voegen aan uw DNS-host. De setup wizard begeleidt u door het proces.
-ms.openlocfilehash: 86ca8f986624ad37f780961cb58923ea0a1b2308
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: a6ef611ec210bbfb2299b6d41edb7d6410d50073
+ms.sourcegitcommit: 8edad75338cf74712ca1ab5d6631b9b52ff54410
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857377"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116012"
 ---
 # <a name="add-a-domain-to-office-365"></a>Een domein toevoegen aan Office 365
 
@@ -67,7 +67,7 @@ ms.locfileid: "42857377"
 
 ::: moniker-end
     
-2. Ga naar de pagina > **Instellingendomeinen.** **Settings** 
+2. Ga naar de pagina > **Setup-domeinen.** **Setup** 
 
 3. Selecteer **Domein toevoegen**.
     
@@ -112,4 +112,4 @@ ms.locfileid: "42857377"
 
 [Uw domein instellen (host-specifieke instructies)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md)
 
-[Hulp krijgen bij Office 365-domeinen](../get-help-with-domains/get-help-with-domains.yml)
+[Hulp krijgen bij Office 365-domeinen](../get-help-with-domains/get-help-with-domains.md)

@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: Leer eventuele problemen op te sporen die u tegenkomt tijdens het instellen van een aangepast domein door ervoor te zorgen dat de DNS-records correct zijn ingesteld.
-ms.openlocfilehash: 277e87ad6b06db0b1ef3b3cb5eaaa45a2e77ed6f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: a93318d54b950b908319fe50a0cfedefe8586036
+ms.sourcegitcommit: 8edad75338cf74712ca1ab5d6631b9b52ff54410
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42805377"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43115969"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records-in-office-365"></a>Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd in Office 365
 
@@ -35,7 +35,7 @@ ms.locfileid: "42805377"
 Het kan lastig zijn om uw domein in te stellen voor gebruik met Office 365. Bij het werken met het DNS-systeem is het belangrijk dat alle waarden correct worden ingevoerd, want de DNS-instellingen voor uw domein zijn van invloed op belangrijke zakelijke activiteiten, zoals e-mail.
 
 > [!NOTE]
-> U controleren op problemen met uw domein door de status ervan te controleren. Ga naar > **Instellingendomeinen** en bekijk de meldingen in de kolom **Status.** **Settings** Als u een probleem ziet, selecteert u Meer acties (drie puntjes) en kiest u **De status controleren**. In het deelvenster dat wordt geopend, worden eventuele problemen met uw domein beschreven.
+> U controleren op problemen met uw domein door de status ervan te controleren. Ga naar **Domeinen** > **instellen** en bekijk de meldingen in de kolom **Status.** Als u een probleem ziet, selecteert u Meer acties (drie puntjes) en kiest u **De status controleren**. In het deelvenster dat wordt geopend, worden eventuele problemen met uw domein beschreven.
   
 ## <a name="whats-going-on"></a>Wat gebeurt er?
 
