@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Biedt een inleiding tot de onderdelen, plannen en implementatiepaden voor Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 1e902d1ca0eb80a7588a9b4060a41183f5a5db24
-ms.sourcegitcommit: 144c0f3c2c6112bffc5a9b04392a38123a979ebc
+ms.openlocfilehash: c66fb5e4d8cd0d24ec20a50ca2ead3f3b9e0851d
+ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053093"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113515"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Overzicht van Microsoft 365 voor ondernemingen
 
@@ -74,13 +74,13 @@ Als u een kopie van de poster wilt downloaden, klikt u [hier](https://github.com
 
 ## <a name="transition-your-entire-organization"></a>Uw hele organisatie overzetten
 
-Download de [overgangsposter](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)om een beter beeld te krijgen van hoe u uw hele organisatie verplaatsen naar de producten en services in Microsoft 365 voor bedrijven.
+Zie de [overgangsposter](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)om een beter beeld te krijgen van hoe u uw hele organisatie verplaatsen naar de producten en services in Microsoft 365 voor bedrijven.
 
 [![Afbeelding van de poster Overgang naar Microsoft 365](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
-Deze poster van twee pagina's is een snelle manier om uw bestaande infrastructuur te inventariseren en de richtlijnen te vinden voor het verplaatsen naar het bijbehorende product of de bijbehorende service in Microsoft 365 voor ondernemingen. De poster bevat Windows- en Office-producten en andere infrastructuur- en beveiligingselementen, zoals apparaat- en identiteitsbeheer, informatiebeveiliging en beveiliging tegen bedreigingen.
+Deze poster van twee pagina's is een snelle manier om de bestaande infrastructuur te inventariseren en de informatiebronnen te vinden die u kunnen helpen bij het overstappen naar het bijbehorende product of de bijbehorende service in Microsoft 365 voor ondernemingen. De poster bevat Windows- en Office-producten en andere infrastructuur- en beveiligingselementen, zoals apparaat- en identiteitsbeheer, informatiebeveiliging en beveiliging tegen bedreigingen.
 
-U [deze poster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) ook downloaden en afdrukken in letter-, juridische of tabloid (11 x 17) formaten.
+U kunt ook [deze poster downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) en afdrukken in het formaat Letter, Legal of Tabloid (11 x 17).
 
 ## <a name="avoid-end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Einde ondersteuning voor Windows 7- en Office 2010-clients en -servers voorkomen
 
@@ -100,7 +100,7 @@ Voor een visueel overzicht van de opties voor het upgraden, migreren en overstap
 
 Deze poster van één pagina is een snelle manier om inzicht te krijgen in de verschillende paden die u volgen om te voorkomen dat Windows 7- en Office 2010-client- en serverproducten het einde van de ondersteuning bereiken, met voorkeurspaden en ondersteuning in Microsoft 365 voor enterprise gemarkeerd.
 
-U [deze poster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) ook downloaden en afdrukken in letter-, juridische of tabloid (11 x 17) formaten.
+U kunt ook [deze poster downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) en afdrukken in het formaat Letter, Legal of Tabloid (11 x 17).
 
 ## <a name="deploy"></a>Implementeren
 

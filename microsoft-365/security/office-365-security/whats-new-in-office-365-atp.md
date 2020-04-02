@@ -15,17 +15,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 02/21/2020
-ms.openlocfilehash: 09cf8e74cb52d75d454fec371ee965978851b5e5
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 1507a88a37591c43ce612f3c18d946403a85f41f
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42812063"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106182"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Nieuwe nieuws in Office 365 ATP
 
-**Van toepassing op:**
+**Geldt voor:**
 
 - [Geavanceerde bedreigingsbeveiliging van Office 365 (Office 365 ATP)](office-365-atp.md)
 
@@ -36,6 +35,7 @@ In dit artikel worden nieuwe functies weergegeven in de nieuwste versie van Offi
 
 ## <a name="januaryfebruary-2020"></a>Januari/februari 2020
 
+- [Algemene beschikbaarheid van campagneweergaven in Office 365 ATP](campaigns.md)
 - Verbeteringen aan [Threat Explorer](threat-explorer.md) om beveiligingsteams in staat te stellen op meerdere velden te zoeken en te filteren terwijl [ze e-mail onderzoeken:](investigate-malicious-email-that-was-delivered.md)
     - Leveringslocatie en speciale acties
     - Directionaliteit (inkomende, uitgaande of intra-org)

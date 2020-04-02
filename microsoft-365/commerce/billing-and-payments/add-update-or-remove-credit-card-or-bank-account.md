@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Meer informatie over het beheren van uw betalingsmethoden in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 47635f5fe5ffd37fbd33c258ab1df729dfc13399
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: be03d4b779c0592d47b23c4cf1fd491b7c8f455e
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42952004"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106046"
 ---
 # <a name="add-update-or-remove-your-payment-methods"></a>Uw betalingsmethoden toevoegen, bijwerken of verwijderen
 
@@ -234,7 +234,7 @@ U moet een globale beheerder of factureringsbeheerder zijn om de taken in dit ar
   
 4. Werk uw creditcard- of bankrekeninggegevens bij (naam op de creditcard of bankrekening, factuuradres. telefoonnummer of vervaldatum) selecteert u indien nodig **Verzenden**.
 
-5. Er verschijnt een bevestigingsbericht. Als dat niet gebeurt, gaat u naar [Problemen met creditcards en bankrekeningen oplossen](#troubleshooting-credit-cards-and-bank-accounts).
+5. Er verschijnt een bevestigingsbericht. Als dit niet het zo is, raadpleegt u 'Creditcard en bankrekeningen oplossen' later in dit artikel.
 
     ![Het bevestigingsbericht: 'Uw betalingsmethode is bijgewerkt.'](../../media/23b4aa8e-f5d5-4535-92a2-9111a270f097.png)
 
@@ -262,7 +262,7 @@ U moet een globale beheerder of factureringsbeheerder zijn om de taken in dit ar
   
 4. Werk uw creditcard- of bankrekeninggegevens bij (naam op de creditcard of bankrekening, factuuradres. telefoonnummer of vervaldatum) selecteert u indien nodig **Verzenden**.
 
-5. Er verschijnt een bevestigingsbericht. Als dat niet gebeurt, gaat u naar [Problemen met creditcards en bankrekeningen oplossen](#troubleshooting-credit-cards-and-bank-accounts).
+5. Er verschijnt een bevestigingsbericht. Als dit niet het zo is, raadpleegt u 'Creditcard en bankrekeningen oplossen' later in dit artikel.
 
     ![Het bevestigingsbericht: 'Uw betalingsmethode is bijgewerkt.'](../../media/23b4aa8e-f5d5-4535-92a2-9111a270f097.png)
 

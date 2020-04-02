@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: Meer informatie over het bewaren van bestanden en e-mails van een werknemer wanneer de persoon uw organisatie verlaat.
-ms.openlocfilehash: 3c7a63852ad20fc005f7a0f4e3f909474bda2a3c
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 2b608b51060e746d0b69fd887882b51735578496
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42812113"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43105757"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken
 
@@ -102,11 +102,15 @@ Als globale beheerder u uzelf toegang geven tot de inhoud in de OneDrive van een
 
 1. Meld u aan bij het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">beheercentrum</a> als globale beheerder of SharePoint-beheerder. 
 
+    Als u een bericht ontvangt dat u geen toestemming hebt om toegang te krijgen tot het beheercentrum, hebt u geen beheerdersmachtigingen in uw organisatie.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. Meld u aan bij het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a> als globale beheerder of SharePoint-beheerder.
+
+    Als u een bericht ontvangt dat u geen toestemming hebt om toegang te krijgen tot het beheercentrum, hebt u geen beheerdersmachtigingen in uw organisatie.
 
 ::: moniker-end
 
@@ -114,9 +118,9 @@ Als globale beheerder u uzelf toegang geven tot de inhoud in de OneDrive van een
 
 1. Meld u aan bij het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a> als globale beheerder of SharePoint-beheerder.
 
-::: moniker-end
+    Als u een bericht ontvangt dat u geen toestemming hebt om toegang te krijgen tot het beheercentrum, hebt u geen beheerdersmachtigingen in uw organisatie.
 
-   Als u een bericht ontvangt dat u geen toestemming hebt om toegang te krijgen tot het beheercentrum, hebt u geen beheerdersmachtigingen in uw organisatie.
+::: moniker-end
 
 2. Selecteer **SharePoint**voor **beheercentra** \> in het linkerdeelvenster . (Mogelijk moet u **Alles weergeven** selecteren om de lijst met beheercentra weer te geven.)
 
@@ -181,6 +185,10 @@ De export wordt direct gestart in Outlook, tenzij er een nieuw Outlook-gegevensb
     
 Zie hoe u [e-mail, contactpersonen en agenda exporteert of back-upt naar een PST-bestand van Outlook](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx) in Outlook 2010. 
   
+  
+  > [!NOTE]
+  > Standaard is uw e-mail offline beschikbaar voor een periode van 12 maanden. Bekijk indien nodig hoe [u de offline beschikbare gegevens verhogen.](Https://docs.microsoft.com/outlook/troubleshoot/mailboxes/only-subset-items-synchronized)
+ 
 ## <a name="give-another-user-access-to-a-former-users-email"></a>Een andere gebruiker toegang geven tot de e-mail van een voormalige gebruiker 
 
 Als u de e-mailberichten, agenda's, taken en contactpersonen van de voormalige werknemer toegang wilt geven tot de voormalige werknemer, importeert u de gegevens naar het Postvak IN van een andere werknemer.
@@ -210,6 +218,9 @@ Als u de e-mailberichten, agenda's, taken en contactpersonen van de voormalige w
 8. Stel de opties voor het importeren van items in. De standaardinstellingen hoeft u meestal niet te wijzigen.
     
 9. Selecteer **Voltooien**.
+
+> [!NOTE]
+> De stappen blijven hetzelfde voor toegang tot de OneDrive- en e-mailgegevens van een bestaande gebruiker.
     
 > [!TIP]
 > Als u slechts een paar items uit een Outlook-gegevensbestand (.pst) wilt importeren of herstellen, u het Outlook-gegevensbestand openen. Sleep vervolgens in het navigatiedeelvenster de items uit outlook-mappen voor gegevensbestand naar uw bestaande Outlook-mappen. 
@@ -224,4 +235,3 @@ Als u de e-mailberichten, agenda's, taken en contactpersonen van de voormalige w
   
 [OneDrive-retentie en verwijdering](/onedrive/retention-and-deletion)
   
-
