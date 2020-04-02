@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: In dit artikel wordt beschreven hoe Office 365 phishingaanvallen tegengaat die gebruikmaken van domeinen die zijn vervalst, wat ook wel 'spoofing' wordt genoemd. Het doet dit door berichten te analyseren en degenen te blokkeren die niet kunnen worden geverifieerd met behulp van standaard e-mailverificatiemethoden, noch met andere afzendertechnieken. Deze wijziging is doorgevoerd om het aantal phishingaanvallen te verminderen waaraan organisaties in Office 365 worden blootgesteld.
-ms.openlocfilehash: a81c22d83e0a476657aa89823e52d3eb6afc4514
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 5d4b9f0c94a68d457aa59b768444746627dffb9d
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033480"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081362"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Bescherming tegen adresvervalsing in Office 365
 
@@ -61,7 +61,7 @@ Ten tweede creëren vervalste berichten onzekerheid voor gebruikers die op de ho
 
 Het bovenstaande bericht is afkomstig van Microsoft, maar tegelijkertijd zijn gebruikers gewend phishingberichten te ontvangen die een gebruiker kunnen verleiden om op een koppeling te klikken en hun gegevens op te geven, malware te downloaden of te reageren op een bericht met gevoelige inhoud. Omdat het moeilijk is om het verschil te zien tussen echte en vervalste wachtwoordherstelberichten negeren veel gebruikers deze berichten. Men meldt ze als spam of aan Microsoft als verijdelde poging tot phishing.
 
-Om adresvervalsing te stoppen, heeft de e-mailfilterindustrie e-mailverificatieprotocollen ontwikkeld zoals [SPF](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing), [DKIM](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email) en [DMARC](https://docs.microsoft.com/office365/SecurityCompliance/use-dmarc-to-validate-email). DMARC voorkomt dat adresvervalsing de afzender van een bericht onderzoekt. Dat wil zeggen, de afzender die gebruikers in hun e-mailclient zien (in de bovenstaande voorbeelden is dit service.outlook.com, outlook.com en accountprotection.microsoft.com). Bovendien kunnen gebruikers ook zien dat het domein door SPF of DKIM is geverifieerd, wat betekent dat het domein is geverifieerd en daarom niet is vervalst. Zie de sectie ‘*Begrijpen waarom e-mailverificatie niet altijd voldoende is om adresvervalsing te stoppen*’ verderop in dit artikel voor een uitgebreidere bespreking.
+Om adresvervalsing te stoppen, heeft de e-mailfilterindustrie e-mailverificatieprotocollen ontwikkeld zoals [SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [DKIM](use-dkim-to-validate-outbound-email.md) en [DMARC](use-dmarc-to-validate-email.md). DMARC voorkomt dat adresvervalsing de afzender van een bericht onderzoekt. Dat wil zeggen, de afzender die gebruikers in hun e-mailclient zien (in de bovenstaande voorbeelden is dit service.outlook.com, outlook.com en accountprotection.microsoft.com). Bovendien kunnen gebruikers ook zien dat het domein door SPF of DKIM is geverifieerd, wat betekent dat het domein is geverifieerd en daarom niet is vervalst. Zie de sectie ‘*Begrijpen waarom e-mailverificatie niet altijd voldoende is om adresvervalsing te stoppen*’ verderop in dit artikel voor een uitgebreidere bespreking.
 
 Het probleem is echter dat records voor e-mailverificatie optioneel zijn en niet vereist. Daarom zijn domeinen met een sterk authenticatiebeleid zoals microsoft.com en skype.com beschermd tegen adresvervalsing, maar domeinen die een zwakker authenticatiebeleid hanteren, of helemaal geen beleid, zijn doelen om te worden vervalst. Slechts 9% van de domeinen van bedrijven in de Fortune 500 hanteerde in maart 2018 een sterk e-mailverificatiebeleid. De resterende 91% kan worden vervalst door een phisher en kan, tenzij het e-mailfilter dit met ander beleid detecteert, aan een eindgebruiker worden bezorgd en hen misleiden:
 
@@ -631,7 +631,7 @@ De anti-adresvervalsingtechnologie van Microsoft werd aanvankelijk geïmplemente
 
 ### <a name="how-can-i-report-spam-or-non-spam-messages-back-to-microsoft"></a>Hoe kan ik spam- of niet-spamberichten terugmelden bij Microsoft?
 
-Zie [ Berichten en bestanden rapporteren aan Microsoft ](report-junk-email-messages-to-microsoft.md).
+Zie [ Berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
 ### <a name="im-a-domain-administrator-who-doesnt-know-who-all-my-senders-are"></a>Ik ben een domeinbeheerder die niet weet wie al mijn afzenders zijn.
 
