@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Meer informatie over het opzeggen van uw proefversie of betaald abonnement voor Office 365 voor Bedrijven of Microsoft 365.
-ms.openlocfilehash: 4e1491a02d97a3a249e377dbae0efbd4709cdf09
-ms.sourcegitcommit: ab916c216053999c9c4ef4838217e82cd861f23f
+ms.openlocfilehash: 47b4ae3e027a218f7d830bb6af24a39ca33a4abb
+ms.sourcegitcommit: 3d1abd7c06d316d6e6586e4bdcd5703291ac1ab0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42805341"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117942"
 ---
 # <a name="cancel-your-subscription"></a>Uw abonnement opzeggen
 
@@ -94,13 +94,14 @@ Als u een abonnement voor het einde van uw termijn opzegt, wordt het abonnement 
 
 ### <a name="what-to-expect-for-you-and-your-users-if-you-cancel-a-subscription"></a>Wat u en uw gebruikers kunnen verwachten als u een abonnement opzegt
   
-- **Beheerderstoegang** Beheerders kunnen zich nog steeds aanmelden en toegang krijgen tot het beheercentrum en indien nodig andere abonnementen kopen. Als globale beheerder of factureringsbeheerder hebt u 90 dagen de tijd om [het abonnement opnieuw te activeren](reactivate-your-subscription.md) met behoud van alle gegevens. 
-    
+- **Beheerderstoegang** Beheerders kunnen zich nog steeds aanmelden en toegang krijgen tot het beheercentrum en indien nodig andere abonnementen kopen. Als globale beheerder of factureringsbeheerder hebt u 90 dagen de tijd om [het abonnement opnieuw te activeren](reactivate-your-subscription.md) met behoud van alle gegevens.
+
 - **Gebruikerstoegang** Uw gebruikers kunnen geen gebruik maken van services zoals OneDrive voor Bedrijven of toegang krijgen tot klantgegevens zoals e-mail of documenten op teamsites. Office-toepassingen, zoals Word en Excel, worden na een tijdje ingesteld op een alleen-lezenmodus met beperkte functionaliteit en [Product zonder licentie-meldingen](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx) worden weergegeven.
-    
- **Belangrijk:** Als u uw abonnementsgegevens wilt verwijderen voordat de gebruikelijke uitgeschakelde periode voorbij is, kunt u een versnelde opheffing aanvragen. Wanneer u versnelde opheffing aanvraagt, worden uw abonnementsgegevens binnen 3 dagen na de opzegging verwijderd. Als u versnelde deprovisioning wilt gebruiken, [belt u ondersteuning](../../admin/contact-support-for-business-products.md).
-  
+
 Zie [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement afloopt?](what-if-my-subscription-expires.md)
+
+> [!IMPORTANT]
+> Als u wilt dat uw abonnementsgegevens worden verwijderd voordat de typische uitgeschakelde periode voorbij is, u [uw account sluiten.](../close-your-account.md)
 
 ## <a name="other-steps-you-might-have-to-take"></a>Andere stappen die u mogelijk moet nemen
 
