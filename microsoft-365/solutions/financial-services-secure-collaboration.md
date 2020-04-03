@@ -12,12 +12,12 @@ ms.collection:
 ms.service: O365-seccomp
 localization_priority: Priority
 description: Ontdek hoe u financiële services met Microsoft 365 kunt overzetten naar een modern samenwerkingsplatform, waarbij gegevens en systemen beveiligd blijven conform de regelgeving
-ms.openlocfilehash: 41417013e3d199e4fb1d4f8ac4004cd837cf66ed
-ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
+ms.openlocfilehash: 4dc2c25001bb817dcf31927d2c15b1246cc52901
+ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 03/26/2020
-ms.locfileid: "42959419"
+ms.locfileid: "42978276"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor Amerikaanse banken en kapitaalmarkten
 
@@ -64,7 +64,7 @@ Een veelvoorkomend scenario waarbij Teams financiële services ondersteunt, is b
 
 Teams biedt een samenwerkingsruimte waarin gevoelige klantgegevens veilig kunnen worden opgeslagen en teamleden gevoelige onderwerpen kunnen bespreken. Meerdere leden van het team kunnen één document tegelijk bewerken of hieraan samenwerken. De eigenaar van het programma of de coördinator kan worden geconfigureerd als de teameigenaar en kan vervolgens leden toevoegen en verwijderen.
 
-Een ander algemeen scenario is het gebruik van Teams als 'virtuele gegevensruimte' om veilig samen te werken en documenten op te slaan en te beheren. Teamleden en syndicaten binnen investeringsbankieren, vermogensbeheer of private-equityfirma's kunnen veilig samenwerken aan een deal of investering. Multifunctionele teams zijn vaak betrokken bij het plannen en uitvoeren van dergelijke deals en de mogelijkheid om veilig gegevens te delen en gesprekken te voeren, is een kernvereiste. Het delen van gerelateerde documenten met externe investeerders is ook een essentiële vereiste. Teams bieden een veilige en volledig controleerbare locatie voor het centraal opslaan, beschermen en delen van investeringsgegevens.
+Een ander algemeen scenario is het gebruik van Teams als 'virtuele gegevensruimte' om veilig samen te werken, waaronder het opslaan en beheren van documenten. Teamleden en syndicaten binnen investeringsbankieren, vermogensbeheer of private-equityfirma's kunnen veilig samenwerken aan een deal of investering. Multifunctionele teams zijn vaak betrokken bij het plannen en uitvoeren van dergelijke deals en de mogelijkheid om veilig gegevens te delen en gesprekken te voeren, is een kernvereiste. Het delen van gerelateerde documenten met externe investeerders is ook een essentiële vereiste. Teams bieden een veilige en volledig controleerbare locatie voor het centraal opslaan, beschermen en delen van investeringsgegevens.
 
 :::image type="content" source="../media/m365cO19-ent-dell-latitude13-5951.jpg" alt-text="Een groep kantoormedewerkers in een vergadering bespreekt afbeeldingen op een groot scherm.":::
  
