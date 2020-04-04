@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Doorloop het proces van het migreren van versies van Microsoft Office, Office-servers en Windows naar Microsoft 365 Enterprise binnen uw organisatie.
-ms.openlocfilehash: 7506d374391e05202be685d8ebfe8a04e8d62761
-ms.sourcegitcommit: 144c0f3c2c6112bffc5a9b04392a38123a979ebc
+ms.openlocfilehash: 76396ea3eb4622bb27455938f5c645dd1240003a
+ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053081"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113494"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Migratie naar Microsoft 365 Enterprise
 
@@ -171,7 +171,7 @@ Raadpleeg de volgende Engelstalige informatiebronnen om te lezen hoe IT-speciali
 
 ## <a name="transition-your-entire-organization"></a>Uw hele organisatie overzetten
 
-Als u een beter beeld wilt krijgen van de manier waarop u uw hele organisatie kunt overzetten naar de producten en services in Microsoft 365 Enterprise, downloadt u de [transitieposter](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
+Voor een beter beeld over het migreren naar producten en services in Microsoft 365 Enterprise voor uw gehele organisatie, zie de [overgangsposter](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
 
 [![Afbeelding van de poster Overgang naar Microsoft 365](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
