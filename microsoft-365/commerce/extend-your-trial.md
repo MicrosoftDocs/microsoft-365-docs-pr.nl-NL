@@ -21,21 +21,18 @@ search.appverid:
 - BEA160
 ms.assetid: 75533195-f1f6-4c2c-8ceb-0b5597790d7b
 description: Meer informatie over hoe u uw proefabonnement met nog eens 30 dagen verlengen.
-ms.openlocfilehash: abc941f771731274d7322a816e397d9c10a29d5d
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f3e4241156d312d5dc236689344ad29ce1e8ee4d
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42809265"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142607"
 ---
 # <a name="extend-your-trial-for-office-365-for-business"></a>Uw proefabonnement voor Office 365 voor Bedrijven verlengen
 
 Hebt u meer tijd nodig om de functies van Office 365 voor Bedrijven uit te proberen voordat u tot aankoop overgaat? Als uw proefabonnement binnen vijftien dagen afloopt en het proefabonnement voor die datum nog niet is verlengd, kunt u het proefabonnement met dertig dagen verlengen. Dit is slechts één keer mogelijk.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
 
@@ -47,9 +44,7 @@ Hebt u meer tijd nodig om de functies van Office 365 voor Bedrijven uit te probe
 
 ::: moniker range="o365-germany"
 
-
 1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
-
 
 2. Selecteer **op** de pagina Abonnementen het proefabonnement dat u wilt verlengen en selecteer vervolgens onder de vervaldatum **De optie Proef verlengen.**
 
@@ -66,6 +61,5 @@ Hebt u meer tijd nodig om de functies van Office 365 voor Bedrijven uit te probe
 3. Voltooi de stappen in de wizard.
 
 ::: moniker-end
-
 
 Zie [Uw proefversie van Office 365 voor Bedrijven kopen](buy-a-subscription-from-your-free-trial.md)wanneer u klaar bent om te kopen.

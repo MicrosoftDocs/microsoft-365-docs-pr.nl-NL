@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: Meer informatie over domeinen in Office 365 vindt u antwoorden op uw vragen in veelgestelde vragen.
 ms.custom: okr_smb
-ms.openlocfilehash: f3c72f1ce772e3021d79aa4568dbfdb700400803
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 3e1d5dce6de41e28ad4c04104cf0212c2b657615
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42809280"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142501"
 ---
 # <a name="domains-faq"></a>Veelgestelde vragen over domeinen
 
@@ -107,7 +107,7 @@ Houd er rekening mee dat een *Whois-query* een door Office 365 gekochte domeinre
   
 Volg de stappen hieronder om de code op te halen op Office 365. Ga vervolgens naar de website van de andere domeinregistrar om het overzetten van uw domeinnaam naar die registrar in te stellen.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
     Als u Office 365 Germany gebruikt, gaat u naar <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">deze pagina Domeinen.</a> 
     
@@ -137,7 +137,7 @@ Volg de stappen hieronder om de code op te halen op Office 365. Ga vervolgens na
     
 3. Volg een koppeling om naar de wizard domeinensetup te gaan:
     
-4. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+4. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
     Als u Office 365 Germany gebruikt, gaat u naar <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">deze pagina Domeinen.</a> 
     
@@ -154,7 +154,7 @@ Volg de stappen hieronder om de code op te halen op Office 365. Ga vervolgens na
 
 ### <a name="change-dns-management-to-office-365"></a>DNS-beheer overdragen aan Office 365
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
     Als u Office 365 Germany gebruikt, gaat u naar <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">deze pagina Domeinen.</a> 
     
@@ -222,7 +222,7 @@ Providers die ondersteuning bieden voor alle vereiste DNS-records:
 
 U moet minimaal één aangepast domein aan Office 365 hebben toegevoegd voordat u een standaarddomein kunt kiezen.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
     Als u Office 365 Germany gebruikt, gaat u naar <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">deze pagina Domeinen.</a> 
     
@@ -230,7 +230,7 @@ U moet minimaal één aangepast domein aan Office 365 hebben toegevoegd voordat 
     
 2. Selecteer **op** de pagina Domeinen het domein dat u wilt instellen als standaardvoor nieuwe e-mailadressen. 
     
-3. Selecteer **Instellen als standaard**.
+3. Selecteer **Als standaard instellen**.
     
 ::: moniker range="o365-worldwide"
 
@@ -285,9 +285,9 @@ Als u meerdere domeinen aan Office 365 toevoegt, kunt u alle services (zoals e-m
 
 ## <a name="why-do-i-have-an-onmicrosoftcom-domain"></a>Waarom heb ik een domein met de naam onmicrosoft.com?
 
-Office 365 maakt een domein voor u, zoals *contoso.onmicrosoft.com*wanneer u zich aanmeldt bij de service. De gebruikersnaam die u maakt wanneer u zich aanmeldt, bevat het domein, zoals *alan@contoso.onmicrosoft.com.* 
+Office 365 maakt een domein voor u, zoals _contoso.onmicrosoft.com_wanneer u zich aanmeldt bij de service. De gebruikersnaam die u maakt wanneer u zich aanmeldt, bevat het domein, zoals _Alan\@contoso.onmicrosoft.com_. 
   
- **Als u uw e-mail wilt laten lijken op *alan\@contoso.com:*** [koop het domein](../get-help-with-domains/buy-a-domain-name.md) of volg gewoon de stappen in Uw gebruikers en domein toevoegen aan Office [365](add-domain.md) als u het al bezit. 
+ __Als u uw e-mail wilt laten lijken op _alan\@contoso.com:___ [koop het domein](../get-help-with-domains/buy-a-domain-name.md) of volg gewoon de stappen in Uw gebruikers en domein toevoegen aan Office [365](add-domain.md) als u het al bezit. 
   
 - **U kunt de naam van het onmicrosoft-domein niet meer wijzigen nadat u zich hebt geregistreerd.** Als u tijdens het registreren bijvoorbeeld in eerste instantie fourthcoffee.onmicrosoft.com hebt gekozen, kunt u deze naam niet meer wijzigen in fabrikam.onmicrosoft.com. Als u een ander onmicrosoft.com-domein wilt gebruiken, moet u een nieuw abonnement nemen op Office 365. 
     
@@ -300,11 +300,12 @@ U kunt het onmicrosoft.com-domein blijven gebruiken, ook nadat u uw domein hebt 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
+
 ## <a name="why-do-i-have-an-onmicrosoftde-domain"></a>Waarom heb ik een domein 'onmicrosoft.de'?
 
-Office 365 maakt een domein voor u, zoals *contoso.onmicrosoft.de*wanneer u zich aanmeldt bij de service. De gebruikersnaam die u maakt wanneer u zich aanmeldt, bevat het domein, zoals *alan@contoso.onmicrosoft.de.* 
+Office 365 maakt een domein voor u, zoals *contoso.onmicrosoft.de*wanneer u zich aanmeldt bij de service. De gebruikersnaam die u maakt wanneer u zich aanmeldt, bevat het domein, zoals 'alan@contoso.onmicrosoft.de'. 
   
- **Als u uw e-mail wilt laten lijken *op alan@contoso.de:*** [koop het domein](../get-help-with-domains/buy-a-domain-name.md) of volg gewoon de stappen in Uw gebruikers en domein toevoegen aan Office [365](add-domain.md) als u het al bezit. 
+Als u uw e-mail wilt laten lijken op 'alan@contoso.de': [koop het domein](../get-help-with-domains/buy-a-domain-name.md) of volg gewoon de stappen in Uw gebruikers en domein toevoegen aan Office [365](add-domain.md) als u de e-mail al bezit 
   
 - **U kunt de naam van het onmicrosoft-domein niet meer wijzigen nadat u zich hebt geregistreerd.** Als het oorspronkelijke domein dat u hebt gekozen bijvoorbeeld fourthcoffee.onmicrosoft.de is, u het niet wijzigen om fabrikam.onmicrosoft.de te zijn. Als u een ander onmicrosoft.de-domein wilt gebruiken, moet u een nieuw abonnement starten met Office 365. 
     
@@ -426,7 +427,7 @@ Dat kan, maar er zijn beperkingen:
         
     5. Alle e-mail die naar usera@yourcompany.com en userb@yourcompany.com wordt verzonden, is beschikbaar in Office 365.
     
-    6. Notities:
+    6. Opmerkingen:
         
         - Neem contact op met uw huidige e-mailprovider voor de exacte stappen voor het instellen van doorstuur.
             
@@ -444,7 +445,7 @@ Dat kan, maar er zijn beperkingen:
         
     4. Test e-mail naar iemand die zich op het andere e-mailsysteem bevindt. Stuur bijvoorbeeld een e-mail naar gebruiker C. Deze e-mail moet worden bezorgd in het postvak van gebruiker C op uw oorspronkelijke e-mailserver.
         
-    5. Controleer vanaf een extern account of van het e-mailaccount van een werknemer op het andere e-mailsysteem of het doorsturen correct is ingesteld op het andere e-mailsysteem. Stuur bijvoorbeeld vanuit het origninal-serveraccount van gebruiker C of een Hotmail-account gebruiker A een e-mail en controleer of deze in het Office 365-postvak van gebruiker A wordt aangekomen.
+    5. Controleer vanaf een extern account of van het e-mailaccount van een werknemer op het andere e-mailsysteem of het doorsturen correct is ingesteld op het andere e-mailsysteem. Stuur bijvoorbeeld vanuit het oorspronkelijke serveraccount van gebruiker C of een Hotmail-account gebruiker A een e-mail en controleer of deze in het Office 365-postvak van gebruiker A wordt aangeleverd.
         
 9. Postvakinhoud verplaatsen
     

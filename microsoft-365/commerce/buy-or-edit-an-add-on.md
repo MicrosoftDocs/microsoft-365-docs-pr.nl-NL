@@ -22,24 +22,16 @@ search.appverid:
 ms.assetid: 4e7b57d6-b93b-457d-aecd-0ea58bff07a6
 description: Meer informatie over het aanschaffen van een invoegtoepassing om extra functionaliteit toe te voegen aan uw Abonnement op Office 365 voor Bedrijven. U ook een add-on bijwerken en verwijderen.
 ms.custom: okr_SMB
-ms.openlocfilehash: 78113fcfdfce03ae09318e062847cedd1938760a
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 3bd7648d2db9af262df6540c8133871d3736790e
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42812486"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142273"
 ---
 # <a name="buy-or-edit-an-add-on-for-office-365-for-business"></a>Een invoegtoepassing voor Office 365 voor Bedrijven kopen of bewerken
 
 Een aantal abonnementen voor Office 365 voor Bedrijven bevatten invoegtoepassingen die u voor het abonnement kunt kopen. Met een invoegtoepassing beschikt u over aanvullende functionaliteit voor het abonnement waarvoor u het koopt.
-
-
-::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
-
-::: moniker-end 
 
 ## <a name="buy-an-add-on"></a>Een invoegtoepassing kopen
 
@@ -105,14 +97,13 @@ Een aantal abonnementen voor Office 365 voor Bedrijven bevatten invoegtoepassing
 
 ::: moniker-end
 
-
 ## <a name="update-an-add-on"></a>Een invoegtoepassing bijwerken
 
-Welke stappen u volgt om een invoegtoepassingen bij te werken hangt af van de invoegtoepassing die u gebruikt: een traditionele invoegtoepassing of een zelfstandige invoegtoepassing. 
+Welke stappen u volgt om een invoegtoepassingen bij te werken hangt af van de invoegtoepassing die u gebruikt: een traditionele invoegtoepassing of een zelfstandige invoegtoepassing.
 
 *Traditionele add-ons* zijn gekoppeld aan een specifiek abonnement. Als u het abonnement opzegt, wordt ook de bijbehorende add-on geannuleerd.
   
-*Zelfstandige add-ons* zijn niet gekoppeld aan een specifiek abonnement. Zelfstandige invoegtoepassingen worden weergegeven als een afzonderlijk abonnement op de pagina **Abonnementen** (of op de pagina **Producten & services** in het nieuwe beheercentrum) en hebben hun eigen vervaldatum. U beheert een zelfstandige invoegtoepassing op dezelfde wijze als u andere abonnementen beheert.
+*Zelfstandige add-ons* zijn niet gekoppeld aan een specifiek abonnement. Zelfstandige add-ons worden weergegeven als een apart abonnement op de pagina **Producten & services** en hebben hun eigen vervaldatum. U beheert een zelfstandige invoegtoepassing op dezelfde wijze als u andere abonnementen beheert.
   
 ### <a name="update-a-traditional-add-on"></a>Een traditionele invoegtoepassing bijwerken
 
@@ -129,7 +120,6 @@ Welke stappen u volgt om een invoegtoepassingen bij te werken hangt af van de in
 5. Voer de gewenste hoeveelheidswijziging in voor het abonnement en selecteer **Wijziging verzenden**.
 
 ::: moniker-end
-
 
 ::: moniker range="o365-germany"
 
@@ -174,7 +164,6 @@ Welke stappen u volgt om een invoegtoepassingen bij te werken hangt af van de in
     > U kunt het aantal gebruikerslicenties ook wijzigen met de toetsen pijl-omhoog en pijl-omlaag of gewoon het aantal in het vak invoeren.
   
     ![Vak met totaal aantal licenties en de knop Verzenden in het dialoogvenster voor het toevoegen of verwijderen van licenties.](../media/dfee31e0-092d-4565-9bf5-ff3909b771e1.png)
-
 
 ::: moniker-end
 
@@ -220,7 +209,6 @@ Welke stappen u volgt om een invoegtoepassingen bij te werken hangt af van de in
 
 ::: moniker-end
 
-
 ## <a name="remove-an-add-on"></a>Een invoegtoepassing verwijderen
 
 U annuleert een zelfstandige invoegtoepassing op dezelfde wijze als u [abonnementen annuleert](subscriptions/cancel-your-subscription.md). Ook kunt u **terugkerende facturering** voor een zelfstandige invoegtoepassing uitschakelen met behulp van de bovenstaande stappen. U kunt echter een traditionele invoegtoepassing niet verwijderen nadat u deze hebt aangeschaft. Als u een traditionele add-on moet verwijderen, neem dan [contact op met de ondersteuning voor hulp.](../admin/contact-support-for-business-products.md)
@@ -231,8 +219,6 @@ In de volgende tabel worden invoegtoepassingen weergegeven die beschikbaar zijn 
   
 Zie [Invoeglicenties voor Skype voor Bedrijven en Microsoft Teams voor](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)informatie over invoegtoepassingen voor Skype voor Bedrijven .
   
-****
-
 |**Invoegtoepassing**|**Beschikbaar bij deze abonnementen**|
 |:-----|:-----|
 |Klanten-lockbox  <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |

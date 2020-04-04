@@ -28,60 +28,59 @@ search.appverid:
 - GSP150
 ms.assetid: 96ea3533-de64-4b01-839a-c560875a662c
 description: Lees of u bestandsopslag toevoegen en verkleinen in uw Office 365-abonnement. Met extra bestandsopslag u meer inhoud opslaan in SharePoint Online en OneDrive.
-ms.openlocfilehash: 64e98ff830b592b12e25620e4c2e89e09a161a3e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 313ca90c729a89acf00c58e49a7e887313261e66
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42809581"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142333"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Opslagruimte voor uw abonnement toevoegen
 
-Als de opslagruimte voor uw SharePoint Online-siteverzamelingen opraken, u opslag aan uw abonnement toevoegen als uw abonnement in aanmerking komt. Als u de **Extra bestandsopslag van Office 365** niet ziet in de lijst met beschikbare invoegtoepassingen, betekent dit dat uw abonnement niet in aanmerking komt. Zie Komt mijn abonnement in aanmerking voor meer [informatie?](#is-my-plan-eligible-for-office-365-extra-file-storage)
+Als de opslagruimte voor uw SharePoint Online-siteverzamelingen begint vol te raken, kunt u opslagruimte aan uw abonnement toevoegen als uw abonnement daarvoor in aanmerking komt.  Als u de **Extra bestandsopslag van Office 365** niet ziet in de lijst met beschikbare invoegtoepassingen, betekent dit dat uw abonnement niet in aanmerking komt. Zie Komt mijn abonnement in aanmerking voor meer [informatie?](#is-my-plan-eligible-for-office-365-extra-file-storage)
 
-## <a name="view-available-storage"></a>Beschikbare opslag weergeven
+## <a name="view-available-storage"></a>Beschikbare opslagruimte weergeven
 
 ::: moniker range="o365-worldwide"
 
 1. Meld u https://admin.microsoft.com aan als globale of SharePoint-beheerder. (Als u een bericht ziet dat u geen toestemming hebt om toegang te krijgen tot de pagina, hebt u geen machtigingen voor Office 365-beheerders in uw organisatie.)
-    
-2. Selecteer **SharePoint**in het linkerdeelvenster onder **Beheercentra**. Als het klassieke SharePoint-beheercentrum wordt weergegeven, selecteert u **Nu** openen boven aan de pagina om het nieuwe SharePoint-beheercentrum te openen. 
-    
+
+2. Selecteer **SharePoint**in het linkerdeelvenster onder **Beheercentra**. Als het klassieke SharePoint-beheercentrum wordt weergegeven, selecteert u **Nu** openen boven aan de pagina om het nieuwe SharePoint-beheercentrum te openen.
+
 3. Selecteer **Actieve sites**in het linkerdeelvenster van het nieuwe SharePoint-beheercentrum .
 
-4. Zie rechtsboven op de pagina de hoeveelheid opslagruimte die op alle sites wordt gebruikt en de totale opslagruimte voor uw abonnement. (Als uw organisatie Multi-Geo heeft geconfigureerd in Office 365, wordt op de balk ook de hoeveelheid opslagruimte weergegeven die op alle geolocaties wordt gebruikt.) 
+4. Zie rechtsboven op de pagina de hoeveelheid opslagruimte die op alle sites wordt gebruikt en de totale opslagruimte voor uw abonnement. (Als uw organisatie Multi-Geo heeft geconfigureerd in Office 365, wordt op de balk ook de hoeveelheid opslagruimte weergegeven die op alle geolocaties wordt gebruikt.)
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. Meld u https://portal.office.de aan als globale of SharePoint-beheerder en selecteer vervolgens de tegel Beheerder om het beheercentrum te openen. (Als u een bericht ziet dat u geen toestemming hebt om toegang te krijgen tot de pagina, hebt u geen machtigingen voor Office 365-beheerders in uw organisatie.)
-    
-2. Selecteer **SharePoint**in het linkerdeelvenster onder **Beheercentra**. Als het klassieke SharePoint-beheercentrum wordt weergegeven, selecteert u **Nu** openen boven aan de pagina om het nieuwe SharePoint-beheercentrum te openen. 
-    
+
+2. Selecteer **SharePoint**in het linkerdeelvenster onder **Beheercentra**. Als het klassieke SharePoint-beheercentrum wordt weergegeven, selecteert u **Nu** openen boven aan de pagina om het nieuwe SharePoint-beheercentrum te openen.
+
 3. Selecteer **Actieve sites**in het linkerdeelvenster van het nieuwe SharePoint-beheercentrum .
 
-4. Zie rechtsboven op de pagina de hoeveelheid opslagruimte die op alle sites wordt gebruikt en de totale opslagruimte voor uw abonnement. 
+4. Zie rechtsboven op de pagina de hoeveelheid opslagruimte die op alle sites wordt gebruikt en de totale opslagruimte voor uw abonnement.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
 1. Meld u https://login.partner.microsoftonline.cn/ aan als globale of SharePoint-beheerder en selecteer vervolgens de tegel Beheerder om het beheercentrum te openen. (Als u een bericht ziet dat u geen toestemming hebt om toegang te krijgen tot de pagina, hebt u geen machtigingen voor Office 365-beheerders in uw organisatie.)
-     
-2. Selecteer **SharePoint**in het linkerdeelvenster onder **Beheercentra**. Als het klassieke SharePoint-beheercentrum wordt weergegeven, selecteert u **Nu** openen boven aan de pagina om het nieuwe SharePoint-beheercentrum te openen. 
-    
+
+2. Selecteer **SharePoint**in het linkerdeelvenster onder **Beheercentra**. Als het klassieke SharePoint-beheercentrum wordt weergegeven, selecteert u **Nu** openen boven aan de pagina om het nieuwe SharePoint-beheercentrum te openen.
+
 3. Selecteer **Actieve sites**in het linkerdeelvenster van het nieuwe SharePoint-beheercentrum .
 
 4. Zie rechtsboven op de pagina de hoeveelheid opslagruimte die op alle sites wordt gebruikt en de totale opslagruimte voor uw abonnement.  
 
 ::: moniker-end
 
-
 ![Opslagbalk op de pagina Actieve sites](https://docs.microsoft.com/sharepoint/sharepointonline/media/active-sites-storage-bar.png)
 
 > [!NOTE]
-> De gebruikte opslag bevat geen wijzigingen die in de afgelopen 24-48 uur zijn aangebracht. 
+> De gebruikte opslag bevat geen wijzigingen die in de afgelopen 24-48 uur zijn aangebracht.
 
 Nadat u hebt vastgesteld hoeveel opslagruimte u gebruikt, kunt u opslagruimte voor uw abonnement toevoegen of verwijderen. Volg de stappen in dit artikel als u wilt weten wat het kost om opslagruimte toe te voegen, en bekijk de prijsinformatie voordat u iets koopt.
   
@@ -92,9 +91,6 @@ Zie [Opslaglimieten voor siteverzamelingen beheren](https://docs.microsoft.com/s
 Als u nog geen extra opslagruimte voor uw abonnement hebt gekocht, u dat doen.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
 1. Ga in het beheercentrum naar de pagina Services <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">voor factureringsaankopen.</a> **Billing** \>
 
@@ -162,15 +158,11 @@ Als u nog geen extra opslagruimte voor uw abonnement hebt gekocht, u dat doen.
 
 ::: moniker-end
 
-
-## <a name="increase-or-decrease-storage"></a>Opslag vergroten of verkleinen
+## <a name="increase-or-decrease-storage"></a>Opslagruimte vergroten of verkleinen
 
 Als u al extra bestandsopslag hebt aangeschaft via de add-on **Extra bestandsopslag van Office 365 Extra Bestandsopslag,** u deze stappen gebruiken om de extra opslagruimte voor uw abonnement te vergroten of te verkleinen. U de opslag terugbrengen tot 1 gigabyte. Als u alle extra opslagruimte wilt verwijderen, neemt u [contact op met ondersteuning](../admin/contact-support-for-business-products.md).
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
 
@@ -185,7 +177,6 @@ Als u al extra bestandsopslag hebt aangeschaft via de add-on **Extra bestandsops
 ::: moniker range="o365-germany"
 
 1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
-
 
 2. Selecteer **op** de pagina Abonnementen de optie **Invoegtoepassingen**.
 
@@ -228,8 +219,6 @@ Als u al extra bestandsopslag hebt aangeschaft via de add-on **Extra bestandsops
 5. Selecteer **Sluiten**.
 
 ::: moniker-end
-
-
 
 ## <a name="is-my-plan-eligible-for-office-365-extra-file-storage"></a>Komt mijn abonnement in aanmerking voor Office 365 Extra Bestandsopslag?
 

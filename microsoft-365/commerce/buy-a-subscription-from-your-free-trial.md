@@ -27,12 +27,12 @@ search.appverid:
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
 description: Een abonnement op Office 365 voor Bedrijven aanschaffen. U hetzelfde type abonnement kopen dat u hebt geprobeerd, of een ander abonnement.
-ms.openlocfilehash: faac769a89824964315c84da507adcf18d8cfeac
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 10e3212b739128a9cd2af23f22b644ad4b1df2d9
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42805951"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142285"
 ---
 # <a name="buy-a-subscription-to-office-365-for-business-from-your-free-trial"></a>Een abonnement op Office 365 voor Bedrijven nemen vanuit uw gratis proefabonnement
 
@@ -94,12 +94,9 @@ Dat gaat heel eenvoudig en wanneer u een abonnement koopt dat van hetzelfde type
 
 ## <a name="buy-a-different-plan-than-your-trial"></a>Een ander abonnement kopen dan uw proefabonnement
 
-Als u een ander type abonnement koopt dan uw proefabonnement, moet u uw gebruikerslicenties van uw proefabonnement opnieuw toewijzen aan uw nieuwe abonnement (voordat uw respijtperiode van 90 dagen eindigt nadat uw proefabonnement is verlopen) om uw gegevens, accounts en configuratie.
+Als u een ander type abonnement koopt dan uw proefperiode, moet u uw gebruikerslicenties van uw proefabonnement opnieuw toewijzen aan uw nieuwe abonnement (voordat uw respijtperiode van 90 dagen eindigt nadat uw proefabonnement is verlopen) om uw gegevens, accounts en configuratie te behouden.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
 1. Ga in het beheercentrum naar de pagina Services <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">voor factureringsaankopen.</a> **Billing** \>
 
@@ -139,7 +136,6 @@ Als u een ander type abonnement koopt dan uw proefabonnement, moet u uw gebruike
 
 ::: moniker range="o365-21vianet"
 
-
 1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
 
 2. Selecteer **op** de pagina Abonnement de optie **Abonnementen toevoegen**.
@@ -159,7 +155,6 @@ Als u een ander type abonnement koopt dan uw proefabonnement, moet u uw gebruike
 8. Selecteer op de bevestigingspagina **Ga naar Beheerstartpagina**.
 
 ::: moniker-end
-
 
 ## <a name="related-articles"></a>Verwante artikelen
 

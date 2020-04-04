@@ -15,12 +15,12 @@ ms.assetid: b68df621-0a5f-4824-8abc-41e0c4fd1398
 ms.collection:
 - M365-security-compliance
 description: Beheerder kan in Exchange Online en Exchange Online Protection leren hoe u ondersteuning configureert voor anonieme binnenkomende e-mail van IPv6-bronnen.
-ms.openlocfilehash: 67e839249d41381be22bbccf6b09d1616c387c66
-ms.sourcegitcommit: 748bc3484b7ccbd65b558f495b6fa42196c3c571
+ms.openlocfilehash: 414c10f3387138ed7e62f2de4e8549e45d128d2e
+ms.sourcegitcommit: 256184cf731c1851b04a07dd7d59ecf020d02635
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43083639"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131517"
 ---
 # <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-office-365"></a>Ondersteuning toevoegen voor anonieme binnenkomende e-mail via IPv6 in Office 365
 
@@ -30,15 +30,7 @@ Office 365-organisaties met Exchange Online-postvakken en zelfstandige Exchange 
 
 - De afzender moet slagen voor spf-verificatie (gedefinieerd in [RFC 7208)](https://tools.ietf.org/html/rfc7208)of [DKIM-verificatie](https://dkim.org/) (gedefinieerd in [RFC 6376).](https://www.rfc-editor.org/rfc/rfc6376.txt)
 
-Voordat uw organisatie anonieme binnenkomende e-mail via IPv6 kan ontvangen, moet een beheerder contact opnemen met microsoft-ondersteuning en erom vragen:
-
-1. Open het Microsoft 365-beheercentrum bij <https://admin.microsoft.com/adminportal/home> en klik op **Help** (?).
-
-2. Typ in de **help nodig?** flyout die wordt weergegeven, typ iets beschrijvends in het zoekvak (bijvoorbeeld 'vraag anonieme inkomende IPv6-e-mail' aan en druk op ENTER.
-
-3. Klik onder aan de pagina op **Ondersteuning voor contact opnemen**.
-
-4. Vul op de **ondersteuningspagina Van contact** die wordt weergegeven de gegevens in en verifieer deze (scroll naar beneden als dat nodig is) en klik vervolgens op **Contact met mij**opnemen.
+Voordat uw organisatie anonieme binnenkomende e-mail via IPv6 kan ontvangen, moet een beheerder contact opnemen met microsoft-ondersteuning en erom vragen. Zie [Contact opnemen met ondersteuning voor zakelijke producten - Help voor beheerders](../../admin/contact-support-for-business-products.md).
 
 Nadat anonieme inkomende IPv6-berichtondersteuning is ingeschakeld in uw organisatie, wordt het bericht door de normale berichtfiltering uitgevoerd die door de service wordt geleverd.
 

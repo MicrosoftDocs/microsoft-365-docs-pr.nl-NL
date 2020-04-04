@@ -17,12 +17,12 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het vinden en gebruiken van e-mailbeveiligingsrapporten voor uw organisatie. E-mailbeveiligingsrapporten zijn &amp; beschikbaar in het Security Compliance Center.
-ms.openlocfilehash: fba10207fe0b7a8e02aa96f9c8513e1e5b2cd61f
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b6c4e737d0bcc9f7373a669e8dcd20661733b294
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42806123"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142706"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>E-mailbeveiligingsrapporten weergeven in het Security &amp; Compliance Center
 
@@ -31,9 +31,10 @@ Er zijn verschillende rapporten beschikbaar in het [Security &amp; Compliance Ce
 ![Dashboard waar u ziet hoe Advanced Threat Protection werkt](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
 Uw e-mailbeveiligingsrapporten bevatten het volgende:
-- [Gecompromitteerde gebruikers melden (**NIEUW!**)](#compromised-users-report-new)
+- [URL Threat Protection report](#url-threat-protection-report-new) **(NIEUW!**)
+- [Rapport Gecompromitteerde gebruikers](#compromised-users-report)
 - [Versleutelingsrapport](#encryption-report)
-- [Rapport statusstatus bedreigingsbescherming](#threat-protection-status-report) 
+- [Statusrapport risicobeveiliging](#threat-protection-status-report) 
 - [Malware detecties rapport](#malware-detections-report) 
 - [Rapport Top malware](#top-malware-report)
 - [Rapport Topafzenders en geadresseerden](#top-senders-and-recipients-report)
@@ -43,9 +44,30 @@ Uw e-mailbeveiligingsrapporten bevatten het volgende:
 - [Rapport met door de gebruiker gerapporteerde berichten](#user-reported-messages-report)
 
 
-## <a name="compromised-users-report-new"></a>Gecompromitteerde gebruikers melden (**NIEUW!**) 
+## <a name="url-threat-protection-report-new"></a>URL Threat Protection report **(NIEUW!**)
 
-Dit rapport, beschikbaar voor iedereen met Exchange Online Protection, toont het aantal gebruikersaccounts gemarkeerd als verdachte of beperkte gebruikers, gegevens die bijzonder nuttig zijn als accounts een van de staten invoeren die aangeven dat het gebruikersaccount problematisch kan zijn, of zelfs Gecompromitteerd. Bij veelvuldig gebruik kan het rapport Gecompromitteerde gebruiker pieken en zelfs trends herkennen in accounts die zijn gemarkeerd in verdachte of beperkte toestanden, waardoor er een probleem kan zijn met de beveiliging en het welzijn van uw tenant.
+Het URL Threat Protection-rapport is beschikbaar voor iedereen met:
+
+- Een invoegtoepassing Exchange Online Protection *en* geavanceerde bedreigingsbeveiliging (abonnement 1 *of* plan 2) 
+- Een Microsoft 365 E5-abonnement
+
+Dit is een 'click-centric' rapport dat twee geaggregeerde weergaven heeft.
+ 
+1. De eerste weergave is door *URL klik-bescherming actie*, die is gericht op het weergeven van het aantal URL-klikken door gebruikers binnen de tenant, en het resultaat van de klik. Een klik hier geeft aan dat de gebruiker heeft geklikt via de blokpagina naar de kwaadaardige website (dit kan worden uitgeschakeld door de beheerder binnen een Safe Links beleid).
+ 
+2. De tweede weergave is *URL-klik per toepassing,* waarbij het aantal URL's wordt weergegeven dat u vandaag in verschillende toepassingen klikt die veilige koppelingen ondersteunen, zoals in een e-mailclient of in Microsoft Word. Gegevens in beide geaggregeerde weergaven worden eens in de 4 uur vernieuwd.
+
+De detailstabel van het URL Threat Protection-rapport biedt een bijna realtime weergave van alle klikken die binnen de tenant plaatsvinden, en bevat onderzoeksinformatie zoals *gebruikersnaam,* *URL,* de *netwerkbericht-id* (als de URL is aangeklikt vanuit een e-mail) en andere waardevolle informatie die nuttig is voor onderzoeken en analyses.  
+
+Standaard worden in het rapport alleen gegevens weergegeven over klikken van URL's die zijn geblokkeerd door Veilige koppelingen, maar het is ook mogelijk om informatie voor alle URL-klikken te bekijken door het selectievakje *Toegestane URL's* in de filters te selecteren.  
+
+In dit rapport worden geen gegevens van klikken van gebruikers waarop het toegepaste beleid Voor veilige koppelingen is toegepast, is de optie *Klikken van gebruikers niet bijgehouden.*
+
+![Afbeelding van het URL Threat Protection Report in actie.](../../media/tp-URLThreatProRpt1.PNG)
+
+## <a name="compromised-users-report"></a>Rapport Gecompromitteerde gebruikers 
+
+In dit rapport, dat beschikbaar is voor iedereen met Exchange Online Protection, wordt het aantal gebruikersaccounts weergegeven dat is gemarkeerd als verdachte of beperkte gebruikers, gegevens die bijzonder nuttig zijn omdat accounts een van de statussen invoeren die aangeven dat het gebruikersaccount problematisch kan zijn of zelfs gecompromitteerd. Bij veelvuldig gebruik kan het rapport Gecompromitteerde gebruiker pieken en zelfs trends herkennen in accounts die zijn gemarkeerd in verdachte of beperkte toestanden, waardoor er een probleem kan zijn met de beveiliging en het welzijn van uw tenant.
 
 ![Het rapport van gecompromitteerde gebruikers zoals het wordt weergegeven in Office 365.](../../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
 
@@ -73,7 +95,7 @@ Met de flexibiliteit van het nieuwe versleutelingsrapport u trends bekijken en p
 
 Met dit rapport kan het beveiligings- en complianceteam van uw organisatie controleren hoe berichtversleuteling wordt gebruikt en of er verdere acties nodig zijn. Zie [E-mailversleuteling in Office 365](../../compliance/email-encryption.md)voor meer informatie over versleuteling.
 
-## <a name="threat-protection-status-report"></a>Rapport statusstatus bedreigingsbescherming
+## <a name="threat-protection-status-report"></a>Statusrapport risicobeveiliging
 
 Het rapport **Status van bedreigingsbeveiliging** is een slim rapport met schadelijke e-mail die is gedetecteerd en geblokkeerd door Exchange Online Protection. Dit rapport is handig voor het bekijken van e-mail die is geïdentificeerd als malware of een phishing-poging in de loop van de tijd (tot 90 dagen) en stelt beveiligingsbeheerders in staat trends te identificeren of te bepalen of het beleid moet worden aangepast.
 
@@ -82,7 +104,7 @@ Het rapport **Status van bedreigingsbeveiliging** is een slim rapport met schade
   
 Als u dit rapport wilt bekijken, gaat u in het [Security &amp; Compliance Center](https://protection.office.com)naar de **status bedreigingsstatus** **van het** \> **dashboard** \> rapporten .
   
-![Rapport statusstatus bedreigingsbescherming](../../media/0ff86e12-c2b2-4d89-92a5-cefb054dc070.png)
+![Statusrapport risicobeveiliging](../../media/0ff86e12-c2b2-4d89-92a5-cefb054dc070.png)
   
 Wanneer u het rapport Status bedreigingsbeveiliging voor het eerst opent, worden in het rapport standaard gegevens van de afgelopen zeven dagen weergegeven. U echter op **Filters** klikken en het datumbereik wijzigen voor maximaal 90 dagen details. (Als u een proefabonnement gebruikt, bent u mogelijk beperkt tot 30 dagen aan gegevens.)
 
@@ -205,7 +227,7 @@ Ga als volgt te werk om dit rapport in het [Security &amp; Compliance Center te]
 ![Kies in &amp; het Security Compliance \> \> Center de optie Gerapporteerde berichten van het risicobeheer](../../media/e372c57c-1414-4616-957b-bc933b8c8711.png)
   
 > [!IMPORTANT]
-> Als het rapport Met meldingen van door de gebruiker gerapporteerde berichten correct kan werken, **moet controlelogboekregistratie zijn ingeschakeld** voor uw Office 365-omgeving. Dit wordt meestal gedaan door iemand die de rol Controlelogboeken heeft toegewezen in Exchange Online. Zie [Office 365-controlelogboekzoeken in- of uitschakelen](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)voor meer informatie. 
+> Als het rapport Met meldingen van door de gebruiker gerapporteerde berichten correct kan werken, **moet controlelogboekregistratie zijn ingeschakeld** voor uw Office 365-omgeving. Dit wordt meestal gedaan door iemand die de rol Controlelogboeken heeft toegewezen in Exchange Online. Voor meer informatie, zie [Auditlogboeken zoeken in Office 365 in- of uitschakelen](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off). 
   
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>Welke machtigingen zijn nodig om deze rapporten te bekijken?
 
@@ -235,7 +257,7 @@ Als u geen gegevens in uw rapporten ziet, controleert u of uw beleid correct is 
   
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Beveiliging van antispam in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection)
+[Beveiliging tegen spam in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection)
   
 [Rapporten en inzichten in het &amp; Office 365 Security Compliance Center](https://docs.microsoft.com/microsoft-365/security/office-365-security/reports-and-insights-in-security-and-compliance)
   

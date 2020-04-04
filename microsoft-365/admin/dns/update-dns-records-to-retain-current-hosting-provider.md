@@ -19,13 +19,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 2c4cf347-b897-45c1-a71f-210bdc8f1061
-description: Meer informatie over het routeren van verkeer naar een bestaande openbare website die buiten Office 365 wordt gehost, als u Office 365 hebt ingesteld om DNS-records voor uw aangepaste domein te beheren.
-ms.openlocfilehash: b92e778fb2fe0353a0d1d6bf83a4c617ab4541e2
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Als u Office 365 hebt ingesteld om DNS-records voor uw aangepaste domein te beheren, leest u het verkeer naar een bestaande openbare website die buiten Office 365 wordt gehost.
+ms.openlocfilehash: 3e71925f9b50e5520bd383aa5318db513202f6ec
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42806933"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142537"
 ---
 # <a name="update-dns-records-to-keep-your-website-with-your-current-hosting-provider"></a>DNS-records bijwerken als u uw website bij uw huidige hostingprovider wilt houden
 
@@ -34,7 +34,7 @@ ms.locfileid: "42806933"
  **Als uw DNS-records worden beheerd in Office 365**, voert u de volgende stappen uit om verkeer naar een bestaande openbare website buiten Office 365 te routeren nadat u uw domein aan Office 365 hebt toegevoegd: 
   
 ## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a>DNS-records bijwerken in het Microsoft 365-beheercentrum
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Setup-domeinen.</a> **Setup**
 
 2. Op de pagina **Domeinen** selecteert u in de lijst met domeinen het domein dat u voor uw website gebruikt en selecteert u vervolgens **DNS-instellingen** in het deelvenster Beheren. 
     

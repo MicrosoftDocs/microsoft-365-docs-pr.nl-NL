@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: Meer informatie over het bijwerken van uw factuuradressen voor Office 365 voor Bedrijven. U ook het e-mailadres bijwerken dat wordt gebruikt om factureringsmeldingen te ontvangen.
 ms.custom: okr_SMB
-ms.openlocfilehash: aa696be3fd541fb98bc29c65c1285e2b2e967726
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 6b11e38de33bf6d66c5847643790603b9ce7b0af
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42809580"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142309"
 ---
 # <a name="change-your-billing-addresses-for-office-365-for-business"></a>Uw factuuradressen voor Office 365 voor Bedrijven wijzigen
 
@@ -61,9 +61,6 @@ Als u Office 365 gebruikt dat wordt beheerd door 21Vianet in China, raadpleegt u
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
 ::: moniker-end
 
@@ -176,12 +173,24 @@ De factuurmeldingen voor uw organisatie worden standaard verzonden naar het Offi
 ## <a name="change-the-alternate-email-address-for-another-admin"></a>Het alternatieve e-mailadres voor een andere beheerder wijzigen
 
 U kunt ook het alternatieve e-mailadres van andere globale en factureringsbeheerders in uw organisatie wijzigen.
-  
+
+::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Factureringsfactureringsmeldingen.</a> **Billing**
 
-    Als u Office 365 Germany gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Factureringsmeldingen</a>.
+::: moniker-end
 
-    Als u Office 365 gebruikt dat wordt beheerd door 21Vianet, gaat u naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">Factureringsmeldingen.</a>
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Factureringsfactureringsmeldingen.</a> **Billing**
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">Factureringsfactureringsmeldingen.</a> **Billing**
+
+::: moniker-end
 
 2. Selecteer op de pagina **Factureringsmeldingen** de beheerder die u wilt wijzigen.
 
@@ -194,5 +203,3 @@ U kunt ook het alternatieve e-mailadres van andere globale en factureringsbeheer
 [Inzicht in uw factuur](understand-your-invoice2.md)
 
 [Betalen voor uw abonnement](pay-for-your-subscription.md)
-
-[Abonnementen en facturering - Help voor beheerders](../index.yml)
