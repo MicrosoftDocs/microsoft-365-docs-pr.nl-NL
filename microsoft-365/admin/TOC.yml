@@ -1,5 +1,5 @@
 - name: Startpagina beheerder
-  href: admin-home.yml
+  href: admin-home.md
   items:
     - name: Overzicht
       items:
@@ -86,8 +86,8 @@
     - name: E-mail
       items:
         - name: E-mail in Office 365
-          href: email/email.yml
-        - name: Gevbruikersinstellingen voor e-mailberichten van Office 365
+          href: email/email.md
+        - name: Gebruikersinstellingen voor e-mailberichten van Office 365
           href: email/office-365-user-email-settings.md
         - name: Een ander e-mailalias toevoegen voor een gebruiker
           href: email/add-another-email-alias-for-a-user.md
@@ -154,7 +154,7 @@
     - name: Beheren
       items:
         - name: Office 365 beheren
-          href: manage/manage.yml
+          href: manage/manage.md
         - name: Contactvoorkeuren wijzigen
           href: manage/change-contact-preferences.md
         - name: 'Adres, contactpersoon en meer wijzigen'
@@ -187,8 +187,8 @@
           href: manage/remove-licenses-from-users.md
         - name: Licentieconflicten oplossen
           href: manage/resolve-license-conflicts.md
-        - name: Berichten in het berichtencentrum beheren
-          href: manage/manage-messages.md
+        - name: Nieuwe functies weergeven of verbergen met Wat is nieuw beheer
+          href: manage/show-hide-new-features.md
     - name: Abonnementen en facturering
       items:
         - name: Uw abonnementen beheren
@@ -202,7 +202,7 @@
     - name: Domeinen
       items:
         - name: Domeinen in Office 365
-          href: get-help-with-domains/get-help-with-domains.yml
+          href: get-help-with-domains/get-help-with-domains.md
         - name: Wat is een domein?
           href: get-help-with-domains/what-is-a-domain.md
         - name: Een domeinnaam kopen
@@ -265,7 +265,7 @@
           href: services-in-china/buy-or-try-subscriptions.md
         - name: Download de Office-app voor Android voor Office 365 die wordt beheerd door 21Vianet
           href: services-in-china/download-office-app-for-Android.md
-        - name: Download de Office-app voor iOS voor Office 365 die wordt beheerd door 21Vianet
+        - name: De Office-app voor iOS voor Office 365 downloaden die wordt beheerd door 21Vianet
           href: services-in-china/download-office-app-for-iOS.md
         - name: Uw factuur bekijken of een Fapiao downloaden
           href: services-in-china/view-your-bill-or-get-a-fapiao.md
