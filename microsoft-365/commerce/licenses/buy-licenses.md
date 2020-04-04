@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
 description: Meer informatie over het toevoegen en verwijderen van licenties voor uw abonnement op Office 365 voor Bedrijven.
-ms.openlocfilehash: 2f9c6b58a478b18fa1844c33689a8a4974a5917a
-ms.sourcegitcommit: 0d7d18b045c9a14c943bc382b16715e67c86259a
+ms.openlocfilehash: f596971016e18747ea2849c0dfcb0dd287a0c811
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42811022"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142173"
 ---
 # <a name="manage-subscription-licenses"></a>Abonnementslicenties beheren
 
@@ -39,9 +39,6 @@ Met deze stappen u licenties toevoegen of verwijderen uit uw abonnementen.
 U kunt een licentie niet uit een abonnement verwijderen als die licentie is toegewezen aan een gebruiker. Als u een licentie wilt verwijderen die momenteel aan iemand is toegewezen, moet u [licenties van gebruikers verwijderen](../../admin/manage/remove-licenses-from-users.md) voordat u de licentie uit het abonnement verwijderen.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
 ## <a name="what-you-need-to-know-about-buying-licenses-for-your-business-subscription"></a>Wat u moet weten over het kopen van licenties voor uw zakelijke abonnement
 
@@ -87,7 +84,7 @@ Nadat u nieuwe licenties hebt aangeschaft, moet u [de licenties toewijzen aan ge
 
 ## <a name="what-if-i-dont-see-the-addremove-licenses-link"></a>Wat is er aan de hand als ik de koppeling Toevoegen/verwijderen niet zie?
 
-In deze tabel worden de redenen beschreven waarom de koppeling **Licenties toevoegen/verwijderen** mogelijk niet beschikbaar is en wat u eraan doen. 
+In deze tabel worden de redenen beschreven waarom de koppeling **Licenties toevoegen/verwijderen** mogelijk niet beschikbaar is en wat u eraan doen.
 
 |Reden  |Beschrijving  |Oplossing  |
 |---------|---------|---------|

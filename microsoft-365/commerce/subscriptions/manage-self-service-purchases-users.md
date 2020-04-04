@@ -14,19 +14,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: Gebruikers kunnen leren hoe ze hun selfservice-aankopen kunnen beheren.
-ms.openlocfilehash: cdc50144179dd4c0f9b6355501167e9420ff0b50
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 15fc43d488cb2a8fd38cea8ab2ed85c002e23d92
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42806866"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142137"
 ---
 # <a name="manage-self-service-purchases-users"></a>Selfservice-aankopen beheren (gebruikers)
 
 Als gebruiker u abonnementen op bepaalde producten kopen en licenties voor die abonnementen toewijzen aan mensen in uw team. U bent verantwoordelijk voor het betalen van alle self-service aankopen die u doet. U uw abonnementen beheren in het Microsoft 365-beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com.</a>
-
-> [!NOTE]
-> U moet de nieuwe beheercentrumervaring inschakelen.
 
 Uw beheerder heeft een alleen-lezen weergave van alle abonnementen die u koopt. Ze kunnen het product, de naam van de koper, gekochte abonnementen, vervaldatum, aankoopprijs en toegewezen gebruikers zien voor elk abonnement dat u koopt.
 

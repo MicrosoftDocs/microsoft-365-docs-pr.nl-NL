@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
 description: Ontvang technische en factureringsondersteuning via het telefoonnummer dat wordt weergegeven voor uw land of regio, door uw serviceaanvraag online te versturen of door naar een Microsoft Store te gaan.
 feedback_system: None
-ms.openlocfilehash: b77f08b8e0734cfa7629a5c5d61f22d63ef6328c
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 4bb35f6d8c2895ec7adf37c6b4e149962fb616bc
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106058"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142549"
 ---
 # <a name="contact-support-for-business-products---admin-help"></a>Contact opnemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders
 
@@ -39,9 +39,6 @@ ms.locfileid: "43106058"
 ## <a name="online-support"></a>[Online ondersteuning](#tab/online)
 
 Bespaar tijd door uw serviceaanvraag online te starten. Wij helpen u bij het zoeken naar een oplossing of zorgen ervoor dat een expert contact met u opneemt, telefonisch of per e-mail. [Meer informatie over initiële reactietijden van de ondersteuning](https://go.microsoft.com/fwlink/p/?LinkId=518251).
-
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
 1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Als u de melding krijgt dat u geen toestemming heeft voor toegang tot deze pagina of voor het uitvoeren van deze handeling, bent u geen beheerder. [Wie heeft beheerdersrechten binnen mijn onderneming?](admin-overview/admin-overview.md#who-has-admin-permissions-in-my-business)
 
@@ -80,8 +77,6 @@ U kunt nu een afspraak maken bij uw lokale Microsoft Store met een Answer Desk-e
 2. Voer uw locatie in en zoek naar een Microsoft Store bij u in de buurt.
 
 3. Kies uw winkel en selecteer vervolgens **Serviceafspraak nu plannen**.
-
----
 
 ::: moniker-end
 

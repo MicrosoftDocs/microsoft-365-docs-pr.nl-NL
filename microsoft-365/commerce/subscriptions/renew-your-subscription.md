@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: 'Meer informatie over het verlengen van uw Office 365 voor Bedrijven-abonnement met een productcode en het in- of uitschakelen van terugkerende facturering. '
-ms.openlocfilehash: 777f60ae40e72a6762015b24ffe1a1f0fed055ba
-ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
+ms.openlocfilehash: acf5c81fae60fcce272dcee470de0588da3c4a97
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42959214"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142113"
 ---
 # <a name="renew-office-365-for-business"></a>Office 365 voor Bedrijven verlengen
 
@@ -47,9 +47,6 @@ Als u met een creditcard of bankrekening betaalt, is **Terugkerende facturering*
 Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonnement aan het einde van de abonnementsperiode. U **Terugkerende facturering** inschakelen en creditcard- of bankrekeninggegevens verstrekken, zodat uw abonnement elk jaar op de dag dat u zich hebt geabonneerd, in rekening wordt gebracht. Je hebt ook de mogelijkheid om elke maand te betalen, of om het hele jaar vooraf te betalen. Uw creditcard of bankrekening wordt pas in rekening gebracht nadat uw oorspronkelijke abonnementstermijn is verstreken.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
 
@@ -117,9 +114,7 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
 ## <a name="related-articles"></a>Verwante artikelen
 
 [Uw abonnement opnieuw activeren](reactivate-your-subscription.md)
-  
-[Een creditcard of bankrekening toevoegen, bijwerken of verwijderen](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
-  
+
 [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement afloopt?](what-if-my-subscription-expires.md)
 
 [Uw betalingsmethoden toevoegen, bijwerken of verwijderen](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)

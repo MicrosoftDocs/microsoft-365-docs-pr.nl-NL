@@ -21,36 +21,38 @@ search.appverid:
 - BEA160
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
-description: Schakel abonnementen voor Office 365 voor Bedrijven handmatig over door een nieuw abonnement te kopen en ervoor te zorgen dat beide abonnementen worden vermeld en actief zijn.
-ms.openlocfilehash: 19efd94f320fcf5dc54f44b70b436f713a663a40
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Schakel handmatig over van Office 365 voor Bedrijven-abonnementen door een nieuw abonnement aan te schaffen en ervoor te zorgen dat beide abonnementen worden vermeld en actief.
+ms.openlocfilehash: 9a0c382abf1e61f1b31cb358529925053d037be4
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42805806"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142101"
 ---
 # <a name="switch-office-365-for-business-plans-manually"></a>Handmatig overstappen op een ander abonnement voor Office 365 voor Bedrijven
 
 ::: moniker range="o365-worldwide"
+
 > [!NOTE]
-> Dit artikel is van toepassing op het oude beheercentrum. Zie [Plannen handmatig wijzigen](change-plans-manually.md)als u het artikel over het nieuwe beheercentrum wilt bekijken. Het nieuwe beheercentrum is beschikbaar voor alle Microsoft 365-beheerders en u zich aanmelden door het **nieuwe schakelcentrum proberen** boven aan de startpagina te selecteren. Zie [Informatie over het nieuwe Microsoft 365-beheercentrum](../../admin/microsoft-365-admin-center-preview.md)voor meer informatie.
+> Dit artikel is van toepassing op het oude beheercentrum. Zie [Plannen handmatig wijzigen](change-plans-manually.md)als u het artikel over het nieuwe beheercentrum wilt bekijken. Het nieuwe beheercentrum is beschikbaar voor alle Microsoft 365-beheerders. Zie [Informatie over het nieuwe Microsoft 365-beheercentrum voor](../../admin/microsoft-365-admin-center-preview.md)meer informatie.
+
 ::: moniker-end
 
-## <a name="step-1-decide-how-to-switch-plans"></a>Stap 1: Bepaal hoe u van abonnement wisselt
+## <a name="step-1-decide-how-to-switch-plans"></a>Stap 1: Beslissen hoe u van abonnement wisselt
 
-De beste manier om al je gebruikers van het ene plan naar het andere te schakelen, is door [de knop Switch-abonnementen](switch-to-a-different-plan.md#use-the-switch-plans-button)te gebruiken. Soms is dit echter niet mogelijk. In de volgende gevallen moet u de gebruikers handmatig overbrengen:
+De beste manier om al uw gebruikers van het ene abonnement naar het andere te schakelen, is door [de knop Abonnementen gebruiken](switch-to-a-different-plan.md#use-the-switch-plans-button)te gebruiken. Soms is dit echter niet mogelijk. In de volgende gevallen moet u de gebruikers handmatig overbrengen:
   
 - Als u geen knop **Schakelen tussen abonnementen** ziet.
 
-- Als u de knop **Abonnementen schakelen** selecteert, wordt het gewenste abonnement niet weergegeven.
+- Als u, wanneer u de knop **Abonnementen schakelen** selecteert, wordt het gewenste abonnement niet weergegeven.
 
-- Als u niet al uw gebruikers op dezelfde manier wilt schakelen. Bij sommige bedrijven kan het nodig zijn dat verschillende gebruikers verschillende abonnementen hebben. In dat geval moet u handmatig overstappen.
+- Als u niet al uw gebruikers op dezelfde manier wilt wisselen. Bij sommige bedrijven kan het nodig zijn dat verschillende gebruikers verschillende abonnementen hebben. In dat geval moet u handmatig overstappen.
 
-Als u wilt doorgaan met een handmatige switch, leest u [Stap 2: Koop een nieuw abonnement](#step-2-buy-a-new-subscription) in dit onderwerp.
+Lees [Stap 2: Koop een nieuw abonnement](#step-2-buy-a-new-subscription) in dit onderwerp om verder te gaan met een handmatige schakelaar.
   
 ## <a name="step-2-buy-a-new-subscription"></a>Stap 2: Een nieuw abonnement kopen
 
- **Al een abonnement gekocht?** Als u al een abonnement hebt waarnaar u gebruikers wilt verplaatsen, slaat u deze stap over en gaat u naar [stap 3: Controleer uw nieuwe abonnement en licenties](#step-3-check-your-new-subscription-and-licenses) in dit onderwerp.
+ **Al een abonnement gekocht?** Als u al een abonnement hebt waarnaar u gebruikers wilt verplaatsen, slaat u deze stap over en gaat u naar [Stap 3: Controleer uw nieuwe abonnement en licenties](#step-3-check-your-new-subscription-and-licenses) in dit onderwerp.
   
 - OF -
   
@@ -58,9 +60,9 @@ Als u wilt doorgaan met een handmatige switch, leest u [Stap 2: Koop een nieuw a
   
 Het is belangrijk dat u een licentie koopt voor de organisatie waarvan de gebruikers nu ook deel uitmaken. Controleer bijvoorbeeld de e-mailadressen voor de gebruikers die u wilt verplaatsen. Als hun e-mailadressen bijvoorbeeld eindigen op @contoso.com, moet u een nieuw abonnement kopen voor contoso.com. Koop ook een licentie voor elke gebruiker die u wilt verplaatsen.
   
- Zie de [productvergelijkingspagina van Office 365 voor Bedrijven](https://go.microsoft.com/fwlink/p/?linkid=842056) of ondersteuning voor [bellen](../../admin/contact-support-for-business-products.md)als u hulp nodig hebt bij het kiezen van **een abonnement.**
+ **Als u hulp nodig hebt bij het kiezen van een abonnement,** raadpleegt u de [productvergelijkingspagina van Office 365 voor Bedrijven](https://go.microsoft.com/fwlink/p/?linkid=842056) of [belt u ondersteuning.](../../admin/contact-support-for-business-products.md)
   
-## <a name="step-3-check-your-new-subscription-and-licenses"></a>Stap 3: Uw nieuwe abonnement en licenties controleren
+## <a name="step-3-check-your-new-subscription-and-licenses"></a>Stap 3: Controleer uw nieuwe abonnement en licenties
 
 1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Abonnementen</a>.
 
@@ -68,7 +70,7 @@ Het is belangrijk dat u een licentie koopt voor de organisatie waarvan de gebrui
 
     Als u Office 365 beheerd door 21Vianet gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
 
-2. **Controleren of beide abonnementen worden aangeboden en actief zijn**
+2. **Controleren of beide abonnementen worden vermeld en actief**
 
     Het abonnement waarnaar u gebruikers wilt verplaatsen en het abonnement waaruit u gebruikers wilt verplaatsen, moeten beide worden vermeld. Als u het nieuwe abonnement niet ziet, wacht u een tijdje en kijkt u dan nog een keer. Controleer of beide abonnementen worden vermeld onder **ACTIEF**. [Het nieuwe abonnement wordt niet vermeld of is niet actief](#the-new-subscription-isnt-listed-or-isnt-active).
 
@@ -90,7 +92,7 @@ Het is belangrijk dat u een licentie koopt voor de organisatie waarvan de gebrui
 
 - **Als u twee abonnementen hebt gekocht en deze hier niet beide worden vermeld**, zijn ze misschien gekocht voor verschillende organisaties (voor verschillende domeinen). Abonnementen kunnen niet tussen organisaties worden gedeeld.
 
-- **Als u weet dat u een aanvullend abonnement hebt**en het hier niet wordt vermeld of niet wordt vermeld onder **ACTIVE,** [belt u ondersteuning](../../admin/contact-support-for-business-products.md).
+- **Als u weet dat u een aanvullend abonnement hebt**en het staat hier niet vermeld of niet vermeld onder **ACTIEF,** [bel ondersteuning](../../admin/contact-support-for-business-products.md).
 
 ### <a name="what-about-the-old-licenses"></a>Hoe zit het met de oude licenties?
 
@@ -108,7 +110,7 @@ De licenties voor het huidige abonnement worden later verwijderd. U betaalt vana
 
 2. Schakel op de pagina **Actieve gebruikers** het selectievakje in van de gebruiker aan wie u een licentie wilt toewijzen.
 
-3. Selecteer aan de rechterkant in de rij **Productlicenties** de optie **Bewerken**.
+3. Selecteer rechts in de rij **Productlicenties** de optie **Bewerken**.
 
 4. Zet in het deelvenster **Productlicenties** de wisselknop op **Aan** voor de licentie die u aan deze gebruiker wilt toewijzen. De standaardinstelling is dat alle services die zijn gekoppeld aan die licentie, automatisch worden toegewezen aan de gebruiker.
 
@@ -117,13 +119,13 @@ De licenties voor het huidige abonnement worden later verwijderd. U betaalt vana
   
     ![Setting license assignments for a user.](../../media/5e53a979-6b08-4981-bb0b-fa657146334b.png)
   
-5. Schakel de schakelaar over naar de **uit-positie** voor licenties die deze gebruiker niet meer nodig heeft.
+5. Schakel de schakelpositie in naar de **uit-positie** voor licenties die deze gebruiker niet meer nodig heeft.
 
-6. Selecteer onder aan het deelvenster **Productlicenties** de optie **Sluiten** \> **Close** **toewijzen** \> .
+6. Selecteer Sluiten **Assign** \> **Close** \> **toewijzen**onder aan het deelvenster **Productlicenties** .
 
 ### <a name="reassign-licenses-for-multiple-users-at-once"></a>Licenties opnieuw toewijzen voor meerdere gebruikers tegelijk
 
-1. Ga in het beheercentrum naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a> of selecteer **Actieve gebruikers** **voor gebruikers.** \>
+1. Ga in het beheercentrum naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a> of selecteer **Gebruikers** \> **actieve gebruikers**.
 
     Als u Office 365 Germany gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
 
@@ -153,4 +155,4 @@ Als u slechts een paar gebruikers naar een ander abonnement hebt verplaatst, [ve
   
 ## <a name="call-support-to-help-you-switch-plans"></a>Contact opnemen met ondersteuning om u te helpen bij het veranderen van abonnement
 
-[Oproepondersteuning](../../admin/contact-support-for-business-products.md)
+[Ondersteuning voor bellen](../../admin/contact-support-for-business-products.md)

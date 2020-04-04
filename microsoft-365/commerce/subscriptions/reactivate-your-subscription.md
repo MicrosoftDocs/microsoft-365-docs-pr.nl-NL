@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
 description: Meer informatie over hoe u uw abonnement opnieuw activeren wanneer het verloopt of als Microsoft het abonnement uitschakelt of als u het in het midden opzegt.
-ms.openlocfilehash: 6126c9ccc05a1ee0927f928b045bd1c383479893
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 0d033a60c9e738c8e58f0ea061d551ee2dd3b4d2
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42952040"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142125"
 ---
 # <a name="reactivate-your-subscription"></a>Uw abonnement opnieuw activeren
 
@@ -40,9 +40,6 @@ Als uw abonnement verloopt of is uitgeschakeld door Microsoft, of als u het midd
 
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
-
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
 
 2. Zoek op de pagina **Producten & services** het abonnement dat u opnieuw wilt activeren. Selecteer **in** de sectie Facturering de optie **Opnieuw activeren**.
@@ -51,15 +48,14 @@ Als uw abonnement verloopt of is uitgeschakeld door Microsoft, of als u het midd
 
 3. Bevestig uw betalingsgegevens. U kunt uw bestaande betalingsgegevens hier bijwerken. Wanneer u klaar bent met het invoeren van uw betalingsmethode, selecteert u **Opnieuw activeren**.
 
-  - Als uw abonnement is verlopen, keert uw abonnement na het verzenden van uw betalingsgegevens terug naar een actieve status en wordt de **factureringsdatum volgende** met één maand of een jaar verlengd, afhankelijk van uw huidige abonnementsverplichting. Als u met een creditcard of bankrekening betaalt, wordt uw creditcard of bankrekening in rekening gebracht voor de verlenging. Als u per factuur betaalt, ziet u de extensie die wordt weergegeven op uw volgende factuur. Volg de stappen om Terugkerende facturering in of [uit](renew-your-subscription.md)te schakelen om ervoor te zorgen dat uw abonnement niet opnieuw verloopt.
+    - Als uw abonnement is verlopen, keert uw abonnement na het verzenden van uw betalingsgegevens terug naar een actieve status en wordt de **factureringsdatum volgende** met één maand of een jaar verlengd, afhankelijk van uw huidige abonnementsverplichting. Als u met een creditcard of bankrekening betaalt, wordt uw creditcard of bankrekening in rekening gebracht voor de verlenging. Als u per factuur betaalt, ziet u de extensie die wordt weergegeven op uw volgende factuur. Volg de stappen om Terugkerende facturering in of [uit](renew-your-subscription.md)te schakelen om ervoor te zorgen dat uw abonnement niet opnieuw verloopt.
 
     > [!NOTE]
     > De mogelijkheid om te betalen per bankrekening is niet beschikbaar in sommige landen of regio's.
   
-  - Als uw abonnement is opgezegd of is uitgeschakeld omdat een betaling niet is ontvangen, wordt het bericht in een actieve status weergegeven en blijft uw **volgende factureringsdatum** hetzelfde.
+    - Als uw abonnement is opgezegd of is uitgeschakeld omdat een betaling niet is ontvangen, wordt het bericht in een actieve status weergegeven en blijft uw **volgende factureringsdatum** hetzelfde.
 
 ::: moniker-end
-
 
 ::: moniker range="o365-germany"
   
@@ -73,14 +69,14 @@ Als uw abonnement verloopt of is uitgeschakeld door Microsoft, of als u het midd
 
 3. Voer uw betalingsgegevens in. U kunt uw bestaande betalingsgegevens hier bijwerken.
 
-  - Als uw abonnement is verlopen, keert uw abonnement na het verzenden van uw betalingsgegevens terug naar een actieve status en wordt de **factureringsdatum volgende** met één maand of een jaar verlengd, afhankelijk van uw huidige abonnementsverplichting. Als u met een creditcard of bankrekening betaalt, wordt uw creditcard of bankrekening in rekening gebracht voor de verlenging. Als u per factuur betaalt, ziet u de extensie die wordt weergegeven op uw volgende factuur. Volg de stappen om Terugkerende facturering in of [uit](renew-your-subscription.md)te schakelen om ervoor te zorgen dat uw abonnement niet opnieuw verloopt.
+    - Als uw abonnement is verlopen, keert uw abonnement na het verzenden van uw betalingsgegevens terug naar een actieve status en wordt de **factureringsdatum volgende** met één maand of een jaar verlengd, afhankelijk van uw huidige abonnementsverplichting. Als u met een creditcard of bankrekening betaalt, wordt uw creditcard of bankrekening in rekening gebracht voor de verlenging. Als u per factuur betaalt, ziet u de extensie die wordt weergegeven op uw volgende factuur. Volg de stappen om Terugkerende facturering in of [uit](renew-your-subscription.md)te schakelen om ervoor te zorgen dat uw abonnement niet opnieuw verloopt.
 
     > [!NOTE]
     > De mogelijkheid om te betalen per bankrekening is niet beschikbaar in sommige landen of regio's.
   
-  - Als uw abonnement is opgezegd of is uitgeschakeld omdat een betaling niet is ontvangen, wordt het bericht in een actieve status weergegeven en blijft uw **volgende factureringsdatum** hetzelfde.
+    - Als uw abonnement is opgezegd of is uitgeschakeld omdat een betaling niet is ontvangen, wordt het bericht in een actieve status weergegeven en blijft uw **volgende factureringsdatum** hetzelfde.
 
-  ::: moniker-end
+::: moniker-end
 
 ::: moniker range="o365-21vianet"
   
@@ -94,11 +90,11 @@ Als uw abonnement verloopt of is uitgeschakeld door Microsoft, of als u het midd
 
 3. Voer uw betalingsgegevens in. U kunt uw bestaande betalingsgegevens hier bijwerken.
 
-  - Als uw abonnement is verlopen, keert uw abonnement na het verzenden van uw betalingsgegevens terug naar een actieve status en wordt de **factureringsdatum volgende** met één maand of een jaar verlengd, afhankelijk van uw huidige abonnementsverplichting. Als u met een creditcard of bankrekening betaalt, wordt uw creditcard of bankrekening in rekening gebracht voor de verlenging. Als u per factuur betaalt, ziet u de extensie die wordt weergegeven op uw volgende factuur. Volg de stappen om Terugkerende facturering in of [uit](renew-your-subscription.md)te schakelen om ervoor te zorgen dat uw abonnement niet opnieuw verloopt.
+    - Als uw abonnement is verlopen, keert uw abonnement na het verzenden van uw betalingsgegevens terug naar een actieve status en wordt de **factureringsdatum volgende** met één maand of een jaar verlengd, afhankelijk van uw huidige abonnementsverplichting. Als u met een creditcard of bankrekening betaalt, wordt uw creditcard of bankrekening in rekening gebracht voor de verlenging. Als u per factuur betaalt, ziet u de extensie die wordt weergegeven op uw volgende factuur. Volg de stappen om Terugkerende facturering in of [uit](renew-your-subscription.md)te schakelen om ervoor te zorgen dat uw abonnement niet opnieuw verloopt.
 
     > [!NOTE]
     > De mogelijkheid om te betalen per bankrekening is niet beschikbaar in sommige landen of regio's.
   
-  - Als uw abonnement is opgezegd of is uitgeschakeld omdat een betaling niet is ontvangen, wordt het bericht in een actieve status weergegeven en blijft uw **volgende factureringsdatum** hetzelfde.
+    - Als uw abonnement is opgezegd of is uitgeschakeld omdat een betaling niet is ontvangen, wordt het bericht in een actieve status weergegeven en blijft uw **volgende factureringsdatum** hetzelfde.
 
   ::: moniker-end
