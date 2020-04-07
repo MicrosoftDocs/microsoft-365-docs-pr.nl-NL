@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Leer Office 365-groepen maken en verwijderen, groepsleden toevoegen en verwijderen en aanpassen hoe de groep werkt.
-ms.openlocfilehash: 59a7cec5fb6822ecb622bf4abe4cebd859b6f206
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 8b9580fd37581de96d3dc35170a1a61640cc697d
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894609"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153542"
 ---
 # <a name="create-an-office-365-group-in-the-microsoft-365-admin-center"></a>Een Office 365-groep maken in het Microsoft 365-beheercentrum
   
-Hoewel gebruikers een Office 365-groep kunnen maken vanuit Outlook of andere apps, moet u als beheerder mogelijk groepen maken of verwijderen, leden toevoegen of verwijderen en aanpassen hoe ze werken. Het Microsoft 365-beheercentrum is de plek om dit te doen. 
+Hoewel gebruikers een Office 365-groep kunnen maken vanuit Outlook of andere apps, moet u als beheerder mogelijk groepen maken of verwijderen, leden toevoegen of verwijderen en aanpassen hoe ze werken. U dit doen in het Microsoft 365-beheercentrum als u een globale beheerder of een groepsbeheerder bent. 
 
 > [!TIP]
 > Yammer-groepen met Office 365 moeten worden gemaakt in Yammer, maar kunnen worden beheerd in het Microsoft 365-beheercentrum, net als andere Office 365-groepen. Zie [Yammer- en Office 365-groepen](https://support.office.com/article/d8c239dc-a48b-47ab-b85e-6b4b8191a869.aspx)voor meer informatie. 
@@ -115,7 +115,7 @@ Wanneer een e-mail uit het groepspostvak wordt verwijderd, wordt deze niet verwi
 
 ## <a name="next-step-manage-your-group"></a>Volgende stap: uw groep beheren
 
-Nadat u een nieuwe groep hebt gemaakt en leden hebt toegevoegd, u uw groep verder configureren, zoals het bewerken van de groepsnaam of -beschrijving, het wijzigen van eigenaren of leden en het opgeven van de vraag of externe afzenders de groep kunnen e-mailen en of kopieën van de groep moeten worden verzonden gesprekken met leden. Zie [Een Office 365-groep beheren](manage-groups.md) voor informatie.
+Nadat u een nieuwe groep hebt gemaakt en leden hebt toegevoegd, u uw groep verder configureren, zoals het bewerken van de groepsnaam of -beschrijving, het wijzigen van eigenaren of leden en het opgeven van de vraag of externe afzenders de groep kunnen e-mailen en of kopieën van groepsgesprekken naar leden moeten worden verzonden. Zie [Een Office 365-groep beheren](manage-groups.md) voor informatie.
 
 ## <a name="related-articles"></a>Verwante artikelen
 

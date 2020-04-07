@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9cdfa29d-7681-4af2-a79d-3e72e7ab9778
 description: Nieuwe werknemers toevoegen aan Office 365 voor Bedrijven voor e-mail, Skype en Office-apps.
-ms.openlocfilehash: d77c62898fc238b3c321e61b6a867092442baa07
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 20be856cddfc0044ab7ef9d196b64c4d636638f7
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42812115"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151367"
 ---
 # <a name="add-a-new-employee-to-office-365"></a>Een nieuwe werknemer toevoegen aan Office 365
 
@@ -33,7 +33,7 @@ Met dit artikel u een nieuwe werknemer aan boord nemen van Office 365 voor Bedri
   
 U bent op de juiste plaats als uw nieuwe werknemer Office 365 nodig heeft en u een [Office 365-abonnement](https://products.office.com/business/compare-office-365-for-business-plans) gebruiken waarmee u Office-apps zoals Word en Excel op een computer installeren. 
   
- **Bent u geen beheerder?** [Meer informatie over Office 365](https://support.office.com/article/9b7306d3-8d61-4794-bb6f-6520f65956d9.aspx) helpt zakelijke en thuisgebruikers met Office 365. 
+ **Bent u geen beheerder?** [Meer informatie over Office 365](https://support.office.com/article/office-basics-video-training-396b8d9e-e118-42d0-8a0d-87d1f2f055fb) helpt zakelijke en thuisgebruikers met Office 365. 
   
  **Geen Office-apps in uw abonnement?** Volg de onderstaande stappen, maar sla de secties over voor het installeren van apps. Gebruik in plaats daarvan de [onlineversies van Office.](https://support.office.com/article/91a4ec74-67fe-4a84-a268-f6bdf3da1804.aspx) 
   
@@ -70,7 +70,7 @@ Net als Facebook, Amazon of Gmail meldt uw werknemer zich aan om Office 365 te g
 ## <a name="step-4-help-your-employee-get-started"></a>Stap 4: Help uw medewerker aan de slag
 
 
-Deel met hen de [snelle installatie van werknemer voor Office 365](https://support.office.com/article/69cd80a8-56b8-436f-aa1f-2d2a3cc51060) om u aan te melden, software te installeren, e-mail in te stellen en meer. 
+Deel met hen de [snelle installatie van werknemer voor Office 365](https://support.office.com/article/employee-quick-setup-b9700090-ce64-4046-ab92-ce8488a7bc0f) om u aan te melden, software te installeren, e-mail in te stellen en meer. 
   
 En hier is een korte referentie om ze op weg te helpen:
   
@@ -80,7 +80,7 @@ En hier is een korte referentie om ze op weg te helpen:
 |Installeer Office-apps op uw computer.  <br/><br/> |Wanneer u zich aanmeldt, heeft de startpagina een koppeling om apps zoals Word en Outlook te downloaden en te installeren.  Selecteer **Office installeren**.         Zie Office [installeren voor](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)instructies.  <br/> |
 |Stel uw e-mail in Outlook 2016 in .  <br/> |Zodra Office-apps op uw computer zijn geïnstalleerd, stelt u uw e-mail in. Zie Outlook [instellen](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx)voor instructies .  <br/> |
 |Skype voor Bedrijven instellen zodat u in contact komen met collega's of zakenpartners in uw bedrijf of over de hele wereld. U gesprekken starten met chat-, spraak- of videogesprekken.  <br/> |[Installeer Skype voor Bedrijven op uw computer](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb.aspx).  <br/> <br/>Bekijk een video voor meer informatie over het gebruik van Skype voor [Bedrijven.](https://support.office.com/article/3a21eca4-434d-41f1-ab06-3d4a268573b7.aspx) <br/> <br/>Hebt u Skype voor Bedrijven zo ingesteld dat uw werknemers contact kunnen opnemen met mensen buiten uw bedrijf die de gratis Skype-app gebruiken? Zo niet, vertel het dan aan uw nieuwe werknemer, zodat hij weet wat ze kunnen verwachten wanneer ze Skype voor Bedrijven gebruiken.  <br/> |
-|Installeer apps op uw mobiele apparaat als u e-mail wilt ontvangen of Skype voor Bedrijven op uw telefoon wilt gebruiken.  <br/> |Als u de mobiele Outlook-app wilt instellen, u e-mail ontvangen via uw telefoon. Zie [iOS](https://support.office.com/article/b2de2161-cc1d-49ef-9ef9-81acd1c8e234.aspx), [Android,](https://support.office.com/article/886db551-8dfa-4fd5-b835-f8e532091872.aspx) [Windows Phone](https://support.office.com/article/181a112a-be92-49ca-ade5-399264b3d417.aspx) voor instructies <br/> <br/>Als u Skype voor Bedrijven op uw mobiele apparaat wilt gebruiken, downloadt en installeert u de mobiele app. Zie [iOS](https://support.office.com/article/3239c8a3-cf55-4ff0-a967-5de51911c049.aspx), [Android,](https://support.office.com/article/95be9226-2d72-4e94-8a17-bc3c9edf445b.aspx) [Windows Phone](https://support.office.com/article/52d8008e-ebf0-4b2a-afd9-f05614c8e9d7.aspx) voor instructies <br/> |
+|Installeer apps op uw mobiele apparaat als u e-mail wilt ontvangen of Skype voor Bedrijven op uw telefoon wilt gebruiken.  <br/> |Als u de mobiele Outlook-app wilt instellen, u e-mail ontvangen via uw telefoon. Zie [iOS](https://support.office.com/article/b2de2161-cc1d-49ef-9ef9-81acd1c8e234.aspx), [Android,](https://support.office.com/article/886db551-8dfa-4fd5-b835-f8e532091872.aspx) [Windows Phone](https://support.microsoft.com/en-us/office/set-up-email-on-windows-phone-181a112a-be92-49ca-ade5-399264b3d417) voor instructies <br/> <br/>Als u Skype voor Bedrijven op uw mobiele apparaat wilt gebruiken, downloadt en installeert u de mobiele app. Zie [iOS](https://support.microsoft.com/en-us/office/install-skype-for-business-on-a-mobile-device-3239c8a3-cf55-4ff0-a967-5de51911c049#OS_Type=iOS), [Android,](https://support.microsoft.com/en-us/office/sign-in-to-skype-for-business-on-a-mobile-device-4d1b7dfa-5b0b-4868-bae5-25947fb99e6e#OS_Type=Android) [Windows Phone](https://support.microsoft.com/en-us/office/sign-in-to-skype-for-business-on-a-mobile-device-4d1b7dfa-5b0b-4868-bae5-25947fb99e6e#OS_Type=Windows_Phone) voor instructies <br/> |
 |Voltooi de training van OneDrive voor Bedrijven om te leren hoe u uw documenten, presentaties en spreadsheets in de cloud opslaan en ordenen.  <br/> |Bewaar uw bedrijfsgerelateerde documenten in de cloud met OneDrive voor Bedrijven. U altijd bij uw inhoud komen, zelfs als u op een andere computer bent aangemeld bij Office 365. [Bekijk een video voor meer informatie over het gebruik van uw OneDrive voor Bedrijven](https://support.office.com/article/b30da4eb-ddd2-44b6-943b-e6fbfc6b8dde.aspx) <br/><br/> **Training:** [training van OneDrive voor Bedrijven](https://support.office.com/article/1f608184-b7e6-43ca-8753-2ff679203132.aspx) (Selecteer OneDrive voor Bedrijven).  <br/> |
 |Voltooi de SharePoint Online-training om u te helpen samenwerken met collega's en inhoud te delen.  <br/> |De beste plaats om documenten te bewaren waartoe uw collega's ook toegang hebben, is in SharePoint Online.  <br/> <br/>**Training:** [Video: samenwerken met teaminhoud met SharePoint Online](https://support.office.com/article/2dd9aeff-7749-4b78-9696-eb0f6267f1f5.aspx) <br/><br/> **Ontdek het:** Hoe gebruikt uw organisatie SharePoint Online en welk type documenten daar worden opgeslagen? Ook welke documenten zijn opgeslagen in OneDrive voor Bedrijven.  <br/> |
 

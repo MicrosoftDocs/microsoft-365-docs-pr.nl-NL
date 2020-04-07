@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. De Servicebeheerder opent bijvoorbeeld supporttickets met Microsoft.
 ms.custom: okr_smb
-ms.openlocfilehash: 22693bbf8acdf8872b621ae214dd8d7a62b98b40
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: ec601e5860460ab77760a5e18c834b987c6b3d07
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42929548"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151393"
 ---
 # <a name="about-admin-roles"></a>Informatie over beheerdersrollen
 
@@ -145,7 +145,7 @@ Een partner kan deze rollen toewijzen:
     
 - Beperkt beheer: de bevoegdheden van deze rol zijn te vergelijken met die van een helpdesk-beheerder.
 
-Voordat de partner deze rollen aan gebruikers kan toewijzen, moet u de partner als gedelegeerde beheerder aan uw account toevoegen. Dit proces wordt geïnitieerd door een geautoriseerde partner. De partner stuurt u een e-mailbericht waarin u wordt gevraagd of u de partner toestemming wilt geven om te fungeren als gedelegeerde beheerder. Zie [Partnerrelaties autoriseren of verwijderen](https://support.office.com/article/201ccb3b-6011-4bf1-a6b2-84e7cc1ee2d0.aspx)voor instructies.
+Voordat de partner deze rollen aan gebruikers kan toewijzen, moet u de partner als gedelegeerde beheerder aan uw account toevoegen. Dit proces wordt geïnitieerd door een geautoriseerde partner. De partner stuurt u een e-mailbericht waarin u wordt gevraagd of u de partner toestemming wilt geven om te fungeren als gedelegeerde beheerder. Zie [Partnerrelaties autoriseren of verwijderen](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner)voor instructies.
   
 ## <a name="related-articles"></a>Verwante artikelen
 

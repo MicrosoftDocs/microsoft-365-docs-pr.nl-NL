@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Office 365-services gebruiken. Met het dashboard Gebruiksoverzicht kunt u voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
-ms.openlocfilehash: af6817471224e5747849b6020df3c56b64e29fed
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: da62d934b295916a7f0fc952cc9cbe94b8384246
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43029858"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151427"
 ---
 # <a name="activity-reports-in-the-microsoft-365-admin-center"></a>Activiteitenoverzichten in het Microsoft 365-beheercentrum
 
@@ -180,6 +180,6 @@ Als u echter een bepaalde dag selecteert (bijvoorbeeld nummer 3), wordt in het r
   
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Rapporten in het beveiligings- &amp; compliancecentrum](https://support.office.com/article/7acd33ce-1ec8-49fb-b625-43bac7b58c5a)
+[Rapporten in het beveiligings- &amp; compliancecentrum](https://docs.microsoft.com/microsoft-365/compliance/reports-in-security-and-compliance)
   
 

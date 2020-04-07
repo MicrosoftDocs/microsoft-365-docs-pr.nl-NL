@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Meer informatie over het maken van een activiteitenrapport van Microsoft Forms met het dashboard Microsoft 365 Reports in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: c836644f88fe635bfe608f57e015f06e9f815862
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 28520bf931df9f909a933be19800ee45fd863cd6
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046937"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151415"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Microsoft 365-rapporten in het beheercentrum - Formulierenactiviteit
 
@@ -41,9 +41,9 @@ U bijvoorbeeld de activiteit begrijpen van elke gebruiker die microsoft formulie
     
 2. Selecteer in de vervolgkeuzelijst **Een rapport** selecteren de **optie** **Activiteiten Formulieren** \> .
 
-## <a name="interpret-the-email-activity-report"></a>Het rapport E-mailactiviteit interpreteren
+## <a name="interpret-the-forms-activity-report"></a>Het activiteitenrapport formulieren interpreteren
 
-Met de grafieken **Activiteit** en **Gebruikers** kunt u inzicht krijgen in de e-mailactiviteiten van uw gebruikers. 
+U een overzicht krijgen van de formulierenactiviteit van uw gebruiker door te kijken naar de grafieken **Activiteit** en **Gebruikers.** 
 
 ![Activiteitenrapport Formulieren](../../media/adminformsactivity.png)
 

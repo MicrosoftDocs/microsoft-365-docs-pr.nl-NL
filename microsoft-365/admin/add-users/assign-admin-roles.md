@@ -26,20 +26,20 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Meer informatie over het toewijzen van beheerdersrollen aan een gebruiker of meerdere gebruikers in uw bedrijf, zodat deze specifieke taken in het beheercentrum kunnen uitvoeren.
-ms.openlocfilehash: 431c51ea4859899ba9762d6f4c5b7bf1e9ba3d8a
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 9c10ef7d6dade3d826c9c291e58b3e8e2a58f2a6
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42806905"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151372"
 ---
 # <a name="assign-admin-roles"></a>Beheerdersrollen toewijzen
 
-Als u de persoon bent die uw Microsoft-bedrijfsabonnement heeft gekocht, bent u de globale beheerder. Dit betekent dat u onbeperkte controle hebt over de producten in uw abonnementen en dat u toegang hebt tot de meeste gegevens.
+Als u de persoon bent die uw Microsoft Business-abonnement heeft gekocht, bent u de globale beheerder. Dit betekent dat u onbeperkte controle hebt over de producten in uw abonnementen en dat u toegang hebt tot de meeste gegevens.
 
-Zie [Beheerdersrollen voor](about-admin-roles.md)meer informatie.
+Zie [Over beheerdersrollen](about-admin-roles.md)voor meer informatie .
 
-Wanneer u nieuwe gebruikers toevoegt, als u ze geen beheerdersrol toewijst, bevinden ze zich in de *gebruikersrol* en hebben ze geen beheerdersrechten voor een van de Microsoft-beheercentra. Maar als u hulp nodig hebt om dingen gedaan te krijgen, u een beheerdersrol toewijzen aan een gebruiker. Als u bijvoorbeeld iemand nodig hebt om wachtwoorden opnieuw in te stellen, moet u deze niet de algemene beheerdersrol toewijzen, u moet deze persoon de rol voor wachtwoordbeheerders toewijzen. Het hebben van te veel wereldwijde beheerders, met onbeperkte toegang tot uw gegevens en online zaken, is een beveiligingsrisico.
+Wanneer u nieuwe gebruikers toevoegt, als u ze geen beheerdersrol toewijst, bevinden ze zich in de *gebruikersrol* en hebben ze geen beheerdersrechten voor een van de Microsoft-beheerderscentra. Maar als u hulp nodig hebt om dingen gedaan te krijgen, u een beheerdersrol toewijzen aan een gebruiker. Als u bijvoorbeeld iemand nodig hebt die wachtwoorden moet resetten, moet u deze persoon niet de globale beheerdersrol toewijzen, u moet deze persoon de functie wachtwoordbeheerder toewijzen. Het hebben van te veel wereldwijde admins, met onbeperkte toegang tot uw gegevens en online business, is een beveiligingsrisico.
 
 Bekijk een korte video over het toevoegen van een beheerder.<br><br>
 
@@ -60,10 +60,10 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
 
 U gebruikers op twee verschillende manieren aan een rol toewijzen:
 
-- U naar de gegevens van de gebruiker gaan en **rollen beheren** om een rol aan de gebruiker toe te wijzen.
+- U naar de details van de gebruiker gaan en **rollen beheren** om een rol aan de gebruiker toe te wijzen.
 - Of u naar **Rollen** gaan en de rol selecteren en er vervolgens meerdere gebruikers aan toevoegen.
 
-### <a name="assign-admin-roles-to-users-using-roles"></a>Beheerdersrollen toewijzen aan gebruikers die Rollen gebruiken
+### <a name="assign-admin-roles-to-users-using-roles"></a>Beheerdersrollen toewijzen aan gebruikers die rollen gebruiken
 
 1. Ga in het beheercentrum naar > **Rollenrollen** om alle beheerdersrollen weer te geven die beschikbaar zijn voor uw organisatie. **Roles**
 2. Selecteer de beheerdersrol waaraan u de gebruiker wilt toewijzen.
@@ -76,9 +76,9 @@ U gebruikers op twee verschillende manieren aan een rol toewijzen:
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** > [actieve gebruikers.](https://go.microsoft.com/fwlink/p/?linkid=834822)
 
-2. Selecteer op de pagina **Actieve gebruikers** de gebruiker wiens beheerdersrol u wilt wijzigen. Selecteer in het flyoutdeelvenster naast **Rollen**de optie **Rollen beheren**.
+2. Selecteer op de pagina **Actieve gebruikers** de gebruiker wiens beheerdersrol u wilt wijzigen. Selecteer in het deelvenster flyout naast **Rollen**de optie **Rollen beheren**.
 
-3. Selecteer de beheerdersrol die u aan de gebruiker wilt toewijzen. Als u de rol die u zoekt niet ziet, selecteert u Alles onder aan de lijst **weergeven.**
+3. Selecteer de beheerdersrol die u aan de gebruiker wilt toewijzen. Als u de rol die u zoekt niet ziet, selecteert u **Alles weergeven** onder aan de lijst.
 
 ::: moniker-end
 
@@ -86,11 +86,11 @@ U gebruikers op twee verschillende manieren aan een rol toewijzen:
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer op de pagina **Actieve gebruikers** de gebruiker wiens beheerdersrol u wilt wijzigen. Selecteer **bewerken**in het flyoutdeelvenster naast **Rollen**. 
+2. Selecteer op de pagina **Actieve gebruikers** de gebruiker wiens beheerdersrol u wilt wijzigen. **Selecteer**bewerken in het deelvenster flyout naast **Rollen**. 
 
-    Als u de optie **Bewerken** niet ziet, hebt u geen machtiging om beheerdersrollen te bewerken en u geen beheerdersrollen toewijzen aan andere mensen. Vraag een globale beheerder in uw bedrijf om rollen voor u toe te wijzen. In een klein bedrijf is de eigenaar van het bedrijf (de persoon die uw abonnement heeft gekocht) een globale beheerder. In een groot bedrijf zijn belangrijke mensen op de IT-afdeling wereldwijde beheerders.
+    Als u de optie **Bewerken** niet ziet, hebt u geen toestemming om te bewerken en u geen beheerdersrollen toewijzen aan andere mensen. Vraag een globale beheerder in uw bedrijf om rollen voor u toe te wijzen. In een klein bedrijf is de bedrijfseigenaar (de persoon die uw abonnement heeft gekocht) een globale beheerder. In een groot bedrijf zijn de belangrijkste mensen op de IT-afdeling wereldwijde beheerders.
 
-3. Selecteer **Aangepaste beheerder** om een lijst met rollen te bekijken die we voor u hebben aangepast. [Zie Beheerdersrollen voor](about-admin-roles.md) een beschrijving van elke rol.
+3. Selecteer **Aangepaste beheerder** om een lijst met rollen te bekijken die we voor u hebben aangepast. Zie [Over beheerdersrollen](about-admin-roles.md) voor een beschrijving van elke rol.
 
 ::: moniker-end
 
@@ -98,18 +98,18 @@ U gebruikers op twee verschillende manieren aan een rol toewijzen:
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer op de pagina **Actieve gebruikers** de gebruiker wiens beheerdersrol u wilt wijzigen. Selecteer **bewerken**in het flyoutdeelvenster naast **Rollen**. 
+2. Selecteer op de pagina **Actieve gebruikers** de gebruiker wiens beheerdersrol u wilt wijzigen. **Selecteer**bewerken in het deelvenster flyout naast **Rollen**. 
 
-    Als u de optie **Bewerken** niet ziet, hebt u geen machtiging om beheerdersrollen te bewerken en u geen beheerdersrollen toewijzen aan andere mensen. Vraag een globale beheerder in uw bedrijf om rollen voor u toe te wijzen. In een klein bedrijf is de eigenaar van het bedrijf (de persoon die uw abonnement heeft gekocht) een globale beheerder. In een groot bedrijf zijn belangrijke mensen op de IT-afdeling wereldwijde beheerders.
+    Als u de optie **Bewerken** niet ziet, hebt u geen toestemming om te bewerken en u geen beheerdersrollen toewijzen aan andere mensen. Vraag een globale beheerder in uw bedrijf om rollen voor u toe te wijzen. In een klein bedrijf is de bedrijfseigenaar (de persoon die uw abonnement heeft gekocht) een globale beheerder. In een groot bedrijf zijn de belangrijkste mensen op de IT-afdeling wereldwijde beheerders.
 
-3. Selecteer **Aangepaste beheerder** om een lijst met rollen te bekijken die we voor u hebben aangepast. [Zie Beheerdersrollen voor](about-admin-roles.md) een beschrijving van elke rol.
+3. Selecteer **Aangepaste beheerder** om een lijst met rollen te bekijken die we voor u hebben aangepast. Zie [Over beheerdersrollen](about-admin-roles.md) voor een beschrijving van elke rol.
 
 ::: moniker-end
 
 
 ## <a name="assign-admin-roles-to-multiple-users"></a>Beheerdersrollen toewijzen aan meerdere gebruikers
 
-Zie [Rollen toewijzen aan gebruikersaccounts met PowerShell](https://go.microsoft.com/fwlink/?linkid=854257)als u PowerShell kent. Dit is ideaal voor het toewijzen van rollen aan honderden gebruikers.
+Zie Rollen [toewijzen aan gebruikersaccounts met PowerShell](https://go.microsoft.com/fwlink/?linkid=854257)als u PowerShell kent. Dit is ideaal voor het toewijzen van rollen aan honderden gebruikers.
   
 Voer de volgende instructies uit als u rollen wilt toewijzen aan tientallen gebruikers.
 
@@ -118,7 +118,7 @@ Voer de volgende instructies uit als u rollen wilt toewijzen aan tientallen gebr
 
 ## <a name="didnt-work-for-you"></a>Werkt het niet?
 
-U beschikt mogelijk niet over de juiste machtigingen en hebt dus geen toegang om beheerdersrollen toe te wijzen aan andere gebruikers. Vraag een andere beheerder om de rollen voor u toe te wijzen.
+U hebt mogelijk niet de juiste machtigingen en dus hebt u geen toegang om beheerdersrollen toe te wijzen aan andere gebruikers. Vraag een andere beheerder om de rollen voor u toe te wijzen.
 
 ::: moniker-end
 
@@ -126,7 +126,7 @@ U beschikt mogelijk niet over de juiste machtigingen en hebt dus geen toegang om
 
 [Rollen toewijzen aan gebruikersaccounts met PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)
 
-[Partnerrelaties autoriseren of verwijderen](https://support.office.com/article/201ccb3b-6011-4bf1-a6b2-84e7cc1ee2d0.aspx)
+[Partnerrelaties autoriseren of verwijderen](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner)
 
-[Een alternatief e-mailadres toevoegen met behulp van het Exchange-beheercentrum](https://docs.microsoft.com/Exchange/recipients/user-mailboxes/email-addresses?view=exchserver-2019#add-an-email-address-to-a-user-mailbox)
+[Een alternatief e-mailadres toevoegen met het Exchange-beheercentrum](https://docs.microsoft.com/Exchange/recipients/user-mailboxes/email-addresses?view=exchserver-2019#add-an-email-address-to-a-user-mailbox)
 

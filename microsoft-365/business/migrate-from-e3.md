@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Meer informatie over het verplaatsen van uw bedrijf naar Microsoft 365 Business vanuit Office 365 E3.
-ms.openlocfilehash: b86a163792aa71f0bca115ab918e0800acc0427d
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: cff6166529df2e56ba948a9bd3ea4594fb295b08
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42811673"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153530"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business"></a>Migreren van Office 365 E3 naar Microsoft 365 Business 
 
@@ -52,12 +52,12 @@ In deze tabel ziet u de verschillen tussen Microsoft 365 Business en Office 365 
 | **Bescherming tegen bedreigingen**        | | | 
 | ATP-abonnement (Advanced Threat Protection) van Office 365 (Advanced Threat Protection) | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd op | 
 | **Identiteitsbeheer**        | | | 
-| Selfservice wachtwoord opnieuw instellen voor hybride Azure Active Directory (Azure AD)-accounts, Azure multi-factor authenticatie (MFA), Voorwaardelijke toegang, wachtwoord terugschrijven voor on-premises identiteiten|     ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    |  | 
+| Selfservice wachtwoord opnieuw instellen voor hybride Azure Active Directory (Azure AD)-accounts, Azure Multi-Factor Authentication, Voorwaardelijke toegang, terugschrijven van wachtwoorden voor on-premises identiteiten|     ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    |  | 
 | **Apparaat- en appbeheer**        | | |
 | Microsoft Intune, Windows AutoPilot|     ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    |  |
 | Activering van gedeelde computers|     ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png)| 
 | Upgraderechten naar Windows 10 Pro vanaf Win 7/8.1 Pro-licenties|     ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    || 
-| **Informatiebescherming**        | | |
+| **Gegevensbeveiliging**        | | |
 |Preventie van gegevensverlies van Office 365|    ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)|![Inbegrepen bij Office 365 E3](../media/check-mark.png)|
 |Azure Information Protection Plan 1, Bitlocker handhaving|![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)||
 |Azure Information Protection Plan 1, Gevoeligheidslabels|![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)||
