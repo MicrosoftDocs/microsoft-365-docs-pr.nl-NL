@@ -15,12 +15,12 @@ ms.service: o365-administration
 localization_priority: Priority
 ms.assetid: f7449a18-1400-475a-b158-2668fef93bfe
 description: Informatie over het beheren van e-mail voor uw Office 365-postvakken.
-ms.openlocfilehash: 11d3a34b20cf8dc910931e2a52168945e4d0e969
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: ca1fba8c89f7c647a0bb6d4f846ebb12f82a7abd
+ms.sourcegitcommit: 5ba1efc0b498430e30231010024044049b8727c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106197"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43126009"
 ---
 # <a name="email"></a>E-mail
 
@@ -114,11 +114,11 @@ Informatie over het beheren van e-mail voor uw Office 365-postvakken.
                     <div class="cardText">
                         <h3>E-mail instellen</h3>
                         <p><a href="https://support.office.com/article/d0cf6608-4862-4a7b-82fc-f5fef235c966">Video: e-mail importeren</a></p>
-                        <p><a href="https://support.office.com/article/a3e3bddb-582e-4133-8670-e61b9f58627e">E-mail en contactpersonen migreren</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/admin/setup/migrate-email-and-contacts-admin">E-mail en contactpersonen migreren</a></p>
                         <p><a href="create-a-shared-mailbox.md">Gedeelde postvakken maken</a></p>
                         <p><a href="add-another-email-alias-for-a-user.md">Extra e-mailadressen toevoegen aan een gebruiker</a></p>
                         <p><a href="https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/owa-for-devices-contact-sync">Gebruikers in staat stellen e-mailcontactpersonen te synchroniseren met hun iPhone of iPad</a></p>
-                        <p><a href="https://support.office.com/article/69f58e99-c550-4274-ad18-c805d654b4c4">Een multifunctioneel apparaat instellen voor het verzenden van e-mail</a></p>
+                        <p><a href="https://docs.microsoft.com/Exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-office-3">Een multifunctioneel apparaat instellen voor het verzenden van e-mail</a></p>
                     </div>
                 </div>
             </div>
@@ -131,10 +131,10 @@ Informatie over het beheren van e-mail voor uw Office 365-postvakken.
                     <div class="cardText">
                         <h3>Uw e-mail beveiligen</h3>
                         <p><a href="create-edit-or-delete-a-security-group.md">Een beveiligingsgroep maken, bewerken of verwijderen</a></p>
-                        <p><a href="https://docs.microsoft.com/office365/securitycompliance/anti-spam-protection">Beveiliging tegen spam</a></p>
-                        <p><a href="https://docs.microsoft.com/office365/securitycompliance/block-email-spam-to-prevent-false-negatives">Het spamfilter instellen om spam te blokkeren</a></p>
-                        <p><a href="https://docs.microsoft.com/office365/securitycompliance/anti-spam-and-anti-malware-protection">Bescherming tegen ongewenste e-mail en malware</a></p>
-                        <p><a href="https://docs.microsoft.com/office365/securitycompliance/prevent-email-from-being-marked-as-spam">Voorkomen dat e-mail wordt gemarkeerd als spam</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection">Beveiliging tegen spam</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/create-block-sender-lists-in-office-365">Lijst met geblokkeerde afzenders maken</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection">Bescherming tegen ongewenste e-mail en malware</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection#manage-errors-in-spam-filtering">Voorkomen dat e-mail wordt gemarkeerd als spam</a></p>
                     </div>
                 </div>
             </div>
@@ -146,12 +146,11 @@ Informatie over het beheren van e-mail voor uw Office 365-postvakken.
                 <div class="card">
                     <div class="cardText">
                         <h3>Problemen met e-mailverbinding en -bezorging oplossen</a></h3>
-                        <p><a href="https://diagnostics.outlook.com/#/">Outlook-verbindingsproblemen in Office 365 en Exchange Online oplossen</a></p>
+                        <p><a href="https://diagnostics.outlook.com/#/">Fix Outlook connection problems in Office 365 and Exchange Online</a></p>
                         <p><a href="https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox">Verwijderde items herstellen in het postvak van een gebruiker</a></p>
-                        <p><a href="https://support.office.com/article/e7758b99-1896-41db-bf39-51e2dba21de6">Problemen met e-mail bezorging zoeken en oplossen</a></p>
+                        <p><a href="https://docs.microsoft.com/exchange/troubleshoot/mail-delivery/email-delivery-issues">Problemen met e-mail bezorging zoeken en oplossen</a></p>
                         <p><a href="../get-help-with-domains/find-and-fix-issues.md">Problemen opsporen en oplossen (inclusief e-mailproblemen) nadat u uw domein of DNS-records hebt toegevoegd</a></p>
-                        <p><a href="https://support.office.com/article/51daa6b9-2e35-49c4-a0c9-df85bf8533c3">NDR-foutcodes opzoeken in rapporten van niet-uitgevoerde bezorging</a></p>
-                        <p><a href="https://go.microsoft.com/fwlink/?LinkID=618675">Problemen met Outlook oplossen</a></p>
+                        <p><a href="https://docs.microsoft.com/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online">NDR-foutcodes opzoeken in rapporten van niet-uitgevoerde bezorging</a></p>
                     </div>
                 </div>
             </div>
@@ -167,7 +166,7 @@ Informatie over het beheren van e-mail voor uw Office 365-postvakken.
                         <p><a href="https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration">Manieren om meerdere e-mailaccounts naar Office 365 te migreren</a>.</p>
                         <p><a href="https://docs.microsoft.com/exchange/exchange-hybrid">Inhoud voor hybride implementatie van Exchange</a></p>
                         <p><a href="https://docs.microsoft.com/exchange/exchange-online">Exchange Online</a></p>
-                        <p><a href="https://docs.microsoft.com/office365/securitycompliance/eop/exchange-online-protection-overview">Exchange Online Protection</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview">Exchange Online Protection</a></p>
                     </div>
                 </div>
             </div>
