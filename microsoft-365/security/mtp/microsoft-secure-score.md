@@ -1,5 +1,5 @@
 ---
-title: Microsoft Secure-score
+title: Microsoft Secure Score
 description: Beschrijft de Microsoft Secure Score in het Microsoft 365-beveiligingscentrum, hoe details worden berekend en wat beveiligingsbeheerders kunnen verwachten.
 keywords: beveiliging, malware, Microsoft 365, M365, beveiligde score, beveiligingscentrum, verbeteringsacties
 ms.prod: microsoft-365-enterprise
@@ -17,14 +17,14 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 5fe9be7e85288e720b2ba3e5854cf34ec2263ee7
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 2094549e63be0a8e3c2bbc7997de13475c19bb0c
+ms.sourcegitcommit: d1909d34ac0cddeb776ff5eb8414bfc9707d5ac1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895427"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43163896"
 ---
-# <a name="microsoft-secure-score"></a>Microsoft Secure-score
+# <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
 Microsoft Secure Score is een meting van de beveiligingshouding van een organisatie, met een hoger aantal dat aangeeft dat er meer verbeteracties zijn uitgevoerd. Het volgen van de aanbevelingen voor beveiligingsscore kan uw organisatie beschermen tegen bedreigingen. Vanuit een gecentraliseerd dashboard in het Microsoft 365-beveiligingscentrum kunnen organisaties de beveiliging van hun Microsoft 365-identiteiten, gegevens, apps, apparaten en infrastructuur bewaken en eraan werken.
 
@@ -66,6 +66,7 @@ Met lees- en schrijftoegang u wijzigingen aanbrengen en rechtstreeks communicere
 * Beveiligingsbeheerder
 * Exchange-beheerder
 * SharePoint-beheerder
+* Accountbeheerder
 
 ### <a name="read-only-roles"></a>Alleen-lezen rollen
 

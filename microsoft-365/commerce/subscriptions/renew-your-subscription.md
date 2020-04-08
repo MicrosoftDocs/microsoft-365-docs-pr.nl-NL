@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: 'Meer informatie over het verlengen van uw Office 365 voor Bedrijven-abonnement met een productcode en het in- of uitschakelen van terugkerende facturering. '
-ms.openlocfilehash: acf5c81fae60fcce272dcee470de0588da3c4a97
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: a382a2c4767f9dac4ee276c050d077d854b99084
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142113"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43175200"
 ---
 # <a name="renew-office-365-for-business"></a>Office 365 voor Bedrijven verlengen
 
@@ -67,11 +67,7 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
 
 ::: moniker range="o365-germany"
   
-1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Abonnementen</a>.
-
-    Als u Office 365 Germany gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
-
-    Als u Office 365 beheerd door 21Vianet gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
 
 2. Kies het abonnement waarvoor u terugkerende facturering wilt beheren.
  
@@ -90,11 +86,7 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
 
 ::: moniker range="o365-21vianet"
   
-1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Abonnementen</a>.
-
-    Als u Office 365 Germany gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
-
-    Als u Office 365 beheerd door 21Vianet gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
 
 2. Kies het abonnement waarvoor u terugkerende facturering wilt beheren.
  
