@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Maak een Microsoft 365-omgeving voor het testen van identiteits- en apparaattoegang met de vereisten voor verificatie met wachtwoord-hash-synchronisatie.
-ms.openlocfilehash: 125d8c6e1e954a05edd630c8f4d55848fa3314b3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ae9f8545c20a169578d49b00bcee214526cc539a
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42809150"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153902"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Vereisten voor identiteits- en apparaattoegang voor wachtwoord-hash-synchronisatie in uw Microsoft 365-testomgeving.
 
 *Deze testlabrichtlijn kan alleen worden gebruikt voor Microsoft 365 Enterprise-testomgevingen.*
 
-[Configuraties voor identiteits- en apparaattoegang](microsoft-365-policies-configurations.md) is een set configuraties en beleid voor voorwaardelijke toegang om de toegang tot alle services te beveiligen die zijn geïntegreerd met Azure Active Directory (Azure AD), met inbegrip van Office 365 en Enterprise Mobility + Security (EMS) in Microsoft 365 Enterprise.
+[Configuraties voor identiteit en apparaattoegang](microsoft-365-policies-configurations.md) bestaan uit een set van configuraties en beleidsregels voor voorwaardelijke toegang om de toegang te beveiligen tot alle services die zijn geïntegreerd met Azure Active Directory (Azure AD), met inbegrip van Office 365 en Enterprise Mobility + Security (EMS) in Microsoft 365 Enterprise.
 
 In dit artikel wordt beschreven hoe een Microsoft 365-testomgeving kan worden geconfigureerd die voldoet aan de vereisten van de [configuratie van de vereisten van Active Directory met wachtwoord-hash-synchronisatie](identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang.
 

@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Maak een Microsoft 365-omgeving voor het testen van identiteits- en apparaattoegang met de vereisten voor pass-through-verificatie.
-ms.openlocfilehash: f9f5fd8f235787512d59b29dc06b080bc9cfa0ff
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 91b773b1ef2588490cf0434517a883ef447cd55d
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42807309"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153854"
 ---
 # <a name="identity-and-device-access-prerequisites-for-pass-through-authentication-in-your-microsoft-365-test-environment"></a>Vereisten voor identiteits- en apparaattoegang voor pass-through-verificatie in uw Microsoft 365-testomgeving.
 
 *Deze testlabrichtlijn kan alleen worden gebruikt voor Microsoft 365 Enterprise-testomgevingen.*
 
-[Configuraties voor identiteits- en apparaattoegang](microsoft-365-policies-configurations.md) is een set configuraties en beleid voor voorwaardelijke toegang om de toegang tot alle services te beveiligen die zijn geïntegreerd met Azure Active Directory (Azure AD), met inbegrip van Office 365 en Enterprise Mobility + Security (EMS) in Microsoft 365 Enterprise.
+[Configuraties voor identiteit en apparaattoegang](microsoft-365-policies-configurations.md) bestaan uit een set van configuraties en beleidsregels voor voorwaardelijke toegang om de toegang te beveiligen tot alle services die zijn geïntegreerd met Azure Active Directory (Azure AD), met inbegrip van Office 365 en Enterprise Mobility + Security (EMS) in Microsoft 365 Enterprise.
 
 In dit artikel wordt beschreven hoe u een Microsoft 365-testomgeving kunt configureren die voldoet aan de vereisten van de [configuratie voor pass-through-verificatie](identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang.
 

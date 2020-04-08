@@ -22,10 +22,10 @@ search.appverid:
 - MET150
 description: Pas uw sig-in-pagina aan met een privacy- en toestemmingsbericht voor Microsoft 365 voor campagnes.
 ms.openlocfilehash: ddf99652ef7fd66df508a36dc4368595509597f6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
+ms.lasthandoff: 04/07/2020
 ms.locfileid: "42811680"
 ---
 # <a name="customize-your-sign-in-page-with-a-privacy-and-consent-notice"></a>Uw aanmeldingspagina aanpassen met een privacy- en toestemmingsbericht

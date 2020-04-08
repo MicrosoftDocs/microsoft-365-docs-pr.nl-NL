@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Krijg inzicht in de belangrijkste fasen van het implementeren van de basisinfrastructuur voor Microsoft 365 voor ondernemingen in uw organisatie, ook wel bekend als de kernimplementatie.
-ms.openlocfilehash: 966fa8ad26d54328bf4d2e95c95b497e5d283e52
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 6c2784d22e236880b87ece9e04e11fb0502667dd
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951956"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153842"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure"></a>Basisinfrastructuur voor Microsoft 365 voor ondernemingen
 
@@ -88,7 +88,7 @@ U kunt bijvoorbeeld de instellingen voor het volgende maken:
 
 | Fase | Resultaten |
 |:-------|:-----|
-| Identiteit | Accountsynchronisatie en groepen voor voorwaardelijke toegang op basis van een identiteit. |
+| Identiteit | Accountsynchronisatie en groepen bij beleid voor voorwaardelijke toegang op basis van een identiteit. |
 | Windows 10 Enterprise | Groepen om automatisch een upgrade uit te voeren voor computers met Windows 7 of Windows 8.1 naar Windows 10 Enterprise. |
 | Office 365 ProPlus | Groepen voor het automatisch implementeren van Office 365 ProPlus voor gebruikers met Office 2010, Office 2013 of Office 2016. |
 | Mobile Device Management | Groepen voor apparaatinschrijving en beleid voor voorwaardelijke toegang op basis van apparaten. |
@@ -101,7 +101,7 @@ Wanneer u klaar bent om elementen van deze infrastructuur te implementeren voor 
 | Identiteit | Gebruikersaccounts toevoegen aan de groepen voor beleid voor voorwaardelijke toegang op basis van een identiteit. |
 | Windows 10 Enterprise | Accounts toevoegen aan de groepen om Windows 10 Enterprise automatisch te implementeren voor gebruikers met Windows 7 of Windows 8.1. |
 | Office 365 ProPlus | Gebruikersaccounts toevoegen aan de groepen om Office 365 ProPlus automatisch te implementeren voor gebruikers met Office 2010, Office 2013 of Office 2016. |
-| Mobile Device Management | Accounts toevoegen voor de groepen voor apparaatinschrijving en beleid voor voorwaardelijke toegang op basis van apparaten. |
+| Mobile Device Management | Accounts toevoegen aan de groepen voor apparaatinschrijving en beleid voor voorwaardelijke toegang op basis van apparaten. |
 | Gegevensbeveiliging | Gebruikersaccounts toevoegen aan de groepen voor gevoeligheidslabels. |
 
 Zodra fasen of elementen van de basisinfrastructuur zijn voltooid, getest en uitgeprobeerd, kunt u geïnstalleerde software, zoals Windows 10 Enterprise en Office 365 ProPlus, en cloudservices en -bescherming, zoals apparaatinschrijving en beleid voor voorwaardelijke toegang, voor uw gebruikers implementeren op de manier die het beste past bij uw bedrijfsdoelen en IT-resources.

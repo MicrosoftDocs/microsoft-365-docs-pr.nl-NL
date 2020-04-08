@@ -13,10 +13,10 @@ localization_priority: Normal
 description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: ea41326680ef5f8a8bf7eedddd18ccac5a97d80f
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
+ms.lasthandoff: 04/07/2020
 ms.locfileid: "42806212"
 ---
 # <a name="contact-support-for-canada"></a>Neem contact op met ondersteuning voor Canada
@@ -26,7 +26,7 @@ ms.locfileid: "42806212"
 ## <a name="phone-number"></a>Telefoonnummer
 1 800 865 9408
 
-## <a name="hours"></a>Uur
+## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Factureringsondersteuning:
 
 Engels: ma-vr 9:00-17:00 Uur Lokaal

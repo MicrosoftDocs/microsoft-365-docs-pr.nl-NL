@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Bescherm uw zakelijke e-mail en gegevens tegen cyberbedreigingen, waaronder ransomware, phishing en schadelijke bijlagen. '
-ms.openlocfilehash: 938a6d58c8781fcc04f6b86e15db88b5de523cdf
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: d271e0351f784e1616e81e0f0124e65c3526ab91
+ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142513"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170962"
 ---
 # <a name="top-10-ways-to-secure-office-365-and-microsoft-365-business-plans"></a>De 10 beste manieren om Office 365- en Microsoft 365 Business-abonnementen te beveiligen
 
@@ -190,6 +190,7 @@ Ga als lid van het openbaar vervoer naar een andere regel:
 |:-----|:-----|
 |Name  <br/> |Automatisch doorsturen van e-mail naar externe domeinen voorkomen  <br/> |
 |Pas deze regel toe als ...  <br/> |De afzender . . . is extern/intern . . . Binnen de organisatie  <br/> |
+|Voorwaarde toevoegen  <br/> |De ontvanger . . . is extern/intern . . . Buiten de organisatie  <br/> |
 |Voorwaarde toevoegen  <br/> |De berichteigenschappen . . . het berichttype opnemen . . . Automatisch doorsturen  <br/> |
 |Doe de volgende ...  <br/> |Het bericht blokkeren . . . het bericht af te wijzen en een uitleg op te nemen.  <br/> |
 |Berichttekst opgeven  <br/> |Het automatisch doorsturen van e-mail buiten deze organisatie wordt om veiligheidsredenen voorkomen.  <br/> |
