@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Bekijk de antwoorden op veelgestelde vragen over gecentraliseerde implementatie vanuit het Microsoft 365-beheercentrum.
-ms.openlocfilehash: d63158f70e3f905b0ee1acf994cbef207f1ab4f1
-ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
+ms.openlocfilehash: 313e1dd7481ccdd8bbf7531d5b7433f8bbd54e38
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43166487"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43188972"
 ---
 # <a name="centralized-deployment-faq"></a>Veelgestelde vragen over gecentraliseerde implementatie
 
@@ -33,7 +33,7 @@ Gecentraliseerde implementatie is de aanbevolen manier voor een Office 365-behee
 
 Voor een gecentraliseerde implementatie van invoegingen moeten gebruikers Office 365 ProPlus gebruiken (en zijn aangemeld bij Office met hun inloggegevens voor de organisatie) en exchange online-postvakken hebben. Uw abonnementsmap moet zich in Azure Active Directory bevinden of worden gefedereerd.  
  
-Gecentraliseerde implementatie wordt alleen ondersteund voor een Outlook Online-postvakken. Het ondersteunt geen implementatie naar on-premises Exchange-postvakken.
+Gecentraliseerde implementatie wordt alleen ondersteund voor online postvakken. Het ondersteunt geen implementatie naar on-premises Exchange-postvakken.
  
 U de [office 365-controlecompatibiliteitscontrole](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker) voor gecentraliseerde implementatie gebruiken om te bepalen of uw abonnement in aanmerking komt. 
   
@@ -47,7 +47,7 @@ Zie [Gebruikers- en groepstoewijzingen](https://docs.microsoft.com/microsoft-365
    
 ## <a name="how-long-does-it-take-for-add-ins-to-show-up-for-all-users"></a>Hoe lang duurt het voordat invoegingen voor alle gebruikers worden weergegeven?  
 
-Het kan tot 12 uur duren voordat een invoegtoepassing voor alle gebruikers wordt weergegeven. Het kan evenveel tijd in beslag nemen voor invoegupdates, wijzigingen vanaf het in- of uitschakelen of invoegingsverwijderingen. 
+Het kan tot 24 uur duren voordat een invoegtoepassing voor alle gebruikers wordt weergegeven. Het kan evenveel tijd in beslag nemen voor invoegupdates, wijzigingen vanaf het in- of uitschakelen of invoegingsverwijderingen. 
   
 ## <a name="as-an-administrator-how-do-i-manage-the-user-access-to-add-ins-for-my-organization"></a>Hoe beheer ik als beheerder de toegang van de gebruiker tot invoegingen voor mijn organisatie?
 

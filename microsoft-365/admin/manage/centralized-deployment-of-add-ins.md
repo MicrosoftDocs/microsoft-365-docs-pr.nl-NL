@@ -1,5 +1,5 @@
 ---
-title: Bepalen of gecentraliseerde implementatie van invoegins werkt voor uw organisatie
+title: Bepalen of gecentraliseerde implementatie van invoegingen werkt voor uw organisatie
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -18,24 +18,24 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
-description: Bepaal of uw Office 365-tenant en -gebruikers aan de vereisten voldoen, zodat u Gecentraliseerde implementatie gebruiken om Office-invoegins te implementeren.
-ms.openlocfilehash: 78d87c5539daa77c2babb7ffa36967c5f27e3c10
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Bepaal of uw Office 365-tenant en -gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie gebruiken om Office-invoegtoepassingen te implementeren.
+ms.openlocfilehash: d6b81a5ac5ef3b5287810110e5d0582bf34bff93
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42811049"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43189018"
 ---
-# <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Bepalen of gecentraliseerde implementatie van invoegins werkt voor uw organisatie
+# <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Bepalen of gecentraliseerde implementatie van invoegingen werkt voor uw organisatie
 
-Gecentraliseerde implementatie is de aanbevolen en meest veelzijdige manier voor de meeste klanten om Office-invoegtoepassingen te implementeren voor gebruikers en groepen binnen de Office 365-organisatie. Als u een beheerder bent, gebruikt u deze richtlijnen om te bepalen of uw tenant en gebruikers aan de vereisten voldoen, zodat u Gecentraliseerde implementatie gebruiken.
+Gecentraliseerde implementatie is de aanbevolen en meest veelzijdige manier voor de meeste klanten om Office-invoegtoepassingen te implementeren voor gebruikers en groepen binnen de Office 365-organisatie. Als u een beheerder bent, gebruikt u deze richtlijnen om te bepalen of uw tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie gebruiken.
 Gecentraliseerde implementatie ondersteunt Windows-, Mac-, iOS-, Android- en Online Office-apps.
-Het kan tot 12 uur duren voordat een invoegtoepassing wordt weergegeven voor de client voor alle gebruikers.
+Het kan maximaal 24 uur duren voordat een invoegtoepassing aan alle gebruikers wordt weergegeven.
   
 ## <a name="requirements"></a>Vereisten
 
-Gecentraliseerde implementatie van invoegvormen vereist dat de gebruikers Office 365 ProPlus gebruiken (en zijn aangemeld bij Office met hun organitimatie-id) en exchange online- en actieve Exchange Online-postvakken hebben. De map van uw abonnement moet zijn inof gefedereerd naar Azure Active Directory.
-U hieronder specifieke vereisten voor Office en Exchange bekijken of de [compatibiliteitscontrole voor centrale implementatie van Office 365](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker)gebruiken.
+Voor een gecentraliseerde implementatie van invoegingen moeten de gebruikers Office 365 ProPlus gebruiken (en zijn aangemeld bij Office met hun organisatie-id) en hebben ze Exchange Online- en actieve Exchange Online-postvakken. De map van uw abonnement moet zich in of gefedereerd hebben in Azure Active Directory.
+U hieronder specifieke vereisten voor Office en Exchange bekijken of de [office 365-controlevoor compatibiliteitscontrole voor gecentraliseerde implementatie](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker)gebruiken.
 
 Gecentraliseerde implementatie biedt geen ondersteuning voor het volgende:
   
@@ -53,10 +53,10 @@ Gecentraliseerde implementatie biedt geen ondersteuning voor het volgende:
 
 ### <a name="office-requirements"></a>Office-vereisten
 
-- Voor Invoegtoepassing In Word, Excel en PowerPoint moeten uw gebruikers een van de volgende opties gebruiken:
-  - Versie 1704 of hoger op een Windows-apparaat van Office 365 ProPlus op een Windows-apparaat.
+- Voor Word-, Excel- en PowerPoint-invoegtoepassings moeten uw gebruikers een van de volgende opties gebruiken:
+  - Op een Windows-apparaat, versie 1704 of hoger van Office 365 ProPlus.
   - Op een Mac, versie 15.34 of hoger.
-      - Op iOS (alleen iPad) versie 2.9.18010804 of hoger.
+
 - Voor Outlook moeten uw gebruikers een van de volgende opties gebruiken: 
   - Versie 1701 of hoger van Office 365 ProPlus.
   - Versie 1808 of hoger van Office Professional Plus 2019 of Office Standard 2019.
@@ -66,7 +66,7 @@ Gecentraliseerde implementatie biedt geen ondersteuning voor het volgende:
 - Versie 2.75.0 of hoger van Outlook mobile voor iOS 
 - Versie 2.2.145 of hoger van Outlook mobile voor Android 
     
-    *MSI-versies van Outlook tonen door beheerders geïnstalleerde invoegins op het juiste Outlook-lint, niet de sectie 'Mijn invoegingen'.
+    *MSI-versies van Outlook tonen door de beheerder geïnstalleerde invoegingen in het juiste Outlook-lint, niet in de sectie Mijn invoegingen.
     
 
 #### <a name="find-out-if-office-365-proplus-is-installed"></a>Controleren of Office 365 ProPlus is geïnstalleerd
@@ -75,7 +75,7 @@ Als u Office 365 ProPlus wilt gebruiken, moet een gebruiker een Office 365-accou
 
 De eenvoudigste manier om te detecteren of een gebruiker Office 365 ProPlus heeft geïnstalleerd en het onlangs heeft gebruikt, is door het microsoft Office-activeringsrapport te gebruiken, dat beschikbaar is in het Microsoft 365-beheercentrum. Het rapport biedt een lijst met alle gebruikers die Office 365 ProPlus in de afgelopen 7 dagen, 30 dagen, 90 dagen of 180 dagen hebben geactiveerd. Voor gecentraliseerde implementatiedoeleinden zijn de bureaubladactiveringen voor Windows of Mac de belangrijke kolommen in het rapport. U kunt het rapport exporteren naar Excel. Zie [Office 365-rapporten in het beheercentrum - Microsoft Office-activeringen](../activity-reports/microsoft-office-activations.md) voor meer informatie over het rapport.
   
-Als u het rapport Activeringen niet wilt gebruiken, u een gebruiker vragen een Office-toepassing zoals Word op zijn machine te openen en vervolgens \> **Bestandaccount**kiezen. **File** Onder **Productinformatie** zou u **Abonnementsproduct** en **Microsoft Office 365 ProPlus** moeten zien, zoals weergegeven in de volgende afbeelding.
+Als u het rapport Activeringen niet wilt gebruiken, u een gebruiker vragen een Office-toepassing zoals Word op zijn of haar machine te openen en vervolgens **Account** \> **bestand**te kiezen. Onder **Productinformatie** zou u **Abonnementsproduct** en **Microsoft Office 365 ProPlus** moeten zien, zoals weergegeven in de volgende afbeelding.
 
 ![Productinformatie in een Office-toepassing](../../media/4bff2bb8-0690-4d22-ac1f-b8881807fa39.png)
   
@@ -84,7 +84,7 @@ Voor hulp met Office 365 ProPlus raadpleegt u [Tips voor het oplossen van proble
 
 ### <a name="exchange-online-requirements"></a>Exchange Online-vereisten
 
-Microsoft Exchange slaat de invoegtoepassingsmanifesten op in de tenant van uw organisatie. De beheerder die invoegins implementeert en de gebruikers die deze invoegins ontvangen, moeten zich op een versie van Exchange Online begeven die OAuth-verificatie ondersteunt.
+Microsoft Exchange slaat de invoegtoepassingsmanifesten op in de tenant van uw organisatie. De beheerder die invoegingen implementeert en de gebruikers die deze invoegingen ontvangen, moeten zich op een versie van Exchange Online begeven die OAuth-verificatie ondersteunt.
   
 Vraag de Exchange-beheerder van uw organisatie welke configuratie in gebruik is. OAuth-connectiviteit per gebruiker kan worden geverifieerd door de PowerShell-cmdlet [Test-OAuthConnectivity](https://go.microsoft.com/fwlink/p/?linkid=846351) te gebruiken. 
 
@@ -103,12 +103,12 @@ Met de compatibiliteitscontrole van Office 365 Gecentraliseerde implementatie ku
 Import-Module O365CompatibilityChecker
 ```
     
-3. Voer de opdracht **Invoke-CompatabilityCheck uit:**
+3. Voer de opdracht **Aanroepen-CompatabilityCheck uit:**
 
 ```powershell
 Invoke-CompatibilityCheck
 ```
-   die u vraagt voor *_TenantDomain_* (bijvoorbeeld *TailspinToysIncorporated.onmicrosoft.</span> com*) en *_TenantAdmin-referenties_* (gebruik uw globale beheerdersreferenties) en vraagt vervolgens toestemming.
+   die u vraagt voor *_TenantDomain_* (bijvoorbeeld *TailspinToysIncorporated.onmicrosoft.</span> com)* en *_TenantAdmin-referenties_* (gebruik uw globale beheerdersreferenties) en vraagt vervolgens toestemming.
     
 > [!NOTE]
 > Afhankelijk van het aantal gebruikers in uw tenant, kan het afronden van de controle minuten of uren in beslag nemen. 
@@ -121,7 +121,7 @@ Als het hulpprogramma is uitgevoerd, wordt een uitvoerbestand gegenereerd in een
     
 - Geschikt voor Gecentraliseerde implementatie (als de overige items waar zijn)
     
-- Office-abonnement - Het plan van Office waarvoor ze een licentie hebben
+- Office-abonnement - Het office-abonnement waarvoor ze een licentie hebben
     
 - Office geactiveerd (als Office is geactiveerd)
     
@@ -145,9 +145,9 @@ Bekijk het volgende voorbeeld, waarin Femke, Assia en de groep Verkoopafdeling z
    
 ### <a name="find-out-if-a-group-contains-nested-groups"></a>Controleren of een groep geneste groepen bevat
 
-De gemakkelijkste manier om te controleren of een groep geneste groepen bevat, is het visitekaartje van de groep in Outlook te bekijken. Als u de groepsnaam invoert in het veld **Aan** van een e-mail en vervolgens de groepsnaam selecteert wanneer deze wordt opgelost, wordt u weergegeven als deze gebruikers of geneste groepen bevat. In het onderstaande voorbeeld toont het tabblad **Leden** van het Outlook-visitekaartje voor de Testgroep geen gebruikers en slechts twee subgroepen. 
+De gemakkelijkste manier om te controleren of een groep geneste groepen bevat, is het visitekaartje van de groep in Outlook te bekijken. Als u de groepsnaam invoert in het veld **Aan** van een e-mail en vervolgens de groepsnaam selecteert wanneer deze wordt opgelost, wordt u weergegeven of deze gebruikers of geneste groepen bevat. In het onderstaande voorbeeld toont het tabblad **Leden** van het Outlook-visitekaartje voor de Testgroep geen gebruikers en slechts twee subgroepen. 
   
-![Tabblad Leden van outlook-visitekaartje](../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png)
+![Tabblad Leden van Outlook-visitekaartje](../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png)
   
 U kunt de tegenovergestelde query uitvoeren door de groep om te zetten om te zien of deze een lid van een groep is. In het onderstaande voorbeeld kunt u op het tabblad **Lidmaatschap** van het Outlook-visitekaartje zien dat Subgroep 1 een lid van de Testgroep is. 
   
@@ -157,11 +157,11 @@ U kunt ook de Azure Active Directory Graph API gebruiken voor het uitvoeren van 
   
 ### <a name="contacting-microsoft-for-support"></a>Contact opnemen met Microsoft voor ondersteuning
 
-Als u of uw gebruikers problemen ondervinden bij het laden van de invoegtoepassing tijdens het gebruik van Office-apps voor het web (Word, Excel, enz.), die centraal zijn geïmplementeerd, moet u mogelijk contact opnemen met Microsoft-ondersteuning[(lees hoe](../contact-support-for-business-products.md)). Geef de volgende informatie over uw Office 365-omgeving in het ondersteuningsticket.
+Als u of uw gebruikers problemen ondervinden bij het laden van de invoegtoepassing tijdens het gebruik van Office-apps voor het web (Word, Excel, enz.), die centraal zijn geïmplementeerd, moet u mogelijk contact opnemen met microsoft-ondersteuning[(meer informatie).](../contact-support-for-business-products.md) Geef de volgende informatie over uw Office 365-omgeving in het ondersteuningsticket.
   
 |**Platform**|**Foutopsporingsgegevens**|
 |:-----|:-----|
 |Office  <br/> | Charles/Fiddler-logboeken  <br/>  Tenant-ID ( [meer informatie over hoe](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b.aspx))  <br/>  Correlatie-ID. Bekijk de bron van een van de kantoorpagina's en zoek naar de correlatie-id-waarde en stuur deze naar ondersteuning:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
-|Uitgebreide clients (Windows, Mac)  <br/> | Charles/Fiddler-logboeken  <br/>  Nummers van de client-app maken (bij voorkeur als schermafbeelding van **Bestand/Account)**  <br/> |
+|Uitgebreide clients (Windows, Mac)  <br/> | Charles/Fiddler-logboeken  <br/>  Nummers van de client-app maken (bij voorkeur als screenshot van **Bestand/Account)**  <br/> |
    
 
