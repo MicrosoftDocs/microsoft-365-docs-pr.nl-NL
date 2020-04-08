@@ -4,19 +4,34 @@ summary: Microsoft 365 Business is een abonnementsservice met productiviteitstoo
 brand: m365
 metadata:
   title: Microsoft 365 Business-bronnen
-  description: Beschrijving
+  description: beschrijving
   ms.service: o365-administration
   ms.topic: hub-page
   ms.collection: collection
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 238c4cd0c74854def600af876f93c52e6480ebb5
-  ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+  ms.openlocfilehash: 9741932fcde29d2b64156c600f1bad1b309d5f66
+  ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 01/18/2020
-  ms.locfileid: "42812065"
+  ms.lasthandoff: 04/07/2020
+  ms.locfileid: "43165909"
+productDirectory:
+  title: Veilig werken op afstand met Microsoft 365 Business
+  items:
+  - title: Wat is er nieuw?
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+    summary: Azure AD Premium P1 komt naar Microsoft 365 Business!
+    url: https://aka.ms/aadp1smbblog
+  - title: Bekijk de webinar van partners
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
+    summary: Beveilig uw MKB-klanten terwijl ze omgaan met COVID-19.
+    url: https://aka.ms/M365v253PAL-Register
+  - title: Kopen
+    imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
+    summary: Klik op de link om je partner te kopen of contact op te nemen.
+    url: https://aka.ms/m365bweb
 conceptualContent:
   items:
   - title: Wat is Microsoft 365 Business?
@@ -82,7 +97,7 @@ conceptualContent:
     links:
     - url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp
       itemType: overview
-      text: Geavanceerde bedreigingsbeveiliging van Office 365
+      text: Office 365 Advanced Threat Protection
     - url: set-up-mfa.md
       itemType: how-to-guide
       text: MFA instellen
