@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over meervoudige verificatie in Office 365 en de stappen die u moet volgen om deze in te stellen.
-ms.openlocfilehash: e3886387740fe904b9c9458f7b1abf736c3ef83f
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: be3b355f4487e2df5c2e20c9911c3bb421d5f7e1
+ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153566"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170938"
 ---
 # <a name="plan-for-multi-factor-authentication-for-office-365-deployments"></a>Meervoudige verificatie plannen voor Office 365-implementaties
 
@@ -65,7 +65,7 @@ U kunt een andere subset met mogelijkheden krijgen afhankelijk van of u een impl
 |Hybride installatie, on-premises beheer  <br/> | Als u gebruikersidentiteiten on-premises beheerd, hebt u de volgende keuzes:  <br/>  Fysieke of virtuele smartcard (bij gebruik van AD FS)  <br/> [Azure-verificatie met meerdere factoren](https://go.microsoft.com/fwlink/p/?LinkId=526677) (module voor AD FS)  <br/>  Azure Active Directory (Azure AD) multi-factor verificatie  <br/> |
    
   
-In de volgende afbeelding ziet u hoe dankzij bijgewerkte Office 2013-apparaat-apps (voor Windows) gebruikers zich met MFA kunnen aanmelden. De Office 2013-apparaat-apps ondersteunen meervoudige verificatie met behulp van [Active Directory Authentication Library (ADAL)](https://go.microsoft.com/fwlink/p/?LinkId=526684). Azure AD host een webpagina waar gebruikers zich kunnen aanmelden. De id-provider kan Azure AD zijn of een federatieve identiteitsprovider, bijvoorbeeld AD FS. De verificatie voor federatieve gebruikers gaat volgens deze stappen:
+In de volgende afbeelding ziet u hoe dankzij bijgewerkte Office 2013-apparaat-apps (voor Windows) gebruikers zich met MFA kunnen aanmelden. De Apparaat-apps van Office 2013 ondersteunen meervoudige verificatie via de [Active Directory Authentication Library (ADAL).](https://go.microsoft.com/fwlink/p/?LinkId=526684) Azure AD host een webpagina waar gebruikers zich kunnen aanmelden. De id-provider kan Azure AD zijn of een federatieve identiteitsprovider, bijvoorbeeld AD FS. De verificatie voor federatieve gebruikers gaat volgens deze stappen:
   
 1. Azure AD stuurt de gebruiker door naar de aanmeldingswebpagina die wordt gehost door de voor de Office 365-tenant geregistreerde id-provider. De id-provider wordt vastgesteld door het domein dat is opgegeven in de aanmeldingsnaam van de gebruiker.
     

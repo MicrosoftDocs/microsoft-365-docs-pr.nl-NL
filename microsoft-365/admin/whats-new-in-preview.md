@@ -21,12 +21,12 @@ ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: Het Microsoft 365-beheercentrum - meer informatie over de functies die deze maand zijn toegevoegd.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 8bd1c5b38ef2f2bf7f208b5efb0dadb124211e2c
-ms.sourcegitcommit: 2b00fed90a6588c3f8d773bc50a346b9cccd5750
+ms.openlocfilehash: 06cc7519cae2b71581f0f50e9e8eec15fe77e568
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42811735"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43171010"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe nieuws in het Microsoft 365-beheercentrum
 
@@ -36,10 +36,59 @@ We voegen voortdurend nieuwe functies toe aan [het Microsoft 365-beheercentrum,]
 > **"Klassieke" admin center pensioen vanaf maart**<br><br>
 Wanneer u zich aanmeldt bij admin.microsoft.com, gaat u nu elke keer naar het nieuwe beheercentrum. En in maart zullen we beginnen met het uitschakelen van de mogelijkheid om terug te schakelen naar de klassieke admin center. Voor nu u nog steeds terug schakelen, maar als het nieuwe beheercentrum tot pariteit komt (en het overschrijdt) zullen we de schakelaar voor alle organisaties uitschakelen. <br><br> *Laatst bijgewerkt: 2 maart 2020*
 
-En als je geïnteresseerd bent in wat er nieuw is in andere beheercentra:
+En als u geïnteresseerd bent in wat er nieuw is in andere Microsoft-cloudservices:
 
+- [Nieuwe informatie in Exchange Online](https://go.microsoft.com/fwlink/?linkid=2119714)
+- [Nieuwe nieuwe artikelen in Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
 - [Nieuwe nieuwe artikelen in het Microsoft 365-compliancecenter](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
 - [Nieuwe informatie in het SharePoint-beheercentrum](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
+- [Office-updates](https://docs.microsoft.com/OfficeUpdates/)
+
+## <a name="march-2020"></a>Maart 2020
+
+### <a name="featured-feedback-fix-improve-add-user-reliability-for-licensing"></a>Aanbevolen feedbackoplossing: de betrouwbaarheid van de gebruiker voor licenties verbeteren
+
+We hebben veel feedback ontvangen van beheerders over hoe moeilijk het is om licenties toe te wijzen bij het toevoegen van gebruikers. We hebben de eerste update van deze oplossing gemaakt en we zijn gemigreerd naar een betrouwbaardere service achter de schermen om deze verzoeken te verwerken. En als er iets misgaat, krijg je nu een foutmelding waarmee je het opnieuw proberen.
+
+:::image type="content" source="../media/MAC-WN-ImprovedLicensing.png" alt-text="Voeg de bevestigingspagina van de gebruiker toe met de fout.":::
+
+### <a name="microsoft-teams-home-page-card"></a>Microsoft Teams-startpaginakaart
+
+Met de toename in het gebruik van Teams, krijgen sommige organisaties een vastgemaakte dashboardkaart die het inschakelen van Teams beter vindbaar maakt. De kaart heeft ook links naar training en documenten om uw organisatie te helpen over te stappen naar werk op afstand. Ga gewoon naar de **startpagina** om de nieuwe kaart te zien.
+
+:::image type="content" source="../media/MAC-WN-TeamsCard.PNG" alt-text="Microsoft Teams-startpaginakaart":::
+
+### <a name="customize-your-organizations-sharepoint-mobile-app-theme"></a>Het sharepoint-app-thema van uw organisatie aanpassen
+
+Met het Microsoft 365-beheercentrum u nu het thema van uw organisatie aanpassen in de mobiele SharePoint-app voor iOS en de mobiele SharePoint-app voor Android. Deze functie biedt gemakkelijk een mobiele intranet-app-ervaring die uw SharePoint Online kan matchen voor werknemers die onderweg zijn. Themaaanpassing omvat uw logoafbeelding, kleur van de navigatiebalk, tekst- en pictogramkleuren en accentkleuren, waardoor u gemakkelijk worden herkenning.
+
+:::image type="complex" source="../media/MAC-WN-CustThemeSP.png" alt-text="Diagram dat de instellingen van het beheercentrum in kaart brengt aan de mobiele app.":::
+
+:::image-end:::
+
+### <a name="improvements-to-the-add-a-group-wizard"></a>Verbeteringen in de wizard 'Een groep toevoegen'
+
+Wanneer beheerders een nieuwe groep maakten en er tegelijkertijd een team van maakten, kunnen ze eigenaren toewijzen die geen licentie hebben die Teams bevat. En dat zorgde voor hoofdpijn. We hebben de wizardstroom bijgewerkt om te controleren of eigenaren een Teams-licentie hebben en als ze niet de optie hebben om de groep om te zetten in een team, is uitgeschakeld.
+
+### <a name="microsoft-365-offerings-for-small-and-medium-businesses"></a>Microsoft 365-aanbiedingen voor kleine en middelgrote bedrijven
+
+We weten dat dit een aankondiging is voor volgende maand, maar we willen zeker weten dat je voorbereid bent.
+
+Vanaf 21 april voeren we wijzigingen door met betrekking tot onze Office 365-abonnementen voor kleine en middelgrote bedrijven en voor Office 365 ProPlus. Deze producten zullen nu gebruik maken van de Microsoft 365 merk.
+
+De nieuwe productnamen gaan in op 21 april 2020. Dit is alleen een wijziging in de productnaam en er zijn op dit moment geen prijs- of functiewijzigingen.
+
+|Huidige naam |Nieuwe naam  |
+|---------|---------|
+|Office 365 Business Essentials     |   Microsoft 365 Business Basic      |
+|Office 365 Business Premium     |    Microsoft 365 Business Standard     |
+|Microsoft 365 Business     |    Microsoft 365 Business Premium     |
+|Office 365 Business     |    Microsoft 365 Apps voor bedrijven       | 
+|Office 365 ProPlus    |   Microsoft 365-apps voor bedrijven      |
+
+### <a name="videos-training-and-docs"></a>Video's, training en documenten
+
+[Wat is er nieuw in Microsoft 365 web-serie:](https://go.microsoft.com/fwlink/p/?linkid=2118096)In de aflevering van deze maand, we wijzen op de 3-jarige verjaardag van Microsoft Teams en hebben betrekking op nieuwe functies, waaronder verbeterde geluidskwaliteit in online vergaderingen, Gerichte communicatie voor firstline managers met de Shifts app, Teams en Skype interoperabiliteit van de consument, en nog veel meer.
 
 ## <a name="february-2020"></a>Februari 2020
 
@@ -169,7 +218,7 @@ Welkom bij de Ignite Edition van de Nieuwe In het Microsoft 365-beheercentrum! N
 - [ADMIN - Beveiligings-, productiviteits- en netwerkverbeteringen voor Microsoft 365](https://techcommunity.microsoft.com/t5/Microsoft-365-Blog/ADMIN-Security-Productivity-and-Network-Enhancements-for/ba-p/964019).
 - [Nieuw in Microsoft Teams - Ignite 2020](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-New-in-Microsoft-Teams-Ignite-2019/ba-p/937025).
 
-### <a name="role-based-access-control"></a>Op rollen gebaseerd toegangscontrole
+### <a name="role-based-access-control"></a>Toegangsbeheer op basis van rollen
 
 Er zijn veel veranderingen voor rollen in het beheercentrum sinds we begonnen met de uitrol in juni:
 
@@ -407,64 +456,3 @@ Deze maand gaan we ons richten op alle verbeteringen die we hebben aangebracht i
 We hebben **licenties en apps** opnieuw gecombineerd in het deelvenster gebruikersgegevens op basis van uw feedback. We scheidden in eerste instantie de twee functies om ruimte te bieden voor de details van alle licentie en alle app-mogelijkheden. We hoorden van u dat het scheiden van licenties en apps in twee deelvensters verwarring toevoegde. We luisterden en brachten licenties en apps weer bij elkaar in één tabblad. Nu u ervoor zorgen dat een app is uitgeschakeld in alle licenties die in één deelvenster aan een gebruiker zijn toegewezen. Melk en koekjes. Licenties en apps. We krijgen het nu.
 
 Bekijk het: **gebruikers > actieve gebruikers >** gebruikers > licenties en apps bewerken of **toevoegen**
-
-## <a name="december-2018"></a>December 2018
-
-- **Services & add-ins** - In oktober hebben we **Instellingen** \> Services bijgewerkt **& add-ins** met onze nieuwe ontwerpstijl, maar alle instellingenpagina's waren nog in de klassieke stijl. Deze maand zijn we begonnen met het bijwerken van de werkelijke instellingen voor het nieuwe ontwerp. Bekijk **Boekingen** om de nieuwe look te zien.
-- **Gebruikersbeheer** - Gebruikersnaam, alias, primair e-mailadres beheren.
-- We hebben twee thuiskaarten aan de bibliotheek toegevoegd. U hun volledige beschrijvingen lezen in de bibliotheek.
-  - **Inschrijving voor intune-apparaten**
-  - **Domeinen**
-- **Aanbevelingen** : mogelijk ziet u een nieuwe aanbeveling in uw beheercentrum. Natuurlijk ziet u alleen aanbevelingen als we denken dat dit uw organisatie ten goede komt. Maar wacht niet tot we u de aanbeveling laten zien - u het toevoegen vanuit de kaartbibliotheek.
-  - **Gevoelige informatie beveiligen** - We raden u aan een DLP-beleid (Data Loss Prevention) te maken om te detecteren wanneer items met gevoelige informatie worden gedeeld met mensen buiten uw organisatie.
-
-## <a name="november-2018"></a>November 2018
-
-- Het vak Zoeken is terug! En we hebben het een beetje verplaatst. Het is nog steeds aan de bovenkant van de startpagina, maar het is nu aan de rechterkant van de pagina in de buurt van de **knop Kaart toevoegen.** <br> ![Schermopname waarin wordt uitgelegd dat het zoekvak zich in de rechterbovenhoek van de startpagina bevindt.](../media/M365PreviewSearchBox.png)
-
-- We hebben kaarten toegevoegd voor het dashboard. Ga gewoon naar het beheercentrum en selecteer **Kaart toevoegen** om de nieuwe kaarten te zien:
-  - **Rapport office 365 Active-gebruikers :** Controleer het gebruik van de Office 365-services die u hebt gekocht.
-  - **Office 365-software** - Installeer of implementeer Office 365 ProPlus-software en bekijk hoeveel gelicentieerde gebruikers deze hebben geactiveerd.
-  - **Azure Active Directory** - Geeft u snel toegang tot veelvoorkomende Azure AD-taken zoals zelfgebruikswachtwoordresets, het aanpassen van aanmelding en het toevoegen van apps.
-- De snelle taak **Gebruikers exporteren** is toegevoegd aan de opdrachtbalk op de pagina Actieve gebruikers. ![Schermopname met exportgebruikers op de opdrachtbalk naast Vernieuwen.](../media/M365PreviewExportUsersQT.png)
-- Inkoopservices heeft extra verbeteringen voor november. En ze zijn allemaal goed! Ga naar Services facturering > om daar te komen. <br>![Schermopname met de pagina aankoopservices met 3 nieuwe verbeteringen.](../media/M365PreviewBillingPurchasServices.png)
-
-  > 1. Boven aan de pagina u draaien tussen bedrijfs- en onderwijsplannen. Dat zal je helpen vinden wat je zoekt.
-  > 2. We hebben een zoekvak toegevoegd, zodat je niet eindeloos hoeft te scrollen om te vinden wat je zoekt.
-  > 3. Tot slot hebben we logisch de plannen die u kopen gesorteerd in secties die u uitbreiden en samenvouwen. Hebt u geen van de **Office-apps en -services**nodig? Vouw dat gedeelte samen en richt u op Microsoft 365-abonnementen.
-
-## <a name="october-2018"></a>Oktober 2018
-
-- Er is een nieuwe manier om abonnementen te kopen in het Microsoft 365-beheercentrum. Ga naar **Inkoopservices** om de volledig opnieuw ontworpen winkelervaring te zien die het gemakkelijk maakt om plannen te zoeken, te vergelijken en andere geweldige nieuwe functies die het kopen van een abonnement gemakkelijker maken. <br/>![Vergelijking van het abonnement voor inkoopservices in de preview-versie van het Microsoft 365-beheercentrum](../media/0ad5acf1-8ffc-44bf-aac2-c21269910e65.png)
-
-- De pagina **Services en invoegingen** is bijgewerkt naar de nieuwe look en feel, maar al het andere werkt precies hetzelfde. Natuurlijk moet u de opdrachtbalk bekijken om te zien wat nieuwe dingen u doen, zoals filteren en de lijst wijzigen in compacte weergave. Ga in het navigatiedeelvenster naar **invoegtoepassing &amp; ** **Instellingen** \> services om het uit te zoeken. <br/>![Pagina Instellingen en invoegingen in de preview-versie van het Microsoft 365-beheercentrum](../media/af9a3ed3-bfe6-438b-b4b5-2ca4164f8e3f.png)
-
-## <a name="september-2018"></a>September 2018
-
-- **De verbeteringen van het huis** De startpagina is volledig opnieuw gedaan en we kunnen niet wachten tot u om het uit te proberen en te zien wat je denkt. Dit is uw persoonlijke startpagina en u hebt geen invloed op de startpagina's van andere beheerders in uw organisatie. <br/>![Schermopname: startpagina van microsoft 365-beheercentrum voorbeeld.](../media/d1a497f1-30e6-4c1a-9bb2-d4d7895906da.png)
-
-  - U startpaginakaarten toevoegen, verwijderen en verplaatsen rond de startpagina. Selecteer **+ Selecteer kaarten in** de rechterbovenhoek om te zien welke kaarten beschikbaar zijn in de kaartbibliotheek en sleep ze vervolgens overal op de startpagina. Hou je er niet van waar het landde? Sleep het naar waar je het wilt. Je hoeft niet eens meer te sparen.
-
-  - Breng de organisatie naar een hoger niveau door kaarten te groeperen in secties. We hebben twee standaardsecties voor je gemaakt: **basisbeginselen** en **apparaten en updates.** Zeer binnenkort u secties toevoegen, verwijderen en hernoemen om een startpagina te ontwerpen die voor u werkt.
-
-  - De meeste kaarten zijn informatief en bruikbaar, wat betekent dat u net-in-time informatie krijgt om u te helpen uw dagelijkse taken sneller en slimmer uit te voeren.
-
-  - Het navigatiedeelvenster is opnieuw ingedeeld en u het aanpassen voor uw snelle taken. Selecteer **Bewerken** onder aan het navigatiedeelvenster om te beginnen met aanpassen. <br/>![Navigatiedeelvenster van microsoft 365-beheercentrum](../media/7d5568cc-9ce8-40b2-aa87-e777fcd455e3.png)
-
-- **Facturering** U zult waarschijnlijk enkele van de grootste wijzigingen in het Microsoft 365-beheercentrum opmerken in de sectie Facturering. U abonnementen en apps beheren die u bij Microsoft of een andere leverancier hebt gekocht, waaronder nieuwe ervaringen voor voorraadbeheer, ordergeschiedenis, betalingsmethoden en facturering.
-
-  - Abonnementsbeheer is opnieuw ontworpen om u een nieuwe ervaring voor voorraadbeheer te bieden voor meer producttypen, waaronder apps, software en invoegingen. Het heet nu ** &amp; Producten diensten** om beter de ondersteuning voor nieuwe productsoorten worden toegevoegd weerspiegelen. U er nu voor kiezen om een kaart of tabelweergave van de producten en services te hebben en u zoeken en filteren om snel te vinden wat u zoekt. <br/>![Producten en services in de preview-versie van het Microsoft 365-beheercentrum](../media/f1bba7dc-2034-4a53-b4ad-b7fbef3fb442.png)
-
-  - Het is nu eenvoudiger dan ooit om een productlicentie toe te wijzen aan uw gebruikers. Selecteer uw gekochte product en vervolgens u het product toewijzen. U ook zien welke gebruikers al een bepaald product hebben toegewezen. <br/>![Productgegevens van Facturering in de preview-versie van het Microsoft 365-beheercentrum](../media/82422685-e1b7-4f3f-aea8-1819df9d9311.png)
-
-  - **Switch-abonnementen** heten nu **Upgrades** en ten slotte gebeuren de abonnementsupgrades achter de schermen, zodat u de upgrade niet hoeft te zien voltooien. Ten slotte is er niet langer een licentiebeperking voor upgrades.
-
-- **Gebruikersbeheer** We hebben veel wijzigingen aangebracht in gebruikersbeheer om u te helpen uw werk sneller gedaan te krijgen. We hebben de pagina **Actieve gebruikers** en het detailvenster van de gebruiker bijgewerkt. Hier is een aantal van de meer geweldige veranderingen:
-
-  - Er is een nieuw ontwerp en een nieuwe lay-out op de pagina **Actieve gebruikers.** Hou je niet van de manier waarop de lijst eruit ziet? Selecteer **Weergave wijzigen** (naast **Filter)** en u de lijst wijzigen **van de lijst Normaal** in de **lijst Compact**. Compacte lijst is vooral handig als u veel gebruikers in uw organisatie hebt. <br/>![Pagina actieve gebruikers in voorbeeld](../media/4dd9f1c9-ef23-4194-9ff8-5206ba2930f8.png)
-
-  - De opdrachtbalk (waar **Zoeken** leeft) is dynamisch en de lijst met acties verandert afhankelijk van het aantal gebruikers dat u hebt geselecteerd: geen gebruikers, één gebruiker of meerdere gebruikers. U ziet ook hoeveel gebruikers u hebt geselecteerd naast **Zoeken.** <br/>![Microsoft 365 preview Active users command bar.](../media/9576bd19-31a5-4e59-a8dd-0663a833def0.png)
-
-  - U snelle taken uitvoeren, zoals het opnieuw instellen van wachtwoorden voor één of meerdere gebruikers rechtstreeks vanuit de lijstweergave.
-
-  - De details en instellingen van de gebruiker zijn nu geordend op de volgende tabbladen: **Account**, **Apparaten,** **Licenties,** **Apps,** **E-mail**en **OneDrive**. Voorheen waren veel van deze instellingen zich op meerdere schermen. <br/>![Detailvenster gebruikers in de preview-versie van het beheercentrum.](../media/60c6b9d3-d62f-4b8d-97db-41ff247b1bf0.png)<br/>

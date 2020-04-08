@@ -18,16 +18,16 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Krijg een overzicht van hoe uw organisatie Microsoft 365-services gebruikt om te communiceren en samen te werken.
-ms.openlocfilehash: 0481f894a4841488b20af90cd7c00619d2ad5c98
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: c9e2b9e6b814ac9245222f5da670862e308d1ab4
+ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826379"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170916"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 Gebruiksanalyse
----
-Microsoft 365-gebruiksanalyses zijn nog niet beschikbaar voor de Microsoft 365-overheidscommunity van de Amerikaanse overheid.
+
+Microsoft 365-gebruiksanalyses zijn momenteel niet beschikbaar voor klanten van Power BI Government.
  
 ## <a name="overview-of-microsoft-365-usage-analytics"></a>Overzicht van Microsoft 365 Gebruiksanalyse
 

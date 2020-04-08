@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Krijg een overzicht van geautomatiseerde onderzoeks- en reactiemogelijkheden in Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air
-ms.openlocfilehash: e8e10160da4ddb43b47ecf41e2184dc1b8953941
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 1fa99d7676a16ccd83319e5fbf3a6fedb72aec12
+ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033444"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170950"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Geautomatiseerd onderzoek en antwoord (AIR) in Office 365
 
@@ -75,7 +75,7 @@ Als onderdeel van AIR worden veiligheidsplaybooks gefaseerd uitgerold. Fase 1 is
 
 Fase 1 bevat ook ondersteuning voor door de beheerder geactiveerde e-mailonderzoeken (met Behulp van [Threat Explorer).](threat-explorer.md)
 
-Fase 2 is nu vooruitgang met de volgende playbooks in **openbare preview,** met aanbevelingen voor acties en het helpen van beveiligingsbeheerders bij het onderzoeken van problemen:
+Fase 2 is nu aan de gang met de volgende playbooks in **openbare preview,** met aanbevelingen voor acties en het helpen van beveiligingsbeheerders bij het onderzoeken van problemen:
 - Gebruiker gerapporteerd als gecompromitteerd (openbare preview)
 
 Verdere playbooks zullen worden vrijgegeven als ze zijn voltooid. Bezoek de [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) om te zien wat er nog meer is gepland en binnenkort.
@@ -94,7 +94,7 @@ Elke stap op hoog niveau bevat een aantal substappen die worden uitgevoerd om ee
 
 Stel dat een gebruiker in uw organisatie een e-mail ontvangt waarvan hij denkt dat het een phishing-poging is. De gebruiker, die is getraind om dergelijke berichten te rapporteren, gebruikt de [invoegtoepassing Rapportbericht](enable-the-report-message-add-in.md) om deze naar Microsoft te verzenden voor analyse. De indiening wordt ook naar uw systeem verzonden en is zichtbaar in Explorer in de weergave **Inzendingen** (voorheen aangeduid als de weergave Door de **gebruiker gerapporteerde** weergave). Bovendien activeert het door de gebruiker gerapporteerde bericht nu een systeemgebaseerde informatieve waarschuwing, die automatisch het onderzoeksplaybook start.
 
-Tijdens de wortelonderzoeksfase worden verschillende aspecten van de e-mail beoordeeld. Deze omvatten:
+Tijdens de wortelonderzoeksfase worden verschillende aspecten van de e-mail beoordeeld. Dit zijn onder andere:
 - Een bepaling over wat voor soort bedreiging het zou kunnen zijn;
 - Wie heeft het verzonden;
 - Waar de e-mail is verzonden vanuit (verzendende infrastructuur);

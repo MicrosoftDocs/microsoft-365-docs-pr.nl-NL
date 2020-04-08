@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/19/2019
+ms.date: 04/07/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Biedt een inleiding tot de onderdelen, plannen en implementatiepaden voor Microsoft 365 voor bedrijven.
-ms.openlocfilehash: c66fb5e4d8cd0d24ec20a50ca2ead3f3b9e0851d
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 043953ddfd38a9ef5119546ec5672dd46e8acb53
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113515"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43175188"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Overzicht van Microsoft 365 voor ondernemingen
 
@@ -45,7 +45,7 @@ Microsoft 365 voor ondernemingen is beschikbaar in drie abonnementen.
 |:-------|:-----|
 | E3 | Krijg toegang tot kernproducten en functies binnen Microsoft 365 om de productiviteit op de werkplek te verbeteren en innovatie te stimuleren, veilig. |
 | E5 | Krijg toegang tot de nieuwste producten en functies binnen Microsoft 365, inclusief geavanceerde hulpprogramma's voor bescherming van bedreigingen, beveiliging en samenwerking.. Bevat alle mogelijkheden van E3 plus geavanceerde tools voor beveiliging, spraak en gegevensanalyse. |
-| F1 F1 | Maak contact met uw Firstline Workers via speciaal gebouwde tools en resources waarmee ze hun beste werk kunnen doen. |
+| F3 | Maak contact met uw Firstline Workers via speciaal gebouwde tools en resources waarmee ze hun beste werk kunnen doen. |
 |||
 
 Als u Microsoft 365 E3 hebt, u deze [aanbiedingen](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/)ook krijgen:
@@ -55,7 +55,7 @@ Als u Microsoft 365 E3 hebt, u deze [aanbiedingen](https://www.microsoft.com/mic
 
 Deze aanbiedingen bevatten extra functies die zijn opgenomen in Microsoft 365 E5.
 
-Zie [Functies en mogelijkheden voor elk plan voor](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)meer informatie.
+Zie [Uw onderneming transformeren met Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)voor meer informatie over wat bij elk abonnement is inbegrepen.
 
 ## <a name="get-the-big-picture"></a>Krijg het grote plaatje
 

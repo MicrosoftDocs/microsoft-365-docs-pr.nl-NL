@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Tijdens en na een geautomatiseerd onderzoek in Office 365 u de resultaten en belangrijkste bevindingen bekijken.
-ms.openlocfilehash: 104be669dcb6d22cba00974075418e2d14ed629c
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 6db1c6a999a7791e8fb7bf728a9ee0a33733eeaf
+ms.sourcegitcommit: d1909d34ac0cddeb776ff5eb8414bfc9707d5ac1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894226"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43163908"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-office-365"></a>Details en resultaten van een geautomatiseerd onderzoek in Office 365
 
@@ -87,18 +87,16 @@ De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Naarmate he
 
 |Status  |Wat het betekent  |
 |---------|---------|
-|Starten | Het onderzoek staat in de wachtrij om binnenkort te beginnen |
-|Met | Het onderzoek is gestart en voert zijn analyse uit |
-|Geen bedreigingen gevonden | Het onderzoek heeft zijn analyse afgerond en er zijn geen bedreigingen |
-|Beëindigd per systeem | Het onderzoek werd niet gesloten en verliep na 7 dagen |
-|Actie in behandeling | Het onderzoek vond bedreigingen met acties aanbevolen.  Het onderzoek wordt voortgezet nadat het de eerste bedreigingen en aanbevolen acties heeft gevonden, dus u moet het logboek controleren voordat u acties goedkeurt om te zien of analysers nog aan de gang zijn. |
-|Gevonden bedreigingen | Het onderzoek vond bedreigingen, maar de bedreigingen hebben geen acties beschikbaar binnen AIR.  Dit zijn acties van gebruikers waarbij er nog geen air-actie in de richting is. |
-|Gesaneerd | Het onderzoek werd afgerond en volledig gesaneerd (alle acties werden goedgekeurd) |
-|Gedeeltelijk gesaneerd | Het onderzoek werd afgerond en een aantal van de aanbevolen acties werd |
-|Beëindigd door gebruiker | Een beheerder heeft het onderzoek beëindigd |
-|Mislukt | Er is een fout opgetreden tijdens het onderzoek waardoor zij geen conclusie kon trekken over bedreigingen |
-|In de wachtrij door throttling | Het onderzoek wacht op analyse vanwege systeemverwerkingsbeperkingen (om de prestaties van de service te beschermen) |
-|Beëindigd door beperking | Het onderzoek kon niet tijdig worden afgerond vanwege de omvang van het onderzoek en de beperkingen voor de verwerking van het systeem. U het onderzoek opnieuw activeren door de e-mail in Explorer te selecteren en de actie Onderzoeken te selecteren. |
+|Starten | Het onderzoek is gestart en wacht om te beginnen met lopen. Dit is de eerste stap. |
+|Met | Het onderzoek is gestart en is in volle gang. Deze status treedt ook op wanneer [lopende acties](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions) zijn goedgekeurd. |
+|Geen bedreigingen gevonden | Het onderzoek is voltooid en er zijn geen bedreigingen (gebruikersaccount, e-mailbericht, URL of bestand) geïdentificeerd. <br/><br/>**TIP:** Als u vermoedt dat er iets is gemist (zoals een vals negatief), u actie ondernemen met Behulp van [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer). |
+|Beëindigd per systeem | Het onderzoek is gestopt. Dit kan om een aantal redenen gebeuren. Hier zijn de twee meest voorkomende redenen:<br/>- De lopende acties van het onderzoek zijn verlopen. In afwachting van acties time-out na in afwachting van goedkeuring voor een week. <br/>- Er zijn te veel acties. Als er bijvoorbeeld te veel gebruikers op kwaadaardige URL's klikken, kan dit de mogelijkheid van het onderzoek om alle analysers uit te voeren, overschrijden, zodat het onderzoek wordt stopgezet. <br/><br/>**TIP:** Als een onderzoek wordt gestopt voordat er acties zijn ondernomen, probeert u [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) te gebruiken om bedreigingen te vinden en aan te pakken.  |
+|Actie in behandeling | Het onderzoek heeft een bedreiging gevonden, zoals een kwaadaardige e-mail, een kwaadaardige URL, of een riskante mailbox instelling, en een actie om die dreiging te verwerkte is in afwachting van [goedkeuring](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions).<br/><br/>De status In behandeling zijnde actie wordt geactiveerd wanneer een bedreiging met een overeenkomstige actie wordt gevonden; Houd er echter rekening mee dat het onderzoek mogelijk nog niet helemaal voltooid is.  Controleer het [onderzoekslogboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results#playbook-log) om te zien of andere items nog in behandeling zijn. |
+|Gesaneerd | Het onderzoek werd afgerond en alle acties werden goedgekeurd (volledig gesaneerd).<br/><br/>**OPMERKING**: Goedgekeurde herstelacties kunnen fouten bevatten die voorkomen dat de acties worden uitgevoerd. Dit verandert niets aan de onderzoeksstatus. Controleer het [onderzoekslogboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) voor gedetailleerde resultaten. |
+|Gedeeltelijk gesaneerd | Het onderzoek resulteerde in saneringsacties, en sommige werden goedgekeurd en voltooid. Andere acties zijn nog [in behandeling](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions). |
+|Mislukt | Ten minste een onderzoek analyzer liep in een probleem waar het niet goed kon voltooien. <br/><br/>**OPMERKING**: Als een onderzoek mislukt nadat herstelacties zijn goedgekeurd, zijn de herstelacties mogelijk nog steeds geslaagd. Controleer het [onderzoekslogboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) voor gedetailleerde resultaten. |
+|In de wachtrij door throttling | Een onderzoek staat in de rij. Wanneer andere onderzoeken zijn voltooid, beginnen onderzoeken in de wachtrij. Dit helpt slechte serviceprestaties te voorkomen. <br/><br/>**TIP:** Lopende acties kunnen beperken hoeveel nieuwe onderzoeken kunnen worden uitgevoerd. Zorg ervoor dat [u in behandeling zijnde acties goedkeurt (of afwijst).](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions) |
+|Beëindigd door beperking | Als een onderzoek te lang in de wachtrij wordt gehouden, wordt het gestopt. <br/><br/>**TIP:** U [een onderzoek starten vanuit Threat Explorer.](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) |
 
 ### <a name="investigation-graph"></a>Onderzoeksgrafiek
 
