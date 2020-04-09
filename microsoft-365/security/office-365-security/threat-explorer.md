@@ -16,12 +16,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over Explorer- en realtime &amp; detecties in het Security Compliance Center.
-ms.openlocfilehash: 2db16773b305e2e5f929e96fb3ca0e7bfe541990
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: e882f89a0020cacd30cb6d85917e78a965ad5cde
+ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081266"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43198381"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Threat Explorer en real-time detecties
 
@@ -30,7 +30,7 @@ Als uw organisatie [Office 365 Advanced Threat Protection](office-365-atp.md) (O
 |||
 |---|---|
 |**Met ATP Plan 2 zie je:**|**Met ATP Plan 1 zie je:**|
-|![Bedreigingsverkenner](../../media/threatmgmt-explorer.png)|![Real-time detecties](../../media/threatmgmt-realtimedetections.png)|
+|![Bedreigingsverkenner](../../media/threatmgmt-explorer.png)|![Realtime detectie](../../media/threatmgmt-realtimedetections.png)|
 |
 
 Met Explorer (of real-time detecties) beschikt u over een krachtig rapport waarmee uw Security Operations-team bedreigingen effectief en efficiënt kan onderzoeken en erop kunnen reageren. Het rapport lijkt op de volgende afbeelding:
@@ -173,7 +173,7 @@ Stel dat u e-mailberichten wilt zien die gebruikers in uw organisatie hebben ger
 
 1. Kies in het Security[https://protection.office.com](https://protection.office.com)& Compliance Center ( ) De optie **Threat management** > **Explorer** (of **Real-time detections).** (In dit voorbeeld wordt Explorer gebruikt.)
 
-2. Kies **E-mailinzendingen** > **Submissions**in het menu **Weergave** .
+2. Kies **E-mailinzendingen** > **Submissions**in het menu **Weergave** . (Dit heette voorheen **User-reported**.)
 
    ![Menu Weergeven voor Explorer](../../media/ExplorerViewMenuEmailUserReported.png)
 
@@ -234,3 +234,7 @@ Zie de volgende bronnen voor meer informatie over rollen en machtigingen:
 
 - Het **realtime detectierapport** is beschikbaar in Office 365 ATP Plan 1, terwijl **Threat Explorer** beschikbaar is in Office 365 ATP Plan 2.
 - Met **het realtime detectierapport** u detecties in realtime bekijken. **Threat Explorer** doet dit ook, maar stelt u ook in staat om extra details voor een bepaalde aanval te bekijken.
+- Een **weergave Alle e-mail** is beschikbaar in **Threat Explorer** (en staat niet in het realtime **detectierapport).**
+- Meer filtermogelijkheden en beschikbare acties zijn opgenomen in **Threat Explorer.**
+
+Zie Beschrijving [van de Office 365 ATP-service: beschikbaarheid van functies in ATP-abonnementen (Advanced Threat Protection) voor](https://docs.microsoft.com/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans) meer informatie.
