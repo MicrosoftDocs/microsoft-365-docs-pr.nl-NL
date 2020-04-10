@@ -1,12 +1,12 @@
 ---
-title: Domain Connect gebruiken
+title: Domeinverbinding gebruiken
 f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,21 +19,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ec6f4bd8-5996-4505-ba68-afaf8a141fb9
-description: Meer informatie over het werken met registrars met domeinverbinding en uw domein toevoegen aan Microsoft 365.
-ms.openlocfilehash: 59e2f94fe83f87a5426064e49f0441356fbd732e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Meer informatie over het werken met registrars met Domeinconnect en het toevoegen van uw domein aan Microsoft 365.
+ms.openlocfilehash: 074ecc09323e09d3a668dd1c90f6034d8fce99eb
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42809964"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210414"
 ---
-# <a name="using-domain-connect"></a>Domain Connect gebruiken
+# <a name="using-domain-connect"></a>Domeinverbinding gebruiken
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt.
   
-[Met registrars met domain connect](https://www.domainconnect.org/) u uw domein toevoegen aan Microsoft 365 in een proces in drie stappen dat minuten duurt. 
+[Met](https://www.domainconnect.org/) registrars met Domain Connect u uw domein toevoegen aan Microsoft 365 in een proces in drie stappen dat minuten duurt. 
   
-In de wizard bevestigen we alleen dat u eigenaar bent van het domein en vervolgens automatisch de records van uw domein instelt, zodat e-mail naar Microsoft 365 en andere Microsoft 365-services, zoals Teams, met uw domein werkt.
+In de wizard bevestigen we alleen dat u eigenaar bent van het domein en stellen we de records van uw domein automatisch in, zodat e-mail naar Microsoft 365 en andere Microsoft 365-services, zoals Teams, werkt met uw domein.
   
 > [!NOTE]
 > Start de wizard pas nadat u hebt gecontroleerd of pop-ups zijn toegestaan in uw browser.
@@ -45,13 +45,13 @@ In de wizard bevestigen we alleen dat u eigenaar bent van het domein en vervolge
 - [Godaddy](https://www.godaddy.com/)
 - [Wordpress](https://wordpress.com/)
 - [Plesk](https://www.plesk.com/)
-- [Mediatempel](https://mediatemple.net/)
-- SecureServer of WildWestDomains (GoDaddy resellers met SecureServer DNS hosting)
+- [MediaTempel (MediaTempel)](https://mediatemple.net/)
+- SecureServer of WildWestDomains (GoDaddy resellers met SecureServer DNS-hosting)
     - [MadDog Domeinen](https://www.maddogdomains.com/)
-    - [Goedkope namen](https://www.cheapnames.com)
+    - [CheapNames CheapNames](https://www.cheapnames.com)
 
 ## <a name="what-happens-to-my-email-and-website"></a>Wat gebeurt er met mijn e-mail en website?
 
-Nadat u de installatie hebt voltooid, wordt de MX-record voor uw domein bijgewerkt om naar Microsoft 365 te wijzen en alle e-mail voor uw domein begint naar Microsoft 365 te komen. Zorg dat u in Office 365 gebruikers hebt toegevoegd en postvakken hebt geconfigureerd voor iedereen die een e-mailaccount in uw domein heeft.
+Nadat u klaar bent met de installatie, wordt de MX-record voor uw domein bijgewerkt om naar Microsoft 365 te wijzen en alle e-mail voor uw domein wordt naar Microsoft 365 gaan komen. Zorg dat u in Office 365 gebruikers hebt toegevoegd en postvakken hebt geconfigureerd voor iedereen die een e-mailaccount in uw domein heeft.
   
-Als uw bedrijf een website heeft, blijft die gewoon werken. De installatiestappen van Domain Connect hebben geen invloed op uw website.
+Als uw bedrijf een website heeft, blijft die gewoon werken. De installatiestappen Domain Connect hebben geen invloed op uw website.

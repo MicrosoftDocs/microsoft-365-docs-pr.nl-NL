@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: e158b079-b054-4b7e-8e01-e55169ce18d7
-description: Meer informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services bij DNSMadeEasy voor Office 365.
-ms.openlocfilehash: 82244d216652b1957aefc3b81acd881ea4b32393
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij DNSMadeEasy voor Office 365.
+ms.openlocfilehash: 29bdf78e3f9993267c5f0be3b107981bb9dd3fe3
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42811746"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211797"
 ---
 # <a name="create-dns-records-at-dnsmadeeasy-for-office-365"></a>DNS-records bij DNSMadeEasy maken voor Office 365
 
@@ -55,7 +55,7 @@ Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleer
     
 2. Selecteer op de pagina **Beheerconsole** in het gebied **Onlangs bijgewerkte domeinen** het domein dat u wilt bijwerken. 
     
-3. Selecteer op de pagina **Beheerde DNS** in het **+** gebied **TXT Records** het besturingselement ( Toevoegen van **nieuw).**
+3. Selecteer op de pagina **Beheerde DNS** in het **+** gebied **TXT Records** het besturingselement ( Nieuw **toevoegen**).
     
     (Mogelijk moet u omlaag schuiven.)
     
@@ -63,7 +63,7 @@ Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleer
     
     ||||
     |:-----|:-----|:-----|
-    |**Naam** <br/> |**Value** <br/> |**TTL** <br/> |
+    |**Naam** <br/> |**Waarde** <br/> |**TTL** <br/> |
     |(Laat dit veld leeg.)  <br/> |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Office 365. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |1800  <br/> |
    
 5. Selecteer **Verzenden**.
@@ -74,14 +74,14 @@ Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug 
   
 Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
 
     
-2. Selecteer op de pagina **Domeinen** het domein dat u verifieert. 
+2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
     
-3. Selecteer op de pagina **Setup** de optie **Startsetup**.
+3. Kies **Start setup** op de pagina **Setup**.
     
-4. Selecteer op de pagina **Domein verifiëren** de optie **Verifiëren**.
+4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
 > [!NOTE]
 > Het duurt meestal ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd in Office 365](../get-help-with-domains/find-and-fix-issues.md). 
@@ -95,13 +95,13 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     Selecteer op de pagina **Beheerconsole** in het gebied **Onlangs bijgewerkte domeinen** het domein dat u wilt bijwerken. 
     
-    ![AFBEELDING VAN HET BASIS-PROGRAMMA MET AFBEELDING VAN DNSMadeEasy-BP-configureren-1-2](../../media/8d8f403e-d7cd-429e-913b-dacb1f4644a2.png)
+    ![Afbeelding van het voorkomen van DNSMadeEasy-Bp-1-2](../../media/8d8f403e-d7cd-429e-913b-dacb1f4644a2.png)
   
-3. Selecteer op de pagina **Beheerde DNS** in het gebied **MX Records** het besturingselement **(+) (Nieuw** **toevoegen).**
+3. Selecteer op de pagina **Beheerde DNS** in het gebied **MX Records** het **besturingselement (+)** **(Nieuw toevoegen).**
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![AFBEELDING VAN HET BASIS-PROGRAMMA MET TWEE](../../media/404c73bf-1db4-4d68-82d8-68303f418ed4.png)
+    ![Afbeelding van het te maken:DnsMadeEasy-BP-2-1](../../media/404c73bf-1db4-4d68-82d8-68303f418ed4.png)
   
 4. Typ of kopieer en plak de waarden uit de volgende tabel in het gebied **Add MX Records** in de vakken voor de nieuwe record. 
     
@@ -109,25 +109,25 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     |**Naam**|**Server**|**MX Level**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |(Laat dit veld leeg.)  <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> **Let op:** Haal \<uw domeinsleutel\> uit uw Office 365-account. *domain-key* [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |10  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.    <br/> |1800  <br/> |
+    |(Laat dit veld leeg.)  <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> **Opmerking**: Uw \<*domeinsleutel*\> kunt u ophalen uit uw Office 365-account. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |10  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.    <br/> |1800  <br/> |
    
-    ![AFBEELDING VAN HET BASIS-PROGRAMMA MET TWEE](../../media/69b53af9-1eec-435c-8434-1b6058c1ec82.png)
+    ![Afbeelding van het voorkomen van DNSMadeEasy-Bp-2-2](../../media/69b53af9-1eec-435c-8434-1b6058c1ec82.png)
   
 5. Selecteer **Verzenden**.
     
-    ![AFBEELDING VAN HET BASIS-PROGRAMMA MET TWEE-3](../../media/381054a6-bb85-4ebb-b576-42cbba78ed1b.png)
+    ![Afbeelding van het te maken:DNSMadeEasy-BP-Afbeelding](../../media/381054a6-bb85-4ebb-b576-42cbba78ed1b.png)
   
 6. Als er andere MX-records zijn vermeld in de sectie **MX Records**, verwijdert u deze door elk record te selecteren. 
     
-    ![AFBEELDING VAN HET-AFBEELDING VAN AFBEELDING 2-4-1](../../media/58a07769-0b30-4111-b555-bfc3b82a7d4c.png)
+    ![Afbeelding van het te maken:DNSMadeEasy-BP-Configureren-2-4-1](../../media/58a07769-0b30-4111-b555-bfc3b82a7d4c.png)
   
-7. Wanneer alle records zijn geselecteerd, selecteert u **Verwijderen geselecteerd**.
+7. Wanneer alle records zijn geselecteerd, selecteert u **Geselecteerd verwijderen**.
     
-    ![AFBEELDING VAN HET BASIS-PROGRAMMA MET TWEE-4-2](../../media/e9064c07-1ce7-4387-b47a-90d4193da374.png)
+    ![Afbeelding van het te maken:DNSMadeEasy-BP-Configureren-2-4-2](../../media/e9064c07-1ce7-4387-b47a-90d4193da374.png)
   
-8. Selecteer in het dialoogvenster **MX-records verwijderen** de optie **Verwijderen** om uw wijzigingen te bevestigen. 
+8. Selecteer **Verwijderen** om uw wijzigingen te bevestigen in het dialoogvenster **MX-records verwijderen.** 
     
-    ![AFBEELDING VAN HET BASIS-PROGRAMMA MET TWEE](../../media/03c405e5-868f-468f-b6d2-046d27b201fb.png)
+    ![Afbeelding van het te maken:DNSMadeEasy-BP-Afbeelding](../../media/03c405e5-868f-468f-b6d2-046d27b201fb.png)
   
 ## <a name="add-the-five-cname-records-that-are-required-for-office-365"></a>De vijf CNAME-records toevoegen die nodig zijn voor Office 365
 <a name="BKMK_add_CNAME"> </a>
@@ -136,11 +136,11 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
 2. Selecteer op de pagina **Beheerconsole** in het gebied **Onlangs bijgewerkte domeinen** het domein dat u wilt bijwerken. 
     
-3. Selecteer op de pagina **Beheerde DNS** in het gebied **CNAME Records** het besturingselement **(+) (Nieuw** **toevoegen).**
+3. Selecteer op de pagina **Beheerde DNS** in het gebied **CNAME Records** het besturingselement **(+)** **(Nieuw toevoegen).**
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![AFBEELDING VAN HET BASIS-PROGRAMMA MET AFBEELDING VAN DNS-Knop](../../media/a5feb238-690d-4b64-a625-91a82b3f4068.png)
+    ![Afbeelding van het te maken:DNSMadeEasy-BP-Afbeelding](../../media/a5feb238-690d-4b64-a625-91a82b3f4068.png)
   
 4. Voeg de eerste van de vijf CNAME-records toe.
     
@@ -154,15 +154,15 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     |enterpriseregistration  <br/> |enterpriseregistration.windows.net.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |1800  <br/> |
     |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |1800  <br/> |
    
-    ![AFBEELDING VAN HET BASIS-PROGRAMMA MET AFBEELDING VAN DNSMadeEasy-BP-configureren-3-2](../../media/de6dddcd-bf0a-4993-ab4c-a6d10167bf34.png)
+    ![Afbeelding van het te maken:DNSMadeEasy-BP-Afbeelding](../../media/de6dddcd-bf0a-4993-ab4c-a6d10167bf34.png)
   
 5. Selecteer **Verzenden**.
     
-    ![AFBEELDING VAN HET BASIS-PROGRAMMA MET AFBEELDING VAN DNS-Knop](../../media/e44ef73e-99cb-41ce-a3f2-549cb2f29eef.png)
+    ![Afbeelding van het te maken:DNSMadeEasy-BP-Afbeelding](../../media/e44ef73e-99cb-41ce-a3f2-549cb2f29eef.png)
   
 6. Voeg elk van de andere vier CNAME-records toe.
     
-    Selecteer in de sectie **CNAME Records** het besturingselement **(+)** toevoegen ( **Nieuw toevoegen),** maak een record met behulp van de waarden uit de volgende rij in de tabel en selecteer Vervolgens Opnieuw **Verzenden** om die record te voltooien. 
+    Selecteer in de sectie **CNAME Records** het **besturingselement (+)** **(Nieuw toevoegen),** een record maken met de waarden uit de volgende rij in de tabel en selecteer vervolgens opnieuw **Verzenden** om die record te voltooien. 
     
     Herhaal dit proces totdat u alle vijf CNAME-records hebt gemaakt.
     
@@ -176,55 +176,55 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
 2. Selecteer op de pagina **Beheerconsole** in het gebied **Onlangs bijgewerkte domeinen** het domein dat u wilt bijwerken. 
     
-3. Selecteer op de pagina **Beheerde DNS** in het gebied **TXT Records** het besturingselement **(+) (Nieuw** **toevoegen).**
+3. Selecteer op de pagina **Beheerde DNS** in het gebied **TXT Records** het **besturingselement (+)** **(Nieuw toevoegen).**
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![AFBEELDING VAN HET](../../media/657b87a5-dcb4-4ae7-8f27-bd857f0f4189.png)
+    ![Afbeelding van het te maken:Knopafbeelding-Afbeelding](../../media/657b87a5-dcb4-4ae7-8f27-bd857f0f4189.png)
   
 4. Typ of kopieer en plak de waarden uit de volgende tabel in het gebied **Add TXT Records** in de vakken voor de nieuwe record. 
     
-    |**Naam**|**Value**|**TTL**|
+    |**Naam**|**Waarde**|**TTL**|
     |:-----|:-----|:-----|
     |(Laat dit veld leeg.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |1800  <br/> |
    
-    ![AFBEELDING VAN HET BASIS-PROGRAMMA MET AFBEELDING VAN DNSMadeEasy-BP-configureren-4-2](../../media/b317bcb9-18c6-4609-a8f4-963823032669.png)
+    ![Afbeelding van het te maken-de-afbeelding-4-2 van DNSMadeEasy-Bp](../../media/b317bcb9-18c6-4609-a8f4-963823032669.png)
   
 5. Selecteer **Verzenden**.
     
-    ![AFBEELDING VAN HET BASIS-PROGRAMMA MET AFBEELDING VAN DNSMadeEasy-BP-configureren-4-3](../../media/8a1c53c3-1222-4127-a190-70f6f5059433.png)
+    ![Afbeelding van het te maken:DNSMadeEasy-BP-afbeelding](../../media/8a1c53c3-1222-4127-a190-70f6f5059433.png)
   
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Voeg de vier SRV-records toe die voor Office 365 vereist zijn.
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>De twee SRV-records toevoegen die voor Office 365 vereist zijn
 <a name="BKMK_add_SRV"> </a>
 
 1. Als u wilt beginnen, gaat u naar uw domeinenpagina bij DNSMadeEasy via [deze koppeling](https://cp.dnsmadeeasy.com/). U wordt gevraagd u eerst aan te melden.
     
 2. Selecteer op de pagina **Beheerconsole** in het gebied **Onlangs bijgewerkte domeinen** het domein dat u wilt bijwerken. 
     
-3. Selecteer op de pagina **Beheerde DNS** in het gebied **SRV Records** het besturingselement **(+) (Nieuw** **toevoegen).**
+3. Selecteer op de pagina **Beheerde DNS** in het gebied **SRV Records** het **besturingselement (+)** **(Nieuw toevoegen).**
     
     (Mogelijk moet u omlaag schuiven)
     
-    ![AFBEELDING VAN HET](../../media/5c9e8f50-adbd-4f23-8ce3-2844b2896f3f.png)
+    ![Afbeelding van het te maken:DnsMadeEasy-BP-Configureren-5-1](../../media/5c9e8f50-adbd-4f23-8ce3-2844b2896f3f.png)
   
 4. Voeg de eerste van de twee SRV-records toe.
     
     Typ of kopieer en plak de waarden uit de eerste rij van de volgende tabel in het gebied **Add SRV Records** in de vakken voor de nieuwe record. 
     
-    |**Name**|**Priority**|**Weight**|**Port**|**Host**|**TTL**|
+    |**Name**|**Prioriteit**|**Gewicht**|**Poort**|**Host**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
     |_sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |1800  <br/> |
     |_sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |1800  <br/> |
    
-    ![AFBEELDING VAN HET BASIS-PROGRAMMA MET AFBEELDING VAN DNSMadeEasy-BP-configureren-5-2](../../media/e1155f94-575f-441a-9a61-d948391d42ca.png)
+    ![Afbeelding van het te maken-Bp-5-2](../../media/e1155f94-575f-441a-9a61-d948391d42ca.png)
   
 5. Selecteer **Verzenden**.
     
-    ![AFBEELDING VAN HET BASIS-PROGRAMMA MET AFBEELDING VAN DNSMadeEasy-BP-configureren-5-3](../../media/7eae54e1-08bd-4902-afdf-fd5cc251ab59.png)
+    ![Afbeelding van het te maken-Bp-5-3](../../media/7eae54e1-08bd-4902-afdf-fd5cc251ab59.png)
   
 6. Voeg de andere SRV-record toe.
     
-    Selecteer in de sectie **SRV-records** het besturingselement **(+)** toevoegen ( **Nieuw toevoegen),** maak een record met behulp van de waarden uit de volgende rij in de tabel en selecteer Vervolgens Opnieuw **Verzenden** om die record te voltooien. 
+    Selecteer in de sectie **SRV Records** het **besturingselement (+)** **(Nieuw toevoegen),** een record maken met de waarden uit de volgende rij in de tabel en selecteer vervolgens opnieuw **Verzenden** om die record te voltooien. 
     
 > [!NOTE]
 > Het duurt meestal ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd in Office 365](../get-help-with-domains/find-and-fix-issues.md). 

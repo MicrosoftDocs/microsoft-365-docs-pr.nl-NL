@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5762c3ca-1de2-4999-bfe5-4c5e25a8957e
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services op 1&1 IONOS voor Office 365.
-ms.openlocfilehash: d4ff6bea0d96402c34b1d1ae302510a6e718c38d
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: e31c9d9d08e29156ff6197c030de6b0f4169b5f4
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42811379"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211869"
 ---
 # <a name="create-dns-records-at-11-ionos-for-office-365"></a>DNS-records maken op 1&1 IONOS voor Office 365
 
@@ -81,14 +81,14 @@ Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug 
   
 Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
 
     
-2. Selecteer **op** de pagina Domeinen het domein dat u verifieert. 
+2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
     
-3. Selecteer **op** de pagina Setup de optie **Installatie starten**.
+3. Kies **Start setup** op de pagina **Setup**.
     
-4. Selecteer **op** de pagina Domein verifiëren de optie **Verifiëren**.
+4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
 > [!NOTE]
 > Het duurt meestal ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd in Office 365](../get-help-with-domains/find-and-fix-issues.md). 
@@ -279,7 +279,7 @@ Volg onderstaande stappen of [bekijk de video (start op 5:09)](https://support.o
   
 9. Selecteer **Ja**. in het dialoogvenster **DNS-instellingen bewerken** .<br/>![Ja selecteren in het dialoogvenster DNS-instellingen bewerken](../../media/920cc95f-fedf-4da2-94a4-9cb41ed49bcf.png)
   
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>De twee SRV-records toevoegen die nodig zijn voor Office 365
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>De twee SRV-records toevoegen die voor Office 365 vereist zijn
 
 Volg onderstaande stappen of [bekijk de video (start op 5:51)](https://support.office.com/article/Video-Create-DNS-records-at-1-1-Internet-for-Office-365-543fb112-ecf5-47ae-b096-07f3f942a089?ui=en-US&amp;rs=en-US&amp;ad=US).
   
@@ -298,7 +298,7 @@ Volg onderstaande stappen of [bekijk de video (start op 5:51)](https://support.o
     
 6. Voeg de eerste van de twee SRV-records toe.<br/>Typ of kopieer en plak de waarden uit de eerste rij van de volgende tabel in het gebied **Add Record** in de vakken voor de nieuwe record. <br/>(Kies de waarden **Type** en **TTL** in de vervolgkeuzelijst.) 
     
-    |**Type**|**Service**|**Protocol**|**Naam**|**Host**|**Priority**|**Weight**|**Port**|**TTL**|
+    |**Type**|**Service**|**Protocol**|**Naam**|**Host**|**Prioriteit**|**Gewicht**|**Poort**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
     |SRV  <br/> |sip  <br/> |tls  <br/> |(Laat dit veld leeg.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |1  <br/> |443  <br/> |3600 (1 uur)  <br/> |
     |SRV  <br/> |sipfederationtls  <br/> |tcp  <br/> |(Laat dit veld leeg.)  <br/> |sipfed.online.lync.com  <br/> |100  <br/> |1  <br/> |5061  <br/> |3600 (1 uur)  <br/> |  

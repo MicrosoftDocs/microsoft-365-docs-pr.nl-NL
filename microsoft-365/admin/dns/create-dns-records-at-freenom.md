@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: d8ff45a2-19e3-413d-aa64-a9982bd6633c
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Freenom voor Office 365.
-ms.openlocfilehash: 16348eb03a6507e15d31d5c183bd91125d0236f6
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: d8c33df611a0ef1be95d32026f5d6b99808258f6
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42809959"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211749"
 ---
 # <a name="create-dns-records-at-freenom-for-office-365"></a>DNS-records bij Freenom maken voor Office 365
 
@@ -87,25 +87,25 @@ Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug 
   
 Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
 
     
-2. Selecteer **op** de pagina Domeinen het domein dat u verifieert. 
+2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
     
     
   
-3. Selecteer **op** de pagina Setup de optie **Installatie starten**.
+3. Kies **Start setup** op de pagina **Setup**.
     
     
   
-4. Selecteer **op** de pagina Domein verifiëren de optie **Verifiëren**.
+4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
     
   
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Voeg een MX-record toe zodat e-mail voor uw domein bij Office 365 terechtkomt
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Een MX-record toevoegen zodat e-mail voor uw domein bij Office 365 terechtkomt
 <a name="bkmk_mx"> </a>
 
 1. Ga om te beginnen naar de pagina domeinen in Freenom via [deze link.](https://my.freenom.com/) U wordt gevraagd u aan te melden.

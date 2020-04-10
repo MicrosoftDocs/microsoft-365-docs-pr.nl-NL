@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: Meer informatie over het toevoegen en instellen van uw domein in Office 365, zodat uw services zoals e-mail en Skype voor Bedrijven Online uw eigen domeinnaam gebruiken.
 ms.custom: okr_smb
-ms.openlocfilehash: 3030fc33a6d528fd6cb4e97c27cdbb7c251e9a97
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 838025002443ec35787ea91775c60d3829545af4
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42807419"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210490"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-any-domain-registrar"></a>Naamservers wijzigen voor het instellen van Office 365 bij een domeinregistrar
 
@@ -69,7 +69,7 @@ Voer een van de volgende handelingen uit, afhankelijk van of u een TXT-record of
     
 |||||
 |:-----|:-----|:-----|:-----|
-|**Recordtype** <br/> |**Alias** of **Hostnaam** <br/> |**Value** <br/> |**TTL** <br/> |
+|**Recordtype** <br/> |**Alias** of **Hostnaam** <br/> |**Waarde** <br/> |**TTL** <br/> |
 |TXT  <br/> |Voer een van de volgende handelingen uit: Typ **@** of laat het veld leeg, of typ de naam van uw domein.  <br/> > [!NOTE]> Verschillende DNS-hosts hebben verschillende vereisten voor dit veld.           
 |MS=ms *XXXXXXXX*  <br/> > [!NOTE]> Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Office 365.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort.  <br/> |
    
@@ -78,7 +78,7 @@ Voer een van de volgende handelingen uit, afhankelijk van of u een TXT-record of
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Recordtype**|**Alias** of **Hostnaam**|**Value**|**Priority**|**TTL**|
-|MX|Typ **@** of uw domeinnaam. |MS=ms *XXXXXXXX* > [!NOTE]> Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Office 365.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Voor **Prioriteit**, gebruikt u een lagere prioriteit dan de prioriteit voor bestaande MX-records om conflicten met de MX-record te voorkomen die wordt gebruikt voor e-mailstroom. Zie [Wat is MX-prioriteit?](../setup/domains-faq.md#what-is-mx-priority) voor meer informatie over prioriteit.    |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort. |
+|MX|Typ **@** of uw domeinnaam. |MS=ms *XXXXXXXX* > [!NOTE]> Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Office 365.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Gebruik een lagere prioriteit dan de prioriteit voor bestaande MX-records voor **Prioriteit** om conflicten met de MX-record voor de e-mailstroom te voorkomen. Zie [Wat is MX-prioriteit?](../setup/domains-faq.md#what-is-mx-priority) voor meer informatie over prioriteit. |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort. |
    
 ### <a name="save-the-record"></a>De record opslaan
 
@@ -87,16 +87,16 @@ Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug 
 Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
-2. Selecteer **op** de pagina Domeinen het domein dat u verifieert. 
+2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
     
   
-3. Selecteer **op** de pagina Setup de optie **Installatie starten**.
+3. Kies **Start setup** op de pagina **Setup**.
  
     
   
-4. Selecteer **op** de pagina Domein verifiëren de optie **Verifiëren**.
+4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
     
   
@@ -158,7 +158,7 @@ Hierna volgt een voorbeeld van extra stappen die mogelijk zijn vereist voor de h
     
 - Wilt u een domein toevoegen dat momenteel wordt gebruikt met een websiteadres, zoals www.fourthcoffee.com? U onderstaande stappen uitvoeren terwijl u het domein toevoegt om de website gehost te houden waar de site nu wordt gehost, zodat mensen nog steeds naar de website kunnen gaan nadat u de NS-records van het domein hebt gewijzigd om naar Office 365 te wijzen.
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
 
 3. Selecteer een domein op de pagina Domeinen.
 

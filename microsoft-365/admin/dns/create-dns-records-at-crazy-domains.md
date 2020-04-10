@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6386d63e-b78f-4736-90e7-b99a2c116a9f
-description: Meer informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services bij Crazy Domains voor Office 365.
-ms.openlocfilehash: 157c33a52403efbefe673bf11465de525ffb4f33
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Crazy Domains voor Office 365.
+ms.openlocfilehash: 74c9a940f8d6f52c31712357557ea8cfda76e6bb
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42806376"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211821"
 ---
 # <a name="create-dns-records-at-crazy-domains-for-office-365"></a>DNS-records bij Crazy Domains maken voor Office 365
 
@@ -52,11 +52,11 @@ Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleer
     
     ![Afbeelding van het lint](../../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
   
-2. Selecteer **Domeinen**in de sectie **Mijn account.**
+2. Selecteer **Domeinen**in de sectie **Mijn account** .
     
     ![Afbeelding van het lint](../../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
   
-3. Selecteer op de pagina **Domeinnamen** in de sectie **Domein** de naam van het domein dat u bijwerkt. 
+3. Selecteer **op** de pagina Domeinnamen in de sectie **Domein** de naam van het domein dat u bijwerkt. 
     
     ![Afbeelding van het lint](../../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
   
@@ -72,7 +72,7 @@ Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleer
     
     ![Afbeelding van het lint](../../media/f0ffdefb-d7a5-47df-bb5e-bf8a3bcc9b01.png)
   
-7. Selecteer **Toevoegen**.
+7. Kies **Toevoegen**.
     
     ![Afbeelding van het lint](../../media/b0cd623a-67f7-4bae-a5b5-507f5a106123.png)
   
@@ -94,36 +94,36 @@ Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug 
   
 Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
 
     
-2. Selecteer op de pagina **Domeinen** het domein dat u verifieert. 
+2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
     
     
   
-3. Selecteer op de pagina **Setup** de optie **Startsetup**.
+3. Kies **Start setup** op de pagina **Setup**.
     
     
   
-4. Selecteer op de pagina **Domein verifiëren** de optie **Verifiëren**.
+4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
     
   
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Voeg een MX-record toe zodat e-mail voor uw domein bij Office 365 terechtkomt
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Een MX-record toevoegen zodat e-mail voor uw domein bij Office 365 terechtkomt
 <a name="BKMK_add_MX"> </a>
 
 1. Ga eerst naar de pagina met domeinen bij Crazy Domains via [deze koppeling](https://manage.crazydomains.com/members/domains/). U wordt gevraagd u eerst aan te melden.
     
     ![Afbeelding van het lint](../../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
   
-2. Selecteer **Domeinen**in de sectie **Mijn account.**
+2. Selecteer **Domeinen**in de sectie **Mijn account** .
     
     ![Afbeelding van het lint](../../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
   
-3. Selecteer op de pagina **Domeinnamen** in de sectie **Domein** de naam van het domein dat u bijwerkt. 
+3. Selecteer **op** de pagina Domeinnamen in de sectie **Domein** de naam van het domein dat u bijwerkt. 
     
     ![Afbeelding van het lint](../../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
   
@@ -139,17 +139,17 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     ![Afbeelding van het lint](../../media/63f7ab77-e686-4e7b-a3a2-1ac28a02d5f3.png)
   
-7. Selecteer **Toevoegen**.
+7. Kies **Toevoegen**.
     
     ![Afbeelding van het lint](../../media/a60680a1-2513-498c-b42f-8ffa575ee48e.png)
   
 8. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record.
     
-    (Kies de **prioriteitswaarde** in de vervolgkeuzelijst.) 
+    (Kies de **waarde Prioriteit** in de vervolgkeuzelijst.) 
     
     |**Mail For Zone**|**Priority**|**Assigned To Server**|
     |:-----|:-----|:-----|
-    |(Laat dit veld leeg.)  <br/> |1  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.    <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * uit uw Office 365-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
+    |(Laat dit veld leeg.)  <br/> |1  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit. <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * op uit uw Office 365-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
        
    ![Afbeelding van het lint](../../media/e27df6a6-19a6-4e58-9716-a74be1c3f8da.png)
   
@@ -157,7 +157,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     ![Afbeelding van het lint](../../media/ba25cdef-a436-48bf-b0e9-5dffd03234a4.png)
   
-10. Als er andere MX-records zijn vermeld in de sectie **MX Record,** selecteert u **Wijzigen** voor een van deze records. 
+10. Als er andere MX-records worden vermeld in de sectie **MX Record,** selecteert **u Wijzigen** voor een van deze records. 
     
     ![Afbeelding van het lint](../../media/9acdda39-33ec-4b24-ad83-91c26f9c599b.png)
   
@@ -178,11 +178,11 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     ![Afbeelding van het lint](../../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
   
-2. Selecteer **Domeinen**in de sectie **Mijn account.**
+2. Selecteer **Domeinen**in de sectie **Mijn account** .
     
     ![Afbeelding van het lint](../../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
   
-3. Selecteer op de pagina **Domeinnamen** in de sectie **Domein** de naam van het domein dat u bijwerkt. 
+3. Selecteer **op** de pagina Domeinnamen in de sectie **Domein** de naam van het domein dat u bijwerkt. 
     
     ![Afbeelding van het lint](../../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
   
@@ -198,7 +198,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     ![Afbeelding van het lint](../../media/2f02538b-fc79-46d2-a2b7-1022eaf0fb08.png)
   
-7. Selecteer **Toevoegen**.
+7. Kies **Toevoegen**.
     
     ![Afbeelding van het lint](../../media/4c5929cf-1c21-4af9-899b-e36091f0f14d.png)
   
@@ -222,11 +222,11 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
   
 10. Voeg de tweede CNAME-record toe:
     
-    Gebruik in de vakken voor de nieuwe record de waarden van de volgende rij in de tabel en selecteer vervolgens opnieuw **CNAME-record toevoegen**.
+    Gebruik in de vakken voor de nieuwe record de waarden uit de volgende rij in de tabel en selecteer vervolgens opnieuw **CNAME Record toevoegen**.
     
     Herhaal deze procedure totdat u alle zes CNAME-records hebt gemaakt.
     
-11. Selecteer **Bijwerken** om de wijzigingen op te slaan. 
+11. Selecteer **Bijwerken** om uw wijzigingen op te slaan. 
     
     ![Afbeelding van het lint](../../media/dbe578f6-359c-428c-b296-ca624cecfc3c.png)
   
@@ -240,11 +240,11 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     ![Afbeelding van het lint](../../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
   
-2. Selecteer **Domeinen**in de sectie **Mijn account.**
+2. Selecteer **Domeinen**in de sectie **Mijn account** .
     
     ![Afbeelding van het lint](../../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
   
-3. Selecteer op de pagina **Domeinnamen** in de sectie **Domein** de naam van het domein dat u bijwerkt. 
+3. Selecteer **op** de pagina Domeinnamen in de sectie **Domein** de naam van het domein dat u bijwerkt. 
     
     ![Afbeelding van het lint](../../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
   
@@ -260,7 +260,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     ![Afbeelding van het lint](../../media/7f2461e2-0468-49bd-9eb0-981e9b2f72d6.png)
   
-7. Selecteer **Toevoegen**.
+7. Kies **Toevoegen**.
     
     ![Afbeelding van het lint](../../media/64ef9e1f-676d-46e2-9253-a83d9bcd1c4e.png)
   
@@ -276,18 +276,18 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     ![Afbeelding van het lint](../../media/d4f378ee-0f14-46ae-ba32-1596660ecf91.png)
   
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Voeg de vier SRV-records toe die voor Office 365 vereist zijn.
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>De twee SRV-records toevoegen die voor Office 365 vereist zijn
 <a name="BKMK_add_SRV"> </a>
 
 1. Ga eerst naar de pagina met domeinen bij Crazy Domains via [deze koppeling](https://manage.crazydomains.com/members/domains/). U wordt gevraagd u eerst aan te melden.
     
     ![Afbeelding van het lint](../../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
   
-2. Selecteer **Domeinen**in de sectie **Mijn account.**
+2. Selecteer **Domeinen**in de sectie **Mijn account** .
     
     ![Afbeelding van het lint](../../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
   
-3. Selecteer op de pagina **Domeinnamen** in de sectie **Domein** de naam van het domein dat u bijwerkt. 
+3. Selecteer **op** de pagina Domeinnamen in de sectie **Domein** de naam van het domein dat u bijwerkt. 
     
     ![Afbeelding van het lint](../../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
   
@@ -303,7 +303,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     ![Afbeelding van het lint](../../media/156acebc-7f6d-4b5e-8493-6bc62ca0ee27.png)
   
-7. Selecteer **Toevoegen**.
+7. Kies **Toevoegen**.
     
     ![Afbeelding van het lint](../../media/6a711df7-4215-49b2-b58f-1cf1a242b383.png)
   
@@ -311,7 +311,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     Typ of kopieer en plak de waarden uit de eerste rij in de volgende tabel in de velden voor de nieuwe record.
     
-    |**Record Type**|**Sub Domain**|**Priority**|**Weight**|**Port**|**Target**|
+    |**Record Type**|**Sub Domain**|**Prioriteit**|**Gewicht**|**Poort**|**Target**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
     |SRV Record  <br/> |_sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
     |SRV Record  <br/> |_sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
@@ -326,7 +326,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     Voeg in de vakken voor de nieuwe record de waarden uit de tweede rij in de tabel toe.
     
-11. Selecteer **Bijwerken** om de wijzigingen op te slaan. 
+11. Selecteer **Bijwerken** om uw wijzigingen op te slaan. 
     
     ![Afbeelding van het lint](../../media/f0bb1dd6-3772-4293-bf74-710f635e0658.png)
   

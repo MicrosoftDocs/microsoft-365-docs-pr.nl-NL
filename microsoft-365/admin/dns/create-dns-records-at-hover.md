@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 46ab4b10-6857-44b1-b08d-d1b5f45a69c6
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Hover voor Office 365.
-ms.openlocfilehash: 72df2d98f3446087a1e9796cd616293a91003ad9
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 7884038dcd1ebc7b13bbed44d98f0d5172015cc1
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42812146"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211701"
 ---
 # <a name="create-dns-records-at-hover-for-office-365"></a>DNS-records maken op Hover voor Office 365
 
@@ -85,24 +85,24 @@ Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug 
   
 Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
-2. Selecteer **op** de pagina Domeinen het domein dat u verifieert. 
-    
-    
-  
-3. Selecteer **op** de pagina Setup de optie **Installatie starten**.
+2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
     
     
   
-4. Selecteer **op** de pagina Domein verifiëren de optie **Verifiëren**.
+3. Kies **Start setup** op de pagina **Setup**.
+    
+    
+  
+4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
     
   
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Voeg een MX-record toe zodat e-mail voor uw domein bij Office 365 terechtkomt
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Een MX-record toevoegen zodat e-mail voor uw domein bij Office 365 terechtkomt
 <a name="BKMK_add_MX"> </a>
 
 Volg onderstaande stappen of [bekijk de video](https://support.office.com/article/Video-Create-DNS-records-at-Hover-for-Office-365-182bd58e-8fe4-4717-9233-3a3546b72ad2?ui=en-US&amp;rs=en-US&amp;ad=US).
@@ -127,7 +127,7 @@ Volg onderstaande stappen of [bekijk de video](https://support.office.com/articl
     
     |**Hostnaam**|**Record Type**|**Priority**|**Hostname**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |0  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.    <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * op uit uw Office 365-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |MX  <br/> |0  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit. <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * op uit uw Office 365-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![DNS-waarden typen of kopiëren en plakken](../../media/2c8915fa-04a8-4d2a-a8ae-a79de0c8ef99.png)
   
@@ -224,7 +224,7 @@ Volg onderstaande stappen of [bekijk de video](https://support.office.com/articl
     
     ![Selecteer Opslaan](../../media/13a395b9-e0e8-4393-b568-5f99b2da39da.png)
   
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Voeg de vier SRV-records toe die voor Office 365 vereist zijn.
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>De twee SRV-records toevoegen die voor Office 365 vereist zijn
 <a name="BKMK_add_SRV"> </a>
 
 Volg onderstaande stappen of [bekijk de video](https://support.office.com/article/Video-Create-DNS-records-at-Hover-for-Office-365-182bd58e-8fe4-4717-9233-3a3546b72ad2?ui=en-US&amp;rs=en-US&amp;ad=US).
@@ -249,7 +249,7 @@ Volg onderstaande stappen of [bekijk de video](https://support.office.com/articl
   
 5. Selecteer in de lege vakken voor de nieuwe record de optie **SRV** voor het **recordtype** en typ of kopieer en plak de waarden uit de eerste rij in de volgende tabel.
     
-    |**Hostname**|**Record Type**|**Priority**|**Weight**|**Port**|**Target**|
+    |**Hostname**|**Record Type**|**Prioriteit**|**Gewicht**|**Poort**|**Target**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
     |_sip._tls  <br/> |SRV  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
     |_sipfederationtls._tcp  <br/> |SRV  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |

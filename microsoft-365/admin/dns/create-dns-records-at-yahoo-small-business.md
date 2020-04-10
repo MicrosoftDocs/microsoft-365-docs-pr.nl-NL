@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 034bd7bc-b098-4c4d-8a93-4d74ff24532a
 description: Lees uw domein en stel DNS-records in voor e-mail, Skype voor Bedrijven Online en andere services bij Yahoo! Klein Bedrijf voor Office 365.
-ms.openlocfilehash: c178afeb309fba9515e01155a43d5e6b97d1136f
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 7b0d0b25a2895101e2f9a259a82fb18e9447441f
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42808511"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211036"
 ---
 # <a name="create-dns-records-at-yahoo-small-business-for-office-365"></a>DNS-records bij Yahoo! Small Business maken voor Office 365
 

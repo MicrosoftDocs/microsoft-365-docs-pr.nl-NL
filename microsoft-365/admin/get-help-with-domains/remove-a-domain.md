@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Meer informatie over het verwijderen van een oud domein uit Office 365 en het verplaatsen van gebruikers en groepen naar een ander domein.
-ms.openlocfilehash: efbd49daa28b5d15989e1531929cb2d9355aeb8f
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 621b50384b39a21bc0bf5256841c703b3ee0f74a
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857425"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210366"
 ---
 # <a name="remove-a-domain-from-office-365"></a>Een domein verwijderen uit Office 365
 
@@ -45,15 +45,15 @@ Wilt u uw domein verwijderen, omdat u het aan een ander abonnement van Office 36
 > [!NOTE]
 > Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
-1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">beheercentrum.</a>
+1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">beheercentrum</a>.
 
-2. Selecteer **Actieve gebruikers** **voor gebruikers** > .
+2. Selecteer **Gebruikers** > **actieve gebruikers**.
 
 3. Selecteer de vakken naast de namen van alle gebruikers die u wilt verplaatsen.
 
-4. Selecteer **Meer opties** (**...),** boven aan de pagina en kies **Vervolgens Domeinen wijzigen**.
+4. Selecteer **Meer opties** (**...**) boven aan de pagina en kies Domeinen **wijzigen**.
 
-5. Selecteer in het deelvenster **Domeinen wijzigen** een ander domein.
+5. Selecteer **in** het deelvenster Domeinen wijzigen een ander domein.
 
 U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verwijderen. Wanneer u het domein voor uw account bewerkt, moet u zich afmelden en weer aanmelden met het nieuwe domein dat u kiest om door te gaan.
 
@@ -61,13 +61,13 @@ U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verw
 
 ::: moniker range="o365-germany"
 
-1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum.</a>  
+1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a>.  
 
-2. Selecteer **Actieve gebruikers** **voor gebruikers** > .
+2. Selecteer **Gebruikers** > **actieve gebruikers**.
 
 3. Selecteer de vakken naast de namen van alle gebruikers die u wilt verplaatsen.
 
-4. Kies boven aan de pagina **Meer** > **bewerken domeinen**.
+4. Kies boven aan de pagina **Meer** > **bewerkingsdomeinen**.
 
 5. Selecteer in het deelvenster **Domeinen bewerken** een ander domein.
   
@@ -77,13 +77,13 @@ U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verw
 
 ::: moniker range="o365-21vianet"
 
-1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum.</a>  
+1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a>.  
 
-2. Selecteer **Actieve gebruikers** **voor gebruikers** > .
+2. Selecteer **Gebruikers** > **actieve gebruikers**.
 
 3. Selecteer de vakken naast de namen van alle gebruikers die u wilt verplaatsen.
 
-4. Kies boven aan de pagina **Meer** > **bewerken domeinen**.
+4. Kies boven aan de pagina **Meer** > **bewerkingsdomeinen**.
 
 5. Selecteer in het deelvenster **Domeinen bewerken** een ander domein.
   
@@ -98,13 +98,13 @@ U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verw
 > [!NOTE]
 > Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
-1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum.</a>
+1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a>.
 
-2. Ga **naar** \> **actieve gebruikers**en selecteer uw account in de lijst.
+2. Ga naar **Gebruikers** \> **actieve gebruikers**en selecteer uw account in de lijst.
 
 3. Selecteer op het tabblad **Account** de optie **Gebruikersnaam beheren**en kies vervolgens een ander domein.
   
-4. Selecteer bovenaan uw accountnaam en selecteer **Vervolgens Afmelden**.
+4. Selecteer bovenaan uw accountnaam en selecteer **Afmelden.**
 
 5. Meld u aan met het nieuwe domein en hetzelfde wachtwoord.
 
@@ -114,13 +114,13 @@ U kunt ook PowerShell gebruiken om gebruikers te verplaatsen naar een ander dome
 
 ::: moniker range="o365-germany"
 
-1. Ga **naar** \> **actieve gebruikers**gebruikers en selecteer uw naam in de lijst.
+1. Ga naar **Gebruikers** \> **actieve gebruikers**en selecteer uw naam in de lijst.
 
-2. Selecteer **bewerken**in de sectie **Gebruikersnaam / e-mail** en kies vervolgens een ander domein.
+2. **Selecteer**bewerken en kies vervolgens een ander domein in de sectie Gebruikersnaam **/ e-mail.**
 
-3. Selecteer **Instellen als primaire** > **opslaan** > **sluiten**.
+3. Selecteer **Instellen als primaire** > **Afsluiting** > **opslaan**.
   
-4. Selecteer bovenaan uw accountnaam en selecteer **Vervolgens Afmelden**.
+4. Selecteer bovenaan uw accountnaam en selecteer **Afmelden.**
 
 5. Meld u aan met het nieuwe domein en hetzelfde wachtwoord.
 
@@ -130,13 +130,13 @@ U kunt ook PowerShell gebruiken om gebruikers te verplaatsen naar een ander dome
 
 ::: moniker range="o365-21vianet"
 
-1. Ga **naar** \> **actieve gebruikers**gebruikers en selecteer uw naam in de lijst.
+1. Ga naar **Gebruikers** \> **actieve gebruikers**en selecteer uw naam in de lijst.
 
-2. Selecteer **bewerken**in de sectie **Gebruikersnaam / e-mail** en kies vervolgens een ander domein.
+2. **Selecteer**bewerken en kies vervolgens een ander domein in de sectie Gebruikersnaam **/ e-mail.**
 
-3. Selecteer **Instellen als primaire** > **opslaan** > **sluiten**.
+3. Selecteer **Instellen als primaire** > **Afsluiting** > **opslaan**.
   
-4. Selecteer bovenaan uw accountnaam en selecteer **Vervolgens Afmelden**.
+4. Selecteer bovenaan uw accountnaam en selecteer **Afmelden.**
 
 5. Meld u aan met het nieuwe domein en hetzelfde wachtwoord.
 
@@ -148,37 +148,37 @@ U kunt ook PowerShell gebruiken om gebruikers te verplaatsen naar een ander dome
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a> **Groups**
+1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
   
-2. Selecteer de groepsnaam en selecteer vervolgens op het tabblad **Algemeen** onder **E-mailadres Primair**, selecteer **Bewerken**.
+2. Selecteer de groepsnaam en selecteer vervolgens op het tabblad **Algemeen** onder **E-mailadres Primair ,** Selecteer **Bewerken**.
 
 3. Gebruik de vervolgkeuzelijst om een ander domein te kiezen.
 
-4. Selecteer **Opslaan**en **sluiten.** Herhaal dit proces voor alle groepen of distributielijsten die zijn gekoppeld aan het domein dat u wilt verwijderen.
+4. Selecteer **Opslaan** en vervolgens **Sluiten**. Herhaal dit proces voor alle groepen of distributielijsten die zijn gekoppeld aan het domein dat u wilt verwijderen.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a>naar de pagina > **Groepengroepen.** **Groups**
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a>naar de pagina **Groepen** > **groepen.**
 
 2. Selecteer de groepsnaam en selecteer **Bewerken** naast **Naam**.
 
 3. Gebruik de vervolgkeuzelijst om een ander domein te kiezen.
 
-4. Selecteer **Opslaan**en **sluiten.** Herhaal dit proces voor alle groepen of distributielijsten die zijn gekoppeld aan het domein dat u wilt verwijderen.
+4. Selecteer **Opslaan** en vervolgens **Sluiten**. Herhaal dit proces voor alle groepen of distributielijsten die zijn gekoppeld aan het domein dat u wilt verwijderen.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a>naar de pagina > **Groepengroepen.** **Groups**
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a>naar de pagina **Groepen** > **groepen.**
 
 2. Selecteer de groepsnaam en selecteer **Bewerken** naast **Naam**.
 
 3. Gebruik de vervolgkeuzelijst om een ander domein te kiezen.
 
-4. Selecteer **Opslaan**en **sluiten.** Herhaal dit proces voor alle groepen of distributielijsten die zijn gekoppeld aan het domein dat u wilt verwijderen.
+4. Selecteer **Opslaan** en vervolgens **Sluiten**. Herhaal dit proces voor alle groepen of distributielijsten die zijn gekoppeld aan het domein dat u wilt verwijderen.
 
 ::: moniker-end
 
@@ -186,27 +186,27 @@ U kunt ook PowerShell gebruiken om gebruikers te verplaatsen naar een ander dome
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">pagina</a> **Domeinen instellen.** \>
+1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Setup-domeinen.</a> **Setup**
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">pagina</a> **Domeinen instellen.** \>
+1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Setup-domeinen.</a> **Setup**
 
 ::: moniker-end
   
-2. Selecteer op de pagina **Domeinen** het domein dat u wilt verwijderen.
+2. Selecteer **op** de pagina Domeinen het domein dat u wilt verwijderen.
 
-3. Selecteer **verwijderen**in het rechterdeelvenster.
+3. Selecteer **Verwijderen**in het rechterdeelvenster .
 
-4. Volg eventuele extra prompts en selecteer **Sluiten.**
+4. Volg eventuele aanvullende aanwijzingen en selecteer **Sluiten**.
 
 ## <a name="how-long-does-it-take-for-a-domain-to-be-removed"></a>Hoe lang duurt het voordat een domein is verwijderd?
 
@@ -229,7 +229,7 @@ Werkt het nog steeds niet? Uw domein moet mogelijk handmatig worden verwijderd. 
 
 [Veelgestelde vragen over domeinen](../setup/domains-faq.md)
 
-[Hulp krijgen bij Office 365-domeinen](get-help-with-domains.yml)
+[Hulp krijgen bij Office 365-domeinen](get-help-with-domains.md)
 
 [Overstappen op een ander Office 365 voor Bedrijven-abonnement](../../commerce/subscriptions/switch-to-a-different-plan.md)
 

@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1f2d08c9-2a88-4d2f-ae1f-e39f9e358b17
 description: Lees uw domein verifiëren en STEL DNS-records in voor e-mail, Skype voor Bedrijven Online en andere services op 123-reg.co.uk voor Office 365.
-ms.openlocfilehash: 327f55dcedfda6eef31d56af1833a5c5438af2a6
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 521426f039ac02e8c4566f5901fee49679de4e70
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42810290"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211857"
 ---
 # <a name="create-dns-records-at-123-regcouk-for-office-365"></a>DNS-records maken op 123-reg.co.uk voor Office 365
 
@@ -65,7 +65,7 @@ Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleer
     |**Hostname** <br/> |**Type** <br/> |**Destination TXT/SPF** <br/> |
     |@  <br/> |TXT/SPF  <br/> |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Office 365. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
    
-6. Selecteer **Toevoegen**.
+6. Kies **Toevoegen**.
     
 7. Wacht enkele minuten voordat u verder gaat, zodat de record die u zojuist hebt gemaakt via internet kan worden bijgewerkt.
     
@@ -73,14 +73,14 @@ Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug 
   
 Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
 
     
-2. Selecteer **op** de pagina Domeinen het domein dat u verifieert. 
+2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
     
-3. Selecteer **op** de pagina Setup de optie **Installatie starten**.
+3. Kies **Start setup** op de pagina **Setup**.
     
-4. Selecteer **op** de pagina Domein verifiëren de optie **Verifiëren**.
+4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
 > [!NOTE]
 > Het duurt meestal ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd in Office 365](../get-help-with-domains/find-and-fix-issues.md). 
@@ -102,11 +102,11 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     |**Hostname**|**Type**|**Priority**|**Destination MX**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.    <br/> | *\<domein-sleutel\>*  .mail.protection.outlook.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> **Let op:** Haal \<uw domeinsleutel\> op uit uw Office 365-account. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |MX  <br/> |1  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.    <br/> | *\<domein-sleutel\>*  .mail.protection.outlook.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> **Opmerking**: Uw \<domeinsleutel\> kunt u ophalen uit uw Office 365-account. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Waarden uit de tabel kopiëren en plakken](../../media/65366165-85a6-4a39-b9a7-6c5f47fbe790.png)
   
-6. Selecteer **Toevoegen**.
+6. Kies **Toevoegen**.
     
     ![Selecteer Toevoegen](../../media/a8ae6c0c-4365-4137-af8a-6e003996e3d0.png)
   
@@ -127,7 +127,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
 5. Voeg de eerste van de zes CNAME-records toe.
     
-    Typ of kopieer en plak de waarden uit de volgende tabel in het gebied **Advanced DNS** in de vakken voor de nieuwe record. 
+    Ga naar het gebied **Advanced DNS**. In de vakken voor de nieuwe record in dit gebied kunt u vervolgens de waarden uit de volgende tabel typen of kopiëren en plakken. 
     
     (Kies in de vervolgkeuzelijst de waarde **Type**). 
     
@@ -141,7 +141,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
    
     ![De waarden uit de tabel kopiëren en plakken](../../media/24bf388c-5f7f-4fc0-b4ec-4b17226b6246.png)
   
-6. Selecteer **Toevoegen**.
+6. Kies **Toevoegen**.
     
     ![Selecteer Toevoegen](../../media/825a9854-559d-4a22-90ac-5e7a0a54269a.png)
   
@@ -175,11 +175,11 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
    
     ![Afbeelding van het te maken:Afbeelding van het te maken](../../media/4697701c-eba0-4b03-8d75-4f7fc3bef94a.png)
   
-6. Selecteer **Toevoegen**.
+6. Kies **Toevoegen**.
     
     ![Selecteer Toevoegen](../../media/7906dd91-fd23-44c3-bb37-ef185655c6eb.png)
   
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Voeg de vier SRV-records toe die voor Office 365 vereist zijn.
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>De twee SRV-records toevoegen die voor Office 365 vereist zijn
 <a name="BKMK_add_SRV"> </a>
 
 1. Als u wilt beginnen, gaat u naar uw domeinenpagina bij 123-reg.co.uk via [deze koppeling](https://www.123-reg.co.uk/secure/cpanel/domain/overview). U wordt gevraagd u eerst aan te melden.
@@ -204,7 +204,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
    
     ![De waarden uit de tabel kopiëren en plakken](../../media/c1786b86-52ef-4dca-8b99-b479554fa531.png)
   
-6. Selecteer **Toevoegen**.
+6. Kies **Toevoegen**.
     
     ![Selecteer Toevoegen](../../media/5fd9d3a2-a8bb-466b-829f-b3a6e54b5104.png)
   

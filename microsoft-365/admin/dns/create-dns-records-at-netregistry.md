@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 48e09394-2287-4b3c-9853-21eadf61277e
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Netregistry voor Office 365.
-ms.openlocfilehash: 91f802afccd337a97b23ca514c9d9921595abcd1
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: e1f2414817357b8435bc002860a35c6e76d4314e
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42808510"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211132"
 ---
 # <a name="create-dns-records-at-netregistry-for-office-365"></a>DNS-records maken bij Netregistry voor Office 365
 
@@ -94,24 +94,24 @@ Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug 
   
 Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
-2. Selecteer **op** de pagina Domeinen het domein dat u verifieert. 
-    
-    
-  
-3. Selecteer **op** de pagina Setup de optie **Installatie starten**.
+2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
     
     
   
-4. Selecteer **op** de pagina Domein verifiëren de optie **Verifiëren**.
+3. Kies **Start setup** op de pagina **Setup**.
+    
+    
+  
+4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
     
   
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Voeg een MX-record toe zodat e-mail voor uw domein bij Office 365 terechtkomt
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Een MX-record toevoegen zodat e-mail voor uw domein bij Office 365 terechtkomt
 <a name="bkmk_mx"> </a>
 
 1. Ga naar uw domeinpagina van Netregistry via [deze koppeling](https://theconsole.netregistry.com.au/). U wordt gevraagd u aan te melden.
@@ -138,7 +138,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     |**Naam**|**TTL (SEC)**|**Exchange (Adres- of waardeaanspraken)**|**Is de host volledig gekwalificeerd?**|**Voorkeur (prioriteit)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(laat leeg)  <br/> |3600 (seconden)  <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * op uit uw Office 365-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)      |(schakel het selectievakje in)  <br/> |10  <br/> Zie Wat is MX-prioriteit? voor meer informatie over prioriteit.     <br/> |
+    |(laat leeg)  <br/> |3600 (seconden)  <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * op uit uw Office 365-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)      |(schakel het selectievakje in)  <br/> |10  <br/> Zie Wat is MX-prioriteit? voor meer informatie over prioriteit.  <br/> |
        
     ![Netregistry_MX_values](../../media/518b3da6-4055-4e2d-b5ce-44a0fee25419.png)
   
@@ -222,7 +222,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     ![Netregistry_SPF-TXTvalues_AddRecord](../../media/063bfbaf-940a-489f-970f-29c026b4b312.png)
   
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Voeg de vier SRV-records toe die voor Office 365 vereist zijn.
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>De twee SRV-records toevoegen die voor Office 365 vereist zijn
 <a name="bkmk_srv"> </a>
 
 1. Ga naar uw domeinpagina van Netregistry via [deze koppeling](https://theconsole.netregistry.com.au/). U wordt gevraagd u aan te melden.
@@ -246,7 +246,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     > [!NOTE]
     > Het veld Naam is een combinatie van de service (bijvoorbeeld _sip) en protocol (bijvoorbeeld _tls). 
   
-    |**Type**|**Naam**|**TTL (SEC)**|**Priority**|**Weight**|**Port**|**Target**|
+    |**Type**|**Naam**|**TTL (SEC)**|**Prioriteit**|**Gewicht**|**Poort**|**Target**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
     |SRV (service)  <br/> |_sip._tls  <br/> |3600 (seconden)  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
     |SRV (service)  <br/> |_sipfederationtls._tcp  <br/> |3600 (seconden)  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |

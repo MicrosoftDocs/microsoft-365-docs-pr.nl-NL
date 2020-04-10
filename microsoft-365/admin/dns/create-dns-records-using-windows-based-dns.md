@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services op windows-gebaseerde DNS voor Office 365.
-ms.openlocfilehash: ddea5cb95a7f2abef8b68b37de473f936ee08eb5
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: d33a2f79111f8951c3ec31ca5680877ad2e7d570
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42808508"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210562"
 ---
 # <a name="create-dns-records-for-office-365-using-windows-based-dns"></a>DNS-records voor Office 365 maken met Windows-DNS
 
@@ -48,7 +48,7 @@ Voeg een MX-record toe zodat e-mail voor uw domein naar Office 365 wordt verzond
 - Kopieer de waarde die wordt vermeld onder Adres punten naar adres in de rij MX in de sectie Exchange Online van de pagina DNS-records toevoegen in Office 365. U gebruikt deze waarde in de record die u in deze taak maakt. 
 - Ga op de pagina DNS-beheer voor het domein naar **Action** > **Mail Exchanger (MX)**. Zie [Uw DNS-records zoeken in windows-gebaseerde DNS](#find-your-dns-records-in-windows-based-dns)voor het domein om deze pagina voor het domein te vinden.  
 - Controleer in het dialoogvenster **Nieuwe bronrecord** of de velden zijn ingesteld op precies de volgende waarden: 
-    - Host naam: 
+    - Host Name:  
     - @Address: Plak hier de adreswaarde aan adres die u zojuist hebt gekopieerd uit Office 365.  
     - Pref: 
 - Selecteer **Wijzigingen opslaan**.
@@ -75,14 +75,14 @@ Voeg de SIP CNAME-record toe.
     - Host naam: sip
     - Type: CNAME
     - Adres: sipdir.online.lync.com
-- Selecteer **OK**.
+- Kies **OK**.
 
 Voeg de Skype voor Bedrijven Online Autodiscover CNAME-record toe.  
 - Ga op de pagina DNS-beheer voor het domein naar **Action** \> **CNAME (CNAME).** Controleer in het dialoogvenster **Nieuwe bronrecord** of de velden zijn ingesteld op precies de volgende waarden:  
     - Host naam: lyncdiscover
     - Type: CNAME
     - Adres: webdir.online.lync.com
-- Selecteer **OK**.
+- Kies **OK**.
    
 ### <a name="add-two-cname-records-for-mobile-device-management-mdm-for-office-365"></a>Twee CNAME-records voor MDM (Mobile Device Management) voor Office 365 toevoegen
 
@@ -96,7 +96,7 @@ Voeg de MDM Enterpriseregistration CNAME-record toe.
 - Host name: enterpriseregistration
 - Type: CNAME
 - Adres: enterpriseregistration.windows.net
-- Selecteer **OK**. 
+- Kies **OK**. 
 
 Voeg de MDM Enterpriseenrollment CNAME-record toe. 
 -  Ga op de pagina DNS-beheer voor het domein naar **Action** \> **CNAME (CNAME).** 
@@ -104,7 +104,7 @@ Voeg de MDM Enterpriseenrollment CNAME-record toe.
     - Hostnaam: inschrijving voor ondernemingen
     - Type: CNAME
     - Adres: enterpriseenrollment-s.manage.microsoft.com
-- Selecteer **OK**.
+- Kies **OK**.
    
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Een TXT-record voor SPF toevoegen om spam tegen te gaan
 <a name="BKMK_add_TXT"> </a>
@@ -124,7 +124,7 @@ Voeg de SPF TXT-record voor uw domein om spam te voorkomen.
 -  Recordtype: TXT
 -  Adres: v=spf1 include:spf.protection.outlook.com -all 
          
--  Selecteer **OK**.
+-  Kies **OK**.
    
 ## <a name="add-srv-records"></a>SRV-records toevoegen
 <a name="BKMK_add_SRV"> </a>
@@ -141,7 +141,7 @@ Voeg de SIP SRV-record voor Skype voor Bedrijven Online-webconferenties toe.  <b
     -  Gewicht: 1
     -  Poort: 443
     -  Doel (hostnaam): sipdir.online.lync.com
--  Selecteer **OK**. 
+-  Kies **OK**. 
 
 
 Voeg de SIP SRV-record voor Skype voor Bedrijven Online-federatie toe.  
@@ -154,7 +154,7 @@ Voeg de SIP SRV-record voor Skype voor Bedrijven Online-federatie toe.
     -  Gewicht: 1
     -  Poort: 5061
     -  Doel (hostnaam): sipfed.online.lync.com
--  Selecteer **OK**. 
+-  Kies **OK**. 
    
 ## <a name="add-a-record-to-verify-that-you-own-the-domain-if-you-havent-already"></a>Een record toevoegen om te verifiëren dat u eigenaar bent van het domein, als dit nog niet is gedaan
 <a name="BKMK_verify"> </a>
@@ -166,7 +166,7 @@ Voordat u de DNS-records toevoegt voor het instellen van de Office 365-services,
   
 
 1. Verzamel informatie uit Office 365.  <br/> 
-2. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings** 
+2. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina. 
 3. Selecteer op de pagina **Domeinen** in de kolom **Acties** voor het domein dat u verifieert de optie **Setup starten**. 
 4. Selecteer **stap 1 starten**op de pagina Een domein toevoegen aan Office **365** . 
 5. Kies **op** de pagina Bevestigen dat u eigenaar bent van uw domein de optie Algemene **instructies**in de **vervolgkeuzelijst Zie instructies voor het uitvoeren van deze stap met** de vervolgkeuzelijst . 

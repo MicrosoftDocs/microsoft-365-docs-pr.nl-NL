@@ -6,7 +6,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Lees office 365-groepen, waaronder het toevoegen van groepleden verwijderen, het bewerken van het e-mailadres, de groepsnaam of de beschrijving en het aanpassen van de werking van de groep.
-ms.openlocfilehash: 189a41c5049110100b548ca6f906b1324aeb1431
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 34682d3d06babca04a9b2541e3f33ec79d934f50
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894525"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212067"
 ---
 # <a name="manage-an-office-365-group-in-the-microsoft-365-admin-center"></a>Een Office 365-groep beheren in het Microsoft 365-beheercentrum
 

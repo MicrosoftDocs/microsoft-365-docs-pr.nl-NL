@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: d4ba60f3-4e1c-4180-99bd-250b8955be2a
-description: 'Meer informatie over het instellen van uw aangepaste Office 365-domein met netwerkoplossingen als u wilt dat Office 365 uw DNS-records beheert. '
-ms.openlocfilehash: 5eae7561baa6e0efb4436e6758d3fd972a2700cc
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: 'Lees informatie over het instellen van uw aangepaste Office 365-domein met Netwerkoplossingen als u wilt dat Office 365 uw DNS-records beheert. '
+ms.openlocfilehash: df80cc925fab965b73873916dff7fc4dea74a661
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42812487"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211881"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-network-solutions"></a>Naamservers wijzigen voor het instellen van Office 365 bij Network Solutions
 
@@ -46,7 +46,7 @@ Volg onderstaande stappen of [bekijk de video (start op 0:47)](https://support.o
 1. Als u wilt beginnen, gaat u [via deze koppeling](https://www.networksolutions.com/manage-it) naar uw pagina met domeinen bij Network Solutions. U wordt gevraagd u aan te melden.
     
     > [!IMPORTANT]
-    > Voordat u de knop **Inloggen** selecteert, kiest u eerst **Mijn domeinnamen beheren** in de **inloglijst naar:** vervolgkeuzelijst.
+    > Voordat u de knop **Aanmelden** selecteert, kiest u **Mijn domeinnamen beheren** in de **vervolgkeuzelijst Aanmelden.**
   
     ![Mijn domeinnamen beheren kiezen en aanmelden bij Network Solutions](../../media/fda7d4a1-9445-4086-be9c-87c6983ef2aa.png)
   
@@ -56,17 +56,17 @@ Volg onderstaande stappen of [bekijk de video (start op 0:47)](https://support.o
   
 3. Selecteer **DNS bewerken**.
     
-    ![Selecteer DNS bewerken](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
+    ![DNS bewerken selecteren](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
   
 4. Selecteer **Geavanceerde DNS-records beheren**.
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Geavanceerde DNS-records beheren selecteren](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
+    ![Selecteer Geavanceerde DNS-records beheren](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
-5. Schuif omlaag naar de sectie **Tekst (TXT Records)** en selecteer **TXT-records bewerken**.
+5. Schuif omlaag naar de sectie **Tekst (TXT Records)** en selecteer **Vervolgens TXT Records bewerken**.
     
-    ![Selecteer TXT-records bewerken](../../media/240a01d6-750a-4da6-8554-641b571e4b71.png)
+    ![TXT-records bewerken selecteren](../../media/240a01d6-750a-4da6-8554-641b571e4b71.png)
   
 6. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record.
     
@@ -79,11 +79,11 @@ Volg onderstaande stappen of [bekijk de video (start op 0:47)](https://support.o
   
 7. Selecteer **Doorgaan**.
     
-    ![Doorgaan selecteren](../../media/89e7fb38-b4d9-4949-a1bb-d0dd10b361e0.png)
+    ![Selecteer Doorgaan](../../media/89e7fb38-b4d9-4949-a1bb-d0dd10b361e0.png)
   
 8. Selecteer **Wijzigingen opslaan**.
     
-    ![Wijzigingen opslaan selecteren](../../media/bd4d7cd0-c8a3-497a-b080-cfd5a5c60dc5.png)
+    ![Selecteer Wijzigingen opslaan](../../media/bd4d7cd0-c8a3-497a-b080-cfd5a5c60dc5.png)
   
 9. Wacht enkele minuten voordat u verder gaat, zodat de record die u zojuist hebt gemaakt via internet kan worden bijgewerkt.
     
@@ -91,18 +91,18 @@ Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug 
   
 Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
 
     
-2. Selecteer op de pagina **Domeinen** het domein dat u verifieert. 
+2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
     
     
   
-3. Selecteer op de pagina **Setup** de optie **Startsetup**.
+3. Kies **Start setup** op de pagina **Setup**.
     
     
   
-4. Selecteer op de pagina **Domein verifiëren** de optie **Verifiëren**.
+4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
     
   
@@ -124,7 +124,7 @@ Bent u klaar voor het wijzigen van uw NS-records zodat Office 365 uw domein kan 
 1. Als u wilt beginnen, gaat u [via deze koppeling](https://www.networksolutions.com/manage-it) naar uw pagina met domeinen bij Network Solutions. U wordt gevraagd u aan te melden.
     
     > [!IMPORTANT]
-    > Voordat u de knop **Inloggen** selecteert, kiest u eerst **Mijn domeinnamen beheren** in de **inloglijst naar:** vervolgkeuzelijst. 
+    > Voordat u de knop **Aanmelden** selecteert, kiest u **Mijn domeinnamen beheren** in de **vervolgkeuzelijst Aanmelden.** 
   
     ![Mijn domeinnamen beheren kiezen en aanmelden bij Network Solutions](../../media/fda7d4a1-9445-4086-be9c-87c6983ef2aa.png)
   
@@ -134,11 +134,11 @@ Bent u klaar voor het wijzigen van uw NS-records zodat Office 365 uw domein kan 
   
 3. Selecteer **DNS bewerken**.
     
-    ![Selecteer DNS bewerken](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
+    ![DNS bewerken selecteren](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
   
 4. Selecteer **DNS verplaatsen**.
     
-    ![NetworkSolutionsBP-Opnieuw delegeren-1-1](../../media/e57a30f3-63d5-4bcb-84c6-c8be21c261a2.png)
+    ![Afbeelding van het lint](../../media/e57a30f3-63d5-4bcb-84c6-c8be21c261a2.png)
   
 5. Afhankelijk van of er al naamservers worden vermeld op de pagina die wordt weergegeven, gaat u op een van de volgende twee manieren verder:
     
@@ -150,7 +150,7 @@ Bent u klaar voor het wijzigen van uw NS-records zodat Office 365 uw domein kan 
 
 1. Selecteer op de pagina **Domeinen** in de sectie **Domeinnaamservers opgeven** de optie **Meer naamservers toevoegen**.
     
-    ![NetworkSolutionsBP-Opnieuw delegeren-1-2-1](../../media/57e22ef1-ac88-4d4a-bc8e-058023255dfd.png)
+    ![Afbeelding van het lint](../../media/57e22ef1-ac88-4d4a-bc8e-058023255dfd.png)
   
 2. Typ of kopieer en plak de naamserverwaarden uit de volgende tabel naar de pagina **Domain Names**. 
     
@@ -162,15 +162,15 @@ Bent u klaar voor het wijzigen van uw NS-records zodat Office 365 uw domein kan 
 |**Name Server 2** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
     
-![NetworkSolutionsBP-Opnieuw delegeren-1-2-2](../../media/795e8c6b-4828-4de2-b624-82f067bb2eb1.png)
+![Afbeelding van het lint](../../media/795e8c6b-4828-4de2-b624-82f067bb2eb1.png)
   
 3. Selecteer **DNS verplaatsen**.
     
-    ![NetworkSolutionsBP-Opnieuw delegeren-1-2-3](../../media/d4a0a7c2-6868-471f-bbf4-16ce2e2348de.png)
+    ![Afbeelding van het lint](../../media/d4a0a7c2-6868-471f-bbf4-16ce2e2348de.png)
   
 4. Selecteer **Wijzigingen opslaan**.
     
-    ![NetworkSolutionsBP-Opnieuw delegeren-1-2-4](../../media/897bc864-b340-4385-abeb-f94bc7f73e5e.png)
+    ![Afbeelding van het lint](../../media/897bc864-b340-4385-abeb-f94bc7f73e5e.png)
   
 > [!NOTE]
 > Het kan enige uren duren voordat de updates van uw naamserverrecords via het DNS-systeem op internet zijn doorgevoerd. Vervolgens worden uw e-mail voor Office 365 en andere services ingesteld voor gebruik met uw domein. 
@@ -186,7 +186,7 @@ Bent u klaar voor het wijzigen van uw NS-records zodat Office 365 uw domein kan 
   
 2. Selecteer **Meer naamservers toevoegen**.
     
-    ![NetworkSolutionsBP-Opnieuw delegeren-1-2-1](../../media/57e22ef1-ac88-4d4a-bc8e-058023255dfd.png)
+    ![Afbeelding van het lint](../../media/57e22ef1-ac88-4d4a-bc8e-058023255dfd.png)
   
 3. Typ of kopieer en plak de naamserverwaarden uit de volgende tabel naar de pagina **Domain Names**.
  
@@ -199,15 +199,15 @@ Bent u klaar voor het wijzigen van uw NS-records zodat Office 365 uw domein kan 
 |**Name Server 4** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
     
-![NetworkSolutionsBP-Opnieuw delegeren-1-2-2](../../media/795e8c6b-4828-4de2-b624-82f067bb2eb1.png)
+![Afbeelding van het lint](../../media/795e8c6b-4828-4de2-b624-82f067bb2eb1.png)
   
 4. Selecteer **DNS verplaatsen**.
     
-    ![NetworkSolutionsBP-Opnieuw delegeren-1-2-3](../../media/d4a0a7c2-6868-471f-bbf4-16ce2e2348de.png)
+    ![Afbeelding van het lint](../../media/d4a0a7c2-6868-471f-bbf4-16ce2e2348de.png)
   
 5. Selecteer **Wijzigingen opslaan.**
     
-    ![NetworkSolutionsBP-Opnieuw delegeren-1-2-4](../../media/897bc864-b340-4385-abeb-f94bc7f73e5e.png)
+    ![Afbeelding van het lint](../../media/897bc864-b340-4385-abeb-f94bc7f73e5e.png)
   
 > [!NOTE]
 > Het kan enige uren duren voordat de updates van uw naamserverrecords via het DNS-systeem op internet zijn doorgevoerd. Vervolgens worden uw e-mail voor Office 365 en andere services ingesteld voor gebruik met uw domein.

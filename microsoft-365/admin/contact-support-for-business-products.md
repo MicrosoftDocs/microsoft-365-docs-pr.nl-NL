@@ -6,7 +6,7 @@ ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: troubleshooting
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
 description: Ontvang technische en factureringsondersteuning via het telefoonnummer dat wordt weergegeven voor uw land of regio, door uw serviceaanvraag online te versturen of door naar een Microsoft Store te gaan.
 feedback_system: None
-ms.openlocfilehash: 4bb35f6d8c2895ec7adf37c6b4e149962fb616bc
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 8f108f4348a7cecd62eba869962d9ee5b179b5b0
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142549"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212115"
 ---
 # <a name="contact-support-for-business-products---admin-help"></a>Contact opnemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders
 
@@ -98,7 +98,7 @@ Pre-sales ondersteuning voor Office 365 beheerd door 21Vianet biedt assistentie 
 
 ### <a name="billing-and-subscription-management-support"></a>Ondersteuning voor facturerings- en abonnementsbeheer
 
-Assistentie voor problemen met het facturerings- en abonnementsbeheer is online of telefonisch beschikbaar tijdens Chinese kantooruren (lokale tijd) van maandag t/m vrijdag. Ondersteuning voor facturerings- en abonnementsbeheer is beschikbaar onder hetzelfde telefoonnummer en hetzelfde proces voor onlineserviceaanvragen als dat voor de technische ondersteuning. Het telefoonnummer voor de ondersteuning kunt u vinden in het door Office 365 beheerde 21Vianet-portal. Zie [Contact opnemen met ondersteuning](#contact-support) voor instructies.
+Assistentie voor problemen met het facturerings- en abonnementsbeheer is online of telefonisch beschikbaar tijdens Chinese kantooruren (lokale tijd) van maandag t/m vrijdag. Ondersteuning voor facturerings- en abonnementsbeheer is beschikbaar onder hetzelfde telefoonnummer en hetzelfde proces voor online serviceaanvragen als dat voor de technische ondersteuning. Het telefoonnummer voor de ondersteuning kunt u vinden in het door Office 365 beheerde 21Vianet-portal. Zie [Contact opnemen met ondersteuning](#contact-support) voor instructies.
 
 Hier ziet u enkele voorbeelden van problemen met het beheer van de facturering en abonnementen:
 
@@ -112,7 +112,7 @@ Hier ziet u enkele voorbeelden van problemen met het beheer van de facturering e
 
 - Licenties toevoegen of verwijderen
 
-- Betaald abonnement annuleren
+- Een betaald abonnement annuleren
 
 ### <a name="technical-support"></a>Technische ondersteuning
 
@@ -120,7 +120,7 @@ Technische ondersteuning voor door 21Vianet beheerde Office 365-abonnementen voo
 
 | Ondersteuningscategorie | Voorbeelden |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Installatie en instellingen | Exchange Online  <ul><li>Migratie van het Office 365-postvak</li><li>Configuratie van geadresseerden (postvakmachtigingen, e-mail doorsturen configureren, gedeeld postvak configureren)</li><li>Configuratie van Automatisch opsporen</li></ul> SharePoint Online <ul><li>Machtigingen en gebruikersgroepen</li><li>Configuratie van externe gebruikers</li></ul> Skype voor Business Online  <ul><li>Installatie en contactpersonen maken</li></ul> Office 365 ProPlus  <ul><li>Installatie en instellingen</li></ul> |
+| Installatie en instellingen | Exchange Online  <ul><li>Migratie van het Office 365-postvak</li><li>Configuratie van geadresseerden (postvakmachtigingen, e-mail doorsturen configureren, gedeeld postvak configureren)</li><li>Configuratie van Autodiscover</li></ul> SharePoint Online <ul><li>Machtigingen en gebruikersgroepen</li><li>Configuratie van externe gebruikers</li></ul> Skype voor Bedrijven Online  <ul><li>Installatie en contactpersonen maken</li></ul> Office 365 ProPlus  <ul><li>Installatie en instellingen</li></ul> |
 | Configuratie | Problemen met de configuratie van de service  <ul><li>Eenmalige aanmelding (SSO)</li><li>Active Directory-synchronisatie</li></ul> |
 
 > [!NOTE]
@@ -133,8 +133,8 @@ Zodra een geval wordt opgepakt, wijst 21Vianet er een urgentieniveau aan toe op 
 
 | Urgentieniveau | Bewerkingen en beschrijving van de ondersteuning | Voorbeelden |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Urgentieniveau A (kritiek) | Een of meer services zijn niet beschikbaar of niet te gebruiken. De deadlines wat betreft productie, bewerkingen of implementatie staan ernstig onder druk of de impact op de productie of rentabiliteit is ernstig. Er zijn meerdere gebruikers of services die hiervan last hebben. | <ul><li>Grootschalig probleem bij het verzenden en ontvangen van e-mail.</li><li>SharePoint-site buiten werking.</li> <li>Alle gebruikers kunnen geen chatberichten verzenden, zakelijke vergaderingen via Skype inplannen of hieraan deelnemen of Skype- of Business-oproepen uitvoeren.</li></ul> |
-| Urgentieniveau B (hoog) | De service is beperkt bruikbaar. De situatie heeft een gemiddelde impact op het bedrijf en kan tijdens kantooruren worden opgelost. Er is één gebruiker, klant of service die hiervan ten dele last heeft. | <ul><li>De Verzenden-knop in Outlook wordt niet goed weergegeven. </li> <li>De instelling is niet mogelijk vanuit het SBV (Exchange-Beheercentrum), maar mogelijk in Windows PowerShell.</li></ul> |
+| Urgentieniveau A (kritiek) | Een of meer services zijn niet beschikbaar of niet te gebruiken. De deadlines wat betreft productie, bewerkingen of implementatie staan ernstig onder druk of de impact op de productie of rentabiliteit is ernstig. Er zijn meerdere gebruikers of services die hiervan last hebben. | <ul><li>Grootschalig probleem bij het verzenden en ontvangen van e-mail.</li><li>SharePoint-site buiten werking.</li> <li>Alle gebruikers kunnen geen chatberichten verzenden, zakelijke vergaderingen via Skype inplannen of hieraan deelnemen of Skype- voor Bedrijven-oproepen uitvoeren.</li></ul> |
+| Urgentieniveau B (hoog) | De service is beperkt bruikbaar. De situatie heeft een gemiddelde impact op het bedrijf en kan tijdens kantooruren worden opgelost. Er is één gebruiker, klant of service die hiervan ten dele last heeft. | <ul><li>De Verzenden-knop in Outlook wordt niet goed weergegeven. </li> <li>De instelling is niet mogelijk vanuit het EAC (Exchange-beheercentrum), maar wel mogelijk in Windows PowerShell.</li></ul> |
 | Urgentieniveau C (niet-kritiek) | De situatie heeft een minimale impact op het bedrijf. Het probleem is van belang maar heeft momenteel geen impact op een service of de productiviteit van de klant. Er is één gebruiker die een tijdelijke onderbreking ondervindt, maar er is een acceptabele, tijdelijke oplossing beschikbaar. | <ul><li>Hoe wordt een wachtwoord ingesteld dat nooit verloopt?</li> <li>Gebruiker kan de contactgegevens in Exchange Online niet verwijderen.</li></ul> |
 
 ### <a name="technical-support-initial-response-times"></a>Initiële reactietijden van de technische ondersteuning
@@ -168,13 +168,13 @@ Bespaar tijd door uw serviceaanvraag online te starten. Kies in het Microsoft 36
 
 #### <a name="call-support"></a>Ondersteuning bellen
 
-Ondersteuning bellen. Als u een probleem ondervindt met de onlineaanvraag, kunt u telefonische ondersteuning krijgen via (+86) 400-089-0365.
+Ondersteuning bellen. Als u een probleem ondervindt met de onlineaanvraag, kunt u telefonische ondersteuning krijgen via +86 400 089 0365.
 
 ### <a name="shared-support-responsibilities"></a>Gedeelde verantwoordelijkheden voor ondersteuning
 
 21Vianet begrijpt dat het ontvangen van tijdige technische ondersteuning van gekwalificeerde deskundigen een belangrijk aspect vormt voor cloudservices. Net zo belangrijk is de kritieke rol die de IT-afdeling van de klant speelt bij het ondersteunen van haar gebruikers.
 
-#### <a name="administrator-roles-and-responsibilities"></a>Beheerdersrollen en verantwoordelijkheden
+#### <a name="administrator-roles-and-responsibilities"></a>Beheerdersrollen en -verantwoordelijkheden
 
 Personen met beheerdersrollen zijn de enige personen in de organisatie van de klant die geautoriseerd zijn voor toegang tot de Beheerderssectie van het door Office 365 beheerde 21Vianet-portal en om rechtstreeks te communiceren met 21Vianet over Office 365-serviceaanvragen.
 
@@ -198,7 +198,7 @@ De rol van de beheerder:
 
 - Maakt gebruik van ondersteuningsbronnen voor selfservice om ondersteuningsproblemen op te lossen.
 
-Van de beheerder wordt verwacht dat deze initiële assistentie verleent voor de gebruikers van de klant. Als de beheerder echter niet in staat is de problemen te verhelpen met behulp van de Help van de ondersteuningsbronnen voor selfservice, moet hij of zij [Contact opnemen met de ondersteuning](#contact-support).
+Van de beheerder wordt verwacht dat deze initiële assistentie verleent voor de gebruikers van de klant. Als de beheerder echter niet in staat is de problemen te verhelpen met behulp van de ondersteuningsbronnen voor selfservice, moet hij of zij [Contact opnemen met de ondersteuning](#contact-support).
 
 #### <a name="21vianet-support-role"></a>Ondersteuningsrol van 21Vianet
 
@@ -243,7 +243,7 @@ Als beheerder van Office 365 Germany krijgt u gratis toegang tot onze deskundige
 
 Alleen voor beheerders van organisaties met een Office 365 Germany-abonnement zijn er opties voor hulp bij ondersteuning beschikbaar. Als u Office 365 Germany op het werk of op school gebruikt, maar u geen beheerder bent, kunt u voor ondersteuning terecht in de communityfora of neemt u contact op met uw beheerder of IT-afdeling.
 
-- **Een onlineaanvraag openen.** Bespaar tijd door uw serviceaanvraag online te starten. Kies in het beheercentrum de voor **Ondersteuning** \> **Nieuwe serviceaanvraag.** Wij helpen u bij het zoeken naar een oplossing of zorgen ervoor dat een expert contact met u opneemt, telefonisch of per e-mail.
+- **Een online aanvraag openen.** Bespaar tijd door uw serviceaanvraag online te starten. Kies in het beheercentrum voor **Ondersteuning** \> **Nieuwe serviceaanvraag.** Wij helpen u bij het zoeken naar een oplossing of zorgen ervoor dat een expert contact met u opneemt, telefonisch of per e-mail.
 
 - **Ondersteuning bellen.** We staan voor u klaar. Beheerders moeten hun accountgegevens bij de hand hebben wanneer ze bellen met de ondersteuning.
 

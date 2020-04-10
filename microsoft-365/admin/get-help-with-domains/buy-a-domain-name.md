@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Meer informatie over het kopen van een domeinnaam in Office 365.
 ms.custom: okr_smb
-ms.openlocfilehash: 5ffb5f9268dcd8b38245e0b85c7d790b46628766
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 89bc24683cd98d2c9f420d1470a864eef857c9b4
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894465"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211144"
 ---
 # <a name="buy-a-domain-name-in-office-365"></a>Een domeinnaam kopen in Office 365
 
@@ -37,7 +37,7 @@ ms.locfileid: "42894465"
   
 ### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Aanmelden en naar \> Instellingen \> domeinen Een domein kopen
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
 3. Selecteer **op** de pagina Domeinen de optie **Domein kopen**.
     

@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 54ae2002-b38e-43a1-82fa-3e49d78fda56
-description: Meer informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services bij Namecheap voor Office 365.
-ms.openlocfilehash: 26b8b6586c71636d97c423106e4799105a076a54
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Namecheap voor Office 365.
+ms.openlocfilehash: 29b1130b75af592594e2a963dbb6fa8d3f08ab30
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42812836"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211677"
 ---
 # <a name="create-dns-records-at-namecheap-for-office-365"></a>DNS-records bij Namecheap maken voor Office 365
 
@@ -52,26 +52,26 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. Kies op de **bestemmingspagina** onder **Account** **de optie Domeinlijst** in de vervolgkeuzelijst. 
+2. Kies op de **bestemmingspagina** onder **Account**de optie **Lijst met domeinen** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
-3. Zoek op de pagina **Domain List** de naam van het domein dat u wilt bewerken en selecteer **Vervolgens Beheren**.
+3. Zoek op de pagina **Domeinlijst** de naam van het domein dat u wilt bewerken en selecteer **Beheren**.
     
     ![Namecheap-BP-Configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
-4. Selecteer **Geavanceerd DNS**.
+4. Selecteer **Geavanceerde DNS**.
     
     ![Namecheap-BP-Configure-1-4](../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
   
-5. Selecteer in de sectie **HOSTRECORDS** DE optie **NIEUWE RECORD TOEVOEGEN**.
+5. Selecteer IN de sectie **HOST RECORDS** de optie NIEUWE **RECORD TOEVOEGEN**.
     
     ![Namecheap-BP-Configure-1-5](../../media/8849abfe-deb6-4f6a-b56d-e69be9a28b0f.png)
   
 6. Selecteer in de vervolgkeuzelijst **Type** de optie **TXT Record**.
     
     > [!NOTE]
-    > De vervolgkeuzelijst **Type** wordt automatisch weergegeven wanneer u **NIEUWE RECORD TOEVOEGEN**selecteert. 
+    > De vervolgkeuzelijst **Type** wordt automatisch weergegeven wanneer u **NIEUWE RECORD TOEVOEGEN selecteert.** 
   
     ![Namecheap-BP-Verify-1-1](../../media/a5b40973-19b5-4c32-8e1b-1521aa971836.png)
   
@@ -79,13 +79,13 @@ Voer de onderstaande stappen uit:
     
     (Kies de **TTL-waarde** in de vervolgkeuzelijst.) 
     
-    |**Type**|**Host**|**Value**|**TTL**|
+    |**Type**|**Host**|**Waarde**|**TTL**|
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |@  <br/> |MS=ms *XXXXXXXX*  <br/>**Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Office 365.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |30 min  <br/> |
        
-    ![Naamcheap-BP-Verify-1-2](../../media/fe75c0fd-f85c-4bef-8068-edaf9779b7f1.png)
+    ![Namecheap-BP-Verify-1-2](../../media/fe75c0fd-f85c-4bef-8068-edaf9779b7f1.png)
   
-8. Schakel het besturingselement **Wijzigingen** opslaan (vinkje) in. 
+8. Selecteer het besturingselement **Wijzigingen opslaan** (vinkje). 
     
     ![Namecheap-BP-Verify-1-3](../../media/b48d2c67-66b5-4aa4-8e59-0c764f236fac.png)
   
@@ -95,17 +95,17 @@ Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug 
   
 Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
-2. Selecteer op de pagina **Domeinen** het domein dat u verifieert. 
-    
-    
-  
-3. Selecteer op de pagina **Setup** de optie **Startsetup**.
+2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
     
     
   
-4. Selecteer op de pagina **Domein verifiëren** de optie **Verifiëren**.
+3. Kies **Start setup** op de pagina **Setup**.
+    
+    
+  
+4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
     
   
@@ -113,7 +113,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
 > Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Voeg een MX-record toe zodat e-mail voor uw domein bij Office 365 terechtkomt
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Een MX-record toevoegen zodat e-mail voor uw domein bij Office 365 terechtkomt
 <a name="BKMK_add_MX"> </a>
 
 Voer de onderstaande stappen uit:
@@ -122,15 +122,15 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. Kies op de **bestemmingspagina** onder **Account** **de optie Domeinlijst** in de vervolgkeuzelijst. 
+2. Kies op de **bestemmingspagina** onder **Account**de optie **Lijst met domeinen** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
-3. Zoek op de pagina **Domain List** de naam van het domein dat u wilt bewerken en selecteer **Vervolgens Beheren**.
+3. Zoek op de pagina **Domeinlijst** de naam van het domein dat u wilt bewerken en selecteer **Beheren**.
     
     ![Namecheap-BP-Configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
-4. Selecteer **Geavanceerd DNS**.
+4. Selecteer **Geavanceerde DNS**.
     
     ![Namecheap-BP-Configure-1-4](../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
   
@@ -142,7 +142,7 @@ Voer de onderstaande stappen uit:
   
 6. Selecteer **Nieuwe record toevoegen**.
     
-    ![Afbeelding van het bureaublad van afbeelding 2-2-1 van naam](../../media/8d169b81-ba48-4d51-84ea-a08fa1616457.png)
+    ![Namecheap-BP-Configure-2-2-1](../../media/8d169b81-ba48-4d51-84ea-a08fa1616457.png)
   
 7. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record.
     
@@ -150,11 +150,11 @@ Voer de onderstaande stappen uit:
     
     |**Type**|**Host**|**Value**|**Priority**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX Record  <br/> |@  <br/> |\<*domeintoets*\>.mail.protection.outlook.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> **Let op:** Haal uw * \<domeinsleutel\> * uit uw Office 365-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |0  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.    <br/> |30 min  <br/> |
+    |MX Record  <br/> |@  <br/> |\<*domeinsleutel*\>.mail.protection.outlook.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> **Let op:** Haal uw * \<domeinsleutel\> * op uit uw Office 365-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |0  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit. <br/> |30 min  <br/> |
        
-    ![Afbeelding van het jaar van 2-2-2-2](../../media/f3b76d62-5022-48c1-901b-8615a8571309.png)
+    ![Namecheap-BP-Configure-2-2-2](../../media/f3b76d62-5022-48c1-901b-8615a8571309.png)
   
-8. Schakel het besturingselement **Wijzigingen** opslaan (vinkje) in. 
+8. Selecteer het besturingselement **Wijzigingen opslaan** (vinkje). 
     
     ![Namecheap-BP-Configure-2-3](../../media/ef4e3112-36d2-47c8-a478-136a565dd71d.png)
   
@@ -164,7 +164,7 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-2-4](../../media/7a7a751f-29c2-495f-8f55-98ca37ce555a.png)
   
-    Selecteer ten tweede **Ja** om de verwijdering te bevestigen. 
+    Ten tweede selecteert u **Ja** om de verwijdering te bevestigen. 
     
     ![Namecheap-BP-Configure-2-5](../../media/85ebc0c7-8787-43ee-9e7b-647375b3345c.png)
   
@@ -180,32 +180,32 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. Kies op de **bestemmingspagina** onder **Account** **de optie Domeinlijst** in de vervolgkeuzelijst. 
+2. Kies op de **bestemmingspagina** onder **Account**de optie **Lijst met domeinen** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
-3. Zoek op de pagina **Domain List** de naam van het domein dat u wilt bewerken en selecteer **Vervolgens Beheren**.
+3. Zoek op de pagina **Domeinlijst** de naam van het domein dat u wilt bewerken en selecteer **Beheren**.
     
     ![Namecheap-BP-Configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
-4. Selecteer **Geavanceerd DNS**.
+4. Selecteer **Geavanceerde DNS**.
     
     ![Namecheap-BP-Configure-1-4](../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
   
-5. Selecteer in de sectie **HOSTRECORDS** DE optie **NIEUWE RECORD TOEVOEGEN**.
+5. Selecteer IN de sectie **HOST RECORDS** de optie NIEUWE **RECORD TOEVOEGEN**.
     
     ![Namecheap-BP-Configure-1-5](../../media/8849abfe-deb6-4f6a-b56d-e69be9a28b0f.png)
   
 6. Selecteer in de vervolgkeuzelijst **Type** de optie **CNAME Record**.
     
     > [!NOTE]
-    > De vervolgkeuzelijst **Type** wordt automatisch weergegeven wanneer u **NIEUWE RECORD TOEVOEGEN**selecteert. 
+    > De vervolgkeuzelijst **Type** wordt automatisch weergegeven wanneer u **NIEUWE RECORD TOEVOEGEN selecteert.** 
   
     ![Namecheap-BP-Configure-3-1](../../media/0898f3b2-06ab-4364-a86a-a603a25b39f4.png)
   
 7. Selecteer in de lege vakken voor de nieuwe record de optie **CNAME** voor het **recordtype** en typ of kopieer en plak de waarden uit de eerste rij in de volgende tabel.
     
-    |**Type**|**Host**|**Value**|**TTL**|
+    |**Type**|**Host**|**Waarde**|**TTL**|
     |:-----|:-----|:-----|:-----|
     |CNAME  <br/> |autodiscover  <br/> |autodiscover.outlook.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |
     |CNAME  <br/> |sip  <br/> |sipdir.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |
@@ -213,13 +213,13 @@ Voer de onderstaande stappen uit:
     |CNAME  <br/> |enterpriseregistration  <br/> |enterpriseregistration.windows.net.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |
     |CNAME  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |
        
-    ![Afbeelding van het bureaublad van Afbeelding van het jaar](../../media/f79c5679-34eb-4544-8517-caa2e8a4111a.png)
+    ![Namecheap-BP-Configure-3-2](../../media/f79c5679-34eb-4544-8517-caa2e8a4111a.png)
   
-8. Schakel het besturingselement **Wijzigingen** opslaan (vinkje) in. 
+8. Selecteer het besturingselement **Wijzigingen opslaan** (vinkje). 
     
     ![Namecheap-BP-Configure-3-3](../../media/91a5cce4-ca41-41ec-b976-aafe681a4d68.png)
   
-9. Voeg met de voorgaande vier stappen en de waarden uit de andere vijf rijen in de tabel elk van de andere vijf CNAME-records toe.
+9. Voeg met de voorgaande vier stappen en de waarden van de andere vijf rijen in de tabel elk van de andere vijf CNAME-records toe.
 
   
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Een TXT-record voor SPF toevoegen om spam tegen te gaan
@@ -232,26 +232,26 @@ Voer de onderstaande stappen uit:
   
 1. Ga eerst naar de domeinenpagina bij Namecheap via [deze koppeling](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f). U wordt gevraagd u aan te melden en verder te gaan.
     
-2. Kies op de **bestemmingspagina** onder **Account** **de optie Domeinlijst** in de vervolgkeuzelijst. 
+2. Kies op de **bestemmingspagina** onder **Account**de optie **Lijst met domeinen** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
-3. Zoek op de pagina **Domain List** de naam van het domein dat u wilt bewerken en selecteer **Vervolgens Beheren**.
+3. Zoek op de pagina **Domeinlijst** de naam van het domein dat u wilt bewerken en selecteer **Beheren**.
     
     ![Namecheap-BP-Configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
-4. Selecteer **Geavanceerd DNS**.
+4. Selecteer **Geavanceerde DNS**.
     
     ![Namecheap-BP-Configure-1-4](../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
   
-5. Selecteer in de sectie **HOSTRECORDS** DE optie **NIEUWE RECORD TOEVOEGEN**.
+5. Selecteer IN de sectie **HOST RECORDS** de optie NIEUWE **RECORD TOEVOEGEN**.
     
     ![Namecheap-BP-Configure-1-5](../../media/8849abfe-deb6-4f6a-b56d-e69be9a28b0f.png)
   
 6. Selecteer in de vervolgkeuzelijst **Type** de optie **TXT Record**.
     
     > [!NOTE]
-    > De vervolgkeuzelijst **Type** wordt automatisch weergegeven wanneer u **NIEUWE RECORD TOEVOEGEN**selecteert. 
+    > De vervolgkeuzelijst **Type** wordt automatisch weergegeven wanneer u **NIEUWE RECORD TOEVOEGEN selecteert.** 
   
     ![Namecheap-BP-Configure-4-1](../../media/c5d1fddb-28b5-48ec-91c9-3e5d3955ac80.png)
   
@@ -259,56 +259,56 @@ Voer de onderstaande stappen uit:
     
     (Kies de **TTL-waarde** in de vervolgkeuzelijst.) 
     
-    |**Type**|**Host**|**Value**|**TTL**|
+    |**Type**|**Host**|**Waarde**|**TTL**|
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |30 min  <br/> |
        
-    ![Afbeelding van het jaar van afbeelding van naam](../../media/ea0829f1-990b-424b-b26e-9859468318dd.png)
+    ![Namecheap-BP-Configure-4-2](../../media/ea0829f1-990b-424b-b26e-9859468318dd.png)
   
-8. Schakel het besturingselement **Wijzigingen** opslaan (vinkje) in. 
+8. Selecteer het besturingselement **Wijzigingen opslaan** (vinkje). 
     
     ![Namecheap-BP-Configure-4-3](../../media/f2846c36-ace3-43d8-be5d-a65e2c267619.png)
   
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Voeg de vier SRV-records toe die voor Office 365 vereist zijn.
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>De twee SRV-records toevoegen die voor Office 365 vereist zijn
 <a name="BKMK_add_SRV"> </a>
 
 1. Ga eerst naar de domeinenpagina bij Namecheap via [deze koppeling](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f). U wordt gevraagd u aan te melden.
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. Kies op de **bestemmingspagina** onder **Account** **de optie Domeinlijst** in de vervolgkeuzelijst. 
+2. Kies op de **bestemmingspagina** onder **Account**de optie **Lijst met domeinen** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
-3. Zoek op de pagina **Domain List** de naam van het domein dat u wilt bewerken en selecteer **Vervolgens Beheren**.
+3. Zoek op de pagina **Domeinlijst** de naam van het domein dat u wilt bewerken en selecteer **Beheren**.
     
     ![Namecheap-BP-Configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
-4. Selecteer **Geavanceerd DNS**.
+4. Selecteer **Geavanceerde DNS**.
     
     ![Namecheap-BP-Configure-1-4](../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
   
-5. Selecteer in de sectie **HOSTRECORDS** DE optie **NIEUWE RECORD TOEVOEGEN**.
+5. Selecteer IN de sectie **HOST RECORDS** de optie NIEUWE **RECORD TOEVOEGEN**.
     
     ![Namecheap-BP-Configure-1-5](../../media/8849abfe-deb6-4f6a-b56d-e69be9a28b0f.png)
   
 6. Selecteer in de vervolgkeuzelijst **Type** de optie **SRV Record**.
     
     > [!NOTE]
-    > De vervolgkeuzelijst **Type** wordt automatisch weergegeven wanneer u **NIEUWE RECORD TOEVOEGEN**selecteert. 
+    > De vervolgkeuzelijst **Type** wordt automatisch weergegeven wanneer u **NIEUWE RECORD TOEVOEGEN selecteert.** 
   
     ![Namecheap-BP-Configure-5-1](../../media/fd55cd7c-2243-4de1-8d39-2c3f7ea3ae51.png)
   
 7. Typ of kopieer en plak de waarden uit de eerste rij in de volgende tabel in de lege vakken voor de nieuwe record.
     
-    |**Service**|**Protocol**|**Prioriteit**|**Weight**|**Port**|**Target**|**TTL**|
+    |**Service**|**Protocol**|**Prioriteit**|**Gewicht**|**Poort**|**Target**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
     |_sip  <br/> |_tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |30 min  <br/> |
     |_sipfederationtls  <br/> |_tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |30 min  <br/> |
        
-    ![Afbeelding van het jaar van afbeelding voor afbeelding van naam](../../media/ff9566ea-0096-4b7f-873c-027080a23b56.png)
+    ![Namecheap-BP-Configure-5-2](../../media/ff9566ea-0096-4b7f-873c-027080a23b56.png)
   
-8. Schakel het besturingselement **Wijzigingen** opslaan (vinkje) in. 
+8. Selecteer het besturingselement **Wijzigingen opslaan** (vinkje). 
     
     ![Namecheap-BP-Configure-5-3](../../media/48a8dee4-c66d-449d-8759-9e9784c82b13.png)
   

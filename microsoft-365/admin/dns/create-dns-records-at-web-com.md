@@ -1,12 +1,12 @@
 ---
-title: DNS-records maken in web.com voor Office 365
+title: DNS-records maken op web.com voor Office 365
 f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,21 +19,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
-description: Meer informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services op web.com voor Office 365.
-ms.openlocfilehash: eb231f85e568e81a5e229f0533d8176feb590f48
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: Lees uw domein verifiëren en STEL DNS-records in voor e-mail, Skype voor Bedrijven Online en andere services op web.com voor Office 365.
+ms.openlocfilehash: d5546b55392849aac9049613bd860f937ffb7618
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42811750"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211072"
 ---
-# <a name="create-dns-records-at-webcom-for-office-365"></a>DNS-records maken in web.com voor Office 365
+# <a name="create-dns-records-at-webcom-for-office-365"></a>DNS-records maken op web.com voor Office 365
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
 Als web.com uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records in te stellen voor e-mail, Skype voor Bedrijven Online, enzovoort.
   
-Nadat u deze records hebt toegevoegd aan web.com, wordt uw domein ingesteld voor gebruik met Office 365-services.
+Nadat u deze records op web.com hebt toegevoegd, wordt uw domein ingesteld voor gebruik met Office 365-services.
   
 Zie [Een openbare website gebruiken met Office 365](https://support.office.com/article/a8178510-501d-4bd8-9921-b04f2e9517a5.aspx) voor informatie over webhosting en DNS voor websites met Office 365.
   
@@ -46,9 +46,9 @@ Zie [Een openbare website gebruiken met Office 365](https://support.office.com/a
 > [!IMPORTANT]
 > U moet deze procedure uitvoeren bij de domeinregistrar waar u uw domein hebt gekocht en geregistreerd. 
   
-Toen u zich hebt aangemeld voor web.com, hebt u een domein toegevoegd met behulp van het web.com **Installatieproces.** 
+Wanneer u zich hebt aangemeld voor web.com, hebt u een domein toegevoegd met behulp van het **web.com-installatieproces.** 
   
-Als u DNS-records voor uw domein in Office 365 wilt verifiëren en maken, moet u eerst de naamservers bij uw domeinregistrar wijzigen zodat ze de naamservers van web.com gebruiken.
+Als u DNS-records voor uw domein wilt verifiëren en maken in Office 365, moet u eerst de naamservers van uw domeinregistrar wijzigen zodat ze de naamservers van web.com gebruiken.
   
 Als u de naamservers van het domein zelf wilt wijzigen op de website van de domeinregistrar, voert u de volgende stappen uit:
   
@@ -77,14 +77,14 @@ Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleer
 > [!NOTE]
 > Deze record wordt alleen gebruikt om te verifiëren dat u de eigenaar van uw domein bent. Dit heeft verder geen invloed. U kunt deze record later desgewenst verwijderen. 
   
-1. Ga naar de pagina domeinen op web.com via [deze link](https://checkout.web.com/manage-it/index.jsp). Log eerst in.
+1. Ga op web.com naar de pagina domeinen met [deze link](https://checkout.web.com/manage-it/index.jsp)om aan de slag te gaan. Log dan eerst in.
   
-2. Selecteer op de pagina **Accountbeheer** **Mijn domeinnamen**. 
+2. Selecteer op de pagina **Accountmanager** de optie **Mijn domeinnamen**. 
   
-3. Selecteer onder **Mijn domein***, de optie **Geavanceerde DNS-records bewerken**.
+3. Selecteer onder **Mijn domein beheren***de optie **Geavanceerde DNS-records bewerken**.
 
   
-4. Klik op de pagina **Domeinnamen** onder **Tekst (TXT Records)** op **TXT-records bewerken**en selecteer vervolgens de waarden in de volgende tabel. 
+4. Klik op de pagina **Domeinnamen** onder **Tekst (TXT Records)** op **TXT Records bewerken**en selecteer de waarden in de volgende tabel. 
     
     |**Host**|**TTL**|**Tekst**|
     |:-----|:-----|:----|
@@ -94,65 +94,65 @@ Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleer
 5. Selecteer **Doorgaan**.
   
   
-6. Wacht een paar minuten voordat u uw nieuwe TXT-record verifieert, zodat de record die u zojuist hebt gemaakt, op internet kan worden bijgewerkt.
+6. Wacht een paar minuten voordat u uw nieuwe TXT-record verifieert, zodat de record die u zojuist hebt gemaakt, kan worden bijgewerkt via internet.
     
 Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug naar Office 365 en vraagt u of Office 365 naar de record wil zoeken.
   
 Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
 
     
-2. Selecteer op de pagina **Domeinen** het domein dat u verifieert. 
+2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
     
     
   
-3. Selecteer op de pagina **Setup** de optie **Startsetup**.
+3. Kies **Start setup** op de pagina **Setup**.
     
     
   
-4. Selecteer op de pagina **Domein verifiëren** de optie **Verifiëren**.
+4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
     
   
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Voeg een MX-record toe zodat e-mail voor uw domein bij Office 365 terechtkomt
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Een MX-record toevoegen zodat e-mail voor uw domein bij Office 365 terechtkomt
 <a name="BKMK_add_MX"> </a>
 
-1. Ga naar de pagina domeinen op web.com via [deze link](https://checkout.web.com/manage-it/index.jsp). Log eerst in.
+1. Ga op web.com naar de pagina domeinen met [deze link](https://checkout.web.com/manage-it/index.jsp)om aan de slag te gaan. Log dan eerst in.
   
-2. Selecteer op de pagina **Accountbeheer** **Mijn domeinnamen**. 
+2. Selecteer op de pagina **Accountmanager** de optie **Mijn domeinnamen**. 
   
-3. Selecteer onder **Mijn domein***, de optie **Geavanceerde DNS-records bewerken**.
+3. Selecteer onder **Mijn domein beheren***de optie **Geavanceerde DNS-records bewerken**.
 
-4. Klik onder **Mailservers (MX Records)** op **MX Records bewerken**en selecteer vervolgens de waarden in de volgende tabel. 
+4. Klik **onder Mail Servers (MX Records)** op MX Records **bewerken**en selecteer de waarden in de volgende tabel. 
     
     |**Priority**|**TTL**|**Mail server**|
     |:-----|:-----|:-----|
-    |1  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.    <br/> |3600  <br/> |*\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * uit uw Office 365-account.   [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) |
+    |1  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.    <br/> |3600  <br/> |*\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * op uit uw Office 365-account.   [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) |
    
 
 5. Kies **Opslaan**.
   
-6. Als er andere MX-records zijn vermeld in de sectie **MX Records,** schakelt u het selectievakje naast de record onder **Verwijderen**in en schakelt u **Opslaan**in . 
+6. Als er andere MX-records worden vermeld in de sectie **MX Records,** schakelt u het selectievakje naast de record onder **Verwijderen**in en schakelt **u Opslaan in.** 
   
-7. Selecteer **wijzigingen opslaan**in het bevestigingsscherm. 
+7. Selecteer **wijzigingen opslaan**in het bevestigingsscherm . 
 
   
-## <a name="add-the-six-cname-records-that-are-required-for-office-365"></a>De zes CNAME-records toevoegen die nodig zijn voor Office 365
+## <a name="add-the-six-cname-records-that-are-required-for-office-365"></a>De zes CNAME-records toevoegen die vereist zijn voor Office 365
 <a name="BKMK_add_CNAME"> </a>
 
-1. Ga naar de pagina domeinen op web.com via [deze link](https://checkout.web.com/manage-it/index.jsp). U wordt gevraagd u eerst aan te melden.
+1. Ga op web.com naar de pagina domeinen met [deze link](https://checkout.web.com/manage-it/index.jsp)om aan de slag te gaan. U wordt gevraagd u eerst aan te melden.
      
-2. Selecteer op de pagina **Accountbeheer** **Mijn domeinnamen**. 
+2. Selecteer op de pagina **Accountmanager** de optie **Mijn domeinnamen**. 
   
-3. Selecteer onder **Mijn domein***, de optie **Geavanceerde DNS-records bewerken**.
+3. Selecteer onder **Mijn domein beheren***de optie **Geavanceerde DNS-records bewerken**.
 
 4. Voeg de eerste van de zes CNAME-records toe.
     
-    Klik onder **Host Aliassen (CNAME Records)** op **CNAME-records bewerken**en selecteer vervolgens de waarden in de volgende tabel.
+    Klik **onder Host Aliassen (CNAME Records)** op **CNAME Records bewerken**en selecteer de waarden in de volgende tabel.
     
     
     |**Alias**|**TTL**|**Refers to Host Name**|**Andere host**|
@@ -176,15 +176,15 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
 > [!IMPORTANT]
 > U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe voor Office 365 te maken. In plaats daarvan voegt u de vereiste Office 365-waarden toe aan de huidige record, zodat u beschikt over  *één*  SPF-record waarin beide sets waarden zijn opgenomen. 
   
-1. Ga naar de pagina domeinen op web.com via [deze link](https://checkout.web.com/manage-it/index.jsp). Log eerst in.
+1. Ga op web.com naar de pagina domeinen met [deze link](https://checkout.web.com/manage-it/index.jsp)om aan de slag te gaan. Log dan eerst in.
     
   
-2. Selecteer op de pagina **Accountbeheer** **Mijn domeinnamen**. 
+2. Selecteer op de pagina **Accountmanager** de optie **Mijn domeinnamen**. 
   
-3. Selecteer onder **Mijn domein***, de optie **Geavanceerde DNS-records bewerken**.
+3. Selecteer onder **Mijn domein beheren***de optie **Geavanceerde DNS-records bewerken**.
 
   
-4. Klik op de pagina **Domeinnamen** onder **Tekst (TXT Records)** op **TXT-records bewerken**en selecteer vervolgens de waarden in de volgende tabel.   
+4. Klik op de pagina **Domeinnamen** onder **Tekst (TXT Records)** op **TXT Records bewerken**en selecteer de waarden in de volgende tabel.   
     
     |**Host**|**TTL**|**Tekst**|
     |:-----|:-----|:-----|
@@ -197,23 +197,23 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
 
   
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Voeg de vier SRV-records toe die voor Office 365 vereist zijn.
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>De twee SRV-records toevoegen die voor Office 365 vereist zijn
 <a name="BKMK_add_SRV"> </a>
 
 > [!IMPORTANT]
-> Houd er rekening mee dat web.com verantwoordelijk is voor het beschikbaar maken van deze functionaliteit. Als u verschillen ziet tussen de onderstaande stappen en de huidige web.com GUI(Grafische gebruikersinterface), u gebruikmaken van de [web.com Community](https://community.web.com.com/). 
+> Houd er rekening mee dat web.com verantwoordelijk is voor het beschikbaar maken van deze functionaliteit. Als u discrepanties ziet tussen de onderstaande stappen en de huidige web.com GUI(Grafische gebruikersinterface), u gebruikmaken van de [web.com Community.](https://community.web.com.com/) 
 
-1. Ga naar de pagina domeinen op web.com via [deze link](https://checkout.web.com/manage-it/index.jsp). Log eerst in.
+1. Ga op web.com naar de pagina domeinen met [deze link](https://checkout.web.com/manage-it/index.jsp)om aan de slag te gaan. Log dan eerst in.
       
-2. Selecteer op de pagina **Accountbeheer** **Mijn domeinnamen**. 
+2. Selecteer op de pagina **Accountmanager** de optie **Mijn domeinnamen**. 
   
-3. Selecteer onder **Mijn domein***, de optie **Geavanceerde DNS-records bewerken**.
+3. Selecteer onder **Mijn domein beheren***de optie **Geavanceerde DNS-records bewerken**.
   
 4. Voeg de eerste van de twee SRV-records toe.
 
-    Klik onder **Service (SRV Records)** op **SRV-records bewerken**en selecteer vervolgens de waarden in de volgende tabel. 
+    Klik **onder Service (SRV Records)** op **SRV-records bewerken**en selecteer de waarden in de volgende tabel. 
         
-    |**Service**|**Protocol**|**TTL**|**Priority**|**Weight**|**Port**|**Target**|
+    |**Service**|**Protocol**|**TTL**|**Prioriteit**|**Gewicht**|**Poort**|**Target**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
     |_sip |_tls |3600 | 100|1 |443 |sipfed.online.lync.com  |
     |_sipfederationtls |_tcp |3600 |100 |1 |5061 | sipfed.online.lync.com |

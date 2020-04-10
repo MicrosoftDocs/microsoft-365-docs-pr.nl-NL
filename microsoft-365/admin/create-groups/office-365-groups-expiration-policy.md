@@ -6,7 +6,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het vervaldatumbeleid van Office 365-groepen.
-ms.openlocfilehash: 40b0b56507c46f2a658126627d5f8794848bde27
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 92e472ac56128cc847471b51930aa73dc6598711
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894513"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212055"
 ---
 # <a name="office-365-group-expiration-policy"></a>Beleidsregel voor het verlopen van Office 365-groepen
 
@@ -38,7 +38,7 @@ Beheerders kunnen een vervaldatum opgeven en elke inactieve groep die het einde 
 Groepen die actief in gebruik zijn, worden automatisch vernieuwd. Een van de volgende acties zal een groep automatisch vernieuwen:
 - SharePoint - bestanden bekijken, bewerken, downloaden, verplaatsen, delen of uploaden.
 - Outlook - word lid van groeps-, lees- of schrijfgroepsbericht van de groep en vind een bericht leuk (versie van Outlook op de webversie).
-- Teams - een bezoek aan een teams kanaal.
+- Teams - op bezoek bij een team channe'.
 
 > [!IMPORTANT]
 > Wanneer u het verloopbeleid wijzigt, berekent de service de vervaldatum voor elke groep opnieuw. Het begint altijd te tellen vanaf de datum waarop de groep is gemaakt en past vervolgens het nieuwe verloopbeleid toe.
@@ -85,4 +85,4 @@ Als om de een of andere reden geen van de eigenaren of beheerders de groep verle
 
 [Een nieuwe eigenaar toewijzen aan een groep zonder eigenaar](https://support.office.com/article/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
-[Office 365-groepen configureren die zijn verlopen](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal)
+[Office 365-groepen configureren die zijn verlopen](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal) '

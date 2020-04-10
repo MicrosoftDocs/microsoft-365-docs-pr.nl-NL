@@ -6,7 +6,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: Meer informatie over het toestaan van leden om e-mail te verzenden als Office 365-groep of e-mail te verzenden namens een Office 365-groep.
-ms.openlocfilehash: 41e8bd34ed7ba28cdaa736bf8f4c88433f56a47e
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: b85b0318587058f1c3eb4d681086ccfcad7f1d8d
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894655"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212103"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Leden toestaan om namens een groep te verzenden of te verzenden
 

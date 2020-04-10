@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7173c635-58b3-400f-95e0-97abe915565e
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services op Wix voor Office 365.
-ms.openlocfilehash: 43d2f2417153dd0c848c33736733237b1681c02c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8487c49e989bf2db345ae9e6d0e2970c5eb40cb6
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42805953"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211060"
 ---
 # <a name="create-dns-records-at-wix-for-office-365"></a>DNS-records maken bij Wix voor Office 365
 
@@ -68,7 +68,7 @@ Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleer
     
 ||||
 |:-----|:-----|:-----|
-|**Host Name** <br/> |**TXT Value** <br/> |**TTL** <br/> |
+|**Host Name** <br/> |**TXT-waarde** <br/> |**TTL** <br/> |
 |Automatisch ingevuld  <br/> |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Office 365.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)|1 uur <br/> |          |
    
 5. Selecteer de knop **DNS opslaan** boven aan de DNS-editor. 
@@ -79,22 +79,22 @@ Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug 
   
 Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
-2. Selecteer **op** de pagina Domeinen het domein dat u verifieert. 
+2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
   
   
-3. Selecteer **op** de pagina Setup de optie **Installatie starten**.
+3. Kies **Start setup** op de pagina **Setup**.
    
   
-4. Selecteer **op** de pagina Domein verifiëren de optie **Verifiëren**.
+4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
     
   
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Voeg een MX-record toe zodat e-mail voor uw domein bij Office 365 terechtkomt
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Een MX-record toevoegen zodat e-mail voor uw domein bij Office 365 terechtkomt
 <a name="BKMK_mx"> </a>
 
 1. Ga om te beginnen naar de pagina domeinen bij Wix via [deze link.](https://premium.wix.com/wix/api/mpContainerStaticController#/domains?referralAdditionalInfo=account) U wordt gevraagd u eerst aan te melden.
@@ -109,11 +109,11 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
 |**Host Name**|**Points to**|**Priority**|**TTL**|
 |:-----|:-----|:-----|:-----|
-|Automatisch ingevuld <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * op uit uw Office 365-account.   [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) |0  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/What-is-MX-priority-2784cc4d-95be-443d-b5f7-bb5dd867ba83) voor meer informatie over prioriteit.    | 1 uur|
+|Automatisch ingevuld <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * op uit uw Office 365-account.   [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) |0  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/What-is-MX-priority-2784cc4d-95be-443d-b5f7-bb5dd867ba83) voor meer informatie over prioriteit. | 1 uur|
    
 6. Als er andere MX-records worden vermeld, verwijdert u elk van deze records. 
     
-7. Selecteer **OK**.
+7. Kies **OK**.
     
 8. Selecteer **OK**in het bevestigingsdialoogvenster.
     
@@ -128,7 +128,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
 4. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record:
     
-|**Host Name**|**Points to**|**TTL**|
+|**Host Name**|**Verwijst naar**|**TTL**|
 |:-----|:-----|:-----|
 |autodiscover  <br/> |autodiscover.outlook.com  <br/> |1 uur  <br/> |
 |sip  <br/> |sipdir.online.lync.com  <br/> |1 uur <br/> |
@@ -154,7 +154,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
 4. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record:
     
-|**Host Name**|**TXT Value**|**TTL**|
+|**Host Name**|**TXT-waarde**|**TTL**|
 |:-----|:-----|:-----|
 |[Laat dit leeg]  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.<br/> |TXT  <br/> | 1 uur |
    
@@ -162,7 +162,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
 6. Wacht enkele minuten voordat u verder gaat, zodat de record die u zojuist hebt gemaakt via internet kan worden bijgewerkt.
     
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Voeg de vier SRV-records toe die voor Office 365 vereist zijn.
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>De twee SRV-records toevoegen die voor Office 365 vereist zijn
 <a name="BKMK_srv"> </a>
 
 1. Ga om te beginnen naar de pagina domeinen bij Wix via [deze link.](https://premium.wix.com/wix/api/mpContainerStaticController#/domains?referralAdditionalInfo=account) U wordt gevraagd u eerst aan te melden.
@@ -173,7 +173,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
 4. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record:
     
-|**Service**|**Protocol**|**Naam**|**Weight**|**Port**|**Doel**|**Priority**|**TTL**|
+|**Service**|**Protocol**|**Naam**|**Gewicht**|**Poort**|**Doel**|**Priority**|**TTL**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |sip  |tls  |Automatisch ingevuld |1  |443   |sipdir.online.lync.com |100 |1 uur |
 |sipfed|tcp |Automatisch ingevuld|1 |5061 |sipfed.online.lync.com|100 | 1 uur |

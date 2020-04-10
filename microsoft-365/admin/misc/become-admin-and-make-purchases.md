@@ -7,7 +7,7 @@ author: pebaum
 manager: mnirkhe
 ms.date: 2/14/2018
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 48b26596-9e5b-4e5a-a64f-7430eb2a1e45
 description: 'Meer informatie over hoe u beheerder worden en een Office 365-abonnement voor uw organisatie krijgen. '
-ms.openlocfilehash: 7b213d2a2e987a4e12cb410372e540ca715528a1
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: de7528d79353ec5e674c349e328dd81c32725669
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857413"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212255"
 ---
 # <a name="become-the-admin-and-purchase-office-365-for-your-organization"></a>De beheerder worden en Office 365 aanschaffen voor uw organisatie
 
@@ -87,7 +87,7 @@ Nu u de beheerder bent, u het volgende doen:
 |Licenties toevoegen of intrekken  <br/> |U [meer licenties toevoegen](../../commerce/licenses/buy-licenses.md) voor gebruikers die Office 365 nog niet gebruiken of licenties verwijderen van [gebruikers](../manage/remove-licenses-from-users.md) die u niet wilt gebruiken met het Office 365-abonnement van uw organisatie.  <br/> |
 |Contact opnemen met anderen die zich al hebben geregistreerd  <br/> |Neem contact op met de andere gebruikers en laat weten dat u hun Office 365-abonnement beheert en dat er een upgrade is uitgevoerd. [Voer de volgende stappen uit](../add-users/add-users.md) om een lijst met **actieve gebruikers** en hun e-mailadressen weer te geven.  <br/> |
 |Office 365 gaan gebruiken  <br/> |Ga naar het [Office 365-trainingscentrum](https://support.office.com/learn/office365-for-business) en lees hoe u zich kunt aanmelden, e-mail kunt lezen, documenten kunt delen en meer. U en uw gebruikers kunnen deze site gebruiken om aan de slag te gaan met Office 365.  <br/> |
-|Uw Office 365-abonnement beheren  <br/> |Ga naar het Helpcentrum Voor Beheer in [Office 365](../admin-home.yml) en leer veelvoorkomende administratieve taken zoals het toevoegen en verwijderen van gebruikers, het opnieuw instellen van wachtwoorden en het instellen van mobiele apparaten.  <br/> |
+|Uw Office 365-abonnement beheren  <br/> |Ga naar het Helpcentrum Voor Beheer in [Office 365](../admin-home.md) en leer veelvoorkomende administratieve taken zoals het toevoegen en verwijderen van gebruikers, het opnieuw instellen van wachtwoorden en het instellen van mobiele apparaten.  <br/> |
 
 ## <a name="still-need-help"></a>Nog steeds hulp nodig?
 

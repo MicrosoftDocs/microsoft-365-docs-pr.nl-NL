@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c5f6140a-4a12-401b-9bbd-7dfb0d6b0ba3
-description: Meer informatie over hoe u Office 365 instellen om de DNS-records van uw aangepaste domein te beheren op MyDomain.
-ms.openlocfilehash: 90f1469bdf2f281be14e2a9e15a9fe7ac4a8cbee
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Meer informatie over hoe u Office 365 instellen voor het beheren van de DNS-records van uw aangepaste domein op MyDomain.
+ms.openlocfilehash: f88f0528caf2229441fd3e5364b53864b923099f
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42809944"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212043"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-mydomain"></a>Naamservers wijzigen voor het instellen van Office 365 bij MyDomain
 
@@ -42,13 +42,13 @@ Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleer
   
 1. Ga eerst naar de pagina met domeinen bij MyDomain via [deze koppeling](https://www.mydomain.com/controlpanel). U wordt gevraagd u eerst aan te melden.
     
-2. Selecteer In de sectie **Mijn favorieten** de optie **Domein Centraal**.
+2. Kies in de sectie **Mijn favorieten** de optie **Domain Central**.
     
-3. Selecteer onder **Domein**de naam van het domein dat u wilt bewerken.
+3. Kies onder **Domein** de naam van het domein dat u wilt bewerken.
     
-4. Selecteer **DNS**in de rij **Overzicht.**
+4. Kies in de rij **Overzicht** de optie **DNS**.
     
-5. Kies in de vervolgkeuzelijst **Modify** de optie **TXT/SPF Record**.
+5. Kies in de vervolgkeuzelijst **Wijzigen** de optie **TXT/SPF-record**.
     
 6. Typ of kopieer en plak de waarden uit de volgende tabel in het vak voor de nieuwe record onder **Content**.
     
@@ -57,7 +57,7 @@ Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleer
 |**Content** <br/> |
 |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Office 365. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
    
-7. Selecteer **Toevoegen**.
+7. Kies **Toevoegen**.
     
 8. Wacht enkele minuten voordat u verder gaat, zodat de record die u zojuist hebt gemaakt via internet kan worden bijgewerkt.
     
@@ -65,14 +65,14 @@ Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug 
   
 Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
 
     
-2. Selecteer op de pagina **Domeinen** het domein dat u verifieert. 
+2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
     
-3. Selecteer op de pagina **Setup** de optie **Startsetup**.
+3. Kies **Start setup** op de pagina **Setup**.
     
-4. Selecteer op de pagina **Domein verifiëren** de optie **Verifiëren**.
+4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
 > [!NOTE]
 > Het duurt meestal ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd in Office 365](../get-help-with-domains/find-and-fix-issues.md). 
@@ -82,18 +82,18 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
 U voltooit het instellen van uw domein met Office 365 door de NS-records van uw domein bij uw domeinregistrar te wijzigen, zodat deze verwijzen naar de primaire en secundaire naamservers van Office 365. Hiermee wordt Office 365 zo ingesteld dat de DNS-records van het domein voor u worden bijgewerkt. Alle benodigde records worden toegevoegd zodat e-mail, Skype voor Bedrijven Online en uw openbare website met uw domein kunnen werken. Daarna bent u klaar.
   
 > [!CAUTION]
-> Als u de NS-records van uw domein laat verwijzen naar de naamservers van Office 365, is dit van invloed op alle services die momenteel aan uw domein zijn gekoppeld. Bijvoorbeeld alle e-mail die naar uw domein wordt verzonden (zoals rob@ *your_domain.* com) zal beginnen te komen naar Office 365 nadat u deze wijziging. 
+> Als u de NS-records van uw domein laat verwijzen naar de naamservers van Office 365, is dit van invloed op alle services die momenteel aan uw domein zijn gekoppeld. Bijvoorbeeld alle e-mail die naar uw domein wordt verzonden (zoals rob@ *your_domain.* com) naar Office 365 komen nadat u deze wijziging hebt gewijzigd. 
   
 > [!IMPORTANT]
-> In de volgende procedure kunt u zien hoe u andere, ongewenste naamservers uit de lijst verwijdert en hoe u de juiste naamservers toevoegt als deze niet al in de lijst staan.<br/> Wanneer u de stappen in deze sectie hebt voltooid, zijn de enige nameservers die moeten worden vermeld, de volgende vier:
+> In de volgende procedure kunt u zien hoe u andere, ongewenste naamservers uit de lijst verwijdert en hoe u de juiste naamservers toevoegt als deze niet al in de lijst staan.<br/> Wanneer u de stappen in deze sectie hebt voltooid, zijn de enige nameservers die moeten worden vermeld:
   
 1. Ga eerst naar de pagina met domeinen bij MyDomain via [deze koppeling](https://www.mydomain.com/controlpanel). U wordt gevraagd u eerst aan te melden.
     
-2. Selecteer In de sectie **Mijn favorieten** de optie **Domein Centraal**.
+2. Kies in de sectie **Mijn favorieten** de optie **Domain Central**.
     
-3. Selecteer onder **Domein**de naam van het domein dat u wilt bewerken.
+3. Kies onder **Domein** de naam van het domein dat u wilt bewerken.
     
-4. Selecteer **Nameservers**in de rij **Overzicht.**
+4. Selecteer **naamservers**in de rij **Overzicht** .
     
     ![Afbeelding van het lint](../../media/49e91235-44b5-46d6-a82e-8f11329db3d6.png)
   
@@ -101,7 +101,7 @@ U voltooit het instellen van uw domein met Office 365 door de NS-records van uw 
     
     ![Afbeelding van het lint](../../media/f869fb26-54dc-4b66-8378-a78a79b582bd.png)
   
-6. Afhankelijk van of er al nameservers op de pagina staan die nu worden weergegeven, ga je verder naar een van de twee volgende procedures.
+6. Afhankelijk van het feit of er al nameservers op de pagina staan die nu wordt weergegeven, gaat u verder met een van de twee volgende procedures.
     
 ### <a name="if-the-correct-nameservers-are-already-listed"></a>Als de correcte naamservers WEL worden vermeld
 
@@ -112,13 +112,13 @@ U voltooit het instellen van uw domein met Office 365 door de NS-records van uw 
 ### <a name="if-the-correct-nameservers-are-not-already-listed"></a>Als de correcte naamservers NIET worden vermeld
 
 > [!CAUTION]
-> Volg deze stappen alleen als u bestaande naamservers hebt, anders dan de vier juiste naamservers. (Dat wil zeggen, verwijder alleen de huidige naamservers die *niet* **ns1.bdm.microsoftonline.com,** **ns2.bdm.microsoftonline.com**, **ns3.bdm.microsoftonline.com**of **ns4.bdm.microsoftonline.com**.) 
+> Volg deze stappen alleen als u bestaande naamservers hebt, andere dan de vier juiste naamservers. (Dat wil zeggen, alleen huidige naamservers verwijderen die *geen* naam hebben **ns1.bdm.microsoftonline.com,** **ns2.bdm.microsoftonline.com,** **ns3.bdm.microsoftonline.com**of **ns4.bdm.microsoftonline.com**.) 
   
 1. Verwijder de bestaande naamservers door elke vermelding te selecteren in het veld **Nameserver 1:** en vervolgens op de toets **Delete** op het toetsenbord te drukken. 
     
     ![Afbeelding van het lint](../../media/5024cd27-a2b1-42a2-99e4-5ceb5e6eddb9.png)
   
-2. Selecteer Twee keer **meer toevoegen** om twee nieuwe nameserverrijen toe te voegen. 
+2. Selecteer Twee maal **meer toevoegen** om twee nieuwe naamserverrijen toe te voegen. 
     
     ![Afbeelding van het lint](../../media/19307893-2f73-4e4d-9221-a5870e09ab48.png)
   

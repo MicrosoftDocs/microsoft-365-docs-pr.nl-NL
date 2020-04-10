@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Teams hebben nu toegang tot veilige links op het moment van uw klik. Of u nu chats 1-op-1 chats gebruikt, tussen Groepen of in Kanalen en Tabbladen, als u een abonnement hebt op Office 365 ATP, hebt u de mogelijkheid om deze veiligheidsfunctie in te schakelen en te gebruiken.
-ms.openlocfilehash: 864b211a1f007a0f6bde83da12b61362b53bf041
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: 49a49bd41e71daf0afc9e7a24e79898ff98ad798
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43030137"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212543"
 ---
 <!--06/21/2019-->
 
@@ -35,6 +35,9 @@ Zo werkt het:
 1. Wanneer u de Toepassing Teams start, controleert Office 365 of de gebruiker behoort tot een organisatie met Office 365 ATP en of de gebruiker deel uitmaakt van een actief beleid voor veilige koppelingen met de beveiliging ingeschakeld voor Microsoft Teams.
 
 2. Als het bovenstaande waar is, worden URL's gevalideerd op het moment van klikken in Chats, Groepschats, Kanalen en in Tabbladen voor die gebruiker.
+
+> [!NOTE]
+> Veilige links beschermt gebruikers tegen links die worden verzonden door gastgebruikers, Federatieve gebruikers, tenantgebruikers. Als de aangemelde gebruiker veilige koppelingen voor Teams heeft ingeschakeld, zijn er veilige koppelingen van toepassing.
  
 ## <a name="what-will-users-experience"></a>Wat zullen gebruikers ervaren? 
 

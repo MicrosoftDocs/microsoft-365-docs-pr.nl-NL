@@ -6,7 +6,7 @@ ms.reviewer: arvaradh
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Meer informatie over hoe u bepalen welke gebruikers Office 365-groepen kunnen maken.
-ms.openlocfilehash: 0da8aded4b7a55975a9327cc4f29ff8679b3ccf2
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 9016b96821dd9d40a0fb65574ce96d7badd0c2bd
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894549"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212079"
 ---
 # <a name="manage-who-can-create-office-365-groups"></a>Beheren wie Office 365-groepen kunnen maken
 
@@ -37,7 +37,7 @@ In dit artikel wordt uitgelegd hoe u de mogelijkheid om groepen te maken in alle
   
 - Outlook
     
-- Sharepoint
+- SharePoint
     
 - Yammer
     

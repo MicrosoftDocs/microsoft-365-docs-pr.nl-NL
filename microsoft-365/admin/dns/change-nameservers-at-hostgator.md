@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: f3bd3c62-0477-48e4-b2b5-21e329d67985
-description: Meer informatie over hoe u Office 365 instellen om de DNS-records van uw aangepaste domein te beheren bij Hostgator.
-ms.openlocfilehash: 95131e258482fdb0ff9aa7f00b3339e1c6f9509d
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Meer informatie over hoe u Office 365 instellen voor het beheren van de DNS-records van uw aangepaste domein bij Hostgator.
+ms.openlocfilehash: d592fc77513107679206a4ac187116c7d6fb794f
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42810289"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212327"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-hostgator"></a>Naamservers wijzigen voor het instellen van Office 365 bij Hostgator
 
@@ -53,11 +53,11 @@ Volg deze stappen om uw domein en hostingaccounts te koppelen.
     
     ![Hostgator-BP-Redelegate-1-2](../../media/2c2f8530-26a1-4e62-bb04-b3874bc1cf36.png)
   
-4. Selecteer op de pagina **Overzicht domeinen** in het gebied **Naamservers** de optie **Wijzigen**.
+4. Selecteer op de pagina **Domeinenoverzicht** in het gebied **Naamservers** de optie **Wijzigen**.
     
     ![Afbeelding van knop Doorzichtige kleur instellen](../../media/c8979d8a-ee96-4064-a8df-c5b01054cb16.png)
   
-5. Kies op de pagina **Naamservers** voor uw domein in de vervolgkeuzelijst **Hostingaccount selecteren** het **hostingaccount** dat aan uw domein is gekoppeld.
+5. Kies op de pagina **Naamservers** voor uw domein in de vervolgkeuzelijst **Hostingaccount** selecteren de **hostingaccount** die aan uw domein is gekoppeld.
     
     ![Power BI-dashboards](../../media/4cf61060-1e8a-4758-9892-32059ffc90c2.png)
   
@@ -68,7 +68,7 @@ Volg deze stappen om uw domein en hostingaccounts te koppelen.
 ## <a name="add-a-txt-record-for-verification"></a>Een TXT-record toevoegen voor verificatie
 
 > [!IMPORTANT]
-> Voordat u deze procedure uitvoert, moet u eerst de procedure uitvoeren in het eerste deel van dit artikel, [Uw domein aan uw hostingaccount wijzen.](#point-your-domain-to-your-hosting-account).
+> Voordat u deze procedure uitvoert, moet u eerst de procedure uitvoeren in het eerste deel van dit artikel, [Uw domein naar uw hostingaccount leiden.](#point-your-domain-to-your-hosting-account)
   
 Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleerd dat u de eigenaar bent van het domein. Als u zich bij uw account bij de domeinregistrar kunt aanmelden en de DNS-record kunt maken, is dit voor Office 365 bewezen.
   
@@ -80,9 +80,9 @@ Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleer
     (Aan elk gehost account bij Hostgator is een uniek cPanel-adres toegewezen. Het adres van uw cPanel ziet er ongeveer als volgt uit: https://YourSiteAddress:secure-port-number nummer-beveiligde-poort. U vindt dit adres in de e-mail die u bij aanmelding van Hostgator hebt ontvangen.)
     
     > [!IMPORTANT]
-    > Als u cPanel aan uw domein wilt koppelen, hebt u een hostingaccount bij Hostgator nodig. Als u aan de slag wilt met Office 365, u een hostingaccount kopen bij Hostgator of [de naamserverrecords (NS)](#change-your-domains-nameserver-ns-records) van uw domein wijzigen om naar Office 365 te wijzen. 
+    > Als u cPanel aan uw domein wilt koppelen, hebt u een hostingaccount bij Hostgator nodig. Als u aan de slag wilt met Office 365, u een hostingaccount kopen bij Hostgator of [de NS-records (nameserver) van uw domein wijzigen](#change-your-domains-nameserver-ns-records) om naar Office 365 te wijzen. 
   
-2. Selecteer op de pagina **Configuratiescherm** in het gebied **Domeinen** de optie **Geavanceerde DNS-zoneeditor**.
+2. Selecteer op de pagina **Configuratiescherm** in het gebied **Domeinen** de optie **Advanced DNS Zone Editor**.
     
     (Mogelijk moet u omlaag schuiven.) 
     
@@ -103,14 +103,14 @@ Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug 
   
 Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
 
     
-2. Selecteer op de pagina **Domeinen** het domein dat u verifieert. 
+2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
     
-3. Selecteer op de pagina **Setup** de optie **Startsetup**.
+3. Kies **Start setup** op de pagina **Setup**.
     
-4. Selecteer op de pagina **Domein verifiëren** de optie **Verifiëren**.
+4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
 > [!NOTE]
 > Het duurt meestal ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd in Office 365](../get-help-with-domains/find-and-fix-issues.md). 
@@ -123,7 +123,7 @@ U voltooit het instellen van uw domein met Office 365 door de NS-records van uw 
 > Als u de NS-records van uw domein laat verwijzen naar de naamservers van Office 365, is dit van invloed op alle services die momenteel aan uw domein zijn gekoppeld. Zo wordt bijvoorbeeld alle e-mail die naar uw domein wordt verzonden (zoals william@ *uw_domein*  .com), naar Office 365 verzonden zodra u deze wijziging hebt aangebracht.
   
 > [!IMPORTANT]
-> In de volgende procedure kunt u zien hoe u andere, ongewenste naamservers uit de lijst verwijdert en hoe u de juiste naamservers toevoegt als deze niet al in de lijst staan. Wanneer u de stappen in deze sectie hebt voltooid, zijn de enige nameservers die moeten worden vermeld deze vier: **ns1.bdm.microsoftonline.com,** **ns2.bdm.microsoftonline.com,** **ns3.bdm.microsoftonline.com**en **ns4.bdm.microsoftonline.com**.
+> In de volgende procedure kunt u zien hoe u andere, ongewenste naamservers uit de lijst verwijdert en hoe u de juiste naamservers toevoegt als deze niet al in de lijst staan. Wanneer u de stappen in deze sectie hebt voltooid, zijn deze vier de enige nameservers: **ns1.bdm.microsoftonline.com,** **ns2.bdm.microsoftonline.com,** **ns3.bdm.microsoftonline.com**en **ns4.bdm.microsoftonline.com**.
   
 1. Ga eerst naar uw pagina met de klantenportal bij Hostgator via [deze koppeling](https://portal.hostgator.com/domain/manage). U wordt gevraagd u aan te melden.
     
@@ -141,7 +141,7 @@ U voltooit het instellen van uw domein met Office 365 door de NS-records van uw 
     
     ![Afbeelding van knop Doorzichtige kleur instellen](../../media/c8979d8a-ee96-4064-a8df-c5b01054cb16.png)
   
-5. Kies op de pagina **Naamservers** voor uw domein in de vervolgkeuzelijst **Hostingaccount selecteren** het **hostingaccount** dat aan uw domein is gekoppeld. 
+5. Kies op de pagina **Naamservers** voor uw domein in de vervolgkeuzelijst **Hostingaccount** selecteren de **hostingaccount** die aan uw domein is gekoppeld. 
     
     ![Power BI-dashboards](../../media/4cf61060-1e8a-4758-9892-32059ffc90c2.png)
   
@@ -149,7 +149,7 @@ U voltooit het instellen van uw domein met Office 365 door de NS-records van uw 
     
     ![Hostgator-BP-Redelegate-1-5](../../media/5b73ae32-f26e-48aa-b5ad-6da20f1c491a.png)
   
-7.   **LET OP:** Volg deze stappen alleen als u bestaande nameservers anders dan de vier juiste naamservers hebt. (Dat wil zeggen, verwijder alleen de huidige naamservers die *niet* **ns1.bdm.microsoftonline.com,** **ns2.bdm.microsoftonline.com**, **ns3.bdm.microsoftonline.com**of **ns4.bdm.microsoftonline.com**.)
+7.   **LET OP:** Volg deze stappen alleen als u bestaande naamservers hebt, andere dan de vier juiste naamservers. (Dat wil zeggen, alleen huidige naamservers verwijderen die *geen* naam hebben **ns1.bdm.microsoftonline.com,** **ns2.bdm.microsoftonline.com,** **ns3.bdm.microsoftonline.com**of **ns4.bdm.microsoftonline.com**.)
   
         Met de pagina **Name Servers** voor uw domein geopend, verwijdert u elke naamserver in de lijst met naamservers door deze te selecteren en op de toets **Delete** op het toetsenbord te drukken. 
     

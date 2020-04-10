@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 1062115d-e312-482a-bb5a-765235990f41
 ROBOTS: NOINDEX
 description: Leer gegevens over te zetten naar uw nieuwe bedrijfsidentiteit.
-ms.openlocfilehash: 878d4b66907cc6419ff23cbb61e56e32c7c601bc
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: fc0df5e919370395480cdafbaaee10b0d844f088
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42809630"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209674"
 ---
 # <a name="move-email-and-data-to-office-365-business-premium"></a>E-mail en gegevens verplaatsen naar Office 365 Business Premium
 
@@ -39,17 +39,17 @@ Als u sommige van uw persoonlijke gegevens wilt overbrengen naar uw nieuwe bedri
  **Uw OneDrive-gegevens kopiëren**
 1. Maak een tijdelijke map op uw harde schijf voor het tijdelijk opslaan van de bestanden die u wilt migreren naar Office 365 voor Bedrijven.
     
-2. Ga [https://onedrive.live.com/](https://onedrive.live.com/) naar en meld u aan met het Microsoft-account dat u gebruikt om toegang te krijgen tot uw Abonnement op Start huis voor Thuisgebruik. 
+2. Ga [https://onedrive.live.com/](https://onedrive.live.com/) naar en meld u aan met het Microsoft-account dat u gebruikt om toegang te krijgen tot uw Abonnement op Office 365 voor Thuisgebruik. 
     
 3. Kopieer de bestanden die u wilt gebruiken in Office 365 voor Bedrijven naar de lokale map die u in stap 1 hebt gemaakt.
     
  **OneDrive-bestanden importeren in Office 365 voor Bedrijven**
-1. Ga naar [admin.microsoft.com](https://go.microsoft.com/fwlink/?LinkId=816877) en meld u aan met uw gebruikersnaam en wachtwoord van Office 365 Business. 
+1. Ga naar [admin.microsoft.com](https://go.microsoft.com/fwlink/?LinkId=816877) en meld u aan met uw gebruikersnaam en wachtwoord voor Office 365 Business. 
     
 2. Selecteer het pictogram voor het **startprogramma voor apps** in de linkerbovenhoek en kies **OneDrive**.
   
     > [!TIP]
-    > De eerste keer dat u OneDrive voor Bedrijven opent, moet u uw OneDrive instellen. Als dit gebeurt, selecteert u op de pagina **Welkom bij OneDrive voor Bedrijven** de optie **Volgende**. Nadat OneDrive is ingesteld, selecteert u **Uw OneDrive is gereed**. 
+    > De eerste keer dat u OneDrive voor Bedrijven opent, moet u uw OneDrive instellen. Als dit gebeurt, selecteert u Op de pagina **Welkom bij OneDrive voor Bedrijven** de optie **Volgende**. Nadat OneDrive is ingesteld, is de optie **Uw OneDrive gereed**. 
   
 3. U komt terecht in een lege OneDrive-map. Als u submappen wilt maken, selecteert u **Nieuwe** \> **map**.
 

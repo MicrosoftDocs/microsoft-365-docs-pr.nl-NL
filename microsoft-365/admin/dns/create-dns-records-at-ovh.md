@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5176feef-36dc-4d84-842f-1f2b5a21ba96
-description: Meer informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services bij OVH voor Office 365.
-ms.openlocfilehash: 4857addd7dfd096c1ddd6e59f1f17ace76b75a9e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij OVH voor Office 365.
+ms.openlocfilehash: 3ba4e61c875f74a0a6cf76c8b7cd82ea88e0221b
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42805372"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211108"
 ---
 # <a name="create-dns-records-at-ovh-for-office-365"></a>DNS-records maken bij OVH voor Office 365
 
@@ -64,7 +64,7 @@ Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleer
     
     ![OVH login](../../media/1424cc15-720d-49d1-b99b-8ba63b216238.png)
   
-2. Selecteer onder **Domeinen**de naam van het domein dat u wilt bewerken.
+2. Selecteer **onder Domeinen**de naam van het domein dat u wilt bewerken.
     
     ![OVH Select the domain](../../media/fe407909-4ea6-4b92-a3bd-dec4022b1d8d.png)
   
@@ -76,11 +76,11 @@ Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleer
     
     ![OVH Add an entry](../../media/13ded54b-9e48-4c98-8e1b-8c4a99633bc0.png)
   
-5. Selecteer **TXT**
+5. **TXT selecteren**
     
     ![OVH selecteert TXT-vermelding](../../media/3aaa9dae-0b1d-436b-a980-b67a970f31a9.png)
   
-6. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest u **Gepersonaliseerd** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
+6. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest **u Gepersonaliseerd** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
     
     |**Recordtype**|**Subdomein**|**TTL**|**Waarde**|
     |:-----|:-----|:-----|:-----|
@@ -96,31 +96,31 @@ Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug 
   
 Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
-2. Selecteer op de pagina **Domeinen** het domein dat u verifieert. 
-    
-    
-  
-3. Selecteer op de pagina **Setup** de optie **Startsetup**.
+2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
     
     
   
-4. Selecteer op de pagina **Domein verifiëren** de optie **Verifiëren**.
+3. Kies **Start setup** op de pagina **Setup**.
+    
+    
+  
+4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
     
   
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Voeg een MX-record toe zodat e-mail voor uw domein bij Office 365 terechtkomt
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Een MX-record toevoegen zodat e-mail voor uw domein bij Office 365 terechtkomt
 <a name="bkmk_mx"> </a>
 
 1. Als u wilt beginnen, gaat u naar uw domeinenpagina in OVH via [deze koppeling](https://www.ovh.com/manager/). U wordt gevraagd u aan te melden.
     
     ![OVH login](../../media/1424cc15-720d-49d1-b99b-8ba63b216238.png)
   
-2. Selecteer onder **Domeinen**de naam van het domein dat u wilt bewerken.
+2. Selecteer **onder Domeinen**de naam van het domein dat u wilt bewerken.
     
     ![OVH Select the domain](../../media/fe407909-4ea6-4b92-a3bd-dec4022b1d8d.png)
   
@@ -136,16 +136,16 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     ![OVH MX record type](../../media/29b5e54e-440a-41f2-9eb9-3de573922ddf.png)
   
-6. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest u **Gepersonaliseerd** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
+6. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest **u Gepersonaliseerd** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
     
     > [!NOTE]
-    > OvH gebruikt standaard relatieve notatie voor het doel, waardoor de domeinnaam wordt toegevoegd aan het einde van het doelrecord. Als u in plaats daarvan absolute notatie wilt gebruiken, voegt u een stip toe aan de doelrecord zoals in de onderstaande tabel wordt weergegeven. 
+    > OvH gebruikt standaard relatieve notatie voor het doel, dat de domeinnaam toevoegt aan het einde van de doelrecord. Als u in plaats daarvan absolute notatie wilt gebruiken, voegt u een punt toe aan de doelrecord zoals in de onderstaande tabel. 
   
-    |**Recordtype**|**Subdomein**|**TTL**|**Prioriteit**|**Target**|
+    |**Recordtype**|**Subdomein**|**TTL**|**Prioriteit**|**Doel**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(laat leeg)  <br/> |3600 (seconden)  <br/> |10  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.    <br/> |\<domain-key\>.mail.protection.outlook.com.  <br/> **Let op:** Haal uw * \<domeinsleutel\> * uit uw Office 365-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)  |
+    |MX  <br/> |(laat leeg)  <br/> |3600 (seconden)  <br/> |10  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.    <br/> |\<domain-key\>.mail.protection.outlook.com.  <br/> **Let op:** Haal uw * \<domeinsleutel\> * op uit uw Office 365-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)  |
    
-    ![OVH MX record voor mail](../../media/6e2f5655-93e2-4620-8f19-c452e7edf8f0.png)
+    ![OVH MX record voor e-mail](../../media/6e2f5655-93e2-4620-8f19-c452e7edf8f0.png)
   
 7. Selecteer **Volgende**.
     
@@ -155,7 +155,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     ![OVH MX record select Confirm](../../media/090bfb11-a753-4af0-8982-582a4069a169.png)
   
-9. Als er andere MX-records zijn, verwijdert u deze in op de pagina **DNS-zone**. Selecteer elke record en selecteer vervolgens in de kolom **Acties** het pictogram Prullenbak **verwijderen.** 
+9. Als er andere MX-records zijn, verwijdert u deze in op de pagina **DNS-zone**. Selecteer elke record en selecteer vervolgens in de kolom **Acties** het pictogram **Verwijderen** van prullenbak. 
     
     ![OVH delete MX record](../../media/892b328b-7057-4828-b8c5-fe26284dc8c2.png)
   
@@ -168,7 +168,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     ![OVH login](../../media/1424cc15-720d-49d1-b99b-8ba63b216238.png)
   
-2. Selecteer onder **Domeinen**de naam van het domein dat u wilt bewerken.
+2. Selecteer **onder Domeinen**de naam van het domein dat u wilt bewerken.
     
     ![OVH Select the domain](../../media/fe407909-4ea6-4b92-a3bd-dec4022b1d8d.png)
   
@@ -186,7 +186,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
   
 6. Maak de eerste CNAME-record.
     
-    Typ of kopieer en plak de waarden uit de eerste rij van de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest u **Gepersonaliseerd** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
+    Typ of kopieer en plak de waarden uit de eerste rij van de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest **u Gepersonaliseerd** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
     
     |**Recordtype**|**Subdomein**|**Doel**|**TTL**|
     |:-----|:-----|:-----|:-----|
@@ -218,7 +218,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     
     ![OVH login](../../media/1424cc15-720d-49d1-b99b-8ba63b216238.png)
   
-2. Selecteer onder **Domeinen**de naam van het domein dat u wilt bewerken.
+2. Selecteer **onder Domeinen**de naam van het domein dat u wilt bewerken.
     
     ![OVH Select the domain](../../media/fe407909-4ea6-4b92-a3bd-dec4022b1d8d.png)
   
@@ -238,24 +238,24 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |(laat leeg)  <br/> |3600 (seconden)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
    
-    ![OVH Add TXT record voor SPF](../../media/f50466e9-1557-4548-8a39-e98978a5ee2e.png)
+    ![OVH Voeg TXT-record voor SPF toe](../../media/f50466e9-1557-4548-8a39-e98978a5ee2e.png)
   
 7. Selecteer **Volgende**.
     
-    ![OVH Add TXT-record voor SPF en selecteer Volgende](../../media/7937eb7c-114f-479f-a916-bcbe476d6108.png)
+    ![OVH Voeg TXT-record voor SPF toe en selecteer Volgende](../../media/7937eb7c-114f-479f-a916-bcbe476d6108.png)
   
 8. Selecteer **Bevestigen**.
     
     ![OVH Add TXT record for SPF and Confirm](../../media/649eefeb-3227-49e3-98a0-1ce19c42fa54.png)
   
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Voeg de vier SRV-records toe die voor Office 365 vereist zijn.
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>De twee SRV-records toevoegen die voor Office 365 vereist zijn
 <a name="bkmk_srv"> </a>
 
 1. Als u wilt beginnen, gaat u naar uw domeinenpagina in OVH via [deze koppeling](https://www.ovh.com/manager/). U wordt gevraagd u aan te melden.
     
     ![OVH login](../../media/1424cc15-720d-49d1-b99b-8ba63b216238.png)
   
-2. Selecteer onder **Domeinen**de naam van het domein dat u wilt bewerken.
+2. Selecteer **onder Domeinen**de naam van het domein dat u wilt bewerken.
     
     ![OVH Select the domain](../../media/fe407909-4ea6-4b92-a3bd-dec4022b1d8d.png)
   
@@ -273,9 +273,9 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
   
 6. Maak de eerste SRV-record.
     
-    Typ of kopieer en plak de waarden uit de eerste rij van de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest u **Gepersonaliseerd** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
+    Typ of kopieer en plak de waarden uit de eerste rij van de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest **u Gepersonaliseerd** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
     
-    |**Recordtype**|**Subdomein**|**Prioriteit**|**Weight**|**Port**|**TTL**|**Doel**|
+    |**Recordtype**|**Subdomein**|**Prioriteit**|**Gewicht**|**Poort**|**TTL**|**Doel**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
     |SRV (service)  <br/> |_sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |3600 (seconden)  <br/> |sipdir.online.lync.com.  <br/> |
     |SRV (service)  <br/> |_sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |3600 (seconden)  <br/> |sipfed.online.lync.com.  <br/> |

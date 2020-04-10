@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Leer hoe u met de standaardinstellingen voor beveiliging meervoudige verificatie kunt instellen voor Office 365-gebruikers.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 331552a4de21198fe7fbc9980e89bfcd87449ffa
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 5f468f040ca88ab4ab2bc198d0d7550bf2e7f4af
+ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153554"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43204020"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Meervoudige verificatie instellen
   
@@ -68,11 +68,11 @@ Als u al een MFA hebt ingesteld met basislijnbeleid, dan [moet u deze uitschakel
 
 ## <a name="move-from-baseline-policies-to-security-defaults"></a>Overstappen van basislijnbeleid op standaardinstellingen voor beveiliging
 
-1. Selecteer in het [Beheercentrum de ](https://go.microsoft.com/fwlink/p/?linkid=834822)optie **Setup**.
+1. Selecteer in het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=834822) **Alles weergeven**en vervolgens **Azure Active Directory** onder **Beheercentra**.
 
-2. Selecteer naast **Aanmelden en beveiliging** onder **Aanmelding veiliger maken** de optie **Weergeven**.
+2. Kies azure **Active Directory** > **Security**in het Azure **Active Directory-beheercentrum** .
 
-3. Selecteer onder **Aanmelding veiliger maken** de optie **Beheren**. 
+3. Wat de **zekerheid heeft : Aan de slag** pagina, kies **Voorwaardelijke toegang**. 
 
 4. Ga naar de pagina **Beleid voor voorwaardelijke toegang voor Azure-portal** en selecteer elk basislijnbeleid dat is ingesteld op **Aan**. Stel deze vervolgens in op **Uit**.
 5. Ga naar de pagina [Azure Active Directory-eigenschappen](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).

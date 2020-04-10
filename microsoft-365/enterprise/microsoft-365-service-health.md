@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: 'Status van Microsoft 365-service '
-ms.openlocfilehash: 8acbd54f8b1d635fa1ba1d02d7c255484fb24758
-ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
+ms.openlocfilehash: 16621bc266684397da5fa92e953067e1e8342b4e
+ms.sourcegitcommit: 8959701cf009068b40da2757b4a61da61d5c166b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43189103"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207161"
 ---
 # <a name="microsoft-365-network-health-status"></a>Status van Microsoft 365-netwerk
 
@@ -37,7 +37,7 @@ Wanneer we belangrijke problemen in het wereldwijde netwerk van Microsoft vastst
 
 | Locatie | Type probleem | Details |
 | --- | --- | --- |
-| **Geen huidige problemen** |  |  |
+| **Geen huidige problemen**  |  |  |
 
 ## <a name="recommendations-to-improve-network-experience"></a>Aanbevelingen voor het verbeteren van de netwerkervaring
 
