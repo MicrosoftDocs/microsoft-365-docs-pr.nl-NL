@@ -15,20 +15,38 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Tijdens en na een geautomatiseerd onderzoek in Office 365 u de resultaten en belangrijkste bevindingen bekijken.
-ms.openlocfilehash: 6db1c6a999a7791e8fb7bf728a9ee0a33733eeaf
-ms.sourcegitcommit: d1909d34ac0cddeb776ff5eb8414bfc9707d5ac1
+ms.openlocfilehash: e19669f48047f1800d2a904c6ef5565d8db94dd9
+ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43163908"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43225973"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-office-365"></a>Details en resultaten van een geautomatiseerd onderzoek in Office 365
 
 Wanneer een [geautomatiseerd onderzoek](office-365-air.md) plaatsvindt in [Office 365 Advanced Threat Protection,](office-365-atp.md)zijn details over dat onderzoek beschikbaar tijdens en na het geautomatiseerde onderzoeksproces. Als u over de benodigde machtigingen beschikt, u deze gegevens bekijken in een weergave met onderzoeksdetails. De weergave onderzoeksdetails biedt u de up-to-date status en de mogelijkheid om alle lopende acties goed te keuren. 
 
+## <a name="investigation-status"></a>Onderzoeksstatus
+
+De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Naarmate het onderzoek wordt uitgevoerd, verandert de status om aan te geven of er bedreigingen zijn gevonden en of acties zijn goedgekeurd. 
+
+|Status  |Wat het betekent  |
+|---------|---------|
+|Starten | Het onderzoek is gestart en wacht om te beginnen met lopen.  |
+|Met | Het onderzoek is gestart en is in volle gang. Deze status treedt ook op wanneer [lopende acties](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions) zijn goedgekeurd. |
+|Geen bedreigingen gevonden | Het onderzoek is voltooid en er zijn geen bedreigingen (gebruikersaccount, e-mailbericht, URL of bestand) geïdentificeerd. <br/><br/>**TIP:** Als u vermoedt dat er iets is gemist (zoals een vals negatief), u actie ondernemen met Behulp van [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer). |
+|Gevonden bedreigingen |In het geautomatiseerde onderzoek zijn problemen gevonden, maar er zijn geen specifieke herstelacties om deze problemen op te lossen.<br/><br/> De status Gevonden bedreigingen kan optreden wanneer een bepaald type gebruikersactiviteit is geïdentificeerd, maar er geen opschoningsacties beschikbaar zijn. Voorbeelden hiervan zijn een van de volgende gebruikersactiviteiten: <br/>- Een gebeurtenis [voor het voorkomen van gegevensverlies](https://docs.microsoft.com/Microsoft-365/compliance/data-loss-prevention-policies) (DLP) <br/>- Een e-mail verzenden anomalie <br/>- Verzonden malware <br/>- Verzonden phish<br/>Uit het onderzoek is gebleken dat er geen schadelijke URL's, bestanden of e-mailberichten moeten worden verholpen en dat er geen postvakactiviteit moet worden opgelost, zoals het uitschakelen van doorstuurregels of delegatie. <br/><br/>**TIP:** Als u vermoedt dat er iets is gemist (zoals een vals negatief), u onderzoeken en actie ondernemen met behulp van [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer). |
+|Beëindigd per systeem | Het onderzoek is gestopt. Een onderzoek kan om verschillende redenen stoppen:<br/>- De lopende acties van het onderzoek zijn verlopen. In afwachting van acties time-out na in afwachting van goedkeuring voor een week. <br/>- Er zijn te veel acties. Als er bijvoorbeeld te veel gebruikers op kwaadaardige URL's klikken, kan dit de mogelijkheid van het onderzoek om alle analysers uit te voeren, overschrijden, zodat het onderzoek wordt stopgezet. <br/><br/>**TIP:** Als een onderzoek wordt gestopt voordat er acties zijn ondernomen, probeert u [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) te gebruiken om bedreigingen te vinden en aan te pakken.  |
+|Actie in behandeling | Het onderzoek heeft een bedreiging gevonden, zoals een kwaadaardige e-mail, een kwaadaardige URL, of een riskante mailbox instelling, en een actie om die dreiging te verwerkte is in afwachting van [goedkeuring](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions).<br/><br/>De status In behandeling zijnde actie wordt geactiveerd wanneer een bedreiging met een overeenkomstige actie wordt gevonden. De lijst met lopende acties kan echter toenemen naarmate een onderzoek wordt uitgevoerd. Controleer het [onderzoekslogboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results#playbook-log) om te zien of andere items nog in behandeling zijn. |
+|Gesaneerd | Het onderzoek werd afgerond en alle acties werden goedgekeurd (volledig gesaneerd).<br/><br/>**OPMERKING**: Goedgekeurde herstelacties kunnen fouten bevatten die voorkomen dat de acties worden uitgevoerd. Ongeacht of herstelacties met succes zijn voltooid, verandert de onderzoeksstatus niet. Controleer het [onderzoekslogboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) voor gedetailleerde resultaten. |
+|Gedeeltelijk gesaneerd | Het onderzoek resulteerde in saneringsacties, en sommige werden goedgekeurd en voltooid. Andere acties zijn nog [in behandeling](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions). |
+|Mislukt | Ten minste een onderzoek analyzer liep in een probleem waar het niet goed kon voltooien. <br/><br/>**OPMERKING**: Als een onderzoek mislukt nadat herstelacties zijn goedgekeurd, zijn de herstelacties mogelijk nog steeds geslaagd. Controleer het [onderzoekslogboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) voor gedetailleerde resultaten. |
+|In de wachtrij door throttling | Een onderzoek staat in de rij. Wanneer andere onderzoeken zijn voltooid, beginnen onderzoeken in de wachtrij. Beperking helpt slechte serviceprestaties te voorkomen. <br/><br/>**TIP:** Lopende acties kunnen beperken hoeveel nieuwe onderzoeken kunnen worden uitgevoerd. Zorg ervoor dat [u in behandeling zijnde acties goedkeurt (of afwijst).](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions) |
+|Beëindigd door beperking | Als een onderzoek te lang in de wachtrij wordt gehouden, stopt het. <br/><br/>**TIP:** U [een onderzoek starten vanuit Threat Explorer.](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) |
+
 ## <a name="view-details-of-an-investigation"></a>Details van een onderzoek weergeven
 
-1. Ga [https://protection.office.com](https://protection.office.com) naar en meld je aan. Dit brengt u naar het Security & Compliance Center.
+1. Ga naar het Office 365[https://protection.office.com](https://protection.office.com)Security & Compliance Center ( ) en meld u aan.
 
 2. Voer een van de volgende handelingen uit:
 
@@ -50,7 +68,7 @@ Wanneer een [geautomatiseerd onderzoek](office-365-air.md) plaatsvindt in [Offic
 
 Bepaalde soorten waarschuwingen leiden tot geautomatiseerd onderzoek in Office 365. Zie [Waarschuwingen](automated-investigation-response-office.md#alerts)voor meer informatie. Gebruik de volgende procedure om details over een waarschuwing te bekijken die is gekoppeld aan een geautomatiseerd onderzoek.
 
-1. Ga [https://protection.office.com](https://protection.office.com) naar en meld je aan. Dit brengt u naar het Security & Compliance Center.
+1. Ga naar het Office 365[https://protection.office.com](https://protection.office.com)Security & Compliance Center ( ) en meld u aan. 
 
 2. Ga naar **Threat Management** > **Investigations**.
 
@@ -83,20 +101,6 @@ U kunt:
 - Filters toepassen. Kies **uit Onderzoekstype,** **Tijdbereik,** **Status**of een combinatie hiervan.
 - Exporteer de gegevens naar een CSV-bestand.
 
-De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Naarmate het onderzoek wordt uitgevoerd, verandert de status om aan te geven of er bedreigingen zijn gevonden en of acties zijn goedgekeurd. 
-
-|Status  |Wat het betekent  |
-|---------|---------|
-|Starten | Het onderzoek is gestart en wacht om te beginnen met lopen. Dit is de eerste stap. |
-|Met | Het onderzoek is gestart en is in volle gang. Deze status treedt ook op wanneer [lopende acties](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions) zijn goedgekeurd. |
-|Geen bedreigingen gevonden | Het onderzoek is voltooid en er zijn geen bedreigingen (gebruikersaccount, e-mailbericht, URL of bestand) geïdentificeerd. <br/><br/>**TIP:** Als u vermoedt dat er iets is gemist (zoals een vals negatief), u actie ondernemen met Behulp van [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer). |
-|Beëindigd per systeem | Het onderzoek is gestopt. Dit kan om een aantal redenen gebeuren. Hier zijn de twee meest voorkomende redenen:<br/>- De lopende acties van het onderzoek zijn verlopen. In afwachting van acties time-out na in afwachting van goedkeuring voor een week. <br/>- Er zijn te veel acties. Als er bijvoorbeeld te veel gebruikers op kwaadaardige URL's klikken, kan dit de mogelijkheid van het onderzoek om alle analysers uit te voeren, overschrijden, zodat het onderzoek wordt stopgezet. <br/><br/>**TIP:** Als een onderzoek wordt gestopt voordat er acties zijn ondernomen, probeert u [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) te gebruiken om bedreigingen te vinden en aan te pakken.  |
-|Actie in behandeling | Het onderzoek heeft een bedreiging gevonden, zoals een kwaadaardige e-mail, een kwaadaardige URL, of een riskante mailbox instelling, en een actie om die dreiging te verwerkte is in afwachting van [goedkeuring](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions).<br/><br/>De status In behandeling zijnde actie wordt geactiveerd wanneer een bedreiging met een overeenkomstige actie wordt gevonden; Houd er echter rekening mee dat het onderzoek mogelijk nog niet helemaal voltooid is.  Controleer het [onderzoekslogboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results#playbook-log) om te zien of andere items nog in behandeling zijn. |
-|Gesaneerd | Het onderzoek werd afgerond en alle acties werden goedgekeurd (volledig gesaneerd).<br/><br/>**OPMERKING**: Goedgekeurde herstelacties kunnen fouten bevatten die voorkomen dat de acties worden uitgevoerd. Dit verandert niets aan de onderzoeksstatus. Controleer het [onderzoekslogboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) voor gedetailleerde resultaten. |
-|Gedeeltelijk gesaneerd | Het onderzoek resulteerde in saneringsacties, en sommige werden goedgekeurd en voltooid. Andere acties zijn nog [in behandeling](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions). |
-|Mislukt | Ten minste een onderzoek analyzer liep in een probleem waar het niet goed kon voltooien. <br/><br/>**OPMERKING**: Als een onderzoek mislukt nadat herstelacties zijn goedgekeurd, zijn de herstelacties mogelijk nog steeds geslaagd. Controleer het [onderzoekslogboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) voor gedetailleerde resultaten. |
-|In de wachtrij door throttling | Een onderzoek staat in de rij. Wanneer andere onderzoeken zijn voltooid, beginnen onderzoeken in de wachtrij. Dit helpt slechte serviceprestaties te voorkomen. <br/><br/>**TIP:** Lopende acties kunnen beperken hoeveel nieuwe onderzoeken kunnen worden uitgevoerd. Zorg ervoor dat [u in behandeling zijnde acties goedkeurt (of afwijst).](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions) |
-|Beëindigd door beperking | Als een onderzoek te lang in de wachtrij wordt gehouden, wordt het gestopt. <br/><br/>**TIP:** U [een onderzoek starten vanuit Threat Explorer.](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) |
 
 ### <a name="investigation-graph"></a>Onderzoeksgrafiek
 
@@ -112,7 +116,7 @@ U kunt:
 
 ### <a name="alert-investigation"></a>Waarschuwingsonderzoek
 
-Op het tabblad **Waarschuwingen** voor een onderzoek ziet u waarschuwingen die relevant zijn voor het onderzoek. Details omvatten de waarschuwing die het onderzoek heeft geactiveerd en andere gecorreleerde waarschuwingen, zoals risicovolle aanmelding, DLP-beleidsschendingen, enz., die zijn gecorreleerd aan het onderzoek. Op deze pagina kan een beveiligingsanalist ook aanvullende details over afzonderlijke waarschuwingen bekijken.
+Op het tabblad **Waarschuwingen** voor een onderzoek ziet u waarschuwingen die relevant zijn voor het onderzoek. Details omvatten de waarschuwing die het onderzoek heeft geactiveerd en andere gecorreleerde waarschuwingen, zoals risicovolle aanmelding, [DLP-beleidsschendingen,](https://docs.microsoft.com/Microsoft-365/compliance/data-loss-prevention-policies) enz., die zijn gecorreleerd aan het onderzoek. Op deze pagina kan een beveiligingsanalist ook aanvullende details over afzonderlijke waarschuwingen bekijken.
 
 ![PAGINA AIR-waarschuwingen](../../media/air-investigationalertspage.png)
 
@@ -135,7 +139,7 @@ Tijdens de e-mailanalysestap kunnen twee verschillende typen e-mailclusters word
 - Vergelijkbare clusters zijn e-mailberichten die worden geïdentificeerd door te jagen op e-mails met vergelijkbare afzender- en inhoudskenmerken. Deze clusters worden beoordeeld op schadelijke inhoud op basis van de oorspronkelijke detectiebevindingen. E-mailclusters die voldoende schadelijke e-maildetecties bevatten, worden als kwaadaardig beschouwd.
 - Indicatorclusters zijn e-mailberichten die worden geïdentificeerd door te jagen op dezelfde indicatorentiteit (bestandshash of URL) van de oorspronkelijke e-mail. Wanneer de oorspronkelijke bestands-/URL-entiteit als kwaadaardig wordt geïdentificeerd, past AIR het indicatorvonnis toe op het hele cluster van e-mailberichten dat die entiteit bevat. Een bestand geïdentificeerd als malware betekent dat het cluster van e-mailberichten met dat bestand worden behandeld als malware e-mailberichten.
 
-Het doel van clustering is om te jagen en andere gerelateerde e-mailberichten te vinden die door dezelfde afzender worden verzonden als onderdeel van een aanval of een campagne.  In sommige gevallen kan legitieme e-mail een onderzoek ingang brengen (bijvoorbeeld een gebruiker meldt een marketinge-mail).  In deze scenario's moet de e-mailclustering identificeren dat e-mailclusters niet kwaadaardig zijn - wanneer dit op de juiste manier wordt aangegeven, wordt **geen** bedreiging aangegeven en wordt het verwijderen van e-mail niet aanbevolen.
+Het doel van clustering is om te jagen en andere gerelateerde e-mailberichten te vinden die door dezelfde afzender worden verzonden als onderdeel van een aanval of een campagne.  In sommige gevallen kan legitieme e-mail een onderzoek ingang brengen (een gebruiker rapporteert bijvoorbeeld een marketinge-mail).  In deze scenario's moet de e-mailclustering identificeren dat e-mailclusters niet kwaadaardig zijn - wanneer dit op de juiste manier wordt aangegeven, wordt **geen** bedreiging aangegeven en wordt het verwijderen van e-mail niet aanbevolen.
 
 Het tabblad **E-mail** toont ook e-mailitems met betrekking tot het onderzoek, zoals de door de gebruiker gerapporteerde e-mailgegevens, de oorspronkelijke e-mail die is gerapporteerd, het e-mailbericht(en) zapped als gevolg van malware / phish, enz.
 
