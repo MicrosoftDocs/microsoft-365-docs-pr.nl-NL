@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Office 365-services gebruiken. Met het dashboard Gebruiksoverzicht kunt u voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
-ms.openlocfilehash: da62d934b295916a7f0fc952cc9cbe94b8384246
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: fc9416445fec7a873ae7d09e1af366f029f51ed1
+ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151427"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43204054"
 ---
 # <a name="activity-reports-in-the-microsoft-365-admin-center"></a>Activiteitenoverzichten in het Microsoft 365-beheercentrum
 
@@ -87,6 +87,7 @@ Zie [Informatie over beheerdersrollen](../add-users/about-admin-roles.md) en [Be
 Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
   
 - [E-mailactiviteit](email-activity.md)
+- [Formulieractiviteit](forms-activity.md)
     
 - [Postvakgebruik](mailbox-usage.md)
     
@@ -101,6 +102,7 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
 - [Gebruikersactiviteit in OneDrive voor Bedrijven](onedrive-for-business-activity.md)
   
 - [Gebruik van OneDrive voor Bedrijven](onedrive-for-business-usage.md)
+- [ProPlus-gebruik](microsoft365-apps-usage.md)
   
 - [SharePoint-sitegebruik](sharepoint-site-usage.md)
   
