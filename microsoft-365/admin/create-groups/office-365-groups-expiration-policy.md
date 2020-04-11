@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het vervaldatumbeleid van Office 365-groepen.
-ms.openlocfilehash: 92e472ac56128cc847471b51930aa73dc6598711
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 58eadf3f5899a69fda261c34a5911af22220bd85
+ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212055"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43225917"
 ---
 # <a name="office-365-group-expiration-policy"></a>Beleidsregel voor het verlopen van Office 365-groepen
 
@@ -38,7 +38,7 @@ Beheerders kunnen een vervaldatum opgeven en elke inactieve groep die het einde 
 Groepen die actief in gebruik zijn, worden automatisch vernieuwd. Een van de volgende acties zal een groep automatisch vernieuwen:
 - SharePoint - bestanden bekijken, bewerken, downloaden, verplaatsen, delen of uploaden.
 - Outlook - word lid van groeps-, lees- of schrijfgroepsbericht van de groep en vind een bericht leuk (versie van Outlook op de webversie).
-- Teams - op bezoek bij een team channe'.
+- Teams - een bezoek aan een teams kanaal.
 
 > [!IMPORTANT]
 > Wanneer u het verloopbeleid wijzigt, berekent de service de vervaldatum voor elke groep opnieuw. Het begint altijd te tellen vanaf de datum waarop de groep is gemaakt en past vervolgens het nieuwe verloopbeleid toe.

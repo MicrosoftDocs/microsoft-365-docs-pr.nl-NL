@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 'Bescherm uw zakelijke e-mail en gegevens tegen cyberbedreigingen, waaronder ransomware, phishing en schadelijke bijlagen. '
-ms.openlocfilehash: 3bbd5951ac6005f20584d53e17ac55927acd4c89
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: d42760f0dbf38b72fe530a5670f3515bf3ba2f94
+ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081302"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43225951"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>Top 12 taken voor beveiligingsteams ter ondersteuning van thuiswerken
 
@@ -45,7 +45,7 @@ Voor klanten die onze bedrijfsplannen gebruiken, raadt Microsoft u aan de taken 
 |8      |  [Pc's inschrijven voor apparaatbeheer en vereisen compatibele pc's](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)   |  | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)        | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |9      | [Optimaliseer uw netwerk voor cloudconnectiviteit](#9-optimize-your-network-for-cloud-connectivity)  |  ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |10   | [Treingebruikers](#10-train-users) |    ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
-|11 |[Aan de slag met Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security) |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
+|11 |[Aan de slag met Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security) |   |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
 |12 |[Controleren op bedreigingen en actie ondernemen](#12-monitor-for-threats-and-take-action) |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)  |
 | | | |
 
@@ -63,7 +63,7 @@ Normaal gesproken raadt Microsoft gebruikers aan om hun apparaat 14 dagen te reg
 Het toepassen van dit beleid duurt slechts enkele minuten, maar wees bereid om uw gebruikers te ondersteunen in de komende dagen.  
 
 
-|Plan  |Aanbeveling  |
+|Plannen  |Aanbeveling  |
 |---------|---------|
 |Office 365-abonnementen (zonder Azure AD P1 of P2)     |[Beveiligingsstandaardinstellingen inschakelen in Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). Beveiligingsstandaarden in Azure AD bevatten MFA voor gebruikers en beheerders.   |
 |Microsoft 365 E3 (met Azure AD P1)     | Gebruik [algemene beleid voor voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) om het volgende beleid te configureren: <br>- [MFA vereisen voor beheerders](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [MFA vereisen voor alle gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Verouderde verificatie blokkeren](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
