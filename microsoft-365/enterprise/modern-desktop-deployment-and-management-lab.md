@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: e0942f88605e1b11cdbc83155ebc43b5fdb1bea1
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: 15bd30e54aaf5c7e7fcd881009f8c51c6d5c74e0
+ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081278"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43225929"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit
 
@@ -113,7 +113,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 
 [Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-*Gebruik een grote bandbreedte om deze inhoud sneller te kunnen te downloaden. Houd rekening met 30-45 minuten voor automatische inrichting. De labomgeving vereist minimaal 16 GB beschikbaar geheugen en 150 GB beschikbare schijfruimte. Voor optimale prestaties wordt 32 GB beschikbaar geheugen aanbevolen. Het lab verloopt op 18 april 2020. Voor die tijd wordt een nieuwe versie gepubliceerd.*
+*Gebruik een grote bandbreedte om deze inhoud sneller te kunnen te downloaden. Houd rekening met 30-45 minuten voor automatische inrichting. De labomgeving vereist minimaal 16 GB beschikbaar geheugen en 150 GB beschikbare schijfruimte. Voor optimale prestaties wordt 32 GB beschikbaar geheugen aanbevolen. Het lab verloopt op 5 juli 2020. Voor die tijd wordt een nieuwe versie gepubliceerd.*
 
 ## <a name="additional-guidance"></a>Aanvullende richtlijnen
 

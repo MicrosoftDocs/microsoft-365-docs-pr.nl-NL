@@ -17,12 +17,12 @@ ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
 - M365-security-compliance
 description: Als Office 365-gebruiker kunt u uw berichten in quarantaine (berichten waarvan u ontvanger bent en het spamfilter het bericht in quarantaine heeft geplaatst als spam of bulkmail) zien, vrijgeven en verwijderen. U kunt uw berichten in quarantaine zien en beheren in het beveiligings- en compliancecentrum.
-ms.openlocfilehash: 03c7ce474119ae5ff130b987b58d5130d53c33d6
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 32ae03c555742b9f08c272806464ed75585d08df
+ms.sourcegitcommit: 1d5db6e8411b45d0dd1c517339074c2840e33a63
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42941403"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43216902"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-office-365"></a>Berichten in quarantaine zoeken en vrijgeven als gebruiker in Office 365
 
@@ -66,7 +66,7 @@ Als gebruiker kunt u uw berichten in quarantaine waarvan u ontvanger bent en het
 
    - **Bericht-ID**
 
-   - **Beleidsnaam**
+   - **Beleidsnaam**: deze eigenschap toont het beleid waardoor het bericht in quarantaine is geplaatst. U kunt deze gegevens aan uw beheerder doorgeven.
 
    - **Grootte**
 

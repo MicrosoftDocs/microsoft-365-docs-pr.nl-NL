@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Basisinstellingen van spamfilters bevatten de actie die moet worden uitgevoerd op berichten die als spam zijn geïdentificeerd.
-ms.openlocfilehash: f77a4f52e045c96a0538b140022ebee846cb1996
-ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
+ms.openlocfilehash: 39532db121bb4a9ca5b73ef129b2b0e74e46c69a
+ms.sourcegitcommit: 1d5db6e8411b45d0dd1c517339074c2840e33a63
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43204098"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43216921"
 ---
 # <a name="configure-anti-spam-policies-in-office-365"></a>Antispambeleid configureren in Office 365
 
@@ -280,7 +280,7 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 
 3. Klik op **Beleid bewerken**.
 
-De beschikbare instellingen in het deelvenster zijn voor aangepast antispambeleid hetzelfde als die zijn beschreven in de sectie [Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te maken](#use-the-security--compliance-center-to-create-anti-spam-policies).
+De instellingen in de flyout zijn gelijk aan de instellingen die beschikbaar zijn in de sectie [Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te maken](#use-the-security--compliance-center-to-create-anti-spam-policies).
 
 Voor het standaardantispambeleid met de naam **Standaardbeleid voor spamfilters** is de sectie **Toegepast op** niet beschikbaar (het beleid is op iedereen van toepassing) en u kunt de naam van het beleid niet wijzigen.
 
@@ -460,7 +460,7 @@ Zie [Get-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module
 Gebruik de volgende syntaxis om bestaande spamfilterregels te bekijken:
 
 ```PowerShell
-Get-HostedContentFilterRule [-Identity "<RuleIdentity>] [-State <Enabled | Disabled]
+Get-HostedContentFilterRule [-Identity "<RuleIdentity>"] [-State <Enabled | Disabled]
 ```
 
 Voer de volgende opdracht uit om een overzicht van alle spamfilterregels weer te geven:
