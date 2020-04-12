@@ -16,12 +16,12 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: Uitgaande spamfilters zijn altijd ingeschakeld als u de service gebruikt voor het verzenden van uitgaande e-mail, waardoor organisaties worden beschermd die de service en de beoogde ontvangers gebruiken.
-ms.openlocfilehash: 3800134855d42870992105e66313100ee0d77cd5
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: 3ac85776db5d990d46b858294acf8ef66c7f26bc
+ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081470"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43231002"
 ---
 # <a name="configure-outbound-spam-filtering-in-office-365"></a>Uitgaande spamfilters configureren in Office 365
 
@@ -43,7 +43,7 @@ De basiselementen van een uitgaand spambeleid in EOP zijn:
 
 - **De regel voor uitgaand spamfilter**: hiermee geeft u de prioriteits- en ontvangerfilters op (op wie het beleid van toepassing is) voor een uitgaand spamfilterbeleid.
 
-Het verschil tussen deze twee elementen is niet duidelijk wanneer u uitgaande spam-polities beheert in het Security & Compliance Center:
+Het verschil tussen deze twee elementen is niet duidelijk wanneer u uitgaande spambeleidsregels beheert in het Beveiligings- & Compliance Center:
 
 - Wanneer u een uitgaand spambeleid maakt in het Security & Compliance Center, maakt u eigenlijk een uitgaande spamfilterregel en het bijbehorende uitgaande spamfilterbeleid tegelijkertijd met dezelfde naam voor beide.
 
@@ -227,7 +227,7 @@ U het standaard uitgaande spambeleid niet uitschakelen.
 
 ### <a name="set-the-priority-of-custom-outbound-spam-policies"></a>De prioriteit instellen van aangepast uitgaand spambeleid
 
-Uitgaand spambeleid krijgt standaard een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere politie's hebben een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee verschillende beleidsregels kunnen niet dezelfde prioriteit hebben.
+Uitgaand spambeleid krijgt standaard een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere beleidsregels hebben een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee verschillende beleidsregels kunnen niet dezelfde prioriteit hebben.
 
 Aangepaste uitgaande spambeleidsregels worden weergegeven in de volgorde waarin ze worden verwerkt (het eerste beleid heeft de **prioriteitswaarde** 0). Het standaard uitgaande spambeleid met de naam **Uitgaand spamfilterbeleid** heeft de prioriteitswaarde **Laagste**en u deze niet wijzigen.
 

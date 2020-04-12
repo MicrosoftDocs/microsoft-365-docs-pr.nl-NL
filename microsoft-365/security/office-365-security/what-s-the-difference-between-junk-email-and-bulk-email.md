@@ -16,12 +16,12 @@ ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
 ms.collection:
 - M365-security-compliance
 description: In dit onderwerp wordt het verschil uitgelegd tussen ongewenste e-mail (spam) en bulke-mail en de bijbehorende besturingselementen in Office 365.
-ms.openlocfilehash: 56e997235a374ee9f56956be96458b46bffcdc21
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 41dedd02febc40b73dc585961487f89bbc6db54a
+ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033624"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43230954"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>Wat is het verschil tussen ongewenste e-mail en bulke-mail?
 
@@ -41,7 +41,7 @@ Office 365-klanten met postvakken in Exchange Online of zelfstandige Exchange On
 
 Vanwege de gemengde reactie op bulk e-mail, is er geen universele begeleiding die van toepassing is op elke organisatie.
 
-Anti-spam politie heeft een standaard BCL drempel die wordt gebruikt om bulk e-mail te identificeren als spam. Beheerders kunnen de drempelwaarde verhogen of verlagen. Lees de volgende onderwerpen voor meer informatie:
+Antispambeleid heeft een standaard BCL-drempel die wordt gebruikt om bulke-mail als spam te identificeren. Beheerders kunnen de drempelwaarde verhogen of verlagen. Lees de volgende onderwerpen voor meer informatie:
 
 - [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md).
 

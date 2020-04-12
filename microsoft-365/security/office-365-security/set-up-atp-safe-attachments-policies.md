@@ -17,17 +17,17 @@ ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
 description: Definieer beleid voor veilige bijlagen om uw organisatie te beschermen tegen schadelijke bestanden in e-mail.
-ms.openlocfilehash: c5001823979c19ec68cd15a10bf7c2d7e54cae1d
-ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
+ms.openlocfilehash: 860e733bda8f16eff8e36e42055c7ea7fa88e343
+ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42805290"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43230966"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Beleid voor veilige bijlagen van Office 365 instellen
 
 > [!IMPORTANT]
-> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection hebben.](office-365-atp.md) Zie [Geavanceerde Outlook.com beveiliging](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2)als u een thuisgebruiker bent die op zoek is naar informatie over veilige bijlagen in Outlook.
+> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Zie [Geavanceerde Outlook.com beveiliging](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2)als u een thuisgebruiker bent die op zoek is naar informatie over veilige bijlagen in Outlook.
 
 Mensen verzenden, ontvangen en delen regelmatig bijlagen, zoals documenten, presentaties, spreadsheets en meer. Het is niet altijd gemakkelijk om te vertellen of een bijlage veilig of kwaadaardig is door alleen maar naar een e-mailbericht te kijken. En het laatste wat je wilt is een kwaadaardige gehechtheid te krijgen door middel van, ravage aanrichten voor uw organisatie. Gelukkig kan [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) helpen. U [beleid](atp-safe-attachments.md) voor veilige bijlagen ATP instellen om ervoor te zorgen dat uw organisatie wordt beschermd tegen aanvallen door onveilige e-mailbijlagen.
 
@@ -83,7 +83,7 @@ Mensen verzenden, ontvangen en delen regelmatig bijlagen, zoals documenten, pres
 
 6. Selecteer **Save**.
 
-U overwegen meerdere ATP-beleid voor veilige bijlagen in te stellen voor uw organisatie. Dit beleid wordt toegepast in de volgorde waarin ze worden weergegeven op de pagina **Veilige bijlagen atp.** Nadat een beleid is gedefinieerd of bewerkt, u ten minste 30 minuten toestaan dat de politie in alle Microsoft-datacenters van kracht wordt.
+U overwegen meerdere ATP-beleid voor veilige bijlagen in te stellen voor uw organisatie. Dit beleid wordt toegepast in de volgorde waarin ze worden weergegeven op de pagina **Veilige bijlagen atp.** Nadat een beleid is gedefinieerd of bewerkt, u ten minste 30 minuten toestaan dat het beleid in alle Microsoft-datacenters van kracht wordt.
 
 ## <a name="step-3-learn-about-atp-safe-attachments-policy-options"></a>Stap 3: Meer informatie over beleidsopties voor veilige bijlagen atp
 

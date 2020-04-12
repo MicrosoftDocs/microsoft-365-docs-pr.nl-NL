@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Stel beleid voor veilige koppelingen in om uw organisatie te beschermen tegen schadelijke koppelingen in Word-, Excel-, PowerPoint- en Visio-bestanden en in e-mailberichten.
-ms.openlocfilehash: 86aa69b813641654a0f4b5e2b4049358aeace4df
-ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
+ms.openlocfilehash: a1a78afe7480ed9f68f8cd893c00876872317785
+ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43193480"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43230978"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP-beleid voor veilige koppelingen instellen
 
@@ -116,7 +116,7 @@ Nadat u het standaard BELEID voor veilige koppelingen van ATP hebt beoordeeld (o
 6. Selecteer **Save**.
 
 > [!NOTE]
-> Het BELEID voor veilige links van ATP met een hogere prioriteit heeft voorrang. Als een gebruiker onderworpen is aan twee of meer politiekorpsen, wordt alleen het beleid met een hogere prioriteit van kracht.
+> Het BELEID voor veilige links van ATP met een hogere prioriteit heeft voorrang. Als een gebruiker onderworpen is aan twee of meer beleidsregels, wordt alleen het beleid met een hogere prioriteit van kracht.
     
 ## <a name="step-4-learn-about-atp-safe-links-policy-options"></a>Stap 4: Meer informatie over de beleidsopties voor veilige links van ATP
 
