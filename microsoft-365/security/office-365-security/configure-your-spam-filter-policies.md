@@ -15,13 +15,13 @@ search.appverid:
 ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
-description: Basisinstellingen van spamfilters bevatten de actie die moet worden uitgevoerd op berichten die als spam zijn geïdentificeerd.
-ms.openlocfilehash: 39532db121bb4a9ca5b73ef129b2b0e74e46c69a
-ms.sourcegitcommit: 1d5db6e8411b45d0dd1c517339074c2840e33a63
+description: Beheerders kunnen het antispambeleid in Exchange Online en zelfstandige Exchange Online Protection (EOP) maken, wijzigen en verwijderen.
+ms.openlocfilehash: 3f71a9c9a62e409d4a54c01523270fb10a723a96
+ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43216921"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43231014"
 ---
 # <a name="configure-anti-spam-policies-in-office-365"></a>Antispambeleid configureren in Office 365
 
@@ -495,7 +495,7 @@ Zie [Get-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/e
 
 ### <a name="use-powershell-to-modify-spam-filter-policies"></a>PowerShell gebruiken om spamfilterbeleid te wijzigen
 
-Naast de volgende items zijn dezelfde instellingen beschikbaar voor het wijzigen van malwarefilterbeleid in PowerShell als bij het maken van het beleid zoals eerder in dit artikel beschreven in de sectie [Stap 1: PowerShell gebruiken om spamfilterbeleid te maken](#step-1-use-powershell-to-create-a-spam-filter-policy).
+Voor het wijzigen van spamfilterbeleid in PowerShell kunt u, naast de volgende items, beschikken over dezelfde instellingen als bij het maken van het beleid zoals eerder in dit artikel beschreven in de sectie [Stap 1: PowerShell gebruiken om spamfilterbeleid te maken](#step-1-use-powershell-to-create-a-spam-filter-policy).
 
 - De schakeloptie _MakeDefault_ die het specifieke beleid wijzigt in het standaardbeleid (toegepast op iedereen, altijd **Laagste** prioriteit en kan niet worden verwijderd) is alleen beschikbaar wanneer u spamfilterbeleid wijzigt in PowerShell.
 
