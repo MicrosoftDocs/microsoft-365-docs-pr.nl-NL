@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Meer informatie over het instellen van bepaalde afzonderlijke gebruikerswachtwoorden die nooit verlopen met Windows PowerShell.
-ms.openlocfilehash: 275fedf7bf4e52320b769689516ad39a31c63ea1
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 04fb2b0c17f695c41df2f8b1277c7918054ae9fe
+ms.sourcegitcommit: 4ddbc1c3c29d79d3c4640b7b32f95576784efcca
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105733"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240233"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Het wachtwoord van een gebruiker zo instellen dat het nooit verloopt
 
@@ -38,14 +38,19 @@ ms.locfileid: "43105733"
 
 ## <a name="set-the-password-expiration-policy-for-individual-users"></a>Het wachtwoordverloopbeleid instellen voor individuele gebruikers
 
-Een globale beheerder voor een Microsoft-cloudservice kan de Microsoft Azure AD-module voor Windows PowerShell gebruiken om in te stellen dat wachtwoorden niet verlopen voor specifieke gebruikers. U ook Windows PowerShell-cmdlets gebruiken om de nooit verlopen configuratie te verwijderen of om te zien welke gebruikerswachtwoorden nooit verlopen.
+Een globale beheerder voor een Microsoft-cloudservice kan de Azure Active Directory PowerShell voor Grafiek gebruiken om in te stellen dat wachtwoorden niet verlopen voor specifieke gebruikers. U azuread-cmdlets ook gebruiken om de nooit verlopen configuratie te verwijderen of om te zien welke gebruikerswachtwoorden nooit verlopen.
 
 Deze handleiding is van toepassing op andere providers, zoals Intune en Office 365, die ook afhankelijk zijn van Azure AD voor identiteits- en directoryservices. Het verlopen van wachtwoorden is het enige onderdeel van het beleid dat kan worden gewijzigd.
+
+Zie [Azure Active Directory PowerShell voor Grafiek voor](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)meer informatie over Azure AD PowerShell voor Grafiek.
 
 > [!NOTE]
 > Alleen wachtwoorden voor gebruikersaccounts die niet zijn gesynchroniseerd via adreslijstsynchronisatie, kunnen worden geconfigureerd om niet te verlopen. Zie AD verbinden met Azure [AD](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)voor meer informatie over adreslijstsynchronisatie.
 
 ### <a name="how-to-check-the-expiration-policy-for-a-password"></a>Het verloopbeleid controleren op een wachtwoord
+
+Zie het referentieartikel [Get-AzureADUser](https://docs.microsoft.com/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0)voor meer informatie over de opdracht Get-AzureADUser in de AzureAD-module.
+
 Voer een van de volgende opdrachten uit:
 
 - Als u wilt zien of het wachtwoord van één gebruiker nooit verloopt, voert u de volgende cmdlet uit met behulp van de UPN (bijvoorbeeld *user@contoso.onmicrosoft.com)* of de gebruikers-id van de gebruiker die u wilt controleren:

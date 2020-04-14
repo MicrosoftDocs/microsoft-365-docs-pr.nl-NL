@@ -16,16 +16,16 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over Explorer- en realtime &amp; detecties in het Security Compliance Center.
-ms.openlocfilehash: e882f89a0020cacd30cb6d85917e78a965ad5cde
-ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
+ms.openlocfilehash: c854021eaf6c5d252f36961fde427c5532ba1ef6
+ms.sourcegitcommit: 4c6af6530b4997055b8e60bf532e75cbc72fb6c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43198381"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43284249"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Threat Explorer en real-time detecties
 
-Als uw organisatie [Office 365 Advanced Threat Protection](office-365-atp.md) (Office 365 ATP) heeft en u over de [benodigde machtigingen](#required-licenses-and-permissions)beschikt, hebt u **Explorer-** of **real-time detecties** (voorheen *realtime rapporten* - zie wat er nieuw [is](#new-features-in-threat-explorer-and-real-time-detections)!). Ga in het Security & Compliance Center naar **Bedreigingsbeheer**en kies **vervolgens Explorer** OF **realtime detecties.**
+Als uw organisatie [Office 365 Advanced Threat Protection](office-365-atp.md) (Office 365 ATP) heeft en u over de [benodigde machtigingen](#required-licenses-and-permissions)beschikt, hebt u **Explorer-** of **real-time detecties** (voorheen *realtime rapporten* - zie wat er nieuw [is](#new-features-in-threat-explorer-and-real-time-detections)!). Ga in het Beveiligingscentrum & naar **Bedreigingsbeheer**en kies **vervolgens Explorer-** _of_ **Realtimedetecties.**
 
 |||
 |---|---|
@@ -157,7 +157,7 @@ Als u phish-URL's wilt controleren in berichten en wilt klikken op URL's in phis
 
     Het rapport wordt vernieuwd om twee verschillende URL-tabellen weer te geven op het tabblad URL onder het rapport:
 
-   - **De belangrijkste URL's** zijn de URL's in de berichten waarnaar u hebt gefilterd en de actie voor e-mailbezorging telt voor elke URL. In de phish-e-mailweergave bevat deze lijst doorgaans legitieme URL's. Aanvallers bevatten een mix van goede en slechte URL's in hun berichten om te proberen om ze geleverd, maar ze zullen de kwaadaardige links interessanter voor de gebruiker om te klikken. De tabel met URL's wordt gesorteerd op het totale aantal e-mail (LET OP: deze kolom wordt niet weergegeven om de weergave te vereenvoudigen).
+   - **De belangrijkste URL's** zijn de URL's in de berichten waarnaar u hebt gefilterd en de actie voor e-mailbezorging telt voor elke URL. In de phish-e-mailweergave bevat deze lijst doorgaans legitieme URL's. Aanvallers bevatten een mix van goede en slechte URL's in hun berichten om te proberen om ze geleverd, maar ze zullen de kwaadaardige links interessanter voor de gebruiker om te klikken. De tabel met URL's wordt gesorteerd op het totale aantal e-mailen (maar houd er rekening mee dat deze kolom is verborgen om de weergave te vereenvoudigen).
 
    - **De hoogste klikken** zijn de in veilige koppelingen verpakte URL's waarop is geklikt, gesorteerd op totaal aantal klikken (deze kolom wordt ook niet weergegeven om de weergave te vereenvoudigen). Het totaal aantal tellingen per kolom geeft het aantal klikken op veilige koppelingen aan op het aantal klikken voor elke klik-URL. In de phish-e-mailweergave zijn dit vaker verdachte of schadelijke URL's, maar kunnen URL's bevatten die geen bedreigingen zijn, maar in phish-berichten staan. URL-klikken op onverpakte links worden hier niet weergegeven.
 
@@ -165,7 +165,10 @@ Als u phish-URL's wilt controleren in berichten en wilt klikken op URL's in phis
 
    ![Explorer-URL's die zijn geblokkeerd](../../media/ExplorerPhishClickVerdictURLs.png)
 
-   Selecteer een URL om meer gedetailleerde informatie weer te geven. **Opmerking:** In het dialoogvenster URL-flyout wordt het filteren op e-mailberichten verwijderd om u de volledige weergave van de blootstelling van de URL in uw omgeving te laten zien. Hiermee u e-mailberichten in Explorer filteren op berichten waar u zich zorgen over maakt, specifieke URL's vinden die potentiële bedreigingen zijn en vervolgens uw begrip van de URL-blootstelling in uw omgeving uitbreiden (via het dialoogvenster URL-details) zonder URL-filters toe te voegen aan de Explorer-weergave zelf.
+   Selecteer een URL om meer gedetailleerde informatie weer te geven.
+   
+   > [!NOTE]
+   > In het dialoogvenster URL-flyout wordt het filteren op e-mailberichten verwijderd om u de volledige weergave van de blootstelling van de URL in uw omgeving te laten zien. Hiermee u e-mailberichten in Explorer filteren op berichten waar u zich zorgen over maakt, specifieke URL's vinden die potentiële bedreigingen zijn en vervolgens uw begrip van de URL-blootstelling in uw omgeving uitbreiden (via het dialoogvenster URL-details) zonder URL-filters toe te voegen aan de Explorer-weergave zelf.
 
 ## <a name="review-email-messages-reported-by-users"></a>E-mailberichten controleren die door gebruikers worden gerapporteerd
 
@@ -175,7 +178,7 @@ Stel dat u e-mailberichten wilt zien die gebruikers in uw organisatie hebben ger
 
 2. Kies **E-mailinzendingen** > **Submissions**in het menu **Weergave** . (Dit heette voorheen **User-reported**.)
 
-   ![Menu Weergeven voor Explorer](../../media/ExplorerViewMenuEmailUserReported.png)
+   ![Menu Weergeven voor Explorer](../../media/explorer-view-menu-email-user-reported.png)
 
 3. Klik **op Afzender**en kies vervolgens Het type **Basisrapport** > **Report type**.
 
@@ -237,4 +240,4 @@ Zie de volgende bronnen voor meer informatie over rollen en machtigingen:
 - Een **weergave Alle e-mail** is beschikbaar in **Threat Explorer** (en staat niet in het realtime **detectierapport).**
 - Meer filtermogelijkheden en beschikbare acties zijn opgenomen in **Threat Explorer.**
 
-Zie Beschrijving [van de Office 365 ATP-service: beschikbaarheid van functies in ATP-abonnementen (Advanced Threat Protection) voor](https://docs.microsoft.com/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans) meer informatie.
+Zie [Beschrijving van de Office 365 ATP-service: beschikbaarheid van functies in ATP-abonnementen (Advanced Threat Protection).](https://docs.microsoft.com/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)
