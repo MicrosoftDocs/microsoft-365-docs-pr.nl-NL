@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Biedt een inleiding tot de onderdelen, plannen en implementatiepaden voor Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 043953ddfd38a9ef5119546ec5672dd46e8acb53
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 6b8d2aa7fd8455acde1d49a6ed7f7c93c5235652
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43175188"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43504089"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Overzicht van Microsoft 365 voor ondernemingen
 
@@ -84,15 +84,14 @@ U kunt ook [deze poster downloaden](https://github.com/MicrosoftDocs/microsoft-3
 
 ## <a name="avoid-end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Einde ondersteuning voor Windows 7- en Office 2010-clients en -servers voorkomen
 
-Op **14 januari 2020**zijn de volgende producten aan het einde van de steun gekomen:
-
-- [Windows 7](https://aka.ms/win7upgrade)
+[Windows 7](https://aka.ms/win7upgrade) heeft op **14 januari 2020**het einde van de ondersteuning bereikt.
 
 Op **13 oktober 2020**komen de volgende producten tot het einde van de steun:
 
 - [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
 - [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
-- [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010)
+
+[SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010) bereikt het einde van de ondersteuning op **13 april 2021**.
 
 Voor een visueel overzicht van de opties voor het upgraden, migreren en overstappen naar de cloud voor deze producten, raadpleegt u de [poster met de einddatums voor ondersteuning](../media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf).
 

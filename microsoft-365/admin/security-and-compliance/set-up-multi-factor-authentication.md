@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Leer hoe u met de standaardinstellingen voor beveiliging meervoudige verificatie kunt instellen voor Office 365-gebruikers.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 5f468f040ca88ab4ab2bc198d0d7550bf2e7f4af
-ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
+ms.openlocfilehash: 7e48f72f2fd8cfc5042bd15f994cc98bfa5fca8c
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43204020"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43503969"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Meervoudige verificatie instellen
   
@@ -37,6 +37,7 @@ ms.locfileid: "43204020"
 De standaardinstellingen voor beveiliging zijn automatisch ingeschakeld in elk nieuw abonnement op Office 365 voor bedrijven of Microsoft 365 Business. Dit betekent dat elke gebruiker MFA moet instellen en de Microsoft Authenticator-app op zijn mobiele apparaat moet installeren. Zie [Verificatie in twee stappen instellen voor Office 365](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14) voor meer informatie.  
 
 De volgende negen beheerdersrollen moeten aanvullende verificatie uitvoeren wanneer ze zich aanmelden:
+
 - Globale beheerder
 - SharePoint-beheerder
 - Exchange-beheerder
@@ -47,7 +48,7 @@ De volgende negen beheerdersrollen moeten aanvullende verificatie uitvoeren wann
 - Gebruikersbeheerder
 - Verificatiebeheerder
 
-Alle andere gebruikers wordt gevraagd om indien nodig extra verificatie uit te voeren. Zie [Wat zijn standaardinstellingen voor beveiliging?](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) voor meer informatie
+Alle andere gebruikers wordt gevraagd om indien nodig extra verificatie uit te voeren. Zie [Wat zijn beveiligingsstandaardinstellingen voor](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)meer informatie?
 
 > [!NOTE]
 > U moet een globale office 365-beheerder zijn om MFA in te stellen of te wijzigen. <br><br>
@@ -60,9 +61,8 @@ Als u al een MFA hebt ingesteld met basislijnbeleid, dan [moet u deze uitschakel
 
 ## <a name="manage-security-defaults"></a>Standaardinstellingen voor beveiliging beheren
 
-1. Meld u aan bij het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=834822) met uw referenties als globale beheerder.
+1. Meld u aan bij het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=834822) met uw globale-beheerdersreferenties.
 2. Ga naar [Azure Active Directory-eigenschappen](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
-
 3. Kies onderaan de pagina de optie **Standaardinstellingen voor beveiliging beheren**.
 4. Kies **Ja** om beveiligingsstandaards in te schakelen of **Nee** om beveiligingsstandaards uit te schakelen en kies **Opslaan**.
 
@@ -74,9 +74,9 @@ Als u al een MFA hebt ingesteld met basislijnbeleid, dan [moet u deze uitschakel
 
 3. Wat de **zekerheid heeft : Aan de slag** pagina, kies **Voorwaardelijke toegang**. 
 
-4. Ga naar de pagina **Beleid voor voorwaardelijke toegang voor Azure-portal** en selecteer elk basislijnbeleid dat is ingesteld op **Aan**. Stel deze vervolgens in op **Uit**.
+4. Kies op de pagina **Voorwaardelijke toegang tot beleid** elk basislijnbeleid dat is **ingeschakeld**en stel deze in op **Uit**.
 5. Ga naar de pagina [Azure Active Directory-eigenschappen](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
-6. Kies onderaan de pagina de optie **Standaardwaarden voor beveiliging beheren** en stel de wisselknop **Standaardwaarden voor beveiliging inschakelen** in het deelvenster **Standaardwaarden voor beveiliging inschakelen** in op **Ja**. 
+6. Kies onder aan de pagina **De standaardinstellingen voor Beveiliging beheren**en stel in het venster **Standaardinstellingen voor beveiliging inschakelen** **standaard** in om in te schakelen op **Ja**en kies **Vervolgens Opslaan**. 
 
 ## <a name="enable-modern-authentication-for-your-organization"></a>Moderne verificatie inschakelen voor uw organisatie
 
@@ -84,12 +84,13 @@ Alle Office 2016-clienttoepassingen bieden ondersteuning voor MFA door middel va
 
 1. Als u moderne verificatie wilt inschakelen, gaat u naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=834822) en selecteert u **Instellingen** \> **Instellingen**. Vervolgens kiest u op het tabblad **Services** de optie ** Moderne verificatie** in de lijst.
 
-2. Vink het selectievakje **Moderne verificatie inschakelen** in het deelvenster **Moderne verificatie** aan. 
+2. Schakel het selectievakje **Moderne verificatie inschakelen (aanbevolen)** in het deelvenster **Moderne verificatie** in en kies **Wijzigingen opslaan**. 
 
     ![Moderne verificatievenster met selectievakje inschakelen aangevinkt.](../../media/enablemodernauth.png)
     
 > [!IMPORTANT]
 > Moderne verificatie is vanaf augustus 2017 standaard ingeschakeld voor alle nieuwe Office 365-tenants met de webversie van Skype voor Bedrijven en Exchange Online. U kunt de status van moderne verificatie voor de webversie van Skype voor Bedrijven controleren via de webversie van Skype voor Bedrijven PowerShell met globale beheerdersreferenties. Voer Get-CsOAuthConfiguration uit om de uitvoer van ClientADALAuthOverride te controleren. Als -ClientADALAuthOverride is 'toegestaan', is moderne verificatie ingeschakeld.
+
 Als u uw MA-status wilt controleren voor Exchange Online, gaat u naar [Moderne verificatie inschakelen in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online).
 
 ## <a name="related-articles"></a>Verwante artikelen

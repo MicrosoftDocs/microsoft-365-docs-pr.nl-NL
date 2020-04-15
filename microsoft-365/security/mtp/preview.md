@@ -19,17 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f04d2e587a55a680a65425b34a88896466e09be3
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: c4facaac82ff8486c0c3a846e4f577c7888a3161
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113457"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43503981"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Preview-functies van Microsoft Threat Protection
 
 **Geldt voor:**
-- Microsoft-bedreigingsbeveiliging
+- Microsoft Threat Protection
 
 
 De Microsoft Threat Protection-service wordt voortdurend bijgewerkt met nieuwe functieverbeteringen en -mogelijkheden.
@@ -54,8 +54,9 @@ Schakel de instelling voor voorbeeldervaring in om als een van de eersten aankom
 
 U weet dat voorbeeldfuncties zijn ingeschakeld wanneer u ziet dat het selectievakje **Voorbeeldfuncties inschakelen** is ingeschakeld. 
 
-
-
 ## <a name="preview-features"></a>Voorbeeldfuncties
-Deze sectie wordt bijgewerkt met een lijst met functies die in preview zijn zodra ze beschikbaar zijn voor u om te proberen. 
+De volgende functies en verbeteringen zijn momenteel beschikbaar in preview:
 
+- **[Aangepaste detecties](custom-detections-overview.md)** - gebruik geavanceerde jachtquery's om regels te maken die automatisch zoeken naar inbreukactiviteiten en andere items die op regelmatige tijdstippen interessant zijn. Komt overeen met de triggerwaarschuwingen van query's en de opgegeven reactieacties.
+
+- **[Identiteits- en app-tabellen](advanced-hunting-schema-tables.md)** : krijg inzicht in verificatiegebeurtenissen, Active Directory-query's en app-gerelateerde activiteiten met de tabellen [IdentityLogonEvents,](advanced-hunting-identitylogonevents-table.md) [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)en [AppFileEvents](advanced-hunting-appfileevents-table.md) in het geavanceerde jachtschema.
