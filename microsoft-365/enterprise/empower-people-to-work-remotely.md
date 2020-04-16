@@ -16,12 +16,12 @@ ms.collection:
 - remotework
 ms.custom: ''
 description: Configureer de infrastructuur en beveiliging waardoor uw medewerkers altijd en overal op afstand kunnen werken.
-ms.openlocfilehash: 3932c293ca6be8ba4397b27591acfc3f7d024e1a
-ms.sourcegitcommit: 144c0f3c2c6112bffc5a9b04392a38123a979ebc
+ms.openlocfilehash: 8bbbe4853805c506ee511ecdef684f407166aca0
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053105"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43504121"
 ---
 # <a name="empower-remote-workers"></a>Externe werknemers mogelijkheden bieden
 
@@ -99,10 +99,10 @@ Hier ziet u de resulterende configuratie waarin de identiteitselementen zijn gem
 
 ![Identiteitselementen voor externe werknemers](../media/empower-people-to-work-remotely/remote-workers-id-phase.png)
  
-Voor [Fase 3: Windows 10 Enterprise](windows10-infrastructure.md) implementeert u:
+Voor [Fase 3 - Windows 10 Enterprise](windows10-infrastructure.md):
 
-- De infrastructuur voor het implementeren van nieuwe apparaten met Windows 10 Enterprise en het upgraden van uw Windows 7- of Windows 8.1-apparaten naar Windows 10 Enterprise
-- Uitgebreide beveiligingsfuncties inschakelen voor identiteits-, bedreigings-en gegevensbeveiliging
+- Implementeer de infrastructuur voor het implementeren van nieuwe apparaten met Windows 10 Enterprise en om uw Windows 7- of Windows 8.1-apparaten te upgraden naar Windows 10 Enterprise
+- Schakel uitgebreide beveiligingsfuncties in voor identiteits-, bedreigings-en gegevensbeveiliging
 
 Dit is de resulterende configuratie met Windows 10 Enterprise-apparaten.
 
@@ -206,6 +206,12 @@ School de gebruikers indien nodig bij.
 ### <a name="user-adoption-results"></a>Resultaten van gebruikersacceptatie
 
 Uw externe werknemers kunnen met hun Windows 10 Enterprise-apparaten of andere apparaten en Office 365 ProPlus in een beveiligde omgeving toegang krijgen tot en werken met gedeelde cloudservices en bronnen van Microsoft 365 Enterprise, waarbij ze in realtime vergaderen, creëren en samenwerken.
+
+## <a name="additional-microsoft-features-to-support-remote-workers"></a>Aanvullende Microsoft-functies om externe werknemers te ondersteunen
+
+U kunt [Punt-naar-site-VPN-verbindingen van Azure](https://docs.microsoft.com/azure/vpn-gateway/point-to-site-about) gebruiken om externe werknemers te verbinden met servers in een virtueel Azure-netwerk.
+
+U kunt [Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/overview) gebruiken voor desktop- en appvirtualisaties die worden gehost door Azure.
 
 ## <a name="see-also"></a>Zie ook
 
