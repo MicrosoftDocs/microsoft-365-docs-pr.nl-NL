@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 22c602bcc49ce2a81e511d79f4de23f7a60e657f
-ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
+ms.openlocfilehash: d25ecb72ebdd9415c6745910f9e3fb04d6f078dc
+ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43058903"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43516909"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Overzicht van het Microsoft 365-beveiligingscentrum
 
@@ -60,6 +60,7 @@ Bekijk deze onderwerpen over het monitoren, beoordelen en reageren op uw beveili
 - Verbind de puntjes op waarschuwingen via [incidenten](incident-queue.md)
 - Bedreigingen automatisch te verwerkmeten met [geautomatiseerd onderzoek en herstel](mtp-autoir.md)
 - Uw beveiligingshouding holistisch bekijken en verbeteren met [Microsoft Secure Score](microsoft-secure-score.md)
+- [Apparaten in](device-profile.md) uw netwerk weergeven
 - [De](monitoring-and-reporting.md) status van uw identiteit, gegevens, apparaten, apps en infrastructuur rapporteren
 - [Proactief op zoek naar bedreigingen voor](advanced-hunting-overview.md) inbraakpogingen en inbreukactiviteiten die van invloed zijn op uw e-mail, gegevens, apparaten en accounts
 - [Inzicht in de nieuwste aanvalscampagnes](latest-attack-campaigns.md) en -technieken met threat analytics

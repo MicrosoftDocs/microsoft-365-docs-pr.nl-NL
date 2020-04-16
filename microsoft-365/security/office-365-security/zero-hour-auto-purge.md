@@ -19,12 +19,12 @@ ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
 description: Zero-hour auto purge (ZAP) is een functie voor e-mailbeveiliging in Office 365 die spam-, malware- of phishingberichten detecteert die al bij Exchange Online zijn bezorgd. Hoe ZAP dit doet, hangt af van het type schadelijke inhoud dat wordt gedetecteerd.
-ms.openlocfilehash: 7cce0c15d861ee43d5704f3fc4da5a6dccb9d5d4
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 44bdab5d37863bc543d953a89ac3129b3530437d
+ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895009"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43516771"
 ---
 # <a name="zero-hour-auto-purge-zap---protection-against-spam-and-malware-in-office-365"></a>Zero-hour auto purge (ZAP) - bescherming tegen spam en malware in Office 365
 
@@ -54,7 +54,7 @@ Voor **gelezen of ongelezen berichten** die na levering als phish worden geïden
 
 - **X-Header**, **Prepend onderwerpregel toevoegen met tekst:** ZAP onderneemt geen actie op het bericht.
 
-- **Bericht verplaatsen naar ongewenste e-mail:** ZAP verplaatst het bericht naar de map Ongewenste e-mail, zolang de regel voor ongewenste e-mail is ingeschakeld in het postvak (het is standaard ingeschakeld). Zie [Instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md)voor meer informatie.
+- **Bericht verplaatsen naar ongewenste e-mail:** ZAP verplaatst het bericht naar de map Ongewenste e-mail, zolang de regel voor ongewenste e-mail is ingeschakeld in het postvak (het is standaard ingeschakeld). Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
 
 - **Bericht omleiden naar e-mailadres**, **Bericht verwijderen**, **Quarantainebericht:** ZAP zet het bericht in quarantaine. Alleen beheerders kunnen in quarantaine geplaatste berichten in quarantaine bekijken en beheren.
 
@@ -68,7 +68,7 @@ Voor **ongelezen berichten** die na levering als spam worden geïdentificeerd, i
 
 - **X-Header**, **Prepend onderwerpregel toevoegen met tekst:** ZAP onderneemt geen actie op het bericht.
 
-- **Bericht verplaatsen naar ongewenste e-mail:** ZAP verplaatst het bericht naar de map Ongewenste e-mail, zolang de regel voor ongewenste e-mail is ingeschakeld in het postvak (het is standaard ingeschakeld). Zie [Instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md)voor meer informatie.
+- **Bericht verplaatsen naar ongewenste e-mail:** ZAP verplaatst het bericht naar de map Ongewenste e-mail, zolang de regel voor ongewenste e-mail is ingeschakeld in het postvak (het is standaard ingeschakeld). Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
 
 - **Bericht omleiden naar e-mailadres**, **Bericht verwijderen**, **Quarantainebericht:** ZAP zet het bericht in quarantaine. Eindgebruikers kunnen hun eigen spamberichten in quarantaine bekijken en beheren.
 
@@ -100,7 +100,7 @@ A: Regels voor e-mailstroom of blokkeren en organisatorische instellingen toesta
 
 ### <a name="q-what-if-a-message-is-moved-to-another-folder-eg-inbox-rules"></a>V: Wat gebeurt er als een bericht naar een andere map wordt verplaatst (bijvoorbeeld regels in postvak IN)?
 
-A: ZAP werkt nog steeds zolang het bericht niet is verwijderd of naar de map Ongewenste e-mail is verplaatst.
+A: ZAP werkt nog steeds zolang het bericht niet is verwijderd, of zolang hetzelfde of sterker, actie nog niet is toegepast. Als het phish-beleid bijvoorbeeld is ingesteld op quarantaine en de gebruiker of beheerder de e-mail al heeft gejunked, wordt er in quarantaine actie ondernomen om het bestand in quarantaine te plaatsen.
 
 ### <a name="q-does-zap-change-the-message-header"></a>V: Wijzigt ZAP de berichtkop?
 

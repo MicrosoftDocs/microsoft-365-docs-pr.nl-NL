@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 0d144e05091eafa2a6314c65869642b4b7ecd233
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: e8729e8533fd2f01e893d805199027ae166586f1
+ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43142681"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43516807"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Wat is Microsoft Managed Desktop?
 
@@ -65,7 +65,7 @@ We controleren ook de status van het apparaat en bieden u inzicht in de prestati
 
 
 ## <a name="need-more-details"></a>Meer informatie nodig?
-Zie [Microsoft Managed Desktop](https://aka.ms/mmd)voor meer informatie over de waarde van Microsoft Managed desktop, inclusief klantverhalen. Geweldige plaatsen om aan de slag te gaan met meer zijn de [Roadmap](https://aka.ms/AA6jiam) en een downloadbare [samenvatting van één pagina.](https://aka.ms/AA6ob3h) U vindt het laatste nieuws op de Microsoft Managed Desktop [blog](https://aka.ms/AA6l2dd).
+Zie [Microsoft Managed Desktop](https://aka.ms/mmd)voor meer informatie over de waarde van Microsoft Managed desktop, inclusief klantverhalen. Geweldige plaatsen om aan de slag te gaan met meer zijn de [Roadmap](https://aka.ms/AA6jiam), een [Forrester Total Economic Impact case study](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/intro/downloads/forrester-tei-study.pdf), en een downloadbare samenvatting van één [pagina](https://aka.ms/AA6ob3h). U vindt het laatste nieuws op de Microsoft Managed Desktop [blog](https://aka.ms/AA6l2dd).
 
 Als Microsoft Managed Desktop geschikt lijkt voor uw organisatie, u zich verdiepen in aanvullende documentatie die meer informatie over de service uitlegt, hoe u uw organisatie voorbereidt op inschrijven, hoe u daarna aan de slag met de service en lopende bewerkingen, waaronder hoe u en uw eindgebruikers gemakkelijk hulp kunnen krijgen als dat nodig is. Als je al klaar bent om aan boord te komen, begin dan met contact op te nemen met je [lokale accountteam.](https://pages.email.office.com/contactmmd/)
 
