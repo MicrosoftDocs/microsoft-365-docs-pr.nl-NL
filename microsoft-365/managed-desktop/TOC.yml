@@ -1,0 +1,123 @@
+- name: Microsoft Managed Desktop
+  href: index.yml
+  items:
+    - name: Wat is Microsoft Managed Desktop?
+      href: intro/index.md
+      items:
+        - name: Rollen en verantwoordelijkheden
+          href: intro/roles-and-responsibilities.md
+        - name: Technologieën in Microsoft Managed Desktop
+          href: intro/technologies.md
+        - name: Microsoft Managed Desktop en ITIL
+          href: MMD-and-ITSM.md
+        - name: Compliance
+          href: intro/compliance.md
+    - name: Servicebeschrijving van Microsoft Managed Desktop
+      href: service-description/index.md
+      items:
+        - name: Ondersteunde regio's en talen
+          href: service-description/regions-languages.md
+        - name: Productlevenscyclus
+          href: service-description/device-lifecycle.md
+        - name: Programma-apparaten
+          href: service-description/device-list.md
+          items:
+            - name: Gearchiveerde programma-apparaten
+              href: service-description/archived-device-list.md
+        - name: Apparaatservices
+          href: service-description/device-services.md
+        - name: Apparaatconfiguratie
+          href: service-description/device-policies.md
+        - name: Beveiliging
+          href: service-description/security.md
+        - name: Updates
+          href: service-description/updates.md
+        - name: Ondersteuning
+          href: service-description/support.md
+        - name: Activiteiten en controle
+          href: service-description/operations-and-monitoring.md
+        - name: Toepassingsvereisten
+          href: service-description/mmd-app-requirements.md
+        - name: Servicewijzigingen en communicatie
+          href: service-description/servicechanges.md
+        - name: Uitzonderingen op het serviceplan
+          href: service-description/customizing.md
+    - name: Voorbereiden op inschrijving in Microsoft Managed Desktop
+      href: get-ready/index.md
+      items:
+        - name: Vereisten voor Microsoft Managed Desktop
+          href: get-ready/prerequisites.md
+        - name: Netwerk voorbereiden
+          href: get-ready/network.md
+        - name: Toegang tot on-premises bronnen voorbereiden
+          href: get-ready/authentication.md
+        - name: Toegewezen stations voorbereiden
+          href: get-ready/mapped-drives.md
+        - name: Certificaten en netwerkprofielen voorbereiden
+          href: get-ready/certs-wifi-lan.md
+        - name: Printbronnen voorbereiden
+          href: get-ready/printing.md
+        - name: Apps voorbereiden
+          href: get-ready/apps.md
+          items:
+            - name: Werken met Microsoft Consulting Services
+              href: get-ready/apps-MCS.md
+    - name: Aan de slag met Microsoft Managed Desktop
+      href: get-started/index.md
+      items:
+        - name: Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal
+          href: get-started/add-admin-contacts.md
+        - name: Voorwaardelijke toegang aanpassen
+          href: get-started/conditional-access.md
+        - name: Licenties toewijzen
+          href: get-started/assign-licenses.md
+        - name: Intune Company Portal implementeren
+          href: get-started/company-portal.md
+        - name: Enterprise State Roaming inschakelen
+          href: get-started/enterprise-state-roaming.md
+        - name: Apparaten instellen
+          href: get-started/set-up-devices.md
+          items:
+            - name: Nieuwe apparaten zelf registreren
+              href: get-started/register-devices-self.md
+              items:
+                - name: Stappen voor partners om apparaten te registreren
+                  href: get-started/register-devices-partner.md
+            - name: Bestaande apparaten zelf registreren
+              href: get-started/register-reused-devices-self.md
+        - name: Uw gebruikers voorbereiden om apparaten te gebruiken
+          href: get-started/get-started-devices.md
+        - name: Apps implementeren
+          href: get-started/deploy-apps.md
+          items:
+            - name: Microsoft Project en Microsoft Visio
+              href: get-started/project-visio.md
+    - name: Werken met Microsoft Managed Desktop
+      href: working-with-managed-desktop/index.md
+      items:
+        - name: Werken met inzichten
+          href: working-with-managed-desktop/insights.md
+          items:
+            - name: Inzichten in gebruik
+              href: working-with-managed-desktop/usage-insights.md
+            - name: Inzichten in betrouwbaarheid
+              href: working-with-managed-desktop/reliability-insights.md
+            - name: Inzichten in batterijen
+              href: working-with-managed-desktop/battery-insights.md
+            - name: Inzichten in Windows-beveiligingsupdates
+              href: working-with-managed-desktop/security-update-insights.md
+        - name: Ondersteuning voor beheerders
+          href: working-with-managed-desktop/admin-support.md
+        - name: Ondersteuning voor eindgebruikers
+          href: working-with-managed-desktop/end-user-support.md
+        - name: Apps beheren
+          href: working-with-managed-desktop/manage-apps.md
+        - name: Configureerbare instellingen
+          href: working-with-managed-desktop/config-setting-overview.md
+          items:
+            - name: Verwijzing naar configureerbare instellingen
+              href: working-with-managed-desktop/config-setting-ref.md
+            - name: Configureerbare instellingen implementeren
+              href: working-with-managed-desktop/config-setting-deploy.md
+    - name: Geschiedenis voor Microsoft Managed Desktop-documentatie wijzigen
+      href: change-history-managed-desktop.md

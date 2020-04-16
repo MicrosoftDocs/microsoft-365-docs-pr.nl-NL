@@ -1,0 +1,234 @@
+- name: Documentatie en informatiebronnen voor Microsoft 365 voor ondernemingen
+  href: index.yml
+- name: Overzicht van Microsoft 365 voor ondernemingen
+  href: microsoft-365-overview.md
+- name: Microsoft 365 voor ondernemingen implementeren
+  href: deploy-microsoft-365-enterprise.md
+  items:
+    - name: Basisinfrastructuur implementeren
+      href: deploy-foundation-infrastructure.md
+      items:
+        - name: Fase 1 - Netwerken
+          href: networking-infrastructure.md
+          items:
+            - name: Stap 1 - Uw netwerk voorbereiden voor Microsoft 365
+              href: networking-provide-bandwidth-cloud-services.md
+            - name: Stap 2 - Lokale internetverbindingen configureren voor elk kantoor
+              href: networking-dns-resolution-same-location.md
+            - name: Stap 3 - Netwerk-hairpins vermijden
+              href: networking-avoid-network-hairpins.md
+            - name: Stap 4 - Omleiden van verkeer configureren
+              href: networking-configure-proxies-firewalls.md
+            - name: Stap 5 - Prestaties van client en Office 365-service optimaliseren
+              href: networking-optimize-tcp-performance.md
+            - name: Afsluitcriteria voor netwerken
+              href: networking-exit-criteria.md
+        - name: Fase 2 - Identiteit
+          href: identity-infrastructure.md
+          items:
+            - name: Stap 1 - Uw globale-beheerdersaccounts maken en beveiligen
+              href: identity-create-protect-global-admins.md
+            - name: Stap 2 - Wachtwoorden beveiligen
+              href: identity-secure-your-passwords.md
+            - name: Stap 3 - Gebruikersaanmeldingen beveiligen en beheren
+              href: identity-secure-user-sign-ins.md
+            - name: Stap 4 - Uw gebruikersaccounts toevoegen
+              href: identity-add-user-accounts.md
+            - name: Stap 5 - Groepen gebruiken voor beheer
+              href: identity-use-group-management.md
+            - name: Stap 6 - Identiteitsbeheer configureren
+              href: identity-configure-identity-governance.md
+            - name: Afsluitcriteria voor identiteit
+              href: identity-exit-criteria.md
+        - name: Fase 3 - Windows 10 Enterprise
+          href: windows10-infrastructure.md
+          items:
+            - name: Stap 1 - Uw organisatie voorbereiden
+              href: windows10-prepare-your-org.md
+            - name: Stap 2 - Implementeren als een in-place upgrade
+              href: windows10-deploy-inplaceupgrade.md
+            - name: Stap 3 - Implementeren voor nieuwe apparaten
+              href: windows10-deploy-autopilot.md
+            - name: Stap 4 - Apparaatstatus en compliance controleren
+              href: windows10-enable-windows-analytics.md
+            - name: Stap 5 - Beveiligingsfuncties implementeren
+              href: windows10-enable-security-features.md
+            - name: Afsluitcriteria voor Windows 10 Enterprise
+              href: windows10-exit-criteria.md
+        - name: Fase 4 - Office 365 ProPlus
+          href: office365proplus-infrastructure.md
+          items:
+            - name: Afsluitcriteria voor Office 365 ProPlus
+              href: office365proplus-exit-criteria.md
+        - name: Fase 5 - Mobile Device Management
+          href: mobility-infrastructure.md
+          items:
+            - name: Afsluitcriteria voor Mobile Device Management
+              href: mobility-infrastructure-exit-criteria.md
+        - name: Fase 6 - Gegevensbescherming
+          href: infoprotect-infrastructure.md
+          items:
+            - name: Stap 1 - Beveiligings- en gegevensbeschermingsniveaus definiëren
+              href: infoprotect-define-sec-infoprotect-levels.md
+            - name: Stap 2 - Classificatie voor uw omgeving configureren
+              href: infoprotect-configure-classification.md
+            - name: Stap 3 - Verbeterde beveiliging voor Microsoft 365 configureren
+              href: infoprotect-configure-increased-security-office-365.md
+            - name: Stap 4 - Windows-gegevensbescherming configureren
+              href: infoprotect-deploy-windows-information-protection.md
+            - name: Stap 5 - Preventie van gegevensverlies voor Office 365 configureren
+              href: infoprotect-data-loss-prevention.md
+            - name: Stap 6 - E-mailversleuteling configureren
+              href: infoprotect-email-encryption.md
+            - name: Stap 7 - Privileged Access Management voor Office 365 configureren
+              href: infoprotect-configure-privileged-access-management.md
+            - name: Afsluitcriteria voor gegevensbescherming
+              href: infoprotect-exit-criteria.md
+        - name: Implementatiestrategieën
+          href: deployment-strategies-microsoft-365-enterprise.md
+        - name: Implementeren met bestaande infrastructuur
+          href: deploy-with-existing-infrastructure.md
+        - name: Implementeren voor middelgrote bedrijven
+          href: deploy-foundation-infrastructure-non-enterprises.md
+    - name: Werkbelastingen en scenario's implementeren
+      href: deploy-workloads.md
+      items:
+        - name: Microsoft Teams
+          href: teams-workload.md
+        - name: Exchange Online
+          href: exchangeonline-workload.md
+        - name: SharePoint en OneDrive voor Bedrijven
+          href: sharepoint-online-onedrive-workload.md
+        - name: Migratie
+          href: migration-microsoft-365-enterprise-workload.md
+        - name: Externe werknemers empoweren
+          href: empower-people-to-work-remotely.md
+        - name: Teams voor sterk gereglementeerde gegevens
+          href: secure-teams-highly-regulated-data-scenario.md
+        - name: SharePoint-sites voor sterk gereglementeerde gegevens
+          href: teams-sharepoint-online-sites-highly-regulated-data.md
+    - name: Testlabrichtlijnen
+      href: m365-enterprise-test-lab-guides.md
+      items:
+        - name: Basisconfiguratie
+          items:
+            - name: Lichtgewicht
+              href: lightweight-base-configuration-microsoft-365-enterprise.md
+            - name: Gesimuleerde onderneming
+              href: simulated-ent-base-configuration-microsoft-365-enterprise.md
+        - name: Identiteit
+          items:
+            - name: Wachtwoord-hash-synchronisatie
+              href: password-hash-sync-m365-ent-test-environment.md
+            - name: Pass-through-verificatie
+              href: pass-through-auth-m365-ent-test-environment.md
+            - name: Federatieve verificatie
+              href: federated-identity-for-your-office-365-dev-test-environment.md
+            - name: Naadloze eenmalige aanmelding via Azure AD
+              href: single-sign-on-m365-ent-test-environment.md
+            - name: Meervoudige verificatie
+              href: multi-factor-authentication-microsoft-365-test-environment.md
+            - name: Globale-beheerdersaccounts beveiligen
+              href: protect-global-administrator-accounts-microsoft-365-test-environment.md
+            - name: Wachtwoord terugschrijven
+              href: password-writeback-m365-ent-test-environment.md
+            - name: Wachtwoord opnieuw instellen
+              href: password-reset-m365-ent-test-environment.md
+            - name: Automatische licentie en groepslidmaatschap
+              href: automate-licenses-group-membership-microsoft-365-test-environment.md
+            - name: Azure AD Identity Protection
+              href: azure-ad-identity-protection-microsoft-365-test-environment.md
+            - name: Identiteit en apparaattoegang
+              href: identity-device-access-m365-test-environment.md
+              items:
+                - name: Alleen in de cloud
+                  href: cloud-only-prereqs-m365-test-environment.md
+                - name: Wachtwoord-hash-synchronisatie
+                  href: phs-prereqs-m365-test-environment.md
+                - name: Pass-through-verificatie
+                  href: pta-prereqs-m365-test-environment.md
+        - name: Mobile Device Management
+          items:
+            - name: iOS- en Android-apparaten inschrijven
+              href: enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md
+            - name: Compliancebeleid voor apparaten
+              href: mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md
+        - name: Gegevensbescherming
+          items:
+            - name: Verbeterde Microsoft 365-beveiliging
+              href: increased-o365-security-microsoft-365-enterprise-dev-test-environment.md
+            - name: Gegevensclassificatie
+              href: data-classification-microsoft-365-enterprise-dev-test-environment.md
+            - name: Privileged Access Management
+              href: privileged-access-microsoft-365-enterprise-dev-test-environment.md
+    - name: Contoso-casestudy
+      href: contoso-case-study.md
+      items:
+        - name: Overzicht
+          href: contoso-overview.md
+        - name: De IT-infrastructuur en behoeften van Contoso
+          href: contoso-infra-needs.md
+        - name: Netwerken
+          href: contoso-networking.md
+        - name: Identiteit
+          href: contoso-identity.md
+        - name: Windows 10 Enterprise
+          href: contoso-win10.md
+        - name: Office 365 ProPlus
+          href: contoso-o365pp.md
+        - name: Mobile Device Management
+          href: contoso-mdm.md
+        - name: Gegevensbescherming
+          href: contoso-info-protect.md
+        - name: Beveiligingsoverzicht
+          href: contoso-security-summary.md
+        - name: Team voor een zeer geheim project
+          href: contoso-team-for-top-secret-project.md
+        - name: SharePoint-site voor sterk gereglementeerde gegevens
+          href: contoso-sharepoint-online-site-for-highly-confidential-assets.md
+    - name: Wijzigingen aan implementatie-inhoud voor Microsoft 365 voor ondernemingen
+      href: microsoft-365-deploment-guide-changes.md
+- name: Implementatiecentrum voor desktops
+  href: desktop-deployment-center-home.md
+  items:
+    - name: 'Aan de slag - Richtlijnen voor personen, processen en technologie'
+      href: getting-started.md
+    - name: Stap 1 - Gereedheid van apparaten en apps
+      href: step-1-device-and-app-readiness.md
+    - name: Stap 2 - Gereedheid van directory en netwerk
+      href: step-2-directory-and-network-readiness.md
+    - name: Stap 3 - Levering van Office- en LOB-apps
+      href: step-3-office-and-lob-app-delivery.md
+    - name: Stap 4 - Migratie van gebruikersbestanden en instellingen
+      href: step-4-user-files-and-settings-migration.md
+    - name: Stap 5 - Overwegingen met betrekking tot beveiliging en compliance
+      href: step-5-security-and-compliance.md
+    - name: Stap 6 - Implementatie van besturingssysteem en functie-updates
+      href: step-6-os-deployment-and-feature-updates.md
+    - name: Stap 7 - Service van Windows en Office
+      href: step-7-windows-and-office-as-a-service.md
+    - name: Stap 8 - Communicatie en training voor gebruikers
+      href: step-8-user-communications-and-training.md
+    - name: Handmatige upgrade van Windows 7 naar Windows 10
+      href: windows-7-to-windows-10-upgrade-manual.md
+    - name: Geautomatiseerde upgrades van Windows 7 naar Windows 10
+      href: windows-7-to-windows-10-upgrade-automated.md
+    - name: Windows- en Office-implementatie en labkit
+      href: modern-desktop-deployment-and-management-lab.md
+    - name: Hulp zoeken voor uw implementatie
+      href: find-help-for-modern-desktop-deployment.md
+- name: Microsoft 365-compliance
+  href: ../compliance/index.yml
+- name: Microsoft 365-beveiliging
+  href: ../security/index.yml
+- name: Enterprise Business Continuity Management (EBCM) met cloudservices
+  href: ebcm-understanding-ebcm-with-cloud-services.md
+  items:
+    - name: EBCM-verantwoordelijkheden van de klant en cloudpartner
+      href: ebcm-customer-and-cloud-partner-ebcm-responsibilities.md
+    - name: Tolerantie voor Microsoft 365-cloudservices
+      href: ebcm-m365-service-resiliency.md
+    - name: Uw continuïteitsplan ontwikkelen
+      href: ebcm-developing-your-ebcm-plan.md
+    - name: Scenario's voor het beperken van service-incidenten
+      href: ebcm-microsoft-365-mitigations.md

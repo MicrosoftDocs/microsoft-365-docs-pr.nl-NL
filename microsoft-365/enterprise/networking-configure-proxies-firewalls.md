@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/23/2019
+ms.date: 04/13/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Informatie over het gebruik en configureren van webbrowsers en edge-apparaten voor het omleiden van verkeer naar vertrouwde Office 365-locaties.
-ms.openlocfilehash: 71f62c5e245962f3514c49477e3cdeda17cb6397
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b04e16b249dccf8f2461189b8b47abdd252a75d8
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42806616"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43504077"
 ---
 # <a name="step-4-configure-traffic-bypass"></a>Stap 4: Omleiden van verkeer configureren
 
@@ -54,8 +54,15 @@ Edge-apparaten bevatten firewalls, SSL Break and Inspect, apparaten voor pakketi
 
 U hoeft alleen de normale proxy- en netwerkbeveilingsverwerking voor verkeer naar Microsoft 365 optimaliseren en toestaan van eindpunt-categorieën. Al het andere algemene internetverkeer wordt via een proxy verzonden en zijn onderhevig aan de bestaande netwerkbeveiligingsverwerking.
 
+## <a name="optimizing-traffic-for-remote-workers-that-use-vpn-connections"></a>Verkeer optimaliseren voor externe werknemers die gebruikmaken van een VPN-verbinding
 
-Als tussentijds controlepunt kunt u het [afsluitcriteria](networking-exit-criteria.md#crit-networking-step4) voor deze stap bekijken.
+VPN-verbindingen (virtual private network) worden meestal door externe werknemers gebruikt om toegang te krijgen tot informatiebronnen op het intranet van een organisatie. Een conventionele VPN-verbinding stuurt ALLE verkeer, inclusief internetverkeer, naar het intranet van de organisatie. Het internetverkeer wordt doorgestuurd naar het randnetwerk en de apparaten voor pakketverwerking van de organisatie. Dit verkeer is onderhevig aan reis- en verwerkingsvertragingen waardoor de prestaties van uw externe werknemers aanzienlijk kunnen worden gehinderd. 
+
+Split tunneling is de mogelijkheid die een VPN-verbinding heeft om specifiek verkeer via het internet te sturen in plaats van via de VPN-verbinding naar uw intranet. Configureer uw VPN-verbindingen die aan split tunneling doen om verkeer naar Office 365-eindpunten in de categorie Optimaliseren rechtstreeks over het internet te sturen. Zo krijgen externe medewerkers de beste prestaties voor essentiële services van Microsoft 365 zoals Teams, SharePoint Online en Exchange Online. 
+
+Bekijk [Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel) voor meer informatie.
+
+Als tussentijds controlepunt kunt u de [afsluitcriteria](networking-exit-criteria.md#crit-networking-step4) voor deze stap bekijken.
 
 ## <a name="next-step"></a>Volgende stap
 
