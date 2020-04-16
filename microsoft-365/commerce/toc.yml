@@ -1,0 +1,80 @@
+- name: Zakelijke abonnementen beheren
+  href: index.yml
+- name: Helpcentrum voor beheerders van Microsoft 365
+  href: ../admin/admin-home.md
+- name: Uitproberen of kopen
+  items:
+    - name: Registreren voor proefversie van Office 365
+      href: sign-up-for-office-365-trial.md
+    - name: Microsoft 365 uitproberen of kopen
+      href: try-or-buy-microsoft-365.md
+    - name: Uw proefabonnement verlengen
+      href: extend-your-trial.md
+    - name: Nog een abonnement nemen
+      href: buy-another-subscription.md
+    - name: Een invoegtoepassing kopen of bewerken
+      href: buy-or-edit-an-add-on.md
+    - name: Opslagruimte toevoegen
+      href: add-storage-space.md
+- name: Abonnementen beheren
+  items:
+    - name: Abonnementen upgraden
+      href: subscriptions/upgrade-to-different-plan.md
+    - name: Uw abonnement verlengen
+      href: subscriptions/renew-your-subscription.md
+    - name: Uw abonnement opnieuw activeren
+      href: subscriptions/reactivate-your-subscription.md
+    - name: Uw abonnement opzeggen
+      href: subscriptions/cancel-your-subscription.md
+    - name: Wat gebeurt er als mijn abonnement verloopt?
+      href: subscriptions/what-if-my-subscription-expires.md
+    - name: Apps van derden beheren
+      href: manage-saas-apps.md
+    - name: Selfservice-aankopen beheren (Gebruikers)
+      href: subscriptions/manage-self-service-purchases-users.md
+    - name: Selfservice-aankopen beheren (Beheerders)
+      href: subscriptions/manage-self-service-purchases-admins.md
+- name: Licenties beheren
+  items:
+    - name: Abonnementslicenties beheren
+      href: licenses/buy-licenses.md
+    - name: Licenties aan gebruikers toewijzen
+      href: ../admin/manage/assign-licenses-to-users.md
+    - name: Licenties van gebruikers verwijderen
+      href: ../admin/manage/remove-licenses-from-users.md
+    - name: Inzicht in abonnementen en licenties
+      href: licenses/subscriptions-and-licenses.md
+- name: Facturen en betalingen
+  items:
+    - name: Uw factuur bekijken
+      href: billing-and-payments/view-your-bill-or-invoice.md
+    - name: Inzicht in uw factuur
+      href: billing-and-payments/understand-your-invoice.md
+    - name: Betaalmethoden beheren
+      href: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
+    - name: Betalen voor uw abonnement
+      href: billing-and-payments/pay-for-your-subscription.md
+    - name: Betaalmethode wijzigen
+      href: billing-and-payments/change-payment-method.md
+    - name: Frequentie van betalingen wijzigen
+      href: billing-and-payments/change-payment-frequency.md
+    - name: Factureringsprofielen beheren
+      href: billing-and-payments/manage-billing-profiles.md
+    - name: Uw factuuradressen wijzigen
+      href: billing-and-payments/change-your-billing-addresses.md
+    - name: Payment Services Directive 2 en Strong Customer Authentication
+      href: billing-and-payments/psd2.md
+    - name: Belastinginformatie
+      href: billing-and-payments/tax-information.md
+- name: Factureringsaccounts
+  items:
+    - name: Factureringsaccounts beheren
+      href: manage-billing-accounts.md
+    - name: Een tenant koppelen aan mijn factureringsaccount
+      href: 'https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business'
+- name: Relaties met mijn partners beheren
+  href: manage-partners.md
+- name: Uw account sluiten
+  href: close-your-account.md
+- name: Contact opnemen met de ondersteuning
+  href: ../admin/contact-support-for-business-products.md
