@@ -1,5 +1,5 @@
 ---
-title: Microsoft-bedreigingsbeveiliging
+title: Microsoft Threat Protection
 description: Microsoft Threat Protection is een gecoördineerde oplossing voor bedreigingsbescherming die is ontworpen om apparaten, identiteit, gegevens en toepassingen te beschermen
 keywords: introductie tot Microsoft Threat Protection, cyber security, geavanceerde permanente bedreiging, enterprise security, apparaten, apparaat, identiteit, gebruikers, gegevens, applicaties, incidenten, geautomatiseerd onderzoek en herstel, geavanceerde jacht
 search.product: eADQiWindows 10XVcnh
@@ -17,21 +17,21 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 62901a08b8e040266a94967170674336eb1035c8
-ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
+ms.openlocfilehash: 0e51e52db4e569716954aada1c5cea35ddc6dd0a
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42806856"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528367"
 ---
-# <a name="microsoft-threat-protection"></a>Microsoft-bedreigingsbeveiliging
+# <a name="microsoft-threat-protection"></a>Microsoft Threat Protection
 
-**Van toepassing op:**
-- Microsoft-bedreigingsbeveiliging
+**Geldt voor:**
+- Microsoft Threat Protection
 
 
 
-Microsoft Threat Protection is een uniforme enterprise defense suite voor en na inbreuk die native integreert tussen eindpunt, identiteit, e-mail en toepassingen om geavanceerde aanvallen te detecteren, te voorkomen, te onderzoeken en automatisch te reageren.  
+Microsoft Threat Protection is een uniforme verdedigingssuite voor en na de inbreuk op ondernemingen die detectie, preventie, onderzoek en respons op endpoints, identiteiten, e-mail en toepassingen native coördineert om geïntegreerde bescherming te bieden tegen geavanceerde aanvallen.
 
 Met de geïntegreerde Microsoft Threat Protection-oplossing kunnen beveiligingsprofessionals de bedreigingssignalen die elk van deze producten ontvangen samenvoegen en de volledige omvang en impact van de bedreiging bepalen; hoe het in de omgeving is gekomen, wat het wordt beïnvloed en hoe het momenteel van invloed is op de organisatie. Microsoft Threat Protection onderneemt automatische actie om de aanval te voorkomen of te stoppen en aangetaste postvakken, eindpunten en gebruikersidentiteiten zelf te genezen.  
 
@@ -80,4 +80,4 @@ Functies voor cross-product van Microsoft Threat Protection omvatten:
 ## <a name="get-started"></a>Aan de slag
 Aan de licentievereisten voor Microsoft Threat Protection moet worden voldaan voordat u de service inschakelen in het Microsoft 365-beveiligingscentrum op [security.microsoft.com.](https://security.microsoft.com) Voor meer informatie, lees:
 - [Licentievereisten](prerequisites.md#licensing-requirements)
-- [Microsoft-bedreigingsbeveiliging inschakelen](mtp-enable.md)
+- [Microsoft Threat Protection inschakelen](mtp-enable.md)

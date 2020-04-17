@@ -9,7 +9,7 @@ audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.date: 05/09/2019
+ms.date: ''
 search.appverid:
 - MOE150
 - MET150
@@ -17,12 +17,12 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: Gebruik dit artikel als een handleiding om uw functies voor bedreigingsbescherming nu te configureren.
-ms.openlocfilehash: da920083b521e905633473efbabc5930ad7a6770
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 34a89f9db0ca7424d90909f09f7a2bfb4fcf3b6a
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895309"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528555"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Beschermen tegen bedreigingen in Office 365
 
@@ -35,27 +35,31 @@ Office 365 bevat verschillende functies voor bedreigingsbescherming. Hier is een
 
 ### <a name="subscriptions"></a>Abonnementen
 
-Functies voor bedreigingsbescherming zijn opgenomen in alle Office 365-abonnementen; Sommige abonnementen bevatten echter meer geavanceerde functies. In de volgende tabel worden de beveiligingsfuncties in dit artikel weergegeven, samen met de minimale abonnementsvereisten.<br/>
+Functies voor bedreigingsbescherming zijn opgenomen in alle Office 365-abonnementen; Sommige abonnementen bevatten echter meer geavanceerde functies. In de volgende tabel worden de beveiligingsfuncties in dit artikel weergegeven, samen met de minimale abonnementsvereisten.
 
-|Beschermingstype|Abonnementsvereiste|
-|---------|---------|
-|Bescherming tegen malware|[Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description) (EOP)|
+|||
+|---|---|
+|**Beschermingstype**|**Abonnementsvereiste**|
+|Beveiliging tegen malware|[Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description) (EOP)|
 |Bescherming tegen schadelijke URL's en bestanden in e-mail- en Office-documenten|[Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) (ATP)|
 |Bescherming tegen phishing|[Eop](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)|
 |Geavanceerde bescherming tegen phishing|[Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
-|Bescherming tegen spam|[Eop](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)|
+|Beveiliging tegen ongewenste e-mail|[Eop](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)|
 |Automatische zuivering van nul uur (voor e-mail)|[Eop](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)|
 |Controlelogboekregistratie (dit wordt gebruikt voor rapportagedoeleinden)|[Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description)|
+|
 
 ### <a name="roles-and-permissions"></a>Rollen en machtigingen
 
 U moet een geschikte rol toegewezen krijgen om beleid te configureren in het [Security & Compliance Center.](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) De volgende tabel bevat enkele voorbeelden:
 
-|Rol- of rolgroep|Waar u meer leren|
-|---------|---------|
+|||
+|---|---|
+|**Rol of rollengroep**|**Waar u meer leren**|
 |Globale beheerder van Office 365|[Informatie over beheerdersrollen in Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
 |Beveiligingsbeheerder|[Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Exchange Online Organisatiebeheer|[Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>En<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
+|
 
 Zie [Machtigingen in het Office 365 &amp; Security Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie.
 
@@ -137,11 +141,15 @@ Als u [ATP Safe Links wilt](atp-safe-links.md)instellen, controleert en bewerkt 
 
 6. Klik op **Opslaan**.
 
-Zie Beleid [voor veilige koppelingen van Office 365 ATP instellen](set-up-atp-safe-links-policies.md)voor meer informatie .
+Zie [Beleid voor veilige koppelingen in ATP instellen in Office 365](set-up-atp-safe-links-policies.md) voor meer informatie.
 
 ## <a name="part-3---anti-phishing-protection"></a>Deel 3 - Bescherming tegen phishing
 
-[Bescherming tegen phishing](anti-phishing-protection.md) is beschikbaar in abonnementen die [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)bevatten. Geavanceerde bescherming tegen phishing is beschikbaar in [ATP.](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) In de volgende procedure wordt beschreven hoe u een ATP-antiphishingbeleid configureert. De stappen zijn vergelijkbaar voor het configureren van een anti-phishing beleid (zonder ATP).
+[Anti-phishing]
+
+[Bescherming tegen phishing](anti-phishing-protection.md) is beschikbaar in abonnementen die [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)bevatten. Geavanceerde bescherming tegen phishing is beschikbaar in [ATP.](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+
+In de volgende procedure wordt beschreven hoe u een ATP-antiphishingbeleid configureert. De stappen zijn vergelijkbaar voor het configureren van een anti-phishing beleid (zonder ATP).
 
 1. Kies [in](https://protection.office.com)het Security & Compliance Center de optie Threat **management** > **Policy** > **ATP anti-phishing**.
 
@@ -171,7 +179,7 @@ Zie Beleid [voor veilige koppelingen van Office 365 ATP instellen](set-up-atp-sa
 
 5. Sluit de pagina standaardbeleidsinstellingen.
 
-Zie [Antiphishingbeleid instellen](set-up-anti-phishing-policies.md)voor meer informatie over uw antiphishingbeleid.
+Zie [ATP-beleid voor phishing configureren in Office 365](configure-atp-anti-phishing-policies.md)voor meer informatie over de anti-phishingbeleidsopties.
 
 ## <a name="part-4---anti-spam-protection"></a>Deel 4 - Bescherming tegen spam
 
@@ -213,8 +221,10 @@ Controlelogboekregistratie is beschikbaar in abonnementen die [Exchange Online](
 
 Nadat u uw functies voor bedreigingsbeveiliging hebt geconfigureerd, moet u controleren hoe deze functies werken, uw beleid bekijken en zo nodig herzien en op nieuwe functies en service-updates letten.
 
-|Wat te doen|Bronnen voor meer informatie|
-|---------|---------|
-|Bekijk hoe functies voor bedreigingsbescherming voor uw organisatie werken door rapporten te bekijken|[Beveiligingsdashboard](security-dashboard.md)<br/>[Beveiligingsrapporten per e-mail](view-email-security-reports.md)<br/>[Rapporten voor Office 365 ATP](view-reports-for-atp.md)<br/>[Bedreiging explorer](threat-explorer.md)|
-|Uw beleid voor bedreigingsbescherming regelmatig controleren en herzien als dat nodig is|[Veilige score](../mtp/microsoft-secure-score.md)<br/>[Slimme rapporten en inzichten](reports-and-insights-in-security-and-compliance.md)<br/>[Functies voor het onderzoeken en reageren van Office 365-bedreigingen](keep-users-safe-with-office-365-ti.md)|
+|||
+|---|---|
+|**Wat te doen**|**Informatiebronnen**|
+|Bekijk hoe functies voor bedreigingsbescherming voor uw organisatie werken door rapporten te bekijken|[Beveiligingsdashboard](security-dashboard.md)<br/>[Beveiligingsrapporten per e-mail](view-email-security-reports.md)<br/>[Rapporten voor Office 365 ATP](view-reports-for-atp.md)<br/>[Bedreigingsverkenner](threat-explorer.md)|
+|Uw beleid voor bedreigingsbescherming regelmatig controleren en herzien als dat nodig is|[Secure Score](../mtp/microsoft-secure-score.md)<br/>[Slimme rapporten en inzichten](reports-and-insights-in-security-and-compliance.md)<br/>[Functies voor het onderzoeken en reageren van Office 365-bedreigingen](keep-users-safe-with-office-365-ti.md)|
 |Kijk uit voor nieuwe functies en service-updates|[Standaard- en gerichte releaseopties](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide)<br/>[Berichtencentrum](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide)<br/>[Microsoft 365-roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Servicebeschrijvingen](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
+|

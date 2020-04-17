@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Volg deze aanbevolen aanbevelingen voor Exchange Online Protection (EOP) om uzelf voor succes op te stellen en veelvoorkomende configuratiefouten te voorkomen.
-ms.openlocfilehash: fd0baf81b516c30e2cee3b702e2ca0be560e9f4d
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 9bddb736d41b4fd56790b8bbe9dbb00d07e75553
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033432"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528615"
 ---
 # <a name="best-practices-for-configuring-eop-and-office-365-atp"></a>Aanbevolen procedures voor het configureren van EOP en Office 365 ATP
 
@@ -41,9 +41,9 @@ Deze instellingen hebben betrekking op een reeks functies die buiten het beveili
 
 |Naam beveiligingsfunctie|Standaard|Strikte|Opmerking|
 |---------|---------|---------|---------|
-|[Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md) (SPF in Office 365 instellen om spoofing te helpen voorkomen)|Ja|Ja||
-|[DKIM gebruiken om uitgaande e-mail die vanuit uw aangepaste domein in Office 365 wordt verzonden, te valideren](use-dkim-to-validate-outbound-email.md)|Ja|Ja||
-|[DMARC gebruiken om e-mail te valideren in Office 365](use-dmarc-to-validate-email.md)|Ja|Ja|Gebruik action=quarantine voor Standaard en action=reject voor Strict.|
+|[SPF in Office 365 instellen om adresvervalsing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md) |Ja|Ja||
+|[DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein in Office 365](use-dkim-to-validate-outbound-email.md)|Ja|Ja||
+|[DMARC gebruiken om e-mail in Office 365 te valideren](use-dmarc-to-validate-email.md)|Ja|Ja|Gebruik action=quarantine voor Standaard en action=reject voor Strict.|
 |Add-on rapportbericht implementeren om de melding van verdachte e-mails van eindgebruikers te verbeteren|Ja|Ja||
 |Malware- en spamrapporten plannen|Ja|Ja||
 |Automatisch doorsturen naar externe domeinen moet worden geweigerd of gecontroleerd|Ja|Ja||
@@ -53,7 +53,7 @@ Deze instellingen hebben betrekking op een reeks functies die buiten het beveili
 |SMTP-geverifieerde indiening in postvak|Handicap|Handicap||
 |EWS-connectiviteit met postvak|Handicap|Handicap||
 |[PowerShell-connectiviteit](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)|Handicap|Handicap|Beschikbaar voor postvakgebruikers of e-mailgebruikers (gebruikersobjecten die worden geretourneerd door de cmdlet [Get-User).](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-user)|
-|Spoofinformatie gebruiken om afzenders zoveel mogelijk op de witte lijst te zetten|Ja|Ja||
+|Gebruik [spoofinformatie](learn-about-spoof-intelligence.md) om afzenders waar mogelijk op de witte lijst te zetten|Ja|Ja||
 |Op directory gebaseerde randblokkering (DBEB)|Ingeschakeld|Ingeschakeld|Domeintype = Gezaghebbend|
 |[Meervoudige verificatie instellen voor alle beheerdersaccounts](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)|Ingeschakeld|Ingeschakeld||
 

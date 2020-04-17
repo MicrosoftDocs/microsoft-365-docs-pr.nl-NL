@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: Meer informatie over domeinen in Office 365 vindt u antwoorden op uw vragen in veelgestelde vragen.
 ms.custom: okr_smb
-ms.openlocfilehash: 5579cacaa789ca91d68616ffb89e37586f6a062f
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 5d5b921494ba59b78dec53047a31215a8e755f4c
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212195"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540865"
 ---
 # <a name="domains-faq"></a>Veelgestelde vragen over domeinen
 
@@ -106,12 +106,24 @@ Ja, maar u een Office 365-domein pas 60 dagen nadat u het hebt gekocht met Offic
 Houd er rekening mee dat een *Whois-query* een door Office 365 gekochte domeinregistrar wordt weergegeven als Wild West Domains LLC. Er moet echter alleen contact worden opgenomen met Office 365 met betrekking tot uw office 365-domein.
   
 Volg de stappen hieronder om de code op te halen op Office 365. Ga vervolgens naar de website van de andere domeinregistrar om het overzetten van uw domeinnaam naar die registrar in te stellen.
-  
+
+::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
-    
-    Als u Office 365 Germany gebruikt, gaat u naar <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">deze pagina Domeinen.</a> 
-    
-    Als u Office 365 gebruikt dat wordt beheerd door 21Vianet, gaat u naar deze <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">pagina Domeinen.</a>
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar **Instellingen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domeinen</a>-pagina.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Instellingenlicenties.</a> **Settings**
+
+::: moniker-end
     
 2. Selecteer **op** de pagina Domeinen het Office 365-domein dat u naar een andere domeinregistrar wilt overbrengen en selecteer **vervolgens Domeinoverdracht** > **inschakelen.**
        
@@ -136,12 +148,24 @@ Volg de stappen hieronder om de code op te halen op Office 365. Ga vervolgens na
 2. Ga naar het gedeelte op de website van uw registrar waar u naamserverrecords kunt bijwerken en werk de naamservers bij zodat ze verwijzen naar de DNS-host voor uw domein. (De DNS-host is vaak de domeinregistrar.)
     
 3. Volg een koppeling om naar de wizard domeinensetup te gaan:
-    
+
+::: moniker range="o365-worldwide"
+
 4. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
-    
-    Als u Office 365 Germany gebruikt, gaat u naar <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">deze pagina Domeinen.</a> 
-    
-    Als u Office 365 gebruikt dat wordt beheerd door 21Vianet, gaat u naar deze <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">pagina Domeinen.</a>
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+4. Ga in het beheercentrum naar **Instellingen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domeinen</a>-pagina.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+4. Ga in het beheercentrum naar **Instellingen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domeinen</a>-pagina.
+
+::: moniker-end
     
 5. Selecteer **op** de pagina Domeinen het domein dat u overschakelt en selecteer **DNS-beheer.**
     
@@ -153,12 +177,24 @@ Volg de stappen hieronder om de code op te halen op Office 365. Ga vervolgens na
     
 
 ### <a name="change-dns-management-to-office-365"></a>DNS-beheer overdragen aan Office 365
-  
-1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
-    
-    Als u Office 365 Germany gebruikt, gaat u naar <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">deze pagina Domeinen.</a> 
-    
-    Als u Office 365 gebruikt dat wordt beheerd door 21Vianet, gaat u naar deze <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">pagina Domeinen.</a>
+
+::: moniker range="o365-worldwide"
+
+1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen..</a> **Settings**
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar **Instellingen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domeinen</a>-pagina.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar **Instellingen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domeinen</a>-pagina.
+
+::: moniker-end
     
 2. Selecteer **op** de pagina Domeinen het domein dat u overschakelt en selecteer **DNS-beheer.**
     
@@ -221,12 +257,24 @@ Providers die ondersteuning bieden voor alle vereiste DNS-records:
 ## <a name="how-do-i-set-or-change-the-default-domain-in-office-365"></a>Hoe stel of wijzig ik het standaarddomein in Office 365?
 
 U moet minimaal één aangepast domein aan Office 365 hebben toegevoegd voordat u een standaarddomein kunt kiezen.
-  
+
+::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
-    
-    Als u Office 365 Germany gebruikt, gaat u naar <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">deze pagina Domeinen.</a> 
-    
-    Als u Office 365 gebruikt dat wordt beheerd door 21Vianet, gaat u naar deze <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">pagina Domeinen.</a>
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar **Instellingen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domeinen</a>-pagina.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar **Instellingen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domeinen</a>-pagina.
+
+::: moniker-end
     
 2. Selecteer **op** de pagina Domeinen het domein dat u wilt instellen als standaardvoor nieuwe e-mailadressen. 
     

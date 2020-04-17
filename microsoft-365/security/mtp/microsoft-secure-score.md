@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 2094549e63be0a8e3c2bbc7997de13475c19bb0c
-ms.sourcegitcommit: d1909d34ac0cddeb776ff5eb8414bfc9707d5ac1
+ms.openlocfilehash: f70d2f601dfb697d8affa8bb47148f6e454c5d8e
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43163896"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43541093"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -168,6 +168,8 @@ Om ervoor te zorgen dat de Microsoft Secure Score zinvol is en dat elke verbeter
 - Ontdek risicovolle en niet-conforme schaduw-IT-toepassingen
 - Machtigingen controleren & riskante OAuth-toepassingen blokkeren die zijn verbonden met uw omgeving
 - Versiebeheer instellen in SharePoint-onlinedocumentbibliotheken
+- Accounts verwijderen/blokkeren die in de afgelopen 30 dagen niet zijn gebruikt
+- Minder dan 5 globale beheerders aanwijzen
 
 #### <a name="removed-not-scored-improvement-actions"></a>Verwijderde "niet gescoorde" verbeteringsacties
 

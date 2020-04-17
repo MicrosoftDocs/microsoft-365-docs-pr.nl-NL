@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Meer informatie over het instellen van bepaalde afzonderlijke gebruikerswachtwoorden die nooit verlopen met Windows PowerShell.
-ms.openlocfilehash: 04fb2b0c17f695c41df2f8b1277c7918054ae9fe
-ms.sourcegitcommit: 4ddbc1c3c29d79d3c4640b7b32f95576784efcca
+ms.openlocfilehash: 2645e6d5f307a5e5ce8fab5f3a848bf4a539b031
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240233"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540889"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Het wachtwoord van een gebruiker zo instellen dat het nooit verloopt
 
@@ -38,7 +38,7 @@ ms.locfileid: "43240233"
 
 ## <a name="set-the-password-expiration-policy-for-individual-users"></a>Het wachtwoordverloopbeleid instellen voor individuele gebruikers
 
-Een globale beheerder voor een Microsoft-cloudservice kan de Azure Active Directory PowerShell voor Grafiek gebruiken om in te stellen dat wachtwoorden niet verlopen voor specifieke gebruikers. U azuread-cmdlets ook gebruiken om de nooit verlopen configuratie te verwijderen of om te zien welke gebruikerswachtwoorden nooit verlopen.
+Een globale beheerder voor een Microsoft-cloudservice kan de [Azure Active Directory PowerShell voor Grafiek](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) gebruiken om in te stellen dat wachtwoorden niet verlopen voor specifieke gebruikers. U [azuread-cmdlets](https://docs.microsoft.com/powershell/module/Azuread) ook gebruiken om de nooit verlopen configuratie te verwijderen of om te zien welke gebruikerswachtwoorden nooit verlopen.
 
 Deze handleiding is van toepassing op andere providers, zoals Intune en Office 365, die ook afhankelijk zijn van Azure AD voor identiteits- en directoryservices. Het verlopen van wachtwoorden is het enige onderdeel van het beleid dat kan worden gewijzigd.
 

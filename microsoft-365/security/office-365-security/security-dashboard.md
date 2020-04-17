@@ -16,12 +16,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: Gebruik het nieuwe beveiligingsdashboard om de status van Office 365-bedreigingsbeveiliging te controleren en beveiligingswaarschuwingen te bekijken en te reageren.
-ms.openlocfilehash: 1ef61f2a5e59db5c45a37bd9f8995b8c70675f30
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: bade9f1a0060fcd08458bd28eb276a0543f5d815
+ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032838"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43537399"
 ---
 # <a name="security-dashboard"></a>Beveiligingsdashboard
 
@@ -67,7 +67,7 @@ De details zijn afhankelijk van de vraag of uw Office 365-abonnement [Exchange O
 |---|---|
 |**Als uw abonnement...**|**U ziet deze details**|
 |EOP maar niet Office 365 ATP|Kwaadaardige e-mail die werd gedetecteerd en geblokkeerd door EOP.<br><br> Zie [Statusrapport bedreigingsbescherming (EOP)](view-email-security-reports.md#threat-protection-status-report).|
-|Office 365 ATP|Schadelijke inhoud en schadelijke e-mail gedetecteerd en geblokkeerd door EOP en Office 365 ATP<br><br>Geaggregeerde telling van unieke e-mailberichten met schadelijke inhoud geblokkeerd door de anti-malware-engine, [zero-hour automatische zuivering, en ATP-functies](zero-hour-auto-purge.md)(met inbegrip [van veilige links,](atp-safe-links.md) [veilige bijlagen,](atp-safe-attachments.md)en [ATP anti-phishing](atp-anti-phishing.md)).<br><br>Zie [Rapport over de status van bedreigingsbescherming (ATP).](view-reports-for-atp.md#threat-protection-status-report)|
+|Office 365 ATP|Schadelijke inhoud en schadelijke e-mail gedetecteerd en geblokkeerd door EOP en Office 365 ATP<br><br>Geaggregeerde telling van unieke e-mailberichten met schadelijke inhoud geblokkeerd door de anti-malware-engine, [zero-hour automatische zuivering, en ATP-functies](zero-hour-auto-purge.md)(met inbegrip [van veilige links,](atp-safe-links.md) [veilige bijlagen,](atp-safe-attachments.md)en [ATP anti-phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)).<br><br>Zie [Rapport over de status van bedreigingsbescherming (ATP).](view-reports-for-atp.md#threat-protection-status-report)|
 |
 
 Als u het object Statusstatus bedreiging wilt bekijken of openen, moet u machtigingen hebben om rapporten over geavanceerde bedreigingsbeveiliging te bekijken. Zie [Welke machtigingen nodig zijn om de ATP-rapporten te bekijken voor](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)meer informatie.
@@ -127,6 +127,6 @@ Als u het object Recente waarschuwingen voor bedreigingsbeheerwaarschuwingen wil
 
 [Rapporten weergeven voor geavanceerde bedreigingsbeveiliging van Office 365](view-reports-for-atp.md)
 
-[Geavanceerde bedreigingsbeveiliging van Office 365](office-365-atp.md)
+[Office 365 Advanced Threat Protection](office-365-atp.md)
 
 [Office 365-dreigingsonderzoek en -reactie](office-365-ti.md)

@@ -20,12 +20,12 @@ search.appverid:
 - BEA160
 ms.assetid: 796f7eda-b1f8-479a-adee-bd9226ca47ec
 description: Meer informatie over het oplossen van licentieconflicten met uw abonnement op Office 365 voor Bedrijven.
-ms.openlocfilehash: 9dbd483b01566039cb227cd3d2f086c3f6e34be5
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: de0a6c988b9ca2ae033a24c012b7f36bc1db58a3
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212291"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540913"
 ---
 # <a name="resolve-license-conflicts-in-office-365-for-business"></a>Licentieconflicten oplossen in Office 365 voor Bedrijven
 
@@ -33,11 +33,24 @@ We raden u aan de licenties te kopen die u nodig hebt voor uw abonnement voordat
   
 ## <a name="how-do-i-view-license-conflicts"></a>Licentieconflicten weergeven
 
-1. Ga in het beheercentrum naar de pagina **Factureringslicenties.** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a>
+::: moniker range="o365-worldwide"
 
-    Als u Office 365 Germany gebruikt, gaat u naar deze <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">pagina Licenties.</a>
+1. Ga in het beheercentrum naar de pagina **Factureringslicenties.** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a>
 
-    Als u Office 365 gebruikt dat wordt beheerd door 21Vianet, gaat u naar deze <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">pagina Licenties.</a>
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar de pagina **Factureringslicenties.** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenses</a>
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar de pagina **Factureringslicenties.** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenses</a>
+
+::: moniker-end
+
 
 2. Kijk in de kolom **Status** voor informatie over het conflict. Als er een conflict is, ziet u een waarschuwingsbericht waarin staat dat een of meer gebruikers een geldige licentie nodig hebben.
 

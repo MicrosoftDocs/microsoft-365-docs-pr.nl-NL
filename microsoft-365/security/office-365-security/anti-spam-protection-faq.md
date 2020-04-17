@@ -1,11 +1,10 @@
 ---
-title: Veelgestelde vragen over spam in Office 365
+title: Veelgestelde vragen over beveiliging tegen ongewenste e-mail
 f1.keywords:
 - NOCSH
-ms.author: krowley
-author: kccross
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 12/9/2016
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,15 +14,15 @@ search.appverid:
 ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
-description: Dit onderwerp biedt veelgestelde vragen en antwoorden over anti-spam bescherming. Antwoorden zijn van toepassing op Klanten van Microsoft Exchange Online en Exchange Online Protection (EOP).
-ms.openlocfilehash: 47970cd2f67873b3c8b1fbfa70b7e1754fc8359c
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+description: Veelgestelde vragen en antwoorden voor beheerders over antispambescherming in Exchange Online en standalone Exchange Online Protection (EOP).
+ms.openlocfilehash: 30ab9ceb7d2e9e4a264311ff43343485a57d622c
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033492"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528311"
 ---
-# <a name="anti-spam-protection-in-office-365-faq"></a>Veelgestelde vragen over spam in Office 365
+# <a name="anti-spam-protection-faq-in-office-365"></a>Veelgestelde vragen over antispambescherming in Office 365
 
 In dit onderwerp worden veelgestelde vragen en antwoorden gegeven over antispambeveiliging voor Office 365-klanten met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-klanten zonder Exchange Online-postvakken.
 
@@ -31,14 +30,16 @@ Zie [Veelgestelde vragen](quarantine-faq.md)over quarantaine voor vragen en antw
 
 Zie [Veelgestelde vragen](anti-malware-protection-faq-eop.md)over bescherming tegen malware voor vragen en antwoorden over bescherming tegen malware.
 
+Zie Veelgestelde vragen over [anti-spoofing bescherming](anti-spoofing-protection-faq.md)voor vragen en antwoorden over anti-spoofing bescherming.
+
 ## <a name="q-by-default-what-happens-to-a-spam-detected-message"></a>V. Wat gebeurt er standaard met een door spam gedetecteerd bericht?
 
-A. **Voor binnenkomende berichten:** De meerderheid van de spam wordt verwijderd via verbindingsfiltering, die is gebaseerd op het IP-adres van de bron-e-mailserver. Antispambeleid (ook wel spamfilterbeleid of inhoudsfilterbeleid genoemd) inspecteert en classificeert berichten als spam, bulk of phishing. Standaard worden berichten die zijn geclassificeerd als spam of bulk, bezorgd in de map Ongewenste e-mail van de ontvanger, terwijl berichten die als phishing zijn geclassificeerd, in quarantaine worden geplaatst. U het standaard antispambeleid wijzigen (van toepassing op alle ontvangers) of u aangepaste antispambeleidsregels maken met strengere instellingen voor specifieke groepen gebruikers (u bijvoorbeeld spam die naar leidinggevenden wordt verzonden, in quarantaine plaatsen). Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) en [Aanbevolen antispambeleidsinstellingen](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)voor meer informatie.
+A. **Voor binnenkomende berichten**: De meeste spam wordt verwijderd via verbindingsfiltering, die is gebaseerd op het IP-adres van de brone-mailserver. Antispambeleid (ook wel spamfilterbeleid of inhoudsfilterbeleid genoemd) inspecteert en classificeert berichten als spam, bulk of phishing. Standaard worden berichten die zijn geclassificeerd als spam of bulk, bezorgd in de map Ongewenste e-mail van de ontvanger, terwijl berichten die als phishing zijn geclassificeerd, in quarantaine worden geplaatst. U het standaard antispambeleid wijzigen (van toepassing op alle ontvangers) of u aangepaste antispambeleidsregels maken met strengere instellingen voor specifieke groepen gebruikers (u bijvoorbeeld spam die naar leidinggevenden wordt verzonden, in quarantaine plaatsen). Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) en [Aanbevolen antispambeleidsinstellingen](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)voor meer informatie.
 
 > [!IMPORTANT]
 > In hybride implementaties waarbij EOP on-premises postvakken beschermt, moet u twee Exchange-mailstroomregels (ook wel transportregels genoemd) configureren in uw on-premises Exchange-organisatie om de EOP-spamfilterkoppen te detecteren die aan berichten worden toegevoegd. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. 
 
- **Voor uitgaande berichten:** Het bericht wordt omgeleid via de groep voor levering met [een hoog risico](high-risk-delivery-pool-for-outbound-messages.md) of wordt teruggestuurd naar de afzender in een rapport zonder levering (ook wel een NDR- of bouncebericht genoemd). Zie [Uitgaande spambesturingselementen in Office 365](outbound-spam-controls.md)voor meer informatie over uitgaande spambeveiliging.
+ **Voor uitgaande berichten**: Het bericht wordt omgeleid via de [groep voor levering met een hoog risico](high-risk-delivery-pool-for-outbound-messages.md) of wordt teruggestuurd naar de afzender in een rapport zonder levering (ook wel een NDR- of bouncebericht genoemd). Zie [Uitgaande spambesturingselementen in Office 365](outbound-spam-controls.md)voor meer informatie over uitgaande spambeveiliging.
 
 ## <a name="q-whats-a-zero-day-spam-variant-and-how-is-it-handled-by-the-service"></a>V. Wat is een zero-day spam variant en hoe wordt deze behandeld door de service?
 
@@ -132,7 +133,7 @@ A. De onderstaande richtlijnen zijn best practices voor het verzenden van uitgaa
 
   SPF-records zijn een mechanisme voor het valideren dat e-mail verzonden vanuit een domein echt afkomstig is uit dat domein en is niet vervalst. Zie de volgende koppelingen voor meer informatie over SPF-records:
 
-  [Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md) (SPF in Office 365 instellen om spoofing te helpen voorkomen)
+  [SPF in Office 365 instellen om adresvervalsing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md) 
 
   [Veelgestelde vragen over domeinen](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
 

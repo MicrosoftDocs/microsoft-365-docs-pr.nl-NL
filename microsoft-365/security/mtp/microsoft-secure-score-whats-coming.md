@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 61f066b2fff2798e78e6379bbca46e48e93ff017
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 1a5c5ae702f16bbf47be83837cf244cdd64278cd
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895439"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43541105"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>Wat komt er in Microsoft Secure Score?
 
@@ -36,15 +36,15 @@ Zie Nieuwe wijzigingen in Microsoft Secure Score voor meer informatie over recen
 
 Om ervoor te zorgen dat de Microsoft Secure Score zinvol is en dat elke verbeteringsactie meetbaar en betrouwbaar is, verwijderen we de volgende verbeteringsacties.
 
-- Accounts verwijderen/blokkeren die in de afgelopen 30 dagen niet zijn gebruikt
-- Minder dan 5 globale beheerders aanwijzen
 - IRM-beveiligingen toepassen op documenten
 - Beleid ter voorkoming van gegevensverlies toepassen
 
-### <a name="adding-additional-control-support-in-the-preview-version"></a>Extra besturingselementondersteuning toevoegen in de voorbeeldversie
+### <a name="adding-azure-ad-improvement-action-in-the-preview-version"></a>Azure AD-verbeteringsactie toevoegen in de voorbeeldversie
+
 - Geef gebruikers geen toestemming voor onbeheerde toepassingen (momenteel beschikbaar in een vrijgegeven versie)
 
-#### <a name="support-for-additional-microsoft-cloud-app-security-improvement-actions"></a>Ondersteuning voor aanvullende verbeteringen voor microsoft cloud-appbeveiliging
+### <a name="adding-azure-atp-improvement-actions-in-the-preview-version"></a>Azure ATP-verbeteringsacties toevoegen in de preview-versie
+
 - Afdrukspoolerservice uitschakelen op domeincontrollers
 - Onveilige Kerberos-delegaties wijzigen om imitatie te voorkomen
 - Lokale beheerderswachtwoorden beveiligen en beheren met Microsoft LAPS
@@ -56,5 +56,6 @@ Om ervoor te zorgen dat de Microsoft Secure Score zinvol is en dat elke verbeter
 - Verouderde protocollen communicatie stoppen
 - Stop zwak versleutelingsgebruik
 
-#### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations"></a>Ondersteuning voor beveiligingsaanbevelingen voor Microsoft Defender ATP Threat & Vulnerability Management (TVM)
+### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations-in-the-preview-version"></a>Ondersteuning voor beveiligingsaanbevelingen van Microsoft Defender ATP-& Vulnerability Management (TVM) in de preview-versie
+
 - Alle vrijgegeven beveiligingsaanbevelingen van TVM zijn nu ook beschikbaar in Microsoft Secure Score

@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
 description: Schakel handmatig over van Office 365 voor Bedrijven-abonnementen door een nieuw abonnement aan te schaffen en ervoor te zorgen dat beide abonnementen worden vermeld en actief.
-ms.openlocfilehash: 9a0c382abf1e61f1b31cb358529925053d037be4
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: a652053b204e84f8f2d3973eba76ead1cc7c1410
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142101"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540841"
 ---
 # <a name="switch-office-365-for-business-plans-manually"></a>Handmatig overstappen op een ander abonnement voor Office 365 voor Bedrijven
 
@@ -64,11 +64,23 @@ Het is belangrijk dat u een licentie koopt voor de organisatie waarvan de gebrui
   
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>Stap 3: Controleer uw nieuwe abonnement en licenties
 
+::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Abonnementen</a>.
 
-    Als u Office 365 Germany gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
+::: moniker-end
 
-    Als u Office 365 beheerd door 21Vianet gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar de pagina **Facturering**><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar de pagina **Facturering**><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
+
+::: moniker-end
 
 2. **Controleren of beide abonnementen worden vermeld en actief**
 
@@ -102,11 +114,23 @@ De licenties voor het huidige abonnement worden later verwijderd. U betaalt vana
 
 ### <a name="reassign-a-license-for-one-user"></a>Een licentie opnieuw toewijzen voor één gebruiker
 
+::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
-    Als u Office 365 Germany gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
+::: moniker-end
 
-    Als u Office 365 beheerd door 21Vianet gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar de pagina **Gebruikers** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar de pagina **Gebruikers** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
+
+::: moniker-end
 
 2. Schakel op de pagina **Actieve gebruikers** het selectievakje in van de gebruiker aan wie u een licentie wilt toewijzen.
 
@@ -125,11 +149,23 @@ De licenties voor het huidige abonnement worden later verwijderd. U betaalt vana
 
 ### <a name="reassign-licenses-for-multiple-users-at-once"></a>Licenties opnieuw toewijzen voor meerdere gebruikers tegelijk
 
+::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a> of selecteer **Gebruikers** \> **actieve gebruikers**.
 
-    Als u Office 365 Germany gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
+::: moniker-end
 
-    Als u Office 365 beheerd door 21Vianet gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar de pagina **Gebruikers** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">actieve gebruikers.</a>
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar de pagina **Gebruikers** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
+
+::: moniker-end
 
 2. Schakel de selectievakjes in naast de namen van de gebruikers waarvoor u bestaande licenties wilt vervangen.
 

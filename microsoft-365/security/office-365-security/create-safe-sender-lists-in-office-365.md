@@ -14,12 +14,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: Beheerders kunnen meer te weten komen over de beschikbare opties in Office 365 en EOP waarmee binnenkomende berichten spamfilters kunnen overslaan.
-ms.openlocfilehash: f9178dae93f8eb33996d05034d27fceed66edd39
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 4b50a4b63377c0f3e7b12592c512449f1a3adc12
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033408"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528627"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Lijsten met veilige afzenders maken in Office 365
 
@@ -38,7 +38,7 @@ De beschikbare lijsten met veilige afzenders worden in de volgende lijst beschre
 Regels voor e-mailstroom bieden de meeste flexibiliteit om ervoor te zorgen dat alleen de juiste berichten zijn toegestaan. Toegestane afzender- en toegestane domeinlijsten in antispambeleid zijn niet zo veilig als de LIJST met IP-toegestane lijsten, omdat het e-maildomein van de afzender gemakkelijk kan worden vervalst. Maar de IP-lijst toestaan brengt ook een risico met zich mee, omdat e-mail van _elk_ domein dat vanaf dat IP-adres wordt verzonden, spamfilters omzeilt.
 
 > [!IMPORTANT]
-> <ul><li>Wees voorzichtig en houd *eventuele* uitzonderingen in de gaten die u gebruiken voor het filteren van spam met behulp van lijsten met veilige afzenders.</li><li>Hoewel u veilige afzenderlijsten gebruiken om te helpen met valse positieven (goede e-mail gemarkeerd als spam), moet u het gebruik van veilige afzenderlijsten beschouwen als een tijdelijke oplossing die indien mogelijk moet worden vermeden. We raden u aan valse positieven te beheren met behulp van lijsten met veilige afzenders, omdat uitzonderingen op spamfiltering uw organisatie kunnen openen voor spoofing en andere aanvallen. Als u erop staat veilige afzenderlijsten te gebruiken om fout-positieven te beheren, moet u waakzaam zijn en het onderwerp [Berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md) in de aanslag houden.</li><li>Als u wilt toestaan dat een domein niet-geverifieerde e-mail verzendt (anti-spoofingbescherming omzeilt), maar antispam- en anti-malwarecontroles niet omzeilt, u deze toevoegen aan de [lijst met veilige afzenders allowedTospoof](walkthrough-spoof-intelligence-insight.md)</li><li>EOP en Outlook inspecteren verschillende berichteigenschappen om de afzender van het bericht te bepalen. Zie de sectie [Overwegingen voor bulke-mail](#considerations-for-bulk-email) later in dit onderwerp voor meer informatie.</li></ul>
+> <ul><li>Let erop dat *u eventuele* uitzonderingen op spamfilters nauwkeurig in de gaten houdt met behulp van lijsten met veilige afzenders.</li><li>Hoewel u veilige afzenderlijsten gebruiken om te helpen met valse positieven (goede e-mail gemarkeerd als spam), moet u het gebruik van veilige afzenderlijsten beschouwen als een tijdelijke oplossing die indien mogelijk moet worden vermeden. We raden u aan valse positieven te beheren met behulp van lijsten met veilige afzenders, omdat uitzonderingen op spamfiltering uw organisatie kunnen openen voor spoofing en andere aanvallen. Als u erop staat veilige afzenderlijsten te gebruiken om fout-positieven te beheren, moet u waakzaam zijn en het onderwerp [Berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md) in de aanslag houden.</li><li>Als u wilt toestaan dat een domein niet-geverifieerde e-mail verzendt (anti-spoofingbescherming omzeilt), maar antispam- en anti-malwarecontroles niet omzeilt, u deze toevoegen aan de [lijst met veilige afzenders allowedTospoof](walkthrough-spoof-intelligence-insight.md)</li><li>EOP en Outlook inspecteren verschillende berichteigenschappen om de afzender van het bericht te bepalen. Zie de sectie [Overwegingen voor bulke-mail](#considerations-for-bulk-email) later in dit onderwerp voor meer informatie.</li></ul>
 
 U hebt daarentegen ook verschillende opties om e-mail van specifieke bronnen te blokkeren met behulp van _geblokkeerde afzenderlijsten._ Zie [Lijsten met geblokkeerde afzenders maken in Office 365](create-block-sender-lists-in-office-365.md) voor meer informatie.
 
@@ -115,7 +115,7 @@ De maximumlimiet voor deze lijsten is ongeveer 1000 vermeldingen; hoewel, u zult
 
 Een standaard SMTP-e-mailbericht bestaat uit een *berichtenvelop* en berichtinhoud. De berichtenvelop bevat informatie die nodig is voor het verzenden en leveren van het bericht tussen SMTP-servers. De inhoud van het bericht bevat teksttekstvelden (gezamenlijk de *berichtkop genoemd)* en de berichttekst. De berichtenvelop wordt beschreven in RFC 5321 en de berichtkop wordt beschreven in RFC 5322. Ontvangers zien nooit de werkelijke berichtenvelop omdat deze wordt gegenereerd door het berichtoverdrachtsproces en het is eigenlijk geen onderdeel van het bericht.
 
-- Het `5321.MailFrom` adres (ook bekend als het **e-mailadres van** het adres, de afzender van P1 of de afzender van de envelop) is het e-mailadres dat wordt gebruikt in de SMTP-transmissie van het bericht. Dit e-mailadres wordt meestal opgenomen in het koptekstveld **Return-Path** in de berichtkop (hoewel het mogelijk is dat de afzender een ander **e-mailadres van het retourpad** aanwijst). Dit e-mailadres wordt gebruikt voor verificatiecontroles voor afzenders (SPF, DKIM, DMARC) en als het bericht niet kan worden bezorgd, is het de ontvanger voor het rapport niet-bezorging (ook wel een NDR- of bouncebericht genoemd). 
+- Het `5321.MailFrom` adres (ook bekend als het **e-mailadres van** het adres, de afzender van P1 of de afzender van de envelop) is het e-mailadres dat wordt gebruikt in de SMTP-transmissie van het bericht. Dit e-mailadres wordt meestal opgenomen in het koptekstveld **Return-Path** in de berichtkop (hoewel het mogelijk is dat de afzender een ander **e-mailadres van het retourpad** aanwijst). Als het bericht niet kan worden bezorgd, is het de ontvanger voor het rapport niet-bezorging (ook wel een NDR- of bouncebericht genoemd).
 
 - Het `5322.From` (ook wel bekend als de **Afzender Van** of P2) is het e-mailadres in het veld **Van** koptekst en is het e-mailadres van de afzender dat wordt weergegeven in e-mailclients.
 

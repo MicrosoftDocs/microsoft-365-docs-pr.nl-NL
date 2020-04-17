@@ -1,11 +1,11 @@
 ---
-title: Hoe Office 365 het Adres Van valideert om phishing te voorkomen
+title: Hoe Office 365 het Van-adres valideert om phishing te voorkomen
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyp
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 10/11/2017
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,217 +16,115 @@ search.appverid:
 ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
-description: 'Om phishing te voorkomen, vereisen Office 365 en Outlook.com nu RFC-compliance voor From: adressen.'
-ms.openlocfilehash: 6459faa22f29017568747b84bbd2935aad6763d1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Lear over de vereisten voor Van e-mailadressen voor binnenkomende berichten in Office 365. Vanaf november 2017 vereist de service nu RFC-compatibele From-adressen om spoofing te voorkomen.
+ms.openlocfilehash: 4df073cfff3c36f60a013237d95548cb48fa7b5f
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42805694"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528999"
 ---
-# <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a>Hoe Office 365 het Adres Van valideert om phishing te voorkomen
+# <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a>Hoe Office 365 het Van-adres valideert om phishing te voorkomen
 
-Office 365 en Outlook.com e-mailaccounts ontvangen een steeds groter aantal phishing-aanvallen. Een techniek die phishers gebruiken is het verzenden van berichten die waarden hebben voor het Adres dat niet voldoet aan [RFC 5322.](https://tools.ietf.org/html/rfc5322) Het adres Van: wordt ook wel de 5322.From adres genoemd. Om dit soort phishing te voorkomen, vereisen Office 365 en Outlook.com berichten die door de service zijn ontvangen om een RFC-compatibel Met: adres zoals beschreven in dit artikel op te nemen.
+E-mailaccounts van Office 365 ontvangen een steeds groter aantal phishing-aanvallen. Naast het gebruik van [vervalste (vervalste) afzender e-mailadressen](anti-spoofing-protection.md), aanvallers gebruiken vaak waarden in de Van adres die internet normen schenden. Om dit soort phishing te voorkomen, vereisen Office 365 en Outlook.com nu binnenkomende berichten om een RFC-compatibel Adres op te nemen zoals beschreven in dit onderwerp. Deze handhaving werd in november 2017 mogelijk gemaakt.
 
-> [!NOTE]
-> De informatie in dit artikel vereist dat u een basiskennis hebt van het algemene formaat van e-mailadressen. Zie Voor meer informatie [rfc 5322](https://tools.ietf.org/html/rfc5322) (met name de punten 3.2.3, 3.4 en 3.4.1), [RFC 5321](https://tools.ietf.org/html/rfc5321)en [RFC 3696](https://tools.ietf.org/html/rfc3696). Dit artikel gaat over beleidshandhaving voor de 5322.From adres. Dit artikel gaat niet over de 5321.MailFrom adres.
+**Opmerkingen**:
 
-Helaas zijn er nog enkele verouderde e-mailservers op het internet die nog steeds "legitieme" e-mailberichten verzenden die een ontbrekende of misvormde Van: adres hebben. Als u regelmatig e-mail ontvangt van organisaties die deze verouderde systemen gebruiken, moedigt u deze organisaties aan om hun e-mailservers bij te werken om te voldoen aan moderne beveiligingsnormen.
+- Als u regelmatig e-mail ontvangt van organisaties die verkeerd zijn vervormd van adressen zoals beschreven in dit onderwerp, moedigt u deze organisaties aan om hun e-mailservers bij te werken om te voldoen aan moderne beveiligingsstandaarden.
 
-Microsoft zal op 9 november 2017 beginnen met de uitrol van de handhaving van het beleid dat in dit artikel wordt beschreven.
+- Het veld gerelateerde afzender (gebruikt door Verzenden namens en mailinglijsten) wordt niet beïnvloed door deze vereisten. Zie voor meer informatie de volgende blogpost: [Wat bedoelen we als we verwijzen naar de 'afzender' van een e-mail?](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/).
 
-## <a name="how-office-365-enforces-the-use-of-a-valid-from-address-to-prevent-phishing-attacks"></a>Hoe Office 365 het gebruik van een geldige From: adres afdwingt om phishing-aanvallen te voorkomen
+## <a name="an-overview-of-email-message-standards"></a>Een overzicht van de normen voor e-mailberichten
 
-Office 365 voert wijzigingen aan in de manier waarop het het gebruik van het From: adres afdwingt in berichten die het ontvangt om u beter te beschermen tegen phishing-aanvallen. In dit artikel:
+Een standaard SMTP-e-mailbericht bestaat uit een *berichtenvelop* en berichtinhoud. De berichtenvelop bevat informatie die nodig is voor het verzenden en leveren van het bericht tussen SMTP-servers. De inhoud van het bericht bevat teksttekstvelden (gezamenlijk de *berichtkop genoemd)* en de berichttekst. De berichtenvelop wordt beschreven in [RFC 5321](https://tools.ietf.org/html/rfc5321)en de berichtkop wordt beschreven in [RFC 5322](https://tools.ietf.org/html/rfc5322). Ontvangers zien nooit de werkelijke berichtenvelop omdat deze wordt gegenereerd door het berichtoverdrachtsproces en het is eigenlijk geen onderdeel van het bericht.
 
-- [Alle berichten moeten een geldig Vanaf: adres bevatten](how-office-365-validates-the-from-address.md#MustIncludeFromAddress)
+- Het `5321.MailFrom` adres (ook bekend als het **e-mailadres van** het adres, de afzender van P1 of de afzender van de envelop) is het e-mailadres dat wordt gebruikt in de SMTP-transmissie van het bericht. Dit e-mailadres wordt meestal opgenomen in het koptekstveld **Return-Path** in de berichtkop (hoewel het mogelijk is dat de afzender een ander **e-mailadres van het retourpad** aanwijst).
 
-- [Indeling van het Adres Van als u geen weergavenaam opneemt](how-office-365-validates-the-from-address.md#FormatNoDisplayName)
+- Het `5322.From` (ook wel bekend als de Afzender Van of P2) is het e-mailadres in het veld **Van** koptekst en is het e-mailadres van de afzender dat wordt weergegeven in e-mailclients. Het Adres van Het is de nadruk van de vereisten in dit onderwerp.
 
-- [Indeling van het Adres Van: als u een weergavenaam opneemt](how-office-365-validates-the-from-address.md#FormatDisplayName)
+Het Adres Van wordt in detail gedefinieerd over verschillende RFC's (bijvoorbeeld RFC 5322-secties 3.2.3, 3.4 en 3.4.1 en [RFC 3696](https://tools.ietf.org/html/rfc3696)). Er zijn veel variaties op het adresseren en wat wordt beschouwd als geldig of ongeldig. Om het simpel te houden, raden we de volgende indeling en definities aan:
 
-- [Aanvullende voorbeelden van geldig en ongeldig Vanaf: adressen](how-office-365-validates-the-from-address.md#Examples)
+`From: "Display Name" <EmailAddress>`
 
-- [Automatische antwoorden op uw aangepaste domein onderdrukken zonder het beleid Van:](how-office-365-validates-the-from-address.md#SuppressAutoReply)
+- **Weergavenaam:** een optionele woordgroep die de eigenaar van het e-mailadres beschrijft.
 
-- [Office 365 overschrijven Vanaf: beleid voor adreshandhaving](how-office-365-validates-the-from-address.md#Override)
+  - We raden u aan de weergavenaam altijd in dubbele aanhalingstekens (") zoals weergegeven, in te sluiten. Als de weergavenaam een komma bevat, _moet_ u de tekenreeks in dubbele aanhalingstekens per RFC 5322 bijsluiten.
+  - Als het Van-adres een weergavenaam bevat, moet de waarde Van Mailadres worden ingesloten in hoekhaakjes (< >) zoals weergegeven.
+  - Microsoft raadt u ten zeerste aan een spatie in te voegen tussen de weergavenaam en het e-mailadres.
 
-- [Andere manieren om cybercriminaliteit in Office 365 te voorkomen en te beschermen](how-office-365-validates-the-from-address.md#OtherProtection)
+- **E-mailadres:** Een e-mailadres maakt gebruik van de indeling: `local-part@domain`
 
-Verzenden namens een andere gebruiker wordt niet beïnvloed door deze wijziging, voor meer details, lees Terry Zink's blog "[Wat bedoelen we als we verwijzen naar de 'afzender' van een e-mail?](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/)".
+  - **lokaal deel**: een tekenreeks die het postvak identificeert dat aan het adres is gekoppeld. Deze waarde is uniek binnen het domein. Vaak wordt de gebruikersnaam of GUID van de eigenaar van het postvak gebruikt.
+  - **domein:** de volledig gekwalificeerde domeinnaam (FQDN) van de e-mailserver die het postvak host dat is geïdentificeerd door het lokale deel van het e-mailadres.
 
-### <a name="all-messages-must-include-a-valid-from-address"></a>Alle berichten moeten een geldig Vanaf: adres bevatten
-<a name="MustIncludeFromAddress"> </a>
+  Dit zijn enkele aanvullende overwegingen voor de waarde Van E-mailadres:
 
-Sommige geautomatiseerde berichten bevatten geen Van: adres wanneer ze worden verzonden. In het verleden, toen Office 365 of Outlook.com een bericht ontvangen zonder een Van: adres, heeft de service de volgende standaard van: adres naar het bericht toegevoegd om het te laten bezorgen:
+  - Slechts één e-mailadres.
+  - Wij raden u aan de hoekbeugels niet te scheiden van spaties.
+  - Voeg geen extra tekst toe na het e-mailadres.
 
-```
-From: <>
-```
+## <a name="examples-of-valid-and-invalid-from-addresses"></a>Voorbeelden van geldig en ongeldig van adressen
 
-Vanaf 9 november 2017 rolt Office 365 wijzigingen uit in zijn datacenters en e-mailservers, waardoor een nieuwe regel wordt afgedwongen waarbij berichten zonder From: adres niet langer worden geaccepteerd door Office 365 of Outlook.com. In plaats daarvan moeten alle door Office 365 ontvangen berichten al een geldig Van: adres bevatten. Anders wordt het bericht verzonden naar de map Ongewenste e-mail of Verwijderde items in Outlook.com en Office 365.
+Het volgende Van e-mailadressen zijn geldig:
 
-### <a name="syntax-overview-valid-format-for-the-from-address-for-office-365"></a>Syntaxisoverzicht: geldige notatie voor het adres Van voor Office 365
-<a name="SyntaxOverviewFromAddress"> </a>
+- `From: sender@contoso.com`
 
-De indeling voor de waarde van het Adres Van: wordt in detail gedefinieerd op verschillende RFC's. Er zijn veel variaties op het aanpakken en wat kan worden beschouwd als geldig of ongeldig. Om het eenvoudig te houden, raadt Microsoft u aan de volgende indeling en definities te gebruiken:
+- `From: <sender@contoso.com>`
 
-```
-From: "displayname " <emailaddress >
-```
+- `From: < sender@contoso.com >`(Niet aanbevolen omdat er spaties zijn tussen de hoekhaakjes en het e-mailadres.)
 
-Waar:
+- `From: "Sender, Example" <sender.example@contoso.com>`
 
-- (Optioneel)  *displayname* is een woordgroep waarin de eigenaar van het e-mailadres wordt beschreven. Dit kan bijvoorbeeld een gebruiksvriendelijkere naam zijn om de afzender te beschrijven dan de naam van het postvak. Het gebruik van een weergavenaam is optioneel. Als u er echter voor kiest om een weergavenaam te gebruiken, raadt Microsoft u aan deze altijd in te sluiten binnen aanhalingstekens zoals afgebeeld.
+- `From: "Office 365" <sender@contoso.com>`
 
-- (Vereist)  *e-mailadres* bestaat uit:
+- `From: Office 365 <sender@contoso.com>`(Niet aanbevolen omdat de weergavenaam niet is ingesloten met dubbele aanhalingstekens.)
 
-  ```
-  local-part @domain
-  ```
+Het volgende Van e-mailadressen zijn ongeldig:
 
-    Waar:
+- **Geen adres:** Sommige geautomatiseerde berichten bevatten geen Van-adres. In het verleden, toen Office 365 of Outlook.com een bericht zonder adres hebben ontvangen, heeft de service de volgende standaardinstelling toegevoegd Van: adres om het bericht beschikbaar te maken:
 
-  - (Vereist)  *lokaal deel* is een tekenreeks die het postvak identificeert dat aan het adres is gekoppeld. Dit is uniek binnen het domein. Vaak wordt de gebruikersnaam of GUID van de postvakeigenaar gebruikt als de waarde voor het lokale gedeelte.
+  `From: <>`
 
-  - (Vereist)  *domein* is de volledig gekwalificeerde domeinnaam (FQDN) van de e-mailserver die het postvak host dat is geïdentificeerd door het lokale deel van het e-mailadres.
+  Nu worden berichten met een leeg Van-adres niet meer geaccepteerd.
 
-### <a name="format-of-the-from-address-if-you-dont-include-a-display-name"></a>Indeling van het Adres Van als u geen weergavenaam opneemt
-<a name="FormatNoDisplayName"> </a>
+- `From: Office 365 sender@contoso.com`(De weergavenaam is aanwezig, maar het e-mailadres is niet in gesloten in hoekhaakjes.)
 
-Een goed geformatteerd Van: adres dat geen weergavenaam bevat, bevat slechts één e-mailadres met of zonder hoekhaakjes. Microsoft raadt u aan de hoekhaakjes niet te scheiden met spaties. Bovendien, niet iets opnemen na het e-mailadres.
+- `From: "Office 365" <sender@contoso.com> (Sent by a process)`(Tekst na het e-mailadres.)
 
-De volgende voorbeelden zijn geldig:
+- `From: Sender, Example <sender.example@contoso.com>`(De weergavenaam bevat een komma, maar is niet ingesloten met dubbele aanhalingstekens.)
 
-```
-From: sender@contoso.com
-```
+- `From: "Office 365 <sender@contoso.com>"`(De hele waarde is onjuist ingesloten in dubbele aanhalingstekens.)
 
-```
-From: <sender@contoso.com>
-```
+- `From: "Office 365 <sender@contoso.com>" sender@contoso.com`(De weergavenaam is aanwezig, maar het e-mailadres is niet in gesloten in hoekhaakjes.)
 
-Het volgende voorbeeld is geldig, maar wordt niet aanbevolen omdat het spaties bevat tussen de hoekhaakjes en het e-mailadres:
+- `From: Office 365<sender@contoso.com>`(Geen ruimte tussen de weergavenaam en de linkerhoekbeugel.)
 
-```
-From: < sender@contoso.com >
-```
+- `From: "Office 365"<sender@contoso.com>`(Geen ruimte tussen het afsluitende dubbele aanhalingsteken en de linkerhoekhaak.)
 
-Het volgende voorbeeld is ongeldig omdat het tekst na het e-mailadres bevat:
+## <a name="suppress-auto-replies-to-your-custom-domain"></a>Automatische antwoorden op uw aangepaste domein onderdrukken
 
-```
-From: "Office 365" <sender@contoso.com> (Sent by a process)
+U de waarde `From: <>` niet gebruiken om automatische antwoorden te onderdrukken. In plaats daarvan moet u een null MX-record instellen voor uw aangepaste domein. Automatische antwoorden (en alle antwoorden) worden natuurlijk onderdrukt omdat er geen gepubliceerd adres is waar naar de reagerende server berichten kan worden verzonden.
+
+- Kies een e-maildomein dat geen e-mail kan ontvangen. Als uw primaire domein bijvoorbeeld contoso.com is, u noreply.contoso.com kiezen.
+
+- De null MX-record voor dit domein bestaat uit één periode.
+
+Bijvoorbeeld:
+
+```text
+noreply.contoso.com IN MX .
 ```
 
-### <a name="format-of-the-from-address-if-you-include-a-display-name"></a>Indeling van het Adres Van: als u een weergavenaam opneemt
-<a name="FormatDisplayName"> </a>
-
-Voor From: adressen die een waarde voor de weergavenaam bevatten, zijn de volgende regels van toepassing:
-
-- Als het afzenderadres een weergavenaam bevat en de weergavenaam een komma bevat, moet de weergavenaam worden ingesloten binnen aanhalingstekens. Bijvoorbeeld:
-
-    Het volgende voorbeeld is geldig:
-
-  ```
-  From: "Sender, Example" <sender.example@contoso.com>
-  ```
-
-    Het volgende voorbeeld is niet geldig:
-
-  ```
-  From: Sender, Example <sender.example@contoso.com>
-  ```
-
-    De weergavenaam niet inaanhalingstekens worden bijgesloten als die weergavenaam een komma bevat, is ongeldig volgens RFC 5322.
-
-    Als aanbevolen praktijk plaatst u aanhalingstekens rond de weergavenaam, ongeacht of er al dan niet een komma in de weergavenaam is.
-
-- Als het afzenderadres een weergavenaam bevat, moet het e-mailadres worden ingesloten binnen hoekhaakjes.
-
-    Als aanbevolen praktijk raadt Microsoft u ten zeerste aan een ruimte in te voegen tussen de weergavenaam en het e-mailadres.
-
-### <a name="additional-examples-of-valid-and-invalid-from-addresses"></a>Aanvullende voorbeelden van geldig en ongeldig Vanaf: adressen
-<a name="Examples"> </a>
-
-- Geldig:
-
-  ```
-  From: "Office 365" <sender@contoso.com>
-  ```
-
-- Ongeldig. Het e-mailadres is niet bijgesloten met hoekhaakjes:
-
-  ```
-  From: Office 365 sender@contoso.com
-  ```
-
-- Geldig, maar niet aanbevolen. De weergavenaam staat niet tussen aanhalingstekens. Als beste praktijk, altijd aanhalingstekens rond de weergavenaam:
-
-  ```
-  From: Office 365 <sender@contoso.com>
-  ```
-
-- Ongeldig. Alles is ingesloten binnen aanhalingstekens, niet alleen de weergavenaam:
-
-  ```
-  From: "Office 365 <sender@contoso.com>"
-  ```
-
-- Ongeldig. Er zijn geen hoekhaakjes rond het e-mailadres:
-
-  ```
-  From: "Office 365 <sender@contoso.com>" sender@contoso.com
-  ```
-
-- Ongeldig. Er is geen ruimte tussen de weergavenaam en de linkerhoek:
-
-  ```
-  From: Office 365<sender@contoso.com>
-  ```
-
-- Ongeldig. Er is geen ruimte tussen het sluitende aanhalingsteken rond de weergavenaam en de linkerhoekbeugel.
-
-  ```
-  From: "Office 365"<sender@contoso.com>
-  ```
-
-### <a name="suppress-auto-replies-to-your-custom-domain-without-breaking-the-from-policy"></a>Automatische antwoorden op uw aangepaste domein onderdrukken zonder het beleid Van:
-<a name="SuppressAutoReply"> </a>
-
-Met de nieuwe Van: beleidshandhaving kun je \< \> From: niet meer gebruiken om auto-antwoorden te onderdrukken. In plaats daarvan moet u een null MX-record instellen voor uw aangepaste domein.
-
-De MX-record (mail exchanger) is een resourcerecord in DNS die de e-mailserver identificeert die e-mail voor uw domein ontvangt. Automatische antwoorden (en alle antwoorden) worden natuurlijk onderdrukt omdat er geen gepubliceerd adres is waarop de reagerende server berichten kan verzenden.
-
-Wanneer u een null MX-record instelt voor uw aangepaste domein:
-
-- Kies een domein waaruit u berichten wilt verzenden die geen e-mail accepteren (ontvangen). Als uw primaire domein bijvoorbeeld contoso.com is, u kiezen voor noreply.contoso.com.
-
-- Stel de null MX-record voor uw domein in. Een null MX record bestaat uit een enkele stip, bijvoorbeeld:
-
-  ```
-  noreply.contoso.com IN MX .
-  ```
+Zie [DNS-records maken bij elke DNS-hostingprovider voor Office 365 voor](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)meer informatie over het instellen van MX-records.
 
 Zie [RFC 7505](https://tools.ietf.org/html/rfc7505)voor meer informatie over het publiceren van een null MX.
 
-### <a name="overriding-the-office-365-from-address-enforcement-policy"></a>Office 365 overschrijven Vanaf: beleid voor adreshandhaving
-<a name="Override"> </a>
+## <a name="override-from-address-enforcement"></a>Overschrijven van adreshandhaving
 
-Nadat de uitrol van het nieuwe beleid is voltooid, u dit beleid alleen omzeilen voor binnenkomende e-mail die u van Office 365 ontvangt met behulp van een van de volgende methoden:
+Als u de vereisten voor binnenkomende e-mail wilt omzeilen, u de IP-lijst met toegestane verbindingen (verbindingsfilter) of e-mailstroomregels (ook wel transportregels genoemd) gebruiken, zoals beschreven in [Lijsten met veilige afzendermaken in Office 365.](create-safe-sender-lists-in-office-365.md)
 
-- IP-lijstmet toestaan
+U de vereisten voor het adres van De ene naar de uitgaande e-mail die u vanuit Office 365 verzendt, niet overschrijven. Bovendien zal Outlook.com geen overschrijvingen van welke aard dan ook toestaan, zelfs niet via ondersteuning.
 
-- Regels voor de stroomstroom van Exchange Online
+## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-office-365"></a>Andere manieren om cybercriminaliteit in Office 365 te voorkomen en te beschermen
 
-Microsoft raadt ten zeerste aan om de handhaving van het From:-beleid te overschrijven. Als u dit beleid overschrijft, kan het risico van blootstelling van uw organisatie aan spam, phishing en andere cybercriminaliteit toenemen.
-
-U dit beleid niet overschrijven voor uitgaande e-mail die u in Office 365 verzendt. Bovendien staat Outlook.com geen overschrijvingen van welke aard dan ook toe, zelfs niet via ondersteuning.
-
-### <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-office-365"></a>Andere manieren om cybercriminaliteit in Office 365 te voorkomen en te beschermen
-<a name="OtherProtection"> </a>
-
-Zie [Aanbevolen procedures voor beveiliging voor Office 365](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data)voor meer informatie over hoe u uw organisatie versterken tegen cybercriminaliteit zoals phishing, spam, datalekken en andere bedreigingen.
-
-## <a name="related-topics"></a>Gerelateerde onderwerpen
-
-[Backscatter messages and EOP](backscatter-messages-and-eop.md)(Backscatter-berichten en EOP)
+Zie [Top 10 manieren om Office 365- en Microsoft 365 Business-abonnementen te beveiligen](../../admin/security-and-compliance/secure-your-business-data.md)voor meer informatie over hoe u uw organisatie versterken tegen phishing, spam, datalekken en andere bedreigingen.

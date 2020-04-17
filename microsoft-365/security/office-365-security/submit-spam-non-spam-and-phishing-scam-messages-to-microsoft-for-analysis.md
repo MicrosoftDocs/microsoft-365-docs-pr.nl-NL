@@ -2,8 +2,8 @@
 title: Berichten handmatig verzenden naar Microsoft voor analyse
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
@@ -16,12 +16,12 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: 'U en uw gebruikers kunnen valse negatieve en fout-positieve spamberichten naar Microsoft sturen voor analyse. '
-ms.openlocfilehash: 13b2e42f749b54e0c2b71fe095c077992560ea8c
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 77807f710743d98dc2e1564f804b6a67add67def
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032802"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43529047"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Berichten handmatig verzenden naar Microsoft voor analyse
 
@@ -51,7 +51,7 @@ Als u een bericht ontvangt dat door spamfiltering is verzonden en dat als spam o
 2. Sleep en drop de ongewenste of phishing-bericht in het nieuwe bericht. Dit zal de junk of phishing-bericht op te slaan als een bijlage in het nieuwe bericht. Kopieer en plak de inhoud van het bericht niet of stuur het bericht door (we hebben het oorspronkelijke bericht nodig zodat we de berichtkoppen kunnen inspecteren).
 
    > [!NOTE]
-   > <ul><li>U meerdere berichten toevoegen in het nieuwe bericht. Zorg ervoor dat alle berichten hetzelfde type zijn: phishing-scamberichten of ongewenste e-mailberichten.</li><li>Laat het lichaam van het nieuwe bericht leeg.<li></li>Gebruik .msg (standaardOutlook-indeling) of .eml (standaard Outlook op de webindeling) voor de bijgevoegde berichten.</li></ul>
+   > <ul><li>U meerdere berichten toevoegen in het nieuwe bericht. Zorg ervoor dat alle berichten hetzelfde type zijn: phishing-scamberichten of ongewenste e-mailberichten.</li><li>Laat het lichaam van het nieuwe bericht leeg.</li><li>Gebruik .msg (standaardOutlook-indeling) of .eml (standaard Outlook op de webindeling) voor de bijgevoegde berichten.</li></ul>
 
 3. Klik op **Verzenden**als u klaar bent.
 
@@ -70,7 +70,7 @@ Als een bericht ten onrechte is geïdentificeerd als spam, u het bericht indiene
 2. Sleep en laat het verkeerd geïdentificeerde bericht in het nieuwe bericht vallen. Hiermee wordt het verkeerd geïdentificeerde bericht opgeslagen als bijlage in het nieuwe bericht. Kopieer en plak de inhoud van het bericht niet of stuur het bericht door (we hebben het oorspronkelijke bericht nodig zodat we de berichtkoppen kunnen inspecteren).
 
    > [!NOTE]
-   > <ul><li>U meerdere berichten toevoegen in het nieuwe bericht. Zorg ervoor dat alle berichten hetzelfde type zijn: phishing-scamberichten of ongewenste e-mailberichten.</li><li>Laat het lichaam van het nieuwe bericht leeg.<li></li>Gebruik .msg (standaardOutlook-indeling) of .eml (standaard Outlook op de webindeling) voor de bijgevoegde berichten.</li></ul>
+   > <ul><li>U meerdere berichten toevoegen in het nieuwe bericht. Zorg ervoor dat alle berichten hetzelfde type zijn: phishingberichten of ongewenste e-mailberichten.</li><li>Laat het lichaam van het nieuwe bericht leeg.</li><li>Gebruik .msg (standaardOutlook-indeling) of .eml (standaard Outlook op de webindeling) voor de bijgevoegde berichten.</li></ul>
 
 3. Klik op **Verzenden**als u klaar bent.
 
@@ -136,7 +136,7 @@ In dit voorbeeld wordt een nieuwe regel voor e-mailstroom gemaakt met de naam BC
 New-TransportRule -Name "Bcc Messages Reported to Microsoft" -RecipientAddressContainsWords "junk@office365.microsoft.com","abuse@messaging.microsoft.com","phish@office365.microsoft.com","false_positive@messaging.microsoft.com" -BlindCopyTo "laura@contoso.com","julia@contoso.com".
 ```
 
-Zie [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule) voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Nieuwe-Transportregel](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule) voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 

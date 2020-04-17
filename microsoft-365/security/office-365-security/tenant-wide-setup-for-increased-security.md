@@ -1,5 +1,5 @@
 ---
-title: Uw Office 365-tenant configureren voor meer beveiliging
+title: Uw Office 365-tenant configureren voor betere beveiliging
 f1.keywords:
 - NOCSH
 ms.author: bcarter
@@ -17,14 +17,14 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: Hiermee leidt u door de aanbevolen configuratie voor tenantbrede instellingen die van invloed zijn op de beveiliging van uw Office 365-omgeving. Uw beveiligingsbehoeften vereisen mogelijk meer of minder beveiliging. Gebruik deze aanbevelingen als uitgangspunt.
-ms.openlocfilehash: 737a58c21811bf4d798c18f000c0e477b5667cef
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: 56b2dad90b15c1d084edaa4477301e8ac4d4442d
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081254"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43529011"
 ---
-# <a name="configure-your-office-365-tenant-for-increased-security"></a>Uw Office 365-tenant configureren voor meer beveiliging
+# <a name="configure-your-office-365-tenant-for-increased-security"></a>Uw Office 365-tenant configureren voor betere beveiliging
 
 Met dit onderwerp u de aanbevolen configuratie voor tenantbrede instellingen doorlopen die van invloed zijn op de beveiliging van uw Office 365-omgeving. Uw beveiligingsbehoeften vereisen mogelijk meer of minder beveiliging. Gebruik deze aanbevelingen als uitgangspunt.
 
@@ -39,7 +39,7 @@ Het Microsoft 365-beveiligingscentrum bevat mogelijkheden die uw omgeving besche
 ||||
 |---|---|---|
 |**Gebied**|**Bevat een standaardbeleid**|**Aanbeveling**|
-|**Anti-phishing**|Ja| Als u een aangepast domein hebt, maakt u een antiphishingbeleid om de e-mailaccounts van uw meest waardevolle gebruikers, zoals uw CEO, te beschermen en uw domein te beschermen. Bekijk [Het instellen van een antiphishingbeleid](set-up-anti-phishing-policies.md) en maak een beleid met het voorbeeld als leidraad: 'Voorbeeld: Antiphishingbeleid om een gebruiker en een domein te beschermen.'|
+|**Anti-phishing**|Ja|Als u een aangepast domein hebt, configureert u het standaard beleid voor antiphishing om de e-mailaccounts van uw meest waardevolle gebruikers, zoals uw CEO, te beschermen en uw domein te beschermen. Bekijk [het antiphishingbeleid in Office 365](set-up-anti-phishing-policies.md) en zie [Standaardbeleid voor phishing instellen in EOP](configure-anti-phishing-policies-eop.md) of [ATP-beleid voor antiphishing configureren in Office 365](configure-atp-anti-phishing-policies.md).|
 |**Anti-Malware Engine**|Ja| Bewerk het standaardbeleid: <br/> &ensp;&ensp;* Common Attachment Types Filter — Selecteer Op <br/><br/> U ook aangepaste malwarefilterbeleidsregels maken en deze toepassen op opgegeven gebruikers, groepen of domeinen in uw organisatie. <br/><br/> Meer informatie: <br/> &ensp;&ensp;* [Bescherming tegen malware](anti-malware-protection.md) <br/> &ensp;&ensp;* [Anti-malwarebeleid configureren](configure-anti-malware-policies.md)|
 |**ATP-veilige bijlagen**|Nee| Bescherm op de hoofdpagina voor veilige bijlagen bestanden in SharePoint, OneDrive en Microsoft Teams door het selectievakje in te schakelen: <br/> &ensp;&ensp;* ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams <br/><br/> Voeg een nieuw beleid voor veilige bijlagen toe met de volgende instellingen: <br/> &ensp;&ensp;* Blok - Blokkeer de huidige en toekomstige e-mails en bijlagen met gedetecteerde malware (kies deze optie) <br/> &ensp;&ensp;* Redirect inschakelen — (Schakel dit selectievakje in en voer een e-mailadres in, zoals een beheerders- of quarantaineaccount) <br/> &ensp;&ensp;* Pas de bovenstaande selectie als malware scannen op bijlagen keer uit of fout optreedt (schakel dit vakje) <br/> &ensp;&ensp;* Toegepast op — Het domein van de ontvanger is (selecteer uw domein) <br/><br/>Meer informatie: Beleid voor veilige bijlagen van [Office 365 ATP instellen](set-up-atp-safe-attachments-policies.md)|
 |**ATP Veilige Links**|Ja| Voeg deze instelling toe aan het standaardbeleid voor de hele organisatie: <br/> &ensp;&ensp;* Gebruik Veilige koppelingen in: Office 365 ProPlus, Office voor iOS en Android (selecteer deze optie). <br/><br/>Aanbevolen beleid voor specifieke ontvangers: <br/> &ensp;&ensp;* URL's worden herschreven en gecontroleerd aan de hand van een lijst met bekende kwaadaardige links wanneer de gebruiker op de link klikt (selecteer deze optie). <br/> &ensp;&ensp;* Gebruik veilige bijlagen om downloadbare inhoud te scannen (schakel dit selectievakje in). <br/> &ensp;&ensp;* Toegepast op — Het domein van de ontvanger is (selecteer uw domein). <br/><br/> Meer informatie: [Office 365 ATP Safe Links](atp-safe-links.md).|
@@ -58,7 +58,7 @@ Ga naar deze rapporten en dashboards voor meer informatie over de gezondheid van
 |---|---|
 |**Dashboard**|**Beschrijving**|
 |[Dashboard voor bedreigingsbeheer](security-dashboard.md)|Gebruik dit dashboard in het gedeelte **Bedreigingsbeheer** van het beveiligingscentrum om bedreigingen te zien die al zijn afgehandeld en als een handig hulpmiddel om aan zakelijke besluitvormers te rapporteren over welke mogelijkheden voor bedreigingsonderzoek en -respons al hebben gedaan om uw bedrijf te beveiligen.|
-|[Threat Explorer (of real-time detecties)](threat-explorer.md)|Dit is ook in de **sectie Threat management** van het beveiligingscentrum. Als u een aanval op uw Office 365-tenant onderzoekt of ondervindt, gebruikt u Explorer (of realtime detecties) om bedreigingen te analyseren. Explorer (en het realtime detectierapport) toont u het aantal aanvallen in de loop van de tijd en u deze gegevens analyseren op bedreigingsfamilies, infrastructuur voor aanvallers en meer. U ook verdachte e-mails markeren voor de lijst Incidenten.|
+|[Bedreigingsverkenner (of realtime detecties)](threat-explorer.md)|Dit is ook in de **sectie Threat management** van het beveiligingscentrum. Als u een aanval op uw Office 365-tenant onderzoekt of ondervindt, gebruikt u Explorer (of realtime detecties) om bedreigingen te analyseren. Explorer (en het realtime detectierapport) toont u het aantal aanvallen in de loop van de tijd en u deze gegevens analyseren op bedreigingsfamilies, infrastructuur voor aanvallers en meer. U ook verdachte e-mails markeren voor de lijst Incidenten.|
 |Rapporten — Dashboard|Bekijk in de sectie **Rapporten** van het beveiligingscentrum controlerapporten voor uw SharePoint Online- en Exchange Online-organisaties. U hebt ook toegang tot aanmeldingsrapporten van Azure Active Directory (Azure AD), rapporten over gebruikersactiviteiten, rapporten over gebruikersactiviteiten en het Azure AD-controlelogboek vanaf de pagina **Rapporten weergeven.**|
 |
 
@@ -123,7 +123,7 @@ Omdat deze oplossing het EMS E5-abonnement aanbeveelt, raden we u aan om te begi
 
 Meer informatie:
 
-- [Beveiliging van cloud-apps implementeren](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
+- [Cloud App Security implementeren](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
 
 - [Meer informatie over Microsoft Cloud App Security](https://www.microsoft.com/cloud-platform/cloud-app-security)
 
