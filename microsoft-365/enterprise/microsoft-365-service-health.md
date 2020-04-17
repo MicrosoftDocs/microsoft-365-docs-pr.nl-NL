@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: 'Status van Microsoft 365-service '
-ms.openlocfilehash: 16621bc266684397da5fa92e953067e1e8342b4e
-ms.sourcegitcommit: 8959701cf009068b40da2757b4a61da61d5c166b
+ms.openlocfilehash: c1b938a91b4f0e43e51595ec877e57e7654c5232
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207161"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540807"
 ---
 # <a name="microsoft-365-network-health-status"></a>Status van Microsoft 365-netwerk
 
@@ -37,7 +37,7 @@ Wanneer we belangrijke problemen in het wereldwijde netwerk van Microsoft vastst
 
 | Locatie | Type probleem | Details |
 | --- | --- | --- |
-| **Geen huidige problemen**  |  |  |
+| Mexico | ISP-infrastructuur (extern) | Beschikbaarheidsproblemen die in de infrastructuur van een ISP in Mexico zijn gedetecteerd, kunnen leiden tot een slechte Microsoft 365-gebruikerservaring. Controleer het dashboard voor de servicestatus voor meer informatie. |
 
 ## <a name="recommendations-to-improve-network-experience"></a>Aanbevelingen voor het verbeteren van de netwerkervaring
 

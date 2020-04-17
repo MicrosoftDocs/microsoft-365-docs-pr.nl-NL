@@ -25,12 +25,12 @@ ms.custom:
 - OKR_SMB_Videos
 ms.assetid: 2ae3ea58-4fce-4592-91d6-46e9ae3ec218
 description: U vindt uw factuur of factuuroverzicht in het Microsoft 365-beheercentrum. U kunt ook een kopie van uw factuur opslaan en afdrukken.
-ms.openlocfilehash: 5982e65ce9720b85d29126986cfcb8123b4aef5f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: fa3809e588bca50ae0ffd7e5dfc060bbc91a4bd6
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42811404"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540853"
 ---
 # <a name="view-your-bill-or-invoice"></a>Uw rekening of factuur weergeven
 
@@ -50,10 +50,23 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
   
 ## <a name="view-a-bill-or-invoice"></a>Een rekening of factuur bekijken
 
+::: moniker range="o365-worldwide"
 
 1. Ga in het Beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Facturen en betalingen</a>.
 
-    Als u Office 365 Germany gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Facturen en betalingen</a>.
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Facturen en betalingen</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Facturen en betalingen</a>.
+
+::: moniker-end
 
 2. Selecteer een datumbereik in de vervolgkeuzelijst en kies vervolgens de order die u wilt weergeven.
 

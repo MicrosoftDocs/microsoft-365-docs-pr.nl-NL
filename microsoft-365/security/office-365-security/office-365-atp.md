@@ -17,12 +17,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
-ms.openlocfilehash: aac4cb43386577851d74e424d6435d0c15762bab
-ms.sourcegitcommit: 9afcc63b1a7e73f6946f67207337f10b71a5d7f3
+ms.openlocfilehash: 34dc541087eb05af6b688670112cf02489164fb1
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42808453"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528603"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -45,9 +45,11 @@ Office 365 ATP (Advanced Threat Protection) beschermt uw organisatie tegen kwaad
 
 De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement.
 
-|Office 365 ATP-abonnement 1 |Office 365 ATP-abonnement 2|
-|---------|---------|
-|Functies voor configuratie, beveiliging en detectie:<br/>- [Veilige bijlagen](atp-safe-attachments.md)<br/>- [Veilige koppelingen](atp-safe-links.md)<br/>- [ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>- [Geavanceerde bescherming tegen phishing](atp-anti-phishing.md)<br/>- [Realtime detectie](threat-explorer.md)     |Functies van Office 365 ATP-abonnement 1<br/>--- plus ---<br/>Functies voor automatisering, onderzoek, herstel en onderwijs:<br/>- [Bedreigingsoverzichten](threat-trackers.md)<br/>- [Bedreigingsverkenner](threat-explorer.md)<br/>- [Geautomatiseerd onderzoek en acties](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>- [Aanvalssimulator](attack-simulator.md)|
+|||
+|---|---|
+|**Office 365 ATP-abonnement 1**|**Office 365 ATP-abonnement 2**|
+|Functies voor configuratie, beveiliging en detectie:<br/>• [Veilige bijlagen](atp-safe-attachments.md)<br/>• [Veilige koppelingen](atp-safe-links.md)<br/>• [ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>• [ATP-bescherming tegen phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)<br/>• [Realtime detectie](threat-explorer.md)|Functies van Office 365 ATP-abonnement 1<br/>--- plus ---<br/>Functies voor automatisering, onderzoek, herstel en onderwijs:<br/>• [Bedreigingsoverzichten](threat-trackers.md)<br/>• [Bedreigingsverkenner](threat-explorer.md)<br/>• [Geautomatiseerd onderzoek en reactie](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) <br/>• [Aanvalssimulator](attack-simulator.md) |
+|
 
 - Office 365 ATP-abonnement 2 is inbegrepen in Office 365 E5, Office 365 A5 en Microsoft 365 E5.
 
@@ -72,7 +74,7 @@ Het beleid dat wordt gedefinieerd voor uw organisatie bepaalt het gedrag en beve
 
 - **[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)**: beschermt uw organisatie wanneer gebruikers samenwerken en bestanden delen door schadelijke bestanden in teamsites en documentbibliotheken te identificeren en te blokkeren. Zie [Office 365 ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
 
-- **[ATP-bescherming tegen phishing](atp-anti-phishing.md)**: detecteert pogingen om uw gebruikers en aangepaste domeinen na te bootsen. Hiermee worden machine learning-modellen en geavanceerde vervalsingsdetectie-algoritmen toegepast om phishing-aanvallen te voorkomen. Zie [Office 365 ATP-antiphishing en -antiphishingbeleid instellen](set-up-anti-phishing-policies.md).
+- **[ATP-bescherming tegen phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)**: detecteert pogingen om uw gebruikers en interne of aangepaste domeinen na te bootsen. Hiermee worden machine learning-modellen en geavanceerde vervalsingsdetectie-algoritmen toegepast om phishing-aanvallen te voorkomen. Zie [ATP-beleid voor anti-phishing configureren in Office 365](configure-atp-anti-phishing-policies.md) voor meer informatie.
 
 ## <a name="view-office-365-atp-reports"></a>Office 365 ATP-rapporten bekijken
 
