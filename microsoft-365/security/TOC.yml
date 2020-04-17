@@ -10,17 +10,17 @@
         - name: Workshoptraining voor Chief Information Officer (CISO)
           href: ./office-365-security/ciso-workshop.md
           items:
-            - name: Module 1 - Informatie over Microsoft-cyberbeveiliging
+            - name: 'Module 1: Informatie over Microsoft Cyber Security'
               href: ./office-365-security/ciso-workshop-module-1.md
-            - name: Module 2 - Beveiligingsbeheer
+            - name: 'Module 2: Beveiligingsbeheer'
               href: ./office-365-security/ciso-workshop-module-2.md
-            - name: Module 3 - Gebruikerstoegang met identiteiten en zero trust
+            - name: 'Module 3: Gebruikerstoegang met identiteiten en zero trust'
               href: ./office-365-security/ciso-workshop-module-3.md
-            - name: 'Module 4a - Strategie voor bedreigingsbescherming, deel I'
+            - name: 'Module 4a: Strategie voor bedreigingsbescherming, deel I'
               href: ./office-365-security/ciso-workshop-module-4a.md
-            - name: 'Module 4b - Strategie voor bedreigingsbescherming, deel II'
+            - name: 'Module 4b: Strategie voor bedreigingsbescherming, deel II'
               href: ./office-365-security/ciso-workshop-module-4b.md
-            - name: Module 5 - Gegevensbescherming
+            - name: 'Module 5: Gegevensbeveiliging'
               href: ./office-365-security/ciso-workshop-module-5.md
     - name: Configuratie van identiteiten en apparaattoegang
       href: ../enterprise/microsoft-365-policies-configurations.md
@@ -57,7 +57,7 @@
               href: mtp/portals.md
             - name: Problemen oplossen
               href: ./mtp/troubleshoot.md
-        - name: Handleidingen
+        - name: Instructies
           items:
             - name: Ondersteunde services implementeren
               href: mtp/deploy-supported-services.md
@@ -87,7 +87,7 @@
                   href: mtp/mtp-autoir-results.md
                 - name: Acties in behandeling goedkeuren of afwijzen
                   href: mtp/mtp-autoir-actions.md
-                - name: Vals-positieven/-negatieven melden
+                - name: Fout-positieven/-negatieven melden
                   href: mtp/mtp-autoir-report-false-positives-negatives.md
             - name: Geavanceerd opsporen
               items:
@@ -157,19 +157,19 @@
                   items:
                     - name: Overzicht van aangepaste detectie
                       href: mtp/custom-detections-overview.md
-                    - name: Detectieregels maken en beheren
+                    - name: Detectieregels maken & beheren
                       href: mtp/custom-detection-rules.md
             - name: Secure Score
               items:
                 - name: Secure Score
                   href: mtp/microsoft-secure-score.md
-                - name: Secure Score (preview)
+                - name: Secure Score (voorbeeld)
                   href: mtp/microsoft-secure-score-preview.md
                 - name: Binnenkort beschikbaar
                   href: mtp/microsoft-secure-score-whats-coming.md
             - name: Rapporten
               items:
-                - name: Rapporten controleren en bekijken
+                - name: Rapporten bewaken en weergeven
                   href: mtp/monitoring-and-reporting.md
                 - name: Identiteitscontrole en rapportage
                   href: mtp/monitor-and-report-identities.md
@@ -177,7 +177,7 @@
                   href: mtp/monitor-data.md
                 - name: Apparaatcontrole en rapportage
                   href: mtp/monitor-devices.md
-                - name: App-controle en rapportage
+                - name: Appcontrole en rapportage
                   href: mtp/monitor-apps.md
             - name: Machtigingen en instellingen
               items:
@@ -185,6 +185,8 @@
                   href: mtp/mtp-permissions.md
                 - name: Tijdzone instellen
                   href: mtp/mtp-time-zone.md
+            - name: Apparaatprofielen weergeven
+              href: 'mtp:/device-profile.md'
             - name: Feedback geven
               href: mtp/feedback.md
             - name: Tickets beheren via ServiceNow
@@ -195,17 +197,17 @@
           items:
             - name: Roadmap voor Office 365-beveiliging
               href: ./office-365-security/security-roadmap.md
-            - name: Uw Office 365-tenant configureren voor betere beveiliging
+            - name: Uw Office 365-tenant configureren voor een betere beveiliging
               href: ./office-365-security/tenant-wide-setup-for-increased-security.md
             - name: Nieuw Microsoft 365-beveiligingscentrum
               href: ./mtp/overview-security-center.md
-            - name: Machtigingen in het Office 365-beveiligings- en compliancecentrum
+            - name: 'Machtigingen in het Office 365-beveiligings- en compliancecentrum van '
               href: ./office-365-security/permissions-in-the-security-and-compliance-center.md
             - name: Machtigingen in het Microsoft 365-compliancecentrum en het Microsoft 365-beveiligingscentrum
               href: ./office-365-security/permissions-microsoft-365-compliance-security.md
-            - name: Gebruikers toegang geven tot het Beveiligingscentrum
+            - name: Gebruikers toegang tot het Beveiligingscentrum geven
               href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
-        - name: Beveiliging tegen bedreigingen
+        - name: Beveiligen tegen bedreigingen
           href: ./office-365-security/protect-against-threats.md
           items:
             - name: Beveiliging tegen ongewenste e-mail en malware
@@ -237,9 +239,9 @@
                       href: ./office-365-security/Create-safe-sender-lists-in-office-365.md
                     - name: Spamwaarschijnlijkheidswaarde (SCL)
                       href: ./office-365-security/spam-confidence-levels.md
-                    - name: Bulkklachtniveau (BCL)
+                    - name: Bulkklachtniveau (SCL)
                       href: ./office-365-security/bulk-complaint-level-values.md
-                    - name: Wat is het verschil tussen ongewenste e-mail en bulk-e-mail?
+                    - name: Wat is het verschil tussen ongewenste e-mail en bulkmail?
                       href: ./office-365-security/what-s-the-difference-between-junk-email-and-bulk-email.md
                     - name: Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
                       href: ./office-365-security/configure-junk-email-settings-on-exo-mailboxes.md
@@ -263,7 +265,7 @@
                       href: ./office-365-security/admin-submission.md
                     - name: De invoegtoepassing Bericht rapporteren inschakelen
                       href: ./office-365-security/enable-the-report-message-add-in.md
-                    - name: De invoegtoepassing Rapportage van ongewenste e-mail installeren en gebruiken
+                    - name: De invoegtoepassing voor het melden van ongewenste e-mail installeren en gebruiken
                       href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
                     - name: Ongewenste e-mail en phishing melden in de webversie van Outlook
                       href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
@@ -273,7 +275,7 @@
                       href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
                 - name: Berichtkoppen tegen ongewenste e-mail
                   href: ./office-365-security/anti-spam-message-headers.md
-                - name: Hoe beleid en bescherming worden gecombineerd
+                - name: Hoe beleid en beveiliging worden gecombineerd
                   href: ./office-365-security/how-policies-and-protections-are-combined.md
                 - name: Zero-Hour Auto Purge - beveiliging tegen ongewenste e-mail en malware
                   href: ./office-365-security/zero-hour-auto-purge.md
@@ -286,7 +288,7 @@
               items:
                 - name: Beveiliging tegen phishing afstemmen
                   href: ./office-365-security/tuning-anti-phishing.md
-                - name: Antiphishingfuncties voor ATP in Office 365
+                - name: antiphishingfuncties voor ATP in Office 365
                   href: ./office-365-security/atp-anti-phishing.md
                 - name: Beleid tegen phishing en tegen phishing voor ATP instellen
                   href: ./office-365-security/set-up-anti-phishing-policies.md
@@ -316,7 +318,7 @@
               items:
                 - name: Hoe Office 365 gebruikmaakt van SPF om adresvervalsing te voorkomen
                   href: ./office-365-security/how-office-365-uses-spf-to-prevent-spoofing.md
-                - name: SPF in Office 365 instellen om adresvervalsing te helpen voorkomen
+                - name: SPF in Office 365 instellen om spoofing te helpen voorkomen
                   href: ./office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md
                 - name: DKIM gebruiken om uitgaande e-mail te valideren
                   href: ./office-365-security/use-dkim-to-validate-outbound-email.md
@@ -330,21 +332,21 @@
                 - name: Overzicht van beveiligingsdashboard
                   href: ./office-365-security/security-dashboard.md
                   items:
-                    - name: Stapsgewijze instructies - Van een gedetailleerd rapport tot een inzicht
+                    - name: 'Stapsgewijze instructies: van een gedetailleerd rapport tot een inzicht'
                       href: ./office-365-security/from-a-detailed-report-to-an-insight.md
-                    - name: Stapsgewijze instructies - Van een inzicht tot een gedetailleerd rapport
+                    - name: 'Stapsgewijze instructies: van een inzicht tot een gedetailleerd rapport'
                       href: ./office-365-security/from-an-insight-to-a-detailed-report.md
-                    - name: Stapsgewijze instructies - Van een dashboard tot een inzicht
+                    - name: 'Stapsgewijze instructies: van een dashboard tot een inzicht'
                       href: ./office-365-security/from-a-dashboard-to-an-insight.md
                     - name: Een planning maken voor een rapport
                       href: ./office-365-security/create-a-schedule-for-a-report.md
-                    - name: Planningen beheren voor meerdere rapporten
+                    - name: Planningen voor meerdere rapporten beheren
                       href: ./office-365-security/manage-schedules-for-multiple-reports.md
                     - name: Een aangepast rapport instellen en downloaden
                       href: ./office-365-security/set-up-and-download-a-custom-report.md
                     - name: Bestaande rapporten downloaden
                       href: ./office-365-security/download-existing-reports.md
-                - name: Informatie over schadelijke bestanden bekijken
+                - name: Informatie over schadelijke bestanden weergeven
                   href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
             - name: Wat is EOP?
               href: ./office-365-security/what-is-eop.md
@@ -353,7 +355,7 @@
                   href: ./office-365-security/block-email-spam-in-EOPStandalone.md
                 - name: On-premises postvakken beschermen met Exchange Online Protection
                   href: ./office-365-security/protect-on-premises-mailboxes-with-exchange-online-protection.md
-                - name: Standalone EOP configureren om spam te bezorgen in de map Ongewenste e-mail
+                - name: Standalone EOP configureren om spam in de map Ongewenste e-mail te bezorgen
                   href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
         - name: Advanced Threat Protection
           href: ./office-365-security/office-365-atp.md
@@ -364,7 +366,7 @@
                   href: office-365-security/whats-new-in-office-365-atp.md
             - name: ATP-instellingstaken voor beheerders
               items:
-                - name: Instellingstaken voor globale beheerders
+                - name: Instellingstaken voor hoofdbeheerders
                   items:
                     - name: Beleid voor veilige koppelingen in ATP instellen
                       href: ./office-365-security/set-up-atp-safe-links-policies.md
@@ -386,25 +388,25 @@
                   href: ./office-365-security/office-365-air.md
                 - name: Herstelacties
                   href: ./office-365-security/air-remediation-actions.md
-                - name: Details en resultaten van een geautomatiseerd onderzoek bekijken
+                - name: Gegevens en resultaten van een geautomatiseerde onderzoek weergeven
                   href: ./office-365-security/air-view-investigation-results.md
                 - name: Acties in behandeling controleren en goedkeuren (of afwijzen)
                   href: ./office-365-security/air-review-approve-pending-completed-actions.md
                 - name: AIR integreren met een aangepaste oplossing of een oplossing van derden
                   href: ./office-365-security/air-custom-reporting.md
-            - name: Gehackte gebruikersaccounts snel detecteren en adresseren
+            - name: Gehackte gebruikersaccounts snel opsporen en verhelpen
               href: ./office-365-security/address-compromised-users-quickly.md
             - name: Schadelijke e-mail onderzoeken en verhelpen
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
-            - name: Uw ATP-rapporten bekijken en lezen
+            - name: Uw ATP-rapporten weergeven en lezen
               href: ./office-365-security/view-reports-for-atp.md
-            - name: De nieuwste aanvallen begrijpen met bedreigingsanalyse
+            - name: Inzicht in de nieuwste aanvallen met bedreigingsanalyse
               href: ./mtp/latest-attack-campaigns.md
             - name: Wat de waarschuwingspagina's voor Veilige koppelingen in ATP betekenen
               href: ./office-365-security/atp-safe-links-warning-pages.md
             - name: Bedreigingsoverzichten gebruiken
               href: ./office-365-security/threat-trackers.md
-            - name: Aanvalssimulator in Office 365 ATP
+            - name: Aanvalssimulatie in Office 365 ATP
               href: ./office-365-security/attack-simulator.md
             - name: Veilige documenten in Office 365 ATP
               href: ./office-365-security/safe-docs.md
@@ -425,7 +427,7 @@
                   href: ./office-365-security/automated-investigation-response-office.md
                 - name: Hoe Veilige koppelingen in ATP werkt
                   href: ./office-365-security/how-atp-safe-links-works.md
-                - name: Hoe Veilige bijlagen in ATP werkt
+                - name: Hoe Veilige bijlagen in ATP wekt
                   href: ./office-365-security/how-atp-safe-attachments-works.md
                 - name: Dynamische bezorging en voorbeeld van details
                   href: ./office-365-security/dynamic-delivery-and-previewing.md
@@ -462,7 +464,7 @@
                   href: ./office-365-security/mfi-smtp-auth-clients-report.md
                 - name: Inzicht in verzenddomein oplossen
                   href: ./office-365-security/mfi-sender-domain-insight.md
-                - name: Rapport over niet-uitgevoerde bezorging
+                - name: Rapporten over niet-uitgevoerde bezorging
                   href: ./office-365-security/mfi-non-delivery-report.md
                 - name: Rapport over niet-geaccepteerd domein
                   href: ./office-365-security/mfi-non-accepted-domain-report.md
@@ -481,7 +483,7 @@
             - name: 'Microsoft-beveiligingsrichtlijnen voor politieke campagnes, non-profitorganisaties en andere agile organisaties'
               href: ./office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md
               items:
-                - name: Groepen en gebruikers configureren voor een ontwikkel-/testomgeving voor politieke campagnes
+                - name: Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
                   href: ./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
                 - name: Teamsites maken in een ontwikkel-/testomgeving voor politieke campagnes
                   href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
@@ -492,11 +494,11 @@
                   href: ./office-365-security/deploy-teams-three-tiers.md
                 - name: Bestanden in teams beveiligen met bewaarlabels en DLP
                   href: ./office-365-security/deploy-teams-retention-DLP.md
-                - name: Bestanden in teams beveiligen met gevoeligheidslabels
+                - name: Bestanden in teams beschermen met gevoeligheidslabels.
                   href: ./office-365-security/deploy-teams-sensitivity-labels.md
-                - name: Teams voor bestanden beveiligen in een ontwikkel-/testomgeving
+                - name: Veilige teams voor bestanden in een ontwikkel-/testomgeving
                   href: ./office-365-security/secure-team-for-files-in-a-dev-test-environment.md
-            - name: SharePoint Online-sites beveiligen in een ontwikkel-/testomgeving
+            - name: Beveiligde SharePoint Online-sites in een ontwikkel-/testomgeving
               href: ./office-365-security/secure-sharepoint-online-sites-in-a-dev-test-environment.md
               items: null
             - name: SIEM-serverintegratie
@@ -521,7 +523,7 @@
                       href: ./office-365-security/sample-script-for-applying-eop-settings-to-multiple-tenants.md
                     - name: Domeinen en instellingen van één EOP-organisatie naar een andere EOP-organisatie verplaatsen
                       href: ./office-365-security/move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
-                    - name: 'Overschakelen naar EOP uit Google Postini, de Barracuda Spam en Virus Firewall, of Cisco IronPort'
+                    - name: 'Overschakelen naar EOP uit Google Postini, de Barracuda Spam en Virus Firewall of Cisco IronPort'
                       href: ./office-365-security/switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md
                     - name: Backscatter-berichten en EOP
                       href: ./office-365-security/backscatter-messages-and-eop.md
@@ -530,7 +532,7 @@
                   items:
                     - name: Controlerapporten in EOP
                       href: ./office-365-security/auditing-reports-in-eop.md
-                    - name: Een rapport voor groepen met beheerdersrollen uitvoeren in EOP
+                    - name: Een rapport over groepen met beheerdersrollen uitvoeren in EOP
                       href: ./office-365-security/run-an-administrator-role-group-report-in-eop-eop.md
                 - name: Ontvangers en groepen met beheerdersrollen beheren in EOP
                   href: ./office-365-security/manage-recipients-and-admin-role-groups-in-eop.md
@@ -546,13 +548,13 @@
                 - name: E-mailstroom in EOP
                   href: ./office-365-security/mail-flow-in-eop.md
                   items:
-                    - name: Hoe u kunt helpen verzekeren dat een bericht niet als spam wordt gemarkeerd
+                    - name: Hoe u ervoor kunt zorgen dat een bericht niet als spam wordt gemarkeerd
                       href: ./office-365-security/how-to-help-ensure-that-a-message-isn-t-marked-as-spam.md
                     - name: E-mailstroomregels (transportregels)
                       href: ./office-365-security/mail-flow-rules-transport-rules-0.md
                     - name: E-mailstroomregels gebruiken om het filteren van bulkmail te configureren
                       href: ./office-365-security/use-transport-rules-to-configure-bulk-email-filtering.md
-                    - name: Malwarebedreigingen verminderen door bestandsbijlagen te blokkeren
+                    - name: Bedreigingen van schadelijke software beperken door bestandsbijlagen te blokkeren
                       href: ./office-365-security/reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
                     - name: Rapportage en berichttracering
                       href: ./office-365-security/reporting-and-message-trace-in-exchange-online-protection.md
@@ -564,7 +566,7 @@
                       href: ./office-365-security/troubleshooting-mail-sent-to-office-365.md
                     - name: Help en ondersteuning voor EOP
                       href: ./office-365-security/help-and-support-for-eop.md
-                    - name: Veelgestelde vragen over EOP
+                    - name: Algemene veelgestelde vragen over EOP
                       href: ./office-365-security/eop-general-faq.md
                     - name: 'Veelgestelde vragen over in een wachtrij geplaatste, uitgestelde en niet-bezorgde berichten in EOP'
                       href: ./office-365-security/eop-queued-deferred-and-bounced-messages-faq.md
@@ -590,7 +592,7 @@
                   href: ./office-365-security/send-and-receive-s-mime-signed-and-encrypted-email.md
                 - name: Gebruikerscertificaten synchroniseren met Office 365 voor S/MIME
                   href: ./office-365-security/sync-user-certificates-to-office-365-for-s-mime.md
-                - name: Verzameling van virtuele certificaten instellen om S/MIME te valideren
+                - name: Een verzameling van virtuele certificaten instellen om S/MIME te valideren
                   href: ./office-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
         - name: Office 365 Enterprise
           href: 'https://docs.microsoft.com/office-365-security/Enterprise'
