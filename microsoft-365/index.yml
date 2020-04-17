@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Microsoft 365 helpcentrum voor beheerders en IT-professionals
-summary: Ontdek help- en trainingsbronnen voor Microsoft 365.
+title: Helpcentrum voor beheerders en IT-professionals van Microsoft 365
+summary: Verken de Help-informatie en trainingshulpmiddelen voor Microsoft 365.
 brand: m365
 metadata:
-  title: Microsoft 365 helpcentrum voor beheerders en IT-professionals
-  description: Microsoft 365 instellen, implementeren en beheren om uw organisatie, kleine bedrijven, campagne of docenten en studenten te ondersteunen
+  title: Helpcentrum voor beheerders en IT-professionals van Microsoft 365
+  description: Microsoft 365 instellen, implementeren en beheren voor ondersteuning van uw organisatie, kleinbedrijf, campagne of docenten en leerlingen/studenten
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.topic: hub-page
@@ -15,56 +15,56 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: 4c66e2c398adfc67ec28661ed654ca891a846534
   ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: nl-NL
   ms.lasthandoff: 03/19/2020
   ms.locfileid: "42857319"
 highlightedContent:
   items:
-  - title: Training voor admins en IT-professionals
+  - title: Training voor beheerders en IT-professionals
     itemType: learn
     url: https://docs.microsoft.com/learn/m365/
   - title: Training voor eindgebruikers
     itemType: learn
     url: https://support.office.com/modernworkplace
-  - title: Uw bedrijf instellen in de cloud
+  - title: Uw bedrijf in de cloud instellen
     itemType: learn
     url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
-  - title: Test Lab Gidsen voor IT-professionals
+  - title: Testlabrichtlijnen voor IT-professionals
     itemType: how-to-guide
     url: ./enterprise/m365-enterprise-test-lab-guides.md
-  - title: Microsoft 365 tech community
+  - title: Microsoft 365 tech-Community
     itemType: get-started
     url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365
-  - title: Bronnen voor ontwikkelaars
+  - title: Hulpmiddelen voor ontwikkelaars
     itemType: reference
     url: https://developer.microsoft.com/microsoft-365
 additionalContent:
   sections:
-  - title: Hulp krijgen bij Microsoft 365
-    summary: Selecteer een kaart voor meer informatie over Microsoft 365.
+  - title: Ondersteuning voor Microsoft 365
+    summary: Selecteer een kaartje voor meer informatie over Microsoft 365.
     items:
     - title: Microsoft 365-beheercentrum
       summary: Office 365- en Microsoft 365-services voor uw organisatie instellen en beheren.
       url: ./admin/admin-home.yml
     - title: Microsoft 365 Business
-      summary: Ontworpen voor kleine en middelgrote bedrijven. Voer uw bedrijf uit met de nieuwste versie van Windows- en Office-apps zoals Excel en Outlook. Profiteer van gegevensbescherming en beveiliging die zich uitstrekt tot al uw zakelijke apparaten.
+      summary: Ontworpen voor kleine en middelgrote bedrijven. Run uw bedrijf met de nieuwste versie van Windows- en Office-apps, zoals Excel en Outlook. Profiteer van gegevensbescherming en -beveiliging voor alle bedrijfsapparaten.
       url: ./business/index.yml
     - title: Microsoft 365 Enterprise
-      summary: Ontworpen voor grote organisaties. Bescherm uw bedrijf en transformeer de manier waarop u werkt met Office-apps, Windows 10 en Enterprise Mobility + Security.
+      summary: Ontworpen voor grote organisaties. Beveilig uw bedrijf en transformeer uw werkwijze met Office-apps, Windows 10 en Enterprise Mobility + Security.
       url: ./enterprise/index.yml
-    - title: Microsoft 365 Onderwijs
-      summary: Ontworpen voor docenten om creativiteit te ontsluiten, teamwork te promoten en een eenvoudige en veilige ervaring te bieden in één betaalbare oplossing die is gebouwd voor onderwijs.
+    - title: Microsoft 365 Education
+      summary: Ontworpen voor docenten voor meer creativiteit, het bevorderen van teamwork en het bieden van een eenvoudige en veilige ervaring in één betaalbare oplossing die is ontwikkeld voor het onderwijs.
       url: https://docs.microsoft.com/education/
-    - title: Microsoft 365 Compliance
-      summary: Help uw organisatie informatie te beheren, te beschermen tegen risico's en te voldoen aan wettelijke of wettelijke normen.
+    - title: Microsoft 365-compliance
+      summary: Help uw organisatie bij het beheren van informatie, bescherm tegen risico's en leef alle normen uit wet- en regelgeving na.
       url: ./compliance/index.yml
     - title: Microsoft 365-beveiliging
-      summary: Lees meer over de robuuste beveiligingsoplossingen en -services in Microsoft 365 Security, zodat u uw organisatie beter beschermen op het gebied van aanvallen.
+      summary: Lees meer over de krachtige beveiligingsoplossingen en -services in Microsoft 365-beveiliging, zodat u uw organisatie beter kunt beveiligen op meerdere fronten.
       url: ./security/index.yml
     - title: Microsoft 365 voor campagnes
-      summary: Houd uw campagne- of bedrijfsgegevens en -communicatie veilig met deze aanbevolen configuratie voor Microsoft 365 Business.
+      summary: Houd uw campagne of bedrijfsgegevens en bedrijfscommunicatie beveiligd met deze aanbevolen configuratie voor Microsoft 365 Business.
       url: ./campaigns/index.md
     - title: Microsoft Managed Desktop
-      summary: Microsoft Managed Desktop brengt Microsoft 365 Enterprise, cloudgebaseerd apparaatbeheer door Microsoft en beveiligingsbewaking samen, zodat u uw IT-teams vrijmaken om zich te concentreren op de belangrijkste zakelijke behoeften.
+      summary: Microsoft Managed Desktop combineert Microsoft 365 Enterprise, apparaatbeheer in de cloud door Microsoft en beveiligingscontroles, zodat uw IT-teams zich kunnen concentreren op de kernbehoeften van uw bedrijf.
       url: ./managed-desktop/index.yml
