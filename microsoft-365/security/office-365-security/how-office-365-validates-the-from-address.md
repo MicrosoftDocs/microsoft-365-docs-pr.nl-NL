@@ -1,11 +1,11 @@
 ---
-title: Hoe Office 365 het Adres Van valideert om phishing te voorkomen
+title: Hoe Office 365 het Van-adres valideert om phishing te voorkomen
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyp
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 10/11/2017
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,217 +16,115 @@ search.appverid:
 ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
-description: 'Om phishing te voorkomen, vereisen Office 365 en Outlook.com nu RFC-compliance voor From: adressen.'
-ms.openlocfilehash: 6459faa22f29017568747b84bbd2935aad6763d1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Lear over de vereisten voor Van e-mailadressen voor binnenkomende berichten in Office 365. Vanaf november 2017 vereist de service nu RFC-compatibele From-adressen om spoofing te voorkomen.
+ms.openlocfilehash: 4df073cfff3c36f60a013237d95548cb48fa7b5f
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42805694"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528999"
 ---
-# <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a><span data-ttu-id="b1e5b-103">Hoe Office 365 het Adres Van valideert om phishing te voorkomen</span><span class="sxs-lookup"><span data-stu-id="b1e5b-103">How Office 365 validates the From address to prevent phishing</span></span>
+# <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a><span data-ttu-id="57dd8-104">Hoe Office 365 het Van-adres valideert om phishing te voorkomen</span><span class="sxs-lookup"><span data-stu-id="57dd8-104">How Office 365 validates the From address to prevent phishing</span></span>
 
-<span data-ttu-id="b1e5b-104">Office 365 en Outlook.com e-mailaccounts ontvangen een steeds groter aantal phishing-aanvallen.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-104">Office 365 and Outlook.com email accounts receive an increasingly large number of phishing attacks.</span></span> <span data-ttu-id="b1e5b-105">Een techniek die phishers gebruiken is het verzenden van berichten die waarden hebben voor het Adres dat niet voldoet aan [RFC 5322.](https://tools.ietf.org/html/rfc5322)</span><span class="sxs-lookup"><span data-stu-id="b1e5b-105">One technique phishers use is to send messages that have values for the From: address that are not compliant with [RFC 5322](https://tools.ietf.org/html/rfc5322).</span></span> <span data-ttu-id="b1e5b-106">Het adres Van: wordt ook wel de 5322.From adres genoemd.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-106">The From: address is also called the 5322.From address.</span></span> <span data-ttu-id="b1e5b-107">Om dit soort phishing te voorkomen, vereisen Office 365 en Outlook.com berichten die door de service zijn ontvangen om een RFC-compatibel Met: adres zoals beschreven in dit artikel op te nemen.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-107">To help prevent this type of phishing, Office 365 and Outlook.com require messages received by the service to include an RFC-compliant From: address as described in this article.</span></span>
+<span data-ttu-id="57dd8-105">E-mailaccounts van Office 365 ontvangen een steeds groter aantal phishing-aanvallen.</span><span class="sxs-lookup"><span data-stu-id="57dd8-105">Office 365 email accounts receive an increasingly large number of phishing attacks.</span></span> <span data-ttu-id="57dd8-106">Naast het gebruik van [vervalste (vervalste) afzender e-mailadressen](anti-spoofing-protection.md), aanvallers gebruiken vaak waarden in de Van adres die internet normen schenden.</span><span class="sxs-lookup"><span data-stu-id="57dd8-106">In addition to using [spoofed (forged) sender email addresses](anti-spoofing-protection.md), attackers often use values in the From address that violate internet standards.</span></span> <span data-ttu-id="57dd8-107">Om dit soort phishing te voorkomen, vereisen Office 365 en Outlook.com nu binnenkomende berichten om een RFC-compatibel Adres op te nemen zoals beschreven in dit onderwerp.</span><span class="sxs-lookup"><span data-stu-id="57dd8-107">To help prevent this type of phishing, Office 365 and Outlook.com now require inbound messages to include an RFC-compliant From address as described in this topic.</span></span> <span data-ttu-id="57dd8-108">Deze handhaving werd in november 2017 mogelijk gemaakt.</span><span class="sxs-lookup"><span data-stu-id="57dd8-108">This enforcement was enabled in November 2017.</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="b1e5b-108">De informatie in dit artikel vereist dat u een basiskennis hebt van het algemene formaat van e-mailadressen.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-108">The information in this article requires you to have a basic understanding of the general format of email addresses.</span></span> <span data-ttu-id="b1e5b-109">Zie Voor meer informatie [rfc 5322](https://tools.ietf.org/html/rfc5322) (met name de punten 3.2.3, 3.4 en 3.4.1), [RFC 5321](https://tools.ietf.org/html/rfc5321)en [RFC 3696](https://tools.ietf.org/html/rfc3696).</span><span class="sxs-lookup"><span data-stu-id="b1e5b-109">For more information, see [RFC 5322](https://tools.ietf.org/html/rfc5322) (particularly sections 3.2.3, 3.4, and 3.4.1), [RFC 5321](https://tools.ietf.org/html/rfc5321), as well as [RFC 3696](https://tools.ietf.org/html/rfc3696).</span></span> <span data-ttu-id="b1e5b-110">Dit artikel gaat over beleidshandhaving voor de 5322.From adres.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-110">This article is about policy enforcement for the 5322.From address.</span></span> <span data-ttu-id="b1e5b-111">Dit artikel gaat niet over de 5321.MailFrom adres.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-111">This article is not about the 5321.MailFrom address.</span></span>
+<span data-ttu-id="57dd8-109">**Opmerkingen**:</span><span class="sxs-lookup"><span data-stu-id="57dd8-109">**Notes**:</span></span>
 
-<span data-ttu-id="b1e5b-112">Helaas zijn er nog enkele verouderde e-mailservers op het internet die nog steeds "legitieme" e-mailberichten verzenden die een ontbrekende of misvormde Van: adres hebben.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-112">Unfortunately, there are still some legacy email servers on the Internet that continue to send "legitimate" email messages that have a missing or malformed From: address.</span></span> <span data-ttu-id="b1e5b-113">Als u regelmatig e-mail ontvangt van organisaties die deze verouderde systemen gebruiken, moedigt u deze organisaties aan om hun e-mailservers bij te werken om te voldoen aan moderne beveiligingsnormen.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-113">If you regularly receive email from organizations that use these legacy systems, encourage those organizations to update their mail servers to comply with modern security standards.</span></span>
+- <span data-ttu-id="57dd8-110">Als u regelmatig e-mail ontvangt van organisaties die verkeerd zijn vervormd van adressen zoals beschreven in dit onderwerp, moedigt u deze organisaties aan om hun e-mailservers bij te werken om te voldoen aan moderne beveiligingsstandaarden.</span><span class="sxs-lookup"><span data-stu-id="57dd8-110">If you regularly receive email from organizations that have malformed From addresses as described in this topic, encourage these organizations to update their email servers to comply with modern security standards.</span></span>
 
-<span data-ttu-id="b1e5b-114">Microsoft zal op 9 november 2017 beginnen met de uitrol van de handhaving van het beleid dat in dit artikel wordt beschreven.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-114">Microsoft will start rolling out enforcement of the policies described in this article on November 9, 2017.</span></span>
+- <span data-ttu-id="57dd8-111">Het veld gerelateerde afzender (gebruikt door Verzenden namens en mailinglijsten) wordt niet beïnvloed door deze vereisten.</span><span class="sxs-lookup"><span data-stu-id="57dd8-111">The related Sender field (used by Send on Behalf and mailing lists) isn't affected by these requirements.</span></span> <span data-ttu-id="57dd8-112">Zie voor meer informatie de volgende blogpost: [Wat bedoelen we als we verwijzen naar de 'afzender' van een e-mail?](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/).</span><span class="sxs-lookup"><span data-stu-id="57dd8-112">For more information, see the following blog post: [What do we mean when we refer to the 'sender' of an email?](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/).</span></span>
 
-## <a name="how-office-365-enforces-the-use-of-a-valid-from-address-to-prevent-phishing-attacks"></a><span data-ttu-id="b1e5b-115">Hoe Office 365 het gebruik van een geldige From: adres afdwingt om phishing-aanvallen te voorkomen</span><span class="sxs-lookup"><span data-stu-id="b1e5b-115">How Office 365 enforces the use of a valid From: address to prevent phishing attacks</span></span>
+## <a name="an-overview-of-email-message-standards"></a><span data-ttu-id="57dd8-113">Een overzicht van de normen voor e-mailberichten</span><span class="sxs-lookup"><span data-stu-id="57dd8-113">An overview of email message standards</span></span>
 
-<span data-ttu-id="b1e5b-116">Office 365 voert wijzigingen aan in de manier waarop het het gebruik van het From: adres afdwingt in berichten die het ontvangt om u beter te beschermen tegen phishing-aanvallen.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-116">Office 365 is making changes to the way it enforces the use of the From: address in messages it receives in order to better protect you from phishing attacks.</span></span> <span data-ttu-id="b1e5b-117">In dit artikel:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-117">In this article:</span></span>
+<span data-ttu-id="57dd8-114">Een standaard SMTP-e-mailbericht bestaat uit een *berichtenvelop* en berichtinhoud.</span><span class="sxs-lookup"><span data-stu-id="57dd8-114">A standard SMTP email message consists of a *message envelope* and message content.</span></span> <span data-ttu-id="57dd8-115">De berichtenvelop bevat informatie die nodig is voor het verzenden en leveren van het bericht tussen SMTP-servers.</span><span class="sxs-lookup"><span data-stu-id="57dd8-115">The message envelope contains information that's required for transmitting and delivering the message between SMTP servers.</span></span> <span data-ttu-id="57dd8-116">De inhoud van het bericht bevat teksttekstvelden (gezamenlijk de *berichtkop genoemd)* en de berichttekst.</span><span class="sxs-lookup"><span data-stu-id="57dd8-116">The message content contains message header fields (collectively called the *message header*) and the message body.</span></span> <span data-ttu-id="57dd8-117">De berichtenvelop wordt beschreven in [RFC 5321](https://tools.ietf.org/html/rfc5321)en de berichtkop wordt beschreven in [RFC 5322](https://tools.ietf.org/html/rfc5322).</span><span class="sxs-lookup"><span data-stu-id="57dd8-117">The message envelope is described in [RFC 5321](https://tools.ietf.org/html/rfc5321), and the message header is described in [RFC 5322](https://tools.ietf.org/html/rfc5322).</span></span> <span data-ttu-id="57dd8-118">Ontvangers zien nooit de werkelijke berichtenvelop omdat deze wordt gegenereerd door het berichtoverdrachtsproces en het is eigenlijk geen onderdeel van het bericht.</span><span class="sxs-lookup"><span data-stu-id="57dd8-118">Recipients never see the actual message envelope because it's generated by the message transmission process, and it isn't actually part of the message.</span></span>
 
-- [<span data-ttu-id="b1e5b-118">Alle berichten moeten een geldig Vanaf: adres bevatten</span><span class="sxs-lookup"><span data-stu-id="b1e5b-118">All messages must include a valid From: address</span></span>](how-office-365-validates-the-from-address.md#MustIncludeFromAddress)
+- <span data-ttu-id="57dd8-119">Het `5321.MailFrom` adres (ook bekend als het **e-mailadres van** het adres, de afzender van P1 of de afzender van de envelop) is het e-mailadres dat wordt gebruikt in de SMTP-transmissie van het bericht.</span><span class="sxs-lookup"><span data-stu-id="57dd8-119">The `5321.MailFrom` address (also known as the **MAIL FROM** address, P1 sender, or envelope sender) is the email address that's used in the SMTP transmission of the message.</span></span> <span data-ttu-id="57dd8-120">Dit e-mailadres wordt meestal opgenomen in het koptekstveld **Return-Path** in de berichtkop (hoewel het mogelijk is dat de afzender een ander **e-mailadres van het retourpad** aanwijst).</span><span class="sxs-lookup"><span data-stu-id="57dd8-120">This email address is typically recorded in the **Return-Path** header field in the message header (although it's possible for the sender to designate a different **Return-Path** email address).</span></span>
 
-- [<span data-ttu-id="b1e5b-119">Indeling van het Adres Van als u geen weergavenaam opneemt</span><span class="sxs-lookup"><span data-stu-id="b1e5b-119">Format of the From: address if you don't include a display name</span></span>](how-office-365-validates-the-from-address.md#FormatNoDisplayName)
+- <span data-ttu-id="57dd8-121">Het `5322.From` (ook wel bekend als de Afzender Van of P2) is het e-mailadres in het veld **Van** koptekst en is het e-mailadres van de afzender dat wordt weergegeven in e-mailclients.</span><span class="sxs-lookup"><span data-stu-id="57dd8-121">The `5322.From` (also known as the From address or P2 sender) is the email address in the **From** header field, and is the sender's email address that's displayed in email clients.</span></span> <span data-ttu-id="57dd8-122">Het Adres van Het is de nadruk van de vereisten in dit onderwerp.</span><span class="sxs-lookup"><span data-stu-id="57dd8-122">The From address is the focus of the requirements in this topic.</span></span>
 
-- [<span data-ttu-id="b1e5b-120">Indeling van het Adres Van: als u een weergavenaam opneemt</span><span class="sxs-lookup"><span data-stu-id="b1e5b-120">Format of the From: address if you include a display name</span></span>](how-office-365-validates-the-from-address.md#FormatDisplayName)
+<span data-ttu-id="57dd8-123">Het Adres Van wordt in detail gedefinieerd over verschillende RFC's (bijvoorbeeld RFC 5322-secties 3.2.3, 3.4 en 3.4.1 en [RFC 3696](https://tools.ietf.org/html/rfc3696)).</span><span class="sxs-lookup"><span data-stu-id="57dd8-123">The From address is defined in detail across several RFCs (for example, RFC 5322 sections 3.2.3, 3.4, and 3.4.1, and [RFC 3696](https://tools.ietf.org/html/rfc3696)).</span></span> <span data-ttu-id="57dd8-124">Er zijn veel variaties op het adresseren en wat wordt beschouwd als geldig of ongeldig.</span><span class="sxs-lookup"><span data-stu-id="57dd8-124">There are many variations on addressing and what's considered valid or invalid.</span></span> <span data-ttu-id="57dd8-125">Om het simpel te houden, raden we de volgende indeling en definities aan:</span><span class="sxs-lookup"><span data-stu-id="57dd8-125">To keep it simple, we recommend the following format and definitions:</span></span>
 
-- [<span data-ttu-id="b1e5b-121">Aanvullende voorbeelden van geldig en ongeldig Vanaf: adressen</span><span class="sxs-lookup"><span data-stu-id="b1e5b-121">Additional examples of valid and invalid From: addresses</span></span>](how-office-365-validates-the-from-address.md#Examples)
+`From: "Display Name" <EmailAddress>`
 
-- [<span data-ttu-id="b1e5b-122">Automatische antwoorden op uw aangepaste domein onderdrukken zonder het beleid Van:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-122">Suppress auto-replies to your custom domain without breaking the From: policy</span></span>](how-office-365-validates-the-from-address.md#SuppressAutoReply)
+- <span data-ttu-id="57dd8-126">**Weergavenaam:** een optionele woordgroep die de eigenaar van het e-mailadres beschrijft.</span><span class="sxs-lookup"><span data-stu-id="57dd8-126">**Display Name**: An optional phrase that describes the owner of the email address.</span></span>
 
-- [<span data-ttu-id="b1e5b-123">Office 365 overschrijven Vanaf: beleid voor adreshandhaving</span><span class="sxs-lookup"><span data-stu-id="b1e5b-123">Overriding the Office 365 From: address enforcement policy</span></span>](how-office-365-validates-the-from-address.md#Override)
+  - <span data-ttu-id="57dd8-127">We raden u aan de weergavenaam altijd in dubbele aanhalingstekens (") zoals weergegeven, in te sluiten.</span><span class="sxs-lookup"><span data-stu-id="57dd8-127">We recommend that you always enclose the display name in double quotation marks (") as shown.</span></span> <span data-ttu-id="57dd8-128">Als de weergavenaam een komma bevat, _moet_ u de tekenreeks in dubbele aanhalingstekens per RFC 5322 bijsluiten.</span><span class="sxs-lookup"><span data-stu-id="57dd8-128">If the display name contains a comma, you _must_ enclose the string in double quotation marks per RFC 5322.</span></span>
+  - <span data-ttu-id="57dd8-129">Als het Van-adres een weergavenaam bevat, moet de waarde Van Mailadres worden ingesloten in hoekhaakjes (< >) zoals weergegeven.</span><span class="sxs-lookup"><span data-stu-id="57dd8-129">If the From address includes a display name, the EmailAddress value must be enclosed in angle brackets (< >) as shown.</span></span>
+  - <span data-ttu-id="57dd8-130">Microsoft raadt u ten zeerste aan een spatie in te voegen tussen de weergavenaam en het e-mailadres.</span><span class="sxs-lookup"><span data-stu-id="57dd8-130">Microsoft strongly recommends that you insert a space between the display name and the email address.</span></span>
 
-- [<span data-ttu-id="b1e5b-124">Andere manieren om cybercriminaliteit in Office 365 te voorkomen en te beschermen</span><span class="sxs-lookup"><span data-stu-id="b1e5b-124">Other ways to prevent and protect against cybercrimes in Office 365</span></span>](how-office-365-validates-the-from-address.md#OtherProtection)
+- <span data-ttu-id="57dd8-131">**E-mailadres:** Een e-mailadres maakt gebruik van de indeling: `local-part@domain`</span><span class="sxs-lookup"><span data-stu-id="57dd8-131">**EmailAddress**: An email address uses the format `local-part@domain`:</span></span>
 
-<span data-ttu-id="b1e5b-125">Verzenden namens een andere gebruiker wordt niet beïnvloed door deze wijziging, voor meer details, lees Terry Zink's blog "[Wat bedoelen we als we verwijzen naar de 'afzender' van een e-mail?](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/)".</span><span class="sxs-lookup"><span data-stu-id="b1e5b-125">Sending on behalf of another user is not affected by this change, for more details, read Terry Zink's blog "[What do we mean when we refer to the 'sender' of an email?](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/)".</span></span>
+  - <span data-ttu-id="57dd8-132">**lokaal deel**: een tekenreeks die het postvak identificeert dat aan het adres is gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="57dd8-132">**local-part**: A string that identifies the mailbox associated with the address.</span></span> <span data-ttu-id="57dd8-133">Deze waarde is uniek binnen het domein.</span><span class="sxs-lookup"><span data-stu-id="57dd8-133">This value is unique within the domain.</span></span> <span data-ttu-id="57dd8-134">Vaak wordt de gebruikersnaam of GUID van de eigenaar van het postvak gebruikt.</span><span class="sxs-lookup"><span data-stu-id="57dd8-134">Often, the mailbox owner's username or GUID is used.</span></span>
+  - <span data-ttu-id="57dd8-135">**domein:** de volledig gekwalificeerde domeinnaam (FQDN) van de e-mailserver die het postvak host dat is geïdentificeerd door het lokale deel van het e-mailadres.</span><span class="sxs-lookup"><span data-stu-id="57dd8-135">**domain**: The fully qualified domain name (FQDN) of the email server that hosts the mailbox identified by the local-part of the email address.</span></span>
 
-### <a name="all-messages-must-include-a-valid-from-address"></a><span data-ttu-id="b1e5b-126">Alle berichten moeten een geldig Vanaf: adres bevatten</span><span class="sxs-lookup"><span data-stu-id="b1e5b-126">All messages must include a valid From: address</span></span>
-<span data-ttu-id="b1e5b-127"><a name="MustIncludeFromAddress"> </a></span><span class="sxs-lookup"><span data-stu-id="b1e5b-127"><a name="MustIncludeFromAddress"> </a></span></span>
+  <span data-ttu-id="57dd8-136">Dit zijn enkele aanvullende overwegingen voor de waarde Van E-mailadres:</span><span class="sxs-lookup"><span data-stu-id="57dd8-136">These are some additional considerations for the EmailAddress value:</span></span>
 
-<span data-ttu-id="b1e5b-128">Sommige geautomatiseerde berichten bevatten geen Van: adres wanneer ze worden verzonden.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-128">Some automated messages don't include a From: address when they are sent.</span></span> <span data-ttu-id="b1e5b-129">In het verleden, toen Office 365 of Outlook.com een bericht ontvangen zonder een Van: adres, heeft de service de volgende standaard van: adres naar het bericht toegevoegd om het te laten bezorgen:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-129">In the past, when Office 365 or Outlook.com received a message without a From: address, the service added the following default From: address to the message in order to make it deliverable:</span></span>
+  - <span data-ttu-id="57dd8-137">Slechts één e-mailadres.</span><span class="sxs-lookup"><span data-stu-id="57dd8-137">Only one email address.</span></span>
+  - <span data-ttu-id="57dd8-138">Wij raden u aan de hoekbeugels niet te scheiden van spaties.</span><span class="sxs-lookup"><span data-stu-id="57dd8-138">We recommend that you do not separate the angle brackets with spaces.</span></span>
+  - <span data-ttu-id="57dd8-139">Voeg geen extra tekst toe na het e-mailadres.</span><span class="sxs-lookup"><span data-stu-id="57dd8-139">Don't include additional text after the email address.</span></span>
 
-```
-From: <>
-```
+## <a name="examples-of-valid-and-invalid-from-addresses"></a><span data-ttu-id="57dd8-140">Voorbeelden van geldig en ongeldig van adressen</span><span class="sxs-lookup"><span data-stu-id="57dd8-140">Examples of valid and invalid From addresses</span></span>
 
-<span data-ttu-id="b1e5b-130">Vanaf 9 november 2017 rolt Office 365 wijzigingen uit in zijn datacenters en e-mailservers, waardoor een nieuwe regel wordt afgedwongen waarbij berichten zonder From: adres niet langer worden geaccepteerd door Office 365 of Outlook.com.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-130">Starting November 9, 2017, Office 365 will be rolling out changes to its datacenters and mail servers which will enforce a new rule where messages without a From: address will no longer be accepted by Office 365 or Outlook.com.</span></span> <span data-ttu-id="b1e5b-131">In plaats daarvan moeten alle door Office 365 ontvangen berichten al een geldig Van: adres bevatten.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-131">Instead, all messages received by Office 365 must already contain a valid From: address.</span></span> <span data-ttu-id="b1e5b-132">Anders wordt het bericht verzonden naar de map Ongewenste e-mail of Verwijderde items in Outlook.com en Office 365.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-132">Otherwise, the message will be sent to either the Junk Email or Deleted Items folders in Outlook.com and Office 365.</span></span>
+<span data-ttu-id="57dd8-141">Het volgende Van e-mailadressen zijn geldig:</span><span class="sxs-lookup"><span data-stu-id="57dd8-141">The following From email addresses are valid:</span></span>
 
-### <a name="syntax-overview-valid-format-for-the-from-address-for-office-365"></a><span data-ttu-id="b1e5b-133">Syntaxisoverzicht: geldige notatie voor het adres Van voor Office 365</span><span class="sxs-lookup"><span data-stu-id="b1e5b-133">Syntax overview: Valid format for the From: address for Office 365</span></span>
-<span data-ttu-id="b1e5b-134"><a name="SyntaxOverviewFromAddress"> </a></span><span class="sxs-lookup"><span data-stu-id="b1e5b-134"><a name="SyntaxOverviewFromAddress"> </a></span></span>
+- `From: sender@contoso.com`
 
-<span data-ttu-id="b1e5b-135">De indeling voor de waarde van het Adres Van: wordt in detail gedefinieerd op verschillende RFC's.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-135">The format for the value of the From: address is defined in detail across several RFCs.</span></span> <span data-ttu-id="b1e5b-136">Er zijn veel variaties op het aanpakken en wat kan worden beschouwd als geldig of ongeldig.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-136">There are many variations on addressing and what may be considered valid or invalid.</span></span> <span data-ttu-id="b1e5b-137">Om het eenvoudig te houden, raadt Microsoft u aan de volgende indeling en definities te gebruiken:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-137">To keep it simple, Microsoft recommends that you use the following format and definitions:</span></span>
+- `From: <sender@contoso.com>`
 
-```
-From: "displayname " <emailaddress >
-```
+- <span data-ttu-id="57dd8-142">`From: < sender@contoso.com >`(Niet aanbevolen omdat er spaties zijn tussen de hoekhaakjes en het e-mailadres.)</span><span class="sxs-lookup"><span data-stu-id="57dd8-142">`From: < sender@contoso.com >` (Not recommended because there are spaces between the angle brackets and the email address.)</span></span>
 
-<span data-ttu-id="b1e5b-138">Waar:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-138">Where:</span></span>
+- `From: "Sender, Example" <sender.example@contoso.com>`
 
-- <span data-ttu-id="b1e5b-139">(Optioneel)  *displayname* is een woordgroep waarin de eigenaar van het e-mailadres wordt beschreven.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-139">(Optional)  *displayname*  is a phrase that describes the owner of the email address.</span></span> <span data-ttu-id="b1e5b-140">Dit kan bijvoorbeeld een gebruiksvriendelijkere naam zijn om de afzender te beschrijven dan de naam van het postvak.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-140">For example, this might be a more user-friendly name to describe the sender than the name of the mailbox.</span></span> <span data-ttu-id="b1e5b-141">Het gebruik van een weergavenaam is optioneel.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-141">Using a display name is optional.</span></span> <span data-ttu-id="b1e5b-142">Als u er echter voor kiest om een weergavenaam te gebruiken, raadt Microsoft u aan deze altijd in te sluiten binnen aanhalingstekens zoals afgebeeld.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-142">However, if you choose to use a display name, Microsoft recommends that you always enclose it within quotation marks as shown.</span></span>
+- `From: "Office 365" <sender@contoso.com>`
 
-- <span data-ttu-id="b1e5b-143">(Vereist)  *e-mailadres* bestaat uit:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-143">(Required)  *emailaddress*  is made up of:</span></span>
+- <span data-ttu-id="57dd8-143">`From: Office 365 <sender@contoso.com>`(Niet aanbevolen omdat de weergavenaam niet is ingesloten met dubbele aanhalingstekens.)</span><span class="sxs-lookup"><span data-stu-id="57dd8-143">`From: Office 365 <sender@contoso.com>` (Not recommended because the display name is not enclosed in double quotation marks.)</span></span>
 
-  ```
-  local-part @domain
-  ```
+<span data-ttu-id="57dd8-144">Het volgende Van e-mailadressen zijn ongeldig:</span><span class="sxs-lookup"><span data-stu-id="57dd8-144">The following From email addresses are invalid:</span></span>
 
-    <span data-ttu-id="b1e5b-144">Waar:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-144">Where:</span></span>
+- <span data-ttu-id="57dd8-145">**Geen adres:** Sommige geautomatiseerde berichten bevatten geen Van-adres.</span><span class="sxs-lookup"><span data-stu-id="57dd8-145">**No From address**: Some automated messages don't include a From address.</span></span> <span data-ttu-id="57dd8-146">In het verleden, toen Office 365 of Outlook.com een bericht zonder adres hebben ontvangen, heeft de service de volgende standaardinstelling toegevoegd Van: adres om het bericht beschikbaar te maken:</span><span class="sxs-lookup"><span data-stu-id="57dd8-146">In the past, when Office 365 or Outlook.com received a message without a From address, the service added the following default From: address to make the message deliverable:</span></span>
 
-  - <span data-ttu-id="b1e5b-145">(Vereist)  *lokaal deel* is een tekenreeks die het postvak identificeert dat aan het adres is gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-145">(Required)  *local-part*  is a string that identifies the mailbox associated with the address.</span></span> <span data-ttu-id="b1e5b-146">Dit is uniek binnen het domein.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-146">This is unique within the domain.</span></span> <span data-ttu-id="b1e5b-147">Vaak wordt de gebruikersnaam of GUID van de postvakeigenaar gebruikt als de waarde voor het lokale gedeelte.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-147">Often, the mailbox owner's username or GUID is used as the value for the local-part.</span></span>
+  `From: <>`
 
-  - <span data-ttu-id="b1e5b-148">(Vereist)  *domein* is de volledig gekwalificeerde domeinnaam (FQDN) van de e-mailserver die het postvak host dat is geïdentificeerd door het lokale deel van het e-mailadres.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-148">(Required)  *domain*  is the fully-qualified domain name (FQDN) of the mail server that hosts the mailbox identified by the local-part of the email address.</span></span>
+  <span data-ttu-id="57dd8-147">Nu worden berichten met een leeg Van-adres niet meer geaccepteerd.</span><span class="sxs-lookup"><span data-stu-id="57dd8-147">Now, messages with a blank From address are no longer accepted.</span></span>
 
-### <a name="format-of-the-from-address-if-you-dont-include-a-display-name"></a><span data-ttu-id="b1e5b-149">Indeling van het Adres Van als u geen weergavenaam opneemt</span><span class="sxs-lookup"><span data-stu-id="b1e5b-149">Format of the From: address if you don't include a display name</span></span>
-<span data-ttu-id="b1e5b-150"><a name="FormatNoDisplayName"> </a></span><span class="sxs-lookup"><span data-stu-id="b1e5b-150"><a name="FormatNoDisplayName"> </a></span></span>
+- <span data-ttu-id="57dd8-148">`From: Office 365 sender@contoso.com`(De weergavenaam is aanwezig, maar het e-mailadres is niet in gesloten in hoekhaakjes.)</span><span class="sxs-lookup"><span data-stu-id="57dd8-148">`From: Office 365 sender@contoso.com` (The display name is present, but the email address is not enclosed in angle brackets.)</span></span>
 
-<span data-ttu-id="b1e5b-151">Een goed geformatteerd Van: adres dat geen weergavenaam bevat, bevat slechts één e-mailadres met of zonder hoekhaakjes.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-151">A properly formatted From: address that does not include a display name includes only a single email address with or without angle brackets.</span></span> <span data-ttu-id="b1e5b-152">Microsoft raadt u aan de hoekhaakjes niet te scheiden met spaties.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-152">Microsoft recommends that you do not separate the angle brackets with spaces.</span></span> <span data-ttu-id="b1e5b-153">Bovendien, niet iets opnemen na het e-mailadres.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-153">In addition, don't include anything after the email address.</span></span>
+- <span data-ttu-id="57dd8-149">`From: "Office 365" <sender@contoso.com> (Sent by a process)`(Tekst na het e-mailadres.)</span><span class="sxs-lookup"><span data-stu-id="57dd8-149">`From: "Office 365" <sender@contoso.com> (Sent by a process)` (Text after the email address.)</span></span>
 
-<span data-ttu-id="b1e5b-154">De volgende voorbeelden zijn geldig:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-154">The following examples are valid:</span></span>
+- <span data-ttu-id="57dd8-150">`From: Sender, Example <sender.example@contoso.com>`(De weergavenaam bevat een komma, maar is niet ingesloten met dubbele aanhalingstekens.)</span><span class="sxs-lookup"><span data-stu-id="57dd8-150">`From: Sender, Example <sender.example@contoso.com>` (The display name contains a comma, but is not enclosed in double quotation marks.)</span></span>
 
-```
-From: sender@contoso.com
-```
+- <span data-ttu-id="57dd8-151">`From: "Office 365 <sender@contoso.com>"`(De hele waarde is onjuist ingesloten in dubbele aanhalingstekens.)</span><span class="sxs-lookup"><span data-stu-id="57dd8-151">`From: "Office 365 <sender@contoso.com>"` (The whole value is incorrectly enclosed in double quotation marks.)</span></span>
 
-```
-From: <sender@contoso.com>
-```
+- <span data-ttu-id="57dd8-152">`From: "Office 365 <sender@contoso.com>" sender@contoso.com`(De weergavenaam is aanwezig, maar het e-mailadres is niet in gesloten in hoekhaakjes.)</span><span class="sxs-lookup"><span data-stu-id="57dd8-152">`From: "Office 365 <sender@contoso.com>" sender@contoso.com` (The display name is present, but the email address is not enclosed in angle brackets.)</span></span>
 
-<span data-ttu-id="b1e5b-155">Het volgende voorbeeld is geldig, maar wordt niet aanbevolen omdat het spaties bevat tussen de hoekhaakjes en het e-mailadres:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-155">The following example is valid but not recommended because it contains spaces between the angle brackets and the email address:</span></span>
+- <span data-ttu-id="57dd8-153">`From: Office 365<sender@contoso.com>`(Geen ruimte tussen de weergavenaam en de linkerhoekbeugel.)</span><span class="sxs-lookup"><span data-stu-id="57dd8-153">`From: Office 365<sender@contoso.com>` (No space between the display name and the left angle bracket.)</span></span>
 
-```
-From: < sender@contoso.com >
-```
+- <span data-ttu-id="57dd8-154">`From: "Office 365"<sender@contoso.com>`(Geen ruimte tussen het afsluitende dubbele aanhalingsteken en de linkerhoekhaak.)</span><span class="sxs-lookup"><span data-stu-id="57dd8-154">`From: "Office 365"<sender@contoso.com>` (No space between the closing double quotation mark and the left angle bracket.)</span></span>
 
-<span data-ttu-id="b1e5b-156">Het volgende voorbeeld is ongeldig omdat het tekst na het e-mailadres bevat:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-156">The following example is invalid because it contains text after the email address:</span></span>
+## <a name="suppress-auto-replies-to-your-custom-domain"></a><span data-ttu-id="57dd8-155">Automatische antwoorden op uw aangepaste domein onderdrukken</span><span class="sxs-lookup"><span data-stu-id="57dd8-155">Suppress auto-replies to your custom domain</span></span>
 
-```
-From: "Office 365" <sender@contoso.com> (Sent by a process)
+<span data-ttu-id="57dd8-156">U de waarde `From: <>` niet gebruiken om automatische antwoorden te onderdrukken.</span><span class="sxs-lookup"><span data-stu-id="57dd8-156">You can't use the value `From: <>` to suppress auto-replies.</span></span> <span data-ttu-id="57dd8-157">In plaats daarvan moet u een null MX-record instellen voor uw aangepaste domein.</span><span class="sxs-lookup"><span data-stu-id="57dd8-157">Instead, you need to set up a null MX record for your custom domain.</span></span> <span data-ttu-id="57dd8-158">Automatische antwoorden (en alle antwoorden) worden natuurlijk onderdrukt omdat er geen gepubliceerd adres is waar naar de reagerende server berichten kan worden verzonden.</span><span class="sxs-lookup"><span data-stu-id="57dd8-158">Auto-replies (and all replies) are naturally suppressed because there is no published address that the responding server can send messages to.</span></span>
+
+- <span data-ttu-id="57dd8-159">Kies een e-maildomein dat geen e-mail kan ontvangen.</span><span class="sxs-lookup"><span data-stu-id="57dd8-159">Choose an email domain that can't receive email.</span></span> <span data-ttu-id="57dd8-160">Als uw primaire domein bijvoorbeeld contoso.com is, u noreply.contoso.com kiezen.</span><span class="sxs-lookup"><span data-stu-id="57dd8-160">For example, if your primary domain is contoso.com, you might choose noreply.contoso.com.</span></span>
+
+- <span data-ttu-id="57dd8-161">De null MX-record voor dit domein bestaat uit één periode.</span><span class="sxs-lookup"><span data-stu-id="57dd8-161">The null MX record for this domain consists of a single period.</span></span>
+
+<span data-ttu-id="57dd8-162">Bijvoorbeeld:</span><span class="sxs-lookup"><span data-stu-id="57dd8-162">For example:</span></span>
+
+```text
+noreply.contoso.com IN MX .
 ```
 
-### <a name="format-of-the-from-address-if-you-include-a-display-name"></a><span data-ttu-id="b1e5b-157">Indeling van het Adres Van: als u een weergavenaam opneemt</span><span class="sxs-lookup"><span data-stu-id="b1e5b-157">Format of the From: address if you include a display name</span></span>
-<span data-ttu-id="b1e5b-158"><a name="FormatDisplayName"> </a></span><span class="sxs-lookup"><span data-stu-id="b1e5b-158"><a name="FormatDisplayName"> </a></span></span>
+<span data-ttu-id="57dd8-163">Zie [DNS-records maken bij elke DNS-hostingprovider voor Office 365 voor](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)meer informatie over het instellen van MX-records.</span><span class="sxs-lookup"><span data-stu-id="57dd8-163">For more information about setting up MX records, see [Create DNS records at any DNS hosting provider for Office 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).</span></span>
 
-<span data-ttu-id="b1e5b-159">Voor From: adressen die een waarde voor de weergavenaam bevatten, zijn de volgende regels van toepassing:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-159">For From: addresses that include a value for the display name, the following rules apply:</span></span>
+<span data-ttu-id="57dd8-164">Zie [RFC 7505](https://tools.ietf.org/html/rfc7505)voor meer informatie over het publiceren van een null MX.</span><span class="sxs-lookup"><span data-stu-id="57dd8-164">For more information about publishing a null MX, see [RFC 7505](https://tools.ietf.org/html/rfc7505).</span></span>
 
-- <span data-ttu-id="b1e5b-160">Als het afzenderadres een weergavenaam bevat en de weergavenaam een komma bevat, moet de weergavenaam worden ingesloten binnen aanhalingstekens.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-160">If the sender address includes a display name, and the display name includes a comma, then the display name must be enclosed within quotation marks.</span></span> <span data-ttu-id="b1e5b-161">Bijvoorbeeld:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-161">For example:</span></span>
+## <a name="override-from-address-enforcement"></a><span data-ttu-id="57dd8-165">Overschrijven van adreshandhaving</span><span class="sxs-lookup"><span data-stu-id="57dd8-165">Override From address enforcement</span></span>
 
-    <span data-ttu-id="b1e5b-162">Het volgende voorbeeld is geldig:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-162">The following example is valid:</span></span>
+<span data-ttu-id="57dd8-166">Als u de vereisten voor binnenkomende e-mail wilt omzeilen, u de IP-lijst met toegestane verbindingen (verbindingsfilter) of e-mailstroomregels (ook wel transportregels genoemd) gebruiken, zoals beschreven in [Lijsten met veilige afzendermaken in Office 365.](create-safe-sender-lists-in-office-365.md)</span><span class="sxs-lookup"><span data-stu-id="57dd8-166">To bypass the From address requirements for inbound email, you can use the IP Allow List (connection filtering) or mail flow rules (also known as transport rules) as described in [Create safe sender lists in Office 365](create-safe-sender-lists-in-office-365.md).</span></span>
 
-  ```
-  From: "Sender, Example" <sender.example@contoso.com>
-  ```
+<span data-ttu-id="57dd8-167">U de vereisten voor het adres van De ene naar de uitgaande e-mail die u vanuit Office 365 verzendt, niet overschrijven.</span><span class="sxs-lookup"><span data-stu-id="57dd8-167">You can't override the From address requirements for outbound email that you send from Office 365.</span></span> <span data-ttu-id="57dd8-168">Bovendien zal Outlook.com geen overschrijvingen van welke aard dan ook toestaan, zelfs niet via ondersteuning.</span><span class="sxs-lookup"><span data-stu-id="57dd8-168">In addition, Outlook.com will not allow overrides of any kind, even through support.</span></span>
 
-    <span data-ttu-id="b1e5b-163">Het volgende voorbeeld is niet geldig:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-163">The following example is not valid:</span></span>
+## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-office-365"></a><span data-ttu-id="57dd8-169">Andere manieren om cybercriminaliteit in Office 365 te voorkomen en te beschermen</span><span class="sxs-lookup"><span data-stu-id="57dd8-169">Other ways to prevent and protect against cybercrimes in Office 365</span></span>
 
-  ```
-  From: Sender, Example <sender.example@contoso.com>
-  ```
-
-    <span data-ttu-id="b1e5b-164">De weergavenaam niet inaanhalingstekens worden bijgesloten als die weergavenaam een komma bevat, is ongeldig volgens RFC 5322.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-164">Not enclosing the display name in quotation marks if that display name includes a comma is invalid according to RFC 5322.</span></span>
-
-    <span data-ttu-id="b1e5b-165">Als aanbevolen praktijk plaatst u aanhalingstekens rond de weergavenaam, ongeacht of er al dan niet een komma in de weergavenaam is.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-165">As a best practice, put quote marks around the display name regardless of whether or not there is a comma within the display name.</span></span>
-
-- <span data-ttu-id="b1e5b-166">Als het afzenderadres een weergavenaam bevat, moet het e-mailadres worden ingesloten binnen hoekhaakjes.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-166">If the sender address includes a display name, then the email address must be enclosed within angle brackets.</span></span>
-
-    <span data-ttu-id="b1e5b-167">Als aanbevolen praktijk raadt Microsoft u ten zeerste aan een ruimte in te voegen tussen de weergavenaam en het e-mailadres.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-167">As a best practice, Microsoft strongly recommends that you insert a space between the display name and the email address.</span></span>
-
-### <a name="additional-examples-of-valid-and-invalid-from-addresses"></a><span data-ttu-id="b1e5b-168">Aanvullende voorbeelden van geldig en ongeldig Vanaf: adressen</span><span class="sxs-lookup"><span data-stu-id="b1e5b-168">Additional examples of valid and invalid From: addresses</span></span>
-<span data-ttu-id="b1e5b-169"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="b1e5b-169"><a name="Examples"> </a></span></span>
-
-- <span data-ttu-id="b1e5b-170">Geldig:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-170">Valid:</span></span>
-
-  ```
-  From: "Office 365" <sender@contoso.com>
-  ```
-
-- <span data-ttu-id="b1e5b-171">Ongeldig.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-171">Invalid.</span></span> <span data-ttu-id="b1e5b-172">Het e-mailadres is niet bijgesloten met hoekhaakjes:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-172">The email address is not enclosed with angle brackets:</span></span>
-
-  ```
-  From: Office 365 sender@contoso.com
-  ```
-
-- <span data-ttu-id="b1e5b-173">Geldig, maar niet aanbevolen.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-173">Valid, but not recommended.</span></span> <span data-ttu-id="b1e5b-174">De weergavenaam staat niet tussen aanhalingstekens.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-174">The display name is not in quotes.</span></span> <span data-ttu-id="b1e5b-175">Als beste praktijk, altijd aanhalingstekens rond de weergavenaam:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-175">As a best practice, always put quotation marks around the display name:</span></span>
-
-  ```
-  From: Office 365 <sender@contoso.com>
-  ```
-
-- <span data-ttu-id="b1e5b-176">Ongeldig.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-176">Invalid.</span></span> <span data-ttu-id="b1e5b-177">Alles is ingesloten binnen aanhalingstekens, niet alleen de weergavenaam:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-177">Everything is enclosed within quotation marks, not just the display name:</span></span>
-
-  ```
-  From: "Office 365 <sender@contoso.com>"
-  ```
-
-- <span data-ttu-id="b1e5b-178">Ongeldig.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-178">Invalid.</span></span> <span data-ttu-id="b1e5b-179">Er zijn geen hoekhaakjes rond het e-mailadres:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-179">There are no angle brackets around the email address:</span></span>
-
-  ```
-  From: "Office 365 <sender@contoso.com>" sender@contoso.com
-  ```
-
-- <span data-ttu-id="b1e5b-180">Ongeldig.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-180">Invalid.</span></span> <span data-ttu-id="b1e5b-181">Er is geen ruimte tussen de weergavenaam en de linkerhoek:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-181">There is no space between the display name and left angle bracket:</span></span>
-
-  ```
-  From: Office 365<sender@contoso.com>
-  ```
-
-- <span data-ttu-id="b1e5b-182">Ongeldig.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-182">Invalid.</span></span> <span data-ttu-id="b1e5b-183">Er is geen ruimte tussen het sluitende aanhalingsteken rond de weergavenaam en de linkerhoekbeugel.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-183">There is no space between the closing quotation mark around the display name and the left angle bracket.</span></span>
-
-  ```
-  From: "Office 365"<sender@contoso.com>
-  ```
-
-### <a name="suppress-auto-replies-to-your-custom-domain-without-breaking-the-from-policy"></a><span data-ttu-id="b1e5b-184">Automatische antwoorden op uw aangepaste domein onderdrukken zonder het beleid Van:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-184">Suppress auto-replies to your custom domain without breaking the From: policy</span></span>
-<span data-ttu-id="b1e5b-185"><a name="SuppressAutoReply"> </a></span><span class="sxs-lookup"><span data-stu-id="b1e5b-185"><a name="SuppressAutoReply"> </a></span></span>
-
-<span data-ttu-id="b1e5b-186">Met de nieuwe Van: beleidshandhaving kun je \< \> From: niet meer gebruiken om auto-antwoorden te onderdrukken.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-186">With the new From: policy enforcement, you can no longer use From: \<\> to suppress auto-replies.</span></span> <span data-ttu-id="b1e5b-187">In plaats daarvan moet u een null MX-record instellen voor uw aangepaste domein.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-187">Instead, you need to set up a null MX record for your custom domain.</span></span>
-
-<span data-ttu-id="b1e5b-188">De MX-record (mail exchanger) is een resourcerecord in DNS die de e-mailserver identificeert die e-mail voor uw domein ontvangt.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-188">The mail exchanger (MX) record is a resource record in DNS that identifies the mail server that receives mail for your domain.</span></span> <span data-ttu-id="b1e5b-189">Automatische antwoorden (en alle antwoorden) worden natuurlijk onderdrukt omdat er geen gepubliceerd adres is waarop de reagerende server berichten kan verzenden.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-189">Auto-replies (and all replies) are naturally suppressed because there is no published address to which the responding server can send messages.</span></span>
-
-<span data-ttu-id="b1e5b-190">Wanneer u een null MX-record instelt voor uw aangepaste domein:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-190">When you set up a null MX record for your custom domain:</span></span>
-
-- <span data-ttu-id="b1e5b-191">Kies een domein waaruit u berichten wilt verzenden die geen e-mail accepteren (ontvangen).</span><span class="sxs-lookup"><span data-stu-id="b1e5b-191">Choose a domain from which to send messages that doesn't accept (receive) email.</span></span> <span data-ttu-id="b1e5b-192">Als uw primaire domein bijvoorbeeld contoso.com is, u kiezen voor noreply.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-192">For example, if your primary domain is contoso.com, you might choose noreply.contoso.com.</span></span>
-
-- <span data-ttu-id="b1e5b-193">Stel de null MX-record voor uw domein in.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-193">Set up the null MX record for your domain.</span></span> <span data-ttu-id="b1e5b-194">Een null MX record bestaat uit een enkele stip, bijvoorbeeld:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-194">A null MX record consists of a single dot, for example:</span></span>
-
-  ```
-  noreply.contoso.com IN MX .
-  ```
-
-<span data-ttu-id="b1e5b-195">Zie [RFC 7505](https://tools.ietf.org/html/rfc7505)voor meer informatie over het publiceren van een null MX.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-195">For more information about publishing a null MX, see [RFC 7505](https://tools.ietf.org/html/rfc7505).</span></span>
-
-### <a name="overriding-the-office-365-from-address-enforcement-policy"></a><span data-ttu-id="b1e5b-196">Office 365 overschrijven Vanaf: beleid voor adreshandhaving</span><span class="sxs-lookup"><span data-stu-id="b1e5b-196">Overriding the Office 365 From: address enforcement policy</span></span>
-<span data-ttu-id="b1e5b-197"><a name="Override"> </a></span><span class="sxs-lookup"><span data-stu-id="b1e5b-197"><a name="Override"> </a></span></span>
-
-<span data-ttu-id="b1e5b-198">Nadat de uitrol van het nieuwe beleid is voltooid, u dit beleid alleen omzeilen voor binnenkomende e-mail die u van Office 365 ontvangt met behulp van een van de volgende methoden:</span><span class="sxs-lookup"><span data-stu-id="b1e5b-198">Once roll out of the new policy is complete, you can only bypass this policy for inbound mail you receive from Office 365 by using one of the following methods:</span></span>
-
-- <span data-ttu-id="b1e5b-199">IP-lijstmet toestaan</span><span class="sxs-lookup"><span data-stu-id="b1e5b-199">IP allow lists</span></span>
-
-- <span data-ttu-id="b1e5b-200">Regels voor de stroomstroom van Exchange Online</span><span class="sxs-lookup"><span data-stu-id="b1e5b-200">Exchange Online mail flow rules</span></span>
-
-<span data-ttu-id="b1e5b-201">Microsoft raadt ten zeerste aan om de handhaving van het From:-beleid te overschrijven.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-201">Microsoft strongly recommends against overriding the enforcement of the From: policy.</span></span> <span data-ttu-id="b1e5b-202">Als u dit beleid overschrijft, kan het risico van blootstelling van uw organisatie aan spam, phishing en andere cybercriminaliteit toenemen.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-202">Overriding this policy can increase your organization's risk of exposure to spam, phishing, and other cybercrimes.</span></span>
-
-<span data-ttu-id="b1e5b-203">U dit beleid niet overschrijven voor uitgaande e-mail die u in Office 365 verzendt.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-203">You cannot override this policy for outbound mail you send in Office 365.</span></span> <span data-ttu-id="b1e5b-204">Bovendien staat Outlook.com geen overschrijvingen van welke aard dan ook toe, zelfs niet via ondersteuning.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-204">In addition, Outlook.com will not allow overrides of any kind, even through support.</span></span>
-
-### <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-office-365"></a><span data-ttu-id="b1e5b-205">Andere manieren om cybercriminaliteit in Office 365 te voorkomen en te beschermen</span><span class="sxs-lookup"><span data-stu-id="b1e5b-205">Other ways to prevent and protect against cybercrimes in Office 365</span></span>
-<span data-ttu-id="b1e5b-206"><a name="OtherProtection"> </a></span><span class="sxs-lookup"><span data-stu-id="b1e5b-206"><a name="OtherProtection"> </a></span></span>
-
-<span data-ttu-id="b1e5b-207">Zie [Aanbevolen procedures voor beveiliging voor Office 365](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data)voor meer informatie over hoe u uw organisatie versterken tegen cybercriminaliteit zoals phishing, spam, datalekken en andere bedreigingen.</span><span class="sxs-lookup"><span data-stu-id="b1e5b-207">For more information on how you can strengthen your organization against cybercrimes like phishing, spamming, data breaches, and other threats, see [Security best practices for Office 365](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data).</span></span>
-
-## <a name="related-topics"></a><span data-ttu-id="b1e5b-208">Gerelateerde onderwerpen</span><span class="sxs-lookup"><span data-stu-id="b1e5b-208">Related Topics</span></span>
-
-<span data-ttu-id="b1e5b-209">[Backscatter messages and EOP](backscatter-messages-and-eop.md)(Backscatter-berichten en EOP)</span><span class="sxs-lookup"><span data-stu-id="b1e5b-209">[Backscatter messages and EOP](backscatter-messages-and-eop.md)</span></span>
+<span data-ttu-id="57dd8-170">Zie [Top 10 manieren om Office 365- en Microsoft 365 Business-abonnementen te beveiligen](../../admin/security-and-compliance/secure-your-business-data.md)voor meer informatie over hoe u uw organisatie versterken tegen phishing, spam, datalekken en andere bedreigingen.</span><span class="sxs-lookup"><span data-stu-id="57dd8-170">For more information on how you can strengthen your organization against phishing, spam, data breaches, and other threats, see [Top 10 ways to secure Office 365 and Microsoft 365 Business plans](../../admin/security-and-compliance/secure-your-business-data.md).</span></span>
