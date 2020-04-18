@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over Office 365-groepen.
-ms.openlocfilehash: f5a0b72737a360a4bfe4cdd8fee4a08b7a7ff236
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: c45c78a26d421c5c16e6ca0769e8adc7ba6e79a8
+ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212531"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43547542"
 ---
 # <a name="overview-of-office-365-groups-for-administrators"></a>Overzicht van Office 365-groepen voor beheerders
 
@@ -33,6 +33,7 @@ Office 365-groepen is de basislidmaatschapsservice die alle teamwork in Microsof
 - Een gedeelde agenda
 - Een SharePoint-documentbibliotheek
 - Een planner
+- Een OneNote-notitieblok
 - Power BI
 - Yammer (als de groep is gemaakt vanuit Yammer)
 - Een team (als de groep is gemaakt vanuit Teams)

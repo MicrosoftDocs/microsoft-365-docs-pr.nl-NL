@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Meer informatie over hoe u bepalen welke gebruikers Office 365-groepen kunnen maken.
-ms.openlocfilehash: 9016b96821dd9d40a0fb65574ce96d7badd0c2bd
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: d31690cb6438c6563b01e0597f7f2b1ff96e3b9a
+ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212079"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43547584"
 ---
 # <a name="manage-who-can-create-office-365-groups"></a>Beheren wie Office 365-groepen kunnen maken
 
@@ -79,6 +79,9 @@ Om te beheren wie groepen maakt, hebben de volgende personen Azure AD Premium-li
 
 - De beheerder die deze instellingen voor het maken van groepen configureert
 - De leden van de beveiligingsgroep die groepen mogen maken
+
+> [!NOTE]
+> Zie [Licenties toewijzen of verwijderen in de Azure Active Directory-portal](https://docs.microsoft.com/azure/active-directory/fundamentals/license-users-groups) voor meer informatie over het toewijzen van Azure-licenties.
 
 De volgende personen hebben geen Azure AD Premium- of Azure AD Basic EDU-licenties nodig die aan hen zijn toegewezen:
 
