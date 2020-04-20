@@ -46,7 +46,7 @@ additionalContent:
     items:
     - title: Microsoft 365-beheercentrum
       summary: Office 365- en Microsoft 365-services voor uw organisatie instellen en beheren.
-      url: ./admin/admin-home.yml
+      url: ./admin/admin-home.md
     - title: Microsoft 365 Business
       summary: Ontworpen voor kleine en middelgrote bedrijven. Run uw bedrijf met de nieuwste versie van Windows- en Office-apps, zoals Excel en Outlook. Profiteer van gegevensbescherming en -beveiliging voor alle bedrijfsapparaten.
       url: ./business/index.yml
