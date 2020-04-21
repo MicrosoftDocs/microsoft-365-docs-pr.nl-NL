@@ -19,80 +19,80 @@ search.appverid:
 - MOE150
 ms.assetid: 481b460e-f799-4fac-9592-4d5c51bdcbd8
 ROBOTS: NOINDEX
-description: Meer informatie over het verwijderen of herstellen van het Office 365-account van een gebruiker.
-ms.openlocfilehash: 35245a0f9cbe78f6758c7071adea30053f7b8737
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: Meer informatie over het verwijderen of herstellen van het Microsoft 365-account van een gebruiker.
+ms.openlocfilehash: 7c6ab070db2821d914a26277b7f5c19043abe39b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42812170"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627882"
 ---
-# <a name="quick-help-deleted-user"></a><span data-ttu-id="43720-103">Snelle Help: Verwijderde gebruiker</span><span class="sxs-lookup"><span data-stu-id="43720-103">Quick help: Deleted user</span></span>
+# <a name="quick-help-deleted-user"></a><span data-ttu-id="08502-103">Snelle Help: Verwijderde gebruiker</span><span class="sxs-lookup"><span data-stu-id="08502-103">Quick help: Deleted user</span></span>
 
-<span data-ttu-id="43720-104">Mogelijk dient u een [gebruiker](../add-users/add-users.md) uit uw organisatie te verwijderen.</span><span class="sxs-lookup"><span data-stu-id="43720-104">You may have to delete a [user](../add-users/add-users.md) in your organization.</span></span> <span data-ttu-id="43720-105">Gewoonlijk verwijdert u een gebruiker als deze de organisatie verlaat.</span><span class="sxs-lookup"><span data-stu-id="43720-105">You usually delete a user when the person leaves your organization.</span></span> 
+<span data-ttu-id="08502-104">Mogelijk dient u een [gebruiker](../add-users/add-users.md) uit uw organisatie te verwijderen.</span><span class="sxs-lookup"><span data-stu-id="08502-104">You may have to delete a [user](../add-users/add-users.md) in your organization.</span></span> <span data-ttu-id="08502-105">Gewoonlijk verwijdert u een gebruiker als deze de organisatie verlaat.</span><span class="sxs-lookup"><span data-stu-id="08502-105">You usually delete a user when the person leaves your organization.</span></span> 
   
-## <a name="delete-a-user"></a><span data-ttu-id="43720-106">Een gebruiker verwijderen</span><span class="sxs-lookup"><span data-stu-id="43720-106">Delete a user</span></span>
+## <a name="delete-a-user"></a><span data-ttu-id="08502-106">Een gebruiker verwijderen</span><span class="sxs-lookup"><span data-stu-id="08502-106">Delete a user</span></span>
 
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
-> <span data-ttu-id="43720-107">Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.</span><span class="sxs-lookup"><span data-stu-id="43720-107">If you're not using the new Microsoft 365 admin center, you can turn it on by selecting the **Try the new admin center** toggle located at the top of the Home page.</span></span>
+> <span data-ttu-id="08502-107">Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.</span><span class="sxs-lookup"><span data-stu-id="08502-107">If you're not using the new Microsoft 365 admin center, you can turn it on by selecting the **Try the new admin center** toggle located at the top of the Home page.</span></span>
   
-1. <span data-ttu-id="43720-108">Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.</span><span class="sxs-lookup"><span data-stu-id="43720-108">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
+1. <span data-ttu-id="08502-108">Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.</span><span class="sxs-lookup"><span data-stu-id="08502-108">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
 
-2. <span data-ttu-id="43720-109">Selecteer een gebruiker en selecteer boven de lijst met gebruikers **Meer opties** (**...**) en kies vervolgens **Gebruiker verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="43720-109">Select a user, and then above the list of users select **More options** (**...**), and then choose **Delete user**.</span></span>
+2. <span data-ttu-id="08502-109">Selecteer een gebruiker en selecteer vervolgens boven de lijst met gebruikers **Meer opties** (**...**) en kies **Gebruiker verwijderen.**</span><span class="sxs-lookup"><span data-stu-id="08502-109">Select a user, and then above the list of users select **More options** (**...**), and then choose **Delete user**.</span></span>
   
-3. <span data-ttu-id="43720-110">Selecteer **gebruiker verwijderen**in het bevestigingsvenster voor verwijderen.</span><span class="sxs-lookup"><span data-stu-id="43720-110">In the deletion confirmation pane, select **Delete user**.</span></span> <br/>[<span data-ttu-id="43720-111">Lees het volledige artikel.</span><span class="sxs-lookup"><span data-stu-id="43720-111">Read full article.</span></span>](../add-users/delete-a-user.md)
+3. <span data-ttu-id="08502-110">Selecteer **gebruiker verwijderen**in het bevestigingsvenster voor verwijderen .</span><span class="sxs-lookup"><span data-stu-id="08502-110">In the deletion confirmation pane, select **Delete user**.</span></span> <br/>[<span data-ttu-id="08502-111">Lees het volledige artikel.</span><span class="sxs-lookup"><span data-stu-id="08502-111">Read full article.</span></span>](../add-users/delete-a-user.md)
   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="43720-112">Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.</span><span class="sxs-lookup"><span data-stu-id="43720-112">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>  
+1. <span data-ttu-id="08502-112">Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.</span><span class="sxs-lookup"><span data-stu-id="08502-112">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>  
 
-2. <span data-ttu-id="43720-113">Selecteer een gebruiker en kies boven de lijst met gebruikers **meer** > **een gebruiker verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="43720-113">Select a user, and then above the list of users choose **More** > **Delete a user**.</span></span>
+2. <span data-ttu-id="08502-113">Selecteer een gebruiker en kies boven de lijst met gebruikers **Meer** > **verwijderen van een gebruiker.**</span><span class="sxs-lookup"><span data-stu-id="08502-113">Select a user, and then above the list of users choose **More** > **Delete a user**.</span></span>
   
-3. <span data-ttu-id="43720-114">Selecteer **gebruiker verwijderen**in het bevestigingsvenster voor verwijderen.</span><span class="sxs-lookup"><span data-stu-id="43720-114">In the deletion confirmation pane, select **Delete user**.</span></span> <br/>[<span data-ttu-id="43720-115">Lees het volledige artikel.</span><span class="sxs-lookup"><span data-stu-id="43720-115">Read full article.</span></span>](../add-users/delete-a-user.md)
+3. <span data-ttu-id="08502-114">Selecteer **gebruiker verwijderen**in het bevestigingsvenster voor verwijderen .</span><span class="sxs-lookup"><span data-stu-id="08502-114">In the deletion confirmation pane, select **Delete user**.</span></span> <br/>[<span data-ttu-id="08502-115">Lees het volledige artikel.</span><span class="sxs-lookup"><span data-stu-id="08502-115">Read full article.</span></span>](../add-users/delete-a-user.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="43720-116">Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.</span><span class="sxs-lookup"><span data-stu-id="43720-116">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span> 
+1. <span data-ttu-id="08502-116">Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.</span><span class="sxs-lookup"><span data-stu-id="08502-116">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span> 
 
-2. <span data-ttu-id="43720-117">Selecteer een gebruiker en kies boven de lijst met gebruikers **meer** > **een gebruiker verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="43720-117">Select a user, and then above the list of users choose **More** > **Delete a user**.</span></span>
+2. <span data-ttu-id="08502-117">Selecteer een gebruiker en kies boven de lijst met gebruikers **Meer** > **verwijderen van een gebruiker.**</span><span class="sxs-lookup"><span data-stu-id="08502-117">Select a user, and then above the list of users choose **More** > **Delete a user**.</span></span>
   
-3. <span data-ttu-id="43720-118">Selecteer **gebruiker verwijderen**in het bevestigingsvenster voor verwijderen.</span><span class="sxs-lookup"><span data-stu-id="43720-118">In the deletion confirmation pane, select **Delete user**.</span></span> <br/>[<span data-ttu-id="43720-119">Lees het volledige artikel.</span><span class="sxs-lookup"><span data-stu-id="43720-119">Read full article.</span></span>](../add-users/delete-a-user.md)
+3. <span data-ttu-id="08502-118">Selecteer **gebruiker verwijderen**in het bevestigingsvenster voor verwijderen .</span><span class="sxs-lookup"><span data-stu-id="08502-118">In the deletion confirmation pane, select **Delete user**.</span></span> <br/>[<span data-ttu-id="08502-119">Lees het volledige artikel.</span><span class="sxs-lookup"><span data-stu-id="08502-119">Read full article.</span></span>](../add-users/delete-a-user.md)
 
 ::: moniker-end
 
   
-## <a name="restore-a-user"></a><span data-ttu-id="43720-120">Een gebruiker herstellen</span><span class="sxs-lookup"><span data-stu-id="43720-120">Restore a user</span></span>
+## <a name="restore-a-user"></a><span data-ttu-id="08502-120">Een gebruiker herstellen</span><span class="sxs-lookup"><span data-stu-id="08502-120">Restore a user</span></span>
 
-<span data-ttu-id="43720-121">U gebruikers herstellen door te zoeken naar **verwijderd** op de startpagina en **Verwijderde gebruikers** in de resultaten te kiezen, of door naar de pagina **Verwijderde gebruikers** te gaan vanaf de linkernavigatie en de gebruiker te kiezen die u wilt herstellen.</span><span class="sxs-lookup"><span data-stu-id="43720-121">You can restore users by searching for **deleted** on the home page and choosing **Deleted users** in the results, or by going to the **Deleted users** page from the left navigation and choosing the user you want to restore.</span></span> <span data-ttu-id="43720-122">[Lees het hele artikel.](../add-users/delete-a-user.md)</span><span class="sxs-lookup"><span data-stu-id="43720-122">[Read full article](../add-users/delete-a-user.md).</span></span>
+<span data-ttu-id="08502-121">U gebruikers herstellen door te zoeken naar **verwijderde** op de startpagina en **verwijderde gebruikers** in de resultaten te kiezen, of door naar de pagina **Verwijderde gebruikers** te gaan vanaf de linkernavigatie en de gebruiker te kiezen die u wilt herstellen.</span><span class="sxs-lookup"><span data-stu-id="08502-121">You can restore users by searching for **deleted** on the home page and choosing **Deleted users** in the results, or by going to the **Deleted users** page from the left navigation and choosing the user you want to restore.</span></span> <span data-ttu-id="08502-122">[Lees het hele artikel.](../add-users/delete-a-user.md)</span><span class="sxs-lookup"><span data-stu-id="08502-122">[Read full article](../add-users/delete-a-user.md).</span></span>
   
-## <a name="what-are-deleted-users"></a><span data-ttu-id="43720-123">Wat zijn verwijderde gebruikers?</span><span class="sxs-lookup"><span data-stu-id="43720-123">What are deleted users?</span></span>
+## <a name="what-are-deleted-users"></a><span data-ttu-id="08502-123">Wat zijn verwijderde gebruikers?</span><span class="sxs-lookup"><span data-stu-id="08502-123">What are deleted users?</span></span>
 
-<span data-ttu-id="43720-124">Een verwijderde [gebruiker](../add-users/add-users.md) is een werk- of schoolaccount dat u uit uw organisatie verwijdert.</span><span class="sxs-lookup"><span data-stu-id="43720-124">A deleted [user](../add-users/add-users.md) is a work or school account that you're deleting from your organization.</span></span> 
+<span data-ttu-id="08502-124">Een verwijderde [gebruiker](../add-users/add-users.md) is een werk- of schoolaccount dat u uit uw organisatie verwijdert.</span><span class="sxs-lookup"><span data-stu-id="08502-124">A deleted [user](../add-users/add-users.md) is a work or school account that you're deleting from your organization.</span></span> 
   
-## <a name="does-deleting-a-user-free-up-their-office-365-license"></a><span data-ttu-id="43720-125">Komt er een Office 365-licentie vrij als ik een gebruiker verwijder?</span><span class="sxs-lookup"><span data-stu-id="43720-125">Does deleting a user free up their Office 365 license?</span></span>
+## <a name="does-deleting-a-user-free-up-their-microsoft-365-license"></a><span data-ttu-id="08502-125">Maakt het verwijderen van een gebruiker zijn Microsoft 365-licentie vrij?</span><span class="sxs-lookup"><span data-stu-id="08502-125">Does deleting a user free up their Microsoft 365 license?</span></span>
 
-<span data-ttu-id="43720-p106">Ja, als u de gebruiker verwijdert, komt de aan die gebruiker toegewezen Office 365-licentie vrij. U kunt de licentie vervolgens toewijzen aan een andere gebruiker. [Lees het hele artikel](../../commerce/licenses/remove-licenses-from-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="43720-p106">Yes, deleting the user frees up the Office 365 license assigned to that user. You can then assign that license to another user. [Read full article](../../commerce/licenses/remove-licenses-from-subscription.md).</span></span>
+<span data-ttu-id="08502-126">Ja, als u de gebruiker uitzet, wordt de Microsoft 365-licentie die aan die gebruiker is toegewezen, vrij.</span><span class="sxs-lookup"><span data-stu-id="08502-126">Yes, deleting the user frees up the Microsoft 365 license assigned to that user.</span></span> <span data-ttu-id="08502-127">U kunt de licentie vervolgens toewijzen aan een andere gebruiker.</span><span class="sxs-lookup"><span data-stu-id="08502-127">You can then assign that license to another user.</span></span> <span data-ttu-id="08502-128">[Lees het hele artikel](../../commerce/licenses/remove-licenses-from-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="08502-128">[Read full article](../../commerce/licenses/remove-licenses-from-subscription.md).</span></span>
   
-## <a name="i-had-a-deleted-user-listed-in-deleted-users-and-then-it-disappeared-what-happened"></a><span data-ttu-id="43720-129">Ik had een verwijderde gebruiker vermeld in Verwijderde gebruikers, en toen verdween het.</span><span class="sxs-lookup"><span data-stu-id="43720-129">I had a deleted user listed in Deleted users, and then it disappeared.</span></span> <span data-ttu-id="43720-130">Wat is er gebeurd?</span><span class="sxs-lookup"><span data-stu-id="43720-130">What happened?</span></span>
+## <a name="i-had-a-deleted-user-listed-in-deleted-users-and-then-it-disappeared-what-happened"></a><span data-ttu-id="08502-129">Ik had een verwijderde gebruiker vermeld in Verwijderde gebruikers, en toen verdween het.</span><span class="sxs-lookup"><span data-stu-id="08502-129">I had a deleted user listed in Deleted users, and then it disappeared.</span></span> <span data-ttu-id="08502-130">Wat is er gebeurd?</span><span class="sxs-lookup"><span data-stu-id="08502-130">What happened?</span></span>
 
-<span data-ttu-id="43720-131">De verwijderde gebruiker wordt gedurende dertig dagen in uw organisatie bewaard.</span><span class="sxs-lookup"><span data-stu-id="43720-131">The deleted user is kept in your organization for 30 days.</span></span> <span data-ttu-id="43720-132">Na dertig dagen wordt de gebruiker definitief uit de organisatie verwijderd.</span><span class="sxs-lookup"><span data-stu-id="43720-132">After 30 days, we permanently remove the user from your organization.</span></span>
+<span data-ttu-id="08502-131">De verwijderde gebruiker wordt gedurende dertig dagen in uw organisatie bewaard.</span><span class="sxs-lookup"><span data-stu-id="08502-131">The deleted user is kept in your organization for 30 days.</span></span> <span data-ttu-id="08502-132">Na dertig dagen wordt de gebruiker definitief uit de organisatie verwijderd.</span><span class="sxs-lookup"><span data-stu-id="08502-132">After 30 days, we permanently remove the user from your organization.</span></span>
   
-## <a name="how-long-do-i-have-if-i-want-to-restore-a-user"></a><span data-ttu-id="43720-133">Hoe lang heb ik als ik een gebruiker wil terugzetten?</span><span class="sxs-lookup"><span data-stu-id="43720-133">How long do I have if I want to restore a user?</span></span>
+## <a name="how-long-do-i-have-if-i-want-to-restore-a-user"></a><span data-ttu-id="08502-133">Hoe lang heb ik als ik een gebruiker wil terugzetten?</span><span class="sxs-lookup"><span data-stu-id="08502-133">How long do I have if I want to restore a user?</span></span>
 
-<span data-ttu-id="43720-134">Nadat u een gebruiker hebt verwijderd, hebt u dertig dagen om de gebruiker terug te zetten.</span><span class="sxs-lookup"><span data-stu-id="43720-134">After you delete a user, you have 30 days to restore that user.</span></span>
+<span data-ttu-id="08502-134">Nadat u een gebruiker hebt verwijderd, hebt u dertig dagen om de gebruiker terug te zetten.</span><span class="sxs-lookup"><span data-stu-id="08502-134">After you delete a user, you have 30 days to restore that user.</span></span>
   
-## <a name="do-i-lose-all-the-users-data-when-i-delete-them"></a><span data-ttu-id="43720-135">Gaan alle gegevens van de gebruiker verloren als ik de gebruiker verwijder?</span><span class="sxs-lookup"><span data-stu-id="43720-135">Do I lose all the user's data when I delete them?</span></span>
+## <a name="do-i-lose-all-the-users-data-when-i-delete-them"></a><span data-ttu-id="08502-135">Gaan alle gegevens van de gebruiker verloren als ik de gebruiker verwijder?</span><span class="sxs-lookup"><span data-stu-id="08502-135">Do I lose all the user's data when I delete them?</span></span>
 
-<span data-ttu-id="43720-p109">Als u een gebruiker verwijdert, gaan de gegevens van de gebruiker niet verloren. De gegevens van de gebruiker worden dertig dagen bewaard. Als u de gebruiker binnen dertig dagen terugzet, worden alle aan die gebruiker gekoppelde gegevens teruggezet.</span><span class="sxs-lookup"><span data-stu-id="43720-p109">When you delete a user, you don't lose their data. The user's data is stored for 30 days. When you restore the user within 30 days, the user all associated data is restored.</span></span>
+<span data-ttu-id="08502-p109">Als u een gebruiker verwijdert, gaan de gegevens van de gebruiker niet verloren. De gegevens van de gebruiker worden dertig dagen bewaard. Als u de gebruiker binnen dertig dagen terugzet, worden alle aan die gebruiker gekoppelde gegevens teruggezet.</span><span class="sxs-lookup"><span data-stu-id="08502-p109">When you delete a user, you don't lose their data. The user's data is stored for 30 days. When you restore the user within 30 days, the user all associated data is restored.</span></span>
   
-## <a name="how-do-i-restore-a-user"></a><span data-ttu-id="43720-139">Hoe kan ik een gebruiker terugzetten?</span><span class="sxs-lookup"><span data-stu-id="43720-139">How do I restore a user?</span></span>
+## <a name="how-do-i-restore-a-user"></a><span data-ttu-id="08502-139">Hoe kan ik een gebruiker terugzetten?</span><span class="sxs-lookup"><span data-stu-id="08502-139">How do I restore a user?</span></span>
 
-<span data-ttu-id="43720-140">U gebruikers herstellen door te zoeken naar **verwijderd** op de startpagina en **Verwijderde gebruikers** in de resultaten te kiezen, of door naar de pagina **Verwijderde gebruikers** te gaan vanaf de linkernavigatie en de gebruiker te kiezen die u wilt herstellen.</span><span class="sxs-lookup"><span data-stu-id="43720-140">You can restore users by searching for **deleted** on the home page and choosing **Deleted users** in the results, or by going to the **Deleted users** page from the left navigation and choosing the user you want to restore.</span></span> <span data-ttu-id="43720-141">[Lees het hele artikel](../add-users/delete-a-user.md).</span><span class="sxs-lookup"><span data-stu-id="43720-141">[Read full article](../add-users/delete-a-user.md).</span></span>
+<span data-ttu-id="08502-140">U gebruikers herstellen door te zoeken naar **verwijderde** op de startpagina en **verwijderde gebruikers** in de resultaten te kiezen, of door naar de pagina **Verwijderde gebruikers** te gaan vanaf de linkernavigatie en de gebruiker te kiezen die u wilt herstellen.</span><span class="sxs-lookup"><span data-stu-id="08502-140">You can restore users by searching for **deleted** on the home page and choosing **Deleted users** in the results, or by going to the **Deleted users** page from the left navigation and choosing the user you want to restore.</span></span> <span data-ttu-id="08502-141">[Lees het hele artikel](../add-users/delete-a-user.md).</span><span class="sxs-lookup"><span data-stu-id="08502-141">[Read full article](../add-users/delete-a-user.md).</span></span>
   
 

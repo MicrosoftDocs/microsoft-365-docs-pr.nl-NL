@@ -1,5 +1,5 @@
 ---
-title: Een verwijderde Office 365-groep herstellen
+title: Een verwijderde groep herstellen
 ms.reviewer: arvaradh
 f1.keywords: CSH
 ms.author: mikeplum
@@ -18,84 +18,85 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
-description: Meer informatie over het herstellen van een verwijderde Office 365-groep.
-ms.openlocfilehash: 2efd8c35286d224c6a3ed185043c82ab4b8e954e
-ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
+description: Meer informatie over het herstellen van een verwijderde Microsoft 365-groep.
+ms.openlocfilehash: a0e7aef090528b3fa183fe08f9c4d06c86f94a10
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43547530"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630029"
 ---
-# <a name="restore-a-deleted-office-365-group"></a><span data-ttu-id="5aaa5-103">Een verwijderde Office 365-groep herstellen</span><span class="sxs-lookup"><span data-stu-id="5aaa5-103">Restore a deleted Office 365 Group</span></span>
+# <a name="restore-a-deleted-group"></a><span data-ttu-id="05bae-103">Een verwijderde groep herstellen</span><span class="sxs-lookup"><span data-stu-id="05bae-103">Restore a deleted Group</span></span>
 
-<span data-ttu-id="5aaa5-104">Als u een groep hebt verwijderd, wordt deze standaard 30 dagen bewaard.</span><span class="sxs-lookup"><span data-stu-id="5aaa5-104">If you've deleted a group, it will be retained for 30 days by default.</span></span> <span data-ttu-id="5aaa5-105">Deze periode van 30 dagen wordt beschouwd als een soft-delete omdat u de groep nog steeds herstellen.</span><span class="sxs-lookup"><span data-stu-id="5aaa5-105">This 30-day period is considered a "soft-delete" because you can still restore the group.</span></span> <span data-ttu-id="5aaa5-106">Na 30 dagen worden de groep en de bijbehorende inhoud definitief verwijderd en kunnen ze niet worden hersteld.</span><span class="sxs-lookup"><span data-stu-id="5aaa5-106">After 30 days, the group and its associated contents are permanently deleted and cannot be restored.</span></span>
+<span data-ttu-id="05bae-104">Als u een groep hebt verwijderd, wordt deze standaard 30 dagen bewaard.</span><span class="sxs-lookup"><span data-stu-id="05bae-104">If you've deleted a group, it will be retained for 30 days by default.</span></span> <span data-ttu-id="05bae-105">Deze periode van 30 dagen wordt beschouwd als een soft-delete omdat u de groep nog steeds herstellen.</span><span class="sxs-lookup"><span data-stu-id="05bae-105">This 30-day period is considered a "soft-delete" because you can still restore the group.</span></span> <span data-ttu-id="05bae-106">Na 30 dagen worden de groep en de bijbehorende inhoud definitief verwijderd en kunnen ze niet worden hersteld.</span><span class="sxs-lookup"><span data-stu-id="05bae-106">After 30 days, the group and its associated contents are permanently deleted and cannot be restored.</span></span>
 
-<span data-ttu-id="5aaa5-107">Wanneer een groep wordt hersteld, wordt de volgende inhoud hersteld:</span><span class="sxs-lookup"><span data-stu-id="5aaa5-107">When a group is restored, the following content is restored:</span></span>
+<span data-ttu-id="05bae-107">Wanneer een groep wordt hersteld, wordt de volgende inhoud hersteld:</span><span class="sxs-lookup"><span data-stu-id="05bae-107">When a group is restored, the following content is restored:</span></span>
   
-- <span data-ttu-id="5aaa5-108">Office 365-groepen object, eigenschappen en leden (Azure Active Directory (AD).</span><span class="sxs-lookup"><span data-stu-id="5aaa5-108">Azure Active Directory (AD) Office 365 groups object, properties, and members.</span></span>
+- <span data-ttu-id="05bae-108">Het object, de eigenschappen en leden van Azure Active Directory (AD) Microsoft 365-groepen.</span><span class="sxs-lookup"><span data-stu-id="05bae-108">Azure Active Directory (AD) Microsoft 365 Groups object, properties, and members.</span></span>
     
-- <span data-ttu-id="5aaa5-109">de e-mailadressen van de groep.</span><span class="sxs-lookup"><span data-stu-id="5aaa5-109">Group's e-mail addresses.</span></span>
+- <span data-ttu-id="05bae-109">de e-mailadressen van de groep.</span><span class="sxs-lookup"><span data-stu-id="05bae-109">Group's e-mail addresses.</span></span>
     
-- <span data-ttu-id="5aaa5-110">Exchange Online heeft Postvak IN en agenda gedeeld.</span><span class="sxs-lookup"><span data-stu-id="5aaa5-110">Exchange Online shared Inbox and calendar.</span></span>
+- <span data-ttu-id="05bae-110">Exchange Online heeft Postvak IN en agenda gedeeld.</span><span class="sxs-lookup"><span data-stu-id="05bae-110">Exchange Online shared Inbox and calendar.</span></span>
     
-- <span data-ttu-id="5aaa5-111">SharePoint Online-teamsite en -bestanden.</span><span class="sxs-lookup"><span data-stu-id="5aaa5-111">SharePoint Online team site and files.</span></span>
+- <span data-ttu-id="05bae-111">SharePoint Online-teamsite en -bestanden.</span><span class="sxs-lookup"><span data-stu-id="05bae-111">SharePoint Online team site and files.</span></span>
     
-- <span data-ttu-id="5aaa5-112">OneNote-notitieblok</span><span class="sxs-lookup"><span data-stu-id="5aaa5-112">OneNote notebook</span></span>
+- <span data-ttu-id="05bae-112">OneNote-notitieblok</span><span class="sxs-lookup"><span data-stu-id="05bae-112">OneNote notebook</span></span>
     
-- <span data-ttu-id="5aaa5-113">Planner</span><span class="sxs-lookup"><span data-stu-id="5aaa5-113">Planner</span></span>
+- <span data-ttu-id="05bae-113">Planner</span><span class="sxs-lookup"><span data-stu-id="05bae-113">Planner</span></span>
     
-- <span data-ttu-id="5aaa5-114">Teams</span><span class="sxs-lookup"><span data-stu-id="5aaa5-114">Teams</span></span>
+- <span data-ttu-id="05bae-114">Teams</span><span class="sxs-lookup"><span data-stu-id="05bae-114">Teams</span></span>
 
-- <span data-ttu-id="5aaa5-115">Yammer-groep en groepsinhoud (Als de Office 365-groep is gemaakt vanuit Yammer)</span><span class="sxs-lookup"><span data-stu-id="5aaa5-115">Yammer group and group content (If the Office 365 group was created from Yammer)</span></span>
+- <span data-ttu-id="05bae-115">Yammer-groep en groepsinhoud (Als de Microsoft 365-groep is gemaakt vanuit Yammer)</span><span class="sxs-lookup"><span data-stu-id="05bae-115">Yammer group and group content (If the Microsoft 365 group was created from Yammer)</span></span>
 
-## <a name="restore-a-group-that-you-own-by-using-outlook"></a><span data-ttu-id="5aaa5-116">Een groep herstellen waarvan u eigenaar bent met Outlook</span><span class="sxs-lookup"><span data-stu-id="5aaa5-116">Restore a group that you own by using Outlook</span></span>
+## <a name="restore-a-group-that-you-own-by-using-outlook"></a><span data-ttu-id="05bae-116">Een groep herstellen waarvan u eigenaar bent met Outlook</span><span class="sxs-lookup"><span data-stu-id="05bae-116">Restore a group that you own by using Outlook</span></span>
 
-<span data-ttu-id="5aaa5-117">Als u de eigenaar bent van een Office 365-groep, u de groep zelf herstellen in Outlook door de volgende stappen te volgen:</span><span class="sxs-lookup"><span data-stu-id="5aaa5-117">If you are the owner of an Office 365 group, you can restore the group yourself in Outlook by following these steps:</span></span>
+<span data-ttu-id="05bae-117">Als u eigenaar bent van een Microsoft 365-groep, u de groep zelf herstellen in Outlook door de volgende stappen te volgen:</span><span class="sxs-lookup"><span data-stu-id="05bae-117">If you are the owner of a Microsoft 365 group, you can restore the group yourself in Outlook by following these steps:</span></span>
 
-1. <span data-ttu-id="5aaa5-118">Selecteer op de [pagina verwijderde groepen](https://outlook.office.com/people/group/deleted)de optie Groepen **beheren** onder het knooppunt **Groepen** en kies **Vervolgens Verwijderd**.</span><span class="sxs-lookup"><span data-stu-id="5aaa5-118">On the [deleted groups page](https://outlook.office.com/people/group/deleted), select the **Manage groups** option under the **Groups** node, and then choose **Deleted**.</span></span>
-2. <span data-ttu-id="5aaa5-119">Klik op het tabblad **Herstellen** naast de groep die u wilt herstellen.</span><span class="sxs-lookup"><span data-stu-id="5aaa5-119">Click on the **Restore** tab next to the group you want to restore.</span></span>
+1. <span data-ttu-id="05bae-118">Selecteer op de [pagina verwijderde groepen](https://outlook.office.com/people/group/deleted)de optie Groepen **beheren** onder het knooppunt **Groepen** en kies **Vervolgens Verwijderd**.</span><span class="sxs-lookup"><span data-stu-id="05bae-118">On the [deleted groups page](https://outlook.office.com/people/group/deleted), select the **Manage groups** option under the **Groups** node, and then choose **Deleted**.</span></span>
 
-<span data-ttu-id="5aaa5-120">Als de verwijderde groep hier niet wordt weergegeven, neemt u contact op met een beheerder.</span><span class="sxs-lookup"><span data-stu-id="5aaa5-120">If the deleted group doesn't appear here, contact an administrator.</span></span>
+2. <span data-ttu-id="05bae-119">Klik op het tabblad **Herstellen** naast de groep die u wilt herstellen.</span><span class="sxs-lookup"><span data-stu-id="05bae-119">Click on the **Restore** tab next to the group you want to restore.</span></span>
 
-## <a name="restore-a-group-in-the-microsoft-365-admin-center"></a><span data-ttu-id="5aaa5-121">Een groep herstellen in het Microsoft 365-beheercentrum</span><span class="sxs-lookup"><span data-stu-id="5aaa5-121">Restore a group in the Microsoft 365 admin center</span></span>
+<span data-ttu-id="05bae-120">Als de verwijderde groep hier niet wordt weergegeven, neemt u contact op met een beheerder.</span><span class="sxs-lookup"><span data-stu-id="05bae-120">If the deleted group doesn't appear here, contact an administrator.</span></span>
 
-<span data-ttu-id="5aaa5-122">Als u een globale beheerder of een groepsbeheerder bent, u een verwijderde groep herstellen in het Microsoft 365-beheercentrum:</span><span class="sxs-lookup"><span data-stu-id="5aaa5-122">If you are a global administrator or a groups administrator, you can restore a deleted group in the Microsoft 365 admin center:</span></span>
+## <a name="restore-a-group-in-the-microsoft-365-admin-center"></a><span data-ttu-id="05bae-121">Een groep herstellen in het Microsoft 365-beheercentrum</span><span class="sxs-lookup"><span data-stu-id="05bae-121">Restore a group in the Microsoft 365 admin center</span></span>
 
-1. <span data-ttu-id="5aaa5-123">Ga naar het [beheercentrum](https://admin.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="5aaa5-123">Go to the [admin center](https://admin.microsoft.com).</span></span>
-2. <span data-ttu-id="5aaa5-124">Groepen **Groups**uitvouwen en vervolgens op **Verwijderde groepen**klikken .</span><span class="sxs-lookup"><span data-stu-id="5aaa5-124">Expand **Groups**, and then click **Deleted groups**.</span></span>
-3. <span data-ttu-id="5aaa5-125">Selecteer de groep die u wilt herstellen en klik op **Groep herstellen**.</span><span class="sxs-lookup"><span data-stu-id="5aaa5-125">Select the group that you want to restore, and then click **Restore group**.</span></span>
+<span data-ttu-id="05bae-122">Als u een globale beheerder of een groepsbeheerder bent, u een verwijderde groep herstellen in het Microsoft 365-beheercentrum:</span><span class="sxs-lookup"><span data-stu-id="05bae-122">If you are a global administrator or a groups administrator, you can restore a deleted group in the Microsoft 365 admin center:</span></span>
+
+1. <span data-ttu-id="05bae-123">Ga naar het [beheercentrum](https://admin.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="05bae-123">Go to the [admin center](https://admin.microsoft.com).</span></span>
+2. <span data-ttu-id="05bae-124">Groepen **Groups**uitvouwen en vervolgens op **Verwijderde groepen**klikken .</span><span class="sxs-lookup"><span data-stu-id="05bae-124">Expand **Groups**, and then click **Deleted groups**.</span></span>
+3. <span data-ttu-id="05bae-125">Selecteer de groep die u wilt herstellen en klik op **Groep herstellen**.</span><span class="sxs-lookup"><span data-stu-id="05bae-125">Select the group that you want to restore, and then click **Restore group**.</span></span>
   
-## <a name="permanently-delete-an-office-365-group"></a><span data-ttu-id="5aaa5-126">Een Office 365-groep permanent verwijderen</span><span class="sxs-lookup"><span data-stu-id="5aaa5-126">Permanently delete an Office 365 group</span></span>
+## <a name="permanently-delete-a-microsoft-365-group"></a><span data-ttu-id="05bae-126">Een Microsoft 365-groep definitief verwijderen</span><span class="sxs-lookup"><span data-stu-id="05bae-126">Permanently delete a Microsoft 365 group</span></span>
 
-<span data-ttu-id="5aaa5-127">Soms wilt u een groep permanent zuiveren zonder te wachten tot de periode voor het verwijderen van 30 dagen is verlopen.</span><span class="sxs-lookup"><span data-stu-id="5aaa5-127">Sometimes you may want to permanently purge a group without waiting for the 30 day soft-deletion period to expire.</span></span> <span data-ttu-id="5aaa5-128">Hiervoor start u PowerShell en voert u deze opdracht uit om de object-id van de groep op te vragen:</span><span class="sxs-lookup"><span data-stu-id="5aaa5-128">To do that, start PowerShell and run this command to get the object ID of the group:</span></span>
+<span data-ttu-id="05bae-127">Soms wilt u een groep permanent zuiveren zonder te wachten tot de periode voor het verwijderen van 30 dagen is verlopen.</span><span class="sxs-lookup"><span data-stu-id="05bae-127">Sometimes you may want to permanently purge a group without waiting for the 30 day soft-deletion period to expire.</span></span> <span data-ttu-id="05bae-128">Hiervoor start u PowerShell en voert u deze opdracht uit om de object-id van de groep op te vragen:</span><span class="sxs-lookup"><span data-stu-id="05bae-128">To do that, start PowerShell and run this command to get the object ID of the group:</span></span>
   
 ```
 Get-AzureADMSDeletedGroup
 ```
 
-<span data-ttu-id="5aaa5-129">Let op de object-id van de groep of groepen die u permanent wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="5aaa5-129">Take note of the object ID of the group, or groups, that you want to permanently delete.</span></span>
+<span data-ttu-id="05bae-129">Let op de object-id van de groep of groepen die u permanent wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="05bae-129">Take note of the object ID of the group, or groups, that you want to permanently delete.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="5aaa5-130">Als u een groep permanent verwijdert, kunnen de groep en de bijbehorende gegevens niet meer worden hersteld.</span><span class="sxs-lookup"><span data-stu-id="5aaa5-130">Purging the group removes the group and its data forever.</span></span> 
+> <span data-ttu-id="05bae-130">Als u een groep permanent verwijdert, kunnen de groep en de bijbehorende gegevens niet meer worden hersteld.</span><span class="sxs-lookup"><span data-stu-id="05bae-130">Purging the group removes the group and its data forever.</span></span> 
   
-<span data-ttu-id="5aaa5-131">Voer deze opdracht uit in PowerShell om de groep permanent te verwijderen:</span><span class="sxs-lookup"><span data-stu-id="5aaa5-131">To purge the group run this command in PowerShell:</span></span>
+<span data-ttu-id="05bae-131">Voer deze opdracht uit in PowerShell om de groep permanent te verwijderen:</span><span class="sxs-lookup"><span data-stu-id="05bae-131">To purge the group run this command in PowerShell:</span></span>
   
 ```
 Remove-AzureADMSDeletedDirectoryObject -Id <objectId>
 ```
 
-<span data-ttu-id="5aaa5-p103">U kunt controleren dat de groep definitief is verwijderd door de cmdlet  *Get-AzureADMSDeletedGroup*  opnieuw uit te voeren en te kijken of de groep niet meer wordt vermeld in de lijst met voorlopig verwijderde groepen. In sommige gevallen duurt het wel 24 uur voordat de groep en alle bijbehorende gegevens permanent zijn verwijderd.</span><span class="sxs-lookup"><span data-stu-id="5aaa5-p103">To confirm that the group has been successfully purged, run the  *Get-AzureADMSDeletedGroup*  cmdlet again to confirm that the group no longer appears on the list of soft-deleted groups. In some cases it may take as long as 24 hours for the group and all of its data to be permanently deleted.</span></span> 
+<span data-ttu-id="05bae-p103">U kunt controleren dat de groep definitief is verwijderd door de cmdlet  *Get-AzureADMSDeletedGroup*  opnieuw uit te voeren en te kijken of de groep niet meer wordt vermeld in de lijst met voorlopig verwijderde groepen. In sommige gevallen duurt het wel 24 uur voordat de groep en alle bijbehorende gegevens permanent zijn verwijderd.</span><span class="sxs-lookup"><span data-stu-id="05bae-p103">To confirm that the group has been successfully purged, run the  *Get-AzureADMSDeletedGroup*  cmdlet again to confirm that the group no longer appears on the list of soft-deleted groups. In some cases it may take as long as 24 hours for the group and all of its data to be permanently deleted.</span></span> 
   
-## <a name="got-questions-about-office-365-groups"></a><span data-ttu-id="5aaa5-134">Hebt u vragen over Office 365 Groepen?</span><span class="sxs-lookup"><span data-stu-id="5aaa5-134">Got questions about Office 365 Groups?</span></span>
+## <a name="got-questions-about-microsoft-365-groups"></a><span data-ttu-id="05bae-134">Heb je vragen over Microsoft 365-groepen?</span><span class="sxs-lookup"><span data-stu-id="05bae-134">Got questions about Microsoft 365 Groups?</span></span>
 
-<span data-ttu-id="5aaa5-135">Ga naar de [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) om vragen te plaatsen en deel te nemen aan gesprekken over Office 365-groepen.</span><span class="sxs-lookup"><span data-stu-id="5aaa5-135">Visit the [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) to post questions and participate in conversations about Office 365 Groups.</span></span> 
+<span data-ttu-id="05bae-135">Ga naar de [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) om vragen te plaatsen en deel te nemen aan gesprekken over Microsoft 365-groepen.</span><span class="sxs-lookup"><span data-stu-id="05bae-135">Visit the [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) to post questions and participate in conversations about Microsoft 365 groups.</span></span> 
   
-## <a name="related-articles"></a><span data-ttu-id="5aaa5-136">Verwante artikelen</span><span class="sxs-lookup"><span data-stu-id="5aaa5-136">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="05bae-136">Verwante artikelen</span><span class="sxs-lookup"><span data-stu-id="05bae-136">Related articles</span></span>
 
-[<span data-ttu-id="5aaa5-137">Manage Office 365 Groups with PowerShell</span><span class="sxs-lookup"><span data-stu-id="5aaa5-137">Manage Office 365 Groups with PowerShell</span></span>](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
+[<span data-ttu-id="05bae-137">Microsoft 365-groepen beheren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="05bae-137">Manage Microsoft 365 Groups with PowerShell</span></span>](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
   
-<span data-ttu-id="5aaa5-138">[Delete groups using the Remove-UnifiedGroup cmdlet](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx) (Groepen verwijderen met de cmdlet Remove-UnifiedGroup)</span><span class="sxs-lookup"><span data-stu-id="5aaa5-138">[Delete groups using the Remove-UnifiedGroup cmdlet](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx)</span></span>
+<span data-ttu-id="05bae-138">[Delete groups using the Remove-UnifiedGroup cmdlet](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx) (Groepen verwijderen met de cmdlet Remove-UnifiedGroup)</span><span class="sxs-lookup"><span data-stu-id="05bae-138">[Delete groups using the Remove-UnifiedGroup cmdlet](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx)</span></span>
   
-[<span data-ttu-id="5aaa5-139">De teamsite-instellingen beheren die aan de groep zijn gekoppeld</span><span class="sxs-lookup"><span data-stu-id="5aaa5-139">Manage your group-connected team site settings</span></span>](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42.aspx)
+[<span data-ttu-id="05bae-139">De teamsite-instellingen beheren die aan de groep zijn gekoppeld</span><span class="sxs-lookup"><span data-stu-id="05bae-139">Manage your group-connected team site settings</span></span>](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42.aspx)
   
-[<span data-ttu-id="5aaa5-140">Een groep verwijderen in Outlook</span><span class="sxs-lookup"><span data-stu-id="5aaa5-140">Delete a group in Outlook</span></span>](https://support.office.com/article/ca7f5a9e-ae4f-4cbe-a4bc-89c469d1726f.aspx)
+[<span data-ttu-id="05bae-140">Een groep verwijderen in Outlook</span><span class="sxs-lookup"><span data-stu-id="05bae-140">Delete a group in Outlook</span></span>](https://support.office.com/article/ca7f5a9e-ae4f-4cbe-a4bc-89c469d1726f.aspx)
