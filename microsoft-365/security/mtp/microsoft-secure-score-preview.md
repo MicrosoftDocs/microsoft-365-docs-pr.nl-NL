@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d4c71b2f3c575f21ee2693c3d371c263813c2324
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 8319dcabe6032228e2124b68f9f7d8f237ff34de
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42810233"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583367"
 ---
 # <a name="microsoft-secure-score-preview"></a>Microsoft Secure Score (voorbeeld)
 
@@ -151,26 +151,9 @@ In het tabblad **Statistieken & trends** zijn er verschillende grafieken en graf
 
 Microsoft Secure Score is een numerieke samenvatting van uw beveiligingshouding op basis van systeemconfiguraties, gebruikersgedrag en andere beveiligingsgerelateerde metingen; het is geen absolute meting van hoe waarschijnlijk uw systeem of gegevens zullen worden geschonden. Het vertegenwoordigt in plaats daarvan de mate waarin u beveiligingscontroles hebt aangenomen in uw Microsoft-omgeving, wat kan helpen het risico op schending te compenseren. Geen enkele online service is volledig immuun voor inbreuken op de beveiliging, en veilige score mag op geen enkele manier worden geïnterpreteerd als een garantie tegen inbreuk op de beveiliging.
 
-## <a name="whats-coming"></a>Wat komt er aan?
-
-### <a name="mfa-improvement-action-updates"></a>UPDATE-updates voor MFA-verbeteringsacties
-
-Om rekening te houden met de noodzaak voor bedrijven om de grootst mogelijke beveiliging te garanderen en tegelijkertijd beleid toe te passen dat met hun bedrijf werkt, verwijdert Microsoft Secure Score drie verbeteringsacties rond multifactorauthenticatie en voegt het er twee toe.
-
-De drie die zullen worden verwijderd:
-- Alle gebruikers registreren voor meervoudige verificatie
-- MFA vereisen voor alle gebruikers
-- MFA vereisen voor ad-bevoegdheden van Azure
-
-Nieuwe verbeteringsacties:
-- Zorg ervoor dat alle gebruikers multi-factor authenticatie kunnen voltooien voor veilige toegang
-- MFA vereisen voor administratieve rollen
-
- Deze nieuwe verbeteringsacties vereisen het registreren van uw gebruikers of beheerders voor multi-factor authenticatie (MFA) in uw directory en het vaststellen van de juiste set beleidsregels die passen bij uw organisatiebehoeften. Het belangrijkste doel is flexibiliteit te hebben en ervoor te zorgen dat al uw gebruikers en beheerders kunnen verifiëren met meerdere factoren of op risico's gebaseerde identiteitsverificatieprompts. Dat kan de vorm aannemen van het instellen van beveiligingsstandaards waarmee Microsoft kan beslissen wanneer gebruikers voor MFA worden uitdaagt, of meerdere beleidsregels hebben die scoped-beslissingen toepassen.
-
 ## <a name="whats-new"></a>Wat is er nieuw? 
 
-Om van Microsoft Secure Score een betere vertegenwoordiger van uw beveiligingshouding te maken en de bruikbaarheid te verbeteren, hebben we enkele wijzigingen aangebracht. Je score en de hoogst mogelijke score zijn gewijzigd. Dit impliceert echter geen verandering in uw beveiligingshouding.
+Om van Microsoft Secure Score een betere vertegenwoordiger van uw beveiligingshouding te maken, hebben we enkele wijzigingen aangebracht. Zie Wat komt er in Microsoft Secure Score voor meer informatie over geplande [wijzigingen?](microsoft-secure-score-whats-coming.md)
 
 ### <a name="updated-interface-and-functionality"></a>Bijgewerkte interface en functionaliteit
 

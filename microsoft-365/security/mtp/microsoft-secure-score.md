@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f70d2f601dfb697d8affa8bb47148f6e454c5d8e
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.openlocfilehash: e7274ff196d5b822d146378752d66c9707fc9f19
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43541093"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583379"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -137,11 +137,9 @@ Microsoft Secure Score is een numerieke samenvatting van uw beveiligingshouding 
 
 ## <a name="whats-new"></a>Wat is er nieuw?
 
-Om van Microsoft Secure Score een betere vertegenwoordiger van uw beveiligingshouding te maken, hebben we enkele wijzigingen aangebracht.
+Om van Microsoft Secure Score een betere vertegenwoordiger van uw beveiligingshouding te maken, hebben we enkele wijzigingen aangebracht. Zie Wat komt er in Microsoft Secure Score voor meer informatie over geplande [wijzigingen?](microsoft-secure-score-whats-coming.md)
 
-Zie Wat komt er in Microsoft Secure Score voor meer informatie over geplande [wijzigingen?](microsoft-secure-score-whats-coming.md)
-
-### <a name="march-2020"></a>Maart 2020
+### <a name="january---march-2020"></a>Januari - maart 2020
 
 #### <a name="supporting-security-defaults-for-azure-ad-improvement-actions"></a>Ondersteuning van beveiligingsstandaardinstellingen voor Azure AD-verbeteringsacties
 

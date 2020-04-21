@@ -17,16 +17,16 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 1a5c5ae702f16bbf47be83837cf244cdd64278cd
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.openlocfilehash: 234ae17ab31d56d1bbd65f1aa8ed29475e9cd155
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43541105"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583713"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>Wat komt er in Microsoft Secure Score?
 
-Om van Microsoft Secure Score een betere vertegenwoordiger te maken van uw beveiligingshouding en de bruikbaarheid te verbeteren, brengen we in de nabije toekomst enkele wijzigingen door. Je score en de hoogst mogelijke score veranderen. Dit impliceert echter geen verandering in uw beveiligingshouding.
+Om [van Microsoft Secure Score](microsoft-secure-score.md) een betere vertegenwoordiger te maken van uw beveiligingshouding en de bruikbaarheid te verbeteren, brengen we in de nabije toekomst enkele wijzigingen door. Je score en de hoogst mogelijke score veranderen. Dit impliceert echter geen verandering in uw beveiligingshouding.
 
 Zie Nieuwe wijzigingen in Microsoft Secure Score voor meer informatie over recente [wijzigingen?](microsoft-secure-score.md#whats-new)
 
@@ -39,11 +39,15 @@ Om ervoor te zorgen dat de Microsoft Secure Score zinvol is en dat elke verbeter
 - IRM-beveiligingen toepassen op documenten
 - Beleid ter voorkoming van gegevensverlies toepassen
 
-### <a name="adding-azure-ad-improvement-action-in-the-preview-version"></a>Azure AD-verbeteringsactie toevoegen in de voorbeeldversie
+### <a name="adding-azure-ad-improvement-action-to-preview"></a>Azure AD-verbeteringsactie toevoegen aan voorbeeld
+
+De volgende Azure Active Directory-verbeteringsactie toevoegen aan de [preview-release van Microsoft Secure Score:](microsoft-secure-score-preview.md)
 
 - Geef gebruikers geen toestemming voor onbeheerde toepassingen (momenteel beschikbaar in een vrijgegeven versie)
 
-### <a name="adding-azure-atp-improvement-actions-in-the-preview-version"></a>Azure ATP-verbeteringsacties toevoegen in de preview-versie
+### <a name="adding-azure-atp-improvement-actions-to-preview"></a>Azure ATP-verbeteringsacties toevoegen om een voorbeeld te bekijken
+
+De volgende Azure Advanced Threat Protection-verbeteringsacties toevoegen aan de [preview-release van Microsoft Secure Score:](microsoft-secure-score-preview.md)
 
 - Afdrukspoolerservice uitschakelen op domeincontrollers
 - Onveilige Kerberos-delegaties wijzigen om imitatie te voorkomen
@@ -56,6 +60,6 @@ Om ervoor te zorgen dat de Microsoft Secure Score zinvol is en dat elke verbeter
 - Verouderde protocollen communicatie stoppen
 - Stop zwak versleutelingsgebruik
 
-### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations-in-the-preview-version"></a>Ondersteuning voor beveiligingsaanbevelingen van Microsoft Defender ATP-& Vulnerability Management (TVM) in de preview-versie
+### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations-in-preview"></a>Ondersteuning voor beveiligingsaanbevelingen van Microsoft Defender ATP Threat & Vulnerability Management (TVM) in preview
 
-- Alle vrijgegeven beveiligingsaanbevelingen van TVM zijn nu ook beschikbaar in Microsoft Secure Score
+Alle vrijgegeven beveiligingsaanbevelingen geleverd door TVM zal nu ook beschikbaar zijn [de preview release van Microsoft Secure Score](microsoft-secure-score-preview.md).
