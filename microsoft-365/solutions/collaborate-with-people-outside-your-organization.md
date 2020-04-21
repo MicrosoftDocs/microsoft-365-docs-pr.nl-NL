@@ -10,12 +10,12 @@ ms.collection: SPO_Content
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Meer informatie over het configureren van Microsoft 365 voor samenwerking met mensen buiten uw organisatie.
-ms.openlocfilehash: 80b5aacbf73a7845913acdcc6ada2321e49f77cd
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 1b2a15312dcaacc398bb521f3ecfb6e7453f66bb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894951"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630723"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Samenwerken met mensen buiten uw organisatie
 
@@ -23,7 +23,7 @@ De mogelijkheden voor extern delen in Microsoft 365 bieden mensen in uw organisa
 
 Samenwerken met mensen buiten uw organisatie bestaat uit twee belangrijke onderdelen:
 
-- **Delen inschakelen** : Configureer de besturingselementen voor delen in Azure Active Directory, Teams, Office 365-groepen en SharePoint om het gewenste deelniveau voor uw organisatie mogelijk te maken.
+- **Delen inschakelen** : Configureer de besturingselementen voor delen in Azure Active Directory, Teams, Microsoft 365-groepen en SharePoint om het gewenste deelniveau voor uw organisatie mogelijk te maken.
 - **Extra beveiliging inschakelen** - Hoewel de basisfuncties voor delen kunnen worden geconfigureerd om mensen buiten uw organisatie te verplichten zich te authenticeren, biedt Microsoft 365 veel extra beveiligings- en nalevingsfuncties om u te helpen uw gegevens te beschermen en uw governancebeleid te onderhouden terwijl u extern deelt.
 
 ## <a name="enable-sharing"></a>Delen inschakelen
@@ -46,7 +46,7 @@ Zodra u het scenario hebt ingeschakeld dat u wilt gebruiken voor het delen met m
 
 ## <a name="collaborate-with-partner-companies"></a>Samenwerken met partnerbedrijven
 
-Wanneer u werkt aan een groot project waarbij veel gasten uit een andere organisatie betrokken zijn, of als u een doorlopende leveranciersrelatie hebt waarin gasten vaak veranderen, u beheer van rechten gebruiken in Azure Active Directory om het beheer van gasten te vereenvoudigen en het partnerbedrijf in staat te stellen deel te nemen aan die verantwoordelijkheid. Zie [Een B2B-extranet maken met beheerde gasten](b2b-extranet.md) voor meer informatie.
+Wanneer u werkt aan een groot project waarbij veel gasten van een andere organisatie betrokken zijn, of als u een doorlopende leveranciersrelatie hebt waarin gasten vaak veranderen, u het beheer van rechten in Azure Active Directory gebruiken om het gastbeheer te vereenvoudigen en het partnerbedrijf in staat te stellen die verantwoordelijkheid te delen. Zie [Een B2B-extranet maken met beheerde gasten](b2b-extranet.md) voor meer informatie.
 
 ## <a name="limit-sharing"></a>Delen beperken
 

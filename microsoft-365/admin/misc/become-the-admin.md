@@ -1,5 +1,5 @@
 ---
-title: Een interne beheerovername uitvoeren in Office 365
+title: Een interne beheerovername uitvoeren
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -18,15 +18,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
-description: Meer informatie over het verifiëren van uw e-mail- en domeineigendom om een niet-beheerde tenant in Office 365 over te nemen
-ms.openlocfilehash: 3c732d55c533c72983aaa59e39e7bb8ff130f280
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Meer informatie over het verifiëren van uw e-mail- en domeineigendom om een niet-beheerde tenant in Microsoft 365 over te nemen
+ms.openlocfilehash: 1772ba9929433c87603d4b9d7027419063fd2fca
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212243"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627942"
 ---
-# <a name="perform-an-internal-admin-takeover-in-office-365"></a>Een interne beheerovername uitvoeren in Office 365
+# <a name="perform-an-internal-admin-takeover"></a>Een interne beheerovername uitvoeren
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
 
@@ -67,11 +67,11 @@ Als u een beheerder bent en een onbeheerde tenant wilt overnemen die is gemaakt 
   
 ## <a name="related-articles"></a>Verwante artikelen
 
-YouTube: [Drie te volgen stappen om een overname als IT-beheerder voor Power BI en Office 365 uit te voeren](https://www.youtube.com/watch?v=xt5EsrQBZZk)
+YouTube: [3 stappen om een IT-admin overname voor Power BI en Microsoft 365 te doen](https://www.youtube.com/watch?v=xt5EsrQBZZk)
 
 [Overname van beheerders in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)
 
-[Hulp krijgen bij Office 365-domeinen](../get-help-with-domains/get-help-with-domains.md)
+[Hulp krijgen bij domeinen](../get-help-with-domains/get-help-with-domains.md)
 
 [Zelfserviceaanmelden in uw organisatie gebruiken](self-service-sign-up.md)
   

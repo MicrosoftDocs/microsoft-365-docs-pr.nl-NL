@@ -1,5 +1,5 @@
 ---
-title: Office 365-rapporten in het beheercentrum - Apparaatgebruik van Microsoft Teams
+title: Microsoft 365-rapporten in het beheercentrum - Apparaatgebruik van Microsoft Teams
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -19,17 +19,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 917b3e1d-203e-4439-8539-634e80196687
-description: Krijg inzicht in de Microsoft Teams-apps die in uw organisatie worden gebruikt door het gebruiksrapport van Microsoft Teams-apps op te halen uit Office 365-rapporten.
-ms.openlocfilehash: b0937e4366f1b10b0908ee8764986f2ded2999ec
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+description: Krijg inzicht in de Microsoft Teams-apps die in uw organisatie worden gebruikt door het gebruiksrapport van Microsoft Teams-apps op te halen uit Microsoft 365-rapporten.
+ms.openlocfilehash: 9c79f83d90905470c56fd62489f1439b3383841f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046961"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621208"
 ---
-# <a name="office-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Office 365-rapporten in het beheercentrum - Apparaatgebruik van Microsoft Teams
+# <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Microsoft 365-rapporten in het beheercentrum - Apparaatgebruik van Microsoft Teams
 
-In het dashboard Office **365-rapporten** ziet u het activiteitenoverzicht voor de producten in uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md). Met het rapport App-gebruik in Microsoft Teams kunt u meer inzicht krijgen in de Microsoft Teams-apps die in uw organisatie worden gebruikt.
+Het dashboard Microsoft 365 **Rapporten** toont u het activiteitenoverzicht voor de producten in uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md). Met het rapport App-gebruik in Microsoft Teams kunt u meer inzicht krijgen in de Microsoft Teams-apps die in uw organisatie worden gebruikt.
   
 > [!NOTE]
 > U moet een globale beheerder, wereldwijde lezer of rapportenlezer zijn in Microsoft 365 of een Exchange-, SharePoint-, Teams-service-, Teams-communicatie- of Skype voor Bedrijven-beheerder om rapporten te bekijken.  
@@ -45,7 +45,7 @@ In het dashboard Office **365-rapporten** ziet u het activiteitenoverzicht voor 
 
 U kunt inzicht krijgen in het app-gebruik in Microsoft Teams door de grafieken **Gebruikers** en **Distributie** te bekijken. 
   
-![Office 365 reports - Microsoft Teams app usage](../../media/de35c4de-76b4-4109-a806-66774665499b.png)
+![Microsoft 365-rapporten - Gebruik van Microsoft Teams-apps](../../media/de35c4de-76b4-4109-a806-66774665499b.png)
   
 |||
 |:-----|:-----|

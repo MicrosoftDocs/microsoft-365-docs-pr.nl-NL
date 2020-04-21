@@ -1,5 +1,5 @@
 ---
-title: Het wachtwoord van een gebruiker opnieuw verzenden in Office 365 - Help voor beheerders
+title: Het wachtwoord van een gebruiker opnieuw verzenden - Help voor beheerders
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -18,15 +18,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9b838071-94aa-4b8e-8d84-d17ece1ee951
-description: 'Meer informatie over het opnieuw instellen van het wachtwoord en het verzenden van een meldingsmail naar een nieuwe Office 365-gebruiker. '
-ms.openlocfilehash: 64b3b4c805cfc81b10050e2e2e5c74290c68d760
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: 'Meer informatie over het opnieuw instellen van het wachtwoord en het verzenden van een meldingsmail naar een nieuwe Microsoft 365-gebruiker. '
+ms.openlocfilehash: fcf5fb53c2468930e68929a9bf38b634d7e67404
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42805533"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43624110"
 ---
-# <a name="resend-a-users-password-in-office-365---admin-help"></a>Het wachtwoord van een gebruiker opnieuw verzenden in Office 365 - Help voor beheerders
+# <a name="resend-a-users-password---admin-help"></a>Het wachtwoord van een gebruiker opnieuw verzenden - Help voor beheerders
 
 In dit artikel wordt uitgelegd hoe u de meldingse-mail opnieuw verzenden naar een nieuwe gebruiker in Office 365. Dit doe je door het wachtwoord van de gebruiker opnieuw in te stellen.
   
@@ -57,4 +57,3 @@ U moet een [globale beheerder of wachtwoordbeheerder](about-admin-roles.md) zijn
 4. Voer een e-mailadres in waarop de gebruiker het nieuwe wachtwoord kan ontvangen en neem contact met hen op om te controleren of ze het hebben ontvangen.
     
   
-

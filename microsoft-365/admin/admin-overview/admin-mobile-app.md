@@ -1,5 +1,5 @@
 ---
-title: Informatie over de mobiele microsoft 365-beheer-app
+title: Over de mobiele Microsoft 365 Admin-app
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -21,37 +21,37 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: e16f6421-2a1a-4142-bf9d-9846600a060a
-description: Download de Microsoft 365-beheer-app en leer uw online organisatie te beheren vanaf uw telefoon of tablet.
-ms.openlocfilehash: fc1be50c10ba5158c335d9c9b9dd1e69079ac2c1
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Download de Microsoft 365 Admin-app en leer uw online organisatie beheren vanaf uw telefoon of tablet.
+ms.openlocfilehash: aead9f30f2d75e3eab5099596ff80a575e571306
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42806352"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43623986"
 ---
-# <a name="about-the-microsoft-365-admin-mobile-app"></a>Informatie over de mobiele mobiele microsoft 365-beheer-app
+# <a name="about-the-microsoft-365-admin-mobile-app"></a>Informatie over de mobiele Microsoft 365-app voor beheerders
 
-Bent u een admin die meestal op de weg? Bekijk dan de [Microsoft 365 Admin-app](https://go.microsoft.com/fwlink/?LinkID=627216). U de app gebruiken om uw online organisatie te beheren vanaf uw telefoon of tablet. Je de app downloaden uit de Apple Store en vanuit Google Play. <br> 
+Ben je een admin die meestal onderweg is? Bekijk dan de [Microsoft 365 Admin-app](https://go.microsoft.com/fwlink/?LinkID=627216). U de app gebruiken om uw online organisatie te beheren vanaf uw telefoon of tablet. U de app downloaden uit de Apple Store en van Google Play. <br> 
 
-![Schermopname van de startpagina van de mobiele beheer-app, met zoeken, berichten, status en snelle koppelingen.](../../media/admin-mobile-app-darkbg.png)
+![Schermopname van de startpagina van de mobiele beheerder-app, met zoekopdrachten, berichten, gezondheid en snelle koppelingen.](../../media/admin-mobile-app-darkbg.png)
 
-De beheerders-app is een app die rijk is aan functies met meer dan 80 functies waarmee u uw organisatie beheren wanneer u niet bij een computer komen. Hier is een lijst met slechts een paar van de taken die u vanuit de app uitvoeren:
+De admin-app is een app met veel functies met meer dan 80 functies waarmee u uw organisatie beheren wanneer u niet bij een computer komen. Hier is een lijst van slechts een paar van de taken die u vanuit de app uitvoeren:
 
-- Servicestatus ontvangen en meldingen wijzigen
+- Meldingen over servicestatus en wijziging ontvangen
 - Een serviceaanvraag maken
 - Het wachtwoord van een gebruiker opnieuw instellen
 - Licenties toewijzen
 - Groepslidmaatschappen toevoegen of verwijderen
-- Add users 
+- Gebruikers toevoegen 
 
-En als je iemand bent die verantwoordelijk is voor meer dan één online organisatie, meld je je aan bij meerdere organisaties en schakel je snel tussen beide organisaties. 
+En als je iemand bent die verantwoordelijk is voor meer dan één online organisatie, meld je je aan bij meerdere organisaties en schakel je snel tussen hen. 
   
 > [!IMPORTANT]
 > Als je problemen hebt met het gebruik van de mobiele admin-app op iOS of Android, stuur ons dan een e-mail naar [feedback365@microsoft.com](mailto:feedback365@microsoft.com) om het ons te laten weten. 
   
 ## <a name="download-the-admin-mobile-app"></a>Download de mobiele app voor beheerders
 
-[Mobiele microsoft 365 Admin-app](https://go.microsoft.com/fwlink/?LinkID=627216).
+[Mobiele Microsoft 365 Admin-app](https://go.microsoft.com/fwlink/?LinkID=627216).
   
 Bekijk een korte video over het installeren van de mobiele admin-app.<br><br>
 
@@ -66,15 +66,15 @@ Hieronder vindt u antwoorden op enkele veelgestelde vragen over de app.
   
 ### <a name="what-do-i-need-to-do-to-be-able-to-use-the-app"></a>Wat moet ik doen om de app te kunnen gebruiken?
 
-U moet een geldig Abonnement voor Office 365 voor Bedrijven of Microsoft 365 Business hebben met beheerdersrechten om u aan te melden en de app te kunnen gebruiken. De mobiele app Beheerder is geen e-mailclient. Het is een uitgebreide administratieve app met meer dan 80 functies om u te helpen uw organisatie te ondersteunen terwijl u onderweg bent.
+U moet beschikken over een geldig Microsoft 365 Apps voor bedrijven of Microsoft 365 Business Premium-abonnement met beheerdersrechten om u aan te melden en de app te gebruiken. De mobiele admin-app is geen e-mailclient. Het is een rijke administratieve app met meer dan 80 functies om u te helpen uw organisatie te ondersteunen terwijl u onderweg bent.
   
-### <a name="can-i-use-the-app-with-my-office-365-for-home-subscription"></a>Kan ik de app gebruiken met mijn Office 365 voor thuisgebruik?
+### <a name="can-i-use-the-app-with-my-microsoft-365-family-subscription"></a>Kan ik de app gebruiken met mijn Microsoft 365 Family-abonnement?
 
-Nee, de app werkt alleen met Abonnementen voor Office 365 voor Bedrijven en Microsoft 365 Business. 
+Nee, de app werkt alleen met Microsoft 365 Apps voor bedrijven en Microsoft 365 Business Premium-abonnementen. 
   
 ### <a name="will-the-app-work-if-my-organization-has-directory-synchronization-enabled"></a>Werkt de app als mijn organisatie adreslijstsynchronisatie heeft ingeschakeld?
 
-Ja, maar met minder functionaliteit. U zich aanmelden en servicegegevens bekijken, maar de meeste gebruikersbeheerfuncties worden alleen-lezen. U geen gebruikers toevoegen, bewerken of verwijderen. U echter licenties toewijzen aan gebruikers in uw organisatie en meldingen ontvangen.
+Ja, maar met verminderde functionaliteit. U zich aanmelden en servicegegevens bekijken, maar de meeste functies voor gebruikersbeheer zijn alleen-lezen. U geen gebruikers toevoegen, bewerken of verwijderen. U echter wel licenties toewijzen aan gebruikers in uw organisatie en meldingen ontvangen.
   
 ### <a name="what-languages-are-supported-by-the-app"></a>Welke talen worden ondersteund door de app?
 
@@ -86,7 +86,7 @@ De nummers betreffen het totaal aantal berichten van vorige week, en niet de ong
   
 ### <a name="how-can-i-share-the-service-incidents-and-messages-with-the-rest-of-my-organization"></a>Hoe kan ik de Service-incidenten en Berichten delen met de rest van mijn organisatie?
 
-Als u een specifiek serviceincident of een bericht selecteert, bevindt de optie Delen zich in de rechterbovenhoek. We ondersteunen momenteel delen van e-mail.
+Als u een specifiek service-incident of een bericht selecteert, bevindt de optie delen zich in de rechterbovenhoek. We ondersteunen momenteel delen van e-mail.
   
 ### <a name="my-app-is-acting-funny-what-can-i-do-to-troubleshoot-weird-app-behavior"></a>Mijn app doet raar. Wat kan ik doen voor het oplossen van problemen bij vreemd gedrag van de app?
 
@@ -96,7 +96,7 @@ U kunt enkele veelgebruikte stappen voor foutoplossing bij de mobiele app prober
     
 2. Verwijder de app en installeer deze opnieuw.
 
-3. Als dat niet werkt, u ons op [feedback365@microsoft.com](mailto:feedback365@microsoft.com) een e-mail sturen om het ons te laten weten.
+3. Als dat niet werkt, u ons op [feedback365@microsoft.com](mailto:feedback365@microsoft.com) e-mailen om ons dit te laten weten.
     
 ### <a name="what-do-i-do-if-my-question-isnt-answered"></a>Wat moet ik doen als mijn vraag niet wordt beantwoord?
 
@@ -104,4 +104,4 @@ U kunt enkele veelgebruikte stappen voor foutoplossing bij de mobiele app prober
   
 ## <a name="see-also"></a>Zie ook
 
-[Trainingsvideo's voor Microsoft 365 Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 voor zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

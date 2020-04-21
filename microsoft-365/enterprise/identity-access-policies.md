@@ -16,14 +16,14 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 8b5cb7d8d8b16fea1c1bef44e477dfd43a79a3d8
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: a91488b9bfa126b1419af7697c0ae8510ddbc149
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081318"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625264"
 ---
-# <a name="common-identity-and-device-access-policies"></a>Gemeenschappelijk beleid voor identiteits- en apparaattoegangs
+# <a name="common-identity-and-device-access-policies"></a>Algemeen beleid voor identiteiten en apparaattoegang
 In dit artikel worden de algemene aanbevolen beleidsregels beschreven voor het beveiligen van toegang tot cloudservices, waaronder on-premises toepassingen die zijn gepubliceerd met Azure AD Application Proxy. 
 
 In deze leidraad wordt besproken hoe u het aanbevolen beleid in een nieuw ingerichte omgeving implementeert. Als u dit beleid in een afzonderlijke labomgeving instelt, u het aanbevolen beleid begrijpen en evalueren voordat de implementatie naar uw preproductie- en productieomgevingen wordt georganiseerd. Uw nieuw ingerichte omgeving kan alleen in de cloud of hybride zijn.  
@@ -67,9 +67,9 @@ In het volgende diagram vindt u een voorbeeld van gebruikerstoewijzing en uitslu
 
 In de illustratie krijgt het 'Top secret project X-team' een voorwaardelijk toegangsbeleid dat MFA *altijd*vereist. Wees verstandig bij het toepassen van hogere niveaus van bescherming voor gebruikers. Leden van dit projectteam moeten elke keer dat ze zich aanmelden twee vormen van verificatie verstrekken, zelfs als ze niet sterk gereguleerde inhoud bekijken.  
 
-Alle Azure AD-groepen die als onderdeel van deze aanbevelingen zijn gemaakt, moeten worden gemaakt als Office 365-groepen. Dit is specifiek belangrijk voor de implementatie van Azure Information Protection (AIP) bij het beveiligen van documenten in SharePoint Online.
+Alle Azure AD-groepen die als onderdeel van deze aanbevelingen zijn gemaakt, moeten worden gemaakt als Microsoft 365-groepen. Dit is specifiek belangrijk voor de implementatie van Azure Information Protection (AIP) bij het beveiligen van documenten in SharePoint Online.
 
-![Schermopname voor het maken van Office 365-groepen](../media/identity-device-AAD-groups.png)
+![Schermopname voor het maken van Microsoft 365-groepen](../media/identity-device-AAD-groups.png)
 
 
 ## <a name="require-mfa-based-on-sign-in-risk"></a>MFA vereisen op basis van aanmeldingsrisico
@@ -95,7 +95,7 @@ Ga als lid van het volgende over een nieuw beleid voor voorwaardelijke toegang:
 |:---|:---------|:-----|:----|
 |Gebruikers en groepen|Opnemen|Gebruikers en groepen selecteren – Selecteer specifieke beveiligingsgroep met gerichte gebruikers|Begin met beveiligingsgroep inclusief pilotgebruikers|
 ||Uitsluiten|Uitzonderingsbeveiligingsgroep; serviceaccounts (app-identiteiten)|Lidmaatschap gewijzigd op een indien nodig tijdelijke basis|
-|Cloud-apps|Opnemen|Selecteer de apps waarop u deze regel wilt toepassen. Selecteer bijvoorbeeld Office 365 Exchange Online||
+|Cloud-apps|Opnemen|Selecteer de apps waarop u deze regel wilt toepassen. Selecteer bijvoorbeeld Exchange Online||
 |Voorwaarden|Geconfigureerd|Ja|Configureren specifiek voor uw omgeving en behoeften|
 |Aanmeldingsrisico|Risiconiveau||Zie de richtlijnen in de volgende tabel|
 
@@ -142,7 +142,7 @@ In de volgende tabellen worden de beleidsinstellingen voor voorwaardelijke toega
 |:---|:---------|:-----|:----|
 |Gebruikers en groepen|Opnemen|Gebruikers en groepen selecteren – Selecteer specifieke beveiligingsgroep met gerichte gebruikers|Begin met beveiligingsgroep inclusief pilotgebruikers|
 ||Uitsluiten|Uitzonderingsbeveiligingsgroep; serviceaccounts (app-identiteiten)|Lidmaatschap gewijzigd op tijdelijke basis|
-|Cloud-apps|Opnemen|Selecteer de apps waarop u deze regel wilt toepassen. Selecteer bijvoorbeeld Office 365 Exchange Online||
+|Cloud-apps|Opnemen|Selecteer de apps waarop u deze regel wilt toepassen. Selecteer bijvoorbeeld Exchange Online||
 |Voorwaarden|Geconfigureerd|Ja|Client-apps configureren|
 |Client-apps|Geconfigureerd|Ja|Mobiele apps en desktopclients, Andere clients (selecteer beide)|
 
@@ -173,14 +173,14 @@ Meld u aan bij de [Microsoft Azure-portal (methttps://portal.azure.com) ](https:
 |:---|:---------|:-----|:----|
 |Gebruikers|Opnemen|Alle gebruikers|Geselecteerde|
 ||Uitsluiten|Geen||
-|Voorwaarden|Gebruikersrisico|High|Geselecteerde|
+|Voorwaarden|Gebruikersrisico|Hoog|Geselecteerde|
 
 **Besturingselementen**
 
 | Type | Eigenschappen | Waarden                  | Notities |
 |:-----|:-----------|:------------------------|:------|
-|      | Access     | Toegang toestaan            | Waar  |
-|      | Access     | Wachtwoordwijziging vereisen | Waar  |
+|      | Toegang     | Toegang toestaan            | Waar  |
+|      | Toegang     | Wachtwoordwijziging vereisen | Waar  |
 
 **Beoordeling:** niet van toepassing
 
@@ -215,7 +215,7 @@ Als u het app-beveiligingsbeleid wilt afdwingen dat u in Intune hebt toegepast, 
 
 Voor het afdwingen van app-beveiligingsbeleid is een reeks beleidsregels vereist die zijn beschreven in [Het beleid voor app-beveiliging vereisen voor toegang tot cloud-apps met voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access). Deze beleidsregels zijn elk opgenomen in deze aanbevolen set identiteits- en toegangsconfiguratiebeleid.
 
-Als u de regel voor voorwaardelijke toegang wilt maken waarvoor goedgekeurde apps en app-beveiliging vereist zijn, volgt u 'Stap 1: Configureer een Azure AD Conditional Access-beleid voor Office 365' in [Scenario 1: Voor Office 365-apps zijn goedgekeurde apps met een app-beveiligingsbeleid vereist,](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)waarmee Outlook voor iOS en Android is toegestaan, maar blokkeert UAuth-compatibele Exchange ActiveSync-clients om verbinding te maken met Exchange Online.
+Als u de regel voor voorwaardelijke toegang wilt maken waarvoor goedgekeurde apps en app-beveiliging vereist zijn, volgt u 'Stap 1: Configureer een Azure AD Conditional Access-beleid voor Microsoft 365' in [Scenario 1: Microsoft 365-apps vereisen goedgekeurde apps met beleid voor app-beveiliging](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), waarmee Outlook voor iOS en Android is toegestaan, maar blokkeert UAuth-compatibele Exchange ActiveSync-clients om verbinding te maken met Exchange Online.
 
    > [!NOTE]
    > Dit beleid zorgt ervoor dat mobiele gebruikers toegang hebben tot alle Office-eindpunten met behulp van de toepasselijke apps.
@@ -229,7 +229,7 @@ Ten slotte zorgt het blokkeren van oudere verificatie voor andere client-apps op
 <!---
 With Conditional Access, organizations can restrict access to approved (modern authentication capable) iOS and Android client apps with Intune app protection policies applied to them. Several conditional access policies are required, with each policy targeting all potential users. Details on creating these policies can be found in [Require app protection policy for cloud app access with Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access).
 
-1. Follow "Step 1: Configure an Azure AD Conditional Access policy for Office 365" in [Scenario 1: Office 365 apps require approved apps with app protection policies](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), which allows Outlook for iOS and Android, but blocks OAuth capable Exchange ActiveSync clients from connecting to Exchange Online.
+1. Follow "Step 1: Configure an Azure AD Conditional Access policy for Microsoft 365" in [Scenario 1: Microsoft 365 apps require approved apps with app protection policies](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), which allows Outlook for iOS and Android, but blocks OAuth capable Exchange ActiveSync clients from connecting to Exchange Online.
 
    > [!NOTE]
    > This policy ensures mobile users can access all Office endpoints using the applicable apps.
@@ -322,7 +322,7 @@ Ga als nodig:
 
 6. Kies **Cloud-apps**.
 
-7. Kies **Apps selecteren**, selecteer de gewenste apps in de lijst Met **Cloud-apps.** Selecteer bijvoorbeeld Office 365 Exchange Online. Kies **Selecteren** en **gereed**.
+7. Kies **Apps selecteren**, selecteer de gewenste apps in de lijst Met **Cloud-apps.** Selecteer bijvoorbeeld Exchange Online. Kies **Selecteren** en **gereed**.
 
 8. Als u compatibele pc's nodig hebt, maar niet voldoen aan telefoons en tablets, kiest u **Voorwaarden** en **apparaatplatforms.** Kies **Apparaatplatforms selecteren** en selecteer **Windows** en **macOS**.
 
@@ -350,7 +350,7 @@ Naleving voor alle apparaten vereisen:
 
 6. Kies **Cloud-apps**.
 
-7. Kies **Apps selecteren**, selecteer de gewenste apps in de lijst Met **Cloud-apps.** Selecteer bijvoorbeeld Office 365 Exchange Online. Kies **Selecteren** en **gereed**.
+7. Kies **Apps selecteren**, selecteer de gewenste apps in de lijst Met **Cloud-apps.** Selecteer bijvoorbeeld Exchange Online. Kies **Selecteren** en **gereed**.
 
 8. Kies **Verlenen** in de sectie **Toegangsbesturingselementen.**
 

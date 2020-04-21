@@ -1,5 +1,5 @@
 ---
-title: Implementatie van Office 365-invoegins beheren in het beheercentrum
+title: Implementatie van invoegingen beheren in het beheercentrum
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Leer om invoegingen te implementeren voor gebruikers en groepen in uw organisatie met behulp van gecentraliseerde implementatie in het beheercentrum.
-ms.openlocfilehash: d0818a0f318ea260d8e39b6e3d76c1cd4efd7a88
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 440cb55f318ac2aa43af5a24fa8ca80753aa03ac
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212007"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628158"
 ---
-# <a name="manage-deployment-of-office-365-add-ins-in-the-microsoft-365-admin-center"></a>De implementatie van Office 365-invoegtoepassingen in het Microsoft 365-beheercentrum beheren
+# <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Implementatie van invoegingen beheren in het Microsoft 365-beheercentrum
 
 Met Office-invoegtoepassingen kunt u uw documenten aan uw persoonlijke voorkeur aanpassen en de manier waarop u toegang krijgt tot informatie op internet stroomlijnen (zie [Uw Office-invoegtoepassing gebruiken](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx)). Als beheerder u Office-invoegtoepassing implementeren voor de gebruikers in uw organisatie. U dit doen met de functie Gecentraliseerde implementatie in het Microsoft 365-beheercentrum.
   
-Gecentraliseerde implementatie is de aanbevolen en meest veelzijdige manier voor de meeste beheerders om invoegtoepassingen te implementeren voor gebruikers en groepen binnen een organisatie. Zie [Bepalen of Gecentraliseerde implementatie van invoegtoepassingen voor uw Office 365-organisatie werkt](centralized-deployment-of-add-ins.md) voor meer informatie over hoe u bepaalt of uw organisatie Gecentraliseerde implementatie kan ondersteunen.
+Gecentraliseerde implementatie is de aanbevolen en meest veelzijdige manier voor de meeste beheerders om invoegtoepassingen te implementeren voor gebruikers en groepen binnen een organisatie. Zie Bepalen of gecentraliseerde implementatie van invoegingen voor uw organisatie mogelijk is voor meer informatie over hoe u bepalen of [gecentraliseerde implementatie van invoegingen werkt voor uw organisatie.](centralized-deployment-of-add-ins.md)
   
 Gecentraliseerde implementatie biedt de volgende voordelen:
   
@@ -41,7 +41,7 @@ Gecentraliseerde implementatie biedt de volgende voordelen:
 - Invoegtoepassingen worden niet meer weergegeven voor gebruikers als de beheerder de invoegtoepassing uitschakelt of verwijdert, of als de gebruiker wordt verwijderd uit Azure Active Directory of uit een groep waaraan de invoegtoepassing is toegewezen.
     
 > [!NOTE]
->  Gebruik voor Word, Excel en PowerPoint een [SharePoint-app-catalogus](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) om invoegtoepassingen te implementeren voor gebruikers in een on-premises omgeving zonder verbinding met Office 365 en/of zonder dat er ondersteuning voor SharePoint-invoegtoepassingen is vereist. >  Maak voor Outlook gebruik van het Configuratiescherm van Exchange voor de implementatie in een on-premises omgeving zonder verbinding met Office 365. > 
+>  Voor Word gebruiken Excel en PowerPoint een [SharePoint-app-catalogus](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) om invoegingen te implementeren voor gebruikers in een on-premises omgeving zonder verbinding met Microsoft 365 en/of ondersteuning voor SharePoint-invoegingen vereist. > voor Outlook gebruiken het configuratiescherm van Exchange om te implementeren in een on-premises omgeving zonder verbinding met Microsoft 365. > 
   
 ## <a name="recommended-approach-for-deploying-office-add-ins"></a>Aanbevolen werkwijze voor de implementatie van Office-invoegtoepassingen
 
@@ -57,10 +57,10 @@ Afhankelijk van de grootte van de doelgroep, kunt u eventueel uitrolstappen toev
   
 ## <a name="deploy-an-office-add-in-using-the-admin-center"></a>Een Office-invoegtoepassing implementeren met behulp van het beheercentrum
 
-Raadpleeg [Bepalen of Gecentraliseerde implementatie van invoegtoepassingen voor uw Office 365-organisatie werkt](centralized-deployment-of-add-ins.md) voordat u begint.
+Zie [Bepalen of gecentraliseerde implementatie van invoegingen voor uw organisatie werkt](centralized-deployment-of-add-ins.md)voordat u begint.
 
   
-1. Ga in het Microsoft 365-beheercentrum naar de pagina**Invoegtoepassing** **Instellingen.** > 
+1. Ga in het beheercentrum naar de pagina **Invoegtoepassing** **Instellingen.** \>
     
 2. Selecteer **Invoegtoepassing implementeren** boven aan de pagina. Selecteer **Volgende**op de overzichtspagina .
     
@@ -75,13 +75,13 @@ Raadpleeg [Bepalen of Gecentraliseerde implementatie van invoegtoepassingen voor
 7. Er verschijnt een groen vinkje wanneer de invoegtoepassing is geïmplementeerd. U de instructies op de pagina volgen om te testen of de invoegtoepassing is geïmplementeerd.
 
 > [!NOTE]
-> Gebruikers moeten Office mogelijk opnieuw opstarten om het invoegpictogram op het lint van de app te zien verschijnen. Het kan tot 24 uur duren voordat Outlook-invoegins op de linten van gebruikers worden weergegeven.
+> Gebruikers moeten Office mogelijk opnieuw opstarten om het invoegpictogram op het lint van de app te zien verschijnen. Het kan tot 12 uur duren voordat Outlook-invoegins op de linten van gebruikers worden weergegeven.
     
 8. Als u klaar bent, selecteert u **Volgende**. Als u alleen bij uzelf bent geïmplementeerd, u Wijzigen selecteren **wie toegang heeft tot invoegtoepassing** om te implementeren voor meer gebruikers.
 
 
 
-Als u de invoegtoepassing hebt geïmplementeerd op andere leden van uw organisatie dan uzelf, volgt u de instructies die worden weergegeven om de implementatie van de invoegtoepassing effectief aan te kondigen. <br/>De invoegtoepassing wordt nu samen met andere apps in Office 365 weergegeven.
+Als u de invoegtoepassing hebt geïmplementeerd op andere leden van uw organisatie dan uzelf, volgt u de instructies die worden weergegeven om de implementatie van de invoegtoepassing effectief aan te kondigen. <br/>U ziet nu uw invoegtoepassing samen met andere apps in Microsoft 365.
   
 Laat gebruikers en groepen weten dat u de invoegtoepassing hebt geïmplementeerd en dat deze nu voor hen beschikbaar is. U kunt ook een e-mailbericht naar gebruikers en groepen sturen waarin u beschrijft wanneer en hoe de invoegtoepassing kan worden gebruikt en hoe de invoegtoepassing kan helpen hun werk beter te doen. Neem relevante Help-inhoud of veelgestelde vragen op (of een koppeling hiernaartoe) voor het geval gebruikers problemen met de invoegtoepassing hebben.
   
@@ -101,19 +101,12 @@ Welke optie voor uw organisatie geschikt is, is afhankelijk van uw configuratie.
   
 ### <a name="add-in-states"></a>Statussen van invoegtoepassingen
 
-Beheerders kunnen de invoegingen die ze implementeren voor alle gebruikers vanuit het Microsoft 365-beheercentrum in- of uitschakelen.
-
-1.    Ga in het beheercentrum naar de pagina **Invoegtoepassing**  **Instellingen.** > 
-2.    Selecteer de geïmplementeerde invoegtoepassing. 
-3.    Klik op de **statusschakelaar** om de in- of **uit-invoegtoepassing** in te schakelen . **Off** 
-4.    Sla de wijzigingen op.  
-
-Een van de drie add-in staten is ook beschikbaar.
- 
+Een invoegtoepassing kan in **de** aan- of **uitstatus** staan.
+  
 |**Status**|**Hoe de status optreedt**|**Impact**|
 |:-----|:-----|:-----|
 |**Actief**  <br/> |De beheerder heeft de invoegtoepassing geüpload en toegewezen aan gebruikers of groepen.  <br/> |Gebruikers en groepen die zijn toegewezen aan de invoegtoepassing, zien de invoegtoepassing in de desbetreffende clients.  <br/> |
-|**Uitgeschakeld**  <br/> |De beheerder heeft de invoegtoepassing uitgeschakeld.  <br/> |Gebruikers en groepen die zijn toegewezen aan de invoegtoepassing, hebben niet langer toegang tot de invoegtoepassing.  <br/> Als de invoegstatus wordt gewijzigd in **Actief,** hebben de gebruikers en groepen er weer toegang toe.  <br/> |
+|**Uitgeschakeld**  <br/> |De beheerder heeft de invoegtoepassing uitgeschakeld.  <br/> |Gebruikers en groepen die zijn toegewezen aan de invoegtoepassing, hebben niet langer toegang tot de invoegtoepassing.  <br/> Als de status van de invoegtoepassing wordt gewijzigd in Actief, hebben de gebruikers en groepen opnieuw toegang tot de invoegtoepassing.  <br/> |
 |**Verwijderd**  <br/> |De beheerder heeft de invoegtoepassing verwijderd.  <br/> |Gebruikers en groepen die zijn toegewezen aan de invoegtoepassing, hebben niet langer toegang tot de invoegtoepassing.  <br/> |
    
 Stel dat u een invoegtoepassing verwijdert omdat deze door niemand meer wordt gebruikt. Het uitschakelen van een invoegtoepassing kan zinvol zijn als een invoegtoepassing alleen in bepaalde perioden van het jaar wordt gebruikt.
@@ -182,9 +175,9 @@ Hierdoor wordt voorkomen dat alle gebruikers de volgende invoegtoepassingen via 
     
 - Aanschaf die begint vanuit **AppSource**
     
-- Invoegtoepassingen in Office 365
+- Invoegingen binnen Microsoft 365
     
-Een gebruiker die toegang tot de store wil hebben, ziet het volgende bericht: **Office 365 is zodanig geconfigureerd om individuele aanschaf van invoegtoepassingen via Office Store te voorkomen.**
+Een gebruiker die toegang probeert te krijgen tot het archief, ziet het volgende bericht: **Microsoft 365 is geconfigureerd om te voorkomen dat er afzonderlijke invoegnamen in de Office Store worden gekocht.**
   
 Ondersteuning voor het uitschakelen van Office Store is beschikbaar in de volgende versies:
   
@@ -241,7 +234,7 @@ Als u wilt dat uw school of organisatie voldoet aan de AVG-vereisten voor minder
   
 Word, Excel en PowerPoint 2013 voor Windows ondersteunen dezelfde secundaire controles als Active Directory Authentication Library (ADAL) is ingeschakeld. Er zijn twee opties voor naleving, zoals hierna wordt beschreven.
   
-- **ADAL inschakelen**. In dit artikel wordt uiteengezet hoe u ADAL voor Office 2013 kunt inschakelen: [Using Office 365 modern authentication with Office clients](https://support.office.com/article/776c0036-66fd-41cb-8928-5495c0f9168a).<br/>U hebt ook de registersleutels nodig om ADAL in te schakelen, zoals wordt beschreven in [Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten](../security-and-compliance/enable-modern-authentication.md).<br/>Daarnaast moet u deze updates van april voor Office 2013 installeren:
+- **ADAL inschakelen**. In dit artikel wordt uitgelegd hoe u ADAL voor Office 2013 inschakelt: [Microsoft 365-moderne verificatie gebruiken met Office-clients](https://support.office.com/article/776c0036-66fd-41cb-8928-5495c0f9168a).<br/>U hebt ook de registersleutels nodig om ADAL in te schakelen, zoals wordt beschreven in [Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten](../security-and-compliance/enable-modern-authentication.md).<br/>Daarnaast moet u deze updates van april voor Office 2013 installeren:
     
   - [Beschrijving van de beveiligingsupdate voor Outlook 2013: 10 april 2018](https://support.microsoft.com/help/4018330/description-of-the-security-update-for-office-2013-april-10-2018)
     

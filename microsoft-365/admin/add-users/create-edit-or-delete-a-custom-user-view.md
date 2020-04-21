@@ -1,5 +1,5 @@
 ---
-title: Een aangepaste gebruikersweergave maken, bewerken of verwijderen in Office 365
+title: Een aangepaste gebruikersweergave maken, bewerken of verwijderen
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -18,13 +18,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4fe7f6ac-be8e-4b57-9e13-24ff889a4b28
-description: Informatie over het gebruik van filters om aangepaste gebruikersweergave in Office 365 te maken, bewerken of verwijderen.
-ms.openlocfilehash: ae12675afd47434ac6dd12dae683c79aae64be1f
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+description: Leer filters gebruiken om aangepaste gebruikersweergave in Microsoft 365 te maken, bewerken of verwijderen.
+ms.openlocfilehash: 94a9ad7de8bc8e0692d97fda56200cf668b1e5f8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43047057"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43617258"
 ---
 # <a name="create-edit-or-delete-a-custom-user-view-in-office-365"></a>Een aangepaste gebruikersweergave maken, bewerken of verwijderen in Office 365
 
@@ -63,7 +63,7 @@ Wanneer u een aangepaste gebruikersweergave maakt, bewerkt of verwijdert, worden
 Let op het volgende in verband met standaardweergaven: 
 
 - In bepaalde standaardweergaven wordt een ongesorteerde lijst weergegeven als de lijst meer dan 2.000 gebruikers bevat. Via het zoekvak kunt u vervolgens zoeken naar specifieke gebruikers in deze lijst. 
-- Als u Office 365 niet bij Microsoft hebt gekocht, wordt **Financieel medewerkers** niet weergegeven in de lijst met standaardweergaven. Zie [Beheerdersrollen toewijzen](assign-admin-roles.md) voor meer informatie. 
+- Als u Microsoft 365 niet bij Microsoft hebt gekocht, worden **factureringsbeheerders** niet weergegeven in de lijst met standaardweergaven. Zie [Beheerdersrollen toewijzen](assign-admin-roles.md) voor meer informatie. 
   
 ## <a name="choose-the-filters-for-your-custom-user-view"></a>Kies de filters voor de aangepaste gebruikersweergave
 
@@ -88,12 +88,12 @@ Ook kunt u filteren op andere gegevens uit het gebruikersprofiel die worden gebr
     
 - **Gebruikers zonder licentie** Selecteer dit vakje als u alle gebruikers wilt weergeven waaraan geen licentie is toegewezen. Het resultaat van deze weergave kan ook gebruikers omvatten die een Exchange-postvak hebben maar geen licentie. Als u deze gebruikers specifiek wilt opsporen, gebruikt u het filter **Gebruikers zonder licentie met Exchange-postvakken of -archieven**. Het resultaat van deze weergave kan ook gebruikers omvatten die een Exchange-archief hebben maar geen licentie.
     
-- **Gebruikers zonder licentie met Exchange-postvakken of -archieven** Selecteer dit vakje als u gebruikersaccounts wilt weergeven die zijn gemaakt in Exchange Online en een Exchange-postvak hebben, maar waaraan geen Office 365-licentie is toegewezen. De resultaten van dit filter omvatten gebruikers met een Exchange-archief of waaraan een archief is toegewezen. 
+- **Gebruikers zonder licentie met Exchange-postvakken of -archieven** Selecteer dit vak om gebruikersaccounts weer te geven die zijn gemaakt in Exchange Online en een Exchange-postvak hebben, maar die geen Microsoft 365-licentie hebben gekregen. De resultaten van dit filter omvatten gebruikers met een Exchange-archief of waaraan een archief is toegewezen. 
 
 > [!NOTE]
 > Het filter **Zonder licentie voor gebruikers met Exchange-postvakken** werkt wanneer:
 1. Het postvak is onlangs geconverteerd van **gedeeld** naar **gebruiker** en heeft geen licentie.
-2. Het postvak is onlangs gemigreerd naar Office 365, maar er is geen licentie toegewezen.
+2. Het postvak is onlangs gemigreerd naar Microsoft 365, maar er is geen licentie toegewezen.
 3. Het postvak is gemaakt met PowerShell en er is geen licentie toegewezen.
 4. Een nieuwe mailbox die on-premise is gemaakt met een Nieuw-RemoteMailbox-cmdlet is ingericht voor de gebruiker.
     

@@ -1,5 +1,5 @@
 ---
-title: Aangepaste DNS-records toevoegen of bewerken in Office 365
+title: Aangepaste DNS-records toevoegen of bewerken in Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: af00a516-dd39-4eda-af3e-1eaf686c8dc9
-description: 'Meer informatie over het bewerken of toevoegen van een aangepaste DNS-record in Office 365. '
-ms.openlocfilehash: c2495e4b7e85361d89404526e2467a08f2259567
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: 'Meer informatie over het bewerken of toevoegen van een aangepaste DNS-record in Microsoft. '
+ms.openlocfilehash: d7084913e2439b126232735fe2e6abe853c03ddf
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212519"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630017"
 ---
-# <a name="add-or-edit-custom-dns-records-in-office-365"></a>Aangepaste DNS-records toevoegen of bewerken in Office 365
+# <a name="add-or-edit-custom-dns-records-in-microsoft"></a>Aangepaste DNS-records toevoegen of bewerken in Microsoft
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
 
-1. Meld u aan bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>het beheercentrum op .   
+1. Meld u aan bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>het Microsoft-beheercentrum op .   
 
-2. Ga naar de pagina \> **Instellingendomeinen.** **Settings**
+2. Ga naar de pagina  > **Instellingendomeinen.** **Settings**
 
 3. Selecteer een domein op de pagina **Domeinen**. 
     
@@ -46,10 +46,10 @@ ms.locfileid: "43212519"
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[De informatie verzamelen die u nodig hebt om DNS-records voor Office 365 te maken](../get-help-with-domains/information-for-dns-records.md)
+[Verzamel de informatie die u nodig hebt om Microsoft DNS-records te maken](../get-help-with-domains/information-for-dns-records.md)
 
 [DNS-basisprincipes](../get-help-with-domains/dns-basics.md)
 
-[Hulp krijgen bij Office 365-domeinen](../get-help-with-domains/get-help-with-domains.md)
+[Hulp krijgen bij domeinen](../get-help-with-domains/get-help-with-domains.md)
 
 

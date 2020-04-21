@@ -18,24 +18,24 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
-description: Bepaal of uw Office 365-tenant en -gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie gebruiken om Office-invoegtoepassingen te implementeren.
-ms.openlocfilehash: a3005d02522d0a2b22b1ca337d8f49ce7fa20fb3
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Bepaal of uw tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie gebruiken om Office-invoegins te implementeren.
+ms.openlocfilehash: 10dd97adf67cf3aeb91337fb251e7cebffdce56c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209746"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628230"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Bepalen of gecentraliseerde implementatie van invoegingen werkt voor uw organisatie
 
-Gecentraliseerde implementatie is de aanbevolen en meest veelzijdige manier voor de meeste klanten om Office-invoegtoepassingen te implementeren voor gebruikers en groepen binnen de Office 365-organisatie. Als u een beheerder bent, gebruikt u deze richtlijnen om te bepalen of uw tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie gebruiken.
+Gecentraliseerde implementatie is de aanbevolen en meest veelzijdige manier voor de meeste klanten om Office-invoegtoepassingen te implementeren voor gebruikers en groepen binnen uw organisatie. Als u een beheerder bent, gebruikt u deze richtlijnen om te bepalen of uw tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie gebruiken.
 Gecentraliseerde implementatie ondersteunt Windows-, Mac-, iOS-, Android- en Online Office-apps.
-Het kan maximaal 24 uur duren voordat een invoegtoepassing aan alle gebruikers wordt weergegeven.
+Het kan tot 12 uur duren voordat een invoegtoepassing voor alle gebruikers wordt weergegeven.
   
 ## <a name="requirements"></a>Vereisten
 
-Voor een gecentraliseerde implementatie van invoegingen moeten de gebruikers Office 365 ProPlus gebruiken (en zijn aangemeld bij Office met hun organisatie-id) en hebben ze Exchange Online- en actieve Exchange Online-postvakken. De map van uw abonnement moet zich in of gefedereerd hebben in Azure Active Directory.
-U hieronder specifieke vereisten voor Office en Exchange bekijken of de [office 365-controlevoor compatibiliteitscontrole voor gecentraliseerde implementatie](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker)gebruiken.
+Gecentraliseerde implementatie van invoegtoepassingvereist dat de gebruikers Microsoft 365 Apps voor ondernemingen gebruiken (en zijn aangemeld bij Office met hun organisatie-ID) en dat ze Exchange Online- en actieve Exchange Online-postvakken hebben. Uw abonnementsmap moet zich in of gefedereerd bevinden in Azure Active Directory.
+U hieronder specifieke vereisten voor Office en Exchange bekijken of de [centrale controlevan de compatibiliteitscontrole voor implementatie](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker)gebruiken.
 
 Gecentraliseerde implementatie biedt geen ondersteuning voor het volgende:
   
@@ -49,16 +49,16 @@ Gecentraliseerde implementatie biedt geen ondersteuning voor het volgende:
    
 - Implementatie van COM- (Component Object Model) of VSTO-invoegtoepassingen (Visual Studio Tools for Office)
     
-- Implementaties van Office 365 die geen Exchange bevatten, zoals Office 365 Business
+- Implementaties van Microsoft 365 die geen Exchange bevatten, zoals Microsoft 365 Apps voor bedrijven
 
 ### <a name="office-requirements"></a>Office-vereisten
 
 - Voor Word-, Excel- en PowerPoint-invoegtoepassings moeten uw gebruikers een van de volgende opties gebruiken:
-  - Op een Windows-apparaat, versie 1704 of hoger van Office 365 ProPlus.
+  - Op een Windows-apparaat, versie 1704 of hoger van Microsoft 365 Apps voor bedrijven.
   - Op een Mac, versie 15.34 of hoger.
 
 - Voor Outlook moeten uw gebruikers een van de volgende opties gebruiken: 
-  - Versie 1701 of hoger van Office 365 ProPlus.
+  - Versie 1701 of hoger van Microsoft 365 Apps for enterprise.
   - Versie 1808 of hoger van Office Professional Plus 2019 of Office Standard 2019.
   - Versie 16.0.4494.1000 of hoger van Office Professional Plus 2016 (MSI) of Office Standard 2016 (MSI)\*
   - Versie 15.0.4937.1000 of hoger van Office Professional Plus 2013 (MSI) of Office Standard 2013 (MSI)\*
@@ -69,17 +69,17 @@ Gecentraliseerde implementatie biedt geen ondersteuning voor het volgende:
     *MSI-versies van Outlook tonen door de beheerder geïnstalleerde invoegingen in het juiste Outlook-lint, niet in de sectie Mijn invoegingen.
     
 
-#### <a name="find-out-if-office-365-proplus-is-installed"></a>Controleren of Office 365 ProPlus is geïnstalleerd
+#### <a name="find-out-if-microsoft-365-apps-for-enterprise-is-installed"></a>Controleren of Microsoft 365 Apps voor bedrijven is geïnstalleerd
 
-Als u Office 365 ProPlus wilt gebruiken, moet een gebruiker een Office 365-account hebben en een licentie hebben gekregen. Zie [Overzicht van Office 365 ProPlus](https://go.microsoft.com/fwlink/p/?linkid=846328) voor meer informatie.
+Als u Microsoft 365 Apps voor ondernemingen wilt gebruiken, moet een gebruiker een Microsoft 365-account hebben en een licentie hebben gekregen. Zie [Overzicht van Microsoft 365 Apps for enterprise voor](https://go.microsoft.com/fwlink/p/?linkid=846328)meer informatie.
 
-De eenvoudigste manier om te detecteren of een gebruiker Office 365 ProPlus heeft geïnstalleerd en het onlangs heeft gebruikt, is door het microsoft Office-activeringsrapport te gebruiken, dat beschikbaar is in het Microsoft 365-beheercentrum. Het rapport biedt een lijst met alle gebruikers die Office 365 ProPlus in de afgelopen 7 dagen, 30 dagen, 90 dagen of 180 dagen hebben geactiveerd. Voor gecentraliseerde implementatiedoeleinden zijn de bureaubladactiveringen voor Windows of Mac de belangrijke kolommen in het rapport. U kunt het rapport exporteren naar Excel. Zie [Office 365-rapporten in het beheercentrum - Microsoft Office-activeringen](../activity-reports/microsoft-office-activations.md) voor meer informatie over het rapport.
+De eenvoudigste manier om te detecteren of een gebruiker Microsoft 365 ProPlus heeft geïnstalleerd en het onlangs heeft gebruikt, is door het microsoft Office-activeringsrapport te gebruiken, dat beschikbaar is in het Microsoft 365-beheercentrum. Het rapport bevat een lijst met alle gebruikers die Microsoft 365 Apps voor bedrijven hebben geactiveerd in de afgelopen 7 dagen, 30 dagen, 90 dagen of 180 dagen. Voor gecentraliseerde implementatiedoeleinden zijn de bureaubladactiveringen voor Windows of Mac de belangrijke kolommen in het rapport. U kunt het rapport exporteren naar Excel. Zie [Microsoft 365-rapporten in het beheercentrum - Microsoft Office-activeringen](../activity-reports/microsoft-office-activations.md)voor meer informatie over het rapport.
   
-Als u het rapport Activeringen niet wilt gebruiken, u een gebruiker vragen een Office-toepassing zoals Word op zijn of haar machine te openen en vervolgens **Account** \> **bestand**te kiezen. Onder **Productinformatie** zou u **Abonnementsproduct** en **Microsoft Office 365 ProPlus** moeten zien, zoals weergegeven in de volgende afbeelding.
+Als u het rapport Activeringen niet wilt gebruiken, u een gebruiker vragen een Office-toepassing zoals Word op zijn of haar machine te openen en vervolgens **Account** \> **bestand**te kiezen. Zie **Onder Productgegevens**ziet u **Abonnementsproduct** en **Microsoft Microsoft 365 Apps voor ondernemingen,** zoals weergegeven in de volgende afbeelding.
 
 ![Productinformatie in een Office-toepassing](../../media/4bff2bb8-0690-4d22-ac1f-b8881807fa39.png)
   
-Voor hulp met Office 365 ProPlus raadpleegt u [Tips voor het oplossen van problemen met Office 365 ProPlus](https://go.microsoft.com/fwlink/p/?linkid=846339).
+Zie [Tips voor probleemoplossing voor Microsoft 365 Apps voor bedrijven voor](https://go.microsoft.com/fwlink/p/?linkid=846339)hulp bij Microsoft 365 Apps voor bedrijven.
 
 
 ### <a name="exchange-online-requirements"></a>Exchange Online-vereisten
@@ -89,9 +89,9 @@ Microsoft Exchange slaat de invoegtoepassingsmanifesten op in de tenant van uw o
 Vraag de Exchange-beheerder van uw organisatie welke configuratie in gebruik is. OAuth-connectiviteit per gebruiker kan worden geverifieerd door de PowerShell-cmdlet [Test-OAuthConnectivity](https://go.microsoft.com/fwlink/p/?linkid=846351) te gebruiken. 
 
 
-### <a name="office-365-centralized-deployment-compatibility-checker"></a>Compatibiliteitscontrole van Gecentraliseerde implementatie in Office 365
+### <a name="centralized-deployment-compatibility-checker"></a>Controle van gecentraliseerde implementatiecompatibiliteit
 
-Met de compatibiliteitscontrole van Office 365 Gecentraliseerde implementatie kunt u controleren of de gebruikers in uw tenant zijn ingesteld voor het gebruik van Gecentraliseerde implementatie voor Word, Excel en PowerPoint. De compatibiliteitscontrole is niet vereist voor ondersteuning voor Outlook. Download [hier](https://aka.ms/officeaddindeploymentorgcompatibilitychecker) de compatibiliteitscontrole.
+Met behulp van de centrale controle van de compatibiliteit van implementatie u controleren of de gebruikers op uw tenant zijn ingesteld om gecentraliseerde implementatie voor Word, Excel en PowerPoint te gebruiken. De compatibiliteitscontrole is niet vereist voor ondersteuning voor Outlook. Download [hier](https://aka.ms/officeaddindeploymentorgcompatibilitychecker) de compatibiliteitscontrole.
   
 #### <a name="run-the-compatibility-checker"></a>De compatibiliteitscontrole uitvoeren
   
@@ -131,7 +131,7 @@ Als het hulpprogramma is uitgevoerd, wordt een uitvoerbestand gegenereerd in een
   
 ## <a name="user-and-group-assignments"></a>Toewijzingen van gebruikers en groepen
 
-De functie Gecentraliseerde implementatie ondersteunt momenteel de meeste groepen die worden ondersteund door Azure Active Directory, waaronder Office 365 Groepen, distributielijsten en beveiligingsgroepen.
+De functie Gecentraliseerde implementatie ondersteunt momenteel de meeste groepen die worden ondersteund door Azure Active Directory, waaronder Microsoft 365-groepen, distributielijsten en beveiligingsgroepen.
   
 > [!NOTE]
 > Niet door e-mail ingeschakelde beveiligingsgroepen worden momenteel niet ondersteund. 
@@ -157,7 +157,7 @@ U kunt ook de Azure Active Directory Graph API gebruiken voor het uitvoeren van 
   
 ### <a name="contacting-microsoft-for-support"></a>Contact opnemen met Microsoft voor ondersteuning
 
-Als u of uw gebruikers problemen ondervinden bij het laden van de invoegtoepassing tijdens het gebruik van Office-apps voor het web (Word, Excel, enz.), die centraal zijn geïmplementeerd, moet u mogelijk contact opnemen met microsoft-ondersteuning[(meer informatie).](../contact-support-for-business-products.md) Geef de volgende informatie over uw Office 365-omgeving in het ondersteuningsticket.
+Als u of uw gebruikers problemen ondervinden bij het laden van de invoegtoepassing tijdens het gebruik van Office-apps voor het web (Word, Excel, enz.), die centraal zijn geïmplementeerd, moet u mogelijk contact opnemen met microsoft-ondersteuning[(meer informatie).](../contact-support-for-business-products.md) Geef de volgende informatie over uw Microsoft 365-omgeving op in het ondersteuningsticket.
   
 |**Platform**|**Foutopsporingsgegevens**|
 |:-----|:-----|

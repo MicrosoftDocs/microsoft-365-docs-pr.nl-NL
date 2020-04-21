@@ -1,5 +1,5 @@
 ---
-title: E-mail en gegevens verplaatsen naar Office 365 Business Premium
+title: E-mail en gegevens verplaatsen naar Microsoft 365 Business Standard
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -21,30 +21,30 @@ search.appverid:
 ms.assetid: 1062115d-e312-482a-bb5a-765235990f41
 ROBOTS: NOINDEX
 description: Leer gegevens over te zetten naar uw nieuwe bedrijfsidentiteit.
-ms.openlocfilehash: fc0df5e919370395480cdafbaaee10b0d844f088
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 674b5e1fc8128656733b9586d9bab607df621954
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209674"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627834"
 ---
-# <a name="move-email-and-data-to-office-365-business-premium"></a>E-mail en gegevens verplaatsen naar Office 365 Business Premium
+# <a name="move-email-and-data-to-microsoft-365-business-standard"></a>E-mail en gegevens verplaatsen naar Microsoft 365 Business Standard
 
-Wanneer u een upgrade uitvoert naar Office 365 Business Premium, geven we u een gloednieuwe *bedrijfsidentiteit.* U krijgt een nieuw e-mailaccount en een afzonderlijk OneDrive-account voor uw zakelijke gegevens. 
+Wanneer u een upgrade uitvoert naar Microsoft 365 Business Standard, geven we u een gloednieuwe *bedrijfsidentiteit.* U krijgt een nieuw e-mailaccount en een afzonderlijk OneDrive-account voor uw zakelijke gegevens. 
   
 Als u sommige van uw persoonlijke gegevens wilt overbrengen naar uw nieuwe bedrijfsidentiteit, volgt u de onderstaande instructies.
   
 ## <a name="onedrive"></a>[OneDrive](#tab/OneDrive)
   
  **Uw OneDrive-gegevens kopiëren**
-1. Maak een tijdelijke map op uw harde schijf voor het tijdelijk opslaan van de bestanden die u wilt migreren naar Office 365 voor Bedrijven.
+1. Maak een tijdelijke map op uw harde schijf om de bestanden die u wilt migreren naar Microsoft 365 voor Bedrijven tijdelijk op te slaan.
     
-2. Ga [https://onedrive.live.com/](https://onedrive.live.com/) naar en meld u aan met het Microsoft-account dat u gebruikt om toegang te krijgen tot uw Abonnement op Office 365 voor Thuisgebruik. 
+2. Ga [https://onedrive.live.com/](https://onedrive.live.com/) naar en meld u aan met het Microsoft-account dat u gebruikt om toegang te krijgen tot uw Microsoft 365 Family-abonnement. 
     
-3. Kopieer de bestanden die u wilt gebruiken in Office 365 voor Bedrijven naar de lokale map die u in stap 1 hebt gemaakt.
+3. Kopieer de bestanden die u met Microsoft 365 voor bedrijven wilt gebruiken naar de lokale map die u in stap 1 hebt gemaakt.
     
- **OneDrive-bestanden importeren in Office 365 voor Bedrijven**
-1. Ga naar [admin.microsoft.com](https://go.microsoft.com/fwlink/?LinkId=816877) en meld u aan met uw gebruikersnaam en wachtwoord voor Office 365 Business. 
+ **OneDrive-bestanden importeren in Microsoft 365 voor Bedrijven**
+1. Ga naar [admin.microsoft.com](https://go.microsoft.com/fwlink/?LinkId=816877) en meld u aan met uw Microsoft 365 Apps voor zakelijke gebruikersnaam en wachtwoord. 
     
 2. Selecteer het pictogram voor het **startprogramma voor apps** in de linkerbovenhoek en kies **OneDrive**.
   
@@ -66,14 +66,14 @@ Als u sommige van uw persoonlijke gegevens wilt overbrengen naar uw nieuwe bedri
 2. Elke gebruiker moet de stappen in deze procedure uitvoeren: [Een back-up maken van e-mailberichten, contactpersonen en agenda in een PST-bestand van Outlook of deze naar een PST-bestand exporteren](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
     
  **Uw nieuwe e-mailaccount instellen in Outlook**
-1. Alle gebruikers moeten hun eigen nieuwe e-mailaccount instellen dat is opgenomen in het Office 365-abonnement voor bedrijven. Hiervoor hebben ze het adres van hun nieuwe e-mailaccount nodig. Het e-mailaccount van alle afzonderlijke gebruikers is gelijk aan de gebruikersnaam die nodig is voor aanmelding bij Office 365 voor Bedrijven. Dat ziet er ongeveer uit als sue@contoso.onmicrosoft.com of david@contoso.com.
+1. Elke gebruiker moet zijn nieuwe e-mailaccount instellen dat bij het Microsoft 365 voor zakelijk abonnement is geleverd. Hiervoor hebben ze het adres van hun nieuwe e-mailaccount nodig. Het e-mailaccount van elke gebruiker is hetzelfde als de gebruikersnaam die hij gebruikt om zich aan te melden bij Microsoft 365 voor bedrijven. Dat ziet er ongeveer uit als sue@contoso.onmicrosoft.com of david@contoso.com.
     
 2. Vraag gebruikers hun e-mailaccount toe te voegen aan Outlook. Zie [E-mail instellen in Outlook (voor Windows)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) of [E-mail instellen in Outlook voor Mac 2011](https://support.office.com/article/d7b404a0-6e18-4d95-bed8-2de7661563ca.aspx) voor meer informatie.
     
  **Gegevens importeren uit het Outlook-gegevensbestand**
-1. Hiermee worden de e-mail, agenda, taken en contactpersonen die zijn opgeslagen in het PST-bestand, samengevoegd met uw e-mailaccount van Office 365 voor Bedrijven.
+1. Hiermee worden de e-mail, agenda, taken en contactpersonen die in het PST-bestand zijn opgeslagen, samengevoegd tot uw Microsoft 365 voor zakelijke e-mailaccount.
     
-2. Als u de gegevens in het PST-bestand wilt importeren naar uw Office 365-e-mailaccount voor bedrijven, laat u iedere gebruiker de stappen in [E-mail, contactpersonen en agenda importeren uit een PST-bestand van Outlook](https://support.office.com/article/431a8e9a-f99f-4d5f-ae48-ded54b3440ac.aspx) uitvoeren.
+2. Als u de in het PST-bestand opgeslagen informatie wilt importeren in uw Microsoft 365 voor zakelijke e-mailaccount, moet elke gebruiker de stappen in [E-mail, contactpersonen en agenda importeren uit een PST-bestand van Outlook](https://support.office.com/article/431a8e9a-f99f-4d5f-ae48-ded54b3440ac.aspx).
     
 ---
 

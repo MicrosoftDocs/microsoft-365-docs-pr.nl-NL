@@ -20,16 +20,16 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Exchange online-beheerders beheren de e-mail en postvakken van uw organisatie. Ze herstellen bijvoorbeeld verwijderde items in het postvak van een gebruiker. '
-ms.openlocfilehash: ac11a05dd9ea7a0c569e131e7939a0e4e9293dea
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: e45d6a0e9f2151e03a300b1e36bf53b7c9f8ef68
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151359"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43618906"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>De Exchange Online-beheerdersrol
 
-Als u Office 365 gemakkelijker wilt beheren, kunt u gebruikersmachtigingen [toewijzen](assign-admin-roles.md) voor het beheer van de e-mail en postvakken van uw organisatie vanuit het [Exchange-beheercentrum](https://go.microsoft.com/fwlink/p/?LinkID=271807). U doet dit door ze toe te wijzen aan de rol van de Exchange-beheerder. 
+Als u Microsoft 365 wilt beheren, u gebruikers machtigingen [toewijzen](assign-admin-roles.md) om de e-mail en postvakken van uw organisatie te beheren vanuit het [Exchange-beheercentrum.](https://go.microsoft.com/fwlink/p/?LinkID=271807) U doet dit door ze toe te wijzen aan de rol van de Exchange-beheerder. 
   
  **Tip**: Wanneer u aan iemand de rol van Exchange-beheerder toewijst, moet die persoon ook de rol van Servicebeheerder toewijzen. Op deze manier kunnen ze belangrijke informatie zien in het Microsoft 365-beheercentrum, zoals de status van de Exchange Online-service, en meldingen wijzigen en vrijgeven. 
   
@@ -37,17 +37,17 @@ Hier volgen enkele van de belangrijkste taken die gebruikers kunnen uitvoeren wa
   
 - [Recover deleted items in a user mailbox - Admin Help](https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox)
     
-- [Set up an archive and deletion policy for mailboxes in your Office 365 organization](https://docs.microsoft.com/office365/securitycompliance/set-up-an-archive-and-deletion-policy-for-mailboxes).
+- [Stel een archief- en verwijderingsbeleid in voor postvakken in uw organisatie.](https://docs.microsoft.com/office365/securitycompliance/set-up-an-archive-and-deletion-policy-for-mailboxes)
     
 - Postvakfuncties instellen zoals het beleid voor het delen van een postvak: hoe gebruikers een agenda en contactpersonen met anderen kunnen delen buiten uw organisatie. 
     
-- Voor het postvak van een andere persoon gedelegeerden instellen voor '[Verzenden als](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user)'en '[Verzenden namens](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user)'. Een manager wil bijvoorbeeld dat zijn of assistent over de mogelijkheid beschikt om namens hem of haar e-mail te verzenden. 
+- Stel '[Verzenden als](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)' en ' Stuur op[naam](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)' gemachtigden in voor iemands mailbox. Een manager wil bijvoorbeeld dat zijn of assistent over de mogelijkheid beschikt om namens hem of haar e-mail te verzenden. 
     
 - [Maak een gedeeld postvak](../email/create-a-shared-mailbox.md) zodat een groep mensen e-mail kan controleren en verzenden vanaf een gemeenschappelijk e-mailadres. 
     
-- [Office 365 email anti-spam protection](https://docs.microsoft.com/office365/securitycompliance/anti-spam-protection) en malwarefilters instellen voor de organisatie. 
+- [E-mail anti-spam bescherming](https://docs.microsoft.com/office365/securitycompliance/anti-spam-protection) en malware filters voor de organisatie. 
     
-- Office 365-groepen beheren
+- Microsoft 365-groepen beheren
     
 ## <a name="exchange-online-role-groups"></a>Exchange Online-rollengroepen
 

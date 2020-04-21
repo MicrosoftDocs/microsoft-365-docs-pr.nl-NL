@@ -11,17 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: e109077e-cc85-4c19-ae40-d218ac7d0548
-description: Als Exchange Online Protection (EOP)-klant gaan alle berichten die naar uw organisatie worden verzonden via EOP voordat uw werknemers ze zien. Of u nu al uw postvakken in de cloud host met Exchange Online, of uw postvakken op locatie host (een standalone scenario genoemd), misschien om gebruik te blijven maken van uw bestaande infrastructuur, hebt u opties over het routeren van berichten die zal door EOP voor verwerking voordat ze worden doorgestuurd naar uw werknemer inboxen.
-ms.openlocfilehash: 6ade456cb4c61203a810784eaa94d6091b05d47b
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: Als Exchange Online Protection (EOP)-klant gaan alle berichten die naar uw organisatie worden verzonden via EOP voordat uw werknemers ze zien. Of u nu al uw postvakken in de cloud host met Exchange Online, of uw postvakken op locatie host (een zelfstandig scenario genoemd), misschien om gebruik te blijven maken van uw bestaande infrastructuur, u hebt opties over hoe u berichten routeren die door EOP worden verzonden voor verwerking voordat ze worden doorgestuurd naar de inboxen van uw werknemer.
+ms.openlocfilehash: cbe369e5bf522cb966fd448970f07a34a141d610
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893656"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630477"
 ---
 # <a name="mail-flow-in-eop"></a>E-mailstroom in EOP
 
-Als Exchange Online Protection (EOP)-klant gaan alle berichten die naar uw organisatie worden verzonden via EOP voordat uw werknemers ze zien. Of u nu al uw postvakken in de cloud host met Exchange Online, of uw postvakken op locatie host (een standalone scenario genoemd), misschien om gebruik te blijven maken van uw bestaande infrastructuur, hebt u opties over het routeren van berichten die zal door EOP voor verwerking voordat ze worden doorgestuurd naar uw werknemer inboxen.
+Als Exchange Online Protection (EOP)-klant gaan alle berichten die naar uw organisatie worden verzonden via EOP voordat uw werknemers ze zien. Of u nu al uw postvakken in de cloud host met Exchange Online, of uw postvakken op locatie host (een zelfstandig scenario genoemd), misschien om gebruik te blijven maken van uw bestaande infrastructuur, u hebt opties over hoe u berichten routeren die door EOP worden verzonden voor verwerking voordat ze worden doorgestuurd naar de inboxen van uw werknemer.
 
 U aangepaste e-mailroutering configureren om aan uw berichten te voldoen aan een zakelijke vereisten. U bijvoorbeeld al uw uitgaande e-mail doorgeven via een beleidsfilterapparaat.
 
@@ -37,10 +37,10 @@ Als u subdomeinen aan uw organisatie toevoegt, kan uw EOP-service u ook helpen d
 
 [Configureer e-mailstroom met behulp van connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) introduceert connectors en laat zien hoe u ze gebruiken om e-mailroutering aan te passen. Scenario's omvatten het waarborgen van veilige communicatie met een partnerorganisatie en het opzetten van een slimme host.
 
-Als u ervoor wilt zorgen dat ongewenste e-mail correct wordt doorgestuurd naar de map met ongewenste e-mail van elke gebruiker, moet u een paar configuratiestappen uitvoeren. Deze worden beschreven in [Standalone EOP configureren om spam te leveren aan de map Ongewenste e-mail in hybride omgevingen.](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) Als u geen berichten naar de map met ongewenste e-mail van elke gebruiker wilt verplaatsen, u een andere actie kiezen door uw inhoudsfilterbeleid te bewerken in het Exchange-beheercentrum. Zie [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md)voor meer informatie.
+Als u ervoor wilt zorgen dat ongewenste e-mail correct wordt doorgestuurd naar de map met ongewenste e-mail van elke gebruiker, moet u een paar configuratiestappen uitvoeren. Deze worden beschreven in [Standalone EOP configureren om spam te leveren aan de map Ongewenste e-mail in hybride omgevingen.](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) Als u geen berichten naar de map met ongewenste e-mail van elke gebruiker wilt verplaatsen, u een andere actie kiezen door uw inhoudsfilterbeleid te bewerken in het Exchange-beheercentrum. Zie [Beleid voor antispam configureren](configure-your-spam-filter-policies.md)voor meer informatie .
 
 ## <a name="verify-mail-flow"></a>E-mailstroom verifiëren
 
 Zie de 'Hoe weet je dat deze taak heeft gewerkt', inclusief je connectorconfiguratie, om te controleren of je eop-setup, inclusief je connectorconfiguratie, goed werkt. sectie in [Uw EOP-service instellen](set-up-your-eop-service.md).
 
-[Test de e-mailstroom door uw Office 365-connectors](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow) te valideren en geeft instructies voor het testen dat uw e-mailstroom correct is ingesteld.
+[Test de e-mailstroom door uw Microsoft 365-connectors te valideren](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow) en geeft instructies voor het testen dat uw e-mailstroom correct is ingesteld.

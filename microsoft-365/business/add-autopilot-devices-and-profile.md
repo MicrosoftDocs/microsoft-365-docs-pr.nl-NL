@@ -23,17 +23,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
-description: Meer informatie over het gebruik van Windows AutoPilot om nieuwe Windows 10-apparaten voor uw bedrijf in te stellen, zodat ze klaar zijn voor gebruik van werknemers.
-ms.openlocfilehash: 3b1cf297914862aaa74fdf9a8bb7290d00f73b1d
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Meer informatie over het gebruik van Windows AutoPilot om nieuwe Windows 10-apparaten voor uw bedrijf in te stellen, zodat ze klaar zijn voor gebruik door werknemers.
+ms.openlocfilehash: 98a2bfc721ce86c81ebd89e8f41603e619b31546
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561575"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627489"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>De stapsgewijze handleiding gebruiken om Autopilot-apparaten en -profielen toe te voegen
 
-U Windows AutoPilot gebruiken om **nieuwe** Windows 10-apparaten voor uw bedrijf in te stellen, zodat ze klaar zijn voor gebruik wanneer u ze aan uw werknemers geeft.
+U Windows AutoPilot gebruiken om nieuwe Windows **10-apparaten** voor uw bedrijf in te stellen, zodat ze klaar zijn voor gebruik wanneer u ze aan uw werknemers geeft.
   
 ## <a name="device-requirements"></a>Apparaatvereisten
 
@@ -41,25 +41,25 @@ Apparaten moeten aan deze eisen voldoen:
   
 - Windows 10, versie 1703 of hoger
     
-- Nieuwe apparaten die niet via Windows out-of-box-ervaring zijn geweest
+- Nieuwe apparaten die niet zijn door Windows out-of-box ervaring
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>De installatiehandleiding gebruiken om apparaten en profielen te maken
 
 [![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-Als u nog geen apparaatgroepen of profielen hebt gemaakt, u het beste aan de slag gaan door de stapsgewijze handleiding te gebruiken. U er ook [apparaten aan toevoegen](create-and-edit-autopilot-devices.md) en profielen aan hen [toewijzen](create-and-edit-autopilot-profiles.md) zonder de handleiding te gebruiken. 
+Als u apparaatgroepen of profielen nog niet hebt gemaakt, u het beste aan de slag met de stapsgewijze handleiding. U er ook [apparaten aan toevoegen](create-and-edit-autopilot-devices.md) en er profielen aan [toewijzen](create-and-edit-autopilot-profiles.md) zonder de handleiding te gebruiken. 
   
 1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
 
-2. Kies In het linkernavigatiedeelvenster de optie **Apparaten** \> **AutoPilot**.
+2. Kies **Apparaten** \> **Automatisch piloot**in het linkernavigatiedeelvenster .
 
     ![Kies in het beheercentrum apparaten en vervolgens AutoPilot.](../media/AutoPilot.png)
   
-2. Klik of tik op de pagina **AutoPilot** op **Starthandleiding**.
+2. Klik of tik op de pagina **AutoPilot** op **De hulplijn Start**.
     
     ![Click Start guide for step-by-step instructions for Autopilot.](../media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
-3. Blader op de pagina **Upload .csv met lijst met apparaten** naar een locatie waar u het hebt voorbereid. CSV-bestand en **vervolgens Volgende** **openen** \> . Het bestand moet drie kopteksten hebben:
+3. Blader op het **CSV-bestand uploaden met lijst met apparaten** naar een locatie waar u de indeling hebt voorbereid. CSV-bestand en vervolgens **Volgende** \> **openen**. Het bestand moet drie kopteksten hebben:
     
     - Kolom A: Serienummer van apparaat
     
@@ -67,27 +67,27 @@ Als u nog geen apparaatgroepen of profielen hebt gemaakt, u het beste aan de sla
     
     - Kolom C: Hardware-hash
     
-    U deze informatie van uw hardwareleverancier ophalen of u het [PowerShell-script Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) gebruiken om een CSV-bestand te genereren. 
+    U deze informatie ophalen bij uw hardwareleverancier of u het [PowerShell-script Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) gebruiken om een CSV-bestand te genereren. 
     
     Zie [Device list CSV-file](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e) (CSV-bestand met lijst met apparaten) voor meer informatie. U kunt ook een voorbeeldbestand downloaden op de pagina **CSV-bestand met lijst met apparaten uploaden**. 
     
-4. Op de **pagina Een profiel toewijzen** u een bestaand profiel kiezen of een nieuw profiel maken. Als je er nog geen hebt, wordt je gevraagd er een te maken. 
+4. Op de **profielpagina Toewijzen** u een bestaand profiel kiezen of een nieuw profiel maken. Als je er nog geen hebt, wordt je gevraagd er een te maken. 
     
     Een profiel bestaat uit een reeks instellingen die op één apparaat of op een groep apparaten kunnen worden toegepast.
     
     De standaardfuncties zijn vereist en worden automatisch ingesteld. De standaardfuncties zijn:
     
-    - Sla Cortana-, OneDrive- en OEM-registratie over.
+    - Cortana-, OneDrive- en OEM-registratie overslaan.
     
     - Maak een aanmeldervaring met de huisstijl van uw bedrijf.
     
-    - Verbind uw apparaten met Azure Active Directory-accounts en schrijf ze automatisch in om te worden beheerd door Microsoft 365 Business.
+    - Verbind uw apparaten met Azure Active Directory-accounts en schrijf ze automatisch in om te worden beheerd door Microsoft 365 Business Premium.
     
-    Zie [Instellingen voor AutoPilot-profiel](autopilot-profile-settings.md)voor meer informatie. 
+    Zie [Instellingen voor AutoPilot-profiel voor](autopilot-profile-settings.md)meer informatie . 
     
 5. De andere instellingen zijn **Privacy-instellingen overslaan** en **Niet toestaan dat gebruiker de lokale beheerder wordt**. Deze zijn beide standaard **uitgeschakeld**. 
     
     Kies **Volgende**.
     
-6. **Je bent klaar,** geeft aan dat het profiel dat je hebt gemaakt (of hebt gekozen) wordt toegepast op de apparaatgroep die je hebt gemaakt door de lijst met apparaten te uploaden. De instellingen zijn van kracht wanneer de gebruikers van het apparaat zich vervolgens aanmelden. Kies **Sluiten**.
+6. **U bent klaar,** geeft aan dat het profiel dat u hebt gemaakt (of hebt gekozen) wordt toegepast op de apparaatgroep die u hebt gemaakt door de lijst met apparaten te uploaden. De instellingen zijn van kracht wanneer de gebruikers van het apparaat zich als volgende aanmelden. Kies **Sluiten**.
     

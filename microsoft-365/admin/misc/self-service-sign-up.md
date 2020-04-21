@@ -19,14 +19,14 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 4f8712ff-9346-4c6c-bb63-a21ad7a62cbd
-description: Meer informatie over de office 365-zelfservice-aanmelding strekken en beschikbare selfserviceprogramma's zoals Microsoft Power Apps, Microsoft Flow en Dynamics 365 voor Financials.
+description: Meer informatie over de Microsoft 365-zelfservice-aanmelding strekken en beschikbare selfserviceprogramma's zoals Microsoft Power Apps, Microsoft Flow en Dynamics 365 voor Financials.
 ms.custom: okr_SMB
-ms.openlocfilehash: fa7e6dcb4c40a7a41599b7c1a81fa596868d8e2d
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: d20609d48c71795205940546bef752c236ae3e81
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106110"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627798"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>Zelfregistratie gebruiken in uw organisatie
 
@@ -38,9 +38,9 @@ Hieronder volgt een voorbeeld van zelfregistratie bij een onderwijsinstelling. D
   
 1. Leerlingen, studenten en faculteitsleden hebben een e-mailadres dat duidelijk maakt dat ze verbonden zijn aan uw instelling. Het e-mailadres jakob@uw.edu kan bijvoorbeeld aangeven dat het hier gaat om een student aan de University of Washington.
 
-2. Studenten en docenten gaan naar [onze website](https://go.microsoft.com/fwlink/p/?LinkId=536628)en gebruiken hun e-mailadres om zich aan te melden voor de services die uw organisatie aanbiedt, zoals Office 365 ProPlus. Ze kunnen zich ook aanmelden voor gratis services die we bieden.
+2. Studenten en docenten gaan naar [onze website](https://go.microsoft.com/fwlink/p/?LinkId=536628)en gebruiken hun e-mailadres om zich aan te melden voor de services die uw organisatie aanbiedt, zoals Microsoft 365 Apps for enterprise. Ze kunnen zich ook aanmelden voor gratis services die we bieden.
 
-3. We valideren hun e-mailadres en vervolgens kunnen ze meteen Office 365, Power BI of andere services gebruiken.
+3. We valideren hun e-mailadres en kunnen microsoft 365, Power BI of andere services meteen gebruiken.
 
 4. Als bedrijfsbeheerder ziet u wie zich heeft aangemeld voor een abonnement door de pagina **Producten & services** in het beheercentrum te bekijken. Op deze manier u zien wanneer er nieuwe of niet-herkende licenties voor services in uw tenant zijn. Als u wilt bepalen of gebruikers zich kunnen aanmelden voor selfservice-abonnementen, gebruikt u de [PowerShell-cmdlet Set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0) met de parameter **AllowAdHocSubscriptions.** Zie [Hoe beheer ik selfservice-instellingen?](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide)
 
@@ -52,8 +52,8 @@ Hier volgen de selfservice-programma's die momenteel beschikbaar zijn Deze lijst
 |:-----|:-----|:-----|:-----|
 |**Programma** <br/> |**Beschrijving** <br/> |**Aanvullende informatie** <br/> |****Website voor zelfregistratie**** <br/> |
 |Office 365 A1**** <br/> |Elke student of docent kan een e-mailadres van een school gebruiken om zich gratis aan te melden voor Office 365 en Office-apps voor het web, 1 TB OneDrive-cloudopslag en SharePoint Online voor klas-, team- en projectsites.  <br/> |[Office 365 Education - veelgestelde technische vragen](https://go.microsoft.com/fwlink/p/?LinkId=536625) <br/> |[Office 365 Education](https://go.microsoft.com/fwlink/p/?linkid=140841) <br/> |
-|**Office 365 A1 Plus** <br/> |In aanmerking komende leerlingen, studenten en docenten kunnen zich registreren voor Office 365 A1 Plus. Ze krijgen dan de beschikking over alle bovengenoemde onderdelen, plus Office 365 ProPlus. Office 365 ProPlus is productiviteitssoftware en omvat onder andere Word, PowerPoint, Excel, Outlook, OneNote, Publisher, Access en Skype voor Bedrijven. Deze software wordt geïnstalleerd op uw pc of laptop.  <br/> |[Office 365 Education - veelgestelde technische vragen](https://go.microsoft.com/fwlink/p/?LinkId=536625) <br/> |[Office 365 Education](https://go.microsoft.com/fwlink/p/?linkid=140841) <br/> |
-|**Power BI** <br/> |Power BI stelt gebruikers in staat om gegevens te visualiseren, ontdekkingen te delen en op intuïtieve nieuwe manieren samen te werken. <br/> Als uw organisatie zich al abonneert op Office 365, ziet u mogelijk ook licenties voor 'Power BI Pro Individual User Trial', die gebruikers beperkte, gratis toegang bieden tot geavanceerde mogelijkheden.  <br/> |[Power BI in uw organisatie](https://go.microsoft.com/fwlink/p/?LinkId=536626) <br/> |[Microsoft Power BI](https://go.microsoft.com/fwlink/p/?LinkId=536629) <br/> |
+|**Office 365 A1 Plus** <br/> |In aanmerking komende studenten en docenten kunnen zich aanmelden voor Office 365 A1 Plus, inclusief alles wat hierboven is vermeld plus Microsoft 365 Apps voor bedrijven. Microsoft 365 Apps voor bedrijven is productiviteitssoftware, waaronder Word, PowerPoint, Excel, Outlook, OneNote, Publisher, Access en Skype voor Bedrijven, die is geïnstalleerd op uw desktop- of laptopcomputer.  <br/> |[Office 365 Education - veelgestelde technische vragen](https://go.microsoft.com/fwlink/p/?LinkId=536625) <br/> |[Office 365 Education](https://go.microsoft.com/fwlink/p/?linkid=140841) <br/> |
+|**Power BI** <br/> |Power BI stelt gebruikers in staat om gegevens te visualiseren, ontdekkingen te delen en op intuïtieve nieuwe manieren samen te werken. <br/> Als uw organisatie zich al abonneert, ziet u mogelijk ook licenties voor 'Power BI Pro Individual User Trial', die gebruikers beperkte, gratis toegang bieden tot geavanceerde mogelijkheden.  <br/> |[Power BI in uw organisatie](https://go.microsoft.com/fwlink/p/?LinkId=536626) <br/> |[Microsoft Power BI](https://go.microsoft.com/fwlink/p/?LinkId=536629) <br/> |
 |**Rights Management Services (RMS)** <br/> |RMS voor personen is een gratis selfservice-abonnement voor gebruikers in een organisatie die vertrouwelijke bestanden hebben ontvangen die zijn beveiligd met Azure Rights Management (Azure RMS), maar hun IT-afdeling heeft Azure Rights Management (Azure RMS) of Active Directory Rights Management Services (AD RMS) niet geïmplementeerd.  <br/> |[RMS voor personen en Azure Information Protection](https://go.microsoft.com/fwlink/p/?LinkId=536627) <br/> |[Microsoft Rights Management portal](https://portal.azure.com/) zodat u kunt controleren of u een bepaald met toegangsrechten beveiligd document kunt openen.  <br/> |
 |**Microsoft PowerApps** <br/> |In PowerApps kunt u organisatiegegevens beheren door een app uit te voeren die u hebt gemaakt, of die iemand anders heeft gemaakt en met u heeft gedeeld. Apps worden uitgevoerd op mobiele apparaten zoals telefoons, maar u kunt ze ook uitvoeren in een browser door Dynamics 365 te openen. U kunt allerlei verschillende soorten apps maken, zonder dat u een programmeertaal zoals C# hoeft te leren.  <br/> |[Aanmelding voor PowerApps via selfservice](https://go.microsoft.com/fwlink/p/?linkid=841461) <br/> |[Microsoft PowerApps](https://go.microsoft.com/fwlink/p/?linkid=841462) <br/> |
 |**Dynamics 365 for Financials** <br/> |Een complete oplossing voor zakelijk en financieel beheer voor kleine en middelgrote bedrijven. Met Dynamics 365 for Financials kunt u vanaf dag één eenvoudiger inkopen, verkopen, factureren en rapporteren.  <br/> |[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/p/?linkid=841466) <br/> |[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/p/?linkid=841466) <br/> |

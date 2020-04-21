@@ -1,5 +1,5 @@
 ---
-title: Leden toevoegen aan of verwijderen uit Office 365-groepen
+title: Leden toevoegen aan of verwijderen uit Microsoft 365-groepen
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -20,16 +20,16 @@ search.appverid:
 - BSA160
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Meer informatie over het toevoegen van een lid aan een groep, het verwijderen van de status van lid uit de groep en het beheren van de status van groepseigenaar in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 5c708b88f2e4a2b4aa1aa84fd7d7700ab6545f87
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 9191f9a29f9d4c1589feda66c9ca482180229bd6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894709"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631311"
 ---
-# <a name="add-or-remove-members-from-office-365-groups-using-the-admin-center"></a>Leden uit Office 365-groepen toevoegen of verwijderen met behulp van het beheercentrum
+# <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Leden toevoegen aan of verwijderen uit Microsoft 365-groepen met behulp van het beheercentrum
 
-In Office 365 maken groepsleden doorgaans hun eigen groepen, voegen ze zichzelf toe aan groepen waaraan ze lid willen worden of worden ze uitgenodigd door groepseigenaren. Als het groepseigendom verandert of als u vaststelt dat een lid moet worden toegevoegd of verwijderd, u als beheerder ook die wijziging aanbrengen. Alleen een globale beheerder, Exchange-beheerder, groepsbeheerder of gebruikersbeheerder kan deze wijzigingen aanbrengen. [Wat is een Office 365-groep?](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
+In Microsoft 365 maken groepsleden doorgaans hun eigen groepen, voegen ze zichzelf toe aan groepen waaraan ze lid willen worden of worden ze uitgenodigd door groepseigenaren. Als het groepseigendom verandert of als u vaststelt dat een lid moet worden toegevoegd of verwijderd, u als beheerder ook die wijziging aanbrengen. Alleen een globale beheerder, Exchange-beheerder, groepsbeheerder of gebruikersbeheerder kan deze wijzigingen aanbrengen. [Wat is een Microsoft 365-groep?](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
 
 > [!TIP]
 > Als u geen beheerder bent, kunt u [leden toevoegen of verwijderen met behulp van Outlook](https://support.office.com/article/3b650f4a-5c9b-4f94-a1bb-0cca4b1091de.aspx). 
@@ -280,12 +280,12 @@ Standaard is de maker van de groep de groepseigenaar. Vaak heeft een groep meerd
     
 ## <a name="articles-about-managing-groups"></a>Artikelen over het beheren van groepen
     
-- [Distributielijsten upgraden naar Office 365-groepen in Outlook - Help voor beheerders](../manage/upgrade-distribution-lists.md)
+- [Distributielijsten upgraden naar Microsoft 365-groepen in Outlook](../manage/upgrade-distribution-lists.md)
     
 - [Waarom u een upgrade voor uw distributielijsten moet uitvoeren naar groepen in Outlook](https://support.office.com/article/7fb3d880-593b-4909-aafa-950dd50ce188.aspx)
 
-[Gasttoegang beheren in Office 365-groepen](manage-guest-access-in-groups.md)    
+- [Gasttoegang beheren in Microsoft 365-groepen](manage-guest-access-in-groups.md)    
     
-- [Manage Office 365 Groups with PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540): dit artikel is een inleiding (met voorbeelden) tot de belangrijkste cmdlets
+- [Microsoft 365-groepen beheren met PowerShell:](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)dit artikel laat u kennismaken met belangrijke cmdlets en geeft voorbeelden
     
-- [Naamgevingsbeleid voor Office 365-groepen](groups-naming-policy.md)
+- [Naamgevingsbeleid voor Microsoft 365-groepen](groups-naming-policy.md)

@@ -16,20 +16,20 @@ ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over de BCL-waarden (Bulk Compliance Level) in Office 365.
-ms.openlocfilehash: aa839fc1bcab141fe71c76e7f27b4f6bb23048b2
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: e45b08756dd528e56b24635d670ddcd05e4396e4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43030149"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630633"
 ---
 # <a name="bulk-complaint-level-bcl-in-office-365"></a>Bulkklachtenniveau (BCL) in Office 365
 
 Bulkmailers variëren in hun verzendpatronen, het maken van inhoud en acquisitiepraktijken voor ontvangers. Sommige zijn goede bulk mailers die gewenste berichten met relevante inhoud te sturen naar hun abonnees. Deze berichten genereren weinig klachten van ontvangers. Andere bulkmailers sturen ongevraagde berichten die sterk op spam lijken en veel klachten van ontvangers genereren. Berichten van een bulkmailer staan bekend als bulkmail of grijze e-mail.
 
-Als u berichten wilt onderscheiden van verschillende typen bulkmailers, krijgt binnenkomende e-mail van bulkmailers naar Office 365 (Exchange Online of zelfstandige Exchange Online Protection (EOP) zonder Exchange Online-postvakken) een bulkklachtenniveau (BCL) dat is toegevoegd aan het bericht in een X-header. De BCL is vergelijkbaar met het [spamvertrouwensniveau (SCL)](spam-confidence-levels.md) dat wordt gebruikt om berichten als spam te identificeren. Een hogere BCL geeft aan dat een bulkbericht meer kans heeft om klachten te genereren (en daarom meer kans heeft op spam). Microsoft gebruikt zowel interne als externe bronnen om bulkmail te identificeren en de juiste BCL te bepalen.
+Als u berichten wilt onderscheiden van verschillende soorten bulkmailers, krijgt binnenkomende e-mail van bulkmailers (Exchange Online of zelfstandige Exchange Online Protection (EOP) zonder Exchange Online-postvakken) een bulkklachtenniveau (BCL) dat aan het bericht is toegevoegd in een X-header. De BCL is vergelijkbaar met het [spamvertrouwensniveau (SCL)](spam-confidence-levels.md) dat wordt gebruikt om berichten als spam te identificeren. Een hogere BCL geeft aan dat een bulkbericht meer kans heeft om klachten te genereren (en daarom meer kans heeft op spam). Microsoft gebruikt zowel interne als externe bronnen om bulkmail te identificeren en de juiste BCL te bepalen.
 
- Spamfiltering markeert berichten als **Bulk-e-mail** op basis van de BCL-drempelwaarde (de standaardwaarde of een waarde die u opgeeft) en neemt de opgegeven actie op het bericht (de standaardactie is het verzenden van het bericht naar de map Ongewenste e-mail van de ontvanger). Zie [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md) en [Wat is het verschil tussen ongewenste e-mail en bulke-mail configureren?](what-s-the-difference-between-junk-email-and-bulk-email.md)
+ Spamfiltering markeert berichten als **Bulk-e-mail** op basis van de BCL-drempelwaarde (de standaardwaarde of een waarde die u opgeeft) en neemt de opgegeven actie op het bericht (de standaardactie is het verzenden van het bericht naar de map Ongewenste e-mail van de ontvanger). Zie [Beleid voor antispam configureren](configure-your-spam-filter-policies.md) voor meer informatie en Wat is het verschil tussen ongewenste [e-mail en bulke-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md)
 
 De BCL-drempels worden beschreven in de volgende tabel.
 

@@ -1,5 +1,5 @@
 ---
-title: Welk Office 365 voor Bedrijven-abonnement heb ik?
+title: Welk abonnement heb ik?
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -22,18 +22,18 @@ search.appverid:
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: Meer informatie om te controleren welke abonnementen uw organisatie heeft door naar de pagina Abonnementen te gaan.
 ms.custom: okr_SMB
-ms.openlocfilehash: dad08784a775e590972d1f5dd554aeb2d147c28b
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: a8ebff405d57578142318a2111db1dcb53d54435
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42810276"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621428"
 ---
 # <a name="what-subscription-do-i-have"></a>Welk abonnement heb ik?
 
 Als u een beheerder bent, u controleren welke abonnementen uw organisatie heeft door naar het beheercentrum te gaan.
   
- **Bent u geen beheerder?** Zie [welk Office 365 Business-product of -licentie heb ik?](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx)
+ **Bent u geen beheerder?** Zie [wat Microsoft 365 voor zakelijke product of licentie heb ik?](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx)
 
 ::: moniker range="o365-worldwide"
 
@@ -50,7 +50,7 @@ Als u een beheerder bent, u controleren welke abonnementen uw organisatie heeft 
 
 1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Factureringsabonnementen.</a> **Billing**  
 
-2. Als u maar één abonnement hebt, wordt dit weergegeven op de pagina **Abonnementen**, samen met de naam van het abonnement, informatie over het abonnement en de status. In de volgende schermafbeelding ziet u dat ik een abonnement heb op Office 365 Business.
+2. Als u maar één abonnement hebt, wordt dit weergegeven op de pagina **Abonnementen**, samen met de naam van het abonnement, informatie over het abonnement en de status. In de volgende schermafbeelding u zien dat ik een Microsoft 365 Apps for Business-abonnement heb.
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
@@ -69,7 +69,7 @@ Als u een beheerder bent, u controleren welke abonnementen uw organisatie heeft 
 
 1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Factureringsabonnementen.</a> **Billing**  
 
-2. Als u maar één abonnement hebt, wordt dit weergegeven op de pagina **Abonnementen**, samen met de naam van het abonnement, informatie over het abonnement en de status. In de volgende schermafbeelding ziet u dat ik een abonnement heb op Office 365 Business.
+2. Als u maar één abonnement hebt, wordt dit weergegeven op de pagina **Abonnementen**, samen met de naam van het abonnement, informatie over het abonnement en de status. In de volgende schermafbeelding u zien dat ik een Microsoft 365 Apps for Business-abonnement heb.
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   

@@ -18,22 +18,22 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
-description: 'Meer informatie over het inschakelen of uitschakelen van de functie Rommel voor alle of specifieke gebruikers in uw organisatie, met Exchange PowerShell. '
-ms.openlocfilehash: 65aa614095ecbebaad3d7eb38af1e74166ce20ac
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: 'Leer de functie Rommel in- of uitschakelen voor alle of specifieke gebruikers in uw organisatie met Exchange PowerShell. '
+ms.openlocfilehash: b71fe20133c78974dc7d1c97a061121eded9f221
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42808886"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628925"
 ---
 # <a name="configure-clutter-for-your-organization"></a>Onbelangrijke e-mail configureren voor uw organisatie
 
 > [!TIP]
-> [Postvak IN met prioriteit](../setup/configure-focused-inbox.md) gaat Onbelangrijke e-mail vervangen. Meer informatie: [Update op gerichte inbox en onze plannen voor Rommel](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448)
+> [Postvak IN met prioriteit](../setup/configure-focused-inbox.md) gaat Onbelangrijke e-mail vervangen. Meer informatie: [Update op focused inbox en onze plannen voor rommel](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448)
   
-Als beheerder moet u mogelijk de functie Rommel beheren in Office 365. Als u de functie Onbelangrijke e-mail wilt in- of uitschakelen voor gebruikers in uw organisatie, moet u Exchange PowerShell gebruiken. (Personen kunnen dit in- of uitschakelen met behulp van deze instructies: [Onbelangrijke e-mail uit-/inschakelen in Outlook](https://support.office.com/article/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c.aspx).) 
+Als beheerder moet u mogelijk de functie Rommel beheren in Microsoft 365. Als u de functie Onbelangrijke e-mail wilt in- of uitschakelen voor gebruikers in uw organisatie, moet u Exchange PowerShell gebruiken. (Personen kunnen dit in- of uitschakelen met behulp van deze instructies: [Onbelangrijke e-mail uit-/inschakelen in Outlook](https://support.office.com/article/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c.aspx).) 
   
-Zie [Using PowerShell with Exchange Online](https://go.microsoft.com/fwlink/?LinkID=402831) (PowerShell gebruiken met Exchange Online) en [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/?LinkID=722415) (Verbinding maken met Exchange Online PowerShell) voor informatie over het gebruik van Exchange PowerShell. U moet een account hebben met ten minste de functie van Exchange Service-beheerder en de mogelijkheid om verbinding te maken met Exchange Online met PowerShell. 
+Zie [Using PowerShell with Exchange Online](https://go.microsoft.com/fwlink/?LinkID=402831) (PowerShell gebruiken met Exchange Online) en [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/?LinkID=722415) (Verbinding maken met Exchange Online PowerShell) voor informatie over het gebruik van Exchange PowerShell. U moet een account hebben dat ten minste de Exchange Service-beheerdersrol heeft en de mogelijkheid om verbinding te maken met Exchange Online met PowerShell. 
   
 ## <a name="turn-clutter-on-using-exchange-powershell"></a>Onbelangrijke e-mail inschakelen bij gebruik van Exchange PowerShell
 
@@ -59,7 +59,7 @@ Als u PowerShell gebruikt om veel gebruikers ineens te maken, dan moet u [Set-Cl
 
 Als beheerder u Rommel opnieuw inschakelen met Exchange PowerShell. Wanneer u dit hebt gedaan, wordt Postvak IN met prioriteit uitgeschakeld en is Onbelangrijke e-mail opnieuw actief. 
   
- **Als u de webversie van Outlook gebruikt in combinatie met een zakelijk Office 365-abonnement:**
+ **Als u outlook op internet gebruikt met een Microsoft 365 Business Premium-abonnement:**
   
 - Als een gebruiker momenteel Onbelangrijke e-mail heeft ingeschakeld: 
     
@@ -100,7 +100,7 @@ Als beheerder u Rommel opnieuw inschakelen met Exchange PowerShell. Wanneer u di
 
 [De functie Onbelangrijke e-mail gebruiken om berichten met een lage prioriteit te sorteren in Outlook](https://support.office.com/article/7755ebf5-4585-469b-b1ab-8b12425c6b6b.aspx)
     
-[Rommel gebruiken om berichten met lage prioriteit te sorteren in OWA](https://support.office.com/article/fe4d64ca-bf73-48f1-91b4-9a659e008bce.aspx)
+[Rommel gebruiken om berichten met een lage prioriteit te sorteren in OWA](https://support.office.com/article/fe4d64ca-bf73-48f1-91b4-9a659e008bce.aspx)
     
 [Onbelangrijke e-mail uitschakelen in Outlook](https://support.office.com/article/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c.aspx)
     

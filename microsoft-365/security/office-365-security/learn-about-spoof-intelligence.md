@@ -1,5 +1,5 @@
 ---
-title: Spoofinformatie configureren
+title: Spoofberichten configureren
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,16 +17,16 @@ ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u vervalste afzenders configureren om al dan niet toe te staan, en andere instellingen voor spoofinformatie in Exchange Online en Exchange Online Protection (EOP).
-ms.openlocfilehash: 96a1442c893444108aaf6814484bc4e4d55aa731
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: 958f27d190748ee12976a6b47794a23e025172cf
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528735"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630489"
 ---
-# <a name="configure-spoof-intelligence-in-office-365"></a>Spoofinformatie configureren in Office 365
+# <a name="configure-spoof-intelligence-in-microsoft-365"></a>Spoofintelligentie configureren in Microsoft 365
 
-Als u een Office 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection (EOP)-klant zonder Exchange Online-postvakken, worden binnenkomende e-mailberichten vanaf oktober 2018 automatisch beveiligd tegen spoofing door EOP. EOP maakt gebruik van spoofintelligentie als onderdeel van de algehele verdediging van uw organisatie tegen phishing. Zie [Anti-spoofing beveiliging in Office 365](anti-spoofing-protection.md)voor meer informatie.
+Als u een Microsoft 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection (EOP)-klant zonder Exchange Online-postvakken, worden binnenkomende e-mailberichten vanaf oktober 2018 automatisch beveiligd tegen spoofing door EOP. EOP maakt gebruik van spoofintelligentie als onderdeel van de algehele verdediging van uw organisatie tegen phishing. Zie [Bescherming tegen spoofing in Microsoft 365](anti-spoofing-protection.md)voor meer informatie.
 
 Wanneer een afzender een e-mailadres vervalst, lijkt dit een gebruiker te zijn in een van de domeinen van uw organisatie of een gebruiker in een extern domein dat e-mail naar uw organisatie verzendt. Aanvallers die afzenders spoofen om spam of phishing-e-mail te verzenden, moeten worden geblokkeerd. Maar er zijn scenario's waar legitieme afzenders zijn spoofing. Bijvoorbeeld:
 
@@ -46,9 +46,9 @@ Wanneer een afzender een e-mailadres vervalst, lijkt dit een gebruiker te zijn i
 
   - Een extern bedrijf stuurt e-mail namens een ander bedrijf (bijvoorbeeld een geautomatiseerd rapport of een software-as-a-service bedrijf).
 
-Spoofinformatie, en met name het standaardinformatiebeleid (en alleen) spoofintelligentie, helpt ervoor te zorgen dat de vervalste e-mail die door legitieme afzenders wordt verzonden, niet verstrikt raakt in spamfilters in Office 365 of externe e-mailsystemen, terwijl uw gebruikers worden beschermd tegen spam of phishingaanvallen.
+Spoofinformatie, en met name het standaard -informatiebeleid (en alleen) spoofintelligentie, helpt ervoor te zorgen dat de vervalste e-mail die door legitieme afzenders wordt verzonden, niet verstrikt raakt in spamfilters in Microsoft 365 of externe e-mailsystemen, terwijl uw gebruikers worden beschermd tegen spam of phishingaanvallen.
 
-U spoofinformatie beheren in het Office 365 Security & Compliance Center of in PowerShell (Exchange Online PowerShell voor Office 365-klanten. Exchange Online Protection PowerShell voor zelfstandige EOP-klanten).
+U spoofinformatie beheren in het Microsoft 365 Security & Compliance Center of in PowerShell (Exchange Online PowerShell voor Microsoft 365-klanten; Exchange Online Protection PowerShell voor zelfstandige EOP-klanten).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -170,9 +170,9 @@ Uw beschikbare opties zijn afhankelijk van uw abonnement:
 
 - Zelfstandige EOP-organisaties zonder Exchange Online-postvakken kunnen geen spoofinformatie-instellingen configureren.
 
-- Office 365-organisaties met Exchange Online-postvakken kunnen spoofinformatie-instellingen configureren in het standaardbeleid (en alleen) antiphishingbeleid. Zie Het [standaard antiphishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)voor instructies.
+- Microsoft 365-organisaties met Exchange Online-postvakken kunnen spoofinformatie-instellingen configureren in het standaardbeleid (en alleen) antiphishingbeleid. Zie Het [standaard antiphishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)voor instructies.
 
-- Office 365-organisaties met ATP kunnen spoofinformatie-instellingen configureren in het standaard ATP-antiphishingbeleid en ook in het aangepaste ATP-antiphishingbeleid. Zie [ATP-antiphishingbeleid configureren in Office 365](configure-atp-anti-phishing-policies.md)voor instructies.
+- Microsoft 365-organisaties met ATP kunnen spoofinformatie-instellingen configureren in het standaard ATP-antiphishingbeleid en ook in het aangepaste ATP-antiphishingbeleid. Zie [ATP-antiphishingbeleid configureren in Microsoft 365](configure-atp-anti-phishing-policies.md)voor instructies.
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 
@@ -195,7 +195,7 @@ Gebruik een van de volgende stappen om te controleren of u spoofinformatie hebt 
    Get-PhishFilterPolicy -Detailed | Export-CSV "C:\My Documents\Spoofed Senders.csv"
    ```
 
-- Ga in Office 365-organisaties met Exchange Online-postvakken een van de volgende stappen uit:
+- Ga in Microsoft 365-organisaties met Exchange Online-postvakken een van de volgende stappen uit:
 
   - Ga in het Security & Compliance Center naar **Threat management** \> **Policy** \> **Anti-phishing** \> click **Default policy** and view the details in the flyout.
 
@@ -205,7 +205,7 @@ Gebruik een van de volgende stappen om te controleren of u spoofinformatie hebt 
     Get-AntiPhishPolicy -Identity "Office365 AntiPhish Default"
     ```
 
-- Ga in Office 365 ATP-organisaties een van de volgende stappen uit:
+- Ga in Microsoft 365 ATP-organisaties een van de volgende stappen uit:
 
   - Ga in het Security & Compliance Center naar **Threat management** \> **Policy** \> **ATP anti-phishing** en doe een van de volgende stappen:
 
@@ -224,7 +224,7 @@ Wees ijverig over spoofing en phishing bescherming. Dit zijn gerelateerde manier
 
 - Controleer het **spoof-e-mailrapport**. U dit rapport vaak gebruiken om vervalste afzenders te bekijken en te beheren. Zie Rapport [Spoofdetecties](view-email-security-reports.md#spoof-detections-report)voor informatie .
 
-- Bekijk de SPF-configuratie (Sender Policy Framework). Zie voor een korte introductie van SPF en om het snel te configureren [SPF in Office 365 instellen om spoofing te voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md). Voor een beter begrip van hoe Office 365 gebruikmaakt van SPF of voor het oplossen van problemen of niet-standaardimplementaties zoals hybride implementaties, begint u met [Hoe Office 365 gebruikmaakt van SPF (Sender Policy Framework) om spoofing te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md).
+- Bekijk de SPF-configuratie (Sender Policy Framework). Zie [SPF instellen in Microsoft 365 om spoofing te voorkomen voor](set-up-spf-in-office-365-to-help-prevent-spoofing.md)een snelle introductie tot SPF en om deze snel te configureren. Voor een beter begrip van hoe Office 365 gebruikmaakt van SPF of voor het oplossen van problemen of niet-standaardimplementaties zoals hybride implementaties, begint u met [Hoe Office 365 gebruikmaakt van SPF (Sender Policy Framework) om spoofing te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md).
 
 - Controleer de configuratie van uw DomainKeys Identified Mail (DKIM). U moet DKIM gebruiken naast SPF en DMARC om te voorkomen dat aanvallers berichten verzenden die eruit zien alsof ze uit uw domein komen. Met DKIM kunt u een digitale handtekening toevoegen aan e-mailberichten in de berichtkop. Zie [DKIM gebruiken om uitgaande e-mail die vanuit uw aangepaste domein in Office 365 is verzonden, te valideren](use-dkim-to-validate-outbound-email.md)voor informatie.
 

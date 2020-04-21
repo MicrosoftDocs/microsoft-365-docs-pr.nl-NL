@@ -1,5 +1,5 @@
 ---
-title: De informatie verzamelen die u nodig hebt om DNS-records voor Office 365 te maken
+title: Verzamel de informatie die u nodig hebt om DNS-records te maken
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
-description: 'Lees hier de waarden/informatie die u nodig hebt om DNS-records voor Office 365 te maken. '
+description: 'Meer informatie over de waarden/informatie die u nodig hebt om DNS-records voor Microsoft 365 te maken. '
 ms.custom: okr_smb
-ms.openlocfilehash: 2cb45b6a5c07bd50e15e7f2a941be344b5f69038
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.openlocfilehash: 9cfefa2620b6a46b7488a29c22a58d70f53c6ad2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43540877"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628444"
 ---
-# <a name="gather-the-information-you-need-to-create-office-365-dns-records"></a>De informatie verzamelen die u nodig hebt om DNS-records voor Office 365 te maken
+# <a name="gather-the-information-you-need-to-create-dns-records"></a>Verzamel de informatie die u nodig hebt om DNS-records te maken
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
@@ -61,9 +61,9 @@ ms.locfileid: "43540877"
     
 5. Ga naar [DNS-records maken bij elke DNS-hostingprovider](create-dns-records-at-any-dns-hosting-provider.md)en selecteer uw DNS-host in de lijst met registrars om de stapsgewijze instructies te bekijken.
     
-6. Volg de stappen voor het maken van de TXT-record (of MX-record) bij uw DNS-host en verifieer het domein vervolgens in Office 365.
+6. Volg de stappen voor het maken van de TXT-record (of MX-record) op uw DNS-host en controleer het domein terug in Microsoft 365.
 
-7. Verwijder de TXT-record (of MX-record) van uw DNS-host zodra het domein is geverifieerd in Office 365.
+7. Verwijder de TXT-record (of MX-record) van uw DNS-host zodra het domein is geverifieerd in Microsoft 365.
     
 ### <a name="step-2-find-the-mx-record-value-for-email-and-more"></a>Stap 2: Zoek de MX-recordwaarde voor e-mail en meer
 

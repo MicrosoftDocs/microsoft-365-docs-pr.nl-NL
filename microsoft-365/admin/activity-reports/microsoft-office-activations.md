@@ -18,18 +18,18 @@ search.appverid:
 - GEA150
 ms.assetid: 87c24ae2-82e0-4d1e-be01-c3bcc3f18c60
 description: Meer informatie over hoe u een office-activeringsrapport krijgen om te weten welke gebruikers hun Office-abonnement hebben geactiveerd en hoe u gebruikers identificeren die mogelijk extra hulp nodig hebben.
-ms.openlocfilehash: 7a26928b654c222a2eef05371ff9b220cf59cfe4
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 632973c8d50dffd50725c46163e0af874c64b0c6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046973"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621220"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-office-activations"></a>Microsoft 365-rapporten in het beheercentrum - Microsoft Office-activeringen
 
 Het dashboard Microsoft 365 **Rapporten** toont u het activiteitenoverzicht voor de producten in uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md).
   
-Het activeringsrapport van Office geeft een overzicht van welke gebruikers hun Office-abonnement op minstens één apparaat hebben geactiveerd. Het rapport is uitgesplitst in activeringen van abonnementen op Office 365 Proplus, Project en Visio Pro voor Office 365, en in activeringen op bureaubladcomputers en apparaten. Dit rapport kan u helpen gebruikers te identificeren die mogelijk meer hulp en ondersteuning nodig hebben om hun Office-abonnement te activeren.
+Het activeringsrapport van Office geeft een overzicht van welke gebruikers hun Office-abonnement op minstens één apparaat hebben geactiveerd. Het biedt een uitsplitsing van de activeringen van Microsoft 365 Apps voor bedrijven, Project en Visio Pro voor Office 365-abonnementen en de uitsplitsing van activeringen op desktop- en apparaten. Dit rapport kan u helpen gebruikers te identificeren die mogelijk meer hulp en ondersteuning nodig hebben om hun Office-abonnement te activeren.
   
 > [!NOTE]
 > U moet een globale beheerder, wereldwijde lezer of rapportenlezer zijn in Microsoft 365 of een Exchange-, SharePoint-, Teams-service-, Teams-communicatie- of Skype voor Bedrijven-beheerder om rapporten te bekijken.  

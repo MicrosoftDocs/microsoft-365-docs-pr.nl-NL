@@ -24,13 +24,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
-description: Meer informatie over het uploaden van apparaten met AutoPilot in Microsoft 365 Business. U een profiel toewijzen aan een apparaat of een groep apparaten.
-ms.openlocfilehash: 640e4af7cccde83c87d90a875c1d44dead7255ca
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Meer informatie over het uploaden van apparaten met AutoPilot in Microsoft 365 Business Premium. U een profiel toewijzen aan een apparaat of een groep apparaten.
+ms.openlocfilehash: f2a7f801ae471352595a36b355a874b2de653326
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065972"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627389"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>AutoPilot-apparaten maken en bewerken
 
@@ -42,21 +42,21 @@ Apparaten moeten aan deze eisen voldoen:
   
 - Windows 10, versie 1703 of hoger
     
-- Nieuwe apparaten die niet via Windows out-of-box-ervaring zijn geweest
+- Nieuwe apparaten die niet zijn door Windows out-of-box ervaring
 
-1. Kies In het Microsoft 365 Business Admin Center de optie **Apparaten** \> **AutoPilot**.
+1. Kies **Apparaten** \> **AutoPilot**in het Microsoft 365-beheercentrum .
   
 2. Kies op de pagina **AutoPilot** het tabblad \> **Apparaten** **toevoegen**.
     
     ![In the Devices tab, choose Add devices.](../media/6ba81e22-c873-40ad-8a72-ce64d15ea6ba.png)
   
-3. Blader in het deelvenster **Apparaten toevoegen** naar een \> [CSV-bestand in](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e) een apparaatlijst dat u hebt voorbereid **Save** \> **Close**.
+3. Blader in het deelvenster **Apparaten toevoegen** naar een \> [CSV-bestand van](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e) de apparaatlijst dat u Hebt voorbereid Op sluit **opslaan** \> **Close**.
     
-    U deze informatie van uw hardwareleverancier ophalen of u het [PowerShell-script Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) gebruiken om een CSV-bestand te genereren. 
+    U deze informatie ophalen bij uw hardwareleverancier of u het [PowerShell-script Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) gebruiken om een CSV-bestand te genereren. 
     
 ## <a name="assign-a-profile-to-a-device-or-a-group-of-devices"></a>Een profiel toewijzen aan een apparaat of een groep apparaten
 
-1. Kies op de pagina **Windows voorbereiden** het tabblad **Apparaten** en schakel het selectievakje naast een of meer apparaten in. 
+1. Kies **op** de pagina Windows voorbereiden het tabblad **Apparaten** en schakel het selectievakje in naast een of meer apparaten. 
     
 2. Selecteer in het deelvenster **Apparaat** een profiel in de vervolgkeuzelijst **Toegewezen profiel**. 
     

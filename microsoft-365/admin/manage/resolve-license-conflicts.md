@@ -1,5 +1,5 @@
 ---
-title: Licentieconflicten oplossen in Office 365 voor Bedrijven
+title: Licentieconflicten oplossen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -19,15 +19,15 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 796f7eda-b1f8-479a-adee-bd9226ca47ec
-description: Meer informatie over het oplossen van licentieconflicten met uw abonnement op Office 365 voor Bedrijven.
-ms.openlocfilehash: de0a6c988b9ca2ae033a24c012b7f36bc1db58a3
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+description: Meer informatie over het oplossen van licentieconflicten met uw Microsoft 365 voor Bedrijven-abonnement.
+ms.openlocfilehash: 51f87c055402d9e6e3bd732a99abf2c155887290
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43540913"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628086"
 ---
-# <a name="resolve-license-conflicts-in-office-365-for-business"></a>Licentieconflicten oplossen in Office 365 voor Bedrijven
+# <a name="resolve-license-conflicts"></a>Licentieconflicten oplossen
 
 We raden u aan de licenties te kopen die u nodig hebt voor uw abonnement voordat u nieuwe gebruikers maakt. Op die manier kan een licentie worden toegewezen aan nieuwe gebruikers zodra hun gebruikersaccount is gemaakt. Er ontstaan licentieconflicten als alle beschikbare licenties al zijn toegewezen aan gebruikers, maar enkele licenties zijn verlopen, of als u een licentie probeert te verwijderen die al aan een gebruiker is toegewezen. Zie [Licenties uit uw abonnement verwijderen](../../commerce/licenses/remove-licenses-from-subscription.md)voor meer informatie.
   

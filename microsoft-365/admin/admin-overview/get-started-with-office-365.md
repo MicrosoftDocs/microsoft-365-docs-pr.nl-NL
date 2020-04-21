@@ -1,5 +1,5 @@
 ---
-title: Aan de slag met Office 365 voor Bedrijven
+title: Aan de slag met Microsoft 365 voor bedrijven
 f1.keywords:
 - NOCSH
 ms.author: twerner
@@ -21,17 +21,17 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
-description: Meer informatie over het instellen en gebruiken van Office 365 op uw computer, telefoon en tablet.
-ms.openlocfilehash: 695bf6ef3acd6d9f9c4b1a5252172258b0af5a2c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: Meer informatie over het instellen en gebruiken van Microsoft 365 op uw computer, telefoon en tablet.
+ms.openlocfilehash: fd52b12ab008e2c8d7b7a4476ae2212e01e1bb10
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42810277"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43623916"
 ---
 # <a name="get-started"></a>Aan de slag
 
-Uw organisatie heeft onlangs Office 365 ontvangen en nu moet u deze gebruiken, zodat u beginnen met het lezen van e-mail, het delen van documenten en meer. Meer informatie over het instellen en gebruiken van Office 365 op uw computer, telefoon en tablet.
+Uw organisatie heeft onlangs Microsoft 365 gekregen en nu moet u deze gebruiken, zodat u beginnen met het lezen van e-mail, het delen van documenten en meer. Meer informatie over het instellen en gebruiken van Microsoft 365 op uw computer, telefoon en tablet.
   
 ::: moniker range="o365-worldwide"
 
@@ -66,5 +66,5 @@ Hier volgen enkele bronnen om u op weg te helpen.
     
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Office 365 voor Bedrijven instellen - Help voor beheerders](../setup/setup.md)
+[Microsoft 365 voor bedrijven instellen - Help voor beheerders](../setup/setup.md)
 

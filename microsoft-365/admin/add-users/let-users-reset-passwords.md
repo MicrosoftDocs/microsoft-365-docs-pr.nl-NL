@@ -1,5 +1,5 @@
 ---
-title: Personen hun eigen wachtwoorden opnieuw laten instellen in Office 365
+title: Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Meer informatie over hoe u uw wachtwoorden opnieuw instellen met behulp van het hulpprogramma voor het opnieuw instellen van selfservicewachtwoorden.
-ms.openlocfilehash: 666d3843f7917cf9bd5718c0ce29f87f93d6effe
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: beffbcac997806f0c13347dfba42a1ab0ec65c1d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211893"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43617144"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 
@@ -36,7 +36,7 @@ Wordt u overspoeld door mensen die u vragen hun wachtwoord opnieuw in te stellen
   
 Hier volgen enkele dingen die u moet weten:
   
-- Selfservice voor wachtwoordherstel is **gratis** inbegrepen voor cloudgebruikers bij een betaald abonnement op Office 365 Business, Education of Nonprofit. Deze functie werkt niet in de proefversie van Office 365. 
+- U krijgt selfservice wachtwoord reset voor cloud-gebruikers **gratis** met een Microsoft 365 business, onderwijs, of non-profit betaald plan. Het werkt niet met Microsoft 365 trial. 
     
 - Deze maakt gebruik van Azure. Deze functie ontvangt u in Azure automatisch **gratis** wanneer u deze stappen uitvoert. Het kost u niets als u selfservice voor wachtwoordherstel inschakelt als u geen andere Azure-functies gebruikt. 
     

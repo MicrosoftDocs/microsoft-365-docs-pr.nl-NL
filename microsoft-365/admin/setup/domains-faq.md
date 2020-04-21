@@ -20,14 +20,14 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
-description: Meer informatie over domeinen in Office 365 vindt u antwoorden op uw vragen in veelgestelde vragen.
+description: Meer informatie over domeinen vindt u antwoorden op uw vragen in veelgestelde vragen.
 ms.custom: okr_smb
-ms.openlocfilehash: 5d5b921494ba59b78dec53047a31215a8e755f4c
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.openlocfilehash: 4ece90306f37b6f07e34ce93423a76f084d50b6f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43540865"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627592"
 ---
 # <a name="domains-faq"></a>Veelgestelde vragen over domeinen
 
@@ -51,7 +51,7 @@ E-mail wordt bezorgd bij de Mail Exchange-server met het laagste voorkeursgetal 
     
 ## <a name="how-can-i-validate-spf-records-for-my-domain"></a>Hoe kan ik SPF-records voor mijn domein valideren?
 
-Het is van belang dat u **slechts één TXT-record voor SPF** hebt of maakt. Als u al een SPF-record hebt, moet u de nieuwe Office 365-waarden hieraan toevoegen in plaats van een nieuwe record maken. Nadat u uw SPF-record voor e-mail van Office 365 hebt toegevoegd of bijgewerkt, moet u controleren of de syntaxis ervan juist is. Dat kan met een van de volgende hulpmiddelen: 
+Het is belangrijk dat u **slechts één TXT-record voor SPF**hebt of maakt. Als u al een SPF-record hebt, moet u de nieuwe Office 365-waarden eraan toevoegen in plaats van een nieuwe te maken. Nadat u uw SPF-record voor Microsoft-e-mail hebt toegevoegd of bijgewerkt, moet u controleren of de syntaxis correct is met een van deze hulpprogramma's: 
   
 - [Hulpprogramma's voor het testen van SPF-records](http://www.kitterman.com/spf/validate.html)
     
@@ -63,7 +63,7 @@ Het is van belang dat u **slechts één TXT-record voor SPF** hebt of maakt. Als
 
 Er zijn twee opties voor DNS-beheer met Office 365:
   
-1. U wijzigt de naamserverrecords (NS-records), waarna Office 365 alle service-specifieke records afhandelt, bijvoorbeeld het instellen van uw MX-record voor e-mail. **(Aanbevolen)**
+1. U wijzigt uw ns-records (nameserver) en vervolgens zorgt Microsoft voor alle servicespecifieke records, zoals het instellen van uw MX-record voor e-mail. **(Aanbevolen)**
     
 2. U voegt DNS-records voor e-mail en andere Office 365-services bij uw DNS-host zelf toe. **(Alleen voor experts)**
     
@@ -87,7 +87,7 @@ Er zijn twee opties voor DNS-beheer met Office 365:
  
 #### <a name="disadvantages"></a>Nadelen
 U moet de DNS-records voor Office 365-services zelf instellen (tenzij u een GoDaddy-domein hebt). 
--  Als uw huidige DNS-host niet alle vereiste recordtypen voor Office 365 ondersteunt, zijn sommige Office 365-functies niet beschikbaar en moet u mogelijk overstappen op een andere DNS-host. 
+-  Als uw huidige DNS-host niet alle vereiste recordtypen voor Microsoft 365 ondersteunt, zijn sommige functies niet beschikbaar en moet u mogelijk overschakelen naar een andere DNS-host. 
 - Als Office 365 vereisten voor DNS-records verandert of nieuwe services toevoegt, moet u de updates zelf uitvoeren bij uw DNS-host. 
    
 ## <a name="what-is-a-domain-name"></a>Wat is een domeinnaam?
@@ -333,9 +333,9 @@ Als u meerdere domeinen aan Office 365 toevoegt, kunt u alle services (zoals e-m
 
 ## <a name="why-do-i-have-an-onmicrosoftcom-domain"></a>Waarom heb ik een domein met de naam onmicrosoft.com?
 
-Office 365 maakt een domein voor u, zoals _contoso.onmicrosoft.com_wanneer u zich aanmeldt bij de service. De gebruikersnaam die u maakt wanneer u zich aanmeldt, bevat het domein, zoals _Alan\@contoso.onmicrosoft.com_. 
+Office 365 maakt een domein voor u, zoals *contoso.onmicrosoft.com*wanneer u zich aanmeldt bij de service. De gebruikersnaam die u maakt wanneer u zich aanmeldt, bevat het domein, zoals *alan@contoso.onmicrosoft.com.* 
   
- __Als u uw e-mail wilt laten lijken op _alan\@contoso.com:___ [koop het domein](../get-help-with-domains/buy-a-domain-name.md) of volg gewoon de stappen in Uw gebruikers en domein toevoegen aan Office [365](add-domain.md) als u het al bezit. 
+ **Als u uw e-mail wilt laten lijken op *alan\@contoso.com:*** [koop het domein](../get-help-with-domains/buy-a-domain-name.md) of volg gewoon de stappen in Uw gebruikers en domein toevoegen aan Office [365](add-domain.md) als u het al bezit. 
   
 - **U kunt de naam van het onmicrosoft-domein niet meer wijzigen nadat u zich hebt geregistreerd.** Als u tijdens het registreren bijvoorbeeld in eerste instantie fourthcoffee.onmicrosoft.com hebt gekozen, kunt u deze naam niet meer wijzigen in fabrikam.onmicrosoft.com. Als u een ander onmicrosoft.com-domein wilt gebruiken, moet u een nieuw abonnement nemen op Office 365. 
     
@@ -348,12 +348,11 @@ U kunt het onmicrosoft.com-domein blijven gebruiken, ook nadat u uw domein hebt 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-
 ## <a name="why-do-i-have-an-onmicrosoftde-domain"></a>Waarom heb ik een domein 'onmicrosoft.de'?
 
-Office 365 maakt een domein voor u, zoals *contoso.onmicrosoft.de*wanneer u zich aanmeldt bij de service. De gebruikersnaam die u maakt wanneer u zich aanmeldt, bevat het domein, zoals 'alan@contoso.onmicrosoft.de'. 
+Office 365 maakt een domein voor u, zoals *contoso.onmicrosoft.de*wanneer u zich aanmeldt bij de service. De gebruikersnaam die u maakt wanneer u zich aanmeldt, bevat het domein, zoals *alan@contoso.onmicrosoft.de.* 
   
-Als u uw e-mail wilt laten lijken op 'alan@contoso.de': [koop het domein](../get-help-with-domains/buy-a-domain-name.md) of volg gewoon de stappen in Uw gebruikers en domein toevoegen aan Office [365](add-domain.md) als u de e-mail al bezit 
+ **Als u uw e-mail wilt laten lijken *op alan@contoso.de:*** [koop het domein](../get-help-with-domains/buy-a-domain-name.md) of volg gewoon de stappen in Uw gebruikers en domein toevoegen aan Office [365](add-domain.md) als u het al bezit. 
   
 - **U kunt de naam van het onmicrosoft-domein niet meer wijzigen nadat u zich hebt geregistreerd.** Als het oorspronkelijke domein dat u hebt gekozen bijvoorbeeld fourthcoffee.onmicrosoft.de is, u het niet wijzigen om fabrikam.onmicrosoft.de te zijn. Als u een ander onmicrosoft.de-domein wilt gebruiken, moet u een nieuw abonnement starten met Office 365. 
     
@@ -489,11 +488,11 @@ Dat kan, maar er zijn beperkingen:
         
     2. Voer de volgende tests uit:
         
-    3. Test lokale Office 365-e-mail. Stuur bijvoorbeeld een e-mail naar gebruiker B. Deze e-mail moet onmiddellijk worden bezorgd. In dit scenario wordt het bericht niet doorgestuurd naar het postvak van gebruiker B op uw oorspronkelijke server, omdat het postvak in Office 365 als lokaal wordt weergegeven.
+    3. Lokale Microsoft-e-mail testen. Stuur bijvoorbeeld een e-mail naar gebruiker B. Deze e-mail moet onmiddellijk worden bezorgd. In dit scenario wordt het bericht niet doorgestuurd naar het postvak van gebruiker B op uw oorspronkelijke server, omdat het postvak in Office 365 als lokaal wordt weergegeven.
         
     4. Test e-mail naar iemand die zich op het andere e-mailsysteem bevindt. Stuur bijvoorbeeld een e-mail naar gebruiker C. Deze e-mail moet worden bezorgd in het postvak van gebruiker C op uw oorspronkelijke e-mailserver.
         
-    5. Controleer vanaf een extern account of van het e-mailaccount van een werknemer op het andere e-mailsysteem of het doorsturen correct is ingesteld op het andere e-mailsysteem. Stuur bijvoorbeeld vanuit het oorspronkelijke serveraccount van gebruiker C of een Hotmail-account gebruiker A een e-mail en controleer of deze in het Office 365-postvak van gebruiker A wordt aangeleverd.
+    5. Controleer vanaf een extern account of van het e-mailaccount van een werknemer op het andere e-mailsysteem of het doorsturen correct is ingesteld op het andere e-mailsysteem. Stuur bijvoorbeeld vanuit het origninal-serveraccount van gebruiker C of een Hotmail-account gebruiker A een e-mail en controleer of deze in het Office 365-postvak van gebruiker A wordt aangekomen.
         
 9. Postvakinhoud verplaatsen
     

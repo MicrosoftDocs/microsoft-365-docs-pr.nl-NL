@@ -23,22 +23,22 @@ search.appverid:
 - GEA150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Meer informatie over gebruikersaccounts verwijderen. Bepaal wat u wilt doen met de e-mail van de gebruiker, de inhoud op OneDrive en of u de productlicentie wilt behouden of er niet meer voor wilt betalen.
-ms.openlocfilehash: 59d06a075b5badeda410b4b25d60fa135b9ce5f7
-ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
+ms.openlocfilehash: 1d529627841c648684c8a9fe217a761b29749150
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43608117"
+ms.locfileid: "43617246"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Een gebruiker uit uw organisatie verwijderen
   
 ||
 |:-----|
-|**Zoekt u informatie over het verwijderen van uw *eigen* Office 365-gebruikersaccount op uw werk of school? Neem contact op met de technische ondersteuning op uw werk of school om deze stappen voor u uit te voeren.**|
+|**Op zoek naar hoe u uw *eigen* Microsoft 365-gebruikersaccount verwijderen dat u op het werk of op school gebruikt? Neem contact op met de technische ondersteuning op uw werk of universiteit om deze stappen voor u uit te voeren.**|
    
 ## <a name="what-you-need-to-know-about-deleting-users"></a>Wat u moet weten over het verwijderen van gebruikers
 
-- Alleen personen met een machtiging op het niveau van een [globale Office 365-beheerder](about-admin-roles.md) of met een machtiging voor gebruikersbeheer voor het bedrijf of de onderwijsinstelling kunnen gebruikersaccounts verwijderen. 
+- Alleen mensen met machtigingen voor algemene beheer- of gebruikersbeheer van [Microsoft 365](about-admin-roles.md) kunnen gebruikersaccounts verwijderen. 
     
 - U hebt 30 dagen de tijd om het account te [herstellen](restore-user.md). Daarna worden de gegevens van de gebruiker permanent verwijderd. 
     
@@ -46,7 +46,7 @@ ms.locfileid: "43608117"
     
 - Als u de e-mail van de gebruiker wilt bewaren, moet u deze naar een andere locatie verplaatsen **VOORDAT** u het account verwijdert. Als u het account al hebt verwijderd, kunt u het binnen 30 dagen herstellen en vervolgens de e-mailgegevens verplaatsen. Hierna kunt u het account verwijderen. Zie [Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken](get-access-to-and-back-up-a-former-user-s-data.md).
     
-- Als u een Enterprise-abonnement hebt zoals Office 365 Enterprise E3, kunt u de postvakgegevens van een verwijderd Office 365-gebruikersaccount bewaren door er een *inactief postvak* van te maken. Zie het Engelstalige artikel [Manage inactive mailboxes in Exchange Online (Inactieve postvakken beheren in Exchange Online)](https://docs.microsoft.com/microsoft-365/compliance/inactive-mailboxes-in-office-365) voor meer informatie.
+- Als u een Enterprise-abonnement hebt zoals Office 365 Enterprise E3, u de postvakgegevens van een verwijderd gebruikersaccount behouden door er een *inactief postvak van te*maken. Zie het Engelstalige artikel [Manage inactive mailboxes in Exchange Online (Inactieve postvakken beheren in Exchange Online)](https://docs.microsoft.com/microsoft-365/compliance/inactive-mailboxes-in-office-365) voor meer informatie.
 
 
 ## <a name="global-admin-delete-a-user-stop-paying-for-their-license-and-choose-what-to-do-with-their-email-and-onedrive-content"></a>Globale beheerder: Verwijder een gebruiker, stop de betaling voor zijn licentie en kies u wilt doen met zijn e-mailadres en de OneDrive-inhoud
@@ -62,7 +62,7 @@ Denk, voordat u begint, na over wat u wilt doen met de e-mail- en OneDrive-inhou
 |:-----|:-----|
 |Productlicenties  <br/> |U kunt de licentie van de gebruiker verwijderen uit uw abonnementen zodat u niet langer betaalt voor deze licentie. Door deze optie te selecteren wordt de licentie automatisch verwijderd uit uw abonnementen.  <br/><br/> **U kunt de licentie niet verwijderen** als u deze hebt gekocht via een Partner of volumelicenties. Als u voor een jaarabonnement betaalt of als u in het midden van een factureringscyclus zit, kunt u de licentie niet verwijderen uit uw abonnement totdat uw verbintenis is voltooid.  <br/> |
 |OneDrive-inhoud  <br/> |Als de gebruiker de bestanden in OneDrive heeft opgeslagen, kunt u een andere gebruiker toegang geven tot deze bestanden.  <br/><br/> U moet de bestanden die u wilt behouden verplaatsen binnen de bewaarperiode die is ingesteld voor de OneDrive-bestanden. **Deze bewaarperiode is standaard 30 dagen.** Als u de bestanden niet binnen de bewaarperiode verplaatst na het verwijderen van de gebruiker, zal de OneDrive-inhoud permanent worden verwijderd. Als u het aantal dagen voor het bewaren van OneDrive-bestanden voor verwijderde accounts wilt verhogen, raadpleeg dan [Bewaren OneDrive instellen voor verwijderde gebruikers](https://support.office.com/article/fa1641ea-9f03-4f34-a826-dbd8697e76fe.aspx).  <br/><br/> **Belangrijk!** Als de verwijderde gebruiker een pc gebruikte voor het downloaden van bestanden van SharePoint en OneDrive, dan is het niet mogelijk om de bestanden te wissen die deze persoon opgeslagen heeft op zijn computer. Zij zullen toegang blijven houden tot bestanden die werden gesynchroniseerd vanaf OneDrive.           |
-|E-mail  <br/> | Als aan een andere gebruiker toegang wordt gegeven tot de e-mail van de verwijderde gebruiker, dan zal het postvak van de verwijderde gebruiker worden geconverteerd naar een gedeeld postvak. De nieuwe eigenaar van het postvak heeft vervolgens toegang tot het postvak en kan controleren op nieuwe e-mail. U beschikt tevens over de volgende opties:  <br/>  <br/>De weergavenaam wijzigen - Het is raadzaam de weergavenaam te wijzigen zodat het gedeelde postvak in de lijst met Actieve gebruikers gemakkelijk te herkennen is.  <br/>  Automatische antwoorden inschakelen - Wij hebben alvast een beleefd automatisch antwoord voor u geschreven. U kunt verschillende automatische antwoorden verzenden naar personen van binnen uw organisatie en personen van buiten uw organisatie.  <br/> <br/> Aliassen opschonen - Aliassen zijn extra e-mailadressen voor gebruikers. Sommige organisaties gebruiken ze niet, dus als u ze niet hebt, hoeft u hier verder niets te doen. Als de gebruiker aliassen heeft is het raadzaam deze te verwijderen zodat u deze e-mailadressen opnieuw kunt gebruiken. Als u dit niet doet, kunt u deze e-mailadressen niet gebruiken totdat de bewaarperiode voor verwijderde postvakken is verstreken. Een verwijderd postvak blijft standaard gedurende 30 dagen herstelbaar. Zie het Engelstalig artikel [Delete or restore user mailboxes in Exchange Online ](https://docs.microsoft.com/exchange/recipients-in-exchange-online/delete-or-restore-mailboxes#delete-a-user-mailbox) voor meer informatie. <br/> |
+|E-mail  <br/> | Als aan een andere gebruiker toegang wordt gegeven tot de e-mail van de verwijderde gebruiker, dan zal het postvak van de verwijderde gebruiker worden geconverteerd naar een gedeeld postvak. De nieuwe eigenaar van het postvak heeft vervolgens toegang tot het postvak en kan controleren op nieuwe e-mail. U beschikt tevens over de volgende opties:  <br/>  <br/>De weergavenaam wijzigen - Het is raadzaam de weergavenaam te wijzigen zodat het gedeelde postvak in de lijst met Actieve gebruikers gemakkelijk te herkennen is.  <br/>  Automatische antwoorden inschakelen - Wij hebben alvast een beleefd automatisch antwoord voor u geschreven. U kunt verschillende automatische antwoorden verzenden naar personen van binnen uw organisatie en personen van buiten uw organisatie.  <br/> <br/> Aliassen opschonen - Aliassen zijn extra e-mailadressen voor gebruikers. Sommige organisaties gebruiken ze niet, dus als u ze niet hebt, hoeft u hier verder niets te doen. Als de gebruiker aliassen heeft is het raadzaam deze te verwijderen zodat u deze e-mailadressen opnieuw kunt gebruiken. Anders u deze e-mailadressen pas opnieuw gebruiken als de bewaartermijn voor verwijderde postvakken is verstreken. Een verwijderd postvak blijft standaard gedurende 30 dagen herstelbaar. Zie het Engelstalig artikel [Delete or restore user mailboxes in Exchange Online ](https://docs.microsoft.com/exchange/recipients-in-exchange-online/delete-or-restore-mailboxes#delete-a-user-mailbox) voor meer informatie. <br/> |
 |Active Directory  <br/> |Als uw bedrijf gebruikmaakt van **Active Directory** die wordt gesynchroniseerd met Azure AD, moet u het gebruikersaccount verwijderen uit Active Directory. Dit is niet mogelijk via Office 365. Lees voor instructies: [Een gebruikersaccount verwijderen](https://go.microsoft.com/fwlink/p/?linkid=841808).  <br/> |
    
 ### <a name="get-started"></a>Aan de slag
@@ -176,13 +176,13 @@ Hier volgt een overzicht van de meestvoorkomende problemen tijdens het verwijder
   
 - **U krijgt een foutbericht met de volgende strekking: 'Gebruiker kan niet worden verwijderd. Probeer het later opnieuw.'** Controleer of E-mail doorsturen is ingesteld voor het account of dat het account is omgezet naar een gedeeld postvak. In beide gevallen treedt deze fout op. Verwijder het account niet als e-mail doorsturen is ingesteld of als het account is omgezet naar een gedeeld postvak.
 
-- **U beschikt niet over de juiste machtigingen om een gebruiker te verwijderen**. Alleen [globale Office 365-beheerders of beheerders van gebruikersbeheer](about-admin-roles.md) kunnen gebruikers verwijderen. Meestal is dit de technische ondersteuning van uw onderwijsinstelling of bedrijf.
+- **U beschikt niet over de juiste machtigingen om een gebruiker te verwijderen**. Alleen mensen die [algemene beheerders van Microsoft 365 of beheerders van gebruikersbeheer](about-admin-roles.md) zijn, kunnen gebruikers verwijderen. Meestal is dit de technische ondersteuning van uw onderwijsinstelling of bedrijf.
 
 - **U verwijdert de gebruiker, maar zijn of haar naam staat nog steeds in het globale adresboek**. Dit gebeurt als een bedrijf gebruikmaakt van Active Directory. U moet het gebruikersaccount uit Active Directory verwijderen. Zie het volgende TechNet-artikel voor instructies: [Gebruikersaccounts verwijderen.](https://go.microsoft.com/fwlink/p/?linkid=841808)
 
 ||
 |:-----|
-|**Wilt u Office 365 verwijderen van uw computer? Ga naar [Uw abonnement opzeggen](../../commerce/subscriptions/cancel-your-subscription.md).**|
+|**Wilt u Microsoft 365 van uw computer verwijderen? Ga naar [Uw abonnement opzeggen](../../commerce/subscriptions/cancel-your-subscription.md).**|
    
 ## <a name="related-articles"></a>Verwante artikelen
 

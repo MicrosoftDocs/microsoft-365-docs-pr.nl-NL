@@ -13,19 +13,19 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 'Bescherm uw zakelijke e-mail en gegevens tegen cyberbedreigingen, waaronder ransomware, phishing en schadelijke bijlagen. '
-ms.openlocfilehash: d42760f0dbf38b72fe530a5670f3515bf3ba2f94
-ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
+ms.openlocfilehash: 0730f4df4f6e9e72f024b35729909df309826625
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43225951"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630795"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>Top 12 taken voor beveiligingsteams ter ondersteuning van thuiswerken
 
 Als u net als [Microsoft](https://www.microsoft.com/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/) bent en plotseling merkt dat u een voornamelijk thuiswerkende werknemers ondersteunt, willen we u helpen ervoor te zorgen dat uw organisatie zo veilig mogelijk werkt. Dit artikel geeft prioriteit aan taken om beveiligingsteams te helpen de belangrijkste beveiligingsmogelijkheden zo snel mogelijk te implementeren. 
 
 Als u een kleine of middelgrote organisatie bent die een van de bedrijfsplannen van Microsoft gebruikt, raadpleegt u deze bronnen in plaats daarvan:
-- [De 10 beste manieren om Office 365- en Microsoft 365 Business-abonnementen te beveiligen](../admin/security-and-compliance/secure-your-business-data.md) 
+- [Top 10 manieren om Office 365- en Microsoft 365-abonnementen te beveiligen](../admin/security-and-compliance/secure-your-business-data.md) 
 - [Microsoft 365 voor campagnes](https://docs.microsoft.com/microsoft-365/campaigns/?view=o365-worldwide) (bevat een aanbevolen beveiligingsconfiguratie voor Microsoft 365 Business)
 
   
@@ -36,7 +36,7 @@ Voor klanten die onze bedrijfsplannen gebruiken, raadt Microsoft u aan de taken 
 ||**Taak**| Alle Office 365 Enterprise-abonnementen|**Microsoft 365 E3** |**Microsoft 365 E5**|
 |:-----|:-----|:-----|:-----|:-----|
 |1      |[Azure Multi-Factor Authentication (MFA) inschakelen](#1-enable-azure-multi-factor-authentication-mfa)   |   ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
-|2     | [Beschermen tegen bedreigingen in Office 365](#2-protect-against-threats-in-office-365) |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
+|2     | [Beveiligen tegen bedreigingen](#2-protect-against-threats) |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
 |3      |  [Geavanceerde bedreigingsbeveiliging van Office 365 configureren](#3-configure-office-365-advanced-threat-protection)  |   |      |  ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |4      | [Azure Advanced Threat Protection (ATP) configureren](#4-configure-azure-advanced-threat-protection)   |   |      |  ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |5     |   [Microsoft Advanced Threat Protection inschakelen](#5-turn-on-microsoft-advanced-threat-protection)  |  |      | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
@@ -45,7 +45,7 @@ Voor klanten die onze bedrijfsplannen gebruiken, raadt Microsoft u aan de taken 
 |8      |  [Pc's inschrijven voor apparaatbeheer en vereisen compatibele pc's](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)   |  | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)        | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |9      | [Optimaliseer uw netwerk voor cloudconnectiviteit](#9-optimize-your-network-for-cloud-connectivity)  |  ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |10   | [Treingebruikers](#10-train-users) |    ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
-|11 |[Aan de slag met Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security) |   |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
+|11 |[Aan de slag met Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security) |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
 |12 |[Controleren op bedreigingen en actie ondernemen](#12-monitor-for-threats-and-take-action) |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)  |
 | | | |
 
@@ -65,20 +65,20 @@ Het toepassen van dit beleid duurt slechts enkele minuten, maar wees bereid om u
 
 |Plannen  |Aanbeveling  |
 |---------|---------|
-|Office 365-abonnementen (zonder Azure AD P1 of P2)     |[Beveiligingsstandaardinstellingen inschakelen in Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). Beveiligingsstandaarden in Azure AD bevatten MFA voor gebruikers en beheerders.   |
+|Microsoft 365-abonnementen (zonder Azure AD P1 of P2)     |[Beveiligingsstandaardinstellingen inschakelen in Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). Beveiligingsstandaarden in Azure AD bevatten MFA voor gebruikers en beheerders.   |
 |Microsoft 365 E3 (met Azure AD P1)     | Gebruik [algemene beleid voor voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) om het volgende beleid te configureren: <br>- [MFA vereisen voor beheerders](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [MFA vereisen voor alle gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Verouderde verificatie blokkeren](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
 |Microsoft 365 E5 (met Azure AD P2)     | Als u gebruikmaakt van Azure AD-identiteitsbeveiliging, begint u met het implementeren van de [aanbevolen set voorwaardelijke toegang en bijbehorende beleidsregels van](../enterprise/identity-access-policies.md) Microsoft door deze twee beleidsregels te maken:<br> - [MFA vereisen wanneer het aanmeldingsrisico gemiddeld of hoog is](../enterprise/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Clients blokkeren die geen moderne verificatie ondersteunen](../enterprise/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br>- [Gebruikers met een hoog risico moeten het wachtwoord wijzigen](../enterprise/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
 
   
-## <a name="2-protect-against-threats-in-office-365"></a>2: Beschermen tegen bedreigingen in Office 365
+## <a name="2-protect-against-threats"></a>2: Beschermen tegen bedreigingen
 
-Alle Office 365-abonnementen bevatten verschillende functies voor bedreigingsbescherming. Bumping up bescherming voor deze functies duurt slechts een paar minuten.
-- Bescherming tegen malware
+Alle Microsoft 365-abonnementen bevatten verschillende functies voor bedreigingsbescherming. Bumping up bescherming voor deze functies duurt slechts een paar minuten.
+- Beveiliging tegen malware
 - Bescherming tegen schadelijke URL's en bestanden
 - Bescherming tegen phishing
-- Bescherming tegen spam
+- Beveiliging tegen ongewenste e-mail
 
 Zie [Beschermen tegen bedreigingen in Office 365](office-365-security/protect-against-threats.md) voor richtlijnen die u als uitgangspunt gebruiken.
     
@@ -96,12 +96,12 @@ Zie [Office 365 Advanced Threat Protection](office-365-security/office-365-atp.m
 
 Uw globale beheerder kan deze beveiligingen configureren:
 - [ATP Safe Links instellen](office-365-security/set-up-atp-safe-links-policies.md)
-- [Beleid voor veilige bijlagen atp instellen](office-365-security/set-up-atp-safe-attachments-policies.md)
-- [Een aangepaste URL-lijst 'niet herschrijven' instellen](office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
-- [Een aangepaste geblokkeerde URL-lijst instellen](office-365-security/set-up-a-custom-blocked-urls-list-wtih-atp.md)
+- [Beleid voor veilige bijlagen in ATP instellen](office-365-security/set-up-atp-safe-attachments-policies.md)
+- [Een aangepaste lijst instellen met URL's die niet opnieuw mogen worden geschreven](office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
+- [Een aangepaste lijst met geblokkeerde URL's instellen](office-365-security/set-up-a-custom-blocked-urls-list-wtih-atp.md)
 
 U moet samenwerken met uw Exchange Online-beheerder en SharePoint Online-beheerder om ATP voor deze workloads te configureren:
-- [ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams](office-365-security/turn-on-atp-for-spo-odb-and-teams.md)
+- [ATP voor SharePoint, OneDrive en Microsoft Teams inschakelen](office-365-security/turn-on-atp-for-spo-odb-and-teams.md)
 
 ## <a name="4-configure-azure-advanced-threat-protection"></a>4: Azure Advanced Threat Protection configureren
 
@@ -181,11 +181,11 @@ Sommige van de beveiligingen die traditioneel zijn geboden door het routeren van
 
 
 Zie deze bronnen op Documenten voor meer informatie:
-- [Overzicht: Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN split tunneling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+- [Overzicht: Connectiviteit optimaliseren voor externe gebruikers met VPN split tunneling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 - [VPN-splittunneling implementeren voor Office 365](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
 Recente blog artikelen over dit onderwerp:
-- [Office 365-verkeer snel optimaliseren voor externe medewerkers & de belasting van uw infrastructuur te verminderen](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571#)
+- [Zo snel het verkeer voor externe medewerkers optimaliseren & de belasting van uw infrastructuur te verminderen](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571#)
 - [Alternatieve manieren voor beveiligingsprofessionals en IT om moderne beveiligingscontroles te realiseren in de unieke scenario's voor werken op afstand](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
 
 

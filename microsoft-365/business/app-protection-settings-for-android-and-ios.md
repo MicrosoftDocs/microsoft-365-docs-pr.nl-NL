@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: Meer informatie over het maken, bewerken of verwijderen van een app-beheerbeleid en het beveiligen van werkbestanden op Android- of iOS-apparaten.
-ms.openlocfilehash: 0adb103ac3bef72e340c1f5daf54a6b8a184d85c
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 0d9e901cac94fe7692ffe705c6b0a51df2bc542f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894275"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627429"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Instellingen voor app-beveiliging instellen voor Android- of iOS-apparaten
 
@@ -75,7 +75,7 @@ ms.locfileid: "42894275"
 
 In de volgende tabellen vindt u gedetailleerde informatie over de beschikbare instellingen om werkbestanden op apparaten te beschermen en de instellingen waarmee wordt bepalen hoe gebruikers office-bestanden vanaf hun mobiele apparaten openen.
   
- Zie [Hoe beveiligingsfuncties in Microsoft 365 Business zijn toegewezen aan Intune-instellingen](map-protection-features-to-intune-settings.md) voor meer informatie. 
+ Zie [Hoe bewaar beveiligingsfuncties in de Microsoft 365 Business Premium-kaart naar Intune-instellingen](map-protection-features-to-intune-settings.md)voor meer informatie. 
   
 ### <a name="settings-that-protect-work-files"></a>Instellingen voor het beveiligen van werkbestanden
 

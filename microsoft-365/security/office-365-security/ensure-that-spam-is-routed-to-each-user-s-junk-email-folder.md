@@ -16,21 +16,21 @@ ms.assetid: 0cbaccf8-4afc-47e3-a36d-a84598a55fb8
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe ze hun on-premises Exchange-omgeving kunnen configureren om spam te routeren naar de ongewenste e-mailmappen van gebruikers als ze zelfstandige Exchange Online Protection (EOP) gebruiken in hybride omgevingen.
-ms.openlocfilehash: 8a3887d1cc7390e75b7708d2167372e976923e01
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f2964324c6d9104719fc79ff31f14b4b94c627cc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893716"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621280"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Standalone EOP configureren om spam te leveren aan de map Ongewenste e-mail in hybride omgevingen
 
 > [!IMPORTANT]
-> Dit onderwerp is alleen voor standalone EOP-klanten in hybride omgevingen. Dit onderwerp is niet van toepassing op Office 365-klanten met Exchange Online-postvakken.
+> Dit onderwerp is alleen voor standalone EOP-klanten in hybride omgevingen. Dit onderwerp is niet van toepassing op Microsoft 365-klanten met Exchange Online-postvakken.
 
-Als u een zelfstandige Exchange Online Protection (EOP)-klant bent in een hybride omgeving, moet u uw on-premises Exchange-organisatie configureren om de spamfilteringsvonnissen van EOP te herkennen en te vertalen, zodat de regel voor ongewenste e-mail in het on-premises postvak berichten naar de map Ongewenste e-mail kunnen verplaatsen.
+Als u een zelfstandige Exchange Online Protection (EOP)-klant bent in een hybride omgeving, moet u uw on-premises Exchange-organisatie configureren om de spamfilteringsvonnissen van EOP te herkennen en te vertalen, zodat de regel voor ongewenste e-mail in het on-premises postvak berichten naar de map Ongewenste e-mail kan verplaatsen.
 
-In het bijzonder moet u regels voor e-mailstroom (ook wel transportregels genoemd) maken in uw on-premises Exchange-organisatie met voorwaarden die berichten vinden met een van de volgende EOP-antispamheaders en -waarden en acties die het spamvertrouwensniveau instellen ( SCL) van deze berichten aan 6:
+In het bijzonder moet u regels voor e-mailstroom (ook wel transportregels genoemd) maken in uw on-premises Exchange-organisatie met voorwaarden die berichten vinden met een van de volgende EOP-antispamheaders en -waarden en acties die het spamvertrouwensniveau (SCL) van die berichten instellen op 6:
 
 - `X-Forefront-Antispam-Report: SFV:SPM`(bericht gemarkeerd als spam door spamfiltering)
 
@@ -43,7 +43,7 @@ Zie [Kopteksten voor spamberichten](anti-spam-message-headers.md)voor meer infor
 In dit onderwerp wordt beschreven hoe u deze regels voor e-mailstroom maakt, het Exchange-beheercentrum (EAC) en in exchangemanagementshell (Exchange PowerShell) in de on-premises Exchange-organisatie.
 
 > [!TIP]
-> In plaats van de berichten af te leveren aan de map Ongewenste e-mail van de eindgebruiker, u antispambeleid in EOP configureren om spamberichten in EOP in quarantaine te plaatsen. Zie [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md)voor meer informatie.
+> In plaats van de berichten af te leveren aan de map Ongewenste e-mail van de eindgebruiker, u antispambeleid in EOP configureren om spamberichten in EOP in quarantaine te plaatsen. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -125,7 +125,7 @@ New-TransportRule -Name "EOP SFV:SKS to SCL 6" -HeaderContainsMessageHeader "X-F
 New-TransportRule -Name "EOP SFV:SKB to SCL 6" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SFV:SKB" -SetSCL 6
 ```
 
-Zie [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule) voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Nieuwe-Transportregel](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule) voor gedetailleerde syntaxis- en parameterinformatie.
 
 ## <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
@@ -139,7 +139,7 @@ Ga op de volgende stappen als u wilt controleren of u zelfstandige EOP hebt geco
   Get-TransportRule -Identity "<RuleName>" | Format-List
   ```
 
-- Stuur in een extern e-mailsysteem dat uitgaande **berichten niet scant op spam,** een algemene test voor GTUBE-bericht (Unsolicited Bulk Email) naar een getroffen ontvanger en bevestigt u dat het wordt bezorgd in de map Ongewenste e-mail. Een GTUBE-bericht is vergelijkbaar met het tekstbestand van het European Institute for Computer Antivirus Research (EICAR) voor het testen van malware-instellingen.
+- Stuur in een extern e-mailsysteem dat uitgaande **berichten niet scant op spam,** een algemene test voor GTUBE-bericht (Unsolicited Bulk Email) naar een getroffen ontvanger en bevestigt u dat het wordt bezorgd in de map Ongewenste e-mail. Een GTUBE-bericht is vergelijkbaar met het EICAR-tekstbestand (European Institute for Computer Antivirus Research) voor het testen van malware-instellingen.
 
   Als u een GTUBE-bericht wilt verzenden, neemt u de volgende tekst op in de hoofdtekst van een e-mailbericht op één regel, zonder spaties of regeleinden:
 

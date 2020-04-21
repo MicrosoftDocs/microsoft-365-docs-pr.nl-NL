@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Overzicht van de productiviteitsscore van Microsoft.
-ms.openlocfilehash: 06c1bb5d5e5edfd21fa9224846d584cbe6678d07
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: 3e85ef40513593b7fcd66269671128c1233d10f9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516863"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627750"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Microsoft-productiviteitsscore (voorbeeld)
 
@@ -64,7 +64,7 @@ Uw score wordt dagelijks bijgewerkt en weerspiegelt de acties van gebruikers die
 
 ## <a name="access-and-required-permissions"></a>Toegangs- en vereiste machtigingen 
 
-Voor de werknemerservaring moet u een abonnement hebben op een Office 365 voor Bedrijven-abonnement of een Microsoft 365 Business-abonnement met meerdere gebruikers. 
+Voor de werknemerservaring moet u een abonnement hebben op een Microsoft 365 voor zakelijk abonnement met meerdere gebruikers. 
 
 Als u toestemming wilt hebben om toegang te krijgen tot de Microsoft Productivity Score, moet u de volgende rollen hebben: 
 
@@ -136,7 +136,7 @@ De bestandstypen die worden overwogen voor samenwerking zijn Word/Excel/PowerPoi
 
 ![Werk overal pagina.](../../media/psflexibility.png)
 
-De pagina Overal werken kwantificeert de gebruikers (als percentage en absolute waarde) die ten minste één productiviteits-app gebruikten op twee of meer platforms, die desktop, mobiel en web zijn. Gebruikers krijgen hoger gescoord voor het gebruik van meer apps en platforms. De apps die worden overwogen zijn Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer, Skype. De basis van het inzicht zijn gebruikers die zijn ingeschakeld voor Office 365 ProPlus, Exchange, Yammer, Skype of Teams.
+De pagina Overal werken kwantificeert de gebruikers (als percentage en absolute waarde) die ten minste één productiviteits-app gebruikten op twee of meer platforms, die desktop, mobiel en web zijn. Gebruikers krijgen hoger gescoord voor het gebruik van meer apps en platforms. De apps die worden overwogen zijn Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer, Skype. De basis van het inzicht zijn gebruikers ingeschakeld voor Microsoft 365 Apps voor bedrijven, Exchange, Yammer, Skype of Teams.
 
 1. **Waarom het ertoe doet** biedt een samenvatting van onderzoek koppelen gebruik van meerdere platforms aan hogere productiviteit. **Lees het onderzoek van Forrester** gaat naar een onderzoeksartikel dat meer context biedt over hoe overwerken bevorderlijk is voor een verhoogde productiviteit.
 1. Als u inzicht in **E-mail overal** ondersteunt, kwantificeert u het aantal gebruikers in uw organisatie dat Outlook gebruikt op verschillende platforms binnen de basis van gebruikers die actief zijn in Outlook.

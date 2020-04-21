@@ -1,5 +1,5 @@
 ---
-title: E-mail en contactpersonen migreren naar Office 365
+title: E-mail en contactpersonen migreren naar Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -25,25 +25,25 @@ search.appverid:
 - MOL140
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
-description: "Meer informatie over het importeren van contactpersonen, agenda's, e-mails van Gmail of een andere e-mailprovider naar Office 365. "
-ms.openlocfilehash: 6decee3fd45d11ed1e71e71e0cf7191ccec6aa3d
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: "Meer informatie over het importeren van contactpersonen, agenda's, e-mails van Gmail of een andere e-mailprovider naar Microsoft 365. "
+ms.openlocfilehash: ff81eed73a4bf5d7e58316e61212fd799de6d11c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212183"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627580"
 ---
-# <a name="migrate-email-and-contacts-to-office-365"></a>E-mail en contactpersonen migreren naar Office 365
+# <a name="migrate-email-and-contacts-to-microsoft-365"></a>E-mail en contactpersonen migreren naar Microsoft 365
 
-E-mail importeren of kopiëren van Gmail of een andere e-mailprovider naar Office 365.
+E-mail importeren of kopiëren van Gmail of een andere e-mailprovider naar Microsoft 365.
   
- **Wil je hier hulp bij?**  [Neem contact op met de ondersteuning van Office 365 voor Bedrijven](../contact-support-for-business-products.md) . 
+ **Wil je hier hulp bij?**  [Neem contact op met Microsoft 365 voor zakelijke ondersteuning](../contact-support-for-business-products.md) . 
   
-U moet voor deze taak een versie van Outlook gebruiken die op uw bureaublad is geïnstalleerd. Outlook is opgenomen in de meeste Office [365-abonnementen](https://go.microsoft.com/fwlink/p/?LinkId=723731).
+U moet voor deze taak een versie van Outlook gebruiken die op uw bureaublad is geïnstalleerd. Outlook is opgenomen in de meeste Microsoft [365-abonnementen](https://go.microsoft.com/fwlink/p/?LinkId=723731).
   
 ### <a name="import-from-gmail"></a>Importeren uit Gmail
 
-Voer de volgende stappen uit om e-mail, contactpersonen en agenda vanuit Gmail te importeren in Outlook met Office 365:
+Volg deze stappen om e-mail, contactpersonen en agenda vanuit Gmail te importeren in Outlook met Microsoft 365:
   
 - [Gmail importeren in Outlook](https://support.office.com/article/20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7.aspx)
     
@@ -53,9 +53,9 @@ Voer de volgende stappen uit om e-mail, contactpersonen en agenda vanuit Gmail t
     
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c1e45708-9a92-475b-910b-f5aa40614d92?autoplay=false]
   
-### <a name="import-from-outlook-desktop"></a>Importeren uit Outlook (bureaublad)''
+### <a name="import-from-outlook-desktop"></a>Importeren vanuit Outlook (bureaublad)
 
-Fol'ow deze stappen om e-mail, contactpersonen en agenda's te exporteren van Outlook naar een PST-bestand en vervolgens dat bestand te importeren in Outlook met Office 365:
+Voer deze stappen uit om e-mail, contactpersonen en agenda's van Outlook naar een PST-bestand te exporteren en importeer dat bestand vervolgens naar Outlook met Microsoft 365:
   
 1. [E-mail, contactpersonen en agenda exporteren](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91)
     
@@ -73,7 +73,7 @@ Als u het proces wilt starten, opent u Outlook en kiest **u Bestand** \> **Opene
   
 ## <a name="see-other-email-accounts-in-outlook"></a>Andere e-mailaccounts bekijken in Outlook
 
-Wil je gewoon je e-mail van een andere provider (zoals Gmail, Yahoo of Live.com) in Outlook zien? U hoeft niet te importeren of te migreren. U Outlook of Outlook Web App instellen, zodat u toegang hebt tot uw andere accounts vanaf dezelfde plaats als uw Office 365-postvak en e-mail verzenden, ontvangen en lezen die naar die accounts is verzonden.
+Wil je gewoon je e-mail van een andere provider (zoals Gmail, Yahoo of Live.com) in Outlook zien? U hoeft niet te importeren of te migreren. U Outlook of Outlook Web App instellen, zodat u toegang hebt tot uw andere accounts vanaf dezelfde plaats als uw Microsoft 365-postvak en e-mail verzenden, ontvangen en lezen die naar die accounts is verzonden.
   
 ### <a name="outlook-desktop"></a>Outlook (bureaublad)
 
@@ -85,8 +85,8 @@ Meer gedetailleerde stappen nodig? Zie [Een account toevoegen](https://support.o
   
 [![Schermafbeelding van de pagina Outlook-accountgegevens in de backstageweergave.](../../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx)
   
-## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-office-365"></a>Meerdere postvakken: beheerders kunnen e-mail, contactpersonen en agenda's in bulk importeren in Office 365
+## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-microsoft-365"></a>Meerdere postvakken: beheerders kunnen e-mail, contactpersonen en agenda's in bulk importeren naar Microsoft 365
 
-Afhankelijk van uw brone-mailsysteem u kiezen uit verschillende bulkmigratiemethoden. Lees [Manieren om meerdere e-mailaccounts te migreren naar Office 365](https://support.office.com/article/0a4913fe-60fb-498f-9155-a86516418842) om te bepalen welke methode voor u werkt. 
+Afhankelijk van uw brone-mailsysteem u kiezen uit verschillende bulkmigratiemethoden. Lees [Manieren om meerdere e-mailaccounts te migreren naar Microsoft 365](https://support.office.com/article/0a4913fe-60fb-498f-9155-a86516418842) om te bepalen welke methode voor u werkt. 
   
 

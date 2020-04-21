@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 9b497c85-d0a4-4735-80fa-d3565bc05bd1
 description: Meer informatie over het verwijderen van licenties uit gebruikersaccounts.
-ms.openlocfilehash: 031a29f9e005c5acc2fdf2aa5f24268268d180ab
-ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
+ms.openlocfilehash: e3c6150c2eb228e29bf6fc2b87d90809a7033660
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42808513"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628098"
 ---
 # <a name="unassign-licenses-from-users"></a>Licenties van gebruikers verwijderen
 
@@ -142,7 +142,7 @@ Wanneer u de pagina **Licenties** gebruikt om licenties ongedaan te maken, u lic
 
 ## <a name="what-you-need-to-know-about-unassigning-licenses-for-users"></a>Wat u moet weten over het ontzeggen van licenties voor gebruikers
 
-- U moet een globale beheerder, factureringsbeheerder, licentiebeheerder of gebruikersbeheerder zijn. Zie [Informatie over beheerdersrollen in Office 365](../add-users/about-admin-roles.md) voor meer informatie.
+- U moet een globale beheerder, factureringsbeheerder, licentiebeheerder of beheerder van gebruikersbeheer zijn. Zie [Over Microsoft 365-beheerdersrollen](../add-users/about-admin-roles.md)voor meer informatie .
 
 - U kunt [licenties van gebruikersaccounts intrekken met Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=848428).
 
@@ -152,17 +152,17 @@ Wanneer u de pagina **Licenties** gebruikt om licenties ongedaan te maken, u lic
 
 - Houd er rekening mee dat bestanden die zijn opgeslagen in OneDrive voor Bedrijven niet worden verwijderd, tenzij de gebruiker wordt verwijderd uit het Microsoft 365-beheercentrum of wordt verwijderd via Active Directory-synchronisatie. Zie [OneDrive-retentie en verwijdering voor](https://docs.microsoft.com/onedrive/retention-and-deletion)meer informatie.
 
-- Het postvak van de gebruiker is ook niet langer doorzoekbaar met behulp van een eDiscovery-tool zoals Content Search of Advanced eDiscovery wanneer de licentie wordt verwijderd. Zie de sectie 'Losgekoppeld e-mailboxen zoeken of de licentie', voor meer informatie in [Inhoudzoeken in Office 365](https://docs.microsoft.com/office365/securitycompliance/content-search#searching-disconnected-or-de-licensed-mailboxes).
+- Het postvak van de gebruiker is ook niet langer doorzoekbaar met behulp van een eDiscovery-tool zoals Content Search of Advanced eDiscovery wanneer de licentie wordt verwijderd. Zie de sectie 'Zoeken in losgekoppelde of gedelicenseerde postvakken' in [Content Search in Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/content-search#searching-disconnected-or-de-licensed-mailboxes)voor meer informatie.
 
 - Als u een Enterprise-abonnement hebt, zoals Office 365 Enterprise E3, u met Exchange Online de postvakgegevens van een verwijderd gebruikersaccount bewaren met [inactieve postvakken.](https://docs.microsoft.com/office365/securitycompliance/inactive-mailboxes-in-office-365) Zie [Inactieve postvakken maken en beheren in Exchange Online](https://docs.microsoft.com/office365/securitycompliance/create-and-manage-inactive-mailboxes)voor meer informatie.
 
-- Zie [Een voormalige werknemer](../add-users/remove-former-employee.md)verwijderen voor informatie over het blokkeren van de toegang van een gebruiker tot Office 365-gegevens nadat zijn licentie is verwijderd en hoe u daarna toegang tot de gegevens krijgen.
+- Zie Een [voormalige werknemer](../add-users/remove-former-employee.md)verwijderen voor informatie over het blokkeren van de toegang van een gebruiker tot Microsoft 365-gegevens nadat zijn licentie is verwijderd en hoe u daarna toegang tot de gegevens krijgen.
 
 - Als u de licentie van een gebruiker verwijdert en office nog steeds heeft geïnstalleerd, worden er [geen productmeldingen zonder licentie](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx) weergegeven wanneer deze Office gebruiken.
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Informatie over abonnementen en licenties in Office 365 voor Bedrijven](../../commerce/licenses/subscriptions-and-licenses.md)
+[Inzicht in abonnementen en licenties in Microsoft 365 voor Bedrijven](../../commerce/licenses/subscriptions-and-licenses.md)
 
 [Licenties verwijderen uit uw abonnement](../../commerce/licenses/remove-licenses-from-subscription.md)
 

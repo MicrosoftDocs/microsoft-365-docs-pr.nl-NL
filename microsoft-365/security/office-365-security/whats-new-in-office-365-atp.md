@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 1507a88a37591c43ce612f3c18d946403a85f41f
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: b48f106e500673da0858aa4e190462dd3d01fad1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106182"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630819"
 ---
-# <a name="whats-new-in-office-365-atp"></a>Nieuwe nieuws in Office 365 ATP
+# <a name="whats-new-in-office-365-atp"></a>Nieuw in Office 365 ATP
 
 **Geldt voor:**
 
@@ -44,9 +44,9 @@ In dit artikel worden nieuwe functies weergegeven in de nieuwste versie van Offi
     - Geavanceerde NOT-filters (dit zijn geavanceerde filteropties die geen bevatten, geen omvatten, enz.)
     - Gedetailleerde tijdfilters (dag, uur, half uur) 
 
-- De widget **Incidenten** is nu de widget **Actiecentrum.** (Als u uw beveiligingswidgets wilt bekijken, gaat u in het Office 365 Security & Compliance Center naar **Threat management** > **Review**.)
+- De widget **Incidenten** is nu de widget **Actiecentrum.** (Als u uw beveiligingswidgets wilt bekijken, gaat u in het Security & Compliance Center naar **Threat management** > **Review**.)
 
-- [Veilige documenten in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(voorbeeld)**
+- [Veilige documenten in Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(voorbeeld)**
 
 ## <a name="december-2019"></a>December 2019
 
@@ -60,7 +60,7 @@ In dit artikel worden nieuwe functies weergegeven in de nieuwste versie van Offi
 
 ## <a name="september-2019"></a>September 2019
 
-- [Geautomatiseerde onderzoeks- en reactiemogelijkheden gebruiken in Office 365](automated-investigation-response-office.md) (Office 365 ATP-abonnement 2)
+- [Geautomatiseerde onderzoeks- en reactiemogelijkheden gebruiken](automated-investigation-response-office.md) (Office 365 ATP-abonnement 2)
 
 - [Geautomatiseerde onderzoeks- en reactiegebeurtenissen van Office 365 Management integreren met automatische onderzoeks- en reactiegebeurtenissen van Office 365 Management](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (Office 365 ATP-abonnement 2)
 
@@ -78,7 +78,7 @@ In dit artikel worden nieuwe functies weergegeven in de nieuwste versie van Offi
 
 - [Gegevens over phishing-URL's en klik op vonnis](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) weergeven (Office 365 ATP-abonnement 1 of Abonnement 2)
 
-## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP-abonnement 1 en Abonnement 2
+## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP-abonnement 1 en -abonnement 2
 
 Wist u dat Office 365 ATP beschikbaar is in twee abonnementen? [Meer informatie over wat elk plan bevat.](office-365-atp.md#office-365-atp-plan-1-and-plan-2)
 

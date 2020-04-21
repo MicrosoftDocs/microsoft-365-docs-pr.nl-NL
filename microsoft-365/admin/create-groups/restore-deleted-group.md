@@ -1,5 +1,5 @@
 ---
-title: Een verwijderde Office 365-groep herstellen
+title: Een verwijderde groep herstellen
 ms.reviewer: arvaradh
 f1.keywords: CSH
 ms.author: mikeplum
@@ -18,21 +18,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
-description: Meer informatie over het herstellen van een verwijderde Office 365-groep.
-ms.openlocfilehash: 2efd8c35286d224c6a3ed185043c82ab4b8e954e
-ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
+description: Meer informatie over het herstellen van een verwijderde Microsoft 365-groep.
+ms.openlocfilehash: a0e7aef090528b3fa183fe08f9c4d06c86f94a10
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43547530"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630029"
 ---
-# <a name="restore-a-deleted-office-365-group"></a>Een verwijderde Office 365-groep herstellen
+# <a name="restore-a-deleted-group"></a>Een verwijderde groep herstellen
 
 Als u een groep hebt verwijderd, wordt deze standaard 30 dagen bewaard. Deze periode van 30 dagen wordt beschouwd als een soft-delete omdat u de groep nog steeds herstellen. Na 30 dagen worden de groep en de bijbehorende inhoud definitief verwijderd en kunnen ze niet worden hersteld.
 
 Wanneer een groep wordt hersteld, wordt de volgende inhoud hersteld:
   
-- Office 365-groepen object, eigenschappen en leden (Azure Active Directory (AD).
+- Het object, de eigenschappen en leden van Azure Active Directory (AD) Microsoft 365-groepen.
     
 - de e-mailadressen van de groep.
     
@@ -46,13 +46,14 @@ Wanneer een groep wordt hersteld, wordt de volgende inhoud hersteld:
     
 - Teams
 
-- Yammer-groep en groepsinhoud (Als de Office 365-groep is gemaakt vanuit Yammer)
+- Yammer-groep en groepsinhoud (Als de Microsoft 365-groep is gemaakt vanuit Yammer)
 
 ## <a name="restore-a-group-that-you-own-by-using-outlook"></a>Een groep herstellen waarvan u eigenaar bent met Outlook
 
-Als u de eigenaar bent van een Office 365-groep, u de groep zelf herstellen in Outlook door de volgende stappen te volgen:
+Als u eigenaar bent van een Microsoft 365-groep, u de groep zelf herstellen in Outlook door de volgende stappen te volgen:
 
 1. Selecteer op de [pagina verwijderde groepen](https://outlook.office.com/people/group/deleted)de optie Groepen **beheren** onder het knooppunt **Groepen** en kies **Vervolgens Verwijderd**.
+
 2. Klik op het tabblad **Herstellen** naast de groep die u wilt herstellen.
 
 Als de verwijderde groep hier niet wordt weergegeven, neemt u contact op met een beheerder.
@@ -65,7 +66,7 @@ Als u een globale beheerder of een groepsbeheerder bent, u een verwijderde groep
 2. Groepen **Groups**uitvouwen en vervolgens op **Verwijderde groepen**klikken .
 3. Selecteer de groep die u wilt herstellen en klik op **Groep herstellen**.
   
-## <a name="permanently-delete-an-office-365-group"></a>Een Office 365-groep permanent verwijderen
+## <a name="permanently-delete-a-microsoft-365-group"></a>Een Microsoft 365-groep definitief verwijderen
 
 Soms wilt u een groep permanent zuiveren zonder te wachten tot de periode voor het verwijderen van 30 dagen is verlopen. Hiervoor start u PowerShell en voert u deze opdracht uit om de object-id van de groep op te vragen:
   
@@ -86,13 +87,13 @@ Remove-AzureADMSDeletedDirectoryObject -Id <objectId>
 
 U kunt controleren dat de groep definitief is verwijderd door de cmdlet  *Get-AzureADMSDeletedGroup*  opnieuw uit te voeren en te kijken of de groep niet meer wordt vermeld in de lijst met voorlopig verwijderde groepen. In sommige gevallen duurt het wel 24 uur voordat de groep en alle bijbehorende gegevens permanent zijn verwijderd. 
   
-## <a name="got-questions-about-office-365-groups"></a>Hebt u vragen over Office 365 Groepen?
+## <a name="got-questions-about-microsoft-365-groups"></a>Heb je vragen over Microsoft 365-groepen?
 
-Ga naar de [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) om vragen te plaatsen en deel te nemen aan gesprekken over Office 365-groepen. 
+Ga naar de [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) om vragen te plaatsen en deel te nemen aan gesprekken over Microsoft 365-groepen. 
   
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Manage Office 365 Groups with PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
+[Microsoft 365-groepen beheren met PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
   
 [Delete groups using the Remove-UnifiedGroup cmdlet](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx) (Groepen verwijderen met de cmdlet Remove-UnifiedGroup)
   

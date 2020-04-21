@@ -1,5 +1,5 @@
 ---
-title: Gebruikers individueel of in bulk toevoegen aan Office 365
+title: Gebruikers afzonderlijk of in bulk toevoegen
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -23,17 +23,17 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 1970f7d6-03b5-442f-b385-5880b9c256ec
-description: 'Lees hoe u gebruikers kunt toevoegen aan Office 365, een voor een of meerdere gebruikers tegelijk vanuit een CSV-bestand. '
-ms.openlocfilehash: 708bce2cb5a2c1b6a621bffc3ce56a2744bb518d
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: Meer informatie over het toevoegen van gebruikers aan Microsoft 365, één voor één of meerdere gebruikers tegelijk vanuit een CSV-bestand.
+ms.openlocfilehash: 78e5cf2c3c0148a91d48355881c3aec331213fd5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42806686"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43618858"
 ---
-# <a name="add-users-individually-or-in-bulk-to-office-365"></a>Gebruikers individueel of in bulk toevoegen aan Office 365
+# <a name="add-users-individually-or-in-bulk"></a>Gebruikers afzonderlijk of in bulk toevoegen
 
-De personen in uw team hebben elk een gebruikersaccount nodig voordat ze zich kunnen aanmelden en toegang hebben tot [Office 365 voor Bedrijven](https://go.microsoft.com/fwlink/?LinkID=519395). De eenvoudigste manier om gebruikersaccounts toe te voegen, is om ze één voor één toe te voegen in het Microsoft 365-beheercentrum. Nadat u deze stap hebt uitgevoerd, hebben uw gebruikers Office 365-licenties, aanmeldingsreferenties en Office 365-postvakken.
+De mensen in uw team hebben elk een gebruikersaccount nodig voordat ze zich kunnen aanmelden en toegang hebben tot [Microsoft 365 voor bedrijven.](https://go.microsoft.com/fwlink/?LinkID=519395) De eenvoudigste manier om gebruikersaccounts toe te voegen, is om ze één voor één toe te voegen in het Microsoft 365-beheercentrum. Nadat u deze stap hebt gedaan, hebben uw gebruikers Microsoft 365-licenties, inloggegevens en Microsoft 365-postvakken.
 
 ::: moniker range="o365-worldwide"
 
@@ -48,7 +48,7 @@ De personen in uw team hebben elk een gebruikersaccount nodig voordat ze zich ku
   
 - **Naam** Vul de voor- en achternaam, weergavenaam en gebruikersnaam in. 
     
-- **Domein** Als de gebruikersnaam van de gebruiker bijvoorbeeld Wander is en zijn domein contoso.com, dan zal hij zich aanmelden bij Office 365 met wander@contoso.com. 
+- **Domein** Als de gebruikersnaam van de gebruiker bijvoorbeeld Jakob is en zijn domein contoso.com is, meldt hij zich aan door jakob@contoso.com te typen. 
     
 - **Wachtwoordinstellingen** Kies ervoor om het automatisch gegenereerde wachtwoord te gebruiken of maak zelf een sterk wachtwoord voor de gebruiker aan. 
     
@@ -76,7 +76,7 @@ De personen in uw team hebben elk een gebruikersaccount nodig voordat ze zich ku
   
 - **Naam** Vul de voor- en achternaam, weergavenaam en gebruikersnaam in. 
     
-- **Domein** Als de gebruikersnaam van de gebruiker bijvoorbeeld Wander is en zijn domein contoso.com, dan zal hij zich aanmelden bij Office 365 met wander@contoso.com. 
+- **Domein** Als de gebruikersnaam van de gebruiker bijvoorbeeld Jakob is en zijn domein contoso.com is, meldt hij zich aan door jakob@contoso.com te typen. 
     
 - **Contactgegevens** Vouw deze sectie uit om een mobiel telefoonnummer, adres, enzovoort in te vullen. 
     
@@ -101,7 +101,7 @@ De personen in uw team hebben elk een gebruikersaccount nodig voordat ze zich ku
   
 - **Naam** Vul de voor- en achternaam, weergavenaam en gebruikersnaam in. 
     
-- **Domein** Als de gebruikersnaam van de gebruiker bijvoorbeeld Wander is en zijn domein contoso.com, dan zal hij zich aanmelden bij Office 365 met wander@contoso.com. 
+- **Domein** Als de gebruikersnaam van de gebruiker bijvoorbeeld Jakob is en zijn domein contoso.com is, meldt hij zich aan door jakob@contoso.com te typen. 
     
 - **Contactgegevens** Vouw deze sectie uit om een mobiel telefoonnummer, adres, enzovoort in te vullen. 
     
@@ -115,10 +115,10 @@ De personen in uw team hebben elk een gebruikersaccount nodig voordat ze zich ku
 
 ::: moniker-end 
   
-Nadat u een gebruiker toevoegt, krijgt u een e-mailmelding van het team van Microsoft Online Services. Het e-mailbericht bevat de gebruikers-id en het wachtwoord van de persoon voor Office 365, zodat deze zich kan aanmelden bij Office 365. U moet nieuwe gebruikers nog wel informeren over hun Office 365-aanmeldgegevens. Gebruik het gangbare proces voor het doorgeven van wachtwoorden.
+Nadat u een gebruiker toevoegt, krijgt u een e-mailmelding van het team van Microsoft Online Services. De e-mail bevat de gebruikersnaam en het wachtwoord van de persoon, zodat deze zich kan aanmelden bij Microsoft 365. U moet uw nieuwe gebruiker vertellen over hun Microsoft 365-aanmeldingsgegevens. Gebruik het gangbare proces voor het doorgeven van wachtwoorden.
 
 > [!NOTE]
->Als u gebruikers aanmaakt door postvakken te migreren, moet u Office 365-gebruikersaccounts activeren door licenties toe te wijzen. Als u geen licentie toewijst aan een gebruiker, wordt het postvak uitgeschakeld na een respijtperiode van 30 dagen. Ontdek hoe u [licenties aan gebruikers kunt toewijzen](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) via het Microsoft 365-beheercentrum.
+>Als u gebruikers maakt door e-mailboxen te migreren, moet u gebruikersaccounts activeren door licenties toe te eigenen. Als u geen licentie toewijst aan een gebruiker, wordt het postvak uitgeschakeld na een respijtperiode van 30 dagen. Ontdek hoe u [licenties aan gebruikers kunt toewijzen](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) via het Microsoft 365-beheercentrum.
 
 ### <a name="video-add-and-manage-users-in-the-admin-center"></a>Video: Gebruikers toevoegen en beheren in het beheercentrum
 
@@ -130,7 +130,7 @@ Deel de handleiding [Aan de slag voor werknemers](https://support.office.com/art
   
 ## <a name="need-help"></a>Hulp nodig?
 
-[Neem contact op met de ondersteuning van Office 365 voor Bedrijven](../contact-support-for-business-products.md).  
+[Neem contact op met Microsoft 365 voor zakelijke ondersteuning](../contact-support-for-business-products.md).  
 
 ## <a name="have-hundreds-or-thousands-of-users-to-add"></a>Wilt u honderden of duizenden gebruikers toevoegen?
 
@@ -143,16 +143,15 @@ Volg deze stappen om meerdere gebruikers tegelijkertijd toe te voegen:
     
 - **Gebruikt u ActiveDirectory?** [Adreslijstsynchronisatie voor Office 365 instellen](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization). Gebruik het hulpprogramma Azure Active Directory Connect om Active Directory-gebruikersaccounts (en andere Active Directory-objecten) te repliceren in Office 365. Tijdens de synchronisatie worden alleen de gebruikersaccounts toegevoegd. U zult licenties moeten toewijzen aan de gesynchroniseerde gebruikers voordat ze e-mail en andere Office-apps kunnen gebruiken.
     
-- **Migreert u vanuit Exchange?** [Manieren om meerdere e-mailaccounts naar Office 365 te migreren](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration). Wanneer u meerdere postvakken naar Office 365 wilt migreren met behulp van een cutover-, gefaseerde of een hybride Exchange-methode, voegt u gebruikers automatisch als onderdeel van de migratie toe. Tijdens de migratie worden alleen de gebruikersaccounts toegevoegd. U moet licenties toewijzen aan de gebruikers voordat ze e-mail en andere Office-apps kunnen gebruiken.
+- **Migreert u vanuit Exchange?** [Manieren om meerdere e-mailaccounts naar Office 365 te migreren](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration). Wanneer u meerdere postvakken migreert naar Microsoft 365 met behulp van cutover, gefaseerd of een hybride Exchange-methode, voegt u gebruikers automatisch toe als onderdeel van de migratie. Tijdens de migratie worden alleen de gebruikersaccounts toegevoegd. U moet licenties toewijzen aan de gebruikers voordat ze e-mail en andere Office-apps kunnen gebruiken.
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Een nieuwe werknemer toevoegen aan Office 365](add-new-employee.md)
+[Een nieuwe werknemer toevoegen aan Microsoft 365](add-new-employee.md)
 
 [Een gebruiker uit uw organisatie verwijderen](delete-a-user.md)
 
-[Een gebruiker herstellen in Office 365](restore-user.md)
+[Een gebruiker herstellen in Microsoft 365](restore-user.md)
 
-[Meerdere gebruikers tegelijk toevoegen aan Office 365](https://docs.microsoft.com/office365/enterprise/add-several-users-at-the-same-time)
-
+[Meerdere gebruikers tegelijk toevoegen aan Microsoft 365](https://docs.microsoft.com/office365/enterprise/add-several-users-at-the-same-time)
 

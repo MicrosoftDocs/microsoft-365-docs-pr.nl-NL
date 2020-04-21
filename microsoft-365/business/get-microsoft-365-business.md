@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business ophalen vanuit partnercentrum
+title: Microsoft 365 Business Premium ophalen vanuit partnercentrum
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -23,39 +23,39 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Ontdek uw opties voor de aankoop van Microsoft 365 Business en stapsgewijze instructies voor de aankoop ervan in Microsoft Partner Center.
-ms.openlocfilehash: ccbdb928c0f1268fb7019793b6246eef386daa45
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Ontdek uw opties voor de aankoop van Microsoft 365 Business Premium en stapsgewijze instructies voor de aankoop ervan bij Microsoft Partner Center.
+ms.openlocfilehash: 4247160c87a6a910358d9b740b28dc14747b72a8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42805872"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627228"
 ---
-# <a name="get-microsoft-365-business"></a>Microsoft 365 Business kopen
+# <a name="get-microsoft-365-business-premium"></a>Get Microsoft 365 Business Premium
 
-## <a name="get-microsoft-365-business-from-microsoft"></a>Microsoft 365 Business verkrijgen bij Microsoft
+## <a name="get-microsoft-365-business-premium-from-microsoft"></a>Microsoft 365 Business Premium van Microsoft ophalen
 
-Als u niet met een partner werkt en Microsoft 365 Business wilt kopen, kunt u [contact opnemen met ](https://www.microsoft.com/en-US/microsoft-365/business).
+Als u geen partner hebt en Microsoft 365 Business Premium wilt kopen, u [deze hier kopen.](https://www.microsoft.com/en-US/microsoft-365/business)
 
-Zie [Aanmelden voor Microsoft 365 Business](sign-up.md) voor gedetailleerde instructies.
+Zie [aanmelden voor Microsoft 365 Business Premium](sign-up.md) voor gedetailleerde instructies.
 
-U ook naar een [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) gaan om Microsoft 365 Business te kopen en installatiehulp te krijgen.
+U ook naar een [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) gaan om Microsoft 365 Business Premium te kopen en hulp bij het instellen te krijgen.
   
-## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a>Microsoft 365 Business verkrijgen via Microsoft Partner Center
+## <a name="get-microsoft-365-business-premium-from-microsoft-partner-center"></a>Microsoft 365 Business Premium ophalen bij Microsoft Partner Center
 
 1. Meld u aan bij [Microsoft Partner Center](https://go.microsoft.com/fwlink/p/?linkid=849910) met de referenties die u hebt gemaakt tijdens uw inschrijving bij het CSP-programma (cloudserviceprovider). 
     
-2. Kies in het partnerdashboard **Klanten**en selecteer vervolgens uw klant of voeg een nieuwe klant toe voordat u Microsoft 365 Business krijgt.
+2. Kies op het partnerdashboard **klanten**en selecteer vervolgens uw klant of voeg een nieuwe klant toe voordat u Microsoft 365 Business Premium krijgt.
     
-    ![Voeg in het Microsoft Partner center een klant toe.](../media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
+    ![Voeg in het Microsoft Partner-centrum een klant toe.](../media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
-3. Selecteer op de pagina **Abonnement** van de klant **een abonnement toevoegen**, kies de optie Kleine bedrijven onder Catalogus en kies vervolgens Microsoft **365 Business**.
+3. Selecteer op de pagina **Abonnement** van de klant de optie **Abonnement toevoegen,** kies de optie Kleine bedrijven onder Catalogus en kies **vervolgens Microsoft 365 Business Premium**.
     
     Selecteer het aantal licenties dat u nodig hebt (maximaal 300). Als u meer dan 300 gebruikers hebt, raadpleeg dan [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316). 
     
     ![Kies op de pagina Nieuw abonnement voor kleine bedrijven.](../media/52d99e89-2175-4974-84bb-dd626048541b.png)
   
-    Voer de rest van de stappen uit voor het toevoegen van een nieuwe klant, inclusief de bedrijfsnaam.
+    Voltooi de rest van de stappen voor het toevoegen van een nieuwe klant, inclusief de bedrijfsnaam.
     
 
 

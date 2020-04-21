@@ -24,15 +24,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
-description: Meer informatie over de verschillende apparaatstatussen vindt u in de lijst Apparaatacties in Beheerhuis in Microsoft 365 Business.
-ms.openlocfilehash: bed1610814ca0d60adb4b4b3d0018e3e7e6d763f
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Meer informatie over de verschillende apparaatstatussen in de lijst Apparaatacties in Beheerhuis in Microsoft 365 voor Bedrijven.
+ms.openlocfilehash: 1a66e76dd3a74428923292427b01551db2449e48
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560815"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627241"
 ---
-# <a name="device-states"></a>Statuswaarden voor apparaten
+# <a name="device-states"></a>Apparaatstatussen
 
 Apparaten in de lijst **Apparaatacties** lijst (startpagina beheerders \> **Apparaatacties**) kunnen de volgende statuswaarden hebben.
   
@@ -40,16 +40,16 @@ Apparaten in de lijst **Apparaatacties** lijst (startpagina beheerders \> **Appa
   
 |**Status**|**Beschrijving**|
 |:-----|:-----|
-|Beheerd door Intune  <br/> |Beheerd door Microsoft 365 Business.  <br/> |
-|In afwachting van buiten gebruik stellen  <br/> |Microsoft 365 Business is bezig met de voorbereiding om bedrijfsgegevens van het apparaat te verwijderen.  <br/> |
-|Buitengebruikstelling wordt uitgevoerd  <br/> |Microsoft 365 Business verwijdert momenteel bedrijfsgegevens van het apparaat.  <br/> |
+|Beheerd door Intune  <br/> |Beheerd door Microsoft 365 Business Premium.  <br/> |
+|In afwachting van buiten gebruik stellen  <br/> |Microsoft 365 Business Premium maakt zich klaar om bedrijfsgegevens van het apparaat te verwijderen.  <br/> |
+|Buitengebruikstelling wordt uitgevoerd  <br/> |Microsoft 365 Business Premium verwijdert momenteel bedrijfsgegevens van het apparaat.  <br/> |
 |Buiten gebruik stellen is mislukt  <br/> | Het verwijderen van bedrijfsgegevens is mislukt.  <br/> |
-|Met pensioen geannuleerd  <br/> |De actie voor de pensionering is geannuleerd.  <br/> |
+|Pensioen geannuleerd  <br/> |De actie met pensioen gaan is geannuleerd.  <br/> |
 |Wissen in behandeling  <br/> |Wachten tot de fabrieksinstellingen opnieuw worden ingesteld.  <br/> |
 |Wissen wordt uitgevoerd  <br/> |De fabrieksinstellingen worden opnieuw ingesteld.  <br/> |
-|Wissen is mislukt  <br/> |Kon niet doen fabriek resetten.  <br/> |
-|Veeg geannuleerd  <br/> |Fabrieksdoek werd geannuleerd.  <br/> |
-|Niet in orde  <br/> |Er is een actie in behandeling (of in uitvoering), maar het apparaat is al meer dan 30 dagen niet ingecheckt.  <br/> |
+|Wissen is mislukt  <br/> |Ik kon de fabrieksreset niet doen.  <br/> |
+|Wipe geannuleerd  <br/> |Factory wipe werd geannuleerd.  <br/> |
+|Niet in orde  <br/> |Er is een actie in behandeling (of in uitvoering), maar het apparaat heeft al meer dan 30 dagen niet ingecheckt.  <br/> |
 |In afwachting van verwijderen  <br/> |Het verwijderen is in behandeling.  <br/> |
-|Gedetecteerd  <br/> |Microsoft 365 Business heeft het apparaat gedetecteerd.  <br/> |
+|Gedetecteerd  <br/> |Microsoft 365 Business Premium heeft het apparaat gedetecteerd.  <br/> |
    

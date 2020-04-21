@@ -1,5 +1,5 @@
 ---
-title: Bestandsopslag en -deling voor Office 365 instellen
+title: Bestandsopslag en -deling instellen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -27,24 +27,24 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: Meer informatie over het gebruik van OneDrive en een teamsite voor bestandsopslag en -delen.
-ms.openlocfilehash: 6494207518f919a3d984be7e7932740d82e9ea11
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 56057bc33adaf92a415c443bfb7bf89c10f8d646
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209734"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627556"
 ---
-# <a name="set-up-office-365-file-storage-and-sharing"></a>Bestandsopslag en -deling voor Office 365 instellen
+# <a name="set-up-file-storage-and-sharing"></a>Bestandsopslag en -deling instellen
 
 Een van de beste manieren om bestandsopslag en -delen voor uw bedrijf in te stellen, is door OneDrive en een teamsite samen te gebruiken. Dit is ideaal voor een klein bedrijf met een klein aantal medewerkers.
 
-Bekijk een korte video over waar bestanden in Office 365 moeten worden opgeslagen.<br><br>
+Bekijk een korte video over waar bestanden in Microsoft 365 moeten worden opgeslagen.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
 Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-## <a name="where-you-can-store-documents-in-office-365"></a>Waar u documenten kunt opslaan in Office 365
+## <a name="where-you-can-store-documents-in-microsoft-365"></a>Waar u documenten opslaan in Microsoft 365
 
 - OneDrive is ontworpen voor individueel gebruik, waarbij bestanden af en toe worden gedeeld. 
 
@@ -52,7 +52,7 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
 
 Zowel OneDrive als teamsites bieden overal toegang voor u en uw medewerkers.
   
-![Een diagram met de manier waarop Office 365-producten OneDrive- of Team-sites kunnen gebruiken](../../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
+![Een diagram met de manier waarop Microsoft 365-producten OneDrive- of Team-sites kunnen gebruiken](../../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
   
 Hier volgen aanbevelingen voor wat u op elke locatie moet opslaan wanneer u OneDrive en teamsites samen gebruikt:
   
@@ -60,7 +60,7 @@ Hier volgen aanbevelingen voor wat u op elke locatie moet opslaan wanneer u OneD
 |:-----|:-----|:-----|
 |**Opslaglocatie** <br/> |**Doel** <br/> |**Wat ik hier moet opslaan** <br/> |
 |**OneDrive** <br/> |Het opslaan van inhoud in OneDrive is als het opslaan van bestanden op uw computer; niemand anders kan gemakkelijk toegang tot hen.  <br/> Zie [Wat is OneDrive voor Bedrijven voor](https://support.office.com/article/187f90af-056f-47c0-9656-cc0ddca7fdc2.aspx) meer informatie? <br/> |Bestanden voor uw werk waaraan andere teamleden niet regelmatig hoeven te werken of toegang toe hoeven te hebben.  <br/> |
-|**SharePoint-teamsites** <br/> |Samenwerking. Wanneer u een Office 365-groep maakt (bijvoorbeeld in het Microsoft 365-beheercentrum, in Outlook of door een team in Microsoft Teams te maken), wordt een SharePoint-teamsite voor die groep gemaakt. Wanneer u een nieuwe SharePoint-teamsite maakt vanaf de startpagina van SharePoint of vanuit het nieuwe SharePoint-beheercentrum, wordt er ook een Office 365-groep gemaakt. Zie [Wat is een SharePoint-teamsite voor](https://support.office.com/article/75545757-36c3-46a7-beed-0aaa74f0401e.aspx) meer informatie en Een [teamsite maken in SharePoint Online](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d.aspx).  <br/> |Bestanden die het eigendom hebben gedeeld. We raden afzonderlijke teamsites aan voor elke eenheid werk in uw organisatie. Als u bijvoorbeeld personeel en financiële documenten privé wilt houden voor een klein team, maakt u een aparte teamsite.  <br/> |
+|**SharePoint-teamsites** <br/> |Samenwerking. Wanneer u een Microsoft 365-groep maakt (bijvoorbeeld in het Microsoft 365-beheercentrum, in Outlook of door een team in Microsoft Teams te maken), wordt een SharePoint-teamsite voor die groep gemaakt. Wanneer u een nieuwe SharePoint-teamsite maakt vanaf de startpagina van SharePoint of vanuit het nieuwe SharePoint-beheercentrum, wordt er ook een Microsoft 365-groep gemaakt. Zie [Wat is een SharePoint-teamsite voor](https://support.office.com/article/75545757-36c3-46a7-beed-0aaa74f0401e.aspx) meer informatie en Een [teamsite maken in SharePoint Online](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d.aspx).  <br/> |Bestanden die het eigendom hebben gedeeld. We raden afzonderlijke teamsites aan voor elke eenheid werk in uw organisatie. Als u bijvoorbeeld personeel en financiële documenten privé wilt houden voor een klein team, maakt u een aparte teamsite.  <br/> |
 
 > [!NOTE]
 > SharePoint heeft ook andere soorten sites die u voor uw bedrijf gebruiken. U [communicatiesites](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb.aspx) in uw intranet gebruiken om informatie te publiceren voor een breed publiek. En u [hubsites](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f.aspx) gebruiken om sites in uw intranet met elkaar te verbinden.
@@ -69,13 +69,13 @@ Hier volgen aanbevelingen voor wat u op elke locatie moet opslaan wanneer u OneD
 
 ### <a name="team-members-can-store-their-own-files-in-onedrive"></a>Teamleden kunnen hun eigen bestanden opslaan in OneDrive
 
-Elke persoon in uw bedrijf die een Office 365-licentie heeft toegewezen (en SharePoint Online geselecteerd) krijgt OneDrive-cloudopslag. Ze kunnen hier bedrijfsgerelateerde bestanden opslaan voor toegang vanaf elk apparaat, en ze zijn alleen beschikbaar voor die gebruiker. Ze kunnen hier bijvoorbeeld een conceptversie van een offerte, hun vergadernotities of een script opslaan voor een demo die ze gaan geven.
+Elke persoon in uw bedrijf die een Microsoft 365-licentie heeft toegewezen (en SharePoint Online geselecteerd) krijgt OneDrive-cloudopslag. Ze kunnen hier bedrijfsgerelateerde bestanden opslaan voor toegang vanaf elk apparaat, en ze zijn alleen beschikbaar voor die gebruiker. Ze kunnen hier bijvoorbeeld een conceptversie van een offerte, hun vergadernotities of een script opslaan voor een demo die ze gaan geven.
   
 Medewerkers kunnen ook OneDrive-bestanden en -mappen delen. Als een werknemer afwezig is of het bedrijf verlaat, hebben anderen toegang tot gedeelde bestanden die zijn opgeslagen in OneDrive.
   
 Zo kan elke persoon in uw team OneDrive instellen en bestanden delen.
 
-1. Ga naar de <a href="https://portal.office.com/ " target="_blank">Office 365-portal</a>en meld u aan met uw gebruikersnaam en wachtwoord.
+1. Ga naar de <a href="https://portal.office.com/ " target="_blank">Microsoft 365 Portal</a>en meld u aan met uw gebruikersnaam en wachtwoord.
 
 2. Selecteer **OneDrive**in het startprogramma voor apps .
 
@@ -107,7 +107,7 @@ Dit zijn de stappen om bestanden toe te voegen:
   
 1. Kies **Documenten op** de startpagina van uw teamsite in het navigatiemenu aan de linkerkant. Dit brengt u naar uw **documentbibliotheek**.
   
-2. Terwijl u nog steeds bent aangemeld bij Office 365, opent u Windows **Verkenner** vanaf uw taakbalk of andere locatie. Ga naar de bestanden die u wilt uploaden naar uw teamsite.
+2. Terwijl u nog steeds bent aangemeld bij Microsoft 365, opent u Windows **Verkenner** vanaf uw taakbalk of andere locatie. Ga naar de bestanden die u wilt uploaden naar uw teamsite.
 
 3. Selecteer de bestanden die u naar uw teamsite wilt uploaden en sleep ze vervolgens naar de **documentbibliotheek.**
   
@@ -166,7 +166,7 @@ Hier volgen een paar tips om het meeste uit OneDrive of uw SharePoint-teamsite t
 
 Wanneer u een bestand opslaat in OneDrive, is het alleen toegankelijk voor u, tenzij u het deelt met anderen. Wanneer u bestanden deelt, u ervoor kiezen om een koppeling te maken die kan worden doorgestuurd of om alleen met specifieke personen te delen. U kunt ook afzonderlijke mappen in OneDrive maken voor verschillende doeleinden, zoals openbare, persoonlijke of afzonderlijke projecten. Elke map kan met een andere persoon of groep worden gedeeld, of met helemaal niemand.
   
-Zie Bestanden en mappen [delen met Office 365](https://support.office.com/article/72f26d6c-bf9e-432c-8b96-e3c2437f5b65.aspx)voor meer informatie over delen.
+Zie Bestanden en mappen [delen met Microsoft 365](https://support.office.com/article/72f26d6c-bf9e-432c-8b96-e3c2437f5b65.aspx)voor meer informatie over delen.
   
 ### <a name="track-how-much-space-you-have-left"></a>Controleren hoeveel opslagruimte u nog hebt
 
@@ -178,7 +178,7 @@ Hoewel u bijna alle soorten bestanden uploaden, zijn sommige bestandsnamen en te
   
 ### <a name="enable-or-disable-third-party-storage-services"></a>Opslagservices van derden in- of uitschakelen
 
-U opslag van derden inschakelen voor uw gebruikers in Office 365, zodat ze documenten kunnen opslaan en delen met services zoals Dropbox, naast OneDrive en teamsites. Dit is een uitstekende manier om services te bieden die gebruikers mogelijk al gebruiken of liever gebruiken voor zakelijke projecten. Als u niet wilt dat mensen in uw organisatie Office gebruiken om bestanden in een service van derden te openen, voert u deze stappen uit om deze uit te schakelen.
+U opslag van derden inschakelen voor uw gebruikers in Microsoft 365, zodat ze documenten kunnen opslaan en delen met behulp van services zoals Dropbox, naast OneDrive en teamsites. Dit is een uitstekende manier om services te bieden die gebruikers mogelijk al gebruiken of liever gebruiken voor zakelijke projecten. Als u niet wilt dat mensen in uw organisatie Office gebruiken om bestanden in een service van derden te openen, voert u deze stappen uit om deze uit te schakelen.
   
 > [!IMPORTANT]
 > Opslag van derden is standaard ingeschakeld, dus u moet deze stappen meteen uitvoeren als u deze niet beschikbaar wilt hebben voor uw gebruikers.
@@ -197,8 +197,8 @@ U opslag van derden inschakelen voor uw gebruikers in Office 365, zodat ze docum
 
 - **Office-apps instellen voor uw tablets en telefoons**. U moet dit doen, zodat u bestanden **bewerken** die zijn opgeslagen in OneDrive en op teamsites vanaf uw tablet of telefoon. Als u de Office-apps niet voor uw tablet of telefoon installeert, u de bestanden bekijken, maar niet bewerken.
 
-  - [Office installeren en instellen op een Android met Office 365](https://support.office.com/article/cafe9d6f-8b0c-4b03-b20a-12438a82a22d.aspx)
+  - [Office installeren en instellen op een Android met Microsoft 365](https://support.office.com/article/cafe9d6f-8b0c-4b03-b20a-12438a82a22d.aspx)
 
-  - [Office installeren en instellen op een iPhone of iPad met Office 365](https://support.office.com/article/9df6d10c-7281-4671-8666-6ca8e339b628.aspx)
+  - [Office installeren en instellen op een iPhone of iPad met Microsoft 365](https://support.office.com/article/9df6d10c-7281-4671-8666-6ca8e339b628.aspx)
 
-  - [Office instellen op een Windows Phone met Office 365](https://support.office.com/article/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7.aspx)
+  - [Office instellen op Windows Phone met Microsoft 365](https://support.office.com/article/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7.aspx)

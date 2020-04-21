@@ -1,5 +1,5 @@
 ---
-title: Meer gebruikers toevoegen aan Microsoft 365 Business
+title: Meer gebruikers toevoegen
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -25,15 +25,15 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
-description: Lees de stappen om eenvoudig nieuwe gebruikers toe te voegen, hun apparaten te beveiligen en rollen toe te wijzen in Microsoft 365 Business.
-ms.openlocfilehash: 8181254aa56345e99e648c59474f4d7f8fa94990
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Lees de stappen om eenvoudig nieuwe gebruikers toe te voegen, hun apparaten te beveiligen en rollen toe te wijzen in Microsoft 365 Business Premium.
+ms.openlocfilehash: d57f7470d53a6c80e04872726c634f67f091fb0d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561555"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627469"
 ---
-# <a name="add-more-users-to-microsoft-365-business"></a>Meer gebruikers toevoegen aan Microsoft 365 Business
+# <a name="add-more-users"></a>Meer gebruikers toevoegen
 
 ## <a name="add-new-users"></a>Nieuwe gebruikers toevoegen
 
@@ -43,20 +43,20 @@ Bekijk een korte video over het toevoegen van een gebruiker. <br><br>
 
 Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-Een gebruiker toevoegen:
+Ga als lid op de andere dag als lid:
 
 1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
-2. Kies **gebruikers** \> **actieve gebruikers**in het linkernavigatiedeelvenster.
+2. Kies **gebruikers** \> **in**het linkernavigatiedeelvenster in het linkernavigatiedeelvenster .
 3. Kies op de pagina **Actieve gebruikers** de optie Een **gebruiker toevoegen**.
-4. Typ in het **deelvenster Nieuw** de vereiste informatie. 
+4. Typ in het deelvenster **Nieuwe gebruiker** de vereiste informatie. 
   
     U meer informatie invoeren onder **Contactgegevens,** kiezen hoe u het wachtwoord instelt onder **Wachtwoordinstelling** en rollen toewijzen onder **Rollen**.
       
     ![Enter user information in the New user card](../media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
       
-    Stel in de sectie Productlicenties de productlicentie-instelling **van Microsoft 365 in** op **Aan.**
+    Stel in de sectie Productlicenties de microsoft **365 Business** Premium-productlicentieinstelling in **op Aan**.
       
     ![Set the license setting to On position](../media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
   
-Zie Gebruikers individueel of [in bulk](https://docs.microsoft.com/office365/admin/add-users/add-users)toevoegen voor meer informatie over het toevoegen van gebruikers.
+Zie Gebruikers afzonderlijk of [in bulk toevoegen](https://docs.microsoft.com/office365/admin/add-users/add-users)voor meer informatie over het toevoegen van gebruikers.
   

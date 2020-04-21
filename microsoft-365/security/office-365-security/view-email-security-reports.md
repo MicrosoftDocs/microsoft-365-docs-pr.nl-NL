@@ -17,16 +17,16 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het vinden en gebruiken van e-mailbeveiligingsrapporten voor uw organisatie. E-mailbeveiligingsrapporten zijn beschikbaar in het Security & Compliance Center.
-ms.openlocfilehash: d99186e4f3a2831eb794d31a33fa4d56af2cc7a4
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: b65dd6479262b97f08e34420d9a88ee2a327a73b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43529071"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631083"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
-Er zijn verschillende rapporten beschikbaar in het [Security & Compliance Center](https://protection.office.com) om u te helpen zien hoe e-mailbeveiligingsfuncties, zoals antispam, anti-malware en versleutelingsfuncties in Office 365 uw organisatie beschermen. Als u over de [benodigde machtigingen](#what-permissions-are-needed-to-view-these-reports)beschikt, u deze rapporten bekijken in het Security & Compliance Center door naar **het dashboard rapporten** \> **Dashboard**te gaan.
+Er zijn verschillende rapporten beschikbaar in het [Security & Compliance Center](https://protection.office.com) om u te helpen zien hoe e-mailbeveiligingsfuncties, zoals antispam, anti-malware en versleutelingsfuncties in Microsoft 365, uw organisatie beschermen. Als u over de [benodigde machtigingen](#what-permissions-are-needed-to-view-these-reports)beschikt, u deze rapporten bekijken in het Security & Compliance Center door naar **het dashboard rapporten** \> **Dashboard**te gaan.
 
 ![Rapporten dashboard in het Security & Compliance Center](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
@@ -69,7 +69,7 @@ In dit rapport worden geen gegevens van klikken van gebruikers waarop het toegep
 
 In dit rapport, dat beschikbaar is voor iedereen met Exchange Online Protection, wordt het aantal gebruikersaccounts weergegeven dat is gemarkeerd als verdachte of beperkte gebruikers, gegevens die bijzonder nuttig zijn omdat accounts een van de statussen invoeren die aangeven dat het gebruikersaccount problematisch kan zijn of zelfs gecompromitteerd. Bij veelvuldig gebruik kan het rapport Gecompromitteerde gebruiker pieken en zelfs trends herkennen in accounts die zijn gemarkeerd in verdachte of beperkte toestanden, waardoor er een probleem kan zijn met de beveiliging en het welzijn van uw tenant.
 
-![Het rapport van gecompromitteerde gebruikers zoals het wordt weergegeven in Office 365.](../../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
+![De gecompromitteerde gebruikers rapport zoals het wordt weergegeven in Microsoft 365.](../../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
 
 ## <a name="encryption-report"></a>Versleutelingsrapport
 
@@ -91,9 +91,9 @@ En u het menu Gegevens per menu **weergeven** gebruiken om de weergave te wijzig
 
 ![Gegevens per menu voor versleutelingsrapportweerweergave](../../media/encryptionreport-viewdataby.png)
 
-Met de flexibiliteit van het nieuwe versleutelingsrapport u trends bekijken en passende acties ondernemen. Als u bijvoorbeeld een groot aantal e-mailberichten ziet die door gebruikers zijn versleuteld, u een versleutelingsbeleid toevoegen om versleuteling voor bepaalde use cases te automatiseren. (Zie Regels voor [e-mailstroom definiëren om e-mailberichten in Office 365 te versleutelen](../../compliance/define-mail-flow-rules-to-encrypt-email.md).) Als een ander voorbeeld, als u een aantal encryptiesjablonen beschikbaar hebt, maar niemand ze gebruikt, u onderzoeken of gebruikers training nodig hebben voor die functie.
+Met de flexibiliteit van het nieuwe versleutelingsrapport u trends bekijken en passende acties ondernemen. Als u bijvoorbeeld een groot aantal e-mailberichten ziet die door gebruikers zijn versleuteld, u een versleutelingsbeleid toevoegen om versleuteling voor bepaalde use cases te automatiseren. (Zie Regels voor [e-mailstroom definiëren om e-mailberichten in Microsoft 365 te versleutelen](../../compliance/define-mail-flow-rules-to-encrypt-email.md).) Als een ander voorbeeld, als u een aantal encryptiesjablonen beschikbaar hebt, maar niemand ze gebruikt, u onderzoeken of gebruikers training nodig hebben voor die functie.
 
-Met dit rapport kan het beveiligings- en complianceteam van uw organisatie controleren hoe berichtversleuteling wordt gebruikt en of er verdere acties nodig zijn. Zie [E-mailversleuteling in Office 365](../../compliance/email-encryption.md)voor meer informatie over versleuteling.
+Met dit rapport kan het beveiligings- en complianceteam van uw organisatie controleren hoe berichtversleuteling wordt gebruikt en of er verdere acties nodig zijn. Zie [E-mailversleuteling in Microsoft 365](../../compliance/email-encryption.md)voor meer informatie over versleuteling.
 
 ## <a name="threat-protection-status-report"></a>Statusrapport risicobeveiliging
 
@@ -170,7 +170,7 @@ Als u dit rapport wilt bekijken, gaat u in het [Beveiligings& Compliance Center]
 
 Wanneer u meer dan een dag in de grafiek zweeft, u zien hoeveel spoof-e-mailberichten zijn binnengekomen.
 
-Klik (of tik) op het rapport om het te openen in een nieuw browservenster, waar u een meer gedetailleerde weergave van het rapport krijgen. Zie [Anti-spoofing beveiliging in Office 365](anti-spoofing-protection.md)voor meer informatie over antispoofbeveiliging.
+Klik (of tik) op het rapport om het te openen in een nieuw browservenster, waar u een meer gedetailleerde weergave van het rapport krijgen. Zie [Anti-spoofing bescherming in Microsoft 365](anti-spoofing-protection.md)voor meer informatie over antispoofbeveiliging.
 
 ## <a name="spam-detections-report"></a>Spam detecties rapport
 
@@ -208,7 +208,7 @@ Onder de grafiek ziet u een lijst met e-mailcategorieën, zoals **GoodMail**, **
 
 ![Dit rapport vertelt u over anti-malware, anti-spam en andere berichtdetecties](../../media/9ea4b606-f27a-46ee-97a7-be018e2b839c.png)
 
-Zie Mail flow intelligence [in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/mail-flow-intelligence-in-office-365)voor meer informatie over e-mailinformatie.
+Zie Mail flow intelligence [in Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/mail-flow-intelligence-in-office-365)voor meer informatie over e-mailinformatie.
 
 ## <a name="user-reported-messages-report"></a>Rapport met door de gebruiker gerapporteerde berichten
 
@@ -227,7 +227,7 @@ Ga als volgt te werk om dit rapport in het [Security & Compliance Center](https:
 ![Kies in het Security & \> Compliance \> Center de optie Gerapporteerde berichten van gebruikerscontrole van het risicobeheer](../../media/e372c57c-1414-4616-957b-bc933b8c8711.png)
 
 > [!IMPORTANT]
-> Als het rapport Met meldingen van door de gebruiker gerapporteerde berichten correct kan werken, **moet controlelogboekregistratie zijn ingeschakeld** voor uw Office 365-omgeving. Dit wordt meestal gedaan door iemand die de rol Controlelogboeken heeft toegewezen in Exchange Online. Voor meer informatie, zie [Auditlogboeken zoeken in Office 365 in- of uitschakelen](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off).
+> Als het rapport Met meldingen van door de gebruiker gerapporteerde berichten correct kan werken, **moet controlelogboekregistratie zijn ingeschakeld** voor uw Office 365-omgeving. Dit wordt meestal gedaan door iemand die de rol Controlelogboeken heeft toegewezen in Exchange Online. Zie [Microsoft 365-controlelogboekzoeken in- of uitschakelen](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)voor meer informatie.
 
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>Welke machtigingen zijn nodig om deze rapporten te bekijken?
 
@@ -243,19 +243,19 @@ Als u de in dit artikel beschreven rapporten wilt bekijken en gebruiken, **moet 
 
 Zie de volgende bronnen voor meer informatie:
 
-- [Machtigingen in het Office 365 Security & Compliance Center](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)
-
+- [Rapporten in het beveiligings- en compliancecentrum](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)
+ 
 - [Functiemachtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>Wat gebeurt er als de rapporten geen gegevens weergeven?
 
-Als u geen gegevens in uw rapporten ziet, controleert u of uw beleid correct is ingesteld. Zie [Beschermen tegen bedreigingen in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)voor meer informatie.
+Als u geen gegevens in uw rapporten ziet, controleert u of uw beleid correct is ingesteld. Zie [Beschermen tegen bedreigingen in Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)voor meer informatie.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Beveiliging tegen spam in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection)
+[Microsoft 365 E-mail anti-spam bescherming](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection)
 
-[Rapporten en inzichten in het Office 365 Security & Compliance Center](https://docs.microsoft.com/microsoft-365/security/office-365-security/reports-and-insights-in-security-and-compliance)
+[Rapporten en inzichten in het Security & Compliance Center](https://docs.microsoft.com/microsoft-365/security/office-365-security/reports-and-insights-in-security-and-compliance)
 
 [Een planning maken voor een rapport in het Security & Compliance Center](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-a-schedule-for-a-report)
 

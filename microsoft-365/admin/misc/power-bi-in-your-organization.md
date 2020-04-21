@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: d7941332-8aec-4e5e-87e8-92073ce73dc5
 ROBOTS: NOINDEX
 description: Meer informatie over Power BI en hoe gebruikers in uw organisatie deze business analytics-service kunnen gebruiken.
-ms.openlocfilehash: 4d89594812486d06629d614ab0c59fba09dcdad8
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 3cf0c96534b6d8d02ef89f430ae246c6f32ac356
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42812169"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627810"
 ---
 # <a name="power-bi-in-your-organization"></a>Power BI in uw organisatie
 
@@ -47,30 +47,30 @@ Bovendien kunnen individuele gebruikers in uw organisatie zich registreren voor 
 
 Er zijn drie scenario's die van toepassing kunnen zijn op gebruikers in uw organisatie:
   
-### <a name="scenario-1-your-organization-already-has-an-existing-office-365-environment-and-the-user-signing-up-for-power-bi-already-has-an-office-365-account"></a>Scenario 1: Uw organisatie beschikt al over een Office 365-omgeving en de gebruiker die zich registreert voor Power BI heeft al een Office 365-account.
+### <a name="scenario-1-your-organization-already-has-an-existing-microsoft-365-environment-and-the-user-signing-up-for-power-bi-already-has-an-microsoft-365-account"></a>Scenario 1: Uw organisatie heeft al een bestaande Microsoft 365-omgeving en de gebruiker die zich aanmeldt voor Power BI heeft al een Microsoft 365-account.
 
 Als een gebruiker in dit scenario al een werk- of schoolaccount in de tenant heeft (bijvoorbeeld contoso.com) maar nog niet over Power BI beschikt, activeert Microsoft het abonnement voor dat account en wordt de gebruiker automatisch geïnformeerd over het gebruik van de Power BI-service.
   
-### <a name="scenario-2-your-organization-has-an-existing-office-365-environment-and-the-user-signing-up-for-power-bi-doesnt-have-an-office-365-account"></a>Scenario 2: Uw organisatie heeft al een Office 365-omgeving en de gebruiker die zich registreert voor Power BI heeft nog geen Office 365-account.
+### <a name="scenario-2-your-organization-has-an-existing-microsoft-365-environment-and-the-user-signing-up-for-power-bi-doesnt-have-an-microsoft-365-account"></a>Scenario 2: Uw organisatie heeft een bestaande Microsoft 365-omgeving en de gebruiker die zich aanmeldt voor Power BI heeft geen Microsoft 365-account.
 
-In dit scenario heeft de gebruiker een e-mailadres in het domein van uw organisatie (bijvoorbeeld contoso.com), maar nog geen Office 365-account. In dit geval kan de gebruiker zich registreren voor Power BI en krijgt hij of zij automatisch een account. Hiermee krijgt de gebruiker toegang tot de Power BI-service. Als bijvoorbeeld een werknemer met de naam Kylie haar zakelijke e-mailadres (bijvoorbeeld Kylie@contoso.com) gebruikt voor registratie, voegt Microsoft Kylie automatisch als gebruiker toe aan de Office 365-omgeving van Contoso en wordt Power BI voor dat account geactiveerd.
+In dit scenario heeft de gebruiker een e-mailadres in het domein van uw organisatie (bijvoorbeeld contoso.com), maar heeft hij nog geen Microsoft 365-account. In dit geval kan de gebruiker zich registreren voor Power BI en krijgt hij of zij automatisch een account. Hiermee krijgt de gebruiker toegang tot de Power BI-service. Als een werknemer met de naam Nancy bijvoorbeeld haar werke-mailadres (bijvoorbeeld Nancy@contoso.com) gebruikt om zich aan te melden, voegt Microsoft Nancy automatisch toe als gebruiker in de Contoso Microsoft 365-omgeving en activeert microsoft Power BI voor dat account.
   
-### <a name="scenario-3-your-organization-does-not-have-an-office-365-environment-connected-to-your-email-domain"></a>Scenario 3: Uw organisatie beschikt niet over een Office 365-omgeving die aan uw e-maildomein is gekoppeld.
+### <a name="scenario-3-your-organization-does-not-have-a-microsoft-365-environment-connected-to-your-email-domain"></a>Scenario 3: Uw organisatie heeft geen Microsoft 365-omgeving die is gekoppeld aan uw e-maildomein.
 
 Uw organisatie hoeft geen beheerdersacties te ondernemen om gebruik te kunnen maken van Power BI.
   
 > [!IMPORTANT]
-> Als uw organisatie meerdere e-maildomeinen heeft en u de voorkeur geeft aan alle extensies voor e-mailadressen die in dezelfde tenant zitten, voegt u voordat gebruikers uw primaire tenant maken alle e-mailadresdomeinen toe aan die tenant voordat gebruikers uw primaire tenant maken. Er is geen geautomatiseerd mechanisme om gebruikers over tenants te verplaatsen nadat ze zijn gemaakt. Zie Als ik meerdere [domeinen heb, kan ik de Office 365-tenant beheren waaraan gebruikers worden toegevoegd?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to) Later in dit artikel en [Een domein toevoegen aan Office 365](../setup/add-domain.md) online? 
+> Als uw organisatie meerdere e-maildomeinen heeft en u de voorkeur geeft aan alle extensies voor e-mailadressen die in dezelfde tenant zitten, voegt u voordat gebruikers uw primaire tenant maken alle e-mailadresdomeinen toe aan die tenant voordat gebruikers uw primaire tenant maken. Er is geen geautomatiseerd mechanisme om gebruikers over tenants te verplaatsen nadat ze zijn gemaakt. Zie Als ik meerdere [domeinen heb, kan ik de tenant beheren waaraan gebruikers worden toegevoegd?](#if-i-have-multiple-domains-can-i-control-the-tenant-that-users-are-added-to) [Add a domain to Office 365](../setup/add-domain.md) 
   
 ## <a name="how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today"></a>Hoe verandert dit de manier waarop ik nu identiteiten beheer voor gebruikers in mijn organisatie?
 
-Als uw organisatie al een Office 365-omgeving heeft en alle gebruikers in uw organisatie een Office 365-account hebben, verandert identiteitsbeheer niet.
+Als uw organisatie al een bestaande Microsoft 365-omgeving heeft en alle gebruikers in uw organisatie Microsoft 365-accounts hebben, wordt identiteitsbeheer niet gewijzigd.
   
-Als uw organisatie al een Office 365-omgeving heeft, maar niet alle gebruikers in uw organisatie hebben een Office 365-account, wordt er een gebruiker in de tenant gemaakt en worden licenties toegewezen op basis van het werk- of school-e-mailadres. Dit betekent dat het aantal gebruikers dat u op een willekeurig moment beheert, toeneemt naarmate er zich meer gebruikers in uw organisatie voor de service registreren.
+Als uw organisatie al een bestaande Microsoft 365-omgeving heeft, maar niet alle gebruikers in uw organisatie Microsoft 365-accounts hebben, maken we een gebruiker in de tenant en wijzen we licenties toe op basis van het werk- of schoole-mailadres van de gebruiker. Dit betekent dat het aantal gebruikers dat u op een willekeurig moment beheert, toeneemt naarmate er zich meer gebruikers in uw organisatie voor de service registreren.
   
 Als u uw map lokaal beheert en Active Directory Federation Services (ADFS) gebruikt, worden er geen gebruikers aan uw tenant toegevoegd. Gebruikers die aan de tenant proberen deel te nemen, ontvangen een bericht om contact op te nemen met de beheerder van de organisatie.
   
-Als uw organisatie niet over een Office 365-omgeving beschikt die is verbonden met uw e-maildomein, verandert er niets aan de manier waarop u identiteiten beheert. Gebruikers worden toegevoegd aan een nieuwe gebruikerslijst die alleen in de cloud wordt gebruikt en u hebt als tenantbeheerder de mogelijkheid het beheer over de studenten over te nemen.
+Als uw organisatie geen Microsoft 365-omgeving heeft die is gekoppeld aan uw e-maildomein, verandert de manier waarop u de identiteit beheert niet. Gebruikers worden toegevoegd aan een nieuwe gebruikerslijst die alleen in de cloud wordt gebruikt en u hebt als tenantbeheerder de mogelijkheid het beheer over de studenten over te nemen.
   
 ## <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Wat is het proces voor het beheren van een tenant die Microsoft voor mijn gebruikers heeft gemaakt?
 
@@ -102,14 +102,14 @@ Als een tenant door Microsoft is gemaakt, kunt u deze tenant claimen en beheren 
     
 4. Selecteer het pictogram voor het startprogramma voor apps in de linkerbovenhoek en kies **Beheer**.
     
-    ![The Office 365 app launcher with the Admin app highlighted](../../media/4eea9dbc-591b-48be-9916-322d41c6525b.png)
+    ![Startprogramma voor apps met de gemarkeerde app Beheerder](../../media/4eea9dbc-591b-48be-9916-322d41c6525b.png)
   
 5. Lees de instructies op de **pagina Word de beheerder** en selecteer **Ja, ik wil de beheerder zijn.**
     
     > [!NOTE]
     >  Als deze optie niet wordt weergegeven, is er al een beheerder aanwezig. 
   
-## <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Kan ik, als ik meerdere domeinen heb, de Office 365-tenant beheren waaraan gebruikers worden toegevoegd?
+## <a name="if-i-have-multiple-domains-can-i-control-the-tenant-that-users-are-added-to"></a>Als ik meerdere domeinen heb, kan ik dan de tenant beheren waaraan gebruikers worden toegevoegd?
 
 Als u niets doet, wordt er een tenant gemaakt voor het e-maildomein en subdomein van elke gebruiker.
   
@@ -118,18 +118,18 @@ Ga als volgt te werk als u alle gebruikers in dezelfde tenant wilt onderbrengen,
 - Maak vooraf een doeltenant of gebruik een bestaande tenant en voeg alle bestaande domeinen en subdomeinen toe die u binnen die tenant wilt vastleggen. Alle gebruikers met een e-mailadres dat eindigt op een dergelijk domein en subdomein, nemen dan bij registratie automatisch deel aan de doeltenant.
     
 > [!IMPORTANT]
-> Er is geen ondersteund automatisch mechanisme om gebruikers te verplaatsen tussen tenants nadat deze zijn gemaakt. Zie [Een domein toevoegen aan Office 365](../setup/add-domain.md)voor meer informatie over het toevoegen van domeinen aan één Office 365-tenant. 
+> Er is geen ondersteund automatisch mechanisme om gebruikers te verplaatsen tussen tenants nadat deze zijn gemaakt. Zie [Een domein toevoegen aan Office 365](../setup/add-domain.md)voor meer informatie over het toevoegen van domeinen aan één Microsoft 365-tenant. 
   
 > [!IMPORTANT]
 > Zie [Wat is Power BI-beheer voor](https://docs.microsoft.com/power-bi/service-admin-administering-power-bi-in-your-organization)meer informatie en richtlijnen over het beheren van huurders? 
   
-## <a name="how-can-i-prevent-users-from-joining-my-existing-office-365-tenant"></a>Hoe kan ik voorkomen dat gebruikers deelnemen aan mijn bestaande Office 365-tenant?
+## <a name="how-can-i-prevent-users-from-joining-my-existing-tenant"></a>Hoe kan ik voorkomen dat gebruikers lid worden van mijn bestaande tenant?
 
-Er zijn stappen die u als beheerder nemen om te voorkomen dat gebruikers lid worden van uw bestaande Office 365-tenant. Als u dit blokkeert, mislukken de pogingen van gebruikers om zich aan te melden en worden ze doorverwezen om contact op te nemen met de beheerder van hun organisatie. U hoeft dit proces niet te herhalen als u de automatische licentiedistributie al eerder hebt uitgeschakeld (bijvoorbeeld Office 365 Education for Students, Faculty en Staff).
+Er zijn stappen die u als beheerder nemen om te voorkomen dat gebruikers lid worden van uw bestaande tenant. Als u dit blokkeert, mislukken de pogingen van gebruikers om zich aan te melden en worden ze doorverwezen om contact op te nemen met de beheerder van hun organisatie. U hoeft dit proces niet te herhalen als u de automatische licentiedistributie al eerder hebt uitgeschakeld (bijvoorbeeld Office 365 Education for Students, Faculty en Staff).
   
 Voor deze stappen is het gebruik van Windows PowerShell vereist. Raadpleeg de [handleiding Aan de slag met PowerShell](https://go.microsoft.com/fwlink/p/?LinkID=286814) als u aan de slag wilt met Windows PowerShell.
   
-Als u de volgende stappen wilt uitvoeren, moet u de meest recente 64-bits versie van [Azure Active Directory-module voor Windows PowerShell](https://www.powershellgallery.com/packages/AzureADPreview/2.0.2.5) installeren.
+Als u de volgende stappen wilt uitvoeren, moet u de nieuwste 64-bits versie van de [Azure Active Directory V2 PowerShell-module](https://www.powershellgallery.com/packages/AzureADPreview/2.0.2.5)installeren.
   
 Nadat u de koppeling hebt geselecteerd, selecteert u **Uitvoeren** om het installatiepakket uit te voeren. 
   
@@ -142,7 +142,7 @@ Ga als volgt te werk als u automatische deelname van nieuwe gebruikers aan de te
 > [!NOTE]
 > Met deze blokkering kunnen nieuwe gebruikers in uw organisatie zich aanmelden voor Power BI. Gebruikers die zich aanmelden voor Power BI voordat ze nieuwe aanmeldingen voor uw organisatie uitschakelen, behouden hun licenties nog steeds. Zie [hoe verwijder ik Power BI voor gebruikers die zich al hebben aangemeld?](#how-do-i-remove-power-bi-for-users-that-already-signed-up) 
   
-## <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>Hoe kan ik gebruikers toestaan deel te nemen aan mijn bestaande Office 365-tenant?
+## <a name="how-can-i-allow-users-to-join-my-existing-tenant"></a>Hoe kan ik gebruikers toestaan lid te worden van mijn bestaande tenant?
 
 Als u wilt dat gebruikers kunnen deelnemen aan de tenant, voert u de tegenovergestelde opdracht uit zoals is beschreven in de bovenstaande vraag:  `Set-MsolCompanySettings -AllowEmailVerifiedUsers $true`
   
@@ -226,7 +226,7 @@ U kunt meer aanvragen verwachten voor het opnieuw instellen van wachtwoorden. Zi
   
 U een gebruiker uit uw tenant verwijderen via het standaardproces in het beheercentrum. Als de gebruiker echter nog steeds een actief e-mailadres van uw organisatie heeft, kan die gebruiker opnieuw deelnemen tenzij u alle gebruikers hebt geblokkeerd.
   
-## <a name="why-did-1-million-licenses-for-microsoft-power-bi-show-up-in-my-office-365-tenant"></a>Waarom verschenen er 1 miljoen licenties voor Microsoft Power BI in mijn Office 365-tenant?
+## <a name="why-did-1-million-licenses-for-microsoft-power-bi-show-up-in-my-tenant"></a>Waarom zijn er 1 miljoen licenties voor Microsoft Power BI weergegeven in mijn tenant?
 
 Uw organisatie is een in aanmerking komende organisatie en daarom kunnen gebruikers in uw organisatie de Microsoft Power BI-service gebruiken. Deze licenties geven de beschikbare capaciteit voor nieuwe Power BI-gebruikers in uw tenant aan. Als u ervoor hebt gekozen om gebruikers zelf toe te staan zich aan te melden voor Power BI, krijgen ze een van deze beschikbare gratis licenties toegewezen wanneer ze het aanmeldingsproces voltooien. U er ook voor kiezen om deze licenties zelf aan gebruikers toe te wijzen via het beheercentrum.
   

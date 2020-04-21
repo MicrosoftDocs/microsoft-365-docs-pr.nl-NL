@@ -17,12 +17,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Rapporten zoeken en gebruiken voor Geavanceerde bedreigingsbeveiliging &amp; van Office 365 in het Security Compliance Center.
-ms.openlocfilehash: b91fb8d000b610439618be687e36dabc787ebb58
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: cca2729918239eee7d27973cd28be16a534e461b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528975"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631059"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Rapporten weergeven voor geavanceerde bedreigingsbeveiliging van Office 365
 
@@ -107,9 +107,9 @@ Het rapport **ATP-bestandstypen** toont u het type bestanden dat is gedetecteerd
 Als u dit rapport wilt bekijken, gaat u in het [Security &amp; Compliance Center](https://protection.office.com)naar **ATP-bestandstypen** **rapporten** \> **dashboard** \> .
 
 ![ATP-bestandstyperapport](../../media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
-
-Wanneer u over een bepaalde dag zweeft, u de uitsplitsing zien van typen schadelijke bestanden die zijn gedetecteerd door [ATP Safe Attachments](atp-safe-attachments.md) en [anti-spam &amp; anti-malware bescherming in Office 365](anti-spam-and-anti-malware-protection.md).
-
+  
+Wanneer u over een bepaalde dag zweeft, u de uitsplitsing zien van typen schadelijke bestanden die zijn gedetecteerd door [ATP Safe Attachments](atp-safe-attachments.md) en [anti-spam &amp; anti-malware bescherming.](anti-spam-and-anti-malware-protection.md)
+  
 ![Rapportgegevens van ATP-bestandstypen voor een dag](../../media/10d18428-699a-41d2-a73e-be3a8214ada1.png)
 
 ## <a name="atp-message-disposition-report"></a>ATP-rapport over berichtverwerking
@@ -158,7 +158,7 @@ Als u de in dit artikel beschreven rapporten wilt bekijken en gebruiken, **moet 
 
 Zie de volgende bronnen voor meer informatie:
 
-- [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
+- [Machtigingen in het &amp; Security Compliance Center](permissions-in-the-security-and-compliance-center.md)
 
 - [Functiemachtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
 
@@ -168,8 +168,8 @@ Als u geen gegevens in uw ATP-rapporten ziet, controleert u of uw beleid correct
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Rapporten en inzichten in het &amp; Office 365 Security Compliance Center](reports-and-insights-in-security-and-compliance.md)
-
+[Rapporten en inzichten &amp; in het Security Compliance Center](reports-and-insights-in-security-and-compliance.md)
+  
 [Een planning maken voor een &amp; rapport in het Security Compliance Center](create-a-schedule-for-a-report.md)
 
 [Een aangepast rapport instellen en &amp; downloaden in het Security Compliance Center](set-up-and-download-a-custom-report.md)

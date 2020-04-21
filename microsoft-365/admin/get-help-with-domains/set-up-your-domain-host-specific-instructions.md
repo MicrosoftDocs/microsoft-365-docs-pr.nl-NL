@@ -1,5 +1,5 @@
 ---
-title: Uw domein instellen (host-specifieke instructies)
+title: Uw domein instellen (hostspecifieke instructies)
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -19,20 +19,20 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: ae950c9e-e8d9-4108-b0cb-449156998580
-description: Lees hoe u uw eigen DNS-records beheert of hoe U office 365 uw DNS-records voor u beheren.
+description: Lees hoe u uw eigen DNS-records beheert of hoe Microsoft uw DNS-records voor u beheren.
 ms.custom: okr_smb
-ms.openlocfilehash: 7a5bcf6bb39497a37cbec4e2cd9b7efad0fc6724
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: ea3a62c048706f36cd7b1590851d8b372e0a1677
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210354"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628420"
 ---
-# <a name="set-up-your-domain-host-specific-instructions"></a>Uw domein instellen (host-specifieke instructies)
+# <a name="set-up-your-domain-host-specific-instructions"></a>Uw domein instellen (hostspecifieke instructies)
 
 Als u een aangepast domein (contoso.com) wilt gebruiken met Office 365, moet u uw domein verifiëren en de DNS-records van uw domein configureren. 
   
-U DNS-records toevoegen en beheren met behulp van de beheerhulpprogramma's bij uw domeinhost, of Office 365 de controle geven over uw domeinrecords en we stellen deze voor u in.
+U DNS-records toevoegen en beheren met behulp van de beheerhulpprogramma's bij uw domeinhost, of Microsoft de controle geven over uw domeinrecords en we stellen deze voor u in.
   
 Selecteer hieronder uw domeinhost voor de exacte stappen. Zie [Uw domeinregistrar zoeken](find-your-domain-registrar.md)als u niet zeker weet wie uw host is.
   

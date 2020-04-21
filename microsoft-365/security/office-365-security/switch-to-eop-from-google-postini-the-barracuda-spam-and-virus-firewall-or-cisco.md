@@ -1,5 +1,5 @@
 ---
-title: Schakel over naar EOP van Google Postini, de Barracuda Spam and Virus Firewall of Cisco IronPort
+title: Overschakelen naar EOP uit Google Postini, de Barracuda Spam en Virus Firewall of Cisco IronPort
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
 description: Het doel van dit onderwerp is om u te helpen het proces te begrijpen voor het overschakelen naar Exchange Online Protection (EOP) van een on-premises e-mailhygiëneapparaat of cloudgebaseerde beveiligingsservice, en vervolgens om u te helpen bij het aan de slag gaan.
-ms.openlocfilehash: e3877f8093f56a0f978ad915769334678afe26e3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e6a25d6477741f5796dd08b5811d97e2d0c76b51
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42810441"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631191"
 ---
-# <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Schakel over naar EOP van Google Postini, de Barracuda Spam and Virus Firewall of Cisco IronPort
+# <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Overschakelen naar EOP uit Google Postini, de Barracuda Spam en Virus Firewall of Cisco IronPort
 
  Het doel van dit onderwerp is om u te helpen het proces te begrijpen voor het overschakelen naar Exchange Online Protection (EOP) van een on-premises e-mailhygiëneapparaat of cloudgebaseerde beveiligingsservice, en vervolgens om u te helpen bij het aan de slag gaan. Er zijn veel oplossingen voor het filteren van spam, maar het proces voor het overschakelen naar EOP is in de meeste gevallen vergelijkbaar.
 
@@ -39,9 +39,9 @@ Als u uw mailboxen momenteel op locatie host en een on-premises beveiligingstoes
 
 ## <a name="switch-to-exchange-online"></a>Overschakelen naar Exchange Online
 
-Misschien hebt u on-premises postvakken beschermd door een on-premises toestel en wilt u naar Exchange Online-cloudgehoste postvakken en EOP-beveiliging gaan om te profiteren van Office 365-cloudberichten en beveiligingsfuncties. Om aan de slag te gaan, u zich aanmelden voor Office 365 en uw domein toevoegen. In dit scenario hoeft u geen connectors in te stellen, omdat er geen routering is naar on-premises postvakken. Begin bij [Download de nieuwste geavanceerde functies met Office 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) om je aan te melden en vertrouwd te raken met de functies.
+Misschien hebt u on-premises postvakken beschermd door een on-premises toestel, en wilt u naar Exchange Online cloud-gehoste postvakken en EOP-beveiliging gaan om te profiteren van Microsoft 365-cloudberichten en beveiligingsfuncties. Om aan de slag te gaan, u zich aanmelden voor Microsoft 365 en uw domein toevoegen. In dit scenario hoeft u geen connectors in te stellen, omdat er geen routering is naar on-premises postvakken. Begin bij [Download de nieuwste geavanceerde functies met Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) om je aan te melden en vertrouwd te raken met de functies.
 
-Tijdens het installatieproces van Office 365 maakt u uw postvakgebruikers in de cloud.
+Tijdens het Microsoft 365-installatieproces maakt u uw gebruikers van postvak in de cloud.
 
 ## <a name="switch-to-a-hybrid-solution"></a>Overschakelen naar een hybride oplossing
 

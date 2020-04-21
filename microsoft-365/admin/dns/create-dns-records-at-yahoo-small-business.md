@@ -1,5 +1,5 @@
 ---
-title: DNS-records bij Yahoo! Small Business maken voor Office 365
+title: DNS-records bij Yahoo! Klein bedrijf voor Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -19,15 +19,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 034bd7bc-b098-4c4d-8a93-4d74ff24532a
-description: Lees uw domein en stel DNS-records in voor e-mail, Skype voor Bedrijven Online en andere services bij Yahoo! Klein Bedrijf voor Office 365.
-ms.openlocfilehash: 7b0d0b25a2895101e2f9a259a82fb18e9447441f
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Lees uw domein en stel DNS-records in voor e-mail, Skype voor Bedrijven Online en andere services bij Yahoo! Kleine bedrijven voor Microsoft.
+ms.openlocfilehash: 12efa8f7056f0d06cbf78b2486ea67dc85d2e705
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211036"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629153"
 ---
-# <a name="create-dns-records-at-yahoo-small-business-for-office-365"></a>DNS-records bij Yahoo! Small Business maken voor Office 365
+# <a name="create-dns-records-at-yahoo-small-business-for-microsoft"></a>DNS-records bij Yahoo! Klein bedrijf voor Microsoft
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
@@ -89,5 +89,5 @@ U moet uw Aabaco-account aanmaken voordat u [DNS-records](../get-help-with-domai
     
     ![The sign-in page for Aabaco Small Business](../../media/4ef3cfc3-26da-4e03-932b-9346ef217848.png)
   
-Als u een Aabaco-account hebt gemaakt, kunt u [DNS-records maken op Aabaco Small Business voor Office 365](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
+Nu u uw Aabaco-account hebt gemaakt, u [DNS-records maken bij Aabaco Small Business voor Microsoft.](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
   

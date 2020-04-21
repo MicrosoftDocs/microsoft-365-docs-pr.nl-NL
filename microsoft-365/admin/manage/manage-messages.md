@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 97af2932-0868-4ccf-8f6b-21a94946c58a
 description: Leer berichten in het Berichtencentrum beheren om te helpen bij wijzigingsbeheer.
-ms.openlocfilehash: 5b1772eb86acb937d532990830f9220f197c1c00
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 95a4544dd99ebce793242532ae144f00c3b16fcb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42809249"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628146"
 ---
 # <a name="manage-messages-in-message-center"></a>Berichten in het berichtencentrum beheren
 
@@ -87,13 +87,13 @@ Ziet u een bericht waarvoor iemand anders actie moet ondernemen? U kunt de inhou
   
 1. Selecteer het bericht om het te openen en selecteer **Delen**.
   
-2. Als u het bericht wilt delen, voert u maximaal twee e-mailadressen in die zijn gescheiden door een dubbele punt. U naar afzonderlijke en naar groepse-mailadressen sturen. Optioneel u ervoor kiezen om een kopie van het bericht in e-mail te ontvangen (het bericht gaat naar uw primaire e-mailadres in Office 365) of een persoonlijk bericht toe te voegen om ontvangers meer context te bieden.
+2. Als u het bericht wilt delen, voert u maximaal twee e-mailadressen in die zijn gescheiden door een dubbele punt. U naar afzonderlijke en naar groepse-mailadressen sturen. Optioneel u ervoor kiezen om een kopie van het bericht in e-mail te ontvangen (het bericht gaat naar uw primaire e-mailadres) of een persoonlijk bericht toe te voegen om ontvangers meer context te bieden.
   
 3. Selecteer **Delen** om de e-mail te verzenden.
     
 ## <a name="get-a-link"></a>Koppeling ophalen
 
-Wilt u zorgen dat een andere beheerder op de hoogte is van een wijziging en hierop actie onderneemt? U kunt een koppeling genereren om het bericht te delen via e-mail of een chatprogramma, zodat de gebruiker rechtstreeks verbinding krijgt met dat bericht. De persoon met wie u de koppeling deelt, moet een beheerder zijn in Office 365 voor uw organisatie, anders heeft de persoon geen toegang tot het gekoppelde bericht.
+Wilt u zorgen dat een andere beheerder op de hoogte is van een wijziging en hierop actie onderneemt? U kunt een koppeling genereren om het bericht te delen via e-mail of een chatprogramma, zodat de gebruiker rechtstreeks verbinding krijgt met dat bericht. De persoon met wie u de koppeling deelt, moet een beheerder zijn in Microsoft 365 voor uw organisatie, anders heeft hij of zij geen toegang tot het gekoppelde bericht.
 
 ::: moniker range="o365-worldwide"
 
@@ -213,5 +213,5 @@ Wilt u een genegeerd bericht weer terughalen? Geen probleem.
 
 ::: moniker-end
 
-Zie [Berichtencentrum in Office 365](message-center.md) voor een overzicht van het berichtencentrum. Zie [Taalvertaling voor berichten](language-translation-for-message-center-posts.md)in het Berichtencentrum voor berichten in het bericht of voor meer informatie over het instellen van uw taalvoorkeuren om automatische vertaling voor berichten in het Berichtencentrum in te schakelen. Als u een andere manier wilt programmeren om informatie over de status van realtime-services en berichten uit berichtencentrum te krijgen, raadpleegt u [Overzicht van Office 365 Service Communications-API](https://go.microsoft.com/fwlink/p/?linkid=848507).
+Zie [Berichtencentrum in Microsoft 365](message-center.md)voor een overzicht van het Berichtencentrum . Zie [Taalvertaling voor berichten](language-translation-for-message-center-posts.md)in het Berichtencentrum voor berichten in het bericht of voor meer informatie over het instellen van uw taalvoorkeuren om automatische vertaling voor berichten in het Berichtencentrum in te schakelen. Als u een alternatieve manier wilt programmeren om realtime informatie over de servicestatus en communicatie met het Berichtencentrum te ontvangen, raadpleegt u [het Microsoft 365 Service Communications API-overzicht.](https://go.microsoft.com/fwlink/p/?linkid=848507)
   

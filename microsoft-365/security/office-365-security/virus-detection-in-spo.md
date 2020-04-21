@@ -1,5 +1,5 @@
 ---
-title: Virus detection in SharePoint Online
+title: Virusdetectie in SharePoint Online
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -18,23 +18,23 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over antivirusbeveiliging in SharePoint Online.
-ms.openlocfilehash: f22c2a3280148eb23f4ba53ff467a533186ed791
-ms.sourcegitcommit: 3d17c1d6b80672719b1878e2f321f0de39595226
+ms.openlocfilehash: f04cd18bb4880ab631816c90b4976beada436225
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "42806303"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630939"
 ---
-# <a name="virus-detection-in-sharepoint-online"></a>Virus detection in SharePoint Online
+# <a name="virus-detection-in-sharepoint-online"></a>Virusdetectie in SharePoint Online
 
-Office 365 kan uw omgeving beschermen tegen malware door virussen te detecteren in bestanden die gebruikers uploaden naar SharePoint Online. Bestanden kunnen worden gescand op virussen nadat ze zijn geüpload. Als blijkt dat een bestand geïnfecteerd is, wordt een eigenschap zo ingesteld dat gebruikers het bestand niet kunnen downloaden of synchroniseren.
+Microsoft 365 kan uw omgeving beschermen tegen malware door virussen te detecteren in bestanden die gebruikers uploaden naar SharePoint Online. Bestanden kunnen worden gescand op virussen nadat ze zijn geüpload. Als blijkt dat een bestand geïnfecteerd is, wordt een eigenschap zo ingesteld dat gebruikers het bestand niet kunnen downloaden of synchroniseren.
 
 > [!IMPORTANT]
 > Deze antivirusmogelijkheden in SharePoint Online zijn een manier om virussen te bevatten. Ze zijn niet bedoeld als een enkel punt van verdediging tegen malware voor uw omgeving. We moedigen alle klanten aan om antimalwarebescherming op verschillende lagen te beoordelen en te implementeren en best practices toe te passen voor het beveiligen van uw bedrijfsinfrastructuur. Zie [Beveiligingsroadmap](security-roadmap.md)voor meer informatie over strategieën en best practices.
 
 ## <a name="what-happens-when-an-infected-file-is-uploaded-to-sharepoint-online"></a>Wat gebeurt er als een geïnfecteerd bestand wordt geüpload naar SharePoint Online?
 
-Office 365 maakt gebruik van een veelgebruikte virusdetectie-engine. De engine draait asynchroon binnen SharePoint Online en scant sommige bestanden nadat ze zijn geüpload. Heuristiek wordt gebruikt om te bepalen welke bestanden worden gescand. Wanneer wordt vastgesteld dat een bestand een virus bevat, wordt het gemarkeerd zodat het niet opnieuw kan worden gedownload. In april 2018 hebben we de limiet van 25 MB voor gescande bestanden verwijderd.
+Microsoft 365 maakt gebruik van een veelgebruikte virusdetectie-engine. De engine draait asynchroon binnen SharePoint Online en scant sommige bestanden nadat ze zijn geüpload. Heuristiek wordt gebruikt om te bepalen welke bestanden worden gescand. Wanneer wordt vastgesteld dat een bestand een virus bevat, wordt het gemarkeerd zodat het niet opnieuw kan worden gedownload. In april 2018 hebben we de limiet van 25 MB voor gescande bestanden verwijderd.
 
 Dit is wat er gebeurt:
 

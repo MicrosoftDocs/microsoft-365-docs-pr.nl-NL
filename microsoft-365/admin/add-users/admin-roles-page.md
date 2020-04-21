@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. De Servicebeheerder opent bijvoorbeeld supporttickets met Microsoft.
-ms.openlocfilehash: 749e0532cf379d1fcff0580c9d5ede7910cfa38b
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 85952f1f64db0e1ae94d9c5f69e5c95f7f9c2dab
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42811720"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43618870"
 ---
 # <a name="get-started-with-the-roles-page"></a>Aan de slag met de rollenpagina
 
@@ -55,7 +55,7 @@ Dit is geen uitputtende lijst van alle machtigingen die deze rollen hebben. Sele
 
 ### <a name="exchange-admin"></a>Exchange-beheerder
 
-Wijs de rol Exchange-beheer toe aan gebruikers die de e-mailboxen, Office 365-groepen en Exchange Online van uw gebruiker moeten bekijken en beheren. Ze kunnen ook serviceaanvragen openen en beheren voor Microsoft-ondersteuning. [Meer informatie](https://docs.microsoft.com/office365/admin/add-users/about-exchange-online-admin-role)
+Wijs de rol Exchange-beheer toe aan gebruikers die de e-mailboxen van uw gebruiker, Microsoft 365-groepen en Exchange Online moeten bekijken en beheren. Ze kunnen ook serviceaanvragen openen en beheren voor Microsoft-ondersteuning. [Meer informatie](https://docs.microsoft.com/office365/admin/add-users/about-exchange-online-admin-role)
 
 ### <a name="global-admin"></a>Algemene beheerder
 
@@ -75,15 +75,15 @@ Wijs de functie voor servicebeheer toe aan gebruikers die serviceaanvragen voor 
 
 ### <a name="sharepoint-admin"></a>SharePoint-beheerder
 
-Wanneer u een Microsoft 365- of Office 365-abonnement koopt, wordt er automatisch een teamsite gemaakt en wordt de globale beheerder ingesteld als de primaire beheerder van de siteverzameling. Wijs de SharePoint-beheerrol toe aan gebruikers die u wilt openen in het SharePoint-beheercentrum. Gebruikers met de SharePoint-beheerrol kunnen siteverzamelingen maken en beheren, beheerders van siteverzamelingen aanwijzen en gebruikersprofielen beheren. Gebruikers met de SharePoint-beheerrol kunnen ook Office 365-groepen beheren en serviceaanvragen openen via Microsoft-ondersteuning. [Meer informatie](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)
+Wanneer u een Microsoft 365-abonnement koopt, wordt er automatisch een teamsite gemaakt en wordt de globale beheerder ingesteld als de primaire beheerder van de siteverzameling. Wijs de SharePoint-beheerrol toe aan gebruikers die u wilt openen in het SharePoint-beheercentrum. Gebruikers met de SharePoint-beheerrol kunnen siteverzamelingen maken en beheren, beheerders van siteverzamelingen aanwijzen en gebruikersprofielen beheren. Gebruikers met de SharePoint-beheerrol kunnen ook Microsoft 365-groepen beheren en serviceaanvragen openen via Microsoft-ondersteuning. [Meer informatie](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)
 
 ### <a name="teams-service-admin"></a>Teams-servicebeheerder
 
-Wijs de teambeheerrol toe aan gebruikers die u toegang wilt geven tot het & Skype-beheercentrum Teams. Gebruikers met de rol Teams-beheer kunnen ook Office 365-groepen beheren en serviceaanvragen openen via Microsoft-ondersteuning. [Meer informatie](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles)
+Wijs de teambeheerrol toe aan gebruikers die u toegang wilt geven tot het & Skype-beheercentrum Teams. Gebruikers met de rol Teams-beheerder kunnen ook Microsoft 365-groepen beheren en serviceaanvragen openen via Microsoft-ondersteuning. [Meer informatie](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles)
 
 ### <a name="user-admin"></a>Gebruikersbeheerder
 
-Wijs de functie voor gebruikersbeheer toe aan gebruikers die u wilt openen en beheren van gebruikerswachtwoordopnieuw instellen en beheren van Office 365-gebruikers en -groepen. Ze kunnen ook serviceaanvragen openen en beheren voor Microsoft-ondersteuning. [Meer informatie](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
+Wijs de gebruikersbeheerrol toe aan gebruikers die u wilt openen en gebruikerswachtwoord opnieuw wilt instellen en gebruikers en groepen beheren. Ze kunnen ook serviceaanvragen openen en beheren voor Microsoft-ondersteuning. [Meer informatie](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
 ::: moniker range="o365-worldwide"
 

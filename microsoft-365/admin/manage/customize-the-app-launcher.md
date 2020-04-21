@@ -2,8 +2,8 @@
 title: Aangepaste tegels toevoegen aan het startprogramma voor apps
 f1.keywords:
 - CSH
-ms.author: kwekua
-author: kwekua
+ms.author: twerner
+author: twernermsft
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,20 +20,20 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: 'Maak snelle koppelingen naar uw e-mail, documenten, apps, SharePoint-sites, externe sites en andere bronnen door aangepaste tegels toe te voegen aan het startprogramma voor apps. '
-ms.openlocfilehash: fff65c7263e40bf376f53e5f150daea7a24ff55d
-ms.sourcegitcommit: 256184cf731c1851b04a07dd7d59ecf020d02635
+ms.openlocfilehash: 705d45a2c26d3bd5e2d45d6d8f5a7c998c449f8d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131529"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628194"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Aangepaste tegels toevoegen aan het startprogramma voor apps
 
-In Office 365 kunt u snel en eenvoudig uw e-mail, agenda's, documenten en apps openen met het startprogramma voor apps van Office 365 ([meer informatie](https://support.office.com/article/79f12104-6fed-442f-96a0-eb089a3f476a.aspx)). Dit zijn apps die zijn inbegrepen bij Office 365 en aangepaste apps die u toevoegt uit de [SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43.aspx) of [Azure AD](https://msdn.microsoft.com/office/office365/howto/connect-your-app-to-o365-app-launcher).
+In Microsoft 365 u snel en eenvoudig bij uw e-mail, agenda's, documenten en apps komen via het startprogramma voor apps[(meer informatie).](https://support.office.com/article/79f12104-6fed-442f-96a0-eb089a3f476a.aspx) Dit zijn apps die u krijgt met Microsoft 365 en aangepaste apps die u toevoegt vanuit de [SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43.aspx) of [Azure AD.](https://msdn.microsoft.com/office/office365/howto/connect-your-app-to-o365-app-launcher)
   
 U kunt aan het startprogramma voor apps uw eigen aangepaste tegels toevoegen die verwijzen naar SharePoint-sites, externe sites, oude apps en meer. De aangepaste tegel verschijnt onder **Alle** apps in het startprogramma voor apps, maar u kunt de tegel vastmaken aan de **Start**-apps en uw gebruikers instructies geven dit ook te doen. Hierdoor kunt u eenvoudig sites, apps en resources vinden die relevant zijn bij het uitvoeren van uw taken. In het onderstaande voorbeeld wordt een aangepaste tegel gebruikt met de naam 'Contoso Portal' voor toegang tot de SharePoint-intranetsite van een organisatie. 
   
-![Startpictogram voor Office 365-apps](../../media/7acc06cc-ac7a-4c6e-8ea7-81570a5bdbab.png)
+![Startprogramma voor apps](../../media/7acc06cc-ac7a-4c6e-8ea7-81570a5bdbab.png)
   
 ## <a name="add-a-custom-tile-to-the-app-launcher"></a>Een aangepaste tegel toevoegen aan het startprogramma voor apps
 
@@ -62,7 +62,7 @@ U en uw gebruikers zien nu de aangepaste tegel in het startprogramma voor apps o
 2. Zoek de nieuwe tegel voor uw app, selecteer de ellips en kies **Vastmaken aan launcher**.
   
     > [!NOTE]
-    > Als u de aangepaste tegel niet ziet die in de vorige stappen is gemaakt, controleer dan of er een Exchange Online-postvak aan u is toegewezen en of u zich ten minste één keer bij uw postvak hebt aangemeld. Deze stappen zijn vereist voor aangepaste tegels in Office 365. 
+    > Als u de aangepaste tegel niet ziet die in de vorige stappen is gemaakt, controleer dan of er een Exchange Online-postvak aan u is toegewezen en of u zich ten minste één keer bij uw postvak hebt aangemeld. Deze stappen zijn vereist voor aangepaste tegels in Microsoft 365. 
   
 > [!IMPORTANT]
 > Zowel u als uw gebruikers moeten deze stappen uitvoeren om aangepaste tegels te promoveren van de pagina Mijn apps naar het startprogramma voor apps. 
@@ -81,6 +81,6 @@ Als u een aangepaste tegel wilt verwijderen, selecteert u in het venster **Aange
   
 ## <a name="whats-next"></a>En nu?
 
-Naast het toevoegen van tegels aan het startprogramma voor apps, kunt u ook tegels uit het startprogramma voor apps toevoegen aan de navigatiebalk van Office 365 ([meer informatie](https://support.office.com/article/d536512c-b0f7-49fd-b8db-a8a967e23f23.aspx)). Raadpleeg [Het Office 365-thema aanpassen](../setup/customize-your-organization-theme.md) om het uiterlijk van Office 365 aan te passen aan het merk van uw organisatie.
+Naast het toevoegen van tegels aan het startprogramma voor apps, u app launcher-tegels toevoegen aan de navigatiebalk[(meer informatie).](https://support.office.com/article/d536512c-b0f7-49fd-b8db-a8a967e23f23.aspx) Zie [Het Microsoft 365-thema aanpassen](../setup/customize-your-organization-theme.md)om het uiterlijk van Microsoft 365 aan te passen aan het merk van uw organisatie.
   
 

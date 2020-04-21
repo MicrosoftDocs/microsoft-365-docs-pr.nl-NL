@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: d00b6b83-1f14-4e9c-a2c5-dbd9a92816f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over het kiezen van welke mobiele apps mensen kunnen gebruiken om toegang te krijgen tot e-mail, agenda en contactpersonen.
-ms.openlocfilehash: dcfd356ecdbc7448036507abe8d8f09546b05255
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8627a31f7ec5e3c14b853618bb0383ecc58597cc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42808515"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628805"
 ---
 # <a name="manage-email-app-access-in-the-microsoft-365-admin-center"></a>Toegang tot e-mailapps beheren in het Microsoft 365-beheercentrum
 
@@ -43,7 +43,7 @@ Gebruik de instellingen voor mobiele e-mailtoegang om te kiezen welke mobiele ap
 
 2. Schakel op de pagina **Opties voor toegang tot mobiele e-mail** het selectievakje in en kies vervolgens hoe gebruikers in uw organisatie e-mailapps op hun apparaten gebruiken:
   
-Kies de optie om in te stellen hoe gebruikers in uw organisatie vanaf hun mobiele apparaten toegang krijgen tot hun Office 365-werk- of schoolaccount
+Kies de optie om in te stellen hoe gebruikers in uw organisatie toegang krijgen tot hun werk- of schoolaccount vanaf hun mobiele apparaten
   
 - **Alleen outlook** - gebruikers in uw organisatie moeten de Outlook voor Android- of Outlook voor iOS-app gebruiken op hun mobiele apparaat. 
     

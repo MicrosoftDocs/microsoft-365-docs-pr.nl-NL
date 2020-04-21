@@ -1,5 +1,5 @@
 ---
-title: Problemen oplossen met gedeelde postvakken
+title: Problemen met gedeelde postvakken oplossen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,14 +20,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Probeer deze oplossingen als u problemen ondervindt met gedeelde postvakken.
-ms.openlocfilehash: 138bcee155652e84ab6ee16cf6a9acab310edde9
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 52aac8ab6936dfeba2ae4b5b7a80c45029ec6105
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210514"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628745"
 ---
-# <a name="resolve-issues-with-shared-mailboxes"></a>Problemen oplossen met gedeelde postvakken
+# <a name="resolve-issues-with-shared-mailboxes"></a>Problemen met gedeelde postvakken oplossen
 
 Als u foutmeldingen ziet bij het maken of gebruiken van een gedeeld postvak, probeert u deze mogelijke oplossingen. 
 
@@ -36,7 +36,7 @@ Als u foutmeldingen ziet bij het maken of gebruiken van een gedeeld postvak, pro
 
 Als u het foutbericht ziet, **wordt het proxyadres 'smtp:<gedeelde postvaknaam'\>al gebruikt\<door de proxyadressen of LegacyExchangeDN van "name>". Kies een ander proxyadres,** dit betekent dat u het gedeelde postvak een naam probeert te geven die al in gebruik is. Stel bijvoorbeeld dat u gedeelde postvakken wilt maken met de naam info@domein1 en info@domein2. U kunt dit op twee manieren doen:
 
-  - Gebruik Windows PowerShell. Lees deze blogpost voor instructies: [Create Shared Mailboxes with Same Alias at Different Domains in Office 365](https://www.cogmotive.com/blog/office-365-tips/create-shared-mailboxes-with-same-alias-at-different-domains-in-office-365) (Gedeelde postvakken maken met dezelfde alias voor verschillende domeinen in Office 365)
+  - Gebruik Windows PowerShell. Zie dit blogbericht voor instructies: [Gedeelde postvakken maken met dezelfde alias bij verschillende domeinen](https://www.cogmotive.com/blog/office-365-tips/create-shared-mailboxes-with-same-alias-at-different-domains-in-office-365)
     
   - Geef het tweede gedeelde postvak iets anders dan het begin om de fout te omzeilen. Wijzig vervolgens in het beheercentrum de naam van het gedeelde postvak naar wat u wilt dat het is.
 
@@ -46,7 +46,7 @@ Als u een gedeeld postvak hebt gemaakt en vervolgens probeert er een bericht van
 
 **Dit bericht kan niet worden verzonden. U hebt geen toestemming om het bericht namens de opgegeven gebruiker te verzenden.**
 
-Dit bericht wordt weergegeven wanneer in Office 365 een replicatielatentieprobleem optreedt. Het moet verdwijnen in een uur of zo, wanneer de informatie over uw nieuwe gedeelde postvak (of toegevoegde gebruiker) wordt gerepliceerd in al onze datacenters. Wacht een uur en probeer dan opnieuw om een bericht te verzenden.
+Dit bericht wordt weergegeven wanneer Microsoft 365 een replicatielatentieprobleem ondervindt. Het moet verdwijnen in een uur of zo, wanneer de informatie over uw nieuwe gedeelde postvak (of toegevoegde gebruiker) wordt gerepliceerd in al onze datacenters. Wacht een uur en probeer dan opnieuw om een bericht te verzenden.
 
 ## <a name="related-articles"></a>Verwante artikelen
 

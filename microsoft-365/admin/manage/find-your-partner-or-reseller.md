@@ -1,5 +1,5 @@
 ---
-title: Een Office 365-partner of -wederverkoper zoeken
+title: Uw partner of wederverkoper zoeken
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,23 +21,23 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: b6c18a9b-2aed-4c84-9d75-af709160258c
-description: 'Meer informatie over het vinden van een nieuwe Office 365-partner of het opvragen van contactgegevens voor een partner waarmee u in het verleden hebt samengewerkt. '
-ms.openlocfilehash: 86c61b6217a1be6106334cb1378a23d8cbd8c2b8
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: 'Meer informatie over het vinden van een nieuwe Microsoft 365-partner of het opvragen van contactgegevens voor een partner waarmee u in het verleden hebt samengewerkt. '
+ms.openlocfilehash: 54933174816047188a8c084c63df6c1e8e166d82
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42808514"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628182"
 ---
-# <a name="find-your-office-365-partner-or-reseller"></a>Een Office 365-partner of -wederverkoper zoeken
+# <a name="find-your-partner-or-reseller"></a>Uw partner of wederverkoper zoeken
 
-Als beheerder u samenwerken met een partner om Office 365-abonnementen te kopen, activeren en vernieuwen via een Microsoft Open Volume Licensing-programma. 
+Als beheerder u samenwerken met een partner om Microsoft 365-abonnementen te kopen, activeren en vernieuwen via een Microsoft Open Volume Licensing-programma. 
   
  **Weet u niet zeker of Open Volume Licensing iets voor u is?** Bekijk het [overzicht van Microsoft Open-programma's](https://go.microsoft.com/fwlink/p/?LinkId=613298).
   
 ## <a name="find-a-new-partner-or-reseller"></a>Een nieuwe partner of wederverkoper zoeken
 
-Als u Office 365 wilt gaan kopen of het abonnement wilt verlengen via Open Volume Licensing, of als u gewoon meer informatie wilt over het samenwerken met een partner, kiest u een van de onderstaande opties. 
+Als u microsoft 365 wilt kopen of vernieuwen via Open Volume Licensing, of als u gewoon meer informatie wilt over het werken met een partner, kiest u een onderstaande optie. 
   
 - [Een partner zoeken met Microsoft PinPoint](https://go.microsoft.com/fwlink/p/?LinkId=613304)
     

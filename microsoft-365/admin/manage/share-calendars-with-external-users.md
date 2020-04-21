@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: fb00dd4e-2d5f-4e8d-8ff4-94b2cf002bdd
 description: "Meer informatie over hoe u uw gebruikers hun agenda's laten delen met externe gebruikers voor vergaderingen en afspraken. "
-ms.openlocfilehash: 42bce53c3963c41684644d02dab18210f9ed828a
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: bd297fc2d684357d0500495e5a8263e5279efa39
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42811395"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628038"
 ---
-# <a name="share-calendars-with-external-users"></a>Agenda's delen met externe gebruikers
+# <a name="share-calendars-with-external-users"></a>Agenda’s delen met externe gebruikers
 
-Het is vaak noodzakelijk om vergaderingen met mensen buiten uw organisatie te plannen. Het vinden van wederzijds overeen te komen vergadertijden kunt u vereenvoudigen door in Office 365 een agenda beschikbaar te stellen voor 'externe gebruikers', personen die beschikbaarheidsinfo willen zien maar geen gebruikersaccounts voor uw Office 365-omgeving hebben.
+Het is vaak noodzakelijk om vergaderingen met mensen buiten uw organisatie te plannen. Om het proces van het vinden van wederzijds aangename vergadertijden te vereenvoudigen, stelt Microsoft 365 u in staat om agenda's beschikbaar te maken voor 'externe gebruikers', degenen die vrije/drukke tijd moeten zien, maar geen gebruikersaccounts hebben voor uw Microsoft 365-omgeving.
   
 Agendadelen is een algemene instelling, wat betekent dat u, de beheerder, deze inschakelen voor alle gebruikers in de tenant. Nadat delen is ingeschakeld, kunnen gebruikers Outlook Web App gebruiken om hun agenda's te delen met iemand binnen of buiten de organisatie. Mensen binnen de organisatie kunnen de gedeelde agenda naast die van henzelf bekijken. Mensen buiten de organisatie ontvangen een URL die ze kunnen gebruiken om de agenda te bekijken. Gebruikers beslissen wanneer ze willen delen, hoe veel ze willen delen en wanneer ze hun agenda privé willen houden.
   
@@ -44,7 +44,7 @@ Agendadelen is een algemene instelling, wat betekent dat u, de beheerder, deze i
   
 2. Selecteer **Agenda**op de pagina **Invoegtoepassing &amp; Services** .
   
-3. Kies **op** de pagina Agenda die wordt geopend of u uw gebruikers hun agenda's wilt laten delen met mensen buiten uw organisatie die Office 365 of Exchange hebben.
+3. Kies op de **agendapagina** die wordt geopend of u uw gebruikers hun agenda's wilt laten delen met mensen buiten uw organisatie die Microsoft 365 of Exchange hebben.
     
 4. Kies of u anonieme gebruikers (gebruikers zonder aanmeldingsgegevens) toegang wilt geven tot agenda's via een e-mailuitnodiging.
 

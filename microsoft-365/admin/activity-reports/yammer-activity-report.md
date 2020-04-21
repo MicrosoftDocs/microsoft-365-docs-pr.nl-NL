@@ -1,5 +1,5 @@
 ---
-title: Office 365-rapporten in het beheercentrum - Yammer-activiteitenrapport
+title: Microsoft 365-rapporten in het beheercentrum - Yammer-activiteitenrapport
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -19,14 +19,14 @@ search.appverid:
 - MOE150
 ms.assetid: c7c9f938-5b8e-4d52-b1a2-c7c32cb2312a
 description: Ontvang het rapport Yammer-activiteit en weet meer over het aantal gebruikers dat Yammer gebruikt om een bericht te plaatsen, leuk te vinden of te lezen.
-ms.openlocfilehash: de62ef0ceed54da76ead64274923ac646240ce44
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: bd128e17b8d435b8d5c6b06f16ff37fea11a6ce3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43047021"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43618954"
 ---
-# <a name="office-365-reports-in-the-admin-center---yammer-activity-report"></a>Office 365-rapporten in het beheercentrum - Yammer-activiteitenrapport
+# <a name="microsoft-365-reports-in-the-admin-center---yammer-activity-report"></a>Microsoft 365-rapporten in het beheercentrum - Yammer-activiteitenrapport
 
 Als Microsoft 365-beheerder worden in het dashboard **Rapporten** u gegevens weergegeven over het gebruik van de producten binnen uw organisatie. Bekijk [activiteitenrapporten in het beheercentrum](activity-reports.md). Met het **Yammer-activiteitenoverzicht** kunt u meer informatie krijgen over het gebruiksniveau van Yammer binnen uw organisatie door naar het aantal unieke gebruikers te kijken die werken met Yammer voor het plaatsen, leuk vinden of lezen van een bericht en naar de hoeveelheid activiteit die in de gehele organisatie wordt gegenereerd. 
   
@@ -82,7 +82,7 @@ Het activiteitsrapport bevat de volgende informatie.
     
   - **Gebruikersnaam** is het e-mailadres van de gebruiker. U kunt het feitelijke e-mailadres weergeven of dit veld anoniem maken. 
     
-    Dit raster toont gebruikers die zich bij Yammer hebben aangemeld met behulp van de Office 365-account, of die zich in het netwerk hebben aangemeld via een eenmalige aanmelding.
+    Dit raster toont gebruikers die zich hebben aangemeld bij Yammer met het Microsoft 365-account of die zich via één aanmelding bij het netwerk hebben aangemeld.
     
   - **Weergavenaam** is de volledige naam van de gebruiker. U kunt het feitelijke e-mailadres weergeven of dit veld anoniem maken. 
     
@@ -112,6 +112,6 @@ Het activiteitsrapport bevat de volgende informatie.
     
 - **Geen gegevens van het externe netwerk** Gegevens van externe netwerken worden niet opgenomen in deze rapporten. 
     
-- **Geactiveerde netwerken** In deze rapporten worden gegevens getoond over het Yammer-netwerk dat onderdeel is van uw Office 365-abonnement. In de grafiek wordt het gebruik samengevoegd van alle gebruikers die zich hebben aangemeld bij het Yammer-netwerk, ongeacht of ze Office 365 dan wel Yammer hebben gebruikt om zich aan te melden. 
+- **Geactiveerde netwerken** In deze rapporten worden gegevens weergegeven voor het Yammer-netwerk dat deel uitmaakt van uw Microsoft 365-abonnement. De grafiek verzamelt het gebruik van alle gebruikers die zich hebben aangemeld bij het Yammer-netwerk, ongeacht of ze Microsoft 365 of Yammer hebben gebruikt om zich aan te melden. 
     
 

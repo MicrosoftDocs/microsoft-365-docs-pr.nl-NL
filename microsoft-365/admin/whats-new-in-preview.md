@@ -21,12 +21,12 @@ ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: Het Microsoft 365-beheercentrum - meer informatie over de functies die deze maand zijn toegevoegd.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 06cc7519cae2b71581f0f50e9e8eec15fe77e568
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 35a08b7c5ebdfd85a66fd28c46eb601d16298f96
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43171010"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627520"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe nieuws in het Microsoft 365-beheercentrum
 
@@ -36,59 +36,10 @@ We voegen voortdurend nieuwe functies toe aan [het Microsoft 365-beheercentrum,]
 > **"Klassieke" admin center pensioen vanaf maart**<br><br>
 Wanneer u zich aanmeldt bij admin.microsoft.com, gaat u nu elke keer naar het nieuwe beheercentrum. En in maart zullen we beginnen met het uitschakelen van de mogelijkheid om terug te schakelen naar de klassieke admin center. Voor nu u nog steeds terug schakelen, maar als het nieuwe beheercentrum tot pariteit komt (en het overschrijdt) zullen we de schakelaar voor alle organisaties uitschakelen. <br><br> *Laatst bijgewerkt: 2 maart 2020*
 
-En als u geïnteresseerd bent in wat er nieuw is in andere Microsoft-cloudservices:
+En als je geïnteresseerd bent in wat er nieuw is in andere beheercentra:
 
-- [Nieuwe informatie in Exchange Online](https://go.microsoft.com/fwlink/?linkid=2119714)
-- [Nieuwe nieuwe artikelen in Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
 - [Nieuwe nieuwe artikelen in het Microsoft 365-compliancecenter](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
 - [Nieuwe informatie in het SharePoint-beheercentrum](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
-- [Office-updates](https://docs.microsoft.com/OfficeUpdates/)
-
-## <a name="march-2020"></a>Maart 2020
-
-### <a name="featured-feedback-fix-improve-add-user-reliability-for-licensing"></a>Aanbevolen feedbackoplossing: de betrouwbaarheid van de gebruiker voor licenties verbeteren
-
-We hebben veel feedback ontvangen van beheerders over hoe moeilijk het is om licenties toe te wijzen bij het toevoegen van gebruikers. We hebben de eerste update van deze oplossing gemaakt en we zijn gemigreerd naar een betrouwbaardere service achter de schermen om deze verzoeken te verwerken. En als er iets misgaat, krijg je nu een foutmelding waarmee je het opnieuw proberen.
-
-:::image type="content" source="../media/MAC-WN-ImprovedLicensing.png" alt-text="Voeg de bevestigingspagina van de gebruiker toe met de fout.":::
-
-### <a name="microsoft-teams-home-page-card"></a>Microsoft Teams-startpaginakaart
-
-Met de toename in het gebruik van Teams, krijgen sommige organisaties een vastgemaakte dashboardkaart die het inschakelen van Teams beter vindbaar maakt. De kaart heeft ook links naar training en documenten om uw organisatie te helpen over te stappen naar werk op afstand. Ga gewoon naar de **startpagina** om de nieuwe kaart te zien.
-
-:::image type="content" source="../media/MAC-WN-TeamsCard.PNG" alt-text="Microsoft Teams-startpaginakaart":::
-
-### <a name="customize-your-organizations-sharepoint-mobile-app-theme"></a>Het sharepoint-app-thema van uw organisatie aanpassen
-
-Met het Microsoft 365-beheercentrum u nu het thema van uw organisatie aanpassen in de mobiele SharePoint-app voor iOS en de mobiele SharePoint-app voor Android. Deze functie biedt gemakkelijk een mobiele intranet-app-ervaring die uw SharePoint Online kan matchen voor werknemers die onderweg zijn. Themaaanpassing omvat uw logoafbeelding, kleur van de navigatiebalk, tekst- en pictogramkleuren en accentkleuren, waardoor u gemakkelijk worden herkenning.
-
-:::image type="complex" source="../media/MAC-WN-CustThemeSP.png" alt-text="Diagram dat de instellingen van het beheercentrum in kaart brengt aan de mobiele app.":::
-
-:::image-end:::
-
-### <a name="improvements-to-the-add-a-group-wizard"></a>Verbeteringen in de wizard 'Een groep toevoegen'
-
-Wanneer beheerders een nieuwe groep maakten en er tegelijkertijd een team van maakten, kunnen ze eigenaren toewijzen die geen licentie hebben die Teams bevat. En dat zorgde voor hoofdpijn. We hebben de wizardstroom bijgewerkt om te controleren of eigenaren een Teams-licentie hebben en als ze niet de optie hebben om de groep om te zetten in een team, is uitgeschakeld.
-
-### <a name="microsoft-365-offerings-for-small-and-medium-businesses"></a>Microsoft 365-aanbiedingen voor kleine en middelgrote bedrijven
-
-We weten dat dit een aankondiging is voor volgende maand, maar we willen zeker weten dat je voorbereid bent.
-
-Vanaf 21 april voeren we wijzigingen door met betrekking tot onze Office 365-abonnementen voor kleine en middelgrote bedrijven en voor Office 365 ProPlus. Deze producten zullen nu gebruik maken van de Microsoft 365 merk.
-
-De nieuwe productnamen gaan in op 21 april 2020. Dit is alleen een wijziging in de productnaam en er zijn op dit moment geen prijs- of functiewijzigingen.
-
-|Huidige naam |Nieuwe naam  |
-|---------|---------|
-|Office 365 Business Essentials     |   Microsoft 365 Business Basic      |
-|Office 365 Business Premium     |    Microsoft 365 Business Standard     |
-|Microsoft 365 Business     |    Microsoft 365 Business Premium     |
-|Office 365 Business     |    Microsoft 365 Apps voor bedrijven       | 
-|Office 365 ProPlus    |   Microsoft 365-apps voor bedrijven      |
-
-### <a name="videos-training-and-docs"></a>Video's, training en documenten
-
-[Wat is er nieuw in Microsoft 365 web-serie:](https://go.microsoft.com/fwlink/p/?linkid=2118096)In de aflevering van deze maand, we wijzen op de 3-jarige verjaardag van Microsoft Teams en hebben betrekking op nieuwe functies, waaronder verbeterde geluidskwaliteit in online vergaderingen, Gerichte communicatie voor firstline managers met de Shifts app, Teams en Skype interoperabiliteit van de consument, en nog veel meer.
 
 ## <a name="february-2020"></a>Februari 2020
 
@@ -111,7 +62,7 @@ Dat is het letterlijk!!!
 Een paar veranderingen in de groepen gebied deze maand:
 
 - **Sorteren op groepsnaam**: U de lijst met groepen alfabetisch sorteren door de kolom **Groepsnaam** te selecteren.
-- **Verwijderde Office 365-groepen herstellen:** u hoeft niet meer naar het Exchange-beheercentrum te gaan om verwijderde Office 365-groepen te herstellen. Ga naar **Microsoft 365-beheercentrumgroepen** \> **Groups** \> **Verwijderde groepen** \> (selecteer \> een groep in de lijst) **Groep Herstellen**. Hiermee wordt de groep teruggezet naar de lijst **Groepen** en wordt de e-mail, gesprekken, notitieblokken en agenda van de groep hersteld.
+- **Verwijderde Microsoft 365-groepen herstellen:** u hoeft niet meer naar het Exchange-beheercentrum te gaan om verwijderde Microsoft 365-groepen te herstellen. Ga naar **Microsoft 365-beheercentrumgroepen** \> **Groups** \> **Verwijderde groepen** \> (selecteer \> een groep in de lijst) **Groep Herstellen**. Hiermee wordt de groep teruggezet naar de lijst **Groepen** en wordt de e-mail, gesprekken, notitieblokken en agenda van de groep hersteld.
 
 ### <a name="videos-training-and-docs"></a>Video's, training en documenten
 
@@ -160,7 +111,7 @@ Bekijk de kleine bedrijven admin training die we uitgebracht in januari:
 - [Hulp of ondersteuning krijgen](https://support.office.com/article/18948a4c-3eb1-4b30-b1bc-a4cc29eb7655)
 - [Een gebruiker verwijderen](https://support.office.com/article/6bcdad7b-732a-4260-997a-8c176bc3d9d6)
 - [Een Microsoft-abonnement kiezen](https://support.office.com/article/b9f7c78e-430f-4117-89ec-2eeb1dced2ca)
-- [Overzicht van microsoft 365 Business-beveiliging](https://support.office.com/article/3274b159-a825-46d7-9421-7d6e209389d1)
+- [Overzicht van Microsoft 365 voor zakelijke beveiliging](https://support.office.com/article/3274b159-a825-46d7-9421-7d6e209389d1)
 
 ## <a name="november-and-december-2019"></a>November en december 2019
 
@@ -199,7 +150,7 @@ In november hebben we een flink aantal leertrajecten naar [de Microsoft Learn-we
 
 - [Microsoft 365 fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 - [Office-fundamenten uitbreiden](https://docs.microsoft.com/learn/paths/extend-office-fundamentals/)
-- [Microsoft 365 - Uw bedrijfsimplementatie moderniseren met Windows 10 en Office 365 ProPlus](https://docs.microsoft.com/learn/paths/m365-getmodern/)
+- [Microsoft 365 - Uw bedrijfsimplementatie moderniseren met Windows 10 en Microsoft 365 Apps voor bedrijven](https://docs.microsoft.com/learn/paths/m365-getmodern/)
 - [Uw bedrijfsimplementatie beheren met Microsoft 365](https://docs.microsoft.com/learn/paths/manage-enterprise-deployment-m365/)
 - [Microsoft Office voor IT op schaal upgraden](https://docs.microsoft.com/learn/paths/m365-office-for-it/)
 - [Externe bureaubladen en apps leveren vanuit Azure met Windows Virtual Desktop](https://docs.microsoft.com/learn/paths/m365-wvd/)
@@ -320,7 +271,7 @@ Het Message center is bijgewerkt naar het nieuwe ontwerp en het ziet er geweldig
 
 We hebben een aantal spannende wijzigingen om u te helpen uw organisatie in te richten. Ten eerste, laten we bespreken het verschil tussen **setup** en de **setup pagina**. **Setup** verwijst naar de eerste installatiewizard die u gewend was aan boord te nemen van de online services van Microsoft. Dat omvat meestal drie specifieke stappen: **Maak een domein**verbinden, Gebruikers **toevoegen**en **de Office-apps downloaden**. De **pagina Setup** is de pagina in het beheercentrum waarin taken zijn ingesteld om ervoor te zorgen dat u het meeste uit uw abonnementen haalt, zoals het inschakelen van functies waarvoor u licenties hebt gekocht.
 
-- **Setup** - De wizard Eerste instelling is bijgewerkt voor **Office 365 voor** Bedrijven-abonnementen. Dit nieuwe ontwerp zal nieuwe organisaties helpen sneller en met meer succes door de wizard te komen.
+- **Setup** - De wizard Eerste installatie is bijgewerkt voor **Microsoft 365 voor zakelijke** abonnementen. Dit nieuwe ontwerp zal nieuwe organisaties helpen sneller en met meer succes door de wizard te komen.
 - **Installatiepagina** - Met de pagina **Setup** u de services die bij uw abonnementen worden geleverd, voltooien en beveiligen. U ook afgewezen aanbevelingen zien op de **pagina Setup.** Ga naar het **Microsoft 365-beheercentrum** > **Setup**om te zien of deze nog beschikbaar is voor uw abonnementen.
 
 ### <a name="billing--subscriptions"></a>Facturering& abonnementen
@@ -414,7 +365,7 @@ We hebben nog een paar wijzigingen aangebracht in **gebruikersbeheer,** hier is 
 
 - Er is een nieuwe installatiebanner op de **startpagina** die u ziet als u de ingestelde stappen nog niet hebt voltooid, zoals het toevoegen van een domein, het toevoegen van gebruikers en het downloaden van de Office-apps.
 - De **lijst met groepen** en het detailvenster zijn bijgewerkt naar de nieuwe stijl. Ga naar > **Groepengroepen** om de wijzigingen te bekijken. **Groups**
-  - Over groepen gesproken, we hebben ook een **tabblad Microsoft Teams** toegevoegd aan het paginadetailsvenster voor groepen, waar u elke Office 365-groep in een team veranderen. Als u een groep wilt 'teamificeren', selecteert u een Office 365-groep in de lijst, selecteert u het tabblad **Microsoft Teams** en maakt u **Team .** Als de groep al een team is, krijg je een koppeling om deze te beheren vanuit het **Team-beheercentrum.**
+  - Over groepen gesproken, we hebben ook een **tabblad Microsoft Teams** toegevoegd aan het paginadetailsvenster voor groepen, waar u elke Microsoft 365-groep in een team veranderen. Als u een groep wilt "teamificeren" selecteert u een Microsoft 365-groep in de lijst, selecteert u het tabblad **Microsoft Teams** en maakt u **Team .** Als de groep al een team is, krijg je een koppeling om deze te beheren vanuit het **Team-beheercentrum.**
   - Ten slotte u de **status Teams** toevoegen aan de lijst **met groepen.** Selecteer in de kolomkop de optie **Kolommen selecteren** > **De status** > **Opslaan van**Teams .
 - **Nieuwe beperkte beheerdersrollen** - We hebben een aantal nieuwe beheerdersrollen uitgebracht, zodat u gebruikers alleen de toegang geven die ze nodig hebben.
   - **Kaizala-beheerder**: Gebruikers in deze rol hebben toestemming om alle beheertaken binnen Microsoft Kaizala uit te voeren, inclusief het maken en beheren van gebruikers in kaizala-directory, het beheren van Kaizala-groepen, het beheren van actiekaarten en connectoren en het maken van serviceaanvragen.

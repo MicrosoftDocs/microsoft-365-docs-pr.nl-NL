@@ -19,13 +19,13 @@ search.appverid:
 - MOE150
 ms.assetid: 481b460e-f799-4fac-9592-4d5c51bdcbd8
 ROBOTS: NOINDEX
-description: Meer informatie over het verwijderen of herstellen van het Office 365-account van een gebruiker.
-ms.openlocfilehash: 35245a0f9cbe78f6758c7071adea30053f7b8737
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: Meer informatie over het verwijderen of herstellen van het Microsoft 365-account van een gebruiker.
+ms.openlocfilehash: 7c6ab070db2821d914a26277b7f5c19043abe39b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42812170"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627882"
 ---
 # <a name="quick-help-deleted-user"></a>Snelle Help: Verwijderde gebruiker
 
@@ -40,9 +40,9 @@ Mogelijk dient u een [gebruiker](../add-users/add-users.md) uit uw organisatie t
   
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer een gebruiker en selecteer boven de lijst met gebruikers **Meer opties** (**...**) en kies vervolgens **Gebruiker verwijderen**.
+2. Selecteer een gebruiker en selecteer vervolgens boven de lijst met gebruikers **Meer opties** (**...**) en kies **Gebruiker verwijderen.**
   
-3. Selecteer **gebruiker verwijderen**in het bevestigingsvenster voor verwijderen. <br/>[Lees het volledige artikel.](../add-users/delete-a-user.md)
+3. Selecteer **gebruiker verwijderen**in het bevestigingsvenster voor verwijderen . <br/>[Lees het volledige artikel.](../add-users/delete-a-user.md)
   
 ::: moniker-end
 
@@ -50,9 +50,9 @@ Mogelijk dient u een [gebruiker](../add-users/add-users.md) uit uw organisatie t
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.  
 
-2. Selecteer een gebruiker en kies boven de lijst met gebruikers **meer** > **een gebruiker verwijderen**.
+2. Selecteer een gebruiker en kies boven de lijst met gebruikers **Meer** > **verwijderen van een gebruiker.**
   
-3. Selecteer **gebruiker verwijderen**in het bevestigingsvenster voor verwijderen. <br/>[Lees het volledige artikel.](../add-users/delete-a-user.md)
+3. Selecteer **gebruiker verwijderen**in het bevestigingsvenster voor verwijderen . <br/>[Lees het volledige artikel.](../add-users/delete-a-user.md)
 
 ::: moniker-end
 
@@ -60,24 +60,24 @@ Mogelijk dient u een [gebruiker](../add-users/add-users.md) uit uw organisatie t
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>. 
 
-2. Selecteer een gebruiker en kies boven de lijst met gebruikers **meer** > **een gebruiker verwijderen**.
+2. Selecteer een gebruiker en kies boven de lijst met gebruikers **Meer** > **verwijderen van een gebruiker.**
   
-3. Selecteer **gebruiker verwijderen**in het bevestigingsvenster voor verwijderen. <br/>[Lees het volledige artikel.](../add-users/delete-a-user.md)
+3. Selecteer **gebruiker verwijderen**in het bevestigingsvenster voor verwijderen . <br/>[Lees het volledige artikel.](../add-users/delete-a-user.md)
 
 ::: moniker-end
 
   
 ## <a name="restore-a-user"></a>Een gebruiker herstellen
 
-U gebruikers herstellen door te zoeken naar **verwijderd** op de startpagina en **Verwijderde gebruikers** in de resultaten te kiezen, of door naar de pagina **Verwijderde gebruikers** te gaan vanaf de linkernavigatie en de gebruiker te kiezen die u wilt herstellen. [Lees het hele artikel.](../add-users/delete-a-user.md)
+U gebruikers herstellen door te zoeken naar **verwijderde** op de startpagina en **verwijderde gebruikers** in de resultaten te kiezen, of door naar de pagina **Verwijderde gebruikers** te gaan vanaf de linkernavigatie en de gebruiker te kiezen die u wilt herstellen. [Lees het hele artikel.](../add-users/delete-a-user.md)
   
 ## <a name="what-are-deleted-users"></a>Wat zijn verwijderde gebruikers?
 
 Een verwijderde [gebruiker](../add-users/add-users.md) is een werk- of schoolaccount dat u uit uw organisatie verwijdert. 
   
-## <a name="does-deleting-a-user-free-up-their-office-365-license"></a>Komt er een Office 365-licentie vrij als ik een gebruiker verwijder?
+## <a name="does-deleting-a-user-free-up-their-microsoft-365-license"></a>Maakt het verwijderen van een gebruiker zijn Microsoft 365-licentie vrij?
 
-Ja, als u de gebruiker verwijdert, komt de aan die gebruiker toegewezen Office 365-licentie vrij. U kunt de licentie vervolgens toewijzen aan een andere gebruiker. [Lees het hele artikel](../../commerce/licenses/remove-licenses-from-subscription.md).
+Ja, als u de gebruiker uitzet, wordt de Microsoft 365-licentie die aan die gebruiker is toegewezen, vrij. U kunt de licentie vervolgens toewijzen aan een andere gebruiker. [Lees het hele artikel](../../commerce/licenses/remove-licenses-from-subscription.md).
   
 ## <a name="i-had-a-deleted-user-listed-in-deleted-users-and-then-it-disappeared-what-happened"></a>Ik had een verwijderde gebruiker vermeld in Verwijderde gebruikers, en toen verdween het. Wat is er gebeurd?
 
@@ -93,6 +93,6 @@ Als u een gebruiker verwijdert, gaan de gegevens van de gebruiker niet verloren.
   
 ## <a name="how-do-i-restore-a-user"></a>Hoe kan ik een gebruiker terugzetten?
 
-U gebruikers herstellen door te zoeken naar **verwijderd** op de startpagina en **Verwijderde gebruikers** in de resultaten te kiezen, of door naar de pagina **Verwijderde gebruikers** te gaan vanaf de linkernavigatie en de gebruiker te kiezen die u wilt herstellen. [Lees het hele artikel](../add-users/delete-a-user.md).
+U gebruikers herstellen door te zoeken naar **verwijderde** op de startpagina en **verwijderde gebruikers** in de resultaten te kiezen, of door naar de pagina **Verwijderde gebruikers** te gaan vanaf de linkernavigatie en de gebruiker te kiezen die u wilt herstellen. [Lees het hele artikel](../add-users/delete-a-user.md).
   
 

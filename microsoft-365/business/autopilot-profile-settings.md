@@ -28,13 +28,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 99bfbf81-e719-4630-9b0f-c187edfa1f8a
-description: Met AutoPilot-profielen u bepalen hoe Windows wordt geïnstalleerd op gebruikersapparaten. De profielen bevatten standaard instellingen en optionele instellingen zoals cortana-installatie overslaan.
-ms.openlocfilehash: 1cc8a3171bbc4a1e5cb531b9364c7791586fc339
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Met AutoPilot-profielen u bepalen hoe Windows wordt geïnstalleerd op gebruikersapparaten. De profielen bevatten standaard- en optionele instellingen, zoals cortana-installatie overslaan.
+ms.openlocfilehash: 5c2ec3f4c3e0ebc4ea545d11f819c897f414ad52
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593328"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627409"
 ---
 # <a name="about-autopilot-profile-settings"></a>Info over AutoPilot-profielinstellingen
 
@@ -46,9 +46,9 @@ U AutoPilot-profielen gebruiken om te bepalen hoe Windows is geïnstalleerd op g
   
 |**Instelling**|**Beschrijving**|
 |:-----|:-----|
-|Cortana-, OneDrive- en OEM-registratie overslaan  <br/> |Het installeren van consumentenapplicaties zoals Cortana en persoonlijke OneDrive wordt overgeslagen. De apparaatgebruiker kan deze later installeren zolang de gebruiker een lokale beheerder op het apparaat is. De OEM-registratie wordt overgeslagen omdat het apparaat wordt beheerd door Microsoft 365 Business.  <br/> |
-|Aanmeldervaring met de huisstijl van uw bedrijf  <br/> |Als uw bedrijf een [aanmeldingspagina van uw bedrijf heeft toegevoegd aan de aanmeldingspagina van Office 365,](https://support.office.com/article/a1229cdb-ce19-4da5-90c7-2b9b146aef0a)krijgt de apparaatgebruiker die ervaring bij het aanmelden.  <br/> |
-|Automatische inschrijving van MDM met geconfigureerde AAD-accounts.  <br/> |De gebruikersidentiteit wordt beheerd door Azure Active Directory en gebruikers melden zich aan bij Windows en Office 365 met hun Microsoft 365 Business-referenties.  <br/> |
+|Cortana-, OneDrive- en OEM-registratie overslaan  <br/> |Het installeren van consumentenapplicaties zoals Cortana en persoonlijke OneDrive wordt overgeslagen. De gebruiker van het apparaat kan deze later installeren zolang de gebruiker een lokale beheerder op het apparaat is. De oorspronkelijke registratie van de fabrikant wordt overgeslagen omdat het apparaat wordt beheerd door Microsoft 365 Business Premium.  <br/> |
+|Aanmeldervaring met de huisstijl van uw bedrijf  <br/> |Als uw bedrijf een [aanmeldingspagina toevoegen aan Microsoft 365](https://support.office.com/article/a1229cdb-ce19-4da5-90c7-2b9b146aef0a)heeft, krijgt de apparaatgebruiker die ervaring bij het aanmelden.  <br/> |
+|Automatische inschrijving van MDM met geconfigureerde AAD-accounts.  <br/> |De gebruikersidentiteit wordt beheerd door Azure Active Directory en gebruikers melden zich aan bij Windows en Microsoft 365 met hun Microsoft 365 Business Premium-referenties.  <br/> |
    
  **Optionele instellingen:**
   

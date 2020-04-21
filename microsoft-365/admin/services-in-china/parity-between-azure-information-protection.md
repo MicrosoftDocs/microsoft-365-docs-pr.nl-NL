@@ -1,5 +1,5 @@
 ---
-title: Office 365 beheerd door 21Vianet
+title: Office 365, beheerd door 21Vianet
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 description: Meer informatie over Azure Information Protection voor Office 365 wordt beheerd door 21Vianet en hoe u deze configureert voor klanten in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: a4eb8c3370a123b939fdccc53eec3905f79ee806
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 3d24b450cc9ba9a6427732d408e35af1394b4a34
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42805963"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627652"
 ---
 # <a name="parity-between-azure-information-protection-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>Pariteit tussen Azure Information Protection voor Office 365 die wordt beheerd door 21Vianet en commerciële aanbiedingen
 
@@ -32,7 +32,7 @@ Hoewel ons doel is om alle commerciële functies en functionaliteit te leveren a
 
 Dit zijn de bestaande hiaten tussen Azure Information Protection voor Office 365 die worden beheerd door 21Vianet en ons commerciële aanbod vanaf juli 2019:
 
-- Information Rights Management (IRM) wordt alleen ondersteund voor Office 365 ProPlus (build 11731.10000 of hoger). Office 2010, Office 2013 en andere Office 2016-versies worden niet ondersteund.
+- Information Rights Management (IRM) wordt alleen ondersteund voor Microsoft 365 Apps for enterprise (build 11731.10000 of hoger). Office 2010, Office 2013 en andere Office 2016-versies worden niet ondersteund.
 
 - Migratie van Active Directory Rights Management Services (AD RMS) naar Azure Information Protection is momenteel niet beschikbaar.
   

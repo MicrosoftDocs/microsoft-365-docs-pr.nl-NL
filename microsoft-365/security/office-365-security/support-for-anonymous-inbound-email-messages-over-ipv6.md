@@ -15,16 +15,16 @@ ms.assetid: b68df621-0a5f-4824-8abc-41e0c4fd1398
 ms.collection:
 - M365-security-compliance
 description: Beheerder kan in Exchange Online en Exchange Online Protection leren hoe u ondersteuning configureert voor anonieme binnenkomende e-mail van IPv6-bronnen.
-ms.openlocfilehash: 414c10f3387138ed7e62f2de4e8549e45d128d2e
-ms.sourcegitcommit: 256184cf731c1851b04a07dd7d59ecf020d02635
+ms.openlocfilehash: 86de431f8f46af1c5ddae8ecc91f326c6e3280e6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131517"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631215"
 ---
-# <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-office-365"></a>Ondersteuning toevoegen voor anonieme binnenkomende e-mail via IPv6 in Office 365
+# <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>Ondersteuning toevoegen voor anonieme binnenkomende e-mail via IPv6 in Microsoft 365
 
-Office 365-organisaties met Exchange Online-postvakken en zelfstandige Exchange Online Protection -organisaties (EOP)-organisaties zonder Exchange Online-postvakken ondersteunen anonieme binnenkomende e-mail via IPv6. De e-mailserver van de bron-IPv6 moet aan beide volgende vereisten voldoen:
+Microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken ondersteunen anonieme binnenkomende e-mail via IPv6. De e-mailserver van de bron-IPv6 moet aan beide volgende vereisten voldoen:
 
 - Het bron-IPv6-adres moet een geldige reverse DNS lookup (PTR)-record hebben waarmee de bestemming de domeinnaam kan vinden vanaf het IPv6-adres.
 
@@ -50,4 +50,4 @@ Nadat anonieme inkomende IPv6-berichtondersteuning is ingeschakeld in uw organis
 
 ## <a name="for-more-information"></a>Voor meer informatie
 
-[Ondersteuning voor validatie van ondertekende DKIM-berichten](support-for-validation-of-dkim-signed-messages.md)
+[Ondersteuning voor validatie van DKIM-ondertekende berichten](support-for-validation-of-dkim-signed-messages.md)

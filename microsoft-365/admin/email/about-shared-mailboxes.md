@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gedeelde postvakken worden gebruikt wanneer meerdere personen toegang tot hetzelfde postvak nodig hebben. Meer informatie over wat u moet weten voordat u een gedeeld postvak maakt.
-ms.openlocfilehash: 8e9e4b1ae0235886a9dbb5b39ad4c0f78c27b53f
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: fcdbb591e5b8f9b2c5490435b68e543c17a035a0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210538"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629105"
 ---
 # <a name="about-shared-mailboxes"></a>Meer over gedeelde postvakken
 
@@ -39,7 +39,7 @@ Voordat u [een gedeeld postvak maakt,](create-a-shared-mailbox.md)zijn hier enke
 
 - **Gebruikersmachtigingen:** U moet gebruikers machtigingen (lidmaatschap) geven om het gedeelde postvak te gebruiken. Alleen personen binnen uw organisatie kunnen een gedeeld postvak gebruiken.
 
-- **Externe gebruikers:** Je mensen buiten je bedrijf (zoals mensen met een Gmail-account) geen toegang geven tot je gedeelde postvak. Als u dat toch wilt doen, kunt u een groep voor Outlook maken. Zie [Een Office 365-groep maken in het beheercentrum](../create-groups/create-groups.md) voor meer informatie.
+- **Externe gebruikers:** Je mensen buiten je bedrijf (zoals mensen met een Gmail-account) geen toegang geven tot je gedeelde postvak. Als u dat toch wilt doen, kunt u een groep voor Outlook maken. Zie [Een Microsoft 365-groep maken in het beheercentrum](../create-groups/create-groups.md)voor meer informatie.
 
 -  **Gebruiken met Outlook:** Naast het gebruik van Outlook in de web vanuit uw browser om toegang te krijgen tot gedeelde postvakken, u ook de Outlook voor iOS-app of de Outlook voor Android-app gebruiken. Zie Een <a href="https://support.office.com/article/f866242c-81b2-472e-8776-6c49c5473c9f" target="_blank">gedeeld postvak toevoegen aan Outlook Mobile</a>voor meer informatie. Een andere optie is het maken van een groep voor uw gedeelde postvak. Zie [Groepen vergelijken voor](../create-groups/compare-groups.md)meer informatie .  
 
@@ -49,13 +49,13 @@ Voordat u [een gedeeld postvak maakt,](create-a-shared-mailbox.md)zijn hier enke
 
 - **Beheerdersrollen:** Gebruikers met algemene beheerders- of Exchange-beheerdersrollen kunnen gedeelde postvakken maken.
 
-- **Abonnementsvereisten:** Als u een gedeeld postvak wilt maken, moet u zich abonneren op een Office 365 voor Bedrijven-abonnement met e-mail (de Exchange Online-service). Het Office 365 Business-abonnement bevat geen e-mail. Office 365 Business Premium wel.
+- **Abonnementsvereisten:** Als u een gedeeld postvak wilt maken, moet u zich abonneren op een Microsoft 365 voor bedrijven-abonnement met e-mail (de Exchange Online-service). Het Microsoft 365 Apps for Business-abonnement bevat geen e-mail. Microsoft 365 Business Standard wel.
 
 - **Aanmelden:** Een gedeeld postvak is niet bedoeld voor directe aanmelding door het gekoppelde gebruikersaccount. Je moet altijd aanmelden voor het gedeelde postvakaccount blokkeren en blokkeren.
 
-- **Te veel gebruikers:** Wanneer er te veel aangewezen gebruikers gelijktijdig toegang hebben tot een gedeeld postvak, kunnen ze met tussenpozen geen verbinding maken met dit postvak. In dit geval u overwegen het aantal gebruikers te verminderen of een andere werkbelasting te gebruiken, zoals de Office 365-groep of de map Openbaar.
+- **Te veel gebruikers:** Wanneer er te veel aangewezen gebruikers gelijktijdig toegang hebben tot een gedeeld postvak, kunnen ze met tussenpozen geen verbinding maken met dit postvak. In dit geval u overwegen het aantal gebruikers te verminderen of een andere workload te gebruiken, zoals een Microsoft 365-groep of openbare map.
 
-- **Bericht verwijderen:** Helaas u niet voorkomen dat mensen berichten verwijderen in een gedeeld postvak. U kunt dit alleen omzeilen door een Office 365-groep te maken in plaats van een gedeeld postvak. Een groep in Outlook is net zoiets als een gedeeld postvak. Zie [Groepen vergelijken](../create-groups/compare-groups.md) voor een vergelijking. Zie [Meer informatie over groepen voor](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx) meer informatie over groepen
+- **Bericht verwijderen:** Helaas u niet voorkomen dat mensen berichten verwijderen in een gedeeld postvak. De enige manier om dit te omzeilen is het maken van een Microsoft 365-groep in plaats van een gedeeld postvak. Een groep in Outlook is als een gedeeld postvak. Zie [Groepen vergelijken voor](../create-groups/compare-groups.md)een vergelijking van de twee . Zie [Meer informatie over groepen voor](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx) meer informatie over groepen
 
 ## <a name="related-articles"></a>Verwante artikelen
 

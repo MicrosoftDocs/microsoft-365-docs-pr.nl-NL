@@ -1,5 +1,5 @@
 ---
-title: Uw Office 365 voor bedrijven-gebruikers upgraden naar de nieuwste Office-client
+title: Uw Microsoft 365 voor zakelijke gebruikers upgraden naar de nieuwste Office-client
 f1.keywords:
 - NOCSH
 ms.author: kwekuako
@@ -19,14 +19,14 @@ ms.custom:
 - fwlink 824861; CampaignID O365_Comm_SR_UpgradeOffice
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Meer informatie over het upgraden van uw gebruikers naar de nieuwste Office-client.
-ms.openlocfilehash: 18200184ed8d7eb15ee4eef3903ac9d8e08b9854
-ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
+ms.openlocfilehash: 148069011784b822c5ce366190afd60bf278772f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521457"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627532"
 ---
-# <a name="upgrade-your-office-365-for-business-users-to-the-latest-office-client"></a>Uw Office 365 voor bedrijven-gebruikers upgraden naar de nieuwste Office-client
+# <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Uw Microsoft 365 voor zakelijke gebruikers upgraden naar de nieuwste Office-client
 
 ## <a name="office-2010-reaches-end-of-support"></a>Office 2010 bereikt einde ondersteuning
 
@@ -42,9 +42,9 @@ Zie [office 2010 end of support roadmap](https://docs.microsoft.com/deployoffice
 
  **Is dit het juiste onderwerp voor u?**
   
- Als u de beheerder bent die verantwoordelijk is voor het Office 365 voor Bedrijven-abonnement in uw organisatie, bent u op de juiste plaats. Beheerders zijn doorgaans verantwoordelijk voor taken zoals het beheren van gebruikers, het opnieuw instellen van wachtwoorden, het beheren van Office-installaties en het toevoegen of verwijderen van licenties.
+ Als u de beheerder bent die verantwoordelijk is voor het Microsoft 365 voor Bedrijven-abonnement in uw organisatie, bent u op de juiste plaats. Beheerders zijn doorgaans verantwoordelijk voor taken zoals het beheren van gebruikers, het opnieuw instellen van wachtwoorden, het beheren van Office-installaties en het toevoegen of verwijderen van licenties.
 
- Als u geen beheerder bent en u een [Office voor thuisproduct](https://support.office.com/article/28cbc8cf-1332-4f04-9123-9b660abb629e.aspx#BKMK_OfficePlans) hebt, [raadpleegt u Hoe kan ik Office upgraden](https://support.office.com/article/ee68f6cf-422f-464a-82ec-385f65391350.aspx) voor informatie over het upgraden van uw oudere versie voor thuisgebruik van Office.
+ Als u geen beheerder bent en u een [Microsoft 365-gezinsproduct hebt,](https://support.office.com/article/28cbc8cf-1332-4f04-9123-9b660abb629e.aspx#BKMK_OfficePlans) raadpleegt [u Hoe kan ik Office upgraden](https://support.office.com/article/ee68f6cf-422f-464a-82ec-385f65391350.aspx) voor informatie over het upgraden van uw oudere versie voor thuisgebruik van Office.
 
 ## <a name="get-ready-to-upgrade"></a>Voorbereiden op het uitvoeren van de upgrade
 
@@ -71,9 +71,9 @@ Bijvoorbeeld: als u invoegtoepassingen van derden met uw huidige Office-installa
   
 ## <a name="step-2---check-your-existing-subscription-plan"></a>Stap 2: uw bestaande abonnement controleren
 
-In sommige Office 365-abonnementen is niet de volledige bureaubladversie van Office opgenomen en de stappen voor het uitvoeren van een upgrade verschillen als Office niet in uw abonnement is opgenomen.
+Sommige Microsoft 365-abonnementen bevatten niet de volledige desktopversies van Office en de stappen om te upgraden zijn anders als uw abonnement geen Office bevat.
   
-Weet u niet zeker welk abonnement u hebt? Zie [Welk Office 365 voor Bedrijven-abonnement heb ik?](../admin-overview/what-subscription-do-i-have.md)
+Weet u niet zeker welk abonnement u hebt? Zie [welk Microsoft 365 voor zakelijk abonnement heb ik?](../admin-overview/what-subscription-do-i-have.md)
   
 Als uw bestaande abonnement Office omvat, gaat u naar [Stap 3: Office verwijderen](#step-3---uninstall-office).
   
@@ -83,7 +83,7 @@ Als Office niet is opgenomen in uw bestaande abonnement, selecteert u een van de
 
  **Optie 1: Office-abonnementen verwisselen**
 
-Stap over op een abonnement waarin Office is opgenomen. Zie [Overstappen op een ander Office 365 voor Bedrijven-abonnement](../../commerce/subscriptions/switch-to-a-different-plan.md).
+Stap over op een abonnement waarin Office is opgenomen. Zie [Overschakelen naar een ander Microsoft 365 voor zakelijk abonnement](../../commerce/subscriptions/switch-to-a-different-plan.md).
 
 **Optie 2: Individuele, eenmalige aankopen van Office kopen of Office kopen via een volumelicentie**
 
@@ -111,13 +111,13 @@ Als u invoegtoepassingen van derden hebt, u contact opnemen met de fabrikant om 
 
  **Office vooraf geïnstalleerd op uw computer** Als u geen schijf of productcode meer hebt (als Office met een schijf is gekomen) u deze niet opnieuw installeren.
 
- **Niet-ondersteunde Office 365-abonnementen** Als uw exemplaar van Office is verkregen via niet-stopgezette abonnementen, zoals Office 365 Voor Professionals en Kleine Bedrijven Premium of Office 365 Voor Middelgrote en Grote Ondernemingen, u geen oudere versie van Office installeren, tenzij u de productcode hebt die bij uw abonnement is geleverd.
+ **Niet-ondersteunde abonnementen** Als uw exemplaar van Office is verkregen via niet-stopgezette abonnementen, zoals Office 365 Voor Professionals en Kleine Bedrijven Premium of Office 365 Voor Middelgrote en Grote Ondernemingen, u geen oudere versie van Office installeren, tenzij u de productcode hebt die bij uw abonnement is geleverd.
 
 Als u de oudere versie van Office en de nieuwste versie graag beide geïnstalleerd wilt hebben, kunt u in [Install and use different versions of Office on the same PC](https://support.office.com/article/6ebb44ce-18a3-43f9-a187-b78c513788bf.aspx) (Meerdere versies van Office op dezelfde pc installeren en gebruiken) een lijst raadplegen met de versies waarvoor dit wordt ondersteund. Het is bijvoorbeeld handig over beide versies te beschikken, als u invoegtoepassingen van derden hebt geïnstalleerd met een oudere versie van Office en u niet zeker weet of deze compatibel zijn met de nieuwste versie.
 
 ## <a name="step-4---assign-office-licenses-to-users"></a>Stap 4: Office-licenties toewijzen aan gebruikers
 
-Als u dit nog niet hebt gedaan, wijst u licenties toe aan gebruikers in uw organisatie die Office moeten installeren, [raadpleegt u Licenties toewijzen aan gebruikers in Office 365 voor Bedrijven.](../manage/assign-licenses-to-users.md)
+Als u dit nog niet hebt gedaan, wijst u licenties toe aan gebruikers in uw organisatie die Office moeten installeren, [raadpleegt u Licenties toewijzen aan gebruikers in Microsoft 365 voor Bedrijven.](../manage/assign-licenses-to-users.md)
   
 ## <a name="step-5---install-office"></a>Stap 5: Office installeren
 

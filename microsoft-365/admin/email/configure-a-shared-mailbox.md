@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Nadat u een gedeeld postvak hebt gemaakt, wilt u een aantal instellingen configureren voor de gebruikers, zoals het doorsturen van e-mail en automatische antwoorden. Later u andere instellingen wijzigen, zoals de naam van het postvak of de leden.
-ms.openlocfilehash: fc2995dc448c7cb28c13c10d78b57e7141963539
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 63d3d0a5867875344ff4635071bbbad69e02eadc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212019"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629045"
 ---
 # <a name="configure-a-shared-mailbox"></a>Een gedeeld postvak configureren
 
@@ -122,7 +122,7 @@ Standaard worden berichten die vanuit het gedeelde postvak worden verzonden, nie
 Als u wilt dat iedereen de verzonden e-mail kan zien, bewerkt u in het beheercentrum de instellingen van het gedeelde postvak en selecteert u **Verzonden items** \> **Bewerken**.
 
 
-## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-office-365-email"></a>De apps kiezen die een gedeeld postvak kan gebruiken om toegang te krijgen tot e-mail van Office 365
+## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-microsoft-email"></a>Kies de apps die een gedeeld postvak kan gebruiken om toegang te krijgen tot Microsoft-e-mail
 
 ::: moniker range="o365-worldwide"
 

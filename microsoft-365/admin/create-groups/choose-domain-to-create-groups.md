@@ -1,5 +1,5 @@
 ---
-title: Het domein kiezen dat u wilt gebruiken voor het maken van Office 365-groepen
+title: Het domein kiezen dat u wilt gebruiken bij het maken van Microsoft 365-groepen
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -18,21 +18,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
-description: 'Lees het domein dat u wilt gebruiken bij het maken van Office 365-groepen door het beleid voor e-mailadressen te configureren met PowerShell. '
-ms.openlocfilehash: 8bca0e3c33d5cb523fc075d1d2d5b04b6506b256
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: 'Lees het domein dat u wilt gebruiken bij het maken van Microsoft 365-groepen door het beleid voor e-mailadressen te configureren met PowerShell. '
+ms.openlocfilehash: 1bc8a160ffc368bc4c66a5ac17ffcb203dc678f5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894643"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630621"
 ---
-# <a name="choose-the-domain-to-use-when-creating-office-365-groups"></a>Het domein kiezen dat u wilt gebruiken voor het maken van Office 365-groepen
+# <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Het domein kiezen dat u wilt gebruiken bij het maken van Microsoft 365-groepen
 
- Sommige organisaties gebruiken afzonderlijke e-maildomeinen om verschillende onderdelen van het bedrijf te segmenteren. U kunt opgeven welk domein moet worden gebruikt als uw gebruikers Office 365-groepen maken.
+ Sommige organisaties gebruiken afzonderlijke e-maildomeinen om verschillende onderdelen van het bedrijf te segmenteren. U opgeven welk domein moet worden gebruikt wanneer uw gebruikers Microsoft 365-groepen maken.
   
 Als uw organisatie vereist dat gebruikers hun groepen maken in andere domeinen dan het standaard geaccepteerde domein van uw bedrijf, kunt u dit toestaan door met PowerShell e-mailadresbeleidsregels (EAP's) te configureren.
   
-U kunt de PowerShell-cmdlets pas uitvoeren nadat u een module hebt gedownload en geïnstalleerd die het mogelijk maakt om met uw Office 365-organisatie te communiceren. Zie [Verbinding maken met Exchange Online via externe PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=785881)
+Voordat u de PowerShell-cmdlets uitvoeren, u een module downloaden en installeren waarmee u met uw organisatie praten. Zie [Verbinding maken met Exchange Online via externe PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=785881)
   
 ## <a name="example-scenarios"></a>Voorbeelden van scenario's
 
@@ -51,7 +51,7 @@ In de volgende twee scenario's wordt uitgelegd hoe u dit kunt doen.
   
 ### <a name="scenario-1"></a>Scenario 1
 
-In het volgende voorbeeld ziet u hoe u alle Office 365-groepen in uw organisatie inricht in het domein groups.contoso.com.
+In het volgende voorbeeld ziet u hoe u alle Microsoft 365-groepen in uw organisatie in het domein groups.contoso.com inrichten.
   
 ```
 New-EmailAddressPolicy -Name Groups -IncludeUnifiedGroupRecipients -EnabledEmailAddressTemplates "SMTP:@groups.contoso.com" -Priority 1
@@ -59,7 +59,7 @@ New-EmailAddressPolicy -Name Groups -IncludeUnifiedGroupRecipients -EnabledEmail
 
 ### <a name="scenario-2"></a>Scenario 2
 
-Stel dat u wilt bepalen in welke subdomeinen Office 365-groepen worden gemaakt. U wilt dat:
+Stel dat u wilt bepalen in welke subdomeinen Microsoft 365-groepen zijn gemaakt. U wilt dat:
   
 - Groepen die zijn gemaakt door studenten (gebruikers die **afdeling** hebben ingesteld op **studenten)** in het students.groups.contoso.com domein. Gebruik deze opdracht:
     
@@ -102,7 +102,7 @@ Het wijzigen van een EAP heeft geen invloed op de groepen die al zijn ingericht.
   
 ## <a name="hybrid-requirements"></a>Hybride vereisten
 
-Als uw organisatie is geconfigureerd in een hybride scenario, raadpleeg dan [Office 365-groepen configureren met een hybride on-premises implementatie van Exchange](https://go.microsoft.com/fwlink/p/?LinkId=785430) om ervoor te zorgen dat uw organisatie voldoet aan de vereisten voor het maken van Office 365-groepen. 
+Als uw organisatie is geconfigureerd in een hybride scenario, raadpleegt u [Microsoft 365-groepen configureren met on-premises Exchange-hybride](https://go.microsoft.com/fwlink/p/?LinkId=785430) om te controleren of uw organisatie voldoet aan de vereisten voor het maken van Microsoft 365-groepen. 
   
 ## <a name="additional-info-about-using-email-address-policies-groups"></a>Aanvullende informatie over het gebruik van beleidsgroepen voor e-mailadressen:
 
@@ -122,4 +122,4 @@ Er zijn nog een paar dingen die u moet weten:
     
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Een Office 365-groep maken in het beheercentrum](create-groups.md)
+[Een Microsoft 365-groep maken in het beheercentrum](create-groups.md)
