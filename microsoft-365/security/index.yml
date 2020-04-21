@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Microsoft 365-beveiligingsdocumentatie
-summary: Meer informatie over de robuuste beveiligingsoplossingen en -services in Microsoft 365 Security, zodat u uw onderneming beter beschermen op verschillende aanvalsoppervlakken.
+title: Documentatie over Microsoft 365-beveiliging
+summary: Lees meer over de krachtige beveiligingsoplossingen en -services in Microsoft 365-beveiliging, zodat u uw onderneming beter kunt beveiligen op meerdere fronten.
 metadata:
-  title: Microsoft 365-beveiligingsdocumentatie
-  description: Meer informatie over de robuuste beveiligingsoplossingen en -services in Microsoft 365 Security, zodat u uw onderneming beter beschermen op verschillende aanvalsoppervlakken
+  title: Documentatie over Microsoft 365-beveiliging
+  description: Lees meer over de krachtige beveiligingsoplossingen en -services in Microsoft 365-beveiliging, zodat u uw onderneming beter kunt beveiligen op meerdere fronten
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: de1824abe2b35cb80552c6c261f1389db9b48ca0
   ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: nl-NL
   ms.lasthandoff: 04/09/2020
   ms.locfileid: "43198347"
@@ -78,5 +78,5 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Veilige score
+    - text: Secure Score
       url: mtp/microsoft-secure-score.md

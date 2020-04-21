@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Lees wat er met uw gegevens gebeurt wanneer uw abonnement op Office 365 voor Bedrijven verloopt, is uitgeschakeld of als u opzegt.
-ms.openlocfilehash: 2529d5027305a9ceaf71033b4de52a867b9fa9fb
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: f3be5a84cc29b2f7fd4d2bbe3e6ba611c6459ea6
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955671"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43584007"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-office-365-for-business-subscription-ends"></a>Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement op Office 365 voor Bedrijven afloopt?
 
@@ -44,7 +44,7 @@ In de volgende tabel wordt uitgelegd wat u verwachten wanneer een betaald Abonne
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | *Gegevens die toegankelijk zijn voor iedereen*                                               | *Gegevens die toegankelijk zijn voor iedereen*                                                     | *Alleen gegevens die toegankelijk zijn voor beheerders*                                             | **Gegevens verwijderd<br/>Azure Active Directory wordt verwijderd, indien niet in gebruik door andere services** |
 | Gebruikers hebben normale toegang tot Office 365,gegevens en Office-toepassingen  | Gebruikers hebben normale toegang tot Office 365, bestanden en toepassingen              | Gebruikers hebben geen toegang tot Office 365, bestanden of toepassingen                        | Gebruikers hebben geen toegang tot Office 365, bestanden of toepassingen                                     |
-| Beheerders hebben normale toegang tot Office 365,gegevens en Office-toepassingen | Beheerders hebben toegang tot het beheercentrum, maar kunnen geen licenties toewijzen aan gebruikers   | Beheerders hebben toegang tot het beheercentrum, maar kunnen geen licenties toewijzen aan gebruikers       | Beheerders hebben toegang tot het beheercentrum om andere abonnementen te kopen en te beheren             |
+| Beheerders hebben normale toegang tot Office 365,gegevens en Office-toepassingen | Beheerders hebben toegang tot het beheercentrum   | Beheerders hebben toegang tot het beheercentrum, maar kunnen geen licenties toewijzen aan gebruikers       | Beheerders hebben toegang tot het beheercentrum om andere abonnementen te kopen en te beheren             |
 |                                                                        | Globale of factureringsbeheerders kunnen het abonnement opnieuw activeren in het beheercentrum | Globale of factureringsbeheerders kunnen het abonnement opnieuw activeren in het beheercentrum |                                                                                           |
 
 *Voor de meeste aanbiedingen, in de meeste landen en regio's.
@@ -143,7 +143,7 @@ Dit is wat u verwachten wanneer uw abonnement in elke staat is.
 
 In deze status hebben gebruikers normale toegang tot de Office 365-portal, Office-toepassingen en services zoals e-mail en SharePoint Online.
   
-Als beheerder hebt u nog steeds toegang tot het beheercentrum, maar u geen licenties toewijzen aan gebruikers. Globale of factureringsbeheerders kunnen [het abonnement opnieuw activeren](reactivate-your-subscription.md) en Office 365 blijven gebruiken. Als u niet opnieuw activeert, moet u [een back-up maken van uw gegevens.](back-up-data-before-switching-plans.md)
+Als beheerder heb je nog steeds toegang tot het beheercentrum. Globale of factureringsbeheerders kunnen [het abonnement opnieuw activeren](reactivate-your-subscription.md) en Office 365 blijven gebruiken. Als u niet opnieuw activeert, moet u [een back-up maken van uw gegevens.](back-up-data-before-switching-plans.md)
   
 ### <a name="state-disabled"></a>Staat: Uitgeschakeld
   
