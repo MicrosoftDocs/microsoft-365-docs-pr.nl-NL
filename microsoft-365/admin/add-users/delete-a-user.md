@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Meer informatie over gebruikersaccounts verwijderen. Bepaal wat u wilt doen met de e-mail van de gebruiker, de inhoud op OneDrive en of u de productlicentie wilt behouden of er niet meer voor wilt betalen.
-ms.openlocfilehash: 2c87f04675ec92e964acb6fc9aef7171b6d7d510
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 59d06a075b5badeda410b4b25d60fa135b9ce5f7
+ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42805534"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43608117"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Een gebruiker uit uw organisatie verwijderen
   
@@ -99,7 +99,8 @@ Omdat de begeleide ervaring stap voor stap uitlegt hoe u de gebruiker verwijdert
 ## <a name="user-management-admin-delete-one-or-more-users-from-office-365"></a>Beheerder van gebruikersbeheer: Een of meer gebruikers verwijderen uit Office 365
 
 
- **BELANGRIJK**: Verwijder het account van een gebruiker niet als u dat hebt [omgezet naar een gedeeld postvak](../email/convert-user-mailbox-to-shared-mailbox.md) of als u in het account het doorsturen van e-mail hebt ingesteld. Voor deze functies is het account vereist. Als u het hebt omgezet naar een gedeeld postvak, kunt u [Stoppen met betalen voor de licentie](#stop-paying-for-the-license) zodat u er niet voor betaalt. Als u het doorsturen van e-mail hebt ingesteld, kunt u de licentie niet verwijderen. Als u de licentie verwijdert, wordt het doorsturen stopgezet en het post gedeactiveerd. 
+> [!IMPORTANT]
+> Verwijder het account van een gebruiker niet als je het hebt [geconverteerd naar een gedeeld postvak](../email/convert-user-mailbox-to-shared-mailbox.md) of als je e-mail doorsturen in het account hebt ingesteld. Die functies hebben nog steeds het account nodig. Voor een gedeeld postvak is geen licentie vereist. Als u het account hebt geconverteerd naar een gedeeld postvak, u [stoppen met betalen voor de licentie.](#stop-paying-for-the-license) Als u e-mail doorsturen voor het account hebt ingesteld, u de licentie niet verwijderen. Als u dit doet, wordt het doorsturen van e-mail gestopt en wordt het postvak gedeactiveerd.
   
 ::: moniker range="o365-worldwide"
 

@@ -1,5 +1,5 @@
 ---
-title: Uitgaande spamfilters configureren
+title: Filteren van uitgaande spam configureren
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,12 +16,12 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: Uitgaande spamfilters zijn altijd ingeschakeld als u de service gebruikt voor het verzenden van uitgaande e-mail, waardoor organisaties worden beschermd die de service en de beoogde ontvangers gebruiken.
-ms.openlocfilehash: 3ac85776db5d990d46b858294acf8ef66c7f26bc
-ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
+ms.openlocfilehash: 699de94a300ac8625e92d2c467edd461d72c7d2f
+ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43231002"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43608172"
 ---
 # <a name="configure-outbound-spam-filtering-in-office-365"></a>Uitgaande spamfilters configureren in Office 365
 
@@ -140,7 +140,11 @@ Als u een aangepast uitgaand spambeleid maakt in het Security & Compliance Cente
 
      Schakel het selectievakje uit om deze instelling uit te schakelen.
 
-5. (Optioneel) De sectie **Adressenlimieten** uitbreiden om de limieten en acties voor verdachte uitgaande e-mailberichten te configureren: ]
+5. (Optioneel) Vouw de sectie **Adressenlimieten** uit om de limieten en acties voor verdachte uitgaande e-mailberichten te configureren:
+
+   > [!NOTE]
+   > Deze instellingen zijn alleen van toepassing op postvakken in de cloud.
+     
    - **Maximum aantal ontvangers per gebruiker**
 
      Een geldige waarde is 0 tot 10000. De standaardwaarde is 0, wat betekent dat de standaardinstellingen van de service worden gebruikt. Zie [Limieten verzenden voor office 365-opties voor](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)meer informatie.
@@ -493,6 +497,6 @@ Zie [Remove-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/
 
 [Geblokkeerde gebruikers verwijderen uit de portal voor gebruikers met beperkte rechten in Office 365](removing-user-from-restricted-users-portal-after-spam.md)
 
-[Leveringspool met een hoog risico voor uitgaande berichten](high-risk-delivery-pool-for-outbound-messages.md)
+[Groep met verhoogd risico voor uitgaande berichten](high-risk-delivery-pool-for-outbound-messages.md)
 
-[Veelgestelde vragen over antispambescherming](anti-spam-protection-faq.md)
+[Veelgestelde vragen over beveiliging tegen ongewenste e-mail](anti-spam-protection-faq.md)

@@ -17,12 +17,12 @@ ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
 description: Definieer beleid voor veilige bijlagen om uw organisatie te beschermen tegen schadelijke bestanden in e-mail.
-ms.openlocfilehash: 860e733bda8f16eff8e36e42055c7ea7fa88e343
-ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
+ms.openlocfilehash: 8151cf1ec25ae46ae7a1845f34f42df3e5483bb2
+ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43230966"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43608100"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Beleid voor veilige bijlagen van Office 365 instellen
 
@@ -98,7 +98,7 @@ Terwijl u uw ATP-beleid voor veilige bijlagen instelt, u kiezen uit verschillend
 |**Vervangen**|Verwijdert gedetecteerde malwarebijlagen  <br/> Ontvangers op de hoogte stelt dat bijlagen zijn verwijderd  <br/> Hiermee verzendt u berichten met gedetecteerde malware naar [quarantaine in Office 365,](manage-quarantined-messages-and-files.md) waar een beveiligingsbeheerder of analist deze berichten kan controleren en vrijgeven (of verwijderen)|Zichtbaarheid verhogen bij ontvangers dat bijlagen zijn verwijderd vanwege gedetecteerde malware|
 |**Dynamische levering**|Levert onmiddellijk berichten  <br/> Vervangt bijlagen door een tijdelijke aanduidingsbestand totdat het scannen is voltooid en koppelt de bijlagen opnieuw als er geen malware wordt gedetecteerd  <br/> Inclusief mogelijkheden voor het bekijken van bijlagen voor de meeste PDF's en Office-bestanden tijdens het scannen  <br/> Hiermee verzendt u berichten met gedetecteerde malware naar quarantaine waar een beveiligingsbeheerder of analist deze berichten kan controleren en vrijgeven (of verwijderen)  <br/> [Meer informatie over dynamische weergave en previewing met veilige ATP-bijlagen](dynamic-delivery-and-previewing.md) <br/> |Voorkom vertragingen in berichten en bescherm ontvangers van schadelijke bestanden  <br/> Ontvangers inschakelen om bijlagen in veilige modus te bekijken terwijl het scannen plaatsvindt|
 |**Omleiding inschakelen**|Van toepassing wanneer de optie Monitor, Blok of Vervangen wordt gekozen  <br/> Hiermee verzendt u bijlagen naar een opgegeven e-mailadres waar beveiligingsbeheerders of analisten onderzoek kunnen doen|Beveiligingsbeheerders en analisten in staat stellen verdachte bijlagen te onderzoeken|
-|**De bovenstaande selectie toepassen als malware scannen op bijlagen een tijd uit of fout optreedt**|Hiermee past u de actie toe die is geconfigureerd voor unasfe-bijlagen op de bijlagen die niet kunnen worden gescand (vanwege een time-out of fout)|
+|**De bovenstaande selectie toepassen als malware scannen op bijlagen een tijd uit of fout optreedt**|Past de actie toe die is geconfigureerd voor onveilige bijlagen op de bijlagen die niet kunnen worden gescand (vanwege een time-out of fout)|
 |
 
 ## <a name="next-steps"></a>Volgende stappen

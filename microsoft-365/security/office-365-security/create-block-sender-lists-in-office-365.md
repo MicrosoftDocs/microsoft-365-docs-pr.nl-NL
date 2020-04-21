@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 description: Beheerders kunnen meer te weten komen over de beschikbare opties in Office 365 en EOP om binnenkomende berichten te blokkeren.
-ms.openlocfilehash: 0bfab3024bc781e53600092ebc88fae25c5f4afc
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 9d53f49862bd69a846cb80ef584226a0940d2b22
+ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033420"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43608113"
 ---
 # <a name="create-blocked-sender-lists-in-office-365"></a>Lijsten met geblokkeerde afzenders maken in Office 365
 
@@ -52,7 +52,7 @@ Wanneer berichten met succes worden geblokkeerd vanwege de lijst Geblokkeerde af
 
 Wanneer meerdere gebruikers worden beïnvloed, is het bereik breder, dus de volgende beste optie is geblokkeerde afzenderlijsten of geblokkeerde domeinlijsten in antispambeleid. Berichten van afzenders op de lijsten worden gemarkeerd als **Spam**en de actie die u hebt ingesteld voor **het** spamfiltervonnis wordt op het bericht uitgevoerd. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
 
-De maximumlimiet voor deze lijsten is ongeveer 1000 vermeldingen; hoewel, u zult slechts 30 ingangen in de portaal kunnen ingaan. U moet PowerShell gebruiken om meer dan 30 vermeldingen toe te voegen.
+De maximumlimiet voor deze lijsten is ongeveer 1000 vermeldingen.
 
 ## <a name="use-mail-flow-rules"></a>Regels voor e-mailstromen gebruiken
 
