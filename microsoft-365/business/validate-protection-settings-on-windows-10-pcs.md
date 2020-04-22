@@ -21,74 +21,74 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Valideer de beveiligingsinstellingen voor Microsoft 365 Business-apps op Windows 10-apparaten en controleer of gebruikers bedrijfsgegevens niet kunnen kopiëren naar persoonlijke bestanden of niet-beheerde apps.
-ms.openlocfilehash: 5b798e0335188543fc308553f71085bcde8b7752
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: De instellingen voor de beveiliging van microsoft 365 Business Premium-apps valideren op Windows 10-apparaten en controleren of gebruikers geen bedrijfsgegevens kunnen kopiëren naar persoonlijke bestanden of niet-beheerde apps.
+ms.openlocfilehash: 20b2e43ae53486c046440ff1066d241ec9661888
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560835"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635739"
 ---
-# <a name="validate-app-protection-settings-on-windows-10-pcs"></a><span data-ttu-id="3b98b-103">Beveiligingsinstellingen voor apps op Windows 10-pc's valideren</span><span class="sxs-lookup"><span data-stu-id="3b98b-103">Validate app protection settings on Windows 10 PCs</span></span>
+# <a name="validate-app-protection-settings-on-windows-10-pcs"></a><span data-ttu-id="8868e-103">Beveiligingsinstellingen voor apps op Windows 10-pc's valideren</span><span class="sxs-lookup"><span data-stu-id="8868e-103">Validate app protection settings on Windows 10 PCs</span></span>
 
-## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-corporate-devices"></a><span data-ttu-id="3b98b-104">Controleren of gebruikers geen bedrijfsgegevens kunnen kopiëren naar persoonlijke bestanden op bedrijfsapparaten</span><span class="sxs-lookup"><span data-stu-id="3b98b-104">Verify that users cannot copy company data to personal files on corporate devices</span></span>
+## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-corporate-devices"></a><span data-ttu-id="8868e-104">Controleren of gebruikers geen bedrijfsgegevens kunnen kopiëren naar persoonlijke bestanden op bedrijfsapparaten</span><span class="sxs-lookup"><span data-stu-id="8868e-104">Verify that users cannot copy company data to personal files on corporate devices</span></span>
 
-<span data-ttu-id="3b98b-105">Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-windows-10-devices.md), kan het enkele uren duren voordat het beleid van kracht wordt op apparaten van gebruikers.</span><span class="sxs-lookup"><span data-stu-id="3b98b-105">After you [set up app protection policies](protection-settings-for-windows-10-devices.md), it may take up to a few hours for the policy to take effect on users' devices.</span></span> <span data-ttu-id="3b98b-106">Als u **de** instelling Voorkomen dat gebruikers bedrijfsgegevens naar persoonlijke bestanden kopieert inschakelt en **hen dwingt werkbestanden op te slaan in** de instelling OneDrive voor Bedrijven voor apparaten die eigendom zijn van het bedrijf, u dit controleren op het apparaat van de gebruiker nadat ze zijn verbonden met Azure AD en zijn aangemeld.</span><span class="sxs-lookup"><span data-stu-id="3b98b-106">If you turned **On** the **Prevent users from copying company data to personal files and force them to save work files to OneDrive for Business** setting for company owned devices, you can check this on the user's device after they've connected to Azure AD and signed in.</span></span> 
+<span data-ttu-id="8868e-105">Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-windows-10-devices.md), kan het enkele uren duren voordat het beleid van kracht wordt op apparaten van gebruikers.</span><span class="sxs-lookup"><span data-stu-id="8868e-105">After you [set up app protection policies](protection-settings-for-windows-10-devices.md), it may take up to a few hours for the policy to take effect on users' devices.</span></span> <span data-ttu-id="8868e-106">Als u Voorkomen **dat gebruikers bedrijfsgegevens naar persoonlijke bestanden kopiëren en hen dwingen werkbestanden op te slaan in de** instelling voor OneDrive voor Bedrijven voor apparaten die eigendom zijn van het bedrijf, hebt ingeschakeld, u dit controleren op het apparaat van de gebruiker nadat ze zijn verbonden met Azure AD en zijn aangemeld. **On**</span><span class="sxs-lookup"><span data-stu-id="8868e-106">If you turned **On** the **Prevent users from copying company data to personal files and force them to save work files to OneDrive for Business** setting for company owned devices, you can check this on the user's device after they've connected to Azure AD and signed in.</span></span> 
   
- <span data-ttu-id="3b98b-107">**Verbindingsinstellingen controleren**</span><span class="sxs-lookup"><span data-stu-id="3b98b-107">**Verify connection settings**</span></span>
+ <span data-ttu-id="8868e-107">**Verbindingsinstellingen controleren**</span><span class="sxs-lookup"><span data-stu-id="8868e-107">**Verify connection settings**</span></span>
   
-1. <span data-ttu-id="3b98b-p102">Nadat u zich hebt aangemeld met Microsoft 365 Business-referenties en verbinding maakt met Azure AD (zoals beschreven in [Windows-apparaten instellen voor gebruikers van Microsoft 365 Business](set-up-windows-devices.md)), gaat u naar **Windows-instellingen** \> **Accounts** \> **Toegang tot werk of school**. Kies **Verbonden met Azure AD van \<naam tenant\>** en kies vervolgens **Info**.</span><span class="sxs-lookup"><span data-stu-id="3b98b-p102">After you sign in with Microsoft 365 Business credentials and connect to Azure AD as described in [Set up Windows devices for Microsoft 365 Business users](set-up-windows-devices.md), go to **Windows Settings** \> **Accounts** \> **Access work or school**. Choose **Connected to \<tenant name\> Azure AD**, and then choose **Info**.</span></span>
+1. <span data-ttu-id="8868e-108">Nadat u zich hebt aangemeld met Microsoft 365 Business Premium-referenties en verbinding hebt gemaakt met Azure AD zoals beschreven in [Windows-apparaten instellen voor Microsoft 365 Business Premium-gebruikers,](set-up-windows-devices.md)gaat u naar **Windows Settings** \> **Accounts** \> **Access werk of school**.</span><span class="sxs-lookup"><span data-stu-id="8868e-108">After you sign in with Microsoft 365 Business Premium credentials and connect to Azure AD as described in [Set up Windows devices for Microsoft 365 Business Premium users](set-up-windows-devices.md), go to **Windows Settings** \> **Accounts** \> **Access work or school**.</span></span> <span data-ttu-id="8868e-109">Kies **Verbonden met Azure AD van \<naam tenant\>** en kies vervolgens **Info**.</span><span class="sxs-lookup"><span data-stu-id="8868e-109">Choose **Connected to \<tenant name\> Azure AD**, and then choose **Info**.</span></span>
     
     ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
-2. <span data-ttu-id="3b98b-111">Op de pagina\> Beheer **door** \<tenant u de **verbindingsgegevens** zien die een **managementserveradres** bevatten, zoals in de volgende afbeelding wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="3b98b-111">On the **Managed by** \<tenant name\> page, you can see the **Connection info** that includes a **Management Server Address** like the one shown in the following figure.</span></span> 
+2. <span data-ttu-id="8868e-111">Op de pagina\> Beheerd **op** \<tenantnaam ziet u de **verbindingsgegevens** met een **managementserveradres** zoals in de volgende afbeelding.</span><span class="sxs-lookup"><span data-stu-id="8868e-111">On the **Managed by** \<tenant name\> page, you can see the **Connection info** that includes a **Management Server Address** like the one shown in the following figure.</span></span> 
     
     ![Managed by page shows connection info of the device manager URL.](../media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   
- <span data-ttu-id="3b98b-113">**Controleren of u bedrijfsgegevens niet plakken in een niet-beheerde app**</span><span class="sxs-lookup"><span data-stu-id="3b98b-113">**Verify that you cannot paste company data in a non-managed app**</span></span>
+ <span data-ttu-id="8868e-113">**Controleren of u bedrijfsgegevens niet plakken in een niet-beheerde app**</span><span class="sxs-lookup"><span data-stu-id="8868e-113">**Verify that you cannot paste company data in a non-managed app**</span></span>
   
-1. <span data-ttu-id="3b98b-114">Open Outlook 2016, geïnstalleerd door Microsoft 365 Business.</span><span class="sxs-lookup"><span data-stu-id="3b98b-114">Open Outlook 2016 that was installed by Microsoft 365 Business.</span></span>
+1. <span data-ttu-id="8868e-114">Open Outlook 2016 die is geïnstalleerd door Microsoft 365 Business Premium.</span><span class="sxs-lookup"><span data-stu-id="8868e-114">Open Outlook 2016 that was installed by Microsoft 365 Business Premium.</span></span>
     
-2. <span data-ttu-id="3b98b-115">Open een e-mail en kopieer er een deel van de inhoud van.</span><span class="sxs-lookup"><span data-stu-id="3b98b-115">Open an email and copy some content from it.</span></span>
+2. <span data-ttu-id="8868e-115">Open een e-mail en kopieer er een deel van de inhoud van.</span><span class="sxs-lookup"><span data-stu-id="8868e-115">Open an email and copy some content from it.</span></span>
     
-    <span data-ttu-id="3b98b-116">Open Kladblok en plak het deel hierin.</span><span class="sxs-lookup"><span data-stu-id="3b98b-116">Open Notepad and attempt to paste the content in.</span></span>
+    <span data-ttu-id="8868e-116">Open Kladblok en plak het deel hierin.</span><span class="sxs-lookup"><span data-stu-id="8868e-116">Open Notepad and attempt to paste the content in.</span></span>
     
-    <span data-ttu-id="3b98b-117">U ontvangt een foutmelding dat de app geen toegang heeft tot inhoud.</span><span class="sxs-lookup"><span data-stu-id="3b98b-117">You'll receive an error that states the app can't access content.</span></span>
+    <span data-ttu-id="8868e-117">Er wordt een fout weergegeven met de status dat de app geen toegang heeft tot inhoud.</span><span class="sxs-lookup"><span data-stu-id="8868e-117">You'll receive an error that states the app can't access content.</span></span>
     
     ![A dialog that states app can't access content when you paste into an unmanaged app.](../media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   
-    <span data-ttu-id="3b98b-119">U kunt echter wel dezelfde inhoud in Word 2016 plakken.</span><span class="sxs-lookup"><span data-stu-id="3b98b-119">You can, however, paste the same content into Word 2016.</span></span>
+    <span data-ttu-id="8868e-119">U kunt echter wel dezelfde inhoud in Word 2016 plakken.</span><span class="sxs-lookup"><span data-stu-id="8868e-119">You can, however, paste the same content into Word 2016.</span></span>
     
-## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-personal-devices"></a><span data-ttu-id="3b98b-120">Controleren of gebruikers geen bedrijfsgegevens kunnen kopiëren naar persoonlijke bestanden op persoonlijke apparaten</span><span class="sxs-lookup"><span data-stu-id="3b98b-120">Verify that users cannot copy company data to personal files on personal devices</span></span>
+## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-personal-devices"></a><span data-ttu-id="8868e-120">Controleren of gebruikers geen bedrijfsgegevens kunnen kopiëren naar persoonlijke bestanden op persoonlijke apparaten</span><span class="sxs-lookup"><span data-stu-id="8868e-120">Verify that users cannot copy company data to personal files on personal devices</span></span>
 
- <span data-ttu-id="3b98b-121">**Verbindingsinstellingen controleren**</span><span class="sxs-lookup"><span data-stu-id="3b98b-121">**Verify connection settings**</span></span>
+ <span data-ttu-id="8868e-121">**Verbindingsinstellingen controleren**</span><span class="sxs-lookup"><span data-stu-id="8868e-121">**Verify connection settings**</span></span>
   
-1. <span data-ttu-id="3b98b-122">Ga op uw persoonlijke windows 10-apparaat waar u als lokale gebruiker bent aangemeld naar **Windows-instellingen**en klik of tik op het werk of de school **van Accounts** \> **Toegang.**</span><span class="sxs-lookup"><span data-stu-id="3b98b-122">On your Windows 10 personal device where you're logged in as a local user, go to **Windows Settings**, and click or tap **Accounts** \> **Access work or school**.</span></span>
+1. <span data-ttu-id="8868e-122">Ga op uw persoonlijke Windows 10-apparaat waar u bent aangemeld als lokale gebruiker naar **Windows-instellingen**en klik of tik op **Werk of school voor** **Accounts** \> Toegang .</span><span class="sxs-lookup"><span data-stu-id="8868e-122">On your Windows 10 personal device where you're logged in as a local user, go to **Windows Settings**, and click or tap **Accounts** \> **Access work or school**.</span></span>
     
-2. <span data-ttu-id="3b98b-123">Kies **Verbinden** onder **Toegang tot werk of school**.</span><span class="sxs-lookup"><span data-stu-id="3b98b-123">Under the **Access work or school**, choose **Connect**.</span></span>
+2. <span data-ttu-id="8868e-123">Kies **Verbinden** onder **Toegang tot werk of school**.</span><span class="sxs-lookup"><span data-stu-id="8868e-123">Under the **Access work or school**, choose **Connect**.</span></span>
     
-3. <span data-ttu-id="3b98b-124">Voer uw Microsoft 365 Business-referenties in in het dialoogvenster **Een werk- of schoolaccount instellen** \> **Aanmelden**.</span><span class="sxs-lookup"><span data-stu-id="3b98b-124">Enter your Microsoft 365 Business credential into the **Set up a work or school account dialog** \> **Sign in**.</span></span>
+3. <span data-ttu-id="8868e-124">Voer uw Microsoft 365 Business Premium-referentie in in het \> **dialoogvenster Aanmelden voor een werk- of schoolaccount** . **Sign in**</span><span class="sxs-lookup"><span data-stu-id="8868e-124">Enter your Microsoft 365 Business Premium credential into the **Set up a work or school account dialog** \> **Sign in**.</span></span>
     
-4. <span data-ttu-id="3b98b-125">Kies op de pagina **Toegang tot werk of school** de optie **Werk- of schoolaccount** en vervolgens **Info**.</span><span class="sxs-lookup"><span data-stu-id="3b98b-125">On the **Access work or school** page, choose the **Work or school account**, and then choose **Info**.</span></span>
+4. <span data-ttu-id="8868e-125">Kies op de pagina **Toegang tot werk of school** de optie **Werk- of schoolaccount** en vervolgens **Info**.</span><span class="sxs-lookup"><span data-stu-id="8868e-125">On the **Access work or school** page, choose the **Work or school account**, and then choose **Info**.</span></span>
     
     ![Klik of tik op Info in het dialoogvenster Werk- of schoolaccount.](../media/63bd8b32-cb32-4afa-8ce0-6070ac403abc.png)
   
-5. <span data-ttu-id="3b98b-127">Op de **pagina Werk of school toegang** u de **verbindingsgegevens** zien die een **managementserveradres** bevatten, zoals in de volgende afbeelding, en de woorden *wip* en *mam* binnenin bevat.</span><span class="sxs-lookup"><span data-stu-id="3b98b-127">On the **Access work or school** page, you can see the **Connection info** that includes a **Management Server Address** like the one shown in the following figure, and includes the words  *wip*  and  *mam*  within.</span></span> 
+5. <span data-ttu-id="8868e-127">Op de pagina **Toegangswerk of school** ziet u de **verbindingsgegevens** met een **managementserveradres** zoals in de volgende afbeelding en de woorden *wip* en *mam* erin.</span><span class="sxs-lookup"><span data-stu-id="8868e-127">On the **Access work or school** page, you can see the **Connection info** that includes a **Management Server Address** like the one shown in the following figure, and includes the words  *wip*  and  *mam*  within.</span></span> 
     
     ![Managed by page shows connection info URL that includes the words mam and wpi.](../media/abd4eaf4-44fa-4538-a3e8-1e0d331dfe1e.png)
   
- <span data-ttu-id="3b98b-129">**Controleren of u bedrijfsgegevens niet plakken in een niet-beheerde app**</span><span class="sxs-lookup"><span data-stu-id="3b98b-129">**Verify that you cannot paste company data in a non-managed app**</span></span>
+ <span data-ttu-id="8868e-129">**Controleren of u bedrijfsgegevens niet plakken in een niet-beheerde app**</span><span class="sxs-lookup"><span data-stu-id="8868e-129">**Verify that you cannot paste company data in a non-managed app**</span></span>
   
-1. <span data-ttu-id="3b98b-130">Open Outlook 2016 en voeg eventueel uw Microsoft 365 Business-account toe en meld u aan met uw Microsoft 365 Business-referenties.</span><span class="sxs-lookup"><span data-stu-id="3b98b-130">Open Outlook 2016 and add your Microsoft 365 Business account if necessary and sign in with your Microsoft 365 Business credentials.</span></span>
+1. <span data-ttu-id="8868e-130">Open Outlook 2016 en voeg indien nodig uw Microsoft 365 Business Premium-account toe en meld u aan met uw Microsoft 365 Business Premium-referenties.</span><span class="sxs-lookup"><span data-stu-id="8868e-130">Open Outlook 2016 and add your Microsoft 365 Business Premium account if necessary and sign in with your Microsoft 365 Business Premium credentials.</span></span>
     
-2. <span data-ttu-id="3b98b-131">Open een e-mail en kopieer er een deel van de inhoud van.</span><span class="sxs-lookup"><span data-stu-id="3b98b-131">Open an email and copy some content from it.</span></span>
+2. <span data-ttu-id="8868e-131">Open een e-mail en kopieer er een deel van de inhoud van.</span><span class="sxs-lookup"><span data-stu-id="8868e-131">Open an email and copy some content from it.</span></span>
     
-    <span data-ttu-id="3b98b-132">Open Kladblok en plak het deel hierin.</span><span class="sxs-lookup"><span data-stu-id="3b98b-132">Open Notepad and attempt to paste the content in.</span></span>
+    <span data-ttu-id="8868e-132">Open Kladblok en plak het deel hierin.</span><span class="sxs-lookup"><span data-stu-id="8868e-132">Open Notepad and attempt to paste the content in.</span></span>
     
-    <span data-ttu-id="3b98b-133">U ontvangt een foutmelding dat App geen toegang heeft tot inhoud.</span><span class="sxs-lookup"><span data-stu-id="3b98b-133">You'll receive an error that states App can't access content.</span></span>
+    <span data-ttu-id="8868e-133">U ontvangt een fout met de status dat app geen toegang heeft tot inhoud.</span><span class="sxs-lookup"><span data-stu-id="8868e-133">You'll receive an error that states App can't access content.</span></span>
     
     ![A dialog that states app can't access content when you paste into an unmanaged app.](../media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   
-    <span data-ttu-id="3b98b-135">U kunt echter wel dezelfde inhoud in Word 2016 plakken.</span><span class="sxs-lookup"><span data-stu-id="3b98b-135">You can, however, paste the same content into Word 2016.</span></span>
+    <span data-ttu-id="8868e-135">U kunt echter wel dezelfde inhoud in Word 2016 plakken.</span><span class="sxs-lookup"><span data-stu-id="8868e-135">You can, however, paste the same content into Word 2016.</span></span>
     
 

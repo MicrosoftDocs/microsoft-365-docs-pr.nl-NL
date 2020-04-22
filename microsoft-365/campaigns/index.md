@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 365 voor campagnes
-ms.openlocfilehash: 32437ccc0c110c0539cb3d24f036438d6a313921
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 167b265676d3c3bc9025a0c0e998379f72bb9e52
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42807314"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632033"
 ---
 <a name="microsoft-365-for-campaigns"></a>Microsoft 365 voor campagnes
 ===========================
@@ -40,21 +40,21 @@ In onze huidige wereld is het beveiligen van gegevens en communicatie een priori
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3clbH] 
 
 
-**Wat is Microsoft 365 voor campagnes?** Het is een aanbevolen beveiligde configuratie die Microsoft 365 Business bevat, zodat u:
+**Wat is Microsoft 365 voor campagnes?** Het is een aanbevolen beveiligde configuratie die Microsoft 365 Business Premium bevat, zodat u:
 - Vertrouw op vertrouwde hulpprogramma's voor bedrijfsproductiviteit en samenwerking, zoals Outlook, Word, Excel en andere Office-producten 
 - Bescherm uw werkbestanden op al uw iOS-, Android- en Windows 10-apparaten met beveiliging op bedrijfsniveau die eenvoudig te beheren is 
 - Extra bescherming toepassen voor gebruikersaccounts en -identiteit 
 
-![Microsoft 365 Business beschermt uw productiviteitstools, samenwerkingstools, bestandsopslag, e-mail, apparaten en identiteit](../media/M365-WhatIsIt-SecurityFocus.png)
+![Microsoft 365 Business Premium beschermt uw productiviteitstools, samenwerkingstools, bestandsopslag, e-mail, apparaten en identiteit](../media/M365-WhatIsIt-SecurityFocus.png)
 
-Terwijl federale verkiezingscampagnes in de Verenigde Staten in aanmerking komen voor speciale prijzen voor Microsoft 365 Business, kan elke organisatie met dit plan profiteren van deze richtlijnen om meer beveiliging te configureren en te leren hoe u veilig samenwerken.
+Hoewel federale verkiezingscampagnes in de Verenigde Staten in aanmerking komen voor speciale prijzen voor Microsoft 365 Business Premium, kan elke organisatie met dit abonnement profiteren van deze richtlijnen om meer beveiliging te configureren en te leren hoe u veilig samenwerken.
 
 Deze bibliotheek bevat het volgende:
 - Vooraf beschrijvende richtlijnen voor het instellen van instellingen voor het toevoegen van meer beveiliging.
 - Help gebruikers om apparaten in te stellen voor veilige toegang.
 - Richtlijnen voor veilig samenwerken en delen.
 
-Zie [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business)voor meer informatie over wat er is inbegrepen. 
+Zie [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business)voor meer informatie over wat er is inbegrepen. 
 
 
 <a name="get-started"></a>Aan de slag
