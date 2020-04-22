@@ -17,17 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 38eb3c39c5473d0a729b12771b61e965dbc81931
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: 3fd497ce1733dd4770b9bbc8f699bbccf3237fbd
+ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42929478"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43781515"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>Gedeelde query's gebruiken in geavanceerde jacht
 
-**Van toepassing op:**
-- Microsoft-bedreigingsbeveiliging
+**Geldt voor:**
+- Microsoft Threat Protection
 
 
 
@@ -60,15 +60,15 @@ U een nieuwe of bestaande query opslaan, zodat deze alleen toegankelijk voor u i
 2. Selecteer **Verwijderen** en verwijdering bevestigen. Of selecteer **Naam wijzigen** en geef een nieuwe naam op voor de query.
 
 ## <a name="access-queries-in-the-github-repository"></a>Toegang tot query's in de GitHub-repository  
-Microsoft security onderzoekers delen regelmatig geavanceerde jacht query's in een [aangewezen openbare repository op GitHub](https://github.com/microsoft/MTP-AHQ). Deze repository staat open voor bijdragen. Om bij te dragen, [word je gratis lid van GitHub.](https://github.com/)
+Microsoft security onderzoekers delen regelmatig geavanceerde jacht query's in een [aangewezen openbare repository op GitHub](https://aka.ms/hunting-queries). Deze repository staat open voor bijdragen. Om bij te dragen, [word je gratis lid van GitHub.](https://github.com/)
 
 >[!tip]
 >Microsoft security onderzoekers bieden ook geavanceerde jacht query's die u gebruiken om activiteiten en indicatoren in verband met opkomende bedreigingen te lokaliseren. Deze query's worden geleverd als onderdeel van de [rapporten over bedreigingsanalyse](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) in Microsoft Defender Security Center.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Geavanceerd jachtoverzicht](advanced-hunting-overview.md)
+- [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Werken met queryresultaten](advanced-hunting-query-results.md)
 - [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)
-- [Het schema begrijpen](advanced-hunting-schema-tables.md)
+- [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)
