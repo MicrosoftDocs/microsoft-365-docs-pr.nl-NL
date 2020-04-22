@@ -1,5 +1,5 @@
 ---
-title: DNS-records maken bij een DNS-hostingprovider voor Office 365
+title: DNS-records maken bij een DNS-hostingprovider
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -21,16 +21,16 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 7b7b075d-79f9-4e37-8a9e-fb60c1d95166
-description: Lees hier hoe u uw domein kunt verifiëren en DNS-records kunt maken bij een DNS-hostingprovider voor Office 365.
+description: Lees hier hoe u uw domein kunt verifiëren en DNS-records kunt maken bij een DNS-hostingprovider voor Microsoft 365.
 ms.custom: okr_smb
-ms.openlocfilehash: 28df13d0ebe78d055df556d71c7a753d3434b030
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 85392bfbd19072d582e7c2db7ce3a8c7bf466176
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210478"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628492"
 ---
-# <a name="create-dns-records-at-any-dns-hosting-provider-for-office-365"></a>DNS-records maken bij een DNS-hostingprovider voor Office 365
+# <a name="create-dns-records-at-any-dns-hosting-provider"></a>DNS-records maken bij een DNS-hostingprovider
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
@@ -41,7 +41,7 @@ Als u niet weet wie de DNS-hostingprovider of domeinregistrar voor uw domein is,
 Als u de records zelf wilt instellen, moet u deze records toevoegen. Houd er rekening mee dat uw verificatierecord en MX-record uniek zijn voor uw domein. Om die in te stellen, moet u een specifieke ‘token’-waarde ophalen en gebruiken voor uw domein. In de onderstaande stappen wordt uitgelegd hoe u dit doet.
   
 > [!IMPORTANT]
-> De exacte naam van de vakken of *velden* waarin u de gegevens typt of plakt voor het maken van elk type DNS-record, zijn anders voor elke DNS-host. Mogelijk heeft uw DNS-host Help-informatie op zijn website om u te helpen bij het toewijzen van de instructies, die hier worden weergegeven, aan de juiste velden op de website. Controleer in [DNS-records maken voor Office 365](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23.aspx) of we stapsgewijze instructies hebben voor uw DNS-host. > Bepaalde DNS-hosts staan niet toe dat u alle vereiste recordtypen maakt. Dit [zorgt voor servicebeperkingen](https://support.office.com/article/7ae9a655-041d-4724-aa92-60392ee390c2.aspx) in Office 365. Als bijvoorbeeld de host van uw domein SRV-, TXT- of CNAME-records niet ondersteunt, raden we u aan dat u [uw domein overbrengt](../get-help-with-domains/buy-a-domain-name.md) naar een DNS-host die wel alle vereiste records ondersteunt. We raden aan dat u uw domein overbrengt naar GoDaddy voor een snel en geautomatiseerd proces voor het instellen van Office 365. 
+> De exacte naam van de vakken of *velden* waarin u de gegevens typt of plakt voor het maken van elk type DNS-record, zijn anders voor elke DNS-host. Mogelijk heeft uw DNS-host Help-informatie op zijn website om u te helpen bij het toewijzen van de instructies, die hier worden weergegeven, aan de juiste velden op de website. Controleer in [DNS-records maken voor Microsoft 365](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23.aspx) of we stapsgewijze instructies hebben voor uw DNS-host. > Bepaalde DNS-hosts staan niet toe dat u alle vereiste recordtypen maakt. Dit [zorgt voor servicebeperkingen](https://support.office.com/article/7ae9a655-041d-4724-aa92-60392ee390c2.aspx) in Microsoft 365. Als bijvoorbeeld de host van uw domein SRV-, TXT- of CNAME-records niet ondersteunt, raden we u aan dat u [uw domein overbrengt](../get-help-with-domains/buy-a-domain-name.md) naar een DNS-host die wel alle vereiste records ondersteunt. We raden aan dat u uw domein overbrengt naar GoDaddy voor een snel en geautomatiseerd proces voor het instellen van Microsoft 365. 
   
 > [!NOTE]
 > Het duurt gewoonlijk maar een paar minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen vinden en oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
@@ -52,7 +52,7 @@ Als u de records zelf wilt instellen, moet u deze records toevoegen. Houd er rek
 > [!NOTE]
 > U hoeft standaard slechts een van deze records te maken. De voorkeur gaat uit naar het recordtype TXT, maar deze wordt niet door alle DNS-hostingproviders ondersteund. In dat geval kunt u in plaats hiervan een MX-record maken. 
   
-Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleerd dat u de eigenaar bent van het domein. Als u zich bij uw account bij de domeinregistrar kunt aanmelden en de DNS-record kunt maken, is dit voor Office 365 bewezen.
+Voordat u uw domein met Microsoft 365 kunt gaan gebruiken, moet worden gecontroleerd dat u de eigenaar bent van het domein. Als u zich bij uw account bij de domeinregistrar kunt aanmelden en de DNS-record kunt maken, is dit voor Microsoft 365 bewezen.
   
 > [!NOTE]
 > Deze record wordt alleen gebruikt om te verifiëren dat u de eigenaar van uw domein bent. Dit heeft verder geen invloed. U kunt deze record later desgewenst verwijderen. 
@@ -74,20 +74,20 @@ Voordat u uw domein met Office 365 kunt gaan gebruiken, moet worden gecontroleer
 |||||
 |:-----|:-----|:-----|:-----|
 |**Recordtype**|**Alias** of **Hostnaam**|**Waarde**|**TTL**|
-|TXT|Voer een van de volgende handelingen uit: Typ **@** of laat het veld leeg, of typ de naam van uw domein.  <br/> **Let op:** Verschillende DNS-hosts hebben verschillende vereisten voor dit veld. |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Office 365.  <br/>        [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)     <br/>     |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort.  |
+|TXT|Voer een van de volgende handelingen uit: Typ **@** of laat het veld leeg, of typ de naam van uw domein.  <br/> **Let op:** Verschillende DNS-hosts hebben verschillende vereisten voor dit veld. |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365.  <br/>        [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)     <br/>     |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort.  |
    
   - **Als u een MX-record maakt, gebruikt u deze waarden:**
     
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Recordtype**|**Alias** of **Hostnaam**|**Value**|**Priority**|**TTL**|
-|MX|Typ **@** of uw domeinnaam. |MS=ms *XXXXXXXX* <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Office 365.    <br/>       [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)     <br/>     |Gebruik een lagere prioriteit dan de prioriteit voor bestaande MX-records voor **Prioriteit** om conflicten met de MX-record voor de e-mailstroom te voorkomen. <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit. <br/> |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort. |
+|MX|Typ **@** of uw domeinnaam. |MS=ms *XXXXXXXX* <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365.    <br/>       [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)     <br/>     |Gebruik een lagere prioriteit dan de prioriteit voor bestaande MX-records voor **Prioriteit** om conflicten met de MX-record voor de e-mailstroom te voorkomen. <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit. <br/> |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort. |
    
 2. Sla de record op.
     
-Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug naar Office 365 en vraagt u of Office 365 naar de record wil zoeken.
+Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug naar Microsoft 365 en vraagt u of Microsoft 365 naar de record wil zoeken.
   
-Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
+Wanneer in Microsoft 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
 1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
@@ -103,7 +103,7 @@ Wanneer in Office 365 de juiste TXT-record is gevonden, is uw domein gecontrolee
 ## <a name="add-mx-record-to-route-email"></a>MX-record toevoegen om e-mail te routeren
 <a name="BKMK_add_MX"> </a>
 
-Voeg een MX-record toe zodat e-mail voor uw domein naar Office 365 wordt verzonden.  *Wanneer u de MX-record van uw domein bijwerkt, wordt alle nieuwe e-mail voor iedereen die uw domein gebruikt, verzonden naar Office 365*. Elk e-mailbericht dat u al hebt, blijft bij uw huidige e-mailhost, tenzij u besluit [e-mail en contactpersonen te migreren naar Office 365](../setup/migrate-email-and-contacts-admin.md) naar Office 365. 
+Voeg een MX-record toe zodat e-mail voor uw domein naar Microsoft 365 wordt verzonden.  *Wanneer u de MX-record van uw domein bijwerkt, wordt alle nieuwe e-mail voor iedereen die uw domein gebruikt, verzonden naar Microsoft 365*. Elk e-mailbericht dat u al hebt, blijft bij uw huidige e-mailhost, tenzij u besluit [e-mail en contactpersonen te migreren naar Microsoft 365](../setup/migrate-email-and-contacts-admin.md) naar Microsoft 365. 
   
   
  **Taak**
@@ -130,7 +130,7 @@ De MX-record die u toevoegt, bevat een waarde (de waarde **Adres waarnaar wordt 
 
 1. Voeg op de website van uw DNS-host een nieuwe MX-record toe.
     
-    Nu krijgt u [de informatie voor de MX-record](../get-help-with-domains/information-for-dns-records.md) van Office 365. 
+    Nu krijgt u [de informatie voor de MX-record](../get-help-with-domains/information-for-dns-records.md) van Microsoft 365. 
     
 2. Voor de MX-record (in de stap hierboven) kopieert u de waarde **Adres waarnaar wordt verwezen**. 
     
@@ -146,7 +146,7 @@ De MX-record die u toevoegt, bevat een waarde (de waarde **Adres waarnaar wordt 
     
   - **Host Name**: **@**
     
-  - **Adres waarnaar wordt verwezen**: Plak hier de waarde van het **Adres waarnaar wordt verwezen** die u zojuist uit Office 365 hebt gekopieerd. 
+  - **Adres waarnaar wordt verwezen**: Plak hier de waarde van het **Adres waarnaar wordt verwezen** die u zojuist uit Microsoft 365 hebt gekopieerd. 
     
   - **TTL**: Stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**) enzovoort. 
     
@@ -154,14 +154,14 @@ De MX-record die u toevoegt, bevat een waarde (de waarde **Adres waarnaar wordt 
     
 Verwijder eventuele andere MX-records.
   
-Als er MX-records voor dit domein aanwezig zijn waarmee e-mail ergens anders dan naar Office 365 wordt verzonden, moet u ze allemaal verwijderen.
+Als er MX-records voor dit domein aanwezig zijn waarmee e-mail ergens anders dan naar Microsoft 365 wordt verzonden, moet u ze allemaal verwijderen.
   
 ## <a name="add-three-cname-records"></a>Drie CNAME-records toevoegen
 <a name="BKMK_add_MX"> </a>
 
 ::: moniker range="o365-worldwide"
 
-Volg onderstaande stappen om de drie CNAME-records toe te voegen die zijn vereist voor Office 365. Als er extra CNAME-records worden weergegeven in Office 365, voegt u die toe aan de hand van dezelfde algemene stappen die hier worden weergegeven.
+Volg onderstaande stappen om de drie CNAME-records toe te voegen die zijn vereist voor Microsoft 365. Als er extra CNAME-records worden weergegeven in Microsoft 365, voegt u die toe aan de hand van dezelfde algemene stappen die hier worden weergegeven.
   
 Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één voor één.
   
@@ -182,7 +182,7 @@ Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één v
 ::: moniker-end
 ::: moniker range="o365-germany"
 
-Volg onderstaande stappen om de drie CNAME-records toe te voegen die zijn vereist voor Office 365. Als er extra CNAME-records worden weergegeven in Office 365, voegt u die toe aan de hand van dezelfde algemene stappen die hier worden weergegeven.
+Volg onderstaande stappen om de drie CNAME-records toe te voegen die zijn vereist voor Microsoft 365. Als er extra CNAME-records worden weergegeven in Microsoft 365, voegt u die toe aan de hand van dezelfde algemene stappen die hier worden weergegeven.
   
 Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één voor één.
   
@@ -204,7 +204,7 @@ Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één v
 
 ::: moniker range="o365-21vianet"
 
-Volg onderstaande stappen om de drie CNAME-records toe te voegen die zijn vereist voor Office 365. Als er extra CNAME-records worden weergegeven in Office 365, voegt u die toe aan de hand van dezelfde algemene stappen die hier worden weergegeven.
+Volg onderstaande stappen om de drie CNAME-records toe te voegen die zijn vereist voor Microsoft 365. Als er extra CNAME-records worden weergegeven in Microsoft 365, voegt u die toe aan de hand van dezelfde algemene stappen die hier worden weergegeven.
   
 Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één voor één.
   
@@ -224,13 +224,13 @@ Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één v
     
 ::: moniker-end
 
-## <a name="add-two-cname-records-for-mobile-device-management-mdm-for-office-365"></a>Twee CNAME-records voor MDM (Mobile Device Management) voor Office 365 toevoegen
+## <a name="add-two-cname-records-for-mobile-device-management-mdm-for-microsoft-365"></a>Twee CNAME-records voor MDM (Mobile Device Management) voor Microsoft 365 toevoegen
 <a name="BKMK_add_MX"> </a>
 
 ::: moniker range="o365-worldwide"
 
 > [!IMPORTANT]
-> Als u Mobile Device Management (MDM) voor Office 365 hebt, moet u twee extra CNAME-records maken. Volg de stappen die u hebt gevolgd voor de andere vier CNAME-records, maar gebruik de waarden uit de volgende tabel. > (Als u geen MDM hebt, kunt u deze stap overslaan.) 
+> Als u Mobile Device Management (MDM) voor Microsoft 365 hebt, moet u twee extra CNAME-records maken. Volg de stappen die u hebt gevolgd voor de andere vier CNAME-records, maar gebruik de waarden uit de volgende tabel. > (Als u geen MDM hebt, kunt u deze stap overslaan.) 
   
 |||||
 |:-----|:-----|:-----|:-----|
@@ -243,7 +243,7 @@ Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één v
 ::: moniker range="o365-germany"
 
 > [!IMPORTANT]
-> Als u Mobile Device Management (MDM) voor Office 365 hebt, moet u twee extra CNAME-records maken. Volg de stappen die u hebt gevolgd voor de andere vier CNAME-records, maar gebruik de waarden uit de volgende tabel. > (Als u geen MDM hebt, kunt u deze stap overslaan.) 
+> Als u Mobile Device Management (MDM) voor Microsoft 365 hebt, moet u twee extra CNAME-records maken. Volg de stappen die u hebt gevolgd voor de andere vier CNAME-records, maar gebruik de waarden uit de volgende tabel. > (Als u geen MDM hebt, kunt u deze stap overslaan.) 
   
 |||||
 |:-----|:-----|:-----|:-----|
@@ -259,12 +259,12 @@ Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één v
 ::: moniker range="o365-worldwide"
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe voor Office 365 te maken. In plaats daarvan voegt u de vereiste Office 365-waarden toe aan de huidige record, zodat u beschikt over  *één*  SPF-record waarin beide sets waarden zijn opgenomen.
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe voor Microsoft 365 te maken. In plaats daarvan voegt u de vereiste Microsoft 365-waarden toe aan de huidige record, zodat u beschikt over  *één*  SPF-record waarin beide sets waarden zijn opgenomen.
   
 Op de website van uw DNS-host, bewerkt u de bestaande SPF-record of maakt u een nieuwe TXT-record voor SPF.
   
 > [!IMPORTANT]
-> SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Office 365 configureren. Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Office 365](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx). Zie vervolgens [DMARC gebruiken om e-mail in Office 365 te valideren](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx). 
+> SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Microsoft 365 configureren. Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Microsoft 365](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx). Zie vervolgens [DMARC gebruiken om e-mail in Microsoft 365 te valideren](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx). 
   
 1. Typ of kopieer en plak in de vakken voor de nieuwe record de verzameling waarden hieronder die op uw situatie van toepassing zijn.
     
@@ -284,12 +284,12 @@ Op de website van uw DNS-host, bewerkt u de bestaande SPF-record of maakt u een 
 ::: moniker range="o365-germany"
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe voor Office 365 te maken. In plaats daarvan voegt u de vereiste Office 365-waarden toe aan de huidige record, zodat u beschikt over  *één*  SPF-record waarin beide sets waarden zijn opgenomen. 
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe voor Microsoft 365 te maken. In plaats daarvan voegt u de vereiste Microsoft 365-waarden toe aan de huidige record, zodat u beschikt over  *één*  SPF-record waarin beide sets waarden zijn opgenomen. 
   
 Op de website van uw DNS-host, bewerkt u de bestaande SPF-record of maakt u een nieuwe TXT-record voor SPF.
   
 > [!IMPORTANT]
-> SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Office 365 configureren. Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Office 365](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx). Zie vervolgens [DMARC gebruiken om e-mail in Office 365 te valideren](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx). 
+> SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Microsoft 365 configureren. Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Microsoft 365](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx). Zie vervolgens [DMARC gebruiken om e-mail in Microsoft 365 te valideren](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx). 
   
 1. Typ of kopieer en plak in de vakken voor de nieuwe record de verzameling waarden hieronder die op uw situatie van toepassing zijn.
     
@@ -309,12 +309,12 @@ Op de website van uw DNS-host, bewerkt u de bestaande SPF-record of maakt u een 
 ::: moniker range="o365-21vianet"
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe voor Office 365 te maken. In plaats daarvan voegt u de vereiste Office 365-waarden toe aan de huidige record, zodat u beschikt over  *één*  SPF-record waarin beide sets waarden zijn opgenomen. 
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe voor Microsoft 365 te maken. In plaats daarvan voegt u de vereiste Microsoft 365-waarden toe aan de huidige record, zodat u beschikt over  *één*  SPF-record waarin beide sets waarden zijn opgenomen. 
   
 Op de website van uw DNS-host, bewerkt u de bestaande SPF-record of maakt u een nieuwe TXT-record voor SPF.
   
 > [!IMPORTANT]
-> SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Office 365 configureren. Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Office 365](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx). Zie vervolgens [DMARC gebruiken om e-mail in Office 365 te valideren](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx). 
+> SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Microsoft 365 configureren. Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Microsoft 365](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx). Zie vervolgens [DMARC gebruiken om e-mail in Microsoft 365 te valideren](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx). 
   
 1. Typ of kopieer en plak in de vakken voor de nieuwe record de verzameling waarden hieronder die op uw situatie van toepassing zijn.
     
@@ -429,10 +429,10 @@ Op de website van uw DNS-host maakt u twee nieuwe SRV-records, meestal één voo
 ## <a name="more-about-updating-dns-records"></a>Meer informatie over het bijwerken van DNS-records
 <a name="BKMK_MoreAbout"> </a>
 
- **Als u weet hoe u DNS-records moet bijwerken bij de DNS-host van uw domein**, gebruikt u de DNS-waarden in Office 365 om records te bewerken bij de DNS-host van uw domein, bijvoorbeeld om een MX-record of SPF-record in te stellen. Zoek de specifieke waarden die u moet gebruiken door [deze stappen te volgen](../get-help-with-domains/information-for-dns-records.md) of bekijk ze in de wizard voor het instellen van domeinen terwijl u de wizard doorloopt.
+ **Als u weet hoe u DNS-records moet bijwerken bij de DNS-host van uw domein**, gebruikt u de DNS-waarden in Microsoft 365 om records te bewerken bij de DNS-host van uw domein, bijvoorbeeld om een MX-record of SPF-record in te stellen. Zoek de specifieke waarden die u moet gebruiken door [deze stappen te volgen](../get-help-with-domains/information-for-dns-records.md) of bekijk ze in de wizard voor het instellen van domeinen terwijl u de wizard doorloopt.
   
- Zie [Uw domein instellen (host-specifieke instructies)](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions?view=o365-worldwide), **als u hulp nodig hebt bij het toevoegen van de vereiste DNS-records**, moet u eerst [de informatie verzamelen die u nodig hebt om DNS-records voor Office 365 te maken](../get-help-with-domains/information-for-dns-records.md). Gebruik vervolgens de algemene stappen in dit onderwerp om de DNS-records van uw domein in te stellen, zodat u uw domein kunt gebruiken met Office 365-services, als e-mail.
+ Zie [Uw domein instellen (host-specifieke instructies)](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions?view=o365-worldwide), **als u hulp nodig hebt bij het toevoegen van de vereiste DNS-records**, moet u eerst [de informatie verzamelen die u nodig hebt om DNS-records voor Microsoft 365 te maken](../get-help-with-domains/information-for-dns-records.md). Gebruik vervolgens de algemene stappen in dit onderwerp om de DNS-records van uw domein in te stellen, zodat u uw domein kunt gebruiken met Microsoft 365-services, als e-mail.
   
- **Als u nog geen website gebruikt voor uw aangepaste domein**, kunt u Office 365 DNS-records voor uw domein laten instellen en beheren in plaats van dat u het zelf doet. Meer informatie over de [twee opties voor het instellen en beheren van DNS-records voor een aangepast domein](https://support.office.com/article/5980474a-097f-4f21-a864-21245314957f.aspx) in Office 365. 
+ **Als u nog geen website gebruikt voor uw aangepaste domein**, kunt u Microsoft 365 DNS-records voor uw domein laten instellen en beheren in plaats van dat u het zelf doet. Meer informatie over de [twee opties voor het instellen en beheren van DNS-records voor een aangepast domein](https://support.office.com/article/5980474a-097f-4f21-a864-21245314957f.aspx) in Microsoft 365. 
   
 

@@ -1,5 +1,5 @@
 ---
-title: DMARC gebruiken om e-mail in Office 365 te valideren
+title: DMARC gebruiken om e-mail te valideren
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -14,22 +14,22 @@ search.appverid:
 ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
-description: Informatie over het configureren van DMARC (Domain-based Message Authentication, Reporting, and Conformance) om berichten te valideren die zijn verzonden vanuit uw Office 365-organisatie.
-ms.openlocfilehash: 0702baec4dd2b585dcf45546befc19a6108004b9
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Informatie over het configureren van DMARC (Domain-based Message Authentication, Reporting, and Conformance) om berichten te valideren die zijn verzonden vanuit uw organisatie.
+ms.openlocfilehash: c6c9d394f1c3087cdc03f3433a9e2b4ec07033bb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42806306"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631095"
 ---
-# <a name="use-dmarc-to-validate-email-in-office-365"></a>DMARC gebruiken om e-mail in Office 365 te valideren
+# <a name="use-dmarc-to-validate-email"></a>DMARC gebruiken om e-mail te valideren
 
 [DMARC](https://dmarc.org) (Domain-based Message Authentication, Reporting, and Conformance) werkt samen met SPF (Sender Policy Framework) en DKIM (DomainKeys Identified Mail) om afzenders van e-mail te verifiëren en ervoor te zorgen dat geadresseerde e-mailsystemen berichten vertrouwen die vanuit uw domein worden verzonden. De implementatie van DMARC met SPF en DKIM biedt extra bescherming tegen adresvervalsing en phishing-email. DMARC helpt ontvangende e-mailsystemen vast te stellen wat er moet gebeuren met berichten die zijn verzonden vanuit uw domein die niet door de SPF- en DKIM-controles komen.
 
 > [!TIP]
-> Ga naar de catalogus van [Microsoft Intelligent Security Association (MISA)](https://www.microsoft.com/misapartnercatalog) om externe leveranciers te bekijken die DMARC-rapportage bieden voor Office 365. 
+> Ga naar de catalogus van [Microsoft Intelligent Security Association (MISA)](https://www.microsoft.com/misapartnercatalog) om externe leveranciers te bekijken die DMARC-rapportage bieden voor Microsoft 365. 
 
-## <a name="how-do-spf-and-dmarc-work-together-to-protect-email-in-office-365"></a>Hoe werken SPF en DMARC samen om e-mail in Office 365 te beschermen?
+## <a name="how-do-spf-and-dmarc-work-together-to-protect-email-in-microsoft-365"></a>Hoe werken SPF en DMARC samen om e-mail in Microsoft 365 te beschermen?
 <a name="SPFandDMARC"> </a>
 
  Een e-mailbericht kan meerdere eigenaren, afzenders of adressen bevatten. Deze adressen worden gebruikt voor verschillende doeleinden. Neem bijvoorbeeld deze adressen: 
@@ -82,27 +82,27 @@ Een DMARC TXT-record van Microsoft ziet er ongeveer als volgt uit:
 _dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com; fo=1" 
 ```
 
-Microsoft zendt DMARC-rapporten naar [Agari](https://agari.com), een derde. Agari verzamelt en analyseert DMARC-rapporten. Ga naar de [MISA-catalogus](https://www.microsoft.com/misapartnercatalog) om meer externe leveranciers te bekijken die DMARC-rapportage bieden voor Office 365.
+Microsoft zendt DMARC-rapporten naar [Agari](https://agari.com), een derde. Agari verzamelt en analyseert DMARC-rapporten. Ga naar de [MISA-catalogus](https://www.microsoft.com/misapartnercatalog) om meer externe leveranciers te bekijken die DMARC-rapportage bieden voor Microsoft 365.
   
 ## <a name="implement-dmarc-for-inbound-mail"></a>DMARC implementeren voor inkomende e-mail
 <a name="implementDMARCinbound"> </a>
 
-U hoeft niets te doen om DMARC in te stellen voor e-mail die u ontvangt in Office 365. Wij hebben overal al voor gezorgd. Zie [Hoe Office 365 omgaat met inkomende e-mail waarvan de DMARC-controle mislukt](use-dmarc-to-validate-email.md#inbounddmarcfail) als u wilt weten wat er gebeurt met e-mail die niet door onze DMARC-controle komt.
+U hoeft niets te doen om DMARC in te stellen voor e-mail die u ontvangt in Microsoft 365. Wij hebben overal al voor gezorgd. Zie [Hoe Microsoft 365 omgaat met inkomende e-mail waarvan de DMARC-controle mislukt](use-dmarc-to-validate-email.md#inbounddmarcfail) als u wilt weten wat er gebeurt met e-mail die niet door onze DMARC-controle komt.
   
-## <a name="implement-dmarc-for-outbound-mail-from-office-365"></a>DMARC implementeren voor uitgaande e-mail vanuit Office 365
+## <a name="implement-dmarc-for-outbound-mail-from-microsoft-365"></a>DMARC implementeren voor uitgaande e-mail vanuit Microsoft 365
 <a name="implementDMARCoutbound"> </a>
 
-Als u Office 365 gebruikt, maar geen aangepast domein, dat wil zeggen dat u onmicrosoft.com gebruikt, hoeft u niets anders te doen om DMARC voor uw organisatie te configureren of te implementeren. SPF is al voor u ingesteld en Office 365 genereert automatisch een DKIM-handtekening voor uw uitgaande e-mail. Zie [Standaardgedrag voor DKIM en Office 365](use-dkim-to-validate-outbound-email.md#DefaultDKIMbehavior) voor meer informatie over deze handtekening.
+Als u Microsoft 365 gebruikt, maar geen aangepast domein, dat wil zeggen dat u onmicrosoft.com gebruikt, hoeft u niets anders te doen om DMARC voor uw organisatie te configureren of te implementeren. SPF is al voor u ingesteld en Microsoft 365 genereert automatisch een DKIM-handtekening voor uw uitgaande e-mail. Zie [Standaardgedrag voor DKIM en Microsoft 365](use-dkim-to-validate-outbound-email.md#DefaultDKIMbehavior) voor meer informatie over deze handtekening.
   
- Als u een aangepast domein hebt of als u on-premises Exchange-servers gebruikt naast Office 365, moet u handmatig DMARC implementeren voor uw uitgaande e-mail. Het implementeren van DMARC voor uw aangepaste domein bestaat uit de volgende stappen:
+ Als u een aangepast domein hebt of als u on-premises Exchange-servers gebruikt naast Microsoft 365, moet u handmatig DMARC implementeren voor uw uitgaande e-mail. Het implementeren van DMARC voor uw aangepaste domein bestaat uit de volgende stappen:
   
 - [Stap 1: geldige bronnen van e-mail identificeren voor uw domein](use-dmarc-to-validate-email.md#IdentifyValidSources)
 
-- [Stap 2: SPF instellen voor uw domein in Office 365](use-dmarc-to-validate-email.md#ConfigSPF)
+- [Stap 2: SPF instellen voor uw domein](use-dmarc-to-validate-email.md#ConfigSPF)
 
-- [Stap 3: DKIM instellen voor uw aangepaste domein in Office 365](use-dmarc-to-validate-email.md#ConfigDKIM)
+- [Stap 3: DKIM instellen voor uw aangepaste domein](use-dmarc-to-validate-email.md#ConfigDKIM)
 
-- [Stap 4: het DMARC TXT-record maken voor uw domein in Office 365](use-dmarc-to-validate-email.md#CreateDMARCRecord)
+- [Stap 4: het DMARC TXT-record maken voor uw domein](use-dmarc-to-validate-email.md#CreateDMARCRecord)
 
 ### <a name="step-1-identify-valid-sources-of-mail-for-your-domain"></a>Stap 1: geldige bronnen van e-mail identificeren voor uw domein
 <a name="IdentifyValidSources"> </a>
@@ -113,10 +113,10 @@ Als u SPF al hebt ingesteld, hebt u deze stap al doorlopen. Voor DMARC zijn er e
 
 - Komen de 5321.MailFrom- en 5322.From-domeinen overeen voor e-mail die namens u door derden wordt verzonden.
 
-### <a name="step-2-set-up-spf-for-your-domain-in-office-365"></a>Stap 2: SPF instellen voor uw domein in Office 365
+### <a name="step-2-set-up-spf-for-your-domain"></a>Stap 2: SPF instellen voor uw domein
 <a name="ConfigSPF"> </a>
 
-Nu u een lijst hebt met alle geldige afzenders, kunt u de stappen volgen in [SPF in Office 365 instellen om adresvervalsing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md).
+Nu u een lijst hebt met alle geldige afzenders, kunt u de stappen volgen in [SPF instellen om adresvervalsing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md).
   
 Ervan uitgaande dat contoso.com bijvoorbeeld e-mail verzendt van Exchange Online, een on-premises Exchange-server met IP-adres 192.168.0.1 en een webtoepassing met IP-adres 192.168.100.100, dan ziet het SPF TXT-record er als volgt uit:
   
@@ -126,19 +126,19 @@ contoso.com  IN  TXT  " v=spf1 ip4:192.168.0.1 ip4:192.168.100.100 include:spf.p
 
 Het is een goed idee ervoor te zorgen dat uw SPF TXT-record rekening houdt met afzenders van derden.
   
-### <a name="step-3-set-up-dkim-for-your-custom-domain-in-office-365"></a>Stap 3: DKIM instellen voor uw aangepaste domein in Office 365
+### <a name="step-3-set-up-dkim-for-your-custom-domain"></a>Stap 3: DKIM instellen voor uw aangepaste domein
 <a name="ConfigDKIM"> </a>
 
-Als u SPF hebt ingesteld, moet u DKIM instellen. Met DKIM kunt u een digitale handtekening toevoegen aan e-mailberichten in de berichtkop. Als u DKIM niet instelt en in plaats daarvan Office 365 toestaat de standaard-DKIM-configuratie van uw domein te gebruiken, kan de DMARC-controle mislukken. Dat komt, omdat de standaard-DKIM-configuratie uw initiële onmicrosoft.com-domein gebruikt als het 5322.From-adres, niet uw aangepaste domein. Dit zorgt ervoor dat de 5321.MailFrom- en 5322.From-adressen niet overeenkomen in alle e-mails die worden verzonden vanuit uw domein.
+Als u SPF hebt ingesteld, moet u DKIM instellen. Met DKIM kunt u een digitale handtekening toevoegen aan e-mailberichten in de berichtkop. Als u DKIM niet instelt en in plaats daarvan Microsoft 365 toestaat de standaard-DKIM-configuratie van uw domein te gebruiken, kan de DMARC-controle mislukken. Dat komt, omdat de standaard-DKIM-configuratie uw initiële onmicrosoft.com-domein gebruikt als het 5322.From-adres, niet uw aangepaste domein. Dit zorgt ervoor dat de 5321.MailFrom- en 5322.From-adressen niet overeenkomen in alle e-mails die worden verzonden vanuit uw domein.
   
-Als u derden hebt die namens u e-mail verzenden en in de e-mail die ze verzenden de 5321.MailFrom- en 5322.From-adressen niet overeenkomen, mislukt de DMARC-controle voor die e-mail. Om dit te voorkomen, moet u DKIM instellen voor uw domein met specifiek die derde. Hiermee kan Office 365 e-mail van deze derde verifiëren. Hiermee kunnen echter ook anderen, zoals Yahoo, Gmail en Comcast aan hun verzonden e-mail verifiëren van de derde alsof die door u is verzonden. Dat is handig, omdat klanten vertrouwen kunnen opbouwen met uw domein, ongeacht waar hun postvak zich bevindt en tegelijkertijd zal Office 365 een bericht niet markeren als spam vanwege adresvervalsing, omdat het slaagt voor de verificatiecontroles voor uw domein.
+Als u derden hebt die namens u e-mail verzenden en in de e-mail die ze verzenden de 5321.MailFrom- en 5322.From-adressen niet overeenkomen, mislukt de DMARC-controle voor die e-mail. Om dit te voorkomen, moet u DKIM instellen voor uw domein met specifiek die derde. Hiermee kan Microsoft 365 e-mail van deze derde verifiëren. Hiermee kunnen echter ook anderen, zoals Yahoo, Gmail en Comcast aan hun verzonden e-mail verifiëren van de derde alsof die door u is verzonden. Dat is handig, omdat klanten vertrouwen kunnen opbouwen met uw domein, ongeacht waar hun postvak zich bevindt en tegelijkertijd zal Microsoft 365 een bericht niet markeren als spam vanwege adresvervalsing, omdat het slaagt voor de verificatiecontroles voor uw domein.
   
-Zie [DKIM gebruiken voor het valideren van uitgaande e-mail die is verzonden vanuit uw aangepaste domein in Office 365](use-dkim-to-validate-outbound-email.md) voor instructies over het instellen van DKIM voor uw domein, inclusief het instellen van DKIM voor derden zodat ze uw adres kunnen nabootsen.
+Zie [DKIM gebruiken voor het valideren van uitgaande e-mail die is verzonden vanuit uw aangepaste domein](use-dkim-to-validate-outbound-email.md) voor instructies over het instellen van DKIM voor uw domein, inclusief het instellen van DKIM voor derden zodat ze uw adres kunnen nabootsen.
   
-### <a name="step-4-form-the-dmarc-txt-record-for-your-domain-in-office-365"></a>Stap 4: het DMARC TXT-record maken voor uw domein in Office 365
+### <a name="step-4-form-the-dmarc-txt-record-for-your-domain"></a>Stap 4: het DMARC TXT-record maken voor uw domein
 <a name="CreateDMARCRecord"> </a>
 
-Dit zijn de meestgebruikte opties voor Office 365, hoewel er ook andere syntaxis-opties zijn die hier niet worden genoemd. Maak het DMARC TXT-record voor uw domein in de indeling:
+Dit zijn de meestgebruikte opties voor Microsoft 365, hoewel er ook andere syntaxis-opties zijn die hier niet worden genoemd. Maak het DMARC TXT-record voor uw domein in de indeling:
   
 ```text
 _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
@@ -154,7 +154,7 @@ waarbij:
 
 - *beleid* geeft aan welk beleid moet worden gevolgd door de ontvangende server als de DMARC-controle mislukt. U kunt het beleid instellen op geen, quarantaine of weigeren.
 
-Raak vertrouwd met [Aanbevolen procedures voor implementeren van DMARC in Office 365](use-dmarc-to-validate-email.md#DMARCbestpractices) voor meer informatie over de opties die u kunt gebruiken.
+Raak vertrouwd met [Aanbevolen procedures voor implementeren van DMARC in Microsoft 365](use-dmarc-to-validate-email.md#DMARCbestpractices) voor meer informatie over de opties die u kunt gebruiken.
   
 Voorbeelden:
   
@@ -176,9 +176,9 @@ Voorbeelden:
     _dmarc.contoso.com  3600 IN  TXT  "v=DMARC1; p=reject"
     ```
 
-Wanneer u het record hebt gemaakt, moet u het record bij uw domeinregistrar bijwerken. Zie [DNS-records voor Office 365 maken wanneer u uw DNS-records beheert](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23) voor instructies over het toevoegen van het DMARC TXT-record aan uw DNS-records voor Office 365.
+Wanneer u het record hebt gemaakt, moet u het record bij uw domeinregistrar bijwerken. Zie [DNS-records voor Microsoft 365 maken wanneer u uw DNS-records beheert](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23) voor instructies over het toevoegen van het DMARC TXT-record aan uw DNS-records voor Microsoft 365.
   
-## <a name="best-practices-for-implementing-dmarc-in-office-365"></a>Aanbevolen procedures voor implementatie van DMARC in Office 365
+## <a name="best-practices-for-implementing-dmarc-in-microsoft-365"></a>Aanbevolen procedures voor implementatie van DMARC in Microsoft 365
 <a name="DMARCbestpractices"> </a>
 
 U kunt DMARC geleidelijk implementeren zonder gevolgen voor de rest van uw e-mailstroom. Maak en implementeer een planning die de deze stappen volgt. Voer elk van deze stappen eerst uit met een subdomein, dan andere subdomeinen en ten slotte met het hoofddomein in uw organisatie voordat u doorgaat met de volgende stap.
@@ -197,37 +197,41 @@ U kunt DMARC geleidelijk implementeren zonder gevolgen voor de rest van uw e-mai
 
     De laatste stap is het implementeren van weigeringsbeleid. Weigeringsbeleid is een DMARC TXT-record waarvan het beleid is ingesteld op weigeren (p=weigeren). Wanneer u dit doet, vraagt u DMARC-ontvangers geen berichten te accepteren waarvan de DMARC-controle is mislukt. 
 
-## <a name="how-office-365-handles-outbound-email-that-fails-dmarc"></a>Hoe Office 365 omgaat met uitgaande e-mail waarvan de DMARC-controle is mislukt
+## <a name="how-microsoft-365-handles-outbound-email-that-fails-dmarc"></a>Hoe Microsoft 365 omgaat met uitgaande e-mail waarvan de DMARC-controle is mislukt
 <a name="outbounddmarcfail"> </a>
 
-Als er door Office 365 een bericht wordt verzonden waarvan de DMARC-controle mislukt en u hebt het beleid ingesteld op p=quarantaine of p=weigeren, wordt het bericht gerouteerd door de [Afleveringsgroep met hoog risico voor uitgaande berichten](high-risk-delivery-pool-for-outbound-messages.md). Het is niet mogelijk het beleid voor uitgaande e-mail te negeren.
+Als er door Microsoft 365 een bericht wordt verzonden waarvan de DMARC-controle mislukt en u hebt het beleid ingesteld op p=quarantaine of p=weigeren, wordt het bericht gerouteerd door de [Afleveringsgroep met hoog risico voor uitgaande berichten](high-risk-delivery-pool-for-outbound-messages.md). Het is niet mogelijk het beleid voor uitgaande e-mail te negeren.
   
-Als u DMARC-weigeringsbeleid publiceert (p=weigeren), kan geen enkele andere klant in Office 365 uw domein nabootsen, omdat berichten niet door de SPF- of DKIM-controles komen voor uw domein wanneer ze een uitgaand bericht verzenden via de service. Als u echter DMARC-weigeringsbeleid publiceert, maar niet al uw e-mail laat verifiëren door Office 365, kunnen bepaalde berichten worden gemarkeerd als spam voor inkomende e-mail (zoals hierboven beschreven) of geweigerd als u geen SPF publiceert en dit wil doorgeven via de service. Dit is bijvoorbeeld het geval als u bepaalde IP-adressen voor servers en apps die e-mail zenden namens uw domein vergeet op te nemen wanneer u uw DMARC TXT-record maakt.
+Als u DMARC-weigeringsbeleid publiceert (p=weigeren), kan geen enkele andere klant in Microsoft 365 uw domein nabootsen, omdat berichten niet door de SPF- of DKIM-controles komen voor uw domein wanneer ze een uitgaand bericht verzenden via de service. Als u echter DMARC-weigeringsbeleid publiceert, maar niet al uw e-mail laat verifiëren door Microsoft 365, kunnen bepaalde berichten worden gemarkeerd als spam voor inkomende e-mail (zoals hierboven beschreven) of geweigerd als u geen SPF publiceert en dit wil doorgeven via de service. Dit is bijvoorbeeld het geval als u bepaalde IP-adressen voor servers en apps die e-mail zenden namens uw domein vergeet op te nemen wanneer u uw DMARC TXT-record maakt.
   
-## <a name="how-office-365-handles-inbound-email-that-fails-dmarc"></a>Hoe Office 365 omgaat met inkomende e-mail waarvan de DMARC-controle is mislukt
+## <a name="how-microsoft-365-handles-inbound-email-that-fails-dmarc"></a>Hoe Microsoft 365 omgaat met inkomende e-mail waarvan de DMARC-controle is mislukt
 <a name="inbounddmarcfail"> </a>
 
-Als het DMARC-beleid van de verzendende server p=weigeren is, markeert EOP het bericht als spam in plaats van het te weigeren. Met andere woorden, voor inkomende e-mail behandelt Office 365 p= weigeren en p=quarantaine op dezelfde manier.
+Als het DMARC-beleid van de verzendende server `p=reject` is, markeert EOP het bericht als spoof in plaats van het te weigeren. Met andere woorden, Microsoft 365 behandelt `p=reject` en `p=quarantine` voor inkomend e-mails op dezelfde manier. Beheerders kunnen binnen het [anti-phishing-beleid](set-up-anti-phishing-policies.md) de actie definiëren die moet worden uitgevoerd voor berichten die worden geclassificeerd als spoof.
   
-Office 365 is zo geconfigureerd, omdat van bepaalde legitieme e-mail de DMARC-controle mogelijk mislukt.  De DMARC-controle van een bericht kan bijvoorbeeld mislukken als het wordt verzonden naar een adressenlijst die vervolgens het bericht doorstuurt naar alle deelnemers aan die lijst. Als deze berichten door Office 365 worden geweigerd, kunnen gebruikers legitieme e-mail kwijtraken zonder die te kunnen herstellen. In plaats hiervan zal de DMARC-controle van deze berichten nog steeds mislukken, maar worden ze gemarkeerd als spam en niet geweigerd. Indien gewenst, kunnen gebruikers deze berichten nog steeds in hun postvak krijgen via de volgende methoden:
+Microsoft 365 is zo geconfigureerd, omdat van bepaalde legitieme e-mail de DMARC-controle mogelijk mislukt.  De DMARC-controle van een bericht kan bijvoorbeeld mislukken als het wordt verzonden naar een adressenlijst die vervolgens het bericht doorstuurt naar alle deelnemers aan die lijst. Als deze berichten door Microsoft 365 worden geweigerd, kunnen gebruikers legitieme e-mail kwijtraken zonder die te kunnen herstellen. In plaats hiervan zal de DMARC-controle van deze berichten nog steeds mislukken, maar worden ze gemarkeerd als spam en niet geweigerd. Indien gewenst, kunnen gebruikers deze berichten nog steeds in hun postvak krijgen via de volgende methoden:
   
-- Gebruikers voegen veilige afzenders afzonderlijk toe in hun e-mailclient
+- Gebruikers voegen veilige afzenders afzonderlijk toe in hun e-mailclient.
 
-- Beheerders maken een Exchange-e-mailstroom (ook wel transportregel genoemd) voor alle gebruikers die berichten van die bepaalde afzenders toestaan. 
+- Beheerders kunnen de [Spoof Intelligence](learn-about-spoof-intelligence.md) bijwerken om de adresvervalsing toe te staan.
 
-## <a name="how-office-365-utilizes-authenticated-received-chain-arc"></a>Hoe Office 365 ARC (Authenticated Received Chain) gebruikt
+- Beheerders maken een Exchange-e-mailstroom (ook wel transportregel genoemd) voor alle gebruikers die berichten van die bepaalde afzenders toestaan.
+
+Zie [Lijsten met veilige afzenders maken](create-safe-sender-lists-in-office-365.md) voor meer informatie.
+
+## <a name="how-microsoft-365-utilizes-authenticated-received-chain-arc"></a>Hoe Microsoft 365 ARC (Authenticated Received Chain) gebruikt
 <a name="ARC"> </a>
 
-Alle in Office 365 gehoste e-mail heeft nu het voordeel van ARC met verbeterde aflevering van berichten en uitgebreide bescherming tegen adresvervalsing. Met ARC worden de verificatieresultaten van e-mail behouden van alle deelnemende intermediairs, of haltes, wanneer een e-mail vanaf de oorspronkelijke server wordt gestuurd naar het postvak van de geadresseerde.  De wijzigingen die door intermediairs werden uitgevoerd in e-mailroutering, zoals doorstuurregels of automatische handtekeningen, konden voor ARC leiden tot DMARC-fouten wanneer de e-mail het postvak van de geadresseerde bereikte. Met ARC kan Office 365 de echtheid van de afzender van een e-mail verifiëren dankzij het cryptografische behoud van de verificatieresultaten. 
+Alle in Microsoft 365 gehoste e-mail heeft nu het voordeel van ARC met verbeterde aflevering van berichten en uitgebreide bescherming tegen adresvervalsing. Met ARC worden de verificatieresultaten van e-mail behouden van alle deelnemende intermediairs, of haltes, wanneer een e-mail vanaf de oorspronkelijke server wordt gestuurd naar het postvak van de geadresseerde.  De wijzigingen die door intermediairs werden uitgevoerd in e-mailroutering, zoals doorstuurregels of automatische handtekeningen, konden voor ARC leiden tot DMARC-fouten wanneer de e-mail het postvak van de geadresseerde bereikte. Met ARC kan Microsoft 365 de echtheid van de afzender van een e-mail verifiëren dankzij het cryptografische behoud van de verificatieresultaten. 
 
-Office 365 gebruikt momenteel ARC om verificatieresultaten te controleren wanneer Microsoft de ARC-sealer is, maar in de toekomst worden derde ARC-sealers ook ondersteund. 
+Microsoft 365 gebruikt momenteel ARC om verificatieresultaten te controleren wanneer Microsoft de ARC-sealer is, maar in de toekomst worden derde ARC-sealers ook ondersteund. 
 
 ## <a name="troubleshooting-your-dmarc-implementation"></a>Problemen oplossen met uw DMARC-implementatie
 <a name="dmarctroubleshoot"> </a>
 
 Als u de MX-records van uw domein zo hebt geconfigureerd dat EOP niet het eerste item is, worden DMARC-fouten niet afgedwongen voor uw domein. 
   
-Als u een Office 365-klant bent en het primaire MX-record van uw domein verwijst niet naar EOP, krijgt u niet de voordelen van DMARC. DMARC werkt bijvoorbeeld niet als uw MX-record verwijst naar uw on-premises mailserver en de e-mail dan routeert naar EOP via een connector. In dit scenario is het ontvangende domein een van uw geaccepteerde domeinen, maar is EOP niet de primaire MX. Stel bijvoorbeeld dat contoso.com het MX-record naar zichzelf laat verwijzen en EOP gebruikt als secundair MX-record, dan ziet het MX-record van contoso.com er als volgt uit:
+Als u een klant bent en het primaire MX-record van uw domein verwijst niet naar EOP, krijgt u niet de voordelen van DMARC. DMARC werkt bijvoorbeeld niet als uw MX-record verwijst naar uw on-premises mailserver en de e-mail dan routeert naar EOP via een connector. In dit scenario is het ontvangende domein een van uw geaccepteerde domeinen, maar is EOP niet de primaire MX. Stel bijvoorbeeld dat contoso.com het MX-record naar zichzelf laat verwijzen en EOP gebruikt als secundair MX-record, dan ziet het MX-record van contoso.com er als volgt uit:
   
 ```text
 contoso.com     3600   IN  MX  0  mail.contoso.com
@@ -241,7 +245,7 @@ Alle, of de meeste, e-mail zal eerst worden gerouteerd naar mail.contoso.com, om
 
 Meer informatie over DMARC? Deze informatiebronnen kunnen u hiermee helpen.
   
-- [Antispamberichtkoppen](anti-spam-message-headers.md) bevatten onder meer de syntaxis en koptekstvelden die door Office 365 worden gebruikt voor DMARC-controles. 
+- [Antispamberichtkoppen](anti-spam-message-headers.md) bevatten onder meer de syntaxis en koptekstvelden die door Microsoft 365 worden gebruikt voor DMARC-controles. 
 
 - Maak gebruik van de [DMARC Trainingsserie](https://www.m3aawg.org/activities/training/dmarc-training-series) van M <sup>3</sup>AAWG (Messaging, Malware, Mobile Anti-Abuse Working Group).
 
@@ -252,8 +256,8 @@ Meer informatie over DMARC? Deze informatiebronnen kunnen u hiermee helpen.
 ## <a name="see-also"></a>Zie ook
 <a name="sectionSection8"> </a>
 
-[Hoe Office 365 SPF (Sender Policy Framework) gebruikt om adresvervalsing te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md)
+[Hoe Microsoft 365 SPF (Sender Policy Framework) gebruikt om adresvervalsing te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md)
   
-[SPF in Office 365 instellen om adresvervalsing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md) 
+[SPF in Microsoft 365 instellen om adresvervalsing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
   
-[DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein in Office 365](use-dkim-to-validate-outbound-email.md)
+[DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein in Microsoft 365](use-dkim-to-validate-outbound-email.md)

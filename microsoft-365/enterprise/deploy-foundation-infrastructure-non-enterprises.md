@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Stap in de vereenvoudigde fasen van de basisinfrastructuur van Microsoft 365 voor bedrijven voor middelgrote bedrijven.
-ms.openlocfilehash: 0d372578539ff05fcd2cadaa45c554921ee68f71
-ms.sourcegitcommit: 9afcc63b1a7e73f6946f67207337f10b71a5d7f3
+ms.openlocfilehash: cad142f2f26eb999431eb5bb531cb4520e4d6102
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42809152"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638258"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-for-non-enterprises"></a>Microsoft 365 voor bedrijven-basisinfrastructuur voor middelgrote bedrijven
 
@@ -29,16 +29,16 @@ Middelgrote bedrijven kunnen ook Microsoft 365 voor bedrijven implementeren en d
 - Kleinschalige on-premises IT-infrastructuur, zoals e-mail- en bestandsservers en een Active Directory Domain Services-domein (AD DS) of helemaal geen.
 - Een klein aantal IT-medewerkers, waarvan de meeste IT-generalisten en geen specialisten in een specifieke technologie of werkbelasting zoals netwerken of e-mail.
 
-Voor kleinere bedrijven biedt Microsoft [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business). Er zijn echter redenen waarom u Microsoft 365 voor bedrijven nodig zou kunnen hebben, zoals:
+Voor kleinere bedrijven biedt Microsoft [Microsoft 365 voor ondernemingen](https://www.microsoft.com/microsoft-365/business). Er zijn echter redenen waarom u Microsoft 365 voor bedrijven nodig zou kunnen hebben, zoals:
 
-- uw bedrijf heeft nu of in de toekomst meer dan 300 Microsoft 365-licenties (het maximum voor Microsoft 365 Business) nodig.
-- uw bedrijf heeft behoefte aan de geavanceerde productiviteits-, voice-, beveiligings- en analytische mogelijkheden die niet beschikbaar zijn met Microsoft 365 Business.
+- Uw bedrijf heeft nu of in de toekomst meer dan 300 Microsoft 365-licenties (het maximum voor Microsoft 365 voor ondernemingen) nodig.
+- Uw bedrijf heeft behoefte aan de geavanceerde productiviteits-, voice-, beveiligings- en analytische mogelijkheden die niet beschikbaar zijn met Microsoft 365 voor ondernemingen.
 
 In dit artikel wordt uitgelegd hoe u de basisinfrastructuur van Microsoft 365 voor bedrijven die geschikt is voor uw middelgrote bedrijf eenvoudig kunt implementeren.
 
 ## <a name="first-set-up-your-subscription"></a>Eerst moet u uw abonnement instellen
 
-U moet de DNS-domeinen (Domain Name System) voor uw abonnement instellen. Als u al een Office 365-abonnement hebt, moet dit al zijn gedaan. Zo niet, volg dan de instructies in [Een domein toevoegen aan Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain?view=o365-worldwide).
+U moet de DNS-domeinen (Domain Name System) voor uw abonnement instellen. Als u al een Microsoft 365-abonnement hebt, moet dit al zijn gedaan. Zo niet, volg dan de instructies in [Een domein toevoegen aan Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain?view=o365-worldwide).
 
 Vervolgens moet u aanvullende beveiliging configureren voor Microsoft 365. Volg de instructies in [Verbeterde beveiliging configureren](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
 
@@ -213,28 +213,28 @@ De nieuwe en gemarkeerde Windows 10 Enterprise-elementen zijn onder meer:
 | ![Het servicecentrum voor volumelicenties](../media/deploy-foundation-infrastructure-non-enterprises/win10-cloud.png) | Het servicecentrum voor volumelicenties dat images biedt voor nieuwe installaties van Windows 10 Enterprise en de service Windows Update voor Bedrijven die de nieuwste updates biedt. |
 |||
 
-## <a name="phase-4-office-365-proplus"></a>Fase 4: Office 365 ProPlus
+## <a name="phase-4-microsoft-365-apps-for-enterprise"></a>Fase 4: Microsoft 365-apps voor ondernemingen
 
-Microsoft 365 voor bedrijven omvat Office 365 ProPlus, de abonnementsversie van Microsoft Office. Office 365 ProPlus wordt net als Office 2016 of Office 2019 rechtstreeks geïnstalleerd op uw clientapparaten. Office 365 ProPlus ontvangt echter regelmatig updates met nieuwe functies. Zie [Informatie over Office 365 ProPlus in de onderneming](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise) voor meer informatie.
+Microsoft 365 voor bedrijven omvat Microsoft 365-apps voor ondernemingen, de abonnementsversie van Microsoft Office. Microsoft 365-apps voor ondernemingen wordt net als Office 2016 of Office 2019 rechtstreeks geïnstalleerd op uw clientapparaten. Microsoft 365-apps voor ondernemingen ontvangt echter regelmatig updates met nieuwe functies. Zie [Over Microsoft 365-apps voor ondernemingen in de onderneming](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise) voor meer informatie.
 
-Voor uw middelgroot bedrijf installeert u Office 365 ProPlus handmatig op apparaten, waaronder Windows-, iOS en Android-apparaten. Dit kan worden gedaan als onderdeel van het voorbereiden van een nieuw apparaat of door de gebruiker als onderdeel van het onboardingproces.
+Voor uw middelgroot bedrijf installeert u Microsoft 365-apps voor ondernemingen handmatig op apparaten, waaronder Windows-, iOS- en Android-apparaten. Dit kan worden gedaan als onderdeel van het voorbereiden van een nieuw apparaat of door de gebruiker als onderdeel van het onboardingproces.
 
 De beheerder of de gebruiker meldt zich in elk geval aan bij de Office 365-portal op https://portal.office.com. Klik in het tabblad **Microsoft Office voor thuisgebruik** op **Office installeren** en volg het installatieproces.
 
-Functie-updates voor Office 365 ProPlus worden maandelijks gedownload door elke computer waarop het is geïnstalleerd. Het is over het algemeen in een middelgroot bedrijf niet nodig een infrastructuur in te stellen om Office 365 ProPlus-updates te distribueren en te installeren. 
+Functie-updates voor Microsoft 365-apps voor ondernemingen worden maandelijks gedownload door elke computer waarop het is geïnstalleerd. Het is over het algemeen in een middelgroot bedrijf niet nodig een infrastructuur in te stellen om updates voor Microsoft 365-apps voor ondernemingen te distribueren en te installeren. 
 
 ### <a name="your-configuration-so-far"></a>Uw configuratie tot nu toe
 
-Hier ziet u een visueel overzicht van de Office 365 ProPlus-fase waarin de nieuwe elementen zijn gemarkeerd.
+Hier ziet u een visueel overzicht van de Microsoft 365-apps voor ondernemingen waarin de nieuwe elementen zijn gemarkeerd.
 
-![Uw bedrijf na de Office 365 ProPlus-fase](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-config.png)
+![Uw organisatie na de fase van Microsoft 365-apps voor ondernemingen](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-config.png)
  
-De nieuwe en gemarkeerde elementen van Office 365 ProPlus zijn onder meer:
+De nieuwe en gemarkeerde elementen van Microsoft 365-apps voor ondernemingen zijn onder meer:
  
 |||
 |:------:|:-----|
-| ![Office 365 ProPlus geïnstalleerd op apparaten](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-device.png) | Office 365 ProPlus geïnstalleerd op apparaten met een on-premises-laptop als voorbeeld. |
-| ![Het Office-CDN (netwerk voor contentlevering) voor Office 365 ProPlus](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-cdn.png) | Het Office-CDN (netwerk voor contentlevering) voor Office 365 ProPlus met apparaattoegang voor Office 365 ProPlus-updates. |
+| ![Microsoft 365-apps voor ondernemingen geïnstalleerd op apparaten](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-device.png) | Microsoft 365-apps voor ondernemingen geïnstalleerd op apparaten met een on-premises-laptop als voorbeeld. |
+| ![Het Office-CDN (netwerk voor contentlevering) voor Microsoft 365-apps voor ondernemingen](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-cdn.png) | Het Office Content Delivery Network (CDN) voor Microsoft 365-apps voor ondernemingen, dat apparaten toegang geeft tot updates voor Microsoft 365-apps voor ondernemingen. |
 |||
 
 ## <a name="phase-5-mobile-device-management"></a>Fase 5: Mobile Device Management
@@ -312,14 +312,14 @@ Op basis van deze gegevensbeveiligingsniveaus is de volgende stap het identifice
 
 Zie [Classificatietypen voor Microsoft 365](infoprotect-configure-classification.md#microsoft-365-classification-types) voor meer informatie.
 
-Als u gevoeligheidslabels met machtigingen gebruikt, moet u mogelijk aanvullende Office 365-beveiligingsgroepen maken om te bepalen wie wat mag doen met e-mailberichten en documenten waarop het gevoeligheidslabel is toegepast. 
+Als u gevoeligheidslabels met machtigingen gebruikt, moet u mogelijk aanvullende beveiligingsgroepen maken om te bepalen wie wat mag doen met e-mailberichten en documenten waarop het gevoeligheidslabel is toegepast. 
 
 U moet bijvoorbeeld een gevoeligheidslabel ONDERZOEK maken om de e-mailberichten en documenten van uw onderzoeksteam te beveiligen. U bepaalt dat:
 
 - Onderzoekers de mogelijkheid moeten hebben om documenten te wijzigen met het gevoeligheidslabel ONDERZOEK.
 - Andere medewerkers alleen de mogelijkheid moeten hebben om documenten te bekijken met het gevoeligheidslabel ONDERZOEK. 
 
-Dit betekent dat u twee extra Office 365-groepen moet maken en beheren:
+Dit betekent dat u twee extra Microsoft 365-groepen moet maken en beheren:
 
 - ONDERZOEK-ALLES
 - ONDERZOEK-BEKIJKEN
@@ -388,7 +388,7 @@ Instrueer de nieuwe medewerkers dat wanneer ze zich voor het eerst aanmelden in 
 
 1. Ze zich aanmelden bij hun apparaten met de aanmeldingsgegevens van hun gebruikersaccount.
 2. Een browser gebruiken om zich op https://portal.office.com aan te melden bij de Office 365-portal.
-3. Vanaf het tabblad **Office 365 voor thuisgebruik** klikken op **Office installeren** om Office 365 ProPlus op hun apparaat te installeren.
+3. Vanaf het tabblad **Office 365 voor thuisgebruik** klikken op **Office installeren** om Microsoft 365-apps voor ondernemingen op hun apparaat te installeren.
 
 ## <a name="end-results"></a>Eindresultaten
 
@@ -405,7 +405,7 @@ Na de opbouw en configuratie van uw Microsoft 365 voor bedrijven-infrastructuur 
   - COND-ACCESS-EXCLUDE
   - De juiste AD DS- of Azure AD-beveiligingsgroepen die ook lid zijn van de Azure AD-groepen BASISLIJN, GEVOELIG en STERK GEREGLEMENTEERD. 
   - Werk-, afdelings- en regionale groepen
-  - Office 365-gevoeligheidslabelgroepen (indien nodig)
+  - Microsoft 365-gevoeligheidslabelgroepen (indien nodig)
 - Azure AD-aanmeldbeleid voor voorwaardelijke toegang die de Azure AD-groepen BASISLIJN, GEVOELIG, STERK GEREGLEMENTEERD en COND-ACCESS-EXCLUDE gebruiken.
 - Intune-toepassings- en nalevingsbeleid voor apparaten.
 - Aangepaste typen gevoelige gegevens (indien nodig).
@@ -429,11 +429,11 @@ Na de onboarding moet elke medewerker het volgende hebben:
    - GELICENTIEERD
    - De juiste AD DS- of Azure AD-beveiligingsgroepen die ook lid zijn van de Azure AD-groepen BASISLIJN, GEVOELIG en STERK GEREGLEMENTEERD voor beleid voor voorwaardelijke toegang 
    - De juiste werk-, afdelings- en regionale groepen
-   - Office 365-gevoeligheidslabelgroepen (indien nodig)
+   - Microsoft 365-gevoeligheidslabelgroepen (indien nodig)
 - Een Windows 10 Enterprise-apparaat:
    - dat is gekoppeld aan de Azure AD-tenant (cloud) of aan zowel de Azure AD-tenant als uw AD DS-domein (hybride).
    - dat zichzelf automatisch bijwerkt met de nieuwste verbeteringen voor Windows 10 Enterprise-producten en -beveiliging. 
-   - waarop Office 365 ProPlus is geïnstalleerd, dat zichzelf automatisch bijgewerkt met de nieuwste verbeteringen voor Office-producten en -beveiliging
+   - Waarop Microsoft 365-apps voor ondernemingen is geïnstalleerd, dat zichzelf automatisch bijgewerkt met de nieuwste verbeteringen voor Office-producten en -beveiliging.
    - dat is geregistreerd in Intune en valt onder nalevings- en app-beveiligingsbeleid van Intune.
 
 ## <a name="next-step"></a>Volgende stap
