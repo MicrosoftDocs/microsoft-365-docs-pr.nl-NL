@@ -1,5 +1,5 @@
 ---
-title: Herstellen van een ransomware aanval
+title: Herstel na een ransomware-aanval
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -12,19 +12,19 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Office 365-beheerders kunnen leren hoe ze kunnen herstellen van een ransomware-aanval.
-ms.openlocfilehash: 6d57142bac6dad22d38cc26a9353b528a9f8eb10
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+description: Microsoft 365-beheerders kunnen leren hoe ze kunnen herstellen van een ransomware-aanval.
+ms.openlocfilehash: 49e14e92505f5241828a525aba82a2dc871e6784
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032874"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634398"
 ---
 # <a name="recover-from-a-ransomware-attack-in-office-365"></a>Herstellen van een ransomware-aanval in Office 365
 
-Zelfs als u alle voorzorgsmaatregelen neemt om uw Office 365-organisatie te beschermen, u nog steeds het slachtoffer worden van een [ransomware-aanval.](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) Ransomware is big business, en de aanvallen zijn te verifiëren geavanceerde.
+Zelfs als u alle voorzorgsmaatregelen neemt om uw organisatie [ransomware](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) te beschermen, u nog steeds het slachtoffer worden van een ransomware-aanval. Ransomware is big business, en de aanvallen zijn te verifiëren geavanceerde.
 
-De stappen in dit onderwerp geeft u de beste kans om gegevens die werd versleuteld door de ransomware te herstellen, en zal helpen stoppen met de verspreiding van de infectie in uw Office 365 organisatie. Voordat u aan de slag gaat, moet u de volgende items overwegen:
+De stappen in dit onderwerp geeft u de beste kans om gegevens die werd versleuteld door de ransomware te herstellen, en zal helpen stoppen met de verspreiding van de infectie in uw organisatie. Voordat u aan de slag gaat, moet u de volgende items overwegen:
 
 - Er is geen garantie dat het betalen van het losgeld toegang tot uw bestanden zal terugkeren. In feite, het betalen van het losgeld kan je een doelwit voor meer ransomware. Als u al hebt betaald, maar u uw bestanden met succes hebt kunnen herstellen zonder dat u de resolutie van de aanvaller hoeft te gebruiken, moet u uw bank bellen om te zien of ze de transactie kunnen blokkeren. We raden u ook aan de ransomware-aanval te melden aan de rechtshandhaving, scam rapportage websites en Microsoft zoals later beschreven in dit onderwerp.
 
@@ -122,7 +122,7 @@ Als uw land niet op de lijst staat, vraag het dan aan uw lokale of federale wets
 
 ### <a name="submit-email-messages-to-microsoft"></a>E-mailberichten verzenden naar Microsoft
 
-U phishing-berichten die ransomware bevatten met behulp van een van de verschillende methoden. Zie [Berichten en bestanden rapporteren aan Microsoft voor](report-junk-email-messages-to-microsoft.md)meer informatie.
+U phishing-berichten die ransomware bevatten met behulp van een van de verschillende methoden. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
 ## <a name="see-also"></a>Zie ook
 

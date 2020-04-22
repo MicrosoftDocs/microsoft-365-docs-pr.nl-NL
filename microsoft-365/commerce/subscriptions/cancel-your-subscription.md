@@ -20,17 +20,17 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
-description: Meer informatie over het opzeggen van uw proefversie of betaald abonnement voor Office 365 voor Bedrijven of Microsoft 365.
-ms.openlocfilehash: d58ad1b18c8834740984f0ff47b7983a6797e108
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+description: Meer informatie over het opzeggen van uw proefversie of betaald abonnement van Microsoft 365 voor Bedrijven of Microsoft 365.
+ms.openlocfilehash: 23a43b3a152844090cbbdf5baef29a7b8f992778
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142161"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636593"
 ---
 # <a name="cancel-your-subscription"></a>Uw abonnement opzeggen
 
-*Subsidiabiliteit:* Als u minder dan 25 licenties aan gebruikers hebt toegewezen, u uw proefversie van Office 365 voor Bedrijven of een betaald abonnement op elk gewenst moment online annuleren in het beheercentrum. Als u meer dan 25 licenties aan gebruikers hebt toegewezen, [belt u ondersteuning om uw abonnement op te zeggen.](../../admin/contact-support-for-business-products.md)
+*Subsidiabiliteit:* Als u minder dan 25 licenties aan gebruikers hebt toegewezen, u uw Microsoft 365 voor zakelijke proefversie of betaald abonnement op elk gewenst moment online annuleren in het beheercentrum. Als u meer dan 25 licenties aan gebruikers hebt toegewezen, [belt u ondersteuning om uw abonnement op te zeggen.](../../admin/contact-support-for-business-products.md)
 
 *Terugbetaling:* Elk prorata-tegoed wordt aan u geretourneerd binnen de volgende factureringscyclus.
 
@@ -43,13 +43,14 @@ Als u uw eigen domeinnaam hebt toegevoegd om te gebruiken bij uw abonnement, moe
 
 ::: moniker range="o365-worldwide"
 
+
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
 
 2. Zoek het abonnement dat u wilt opzeggen en selecteer onder **Instellingen & Acties**de optie Abonnement **annuleren**.
 
 3. Bekijk de belangrijke data, geef feedback over waarom je opzegt en selecteer **Abonnement annuleren**.
 
-    Uw abonnement wordt nu in de **status Uitgeschakeld weergegeven** en heeft minder functionaliteit totdat het is verwijderd. Zie [Wat gebeurt er met mijn gegevens en toegang als mijn abonnement op Office 365 voor Bedrijven afloopt voor](what-if-my-subscription-expires.md) meer informatie over wat u verwachten wanneer een betaald abonnement op Office 365 voor Bedrijven wordt geannuleerd?
+    Uw abonnement wordt nu in de **status Uitgeschakeld weergegeven** en heeft minder functionaliteit totdat het is verwijderd. Zie [Wat gebeurt er met mijn gegevens en toegang als mijn Microsoft 365 voor bedrijven-abonnement afloopt voor](what-if-my-subscription-expires.md) meer informatie over wat u verwachten wanneer een betaald Microsoft 365 voor bedrijven-abonnement wordt opgezegd?
 
 ::: moniker-end
 
@@ -65,7 +66,7 @@ Als u uw eigen domeinnaam hebt toegevoegd om te gebruiken bij uw abonnement, moe
 
 4. Bekijk de belangrijke data, geef feedback over waarom je opzegt en selecteer **Abonnement annuleren**.
 
-    Uw abonnement wordt nu in de **status Uitgeschakeld weergegeven** en heeft minder functionaliteit totdat het is verwijderd. Zie [Wat gebeurt er met mijn gegevens en toegang als mijn abonnement op Office 365 voor Bedrijven afloopt voor](what-if-my-subscription-expires.md) meer informatie over wat u verwachten wanneer een betaald abonnement op Office 365 voor Bedrijven wordt geannuleerd?
+    Uw abonnement wordt nu in de **status Uitgeschakeld weergegeven** en heeft minder functionaliteit totdat het is verwijderd. Zie [Wat gebeurt er met mijn gegevens en toegang als mijn Microsoft 365 voor bedrijven-abonnement afloopt voor](what-if-my-subscription-expires.md) meer informatie over wat u verwachten wanneer een betaald Microsoft 365 voor bedrijven-abonnement wordt opgezegd?
 
 ::: moniker-end
 
@@ -81,7 +82,7 @@ Als u uw eigen domeinnaam hebt toegevoegd om te gebruiken bij uw abonnement, moe
 
 4. Bekijk de belangrijke data, geef feedback over waarom je opzegt en selecteer **Abonnement annuleren**.
 
-    Uw abonnement wordt nu in de **status Uitgeschakeld weergegeven** en heeft minder functionaliteit totdat het is verwijderd. Zie [Wat gebeurt er met mijn gegevens en toegang als mijn abonnement op Office 365 voor Bedrijven afloopt voor](what-if-my-subscription-expires.md) meer informatie over wat u verwachten wanneer een betaald abonnement op Office 365 voor Bedrijven wordt geannuleerd?
+    Uw abonnement wordt nu in de **status Uitgeschakeld weergegeven** en heeft minder functionaliteit totdat het is verwijderd. Zie [Wat gebeurt er met mijn gegevens en toegang als mijn Microsoft 365 voor bedrijven-abonnement afloopt voor](what-if-my-subscription-expires.md) meer informatie over wat u verwachten wanneer een betaald Microsoft 365 voor bedrijven-abonnement wordt opgezegd?
 
 ::: moniker-end
 
@@ -110,11 +111,11 @@ Als u een aangepast domein gebruikt met uw abonnement, zijn er een paar extra st
 
 Als u een aangepast domein instelt, hebt u DNS-records toegevoegd zodat het domein werkt met Office 365-services. Voordat u uw domein verwijdert, moet u de DNS-records, zoals uw domein MX-record, bijwerken op uw DNS-host.
 
-Wijzig bijvoorbeeld de MX-record op uw DNS-host. E-mail die naar uw domein wordt verzonden, komt niet meer naar uw Office 365-adres en gaat in plaats daarvan naar uw nieuwe e-mailprovider. (Door een MX-record wordt bepaald waarheen e-mail voor uw domein wordt verzonden.)
+Wijzig bijvoorbeeld de MX-record op uw DNS-host. E-mail die naar uw domein wordt verzonden, komt niet meer naar uw Microsoft-adres en gaat in plaats daarvan naar uw nieuwe e-mailprovider. (Door een MX-record wordt bepaald waarheen e-mail voor uw domein wordt verzonden.)
 
 - Als uw nameserverrecords [(NS)-records naar Office 365-naamservers verwijzen,](../../admin/setup/add-domain.md)worden wijzigingen in uw MX-record pas van kracht als u uw NS-records wijzigt om naar uw nieuwe DNS-host te verwijzen (zie Stap 2).
 
-- Voordat u de MX-record bijwerkt, moet u uw gebruikers laten weten op welke datum u van plan bent hun e-mail te wisselen en de nieuwe e-mailprovider die u van plan bent te gebruiken. Als uw gebruikers hun bestaande Office 365-e-mail naar de nieuwe provider willen verplaatsen, moeten ze extra stappen ondernemen.
+- Voordat u de MX-record bijwerkt, moet u uw gebruikers laten weten op welke datum u van plan bent hun e-mail te wisselen en de nieuwe e-mailprovider die u van plan bent te gebruiken. Als uw gebruikers hun bestaande Microsoft-e-mail naar de nieuwe provider willen verplaatsen, moeten ze ook extra stappen ondernemen.
 
 - Op de dag dat u de MX-record wijzigt, voert u de rest van de stappen in dit artikel uit.
 

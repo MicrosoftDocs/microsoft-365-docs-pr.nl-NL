@@ -1,5 +1,5 @@
 ---
-title: Problemen met e-mail die naar Office 365 worden verzonden
+title: Problemen met e-mail oplossen die naar Microsoft 365 is verzonden
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 ms.collection:
 - M365-security-compliance
-description: In dit artikel vindt u informatie over probleemoplossing voor afzenders die problemen ondervinden wanneer ze e-mail naar inboxen in Office 365 proberen te verzenden en aanbevolen procedures voor bulkmailing naar Office 365-klanten.
-ms.openlocfilehash: 7c5d355f1037df94d856ffff7080d4a12d22f709
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: In dit artikel vindt u informatie over probleemoplossing voor afzenders die problemen ondervinden wanneer ze e-mail naar inboxen in Microsoft 365 proberen te verzenden en aanbevolen procedures voor bulkmailingnaar klanten.
+ms.openlocfilehash: 89fd6d11cca0d7689203948922b27e46ae2c602a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211905"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631143"
 ---
-# <a name="troubleshooting-mail-sent-to-office-365"></a>Problemen met e-mail die naar Office 365 worden verzonden
+# <a name="troubleshooting-mail-sent-to-office-365"></a>Problemen met e-mailberichten die worden verzonden naar Office 365 oplossen
 
-In dit artikel vindt u informatie over probleemoplossing voor afzenders die problemen ondervinden wanneer ze e-mail naar inboxen in Office 365 proberen te verzenden en aanbevolen procedures voor bulkmailing naar Office 365-klanten.
+In dit artikel vindt u informatie over probleemoplossing voor afzenders die problemen ondervinden wanneer ze e-mail naar inboxen in Microsoft 365 proberen te verzenden en aanbevolen procedures voor bulkmailingnaar klanten.
 
 ## <a name="troubleshooting-common-problems-with-mail-delivery-to-office-365"></a>Veelvoorkomende problemen met e-mailbezorging naar Office 365 oplossen
 
@@ -47,7 +47,7 @@ Kies uit een van deze veelvoorkomende problemen.
 
 ### <a name="are-you-managing-your-ip-and-domains-sending-reputation"></a>Beheert u de verzendreputatie van uw IP en domein?
 
-EOP-filtertechnologieën zijn ontworpen om antispambeveiligingen te bieden voor Microsoft Office 365 en andere Microsoft-producten zoals Exchange Server, Microsoft Office Outlook en Windows Live Mail. We maken ook gebruik van SPF, DKIM en DMARC; e-mailverificatietechnologieën die helpen bij het oplossen van het probleem van spoofing en phishing door te controleren of het domein dat de e-mail verzendt, daartoe is gemachtigd. EOP-filtering wordt beïnvloed door een aantal factoren die verband houden met het verzenden van IP, domein, authenticatie, lijstnauwkeurigheid, klachtenpercentages, inhoud en meer. Van deze, een van de belangrijkste factoren in het rijden van de reputatie van een afzender en hun vermogen om e-mail te leveren is hun junk e-mail klacht tarief.
+EOP-filtertechnologieën zijn ontworpen om antispambeveiligingen te bieden voor Microsoft 365, evenals andere Microsoft-producten zoals Exchange Server, Microsoft Office Outlook en Windows Live Mail. We maken ook gebruik van SPF, DKIM en DMARC; e-mailverificatietechnologieën die helpen bij het oplossen van het probleem van spoofing en phishing door te controleren of het domein dat de e-mail verzendt, daartoe is gemachtigd. EOP-filtering wordt beïnvloed door een aantal factoren die verband houden met het verzenden van IP, domein, authenticatie, lijstnauwkeurigheid, klachtenpercentages, inhoud en meer. Van deze, een van de belangrijkste factoren in het rijden van de reputatie van een afzender en hun vermogen om e-mail te leveren is hun junk e-mail klacht tarief.
 
 ### <a name="are-you-sending-email-from-new-ip-addresses"></a>Stuurt u e-mail vanaf nieuwe IP-adressen?
 
@@ -79,7 +79,7 @@ Zie de lijst met foutcodes in rapporten zonder [bezorging e-mail in Exchange Onl
 
  `550 5.7.606-649 Access denied, banned sending IP [x.x.x.x]; To request removal from this list please visit https://sender.office.com/ and follow the directions.`
 
-Als u verwijdering uit deze lijst wilt aanvragen, u [de lijst met contactpersonen gebruiken om uzelf uit de lijst met geblokkeerde afzenders van Office 365 te verwijderen.](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)
+Als u verwijdering uit deze lijst wilt aanvragen, u [de lijstmetnaamportal gebruiken om uzelf uit de lijst met geblokkeerde afzenders te verwijderen.](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)
 
 ### <a name="my-email-landed-in-the-recipients-junk-folder-in-eop"></a>Mijn e-mail is geland in de ongewenste map van de ontvanger in EOP
 
@@ -112,9 +112,9 @@ U hebt de NDR ontvangen omdat verdachte activiteit is gedetecteerd vanaf het IP-
 
  Om berichten van onze gebruikers te ontvangen, moet u ervoor zorgen dat uw netwerk verbindingen toestaat vanaf de IP-adressen die EOP in onze datacenters gebruikt. Zie [IP-adressen van Exchange Online Protection](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)voor meer informatie .
 
-## <a name="best-practices-for-bulk-emailing-to-office-365-users"></a>Aanbevolen procedures voor bulke-mailen naar Office 365-gebruikers
+## <a name="best-practices-for-bulk-emailing-to-microsoft-365-users"></a>Aanbevolen procedures voor bulke-mailen naar Microsoft 365-gebruikers
 
-Als u vaak bulke-mailcampagnes uitvoert naar Office 365-gebruikers en ervoor wilt zorgen dat uw e-mails op een veilige en tijdige manier binnenkomen, volgt u de tips in deze sectie.
+Als u vaak bulke-mailcampagnes uitvoert met Microsoft 365-gebruikers en ervoor wilt zorgen dat uw e-mails op een veilige en tijdige manier binnenkomen, volgt u de tips in deze sectie.
 
 ### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>Ervoor zorgen dat de naam Van: aangeeft wie het bericht verzendt
 

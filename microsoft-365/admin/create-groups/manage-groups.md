@@ -1,5 +1,5 @@
 ---
-title: Office 365-groep beheren in het beheercentrum
+title: Een groep beheren in het beheercentrum
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -18,17 +18,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
-description: Lees office 365-groepen, waaronder het toevoegen van groepleden verwijderen, het bewerken van het e-mailadres, de groepsnaam of de beschrijving en het aanpassen van de werking van de groep.
-ms.openlocfilehash: 34682d3d06babca04a9b2541e3f33ec79d934f50
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Lees microsoft 365-groepen, waaronder het toevoegen van groepleden verwijderen, het bewerken van het e-mailadres, de groepsnaam of de beschrijving en het aanpassen van de werking van de groep.
+ms.openlocfilehash: 230a449bad22d0b872983a8c911955f4d00153ea
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212067"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630391"
 ---
-# <a name="manage-an-office-365-group-in-the-microsoft-365-admin-center"></a>Een Office 365-groep beheren in het Microsoft 365-beheercentrum
+# <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Een groep beheren in het Microsoft 365-beheercentrum
 
-Nadat u [een Office 365-groep](create-groups.md) hebt gemaakt en groepsleden hebt toegevoegd, u uw groep configureren. U de groepsnaam of -beschrijving bewerken, eigenaren of leden beheren en opgeven of externe afzenders de groep kunnen e-mailen en of ze kopieën van groepsgesprekken naar leden moeten verzenden. 
+Nadat u [een Microsoft 365-groep](create-groups.md) hebt gemaakt en groepsleden hebt toegevoegd, u uw groep configureren. U de groepsnaam of -beschrijving bewerken, eigenaren of leden beheren en opgeven of externe afzenders de groep kunnen e-mailen en of ze kopieën van groepsgesprekken naar leden moeten verzenden. 
 
 ## <a name="edit-the-group-name-or-description"></a>De groepsnaam of -beschrijving bewerken
 
@@ -192,14 +192,14 @@ Deze optie is geweldig als u een bedrijfse-mailadres zoals info@contoso.com wilt
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Een Office 365-groep maken](create-groups.md)
+[Een Microsoft 365-groep maken](create-groups.md)
 
-[Gasttoegang tot Office 365-groepen beheren](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
+[Gasttoegang tot Microsoft 365-groepen beheren](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
 
-[Kies het domein dat u wilt gebruiken bij het maken van Office 365-groepen](choose-domain-to-create-groups.md)
+[Het domein kiezen dat u wilt gebruiken bij het maken van Microsoft 365-groepen](choose-domain-to-create-groups.md)
 
-[Leden toestaan om namens een Office 365-groep te verzenden of te verzenden](allow-members-to-send-as-or-send-on-behalf-of-group.md)
+[Leden toestaan om namens een Microsoft 365-groep te verzenden of te verzenden](allow-members-to-send-as-or-send-on-behalf-of-group.md)
 
-[Distributielijsten bijwerken naar Office 365-groepen](../manage/upgrade-distribution-lists.md)
+[Distributielijsten upgraden naar Microsoft 365-groepen](../manage/upgrade-distribution-lists.md)
 
-[Manage Office 365 Groups with PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
+[Microsoft 365-groepen beheren met PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)

@@ -1,5 +1,5 @@
 ---
-title: Fase 5 - Beheer van mobiele apparaten
+title: Fase 5 - Mobile Device Management
 description: Microsoft 365 Enterprise omvat beheer van mobiele apparaten met Behulp van Microsoft Intune. Bekijk de vereisten en vereisten, stel Intune in met uw Azure Active Directory-bron, schrijf iOS-, macOS-, Android- en Windows-apparaten in, implementeer apps, maak een configureerprofiel, gebruik een nalevingsbeleid en schakel voorwaardelijke toegang in voor beheer van mobiele apparaten met Microsoft 365 Enterprise.
 keywords: Microsoft 365, Microsoft 365 Enterprise, Microsoft 365-documentatie, beheer van mobiele apparaten, Intune
 author: JoeDavies-MSFT
@@ -15,12 +15,12 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: a957ef037aed1f9aba923af428c2a440790dbfba
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: c90f16bfbdf41f859e13a23fbdaeb0c3480bd191
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153890"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631523"
 ---
 # <a name="phase-5-mobile-device-management-for-microsoft-365-enterprise"></a>Fase 5: Beheer van mobiele apparaten voor Microsoft 365 Enterprise
 
@@ -34,7 +34,7 @@ In deze fase schrijft u uw apparaten in in Intune en maakt en handhaaft u beleid
 
 ## <a name="step-1-plan-for-your-scenario"></a>Stap 1: Plan voor uw scenario
 
-Een van de belangrijkste redenen om mobiele apparaten te beheren, is het beveiligen en beschermen van de bronnen van uw organisatie. [Veelgebruikte manieren om Microsoft Intune te gebruiken](https://docs.microsoft.com/intune/common-scenarios) bevatten enkele voorbeelden in de echte wereld, waaronder het beveiligen van Office 365-e-mail en -gegevens.
+Een van de belangrijkste redenen om mobiele apparaten te beheren, is het beveiligen en beschermen van de bronnen van uw organisatie. [Veelgebruikte manieren om Microsoft Intune te gebruiken](https://docs.microsoft.com/intune/common-scenarios) bevatten enkele voorbeelden in de echte wereld, waaronder het beveiligen van microsoft-e-mail en -gegevens.
 
 Intune biedt u opties om toegang tot uw organisatie te beheren met behulp van Mobile Device Management (MDM) of Mobile Application Management (MAM). MDM is wanneer gebruikers "inschrijven" hun apparaten in Intune. Eenmaal ingeschreven, zijn ze beheerde apparaten en kunnen alle beleidsregels, regels en instellingen ontvangen die door uw organisatie worden gebruikt. U bijvoorbeeld specifieke apps installeren, een wachtwoordbeleid maken, een VPN-verbinding installeren en meer.
 
@@ -47,7 +47,7 @@ U bepaalt ook hoe u apparaten die eigendom zijn van een organisatie of een organ
 Ontvang vervolgens uw vereisten op basis van uw vereisten en uw scenario's die in de vorige stap zijn gemaakt. [Implement your plan](https://docs.microsoft.com/intune/planning-guide-onboarding) lists all the requirements. Dit zijn de belangrijke items die u nodig hebt voor Intune met Microsoft 365:
 
 - **Intune-abonnement:** inbegrepen bij Microsoft 365 en geeft u toegang tot Microsoft Intune in de [Azure-portal](https://portal.azure.com)
-- **Office 365-abonnement**: inbegrepen bij Microsoft 365 en wordt gebruikt voor Office-apps, waaronder e-mail
+- **Microsoft 365-abonnement**: inbegrepen bij Microsoft 365 en wordt gebruikt voor Office-apps, waaronder e-mail
 - **Azure Active Directory (Azure AD) premium:** inbegrepen bij Microsoft 365 en wordt gebruikt om gebruikers- of beveiligingsgroepen te maken. Deze groepen ontvangen Intune-beleid dat u maakt, zoals het forceren van een wachtwoordlengte om een apparaat te ontgrendelen. De groepen die u maakt in [fase 2: Identiteit](https://docs.microsoft.com/microsoft-365/enterprise/identity-infrastructure) kan worden gebruikt.
 
 Er kunnen enkele aanvullende vereisten zijn, afhankelijk van de behoeften van uw organisatie. Als u bijvoorbeeld iOS-apparaten beheert, hebt u een Apple MDM Push-certificaat nodig. Als u on-premises Exchange gebruikt, hebt u de on-premises Exchange-connector nodig. Deze aanvullende vereisten worden beschreven wanneer u bij deze stappen komt.
@@ -84,7 +84,7 @@ Inschrijving is een belangrijke stap bij het gebruik van Intune. [Apparaten insc
 
 |||
 |:-------|:-----|
-|![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Test Lab Guide: iOS en Android apparaat inschrijving](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md) |
+|![Labrichtlijnen testen voor de Microsoft-Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Test Lab Guide: iOS en Android apparaat inschrijving](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md) |
 |||
 
 
@@ -102,12 +102,12 @@ In het artikel [Apps toevoegen](https://docs.microsoft.com/intune/apps/apps-add)
 
 |||
 |:-------|:-----|
-|![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Testlabgids: nalevingsbeleid voor apparaten](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md) |
+|![Labrichtlijnen testen voor de Microsoft-Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Testlabgids: nalevingsbeleid voor apparaten](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md) |
 |||
 
-## <a name="step-6-turn-on-compliance-and-conditional-access"></a>Stap 6: Compliance en voorwaardelijke toegang inschakelen
+## <a name="step-6-turn-on-compliance-and-conditional-access"></a>Stap 6: Naleving en voorwaardelijke toegang inschakelen
 
-In de vorige stappen stelt u uw omgeving in en hebt u Intune ingeschakeld. Nu bent u klaar om een aantal beleidsregels te maken met behulp van compliance en voorwaardelijke toegang.
+In de vorige stappen stelt u uw omgeving in en hebt u Intune ingeschakeld. Nu bent u klaar om een aantal beleidsregels te maken met behulp van naleving en voorwaardelijke toegang.
 
 Naleving en voorwaardelijke toegang zijn belangrijk voor het beheer van apparaten. [Nalevingsbeleid](https://docs.microsoft.com/intune/device-compliance-get-started) is gemaakt om de bronnen van uw organisatie te beschermen. Wanneer u een nalevingsbeleid maakt, definieert u de standaard of de 'basislijn' van wat een apparaat moet hebben. U bijvoorbeeld een acceptabel (of onaanvaardbaar) dreigingsniveau kiezen, jailbroken-apparaten blokkeren, een wachtwoordlengte vereisen en meer. Als deze apparaten niet aan uw regels voldoen, wat betekent dat ze niet voldoen, u de toegang tot uw bronnen blokkeren.
 
@@ -119,7 +119,7 @@ Zie [Aan de slag met het nalevingsbeleid voor apparaten](https://docs.microsoft.
 
 ## <a name="step-7-apply-features-and-settings"></a>Stap 7: Functies en instellingen toepassen
 
-Deze functies en instellingen worden vaak beschouwd als het "coole" deel van Intune, en zijn zeer krachtig. Zodra u een aantal nalevingsbeleidsregels hebt afgedwongen met voorwaardelijke toegang, u **apparaatprofielen**maken.
+Deze functies en instellingen worden vaak beschouwd als het "coole" deel van Intune, en zijn zeer krachtig. Zodra u een aantal nalevingsbeleidsregels hebt afgedwongen met voorwaardelijke toegang, bent u klaar om **apparaatprofielen**te maken.
 
 Met Intune in de [Azure-portal](https://portal.azure.com) u verschillende profielen maken op basis van uw apparaatplatform - iOS, macOS, Android en Windows. U kunt bijvoorbeeld:
 
@@ -137,7 +137,7 @@ Vergeet niet, begin klein en gebruik een gefaseerde aanpak. Wijs het profiel toe
 Intune is een krachtige service en bevat veel functies. Hier volgen enkele andere taken die u uitvoeren met Intune:
 
 - Software en updates beheren op & [Windows-apparaten en](https://docs.microsoft.com/intune/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune) [devices](https://docs.microsoft.com/intune/windows-update-for-business-configure) [iOS-apparaten](https://docs.microsoft.com/intune/software-updates-ios)
-- Schakel [Microsoft Defender Advanced Threat Protection (ATP)](https://docs.microsoft.com/intune/advanced-threat-protection) in op uw Windows 10-apparaten en gebruik naleving en voorwaardelijke toegang om de toegang tot bedrijfsbronnen, zoals SharePoint of Exchange Online, te beschermen
+- Schakel [Microsoft Defender Advanced Threat Protection (ATP)](https://docs.microsoft.com/intune/advanced-threat-protection) in op uw Windows 10-apparaten en gebruik naleving en voorwaardelijke toegang om toegang tot bedrijfsbronnen, zoals SharePoint of Exchange Online, te beschermen
 - [Lookout,](https://docs.microsoft.com/intune/lookout-mobile-threat-defense-connector) [Symantec](https://docs.microsoft.com/intune/skycure-mobile-threat-defense-connector)en andere samenwerkingspartners voor mobiele verdedigingsbedreigingen gebruiken
 - Een [partnercertificeringsinstantie (CA)](https://docs.microsoft.com/intune/certificate-authority-add-scep-overview) toevoegen om certificaten uit te geven en te vernieuwen
 - [Geef uw eindgebruikers richtlijnen](https://docs.microsoft.com/intune/end-user-educate) in de App Bedrijfsportal, apps downloaden en meer

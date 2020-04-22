@@ -1,5 +1,5 @@
 ---
-title: Office 365 voor Bedrijven verlengen
+title: Microsoft 365 vernieuwen voor bedrijven
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,19 +23,19 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
-description: 'Meer informatie over het verlengen van uw Office 365 voor Bedrijven-abonnement met een productcode en het in- of uitschakelen van terugkerende facturering. '
-ms.openlocfilehash: a382a2c4767f9dac4ee276c050d077d854b99084
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+description: 'Meer informatie over het verlengen van uw Microsoft 365 voor Bedrijven-abonnement met een productcode en het in- of uitschakelen van terugkerende facturering. '
+ms.openlocfilehash: 1c3fc5f9648c814d300cd65ac872f1e28e90ca0d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43175200"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636557"
 ---
-# <a name="renew-office-365-for-business"></a>Office 365 voor Bedrijven verlengen
+# <a name="renew-microsoft-365-for-business"></a>Microsoft 365 vernieuwen voor bedrijven
 
-Dit artikel is van toepassing op de meeste betaalde Abonnementen op Office 365 voor Bedrijven.
+Dit artikel is van toepassing op de meest betaalde Microsoft 365 voor zakelijke abonnementen.
   
-Zie [Uw productcode zoeken en invoeren](../enter-your-product-key.md)als u wilt verlengen met een productcode die u hebt gekocht in een winkel of Office 365-partner.
+Zie [Uw productcode zoeken en invoeren](../enter-your-product-key.md)als u wilt verlengen met een productcode die u bij een winkel of Microsoft-partner hebt gekocht.
 
 > [!NOTE]
 > Betalen per bankrekening is niet beschikbaar in sommige landen of regio's.
@@ -48,9 +48,10 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
 
 ::: moniker range="o365-worldwide"
 
+
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
 
-2. Kies het abonnement waarvoor u terugkerende facturering wilt beheren.
+2. Kies het abonnement waarvan u de terugkerende facturering wilt beheren.
  
 3. Selecteer **onder Facturering**naast **Vernieuwing op** of Aflopen **op**bewerken . **edit**
 
@@ -67,9 +68,13 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
 
 ::: moniker range="o365-germany"
   
-1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Abonnementen</a>.
 
-2. Kies het abonnement waarvoor u terugkerende facturering wilt beheren.
+    Als u Office 365 Germany gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
+
+    Als u Office 365 beheerd door 21Vianet gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
+
+2. Kies het abonnement waarvan u de terugkerende facturering wilt beheren.
  
 3. Als u **Terugkerende facturering**wilt inschakelen, schakelt u over op **Aan**.
 
@@ -86,9 +91,13 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
 
 ::: moniker range="o365-21vianet"
   
-1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Abonnementen</a>.
 
-2. Kies het abonnement waarvoor u terugkerende facturering wilt beheren.
+    Als u Office 365 Germany gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
+
+    Als u Office 365 beheerd door 21Vianet gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
+
+2. Kies het abonnement waarvan u de terugkerende facturering wilt beheren.
  
 3. Als u **Terugkerende facturering**wilt inschakelen, schakelt u over op **Aan**.
 
@@ -106,7 +115,7 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
 ## <a name="related-articles"></a>Verwante artikelen
 
 [Uw abonnement opnieuw activeren](reactivate-your-subscription.md)
-
+  
 [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement afloopt?](what-if-my-subscription-expires.md)
 
 [Uw betalingsmethoden toevoegen, bijwerken of verwijderen](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
@@ -115,4 +124,4 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
   
 [Voer uw productcode in](../enter-your-product-key.md)
   
-[Uw proefversie van Office 365 voor Bedrijven kopen](../buy-a-subscription-from-your-free-trial.md)
+[Uw proefversie van Microsoft 365 voor bedrijven kopen](../buy-a-subscription-from-your-free-trial.md)

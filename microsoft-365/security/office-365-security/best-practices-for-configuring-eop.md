@@ -1,5 +1,5 @@
 ---
-title: Aanbevolen procedures voor het configureren van EOP en Office 365 ATP
+title: Aanbevolen procedures voor het configureren van EOP en ATP
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Volg deze aanbevolen aanbevelingen voor Exchange Online Protection (EOP) om uzelf voor succes op te stellen en veelvoorkomende configuratiefouten te voorkomen.
-ms.openlocfilehash: 9bddb736d41b4fd56790b8bbe9dbb00d07e75553
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: 69d069377a061c440c22b7a00dd43795597c50e9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528615"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638534"
 ---
-# <a name="best-practices-for-configuring-eop-and-office-365-atp"></a>Aanbevolen procedures voor het configureren van EOP en Office 365 ATP
+# <a name="best-practices-for-configuring-eop-and-atp"></a>Aanbevolen procedures voor het configureren van EOP en ATP
 
 Volg deze aanbevolen aanbevelingen voor Exchange Online Protection (EOP) om uzelf voor succes op te stellen en veelvoorkomende configuratiefouten te voorkomen. In dit onderwerp wordt ervan uitgegaan dat u het installatieproces al hebt voltooid. Zie Uw [EOP-service instellen](set-up-your-eop-service.md)als u de EOP-installatie nog niet hebt voltooid.
 
@@ -41,7 +41,7 @@ Deze instellingen hebben betrekking op een reeks functies die buiten het beveili
 
 |Naam beveiligingsfunctie|Standaard|Strikte|Opmerking|
 |---------|---------|---------|---------|
-|[SPF in Office 365 instellen om adresvervalsing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md) |Ja|Ja||
+|[SPF instellen om spoofing te voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Ja|Ja||
 |[DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein in Office 365](use-dkim-to-validate-outbound-email.md)|Ja|Ja||
 |[DMARC gebruiken om e-mail in Office 365 te valideren](use-dmarc-to-validate-email.md)|Ja|Ja|Gebruik action=quarantine voor Standaard en action=reject voor Strict.|
 |Add-on rapportbericht implementeren om de melding van verdachte e-mails van eindgebruikers te verbeteren|Ja|Ja||
@@ -63,7 +63,7 @@ Los algemene problemen en trends op door de rapporten in het beheercentrum te ge
 
 ## <a name="report-false-positive-and-false-negatives-to-microsoft"></a>Valse positieve en valse negatieven melden aan Microsoft
 
-Om spamfiltering in de service voor iedereen te verbeteren, moet u valse positieven (goede e-mail gemarkeerd als slecht) en valse negatieven (slechte e-mail toegestaan) melden aan Microsoft voor analyse. Zie [Berichten en bestanden rapporteren aan Microsoft voor](report-junk-email-messages-to-microsoft.md)meer informatie.
+Om spamfiltering in de service voor iedereen te verbeteren, moet u valse positieven (goede e-mail gemarkeerd als slecht) en valse negatieven (slechte e-mail toegestaan) melden aan Microsoft voor analyse. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
 ## <a name="create-mail-flow-rules"></a>Regels voor e-mailstromen maken
 

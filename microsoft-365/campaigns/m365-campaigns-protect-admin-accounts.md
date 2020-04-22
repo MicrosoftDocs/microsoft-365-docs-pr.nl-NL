@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Meer informatie over het instellen en beveiligen van uw beheerdersaccounts.
-ms.openlocfilehash: b74d9d2d69549bcaa476a346ba2a61fc24e0b3f3
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 2104697320308b329f9fde1b6984c15f9814f9ef
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42808793"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633651"
 ---
 # <a name="protect-your-administrator-accounts"></a>Uw beheerdersaccounts beveiligen
 
@@ -35,12 +35,12 @@ Omdat admin-accounts worden geleverd met verhoogde privileges, ze zijn waardevol
 - Hoe maak je een extra beheerdersaccount voor noodgevallen in.
 - Hoe deze accounts te beschermen.
  
-Wanneer u zich aanmeldt voor Microsoft 365 Business en uw gegevens invoert, wordt u automatisch de globale beheerder. Een globale beheerder heeft de ultieme controle over gebruikersaccounts en alle andere instellingen in het Microsoft-beheercentrum, maar er zijn veel verschillende soorten beheerdersaccounts met verschillende mate van toegang. Zie [over beheerdersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) voor informatie over de verschillende toegangsniveaus voor elk type beheerdersrol.
+Wanneer u zich aanmeldt voor Microsoft 365 en uw gegevens invoert, wordt u automatisch de globale beheerder. Een globale beheerder heeft de ultieme controle over gebruikersaccounts en alle andere instellingen in het Microsoft-beheercentrum, maar er zijn veel verschillende soorten beheerdersaccounts met verschillende mate van toegang. Zie [over beheerdersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) voor informatie over de verschillende toegangsniveaus voor elk type beheerdersrol.
 
 
 ## <a name="create-additional-admin-accounts"></a>Extra beheerdersaccounts maken
 
-Gebruik alleen beheerdersaccounts voor beheer. Beheerders moeten een apart gebruikersaccount hebben voor regelmatig gebruik van Office-apps en alleen hun beheerdersaccount gebruiken wanneer dat nodig is om accounts en apparaten te beheren en terwijl ze aan andere beheerfuncties werken. Het is ook een goed idee om de Microsoft 365 Business-licentie te verwijderen uit de beheerdersaccounts, zodat u er niet voor hoeft te betalen.
+Gebruik alleen beheerdersaccounts voor beheer. Beheerders moeten een apart gebruikersaccount hebben voor regelmatig gebruik van Office-apps en alleen hun beheerdersaccount gebruiken wanneer dat nodig is om accounts en apparaten te beheren en terwijl ze aan andere beheerfuncties werken. Het is ook een goed idee om de Microsoft 365-licentie te verwijderen uit de beheerdersaccounts, zodat u er niet voor hoeft te betalen.
 
 U wilt ten minste één extra globale beheerdersaccount instellen om beheerders toegang te geven tot een andere vertrouwde werknemer. U ook afzonderlijke beheerdersaccounts voor gebruikersbeheer maken (deze rol heet **Beheerder gebruikersbeheer).** Zie voor meer informatie [over beheerdersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
 

@@ -1,5 +1,5 @@
 ---
-title: Office 365 voor Bedrijven-abonnementen handmatig wijzigen
+title: Microsoft 365 voor bedrijfsabonnementen handmatig wijzigen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: Wijzig abonnementen handmatig door een nieuw abonnement aan te schaffen en ervoor te zorgen dat beide abonnementen worden vermeld en actief.
-ms.openlocfilehash: 80e10c3b24fa69ee5b1a6c89790260c2ac810588
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 89786b30403a60bd0551351602d6fccc07f3d1a1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142149"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636581"
 ---
 # <a name="change-plans-manually"></a>Plannen handmatig wijzigen
 
@@ -51,9 +51,9 @@ Lees [stap 2: Koop een nieuw abonnement](#step-2-buy-a-new-subscription) in dit 
 
 OF
 
-**Koop een nieuw abonnement en licenties:** volg de stappen in [Buy another Office 365 for business subscription](../buy-another-subscription.md) (Nog een abonnement van Office 365 voor Bedrijven kopen) als u een nieuw abonnement wilt kopen.
+**Koop een nieuw abonnement en licenties:** Volg de stappen in [Een ander Microsoft 365 voor zakelijk abonnement](../buy-another-subscription.md) kopen om een nieuw abonnement te kopen.
 
-Het is belangrijk dat u een licentie koopt voor de organisatie waarvan de gebruikers nu ook deel uitmaken. Controleer hiervoor de e-mailadressen van de Office 365-gebruikers die u wilt verplaatsen. Als hun e-mailadressen contoso.com bevatten, \@moet u een nieuw abonnement voor contoso.com kopen.
+Het is belangrijk dat u een licentie koopt voor de organisatie waarvan de gebruikers nu ook deel uitmaken. Controleer bijvoorbeeld de e-mailadressen voor de gebruikers die u wilt verplaatsen. Als hun e-mailadressen contoso.com bevatten, \@moet u een nieuw abonnement voor contoso.com kopen.
 Koop ook een licentie voor elke gebruiker die u wilt verplaatsen.
 
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>Stap 3: Controleer uw nieuwe abonnement en licenties
@@ -114,5 +114,4 @@ Als u alle gebruikers uit een abonnement naar een ander abonnement hebt verplaat
 Als u slechts een paar gebruikers naar een ander abonnement hebt verplaatst, [verwijdert u de licenties](../licenses/remove-licenses-from-subscription.md) die u niet meer nodig hebt.
 
 ## <a name="call-support-to-help-you-change-plans"></a>Ondersteuning bellen om u te helpen plannen te wijzigen
-
 [Ondersteuning voor Microsoft bellen](../../admin/contact-support-for-business-products.md)

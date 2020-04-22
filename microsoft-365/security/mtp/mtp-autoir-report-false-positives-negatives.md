@@ -19,17 +19,17 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 90651aa258adb9f7fe46f99bcadf1d4d552a5b76
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: 4030469b54d9a3a9c6f2eaceae384d39ea7f3e20
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955659"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637078"
 ---
 # <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Omgaan met false positives/negatives in geautomatiseerde onderzoeks- en reactiemogelijkheden
 
-**Van toepassing op:**
-- Microsoft-bedreigingsbeveiliging
+**Geldt voor:**
+- Microsoft Threat Protection
 
 Hebben [geautomatiseerde onderzoeks- en reactiemogelijkheden](mtp-autoir.md) in Microsoft Threat Protection iets gemist of verkeerd gedetecteerd? Er zijn stappen die u nemen om het te repareren. U kunt:
 
@@ -45,14 +45,14 @@ Gebruik dit artikel als een gids.
 
 |Object gemist of ten onrechte gedetecteerd |Service  |Wat te doen  |
 |---------|---------|---------|
-|- E-mailbericht <br/>- E-mailbijlage <br/>- URL in een e-mailbericht<br/>- URL in een Office-bestand      |[Geavanceerde bedreigingsbeveiliging van Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)        |[Vermoedelijke spam, phish, URL's en bestanden verzenden naar Microsoft voor het scannen van Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission)         |
+|- E-mailbericht <br/>- E-mailbijlage <br/>- URL in een e-mailbericht<br/>- URL in een Office-bestand      |[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)        |[Verdachte spam, phish, URL's en bestanden verzenden naar Microsoft voor het scannen](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission)         |
 |Bestand of app op een apparaat    |[Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection)         |[Een bestand indienen bij Microsoft voor malware-analyse](https://www.microsoft.com/wdsi/filesubmission)         |
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>Een waarschuwing aanpassen om te voorkomen dat fout-positieven terugkeren
 
 |Scenario |Service |Wat te doen |
 |--------|--------|--------|
-|- Een waarschuwing wordt geactiveerd door legitiem gebruik <br/>- Een waarschuwing is onjuist    |[Beveiliging van Microsoft Cloud-apps](https://docs.microsoft.com/cloud-app-security)<br/> of <br/>[Azure Advanced Threat Detection](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)         |[Waarschuwingen beheren in de cloudapp-beveiligingsportal](https://docs.microsoft.com/cloud-app-security/managing-alerts)         |
+|- Een waarschuwing wordt geactiveerd door legitiem gebruik <br/>- Een waarschuwing is onjuist    |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)<br/> of <br/>[Azure Advanced Threat Detection](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)         |[Waarschuwingen beheren in de cloudapp-beveiligingsportal](https://docs.microsoft.com/cloud-app-security/managing-alerts)         |
 |Een bestand, IP-adres, URL of domein wordt behandeld als malware op een apparaat, ook al is het veilig|[Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection) |[Een aangepaste indicator maken met de actie 'Toestaan'](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
 
 

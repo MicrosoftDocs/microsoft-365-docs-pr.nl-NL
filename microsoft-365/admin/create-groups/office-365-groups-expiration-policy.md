@@ -1,5 +1,5 @@
 ---
-title: Verloopbeleid van een Office 365 Groep
+title: Verloopbeleid groepen
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -17,17 +17,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het vervaldatumbeleid van Office 365-groepen.
-ms.openlocfilehash: 58eadf3f5899a69fda261c34a5911af22220bd85
-ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
+description: Meer informatie over het vervaldatumbeleid van Microsoft 365-groepen.
+ms.openlocfilehash: be61c66b310ada07876c5b3b005e6a7eb660092d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43225917"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630053"
 ---
-# <a name="office-365-group-expiration-policy"></a>Beleidsregel voor het verlopen van Office 365-groepen
+# <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365-groepsvervaldatumbeleid
 
-Met de toename van het gebruik van Office 365-groepen hebben beheerders en gebruikers een manier nodig om ongebruikte groepen op te schonen. Verloopbeleid kan helpen bij het verwijderen van inactieve groepen uit het systeem en dingen schoner maken.
+Met de toename van het gebruik van Microsoft 365-groepen hebben beheerders en gebruikers een manier nodig om ongebruikte groepen op te schonen. Verloopbeleid kan helpen bij het verwijderen van inactieve groepen uit het systeem en dingen schoner maken.
 
 Wanneer een groep verloopt, worden ook alle bijbehorende services (het postvak, Planner, SharePoint-site, team, enz.) verwijderd.
 
@@ -46,14 +46,14 @@ Groepen die actief in gebruik zijn, worden automatisch vernieuwd. Een van de vol
 Het is belangrijk om te weten dat de vervaldatum standaard is uitgeschakeld. Beheerders moeten het inschakelen voor hun organisatie als ze het willen gebruiken.
 
 > [!NOTE]
-> Voor het configureren en gebruiken van het verloopbeleid voor Office 365-groepen moet u Azure AD Premium-licenties bezitten, maar niet noodzakelijkerwijs toewijzen voor de leden van alle groepen waarop het verloopbeleid wordt toegepast. Zie voor meer informatie [Aan de slag met Azure Active Directory Premium](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium).
+> Voor het configureren en gebruiken van het verloopbeleid voor Microsoft 365-groepen moet u Azure AD Premium-licenties bezitten, maar niet noodzakelijkerwijs toewijzen voor de leden van alle groepen waarop het verloopbeleid wordt toegepast. Zie voor meer informatie [Aan de slag met Azure Active Directory Premium](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium).
 
-## <a name="who-can-configure-and-use-the-office-365-groups-expiration-policy"></a>Wie kan het vervaldatumbeleid voor Office 365-groepen configureren en gebruiken?
+## <a name="who-can-configure-and-use-the-microsoft-365-groups-expiration-policy"></a>Wie kan het expiratiebeleid van Microsoft 365-groepen configureren en gebruiken?
 
 |Rol|Wat ze kunnen doen|
 |---------|---------|
-|Globale beheerder van Office 365 (in Azure, de bedrijfsbeheerder), Gebruikersbeheerder|De beleidsinstellingen voor het verlopen van Office 365-groepen maken, lezen, bijwerken of verwijderen.|
-|Gebruiker|Een Office 365-groep die eigenaar is van Office 365 verlengen of [herstellen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted)|
+|Globale beheerder (in Azure, de bedrijfsbeheerder), Gebruikersbeheerder|De beleidsinstellingen voor het verlopen van Microsoft 365-groepen maken, lezen, bijwerken of verwijderen.|
+|Gebruiker|Een Microsoft 365-groep die ze bezitten, vernieuwen of [herstellen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted)|
 
 ## <a name="how-to-set-the-expiration-policy"></a>Het verloopbeleid instellen
 
@@ -77,7 +77,7 @@ Groepseigenaren worden alleen via e-mail op de hoogte gebracht. Als de groep is 
 
 30 dagen voordat de groep verloopt, ontvangen de groepseigenaren (of de e-mailadressen die u hebt opgegeven voor groepen die geen eigenaar hebben) een e-mail waarmee ze de groep eenvoudig kunnen vernieuwen. Als ze deze niet verlengen, ontvangen ze 15 dagen voor het verstrijken van de looptijd nog een e-mail met verlenging. Als ze het nog steeds niet hebben verlengd, ontvangen ze de dag voor het verstrijken nog een e-mailmelding.
 
-Als om de een of andere reden geen van de eigenaren of beheerders de groep verlengt voordat deze verloopt, kan de beheerder de groep nog steeds tot 30 dagen na afloop herstellen. Zie voor meer informatie: [Een verwijderde Office 365-groep herstellen](https://support.office.com/article/restore-a-deleted-office-365-group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54).
+Als om de een of andere reden geen van de eigenaren of beheerders de groep verlengt voordat deze verloopt, kan de beheerder de groep nog steeds tot 30 dagen na afloop herstellen. Zie voor meer informatie: [Een verwijderde Microsoft 365-groep herstellen](https://support.office.com/article/restore-a-deleted-office-365-group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54).
 
 ## <a name="related-articles"></a>Verwante artikelen
 
@@ -85,4 +85,4 @@ Als om de een of andere reden geen van de eigenaren of beheerders de groep verle
 
 [Een nieuwe eigenaar toewijzen aan een groep zonder eigenaar](https://support.office.com/article/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
-[Office 365-groepen configureren die zijn verlopen](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal) '
+[Microsoft 365-groepen configureren die verlopen](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal) '

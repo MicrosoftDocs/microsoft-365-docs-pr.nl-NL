@@ -17,21 +17,21 @@ ms.assetid: a74f637b-3710-4c41-b70f-b5a812929a81
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het instellen van een &amp; planning voor een rapport in het Security Compliance Center.
-ms.openlocfilehash: 3e09dee36e14ca1e25f6ea20c8f2b5843dc7edaa
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: a5160c564373711521635d3a206d5501b0b2c8f0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43030162"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637698"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>Een planning maken voor een &amp; rapport in het Security Compliance Center
 
 In het &amp; Security Compliance Center zijn verschillende [rapporten en inzichten](reports-and-insights-in-security-and-compliance.md) beschikbaar om het beveiligingsteam van uw organisatie te helpen bedreigingen voor uw organisatie te beperken en aan te pakken. Als u lid bent van het beveiligingsteam van uw organisatie, u een planning voor een rapport maken. Het schema dat u maakt, kan een aangepaste datumbereiken bevatten die bij uw organisatie passen. 
   
-## <a name="create-a-schedule-for-a-report"></a>Een planning voor een rapport maken
+## <a name="create-a-schedule-for-a-report"></a>Een planning maken voor een rapport
 
 > [!IMPORTANT]
-> Zorg ervoor dat u over de benodigde machtigingen beschikt om deze taak uit te voeren. In het algemeen hebben globale beheerders, beveiligingsbeheerders en beveiligingslezers van &amp; Office 365 toegang tot rapporten in het Security Compliance Center. Zie Machtigingen in het [Office 365 &amp; Security Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over machtigingen.
+> Zorg ervoor dat u over de benodigde machtigingen beschikt om deze taak uit te voeren. Over het algemeen hebben globale beheerders, beveiligingsbeheerders en &amp; beveiligingslezers toegang tot rapporten in het Security Compliance Center. Zie Machtigingen in het [Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over machtigingen.
   
 1. Ga in het [Security &amp; Compliance Center](https://protection.office.com)naar **Reports** \> **Dashboard**.
     
@@ -72,7 +72,7 @@ Zodra u een planning voor een rapport hebt gemaakt, wordt dat rapport automatisc
   
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Rapporten en inzichten in het &amp; Office 365 Security Compliance Center](reports-and-insights-in-security-and-compliance.md)
+[Rapporten en inzichten &amp; in het Security Compliance Center](reports-and-insights-in-security-and-compliance.md)
   
 [Schema's beheren voor &amp; rapporten in het Security Compliance Center](manage-schedules-for-multiple-reports.md)
   

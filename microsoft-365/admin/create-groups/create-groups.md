@@ -1,5 +1,5 @@
 ---
-title: Een Office 365-groep maken in het beheercentrum
+title: Een groep maken in het beheercentrum
 ms.reviewer: arvaradh
 f1.keywords: CSH
 ms.author: mikeplum
@@ -18,22 +18,22 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
-description: Leer Office 365-groepen maken en verwijderen, groepsleden toevoegen en verwijderen en aanpassen hoe de groep werkt.
-ms.openlocfilehash: 088ef54531bc42cf563659c460cbf7d2e64c4cfe
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Leer Microsoft 365-groepen maken en verwijderen, groepsleden toevoegen en verwijderen en aanpassen hoe de groep werkt.
+ms.openlocfilehash: d37058fa3ef3803f3a8f6099d46e1262f314e501
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212091"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630453"
 ---
-# <a name="create-an-office-365-group-in-the-microsoft-365-admin-center"></a>Een Office 365-groep maken in het Microsoft 365-beheercentrum
+# <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Een groep maken in het Microsoft 365-beheercentrum
   
-Hoewel gebruikers een Office 365-groep kunnen maken vanuit Outlook of andere apps, moet u als beheerder mogelijk groepen maken of verwijderen, leden toevoegen of verwijderen en aanpassen hoe ze werken. U dit doen in het Microsoft 365-beheercentrum als u een globale beheerder of een groepsbeheerder bent. 
+Hoewel gebruikers een Microsoft 365-groep kunnen maken vanuit Outlook of andere apps, moet u als beheerder mogelijk groepen maken of verwijderen, leden toevoegen of verwijderen en aanpassen hoe ze werken. Het Microsoft 365-beheercentrum is de plek om dit te doen. 
 
 > [!TIP]
-> Yammer-groepen met Office 365 moeten worden gemaakt in Yammer, maar kunnen worden beheerd in het Microsoft 365-beheercentrum, net als andere Office 365-groepen. Zie [Yammer- en Office 365-groepen](https://support.office.com/article/d8c239dc-a48b-47ab-b85e-6b4b8191a869.aspx)voor meer informatie. 
+> Microsoft 365-verbonden Yammer-groepen moeten worden gemaakt in Yammer, maar kunnen worden beheerd in het Microsoft 365-beheercentrum, net als andere Microsoft 365-groepen. Zie [Yammer- en Microsoft 365-groepen](https://support.office.com/article/d8c239dc-a48b-47ab-b85e-6b4b8191a869.aspx)voor meer informatie. 
 
-## <a name="create-an-office-365-group"></a>Een Office 365-groep maken
+## <a name="create-a-microsoft-365-group"></a>Een Microsoft 365-groep maken
 
 1. Vouw in het beheercentrum **Groepen**uit en klik vervolgens op **Groepen**.
 
@@ -115,13 +115,12 @@ Wanneer een e-mail uit het groepspostvak wordt verwijderd, wordt deze niet verwi
 
 ## <a name="next-step-manage-your-group"></a>Volgende stap: uw groep beheren
 
-Nadat u een nieuwe groep hebt gemaakt en leden hebt toegevoegd, u uw groep verder configureren, zoals het bewerken van de groepsnaam of -beschrijving, het wijzigen van eigenaren of leden en het opgeven van de vraag of externe afzenders de groep kunnen e-mailen en of kopieën van groepsgesprekken naar leden moeten worden verzonden. Zie [Een Office 365-groep beheren](manage-groups.md) voor informatie.
+Nadat u een nieuwe groep hebt gemaakt en leden hebt toegevoegd, u uw groep verder configureren, zoals het bewerken van de groepsnaam of -beschrijving, het wijzigen van eigenaren of leden en het opgeven van de vraag of externe afzenders de groep kunnen e-mailen en of kopieën van groepsgesprekken naar leden moeten worden verzonden. Zie [Een Microsoft 365-groep beheren](manage-groups.md) voor informatie.
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Gasttoegang tot Office 365-groepen beheren](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
+[Gasttoegang tot Microsoft 365-groepen beheren](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
 
-[Kies het domein dat u wilt gebruiken bij het maken van Office 365-groepen](choose-domain-to-create-groups.md)
+[Het domein kiezen dat u wilt gebruiken bij het maken van Microsoft 365-groepen](choose-domain-to-create-groups.md)
 
-[Distributielijsten bijwerken naar Office 365-groepen](../manage/upgrade-distribution-lists.md)
-        
+[Distributielijsten upgraden naar Microsoft 365-groepen](../manage/upgrade-distribution-lists.md)

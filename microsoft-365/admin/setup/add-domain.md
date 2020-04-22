@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Voeg uw domein toe aan Office 365 in het Microsoft 365-beheercentrum door een DNS-record toe te voegen aan uw DNS-host. De setup wizard begeleidt u door het proces.
-ms.openlocfilehash: 746163b83190a73326ad589b8e3bc9377ddaa9b4
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 8e08233ffe33ac2b5d41ad164af80468de52983d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209638"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631813"
 ---
 # <a name="add-a-domain-to-office-365"></a>Een domein toevoegen aan Office 365
 
@@ -75,7 +75,7 @@ ms.locfileid: "43209638"
     
 5. Kies hoe u wilt controleren of u eigenaar bent van het domein.
     
-    1. Als uw domein is geregistreerd&amp;bij GoDaddy of 11, selecteert u **Aanmelden volgende** > **Next** en stelt Office 365 uw records [automatisch in.](../get-help-with-domains/domain-connect.md)
+    1. Als uw domein is geregistreerd&amp;bij GoDaddy of 11, selecteert u **Aanmelden** > **volgende** en stelt Microsoft uw records[automatisch in.](../get-help-with-domains/domain-connect.md)
     
     2. U kunt een e-mailbericht met een verificatiecode laten verzenden naar de geregistreerde contactpersoon voor het domein. Als u de e-mail niet herkent of hebt, u de derde optie gebruiken.
     
@@ -112,4 +112,4 @@ ms.locfileid: "43209638"
 
 [Uw domein instellen (host-specifieke instructies)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md)
 
-[Hulp krijgen bij Office 365-domeinen](../get-help-with-domains/get-help-with-domains.md)
+[Hulp krijgen bij domeinen](../get-help-with-domains/get-help-with-domains.md)

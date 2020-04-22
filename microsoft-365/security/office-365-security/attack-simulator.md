@@ -1,5 +1,5 @@
 ---
-title: Aanvalssimulator in Office 365 ATP
+title: Aanvalsimulator in ATP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,31 +15,31 @@ search.appverid:
 ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
-description: Gebruik Attack Simulator om gesimuleerde phishing- en wachtwoordaanvallen uit te voeren in uw Office 365 E5- of ATP-plan 2-organisatie, waarmee u kwetsbare gebruikers identificeren voordat een echte aanval uw bedrijf raakt.
-ms.openlocfilehash: 95b7af302a5dcc1987040c23a7dde867e2d09292
-ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
+description: Als globale beheerder u Attack Simulator gebruiken om realistische aanvalsscenario's in uw organisatie uit te voeren. Dit kan u helpen kwetsbare gebruikers te identificeren en te vinden voordat een echte aanval uw bedrijf raakt.
+ms.openlocfilehash: cac09ed48a46531ea2246f9c3ef798649dc73196
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42812427"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638570"
 ---
-# <a name="attack-simulator-in-office-365-atp"></a>Aanvalssimulator in Office 365 ATP
+# <a name="attack-simulator-in-atp"></a>Aanvalsimulator in ATP
 
-Attack Simulator in Office 365 Advanced Threat Protection Plan 2 (ATP Plan 2) stelt u in staat om realistische, maar gesimuleerde phishing- en wachtwoordaanvalscampagnes in uw organisatie uit te voeren. U de resultaten van campagnes gebruiken om kwetsbare gebruikers te identificeren en op te leiden.
+**Overzicht** Als u een globale beheerder of een beveiligingsbeheerder bent en uw organisatie office 365 Advanced Threat Protection Plan 2 heeft, waaronder [mogelijkheden voor bedreigingsonderzoek en -respons,](office-365-ti.md)u Attack Simulator gebruiken om realistische aanvalsscenario's in uw organisatie uit te voeren. Dit kan u helpen kwetsbare gebruikers te identificeren en te vinden voordat een echte aanval van invloed is op uw bedrijfsresultaat. Lees dit artikel voor meer informatie.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Als u het Office 365 Security <https://protection.office.com/>& Compliance Center wilt openen, gaat u naar . Attack simulator is beschikbaar op **Threat management** \> **Attack simulator**.
+- Als u het Security & <https://protection.office.com/>Compliance Center wilt openen, gaat u naar . Attack simulator is beschikbaar op **Threat management** \> **Attack simulator**.
 
   ![Threat management - Attack Simulator](../../media/ThreatMgmt-AttackSimulator.png)
 
-- Zie de beschrijving van de Office [365 Advanced Threat Protection-service](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)voor meer informatie over de beschikbaarheid van Attack Simulator voor verschillende Office 365-abonnementen.
+- Zie de beschrijving van de Service Office [365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)voor meer informatie over de beschikbaarheid van Attack Simulator voor verschillende Microsoft 365-abonnementen.
 
-- U moet lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Zie [Machtigingen in het Office 365 Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rolgroepen in het Beveiligingscentrum & Compliance.
+- U moet lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Zie Machtigingen in het Security & Compliance [Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rolgroepen in het Security & Compliance Center.
 
 - Uw account moet zijn geconfigureerd voor multi-factor authenticatie (MFA) om campagnes te maken en te beheren in Attack Simulator. Zie Meervoudige [verificatie instellen](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)voor instructies .
 
-- U alleen phishing- of wachtwoordaanvalscampagnes uitvoeren op gebruikers met postvakken in Exchange Online.
+Als u een aanval met succes wilt starten, moet u ervoor zorgen dat het account dat u gebruikt om gesimuleerde aanvallen uit te voeren, multi-factor authenticatie gebruikt. Bovendien moet u een globale beheerder of een beveiligingsbeheerder zijn. (Zie Machtigingen in het Security [& Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rollen en machtigingen.)
 
 - Phishingcampagnes verzamelen en verwerken gebeurtenissen gedurende 30 dagen. Historische campagnegegevens zijn tot 90 dagen na de lancering van de campagne beschikbaar.
 
@@ -49,11 +49,11 @@ Attack Simulator in Office 365 Advanced Threat Protection Plan 2 (ATP Plan 2) st
 
 *Phishing* is een algemene term voor e-mailaanvallen die proberen gevoelige informatie te stelen in berichten die afkomstig lijken te zijn van legitieme of vertrouwde afzenders. *Spear phishing* is een gerichte phishing-aanval die gebruik maakt van zeer gerichte en aangepaste inhoud die specifiek is afgestemd op de beoogde ontvangers (meestal, na verkenning op de ontvangers door de aanvaller).
 
-Zie [Phishing](https://docs.microsoft.com/windows/security/threat-protection/intelligence/phishing)voor meer informatie over phishing en spear phishing.
+- U bent een globale beheerder of beveiligingsbeheerder
 
 In Attack Simulator zijn twee verschillende soorten spear phishing-campagnes beschikbaar:
 
-- **Spear phishing (referenties oogst)**: De aanval probeert de ontvangers te overtuigen om een URL in het bericht te klikken. Als ze op de koppeling klikken, wordt gebruikers gevraagd hun referenties in te voeren. Als ze dat doen, worden ze naar een van de volgende locaties gebracht:
+- [Multi-factor authenticatie/voorwaardelijke toegang](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) is ingeschakeld, voor ten minste het wereldwijde beheerdersaccount en beveiligingsbeheerders die Attack Simulator zullen gebruiken. (Idealiter is multi-factor authenticatie/voorwaardelijke toegang ingeschakeld voor alle gebruikers in uw organisatie.)
 
   - Een standaardpagina die uitlegt dat dit slechts een test was en tips geeft voor het herkennen van phishingberichten.
 

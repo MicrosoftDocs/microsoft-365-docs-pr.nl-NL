@@ -1,5 +1,5 @@
 ---
-title: Beveiligings- en nalevingsfuncties van Microsoft 365 Business
+title: Beveiligings- en compliancefuncties van Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,23 +22,23 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
-description: Meer informatie over de beveiligingsfuncties die worden geleverd met Microsoft 365 Business om uw gegevens op pc's, telefoons en tablets te beveiligen.
-ms.openlocfilehash: 3f638a3287c06ded7bf4c29c647e62cbf3fca969
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+description: Meer informatie over de beveiligingsfuncties die worden geleverd met Microsoft 365 Business Premium om uw gegevens op pc's, telefoons en tablets te beveiligen.
+ms.openlocfilehash: 35eb0ac1dce216ccc557fc629ddb5d2df50e7134
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153793"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635139"
 ---
-# <a name="microsoft-365-business-security-and-compliance-features"></a>Beveiligings- en nalevingsfuncties van Microsoft 365 Business
+# <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Beveiligings- en compliancefuncties van Microsoft 365 Business Premium
 
-Microsoft 365 Business biedt vereenvoudigde beveiligingsfuncties om uw gegevens op pc's, telefoons en tablets te beveiligen.
+Microsoft 365 Business Premium biedt vereenvoudigde beveiligingsfuncties om uw gegevens op pc's, telefoons en tablets te beveiligen.
     
-## <a name="microsoft-365-business-admin-center-security-features"></a>Beveiligingsfuncties van microsoft 365 Business-beheercentrum
+## <a name="microsoft-365-admin-center-security-features"></a>Beveiligingsfuncties van microsoft 365-beheercentrum
 
 [![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-U veel van de beveiligingsfuncties van Microsoft 365 Business beheren in het beheercentrum, waardoor u deze functies eenvoudig in- of uitschakelen. In het beheercentrum u het volgende doen:
+U veel van de microsoft 365 Business Premium-beveiligingsfuncties beheren in het beheercentrum, waardoor u deze functies eenvoudig in- of uitschakelen. In het beheercentrum u het volgende doen:
   
 - [Instellingen voor toepassingsbeheer instellen voor Android- of iOS-apparaten](app-protection-settings-for-android-and-ios.md) . 
     
@@ -62,7 +62,7 @@ U veel van de beveiligingsfuncties van Microsoft 365 Business beheren in het beh
     
 ## <a name="additional-security-features"></a>Aanvullende beveiligings functies 
 
-Geavanceerde functies in Microsoft 365 Business zijn beschikbaar om u te helpen uw bedrijf te beschermen tegen cyberbedreigingen en gevoelige informatie te beschermen.
+Geavanceerde functies in Microsoft 365 Business Premium zijn beschikbaar om u te helpen uw bedrijf te beschermen tegen cyberbedreigingen en gevoelige informatie te beschermen.
   
 - **[Office 365 Advanced Threat Protection](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
     
@@ -74,13 +74,13 @@ Geavanceerde functies in Microsoft 365 Business zijn beschikbaar om u te helpen 
 
 - **[De volledige mogelijkheden van Intune in de Azure-portal](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
-    Als u toegang krijgt tot het Intune-beheercentrum in de Azure-portal, u extra beveiligingsfuncties instellen, zoals het beheer van MacOS-apparaten, iPhone en Android-apparaten, samen met geavanceerd apparaatbeheer voor Windows, die niet beschikbaar zijn via het Microsoft 365 Business-beheercentrum.
+    Als u toegang krijgt tot het Intune-beheercentrum in de Azure-portal, u extra beveiligingsfuncties instellen, zoals het beheer van MacOS-apparaten, iPhone- en Android-apparaten, samen met geavanceerd apparaatbeheer voor Windows, die niet beschikbaar zijn via het Microsoft 365-beheercentrum.
 - **Dezelfde [voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) als Azure AD Premium P1-abonnement**
 
 
     Voorwaardelijke toegang kan uw organisatie beschermen tegen aanmeldingsrisico's, toegangspogingen van een onverwacht netwerk of een landinstelling, toegangspogingen van riskante apparaattypen, enzovoort. Beleid voor voorwaardelijke toegang wordt afgedwongen nadat de eerste verificatie is voltooid en gebruikt signalen van de eerste verificatiegebeurtenis om te bepalen of de poging tot toegang moet worden goedgekeurd, geweigerd of of er meer bewijs (zoals een tweede vorm van identificatie) vereist is.
 
-    De inbegrepen functies voor voorwaardelijke toegang zijn:
+    De inbegrepen voorwaardelijke toegangsfuncties zijn:
 
     - Toegang op basis van gebruikersnaam, groep en rol
     - Toegang [op basis van een app](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) 
@@ -95,7 +95,7 @@ Geavanceerde functies in Microsoft 365 Business zijn beschikbaar om u te helpen 
     
 ## <a name="compliance-features"></a>Nalevingsfuncties
 
-Uw Microsoft 365 Business-abonnement bevat functies waarmee u de nalevings- en regelgevingsnormen handhaven.
+Uw Microsoft 365 Business Premium-abonnement bevat functies waarmee u de nalevings- en regelgevingsnormen handhaven.
 
 - **[Overzicht van het beleid ter voorkoming van gegevensverlies](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)** (DLP). 
     
@@ -107,20 +107,20 @@ Uw Microsoft 365 Business-abonnement bevat functies waarmee u de nalevings- en r
     
 - **[Gevoeligheidslabels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
 
-   Microsoft 365 Business bevat alle functies van [Azure Information Protection Plan 1.](https://go.microsoft.com/fwlink/p/?linkid=871407) Met dit plan u **gevoeligheidslabels** maken waarmee u de toegang tot gevoelige informatie in e-mail en documenten beheren, met besturingselementen zoals 'Niet doorsturen' en 'Niet kopiëren'. U gevoelige informatie ook classificeren als 'Vertrouwelijk' en opgeven hoe geclassificeerde informatie buiten en binnen het bedrijf kan worden gedeeld. Versleuteling op bedrijfsniveau is eenvoudig toe te passen op e-mail en documenten om uw gegevens privé te houden. U ook de azure information protection-client-invoegtoepassing voor Office-apps installeren. Zie [Azure Information Protection unified labeling client](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)voor meer informatie. Installeer voor gevoeligheidslabels de **AzInfoProtection_UL.exe**.
+   Microsoft 365 Business Premium bevat alle functies van [Azure Information Protection Plan 1.](https://go.microsoft.com/fwlink/p/?linkid=871407) Met dit plan u **gevoeligheidslabels** maken waarmee u de toegang tot gevoelige informatie in e-mail en documenten beheren, met besturingselementen zoals 'Niet doorsturen' en 'Niet kopiëren'. U gevoelige informatie ook classificeren als 'Vertrouwelijk' en opgeven hoe geclassificeerde informatie buiten en binnen het bedrijf kan worden gedeeld. Versleuteling op bedrijfsniveau is eenvoudig toe te passen op e-mail en documenten om uw gegevens privé te houden. U ook de azure information protection-client-invoegtoepassing voor Office-apps installeren. Zie [Azure Information Protection unified labeling client](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)voor meer informatie. Installeer voor gevoeligheidslabels de **AzInfoProtection_UL.exe**.
 
-U deze functies &amp; beheren in het Security Compliance center en het Intune-beheercentrum. Na verloop van tijd worden de vereenvoudigde besturingselementen toegevoegd aan het Microsoft 365 Business-beheercentrum.
+U deze functies &amp; beheren in het Security Compliance center en het Intune-beheercentrum. Na verloop van tijd worden de vereenvoudigde besturingselementen toegevoegd aan het Microsoft 365-beheercentrum.
   
     
 ## <a name="faq"></a>Veelgestelde vragen
 
  ### <a name="are-these-security-features-available-in-all-markets"></a>Zijn deze beveiligingsfuncties beschikbaar in alle markten?
   
-Ja, deze functies zijn beschikbaar in alle markten waar Microsoft 365 Business wordt verkocht.
+Ja, deze functies zijn beschikbaar in alle markten waar Microsoft 365 Business Premium wordt verkocht.
   
 ### <a name="how-do-i-find-the-security-amp-compliance-center"></a>Hoe vind ik &amp; het Security Compliance center?
   
-1. [Meld u aan bij Microsoft 365 Business](https://portal.microsoft.com/) met uw beheerdersreferenties. 
+1. [Meld u aan bij Microsoft 365 Business Premium](https://portal.microsoft.com/) met uw beheerdersreferenties. 
     
 2. Zoek in de **linkernavigatie-centra** en breid deze uit. 
     

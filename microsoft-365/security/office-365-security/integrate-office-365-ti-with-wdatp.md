@@ -17,12 +17,12 @@ ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 ms.collection:
 - M365-security-compliance
 description: Integreer Office 365 Advanced Threat Protection met Microsoft Defender Advanced Threat Protection voor meer gedetailleerde informatie over bedreigingsbeheer.
-ms.openlocfilehash: a2634a70bdbdd21efe2c59721e5532500eb4e4cc
-ms.sourcegitcommit: 4c6af6530b4997055b8e60bf532e75cbc72fb6c5
+ms.openlocfilehash: e416d70baf7498b0163d5bd8aa8e923585a5e5a4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43284222"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633807"
 ---
 # <a name="integrate-office-365-advanced-threat-protection-with-microsoft-defender-advanced-threat-protection"></a>Office 365 Advanced Threat Protection integreren met Microsoft Defender Advanced Threat Protection
 
@@ -38,15 +38,15 @@ In dit voorbeeld u zien dat de ontvangers van het e-mailbericht vier apparaten h
 
 - Uw organisatie moet beschikken over Office 365 ATP Plan 2 (of Office 365 E5) en Microsoft Defender ATP.
     
-- U moet een globale beheerder van Office 365 zijn of een beveiligingsbeheerderfunctie (zoals beveiligingsbeheerder) toegewezen hebben in het [Security &amp; Compliance Center.](https://protection.office.com) (Zie [Machtigingen in het Office &amp; 365 Security Compliance Center)](permissions-in-the-security-and-compliance-center.md)
+- U moet een globale beheerder zijn of een beveiligingsbeheerderrol (zoals beveiligingsbeheerder) toegewezen hebben in het [Security &amp; Compliance Center.](https://protection.office.com) (Zie [Machtigingen in &amp; het Security Compliance Center)](permissions-in-the-security-and-compliance-center.md)
     
 - U moet toegang hebben tot zowel [Explorer (of real-time detecties)](threat-explorer.md) in het Security & Compliance Center en het Microsoft Defender Security Center.
     
 ## <a name="to-integrate-office-365-atp-with-microsoft-defender-atp"></a>Office 365 ATP integreren met Microsoft Defender ATP
 
-De integratie van Office 365 ATP met Microsoft Defender ATP is ingesteld met zowel het Office 365 Security & Compliance Center als het Microsoft Defender Security Center.
+De integratie van Office 365 ATP met Microsoft Defender ATP wordt ingesteld met behulp van zowel het Security & Compliance Center als het Microsoft Defender Security Center.
   
-1. Ga als globale office 365-beheerder of [https://protection.office.com](https://protection.office.com) beveiligingsbeheerder naar en meld u aan.
+1. Ga als globale beheerder of beveiligingsbeheerder naar [https://protection.office.com](https://protection.office.com) en meld u aan met uw werk- of schoolaccount.
     
 2. Kies **Threat management** \> **Explorer**.<br>![Explorer in het menu Bedreigingsbeheer](../../media/ThreatMgmt-Explorer-nav.png)<br>
     

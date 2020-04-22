@@ -1,5 +1,5 @@
 ---
-title: Toestaan dat aan een domein toegevoegde Windows 10-apparaten door Microsoft 365 Business worden beheerd
+title: Ingeschakeld voor windows 10-apparaten met domeindie worden beheerd door Microsoft 365 voor bedrijven
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -23,66 +23,66 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
-description: Meer informatie over het inschakelen van Microsoft 365 om lokale Windows 10-apparaten met Active-Directory in slechts enkele stappen te beschermen.
-ms.openlocfilehash: 625eb7ac344b060409101d650ff30044d073f5bf
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Lees hoe u Microsoft 365 in staat stelt om lokale Windows 10-apparaten met Active Directory in slechts een paar stappen te beschermen.
+ms.openlocfilehash: 431c1be74723e156befb13ffe1ed98b48b9a23cb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561455"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633278"
 ---
-# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Toestaan dat aan een domein toegevoegde Windows 10-apparaten door Microsoft 365 Business worden beheerd
+# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-for-business"></a>Ingeschakeld voor windows 10-apparaten met domeindie worden beheerd door Microsoft 365 voor bedrijven
 
-Als uw organisatie On-premises gebruik maakt van Windows Server Active Directory, u Microsoft 365 Business instellen om uw Windows 10-apparaten te beschermen, terwijl u nog steeds toegang behoudt tot on-premises bronnen waarvoor lokale verificatie vereist is.
-Als u deze beveiliging wilt instellen, u **hybride Azure AD-verbonden apparaten**implementeren. Deze apparaten worden samengevoegd met zowel uw on-premises Active Directory als uw Azure Active Directory.
+Als uw organisatie on-premises Windows Server Active Directory gebruikt, u Microsoft 365 voor bedrijven instellen om uw Windows 10-apparaten te beschermen, terwijl u toch toegang behoudt tot on-premises bronnen waarvoor lokale verificatie vereist is.
+Als u deze beveiliging wilt instellen, u **hybride Azure AD-apparaten**implementeren. Deze apparaten zijn verbonden met zowel uw on-premises Active Directory als uw Azure Active Directory.
 
-In deze video worden de stappen beschreven voor het instellen van dit scenario voor het meest voorkomende scenario, dat ook wordt beschreven in de stappen die volgen.
+In deze video worden de stappen beschreven voor het instellen van dit scenario voor het meest voorkomende scenario, dat ook wordt beschreven in de volgende stappen.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
   
 
 ## <a name="1-prepare-for-directory-synchronization"></a>1. Voorbereiden op adreslijstsynchronisatie 
 
-Voordat u uw gebruikers en computers synchroniseert vanuit het lokale Active Directory-domein, controleert u [Voorbereiden op adreslijstsynchronisatie naar Office 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). In het bijzonder:
+Voordat u uw gebruikers en computers synchroniseert vanuit het lokale Active Directory-domein, controleert [u Voorbereiden op adreslijstsynchronisatie naar Office 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). In het bijzonder:
 
-   - Zorg ervoor dat er geen duplicaten bestaan in uw map voor de volgende kenmerken: **e-mail,** **proxyAdressen**en **userPrincipalName**. Deze waarden moeten uniek zijn en eventuele duplicaten moeten worden verwijderd.
+   - Zorg ervoor dat er geen duplicaten in uw map bestaan voor de volgende kenmerken: **e-mail,** **proxyAdressen**en **userPrincipalName**. Deze waarden moeten uniek zijn en eventuele duplicaten moeten worden verwijderd.
    
-   - We raden u aan het kenmerk **userPrincipalName** (UPN) voor elk lokaal gebruikersaccount te configureren dat overeenkomt met het primaire e-mailadres dat overeenkomt met de gelicentieerde Microsoft 365-gebruiker. Bijvoorbeeld: *mary.shelley@contoso.com* in plaats van *mary@contoso.local*
+   - We raden u aan het kenmerk **userPrincipalName** (UPN) voor elk lokaal gebruikersaccount te configureren op het primaire e-mailadres dat overeenkomt met de gelicentieerde Microsoft 365-gebruiker. Bijvoorbeeld: *mary.shelley@contoso.com* in plaats van *mary@contoso.local*
    
-   - Als het Active Directory-domein eindigt in een niet-routable achtervoegsel zoals *.local* of ** *.lan*, pas u het UPN-achtervoegsel van de lokale gebruikersaccounts eerst aan zoals beschreven in [Een niet-routeerbaar domein voorbereiden op adreslijstsynchronisatie](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization). ** 
+   - Als het Active Directory-domein eindigt in een niet-routable achtervoegsel zoals *.local* of *.lan,* in plaats van een internetroutable achtervoegsel zoals *.com* of *.org,* past u het UPN-achtervoegsel van de lokale gebruikersaccounts eerst aan zoals beschreven in [Een niet-routeerbaar domein voorbereiden voor adreslijstsynchronisatie](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization). 
 
 ## <a name="2-install-and-configure-azure-ad-connect"></a>2. Azure AD Connect installeren en configureren
 
-Als u uw gebruikers, groepen en contactpersonen vanuit de lokale Active Directory wilt synchroniseren in Azure Active Directory, installeert u Azure Active Directory Connect en stelt u adreslijstsynchronisatie in. Zie [Adreslijstsynchronisatie instellen voor Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) voor meer informatie.
+Als u uw gebruikers, groepen en contactpersonen vanuit de lokale Active Directory wilt synchroniseren met Azure Active Directory, installeert u Azure Active Directory Connect en stelt u adreslijstsynchronisatie in. Zie [Adreslijstsynchronisatie instellen voor Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) voor meer informatie.
 
 > [!NOTE]
-> De stappen zijn precies hetzelfde voor Microsoft 365 Business. 
+> De stappen zijn precies hetzelfde voor Microsoft 365 voor bedrijven. 
 
-Terwijl u uw opties voor Azure AD Connect configureert, raden we u aan **wachtwoordsynchronisatie,** **naadloze single sign-on**en de **functie voor het terugschrijven** van wachtwoorden in te schakelen, die ook wordt ondersteund in Microsoft 365 Business.
+Terwijl u uw opties voor Azure AD Connect configureert, raden we u aan **wachtwoordsynchronisatie,** **naadloze aanmelding**en de functie **voor het terugschrijven** van wachtwoorden in te schakelen, die ook wordt ondersteund in Microsoft 365 voor bedrijven.
 
 > [!NOTE]
-> Er zijn enkele extra stappen voor het terugschrijven van wachtwoorden buiten het selectievakje in Azure AD Connect. Zie [How-to: configureer password writeback](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback)voor meer informatie. 
+> Er zijn enkele aanvullende stappen voor het terugschrijven van wachtwoorden buiten het selectievakje in Azure AD Connect. Zie [How-to: wachtwoordterugschrijven configureren](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback)voor meer informatie. 
 
-## <a name="3-configure-hybrid-azure-ad-join"></a>3. Hybride Azure AD-join configureren
+## <a name="3-configure-hybrid-azure-ad-join"></a>3. Hybride Azure AD configureren Join
 
-Voordat u Windows 10-apparaten inschakelt om hybride Azure AD te zijn, moet u ervoor zorgen dat u aan de volgende voorwaarden voldoet:
+Voordat u Windows 10-apparaten hybride Azure AD inschakelt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
    - U voert de nieuwste versie van Azure AD Connect uit.
 
-   - Azure AD connect heeft alle computerobjecten gesynchroniseerd van de apparaten waaraan u hybride Azure AD wilt deelnemen. Als de computerobjecten tot specifieke organisatie-eenheden (OU) behoren, controleert u of deze OU's zijn ingesteld voor synchronisatie in Azure AD connect.
+   - Azure AD Connect heeft alle computerobjecten gesynchroniseerd van de apparaten waaraan hybride Azure AD wilt zijn. Als de computerobjecten deel uitmaken van specifieke organisatie-eenheden (OU), controleert u of deze GEGEVENS ook zijn ingesteld voor synchronisatie in Azure AD-verbinding.
 
-Als u bestaande windows 10-apparaten met domein wilt registreren terwijl hybride Azure AD is samengevoegd, voert u de stappen uit in de [zelfstudie: Hybride Azure Active Directory-join configureren voor beheerde domeinen](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join). Deze hybride maakt uw bestaande on-premises Active Directory aangesloten bij Windows 10-computers en maakt ze cloudklaar.
+Als u bestaande met een domein verbonden Windows 10-apparaten wilt registreren als Hybride Azure AD is toegetreden, voert u de stappen uit in de [zelfstudie: Hybride Azure Active Directory join configureren voor beheerde domeinen](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join). Met deze hybride kunnen uw bestaande on-premises Active Directory lid worden van Windows 10-computers en maken ze cloudklaar.
     
-## <a name="4-enable-automatic-enrollment-for-windows-10"></a>4. Automatische inschrijving voor Windows 10 inschakelen
+## <a name="4-enable-automatic-enrollment-for-windows-10"></a>4. Automatische inschrijving inschakelen voor Windows 10
 
- Zie Een [Windows 10-apparaat automatisch](https://docs.microsoft.com/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy)inschrijven met groepsbeleid als u Windows 10-apparaten automatisch wilt inschrijven voor beheer van mobiele apparaten voor mobiel apparaat in Intune. U het groepsbeleid instellen op lokaal computerniveau of voor bulkbewerkingen, u de groepsbeleidsbeheerconsole en ADMX-sjablonen gebruiken om deze groepsbeleidsinstelling op uw domeincontroller te maken.
+ Zie [Een Windows 10-apparaat automatisch inschrijven voor](https://docs.microsoft.com/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy)het beheer van mobiele apparaten in Intune. U het groepsbeleid instellen op lokaal computerniveau of voor bulkbewerkingen, u de console groepsbeleidsbeheer en ADMX-sjablonen gebruiken om deze groepsbeleidsinstelling op uw domeincontroller te maken.
 
 ## <a name="5-configure-seamless-single-sign-on"></a>5. Naadloze aanmelding configureren
 
-  Naadloze SSO ondertekent gebruikers automatisch in hun Microsoft 365-cloudbronnen wanneer ze bedrijfscomputers gebruiken. Implementeer eenvoudig een van de twee groepsbeleidsopties die zijn beschreven in [Azure Active Directory Seamless Single Sign-On: Snel aanmelding.](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso-quick-start#step-2-enable-the-feature) Met de optie **Groepsbeleid** kunnen gebruikers hun instellingen niet wijzigen, terwijl de optie **Groepsbeleidsvoorkeur** de waarden instelt, maar ze ook door de gebruiker configureerbaar laat.
+  Naadloze SSO ondertekent gebruikers automatisch in hun Microsoft 365-cloudbronnen wanneer ze bedrijfscomputers gebruiken. Implementeer eenvoudig een van de twee groepsbeleidsopties die zijn beschreven in [Azure Active Directory Seamless Single Sign-On: Snel starten](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso-quick-start#step-2-enable-the-feature). Met de optie **Groepsbeleid** kunnen gebruikers hun instellingen niet wijzigen, terwijl de optie **Groepsbeleidsvoorkeur** de waarden instelt, maar ze ook door de gebruiker kan worden geconfigureerd.
 
-## <a name="6-set-up-windows-hello-for-business"></a>6. Windows Hello voor Bedrijven instellen
+## <a name="6-set-up-windows-hello-for-business"></a>6. Windows Hello for Business instellen
 
- Windows Hello for Business vervangt wachtwoorden door sterke tweestapsverificatie (2FA) voor het aanmelden bij een lokale computer. Een factor is een asymmetrisch sleutelpaar, en de andere is een pincode of een andere lokale beweging, zoals vingerafdruk of gezichtsherkenning als uw apparaat het ondersteunt. We raden u aan wachtwoorden waar mogelijk te vervangen door 2FA en Windows Hello for Business.
+ Windows Hello for Business vervangt wachtwoorden door sterke tweestapsverificatie (2FA) voor het aanmelden bij een lokale computer. De ene factor is een asymmetrisch sleutelpaar, en de andere is een pincode of een ander lokaal gebaar, zoals vingerafdruk of gezichtsherkenning als uw apparaat dit ondersteunt. We raden u aan om wachtwoorden waar mogelijk te vervangen door 2FA en Windows Hello for Business.
 
-Als u Hybride Windows Hello voor Bedrijven wilt configureren, bekijkt u de [vereisten voor windows hello voor bedrijven voor](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-trust-prereqs)hybride sleutel vertrouwen. Volg vervolgens de instructies in De belangrijkste vertrouwensinstellingen van [Windows Hello voor Bedrijven configureren.](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-whfb-settings) 
+Als u Hybride Windows Hello voor Bedrijven wilt configureren, controleert u de [vertrouwensrelatie met de hybride sleutel windows hello voor bedrijven.](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-trust-prereqs) Volg vervolgens de instructies in [De vertrouwensinstellingen voor hybride Windows Hello voor Bedrijven configureren.](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-whfb-settings) 

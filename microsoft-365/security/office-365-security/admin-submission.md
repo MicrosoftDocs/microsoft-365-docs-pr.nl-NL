@@ -1,5 +1,5 @@
 ---
-title: Admin inzendingen in Office 365, O365 inzendingen, Office 365 spam probleem, O365 vals negatief, phish indienen in Office 365, e-mail indienen voor scannen, verdachte e-mail in Office 365, een e-mail scannen, microsoft laten scannen op phish, Microsoft laten scannen op spam, indienen e-mail, e-mail indienen, onbetrouwbare e-mail, slechte actor mail, verdachte, niet-vertrouwde e-mail, verslag phish e-mails aan Microsoft, verslag kwaadaardige e-mail aan Microsoft, verslag scam e-mail naar Microsoft, malware melden in e-mail aan Microsoft, spam e-mail in postvak IN Office 365, virus in e-mail office 365
+title: Admin inzendingen, inzendingen, spam probleem, vals negatief, phish indienen, e-mail indienen voor het scannen, verdachte e-mail in Office 365, een e-mail scannen, hebben Microsoft scannen op phish, hebben Microsoft scannen op spam, e-mail indienen, e-mail indienen, dodgy e-mail, slechte actor e-mail, verdachte, niet-vertrouwde e-mail, verslag phish e-mails aan Microsoft, verslag uitschrijven van kwaadaardige e-mail aan Microsoft, verslag scam e-mail naar Microsoft, verslag scam e-mail aan Microsoft, verslag kwaadaardige e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail naar Microsoft, verslag scam e-mail aan Microsoft, verslag kwaadaardige e-mail aan Microsoft, verslag scam e-mail naar Microsoft, verslag scam e-mail naar Microsoft, verslag scam scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag kwaadaardige e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail naar Microsoft, verslag scam e-mail naar Microsoft, verslag scam e-mail aan Microsoft, verslag kwaadaardige e-mail aan , malware in e-mail rapporteren aan Microsoft, spam e-mail in inbox, virus in e-mail
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,17 +14,17 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over het verzenden van verdachte e-mails, vermoedelijke phishingmails, spam en andere mogelijk schadelijke berichten, URL's en bestanden van uw Office 365-tenant bij Microsoft voor het scannen.
-ms.openlocfilehash: 539d09f03a8a9c5956f2d1e3584f893b0e4ffbb4
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+description: Meer informatie over het verzenden van verdachte e-mails, vermoedelijke phishingmails, spam en andere mogelijk schadelijke berichten, URL's en bestanden van uw bedrijf bij Microsoft voor het scannen.
+ms.openlocfilehash: 2d86555854f9babd202764f1bad8b548daf52c70
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033612"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631379"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Beheerbeheer gebruiken om vermoedelijke spam, phish, URL's en bestanden bij Microsoft in te dienen
 
-Als u een beheerder bent in een Office 365-organisatie met postvakken in Exchange Online, u de portal Inzendingen in het Office 365 Security & Compliance Center gebruiken om e-mailberichten, URL's en bijlagen bij Microsoft in te dienen om te scannen.
+Als u een beheerder bent in een Microsoft 365-organisatie met postvakken in Exchange Online, u de inzendingenportal in het Beveiligings- & Compliance Center gebruiken om e-mailberichten, URL's en bijlagen bij Microsoft in te dienen om te scannen.
 
 Wanneer u een e-mail indient, ontvangt u informatie over het beleid dat de binnenkomende e-mail mogelijk in uw tenant heeft toegestaan, evenals het onderzoeken van URL's en bijlagen in de e-mail. Beleidsregels waarmee een e-mail mogelijk is toegestaan, bevatten de lijst met veilige afzenders van een individuele gebruiker en beleid op tenantniveau, zoals de regels voor de e-mailstroom van Exchange (ook wel transportregels genoemd).
 
@@ -36,11 +36,11 @@ Zie voor andere manieren om e-mailberichten, URL's en bijlagen bij Microsoft in 
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone Exchange Online Protection PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u antispambeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rolgroepen **Organisatiebeheer,** **Beveiligingsbeheerder**of **Beveiligingslezer.** Zie [Machtigingen in het Office 365-beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
+- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u antispambeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rolgroepen **Organisatiebeheer,** **Beveiligingsbeheerder**of **Beveiligingslezer.** Zie Machtigingen in het Security & Compliance [Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rolgroepen in het Security & Compliance Center.
 
 - Zie Berichten en bestanden rapporteren aan Microsoft voor meer informatie over hoe gebruikers berichten en bestanden kunnen verzenden naar [Microsoft.](report-junk-email-messages-to-microsoft.md)
 
-## <a name="how-to-direct-suspicious-content-to-microsoft-for-office-365-scanning"></a>Verdachte inhoud doorsturen naar het scannen van Microsoft voor Office 365
+## <a name="how-to-direct-suspicious-content-to-microsoft-scanning"></a>Verdachte inhoud doorsturen naar het scannen van Microsoft
 
 Als u inhoud wilt verzenden naar Microsoft, klikt u op de knop **Nieuwe indiening** in de linkerbovenhoek van de inzendingenpagina. Er wordt een flyout aan de rechterkant van de pagina weergegeven met de optie om een e-mail, URL of bestand in te dienen.
 

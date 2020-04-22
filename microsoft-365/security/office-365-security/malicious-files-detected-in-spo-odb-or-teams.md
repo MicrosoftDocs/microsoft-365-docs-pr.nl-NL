@@ -16,24 +16,24 @@ ms.assetid: 5ed8abf1-c0e9-4e5b-a5b7-2059cea50b61
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over waar u naartoe gaan om informatie over schadelijke bestanden te bekijken die zijn gedetecteerd in SharePoint, OneDrive of Teams en hoe u actie ondernemen voor die bestanden.
-ms.openlocfilehash: 3a14c7d69c7081be6bd08840eb8f52c5e11d4be7
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: 95f497c5be16d1ba1d4fa9fc57f0dd9650450414
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955553"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635398"
 ---
 # <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>Informatie weergeven over schadelijke bestanden die zijn gedetecteerd in SharePoint, OneDrive of Microsoft Teams
 
 [Office 365 ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md) beschermt uw organisatie tegen schadelijke bestanden in documentbibliotheken en teamsites. Wanneer een kwaadaardig bestand wordt gedetecteerd, wordt dat bestand geblokkeerd, zodat niemand het kan openen, kopiëren, verplaatsen of delen totdat verdere acties zijn uitgevoerd door het beveiligingsteam van de organisatie. Lees dit artikel voor meer informatie over het weergeven van informatie over gedetecteerde bestanden en welke acties u moet uitvoeren. 
 
-Als u de in dit artikel beschreven taken wilt uitvoeren, moet u over de benodigde machtigingen beschikken [voor het Office 365 Security &amp; Compliance Center.](permissions-in-the-security-and-compliance-center.md) 
+Als u de in dit artikel beschreven taken wilt uitvoeren, moet u over de benodigde [machtigingen beschikken voor het Security &amp; Compliance Center.](permissions-in-the-security-and-compliance-center.md) 
   
 ## <a name="view-reports-with-information-about-detected-files"></a>Rapporten weergeven met informatie over gedetecteerde bestanden
 
 Als u de status en gedetailleerde informatie wilt weergeven over bestanden die zijn gedetecteerd door Office 365 ATP, u het rapport Status bedreigingsbeveiliging gebruiken.
   
-1. Kies in het [Office &amp; 365 Security Compliance Center](https://protection.office.com)de optie Status **bedreigingsbeveiliging** **van het** \> **dashboard** \> rapporten .
+1. Kies [in &amp; ](https://protection.office.com)het Security Compliance Center de optie Status \> **bedreigingsbeveiliging** **van het dashboard rapporten** \> **Dashboard** .
     
 2. Kies **detailstabel weergeven**in de rechterbovenhoek van het rapport .
     
@@ -45,7 +45,7 @@ Als u de status en gedetailleerde informatie wilt weergeven over bestanden die z
   
 ## <a name="view-and-take-action-on-files-in-quarantine"></a>Bestanden in quarantaine weergeven en actie ondernemen
 
-1. Kies in het Office &amp; 365 Security Compliance Center de optie **Quarantaine van bedreigingsbeheer.** \> **Review** \> **Quarantine** (U ook [https://protection.office.com/quarantine](https://protection.office.com/quarantine)rechtstreeks naar .)
+1. Kies in &amp; het Security Compliance Center de optie **Quarantaine van bedreigingsbeheer.** \> **Review** \> **Quarantine** (U ook [https://protection.office.com/quarantine](https://protection.office.com/quarantine)rechtstreeks naar .)
     
 2. Wijzig in de linkerbovenhoek het vervolgkeuzemenu van **E-mails** in **Bestanden.** Als de lijst met resultaten te veel items bevat, gebruikt u **de** filterfunctionaliteit om de selectie te beperken.
     

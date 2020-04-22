@@ -17,12 +17,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het gebruik van mogelijkheden voor het onderzoeken en reageren van bedreigingen om schadelijke e-mail te vinden en te onderzoeken.
-ms.openlocfilehash: 1b7cef7f079023dd88fe3f04eb1b7d159c4157ef
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: ec70bc585d4067357c9871cffc7475357fbfb5bb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955613"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634132"
 ---
 # <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Kwaadaardige e-mail onderzoeken en herstellen die in Office 365 is geleverd
 
@@ -34,24 +34,24 @@ Zorg ervoor dat aan de volgende eisen wordt voldaan:
   
 - Uw organisatie heeft [Office 365 Advanced Threat Protection](office-365-atp.md) en licenties zijn toegewezen aan [gebruikers.](../../admin/manage/assign-licenses-to-users.md)
     
-- [Office 365-controlelogboekregistratie](../../compliance/turn-audit-log-search-on-or-off.md) is ingeschakeld voor uw organisatie. 
+- [controlelogboekregistratie](../../compliance/turn-audit-log-search-on-or-off.md) is ingeschakeld voor uw organisatie. 
     
 - Uw organisatie heeft beleid gedefinieerd voor anti-spam, anti-malware, anti-phishing, enzovoort. Zie [Beschermen tegen bedreigingen in Office 365](protect-against-threats.md).
     
-- U bent een globale office 365-beheerder of u hebt de beveiligingsbeheerder &amp; of de rol Zoeken en verwijderen toegewezen in het Beveiligingscompliancecentrum. Zie [Machtigingen in het Office &amp; 365 Security Compliance Center](permissions-in-the-security-and-compliance-center.md). Voor sommige acties moet u ook een nieuwe voorbeeldrol hebben toegewezen. 
+- U bent een globale beheerder of u hebt de beveiligingsbeheerder of &amp; de rol Zoeken en verwijderen toegewezen in het Security Compliance Center. Zie [Machtigingen in &amp; het Security Compliance Center](permissions-in-the-security-and-compliance-center.md). Voor sommige acties moet u ook een nieuwe voorbeeldrol hebben toegewezen. 
 
 #### <a name="preview-role-permissions"></a>Voorvertoning van functiemachtigingen
 
-Als u bepaalde acties wilt uitvoeren, zoals het bekijken van berichtkoppen of het downloaden van inhoud van e-mailberichten, moet u een nieuwe rol met de naam *Preview* hebben toegevoegd aan een andere geschikte Office 365-rolgroep. In de volgende tabel worden vereiste rollen en machtigingen verduidelijkt.
+Als u bepaalde acties wilt uitvoeren, zoals het bekijken van berichtkoppen of het downloaden van inhoud van e-mailberichten, moet u een nieuwe rol met de naam *Preview* hebben toegevoegd aan een andere geschikte rolgroep. In de volgende tabel worden vereiste rollen en machtigingen verduidelijkt.
 
 |Activiteit  |Rolgroep |Preview rol nodig?  |
 |---------|---------|---------|
-|Threat Explorer (en realtime detecties) gebruiken om bedreigingen te analyseren     |Globale beheerder van Office 365 <br> Beveiligingsbeheerder <br> Beveiligingslezer     | Nee   |
-|Threat Explorer (en realtime detecties) gebruiken om kopteksten voor e-mailberichten weer te geven en in quarantaine geplaatste e-mailberichten te bekijken en te downloaden    |Globale beheerder van Office 365 <br> Beveiligingsbeheerder <br>Beveiligingslezer   |       Nee  |
-|Threat Explorer gebruiken om kopteksten weer te geven en e-mailberichten te downloaden die bij postvakken worden bezorgd     |Globale beheerder van Office 365 <br>Beveiligingsbeheerder <br> Beveiligingslezer <br> Voorbeeld   |   Ja      |
+|Threat Explorer (en realtime detecties) gebruiken om bedreigingen te analyseren     |Globale beheerder <br> Beveiligingsbeheerder <br> Beveiligingslezer     | Nee   |
+|Threat Explorer (en realtime detecties) gebruiken om kopteksten voor e-mailberichten weer te geven en in quarantaine geplaatste e-mailberichten te bekijken en te downloaden    |Globale beheerder <br> Beveiligingsbeheerder <br>Beveiligingslezer   |       Nee  |
+|Threat Explorer gebruiken om kopteksten weer te geven en e-mailberichten te downloaden die bij postvakken worden bezorgd     |Globale beheerder <br>Beveiligingsbeheerder <br> Beveiligingslezer <br> Voorbeeld   |   Ja      |
 
 > [!NOTE]
-> *Preview* is een rol en geen rolgroep; de voorbeeldrol moet worden toegevoegd aan een bestaande rolgroep voor Office 365. De functie Globale administrateur van Office 365[https://admin.microsoft.com](https://admin.microsoft.com)krijgt het Microsoft 365-beheercentrum toegewezen ( ) en[https://protection.office.com](https://protection.office.com)de rollen Beveiligingsbeheerder en Beveiligingslezer zijn toegewezen in het Office 365 Security & Compliance Center ( ). Zie Machtigingen in het Office [365 Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rollen en machtigingen.
+> *Preview* is een rol en geen rolgroep; de voorbeeldrol moet worden toegevoegd aan een bestaande rolgroep voor Office 365. De functie Globale beheerder krijgt het Microsoft[https://admin.microsoft.com](https://admin.microsoft.com)365-beheercentrum ( ) toegewezen en de rollen[https://protection.office.com](https://protection.office.com)Beveiligingsbeheerder en Beveiligingslezer worden toegewezen in het Security & Compliance Center ( ). Zie [Machtigingen in het Beveiligings& Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rollen en machtigingen.
 
 ## <a name="find-and-delete-suspicious-email-that-was-delivered"></a>Verdachte e-mail zoeken en verwijderen die is bezorgd
 
@@ -254,7 +254,7 @@ To access your message header and email download options, follow these steps:
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Geavanceerde bedreigingsbeveiliging van Office 365](office-365-ti.md)
+[Office 365 Advanced Threat Protection](office-365-ti.md)
   
 [Beschermen tegen bedreigingen in Office 365](protect-against-threats.md)
   

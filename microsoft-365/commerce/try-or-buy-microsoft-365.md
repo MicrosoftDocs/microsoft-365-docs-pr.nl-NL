@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: Meer informatie over het krijgen van een gratis proefversie of het kopen van een abonnement voor Microsoft 365.
-ms.openlocfilehash: 0b19a27b44aa62c65bb8dc5542337e106da2ddc5
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: f5c1fca9bfb7b0f2236981e335517c1e03b2007c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141621"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631903"
 ---
 # <a name="try-or-buy-a-microsoft-365-subscription"></a>Een Microsoft 365-abonnement uitproberen of kopen
 
 Microsoft 365 is een complete oplossing die Office 365 en Windows 10 combineert met geavanceerd beveiligings- en apparaatbeheer. Als u al een abonnement hebt en u een Microsoft 365-abonnement wilt proefversien of kopen, u dit het beste doen via het beheercentrum. De volgende Microsoft 365-abonnementen zijn beschikbaar in het beheercentrum om nu te proberen of te kopen:
   
-- Microsoft 365 Business
+- Microsoft 365 Business Premium
 
 - Microsoft 365 Enterprise E3
 
@@ -41,6 +41,7 @@ Wanneer u een abonnement toevoegt via het beheercentrum, wordt het nieuwe abonne
 ## <a name="try-or-buy-a-microsoft-365-subscription"></a>Een Microsoft 365-abonnement uitproberen of kopen
 
 ::: moniker range="o365-worldwide"
+
 
 1. Meld u aan bij [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339)het beheercentrum bij , en ga vervolgens naar **Billing** \> **Purchase services**.
 
@@ -67,13 +68,13 @@ Wanneer u een abonnement toevoegt via het beheercentrum, wordt het nieuwe abonne
 
 11. Selecteer **doorgaan**op de pagina **orderontvangst** .
 
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-
 1. Meld u aan bij [https://portal.office.de](https://go.microsoft.com/fwlink/?linkid=847686)het beheercentrum bij , en ga vervolgens naar **Billing** \> **Purchase services**.
 
-2. Op de pagina **Services kopen** worden de abonnementen vermeld die beschikbaar zijn voor uw organisatie.
+2. Op de pagina **Services kopen** worden de abonnementen vermeld die beschikbaar zijn voor uw organisatie. 
 
 3. Selecteer de ellipsen onder het Microsoft 365-abonnement die u wilt proberen of kopen en selecteer vervolgens **Gratis proefversie starten**, waarmee u 25 gebruikerslicenties voor een periode van één maand krijgt, of u Nu **kopen**selecteren.
 
@@ -99,7 +100,6 @@ Wanneer u een abonnement toevoegt via het beheercentrum, wordt het nieuwe abonne
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
-
 1. Meld u aan bij [https://portal.partner.microsoftonline.cn](https://go.microsoft.com/fwlink/?linkid=850628)het beheercentrum bij , en ga vervolgens naar **Billing** \> **Purchase services**.
 
 2. Op de pagina **Services kopen** worden de abonnementen vermeld die beschikbaar zijn voor uw organisatie. 
@@ -127,14 +127,16 @@ Wanneer u een abonnement toevoegt via het beheercentrum, wordt het nieuwe abonne
 
 ::: moniker-end
 
+
 ## <a name="next-steps"></a>Volgende stappen
 
-Nadat u het nieuwe abonnement hebt gekregen, moet u een licentie toewijzen aan de gebruikers die dat abonnement zullen gebruiken. Zie [Licenties toewijzen aan gebruikers voor](../admin/manage/assign-licenses-to-users.md)meer informatie.
+Nadat u het nieuwe abonnement hebt gekregen, moet u een licentie toewijzen aan de gebruikers die dat abonnement zullen gebruiken. Zie [Licenties toewijzen aan gebruikers voor](../admin/manage/assign-licenses-to-users.md) meer informatie.
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Een ander Office 365 voor Bedrijven-abonnement kopen](buy-another-subscription.md)
+[Koop een ander Microsoft 365 voor zakelijk abonnement](buy-another-subscription.md)
 
-[Een invoegtoepassing voor Office 365 voor Bedrijven kopen of bewerken](buy-or-edit-an-add-on.md)
+[Een add-on voor Microsoft 365 voor bedrijven kopen of bewerken](buy-or-edit-an-add-on.md)
 
 [Opslagruimte voor uw abonnement toevoegen](add-storage-space.md)
+

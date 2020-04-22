@@ -24,13 +24,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
-description: Ontdek hoe u uw Windows-apparaten upgraden naar Windows 10 Pro om geavanceerdere beveiligings- en zakelijke netwerkfuncties te gebruiken.
-ms.openlocfilehash: 3901754d9ef269ae74dbf1893cb62b1ba810919d
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Ontdek manieren waarop u uw Windows-apparaten upgraden naar Windows 10 Pro om geavanceerdere beveiligings- en zakelijke netwerkfuncties te gebruiken.
+ms.openlocfilehash: f0cedda49dbff2a8c2884bb52e240fabfbeb4537
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560655"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632046"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Windows-apparaten upgraden naar Windows 10 Pro
 
@@ -44,21 +44,21 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
   
 Als u wilt upgraden naar Windows 10 Pro, hebt u verschillende opties. U kunt:
     
-- Installeer de upgrade vanaf de [Microsoft Software Download site](https://go.microsoft.com/fwlink/?LinkID=836951 ) &ndash; Selecteer deze optie als het apparaat dat u bent ingelogd zich op hetzelfde apparaat bevindt als het apparaat dat u wilt bijwerken. 
+- Installeer de upgrade vanaf de [Microsoft Software Download-site](https://go.microsoft.com/fwlink/?LinkID=836951 ) &ndash; Selecteer deze optie als het apparaat waarop u bent ingelogd zich op hetzelfde apparaat bevindt als het apparaat dat u wilt bijwerken. 
 
-    - Klik op de softwaredownloadsite **op Nu bijwerken** om het apparaat te upgraden naar Windows 10 Pro Creators Update. 
+    - Klik op de site voor het downloaden van software op **Nu bijwerken** om te beginnen met het upgraden van het apparaat naar Windows 10 Pro Creators Update. 
     
-- Maak een installatiemedia met behulp van de [tool](https://go.microsoft.com/fwlink/?LinkID=836960) &ndash; Media Creatie Selecteer deze optie om een Windows 10 Pro Creators Update installatiemedia (USB-flashstation of ISO-bestand) te maken om Windows 10 te installeren op een pc die verschilt van de pc die u gebruikt.
+- Maak een installatiemedia met behulp van de [Tool Media](https://go.microsoft.com/fwlink/?LinkID=836960) &ndash; Creatie Selecteer deze optie om een installatiemedia (USB-flashstation of ISO-bestand) van Windows 10 te maken om Windows 10 te installeren op een pc die verschilt van de pc die u gebruikt.
 
-    - Lees de instructies voor het gebruik van het gereedschap en maak uw installatiemedia. 
+    - Lees de instructies over het gebruik van het gereedschap en maak uw installatiemedia. 
 
 > [!NOTE]
-> Als u Windows-apparaten hebt waarop Windows 7 Pro, Windows 8 Pro of Windows 8.1 Pro wordt uitgevoerd, geeft uw Microsoft 365 Business-abonnement recht op een Windows Pro 10-upgrade.
+> Als u Windows-apparaten met Windows 7 Pro, Windows 8 Pro of Windows 8.1 Pro hebt, geeft uw Microsoft 365 voor Zakelijk-abonnement recht op een Windows Pro 10-upgrade.
     
-Zie [Windows-apparaten instellen voor Microsoft 365 Business-gebruikers](set-up-windows-devices.md) om het instellen van Windows 10-apparaten te voltooien. 
+Zie [Windows-apparaten instellen voor Microsoft 365 voor zakelijke gebruikers](set-up-windows-devices.md) om het instellen van Windows 10-apparaten te voltooien. 
   
-Zie [Mobiele apparaten instellen voor Microsoft 365 Business-gebruikers](set-up-mobile-devices.md) om het instellen van Android- en iOS-apparaten te voltooien. 
+Zie [Mobiele apparaten instellen voor Microsoft 365 voor zakelijke gebruikers](set-up-mobile-devices.md) om het instellen van Android- en iOS-apparaten te voltooien. 
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Voor meer informatie over het instellen en gebruiken van Microsoft 365 Business
+## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Voor meer informatie over het instellen en gebruiken van Microsoft 365 voor bedrijven
 
-[Trainingsvideo's voor Microsoft 365 Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 voor zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -18,20 +18,20 @@ search.appverid:
 ms.assetid: c5e95951-da67-4ec7-92c5-982abd477e69
 ms.collection:
 - M365-security-compliance
-description: Zelfs als u van plan bent om sommige of al uw postvakken on-premises te hosten, u de postvakken nog steeds beveiligen met Exchange Online Protection (EOP). Als u connectors wilt configureren, moet uw account een Globale beheerder van Office 365 of een Exchange Company Administrator (de rolgroep Organisatiebeheer) zijn. Zie Beheerdersrollen toewijzen in Office 365, uitgevoerd door 21Vianet, voor informatie over hoe Office 365-machtigingen zich verhouden tot Exchange-machtigingen. Als al uw Exchange-postvakken on-premise zijn, volgt u deze stappen om uw EOP-service in te stellen.
-ms.openlocfilehash: 8ff2e28100a748e34b8f079292d937cc9b3857e8
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: Zelfs als u van plan bent om sommige of al uw postvakken on-premises te hosten, u de postvakken nog steeds beveiligen met Exchange Online Protection (EOP). Om connectors te configureren, moet uw account een globale beheerder zijn of een Exchange Company Administrator (de rolegroup Organisatiebeheer). Zie Beheerdersrollen toewijzen in Office 365, uitgevoerd door 21Vianet, voor informatie over hoe Office 365-machtigingen zich verhouden tot Exchange-machtigingen. Als al uw Exchange-postvakken on-premise zijn, volgt u deze stappen om uw EOP-service in te stellen.
+ms.openlocfilehash: 5d60e762b46f6f6f9228fb21ea6450e015ed9d93
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895285"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634446"
 ---
 # <a name="protect-on-premises-mailboxes-with-exchange-online-protection"></a>On-premises postvakken beschermen met Exchange Online Protection
 
 > [!NOTE]
 > Dit artikel is alleen van toepassing op Office 365 dat wordt beheerd door 21Vianet in China.
 
-Zelfs als u van plan bent om sommige of al uw postvakken on-premises te hosten, u de postvakken nog steeds beveiligen met Exchange Online Protection (EOP). Als u connectors wilt configureren, moet uw account een Globale beheerder van Office 365 of een Exchange Company Administrator (de rolgroep Organisatiebeheer) zijn. Zie [Beheerdersrollen toewijzen in Office 365, uitgevoerd door 21Vianet,](https://docs.microsoft.com/office365/admin/add-users/assign-admin-roles?&view=o365-21vianet)voor informatie over hoe Office 365-machtigingen zich verhouden tot Exchange-machtigingen. Als al uw Exchange-postvakken on-premise zijn, volgt u deze stappen om uw EOP-service in te stellen.
+Zelfs als u van plan bent om sommige of al uw postvakken on-premises te hosten, u de postvakken nog steeds beveiligen met Exchange Online Protection (EOP). Om connectors te configureren, moet uw account een globale beheerder zijn of een Exchange Company Administrator (de rolegroup Organisatiebeheer). Zie [Beheerdersrollen toewijzen in Office 365, uitgevoerd door 21Vianet,](https://docs.microsoft.com/office365/admin/add-users/assign-admin-roles?&view=o365-21vianet)voor informatie over hoe Office 365-machtigingen zich verhouden tot Exchange-machtigingen. Als al uw Exchange-postvakken on-premise zijn, volgt u deze stappen om uw EOP-service in te stellen.
 
 ## <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>Stap 1: Het Microsoft 365-beheercentrum gebruiken om uw domein toe te voegen en te verifiëren
 
@@ -63,7 +63,7 @@ Nadat u connectors hebt geconfigureerd, wacht u 72 uur om de verspreiding van uw
 
 ## <a name="step-5-ensure-that-spam-is-routed-to-each-users-junk-email-folder"></a>Stap 5: Ervoor zorgen dat spam wordt doorgestuurd naar de map Ongewenste e-mail van elke gebruiker
 
-Om ervoor te zorgen dat spam (ongewenste e-mail) correct wordt doorgestuurd naar de map Ongewenste e-mail van elke gebruiker, moet u een paar configuratiestappen uitvoeren. De stappen zijn beschikbaar in [Standalone EOP configureren om spam te leveren aan de map Ongewenste e-mail in hybride omgevingen.](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) Als u geen berichten naar de map Ongewenste e-mail van elke gebruiker wilt verplaatsen, u een andere actie kiezen door uw inhoudsfilterbeleid te bewerken in het Exchange-beheercentrum. Zie [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md)voor meer informatie.
+Om ervoor te zorgen dat spam (ongewenste e-mail) correct wordt doorgestuurd naar de map Ongewenste e-mail van elke gebruiker, moet u een paar configuratiestappen uitvoeren. De stappen zijn beschikbaar in [Standalone EOP configureren om spam te leveren aan de map Ongewenste e-mail in hybride omgevingen.](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) Als u geen berichten naar de map Ongewenste e-mail van elke gebruiker wilt verplaatsen, u een andere actie kiezen door uw inhoudsfilterbeleid te bewerken in het Exchange-beheercentrum. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Stap 6: Gebruik het Microsoft 365-beheercentrum om uw MX-record naar EOP te richten
 

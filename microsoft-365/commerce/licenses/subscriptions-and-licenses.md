@@ -1,5 +1,5 @@
 ---
-title: Informatie over abonnementen en licenties in Office 365 voor Bedrijven
+title: Inzicht in abonnementen en licenties in Microsoft 365 voor Bedrijven
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,24 +20,24 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 7ac93507-0e38-4398-8bfe-9c1d123cb387
-description: 'Meer informatie over abonnementen en licenties in Office 365 voor Bedrijven en weet wie licenties kan toewijzen en wat er gebeurt wanneer u een licentie aan iemand toewijst. '
+description: 'Meer informatie over abonnementen en licenties in Microsoft 365 voor Bedrijven en weet wie licenties kan toewijzen en wat er gebeurt wanneer u een licentie aan iemand toewijst. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 1a90e4b80322ad075f2149801aebd02ac07a2aef
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1508daa6dae30c35a9517fceb81b0a4d2b4a7f58
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42812127"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635434"
 ---
-# <a name="understand-subscriptions-and-licenses-in-office-365-for-business"></a>Informatie over abonnementen en licenties in Office 365 voor Bedrijven
+# <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Inzicht in abonnementen en licenties in Microsoft 365 voor Bedrijven
 
-In dit artikel wordt de relatie tussen abonnementen en licenties uitgelegd en worden aanvullende informatie verstrekt over [wie licenties kan toewijzen,](#find-out-who-can-assign-licenses) [te begrijpen wat er gebeurt wanneer u een licentie aan iemand toewijst](#understand-what-happens-when-you-assign-a-license-to-someone)en [op hoeveel apparaten mensen Office kunnen installeren.](#how-many-devices-can-people-install-office-on) Het bevat ook links naar [het begrijpen van licenties voor niet-gebruikerspostvakken](#understand-licenses-for-non-user-mailboxes)en artikelen over het beheren van [licenties.](#articles-about-managing-licenses)
+In dit artikel wordt de relatie tussen abonnementen en licenties uitgelegd en wordt aanvullende informatie verstrekt over [wie licenties kan toewijzen,](#find-out-who-can-assign-licenses) [wat er gebeurt wanneer u een licentie aan iemand toewijst](#understand-what-happens-when-you-assign-a-license-to-someone)en [hoeveel apparaten mensen Office kunnen installeren op](#how-many-devices-can-people-install-office-on). Het bevat ook koppelingen naar [het begrijpen van licenties voor postvakken van niet-gebruikers](#understand-licenses-for-non-user-mailboxes)en artikelen over het beheren van [licenties](#articles-about-managing-licenses).
   
-Wanneer u een abonnement op Office 365 voor Bedrijven koopt, meldt u zich aan voor een reeks toepassingen en services waarvoor u maandelijks of jaarlijks betaalt. De toepassingen en services die u ontvangt als onderdeel van uw abonnement, zijn afhankelijk van het product dat u hebt gekocht, zoals Office 365 Business of Office 365 Business Premium. U bekijken wat bij elk product wordt geleverd op de [pagina Office 365 kopen.](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1) 
+Wanneer u een abonnement op Microsoft 365 voor bedrijven koopt, meldt u zich aan voor een reeks toepassingen en services waarvoor u op maandbasis of op jaarbasis betaalt. Welke toepassingen en services u ontvangt als onderdeel van uw abonnement, zijn afhankelijk van welk product u hebt gekocht, zoals Microsoft 365 Apps voor bedrijven of Microsoft 365 Business Standard. U bekijken wat er bij elk product wordt geleverd op de [pagina Microsoft 365 kopen.](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1) 
 
-Wanneer u een abonnement koopt, geeft u het aantal licenties op dat u nodig hebt, op basis van het aantal personen in uw organisatie. Wanneer uw aankoop is voltooid, maakt u een account voor de betreffende personen en wijst u vervolgens elk van deze personen een licentie toe. Als uw organisatiebehoeften veranderen, u meer licenties kopen om nieuwe mensen tegemoet te komen of licenties opnieuw toewijzen aan andere gebruikers wanneer iemand uw organisatie verlaat. 
+Wanneer u een abonnement koopt, geeft u het aantal licenties op dat u nodig hebt, op basis van het aantal personen in uw organisatie. Wanneer uw aankoop is voltooid, maakt u een account voor de betreffende personen en wijst u vervolgens elk van deze personen een licentie toe. Als uw organisatiebehoeften veranderen, u meer licenties kopen om nieuwe mensen aan te passen of licenties opnieuw toewijzen aan andere gebruikers wanneer iemand uw organisatie verlaat. 
 
-Als u meer dan één abonnement hebt, u licenties toewijzen aan verschillende personen voor elk abonnement. Al uw gebruikers kunnen bijvoorbeeld worden toegewezen aan alle Office 365-toepassingen en -services als onderdeel van een Office 365 Business Premium-abonnement, terwijl een subset van gebruikers ook via een apart Visio-abonnement aan Visio Online kan worden toegewezen. 
+Als u meer dan één abonnement hebt, u licenties toewijzen aan verschillende personen voor elk abonnement. Al uw gebruikers kunnen bijvoorbeeld worden toegewezen aan alle Microsoft 365-toepassingen en -services als onderdeel van een Microsoft 365 Business Standard-abonnement, terwijl een subset van gebruikers ook aan Visio Online kan worden toegewezen via een afzonderlijk Visio-abonnement. 
 
   
 ## <a name="find-out-who-can-assign-licenses"></a>Wie kan licenties toewijzen?
@@ -61,17 +61,17 @@ In de volgende tabel ziet u wat er automatisch gebeurt als u iemand een licentie
 |Exchange Online  <br/> |Er wordt een postvak voor die medewerker gemaakt.  <br/> |
 |SharePoint Online  <br/> |De medewerker krijgt machtigingen voor bewerken voor de standaardteamsite van SharePoint Online.  <br/> |
 |Skype voor Bedrijven Online  <br/> |De medewerker krijgt toegang tot de functies die bij de licentie horen.  <br/> |
-|Office 365 ProPlus  <br/> |De medewerker kan Microsoft Office downloaden op maximaal vijf Macs of pc's, vijf tablets en vijf smartphones.  <br/> |
+|Microsoft 365 Apps voor bedrijven  <br/> |De medewerker kan Microsoft Office downloaden op maximaal vijf Macs of pc's, vijf tablets en vijf smartphones.  <br/> |
    
 ## <a name="how-many-devices-can-people-install-office-on"></a>Op hoeveel apparaten kan iemand Office installeren?
 
 Als uw abonnement een van de volgende producten bevat, kan elke medewerker Office installeren op maximaal vijf pc's of Macs, vijf tablets en vijf telefoons.
   
-- Office 365 Business
+- Microsoft 365 Apps voor bedrijven
     
-- Office 365 Business Premium
+- Microsoft 365 Business Standard
     
-- Office 365 ProPlus
+- Microsoft 365 Apps voor bedrijven
     
 - Office 365 Enterprise E3
     
@@ -83,7 +83,7 @@ U hoeft geen licenties toe te wijzen aan resourcepostvakken, postvakken voor ver
   
 - [Een gedeeld postvak maken](../../admin/email/create-a-shared-mailbox.md)
     
-- [Gedeelde postvakken in Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=847433) voor overige Office 365-abonnementen. 
+- [Gedeelde postvakken in Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=847433) voor alle andere Microsoft 365-abonnementen. 
     
 - [Postvakken voor vergaderruimten maken en beheren](https://go.microsoft.com/fwlink/p/?linkid=847434)
     

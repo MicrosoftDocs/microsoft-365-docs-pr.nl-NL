@@ -21,36 +21,36 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
-description: Lees wat er met uw gegevens gebeurt wanneer uw abonnement op Office 365 voor Bedrijven verloopt, is uitgeschakeld of als u opzegt.
-ms.openlocfilehash: f3be5a84cc29b2f7fd4d2bbe3e6ba611c6459ea6
-ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
+description: Lees wat er met uw gegevens gebeurt wanneer uw Microsoft 365 voor Bedrijven-abonnement verloopt, is uitgeschakeld of als u opzegt.
+ms.openlocfilehash: 2a5a9e587b6b00017d3e489d948c9cee3db4777b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43584007"
+ms.locfileid: "43634872"
 ---
-# <a name="what-happens-to-my-data-and-access-when-my-office-365-for-business-subscription-ends"></a>Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement op Office 365 voor Bedrijven afloopt?
+# <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor bedrijven-abonnement afloopt?
 
-Als uw abonnement afloopt, hetzij omdat het verloopt, hetzij omdat u besluit te annuleren: uw toegang tot Office 365-services, -toepassingen en klantgegevens gaat door meerdere statussen voordat het abonnement volledig is uitgeschakeld of *is gedeprovisioneerd.* Als u zich bewust bent van deze progressie, bent u beter uitgerust om uw abonnement terug te sturen naar een actieve status voordat het te laat is, of als u Office 365 verlaat, maakt u een back-up van uw gegevens voordat deze uiteindelijk worden verwijderd.
+Als uw abonnement afloopt, hetzij omdat het verloopt, hetzij omdat u besluit te annuleren: uw toegang tot Microsoft 365-services, -toepassingen en klantgegevens gaat door meerdere statussen voordat het abonnement volledig is uitgeschakeld of *is gedeprovisioneerd.* Als u zich bewust bent van deze progressie, bent u beter uitgerust om uw abonnement terug te sturen naar een actieve status voordat het te laat is, of als u Microsoft 365 verlaat, maakt u een back-up van uw gegevens voordat deze uiteindelijk worden verwijderd.
   
-## <a name="office-365-for-business-subscription-lifecycle"></a>Office 365 voor Bedrijven: levenscyclus van abonnementen
+## <a name="microsoft-365-for-business-subscription-lifecycle"></a>Microsoft 365 voor bedrijven: levenscyclus van abonnementen
 - Als uw abonnement verloopt, gaat het via de volgende fasen: Verlopen / Uitgeschakeld / Gedeprovisioneerd. De fase Verlopen begint onmiddellijk nadat het abonnement de einddatum heeft bereikt.
 - Als u terugkerende facturering op uw jaarabonnement uitschakelt, gaat dit via dezelfde fasen als een verlopen abonnement. De eerste fase begint zijn de verjaardag van het jaarabonnement, niet vanaf de datum waarop u de terugkerende factureringsinstelling van het abonnement hebt uitgeschakeld.
-- Als u uw maandelijkse abonnement opzegt, wordt het onmiddellijk uitgeschakeld (op de datum van opzegging). Dit betekent dat uw gebruikers onmiddellijk geen toegang meer hebben tot de Office 365-assets en dat alleen beheerders de komende 90 dagen toegang hebben tot de gegevens.
+- Als u uw maandelijkse abonnement opzegt, wordt het onmiddellijk uitgeschakeld (op de datum van opzegging). Dit betekent dat uw gebruikers onmiddellijk geen toegang meer hebben tot de Microsoft 365-assets en dat alleen beheerders de komende 90 dagen toegang hebben tot de gegevens.
 
-In de volgende tabel wordt uitgelegd wat u verwachten wanneer een betaald Abonnement op Office 365 voor Bedrijven verloopt.
+In de volgende tabel wordt uitgelegd wat u verwachten wanneer een betaald Microsoft 365 voor zakelijk abonnement verloopt.
 
 | **Actief**                                                             | **Verlopen <br/>(30\*dagen)**                                                | **Uitgeschakeld <br/>(90\*dagen)**                                               | **Gedeprovisioneerd**                                                                         |
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | *Gegevens die toegankelijk zijn voor iedereen*                                               | *Gegevens die toegankelijk zijn voor iedereen*                                                     | *Alleen gegevens die toegankelijk zijn voor beheerders*                                             | **Gegevens verwijderd<br/>Azure Active Directory wordt verwijderd, indien niet in gebruik door andere services** |
-| Gebruikers hebben normale toegang tot Office 365,gegevens en Office-toepassingen  | Gebruikers hebben normale toegang tot Office 365, bestanden en toepassingen              | Gebruikers hebben geen toegang tot Office 365, bestanden of toepassingen                        | Gebruikers hebben geen toegang tot Office 365, bestanden of toepassingen                                     |
-| Beheerders hebben normale toegang tot Office 365,gegevens en Office-toepassingen | Beheerders hebben toegang tot het beheercentrum   | Beheerders hebben toegang tot het beheercentrum, maar kunnen geen licenties toewijzen aan gebruikers       | Beheerders hebben toegang tot het beheercentrum om andere abonnementen te kopen en te beheren             |
+| Gebruikers hebben normale toegang tot Microsoft 365,gegevens en Office-toepassingen  | Gebruikers hebben normale toegang tot Microsoft 365, bestanden en toepassingen              | Gebruikers hebben geen toegang tot Microsoft 365, bestanden of toepassingen                        | Gebruikers hebben geen toegang tot Microsoft 365, bestanden of toepassingen                                     |
+| Beheerders hebben normale toegang tot Microsoft 365,gegevens en Office-toepassingen | Beheerders hebben toegang tot het beheercentrum                                           | Beheerders hebben toegang tot het beheercentrum, maar kunnen geen licenties toewijzen aan gebruikers       | Beheerders hebben toegang tot het beheercentrum om andere abonnementen te kopen en te beheren             |
 |                                                                        | Globale of factureringsbeheerders kunnen het abonnement opnieuw activeren in het beheercentrum | Globale of factureringsbeheerders kunnen het abonnement opnieuw activeren in het beheercentrum |                                                                                           |
 
 *Voor de meeste aanbiedingen, in de meeste landen en regio's.
   
 > [!NOTE]
-> **Wat zijn "klantgegevens"?** Klantgegevens, zoals gedefinieerd in de Voorwaarden van de [Microsoft Online-service,](https://go.microsoft.com/fwlink/p/?LinkId=613649)verwijzen naar alle gegevens, inclusief alle tekst-, geluids- of beeldbestanden die door of namens de klant aan Microsoft worden verstrekt via het gebruik van Office 365-services door de klant. Zie Aan de slag met de [Microsoft Service Trust Portal](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662)voor meer informatie over de bescherming van klantgegevens.
+> **Wat zijn "klantgegevens"?** Klantgegevens, zoals gedefinieerd in de Voorwaarden van de [Microsoft Online-service,](https://go.microsoft.com/fwlink/p/?LinkId=613649)verwijzen naar alle gegevens, inclusief alle tekst-, geluids- of beeldbestanden die door of namens de klant aan Microsoft worden verstrekt via het gebruik van Microsoft 365-services door de klant. Zie Aan de slag met de [Microsoft Service Trust Portal](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662)voor meer informatie over de bescherming van klantgegevens.
   
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>Wat zijn mijn opties als mijn abonnement bijna verloopt?
 
@@ -64,11 +64,11 @@ Voordat het abonnement daadwerkelijk de vervaldatum bereikt, hebt u een paar opt
 
   - Als **Terugkerende facturering** al is ingeschakeld, hoeft u geen actie te ondernemen. Uw abonnement wordt automatisch gefactureerd en er worden kosten in rekening gebracht voor een extra jaar of maand, afhankelijk van uw huidige betalingsfrequentie. Als u **terugkerende facturering** om welke reden dan ook hebt uitgeschakeld, u Terugkerende facturering altijd [weer inschakelen.](renew-your-subscription.md)
 
-  - Als u Office 365 Business hebt gekocht met een prepaidkaart, u Terugkerende facturering voor uw abonnement [inschakelen.](renew-your-subscription.md)
+  - Als u Microsoft 365 Apps voor bedrijven hebt gekocht met een prepaidkaart, u Terugkerende facturering voor uw abonnement [inschakelen.](renew-your-subscription.md)
 
   - Als u een klant bent in Open Volume Licensing met een prepaid abonnement van één jaar, neemt u contact op met uw partner om een nieuwe productcode aan te schaffen. U ontvangt instructies via e-mail om uw sleutel te activeren in het [Volume Licensing Service Center.](https://go.microsoft.com/fwlink/p/?LinkID=282016) Zie Uw [partner of reseller](../../admin/manage/find-your-partner-or-reseller.md)zoeken voor meer informatie over het vinden van een nieuwe partner of de partner waarmee u in het verleden hebt samengewerkt.
 
-  - Zie Terugkerende facturering voor uw [abonnement beheren](renew-your-subscription.md)als u Office 365 Business hebt.
+  - Zie Terugkerende facturering voor uw abonnement beheren als u Microsoft 365 Apps voor bedrijven [hebt.](renew-your-subscription.md)
 
 - **Laat het abonnement verlopen.**
 
@@ -88,11 +88,11 @@ Voordat het abonnement daadwerkelijk de vervaldatum bereikt, hebt u een paar opt
 
   - Als **Terugkerende facturering** al is ingeschakeld, hoeft u geen actie te ondernemen. Uw abonnement wordt automatisch gefactureerd en er worden kosten in rekening gebracht voor een extra jaar of maand, afhankelijk van uw huidige betalingsfrequentie. Als u **terugkerende facturering** om welke reden dan ook hebt uitgeschakeld, u Terugkerende facturering altijd [weer inschakelen.](renew-your-subscription.md)
 
-  - Als u Office 365 Business hebt gekocht met een prepaidkaart, u Terugkerende facturering voor uw abonnement [inschakelen.](renew-your-subscription.md)
+  - Als u Microsoft 365 Apps voor bedrijven hebt gekocht met een prepaidkaart, u Terugkerende facturering voor uw abonnement [inschakelen.](renew-your-subscription.md)
 
   - Als u een klant bent in Open Volume Licensing met een prepaid abonnement van één jaar, neemt u contact op met uw partner om een nieuwe productcode aan te schaffen. U ontvangt instructies via e-mail om uw sleutel te activeren in het [Volume Licensing Service Center.](https://go.microsoft.com/fwlink/p/?LinkID=282016) Zie Uw [partner of reseller](../../admin/manage/find-your-partner-or-reseller.md)zoeken voor meer informatie over het vinden van een nieuwe partner of de partner waarmee u in het verleden hebt samengewerkt.
 
-  - Zie [Uw abonnement verlengen](renew-your-subscription.md)als u Office 365 Business hebt.
+  - Zie [Uw abonnement verlengen](renew-your-subscription.md)als u Microsoft 365 Apps voor bedrijven hebt.
 
 - **Laat het abonnement verlopen.**
 
@@ -141,9 +141,9 @@ Dit is wat u verwachten wanneer uw abonnement in elke staat is.
 
 ::: moniker-end
 
-In deze status hebben gebruikers normale toegang tot de Office 365-portal, Office-toepassingen en services zoals e-mail en SharePoint Online.
+In deze status hebben gebruikers normale toegang tot de Microsoft 365-portal, Office-toepassingen en services zoals e-mail en SharePoint Online.
   
-Als beheerder heb je nog steeds toegang tot het beheercentrum. Globale of factureringsbeheerders kunnen [het abonnement opnieuw activeren](reactivate-your-subscription.md) en Office 365 blijven gebruiken. Als u niet opnieuw activeert, moet u [een back-up maken van uw gegevens.](back-up-data-before-switching-plans.md)
+Als beheerder heb je nog steeds toegang tot het beheercentrum. Maak je geen zorgen: globale of factureringsbeheerders kunnen [het abonnement opnieuw activeren](reactivate-your-subscription.md) en Microsoft 365 blijven gebruiken. Als u niet opnieuw activeert, moet u [een back-up maken van uw gegevens.](back-up-data-before-switching-plans.md)
   
 ### <a name="state-disabled"></a>Staat: Uitgeschakeld
   
@@ -171,7 +171,7 @@ In deze status neemt uw toegang aanzienlijk af. Uw gebruikers kunnen zich niet a
 
 ::: moniker-end
 
-Als globale of factureringsbeheerder u [het abonnement opnieuw activeren](reactivate-your-subscription.md) en Office 365 blijven gebruiken met al uw klantgegevens intact. Als u ervoor kiest om niet opnieuw te activeren, moet u [een back-up maken van uw gegevens.](back-up-data-before-switching-plans.md)
+Als globale of factureringsbeheerder u [het abonnement opnieuw activeren](reactivate-your-subscription.md) en Microsoft 365 blijven gebruiken met al uw klantgegevens intact. Als u ervoor kiest om niet opnieuw te activeren, moet u [een back-up maken van uw gegevens.](back-up-data-before-switching-plans.md)
 
 ### <a name="state-deprovisioned"></a>Staat: Gedeprovisioneerd
   
@@ -186,15 +186,15 @@ Op dit moment u het abonnement niet opnieuw activeren. Als globale of facturerin
 
 ### <a name="what-happens-when-my-trial-ends"></a>Wat gebeurt er als mijn proefperiode eindigt?
 
-Wanneer uw proefperiode is afgelopen, u Office 365 niet gratis blijven gebruiken. Je hebt een paar opties:
+Wanneer uw proefperiode is afgelopen, u Microsoft 365 niet gratis blijven gebruiken. Je hebt een paar opties:
 
 ::: moniker range="o365-worldwide"
-- **Office 365 kopen.** Wanneer uw proefperiode verloopt, wordt deze omgezet in een respijtperiode, waardoor u nog eens 30 dagen (voor de meeste proefversies, in de meeste landen en regio's) office 365 kopen. Zie [Uw proefversie van Office 365 voor Bedrijven](../buy-a-subscription-from-your-free-trial.md)kopen voor meer informatie over het converteren van uw proefabonnement naar een betaald abonnement.
+- **Microsoft 365 kopen.** Wanneer uw proefperiode verloopt, wordt deze omgezet in een respijtperiode, waardoor u nog eens 30 dagen (voor de meeste proefversies, in de meeste landen en regio's) microsoft 365 kopen. Zie [Uw proefversie van Microsoft 365 voor bedrijven](../buy-a-subscription-from-your-free-trial.md)kopen voor meer informatie over het converteren van uw proefversie naar een betaald abonnement.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-- **Office 365 kopen.** Wanneer uw proefperiode verloopt, wordt deze omgezet in een respijtperiode, waardoor u nog eens 30 dagen (voor de meeste proefversies, in de meeste landen en regio's) office 365 kopen. Zie [Uw proefversie van Office 365 voor Bedrijven](../buy-a-subscription-from-your-free-trial.md)kopen voor meer informatie over het converteren van uw proefabonnement naar een betaald abonnement.
+- **Microsoft 365 kopen.** Wanneer uw proefperiode verloopt, wordt deze omgezet in een respijtperiode, waardoor u nog eens 30 dagen (voor de meeste proefversies, in de meeste landen en regio's) microsoft 365 kopen. Zie [Uw proefversie van Microsoft 365 voor bedrijven](../buy-a-subscription-from-your-free-trial.md)kopen voor meer informatie over het converteren van uw proefversie naar een betaald abonnement.
 
 ::: moniker-end
 
@@ -203,9 +203,9 @@ Wanneer uw proefperiode is afgelopen, u Office 365 niet gratis blijven gebruiken
 
 ::: moniker-end
 
-- **Verleng je proces.** Meer tijd nodig om Office 365 te evalueren? In bepaalde gevallen u [uw proces verlengen.](../extend-your-trial.md)
+- **Verleng je proces.** Meer tijd nodig om Microsoft 365 te evalueren? In bepaalde gevallen u [uw proces verlengen.](../extend-your-trial.md)
 
-- **Annuleer de proefperiode of laat deze verlopen.** Als u besluit Office 365 niet te kopen, u uw proefperiode laten verlopen of [annuleren.](cancel-your-subscription.md) Zorg ervoor dat u een back-up maakt van alle gegevens die u wilt bewaren. Kort na de respijtperiode van 30 dagen worden uw proefaccountgegevens en -gegevens permanent gewist.
+- **Annuleer de proefperiode of laat deze verlopen.** Als u besluit Microsoft 365 niet te kopen, u uw proefperiode laten verlopen of [annuleren.](cancel-your-subscription.md) Zorg ervoor dat u een back-up maakt van alle gegevens die u wilt bewaren. Kort na de respijtperiode van 30 dagen worden uw proefaccountgegevens en -gegevens permanent gewist.
 
 ## <a name="what-happens-if-i-cancel-a-subscription"></a>Wat gebeurt er als ik een abonnement opzeg?
 

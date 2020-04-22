@@ -16,12 +16,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: Gebruik het nieuwe beveiligingsdashboard om de status van Office 365-bedreigingsbeveiliging te controleren en beveiligingswaarschuwingen te bekijken en te reageren.
-ms.openlocfilehash: bade9f1a0060fcd08458bd28eb276a0543f5d815
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: 3b6d754505d0e23f1080520e66061b8f6fef523e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537399"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632515"
 ---
 # <a name="security-dashboard"></a>Beveiligingsdashboard
 
@@ -33,12 +33,12 @@ Bekijk de video om een overzicht te krijgen en lees dit artikel voor meer inform
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1VV3o]
 
-Afhankelijk van wat het Office 365-abonnement van uw organisatie bevat, bevat het Beveiligingsdashboard verschillende widgets, zoals Threat Management Summary, Threat Protection Status, Global Weekly Threat Detections, Malware en meer, zoals beschreven in de volgende secties.
+Afhankelijk van wat het abonnement van uw organisatie bevat, bevat het beveiligingsdashboard verschillende widgets, zoals Threat Management Summary, Threat Protection Status, Global Weekly Threat Detections, Malware en meer, zoals beschreven in de volgende secties.
 
-Ga naar Dashboard voor [&](../../compliance/go-to-the-securitycompliance-center.md) **beveiligingsbeheer**naar **Threat Management.** \>
+Ga naar **Dashboard voor beveiligingsbeheer** \> om het beveiligingsdashboard in het [Beveiligingscentrum & compliance](../../compliance/go-to-the-securitycompliance-center.md)te bekijken. **Dashboard**
 
 > [!NOTE]
-> U moet een globale office 365-beheerder, een beveiligingsbeheerder of een beveiligingslezer zijn om het beveiligingsdashboard te kunnen bekijken. Voor sommige widgets zijn extra machtigingen vereist om deze te bekijken. Zie [Machtigingen in het Office 365 Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie.
+> U moet een globale beheerder, een beveiligingsbeheerder of een beveiligingslezer zijn om het beveiligingsdashboard te kunnen bekijken. Voor sommige widgets zijn extra machtigingen vereist om deze te bekijken. Zie [Machtigingen in het Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie.
 
 ## <a name="threat-management-summary"></a>Samenvatting bedreigingsbeheer
 
@@ -61,7 +61,7 @@ De Threat Protection Status widget toont threat protection effectiviteit met een
 
 ![Statuswidget voor bedreigingsbescherming](../../media/tpswidget.png)
 
-De details zijn afhankelijk van de vraag of uw Office 365-abonnement [Exchange Online Protection](exchange-online-protection-eop.md) (EOP) met of zonder Office [365 Advanced Threat Protection](office-365-atp.md) (ATP) bevat.
+De details zijn afhankelijk van de vraag of uw Microsoft 365-abonnement [Exchange Online Protection](exchange-online-protection-eop.md) (EOP) met of zonder Office [365 Advanced Threat Protection](office-365-atp.md) (ATP) bevat.
 
 |||
 |---|---|
@@ -101,7 +101,7 @@ Inzichten komen niet alleen aan de oppervlakte van belangrijke kwesties die u mo
 
 ![Slimme inzichten](../../media/smartinsights.png)
 
-U ziet bijvoorbeeld dat phishing-e-mailberichten worden bezorgd omdat sommige gebruikers hun opties voor ongewenste e-mail hebben uitgeschakeld. Zie [Rapporten en inzichten in het Office 365-beveiligingscentrum & Compliance Center](reports-and-insights-in-security-and-compliance.md)voor meer informatie over hoe inzichten werken.
+U ziet bijvoorbeeld dat phishing-e-mailberichten worden bezorgd omdat sommige gebruikers hun opties voor ongewenste e-mail hebben uitgeschakeld. Zie [Rapporten en inzichten in het Security & Compliance Center](reports-and-insights-in-security-and-compliance.md)voor meer informatie over hoe inzichten werken.
 
 ## <a name="threat-investigation-and-response"></a>Onderzoek naar bedreigingen en respons
 
@@ -115,7 +115,7 @@ Onderaan het beveiligingsdashboard staat een sectie **Trends,** waarin de trends
 
 ![De sectie Trends geeft een overzicht van de trends in de e-mailstroom voor de organisatie](../../media/trends.png)
 
-En als het Office 365-abonnement van uw organisatie [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md)bevat, beschikt u in dit gedeelte ook over een rapport over recente waarschuwingen voor **bedreigingsbeheer** waarmee uw beveiligingsteam beveiligingswaarschuwingen met hoge prioriteit kan bekijken en uitvoeren.
+En als het abonnement van uw organisatie [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md)bevat, beschikt u in dit gedeelte ook over een rapport met recente **waarschuwingen voor waarschuwingen** voor bedreigingenbeheer waarmee uw beveiligingsteam beveiligingswaarschuwingen met hoge prioriteit kan bekijken en uitvoeren.
 
 Als u de widget Verzonden en ontvangen e-mail wilt bekijken of openen, moet u machtigingen hebben om rapporten over geavanceerde bedreigingsbeveiliging te bekijken. Zie [Welke machtigingen nodig zijn om de ATP-rapporten te bekijken voor](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)meer informatie.
 

@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Gebruik deze Test Lab-handleiding om extra Microsoft 365-beveiligingsinstellingen in te schakelen in uw Microsoft 365 Enterprise-testomgeving.
-ms.openlocfilehash: 166388de138f5268eb29b8a427bad61ec6ab7cda
-ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
+ms.openlocfilehash: 53205f0626ce55c5a9627339f3631964e3374a19
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43058879"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631667"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-enterprise-test-environment"></a>Verbeterde Microsoft 365-beveiliging voor uw Microsoft 365 Enterprise-testomgeving
 
@@ -30,9 +30,9 @@ Met de instructies in dit artikel configureert u extra Microsoft 365-instellinge
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de Microsoft 365 Enterprise Test Lab Guide stack.
+> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart met alle artikelen over de Microsoft 365 Enterprise-testlabrichtlijnen.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: Uw Microsoft 365 Enterprise-testomgeving uitbouwen
+## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: uw Microsoft 365 Enterprise-testomgeving uitbouwen
 
 Als u alleen de verbeterde Microsoft 365-beveiliging op een lichtgewicht manier wilt configureren met de minimale vereisten, volgt u de instructies in [lichtgewicht basisconfiguratie.](lightweight-base-configuration-microsoft-365-enterprise.md)
   
@@ -43,7 +43,7 @@ Als u de verbeterde Microsoft 365-beveiliging in een gesimuleerde onderneming wi
 
 ## <a name="phase-2-configure-increased-microsoft-365-security"></a>Fase 2: Verbeterde Microsoft 365-beveiliging configureren
 
-In deze fase schakelt u meer Microsoft 365-beveiliging in voor uw Microsoft 365 Enterprise-testomgeving. Zie [Uw Office 365-tenant configureren voor meer beveiliging voor](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)meer informatie en instellingen.
+In deze fase schakelt u meer Microsoft 365-beveiliging in voor uw Microsoft 365 Enterprise-testomgeving. Zie [Uw tenant configureren voor meer beveiliging voor](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)meer informatie en instellingen.
 
 ### <a name="configure-sharepoint-online-to-block-apps-that-dont-support-modern-authentication"></a>SharePoint Online configureren om apps te blokkeren die geen moderne verificatie ondersteunen
 
@@ -64,7 +64,7 @@ Apps die geen moderne verificatie ondersteunen, kunnen geen [identiteits- en app
 
 Office 365 Advanced Threat Protection (ATP) voor SharePoint, OneDrive en Microsoft Teams beschermt uw organisatie tegen het per ongeluk delen van schadelijke bestanden.
 
-1. Ga naar het [Office 365 Security & Compliance Center](https://protection.office.com) en meld u aan met uw wereldwijde beheerdersaccount.
+1. Ga naar het [Security & Compliance Center](https://protection.office.com) en meld u aan met uw wereldwijde beheerdersaccount.
 
 2. Klik in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**op **Beleid**en klik vervolgens op **VEILIGE BIJLAGEN van ATP**. 
 
@@ -94,7 +94,7 @@ Met Office 365-bedreigingsbeheer u de toegang van mobiele apparaten tot de gegev
 
 Ga als u op het beveiligingsdashboard:
 
-1. Ga indien nodig naar het [Office 365 Security & Compliance Center](https://protection.office.com) en meld u aan met uw wereldwijde beheerdersaccount.
+1. Ga indien nodig naar het [Security & Compliance Center](https://protection.office.com) en meld u aan met uw wereldwijde beheerdersaccount.
 
 2. Klik in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**op **Dashboard**.
 

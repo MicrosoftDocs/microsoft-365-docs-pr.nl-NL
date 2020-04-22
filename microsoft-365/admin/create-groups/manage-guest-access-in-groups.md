@@ -1,5 +1,5 @@
 ---
-title: Gasttoegang beheren in Office 365-groepen
+title: Gasttoegang beheren in Microsoft 365-groepen
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -17,23 +17,23 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
-description: Meer informatie over het toevoegen van gasten aan een Office 365-groep, het weergeven van gastgebruikers en het gebruik van PowerShell om de toegang van gasten te beheren.
-ms.openlocfilehash: e76718ccb20843b252c939be48653c61c7c1f0a9
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: Meer informatie over het toevoegen van gasten aan een Microsoft 365-groep, het bekijken van gastgebruikers en het gebruik van PowerShell om de toegang van gasten te beheren.
+ms.openlocfilehash: cca1d3dff4d95f5b15b9f18d5eeebcf054e52fe3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894501"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630065"
 ---
-# <a name="manage-guest-access-in-office-365-groups"></a>Gasttoegang beheren in Office 365-groepen
+# <a name="manage-guest-access-in-microsoft-365-groups"></a>Gasttoegang beheren in Microsoft 365-groepen
 
-Standaard is gasttoegang voor Office 365-groepen ingeschakeld voor uw organisatie. Beheerders kunnen bepalen of gasten toegang moeten krijgen tot groepen voor hun hele organisatie of voor afzonderlijke groepen.
+Standaard is gasttoegang voor Microsoft 365-groepen ingeschakeld voor uw organisatie. Beheerders kunnen bepalen of gasten toegang moeten krijgen tot groepen voor hun hele organisatie of voor afzonderlijke groepen.
 
-Wanneer deze is ingeschakeld, kunnen groepsleden gastgebruikers uitnodigen voor een Office 365-groep via Outlook on Web. Uitnodigingen worden ter goedkeuring naar de eigenaar van de groep gestuurd.
+Wanneer de groep is ingeschakeld, kunnen groepsleden gastgebruikers uitnodigen voor een Microsoft 365-groep via Outlook on Web. Uitnodigingen worden ter goedkeuring naar de eigenaar van de groep gestuurd.
 
 > [!Note]
 > Yammer Enterprise-netwerken die zich in de native modus of de [EU Geo bevinden,](https://go.microsoft.com/fwlink/?linkid=2107357) bieden geen ondersteuning voor netwerkgasten.
-> Office 365 Connected Yammer-groepen bieden momenteel geen ondersteuning voor gasttoegang, maar u niet-verbonden externe groepen maken in uw Yammer-netwerk. Zie [Externe groepen maken en beheren in Yammer](https://support.office.com/article/9ccd15ce-0efc-4dc1-81bc-4a424ab6f92a.aspx) voor instructies.
+> Microsoft 365 Connected Yammer-groepen bieden momenteel geen ondersteuning voor gasttoegang, maar u niet-verbonden externe groepen maken in uw Yammer-netwerk. Zie [Externe groepen maken en beheren in Yammer](https://support.office.com/article/9ccd15ce-0efc-4dc1-81bc-4a424ab6f92a.aspx) voor instructies.
 
 ### <a name="edit-guest-information"></a>Gastgegevens bewerken
 
@@ -48,11 +48,11 @@ Gasttoegang in groepen wordt vaak gebruikt als onderdeel van een breder scenario
 
 Als u gasttoegang in groepen wilt in- of uitschakelen, u dit doen in het Microsoft 365-beheercentrum.
 
-1. Ga in het beheercentrum naar de **instellingen** \> **instellingen** en selecteer **Office 365-groepen**.
+1. Ga in het beheercentrum naar de **instellingen** \> **instellingen** en selecteer **Microsoft 365-groepen**.
   
-2. Kies op de pagina **Office 365-groepen** of u mensen buiten uw organisatie toegang wilt geven tot groepsbronnen of groepseigenaren mensen buiten uw organisatie aan groepen wilt laten toevoegen.
+2. Kies op de pagina **Microsoft 365-groepen** of u mensen buiten de groepresources van uw organisatie toegang wilt geven of groepseigenaren mensen buiten uw organisatie aan groepen wilt laten toevoegen.
 
-## <a name="add-guests-to-an-office-365-group-from-the-admin-center"></a>Gasten toevoegen aan een Office 365-groep vanuit het beheercentrum
+## <a name="add-guests-to-a-microsoft-365-group-from-the-admin-center"></a>Gasten toevoegen aan een Microsoft 365-groep vanuit het beheercentrum
 
 Als de gast al in uw directory aanwezig is, u deze toevoegen aan uw groepen vanuit het Microsoft 365-beheercentrum.
   

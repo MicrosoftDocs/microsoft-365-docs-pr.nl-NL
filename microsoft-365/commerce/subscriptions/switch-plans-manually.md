@@ -1,5 +1,5 @@
 ---
-title: Handmatig overstappen op een ander abonnement voor Office 365 voor Bedrijven
+title: Microsoft 365 handmatig overschakelen voor bedrijfsabonnementen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,21 +21,19 @@ search.appverid:
 - BEA160
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
-description: Schakel handmatig over van Office 365 voor Bedrijven-abonnementen door een nieuw abonnement aan te schaffen en ervoor te zorgen dat beide abonnementen worden vermeld en actief.
-ms.openlocfilehash: a652053b204e84f8f2d3973eba76ead1cc7c1410
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+description: Schakel Microsoft 365 voor zakelijke abonnementen handmatig over door een nieuw abonnement aan te schaffen en ervoor te zorgen dat beide abonnementen worden vermeld en actief.
+ms.openlocfilehash: e5245e333984c9d8e67b174f10cf48b2339348de
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43540841"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636532"
 ---
-# <a name="switch-office-365-for-business-plans-manually"></a>Handmatig overstappen op een ander abonnement voor Office 365 voor Bedrijven
+# <a name="switch-microsoft-365-for-business-plans-manually"></a>Microsoft 365 handmatig overschakelen voor bedrijfsabonnementen
 
 ::: moniker range="o365-worldwide"
-
 > [!NOTE]
-> Dit artikel is van toepassing op het oude beheercentrum. Zie [Plannen handmatig wijzigen](change-plans-manually.md)als u het artikel over het nieuwe beheercentrum wilt bekijken. Het nieuwe beheercentrum is beschikbaar voor alle Microsoft 365-beheerders. Zie [Informatie over het nieuwe Microsoft 365-beheercentrum voor](../../admin/microsoft-365-admin-center-preview.md)meer informatie.
-
+> Dit artikel is van toepassing op het oude beheercentrum. Zie [Plannen handmatig wijzigen](change-plans-manually.md)als u het artikel over het nieuwe beheercentrum wilt bekijken. Het nieuwe beheercentrum is beschikbaar voor alle Microsoft 365-beheerders en u zich aanmelden door de schakel **van het nieuwe beheercentrum** boven aan de startpagina uit te schakelen. Zie [Informatie over het nieuwe Microsoft 365-beheercentrum voor](../../admin/microsoft-365-admin-center-preview.md)meer informatie.
 ::: moniker-end
 
 ## <a name="step-1-decide-how-to-switch-plans"></a>Stap 1: Beslissen hoe u van abonnement wisselt
@@ -54,13 +52,13 @@ Lees [Stap 2: Koop een nieuw abonnement](#step-2-buy-a-new-subscription) in dit 
 
  **Al een abonnement gekocht?** Als u al een abonnement hebt waarnaar u gebruikers wilt verplaatsen, slaat u deze stap over en gaat u naar [Stap 3: Controleer uw nieuwe abonnement en licenties](#step-3-check-your-new-subscription-and-licenses) in dit onderwerp.
   
-- OF -
+- -OF-
   
- **Koop een nieuw abonnement en licenties:** volg de stappen in [Buy another Office 365 for business subscription](../buy-another-subscription.md) (Nog een abonnement van Office 365 voor Bedrijven kopen) als u een nieuw abonnement wilt kopen.
+ **Koop een nieuw abonnement en licenties:** Volg de stappen in [Een ander Microsoft 365 voor zakelijk abonnement](../buy-another-subscription.md) kopen om een nieuw abonnement te kopen.
   
 Het is belangrijk dat u een licentie koopt voor de organisatie waarvan de gebruikers nu ook deel uitmaken. Controleer bijvoorbeeld de e-mailadressen voor de gebruikers die u wilt verplaatsen. Als hun e-mailadressen bijvoorbeeld eindigen op @contoso.com, moet u een nieuw abonnement kopen voor contoso.com. Koop ook een licentie voor elke gebruiker die u wilt verplaatsen.
   
- **Als u hulp nodig hebt bij het kiezen van een abonnement,** raadpleegt u de [productvergelijkingspagina van Office 365 voor Bedrijven](https://go.microsoft.com/fwlink/p/?linkid=842056) of [belt u ondersteuning.](../../admin/contact-support-for-business-products.md)
+ **Als u hulp nodig hebt bij het kiezen van een abonnement,** raadpleegt u de pagina [Microsoft 365 voor zakelijke productvergelijking](https://go.microsoft.com/fwlink/p/?linkid=842056) of [belondersteuning](../../admin/contact-support-for-business-products.md).
   
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>Stap 3: Controleer uw nieuwe abonnement en licenties
 
@@ -86,7 +84,7 @@ Het is belangrijk dat u een licentie koopt voor de organisatie waarvan de gebrui
 
     Het abonnement waarnaar u gebruikers wilt verplaatsen en het abonnement waaruit u gebruikers wilt verplaatsen, moeten beide worden vermeld. Als u het nieuwe abonnement niet ziet, wacht u een tijdje en kijkt u dan nog een keer. Controleer of beide abonnementen worden vermeld onder **ACTIEF**. [Het nieuwe abonnement wordt niet vermeld of is niet actief](#the-new-subscription-isnt-listed-or-isnt-active).
 
-   **Het nieuwe abonnement van Office 365 Business met beschikbare licenties**
+   **Het nieuwe Microsoft 365 voor bedrijven-abonnement met beschikbare licenties**
 
     ![The subscription page showing the number of licenses for the new subscription.](../../media/65a73e96-7c95-4daa-b6ec-71a4bf74dda5.png)
   
@@ -94,7 +92,7 @@ Het is belangrijk dat u een licentie koopt voor de organisatie waarvan de gebrui
 
     Elke gebruiker moet een licentie hebben die overeenkomt met het afgesloten abonnement. Als u bijvoorbeeld tien gebruikers wilt overbrengen naar Office 365 Enterprise E5, moeten er tien licenties beschikbaar zijn. In deze afbeelding zijn er tien licenties gekocht voor Office 365 Enterprise E5, en alle tien de licenties zijn beschikbaar voor toewijzing.
 
-4. **Meer licenties nodig voor het nieuwe abonnement?** Ga naar de pagina **Abonnementen** en [Licenties kopen voor uw abonnement op Office 365 voor Bedrijven](../licenses/buy-licenses.md).
+4. **Meer licenties nodig voor het nieuwe abonnement?** Ga naar de pagina **Abonnementen** en [Licenties kopen voor uw Microsoft 365 voor bedrijvenabonnement](../licenses/buy-licenses.md).
   
     [Hoe zit het met de oude licenties?](#what-about-the-old-licenses)
 

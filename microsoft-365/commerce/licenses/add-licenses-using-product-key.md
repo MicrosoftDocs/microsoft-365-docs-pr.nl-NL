@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53
 ROBOTS: NOINDEX
 description: Meer informatie over het toevoegen van licenties aan uw abonnement.
-ms.openlocfilehash: aa924c3c485f33fa831d140413ebfd2d872f30ff
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 694b8ac57e28bbe6b03e5f8aeef87bda1bcc73ba
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142237"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632423"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>Licenties toevoegen aan of verlengen van een abonnement dat is betaald voor het gebruik van een productcode
 
@@ -41,6 +41,7 @@ Vooruitbetaalde gebruikerslicenties worden aan u verstrekt in de vorm van een al
 ## <a name="add-licenses-to-your-subscription"></a>Licenties toevoegen aan uw abonnement
 
 ::: moniker range="o365-worldwide"
+
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
 
@@ -98,6 +99,7 @@ Vooruitbetaalde gebruikerslicenties worden aan u verstrekt in de vorm van een al
 ## <a name="extend-the-expiration-date-of-your-subscription"></a>De vervaldatum van uw abonnement verlengen
 
 ::: moniker range="o365-worldwide"
+
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
 

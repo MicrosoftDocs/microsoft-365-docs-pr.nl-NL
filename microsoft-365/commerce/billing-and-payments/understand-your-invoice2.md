@@ -1,5 +1,5 @@
 ---
-title: Uw factuur voor Office 365 voor Bedrijven
+title: Uw factuur voor Microsoft 365 voor Bedrijven begrijpen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,15 +23,15 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
-description: Lees hoe u de kosten, facturerings- en betalingsgegevens op uw Office 365 voor Bedrijven-factuur interpreteert en hoe u het ordernummer van de aankoop wijzigt.
-ms.openlocfilehash: 152b5d888b8773e2e60cea8584417e47ee58c47f
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+description: Lees hoe u de kosten, facturering en betalingsgegevens op uw Microsoft 365 voor zakelijke factuur interpreteert en hoe u het ordernummer van de aankoop wijzigt.
+ms.openlocfilehash: 392957ecf06c6200bca3daf205946f5b8fd1563a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142297"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634966"
 ---
-# <a name="understand-your-invoice-for-office-365-for-business"></a>Uw factuur voor Office 365 voor Bedrijven
+# <a name="understand-your-invoice-for-microsoft-365-for-business"></a>Uw factuur voor Microsoft 365 voor Bedrijven begrijpen
 
 Elke maand ontvangt u een e-mail waarin staat dat uw nieuwe factuuroverzicht beschikbaar is in het beheercentrum. [Ontdek hoe u uw rekening of factuur kunt vinden en bekijken](view-your-bill-or-invoice.md).
   
@@ -138,6 +138,6 @@ Als u per factuur betaalt, kunt u het IO-nummer (inkooporder) toevoegen aan of w
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Uw Office 365 voor Bedrijven-abonnement betalen](pay-for-your-subscription.md)
+[Betalen voor uw Microsoft 365 voor Bedrijven-abonnement](pay-for-your-subscription.md)
 
 [Betalingsopties voor Minecraft: Education Edition](https://go.microsoft.com/fwlink/p/?linkid=838761)

@@ -1,5 +1,5 @@
 ---
-title: 'Stap 7: Privileged Access Management configureren voor Office 365'
+title: 'Stap 7: Privileged Access Management configureren'
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -14,41 +14,41 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 ms.custom: ''
-description: Beheer van bevoegde toegang voor Office 365 begrijpen en configureren.
-ms.openlocfilehash: f29b1e0934a4b9a6d4e3347584f39423d446ed58
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Begreep en configureer privileged access management.
+ms.openlocfilehash: 4fed4daacc17a34563825bf0575880ce06ec6ebd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42808416"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636986"
 ---
-# <a name="step-7-configure-privileged-access-management-for-office-365"></a>Stap 7: Privileged Access Management configureren voor Office 365
+# <a name="step-7-configure-privileged-access-management"></a>Stap 7: Privileged Access Management configureren
 
 *Deze stap is optioneel en geldt alleen voor de E5- en Advanced Compliance-versies van Microsoft 365 Enterprise*
 
-![Fase 6: Informatiebescherming](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Fase 6: gegevensbescherming](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
-Privileged access management is ingeschakeld door beleid te configureren dat just-in-time toegang opgeeft voor taakgebaseerde activiteiten in uw Office 365-tenant. Het kan uw organisatie beschermen tegen inbreuken die bestaande bevoegde beheerdersaccounts kunnen gebruiken met permanente toegang tot gevoelige gegevens of toegang tot kritieke configuratie-instellingen. U bijvoorbeeld een beleid voor beheer van privileged access configureren waarvoor expliciete goedkeuring vereist is voor toegang tot en wijziging van de instellingen van het organalaatpostvak in uw Office 365-tenant.
+Privileged access management is ingeschakeld door beleid te configureren dat just-in-time toegang opgeeft voor taakgebaseerde activiteiten in uw tenant. Deze functie kan helpen uw organisatie te beschermen tegen inbreuken die mogelijk bestaande geprivilegieerde beheerdersaccounts gebruiken met permanente toegang tot gevoelige gegevens of toegang tot belangrijker configuratie-instellingen. U bijvoorbeeld een beleid voor beheer van privileged access configureren waarvoor expliciete goedkeuring vereist is voor toegang tot en wijziging van de instellingen van het organisatiepostvak in uw tenant.
 
-In deze stap schakelt u privileged access management in uw Office 365-tenant in en configureert u beleid voor bevoegde toegang dat extra beveiliging biedt voor taakgebaseerde toegang tot Office 365-gegevens en configuratie-instellingen voor uw organisatie. Er zijn drie basisstappen om aan de slag te gaan met bevoorrechte toegang in uw Office 365-organisatie:
-- De groep van een goedkeurder maken
-- Bevoorrechte toegang inschakelen
+In deze stap schakelt u privileged access management in uw tenant in en configureert u beleid voor bevoegde toegang dat extra beveiliging biedt voor taakgebaseerde toegang tot gegevens en configuratie-instellingen voor uw organisatie. Er zijn drie basisstappen om aan de slag te gaan met bevoorrechte toegang in uw organisatie:
+- Een groep met fiatteurs maken
+- Geprivilegieerde toegang inschakelen
 - Goedkeuringsbeleid maken
 
-Een geconfigureerd, geprivilegieerd toegangsbeheer stelt uw organisatie in staat om te werken met nul permanente bevoegdheden en biedt een laag van verdediging tegen kwetsbaarheden die ontstaan als gevolg van dergelijke permanente administratieve toegang. Voor bevoorrechte toegang zijn goedkeuringen vereist voor het uitvoeren van een taak waarvoor een bijbehorend goedkeuringsbeleid is gedefinieerd. Gebruikers die taken moeten uitvoeren die zijn opgenomen in het goedkeuringsbeleid, moeten toegangsgoedkeuring aanvragen en krijgen om machtigingen te hebben die nodig zijn om taken uit te voeren die in het beleid zijn gedefinieerd.
+Als geprivilegieerd toegangsbeheer is geconfigureerd, kan uw organisatie opereren zonder permanente bevoegdheden en een verdedigingslaag bieden tegen kwetsbaarheden die voortkomen uit dergelijke permanente beheerderstoegang. Geprivilegieerde toegang vereist goedkeuring voor het uitvoeren van taken met een bijbehorend goedkeuringsbeleid. Gebruikers die taken moeten uitvoeren die zijn opgenomen in het goedkeuringsbeleid, moeten toestemming voor toegang aanvragen en krijgen om de machtigingen te krijgen die nodig zijn om de taken, die zijn gedefinieerd in het beleid, uit te voeren.
 
-Zie Het onderwerp Privileged Access Management [configureren in Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) als u office 365-toegangsbeheer wilt inschakelen.
+Zie het onderwerp Privileged [Access Management configureren](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) als u privileged access management wilt inschakelen.
 
-Zie het onderwerp [Privileged access management in Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview) voor meer informatie.
+Zie het onderwerp [Privileged access management](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview) voor meer informatie.
 
 
 |||
 |:-------|:-----|
-|![Lab-handleidingen testen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  Zie de Test Lab Guide voor [privileged access management](privileged-access-microsoft-365-enterprise-dev-test-environment.md)voor deze configuratie in een testlabomgeving. |
+|![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  Zie de [Testlabrichtlijn geprivilegieerd toegangsbeheer](privileged-access-microsoft-365-enterprise-dev-test-environment.md) om deze configuratie in een testlab-omgeving te oefenen. |
 |||
 
-Zie als tussencontrole de [exitcriteria](infoprotect-exit-criteria.md#crit-infoprotect-step7) die overeenkomen met deze stap.
+Zie de [afsluitcriteria](infoprotect-exit-criteria.md#crit-infoprotect-step7) voor deze stap als tussentijds controlepunt.
 
 ## <a name="next-step"></a>Volgende stap
 
-[Criteria voor het verlaten van informatiebeschermingsinfrastructuur](infoprotect-exit-criteria.md)
+[Uitgangscriteria voor de infrastructuur voor gegevensbeveiliging](infoprotect-exit-criteria.md)

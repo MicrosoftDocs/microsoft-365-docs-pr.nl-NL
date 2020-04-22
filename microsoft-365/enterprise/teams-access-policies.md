@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 28d0893d08e588e52cf202be8d03b00434f7cb10
-ms.sourcegitcommit: c079cc893cd1bd5d894b13814063a2f42238806e
+ms.openlocfilehash: f1a4a4ea69efc3c68bdc8ed66aa18833a28feb94
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43035097"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636721"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Beleidsaanbevelingen voor het beveiligen van Teams-chats, -groepen en -bestanden
 
@@ -33,9 +33,9 @@ Aanvullende aanbevelingen die specifiek zijn voor de implementatie van Teams zij
 
 ## <a name="getting-started-with-teams-before-other-dependent-services"></a>Aan de slag met Teams voor andere afhankelijke services
 
-U hoeft afhankelijke services niet in te schakelen om aan de slag te gaan met Microsoft Teams. Deze zullen allemaal 'gewoon werken'. U moet echter wel bereid zijn om het volgende te beheren:
+U hoeft afhankelijke services niet in te schakelen om aan de slag te gaan met Microsoft Teams. Deze zullen allemaal "gewoon werken." U moet echter wel bereid zijn om het volgende te beheren:
 
-- Office 365-groepen
+- Microsoft 365-groepen
 - SharePoint-teamsites
 - OneDrive voor Bedrijven
 - Postvakken
@@ -84,7 +84,7 @@ In Azure AD zijn gast- en externe gebruikers hetzelfde. Het gebruikerstype voor 
 
 ### <a name="guest-access-in-teams"></a>Gasttoegang in teams
 
-Naast het beleid voor gebruikers die intern zijn in uw bedrijf of organisatie, kunnen beheerders gasttoegang verlenen om per gebruiker mensen toe te staan die zich buiten uw bedrijf of organisatie bevinden om toegang te krijgen tot Teams-bronnen en te communiceren met interne mensen voor zaken als groepsgesprekken, chat en vergaderingen. Meer informatie over gasttoegang vindt u via de volgende link: [Teams gasttoegang](https://docs.microsoft.com/microsoftteams/guest-access)
+Naast het beleid voor gebruikers die intern zijn in uw bedrijf of organisatie, kunnen beheerders gasttoegang toestaan om per gebruiker mensen die zich buiten uw bedrijf of organisatie bevinden, toegang te geven tot Teams-bronnen en interactie te hebben met interne mensen voor zaken als groepsgesprekken, chat en vergaderingen. Meer informatie over gasttoegang vindt u via de volgende link: [Teams gasttoegang](https://docs.microsoft.com/microsoftteams/guest-access)
 
 ### <a name="external-access-in-teams"></a>Externe toegang in Teams
 

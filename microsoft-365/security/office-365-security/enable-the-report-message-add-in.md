@@ -1,5 +1,5 @@
 ---
-title: De invoegtoepassing Rapportbericht inschakelen
+title: De invoegtoepassing Bericht rapporteren inschakelen
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,17 +16,17 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het inschakelen van de invoegtoepassing Bericht rapport voor de webversie van Outlook en Outlook, voor individuele gebruikers of uw hele organisatie.
-ms.openlocfilehash: c160e928c9a46dd4dc360c5e61d70ca401430378
-ms.sourcegitcommit: a86787b62cec95a392ff2b933f5dc44334ceb7e9
+ms.openlocfilehash: 101a37f48e31f762171b2269055d0e69c889d0dc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43061739"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633297"
 ---
-# <a name="enable-the-report-message-add-in-in-office-365"></a>De invoegtoepassing Rapportbericht inschakelen in Office 365
+# <a name="enable-the-report-message-add-in"></a>De invoegtoepassing Bericht rapporteren inschakelen
 
 > [!NOTE]
-> Als u een beheerder bent in een Office 365-organisatie met Exchange Online-postvakken, raden we u aan de portal Inzendingen te gebruiken in het Office 365 Security & Compliance Center. Zie [Het indienen van beheerders gebruiken om vermoedelijke spam, phish, URL's en bestanden in te dienen bij Microsoft.](admin-submission.md)
+> Als u een beheerder bent in een organisatie met Exchange Online-postvakken, raden we u aan de portal Inzendingen te gebruiken in het Beveiligings- & Compliance Center. Zie [Het indienen van beheerders gebruiken om vermoedelijke spam, phish, URL's en bestanden in te dienen bij Microsoft.](admin-submission.md)
 
 Met de invoegtoepassing Rapportbericht voor Outlook en Outlook op het web (voorheen Outlook Web App) kunnen mensen eenvoudig valse positieven (goede e-mail gemarkeerd als slecht) of valse negatieven (slechte e-mail toegestaan) melden aan Microsoft en haar gelieerde ondernemingen voor analyse. Microsoft gebruikt deze inzendingen om de effectiviteit van e-mailbeveiligingstechnologieën te verbeteren.
 
@@ -38,16 +38,16 @@ Beheerders kunnen de invoegtoepassing Rapportbericht voor de organisatie inschak
 
 Als u een individuele gebruiker bent, u [de invoegtoepassing Bericht melden voor uzelf inschakelen.](#get-the-report-message-add-in-for-yourself)
 
-Als u een globale office 365-beheerder of een Exchange Online-beheerder bent en Exchange is geconfigureerd om OAuth-verificatie te gebruiken, u [de invoegtoepassing Bericht melden voor uw organisatie inschakelen.](#get-and-enable-the-report-message-add-in-for-your-organization) De invoegtoepassing Rapportbericht is nu beschikbaar via [gecentraliseerde implementatie.](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins)
+Als u een globale beheerder of een Exchange Online-beheerder bent en Exchange is geconfigureerd om OAuth-verificatie te gebruiken, u [de invoegtoepassing Bericht rapport voor uw organisatie inschakelen.](#get-and-enable-the-report-message-add-in-for-your-organization) De invoegtoepassing Rapportbericht is nu beschikbaar via [gecentraliseerde implementatie.](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- De invoegtoepassing Rapportbericht werkt met de meeste Office 365-abonnementen en de volgende producten:
+- De invoegtoepassing Rapportbericht werkt met de meeste Microsoft 365-abonnementen en de volgende producten:
 
   - De webversie van Outlook
   - Outlook 2013 SP1 of hoger
   - Outlook 2016 voor Mac
-  - Outlook inbegrepen bij Office 365 ProPlus
+  - Outlook opgenomen in Microsoft 365-apps voor Enterprise
 
 - De invoegtoepassing Rapportbericht is momenteel niet beschikbaar voor:
 
@@ -58,7 +58,7 @@ Als u een globale office 365-beheerder of een Exchange Online-beheerder bent en 
 
 - Voor organisatorische installaties moet de organisatie worden geconfigureerd om OAuth-verificatie te gebruiken. Zie [Bepalen of gecentraliseerde implementatie van invoegingen voor uw organisatie werkt](../../admin/manage/centralized-deployment-of-add-ins.md)voor meer informatie.
 
-- Beheerders moeten lid zijn van de rolgroep Globale beheerders. Zie [Machtigingen in het Office 365 Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie.
+- Beheerders moeten lid zijn van de rolgroep Globale beheerders. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
 ## <a name="get-the-report-message-add-in-for-yourself"></a>De invoegtoepassing Rapportbericht zelf opvragen
 
@@ -70,7 +70,7 @@ Als u een globale office 365-beheerder of een Exchange Online-beheerder bent en 
 
 3. Bekijk in het dialoogvenster dat wordt weergegeven de gebruiksvoorwaarden en het privacybeleid en klik op **Doorgaan**.
 
-4. Meld u aan bij Office 365 met uw werk- of schoolaccount (voor zakelijk gebruik) of uw Microsoft-account (voor persoonlijk gebruik).
+4. Meld u aan met uw werk- of schoolaccount (voor zakelijk gebruik) of uw Microsoft-account (voor persoonlijk gebruik).
 
 Nadat de invoegtoepassing is geïnstalleerd en ingeschakeld, ziet u de volgende pictogrammen:
 

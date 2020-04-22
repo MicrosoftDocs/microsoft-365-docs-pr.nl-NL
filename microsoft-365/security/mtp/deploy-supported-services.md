@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 1441790bfa0c587c4abceb87eb1e4daae6e4d157
-ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
+ms.openlocfilehash: c29027bb641530ba2d3c7a22c578770c098f53ba
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521478"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633469"
 ---
 # <a name="deploy-supported-services"></a>Ondersteunde services implementeren
 
@@ -62,7 +62,7 @@ In de onderstaande tabel wordt beschreven hoe elke ondersteunde service aanvulle
 | Service | Gegevens (signalen & gecorreleerde informatie) | Herstel & reactiebereik |
 | ------ | ------ | ------ |
 | Microsoft Defender ATP | - Eindpuntstaten en ruwe gebeurtenissen<br />- Endpoint detecties en waarschuwingen, waaronder antivirus, EDR, aanval oppervlakte reductie<br />- Informatie over bestanden en andere entiteiten waargenomen op eindpunten | Eindpunten |
-| Office 365 ATP | - Post- en postvakstatuss en onbewerkte gebeurtenissen<br />- Detecties via e-mail, bijlage en koppeling | - Brievenbussen<br />- Office 365-accounts |
+| Office 365 ATP | - Post- en postvakstatuss en onbewerkte gebeurtenissen<br />- Detecties via e-mail, bijlage en koppeling | - Brievenbussen<br />- Microsoft 365-accounts |
 | Azure ATP | - Active Directory-signalen, inclusief verificatiegebeurtenissen<br />- Identiteitsgerelateerde gedragsdetecties | Identiteiten |
 | Microsoft Cloud App Security | - Detectie van niet-goedgekeurde cloud-apps en -services (schaduw-IT)<br />- Blootstelling van gegevens aan cloud-apps<br />- Bedreigingsactiviteit in verband met cloud-apps | Cloud-apps |
 
@@ -81,7 +81,7 @@ Zodra u de ondersteunde services hebt geïmplementeerd, [schakelt u Microsoft Th
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 - [Overzicht van Microsoft Threat Protection](microsoft-threat-protection.md)
-- [Microsoft-bedreigingsbeveiliging inschakelen](mtp-enable.md)
+- [Microsoft Threat Protection inschakelen](mtp-enable.md)
 - [Overzicht van Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - [Overzicht van Office 365 ATP](../office-365-security/office-365-atp.md)
 - [Overzicht van Microsoft Cloud App-beveiliging](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)

@@ -1,5 +1,5 @@
 ---
-title: Volgorde en voorrang van e-mailbeveiliging in Office 365
+title: Volgorde en voorrang van e-mailbeveiliging
 keywords: beveiliging, malware, Microsoft 365, M365, beveiligingscentrum, ATP, Microsoft Defender ATP, Office 365 ATP, Azure ATP
 f1.keywords:
 - NOCSH
@@ -14,16 +14,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Beschrijft de toepassingsvolgorde van Office 365-beveiligingen en hoe de prioriteitswaarde in beveiligingsbeleid bepaalt welk beleid wordt toegepast.
-ms.openlocfilehash: 6a95c59a5cd629b704753c6c05c9b8069d9240b1
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: ed4806bad6299dc5a5380bec2f6e1247f9d6b448
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537411"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633964"
 ---
-# <a name="order-and-precedence-of-email-protection-in-office-365"></a>Volgorde en voorrang van e-mailbeveiliging in Office 365
+# <a name="order-and-precedence-of-email-protection"></a>Volgorde en voorrang van e-mailbeveiliging
 
-In Office 365 wordt binnenkomende e-mail geëvalueerd door en kan daarom worden gemarkeerd door meerdere vormen van bescherming (malware, spam, phishing, enz.). Gezien al deze activiteiten kan het moeilijk zijn om te bepalen welk beleid is toegepast en in welke volgorde.
+Als Microsoft 365-gebruiker kan uw binnenkomende e-mail worden gemarkeerd door meerdere vormen van bescherming. Bijvoorbeeld het ingebouwde EOP-antiphishingbeleid dat beschikbaar is voor alle Microsoft 365-klanten en het robuustere ATP-antiphishingbeleid dat ook beschikbaar is voor klanten van Office 365 Advanced Threat Protection. Berichten passeren ook meerdere detectiescans voor malware, spam, phishing, enz. Gezien al deze activiteiten kan er enige verwarring bestaan over welk beleid wordt toegepast.
 
 In het algemeen wordt een beleid dat op een bericht wordt toegepast, geïdentificeerd in de header **X-Forefront-Antispam-Report** in de eigenschap **CAT (Categorie).** Zie [Kopteksten voor antispamberichten](anti-spam-message-headers.md)voor meer informatie.
 

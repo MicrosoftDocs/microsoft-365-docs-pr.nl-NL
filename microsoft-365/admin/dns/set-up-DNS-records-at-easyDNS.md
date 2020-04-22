@@ -1,5 +1,5 @@
 ---
-title: DNS-records maken bij easyDNS voor Office 365
+title: DNS-records maken bij easyDNS voor Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -18,21 +18,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 446babfe-2e08-4cc2-bbfb-c05b854933ac
-description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij easyDNS voor Office 365.
-ms.openlocfilehash: 9d48896de8f841863e25929a46b2f1d2e1b3ced2
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij easyDNS voor Microsoft.
+ms.openlocfilehash: b7b29900108ab94f0fd99dcf3404cfa137ce92ff
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210550"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631355"
 ---
-# <a name="create-dns-records-at-easydns-for-office-365"></a>DNS-records maken bij easyDNS voor Office 365
+# <a name="create-dns-records-at-easydns-for-microsoft"></a>DNS-records maken bij easyDNS voor Microsoft
 
 [Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md) als u niet kunt vinden wat u zoekt. 
   
-U moet alle volgende DNS-records op de website van uw registrar toevoegen om e-mail naar Office 365 te routeren, uw domein te gebruiken voor Teams en Skype voor Bedrijven, enzovoort.
+U moet alle volgende DNS-records op de website van uw registrar toevoegen om e-mail naar Microsoft te routeren, uw domein te gebruiken voor Teams en Skype voor Bedrijven, enzovoort.
   
-LET OP: SRV Records zijn momenteel NIET beschikbaar onder alle easyDNS-servicepakketten. Mogelijk moet u upgraden naar een hoger serviceniveau met easyDNS om SRV-records toe te voegen die nodig zijn voor Office 365 Skype voor Bedrijven.
+LET OP: SRV Records zijn momenteel NIET beschikbaar onder alle easyDNS-servicepakketten. Mogelijk moet u upgraden naar een hoger serviceniveau met easyDNS om SRV-records toe te voegen die nodig zijn voor Skype voor Bedrijven.
   
 ## <a name="verify-that-you-own-the-domain-with-a-txt-record"></a>Controleren of u eigenaar bent van het domein met een TXT-record
 
@@ -52,9 +52,9 @@ LET OP: SRV Records zijn momenteel NIET beschikbaar onder alle easyDNS-servicepa
     
 6. Controleer of de record correct is en selecteer **BEVESTIGEN**. 
     
-7. Wacht een paar minuten voordat u verdergaat, zodat de record die u zojuist hebt gemaakt, zich over het internet kan verspreiden en kan worden gedetecteerd door Office 365.
+7. Wacht een paar minuten voordat u verdergaat, zodat de record die u zojuist hebt gemaakt, zich over het internet kan verspreiden en door Microsoft kan worden gedetecteerd.
     
-8. Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug naar Office 365 en vraagt u of Office 365 naar de record wil zoeken.
+8. Nu u de record op de site van uw domeinregistrar hebt toegevoegd, gaat u terug naar Microsoft en vraagt u de record aan.
     
 9. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
@@ -64,7 +64,7 @@ LET OP: SRV Records zijn momenteel NIET beschikbaar onder alle easyDNS-servicepa
     
 12. Kies **Verifiëren** op de pagina **Domein verifiëren**. 
     
-## <a name="add-an-mx-record-to-route-email-to-office-365"></a>Een MX-record toevoegen om e-mail naar Office 365 te routeren
+## <a name="add-an-mx-record-to-route-email-to-microsoft"></a>Een MX-record toevoegen om e-mail naar Microsoft te routeren
 
 1. Ga [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) naar en log in met uw referenties. 
     
@@ -125,7 +125,7 @@ LET OP: SRV Records zijn momenteel NIET beschikbaar onder alle easyDNS-servicepa
     
 6. Controleer of de record correct is en selecteer **BEVESTIGEN**. 
     
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>De twee SRV-records toevoegen die voor Office 365 vereist zijn
+## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Voeg de twee SRV-records toe die nodig zijn voor Microsoft
 
 LET OP: SRV Records zijn momenteel NIET beschikbaar onder het Domein Plus-serviceniveau van easyDNS. Mogelijk moet u upgraden naar een hoger serviceniveau met easyDNS om SRV-records toe te voegen 
   

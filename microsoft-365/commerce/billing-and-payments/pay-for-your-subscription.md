@@ -1,5 +1,5 @@
 ---
-title: Uw Office 365 voor Bedrijven-abonnement betalen
+title: Betalen voor uw abonnement
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 734f4aab-df2d-4e9b-8cb1-691910bde216
-description: Lees welke betalingsopties beschikbaar zijn om te betalen voor uw Abonnement op Office 365 voor Bedrijven.
+description: Meer informatie over welke betalingsopties beschikbaar zijn om te betalen voor uw Microsoft 365 voor Bedrijven-abonnement.
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: dfecd2ec5ca72f8e00e664f3f54d7125fe8d21b6
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.openlocfilehash: ccf04de4fe11469241e734a202aad3e20778843c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43540901"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635014"
 ---
-# <a name="pay-for-your-office-365-for-business-subscription"></a>Uw Office 365 voor Bedrijven-abonnement betalen
+# <a name="pay-for-your-subscription"></a>Betalen voor uw abonnement
 
 Wanneer u uw abonnement instelt, u ervoor kiezen om te betalen met creditcard- of bankrekeningbetalingen of om per factuur te betalen met behulp van cheque of elektronische overschrijving (EFT). De methode u kiest, is de betalingswijze die we blijven gebruiken voor de volgende factureringsperioden, tenzij u [uw betalingsmethode wijzigt](change-payment-method.md).
 
@@ -93,7 +93,7 @@ Als de kosten van uw abonnement hoger zijn dan een bepaald bedrag (dit bedrag ve
 Als u uw abonnement per factuur betaalt, krijgt u een e-mailbericht met de mededeling dat uw factuuroverzicht gereed is om te bekijken. Dit e-mailbericht bevat geen kopie van uw factuuroverzicht. U kunt echter ook [Een kopie van uw factuuroverzicht per e-mail ontvangen](#receive-a-copy-of-your-billing-statement-in-email). Het factuuroverzicht bevat informatie over uw betalingsmogelijkheden. Als u een nummer voor een inkooporder (IO) invoert wanneer u een abonnement koopt, wordt het nummer weergegeven op uw factuuroverzicht. Ga naar [Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) voor informatie over hoe u factuuroverzichten kunt bekijken.
 
 > [!NOTE]
-> De factuurmeldingen voor uw organisatie worden standaard verzonden naar het e-mailadres voor Office 365 en het alternatieve e-mailadres van elke globale beheerder en factureringsbeheerder in uw organisatie. Zie [Uw factuuradressen wijzigen](change-your-billing-addresses.md)als u het alternatieve e-mailadres wilt wijzigen.
+> Standaard worden de factureringsmeldingen van uw organisatie verzonden naar het Microsoft-e-mailadres en het alternatieve e-mailadres van elke globale en factureringsbeheerder in uw organisatie. Zie [Uw factuuradressen wijzigen](change-your-billing-addresses.md)als u het alternatieve e-mailadres wilt wijzigen.
 
 ### <a name="can-i-pay-my-bill-online"></a>Kan ik mijn factuur online betalen?
 

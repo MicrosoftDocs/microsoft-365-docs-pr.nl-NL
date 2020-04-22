@@ -1,5 +1,5 @@
 ---
-title: Een abonnement op Office 365 voor Bedrijven nemen vanuit uw gratis proefabonnement
+title: Koop een abonnement op Microsoft 365 voor bedrijven via uw gratis proefversie
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -26,17 +26,17 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
-description: Een abonnement op Office 365 voor Bedrijven aanschaffen. U hetzelfde type abonnement kopen dat u hebt geprobeerd, of een ander abonnement.
-ms.openlocfilehash: 10e3212b739128a9cd2af23f22b644ad4b1df2d9
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+description: Koop een Microsoft 365 voor zakelijk abonnement. U hetzelfde type abonnement kopen dat u hebt geprobeerd, of een ander abonnement.
+ms.openlocfilehash: 3635a4ae729aa0759ef1f2de2905fa745a48951a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142285"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634942"
 ---
-# <a name="buy-a-subscription-to-office-365-for-business-from-your-free-trial"></a>Een abonnement op Office 365 voor Bedrijven nemen vanuit uw gratis proefabonnement
+# <a name="buy-a-subscription-to-microsoft-365-for-business-from-your-free-trial"></a>Koop een abonnement op Microsoft 365 voor bedrijven via uw gratis proefversie
 
-U hebt Office 365 uitgeprobeerd en u wilt het nu kopen. U hebt twee opties bij het kopen van Office 365 in uw proefversie:
+Je hebt geprobeerd Microsoft 365, en nu ben je klaar om te kopen. U hebt twee opties bij het kopen van Microsoft 365 in uw proefversie:
   
 - [Hetzelfde abonnement kopen als uw proefabonnement](#buy-the-same-plan-as-your-trial)
 - [Een ander abonnement kopen dan uw proefabonnement](#buy-a-different-plan-than-your-trial)
@@ -98,6 +98,7 @@ Als u een ander type abonnement koopt dan uw proefperiode, moet u uw gebruikersl
 
 ::: moniker range="o365-worldwide"
 
+
 1. Ga in het beheercentrum naar de pagina Services <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">voor factureringsaankopen.</a> **Billing** \>
 
 2. Selecteer **op** de pagina Services kopen het abonnement dat u wilt kopen en selecteer **Kopen**.
@@ -136,6 +137,7 @@ Als u een ander type abonnement koopt dan uw proefperiode, moet u uw gebruikersl
 
 ::: moniker range="o365-21vianet"
 
+
 1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
 
 2. Selecteer **op** de pagina Abonnement de optie **Abonnementen toevoegen**.
@@ -156,10 +158,11 @@ Als u een ander type abonnement koopt dan uw proefperiode, moet u uw gebruikersl
 
 ::: moniker-end
 
+
 ## <a name="related-articles"></a>Verwante artikelen
 
 [Uw proefabonnement verlengen](extend-your-trial.md)
   
-[Registreren voor Office 365](../admin/admin-overview/sign-up-for-office-365.md)
+[Aanmelden voor Microsoft 365](../admin/admin-overview/sign-up-for-office-365.md)
   
-[Overstappen op een ander Office 365-abonnement](subscriptions/switch-to-a-different-plan.md)
+[Overschakelen naar een ander Microsoft 365-abonnement of -abonnement](subscriptions/switch-to-a-different-plan.md)

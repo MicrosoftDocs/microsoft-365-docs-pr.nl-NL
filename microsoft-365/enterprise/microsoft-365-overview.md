@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/07/2020
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Biedt een inleiding tot de onderdelen, plannen en implementatiepaden voor Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 6b8d2aa7fd8455acde1d49a6ed7f7c93c5235652
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: 85f05e85989d7b298ba0575c7447a3ef157ea163
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43504089"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631559"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Overzicht van Microsoft 365 voor ondernemingen
 
@@ -32,7 +32,7 @@ Microsoft 365 voor ondernemingen bestaat uit:
 
 |||
 |:-------|:-----|
-| Lokale en cloudgebaseerde apps en productiviteitsservices | Bevat zowel Office 365 ProPlus, de nieuwste Office-apps voor uw pc en Mac (zoals Word, Excel, PowerPoint, Outlook en anderen) en een volledig pakket onlineservices voor e-mail, bestandsopslag en samenwerking, vergaderingen en meer. |
+| Lokale en cloudgebaseerde apps en productiviteitsservices | Bevat zowel Microsoft 365 Apps voor bedrijven, de nieuwste Office-apps voor uw pc en Mac (zoals Word, Excel, PowerPoint, Outlook en anderen) en een volledige reeks onlineservices voor e-mail, bestandsopslag en samenwerking, vergaderingen en meer. |
 | Windows 10 Enterprise | Voldoet aan de behoeften van zowel grote als middelgrote organisaties en biedt gebruikers de meest productieve en veilige versie van Windows- en IT-professionals met uitgebreide implementatie, apparaat- en app-beheer. |
 | Apparaatbeheer en geavanceerde beveiligingsservices | Inclusief Microsoft Intune, een emm-service (Enterprise Mobility Management) in de cloud waarmee uw personeel productief kan zijn en tegelijkertijd uw bedrijfsgegevens beschermd houdt. |
 |||
@@ -45,7 +45,7 @@ Microsoft 365 voor ondernemingen is beschikbaar in drie abonnementen.
 |:-------|:-----|
 | E3 | Krijg toegang tot kernproducten en functies binnen Microsoft 365 om de productiviteit op de werkplek te verbeteren en innovatie te stimuleren, veilig. |
 | E5 | Krijg toegang tot de nieuwste producten en functies binnen Microsoft 365, inclusief geavanceerde hulpprogramma's voor bescherming van bedreigingen, beveiliging en samenwerking.. Bevat alle mogelijkheden van E3 plus geavanceerde tools voor beveiliging, spraak en gegevensanalyse. |
-| F3 | Maak contact met uw Firstline Workers via speciaal gebouwde tools en resources waarmee ze hun beste werk kunnen doen. |
+| F1 F1 | Maak contact met uw Firstline Workers via speciaal gebouwde tools en resources waarmee ze hun beste werk kunnen doen. |
 |||
 
 Als u Microsoft 365 E3 hebt, u deze [aanbiedingen](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/)ook krijgen:
@@ -55,7 +55,7 @@ Als u Microsoft 365 E3 hebt, u deze [aanbiedingen](https://www.microsoft.com/mic
 
 Deze aanbiedingen bevatten extra functies die zijn opgenomen in Microsoft 365 E5.
 
-Zie [Uw onderneming transformeren met Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)voor meer informatie over wat bij elk abonnement is inbegrepen.
+Zie [Functies en mogelijkheden voor elk plan voor](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)meer informatie.
 
 ## <a name="get-the-big-picture"></a>Krijg het grote plaatje
 
@@ -125,11 +125,11 @@ Zie voor meer implementatiegegevens hoe:
 
 ## <a name="additional-microsoft-365-solutions"></a>Aanvullende Microsoft 365-oplossingen
 
-- [Microsoft 365 Business](https://docs.microsoft.com/microsoft-365/business/)
+- [Microsoft 365 Business Premium](https://docs.microsoft.com/microsoft-365/business/)
  
   Breng de beste productiviteits- en samenwerkingsmogelijkheden van Office 365 samen met apparaatbeheer- en beveiligingsoplossingen om bedrijfsgegevens voor kleine en middelgrote bedrijven (MKB) te beveiligen.
 
-- [Microsoft 365 Onderwijs](https://docs.microsoft.com/education)
+- [Microsoft 365 Education](https://docs.microsoft.com/education)
  
   Geef docenten de mogelijkheid om creativiteit te ontsluiten, teamwork te promoten en een eenvoudige en veilige ervaring te bieden in één betaalbare oplossing die is gebouwd voor onderwijs.
 

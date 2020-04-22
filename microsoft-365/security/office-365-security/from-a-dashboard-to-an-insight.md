@@ -17,16 +17,16 @@ ms.assetid: 703c41df-b3e2-4e7e-9eeb-1a0b8d60fb56
 ms.collection:
 - M365-security-compliance
 description: Ontdek hoe u van een dashboard naar een inzicht &amp; kunt gaan met aanbevolen acties in het Security Compliance Center.
-ms.openlocfilehash: 52fc933133cee4b060a08516b64a46c1c24a13cb
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: 22ca34696bc46e0142818be715d68f0b469c6255
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537495"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638092"
 ---
 # <a name="walkthrough---from-a-dashboard-to-an-insight"></a>Stapsgewijze instructies - Van een dashboard tot een inzicht
 
-Als u nieuw bent [in rapporten en inzichten &amp; in het Office 365 Security Compliance Center,](reports-and-insights-in-security-and-compliance.md)u mogelijk zien hoe u eenvoudig navigeren van een dashboard naar een inzicht en aanbevolen acties. 
+Als u nieuw bent [in rapporten &amp; en inzichten in](reports-and-insights-in-security-and-compliance.md)het Security Compliance Center, kan dit helpen om te zien hoe u eenvoudig navigeren van een dashboard naar een inzicht en aanbevolen acties. 
   
 Dit is een van de vele &amp; walkthroughs voor het Security Compliance Center. Zie de sectie [Gerelateerde onderwerpen](#related-topics) om extra walkthroughs te bekijken. 
   

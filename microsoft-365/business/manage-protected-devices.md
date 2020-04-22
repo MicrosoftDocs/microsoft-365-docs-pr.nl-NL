@@ -1,5 +1,5 @@
 ---
-title: Beveiligde apparaten beheren met Microsoft 365 voor Bedrijven
+title: Beveiligde apparaten beheren met Microsoft 365 voor bedrijven
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -26,17 +26,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
-description: Leer bedrijfsgegevens verwijderen van apparaten die worden beheerd via een beveiligingsbeleid en windows 10-apparaten opnieuw instellen op hun fabrieksinstellingen.
-ms.openlocfilehash: 97c9751d020d7f2aecb1e64718721c1ca25189e1
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Leer bedrijfsgegevens te verwijderen van apparaten die worden beheerd via een beveiligingsbeleid en windows 10-apparaten opnieuw in te stellen in hun fabrieksinstellingen.
+ms.openlocfilehash: 180887dca3226512ab558e98d2b5a78da3521e53
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561515"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634283"
 ---
-# <a name="manage-protected-devices-with-microsoft-365-business"></a>Beveiligde apparaten beheren met Microsoft 365 voor Bedrijven
+# <a name="manage-protected-devices-with-microsoft-365-for-business"></a>Beveiligde apparaten beheren met Microsoft 365 voor bedrijven
 
-Nadat een gebruiker zijn apparaat met uw organisatie hebt verbonden door zich met zijn werkaccount aan te melden bij het apparaat of met Office-apps op het apparaat, u het apparaat beveiligen met het door u ingestelde beleid. Verbonden apparaten staan vermeld op de pagina **Apparaten.** Als een apparaat verloren of gestolen is, u het vanaf deze pagina beheren om bedrijfsgegevens te verwijderen. U Windows 10-apparaten ook opnieuw instellen op hun fabrieksinstellingen om aangepaste instellingen uit te wissen. 
+Nadat een gebruiker zijn apparaat met uw organisatie heeft verbonden door zich aan te melden met zijn werkaccount op het apparaat of met Office-apps op het apparaat, u het apparaat beveiligen met het beleid dat u hebt ingesteld. Verbonden apparaten worden vermeld op de pagina **Apparaten.** Als een apparaat verloren of gestolen is, u het vanaf deze pagina beheren om bedrijfsgegevens te verwijderen. U Windows 10-apparaten ook opnieuw instellen naar hun fabrieksinstellingen om aangepaste instellingen uit te roeien. 
 
 Zie de volgende artikelen voor meer informatie over de taken die u gebruiken om apparaten te beheren: 
   

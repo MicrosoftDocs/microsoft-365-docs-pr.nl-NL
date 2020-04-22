@@ -1,5 +1,5 @@
 ---
-title: Niet-geaccepteerd domeinrapport
+title: Rapport over niet-geaccepteerd domein
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -11,18 +11,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: Beheerders kunnen meer te weten komen over het niet-geaccepteerde domeinrapport in het dashboard van de e-mailstroom in het Beveiligings- & Compliance Center.
-ms.openlocfilehash: 4b4573d6a43c811e919f3f5c6f281c8f31e61d6a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 64bf572db90b44512ca72aec5733a99373d8f53f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42809866"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635278"
 ---
-# <a name="non-accepted-domain-report"></a>Niet-geaccepteerd domeinrapport
+# <a name="non-accepted-domain-report"></a>Rapport over niet-geaccepteerd domein
 
-Net als bij het domeininzicht **Afzender** identificeert het **niet-geaccepteerde domeininzicht** berichten van uw on-premises e-mailorganisatie, maar het domein van de afzender is niet geconfigureerd als geaccepteerd domein in uw Office 365-organisatie.
+Net als bij het domeininzicht **Afzender** identificeert het **niet-geaccepteerde domeininzicht** berichten van uw on-premises e-mailorganisatie, maar het domein van de afzender is niet geconfigureerd als geaccepteerd domein in uw organisatie.
 
-Office 365 kan deze berichten beperken als we gegevens hebben om te bewijzen dat de bedoeling van deze berichten kwaadaardig is. Daarom is het belangrijk voor u om te begrijpen wat er gebeurt en om het probleem op te lossen.
+Microsoft 365 kan deze berichten beperken als we gegevens hebben om te bewijzen dat de bedoeling van deze berichten kwaadaardig is. Daarom is het belangrijk voor u om te begrijpen wat er gebeurt en om het probleem op te lossen.
 
 ![Het niet-geaccepteerde domeinrapport in het dashboard van de e-mailstroom in het Security & Compliance Center](../../media/non-accepted-domain-report-selected.png)
 

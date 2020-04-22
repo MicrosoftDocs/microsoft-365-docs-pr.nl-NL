@@ -15,19 +15,19 @@ ms.custom:
 - TLG
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
-description: 'Samenvatting: Configureer een SharePoint Online-teamsite die is geïsoleerd van de rest van de organisatie in uw Office 365-dev/testomgeving.'
-ms.openlocfilehash: fc56a151d00eba3a6c0131ae1692febe69e76122
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 'Samenvatting: Configureer een SharePoint Online-teamsite die is geïsoleerd van de rest van de organisatie in uw Microsoft 365-dev/testomgeving.'
+ms.openlocfilehash: 2a1c728f5cbc1d622bb46ffd7532f1103a7995d3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42812773"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634120"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>Dev/testomgeving van de geïsoleerde SharePoint Online-teamsite
 
- **Samenvatting:** Configureer een SharePoint Online-teamsite die is geïsoleerd van de rest van de organisatie in uw Office 365-dev/testomgeving.
+ **Samenvatting:** Configureer een SharePoint Online-teamsite die is geïsoleerd van de rest van de organisatie in uw Microsoft 365-dev/testomgeving.
 
-SharePoint Online-teamsites in Office 365 zijn locaties voor samenwerking met behulp van een algemene documentbibliotheek, een OneNote-notitieblok en andere services. In veel gevallen wilt u brede toegang en samenwerking tussen afdelingen of organisaties. In sommige gevallen wilt u echter de toegang en machtigingen voor samenwerking tussen een kleine groep mensen streng beheren.
+SharePoint Online-teamsites in Microsoft 365 zijn locaties voor samenwerking met behulp van een algemene documentbibliotheek, een OneNote-notitieblok en andere services. In veel gevallen wilt u brede toegang en samenwerking tussen afdelingen of organisaties. In sommige gevallen wilt u echter de toegang en machtigingen voor samenwerking tussen een kleine groep mensen streng beheren.
 
 Toegang tot SharePoint Online-teamsites en wat gebruikers kunnen doen, wordt beheerd door SharePoint-groepen en machtigingsniveaus. SharePoint Online-sites hebben standaard drie toegangsniveaus:
 
@@ -43,9 +43,9 @@ In dit artikel wordt u door de configuratie van een geïsoleerde SharePoint Onli
 
 - Alleen de maker van de site en leden van een groep Beheerders voor de site kunnen sitebeheer uitvoeren, waaronder het wijzigen van machtigingen op siteniveau.
 
-Er zijn drie fasen voor het instellen van een geïsoleerde SharePoint Online-teamsite in uw Office 365-dev/testomgeving:
+Er zijn drie fasen voor het instellen van een geïsoleerde SharePoint Online-teamsite in uw Microsoft 365-dev/testomgeving:
 
-1. Maak de Office 365-dev/testomgeving.
+1. Maak de Microsoft 365-dev/testomgeving.
 
 2. Maak de gebruikers en groepen voor ProjectX.
 
@@ -54,22 +54,22 @@ Er zijn drie fasen voor het instellen van een geïsoleerde SharePoint Online-tea
 > [!TIP]
 > Klik [hier](https://aka.ms/catlgstack) voor een visuele kaart voor alle artikelen in de One Microsoft Cloud Test Lab Guide stack.
 
-## <a name="phase-1-build-out-your-lightweight-or-simulated-enterprise-office-365-devtest-environment"></a>Fase 1: Bouw uw lichtgewicht of gesimuleerde bedrijfsoffice 365-dev/testomgeving uit
+## <a name="phase-1-build-out-your-lightweight-or-simulated-enterprise-microsoft-365-devtest-environment"></a>Fase 1: Bouw uw lichtgewicht of gesimuleerde Microsoft 365-testomgeving uit
 
-Als u gewoon een geïsoleerde SharePoint Online-teamsite op een lichtgewicht manier wilt maken met de minimale vereisten, volgt u de instructies in fase 2 en 3 van [de Office 365-dev/testomgeving.](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)
+Als u gewoon een geïsoleerde SharePoint Online-teamsite op een lichtgewicht manier wilt maken met de minimale vereisten, volgt u de instructies in fase 2 en 3 van [de Microsoft 365-dev/testomgeving.](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)
 
-Als u een geïsoleerde SharePoint Online-teamsite wilt maken in een gesimuleerde bedrijfsconfiguratie, volgt u de instructies in [DirSync voor uw Office 365-dev/testomgeving.](https://docs.microsoft.com/office365/enterprise/dirsync-for-your-office-365-dev-test-environment)
+Als u een geïsoleerde SharePoint Online-teamsite wilt maken in een gesimuleerde bedrijfsconfiguratie, volgt u de instructies in [DirSync voor uw Microsoft 365-dev/testomgeving.](https://docs.microsoft.com/office365/enterprise/dirsync-for-your-office-365-dev-test-environment)
 
 > [!NOTE]
 > Voor het maken van een geïsoleerde SharePoint Online-site is de gesimuleerde bedrijfsdev/testomgeving niet vereist, waaronder een gesimuleerd intranet dat is verbonden met internet en adreslijstsynchronisatie voor een AD DS-forest (Active Directory Domain Services). Het wordt hier als optie aangeboden, zodat u een geïsoleerde SharePoint Online-site testen en ermee experimenteren in een omgeving die een typische organisatie vertegenwoordigt.
 
 ## <a name="phase-2-create-user-accounts-and-access-groups"></a>Fase 2: Gebruikersaccounts en toegangsgroepen maken
 
-Gebruik de instructies in [Verbinding maken met Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell) om verbinding te maken met uw Office 365-trailabonnement met uw wereldwijde beheerdersaccount vanaf:
+Gebruik de instructies in [Verbinding maken met Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell) om verbinding te maken met uw proefabonnement met uw wereldwijde beheerdersaccount vanaf:
 
-- Uw computer (voor de lichtgewicht Office 365 dev/testomgeving).
+- Uw computer (voor de lichtgewicht Microsoft 365 dev/testomgeving).
 
-- De virtuele client1-machine (voor de gesimuleerde bedrijfsoffice 365-dev/testomgeving).
+- De client1 virtuele machine (voor de gesimuleerde onderneming Microsoft 365 dev/test omgeving).
 
 Als u de nieuwe toegangsgroepen voor de ProjectX SharePoint Online-teamsite wilt maken, voert u deze opdrachten uit vanuit de prompt van Windows Azure Active Directory Module voor Windows PowerShell:
 
@@ -142,17 +142,17 @@ Figuur 1 toont de toegangsgroepen en hun lidmaatschap.
 
 **Figuur 1**
 
-![De Office 365-groepen en hun lidmaatschap voor een geïsoleerde SharePoint Online-groepsite](../../media/5b7373b9-2a80-4880-afe5-63ffb17237e6.png)
+![De Microsoft 365-groepen en hun lidmaatschap voor een geïsoleerde SharePoint Online-groepsite](../../media/5b7373b9-2a80-4880-afe5-63ffb17237e6.png)
 
 ## <a name="phase-3-create-a-new-projectx-sharepoint-online-team-site-and-isolate-it"></a>Fase 3: Een nieuwe ProjectX SharePoint Online-teamsite maken en deze isoleren
 
 Ga als volgt te werk om een SharePoint Online-teamsite voor ProjectX te maken:
 
-1. Meld u aan bij de Office 365-portal ()[https://admin.microsoft.com](https://admin.microsoft.com)met uw globale beheerdersaccount met een browser op uw lokale computer (lichtgewicht configuratie) of client1 (gesimuleerde bedrijfsconfiguratie).
+1. Meld u aan bij het Microsoft 365-beheercentrum ([https://admin.microsoft.com](https://admin.microsoft.com)) met uw algemene beheerdersaccount met behulp van een browser op uw lokale computer (lichtgewicht configuratie) of client1 (gesimuleerde bedrijfsconfiguratie).
 
 2. Klik in de lijst met tegels op **SharePoint**.
 
-3. Klik op het nieuwe tabblad SharePoint in uw browser op **Site maken**.
+3. Klik in het nieuwe SharePoint-tabblad in uw browser op **+ Site maken**.
 
 4. Typ **ProjectX**in **teamsitenaam**. Selecteer **privé-** in **Privacy-instellingen**en selecteer deze site .
 
@@ -162,7 +162,7 @@ Ga als volgt te werk om een SharePoint Online-teamsite voor ProjectX te maken:
 
 7. Klik op het nieuwe tabblad **ProjectX-Start** in uw browser op de **gereedschapsbalk**op het pictogram Instellingen en klik vervolgens op Sitemachtigingen .
 
-8. Klik in het deelvenster **Sitemachtigingen** op **Instellingen voor geavanceerde machtigingen**.
+8. Klik in het deelvenster **Sitemachtigingen** op **Geavanceerde machtigingsinstellingen**.
 
 9. Klik in het nieuwe **tabblad Machtigingen: Project X** in uw browser op Instellingen voor **toegangsaanvragen**.
 
@@ -174,7 +174,7 @@ Ga als volgt te werk om een SharePoint Online-teamsite voor ProjectX te maken:
 
 13. Typ **projectx-leden**in het dialoogvenster **Delen,** selecteer deze en klik op **Delen**.
 
-14. Klik op de knop Terug in uw browser.
+14. Klik op de terugknop in uw browser.
 
 15. Klik op **ProjectX-eigenaren** in de lijst.
 
@@ -182,7 +182,7 @@ Ga als volgt te werk om een SharePoint Online-teamsite voor ProjectX te maken:
 
 17. Typ **projectx-beheerders**in het dialoogvenster **Delen,** selecteer deze en klik op **Delen**.
 
-18. Klik op de knop Terug in uw browser.
+18. Klik op de terugknop in uw browser.
 
 19. Klik op **ProjectX-bezoekers** in de lijst.
 
@@ -192,7 +192,7 @@ Ga als volgt te werk om een SharePoint Online-teamsite voor ProjectX te maken:
 
 22. Sluit het tabblad **Personen en groepen** in uw browser, klik op het tabblad **ProjectX-Start** in uw browser en sluit het deelvenster **Sitemachtigingen.**
 
-Hier zijn de resultaten van het configureren van machtigingen:
+Dit zijn de resultaten van het configureren van machtigingen:
 
 - De SharePoint-groep ProjectX-leden bevat alleen de toegangsgroep ProjectX-Leden (die alleen de gebruikersaccounts leaddesigner en leadonderzoeker bevat) en de ProjectX-groep (die alleen het algemene beheerdersgebruikersaccount bevat).
 
@@ -202,7 +202,7 @@ Hier zijn de resultaten van het configureren van machtigingen:
 
 - Leden kunnen machtigingen op siteniveau niet wijzigen (dit kan alleen worden gedaan door leden van de projectx-beheerdersgroep).
 
-- Andere gebruikersaccounts hebben geen toegang tot de site of de bronnen ervan of vragen geen toegang tot de site.
+- Andere gebruikersaccounts hebben geen toegang tot de site of de bijbehorende resources en kunnen geen toegang tot de site aanvragen.
 
 Figuur 2 toont de SharePoint-groepen en hun lidmaatschap.
 
@@ -216,7 +216,7 @@ Laten we nu de toegang demonstreren met het Lead Designer-gebruikersaccount:
 
 2. Klik op de naam van uw globale beheerder en klik vervolgens op **Afmelden**.
 
-3. Meld u aan bij de[https://admin.microsoft.com](https://admin.microsoft.com)Office 365-portal ( ) met de naam van het Lead Designer-account en het wachtwoord ervan.
+3. Meld u aan bij het Microsoft[https://admin.microsoft.com](https://admin.microsoft.com)365-beheercentrum ( ) met de naam van het Lead Designer-account en het wachtwoord ervan.
 
 4. Klik in de lijst met tegels op **SharePoint**.
 
@@ -246,7 +246,7 @@ Laten we nu de toegang demonstreren met het Lead Designer-gebruikersaccount:
 
 Laten we nu de toegang demonstreren met het Gebruikersaccount Van Ontwikkeling VP:
 
-1. Meld u aan bij de[https://admin.microsoft.com](https://admin.microsoft.com)Office 365-portal ( ) met de naam van het Development VP-account en het wachtwoord ervan.
+1. Meld u aan bij het Microsoft[https://admin.microsoft.com](https://admin.microsoft.com)365-beheercentrum ( ) met de naam van het Development VP-account en het wachtwoord ervan.
 
 2. Klik in de lijst met tegels op **SharePoint**.
 
@@ -262,7 +262,7 @@ Laten we nu de toegang demonstreren met het Gebruikersaccount Van Ontwikkeling V
 
 Laten we nu de toegang demonstreren met een gebruikersaccount dat geen machtigingen heeft:
 
-1. Meld u aan bij de[https://admin.microsoft.com](https://admin.microsoft.com)Office 365-portal ( ) met de naam van het account Gebruiker 3 en het wachtwoord.
+1. Meld u aan bij het Microsoft[https://admin.microsoft.com](https://admin.microsoft.com)365-beheercentrum ( ) met de naam van het account gebruiker 3 en het wachtwoord.
 
 2. Klik in de lijst met tegels op **SharePoint**.
 
@@ -280,19 +280,19 @@ Uw geïsoleerde SharePoint Online-site is nu klaar voor uw aanvullende experimen
 
 ## <a name="next-step"></a>Volgende stap
 
-Wanneer u klaar bent om een geïsoleerde SharePoint Online-teamsite in productie te implementeren, raadpleegt u de stapsgewijze ontwerpoverwegingen in [Het ontwerpen van een geïsoleerde SharePoint Online-teamsite.](design-an-isolated-sharepoint-online-team-site.md)
+Als u klaar bent om een geïsoleerde SharePoint Online-teamsite in productie te implementeren, raadpleegt u de stapsgewijze overwegingen voor het ontwerpen in [Een geïsoleerde SharePoint Online-teamsite ontwerpen](design-an-isolated-sharepoint-online-team-site.md).
 
 ## <a name="see-also"></a>Zie ook
 
 [Geïsoleerde SharePoint Online-teamsites](isolated-sharepoint-online-team-sites.md)
 
-[Cloud adoptie Test Lab Guides (TLD's)](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Cloud adoption Test Lab Guides (TLGs)](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
 
 [Basisconfiguratiedev/testomgeving](https://docs.microsoft.com/office365/enterprise/base-configuration-dev-test-environment)
 
-[Office 365-dev/testomgeving](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)
+[Microsoft 365 dev/testomgeving](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)
 
-[Cloudadoptie en hybride oplossingen](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
+[Cloud adoption and hybrid solutions](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions) (Overstappen op de cloud en hybride oplossingen)
 
 
 

@@ -13,35 +13,35 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
-description: Gebruik deze Test Lab-handleiding voor het maken en gebruiken van Office 365-bewaarlabels in documenten in uw Microsoft 365 Enterprise-testomgeving.
-ms.openlocfilehash: 6534eff67e9c91423eb6f81415cb3ef2e965dcc1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Gebruik deze Test Lab Guide om bewaarlabels te maken en te gebruiken op documenten in uw Microsoft 365 Enterprise-testomgeving.
+ms.openlocfilehash: 41873eba8f2d6168d68d771c6feb17a44c775f6a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42812028"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636090"
 ---
 # <a name="data-classification-for-your-microsoft-365-enterprise-test-environment"></a>Gegevensclassificatie voor uw Microsoft 365 Enterprise-testomgeving
 
-*Deze Test Lab Guide kan worden gebruikt voor zowel Microsoft 365 Enterprise- als Office 365 Enterprise-testomgevingen.*
+*Deze testlabrichtlijnen kunnen worden gebruikt voor zowel Microsoft 365 Enterprise- als Office 365 Enterprise-testomgevingen.*
 
-Met de instructies in dit artikel configureert u gegevensclassificatie met office 365-bewaarlabels in uw Microsoft 365 Enterprise-testomgeving.
+Met de instructies in dit artikel configureert u gegevensclassificatie met bewaarlabels in uw Microsoft 365 Enterprise-testomgeving.
 
-![Lab-handleidingen testen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de Microsoft 365 Enterprise Test Lab Guide stack.
+> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart met alle artikelen over de Microsoft 365 Enterprise-testlabrichtlijnen.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: Uw Microsoft 365 Enterprise-testomgeving uitbouwen
+## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: uw Microsoft 365 Enterprise-testomgeving uitbouwen
 
-Als u alleen office 365-bewaarlabels op een lichtgewicht manier wilt configureren met de minimale vereisten, volgt u de instructies in [lichtgewicht basisconfiguratie.](lightweight-base-configuration-microsoft-365-enterprise.md)
+Als u alleen bewaarlabels op een lichtgewicht manier wilt configureren met de minimale vereisten, volgt u de instructies in [lichtgewicht basisconfiguratie.](lightweight-base-configuration-microsoft-365-enterprise.md)
   
-Als u Office 365-bewaarlabels in een gesimuleerde onderneming wilt configureren, volgt u de instructies in [pass-through-verificatie.](pass-through-auth-m365-ent-test-environment.md)
+Als u bewaarlabels in een gesimuleerde onderneming wilt configureren, volgt u de instructies in [pass-through-verificatie.](pass-through-auth-m365-ent-test-environment.md)
   
 > [!NOTE]
-> Voor het testen van Office 365-bewaarlabels is de gesimuleerde bedrijfstestomgeving niet vereist, waaronder een gesimuleerd intranet dat is verbonden met internet en adreslijstsynchronisatie voor een AD DS-forest (Active Directory Domain Services). Het wordt hier als optie verstrekt, zodat u geautomatiseerde licenties en groepslidmaatschap testen en ermee experimenteren in een omgeving die een typische organisatie vertegenwoordigt. 
+> Voor het testen van bewaarlabels is geen gesimuleerde bedrijfstestomgeving vereist, die een gesimuleerd intranet bevat dat is verbonden met internet en adreslijstsynchronisatie voor een AD DS-forest (Active Directory Domain Services). Het wordt hier als optie verstrekt, zodat u geautomatiseerde licenties en groepslidmaatschap testen en ermee experimenteren in een omgeving die een typische organisatie vertegenwoordigt. 
 
-## <a name="phase-2-create-office-365-retention-labels"></a>Fase 2: Bewaarlabels voor Office 365 maken
+## <a name="phase-2-create-retention-labels"></a>Fase 2: Bewaarlabels maken
 
 In deze fase maakt u de bewaarlabels voor de verschillende retentieniveaus voor SharePoint Online-documentenmappen.
 
@@ -49,7 +49,7 @@ In deze fase maakt u de bewaarlabels voor de verschillende retentieniveaus voor 
     
 2. Klik op het **tabblad Start - Microsoft 365** van uw browser op Labels classificatie > **behouden**.
     
-3. Klik **op Een label maken**.
+3. Klik op **een label maken**.
     
 4. Typ In het deelvenster **Naam van uw label** de tekst Intern **openbaar** in Naam van **uw label**en klik op **Volgende**.
 
@@ -63,7 +63,7 @@ In deze fase maakt u de bewaarlabels voor de verschillende retentieniveaus voor 
     
   - Privé
     
-  - Gevoelige
+  - Gevoelig
     
   - Zeer vertrouwelijk
   
@@ -79,13 +79,13 @@ In deze fase maakt u de bewaarlabels voor de verschillende retentieniveaus voor 
     
 14. Klik in het deelvenster **Locaties kiezen** op **Volgende**.
     
-15. Typ **Voorbeeldorganisatie** in **Naam**in het **deelvenster Naam en** klik op **Volgende**.
+15. Typ in het deelvenster **Uw beleid een naam geven** **Voorbeeldorganisatie** in **Naam** en klik vervolgens op **Volgende**.
     
 16. Klik in het deelvenster **Instellingen controleren** op **Labels publiceren**.
  
 Houd er rekening mee dat het enkele minuten kan duren voordat de bewaarlabels zijn gepubliceerd.
 
-## <a name="phase-3-apply-office-365-retention-labels-to-documents"></a>Fase 3: Bewaarlabels van Office 365 toepassen op documenten
+## <a name="phase-3-apply-retention-labels-to-documents"></a>Fase 3: Bewaarlabels toepassen op documenten
 
 In deze fase ontdekt u het standaardlabelgedrag voor bestanden in de map Documenten van een SharePoint Online-site en wijzigt u handmatig het bewaarlabel van een document.
 
@@ -97,13 +97,13 @@ Maak eerst een SharePoint Online-teamsite op gevoelig niveau:
     
 3. Klik op het nieuwe **tabblad SharePoint** in uw browser op **Site maken**.
     
-4. Klik **op de pagina Een site maken** op **Teamsite**.
+4. Klik op de pagina **Site maken** op **Teamsite**.
     
 5. Typ **Gevoelige bestanden**in **teamsitenaam**.
     
 6. Typ **SharePoint-site voor gevoelige bestanden**in **teamsitebeschrijving**.
     
-7.  Selecteer **privé-instellingen**en selecteer **deze site**en klik vervolgens op **Volgende**.
+7.  Selecteer bij **Privacy-instellingen** de optie **Privé: alleen leden hebben toegang tot deze site** en klik vervolgens op **Volgende**.
     
 8. Klik in het deelvenster Wie wilt **Finish** **u toevoegen?**
     
@@ -111,7 +111,7 @@ Configureer vervolgens de map Documenten van de teamsite SensitiveFiles voor het
   
 1. Klik op het tabblad **SensitiveFiles** van uw browser op **Documenten**.
     
-2. Klik op het pictogram Instellingen en klik vervolgens op **Bibliotheekinstellingen**.
+2. Klik op het pictogram Instellingen en vervolgens op **Bibliotheekinstellingen**.
     
 3. Klik **onder Machtigingen en beheer**op Label toepassen op items in deze lijst of **bibliotheek**. Als deze optie niet wordt weergegeven, worden uw bewaarlabels nog niet gepubliceerd. Probeer deze stap op een later tijdstip.
     
@@ -133,7 +133,7 @@ Maak vervolgens een nieuw document op de site SensitiveFiles en wijzighet bewaar
     
 7. Selecteer in het deelvenster **Document.docx** onder **Bewaarlabel Toepassen**het label **Zeer vertrouwelijk** en klik op **Opslaan**.
 
-Zie de [stap Classificatie configureren voor uw omgeving](infoprotect-configure-classification.md) in de fase **Informatiebeveiliging** voor informatie en koppelingen voor het implementeren van Office 365-bewaarlabels in productie.
+Zie de [stap Classificatie configureren voor uw omgeving](infoprotect-configure-classification.md) in de fase **Informatiebeveiliging** voor informatie en koppelingen naar het implementeren van bewaarlabels in productie.
 
 ## <a name="next-step"></a>Volgende stap
 
@@ -141,7 +141,7 @@ Ontdek aanvullende functies en mogelijkheden voor [informatiebescherming](m365-e
 
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft 365 Enterprise Test Lab-handleidingen](m365-enterprise-test-lab-guides.md)
+[Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 
 [Microsoft 365 Enterprise implementeren](deploy-microsoft-365-enterprise.md)
 

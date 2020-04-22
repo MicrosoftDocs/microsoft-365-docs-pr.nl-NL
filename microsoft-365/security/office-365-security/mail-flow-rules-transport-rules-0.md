@@ -11,23 +11,23 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
-description: U regels voor e-mailstroom (transportregels) gebruiken om berichten die door uw Office 365-organisatie stromen te identificeren en actie te ondernemen.
-ms.openlocfilehash: 4332399ce7b3724a7bd23c761eec4328afe5e2a9
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+description: U regels voor e-mailstroom (transportregels) gebruiken om berichten die door uw organisatie stromen te identificeren en actie te ondernemen.
+ms.openlocfilehash: 0a182b9d4a63a824a3955e8296160779c826960d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081422"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635410"
 ---
 # <a name="mail-flow-rules-transport-rules-in-exchange-online-protection"></a>Regels voor e-mailstroom (transportregels) in Exchange Online Protection
 
-U regels voor e-mailstromen (ook wel transportregels genoemd) gebruiken om berichten te identificeren en actie te ondernemen die door uw Office 365-organisatie stromen. E-mailstroomregels zijn vergelijkbaar met de Regels voor Postvak IN die beschikbaar zijn in de webversie van Outlook en Outlook. Het belangrijkste verschil is dat de regels voor e-mailstroom actie ondernemen op berichten tijdens het transport en niet nadat het bericht in het postvak is bezorgd. Regels voor e-mailstromen bevatten een uitgebreidere set voorwaarden, uitzonderingen en acties, die u de flexibiliteit bieden om veel soorten berichtenbeleid te implementeren.
+U regels voor e-mailstroom (ook wel transportregels genoemd) gebruiken om berichten die door uw organisatie stromen te identificeren en actie te ondernemen. E-mailstroomregels zijn vergelijkbaar met de Regels voor Postvak IN die beschikbaar zijn in de webversie van Outlook en Outlook. Het belangrijkste verschil is dat de regels voor e-mailstroom actie ondernemen op berichten tijdens het transport en niet nadat het bericht in het postvak is bezorgd. Regels voor e-mailstromen bevatten een uitgebreidere set voorwaarden, uitzonderingen en acties, die u de flexibiliteit bieden om veel soorten berichtenbeleid te implementeren.
 
 In dit artikel worden de onderdelen van de regels voor e-mailstromen en hoe ze werken, uitgelegd.
 
 Zie [Regels voor e-mailstroom beheren in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)voor stappen voor het maken, kopiëren en beheren van regels voor e-mailstromen. Voor elke regel hebt u de mogelijkheid om deze af te dwingen, te testen of te testen en de afzender hiervan op de hoogte te stellen. Zie [Regels voor e-mailstroom](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules) en [beleidstips testen in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips)voor meer informatie over de testopties.
 
-Zie [Rapporten over e-mailbeveiliging gebruiken in Office 365 om gegevens over malware, spam en regeldetecties weer te geven voor](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports)beknopte en gedetailleerde rapporten over berichten die overeenkomen met de regels voor e-mailstromen.
+Zie [Rapporten over e-mailbeveiliging gebruiken om gegevens over malware, spam en regeldetecties weer te geven voor](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports)beknopte en gedetailleerde rapporten over berichten die overeenkomen met de regels voor e-mailstromen.
 
 Zie de volgende onderwerpen als u specifiek berichtenbeleid wilt implementeren met behulp van regels voor e-mailstromen:
 

@@ -6,19 +6,19 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 134e971e00fc64d3ea005d32ed95359ed8fb8feb
-ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
+ms.openlocfilehash: c68d12ccd339c863c2dd96b2a56cfaf19e604f79
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "42810919"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631999"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Ondersteuning voor Microsoft Managed Desktop
 
-Microsoft biedt proactief en reactief incidentbeheer. Microsoft houdt incidenten bij in de beheerportal van Microsoft Managed Desktop. Ze zijn ingedeeld volgens [de ernst definities](../working-with-managed-desktop/admin-support.md#sev).
+Microsoft biedt proactief en reactief incidentbeheer. Microsoft houdt incidenten bij in de Microsoft Managed Desktop-beheerportal. Ze worden ingedeeld volgens [ernstdefinities.](../working-with-managed-desktop/admin-support.md#sev)
 
 Klanten kunnen contact opnemen met Microsoft Managed Desktop-bewerkingen voor:
-- Informatieverzoeken over de Microsoft Managed Desktop-tenant of -configuratie
+- Informatieaanvragen voor de Microsoft Managed Desktop-tenant of -configuratie
 - Aanvragen wijzigen in de configuratie van Microsoft Managed Desktop-apparaten
 - Een incident of storing melden
 
@@ -26,26 +26,26 @@ Klanten kunnen contact opnemen met Microsoft Managed Desktop-bewerkingen voor:
 
 Microsoft Managed Desktop-ondersteuning omvat:
 
-- Een team van ingenieurs die zich toeleggen op Microsoft Managed Desktop-apparaten
+- Een team van technici die zich toeleggen op Microsoft Managed Desktop-apparaten
 - Ondersteuningsopties voor eindgebruikers met Microsoft Managed Desktop-apparaten
-- Verleent beperkte administratieve toegang tot Microsoft Managed Desktop-apparaten voor technici die Beheerde Desktop-apparaten beheren 
+- Verleent beperkte beheerderstoegang tot Microsoft Managed Desktop-apparaten voor technici die Microsoft Managed Desktop-apparaten beheren 
 
 Ondersteunde producten:
 
 - Windows 10 met Geavanceerde bedreigingsbeveiliging van Microsoft Defender 
-- Deze Office 365 ProPlus-apps: Outlook, Word, PowerPoint, Excel, Skype voor Bedrijven-client, Microsoft Teams 
+- Deze Microsoft 365-apps voor bedrijfsapps: Outlook, Word, PowerPoint, Excel, Skype voor Bedrijven-client, Microsoft Teams 
 - Microsoft Store voor Bedrijven 
 - OneDrive voor Bedrijven-client 
 
 Ondersteuningsgegevens:
 
-- Huidig: Verenigde Staten, Canada (met uitzondering van Quebec), Verenigd Koninkrijk, België, Luxemburg, Nederland, Australië en Nieuw-Zeeland (24x7x365) 
+- Heden: Verenigde Staten, Canada (met uitzondering van Quebec), Verenigd Koninkrijk, België, Luxemburg, Nederland, Australië en Nieuw-Zeeland (24x7x365) 
 - Engels is de enige ondersteunde taal voor telefoon- en chatgesprekken met klanten 
-- Wij werken samen met, niet ter vervanging van, uw corporate helpdesk; lob-apps(, netwerkbronnen, etc.) worden nog steeds door uw helpdesk afgehandeld 
-- Microsoft Managed Desktop-apparaten in de groep 'Testen' en apparaten die geen deel uitmaken van Microsoft Managed Desktop vallen buiten het bereik 
+- Wij werken samen met, niet ter vervanging, uw bedrijfshelpdesk; line-of-Business (LOB) apps, netwerkbronnen, etc. worden nog steeds afgehandeld door uw helpdesk 
+- Microsoft Managed Desktop-apparaten in de groep 'Testen' en apparaten die geen deel uitmaken van Microsoft Managed Desktop zijn buiten bereik 
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Ontdek hoe IT-beheerders ondersteuning kunnen krijgen](../working-with-managed-desktop/admin-support.md)
+- [Meer informatie over hoe IT-beheerders ondersteuning kunnen krijgen](../working-with-managed-desktop/admin-support.md)
 - [Meer informatie over hoe eindgebruikers ondersteuning kunnen krijgen](../working-with-managed-desktop/end-user-support.md)

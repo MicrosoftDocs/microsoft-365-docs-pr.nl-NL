@@ -17,21 +17,21 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 8310a9a57c8dc7406c0b1d56b20009b6400abcb1
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: ec7f9083401fdf7a2114d99ddd2dcc009411e34b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928982"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633505"
 ---
 # <a name="hunt-for-threats-across-devices-and-emails"></a>Zoek naar bedreigingen op verschillende apparaten en e-mails
 
-**Van toepassing op:**
-- Microsoft-bedreigingsbeveiliging
+**Geldt voor:**
+- Microsoft Threat Protection
 
 
 
-[Met geavanceerde jacht](advanced-hunting-overview.md) in Microsoft Threat Protection u proactief op zoek gaan naar bedreigingen op uw Windows-apparaten en Office 365-e-mails. Hier volgen enkele jachtscenario's en voorbeeldquery's die u kunnen helpen te onderzoeken hoe u query's maken voor zowel apparaten als e-mails.
+[Geavanceerde jacht](advanced-hunting-overview.md) in Microsoft Threat Protection stelt u in staat om proactief te jagen op bedreigingen op uw Windows-apparaten en Microsoft-e-mails. Hier volgen enkele jachtscenario's en voorbeeldquery's die u kunnen helpen te onderzoeken hoe u query's maken voor zowel apparaten als e-mails.
 
 ## <a name="obtain-user-accounts-from-email-addresses"></a>Gebruikersaccounts verkrijgen via e-mailadressen
 Wanneer u query's maakt in [tabellen die apparaten en e-mails behandelen,](advanced-hunting-schema-tables.md)moet u waarschijnlijk gebruikersaccountnamen verkrijgen van e-mailadressen van afzender of ontvanger. Gebruik hiervoor de lokale host vanaf het *e-mailadres:*
@@ -94,9 +94,9 @@ DeviceProcessEvents
 ```
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Geavanceerd jachtoverzicht](advanced-hunting-overview.md)
+- [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Werken met queryresultaten](advanced-hunting-query-results.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Het schema begrijpen](advanced-hunting-schema-tables.md)
+- [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

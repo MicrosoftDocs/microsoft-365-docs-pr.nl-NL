@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 description: Meer informatie over het lezen en begrijpen van uw factuur voor Microsoft-bedrijfsproducten.
 keywords: factureringsrekeningen, organisatiegegevens, facturen
-ms.openlocfilehash: 0ccf8484ba5f8badd29e1a8a54e1b570dd1e0548
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 3028b0e8aa952b932e7d56a5ecceaad5931dee30
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42810962"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634978"
 ---
 # <a name="understand-your-invoice"></a>Inzicht in uw factuur
 
 De factuur bevat een overzicht van uw kosten en betalingsinstructies. U [uw online factuur bekijken](#view-your-online-invoice) in het Microsoft 365-beheercentrum. U het ook downloaden in de Portable Document Format (.pdf) om te verzenden via e-mail.
 
-Zie [Uw factuur voor Office 365 voor Bedrijven weergeven](view-your-bill-or-invoice.md)als u alleen een Office 365-abonnement hebt.
+Zie [Uw factuur voor Microsoft 365 voor Bedrijven weergeven](view-your-bill-or-invoice.md)als u alleen een Microsoft 365-abonnement hebt.
 
 ## <a name="understand-the-invoice-header"></a>De factuurkoptekst begrijpen
 
@@ -102,7 +102,7 @@ Facturen zijn online beschikbaar. Een link naar uw online factuur is beschikbaar
 
 ### <a name="to-view-your-online-invoice"></a>Uw online factuur bekijken
 
-1. Ga in het Beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Facturen en betalingen</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Facturen en betalingen</a>.
 
 2. Als u de .pdf-versie van uw factuur wilt downloaden, kiest u **Factuur-PDF downloaden** in de rij voor de factuur die u wilt zien.
 

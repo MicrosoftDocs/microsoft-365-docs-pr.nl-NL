@@ -1,5 +1,5 @@
 ---
-title: Belangrijkste factureringsvragen voor Office 365 voor Bedrijven
+title: Belangrijkste factureringsvragen voor Microsoft 365 voor bedrijven
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -24,15 +24,15 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 5480fc33-dd47-41e7-bcfb-b2533efdb92a
-description: Vind antwoorden op uw belangrijkste factureringsvragen voor uw zakelijke abonnement.
-ms.openlocfilehash: 661339518f43531f656ee9960d7f005fd1398023
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+description: 'Vind antwoorden op uw belangrijkste factureringsvragen voor microsoft 365 voor bedrijven. '
+ms.openlocfilehash: 3a75f9a754bf4f983ac0aca02b380e55d80be4b9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826299"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634990"
 ---
-# <a name="top-billing-questions-for-business-subscriptions"></a>Belangrijkste factureringsvragen voor zakelijke abonnementen
+# <a name="top-billing-questions-for-microsoft-365-for-business"></a>Belangrijkste factureringsvragen voor Microsoft 365 voor bedrijven
 
 Heeft u vragen over uw factuuroverzicht? Hier zijn de antwoorden op de belangrijkste factureringsvragen.
   

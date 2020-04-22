@@ -20,55 +20,55 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Meer informatie over het verplaatsen van uw bedrijf naar Microsoft 365 Business vanuit Office 365 E3.
-ms.openlocfilehash: cff6166529df2e56ba948a9bd3ea4594fb295b08
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+description: Meer informatie over het verplaatsen van uw bedrijf naar Microsoft 365 Business Premium vanuit Office 365 E3.
+ms.openlocfilehash: 0d23e293d599f5b9d6c829d101f2395d6ac21215
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153530"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633185"
 ---
-# <a name="migrating-from-office-365-e3-to-microsoft-365-business"></a>Migreren van Office 365 E3 naar Microsoft 365 Business 
+# <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migreren van Office 365 E3 naar Microsoft 365 Business Premium 
 
-Microsoft 365 Business heeft alles wat u nodig hebt voor uw kleine bedrijf en combineert de beste cloudgebaseerde productiviteitsapps met eenvoudig apparaatbeheer en beveiliging. Als u momenteel een Office 365 E3-abonnement hebt, maar niet meer dan 300 werknemers hebt, u overwegen over te schakelen naar Microsoft 365 Business voor extra beveiligingsfuncties.
+Microsoft 365 Business Premium heeft alles wat u nodig hebt voor uw kleine bedrijf en combineert de beste cloudgebaseerde productiviteitsapps met eenvoudig apparaatbeheer en beveiliging. Als u momenteel een Office 365 E3-abonnement hebt, maar niet meer dan 300 werknemers hebt, u overwegen over te schakelen naar Microsoft 365 Business Premium voor extra beveiligingsfuncties.
 
-Migreren is eenvoudig: eerst wisselt u van licentie en worden al uw gegevens en gebruikersgegevens in uw huidige abonnement onderhouden. Na de migratie moet u de functies instellen die zijn toegevoegd in Microsoft 365 Business.
+Migreren is eenvoudig: eerst wisselt u van licentie en worden al uw gegevens en gebruikersgegevens in uw huidige abonnement onderhouden. Na de migratie moet u de functies instellen die zijn toegevoegd in Microsoft 365 Business Premium.
 
-## <a name="differences-between-office-365-e3-and-microsoft-365-business"></a>Verschillen tussen Office 365 E3 en Microsoft 365 Business
+## <a name="differences-between-office-365-e3-and-microsoft-365-business-premium"></a>Verschillen tussen Office 365 E3 en Microsoft 365 Business Premium
 
-In deze tabel ziet u de verschillen tussen Microsoft 365 Business en Office 365 E3.
+In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Office 365 E3.
 
-| Functie    | Ondersteuning in Microsoft 365 Business    | Ondersteuning in Office 365 E3 | 
+| Functie    | Ondersteuning in Microsoft 365 Business Premium    | Ondersteuning in Office 365 E3 | 
 |:-------|:-----|:-----|
 | **On-premises**        | | | 
-| Office-apps<sup>1</sup>    | Office 365 Business    | Office 365 ProPlus | 
+| Office-apps<sup>1</sup>    | Microsoft 365 Apps voor bedrijven    | Microsoft 365 Apps voor bedrijven | 
 | **Cloud productiviteits-apps**        | | | 
 | Exchange Online en Outlook    | 50 GB opslaglimiet per postvak en onbeperkt Exchange Online Archiveren    | 100 GB opslaglimiet per postvak en onbeperkt Exchange Online Archiveren | 
-| Teams    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
+| Teams    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
 | OneDrive voor Bedrijven    | 1 TB opslaglimiet per gebruiker    | Onbeperkt | 
-| Yammer, SharePoint Online, Planner, Stream    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
-| StaffHub (StaffHub)    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
-| Outlook Customer Manager, MileIQ    | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | | 
+| Yammer, SharePoint Online, Planner, Stream    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
+| StaffHub (StaffHub)    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
+| Outlook Customer Manager, MileIQ    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | | 
 | **Bescherming tegen bedreigingen**        | | | 
-| ATP-abonnement (Advanced Threat Protection) van Office 365 (Advanced Threat Protection) | ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd op | 
+| ATP-abonnement (Advanced Threat Protection) van Office 365 (Advanced Threat Protection) | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd op | 
 | **Identiteitsbeheer**        | | | 
-| Selfservice wachtwoord opnieuw instellen voor hybride Azure Active Directory (Azure AD)-accounts, Azure Multi-Factor Authentication, Voorwaardelijke toegang, terugschrijven van wachtwoorden voor on-premises identiteiten|     ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    |  | 
+| Selfservice wachtwoord opnieuw instellen voor hybride Azure Active Directory (Azure AD)-accounts, Azure multi-factor authenticatie (MFA), Voorwaardelijke toegang, wachtwoord terugschrijven voor on-premises identiteiten|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
 | **Apparaat- en appbeheer**        | | |
-| Microsoft Intune, Windows AutoPilot|     ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    |  |
-| Activering van gedeelde computers|     ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png)| 
-| Upgraderechten naar Windows 10 Pro vanaf Win 7/8.1 Pro-licenties|     ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)    || 
+| Microsoft Intune, Windows AutoPilot|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    |  |
+| Activering van gedeelde computers|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png)| 
+| Upgraderechten naar Windows 10 Pro vanaf Win 7/8.1 Pro-licenties|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    || 
 | **Gegevensbeveiliging**        | | |
-|Preventie van gegevensverlies van Office 365|    ![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)|![Inbegrepen bij Office 365 E3](../media/check-mark.png)|
-|Azure Information Protection Plan 1, Bitlocker handhaving|![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)||
-|Azure Information Protection Plan 1, Gevoeligheidslabels|![Inbegrepen bij Microsoft 365 Business](../media/check-mark.png)||
+|Preventie van gegevensverlies van Office 365|    ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)|![Inbegrepen bij Office 365 E3](../media/check-mark.png)|
+|Azure Information Protection Plan 1, Bitlocker handhaving|![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)||
+|Azure Information Protection Plan 1, Gevoeligheidslabels|![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)||
 |**Clienttoegangslicentie (CAL-rechten)**|||
 |Enterprise CAL Suite (Exchange, SharePoint, Skype)||![Inbegrepen bij Office 365 E3](../media/check-mark.png)|
 
-<sup>1</sup> De Microsoft 365 Business-versie van de Office-apps bevat geen volumeactivering via groepsbeleid, telemetrie van apps, updatebesturingselementen, spreadsheetvergelijken en informeren, of business Intelligence.
+<sup>1</sup> De Microsoft 365 Business Premium-versie van de Office-apps bevat geen volumeactivering via groepsbeleid, telemetrie van apps, updatebesturingselementen, spreadsheetvergelijken en informeren, of business Intelligence.
 
 ## <a name="migration"></a>Migratie
 
-Zie Plannen handmatig [wijzigen](../commerce/subscriptions/change-plans-manually.md) voor instructies als u slechts een paar mensen naar Microsoft 365 Business wilt verplaatsen. U iedereen ook [automatisch upgraden](../commerce/subscriptions/upgrade-to-different-plan.md)of met een partner samenwerken om uw E3-abonnement en licenties te verplaatsen naar een Microsoft 365 Business-abonnement.
+Zie Plannen handmatig [wijzigen](../commerce/subscriptions/change-plans-manually.md) voor instructies als u slechts een paar mensen naar Microsoft 365 Business Premium wilt verplaatsen. U iedereen ook [automatisch upgraden](../commerce/subscriptions/upgrade-to-different-plan.md)of met een partner samenwerken om uw E3-abonnement en licenties te verplaatsen naar een Microsoft 365 Business Premium-abonnement.
 In de volgende secties worden de eventuele wijzigingen beschreven die u moet aanbrengen en wat u na de migratie doen.
 
 ### <a name="office-365-e3-subscription-configuration-and-data"></a>Configuratie en gegevens van Office 365 E3-abonnementen
@@ -87,9 +87,9 @@ Als uw Windows nog niet op windows Pro Creator-update staat, [kunt u deze upgrad
 > [!NOTE]
 > Als u Office 365 MDM-beleid en -apparaten instelt, worden deze apparaten weergegeven op de pagina **Apparaten** in het Microsoft 365-beheercentrum. Alle beleidsregels die u instelt, worden weergegeven in de lijst met klassieke beleidsregels in de [Intune-portal.](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview)
 
-Nadat u licenties hebt toegewezen aan Microsoft 365 Business, u beginnen met het beveiligen van de apparaten en bestanden van de gebruikers.
+Nadat u licenties hebt toegewezen aan Microsoft 365 Business Premium, u beginnen met het beveiligen van de apparaten en bestanden van de gebruikers.
 
-Als u iedereen in uw organisatie hebt geüpgraded naar Microsoft 365 Business, ziet u de wizard Setup op de startpagina en u de stappen [Microsoft 365 Business instellen in de](set-up.md) wizard Setup om bestanden en mobiele apparaten te beveiligen.
+Als u iedereen in uw organisatie hebt geüpgraded naar Microsoft 365 Business Premium, ziet u de wizard Setup op de startpagina en u de stappen [Microsoft 365 Business Premium instellen in de](set-up.md) wizard Setup om bestanden en mobiele apparaten te beveiligen.
 
 U de volgende stappen ook uitvoeren op de pagina Apparaten:
   
@@ -109,13 +109,13 @@ U de volgende stappen ook uitvoeren op de pagina Apparaten:
   
 4. Zodra u beleid hebt ingesteld, kunnen u en uw medewerkers apparaten instellen:
     
-  - Zie [Windows-apparaten instellen voor Microsoft 365 Business-gebruikers](set-up-windows-devices.md) voor stappen voor Windows-apparaten. 
+  - Zie [Windows-apparaten instellen voor Microsoft 365 Business Premium-gebruikers](set-up-windows-devices.md) voor stappen voor Windows-apparaten. 
     
-  - Zie [Mobiele apparaten instellen voor Microsoft 365 Business-gebruikers](set-up-mobile-devices.md) voor stappen voor Android-telefoons en iPhones. 
+  - Zie [Mobiele apparaten instellen voor Microsoft 365 Business Premium-gebruikers](set-up-mobile-devices.md) voor stappen voor Android-telefoons en iPhones. 
 
-### <a name="threat-protection"></a>Bescherming tegen bedreigingen
+### <a name="threat-protection"></a>Bedreigingsbeveiliging
 
-Nadat u naar Microsoft 365 Business bent gemigreerd, beschikt u over Office 365 ATP. Zie [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) voor een overzicht. Zie [atp-veilige koppelingen instellen,](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa) [ATP-veilige bijlagen instellen](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)en [ATP-antiphishing instellen](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c).
+Nadat u bent gemigreerd naar Microsoft 365 Business Premium, beschikt u over Office 365 ATP. Zie [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) voor een overzicht. Zie [atp-veilige koppelingen instellen,](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa) [ATP-veilige bijlagen instellen](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)en [ATP-antiphishing instellen](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c).
 
 ### <a name="sensitivity-labels"></a>Gevoeligheidslabels
 

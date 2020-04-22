@@ -16,23 +16,23 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Wat zijn best practices voor Exchange Online Protection (EOP) en Advanced Threat Protection (ATP) beveiligingsinstellingen? Wat zijn de huidige aanbevelingen voor standaardbescherming? Wat moet worden gebruikt als u strenger wilt zijn? En welke extra's krijg je als je ook gebruik maakt van Advanced Threat Protection (ATP)?
-ms.openlocfilehash: 0d5d626da8f8bdcdc234f578145db0dfde2c06a5
-ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
+ms.openlocfilehash: 9755fccb482dc294da7a0747310776314c739139
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43547606"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634410"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Aanbevolen instellingen voor EOP- en Office 365 ATP-beveiliging
 
-**Exchange Online Protection (EOP)** is de kern van beveiliging voor Office 365-abonnementen en helpt voorkomen dat schadelijke e-mails de inboxen van uw werknemer bereiken. Maar met nieuwe, meer geavanceerde aanvallen die elke dag opduiken, zijn er vaak betere beveiligingen nodig. **Office 365 Advanced Threat Protection (ATP)** ATP Plan 1 of ATP Plan 2 bevatten extra functies die beheerders meer beveiliging, controle en onderzoek geven.
+**Exchange Online Protection (EOP)** is de kern van beveiliging voor Microsoft 365-abonnementen en helpt voorkomen dat schadelijke e-mails de inboxen van uw werknemer bereiken. Maar met nieuwe, meer geavanceerde aanvallen die elke dag opduiken, zijn er vaak betere beveiligingen nodig. **Office 365 Advanced Threat Protection (ATP)** ATP Plan 1 of ATP Plan 2 bevatten extra functies die beheerders meer beveiliging, controle en onderzoek geven.
 
 Hoewel we beveiligingsbeheerders in staat stellen hun beveiligingsinstellingen aan te passen, zijn er twee beveiligingsniveaus in EOP en Office 365 ATP die we aanbevelen: **Standaard** en **Strikt.** De omgeving en behoeften van elke klant zijn verschillend, maar we zijn van mening dat deze niveaus van e-mailfilteringconfiguraties zullen helpen voorkomen dat ongewenste e-mail in de meeste situaties de inbox van uw werknemers bereikt.
 
 > [!IMPORTANT]
 > De regel voor ongewenste e-mail moet in een postvak worden ingeschakeld om te kunnen filteren om goed te kunnen filteren. Het is standaard ingeschakeld, maar u moet controleren of het filteren niet lijkt te werken. Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
 
-In dit onderwerp worden deze door Microsoft aanbevolen instellingen beschreven om uw Office 365-gebruikers te beschermen.
+In dit onderwerp worden deze door Microsoft aanbevolen instellingen beschreven om uw gebruikers te beschermen.
 
 > [!TIP]
 > Er is een nieuwe PowerShell-module die u downloaden, de Office 365 Advanced Threat Protection Recommended Configuration Analyzer (ORCA) die helpt bij het bepalen van een aantal van deze instellingen. Wanneer u wordt uitgevoerd als beheerder in uw tenant, helpt Get-ORCAReport bij het genereren van een beoordeling van de anti-spam-, anti-phish- en andere instellingen voor berichthygiëne. U deze https://www.powershellgallery.com/packages/ORCA/module downloaden op.
@@ -117,7 +117,7 @@ U deze instellingen alleen configureren in Office 365-organisaties met Exchange 
 | Naam beveiligingsfunctie | Standaard | Strikte | Opmerking |
 |---|---|---|---|
 |**Anti-spoofing-beveiliging inschakelen** <br/><br/> _AntispoofHandhaving inschakelen_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
-|**Niet-geverifieerde afzender inschakelen** <br/><br/> _Niet-geverifieerde afzender inschakelen_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Hiermee voegt u een vraagteken (?) toe aan de foto van de afzender in Outlook voor niet-geïdentificeerde vervalste afzenders. Zie [Spoofinstellingen in antiphishingbeleid](set-up-anti-phishing-policies.md#spoof-settings)voor meer informatie.|
+|**Niet-geverifieerde afzender inschakelen** <br/><br/> _Niet-geverifieerde afzender inschakelen_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Hiermee voegt u een vraagteken (?) toe aan de foto van de afzender in Outlook voor niet-geïdentificeerde vervalste afzenders. Zie [Spoofinstellingen in antiphishingbeleid](set-up-anti-phishing-policies.md)voor meer informatie.|
 |**Als e-mail wordt verzonden door iemand die uw domein niet mag spoofen** <br/><br/> _AuthenticationFailAction_|**Bericht verplaatsen naar de map ongewenste e-mail van de geadresseerden** <br/><br/> `MoveToJmf`|**Het bericht in quarantaine plaatsen** <br/><br/> `Quarantine`|Dit geldt voor geblokkeerde afzenders in [spoof intelligence.](learn-about-spoof-intelligence.md)|
 
 ## <a name="office-365-advanced-threat-protection-security"></a>Beveiliging van geavanceerde bedreigingsbeveiliging van Office 365
@@ -181,7 +181,7 @@ Houd er rekening mee dat dit dezelfde instellingen zijn die beschikbaar zijn in 
 | Naam beveiligingsfunctie | Standaard | Strikte | Opmerking |
 |---|---|---|---|
 |**Anti-spoofing-beveiliging inschakelen** <br/><br/> _AntispoofHandhaving inschakelen_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
-|**Niet-geverifieerde afzender inschakelen** <br/><br/> _Niet-geverifieerde afzender inschakelen_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Hiermee voegt u een vraagteken (?) toe aan de foto van de afzender in Outlook voor niet-geïdentificeerde vervalste afzenders. Zie [Spoofinstellingen in antiphishingbeleid](set-up-anti-phishing-policies.md#spoof-settings)voor meer informatie.|
+|**Niet-geverifieerde afzender inschakelen** <br/><br/> _Niet-geverifieerde afzender inschakelen_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Hiermee voegt u een vraagteken (?) toe aan de foto van de afzender in Outlook voor niet-geïdentificeerde vervalste afzenders. Zie [Spoofinstellingen in antiphishingbeleid](set-up-anti-phishing-policies.md)voor meer informatie.|
 |**Als e-mail wordt verzonden door iemand die uw domein niet mag spoofen** <br/><br/> _AuthenticationFailAction_|**Bericht verplaatsen naar de map ongewenste e-mail van de geadresseerden** <br/><br/> `MoveToJmf`|**Het bericht in quarantaine plaatsen** <br/><br/> `Quarantine`|Dit geldt voor geblokkeerde afzenders in [spoof intelligence.](learn-about-spoof-intelligence.md)|
 
 #### <a name="advanced-settings-in-atp-anti-phishing-policies"></a>Geavanceerde instellingen in ATP-antiphishingbeleid
@@ -215,7 +215,7 @@ Niet bijhouden wanneer gebruikers op veilige koppelingen klikken|Handicap|Handic
 
 - Bent u op zoek naar best practices met **Exchange Mail Flow / Exchange Transport Rules?** Zie [dit artikel](https://docs.microsoft.com/microsoft-365/security/office-365-security/best-practices-for-configuring-eop) voor meer informatie.
 
-- Beheerders en gebruikers kunnen valse positieven (goede e-mail gemarkeerd als slecht) en valse negatieven (slechte e-mail toegestaan) naar Microsoft voor analyse. Zie [Berichten en bestanden rapporteren aan Microsoft voor](report-junk-email-messages-to-microsoft.md)meer informatie.
+- Beheerders en gebruikers kunnen valse positieven (goede e-mail gemarkeerd als slecht) en valse negatieven (slechte e-mail toegestaan) naar Microsoft voor analyse. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
 - Gebruik deze koppelingen voor informatie over het **instellen van** uw [EOP-service](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)en **configureren van** [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp). (Vergeet niet de nuttige aanwijzingen te zien in['Beschermen tegen bedreigingen in Office 365'.)](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)
 

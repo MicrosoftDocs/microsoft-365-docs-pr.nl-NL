@@ -1,5 +1,5 @@
 ---
-title: Waarschuwingspagina's voor Veilige koppelingen van Office 365
+title: Waarschuwingspagina's voor ATP Safe Links
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,17 +16,17 @@ ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 ms.collection:
 - M365-security-compliance
 description: Bekijk een overzicht van waarschuwingspagina's die u mogelijk ziet wanneer Office 365 Advanced Threat Protection aan het werk is.
-ms.openlocfilehash: b784af4740a8379c7879935cdbf301da0cbff930
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: f061d4a35b1c77721464fe2cc5ac4a85ca4bd16e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528855"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635984"
 ---
-# <a name="office-365-atp-safe-links-warning-pages"></a>Waarschuwingspagina's voor Veilige koppelingen van Office 365
+# <a name="atp-safe-links-warning-pages"></a>Waarschuwingspagina's voor ATP Safe Links
 
 > [!IMPORTANT]
-> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Zie [Geavanceerd Outlook.com beveiliging](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2)als u Outlook.com, Office 365 Home of Office 365 Personal gebruikt en u op zoek bent naar informatie over veilige koppelingen in Outlook.
+> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Zie [Geavanceerd Outlook.com beveiliging](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2)als u Outlook.com, Microsoft 365 Family of Microsoft 365 Personal gebruikt en u op zoek bent naar informatie over veilige koppelingen in Outlook.
 
 [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) helpt uw organisatie te beschermen tegen phishingpogingen en malware via functies, zoals [ATP Safe Links,](atp-safe-links.md) [ATP Safe Attachments](atp-safe-attachments.md)en [anti-phishing bescherming.](anti-phishing-protection.md) Wanneer er beveiliging is, worden koppelingen (URL's) in e-mailberichten en Office-documenten gecontroleerd. Als een URL als verdacht of kwaadaardig wordt geïdentificeerd, wordt u mogelijk geblokkeerd om de URL te openen wanneer u erop klikt. In plaats van rechtstreeks naar de site te gaan, ziet u mogelijk een waarschuwingspagina.
 
@@ -60,7 +60,7 @@ De URL verwijst naar een site die is geïdentificeerd als kwaadaardig.  <br/> Wi
 
 ### <a name="a-site-is-blocked"></a>Een site is geblokkeerd
 
-De URL is geblokkeerd voor uw organisatie. Er zijn verschillende redenen waarom een URL kan worden geblokkeerd. We raden u aan contact op te nemen met de Office 365-beheerder van uw organisatie.
+De URL is geblokkeerd voor uw organisatie. Er zijn verschillende redenen waarom een URL kan worden geblokkeerd. We raden u aan contact op te nemen met de Microsoft 365 voor bedrijfsbeheerder van uw organisatie.
 
 ![Deze site is geblokkeerd](../../media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
 

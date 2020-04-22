@@ -14,25 +14,25 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Gebruik deze Test Lab Guide om intune-beleid voor apparaatnaleving toe te voegen aan uw Microsoft 365 Enterprise-testomgeving.
-ms.openlocfilehash: b0b8bd2d76a3959bbcca749545d9a16e50491d20
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4324ccca761e504812edc210ee6b6abdc484b670
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42812029"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631583"
 ---
 # <a name="device-compliance-policies-for-your-microsoft-365-enterprise-test-environment"></a>Nalevingsbeleid voor apparaten voor uw Microsoft 365 Enterprise-testomgeving
 
-*Deze Test Lab Guide kan alleen worden gebruikt voor Microsoft 365 Enterprise-testomgevingen.*
+*Deze testlabrichtlijn kan alleen worden gebruikt voor Microsoft 365 Enterprise-testomgevingen.*
 
-Met de instructies in dit artikel voegt u een Intune-beleid voor apparaatnaleving toe voor Windows 10-apparaten en Office 365 ProPlus aan uw Microsoft 365 Enterprise-testomgeving.
+Met de instructies in dit artikel voegt u een Intune-beleid voor apparaatnaleving toe voor Windows 10-apparaten en Microsoft 365 Apps for enterprise aan uw Microsoft 365 Enterprise-testomgeving.
 
-![Lab-handleidingen testen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de Microsoft 365 Enterprise Test Lab Guide stack.
+> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart met alle artikelen over de Microsoft 365 Enterprise-testlabrichtlijnen.
 
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: Uw Microsoft 365 Enterprise-testomgeving uitbouwen
+## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: uw Microsoft 365 Enterprise-testomgeving uitbouwen
 
 Als u alleen mam-beleid op een lichtgewicht manier wilt configureren met de minimale vereisten, volgt u de instructies in [lichtgewicht basisconfiguratie.](lightweight-base-configuration-microsoft-365-enterprise.md)
   
@@ -80,7 +80,7 @@ In deze fase maakt u een nalevingsbeleid voor apparaten voor apparaten met appar
 
 17. Selecteer **App-suitegegevens**in het deelvenster **App toevoegen** .
  
-18. Typ **Office 365 ProPlus** in het deelvenster **App Suite-informatie** in zowel **Suite-naam** als **suitebeschrijving**.
+18. Typ **Microsoft 365 Apps voor bedrijven in** het deelvenster App **Suite-informatie** in zowel **Suite-naam** als **suitebeschrijving**.
 Klik op OK.
 
 19. Selecteer **app-suite configureren**in het deelvenster **App toevoegen** en klik op **OK**.

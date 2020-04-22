@@ -14,12 +14,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
 description: 'Samenvatting: Beheer uw geïsoleerde SharePoint Online-teamsite met deze procedures.'
-ms.openlocfilehash: 59c86c869ed38c3e64ff19974660cf96ec4c715e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b5fe92f2653774b40eb227c9f8cbb57443fd51e2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42810432"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635386"
 ---
 # <a name="manage-an-isolated-sharepoint-online-team-site"></a>Een geïsoleerde SharePoint Online-teamsite beheren
 
@@ -37,9 +37,9 @@ Wanneer iemand nieuwe lid wordt van de site, moet u beslissen over hun niveau va
     
 - Weergeven: het gebruikersaccount toevoegen aan de toegangsgroep voor sitekijkers
     
-Als u gebruikersaccounts en -groepen beheert via Ad DS (Active Directory Domain Services), voegt u de juiste gebruikers toe aan de juiste toegangsgroepen met behulp van uw normale AD DS-gebruikers- en groepsbeheerprocedures en wacht u op synchronisatie met uw Office 365 Abonnement.
+Als u gebruikersaccounts en -groepen beheert via Active Directory Domain Services (AD DS), voegt u de juiste gebruikers toe aan de juiste toegangsgroepen met behulp van uw normale AD DS-gebruikers- en groepsbeheerprocedures en wacht u op synchronisatie met uw abonnement.
   
-Als u gebruikersaccounts en -groepen beheert via Office 365, u het Microsoft 365-beheercentrum of Microsoft PowerShell gebruiken:
+Als u gebruikersaccounts en -groepen beheert via Microsoft 365, u het Microsoft 365-beheercentrum of Microsoft PowerShell gebruiken:
   
 - Meld u voor het Microsoft 365-beheercentrum aan met een gebruikersaccount waaraan de rol Beheerder of bedrijfsbeheerder is toegewezen en gebruik Groepen om de juiste gebruikers toe te voegen aan de juiste toegangsgroepen.
     
@@ -69,7 +69,7 @@ Als u toegang wilt toevoegen aan een hele groep, moet u bepalen welk deelnameniv
     
 - Weergeven: de groep toevoegen aan de toegangsgroep voor sitekijkers
     
-Als u gebruikersaccounts en -groepen beheert via AD DS, voegt u de juiste groepen toe aan de juiste groepen met behulp van uw normale AD DS-gebruikers- en groepsbeheerprocedures en wacht u op synchronisatie met uw Office 365-abonnement.
+Als u gebruikersaccounts en -groepen beheert via AD DS, voegt u de juiste groepen toe aan de juiste groepen met behulp van uw normale AD DS-gebruikers- en groepsbeheerprocedures en wacht u op synchronisatie met uw abonnement.
   
 Als u gebruikersaccounts en -groepen beheert via Office 365, u het Microsoft 365-beheercentrum of PowerShell gebruiken:
   
@@ -94,7 +94,7 @@ Wanneer iemands toegang van de site moet worden verwijderd, verwijdert u deze ui
     
 - Weergeven: het gebruikersaccount verwijderen uit de toegangsgroep voor sitekijkers
     
-Als u gebruikersaccounts en -groepen beheert via AD DS, verwijdert u de juiste gebruikers uit de juiste toegangsgroepen met behulp van uw normale AD DS-gebruikers- en groepsbeheerprocedures en wacht u op synchronisatie met uw Office 365-abonnement.
+Als u gebruikersaccounts en -groepen beheert via AD DS, verwijdert u de juiste gebruikers uit de juiste toegangsgroepen met behulp van uw normale AD DS-gebruikers- en groepsbeheerprocedures en wacht u op synchronisatie met uw abonnement.
   
 Als u gebruikersaccounts en -groepen beheert via Office 365, u het Microsoft 365-beheercentrum of PowerShell gebruiken:
   
@@ -127,7 +127,7 @@ Als u de toegang voor een hele groep wilt verwijderen, verwijdert u de groep uit
     
 - Bekijken: de groep verwijderen uit de toegangsgroep voor sitekijkers
     
-Als u gebruikersaccounts en -groepen beheert via Windows Server Active Directory, verwijdert u de juiste groepen uit de juiste toegangsgroepen met behulp van uw normale AD DS-gebruikers- en groepsbeheerprocedures en wacht u op synchronisatie met uw Office 365 Abonnement.
+Als u gebruikersaccounts en -groepen beheert via Windows Server Active Directory, verwijdert u de juiste groepen uit de juiste toegangsgroepen met behulp van uw normale AD DS-gebruikers- en groepsbeheerprocedures en wacht u op synchronisatie met uw abonnement.
   
 Als u gebruikersaccounts en -groepen beheert via Office 365, u het Microsoft 365-beheercentrum of PowerShell gebruiken:
   
@@ -148,7 +148,7 @@ In sommige gevallen heeft een deel van de mensen die op de geïsoleerde site wer
   
 Ga als volgt te werk om een submap voor documenten met aangepaste machtigingen te maken:
   
-1. Meld u aan bij Office 365 met een account dat lid is van de beheertoegangsgroep voor de site. Zie Waar [moet u zich aanmelden bij Office 365 voor](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)hulp.
+1. Meld u aan bij een account dat lid is van de beheerderstoegangsgroep voor de site. Zie Waar [moet u zich aanmelden bij Microsoft 365 voor](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)hulp.
     
 2. Ga naar de geïsoleerde teamsite en klik op **Documenten**.
     

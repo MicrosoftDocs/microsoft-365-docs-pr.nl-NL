@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: e8729e8533fd2f01e893d805199027ae166586f1
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: 86bec329c5e0793be070df311d6058282e7be854
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516807"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636218"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Wat is Microsoft Managed Desktop?
 
@@ -28,7 +28,7 @@ Microsoft Managed Desktop biedt een oplossing voor een aantal van de uitdagingen
 - Veel huidige IT-beheer- en beveiligingsprocessen zijn verouderd, tijdsintensief en duur.
 - Bedrijven willen zich richten op wat hen uniek succesvol maakt, in plaats van het onderhouden van digitale infrastructuur.
 
-Uw eindgebruikers zullen genieten van de nieuwste versies van Windows 10- en Office 365 ProPlus-apps (en meer bovendien), met behulp van apparaten en software die zijn samengesteld en grondig zijn getest op de beste prestaties en betrouwbaarheid. Ook hoeft u zich nooit zorgen te maken over het up-to-date houden van deze software, want dat gebeurt automatisch, na een zorgvuldige implementatiereeks die elke stap van de weg wordt gecontroleerd. En geregistreerde apparaten worden 24x7 gecontroleerd op technische en beveiligingsproblemen, dus als er iets misgaat, zal er hulp onderweg zijn.
+Uw eindgebruikers zullen genieten van de nieuwste versies van Windows 10 en Microsoft 365 Apps voor zakelijke apps (en meer bovendien), met behulp van apparaten en software die zijn samengesteld en grondig getest op de beste prestaties en betrouwbaarheid. Ook hoeft u zich nooit zorgen te maken over het up-to-date houden van deze software, want dat gebeurt automatisch, na een zorgvuldige implementatiereeks die elke stap van de weg wordt gecontroleerd. En geregistreerde apparaten worden 24x7 gecontroleerd op technische en beveiligingsproblemen, dus als er iets misgaat, zal er hulp onderweg zijn.
 
 
 ## <a name="unique-to-microsoft-managed-desktop"></a>Uniek voor Microsoft Managed Desktop
@@ -74,8 +74,8 @@ Als Microsoft Managed Desktop geschikt lijkt voor uw organisatie, u zich verdiep
 - [Rollen en verantwoordelijkheden van Microsoft Managed Desktop](roles-and-responsibilities.md)
 - [Microsoft Managed Desktop-technologieën](technologies.md)
 - [Microsoft Managed Desktop en ITIL](../MMD-and-ITSM.md)
-- [Naleving](compliance.md)
-- [Beschrijving van microsoft Managed Desktop-service](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/)
+- [Compliance](compliance.md)
+- [Servicebeschrijving van Microsoft Managed Desktop](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/)
 
 **Maak je klaar voor inschrijving** In deze onderwerpen worden de stappen beschreven die u in uw organisatie moet nemen om u voor te bereiden op inschrijving, waaronder het controleren of uw omgeving voldoet aan belangrijke vereisten, het configureren van netwerken, het instellen van certificaten en het voorbereiden van uw apps.
 
@@ -88,13 +88,13 @@ Als Microsoft Managed Desktop geschikt lijkt voor uw organisatie, u zich verdiep
 
 **Aan de slag** Zodra u klaar bent om u in te schrijven, bevat deze sectie de stappen die u moet volgen om daadwerkelijk lid te worden van de service, apparaten te verkrijgen en in te stellen, uw eindgebruikers voor te bereiden en apps te implementeren.
 
-- [Beheerderscontactpersonen toevoegen en verifiëren in de beheerportal](../get-started/add-admin-contacts.md)
+- [Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal](../get-started/add-admin-contacts.md)
 - [Voorwaardelijke toegang aanpassen](../get-started/conditional-access.md)
 - [Licenties toewijzen](../get-started/assign-licenses.md)
 - [Intune Company Portal installeren op apparaten](../get-started/company-portal.md)
-- [Roaming voor ondernemingsstatus inschakelen](../get-started/enterprise-state-roaming.md)
+- [Enterprise State Roaming inschakelen](../get-started/enterprise-state-roaming.md)
 - [Microsoft Managed Desktop-apparaten instellen](../get-started/set-up-devices.md)
-- [Uw gebruikers klaar maken om apparaten te gebruiken](../get-started/get-started-devices.md)
+- [Uw gebruikers voorbereiden om apparaten te gebruiken](../get-started/get-started-devices.md)
 - [Apps implementeren op apparaten](../get-started/deploy-apps.md)
 
 **Werken met Microsoft Managed Desktop** In dit gedeelte vindt u informatie over uw dagelijkse leven met de service, zoals hoe uw IT-beheerders ondersteuning kunnen krijgen indien nodig, hoe uw eindgebruikers ondersteuning krijgen, het beheren van uw apps eenmaal geïmplementeerd en hoe u de aanpasbare instellingen op apparaten bewerken.
@@ -111,4 +111,3 @@ Als Microsoft Managed Desktop geschikt lijkt voor uw organisatie, u zich verdiep
 
 <!--With Microsoft Managed Desktop, you get **software as a service** (Microsoft 365 E5), **Device as a service** (Microsoft Surface devices ready to use), and **IT support as a service** (Help desk and more).--> 
  
-

@@ -1,5 +1,5 @@
 ---
-title: Beschermen tegen bedreigingen in Office 365
+title: Beveiligen tegen bedreigingen
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,16 +17,16 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: Gebruik dit artikel als een handleiding om uw functies voor bedreigingsbescherming nu te configureren.
-ms.openlocfilehash: 34a89f9db0ca7424d90909f09f7a2bfb4fcf3b6a
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: 0adf7bbb2637cc8a8d2918d951c1ccef51060b31
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528555"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634458"
 ---
-# <a name="protect-against-threats-in-office-365"></a>Beschermen tegen bedreigingen in Office 365
+# <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
-Office 365 bevat verschillende functies voor bedreigingsbescherming. Hier is een handleiding voor snel starten die u gebruiken als checklist om ervoor te zorgen dat uw functies voor bedreigingsbescherming zijn ingesteld voor uw organisatie. Als u nieuw bent in functies voor bedreigingsbeveiliging in Office 365 of als u niet zeker weet waar u moet beginnen, gebruikt u de volgende richtlijnen als uitgangspunt.
+Microsoft 365 bevat een verscheidenheid aan functies voor bedreigingsbescherming. Hier is een handleiding voor snel starten die u gebruiken als checklist om ervoor te zorgen dat uw functies voor bedreigingsbescherming zijn ingesteld voor uw organisatie. Als u nieuw bent in functies voor bedreigingsbeveiliging in Office 365 of als u niet zeker weet waar u moet beginnen, gebruikt u de volgende richtlijnen als uitgangspunt.
 
 > [!IMPORTANT]
 > **De eerste aanbevolen instellingen zijn opgenomen voor elk type beleid; er zijn echter veel opties beschikbaar en u uw instellingen aanpassen aan de behoeften van uw specifieke organisatie.** Geef uw beleid of wijzigingen ongeveer 30 minuten de tijd om zich een weg te banen door uw datacenter.
@@ -35,7 +35,7 @@ Office 365 bevat verschillende functies voor bedreigingsbescherming. Hier is een
 
 ### <a name="subscriptions"></a>Abonnementen
 
-Functies voor bedreigingsbescherming zijn opgenomen in alle Office 365-abonnementen; Sommige abonnementen bevatten echter meer geavanceerde functies. In de volgende tabel worden de beveiligingsfuncties in dit artikel weergegeven, samen met de minimale abonnementsvereisten.
+Functies voor bedreigingsbescherming zijn opgenomen in alle Microsoft 365-abonnementen; Sommige abonnementen bevatten echter meer geavanceerde functies. In de volgende tabel worden de beveiligingsfuncties in dit artikel weergegeven, samen met de minimale abonnementsvereisten.<br/>
 
 |||
 |---|---|
@@ -53,15 +53,14 @@ Functies voor bedreigingsbescherming zijn opgenomen in alle Office 365-abonnemen
 
 U moet een geschikte rol toegewezen krijgen om beleid te configureren in het [Security & Compliance Center.](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) De volgende tabel bevat enkele voorbeelden:
 
-|||
-|---|---|
-|**Rol of rollengroep**|**Waar u meer leren**|
-|Globale beheerder van Office 365|[Informatie over beheerdersrollen in Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
+|Rol of rollengroep|Waar u meer leren|
+|---------|---------|
+|globale beheerder|[Over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
 |Beveiligingsbeheerder|[Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Exchange Online Organisatiebeheer|[Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>En<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
 |
 
-Zie [Machtigingen in het Office 365 &amp; Security Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie.
+Zie [Machtigingen in het Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie.
 
 ## <a name="part-1---anti-malware-protection"></a>Deel 1 - Bescherming tegen malware
 
@@ -107,7 +106,7 @@ Als u [ATP Safe Attachments](atp-safe-attachments.md)wilt instellen, moet u ten 
 
 5. Klik op **Opslaan**.
 
-6. (**Aanbevolen extra stap**) Als globale beheerder of SharePoint Online-beheerder voert u de cmdlet **[Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** uit met de parameter **DisallowInfectedFileDownload** die is ingesteld op *true* voor uw Office 365-omgeving. (Dit voorkomt dat mensen bestanden openen, verplaatsen, kopiëren of delen die als kwaadaardig worden gedetecteerd.)
+6. (**Aanbevolen extra stap**) Als globale beheerder of SharePoint Online-beheerder voert u de **[cmdlet Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** uit met de parameter **DisallowInfectedFileDownload** die is ingesteld op *true* voor uw Microsoft 365-omgeving. (Dit voorkomt dat mensen bestanden openen, verplaatsen, kopiëren of delen die als kwaadaardig worden gedetecteerd.)
 
 Zie Office [365 ATP-beleid voor veilige bijlagen instellen](set-up-atp-safe-attachments-policies.md) en Office [365 ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
 
@@ -119,7 +118,7 @@ Als u [ATP Safe Links wilt](atp-safe-links.md)instellen, controleert en bewerkt 
 
 2. Dubbelklik op het **standaardbeleid.**
 
-3. Selecteer **in** de sectie Veilige koppelingen gebruiken in de optie **Office 365 ProPlus, Office voor iOS en Android**en klik op **Opslaan**.
+3. Selecteer **in** de sectie Veilige koppelingen gebruiken in de optie Microsoft **365 Apps voor bedrijven, Office voor iOS en Android**en klik op **Opslaan**.
 
 4. Klik **in de sectie Beleid dat van toepassing is op specifieke ontvangers** op het plusteken (**+**).
 
@@ -215,7 +214,7 @@ Zie [Zero-hour auto purge voor](zero-hour-auto-purge.md)meer informatie - besche
 
 ### <a name="audit-logging-for-reporting-and-investigation"></a>Controlelogboekregistratie voor rapportage en onderzoek
 
-Controlelogboekregistratie is beschikbaar in abonnementen die [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description)bevatten. Als u gegevens wilt weergeven in meldingen van bedreigingsbeveiliging, zoals het [beveiligingsdashboard,](security-dashboard.md) [e-mailbeveiligingsrapporten](view-email-security-reports.md)en [Explorer,](threat-explorer.md)moet controlelogboekregistratie voor uw organisatie worden ingeschakeld. Zie [Office 365-controlelogboekzoeken in of uit zetten](../../compliance/turn-audit-log-search-on-or-off.md)voor meer informatie.
+Controlelogboekregistratie is beschikbaar in abonnementen die [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description)bevatten. Als u gegevens wilt weergeven in meldingen van bedreigingsbeveiliging, zoals het [beveiligingsdashboard,](security-dashboard.md) [e-mailbeveiligingsrapporten](view-email-security-reports.md)en [Explorer,](threat-explorer.md)moet controlelogboekregistratie voor uw organisatie worden ingeschakeld. Zie [Zoeken in het controlelogboek in- of uitschakelen](../../compliance/turn-audit-log-search-on-or-off.md)voor meer informatie.
 
 ## <a name="post-setup-tasks"></a>Taken na het instellen
 
@@ -225,6 +224,6 @@ Nadat u uw functies voor bedreigingsbeveiliging hebt geconfigureerd, moet u cont
 |---|---|
 |**Wat te doen**|**Informatiebronnen**|
 |Bekijk hoe functies voor bedreigingsbescherming voor uw organisatie werken door rapporten te bekijken|[Beveiligingsdashboard](security-dashboard.md)<br/>[Beveiligingsrapporten per e-mail](view-email-security-reports.md)<br/>[Rapporten voor Office 365 ATP](view-reports-for-atp.md)<br/>[Bedreigingsverkenner](threat-explorer.md)|
-|Uw beleid voor bedreigingsbescherming regelmatig controleren en herzien als dat nodig is|[Secure Score](../mtp/microsoft-secure-score.md)<br/>[Slimme rapporten en inzichten](reports-and-insights-in-security-and-compliance.md)<br/>[Functies voor het onderzoeken en reageren van Office 365-bedreigingen](keep-users-safe-with-office-365-ti.md)|
+|Uw beleid voor bedreigingsbescherming regelmatig controleren en herzien als dat nodig is|[Veilige score](../mtp/microsoft-secure-score.md)<br/>[Slimme rapporten en inzichten](reports-and-insights-in-security-and-compliance.md)<br/>[Microsoft 365 threat investigation and response features Microsoft 365 threat investigation and response features Microsoft 365 threat investigation and response features Microsoft 3](keep-users-safe-with-office-365-ti.md)|
 |Kijk uit voor nieuwe functies en service-updates|[Standaard- en gerichte releaseopties](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide)<br/>[Berichtencentrum](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide)<br/>[Microsoft 365-roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Servicebeschrijvingen](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
 |

@@ -1,5 +1,5 @@
 ---
-title: Voer uw productcode in voor Office 365 Business Premium
+title: Voer uw productcode in voor Microsoft 365 Business Standard
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,22 +21,22 @@ search.appverid:
 - BEA160
 ms.assetid: 0199dd39-7c46-4875-af9b-588df3a9afea
 ROBOTS: NOINDEX
-description: Meer informatie over het inwisselen van een Office 365 Business Premium-productcode die in een winkel is gekocht.
+description: Meer informatie over het inwisselen van een Microsoft 365 Business Standard-productcode die in een winkel is gekocht.
 ms.custom: okr_SMB
-ms.openlocfilehash: 6ae3a490d4ee7bc311421bf69e7437c1c345c1d4
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 9cabc3d3f132ef2e3e56c1209b632f1e10a8637e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42812129"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634906"
 ---
-# <a name="enter-your-product-key-for-office-365-business-premium"></a>Voer uw productcode in voor Office 365 Business Premium
+# <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Voer uw productcode in voor Microsoft 365 Business Standard
 
-Als u Office 365 Business Premium hebt gekocht in een winkel, u in dit artikel uw abonnement activeren. 
+Als u Microsoft 365 Business Standard hebt gekocht in een winkel, u in dit artikel uw abonnement activeren. 
   
  **Hebt u iets anders nodig?**
- Zie [Productcodes gebruiken met Office](https://support.office.com/article/12a5763a-d45c-4685-8c95-a44500213759.aspx) **voor hulp bij Office 365 Home of Persoonlijk.**  
- **Hebt u een volumelicentie?** Als u Office 365 voor Bedrijven hebt gekocht via een [Microsoft Open License Program,](https://go.microsoft.com/fwlink/p/?LinkID=613298)raadpleegt u het [artikel, Voer uw productcode in die is gekocht bij Microsoft Open.](purchases-from-microsoft-open.md)
+ Zie [Productcodes gebruiken met Office](https://support.office.com/article/12a5763a-d45c-4685-8c95-a44500213759.aspx)voor **hulp bij Microsoft 365 Family of Microsoft 365 Personal.**  
+ **Hebt u een volumelicentie?** Als u Microsoft 365 voor bedrijven hebt gekocht via een [Microsoft Open License Program,](https://go.microsoft.com/fwlink/p/?LinkID=613298)raadpleegt u het [artikel, Voer uw productcode in die is gekocht bij Microsoft Open.](purchases-from-microsoft-open.md)
   
 ## <a name="activate-a-new-subscription"></a>Een nieuw abonnement activeren
 
@@ -57,14 +57,14 @@ Als u Office 365 Business Premium hebt gekocht in een winkel, u in dit artikel u
 
 ## <a name="extend-the-expiration-date-or-add-a-license-to-an-existing-subscription"></a>De vervaldatum verlengen of een licentie toevoegen aan een bestaand abonnement
 
-Als u een productcode wilt gebruiken om de vervaldatum te verlengen of een licentie toe te voegen aan uw bestaande Office 365 Business Premium-abonnement, hebt u een nieuwe en ongebruikte sleutel nodig voor hetzelfde Office 365-abonnement. De oorspronkelijke productcode voor Office 365 werkt niet, omdat deze code al is ingewisseld en niet opnieuw kan worden gebruikt. Zie [Licenties toevoegen aan of verlengen van een abonnement waarvoor een productcode wordt betaald.](licenses/add-licenses-using-product-key.md)
+Als u een productcode wilt gebruiken om de vervaldatum te verlengen of een licentie toe te voegen aan uw bestaande Microsoft 365 Business Standard-abonnement, hebt u een nieuwe en ongebruikte sleutel nodig voor hetzelfde Microsoft 365-abonnement. Het invoeren van uw oorspronkelijke Microsoft 365-productcode werkt niet omdat een sleutel die al is ingewisseld, niet opnieuw kan worden gebruikt. Zie [Licenties toevoegen aan of verlengen van een abonnement waarvoor een productcode wordt betaald.](licenses/add-licenses-using-product-key.md)
 
 ## <a name="whats-next"></a>En nu?
 
-Als u nog nooit eerder met Office 365 voor Bedrijven hebt gewerkt, leest u [hoe u Office 365 kunt instellen](../admin/setup/setup.md).
+Als u nieuw bent bij Microsoft 365 voor bedrijven, leest u hoe u [Microsoft 365 instelt.](../admin/setup/setup.md)
   
 ## <a name="still-having-trouble-with-product-keys"></a>Heb je nog steeds problemen met productcodes?
 
-Bekijk deze lijst met veelvoorkomende fouten en oplossingen: [Hebt u problemen met uw productcode voor Office 365 voor Bedrijven?](product-key-errors-and-solutions.md)
+Bekijk deze lijst met veelvoorkomende fouten en oplossingen: [Problemen met uw Microsoft 365 voor zakelijke productcode?](product-key-errors-and-solutions.md)
   
 U kunt ook [Microsoft Ondersteuning bellen](../admin/contact-support-for-business-products.md).

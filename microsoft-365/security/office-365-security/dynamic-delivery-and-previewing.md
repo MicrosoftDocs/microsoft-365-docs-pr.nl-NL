@@ -1,5 +1,5 @@
 ---
-title: Dynamische bezorging en voorbeeldfunctie met veilige bijlagen met ATP (Advanced Threat Protection) in Office 365
+title: Dynamische levering en previewing met veilige ATP-bijlagen
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,14 +17,14 @@ ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 ms.collection:
 - M365-security-compliance
 description: Wanneer u uw ATP-beleid voor veilige bijlagen instelt, kiest u Dynamische bezorging om berichtvertragingen te voorkomen en personen in staat te stellen een voorbeeld van bijlagen te bekijken die worden gescand.
-ms.openlocfilehash: 755a5a317710946a3a03004482a6b48c8947c1a7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
-ms.translationtype: HT
+ms.openlocfilehash: c8e0a60912244a636fbbe6ca62f7c1b9c260e0f6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42809515"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637566"
 ---
-# <a name="dynamic-delivery-and-previewing-with-office-365-atp-safe-attachments"></a>Dynamische bezorging en voorbeeldfunctie met veilige bijlagen met ATP (Advanced Threat Protection) in Office 365
+# <a name="dynamic-delivery-and-previewing-with-atp-safe-attachments"></a>Dynamische levering en previewing met veilige ATP-bijlagen
 
 ## <a name="overview"></a>Overzicht
 
@@ -38,16 +38,16 @@ Dynamische bezorging elimineert e-mailvertragingen door de hoofdtekst van een e-
 
 - Nadat een bijlage is gescand, is deze beschikbaar om te openen of te downloaden.
 
-- Als wordt vastgesteld dat een bijlage schadelijk is, wordt deze in quarantaine gezet, waar iemand in het beveiligingsteam van uw organisatie (zoals een globale beheerder of beveiligingsbeheerder van Office 365) [in quarantaine geplaatste berichten in Office 365 kan beheren](manage-quarantined-messages-and-files.md).
+- Als wordt vastgesteld dat een bijlage schadelijk is, wordt deze naar quarantaine verzonden, waar iemand in het beveiligingsteam van uw organisatie (zoals een globale beheerder of beveiligingsbeheerder) [in quarantaine geplaatste berichten in Office 365](manage-quarantined-messages-and-files.md)kan beheren.
 
 De meeste PDF-bestanden en Office-documenten kunnen worden weergegeven in de veilige modus terwijl er met ATP wordt gescand. Als een bijlage niet compatibel is met de voorbeeldweergave voor dynamische bezorging, zien geadresseerden van e-mailberichten een tijdelijke aanduiding voor bijlagen, totdat het scannen van de veilige bijlagen is voltooid.
 
 > [!TIP]
-> Als u een mobiel apparaat gebruikt en PDF-bestanden niet eerst worden weergegeven in de voorbeeldweergave voor dynamische bezorging, probeert u zich met uw mobiele browser aan te melden bij Office 365.
+> Als u een mobiel apparaat gebruikt en PDF's worden in eerste instantie niet weergegeven in Dynamic Delivery previewer, probeert u zich aan te melden met uw mobiele browser.
 
 Met dynamische bezorging kunnen personen hun e-mailberichten meteen lezen en beantwoorden, terwijl hun bijlagen worden geanalyseerd.
 
-Het scannen met ATP veilige bijlagen vindt plaats in hetzelfde gebied waar uw Office 365-gegevens zich bevinden. Voor meer informatie over de geografie in datacenters raadpleegt u [waar bevinden uw gegevens zich?](https://products.office.com/where-is-your-data-located?geo=All)
+Het scannen van ATP-bijlagen vindt plaats in dezelfde regio waar uw Microsoft 365-gegevens zich bevinden. Voor meer informatie over de geografie in datacenters raadpleegt u [waar bevinden uw gegevens zich?](https://products.office.com/where-is-your-data-located?geo=All)
 
 ## <a name="what-happens-when-someone-forwards-an-email-that-contains-an-attachment"></a>Wat gebeurt er als iemand een e-mailbericht met een bijlage doorstuurt?
 

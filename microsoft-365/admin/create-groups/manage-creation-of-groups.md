@@ -1,5 +1,5 @@
 ---
-title: Beheren wie Office 365-groepen kunnen maken
+title: Beheren wie groepen kan maken
 f1.keywords: NOCSH
 ms.author: mikeplum
 ms.reviewer: arvaradh
@@ -20,20 +20,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
-description: Meer informatie over hoe u bepalen welke gebruikers Office 365-groepen kunnen maken.
-ms.openlocfilehash: d31690cb6438c6563b01e0597f7f2b1ff96e3b9a
-ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
+description: Meer informatie over hoe u bepalen welke gebruikers Microsoft 365-groepen kunnen maken.
+ms.openlocfilehash: 5ecd48161a751a1558146236d48df13bb0662ad1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43547584"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630403"
 ---
-# <a name="manage-who-can-create-office-365-groups"></a>Beheren wie Office 365-groepen kunnen maken
+# <a name="manage-who-can-create-groups"></a>Beheren wie groepen kan maken
 
   
-Gebruikers kunnen eenvoudig zelf Office 365-groepen maken, dus u wordt niet langer overspoeld met aanvragen ze namens anderen te maken. Afhankelijk van uw bedrijf wilt u wellicht zelf bepalen wie er groepen kunnen maken.
+Omdat het voor gebruikers zo gemakkelijk is om Microsoft 365-groepen te maken, wordt u niet overspoeld met verzoeken om ze namens andere mensen te maken. Afhankelijk van uw bedrijf wilt u wellicht zelf bepalen wie er groepen kunnen maken.
   
-In dit artikel wordt uitgelegd hoe u de mogelijkheid om groepen te maken in alle Office 365-services die groepen gebruiken, uitschakelen, waaronder:
+In dit artikel wordt uitgelegd hoe u de mogelijkheid voor het maken van groepen in alle Microsoft 365-services die groepen gebruiken, uitschakelen, waaronder:
   
 - Outlook
     
@@ -53,9 +53,9 @@ In dit artikel wordt uitgelegd hoe u de mogelijkheid om groepen te maken in alle
 
 - Routekaart
     
-U het maken van Office 365-groep beperken tot de leden van een bepaalde beveiligingsgroep. Om dit te configureren, gebruikt u Windows PowerShell. Dit artikel leidt u door de nodige stappen.
+U het maken van Microsoft 365-groepen beperken tot de leden van een bepaalde beveiligingsgroep. Om dit te configureren, gebruikt u Windows PowerShell. Dit artikel leidt u door de nodige stappen.
   
-De stappen in dit artikel verhinderen niet dat leden van bepaalde rollen groepen maken. Beheerders van Office 365 Global kunnen groepen op alle mogelijke manieren maken, zoals het Microsoft 365-beheercentrum, Planner, Teams, Exchange en SharePoint Online. Andere rollen kunnen groepen maken via beperkte middelen, hieronder vermeld.
+De stappen in dit artikel verhinderen niet dat leden van bepaalde rollen groepen maken. Globale beheerders kunnen groepen op alle manieren maken, zoals het Microsoft 365-beheercentrum, Planner, Teams, Exchange en SharePoint Online. Andere rollen kunnen groepen maken via beperkte middelen, hieronder vermeld.
         
   - Exchange Administrator: Exchange Admin center, Azure AD
     
@@ -71,7 +71,7 @@ De stappen in dit artikel verhinderen niet dat leden van bepaalde rollen groepen
   
   - Beheerder van het beheer van gebruiker: Microsoft 365-beheercentrum, Yammer, Azure AD
      
-Als u lid bent van een van deze rollen, kunt u Office 365 Groepen maken voor gebruikers met beperkte toegang, en vervolgens de gebruiker instellen als de eigenaar van de groep. Gebruikers die deze rol hebben, kunnen verbonden groepen maken in Yammer, ongeacht de PowerShell-instellingen die het maken kunnen verhinderen.
+Als u lid bent van een van deze rollen, u Microsoft 365-groepen maken voor beperkte gebruikers en de gebruiker vervolgens toewijzen als eigenaar van de groep. Gebruikers die deze rol hebben, kunnen verbonden groepen maken in Yammer, ongeacht de PowerShell-instellingen die het maken kunnen verhinderen.
 
 ## <a name="licensing-requirements"></a>Licentievereisten
 
@@ -85,16 +85,16 @@ Om te beheren wie groepen maakt, hebben de volgende personen Azure AD Premium-li
 
 De volgende personen hebben geen Azure AD Premium- of Azure AD Basic EDU-licenties nodig die aan hen zijn toegewezen:
 
-- Mensen die lid zijn van Office 365-groepen en die niet de mogelijkheid hebben om andere groepen te maken.
+- Mensen die lid zijn van Microsoft 365-groepen en die niet de mogelijkheid hebben om andere groepen te maken.
 
-## <a name="step-1-create-a-security-group-for-users-who-need-to-create-office-365-groups"></a>Stap 1: een beveiligingsgroep maken voor gebruikers die Office 365 Groepen moeten kunnen maken
+## <a name="step-1-create-a-security-group-for-users-who-need-to-create-microsoft-365-groups"></a>Stap 1: Een beveiligingsgroep maken voor gebruikers die Microsoft 365-groepen moeten maken
 
 Er kan slechts één beveiligingsgroep in uw organisatie worden gebruikt om te bepalen wie groepen kan maken. U kunt wel andere beveiligingsgroepen nesten als leden van deze groep. Voorbeeld: de groep met de naam Groep maken toestaan is de aangewezen beveiligingsgroep en de groepen met de naam Microsoft Planner-gebruikers en Exchange Online-gebruikers zijn lid van die groep.
 
 Beheerders in de bovenstaande rollen hoeven geen lid te zijn van deze groep: ze behouden hun mogelijkheid om groepen te maken.
 
 > [!IMPORTANT]
-> Zorg ervoor dat u een **beveiligingsgroep** gebruikt om te beperken wie groepen kan maken. Als u een Office 365-groep probeert te gebruiken, kunnen leden geen groep maken vanuit SharePoint omdat deze controleert op een beveiligingsgroep. 
+> Zorg ervoor dat u een **beveiligingsgroep** gebruikt om te beperken wie groepen kan maken. Als u een Microsoft 365-groep probeert te gebruiken, kunnen leden geen groep maken vanuit SharePoint omdat deze controleert op een beveiligingsgroep. 
     
 1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
 
@@ -174,7 +174,7 @@ Als u de groepsinstellingsbeperking wilt uitschakelen en alle gebruikers opnieuw
     
 ## <a name="step-4-verify-that-it-works"></a>Stap 4: Controleren of het werkt
 
-1. Meld u aan bij Office 365 met een gebruikersaccount van iemand die NIET in staat mag zijn om groepen te maken. Dat wil zeggen, ze zijn geen lid van de beveiligingsgroep die u hebt gemaakt of een beheerder.
+1. Meld u aan met een gebruikersaccount van iemand die NIET de mogelijkheid zou moeten hebben om groepen te maken. Dat wil zeggen, ze zijn geen lid van de beveiligingsgroep die u hebt gemaakt of een beheerder.
     
 2. Selecteer de tegel **Planner.** 
     

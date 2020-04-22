@@ -17,19 +17,19 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Stel beleid voor veilige koppelingen in om uw organisatie te beschermen tegen schadelijke koppelingen in Word-, Excel-, PowerPoint- en Visio-bestanden en in e-mailberichten.
-ms.openlocfilehash: a1a78afe7480ed9f68f8cd893c00876872317785
-ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
+ms.openlocfilehash: 31401e8f890f329f5724347deec2d85b6e473552
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43230978"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638330"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP-beleid voor veilige koppelingen instellen
 
 > [!IMPORTANT]
 > Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Zie [Geavanceerde Outlook.com beveiliging](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2)als u een thuisgebruiker bent die op zoek is naar informatie over veilige koppelingen in Outlook.
 
-[ATP Safe Links](atp-safe-links.md), een functie van [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP), kan uw organisatie beschermen tegen schadelijke links die worden gebruikt bij phishing en andere aanvallen. Als u over de benodigde [machtigingen beschikt &amp; voor het Office 365 Security Compliance Center,](permissions-in-the-security-and-compliance-center.md)u het beleid voor veilige koppelingen van ATP instellen om ervoor te zorgen dat wanneer mensen op webadressen (URL's) klikken, uw organisatie wordt beschermd. Uw BELEID voor veilige koppelingen van ATP kan worden geconfigureerd om URL's in e-mail en URL's in Office-documenten te scannen.
+[ATP Safe Links](atp-safe-links.md), een functie van [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP), kan uw organisatie beschermen tegen schadelijke links die worden gebruikt bij phishing en andere aanvallen. Als u over de benodigde [machtigingen beschikt voor het Security &amp; Compliance Center,](permissions-in-the-security-and-compliance-center.md)u het beleid voor veilige koppelingen van ATP instellen om ervoor te zorgen dat wanneer mensen op webadressen (URL's) klikken, uw organisatie is beveiligd. Uw BELEID voor veilige koppelingen van ATP kan worden geconfigureerd om URL's in e-mail en URL's in Office-documenten te scannen.
 
 Als ATP Safe Links is ingeschakeld, wordt er een waarschuwingspagina geopend als een gebruiker op een koppeling in een e-mail klikt en de URL is geblokkeerd door de aangepaste geblokkeerde URL-lijst van uw organisatie of als de URL kwaadaardig is verklaard, wordt een waarschuwingspagina geopend.
   
@@ -53,17 +53,17 @@ Als ATP Safe Links is ingeschakeld, wordt er een waarschuwingspagina geopend als
 
     |Rol  |Waar/hoe toegewezen  |
     |---------|---------|
-    |Globale beheerder van Office 365 |De persoon die zich aanmeldt om Office 365 te kopen, is standaard een globale beheerder. (Zie [Over Office 365-beheerdersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) voor meer informatie.)         |
+    |globale beheerder |De persoon die zich aanmeldt om Microsoft 365 te kopen is standaard een globale beheerder. (Zie [Over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) voor meer informatie.)         |
     |Beveiligingsbeheerder |Azure Active Directory-beheercentrum ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
     |Exchange Online Organisatiebeheer |Exchange-beheercentrum[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)( ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell)](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell) |
 
-    Zie Machtigingen in het Office [365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rollen en machtigingen.
+    Zie [Machtigingen in het Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rollen en machtigingen.
 
 - Zorg ervoor dat Office-clients zijn geconfigureerd om [moderne verificatie](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016) te gebruiken (dit is voor de bescherming van ATP Safe Links in Office-documenten).
     
 - [Meer informatie over de beleidsopties voor veilige links van ATP](#step-4-learn-about-atp-safe-links-policy-options) (in dit artikel). 
 
-- Geef u tot 30 minuten de tijd om uw nieuwe of bijgewerkte beleid te verspreiden naar alle Office 365-datacenters.
+- Geef u tot 30 minuten de tijd om uw nieuwe of bijgewerkte beleid te verspreiden naar alle Microsoft 365-datacenters.
     
 ## <a name="step-2-define-or-review-the-atp-safe-links-policy-that-applies-to-everyone"></a>Stap 2: Het BELEID voor veilige links van ATP definiëren (of beoordelen) dat voor iedereen van toepassing is
 
@@ -99,9 +99,7 @@ Nadat u het standaard BELEID voor veilige koppelingen van ATP hebt beoordeeld (o
 
     - Typ **in het** vak Beschrijving een beschrijving zoals: Voorkomt dat mensen in bepaalde groepen doorklikken naar een website zonder verificatie van ATP Safe Links.
 
-    - Kies **Onder De actie selecteren voor onbekende mogelijk schadelijke URL's in berichten**, kies **Aan**.
-
-    - Als u **De actie selecteren voor onbekende of mogelijk schadelijke URL's binnen Microsoft Teams**ziet selecteren, kiest u **Op**. <br/>
+    - Kies in de sectie **De actie selecteren de** optie **Aan**.
 
     - Selecteer **Real-time URL-scannen toepassen op verdachte koppelingen en koppelingen die naar bestanden verwijzen** als u URL-ontploffing wilt inschakelen voor verdachte en bestandsaanwijzende URL's (aanbevolen). En selecteer **Wachten tot het scannen van url's is voltooid voordat** u het bericht aflevert als u wilt dat gebruikers alleen berichten ontvangen nadat de URL's volledig zijn gescand.
 
@@ -116,7 +114,7 @@ Nadat u het standaard BELEID voor veilige koppelingen van ATP hebt beoordeeld (o
 6. Selecteer **Save**.
 
 > [!NOTE]
-> Het BELEID voor veilige links van ATP met een hogere prioriteit heeft voorrang. Als een gebruiker onderworpen is aan twee of meer beleidsregels, wordt alleen het beleid met een hogere prioriteit van kracht.
+> Het BELEID voor veilige links van ATP met een hogere prioriteit heeft voorrang. Als een gebruiker onderworpen is aan twee of meer politiekorpsen, wordt alleen het beleid met een hogere prioriteit van kracht.
     
 ## <a name="step-4-learn-about-atp-safe-links-policy-options"></a>Stap 4: Meer informatie over de beleidsopties voor veilige links van ATP
 
@@ -131,7 +129,7 @@ Standaardbeleidsopties zijn van toepassing op iedereen in uw organisatie.
 |Deze optie  |Is dit  |
 |---------|---------|
 | **De volgende URL's blokkeren** <br/>    | Hiermee kan uw organisatie een aangepaste lijst met URL's hebben die automatisch worden geblokkeerd. Wanneer gebruikers op een URL in deze lijst klikken, worden ze naar een [waarschuwingspagina](atp-safe-links-warning-pages.md) geleid waarin wordt uitgelegd waarom de URL is geblokkeerd. Zie Een [aangepaste geblokkeerde URL-lijst instellen met office 365 ATP Safe Links](set-up-a-custom-blocked-urls-list-wtih-atp.md)voor meer informatie. |
-| **Office 365 ProPlus, Office voor iOS en Android** <br/>    | Wanneer deze optie is geselecteerd, wordt de bescherming van ATP Safe Links toegepast op URL's in Word-, Excel- en PowerPoint-bestanden in Windows of Mac OS, e-mailberichten in Outlook, Office-documenten op iOS- of Android-apparaten, Visio 2016-bestanden in Windows en bestanden die zijn geopend in de webversies van Office-apps (Word, PowerPoint, Excel, Outlook en OneNote), mits de gebruiker zich heeft aangemeld bij Office 365. |
+| **Microsoft 365 Apps voor bedrijven, Office voor iOS en Android** <br/>    | Wanneer deze optie is geselecteerd, wordt de bescherming van ATP Safe Links toegepast op URL's in Word-, Excel- en PowerPoint-bestanden in Windows of Mac OS, e-mailberichten in Outlook, Office-documenten op iOS- of Android-apparaten, Visio 2016-bestanden in Windows en bestanden die zijn geopend in de webversies van Office-apps (Word, PowerPoint, Excel, Outlook en OneNote), mits de gebruiker zich heeft aangemeld bij Office 365. |
 | **Niet bijhouden wanneer gebruikers op ATP Safe Links klikken** <br/>  | Wanneer deze optie is geselecteerd, klikt u op gegevens voor URL's in Word, Excel, PowerPoint, Visio-documenten en Outlook-e-mailberichten.  <br/> |
 |**Laat gebruikers niet door ATP Safe Links naar originele URL klikken** <br/> |Wanneer deze optie is geselecteerd, kunnen gebruikers niet verder gaan dan een [waarschuwingspagina](atp-safe-links-warning-pages.md) naar een URL waarvan is vastgesteld dat deze kwaadaardig is.  <br/> |
 
@@ -141,10 +139,9 @@ Standaardbeleidsopties zijn van toepassing op iedereen in uw organisatie.
 |---------|---------|
 |**Uit** <br/> |Scant geen URL's in e-mailberichten.  <br/> Hiermee u een uitzonderingsregel definiëren, zoals een regel die geen URL's scant in e-mailberichten voor een specifieke groep ontvangers.  <br/> |
 |**Aan** <br/> |Herschrijft URL's om gebruikers te routeren via de bescherming van ATP Safe Links wanneer de gebruikers op URL's in e-mailberichten klikken en ATP Safe Links in Outlook (C2R) op Windows inschakelen.  <br/> Hiermee controleert u een URL wanneer deze wordt aangeklikt tegen een lijst met geblokkeerde of schadelijke URL's en wordt de URL op de achtergrond asynchroon gedetoerd als de URL geen geldige reputatie heeft.  <br/> |
-|**Onbekende of mogelijk schadelijke URL's binnen Microsoft Teams** |Wanneer deze optie beschikbaar en geselecteerd is, worden ATP Safe Links in Microsoft Teams-chats en -kanalen ingeschakeld. Wanneer een gebruiker op een URL in een Microsoft Teams-chat of -kanaal klikt, wordt de koppeling gecontroleerd. De URL wordt gecontroleerd aan de hand van een lijst met geblokkeerde of kwaadaardige URL's en activeert een ontploffing van de URL op de achtergrond asynchroon als de URL geen geldige reputatie heeft. |
 |**Real-time URL scannen toepassen op verdachte links en koppelingen die naar bestanden verwijzen** <br/> |Wanneer deze optie is geselecteerd, worden verdachte URL's en koppelingen die verwijzen naar downloadbare inhoud gescand.  <br/> |
 |**Wachten tot het scannen van url's is voltooid voordat het bericht wordt geleverd** <br/> |Wanneer deze optie is geselecteerd, worden berichten met URL's die moeten worden gescand, bewaard totdat de URL's zijn gescand en worden bevestigd dat ze veilig zijn voordat de berichten worden bezorgd.  <br/> |
-|**Veilige koppelingen toepassen op berichten die binnen de organisatie worden verzonden** <br/> | Wanneer deze optie is geselecteerd, wordt de bescherming van ATP Safe Links toegepast op e-mailberichten die worden verzonden tussen mensen in uw organisatie, op voorwaarde dat de e-mailaccounts worden gehost in Office 365.  <br/> |
+|**Veilige koppelingen toepassen op berichten die binnen de organisatie worden verzonden** <br/> | Wanneer deze optie beschikbaar en geselecteerd is, wordt de bescherming van ATP Safe Links toegepast op e-mailberichten die worden verzonden tussen mensen in uw organisatie, op voorwaarde dat de e-mailaccounts worden gehost in Office 365.  <br/> |
 |**Houd klikken van gebruikers niet bij** <br/> |Wanneer deze optie is geselecteerd, klikt u op gegevens voor URL's in e-mail van externe afzenders. URL-kliktracking voor koppelingen in e-mailberichten die binnen de organisatie worden verzonden, wordt momenteel niet ondersteund.  <br/> |
 |**Gebruikers niet toestaan door te klikken naar de oorspronkelijke URL** <br/> |Wanneer deze optie is geselecteerd, kunnen gebruikers niet verder gaan dan een [waarschuwingspagina](atp-safe-links-warning-pages.md) naar een URL waarvan is vastgesteld dat deze kwaadaardig is.  <br/> |
 |**De volgende URL's niet herschrijven** <br/> |Laat URL's zoals ze zijn. Houdt een aangepaste lijst bij met veilige URL's die niet hoeven te worden gescand voor een specifieke groep e-mailontvangers in uw organisatie.  Zie [Een aangepaste URL's-lijst 'Niet herschrijven' instellen met ATP Safe Links](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) voor meer\*informatie, inclusief recente wijzigingen in de ondersteuning van sterretjes voor jokertekens ( ).  <br/> |

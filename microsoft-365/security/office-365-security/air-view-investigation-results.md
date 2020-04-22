@@ -1,5 +1,5 @@
 ---
-title: De resultaten van een geautomatiseerd onderzoek in Office 365 weergeven
+title: Bekijk de resultaten van een geautomatiseerd onderzoek in Microsoft 365
 keywords: AIR, autoIR, ATP, geautomatiseerd, onderzoek, respons, sanering, bedreigingen, geavanceerd, bedreiging, bescherming
 f1.keywords:
 - NOCSH
@@ -14,15 +14,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-description: Tijdens en na een geautomatiseerd onderzoek in Office 365 u de resultaten en belangrijkste bevindingen bekijken.
-ms.openlocfilehash: e19669f48047f1800d2a904c6ef5565d8db94dd9
-ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
+description: Tijdens en na een geautomatiseerd onderzoek in Microsoft 365 u de resultaten en belangrijkste bevindingen bekijken.
+ms.openlocfilehash: e0ecea63260fae474973b39e7069029a2ec93dcb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43225973"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634626"
 ---
-# <a name="details-and-results-of-an-automated-investigation-in-office-365"></a>Details en resultaten van een geautomatiseerd onderzoek in Office 365
+# <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Details en resultaten van een geautomatiseerd onderzoek in Microsoft 365
 
 Wanneer een [geautomatiseerd onderzoek](office-365-air.md) plaatsvindt in [Office 365 Advanced Threat Protection,](office-365-atp.md)zijn details over dat onderzoek beschikbaar tijdens en na het geautomatiseerde onderzoeksproces. Als u over de benodigde machtigingen beschikt, u deze gegevens bekijken in een weergave met onderzoeksdetails. De weergave onderzoeksdetails biedt u de up-to-date status en de mogelijkheid om alle lopende acties goed te keuren. 
 
@@ -46,7 +46,7 @@ De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Naarmate he
 
 ## <a name="view-details-of-an-investigation"></a>Details van een onderzoek weergeven
 
-1. Ga naar het Office 365[https://protection.office.com](https://protection.office.com)Security & Compliance Center ( ) en meld u aan.
+1. Ga naar het Security[https://protection.office.com](https://protection.office.com)& Compliance Center () en meld u aan.
 
 2. Voer een van de volgende handelingen uit:
 
@@ -66,9 +66,9 @@ De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Naarmate he
 
 ## <a name="view-details-about-an-alert-related-to-an-investigation"></a>Details weergeven over een waarschuwing met betrekking tot een onderzoek
 
-Bepaalde soorten waarschuwingen leiden tot geautomatiseerd onderzoek in Office 365. Zie [Waarschuwingen](automated-investigation-response-office.md#alerts)voor meer informatie. Gebruik de volgende procedure om details over een waarschuwing te bekijken die is gekoppeld aan een geautomatiseerd onderzoek.
+Bepaalde soorten waarschuwingen leiden tot geautomatiseerd onderzoek in Microsoft 365. Zie [Waarschuwingen](automated-investigation-response-office.md#alerts)voor meer informatie. Gebruik de volgende procedure om details over een waarschuwing te bekijken die is gekoppeld aan een geautomatiseerd onderzoek.
 
-1. Ga naar het Office 365[https://protection.office.com](https://protection.office.com)Security & Compliance Center ( ) en meld u aan. 
+1. Ga naar het Security[https://protection.office.com](https://protection.office.com)& Compliance Center () en meld u aan. 
 
 2. Ga naar **Threat Management** > **Investigations**.
 
@@ -215,7 +215,7 @@ U kunt:
 
 |Analyzer | Beschrijving |
 |-----|-----|
-|DLP overtredingen onderzoek |Eventuele overtredingen onderzoeken die zijn gedetecteerd door [Office 365 Data Loss Prevention](../../compliance/data-loss-prevention-policies.md) (DLP) |
+|DLP overtredingen onderzoek |Eventuele overtredingen onderzoeken die zijn ontdekt door [Data Loss Prevention](../../compliance/data-loss-prevention-policies.md) (DLP) |
 |Extractie van e-mailindicatoren |Indicatoren uit de koptekst, het hoofd en de inhoud van een e-mailbericht voor onderzoek extraheren |
 |Reputatie van bestandshash |Afwijkingen detecteren op basis van bestandshashes voor gebruikers en machines in uw organisatie |
 |Identificatie van e-mailcluster |Analyse van e-mailcluster op basis van koptekst, hoofdtekst, inhoud en URL's |

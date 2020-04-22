@@ -11,35 +11,35 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 34674847-a6b7-4a7e-9eaa-b64f22bc150d
-description: De machtigingen die nodig zijn om taken uit te voeren om Microsoft Exchange Online Protection (EOP) te beheren, zijn afhankelijk van de functie die u beheert.
-ms.openlocfilehash: 2129df7faaa977d59f8af8082291520d33bc9cc7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: De machtigingen die nodig zijn om taken uit te voeren voor het beheer van Microsoft Exchange Online Protection (EOP) zijn afhankelijk van de functie die u beheert.
+ms.openlocfilehash: 146bf34f157eb30e680ad9e0c3e53501d6e7b425
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42806624"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638116"
 ---
 # <a name="feature-permissions-in-eop"></a>Functiemachtigingen in EOP
 
-De machtigingen die nodig zijn om taken uit te voeren om Exchange Online Protection (EOP) te beheren, zijn afhankelijk van de functie die u beheert.
+De machtigingen die nodig zijn om taken uit te voeren voor het beheer van Exchange Online Protection (EOP) zijn afhankelijk van de functie die u beheert.
 
-Als u EOP wilt instellen, moet u een Globale Beheerder van Office 365 of een Exchange Company Administrator (de rolgroep Organisatiebeheer) zijn.
+Als u EOP wilt instellen, moet u een globale beheerder of een Exchange Company Administrator (de rolgroep Organisatiebeheer) zijn.
 
-## <a name="exchange-online-protection-permissions"></a>Machtigingen voor exchange online-beveiliging
+## <a name="exchange-online-protection-permissions"></a>Machtigingen voor Exchange Online Protection
 
-Zie de volgende tabel om te weten te komen welke machtigingen u nodig hebt om EOP-functies te beheren. Als een functie meer dan een rolgroep opnoemt, moet u slechts een van de rolgroepen hebben toegewezen om de functie te gebruiken.
+Zie de volgende tabel voor meer informatie over de machtigingen die u nodig hebt om EOP-functies te beheren. Als een functie meer dan een rolgroep opnoemt, moet u slechts een van de rolgroepen hebben toegewezen om de functie te gebruiken.
 
 |**Functie**|**Vereiste machtigingen**|
 |:-----|:-----|
-|Anti-malware|Organisatiebeheer <br/><br/> Hygiënemanagement|
-|Anti-spam|Organisatiebeheer <br/><br/> Hygiënemanagement|
-|Regels voor e-mailstroom|Organisatiebeheer <br/><br/> Beheer van records|
-|Domeinen|Organisatiebeheer <br/><br/> Alleen-view organisatiebeheer|
-|Advanced Threat Protection (ATP)|Organisatiebeheer <br/><br/> Hygiënemanagement|
-|Office 365-connectors|Organisatiebeheer|
-|Berichttracering|Organisatiebeheer <br/><br/> Alleen-view organisatiebeheer|
+|Anti-malware|Organisatiebeheer <br/><br/> Hygiënebeheer|
+|Anti-spam|Organisatiebeheer <br/><br/> Hygiënebeheer|
+|Regels voor e-mailstromen|Organisatiebeheer <br/><br/> Records beheer|
+|Domeinen|Organisatiebeheer <br/><br/> Alleen-weergaveorganisatiebeheer|
+|Geavanceerde bedreigingsbeveiliging (ATP)|Organisatiebeheer <br/><br/> Hygiënebeheer|
+|Microsoft 365-connectors|Organisatiebeheer|
+|Berichttracering|Organisatiebeheer <br/><br/> Alleen-weergaveorganisatiebeheer|
 |Organisatieconfiguratie|Organisatiebeheer|
-|Quarantaine|Organisatiebeheer <br/><br/> Alleen-view organisatiebeheer <br/><br/> Hygiënemanagement|
-|Gebruikers, contactpersonen en rolgroepen|Organisatiebeheer <br/><br/> Alleen-view organisatiebeheer <br/><br/> Hygiënemanagement|
-|Distributiegroepen en beveiligingsgroepen|Organisatiebeheer <br/><br/> Alleen-view organisatiebeheer <br/><br/> Hygiënemanagement|
-|Rapporten weergeven|Organisatiebeheer: toegang tot e-mailbeveiligingsrapporten. <br/><br/> Ontvangers die alleen voor weergave zijn: toegang tot e-mailbeveiligingsrapporten.  <br/><br/> Compliance Management: Toegang tot e-mailbeveiligingsrapporten en DLP-rapporten (Data Loss Prevention) (als uw abonnement DLP-mogelijkheden heeft).|
+|Quarantaine|Organisatiebeheer <br/><br/> Alleen-weergaveorganisatiebeheer <br/><br/> Hygiënebeheer|
+|Gebruikers, contactpersonen en rolgroepen|Organisatiebeheer <br/><br/> Alleen-weergaveorganisatiebeheer <br/><br/> Hygiënebeheer|
+|Distributiegroepen en beveiligingsgroepen|Organisatiebeheer <br/><br/> Alleen-weergaveorganisatiebeheer <br/><br/> Hygiënebeheer|
+|Rapporten weergeven|Organisatiebeheer: toegang tot rapporten over e-mailbeveiliging. <br/><br/> Alleen-weergeven ontvangers: toegang tot rapporten over e-mailbeveiliging.  <br/><br/> Compliance Management: Toegang tot e-mailbeveiligingsrapporten en DLP-rapporten (Data Loss Prevention) (als uw abonnement dlp-mogelijkheden heeft).|

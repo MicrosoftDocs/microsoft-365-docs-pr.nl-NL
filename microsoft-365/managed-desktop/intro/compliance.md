@@ -1,19 +1,19 @@
 ---
-title: Naleving
+title: Compliance
 description: In dit artikel worden de nalevingsstandaarden weergegeven die relevant zijn voor Microsoft Managed Desktop.
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f44d7cd5b919fb06ffb10c39e632956005231e01
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 6114642b5899e2708703e3c0d62cadde25296504
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153748"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632813"
 ---
-# <a name="compliance"></a>Naleving
+# <a name="compliance"></a>Compliance
 
 Wanneer u Microsoft Managed Desktop IT-as-a-service gebruikt, biedt Microsoft u een uitgebreide reeks compliance-aanbiedingen. Deze inspanning helpt uw organisatie te voldoen aan de verschillende nalevingsvereisten.
 

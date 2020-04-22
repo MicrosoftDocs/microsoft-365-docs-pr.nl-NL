@@ -16,26 +16,26 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: Uitgaande spamfilters zijn altijd ingeschakeld als u de service gebruikt voor het verzenden van uitgaande e-mail, waardoor organisaties worden beschermd die de service en de beoogde ontvangers gebruiken.
-ms.openlocfilehash: 699de94a300ac8625e92d2c467edd461d72c7d2f
-ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
+ms.openlocfilehash: 27f79252d2d08c374784064ac6a12bc4cc7725ea
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43608172"
+ms.locfileid: "43637722"
 ---
-# <a name="configure-outbound-spam-filtering-in-office-365"></a>Uitgaande spamfilters configureren in Office 365
+# <a name="configure-outbound-spam-filtering"></a>Filteren van uitgaande spam configureren
 
-Als u een Office 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection(EOP)-klant zonder Exchange Online-postvakken, worden uitgaande e-mailberichten die via EOP worden verzonden, automatisch gecontroleerd op spam en ongebruikelijke verzendactiviteiten.
+Als u een Microsoft 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection(EOP)-klant zonder Exchange Online-postvakken, worden uitgaande e-mailberichten die via EOP worden verzonden, automatisch gecontroleerd op spam en ongebruikelijke verzendactiviteiten.
 
-Uitgaande spam van een gebruiker in uw organisatie duidt doorgaans op een gecompromitteerd account. Verdachte uitgaande berichten worden gemarkeerd als spam (ongeacht het spamvertrouwensniveau of SCL) en worden door de [risicogroep](high-risk-delivery-pool-for-outbound-messages.md) geleid om de reputatie van de service te beschermen (dat wil zeggen, houd e-mailservers van Office 365-bron niet van IP-bloklijsten). Beheerders worden automatisch op de hoogte gesteld van verdachte uitgaande e-mailactiviteiten en geblokkeerde gebruikers via [waarschuwingsbeleid.](../../compliance/alert-policies.md)
+Uitgaande spam van een gebruiker in uw organisatie duidt doorgaans op een gecompromitteerd account. Verdachte uitgaande berichten worden gemarkeerd als spam (ongeacht het spamvertrouwensniveau of SCL) en worden door de risicogroep geleid om de reputatie van de service te beschermen (dat wil zeggen, houd Microsoft 365 brone-mailservers van [IP-bloklijsten](high-risk-delivery-pool-for-outbound-messages.md) af). Beheerders worden automatisch op de hoogte gesteld van verdachte uitgaande e-mailactiviteiten en geblokkeerde gebruikers via [waarschuwingsbeleid.](../../compliance/alert-policies.md)
 
-EOP gebruikt uitgaand spambeleid als onderdeel van de algehele verdediging van uw organisatie tegen spam. Zie [Antispambeleid in Office 365](anti-spam-protection.md) voor meer informatie.
+EOP gebruikt uitgaand spambeleid als onderdeel van de algehele verdediging van uw organisatie tegen spam. Zie [Bescherming tegen spam](anti-spam-protection.md)voor meer informatie .
 
 Beheerders kunnen het standaard uitgaande spambeleid bekijken, bewerken en configureren (maar niet verwijderen). Voor een grotere granulariteit u ook aangepaste uitgaande spambeleidsregels maken die van toepassing zijn op specifieke gebruikers, groepen of domeinen in uw organisatie. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
 
-U uitgaand spambeleid configureren in het Office 365 Security & Compliance Center of in PowerShell (Exchange Online PowerShell voor Office 365-klanten; Exchange Online Protection PowerShell voor zelfstandige EOP-klanten).
+U uitgaande spambeleidsregels configureren in het Security & Compliance Center of in PowerShell (Exchange Online PowerShell voor Microsoft 365-klanten; Exchange Online Protection PowerShell voor zelfstandige EOP-klanten).
 
-## <a name="outbound-spam-policies-in-the-office-365-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>Uitgaand spambeleid in het Office 365 Security & Compliance Center vs Exchange Online PowerShell of Exchange Online Protection PowerShell
+## <a name="outbound-spam-policies-in-the-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>Uitgaand spambeleid in het Security & Compliance Center vs Exchange Online PowerShell of Exchange Online Protection PowerShell
 
 De basiselementen van een uitgaand spambeleid in EOP zijn:
 
@@ -43,7 +43,7 @@ De basiselementen van een uitgaand spambeleid in EOP zijn:
 
 - **De regel voor uitgaand spamfilter**: hiermee geeft u de prioriteits- en ontvangerfilters op (op wie het beleid van toepassing is) voor een uitgaand spamfilterbeleid.
 
-Het verschil tussen deze twee elementen is niet duidelijk wanneer u uitgaande spambeleidsregels beheert in het Beveiligings- & Compliance Center:
+Het verschil tussen deze twee elementen is niet duidelijk wanneer u uitgaande spam-polities beheert in het Security & Compliance Center:
 
 - Wanneer u een uitgaand spambeleid maakt in het Security & Compliance Center, maakt u eigenlijk een uitgaande spamfilterregel en het bijbehorende uitgaande spamfilterbeleid tegelijkertijd met dezelfde naam voor beide.
 
@@ -77,7 +77,7 @@ Om de effectiviteit van uitgaande spamfilters te vergroten, u aangepaste uitgaan
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone Exchange Online Protection PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u uitgaande spambeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Voor alleen-lezen toegang tot uitgaande spambeleid moet u lid zijn van de rolgroep **Security Reader.** Zie [Machtigingen in het Office 365-beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
+- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u uitgaande spambeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Voor alleen-lezen toegang tot uitgaande spambeleid moet u lid zijn van de rolgroep **Security Reader.** Zie Machtigingen in het Security & Compliance [Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rolgroepen in het Security & Compliance Center.
 
 - Zie [EOP-instellingen](recommended-settings-for-eop-and-office365-atp.md#eop-outbound-spam-policy-settings)voor uitgaande spambeleid voor onze aanbevolen instellingen voor uitgaande spam.
 
@@ -147,7 +147,7 @@ Als u een aangepast uitgaand spambeleid maakt in het Security & Compliance Cente
      
    - **Maximum aantal ontvangers per gebruiker**
 
-     Een geldige waarde is 0 tot 10000. De standaardwaarde is 0, wat betekent dat de standaardinstellingen van de service worden gebruikt. Zie [Limieten verzenden voor office 365-opties voor](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)meer informatie.
+     Een geldige waarde is 0 tot 10000. De standaardwaarde is 0, wat betekent dat de standaardinstellingen van de service worden gebruikt. Zie [Limieten verzenden voor microsoft 365-opties voor](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)meer informatie.
 
      - **Externe uurlimiet**: Het maximum aantal externe ontvangers per uur.
 
@@ -231,7 +231,7 @@ U het standaard uitgaande spambeleid niet uitschakelen.
 
 ### <a name="set-the-priority-of-custom-outbound-spam-policies"></a>De prioriteit instellen van aangepast uitgaand spambeleid
 
-Uitgaand spambeleid krijgt standaard een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere beleidsregels hebben een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee verschillende beleidsregels kunnen niet dezelfde prioriteit hebben.
+Uitgaand spambeleid krijgt standaard een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere politie's hebben een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee verschillende beleidsregels kunnen niet dezelfde prioriteit hebben.
 
 Aangepaste uitgaande spambeleidsregels worden weergegeven in de volgorde waarin ze worden verwerkt (het eerste beleid heeft de **prioriteitswaarde** 0). Het standaard uitgaande spambeleid met de naam **Uitgaand spamfilterbeleid** heeft de prioriteitswaarde **Laagste**en u deze niet wijzigen.
 
@@ -293,7 +293,7 @@ New-HostedOutboundSpamFilterPolicy -Name "<PolicyName>" [-AdminDisplayName "<Com
 
 In dit voorbeeld wordt een nieuw uitgaand spamfilterbeleid gemaakt met de naam Contoso Executives met de volgende instellingen:
 
-- De limieten voor het aantal ontvangers zijn beperkt tot kleinere waarden die in de standaardwaarden worden weergegeven. Zie [Limieten verzenden voor office 365-opties voor](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)meer informatie.
+- De limieten voor het aantal ontvangers zijn beperkt tot kleinere waarden die in de standaardwaarden worden weergegeven. Zie [Limieten verzenden voor microsoft 365-opties voor](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)meer informatie.
 
 - Nadat een van de limieten is bereikt, kan de gebruiker geen berichten meer verzenden.
 
@@ -495,7 +495,7 @@ Zie [Remove-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/
 
 ## <a name="for-more-information"></a>Voor meer informatie
 
-[Geblokkeerde gebruikers verwijderen uit de portal voor gebruikers met beperkte rechten in Office 365](removing-user-from-restricted-users-portal-after-spam.md)
+[Geblokkeerde gebruikers verwijderen uit de portal voor gebruikers met beperkte rechten](removing-user-from-restricted-users-portal-after-spam.md)
 
 [Groep met verhoogd risico voor uitgaande berichten](high-risk-delivery-pool-for-outbound-messages.md)
 

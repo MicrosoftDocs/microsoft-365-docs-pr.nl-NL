@@ -1,5 +1,5 @@
 ---
-title: Lijsten met veilige afzenders maken in Office 365
+title: Lijsten met veilige afzenders maken
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,17 +13,17 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
-description: Beheerders kunnen meer te weten komen over de beschikbare opties in Office 365 en EOP waarmee binnenkomende berichten spamfilters kunnen overslaan.
-ms.openlocfilehash: 4b50a4b63377c0f3e7b12592c512449f1a3adc12
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+description: Beheerders kunnen meer te weten komen over de beschikbare opties in Microsoft 365 en EOP waarmee binnenkomende berichten spamfilters kunnen overslaan.
+ms.openlocfilehash: ff4f2715ddfe0029aced27ed466a5af8eb95e790
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528627"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637674"
 ---
-# <a name="create-safe-sender-lists-in-office-365"></a>Lijsten met veilige afzenders maken in Office 365
+# <a name="create-safe-sender-lists"></a>Lijsten met veilige afzenders maken
 
-Als u een Office 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection-klant (EOP) zonder Exchange Online-postvakken, biedt EOP meerdere manieren om ervoor te zorgen dat gebruikers e-mail van vertrouwde afzenders ontvangen. Deze opties omvatten Exchange-mailstroomregels (ook wel transportregels genoemd), Outlook Safe Senders, de IP-lijst toestaan (verbindingsfiltering) en toegestane afzenderlijsten of toegestane domeinlijsten in antispambeleid. Gezamenlijk u deze opties zien als _lijsten met veilige afzenders._
+Als u een Microsoft 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection(EOP)-klant zonder Exchange Online-postvakken, biedt EOP meerdere manieren om ervoor te zorgen dat gebruikers e-mail van vertrouwde afzenders ontvangen. Deze opties omvatten Exchange-mailstroomregels (ook wel transportregels genoemd), Outlook Safe Senders, de IP-lijst toestaan (verbindingsfiltering) en toegestane afzenderlijsten of toegestane domeinlijsten in antispambeleid. Gezamenlijk u deze opties zien als _lijsten met veilige afzenders._
 
 De beschikbare lijsten met veilige afzenders worden in de volgende lijst beschreven in volgorde van de meest aanbevolen tot de minst aanbevolen:
 

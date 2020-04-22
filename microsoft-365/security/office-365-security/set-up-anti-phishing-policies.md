@@ -1,5 +1,5 @@
 ---
-title: Anti-phishingbeleid
+title: Beleid tegen phishing
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,14 +14,14 @@ ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het basisbeleid voor phishing in Exchange Online Protection (EOP) en het geavanceerde ATP-antiphishingbeleid in Office 365 Advanced Threat Protection.
-ms.openlocfilehash: f96b490d2c031fb509c39b2efdbc725cec2709a5
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: 64a47d5514ab7a3a845e8d8b008f1cd8f672640b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537471"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638354"
 ---
-# <a name="anti-phishing-policies-in-office-365"></a>Anti-phishingbeleid in Office 365
+# <a name="anti-phishing-policies-in-microsoft-365"></a>Anti-phishingbeleid in Microsoft 365
 
 Beleidsregels voor het configureren van instellingen voor bescherming tegen phishing zijn beschikbaar in Office 365-organisaties met Exchange Online-postvakken, zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken en ATP-organisaties (Office 365 Advanced Threat Protection).
 
@@ -34,13 +34,13 @@ ATP-antiphishingbeleid is alleen beschikbaar in organisaties met Office 365 ATP.
 
 ATP anti-phishing beleid omvat een ingebouwde standaard anti-phishing beleid, en u extra aangepaste ATP anti-phishing beleid.
 
-Andere Office 365-organisaties met Exchange Online-postvakken of zelfstandige Exchange Online Protection-organisaties (EOP)-organisaties zonder Exchange Online-postvakken hebben een ingebouwd standaard beleid voor antiphishing, maar u geen aanvullend beleid maken. Alleen organisaties met Exchange Online-postvakken kunnen hun standaard antiphishingbeleid wijzigen.
+Andere Microsoft 365-organisaties met Exchange Online-postvakken of zelfstandige Exchange Online Protection-organisaties (EOP)-organisaties zonder Exchange Online-postvakken hebben een ingebouwd standaard beleid voor antiphishing, maar u geen aanvullend beleid maken. Alleen organisaties met Exchange Online-postvakken kunnen hun standaard antiphishingbeleid wijzigen.
 
 De verschillen op hoog niveau tussen antiphishingbeleid en ATP-antiphishingbeleid worden beschreven in de volgende tabel:
 
 ||||
 |---|:---:|:---:|
-|**Functie**|**Anti-phishingbeleid**|**ATP anti-phishing beleid**|
+|**Functie**|**Beleid tegen phishing**|**ATP anti-phishing beleid**|
 |Automatisch gemaakt standaardbeleid|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |Aangepaste beleidsregels maken||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |Beleidsinstellingen<sup>\*</sup>||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
@@ -55,30 +55,30 @@ Zie de volgende onderwerpen om antiphishingbeleid te configureren:
 
 - [Anti-phishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)
 
-- [ATP-beleid voor phishing configureren in Office 365](configure-atp-anti-phishing-policies.md)
+- [ATP-beleid voor phishing configureren in Microsoft 365](configure-atp-anti-phishing-policies.md)
 
 De rest van dit onderwerp beschrijft de instellingen die beschikbaar zijn in EOP en ATP anti-phishing beleid.
 
 ## <a name="spoof-settings"></a>Spoofinstellingen
 
-Spoofing is wanneer het Van-adres in een e-mailbericht (het afzenderadres dat wordt weergegeven in e-mailclients) niet overeenkomt met het domein van de e-mailbron. Zie [Anti-spoofing beveiliging in Office 365](anti-spoofing-protection.md)voor meer informatie over spoofing.
+Spoofing is wanneer het Van-adres in een e-mailbericht (het afzenderadres dat wordt weergegeven in e-mailclients) niet overeenkomt met het domein van de e-mailbron. Zie [Anti-spoofing beveiliging in Microsoft 365](anti-spoofing-protection.md)voor meer informatie over spoofing.
 
 De volgende spoofinstellingen zijn beschikbaar in antiphishingbeleid en ATP-antiphishingbeleid:
 
-- **Anti-spoofing bescherming:** Schakelt anti-spoofing bescherming in of uit. We raden u aan het ingeschakeld te laten. U gebruikt het **spoof-intelligentiebeleid** om specifieke vervalste interne en externe afzenders toe te staan of te blokkeren. Zie [Spoofinformatie configureren in Office 365](learn-about-spoof-intelligence.md)voor meer informatie.
+- **Anti-spoofing bescherming:** Schakelt anti-spoofing bescherming in of uit. We raden u aan het ingeschakeld te laten. U gebruikt het **spoof-intelligentiebeleid** om specifieke vervalste interne en externe afzenders toe te staan of te blokkeren. Zie [Spoofinformatie configureren in Microsoft 365](learn-about-spoof-intelligence.md)voor meer informatie.
 
   > [!NOTE]
-  > Spoofinstellingen zijn standaard ingeschakeld in het standaard antiphishingbeleid in EOP, het standaard ATP-antiphishingbeleid en in nieuwe aangepaste ATP-antiphishingbeleidsregels die u maakt. <br/><br/> U hoeft anti-spoofingbeveiliging niet uit te schakelen als uw MX-record niet naar Office 365 wijst. u schakelt in plaats daarvan Uitgebreide filtering voor connectors in. Zie Uitgebreide [filtering voor connectors in Exchange Online voor](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)instructies .
+  > Spoofinstellingen zijn standaard ingeschakeld in het standaard antiphishingbeleid in EOP, het standaard ATP-antiphishingbeleid en in nieuwe aangepaste ATP-antiphishingbeleidsregels die u maakt. <br/><br/> U hoeft anti-spoofingbescherming niet uit te schakelen als uw MX-record niet naar Microsoft 365 wijst; u schakelt in plaats daarvan Uitgebreide filtering voor connectors in. Zie Uitgebreide [filtering voor connectors in Exchange Online voor](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)instructies .
 
   Voor berichten van geblokkeerde vervalste afzenders u ook de actie opgeven die u op de berichten moet uitvoeren:
 
-  - **Bericht verplaatsen naar map Ongewenste e-mail:** dit is de standaardwaarde. Het bericht wordt in het postvak bezorgd en naar de map Ongewenste e-mail verplaatst. In Exchange Online wordt het bericht verplaatst naar de map Ongewenste e-mail als de regel voor ongewenste e-mail is ingeschakeld in het postvak (het is standaard ingeschakeld). Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
+  - **Bericht verplaatsen naar map Ongewenste e-mail:** dit is de standaardwaarde. Het bericht wordt in het postvak bezorgd en naar de map Ongewenste e-mail verplaatst. In Exchange Online wordt het bericht verplaatst naar de map Ongewenste e-mail als de regel voor ongewenste e-mail is ingeschakeld in het postvak (het is standaard ingeschakeld). Zie [Instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md)voor meer informatie.
 
   - **Quarantaine het bericht:** Stuurt het bericht naar quarantaine in plaats van de beoogde ontvangers. Zie de volgende artikelen voor meer informatie over quarantaine:
 
-    - [Quarantaine in Office 365](quarantine-email-messages.md)
-    - [Berichten en bestanden in quarantaine beheren als Office 365-beheerder](manage-quarantined-messages-and-files.md)
-    - [Berichten in quarantaine zoeken en vrijgeven als Office 365-gebruiker](find-and-release-quarantined-messages-as-a-user.md)
+    - [Quarantaine in Microsoft 365](quarantine-email-messages.md)
+    - [In quarantaine geplaatste berichten en bestanden beheren als beheerder in Microsoft 365](manage-quarantined-messages-and-files.md)
+    - [In quarantaine geplaatste berichten zoeken en vrijgeven als gebruiker in Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
 
 - **Niet-geverifieerde afzender:** hiermee schakelt of wordt de identificatie van niet-geïdentificeerde afzenders in Outlook in- of uitgeschakeld. Specifiek:
 
@@ -88,7 +88,7 @@ De volgende spoofinstellingen zijn beschikbaar in antiphishingbeleid en ATP-anti
 
   Om te voorkomen dat deze id's worden toegevoegd aan berichten van specifieke afzenders, hebt u de volgende opties:
 
-  - Laat de afzender spoofen in het spoof-informatiebeleid. Zie [Spoofinformatie configureren in Office 365](learn-about-spoof-intelligence.md)voor instructies.
+  - Laat de afzender spoofen in het spoof-informatiebeleid. Zie [Spoofinformatie configureren in Microsoft 365](learn-about-spoof-intelligence.md)voor instructies.
 
   - [E-mailverificatie configureren](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) voor het afzenderdomein.
   
@@ -118,7 +118,7 @@ De volgende beleidsinstellingen zijn alleen beschikbaar in het ANTI-phishingbele
 
   - **Ontvanger is:** een of meer postvakken, e-mailgebruikers of e-mailcontactpersonen in uw organisatie.
   - **Ontvanger is lid van**: Een of meer groepen in uw organisatie.
-  - **Het domein van de geadresseerde is:** Een of meer van de geconfigureerde geaccepteerde domeinen in Office 365.
+  - Het domein van de **geadresseerde is:** Een of meer van de geconfigureerde geaccepteerde domeinen in Microsoft 365.
 
   - **Behalve wanneer**: Uitzonderingen voor de regel. De instellingen en het gedrag zijn precies zoals de voorwaarden:
 
@@ -152,13 +152,13 @@ De volgende imitatie-instellingen zijn alleen beschikbaar in het ANTI-phishingbe
 
   - **Bericht doorverwijzen naar andere e-mailadressen:** Stuurt het bericht naar de opgegeven ontvangers in plaats van naar de beoogde ontvangers.
 
-  - **Bericht verplaatsen naar map Ongewenste e-mail:** het bericht wordt naar het postvak bezorgd en naar de map Ongewenste e-mail verplaatst. In Exchange Online wordt het bericht verplaatst naar de map Ongewenste e-mail als de regel voor ongewenste e-mail is ingeschakeld in het postvak (het is standaard ingeschakeld). Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
+  - **Bericht verplaatsen naar map Ongewenste e-mail:** het bericht wordt naar het postvak bezorgd en naar de map Ongewenste e-mail verplaatst. In Exchange Online wordt het bericht verplaatst naar de map Ongewenste e-mail als de regel voor ongewenste e-mail is ingeschakeld in het postvak (het is standaard ingeschakeld). Zie [Instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md)voor meer informatie.
 
     - **Quarantaine het bericht:** Stuurt het bericht naar quarantaine in plaats van de beoogde ontvangers. Zie de volgende artikelen voor meer informatie over quarantaine:
 
-    - [Quarantaine in Office 365](quarantine-email-messages.md)
-    - [Berichten en bestanden in quarantaine beheren als Office 365-beheerder](manage-quarantined-messages-and-files.md)
-    - [Berichten in quarantaine zoeken en vrijgeven als Office 365-gebruiker](find-and-release-quarantined-messages-as-a-user.md)
+    - [Quarantaine in Microsoft 365](quarantine-email-messages.md)
+    - [In quarantaine geplaatste berichten en bestanden beheren als beheerder in Microsoft 365](manage-quarantined-messages-and-files.md)
+    - [In quarantaine geplaatste berichten zoeken en vrijgeven als gebruiker in Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
 
   - **Breng het bericht af en voeg andere adressen toe aan de BCC-regel:** Breng het bericht aan de beoogde ontvangers en lever het bericht in stilte af aan de opgegeven ontvangers.
 
@@ -172,7 +172,7 @@ De volgende imitatie-instellingen zijn alleen beschikbaar in het ANTI-phishingbe
 
 - **Postvakintelligentie**: Hiermee schakelt of schakelt kunstmatige intelligentie (AI) uit die e-mailpatronen van gebruikers bepaalt met hun frequente contactpersonen. Met deze instelling maakt de AI onderscheid tussen legitieme en vervalste e-mail van die contactpersonen. Postvakinformatie is alleen beschikbaar voor Exchange Online-postvakken.
 
-- Bescherming op basis van imitatie van **postvakinformatie:** hiermee worden verbeterde imitatieresultaten ingeschakeld of uitgeschakeld op basis van de afzonderlijke afzenderkaart van elke gebruiker. Met deze intelligentie kan Office 365 de detectie van gebruikersimitatieaanpassen en fout-positieven beter verwerken. Wanneer imitatie van gebruikers wordt gedetecteerd, u een specifieke actie definiëren die u op het bericht moet uitvoeren:
+- Bescherming op basis van imitatie van **postvakinformatie:** hiermee worden verbeterde imitatieresultaten ingeschakeld of uitgeschakeld op basis van de afzonderlijke afzenderkaart van elke gebruiker. Met deze intelligentie kan Microsoft 365 de detectie van gebruikersimitatie aanpassen en fout-positieven beter verwerken. Wanneer imitatie van gebruikers wordt gedetecteerd, u een specifieke actie definiëren die u op het bericht moet uitvoeren:
 
   - **Geen actie toepassen**
   - **Bericht doorverwijzen naar andere e-mailadressen**

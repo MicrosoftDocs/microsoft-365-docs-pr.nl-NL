@@ -24,13 +24,13 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
-description: Meer informatie over het toevoegen en verwijderen van licenties voor uw abonnement op Office 365 voor Bedrijven.
-ms.openlocfilehash: abfa479d991bac72bd3e9e5c1c422368758b17a7
-ms.sourcegitcommit: 4ddbc1c3c29d79d3c4640b7b32f95576784efcca
+description: Meer informatie over het toevoegen en verwijderen van licenties voor uw Microsoft 365 voor Bedrijven-abonnement.
+ms.openlocfilehash: ce14021b3d6efaa14c9010a82ad4b522b0b08339
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240281"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632527"
 ---
 # <a name="manage-subscription-licenses"></a>Abonnementslicenties beheren
 
@@ -84,7 +84,7 @@ Nadat u nieuwe licenties hebt aangeschaft, moet u [de licenties toewijzen aan ge
 
 ## <a name="what-if-i-dont-see-the-addremove-licenses-link"></a>Wat is er aan de hand als ik de koppeling Toevoegen/verwijderen niet zie?
 
-In deze tabel worden de redenen beschreven waarom de koppeling **Licenties toevoegen/verwijderen** mogelijk niet beschikbaar is en wat u eraan doen.
+In deze tabel worden de redenen beschreven waarom de koppeling **Licenties toevoegen/verwijderen** mogelijk niet beschikbaar is en wat u eraan doen. 
 
 |Reden  |Beschrijving  |Oplossing  |
 |---------|---------|---------|
@@ -92,14 +92,14 @@ In deze tabel worden de redenen beschreven waarom de koppeling **Licenties toevo
 |U hebt het abonnement geactiveerd met een productcode.| Als het abonnement is aangeschaft en geactiveerd met een productcode van 25 tekens, ziet u de tekst 'PrePaid'.  |Zie [Licenties toevoegen aan een abonnement waarvoor een productcode is betaald.](add-licenses-using-product-key.md) |
 |U hebt uw abonnement gekocht via een partner. | Als het abonnement is aangeschaft via een partner, ziet u de VLSC-koppeling (Volume Licensing Service Center). | Zie [Licenties toevoegen aan een abonnement dat is aangeschaft via het Volume Licensing Service Center](add-licenses-bought-through-vlsc.md). |
 |U hebt uw abonnement gekocht via een reseller.|| Als het abonnement is gekocht bij een Cloud Solution Provider-partner (CSP), moet u contact op met uw CSP-partner als u meer licenties wilt kopen.        |
-|Je hebt een proefabonnement. |Bij een proefversie van Office 365 wordt de tekst 'Trial' weergegeven. | U moet eerst uw proefabonnement kopen, dan u meer licenties toevoegen. Zie [Een abonnement op Office 365 voor Bedrijven kopen via uw gratis proefversie.](../buy-a-subscription-from-your-free-trial.md)|
+|Je hebt een proefabonnement. |In een proefversie van Microsoft 365 wordt de tekst "Trial" weergegeven. | U moet eerst uw proefabonnement kopen, dan u meer licenties toevoegen. Zie [Een abonnement op Microsoft 365 voor bedrijven kopen vanuit uw gratis proefversie.](../buy-a-subscription-from-your-free-trial.md)|
 
 ## <a name="what-you-need-to-know-about-buying-licenses-for-your-business-subscription"></a>Wat u moet weten over het kopen van licenties voor uw zakelijke abonnement
 
 ### <a name="buying-licenses"></a>Licenties kopen
 
 - U moet een globale beheerder of een factureringsbeheerder zijn om licenties te kopen. Zie [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md)voor meer informatie .
-- Als u een licentie wilt kopen en tegelijkertijd een nieuwe gebruiker aan uw abonnement wilt toevoegen, raadpleegt u [Gebruikers afzonderlijk of bulksgewijs toevoegen aan Office 365 - Help voor beheerders](../../admin/add-users/add-users.md).
+- Zie Gebruikers afzonderlijk of in bulk toevoegen [microsoft 365 - Help voor beheerders.](../../admin/add-users/add-users.md)
 
 ### <a name="license-availability"></a>Beschikbaarheid van licenties
 

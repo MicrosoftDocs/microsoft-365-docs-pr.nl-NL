@@ -1,5 +1,5 @@
 ---
-title: Back-ups maken van gegevens voordat u overstapt op Office 365 voor Bedrijven-abonnementen
+title: Back-ups maken van gegevens voordat u overstapt op Microsoft 365 voor bedrijfsabonnementen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,17 +20,17 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
-description: Maak een back-up van Outlook,OneDrive, Yammer en SharePoint-inhoud voordat u van Office 365-abonnement wisselt of als een gebruiker de organisatie verlaat.
-ms.openlocfilehash: 3d8196bcbd0296e1b6e681b1077d165e168d2f2f
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+description: Maak een back-up van Outlook-, OneDrive-, Yammer- en SharePoint-inhoud voordat u overstapt op Microsoft 365-abonnementen of als een gebruiker de organisatie verlaat.
+ms.openlocfilehash: fbebe72ec47fb6745cee6a12d81117ad08c50846
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105745"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636078"
 ---
-# <a name="back-up-data-before-switching-office-365-for-business-plans"></a>Back-ups maken van gegevens voordat u overstapt op Office 365 voor Bedrijven-abonnementen
+# <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Back-ups maken van gegevens voordat u overstapt op Microsoft 365 voor bedrijfsabonnementen
 
-Als een gebruiker overschakelt naar een ander abonnement dat minder gegevensservices heeft of als een gebruiker de organisatie verlaat, kan een kopie van diens gegevens die zijn opgeslagen in Office 365, worden gedownload voordat het nieuwe abonnement wordt geactiveerd.
+Als een gebruiker wordt overgeschakeld naar een ander abonnement met minder gegevensgerelateerde services of als een gebruiker de organisatie verlaat, kan een kopie van zijn gegevens die in Microsoft 365 zijn opgeslagen, worden gedownload voordat deze wordt overgeschakeld naar het nieuwe abonnement.
   
 ## <a name="save-a-copy-of-outlook-information"></a>Een kopie van Outlook-gegevens opslaan
 
@@ -48,7 +48,7 @@ Beheerders kunnen alle berichten, notities, bestanden, onderwerpen, gebruikers e
   
 ## <a name="how-to-save-sharepoint-information"></a>SharePoint-gegevens opslaan
 
-Als een gebruiker wordt overgeschakeld van een abonnement met SharePoint Online naar een abonnement dat het niet heeft, wordt de **SharePoint-tegel** niet meer weergegeven in het menu van Office 365.
+Als een gebruiker wordt overgeschakeld van een abonnement met SharePoint Online naar een abonnement dat het niet heeft, wordt de **SharePoint-tegel** niet meer weergegeven in het menu Microsoft 365.
   
 Als het nieuwe abonnement zich echter binnen dezelfde organisatie bevindt als het vorige abonnement, hebben gebruikers nog steeds toegang tot de teamsite van SharePoint. Ze kunnen notitieblokken, documenten, taken en agenda's bekijken en bijwerken via de rechtstreekse URL naar de teamsite.
   

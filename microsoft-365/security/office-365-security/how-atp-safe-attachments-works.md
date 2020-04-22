@@ -1,5 +1,5 @@
 ---
-title: Hoe veilige bijlagen bij Office 365 ATP werken
+title: Hoe Veilige bijlagen in ATP werkt
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: De functie Veilige bijlagen biedt time-of-click verificatie van e-mailbijlagen. Gebruik veilige bijlagen om uw organisatie te beschermen tegen schadelijke bestanden die mensen per e-mail verzenden of ontvangen.
-ms.openlocfilehash: 951f9f0e50da6ef83135f1ca8f1ad109a8e66988
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e53d95a52c6990b5e0b4ff81f42414a34b1e606e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42811304"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638020"
 ---
-# <a name="how-office-365-atp-safe-attachments-works"></a>Hoe veilige bijlagen bij Office 365 ATP werken
+# <a name="how-atp-safe-attachments-works"></a>Hoe Veilige bijlagen in ATP werkt
 
 ## <a name="how-it-works"></a>Hoe het werkt
 
@@ -35,5 +35,5 @@ Hier zijn twee voorbeelden van ATP Safe Attachments op het werk.
 Het beleid voor veilige bijlagen van ATP kan worden toegepast op specifieke personen of groepen in uw organisatie of op uw hele domein. Bovendien kan het beleid voor veilige bijlagen van ATP worden geconfigureerd om tijdelijke aanduidingsbijlagen te gebruiken terwijl werkelijke bijlagen worden gescand. Zie Beleid voor **[veilige bijlagen van ATP instellen in Office 365](set-up-atp-safe-attachments-policies.md)** voor meer informatie.
 
 > [!NOTE]
-> Het scannen van ATP-bijlagen vindt plaats in dezelfde regio waar uw Office 365-gegevens zich bevinden. Zie Waar bevinden uw gegevens zich voor meer informatie over de geografie van [datacenters?](https://products.office.com/where-is-your-data-located?geo=All) 
+> Het scannen van ATP Safe Attachments vindt plaats in dezelfde regio waar uw gegevens zich bevinden. Voor meer informatie over de geografie in datacenters raadpleegt u [waar bevinden uw gegevens zich?](https://products.office.com/where-is-your-data-located?geo=All) 
 

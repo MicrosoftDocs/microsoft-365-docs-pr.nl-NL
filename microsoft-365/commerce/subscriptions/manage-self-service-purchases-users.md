@@ -1,5 +1,5 @@
 ---
-title: Selfservice-aankopen beheren (gebruikers)
+title: Selfservice-aankopen beheren (Gebruikers)
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -14,16 +14,17 @@ ms.collection:
 search.appverid:
 - MET150
 description: Gebruikers kunnen leren hoe ze hun selfservice-aankopen kunnen beheren.
-ms.openlocfilehash: 15fc43d488cb2a8fd38cea8ab2ed85c002e23d92
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: f4be2176d970af426817e975b9942ce5e2b89a9e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142137"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636637"
 ---
-# <a name="manage-self-service-purchases-users"></a>Selfservice-aankopen beheren (gebruikers)
+# <a name="manage-self-service-purchases-users"></a>Selfservice-aankopen beheren (Gebruikers)
 
 Als gebruiker u abonnementen op bepaalde producten kopen en licenties voor die abonnementen toewijzen aan mensen in uw team. U bent verantwoordelijk voor het betalen van alle self-service aankopen die u doet. U uw abonnementen beheren in het Microsoft 365-beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com.</a>
+
 
 Uw beheerder heeft een alleen-lezen weergave van alle abonnementen die u koopt. Ze kunnen het product, de naam van de koper, gekochte abonnementen, vervaldatum, aankoopprijs en toegewezen gebruikers zien voor elk abonnement dat u koopt.
 

@@ -1,7 +1,7 @@
 ---
 title: Tabel E-mailbijlageInfo in het geavanceerde jachtschema
 description: Meer informatie over e-mailbijlagen in de tabel EmailAttachmentInfo van het geavanceerde jachtschema
-keywords: geavanceerde jacht, dreigingsjacht, cyberdreigingsjacht, bescherming tegen microsoft-bedreigingen, microsoft 365, mtp, m365, zoekopdracht, query, telemetrie, schemareferentie, kusto, tabel, kolom, gegevenstype, beschrijving, e-mailbijlageinfo, netwerkbericht-id, afzender, ontvanger, bevestigings-id, naam van de bijlage, malware vonnis
+keywords: geavanceerde jacht, dreiging jacht, cyber dreiging jacht, microsoft bedreiging bescherming, Microsoft 365, mtp, m365, zoeken, query, telemetrie, schema referentie, kusto, tabel, kolom, gegevenstype, beschrijving, EmailAttachmentInfo, netwerk bericht id, afzender, ontvanger, bijlage id, bijlage naam, malware vonnis
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,17 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: d35313cf481ecd6892725ae385e7db1032565611
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 5cfda9a581e03c91815bdcbd2508fcc6c52d2652
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42810453"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633629"
 ---
-# <a name="emailattachmentinfo"></a>E-mailbijlageInfo
+# <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
-**Van toepassing op:**
-- Microsoft-bedreigingsbeveiliging
+**Geldt voor:**
+- Microsoft Threat Protection
 
 
 
@@ -39,7 +39,7 @@ Voor informatie over andere tabellen in de geavanceerde jacht schema, [zie de ge
 |-------------|-----------|-------------|
 | `Timestamp` | Datetime | Datum en tijdstip waarop de gebeurtenis is geregistreerd |
 | `AttachmentId` | Tekenreeks | Unieke e-mailbijlage-id |
-| `NetworkMessageId` | Tekenreeks | Unieke id voor de e-mail, gegenereerd door Office 365 |
+| `NetworkMessageId` | Tekenreeks | Unieke id voor de e-mail, gegenereerd door Microsoft 365 |
 | `SenderFromAddress` | Tekenreeks | E-mailadres van afzender in de HEADER VAN, dat zichtbaar is voor e-mailontvangers op hun e-mailclients |
 | `RecipientEmailAddress` | Tekenreeks | E-mailadres van de ontvanger of e-mailadres van de ontvanger na uitbreiding van de distributielijst |
 | `FileName` | Tekenreeks | Naam van het bestand waarop de opgenomen actie is toegepast |
@@ -53,5 +53,5 @@ Voor informatie over andere tabellen in de geavanceerde jacht schema, [zie de ge
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
 - [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)
-- [Het schema begrijpen](advanced-hunting-schema-tables.md)
+- [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

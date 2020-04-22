@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: d04070bfcec0649c5c4a1a79c082f5c5b43ad5eb
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: 24cf0f9b4965b20f3a03dd64795985a082fdc847
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081290"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631403"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Beleidsaanbevelingen voor het beveiligen van e-mail
 
@@ -57,9 +57,9 @@ Met dit beleid voorkomt u dat ActiveSync-clients andere regels voor voorwaardeli
 
 1. Volg 'Stap 2: Configureer een Azure AD Conditional Access-beleid voor Exchange Online met ActiveSync (EAS)" in [scenario 1: Voor Office 365-apps zijn goedgekeurde apps met een beleid voor app-beveiliging vereist,](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)waardoor Exchange ActiveSync-clients geen basisverificatie kunnen gebruiken voor Exchange Online.
 
-## <a name="setup-office-365-message-encryption"></a>Office 365-berichtversleuteling instellen
+## <a name="set-up-message-encryption"></a>Versleuteling van berichten instellen
 
-Met de nieuwe OME-mogelijkheden (Office 365 Message Encryption), die gebruikmaken van de beveiligingsfuncties in Azure Information Protection, kan uw organisatie beveiligde e-mail eenvoudig met iedereen op elk apparaat delen. Gebruikers kunnen beveiligde berichten verzenden en ontvangen met andere Office 365-organisaties en niet-Office 365-klanten die Outlook.com, Gmail en andere e-mailservices gebruiken.
+Met de nieuwe OME-mogelijkheden (Office 365 Message Encryption), die gebruikmaken van de beveiligingsfuncties in Azure Information Protection, kan uw organisatie beveiligde e-mail eenvoudig met iedereen op elk apparaat delen. Gebruikers kunnen beveiligde berichten verzenden en ontvangen met andere Microsoft 365-organisaties en niet-klanten die Outlook.com, Gmail en andere e-mailservices gebruiken.
 
 Zie [Nieuwe Office 365-berichtenversleutelingsmogelijkheden instellen](https://support.office.com/article/set-up-new-office-365-message-encryption-capabilities-7ff0c040-b25c-4378-9904-b1b50210d00e)voor meer informatie.
 

@@ -1,5 +1,5 @@
 ---
-title: Waarom kan ik niet overstappen naar een ander Office 365 Business-abonnement?
+title: Waarom kan ik Microsoft 365 niet overschakelen voor bedrijfsabonnementen?
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,14 +23,14 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: Begrijp de redenen waarom soms het schakelen van plannen handmatig moet worden gedaan of door ondersteuning te bellen.
-ms.openlocfilehash: 5aa0885c9f7d68dc46618522de00efe26701551f
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 5d446e3492bc9039e490cacca469443c0dc52cbd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211971"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631927"
 ---
-# <a name="why-cant-i-switch-office-365-for-business-plans"></a>Waarom kan ik niet overstappen naar een ander Office 365 Business-abonnement?
+# <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Waarom kan ik Microsoft 365 niet overschakelen voor bedrijfsabonnementen?
 
 ::: moniker range="o365-worldwide"
 > [!NOTE]

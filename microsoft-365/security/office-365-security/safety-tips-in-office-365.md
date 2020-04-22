@@ -1,5 +1,5 @@
 ---
-title: Veiligheidstips in e-mailberichten in Office 365
+title: Veiligheidstips in e-mailberichten
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,19 +16,19 @@ search.appverid:
 ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
-description: Introduceert veiligheidstips voor e-mailberichten die zijn gefilterd door het eop- en Office 365-spamfilter.
-ms.openlocfilehash: 3e4e645c6ac0285d9d6fff43b301f1f5c61a90e3
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+description: Introduceert veiligheidstips voor e-mailberichten die zijn gefilterd door de EOP en het spamfilter.
+ms.openlocfilehash: 7171f5855e295ffac931862c86db011c9f38a4c6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032814"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634302"
 ---
-# <a name="safety-tips-in-email-messages-in-office-365"></a>Veiligheidstips in e-mailberichten in Office 365
+# <a name="safety-tips-in-email-messages"></a>Veiligheidstips in e-mailberichten
 
-Exchange Online Protection (EOP) en Office 365 beschermen u met spam, phishing en malwarepreventie. Vandaag de dag zijn sommige van deze aanvallen zo goed gemaakt dat ze er legitiem uitzien. Het verzenden van berichten naar de map Ongewenste e-mail is niet altijd voldoende. Wanneer u uw e-mail nu in Outlook of de webversie van Outlook controleert, controleert EOP automatisch de afzender en voegt een veiligheidstip toe aan de bovenkant van de e-mail.
+Exchange Online Protection (EOP) en Microsoft 365 beschermen u met spam, phishing en malwarepreventie. Vandaag de dag zijn sommige van deze aanvallen zo goed gemaakt dat ze er legitiem uitzien. Het verzenden van berichten naar de map Ongewenste e-mail is niet altijd voldoende. Wanneer u uw e-mail nu in Outlook of de webversie van Outlook controleert, controleert EOP automatisch de afzender en voegt een veiligheidstip toe aan de bovenkant van de e-mail.
 
-De veiligheidstip, een bericht met kleurcodes, waarschuwt u voor mogelijk schadelijke berichten. De meeste berichten in je inbox hebben geen veiligheidstip. Je ziet ze alleen als EOP en Office 365 informatie hebben die je nodig hebt om spam-, phishing- en malware-aanvallen te voorkomen. Als er veiligheidstips in uw postvak IN verschijnen, u de volgende voorbeelden gebruiken om meer te weten te komen over elk type veiligheidstip.
+De veiligheidstip, een bericht met kleurcodes, waarschuwt u voor mogelijk schadelijke berichten. De meeste berichten in je inbox hebben geen veiligheidstip. Je ziet ze alleen als EOP en Microsoft 365 informatie hebben die je nodig hebt om spam-, phishing- en malware-aanvallen te voorkomen. Als er veiligheidstips in uw postvak IN verschijnen, u de volgende voorbeelden gebruiken om meer te weten te komen over elk type veiligheidstip.
 
 - Verdachte e-mail (rode veiligheidstip).
 
@@ -58,6 +58,6 @@ De veiligheidstip, een bericht met kleurcodes, waarschuwt u voor mogelijk schade
 
 ## <a name="working-with-safety-tips"></a>Werken met veiligheidstips
 
-Veiligheidstips zijn altijd ingeschakeld voor de webversie van Outlook, ook al ontvangt niet elk bericht er een. Office 365-beheerders kunnen veiligheidstips uitschakelen voor andere e-mailclients, zoals Outlook. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
+Veiligheidstips zijn altijd ingeschakeld voor de webversie van Outlook, ook al ontvangt niet elk bericht er een. Beheerders kunnen veiligheidstips uitschakelen voor andere e-mailclients, zoals Outlook. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
 
 Als u het niet eens bent met de manier waarop EOP een bericht heeft gecategoriseerd (dat wil zeggen, het bericht is geen spam of het had moeten worden gemarkeerd als spam), u de berichten voor analyse naar Microsoft verzenden om uw ervaring beter te maken. Zie Berichten [en bestanden rapporteren aan Microsoft voor](report-junk-email-messages-to-microsoft.md)instructies. U ook op de koppeling Feedback in de veiligheidstip klikken om rechtstreeks opmerkingen bij Microsoft in te dienen om ons te helpen verbeteren.

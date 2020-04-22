@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: Het definiëren van e-mailgebruikers is een belangrijk onderdeel van het beheer van de Exchange Online Protection (EOP)-service.
-ms.openlocfilehash: bdbc3cd54901d53b4a7d01bcf513a9b9a0df1c01
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 56827e29872c6a6ffd14821af8e2d9ea005ff20c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42810950"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635578"
 ---
 # <a name="manage-mail-users-in-eop"></a>E-mailgebruikers beheren in EOP
 
@@ -53,7 +53,7 @@ Het definiëren van e-mailgebruikers is een belangrijk onderdeel van het beheer 
 
 In deze sectie vindt u informatie over het beheren van e-mailgebruikers met behulp van adreslijstsynchronisatie.
 
-**Toelichting :**
+**Opmerkingen**:
 
 - Als u adreslijstsynchronisatie gebruikt om uw geadresseerden te beheren, u nog steeds gebruikers toevoegen en beheren in het Microsoft 365-beheercentrum, maar deze worden niet gesynchroniseerd met uw on-premises Active Directory. Dit komt omdat adreslijstsynchronisatie alleen ontvangers **synchroniseert vanuit** uw on-premises Active Directory **naar** de cloud.
 
@@ -63,7 +63,7 @@ In deze sectie vindt u informatie over het beheren van e-mailgebruikers met behu
 
   - **Directory Based Edge Blocking (DBEB)**: Zie [Directory Based Edge Blocking gebruiken om berichten die naar ongeldige geadresseerden worden verzonden, te weigeren.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking)
 
-  - **Spamquarantaine voor eindgebruikers**: Om toegang te krijgen tot de spamquarantaine van de eindgebruiker, moeten eindgebruikers in het beschikken over een geldige Office 365-gebruikersnaam en -wachtwoord. EOP-klanten die on-premises postvakken beschermen, moeten geldige e-mailgebruikers zijn.
+  - **Spamquarantaine voor eindgebruikers**: Om toegang te krijgen tot de spamquarantaine van de eindgebruiker, moeten eindgebruikers over een geldige gebruikersnaam en wachtwoord beschikken. EOP-klanten die on-premises postvakken beschermen, moeten geldige e-mailgebruikers zijn.
 
   - **Regels voor e-mailstroom:** Wanneer u adreslijstsynchronisatie gebruikt, worden uw bestaande Active Directory-gebruikers en -groepen automatisch geüpload naar de cloud en u vervolgens regels voor e-mailstroom (ook wel transportregels genoemd) maken die zich richten op specifieke gebruikers en/of groepen zonder ze handmatig toe te voegen via de EAC of Exchange Online Protection PowerShell. Houd er rekening mee dat [dynamische distributiegroepen](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) niet kunnen worden gesynchroniseerd via adreslijstsynchronisatie.
 
@@ -126,7 +126,7 @@ In dit voorbeeld wordt de cmdlet [Nieuw-EOPMailUser](https://docs.microsoft.com/
 
 - Het externe e-mailadres is jzeng@tailspintoys.com.
 
-- De naam van het Office 365-aanmeldingsteken is jeffreyz@contoso.onmicrosoft.com.
+- De Microsoft 365-aanmelding is jeffreyz@contoso.onmicrosoft.com.
 
 - Het wachtwoord is Pa$$word1.
 

@@ -1,5 +1,5 @@
 ---
-title: Office 365 ATP voor SharePoint, OneDrive en Microsoft Teams
+title: ATP voor SharePoint, OneDrive en Microsoft Teams
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Breid Geavanceerde bedreigingsbeveiliging van Office 365 uit naar bestanden in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams om een veiligere samenwerking voor uw organisatie mogelijk te maken.
-ms.openlocfilehash: 3105a9443ddab483bc5ac4037e5260b354d64de9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4c64a4934a472fa5c6ac0f1f718d63300560f6c8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42806843"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636020"
 ---
-# <a name="office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Office 365 ATP voor SharePoint, OneDrive en Microsoft Teams
+# <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>ATP voor SharePoint, OneDrive en Microsoft Teams
 
 ## <a name="overview-of-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Overzicht van Office 365 ATP voor SharePoint, OneDrive en Microsoft Teams
 
@@ -41,11 +41,11 @@ Hoewel het geblokkeerde bestand nog steeds wordt weergegeven in de documentbibli
 
 ![Een geblokkeerd bestand verwijderen uit OneDrive voor Bedrijven vanuit de mobiele OneDrive-app](../../media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)
 
-Afhankelijk van hoe Office 365 is geconfigureerd, kunnen mensen wel of niet de mogelijkheid hebben om een geblokkeerd bestand te downloaden. Zo ziet het downloaden van een geblokkeerd bestand eruit op het mobiele apparaat van een gebruiker:
+Afhankelijk van hoe Microsoft 365 is geconfigureerd, kunnen mensen wel of niet de mogelijkheid hebben om een geblokkeerd bestand te downloaden. Zo ziet het downloaden van een geblokkeerd bestand eruit op het mobiele apparaat van een gebruiker:
 
 ![Een geblokkeerd bestand downloaden in OneDrive voor Bedrijven](../../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)
 
-Zie [Office 365 ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md)voor meer informatie.
+Zie [Office 365 ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
 
 ## <a name="keep-these-points-in-mind"></a>Houd deze punten in gedachten
 
@@ -65,7 +65,7 @@ Zie [Office 365 ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams](tu
 
 Wanneer een bestand in SharePoint Online, OneDrive voor Bedrijven of Microsoft Teams als kwaadaardig wordt aangemerkt, wordt dat bestand naast het blokkeren van het bestand dat wordt geopend of gedeeld, naast het blokkeren van het bestand dat wordt geopend of gedeeld, opgenomen in een lijst met in quarantaine geplaatste items. (Ga in &amp; het Security Compliance Center naar **Quarantine controleren van** \> het risicobeheer **en** \> **Quarantine** filter voor **inhoud**.)
 
-Als u deel uitmaakt van het Office 365-beveiligingsteam van uw organisatie en de [benodigde machtigingen hebt toegewezen in het Office 365 Security &amp; Compliance Center,](permissions-in-the-security-and-compliance-center.md)u bestanden die door ATP als kwaadaardig zijn gedetecteerd, downloaden, vrijgeven, rapporteren en verwijderen uit quarantaine.
+Als u deel uitmaakt van het Microsoft 365 for Business Security-team van uw organisatie en de benodigde machtigingen hebt [toegewezen in het Security &amp; Compliance Center,](permissions-in-the-security-and-compliance-center.md)u bestanden die door ATP als kwaadaardig worden gedetecteerd, downloaden, vrijgeven, rapporteren en verwijderen uit quarantaine.
 
 - Als u een bestand **vrijgeeft en rapporteert,** wordt het ATP-blok in het bestand in de betreffende teamsite of documentbibliotheek voor SharePoint, OneDrive of Microsoft Teams verwijderd. Gebruikers kunnen het bestand vervolgens openen, delen en downloaden. En wanneer de optie **Rapport verzenden naar Microsoft** is geselecteerd, wordt het bestand gerapporteerd als een false positive voor Microsoft.
 

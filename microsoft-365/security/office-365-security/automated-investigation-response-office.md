@@ -1,5 +1,5 @@
 ---
-title: Geautomatiseerd onderzoek en antwoord (AIR) in Office 365
+title: Geautomatiseerd onderzoek en reactie (AIR)
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -15,28 +15,28 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Krijg een overzicht van geautomatiseerde onderzoeks- en reactiemogelijkheden in Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air
-ms.openlocfilehash: 1fa99d7676a16ccd83319e5fbf3a6fedb72aec12
-ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
+ms.openlocfilehash: 638f421289d5b4f0d8c02fbd5bf2913191721bf6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170950"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638546"
 ---
-# <a name="automated-investigation-and-response-air-in-office-365"></a>Geautomatiseerd onderzoek en antwoord (AIR) in Office 365
+# <a name="automated-investigation-and-response-air"></a>Geautomatiseerd onderzoek en reactie (AIR)
 
-Als beveiligingswaarschuwingen worden geactiveerd, is het aan uw beveiligingsteam om deze waarschuwingen te bekijken en stappen te ondernemen om uw organisatie te beschermen. Soms kunnen beveiligingsteams zich overweldigd voelen door het aantal waarschuwingen dat wordt geactiveerd. Automatische air-mogelijkheden (Investigation and Response) in Office 365 kunnen u helpen. AIR stelt uw beveiligingsteam in staat om efficiënter en effectiever te werken. Air-mogelijkheden omvatten geautomatiseerde onderzoeksprocessen in reactie op bekende bedreigingen die vandaag de dag bestaan. De juiste herstelacties wachten op goedkeuring, zodat uw beveiligingsteam kan reageren op gedetecteerde bedreigingen. 
+Als beveiligingswaarschuwingen worden geactiveerd, is het aan uw beveiligingsteam om deze waarschuwingen te bekijken en stappen te ondernemen om uw organisatie te beschermen. Soms kunnen beveiligingsteams zich overweldigd voelen door het aantal waarschuwingen dat wordt geactiveerd. Geautomatiseerde mogelijkheden voor onderzoek en respons (AIR) kunnen helpen. AIR stelt uw beveiligingsteam in staat om efficiënter en effectiever te werken. Air-mogelijkheden omvatten geautomatiseerde onderzoeksprocessen in reactie op bekende bedreigingen die vandaag de dag bestaan. De juiste herstelacties wachten op goedkeuring, zodat uw beveiligingsteam kan reageren op gedetecteerde bedreigingen. 
 
-Dit artikel geeft een overzicht van AIR. Zie Automatisch onderzoeken en reageren op [bedreigingen in Office 365](office-365-air.md)wanneer u klaar bent om aan de slag te gaan met AIR.
+Dit artikel geeft een overzicht van AIR. Wanneer u klaar bent om aan de slag te gaan met AIR, [raadpleegt u Automatisch bedreigingen onderzoeken en erop reageren.](office-365-air.md)
 
 ## <a name="at-a-high-level"></a>Op een hoog niveau
 
-Als waarschuwingen worden geactiveerd, worden beveiligingsplaybooks van kracht. Afhankelijk van de situatie kan een [geautomatiseerd onderzoeksproces](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) beginnen. Tijdens en na een geautomatiseerd onderzoek worden [herstelacties](air-remediation-actions.md) aanbevolen. Er worden niet automatisch acties uitgevoerd in Office 365 Advanced Threat Protection. Uw beveiligingsteam controleert en [keurt vervolgens elke herstelactie goed of weigert](air-review-approve-pending-completed-actions.md)deze , en wanneer dit is gedaan, wordt elk onderzoek voltooid. Al deze activiteiten worden bijgehouden en zichtbaar in het Office 365 Security & Compliance Center (zie [Details van een onderzoek weergeven).](air-view-investigation-results.md#view-details-of-an-investigation)
+Als waarschuwingen worden geactiveerd, worden beveiligingsplaybooks van kracht. Afhankelijk van de situatie kan een [geautomatiseerd onderzoeksproces](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) beginnen. Tijdens en na een geautomatiseerd onderzoek worden [herstelacties](air-remediation-actions.md) aanbevolen. Er worden niet automatisch acties uitgevoerd in Office 365 Advanced Threat Protection. Uw beveiligingsteam controleert en [keurt vervolgens elke herstelactie goed of weigert](air-review-approve-pending-completed-actions.md)deze , en wanneer dit is gedaan, wordt elk onderzoek voltooid. Al deze activiteiten worden bijgehouden en zichtbaar in het Security & Compliance Center (zie [Details van een onderzoek weergeven).](air-view-investigation-results.md#view-details-of-an-investigation)
 
 In de volgende secties vindt u meer informatie over waarschuwingen, beveiligingsplaybooks en voorbeelden van AIR in actie.
 
 ## <a name="alerts"></a>Waarschuwingen
 
-[Waarschuwingen](../../compliance/alert-policies.md#viewing-alerts) vertegenwoordigen triggers voor beveiligingswerkstromen voor beveiligingsbewerkingen voor incidentrespons. Het prioriteren van de juiste set waarschuwingen voor onderzoek, terwijl ervoor zorgen dat bedreigingen niet worden aangepakt, is een uitdaging. Wanneer onderzoeken naar waarschuwingen handmatig worden uitgevoerd, moeten security operations-teams entiteiten (zoals inhoud, apparaten en gebruikers) op jagen en correleren die risico lopen op bedreigingen. Dergelijke taken en workflows kunnen zeer tijdrovend zijn en meerdere tools en systemen omvatten. Met AIR worden onderzoek en respons voor Office 365-beveiligingsgebeurtenissen geautomatiseerd door dat belangrijke waarschuwingen voor beveiligings- en bedreigingsbeheer automatisch playbooks voor beveiligingsreacties activeren. 
+[Waarschuwingen](../../compliance/alert-policies.md#viewing-alerts) vertegenwoordigen triggers voor beveiligingswerkstromen voor beveiligingsbewerkingen voor incidentrespons. Het prioriteren van de juiste set waarschuwingen voor onderzoek, terwijl ervoor zorgen dat bedreigingen niet worden aangepakt, is een uitdaging. Wanneer onderzoeken naar waarschuwingen handmatig worden uitgevoerd, moeten security operations-teams entiteiten (zoals inhoud, apparaten en gebruikers) op jagen en correleren die risico lopen op bedreigingen. Dergelijke taken en workflows kunnen zeer tijdrovend zijn en meerdere tools en systemen omvatten. Met AIR worden onderzoek en respons voor beveiligingsgebeurtenissen geautomatiseerd door dat belangrijke waarschuwingen voor beveiligings- en bedreigingsbeheer automatisch playbooks voor beveiligingsreacties activeren. 
 
 Momenteel voor AIR worden waarschuwingen die worden gegenereerd uit de volgende soorten waarschuwingsbeleid automatisch onderzocht:  
 
@@ -55,7 +55,7 @@ Als u waarschuwingen wilt weergeven, kiest u in het Beveiligings- & Compliance C
 > [!NOTE]
 > Informatieve waarschuwingen worden standaard verborgen in de waarschuwingsweergave. Als u ze wilt zien, wijzigt u het waarschuwingsfilter om informatieve waarschuwingen op te nemen.
 
-Als uw organisatie uw beveiligingswaarschuwingen beheert via een waarschuwingsbeheersysteem, servicebeheersysteem of SIEM-systeem (Security Information and Event Management), u Office 365-waarschuwingen naar dat systeem verzenden via een e-mailmelding of via de [Office 365 Management Activity API.](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference) De meldingen van waarschuwingen voor onderzoek via e-mail of API bevatten koppelingen om toegang te krijgen tot de waarschuwingen in het Security & Compliance Center, zodat de toegewezen beveiligingsbeheerder snel naar het onderzoek kan navigeren.
+Als uw organisatie uw beveiligingswaarschuwingen beheert via een waarschuwingsbeheersysteem, servicebeheersysteem of SIEM-systeem (Security Information and Event Management), u waarschuwingen naar dat systeem verzenden via een e-mailmelding of via de [Office 365 Management Activity API.](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference) De meldingen van waarschuwingen voor onderzoek via e-mail of API bevatten koppelingen om toegang te krijgen tot de waarschuwingen in het Security & Compliance Center, zodat de toegewezen beveiligingsbeheerder snel naar het onderzoek kan navigeren.
 
 ![Waarschuwingen die verband houden met onderzoeken](../../media/air-alerts-page-details.png) 
 
@@ -75,7 +75,7 @@ Als onderdeel van AIR worden veiligheidsplaybooks gefaseerd uitgerold. Fase 1 is
 
 Fase 1 bevat ook ondersteuning voor door de beheerder geactiveerde e-mailonderzoeken (met Behulp van [Threat Explorer).](threat-explorer.md)
 
-Fase 2 is nu aan de gang met de volgende playbooks in **openbare preview,** met aanbevelingen voor acties en het helpen van beveiligingsbeheerders bij het onderzoeken van problemen:
+Fase 2 is nu vooruitgang met de volgende playbooks in **openbare preview,** met aanbevelingen voor acties en het helpen van beveiligingsbeheerders bij het onderzoeken van problemen:
 - Gebruiker gerapporteerd als gecompromitteerd (openbare preview)
 
 Verdere playbooks zullen worden vrijgegeven als ze zijn voltooid. Bezoek de [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) om te zien wat er nog meer is gepland en binnenkort.
@@ -110,7 +110,7 @@ Vervolgens worden verschillende dreigingsonderzoeken en jachtstappen uitgevoerd:
 - Vergelijkbare e-mailberichten worden geïdentificeerd via zoekopdrachten in het e-mailcluster.
 - Het signaal wordt gedeeld met andere platforms, zoals [Microsoft Defender ATP.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - Een bepaling wordt gemaakt over de vraag of gebruikers hebben geklikt via een kwaadaardige links in verdachte e-mailberichten.
-- Er wordt gecontroleerd in Office 365 Exchange Online Protection[(EOP)](exchange-online-protection-eop.md)en Office 365 Advanced Threat Protection[(ATP)](office-365-atp.md)om te zien of er andere soortgelijke berichten zijn gerapporteerd door gebruikers.
+- Er wordt gecontroleerd in Exchange Online Protection[(EOP)](exchange-online-protection-eop.md)en Office 365 Advanced Threat Protection[(ATP)](office-365-atp.md)om te zien of er andere soortgelijke berichten zijn gerapporteerd door gebruikers.
 - Een controle wordt gedaan om te zien of een gebruiker is gecompromitteerd. Met deze controle worden signalen in Office 365, [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)en Azure Active [Directory](https://docs.microsoft.com/azure/active-directory)gecontroleerd, waarbij eventuele gerelateerde afwijkingen van gebruikersactiviteiten worden aangetast. 
 
 Tijdens de jachtfase worden risico's en bedreigingen toegewezen aan verschillende jachtstappen. 
@@ -133,7 +133,7 @@ Net als bij playbooks die worden geactiveerd door een waarschuwing, bevatten aut
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Aan de slag met AIR in Office 365](office-365-air.md)
+- [Aan de slag met AIR](office-365-air.md)
 
 - [Bezoek de Microsoft 365 Roadmap om te zien wat er binnenkort komt en uitrol](https://www.microsoft.com/microsoft-365/roadmap?filters=)
 

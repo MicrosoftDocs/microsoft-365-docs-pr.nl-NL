@@ -1,5 +1,5 @@
 ---
-title: Outlook-regels en aangepaste aanvallen op formuliereninjecties in Office 365 detecteren en herstellen
+title: Outlook-regels en aangepaste aanvallen op formuliereninjecties detecteren en herstellen
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -16,14 +16,14 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Meer informatie over het herkennen en herstellen van outlook-regels en aangepaste aanvallen op het uitvoeren van formulieren in Office 365
-ms.openlocfilehash: c15eeb057d14cbb252bda0767a15e7c4788ece9f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 71f796f589157a8eb801af3da78d67d16534447b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42810931"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637590"
 ---
-# <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks-in-office-365"></a>Outlook-regels en injecties met aangepaste formulieren in Office 365 detecteren en herstellen
+# <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook-regels en injecties met aangepaste formulieren detecteren en herstellen
 
 **Overzicht** Meer informatie over het herkennen en herstellen van de Outlook-regels en aangepaste formuliereninjecties in Office 365.
 
@@ -164,7 +164,7 @@ Als u enig bewijs van een van deze aanvallen, herstel is eenvoudig, verwijder ge
 
 4. Installeer de meest up-to-date versies van Outlook. Houd er rekening mee dat de huidige versie van Outlook beide typen van deze aanval standaard blokkeert.
 
-5. Zodra alle offline kopieën van het postvak zijn verwijderd, moet u het wachtwoord van de gebruiker opnieuw instellen (gebruik een kwaliteitswachtwoord) en de stappen volgen in [Setup multi-factor authenticatie voor Office 365-gebruikers](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) als MFA nog niet is ingeschakeld. Dit zorgt ervoor dat de referenties van de gebruiker niet via andere middelen worden weergegeven (zoals phishing of hergebruik van wachtwoorden).
+5. Zodra alle offline kopieën van het postvak zijn verwijderd, moet u het wachtwoord van de gebruiker opnieuw instellen (gebruik een kwaliteitswachtwoord) en de stappen volgen in [Setup multi-factor authenticatie voor gebruikers](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) als MFA nog niet is ingeschakeld. Dit zorgt ervoor dat de referenties van de gebruiker niet via andere middelen worden weergegeven (zoals phishing of hergebruik van wachtwoorden).
 
 ### <a name="using-powershell"></a>PowerShell gebruiken
 
@@ -192,7 +192,7 @@ Er zijn twee externe PowerShell-cmdlets die u gebruiken om gevaarlijke regels te
 
 De exploits van Regels en formulieren worden alleen gebruikt door een aanvaller nadat deze een van de accounts van uw gebruiker heeft gestolen of geschonden. Dus, uw eerste stap om het gebruik van deze exploits tegen uw organisatie te voorkomen, is om uw gebruikersaccounts agressief te beschermen. Enkele van de meest voorkomende manieren waarop accounts worden geschonden zijn door middel van phishing of [wachtwoord spuiten](https://www.dabcc.com/microsoft-defending-against-password-spray-attacks/) aanvallen.
 
-De beste manier om uw gebruikersaccounts, en met name uw beheerdersaccounts, te beschermen, is door [multifactorauthenticatie in te stellen voor Office 365-gebruikers.](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) Je moet ook:
+De beste manier om uw gebruikersaccounts, en met name uw beheerdersaccounts, te beschermen, is door [multi-factor authenticatie in te stellen voor gebruikers.](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) Je moet ook:
 
 - Controleer hoe uw gebruikersaccounts worden [geopend en gebruikt.](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) U de eerste inbreuk niet voorkomen, maar u verkort de duur en de impact van de inbreuk door deze eerder te detecteren. U dit [beveiligingsbeleid van Office 365 Cloud App](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) gebruiken om uw accounts te controleren en te waarschuwen voor ongebruikelijke activiteiten:
 
@@ -234,15 +234,15 @@ Zoek naar de sleutel EnableUnsafeClientMailRules. Als deze er is en is ingesteld
 
 Klanten met on-premises Exchange-installaties moeten overwegen oudere versies van Outlook te blokkeren die geen patches beschikbaar hebben. Details over dit proces vindt u in het artikel [Outlook-clientblokkering configureren](https://docs.microsoft.com/exchange/configure-outlook-client-blocking-exchange-2013-help).
 
-## <a name="secure-office-365-like-a-cybersecurity-pro"></a>Beveilig Office 365 als een cyberbeveiligingspro
+## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Beveilig Microsoft 365 als een cybersecurity pro
 
-Uw Office 365-abonnement wordt geleverd met een krachtige set beveiligingsmogelijkheden die u gebruiken om uw gegevens en uw gebruikers te beschermen. Gebruik de [beveiligingsroadmap van Office 365 - Topprioriteiten voor de eerste 30 dagen, 90 dagen en daarna](security-roadmap.md) om de aanbevolen aanbevolen aanbevolen microsoft-aanbevolen procedures voor het beveiligen van uw Office 365-tenant te implementeren.
+Uw Microsoft 365-abonnement wordt geleverd met een krachtige set beveiligingsmogelijkheden die u gebruiken om uw gegevens en uw gebruikers te beschermen. Gebruik de [microsoft 365-beveiligingsroadmap - Topprioriteiten voor de eerste 30 dagen, 90 dagen en daarna](security-roadmap.md) om de aanbevolen aanbevolen aanbevolen microsoft-aanbevolen procedures voor het beveiligen van uw Microsoft 365-tenant te implementeren.
 
-- Taken om te volbrengen in de eerste 30 dagen. Deze hebben onmiddellijk invloed en hebben een lage impact op uw gebruikers.
+- Taken die in de eerste 30 dagen moeten worden uitgevoerd. Deze hebben direct effect en weinig invloed op uw gebruikers.
 
-- Taken om te volbrengen in 90 dagen. Deze nemen een beetje meer tijd om te plannen en uit te voeren, maar sterk verbeteren van uw veiligheid houding.
+- Taken die binnen 90 dagen moeten worden uitgevoerd. Deze nemen qua planning en implementatie iets meer tijd in beslag, maar zorgen voor aanzienlijke verbeteringen in uw beveiligingspostuur.
 
-- Meer dan 90 dagen. Deze verbeteringen bouwen in uw eerste 90 dagen werk.
+- Na 90 dagen. Deze verbeteringen zijn gebaseerd op de eerste 90 dagen.
 
 ## <a name="see-also"></a>Zie ook:
 

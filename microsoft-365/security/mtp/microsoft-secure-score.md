@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e7274ff196d5b822d146378752d66c9707fc9f19
-ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
+ms.openlocfilehash: c15f0b30dbf377da4e01ba199852f02bd7a003ff
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43583379"
+ms.locfileid: "43637102"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -52,7 +52,7 @@ De meeste worden op een binaire manier gescoord - als u de verbeteringsactie imp
 
 ### <a name="products-included-in-secure-score"></a>Producten opgenomen in Secure Score
 
-Momenteel zijn er aanbevelingen voor Office 365 (waaronder SharePoint Online, Exchange Online, OneDrive voor Bedrijven, Microsoft Information Protection en meer), Azure AD en Cloud App Security. Aanbevelingen voor andere beveiligingsproducten, zoals Azure ATP en Microsoft Defender ATP, komen binnenkort. De aanbevelingen hebben niet betrekking op alle aanvalsoppervlakken die aan elk product zijn gekoppeld, maar ze zijn een goede basislijn. U de verbeteringsacties ook markeren als gedekt door een derde partij.
+Momenteel zijn er aanbevelingen voor onder meer SharePoint Online, Exchange Online, OneDrive voor Bedrijven, Microsoft Information Protection en meer), Azure AD en Cloud App Security. Aanbevelingen voor andere beveiligingsproducten, zoals Azure ATP en Microsoft Defender ATP, komen binnenkort. De aanbevelingen hebben niet betrekking op alle aanvalsoppervlakken die aan elk product zijn gekoppeld, maar ze zijn een goede basislijn. U de verbeteringsacties ook markeren als gedekt door een derde partij.
 
 ## <a name="required-permissions"></a>Vereiste machtigingen
 
@@ -66,7 +66,6 @@ Met lees- en schrijftoegang u wijzigingen aanbrengen en rechtstreeks communicere
 * Beveiligingsbeheerder
 * Exchange-beheerder
 * SharePoint-beheerder
-* Accountbeheerder
 
 ### <a name="read-only-roles"></a>Alleen-lezen rollen
 

@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: aca3bb6413aaab7620b1e1277c821a79dba4bb2f
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+ms.openlocfilehash: 9dca53ac9e99fd9bc68ee42f78de6a2bc009e42c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "42805298"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636182"
 ---
 # <a name="exceptions-to-the-service-plan"></a>Uitzonderingen op het serviceplan
 
@@ -27,7 +27,7 @@ Een uitzondering is een toevoeging of wijziging in de Microsoft Managed Desktop-
 |Beveiligingsagenten & VPN's     |  Software die wordt gebruikt om het gedrag van het apparaat of netwerk te beveiligen, te bewaken of te wijzigen       |
 |Monitoring van digitale ervaringen     |  Software die wordt gebruikt om gegevens op het apparaat van een gebruiker bij te houden om aan IT te rapporteren       |
 |Hardware- of softwarestuurprogramma's     |   Apparaatstuurprogramma's, beperkt door de [toepassingsvereisten](mmd-app-requirements.md)      |
-|Beleid     | Windows 10- of Office 365 ProPlus-instellingen op een beheerd apparaat        |
+|Beleid     | Windows 10- of Microsoft 365-apps voor bedrijfsinstellingen op een beheerd apparaat        |
 |Apparaten     | Apparaten die niet in de lijst met Microsoft Managed [Desktop-apparaten staan](device-list.md)        |
 |Andere     |  Alles wat niet onder de andere gebieden valt       |
  

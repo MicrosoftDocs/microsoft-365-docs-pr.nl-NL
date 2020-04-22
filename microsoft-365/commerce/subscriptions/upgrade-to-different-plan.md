@@ -24,16 +24,19 @@ search.appverid:
 - GEA150
 description: Meer informatie over het upgraden naar een nieuw abonnement.
 monikerRange: o365-worldwide
-ms.openlocfilehash: dbeba16a23490ab756c8ed30ce4856217819e80a
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 8f792cad90b7e153c025a869970a54d36cdd8cbe
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142077"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636508"
 ---
-# <a name="upgrade-to-a-different-plan"></a>Upgraden naar een ander abonnement
+# <a name="upgrade-to-a-different-plan"></a>Upgraden naar een ander abonnement 
 
 Wanneer uw bedrijf verandert of meer functies nodig hebt, u plannen upgraden. De eenvoudigste manier om dit te doen is door het tabblad **Upgrade** in het beheercentrum te gebruiken. Het gebruik **van** het tabblad Upgrade wordt echter niet in alle situaties ondersteund. In sommige gevallen u plannen mogelijk handmatig wijzigen.
+
+> [!NOTE]
+> Dit artikel is van toepassing op het nieuwe beheercentrum. Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren. Zie [Overschakelen naar een ander Microsoft 365 voor business-abonnement om](switch-to-a-different-plan.md)het artikel over het oude beheercentrum weer te geven.
 
 ## <a name="use-the-upgrade-tab"></a>Het tabblad Bijwerken gebruiken
 
@@ -78,7 +81,7 @@ Als u wilt overstappen op een abonnement met minder services, u [plannen handmat
 
 Als u geen abonnementen ziet op het tabblad **Upgrade,** betekent dit dat uw abonnement niet automatisch kan worden bijgewerkt. In sommige gevallen u het probleem mogelijk oplossen, zodat u plannen bekijken die beschikbaar zijn voor een upgrade, of u plannen in plaats daarvan handmatig upgraden of wijzigen.
 
-### <a name="why-are-there-no-plans-listed-to-upgrade"></a>Waarom zijn er geen plannen vermeld om te upgraden?
+ ### <a name="why-are-there-no-plans-listed-to-upgrade"></a>Waarom zijn er geen plannen vermeld om te upgraden?
 
 #### <a name="you-cant-upgrade-subscriptions-now-because-you-have-more-users-than-licenses"></a>U abonnementen nu niet upgraden omdat u meer gebruikers hebt dan licenties.
 
@@ -106,7 +109,7 @@ U [plannen handmatig wijzigen](change-plans-manually.md) of ondersteuning [belle
 
 #### <a name="you-have-two-or-more-plans-for-the-same-product"></a>Je hebt twee of meer plannen voor hetzelfde product
 
-U het tabblad **Bijwerken** alleen gebruiken als alle gebruikers zich op hetzelfde abonnement abonneren. Als u bijvoorbeeld twee Office 365 Business Premium-abonnementen hebt, u een abonnement niet automatisch upgraden naar een ander abonnement.
+U het tabblad **Bijwerken** alleen gebruiken als alle gebruikers zich op hetzelfde abonnement abonneren. Als u bijvoorbeeld twee Microsoft 365 Business Standard-abonnementen hebt, u een van deze abonnementen niet automatisch upgraden naar een ander abonnement.
 
 #### <a name="you-have-a-prepaid-plan"></a>U hebt een vooraf betaald abonnement
 
@@ -138,13 +141,13 @@ Als u dit wilt oplossen, zoekt u het abonnement op de pagina <a href="https://go
 
 ## <a name="what-does-upgrading-a-plan-do-to-my-service-and-billing"></a>Wat doet het upgraden van een abonnement met mijn service en facturering?
 
-Wanneer u plannen automatisch upgradet met het tabblad **Upgrade** in het beheercentrum, worden uw services en facturering beïnvloed.
+Wanneer u plannen automatisch upgradet met de knop **Abonnementen schakelen** (of het tabblad **Upgrade** in het nieuwe beheercentrum), worden uw services en facturering beïnvloed.
 
 ### <a name="access-to-services"></a>Toegang tot services
 
-**Beheerders** kunnen het beheercentrum niet gebruiken terwijl het abonnement wordt bijgewerkt. Dit duurt maximaal een uur.
-
-**Gebruikers** merken geen onderbreking van de service. Ze blijven de bestaande service hebben totdat de upgrade volledig is voltooid.
+ **Beheerders** kunnen het beheercentrum niet gebruiken terwijl het abonnement wordt bijgewerkt. Dit duurt maximaal een uur.
+  
+ **Gebruikers** merken geen onderbreking van de service. Ze blijven de bestaande service hebben totdat de upgrade volledig is voltooid.
   
 ### <a name="users-and-licenses"></a>Gebruikers en licenties
 
@@ -161,9 +164,9 @@ Alle gebruikersgegevens worden tijdens de upgrade bewaard, inclusief Exchange-po
 Op de dag dat uw abonnement is voltooid, wordt de facturering op uw oude abonnement uitgeschakeld en wordt de facturering voor uw nieuwe abonnement ingeschakeld. U ontvangt een krediet naar rato voor eventuele niet-gebruikte service van het oude abonnement. U ontvangt binnen 30 dagen na de upgrade naar het nieuwe abonnement een nieuwe factuur met het tegoed voor uw oude abonnement.
   
 > [!NOTE]
-> Hoe lang het duurt voordat het bedrag is overgeschreven naar uw rekening, is afhankelijk van de betaalmethode die voor het abonnement werd gebruikt.
-
-**Upgraden van een prepaid abonnement voordat het verloopt?** Als de totale kosten van uw nieuwe abonnement hoger zijn dan of gelijk zijn aan de resterende waarde van uw vooraf betaalde abonnement, raakt u de vooraf betaalde tijd niet kwijt. Op de afrekeningspagina ziet u hoeveel krediet u hebt voor uw ongebruikte tijd. Als de totale kosten van uw nieuwe abonnement lager zijn dan de resterende waarde van uw huidige vooraf betaalde abonnement, verliest u een deel van uw ongebruikte tijd. U ontvangt een melding voordat u afrekent en u wachten met upgraden tot de vervaldatum van uw prepaid-abonnement.
+> Hoe lang het duurt voordat het bedrag is overgeschreven naar uw rekening, is afhankelijk van de betaalmethode die voor het abonnement werd gebruikt. 
+  
+ **Upgraden van een prepaid abonnement voordat het verloopt?** Als de totale kosten van uw nieuwe abonnement hoger zijn dan of gelijk zijn aan de resterende waarde van uw vooraf betaalde abonnement, raakt u de vooraf betaalde tijd niet kwijt. Op de afrekeningspagina ziet u hoeveel krediet u hebt voor uw ongebruikte tijd. Als de totale kosten van uw nieuwe abonnement lager zijn dan de resterende waarde van uw huidige vooraf betaalde abonnement, verliest u een deel van uw ongebruikte tijd. U ontvangt een melding voordat u afrekent en u wachten met upgraden tot de vervaldatum van uw prepaid-abonnement.
 
 ## <a name="call-support-to-help-you-upgrade-plans"></a>Ondersteuning bellen om u te helpen plannen te upgraden
 
@@ -173,4 +176,4 @@ Op de dag dat uw abonnement is voltooid, wordt de facturering op uw oude abonnem
 
 [Plannen handmatig wijzigen](change-plans-manually.md)
 
-[Back-ups maken van gegevens voordat u overstapt op Office 365 voor Bedrijven-abonnementen](back-up-data-before-switching-plans.md)
+[Back-ups maken van gegevens voordat u overstapt op Microsoft 365 voor bedrijfsabonnementen](back-up-data-before-switching-plans.md)

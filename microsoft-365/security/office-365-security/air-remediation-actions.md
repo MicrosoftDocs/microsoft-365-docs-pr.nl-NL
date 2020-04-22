@@ -1,5 +1,5 @@
 ---
-title: Herstelacties in automatisch onderzoek en reactie van Office 365
+title: Herstelacties in geautomatiseerd onderzoek en reactie van Microsoft 365
 keywords: AIR, autoIR, ATP, geautomatiseerd, onderzoek, respons, sanering, bedreigingen, geavanceerd, bedreiging, bescherming
 f1.keywords:
 - NOCSH
@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Meer informatie over herstelacties in geautomatiseerde onderzoeks- en reactiemogelijkheden in Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: d0f08c3e89882e21263c18246612949ea68ac1ad
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: 8dfb203cfdae179d8d88842a2d2b55aeab2e17fb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528927"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634650"
 ---
-# <a name="remediation-actions-in-office-365"></a>Herstelacties in Office 365
+# <a name="remediation-actions-in-microsoft-365"></a>Herstelacties in Microsoft 365
 
 ## <a name="remediation-actions"></a>Herstelacties
 
@@ -60,9 +60,9 @@ In de volgende tabel worden bedreigingen en passende herstelacties in Office 365
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Details en resultaten van een geautomatiseerd onderzoek in Office 365 weergeven](air-view-investigation-results.md)
+- [Details en resultaten van een geautomatiseerd onderzoek weergeven in Microsoft 365](air-view-investigation-results.md)
 
-- [Inbehandeling of voltooide herstelacties weergeven na een geautomatiseerd onderzoek in Office 365](air-review-approve-pending-completed-actions.md)
+- [In behandeling zijnde of voltooide herstelacties weergeven na een geautomatiseerd onderzoek in Microsoft 365](air-review-approve-pending-completed-actions.md)
 
 
 ## <a name="related-articles"></a>Verwante artikelen

@@ -1,5 +1,5 @@
 ---
-title: Algemene Faq van EOP
+title: Algemene veelgestelde vragen over EOP
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -12,26 +12,26 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 description: 'Hier beantwoorden we de meest voorkomende algemene vragen over de Microsoft Exchange Online Protection (EOP) cloud-hosted e-mailfilteringservice. Ga voor aanvullende veelgestelde vragen (FAQ)-onderwerpen naar de volgende links:'
-ms.openlocfilehash: 842f022edbba9d1a790a26987982c3bd508e9d5e
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 899109a768399f53674b97fc8df2f71aa822316d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893680"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636250"
 ---
-# <a name="eop-general-faq"></a>Algemene Faq van EOP
+# <a name="eop-general-faq"></a>Algemene veelgestelde vragen over EOP
 
 Hier beantwoorden we de meest voorkomende algemene vragen over de Microsoft Exchange Online Protection (EOP) cloud-hosted e-mailfilteringservice. Ga voor aanvullende veelgestelde vragen (FAQ)-onderwerpen naar de volgende links:
 
-- [Veelgestelde vragen over eop-wachtrijen, uitgestelde en teruggestuurde berichten](eop-queued-deferred-and-bounced-messages-faq.md)
+- [Veelgestelde vragen over in een wachtrij geplaatste, uitgestelde en niet-bezorgde berichten in EOP](eop-queued-deferred-and-bounced-messages-faq.md)
 
 - [Veelgestelde vragen over gedelegeerd beheer](delegated-administration-faq.md)
 
-- [Veelgestelde vragen over antispambescherming](anti-spam-protection-faq.md)
+- [Veelgestelde vragen over beveiliging tegen ongewenste e-mail](anti-spam-protection-faq.md)
 
 - [Veelgestelde vragen over quarantaine](quarantine-faq.md)
 
-- [Veelgestelde vragen over antimalwarebescherming](anti-malware-protection-faq-eop.md)
+- [Veelgestelde vragen over beveiliging tegen malware](anti-malware-protection-faq-eop.md)
 
 - [Veelgestelde vragen over berichttracering](https://docs.microsoft.com/exchange/monitoring/trace-an-email-message/message-trace-faq)
 
@@ -51,19 +51,19 @@ A. EOP heeft een licentie van de gebruiker. Zie de startpagina van [Exchange Onl
 
 A. Wanneer u uw MX-record wijzigt, begint het filteren onmiddellijk, volgens de stappen die zijn beschreven in [Het instellen van uw EOP-service](set-up-your-eop-service.md)en uw e-mail via EOP. Het kan 24-48 uur duren voordat de MX-record wordt gepropageerd via DNS. U uw beveiligingsinstellingen tijdens dit proces op elk gewenst moment in het Exchange-beheercentrum (EAC) verfijnen.
 
-**V. Moet ik alle functies van Microsoft Office 365 gebruiken om EOP te gebruiken? Wat als ik gewoon EOP bescherming wil en dat is alles?**
+**V. Moet ik alle functies van Microsoft 365 gebruiken om EOP te gebruiken? Wat als ik gewoon EOP bescherming wil en dat is alles?**
 
-A. U EOP gebruiken om uw on-premises postvakken te beschermen zonder andere functies van Office 365 te gebruiken. Dit staat bekend als een zelfstandig abonnement. Een lijst met EOP-functies is te vinden in de Beschrijving van de [Exchange Online Protection Service.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)
+A. U EOP gebruiken om uw on-premises postvakken te beschermen zonder andere functies van Microsoft 365 te gebruiken. Dit staat bekend als een zelfstandig abonnement. Een lijst met EOP-functies is te vinden in de Beschrijving van de [Exchange Online Protection Service.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)
 
-**V. Waarom heb ik een Office 365-tenant nodig wanneer ik me aanmeldt voor e-mailfiltering via EOP?**
+**V. Waarom heb ik een Microsoft 365-tenant nodig wanneer ik me aanmeldt voor e-mailfiltering via EOP?**
 
-A. Office 365 is de naam die wordt gegeven aan een verzameling producten en services die toegankelijk zijn via een Office 365-tenant. Zie de Office 365-tenant als het startpunt waaraan u licenties voor e-mailfiltering toevoegen.
+A. Microsoft 365 is de naam die wordt gegeven aan een verzameling producten en services die toegankelijk zijn via een Microsoft 365-tenant. Denk aan de Microsoft 365-tenant als het startpunt waaraan u licenties voor e-mailfiltering toevoegen.
 
 **V. Heeft EOP een communicatieportal waar ik meer te weten kan komen over bekende problemen en verwachte oplossingen? Hoe zit het met nieuwe functies?**
 
 A. Het Microsoft 365-beheercentrum heeft een deel van deze informatie. Als u wordt beïnvloed door een gebeurtenis op serviceniveau, ziet u een communicatiewaarschuwing (meestal vergezeld van een belpictogram) nadat u zich hebt aanmelden bij het Microsoft 365-beheercentrum. We raden u aan alle artikelen te lezen en ernaar te handelen.
 
-Met betrekking tot nieuwe EOP-functies is de [roadmap van Office 365 voor Bedrijven](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) een goede bron voor het vinden van informatie over aankomende nieuwe functies. We zullen ook het plaatsen van blog artikelen over nieuwe functies op de [Microsoft 365 Blogs](https://www.microsoft.com/microsoft-365/blog/) website.
+Met betrekking tot nieuwe EOP-functies, de [Microsoft 365 voor bedrijven roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) is een goede bron voor het vinden van informatie over aankomende nieuwe functies. We zullen ook het plaatsen van blog artikelen over nieuwe functies op de [Microsoft 365 Blogs](https://www.microsoft.com/microsoft-365/blog/) website.
 
 **V. Werkt de service met verouderde Exchange-versies (zoals Exchange Server 2010) en niet-Exchange-omgevingen?**
 
@@ -75,7 +75,7 @@ A. Elke grootte. Het EOP-netwerk heeft voldoende capaciteit om uw groei aan te k
 
 **Welke machtigingen heb ik nodig om EOP in te stellen?**
 
-Als u EOP wilt configureren, moet u een Globale beheerder van Office 365 of een Exchange Company Administrator (de rolgroep Organisatiebeheer) zijn.
+Als u EOP wilt configureren, moet u een globale beheerder of een Exchange Company Administrator (de rolgroep Organisatiebeheer) zijn.
 
 **V. Hoe weet ik of mijn gegevens en privégegevens veilig zijn?**
 

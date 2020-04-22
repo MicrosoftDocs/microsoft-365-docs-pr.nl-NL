@@ -1,5 +1,5 @@
 ---
-title: Uw factuuradressen voor Office 365 voor Bedrijven wijzigen
+title: Uw factuuradressen wijzigen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,16 +21,16 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
-description: Meer informatie over het bijwerken van uw factuuradressen voor Office 365 voor Bedrijven. U ook het e-mailadres bijwerken dat wordt gebruikt om factureringsmeldingen te ontvangen.
+description: Meer informatie over het bijwerken van uw factuuradressen voor Microsoft 365 voor Bedrijven. U ook het e-mailadres bijwerken dat wordt gebruikt om factureringsmeldingen te ontvangen.
 ms.custom: okr_SMB
-ms.openlocfilehash: 6b11e38de33bf6d66c5847643790603b9ce7b0af
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 169dfd78ca39e91e065c3bea59242a9f205463d0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142309"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632717"
 ---
-# <a name="change-your-billing-addresses-for-office-365-for-business"></a>Uw factuuradressen voor Office 365 voor Bedrijven wijzigen
+# <a name="change-your-billing-addresses"></a>Uw factuuradressen wijzigen
 
 Uw factuur of factuur bevat drie adressen:
   
@@ -60,9 +60,6 @@ Als u Office 365 gebruikt dat wordt beheerd door 21Vianet in China, raadpleegt u
 
 ::: moniker-end
 
-::: moniker range="o365-worldwide"
-
-::: moniker-end
 
 ## <a name="change-your-sold-to-address"></a>Uw adres onder Verkocht aan wijzigen
 
@@ -158,9 +155,9 @@ Als u Office 365 gebruikt dat wordt beheerd door 21Vianet in China, raadpleegt u
 
 ## <a name="change-the-alternate-email-address-your-billing-notifications-are-sent-to"></a>Het alternatieve e-mailadres waarnaar uw factuurmeldingen worden verzonden, wijzigen
 
-De factuurmeldingen voor uw organisatie worden standaard verzonden naar het Office 365-e-mailadres en het alternatieve e-mailadres van elke globale beheerder en factureringsbeheerder in uw organisatie. Elke beheerder kan het alternatieve e-mailadres wijzigen door de profielgegevens ervan bij te werken.
+Standaard worden de factureringsmeldingen van uw organisatie verzonden naar het Microsoft-e-mailadres en het alternatieve e-mailadres van elke globale en factureringsbeheerder in uw organisatie. Elke beheerder kan het alternatieve e-mailadres wijzigen door de profielgegevens ervan bij te werken.
   
-1. Meld u aan bij Office 365 met uw werk- of schoolaccount als hoofdbeheerder. [Lees hier hoe u zich kunt aanmelden](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Meld u aan bij Microsoft 365 met uw werk- of schoolaccount als globale beheerder. [Meer informatie over aanmelden](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
 2. Selecteer het **pictogram Gebruiker**en selecteer **Mijn account**.
   
@@ -173,9 +170,7 @@ De factuurmeldingen voor uw organisatie worden standaard verzonden naar het Offi
 ## <a name="change-the-alternate-email-address-for-another-admin"></a>Het alternatieve e-mailadres voor een andere beheerder wijzigen
 
 U kunt ook het alternatieve e-mailadres van andere globale en factureringsbeheerders in uw organisatie wijzigen.
-
-::: moniker range="o365-worldwide"
-
+  
 1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Factureringsfactureringsmeldingen.</a> **Billing**
 
 ::: moniker-end
@@ -203,3 +198,5 @@ U kunt ook het alternatieve e-mailadres van andere globale en factureringsbeheer
 [Inzicht in uw factuur](understand-your-invoice2.md)
 
 [Betalen voor uw abonnement](pay-for-your-subscription.md)
+
+[Abonnementen en facturering - Help voor beheerders](../index.yml)

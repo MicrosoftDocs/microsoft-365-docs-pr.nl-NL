@@ -1,5 +1,5 @@
 ---
-title: ATP-antiphishingbeleid configureren
+title: ATP-beleid tegen phishing configureren
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,20 +14,20 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe ze de geavanceerde antiphishingbeleidsregels kunnen maken, wijzigen en verwijderen die beschikbaar zijn in organisaties met Office 365 Advanced Threat Protection (ATP).
-ms.openlocfilehash: b0316133c90837bedc657bde355f31d50ffe76ea
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: 358abc2835e8d1fba39d72021f03b75775528bcf
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537459"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638456"
 ---
-# <a name="configure-atp-anti-phishing-policies-in-office-365"></a>ATP-beleid voor phishing configureren in Office 365
+# <a name="configure-atp-anti-phishing-policies"></a>ATP-beleid tegen phishing configureren
 
-ATP-beleid voor phishing maakt deel uit van [Office 365 Advanced Threat Protection.](office-365-atp.md) ATP-beleid tegen phishing kan uw organisatie beschermen tegen schadelijke phishing-aanvallen en andere vormen van phishing-aanvallen. Zie [Anti-phishingbescherming in Office 365](anti-phishing-protection.md)voor meer informatie over de verschillen tussen antiphishingbeleid in Exchange Online Protection (EOP) en ATP-antiphishingbeleid.
+ATP-beleid voor phishing maakt deel uit van [Office 365 Advanced Threat Protection.](office-365-atp.md) ATP-beleid tegen phishing kan uw organisatie beschermen tegen schadelijke phishing-aanvallen en andere vormen van phishing-aanvallen. Zie [Anti-phishingbescherming](anti-phishing-protection.md)voor meer informatie over de verschillen tussen antiphishingbeleid in Exchange Online Protection (EOP) en ATP-antiphishingbeleid.
 
 Beheerders kunnen het standaard ATP-antiphishingbeleid bekijken, bewerken en configureren (maar niet verwijderen). Voor meer granulariteit u ook aangepaste ATP-antiphishingbeleidsregels maken die van toepassing zijn op specifieke gebruikers, groepen of domeinen in uw organisatie. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
 
-U atp-antiphishingbeleid configureren in het Office 365 Security & Compliance Center of in Exchange Online PowerShell.
+U ATP-antiphishingbeleid configureren in het Security & Compliance Center of in Exchange Online PowerShell.
 
 Zie Het [standaardantiphishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)voor informatie over het configureren van het beperktere ingebouwde antiphishingbeleid dat beschikbaar is in Exchange Online Protection-organisaties (dat wil zeggen Office 365-organisaties zonder ATP.
 
@@ -73,7 +73,7 @@ Om de effectiviteit van anti-phishingbescherming te vergroten, u aangepaste ATP-
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u antiphishingbeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Voor alleen-lezen toegang tot anti-phishingbeleid moet u lid zijn van de rolgroep **Security Reader.** Zie [Machtigingen in het Office 365-beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
+- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u antiphishingbeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Voor alleen-lezen toegang tot anti-phishingbeleid moet u lid zijn van de rolgroep **Security Reader.** Zie Machtigingen in het Security & Compliance [Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rolgroepen in het Security & Compliance Center.
 
 - Zie Beleidsinstellingen voor [antiphishing](recommended-settings-for-eop-and-office365-atp.md#office-atp-anti-phishing-policy-settings)van Office ATP voor onze aanbevolen instellingen voor atp-antiphishing.
 
@@ -246,7 +246,7 @@ Gebruik de volgende procedures om het ANTI-phishingbeleid van ATP te wijzigen: e
 
    Houd er rekening mee dat deze instellingen identiek zijn aan de instellingen die beschikbaar zijn in het standaard antiphishingbeleid in EOP.
 
-   - **Instellingen voor spoofingfilters:** de standaardwaarde is **ingeschakeld**en we raden u aan deze aan te laten staan. Als u deze wilt uitschakelen, schuift u de schakelaar naar **Uit.** Zie [Spoofinformatie configureren in Office 365](learn-about-spoof-intelligence.md)voor meer informatie.
+   - **Instellingen voor spoofingfilters:** de standaardwaarde is **ingeschakeld**en we raden u aan deze aan te laten staan. Als u deze wilt uitschakelen, schuift u de schakelaar naar **Uit.** Zie [spoof-intelligentie configureren in Office 365](learn-about-spoof-intelligence.md) voor meer informatie.
 
      > [!NOTE]
      > U hoeft anti-spoofingbeveiliging niet uit te schakelen als uw MX-record niet naar Office 365 wijst. u schakelt in plaats daarvan Uitgebreide filtering voor connectors in. Zie Uitgebreide [filtering voor connectors in Exchange Online voor](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)instructies .

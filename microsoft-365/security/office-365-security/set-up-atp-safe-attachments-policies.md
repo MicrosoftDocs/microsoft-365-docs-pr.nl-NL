@@ -17,12 +17,12 @@ ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
 description: Definieer beleid voor veilige bijlagen om uw organisatie te beschermen tegen schadelijke bestanden in e-mail.
-ms.openlocfilehash: 8151cf1ec25ae46ae7a1845f34f42df3e5483bb2
-ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
+ms.openlocfilehash: d9139ff1b3adef2f70b6aede630791d355127573
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43608100"
+ms.locfileid: "43638342"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Beleid voor veilige bijlagen van Office 365 instellen
 
@@ -43,29 +43,28 @@ Mensen verzenden, ontvangen en delen regelmatig bijlagen, zoals documenten, pres
 
 - Controleer of uw organisatie [office 365 Advanced Threat Protection](office-365-atp.md)heeft.
 
-- Zorg ervoor dat u over de benodigde machtigingen beschikt. Als u ATP-beleid wilt definiëren (of bewerken) moet u een Exchange Online Organization Management-rol (Office 365 Global Administrator is standaard toegewezen aan deze rol) of beide exchange online hygiënebeheer- en beveiligingsbeheerdersrollen toegewezen. Zie de volgende tabel voor meer informatie:
+- Zorg ervoor dat u over de benodigde machtigingen beschikt. Als u ATP-beleid wilt definiëren (of bewerken) moet u een Exchange Online Organization Management-rol (globale beheerder is standaard toegewezen aan deze rol) of beide rollen exchange online hygiënebeheer en beveiligingsbeheerder toegewezen. Zie de volgende tabel voor meer informatie:
 
-  |||
-  |---|---|
-  |**Rol**|**Waar/hoe toegewezen**|
-  |Globale beheerder van Office 365 |De persoon die zich aanmeldt om Office 365 te kopen, is standaard een globale beheerder. (Zie [Over Office 365-beheerdersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) voor meer informatie.)|
+  |Rol|Waar/hoe toegewezen|
+  |---------|---------|
+  |globale beheerder |De persoon die zich aanmeldt om Microsoft 365 te kopen is standaard een globale beheerder. (Zie [Over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) voor meer informatie.)|
   |Beveiligingsbeheerder |Azure Active Directory-beheercentrum ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
   |Exchange Online Organization Management, Exchange Online Hygiene Management |Exchange-beheercentrum[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)( ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell)](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
   |
 
-  Zie Machtigingen in het Office [365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rollen en machtigingen.
+  Zie [Machtigingen in het Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rollen en machtigingen.
 
 - [Meer informatie over beleidsopties voor veilige bijlagen atp](#step-3-learn-about-atp-safe-attachments-policy-options) (in dit artikel). Sommige opties, zoals de opties Monitor of Vervangen, kunnen leiden tot een kleine vertraging van e-mail terwijl bijlagen worden gescand. Als u berichtvertragingen wilt voorkomen, u overwegen dynamische bezorging te gebruiken [en een voorbeeld te bekijken.](dynamic-delivery-and-previewing.md)
 
-- Geef u tot 30 minuten de tijd om uw nieuwe of bijgewerkte beleid te verspreiden naar alle Office 365-datacenters.
+- Geef u tot 30 minuten de tijd om uw nieuwe of bijgewerkte beleid te verspreiden naar alle Microsoft 365-datacenters.
 
 ## <a name="step-2-set-up-or-edit-an-atp-safe-attachments-policy"></a>Stap 2: Een beleid voor veilige bijlagen voor ATP instellen (of bewerken)
 
 1. Ga [https://protection.office.com](https://protection.office.com) naar en meld je aan met je werk- of schoolaccount.
 
-2. Kies in het Office &amp; 365 Security Compliance Center in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**de optie **Veilige bijlagen** **beleid** \> .
+2. Kies in &amp; het Beveiligingscompliancecentrum in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**de optie **Veilige bijlagen** **beleid** \> .
 
-3. Als u **ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams**ziet, raden we u aan deze optie te selecteren. Hiermee [u geavanceerde bedreigingsbeveiliging van Office 365 inschakelen voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md) voor uw Office 365-omgeving.
+3. Als u **ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams**ziet, raden we u aan deze optie te selecteren. Hiermee [u geavanceerde bedreigingsbeveiliging van Office 365 inschakelen voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md) voor uw Microsoft 365-omgeving.
 
 4. Kies **Nieuw** (de knop Nieuw lijkt **+** op een plusteken ( )) om te beginnen met het maken van uw beleid.
 
@@ -77,13 +76,13 @@ Mensen verzenden, ontvangen en delen regelmatig bijlagen, zoals documenten, pres
 
    - Kies in de sectie respons de optie **Dynamische bezorging.** ([Meer informatie over dynamische weergave en previewing met ATP Safe Attachments](dynamic-delivery-and-previewing.md).)
 
-   - Selecteer in de sectie **Bijlage omleiden** de optie om het e-mailadres van de globale beheerder, beveiligingsbeheerder of beveiligingsanalist van Office 365 in te schakelen en te typen die kwaadaardige bijlagen onderzoekt.
+   - Selecteer in de sectie **Bijlage omleiden** de optie om het e-mailadres van uw globale beheerder, beveiligingsbeheerder of beveiligingsanalist in te schakelen en te typen die kwaadaardige bijlagen zal onderzoeken.
 
    - Kies **In** de sectie Toegepast op de optie **Het geadresseerde domein is**en selecteer vervolgens het domein. Kies **Toevoegen**en kies **OK**.
 
 6. Selecteer **Save**.
 
-U overwegen meerdere ATP-beleid voor veilige bijlagen in te stellen voor uw organisatie. Dit beleid wordt toegepast in de volgorde waarin ze worden weergegeven op de pagina **Veilige bijlagen atp.** Nadat een beleid is gedefinieerd of bewerkt, u ten minste 30 minuten toestaan dat het beleid in alle Microsoft-datacenters van kracht wordt.
+U overwegen meerdere ATP-beleid voor veilige bijlagen in te stellen voor uw organisatie. Dit beleid wordt toegepast in de volgorde waarin ze worden weergegeven op de pagina **Veilige bijlagen atp.** Nadat een beleid is gedefinieerd of bewerkt, u ten minste 30 minuten toestaan dat de politie in alle Microsoft-datacenters van kracht wordt.
 
 ## <a name="step-3-learn-about-atp-safe-attachments-policy-options"></a>Stap 3: Meer informatie over beleidsopties voor veilige bijlagen atp
 

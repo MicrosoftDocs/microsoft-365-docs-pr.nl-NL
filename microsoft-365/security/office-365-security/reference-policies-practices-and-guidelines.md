@@ -16,22 +16,22 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: Microsoft heeft verschillende beleidsregels, procedures ontwikkeld en verschillende best practices in de branche aangenomen om onze gebruikers te beschermen tegen beledigende, ongewenste of schadelijke e-mail.
-ms.openlocfilehash: c95c586f6287857b910c82e8f21b3d977cdc5966
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 6e73355c02e0416a80441aff8143fcbf51150b94
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033744"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634386"
 ---
-# <a name="reference-policies-practices-and-guidelines"></a>Referentie: Beleid, praktijken en richtlijnen
+# <a name="reference-policies-practices-and-guidelines"></a>Verwijzing: Beleid, procedures en richtlijnen
 
-Microsoft is toegewijd om te helpen de meest vertrouwde gebruikerservaring op het web te bieden. Daarom heeft Microsoft verschillende beleidsregels, procedures ontwikkeld en verschillende best practices in de branche aangenomen om onze gebruikers te beschermen tegen beledigende, ongewenste of schadelijke e-mail. Afzenders die e-mail naar Office 365-gebruikers proberen te sturen, moeten ervoor zorgen dat ze de richtlijnen in dit artikel volledig begrijpen en volgen om te helpen bij deze inspanning en om mogelijke leveringsproblemen te voorkomen.
+Microsoft is toegewijd om te helpen de meest vertrouwde gebruikerservaring op het web te bieden. Daarom heeft Microsoft verschillende beleidsregels, procedures ontwikkeld en verschillende best practices in de branche aangenomen om onze gebruikers te beschermen tegen beledigende, ongewenste of schadelijke e-mail. Afzenders die e-mail naar gebruikers proberen te sturen, moeten ervoor zorgen dat ze de richtlijnen in dit artikel volledig begrijpen en volgen om te helpen bij deze inspanning en om mogelijke leveringsproblemen te voorkomen.
 
-Als u zich niet aan deze beleidsregels en richtlijnen houdt, is het mogelijk dat ons ondersteuningsteam u niet kan helpen. Als u zich houdt aan de richtlijnen, praktijken en beleidsregels die in dit artikel worden gepresenteerd en nog steeds problemen met de weergave ondervindt op basis van uw verzendende IP-adres, volgt u de stappen om een verzoek tot schrapping in te dienen. Zie De [lijstmeting gebruiken om uzelf uit de lijst met geblokkeerde afzenders van Office 365 te verwijderen](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)voor instructies.
+Als u zich niet aan deze beleidsregels en richtlijnen houdt, is het mogelijk dat ons ondersteuningsteam u niet kan helpen. Als u zich houdt aan de richtlijnen, praktijken en beleidsregels die in dit artikel worden gepresenteerd en nog steeds problemen met de weergave ondervindt op basis van uw verzendende IP-adres, volgt u de stappen om een verzoek tot schrapping in te dienen. Zie De [lijstportal gebruiken om uzelf uit de lijst met geblokkeerde afzenders te verwijderen](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)voor instructies.
 
 ## <a name="general-microsoft-policies"></a>Algemeen Microsoft-beleid
 
-E-mail die naar Office 365-gebruikers wordt verzonden, moet voldoen aan alle Microsoft-beleidsregels met betrekking tot e-mailverzending en -gebruik van Office 365.
+E-mail die naar Microsoft 365-gebruikers wordt verzonden, moet voldoen aan alle Microsoft-beleidsregels met betrekking tot e-mailoverdracht en -gebruik van Office 365.
 
 - Servicevoorwaarden voor Office 365; in het bijzonder, het verbod op het gebruik van de dienst om spam of verspreiden van malware
 
@@ -39,7 +39,7 @@ E-mail die naar Office 365-gebruikers wordt verzonden, moet voldoen aan alle Mic
 
 ## <a name="governmental-regulations"></a>Overheidsvoorschriften
 
-E-mail die naar Office 365-gebruikers wordt verzonden, moet voldoen aan alle toepasselijke wet- en regelgeving voor e-mailcommunicatie in het toepasselijke rechtsgebied.
+E-mail die naar Microsoft 365-gebruikers wordt verzonden, moet voldoen aan alle toepasselijke wet- en regelgeving voor e-mailcommunicatie in het toepasselijke rechtsgebied.
 
 - [CAN-SPAM Act: een compliance gids voor bedrijven](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)
 
@@ -47,13 +47,13 @@ E-mail die naar Office 365-gebruikers wordt verzonden, moet voldoen aan alle toe
 
 ## <a name="technical-guidelines"></a>Technische richtlijnen
 
-E-mail die naar Office 365 wordt verzonden, moet voldoen aan de toepasselijke aanbevelingen in de onderstaande documenten (sommige koppelingen zijn alleen beschikbaar in het Engels).
+E-mail die naar Microsoft 365 wordt verzonden, moet voldoen aan de toepasselijke aanbevelingen in de onderstaande documenten (sommige links zijn alleen beschikbaar in het Engels).
 
 - [RFC 2505: Anti-Spam Aanbevelingen voor SMTP MTAs](https://www.ietf.org/rfc/rfc2505.txt)
 
 - [RFC 2920: SMTP-serviceextensie voor command pipelining](https://www.ietf.org/rfc/rfc2920.txt)
 
-Bovendien moeten e-mailservers die verbinding maken met Office 365 aan de volgende vereisten voldoen:
+Bovendien moeten e-mailservers die verbinding maken met Microsoft 365 voldoen aan de volgende vereisten:
 
 - Afzender zal naar verwachting voldoen aan alle technische normen voor de overdracht van internet e-mail, zoals gepubliceerd door The Internet Society's Internet Engineering Task Force (IETF), met inbegrip van RFC 5321, RFC 5322, en anderen.
 
@@ -73,9 +73,9 @@ Bovendien moeten e-mailservers die verbinding maken met Office 365 aan de volgen
 
 Afzenders, ISP's en andere serviceproviders moeten actief de reputatie van uw uitgaande IP-adressen beheren.
 
-## <a name="office-365-limits"></a>Office 365-limieten
+## <a name="microsoft-365-limits"></a>Microsoft 365-limieten
 
-Afzenders moeten zich houden aan Office 365-limieten die worden vermeld in [exchange online-beveiligingslimieten.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)
+Afzenders moeten zich houden aan microsoft 365-limieten die worden vermeld in [exchange online-beveiligingslimieten](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits).
 
 ## <a name="email-delivery-resources-and-organizations"></a>Bronnen en organisaties voor e-mailbezorging
 

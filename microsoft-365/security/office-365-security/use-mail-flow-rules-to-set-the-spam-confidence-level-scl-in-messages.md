@@ -16,16 +16,16 @@ ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u de SCL van berichten in Exchange Online Protection instellen.
-ms.openlocfilehash: b7ea9a0f046e5a48f0de8d4ac9ae6d53821f03c0
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: cc75130d1e30b4cd64c32b1729c8145ad3088742
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895093"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636426"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>Regels voor e-mailstroom gebruiken om het spamvertrouwensniveau (SCL) in te stellen in berichten
 
-Als u een Office 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection-klant (EOP) zonder Exchange Online-postvakken, gebruikt EOP antispambeleid (ook wel beleid voor spamfilters of inhoudsfilterbeleid genoemd) om te scannen binnenkomende berichten voor spam. Zie [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md)voor meer informatie.
+Als u een Microsoft 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection-klant (EOP) zonder Exchange Online-postvakken, gebruikt EOP antispambeleid (ook bekend als beleid voor spamfilters of inhoudsfilterbeleid) om binnenkomende berichten te scannen op spam. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
 
 Als u specifieke berichten als spam wilt markeren voordat ze worden gescand door spamfiltering, of berichten markeren zodat ze spamfilters overslaan, u regels voor e-mailstroom (ook wel transportregels genoemd) maken om de berichten te identificeren en het spamvertrouwensniveau (SCL) in te stellen. Zie [Spam vertrouwensniveau (SCL) in Office 365 voor](spam-confidence-levels.md)meer informatie over de SCL.
 

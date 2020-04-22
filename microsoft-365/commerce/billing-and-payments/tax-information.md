@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 - MOE150
 - BEA160
-description: "Ontdek hoeveel belasting u in rekening wordt gebracht voor uw Office 365 voor zakelijke abonnement in verschillende regio's. "
+description: "Ontdek hoeveel belasting u in rekening wordt gebracht voor uw Microsoft 365 voor zakelijk abonnement in verschillende regio's. "
 ms.custom: okr_SMB
-ms.openlocfilehash: f437e2f58797f3cc092b50611f34ecb2ce9cf3b0
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: e65dc15237cb14959a68a7413227cec2a3163d60
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826311"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635002"
 ---
 # <a name="tax-information"></a>Belastinginformatie
 
-Belastingen voor aankopen van microsoft 365-beheerderscentra die u via Microsoft doet, worden bepaald door uw bedrijfsadres of, als dit anders is, door uw verzendadres. Als u zich in de Verenigde Staten bevindt, moet u een federaal werkgeversidentificatienummer (FEIN) opgeven.
+De belastingen voor aankopen in het Microsoft 365-beheercentrum die u maakt via Microsoft, worden bepaald door uw bedrijfsadres of, indien dat verschilt, door uw verzendadres. Als u zich in de Verenigde Staten bevindt, moet u een federaal werkgeversidentificatienummer (FEIN) opgeven.
 
 Bedrijven in deze landen kunnen hun btw-nummer verstrekken:
 
@@ -41,10 +41,10 @@ Bedrijven in deze landen kunnen hun btw-nummer verstrekken:
 - Bulgarije
 - Kroatië
 - Cyprus
-- Tsjechische Republiek
+- Tsjechië
 - Denemarken
 - Estland
-- Finland 
+- Finland
 - Frankrijk
 - Duitsland
 - Griekenland
@@ -60,14 +60,14 @@ Bedrijven in deze landen kunnen hun btw-nummer verstrekken:
 - Malta
 - Monaco
 - Nederland
-- Noorwegen 
+- Noorwegen
 - Polen
 - Portugal
 - Roemenië
 - Slowakije
-- South Africa
+- Zuid-Afrika
 - Spanje
-- Zweden 
+- Zweden
 - Zwitserland
 - Verenigd Koninkrijk
     :::column-end:::
@@ -80,7 +80,7 @@ Deze landen kunnen hun BTW-nummer of lokale equivalent op hun factuurrekeninggeg
 | Australië | ABN (optioneel) |
 | Brazilië | CNPJ (verplicht) |
 | India | GSTIN (optioneel), PAN-ID (vereist) |
-| Isle of Man | BTW-id (optioneel) |
+| Man | BTW-id (optioneel) |
 | Nieuw-Zeeland | GST-registratienummer (optioneel) |
 | Monaco | BTW-id (optioneel) |
 | Taiwan | BTW-id (optioneel) |

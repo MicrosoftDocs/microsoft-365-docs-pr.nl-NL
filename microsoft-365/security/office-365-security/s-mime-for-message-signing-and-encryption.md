@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: Beheerders kunnen meer informatie krijgen over het gebruik van S/MIME in Exchange Online.
-ms.openlocfilehash: 1c7b2a56f15b39818d51f405192febebeb2717e8
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.openlocfilehash: 294fd22ff81e9ddaabf0664afb34a37c008a6d09
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42805700"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634326"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>S/MIME voor het ondertekenen en versleutelen van berichten in Exchange Online
 
@@ -56,9 +56,9 @@ De stappen die u volgt om S/MIME in te stellen met elk van deze eindpunten zijn 
 
 Het instellen van S/MIME voor Exchange Online met de webversie van Outlook omvat de volgende belangrijke stappen:
 
-1. [S/MIME-instellingen configureren voor de webversie van Outlook](configure-s-mime-settings-for-outlook-web-app.md)
+1. [S/MIME-instellingen voor de webversie van Outlook configureren](configure-s-mime-settings-for-outlook-web-app.md)
 
-2. [Virtuele certificaatverzameling instellen om S/MIME te valideren](set-up-virtual-certificate-collection-to-validate-s-mime.md)
+2. [Verzameling van virtuele certificaten instellen om S/MIME te valideren](set-up-virtual-certificate-collection-to-validate-s-mime.md)
 
 3. [Gebruikerscertificaten synchroniseren met Office 365 voor S/MIME](sync-user-certificates-to-office-365-for-s-mime.md)
 
@@ -68,7 +68,7 @@ Naarmate de beveiliging van berichten belangrijker wordt, moeten beheerders de p
 
 - **Transport Layer Security (TLS)** versleutelt de tunnel of de route tussen e-mailservers om pottenkijkers en afluisteren te voorkomen.
 
-- **Secure Sockets Layer (SSL)** versleutelt de verbinding tussen e-mailclients en Office 365-servers.
+- **Secure Sockets Layer (SSL)** versleutelt de verbinding tussen e-mailclients en Microsoft 365-servers.
 
 - **BitLocker** versleutelt de gegevens op een harde schijf in een datacenter, zodat als iemand ongeautoriseerde toegang krijgt, deze niet kan lezen.
 

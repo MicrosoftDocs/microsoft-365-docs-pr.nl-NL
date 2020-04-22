@@ -1,5 +1,5 @@
 ---
-title: De lijstmetnaamportal gebruiken om uzelf uit de lijst met geblokkeerde afzenders van Office 365 te verwijderen
+title: Gebruik de lijstportal om uzelf uit de lijst met geblokkeerde afzenders te verwijderen
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -15,21 +15,21 @@ search.appverid:
 ms.assetid: 0bcecdd4-3343-4cc0-9e58-e19d4de515e8
 ms.collection:
 - M365-security-compliance
-description: Krijgt u een foutbericht wanneer u een e-mail probeert te verzenden naar een ontvanger wiens e-mailadres zich in Office 365 bevindt? Als u denkt dat u het foutbericht niet moet ontvangen, u de lijst met verwijderde portal gebruiken om uzelf uit de lijst met geblokkeerde afzenders van Office 365 te verwijderen.
-ms.openlocfilehash: cd85a06bfd4122dcacd798a48f5a1755e2969b4a
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: Krijgt u een foutmelding wanneer u een e-mail probeert te verzenden naar een ontvanger wiens e-mailadres zich in Microsoft 365 bevindt? Als u denkt dat u het foutbericht niet moet ontvangen, u de lijst met de lijst gebruiken om uzelf uit de lijst met geblokkeerde afzenders te verwijderen.
+ms.openlocfilehash: 39f2c9335f162f26e8bf07a213236e0e0eefef2a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895081"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636402"
 ---
-# <a name="use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-list"></a>De lijstmetnaamportal gebruiken om uzelf uit de lijst met geblokkeerde afzenders van Office 365 te verwijderen
+# <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>Gebruik de lijstportal om uzelf uit de lijst met geblokkeerde afzenders te verwijderen
 
-Krijgt u een foutbericht wanneer u een e-mail probeert te verzenden naar een ontvanger wiens e-mailadres zich in Office 365 bevindt? Als u denkt dat u het foutbericht niet moet ontvangen, u de lijst met verwijderde portal gebruiken om uzelf uit de lijst met geblokkeerde afzenders van Office 365 te verwijderen.
+Krijgt u een foutmelding wanneer u een e-mail probeert te verzenden naar een ontvanger wiens e-mailadres zich in Microsoft 365 bevindt? Als u denkt dat u het foutbericht niet moet ontvangen, u de lijst met de lijst gebruiken om uzelf uit de lijst met geblokkeerde afzenders te verwijderen.
 
-## <a name="what-is-the-office-365-blocked-senders-list"></a>Wat is de lijst met geblokkeerde afzenders van Office 365?
+## <a name="what-is-the-blocked-senders-list"></a>Wat is de lijst met geblokkeerde afzenders?
 
-Microsoft gebruikt de lijst met geblokkeerde afzenders om zijn klanten te beschermen tegen spam, spoofing en phishing-aanvallen. Het IP-adres van uw e-mailserver, dat wil zeggen het adres dat uw mailserver gebruikt om zich op internet te identificeren, is om verschillende redenen gelabeld als een potentiële bedreiging voor Office 365. Wanneer Office 365 het IP-adres aan de lijst toevoegt, voorkomt het dat alle verdere communicatie tussen het IP-adres en een van onze klanten via onze datacenters wordt voorkomen.
+Microsoft gebruikt de lijst met geblokkeerde afzenders om zijn klanten te beschermen tegen spam, spoofing en phishing-aanvallen. Het IP-adres van uw e-mailserver, dat wil zeggen het adres dat uw mailserver gebruikt om zich op internet te identificeren, is om verschillende redenen gelabeld als een potentiële bedreiging voor Microsoft 365. Wanneer Microsoft 365 het IP-adres aan de lijst toevoegt, voorkomt het elke verdere communicatie tussen het IP-adres en een van onze klanten via onze datacenters.
 
 U weet dat u aan de lijst bent toegevoegd wanneer u een antwoord ontvangt op een e-mailbericht met een foutmelding die een fout bevat die er ongeveer als volgt uitziet:
 
@@ -37,7 +37,7 @@ U weet dat u aan de lijst bent toegevoegd wanneer u een antwoord ontvangt op een
 
 waar _IP-adres_ het IP-adres is van de computer waarop de e-mailserver wordt uitgevoerd.
 
-### <a name="to-use-the-office-365-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>De portal voor de lijst met geblokkeerde afzenders gebruiken om uzelf uit de lijst met geblokkeerde afzenders te verwijderen
+### <a name="to-use-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>Delijstportal gebruiken om uzelf uit de lijst met geblokkeerde afzenders te verwijderen
 
 1. Ga in een webbrowser [https://sender.office.com](https://sender.office.com)naar .
 
@@ -53,7 +53,7 @@ waar _IP-adres_ het IP-adres is van de computer waarop de e-mailserver wordt uit
 
 5. Klik in de lijstportal op **Ip van de lijst schrappen**.
 
-    Nadat het IP-adres uit de lijst met geblokkeerde afzenders is verwijderd, worden e-mailberichten van dat IP-adres bezorgd aan ontvangers die Office 365 gebruiken. Zorg er dus voor dat e-mail die vanaf dat IP-adres wordt verzonden, niet beledigend of kwaadaardig is. anders kan het IP-adres opnieuw worden geblokkeerd.
+    Nadat het IP-adres uit de lijst met geblokkeerde afzenders is verwijderd, worden e-mailberichten van dat IP-adres bezorgd aan ontvangers die Microsoft 365 gebruiken. Zorg er dus voor dat e-mail die vanaf dat IP-adres wordt verzonden, niet beledigend of kwaadaardig is. anders kan het IP-adres opnieuw worden geblokkeerd.
 
     > [!NOTE]
     > Het kan tot 24 uur duren of de resultaten kunnen sterk variëren voordat beperkingen worden verwijderd.

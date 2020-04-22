@@ -7,12 +7,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 01c580cd671a84ef68c18b114e133f046a3e5b3b
-ms.sourcegitcommit: 7930fb8327bbd3594fde52f2dbf91e0f5d92f684
+ms.openlocfilehash: 5889a4e80f44349b4f149ee4f2a631f12b32251e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42812017"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637850"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Vereisten voor Microsoft Managed Desktop-apps
 
@@ -34,7 +34,7 @@ Alle toepassingen en stuurprogramma's die op Microsoft Managed Devices zijn geï
 
 Bepaalde toepassingstypen zijn niet toegestaan op Microsoft Managed Desktop-apparaten:
 - Anti-virus-, beveiligings- of auditsoftware van derden
-- Versies van Microsoft Office voorafgaand aan Office 365 ProPlus
+- Versies van Microsoft Office voorafgaand aan Microsoft 365 Apps voor bedrijven
 - Toepassingen die andere software van derden installeren of bundelen
 
 ## <a name="restricted-app-behaviors"></a>Beperkt app-gedrag
@@ -47,7 +47,7 @@ Gebruikerservaring:
 - Toepassingen die afhankelijk zijn van stuurprogramma's
 - Webbrowsers van derden
 
-Veiligheid:
+Beveiliging:
 - De bevoegdheden van de eindgebruiker verhogen
 - Fungeren als app store of een ingebouwde extensiemanager
 - Hebben bekende beveiligingsproblemen

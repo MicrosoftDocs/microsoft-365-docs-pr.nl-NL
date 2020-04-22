@@ -1,27 +1,27 @@
 ---
-title: Beschrijving van microsoft Managed Desktop-service
+title: Servicebeschrijving van Microsoft Managed Desktop
 description: Geeft een overzicht van wat is opgenomen in Microsoft Managed Desktop als service
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 0668564fea300ace1bdf8ad32a34d85c2ad5a641
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: b7054613ea9add542e2a4466c6feb6d911c99701
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42811290"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637862"
 ---
-# <a name="microsoft-managed-desktop-service-description"></a>Beschrijving van microsoft Managed Desktop-service
+# <a name="microsoft-managed-desktop-service-description"></a>Servicebeschrijving van Microsoft Managed Desktop
 
-Microsoft Managed Desktop is een service die uw gebruikers een veilige moderne ervaring biedt en altijd apparaten up-to-date houdt met de nieuwste versies van Windows 10 Enterprise-editie, Office 365 ProPlus en Microsoft-beveiligingsservices, waaronder:
+Microsoft Managed Desktop is een service die uw gebruikers een veilige moderne ervaring biedt en altijd apparaten up-to-date houdt met de nieuwste versies van Windows 10 Enterprise edition, Microsoft 365 Apps for enterprise en Microsoft security services, waaronder:
 
 - Vereenvoudigde inschrijving van nieuwe apparaten
 - Configuratie van apparaten
 - Functies om gebruikers en apparaten veilig te houden, waaronder Windows Hello, BitLocker, SecureBoot en beveiliging op basis van virtualisatie volgens de aanbevolen procedures van Microsoft
 - Bewakings- en herstelservices voor apparaatbeveiliging
 - App-compatibiliteit, via [Desktop App Assure](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure)
-- Beheer van updates voor Windows 10- en Office 365 ProPlus-apps
+- Beheer van updates voor Windows 10- en Microsoft 365-apps voor bedrijfsapps
 - Analytische gegevens over apparaat- en app-gebruik
 - IT-ondersteuning voor uw eindgebruikers
 - Operationele ondersteuning voor IT-professionals

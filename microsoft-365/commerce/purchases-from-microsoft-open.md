@@ -1,5 +1,5 @@
 ---
-title: De productcode van Office 365 voor Bedrijven invoeren die u hebt aangeschaft via Microsoft Open
+title: Voer uw productcode in die is aangeschaft bij Microsoft Open
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,43 +21,43 @@ search.appverid:
 - BEA160
 ms.assetid: d7138188-086e-4a54-a155-11fa953c3930
 ROBOTS: NOINDEX
-description: Meer informatie over het activeren, verlengen of toevoegen van licenties aan een Abonnement op Office 365 voor Bedrijven.
-ms.openlocfilehash: 9f11282c5baa07f088a8cdfc84e7d39f23bc31a2
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: Meer informatie over het activeren, verlengen of toevoegen van licenties aan een Microsoft 365 voor Bedrijven-abonnement.
+ms.openlocfilehash: da4e42ae2dadec8d376b9ef8d12c6d4cb4fe7af5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42806219"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636450"
 ---
-# <a name="enter-your-office-365-for-business-product-key-purchased-from-microsoft-open"></a>De productcode van Office 365 voor Bedrijven invoeren die u hebt aangeschaft via Microsoft Open
+# <a name="enter-your-product-key-purchased-from-microsoft-open"></a>Voer uw productcode in die is aangeschaft bij Microsoft Open
 
-Als u Office 365 voor Bedrijven hebt gekocht via een [Microsoft Open License Program,](https://go.microsoft.com/fwlink/p/?LinkID=613298)is dit artikel iets voor u. Klanten met een volumelicentie die een productcode hebben aangeschaft kunnen dit onderwerp volgen om licenties voor een abonnement te activeren, verlengen of eraan toe te voegen.
+Als u Microsoft 365 voor bedrijven hebt gekocht via een [Microsoft Open License Program,](https://go.microsoft.com/fwlink/p/?LinkID=613298)is dit artikel iets voor u. Klanten met een volumelicentie die een productcode hebben aangeschaft kunnen dit onderwerp volgen om licenties voor een abonnement te activeren, verlengen of eraan toe te voegen.
   
  **Hebt u onmiddellijk hulp nodig?** [Bel Microsoft Support](../admin/contact-support-for-business-products.md) . 
   
  **Hebt u iets anders nodig?**
  
- Zie [Productcodes gebruiken met Office](https://support.office.com/article/12a5763a-d45c-4685-8c95-a44500213759.aspx) **voor hulp bij Office 365 Home of Persoonlijk.**
+ Zie [Productcodes gebruiken met Office](https://support.office.com/article/12a5763a-d45c-4685-8c95-a44500213759.aspx) **voor hulp bij Microsoft 365 Home of Personal.**
   
- Zie [Uw productcode invoeren die is gekocht in een winkel](enter-your-product-key.md)voor hulp bij Office **365 Business Premium**in een winkel. 
+ Zie [Uw productcode invoeren die is gekocht bij een winkel](enter-your-product-key.md)voor hulp bij Microsoft **365 Business Standard**die in een winkel is gekocht. 
   
 ## <a name="activate-renew-or-add-licenses-to-a-subscription-purchased-from-microsoft-open"></a>Licenties activeren en verlengen voor of toevoegen aan een abonnement dat u via Microsoft Open hebt aangeschaft
 
-Als u Office 365 hebt gekocht van een Microsoft Open License Program, voert het systeem automatisch de sleutel voor u in wanneer u licenties activeert, verlengt of toevoegt aan een abonnement.
+Als u Microsoft 365 hebt gekocht van een Microsoft Open License Program, voert het systeem automatisch de sleutel voor u in wanneer u licenties activeert, verlengt of toevoegt aan een abonnement.
   
-1. Wanneer u een productcode bij een Office 365-partner hebt gekocht, ontvangt u een e-mail van Microsoft met een koppeling voor het activeren van het abonnement.
+1. Nadat u een sleutel hebt gekocht bij een Microsoft 365-partner, controleert u uw postvak IN voor een e-mail van Microsoft met een activeringskoppeling.
     
     > [!TIP]
-    >  Het e-mailbericht wordt verzonden naar de persoon die als onlinebeheerder staat vermeld in de volumelicentieovereenkomst. Als u niet zeker weet wie is aangewezen als de onlinebeheerder, neemt u contact op met uw Office 365-partner. 
+    >  Het e-mailbericht wordt verzonden naar de persoon die als onlinebeheerder staat vermeld in de volumelicentieovereenkomst. Als u niet zeker weet wie is aangewezen als onlinebeheerder, vraagt u dit aan uw Microsoft 365-partner. 
   
-2. Klik op de koppeling in het e-mailbericht om u aan te melden met uw werk- of schoolaccount, accepteer de Open-licentieovereenkomst en verleng het abonnement. Voor een stapsgewijs overzicht van dit proces, downloadt u de PDF-handleiding, [Onlineservices activeren: Office 365-abonnement](https://go.microsoft.com/fwlink/p/?LinkId=618100). Hierin wordt uitgelegd hoe u een nieuw abonnement activeert, een bestaand abonnement verlengt of meer gebruikerslicenties aan een bestaand abonnement toevoegt.
+2. Volg de link in de e-mail om in te loggen met uw werk- of schoolaccount, accepteer de open licentieovereenkomst en verleng het abonnement. Download de PDF-handleiding [Activeren online services: Microsoft 365-abonnement,](https://go.microsoft.com/fwlink/p/?LinkId=618100)waarin wordt ingegeven hoe u een nieuw abonnement activeert, een bestaand abonnement verlengt of licenties toevoegt aan een bestaand abonnement.
     
 > [!NOTE]
 > Klanten met volumelicenties kunnen er ook voor kiezen om abonnementen te activeren in het [Volume Licensing Service Center.](https://go.microsoft.com/fwlink/p/?LinkID=282016) Download de Engelstalige PDF-handleiding [Activate Online Services in the Volume Licensing Service Center](https://go.microsoft.com/fwlink/p/?LinkId=618096) (Onlineservices activeren in het servicecenter voor volumelicenties) voor meer informatie hierover. 
   
 ## <a name="whats-next"></a>En nu?
 
-Als u nog nooit eerder met Office 365 voor Bedrijven hebt gewerkt, leest u [hoe u Office 365 kunt instellen voor uw organisatie](../admin/setup/setup.md).
+Als u nieuw bent bij Microsoft 365 voor bedrijven, leest u hoe u [Microsoft 365 instelt voor uw organisatie.](../admin/setup/setup.md)
   
 ## <a name="still-having-trouble-with-product-keys"></a>Heb je nog steeds problemen met productcodes?
 

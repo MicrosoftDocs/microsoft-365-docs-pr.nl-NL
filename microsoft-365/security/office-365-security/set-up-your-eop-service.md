@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: In dit onderwerp wordt uitgelegd hoe u Microsoft Exchange Online Protection (EOP) instelt. Als u hier bent geland vanuit de wizard Office 365-domeinen, gaat u terug naar de wizard Office 365-domeinen als u Exchange Online-beveiliging niet wilt gebruiken. Zie E-mailstroom configureren met connectors in Office 365 als u meer informatie wilt over het configureren van connectors.
-ms.openlocfilehash: 6686e95f343a116a53991957e7746ef841e858ba
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: 9a2c876ac7696adfcabf87d4ad13e29374509f1b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081230"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638306"
 ---
 # <a name="set-up-your-eop-service"></a>Uw EOP-service instellen
 
@@ -30,7 +30,7 @@ In dit onderwerp wordt uitgelegd hoe u Microsoft Exchange Online Protection (EOP
 
 - Geschatte tijd om deze taak te voltooien: 1 uur
 
-- Als u connectors wilt configureren, moet uw account een Globale beheerder van Office 365 of een Exchange Company Administrator (de rolgroep Organisatiebeheer) zijn. Zie [Functiemachtigingen in EOP](feature-permissions-in-eop.md)voor meer informatie.
+- Om connectors te configureren, moet uw account een globale beheerder zijn of een Exchange Company Administrator (de rolegroup Organisatiebeheer). Zie [Functiemachtigingen in EOP](feature-permissions-in-eop.md)voor meer informatie.
 
 - Als u zich nog niet hebt aangemeld voor EOP, gaat u naar [Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection) en kiest u ervoor om de service te kopen of te proberen.
 
@@ -54,11 +54,11 @@ Voordat u uw e-mail configureert om van en naar de EOP-service te stromen, raden
 
 ## <a name="step-3-use-the-eac-to-set-up-mail-flow"></a>Stap 3: De EAC gebruiken om de e-mailstroom in te stellen
 
-Maak connectors in het Exchange-beheercentrum (EAC) waarmee e-mailstroom tussen EOP en uw on-premises e-mailservers mogelijk is. Zie [Connectors instellen voor het routeren van e-mail tussen Office 365 en uw eigen e-mailservers](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail)voor gedetailleerde instructies.
+Maak connectors in het Exchange-beheercentrum (EAC) waarmee e-mailstroom tussen EOP en uw on-premises e-mailservers mogelijk is. Zie [Connectors instellen voor het routeren van e-mail tussen Microsft 365 en uw eigen e-mailservers](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail)voor gedetailleerde instructies.
 
 ### <a name="how-do-you-know-this-task-worked"></a>Hoe weet je dat deze taak werkte?
 
-Controleer de e-mailstroom tussen de service en uw omgeving. Zie [E-mailstroom testen door uw Office 365-connectors te valideren.](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow)
+Controleer de e-mailstroom tussen de service en uw omgeving. Zie [E-mailstroom testen door uw Microsoft 365-connectors te valideren.](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow)
 
 ## <a name="step-4-allow-inbound-port-25-smtp-access"></a>Stap 4: Inkomende poort 25 SMTP-toegang toestaan
 
@@ -75,13 +75,13 @@ Als u geen berichten naar de map Ongewenste e-mail van elke gebruiker wilt verpl
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Stap 6: Gebruik het Microsoft 365-beheercentrum om uw MX-record naar EOP te richten
 
-Volg de stappen voor de configuratie van Office 365-domeinen om uw MX-record voor uw domein bij te werken, zodat uw binnenkomende e-mail via EOP verloopt. Zorg ervoor dat u uw MX-record rechtstreeks naar EOP richt in plaats van een e-mail met filterservice van derden naar EOP te sturen. Voor meer informatie u opnieuw verwijzen naar [DNS-records maken voor Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
+Volg de stappen voor domeinconfiguratie om uw MX-record voor uw domein bij te werken, zodat uw binnenkomende e-mail via EOP verloopt. Zorg ervoor dat u uw MX-record rechtstreeks naar EOP richt in plaats van een e-mail met filterservice van derden naar EOP te sturen. Voor meer informatie u opnieuw verwijzen naar [DNS-records maken voor Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
 ### <a name="how-do-you-know-this-task-worked"></a>Hoe weet je dat deze taak werkte?
 
 Op dit moment hebt u de servicelevering geverifieerd voor een goed geconfigureerde uitgaande on-premises connector en hebt u geverifieerd dat uw MX-record naar EOP wijst. U er nu voor kiezen om de volgende aanvullende tests uit te voeren om te controleren of een e-mail door de service wordt geleverd aan uw on-premises omgeving:
 
-- Controleer de e-mailstroom tussen de service en uw omgeving. Zie [E-mailstroom testen door uw Office 365-connectors te valideren.](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow)
+- Controleer de e-mailstroom tussen de service en uw omgeving. Zie [E-mailstroom testen door uw Microsoft 365-connectors te valideren.](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow)
 
 - Stuur een e-mailbericht van een webgebaseerd e-mailaccount naar een e-mailontvanger in uw organisatie wiens domein overeenkomt met het domein dat u aan de service hebt toegevoegd. Bevestig de levering van het bericht in het on-premises postvak met Microsoft Outlook of een andere e-mailclient.
 

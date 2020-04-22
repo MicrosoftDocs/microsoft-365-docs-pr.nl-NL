@@ -15,21 +15,21 @@ search.appverid:
 ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
-description: Office 365-gebruikers met Exchange Online-postvakken kunnen outlook op internet (Outlook Web App) gebruiken om spam-, niet-spam- en phishingberichten naar Microsoft te verzenden voor analyse.
-ms.openlocfilehash: b58e3ae5be9bf2a473b655287ad9bb1cb8ef2c78
-ms.sourcegitcommit: 4d4d27a49eb258dc560439ca4baf61ebb9c1eff3
+description: Microsoft 365-gebruikers met Exchange Online-postvakken kunnen Outlook op internet (Outlook Web App) gebruiken om spam-, niet-spam- en phishingberichten naar Microsoft te verzenden voor analyse.
+ms.openlocfilehash: 858224074ef7258d59318eef0c685a4ea4f9130f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43075618"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632617"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-office-365"></a>Ongewenste en phishing-e-mail melden in de webversie van Outlook in Office 365
 
-Als u een Office 365-klant bent met Exchange Online-postvakken, u de ingebouwde rapportageopties in Outlook op de web (voorheen Outlook Web App) gebruiken om false positives (goede e-mail gemarkeerd als spam), valse negatieven (slechte e-mail toegestaan) en phishing-berichten in te dienen bij Exchange Online Protection (EOP).
+Als u een Microsoft 365-klant bent met Exchange Online-postvakken, u de ingebouwde rapportageopties in Outlook op de web (voorheen Outlook Web App) gebruiken om false positives (goede e-mail gemarkeerd als spam), valse negatieven (slechte e-mail toegestaan) en phishing-berichten in te dienen bij Exchange Online Protection (EOP).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Als u een beheerder bent in een Office 365-organisatie met Exchange Online-postvakken, raden we u aan de portal Inzendingen te gebruiken in het Office 365 Security & Compliance Center. Zie [Het indienen van beheerders gebruiken om vermoedelijke spam, phish, URL's en bestanden in te dienen bij Microsoft.](admin-submission.md)
+- Als u een beheerder bent in een organisatie met Exchange Online-postvakken, raden we u aan de portal Inzendingen te gebruiken in het Beveiligings- & Compliance Center. Zie [Het indienen van beheerders gebruiken om vermoedelijke spam, phish, URL's en bestanden in te dienen bij Microsoft.](admin-submission.md)
 
 - Beheerders kunnen de mogelijkheid voor gebruikers om berichten aan Microsoft te melden in de webversie van Outlook uitschakelen of inschakelen. Zie de [rapportage over ongewenste e-mail in de websectie](#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) van Outlook later in dit onderwerp voor meer informatie.
 

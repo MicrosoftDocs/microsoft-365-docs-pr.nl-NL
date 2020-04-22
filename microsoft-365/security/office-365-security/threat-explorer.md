@@ -16,12 +16,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over Explorer- en realtime &amp; detecties in het Security Compliance Center.
-ms.openlocfilehash: 1f5047b923ec40d4beb47d9b4b3d8aec9b9e6807
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: a7958d516177534cafc9d40fe335abbff06b4db6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537507"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631167"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Threat Explorer en real-time detecties
 
@@ -39,7 +39,7 @@ Met Explorer (of real-time detecties) beschikt u over een krachtig rapport waarm
 
 Met dit rapport u:
 
-- [Bekijk malware gedetecteerd door office 365-beveiligingsfuncties](#see-malware-detected-in-email-by-technology)
+- [Bekijk malware gedetecteerd door Microsoft 365-beveiligingsfuncties](#see-malware-detected-in-email-by-technology)
 - [Gegevens over phishing-URL's en klikvonnis weergeven](#view-data-about-phishing-urls-and-click-verdict)
 - [Een geautomatiseerd onderzoeks- en reactieproces starten vanuit een weergave in Explorer](#start-automated-investigation-and-response) (alleen ATP-abonnement 2)
 - ... [Onderzoek kwaadaardige e-mail, en meer!](#more-ways-to-use-explorer-or-real-time-detections)
@@ -56,7 +56,7 @@ Deze nieuwe functies worden hieronder beschreven.
 
 ### <a name="preview-email-header-and-download-email-body"></a>Voorbeeld van e-mailheader en e-mailhoofd downloaden
 
-De mogelijkheid om een voorbeeld van een e-mailheader te bekijken en de e-mailbody te downloaden, zijn nieuwe functies die beschikbaar zijn in Threat Explorer. Beheerders kunnen gedownloade headers/e-mailberichten analyseren op bedreigingen. Omdat het downloaden van e-mailberichten de blootstelling van informatie kan riskeren, wordt dit proces gecontroleerd door op rollen gebaseerde toegangscontrole (RBAC). Een nieuwe rol, *Preview,* moet worden toegevoegd aan een andere Office 365-rolgroep (zoals Beveiligingsbewerkingen of beveiligingsbeheerder) om de mogelijkheid te bieden om e-mails te downloaden en kopteksten te bekijken in de weergave alle e-mailberichten.
+De mogelijkheid om een voorbeeld van een e-mailheader te bekijken en de e-mailbody te downloaden, zijn nieuwe functies die beschikbaar zijn in Threat Explorer. Beheerders kunnen gedownloade headers/e-mailberichten analyseren op bedreigingen. Omdat het downloaden van e-mailberichten de blootstelling van informatie kan riskeren, wordt dit proces gecontroleerd door op rollen gebaseerde toegangscontrole (RBAC). Een nieuwe rol, *Preview,* moet worden toegevoegd aan een andere rolgroep (zoals Beveiligingsbewerkingen of beveiligingsbeheerder) om de mogelijkheid te bieden om e-mails te downloaden en kopteksten te bekijken in de weergave alle e-mailberichten.
 
 Maar Explorer (en real-time detecties) voegt ook nieuwe velden toe die zijn ontworpen om u een vollediger beeld te geven van waar uw e-mailberichten landen. Een deel van het doel van deze verandering is om de jacht gemakkelijker te maken voor Security Ops mensen, maar het netto resultaat is het kennen van de locatie van probleem e-mailberichten in een oogopslag.
 
@@ -117,7 +117,7 @@ U in het realtime detectierapport als volgt naar dezelfde locatie gaan:
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>Bekijk malware gedetecteerd in e-mail door technologie
 
-Stel dat u malware wilt zien gedetecteerd in e-mail, door Office 365-technologie. Gebruik hiervoor de [weergave E-mail > malware](threat-explorer-views.md#email--malware) van Explorer (of realtime detecties).
+Stel dat u malware wilt zien gedetecteerd in e-mail, door Microsoft 365-technologie. Gebruik hiervoor de [weergave E-mail > malware](threat-explorer-views.md#email--malware) van Explorer (of realtime detecties).
 
 1. Kies in het Security[https://protection.office.com](https://protection.office.com)& Compliance Center ( ) De optie **Threat management** > **Explorer** (of **Real-time detections).** (In dit voorbeeld wordt Explorer gebruikt.)
 
@@ -176,7 +176,7 @@ Stel dat u e-mailberichten wilt zien die gebruikers in uw organisatie hebben ger
 
 1. Kies in het Security[https://protection.office.com](https://protection.office.com)& Compliance Center ( ) De optie **Threat management** > **Explorer** (of **Real-time detections).** (In dit voorbeeld wordt Explorer gebruikt.)
 
-2. Kies **E-mailinzendingen** > **Submissions**in het menu **Weergave** . (Dit heette voorheen **User-reported**.)
+2. Kies **E-mailinzendingen** > **Submissions**in het menu **Weergave** .
 
    ![Menu Weergeven voor Explorer](../../media/explorer-view-menu-email-user-reported.png)
 
@@ -230,7 +230,7 @@ Als u Explorer- of realtimedetecties wilt bekijken en gebruiken, moet u over de 
 
 Zie de volgende bronnen voor meer informatie over rollen en machtigingen:
 
-- [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
+- [Machtigingen in het &amp; Security Compliance Center](permissions-in-the-security-and-compliance-center.md)
 - [Functiemachtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
 
 ## <a name="some-differences-between-threat-explorer-and-real-time-detections"></a>Enkele verschillen tussen Threat Explorer en real-time detecties

@@ -1,5 +1,5 @@
 ---
-title: Nog een abonnement op Office 365 voor Bedrijven nemen
+title: Koop een ander Microsoft 365 voor zakelijk abonnement
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,26 +20,27 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: fab3b86c-3359-4042-8692-5d4dc7550b7c
-description: 'Meer informatie over het kopen van een ander Abonnement op Office 365 voor Bedrijven voor uw organisatie wanneer u al een abonnement hebt. '
+description: 'Meer informatie over het kopen van een ander Microsoft 365 voor Bedrijven-abonnement voor uw organisatie wanneer u al een abonnement hebt. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 785080003a8abfac823239bd708eb2e442aa768f
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: fe07ea5bcb977b867fe02cc69706595f3ff5064e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142261"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634930"
 ---
-# <a name="buy-another-office-365-for-business-subscription"></a>Nog een abonnement op Office 365 voor Bedrijven nemen
+# <a name="buy-another-microsoft-365-for-business-subscription"></a>Koop een ander Microsoft 365 voor zakelijk abonnement
 
-Als u al een Abonnement op Office 365 voor Bedrijven hebt en u een ander abonnement voor uw organisatie wilt kopen, u dit het beste doen via het beheercentrum. Als u het eerste Office 365 voor Bedrijven-abonnement voor uw organisatie nog niet hebt gekocht, gaat u [hier](https://products.office.com/business/compare-office-365-for-business-plans) om een abonnement te kiezen.
+Als u al een Microsoft 365 voor zakelijk abonnement hebt en u een ander abonnement voor uw organisatie wilt kopen, u dit het beste doen via het beheercentrum. Als u het eerste Microsoft 365 voor bedrijven-abonnement voor uw organisatie nog niet hebt gekocht, gaat u [hier](https://products.office.com/business/compare-office-365-for-business-plans) om een abonnement te kiezen.
   
 Wanneer u een ander abonnement koopt via het beheercentrum, bent u verzekerd dat het nieuwe abonnement wordt gekoppeld aan dezelfde organisatie (domeinnaamruimte) als uw bestaande abonnement. Dit maakt het eenvoudiger om gebruikers binnen uw organisatie tussen abonnementen te verplaatsen of hen een gebruikerslicentie toe te wijzen voor het aanvullende abonnement dat ze nodig hebben.
   
-Nadat u een nieuw abonnement hebt aangenomen, moet u de gebruikers die u dat abonnement wilt gebruiken, een gebruikerslicentie voor het abonnement toewijzen. Zie [Licenties toewijzen aan gebruikers in Office 365 voor Bedrijven voor](../admin/manage/assign-licenses-to-users.md)meer informatie.
+Nadat u een nieuw abonnement hebt aangenomen, moet u de gebruikers die u dat abonnement wilt gebruiken, een gebruikerslicentie voor het abonnement toewijzen. Zie Licenties toewijzen aan gebruikers in Microsoft 365 voor Bedrijven voor meer informatie over hoe u [licenties aan gebruikers in Microsoft 365 voor Bedrijven toewijzen.](../admin/manage/assign-licenses-to-users.md)
   
-## <a name="buy-another-subscription"></a>Nog een abonnement kopen
+## <a name="buy-another-subscription"></a>Nog een abonnement nemen
 
 ::: moniker range="o365-worldwide"
+
 
 1. Ga in het beheercentrum naar de pagina Services <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">voor factureringsaankopen.</a> **Billing** \>
 

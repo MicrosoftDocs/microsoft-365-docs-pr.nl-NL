@@ -1,5 +1,5 @@
 ---
-title: Veilige bijlagen voor Office 365 ATP
+title: ATP-veilige bijlagen
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,36 +17,36 @@ ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 ms.collection:
 - M365-security-compliance
 description: De functie Veilige bijlagen biedt time-of-click verificatie van e-mailbijlagen. Gebruik veilige bijlagen om uw organisatie te beschermen tegen schadelijke bestanden die mensen per e-mail verzenden of ontvangen.
-ms.openlocfilehash: 60a5a95af846fe6dbe8c2c7aa6dced9deaae1a2d
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: ca46a523ffd15177c44dcb81d2529b769cc2e79c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033456"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636008"
 ---
-# <a name="office-365-atp-safe-attachments"></a>Veilige bijlagen voor Office 365 ATP
+# <a name="atp-safe-attachments"></a>ATP-veilige bijlagen
 
 ## <a name="overview-of-office-365-atp-safe-attachments"></a>Overzicht van veilige bijlagen bij Office 365 ATP
 
-ATP Safe Attachments (samen met [ATP Safe Links)](atp-safe-links.md)maakt deel uit van [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP). De functie ATP-veilige bijlagen controleert of e-mailbijlagen schadelijk zijn en onderneemt vervolgens actie om uw organisatie te beschermen. De functie VEILIGE bijlagen van ATP beschermt uw organisatie volgens [het beleid voor veilige bijlagen van ATP](set-up-atp-safe-attachments-policies.md) dat is ingesteld door uw globale office 365- of beveiligingsbeheerders.
+ATP Safe Attachments (samen met [ATP Safe Links)](atp-safe-links.md)maakt deel uit van [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP). De functie ATP-veilige bijlagen controleert of e-mailbijlagen schadelijk zijn en onderneemt vervolgens actie om uw organisatie te beschermen. De functie VEILIGE bijlagen atp beschermt uw organisatie volgens [het beleid voor veilige bijlagen van ATP](set-up-atp-safe-attachments-policies.md) dat is ingesteld door uw wereldwijde of beveiligingsbeheerders.
 
 ATP-beveiliging kan ook worden uitgebreid naar bestanden in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams. Zie [Geavanceerde bedreigingsbeveiliging van Office 365 voor SharePoint, OneDrive en Microsoft Teams voor](atp-for-spo-odb-and-teams.md)meer informatie.
 
 ## <a name="how-to-get-atp-safe-attachments"></a>Hoe ontvang je ATP Safe Attachments
 
-Controleer eerst of uw abonnement [advanced threat protection](office-365-atp.md)bevat. ATP is opgenomen in abonnementen, zoals [Microsoft 365 E5,](https://www.microsoft.com/microsoft-365/enterprise/home) [Microsoft 365 Business,](https://www.microsoft.com/microsoft-365/business)Office 365 E5, Office 365 A5, enz. Als uw organisatie een Office 365-abonnement heeft dat geen Office 365 ATP bevat, u mogelijk ATP als invoegtoepassing aanschaffen. Zie [office 365 Advanced Threat Protection-abonnementen en -prijzen en](https://products.office.com/exchange/advance-threat-protection) de [office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)voor meer informatie.
+Controleer eerst of uw abonnement [advanced threat protection](office-365-atp.md)bevat. ATP is opgenomen in abonnementen, zoals [Microsoft 365 E5,](https://www.microsoft.com/microsoft-365/enterprise/home) [Microsoft 365 Business Premium,](https://www.microsoft.com/microsoft-365/business)Office 365 E5, Office 365 A5, enz. Als uw organisatie een Microsoft 365-abonnement heeft dat geen Office 365 ATP bevat, u mogelijk ATP als add-on aanschaffen. Zie [office 365 Advanced Threat Protection-abonnementen en -prijzen en](https://products.office.com/exchange/advance-threat-protection) de [office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)voor meer informatie.
 
 Controleer vervolgens of uw beleid voor veilige bijlagen atp is gedefinieerd. (Zie Beleid voor [veilige bijlagen van Office 365 instellen)](set-up-atp-safe-attachments-policies.md) Functies voor veilige bijlagen van ATP zijn actief wanneer:
 
 - Het beleid voor veilige bijlagen van ATP is ingesteld. (Zie Beleid voor [veilige bijlagen van ATP instellen in Office 365](set-up-atp-safe-attachments-policies.md).)
 
-- Gebruikers hebben zich aangemeld bij Office 365 met hun werk- of schoolaccount. (Zie [Aanmelden bij Office of Office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426).)
+- Gebruikers hebben zich aangemeld met hun werk- of schoolaccount. (Zie [Aanmelden bij Office of Office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426).)
 
 Als u ATP-beleid wilt definiëren (of bewerken), moet u een geschikte rol toegewezen krijgen. Enkele voorbeelden worden beschreven in de volgende tabel:
 
 |Rol|Waar/hoe toegewezen|
 |---------|---------|
-|Globale beheerder van Office 365|De persoon die zich aanmeldt om Office 365 te kopen, is standaard een globale beheerder. (Zie [Over Office 365-beheerdersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) voor meer informatie.)|
+|globale beheerder|De persoon die zich aanmeldt om Microsoft 365 te kopen is standaard een globale beheerder. (Zie [Over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) voor meer informatie.)|
 |Beveiligingsbeheerder|Azure Active Directory-beheercentrum ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
 |Exchange Online Organisatiebeheer|Exchange-beheercentrum[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)( ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell)](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
 
@@ -54,13 +54,13 @@ Als u ATP-beleid wilt definiëren (of bewerken), moet u een geschikte rol toegew
 
 Nadat u [uw ATP-beleid voor veilige bijlagen hebt gedefinieerd (of beoordeeld),](set-up-atp-safe-attachments-policies.md)u een goede manier om te zien hoe de service werkt door rapporten voor Geavanceerde [bedreigingsbeveiliging te bekijken](view-reports-for-atp.md).
 
-In de volgende tabel worden enkele voorbeeldscenario's beschreven. In al deze gevallen gaan we ervan uit dat de organisatie een Office 365-abonnement heeft dat Advanced Threat Protection bevat.
+In de volgende tabel worden enkele voorbeeldscenario's beschreven. In al deze gevallen gaan we ervan uit dat de organisatie een Microsoft 365-abonnement heeft dat Advanced Threat Protection bevat.
 
 |**Voorbeeldscenario**|**Is atp-bescherming voor veilige bijlagen in dit geval van toepassing?**|
 |:-----|:-----|
 |Pat's organisatie heeft Office 365 E5, maar niemand heeft nog geen beleid voor ATP Safe Attachments gedefinieerd.|Nee. Hoewel de functie beschikbaar is, moet ten minste één ATP-beleid voor veilige bijlagen worden gedefinieerd om de bescherming van ATP-veilige bijlagen te kunnen gebruiken.|
 |Lee is een medewerker op de verkoopafdeling van Contoso. Lee's organisatie heeft een ATP Safe Attachments-beleid dat alleen van toepassing is op financiële medewerkers.|Nee. In dit geval zouden financiële medewerkers bescherming hebben tegen ATP Safe Attachments, maar andere werknemers, waaronder de verkoopafdeling, zouden dat pas doen als beleid dat deze groepen omvat, is gedefinieerd.|
-|Gisteren heeft een Office 365-beheerder van Jean's organisatie een ATP Safe Attachments-beleid ingesteld dat van toepassing is op alle werknemers. Eerder vandaag ontving Jean een e-mailbericht met een bijlage.|Ja. In dit voorbeeld heeft Jean een licentie voor Geavanceerde bedreigingsbeveiliging en is een ATP-beleid voor veilige bijlagen dat Jean bevat gedefinieerd. Het duurt meestal ongeveer 30 minuten voordat een nieuw beleid van kracht wordt in alle datacenters; aangezien er in dit geval een dag is verstreken, moet het beleid van kracht zijn.|
+|Gisteren heeft een beheerder van Jean's organisatie een ATP Safe Attachments-beleid ingesteld dat van toepassing is op alle werknemers. Eerder vandaag ontving Jean een e-mailbericht met een bijlage.|Ja. In dit voorbeeld heeft Jean een licentie voor Geavanceerde bedreigingsbeveiliging en is een ATP-beleid voor veilige bijlagen dat Jean bevat gedefinieerd. Het duurt meestal ongeveer 30 minuten voordat een nieuw beleid van kracht wordt in alle datacenters; aangezien er in dit geval een dag is verstreken, moet het beleid van kracht zijn.|
 |Chris's organisatie heeft Office 365 E5 met ATP Safe Attachments-beleid voor iedereen in de organisatie. Chris ontvangt een e-mail met een bijlage en stuurt het bericht door naar anderen die zich buiten de organisatie bevinden.|ATP Safe Attachments bescherming is aanwezig voor berichten die Chris ontvangt. Als de organisaties van de ontvangers ook een beleid voor veilige bijlagen voor ATP hebben, is het bericht dat Chris doorstuurt onderworpen aan dat beleid wanneer het doorgestuurde bericht binnenkomt.|
 |Jamie's organisatie heeft atp-beleid voor veilige bijlagen en [ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md) is ingeschakeld. Jamie gaat ervan uit dat elk bestand in SharePoint Online is gescand en veilig is om te openen of te downloaden.|Atp Safe Attachments bescherming is op zijn plaats volgens het beleid dat is gedefinieerd; Dit betekent echter niet dat elk bestand in SharePoint Online, OneDrive voor Bedrijven of Microsoft Teams wordt gescand. (Zie [ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)voor meer informatie.)|
 

@@ -14,12 +14,12 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het installeren en gebruiken van de invoegtoepassing Microsoft Ongewenste E-mailrapportage om spam-, niet-spam- en phishingberichten aan Microsoft te melden.
-ms.openlocfilehash: e39fb2f4ecba806c2d26d989fbbe6ddec137adc1
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: be087a15071114b2d1ec564cbb118dcd85e32429
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033879"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638498"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook-in-office-365"></a>De invoegtoepassing Voor melding van ongewenste e-mail rapportage voor Microsoft Outlook installeren en gebruiken in Office 365
 
@@ -37,7 +37,7 @@ In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing Ongewenste e-mailrapp
 - De invoegtoepassing Voor ongewenste e-mailrapportage werkt met de volgende versies van Outlook:
 
   - Outlook 2013 of hoger
-  - Outlook inbegrepen bij Office 365 ProPlus
+  - Outlook opgenomen in Microsoft 365 Apps voor bedrijven
 
 - Zie [Berichten en bestanden rapporteren aan Microsoft in Office 365](report-junk-email-messages-to-microsoft.md)voor meer informatie over het rapporteren van berichten aan Microsoft.
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, overgangs-CSP-abonnement
 ms.date: 11/01/2017
-ms.openlocfilehash: 0a30d80ad5217868fec81866ab1dc41013917e99
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: da56ce5bc70dfed5a3e86c739ef3c940b4ac1511
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43504102"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635059"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Een Microsoft 365 Business CSP-abonnement overschakelen
 
@@ -91,7 +91,7 @@ In de volgende tabel wordt een overzicht van de impact op het app-beheerbeleid o
 | **Pincode opnieuw instellen wanneer aanmelding mislukt** | Beperkte toegang tot apps | Geen toegangsbeperking op app-niveau |
 | **Gebruikers verplichten zich opnieuw aan te melden nadat Office-apps zijn inactief** | Aanmelden vereist | Aanmelden is niet nodig |
 | **Toegang weigeren tot werkbestanden op opengebroken of geroote apparaten** | Werkbestanden zijn niet toegankelijk op jailbroken/gewortelde apparaten | Werkbestanden kunnen worden geopend op jailbroken / geworteld apparaten |
-| **Gebruikers toestaan inhoud van Office-apps naar Persoonlijke apps te kopiëren** | Kopiëren/plakken beperkt tot apps die beschikbaar zijn als onderdeel van het Microsoft 365 Business-abonnement | Kopiëren/plakken beschikbaar voor alle apps |
+| **Gebruikers toestaan inhoud van Office-apps naar Persoonlijke apps te kopiëren** | Kopiëren/plakken beperkt tot apps die beschikbaar zijn als onderdeel van het Microsoft 365-abonnement | Kopiëren/plakken beschikbaar voor alle apps |
 
 ## <a name="windows-10-pc-impacts-upon-subscription-expiration"></a>Windows 10 PC heeft gevolgen voor verlopen abonnement
 

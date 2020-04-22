@@ -1,5 +1,5 @@
 ---
-title: Hoe Office 365 het Van-adres valideert om phishing te voorkomen
+title: Hoe Microsoft 365 het Van-adres valideert om phishing te voorkomen
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,17 +16,17 @@ search.appverid:
 ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
-description: Lear over de vereisten voor Van e-mailadressen voor binnenkomende berichten in Office 365. Vanaf november 2017 vereist de service nu RFC-compatibele From-adressen om spoofing te voorkomen.
-ms.openlocfilehash: 4df073cfff3c36f60a013237d95548cb48fa7b5f
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+description: Lear over de vereisten voor Van e-mailadressen voor binnenkomende berichten in Microsoft 365. Vanaf november 2017 vereist de service nu RFC-compatibele From-adressen om spoofing te voorkomen.
+ms.openlocfilehash: 876ede087b37c381b9e9b557268057122e0987c0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528999"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633976"
 ---
-# <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a>Hoe Office 365 het Van-adres valideert om phishing te voorkomen
+# <a name="how-microsoft-365-validates-the-from-address-to-prevent-phishing"></a>Hoe Microsoft 365 het Van-adres valideert om phishing te voorkomen
 
-E-mailaccounts van Office 365 ontvangen een steeds groter aantal phishing-aanvallen. Naast het gebruik van [vervalste (vervalste) afzender e-mailadressen](anti-spoofing-protection.md), aanvallers gebruiken vaak waarden in de Van adres die internet normen schenden. Om dit soort phishing te voorkomen, vereisen Office 365 en Outlook.com nu binnenkomende berichten om een RFC-compatibel Adres op te nemen zoals beschreven in dit onderwerp. Deze handhaving werd in november 2017 mogelijk gemaakt.
+Microsoft 365 e-mailaccounts ontvangen een steeds groter aantal phishing-aanvallen. Naast het gebruik van [vervalste (vervalste) afzender e-mailadressen](anti-spoofing-protection.md), aanvallers gebruiken vaak waarden in de Van adres die internet normen schenden. Om dit soort phishing te voorkomen, vereisen Microsoft 365 en Outlook.com nu binnenkomende berichten om een RFC-compatibel Adres op te nemen zoals beschreven in dit onderwerp. Deze handhaving werd in november 2017 mogelijk gemaakt.
 
 **Opmerkingen**:
 
@@ -75,31 +75,31 @@ Het volgende Van e-mailadressen zijn geldig:
 
 - `From: "Sender, Example" <sender.example@contoso.com>`
 
-- `From: "Office 365" <sender@contoso.com>`
+- `From: "Microsoft 365" <sender@contoso.com>`
 
-- `From: Office 365 <sender@contoso.com>`(Niet aanbevolen omdat de weergavenaam niet is ingesloten met dubbele aanhalingstekens.)
+- `From: Microsoft 365 <sender@contoso.com>`(Niet aanbevolen omdat de weergavenaam niet is ingesloten met dubbele aanhalingstekens.)
 
 Het volgende Van e-mailadressen zijn ongeldig:
 
-- **Geen adres:** Sommige geautomatiseerde berichten bevatten geen Van-adres. In het verleden, toen Office 365 of Outlook.com een bericht zonder adres hebben ontvangen, heeft de service de volgende standaardinstelling toegevoegd Van: adres om het bericht beschikbaar te maken:
+- **Geen adres:** Sommige geautomatiseerde berichten bevatten geen Van-adres. In het verleden, toen Microsoft 365 of Outlook.com een bericht zonder adres van Het Adres ontving, voegde de service de volgende standaardvan: adres toe om het bericht deliverable te maken:
 
   `From: <>`
 
   Nu worden berichten met een leeg Van-adres niet meer geaccepteerd.
 
-- `From: Office 365 sender@contoso.com`(De weergavenaam is aanwezig, maar het e-mailadres is niet in gesloten in hoekhaakjes.)
+- `From: Microsoft 365 sender@contoso.com`(De weergavenaam is aanwezig, maar het e-mailadres is niet in gesloten in hoekhaakjes.)
 
-- `From: "Office 365" <sender@contoso.com> (Sent by a process)`(Tekst na het e-mailadres.)
+- `From: "Microsoft 365" <sender@contoso.com> (Sent by a process)`(Tekst na het e-mailadres.)
 
 - `From: Sender, Example <sender.example@contoso.com>`(De weergavenaam bevat een komma, maar is niet ingesloten met dubbele aanhalingstekens.)
 
-- `From: "Office 365 <sender@contoso.com>"`(De hele waarde is onjuist ingesloten in dubbele aanhalingstekens.)
+- `From: "Microsoft 365 <sender@contoso.com>"`(De hele waarde is onjuist ingesloten in dubbele aanhalingstekens.)
 
-- `From: "Office 365 <sender@contoso.com>" sender@contoso.com`(De weergavenaam is aanwezig, maar het e-mailadres is niet in gesloten in hoekhaakjes.)
+- `From: "Microsoft 365 <sender@contoso.com>" sender@contoso.com`(De weergavenaam is aanwezig, maar het e-mailadres is niet in gesloten in hoekhaakjes.)
 
-- `From: Office 365<sender@contoso.com>`(Geen ruimte tussen de weergavenaam en de linkerhoekbeugel.)
+- `From: Microsoft 365<sender@contoso.com>`(Geen ruimte tussen de weergavenaam en de linkerhoekbeugel.)
 
-- `From: "Office 365"<sender@contoso.com>`(Geen ruimte tussen het afsluitende dubbele aanhalingsteken en de linkerhoekhaak.)
+- `From: "Microsoft 365"<sender@contoso.com>`(Geen ruimte tussen het afsluitende dubbele aanhalingsteken en de linkerhoekhaak.)
 
 ## <a name="suppress-auto-replies-to-your-custom-domain"></a>Automatische antwoorden op uw aangepaste domein onderdrukken
 
@@ -115,16 +115,16 @@ Bijvoorbeeld:
 noreply.contoso.com IN MX .
 ```
 
-Zie [DNS-records maken bij elke DNS-hostingprovider voor Office 365 voor](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)meer informatie over het instellen van MX-records.
+Zie [DNS-records maken bij elke DNS-hostingprovider voor Microsoft 365 voor](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)meer informatie over het instellen van MX-records.
 
 Zie [RFC 7505](https://tools.ietf.org/html/rfc7505)voor meer informatie over het publiceren van een null MX.
 
 ## <a name="override-from-address-enforcement"></a>Overschrijven van adreshandhaving
 
-Als u de vereisten voor binnenkomende e-mail wilt omzeilen, u de IP-lijst met toegestane verbindingen (verbindingsfilter) of e-mailstroomregels (ook wel transportregels genoemd) gebruiken, zoals beschreven in [Lijsten met veilige afzendermaken in Office 365.](create-safe-sender-lists-in-office-365.md)
+Als u de vereisten voor binnenkomende e-mail wilt omzeilen, u de IP-lijst met toegestane verbindingen (verbindingsfilter) of e-mailstroomregels (ook wel transportregels genoemd) gebruiken, zoals beschreven in [Lijsten met veilige afzendermaken in Microsoft 365.](create-safe-sender-lists-in-office-365.md)
 
-U de vereisten voor het adres van De ene naar de uitgaande e-mail die u vanuit Office 365 verzendt, niet overschrijven. Bovendien zal Outlook.com geen overschrijvingen van welke aard dan ook toestaan, zelfs niet via ondersteuning.
+U de vereisten voor het adres van De u niet overschrijven voor uitgaande e-mail die u vanuit Microsoft 365 verzendt. Bovendien zal Outlook.com geen overschrijvingen van welke aard dan ook toestaan, zelfs niet via ondersteuning.
 
-## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-office-365"></a>Andere manieren om cybercriminaliteit in Office 365 te voorkomen en te beschermen
+## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-microsoft-365"></a>Andere manieren om cybercriminaliteit te voorkomen en te beschermen in Microsoft 365
 
-Zie [Top 10 manieren om Office 365- en Microsoft 365 Business-abonnementen te beveiligen](../../admin/security-and-compliance/secure-your-business-data.md)voor meer informatie over hoe u uw organisatie versterken tegen phishing, spam, datalekken en andere bedreigingen.
+Zie [Top 10 manieren om Microsoft 365 voor bedrijfsabonnementen te beveiligen](../../admin/security-and-compliance/secure-your-business-data.md)voor meer informatie over hoe u uw organisatie versterken tegen phishing, spam, datalekken en andere bedreigingen.

@@ -1,5 +1,5 @@
 ---
-title: Gebruikers toegang geven tot het Office 365 Security & Compliance Center
+title: Gebruikers toegang geven tot het Security & Compliance Center
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,23 +17,23 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
-description: Gebruikers moeten machtigingen krijgen toegewezen in het Office 365 Security & Compliance Center voordat ze een van de beveiligings- of nalevingsfuncties kunnen beheren.
-ms.openlocfilehash: cccf44a64d20dc1304dbc5145d6ae50441cfacef
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Gebruikers moeten machtigingen krijgen toegewezen in het Security & Compliance Center voordat ze een van de beveiligings- of nalevingsfuncties kunnen beheren.
+ms.openlocfilehash: 5110bcecb6731cbf51023c6df19bed30bcba72c1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42810216"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638056"
 ---
-# <a name="give-users-access-to-the-office-365-security--compliance-center"></a>Gebruikers toegang geven tot het Office 365 Security & Compliance Center
+# <a name="give-users-access-to-the-security--compliance-center"></a>Gebruikers toegang geven tot het Security & Compliance Center
 
-Gebruikers moeten machtigingen krijgen toegewezen in het Office 365 Security & Compliance Center voordat ze een van de beveiligings- of nalevingsfuncties kunnen beheren. Als globale office 365-beheerder of lid van de rolegroup OrganizationManagement in het Security & Compliance Center u deze machtigingen aan gebruikers geven. Gebruikers kunnen alleen de beveiligings- of nalevingsfuncties beheren waartoe u hen toegang geeft.
+Gebruikers moeten machtigingen krijgen toegewezen in het Security & Compliance Center voordat ze een van de beveiligings- of nalevingsfuncties kunnen beheren. Als globale beheerder of lid van de rolegroup OrganizationManagement in het Security & Compliance Center u deze machtigingen aan gebruikers geven. Gebruikers kunnen alleen de beveiligings- of nalevingsfuncties beheren waartoe u hen toegang geeft.
 
-Raadpleeg [machtigingen in het Office 365 Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over de verschillende machtigingen die u aan gebruikers geven in het Beveiligingscentrum &.
+Raadpleeg [machtigingen in het Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over de verschillende machtigingen die u aan gebruikers in het Security & Compliance Center geven.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U moet een globale office 365-beheerder of lid zijn van de rolegroep OrganizationManagement in het Security & Compliance Center om de stappen in dit artikel uit te voeren.
+- U moet een globale beheerder of lid zijn van de rolegroup OrganizationManagement in het Security & Compliance Center om de stappen in dit artikel uit te voeren.
 
 - Rolgroepen voor het Security & Compliance Center hebben mogelijk vergelijkbare namen als de rolgroepen in Exchange Online, maar ze zijn niet hetzelfde.
 
@@ -43,7 +43,7 @@ Raadpleeg [machtigingen in het Office 365 Security & Compliance Center](permissi
 
 ## <a name="use-the-admin-center-to-give-another-user-access-to-the-security--compliance-center"></a>Gebruik het beheercentrum om een andere gebruiker toegang te geven tot het Security & Compliance Center
 
-1. [Meld u aan bij Office 365 en ga naar het beheercentrum](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center).
+1. [Log in en ga naar het beheercentrum](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center).
 
 2. Open in het Microsoft 365-beheercentrum **beheercentra** en klik vervolgens op **Beveiliging & Naleving**.
 
@@ -67,7 +67,7 @@ Raadpleeg [machtigingen in het Office 365 Security & Compliance Center](permissi
 
 ## <a name="use-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>PowerShell gebruiken om een andere gebruiker toegang te geven tot het Security & Compliance Center
 
-1. [Maak verbinding met Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+1. [Maak verbinding met Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
 2. Gebruik de opdracht **Groep Lid voor extra rollen** om een gebruiker toe te voegen aan de organisatiebeheerrol, zoals in het volgende voorbeeld wordt weergegeven.
 

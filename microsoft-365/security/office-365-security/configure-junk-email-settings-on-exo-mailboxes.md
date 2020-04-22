@@ -16,16 +16,16 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u de instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken. Veel van deze instellingen zijn beschikbaar voor gebruikers in de webversie van Outlook of Outlook.
-ms.openlocfilehash: 2b138830cff7337d7949606cc110ea8f7ae1c0ff
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 689cec3f6a8b12764d03c98d23a9eb7ab6ca8e5e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42897019"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638438"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes-in-office-365"></a>Instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken in Office 365
 
-Organisatorische antispaminstellingen in Exchange Online worden beheerd door Exchange Online Protection (EOP). Zie [Bescherming tegen spam in Office 365](anti-spam-protection.md)voor meer informatie.
+Organisatorische antispaminstellingen in Exchange Online worden beheerd door Exchange Online Protection (EOP). Zie [Antispambeleid in Office 365](anti-spam-protection.md) voor meer informatie.
 
 Maar er zijn ook specifieke antispam-instellingen die beheerders kunnen configureren op afzonderlijke postvakken in Exchange Online:
 
@@ -43,11 +43,11 @@ Beheerders kunnen Exchange Online PowerShell gebruiken om de status van de regel
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U Exchange Online PowerShell alleen gebruiken om deze procedures uit te voeren. Zie Verbinding maken met Exchange Online PowerShell als u verbinding wilt maken met Exchange Online [PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)
+- U Exchange Online PowerShell alleen gebruiken om deze procedures uit te voeren. Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
 - U moet machtigingen krijgen voordat u deze procedures uitvoeren. U hebt in het bijzonder de rol **E-mailgeadresseerden** nodig (die standaard is toegewezen aan de rolgroepen **Organisatiebeheer,** **Geadresseerden**en **Aangepaste geadresseerden)** of de rol **Gebruikersopties** (die standaard is toegewezen aan de rolgroepen **Organisatiebeheer** en **helpdesk).** Zie [Rolgroepen wijzigen in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups)als u gebruikers wilt toevoegen aan rolgroepen in Exchange Online. Houd er rekening mee dat een gebruiker met standaardmachtigingen dezelfde procedures kan uitvoeren in zijn eigen postvak, zolang hij toegang heeft [tot Exchange Online PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)
 
-- In zelfstandige EOP-omgevingen waar EOP on-premises Exchange-postvakken beschermt, moet u de regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om het EOP-spamfiltervonnis te vertalen, zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail. Zie Zelfstandige [EOP configureren om spam te leveren aan de map Ongewenste e-mail in hybride omgevingen](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)voor meer informatie.
+- In standalone EOP-omgevingen waar EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de EOP-spamfilterbeoordeling te vertalen, zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. 
 
 ## <a name="use-exchange-online-powershell-to-enable-or-disable-the-junk-email-rule-in-a-mailbox"></a>Exchange Online PowerShell gebruiken om de regel voor ongewenste e-mail in een postvak in te schakelen of uit te schakelen
 
@@ -74,11 +74,11 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
 Zie [Set-MailboxJunkEmailConfiguration voor](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration)gedetailleerde syntaxis- en parametergegevens.
 
- **Toelichting :**
+ **Opmerkingen**:
 
 - Als de gebruiker zijn postvak nooit heeft geopend, ontvangt u mogelijk een foutmelding wanneer u de vorige opdracht uitvoert. Als u deze fout voor `-ErrorAction SlientlyContinue` bulkbewerkingen wilt onderdrukken, voegt u toe aan de opdracht **Set-MailboxJunkEmailConfiguration.**
 
-- Zelfs als u de regel voor ongewenste e-mail uitschakelt, kan het filter voor ongewenste e-mail (afhankelijk van hoe het is geconfigureerd) ook bepalen of een bericht spam is en berichten verplaatsen naar de map Postvak IN of ongewenste e-mail op basis van het eigen spamvonnis en de safelist-verzameling op de brievenbus. Zie de instellingen [voor ongewenste e-mail in de](#about-junk-email-settings-in-outlook) sectie Outlook in dit onderwerp voor meer informatie.
+- Zelfs als u de regel voor ongewenste e-mail uitschakelt, kan het filter voor ongewenste e-mail (afhankelijk van hoe het is geconfigureerd) ook bepalen of een bericht spam is en berichten verplaatsen naar de map Postvak IN of Ongewenste e-mail op basis van het eigen spamvonnis en de safelist-verzameling in het postvak. Zie de instellingen [voor ongewenste e-mail in de](#about-junk-email-settings-in-outlook) sectie Outlook in dit onderwerp voor meer informatie.
 
 ### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
@@ -143,7 +143,7 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
 Zie [Set-MailboxJunkEmailConfiguration voor](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration)gedetailleerde syntaxis- en parametergegevens.
 
- **Toelichting :**
+ **Opmerkingen**:
 
 - Als de gebruiker zijn postvak nooit heeft geopend, ontvangt u mogelijk een foutmelding wanneer u de vorige opdrachten uitvoert. Als u deze fout voor `-ErrorAction SlientlyContinue` bulkbewerkingen wilt onderdrukken, voegt u toe aan de opdracht **Set-MailboxJunkEmailConfiguration.**
 
@@ -169,7 +169,7 @@ Als u wilt controleren of u de safelist-verzameling in een postvak hebt geconfig
 
 ## <a name="about-junk-email-settings-in-outlook"></a>Informatie over instellingen voor ongewenste e-mail in Outlook
 
-Als u de instellingen voor ongewenste e-mailfilter aan de clientzijde wilt inschakelen, uitschakelen en configureren die beschikbaar zijn in Outlook, gebruikt u Groepsbeleid. Zie [Beheersjabloonbestanden (ADMX/ADML) en Office Aanpassingstool voor Office 365 ProPlus, Office 2019 en Office 2016 voor](https://www.microsoft.com/download/details.aspx?id=49030)meer informatie.
+Als u de instellingen voor ongewenste e-mailfilter aan de clientzijde wilt inschakelen, uitschakelen en configureren die beschikbaar zijn in Outlook, gebruikt u Groepsbeleid. Zie [AdMX/ADML (Beheersjabloonbestanden) en Office Customization Tool voor Microsoft 365 Apps voor bedrijven, Office 2019 en Office 2016 voor](https://www.microsoft.com/download/details.aspx?id=49030)meer informatie.
 
 Wanneer het Outlook Junk Email Filter is ingesteld op de standaardwaarde Geen **Junk** \> **automatische filtering** in **opties**voor ongewenste **e-mail** \> voor **thuis,** \> probeert Outlook massages niet te classificeren als spam, maar gebruikt het nog steeds de safelist-verzameling (de lijst Veilige afzenders, lijst Met veilige geadresseerden en de lijst Geblokkeerde afzenders) om berichten na levering naar de map Ongewenste e-mail te verplaatsen. Zie Overzicht van het [filter ongewenste e-mail](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)voor meer informatie over deze instellingen .
 

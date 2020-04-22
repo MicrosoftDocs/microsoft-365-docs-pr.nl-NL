@@ -16,16 +16,16 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 8d7adda0ded3a118676a67d0446a5744233468f3
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: f336c9ef2957374223a8f0d7b64f892c87e1169d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42812018"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631547"
 ---
-# <a name="identity-and-device-access-configurations"></a>Configuraties voor identiteits- en apparaattoegang
+# <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
-In deze serie artikelen wordt beschreven hoe u veilige toegang tot cloudservices configureren via Enterprise Mobility + Security (EMS)-producten door een aanbevolen omgeving en configuratie te implementeren, inclusief een voorgeschreven set beleid voor voorwaardelijke toegang en gerelateerde mogelijkheden. EMS is een kernonderdeel van Microsoft 365. U deze richtlijnen gebruiken om de toegang te beschermen tot alle services die zijn geïntegreerd met Azure Active Directory, waaronder Office 365-services, andere SaaS-services en on-premises toepassingen die zijn gepubliceerd met Azure AD-toepassingsproxy. 
+In deze serie artikelen wordt beschreven hoe u veilige toegang tot cloudservices configureren via Enterprise Mobility + Security (EMS)-producten door een aanbevolen omgeving en configuratie te implementeren, inclusief een voorgeschreven set beleid voor voorwaardelijke toegang en gerelateerde mogelijkheden. EMS is een kernonderdeel van Microsoft 365. U deze richtlijnen gebruiken om de toegang te beschermen tot alle services die zijn geïntegreerd met Azure Active Directory, waaronder Microsoft 365-services, andere SaaS-services en on-premises toepassingen die zijn gepubliceerd met Azure AD Application Proxy. 
 
 Deze aanbevelingen zijn afgestemd op de Microsoft Secure Score en [de identiteitsscore in Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)en verhogen deze scores voor uw organisatie. Deze aanbevelingen helpen u ook bij het implementeren van deze [vijf stappen om uw identiteitsinfrastructuur te beveiligen.](https://docs.microsoft.com/azure/security/azure-ad-secure-steps) 
 
@@ -51,12 +51,12 @@ We hebben ons best gedaan om rekening te houden met een breed scala aan organisa
 
 ## <a name="three-tiers-of-protection"></a>Drie beschermingsniveaus
 
-De meeste organisaties hebben specifieke eisen met betrekking tot beveiliging en gegevensbescherming. Deze eisen verschillen per industriesegment en per functie binnen organisaties. Uw juridische afdeling en Office 365-beheerders hebben bijvoorbeeld extra beveiligings- en informatiebeveiligingsbesturingselementen nodig rond hun e-mailcorrespondentie die niet vereist zijn voor andere gebruikers van bedrijfseenheden. 
+De meeste organisaties hebben specifieke eisen met betrekking tot beveiliging en gegevensbescherming. Deze eisen verschillen per industriesegment en per functie binnen organisaties. Uw juridische afdeling en beheerders kunnen bijvoorbeeld aanvullende beveiligings- en informatiebeveiligingscontroles vereisen rond hun e-mailcorrespondentie die niet vereist zijn voor andere gebruikers van bedrijfseenheden. 
 
-Elke industrie heeft ook zijn eigen set van gespecialiseerde regelgeving. In plaats van een lijst met alle mogelijke beveiligingsopties of een aanbeveling per industriesegment of functie, zijn aanbevelingen voorzien voor drie verschillende beveiligings- en beschermingsniveaus die kunnen worden toegepast op basis van de granulariteit van uw behoeften .
+Elke industrie heeft ook zijn eigen set van gespecialiseerde regelgeving. In plaats van een lijst met alle mogelijke beveiligingsopties of een aanbeveling per industriesegment of functie, zijn aanbevelingen voorzien voor drie verschillende beveiligings- en beschermingsniveaus die kunnen worden toegepast op basis van de granulariteit van uw behoeften.
 
 - **Basislijnbeveiliging:** We raden u aan een minimumnorm vast te stellen voor het beveiligen van gegevens, evenals de identiteiten en apparaten die toegang hebben tot uw gegevens. U deze basislijnaanbevelingen volgen om een sterke standaardbescherming te bieden die voldoet aan de behoeften van veel organisaties.
-- **Gevoelige bescherming**: Sommige klanten hebben een subset van gegevens die op hogere niveaus moeten worden beschermd, of ze kunnen vereisen dat alle gegevens op een hoger niveau worden beschermd. U meer bescherming toepassen op alle of specifieke gegevenssets in uw Office 365-omgeving. We raden u aan identiteiten en apparaten te beschermen die toegang hebben tot gevoelige gegevens met vergelijkbare beveiligingsniveaus.  
+- **Gevoelige bescherming**: Sommige klanten hebben een subset van gegevens die op hogere niveaus moeten worden beschermd, of ze kunnen vereisen dat alle gegevens op een hoger niveau worden beschermd. U meer bescherming toepassen op alle of specifieke gegevenssets in uw Microsoft 365-omgeving. We raden u aan identiteiten en apparaten te beschermen die toegang hebben tot gevoelige gegevens met vergelijkbare beveiligingsniveaus.  
 - **Sterk gereguleerd**: Sommige organisaties kunnen een kleine hoeveelheid gegevens hebben die zeer geclassificeerd is, bedrijfsgeheimen verhoudt of gereguleerde gegevens zijn. Microsoft biedt mogelijkheden om organisaties te helpen aan deze vereisten te voldoen, waaronder extra bescherming voor identiteiten en apparaten.
 
 ![Beveiligingskegel - Alle klanten > Sommige klanten > specifieke klanten. Brede toepassing op specifieke toepassing](../media/M365-idquality-threetiers.png)
@@ -69,7 +69,7 @@ Het is belangrijk om consistente beschermingsniveaus te gebruiken voor uw gegeve
 ![Miniatuur voor poster 'Identiteit en apparaatbeveiliging voor Office 365'](../media/O365_Identity_device_protection_thumb.png)<br/>
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [Meer talen](https://www.microsoft.com/download/details.aspx?id=55032)
 
-**Oplossingen voor bestandsbeveiliging in Office 365**<br/>
+**File Protection Solutions in Office 365** (Oplossingen voor bestandsbeveiliging in Office 365)<br/>
 ![Miniatuur voor poster 'Oplossingen voor bestandsbeveiliging in Office 365'](../media/24be68b5-d852-4fdb-94ad-94491a19edd8.png)<br/>
 [PDF](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
 
@@ -96,7 +96,7 @@ Azure AD biedt een volledige suite van mogelijkheden voor identiteitsbeheer. Voo
 
 - **[Self-service password reset (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks)**: Laat uw gebruikers hun wachtwoorden veilig en zonder tussenkomst van de helpdesk resetten, door verificatie te bieden van meerdere verificatiemethoden die de beheerder kan beheren.
 
-- **[Multi-factor authentication (MFA)](/azure/active-directory/authentication/concept-mfa-howitworks)**: MFA vereist dat gebruikers twee vormen van verificatie opgeven, zoals een gebruikerswachtwoord plus een melding van de Microsoft Authenticator-app of een telefoongesprek. MFA vermindert het risico dat een gestolen identiteit kan worden gebruikt om toegang te krijgen tot uw Office 365-omgeving sterk.
+- **[Multi-factor authentication (MFA)](/azure/active-directory/authentication/concept-mfa-howitworks)**: MFA vereist dat gebruikers twee vormen van verificatie opgeven, zoals een gebruikerswachtwoord plus een melding van de Microsoft Authenticator-app of een telefoongesprek. MFA vermindert het risico dat een gestolen identiteit kan worden gebruikt om toegang te krijgen tot uw omgeving.
 
 - **[Voorwaardelijke toegang:](/azure/active-directory/conditional-access/overview)** Azure AD evalueert de voorwaarden van de aanmelding van de gebruiker en maakt gebruik van beleid voor voorwaardelijke toegang dat u maakt om toegang toe te staan. In deze richtlijnen laten we u bijvoorbeeld zien hoe u een beleid voor voorwaardelijke toegang maken om apparaatnaleving te vereisen voor toegang tot gevoelige gegevens. Dit vermindert sterk het risico dat een hacker met een gestolen identiteit toegang heeft tot uw gevoelige gegevens. Het beschermt ook gevoelige gegevens op de apparaten, omdat de apparaten voldoen aan specifieke eisen voor gezondheid en beveiliging.
 
@@ -112,27 +112,27 @@ Azure AD biedt een volledige suite van mogelijkheden voor identiteitsbeheer. Voo
 
 #### <a name="intune-app-protection"></a>App-beveiliging inafstemmen
 
-[Intune-app-beveiligingsbeleid](https://docs.microsoft.com/intune/app-protection-policy) kan worden gebruikt om de gegevens van uw organisatie in mobiele apps te beschermen, met of zonder apparaten in te schrijven bij beheer. Intune helpt Office 365-informatie te beschermen, zodat uw medewerkers nog steeds productief kunnen zijn en gegevensverlies wordt voorkomen. Door beleid op app-niveau te implementeren, u de toegang tot bedrijfsbronnen beperken en gegevens binnen de controle van uw IT-afdeling houden.
+[Intune-app-beveiligingsbeleid](https://docs.microsoft.com/intune/app-protection-policy) kan worden gebruikt om de gegevens van uw organisatie in mobiele apps te beschermen, met of zonder apparaten in te schrijven bij beheer. Intune helpt informatie te beschermen, ervoor te zorgen dat uw medewerkers nog steeds productief kunnen zijn en gegevensverlies te voorkomen. Door beleid op app-niveau te implementeren, u de toegang tot bedrijfsbronnen beperken en gegevens binnen de controle van uw IT-afdeling houden.
 
 In deze richtlijnen ziet u hoe u aanbevolen beleidsregels maken om het gebruik van goedgekeurde apps af te dwingen en te bepalen hoe deze apps kunnen worden gebruikt met uw bedrijfsgegevens.
 
-### <a name="office-365"></a>Office 365
+### <a name="microsoft-365"></a>Microsoft 365
 
-In deze richtlijnen ziet u hoe u een set beleidsregels implementeert om de toegang tot Office 365 te beschermen, waaronder Exchange Online, SharePoint Online en OneDrive voor Bedrijven. Naast het implementeren van dit beleid raden we u aan ook het beschermingsniveau voor uw Office 365-tenant te verhogen met behulp van deze bronnen:
+In deze richtlijnen ziet u hoe u een set beleidsregels implementeert om de toegang tot Office 365 te beschermen, waaronder Exchange Online, SharePoint Online en OneDrive voor Bedrijven. Naast het implementeren van dit beleid, raden we u aan ook het beschermingsniveau voor uw tenant te verhogen met behulp van deze resources:
 
-- [Uw Office 365-tenant configureren voor meer beveiliging:](https://support.office.com/article/Configure-your-Office-365-tenant-for-increased-security-8d274fe3-db51-4107-ba64-865e7155b355)deze aanbevelingen zijn van toepassing op basislijnbeveiliging voor uw Office 365-tenant.
-- [Office 365-beveiligingsroadmap: topprioriteiten voor de eerste 30 dagen, 90 dagen en verder:](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352)deze aanbevelingen omvatten logboekregistratie, gegevensbeheer, beheerderstoegang en bescherming tegen bedreigingen.
+- [Configureer uw tenant voor meer beveiliging:](https://support.office.com/article/Configure-your-Office-365-tenant-for-increased-security-8d274fe3-db51-4107-ba64-865e7155b355)deze aanbevelingen zijn van toepassing op basislijnbeveiliging voor uw tenant.
+- [Microsoft 365-beveiligingsroadmap: topprioriteiten voor de eerste 30 dagen, 90 dagen en verder:](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352)deze aanbevelingen omvatten logboekregistratie, gegevensbeheer, beheerderstoegang en bescherming tegen bedreigingen.
 
 
-### <a name="windows-10-and-office-365-proplus"></a>Windows 10 en Office 365 ProPlus
+### <a name="windows-10-and-microsoft-365-apps-for-enterprise"></a>Windows 10 en Microsoft 365 Apps voor bedrijven
 
-Windows 10 en Office 365 ProPlus is de aanbevolen clientomgeving voor pc's. We raden Windows 10 aan, omdat Azure is ontworpen om de soepelste ervaring te bieden die mogelijk is voor zowel on-premises als Azure AD. Windows 10 bevat ook geavanceerde beveiligingsmogelijkheden die kunnen worden beheerd via Intune. Office 365 ProPlus bevat de nieuwste versies van Office-toepassingen. Deze maken gebruik van moderne authenticatie, die veiliger is en een vereiste voor voorwaardelijke toegang. Deze apps bevatten ook verbeterde beveiligings- en nalevingstools.
+Windows 10 en Microsoft 365 Apps for Enterprise is de aanbevolen clientomgeving voor pc's. We raden Windows 10 aan, omdat Azure is ontworpen om de soepelste ervaring te bieden die mogelijk is voor zowel on-premises als Azure AD. Windows 10 bevat ook geavanceerde beveiligingsmogelijkheden die kunnen worden beheerd via Intune. Microsoft 365 Apps for enterprise bevat de nieuwste versies van Office-toepassingen. Deze maken gebruik van moderne authenticatie, die veiliger is en een vereiste voor voorwaardelijke toegang. Deze apps bevatten ook verbeterde beveiligings- en nalevingstools.
 
 ## <a name="applying-these-capabilities-across-the-three-tiers-of-protection"></a>Toepassing van deze mogelijkheden op de drie beschermingsniveaus
 
 In de volgende tabel worden onze aanbevelingen voor het gebruik van deze mogelijkheden over de drie beschermingsniveaus samengevat.
 
-|Beschermingsmechanisme|Basislijn|Gevoelige|Sterk gereguleerd|
+|Beschermingsmechanisme|Basislijn|Gevoelig|Sterk gereglementeerd|
 |:-------------------|:-------|:--------|:---------------|
 |**MFA afdwingen**|Op medium of boven aanmeldingsrisico|Op laag of boven aanmeldingsrisico|Op alle nieuwe sessies|
 |**Wachtwoordwijziging afdwingen**|Voor gebruikers met een hoog risico|Voor gebruikers met een hoog risico|Voor gebruikers met een hoog risico|
