@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/23/2019
+ms.date: 04/20/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Begrijp en configureer uw DNS-resolutie voor betere prestaties.
-ms.openlocfilehash: 8b4302c06e75c59a1b99eb60399c9df897ad17ea
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bc1460ec40cda26d4784c7af5e909e4dca3c1f24
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42810197"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583435"
 ---
 # <a name="step-2-configure-local-internet-connections-for-each-office"></a>Stap 2: lokale internetverbindingen configureren voor elk kantoor
 
@@ -56,6 +56,8 @@ De DNS-servers van Microsoft gebruiken de DNS-query's die overeenkomen met de oo
 - Elke lokale internetverbinding moet een regionale, lokale DNS-server gebruiken voor uitgaand internetverkeer vanaf die locatie.
 
 Zie [uitgaande netwerkverbindingen lokaal instellen](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#egress-network-connections-locally)voor meer informatie. 
+
+Gebruik het [Office 365 Network Onboarding-hulpprogramma](https://connectivity.office.com/) om te testen hoe dicht u bij een invoerpunt voor het globale netwerk van Microsoft bent en hoe dicht u bij een punt bent waar uw bedrijfsnetwerk de verbinding maakt met uw ISP.
 
 Als tussentijds controlepunt kunt u de [afsluitcriteria](networking-exit-criteria.md#crit-networking-step2) voor deze stap bekijken.
 

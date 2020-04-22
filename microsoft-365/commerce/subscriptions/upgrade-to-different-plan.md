@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 description: Meer informatie over het upgraden naar een nieuw abonnement.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 8f792cad90b7e153c025a869970a54d36cdd8cbe
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a5cede13a64ea1a6562a326c32dc902d14c3dfe5
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636508"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707521"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Upgraden naar een ander abonnement 
 
@@ -153,7 +153,7 @@ Wanneer u plannen automatisch upgradet met de knop **Abonnementen schakelen** (o
 
 Gebruikers met het oude abonnement stappen automatisch over op het nieuwe abonnement.
   
-Als uw oude abonnement meerdere services bevat en als u hebt gewijzigd aan welke van deze services uw gebruikers zijn toegewezen, u hiervan nota nemen voordat u plannen upgradet, zodat u deze wijzigingen achteraf opnieuw maken. Alle gebruikers krijgen in het nieuwe abonnement toegang tot alle services. Als u bijvoorbeeld office 365 Enterprise E3 eerder hebt gekocht voor alle 100 gebruikers, maar de SharePoint Online-service van 50 van deze gebruikers niet hebt toegewezen, wordt deze wijziging niet gehandhaafd nadat u plannen hebt geüupgradet.
+Als uw oude abonnement meerdere services bevat en als u hebt gewijzigd aan welke van deze services uw gebruikers zijn toegewezen, u hiervan nota nemen voordat u plannen upgradet, zodat u deze wijzigingen achteraf opnieuw maken. Alle gebruikers krijgen in het nieuwe abonnement toegang tot alle services. Als u bijvoorbeeld eerder Microsoft 365 Business Premium hebt gekocht voor alle 100 gebruikers, maar de SharePoint Online-service van 50 van deze gebruikers niet hebt toegewezen, wordt deze wijziging niet gehandhaafd nadat u plannen hebt geüupgradet.
   
 Als u meer dan één abonnement hebt voordat u abonnementen upgradet en gebruikers licenties aan meer dan één abonnement hebt toegewezen, wordt dit toewijzingspatroon zoveel mogelijk bewaard in het nieuwe abonnement.
   
@@ -164,9 +164,9 @@ Alle gebruikersgegevens worden tijdens de upgrade bewaard, inclusief Exchange-po
 Op de dag dat uw abonnement is voltooid, wordt de facturering op uw oude abonnement uitgeschakeld en wordt de facturering voor uw nieuwe abonnement ingeschakeld. U ontvangt een krediet naar rato voor eventuele niet-gebruikte service van het oude abonnement. U ontvangt binnen 30 dagen na de upgrade naar het nieuwe abonnement een nieuwe factuur met het tegoed voor uw oude abonnement.
   
 > [!NOTE]
-> Hoe lang het duurt voordat het bedrag is overgeschreven naar uw rekening, is afhankelijk van de betaalmethode die voor het abonnement werd gebruikt. 
+> Hoe lang het duurt voordat het bedrag is overgeschreven naar uw rekening, is afhankelijk van de betaalmethode die voor het abonnement werd gebruikt.
   
- **Upgraden van een prepaid abonnement voordat het verloopt?** Als de totale kosten van uw nieuwe abonnement hoger zijn dan of gelijk zijn aan de resterende waarde van uw vooraf betaalde abonnement, raakt u de vooraf betaalde tijd niet kwijt. Op de afrekeningspagina ziet u hoeveel krediet u hebt voor uw ongebruikte tijd. Als de totale kosten van uw nieuwe abonnement lager zijn dan de resterende waarde van uw huidige vooraf betaalde abonnement, verliest u een deel van uw ongebruikte tijd. U ontvangt een melding voordat u afrekent en u wachten met upgraden tot de vervaldatum van uw prepaid-abonnement.
+**Upgraden van een prepaid abonnement voordat het verloopt?** Als de totale kosten van uw nieuwe abonnement hoger zijn dan of gelijk zijn aan de resterende waarde van uw vooraf betaalde abonnement, raakt u de vooraf betaalde tijd niet kwijt. Op de afrekeningspagina ziet u hoeveel krediet u hebt voor uw ongebruikte tijd. Als de totale kosten van uw nieuwe abonnement lager zijn dan de resterende waarde van uw huidige vooraf betaalde abonnement, verliest u een deel van uw ongebruikte tijd. U ontvangt een melding voordat u afrekent en u wachten met upgraden tot de vervaldatum van uw prepaid-abonnement.
 
 ## <a name="call-support-to-help-you-upgrade-plans"></a>Ondersteuning bellen om u te helpen plannen te upgraden
 

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/13/2020
+ms.date: 04/20/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Informatie over het gebruik en configureren van webbrowsers en edge-apparaten voor het omleiden van verkeer naar vertrouwde Office 365-locaties.
-ms.openlocfilehash: b04e16b249dccf8f2461189b8b47abdd252a75d8
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: 68e8f7868e0b0f7b3da80bd5f19b18f261b1b05c
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43504077"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583391"
 ---
 # <a name="step-4-configure-traffic-bypass"></a>Stap 4: Omleiden van verkeer configureren
 
@@ -61,6 +61,8 @@ VPN-verbindingen (virtual private network) worden meestal door externe werknemer
 Split tunneling is de mogelijkheid die een VPN-verbinding heeft om specifiek verkeer via het internet te sturen in plaats van via de VPN-verbinding naar uw intranet. Configureer uw VPN-verbindingen die aan split tunneling doen om verkeer naar Office 365-eindpunten in de categorie Optimaliseren rechtstreeks over het internet te sturen. Zo krijgen externe medewerkers de beste prestaties voor essentiële services van Microsoft 365 zoals Teams, SharePoint Online en Exchange Online. 
 
 Bekijk [Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel) voor meer informatie.
+
+Gebruik het [Office 365 Network Onboarding-hulpprogramma](https://connectivity.office.com/) om te testen hoe dicht u bij een invoerpunt voor het globale netwerk van Microsoft bent en hoe dicht u bij een punt bent waar uw bedrijfsnetwerk de verbinding maakt met uw ISP.
 
 Als tussentijds controlepunt kunt u de [afsluitcriteria](networking-exit-criteria.md#crit-networking-step4) voor deze stap bekijken.
 

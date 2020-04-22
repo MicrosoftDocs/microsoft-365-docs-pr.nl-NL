@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Lees wat er met uw gegevens gebeurt wanneer uw Microsoft 365 voor Bedrijven-abonnement verloopt, is uitgeschakeld of als u opzegt.
-ms.openlocfilehash: 2a5a9e587b6b00017d3e489d948c9cee3db4777b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: cd90b0b5825b2888b1194998c25a2ce9c7c28718
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634872"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707605"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor bedrijven-abonnement afloopt?
 
@@ -220,7 +220,7 @@ Dit kun je als je voor jou en je gebruikers verwachten als je een abonnement opz
 Zie [Uw abonnement opzeggen](cancel-your-subscription.md)voor meer informatie over het opzeggen van uw abonnement.
   
 > [!IMPORTANT]
-> Als u wilt dat uw abonnementsgegevens worden verwijderd voordat de typische uitgeschakelde periode voorbij is, u versnelde deprovisioning aanvragen. Wanneer u versnelde opheffing aanvraagt, worden uw abonnementsgegevens binnen 3 dagen na de opzegging verwijderd. Als u versnelde deprovisioning wilt gebruiken, [belt u ondersteuning](../../admin/contact-support-for-business-products.md).
+> Als u wilt dat uw abonnementsgegevens worden verwijderd voordat de typische uitgeschakelde periode voorbij is, u [uw account sluiten.](../close-your-account.md)
 
 > [!NOTE]
 > De informatie op deze pagina is onderworpen aan de [disclaimer en wijzigingskennisgeving van Microsoft Policy](https://go.microsoft.com/fwlink/p/?LinkId=613651). Keer regelmatig terug naar deze site om eventuele wijzigingen te bekijken.

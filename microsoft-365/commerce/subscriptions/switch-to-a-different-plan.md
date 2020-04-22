@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 73318661-8f33-478b-bcc7-fb8d69dbb22a
 description: Meer informatie over hoe u overschakelt naar een nieuw Microsoft 365 voor Bedrijven-abonnement.
-ms.openlocfilehash: a101ac47aede1413528fd2cb6be1d1df6ab4d961
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8682ced4aab6fd1b0cbfc132527e977eabc59306
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636520"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707497"
 ---
 # <a name="switch-to-a-different-microsoft-365-for-business-plan"></a>Overschakelen naar een ander Microsoft 365 voor zakelijk abonnement
 
@@ -103,4 +103,4 @@ Als u wilt overschakelen naar een abonnement met minder services, u [handmatig v
   
 ## <a name="call-support-to-help-you-switch-plans"></a>Neem contact op met ondersteuning om u te helpen bij het veranderen van abonnement
 
-![](../../media/88eae4a1-b8d9-4a12-bc4a-44af244f084b.png) [Ondersteuning voor telefonische gesprekken](../../admin/contact-support-for-business-products.md)
+[Ondersteuning voor bellen](../../admin/contact-support-for-business-products.md)
