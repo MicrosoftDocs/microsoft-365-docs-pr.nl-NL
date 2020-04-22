@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 description: "Ontdek hoeveel belasting u in rekening wordt gebracht voor uw Microsoft 365 voor zakelijk abonnement in verschillende regio's. "
 ms.custom: okr_SMB
-ms.openlocfilehash: e65dc15237cb14959a68a7413227cec2a3163d60
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 491c8241d8517d342e04a214d426e937895aab5a
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635002"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708129"
 ---
 # <a name="tax-information"></a>Belastinginformatie
 
@@ -94,7 +94,7 @@ Informatie over welke belasting wordt geheven in de volgende regio's. U kunt u o
   
 ### <a name="europe-the-middle-east-and-africa-emea"></a>Europa, het Midden-Oosten en Afrika (EMEA)
 
-Als u Office 365-services aanschaft in de Europese Unie, is deze aankoop onderhevig aan btw (belasting toegevoegde waarde).
+Wanneer u Microsoft 365-services in de Europese Unie koopt, is deze aankoop onderworpen aan btw.When you buy Microsoft 365 services in the European Union, this purchase is subject to Value-Added Tax (BTW).
   
 - Als u in een lidstaat van de Europese Unie bent gevestigd en u geen geldig lokaal btw-nummer opgeeft, past Microsoft Ireland Operations Ltd. het huidige lokale btw-tarief toe op basis van het land voor facturering waarop het account is ingesteld.
 
@@ -154,7 +154,7 @@ Als u een rekening van een andere locatie krijgt, wordt de actuele lokale belast
 
 In de Verenigde Staten en Canada zijn verschillende belastingtarieven van toepassing, afhankelijk van uw locatie. In Puerto Rico zijn lokale tarieven van btw (belasting op de toegevoegde waarde) van toepassing.
   
-Als de facturering wordt uitgevoerd door Microsoft Corporation ([zie uw factuur](view-your-bill-or-invoice.md)) en u zich hebt geregistreerd voor Office 365 buiten de Verenigde Staten, Canada en Puerto Rico, wordt er doorgaans geen btw geheven.
+Als uw facturering wordt uitgevoerd door Microsoft Corporation[(zie uw factuur)](view-your-bill-or-invoice.md)en u zich hebt aangemeld voor Microsoft 365 buiten de Verenigde Staten, Canada en Puerto Rico, wordt over het algemeen geen belasting in rekening gebracht.
 
 ## <a name="how-taxes-are-calculated"></a>Hoe belastingen worden berekend
 

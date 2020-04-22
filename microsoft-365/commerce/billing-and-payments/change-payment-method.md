@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: Meer informatie over het wijzigen van de betalingsmethode voor uw zakelijke abonnement.
-ms.openlocfilehash: 582286dec47b0835c90ff56a0d10d3c34d285e33
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8b2528b694dcca181d0508e54894ca50364eac20
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632729"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708153"
 ---
 # <a name="change-your-payment-method"></a>Uw betalingsmethode wijzigen
 
@@ -80,13 +80,13 @@ Als u van *creditcard of bankrekening naar factuur*gaat, wordt het openstaande s
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
+
 ## <a name="change-from-invoice-to-credit-card-or-bank-account"></a>Wijzigen van factuur naar creditcard of bankrekening
 
 > [!TIP]
 > De volgende stappen zijn alleen van toepassing op individuele abonnementen. Als u meerdere abonnementen in uw organisatie hebt, voert u deze stappen uit voor elk abonnement dat u wilt wijzigen.
   
 Wanneer u overstapt van betalen per factuur naar betalen met een creditcard of bankrekening, maken we automatisch een nieuw abonnement voor u aan, verplaatsen we uw gebruikers naar het nieuwe abonnement en schakelen we uw oude abonnement uit. Maak je geen zorgen, uw gebruikers zien geen onderbreking in de service en al hun informatie is beschikbaar via het nieuwe abonnement.
-
 
 1. Ga in het beheercentrum naar de pagina\> **Factureringsproducten** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& services.</a>
 
@@ -102,10 +102,10 @@ Wanneer u overstapt van betalen per factuur naar betalen met een creditcard of b
   
 7. Controleer of de geselecteerde betalingsmethode juist is en selecteer **Opslaan**.
 
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
+
 ## <a name="change-from-invoice-to-credit-card-or-bank-account"></a>Wijzigen van factuur naar creditcard of bankrekening
 
 > [!TIP]
@@ -136,21 +136,21 @@ Wanneer u teruggaat naar de pagina **Abonnementen** ziet u dat het oude abonneme
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
+
 ## <a name="change-from-credit-card-or-bank-account-to-invoice"></a>Wijzigen van creditcard of bankrekening naar factuur
 
 U alleen overstappen op betaling per factuur als uw bestelling hoger is dan een bepaald aantal. Als u niet aan de vereiste voldoet, ziet u het bericht 'Uw orderhoeveelheid is niet groot genoeg om in aanmerking te komen voor factuur met chequedraad'.
 
 Als uw bestelhoeveelheid te hoog is, is mogelijk een kredietcontrole vereist. Als dat het zo is, ziet u het bericht 'Niet in aanmerking komen om te wijzigen in factuur. Uw bestelling vereist een credit check." In dit geval gaat u handmatig over op betaling per factuur. Gebruik de volgende stappen om de handmatige wijziging uit te voeren.
 
-
 1. Ga naar <a href="https://Office365.com" target="_blank">Office365.com</a> en koop hetzelfde abonnement als het abonnement dat je momenteel hebt. Kies bij het uitchecken de optie om per factuur te betalen.
 
-> [!IMPORTANT]
-> U de pagina **Producten & services** in het beheercentrum niet gebruiken om het abonnement te kopen. Je moet <a href="https://Office365.com" target="_blank">Office365.com</a>gebruiken.
+    > [!IMPORTANT]
+    > U de pagina **Producten & services** in het beheercentrum niet gebruiken om het abonnement te kopen. Je moet <a href="https://Office365.com" target="_blank">Office365.com</a>gebruiken.
 
 2. Nadat de aankoop is voltooid, annuleert u het oorspronkelijke abonnement. Uw gebruikers worden automatisch overgeschoven naar het nieuwe abonnement.
 
-Als er geen kredietcontrole vereist is, gebruikt u de volgende stappen om te wijzigen in betalen per factuur. 
+Als er geen kredietcontrole vereist is, gebruikt u de volgende stappen om te wijzigen in betalen per factuur.
 
 1. Ga in het beheercentrum naar de pagina\> **Factureringsproducten** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& services.</a>
 
@@ -168,14 +168,14 @@ Als er geen kredietcontrole vereist is, gebruikt u de volgende stappen om te wij
 
 8. Controleer of de geselecteerde betalingsmethode juist is en selecteer **Opslaan**.
 
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
+
 ## <a name="change-from-credit-card-or-bank-account-to-invoice"></a>Wijzigen van creditcard of bankrekening naar factuur
 
 > [!NOTE]
-> De optie om per factuur te betalen is alleen beschikbaar als uw abonnement meer dan een bepaald bedrag kost (dat verschilt per servicelocatie). Bij grotere factuurbetalingen kan kredietcontrole vereist zijn. Zie [Uw Office 365 voor Bedrijven-abonnement betalen](pay-for-your-subscription.md) voor meer informatie.
+> De optie om per factuur te betalen is alleen beschikbaar als uw abonnement meer dan een bepaald bedrag kost (dat verschilt per servicelocatie). Bij grotere factuurbetalingen kan kredietcontrole vereist zijn. Zie [Betalen voor uw abonnement voor](pay-for-your-subscription.md)meer informatie.
 
 1. Ga in het beheercentrum naar de pagina\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Factureringsabonnementen.</a> **Billing**
 
@@ -193,10 +193,10 @@ Als er geen kredietcontrole vereist is, gebruikt u de volgende stappen om te wij
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
+
 ## <a name="verify-which-payment-method-is-configured"></a>Controleren welke betalingswijze is geconfigureerd
 
 U kunt op elk moment de volgende stappen uitvoeren om te controleren welke betalingswijze is geconfigureerd voor een abonnement.
-
 
 1. Ga in het beheercentrum naar de pagina\> **Factureringsproducten** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& services.</a>
 
@@ -211,6 +211,7 @@ U kunt op elk moment de volgende stappen uitvoeren om te controleren welke betal
 ::: moniker-end
 
 ::: moniker range="o365-germany"
+
 ## <a name="verify-which-payment-method-is-configured"></a>Controleren welke betalingswijze is geconfigureerd
 
 U kunt op elk moment de volgende stappen uitvoeren om te controleren welke betalingswijze is geconfigureerd voor een abonnement.

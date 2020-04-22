@@ -17,12 +17,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Rapporten zoeken en gebruiken voor Geavanceerde bedreigingsbeveiliging &amp; van Office 365 in het Security Compliance Center.
-ms.openlocfilehash: cca2729918239eee7d27973cd28be16a534e461b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 09e2f4be133d395b738219b3a280f08b915030e0
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631059"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708497"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Rapporten weergeven voor geavanceerde bedreigingsbeveiliging van Office 365
 
@@ -60,9 +60,11 @@ Filters en uitsplitsingen van de informatie zorgen voor meer gedetailleerde cate
 
 ![Dropdown van de Status van bedreigingsstatus toont 'break down by'.](../../media/tp-threatProtectStatRpt-BreakDownBy.png)
 
-Deze weergaven geven u de mogelijkheid om te exporteren, via een knop klik (in E-mail > Phish, E-mail > Malware, en Content > Malware weergaven). De geaggregeerde gegevens die naar uw computer worden geëxporteerd, kunnen worden geopend in Excel.
+Deze weergaven geven u de mogelijkheid om te exporteren, via een knop klik (in **E-mail** \> **Phish**, **E-mail** \> **Malware**, en **Content** \> **Malware** weergaven). De geaggregeerde gegevens die naar uw computer worden geëxporteerd, kunnen worden geopend in Excel.
 
 ![In deze afbeelding wordt Exporteren als een optie weergegeven in het menu voor de weergave Malware, precies tussen Planning maken en Rapport aanvragen.](../../media/tp-threatProtectStatRpt-BreakDownByExport.png)
+
+**Opmerking:** Het maximum aantal items dat kan worden geëxporteerd voor **Phish** en **Malware** is iets minder dan 10000. Als u een weergave exporteert, worden alleen de meest recente 10000 vermeldingen geëxporteerd.
 
 In de overzichts- en e-mailsweergave worden binnen enkele uren na de verwerking informatie weergegeven in plaats van binnen 24 uur (vraag opnieuw. verhoogde snelheden hier is een duidelijk signaal)!
 

@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
 description: Schakel Microsoft 365 voor zakelijke abonnementen handmatig over door een nieuw abonnement aan te schaffen en ervoor te zorgen dat beide abonnementen worden vermeld en actief.
-ms.openlocfilehash: e5245e333984c9d8e67b174f10cf48b2339348de
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f06e6a5f441286cbe048187eea39889772bb4e75
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636532"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707509"
 ---
 # <a name="switch-microsoft-365-for-business-plans-manually"></a>Microsoft 365 handmatig overschakelen voor bedrijfsabonnementen
 
@@ -84,13 +84,9 @@ Het is belangrijk dat u een licentie koopt voor de organisatie waarvan de gebrui
 
     Het abonnement waarnaar u gebruikers wilt verplaatsen en het abonnement waaruit u gebruikers wilt verplaatsen, moeten beide worden vermeld. Als u het nieuwe abonnement niet ziet, wacht u een tijdje en kijkt u dan nog een keer. Controleer of beide abonnementen worden vermeld onder **ACTIEF**. [Het nieuwe abonnement wordt niet vermeld of is niet actief](#the-new-subscription-isnt-listed-or-isnt-active).
 
-   **Het nieuwe Microsoft 365 voor bedrijven-abonnement met beschikbare licenties**
-
-    ![The subscription page showing the number of licenses for the new subscription.](../../media/65a73e96-7c95-4daa-b6ec-71a4bf74dda5.png)
-  
 3. **Controleren of u voldoende licenties hebt voor alle gebruikers**
 
-    Elke gebruiker moet een licentie hebben die overeenkomt met het afgesloten abonnement. Als u bijvoorbeeld tien gebruikers wilt overbrengen naar Office 365 Enterprise E5, moeten er tien licenties beschikbaar zijn. In deze afbeelding zijn er tien licenties gekocht voor Office 365 Enterprise E5, en alle tien de licenties zijn beschikbaar voor toewijzing.
+    Elke gebruiker moet een licentie hebben die overeenkomt met het afgesloten abonnement. Dus als u tien gebruikers wilt verplaatsen naar Microsoft 365 Business Premium, moet u ervoor zorgen dat er tien licenties beschikbaar zijn. 
 
 4. **Meer licenties nodig voor het nieuwe abonnement?** Ga naar de pagina **Abonnementen** en [Licenties kopen voor uw Microsoft 365 voor bedrijvenabonnement](../licenses/buy-licenses.md).
   
@@ -139,8 +135,6 @@ De licenties voor het huidige abonnement worden later verwijderd. U betaalt vana
     > [!TIP]
     > Als u wilt beperken welke services beschikbaar zijn voor de gebruiker, zet u de wisselknop op **Uit** voor de services die u voor die gebruiker wilt verwijderen. Als u bijvoorbeeld wilt dat de gebruiker toegang heeft tot alle beschikbare services behalve Skype voor Bedrijven Online, zet u de wisselknop voor de service Skype voor Bedrijven Online op **Uit**.
   
-    ![Setting license assignments for a user.](../../media/5e53a979-6b08-4981-bb0b-fa657146334b.png)
-  
 5. Schakel de schakelpositie in naar de **uit-positie** voor licenties die deze gebruiker niet meer nodig heeft.
 
 6. Selecteer Sluiten **Assign** \> **Close** \> **toewijzen**onder aan het deelvenster **Productlicenties** .
@@ -149,19 +143,19 @@ De licenties voor het huidige abonnement worden later verwijderd. U betaalt vana
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a> of selecteer **Gebruikers** \> **actieve gebruikers**.
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">actieve gebruikers.</a>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">actieve gebruikers.</a>
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
 
 ::: moniker-end
 
@@ -177,9 +171,7 @@ De licenties voor het huidige abonnement worden later verwijderd. U betaalt vana
     > - Als u wilt beperken welke services beschikbaar zijn voor de gebruiker, zet u de wisselknop op **Uit** voor de services die u voor die gebruiker wilt verwijderen. Als u bijvoorbeeld wilt dat de gebruiker toegang heeft tot alle beschikbare services behalve Skype voor Bedrijven Online, zet u de wisselknop voor de service Skype voor Bedrijven Online op **Uit**.
     > - Alle eerdere licentietoewijzingen voor de geselecteerde gebruikers worden ingetrokken.
   
-    ![Setting license assignments for a user.](../../media/5e53a979-6b08-4981-bb0b-fa657146334b.png)
-  
-6. Selecteer onder aan het deelvenster **Bestaande producten vervangen** **Vervangen** \> **Sluiten**.
+6. Selecteer onderaan het deelvenster **Bestaande producten vervangen** de opties **Vervangen** \> **Sluiten**.
 
 ## <a name="step-5-cancel-subscriptions-or-remove-licenses-that-you-no-longer-need-optional"></a>Stap 5: Abonnementen opzeggen of licenties verwijderen die u niet meer nodig hebt (optioneel)
 

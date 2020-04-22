@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Microsoft 365 Business Premium-bronnen
-summary: Microsoft 365 Business Premium is een abonnementsservice met productiviteitstools voor Office 365 en geavanceerde mogelijkheden om uw bedrijf te beschermen tegen cyberdreigingen, uw gegevens te beschermen en de apparaten te beheren.
+summary: Microsoft 365 Business Premium (voorheen Microsoft 365 Business) is een uitgebreide abonnementsservice voor bedrijven met minder dan 300 werknemers. Het integreert uw favoriete Office-productiviteitsapps en -services en samenwerkingstools zoals Microsoft Teams met geavanceerde beveiligings- en apparaatbeheermogelijkheden.
 brand: m365
 metadata:
   title: Microsoft 365 Business Premium-bronnen
@@ -11,12 +11,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 29504ca22db443c504a5f3265ca2e8fcba0f737e
-  ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+  ms.openlocfilehash: 59478fceee0017321c59607f589fe464ac95077d
+  ms.sourcegitcommit: 7c0470fd7a98911d142bac060c228947c46a6be7
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 04/21/2020
-  ms.locfileid: "43627108"
+  ms.lasthandoff: 04/22/2020
+  ms.locfileid: "43665618"
 productDirectory:
   title: Veilig werken op afstand met Microsoft 365 Business Premium
   items:

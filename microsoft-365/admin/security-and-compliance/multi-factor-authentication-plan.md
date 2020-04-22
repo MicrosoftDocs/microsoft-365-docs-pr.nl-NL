@@ -20,18 +20,18 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over multi-factor authenticatie in Microsoft 365 en de stappen die u moet volgen om deze in te stellen.
-ms.openlocfilehash: c68fdb5c1a144c6bfe1161d95e1d6808461e2456
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 035a79c9db44990dbce09de540e3e483b3cea8df
+ms.sourcegitcommit: 7c0470fd7a98911d142bac060c228947c46a6be7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627702"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43665666"
 ---
 # <a name="plan-for-multi-factor-authentication-for-microsoft-365-deployments"></a>Plannen voor meervoudige verificatie voor Microsoft 365-implementaties
 
 Meervoudige verificatie (Multi-Factor Authentication of MFA) is een verificatiemethode waarvoor meer dan één verificatiemethode is vereist en waarmee een tweede beveiligingslaag wordt toegevoegd voor gebruikersaanmeldingen en -transacties. Het werkt door een toevoegingsverificatiestap te vereisen met informatie die verder gaat dan het wachtwoord van het gebruikersaccount, zoals:
   
-- Een willekeurig gegenereerde code
+- Een willekeurig gegenereerde verificatiecode die naar uw smartphone wordt verzonden
     
 - Een telefonische oproep
     
@@ -39,9 +39,9 @@ Meervoudige verificatie (Multi-Factor Authentication of MFA) is een verificatiem
     
 - Een biometrisch apparaat 
     
-## <a name="multi-factor-authentication-in-microsoft-365"></a>Meervoudige verificatie in Microsoft 365
+## <a name="mfa-in-microsoft-365"></a>MFA in Microsoft 365
 
-Microsoft 365 maakt gebruik van multi-factor authenticatie om de extra beveiliging te bieden en wordt beheerd vanuit het Microsoft 365-beheercentrum. Microsoft 365 biedt de volgende subset van Azure-multifactorauthenticatiemogelijkheden als onderdeel van het abonnement: 
+Microsoft 365 maakt gebruik van MFA om de extra beveiliging te bieden en wordt beheerd vanuit het Microsoft 365-beheercentrum. Microsoft 365 biedt de volgende subset van [Azure Multi-Factor Authentication-mogelijkheden](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks) als onderdeel van het abonnement: 
   
 - De mogelijkheid om MFA in te schakelen en af te dwingen voor eindgebruikers
     
@@ -49,23 +49,22 @@ Microsoft 365 maakt gebruik van multi-factor authenticatie om de extra beveiligi
     
 - Het gebruik van een telefonische oproep als tweede verificatiefactor
     
-- Het gebruik van een sms-bericht als tweede verificatiefactor
+- Het gebruik van een sms-bericht (Short Message Service) als tweede verificatiefactor
     
 - Toepassingswachtwoorden voor clients van niet-browser (bijvoorbeeld de communicatiesoftware van Microsoft Lync 2013)
     
 - Standaardbegroetingen van Microsoft tijdens telefonische verificatieoproepen
     
-Zie [Comparison of Azure Multi-Factor Authentication version](https://go.microsoft.com/fwlink/?LinkId=506927) (Vergelijking tussen de Azure Multi-Factor Authentication-versies) voor de volledige lijst met toegevoegde functies. Als u de service Azure Multi-Factor Authentication aanschaft, hebt u de beschikking over de volledige functionaliteit. 
+Zie [Azure Multi-Factor Authentication](https://go.microsoft.com/fwlink/?LinkId=506927)voor de volledige lijst met toegevoegde functies. U altijd de volledige functionaliteit krijgen door [Azure Multi-Factor Authentication-licenties aan](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-licensing)te schaffen. 
   
-U krijgt een andere subset van mogelijkheden, afhankelijk van of u een cloud-only implementatie voor Microsoft 365 of een hybride hebt ingesteld met single sign-on en Active Directory Federation Services (AD FS). 
+U krijgt een andere subset van mogelijkheden, afhankelijk van of u alleen cloud-identiteit gebruikt waar de gebruikersaccounts in Microsoft 365 bestaan, of hybride ingesteld met één aanmelding en Active Directory Federation Services (AD FS). 
   
 |**Waar beheert u Microsoft 365?**|**Opties voor MFA als tweede factor**|
 |:-----|:-----|
-|Alleen cloud  <br/> |Azure Active Directory MFA (sms of telefonische oproep)  <br/> |
-|Hybride installatie, on-premises beheer  <br/> | Als u gebruikersidentiteiten on-premises beheerd, hebt u de volgende keuzes:  <br/>  Fysieke of virtuele smartcard (AD FS)  <br/> [Azure MFA](https://go.microsoft.com/fwlink/p/?LinkId=526677) (module voor AD FS)  <br/>  Azure AD MFA  <br/> |
+|Alleen cloud  <br/> | Azure Multi-Factor Authentication (tekst of telefoongesprek)  <br/> |
+|Hybride installatie, on-premises beheer  <br/> | Als u gebruikersidentiteiten on-premises beheerd, hebt u de volgende keuzes:  <br/> - Fysieke of virtuele smartcard (AD FS)  <br/> - Azure Multi-Factor Authentication (module voor AD FS)  <br/>  - Azure Multi-Factor Authenticatie  <br/> |
    
-  
-In de volgende afbeelding ziet u hoe dankzij bijgewerkte Office 2013-apparaat-apps (voor Windows) gebruikers zich met MFA kunnen aanmelden. De Office 2013-apparaat-apps ondersteunen meervoudige verificatie met behulp van [Active Directory Authentication Library (ADAL)](https://go.microsoft.com/fwlink/p/?LinkId=526684). Azure AD host een webpagina waar gebruikers zich kunnen aanmelden. De id-provider kan Azure AD zijn of een federatieve identiteitsprovider, bijvoorbeeld AD FS. De verificatie voor federatieve gebruikers gaat volgens deze stappen:
+De Apparaten-apps van Office 2013 ondersteunen MFA door gebruik te maken van de [Active Directory Authentication Library (ADAL).](https://go.microsoft.com/fwlink/p/?LinkId=526684) Azure Active Directory (Azure AD) host een webpagina waar gebruikers zich kunnen aanmelden. De id-provider kan Azure AD zijn of een federatieve identiteitsprovider, bijvoorbeeld AD FS. De verificatie voor federatieve gebruikers gaat volgens deze stappen:
   
 1. Azure AD leidt de gebruiker door naar de aanmeldingswebpagina die wordt gehost door de identiteitsprovider van record voor de organisatie. De id-provider wordt vastgesteld door het domein dat is opgegeven in de aanmeldingsnaam van de gebruiker.
     
@@ -122,18 +121,20 @@ Voor MSI-installaties moet de hieronder vermelde bestandsversie of een latere ve
 
 Voer de volgende stappen uit om MFA voor uw abonnement in te schakelen:
   
-1. Schakel indien nodig [Moderne verificatie voor Office 2013 in op Windows-apparaten.](enable-modern-authentication.md)
+1. Indien nodig: 
+
+  - [Moderne verificatie voor Office 2013 inschakelen op Windows-apparaten](enable-modern-authentication.md).
     
-  - Azure MFA inschakelen voor adreslijstservices van derden.
+  - Azure Multi-Factor Authentication instellen met directoryservices van derden.
     
     Bekijk [geavanceerde scenario's met Azure Multi-Factor Authentication en VPN-oplossingen van derden](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-nps-vpn) voor informatie over specifieke identiteitsproviders die zijn geaccepteerd voor dit programma. 
     
-2. [Meervoudige verificatie instellen voor Microsoft 365](set-up-multi-factor-authentication.md)
+2. [MFA instellen voor Microsoft 365](set-up-multi-factor-authentication.md).
     
-3. Vertel individuele gebruikers hoe ze zich kunnen aanmelden via MFA: [Meld u aan bij Microsoft 365 met verificatie in twee stappen.](https://support.office.com/article/2b856342-170a-438e-9a4f-3c092394d3cb.aspx)
+3. Vertel individuele gebruikers hoe ze zich moeten aanmelden via MFA. Zie [Aanmelden bij Microsoft 365 met MFA](https://support.office.com/en-us/article/sign-in-to-microsoft-365-with-2-step-verification-2b856342-170a-438e-9a4f-3c092394d3cb).
 
 > [!IMPORTANT]
-> Als uw gebruikers gebruik kunnen maken van Azure AD MFA en als ze apparaten hebben met Office 2013 die niet zijn ingeschakeld voor moderne verificatie, dienen ze app-wachtwoorden op die apparaten te gebruiken. Meer informatie over app-wachtwoorden en wanneer, waar en hoe ze dienen te worden gebruikt, vindt u hier: [App-wachtwoorden met Windows Azure Multi-Factor Authentication](https://go.microsoft.com/fwlink/p/?LinkId=528178).
+> Als u uw gebruikers hebt ingeschakeld voor Azure Multi-Factor Authentication en alle apparaten met Office 2013 die niet zijn ingeschakeld voor moderne verificatie, moeten ze AppPasswords op die apparaten gebruiken. Meer informatie over AppPasswords en wanneer/waar/hoe ze gebruikt moeten worden vindt u hier: [App Passwords with Azure Multi-Factor Authentication](https://go.microsoft.com/fwlink/p/?LinkId=528178).
   
 ## <a name="faq"></a>Veelgestelde vragen
 
@@ -145,7 +146,7 @@ Voer de volgende stappen uit om MFA voor uw abonnement in te schakelen:
   
  **Problemen met Azure Multi-Factor Authentication oplossen:**
   
-Zie [Troubleshoot Azure MFA](https://support.microsoft.com/help/2937344/troubleshooting-azure-multi-factor-authentication-issues) (Problemen met Azure MFA oplossen).
+Zie [Problemen met Azure Multi-Factor Authentication oplossen](https://support.microsoft.com/help/2937344/troubleshooting-azure-multi-factor-authentication-issues).
   
 [Problemen met aanmelden voor moderne verificatie met Office 2013 oplossen bij gebruik van AD FS](https://support.microsoft.com/kb/3052203/)
   
@@ -157,7 +158,7 @@ Zie [Troubleshoot Azure MFA](https://support.microsoft.com/help/2937344/troubles
   
  **Filters voor clienttoegang:**
   
-[Office 2013- en Microsoft 365 Apps for enterprise modern-verificatie- en filterbeleid voor clienttoegang: dingen die u moet weten voordat u ingaat](https://social.technet.microsoft.com/wiki/contents/articles/30214.office-2013-and-office-365-proplus-modern-authentication-things-to-know-before-onboarding.aspx)
+[Office 2013- en Microsoft 365 Apps for enterprise-beleid voor moderne verificatie en filterbeleid voor clienttoegang: dingen die u moet weten voordat u ingaat](https://social.technet.microsoft.com/wiki/contents/articles/30214.office-2013-and-office-365-proplus-modern-authentication-things-to-know-before-onboarding.aspx)
   
  **Welke apps ondersteunen MFA?**
   

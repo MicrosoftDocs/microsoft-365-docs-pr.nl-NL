@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: Wijzig abonnementen handmatig door een nieuw abonnement aan te schaffen en ervoor te zorgen dat beide abonnementen worden vermeld en actief.
-ms.openlocfilehash: 89786b30403a60bd0551351602d6fccc07f3d1a1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: bcd9a129ef1597469ef9bbf93841b5db4f919f1e
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636581"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707629"
 ---
 # <a name="change-plans-manually"></a>Plannen handmatig wijzigen
 
@@ -43,7 +43,7 @@ De beste manier om al uw gebruikers van het ene abonnement naar het andere te wi
 Lees [stap 2: Koop een nieuw abonnement](#step-2-buy-a-new-subscription) in dit onderwerp om verder te gaan met een handmatige wijziging.
 
 > [!IMPORTANT]
-> Als u overstapt op een abonnement met minder gegevensgerelateerde services dan uw huidige abonnement (downgraden), moet u handmatig een back-up maken van alle gegevens die u wilt bewaren. Zie [Gegevens back-ups maken voordat u O365 overschakelt voor bedrijfsabonnementen](back-up-data-before-switching-plans.md).
+> Als u overstapt op een abonnement met minder gegevensgerelateerde services dan uw huidige abonnement (downgraden), moet u handmatig een back-up maken van alle gegevens die u wilt bewaren. Zie [Gegevens weergeven voordat](back-up-data-before-switching-plans.md)u plannen wijzigt voor meer informatie.
 
 ## <a name="step-2-buy-a-new-subscription"></a>Stap 2: Een nieuw abonnement kopen
 
@@ -62,7 +62,7 @@ Koop ook een licentie voor elke gebruiker die u wilt verplaatsen.
 
 2. **Controleren of beide abonnementen worden vermeld en actief** Het abonnement waarvan u gebruikers verplaatst en het abonnement waarnaar u gebruikers verplaatst, moeten samen worden weergegeven. Als u het nieuwe abonnement niet ziet, wacht u een tijdje en kijkt u dan nog een keer. Controleer of beide abonnementen actief zijn. [Het nieuwe abonnement wordt niet vermeld of is niet actief](#the-new-subscription-isnt-listed-or-isnt-active).
 
-3. **Controleer of u voldoende licenties hebt voor elke gebruiker** Elke gebruiker heeft een licentie nodig die overeenkomt met zijn abonnement. Als u bijvoorbeeld tien gebruikers wilt overbrengen naar Office 365 Enterprise E5, moeten er tien licenties beschikbaar zijn.
+3. **Controleer of u voldoende licenties hebt voor elke gebruiker** Elke gebruiker heeft een licentie nodig die overeenkomt met zijn abonnement. Dus als u tien gebruikers wilt verplaatsen naar Microsoft 365 Business Premium, moet u ervoor zorgen dat er tien licenties beschikbaar zijn.
 
 4. **Meer licenties nodig voor het nieuwe abonnement?**
    Ga naar de pagina **Producten & services** en koop meer [licenties.](../licenses/buy-licenses.md)

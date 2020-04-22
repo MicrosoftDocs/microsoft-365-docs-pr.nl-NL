@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Meer informatie over het aanmelden voor een proefabonnement microsoft 365 voor bedrijven.
-ms.openlocfilehash: 61ba4baefc3b7af7609101f5471648dfb1fcbefa
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9d1c9068b1d6596aabc09d44d854f89e76dd7ddb
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636438"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708105"
 ---
 # <a name="sign-up-for-a-trial-subscription"></a>Aanmelden voor een proefabonnement
 
@@ -34,12 +34,12 @@ U zich gratis aanmelden voor een proefabonnement van Microsoft 365 voor Bedrijve
 > [!NOTE]
 > U hebt een creditcard nodig wanneer u zich aanmeldt voor een proefversie als uw bedrijf zich momenteel in de Verenigde Staten, Japan, Canada en Australië bevindt. Aan het einde van je gratis proefperiode wordt je proefabonnement automatisch omgezet naar een betaald abonnement. Uw creditcard wordt pas aan het einde van de proefperiode in rekening gebracht.
 
-## <a name="sign-up-for-an-microsoft-365-business-standard-trial-subscription"></a>Aanmelden voor een proefabonnement van Microsoft 365 Business Standard
+## <a name="sign-up-for-a-microsoft-365-business-standard-trial-subscription"></a>Aanmelden voor een proefabonnement van Microsoft 365 Business Standard
 
-1. Als u zich wilt aanmelden voor een proefabonnement van Microsoft 365 voor bedrijven, gaat u naar de [site van Office-producten](https://www.aka.ms/office365signup). 
-    
+1. Als u zich wilt aanmelden voor een proefabonnement van Microsoft 365 voor bedrijven, gaat u naar de [site van Office-producten](https://www.aka.ms/office365signup).
+
 2. Selecteer het abonnement waarvoor u zich wilt aanmelden, zoals **Microsoft 365 Business Standard,** scrol naar beneden en selecteer **Gratis proberen voor 1 maand**.
-    
+
 3. Volg op de volgende pagina de stappen om uw account in te stellen.
 
 4. Het invullen van het aanmeldingsproces kan enkele minuten in beslag nemen. Zodra het is voltooid, krijgt u meer informatie over hoe u uw abonnement gebruiken.
@@ -48,7 +48,7 @@ Zie [Microsoft 365 instellen voor bedrijven voor](../admin/setup/setup.md)meer i
 
 ## <a name="cancel-my-trial-subscription"></a>Mijn proefabonnement opzeggen
 
-Als u besluit uw proefperiode te annuleren voordat de gratis proefperiode afloopt, gaat u naar het Microsoft-beheercentrum en schakelt u de optie automatisch verlengen uit in het betalings- en factureringsgebied. De proefperiode vervalt automatisch wanneer uw maand is afgelopen en uw creditcard niet in rekening wordt gebracht.
+Als u besluit uw proefperiode te annuleren voordat de gratis proefperiode afloopt, gaat u naar het Microsoft 365-beheercentrum en [schakelt u Terugkerende facturering uit.](subscriptions/renew-your-subscription.md#turn-recurring-billing-off-or-on) De proefperiode vervalt automatisch wanneer uw maand is afgelopen en uw creditcard niet in rekening wordt gebracht.
 
 ## <a name="see-also"></a>Zie ook
 

@@ -19,12 +19,12 @@ ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
 description: Zero-hour auto purge (ZAP) is een functie voor e-mailbeveiliging in Microsoft 365 die spam-, malware- of phishingberichten detecteert die al bij Exchange Online zijn bezorgd. Hoe ZAP dit doet, hangt af van het type schadelijke inhoud dat wordt gedetecteerd.
-ms.openlocfilehash: a819269d8596f12e76cbd17b5d1302cd56837f14
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f1b36f1152882f446c8f611ceafb44a085cc0a5d
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630807"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708449"
 ---
 # <a name="zero-hour-auto-purge-zap---protection-against-spam-and-malware-in-microsoft-365"></a>Zero-hour auto purge (ZAP) - bescherming tegen spam en malware in Microsoft 365
 
@@ -36,7 +36,7 @@ ZAP is beschikbaar met de standaard Exchange Online Protection (EOP) die is inbe
 
 ## <a name="how-zap-works"></a>Hoe ZAP werkt
 
-Microsoft 365 werkt dagelijks spam- en malwarehandtekeningen in realtime bij. Gebruikers kunnen echter nog steeds schadelijke berichten ontvangen om verschillende redenen, waaronder als inhoud wordt bewapend nadat ze aan gebruikers zijn geleverd. ZAP lost dit probleem op door voortdurend updates van de Microsfot 365 spam- en malwarehandtekeningen te controleren. ZAP kan berichten vinden en verwijderen die zich al in het postvak van een gebruiker bevinden.
+Microsoft 365 werkt dagelijks spam- en malwarehandtekeningen in realtime bij. Gebruikers kunnen echter nog steeds schadelijke berichten ontvangen om verschillende redenen, waaronder als inhoud wordt bewapend nadat ze aan gebruikers zijn geleverd. ZAP lost dit probleem op door voortdurend updates van de microsoft 365-spam- en malwarehandtekeningen te controleren. ZAP kan berichten vinden en verwijderen die zich al in het postvak van een gebruiker bevinden.
 
 De ZAP-actie is naadloos voor de gebruiker; ze worden niet op de hoogte gesteld als een bericht wordt gedetecteerd en verplaatst.
 
