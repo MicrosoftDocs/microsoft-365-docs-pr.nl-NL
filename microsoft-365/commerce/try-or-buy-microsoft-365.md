@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: Meer informatie over het krijgen van een gratis proefversie of het kopen van een abonnement voor Microsoft 365.
-ms.openlocfilehash: f5c1fca9bfb7b0f2236981e335517c1e03b2007c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 255cd1779f3fb29a619110160faefdd3d5369eca
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631903"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707533"
 ---
 # <a name="try-or-buy-a-microsoft-365-subscription"></a>Een Microsoft 365-abonnement uitproberen of kopen
 
@@ -32,9 +32,9 @@ Microsoft 365 is een complete oplossing die Office 365 en Windows 10 combineert 
   
 - Microsoft 365 Business Premium
 
-- Microsoft 365 Enterprise E3
+- Office 365 Enterprise E3
 
-- Microsoft 365 Enterprise E5
+- Office 365 Enterprise E5
 
 Wanneer u een abonnement toevoegt via het beheercentrum, wordt het nieuwe abonnement gekoppeld aan dezelfde organisatie (domeinnaamruimte) als uw bestaande abonnement. Dit maakt het eenvoudiger om gebruikers in uw organisatie tussen abonnementen te verplaatsen of om hen een licentie toe te wijzen voor het aanvullende abonnement dat ze nodig hebben.
   

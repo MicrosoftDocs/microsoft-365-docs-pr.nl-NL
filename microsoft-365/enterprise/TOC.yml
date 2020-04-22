@@ -188,6 +188,8 @@
           href: contoso-sharepoint-online-site-for-highly-confidential-assets.md
     - name: Wijzigingen aan implementatie-inhoud voor Microsoft 365 voor ondernemingen
       href: microsoft-365-deploment-guide-changes.md
+    - name: 'Status van Microsoft 365-service '
+      href: microsoft-365-service-health.md
 - name: Implementatiecentrum voor desktops
   href: desktop-deployment-center-home.md
   items:

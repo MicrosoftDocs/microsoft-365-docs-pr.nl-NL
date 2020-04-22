@@ -231,7 +231,7 @@
                       href: ./office-365-security/anti-spam-protection-faq.md
                     - name: Beleid tegen ongewenste e-mail configureren
                       href: ./office-365-security/configure-your-spam-filter-policies.md
-                    - name: Het verbindingsfilterbeleid configureren
+                    - name: Filteren van verbinding configureren
                       href: ./office-365-security/configure-the-connection-filter-policy.md
                     - name: Lijsten met geblokkeerde afzenders maken
                       href: ./office-365-security/Create-block-sender-lists-in-office-365.md

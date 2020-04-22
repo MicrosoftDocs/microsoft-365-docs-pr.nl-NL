@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/23/2019
+ms.date: 04/20/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Inzicht krijgen in netwerkhairpins en deze verwijderen voor betere prestaties.
-ms.openlocfilehash: f9499fdb8e8c3f7b77e3349d6cc99f6dbf465870
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1d5e10bdd8b79f5c7ccd646ac08f83bb2c48b6ee
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42805273"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583423"
 ---
 # <a name="step-3-avoid-network-hairpins"></a>Stap 3: Netwerkhairpins vermijden
 
@@ -47,6 +47,8 @@ Als u in de cloud-based netwerk- of beveiligingsservices gebruikt voor uw Micros
 Configureer zo mogelijk de edge-routers om rechtstreeks vertrouwd Microsoft 365-verkeer te verzenden, in plaats van via een cloud van een derde partij of het netwerk van een cloud-based beveiligingsleverancier voor de verwerking van uw internetverkeer. 
 
 ![Hier volgt een voorbeeld van het omzeilen van een netwerkhairpin](../media/networking-avoid-network-hairpins/bypassing-network-hairpin.png)
+
+Gebruik het [Office 365 Network Onboarding-hulpprogramma](https://connectivity.office.com/) om te testen hoe dicht u bij een invoerpunt voor het globale netwerk van Microsoft bent en hoe dicht u bij een punt bent waar uw bedrijfsnetwerk de verbinding maakt met uw ISP.
 
 Als tussentijds controlepunt kunt u de [afsluitcriteria](networking-exit-criteria.md#crit-networking-step3) voor deze stap bekijken.
 

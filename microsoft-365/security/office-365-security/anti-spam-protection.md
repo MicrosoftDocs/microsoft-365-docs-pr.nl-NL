@@ -17,12 +17,12 @@ ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over de antispam-instellingen en -filters waarmee u spam voorkomen in Exchange Online en Microsoft 365. Krijg je te veel spam in Microsoft 365? U uw spamfilters en antispaminstellingen aanpassen.
-ms.openlocfilehash: d7c7a0166fbcbf3334325aeef153f2d82f27aac3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3bb1c81af0061cc20b4c7bb2a963c0d06b7914e3
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636044"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708569"
 ---
 # <a name="anti-spam-protection-in-microsoft-365"></a>Bescherming tegen spam in Microsoft 365
 
@@ -83,7 +83,7 @@ Hier volgen enkele aanbevolen procedures die van toepassing zijn op beide scenar
 
 - **Uw organisatie-instellingen verifiëren:** Kijk uit voor instellingen waarmee berichten spamfilters kunnen overslaan (bijvoorbeeld als u uw eigen domein toevoegt aan de lijst met toegestane domeinen in antispambeleid). Zie [Aanbevolen instellingen voor EOP- en Microsoft 365 ATP-beveiliging en](recommended-settings-for-eop-and-office365-atp.md) Lijsten met veilige [afzenders voor](create-safe-sender-lists-in-office-365.md)onze aanbevolen instellingen.
 
-- **Controleer of de regel voor ongewenste e-mail is ingeschakeld in het postvak van de gebruiker:** deze is standaard ingeschakeld, maar als deze geen berichten zijn die als ongewenste e-mail zijn gemarkeerd, kunnen ze niet naar de map Ongewenste e-mail worden verplaatst. Zie [Instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md)voor meer informatie.
+- **Controleer of de regel voor ongewenste e-mail is ingeschakeld in het postvak van de gebruiker:** deze is standaard ingeschakeld, maar als deze is uitgeschakeld, kunnen berichten die als ongewenste e-mail zijn gemarkeerd, niet naar de map Ongewenste e-mail worden verplaatst. Zie [Instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md)voor meer informatie.
 
 - **De lijsten met beschikbare geblokkeerde afzenders gebruiken:** zie [Lijsten met geblokkeerde afzenderen maken](create-block-sender-lists-in-office-365.md)voor informatie .
 

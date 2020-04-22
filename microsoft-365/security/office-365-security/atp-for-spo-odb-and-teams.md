@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Breid Geavanceerde bedreigingsbeveiliging van Office 365 uit naar bestanden in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams om een veiligere samenwerking voor uw organisatie mogelijk te maken.
-ms.openlocfilehash: 4c64a4934a472fa5c6ac0f1f718d63300560f6c8
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 71e404a402db8c0c0ad01bf1daa415788dfa717b
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636020"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708381"
 ---
 # <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>ATP voor SharePoint, OneDrive en Microsoft Teams
 
@@ -63,7 +63,7 @@ Zie [Office 365 ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams](tu
 
  Vanaf eind mei 2018 worden de &amp; [quarantainemogelijkheden](quarantine-email-messages.md) in het Security Compliance Center uitgebreid naar ATP voor SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
 
-Wanneer een bestand in SharePoint Online, OneDrive voor Bedrijven of Microsoft Teams als kwaadaardig wordt aangemerkt, wordt dat bestand naast het blokkeren van het bestand dat wordt geopend of gedeeld, naast het blokkeren van het bestand dat wordt geopend of gedeeld, opgenomen in een lijst met in quarantaine geplaatste items. (Ga in &amp; het Security Compliance Center naar **Quarantine controleren van** \> het risicobeheer **en** \> **Quarantine** filter voor **inhoud**.)
+Wanneer een bestand in SharePoint Online, OneDrive voor Bedrijven of Microsoft Teams als kwaadaardig wordt aangemerkt, wordt dat bestand naast het blokkeren van het bestand dat wordt geopend of gedeeld, naast het blokkeren van het bestand dat wordt geopend of gedeeld, opgenomen in een lijst met in quarantaine geplaatste items. (Ga in &amp; het Security Compliance Center naar **Quarantine controleren** \> **en** \> **Quarantine** filteren op **bestanden**.)
 
 Als u deel uitmaakt van het Microsoft 365 for Business Security-team van uw organisatie en de benodigde machtigingen hebt [toegewezen in het Security &amp; Compliance Center,](permissions-in-the-security-and-compliance-center.md)u bestanden die door ATP als kwaadaardig worden gedetecteerd, downloaden, vrijgeven, rapporteren en verwijderen uit quarantaine.
 
@@ -75,7 +75,7 @@ Als u deel uitmaakt van het Microsoft 365 for Business Security-team van uw orga
 
 ## <a name="next-steps"></a>Volgende stappen
 
-1. [Turn on Office 365 ATP for SharePoint, OneDrive, and Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md)
+ - [Turn on Office 365 ATP for SharePoint, OneDrive, and Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md)
 
-2. [Informatie weergeven over schadelijke bestanden die zijn gedetecteerd in SharePoint, OneDrive of Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
+ - [Informatie weergeven over schadelijke bestanden die zijn gedetecteerd in SharePoint, OneDrive of Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
 

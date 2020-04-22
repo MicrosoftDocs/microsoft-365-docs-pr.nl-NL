@@ -16,12 +16,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over Explorer- en realtime &amp; detecties in het Security Compliance Center.
-ms.openlocfilehash: a7958d516177534cafc9d40fe335abbff06b4db6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2d75a5e05bb3fce85d52856afabc6aba13594f26
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631167"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708557"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Threat Explorer en real-time detecties
 
@@ -240,4 +240,4 @@ Zie de volgende bronnen voor meer informatie over rollen en machtigingen:
 - Een **weergave Alle e-mail** is beschikbaar in **Threat Explorer** (en staat niet in het realtime **detectierapport).**
 - Meer filtermogelijkheden en beschikbare acties zijn opgenomen in **Threat Explorer.**
 
-Zie [Beschrijving van de Office 365 ATP-service: beschikbaarheid van functies in ATP-abonnementen (Advanced Threat Protection).](https://docs.microsoft.com/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)
+Zie [Beschrijving van de Office 365 ATP-service: beschikbaarheid van functies in ATP-abonnementen (Advanced Threat Protection).](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)
