@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
 description: Meer informatie over wat u moet doen om uw Microsoft 365 voor bedrijven in te stellen.
-ms.openlocfilehash: 97463e624968c5b3edf563e916cbf4929ac581b6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d02e1aaf03449bd976b8db549274002b3ebb6ed6
+ms.sourcegitcommit: b458277f0a9937555bc6c5b3fb2a41613f7cc9a9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627568"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43794031"
 ---
 # <a name="plan-your-setup-of-microsoft-365-for-business"></a>Uw installatie van Microsoft 365 voor bedrijven plannen
 
@@ -93,7 +93,7 @@ Als u van plan bent om van een bestaande e-mailservice naar Microsoft 365 te gaa
   
 Als u Microsoft 365 gaat gebruiken voor uw e-mail:
   
-- Als u uw zakelijke e-mailadres (zoals *rob@contoso.com)* wilt verplaatsen van een andere e-mailservice naar Microsoft 365, moet u uw e-mail doorsturen om naar uw nieuwe Microsoft 365-postvak te worden bezorgd. U doet dit door **de gegevens van uw gebruikers migreren** te selecteren op de pagina **Setup,** waar we u stap voor stap begeleiden bij de updates die u bij uw domeinhost moet uitvoeren.
+- Als u uw zakelijke e-mailadres (zoals *\@rob contoso.com)* wilt verplaatsen van een andere e-mailservice naar Microsoft 365, moet u uw e-mail doorsturen om naar uw nieuwe Microsoft 365-postvak te worden bezorgd. U doet dit door **de gegevens van uw gebruikers migreren** te selecteren op de pagina **Setup,** waar we u stap voor stap begeleiden bij de updates die u bij uw domeinhost moet uitvoeren.
 
 - Wanneer u de domeinhost hebt bijgewerkt, duurt het doorgaans een tot twee uur voordat de wijzigingen van kracht zijn. Maar wees ervan bewust dat het soms kan duren tot 72 uur voor de wijzigingen bij te werken op het internet.
 
