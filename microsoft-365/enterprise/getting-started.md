@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Inleiding tot het implementatieproces van de desktop.
-ms.openlocfilehash: 62d18f23df55783c8b1f0c01f9f803a1d4bca0f0
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f50a719d87a961c0446757d21d2f8be5d6eedbc0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42808419"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634216"
 ---
 # <a name="getting-started---desktop-deployment"></a>Aan de slag - Desktopimplementatie
 
@@ -30,36 +30,36 @@ ms.locfileid: "42808419"
 <thead>
 <td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-1.png" alt="Getting Started" height="130" width="130" /></td>
 <td><p><strong>Aan de slag: Richtlijnen voor personen, processen en technologie</strong></p>
-<p>Ontdek de voordelen van Windows 10 en Office 365 ProPlus, belangrijke wijzigingen en overwegingen versus vorige implementaties en aanbevolen procedures om een soepele overgang naar Windows 10 en Office 365 ProPlus te garanderen.</p></td>
+<p>Ontdek de voordelen van Windows 10 en Microsoft 365-apps voor ondernemingen, belangrijke wijzigingen en overwegingen versus vorige implementaties en aanbevolen procedures om een soepele overgang naar Windows 10 en Microsoft 365-apps voor ondernemingen te garanderen.</p></td>
 <td><a href="https://aka.ms/ddev0" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-13.png" alt="Getting Started" height="120" width="213" /></a></td>
 </thead>
 </table>
 
 >[!NOTE]
->In deze reeks zullen we de beste manieren uitleggen waarop bestaande hulpprogramma's kunnen worden gebruikt en krijgt u een introductie van de nieuwe technologieën, services en methoden die door de Cloud zijn ingeschakeld.  Ga naar het [Desktop Deployment Center](https://aka.ms/HowToShift) om het volledige desktop-implementatieproces te bekijken.
+>In deze reeks zullen we de beste manieren uitleggen waarop bestaande hulpprogramma's kunnen worden gebruikt en krijgt u een introductie van de nieuwe technologieën, services en methoden die door de Cloud zijn ingeschakeld.  Ga naar het [Implementatiecentrum voor desktops](https://aka.ms/HowToShift) om het volledige desktop-implementatieproces te zien.
 >
 
-Welkom bij het Implementatiecentrum voor desktops, waar u meer informatie vindt over het plannen en maken van de overstap naar Windows 10 en Office 365 ProPlus. Op deze manier kunt u gebruikmaken van een veilige werkruimte, uitgerust met de nieuwste functies voor productiviteit, teamwork en samenwerking.
+Welkom bij het Implementatiecentrum voor desktops, waar u meer informatie vindt over het plannen en maken van de overstap naar Windows 10 en Microsoft 365-apps voor ondernemingen. Op deze manier kunt u gebruikmaken van een veilige werkruimte, uitgerust met de nieuwste functies voor productiviteit, teamwork en samenwerking.
 
 Als u al een tijdje geen nieuwe desktopomgeving hebt geïmplementeerd, is het goede nieuws dat het implementatieproces op veel punten is verbeterd. Uitdagingen uit het verleden, zoals de compatibiliteit van toepassingen, vormen tegenwoordig veel minder een probleem. Met de nieuwe hulpmiddelen en inzicht in de Cloud kunt u sneller en efficiënter dan ooit tevoren vol vertrouwen vooruitgang boeken.
 
-In deze inleiding wordt uitgelegd wat er is veranderd en krijgt u een rondleiding door het implementatieproces voor desktops. U wordt door de aanbevolen stappen voor uw overstap naar Windows 10 en Office 365 ProPlus geleid en ontvangt meer informatie over het gebruik van uw bestaande hulpprogramma's en processen, terwijl u tegelijkertijd moderne beheertechnologieën en -benaderingen oppikt.
+In deze inleiding wordt uitgelegd wat er is veranderd en krijgt u een rondleiding door het implementatieproces voor desktops. U wordt door de aanbevolen stappen voor uw overstap naar Windows 10 en Microsoft 365-apps voor ondernemingen geleid en ontvangt meer informatie over het gebruik van uw bestaande hulpprogramma's en processen, terwijl u tegelijkertijd moderne beheertechnologieën en -benaderingen oppikt.
 
 ## <a name="why-upgrade"></a>Waarom upgraden?
 
 De combinatie van Windows 10 en de Microsoft Intelligence Cloud geeft u de mogelijkheid om een sterke en veilige werkruimte voor uw gebruikers te creëren, terwijl u de ondersteuningsinfrastructuur vereenvoudigt.
 
-Een van de belangrijkste eisen van moderne beheermethoden is dat apparaten altijd up-to-date moeten zijn. Dankzij deze reeks leert u alles over de nieuwe functies die nu beschikbaar zijn om u te helpen bij het overstappen naar Windows 10 en Office 365 ProPlus en blijft u op de hoogte van halfjaarlijkse releases van beide.
+Een van de belangrijkste eisen van moderne beheermethoden is dat apparaten altijd up-to-date moeten zijn. Dankzij deze reeks leert u alles over de nieuwe functies die nu beschikbaar zijn om u te helpen bij het overstappen naar Windows 10 en Microsoft 365-apps voor ondernemingen en blijft u op de hoogte van halfjaarlijkse releases van beide.
 
 [Windows 10 voor IT-professionals](https://www.microsoft.com/itpro/windows-10)
 
-[Over Office 365 ProPlus in de enterprise](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)
+[Over Microsoft 365-apps voor ondernemingen in de onderneming](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)
 
 ## <a name="what-has-changed"></a>Wat is er veranderd?
 
 Laten we eerst eens kijken wat er is veranderd en verbeterd sinds uw laatste desktopimplementatie. Als u uw desktopomgeving al een tijdje niet hebt gewijzigd, gebruikt u waarschijnlijk Windows 7 en Office 2010 of Office 2013. Als dat het geval is, zult u zien dat er een paar dingen zijn veranderd sinds uw laatste grote upgrade. Hieronder ziet u enkele van de belangrijkste wijzigingen:
 
-**Identiteit en toegang:** Windows 10 en Office 365 ProPlus, met hun connectiviteit tot Cloud-productiviteit, beveiligings- en beheerservices, hebben een nieuwe service voor Identiteits- en toegangsbeheer: Azure Active Directory (Azure AD). Dit maakt eenmalige aanmelding en een beveiligde verbinding in al uw cloudservices mogelijk, wat betekent dat u Azure AD nodig zult hebben om te profiteren van de services van Microsoft 365, zoals Office 365, Intune en Windows Autopilot.
+**Identiteit en toegang:** Windows 10 en Microsoft 365-apps voor ondernemingen, met hun connectiviteit tot Cloud-productiviteit, beveiligings- en beheerservices, hebben een nieuwe service voor Identiteits- en toegangsbeheer: Azure Active Directory (Azure AD). Dit maakt eenmalige aanmelding en een beveiligde verbinding in al uw cloudservices mogelijk, wat betekent dat u Azure AD nodig zult hebben om te profiteren van de services van Microsoft 365, zoals Office 365, Intune en Windows Autopilot.
 
 [Microsoft 365](https://www.microsoft.com/microsoft-365/default.aspx)
 
@@ -73,13 +73,13 @@ Laten we eerst eens kijken wat er is veranderd en verbeterd sinds uw laatste des
 
 [Windows Autopilot](https://www.microsoft.com/windowsforbusiness/windows-autopilot)
 
-**Klik-en-klaar-implementaties:** Bij het inrichten van bureaublad-apps van Office, heeft Office 365 ProPlus de voorkeur. Hiermee hebt u toegang tot de nieuwste innovaties in Office zodra ze worden ontwikkeld. U hoeft dus niet jaren te wachten voordat u gebruik kunt maken van nieuwe functionaliteiten. U gebruikt ook een nieuwe installatie met de naam Klik-en-klaar.
+**Klik-en-klaar-implementaties:** Bij het inrichten van bureaublad-apps van Office, heeft Microsoft 365-apps voor ondernemingen de voorkeur. Hiermee hebt u toegang tot de nieuwste innovaties in Office zodra ze worden ontwikkeld. U hoeft dus niet jaren te wachten voordat u gebruik kunt maken van nieuwe functionaliteiten. U gebruikt ook een nieuwe installatie met de naam Klik-en-klaar.
 
 Klik-en-klaar is heel anders dan de op MSI-gebaseerde pakketten uit het verleden. Klik-en-klaar is sneller, lichter en ondersteunt updates op de achtergrond om te voorkomen dat uw gebruikers niet aan de slag kunnen. Het is nog steeds een lokale kopie van Office en u kunt uw bestaande implementatiehulpprogramma's, zoals Microsoft Endpoint Configuration Manager, blijven gebruiken om de apps in te richten en te configureren.
 
-[Implementatiehandleiding voor Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
+[Implementatiegids voor Microsoft 365-apps voor ondernemingen](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
 
-**Halfjaarlijkse updates:** Zodra u bent overgestapt op Windows 10 en Office 365 ProPlus, ontvangt u ieder half jaar updates met nieuwe functies. Aangezien Microsoft inzichten uit de cloud kan halen om u te helpen, kunt u deze updates snel en eenvoudig implementeren op honderden of duizenden apparaten. Net als bij een in-place upgrade, zorgt de onderdelenupdate ervoor dat apps, gegevens en configuraties uit de vorige versie worden behouden.
+**Halfjaarlijkse updates:** Zodra u bent overgestapt op Windows 10 en Microsoft 365-apps voor ondernemingen, ontvangt u ieder half jaar updates met nieuwe functies. Aangezien Microsoft inzichten uit de cloud kan halen om u te helpen, kunt u deze updates snel en eenvoudig implementeren op honderden of duizenden apparaten. Net als bij een in-place upgrade, zorgt de onderdelenupdate ervoor dat apps, gegevens en configuraties uit de vorige versie worden behouden.
 
 ## <a name="the-deployment-process-wheel"></a>Het implementatieproces
 
@@ -93,7 +93,7 @@ Voordat u aan de slag gaat, is het verstandig om een goed plan op te stellen en 
 
 [BranchCache vs. Peer Cache](https://blogs.technet.microsoft.com/swisspfe/2018/01/25/branch-cache-vs-peer-cache/)
 
-**[Stap 3: Office en Line of Business App Delivery](https://aka.ms/mdd3)** Hoewel Windows nog steeds ondersteuning biedt voor MSI-installaties, ondersteunt het nu ook nieuwere installatiemethoden, die geoptimaliseerd zijn voor geautomatiseerde implementatie en voortdurende updates. Office 365 ProPlus en Office 2019-clients gebruiken Klik-en-klaar-installatietechnologie. Mogelijk wilt u een aantal UWP-apps beschikbaar maken en maakt u steeds vaker gebruik van apps van derden en zelf ontwikkelde Line of Business Apps, die gebruikmaken van de nieuwe, op MSIX gebaseerde verpakkingsapps. Met deze stap zorgt u ervoor dat uw apps gereed zijn voor geautomatiseerde implementaties en dat u gegarandeerd succes heeft, ongeacht of uw apps worden geïmplementeerd met Klik-en-klaar, MSIX, conventionele op MSI-gebaseerde methoden, of UWP-apps, die worden geïmplementeerd vanuit een Microsoft Store vanuit Business die u instelt.
+**[Stap 3: Office en Line of Business App Delivery](https://aka.ms/mdd3)** Hoewel Windows nog steeds ondersteuning biedt voor MSI-installaties, ondersteunt het nu ook nieuwere installatiemethoden, die geoptimaliseerd zijn voor geautomatiseerde implementatie en voortdurende updates. Microsoft 365-apps voor ondernemingen en Office 2019-clients gebruiken Klik-en-klaar-installatietechnologie. Mogelijk wilt u een aantal UWP-apps beschikbaar maken en maakt u steeds vaker gebruik van apps van derden en zelf ontwikkelde Line of Business Apps, die gebruikmaken van de nieuwe, op MSIX gebaseerde verpakkingsapps. Met deze stap zorgt u ervoor dat uw apps gereed zijn voor geautomatiseerde implementaties en dat u gegarandeerd succes heeft, ongeacht of uw apps worden geïmplementeerd met Klik-en-klaar, MSIX, conventionele op MSI-gebaseerde methoden, of UWP-apps, die worden geïmplementeerd vanuit een Microsoft Store vanuit Business die u instelt.
 
 [MSIX Intro](https://blogs.msdn.microsoft.com/sgern/2018/06/15/msix-intro/)
 
@@ -103,7 +103,7 @@ Net als bij vorige upgrades, blijft het Hulpprogramma voor migratie van gebruike
 
 [Bekende Windows-mappen omleiden en verplaatsen naar OneDrive](https://docs.microsoft.com/onedrive/redirect-known-folders)
 
-**[Stap 5: Beveiliging en naleving](https://aka.ms/mdd5)** Beveiliging en naleving is een gebied met een hoop veranderingen bij het overstappen op Windows 10 en Office 365 ProPlus. Het is belangrijk dat u bekend raakt met de nieuwe ingebouwde mogelijkheden en deze vergelijkt met wat u al hebt. Nieuwe mogelijkheden in Windows 10 die gebruikmaken van op virtualisatie gebaseerde beveiliging kunnen bijvoorbeeld diefstal van referenties voorkomen en uw desktop beschermen tegen aanvallen op basis van een browser en het uitvoeren van schadelijke codes, door kernprocessen en geheimen te isoleren van het besturingssysteem. Bovendien bieden cloudservices, zoals Advanced Threat Protection, een geïntegreerd platform voor beveiligingsversterking, detectie na inbreuk, onderzoek en reactie. Advanced Threat Protection kan ook bescherming bieden tegen schadelijke e-mailbijlagen, onveilige hyperlinks en meer.
+**[Stap 5: Beveiliging en naleving](https://aka.ms/mdd5)** Beveiliging en naleving is een gebied met een hoop veranderingen bij het overstappen op Windows 10 en Microsoft 365-apps voor ondernemingen. Het is belangrijk dat u bekend raakt met de nieuwe ingebouwde mogelijkheden en deze vergelijkt met wat u al hebt. Nieuwe mogelijkheden in Windows 10 die gebruikmaken van op virtualisatie gebaseerde beveiliging kunnen bijvoorbeeld diefstal van referenties voorkomen en uw desktop beschermen tegen aanvallen op basis van een browser en het uitvoeren van schadelijke codes, door kernprocessen en geheimen te isoleren van het besturingssysteem. Bovendien bieden cloudservices, zoals Advanced Threat Protection, een geïntegreerd platform voor beveiligingsversterking, detectie na inbreuk, onderzoek en reactie. Advanced Threat Protection kan ook bescherming bieden tegen schadelijke e-mailbijlagen, onveilige hyperlinks en meer.
 
 [Microsoft Security](https://www.microsoft.com/security/default.aspx)
 
@@ -111,18 +111,18 @@ Net als bij vorige upgrades, blijft het Hulpprogramma voor migratie van gebruike
 
 [Inleiding tot implementatie van het besturingssysteem in Configuration Manager](https://docs.microsoft.com/configmgr/osd/understand/introduction-to-operating-system-deployment)
 
-**[Stap 7: Windows en Office als een service](https://aka.ms/mdd7)** Dit vertegenwoordigt een enorme verschuiving in de manier waarop u de zaken op de desktops van uw gebruikers behoudt. Met deze overstap naar Windows 10 en Office 365 ProPlus kunt u doorgaan met het beheren van Windows en Office als een service. In plaats van elke paar jaar een enorme verschuiving in de technologie te implementeren, levert u nu voortdurend nieuwe functies, ervaringen en beveiligingen aan uw gebruiker. De halfjaarlijkse functie-updates bieden nieuwe mogelijkheden in de herfst en lente van elk jaar, terwijl maandelijkse cumulatieve kwaliteitsupdates oplossingen bieden voor beveiliging, betrouwbaarheid en fouten. U kunt er ook voor kiezen om de Office 2019-client te implementeren. U wordt ten zeerste aangeraden om over te stappen op Office 365 ProPlus. Dit volgt een vergelijkbaar serviceplan als Windows, zodat uw gebruikers ook regelmatig updates voor de Office-apps ontvangen.
+**[Stap 7: Windows en Office als een service](https://aka.ms/mdd7)** Dit vertegenwoordigt een enorme verschuiving in de manier waarop u de zaken op de desktops van uw gebruikers behoudt. Met deze overstap naar Windows 10 en Microsoft 365-apps voor ondernemingen kunt u doorgaan met het beheren van Windows en Office als een service. In plaats van elke paar jaar een enorme verschuiving in de technologie te implementeren, levert u nu voortdurend nieuwe functies, ervaringen en beveiligingen aan uw gebruiker. De halfjaarlijkse functie-updates bieden nieuwe mogelijkheden in de herfst en lente van elk jaar, terwijl maandelijkse cumulatieve kwaliteitsupdates oplossingen bieden voor beveiliging, betrouwbaarheid en fouten. U kunt er ook voor kiezen om de Office 2019-client te implementeren. U wordt ten zeerste aangeraden om over te stappen op Microsoft 365-apps voor ondernemingen. Dit volgt een vergelijkbaar serviceplan als Windows, zodat uw gebruikers ook regelmatig updates voor de Office-apps ontvangen.
 
 ![](../media/getting-started-media/getting-started-media-2.png)
 
 [Overzicht van Windows als een service](https://docs.microsoft.com/windows/deployment/update/waas-overview)
 [Overzicht van Office als een service](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
 
-**[Stap 8: Communicatie en training voor gebruikers](https://aka.ms/mdd8)** Deze laatste stap is essentieel om het gebruik van nieuwe mogelijkheden te stimuleren en zo teamwork, communicatie, beveiliging en meer te verbeteren. Voordat een brede implementatie wordt gericht op gebruikers buiten de eerste implementatiecirkel, raden we u aan gebruikerscommunicatie en -training uit te voeren. Hiermee kunt u de gewenste wijzigingen aanbrengen in de manier waarop personen nieuwe functies gebruiken in Office, Windows of andere zakelijke apps en services. Om u hierbij te helpen, bieden we gratis online training aan via Microsoft FastTrack. Bovendien hebben we gratis voorbeelden van communicatieplannen en tijdlijnen gepubliceerd, samen met e-mail-, sociale- en intranet-sjablonen, die u kunnen helpen bij uw implementatie van Windows 10. Als een Microsoft 365- of Office 365-organisatie, kan uw organisatie ook in aanmerking komen voor rechtstreekse ondersteuning.
+**[Stap 8: Communicatie en training voor gebruikers](https://aka.ms/mdd8)** Deze laatste stap is essentieel om het gebruik van nieuwe mogelijkheden te stimuleren en zo teamwork, communicatie, beveiliging en meer te verbeteren. Voordat een brede implementatie wordt gericht op gebruikers buiten de eerste implementatiecirkel, raden we u aan gebruikerscommunicatie en -training uit te voeren. Hiermee kunt u de gewenste wijzigingen aanbrengen in de manier waarop personen nieuwe functies gebruiken in Office, Windows of andere zakelijke apps en services. Om u hierbij te helpen, bieden we gratis online training aan via Microsoft FastTrack. Bovendien hebben we gratis voorbeelden van communicatieplannen en tijdlijnen gepubliceerd, samen met e-mail-, sociale- en intranet-sjablonen, die u kunnen helpen bij uw implementatie van Windows 10. Als een Microsoft 365-organisatie kan uw organisatie ook in aanmerking komen voor rechtstreekse ondersteuning.
 
 ## <a name="next-step"></a>Volgende stap
 
-Nu weet u wat er nieuw en anders is in Windows 10 en Office 365 ProPlus en heeft u meer geleerd over ons aanbevolen implementatieproces. Met deze beschikking over volledige begeleiding en hulpmiddelen die u kunt gebruiken voor de overstap naar Windows 10 en Office 365 ProPlus, is het tijd om aan de slag te gaan.
+Nu weet u wat er nieuw en anders is in Windows 10 en Microsoft 365-apps voor ondernemingen en heeft u meer geleerd over ons aanbevolen implementatieproces. Met deze beschikking over volledige begeleiding en hulpmiddelen die u kunt gebruiken voor de overstap naar Windows 10 en Microsoft 365-apps voor ondernemingen, is het tijd om aan de slag te gaan.
 
-## <a name="step-1-device-and-app-readiness"></a>[Stap 1: Gereedheid apparaat en app](https://aka.ms/mdd1)
+## <a name="step-1-device-and-app-readiness"></a>[Stap 1: apparaat- en app-gereedheid](https://aka.ms/mdd1)
 

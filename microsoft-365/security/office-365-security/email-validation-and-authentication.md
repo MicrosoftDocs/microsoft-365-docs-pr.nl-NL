@@ -1,5 +1,5 @@
 ---
-title: E-mailverificatie in Office 365
+title: E-mailverificatie in Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,17 +17,17 @@ ms.collection:
 - Strat_O365_IP
 ms.custom: TopSMBIssues
 localization_priority: Priority
-description: Lees hoe Exchange Online en Exchange Online Protection (EOP) in Office 365 e-mailverificatie (SPF, DKIM en DMARC) gebruiken om spoofing, phishing en spam te helpen voorkomen.
-ms.openlocfilehash: 609f1a9bf80acc266bdfc5b0089eb6006be4bd7c
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+description: Lees hoe Exchange Online en Exchange Online Protection (EOP) in Microsoft 365 e-mailverificatie (SPF, DKIM en DMARC) gebruiken om spoofing, phishing en spam te helpen voorkomen.
+ms.openlocfilehash: f3a3ea902cb0c4fede4fcfd919f0969765bc4a96
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43529844"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637554"
 ---
-# <a name="email-authentication-in-office-365"></a>E-mailverificatie in Office 365
+# <a name="email-authentication-in-microsoft-365"></a>E-mailverificatie in Microsoft 365
 
-E-mailverificatie (ook wel e-mailvalidatie genoemd) is een groep standaarden die probeert om spoofing (e-mailberichten van vervalste afzenders) te stoppen. In Office 365-organisaties met Exchange Online-postvakken en zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken worden de volgende standaarden gebruikt om binnenkomende e-mail te verifiëren:
+E-mailverificatie (ook wel e-mailvalidatie genoemd) is een groep standaarden die probeert om spoofing (e-mailberichten van vervalste afzenders) te stoppen. In Microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken worden de volgende standaarden gebruikt om binnenkomende e-mail te verifiëren:
 
 - [SPF](how-office-365-uses-spf-to-prevent-spoofing.md)
 
@@ -55,7 +55,7 @@ Dit is een groot probleem, want hoewel bedrijven zich misschien niet bewust zijn
 
 Impliciete e-mailverificatie is gebaseerd op een groot aantal uitbreidingen van het reguliere e-mailbeleid. Deze extensies bevatten de reputatie van de afzender, de geschiedenis van de afzender, de geschiedenis van de ontvanger, gedragsanalyse en andere geavanceerde technieken. Een bericht dat wordt verzonden vanaf een domein dat geen e-mailverificatie hanteert, wordt gemarkeerd als spoof, tenzij het andere kenmerken bevat die aangeven dat het legitiem is.
 
-Zie [A Sea of Phish Part 2 - Enhanced Anti-spoofing in Office 365](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Schooling-A-Sea-of-Phish-Part-2-Enhanced-Anti-spoofing/ba-p/176209) om de algemene aankondiging van Microsoft te lezen.
+Zie [A Sea of Phish Part 2 - Enhanced Anti-spoofing in Microsoft 365](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Schooling-A-Sea-of-Phish-Part-2-Enhanced-Anti-spoofing/ba-p/176209) om de algemene aankondiging van Microsoft te lezen.
 
 ## <a name="composite-authentication"></a>Samengestelde verificatie
 
@@ -63,9 +63,9 @@ Hoewel SPF, DKIM en DMARC op zichzelf allemaal nuttig zijn, geven ze niet genoeg
 
 > Verificatie-resultaten:<br/>&nbsp;&nbsp;&nbsp;compauth=\<mislukt | geslaagd | softpass | geen\> reden=\<yyy\>
 
-Deze waarden worden uitgelegd in de [berichtkopvelden Verificatie-resultaten die worden gebruikt door e-mailverificatie van Office 365](anti-spam-message-headers.md#authentication-results-message-header-fields-used-by-office-365-email-authentication).
+Deze waarden worden uitgelegd in de [berichtkop Verificatie-resultaten](anti-spam-message-headers.md#authentication-results-message-header).
 
-Door de berichtkoppen te bekijken, kunnen beheerders of zelfs eindgebruikers nagaan hoe Office 365 heeft vastgesteld dat de afzender is vervalst.
+Door de berichtkoppen te bekijken, kunnen beheerders of zelfs eindgebruikers nagaan hoe in Microsoft 365 is vastgesteld dat de afzender is vervalst.
 
 ## <a name="why-email-authentication-is-not-always-enough-to-stop-spoofing"></a>Waarom e-mailverificatie niet altijd voldoende is om adresvervalsing te stoppen
 
@@ -128,11 +128,11 @@ To: michelle@fabrikam.com
 
 ## <a name="solutions-for-legitimate-senders-who-are-sending-unauthenticated-email"></a>Oplossingen voor legitieme afzenders die niet-geverifieerde e-mail verzenden
 
-Office 365 houdt bij wie niet-geverifieerde e-mail naar uw organisatie stuurt. Als de service denkt dat de afzender niet legitiem is, wordt deze gemarkeerd als een samengestelde verificatiefout. U kunt dit voorkomen door de aanbevelingen in deze sectie te gebruiken.
+In Microsoft 365 wordt bijgehouden wie niet-geverifieerde e-mail naar uw organisatie verzendt. Als de service denkt dat de afzender niet legitiem is, wordt deze gemarkeerd als een samengestelde verificatiefout. U kunt dit voorkomen door de aanbevelingen in deze sectie te gebruiken.
 
 ### <a name="configure-email-authentication-for-domains-you-own"></a>Configureer e-mailverificatie voor uw domeinen
 
-U kunt deze methode gebruiken om spoofing binnen organisaties en spoofing tussen domeinen op te lossen in gevallen waarbij u eigenaar bent van of interactie heeft met meerdere tenants. Het helpt ook adresvervalsing tussen domeinen op te lossen wanneer u naar andere klanten binnen Office 365 zendt of naar derden die worden gehost door andere providers.
+U kunt deze methode gebruiken om spoofing binnen organisaties en spoofing tussen domeinen op te lossen in gevallen waarbij u eigenaar bent van of interactie heeft met meerdere tenants. Het helpt ook adresvervalsing tussen domeinen op te lossen wanneer u naar andere klanten binnen Microsoft 365 verzendt of naar derden die worden gehost door andere providers.
 
 - [SPF-records configureren](set-up-spf-in-office-365-to-help-prevent-spoofing.md) voor uw domeinen.
 
@@ -152,7 +152,7 @@ fabrikam.com IN TXT "v=spf1 include:spf.fabrikam.com ?all"
 
 Dit voorbeeld betekent dat e-mail van uw bedrijfsinfrastructuur e-mailverificatie doorstaat, maar e-mail van onbekende bronnen wordt gemarkeerd als neutraal.
 
-Office 365 behandelt inkomende e-mail van uw bedrijfsinfrastructuur als geverifieerd, maar e-mail van niet-geïdentificeerde bronnen kan nog steeds als spoof worden gemarkeerd (afhankelijk van of Office 365 het impliciet kan verifiëren). Dit is echter nog steeds een verbetering in plaats van dat alle e-mail door Office 365 als spoof wordt gemarkeerd.
+Microsoft 365 behandelt inkomende e-mail van uw bedrijfsinfrastructuur als geverifieerd, maar e-mail van niet-geïdentificeerde bronnen kan nog steeds als spoof worden gemarkeerd (afhankelijk van of Microsoft 365 het impliciet kan verifiëren). Dit is echter nog steeds een verbetering in plaats van dat alle e-mail door Microsoft 365 als spoof wordt gemarkeerd.
 
 Als u eenmaal bent begonnen met een SPF-terugvalbeleid van `?all`, kunt u geleidelijk meer e-mailbronnen voor uw berichten ontdekken en opnemen en vervolgens uw SPF-record bijwerken met een strikter beleid.
 
@@ -170,7 +170,7 @@ Om deze afzender toe te staan niet-geverifieerde e-mail te verzenden, wijzigt u 
 
 ### <a name="create-an-allow-entry-for-the-senderrecipient-pair"></a>Een vermelding met toestemming maken voor het afzender/geadresseerde-paar
 
-Zie [lijsten met veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md) om spamfilters, sommige onderdelen van phish-filters, maar niet malwarefilters voor specifieke afzenders te omzeilen.
+Zie [Lijsten met veilige afzenders maken in Microsoft 365](create-safe-sender-lists-in-office-365.md) om spamfilters, sommige onderdelen van phish-filters, maar niet malwarefilters voor specifieke afzenders te omzeilen.
 
 ### <a name="ask-the-sender-to-configure-email-authentication-for-domains-you-dont-own"></a>Vraag de afzender om e-mailverificatie te configureren voor domeinen waarvan u niet de eigenaar bent
 

@@ -11,22 +11,22 @@ f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
 description: Meer informatie over de beschikbare instellingen voor het delen met gasten in Microsoft 365.
-ms.openlocfilehash: 74bf2fd431b604b7f38043bfc029232137b24cf1
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 396f55063461bb4a87813cc1e3943c5a4afd7156
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42810585"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625156"
 ---
-# <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 guest sharing settings reference (Overzicht van de instellingen voor delen met gasten van Microsoft 365)
+# <a name="microsoft-365-guest-sharing-settings-reference"></a>Overzicht van instellingen voor delen met gasten in Microsoft 365
 
-In dit artikel vindt u een overzicht van de verschillende instellingen die van invloed kunnen zijn op het delen met personen buiten uw organisatie voor de Microsoft 365-workloads: Teams, Office 365 Groepen, SharePoint en OneDrive. Deze instellingen bevinden zich in de beheercentra van Microsoft Azure Active Directory, Microsoft 365, Teams en SharePoint.
+In dit artikel vindt u een overzicht van de verschillende instellingen die van invloed kunnen zijn op het delen met personen buiten uw organisatie voor de Microsoft 365-workloads: Teams, Microsoft 365 Groepen, SharePoint en OneDrive. Deze instellingen bevinden zich in de beheercentra van Microsoft Azure Active Directory, Microsoft 365, Teams en SharePoint.
 
 ## <a name="azure-active-directory"></a>Microsoft Azure Active Directory
 
 **Beheerdersrol:** Hoofdbeheerder
 
-Microsoft Azure Active Directory is de directoryservice die wordt gebruikt door Microsoft 365. De instellingen voor organisatierelaties van de Microsoft Azure Active Directory zijn rechtstreeks van invloed op het delen in Teams, Office 365 Groepen, SharePoint en OneDrive.
+Microsoft Azure Active Directory is de directoryservice die wordt gebruikt door Microsoft 365. De instellingen voor organisatierelaties van de Microsoft Azure Active Directory zijn rechtstreeks van invloed op het delen in Teams, Microsoft 365 Groepen, SharePoint en OneDrive.
 
 > [!NOTE]
 > Deze instellingen zijn alleen van invloed op SharePoint wanneer [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (Voorbeeld)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) is geconfigureerd. In de onderstaande tabel wordt ervan uitgegaan dat dit is geconfigureerd.
@@ -41,7 +41,7 @@ Microsoft Azure Active Directory is de directoryservice die wordt gebruikt door 
 |:-----|:-----|:-----|
 |Machtigingen voor gastgebruikers zijn beperkt|Ja|Deze instelling heeft invloed op de directorytaken die een gast kan uitvoeren.|
 |Beheerders en gebruikers in de rol van gastuitnodiger kunnen uitnodigen|Ja|Wanneer ingesteld op **Ja** kunnen beheerders gasten uitnodigen via Microsoft Azure AD en via het deelopties van Microsoft 365, zoals Teams en SharePoint. Wanneer ingesteld op **Nee** is dat niet mogelijk.|
-|Leden kunnen uitnodigen|Ja|Wanneer ingesteld op **Ja** kunnen Microsoft Azure AD-leden gasten uitnodigen via Microsoft Azure AD. Wanneer ingesteld op **Nee** is dat niet mogelijk. Wanneer ingesteld op **Ja** kunnen Office 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar. Wanneer ingesteld op **Nee** kunnen Office 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar, maar de eigenaren moeten hoofdbeheerders zijn om het goed te keuren. <br><br>Merk op dat **Leden kunnen uitnodigen** verwijst naar leden in Azure AD (in tegenstelling tot gasten) en niet naar site- of groepsleden in Microsoft 365. <br><br>Dit is hetzelfde als de instelling **Gebruikers toestaan nieuwe gasten aan de organisatie toe te voegen** in Beveiliging & privacy van Microsoft 365.|
+|Leden kunnen uitnodigen|Ja|Wanneer ingesteld op **Ja** kunnen Microsoft Azure AD-leden gasten uitnodigen via Microsoft Azure AD. Wanneer ingesteld op **Nee** is dat niet mogelijk. Wanneer ingesteld op **Ja** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar. Wanneer ingesteld op **Nee** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar, maar de eigenaren moeten hoofdbeheerders zijn om het goed te keuren. <br><br>Merk op dat **Leden kunnen uitnodigen** verwijst naar leden in Azure AD (in tegenstelling tot gasten) en niet naar site- of groepsleden in Microsoft 365. <br><br>Dit is hetzelfde als de instelling **Gebruikers toestaan nieuwe gasten aan de organisatie toe te voegen** in Beveiliging & privacy van Microsoft 365.|
 |Gasten kunnen uitnodigen|Ja|Wanneer ingesteld op **Ja** kunnen gasten in de Directory andere gasten uitnodigen om samen te werken aan Microsoft Azure AD-resources en aan bestanden en mappen in SharePoint en OneDrive. Wanneer ingesteld op **Nee** is dat niet mogelijk. <br><br>Merk op dat**Externe gebruikers toestaan om gebruikersaccounts te zoeken in de adreslijst door exacte e-mail adressen te typen** in het SharePoint Online-beheercentrum moet zijn ingeschakeld voordat gasten bestanden en mappen met andere gasten kunnen delen.|
 |Eenmalige e-mailwachtwoordcode voor gasten inschakelen (voorbeeld)|Nee|Wanneer ingesteld op **Ja** kunnen gasten zonder een MSA of een werk- of schoolaccount [verifiëren met Azure AD middels een eenmalige wachtwoordcode](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode); wanneer ingesteld op **Nee** moeten gebruikers een Microsoft-account maken om te verifiëren. Deze instelling moet zijn ingesteld op **Ja** om [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (voorbeeld)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) te laten werken.|
 |Samenwerkingsbeperkingen|Uitnodigingen verzenden naar ieder domein toestaan|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden.<br><br> Deze instelling heeft invloed op de deelopties van Microsoft 365, zoals Teams en SharePoint. U kunt domeinen nauwkeuriger toestaan of blokkeren door domeinfilters in SharePoint of Teams te gebruiken.|
@@ -52,7 +52,7 @@ Deze instellingen hebben invloed op de manier waarop gebruikers worden uitgenodi
 
 **Beheerdersrol:** Hoofdbeheerder
 
-Het Microsoft 365-beheercentrum heeft instellingen op organisatieniveau voor delen en voor Office 365 Groepen.
+Het Microsoft 365-beheercentrum heeft instellingen op organisatieniveau voor delen en voor Microsoft 365 Groepen.
 
 ### <a name="sharing"></a>Delen
 
@@ -62,18 +62,18 @@ Het Microsoft 365-beheercentrum heeft instellingen op organisatieniveau voor del
 
 |**Instelling**|**Standaard**|**Beschrijving**|
 |:-----|:-----|:-----|
-|Gebruikers toestaan nieuwe gasten toe te voegen aan de organisatie|Aan|Wanneer ingesteld op **Ja** kunnen Microsoft Azure AD-leden gasten uitnodigen via Microsoft Azure AD. Wanneer ingesteld op **Nee** is dat niet mogelijk. Wanneer ingesteld op **Ja** kunnen Office 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar. Wanneer ingesteld op **Nee** kunnen Office 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar, maar de eigenaren moeten hoofdbeheerders zijn om het goed te keuren. <br><br>Merk op dat **Leden kunnen uitnodigen** verwijst naar leden in Azure AD (in tegenstelling tot gasten) en niet naar site- of groepsleden in Microsoft 365. <br><br>Dit is hetzelfde als de instelling **Leden kunnen uitnodigen** in de instellingen voor organisatierelaties van Azure Active Directory.|
+|Gebruikers toestaan nieuwe gasten toe te voegen aan de organisatie|Aan|Wanneer ingesteld op **Ja** kunnen Microsoft Azure AD-leden gasten uitnodigen via Microsoft Azure AD. Wanneer ingesteld op **Nee** is dat niet mogelijk. Wanneer ingesteld op **Ja** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar. Wanneer ingesteld op **Nee** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar, maar de eigenaren moeten hoofdbeheerders zijn om het goed te keuren. <br><br>Merk op dat **Leden kunnen uitnodigen** verwijst naar leden in Azure AD (in tegenstelling tot gasten) en niet naar site- of groepsleden in Microsoft 365. <br><br>Dit is hetzelfde als de instelling **Leden kunnen uitnodigen** in de instellingen voor organisatierelaties van Azure Active Directory.|
 
-### <a name="office-365-groups"></a>Office 365 Groepen
+### <a name="microsoft-365-groups"></a>Microsoft 365 Groepen
 
-**Navigatie:** [Microsoft 365-beheercentrum](https://admin.microsoft.com) > Instellingen > Instellingen > Office 365 Groepen
+**Navigatie:** [Microsoft 365-beheercentrum](https://admin.microsoft.com) > Instellingen > Instellingen > Microsoft 365 Groepen
 
-![Schermopname van gastinstellingen van Office 365 Groepen in het Microsoft 365-beheercentrum](../media/office-365-groups-guest-settings.png)
+![Schermopname van gastinstellingen van Microsoft 365 Groepen in het Microsoft 365-beheercentrum](../media/office-365-groups-guest-settings.png)
 
 |**Instelling**|**Standaard**|**Beschrijving**|
 |:-----|:-----|:-----|
-|Groepsleden buiten uw organisatie toegang geven tot groepsinhoud|Aan|Wanneer ingesteld op **Aan** hebben gasten toegang tot groepsinhoud. Wanneer ingesteld op **Uit** hebben ze geen toegang. Deze instelling moet **Aan** zijn voor elk scenario waarin gastgebruikers werken met Office 365 Groepen of Teams.|
-|Groepseigenaren toestaan personen van buiten de organisatie aan groepen toe te voegen|Aan|Wanneer **Aan** kunnen eigenaren van Office 365 Groepen of Teams nieuwe gasten uitnodigen voor de groep. Wanneer **Uit** kunnen eigenaren gasten alleen uitnodigen als deze zich al in de directory bevinden.|
+|Groepsleden buiten uw organisatie toegang geven tot groepsinhoud|Aan|Wanneer ingesteld op **Aan** hebben gasten toegang tot groepsinhoud. Wanneer ingesteld op **Uit** hebben ze geen toegang. Deze instelling moet **Aan** zijn voor elk scenario waarin gastgebruikers werken met Microsoft 365 Groepen of Teams.|
+|Groepseigenaren toestaan personen van buiten de organisatie aan groepen toe te voegen|Aan|Wanneer **Aan** kunnen eigenaren van Microsoft 365 Groepen of Teams nieuwe gasten uitnodigen voor de groep. Wanneer **Uit** kunnen eigenaren gasten alleen uitnodigen als deze zich al in de directory bevinden.|
 
 Deze instellingen bevinden zich op organisatieniveau. Zie [Instellingen voor een specifieke groep maken](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#create-settings-for-a-specific-group) voor informatie over hoe u deze instellingen op groepsniveau kunt wijzigen met Windows PowerShell.
 
@@ -136,7 +136,7 @@ De hoofdschakelaar gasttoegang van Teams, **Gasttoegang in Teams toestaan** moet
 
 **Beheerdersrol:** SharePoint-beheerder
 
-Deze instellingen hebben invloed op alle sites in de organisatie. Ze zijn niet rechtstreeks van invloed op Office 365 Groepen of Teams, maar we raden u aan deze instellingen af te stemmen met de instellingen voor Office 365 Groepen en Teams om problemen voor de gebruikerservaring te voorkomen. (Bijvoorbeeld: Als delen met gasten is toegestaan in Teams, maar niet in SharePoint, hebben gasten in Teams geen toegang tot het tabblad Bestanden omdat Teams-bestanden worden opgeslagen in SharePoint.)
+Deze instellingen hebben invloed op alle sites in de organisatie. Ze zijn niet rechtstreeks van invloed op Microsoft 365 Groepen of Teams, maar we raden u aan deze instellingen af te stemmen met de instellingen voor Microsoft 365 Groepen en Teams om problemen voor de gebruikerservaring te voorkomen. (Bijvoorbeeld: Als delen met gasten is toegestaan in Teams, maar niet in SharePoint, hebben gasten in Teams geen toegang tot het tabblad Bestanden omdat Teams-bestanden worden opgeslagen in SharePoint.)
 
 ### <a name="sharepoint-and-onedrive-sharing-settings"></a>SharePoint- en OneDrive-instellingen voor delen
 
@@ -180,7 +180,7 @@ Wanneer bestanden en mappen in SharePoint en OneDrive worden gedeeld, wordt aan 
 
 ### <a name="sharepoint-and-onedrive-security-group-settings"></a>SharePoint- en OneDrive-instellingen voor beveiligingsgroepen
 
-Als u wilt beperken wie er met gasten kan delen in SharePoint en OneDrive, kunt u dit doen door delen te beperken tot personen in opgegeven beveiligingsgroepen. Deze instellingen hebben geen invloed op delen via Office 365 Groepen of Teams. Gasten die via een groep of team zijn uitgenodigd, hebben ook toegang tot de bijbehorende site, hoewel het delen van documenten en mappen alleen kan worden uitgevoerd door personen in de opgegeven beveiligingsgroepen.
+Als u wilt beperken wie er met gasten kan delen in SharePoint en OneDrive, kunt u dit doen door delen te beperken tot personen in opgegeven beveiligingsgroepen. Deze instellingen hebben geen invloed op delen via Microsoft 365 Groepen of Teams. Gasten die via een groep of team zijn uitgenodigd, hebben ook toegang tot de bijbehorende site, hoewel het delen van documenten en mappen alleen kan worden uitgevoerd door personen in de opgegeven beveiligingsgroepen.
 
 **Navigatie:** SharePoint Online-beheercentrum > Delen > Extern delen beperken tot specifieke beveiligingsgroepen
 
@@ -234,7 +234,7 @@ In de onderstaande tabel ziet u de standaardinstelling voor delen voor elk type 
 |:-----|:-----|
 |Klassiek|**Alleen personen binnen uw organisatie**|
 |OneDrive|**Iedereen**|
-|Met een groep verbonden sites (met inbegrip van Teams)|**Nieuwe en bestaande gasten** als de instelling van Office 365 Groepen **Groepseigenaren toestaan personen van buiten de organisatie aan groepen toe te voegen** **Aan** is; zo niet, **Alleen bestaande gasten**|
+|Met een groep verbonden sites (met inbegrip van Teams)|**Nieuwe en bestaande gasten** als de instelling **Groepseigenaren toestaan personen van buiten de organisatie aan groepen toe te voegen** van Microsoft 365 Groepen **Aan** is. Anders **Alleen bestaande gasten**|
 |Communicatie|**Alleen personen binnen uw organisatie**|
 |Moderne sites zonder groep (#STS3 TeamSite)|**Alleen personen binnen uw organisatie**|
 
@@ -247,4 +247,4 @@ In de onderstaande tabel ziet u de standaardinstelling voor delen voor elk type 
 
 [Gasttoegang in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/guest-access)
 
-[Gasten toevoegen aan Office 365 Groepen](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)
+[Gasten toevoegen aan Microsoft 365 Groepen](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)

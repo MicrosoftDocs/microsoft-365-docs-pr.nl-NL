@@ -1,5 +1,5 @@
 ---
-title: Reageren op een gehackt e-mailaccount in Office 365
+title: Reageren op een gehackt e-mailaccount
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,26 +15,26 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-description: Lees hoe u een gehackt e-mailaccount in Office 365 kunt herkennen en hierop kunt reageren
-ms.openlocfilehash: b19d48046834e3f1387490774babb40dcbd92acc
-ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
+description: Lees hoe u een gehackt e-mailaccount in Microsoft 365 kunt herkennen en hierop kunt reageren
+ms.openlocfilehash: 65e3827b578eec2f851c45d9acc69fb7132d01b8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42811331"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634338"
 ---
-# <a name="responding-to-a-compromised-email-account-in-office-365"></a>Reageren op een gehackt e-mailaccount in Office 365
+# <a name="responding-to-a-compromised-email-account"></a>Reageren op een gehackt e-mailaccount
 
-**Overzicht** Lees hoe u een gehackt e-mailaccount in Office 365 kunt herkennen en hierop kunt reageren.
+**Overzicht** Lees hoe u een gehackt e-mailaccount in Microsoft 365 kunt herkennen en hierop kunt reageren
 
-## <a name="what-is-a-compromised-email-account-in-office-365"></a>Wat is een gehackt e-mailaccount in Office 365?
+## <a name="what-is-a-compromised-email-account-in-microsoft-365"></a>Wat is een gehackt e-mailaccount in Microsoft 365?
 
-Toegang tot Office 365-postvakken, -gegevens en andere services wordt geregeld door het gebruik van referenties, zoals een gebruikersnaam en wachtwoord of pincode. Als iemand anders dan de bedoelde gebruiker die referenties steelt, worden de gestolen referenties geacht te zijn gehackt. Hiermee kan de hacker zich aanmelden als de oorspronkelijke gebruiker en illegale acties uitvoeren.
-Met de gestolen referenties kan de hacker toegang krijgen tot het Office 365-postvak, SharePoint-mappen of bestanden in de OneDrive van de gebruiker. Een actie die vaak wordt gezien, is dat de hacker e-mails verzendt als de oorspronkelijke gebruiker naar geadresseerden binnen en buiten de organisatie. Wanneer de hacker gegevens naar externe geadresseerden stuurt, wordt dit gegevensexfiltratie genoemd.
+Toegang tot Microsoft 365-postvakken, -gegevens en andere services wordt geregeld door het gebruik van referenties, zoals een gebruikersnaam en wachtwoord of pincode. Als iemand anders dan de bedoelde gebruiker die referenties steelt, worden de gestolen referenties geacht te zijn gehackt. Hiermee kan de hacker zich aanmelden als de oorspronkelijke gebruiker en illegale acties uitvoeren.
+Met de gestolen referenties kan de hacker toegang krijgen tot het Microsoft 365-postvak, SharePoint-mappen of bestanden in de OneDrive van de gebruiker. Een actie die vaak wordt gezien, is dat de hacker e-mails verzendt als de oorspronkelijke gebruiker naar geadresseerden binnen en buiten de organisatie. Wanneer de hacker gegevens naar externe geadresseerden stuurt, wordt dit gegevensexfiltratie genoemd.
 
-## <a name="symptoms-of-a-compromised-office-365-email-account"></a>Symptomen van een gehackt Office 365-e-mailaccount
+## <a name="symptoms-of-a-compromised-microsoft-email-account"></a>Symptomen van een gehackt Microsoft-e-mailaccount
 
-Gebruikers kunnen ongebruikelijke activiteiten in hun Office 365-postvakken opmerken en melden. Hier volgen enkele veelvoorkomende symptomen:
+Gebruikers kunnen ongebruikelijke activiteiten in hun Microsoft 365-postvakken opmerken en melden. Hier volgen enkele veelvoorkomende symptomen:
 
 - Verdachte activiteiten, zoals ontbrekende of verwijderde e-mails.
 
@@ -58,9 +58,9 @@ Gebruikers kunnen ongebruikelijke activiteiten in hun Office 365-postvakken opme
 
 Als een gebruiker een van de bovenstaande problemen meldt, moet u nader onderzoek doen. Het Microsoft 365-beveiligings- en compliancecentrum en de Azure-portal bieden hulpmiddelen voor het onderzoeken van de activiteiten van een gebruikersaccount waarvan u vermoedt dat het niet meer betrouwbaar is.
 
-- **Geïntegreerde Office 365-auditlogboeken in het Beveiligings- en compliancecentrum**: Bekijk alle activiteiten van het verdachte account door de resultaten te filteren op het datumbereik van vlak voordat de verdachte activiteiten zich voordeden tot nu. Filter niet op de activiteiten tijdens het zoeken.
+- **Geïntegreerde auditlogboeken in het Beveiligings- en compliancecentrum**: Bekijk alle activiteiten van het verdachte account door de resultaten te filteren op het datumbereik van vlak voordat de verdachte activiteiten zich voordeden tot nu. Filter niet op de activiteiten tijdens het zoeken.
 
-- **Auditlogboeken voor Office 365-beheerder in het Exchange-beheercentrum (EAC)**: In Exchange Online kunt u het Exchange-beheercentrum gebruiken om vermeldingen te zoeken en weer te geven in het auditlogboek van de beheerder. In het auditlogboek van de beheerder worden specifieke acties vastgelegd, gebaseerd op Exchange Online PowerShell-cmdlets, die worden uitgevoerd door beheerders en gebruikers aan wie beheerdersbevoegdheden zijn toegewezen. Vermeldingen in het auditlogboek van de beheerder bieden informatie over welke cmdlet is uitgevoerd, welke parameters zijn gebruikt, wie de cmdlet heeft uitgevoerd en welke objecten zijn beïnvloed.
+- **Auditlogboeken voor beheerders in het Exchange-beheercentrum (EAC)**: In Exchange Online kunt u het Exchange-beheercentrum gebruiken om vermeldingen te zoeken en weer te geven in het auditlogboek van de beheerder. In het auditlogboek van de beheerder worden specifieke acties vastgelegd, gebaseerd op Exchange Online PowerShell-cmdlets, die worden uitgevoerd door beheerders en gebruikers aan wie beheerdersbevoegdheden zijn toegewezen. Vermeldingen in het auditlogboek van de beheerder bieden informatie over welke cmdlet is uitgevoerd, welke parameters zijn gebruikt, wie de cmdlet heeft uitgevoerd en welke objecten zijn beïnvloed.
 
 - **Azure AD-aanmeldingslogboeken en andere risicorapporten in de Azure AD-portal**: Bekijk de waarden in deze kolommen:
 
@@ -72,7 +72,7 @@ Als een gebruiker een van de bovenstaande problemen meldt, moet u nader onderzoe
 
   - geslaagde of misluke aanmeldingen
 
-## <a name="how-to-secure-and-restore-email-function-to-a-suspected-compromised-office-365-account-and-mailbox"></a>E-mailfunctionaliteit van een vermoedelijk gehackt Office 365-account en -postvak beveiligen en herstellen
+## <a name="how-to-secure-and-restore-email-function-to-a-suspected-compromised-microsoft-365-account-and-mailbox"></a>E-mailfunctionaliteit van een vermoedelijk gehackt Microsoft 365-account en -postvak beveiligen en herstellen
 
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2jvOb&AutoPlayVideo=false]
 
@@ -85,7 +85,7 @@ U moet de volgende stappen uitvoeren om weer toegang te krijgen tot uw account. 
 > [!WARNING]
 > Stuur het nieuwe wachtwoord niet via e-mail naar de bedoelde gebruiker, aangezien de hacker op dit moment nog steeds toegang tot het postvak heeft.
 
-1. Volg de procedures voor het opnieuw instellen van een zakelijk Office 365-wachtwoord van iemand anders in [Zakelijk Office 365-wachtwoorden opnieuw instellen](https://docs.microsoft.com/office365/admin/add-users/reset-passwords)
+1. Volg de procedures voor het opnieuw instellen van een wachtwoord van iemand anders voor Microsoft 365-apps voor ondernemingen in [Wachtwoorden voor Microsoft 365-apps voor ondernemingen opnieuw instellen](https://docs.microsoft.com/office365/admin/add-users/reset-passwords)
 
 **Opmerkingen**:
 
@@ -93,7 +93,7 @@ U moet de volgende stappen uitvoeren om weer toegang te krijgen tot uw account. 
 
 - Gebruik uw laatste vijf wachtwoorden niet opnieuw. Hoewel u volgens de vereisten voor wachtwoordgeschiedenis een recenter wachtwoord opnieuw kunt gebruiken, is het verstandig om iets te selecteren dat de hacker niet kan raden.
 
-- Als uw identiteit op locatie federatief is met Office 365, moet u uw wachtwoord op locatie wijzigen en uw beheerder op de hoogte stellen van de aanval.
+- Als uw identiteit op locatie federatief is met Microsoft 365, moet u uw wachtwoord op locatie wijzigen en uw beheerder op de hoogte stellen van de aanval.
 
 > [!TIP]
 > We raden u ten zeerste aan om meervoudige verificatie in te schakelen om een inbreuk te voorkomen, met name voor accounts met beheerdersbevoegdheden.  [Hier](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) vindt u meer informatie over meervoudige verificatie.
@@ -178,13 +178,13 @@ Om ervoor te zorgen dat er weer mails kunnen worden verzonden vanuit dit postvak
 
 1. Zorg ervoor dat u uw verzonden items controleert. Het is verstandig om de personen in uw contactenlijst op de hoogte te stellen van het feit dat uw account is gehackt. De hacker heeft hen mogelijk om geld gevraagd, spoofing, bijvoorbeeld dat u zich in een ander land bevindt en geld nodig heeft, of het kan zijn dat de hacker een virus heeft verstuurd om ook hun computers te overnemen.
 
-2. Een andere service die gebruik heeft gemaakt van dit Exchange-account als alternatief e-mailaccount kan ook gehackt zijn. Voer deze stappen eerst uit voor uw Office 365-abonnement en voer ze vervolgens uit voor uw andere accounts.
+2. Een andere service die gebruik heeft gemaakt van dit Exchange-account als alternatief e-mailaccount kan ook gehackt zijn. Voer deze stappen eerst uit voor uw Microsoft 365-abonnement en voer ze vervolgens uit voor uw andere accounts.
 
 3. Zorg ervoor dat uw contactgegevens, zoals telefoonnummers en adressen, correct zijn.
 
-## <a name="secure-office-365-like-a-cybersecurity-pro"></a>Office 365 beveiligen als een cybersecurity pro
+## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Microsoft 365 beveiligen als een cybersecurity pro
 
-Uw Office 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkheden die u kunt gebruiken om uw gegevens en gebruikers te beschermen.  Gebruik de [Office 365-roadmap voor beveiliging - Topprioriteiten voor de eerste 30 dagen, 90 dagen en verder](security-roadmap.md) om door Microsoft aanbevolen procedures voor het beveiligen van uw Office 365-tenant te implementeren.
+Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkheden die u kunt gebruiken om uw gegevens en gebruikers te beschermen.  Gebruik de [Microsoft 365-roadmap voor beveiliging - Topprioriteiten voor de eerste 30 dagen, 90 dagen en verder](security-roadmap.md) om door Microsoft aanbevolen procedures voor het beveiligen van uw Microsoft 365-tenant te implementeren.
 
 - Taken die in de eerste 30 dagen moeten worden uitgevoerd.  Deze hebben direct effect en weinig invloed op uw gebruikers.
 
@@ -194,7 +194,7 @@ Uw Office 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkheden
 
 ## <a name="see-also"></a>Zie ook
 
-- [Het opsporen en herstellen van Outlook-regels en aangepaste formulieren in Office 365](detect-and-remediate-outlook-rules-forms-attack.md)
+- [Injectieaanvallen op Outlook-regels en aangepaste formulieren detecteren en verhelpen in Microsoft 365](detect-and-remediate-outlook-rules-forms-attack.md)
 
 - [Internet Crime Complaint Center](https://www.ic3.gov/preventiontips.aspx)
 

@@ -16,12 +16,12 @@ ms.collection:
 - remotework
 ms.custom: ''
 description: Configureer de infrastructuur en beveiliging waardoor uw medewerkers altijd en overal op afstand kunnen werken.
-ms.openlocfilehash: 8bbbe4853805c506ee511ecdef684f407166aca0
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: 3c4d34e21993f3b0c9327b27dd0a5a14f430b1b8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43504121"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637502"
 ---
 # <a name="empower-remote-workers"></a>Externe werknemers mogelijkheden bieden
 
@@ -58,14 +58,14 @@ Als u aan deze criteria voor externe werknemers wilt voldoen, gebruikt u de volg
 - Veilige toegang tot bronnen
   - Groepen en machtigingen voor Teams, SharePoint-sites en OneDrive, zodat alleen geverifieerde, gemachtigde gebruikers toegang hebben
 - Bescherming voor gelekte bestanden
-  - DLP-beleid van Office 365
+  - DLP-beleid
   - Gevoeligheidslabels voor versleuteling en machtigingen die met bestanden worden verzonden.
 - Apparaatbeheer en -beveiliging met Microsoft Intune
   - Inschrijving voor beheerde apparaten
   - App-instellingen voor persoonlijke apparaten
   - Beleid voor apparaten en apps
 - Productiviteits-apps voor apparaten
-  - Office 365 ProPlus-apps voor samenwerking via Teams, SharePoint en OneDrive 
+  - Microsoft 365-apps voor ondernemingenvoor samenwerking via Teams, SharePoint en OneDrive 
 - Windows 10 Enterprise
   - Uitgebreide beveiligingsfuncties ter bescherming tegen cyberaanvallen en ter voorkoming van het lekken van gegevens
 - Toegang tot on-premises apps
@@ -108,11 +108,11 @@ Dit is de resulterende configuratie met Windows 10 Enterprise-apparaten.
 
 ![Windows 10 Enterprise-elementen voor externe werknemers](../media/empower-people-to-work-remotely/remote-workers-win10-phase.png)
  
-Voor [Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md) implementeert u de infrastructuur voor het installeren van Office 365 ProPlus of voert u een upgrade uit op uw huidig geïnstalleerde Office-suite, zoals Office 2010 of Office 2013, naar Office 365 ProPlus op de apparaten in uw organisatie. Hiermee krijgen uw gebruikers de beste beveiligings- en samenwerkingsfunctionaliteit.
+Voor [Fase 4: Microsoft 365-apps voor ondernemingen](office365proplus-infrastructure.md) kunt u de infrastructuur implementeren om Microsoft 365-apps voor ondernemingen te installeren of de geïnstalleerde Office-suite, zoals Office 2010 of Office 2013, upgraden naar Microsoft 365-apps voor ondernemingen op apparaten binnen uw organisatie. Hiermee krijgen uw gebruikers de beste beveiligings- en samenwerkingsfunctionaliteit.
 
-Hier ziet u de resulterende configuratie met Office 365 ProPlus geïnstalleerd op apparaten.
+Hier ziet u de resulterende configuratie met Microsoft 365-apps voor ondernemingen geïnstalleerd op apparaten.
 
-![Office 365 ProPlus-elementen voor externe werknemers](../media/empower-people-to-work-remotely/remote-workers-proplus-phase.png)
+![Elementen van Microsoft 365-apps voor ondernemingen voor externe werknemers](../media/empower-people-to-work-remotely/remote-workers-proplus-phase.png)
  
 Voor [Fase 5: Mobile Device Management](mobility-infrastructure.md) implementeert u apparaat- en app-beheer van Intune voor:
 
@@ -126,8 +126,8 @@ Dit is de resulterende configuratie, waarin apparaten die zijn ingeschreven bij 
  
 Voor [Fase 6: Gegevensbeveiliging](infoprotect-infrastructure.md), ontwerpt en configureert u beveiliging voor uw digitale hulpmiddelen met:
 
-- DLP-beleid van Office 365.
-- Office 365-gevoeligheidslabels voor versleuteling en machtigingen die met bestanden worden verzonden.
+- DLP-beleid.
+- Gevoeligheidslabels in Microsoft 365 voor versleuteling en machtigingen die met bestanden worden verzonden.
 
 Dit is de resulterende configuratie, waarin DLP-beleid en gevoeligheidslabels zijn gemarkeerd.
 
@@ -153,7 +153,7 @@ Hier ziet u de resulterende configuratie waarin de werkbelastingen zijn gemarkee
  
 ### <a name="deployment-results"></a>Implementatieresultaten
 
-Na de implementatie van de basisinfrastructuur en werkbelastingen en de installatie van Windows 10 Enterprise en Office 365 ProPlus, geldt het volgende voor externe werknemers:
+Na de implementatie van de basisinfrastructuur en werkbelastingen en de installatie van Windows 10 Enterprise en Microsoft 365-apps voor ondernemingen, geldt het volgende voor externe werknemers:
 
 - Ze beschikken over sterke verificatie- en identiteitsbescherming.
 - Ze hebben de nieuwste en veiligste versie van Windows op hun Windows-apparaat.
@@ -205,7 +205,7 @@ School de gebruikers indien nodig bij.
 
 ### <a name="user-adoption-results"></a>Resultaten van gebruikersacceptatie
 
-Uw externe werknemers kunnen met hun Windows 10 Enterprise-apparaten of andere apparaten en Office 365 ProPlus in een beveiligde omgeving toegang krijgen tot en werken met gedeelde cloudservices en bronnen van Microsoft 365 Enterprise, waarbij ze in realtime vergaderen, creëren en samenwerken.
+Uw externe werknemers kunnen met hun Windows 10 Enterprise-apparaten of andere apparaten en Microsoft 365-apps voor ondernemingen in een beveiligde omgeving toegang krijgen tot en werken met gedeelde cloudservices en bronnen van Microsoft 365 Enterprise, waarbij ze in realtime vergaderen, creëren en samenwerken.
 
 ## <a name="additional-microsoft-features-to-support-remote-workers"></a>Aanvullende Microsoft-functies om externe werknemers te ondersteunen
 

@@ -1,5 +1,5 @@
 ---
-title: Een gebruikersnaam en e-mailadres wijzigen in Office 365
+title: Een gebruikersnaam en e-mailadres wijzigen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,17 +21,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
-description: 'Lees hoe een globale beheerder het Office 365-e-mailadres en de weergavenaam van een gebruiker kan wijzigen. '
-ms.openlocfilehash: 16dab0f0ac65bccea0e2273e396315a32dd33439
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: 'Lees hoe een globale beheerder het e-mailadres en de weergavenaam van een gebruiker kan wijzigen. '
+ms.openlocfilehash: 726d1f01203bbaefc529039d3816fb09c892cd90
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42810489"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43618738"
 ---
-# <a name="change-a-user-name-and-email-address-in-office-365"></a>Een gebruikersnaam en e-mailadres wijzigen in Office 365
+# <a name="change-a-user-name-and-email-address"></a>Een gebruikersnaam en e-mailadres wijzigen
 
-Het kan voorkomen dat u iemands e-mailadres en weergavenaam in Office 365 moet wijzigen, bijvoorbeeld als deze persoon gaat trouwen en een andere achternaam krijgt.
+Het kan voorkomen dat u iemands e-mailadres en weergavenaam moet wijzigen, bijvoorbeeld als deze persoon gaat trouwen en een andere achternaam krijgt.
 
 ::: moniker range="o365-worldwide"
 
@@ -48,7 +48,7 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
 
 ## <a name="change-a-users-email-address"></a>Het e-mailadres van een gebruiker wijzigen
 
-U moet een [globale beheerder van Office 365](about-admin-roles.md) zijn om deze stappen uit te voeren. 
+U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te voeren. 
 
 ::: moniker range="o365-worldwide"
  
@@ -101,7 +101,7 @@ U moet een [globale beheerder van Office 365](about-admin-roles.md) zijn om deze
     
     **BELANGRIJK**: U ziet de optie Instellen als primair niet als u Office 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen. 
     
-    U ziet deze optie ook alleen als u een globale beheerder van Office 365 bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
+    U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
   
 4. Er verschijnt een grote gele waarschuwing die u erop wijst dat u de aanmeldinformatie van de gebruiker gaat wijzigen. Selecteer **Opslaan** en vervolgens **Sluiten**.
     
@@ -129,7 +129,7 @@ U moet een [globale beheerder van Office 365](about-admin-roles.md) zijn om deze
     
     **BELANGRIJK**: U ziet de optie Instellen als primair niet als u Office 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen. 
     
-    U ziet deze optie ook alleen als u een globale beheerder van Office 365 bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
+    U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
   
 4. Er verschijnt een grote gele waarschuwing die u erop wijst dat u de aanmeldinformatie van de gebruiker gaat wijzigen. Selecteer **Opslaan** en vervolgens **Sluiten**.
     
@@ -157,7 +157,7 @@ U moet een [globale beheerder van Office 365](about-admin-roles.md) zijn om deze
     
     **BELANGRIJK**: U ziet de optie Instellen als primair niet als u Office 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen. 
     
-    U ziet deze optie ook alleen als u een globale beheerder van Office 365 bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
+    U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
   
 4. Er verschijnt een grote gele waarschuwing die u erop wijst dat u de aanmeldinformatie van de gebruiker gaat wijzigen. Selecteer **Opslaan** en vervolgens **Sluiten**.
     
@@ -223,22 +223,22 @@ Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorg
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>'Een parameter die overeenkomt met de parameternaam EmailAddresses kan niet worden gevonden'
 
-Als het foutbericht **Een parameter die overeenkomt met de parameternaam 'EmailAddresses' kan niet worden gevonden** wordt weergegeven, betekent dit dat Office 365 nog wat tijd nodig heeft om uw tenant of uw aangepaste domein in te stellen, als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even, zodat de instellingsprocedure kan worden voltooid en probeer het vervolgens opnieuw. Als het probleem aanhoudt, bel dan de Ondersteuning; zij voeren dan een volledige synchronisatie voor u uit.
+Als het foutbericht **Een parameter die overeenkomt met de parameternaam 'EmailAddresses' kan niet worden gevonden** wordt weergegeven, betekent dit dat nog wat tijd nodig is om uw tenant of uw aangepaste domein in te stellen, als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even zodat de instellingsprocedure kan worden voltooid, en probeer het vervolgens opnieuw. Als het probleem aanhoudt, belt u de ondersteuning. Zij voeren dan een volledige synchronisatie voor u uit.
   
 ### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>'De gebruiker kan niet worden bewerkt. Controleer de gebruiker en probeer het opnieuw'
 
-Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruiker en probeer het opnieuw**, betekent dit dat u geen globale beheerder van Office 365 bent en u niet gemachtigd bent om de naam van de gebruiker te wijzigen. Neem contact op met de globale beheerder in uw bedrijf en vraag of hij of zij de wijziging kan doorvoeren.
+Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruiker en probeer het opnieuw**, betekent dit dat u geen globale beheerder bent en u niet bent gemachtigd om de naam van de gebruiker te wijzigen. Neem contact op met de globale beheerder in uw bedrijf en vraag of hij of zij de wijziging kan doorvoeren.
 
 
 ## <a name="what-to-do-with-old-email-addresses"></a>Wat moet u doen met oude e-mailadressen
 
 Het vorige primaire e-mailadres van de gebruiker blijft behouden als extra e-mailadres. **U wordt sterk aangeraden om het oude e-mailadres niet te verwijderen.**
   
-Sommige personen blijven waarschijnlijk e-mail verzenden naar het oude e-mailadres van de gebruiker. Als dit wordt verwijderd, kunnen er NDR-fouten ontstaan. Office 365 stuurt deze automatisch door naar het nieuwe e-mailadres. Gebruik oude SMTP-e-mailadressen niet opnieuw en gebruik ze niet voor nieuwe accounts. Hierdoor kunnen ook NDR-fouten worden veroorzaakt of kan de e-mail bij een verkeerd postvak worden bezorgd.
+Sommige personen blijven waarschijnlijk e-mail verzenden naar het oude e-mailadres van de gebruiker. Als dit wordt verwijderd, kunnen er NDR-fouten ontstaan. Microsoft stuurt deze automatisch door naar het nieuwe e-mailadres. Gebruik oude SMTP-e-mailadressen niet opnieuw en gebruik ze niet voor nieuwe accounts. Hierdoor kunnen ook NDR-fouten worden veroorzaakt of kan de e-mail bij een verkeerd postvak worden bezorgd.
    
 ## <a name="what-if-the-persons-offline-address-book-wont-sync-with-the-global-address-list"></a>Wat gebeurt er als het offlineadresboek van de gebruiker niet wordt gesynchroniseerd met de algemene adreslijst?
 
-Als ze Exchange Online gebruiken of als hun Office 365-account is gekoppeld aan de on-premises Exchange-omgeving van uw organisatie, wordt mogelijk de volgende fout weergegeven wanneer u een gebruikersnaam en e-mailadres probeert te wijzigen: 'Deze gebruiker is gesynchroniseerd met de lokale Active Directory. Sommige gegevens kunnen alleen worden bewerkt via de lokale Active Directory.'
+Als ze Exchange Online gebruiken of als hun account is gekoppeld aan de on-premises Exchange-omgeving van uw organisatie, wordt mogelijk de volgende fout weergegeven wanneer u een gebruikersnaam en e-mailadres probeert te wijzigen: 'Deze gebruiker is gesynchroniseerd met de lokale Active Directory. Sommige gegevens kunnen alleen worden bewerkt via de lokale Active Directory.'
   
 Dat komt door de MOERA (Microsoft Online Email Routing Address). De MOERA is opgebouwd uit het  _userPrincipalName_-kenmerk van de gebruiker in Active Directory en wordt automatisch toegewezen aan het cloudaccount tijdens de eerste synchronisatie. Eenmaal gemaakt, kan deze niet worden gewijzigd of verwijderd in Office 365. U kunt vervolgens in Active Directory de gebruikersnaam wijzigen, maar de MOERA wordt niet gewijzigd. Bij het weergeven van de zojuist gewijzigde naam in de algemene adressenlijst kunt u tegen problemen aanlopen. 
   

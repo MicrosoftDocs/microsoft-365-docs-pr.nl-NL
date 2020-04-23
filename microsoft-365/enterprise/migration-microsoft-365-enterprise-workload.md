@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Doorloop het proces van het migreren van versies van Microsoft Office, Office-servers en Windows naar Microsoft 365 Enterprise binnen uw organisatie.
-ms.openlocfilehash: 76396ea3eb4622bb27455938f5c645dd1240003a
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 53d50321ffa2870fb0e94e9f6b7f005b8c666c2d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113494"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631535"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Migratie naar Microsoft 365 Enterprise
 
@@ -25,7 +25,7 @@ De meeste ondernemingen hebben een heterogene omgeving met meerdere versies van 
 
 Om de bedrijfswaarde van de geïntegreerde productsuite van Microsoft 365 Enterprise te maximaliseren, begint u met het plannen en implementeren van een strategie voor het migreren van releases van:
 
-- De Office-client die op uw computer is geïnstalleerd naar Office 365 ProPlus
+- De Office-client die op uw computer is geïnstalleerd naar Microsoft 365-apps voor ondernemingen
 - Office-servers die op uw servers zijn geïnstalleerd naar identieke services in Office 365
 - Windows 7 en Windows 8,1 op uw apparaten naar Windows 10 Enterprise
 
@@ -49,7 +49,7 @@ In veel grote en kleine organisaties wordt mogelijk een combinatie gebruikt van 
 - Zijn niet optimaal geschikt om de cloudtechnologieën van Microsoft te gebruiken en u te helpen bij het digitaal transformeren van uw bedrijf.
 - Bevatten geen nieuwe functies.
  
-Microsoft 365 Enterprise omvat Office 365 ProPlus, een versie van de Office-clientproducten die beschikbaar is met een Microsoft 365 Enterprise-licentie en die wordt geïnstalleerd en bijgewerkt vanuit de Microsoft-Cloud. Office 365 ProPlus bevat beveiligingsupdates en de nieuwste functies. Zie [Informatie over Office 365 ProPlus in de onderneming](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise) voor meer informatie.
+Microsoft 365 Enterprise omvat Microsoft 365-apps voor ondernemingen, een versie van de Office-clientproducten die beschikbaar is met een Microsoft 365 Enterprise-licentie en die wordt geïnstalleerd en bijgewerkt vanuit de Microsoft-Cloud. Microsoft 365-apps voor ondernemingen bevat beveiligingsupdates en de nieuwste functies. Zie [Over Microsoft 365-apps voor ondernemingen in de onderneming](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise) voor meer informatie.
 
 ### <a name="office-2007"></a>Office 2007
 
@@ -59,9 +59,9 @@ In plaats van uw computers met Office 2007 te upgraden naar Office 2010, Office 
 
 1. Een Microsoft 365-licentie voor uw gebruikers verkrijgen en toewijzen.
 2. Office 2007 van hun computers verwijderen.
-3. Office 365 ProPlus installeren, afzonderlijk of in combinatie met een IT-implementatie. Zie [Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md)voor meer informatie.
+3. Microsoft 365-apps voor ondernemingen installeren, afzonderlijk of in combinatie met een IT-implementatie. Zie [Fase 4: Microsoft 365-apps voor ondernemingen](office365proplus-infrastructure.md) voor meer informatie.
 
-Office 365 ProPlus installeert updates automatisch en kan gebruikmaken van cloudgebaseerde services in Office 365, voor verbeterde beveiliging en productiviteit.
+Microsoft 365-apps voor ondernemingen installeert updates automatisch en kan gebruikmaken van cloudgebaseerde services voor verbeterde beveiliging en productiviteit.
 
 ### <a name="office-2010"></a>Office 2010
 
@@ -71,9 +71,9 @@ In plaats van uw computers met Office 2010 te upgraden met Office 2013 of Office
 
 1. Een Microsoft 365-licentie voor uw gebruikers verkrijgen en toewijzen.
 2. Office 2010 van hun computers verwijderen.
-3. Office 365 ProPlus installeren, afzonderlijk of in combinatie met een IT-implementatie. Zie [Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md)voor meer informatie.
+3. Microsoft 365-apps voor ondernemingen installeren, afzonderlijk of in combinatie met een IT-implementatie. Zie [Fase 4: Microsoft 365-apps voor ondernemingen](office365proplus-infrastructure.md) voor meer informatie.
 
-Office 365 ProPlus installeert updates voor zowel beveiliging als nieuwe functies automatisch en kan gebruikmaken van cloudgebaseerde services in Microsoft 365, voor verbeterde beveiliging en productiviteit.
+Microsoft 365-apps voor ondernemingen installeert updates voor zowel beveiliging als nieuwe functies automatisch en kan gebruikmaken van cloudgebaseerde services in Microsoft 365, voor verbeterde beveiliging en productiviteit.
 
 ### <a name="office-2013-and-office-2016"></a>Office 2013 en Office 2016
 
@@ -83,9 +83,9 @@ In plaats van uw computers steeds bij te werken met de nieuwste beveiligingsupda
 
 1. Een Microsoft 365-licentie voor uw gebruikers verkrijgen en toewijzen.
 2. Office 2013 of Office 2016 van hun computers verwijderen.
-3. Office 365 ProPlus installeren, afzonderlijk of in combinatie met een IT-implementatie. Zie [Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md)voor meer informatie.
+3. Microsoft 365-apps voor ondernemingen installeren, afzonderlijk of in combinatie met een IT-implementatie. Zie [Fase 4: Microsoft 365-apps voor ondernemingen](office365proplus-infrastructure.md) voor meer informatie.
 
-Office 365 ProPlus installeert updates voor zowel beveiliging als nieuwe functies automatisch en kan gebruikmaken van cloudgebaseerde services in Microsoft 365, voor verbeterde beveiliging en productiviteit.
+Microsoft 365-apps voor ondernemingen installeert updates voor zowel beveiliging als nieuwe functies automatisch en kan gebruikmaken van cloudgebaseerde services in Microsoft 365, voor verbeterde beveiliging en productiviteit.
 
 ## <a name="migration-for-microsoft-office-server-products"></a>Migratie voor Microsoft Office-serverproducten
 
@@ -116,10 +116,9 @@ In plaats van uw serverproducten in de Office 2007-release bij te werken met ser
 
 ### <a name="office-server-2010"></a>Office Server 2010
 
-Voor serverproducten in de Office 2010-release eindigt de ondersteuning op **13 oktober 2020** voor de volgende producten:
+De ondersteuning voor [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support) wordt beëindigd op **13 oktober 2020**.
 
-- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
-- [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010)
+De ondersteuning voor [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010) wordt beëindigd op **13 april 2021**.
 
 In plaats van deze serverproducten in de Office 2010-release bij te werken met serverproducten in de Office 2013- of Office 2016-release, kunt u het volgende overwegen:
 
@@ -163,7 +162,7 @@ U kunt [deze poster downloaden](https://github.com/MicrosoftDocs/microsoft-365-d
 
 Raadpleeg de volgende Engelstalige informatiebronnen om te lezen hoe IT-specialisten van Microsoft het bedrijf hebben gemigreerd naar Microsoft 365 Enterprise: 
 
-- [Deploying and updating Microsoft Office 365 ProPlus](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus) (Microsoft Office 365 ProPlus implementeren en bijwerken)
+- [Microsoft 365-apps voor ondernemingen implementeren en bijwerken](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus)
 - [Microsoft migrates 150,000 mailboxes to Exchange Online](https://www.microsoft.com/itshowcase/Article/Content/577/Microsoft-migrates-150000-mailboxes-to-Exchange-Online)(Hoe Microsoft 150.000 postvakken heeft gemigreerd naar Exchange Online)
 - [SharePoint to the cloud: Learn how Microsoft ran its own migration](https://www.microsoft.com/itshowcase/Article/Content/691/SharePoint-to-the-cloud-Learn-how-Microsoft-ran-its-own-migration) (SharePoint naar de cloud: lees hoe Microsoft zelf de eigen migratie heeft uitgevoerd)
 - [Deploying Windows 10 at Microsoft as an in-place upgrade](https://www.microsoft.com/itshowcase/Article/Content/668/Deploying-Windows-10-at-Microsoft-as-an-inplace-upgrade) (Windows 10 implementeren bij Microsoft als een in-place upgrade)

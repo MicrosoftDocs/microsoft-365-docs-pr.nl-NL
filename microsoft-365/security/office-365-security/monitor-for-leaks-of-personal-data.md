@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Meer informatie over drie hulpprogramma's die u kunt gebruiken om te controleren op lekkage van persoonlijke gegevens.
-ms.openlocfilehash: 617f0fde0e4b15a014658ba0fc3cf2def4b88d81
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 9bc56d1de153f1357064d2b3ddada0d0533bc3cf
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42808454"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635158"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Controleer op lekken van persoonlijke gegevens
 
@@ -33,13 +33,13 @@ Er zijn veel hulpmiddelen die kunnen worden gebruikt om het gebruik en het trans
 
 In de afbeelding:
 
-- Begin met Office 365-rapporten voor preventie van gegevensverlies voor het bewaken van persoonlijke gegevens in SharePoint Online, OneDrive voor Bedrijven en e-mail in transit. Dit geeft het grootste detailniveau voor het bewaken van persoonlijke gegevens. Deze rapporten bevatten echter niet alle services in Office 365.
+- Begin met Microsoft 365-rapporten voor preventie van gegevensverlies voor het bewaken van persoonlijke gegevens in SharePoint Online, OneDrive voor Bedrijven en e-mail in transit. Dit geeft het grootste detailniveau voor het bewaken van persoonlijke gegevens. Deze rapporten bevatten echter niet alle services in Office 365.
 
-- Gebruik vervolgens waarschuwingsbeleid en het Office 365-controlelogboek om de activiteit in alle Office 365-services te controleren. Stel doorlopende bewaking in of doorzoek het auditlogboek om een incident te onderzoeken. Het auditlogboek van Office 365 werkt in alle Office 365-services: Sway, PowerBI, eDiscovery, Dynamics 365, Microsoft Flow, Microsoft Teams, Beheerdersactiviteit, OneDrive voor Bedrijven, SharePoint Online, mail in transit en postvakken in rust. Skype-gesprekken worden in de mailboxen in rust opgenomen.
+- Gebruik vervolgens waarschuwingsbeleid en het controlelogboek om de activiteit in alle services te controleren. Stel doorlopende bewaking in of doorzoek het auditlogboek om een incident te onderzoeken. Het auditlogboek werkt in alle services: Sway, PowerBI, eDiscovery, Dynamics 365, Microsoft Flow, Microsoft Teams, Beheerdersactiviteit, OneDrive voor Bedrijven, SharePoint Online, mail in transit en postvakken in rust. Skype-gesprekken worden in de mailboxen in rust opgenomen.
 
-- Ten slotte kunt u Microsoft Cloud App Security gebruiken om bestanden met gevoelige gegevens in andere SaaS-providers te bewaken. Binnenkort is het mogelijk om Office 365-gevoelige informatie typen en geïntegreerde labels te gebruiken voor Azure Information Protection en Office met Cloud app Security. U kunt beleid instellen dat van toepassing is op al uw SaaS-apps of specifieke apps (zoals Box). Cloud App Security vindt geen bestanden in Exchange Online, inclusief bestanden die zijn bijgevoegd bij e-mail.
+- Ten slotte kunt u Microsoft Cloud App Security gebruiken om bestanden met gevoelige gegevens in andere SaaS-providers te bewaken. Binnenkort is het mogelijk om gevoelige informatietypen en geïntegreerde labels te gebruiken voor Azure Information Protection en Office met Cloud app Security. U kunt beleid instellen dat van toepassing is op al uw SaaS-apps of specifieke apps (zoals Box). Cloud App Security vindt geen bestanden in Exchange Online, inclusief bestanden die zijn bijgevoegd bij e-mail.
 
-## <a name="office-365-data-loss-prevention-reports"></a>Office 365-rapporten ter voorkoming van gegevensverlies
+## <a name="data-loss-prevention-reports"></a>Rapporten voor preventie van gegevensverlies
 
 Nadat u uw DLP-beleid (Data Loss Prevention) heeft gemaakt, moet u controleren of het werkt zoals u het bedoeld heeft en of het u helpt om aan de regels te blijven voldoen. Met de DLP-rapporten in Office 365 kunt u snel het aantal DLP-beleidsovereenkomsten, onderdrukkingen of foutieve positieven bekijken. Zie of ze in de loop van de tijd omhoog of omlaag gaan, filter het rapport op verschillende manieren en bekijk aanvullende details door een punt op een lijn in de grafiek te selecteren.
 
@@ -65,17 +65,17 @@ Zie [de rapporten weergeven voor preventie van gegevensverlies](https://docs.mic
 
 ![Rapport met DLP-beleidsovereenkomsten](../../media/Monitor-for-leaks-of-personal-data-image2.png)
 
-## <a name="office-365-audit-log-and-alert-policies"></a>Controlelogboek en waarschuwingsbeleid Office 365
+## <a name="audit-log-and-alert-policies"></a>controlelogboek en waarschuwingsbeleid
 
-Het Office 365-auditlogboek bevat gebeurtenissen van Exchange Online, SharePoint Online, OneDrive voor Bedrijven, Azure Active Directory, Microsoft Teams, Power BI, Sway en andere Office 365-Services.
+Het auditlogboek bevat gebeurtenissen van Exchange Online, SharePoint Online, OneDrive voor Bedrijven, Azure Active Directory, Microsoft Teams, Power BI, Sway en andere services.
 
-Het beveiligingscentrum en het compliancecentrum bieden twee manieren om het Office 365-auditlogboek te controleren en erover te rapporteren:
+Het beveiligingscentrum en het compliancecentrum bieden twee manieren om het auditlogboek te controleren en erover te rapporteren:
 
 - Waarschuwingsbeleid instellen, waarschuwingen bekijken en trends volgen. Gebruik het waarschuwingsbeleid en de dashboardinstrumenten in het beveiligingscentrum of het compliancecentrum.
 
 - Direct in het auditlogboek zoeken. Zoek naar alle gebeurtenissen in een gespecificeerd datumbereik. U kunt de resultaten ook filteren op basis van specifieke criteria, zoals de gebruiker die de actie heeft uitgevoerd, de actie of het doelobject.
 
-Teams voor informatiebeveiliging en compliance kunnen deze hulpmiddelen gebruiken om proactief activiteiten te bekijken die worden uitgevoerd door zowel eindgebruikers als beheerders in Office 365-services. Automatische waarschuwingen kunnen worden geconfigureerd om e-mailmeldingen te verzenden wanneer bepaalde activiteiten plaatsvinden op specifieke siteverzamelingen. Bijvoorbeeld wanneer inhoud wordt gedeeld van sites waarvan bekend is dat ze AVG-gerelateerde informatie bevatten. Hierdoor kunnen deze teams gebruikers opvolgen om ervoor te zorgen dat het beveiligingsbeleid van het bedrijf wordt gevolgd of om aanvullende training te geven.
+Teams voor informatiebeveiliging en compliance kunnen deze hulpmiddelen gebruiken om proactief activiteiten te bekijken die worden uitgevoerd door zowel eindgebruikers als beheerders in services. Automatische waarschuwingen kunnen worden geconfigureerd om e-mailmeldingen te verzenden wanneer bepaalde activiteiten plaatsvinden op specifieke siteverzamelingen. Bijvoorbeeld wanneer inhoud wordt gedeeld van sites waarvan bekend is dat ze AVG-gerelateerde informatie bevatten. Hierdoor kunnen deze teams gebruikers opvolgen om ervoor te zorgen dat het beveiligingsbeleid van het bedrijf wordt gevolgd of om aanvullende training te geven.
 
 Informatiebeveiligingsteams kunnen ook in het auditlogboek zoeken om vermoedelijke datalekken te onderzoeken en zowel de oorzaak als de omvang van de inbreuk te bepalen. Deze ingebouwde mogelijkheid vergemakkelijkt de naleving van artikel 33 en 34 van de AVG, die vereisen dat binnen een bepaalde periode meldingen worden gedaan aan de toezichthoudende autoriteit en aan de betrokkenen zelf van een datalek. Vermeldingen in het auditlogboek worden binnen de service slechts 90 dagen bewaard. Het wordt vaak aanbevolen en veel organisaties vereisen dat deze logboeken voor langere tijd worden bewaard.
 
@@ -87,13 +87,13 @@ Meer informatie over het waarschuwingsbeleid en het doorzoeken van het auditlogb
 
 - [Zoeken in het auditlogboek naar gebruikers- en beheerdersactiviteit in Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log) (Inleiding)
 
-- [Auditlogboeken zoeken in Office 365 in- of uitschakelen](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off).
+- [Auditlogboeken zoeken in- of uitschakelen](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 
 - [Zoeken in het auditlogboek](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 - [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) (cmdlet)
 
-- [Gedetailleerde eigenschappen in het auditlogboek van Office 365](https://docs.microsoft.com/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log)
+- [Gedetailleerde eigenschappen in het auditlogboek](https://docs.microsoft.com/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 
@@ -113,9 +113,9 @@ Het tweede beleid blokkeert het downloaden van bestanden naar een onbeheerd appa
 
 Deze kenmerktypen komen binnenkort beschikbaar in Cloud App Security:
 
-- Gevoelige informatietypen in Office 365
+- Gevoelige informatietypen
 
-- Geïntegreerde labels in Office 365 en Azure Information Protection
+- Geïntegreerde labels in Microsoft 365 en Azure Information Protection
 
 ### <a name="cloud-app-security-dashboard"></a>Cloud App Security-dashboard
 

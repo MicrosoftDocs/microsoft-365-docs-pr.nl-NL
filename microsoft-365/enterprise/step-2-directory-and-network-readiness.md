@@ -15,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Leer hoe u de gereedheid van directory en netwerken in de omgeving kunt beoordelen.
-ms.openlocfilehash: 985212cc240d91ac04f9def1b7a53c42889d826f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4db179a2ed4c2aada841e8f7a4ed824aa1e190ff
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42806812"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636806"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>Stap 2: gereedheid van directory en netwerk
 
-Zorg ervoor dat uw directory en het netwerk zijn geconfigureerd en klaar zijn om uw overstap naar Windows 10 en Office 365 ProPlus te ondersteunen. Dit vereist dat Azure Active Directory Services zijn ingesteld voor gebruikers en moet uw netwerk de capaciteit hebben om zowel het reguliere verkeer als de verplaatsing van mogelijk grote hoeveelheden gegevens af te handelen wanneer pc's worden bijgewerkt en de bestanden, instellingen en applicaties van gebruikers worden hersteld.
+Zorg ervoor dat uw directory en het netwerk zijn geconfigureerd en klaar zijn om uw overstap naar Windows 10 en Microsoft 365-apps voor ondernemingen te ondersteunen. Dit vereist dat Azure Active Directory Services zijn ingesteld voor gebruikers en moet uw netwerk de capaciteit hebben om zowel het reguliere verkeer als de verplaatsing van mogelijk grote hoeveelheden gegevens af te handelen wanneer pc's worden bijgewerkt en de bestanden, instellingen en applicaties van gebruikers worden hersteld.
 
 ![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-1.png)
 
@@ -32,7 +32,7 @@ Zorg ervoor dat uw directory en het netwerk zijn geconfigureerd en klaar zijn om
 <thead>
 <td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Step 2" height="144" width="144" /></td>
 <td><p><strong>Stap 2: gereedheid van directory en netwerk</strong></p>
-<p>Voor cloud-verbonden services in Office 365 ProPlus en nieuwe implementatie-opties zoals Windows Autopilot is Azure Active Directory vereist. Uw netwerk en connectiviteit zijn ook belangrijke zaken om te plannen bij het verplaatsen van Windows-afbeeldingen, apps, stuurprogramma's en gerelateerde bestanden naar uw pc's. Lees hoe u met nieuwe hulpprogramma's en implementatieopties netwerkverkeer vermindert en stroomlijnt.</p></td>
+<p>Voor cloud-verbonden services in Microsoft 365-apps voor ondernemingen en nieuwe implementatie-opties zoals Windows Autopilot is Azure Active Directory vereist. Uw netwerk en connectiviteit zijn ook belangrijke zaken om te plannen bij het verplaatsen van Windows-afbeeldingen, apps, stuurprogramma's en gerelateerde bestanden naar uw pc's. Lees hoe u met nieuwe hulpprogramma's en implementatieopties netwerkverkeer vermindert en stroomlijnt.</p></td>
 <td><a href="https://aka.ms/ddev2" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-15.png" alt="Step 2" height="130" width="231" /></a></td>
 </thead>
 </table>
@@ -43,17 +43,17 @@ Zorg ervoor dat uw directory en het netwerk zijn geconfigureerd en klaar zijn om
 
 Directory- en netwerkgereedheid is van fundamenteel belang voor een vlotte implementatie van besturingssystemen en desktops. Zoals bij elke geautomatiseerde implementatie is het belangrijk om ervoor te zorgen dat uw bestandsshares kunnen worden bereikt en dat uw netwerk de overdracht van zeer grote bestanden, mogelijk naar honderden of zelfs duizenden pc's tegelijk, ondersteunt.
 
-Met de overstap naar Windows 10 en Office 365 ProPlus moet u er ook voor zorgen dat de cloudgebaseerde identiteit is ingesteld met Azure Active Directory. Dit is niet alleen bedoeld voor het activeren van Office 365 ProPlus, het stelt u ook in staat te profiteren van moderne provisioning-oplossingen zoals Windows Autopilot.
+Met de overstap naar Windows 10 en Microsoft 365-apps voor ondernemingen moet u er ook voor zorgen dat de cloudgebaseerde identiteit is ingesteld met Azure Active Directory. Dit is niet alleen bedoeld voor het activeren van Microsoft 365-apps voor ondernemingen, het stelt u ook in staat te profiteren van moderne provisioning-oplossingen zoals Windows Autopilot.
 
-In dit artikel vindt u informatie over de tools en opties om uw directoryservices en gebruikers- en apparaatrechten voor te bereiden, gereed voor implementatie in Windows 10 en Office 365 ProPlus.
+In dit artikel vindt u informatie over de tools en opties om uw directoryservices en gebruikers- en apparaatrechten voor te bereiden, gereed voor implementatie in Windows 10 en Microsoft 365-apps voor ondernemingen.
 
 ## <a name="adding-azure-active-directory"></a>Azure Active Directory toevoegen
 
 Als uw organisatie al Office 365, Exchange Online, Microsoft Intune of andere Microsoft Online-services gebruikt, is het goede nieuws dat u al Azure Active Directory gebruikt. Als dat het geval is hoeft u er alleen maar voor te zorgen dat de gebruikers waarvoor u een desktopimplementatie wilt uitvoeren, zich in uw Azure Active Directory bevinden en dat er licenties zijn toegewezen.
 
-Als u momenteel Azure Active Directory niet gebruikt, zijn er [talloze bronnen](https://docs.microsoft.com/azure/active-directory/) om u te helpen bij het instellen ervan. U kunt in aanmerking komen voor persoonlijke hulp via Microsoft FastTrack, als onderdeel van uw Office 365-licentie. U vindt [hier](https://fasttrack.microsoft.com) meer informatie over Microsoft FastTrack.
+Als u momenteel Azure Active Directory niet gebruikt, zijn er [talloze bronnen](https://docs.microsoft.com/azure/active-directory/) om u te helpen bij het instellen ervan. U kunt in aanmerking komen voor persoonlijke hulp via Microsoft FastTrack, als onderdeel van uw licentie. U vindt [hier](https://fasttrack.microsoft.com) meer informatie over Microsoft FastTrack.
 
-Zodra u Azure Active Directory hebt geïnstalleerd, kunnen uw gebruikers zich aanmelden en hun Office 365 ProPlus-apps activeren. U kunt Microsoft Intune of Windows Autopilot-implementatie gebruiken voor de geautomatiseerde implementatie van apps en beleid.
+Zodra u Azure Active Directory hebt geïnstalleerd, kunnen uw gebruikers zich aanmelden en hun apps uit Microsoft 365-apps voor ondernemingen activeren. U kunt Microsoft Intune of Windows Autopilot-implementatie gebruiken voor de geautomatiseerde implementatie van apps en beleid.
 
 ## <a name="network-readiness"></a>Netwerkgereedheid
 
@@ -67,7 +67,7 @@ Voor Windows-afbeeldingen zonder aanpassingen moet u normaal gesproken 3 GB per 
 
 ### <a name="software-updates"></a>Software-updates
 
-U moet de netwerkbandbreedte voor software-updates plannen. Windows 10 en Office 365 ProPlus gebruiken een nieuw servicemodel met maandelijkse en halfjaarlijkse updates. Als u nog niet eerder met dit model hebt gewerkt, kunt u [hier](https://docs.microsoft.com/windows/deployment/update/waas-overview) meer lezen over hoe dit werkt.
+U moet de netwerkbandbreedte voor software-updates plannen. Windows 10 en Microsoft 365-apps voor ondernemingen gebruiken een nieuw servicemodel met maandelijkse en halfjaarlijkse updates. Als u nog niet eerder met dit model hebt gewerkt, kunt u [hier](https://docs.microsoft.com/windows/deployment/update/waas-overview) meer lezen over hoe dit werkt.
 
 Het nieuwe servicemodel omvat tweemaal per jaar functie-updates voor Windows, Office halfjaarlijkse kanaalupdates en maandelijkse kwaliteitsupdates. Functie-updates zijn doorgaans 2-4 GB groot en Office halfjaarlijkse kanaalupdates zijn 300-400 MB per update. Dan zijn er de maandelijkse kwaliteitsupdates. Deze variëren van een paar honderd megabyte tot meer dan een gigabyte. Dit komt omdat maandelijkse updates cumulatief zijn, dus deze nemen in omvang toe gedurende de levensduur van elke Windows 10-versie. Dat gezegd hebbende, er zijn hulpprogramma‘s die kunnen helpen de hoeveelheid gegevens te verminderen die over het netwerk moeten gaan om updates te implementeren. Hieronder vindt u meer informatie hierover.
 
@@ -111,19 +111,19 @@ Opmerking: BranchCache en Peer Cache zijn complementair en kunnen in dezelfde om
 
 [BranchCache vs. Peer Cache](https://blogs.technet.microsoft.com/swisspfe/2018/01/25/branch-cache-vs-peer-cache/)
 
-**Delivery Optimization** Delivery Optimization is een andere peer-to-peer cachetechnologie die netwerkgebaseerde controles biedt voor implementaties. Windows 10 Delivery Optimization om ingebouwde UWP-apps bij te werken, om applicaties uit de Microsoft Store te installeren en voor software-updates die Express Updates gebruiken. Deze is beschikbaar sinds eerdere versies van Windows 10, hoewel het pas onlangs is geïntegreerd met Microsoft Endpoint Configuration Manager (huidige tak). Vanaf Windows 10 versie 1803 kunt u met nieuwe configuratie-opties onafhankelijk bandbreedtelimieten instellen voor achtergrondupdates en voorgrondtaken, zoals een app-installatie vanuit de Store. Windows Delivery Optimization ondersteunt nu ook Office 365 ProPlus tijdens clientupdates, beschikbaar in alle ondersteunde updatekanalen voor Office 365-clients. Ondersteuning voor Windows Delivery Optimization tijdens de eerste installatie van de Office 365-client is binnenkort beschikbaar.  
+**Delivery Optimization** Delivery Optimization is een andere peer-to-peer cachetechnologie die netwerkgebaseerde controles biedt voor implementaties. Windows 10 Delivery Optimization om ingebouwde UWP-apps bij te werken, om applicaties uit de Microsoft Store te installeren en voor software-updates die Express Updates gebruiken. Deze is beschikbaar sinds eerdere versies van Windows 10, hoewel het pas onlangs is geïntegreerd met Microsoft Endpoint Configuration Manager (huidige tak). Vanaf Windows 10 versie 1803 kunt u met nieuwe configuratie-opties onafhankelijk bandbreedtelimieten instellen voor achtergrondupdates en voorgrondtaken, zoals een app-installatie vanuit de Store. Windows Delivery Optimization ondersteunt nu ook Microsoft 365-apps voor ondernemingen tijdens clientupdates, beschikbaar in alle ondersteunde updatekanalen voor clients. Ondersteuning voor Windows Delivery Optimization tijdens de eerste installatie van de client is binnenkort beschikbaar.  
 
 ![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-5.png)
 
-**Aanvullende aandachtspunten voor Office 365 ProPlus**
+**Aanvullende overwegingen voor Microsoft 365-apps voor ondernemingen**
 
-Naast het gebruik van Delivery Optimization, zijn hier drie items die u helpen uw netwerkbelasting te verminderen als gevolg van Office 365 ProPlus-implementaties.
+Naast het gebruik van Delivery Optimization, zijn hier drie items die u helpen uw netwerkbelasting te verminderen als gevolg van implementaties van Microsoft 365-apps voor ondernemingen.
 
-**Binaire Delta-compressie** Office 365 ProPlus gebruikt Binaire Delta-compressie om de bandbreedte die wordt verbruikt door software-updates te verminderen bij het bijwerken van de meest recente versie van Office 365 ProPlus naar de volgende release. Door alleen de veranderingen op binair niveau op te halen uit de vorige versie, wordt de invloed van de cumulatieve updates geminimaliseerd. Dit kan elke maand honderden megabytes aan gegevens per pc besparen. Om deze functie te kunnen gebruiken, kunt u geen releases overslaan. Als u dat doet, moet de volledige cumulatieve update worden gedownload.
+**Binaire Delta-compressie** Microsoft 365-apps voor ondernemingen gebruikt Binaire Delta-compressie om de bandbreedte die wordt verbruikt door software-updates te verminderen bij het bijwerken van de meest recente versie van Microsoft 365-apps voor ondernemingen naar de volgende release. Door alleen de veranderingen op binair niveau op te halen uit de vorige versie, wordt de invloed van de cumulatieve updates geminimaliseerd. Dit kan elke maand honderden megabytes aan gegevens per pc besparen. Om deze functie te kunnen gebruiken, kunt u geen releases overslaan. Als u dat doet, moet de volledige cumulatieve update worden gedownload.
 
 [Updates voor Office 365 downloaden](https://docs.microsoft.com/deployoffice/overview-of-the-update-process-for-office-365-proplus#download-the-updates-for-office-365-proplus)
 
-**Outlook-gegevensbestanden** Outlook is vaak geconfigureerd om het hele postvak van gebruikers lokaal in de cache op te slaan voor offline gebruik. In elke Windows-implementatie, behalve een interne upgrade, moeten de Outlook-gegevensbestanden van de gebruiker na de upgrade opnieuw worden opgebouwd. Dit is een geautomatiseerd proces, maar met Outlook-postvaklimieten die doorgaans zijn ingesteld op maximaal 100 GB, betekent het opnieuw lokaal cachen van het hele postvak voor alle gebruikers veel gegevensoverdracht. Om de netwerkbelasting te verminderen, kunt u overwegen groepsbeleid te gebruiken om de instelling 'Mail offline bewaren' te verlagen. In Office 365 ProPlus of Office 2016 is de standaardwaarde voor Outlook ingesteld op 12 maanden. Om de impact op het netwerk te verminderen, kunt u overwegen om de offlinecache in te stellen tussen 1 en 6 maanden. Het wijzigen van deze instelling heeft geen invloed op de grootte van het online postvak en het hele postvak kan nog steeds online worden doorzocht via Outlook.
+**Outlook-gegevensbestanden** Outlook is vaak geconfigureerd om het hele postvak van gebruikers lokaal in de cache op te slaan voor offline gebruik. In elke Windows-implementatie, behalve een interne upgrade, moeten de Outlook-gegevensbestanden van de gebruiker na de upgrade opnieuw worden opgebouwd. Dit is een geautomatiseerd proces, maar met Outlook-postvaklimieten die doorgaans zijn ingesteld op maximaal 100 GB, betekent het opnieuw lokaal cachen van het hele postvak voor alle gebruikers veel gegevensoverdracht. Om de netwerkbelasting te verminderen, kunt u overwegen groepsbeleid te gebruiken om de instelling 'Mail offline bewaren' te verlagen. In Microsoft 365-apps voor ondernemingen of Office 2016 is de standaardwaarde voor Outlook ingesteld op 12 maanden. Om de impact op het netwerk te verminderen, kunt u overwegen om de offlinecache in te stellen tussen 1 en 6 maanden. Het wijzigen van deze instelling heeft geen invloed op de grootte van het online postvak en het hele postvak kan nog steeds online worden doorzocht via Outlook.
 
 ![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-6.png)
 
@@ -135,7 +135,7 @@ Naast het gebruik van Delivery Optimization, zijn hier drie items die u helpen u
 
 [On-Demand OneDrive-bestanden](https://www.microsoft.com/microsoft-365/blog/2017/05/11/introducing-onedrive-files-on-demand-and-additional-features-making-it-easier-to-access-and-share-files/)
 
-Als je OneDrive nog niet hebt geïmplementeerd, is de overstap van Windows 7 naar Windows 10 een perfecte gelegenheid om OneDrive in te schakelen en naadloos Office 365 ProPlus te integreren. U kunt overwegen om deze implementatie te starten terwijl u de apps en apparaten gereed maakt. Dit geeft bestandssynchronisatie een voorsprong voordat u begint met het verplaatsen van Windows-afbeeldingen en het implementeren van apps via uw netwerk.
+Als je OneDrive nog niet hebt geïmplementeerd, is de overstap van Windows 7 naar Windows 10 een perfecte gelegenheid om OneDrive in te schakelen en naadloos Microsoft 365-apps voor ondernemingen te integreren. U kunt overwegen om deze implementatie te starten terwijl u de apps en apparaten gereed maakt. Dit geeft bestandssynchronisatie een voorsprong voordat u begint met het verplaatsen van Windows-afbeeldingen en het implementeren van apps via uw netwerk.
 
 ## <a name="next-step"></a>Volgende stap 
 

@@ -14,13 +14,13 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Meer informatie over het voorbereiden van uw eindgebruikers op Windows 10 en Office 365 ProPlus met communicatie en training voor gebruikers.
-ms.openlocfilehash: 02fa62cc7f9276670812a887e927ce8a1c6fb549
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Meer informatie over het voorbereiden van uw eindgebruikers op Windows 10 en Microsoft 365-apps voor ondernemingen met communicatie en training voor gebruikers.
+ms.openlocfilehash: 7497925b7efd66dd4b86dd4d64df81490bbc7d90
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42808426"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636745"
 ---
 # <a name="step-8-user-communications-and-training"></a>Stap 8: Communicatie en training voor gebruikers
 
@@ -30,7 +30,7 @@ ms.locfileid: "42808426"
 <thead>
 <td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="Step 8" height="144" width="144" /></td>
 <td><p><strong>Stap 8 - Communicatie en training voor gebruikers</strong></p>
-<p>Zorg ervoor dat uw gebruikers op de hoogte zijn van nieuwe functies en nieuwe manieren om te werken terwijl u uw pc's naar Windows 10 en Office 365 ProPlus overzet. Lees meer over het gebruik van gebruikersondersteuning met Microsoft FastTrack, trainingsmateriaal en communicatiesjablonen. Daarnaast kunt u de gebruikersacceptatie en het gebruik bewaken.</p></td>
+<p>Zorg ervoor dat uw gebruikers op de hoogte zijn van nieuwe functies en nieuwe manieren om te werken terwijl u uw pc's naar Windows 10 en Microsoft 365-apps voor ondernemingen overzet. Lees meer over het gebruik van gebruikersondersteuning met Microsoft FastTrack, trainingsmateriaal en communicatiesjablonen. Daarnaast kunt u de gebruikersacceptatie en het gebruik bewaken.</p></td>
 <td><a href="https://aka.ms/ddev8" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></a></td>
 </thead>
 </table>
@@ -45,7 +45,7 @@ Het goede nieuws is als u overstapt van Windows 7 en Office 2010 of Office 2013,
 
 ## <a name="getting-ready-for-new-experiences"></a>Voorbereidingen treffen voor nieuwe ervaringen
 
-Als u Office 365 ProPlus voor de eerste keer installeert, is dit het moment om de voordelen te communiceren van het aanmelden bij Office-apps en het bestanden opslaan in OneDrive of SharePoint. Hiermee kunt u eenvoudiger delen, vermindert u bestandsvertakkingen en kunt cocreatie in realtime inschakelen.
+Als u Microsoft 365-apps voor ondernemingen voor de eerste keer installeert, is dit het moment om de voordelen te communiceren van het aanmelden bij Office-apps en het bestanden opslaan in OneDrive of SharePoint. Hiermee kunt u eenvoudiger delen, vermindert u bestandsvertakkingen en kunt cocreatie in realtime inschakelen.
 
 Er zijn gedetailleerde sjablonen voor communicatie en training beschikbaar voor deze en andere lokale of browser-apps, zoals Teams en Planner.
 
@@ -61,7 +61,7 @@ Er zijn ook zichtbare besturingselementen voor beveiliging en compliance waaraan
 
 Als u bijvoorbeeld meervoudige verificatie geeft ingeschakeld, gebruikt deze Azure AD en beschermt gebruikersaanmelding door het gebruik van een telefoon-app of PIN om veilig van diensten gebruik te kunnen maken.  Azure Information Protection maakt het eenvoudig voor gebruikers om documenten te classificeren en te labelen.
 
-[Meervoudige verificatie voor Office 365-gebruikers instellen](https://support.office.com/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
+[Meervoudige verificatie instellen voor gebruikers](https://support.office.com/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
 
 Dit zijn slechts één van de nieuwe mogelijkheden die door uw gebruikers zullen worden ervaren. Sommigen zullen als verrassend worden gezien, ofwel positief of minder positief. Deze verrassingen kunnen leiden tot meer telefoontjes en vragen voor uw helpdesk, vooral als het hun normale workflow verandert.
 
@@ -129,7 +129,7 @@ Implementeer met een snelheid die kan worden beheerd door de IT-afdeling, de hel
 
 Naast de diagnostische gegevens die u met behulp van de analysehulpprogramma's bewaakt, kunt u ook het gebruik van Office 365 en Microsoft 365 gedetailleerd controleren met behulp van gebruikersrapporten in de werkbelasting in het beheercentrum en de admin-dashboards via Power BI. Dit zijn handige hulpmiddelen om doelstellingen te bepalen en bij te houden terwijl u nieuwe hulpmiddelen voor samenwerking uitrolt, zoals Microsoft Teams, of nieuwe manieren om bestanden te delen, zoals OneDrive.
 
-De acceptatie en implementatie van nieuwe technologie gaat nog lang door nadat elke pc in uw organisatie Windows 10 en Office 365 ProPlus heeft geïnstalleerd. Gebruikers zullen niet zomaar hun werkwijze veranderen, zonder dat u de tijd neemt om hen op de hoogte te stellen van nieuwe mogelijkheden en ze te trainen. En dankzij de nieuwe servicemodellen die elk halfjaar doorlopend nieuwe functionaliteiten bieden voor Windows en optioneel op maandbasis voor Office, zal communicatie blijven doorgaan.
+De acceptatie en implementatie van nieuwe technologie gaat nog lang door nadat op elke pc in uw organisatie Windows 10 en Microsoft 365-apps voor ondernemingen is geïnstalleerd. Gebruikers zullen niet zomaar hun werkwijze veranderen, zonder dat u de tijd neemt om hen op de hoogte te stellen van nieuwe mogelijkheden en ze te trainen. En dankzij de nieuwe servicemodellen die elk halfjaar doorlopend nieuwe functionaliteiten bieden voor Windows en optioneel op maandbasis voor Office, zal communicatie blijven doorgaan.
 
 ## <a name="previous-step"></a>Vorige stap 
 

@@ -12,12 +12,12 @@ ms.collection:
 ms.service: O365-seccomp
 localization_priority: Priority
 description: Ontdek hoe u financiële services met Microsoft 365 kunt overzetten naar een modern samenwerkingsplatform, waarbij gegevens en systemen beveiligd blijven conform de regelgeving
-ms.openlocfilehash: 4dc2c25001bb817dcf31927d2c15b1246cc52901
-ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
+ms.openlocfilehash: f312c1a44f81dda2cd89937354423f686eb7346b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978276"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632605"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor Amerikaanse banken en kapitaalmarkten
 
@@ -55,7 +55,7 @@ Door medewerkers een modern samenwerkingsplatform in de cloud te bieden, kunnen 
 
 Teams biedt een samenwerkingshub voor de organisatie. Zo kunnen mensen samenwerken aan algemene initiatieven en projecten. Met Teams kunnen teamleden een-op-een en met meerdere partijen chatten, samenwerken aan documenten en bestanden opslaan en delen. Met Teams kunt u ook onlinevergaderingen houden via geïntegreerde spraak en video in het bedrijf. Teams kan ook worden aangepast met Microsoft-apps, zoals Microsoft Planner, Microsoft Dynamics 365, PowerApps, PowerBI en externe line-of-business-toepassingen. Teams is bedoeld voor gebruik door zowel interne teamleden als gemachtigde externe gebruikers die kunnen deelnemen aan teamkanalen en chatgesprekken, toegang hebben tot opgeslagen bestanden en andere toepassingen kunnen gebruiken
 
-Elk Microsoft-team wordt ondersteund door een Office 365-groep. Deze groep wordt beschouwd als de lidmaatschapsservice voor diverse Office 365-services, waaronder Teams. Office 365-groepen worden gebruikt om op een veilige manier onderscheid te maken tussen 'eigenaren' en 'leden' en om de toegang tot verschillende functies binnen Teams te beheren. Als Teams wordt gekoppeld aan de juiste beheerfuncties met regelmatig beheerde toegangscontroles, kunnen alleen leden en eigenaren de geautoriseerde kanalen en functionaliteit gebruiken.
+Elk Microsoft-team wordt ondersteund door een Microsoft 365-groep. Deze groep wordt beschouwd als de lidmaatschapsservice voor diverse Office 365-services, waaronder Teams. Microsoft 365-groepen worden gebruikt om op een veilige manier onderscheid te maken tussen 'eigenaren' en 'leden' en om de toegang tot verschillende functies binnen Teams te beheren. Als Teams wordt gekoppeld aan de juiste beheerfuncties met regelmatig beheerde toegangscontroles, kunnen alleen leden en eigenaren de geautoriseerde kanalen en functionaliteit gebruiken.
 
 Een veelvoorkomend scenario waarbij Teams financiële services ondersteunt, is bij het uitvoeren van interne projecten of programma's. Veel financiële instellingen, waaronder banken, vermogensbeheerders, kredietverenigingen en verzekeringsmaatschappijen, zijn bijvoorbeeld verplicht om antiwitwas- en andere complianceprogramma's te implementeren. Een multifunctioneel team bestaande uit IT, bedrijfstakken zoals retail- en vermogensbeheer en een eenheid voor financiële misdaadbestrijding, kan nodig zijn om gegevens met elkaar te delen en te communiceren over het programma of specifieke onderzoeken. Vroeger gebruikten deze programma's gedeelde netwerkschijven, maar dit voor diverse uitdagingen zorgen, waaronder:
 * Er kan slechts één persoon tegelijk een document bewerken.
@@ -70,18 +70,18 @@ Een ander algemeen scenario is het gebruik van Teams als 'virtuele gegevensruimt
  
 ### <a name="teams-improve-collaboration-and-reduce-compliance-risk"></a>Teams: betere samenwerking en minder compliancerisico
 
-Microsoft 365 biedt andere algemene beleidsmogelijkheden voor Teams door het gebruik van Office 365-groepen als onderliggende lidmaatschapsservice. Met dit beleid kunt u de samenwerking verbeteren en aan de compliancevereisten voldoen.
+Microsoft 365 biedt andere algemene beleidsmogelijkheden voor Teams door het gebruik van Microsoft 365-groepen als onderliggende lidmaatschapsservice. Met dit beleid kunt u de samenwerking verbeteren en aan de compliancevereisten voldoen.
 
-Het **naamgevingsbeleid voor Office 365-groepen** zorgt ervoor dat Office 365-groepen, ofwel teams, een naam krijgen volgens het bedrijfsbeleid. Namen kunnen problematisch zijn als ze niet geschikt zijn. Het is bijvoorbeeld mogelijk dat werknemers niet weten voor welke teams ze moeten werken of met welke teams ze informatie kunnen delen als namen niet op de juiste manier worden toegepast. Groepsnaamgevingsbeleid (inclusief ondersteuning voor op voorvoegsel/achtervoegsel gebaseerde beleidsregels en aangepaste geblokkeerde woorden) kan een goede 'hygiëne' afdwingen en het gebruik van specifieke woorden, zoals gereserveerde woorden of ongepaste terminologie, voorkomen.
+Het **naamgevingsbeleid voor Microsoft 365-groepen** zorgt ervoor dat Microsoft 365-groepen, ofwel teams, een naam krijgen volgens het bedrijfsbeleid. Namen kunnen problematisch zijn als ze niet geschikt zijn. Het is bijvoorbeeld mogelijk dat werknemers niet weten voor welke teams ze moeten werken of met welke teams ze informatie kunnen delen als namen niet op de juiste manier worden toegepast. Groepsnaamgevingsbeleid (inclusief ondersteuning voor op voorvoegsel/achtervoegsel gebaseerde beleidsregels en aangepaste geblokkeerde woorden) kan een goede 'hygiëne' afdwingen en het gebruik van specifieke woorden, zoals gereserveerde woorden of ongepaste terminologie, voorkomen.
   
-Het **beleid voor het verlopen van Office 365-groepen** helpt ervoor te zorgen dat Office 365-groepen, ofwel teams, niet langer worden bewaard dan de organisatie wil of nodig heeft. Met deze functie voorkomt u twee belangrijke problemen met informatiebeheer:
+Het **beleid voor het verlopen van Microsoft 365-groepen** helpt ervoor te zorgen dat Microsoft 365-groepen, ofwel teams, niet langer worden bewaard dan de organisatie wil of nodig heeft. Met deze functie voorkomt u twee belangrijke problemen met informatiebeheer:
 
 * Wildgroei van teams die niet nodig zijn of niet worden gebruikt.
 * Het bewaren van gegevens die niet meer nodig zijn of worden gebruikt door de organisatie (met uitzondering van juridische bewaarplicht/bewaring).
 
-Beheerders kunnen een verloopperiode opgeven voor Office 365-groepen, bijvoorbeeld 90, 180 of 365 dagen. Als een service die wordt ondersteund door een Office 365-groep, inactief is gedurende de vervalperiode, worden groepseigenaren op de hoogte gesteld. Als er geen actie wordt ondernomen, worden de Office 365-groep en alle bijbehorende services, inclusief Teams, verwijderd.
+Beheerders kunnen een verloopperiode opgeven voor Microsoft 365-groepen, bijvoorbeeld 90, 180 of 365 dagen. Als een service die wordt ondersteund door een Microsoft 365-groep, inactief is gedurende de vervalperiode, worden groepseigenaren op de hoogte gesteld. Als er geen actie wordt ondernomen, worden de Microsoft 365-groep en alle bijbehorende services, inclusief Teams, verwijderd.
   
-Het bewaren van gegevens die zijn opgeslagen in Teams en andere groepsservices, kan risico's vormen voor financiële dienstverleners. Het verloopbeleid van de groep Office 365 wordt aanbevolen om te voorkomen dat gegevens worden bewaard die niet meer nodig zijn. In combinatie met ingebouwde bewaarlabels en -beleid helpt Microsoft 365 ervoor te zorgen dat organisaties alleen de gegevens bewaren die nodig zijn om te voldoen aan het bedrijfsbeleid en wettelijke complianceverplichtingen.
+Het bewaren van gegevens die zijn opgeslagen in Teams en andere groepsservices, kan risico's vormen voor financiële dienstverleners. Het verloopbeleid van Microsoft 365-groepen wordt aanbevolen om te voorkomen dat gegevens worden bewaard die niet meer nodig zijn. In combinatie met ingebouwde bewaarlabels en -beleid helpt Microsoft 365 ervoor te zorgen dat organisaties alleen de gegevens bewaren die nodig zijn om te voldoen aan het bedrijfsbeleid en wettelijke complianceverplichtingen.
 
 #### <a name="teams-integrate-custom-requirements-with-ease"></a>Teams: eenvoudig aangepaste vereisten integreren
 
@@ -215,7 +215,7 @@ Financiële instellingen beheren grote hoeveelheden gegevens. En sommige bewaarp
 - Wat er gebeurt wanneer de bewaarperiode is verlopen (het document verwijderen, een verwijderingsbeoordeling starten of geen actie ondernemen)
 -  Waardoor de bewaarperiode wordt geactiveerd (aanmaakdatum, datum laatst gewijzigd, datum gelabeld of een gebeurtenis) en het document of de e-mail als record wordt gemarkeerd (wat betekent dat het niet kan worden bewerkt of verwijderd)
 
-De retentielabels worden vervolgens gepubliceerd naar SharePoint- en OneDrive-sites, Exchange-postvakken en Office 365-groepen. Gebruikers kunnen de retentielabels handmatig toepassen op documenten en e-mails. Recordbeheerders kunnen intelligentie gebruiken om de labels automatisch toe te passen. Intelligente functionaliteit kan worden gebaseerd op [meer dan 90 ingebouwde typen gevoelige informatie](https://docs.microsoft.com/microsoft-365/compliance/what-the-sensitive-information-types-look-for?view=o365-worldwide) (zoals het ABA Outing-nummer, het Amerikaanse bankrekeningnummer of Amerikaanse burgerservicenummer). Deze functionaliteit kan ook worden aangepast op basis van trefwoorden of gevoelige gegevens in documenten of e-mailberichten, zoals creditcardnummers of andere persoonsgegevens die zijn gebaseerd op SharePoint-metagegevens. Voor gegevens die niet gemakkelijk kunnen worden geïdentificeerd door handmatige of geautomatiseerde patroonvergelijking, kunnen trainbare classificaties worden gebruikt om documenten intelligent te classificeren op basis van technieken voor machine learning.
+De retentielabels worden vervolgens gepubliceerd naar SharePoint- en OneDrive-sites, Exchange-postvakken en Microsoft 365-groepen. Gebruikers kunnen de retentielabels handmatig toepassen op documenten en e-mails. Recordbeheerders kunnen intelligentie gebruiken om de labels automatisch toe te passen. Intelligente functionaliteit kan worden gebaseerd op [meer dan 90 ingebouwde typen gevoelige informatie](https://docs.microsoft.com/microsoft-365/compliance/what-the-sensitive-information-types-look-for?view=o365-worldwide) (zoals het ABA Outing-nummer, het Amerikaanse bankrekeningnummer of Amerikaanse burgerservicenummer). Deze functionaliteit kan ook worden aangepast op basis van trefwoorden of gevoelige gegevens in documenten of e-mailberichten, zoals creditcardnummers of andere persoonsgegevens die zijn gebaseerd op SharePoint-metagegevens. Voor gegevens die niet gemakkelijk kunnen worden geïdentificeerd door handmatige of geautomatiseerde patroonvergelijking, kunnen trainbare classificaties worden gebruikt om documenten intelligent te classificeren op basis van technieken voor machine learning.
  
 De **Securities and Exchange Commission (SEC)** vereist dat brokerdealers en andere gereguleerde financiële instellingen alle zakelijke communicatie bewaren. Deze vereisten zijn van toepassing op veel typen communicatie en gegevens, waaronder e-mailberichten, documenten, chatberichten en faxberichten en meer. **SEC-regel 17a-4** definieert de criteria waaraan deze organisaties moeten voldoen om records op te slaan in een elektronisch gegevensopslagsysteem. In 2003 bracht de SEC een release uit waarin deze vereisten werden toegelicht. Deze bevat de volgende criteria:
 

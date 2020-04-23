@@ -15,23 +15,23 @@ search.appverid:
 ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen het antispambeleid in Exchange Online en zelfstandige Exchange Online Protection (EOP) maken, wijzigen en verwijderen.
-ms.openlocfilehash: e3d49fecf456fe7f615cc2877c7522632b8db7d7
-ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
+description: Basisinstellingen van spamfilters bevatten de actie die moet worden uitgevoerd op berichten die als spam zijn geïdentificeerd.
+ms.openlocfilehash: 027cea45159131ebe4718dfb2209d8be15f8e355
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43608184"
+ms.locfileid: "43637710"
 ---
-# <a name="configure-anti-spam-policies-in-office-365"></a>Antispambeleid configureren in Office 365
+# <a name="configure-anti-spam-policies"></a>Beleid tegen ongewenste e-mail configureren
 
-Voor Office 365-gebruikers met postvakken in Exchange Online of standalone EOP-klanten (Exchange Online Protection) zonder Exchange Online-postvakken, zijn binnenkomende e-mailberichten automatisch tegen spam beschermd door EOP. EOP gebruikt antispambeleid (ook wel bekend als spamfilterbeleid of inhoudsfilterbeleid) als onderdeel van de algehele bescherming van uw bedrijf tegen spam. Zie [Antispambeleid in Office 365](anti-spam-protection.md) voor meer informatie.
+Voor Microsoft 365-gebruikers met postvakken in Exchange Online of standalone EOP-klanten (Exchange Online Protection) zonder Exchange Online-postvakken, zijn binnenkomende e-mailberichten automatisch tegen spam beschermd door EOP. EOP gebruikt antispambeleid (ook wel bekend als spamfilterbeleid of inhoudsfilterbeleid) als onderdeel van de algehele bescherming van uw bedrijf tegen spam. Zie [Bescherming tegen antispam](anti-spam-protection.md) voor meer informatie.
 
 Beheerders kunnen het standaardbeleid bekijken, bewerken en configureren (maar niet verwijderen). Voor grotere nauwkeurigheid kunt u ook aangepast antispambeleid maken dat wordt toegepast op specifieke gebruikers, groepen of domeinen binnen uw bedrijf. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
 
-U kunt antispambeleid configureren in het Office 365-beveiligings- en compliancecentrum of in PowerShell (Exchange Online PowerShell voor Office 365-klanten; Exchange Online Protection PowerShell voor standalone EOP-klanten).
+U kunt antispambeleid configureren in het beveiligings- en compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-klanten; Exchange Online Protection PowerShell voor standalone EOP-klanten).
 
-## <a name="anti-spam-policies-in-the-office-365-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>Antispambeleid in het Office 365-beveiligings- en compliancecentrum vergeleken met Exchange Online PowerShell of Exchange Online Protection PowerShell
+## <a name="anti-spam-policies-in-the-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>Antispambeleid in het beveiligings- en compliancecentrum vergeleken met Exchange Online PowerShell of Exchange Online Protection PowerShell
 
 De basiselementen van antispambeleid in EOP zijn: 
 
@@ -73,9 +73,9 @@ Om de effectiviteit van spamfilters te verhogen, kunt u aangepast antispambeleid
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone Exchange Online Protection PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u antispambeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rollengroep **Organisatiebeheer** of **Beveiligingsbeheer**. Voor alleen-lezentoegang tot het antispambeleid moet u lid zijn van de rollengroep **Beveiligingslezer**. Zie [Machtigingen in het Office 365-beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
+- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u antispambeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rollengroep **Organisatiebeheer** of **Beveiligingsbeheer**. Voor alleen-lezentoegang tot het antispambeleid moet u lid zijn van de rollengroep **Beveiligingslezer**. Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
-- Zie [Instellingen voor antispambeleid in EOP](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)voor de aanbevolen instellingen voor antispambeleid.
+- Zie [EOP-antispambeleidsinstellingen](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings) voor onze aanbevolen instellingen voor beleidsinstellingen voor antimalwarebeleid.
 
 ## <a name="use-the-security--compliance-center-to-create-anti-spam-policies"></a>Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te maken
 
@@ -280,7 +280,7 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 
 3. Klik op **Beleid bewerken**.
 
-De instellingen in de flyout zijn gelijk aan de instellingen die beschikbaar zijn in de sectie [Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te maken](#use-the-security--compliance-center-to-create-anti-spam-policies).
+De beschikbare instellingen in het deelvenster zijn voor aangepast antispambeleid hetzelfde als die zijn beschreven in de sectie [Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te maken](#use-the-security--compliance-center-to-create-anti-spam-policies).
 
 Voor het standaardantispambeleid met de naam **Standaardbeleid voor spamfilters** is de sectie **Toegepast op** niet beschikbaar (het beleid is op iedereen van toepassing) en u kunt de naam van het beleid niet wijzigen.
 
@@ -345,7 +345,7 @@ Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst,
      Er zijn drie cycli van spammeldingen voor eindgebruikers binnen een periode van 24 uur die beginnen op de volgende tijden: 01:00 UTC, 08:00 UTC en 16:00 UTC. 
     
      > [!NOTE]
-     > Als we tijdens een vorige cyclus een melding hebben gemist, zal de volgende cyclus de melding pushen. Dit geeft de indruk van meerdere meldingen op dezelfde dag.
+     > Als we tijdens een vorige cyclus een melding hebben gemist, wordt in de volgende cyclus de melding gepusht. Dit geeft de indruk van meerdere meldingen op dezelfde dag.
 
    - **Taal van meldingen**: klik op de vervolgkeuzelijst en selecteer een beschikbare taal in de lijst. De standaardwaarde is **Standaard**, dit betekent dat de standaardtaal van het EOP-bedrijf wordt gebruikt door de quarantainemeldingen.
 
@@ -465,7 +465,7 @@ Zie [Get-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module
 Gebruik de volgende syntaxis om bestaande spamfilterregels te bekijken:
 
 ```PowerShell
-Get-HostedContentFilterRule [-Identity "<RuleIdentity>"] [-State <Enabled | Disabled]
+Get-HostedContentFilterRule [-Identity "<RuleIdentity>] [-State <Enabled | Disabled]
 ```
 
 Voer de volgende opdracht uit om een overzicht van alle spamfilterregels weer te geven:
@@ -500,7 +500,7 @@ Zie [Get-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/e
 
 ### <a name="use-powershell-to-modify-spam-filter-policies"></a>PowerShell gebruiken om spamfilterbeleid te wijzigen
 
-Voor het wijzigen van spamfilterbeleid in PowerShell kunt u, naast de volgende items, beschikken over dezelfde instellingen als bij het maken van het beleid zoals eerder in dit artikel beschreven in de sectie [Stap 1: PowerShell gebruiken om spamfilterbeleid te maken](#step-1-use-powershell-to-create-a-spam-filter-policy).
+Naast de volgende items zijn dezelfde instellingen beschikbaar voor het wijzigen van malwarefilterbeleid in PowerShell als bij het maken van het beleid zoals eerder in dit artikel beschreven in de sectie [Stap 1: PowerShell gebruiken om spamfilterbeleid te maken](#step-1-use-powershell-to-create-a-spam-filter-policy).
 
 - De schakeloptie _MakeDefault_ die het specifieke beleid wijzigt in het standaardbeleid (toegepast op iedereen, altijd **Laagste** prioriteit en kan niet worden verwijderd) is alleen beschikbaar wanneer u spamfilterbeleid wijzigt in PowerShell.
 

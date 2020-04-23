@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Zorg ervoor dat uw configuratie voldoet aan de Microsoft 365 Enterprise-criteria voor identiteitsservices en -infrastructuur.
-ms.openlocfilehash: 433dec5e84c88dc6422619293f435f2d7199ea2e
-ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
+ms.openlocfilehash: 3706cd84a722e68a8b75274544630719e510345a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42809840"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632539"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>Fase 2: Afsluitcriterium voor identiteitsinfrastructuur
 
@@ -33,7 +33,7 @@ Zie ook [Vereisten](https://docs.microsoft.com/microsoft-365/enterprise/identity
 <a name="crit-identity-global-admin"></a>
 ## <a name="required-your-global-administrator-accounts-are-protected"></a>Vereist: uw globale-beheerdersaccounts worden beveiligd 
 
-U hebt [uw globale-beheerdersaccounts van Office 365 beveiligd](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts) om misbruik van referenties door kwaadwillende gebruikers en een inbreuk op uw abonnement op Microsoft 365 te voorkomen.
+U hebt [uw globale-beheerdersaccounts beveiligd](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts) om misbruik van referenties door kwaadwillende gebruikers en een inbreuk op uw abonnement op Microsoft 365 te voorkomen.
 
 Als u deze vereiste overslaat, kunnen uw globale-beheerdersaccounts gevoelig zijn voor aanvallen en misbruik, waardoor een kwaadwillende gebruiker toegang kan krijgen tot uw gegevens voor verzameling, vernietiging of digitale gijzeling.
 
@@ -47,7 +47,7 @@ Gebruik de volgende stappen om te controleren of u uw globale-beheerdersaccounts
    ```powershell
    Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
    ```
-2. Meld u aan bij Office 365 met een van de accounts uit stap 1. Voor elke aanmelding moeten Azure Multi-Factor Authentication en de sterkste vormen van secundaire verificatie in uw organisatie worden gebruikt.
+2. Meld u aan met een van de accounts uit stap 1. Voor elke aanmelding moeten Azure Multi-Factor Authentication en de sterkste vormen van secundaire verificatie in uw organisatie worden gebruikt.
 
 > [!Note]
 > Zie [Connect to Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell) (Verbinding maken met Office 365 PowerShell) voor instructies over het installeren van de Azure Active Directory PowerShell for Graph-module en het aanmelden bij Office 365.
@@ -96,11 +96,11 @@ Als u deze optie overslaat, kan aan uw gebruikers worden gevraagd referenties op
 [Stap 2](identity-secure-your-passwords.md#identity-sso) kan u bij deze optie desgewenst helpen.
 
 <a name="crit-identity-custom-sign-in"></a>
-## <a name="optional-the-office-365-sign-in-screen-is-personalized-for-your-organization"></a>Optioneel: het aanmeldingsscherm van Office 365 is aangepast voor uw organisatie.
+## <a name="optional-the-sign-in-screen-is-personalized-for-your-organization"></a>Optioneel: het aanmeldingsscherm is aangepast voor uw organisatie.
 
-U hebt [Huisstijl toevoegen aan de aanmeldingspagina en de pagina Toegangsvenster](https://aka.ms/aadpaddbranding) gebruikt om de huisstijl van uw organisatie toe te voegen aan de aanmeldingspagina van Office 365.
+U hebt [Huisstijl toevoegen aan de aanmeldingspagina en de pagina Toegangsvenster](https://aka.ms/aadpaddbranding) gebruikt om de huisstijl van uw organisatie toe te voegen aan de aanmeldingspagina.
 
-Als u deze optie overslaat, zien uw gebruikers een algemeen Office 365-aanmeldingsscherm en zijn ze mogelijk wantrouwig om zich aan te melden bij de site van uw organisatie.
+Als u deze optie overslaat, zien uw gebruikers een algemeen aanmeldingsscherm en zijn ze mogelijk wantrouwig om zich aan te melden bij de site van uw organisatie.
 
 [Stap 2](identity-secure-your-passwords.md#identity-custom-sign-in) kan u bij deze optie desgewenst helpen.
 
@@ -116,11 +116,11 @@ Als u deze optie overslaat, zijn uw gebruikersaccounts kwetsbaar voor inbreuken 
 
 ### <a name="how-to-test"></a>Testen
 
-1.  Een testgebruikersaccount maken en hieraan een licentie toewijzen. 
-2.  Configureer Azure Multi-Factor Authentication voor het testgebruikersaccount met de extra verificatiemethode die u gebruikt voor feitelijke gebruikersaccounts, zoals voor het verzenden van een sms-bericht naar uw telefoon. 
-3.  Meld u aan bij de Office 365-portal met het testgebruikersaccount.
-4.  Controleer of MFA u bij een geslaagde verificatie vraagt om de extra verificatiegegevens en de resultaten. 
-5.  Verwijder het testgebruikersaccount.
+1.    Een testgebruikersaccount maken en hieraan een licentie toewijzen. 
+2.    Configureer Azure Multi-Factor Authentication voor het testgebruikersaccount met de extra verificatiemethode die u gebruikt voor feitelijke gebruikersaccounts, zoals voor het verzenden van een sms-bericht naar uw telefoon. 
+3.    Meld u aan bij de Office 365-portal met het testgebruikersaccount.
+4.    Controleer of MFA u bij een geslaagde verificatie vraagt om de extra verificatiegegevens en de resultaten. 
+5.    Verwijder het testgebruikersaccount.
 
 <a name="crit-identity-ident-prot"></a>
 ## <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-e5-only"></a>Optioneel: Azure AD Identity Protection is ingeschakeld voor bescherming tegen inbreuk op referenties (alleen Microsoft 365 E5)
@@ -133,7 +133,7 @@ U hebt Azure AD Identity Protection ingeschakeld om:
 
 Als u deze optie overslaat, is het niet mogelijk om inbreuken op referenties automatisch te detecteren of uit te schakelen of om beveiligingsincidenten met betrekking tot identiteiten te onderzoeken. Hierdoor is uw organisatie mogelijk kwetsbaar voor een inbreuk op referenties en met als gevolg misbruik van gegevens van uw organisatie.
 
-[Stap 3](identity-secure-user-sign-ins.md#identity-ident-prot) kan u bij deze optie desgewenst helpen.
+[Stap 3](identity-secure-user-sign-ins.md#identity-ident-prot) kan u desgewenst helpen bij deze optie.
 
 
 ### <a name="how-to-test"></a>Testen
@@ -148,7 +148,7 @@ Als u deze optie overslaat, is het niet mogelijk om inbreuken op referenties aut
 
 Als u al over on-premises Active Directory Domain Services (AD DS) beschikt, hebt u Azure AD Connect gebruikt voor het synchroniseren van gebruikersaccounts en -groepen uit uw on-premises AD DS met de Azure AD-tenant.
 
-Met adreslijstsynchronisatie kunnen uw gebruikers zich aanmelden bij Office 365 en andere Microsoft-cloudservices met dezelfde referenties die ze gebruiken om zich aan te melden bij hun computers en toegang te krijgen tot on-premises resources.
+Met adreslijstsynchronisatie kunnen uw gebruikers zich aanmelden bij Microsoft 365 en andere Microsoft-cloudservices met dezelfde referenties die ze gebruiken om zich aan te melden bij hun computers en toegang te krijgen tot on-premises resources.
 
 Via [Stap 4](identity-add-user-accounts.md#identity-sync) kunt u zo nodig aan deze vereisten voldoen.
 
@@ -164,9 +164,9 @@ Als u wilt controleren of verificatie met on-premises referenties correct werkt,
 
 Ga als volgt te werk om te controleren of adreslijstsynchronisatie goed werkt:
 
-1.  Maak een nieuwe testgroep in AD DS.
-2.  Wacht totdat de synchronisatie voorbij is.
-3.  Controleer de Azure AD-tenant om te controleren of de naam van de nieuwe testgroep wordt weergegeven.
+1.    Maak een nieuwe testgroep in AD DS.
+2.    Wacht totdat de synchronisatie voorbij is.
+3.    Controleer de Azure AD-tenant om te controleren of de naam van de nieuwe testgroep wordt weergegeven.
 
 <a name="crit-identity-sync-health"></a>
 ## <a name="optional-directory-synchronization-is-monitored"></a>Optioneel: adreslijstsynchronisatie wordt bewaakt
@@ -209,11 +209,11 @@ U test wachtwoord terugschrijven door uw wachtwoord te wijzigen in Office 365. U
 
 ### <a name="how-to-test"></a>Testen
 
-Meld u aan bij de Office 365-portal met de naam van uw gebruikersaccount en Azure Multi-Factor Authentication. U ziet nu de aangepaste huisstijlelementen op de aanmeldingspagina.
+Meld u aan bij de portal met de naam van uw gebruikersaccount en Azure Multi-Factor Authentication. U ziet nu de aangepaste huisstijlelementen op de aanmeldingspagina.
 
 
 <a name="crit-identity-self-service-groups"></a>
-## <a name="optional-self-service-group-management-is-enabled-for-specific-azure-ad-security-and-office-365-groups"></a>Optioneel: self-servicegroepsbeheer is ingeschakeld voor specifieke Azure AD-beveiligingsgroepen en Office 365-groepen
+## <a name="optional-self-service-group-management-is-enabled-for-specific-azure-ad-security-and-microsoft-365-groups"></a>Optioneel: self-servicegroepsbeheer is ingeschakeld voor specifieke Azure AD-beveiligingsgroepen en Microsoft 365-groepen
 
 U hebt vastgesteld welke groepen geschikt zijn voor self-servicebeheer, de eigenaren ervan geïnstrueerd over workflow en verantwoordelijkheden van groepsbeheer, en voor die groepen [self-servicebeheer ingesteld in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-self-service-group-management).
 
@@ -222,13 +222,13 @@ Als u deze optie overslaat, moeten alle groepsbeheertaken van Azure AD door IT-b
 [Stap 5](identity-use-group-management.md#identity-self-service-groups) kan u bij deze optie desgewenst helpen.
 
 ### <a name="how-to-test"></a>Testen
-1.  Maak een testgebruikersaccount in Azure AD via Azure Portal.
-2.  Meld u aan met het testgebruikersaccount en maak een Azure AD-beveiligingstestgroep.
-3.  Meld u af en meld u vervolgens aan met uw IT-beheerdersaccount.
-4.  Configureer de beveiligingstestgroep test voor self-servicebeheer voor het testgebruikersaccount.
-5.  Meld u af en meld u vervolgens aan met uw testgebruikersaccount.
-6.  Gebruik Azure Portal om leden toe te voegen aan de beveiligingstestgroep.
-7.  Verwijder de beveiligingstestgroep en het testgebruikersaccount.
+1.    Maak een testgebruikersaccount in Azure AD via Azure Portal.
+2.    Meld u aan met het testgebruikersaccount en maak een Azure AD-beveiligingstestgroep.
+3.    Meld u af en meld u vervolgens aan met uw IT-beheerdersaccount.
+4.    Configureer de beveiligingstestgroep test voor self-servicebeheer voor het testgebruikersaccount.
+5.    Meld u af en meld u vervolgens aan met uw testgebruikersaccount.
+6.    Gebruik Azure Portal om leden toe te voegen aan de beveiligingstestgroep.
+7.    Verwijder de beveiligingstestgroep en het testgebruikersaccount.
 
 <a name="crit-identity-dyn-groups"></a>
 ## <a name="optional-dynamic-group-membership-settings-automatically-add-user-accounts-to-groups-based-on-user-account-attributes"></a>Optioneel: met de instellingen van het dynamische groepslidmaatschap worden gebruikersaccounts automatisch aan groepen toegevoegd op basis van kenmerken van gebruikersaccounts
@@ -243,7 +243,7 @@ Als u deze optie overslaat, moet groepslidmaatschap handmatig worden uitgevoerd 
 
 Als de groepen Verkoop en Boekhouding dynamisch zouden zijn, zou u alleen de waarde Afdeling van het gebruikersaccount hoeven te wijzigen.
 
-[Stap 5](identity-use-group-management.md#identity-dyn-groups) kan u bij deze optie desgewenst helpen.
+[Stap 5](identity-use-group-management.md#identity-dyn-groups) kan u desgewenst helpen bij deze optie.
 
 ### <a name="how-to-test"></a>Testen
 

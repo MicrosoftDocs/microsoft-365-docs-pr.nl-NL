@@ -20,18 +20,18 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 65a6d687-a16a-4415-9fd5-011ba9c5fd80
 description: 'Overzicht: federatieve verificatie configureren voor uw Microsoft 365-testomgeving.'
-ms.openlocfilehash: 4796f8f2a7dc6757ccbcb3d608d72ad789d34e40
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b0aa967570c3d12554cdb273a8b39b8931af1fbd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42808819"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634096"
 ---
 # <a name="federated-identity-for-your-microsoft-365-test-environment"></a>Federatieve identiteit voor uw Microsoft 365-testomgeving
 
 *Deze testlabrichtlijnen kunnen worden gebruikt voor zowel Microsoft 365 Enterprise- als Office 365 Enterprise-testomgevingen.*
 
-Office 365 ondersteunt federatieve identiteit. Dit betekent dat in plaats van de validatie van referenties zelf uit te voeren, Office 365 de verbindende gebruiker verwijst naar een federatieve verificatieserver die Office 365 vertrouwt. Als de inloggegevens van de gebruiker correct zijn, geeft de federatieve verificatieserver een beveiligingstoken uit dat de client vervolgens naar Office 365 stuurt als bewijs van verificatie. Federatieve identiteit zorgt voor de offloading en schaalbaarheid van verificatie voor een Office 365-abonnement en geavanceerde verificatie- en beveiligingsscenario's.
+Microsoft 365 ondersteunt federatieve identiteit. Dit betekent dat in plaats van de validatie van referenties zelf uit te voeren, Microsoft 365 de verbindende gebruiker verwijst naar een federatieve verificatieserver die Microsoft 365 vertrouwt. Als de inloggegevens van de gebruiker correct zijn, geeft de federatieve verificatieserver een beveiligingstoken uit dat de client vervolgens naar Microsoft 365 stuurt als bewijs van verificatie. Federatieve identiteit zorgt voor de offloading en schaalbaarheid van verificatie voor een Microsoft 365-abonnement en geavanceerde verificatie- en beveiligingsscenario's.
   
 In dit artikel wordt beschreven hoe u federatieve verificatie kunt configureren voor uw Microsoft 365- of Office 365-testomgeving, wat resulteert in het volgende:
 
@@ -53,7 +53,7 @@ Er zijn vijf fasen om deze testomgeving in te stellen:
     
 4. Maak een zelfondertekend certificaat en configureer ADFS1 en PROXY1.
     
-5. Configureer Office 365 voor federatieve identiteit.
+5. Configureer Microsoft 365 voor federatieve identiteit.
     
 > [!NOTE]
 > U kunt deze testomgeving niet configureren met een Azure-proefabonnement. 
@@ -67,11 +67,11 @@ Volg de instructies in [wachtwoord-hash-synchronisatie voor Microsoft 365](passw
 Deze configuratie bestaat uit: 
   
 - Een proef- of betaald abonnement op Microsoft 365 E5 of Office 365 E5.
-- Een vereenvoudigde organisatie die via intranet is verbonden met internet, bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. Azure AD Connect wordt uitgevoerd op APP1 om het AD DS-domein TESTLAB periodiek te synchroniseren met de Azure AD-tenant van uw Microsoft 365- of Office 365-abonnement.
+- Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. Azure AD Connect wordt uitgevoerd op APP1 om het AD DS-domein TESTLAB te synchroniseren met de Azure AD-tenant van uw Microsoft 365-abonnementen.
 
 ## <a name="phase-2-create-the-ad-fs-server"></a>Fase 2: maak de AD FS-server
 
-Een AD FS-server biedt federatieve verificatie tussen Office 365 en de accounts in het corp.contoso.com-domein dat wordt gehost op DC1.
+Een AD FS-server biedt federatieve verificatie tussen Microsoft 365 en de accounts in het corp.contoso.com-domein dat wordt gehost op DC1.
   
 Als u een virtuele machine van Azure wilt maken voor ADFS1, vult u de naam van uw abonnement, de bronnengroep en de Azure-locatie voor uw basisconfiguratie in en voert u deze opdrachten uit op de opdrachtprompt van de Azure PowerShell op uw lokale computer.
   
@@ -349,19 +349,19 @@ Gebruik de volgende stappen om de service webtoepassingsproxy zo te configureren
 8. Klik op de pagina **Resultaten** op **Voltooien**.
 
     
-## <a name="phase-5-configure-office-365-for-federated-identity"></a>Fase 5: Office 365 configureren voor federatieve identiteit.
+## <a name="phase-5-configure-microsoft-365-for-federated-identity"></a>Fase 5: Office 365 configureren voor federatieve identiteit
 
 Gebruik de [Azure-Portal](https://portal.azure.com) om verbinding te maken met de virtuele APP1-computer met de accountreferenties voor CORP\\gebruiker1.
   
-Volg deze stappen voor het configureren van Azure AD Connect en uw Office 365-abonnement voor federatieve verificatie:
+Volg deze stappen voor het configureren van Azure AD Connect en uw Microsoft 365-abonnement voor federatieve verificatie:
   
 1. Dubbelklik op het bureaublad op **Azure AD Connect**.
     
 2. Klik op de pagina **Welkom bij Azure AD Connect** op **configureren**.
     
-3. Klik op de pagina **aanvullende taken** op **gebruikersaanmelding wijzigen**en klik vervolgens op **volgende**.
+3. Klik op de pagina **Aanvullende taken** op **Gebruikersaanmelding wijzigen**en klik vervolgens op **Volgende**.
     
-4. Typ op de pagina **verbinding maken met Azure AD** de naam en het wachtwoord van het globale beheerdersaccount van Office 365 en klik vervolgens op **volgende**.
+4. Typ op de pagina **verbinding maken met Azure AD** de naam en het wachtwoord van het globale beheerdersaccount en klik vervolgens op **volgende**.
     
 5. Klik op de pagina **gebruikersaanmelding** op **federatie met AD FS**en klik vervolgens op **volgende**.
     
@@ -373,7 +373,7 @@ Volg deze stappen voor het configureren van Azure AD Connect en uw Office 365-ab
     
 9. Typ op de pagina **AD FS-serviceaccount** de waarde **CORP\\ADFS-service** als **gebruikersnaam van het domein** en het wachtwoord van het account bij **wachtwoord voor gebruikersdomein**en klik vervolgens op **volgende**.
     
-10. Selecteer de naam van het domein dat u eerder hebt gemaakt en toegevoegd aan uw Office 365-abonnement in fase 1 op de pagina **Azure AD-domein** bij **domein** en klik vervolgens op **volgende**.
+10. Selecteer de naam van het domein dat u eerder hebt gemaakt en toegevoegd aan uw abonnement in fase 1 op de pagina **Azure AD-domein** bij **domein** en klik vervolgens op **volgende**.
     
 11. Klik op de pagina **Gereed om te configureren** op **Configureren**.
     
@@ -389,7 +389,7 @@ Om aan te tonen dat federatieve verificatie werkt:
     
 2. Voor de aanmeldingsreferenties typt u **user1@**\<het domein dat u hebt gemaakt in fase 1>. 
     
-    Als uw testdomein bijvoorbeeld **testlab.contoso.com** is, typt u 'user1@testlab.contoso.com'. Druk op Tab of laat Office 365 u automatisch omleiden.
+    Als uw testdomein bijvoorbeeld **testlab.contoso.com** is, typt u 'user1@testlab.contoso.com'. Druk op Tab of laat Microsoft 365 u automatisch omleiden.
     
     U zou nu een pagina moeten zien met **Uw verbinding is niet privé**. U ziet dit omdat u een zelfondertekend certificaat op ADFS1 heeft geïnstalleerd dat uw desktopcomputer niet kan valideren. Bij een productie-implementatie van federatieve verificatie gebruikt u een certificaat van een vertrouwde certificeringsinstantie en zien uw gebruikers deze pagina niet.
     
@@ -403,9 +403,9 @@ Om aan te tonen dat federatieve verificatie werkt:
     
     U zou de pagina van **Microsoft Office voor Thuisgebruik** moeten zien.
     
-Deze procedure laat zien dat uw proefabonnement op Office 365 is verbonden met het AD DS corp.contoso.com-domein dat wordt gehost op DC1. Hier volgen de basisbeginselen van het verificatieproces:
+Deze procedure laat zien dat uw proefabonnement is verbonden met het AD DS corp.contoso.com-domein dat wordt gehost op DC1. Hier volgen de basisbeginselen van het verificatieproces:
   
-1. Wanneer u het federatieve domein gebruikt dat u in fase 1 hebt gemaakt binnen de aanmeldingsaccountnaam, leidt Office 365 uw browser om naar uw federatiediensten FQDN en PROXY1.
+1. Wanneer u het federatieve domein gebruikt dat u in fase 1 hebt gemaakt binnen de aanmeldingsaccountnaam, leidt Microsoft 365 uw browser om naar uw federatiediensten FQDN en PROXY1.
     
 2. PROXY1 stuurt uw lokale computer naar de aanmeldingspagina voor fictief bedrijf.
     
@@ -413,13 +413,13 @@ Deze procedure laat zien dat uw proefabonnement op Office 365 is verbonden met h
     
 4. ADFS1 valideert CORP\\gebruiker1 en het wachtwoord met DC1 en stuurt uw lokale computer een beveiligingstoken.
     
-5. Uw lokale computer verzendt het beveiligingstoken naar Office 365.
+5. Uw lokale computer verzendt het beveiligingstoken naar Microsoft 365.
     
-6. Office 365 valideert dat het beveiligingstoken is gemaakt door ADFS1 en biedt toegang.
+6. Microsoft 365 valideert dat het beveiligingstoken is gemaakt door ADFS1 en biedt toegang.
     
-Uw proefabonnement voor Office 365 is nu geconfigureerd met federatieve verificatie. U kunt deze ontwikkel- en testomgeving gebruiken voor geavanceerde verificatiescenario's.
+Uw proefabonnement is nu geconfigureerd met federatieve verificatie. U kunt deze ontwikkel- en testomgeving gebruiken voor geavanceerde verificatiescenario's.
   
 ## <a name="next-step"></a>Volgende stap
 
-Zie [Federatieve verificatie met hoge beschikbaarheid implementeren voor Office 365 in Azure](https://docs.microsoft.com/office365/enterprise/deploy-high-availability-federated-authentication-for-office-365-in-azure) wanneer u gereed bent om productieklare federatieve verificatie met hoge beschikbaarheid te implementeren voor Microsoft 365 of Office 365 in Azure.
+Zie [Federatieve verificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure](https://docs.microsoft.com/office365/enterprise/deploy-high-availability-federated-authentication-for-office-365-in-azure) wanneer u gereed bent om productieklare federatieve verificatie met hoge beschikbaarheid te implementeren voor Microsoft 365 of Office 365 in Azure.
   

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Krijg inzicht in de belangrijkste fasen van het implementeren van de basisinfrastructuur voor Microsoft 365 voor ondernemingen in uw organisatie, ook wel bekend als de kernimplementatie.
-ms.openlocfilehash: 6c2784d22e236880b87ece9e04e11fb0502667dd
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 287afd5e5f75bb6547e1898877f3d1c65ebfb9a0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153842"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638246"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure"></a>Basisinfrastructuur voor Microsoft 365 voor ondernemingen
 
@@ -33,9 +33,9 @@ Voor een gedefinieerd end-to-end-pad voor implementatie kunt u deze fasen gebrui
 |![Fase 1: Netwerk](../media/deploy-foundation-infrastructure/networking_icon-small.png)|[Fase 1: Netwerk](networking-infrastructure.md)| Uw netwerk wordt geoptimaliseerd voor toegang tot de cloudservices van Microsoft 365. |
 |![Fase 2 : Identiteit](../media/deploy-foundation-infrastructure/identity_icon-small.png)|[Fase 2: Identiteit](identity-infrastructure.md)| Uw beheerdersaccounts worden beveiligd, uw gebruikers en groepen worden gesynchroniseerd en uw gebruikersverificatie is sterk. |
 |![Fase 3: Windows 10 Enterprise](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)|[Fase 3: Windows 10 Enterprise](windows10-infrastructure.md)| Voor uw bestaande Windows-computers kan een upgrade worden uitgevoerd naar Windows 10 Enterprise en op nieuwe apparaten wordt Windows 10 Enterprise geïnstalleerd. |
-|![Fase 4: Office 365 ProPlus](../media/deploy-foundation-infrastructure/O365proplus_icon-small.png)|[Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md)| Bestaande gebruikers van Microsoft Office kunnen een upgrade uitvoeren naar Office 365 ProPlus. |
+|![Fase 4: Microsoft 365-apps voor ondernemingen](../media/deploy-foundation-infrastructure/O365proplus_icon-small.png)|[Fase 4: Microsoft 365-apps voor ondernemingen](office365proplus-infrastructure.md)| Bestaande gebruikers van Microsoft Office kunnen een upgrade uitvoeren naar Microsoft 365-apps voor ondernemingen. |
 |![Fase 5: Mobile Device Management](../media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)|[Fase 5: Mobile Device Management](mobility-infrastructure.md)| Uw apparaten kunnen worden geregistreerd en beheerd. |
-|![Fase 6: Gegevensbeveiliging](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)|[Fase 6: Gegevensbeveiliging](infoprotect-infrastructure.md)| De beveiligingsfuncties van Office 365 worden ingeschakeld en uw labels en beleid zijn gereed om documenten en e-mail te beschermen. |
+|![Fase 6: Gegevensbeveiliging](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)|[Fase 6: Gegevensbeveiliging](infoprotect-infrastructure.md)| De beveiligingsfuncties van Microsoft 365-apps voor ondernemingen worden ingeschakeld en uw labels en beleid zijn gereed om documenten en e-mail te beschermen. |
 
 De fasen beginnen met het meest essentiële (netwerken en identiteiten) en vervolgens worden er lagen met infrastructuurinstellingen en -groepen gemaakt voor het volgende:
 
@@ -88,11 +88,11 @@ U kunt bijvoorbeeld de instellingen voor het volgende maken:
 
 | Fase | Resultaten |
 |:-------|:-----|
-| Identiteit | Accountsynchronisatie en groepen bij beleid voor voorwaardelijke toegang op basis van een identiteit. |
+| Identiteit | Accountsynchronisatie en groepen voor voorwaardelijke toegang op basis van een identiteit. |
 | Windows 10 Enterprise | Groepen om automatisch een upgrade uit te voeren voor computers met Windows 7 of Windows 8.1 naar Windows 10 Enterprise. |
-| Office 365 ProPlus | Groepen voor het automatisch implementeren van Office 365 ProPlus voor gebruikers met Office 2010, Office 2013 of Office 2016. |
+| Microsoft 365-apps voor ondernemingen | Groepen voor het automatisch implementeren van Microsoft 365-apps voor ondernemingen voor gebruikers met Office 2010, Office 2013 of Office 2016. |
 | Mobile Device Management | Groepen voor apparaatinschrijving en beleid voor voorwaardelijke toegang op basis van apparaten. |
-| Gegevensbeveiliging | Groepen voor Office 365-gevoeligheidslabels. |
+| Gegevensbescherming | Groepen voor gevoeligheidslabels. |
 
 Wanneer u klaar bent om elementen van deze infrastructuur te implementeren voor gebruikers, kunt u het volgende doen:
 
@@ -100,11 +100,11 @@ Wanneer u klaar bent om elementen van deze infrastructuur te implementeren voor 
 |:-------|:-----|
 | Identiteit | Gebruikersaccounts toevoegen aan de groepen voor beleid voor voorwaardelijke toegang op basis van een identiteit. |
 | Windows 10 Enterprise | Accounts toevoegen aan de groepen om Windows 10 Enterprise automatisch te implementeren voor gebruikers met Windows 7 of Windows 8.1. |
-| Office 365 ProPlus | Gebruikersaccounts toevoegen aan de groepen om Office 365 ProPlus automatisch te implementeren voor gebruikers met Office 2010, Office 2013 of Office 2016. |
-| Mobile Device Management | Accounts toevoegen aan de groepen voor apparaatinschrijving en beleid voor voorwaardelijke toegang op basis van apparaten. |
+| Microsoft 365-apps voor ondernemingen | Voeg gebruikersaccounts toe aan de groepen om automatisch Microsoft 365-apps voor ondernemingen te implementeren voor gebruikers met Office 2010, Office 2013 of Office 2016. |
+| Mobile Device Management | Accounts toevoegen voor de groepen voor apparaatinschrijving en beleid voor voorwaardelijke toegang op basis van apparaten. |
 | Gegevensbeveiliging | Gebruikersaccounts toevoegen aan de groepen voor gevoeligheidslabels. |
 
-Zodra fasen of elementen van de basisinfrastructuur zijn voltooid, getest en uitgeprobeerd, kunt u geïnstalleerde software, zoals Windows 10 Enterprise en Office 365 ProPlus, en cloudservices en -bescherming, zoals apparaatinschrijving en beleid voor voorwaardelijke toegang, voor uw gebruikers implementeren op de manier die het beste past bij uw bedrijfsdoelen en IT-resources.
+Zodra fasen of elementen van de basisinfrastructuur zijn voltooid, getest en uitgeprobeerd, kunt u geïnstalleerde software, zoals Windows 10 Enterprise en Microsoft 365-apps voor ondernemingen, en cloudservices en -bescherming, zoals apparaatinschrijving en beleid voor voorwaardelijke toegang, voor uw gebruikers implementeren op de manier die het beste past bij uw bedrijfsdoelen en IT-resources.
 
 ## <a name="deployment-and-project-management-strategies"></a>Strategieën voor implementatie en projectbeheer
 
@@ -112,7 +112,7 @@ Zie [Implementatiestrategieën](deployment-strategies-microsoft-365-enterprise.m
 
 ## <a name="deployment-for-non-enterprises"></a>Implementatie voor middelgrote bedrijven
 
-Als uw organisatie kleiner is en Microsoft 365 Business niet geschikt voor u is, raadpleegt u [Implementatie voor middelgrote bedrijven](deploy-foundation-infrastructure-non-enterprises.md) voor een vereenvoudigde implementatiemethode.
+Als uw organisatie kleiner is en Microsoft 365 voor bedrijven niet geschikt voor u is, raadpleegt u [Implementatie voor middelgrote bedrijven](deploy-foundation-infrastructure-non-enterprises.md) voor een vereenvoudigde implementatiemethode.
 
 
 ## <a name="next-step"></a>Volgende stap
