@@ -22,12 +22,12 @@ ms.custom:
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: 'Samenvatting: Configuratieaanbevelingen voor het beveiligen van bestanden in SharePoint Online en Office 365.'
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 542cf1c899b0eee21b458cd8e9dd5fb8363cf1e9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: aa6739caa3d3bce97750f0af1faa7e040f84ab7e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42809858"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637838"
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>Sites en bestanden van SharePoint Online beveiligen
 
@@ -63,9 +63,9 @@ Zoals afgebeeld:
 
 - Beleid voor [preventie van gegevensverlies](../../compliance/data-loss-prevention-policies.md) (DLP) wordt geconfigureerd voor de retentielabels Gevoelig en Zeer vertrouwelijk om gebruikers te waarschuwen als ze deze typen bestanden buiten de organisatie willen verzenden, of om dit te voorkomen.
 
-- Indien nodig kunt u [gevoeligheidslabels](../../compliance/sensitivity-labels.md) gebruiken om zeer vertrouwelijke bestanden met versleuteling en machtigingen te beveiligen. Voor klanten van Azure Information Protection: u kunt uw Azure Information Protection-labels in het Microsoft 365-compliancecentrum gebruiken. Uw labels worden vervolgens gesynchroniseerd met Azure Portal indien u voor aanvullende of geavanceerde configuratie kiest. Azure Information Protection-labels en Office 365-gevoeligheidslabels zijn volledig met elkaar compatibel. Dit betekent dat als u bijvoorbeeld inhoud hebt die is gelabeld door Azure Information Protection, u deze inhoud niet opnieuw hoeft te classificeren of labelen. Niet alle klanten hebben dit beveiligingsniveau nodig.
+- Indien nodig kunt u [gevoeligheidslabels](../../compliance/sensitivity-labels.md) gebruiken om zeer vertrouwelijke bestanden met versleuteling en machtigingen te beveiligen. Voor klanten van Azure Information Protection: u kunt uw Azure Information Protection-labels in het Microsoft 365-compliancecentrum gebruiken. Uw labels worden vervolgens gesynchroniseerd met Azure Portal indien u voor aanvullende of geavanceerde configuratie kiest. Azure Information Protection- en vertrouwelijkheidslabels zijn volledig met elkaar compatibel. Dit betekent dat als u bijvoorbeeld inhoud hebt die is gelabeld door Azure Information Protection, u deze inhoud niet opnieuw hoeft te classificeren of labelen. Niet alle klanten hebben dit beveiligingsniveau nodig.
 
-## <a name="tenant-wide-settings-for-sharepoint-online-and-onedrive-for-business"></a>Tenantbrede instellingen voor SharePoint Online en OneDrive voor Bedrijven
+## <a name="organization-wide-settings-for-sharepoint-online-and-onedrive-for-business"></a>Organisatiebrede instellingen voor SharePoint Online en OneDrive voor Bedrijven
 
 SharePoint Online en OneDrive voor Bedrijven bevatten tenantbrede instellingen die van invloed zijn op alle sites en gebruikers. Sommige van deze instellingen kunnen ook worden aangepast op siteniveau zodat ze meer beperkend zijn (maar niet minder). In deze sectie worden instellingen voor de gehele tenant besproken die van invloed zijn op beveiliging en samenwerking.
 
@@ -125,11 +125,11 @@ In de volgende tabel vindt u een overzicht van de configuratie voor alle teams, 
 |Besturingselementen voor toegang op siteniveau|Geen extra besturingselementen.|Geen extra besturingselementen.|Voorkomt dat gebruikers bestanden downloaden naar niet-compatibele apparaten of apparaten die geen deel uitmaken van een domein. Hiermee is alleen toegang met de browser toegestaan vanaf alle overige apparaten.|Blokkeert het downloaden van bestanden naar niet-compatibele apparaten of apparaten die geen deel uitmaken van een domein.|
 |Retentielabels|Intern openbaar|Privé|Gevoelig|Zeer vertrouwelijk|
 |DLP-beleid|||Waarschuwt gebruikers bij het verzenden buiten de organisatie van bestanden die het label Gevoelig dragen. <br/> Voor het blokkeren van extern delen van gevoelige gegevenstypen (bijvoorbeeld creditkaartnummers of andere persoonlijke gegevens), kunt u aanvullend DLP-beleid voor deze gegevenstypen configureren (waaronder aangepaste gegevenstypen die u configureert).|Voorkomt dat gebruikers bestanden met het label Zeer vertrouwelijk buiten de organisatie verzenden. Staat gebruikers toe dit te overschrijven door hiervoor een rechtvaardiging te geven, zoals met wie ze het bestand willen delen.|
-|Gevoeligheidslabels||||Gebruik gevoeligheidslabels om bestanden automatisch te versleutelen en machtigingen voor de bestanden te verlenen. Deze bescherming wordt met de bestanden mee verzonden in het geval van een lek. <br/> Office 365 kan bestanden die zijn versleuteld met gevoeligheidslabels niet lezen. Daarnaast kan het DLP-beleid alleen worden gebruikt met de metagegevens (met inbegrip van labels), maar niet met de inhoud van deze bestanden (zoals creditcardnummers in bestanden).|
+|Gevoeligheidslabels||||Gebruik gevoeligheidslabels om bestanden automatisch te versleutelen en machtigingen voor de bestanden te verlenen. Deze bescherming wordt met de bestanden mee verzonden in het geval van een lek. <br/> Microsoft 365 kan geen bestanden lezen die zijn versleuteld met vertrouwelijkheidslabels. Daarnaast kan het DLP-beleid alleen worden gebruikt met de metagegevens (met inbegrip van labels), maar niet met de inhoud van deze bestanden (zoals creditcardnummers in bestanden).|
 
 Zie [Sites in SharePoint Online implementeren voor drie beschermingslagen voor bestanden](../../compliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection.md) voor de stappen voor het implementeren van vier verschillende typen teamsites in SharePoint Online in deze oplossing.
 
-## <a name="office-365-retention-labels"></a>Office 365-retentielabels
+##  <a name="retention-labels"></a>Retentielabels
 
 Het gebruik van retentielabels wordt aangeraden voor omgevingen met gevoelige of zeer vertrouwelijke gegevens. Ga na het configureren en publiceren van retentielabels als volgt te werk:
 
@@ -139,7 +139,7 @@ Het gebruik van retentielabels wordt aangeraden voor omgevingen met gevoelige of
 
 - U kunt DLP-beleid toepassen dat op retentielabels is gebaseerd.
 
-- Personen in uw organisatie kunnen een label handmatig toepassen op inhoud in de webversie van Outlook, Outlook 2010 en hoger, OneDrive voor Bedrijven, SharePoint Online en Office 365-groepen. Gebruikers weten vaak het beste met welk type inhoud ze bezig zijn, zodat ze deze kunnen classificeren en het juiste DLP-beleid erop kunnen toepassen.
+- Personen in uw organisatie kunnen een label handmatig toepassen op inhoud in de webversie van Outlook, Outlook 2010 en hoger, OneDrive voor Bedrijven, SharePoint Online en Microsoft 365-groepen. Gebruikers weten vaak het beste met welk type inhoud ze bezig zijn, zodat ze deze kunnen classificeren en het juiste DLP-beleid erop kunnen toepassen.
 
 ![Aanbevolen configuratie voor SharePoint-sites](../../media/7fed0126-ab4a-4480-922c-681970642339.png)
 

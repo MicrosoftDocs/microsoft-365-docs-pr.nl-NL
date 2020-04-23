@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: 'Overzicht: gevoeligheidslabels toepassen om bestanden in een zeer vertrouwelijk team te beveiligen.'
-ms.openlocfilehash: b263aeae335b83cadb45b16d70a2a45d56f1cbd3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c36daef7f28ad8bd3306fd7f3f7f1558a3594e68
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42812438"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637614"
 ---
 # <a name="protect-files-in-teams-with-sensitivity-labels"></a>Bestanden in teams beschermen met gevoeligheidslabels.
 
@@ -44,7 +44,7 @@ Gebruik [deze instructies](https://docs.microsoft.com/microsoft-365/compliance/e
 
 - De naam van het label bevat de naam van het team
 - Versleuteling is ingeschakeld
-- De Office 365-groep voor het team heeft machtigingen voor cocreatie
+- De Microsoft 365-groep voor het team heeft machtigingen voor cocreatie
 
 Na het maken van het nieuwe label of sublabel voor uw gebruikers, die ze vervolgens lokaal kunnen toepassen op bestanden voordat ze worden geüpload naar het team of later zodra het bestand is opgeslagen in het team.
 

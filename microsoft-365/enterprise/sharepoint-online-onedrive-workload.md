@@ -13,12 +13,12 @@ ms.collection:
 - SPO_Content
 ms.custom: ''
 description: Doorloop het proces van planning, implementatie en promotie van de waarde van SharePoint binnen uw organisatie.
-ms.openlocfilehash: cb0cf16df328d667d796008ac7cabfc98c21ad17
-ms.sourcegitcommit: 237589a0c8a24510e5c8f3b8b4747d944ad0afbf
+ms.openlocfilehash: ee2c5592015361a678785cb8e4aaad9074c5d804
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "42810401"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636914"
 ---
 # <a name="deploy-sharepoint-and-onedrive-for-microsoft-365-enterprise"></a>SharePoint en OneDrive voor Microsoft 365 Enterprise implementeren
 
@@ -93,8 +93,8 @@ Gebruik [Migreren naar SharePoint](https://docs.microsoft.com/sharepointmigratio
 
 Bekijk de volgende bronnen voor een beter begrip van beveiliging in SharePoint:
 
--   [Hoe SharePoint en OneDrive uw gegevens in de cloud beschermen](https://docs.microsoft.com/sharepoint/safeguarding-your-data)
--   [Gegevensversleuteling in OneDrive en SharePoint](https://docs.microsoft.com/microsoft-365/compliance/data-encryption-in-odb-and-spo)
+-     [Hoe SharePoint en OneDrive uw gegevens in de cloud beschermen](https://docs.microsoft.com/sharepoint/safeguarding-your-data)
+-     [Gegevensversleuteling in OneDrive en SharePoint](https://docs.microsoft.com/microsoft-365/compliance/data-encryption-in-odb-and-spo)
 
 #### <a name="result"></a>Resultaat
 
@@ -155,8 +155,8 @@ Nadat de implementatie naar uw hele organisatie is voltooid, moet u uw veranderm
 
 Hier volgen enkele aanbevolen activiteiten:
 
-- Zie [succesfactoren voor Office 365](https://aka.ms/successfactors) voor meer informatie over algemene aanbevolen procedures voor de acceptatie van cloudservices. 
-- Zie [activiteitenrapporten van Office 365](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports) om inzicht te krijgen in het gebruik van de Office 365-service in uw organisatie. Als u geen globale beheerder van Office 365 bent voor uw organisatie, vraagt u iemand die een globale beheerder is om leesmachtigingen voor rapporten toe te kennen aan uw gebruikersaccount, zodat u activiteitenoverzichten kunt openen.
+- Zie [succesfactoren voor Microsoft 365](https://aka.ms/successfactors) voor meer informatie over algemene aanbevolen procedures voor de acceptatie van cloudservices. 
+- Zie [Microsoft 365-overzichten in het beheercentrum](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports) voor meer informatie over servicegebruik binnen uw organisatie. Als u geen globale beheerder bent voor uw organisatie, vraagt u iemand die een globale beheerder is om leesmachtigingen voor rapporten toe te kennen aan uw gebruikersaccount, zodat u activiteitenoverzichten kunt openen.
 - Volg uw feedbackplatform (een openbaar kanaal in een centraal Teams-team of Yammer) voor problemen en feedback van individuen over hun ervaringen met SharePoint. Beantwoord vragen en problemen zo snel mogelijk om frustratie te voorkomen en steun voor de uitrol te tonen.
 - Identificeer en voed kampioenen in elke bedrijfsgroep en benadruk hun prestaties en aanbevolen procedures voor het gebruik van SharePoint. Toon hun succes aan de rest van de organisatie om projectsucces en adoptie te tonen. Bekrachtiging door technische leiders binnen een bedrijfsgroep kan een krachtige werking hebben op leiderschap en collega's.
 

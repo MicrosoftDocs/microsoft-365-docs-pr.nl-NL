@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: 'Overzicht: configuratieaanbevelingen voor het beveiligen van bestanden in Microsoft Teams.'
-ms.openlocfilehash: 82c55affc8384c04e0595f82d21c7e3532b5cb0e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e177f290dff22943e282080652326dfb65cd07cd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42805912"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638474"
 ---
 # <a name="secure-files-in-microsoft-teams"></a>Bestanden beveiligen in Microsoft Teams
 
@@ -61,7 +61,7 @@ Zoals afgebeeld:
 
 - Beleid voor [preventie van gegevensverlies](../../compliance/data-loss-prevention-policies.md) (DLP) wordt geconfigureerd voor de retentielabels Gevoelig en Zeer vertrouwelijk om gebruikers te waarschuwen als ze deze typen bestanden buiten de organisatie willen verzenden, of om dit te voorkomen.
 
-- Indien nodig kunt u [gevoeligheidslabels](../../compliance/sensitivity-labels.md) gebruiken om zeer vertrouwelijke bestanden met versleuteling en machtigingen te beveiligen. Voor klanten van Azure Information Protection: u kunt uw Azure Information Protection-labels in het Microsoft 365-compliancecentrum gebruiken. Uw labels worden vervolgens gesynchroniseerd met Azure Portal indien u voor aanvullende of geavanceerde configuratie kiest. Azure Information Protection-labels en Office 365-gevoeligheidslabels zijn volledig met elkaar compatibel. Dit betekent dat als u bijvoorbeeld inhoud hebt die is gelabeld door Azure Information Protection, u deze inhoud niet opnieuw hoeft te classificeren of labelen. Niet alle klanten hebben dit beveiligingsniveau nodig.
+- Indien nodig kunt u [gevoeligheidslabels](../../compliance/sensitivity-labels.md) gebruiken om zeer vertrouwelijke bestanden met versleuteling en machtigingen te beveiligen. Voor klanten van Azure Information Protection: u kunt uw Azure Information Protection-labels in het Microsoft 365-compliancecentrum gebruiken. Uw labels worden vervolgens gesynchroniseerd met Azure Portal indien u voor aanvullende of geavanceerde configuratie kiest. Azure Information Protection- en gevoeligheidslabels zijn volledig met elkaar compatibel. Dit betekent dat als u bijvoorbeeld inhoud hebt die is gelabeld door Azure Information Protection, u deze inhoud niet opnieuw hoeft te classificeren of labelen. Niet alle klanten hebben dit beveiligingsniveau nodig.
 
 ## <a name="organization-wide-settings-for-sharepoint-and-onedrive"></a>Instellingen voor de hele organisatie voor SharePoint en OneDrive
 
@@ -125,7 +125,7 @@ In de volgende tabel vindt u een overzicht van de configuratie voor alle teams e
 
 Zie [Teams implementeren voor drie beschermingslagen voor bestanden](deploy-teams-three-tiers.md) voor de stappen voor het implementeren van vier verschillende typen teams in deze oplossing.
 
-## <a name="office-365-retention-labels"></a>Office 365-retentielabels
+## <a name="retention-labels"></a>Retentielabels
 
 Het gebruik van retentielabels wordt aangeraden voor omgevingen met gevoelige gegevens. Ga na het configureren en publiceren van retentielabels als volgt te werk:
 
@@ -135,7 +135,7 @@ Het gebruik van retentielabels wordt aangeraden voor omgevingen met gevoelige ge
 
 - U kunt DLP-beleid toepassen dat op retentielabels is gebaseerd.
 
-- Personen in uw organisatie kunnen een label handmatig toepassen op inhoud in de webversie van Outlook, Outlook 2010 en hoger, OneDrive, SharePoint en Office 365-groepen. Gebruikers weten vaak het beste met welk type inhoud ze bezig zijn, zodat ze deze kunnen classificeren en het juiste DLP-beleid erop kunnen toepassen.
+- Personen in uw organisatie kunnen een label handmatig toepassen op inhoud in de webversie van Outlook, Outlook 2010 en hoger, OneDrive, SharePoint en Microsoft 365-groepen. Gebruikers weten vaak het beste met welk type inhoud ze bezig zijn, zodat ze deze kunnen classificeren en het juiste DLP-beleid erop kunnen toepassen.
 
 Zoals u ziet, bevat deze oplossing de volgende retentielabels:
 

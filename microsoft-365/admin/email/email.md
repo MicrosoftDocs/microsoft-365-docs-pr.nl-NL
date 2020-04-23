@@ -14,17 +14,17 @@ layout: LandingPage
 ms.service: o365-administration
 localization_priority: Priority
 ms.assetid: f7449a18-1400-475a-b158-2668fef93bfe
-description: Informatie over het beheren van e-mail voor uw Office 365-postvakken.
-ms.openlocfilehash: ca1fba8c89f7c647a0bb6d4f846ebb12f82a7abd
-ms.sourcegitcommit: 5ba1efc0b498430e30231010024044049b8727c7
+description: Informatie over het beheren van e-mail voor uw Microsoft 365-postvakken.
+ms.openlocfilehash: 25d34ed4f86a918daea5e04c89b9b79c91bebc08
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43126009"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628853"
 ---
 # <a name="email"></a>E-mail
 
-Informatie over het beheren van e-mail voor uw Office 365-postvakken.
+Informatie over het beheren van e-mail voor uw Microsoft 365-postvakken.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -146,7 +146,7 @@ Informatie over het beheren van e-mail voor uw Office 365-postvakken.
                 <div class="card">
                     <div class="cardText">
                         <h3>Problemen met e-mailverbinding en -bezorging oplossen</a></h3>
-                        <p><a href="https://diagnostics.outlook.com/#/">Fix Outlook connection problems in Office 365 and Exchange Online</a></p>
+                        <p><a href="https://diagnostics.outlook.com/#/">Fix Outlook connection problems in Microsoft 365 and Exchange Online</a></p>
                         <p><a href="https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox">Verwijderde items herstellen in het postvak van een gebruiker</a></p>
                         <p><a href="https://docs.microsoft.com/exchange/troubleshoot/mail-delivery/email-delivery-issues">Problemen met e-mail bezorging zoeken en oplossen</a></p>
                         <p><a href="../get-help-with-domains/find-and-fix-issues.md">Problemen opsporen en oplossen (inclusief e-mailproblemen) nadat u uw domein of DNS-records hebt toegevoegd</a></p>
@@ -162,8 +162,8 @@ Informatie over het beheren van e-mail voor uw Office 365-postvakken.
             <div class="card">
                 <div class="cardText">
                         <h3>Informatiebronnen voor ondernemingen</h3>
-                        <p><a href="https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices">Best practices voor e-mailstroom voor Exchange Online en Office 365</a></p>
-                        <p><a href="https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration">Manieren om meerdere e-mailaccounts naar Office 365 te migreren</a>.</p>
+                        <p><a href="https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices">Best practices voor e-mailstroom voor Exchange Online en Microsoft 365</a></p>
+                        <p><a href="https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration">Manieren om meerdere e-mailaccounts naar Microsoft 365 te migreren</a>.</p>
                         <p><a href="https://docs.microsoft.com/exchange/exchange-hybrid">Inhoud voor hybride implementatie van Exchange</a></p>
                         <p><a href="https://docs.microsoft.com/exchange/exchange-online">Exchange Online</a></p>
                         <p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview">Exchange Online Protection</a></p>

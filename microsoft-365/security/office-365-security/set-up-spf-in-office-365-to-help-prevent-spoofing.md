@@ -1,5 +1,5 @@
 ---
-title: SPF in Office 365 instellen om spoofing te helpen voorkomen
+title: SPF instellen om adresvervalsing te helpen voorkomen
 f1.keywords:
 - CSH
 ms.author: tracyp
@@ -16,14 +16,14 @@ ms.assetid: 71373291-83d2-466f-86ea-fc61493743a6
 ms.collection:
 - M365-security-compliance
 description: 'Overzicht: in dit artikel wordt beschreven hoe u een DNS-record (Domain Name Service) bijwerkt, zodat u SPF (Sender Policy Framework) kunt gebruiken met uw aangepaste domein in Office 365. Het gebruik van SPF helpt bij het valideren van uitgaande e-mail die is verzonden vanuit uw aangepaste domein.'
-ms.openlocfilehash: 0480e23d00671f0fdfc4795f3844047e02a69122
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c1424ed9da6a36128d9f4502aadb475068ad029b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42806642"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638318"
 ---
-# <a name="set-up-spf-in-office-365-to-help-prevent-spoofing"></a>SPF in Office 365 instellen om spoofing te helpen voorkomen
+# <a name="set-up-spf-to-help-prevent-spoofing"></a>SPF instellen om adresvervalsing te helpen voorkomen
 
  **Overzicht:** in dit artikel wordt beschreven hoe u een DNS-record (Domain Name Service) bijwerkt, zodat u SPF (Sender Policy Framework) kunt gebruiken met uw aangepaste domein in Office 365. Het gebruik van SPF helpt bij het valideren van uitgaande e-mail die is verzonden vanuit uw aangepaste domein.
 
@@ -59,13 +59,13 @@ Verzamel de volgende informatie:
 
 1. Ga na of u bekend bent met de SFP-syntaxis in de volgende tabel.
 
-   ||**Als u werkt met...**|**Gangbaar voor Office 365-klanten?**|**Voegt u deze toe...**|
+   ||**Als u werkt met...**|**Gangbaar bij klanten?**|**Voegt u deze toe...**|
    |:-----|:-----|:-----|:-----|
    |1|Elk e-mailsysteem (vereist)|Gangbaar. Alle SPF-records beginnen met deze waarde|v=spf1|
    |2|Exchange Online|Gangbaar|include:spf.protection.outlook.com|
    |3|Alleen Exchange Online|Niet gangbaar|ip4:23.103.224.0/19 ip4:206.191.224.0/19 ip4:40.103.0.0/16 include:spf.protection.outlook.com|
    |4|Office 365 Duitsland, alleen Microsoft Cloud Duitsland|Niet gangbaar|include:spf.protection.outlook.de|
-   |5|E-mailsysteem van derden|Niet gangbaar|opnemen:\<domeinnaam  <br/> Waarbij domeinnaam de domeinnaam is van het e-mailsysteem van derden.|
+   |5|E-mailsysteem van derden|Niet gangbaar|opnemen:\<domeinnaam\>  <br/> Waarbij domeinnaam de domeinnaam is van het e-mailsysteem van derden.|
    |6|On-premises e-mailsysteem. Bijvoorbeeld, Exchange Online Protection plus een ander e-mailsysteem|Niet gangbaar| Gebruik een van deze voor elk extra e-mailsysteem: <br> ip4:\<_IP-adres_\>  <br/>  ip6:\<_IP-adres_\>  <br/>  opnemen:\<_domeinnaam_\>  <br/>  Waar de waarde voor \<_IP-adres_\> het IP-adres van het andere e-mailsysteem is en \<_domeinnaam_\> de domeinnaam is van het andere e-mailsysteem waarmee e-mail wordt verzonden namens uw domein.|
    |7|Elk e-mailsysteem (vereist)|Gangbaar. Alle SPF-records eindigen met deze waarde|\<_afdwingregel_\>  <br/> Dit kan een van meerdere waarden zijn. We adviseren u om **-alle**te gebruiken.|
 
@@ -75,7 +75,7 @@ Verzamel de volgende informatie:
 
    `v=spf1 include:spf.protection.outlook.com -all`
 
-   Dit is het meestvoorkomende TXT-record voor Office 365 SPF. Dit record werkt voor bijna iedereen, ongeacht of uw Office 365-datacenter zich in de Verenigde Staten of in Europa (inclusief Duitsland) of op een andere locatie bevindt.
+   Dit is de meest gangbare TXT-record voor SPF. Deze record werkt voor bijna iedereen, ongeacht of uw Microsoft-datacenter zich in de Verenigde Staten of in Europa (inclusief Duitsland) of op een andere locatie bevindt.
 
    Als u echter Office 365 Duitsland hebt gekocht, onderdeel van Microsoft Cloud Duitsland, moet u de include-instructie van regel 4 gebruiken in plaats van regel 2. Als u bijvoorbeeld volledig gehost bent in Office 365 Duitsland, dat wil zeggen dat u geen lokale e-mailservers heeft, bevat uw SPF TXT-record rijen 1, 4 en 7 en ziet het er als volgt uit:
 

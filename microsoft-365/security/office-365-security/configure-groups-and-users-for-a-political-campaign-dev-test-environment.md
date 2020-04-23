@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: 'Overzicht: maak proefabonnementen voor Office 365 en Enterprise Mobility + Security (EMS) met gebruikers en groepen voor een ontwikkel-/testomgeving voor politieke campagnes.'
-ms.openlocfilehash: a61cc21b67cafd213d47076698929d0aa2644d08
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f07ccbb648ef20c6b7c6ef005afef59fd89d56aa
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42810937"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638452"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
 
@@ -36,9 +36,9 @@ In deze fase creëert u proefabonnementen voor Office 365 E5 en Enterprise Mobil
 
 Volg eerst de instructies in **fase 2** van de [ontwikkel-/testomgeving voor Office 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment).
 
-Meld u vervolgens aan voor het proefabonnement EMS E5 en voeg het toe aan dezelfde organisatie als uw proefabonnement op Office 365.
+Meld u vervolgens aan voor het proefabonnement EMS E5 en voeg het toe aan dezelfde organisatie als uw proefabonnement.
 
-1. Indien nodig meldt u zich aan bij het beheercentrum met de inloggegevens van het algemene beheerdersaccount van uw proefabonnement. Zie [Waar kan ik me aanmelden in Office 365?](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) voor hulp.
+1. Indien nodig meldt u zich aan bij het beheercentrum met de inloggegevens van het algemene beheerdersaccount van uw proefabonnement. Zie [Waar kan ik me aanmelden?](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) voor hulp.
 
 2. Klik op de tegel **Beheerder**.
 
@@ -191,7 +191,7 @@ Noteer deze waarden voor het werken met de proefabonnementen voor Office 365 en 
 
   Voor de domeinnaam van het proefabonnement van contoso.onmicrosoft.com is de naam van de organisatie 'contoso'.
 
-- De naam van de globale beheerder van Office 365: ![Onderstrepen](../../media/Common-Images/TableLine.png).onmicrosoft.com
+- De naam van de globale beheerder: ![Onderstrepen](../../media/Common-Images/TableLine.png).onmicrosoft.com
 
   Sla het wachtwoord voor dit account en het algemene wachtwoord voor de andere gebruikersaccounts op een veilige locatie op.
 
@@ -207,4 +207,4 @@ Maak de vier verschillende soorten SharePoint Online-teamsites in deze ontwikkel
 
 [Testlabrichtlijnen voor cloudacceptatie (TLG's)](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
 
-[Cloudacceptatie en hybride oplossingen](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
+[Cloud adoption and hybrid solutions](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)

@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Informatie over het instellen van een verloopbeleid voor wachtwoorden voor uw bedrijf in het Microsoft 365-beheercentrum. '
-ms.openlocfilehash: 88953317bea2b96c04c291dd028a4e9131b9a83e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: bcea72dadb6f10ac4ef80677f3def57eca2724cd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42805556"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628050"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Het wachtwoordverloopbeleid voor uw organisatie instellen:
 
@@ -40,12 +40,12 @@ Als beheerder kunt u instellen dat gebruikerswachtwoorden na een bepaald aantal 
 
 Volg onderstaande stappen als u wilt instellen dat gebruikerswachtwoorden na een bepaalde tijd verlopen.
 > [!IMPORTANT]
-> Alleen [globale beheerders van Office 365](../add-users/about-admin-roles.md) kunnen deze stappen uitvoeren.
+> Alleen [globale beheerders](../add-users/about-admin-roles.md) kunnen deze stappen uitvoeren.
   
 1. Ga in het beheercentrum naar **Instellingen** \> **Instellingen**.
 
 2. Ga naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Beveiliging en privacy</a>.
- Als u geen Office 365-hoofdbeheerder bent, ziet u de optie Beveiliging en privacy niet.
+ Als u geen globale beheerder bent, ziet u de optie Beveiliging en privacy niet.
   
 3. Selecteer **Verloopbeleid wachtwoorden**.
   
@@ -61,7 +61,7 @@ Volg onderstaande stappen als u wilt instellen dat gebruikerswachtwoorden na een
 
 Hier volgen enkele belangrijke punten over de huidige werking van deze functie sinds januari 2018:
   
-- Personen die alleen gebruikmaken van de Outlook-app worden niet gedwongen hun Office 365-beheerderswachtwoord opnieuw in te stellen voordat het in de cache is verlopen. Dit kan enkele dagen na de feitelijke verloopdatum in beslag nemen. Op beheerdersniveau is er geen tijdelijke oplossing voor dit probleem.
+- Personen die alleen gebruikmaken van de Outlook-app worden niet gedwongen hun Microsoft 365-beheerderswachtwoord opnieuw in te stellen voordat het in de cache is verlopen. Dit kan enkele dagen na de feitelijke verloopdatum in beslag nemen. Op beheerdersniveau is er geen tijdelijke oplossing voor dit probleem.
     
 - Gebruikers ontvangen geen melding per e-mail dat hun wachtwoord binnen X aantal dagen verloopt. Wilt u deze functie gebruiken? **[Stem hier](https://office365.uservoice.com/forums/273493-office-365-admin/suggestions/15028344-office-365-password-email-notification)**
     
@@ -69,10 +69,10 @@ Hier volgen enkele belangrijke punten over de huidige werking van deze functie s
 
 Als u wilt voorkomen dat uw gebruikers oude wachtwoorden opnieuw gebruiken, kunt u dit in Azure AD instellen. Zie [Het wachtwoordverloopbeleid voor uw organisatie instellen](https://docs.microsoft.com/office365/admin/manage/set-password-expiration-policy?view=o365-worldwide).
 
-Als een medewerker een mobiel apparaat gebruikt om toegang tot Office 365 te krijgen, kunt u het wissen om ervoor te zorgen dat het wachtwoord niet meer wordt opgeslagen en vervolgens opnieuw gebruikt. Zie [Het mobiele apparaat van een voormalige werknemer wissen en blokkeren](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee?view=o365-worldwide#wipe-and-block-a-former-employees-mobile-device) voor meer informatie.
+Als een medewerker een mobiel apparaat gebruikt om toegang tot Microsoft 365 te krijgen, kunt u het wissen om ervoor te zorgen dat het wachtwoord niet meer wordt opgeslagen en vervolgens opnieuw gebruikt. Zie [Het mobiele apparaat van een voormalige werknemer wissen en blokkeren](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee?view=o365-worldwide#wipe-and-block-a-former-employees-mobile-device) voor meer informatie.
 
 
-## <a name="synchronize-user-passwords-hashes-from-an-on-premises-active-directory-to-azure-ad-office-365"></a>Gebruikerswachtwoordhashes synchroniseren vanuit een on-premises Active Directory naar Azure AD (Office 365) 
+## <a name="synchronize-user-passwords-hashes-from-an-on-premises-active-directory-to-azure-ad-microsoft-365"></a>Gebruikerswachtwoordhashes synchroniseren vanuit een on-premises Active Directory naar Azure AD (Microsoft 365) 
 
 Dit artikel gaat over het instellen van het verloopbeleid voor gebruikers die alleen de cloud gebruiken (Azure AD). Dit geldt niet voor hybride-identiteitsgebruikers die gebruikmaken van wachtwoordhashsynchronisatie, Pass Through-verificatie of on-premises federatie, zoals ADFS.
   

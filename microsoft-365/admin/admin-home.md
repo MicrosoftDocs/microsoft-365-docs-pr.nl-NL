@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b9acfd4c-df82-4eb5-a652-232a6829870a
 description: Meer informatie over de informatiebronnen die beschikbaar zijn voor Microsoft 365-beheerders.
 ms.custom: okr_smb
-ms.openlocfilehash: b087007d99c16f06cfdacaf8021e32a9566da5d5
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 631c6640efeb6bebd8e091712b030ed61047042e
+ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105691"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43781491"
 ---
 # <a name="microsoft-365-admin-help-center"></a>Helpcentrum voor beheerders van Microsoft 365
 
@@ -38,8 +38,8 @@ Informatie over de informatiebronnen die beschikbaar zijn voor beheerders.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Office 365 wordt Microsoft 365</h3>
-                        <p>We wijzigen enkele namen van de Office 365- en Microsoft 365-abonnementen. U hoeft verder niets te doen. Uw services, apps en functies en de prijs van uw abonnement veranderen niet. De naam van uw abonnement wordt automatisch bijgewerkt in het Microsoft 365-beheercentrum en uw factuuroverzichten worden bijgewerkt op of na 21 april 2020.</p>
+                        <h3>Office 365 is nu Microsoft 365</h3>
+                        <p>We hebben enkele namen van de Office 365- en Microsoft 365-abonnementen gewijzigd. U hoeft verder niets te doen. Uw services, apps en functies en de prijs van uw abonnement veranderen niet. De naam van uw abonnement wordt automatisch bijgewerkt in het Microsoft 365-beheercentrum en uw factuuroverzichten worden bijgewerkt op of na 21 april 2020.</p>
                         <ul>
                             <li><p><b>Office 365 Business Essentials</b> wordt nu <b>Microsoft 365 Business Basic</b>.</p></li>
                             <li><p><b>Office 365 Business Premium</b> wordt nu <b>Microsoft 365 Business Standard</b>.</p></li>
@@ -182,7 +182,7 @@ Informatie over de informatiebronnen die beschikbaar zijn voor beheerders.
                     </div>
                     <div class="cardText">
                         <h3>Voor uw kleine bedrijf</h3>
-                        <p><a href="/office365/smallbusiness/build-your-small-business/build-your-small-business" target="_blank">Zet uw kleine bedrijf op met Office 365.</a></p>
+                        <p><a href="/office365/smallbusiness/build-your-small-business/build-your-small-business" target="_blank">Zet uw kleine bedrijf op met Microsoft 365.</a></p>
                     </div>
                 </div>
             </div>
@@ -199,7 +199,7 @@ Informatie over de informatiebronnen die beschikbaar zijn voor beheerders.
                     </div>
                     <div class="cardText">
                         <h3>Voor de onderneming</h3>
-                        <p><a href="https://docs.microsoft.com/Office365/Enterprise/">Richtlijnen voor IT-professionals die Office 365 in Enterprise-organisaties implementeren, configureren en beheren.</a></p>
+                        <p><a href="https://docs.microsoft.com/Office365/Enterprise/">Richtlijnen voor IT-professionals die Microsoft 365 in Enterprise-organisaties implementeren, configureren en beheren.</a></p>
                     </div>
                 </div>
             </div>
@@ -249,7 +249,7 @@ Informatie over de informatiebronnen die beschikbaar zijn voor beheerders.
                     <div class="cardText">
                         <h3>Problemen oplossen</h3>
                         <p><a href="https://go.microsoft.com/fwlink/?linkid=522692">Problemen bij de installatie van Office oplossen</a></p>
-                        <p><a href="https://diagnostics.outlook.com/">Problemen met Outlook en Office 365 oplossen met Microsoft Ondersteunings- en Herstelassistent</a></p>
+                        <p><a href="https://diagnostics.outlook.com/">Problemen met Outlook en Microsoft 365 oplossen met de Microsoft Ondersteunings- en herstelassistent</a></p>
                         <p><a href="https://docs.microsoft.com/office365/troubleshoot/troubleshooting/troubleshoot-email-issues">E-mailproblemen oplossen</a></p>
                         <p><a href="https://go.microsoft.com/fwlink/?linkid=866431">Synchronisatieproblemen in OneDrive voor Bedrijven oplossen</a></p>
                     </div>

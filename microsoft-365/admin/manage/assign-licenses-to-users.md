@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 997596b5-4173-4627-b915-36abac6786dc
 description: Informatie over het toewijzen van licenties aan gebruikers of het overzetten van gebruikers naar een nieuw abonnement.
-ms.openlocfilehash: ab8a54db77ea022cbd3aec7b3c30e8a988ff7853
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 2019aeef0d802e92489b09bbddb564c4ecded8c0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42809253"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628242"
 ---
 # <a name="assign-licenses-to-users"></a>Licenties aan gebruikers toewijzen
 
@@ -224,7 +224,7 @@ Als u meerdere abonnementen hebt en er gebruikers zijn met een licentie voor Ã©Ã
 
 ## <a name="what-you-need-to-know-about-assigning-licenses-to-users"></a>Wat u moet weten over het toewijzen van licenties aan gebruikers
 
-- U moet een globale beheerder, factureringsbeheerder, licentiebeheerder of gebruikersbeheerder zijn. Zie [Informatie over beheerdersrollen in Office 365](../add-users/about-admin-roles.md) voor meer informatie.
+- U moet een globale beheerder, factureringsbeheerder, licentiebeheerder of gebruikersbeheerder zijn. Zie [Informatie over beheerdersrollen in Microsoft 365](../add-users/about-admin-roles.md) voor meer informatie.
 
 - Zie [Assign licenses to user accounts with Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=850410) (Licenties toewijzen aan gebruikersaccounts in Office 365 PowerShell) voor meer informatie.
 
@@ -236,7 +236,7 @@ Als u meerdere abonnementen hebt en er gebruikers zijn met een licentie voor Ã©Ã
 
 [Informatie over abonnementen en licenties](../../commerce/licenses/subscriptions-and-licenses.md)
 
-[Licentieconflicten oplossen in Office 365 voor Bedrijven](resolve-license-conflicts.md)
+[Licentieconflicten oplossen in Microsoft 365 voor Bedrijven](resolve-license-conflicts.md)
 
 [Licenties van gebruikers verwijderen](remove-licenses-from-users.md)
 

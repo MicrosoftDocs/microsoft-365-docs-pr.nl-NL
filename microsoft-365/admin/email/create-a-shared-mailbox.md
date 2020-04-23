@@ -21,18 +21,18 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Maak gedeelde postvakken zodat meerdere personen binnen uw bedrijf de verantwoordelijkheid kunnen delen voor het lezen en beantwoorden van e-mails die naar hetzelfde adres zijn gestuurd.
-ms.openlocfilehash: 4469197628feb96980ec2d8b560048acba704c54
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 35711e1a17a244a9f68ac88daf665f0328b293b4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212303"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628901"
 ---
 # <a name="create-a-shared-mailbox"></a>Een gedeeld postvak maken 
 
 > [!NOTE]
 > Als uw organisatie gebruikmaakt van een hybride Exchange-omgeving, moet u het on-premises Exchange-beheercentrum (EAC) gebruiken om gedeelde postvakken te maken en te beheren. [Gedeelde postvakken maken in het Exchange-beheercentrum](https://docs.microsoft.com/Exchange/collaboration/shared-mailboxes/create-shared-mailboxes?view=exchserver-2019.)<br><br>
-> Zie [Groepen vergelijken](../create-groups/compare-groups.md) als u niet zeker weet of u een gedeeld postvak of een Office 365-groep voor Outlook moet maken. Momenteel is het niet mogelijk een gedeeld postvak te migreren naar een Office 365-groep. Als dit iets is dat u zou willen, laat ons dat dan weten door [hier te stemmen](https://go.microsoft.com/fwlink/?linkid=871518).
+> Zie [Groepen vergelijken](../create-groups/compare-groups.md) als u niet zeker weet of u een gedeeld postvak of een Microsoft 365-groep voor Outlook moet maken. Momenteel is het niet mogelijk een gedeeld postvak te migreren naar een Microsoft 365-groep. Als dit iets is dat u zou willen, laat ons dat dan weten door [hier te stemmen](https://go.microsoft.com/fwlink/?linkid=871518).
 
 Het is eenvoudig om gedeelde postvakken te maken zodat een groep e-mail kan controleren en verzenden vanaf een gemeenschappelijk e-mailadres zoals info@contoso.com. Wanneer een persoon in de groep een bericht beantwoordt dat naar het gedeelde postvak is verzonden, lijkt het e-mailbericht afkomstig te zijn van het gedeelde postvak, niet van de afzonderlijke gebruiker.
 
@@ -42,7 +42,7 @@ Lees eerst [Meer informatie over gedeelde postvakken](about-shared-mailboxes.md)
 
 ## <a name="create-a-shared-mailbox-and-add-members"></a>Een gedeeld postvak maken en leden toevoegen
   
-1. Meld u aan met een globaal beheerdersaccount voor Office 365 of Exchange-beheerder-account. Als het u het bericht ‘**U bent niet gemachtigd om deze pagina weer te geven of deze handeling uit te voeren**’ krijgt, dan bent u geen beheerder. 
+1. Meld u aan met een globaal beheerdersaccount of Exchange-beheerder-account. Als het u het bericht ‘**U bent niet gemachtigd om deze pagina weer te geven of deze handeling uit te voeren**’ krijgt, dan bent u geen beheerder. 
 
 ::: moniker range="o365-worldwide"
 
@@ -158,7 +158,7 @@ U kunt op twee manieren toegang krijgen tot een gedeeld postvak op een mobiel ap
     
     Zie <a href="https://support.office.com/article/f866242c-81b2-472e-8776-6c49c5473c9f" target="_blank">Een gedeeld postvak toevoegen aan Outlook Mobile</a> voor instructies.
 
-- Open uw browser, meld u aan bij Office 365 en ga dan naar de webversie van Outlook. Vanuit de webversie van Outlook hebt u toegang tot het gedeelde postvak.
+- Open uw browser, meld u aan en ga dan naar de webversie van Outlook. Vanuit de webversie van Outlook hebt u toegang tot het gedeelde postvak.
 
     Zie <a href="https://support.office.com/article/98b5a90d-4e38-415d-a030-f09a4cd28207.aspx" target="_blank">Een gedeeld postvak toevoegen aan de webversie van Outlook</a> voor instructies.
 

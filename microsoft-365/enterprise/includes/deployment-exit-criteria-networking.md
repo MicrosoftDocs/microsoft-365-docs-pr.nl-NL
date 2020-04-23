@@ -2,7 +2,7 @@
 ### <a name="required-your-network-is-ready-for-microsoft-365-enterprise"></a>Vereist: Uw netwerk is gereed voor Microsoft 365 Enterprise
 
 - Uw kantoren hebben een adequate internet-bandbreedte voor Microsoft 365-verkeer, waaronder Office 365-, Microsoft Intune- en Windows 10 Enterprise-installatie en -updates.
-- Uw hele netwerk is gekoppeld aan een [Office 365-referentiearchitectuur](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
+- Uw hele netwerk is gekoppeld aan een [Microsoft 365-referentiearchitectuur](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
 - De wijzigingen in uw netwerk zijn getest en voldoen aan de vereisten voor uw netwerklatentie.
 
 [Stap 1](../networking-provide-bandwidth-cloud-services.md) kan u desgewenst helpen bij deze vereiste.

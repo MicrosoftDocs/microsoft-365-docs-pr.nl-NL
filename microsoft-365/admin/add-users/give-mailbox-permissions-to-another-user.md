@@ -1,5 +1,5 @@
 ---
-title: Postvakmachtigingen verlenen aan een andere gebruiker in Office 365 - Help voor beheerders
+title: Postvakmachtigingen toewijzen aan een andere gebruiker - Help voor beheerders
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -21,14 +21,14 @@ search.appverid:
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: 'Lees hoe u een gebruiker toegang geeft tot het postvak van een andere gebruiker. Dat geeft de gebruiker het recht om e-mail te lezen en e-mails te verzenden vanuit het postvak van de andere gebruiker. '
-ms.openlocfilehash: 695068d2002b20637b6df6a2514b74828f273965
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: 5a0677844e8503253561c57f926c9c4fadadd76d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151345"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43617168"
 ---
-# <a name="give-mailbox-permissions-to-another-user-in-office-365---admin-help"></a>Postvakmachtigingen verlenen aan een andere gebruiker in Office 365 - Help voor beheerders
+# <a name="give-mailbox-permissions-to-another-user---admin-help"></a>Postvakmachtigingen toewijzen aan een andere gebruiker - Help voor beheerders
 
 ::: moniker range="o365-worldwide"
 
@@ -49,11 +49,11 @@ Met postvakmachtigingen kunt u lees-/schrijftoegang voor een postvak aan andere 
   
 De eerste stap bij het instellen van machtigingen bestaat uit het bepalen welke acties u een andere gebruiker wilt laten uitvoeren voor het betreffende postvak. U kunt toestaan dat een gebruiker e-mails in het postvak kan lezen, e-mails namens aan ander kan verzenden of e-mails kan verzenden alsof deze vanuit dat postvak zijn verzonden. Zie de volgende artikelen om de verschillende typen machtigingen in te stellen:
   
-- [E-mail lezen vanuit het postvak van een andere gebruiker](https://support.office.com/article/Read-email-from-another-user-s-mailbox-in-Office-365-cb3b6a8a-c6e8-4342-803c-3e54b6428cc2?#bkmk_reademailanotheruser)
+- [E-mail lezen vanuit het postvak van een andere gebruiker](give-mailbox-permissions-to-another-user.md#read-email-in-another-users-mailbox)
     
-- [E-mail verzenden vanuit het postvak van een andere gebruiker](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user)
-    
-- [E-mail verzenden namens een andere gebruiker](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user)
+- [E-mail verzenden vanuit het postvak van een andere gebruiker](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)
+
+- [E-mail verzenden namens een andere gebruiker](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)
     
  **Doorgifte wijzigen:**
   

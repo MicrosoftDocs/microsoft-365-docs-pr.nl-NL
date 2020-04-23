@@ -20,13 +20,13 @@ search.appverid:
 - BSA160
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
-description: Informatie over domeinen en de bijbehorende DNS-records om zo uw Office 365-domeinen beter te beheren.
-ms.openlocfilehash: 4fd41102193a9e630ed04a9d1fb2e196dc94486b
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Informatie over domeinen en de bijbehorende DNS-records om zo uw domeinen beter te beheren.
+ms.openlocfilehash: 0b1e969dbb8b172c799e98d5470860fec3625fc2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210466"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628480"
 ---
 # <a name="dns-basics"></a>DNS-basisprincipes
 
@@ -34,7 +34,7 @@ ms.locfileid: "43210466"
   
 ::: moniker range="o365-worldwide"
 
-Domeinnamen, zoals contoso.com, worden beheerd met een wereldwijd systeem van domeinregistrars en databases. Het DNS (Domain Name System) biedt een koppeling tussen door mensen leesbare computerhostnamen en de IP-adressen die door netwerkapparatuur worden gebruikt. Als u de basisprincipes van DNS en domeinregistrars begrijpt, kunt u domeinen in Office 365 beter beheren.
+Domeinnamen, zoals contoso.com, worden beheerd met een wereldwijd systeem van domeinregistrars en databases. Het DNS (Domain Name System) biedt een koppeling tussen door mensen leesbare computerhostnamen en de IP-adressen die door netwerkapparatuur worden gebruikt. Als u de basisprincipes van DNS en domeinregistrars begrijpt, kunt u domeinen beter beheren.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c005f2a4-90ad-46fe-b1ab-90f41f2a9d53?autoplay=false]
   
@@ -144,7 +144,7 @@ Waarom kan het zonebestand van uw domein zich ergens buiten uw domeinregistrar b
 ::: moniker-end
 
 > [!NOTE]
-> Als u uw domein instelt in Office 365, zodat [uw DNS-records worden ingesteld en beheerd door Office 365](../setup/domains-faq.md#how-does-office-365-manage-my-dns-records), moet u tijdens het instellen van het domein [het DNS-beheer wijzigen in Office 365](../setup/domains-faq.md#change-dns-management-to-office-365). 
+> Als u uw domein instelt in Office 365, zodat [uw DNS-records worden ingesteld en beheerd door Microsoft](../setup/domains-faq.md#how-does-office-365-manage-my-dns-records), moet u tijdens het instellen van het domein [het DNS-beheer wijzigen in Office 365](../setup/domains-faq.md#change-dns-management-to-office-365). 
  
 
 ::: moniker range="o365-worldwide"
@@ -154,13 +154,13 @@ Waarom kan het zonebestand van uw domein zich ergens buiten uw domeinregistrar b
 Als u een aangepast domein, zoals fourthcoffee.com, toevoegt aan Office 365, kunt u kortere, meer vertrouwde e-mailadressen en gebruikers-id's met de service gebruiken. U [krijgt een domein om te gebruiken](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx) wanneer u zich aanmeldt voor een Office 365-account, maar dit bevat onmicrosoft.com. Veel mensen voegen liever het domein van hun organisatie of bedrijf toe als ze Office 365 voor e-mail willen gaan gebruiken. 
   
 > [!NOTE]
-> Als u alleen Office 365-apps wilt downloaden en gebruiken, zoals Outlook of Word, hoeft u geen domein toe te voegen: [Installeer Office op uw pc of Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx). 
+> Als u alleen Microsoft-apps wilt downloaden en gebruiken, zoals Outlook of Word, hoeft u geen domein toe te voegen: [Installeer Office op uw pc of Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx). 
   
 U kunt uw domeinnaam in Office 365 gebruiken voor uw e-mailadres, het adres van uw openbare website en uw chatadres.
   
 - **E-mail:** Met uw domeinnaam kunt u uw e-mailadres aanpassen, zodat u een korter en gemakkelijker te onthouden adres kunt gebruiken dan [het eerste onmicrosoft.com-e-mailadres](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx) dat bij uw account wordt geleverd. Dus in plaats van jan@contoso.onmicrosoft.com kan het e-mailadres (dat ook het werkaccount is dat u gebruikt voor het aanmelden bij Office 365) jan@contoso.com zijn. 
     
-- **Website:** Als u een Office 365-abonnement hebt dat een openbare SharePoint Online-website omvat (niet meer te koop), heeft deze openbare site in eerste instantie een adres zoals contoso-public.sharepoint.com. Als u een website voor uw bedrijf instelt, kunt u een aangepaste domeinnaam gebruiken om het websiteadres te wijzigen in bijvoorbeeld www.contoso.com. 
+- **Website:** Als u een Microsoft 365-abonnement hebt dat een openbare SharePoint Online-website omvat (niet meer te koop), heeft deze openbare site in eerste instantie een adres zoals contoso-public.sharepoint.com. Als u een website voor uw bedrijf instelt, kunt u een aangepaste domeinnaam gebruiken om het websiteadres te wijzigen in bijvoorbeeld www.contoso.com. 
     
 - **Chatten:** Uw adres van Skype voor Bedrijven Online kan ook zo worden aangepast dat uw domeinnaam wordt gebruikt, zodat mensen in uw organisatie contact met elkaar kunnen hebben via Skype voor Bedrijven Online met een korter, eenvoudiger te onthouden adres (zoals jan@contoso.com). 
     
@@ -179,7 +179,7 @@ U kunt uw domeinnaam in Office 365 gebruiken voor uw e-mailadres, het adres van 
   
 - **E-mail:** Met uw domeinnaam kunt u uw e-mailadres aanpassen, zodat u een korter en gemakkelijker te onthouden adres kunt gebruiken dan [het eerste onmicrosoft.com-e-mailadres](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx) dat bij uw account wordt geleverd. Dus in plaats van jan@contoso.onmicrosoft.com kan het e-mailadres (dat ook het werkaccount is dat u gebruikt voor het aanmelden bij Office 365) jan@contoso.com zijn. 
     
-- **Website:** Als u een Office 365-abonnement hebt dat een openbare SharePoint Online-website omvat (niet meer te koop), heeft deze openbare site in eerste instantie een adres zoals contoso-public.sharepoint.com. Als u een website voor uw bedrijf instelt, kunt u een aangepaste domeinnaam gebruiken om het websiteadres te wijzigen in bijvoorbeeld www.contoso.com. 
+- **Website:** Als u een abonnement hebt dat een openbare SharePoint Online-website omvat (niet meer te koop), heeft deze openbare site in eerste instantie een adres zoals contoso-public.sharepoint.com. Als u een website voor uw bedrijf instelt, kunt u een aangepaste domeinnaam gebruiken om het websiteadres te wijzigen in bijvoorbeeld www.contoso.com. 
     
 - **Chatten:** Uw adres van Skype voor Bedrijven Online kan ook zo worden aangepast dat uw domeinnaam wordt gebruikt, zodat mensen in uw organisatie contact met elkaar kunnen hebben via Skype voor Bedrijven Online met een korter, eenvoudiger te onthouden adres (zoals jan@contoso.com). 
     
@@ -189,7 +189,7 @@ U kunt uw domeinnaam in Office 365 gebruiken voor uw e-mailadres, het adres van 
 
 Er zijn enkele DNS-records nodig om Office 365 met uw domein te laten werken. Naast het instellen van de MX-record van uw domein, zodat e-mail naar Office 365 wordt verzonden, zijn er ook records ter ondersteuning van andere taken, bijvoorbeeld om ervoor te zorgen dat Outlook automatisch verbinding kan maken met de juiste Exchange-server, voor de configuratie van chatberichten en om ongewenste e-mail te voorkomen.
   
-U kunt [zoeken naar een lijst met waarden](information-for-dns-records.md) om uw domein in te stellen. Deze zijn opgenomen in de Office 365-portal. 
+U kunt [zoeken naar een lijst met waarden](information-for-dns-records.md) om uw domein in te stellen. .Deze zijn opgenomen in het Microsoft 365-beheercentrum. 
   
 Als u een implementatie plant, wilt u mogelijk een lijst bekijken met alle vereiste DNS-records voor Office 365, de functie ervan en voorbeeldwaarden. Bekijk [Externe DNS-records (Domain Name System) voor Office 365](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0).
   

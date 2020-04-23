@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: Maak en configureer teams met Microsoft Teams voor verschillende niveaus gegevensbeveiliging voor bestanden.
-ms.openlocfilehash: 63a4b6763165f38e1de5331324e5a7b3573ea0f1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d8912900a02149d198222a4402e101b0dce53310
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42805913"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637638"
 ---
 # <a name="deploy-teams-for-three-tiers-of-protection-for-files"></a>Teams implementeren voor drie beveiligingslagen voor bestanden
 
@@ -32,7 +32,7 @@ Gebruik de stappen in dit artikel om basislijnteams en gevoelige en zeer vertrou
 
 ## <a name="baseline-teams"></a>Basislijnteams
 
-Basislijnbeveiliging omvat zowel openbare teams als privéteams. Openbare teams kunnen door iedereen in de organisatie worden gedetecteerd en geopend. Privéteams kunnen alleen worden gedetecteerd en geopend door leden van de Office 365-groep die is gekoppeld aan het team. Met beide typen teams kunnen leden de site delen met anderen.
+Basislijnbeveiliging omvat zowel openbare teams als privéteams. Openbare teams kunnen door iedereen in de organisatie worden gedetecteerd en geopend. Privéteams kunnen alleen worden gedetecteerd en geopend door leden van de Microsoft 365-groep die is gekoppeld aan het team. Met beide typen teams kunnen leden de site delen met anderen.
 
 ### <a name="public"></a>Openbaar
 

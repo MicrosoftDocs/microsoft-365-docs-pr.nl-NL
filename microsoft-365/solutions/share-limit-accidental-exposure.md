@@ -10,12 +10,12 @@ ms.collection: SPO_Content
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Meer informatie over het beperken van de onopzettelijke blootstelling van informatie bij het delen van bestanden met personen van buiten uw organisatie.
-ms.openlocfilehash: a84c5183ba3a816cf4d65f854f0143a48374f669
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: fbe97eef2841da9bd46d7f05e3b26dea40cd1bd2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42805618"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632581"
 ---
 # <a name="limit-accidental-exposure-to-files-when-sharing-with-people-outside-your-organization"></a>Het beperken van de onopzettelijke blootstelling van bestanden bij het delen met personen van buiten uw organisatie
 
@@ -79,7 +79,7 @@ Extern delen beperken tot leden van een beveiligingsgroep
 3. Selecteer onder **Wie kan delen buiten uw organisatie** een of beide selectievakjes: a. **Alleen gebruikers in geselecteerde beveiligingsgroepen kunnen met externe gebruikers delen** om een beveiligingsgroep op te geven die met geverifieerde gebruikers kan delen b. **Alleen gebruikers in geselecteerde beveiligingsgroepen kunnen met externe gebruikers delen en met gebruik van anonieme koppelingen** om een beveiligingsgroep op te geven die met geverifieerde gebruikers kan delen met gebruik van Iedereen-koppelingen
 4. Klik op **OK**.
 
-Merk op dat dit invloed heeft op bestanden, mappen en sites, maar niet op Office 365-groepen of Teams. Wanneer leden gasten uitnodigen voor een privégroep in Office 365 of een privéteam in Microsoft Teams, wordt de uitnodiging voor goedkeuring naar de teameigenaar gestuurd.
+Merk op dat dit invloed heeft op bestanden, mappen en sites, maar niet op Microsoft 365-groepen of Teams. Wanneer leden gasten uitnodigen voor een privégroep in Microsoft 365 of een privéteam in Microsoft Teams, wordt de uitnodiging voor goedkeuring naar de teameigenaar gestuurd.
 
 ## <a name="see-also"></a>Zie ook
 

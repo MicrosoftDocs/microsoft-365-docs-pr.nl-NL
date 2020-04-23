@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 9f518a6d-1e2c-4d44-93f3-e19013a1552b
 description: 'Maak een postvak voor vergaderruimte of apparatuur, zodat iedereen binnen het bedrijf deze via Outlook reserveren voor vergaderingen of gebeurtenissen. '
-ms.openlocfilehash: 1690eba40b71972c18f28e02baf0a39d6557651a
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 80562901ecc7382ce6e4ff3375b98efd89a991f0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42809248"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628074"
 ---
 # <a name="room-and-equipment-mailboxes"></a>Postvakken voor vergaderruimten en apparatuur
 
-Als u een vergaderruimte, een bedrijfsauto of apparatuur hebt die iedereen moet kunnen gebruiken, moet u een manier bedenken om die resources door iedereen te kunnen laten reserveren. De beste manier hiervoor is om in Office 365 voor elke resource een postvak te maken voor vergaderruimte of apparatuur. U kunt er bijvoorbeeld een maken voor de vergaderruimte op de eerste verdieping, voor media-apparatuur of voor een verhuiswagen.
+Als u een vergaderruimte, een bedrijfsauto of apparatuur hebt die iedereen moet kunnen gebruiken, moet u een manier bedenken om die resources door iedereen te kunnen laten reserveren. De beste manier hiervoor is om in Microsoft 365 voor elke resource een postvak te maken voor vergaderruimte of apparatuur. U kunt er bijvoorbeeld een maken voor de vergaderruimte op de eerste verdieping, voor media-apparatuur of voor een verhuiswagen.
   
 Wanneer u een postvak voor vergaderruimte of apparatuur hebt gemaakt, kan iedereen binnen het bedrijf deze via Outlook reserveren voor vergaderingen of gebeurtenissen. Informatie over het **gebruiken** en **instellen** hiervan vindt u op de volgende twee tabbladen. Hier behandelen we nog een aantal algemene vragen over postvakken voor vergaderruimten en apparatuur. 
   
@@ -66,7 +66,7 @@ Ga naar het Microsoft 365-beheercentrum om een postvak voor vergaderruimte of ap
   
 2. Selecteer **Toevoegen**.
     
-3. Vul de velden voor vergaderruimten of apparatuur in:<br/>![Een postvak voor een vergaderruimte toevoegen in Office 365](../../media/114d49e3-976e-40ef-b0af-2b0f5c85f15e.png)<br/>
+3. Vul de velden voor vergaderruimten of apparatuur in:<br/>![Een postvak voor een vergaderruimte toevoegen in Microsoft 365](../../media/114d49e3-976e-40ef-b0af-2b0f5c85f15e.png)<br/>
   
   - **Vergaderruimte** of **Apparatuur**: het type postvak dat u wilt maken.
     
@@ -105,7 +105,7 @@ Open de vergadering die u hebt gepland in Outlook en verwijder de vergaderruimte
   
 ### <a name="does-a-room-mailbox-or-equipment-mailbox-need-a-product-license"></a>Heeft een postvak voor vergaderruimte of apparatuur een productlicentie nodig?
 
-Nee. Hoewel de meeste personen in uw organisatie een licentie nodig hebben om Office 365 te kunnen gebruiken, hoeft u geen licentie toe te wijzen aan een postvak voor vergaderruimte of apparatuur.
+Nee. Hoewel de meeste personen in uw organisatie een licentie nodig hebben om Microsoft 365 te kunnen gebruiken, hoeft u geen licentie toe te wijzen aan een postvak voor vergaderruimte of apparatuur.
   
 ### <a name="do-i-need-an-owner-in-charge-of-booking-the-rooms-or-equipment"></a>Heb ik een eigenaar nodig die verantwoordelijk is voor het boeken van de ruimte of apparatuur?
 

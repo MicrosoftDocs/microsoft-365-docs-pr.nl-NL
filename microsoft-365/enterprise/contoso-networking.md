@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: De Contoso-netwerkinfrastructuur en hoe deze de SD-WAN-technologie gebruikt voor optimale netwerkprestaties bij Microsoft 365 Enterprise-cloudservices begrijpen.
-ms.openlocfilehash: 20279ac0aed1b7ad86e1fc8e1d78a412230eba52
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4e649796b30b96db3b36de2dabec1f276728d3ea
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42806076"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625276"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Netwerken voor de Contoso Corporation
 
@@ -50,14 +50,14 @@ Afbeelding 1 toont de netwerkinfrastructuur van Contoso en de bijbehorende verbi
 
 ## <a name="use-of-sd-wan-for-optimal-network-connectivity-to-microsoft"></a>Gebruik van SD-WAN voor optimale netwerkconnectiviteit met Microsoft
 
-Contoso heeft de [Beginselen voor Office 365-netwerkconnectiviteit](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles) gevolgd om:
+Contoso heeft de [Beginselen voor Microsoft 365-netwerkconnectiviteit](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles) gevolgd om:
 
-1. Netwerkverkeer van Office 365 te identificeren en te onderscheiden
+1. Netwerkverkeer van Microsoft 365 te identificeren en te onderscheiden
 2. Lokale uitgangen van netwerkverbindingen te regelen
 3. Netwerk-hairpins te vermijden
 4. Dubbele netwerkbeveiligingsapparaten te omzeilen
 
-Er zijn drie categorieën netwerkverkeer voor Office 365: Optimaliseren, toestaan en standaard. Verkeer in de categorieën Optimaliseren en Toestaan is betrouwbaar netwerkverkeer dat versleuteld en beveiligd is bij de eindpunten en is bestemd voor het Microsoft 365-netwerk.
+Er zijn drie categorieën netwerkverkeer voor Microsoft 365: Optimaliseren, toestaan en standaard. Verkeer in de categorieën Optimaliseren en Toestaan is betrouwbaar netwerkverkeer dat versleuteld en beveiligd is bij de eindpunten en is bestemd voor het Microsoft 365-netwerk.
 
 Contoso heeft besloten om:
 
@@ -93,7 +93,7 @@ Een succesvolle ingebruikname van Microsoft 365 Enterprise-services door de gebr
 
 2. Een plan gemaakt voor de Microsoft 365 Enterprise-netwerkconnectiviteit
 
-   Contoso heeft de [Basisprincipes voor Office 365-netwerkconnectiviteit](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles) en netwerkarchitecturen ter referentie geleverd om SD-WAN vast te leggen als gewenste topologie voor Office 365-connectiviteit.
+   Contoso heeft de [Basisprincipes voor Microsoft 365-netwerkconnectiviteit](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles) en netwerkarchitecturen ter referentie geleverd om SD-WAN vast te leggen als gewenste topologie voor Microsoft 365-connectiviteit.
 
 3. Het verbruik van de internetverbinding en de MPLS WAN-bandbreedte op elke kantoor geanalyseerd en de bandbreedte indien nodig verhoogd
 
@@ -105,7 +105,7 @@ Een succesvolle ingebruikname van Microsoft 365 Enterprise-services door de gebr
 
 5. Interne DNS geconfigureerd
 
-   DNS moet functioneel zijn en lokaal worden opgezocht voor Office 365-verkeer.
+   DNS moet functioneel zijn en lokaal worden opgezocht voor Microsoft 365-verkeer.
 
 6. Gevalideerd netwerkeindpunt en poortconnectiviteit
 

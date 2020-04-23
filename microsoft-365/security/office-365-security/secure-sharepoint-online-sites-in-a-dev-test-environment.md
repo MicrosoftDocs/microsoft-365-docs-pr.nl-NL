@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 06af70f3-e7dc-4ee2-a385-fb4d61a5e93b
 description: 'Samenvatting: maak gevoelige en zeer vertrouwelijke SharePoint Online-teamsites in een ontwikkel-/testomgeving.'
-ms.openlocfilehash: 6294daa943c3815b86a9e12154901ed0b58d5e8d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 016fd99423305e0d11272f3d25115dcffe29ecae
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42809873"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631987"
 ---
 # <a name="secure-sharepoint-online-sites-in-a-devtest-environment"></a>Beveiligde SharePoint Online-sites in een ontwikkel-/testomgeving
 
@@ -52,7 +52,7 @@ Maak eerst twee groepen voor een standaardorganisatie met de Microsoft Azure Por
 
 2. Klik in de Microsoft Azure-portal op **Microsoft Azure Active Directory > Groepen**.
 
-3. Klik in de blade **Groepen: Alle groepen** op **Nieuwe groep**.
+3. Klik in de blade **Groepen: Alle groepen** op **+ Nieuwe groep**.
 
 4. In de blade **Groep**:
 
@@ -66,9 +66,9 @@ Maak eerst twee groepen voor een standaardorganisatie met de Microsoft Azure Por
 
 6. Herhaal stappen 3-5 voor een nieuwe groep met de naam **Marketingpersoneel**.
 
-Vervolgens configureert u automatische licentieverlening, zodat de leden van uw groepen automatisch licenties krijgen toegewezen voor uw Office 365- en EMS-abonnementen.
+Vervolgens configureert u automatische licentieverlening, zodat de leden van uw groepen automatisch licenties krijgen toegewezen voor uw Microsoft 365- en EMS-abonnementen.
 
-1. Klik in de Microsoft Azure-portal op **Microsoft Azure Active Directory > Licenties > Alle producten**.
+1. Klik in de Microsoft Azure-portal op **licenties voor Azure Active Directory > alle producten**.
 
 2. Selecteer in de lijst **Microsoft 365 Enterprise E5** en klik vervolgens op **Toewijzen**.
 
@@ -113,7 +113,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 ```
 
 > [!NOTE]
-> U gebruikt hier een gemeenschappelijk wachtwoord voor de automatisering en het configuratiesgemak in een ontwikkel-/testomgeving. Uiteraard wordt dit sterk afgeraden voor productieabonnementen.
+> U gebruikt hier een gemeenschappelijk wachtwoord voor automatisering en configuratiegemak in een ontwikkel-/testomgeving. Uiteraard wordt dit sterk afgeraden voor productieabonnementen.
 
 Volg deze stappen om te controleren of de licentieverlening op groepsbasis correct werkt.
 
@@ -125,7 +125,7 @@ Volg deze stappen om te controleren of de licentieverlening op groepsbasis corre
 
 4. In het deelvenster met de eigenschappen van het gebruikersaccount van de **CEO** controleert u dat dit account de licentie **Microsoft 365 Enterprise E5** heeft toegewezen gekregen (bij **Productlicenties**).
 
-## <a name="phase-3-create-office-365-retention-labels"></a>Fase 3: retentielabels voor Office 365 maken
+## <a name="phase-3-create-retention-labels"></a>Fase 3: retentielabels maken
 
 In deze fase maakt u de retentielabels voor documenten in uw SharePoint-teamsites.
 
@@ -135,7 +135,7 @@ In deze fase maakt u de retentielabels voor documenten in uw SharePoint-teamsite
 
 3. Klik op **Retentielabels > Een label maken**.
 
-4. Typ in het deelvenster **Uw label een naam geven** **Gevoelig** in **Uw label een naam geven** en klik vervolgens op **Volgende**.
+4. Typ in het deelvenster **Uw label een naam geven** **Vertrouwelijk** in **Uw label een naam geven** en klik vervolgens op **Volgende**.
 
 5. Klik in het deelvenster **Bestandsplandescriptors** op **Volgende**.
 
@@ -149,7 +149,7 @@ In deze fase maakt u de retentielabels voor documenten in uw SharePoint-teamsite
 
 10. Klik in het deelvenster **Labels kiezen om te publiceren** op de optie **Labels kiezen om te publiceren**.
 
-11. Klik op de deelvenster **Labels kiezen** op **Toevoegen** en selecteer alle vier de labels.
+11. Klik op het deelvenster **Labels kiezen** op **Toevoegen** en selecteer alle vier de labels.
 
 12. Klik op **Gereed**.
 
@@ -181,9 +181,9 @@ Configureer vervolgens de documentenmap van de SharePoint-teamsite Marketingcamp
 
 1. Klik op het tabblad **Start: Marketingcampagnes** van uw browser op **Documenten**.
 
-2. Klik op het pictogram Instellingen en daarna op **Bibliotheekinstellingen**.
+2. Klik op het pictogram Instellingen en vervolgens op **Bibliotheekinstellingen**.
 
-3. Klik onder **Machtigingen en beheer** op **Label op deze bibliotheek toepassen**.
+3. Klik onder **Machtigingen en beheer** op **Label op items in deze bibliotheek toepassen**.
 
 4. Selecteer in **Instellingen: Label toepassen** de optie **Gevoelig**en klik vervolgens op **Opslaan**.
 
@@ -193,7 +193,7 @@ Configureer vervolgens een beleid voor de preventie van gegevensverlies (DLP) wa
 
 2. Klik op het nieuwe tabblad **Microsoft 365-compliance** in uw browser op **Beleid > Preventie van gegevensverlies**.
 
-3. Klik in het deelvenster **Start > preventie van gegevensverlies** op **Een beleid maken**.
+3. Klik in het deelvenster **Start > Preventie van gegevensverlies** op **Een beleid maken**.
 
 4. Klik in het deelvenster **Met een sjabloon beginnen of een aangepast beleid maken** op **Aangepast**en klik vervolgens op **Volgende**.
 
@@ -246,9 +246,9 @@ Configureer vervolgens de documentenmap van de SharePoint-teamsite Bedrijfsstrat
 
 1. Klik op het tabblad **Start: Bedrijfsstrategie** van uw browser op **Documenten**.
 
-2. Klik op het pictogram Instellingen en daarna op **Bibliotheekinstellingen**.
+2. Klik op het pictogram Instellingen en vervolgens op **Bibliotheekinstellingen**.
 
-3. Klik onder **Machtigingen en beheer** op **Label op deze bibliotheek toepassen**.
+3. Klik onder **Machtigingen en beheer** op **Label op items in deze bibliotheek toepassen**.
 
 4. Selecteer in **Instellingen: label toepassen** de optie **Zeer vertrouwelijk**en klik vervolgens op **Opslaan**.
 
@@ -258,7 +258,7 @@ Configureer vervolgens een DLP-beleid waarbij gebruikers worden geblokkeerd wann
 
 2. Klik op het nieuwe tabblad **Microsoft 365-compliance** in uw browser op **Beleid > Preventie van gegevensverlies**.
 
-3. Klik in het deelvenster **Start > preventie van gegevensverlies** op **Een beleid maken**.
+3. Klik in het deelvenster **Start > Preventie van gegevensverlies** op **Een beleid maken**.
 
 4. Klik in het deelvenster **Met een sjabloon beginnen of een aangepast beleid maken** op **Aangepast**en klik vervolgens op **Volgende**.
 

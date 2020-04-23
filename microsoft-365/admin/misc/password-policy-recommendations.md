@@ -1,5 +1,5 @@
 ---
-title: Aanbevelingen voor wachtwoordbeleid voor Office 365
+title: Aanbevelingen voor wachtwoordbeleid
 f1.keywords:
 - CSH
 ms.author: kwekua
@@ -18,18 +18,18 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Lees hoe u uw organisatie beter kunt beveiligen tegen wachtwoordaanvallen en waarom u veelgebruikte wachtwoorden moet verbieden en op risico gebaseerde meervoudige verificatie moet inschakelen.
-ms.openlocfilehash: 74f78b6abcc3e3aa7eb3c18c858afcd8e916d432
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: eff22b5591893ea10f8e04e8e7f470e8a0bf9079
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516921"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627822"
 ---
-# <a name="password-policy-recommendations-for-office-365"></a>Aanbevelingen voor wachtwoordbeleid voor Office 365
+# <a name="password-policy-recommendations"></a>Aanbevelingen voor wachtwoordbeleid
  
-Als beheerder van een Office 365-organisatie bent u verantwoordelijk voor het instellen van wachtwoordbeleid voor gebruikers in uw organisatie. Aangezien dit ingewikkeld en verwarrend kan zijn, biedt dit artikel aanbevelingen om uw organisatie beter te beschermen tegen wachtwoordaanvallen.
+Als beheerder van een organisatie bent u verantwoordelijk voor het instellen van wachtwoordbeleid voor gebruikers in uw organisatie. Aangezien dit ingewikkeld en verwarrend kan zijn, biedt dit artikel aanbevelingen om uw organisatie beter te beschermen tegen wachtwoordaanvallen.
   
-Zie [Een wachtwoordverloopbeleid instellen voor Office 365](../manage/set-password-expiration-policy.md) om te bepalen hoe vaak Office 365-wachtwoorden moeten verlopen in uw organisatie.
+Zie [Een wachtwoordverloopbeleid instellen voor Microsoft 365](../manage/set-password-expiration-policy.md) om te bepalen hoe vaak Microsoft 365-wachtwoorden moeten verlopen in uw organisatie.
   
 ## <a name="understanding-password-recommendations"></a>Wachtwoordaanbevelingen begrijpen
 

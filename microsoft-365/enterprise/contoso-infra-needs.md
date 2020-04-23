@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over de basisstructuur van Contoso's on-premises IT-infrastructuur en hoe Microsoft 365 Enterprise in haar zakelijke behoeften voorziet.
-ms.openlocfilehash: 3cee0f3e6cd20b0d93038595cdab9270c8eb30aa
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 38d2b8df611cb06e19abba074f49e00d95496c30
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42812403"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625288"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>De IT-infrastructuur en zakelijke behoeften van Contoso
 
@@ -126,7 +126,7 @@ De IT-afdeling van Contoso heeft voorafgaand aan de implementatie de volgende in
 | Beveiliging |  |  |
 |  | Identiteits- en toegangsbeheer | Toegewijde wereldwijde beheerdersaccounts met Azure meervoudige verificatie (MFA) en Azure AD Privileged Identity Management (PIM) <BR> MFA voor alle gebruikersaccounts <BR> Voorwaardelijke toegang <BR> Windows Hello <BR> Windows Credential Guard |
 |  | Bedreigingsbeveiliging | Advanced Threat Analytics <BR> Windows Defender <BR> Advanced Threat Protection <BR> Office 365 Advanced Threat Protection <BR> Dreigingsonderzoek en -antwoord in Office 365 <BR> |
-|  | Gegevensbeveiliging | Azure-gegevensbeveiliging <BR> Preventie van gegevensverlies in Office 365 (DLP) <BR> Windows-gegevensbescherming (WIP) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
+|  | Gegevensbeveiliging | Azure-gegevensbeveiliging <BR> Preventie van gegevensverlies (DLP, Data Loss Prevention) <BR> Windows-gegevensbescherming (WIP) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | Beveiligingsbeheer | Azure Security Center  <BR> Windows Defender-Beveiligingscentrum |
 | Externe en mobiele toegang en zakelijke partners |  |  |
 |  | Verbeterde beveiliging voor externe en mobiele werknemers | Microsoft Intune |
@@ -135,7 +135,7 @@ De IT-afdeling van Contoso heeft voorafgaand aan de implementatie de volgende in
 | Naleving |  |  |
 |  | Voldoen aan regionale wettelijke voorschriften | AVG-functies in Office 365 |
 | Beheer |  |  |
-|  | Verlaag de IT-overhead voor het installeren van client-updates | Implementatieringen. <BR> Updates voor Windows 10 Enterprise <BR> Updates voor Office 365 ProPlus |
+|  | Verlaag de IT-overhead voor het installeren van client-updates | Implementatieringen. <BR> Updates voor Windows 10 Enterprise <BR> Updates voor Microsoft 365-apps voor ondernemingen |
 ||||
 
 ## <a name="next-step"></a>Volgende stap

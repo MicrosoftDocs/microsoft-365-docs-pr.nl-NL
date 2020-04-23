@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. De Servicebeheerder opent bijvoorbeeld supporttickets met Microsoft.
 ms.custom: okr_smb
-ms.openlocfilehash: ec601e5860460ab77760a5e18c834b987c6b3d07
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: 4e3cec5b2ff86b35d02f8963a584efdb272f2c5e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151393"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43618918"
 ---
 # <a name="about-admin-roles"></a>Informatie over beheerdersrollen
 
@@ -73,10 +73,10 @@ Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen
 
 |Beheerdersrol     |Aan wie moet deze rol worden toegewezen?  |
 |---------|---------|
-|Exchange-beheerder     |   Wijs de Exchange-beheerdersrol toe aan gebruikers die de e-mailpostvakken, Office 365-groepen en Exchange Online van uw gebruikers moeten kunnen bekijken en beheren. <br><br> Exchange-beheerders kunnen ook het volgende doen:<br> - Verwijderde items herstellen in het postvak van een gebruiker <br> Gedelegeerden instellen voor 'Verzenden als' en 'Verzenden namens'. <br>  |
+|Exchange-beheerder     |   Wijs de Exchange-beheerdersrol toe aan gebruikers die de e-mailpostvakken, Microsoft 365-groepen en Exchange Online van uw gebruikers moeten kunnen bekijken en beheren. <br><br> Exchange-beheerders kunnen ook het volgende doen:<br> - Verwijderde items herstellen in het postvak van een gebruiker <br> Gedelegeerden instellen voor 'Verzenden als' en 'Verzenden namens'. <br>  |
 |Algemene beheerder     |   Wijs de Globale beheerdersrol toe aan gebruikers die wereldwijde toegang nodig hebben tot de meeste beheerfuncties en -gegevens via Microsoft online services. <br><br> Te veel gebruikers globale toegang geven is een beveiligingsrisico, we raden u dan ook aan om 2 tot 4 globale beheerders te hebben. <br><br> Alleen globale beheerders kunnen het volgende doen:<br> - Wachtwoorden voor alle gebruikers opnieuw instellen <br> - Domeinen toevoegen en beheren <br> <br> **Opmerking:** de persoon die zich heeft geregistreerd voor Microsoft Online Services, wordt automatisch een globale beheerder. |
 |Algemene lezer    |   Wijs de rol van algemene lezer toe aan gebruikers die beheerdersfuncties en -instellingen moeten bekijken in beheercentra die de globale beheerder kan zien. De beheerder van de algemene lezers kan geen instellingen bewerken.   |
-|Groepsbeheerder     |   Wijs de groepsbeheerdersrol toe aan gebruikers die alle groepsinstellingen in alle beheercentra moeten beheren, inclusief het Microsoft 365-Beheercentrum en de Azure Active Directory-Portal. <br><br> Groepsbeheerders kunnen het volgende doen:<br> - Office 365 Groepen maken, bewerken, verwijderen en herstellen <br> - Beleid voor het maken, verlopen en benoemen van groepen maken en bijwerken <br> - Azure Active Directory-beveiligingsgroepen maken, bewerken, verwijderen en herstellen| 
+|Groepsbeheerder     |   Wijs de groepsbeheerdersrol toe aan gebruikers die alle groepsinstellingen in alle beheercentra moeten beheren, inclusief het Microsoft 365-Beheercentrum en de Azure Active Directory-Portal. <br><br> Groepsbeheerders kunnen het volgende doen:<br> - Microsoft 365-groepen maken, bewerken, verwijderen en herstellen <br> - Beleid voor het maken, verlopen en benoemen van groepen maken en bijwerken <br> - Azure Active Directory-beveiligingsgroepen maken, bewerken, verwijderen en herstellen| 
 |Helpdesk-beheerder     |   Wijs de beheerdersrol Helpdesk toe aan gebruikers die de volgende taken moeten uitvoeren:<br> - Wachtwoorden opnieuw instellen <br> - Gebruikers dwingen zich af te melden <br> - Serviceaanvragen beheren <br> - De servicestatus bewaken <br> <br> **Opmerking**: de Helpdesk-beheerder kan alleen niet-beheerders helpen en gebruikers die deze rollen hebben toegewezen: Directory-lezer, Gast-invite, Helpdesk-beheerder, Berichtencentrum-lezer en Rapportlezer.      |
 |Office-apps beheerder    |   Wijs de beheerdersrol Office Apps toe aan gebruikers die de volgende taken moeten uitvoeren: <br> - Gebruik de Office-cloudbeleidservice om cloudgebaseerd beleid voor Office te maken en te beheren <br> - Serviceaanvragen maken en beheren <br> - Inhoud over nieuwe functies beheren die gebruikers in hun Office-apps zien   <br> - De servicestatus bewaken  |
 |Servicebeheerder    |   Wijs de service-beheerdersrol als een extra rol toe aan beheerders of gebruikers wiens rol niet het volgende omvat, maar die nog steeds het volgende moeten doen: <br> - Serviceaanvragen openen en beheren <br> - Berichten in het berichtencentrum bekijken en delen   |
@@ -127,9 +127,9 @@ Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen
 |Beveiligingsoperator     |    Onderzoekt en reageert op beveiligingswaarschuwingen, beheert functies in het Identiteitsbeschermingscentrum en bewaakt de gezondheid van de service.     |
 |Beveiligingslezer     |    Alleen-lezen toegang tot beveiligingsfuncties, aanmeldrapporten en auditlogboeken.     |
 |Service support-beheerder     |    Maakt serviceaanvragen voor Azure-, Microsoft 365-en Office 365-services en bewaakt de servicestatus.     |
-|SharePoint-beheerder     |    Volledige toegang tot SharePoint Online, beheert Office 365-groepen, beheert serviceaanvragen en bewaakt de servicestatus.     |
+|SharePoint-beheerder     |    Volledige toegang tot SharePoint Online, beheert Microsoft 365-groepen, beheert serviceaanvragen en bewaakt de servicestatus.     |
 |Skype voor Bedrijven-beheerder     | Volledige toegang tot alle Teams- en Skype-functies, Skype-gebruikerskenmerken, beheert serviceaanvragen en controleert de servicestatus.      |
-|Teams-beheerder     |    Volledige toegang tot Teams- en Skype-beheercentrum, beheert Office 365-groepen, beheert serviceaanvragen en bewaakt de servicestatus.     |
+|Teams-beheerder     |    Volledige toegang tot Teams- en Skype-beheercentrum, beheert Microsoft 365-groepen, beheert serviceaanvragen en bewaakt de servicestatus.     |
 |Teams communicatiemanager     |    Wijst telefoonnummers toe, maakt en beheert spraak- en vergaderbeleid en leest oproepanalyses.     |
 |Ondersteuningstechnicus voor Teams-communicatie     |    Leest oproeprecorddetails voor alle oproepdeelnemers om communicatieproblemen op te lossen.     |
 |Ondersteuningsspecialist voor Teams-communicatie     |    Leest details van gebruikersoproepen voor een specifieke gebruiker, om communicatieproblemen op te lossen.|

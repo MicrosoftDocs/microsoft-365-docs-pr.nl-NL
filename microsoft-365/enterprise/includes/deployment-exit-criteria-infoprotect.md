@@ -14,11 +14,11 @@ Via [Stap 1](../infoprotect-define-sec-infoprotect-levels.md) kunt u zo nodig aa
 <a name="crit-infoprotect-step3"></a>
 ### <a name="required-increased-security-for-microsoft-365-is-configured"></a>Vereist: verbeterde beveiliging voor Microsoft 365 is geconfigureerd
 
-U hebt de volgende instellingen voor [Office 365 verhoogde beveiliging](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security) geconfigureerd:
+U hebt de volgende instellingen voor [Microsoft 365 verhoogde beveiliging](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security) geconfigureerd:
 
 - Beleid voor bedreigingsbeheer in het Microsoft 365-beveiligingscentrum
-- Aanvullende Exchange Online-instellingen tenantbreed
-- Tenantbreed deelbeleid in SharePoint Online-beheercentrum
+- Aanvullende, tenant-brede Exchange Online-instellingen
+- Tenant-breed deelbeleid in SharePoint Online-beheercentrum
 - Instellingen in Azure Active Directory (Azure AD)
 
 U hebt ook [Office 365 Advanced Threat Protection (ATP) voor bestanden in SharePoint, OneDrive en Microsoft Teams ingeschakeld](https://docs.microsoft.com/office365/securitycompliance/turn-on-atp-for-spo-odb-and-teams).
@@ -45,25 +45,25 @@ Via [Stap 2](../infoprotect-configure-classification.md) kunt u zo nodig aan dez
 
 Uw Windows 10 Enterprise-apparaten hebben een Intune-beleid geïmplementeerd en toegepast dat bepaalt:
 
-- welke apps moeten worden beveiligd.
-- het niveau van de beveiliging.
-- waar de beveiliging wordt uitgebreid.
+- Welke apps moeten worden beveiligd.
+- Het niveau van de beveiliging.
+- Waar de beveiliging wordt uitgebreid.
 
 Via [Stap 4](../infoprotect-deploy-windows-information-protection.md) kunt u zo nodig aan deze vereisten voldoen. 
 
 <a name="crit-infoprotect-step5"></a>
-### <a name="optional-office-365-data-loss-prevention-dlp-is-deployed"></a>Optioneel: Office 365-preventie van gegevensverlies (DLP) wordt geïmplementeerd
+### <a name="optional-data-loss-prevention-dlp-is-deployed"></a>Optioneel: Preventie van gegevensverlies (DLP) wordt geïmplementeerd
 
-U hebt de verzameling DLP-beleid (met locaties en regels met voorwaarden en acties), die uw organisatie vereist om klanten en andere typen persoonsgegevens te beschermen en om te voldoen aan de branche- en regionale regelgeving, geanalyseerd, getest en vervolgens geïmplementeerd.
+U hebt de set DLP-beleidsregels, met locaties en regels met voorwaarden en acties, die uw organisatie nodig heeft om klant- en andere soorten privégegevens te beschermen en te voldoen aan branche- en regionale voorschriften en vereisten, geanalyseerd, getest en vervolgens uitgerold.
 
-Uw medewerkers voor compliance en beveiliging van gegevens gebruiken het Office 365-beveiligings- en compliancedashboard om DLP-incidenten te bewaken.
+Uw medewerkers voor compliance en beveiliging van gegevens gebruiken het Beveiligings- en compliance-dashboard om DLP-incidenten te bewaken.
 
 Via [Stap 5](../infoprotect-data-loss-prevention.md) kunt u zo nodig aan deze vereisten voldoen. 
 
 <a name="crit-infoprotect-step6"></a>
 ### <a name="optional-email-encryption-is-configured"></a>Optioneel: e-mailversleuteling wordt geconfigureerd
 
-U hebt de volgende e-mailversleuteling zo nodig geconfigureerd voor uw organisatie:
+U hebt voor uw organisatie de volgende e-mailversleuteling geconfigureerd:
 
 |||
 |:-------|:-----|
@@ -76,8 +76,8 @@ U hebt de volgende e-mailversleuteling zo nodig geconfigureerd voor uw organisat
 Via [Stap 6](../infoprotect-email-encryption.md) kunt u zo nodig aan deze vereisten voldoen.
 
 <a name="crit-infoprotect-step7"></a>
-### <a name="optional-configure-privileged-access-management-in-office-365"></a>Optioneel: configureer bevoegd toegangsbeheer in Office 365
+### <a name="optional-configure-privileged-access-management-in-office-365"></a>Optioneel: configureer Privileged Access Management in Office 365
 
-U hebt de informatie in [Privileged Access Management (bevoegd toegangsbeheer) in Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) gebruikt om Privileged Access Management in te schakelen en een of meer beleidsregels voor geprivilegieerde toegang in uw organisatie te maken. U hebt deze beleidsregels geconfigureerd en just-in-time-toegang is ingeschakeld voor toegang tot gevoelige gegevens of kritieke configuratie-instellingen.
+U hebt de informatie in het onderwerp [Privileged Access Management configureren in Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) gebruikt om Privileged Access Management in te schakelen en een of meer beleidsregels voor geprivilegieerde toegang in uw organisatie te maken. U hebt deze beleidsregels geconfigureerd en just-in-time-toegang is ingeschakeld voor toegang tot gevoelige gegevens of kritieke configuratie-instellingen.
 
 Via [Stap 7](../infoprotect-configure-privileged-access-management.md) kunt u zo nodig aan deze vereisten voldoen. 

@@ -17,17 +17,17 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
-ms.openlocfilehash: 34dc541087eb05af6b688670112cf02489164fb1
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: 993939027962bd51ad4fdc3381c1e7d8ea4eddd4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528603"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634530"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
 > [!IMPORTANT]
-> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) hebben. Zie [Geavanceerde Outlook.com-beveiliging voor Office 365-abonnees](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2) als u Outlook.com, Office 365 Home of Office 365 Personal gebruikt en u zoek informatie over veilige koppelingen of veilige bijlagen in Outlook.
+> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) hebben. Zie [Geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2) als u Outlook.com, Microsoft 365 Family of Microsoft 365 Personal gebruikt en u zoek informatie over veilige koppelingen of veilige bijlagen in Outlook.
 
 ## <a name="overview"></a>Overzicht
 
@@ -53,7 +53,7 @@ De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement
 
 - Office 365 ATP-abonnement 2 is inbegrepen in Office 365 E5, Office 365 A5 en Microsoft 365 E5.
 
-- Office 365 ATP-abonnement 1 is inbegrepen in Microsoft 365 Business.
+- Office 365 ATP-abonnement 1 is inbegrepen in Microsoft 365 Business Premium.
 
 - Office 365 ATP-abonnement 1 en Office 365 ATP-abonnement 2 zijn elk beschikbaar als invoegtoepassing voor bepaalde abonnementen. Zie [Beschikbaarheid van functies in ATP-abonnementen](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
@@ -61,7 +61,7 @@ De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement
 
 ## <a name="configure-atp-policies"></a>ATP-beleid configureren
 
-Met Office 365 ATP kan het beveiligingsteam van uw organisatie beveiliging configureren door beleid te definiëren in het Office 365-beveiligings- en compliancecentrum (Ga naar [https://protection.office.com](https://protection.office.com) > **Threat management** > **Policy**).
+Met Office 365 ATP kan het beveiligingsteam van uw organisatie beveiliging configureren door beleid te definiëren in het beveiligings- en compliancecentrum (Ga naar [https://protection.office.com](https://protection.office.com) > **Threat management** > **Policy**).
 
 > [!TIP]
 > Zie [Beveiligen tegen bedreigingen](protect-against-threats.md) voor een kort overzicht van te definiëren beleid.
@@ -112,16 +112,16 @@ U moet een passende rol zijn toegewezen om toegang te krijgen tot ATP-functies i
 
 |Rol of rollengroep|Informatiebronnen|
 |---------|---------|
-|Office 365-hoofdbeheerder (die kan worden toegewezen in Azure Active Directory of in het Office 365-beveiligings- en compliancecentrum) |[Informatie over beheerdersrollen in Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
-|Beveiligingsbeheerder (die kan worden toegewezen in Azure Active Directory of in het Office 365-beveiligings- en compliancecentrum) |[Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[Rapporten in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|
+|Globale beheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum) |[Over Microsoft 365-beheersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
+|Beveiligingsbeheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum) |[Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[Rapporten in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|
 |Exchange Online Organization Management (die wordt toegewezen in Exchange Online)|[Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)<br><br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
-|Zoeken en opschonen (die wordt alleen toegewezen in het Office 365-beveiligings- en compliancecentrum) |[Machtigingen in het Beveiligings- en compliancecentrum](machtigingen-in-het-beveiligings-en-compliance-centrum.md|
+|Zoeken en opschonen (die wordt alleen toegewezen in het beveiligings- en compliancecentrum) |[Machtigingen in het Beveiligings- en compliancecentrum](machtigingen-in-het-beveiligings-en-compliance-centrum.md|
 
 Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
 ## <a name="get-office-365-atp"></a>Office 365 ATP kopen
 
-Office 365 ATP is inbegrepen in bepaalde abonnementen, zoals Microsoft 365 E5, Office 365 E5, Office 365 A5 en Microsoft 365 Business. Als uw abonnement niet beschikt over Office 365 ATP kunt u ATP-abonnement 1 of ATP-abonnement 2 als invoegtoepassing kopen bij bepaalde abonnementen. Zie de volgende bronnen voor meer informatie:
+Office 365 ATP is inbegrepen in bepaalde abonnementen, zoals Microsoft 365 E5, Office 365 E5, Office 365 A5 en Microsoft 365 Business Premium. Als uw abonnement niet beschikt over Office 365 ATP kunt u ATP-abonnement 1 of ATP-abonnement 2 als invoegtoepassing kopen bij bepaalde abonnementen. Zie de volgende bronnen voor meer informatie:
 
 - [Beschikbaarheid van Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#office-365-advanced-threat-protection-atp-availability) voor een lijst met abonnementen waarin ATP-abonnementen zijn opgenomen.
 

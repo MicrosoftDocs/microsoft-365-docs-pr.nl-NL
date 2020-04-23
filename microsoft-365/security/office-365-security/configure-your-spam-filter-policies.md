@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen het antispambeleid in Exchange Online en zelfstandige Exchange Online Protection (EOP) maken, wijzigen en verwijderen.
-ms.openlocfilehash: 3f71a9c9a62e409d4a54c01523270fb10a723a96
-ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
+ms.openlocfilehash: e3d49fecf456fe7f615cc2877c7522632b8db7d7
+ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43231014"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43608184"
 ---
 # <a name="configure-anti-spam-policies-in-office-365"></a>Antispambeleid configureren in Office 365
 
@@ -341,6 +341,11 @@ Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst,
    - **Spammeldingen voor eindgebruikers inschakelen**: selecteer het selectievakje om meldingen in te schakelen. Schakel het selectievakje uit om meldingen uit te schakelen.
 
    - **Iedere (dagen) spammeldingen voor eindgebruikers verzenden **: selecteer hoe vaak meldingen worden verzonden. De standaardwaarde is 3 dagen. U kunt 1 tot 15 dagen opgeven.
+   
+     Er zijn drie cycli van spammeldingen voor eindgebruikers binnen een periode van 24 uur die beginnen op de volgende tijden: 01:00 UTC, 08:00 UTC en 16:00 UTC. 
+    
+     > [!NOTE]
+     > Als we tijdens een vorige cyclus een melding hebben gemist, zal de volgende cyclus de melding pushen. Dit geeft de indruk van meerdere meldingen op dezelfde dag.
 
    - **Taal van meldingen**: klik op de vervolgkeuzelijst en selecteer een beschikbare taal in de lijst. De standaardwaarde is **Standaard**, dit betekent dat de standaardtaal van het EOP-bedrijf wordt gebruikt door de quarantainemeldingen.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 06af70f3-e7dc-4ee2-a385-fb4d61a5e93b
 description: 'Samenvatting: maak gevoelige en zeer vertrouwelijke teams in Microsoft Teams voor bestanden in een ontwikkel-/testomgeving.'
-ms.openlocfilehash: 7af36e5a3af94297124c6f03cdead514ac941e5b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5b3f5c74ac484eb00852d5756b3269fb7c8c6a5b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42811672"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637966"
 ---
 # <a name="secure-teams-for-files-in-a-devtest-environment"></a>Veilige teams voor bestanden in een ontwikkel-/testomgeving
 
@@ -44,17 +44,17 @@ Als u gevoelige en zeer vertrouwelijke teams in een gesimuleerde onderneming wil
     
 ## <a name="phase-2-create-and-configure-your-azure-active-directory-ad-groups-and-users"></a>Fase 2: uw Azure AD-groepen (Active Directory) en -gebruikers maken en configureren
 
-In deze fase maakt en configureert u de Azure AD-groepen en -gebruikers voor uw fictieve organisatie.
+In deze fase maakt en configureert u de Microsoft Azure AD-groepen en -gebruikers voor uw fictieve organisatie.
   
-Maak eerst twee groepen voor een standaardorganisatie met de Azure Portal.
+Maak eerst twee groepen voor een standaardorganisatie met de Microsoft Azure Portal.
   
-1. Open een afzonderlijk tabblad in uw browser en ga naar de Azure Portal op [https://portal.azure.com](https://portal.azure.com). Indien nodig meldt u zich aan met de inloggegevens van het algemene beheerdersaccount van uw proefabonnement of uw betaald abonnement op Microsoft 365 E5.
+1. Open een afzonderlijk tabblad in uw browser en ga naar de Microsoft Azure Portal op [https://portal.azure.com](https://portal.azure.com). Indien nodig meldt u zich aan met de inloggegevens van het algemene beheerdersaccount van uw proefabonnement of uw betaald abonnement op Microsoft 365 E5.
     
-2. Klik in de Azure-portal op **Azure Active Directory > Groepen**.
+2. Klik in de Microsoft Azure-portal op **Microsoft Azure Active Directory > Groepen**.
     
 3. Klik in de blade **Groepen: Alle groepen** op **+ Nieuwe groep**.
     
-4. Op de blade **Groep**:
+4. In de blade **Groep**:
     
   - Selecteer **Beveiliging** bij **Groepstype**.
     
@@ -64,11 +64,11 @@ Maak eerst twee groepen voor een standaardorganisatie met de Azure Portal.
       
 5. Klik op **Maken** en sluit vervolgens de blade**Groep**.
     
-6.  Herhaal stappen 3-5 voor een nieuwe groep met de naam **marketingpersoneel**.
+6.    Herhaal stappen 3-5 voor een nieuwe groep met de naam **Marketingpersoneel**.
     
-Vervolgens configureert u automatische licentieverlening, zodat de leden van uw groepen automatisch licenties krijgen toegewezen voor uw Office 365- en EMS-abonnementen.
+Vervolgens configureert u automatische licentieverlening, zodat de leden van uw groepen automatisch licenties krijgen toegewezen voor uw Microsoft 365- en EMS-abonnementen.
   
-1. Klik in de Azure-portal op **Azure Active Directory > Licenties > Alle producten**.
+1. Klik in de Microsoft Azure-portal op **licenties voor Azure Active Directory > alle producten**.
     
 2. Selecteer in de lijst **Microsoft 365 Enterprise E5** en klik vervolgens op **Toewijzen**.
     
@@ -84,9 +84,9 @@ Vervolgens configureert u automatische licentieverlening, zodat de leden van uw 
     
 6. Sluit het tabblad Azure Portal in uw browser.
     
-Vervolgens maakt u [verbinding met de module Azure Active Directory PowerShell voor Graph](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Vervolgens maakt u [Verbinding met de Windows PowerShell voor Graph-module van Microsoft Azure Active Directory](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
   
-Vul de naam van uw organisatie, uw locatie en een gemeenschappelijk wachtwoord in en voer vervolgens deze opdrachten uit in de opdrachtprompt van PowerShell of de Integrated Scripting Environment (ISE) om gebruikersaccounts te maken en toe te voegen aan hun groepen:
+Vul de naam van uw organisatie, uw locatie en een gemeenschappelijk wachtwoord in en voer vervolgens deze opdrachten uit in de opdrachtprompt van Windows PowerShell of de Integrated Scripting Environment (ISE) om gebruikersaccounts te maken en toe te voegen aan hun groepen:
   
 ```powershell
 $orgName="<organization name, such as contoso for the contoso.onmicrosoft.com trial subscription domain name>"
@@ -125,21 +125,21 @@ Volg deze stappen om te controleren of de licentieverlening op groepsbasis corre
     
 4. In het deelvenster met de eigenschappen van het gebruikersaccount van de **CEO** controleert u dat dit account de licentie **Microsoft 365 Enterprise E5** heeft toegewezen gekregen (bij **Productlicenties**).
     
-## <a name="phase-3-create-office-365-retention-labels"></a>Fase 3: retentielabels voor Office 365 maken
+## <a name="phase-3-create-retention-labels"></a>Fase 3: retentielabels maken
 
 In deze fase maakt u de retentielabels voor de verschillende beveiligingsniveaus voor onderliggende documentenmappen van de SharePoint-site.
 
 1. Meld u aan bij de [Microsoft 365-complianceportal](https://compliance.microsoft.com) met uw algemeen beheerdersaccount.
     
-2. Klik op het tabblad van uw browser **Start: compliance in Microsoft 365 ** op **Classificaties > Labels**.
+2. Klik op het tabblad **Start: Microsoft 365-compliancecentrum** van uw browser op **Classificaties > Labels**.
     
-3. Klik op **Retentielabels > een label maken**.
+3. Klik op **Retentielabels > Een label maken**.
     
 4. Typ in het deelvenster **Uw label een naam geven** **Vertrouwelijk** in **Uw label een naam geven** en klik vervolgens op **Volgende**.
 
 5. Klik in het deelvenster **Bestandsplandescriptors** op **Volgende**.
     
-6. Indien nodig kunt u in het deelvenster **Labelinstellingen** De **Retentie** instellen op **Aan** en vervolgens klikt u op **Volgende**.
+6. Indien nodig kunt u in het deelvenster **Labelinstellingen** de **Retentie** instellen op **Aan** en vervolgens klikt u op **Volgende**.
     
 7. Klik in het deelvenster **Uw instellingen controleren** op **Label maken**.
     
@@ -147,7 +147,7 @@ In deze fase maakt u de retentielabels voor de verschillende beveiligingsniveaus
     
 9. Klik in het deelvenster **Start > Labels** op **Labels publiceren**.
     
-10. Klik in het deelvenster **Labels kiezen om te publiceren** op **Labels kiezen om te publiceren**.
+10. Klik in het deelvenster **Labels kiezen om te publiceren** op de optie **Labels kiezen om te publiceren**.
     
 11. Klik op het deelvenster **Labels kiezen** op **Toevoegen** en selecteer alle vier de labels.
     
@@ -171,18 +171,18 @@ Ga als volgt te werk om een team te maken met een gevoeligheidsniveau voor leden
 
 1. [Maak een nieuwe privéteamsite](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) met de naam **Marketingcampagnes**.
 2. Open het team **marketingcampagnes**.
-3.  Klik in de werkbalk van het team op **Bestanden**.
-4.  Klik op het beletselteken en klik vervolgens op **Openen in SharePoint**.
-5.  Klik op de werkbalk van de onderliggende SharePoint-site op het pictogram Instellingen en vervolgens op **Sitemachtigingen**.
-6.  Klik in het deelvenster **Sitemachtigingen** onder **Instellingen voor delen** op **Instellingen voor delen wijzigen**.
-7.  Kies onder **Machtigingen voor delen** de optie **Alleen site-eigenaren kunnen bestanden, mappen en de site delen** en klik vervolgens op **Opslaan**.
+3.    Klik in de werkbalk van het team op **Bestanden**.
+4.    Klik op het beletselteken en klik vervolgens op **Openen in SharePoint**.
+5.    Klik op de werkbalk van de onderliggende SharePoint-site op het pictogram Instellingen en vervolgens op **Sitemachtigingen**.
+6.    Klik in het deelvenster **Sitemachtigingen** onder **Instellingen voor delen** op **Instellingen voor delen wijzigen**.
+7.    Kies onder **Machtigingen voor delen** de optie **Alleen site-eigenaren kunnen bestanden, mappen en de site delen** en klik vervolgens op **Opslaan**.
 
 Configureer vervolgens de documentenmap van de onderliggende SharePoint-site Marketingcampagnes voor het label Gevoelig.
 
-1.  Klik op het tabblad **Start Marketingcampagnes** van uw browser op **Documenten**.
-2.  Klik op het pictogram Instellingen en vervolgens op **Bibliotheekinstellingen**.
-3.  Klik onder **Machtigingen en beheer** op **Label op items in deze bibliotheek toepassen**.
-4.  Selecteer in **Instellingen: Label toepassen** de optie **Gevoelig**en klik vervolgens op **Opslaan**. 
+1.    Klik op het tabblad **Start Marketingcampagnes** van uw browser op **Documenten**.
+2.    Klik op het pictogram Instellingen en vervolgens op **Bibliotheekinstellingen**.
+3.    Klik onder **Machtigingen en beheer** op **Label op items in deze bibliotheek toepassen**.
+4.    Selecteer in **Instellingen: Label toepassen** de optie **Gevoelig**en klik vervolgens op **Opslaan**. 
 
 Configureer vervolgens een beleid voor de preventie van gegevensverlies (DLP) waardoor gebruikers worden gewaarschuwd wanneer ze een document met het label Gevoelig op de onderliggende SharePoint-site en buiten de organisatie delen, waaronder op de site Marketingcampagnes.
 
@@ -236,19 +236,19 @@ Zo maakt u een zeer vertrouwelijk team voor leden van het senior leiderschapstea
 
 1. [Maak een nieuw persoonlijk team](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) met de naam **Bedrijfsstrategie**.
 2. Open het **bedrijfsstrategie**-team.
-3.  Klik in de werkbalk van het team op **Bestanden**.
-4.  Klik op het beletselteken en klik vervolgens op **Openen in SharePoint**.
-5.  Klik op de werkbalk van de onderliggende SharePoint-site op het pictogram Instellingen en vervolgens op **Sitemachtigingen**.
-6.  Klik in het deelvenster **Sitemachtigingen** onder **Instellingen voor delen** op **Instellingen voor delen wijzigen**.
-7.  Kies onder **Machtigingen voor delen**, **Alleen site-eigenaren kunnen bestanden, mappen en de site delen**.
-8.  Schakel **Toegangsaanvragen toestaan** uit en klik vervolgens op **Opslaan**.
+3.    Klik in de werkbalk van het team op **Bestanden**.
+4.    Klik op het beletselteken en klik vervolgens op **Openen in SharePoint**.
+5.    Klik op de werkbalk van de onderliggende SharePoint-site op het pictogram Instellingen en vervolgens op **Sitemachtigingen**.
+6.    Klik in het deelvenster **Sitemachtigingen** onder **Instellingen voor delen** op **Instellingen voor delen wijzigen**.
+7.    Kies onder **Machtigingen voor delen**, **Alleen site-eigenaren kunnen bestanden, mappen en de site delen**.
+8.    Schakel **Toegangsaanvragen toestaan** uit en klik vervolgens op **Opslaan**.
 
 Configureer vervolgens de documentenmap van de onderliggende Company Strategy SharePoint-site voor het label Gevoelig.
 
-1.  Klik op het tabblad **Start bedrijfsstrategie** van uw browser op **Documenten**.
-2.  Klik op het pictogram Instellingen en vervolgens op **Bibliotheekinstellingen**.
-3.  Klik onder **Machtigingen en beheer** op **Label op items in deze bibliotheek toepassen**.
-4.  Selecteer in **Instellingen: label toepassen** de optie **Gevoelig**en klik vervolgens op **Opslaan**. 
+1.    Klik op het tabblad **Start bedrijfsstrategie** van uw browser op **Documenten**.
+2.    Klik op het pictogram Instellingen en vervolgens op **Bibliotheekinstellingen**.
+3.    Klik onder **Machtigingen en beheer** op **Label op items in deze bibliotheek toepassen**.
+4.    Selecteer in **Instellingen: label toepassen** de optie **Gevoelig**en klik vervolgens op **Opslaan**. 
 
 Configureer vervolgens een DLP-beleid dat gebruikers blokkeert wanneer ze een document op een onderliggende SharePoint-site met het label Gevoelig, waaronder de bedrijfsstrategiesite, buiten de organisatie delen.
   
@@ -260,7 +260,7 @@ Configureer vervolgens een DLP-beleid dat gebruikers blokkeert wanneer ze een do
     
 4. Klik in het deelvenster **Met een sjabloon beginnen of een aangepast beleid maken** op **Aangepast**en klik vervolgens op **Volgende**.
     
-5. Typ in het deelvenster **Uw beleid een naam geven** **Label Gevoelig voor SharePoint-sites** in **Naam**en klik vervolgens op **Volgende**.
+5. Typ in het deelvenster **Uw beleid een naam geven** **Label Zeer vertrouwelijk voor SharePoint-sites** in **Naam**en klik vervolgens op **Volgende**.
     
 6. Klik in het deelvenster **Locaties kiezen** op **Laat mij specifieke locaties kiezen** en klik vervolgens op **Volgende**.
     
@@ -270,7 +270,7 @@ Configureer vervolgens een DLP-beleid dat gebruikers blokkeert wanneer ze een do
     
 9. Klik in het deelvenster **Kies de typen inhoud die u wilt beveiligen** op **Toevoegen** in de vervolgkeuzelijst en klik vervolgens op **Retentielabels**.
     
-10. Klik in het deelvenster **Retentielabels** op **Toevoegen**, selecteer het label **Gevoelig**, klik op **Toevoegen**en klik vervolgens op **Gereed**.
+10. Klik in het deelvenster **Retentielabels** op **Toevoegen**, selecteer het label **Zeer Vertrouwelijk**, klik op **Toevoegen**en klik vervolgens op **Gereed**.
     
 11. Klik in het deelvenster **Kies de typen inhoud die u wilt beveiligen** op **Opslaan**.
     
@@ -292,13 +292,13 @@ Configureer vervolgens een DLP-beleid dat gebruikers blokkeert wanneer ze een do
     
 19. Klik in het deelvenster **Uw instellingen controleren** op **Maken** en klik vervolgens op **Sluiten**.
 
-Gebruik [deze instructies](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels) om een gevoeligheids label met de volgende instellingen te configureren:
+Gebruik [deze instructies](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels) om een gevoeligheidslabel met de volgende instellingen te configureren:
 
 - De naam van het label is Bedrijfsstrategie
-- Versleuteling is ingeschakeld
-- De bedrijfsstrategiegroep heeft cocreatie-machtigingen
+- Versleuteling is ingeschakeld.
+- De groep Bedrijfsstrategie heeft cocreatie-machtigingen
 
-Publiceer na het maken het nieuwe label. Als u zich aanmeldt als lid van de bedrijfsstrategiegroep, ziet u het nieuwe label in de optie Gevoeligheid op de werkbalk Start van Word, Excel en PowerPoint. Selecteer het label Bedrijfsstrategie bij de optie Gevoeligheid om het label aan een bestand toe te wijzen.
+Publiceer na het maken het nieuwe label. Als u zich aanmeldt als lid van de groep Bedrijfsstrategie ziet u het nieuwe label in de optie Gevoeligheid op de werkbalk Start van Word, Excel en PowerPoint. Selecteer het label Bedrijfsstrategie bij de optie Gevoeligheid om het label aan een bestand toe te wijzen.
 
 Hier is de resulterende configuratie voor het bedrijfsstrategieteam.
 

@@ -15,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: 15bd30e54aaf5c7e7fcd881009f8c51c6d5c74e0
-ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
+ms.openlocfilehash: 9635e6d12b9f3ef606f8b62edac4dce6d75a1074
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43225929"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631511"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit
 
-Deze labs zijn bedoeld om u te helpen bij het plannen, testen en valideren van uw implementatie en het beheer van desktops met Windows 10 Enterprise en Office 365 ProPlus. De labs bevatten de stappen en hulpmiddelen die worden beschreven in het desktopimplementatiewiel, en omvatten Microsoft Endpoint Configuration Manager, Desktop Analytics, Office Customization Tool, OneDrive, Windows Autopilot en meer.
+Deze labs zijn bedoeld om u te helpen bij het plannen, testen en valideren van uw implementatie en het beheer van desktops met Windows 10 Enterprise en Microsoft 365-apps voor ondernemingen. De labs bevatten de stappen en hulpmiddelen die worden beschreven in het desktopimplementatiewiel, en omvatten Microsoft Endpoint Configuration Manager, Desktop Analytics, Office Customization Tool, OneDrive, Windows Autopilot en meer.
 
 Deze training wordt ten zeerste aanbevolen voor organisaties die zich voorbereiden op het einde van de levensduur van Windows 7, maar is ook van toepassing als u Windows 10 en Office 365 Plus of Office 2019 gebruikt. Als een geïsoleerde omgeving is het lab bovendien ideaal voor het verkennen van het implementatieprogramma en het testen van uw implementatie.
 
@@ -69,7 +69,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 
 ### <a name="office-and-lob-app-delivery"></a>Levering van Office- en LOB-apps
 
-  - Implementatie van Office 365 ProPlus 
+  - Microsoft 365-apps voor ondernemingen
   - Beheerde implementatie door onderneming met Configuration Manager en Microsoft Intune
   - Implementatie en beheer van apps met Microsoft Intune
   - Implementatie en self-service-installatie van apps met Microsoft Store voor Bedrijven
@@ -113,7 +113,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 
 [Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-*Gebruik een grote bandbreedte om deze inhoud sneller te kunnen te downloaden. Houd rekening met 30-45 minuten voor automatische inrichting. De labomgeving vereist minimaal 16 GB beschikbaar geheugen en 150 GB beschikbare schijfruimte. Voor optimale prestaties wordt 32 GB beschikbaar geheugen aanbevolen. Het lab verloopt op 5 juli 2020. Voor die tijd wordt een nieuwe versie gepubliceerd.*
+*Gebruik een grote bandbreedte om deze inhoud sneller te kunnen te downloaden. Houd rekening met 30-45 minuten voor automatische inrichting. De labomgeving vereist minimaal 16 GB beschikbaar geheugen en 150 GB beschikbare schijfruimte. Voor optimale prestaties wordt 32 GB beschikbaar geheugen aanbevolen. Het lab verloopt op 18 april 2020. Voor die tijd wordt een nieuwe versie gepubliceerd.*
 
 ## <a name="additional-guidance"></a>Aanvullende richtlijnen
 
@@ -125,7 +125,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 
   - [<span class="underline">Implementatie van Windows 10 plannen</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 
-  - [Implementatiehandleiding voor Office 365 ProPlus<span class="underline"></span>](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
+  - [<span class="underline">Implementatiegids voor Microsoft 365-apps voor ondernemingen</span>](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
 
   - [<span class="underline">Aan de slag met Intune</span>](https://docs.microsoft.com/intune/get-started-evaluation)
 

@@ -3,7 +3,7 @@ Zie ook [Vereisten](https://docs.microsoft.com/microsoft-365/enterprise/identity
 <a name="crit-identity-global-admin"></a>
 ### <a name="required-your-global-administrator-accounts-are-protected"></a>Vereist: uw globale-beheerdersaccounts worden beveiligd 
 
-U hebt [uw globale-beheerdersaccounts van Office 365 beveiligd](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts) om misbruik van referenties door kwaadwillende gebruikers en een inbreuk op uw abonnement op Microsoft 365 te voorkomen.
+U hebt [uw globale-beheerdersaccounts beveiligd](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts) om misbruik van referenties door kwaadwillende gebruikers en een inbreuk op uw abonnement op Microsoft 365 te voorkomen.
 
 Als u deze vereiste overslaat, kunnen uw globale-beheerdersaccounts gevoelig zijn voor aanvallen en misbruik, waardoor een kwaadwillende gebruiker toegang kan krijgen tot uw gegevens voor verzameling, vernietiging of digitale gijzeling.
 
@@ -17,7 +17,7 @@ Gebruik de volgende stappen om te controleren of u uw globale-beheerdersaccounts
    ```powershell
    Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
    ```
-2. Meld u aan bij Office 365 met een van de accounts uit stap 1. Voor elke aanmelding moeten Azure Multi-Factor Authentication en de sterkste vormen van secundaire verificatie in uw organisatie worden gebruikt.
+2. Meld u aan met een van de accounts uit stap 1. Voor elke aanmelding moeten Azure Multi-Factor Authentication en de sterkste vormen van secundaire verificatie in uw organisatie worden gebruikt.
 
 > [!Note]
 > Zie [Connect to Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell) (Verbinding maken met Office 365 PowerShell) voor instructies over het installeren van de Azure Active Directory PowerShell for Graph-module en het aanmelden bij Office 365.
@@ -66,11 +66,11 @@ Als u deze optie overslaat, kan aan uw gebruikers worden gevraagd referenties op
 [Stap 2](../identity-secure-your-passwords.md#identity-sso) kan u bij deze optie desgewenst helpen.
 
 <a name="crit-identity-custom-sign-in"></a>
-### <a name="optional-the-office-365-sign-in-screen-is-personalized-for-your-organization"></a>Optioneel: het aanmeldingsscherm van Office 365 is aangepast voor uw organisatie.
+### <a name="optional-the-sign-in-screen-is-personalized-for-your-organization"></a>Optioneel: het aanmeldingsscherm is aangepast voor uw organisatie.
 
-U hebt [Huisstijl toevoegen aan de aanmeldingspagina en de pagina Toegangsvenster](https://aka.ms/aadpaddbranding) gebruikt om de huisstijl van uw organisatie toe te voegen aan de aanmeldingspagina van Office 365.
+U hebt [Huisstijl toevoegen aan de aanmeldingspagina en de pagina Toegangsvenster](https://aka.ms/aadpaddbranding) gebruikt om de huisstijl van uw organisatie toe te voegen aan de aanmeldingspagina.
 
-Als u deze optie overslaat, zien uw gebruikers een algemeen Office 365-aanmeldingsscherm en zijn ze mogelijk wantrouwig om zich aan te melden bij de site van uw organisatie.
+Als u deze optie overslaat, zien uw gebruikers een algemeen aanmeldingsscherm en zijn ze mogelijk wantrouwig om zich aan te melden bij de site van uw organisatie.
 
 [Stap 2](../identity-secure-your-passwords.md#identity-custom-sign-in) kan u bij deze optie desgewenst helpen.
 
@@ -183,7 +183,7 @@ Meld u aan bij de Office 365-portal met de naam van uw gebruikersaccount en Azur
 
 
 <a name="crit-identity-self-service-groups"></a>
-### <a name="optional-self-service-group-management-is-enabled-for-specific-azure-ad-security-and-office-365-groups"></a>Optioneel: self-servicegroepsbeheer is ingeschakeld voor specifieke Azure AD-beveiligingsgroepen en Office 365-groepen
+### <a name="optional-self-service-group-management-is-enabled-for-specific-azure-ad-security-and-microsoft-365-groups"></a>Optioneel: self-servicegroepsbeheer is ingeschakeld voor specifieke Azure AD-beveiligingsgroepen en Microsoft 365-groepen
 
 U hebt vastgesteld welke groepen geschikt zijn voor self-servicebeheer, de eigenaren ervan geïnstrueerd over workflow en verantwoordelijkheden van groepsbeheer, en voor die groepen [self-servicebeheer ingesteld in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-self-service-group-management).
 

@@ -17,12 +17,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Gebruik deze testlabrichtlijnen om een lichtgewicht testomgeving te maken voor Microsoft 365 Enterprise.
-ms.openlocfilehash: 4e90cc01cb37664f3084daf7295e9d59052809af
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 04e63b1c3d9d35bd636041f8be7655ab17b1d165
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42810921"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631607"
 ---
 # <a name="the-lightweight-base-configuration"></a>De lichtgewicht basisconfiguratie
 
@@ -63,7 +63,7 @@ Als u uw proefabonnement op Office 365 E5 wilt starten, moet u eerst een fictiev
 5. In stap 4, leg hier de aanmeldingspagina vast (selecteren en kopiëren): ![Lijn](../media/Common-Images/TableLine.png) 
 6. Noteer hier de gebruikers-ID: ![Lijn](../media/Common-Images/TableLine.png). onmicrosoft.com  
    Noteer het wachtwoord dat u hebt getypt op een veilige locatie.
-   Deze waarde wordt beschouwd als de **naam van de globale beheerder van Office 365**.
+   Deze waarde wordt beschouwd als de **naam van de globale beheerder**.
 8. Klik op **Ga naar Setup**.
 9. In Office 365 E5 Setup klikt u op **Blijven gebruiken *uw organisatie*. onmicrosoft.com voor e-mail en bij het aanmelden **, en klik vervolgens op **Afsluiten en later doorgaan**.
 
@@ -73,11 +73,11 @@ U hebt een proefabonnement van Office 365 gemaakt, zodat uw testomgeving een afz
     
 ## <a name="phase-2-configure-your-office-365-trial-subscription"></a>Fase 2: uw proefabonnement voor Office 365 configureren
 
-In deze fase configureert u uw Office 365-abonnement met aanvullende gebruikers en wijst u deze Office 365 E5-licenties toe.
+In deze fase configureert u uw abonnement met aanvullende gebruikers en wijst u Office 365 E5-licenties aan ze toe.
   
-Gebruik de instructies in [Verbinding maken met Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) om verbinding te maken met uw Office 365-abonnement met de Azure Active Directory PowerShell voor grafiekmodule op uw computer.
+Gebruik de instructies in [Verbinding maken met Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) om verbinding te maken met uw abonnement via de Azure Active Directory PowerShell voor Graph-module op uw computer.
     
-Typ in het dialoogvenster **Referentieaanvraag voor Windows PowerShell** de gebruikersnaam en het wachtwoord voor het Office 365-account van de globale beheerder (bijvoorbeeld: jdoe@contosotoycompany.onmicrosoft.com).
+Typ in het dialoogvenster **Referentieaanvraag voor Windows PowerShell** de gebruikersnaam en het wachtwoord voor het account van de globale beheerder (bijvoorbeeld: jan@contosotoycompany.onmicrosoft.com).
   
 Vul de naam van uw organisatie (bijvoorbeeld: contosotoycompany), de landcode van twee tekens voor uw locatie, een algemeen wachtwoord voor het account in en voer de volgende opdrachten uit vanaf de PowerShell-prompt:
 
@@ -121,7 +121,7 @@ Mogelijk wilt u dit artikel afdrukken voor het vastleggen van de specifieke info
 
 Noteer de volgende waarden:
   
-- De naam van de globale beheerder van Office 365: ![Lijn](../media/Common-Images/TableLine.png).onmicrosoft.com (uit stap 6 van fase 1)
+- naam van de globale beheerder: ![Lijn](../media/Common-Images/TableLine.png).onmicrosoft.com (uit stap 6 van fase 1)
     
     Noteer ook het wachtwoord voor dit account op een veilige locatie.
     
@@ -291,7 +291,7 @@ Vervolgens verbindt u de WIN10-computer met de Azure Active Directory-tenant van
     
 6. Sluit het Instellingenvenster.
     
-Installeer vervolgens Office 365 ProPlus op de WIN10-computer.
+Installeer vervolgens Microsoft 365-apps voor ondernemingen op de WIN10-computer.
   
 1. Open de Microsoft Edge-browser en meld u aan bij de Office-Portal met de referenties van uw globale beheerdersaccount. Zie [Waar kan ik me aanmelden in Office 365?](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4) voor hulp.
     
@@ -309,7 +309,7 @@ Dit geldt ook voor de WIN10-computer die:
 
 - Verbonden is met de Azure Active Directory-tenant van uw Microsoft 365 E5-abonnement.
 - Geregistreerd is als een Azure Active Directory-apparaat in Microsoft Intune (EMS).
-- Office 365 ProPlus heeft geïnstalleerd.
+- Beschikt over Microsoft 365-apps voor ondernemingen.
   
 U bent nu gereed om te experimenteren met de extra functies van [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise).
   

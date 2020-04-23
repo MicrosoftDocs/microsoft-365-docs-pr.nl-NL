@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Doorloop de afsluitcriteria voor de implementatie van Microsoft 365 voor bedrijven als u een bestaande infrastructuur hebt.
-ms.openlocfilehash: ce9c9343ff6983968f3ed96b1e1558788d04ffc1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ace84e53da9b62b39a557b670c54c1be31d0b61a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42805464"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638186"
 ---
 # <a name="deployment-of-microsoft-365-for-enterprise-with-existing-infrastructure"></a>Implementatie van Microsoft 365 voor ondernemingen met bestaande infrastructuur
 
@@ -49,11 +49,11 @@ Bekijk de volgende vereiste en optionele voorwaarden voor uw Windows 10 Enterpri
 
 [!INCLUDE [Deployment exit criteria for identity](./includes/deployment-exit-criteria-windows10.md)]
 
-## <a name="exit-criteria-for-office-365-proplus-phase-4"></a>Afsluitcriteria voor Office 365 ProPlus (fase 4)
+## <a name="exit-criteria-for-microsoft-365-apps-for-enterprise-phase-4"></a>Afsluitcriteria voor Microsoft 365-apps voor ondernemingen (fase 4)
 
-Voldoe aan de vereisten voor beoordeling, implementatieplanning en implementatie van uw Office 365 ProPlus-infrastructuur.
+Voldoe aan de vereisten voor beoordeling, implementatieplanning en implementatie van uw infrastructuur voor Microsoft 365-apps voor ondernemingen.
 
-[!INCLUDE [Deployment exit criteria for Office 365 ProPlus](./includes/deployment-exit-criteria-office365proplus.md)]
+[!INCLUDE [Deployment exit criteria for Microsoft 365 Apps for enterprise](./includes/deployment-exit-criteria-office365proplus.md)]
 
 ## <a name="exit-criteria-for-mobile-device-management-phase-5"></a>Afsluitcriteria voor beheer van mobiele apparaten (fase 5)
 

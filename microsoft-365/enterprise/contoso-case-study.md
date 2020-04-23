@@ -15,18 +15,18 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Hoe een fictieve maar representatieve wereldwijde organisatie Microsoft 365 Enterprise in gebruik heeft genomen.
-ms.openlocfilehash: 8a9727f806783c72a77a941274e4a1b042c430ca
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bf974d374b9c60744b2efda465a7c5e92f0386bb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42809138"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625348"
 ---
 # <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Microsoft 365 Enterprise voor Contoso Corporation
 
 Microsoft 365 Enterprise is een uitstekende cloudaanbieding van Microsoft waarin lokale en cloudproductiviteitsapps en -services worden gecombineerd met Windows 10 Enterprise en geavanceerde beveiligingsfuncties tot een volledige, intelligente oplossing waarmee iedereen op een veilige manier creatief kan zijn en met anderen kan samenwerken. 
 
-Contoso Corporation is een fictief maar representatief wereldwijd productieconglomeraat met het hoofdkantoor in Parijs, Frankrijk. Contoso heeft Microsoft 365 Enterprise geïmplementeerd en heeft aandacht besteed aan belangrijke ontwerpbeslissingen en implementatiedetails voor netwerken, identiteiten, Windows 10 Enterprise, Office 365 ProPlus, beheer van mobiele apparaten, gegevensbescherming en beveiliging. 
+Contoso Corporation is een fictief maar representatief wereldwijd productieconglomeraat met het hoofdkantoor in Parijs, Frankrijk. Contoso heeft Microsoft 365 Enterprise geïmplementeerd en aandacht heeft besteed aan belangrijke ontwerpbeslissingen en implementatiedetails voor netwerken, identiteiten, Windows 10 Enterprise, Microsoft 365-apps voor ondernemingen, beheer van mobiele apparaten, gegevensbescherming en beveiliging. 
 
 Het algehele doel van Contoso voor Microsoft 365 Enterprise is hun digitale transformatie te versnellen door met cloudservices werknemers, partners, gegevens en processen samen te brengen om klantwaarde te genereren en hun concurrentievoordeel te behouden in een digitale wereld.
 
@@ -52,9 +52,9 @@ Zie de volgende artikelen voor meer informatie:
 
   Met de Windows 10 Enterprise-infrastructuur van Contoso worden updates geïmplementeerd en automatisch geïnstalleerd voor apparaten waarop hun primaire pc- en apparaatbesturingssysteem wordt uitgevoerd.
 
-- [Office 365 ProPlus](contoso-o365pp.md)
+- [Microsoft 365-apps voor ondernemingen](contoso-o365pp.md)
 
-  Met de infrastructuur van Contoso Office 365 ProPlus worden updates geïmplementeerd en automatisch geïnstalleerd voor de Microsoft Office-suite met productiviteitssoftware.
+  Met de infrastructuur van Contoso Microsoft 365-apps voor ondernemingen worden updates geïmplementeerd en automatisch geïnstalleerd voor de Microsoft Office-suite met productiviteitssoftware.
 
 - [Mobile Device Management](contoso-mdm.md)
 

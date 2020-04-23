@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: De stappen om de netwerkinfrastructuur voor Microsoft 365 Enterprise te implementeren.
-ms.openlocfilehash: 9a805ffbdbdc19ef5943a0c0ba0ff8f010d3e19b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 341e5530b159d4ba78b94001d92427e36224ab04
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42806613"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631475"
 ---
 # <a name="phase-1-networking-infrastructure-for-microsoft-365-enterprise"></a>Fase 1: Netwerkinfrastructuur voor Microsoft 365 Enterprise
 
@@ -28,7 +28,7 @@ ms.locfileid: "42806613"
 
 Microsoft 365 Enterprise omvat Office 365, Microsoft Intune en veel identiteits- en beveiligingsservices van Microsoft Azure. Al deze cloudservices zijn gebaseerd op de beveiliging, prestaties en betrouwbaarheid van verbindingen van clientapparaten via internet of speciale circuits. Als u deze services wilt hosten en ze beschikbaar wilt maken voor klanten over de hele wereld, heeft Microsoft een netwerkinfrastructuur ontwikkeld die de prestaties en integratie versterkt. 
 
-In deze fase wordt u stapsgewijs begeleid bij het maken van een verbinding met de cloudservices van Microsoft 365 Enterprise. Zie voor een overzicht de [netwerkprincipes voor Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
+In deze fase wordt u stapsgewijs begeleid bij het maken van een verbinding met de cloudservices van Microsoft 365 Enterprise. Zie voor een overzicht de [netwerkprincipes voor Microsoft 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
 >[!Note]
 >Als u al een netwerkinfrastructuur hebt geïmplementeerd, bekijkt u het [afsluitcriterium](networking-exit-criteria.md) voor deze fase om er zeker van te zijn dat deze voldoet aan de vereiste en optionele voorwaarden voor Microsoft 365 Enterprise.
@@ -43,7 +43,7 @@ Gebruik de volgende stappen om uw netwerkinfrastructuur te maken voor de vereist
 |![Stap 2](../media/stepnumbers/Step2.png)|[Lokale internetverbindingen configureren voor elk kantoor](networking-dns-resolution-same-location.md)|
 |![Stap 3](../media/stepnumbers/Step3.png)|[Netwerkhairpins vermijden](networking-avoid-network-hairpins.md)|
 |![Stap 4](../media/stepnumbers/Step4.png)|[Omleiden van verkeer configureren](networking-configure-proxies-firewalls.md)|
-|![Stap 5](../media/stepnumbers/Step5.png)|[Prestaties van client en Office 365-service optimaliseren](networking-optimize-tcp-performance.md)|
+|![Stap 5](../media/stepnumbers/Step5.png)|[Prestaties van client en service optimaliseren](networking-optimize-tcp-performance.md)|
 
 
 Wanneer u deze stappen hebt voltooid, gaat u naar het [afsluitcriterium](networking-exit-criteria.md) voor deze fase om er zeker van te zijn dat u voldoet aan de vereiste en optionele voorwaarden voor Microsoft 365 Enterprise.

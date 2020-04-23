@@ -18,17 +18,17 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
-description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Office 365-services gebruiken. Met het dashboard Gebruiksoverzicht kunt u voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
-ms.openlocfilehash: fc9416445fec7a873ae7d09e1af366f029f51ed1
-ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
+description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Microsoft 365-services gebruiken. Met het dashboard Gebruiksoverzicht kunt u voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
+ms.openlocfilehash: 646096b0e9d9f2c1d701fba312901bf744a74501
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43204054"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621268"
 ---
-# <a name="activity-reports-in-the-microsoft-365-admin-center"></a>Activiteitenoverzichten in het Microsoft 365-beheercentrum
+# <a name="microsoft-365-reports-in-the-admin-center"></a>Microsoft 365-overzichten in het beheercentrum
 
-U kunt gemakkelijk zien hoe mensen in uw bedrijf Office 365-services gebruiken. Zo kunt u vaststellen wie een service veel gebruikt en quota behaalt, of wie misschien helemaal geen Office 365-licentie nodig heeft.
+U kunt gemakkelijk zien hoe mensen in uw bedrijf Microsoft 365-services gebruiken. Zo kunt u vaststellen wie een service veel gebruikt en quota behaalt, of wie misschien helemaal geen Microsoft 365-licentie nodig heeft.
   
 Er zijn overzichten beschikbaar voor de afgelopen 7 dagen, 30 dagen, 90 dagen en 180 dagen. Er zijn niet direct gegevens voor alle rapportageperioden beschikbaar. De rapporten komen beschikbaar na 48 uur.
   
@@ -58,7 +58,7 @@ Bekijk deze video voor meer informatie over hoe u de rapporten kunt gebruiken:
 ::: moniker-end
 
    
-2. Selecteer **Een rapport selecteren** bovenaan het dashboard om een selectie te maken uit een lijst met alle beschikbare rapporten. Of selecteer een activiteitenwidget voor een service (e-mail, OneDrive enzovoort) voor meer informatie. <br/>![Het Office 365-gebruiksdashboard](../../media/usage-report-dashboard.png)
+2. Selecteer **Een rapport selecteren** bovenaan het dashboard om een selectie te maken uit een lijst met alle beschikbare rapporten. Of selecteer een activiteitenwidget voor een service (e-mail, OneDrive enzovoort) voor meer informatie. <br/>![Het gebruiksdashboard](../../media/usage-report-dashboard.png)
   
 ## <a name="who-can-see-reports"></a>Wie kan rapporten zien?
 
@@ -87,7 +87,6 @@ Zie [Informatie over beheerdersrollen](../add-users/about-admin-roles.md) en [Be
 Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
   
 - [E-mailactiviteit](email-activity.md)
-- [Formulieractiviteit](forms-activity.md)
     
 - [Postvakgebruik](mailbox-usage.md)
     
@@ -96,12 +95,15 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
 - [Actieve gebruikers](active-users.md)
   
 - [Gebruik van e-mail-apps](email-apps-usage.md)
+
+- [Formulieractiviteit](forms-activity.md)
   
-- [Office 365-groepen](office-365-groups.md)
+- [Microsoft 365-groepen](office-365-groups.md)
   
 - [Gebruikersactiviteit in OneDrive voor Bedrijven](onedrive-for-business-activity.md)
   
 - [Gebruik van OneDrive voor Bedrijven](onedrive-for-business-usage.md)
+
 - [ProPlus-gebruik](microsoft365-apps-usage.md)
   
 - [SharePoint-sitegebruik](sharepoint-site-usage.md)
@@ -170,7 +172,7 @@ Als u gebruikersgegevens wilt verbergen bij het genereren van rapporten, kunt u 
   
 Uw lijst met gebruikers ziet er zo uit:
   
-![Office 365-rapporten: geanonimiseerde gebruikerslijst](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
+![Rapporten: geanonimiseerde gebruikerslijst](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
   
 Het duurt enkele minuten voordat deze wijzigingen zijn doorgevoerd in de rapporten in het dashboard Rapporten. Deze instelling geldt ook voor de rapporten-API.
   
@@ -184,4 +186,3 @@ Als u echter een bepaalde dag selecteert (bijvoorbeeld nummer 3), wordt in het r
 
 [Rapporten in het beveiligings- &amp; compliancecentrum](https://docs.microsoft.com/microsoft-365/compliance/reports-in-security-and-compliance)
   
-

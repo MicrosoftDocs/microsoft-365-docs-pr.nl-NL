@@ -14,13 +14,13 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Informatie over het gebruik en configureren van webbrowsers en edge-apparaten voor het omleiden van verkeer naar vertrouwde Office 365-locaties.
-ms.openlocfilehash: 68e8f7868e0b0f7b3da80bd5f19b18f261b1b05c
-ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
+description: Informatie over het gebruik en configureren van webbrowsers en edge-apparaten voor het omleiden van verkeer naar vertrouwde Microsoft 365-locaties.
+ms.openlocfilehash: 3e0f9cec8d0d1385025289f1a07d2380be34f1a1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43583391"
+ms.locfileid: "43631499"
 ---
 # <a name="step-4-configure-traffic-bypass"></a>Stap 4: Omleiden van verkeer configureren
 
@@ -28,13 +28,13 @@ ms.locfileid: "43583391"
 
 ![Fase 1- Netwerken](../media/deploy-foundation-infrastructure/networking_icon-small.png)
 
-Aangezien algemeen internetverkeer riskant kan zijn, wordt doorgaans de beveiliging in organisatienetwerken afgedwongen door de edge-apparaten, zoals proxyservers, SSL-onderbreking en inspectie, pakketinspectie-apparaten en preventie van gegevensverlies. Lees over enkele problemen met de netwerkinterceptie-apparaten op [Het gebruik van netwerkapparaten van derden of oplossingen voor Office 365-verkeer](https://support.microsoft.com/help/2690045/using-third-party-network-devices-or-solutions-with-office-365).
+Aangezien algemeen internetverkeer riskant kan zijn, wordt doorgaans de beveiliging in organisatienetwerken afgedwongen door de edge-apparaten, zoals proxyservers, SSL-onderbreking en inspectie, pakketinspectie-apparaten en preventie van gegevensverlies. Raadpleeg [Het gebruik van netwerkapparaten of oplossingen van derden voor Microsoft 365-verkeer](https://support.microsoft.com/help/2690045/using-third-party-network-devices-or-solutions-with-office-365) voor informatie over problemen met netwerkinterceptieapparaten.
 
 De DNS-domeinnamen en IP-adressen die worden gebruikt door de cloudservices van Microsoft 365, zijn echter algemeen bekend. Bovendien worden het verkeer en de services met veel beveiligingsfuncties beschermd. Omdat deze beveiliging en bescherming al aanwezig zijn, hoeven uw edge-apparaten het niet te dupliceren. Tussenliggende bestemmingen en dubbele beveiligingsprocessen voor Microsoft 365-verkeer kunnen de prestaties aanzienlijk verminderen.
 
 De eerste stap bij het elimineren van tussenliggende bestemmingen en gedupliceerde beveiligingsprocessen is om Microsoft 365-verkeer te identificeren. Microsoft heeft de volgende typen DNS-domeinnamen en IP-adresbereiken in de zogenaamde eindpunten gedefinieerd:
 
-- **Optimaliseer**- Vereist voor verbinding met elke Office 365-service en vertegenwoordigt 75% van de Microsoft 365-bandbreedte, verbindingen en een gegevensvolume. Deze eindpunten vertegenwoordigen Microsoft 365-scenario's die het gevoeligst zijn voor netwerkprestaties, latentie en beschikbaarheid.
+- **Optimaliseren** - Vereist voor verbinding met elke Microsoft 365-service. Vertegenwoordigt 75% van de bandbreedte, verbindingen en het gegevensvolume in Microsoft 365. Deze eindpunten vertegenwoordigen Microsoft 365-scenario's die het gevoeligst zijn voor netwerkprestaties, latentie en beschikbaarheid.
 - **Toestaan**- Vereist voor verbindingen met specifieke services en functies van Microsoft 365, maar zijn niet zo gevoelig voor netwerkprestaties en latentie als in de categorie Optimaliseer.
  - **Standaard**- Vertegenwoordigt Microsoft 365-services en afhankelijkheden waarvoor geen optimalisering nodig is. U kunt Standaardeindpunten voor categorieën beschouwen als normaal internetverkeer.
 
@@ -50,7 +50,7 @@ Hier volgen deze aanbevelingen in de netwerkinfrastructuur.
 
 ![Opmerkingen voor het optimaliseren van on-premises verkeer](../media/networking-configure-proxies-firewalls/bypassing-edge-devices.png)
 
-Edge-apparaten bevatten firewalls, SSL Break and Inspect, apparaten voor pakketinspectie en preventie van gegevensverlies. Als u de configuratie van edge-apparaten wilt configureren en bijwerken, kunt u een script of een REST-oproep gebruiken om een gestructureerde lijst met eindpunten te gebruiken uit de Office 365 Eindpoints webservice. Zie [URL's en IP-adressen voor Office 365](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service) voor meer informatie.
+Edge-apparaten bevatten firewalls, SSL Break and Inspect, apparaten voor pakketinspectie en preventie van gegevensverlies. Als u de configuratie van edge-apparaten wilt configureren en bijwerken, kunt u een script of een REST-oproep gebruiken om een gestructureerde lijst met eindpunten te gebruiken uit de Office 365 Eindpoints webservice. Zie [Webservice voor URL's en IP-adressen voor Microsoft 365](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service) voor meer informatie.
 
 U hoeft alleen de normale proxy- en netwerkbeveilingsverwerking voor verkeer naar Microsoft 365 optimaliseren en toestaan van eindpunt-categorieën. Al het andere algemene internetverkeer wordt via een proxy verzonden en zijn onderhevig aan de bestaande netwerkbeveiligingsverwerking.
 
@@ -58,11 +58,11 @@ U hoeft alleen de normale proxy- en netwerkbeveilingsverwerking voor verkeer naa
 
 VPN-verbindingen (virtual private network) worden meestal door externe werknemers gebruikt om toegang te krijgen tot informatiebronnen op het intranet van een organisatie. Een conventionele VPN-verbinding stuurt ALLE verkeer, inclusief internetverkeer, naar het intranet van de organisatie. Het internetverkeer wordt doorgestuurd naar het randnetwerk en de apparaten voor pakketverwerking van de organisatie. Dit verkeer is onderhevig aan reis- en verwerkingsvertragingen waardoor de prestaties van uw externe werknemers aanzienlijk kunnen worden gehinderd. 
 
-Split tunneling is de mogelijkheid die een VPN-verbinding heeft om specifiek verkeer via het internet te sturen in plaats van via de VPN-verbinding naar uw intranet. Configureer uw VPN-verbindingen die aan split tunneling doen om verkeer naar Office 365-eindpunten in de categorie Optimaliseren rechtstreeks over het internet te sturen. Zo krijgen externe medewerkers de beste prestaties voor essentiële services van Microsoft 365 zoals Teams, SharePoint Online en Exchange Online. 
+Split tunneling is de mogelijkheid die een VPN-verbinding heeft om specifiek verkeer via het internet te sturen in plaats van via de VPN-verbinding naar uw intranet. Configureer uw VPN-verbindingen met split tunneling om verkeer rechtstreeks via internet te sturen naar eindpunten in de categorie Optimaliseren. Zo krijgen externe medewerkers de beste prestaties voor essentiële services van Microsoft 365 zoals Teams, SharePoint Online en Exchange Online. 
 
-Bekijk [Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel) voor meer informatie.
+Zie [Connectiviteit optimaliseren voor externe gebruikers met VPN met split tunneling](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel) voor meer informatie.
 
-Gebruik het [Office 365 Network Onboarding-hulpprogramma](https://connectivity.office.com/) om te testen hoe dicht u bij een invoerpunt voor het globale netwerk van Microsoft bent en hoe dicht u bij een punt bent waar uw bedrijfsnetwerk de verbinding maakt met uw ISP.
+Gebruik het [Office 365 Network Onboarding-hulpprogramma](https://connectivity.office.com/) om te testen hoe dicht u bij een invoerpunt voor het globale netwerk van Microsoft bent en hoe dicht u bij een punt bent waar uw bedrijfsnetwerk verbinding maakt met uw ISP.
 
 Als tussentijds controlepunt kunt u de [afsluitcriteria](networking-exit-criteria.md#crit-networking-step4) voor deze stap bekijken.
 
@@ -70,7 +70,7 @@ Als tussentijds controlepunt kunt u de [afsluitcriteria](networking-exit-criteri
 
 |||
 |:-------|:-----|
-|![Stap 5](../media/stepnumbers/Step5.png)|[Prestaties van client en Office 365-service optimaliseren](networking-optimize-tcp-performance.md) |
+|![Stap 5](../media/stepnumbers/Step5.png)|[Prestaties van client en service optimaliseren](networking-optimize-tcp-performance.md) |
 
 
 

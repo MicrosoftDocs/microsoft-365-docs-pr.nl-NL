@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ontdek hoe Contoso Microsoft Endpoint Configuration Manager gebruikte om in-place upgrades voor Windows 10 Enterprise te implementeren.
-ms.openlocfilehash: 5dc58a9090dd6976d7c521f7552181a10f22f5b2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c66be4ad5ee383301c4fb10cf2590f7cbbed033f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42810205"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630679"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Windows 10 Enterprise-implementatie voor Contoso
 
@@ -91,7 +91,7 @@ Deze infrastructuur bestaat uit:
 
 ## <a name="next-step"></a>Volgende stap
 
-[Lees](contoso-o365pp.md) hier hoe Contoso zijn infrastructuur voor Configuratiebeheer gebruikt voor het implementeren en onderhouden van Office 365 ProPlus in de hele organisatie. 
+[Lees](contoso-o365pp.md) hier hoe Contoso zijn infrastructuur voor Configuratiebeheer gebruikt voor het implementeren en onderhouden van Microsoft 365-apps voor ondernemingen in de hele organisatie. 
 
 ## <a name="see-also"></a>Zie ook
 

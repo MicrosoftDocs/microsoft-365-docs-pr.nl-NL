@@ -87,7 +87,7 @@
       items:
         - name: E-mail in Office 365
           href: email/email.md
-        - name: Gebruikersinstellingen voor e-mail van Office 365
+        - name: Gebruikerse-mailinstellingen
           href: email/office-365-user-email-settings.md
         - name: Een ander e-mailalias toevoegen voor een gebruiker
           href: email/add-another-email-alias-for-a-user.md
@@ -189,6 +189,8 @@
           href: manage/remove-licenses-from-users.md
         - name: Licentieconflicten oplossen
           href: manage/resolve-license-conflicts.md
+        - name: Berichten in het berichtencentrum beheren
+          href: manage/manage-messages.md
         - name: Nieuwe functies weergeven of verbergen met Beheer van nieuwe functies
           href: manage/show-hide-new-features.md
     - name: Abonnementen en facturering
@@ -235,11 +237,11 @@
           href: create-groups/office-365-groups.md
         - name: Groepen vergelijken
           href: create-groups/compare-groups.md
-        - name: Een Office 365-groep maken
+        - name: Een Microsoft 365-groep maken
           href: create-groups/create-groups.md
-        - name: Een Office 365-groep beheren
+        - name: Een Microsoft 365-groep beheren
           href: create-groups/manage-groups.md
-        - name: Beheerplan in Office 365 Groepen
+        - name: Beheerplan in Microsoft 365-groepen
           href: create-groups/plan-for-groups-governance.md
         - name: Maken van groepen beheren
           href: create-groups/manage-creation-of-groups.md
@@ -251,7 +253,7 @@
           href: create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md
         - name: Leden toevoegen aan of verwijderen uit groepen
           href: create-groups/add-or-remove-members-from-groups.md
-        - name: Verloopbeleid voor Office 365-groep
+        - name: Verloopbeleid voor Microsoft 365-groep
           href: create-groups/office-365-groups-expiration-policy.md
         - name: Verwijderde groep herstellen
           href: create-groups/restore-deleted-group.md

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Uw globale beheerdersaccounts hebben een speciale behandeling nodig om ze te beschermen tegen inbreuk van referenties.
-ms.openlocfilehash: 27b76671581ebd2dac32304752a85f8a6f60ac98
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: c23a5730bc4c6af1f7fd829a40b63cc7ccc89184
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42811313"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621304"
 ---
 # <a name="step-1-create-and-protect-your-global-admin-accounts"></a>Stap 1: Uw globale beheerdersaccounts maken en beveiligen
 
@@ -41,7 +41,7 @@ Voor uw specifieke globale beheerdersaccounts moet u ook:
 1. Per gebruikersaccount testen of de Azure MFA-instellingen (Multi-Factor Authentication) voor voorwaardelijke toegang op een testgebruikersaccount testen om u ervan te verzekeren dat MFA correct en voorspelbaar werkt. MFA vereist een tweede vorm van verificatie, zoals een verificatiecode die naar een smartphone wordt gestuurd.
 2. Maak beleid voor voorwaardelijke toegang voor uw globale beheerdersaccounts dat MFA vereist, schakel dat in en gebruik de sterkste vorm van secundaire verificatie die beschikbaar is binnen uw organisatie. Zie [Azure meervoudige verificatie](identity-access-prerequisites.md#protecting-administrator-accounts)voor meer informatie.
 
-Zie [Uw globale beheerdersaccount in Office 365 beveiligen](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts#additional-protections-for-enterprise-organizations) voor aanvullende bescherming.
+Zie [Uw globale beheerdersaccount beveiligen](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts#additional-protections-for-enterprise-organizations) voor aanvullende bescherming.
 
 > [!Note]
 > Noodtoegangsaccounts voor ‘break glass’-scenario’s, zoals een cyberaanval moeten cloudaccounts zijn. U kunt ook globale beheerdersaccounts (geschikt als of permanent) hebben die niet alleen in de cloud worden gebruikt. Zie [Noodtoegangsaccounts beheren in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-emergency-access) voor meer informatie.
@@ -86,9 +86,9 @@ Als tussentijds controlepunt kunt u de [afsluitcriteria](identity-exit-criteria.
 <a name="identity-pam"></a>
 ## <a name="privileged-access-management"></a>Privileged Access Management
 
-Geprivilegieerd toegangsbeheer wordt ingeschakeld door beleid te configureren dat just-in-time-toegang specificeert voor taakactiviteiten in uw Office 365-tenant. Deze functie kan helpen uw organisatie te beschermen tegen inbreuken die mogelijk bestaande geprivilegieerde beheerdersaccounts gebruiken met permanente toegang tot gevoelige gegevens of toegang tot belangrijker configuratie-instellingen. U kunt bijvoorbeeld geprivilegieerd toegangsbeheerbeleid configureren dat expliciete goedkeuring vereist voor toegang tot en het wijzigen van postvakinstellingen van de organisatie in uw Office 365-tenant.
+Geprivilegieerd toegangsbeheer wordt ingeschakeld door beleid te configureren dat just-in-time-toegang specificeert voor taakactiviteiten in uw tenant. Deze functie kan helpen uw organisatie te beschermen tegen inbreuken die mogelijk bestaande geprivilegieerde beheerdersaccounts gebruiken met permanente toegang tot gevoelige gegevens of toegang tot belangrijker configuratie-instellingen. U kunt bijvoorbeeld geprivilegieerd toegangsbeheerbeleid configureren dat expliciete goedkeuring vereist voor toegang tot en het wijzigen van postvakinstellingen van de organisatie in uw tenant.
 
-In deze stap schakelt u geprivilegieerd toegangsbeheer in uw Office 365-tenant in en configureert u geprivilegieerd toegangsbeleid dat aanvullende bescherming biedt voor taaktoegang tot Office 365-gegevens en configuratie-instellingen voor uw organisatie. Er zijn drie basisstappen om aan de slag te gaan met geprivilegieerde toegang in uw Office 365-organisatie:
+In deze stap schakelt u geprivilegieerd toegangsbeheer in uw tenant in en configureert u geprivilegieerd toegangsbeleid dat aanvullende bescherming biedt voor taaktoegang tot gegevens en configuratie-instellingen voor uw organisatie. Er zijn drie basisstappen om aan de slag te gaan met geprivilegieerde toegang in uw organisatie:
 
 - Een groep met fiatteurs maken
 - Geprivilegieerde toegang inschakelen
@@ -96,9 +96,9 @@ In deze stap schakelt u geprivilegieerd toegangsbeheer in uw Office 365-tenant i
 
 Als geprivilegieerd toegangsbeheer is geconfigureerd, kan uw organisatie opereren zonder permanente bevoegdheden en een verdedigingslaag bieden tegen kwetsbaarheden die voortkomen uit dergelijke permanente beheerderstoegang. Geprivilegieerde toegang vereist goedkeuring voor het uitvoeren van taken met een bijbehorend goedkeuringsbeleid. Gebruikers die taken moeten uitvoeren die zijn opgenomen in het goedkeuringsbeleid, moeten toestemming voor toegang aanvragen en krijgen om de machtigingen te krijgen die nodig zijn om de taken, die zijn gedefinieerd in het beleid, uit te voeren.
 
-Zie het onderwerp [Geprivilegieerd toegangsbeheer configureren in Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) om Privileged Access Management in Office 365 in te schakelen.
+Zie het onderwerp [Geprivilegieerd toegangsbeheer configureren](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) om Privileged Access Management in te schakelen.
 
-Zie het onderwerp [Geprivilegieerd toegangsbeheer in Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview) voor meer informatie.
+Zie het onderwerp [Geprivilegieerd toegangsbeheer](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview) voor meer informatie.
 
 
 |||

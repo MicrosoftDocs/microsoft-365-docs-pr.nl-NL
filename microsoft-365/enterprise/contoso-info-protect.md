@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Meer informatie over hoe Contoso de functies voor informatiebescherming in Microsoft 365 Enterprise gebruikt om hun digitale activa in de cloud te beveiligen.
-ms.openlocfilehash: 2fed60d18c878bf6e509c6955b8c8df758cc4caf
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 41873f14ac52000635508aca4728572556692cc4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42808423"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625300"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Informatiebescherming voor Contoso Corporation
 
@@ -107,10 +107,10 @@ In de volgende tabel worden de gegevensniveaus van Contoso aan informatiebescher
 
 |||||
 |:-------|:-----|:-----|:-----|
-| | **Office 365** | **Windows 10 en Office 365 ProPlus** | **EMS** |
+| | **Office 365** | **Windows 10- en Microsoft 365-apps voor ondernemingen** | **EMS** |
 | Niveau 1: basislijn  | Voorwaardelijke toegangsbeleidsregels voor SharePoint en Exchange Online <BR> Machtigingen op SharePoint-sites | Gevoeligheidslabels <BR> BitLocker <BR> Windows-gegevensbescherming | Beleid voor voorwaardelijke toegang van apparaten en beleid voor Mobile Application Management |
-| Niveau 2: gevoelig | Niveau 1 plus: <BR> <BR> Gevoeligheidslabels <BR> Office 365 bewaarlabels op SharePoint-sites <BR> Office 365 preventie van gegevensverlies voor SharePoint en Exchange Online <BR> Geïsoleerde SharePoint-sites  | Niveau 1 plus: <BR> <BR> Gevoeligheidslabels voor digitale activa  | Niveau 1 |
-| Niveau 3: sterk gereglementeerd | Niveau 2 plus: <BR><BR> Bring Your Own Key (BYOK) encryptie en bescherming voor bedrijfsgeheimen <BR> Azure Key Vault voor bedrijfstoepassingen die communiceren met Office 365-services | Niveau 2 | Niveau 1 |
+| Niveau 2: gevoelig | Niveau 1 plus: <BR> <BR> Gevoeligheidslabels <BR> Microsoft 365-bewaarlabels op SharePoint-sites <BR> Preventie van gegevensverlies voor SharePoint en Exchange Online <BR> Geïsoleerde SharePoint-sites  | Niveau 1 plus: <BR> <BR> Gevoeligheidslabels voor digitale activa  | Niveau 1 |
+| Niveau 3: sterk gereglementeerd | Niveau 2 plus: <BR><BR> Bring Your Own Key (BYOK) encryptie en bescherming voor bedrijfsgeheimen <BR> Azure Key Vault voor bedrijfstoepassingen die communiceren met Microsoft 365-services | Niveau 2 | Niveau 1 |
 |||||
 
 Hier ziet u de resulterende configuratie van de informatiebescherming van Contoso.
