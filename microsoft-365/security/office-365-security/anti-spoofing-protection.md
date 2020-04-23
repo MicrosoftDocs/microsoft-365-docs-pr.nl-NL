@@ -1,5 +1,5 @@
 ---
-title: Beveiliging tegen adresvervalsing in Office 365
+title: Beveiliging tegen adresvervalsing
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,26 +18,26 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: ''
-ms.openlocfilehash: 53e671e72922eb337cd5af2cfaa11b3ce3f95399
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: 3a306cb8bda0f5f07660f8a2af60e29a3c4d0776
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537519"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636032"
 ---
-# <a name="anti-spoofing-protection-in-office-365"></a>Beveiliging tegen adresvervalsing in Office 365
+# <a name="anti-spoofing-protection"></a>Beveiliging tegen adresvervalsing
 
-Als u een Office 365-klant bent met mailboxen in Exchange Online of een stand-alone Exchange Online Protection(EOP)-klant zonder Exchange Online-mailboxen, bevat EOP functies om uw organisatie te beschermen tegen gespoofte (vervalste) afzenders.
+Als u een Microsoft 365-klant bent met mailboxen in Exchange Online of een stand-alone Exchange Online Protection(EOP)-klant zonder Exchange Online-mailboxen, bevat EOP functies om uw organisatie te beschermen tegen gespoofte (vervalste) afzenders.
 
 Wanneer het gaat om het beschermen van haar gebruikers, neemt Microsoft de dreiging van phishing zeer serieus. Spoofing is een gangbare techniek die door hackers wordt gebruikt. **Vervalste berichten lijken afkomstig te zijn van iemand of ergens anders dan de daadwerkelijke bron.** Deze techniek wordt vaak gebruikt in phishing-campagnes die zijn ontworpen om gebruikersgegevens te verkrijgen. De anti-spoofing-technologie in EOP onderzoekt specifiek vervalsing van de Van-header in de berichttekst (gebruikt om de afzender van het bericht weer te geven in e-mailclients). Wanneer EOP een hoge mate van vertrouwen heeft dat de Van-header is vervalst, wordt het bericht geïdentificeerd als vervalst.
 
 De volgende anti-spoofing-technologieën zijn beschikbaar in EOP:
 
-- **Spoof-intelligentie**: bekijk vervalste berichten van afzenders in interne en externe domeinen en sta die afzenders toe of blokkeer ze. Zie [spoof-intelligentie configureren in Office 365](learn-about-spoof-intelligence.md) voor meer informatie.
+- **Spoof-intelligentie**: bekijk vervalste berichten van afzenders in interne en externe domeinen en sta die afzenders toe of blokkeer ze. Zie [spoof-intelligentie configureren in Microsoft 365](learn-about-spoof-intelligence.md) voor meer informatie.
 
-- **Antiphishing-beleid**: in EOP kunt u met het ingebouwde antiphishing-beleid spoof-intelligentie in- of uitschakelen, niet-geverifieerde afzenderidentificatie in Outlook in- of uitschakelen en de actie specificeren voor geblokkeerde vervalste afzenders (ga naar de map ongewenste e-mail of quarantaine). Het geavanceerd antiphishing-beleid dat beschikbaar is in Office 365 Advanced Threat Protection (ATP), bevat ook anti-imitatie-instellingen (beveiligde afzenders en domeinen), mailbox intelligence-instellingen en aanpasbare geavanceerde phishing-drempels. Zie [Antiphishing-beleid configureren in Office 365](set-up-anti-phishing-policies.md) voor meer informatie.
+- **Antiphishing-beleid**: in EOP kunt u met het ingebouwde antiphishing-beleid spoof-intelligentie in- of uitschakelen, niet-geverifieerde afzenderidentificatie in Outlook in- of uitschakelen en de actie specificeren voor geblokkeerde vervalste afzenders (ga naar de map ongewenste e-mail of quarantaine). Het geavanceerd antiphishing-beleid dat beschikbaar is in Office 365 Advanced Threat Protection (ATP), bevat ook anti-imitatie-instellingen (beveiligde afzenders en domeinen), mailbox intelligence-instellingen en aanpasbare geavanceerde phishing-drempels. Zie [Antiphishing-beleid configureren in Microsoft 365](set-up-anti-phishing-policies.md) voor meer informatie.
 
-- **E-mailverificatie**: een integraal onderdeel van elke poging tot spoofing is het gebruik van e-mailverificatie (ook bekend als e-mailvalidatie) door SPF-, DKIM- en DMARC-records in DNS. U kunt deze records configureren voor uw domeinen, zodat doel-e-mailsystemen de geldigheid kunnen controleren van berichten die beweren afkomstig te zijn van afzenders in uw domeinen. Voor inkomende berichten vereist Office 365 e-mailverificatie voor de domeinen van de afzender. Zie [E-mailverificatie in Office 365](email-validation-and-authentication.md) voor meer informatie.
+- **E-mailverificatie**: een integraal onderdeel van elke poging tot spoofing is het gebruik van e-mailverificatie (ook bekend als e-mailvalidatie) door SPF-, DKIM- en DMARC-records in DNS. U kunt deze records configureren voor uw domeinen, zodat doel-e-mailsystemen de geldigheid kunnen controleren van berichten die beweren afkomstig te zijn van afzenders in uw domeinen. Voor inkomende berichten vereist Microsoft 365 e-mailverificatie voor de domeinen van de afzender. Zie [E-mailverificatie in Microsoft 365](email-validation-and-authentication.md) voor meer informatie.
 
 De anti-spoofing-technologie van Microsoft is oorspronkelijk alleen geïmplementeerd voor organisaties met Office 365 Advanced Threat Protection (ATP). In 2018 oktober is bescherming tegen spoofing toegevoegd aan EOP.
 
@@ -113,15 +113,15 @@ Microsoft maakt onderscheid tussen twee verschillende typen adresvervalsingberic
 
   - SFTY geeft het beveiligingsniveau van het bericht. 9 geeft phishing aan, .22 geeft aan dat er sprake is van spoofing tussen domeinen.
 
-Zie [Antispam-berichtkoppen in Office 365](anti-spam-message-headers.md) voor meer informatie over de categorie- en samengestelde verificatie(compauth)-waarden die verband houden met spoofing.
+Zie [Antispam-berichtkoppen in Microsoft 365](anti-spam-message-headers.md) voor meer informatie over de categorie- en samengestelde verificatie(compauth)-waarden die verband houden met spoofing.
 
-Zie voor informatie over DMARC [DMARC gebruiken om e-mail in Office 365 te valideren](use-dmarc-to-validate-email.md).
+Zie voor informatie over DMARC [DMARC gebruiken om e-mail in Microsoft 365 te valideren](use-dmarc-to-validate-email.md).
 
 ## <a name="reports-of-how-many-messages-were-marked-as-spoofed"></a>Rapporten bekijken over hoeveel berichten zijn gemarkeerd als vervalst
 
 EOP-organisaties kunnen het rapport **Spoof-detecties** gebruiken in het rapportendashboard in het Beveiligings- & Compliance-center. Zie [rapport over het opsporen van spoofing](view-email-security-reports.md#spoof-detections-report)voor meer informatie.
 
-Office 365 ATP-organisatie kan Threat Explorer gebruiken in het Beveiligings- & Compliance-center om informatie over phishing-pogingen te bekijken. Zie voor meer informatie [Dreigingsonderzoek en -antwoord in Office 365](office-365-ti.md).
+Office 365 ATP-organisatie kan Threat Explorer gebruiken in het Beveiligings- & Compliance-center om informatie over phishing-pogingen te bekijken. Zie voor meer informatie [Dreigingsonderzoek en -antwoord in Microsoft 365](office-365-ti.md).
 
 ## <a name="problems-with-anti-spoofing-protection"></a>Problemen met bescherming tegen spoofing
 
@@ -154,7 +154,7 @@ Voer de volgende stappen uit, afhankelijk van of u de mailinglijst beheert, om e
 
   - Maak regels voor postvak IN in uw e-mailclient om berichten te verplaatsen naar het postvak IN. U kunt uw beheerders ook vragen om overrides te configureren, zoals besproken in [Spoof-intelligence gebruiken om toegestane afzenders van niet-geverifieerde e-mail te configureren](email-validation-and-authentication.md#use-spoof-intelligence-to-configure-permitted-senders-of-unauthenticated-email).
 
-  - U kunt met Office 365 een ondersteuningsticket maken om een override voor de adressenlijst te maken om deze als legitiem te beschouwen. Raadpleeg voor meer informatie [Contact opnemen met ondersteuning voor zakelijke producten - Hulp voor beheerders](../../admin/contact-support-for-business-products.md).
+  - U kunt met Microsoft 365 een ondersteuningsticket maken om een override voor de adressenlijst te maken om deze als legitiem te beschouwen. Raadpleeg voor meer informatie [Contact opnemen met ondersteuning voor zakelijke producten - Hulp voor beheerders](../../admin/contact-support-for-business-products.md).
 
 Als al het andere niet lukt, kunt u het bericht als fout-positief melden aan Microsoft. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
@@ -162,4 +162,4 @@ U kunt ook contact opnemen met uw beheerder die een ondersteuningsticket kan gen
 
 ## <a name="considerations-for-anti-spoofing-protection"></a>Overwegingen bij de bescherming tegen spoofing
 
-Als u een beheerder bent die momenteel berichten naar Office 365 stuurt, moet u ervoor zorgen dat uw e-mail correct is geverifieerd. Anders kan het als spam of phishing worden gemarkeerd. Zie voor meer informatie [oplossingen voor legitieme afzenders die niet-geverifieerde e-mail verzenden](email-validation-and-authentication.md#solutions-for-legitimate-senders-who-are-sending-unauthenticated-email).
+Als u een beheerder bent die momenteel berichten naar Microsoft 365 stuurt, moet u ervoor zorgen dat uw e-mail correct is geverifieerd. Anders kan het als spam of phishing worden gemarkeerd. Zie voor meer informatie [oplossingen voor legitieme afzenders die niet-geverifieerde e-mail verzenden](email-validation-and-authentication.md#solutions-for-legitimate-senders-who-are-sending-unauthenticated-email).

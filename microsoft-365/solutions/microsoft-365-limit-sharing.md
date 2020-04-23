@@ -14,12 +14,12 @@ f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
 description: Leer meer over de mogelijkheden om delen in Microsoft 365 te beperken of uit te schakelen.
-ms.openlocfilehash: e6cce1102af793d38606b929951d20221eba4b12
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: ebeeefa61d9f4fc9fd77b417ccadfaa4308acb38
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42812562"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632593"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Delen beperken in Microsoft 365
 
@@ -29,7 +29,7 @@ De methoden voor het delen van bestanden worden weergegeven in de onderstaande t
 
 |Deelmethode|Beschrijving|Mogelijkheden beperken|
 |:-------------|:----------|:-------------|
-|[Office 365-groep of -team](#office-365-group-or-team)|Personen die toegang hebben tot een team van Microsoft Teams of Office 365, hebben toegang tot bestanden in de gekoppelde SharePoint-site.|Indien de groep of het team privé is, worden uitnodigingen om lid te worden van het team naar de eigenaar gestuurd voor goedkeuring. Beheerders kunnen gasttoegang uitschakelen om te voorkomen dat personen van buiten de organisatie toegang krijgen.|
+|[Microsoft 365-groep of -team](#microsoft-365-group-or-team)|Personen die toegang hebben tot een team van Microsoft Teams of Microsoft 365, hebben toegang tot bestanden in de gekoppelde SharePoint-site.|Indien de groep of het team privé is, worden uitnodigingen om lid te worden van het team naar de eigenaar gestuurd voor goedkeuring. Beheerders kunnen gasttoegang uitschakelen om te voorkomen dat personen van buiten de organisatie toegang krijgen.|
 |[SharePoint-site](#sharepoint-site)|Personen kunnen toegang krijgen tot een SharePoint-site als Eigenaar, Lid of Bezoeker, en hebben op dit niveau toegang tot bestanden op de site.|Sitemachtigingen kunnen worden beperkt, zodat alleen site-eigenaren de site kunnen delen.|
 |[Delen met specifieke personen](#sharing-with-specific-people)|Siteleden en personen met machtiging voor bewerkingen kunnen rechtstreekse machtigingen geven voor bestanden en mappen of ze delen met behulp van *Specifieke personen*-links.|Sitemachtigingen kunnen worden beperkt, zodat alleen site-eigenaren de bestanden en mappen kunnen delen. In dit geval wordt het delen van rechtstreekse toegang en een *Specifieke personen*-link aan de site-eigenaar voorgelegd voor toestemming.|
 |[SharePoint-gast delen](#sharepoint-guest-sharing)|SharePoint-site-eigenaren en -leden kunnen bestanden en mappen delen met personen buiten de organisatie.|Het delen van gasten kan worden uitgeschakeld voor de hele organisatie of voor afzonderlijke sites.|
@@ -41,9 +41,9 @@ U kunt de beheerdersbesturingselementen die in dit artikel worden beschreven, ge
 
 Als u wilt weten hoe delen wordt gebruikt binnen uw organisatie, [laat u een rapport opstellen over het delen van bestanden en mappen](https://docs.microsoft.com/sharepoint/sharing-reports).
 
-## <a name="office-365-group-or-team"></a>Office 365-groep of -team
+## <a name="microsoft-365-group-or-team"></a>Microsoft 365-groep of -team
 
-Als u het delen binnen een Office 365-groep of Microsoft Teams-team wilt beperken, is het belangrijk dat u de groep of het team privé maakt. Personen binnen uw organisatie kunnen op elk gewenst moment lid worden van een openbare groep of team. Tenzij de groep of het team privé is, kunt u het delen van het team of de bestanden binnen de organisatie niet beperken.
+Als u het delen binnen een Microsoft 365-groep of Microsoft Teams-team wilt beperken, is het belangrijk dat u de groep of het team privé maakt. Personen binnen uw organisatie kunnen op elk gewenst moment lid worden van een openbare groep of team. Tenzij de groep of het team privé is, kunt u het delen van het team of de bestanden binnen de organisatie niet beperken.
 
 ### <a name="guest-sharing"></a>Gasten delen
 
@@ -54,15 +54,15 @@ Het delen met gasten uitschakelen voor Teams
 2. Schakel **Gasttoegang in Teams toestaan** uit.
 3. Klik op **Opslaan**.
 
-Als u gasttoegang in Office 365-groepen wilt voorkomen, kunt u de instellingen voor gasttoegang in het Microsoft 365-beheercentrum uitschakelen.
+Als u gasttoegang in Microsoft 365-groepen wilt voorkomen, kunt u de instellingen voor gasttoegang in het Microsoft 365-beheercentrum uitschakelen.
 
-Het delen met gasten uitschakelen in Office 365-groepen
+Het delen met gasten uitschakelen in Microsoft 365-groepen
 1. In het Microsoft 365-beheercentrum klikt u op **Instellingen** en vervolgens op **Instellingen**.
-2. Klik in het tabblad **Services** op **Office 365-groepen**.
+2. Klik in het tabblad **Services** op **Microsoft 365-groepen**.
 3. Schakel de selectievakjes voor **Groepsleden buiten uw organisatie toegang geven tot groepsinhoud** en **Groepseigenaren personen van buiten uw organisatie toe laten voegen aan groepen** uit.
 4. Klik op **Wijzigingen opslaan**.
 
-    ![Schermopname van gastinstellingen van Office 365-groepen in het Microsoft 365-beheercentrum](../media/office-365-groups-guest-settings-off.png)
+    ![Schermopname van gastinstellingen van Microsoft 365-groepen in het Microsoft 365-beheercentrum](../media/office-365-groups-guest-settings-off.png)
 
 > [!NOTE]
 > Als u het delen met gasten voor een bepaalde groep of een bepaald team wilt voorkomen, kunt u dit doen met behulp van Microsoft PowerShell. Zie [Gastgebruikers voor een specifieke groep blokkeren](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#block-guest-users-from-a-specific-group) voor meer informatie.
@@ -79,7 +79,7 @@ Uitnodigingen voor delen alleen bij specifieke domeinen toestaan
 
 ## <a name="sharepoint-site"></a>SharePoint-site
 
-U kunt het delen van SharePoint-sites beperken tot alleen site-eigenaren. Hiermee voorkomt u dat siteleden de site delen. Als de site is verbonden met een Office 365-groep, kunnen groepsleden anderen uitnodigen voor de groep en kunnen deze gebruikers toegang krijgen tot de site.
+U kunt het delen van SharePoint-sites beperken tot alleen site-eigenaren. Hiermee voorkomt u dat siteleden de site delen. Als de site is verbonden met een Microsoft 365-groep, kunnen groepsleden anderen uitnodigen voor de groep en kunnen deze gebruikers toegang krijgen tot de site.
 
 Het delen van een site beperken tot eigenaren
 1. Klik in de werkbalk op het pictogram voor Instellingen en vervolgens op **Site-machtigingen**.

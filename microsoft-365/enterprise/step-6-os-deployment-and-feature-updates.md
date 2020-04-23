@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Meer informatie over de opties voor de implementatie van een besturingssysteem en functie-updates.
-ms.openlocfilehash: 24b6cf30398031cf2bf4032795013338fec39ffb
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d22a0993b256a1bea1a6a5ac61f14b144c6ac6c7
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42808780"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636757"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>Stap 6: Implementatie van besturingssysteem en functie-updates
 
@@ -41,7 +41,7 @@ ms.locfileid: "42808780"
 
 Als u het implementatieproces tot nu toe hebt gevolgd, hebt u de stappen voor het gereedmaken van apparaten en apps minstens deels voltooid, en hebt u de infrastructuur voorbereid, app-pakketten geconfigureerd en verzameld, een plan opgesteld voor het migreren van gebruikersbestanden en het configureren van standaardinstellingen alsook een plan voor het behouden van uw bestaande veiligheidscontroles en mogelijk het implementeren van nieuwe.
 
-Nu zijn we aangekomen op het punt waarop u al deze onderdelen samenvoegt om zoveel mogelijk te automatiseren voor het installeren van Windows 10 en Office 365 ProPlus, evenals de vereiste sturingsprogramma's, apps en andere items.
+Nu zijn we aangekomen op het punt waarop u al deze onderdelen samenvoegt om zoveel mogelijk te automatiseren voor het installeren van Windows 10 en Microsoft 365-apps voor ondernemingen, evenals de vereiste sturingsprogramma's, apps en andere items.
 
 Uiteindelijk heeft de implementatie van een besturingssysteem de grootste kans op succes wanneer wordt voldaan aan de verwachtingen van gebruikers en onderbrekingen van werkzaamheden worden voorkomen. Tijdens deze stap begint u met het testen en implementeren voor proefgebruikers als onderdeel van de gefaseerde implementatie. En één tip hier is dat u voordat u de implementatie uitbreidt, verder moet gaan naar stap 8 van het implementatieproces - [Communicatie en training voor gebruikers](https://aka.ms/mdd8) - om te garanderen dat gebruikers op de hoogte zijn van en voorbereid zijn op wijzigingen en dat u het tempo van de uitbreiding met continue validatie kunt uitvoeren door middel van Gefaseerde implementatie.
 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Informatie over de behoefte aan Internet-bandbreedte voor de cloudservices van Microsoft 365 Enterprise.
-ms.openlocfilehash: 2f20542609c757c4fbccd2f9b0e4af59d9bc7566
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a2b5be462747ff269b82304249d46f32837ae2e5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42809506"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631451"
 ---
 # <a name="step-1-prepare-your-network-for-microsoft-365"></a>Stap 1: Uw netwerk voorbereiden voor Microsoft 365
 
@@ -31,10 +31,10 @@ ms.locfileid: "42809506"
 In stap 1 dient u het volgende te doen:
 
 - Controleer en wijzig de netwerkbandbreedte voor interne koppelingen en Internet-verbindingen om rekening te houden met het verkeer naar de cloudservices van Microsoft 365 Enterprise.
-- Stroomlijn uw netwerk met een [Office 365 referentie-architectuur](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
+- Stroomlijn uw netwerk met een [Microsoft 365 referentie-architectuur](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
 - Plan de wijzigingen, voer ze uit en controleer of de wijzigingen voldoen aan de vereisten voor bandbreedte en netwerklatentie.
 
-Zie [Azure ExpressRoute voor Office365 ](https://docs.microsoft.com/office365/enterprise/azure-expressroute)voor informatie en aanbevelingen voor het gebruik van ExpressRoute met Office 365 en de andere cloudservices van Microsoft 365 Enterprise.
+Zie [Azure ExpressRoute voor Microsoft 365 ](https://docs.microsoft.com/office365/enterprise/azure-expressroute)voor informatie en aanbevelingen voor het gebruik van ExpressRoute met Microsoft 365 en de andere cloudservices van Microsoft 365 Enterprise.
 
 Als tussentijds controlepunt kunt u de [afsluitcriteria](networking-exit-criteria.md#crit-networking-step1) voor deze stap bekijken.
 

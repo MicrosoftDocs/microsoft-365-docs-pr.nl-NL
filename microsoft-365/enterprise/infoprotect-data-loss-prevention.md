@@ -1,5 +1,5 @@
 ---
-title: 'Stap 5: Office 365 Preventie van gegevensverlies configureren'
+title: 'Stap 5: preventie van gegevensverlies configureren'
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,21 +14,21 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Informatie over het gebruik van Office 365 Preventie van gegevensverlies en implementeren in Microsoft 365.
-ms.openlocfilehash: 896670e9ae83324a1220d64f49a8ea48aee85169
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Informatie over het gebruik van Preventie van gegevensverlies en implementeren in Microsoft 365.
+ms.openlocfilehash: e3d18bf54ecdfe11f8233163e7f200a70606d81d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42805276"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636974"
 ---
-# <a name="step-5-configure-office-365-data-loss-prevention"></a>Stap 5: Office 365 Preventie van gegevensverlies configureren
+# <a name="step-5-configure-data-loss-prevention"></a>Stap 5: preventie van gegevensverlies configureren
 
 *Deze stap is optioneel en geldt voor zowel E3- als E5-versies van Microsoft 365 Enterprise*
 
-![Fase 6: Gegevensbescherming](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Fase 6: gegevensbescherming](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
-Met een beleid voor preventie van gegevensverlies (DLP-beleid) in het Office 365-beveiligings- en nalevingscentrum kunt u gevoelige gegevens in Microsoft 365 identificeren, controleren en automatisch beschermen. Met DLP-beleid kunt u het volgende doen:
+Met een beleid voor preventie van gegevensverlies (DLP-beleid) in het Beveiligings- en nalevingscentrum kunt u gevoelige gegevens in Microsoft 365 identificeren, controleren en automatisch beschermen. Met DLP-beleid kunt u het volgende doen:
 
 - Gevoelige informatie identificeren op meerdere locaties, zoals Exchange Online, SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
 - Voorkomen dat gevoelige gegevens per ongeluk worden gedeeld door de toegang tot een document te blokkeren of het e-mailbericht te blokkeren.

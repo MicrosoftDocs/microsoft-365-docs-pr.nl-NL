@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Inzicht in de resources die u kunt gebruiken voor de implementatie van Microsoft 365 voor ondernemingen in uw organisatie.
-ms.openlocfilehash: 9ea96af7cef0e497e8f7560ef87239828789b117
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 3f6ddb1caf270f2ba261bd7b9c8f8cd938187705
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951932"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638234"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>Microsoft 365 voor ondernemingen implementeren
 
@@ -37,7 +37,7 @@ U kunt Microsoft 365 voor ondernemingen op drie manieren implementeren:
 
 - Met Microsoft-technici via [FastTrack voor Microsoft 365](#fasttrack-for-microsoft-365).
 - Met behulp van Microsoft Consulting Services of een [Microsoft-partner](https://partner.microsoft.com/).
-- Zelf met de [implementatiehandleiding voor Microsoft 365 voor ondernemingen](#microsoft-365-for-enterprise-deployment-guide).
+- Zelf met de [Implementatiehandleiding voor Microsoft 365 voor ondernemingen](#microsoft-365-for-enterprise-deployment-guide).
 
 ## <a name="fasttrack-for-microsoft-365"></a>FastTrack voor Microsoft 365
 
@@ -53,7 +53,7 @@ In de implementatiehandleiding voor Microsoft 365 voor ondernemingen wordt u sta
 
 Als u Microsoft 365 voor ondernemingen zelf wilt implementeren, kunt u:
 
-- De [basisinfrastructuur](deploy-foundation-infrastructure.md) implementeren voor ingebouwde beveiliging en integratie voor vereenvoudigd beheer. Hierdoor kunt u er makkelijker voor zorgen dat de clientsoftware wordt bijgewerkt met de recentste verbeteringen in productiviteit en beveiliging. 
+- De [basisinfrastructuur](deploy-foundation-infrastructure.md) implementeren voor ingebouwde beveiliging en integratie voor vereenvoudigd beheer. Hierdoor kunt u er makkelijker voor zorgen dat de clientsoftware wordt bijgewerkt met de meest recente verbeteringen in productiviteit en beveiliging. 
  
   De basisinfrastructuur is ingedeeld als een reeks genummerde fasen die op elkaar voortbouwen en een omgeving vormen die de workloads en scenario's van Microsoft 365 voor ondernemingen ondersteunt. 
 
@@ -95,7 +95,7 @@ Zie de poster [Uw organisatie overzetten naar Microsoft 365](../media/deploy-mic
 
 Deze poster van twee pagina's is een snelle manier om de bestaande infrastructuur te inventariseren en de informatiebronnen te vinden die u kunnen helpen bij het overstappen naar het bijbehorende product of de bijbehorende service in Microsoft 365 voor ondernemingen. De poster bevat Windows- en Office-producten en andere infrastructuur- en beveiligingselementen, zoals apparaat- en identiteitsbeheer, informatiebeveiliging en beveiliging tegen bedreigingen.
 
-U kunt ook [deze poster downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) en afdrukken in het formaat Letter, Legal of Tabloid (11 x 17).
+U kunt ook [deze poster downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) en afdrukken in de indeling Letter, Legal of Tabloid (11 x 17).
 
 ## <a name="how-did-others-do-it"></a>Hoe hebben anderen dit gedaan?
 
@@ -124,7 +124,7 @@ Lees hoe Core Services Engineering and Operations (voorheen Microsoft IT) [een b
 
 ### <a name="how-the-contoso-corporation-deployed-microsoft-365-for-enterprise"></a>Hoe Contoso Corporation Microsoft 365 voor ondernemingen heeft geïmplementeerd
 
-Contoso Corporation is een fictief maar representatief wereldwijd productieconglomeraat met het hoofdkantoor in Parijs, Frankrijk. Bekijk hoe [Contoso Microsoft 365 voor ondernemingen heeft geïmplementeerd](contoso-case-study.md) en aandacht heeft besteed aan belangrijke ontwerpbeslissingen en implementatiedetails voor netwerken, identiteiten, Windows 10 Enterprise, Office 365 ProPlus, beheer van mobiele apparaten, gegevensbescherming en beveiliging. 
+Contoso Corporation is een fictief maar representatief wereldwijd productieconglomeraat met het hoofdkantoor in Parijs, Frankrijk. Bekijk hoe [Contoso Microsoft 365 voor ondernemingen heeft geïmplementeerd](contoso-case-study.md) en aandacht heeft besteed aan belangrijke ontwerpbeslissingen en implementatiedetails voor netwerken, identiteiten, Windows 10 Enterprise, Microsoft 365-apps voor ondernemingen, beheer van mobiele apparaten, gegevensbescherming en beveiliging. 
 
 ## <a name="stay-current-with-deployment-content"></a>Blijf up-to-date met de implementatie-inhoud
 

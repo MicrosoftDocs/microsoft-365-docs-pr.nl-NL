@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 4c66e2c398adfc67ec28661ed654ca891a846534
-  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+  ms.openlocfilehash: 0b5b128a0d4ea756a6cc6f926d1496de16520377
+  ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 03/19/2020
-  ms.locfileid: "42857319"
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "43636649"
 highlightedContent:
   items:
   - title: Training voor beheerders en IT-professionals
@@ -45,9 +45,9 @@ additionalContent:
     summary: Selecteer een kaartje voor meer informatie over Microsoft 365.
     items:
     - title: Microsoft 365-beheercentrum
-      summary: Office 365- en Microsoft 365-services voor uw organisatie instellen en beheren.
-      url: ./admin/admin-home.yml
-    - title: Microsoft 365 Business
+      summary: Microsoft 365-services voor uw organisatie instellen en beheren.
+      url: ./admin/admin-home.md
+    - title: Microsoft 365 Business Premium
       summary: Ontworpen voor kleine en middelgrote bedrijven. Run uw bedrijf met de nieuwste versie van Windows- en Office-apps, zoals Excel en Outlook. Profiteer van gegevensbescherming en -beveiliging voor alle bedrijfsapparaten.
       url: ./business/index.yml
     - title: Microsoft 365 Enterprise
@@ -63,7 +63,7 @@ additionalContent:
       summary: Lees meer over de krachtige beveiligingsoplossingen en -services in Microsoft 365-beveiliging, zodat u uw organisatie beter kunt beveiligen op meerdere fronten.
       url: ./security/index.yml
     - title: Microsoft 365 voor campagnes
-      summary: Houd uw campagne of bedrijfsgegevens en bedrijfscommunicatie beveiligd met deze aanbevolen configuratie voor Microsoft 365 Business.
+      summary: Houd uw campagne of bedrijfsgegevens en bedrijfscommunicatie beveiligd met deze aanbevolen configuratie voor Microsoft 365 voor Bedrijven.
       url: ./campaigns/index.md
     - title: Microsoft Managed Desktop
       summary: Microsoft Managed Desktop combineert Microsoft 365 Enterprise, apparaatbeheer in de cloud door Microsoft en beveiligingscontroles, zodat uw IT-teams zich kunnen concentreren op de kernbehoeften van uw bedrijf.

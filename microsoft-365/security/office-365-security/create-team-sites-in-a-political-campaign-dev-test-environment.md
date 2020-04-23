@@ -18,12 +18,12 @@ search.appverid:
 ms.custom: ''
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: 'Overzicht: Maak openbare, privé, gevoelige en zeer vertrouwelijke SharePoint Online-teamsites in een ontwikkel-/testomgeving voor uw politieke campagne.'
-ms.openlocfilehash: d36b2c74cc7accadf5bbbde1b52f94c5e998ea8a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 14ba5b00754a9e55c797edd0835658ac81b7e647
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42806850"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637662"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
 
@@ -35,11 +35,11 @@ Gebruik de instructies in dit artikel om een ontwikkel-/testomgeving te maken me
 
 Volg eerst de instructies in [Groepen en gebruikers configureren voor een ontwikkel-/testomgeving voor uw politieke campagne](configure-groups-and-users-for-a-political-campaign-dev-test-environment.md) om uw abonnementen, gebruikers en groepen te maken.
   
-## <a name="phase-2-create-office-365-labels"></a>Fase 2: Office 365-labels maken
+## <a name="phase-2-create-labels"></a>Fase 2: Labels maken
 
 In deze fase maakt u de labels voor de verschillende beveiligingsniveaus van documentenmappen op de SharePoint Online-teamsite.
   
-1. Indien nodig meldt u zich aan bij het beheercentrum met de inloggegevens van het algemene beheerdersaccount van uw proefabonnement. Zie [Waar kan ik me aanmelden in Office 365?](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) voor hulp.
+1. Indien nodig meldt u zich aan bij het beheercentrum met de inloggegevens van het algemene beheerdersaccount van uw proefabonnement. Zie [Waar kan ik me aanmelden in Microsoft 365?](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) voor hulp.
     
 2. Klik in het tabblad **Microsoft Office voor Thuisgebruik** op de tegel **Beheerder**.
     
@@ -237,9 +237,9 @@ Configureer vervolgens een beleid voor de preventie van gegevensverlies dat gebr
     
 11. Klik in het deelvenster **Kies de typen inhoud die u wilt beveiligen** op **Opslaan**.
     
-12. Klik in het deelvenster **Het type gevoelige inhoud dat u wilt beveiligen aanpassen** op **Volgende**.
+12. Klik in het deelvenster **De typen gevoelige inhoud aanpassen die u wilt beveiligen** op **Volgende**.
     
-13. Klik in het deelvenster **Wat wilt u doen als we gevoelige informatie herkennen?** op **De tip en e-mail aanpassen**.
+13. Klik in het deelvenster **Wat wilt u doen als we gevoelige informatie herkennen?** op **De tip en de e-mail aanpassen**.
     
 14. Klik in het deelvenster **Beleidstips en e-mailmeldingen aanpassen** op **tekst voor beleidstip aanpassen**.
     
@@ -347,9 +347,9 @@ Configureer vervolgens een beleid voor de preventie van gegevensverlies dat gebr
     
 12. Klik in het deelvenster **Kies de typen inhoud die u wilt beveiligen** op **Opslaan**.
     
-13. Klik in het deelvenster **Het type gevoelige inhoud dat u wilt beveiligen aanpassen** op **Volgende**.
+13. Klik in het deelvenster **De typen gevoelige inhoud aanpassen die u wilt beveiligen** op **Volgende**.
     
-14. Klik in het deelvenster **Wat wilt u doen als we gevoelige informatie herkennen?** op **De tip en e-mail aanpassen**.
+14. Klik in het deelvenster **Wat wilt u doen als we gevoelige informatie herkennen?** op **De tip en de e-mail aanpassen**.
     
 15. Klik in het deelvenster **Beleidstips en e-mailmeldingen aanpassen** op **tekst voor beleidstip aanpassen**.
     

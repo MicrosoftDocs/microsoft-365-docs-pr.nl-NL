@@ -16,12 +16,12 @@ ms.collection:
 - remotework
 ms.custom: ''
 description: Meer informatie over hoe planning en implementatie van bedrijfscontinuïteit er anders uitziet wanneer cloudservices deel uitmaken van uw IT-aanbod.
-ms.openlocfilehash: bb9f3f1367b376c63b8779f3ff62f05b0312ef55
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: 6bdecdbacd69d925e5bd44cfc0521a626d64082f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43030104"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633031"
 ---
 # <a name="enterprise-business-continuity-management-ebcm-with-cloud-services"></a>Enterprise Business Continuity Management (EBCM) met cloudservices
 
@@ -40,7 +40,7 @@ Als u uw abonnementen nog niet hebt bijgewerkt, kunt u met deze reeks onderwerpe
 - [Microsoft 365 service-tolerantie](ebcm-m365-service-resiliency.md)
 - [Uw continuïteitsplan ontwikkelen](ebcm-developing-your-ebcm-plan.md)
 - [Scenario's voor het beperken van Microsoft 365 service-incidenten](ebcm-microsoft-365-mitigations.md)
-- [Training voor Microsoft 365 bedrijfscontinuïteitsplan en oefening](ebcm-enterprise-business-continuity-management-plan-rehearsal-and-user-training.md)
+- [Training en oefening voor continuïteitsplan van Microsoft 365 voor Bedrijven](ebcm-enterprise-business-continuity-management-plan-rehearsal-and-user-training.md)
 
 ## <a name="see-also"></a>Zie ook
 

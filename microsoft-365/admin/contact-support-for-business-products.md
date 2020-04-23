@@ -24,17 +24,16 @@ search.appverid:
 ms.assetid: 32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
 description: Ontvang technische en factureringsondersteuning via het telefoonnummer dat wordt weergegeven voor uw land of regio, door uw serviceaanvraag online te versturen of door naar een Microsoft Store te gaan.
 feedback_system: None
-ms.openlocfilehash: 8f108f4348a7cecd62eba869962d9ee5b179b5b0
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: f1698de8c9b1d80763c983fbc9adf3778be45645
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212115"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707545"
 ---
 # <a name="contact-support-for-business-products---admin-help"></a>Contact opnemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders
 
 ::: moniker range="o365-worldwide"
-
 
 ## <a name="online-support"></a>[Online ondersteuning](#tab/online)
 
@@ -52,7 +51,9 @@ Bespaar tijd door uw serviceaanvraag online te starten. Wij helpen u bij het zoe
 
 ## <a name="phone-support"></a>[Telefonische ondersteuning](#tab/phone)
 
-Ondersteuning voor facturering is beschikbaar in het Engels van 09:00 tot 17:00 uur (09:00 tot 18:00 uur in Australië), van maandag t/m vrijdag.  <br/>Technische ondersteuning is beschikbaar in het Engels, 24 uur per dag, 7 dagen per week. <br/> Beheerders: houd uw accountgegevens bij de hand wanneer u belt.<br/>
+Ondersteuning voor facturering is beschikbaar in het Engels van 09:00 tot 17:00 uur (09:00 tot 18:00 uur in Australië), van maandag t/m vrijdag.\
+Technische ondersteuning is beschikbaar in het Engels, 24 uur per dag, 7 dagen per week.\
+Beheerders: houd uw accountgegevens bij de hand wanneer u belt.\
 
 - **In de Verenigde Staten belt u 1 800 865 9408.**
 
@@ -62,7 +63,7 @@ Ondersteuning voor facturering is beschikbaar in het Engels van 09:00 tot 17:00 
 
 - **In het Verenigd Koninkrijk belt u 0800 032 6417.**
 
-Als uw telefoonnummer voor ondersteuning voor Office 365 of Microsoft 365 Business hierboven niet wordt vermeld, kunt u het onderstaande menu gebruiken om uw land of regio te kiezen.  
+Als uw telefoonnummer voor ondersteuning voor Microsoft 365 voor Bedrijven hierboven niet wordt vermeld, kunt u het onderstaande menu gebruiken om uw land of regio te kiezen.  
 
 [!INCLUDE [country-region-support-dropdown-list](includes/country-region-support-dropdown-list.md)]
 
@@ -70,13 +71,15 @@ Voor meer informatie over het aanmaken van een serviceaanvraag selecteert u het 
 
 ## <a name="in-store-support"></a>[Ondersteuning in de winkel](#tab/instore)
 
-U kunt nu een afspraak maken bij uw lokale Microsoft Store met een Answer Desk-expert die u helpt bij het oplossen van uw probleem met Office 365 of Microsoft 365.
+U kunt nu een afspraak maken bij uw lokale Microsoft Store met een Answer Desk-expert die u helpt bij het oplossen van uw probleem met Microsoft 365.
 
 1. Ga naar de pagina [Microsoft Stores-planning](https://go.microsoft.com/fwlink/?LinkID=2041482) en selecteer **Een afspraak inplannen**.
 
 2. Voer uw locatie in en zoek naar een Microsoft Store bij u in de buurt.
 
 3. Kies uw winkel en selecteer vervolgens **Serviceafspraak nu plannen**.
+
+---
 
 ::: moniker-end
 
@@ -86,7 +89,7 @@ Voor elk abonnement op Office 365 dat wordt beheerd door 21Vianet levert de klan
 
 Gemachtigde beheerders kunnen gebruikmaken van het door Office 365 beheerde 21Vianet-portal om online serviceaanvragen in te dienen en telefoonnummers voor de ondersteuning op te vragen. Zie [Contact opnemen met ondersteuning](#contact-support) voor instructies.
 
-Het technische ondersteuningsteam van 21Vianet Office 365 lost alleen problemen op met betrekking tot het door 21Vianet beheerde Office 365. Problemen die zich voordoen in klantennetwerken vallen buiten het bereik van de Office 365-ondersteuning en in dergelijke gevallen dienen klanten ondersteuning te vragen bij hun eigen netwerkteam.
+Het technische ondersteuningsteam van het door 21Vianet beheerde Office 365 lost alleen problemen op met betrekking tot het door 21Vianet beheerde Office 365. Problemen die zich voordoen in klantennetwerken vallen buiten het bereik van de Office 365-ondersteuning en in dergelijke gevallen dienen klanten ondersteuning te vragen bij hun eigen netwerkteam.
 
 ### <a name="community-and-self-service-support-options"></a>Ondersteuningsopties voor de community en selfservice
 
@@ -120,7 +123,7 @@ Technische ondersteuning voor door 21Vianet beheerde Office 365-abonnementen voo
 
 | Ondersteuningscategorie | Voorbeelden |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Installatie en instellingen | Exchange Online  <ul><li>Migratie van het Office 365-postvak</li><li>Configuratie van geadresseerden (postvakmachtigingen, e-mail doorsturen configureren, gedeeld postvak configureren)</li><li>Configuratie van Autodiscover</li></ul> SharePoint Online <ul><li>Machtigingen en gebruikersgroepen</li><li>Configuratie van externe gebruikers</li></ul> Skype voor Bedrijven Online  <ul><li>Installatie en contactpersonen maken</li></ul> Office 365 ProPlus  <ul><li>Installatie en instellingen</li></ul> |
+| Installatie en instellingen | Exchange Online  <ul><li>Migratie van het Office 365-postvak</li><li>Configuratie van geadresseerden (postvakmachtigingen, e-mail doorsturen configureren, gedeeld postvak configureren)</li><li>Configuratie van Autodiscover</li></ul> SharePoint Online <ul><li>Machtigingen en gebruikersgroepen</li><li>Configuratie van externe gebruikers</li></ul> Skype voor Bedrijven Online  <ul><li>Installatie en contactpersonen maken</li></ul> Microsoft 365-apps voor ondernemingen  <ul><li>Installatie en instellingen</li></ul> |
 | Configuratie | Problemen met de configuratie van de service  <ul><li>Eenmalige aanmelding (SSO)</li><li>Active Directory-synchronisatie</li></ul> |
 
 > [!NOTE]
@@ -178,7 +181,7 @@ Ondersteuning bellen. Als u een probleem ondervindt met de onlineaanvraag, kunt 
 
 Personen met beheerdersrollen zijn de enige personen in de organisatie van de klant die geautoriseerd zijn voor toegang tot de Beheerderssectie van het door Office 365 beheerde 21Vianet-portal en om rechtstreeks te communiceren met 21Vianet over Office 365-serviceaanvragen.
 
-Met Office 365 kunt u een aantal typen beheerders aanwijzen die met verschillende functies zijn belast. Deze serviceomschrijving maakt gebruik van de algemene titel 'beheerder' als verwijzing naar alle categorieën beheerders. Zie [Beheerdersrollen toewijzen in Office 365 voor bedrijven](add-users/assign-admin-roles.md) voor meer informatie over de typen beheerdersrollen.
+Met Office 365 kunt u een aantal typen beheerders aanwijzen die met verschillende functies zijn belast. Deze serviceomschrijving maakt gebruik van de algemene titel 'beheerder' als verwijzing naar alle categorieën beheerders. Zie [Beheerdersrollen toewijzen in Microsoft 365 voor bedrijven](add-users/assign-admin-roles.md) voor meer informatie over de typen beheerdersrollen.
 
 De beheerder is:
 
@@ -237,7 +240,7 @@ Dit artikel is bedoeld voor klanten van Office 365 Germany met domeinen die eind
 Als beheerder van Office 365 Germany krijgt u gratis toegang tot onze deskundige ondersteuningsmedewerkers voor hulp bij het oplossen van technische problemen en ondersteuning op het gebied van pre-sales, accounts en facturering. U kunt ook contact met ons opnemen namens Office 365-gebruikers in uw organisatie.
 
 > [!NOTE]
-> Alle onderstaande ondersteuningsopties gelden voor Microsoft Cloud Germany. In de [privacyverklaring](https://go.microsoft.com/fwlink/p/?LinkId=512132) leest u hoe Microsoft gebruikmaakt van de gegevens die u opgeeft wanneer u contact opneemt met ondersteuning voor Microsoft Office 365.
+> Alle onderstaande ondersteuningsopties gelden voor Microsoft Cloud Germany. In de [privacyverklaring](https://go.microsoft.com/fwlink/p/?LinkId=512132) leest u hoe Microsoft gebruikmaakt van de gegevens die u opgeeft wanneer u contact opneemt met ondersteuning voor Microsoft.
 
 ### <a name="get-assisted-support"></a>Hulp bij ondersteuning vragen
 
@@ -254,6 +257,6 @@ Alleen voor beheerders van organisaties met een Office 365 Germany-abonnement zi
 
 ### <a name="let-our-community-help"></a>Laat onze community helpen
 
-U kunt ook [zoeken in de communityfora voor Office 365 voor bedrijven](https://go.microsoft.com/fwlink/p/?LinkId=518605) om oplossingen voor bekende problemen te vinden, te lezen over populaire onderwerpen of een nieuwe vraag te stellen. De communityforums worden in de gaten gehouden door getrainde Microsoft-ondersteuningsmedewerkers, die u kunnen helpen uw probleem op te lossen.
+U kunt ook [zoeken in de communityfora voor Microsoft 365 voor Bedrijven](https://go.microsoft.com/fwlink/p/?LinkId=518605) om oplossingen voor bekende problemen te vinden, te lezen over populaire onderwerpen of een nieuwe vraag te stellen. De communityforums worden in de gaten gehouden door getrainde Microsoft-ondersteuningsmedewerkers, die u kunnen helpen uw probleem op te lossen.
 
 ::: moniker-end

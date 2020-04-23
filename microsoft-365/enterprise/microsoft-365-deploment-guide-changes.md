@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Bekijk de nieuwe inhoud en wijzigingen aan de inhoud in de implementatiehandleiding voor Microsoft 365.
-ms.openlocfilehash: fb9768be38ef215b22c81bcf10b19b58e37fb124
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 3374ee742982b1c7f451448674feed5f7d803031
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951808"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631571"
 ---
 # <a name="changes-to-microsoft-365-for-enterprise-deployment-content"></a>Wijzigingen aan implementatie-inhoud voor Microsoft 365 voor bedrijven
 
@@ -38,7 +38,7 @@ ms.locfileid: "42951808"
 
 ### <a name="new-content"></a>Nieuwe inhoud 
 
-- [Migreren van Microsoft 365 Business naar Microsoft 365 E3](https://docs.microsoft.com/microsoft-365/business/migrate-from-microsoft-365-business-to-microsoft-365-enterprise)
+- [Migreren van Microsoft 365 Business Premium naar Microsoft 365 E3](https://docs.microsoft.com/microsoft-365/business/migrate-from-microsoft-365-business-to-microsoft-365-enterprise)
 
 - [Team voor een zeer geheim project van Contoso Corporation](contoso-team-for-top-secret-project.md)
 
@@ -86,7 +86,7 @@ ms.locfileid: "42951808"
 
 ### <a name="updates-and-enhancements"></a>Updates en verbeteringen
 
-- Vernieuwing van [Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md)
+- Vernieuwing van [Fase 4: Microsoft 365-apps voor ondernemingen](office365proplus-infrastructure.md)
 - Vernieuwing van de [Contoso-casestudy](contoso-case-study.md)
 - Vernieuwing van de [Microsoft Teams-](teams-workload.md), [Exchange Online-](exchangeonline-workload.md) en [SharePoint Online-](sharepoint-online-onedrive-workload.md)workloads
 - Vernieuwing van het [scenario SharePoint-sites voor sterk gereglementeerde gegevens](teams-sharepoint-online-sites-highly-regulated-data.md)
@@ -170,7 +170,7 @@ ms.locfileid: "42951808"
 ### <a name="new-content"></a>Nieuwe inhoud 
 
 - [Identiteit en apparaattoegang](identity-device-access-m365-test-environment.md): vereiste Test Lab Guides
-- [Windows Information Protection](infoprotect-deploy-windows-information-protection.md)- en [Office 365 Data Loss Prevention](infoprotect-data-loss-prevention.md)-stappen voor [Fase 6: Gegevensbeveiliging](infoprotect-infrastructure.md)
+- [Windows Information Protection](infoprotect-deploy-windows-information-protection.md)- en [Data Loss Prevention](infoprotect-data-loss-prevention.md)-stappen voor [Fase 6: Gegevensbeveiliging](infoprotect-infrastructure.md)
 
 
 ## <a name="see-also"></a>Zie ook

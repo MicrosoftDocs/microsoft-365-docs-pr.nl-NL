@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Werk de gebruikers in uw organisatie in voor de productiviteitsworkloads van Microsoft 365 voor ondernemingen.
-ms.openlocfilehash: 692deeee652a4d27b8cc46a8e02890cccb8bb311
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 2bb86ec474f93ea9d5f41fb104c6d533b7ec9561
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42809503"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638162"
 ---
 # <a name="microsoft-365-for-enterprise-workloads-and-scenarios"></a>Microsoft 365 voor bedrijfsworkloads en -scenario's
 
@@ -60,8 +60,8 @@ Zie de [Productiviteitsbibliotheek van Microsoft 365](https://aka.ms/productivit
 | Netwerk | Uw netwerk wordt bijgewerkt voor optimale prestaties met Microsoft 365-cloudservices. |
 | Identiteit | Identiteit wordt met sterke verificatie voor gebruikersaccounts en bescherming voor beheerdersaccounts gesynchroniseerd en beveiligd. |
 | Windows 10 Enterprise | Voor computers met Windows 7 of Windows 8.1 kunt u een upgrade uitvoeren naar Windows 10 Enterprise en op nieuwe apparaten wordt Windows 10 Enterprise geïnstalleerd. |
-| Office 365 ProPlus | Bestaande gebruikers van Microsoft Office kunnen een upgrade uitvoeren naar Office 365 ProPlus. |
-| Beheer van mobiele apparaten | Uw apparaten kunnen worden geregistreerd en beheerd. |
+| Microsoft 365-apps voor ondernemingen | Bestaande gebruikers van Microsoft Office kunnen een upgrade uitvoeren naar Microsoft 365-apps voor ondernemingen. |
+| Mobile Device Management | Uw apparaten kunnen worden geregistreerd en beheerd. |
 | Gegevensbeveiliging | Microsoft 365-functies voor informatiebescherming worden geconfigureerd en uw gevoeligheidslabels of Azure Information Protection-labels zijn gereed om documenten en e-mail te beschermen. |
 
 Vergeet niet dat dit het ideale geval is en dat het plannen, configureren en testen veel tijd in beslag kan nemen, met name in grote organisaties met een bestaande infrastructuur en meerdere locaties. Het voltooien van alle fasen op alle locaties is niet nodig om sneller meer bedrijfswaarde uit Microsoft 365 voor ondernemingen te halen. 
@@ -69,7 +69,7 @@ Vergeet niet dat dit het ideale geval is en dat het plannen, configureren en tes
 Hier volgen enkele veelvoorkomende workloads die u onmiddellijk kunt implementeren: 
 
 - Nadat de fase **Identiteit** van de basisinfrastructuur voor de gebruikers is geïmplementeerd, worden door veel organisaties ook de volgende workloads geïmplementeerd:
-  - [Office 365 ProPlus](office365proplus-infrastructure.md) in combinatie met [OneDrive](https://docs.microsoft.com/onedrive/plan-onedrive-enterprise). Office 365 ProPlus biedt de beveiliging van moderne verificatie en de gebruikerservaring van de nieuwste Microsoft Office-client. De migratie van persoonlijke bestanden van gebruikers naar OneDrive vermindert de hoeveelheid infrastructuur en de noodzaak om lokale mappen en stations te ondersteunen.
+  - [Microsoft 365-apps voor ondernemingen](office365proplus-infrastructure.md) gecombineerd met [OneDrive](https://docs.microsoft.com/onedrive/plan-onedrive-enterprise). Microsoft 365-apps voor ondernemingen biedt de beveiliging van moderne verificatie en de gebruikerservaring van de nieuwste Microsoft Office-client. De migratie van persoonlijke bestanden van gebruikers naar OneDrive vermindert de hoeveelheid infrastructuur en de noodzaak om lokale mappen en stations te ondersteunen.
   - [Exchange Online](exchangeonline-workload.md), zodat gebruikers e-mail in de cloud kunnen gebruiken.
 - Als u sterk gereglementeerde digitale activa niet onmiddellijk in de cloud wilt opslaan, kunt u [Microsoft Teams](teams-workload.md) en [SharePoint](sharepoint-online-onedrive-workload.md) voor uw gebruikers implementeren voorafgaand aan de fase **Informatiebescherming**.
 

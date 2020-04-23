@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ontdek enkele manieren waarop u de fasen van de basisinfrastructuur voor Microsoft 365 voor ondernemingen kunt implementeren.
-ms.openlocfilehash: 765bba743485c13c65cd6377abe01f80f2df4c23
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5eb4851a4c967baae268e04113b4e44023164db4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42811298"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638150"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-deployment-strategies"></a>Strategieën voor de implementatie van de basisinfrastructuur van Microsoft 365 voor Enterprise
 
@@ -90,7 +90,7 @@ Dit is een vereenvoudigde gebruikerservaring voor prototypen als voorbeeld:
 
 - In december moet ik mijn smartphone voor MFA gaan gebruiken. (Identiteit)
 - In maart wordt Windows 10 Enterprise geïnstalleerd op mijn Windows 8.1-desktop. (Windows 10 Enterprise)
-- In juni wordt Office 365 ProPlus geïnstalleerd, ter vervanging van Office 2013. (Office 365 ProPlus)
+- In juni wordt Microsoft 365-apps voor ondernemingen geïnstalleerd ter vervanging van Office 2013. Microsoft 365-apps voor ondernemingen
 - In september worden de apparaatimplementatie en het app- en apparaatbeleid toegepast. (Mobile device management)
 - In december wordt de Azure Information Protection-client geïnstalleerd en krijg ik training in het toepassen van labels op documenten. (Informatiebescherming)
 
@@ -100,7 +100,7 @@ Hieronder ziet u een vereenvoudigde ervaring voor de eindgebruiker als voorbeeld
 
 - In januari moet ik mijn smartphone voor MFA gaan gebruiken. (Identiteit)
 - In april wordt Windows 10 Enterprise geïnstalleerd op mijn Windows 8.1-desktop. (Windows 10 Enterprise)
-- In juli wordt Office 365 ProPlus geïnstalleerd, ter vervanging van Office 2013. (Office 365 ProPlus)
+- In juli wordt Microsoft 365-apps voor ondernemingen geïnstalleerd ter vervanging van Office 2013. Microsoft 365-apps voor ondernemingen
 - In oktober worden de apparaatimplementatie en het app- en apparaatbeleid toegepast. (Mobile device management)
 - In januari van het volgend jaar wordt de Azure Information Protection-client geïnstalleerd en krijg ik training in het toepassen van labels op documenten. (Informatiebescherming)
 
@@ -121,7 +121,7 @@ Dit is een vereenvoudigde gebruikerservaring voor prototypen als voorbeeld:
 
 - In december moet ik mijn smartphone voor MFA gaan gebruiken. (Identiteit)
 - In februari wordt Windows 10 Enterprise geïnstalleerd op mijn Windows 8.1-desktop. (Windows 10 Enterprise)
-- In april wordt Office 365 ProPlus geïnstalleerd, ter vervanging van Office 2013. (Office 365 ProPlus)
+- In april wordt Microsoft 365-apps voor ondernemingen geïnstalleerd ter vervanging van Office 2013. Microsoft 365-apps voor ondernemingen
 - In juni worden de apparaatimplementatie en het app- en apparaatbeleid toegepast. (Mobile device management)
 - In augustus wordt de Azure Information Protection-client geïnstalleerd en krijg ik training in het toepassen van labels op documenten. (Informatiebescherming)
 
@@ -131,7 +131,7 @@ Hieronder ziet u een vereenvoudigde ervaring voor de eindgebruiker als voorbeeld
 
 - In januari moet ik mijn smartphone voor MFA gaan gebruiken. (Identiteit)
 - In maart wordt Windows 10 Enterprise geïnstalleerd op mijn Windows 8.1-desktop. (Windows 10 Enterprise)
-- In mei wordt Office 365 ProPlus geïnstalleerd, ter vervanging van Office 2013. (Office 365 ProPlus)
+- In mei wordt Microsoft 365-apps voor ondernemingen geïnstalleerd ter vervanging van Office 2013. Microsoft 365-apps voor ondernemingen
 - In juli worden de apparaatimplementatie en het app- en apparaatbeleid toegepast. (Mobile device management)
 - In september wordt de Azure Information Protection-client geïnstalleerd en krijg ik training in het toepassen van labels op documenten. (Informatiebescherming)
 
@@ -159,7 +159,7 @@ Dit is een vereenvoudigde gebruikerservaring voor prototypen als voorbeeld:
 
 - In december moet ik mijn smartphone voor MFA gaan gebruiken. (Identiteit)
 - In januari wordt Windows 10 Enterprise geïnstalleerd op mijn Windows 8.1-desktop. (Windows 10 Enterprise)
-- In februari wordt Office 365 ProPlus geïnstalleerd, ter vervanging van Office 2013. (Office 365 ProPlus)
+- In februari wordt Microsoft 365-apps voor ondernemingen geïnstalleerd ter vervanging van Office 2013. Microsoft 365-apps voor ondernemingen
 - In maart worden de apparaatimplementatie en het app- en apparaatbeleid toegepast. (Mobile device management)
 - In april wordt de Azure Information Protection-client geïnstalleerd en krijg ik training in het toepassen van labels op documenten. (Informatiebescherming)
 
@@ -169,7 +169,7 @@ Hieronder ziet u een vereenvoudigde ervaring voor de eindgebruiker als voorbeeld
 
 - In januari moet ik mijn smartphone voor MFA gaan gebruiken. (Identiteit)
 - In februari wordt Windows 10 Enterprise geïnstalleerd op mijn Windows 8.1-desktop. (Windows 10 Enterprise)
-- In maart wordt Office 365 ProPlus geïnstalleerd, ter vervanging van Office 2013. (Office 365 ProPlus)
+- In maart wordt Microsoft 365-apps voor ondernemingen geïnstalleerd ter vervanging van Office 2013. Microsoft 365-apps voor ondernemingen
 - In april worden de apparaatimplementatie en het app- en apparaatbeleid toegepast. (Mobile device management)
 - In mei wordt de Azure Information Protection-client geïnstalleerd en krijg ik training in het toepassen van labels op documenten. (Informatiebescherming)
 
@@ -187,7 +187,7 @@ De IT-afdeling configureert de infrastructuur voor fase 2-6 en rolt vervolgens u
 
 - MFA en andere identiteitsfuncties (Identiteit)
 - Windows 10 Enterprise op Windows-apparaten (Windows 10 Enterprise)
-- Office 365 ProPlus voor de Office-suite (Office 365 ProPlus)
+- Microsoft 365-apps voor ondernemingen voor de Office-suite (Microsoft 365-apps voor ondernemingen)
 - App- en apparaatinstellingen (Mobile Device Management)
 - Azure Information Protection-client geïnstalleerd en training over het toepassen van labels op documenten (informatiebeveiliging)
 

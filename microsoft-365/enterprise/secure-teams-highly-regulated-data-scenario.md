@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Maak een beveiligd team om de meest waardevolle en gevoeligste bestanden op te slaan.
-ms.openlocfilehash: aeb3662d6c8a21cbd56d983515913750fd5259f1
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 95c0fc4177f2a16fc79dd0833809f4405e8cdda9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951968"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631391"
 ---
 # <a name="teams-for-highly-regulated-data"></a>Teams voor sterk gereglementeerde gegevens
 
-Dit artikel bevat aanbevelingen en stappen voor het configureren van een privéteam in Microsoft Teams waarmee alleen toegang wordt verleend tot Teams-functies, zoals chats, vergaderingen en bestanden, aan leden en eigenaren van de Office 365-groep voor het team. 
+Dit artikel bevat aanbevelingen en stappen voor het configureren van een privéteam in Microsoft Teams waarmee alleen toegang wordt verleend tot Teams-functies, zoals chats, vergaderingen en bestanden, aan leden en eigenaren van de Microsoft 365-groep voor het team. 
 
-Naast de privétoegang op basis van de Office 365-groep, wordt in dit artikel beschreven hoe u de onderliggende SharePoint-privéteamsite configureert die u kunt openen vanuit de sectie **Bestanden** van een teamkanaal, voor de extra beveiliging die nodig is voor het opslaan van sterk gereglementeerde gegevens. Op deze SharePoint-teamsite kunt u bestanden, pagina's, een gedeelde agenda, taken, een notitieblok en lijsten opslaan en hieraan samenwerken.
+Naast de privétoegang op basis van de Microsoft 365-groep, wordt in dit artikel beschreven hoe u de onderliggende SharePoint-privéteamsite configureert die u kunt openen vanuit de sectie **Bestanden** van een teamkanaal, voor de extra beveiliging die nodig is voor het opslaan van sterk gereglementeerde gegevens. Op deze SharePoint-teamsite kunt u bestanden, pagina's, een gedeelde agenda, taken, een notitieblok en lijsten opslaan en hieraan samenwerken.
 
 >[!Note]
 > Een vergelijkbaar scenario waarin SharePoint wordt gebruikt, vindt u [hier](teams-sharepoint-online-sites-highly-regulated-data.md).
@@ -34,13 +34,13 @@ Naast de privétoegang op basis van de Office 365-groep, wordt in dit artikel be
 
 De elementen van de configuratie van een team voor sterk gereglementeerde gegevens zijn:
 
-- Een privéteam met een bijbehorende Office 365-groep met gebruikersaccounts voor eigenaren en leden.
+- Een privéteam met een bijbehorende Microsoft 365-groep met gebruikersaccounts voor eigenaren en leden.
 - Extra beveiliging voor de onderliggende SharePoint-site voor het team waarmee:
   - Wordt voorkomen dat leden van de site toegang verlenen aan anderen.
   - Wordt voorkomen dat niet-leden van de site toegang tot de site vragen.
-- Een Office 365-retentielabel voor de onderliggende SharePoint-site dat automatisch wordt toegepast op nieuwe bestanden op de site als standaardmethode voor het definiëren van bewaarbeleid.
+- Een retentielabel voor de onderliggende SharePoint-site dat automatisch wordt toegepast op nieuwe bestanden op de site als standaardmethode voor het definiëren van bewaarbeleid.
 - Een beleid voor preventie van gegevensverlies (DLP) waarbij het retentielabel wordt gebruikt en gebruikers de bestanden niet kunnen delen of buiten de organisatie kunnen verzenden.
-- Een Office 365-gevoeligheidslabel of een sublabel van een sterk gereglementeerd label waarvoor versleuteling is ingeschakeld en machtigingen voor Medeauteurs zijn ingesteld voor de Office 365-groep van het team. Gebruikers passen het label of sublabel toe op bestanden die zijn opgeslagen in de sectie **Bestanden** van het team met de optie **Gevoeligheid** op de menubalk in Word, Excel en PowerPoint.
+- Een gevoeligheidslabel of een sublabel van een sterk gereglementeerd label waarvoor versleuteling is ingeschakeld en machtigingen voor Medeauteurs zijn ingesteld voor de Microsoft 365-groep van het team. Gebruikers passen het label of sublabel toe op bestanden die zijn opgeslagen in de sectie **Bestanden** van het team met de optie **Gevoeligheid** op de menubalk in Word, Excel en PowerPoint.
 
 Hier ziet u de resulterende configuratie met een gevoeligheidslabel.
 
@@ -52,7 +52,7 @@ Bekijk deze korte video voor een kort overzicht.
 
 <a name="poster"></a>Zie de [Poster voor Teams voor sterk gereglementeerde gegevens](../media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf) voor een overzicht van één pagina van dit scenario.
 
-[![Teams voor poster voor sterk gereglementeerde gegevens](../media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](../media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
+[![Poster voor teams voor sterk gereglementeerde gegevens](../media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](../media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
 
 U kunt deze poster ook downloaden in [PDF-](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf) of [PowerPoint-](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/secure-teams-highly-regulated-data-scenario/Teams-Highly-Regulated-Data-Poster.pptx) indeling en deze afdrukken op papier met formaat Letter, Legal of Tabloid (27,9 x 43,2 cm).
 
@@ -76,7 +76,7 @@ Volg [deze instructies](https://support.office.com/article/create-a-team-from-sc
 
 Wanneer u een privéteam maakt, zijn dit de standaardmachtigingen:
 
-- De Office 365-groep voor het team (de teamgroep) heeft groepseigenaren en groepsleden
+- De Microsoft 365-groep voor het team (de teamgroep) heeft groepseigenaren en groepsleden
 - Voor de onderliggende SharePoint-site voor het team (de teamsite):
   - De beheerders van de siteverzameling zijn geconfigureerd als de eigenaren van de teamgroep
   - Voor de teamsite: 
@@ -135,7 +135,7 @@ Dit is de resulterende configuratie tot nu toe.
 
 Een beveiligd team heeft, in tegenstelling tot een gevoeligheidslabel voor sterk gereglementeerde gegevens die iedereen op een bestand kan toepassen, een eigen label of sublabel nodig, zodat toegewezen bestanden:
 
-- Zijn versleuteld en de versleuteling wordt meeverplaatst met het bestand.
+- Versleuteld zijn en dat de versleuteling wordt meeverplaatst met het bestand.
 - Aangepaste machtigingen bevatten, zodat alleen leden van de teamgroep ze kunnen openen.
 
 Om dit extra beveiligingsniveau te halen voor bestanden die zijn opgeslagen op de teamsite, moet u een nieuw gevoeligheidslabel configureren dat een afzonderlijk label is of een sublabel van het algemene label voor sterk gereglementeerde bestanden. Alleen leden van de teamgroep zien dit in hun lijst met labels.
@@ -145,7 +145,7 @@ Gebruik een gevoeligheidslabel wanneer u een klein aantal labels nodig hebt voor
 [Gebruik deze instructies](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels) om een afzonderlijk label of sublabel met de volgende instellingen te configureren:
 
 - De naam van het label bevat de naam van het team
-- Versleuteling is ingeschakeld
+- Versleuteling is ingeschakeld.
 - De sitegroep heeft machtigingen voor Medeauteurs
 
 Hier ziet u de resulterende configuratie met het nieuwe label.

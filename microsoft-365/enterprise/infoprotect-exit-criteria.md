@@ -1,5 +1,5 @@
 ---
-title: Uitgangscriteria voor de infrastructuur voor gegevensbeveiliging
+title: Uitgangscriteria voor de infrastructuur voor gegevensbescherming
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,19 +14,19 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Bekijk de criteria voor op gegevensbeveiliging gebaseerde services en infrastructuur om ervoor te zorgen dat uw configuratie voldoet aan de vereisten van Microsoft 365 Enterprise.
-ms.openlocfilehash: 28eff02ea870dcfca7e2e32580ed6a3a9e8a9484
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Bekijk de criteria voor op gegevensbescherming gebaseerde services en infrastructuur om ervoor te zorgen dat uw configuratie voldoet aan de vereisten van Microsoft 365 Enterprise.
+ms.openlocfilehash: c0b4ff6a0d289b8a8c63255d817ea455df00bf13
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42806618"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631631"
 ---
-# <a name="information-protection-infrastructure-exit-criteria"></a>Uitgangscriteria voor de infrastructuur voor gegevensbeveiliging
+# <a name="information-protection-infrastructure-exit-criteria"></a>Uitgangscriteria voor de infrastructuur voor gegevensbescherming
 
 ![Fase 6: gegevensbescherming](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
-Zorg ervoor dat de op gegevensbeveiliging gebaseerde infrastructuur aan de volgende vereiste criteria voldoet en dat u de optionele criteria hebt overwogen.
+Zorg ervoor dat de op gegevensbescherming gebaseerde infrastructuur aan de volgende vereiste criteria voldoet en dat u de optionele criteria hebt overwogen.
 
 <a name="crit-infoprotect-step1"></a>
 ## <a name="required-security-and-information-protection-levels-for-your-organization-are-defined"></a>Vereist: de beveiligings- en gegevensbeschermingsniveaus voor uw organisatie zijn gedefinieerd
@@ -44,7 +44,7 @@ Via [Stap 1](infoprotect-define-sec-infoprotect-levels.md) kunt u zo nodig aan d
 <a name="crit-infoprotect-step3"></a>
 ## <a name="required-increased-security-for-microsoft-365-is-configured"></a>Vereist: verbeterde beveiliging voor Microsoft 365 is geconfigureerd
 
-U hebt de volgende instellingen voor [Office 365 verhoogde beveiliging](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security) geconfigureerd:
+U hebt de volgende instellingen voor [Microsoft 365 verhoogde beveiliging](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security) geconfigureerd:
 
 - Beleid voor bedreigingsbeheer in het Microsoft 365-beveiligingscentrum
 - Aanvullende, tenant-brede Exchange Online-instellingen
@@ -82,11 +82,11 @@ Uw Windows 10 Enterprise-apparaten hebben een Intune-beleid geïmplementeerd en 
 Via [Stap 4](infoprotect-deploy-windows-information-protection.md) kunt u zo nodig aan deze vereisten voldoen. 
 
 <a name="crit-infoprotect-step5"></a>
-## <a name="optional-office-365-data-loss-prevention-dlp-is-deployed"></a>Optioneel: Office 365-preventie van gegevensverlies (DLP) wordt geïmplementeerd
+## <a name="optional-data-loss-prevention-dlp-is-deployed"></a>Optioneel: Preventie van gegevensverlies (DLP) wordt geïmplementeerd
 
 U hebt de set DLP-beleidsregels, met locaties en regels met voorwaarden en acties, die uw organisatie nodig heeft om klant- en andere soorten privégegevens te beschermen en te voldoen aan branche- en regionale voorschriften en vereisten, geanalyseerd, getest en vervolgens uitgerold.
 
-Uw medewerkers voor compliance en beveiliging van gegevens gebruiken het Office 365-beveiligings- en compliance-dashboard om DLP-incidenten te bewaken.
+Uw medewerkers voor compliance en beveiliging van gegevens gebruiken het Beveiligings- en compliance-dashboard om DLP-incidenten te bewaken.
 
 Via [Stap 5](infoprotect-data-loss-prevention.md) kunt u zo nodig aan deze vereisten voldoen. 
 
@@ -106,14 +106,14 @@ U hebt voor uw organisatie de volgende e-mailversleuteling geconfigureerd:
 Via [Stap 6](infoprotect-email-encryption.md) kunt u zo nodig aan deze vereisten voldoen.
 
 <a name="crit-infoprotect-step7"></a>
-## <a name="optional-configure-privileged-access-management-in-office-365"></a>Optioneel: configureer bevoegd toegangsbeheer in Office 365
+## <a name="optional-configure-privileged-access-management-in-office-365"></a>Optioneel: configureer Privileged Access Management in Office 365
 
-U hebt de informatie in [Privileged Access Management (bevoegd toegangsbeheer) configureren in Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) gebruikt om Privileged Access Management in te schakelen en een of meer beleidsregels voor geprivilegieerde toegang in uw organisatie te maken. U hebt deze beleidsregels geconfigureerd en just-in-time-toegang is ingeschakeld voor toegang tot gevoelige gegevens of kritieke configuratie-instellingen.
+U hebt de informatie in het onderwerp [Privileged Access Management configureren in Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) gebruikt om Privileged Access Management in te schakelen en een of meer beleidsregels voor geprivilegieerde toegang in uw organisatie te maken. U hebt deze beleidsregels geconfigureerd en just-in-time-toegang is ingeschakeld voor toegang tot gevoelige gegevens of kritieke configuratie-instellingen.
 
 Via [Stap 7](infoprotect-configure-privileged-access-management.md) kunt u zo nodig aan deze vereisten voldoen. 
 
 ## <a name="results-and-next-steps"></a>Resultaten en volgende stappen
 
-De infrastructuur voor informatiebescherming voor Microsoft 365 Enterprise gebruikt gedefinieerde beveiligingsniveaus, verhoogde beveiliging voor Office 365, classificatie met gevoelige gegevenstypen en labels, Windows-gegevensbescherming, preventie van gegevensverlies, e-mail versleuteling en beleid voor geprivilegieerde toegang.
+De infrastructuur voor gegevensbescherming voor Microsoft 365 Enterprise gebruikt gedefinieerde beveiligingsniveaus, verhoogde beveiliging voor Office 365, classificatie met typen gevoelige gegevens en bijbehorende labels, Windows-gegevensbescherming, preventie van gegevensverlies, e-mailversleuteling en beleid voor uitgebreide toegang.
 
 Als u de volledige implementatie van Microsoft 365 Enterprise hebt gevolgd, bent u nu klaar om uw [workloads en scenario's](deploy-workloads.md) te laten profiteren van alle functies en configuraties van uw basisinfrastructuur.

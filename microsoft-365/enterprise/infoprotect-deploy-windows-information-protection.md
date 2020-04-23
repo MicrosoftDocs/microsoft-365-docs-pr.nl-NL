@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Informatie en implementatie van Windows-gegevensbescherming in Microsoft 365.
-ms.openlocfilehash: 655ff33c3fd1bba822937618d801db76b7881977
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 66c9e10772edb0782096ba120858e895684255b2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42809151"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631643"
 ---
 # <a name="step-4-configure-windows-information-protection"></a>Stap 4: Windows-gegevensbescherming configureren
 
@@ -51,6 +51,6 @@ Zie de [afsluitcriteria](infoprotect-exit-criteria.md#crit-infoprotect-step4) vo
 
 |||
 |:-------|:-----|
-|![Stap 5](../media/stepnumbers/Step5.png)|[Preventie van gegevensverlies voor Office 365 configureren](infoprotect-data-loss-prevention.md)|
+|![Stap 5](../media/stepnumbers/Step5.png)|[Preventie van gegevensverlies configureren](infoprotect-data-loss-prevention.md)|
 
 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: U moet de wachtwoorden binnen uw organisatie sterk en beheerbaar maken.
-ms.openlocfilehash: c0ad9e2ad86cb803484e3d350fe112580610f509
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b4eb1861eb8d1c483972cf6a7c22a339dc1b0b36
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42809861"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637046"
 ---
 # <a name="step-2-secure-your-passwords"></a>Stap 2: Wachtwoorden beveiligen
 
@@ -78,11 +78,11 @@ Zie [instructies voor het configureren naadloze eenmalige aanmelding via Azure A
 |![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Testlabrichtlijn: naadloze eenmalige aanmelding via Azure AD](single-sign-on-m365-ent-test-environment.md) |
 |||
 
-Als tussentijds controlepunt kunt u de [afsluitcriteria](identity-exit-criteria.md#crit-identity-sso) voor deze sectie bekijken.
+Als tussentijds controlepunt kunt u de [afsluitcriteria](identity-exit-criteria.md#crit-identity-sso) voor dit gedeelte bekijken.
 
 
 <a name="identity-custom-sign-in"></a>
-## <a name="customize-the-office-365-sign-in-page"></a>De aanmeldingspagina voor Office 365 aanpassen
+## <a name="customize-the-sign-in-page"></a>De aanmeldingspagina aanpassen
 
 *Deze stap is optioneel en geldt voor zowel E3- als E5-versies van Microsoft 365 Enterprise*
 
@@ -90,7 +90,7 @@ Met deze stap helpt u gebruikers de aanmeldingspagina van uw organisatie te herk
 
 Met Microsoft 365 Enterprise kunt u het uiterlijk van de aanmeldings- en toegangspagina’s aanpassen, zodat ze uw bedrijfslogo, kleurenschema’s en aangepaste gebruikersgegevens bevatten. 
 
-Zie [Huisstijl van uw bedrijf toevoegen aan de aanmeldingspagina van Office 365](https://docs.microsoft.com/office365/admin/setup/customize-sign-in-page) voor meer informatie.
+Zie [Huisstijl van uw bedrijf toevoegen aan de aanmeldingspagina van Microsoft 365](https://docs.microsoft.com/office365/admin/setup/customize-sign-in-page) voor meer informatie.
 
 Zie [Huisstijl van uw bedrijf toevoegen aan de aanmeldings- en toegangspagina’s](https://aka.ms/aadpaddbranding) voor configuratie-instructies.
 

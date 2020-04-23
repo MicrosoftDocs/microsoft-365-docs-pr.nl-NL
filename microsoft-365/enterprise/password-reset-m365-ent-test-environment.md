@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Samenvatting: configureer en test het opnieuw instellen van het wachtwoord voor uw Microsoft 365-testomgeving.'
-ms.openlocfilehash: c8d5ed0c7feac98afd3230a305f4ab1f850ca7f8
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 96a8b03ca978ac2b2174742c0208444d853ba7c9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42805679"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632885"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Opnieuw instellen van het wachtwoord voor uw Microsoft 365-testomgeving
 
@@ -33,9 +33,9 @@ Met de Azure Active Directory (Azure AD) selfservice voor het opnieuw instellen 
 
 In dit artikel wordt beschreven hoe u wachtwoordinstellingen in uw Microsoft 365-testomgeving in drie fasen kunt configureren en testen:
 
-1.  Maak de Microsoft 365 Enterprise-testomgeving.
+1.    Maak de Microsoft 365 Enterprise-testomgeving.
 2.  Wachtwoord terugschrijven inschakelen.
-3.  Configureer en test het opnieuw instellen van het wachtwoord voor het gebruikersaccount 3.
+3.    Configureer en test het opnieuw instellen van het wachtwoord voor het gebruikersaccount 3.
     
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
@@ -51,8 +51,8 @@ Volg eerst de instructies in [wachtwoord-hash-synchronisatie](password-hash-sync
 Deze configuratie bestaat uit: 
   
 - Een betaald of proefabonnement op Microsoft 365 E5 of Office 365 E5.
-- Een vereenvoudigde organisatie die via intranet is verbonden met internet, bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. 
-- Azure AD Connect wordt uitgevoerd op APP1 om het AD DS-domein TESTLAB periodiek te synchroniseren met de Azure AD-tenant van uw Microsoft 365- of Office 365-abonnement.
+- Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. 
+- Azure AD Connect draait op APP1 om het TESTLAD AD DS-domein (Active Directory Domain Services) te synchroniseren met de Azure AD-tenant van uw Microsoft 365-abonnement.
 
 ## <a name="phase-2-enable-password-writeback"></a>Fase 2: wachtwoord terugschrijven inschakelen.
 

@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Overzicht: Wachtwoord terugschrijven configureren voor uw Microsoft 365-testomgeving.'
-ms.openlocfilehash: 8ff6c8c7d2eae735a2572bae1c437502602cfd0b
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: cc71b581730001d8dc021b5074e300fed636e3d9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42810923"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632873"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Wachtwoord terugschrijven voor uw Microsoft 365-testomgeving
 
@@ -35,8 +35,8 @@ In dit artikel wordt beschreven hoe u uw Microsoft 365-testomgeving kunt configu
 
 Er zijn twee fasen om dit in te stellen:
 
-1.  Maak de Microsoft 365-testomgeving voor uw gesimuleerde onderneming aan met wachtwoord-hash-synchronisatie.
-2.  Schakel Wachtwoord terugschrijven in voor het domein TESTLAB AD DS.
+1.    Maak de Microsoft 365-testomgeving voor uw gesimuleerde onderneming aan met wachtwoord-hash-synchronisatie.
+2.    Schakel Wachtwoord terugschrijven in voor het domein TESTLAB AD DS.
     
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
@@ -52,8 +52,8 @@ Volg eerst de instructies in [wachtwoord-hash-synchronisatie](password-hash-sync
 Deze configuratie bestaat uit: 
   
 - Een betaald of proefabonnement op Microsoft 365 E5 of Office 365 E5.
-- Een vereenvoudigde organisatie die via intranet is verbonden met internet, bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. 
-- Azure AD Connect wordt uitgevoerd op APP1 om het AD DS-domein TESTLAB te synchroniseren met de Azure AD-tenant van uw Microsoft 365- of Office 365-abonnement.
+- Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. 
+- Azure AD Connect wordt uitgevoerd op APP1 om het AD DS-domein TESTLAB te synchroniseren met de Azure AD-tenant van uw Microsoft 365-abonnement.
 
 ## <a name="phase-2-enable-password-writeback-for-the-testlab-ad-ds-domain"></a>Fase 2: schakel Wachtwoord terugschrijven in voor het domein TESTLAB AD DS.
 
@@ -129,8 +129,8 @@ Dit is de resulterende configuratie:
 Deze configuratie bestaat uit:
 
 - Een betaald of proefabonnement op Microsoft 365 E5 of Office 365 E5 met het DNS-domein TESTLAB.\<uw domeinnaam> geregistreerd.
-- Een vereenvoudigde organisatie die via intranet is verbonden met internet, bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. 
-- Azure AD Connect draait op APP1 om de lijst van accounts en groepen van de Azure AD-tenant van uw Microsoft 365- of Office 365-abonnement te synchroniseren met het TESTLAB AD DS-domein. 
+- Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. 
+- Azure AD Connect draait op APP1 om de lijst van accounts en groepen van de Azure AD-tenant van uw Microsoft 365-abonnement te synchroniseren met het TESTLAB AD DS-domein. 
 - Wachtwoord terugschrijven is ingeschakeld, zodat gebruikers hun wachtwoorden kunnen wijzigen via Azure AD, zonder te zijn verbonden met het vereenvoudigde intranet.
 
 Zie de stap [Vereenvoudig het updaten van wachtwoorden](identity-add-user-accounts.md#identity-pw-writeback) in de Identiteitsfase voor informatie en koppelingen om Wachtwoord terugschrijven in productie te configureren.

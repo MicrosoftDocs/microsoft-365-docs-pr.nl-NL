@@ -17,12 +17,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Gebruik de volgende testlabrichtlijnen voor het instellen van een demonstratie, testen van concept of ontwikkelomgevingen voor Microsoft 365 Enterprise.
-ms.openlocfilehash: 1ea41cd3553c70b2a8bb99e08da43fd45b1aa558
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 582068e84d82bfa681d1e1e64234698544ce3b9d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153914"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631595"
 ---
 # <a name="microsoft-365-for-enterprise-test-lab-guides"></a>Microsoft 365 Enterprise-testlabrichtlijnen
 
@@ -76,7 +76,7 @@ Zie voor meer informatie over identiteiten en functionaliteit:
 
 - [Wereldwijde beheerdersaccounts beveiligen](protect-global-administrator-accounts-microsoft-365-test-environment.md)
  
-   Vergrendel uw wereldwijde beheerdersaccounts met beleid voor voorwaardelijke toegang.
+   Vergrendel uw wereldwijde beheerdersaccounts met voorwaardelijke toegangsbeleid.
 
 - [Wachtwoord write-back](password-writeback-m365-ent-test-environment.md)
 
@@ -96,7 +96,7 @@ Zie voor meer informatie over identiteiten en functionaliteit:
 
 - [Identiteit en apparaattoegang](identity-device-access-m365-test-environment.md)
 
-   Maak een omgeving waar u de aanbevolen configuraties voor identiteit en apparaattoegang en het beleid voor voorwaardelijke toegang kunt testen.
+   Een omgeving maken voor het testen van aanbevolen identiteits- en toegangsconfiguraties en regels voor voorwaardelijke toegang.
 
 
 ## <a name="mobile-device-management"></a>Mobile Device Management
@@ -116,16 +116,16 @@ Zie voor meer informatie over de functies en functionaliteiten van Mobile Device
 
 Zie voor meer informatie over beveiligingsfuncties en -functionaliteiten:
 
-- [Verbeterde Office 365-beveiliging](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md)
+- [Verbeterde Microsoft 365-beveiliging](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md)
     
-   Instellingen configureren voor verbeterde Office 365-beveiliging en ingebouwde beveiligingshulpprogramma's onderzoeken.
+   Instellingen configureren voor verbeterde Microsoft 365-beveiliging en ingebouwde beveiligingshulpprogramma's onderzoeken.
   
 - [Gegevensclassificatie](data-classification-microsoft-365-enterprise-dev-test-environment.md)
     
-   Office 365-labels op een document op een SharePoint Online-team site configureren en toepassen.
+   Labels op een document op een SharePoint Online-team site configureren en toepassen.
     
 - [Privileged Access Management](privileged-access-microsoft-365-enterprise-dev-test-environment.md)
     
-   Privileged Access Management configureren voor just-in-time-toegang tot verhoogde en bevoegde taken in uw Office 365-organisatie.
+   Privileged Access Management configureren voor just-in-time-toegang tot verhoogde en bevoegde taken in uw organisatie.
 
 

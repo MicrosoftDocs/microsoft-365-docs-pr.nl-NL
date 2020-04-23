@@ -18,18 +18,18 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Overzicht: Wachtwoord-hash-synchronisatie en -aanmelding configureren en demonstreren voor uw Microsoft 365-testomgeving.'
-ms.openlocfilehash: a0a498aea84bacb61de257150801328834724981
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 8c0f9b45fc4a57ad5ac50ea2a3340d6e05769b96
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42806820"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632897"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Wachtwoord-hash-synchronisatie voor uw Microsoft 365-testomgeving
 
 *Deze testlabrichtlijnen kunnen worden gebruikt voor zowel Microsoft 365 Enterprise- als Office 365 Enterprise-testomgevingen.*
 
-Veel organisaties maken gebruik van Azure AD Connect en wachtwoord-hash-synchronisatie om de accounts in hun AD DS-forest (Active Directory Domain Services) op locatie te synchroniseren met de accounts in de Azure AD-tenant van hun Microsoft 365- of Office 365-abonnement. In dit artikel wordt beschreven hoe u uw Microsoft 365-testomgeving kunt configureren voor wachtwoord-hash-synchronisatie, met de volgende configuratie als resultaat:
+Veel organisaties maken gebruik van Azure AD Connect en wachtwoord-hash-synchronisatie om de accounts in hun AD DS-forest (Active Directory Domain Services) op locatie te synchroniseren met de accounts in de Azure AD-tenant van hun Microsoft 365-abonnement. In dit artikel wordt beschreven hoe u uw Microsoft 365-testomgeving kunt configureren voor wachtwoord-hash-synchronisatie, met de volgende configuratie als resultaat:
   
 ![De gesimuleerde onderneming in een testomgeving met wachtwoord-hash-synchronisatie](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
   
@@ -72,7 +72,7 @@ Deze configuratie bestaat uit:
 U ziet hoe de testlab.\<uw openbare domeinnaam > nu:
 
 - Ondersteund wordt door openbare DNS-records.
-- Geregistreerd is in de Microsoft 365- of Office 365-abonnementen.
+- Geregistreerd is in de Microsoft 365-abonnementen.
 - Het AD DS-domein op uw gesimuleerde intranet is.
      
 ## <a name="phase-3-install-azure-ad-connect-on-app1"></a>Fase 3: Azure AD Connect op APP1 installeren
@@ -134,7 +134,7 @@ Dit is de resulterende configuratie.
 Deze configuratie bestaat uit: 
   
 - Een betaald of proefabonnement op Microsoft 365 E5 of Office 365 E5 met het DNS-domein TESTLAB.\<uw domeinnaam> geregistreerd.
-- Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. Azure AD Connect wordt uitgevoerd op APP1 om het TESTLAB AD DS-domein periodiek te synchroniseren met de Azure AD-tenant van uw Microsoft 365- of Office 365-abonnement.
+- Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. Azure AD Connect wordt uitgevoerd op APP1 om het AD DS-domein TESTLAB te synchroniseren met de Azure AD-tenant van uw Microsoft 365-abonnement.
 - Het Gebruiker1-account in het TESTLAB AD DS-domein is gesynchroniseerd met de Azure AD-tenant.
 
 ## <a name="next-step"></a>Volgende stap
