@@ -191,20 +191,18 @@
               href: mtp/feedback.md
             - name: Tickets beheren via ServiceNow
               href: ./mtp/tickets.md
-    - name: Office 365-beveiliging
+    - name: Microsoft 365-beveiliging
       items:
         - name: Aan de slag
           items:
-            - name: Roadmap voor Office 365-beveiliging
+            - name: Roadmap voor beveiliging
               href: ./office-365-security/security-roadmap.md
-            - name: Uw Office 365-tenant configureren voor betere beveiliging
+            - name: Uw tenant configureren voor betere beveiliging
               href: ./office-365-security/tenant-wide-setup-for-increased-security.md
             - name: Nieuw Microsoft 365-beveiligingscentrum
               href: ./mtp/overview-security-center.md
-            - name: Machtigingen in het Office 365-beveiligings- en compliancecentrum
+            - name: Rapporten in het beveiligings- en compliancecentrum
               href: ./office-365-security/permissions-in-the-security-and-compliance-center.md
-            - name: Machtigingen in het Microsoft 365-compliancecentrum en het Microsoft 365-beveiligingscentrum
-              href: ./office-365-security/permissions-microsoft-365-compliance-security.md
             - name: Gebruikers toegang tot het Beveiligingscentrum geven
               href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
         - name: Beveiligen tegen bedreigingen
@@ -281,7 +279,7 @@
                   href: ./office-365-security/zero-hour-auto-purge.md
                 - name: Veiligheidstips in e-mailberichten
                   href: ./office-365-security/safety-tips-in-office-365.md
-                - name: De delist-portal gebruiken om uzelf uit de lijst met geblokkeerde afzenders van Office 365 te verwijderen
+                - name: De delist-portal gebruiken om uzelf uit de lijst met geblokkeerde afzenders te verwijderen
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
             - name: Bescherming tegen phishing
               href: ./office-365-security/anti-phishing-protection.md
@@ -320,9 +318,9 @@
             - name: E-mailverificatie
               href: ./office-365-security/email-validation-and-authentication.md
               items:
-                - name: Hoe Office 365 gebruikmaakt van SPF om adresvervalsing te voorkomen
+                - name: Hoe Microsoft 365 gebruikmaakt van SPF om adresvervalsing te voorkomen
                   href: ./office-365-security/how-office-365-uses-spf-to-prevent-spoofing.md
-                - name: SPF in Office 365 instellen om adresvervalsing te helpen voorkomen
+                - name: SPF instellen om adresvervalsing te helpen voorkomen
                   href: ./office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md
                 - name: DKIM gebruiken om uitgaande e-mail te valideren
                   href: ./office-365-security/use-dkim-to-validate-outbound-email.md
@@ -600,7 +598,7 @@
                   href: ./office-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
         - name: Office 365 Enterprise
           href: 'https://docs.microsoft.com/office-365-security/Enterprise'
-        - name: Office 365 voor Bedrijven
+        - name: Microsoft 365 voor bedrijven
           href: 'https://docs.microsoft.com/microsoft-365/admin/admin-home'
     - name: Microsoft 365-compliance
       href: 'https://docs.microsoft.com/microsoft-365/compliance/'

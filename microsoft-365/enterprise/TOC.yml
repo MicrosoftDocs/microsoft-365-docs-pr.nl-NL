@@ -19,7 +19,7 @@
               href: networking-avoid-network-hairpins.md
             - name: Stap 4 - Omleiden van verkeer configureren
               href: networking-configure-proxies-firewalls.md
-            - name: Stap 5 - Prestaties van client en Office 365-service optimaliseren
+            - name: Stap 5 - Prestaties van client en service optimaliseren
               href: networking-optimize-tcp-performance.md
             - name: Afsluitcriteria voor netwerken
               href: networking-exit-criteria.md
@@ -55,10 +55,10 @@
               href: windows10-enable-security-features.md
             - name: Afsluitcriteria voor Windows 10 Enterprise
               href: windows10-exit-criteria.md
-        - name: Fase 4 - Office 365 ProPlus
+        - name: Fase 4 - Microsoft 365-apps voor ondernemingen
           href: office365proplus-infrastructure.md
           items:
-            - name: Afsluitcriteria voor Office 365 ProPlus
+            - name: Afsluitcriteria voor Microsoft 365-apps voor ondernemingen
               href: office365proplus-exit-criteria.md
         - name: Fase 5 - Mobile Device Management
           href: mobility-infrastructure.md
@@ -76,7 +76,7 @@
               href: infoprotect-configure-increased-security-office-365.md
             - name: Stap 4 - Windows-gegevensbescherming configureren
               href: infoprotect-deploy-windows-information-protection.md
-            - name: Stap 5 - Preventie van gegevensverlies voor Office 365 configureren
+            - name: Stap 5 - Preventie van gegevensverlies configureren
               href: infoprotect-data-loss-prevention.md
             - name: Stap 6 - E-mailversleuteling configureren
               href: infoprotect-email-encryption.md
@@ -174,7 +174,7 @@
           href: contoso-identity.md
         - name: Windows 10 Enterprise
           href: contoso-win10.md
-        - name: Office 365 ProPlus
+        - name: Microsoft 365-apps voor ondernemingen
           href: contoso-o365pp.md
         - name: Mobile Device Management
           href: contoso-mdm.md

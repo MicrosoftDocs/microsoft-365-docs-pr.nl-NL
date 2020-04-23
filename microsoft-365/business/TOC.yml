@@ -1,10 +1,10 @@
-- name: Microsoft 365 Business
+- name: Microsoft 365 Business Premium
   items:
     - name: Microsoft 365
       href: index.yml
-    - name: Wat is Microsoft 365 Business?
+    - name: Wat is Microsoft 365 Business Premium?
       href: microsoft-365-business-overview.md
-    - name: Microsoft 365 Business downloaden
+    - name: Microsoft 365 Business Premium downloaden
       href: sign-up.md
     - name: Vereisten voor gegevensbescherming
       href: pre-requisites-for-data-protection.md
@@ -12,7 +12,7 @@
       items:
         - name: Overzicht van instelling
           href: set-up-overview.md
-        - name: Microsoft 365 Business instellen
+        - name: Microsoft 365 Business Premium instellen
           href: set-up.md
         - name: Windows 10-computers beveiligen
           href: secure-win-10-pcs.md
@@ -71,9 +71,9 @@
               href: validate-settings-on-windows-10-pcs.md
         - name: Instellingen voor app-beveiliging voor Windows 10-pc's
           href: protection-settings-for-windows-10-devices.md
-    - name: Migreren naar Microsoft 365 Business
+    - name: Migreren naar Microsoft 365 Business Premium
       items:
-        - name: Migreren van Office 365 Business Premium
+        - name: Migreren van Microsoft 365 Business Standard
           href: migrate-to-microsoft-365-business.md
         - name: Migreren van Office 365 E3
           href: migrate-from-e3.md
@@ -99,7 +99,7 @@
           href: autopilot-profile-settings.md
         - name: Apparaatstatussen
           href: device-states.md
-    - name: Veelgestelde vragen over Microsoft 365 Business
+    - name: Veelgestelde vragen over Microsoft 365 Business Premium
       href: support/microsoft-365-business-faqs.md
 - name: Office 365 Enterprise
   href: 'https://docs.microsoft.com/office365/enterprise'

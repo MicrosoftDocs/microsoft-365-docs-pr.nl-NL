@@ -4,7 +4,7 @@
   href: ../admin/admin-home.md
 - name: Uitproberen of kopen
   items:
-    - name: Registreren voor proefversie van Office 365
+    - name: Aanmelden voor de proefversie van Microsoft 365
       href: sign-up-for-office-365-trial.md
     - name: Microsoft 365 uitproberen of kopen
       href: try-or-buy-microsoft-365.md
@@ -64,8 +64,6 @@
       href: billing-and-payments/change-your-billing-addresses.md
     - name: Payment Services Directive 2 en Strong Customer Authentication
       href: billing-and-payments/psd2.md
-    - name: Belastinginformatie
-      href: billing-and-payments/tax-information.md
 - name: Factureringsaccounts
   items:
     - name: Factureringsaccounts beheren
