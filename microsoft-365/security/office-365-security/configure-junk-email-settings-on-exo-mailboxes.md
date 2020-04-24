@@ -1,5 +1,5 @@
 ---
-title: Instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken in Office 365
+title: Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -16,14 +16,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u de instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken. Veel van deze instellingen zijn beschikbaar voor gebruikers in de webversie van Outlook of Outlook.
-ms.openlocfilehash: 689cec3f6a8b12764d03c98d23a9eb7ab6ca8e5e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a18706c4bf63d9d96ba5e2f9bcbb803bddec36db
+ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638438"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43800065"
 ---
-# <a name="configure-junk-email-settings-on-exchange-online-mailboxes-in-office-365"></a>Instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken in Office 365
+# <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
 
 Organisatorische antispaminstellingen in Exchange Online worden beheerd door Exchange Online Protection (EOP). Zie [Antispambeleid in Office 365](anti-spam-protection.md) voor meer informatie.
 
@@ -48,6 +48,8 @@ Beheerders kunnen Exchange Online PowerShell gebruiken om de status van de regel
 - U moet machtigingen krijgen voordat u deze procedures uitvoeren. U hebt in het bijzonder de rol **E-mailgeadresseerden** nodig (die standaard is toegewezen aan de rolgroepen **Organisatiebeheer,** **Geadresseerden**en **Aangepaste geadresseerden)** of de rol **Gebruikersopties** (die standaard is toegewezen aan de rolgroepen **Organisatiebeheer** en **helpdesk).** Zie [Rolgroepen wijzigen in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups)als u gebruikers wilt toevoegen aan rolgroepen in Exchange Online. Houd er rekening mee dat een gebruiker met standaardmachtigingen dezelfde procedures kan uitvoeren in zijn eigen postvak, zolang hij toegang heeft [tot Exchange Online PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)
 
 - In standalone EOP-omgevingen waar EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de EOP-spamfilterbeoordeling te vertalen, zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. 
+
+- Veilige afzenders voor gedeelde postvakken worden niet gesynchroniseerd met Azure AD en EOP door het ontwerp.
 
 ## <a name="use-exchange-online-powershell-to-enable-or-disable-the-junk-email-rule-in-a-mailbox"></a>Exchange Online PowerShell gebruiken om de regel voor ongewenste e-mail in een postvak in te schakelen of uit te schakelen
 
@@ -181,3 +183,38 @@ Wanneer het filter voor ongewenste e-mail van Outlook is ingesteld op **Laag** o
 Het Outlook Junk Email Filter kan dus de safelist-verzameling van het postvak en de eigen spamclassificatie gebruiken om berichten naar de map Ongewenste e-mail te verplaatsen, zelfs als de regel voor ongewenste e-mail is uitgeschakeld in het postvak.
 
 Outlook en de webversie van Outlook ondersteunen beide de safelist-verzameling. De safelist-verzameling wordt opgeslagen in het postvak Exchange Online, zodat wijzigingen in de safelist-verzameling in Outlook worden weergegeven in de webversie van Outlook en vice versa.
+
+## <a name="limits-for-junk-email-settings"></a>Limieten voor instellingen voor ongewenste e-mail
+
+De safelist-verzameling (de lijst Met veilige afzenders, de lijst Met veilige geadresseerden en de lijst Met geblokkeerde afzenders) die is opgeslagen in het postvak van de gebruiker, wordt ook gesynchroniseerd met EOP. Met adreslijstsynchronisatie wordt de safelist-verzameling gesynchroniseerd met Azure AD.
+
+- De safelist verzameling in het postvak van de gebruiker heeft een limiet van 510 KB, die alle lijsten bevat, plus extra ongewenste e-mail filter instellingen. Als een gebruiker deze limiet overschrijdt, ontvangt deze gebruiker een Outlook-fout die er als volgt uitziet:
+
+  > Kan niet/kan niet toevoegen aan de ongewenste e-maillijsten van de server. U bent meer dan de toegestane grootte op de server. Het filter Ongewenste e-mail op de server wordt uitgeschakeld totdat uw ongewenste e-maillijsten zijn teruggebracht tot de grootte die door de server is toegestaan.
+
+  Zie [KB2669081](https://support.microsoft.com/help/2669081/outlook-error-indicates-that-you-are-over-the-junk-e-mail-list-limit)voor meer informatie over deze limiet en hoe u deze wijzigen.
+
+- De gesynchroniseerde safelist-verzameling in EOP heeft de volgende synchronisatielimieten:
+
+  - 1024 totale vermeldingen in de lijst Veilige afzenders, de lijst Veilige geadresseerden en externe contactpersonen als **E-mail van mijn contactpersonen vertrouwen** is ingeschakeld.
+  - 500 totale vermeldingen in de lijst Geblokkeerde afzenders en geblokkeerde domeinen.
+
+  Wanneer de 1024-toegangslimiet is bereikt, gebeuren de volgende dingen:
+  
+  - De lijst accepteert geen vermeldingen meer in PowerShell en outlook op het web, maar er wordt geen fout weergegeven.
+
+    Outlook-gebruikers kunnen meer dan 1024 vermeldingen blijven toevoegen totdat ze de Outlook-limiet van 510 KB hebben bereikt. Outlook kan deze extra vermeldingen gebruiken, zolang een EOP-filter het bericht niet blokkeert voordat het in het postvak wordt bezorgd (regels voor e-mailstroom, anti-spoofing, enz.).
+
+- Met adreslijstsynchronisatie worden de vermeldingen gesynchroniseerd met Azure AD in de volgende volgorde:
+
+  1. E-mailcontactpersonen als **E-mail vertrouwen van mijn contactpersonen** is ingeschakeld.
+  2. De lijst Met veilige afzenders en de lijst Met veilige geadresseerden worden gecombineerd, gededupliceerd en alfabetisch gesorteerd wanneer er een wijziging wordt aangebracht voor de eerste 1024-vermeldingen.
+
+  De eerste 1024 vermeldingen worden gebruikt en relevante informatie wordt gestempeld in de berichtkoppen.
+  
+  Vermeldingen ouder dan 1024 die niet zijn gesynchroniseerd met Azure AD, worden verwerkt door Outlook (niet outlook op het web) en er wordt geen informatie gestempeld in de berichtkoppen.
+
+Zoals u zien, vermindert het inschakelen van de **instelling Vertrouwenseis van mijn contactpersonen** het aantal veilige afzenders en veilige geadresseerden dat kan worden gesynchroniseerd. Als dit een probleem is, raden we aan om groepsbeleid te gebruiken om deze functie uit te schakelen:
+
+- Bestandsnaam: outlk16.opax
+- Beleidsinstelling: **E-mail van contactpersonen vertrouwen**
