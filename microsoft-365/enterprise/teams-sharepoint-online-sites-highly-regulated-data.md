@@ -16,12 +16,12 @@ ms.collection:
 - SPO_Content
 ms.custom: ''
 description: Maak een beveiligde SharePoint-teamsite om de meest waardevolle en gevoeligste bestanden op te slaan.
-ms.openlocfilehash: bc1a84fa7437d9b2979e10b352f8a422c457e8a0
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 97a01275d1d45cb02e66e88f82c95311bcb6fe70
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951980"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636709"
 ---
 # <a name="sharepoint-sites-for-highly-regulated-data"></a>SharePoint-sites voor sterk gereglementeerde gegevens
 
@@ -40,10 +40,10 @@ Een Microsoft 365 Enterprise-cloudscenario dat aan deze bedrijfsbehoefte voldoet
 
 - bestanden (documenten, diapresentaties, spreadsheets, enz.) opslaat op een SharePoint-teamsite.
 - Vergrendel de site om te voorkomen dat:
-  - gebruikers toegang hebben die geen lid zijn van de Office 365-groep voor de site.
+  - Toegang tot gebruikers die geen deel uitmaken van de Microsoft 365-groep voor de site.
   - leden van de site toegang verlenen aan anderen.
   - niet-leden van de site toegang verzoeken tot de site.
-- Configureer een Office 365-retentielabel voor uw SharePoint-sites als standaardmanier om te voorkomen dat gebruikers bestanden verzenden buiten het bedrijf.
+- Configureer een retentielabel voor uw SharePoint-sites als standaardmanier om te voorkomen dat gebruikers bestanden verzenden buiten het bedrijf.
 - Versleutel de meest gevoelige bestanden van de site met versleuteling die met het bestand wordt meeverplaatst.
 - Voeg machtigingen toe aan de meest gevoelige bestanden, zodat het openen van het bestand, zelfs als dat wordt gedeeld buiten de site, nog steeds geldige machtigingen vereist van een gebruikersaccount met toegang.
 
@@ -53,11 +53,11 @@ De volgende tabel zet de vereisten voor dit scenario uit in een functie van Micr
 |:-------|:-----|
 | **Vereiste** | **Microsoft 365 Enterprise feature** |
 | Bestanden opslaan | SharePoint-teamsites |
-| De site vergrendelen | Office 365-groeps- en SharePoint-sitemachtigingen |
-| De bestanden van een site een label geven | Office 365-retentielabels |
-| Gebruikers blokkeren wanneer zij bestanden buiten het bedrijf verzenden | Office 365-beleid voor preventie van gegevensverlies (DLP) |
-| Alle bestanden van de site versleutelen | Office 365-gevoeligheidslabels of -sublabels |
-| Machtigingen toevoegen aan de bestanden van de site | Office 365-gevoeligheidslabels of -sublabels |
+| De site vergrendelen | Microsoft 365-groepen en machtigingen voor SharePoint-Team sites |
+| De bestanden van een site een label geven | Microsoft 365-retentielabels |
+| Gebruikers blokkeren wanneer zij bestanden buiten het bedrijf verzenden | Beleid voor preventie van gegevensverlies (DLP) |
+| Alle bestanden van de site versleutelen | Microsoft 365-gevoeligheidslabels of -sublabels |
+| Machtigingen toevoegen aan de bestanden van de site | Microsoft 365-gevoeligheidslabels of -sublabels |
 |||
 
 Hier vindt u een voorbeeldconfiguratie voor een beveiligde SharePoint-site.
@@ -88,26 +88,26 @@ Om een SharePoint-site voor sterk gereglementeerde gegevens te maken, moet u eer
 
 Die doelstelling is bepalend voor de vaststelling van essentiële configuratie-items, zoals:
 
-- het Office 365-retentielabel dat moet worden toegepast op het documentgedeelte van de site en DLP-beleid voor het label
-- de instellingen van een Office 365-gevoeligheidssublabel dat gebruikers kunnen toepassen op bijzonder gevoelige bestanden die worden opgeslagen op de site
+- Het bewaarlabel dat moet worden toegewezen aan het gedeelte Documenten van de site en het DLP-beleid voor het label
+- De instellingen van een gevoeligheidslabel dat gebruikers toepassen op zeer gevoelige bestanden die op de site zijn opgeslagen
 
 Wanneer dat is vastgesteld, gebruikt u deze instellingen om de site te configureren in Fase 2. 
 
-### <a name="step-1-office-365-retention-labels-and-dlp-policies"></a>Stap 1 Office 365-retentielabels en DLP-beleid
+### <a name="step-1-microsoft-365-retention-labels-and-dlp-policies"></a>Stap 1 Microsoft 365-retentielabels en DLP-beleid
 
-Office 365-retentielabels bieden een standaardmethode om alle op de site opgeslagen bestanden te classificeren wanneer ze worden toegepast op het documentgedeelte van een SharePoint-teamsite.
+Retentielabels bieden een standaardmethode om alle op de site opgeslagen bestanden te classificeren wanneer ze worden toegepast op het documentgedeelte van een SharePoint-teamsite.
  
-Voor SharePoint-sites voor sterk gereglementeerde gegevens moet u vaststellen welk Office 365-retentielabel wordt gebruikt.
+Voor SharePoint-sites voor sterk gereglementeerde gegevens moet u vaststellen welk retentielabel wordt gebruikt.
 
-Zie [Office 365-classificatie en -labels](https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-and-files#office-365-retention-labels) voor het bepalen van het ontwerp van Office 365-labels.
+Zie [Microsoft 365-classificatie en -labels](https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-and-files#office-365-retention-labels) voor het bepalen van het ontwerp van de labels.
 
 Om gevoelige gegevens te beschermen en het (on)opzettlijk vrijgeven ervan te voorkomen, gebruikt u DLP-beleid. Zie dit [overzicht](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies) voor meer informatie.
 
-Voor SharePoint-sites moet u DLP-beleid configureren voor het Office 365-retentielabel dat wordt toegepast op de site, om gebruikers te blokkeren wanneer zij proberen bestanden te delen met externe gebruikers. 
+Voor SharePoint-sites moet u DLP-beleid configureren voor het retentielabel dat wordt toegepast op de site, om gebruikers te blokkeren wanneer zij proberen bestanden te delen met externe gebruikers. 
 
-### <a name="step-2-your-office-365-sensitivity-sublabel"></a>Stap 2: uw Office 365-gevoeligheidssublabel
+### <a name="step-2-your-microsoft-365-sensitivity-sublabel"></a>Stap 2: uw Microsoft 365-gevoeligheidssublabel
 
-Om versleuteling en een verzameling machtigingen toe te passen op uw gevoeligste bestanden moeten gebruikers een Office 365-gevoeligheidslabel of -sublabel toepassen. Een sublabel bestaat onder een bestaand label. 
+Om versleuteling en een verzameling machtigingen toe te passen op uw gevoeligste bestanden moeten gebruikers een gevoeligheidslabel of -sublabel toepassen. Een sublabel bestaat onder een bestaand label. 
 
 Gebruik een gevoeligheidslabel wanneer u een klein aantal labels nodig hebt voor zowel algemeen gebruik als individuele besloten teams. Gebruik een gevoeligheidssublabel wanneer u een groot aantal labels nodig hebt of als u labels wilt instellen voor beveiligde sites onder uw sterk gereglementeerde label. 
 
@@ -117,14 +117,14 @@ De instellingen van het toegepaste label of sublabel worden verplaatst met het b
 
 U hebt het volgende vastgesteld:
 
-- het juiste Office 365-retentielabel en het DLP-beleid dat is gekoppeld aan het label
-- de instellingen van het Office 365-gevoeligheidssublabel met versleuteling en machtigingen
+- Het juiste retentielabel en het DLP-beleid dat is gekoppeld aan het label
+- De instellingen van het gevoeligheidssublabel met versleuteling en machtigingen
 
 ## <a name="phase-2-configure"></a>Fase 2: Configureren
 
 In deze fase implementeert u de instellingen die zijn bepaald in Fase 1 om een SharePoint-site voor sterk gereglementeerde gegevens te maken.
 
-### <a name="step-1-create-a-private-sharepoint-team-site-with-owners-and-members-of-the-corresponding-office-365-group"></a>Stap 1: een besloten SharePoint-teamsite maken met eigenaren en leden van de bijbehorende Office 365-groep
+### <a name="step-1-create-a-private-sharepoint-team-site-with-owners-and-members-of-the-corresponding-microsoft-365-group"></a>Stap 1: een besloten SharePoint-teamsite maken met eigenaren en leden van de bijbehorende Microsoft 365-groep
 
 Volg [deze instructies]( https://support.office.com/article/create-a-site-in-sharepoint-online-4d1e11bf-8ddc-499d-b889-2b48d10b1ce8) om een besloten SharePoint-teamsite te maken.
 
@@ -139,15 +139,15 @@ Configureer deze machtigingsinstellingen vanuit de SharePoint-site.
 
 Met deze instellingen word de mogelijkheid uitgeschakeld voor site-groepsleden om de site met andere leden te delen of voor niet-leden om toegang tot de site aan te vragen.
 
-### <a name="step-3-configure-the-site-for-an-office-365-retention-label"></a>Stap 3: de site configureren voor een Office 365-retentielabel
+### <a name="step-3-configure-the-site-for-a-retention-label"></a>Stap 3: de site configureren voor een retentielabel
 
-Gebruik de instructies in [SharePoint-bestanden beveiligen met Office 365-labels en DLP](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp) om:
+Gebruik de instructies in [SharePoint-bestanden beveiligen met labels en DLP](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp) om:
 
-1. een retentielabel voor sterk gereglementeerde gegevens (indien nodig) te maken en te publiceren.
+1. Een retentielabel voor sterk gereglementeerde gegevens (indien nodig) te maken en te publiceren.
 2. de site te configureren voor het in stap 1 gemaakte retentielabel.
 3. DLP-beleid te maken voor sterk gereglementeerde gegevens die het in stap 2 gemaakte retentielabel gebruiken en het verzenden blokkeert van bestanden buiten het bedrijf door gebruikers.
 
-#### <a name="step-4-create-an-office-365-sensitivity-sublabel-for-the-site"></a>Stap 4: een Office 365-gevoeligheidssublabel maken voor de site
+#### <a name="step-4-create-a-sensitivity-sublabel-for-the-site"></a>Stap 4: een gevoeligheidssublabel maken voor de site
 
 Een beveiligde site heeft, in tegenstelling tot een gevoeligheidslabel voor sterk gereglementeerde gegevens die iedereen op een bestand kan toepassen, een eigen sublabel nodig, zodat bestanden met het toegepaste sublabel:
 
@@ -167,9 +167,9 @@ Gebruik de instructies [hier](https://docs.microsoft.com/microsoft-365/complianc
 U hebt het volgende geconfigureerd:
 
 - meer beperkende machtigingsinstellingen op de SharePoint-site
-- een Office 365-retentielabel toegepast op het documentgedeelte van de SharePoint-site
-- een DLP-beleid voor het Office 365-retentielabel
-- een Office 365-gevoeligheidslabel of -sublabel dat gebruikers kunnen toepassen op de meest gevoelige bestanden die zijn opgeslagen op de site, waarmee het bestand wordt versleuteld en alleen Cocreatie-toegang verleent aan leden van de teamsitegroep. 
+- Een bewaarlabel dat is toegewezen aan het documentgedeelte van de SharePoint-site
+- Een DLP-beleid voor het retentielabel
+- Een gevoeligheidslabel of-sublabel dat door gebruikers kan worden gebruikt voor de meest gevoelige bestanden die zijn opgeslagen op de site. Hierdoor wordt het bestand versleuteld en wordt alleen cocreatie-toegang verleent aan leden van de teamsitegroep. 
 
 Hier ziet u de resulterende configuratie die een sublabel van het label Sterk gereglementeerd gebruikt.
 

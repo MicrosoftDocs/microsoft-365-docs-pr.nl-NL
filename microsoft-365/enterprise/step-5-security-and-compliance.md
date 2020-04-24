@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Meer informatie over belangrijke overwegingen met betrekking tot beveiliging en compliance in Windows en Office.
-ms.openlocfilehash: 1d38347ca1bdf152a891cfd147ec3fabf552ff3d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 003064f521f1a68c01da9d6a2c9fb19eae7d3eaf
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42812411"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636770"
 ---
 # <a name="step-5-security-and-compliance-considerations"></a>Stap 5: overwegingen met betrekking tot beveiliging en compliance
 
@@ -30,20 +30,20 @@ ms.locfileid: "42812411"
 <thead>
 <td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-8.png" alt="Step 5" height="135" width="135" /></td>
 <td><p><strong>Stap 5: overwegingen met betrekking tot beveiliging en compliance</strong></p>
-<p>Windows 10 en Office 365 ProPlus bieden nieuwe methoden voor het beschermen van uw gegevens, apparaten en gebruikers en het snel detecteren van en reageren op bedreigingen. U krijgt ook meer informatie over hoe u kunt omgaan met veelvoorkomende problemen op het gebied van schijfversleuteling, antimalware-apps en beleidsregels wanneer u overstapt op Windows 10.</p></td>
+<p>Windows 10 en Microsoft 365-apps voor ondernemingen bieden nieuwe manieren voor het beschermen van uw gegevens, apparaten en gebruikers en het snel detecteren van en reageren op bedreigingen. U krijgt ook meer informatie over hoe u kunt omgaan met veelvoorkomende problemen op het gebied van schijfversleuteling, antimalware-apps en beleidsregels wanneer u overstapt op Windows 10.</p></td>
 <td><a href="https://aka.ms/ddev5" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-18.png" alt="Step 5" height="130" width="231" /></a></td>
 </thead>
 </table>
 
 >[!NOTE]
->Beveiliging en compliance is de vijfde stap in ons aanbevolen implementatieproces, waarin overwegingen op het gebied van beveiliging en compliance in Windows 10 en Office 365 ProPlus worden behandeld. Ga naar het [Desktop Deployment Center](https://aka.ms/HowToShift) om het volledige bureaublad-implementatieproces te zien.
+>Beveiliging en compliance is de vijfde stap in ons aanbevolen implementatieproces, waarin overwegingen op het gebied van beveiliging en compliance in Windows 10 en Microsoft 365-apps voor ondernemingen worden behandeld. Ga naar het [Implementatiecentrum voor desktops](https://aka.ms/HowToShift) om het volledige desktop-implementatieproces te zien.
 >
 
-Het is nu tijd om te kijken naar de opties voor nieuwe mogelijkheden voor beveiliging en compliance als onderdeel van uw implementatie van Windows 10 en Office 365 ProPlus, naast de overwegingen en veelvoorkomende hindernissen bij een overstap van eerdere versies van Windows en Office. Veel van de beveiligingsfuncties in Windows 10 zijn een belangrijke drijfveer voor de overstap naar het nieuwe platform. Daarnaast zorgen de integratie met cloudservices in Office 365 en de identiteitsoplossingen op basis van Azure Active Directory voor een nieuwe en doorlopende bijgewerkte beveiliging van uw gegevens, apparaten en gebruikers.
+Het is nu tijd om te kijken naar de opties voor nieuwe mogelijkheden voor beveiliging en compliance als onderdeel van uw implementatie van Windows 10 en Microsoft 365-apps voor ondernemingen, naast de overwegingen en veelvoorkomende hindernissen bij een overstap van eerdere versies van Windows en Office. Veel van de beveiligingsfuncties in Windows 10 zijn een belangrijke drijfveer voor de overstap naar het nieuwe platform. Daarnaast zorgen de integratie met cloudservices en de identiteitsoplossingen op basis van Azure Active Directory voor een nieuwe en doorlopende bijgewerkte beveiliging van uw gegevens, apparaten en gebruikers.
 
 ## <a name="overcoming-potential-security-related-deployment-blockers"></a>Het wegnemen van mogelijke beveiligingshindernissen voor de implementatie
 
-Voordat we uitleggen wat de nieuwe mogelijkheden zijn die u kunt gebruiken na een overstap naar Windows 10 en Office 365 ProPlus en hoe u die kunt koppelen aan de cloud, behandelen we eerst een paar veelvoorkomende situaties die het implementatieproces kunnen onderbreken.
+Voordat we uitleggen wat de nieuwe mogelijkheden zijn die u kunt gebruiken na een overstap naar Windows 10 en Microsoft 365-apps voor ondernemingen en hoe u die kunt koppelen aan de cloud, behandelen we eerst een paar veelvoorkomende situaties die het implementatieproces kunnen onderbreken.
 
 ### <a name="disk-encryption"></a>Schijfversleuteling
 
@@ -63,7 +63,7 @@ Als gevolg daarvan zijn deze toepassingen gevoelig voor de veranderingen die opt
 
 ### <a name="security-policies"></a>Beveiligingsbeleid
 
-De Active Directory-groepsbeleidsinstellingen die u gebruikt voor oudere versies van Windows en Office kunnen mogelijk niet rechtstreeks worden overgezet naar Windows 10 en Office 365 ProPlus, en er zijn andere dingen om rekening mee te houden als gevolg van de nieuwere mogelijkheden op het gebied van beveiliging en compliance. Het is verstandig om de Microsoft Security Compliance Toolkit te gebruiken voor een basis voor een beveiligingsbeleid in de huidige versies van Windows en Office. Ook is het een goed idee om het gebruik van de Mobile Device Management-beleidsregels van Microsoft Intune te overwegen.
+De Active Directory-groepsbeleidsinstellingen die u gebruikt voor oudere versies van Windows en Office kunnen mogelijk niet rechtstreeks worden overgezet naar Windows 10 en Microsoft 365-apps voor ondernemingen, en er zijn andere dingen om rekening mee te houden als gevolg van de nieuwere mogelijkheden op het gebied van beveiliging en compliance. Het is verstandig om de Microsoft Security Compliance Toolkit te gebruiken voor een basis voor een beveiligingsbeleid in de huidige versies van Windows en Office. Ook is het een goed idee om het gebruik van de Mobile Device Management-beleidsregels van Microsoft Intune te overwegen.
 
 ![](../media/step-5-security-and-compliance-media/step-5-security-and-compliance-media-3.png)
 
@@ -71,11 +71,11 @@ De Active Directory-groepsbeleidsinstellingen die u gebruikt voor oudere versies
 
 ## <a name="new-security-and-compliance-capabilities-in-microsoft-365"></a>Nieuwe mogelijkheden op het gebied van beveiliging en compliance in Microsoft 365
 
-Tot zover de overwegingen met betrekking tot het overzetten van uw huidige beveiligingsmaatregelen en de zaken waarmee u rekening moet houden voorafgaand aan de overstap. Laten we nu eens kijken naar de nieuwe mogelijkheden die u kunt gebruiken wanneer u overstapt op Windows 10 en Office 365 ProPlus, en de cloudopties van onder andere EMS.
+Tot zover de overwegingen met betrekking tot het overzetten van uw huidige beveiligingsmaatregelen en de zaken waarmee u rekening moet houden voorafgaand aan de overstap. Laten we nu eens kijken naar de nieuwe mogelijkheden die u kunt gebruiken wanneer u overstapt op Windows 10 en Microsoft 365-apps voor ondernemingen, en de cloudopties van onder andere EMS.
 
 ### <a name="identity-and-access-management"></a>Identiteits-en toegangsbeheer
 
-We beginnen met identiteits- en toegangsbeheer. Azure Active Directory is het identiteitsbesturingsvlak voor apps, apparaten en cloudservices en is de moderne manier om verbinding te maken met Office 365 en andere cloudservices. Met voorwaardelijke toegang kunt u verschillende verificatievereisten definiëren, afhankelijk van uw aanmeldlocatie, het apparaat dat u gebruik en zaken zoals afwijkend gedrag.
+We beginnen met identiteits- en toegangsbeheer. Azure Active Directory is het identiteitsbesturingsvlak voor apps, apparaten en cloudservices en is de moderne manier om verbinding te maken met Microsoft 365 en andere cloudservices. Met voorwaardelijke toegang kunt u verschillende verificatievereisten definiëren, afhankelijk van uw aanmeldlocatie, het apparaat dat u gebruik en zaken zoals afwijkend gedrag.
 
 Op apparaatniveau kan biometrie een uniek identificatiemiddel zijn voor eenvoudige en goed beveiligde toegang tot uw apparaten en apps. Op termijn hebt u daardoor ook minder wachtwoorden nodig. Windows Hello biedt op apparaten gebaseerde meervoudige verificatie. Het is gebaseerd op het apparaat zelf, uw pincode of een uniek biometrisch identificatiemiddel zoals uw gezicht of vingerafdruk, en het gebruik daarvan kunt u via beleidsregels afdwingen.
 
@@ -99,7 +99,7 @@ Cloudservices bieden een extra beschermingslaag ter verbetering van de beveiligi
 
 En dankzij de Microsoft Intelligent Security Graph beschikt u ook snel over informatie over en bescherming tegen nieuwe bedreigingen. Hier volgen een paar voorbeelden van de voordelen, te beginnen met die van Office.
 
-**[Preventie van gegevensverlies](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies)** is geïntegreerd in Office 365 ProPlus. Hiermee worden gebruikers op de hoogte gebracht van het beveiligingsbeleid wanneer gevoelige informatie zoals een creditcard- of BSN-nummer wordt gevonden. Met deze beleidsregels kan informatie worden verschaft of het verzenden en delen worden geblokkeerd nadat gebruikers zijn geïnformeerd.
+**[Preventie van gegevensverlies](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies)** is geïntegreerd in Microsoft 365-apps voor ondernemingen. Hiermee worden gebruikers op de hoogte gebracht van het beveiligingsbeleid wanneer gevoelige informatie zoals een creditcard- of BSN-nummer wordt gevonden. Met deze beleidsregels kan informatie worden verschaft of het verzenden en delen worden geblokkeerd nadat gebruikers zijn geïnformeerd.
 
 **[Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide)** is een aanvullende service die u kunt gebruiken met Office en waarmee gebruikers hun Office-bestanden eenvoudig kunnen classificeren en labelen. Ook kunnen automatische acties worden getriggerd voor gelabelde bestanden, zoals versleuteling of het blokkeren van delen ervan.
 
@@ -119,7 +119,7 @@ Met **[Exploit Guard](https://docs.microsoft.com/windows/security/threat-protect
 
 #### <a name="microsoft-intune"></a>Microsoft Intune
 
-[Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) fungeert als een managementservice in de cloud voor mobiele scenario’s met onder andere iOS-, Android- en Windows-apparaten. Die kunnen nu worden geconfigureerd voor co-beheer, ter aanvulling en uitbreiding van de besturingselementen voor specifieke werkbelastingen die worden beheerd door Configuration Manager. Een van de voordelen daarvan is dat apparaten die toegang nodig hebben tot beveiligde middelen moeten worden geregistreerd bij apparaatbeheer; inclusief apparaten die niet worden beheerd of geen deel uitmaken van een domein of Azure Active Directory. U kunt bovendien gebruikmaken van fijnmazige handhaving van beleidsregels voor configuratie en compliance, op besturingssysteem- en toepassingsniveau. Met Microsoft Intune worden beleidsregels en instellingen voor toepassingen centraal geconfigureerd voor Office 365 ProPlus en Store-apps in Windows 10.
+[Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) fungeert als een managementservice in de cloud voor mobiele scenario’s met onder andere iOS-, Android- en Windows-apparaten. Die kunnen nu worden geconfigureerd voor co-beheer, ter aanvulling en uitbreiding van de besturingselementen voor specifieke werkbelastingen die worden beheerd door Configuration Manager. Een van de voordelen daarvan is dat apparaten die toegang nodig hebben tot beveiligde middelen moeten worden geregistreerd bij apparaatbeheer; inclusief apparaten die niet worden beheerd of geen deel uitmaken van een domein of Azure Active Directory. U kunt bovendien gebruikmaken van fijnmazige handhaving van beleidsregels voor configuratie en compliance, op besturingssysteem- en toepassingsniveau. Met Microsoft Intune worden beleidsregels en instellingen voor toepassingen centraal geconfigureerd voor Microsoft 365-apps voor ondernemingen en Store-apps in Windows 10.
 
 ## <a name="next-step"></a>Volgende stap
 

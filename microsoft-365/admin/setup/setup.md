@@ -1,5 +1,5 @@
 ---
-title: Office 365 voor Bedrijven instellen
+title: Microsoft 365 voor bedrijven instellen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -24,25 +24,25 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 6a3a29a0-e616-4713-99d1-15eda62d04fa
-description: Meer informatie over het instellen van uw Office 365 Business Premium-, Office 365 Business Essentials-, Office 365 Business- of Office 365 Education-abonnement.
-ms.openlocfilehash: f862eb2042da329e70c7cc1658a5c1a037b56faa
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Lees hoe u uw abonnement op Microsoft 365 Business Standard, Microsoft 365 Business Basic, Microsoft 365 Apps voor bedrijven of Office 365 education kunt instellen.
+ms.openlocfilehash: 448dc7ae990a4c9803ea751e4ad855f375195734
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212171"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627544"
 ---
-# <a name="set-up-office-365-for-business"></a>Office 365 voor Bedrijven instellen
+# <a name="set-up-microsoft-365-for-business"></a>Microsoft 365 voor bedrijven instellen
 
-Volg deze stappen om uw bedrijf of [nonprofit-organisatie](https://go.microsoft.com/fwlink/p/?LinkId=627221) aan het werk te zetten met [Office 365 Business Premium](https://go.microsoft.com/fwlink/p/?LinkId=627220), Office 365 Business Essentials, Office 365Business of Office 365 Education.
+Volg deze stappen om uw bedrijf of [non-profitorganisatie](https://go.microsoft.com/fwlink/p/?LinkId=627221) aan de slag te laten gaan met [Microsoft 365 Business Standard](https://go.microsoft.com/fwlink/p/?LinkId=627220), Microsoft 365 Business Basic, Microsoft 365 Apps voor bedrijven of Office 365 Education.
   
-Geen bedrijf? Zie [instellen voor Office 365 Home of Office 365 Personal](https://support.office.com/article/65415a24-3cbf-4f30-901d-9bf9eba7fce2.aspx).
+Geen bedrijf? Zie [instellen voor Microsoft 365 Family of Microsoft 365 Personal](https://support.office.com/article/65415a24-3cbf-4f30-901d-9bf9eba7fce2.aspx).
   
 ## <a name="business-premium"></a>Business Premium
   
- *Deze stappen zijn bedoeld voor bedrijven en [non-profitorganisaties](https://go.microsoft.com/fwlink/p/?LinkId=627221) met het **[Office 365 Business Premium-abonnement.](https://go.microsoft.com/fwlink/p/?LinkId=627220)***
+ *Deze stappen zijn bedoeld voor bedrijven en [non-profitorganisaties](https://go.microsoft.com/fwlink/p/?LinkId=627221) die het **[Microsoft 365 Business Standard-abonnement hebben.](https://go.microsoft.com/fwlink/p/?LinkId=627220)***
 
-Bekijk een korte video over het instellen van Office 365 Business Premium.<br><br>
+Bekijk een korte video over het instellen van Microsoft 365 Business Standard.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/913be1ad-bae1-40c0-9ded-15bb477b828b]
 
@@ -50,15 +50,15 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
 
 ### <a name="1-sign-up-and-set-up"></a>1. Registreren en instellen
 
-1. Ga naar de [website met Office-producten](https://www.aka.ms/office365signup) en selecteer **Nu kopen** om u te registreren voor een abonnement op Office 365 voor Bedrijven.
+1. Ga naar de [website met Office-producten](https://www.aka.ms/office365signup) en selecteer **Nu kopen** om u te registreren voor een abonnement op Microsoft 365 voor Bedrijven.
 
-2. Kies het abonnement waarvoor u zich wilt registreren, bijvoorbeeld **Office 365 Business Premium**. 
+2. Kies het abonnement waarvoor u zich wilt registreren, bijvoorbeeld **Microsoft 365 Business Standard**. 
 
-3. Volg de stappen om u te registreren voor een abonnement op Office 365 voor Bedrijven.
+3. Volg de stappen om u te registreren voor een abonnement op Microsoft 365 voor Bedrijven.
 
     Wanneer het aanmeldingsproces is voltooid, wordt u doorgestuurd naar het beheercentrum, waar u een wizard volgt om Office-apps te installeren, uw domein toe te voegen, gebruikers toe te voegen en licenties toe te wijzen. Nadat u de eerste installatie hebt voltooid, kunt u de pagina **Instellingen** in het beheercentrum gebruiken om door te gaan met het instellen en configureren van de services die bij uw abonnementen worden geleverd.
 
-    Voor meer informatie over de installatiewizard van Office 365 en de **Installatie**pagina in het beheercentrum, raadpleegt u [Verschil tussen de installatiewizard van Office 365 en de installatiepagina](o365-setup-wizard-and-setup-page.md).
+    Voor meer informatie over de installatiewizard en de **Installatie**pagina in het beheercentrum, raadpleegt u [Verschil tussen de installatiewizard en de installatiepagina](o365-setup-wizard-and-setup-page.md).
 
 ### <a name="2-set-up-outlook-for-email"></a>2. Outlook voor e-mail instellen
 
@@ -70,7 +70,7 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
 
 2. Kies **Bestand** \> ** Info** \> **Account toevoegen**.
 
-3. Voer uw Office 365-e-mailadres in en selecteer **Verbinding maken**.
+3. Voer uw Microsoft-e-mailadres in en selecteer **Verbinden**.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/9fe86884-8a83-42cc-bca9-61a12e6dad31?autoplay=false]
   
@@ -78,7 +78,7 @@ Meer informatie vindt u op [Outlook instellen voor e-mail](https://support.offic
   
 ### <a name="3-import-email"></a>3. E-mail importeren
 
-Als u Outlook met een ander e-mailaccount hebt gebruikt, kunt u de e-mail, agenda en contactpersonen van dat account importeren in uw nieuwe Office 365-account.
+Als u Outlook met een ander e-mailaccount hebt gebruikt, kunt u de e-mail, agenda en contactpersonen van dat account importeren in uw nieuwe Microsoft-account.
   
 1. **Uw oude e-mailberichten exporteren**
 
@@ -98,7 +98,7 @@ Meer informatie vindt u op [E-mails in Outlook importeren](https://support.offic
   
 ### <a name="4-use-a-public-website"></a>4. Een openbare website gebruiken
 
-Office 365 bevat geen openbare website voor uw bedrijf. Als u er toch een wilt maken, kunt u een Microsoft-partner overwegen, zoals GoDaddy of WIX.
+Microsoft 365 bevat geen openbare website voor uw bedrijf. Als u er toch een wilt maken, kunt u een Microsoft-partner overwegen, zoals GoDaddy of WIX.
   
 1. Ga in het beheercentrum naar **Resources** en kies vervolgens **Openbare website**.
 
@@ -110,11 +110,11 @@ Meer informatie vindt u op [Een openbare website gebruiken](https://support.offi
   
 ## <a name="business-essentials"></a>Business Essentials
   
-*Gebruik deze stappen voor het instellen van uw **[Office 365 Business Essentials](https://go.microsoft.com/fwlink/p/?LinkId=627218)**-abonnement. Met dit abonnement maakt u online verbinding met Office 365. De Office-apps worden niet geïnstalleerd.*
+*Gebruik deze stappen voor het instellen van uw **[Microsoft 365 Business Basic](https://go.microsoft.com/fwlink/p/?LinkId=627218)**-abonnement. Met dit abonnement maakt u online verbinding met Office 365. De Office-apps worden niet geïnstalleerd.*
 
-### <a name="1-create-office-365-accounts-and-add-your-domain"></a>1. Office 365-accounts maken en aan uw domein toevoegen
+### <a name="1-create-microsoft-365-accounts-and-add-your-domain"></a>1. Microsoft 365-accounts maken en aan uw domein toevoegen
 
-In deze stap gebruikt u de wizard Setup om Office 365-accounts te maken voor uw gebruikers en uw eigen domein toe te voegen. Met de wizard kunt u alle gebruikers-id's en e-mailadressen voor uw bedrijf aanpassen, zoals rob@contoso.com.
+In deze stap gebruikt u de wizard Setup om Microsoft 365-accounts te maken voor uw gebruikers en uw eigen domein toe te voegen. Met de wizard kunt u alle gebruikers-id's en e-mailadressen voor uw bedrijf aanpassen, zoals rob@contoso.com.
   
 ::: moniker range="o365-worldwide"
 
@@ -140,17 +140,17 @@ Selecteer **Naar setup** om de wizard te starten.
   
 ### <a name="2-import-email"></a>2. E-mail importeren
 
-U kunt uw bestaande e-mail en contactpersonen vanuit andere e‑mailsystemen naar uw Office 365-postvak verplaatsen, zodat alles op één plek wordt weergegeven. 
+U kunt uw bestaande e-mail en contactpersonen van andere e‑mailsystemen naar uw Microsoft-postvak verplaatsen, zodat alles op één plek wordt weergegeven. 
   
 Zie [E-mail en contactpersonen migreren](migrate-email-and-contacts-admin.md) voor de migratieopties.
   
 ### <a name="3-connect-email-accounts"></a>3. E-mailaccounts koppelen
 
-U kunt niet alleen uw Office 365-e-mail in Outlook beheren, maar ook andere e-mailaccounts koppelen met Outlook, zoals uw Gmail- en Yahoo-account. Daarmee kunt u al uw e-mail op één plaats beheren. U kunt maximaal 5 e-mailaccounts met Outlook koppelen.
+U kunt niet alleen uw Microsoft-e-mail in Outlook beheren, maar ook andere e-mailaccounts koppelen met Outlook, zoals uw Gmail- en Yahoo-account. Daarmee kunt u al uw e-mail op één plaats beheren. U kunt maximaal 5 e-mailaccounts met Outlook koppelen.
   
 ::: moniker range="o365-worldwide"
 
-Meld u aan bij Office 365 met uw werk- of schoolaccount via [https://www.office.com/signin](https://www.office.com/signin).
+Meld u aan bij Microsoft 365 met uw werk- of schoolaccount[https://www.office.com/signin](https://www.office.com/signin).
 
 ::: moniker-end
 
@@ -211,11 +211,11 @@ Als u Office 365 beheerd door 21Vianet gebruikt, gaat u naar [https://portal.par
 
 ### <a name="5-store-files-online"></a>5. Bestanden online opslaan
 
-Met Office 365 kunt u uw bestanden eenvoudig online opslaan. Zie [Waar u documenten kunt opslaan in Office 365](https://support.office.com/article/c7c20284-bc94-47f4-9728-d28e9daf0790.aspx) voor meer informatie over welke opslaglocaties het meest geschikt zijn voor uw bedrijf.
+Microsoft maakt het gemakkelijk om bestanden op te slaan. Als u wilt weten welke opslaglocaties het meest geschikt zijn voor uw bedrijf, raadpleegt u [waar u bestanden kunt opslaan](https://support.office.com/article/c7c20284-bc94-47f4-9728-d28e9daf0790.aspx).
   
-Iedereen ontvangt automatisch een **OneDrive** -opslaglocatie in de cloud wanneer u Office 365-accounts voor hen maakt. Met OneDrive kunt u met uw computer, telefoon en tablet toegang krijgen tot bestanden.
+Iedereen ontvangt automatisch een **OneDrive**-opslaglocatie in de cloud wanneer u Microsoft-accounts voor hen maakt. Met OneDrive kunt u met uw computer, telefoon en tablet toegang krijgen tot bestanden.  
   
-1. Gebruik Verkenner op uw computer om OneDrive te openen. U kunt **OneDrive** ook in [Office 365](https://www.office.com) openen in het startprogramma voor apps.
+1. Gebruik Verkenner op uw computer om OneDrive te openen. U kunt **OneDrive** ook in [Microsoft 365](https://www.office.com) openen in het startprogramma voor apps.
 
 2. Bekijk en upload persoonlijke bestanden of deel documenten of mappen door op **Delen** te klikken en vervolgens anderen uit te nodigen om de documenten te bekijken of door een link ernaar te verzenden. Zie [Bestanden en mappen in OneDrive delen](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07.aspx#OS_Type=OneDrive_-_Business) voor meer informatie.
 
@@ -223,11 +223,11 @@ Meer informatie op [Bestanden uploaden naar een bibliotheek](https://support.off
   
 ### <a name="get-started-using-office"></a>Aan de slag met Office
 
-Zie [Aan de slag](../admin-overview/get-started-with-office-365.md) voor een rondleiding van Office 365 en meer informatie over het gebruik van alle mobiele Office-apps.
+Zie [Aan de slag](../admin-overview/get-started-with-office-365.md) voor een rondleiding van Microsoft 365 en meer informatie over het gebruik van alle mobiele Office-apps.
   
 ## <a name="business"></a>Bedrijven
   
-*Het **[Office 365 Business-abonnement](https://go.microsoft.com/fwlink/p/?LinkId=627219)** omvat geen Office 365-e-mail of Skype voor Bedrijven. Met deze configuratiestappen ziet u hoe u uw bestaande e-mailaccount (zoals Gmail) kunt toevoegen aan Outlook.*
+*Het **[Microsoft 365 Apps voor bedrijven-abonnement](https://go.microsoft.com/fwlink/p/?LinkId=627219)** omvat geen Microsoft-e-mail of Skype voor Bedrijven. Met deze configuratiestappen ziet u hoe u uw bestaande e-mailaccount (zoals Gmail) kunt toevoegen aan Outlook.*
 
 ### <a name="1-add-users"></a>1. Gebruikers toevoegen
 
@@ -283,15 +283,15 @@ Hebt u meer gedetailleerde stappen nodig of wilt u de 64-bits versie van Office 
   
 ### <a name="3-set-up-mobile"></a>3. Mobiele apps instellen
 
-Installeer Office op uw mobiele apparaat en stel Outlook in voor gebruik met uw nieuwe Office 365-postvak. Iedereen in uw team moet deze stap uitvoeren. Bovendien kan elke gebruiker de mobiele Office-apps installeren op maximaal vijf telefoons en vijf tablets. 
+Installeer Office op uw mobiele apparaat en stel Outlook in voor gebruik met uw nieuwe Microsoft-postvak. Iedereen in uw team moet deze stap uitvoeren. Bovendien kan elke gebruiker de mobiele Office-apps installeren op maximaal vijf telefoons en vijf tablets. 
   
 Bekijk de stappen voor uw apparaat: [Android](https://support.office.com/article/6ef2ebf2-fc2d-474a-be4a-5a801365c87f.aspx) | [iOS](https://support.office.com/article/0402b37e-49c4-4419-a030-f34c2013041f.aspx) | [Windows Phone](https://support.office.com/article/9bccc8b8-a321-4d0d-a45e-6e06a3438e43.aspx)
   
 ### <a name="4-store-files-online"></a>4. Bestanden online opslaan
 
-Met Office 365 kunt u uw bestanden eenvoudig online opslaan. Zie [Waar u documenten kunt opslaan in Office 365](https://support.office.com/article/c7c20284-bc94-47f4-9728-d28e9daf0790.aspx) voor meer informatie over welke opslaglocaties het meest geschikt zijn voor uw bedrijf.
+Microsoft maakt het gemakkelijk om bestanden op te slaan. Als u wilt weten welke opslaglocaties het meest geschikt zijn voor uw bedrijf, raadpleegt u [waar u bestanden kunt opslaan in Office 365](https://support.office.com/article/c7c20284-bc94-47f4-9728-d28e9daf0790.aspx).
   
-Iedereen ontvangt automatisch een **OneDrive** -opslaglocatie in de cloud wanneer u Office 365-accounts voor hen maakt. Met OneDrive kunt u met uw computer, telefoon en tablet toegang krijgen tot bestanden.
+Iedereen ontvangt automatisch een **OneDrive**-opslaglocatie in de cloud wanneer u Microsoft-accounts voor hen maakt. Met OneDrive kunt u met uw computer, telefoon en tablet toegang krijgen tot bestanden.  
   
 1. Gebruik Verkenner op uw computer om OneDrive te openen. U kunt **OneDrive** ook in [Office 365](https://www.office.com) openen in het startprogramma voor apps.
 
@@ -301,7 +301,7 @@ Meer informatie op [Bestanden uploaden naar een bibliotheek](https://support.off
   
 ### <a name="get-started-using-office"></a>Aan de slag met Office
 
-Zie [Aan de slag](../admin-overview/get-started-with-office-365.md) voor een rondleiding van Office 365 en meer informatie over het gebruik van alle mobiele Office-apps.
+Zie [Aan de slag](../admin-overview/get-started-with-office-365.md) voor een rondleiding van Microsoft 365 en meer informatie over het gebruik van alle mobiele Office-apps.
   
 ## <a name="education"></a>Education
   
@@ -309,7 +309,7 @@ Zie [Aan de slag](../admin-overview/get-started-with-office-365.md) voor een ron
 
 ### <a name="get-ready-for-office-365"></a>Voorbereiden op Office 365
 
-- **Controleer eerst of u in aanmerking komt voor een onderwijsabonnement** Volg de stappen om [Verify your Office 365 domain to prove ownership, nonprofit or education status, or to activate Yammer](https://support.office.com/article/87d1844e-aa47-4dc0-a61b-1b773fd4e590), zodat u in Office 365 wordt toegestaan om gebruik te maken van een onderwijsabonnement. Vervolgens kunt u Office 365 instellen voor uw school volgens de richtlijnen in dit artikel.
+- **Controleer eerst of u in aanmerking komt voor een onderwijsabonnement** Volg de stappen om [uw domein te verifiëren om het eigendom, de non-profit- of onderwijsstatus te bewijzen of om Yammer te activeren](https://support.office.com/article/87d1844e-aa47-4dc0-a61b-1b773fd4e590), zodat Microsoft u groen licht kan geven voor het gebruik van een onderwijsplan. Vervolgens kunt u Office 365 instellen voor uw school door de richtlijnen in dit artikel te volgen.
 
 - **Hulp nodig?** Als u hulp nodig hebt bij een meer geavanceerde implementatie, is **[FastTrack](https://www.microsoft.com/en-us/fasttrack/microsoft-365/office-365)** een prima plek om te beginnen. U kunt ook [een partner zoeken](https://go.microsoft.com/fwlink/p/?linkid=391089) om u te helpen.
 
@@ -317,7 +317,7 @@ Zie [Aan de slag](../admin-overview/get-started-with-office-365.md) voor een ron
 
 ### <a name="1-add-your-school-domain-or-connect-your-directory"></a>1. Domein van uw school toevoegen of uw adreslijst verbinden
 
-Met deze stap meldt u zich aan bij de Office 365-portal en voegt u het domein van uw school toe aan uw abonnement. Zo wordt voor Microsoft gecontroleerd of u in aanmerking komt voor een onderwijsabonnement.
+Met deze stap meldt u zich aan bij de Microsoft 365-beheercentrum en voegt u het domein van uw school toe aan uw abonnement. Zo wordt voor Microsoft gecontroleerd of u in aanmerking komt voor een onderwijsabonnement.
   
 ::: moniker range="o365-worldwide"
 
@@ -339,7 +339,7 @@ Als u Office 365 beheerd door 21Vianet gebruikt, gaat u naar [dit beheercentrum]
 
 Selecteer **Naar setup** om de wizard te starten.
 
-Zie [De installatiewizard van Office 365 gebruiken](https://support.office.com/article/3c62a3b7-1680-41ca-943c-0ff01566bace.aspx) voor een overzicht van wat er gebeurt wanneer u de wizard uitvoert.
+Zie [De installatiewizard gebruiken](https://support.office.com/article/3c62a3b7-1680-41ca-943c-0ff01566bace.aspx) voor een overzicht van wat er gebeurt wanneer u de wizard uitvoert.
   
 Als u uw gebruikers wilt synchroniseren vanuit een on-premises adreslijst of gebruik wilt maken van eenmalige aanmelding, **maakt u geen gebruik van de wizard Setup om gebruikers toe te voegen**. Lees in plaats daarvan deze richtlijnen voor informatie over uw opties: [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9). U stelt een van de volgende zaken in:
   
@@ -381,4 +381,4 @@ Raadpleeg [Contact opnemen met ondersteuning voor zakelijke producten - Hulp voo
   
 ## <a name="see-also"></a>Zie ook
 
-[Trainingsvideo's voor Microsoft 365 Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

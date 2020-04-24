@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees hoe u het onderhoud voor Windows en Office in uw omgeving kunt voorbereiden.
-ms.openlocfilehash: d47abca74f7fea4c49f9aa28a93cd4afe40a0981
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 422cbd4fd8310a9bc63696c0ea6e9da858c51230
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42805269"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636733"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>Stap 7: Service van Windows en Office
 
@@ -29,8 +29,8 @@ ms.locfileid: "42805269"
 <table>
 <thead>
 <td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-10.png" alt="Step 7" height="144" width="144" /></td>
-<td><p><strong>Stap 7: Service van Windows en Office</strong></p>
-<p>Er worden continu nieuwe mogelijkheden toegevoegd aan zowel Windows 10 als Office 365 ProPlus om gebruikerservaringen en de beveiliging te blijven bijwerken met de nieuwste innovaties. Lees hoe u uw versie actueel houdt met de halfjaarlijkse en maandelijkse updates, hoe het nieuwe servicemodel werkt en welke hulpmiddelen en opties u hebt.</p></td>
+<td><p><strong>Stap 7: Onderhoud van Windows en Office</strong></p>
+<p>Er worden continu nieuwe mogelijkheden toegevoegd aan zowel Windows 10 als Microsoft 365-apps voor ondernemingen om gebruikerservaringen en de beveiliging te blijven bijwerken met de nieuwste innovaties. Lees hoe u uw versie actueel houdt met de halfjaarlijkse en maandelijkse updates, hoe het nieuwe servicemodel werkt en welke hulpmiddelen en opties u hebt.</p></td>
 <td><a href="https://aka.ms/ddev7" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-20.png" alt="Step 7" height="130" width="231" /></a></td>
 </thead>
 </table>
@@ -39,9 +39,9 @@ ms.locfileid: "42805269"
 >Windows en Office onderhouden is de zevende stap in ons aanbevolen implementatieproces. In deze stap wordt de planningsaspecten van het voorbereiden van halfjaarlijkse update van functies behandeld. Ga naar het [Implementatiecentrum voor desktops](https://aka.ms/HowToShift) om het volledige desktop-implementatieproces te zien.
 >
 
-In zowel Windows 10 als Office 365 ProPlus worden nieuwe onderhoudsopties, ondersteuningsmodellen en updatetijdlijnen geïntroduceerd. Deze wijzigingen vereenvoudigen het proces om naar nieuwste functies bij te werken. Behalve deze updates zijn er ook nieuwe configuratieopties voor serviceabonnementen die aan uw behoeften voldoen. We bekijken hoe u kunt voorbereiden op Semi-annual-kanaalupdates die nieuwe functies en mogelijkheden voor Windows 10 en Office 365 ProPlus bieden en hoe u tegelijkertijd de nieuwe functies in Microsoft Endpoint Configuration Manager (huidige vertakking) kunt inzetten.
+In zowel Windows 10 als Microsoft 365-apps voor ondernemingen worden nieuwe onderhoudsopties, ondersteuningsmodellen en updatetijdlijnen geïntroduceerd. Deze wijzigingen vereenvoudigen het proces om naar nieuwste functies bij te werken. Behalve deze updates zijn er ook nieuwe configuratieopties voor serviceabonnementen die aan uw behoeften voldoen. We bekijken hoe u kunt voorbereiden op Semi-annual-kanaalupdates die nieuwe functies en mogelijkheden voor Windows 10 en Microsoft 365-apps voor ondernemingen bieden en hoe u tegelijkertijd de nieuwe functies in Microsoft Endpoint Configuration Manager (huidige vertakking) kunt inzetten.
 
-[Klanten helpen met de overstap naar Windows 10 en Office 365 ProPlus](https://www.microsoft.com/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/)
+[Klanten helpen met de overstap naar Windows 10 en Microsoft 365-apps voor ondernemingen](https://www.microsoft.com/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/)
 
 ## <a name="update-types"></a>Soorten updates
 
@@ -75,7 +75,7 @@ Met het cumulatieve model bent u altijd met één update weer up-to-date en hier
 
 Een ander voordeel is dat, voordat we de updates voor algemene implementatie uitrollen, deze eerst kunnen worden uitgebracht via de Insider-Programma's voor [Office](https://products.office.com/office-insider?tab=Windows-Desktop) en [Windows](https://insider.windows.com/). Hierdoor kunnen we diagnostische gegevens verzamelen en feedback ontvangen nog voordat we de updates voor iedereen uitbrengen. De Insider-Programma's zijn nu voor iedereen toegankelijk, zodat u de updates al eerder kunt begrijpen. Tegen de tijd dat we updates uitbrengen, hebben we reeds diagnostische gegevens ontvangen van miljoenen configuraties, dus wanneer er updates worden uitgebracht, is de kwaliteit nu aanzienlijk voorspelbaarder
 
-En wat daar nog bij komt, omdat de Monthly-kanaalupdates worden meegenomen in de builds van Office 365 ProPlus Insider, als u een Semi-Annual-kanaal voor Office gebruikt om twee keer per jaar de functie-updates te krijgen, kunt u deze builds al vroeg valideren en de gerichte versies van het Semi-Annual-kanaal gebruiken.
+En wat daar nog bij komt, omdat de Monthly-kanaalupdates worden meegenomen in de builds van Microsoft 365-apps voor ondernemingen Insider, als u een Semi-Annual-kanaal voor Office gebruikt om twee keer per jaar de functie-updates te krijgen, kunt u deze builds al vroeg valideren en de gerichte versies van het Semi-Annual-kanaal gebruiken.
 
 ### <a name="supporting-management-tools"></a>Ondersteunende beheerprogramma’s
 
@@ -83,7 +83,7 @@ We hebben ook nagedacht hoe we de implementatie van updates voor u zo gemakkelij
 
 [Windows 10-updates implementeren met Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 
-[Office 365 ProPlus met Configuration Manager beheren](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
+[Microsoft 365-apps voor ondernemingen beheren met Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
 
 ## <a name="overview-of-windows-and-office-channels"></a>Overzicht van Windows- en Office-kanalen
 
@@ -93,7 +93,7 @@ Windows 10 biedt drie servicekanalen:
 - **Semi-Annual-kanaal** biedt tweemaal per jaar nieuwe functies met functie-updates
 - **Long Term Servicing Channel** is alleen bedoeld voor gespecialiseerde apparaten die een langerlopende servicefunctie nodig hebben.
 
-Office 365 biedt vier servicekanalen:
+Microsoft 365 biedt vier servicekanalen:
 
 - Met het [**Office Insider-programma**](https://support.office.com/article/What-is-Office-Insider-f4208185-b63a-4b68-9c7a-9a32d2411c16) voor organisaties kunnen zij de nieuwste Office-functies en -functionaliteiten die nog in ontwikkeling zijn, testen en feedback erover geven
 - **Monthly-kanaal** om gebruikers te voorzien van de nieuwste Office-functies zodra deze beschikbaar zijn
@@ -103,11 +103,11 @@ Office 365 biedt vier servicekanalen:
 Voor meer informatie over de Windows- en Office-servicekanalen raadpleegt u de onderstaande documentatie:
 
 - [Overzicht van Windows als een service](https://docs.microsoft.com/windows/deployment/update/waas-overview#servicing-channels)
-- [Overzicht van de updatekanalen voor Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
+- [Overzicht van de update-kanalen voor Microsoft 365-apps voor ondernemingen](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
 
 ## <a name="phased-deployment-of-updates"></a>Gefaseerde implementatie van updates
 
-We gaan nu in op de manier waarop u deze updates gaat uitrollen. Voor elke versie adviseren we ten minste drie implementatiefasen voor IT: validatie, pilot en algemene productimplementatie. Zodra u eenmaal werkt met Windows 10 en Office 365 ProPlus, gebruikt u het maandelijkse onderhoud om met de kritieke beveiligings- en kwaliteitsupdates actueel te blijven. Vervolgens gaat u naar het semi-annual-onderhoud voor nieuwe functies.
+We gaan nu in op de manier waarop u deze updates gaat uitrollen. Voor elke versie adviseren we ten minste drie implementatiefasen voor IT: validatie, pilot en algemene productimplementatie. Zodra u werkt met Windows 10-en Microsoft 365-apps voor ondernemingen, gebruikt u de maandelijkse service om op de hoogte te blijven van de kritieke beveiligings-en kwaliteitsupdates. Vervolgens gaat u naar het semi-annual-onderhoud voor nieuwe functies.
 
 ### <a name="monthly-updating"></a>Maandelijkse updates
 
@@ -125,7 +125,7 @@ Windows Update voor Bedrijven en Windows Server Update Services ondersteunen al 
 
 #### <a name="binary-delta-compression"></a>Binaire delta-compressie
 
-Binaire delta-compressie in Office wordt alleen gebruikt als u vanuit de recentste versie van Office 365 ProPlus bijwerkt. De benadering werkt dus alleen als u vanuit de vorige build gaat bijwerken en u kunt geen updates overslaan.
+Binaire delta-compressie in Office wordt alleen gebruikt als u vanuit de recentste versie van Microsoft 365-apps voor ondernemingen bijwerkt. De benadering werkt dus alleen als u vanuit de vorige build gaat bijwerken en u kunt geen updates overslaan.
 
 U kunt kanalen voor Windows- en Office-updates beheren via Configuration Manager met gebruik van het standaardproces voor goedkeuring en doelprocessen. U kunt ook beleidsinstellingen in Office en Windows gebruiken om gebruikte updatekanalen af te dwingen, evenals gerelateerde instellingen.
 
@@ -141,7 +141,7 @@ Wat de tools betreft, kunt u beleidsinstellingen gebruiken bij Windows Update vo
 
 [Semi-annual-kanaal voor Windows](https://docs.microsoft.com/windows/deployment/update/waas-overview#semi-annual-channel)
 
-[Semi-annual-kanaal voor Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
+[Semi-Annual-kanaal voor Microsoft 365-apps voor ondernemingen](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
 
 #### <a name="upgrade-task-sequences"></a>Takenreeksen upgraden
 
@@ -165,7 +165,7 @@ Als u al takenreeksen gebruikt om uw Windows 7-computers naar Windows 10 te migr
 
   - Toekomstige functie-updates die voor maart zijn bedoeld en te beginnen met 1903, worden nog 18 maanden na de releasedatum ondersteund.
 
-  - Halfjaarlijkse updates voor Office 365 ProPlus worden nog 18 maanden ondersteund
+  - Halfjaarlijkse updates voor Microsoft 365-apps voor ondernemingen worden nog 18 maanden ondersteund
 
 #### <a name="additional-setup-automation-options-outside-of-task-sequences"></a>Aanvullende automatiseringsopties voor het instellen buiten de takenreeksen
 

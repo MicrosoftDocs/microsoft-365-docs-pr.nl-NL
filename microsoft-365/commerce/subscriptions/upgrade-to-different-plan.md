@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 description: Meer informatie over het upgraden naar een nieuw abonnement.
 monikerRange: o365-worldwide
-ms.openlocfilehash: a5cede13a64ea1a6562a326c32dc902d14c3dfe5
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: faddecffd91eb58dab7a3b498de97633b5efd9d0
+ms.sourcegitcommit: 11198133b43eb6a6369e544c8a0dd408d582591c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707521"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43796510"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Upgraden naar een ander abonnement 
 
@@ -63,7 +63,7 @@ Wanneer u klaar bent met afrekenen, kan het enkele minuten duren voordat de upgr
 
 ## <a name="the-upgrade-tab-is-empty"></a>Het tabblad Upgrade is leeg
 
-Als het tabblad **Bijwerken** leeg is, ziet u een uitleg waarom u op dit moment niet upgraden. U proberen [plannen handmatig](change-plans-manually.md) te wijzigen of ondersteuning [te bellen.](../../admin/contact-support-for-business-products.md) Zie [Waarom kan ik geen upgradeplannen uitvoeren voor](#why-cant-i-upgrade-plans)meer informatie.
+Als het tabblad **Bijwerken** leeg is, ziet u een uitleg waarom u op dit moment niet upgraden. U proberen plannen handmatig te [wijzigen.](change-plans-manually.md) Zie [Waarom kan ik geen upgradeplannen uitvoeren voor](#why-cant-i-upgrade-plans)meer informatie.
 
 ## <a name="i-dont-see-the-plan-i-want"></a>Ik zie het plan niet dat ik wil.
 
