@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Microsoft 365-services gebruiken. Met het dashboard Gebruiksoverzicht kunt u voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
-ms.openlocfilehash: 646096b0e9d9f2c1d701fba312901bf744a74501
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 665512e322eadd2f590fb5109fd6f1a9e7706e61
+ms.sourcegitcommit: b458277f0a9937555bc6c5b3fb2a41613f7cc9a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621268"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43794015"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Microsoft 365-overzichten in het beheercentrum
 
@@ -58,7 +58,7 @@ Bekijk deze video voor meer informatie over hoe u de rapporten kunt gebruiken:
 ::: moniker-end
 
    
-2. Selecteer **Een rapport selecteren** bovenaan het dashboard om een selectie te maken uit een lijst met alle beschikbare rapporten. Of selecteer een activiteitenwidget voor een service (e-mail, OneDrive enzovoort) voor meer informatie. <br/>![Het gebruiksdashboard](../../media/usage-report-dashboard.png)
+2. Selecteer **Een rapport selecteren** bovenaan het dashboard om een selectie te maken uit een lijst met alle beschikbare rapporten. Of selecteer een activiteitenwidget voor een service (zoals e-mail, OneDrive) voor meer informatie. <br/>![Het gebruiksdashboard](../../media/usage-report-dashboard.png)
   
 ## <a name="who-can-see-reports"></a>Wie kan rapporten zien?
 
@@ -104,7 +104,7 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
   
 - [Gebruik van OneDrive voor Bedrijven](onedrive-for-business-usage.md)
 
-- [ProPlus-gebruik](microsoft365-apps-usage.md)
+- [Gebruik van Microsoft 365-apps](microsoft365-apps-usage.md)
   
 - [SharePoint-sitegebruik](sharepoint-site-usage.md)
   
