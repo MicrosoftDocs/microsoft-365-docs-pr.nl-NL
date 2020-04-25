@@ -15,18 +15,19 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Meer informatie over herstelacties in geautomatiseerde onderzoeks- en reactiemogelijkheden in Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: d14b8827bd3c69461d832d66bb371b5d62d9802e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c44b0a535e6838258d3efa63010d7ccc63009af9
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634638"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804822"
 ---
 # <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a>Inbehandeling of voltooide herstelacties weergeven na een geautomatiseerd onderzoek in Office 365
 
-## <a name="approve-or-reject-pending-actions"></a>In behandeling zijnde acties goedkeuren (of afwijzen)
 
 ![Actiepagina AIR-onderzoeken](../../media/air-investigationactionspage.png)
+
+## <a name="approve-or-reject-pending-actions"></a>In behandeling zijnde acties goedkeuren (of afwijzen)
 
 Tijdens het bekijken van de [details van een onderzoek](air-view-investigation-results.md)u alle in behandeling zijnde herstelacties goedkeuren of afwijzen. Wij raden u aan dit zo snel mogelijk te doen, zodat uw geautomatiseerde onderzoeken worden voltooid.
 
@@ -44,8 +45,8 @@ Tijdens het bekijken van de [details van een onderzoek](air-view-investigation-r
 5. Selecteer een item in de lijst. (Hiermee worden de knoppen Goedkeuren en weigeren geactiveerd.)
 
 6. Bekijk de beschikbare informatie voor het item(en) dat u hebt geselecteerd en keur de actie(en) goed of verwerp deze. 
- - **Goedkeuren** maakt het mogelijk om te beginnen met het herstellen.
- - **Reject** onderneemt geen verdere actie
+   - **Goedkeuren** maakt het mogelijk om te beginnen met het herstellen.
+   - **Reject** onderneemt geen verdere actie
 
 ## <a name="next-steps"></a>Volgende stappen
 

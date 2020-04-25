@@ -12,13 +12,13 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - remotework
-description: 'Bescherm uw zakelijke e-mail en gegevens tegen cyberbedreigingen, waaronder ransomware, phishing en schadelijke bijlagen. '
-ms.openlocfilehash: 0730f4df4f6e9e72f024b35729909df309826625
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Bescherm uw zakelijke e-mail en gegevens tegen cyberbedreigingen, waaronder ransomware, phishing en schadelijke bijlagen.
+ms.openlocfilehash: f2d76fd92ac6d439fd6400a0478028c99ae935eb
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630795"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43808842"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>Top 12 taken voor beveiligingsteams ter ondersteuning van thuiswerken
 
@@ -191,7 +191,7 @@ Recente blog artikelen over dit onderwerp:
 
 ## <a name="10-train-users"></a>10: Treingebruikers
 
-Wanneer gebruikers niet op de hoogte zijn van functies voor bedreigingsbescherming op het werk in uw organisatie, kunnen ze gefrustreerd raken door beveiligingsfuncties die worden gezien als het vertragen of voorkomen dat ze hun werk gedaan krijgen. Bovendien, als ze van tevoren weten waar ze op moeten letten met betrekking tot verdachte e-mailberichten of URL's, zullen ze veel minder kans hebben om twijfelachtige artefacten te openen. Het trainen van gebruikers kan uw gebruikers en beveiligingsteam veel tijd en frustratie besparen.
+Het trainen van gebruikers kan uw gebruikers en beveiligingsteam veel tijd en frustratie besparen. Savvy gebruikers hebben minder kans om bijlagen te openen of klik op links in twijfelachtige e-mailberichten, en ze hebben meer kans om verdachte websites te vermijden. 
 
 Het Harvard Kennedy School [Cybersecurity Campaign Handbook](https://go.microsoft.com/fwlink/?linkid=2015598&amp;clcid=0x409) biedt uitstekende richtlijnen voor het opzetten van een sterke cultuur van beveiligingsbewustzijn binnen uw organisatie, inclusief het trainen van gebruikers om phishing-aanvallen te identificeren. 
 

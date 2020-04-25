@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Meer informatie over het herkennen en herstellen van de aanval met illegale toestemmingssubsidies in Office 365.
-ms.openlocfilehash: 43ce8de2826006069b815a37208fe2a3834bf313
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 49fbbc1ea687cb5c01b39045a7359ee131a6732a
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637602"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43808981"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>Illegale toestemmingssubsidies opsporen en saneren
 
@@ -48,17 +48,18 @@ U moet zoeken in de **audit log** om tekenen te vinden, ook wel Indicators of Co
 
 3. Zoek (alle activiteiten en alle gebruikers) en voer indien nodig de begin- en einddatum in en klik op **Zoeken**. 
 
-4. Filter de resultaten voor Toestemming aan toepassing en Voeg OAuth2PermissionGrant toe.
+4. Klik **op Resultaten filteren** en voer Toestemming voor toepassing in het veld **Activiteit** in.
 
 5. Klik op het resultaat om de details van de activiteit te zien. Klik op **Meer informatie** om meer informatie over de activiteit te krijgen. Controleer of IsAdminContent is ingesteld op True.
 
 > [!NOTE]
-> * Het kan 30 minuten tot 24 uur duren voordat de bijbehorende controlelogboekvermelding in de zoekresultaten wordt weergegeven nadat een gebeurtenis heeft plaatsgevonden. <br/><br/> Hoe lang een controlerecord wordt bewaard en doorzoekbaar is in het controlelogboek, is afhankelijk van uw Microsoft 365-abonnement en in het bijzonder het type licentie dat aan een specifieke gebruiker is toegewezen. Zie [Controlelogboek voor](../../compliance/search-the-audit-log-in-security-and-compliance.md)meer informatie .
-Als deze waarde waar is, geeft dit aan dat iemand met toegang tot globale beheerders brede toegang tot gegevens heeft verleend. Als dit onverwacht is, neemt u stappen om een aanval te [bevestigen.](#how-to-confirm-an-attack)
+> Het kan 30 minuten tot 24 uur duren voordat de bijbehorende controlelogboekvermelding in de zoekresultaten wordt weergegeven nadat een gebeurtenis heeft plaatsgevonden. <br/><br/> Hoe lang een controlerecord wordt bewaard en doorzoekbaar is in het controlelogboek, is afhankelijk van uw Microsoft 365-abonnement en in het bijzonder het type licentie dat aan een specifieke gebruiker is toegewezen. Zie [Controlelogboek voor](../../compliance/search-the-audit-log-in-security-and-compliance.md)meer informatie .
+> 
+> Als deze waarde waar is, geeft dit aan dat iemand met toegang tot globale beheerders brede toegang tot gegevens heeft verleend. Als dit onverwacht is, neemt u stappen om een aanval te [bevestigen.](#how-to-confirm-an-attack)
 
 ## <a name="how-to-confirm-an-attack"></a>Een aanval bevestigen
 
-Als u een of meer exemplaren van de hierboven genoemde IOCs hebt, moet u verder onderzoek doen om positief te bevestigen dat de aanval heeft plaatsgevonden. U een van deze drie methoden gebruiken om de aanval te bevestigen.
+Als u een of meer exemplaren van de hierboven genoemde IOCs hebt, moet u verder onderzoek doen om positief te bevestigen dat de aanval heeft plaatsgevonden. U een van deze drie methoden gebruiken om de aanval te bevestigen:
 
 - Voorraadtoepassingen en hun machtigingen met behulp van de Azure Active Directory-portal. Deze methode is grondig, maar u slechts één gebruiker tegelijk controleren die zeer tijdrovend kan zijn als u veel gebruikers hebt om te controleren.
 
@@ -158,9 +159,9 @@ Nadat u een toepassing met illegale machtigingen hebt geïdentificeerd, hebt u v
 
 - U geïntegreerde toepassingen uitschakelen voor uw huur. Dit is een drastische stap die de mogelijkheid voor eindgebruikers om toestemming te verlenen op een huurder-brede basis uitschakelt. Dit voorkomt dat uw gebruikers per ongeluk toegang verlenen tot een schadelijke toepassing. Dit wordt niet sterk aanbevolen omdat het de mogelijkheid van uw gebruikers om productief te zijn met toepassingen van derden ernstig schaadt. U dit doen door de stappen te volgen in [Geïntegreerde apps in- of uitschakelen.](https://docs.microsoft.com/office365/admin/misc/integrated-apps)
 
-## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Beveilig Microsoft 365 als een cybersecurity pro
+## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Microsoft 365 beveiligen als een cybersecurity pro
 
-Uw Microsoft 365-abonnement wordt geleverd met een krachtige set beveiligingsmogelijkheden die u gebruiken om uw gegevens en uw gebruikers te beschermen. Gebruik de [microsoft 365-beveiligingsroadmap - Topprioriteiten voor de eerste 30 dagen, 90 dagen en daarna](security-roadmap.md) om de aanbevolen aanbevolen aanbevolen microsoft-aanbevolen procedures voor het beveiligen van uw Microsoft 365-tenant te implementeren.
+Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkheden die u kunt gebruiken om uw gegevens en gebruikers te beschermen. Gebruik de [Microsoft 365-roadmap voor beveiliging - Topprioriteiten voor de eerste 30 dagen, 90 dagen en verder](security-roadmap.md) om door Microsoft aanbevolen procedures voor het beveiligen van uw Microsoft 365-tenant te implementeren.
 
 - Taken die in de eerste 30 dagen moeten worden uitgevoerd. Deze hebben direct effect en weinig invloed op uw gebruikers.
 

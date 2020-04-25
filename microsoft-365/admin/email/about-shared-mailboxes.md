@@ -20,20 +20,20 @@ search.appverid:
 - MET150
 - MOE150
 description: Gedeelde postvakken worden gebruikt wanneer meerdere personen toegang tot hetzelfde postvak nodig hebben. Meer informatie over wat u moet weten voordat u een gedeeld postvak maakt.
-ms.openlocfilehash: fcdbb591e5b8f9b2c5490435b68e543c17a035a0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b6d1d7c8e0ae99047b854e91c1a97327a839f630
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629105"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43808744"
 ---
 # <a name="about-shared-mailboxes"></a>Meer over gedeelde postvakken
 
 Gedeelde postvakken worden gebruikt als meerdere mensen toegang tot hetzelfde postvak nodig hebben, zoals bedrijfsgegevens, ondersteuningsadressen, recepties of andere functies die gedeeld worden door meerdere mensen.
 
-Gebruikers met machtigingen voor het groepspostvak kunnen verzenden als of namens het groeps-e-mailadres als de beheerder die gebruiker daarvoor heeft gemachtigd. Dit is vooral handig voor hulp en ondersteuning postvakken omdat gebruikers e-mails kunnen verzenden van "Contoso Support" of "Building A Reception Desk.
+Gebruikers met machtigingen voor het groepspostvak kunnen verzenden als of namens het groeps-e-mailadres als de beheerder die gebruiker daarvoor heeft gemachtigd. Dit is bijzonder handig voor helpdesk- en ondersteuningspostvakken, omdat gebruikers e-mails kunnen verzenden vanuit 'Contoso-ondersteuning' of 'Receptie gebouw A'.
 
-Voordat u [een gedeeld postvak maakt,](create-a-shared-mailbox.md)zijn hier enkele dingen die u moet weten.
+Voordat u [een gedeeld postvak maakt,](create-a-shared-mailbox.md)vindt u hier enkele dingen die u moet weten:
 
 - **Licenties:** Uw gedeelde postvak kan tot 50 GB aan gegevens opslaan zonder dat u er een licentie aan toestelt. Als u meer gegevens wilt opslaan, dient u er een licentie aan toe te wijzen. Zie [Exchange Online-limieten](https://technet.microsoft.com/library/exchange-online-limits.aspx#StorageLimits)voor meer informatie over licenties voor gedeelde postvak . Als de opslaglimiet voor een gedeeld postvak wordt bereikt, kunt u nog enige tijd e-mail ontvangen, maar geen nieuwe e-mail meer verzenden. Vervolgens kunt u ook geen e-mail meer ontvangen. Afzenders ontvangen dan een bewijs dat hun e-mail niet kan worden bezorgd.
 
@@ -55,7 +55,7 @@ Voordat u [een gedeeld postvak maakt,](create-a-shared-mailbox.md)zijn hier enke
 
 - **Te veel gebruikers:** Wanneer er te veel aangewezen gebruikers gelijktijdig toegang hebben tot een gedeeld postvak, kunnen ze met tussenpozen geen verbinding maken met dit postvak. In dit geval u overwegen het aantal gebruikers te verminderen of een andere workload te gebruiken, zoals een Microsoft 365-groep of openbare map.
 
-- **Bericht verwijderen:** Helaas u niet voorkomen dat mensen berichten verwijderen in een gedeeld postvak. De enige manier om dit te omzeilen is het maken van een Microsoft 365-groep in plaats van een gedeeld postvak. Een groep in Outlook is als een gedeeld postvak. Zie [Groepen vergelijken voor](../create-groups/compare-groups.md)een vergelijking van de twee . Zie [Meer informatie over groepen voor](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx) meer informatie over groepen
+- **Bericht verwijderen:** Helaas u niet voorkomen dat mensen berichten verwijderen in een gedeeld postvak. De enige manier om dit te omzeilen is het maken van een Microsoft 365-groep in plaats van een gedeeld postvak. Een groep in Outlook is als een gedeeld postvak. Zie [Groepen vergelijken voor](../create-groups/compare-groups.md)een vergelijking van de twee . Zie Meer informatie over groepen voor meer informatie [over groepen.](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
 
 ## <a name="related-articles"></a>Verwante artikelen
 

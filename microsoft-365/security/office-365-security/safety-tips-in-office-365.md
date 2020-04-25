@@ -17,16 +17,18 @@ ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
 description: Introduceert veiligheidstips voor e-mailberichten die zijn gefilterd door de EOP en het spamfilter.
-ms.openlocfilehash: 7171f5855e295ffac931862c86db011c9f38a4c6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c7d7e6819e1374fd941d6eeb992ecf63726d4127
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634302"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43809019"
 ---
 # <a name="safety-tips-in-email-messages"></a>Veiligheidstips in e-mailberichten
 
-Exchange Online Protection (EOP) en Microsoft 365 beschermen u met spam, phishing en malwarepreventie. Vandaag de dag zijn sommige van deze aanvallen zo goed gemaakt dat ze er legitiem uitzien. Het verzenden van berichten naar de map Ongewenste e-mail is niet altijd voldoende. Wanneer u uw e-mail nu in Outlook of de webversie van Outlook controleert, controleert EOP automatisch de afzender en voegt een veiligheidstip toe aan de bovenkant van de e-mail.
+Exchange Online Protection (EOP) en Microsoft 365 beschermen u met spam, phishing en malwarepreventie. Vandaag de dag zijn sommige van deze aanvallen zo goed gemaakt dat ze er legitiem uitzien. Het verzenden van berichten naar de map Ongewenste e-mail is niet altijd voldoende. Wanneer u nu uw e-mail controleert in Outlook of Outlook op het web of een e-mailclient, controleert EOP automatisch de afzender en voegt een veiligheidstip toe aan de bovenkant van de e-mail.
+
+Veiligheidstips in Outlook zijn niet afhankelijk van welke versie van Outlook u gebruikt, omdat de veiligheidstip is opengebroken en direct in de berichttekst wordt ingevoegd. Dit betekent dat de veiligheidstip wordt weergegeven in welke e-mailclient u ook gebruikt. Het wordt gedaan op het niveau van het e-mailfilter en wordt niet weergegeven op het niveau van de e-mailclient, dus het wordt niet alleen weergegeven in een versie van Outlook, het wordt ook weergegeven in elke e-mailclient.
 
 De veiligheidstip, een bericht met kleurcodes, waarschuwt u voor mogelijk schadelijke berichten. De meeste berichten in je inbox hebben geen veiligheidstip. Je ziet ze alleen als EOP en Microsoft 365 informatie hebben die je nodig hebt om spam-, phishing- en malware-aanvallen te voorkomen. Als er veiligheidstips in uw postvak IN verschijnen, u de volgende voorbeelden gebruiken om meer te weten te komen over elk type veiligheidstip.
 
@@ -55,6 +57,7 @@ De veiligheidstip, een bericht met kleurcodes, waarschuwt u voor mogelijk schade
     We vertellen je ook wanneer we een e-mail hebben gecontroleerd omdat deze afkomstig is van een afzender die je vertrouwt op je lijst met veilige afzenders of als er een e-mailstroomregel bestaat om het filteren te omzeilen.
 
     De grijze veiligheidstip wordt ook weergegeven wanneer externe afbeeldingen worden geblokkeerd, dat wil zeggen dat het bericht in uw postvak IN staat en geen spam lijkt te zijn, maar externe afbeeldingen bevat die u niet hebt gedownload.
+    
 
 ## <a name="working-with-safety-tips"></a>Werken met veiligheidstips
 

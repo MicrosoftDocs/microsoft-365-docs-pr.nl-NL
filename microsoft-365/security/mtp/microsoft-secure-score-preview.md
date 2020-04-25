@@ -17,19 +17,21 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8b8976f07f88afa184eb292b0cdc1d6e36a44d77
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8767174fa17aceab7d83adb96f938efad5074356
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43615916"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804772"
 ---
 # <a name="microsoft-secure-score-preview"></a>Microsoft Secure Score (voorbeeld)
 
 >[!IMPORTANT]
 >Sommige informatie heeft betrekking op vooraf uitgebrachte product dat aanzienlijk kan worden gewijzigd voordat het commercieel wordt vrijgegeven. Microsoft doet geen garanties, uitdrukkelijk of impliciet, met betrekking tot de hier verstrekte informatie.
 
-Microsoft Secure Score is een meting van de beveiligingshouding van een organisatie, met een hoger aantal dat aangeeft dat er meer verbeteracties zijn uitgevoerd. Het volgen van de aanbevelingen voor beveiligingsscore kan uw organisatie beschermen tegen bedreigingen. Vanuit een gecentraliseerd dashboard in het Microsoft 365-beveiligingscentrum kunnen organisaties de beveiliging van hun Microsoft 365-identiteiten, gegevens, apps, apparaten en infrastructuur bewaken en eraan werken.
+Microsoft Secure Score is een meting van de beveiligingshouding van een organisatie, met een hoger aantal dat aangeeft dat er meer verbeteracties zijn uitgevoerd. Het is te https://security.microsoft.com/securescore vinden in het Microsoft 365 security center.
+
+Het volgen van de aanbevelingen voor beveiligingsscore kan uw organisatie beschermen tegen bedreigingen. Vanuit een gecentraliseerd dashboard in het Microsoft 365-beveiligingscentrum kunnen organisaties de beveiliging van hun Microsoft 365-identiteiten, gegevens, apps, apparaten en infrastructuur bewaken en eraan werken.
 
 Secure Score helpt organisaties:  
 
@@ -154,9 +156,34 @@ Microsoft Secure Score is een numerieke samenvatting van uw beveiligingshouding 
 
 ## <a name="whats-new"></a>Wat is er nieuw? 
 
-Om van Microsoft Secure Score een betere vertegenwoordiger van uw beveiligingshouding te maken, hebben we enkele wijzigingen aangebracht. Zie Wat komt er in Microsoft Secure Score voor meer informatie over geplande [wijzigingen?](microsoft-secure-score-whats-coming.md)
+Om van Microsoft Secure Score een betere vertegenwoordiger van uw beveiligingshouding te maken, hebben we enkele wijzigingen aangebracht. Zie [Wat komt er in Microsoft Secure Score?](microsoft-secure-score-whats-coming.md)
 
-### <a name="updated-interface-and-functionality"></a>Bijgewerkte interface en functionaliteit
+### <a name="april-21st-2020"></a>21 april 2020
+
+#### <a name="added-azure-active-directory-improvement-action"></a>Added Azure Active Directory improvement action Added Azure Active Directory improvement action Added Azure Active Directory improvement action Added Azure
+
+- Geef gebruikers geen toestemming voor onbeheerde toepassingen (momenteel beschikbaar in een vrijgegeven versie)
+
+#### <a name="added-azure-advanced-threat-protection-improvement-actions"></a>Azure Advanced Threat Protection-verbeteringsacties toegevoegd
+
+- Afdrukspoolerservice uitschakelen op domeincontrollers
+- Onveilige Kerberos-delegaties wijzigen om imitatie te voorkomen
+- Lokale beheerderswachtwoorden beveiligen en beheren met Microsoft LAPS
+- Risico op zijwaarts e-bewegens bewegingspad voor gevoelige entiteiten verminderen
+- Slapende accounts verwijderen uit gevoelige groepen
+- Onveilige SID-geschiedeniskenmerken verwijderen uit entiteiten
+- Onveilige accountkenmerken oplossen
+- De belichting met wissen van tekstreferenties stoppen
+- Verouderde protocollen communicatie stoppen
+- Stop zwak versleutelingsgebruik
+
+#### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations"></a>Ondersteuning voor beveiligingsaanbevelingen voor Microsoft Defender ATP Threat & Vulnerability Management (TVM)
+
+Alle vrijgegeven beveiligingsaanbevelingen van TVM zijn nu beschikbaar.
+
+### <a name="january---march-2020"></a>Januari - maart 2020
+
+#### <a name="updated-interface-and-functionality"></a>Bijgewerkte interface en functionaliteit
 
 * Alle nieuwe statistieken en trends weergaven voor CISO en lead level discussies
 * Nieuwe manieren om je score bij te houden en te benchmarken
@@ -165,13 +192,13 @@ Om van Microsoft Secure Score een betere vertegenwoordiger van uw beveiligingsho
 * Beheren naar uw toekomstige doelen met behulp van scoreprojecties en geplande acties
 * En meer!
 
-### <a name="removed-not-scored-and-review-improvement-actions"></a>Verwijderd "not scored" en "review" verbeteringsacties
+#### <a name="removed-not-scored-and-review-improvement-actions"></a>Verwijderd "not scored" en "review" verbeteringsacties
 
 Een van de principes van Secure Score is dat de score gestandaardiseerd en gemakkelijk te relateren aan. Het hebben van verbeteringsacties die niet meetbaar of uitvoerbaar zijn, heeft verwarring veroorzaakt. Eén Microsoft Secure Score heeft alleen zin als elke aanbeveling een duidelijk effect op de score kan hebben. Niet-gescoorde verbeteringsacties zijn niet meetbaar en beoordelingsverbeteringsacties worden niet gemeten volgens dezelfde standaard als andere verbeteringsacties.
 
 Om deze redenen zijn alle verbeteringsacties die niet zijn gescoord of waarvoor een beoordelingscadans nodig was, tijdelijk verwijderd. Er is geen actie nodig van uw kant.
 
-### <a name="simplification-of-the-point-system"></a>Vereenvoudiging van het puntensysteem
+#### <a name="simplification-of-the-point-system"></a>Vereenvoudiging van het puntensysteem
 
 Om punten te standaardiseren voor meerdere ervaringen, is elk actiepunt voor verbetering van de beveiligde score bijgewerkt om 10 punten of minder waard te zijn. Het is noodzakelijk om consistenter te zijn in de brede adempauze van veiligheidscontroles die we vandaag hebben en die we in de toekomst zullen toevoegen. Hoewel dit een belangrijke verandering is en u een daling van punttotalen zult zien, zal er geen verandering in uw veiligheidshouding zijn.
 

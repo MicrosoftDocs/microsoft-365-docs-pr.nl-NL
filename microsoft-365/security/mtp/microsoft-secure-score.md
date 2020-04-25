@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c15f0b30dbf377da4e01ba199852f02bd7a003ff
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 56c3187999d34ac6d84c1b3857053f82bb40b2a9
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637102"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804754"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -120,9 +120,7 @@ Wanneer u een specifieke verbeteringsactie selecteert, wordt er een fly-out weer
 
 3. Selecteer **Negeren** omdat u hebt besloten het risico te accepteren en de verbeteringsactie niet uit te voeren. Zodra u een verbeteringsactie negeert, wordt het totale aantal veilige scorepunten dat u bereiken verminderd. U deze actie in de geschiedenis bekijken of op elk gewenst moment ongedaan maken.
 
-4. Selecteer **Controleren** omdat u door de verbeteringsactie regelmatig een deel van uw omgeving moet controleren om punten te winnen en te behouden. Postvakdoorstuurregels moeten bijvoorbeeld wekelijks worden gecontroleerd om ervoor te zorgen dat gegevens niet worden geëexfiltreerd uit uw netwerk. U hoeft geen wijzigingen aan te brengen, maar er moet wel een actie worden uitgevoerd. Als u de regels regelmatig bekijkt, ontvangt u de punten. Zo niet, dan wordt de score verlaagd.
-
-![Voorbeeld van actie voor verbetering van de veilige score](../../media/secure-score/secure-score1x450.png) ![Voorbeeld van het actievoorbeeld van Secure Score review-verbetering](../../media/secure-score/secure-score2x450.png)
+![Voorbeeld van actie voor verbetering van de veilige score](../../media/secure-score/secure-score1x450.png)
 
 *Cijfers 2 & 3: Verbetering actie flyouts*
 
@@ -137,6 +135,15 @@ Microsoft Secure Score is een numerieke samenvatting van uw beveiligingshouding 
 ## <a name="whats-new"></a>Wat is er nieuw?
 
 Om van Microsoft Secure Score een betere vertegenwoordiger van uw beveiligingshouding te maken, hebben we enkele wijzigingen aangebracht. Zie Wat komt er in Microsoft Secure Score voor meer informatie over geplande [wijzigingen?](microsoft-secure-score-whats-coming.md)
+
+### <a name="april-21st-2020"></a>21 april 2020
+
+#### <a name="removing-improvement-actions-that-dont-meet-expectations-for-reliable-measurement-or-dont-provide-a-useful-representation-of-security-posture"></a>Het verwijderen van verbeteringsacties die niet voldoen aan de verwachtingen voor betrouwbare metingen of geen nuttige weergave van de beveiligingshouding bieden
+
+Om ervoor te zorgen dat de Microsoft Secure Score zinvol is en dat elke verbeteringsactie meetbaar en betrouwbaar is, verwijderen we de volgende verbeteringsacties.
+
+- IRM-beveiligingen toepassen op documenten
+- Beleid ter voorkoming van gegevensverlies toepassen
 
 ### <a name="january---march-2020"></a>Januari - maart 2020
 

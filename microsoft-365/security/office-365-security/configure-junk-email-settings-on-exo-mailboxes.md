@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u de instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken. Veel van deze instellingen zijn beschikbaar voor gebruikers in de webversie van Outlook of Outlook.
-ms.openlocfilehash: a18706c4bf63d9d96ba5e2f9bcbb803bddec36db
-ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
+ms.openlocfilehash: 55597c45f093a5b9a0b860c6987454f926025e28
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/24/2020
-ms.locfileid: "43800065"
+ms.locfileid: "43804790"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
 
@@ -54,7 +54,7 @@ Beheerders kunnen Exchange Online PowerShell gebruiken om de status van de regel
 ## <a name="use-exchange-online-powershell-to-enable-or-disable-the-junk-email-rule-in-a-mailbox"></a>Exchange Online PowerShell gebruiken om de regel voor ongewenste e-mail in een postvak in te schakelen of uit te schakelen
 
 > [!NOTE]
-> U de cmdlet **Set-MailboxJunkEmailConfiguration** alleen gebruiken om de regel voor ongewenste e-mail uit te schakelen in een postvak dat is geopend in Outlook (in de exchange-modus in cache) of de webversie van Outlook. Als het postvak niet is geopend, ontvangt u `The Junk Email configuration couldn't be set. The user needs to sign in to Outlook Web App before they can modify their Safe Senders and Recipients or Blocked Senders lists.` de fout: Als u deze fout `-ErrorAction SlientlyContinue` wilt onderdrukken voor bulkbewerkingen, u de opdracht **Set-MailboxJunkEmailConfiguration** toevoegen
+> U de cmdlet **Set-MailboxJunkEmailConfiguration** alleen gebruiken om de regel voor ongewenste e-mail uit te schakelen in een postvak dat is geopend in Outlook (in de exchange-modus in cache) of de webversie van Outlook. Als het postvak niet is geopend, ontvangt u `The Junk Email configuration couldn't be set. The user needs to sign in to Outlook Web App before they can modify their Safe Senders and Recipients or Blocked Senders lists.` de fout: Als u deze fout `-ErrorAction SlientlyContinue` wilt onderdrukken voor bulkbewerkingen, u de opdracht **Set-MailboxJunkEmailConfiguration** toevoegen.
 
 Als u de regel voor ongewenste e-mail in een postvak wilt in- of uitschakelen, gebruikt u de volgende syntaxis:
 
@@ -76,11 +76,11 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
 Zie [Set-MailboxJunkEmailConfiguration voor](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration)gedetailleerde syntaxis- en parametergegevens.
 
- **Opmerkingen**:
-
-- Als de gebruiker zijn postvak nooit heeft geopend, ontvangt u mogelijk een foutmelding wanneer u de vorige opdracht uitvoert. Als u deze fout voor `-ErrorAction SlientlyContinue` bulkbewerkingen wilt onderdrukken, voegt u toe aan de opdracht **Set-MailboxJunkEmailConfiguration.**
-
-- Zelfs als u de regel voor ongewenste e-mail uitschakelt, kan het filter voor ongewenste e-mail (afhankelijk van hoe het is geconfigureerd) ook bepalen of een bericht spam is en berichten verplaatsen naar de map Postvak IN of Ongewenste e-mail op basis van het eigen spamvonnis en de safelist-verzameling in het postvak. Zie de instellingen [voor ongewenste e-mail in de](#about-junk-email-settings-in-outlook) sectie Outlook in dit onderwerp voor meer informatie.
+> [!NOTE]
+> 
+> - Als de gebruiker zijn postvak nooit heeft geopend, ontvangt u mogelijk een foutmelding wanneer u de vorige opdracht uitvoert. Als u deze fout voor `-ErrorAction SlientlyContinue` bulkbewerkingen wilt onderdrukken, voegt u toe aan de opdracht **Set-MailboxJunkEmailConfiguration.**
+> 
+> - Zelfs als u de regel voor ongewenste e-mail uitschakelt, kan het filter voor ongewenste e-mail (afhankelijk van hoe het is geconfigureerd) ook bepalen of een bericht spam is en berichten verplaatsen naar de map Postvak IN of Ongewenste e-mail op basis van het eigen spamvonnis en de safelist-verzameling in het postvak. Zie de instellingen [voor ongewenste e-mail in de](#about-junk-email-settings-in-outlook) sectie Outlook in dit onderwerp voor meer informatie.
 
 ### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
@@ -145,13 +145,13 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
 Zie [Set-MailboxJunkEmailConfiguration voor](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration)gedetailleerde syntaxis- en parametergegevens.
 
- **Opmerkingen**:
-
-- Als de gebruiker zijn postvak nooit heeft geopend, ontvangt u mogelijk een foutmelding wanneer u de vorige opdrachten uitvoert. Als u deze fout voor `-ErrorAction SlientlyContinue` bulkbewerkingen wilt onderdrukken, voegt u toe aan de opdracht **Set-MailboxJunkEmailConfiguration.**
-
-- Zelfs als de regel voor ongewenste e-mail is uitgeschakeld in het postvak, u de safelistverzameling nog steeds configureren en het filter ongewenste e-mail van Outlook berichten verplaatsen naar het Postvak in of de map Ongewenste e-mail. Zie de instellingen [voor ongewenste e-mail in de](#about-junk-email-settings-in-outlook) sectie Outlook in dit onderwerp voor meer informatie.
-
-- Het outlook-filter voor ongewenste e-mail heeft extra instellingen voor het verzamelen van safelist (bijvoorbeeld **Automatisch mensen toevoegen die ik e-mail aan de lijst Met veilige afzenders).** Zie [Filters voor ongewenste e-mail gebruiken gebruiken om te bepalen welke berichten u ziet.](https://support.office.com/article/274ae301-5db2-4aad-be21-25413cede077)
+> [!NOTE]
+> 
+> - Als de gebruiker zijn postvak nooit heeft geopend, ontvangt u mogelijk een foutmelding wanneer u de vorige opdrachten uitvoert. Als u deze fout voor `-ErrorAction SlientlyContinue` bulkbewerkingen wilt onderdrukken, voegt u toe aan de opdracht **Set-MailboxJunkEmailConfiguration.**
+> 
+> - Zelfs als de regel voor ongewenste e-mail is uitgeschakeld in het postvak, u de safelistverzameling nog steeds configureren en het filter ongewenste e-mail van Outlook berichten verplaatsen naar het Postvak in of de map Ongewenste e-mail. Zie de instellingen [voor ongewenste e-mail in de](#about-junk-email-settings-in-outlook) sectie Outlook in dit onderwerp voor meer informatie.
+> 
+> - Het outlook-filter voor ongewenste e-mail heeft extra instellingen voor het verzamelen van safelist (bijvoorbeeld **Automatisch mensen toevoegen die ik e-mail aan de lijst Met veilige afzenders).** Zie [Filters voor ongewenste e-mail gebruiken gebruiken om te bepalen welke berichten u ziet.](https://support.office.com/article/274ae301-5db2-4aad-be21-25413cede077)
 
 ### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 

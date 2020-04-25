@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Teams hebben nu toegang tot veilige links op het moment van uw klik. Of u nu chats 1-op-1 chats gebruikt, tussen Groepen of in Kanalen en Tabbladen, als u een abonnement hebt op Office 365 ATP, hebt u de mogelijkheid om deze veiligheidsfunctie in te schakelen en te gebruiken.
-ms.openlocfilehash: 88fe9756188eb16a2347d3c0cd4a98b4003ff457
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 07f20f0adf503e4592d2bd3f3bc9857d08a1e433
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635996"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43809003"
 ---
 <!--06/21/2019-->
 
@@ -28,7 +28,7 @@ ms.locfileid: "43635996"
 > [!IMPORTANT]
 > Deze functie is vanaf 28 februari 2020 in **Public Preview** voor klanten in het Microsoft Teams Technology Adoption Program (TAP). Deze notitie wordt uit het artikel verwijderd wanneer Safe Links for Teams op grotere schaal beschikbaar is.
 
-Microsoft Teams, een microsoft-cloudtoepassing voor het beheren van uw werk, maakt al gebruik van veilige bijlagen (voor Office 365), maar heeft nu toegang tot veilige koppelingen op het moment van uw klik. Of u nu chats 1-op-1 chats gebruikt, tussen groepen of in kanalen en tabbladen, als u een abonnement hebt op Office 365 ATP, u hebt de mogelijkheid om deze veiligheidsmaatregel in te schakelen en te gebruiken.
+Microsoft Teams, een microsoft-cloudtoepassing voor het beheren van uw werk, maakt al gebruik van veilige bijlagen (voor Office 365), maar heeft nu toegang tot veilige koppelingen op het moment van uw klik. Of u nu Chats, Groepschats, Kanalen of Tabbladen gebruikt, als u een abonnement hebt op Office 365 ATP, u deze veiligheidsmaatregel inschakelen en gebruiken. Zie [Licentierichtlijnen voor Microsoft 365 Tenant-Level Services](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance)voor meer informatie over licentievereisten.
 
 Zo werkt het: 
 
@@ -51,5 +51,4 @@ Als de gebruiker die de koppeling heeft verzonden niet wordt beschermd door Offi
 Als u op de knop *Teruggaan* op deze pagina in Teams klikt, wordt deze gesloten (of kan dit ertoe leiden dat gebruikers een lege pagina sluiten). Als u echter opnieuw op de link klikt, wordt de reputatie van de site opnieuw beoordeeld, zodat deze pagina opnieuw wordt weergegeven.
 
 > [!NOTE]
->Sommige Microsoft 365-beheerders schakelen het bericht **Doorgaan toch** in op de blokkeringspagina. Echter, als veilige links meet de reputatie van een site en vindt het ontbreekt, geen verdere click-through moet worden ondernomen. Het wordt niet aanbevolen dat gebruikers veiligheidsmaatregelen omzeilen. Gelieve dit af te wegen in uw overwegingen voordat u Toch doorgaan. 
-
+> Sommige Microsoft 365-beheerders schakelen het bericht **Doorgaan toch** in op de blokkeringspagina. Echter, als Safe Links meet de reputatie van een site en vindt het ontbreekt, geen verdere click-through moet worden ondernomen. Het wordt niet aanbevolen dat gebruikers veiligheidsmaatregelen omzeilen. Gelieve dit af te wegen in uw overwegingen voordat u Toch doorgaan. 
