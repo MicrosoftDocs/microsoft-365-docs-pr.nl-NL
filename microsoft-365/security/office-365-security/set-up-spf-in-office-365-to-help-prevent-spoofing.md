@@ -16,12 +16,12 @@ ms.assetid: 71373291-83d2-466f-86ea-fc61493743a6
 ms.collection:
 - M365-security-compliance
 description: 'Overzicht: in dit artikel wordt beschreven hoe u een DNS-record (Domain Name Service) bijwerkt, zodat u SPF (Sender Policy Framework) kunt gebruiken met uw aangepaste domein in Office 365. Het gebruik van SPF helpt bij het valideren van uitgaande e-mail die is verzonden vanuit uw aangepaste domein.'
-ms.openlocfilehash: c1424ed9da6a36128d9f4502aadb475068ad029b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9d84fb60886dd1518beb8a94438d5168c869a8c8
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638318"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43808974"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>SPF instellen om adresvervalsing te helpen voorkomen
 
@@ -49,7 +49,7 @@ Verzamel de volgende informatie:
 
 - Het huidige SPF TXT-record voor uw aangepaste domein. Zie [De informatie verzamelen die u nodig hebt om DNS-records voor Office 365 te maken](https://docs.microsoft.com/office365/admin/get-help-with-domains/information-for-dns-records)voor instructies.
 
-- IP-adressen van alle on-premises messaging-servers. Bijvoorbeeld **192.168.0.1**.
+- Externe IP-adressen van alle on-premises messaging-servers. Bijvoorbeeld: **131.107.2.200**.
 
 - Domeinnamen die moeten worden gebruikt voor alle domeinen van derden die u wilt opnemen in het SPF TXT-record. Sommige aanbieders van bulkmail hebben subdomeinen ingesteld voor gebruik door hun klanten. Het bedrijf MailChimp heeft bijvoorbeeld **servers.mcsv.net** opgezet.
 

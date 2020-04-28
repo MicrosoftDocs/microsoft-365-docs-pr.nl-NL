@@ -15,12 +15,12 @@ ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over de velden en waarden met berichtkoppen die door Exchange Online Protection worden toegevoegd aan berichten.
-ms.openlocfilehash: 1bb2468908ef9711242bdb236f7f43f9f6e43eb1
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 8b034da9e6c4ac138e804e07e4654c1e269aeda1
+ms.sourcegitcommit: 4f2129b161eed3f9ddec47494fa19a2a7a553e4f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708581"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43805216"
 ---
 # <a name="anti-spam-message-headers"></a>Berichtkoppen tegen ongewenste e-mail
 
@@ -46,7 +46,7 @@ Na het openen van de berichtkopinformatie zoekt u **X-Forefront-Antispam-Report*
 |IPV:CAL|Het bericht is door het spamfilter overgeslagen omdat het bron-IP-adres in de IP-acceptatielijst vermeld staat. Zie [Verbindingsfiltering configureren](configure-the-connection-filter-policy.md) voor meer informatie.|
 |IPV:NLI|Het IP-adres staat niet vermeld in de IP-reputatielijst.|
 |LANG|De taal waarin het bericht is geschreven, zoals opgegeven door de landcode (bijvoorbeeld ru_RU voor Russisch).|
-|PTR:\[ReverseDNS\]|Het PTR-record (ook wel pointer-record of omgekeerd DNS-adres genoemd) van het bron-IP-adres.|
+|PTR:\[ReverseDNS\]|De PTR-record (ook wel het omgekeerde DNS-adres genoemd) van het bron-IP-adres.|
 |SCL|De spamwaarschijnlijkheidswaarde (SCL) van het bericht. Hoe hoger de waarde, hoe groter de kans dat het bericht spam is. Zie [Spamwaarschijnlijkheidswaarde (SCL)](spam-confidence-levels.md) voor meer informatie.|
 |SFTY|Het bericht is geïdentificeerd als phishing en wordt tevens gemarkeerd met een van de volgende waarden: <ul><li>9.1: standaardwaarde. Het bericht bevat een phishing-URL, kan andere phishing-inhoud bevatten of kan zijn gemarkeerd als phishing door een ander e-mailfilter, zoals een on-premises versie van Exchange, voordat het bericht naar Microsoft 365 is doorgestuurd.</li><li>9.11: [Intra-org of self-to-self spoofing](anti-spoofing-protection.md#different-types-of-spoofing). Het bericht heeft antispoofing-controles niet doorstaan, waarbij het domein van de afzender in de berichtkop Van: hetzelfde is als, overeenkomt met, of deel uitmaakt van dezelfde organisatie als het ontvangende domein. De beveiligingstip over spoofing van binnen de organisatie wordt toegevoegd aan het bericht.</li><li>9.19: domeinimitatie. Het verzendende domein probeert zich voor te doen als een beveiligd domein (een domein dat eigendom is van de organisatie van de ontvanger of een aangepast domein), dat is gespecificeerd in een ATP-antiphishingbeleid. De veiligheidstip voor imitatie van een domein wordt aan het bericht toegevoegd (als de veiligheidstip is ingeschakeld in het ATP-antiphishingbeleid).</li><li>9.20: gebruikersimitatie. De verzendende gebruiker probeert zich voor te doen als een gebruiker in de organisatie van de ontvanger of als een beveiligde gebruiker die is gespecificeerd in een ATP-antiphishingbeleid. De veiligheidstip voor imitatie van een gebruiker wordt aan het bericht toegevoegd (als de veiligheidstip is ingeschakeld in het ATP-antiphishingbeleid).</li><li>9.21: [adresvervalsing tussen domeinen](anti-spoofing-protection.md#different-types-of-spoofing). Het bericht heeft antispoofingcontroles niet doorstaan en het domein van de afzender in de berichtkop Van: is niet geverifieerd en is afkomstig van een extern domein. Wordt gebruikt in combinatie met [CompAuth](#authentication-results-message-header-fields-used-by-microsoft-email-authentication)).</li><li>9.22: hetzelfde als 9.21, behalve dat de gebruiker een veilige afzender heeft die is overschreven.</li><li>9.23: hetzelfde als 9.22, behalve dat de organisatie een toegestane afzender of toegestaan domein heeft, waarbij een van de twee is overschreven.</li><li>9.24: hetzelfde als 9.23, behalve dat de gebruiker een Exchange-e-mailstroomregel (ook wel transportregel genoemd) heeft, die is overschreven.</li></ul>|
 |SFV:BLK|Filteren is overgeslagen en het bericht is geblokkeerd omdat het is verzonden vanaf een adres in de lijst met geblokkeerde afzenders in Outlook van de gebruiker.<br/></br> Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie over de manier waarop beheerders de lijst met geblokkeerde afzenders van een gebruiker kunnen beheren.|

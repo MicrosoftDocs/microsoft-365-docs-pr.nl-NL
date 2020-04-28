@@ -17,12 +17,12 @@ ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
 - M365-security-compliance
 description: Als Microsoft 365-gebruiker kunt u uw berichten in quarantaine (berichten waarvan u ontvanger bent en het spamfilter het bericht in quarantaine heeft geplaatst als spam of bulkmail) zien, vrijgeven en verwijderen. U kunt uw berichten in quarantaine zien en beheren in het beveiligings- en compliancecentrum.
-ms.openlocfilehash: 215cbc23aca3b7d10eca8c53d816892d0ca042cb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b8ab5835a29ccf0c58d27f56fe84d29745419b1a
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638104"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43809007"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user"></a>Berichten in quarantaine zoeken en vrijgeven als gebruiker
 
@@ -38,7 +38,7 @@ Als gebruiker kunt u uw berichten in quarantaine waarvan u ontvanger bent en het
 
 - Beheerders kunnen ook [Spammeldingen voor eindgebruikers inschakelen](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications) in antispambeleid. Gebruikers kunnen ongewenste, in quarantaine geplaatste berichten vrijgeven, maar in quarantaine geplaatste berichten niet rechtstreeks uit deze meldingen halen. Zie [Spammeldingen voor eindgebruikers in Office 365](use-spam-notifications-to-release-and-report-quarantined-messages.md) voor meer informatie.
 
-- Berichten die in quarantaine zijn geplaatst voor phishing van vertrouwelijke informatie, malware of door e-mailstroomregels (ook wel transportregels genoemd), zijn alleen beschikbaar voor beheerders. Zie [Berichten en bestanden in quarantaine beheren als Office 365-beheerder](manage-quarantined-messages-and-files.md).
+- Berichten die in quarantaine zijn geplaatst voor phishing van vertrouwelijke informatie, malware of door e-mailstroomregels (ook wel transportregels genoemd), zijn alleen beschikbaar voor beheerders. Phishingberichten kunnen door gebruikers worden bekeken, maar alleen worden vrijgegeven door beheerders. Zie [Berichten en bestanden in quarantaine beheren als Office 365-beheerder](manage-quarantined-messages-and-files.md).
 
 - U kunt een bericht slechts eenmaal vrijgeven en melden als fout-positief (geen ongewenste e-mail).
 

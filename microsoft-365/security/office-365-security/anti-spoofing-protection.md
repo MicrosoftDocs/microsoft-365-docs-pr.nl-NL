@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: ''
-ms.openlocfilehash: 3a306cb8bda0f5f07660f8a2af60e29a3c4d0776
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e66a0b7965212ef65663208efd73378d8c14a726
+ms.sourcegitcommit: 4f2129b161eed3f9ddec47494fa19a2a7a553e4f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636032"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43805223"
 ---
 # <a name="anti-spoofing-protection"></a>Beveiliging tegen adresvervalsing
 
@@ -92,11 +92,9 @@ Microsoft maakt onderscheid tussen twee verschillende typen adresvervalsingberic
 
   `Authentication-Results: ... compauth=fail reason=6xx`
 
-  `X-Forefront-Antispam-Report: ...CAT:SPM/HSPM/PHSH;...SFTY:9.11`
+  `X-Forefront-Antispam-Report: ...CAT:SPOOF;...SFTY:9.11`
 
   - `reason=6xx` geeft adresvervalsing binnen de organisatie aan.
-
-  - De CAT is de categorie van het bericht en wordt normaal gesproken bestempeld als SPM (spam), maar kan af en toe HSPM (hoogstwaarschijnlijk spam) of PHISH (phishing) zijn, afhankelijk van wat voor andere soorten patronen in het bericht zijn ontdekt.
 
   - SFTY geeft het beveiligingsniveau van het bericht. 9 geeft phishing aan, .11 geeft aan dat er sprake is van intra-org-spoofing.
 
