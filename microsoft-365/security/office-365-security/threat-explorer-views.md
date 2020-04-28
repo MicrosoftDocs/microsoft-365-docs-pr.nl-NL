@@ -14,23 +14,31 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over de verschillende soorten weergaven die beschikbaar zijn in Threat Explorer en realtime detecties.
-ms.openlocfilehash: 7b05ec1346df3bfa428c384a4236a8758e22da28
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: ccee7905068619d959e0939aca8b31856dd114a1
+ms.sourcegitcommit: c758a4290d205394225a0df2fd667cb565c79c8f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955637"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43907247"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Weergaven in Threat Explorer en realtime detecties
 
-![Bedreiging explorer](../../media/ThreatExplorerFirstOpened.png)
+![Bedreigingsverkenner](../../media/ThreatExplorerFirstOpened.png)
 
 [Threat Explorer](threat-explorer.md) (en het realtime detectierapport) is een krachtige, bijna realtime tool waarmee beveiligingsteams bedreigingen &amp; in het Security Compliance Center kunnen onderzoeken en erop kunnen reageren. Explorer (en het realtime detectierapport) geeft informatie weer over vermoedelijke malware en phish in e-mail en bestanden in Office 365, evenals andere beveiligingsbedreigingen en risico's voor uw organisatie. 
 
 - Als u [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) Plan 2 hebt, hebt u Explorer.
 - Als u Office 365 ATP-abonnement 1 hebt, hebt u realtime detecties.
 
-Wanneer u Explorer voor het eerst opent (of het realtime detectierapport), worden in de standaardweergave detecties van e-mailmalware van de afgelopen 7 dagen weergegeven. Dit rapport kan ook ATP-detecties weergeven, zoals kwaadaardige URL's gedetecteerd door [veilige koppelingen](atp-safe-links.md)en schadelijke bestanden gedetecteerd door [veilige bijlagen.](atp-safe-attachments.md) Dit rapport kan worden gewijzigd om gegevens weer te geven van de afgelopen 30 dagen (tenzij u een proefabonnement gebruikt). Proefabonnementen bevatten alleen gegevens van de afgelopen zeven dagen.
+Wanneer u Explorer voor het eerst opent (of het realtime detectierapport), worden in de standaardweergave detecties van e-mailmalware van de afgelopen 7 dagen weergegeven. Dit rapport kan ook ATP-detecties weergeven, zoals kwaadaardige URL's gedetecteerd door [veilige koppelingen](atp-safe-links.md)en schadelijke bestanden gedetecteerd door [veilige bijlagen.](atp-safe-attachments.md) Dit rapport kan worden gewijzigd om gegevens van de afgelopen 30 dagen weer te geven (met een betaald ATP P2-abonnement). Proefabonnementen bevatten alleen gegevens van de afgelopen zeven dagen.
+
+|Abonnement  |Utility  |Dagen van gegevens  |
+|---------|---------|---------|
+|ATP P1 trial     | Realtime detectie        |   7      |
+|ATP P1 betaald     |   Realtime detectie      |    30     |
+|ATP P1 betaalde testen ATP P2 trial     | Bedreigingsverkenner   |   7   |
+|ATP P2 trail     |  Bedreigingsverkenner       |     7    |
+|ATP P2 betaald     |     Bedreigingsverkenner    |  30       |
 
 Gebruik het menu **Weergave** om te wijzigen welke informatie wordt weergegeven. Met tooltips u bepalen welke weergave u wilt gebruiken.
   
@@ -99,7 +107,7 @@ Als u dit rapport wilt weergeven, kiest u in Explorer > **Alle e-mail** >  **wee
 > [!NOTE]
 > Als u een fout krijgt die te veel gegevens leest **om weer te geven,** voegt u een filter toe en verkleint u, indien nodig, het datumbereik dat u bekijkt. 
 
-Als u een filter wilt toepassen, kiest u **Afzender,** selecteert u een item in de lijst en klikt u op de knop Vernieuwen. In ons voorbeeld gebruikten we **detectietechnologie** als filter (er zijn verschillende opties beschikbaar). Bekijk informatie per afzender, domein van afzender, ontvangers, onderwerp, bestandsnaam van bijlagen, malwarefamilie, beveiligingsstatus (acties die worden uitgevoerd door uw functies en beleid voor bedreigingsbescherming in Office 365), detectietechnologie (hoe de malware werd gedetecteerd) en Meer. 
+Als u een filter wilt toepassen, kiest u **Afzender,** selecteert u een item in de lijst en klikt u op de knop Vernieuwen. In ons voorbeeld gebruikten we **detectietechnologie** als filter (er zijn verschillende opties beschikbaar). Bekijk informatie per afzender, domein van afzender, ontvangers, onderwerp, bestandsnaam van bijlagen, malwarefamilie, beveiligingsstatus (acties die worden uitgevoerd door uw functies en beleid voor bedreigingsbescherming in Office 365), detectietechnologie (hoe de malware werd gedetecteerd) en meer. 
 
 ![Gegevens over gedetecteerde e-mail weergeven door detectietechnologie](../../media/0c032eb3-6021-4174-9f06-ff8f30c245ca.png) 
 

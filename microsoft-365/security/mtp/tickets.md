@@ -17,16 +17,18 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 904c1a019c55cabce6856a7caaca73d08d6db3f7
-ms.sourcegitcommit: 841c06a5d566d404c35d5e9c0c7de5088daab976
+ms.openlocfilehash: eb6af6b11d2d932f3bd2165aa3f597c14feb5ae8
+ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42836878"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901020"
 ---
 # <a name="manage-tickets-through-servicenow"></a>Tickets beheren via ServiceNow
 
-Microsoft 365 security center wordt verbeterd met de mogelijkheid om native te maken en te volgen tickets in ServiceNow. Beveiligingsbeheerders kunnen een [verbeteringsactie voor Microsoft Secure Score](microsoft-secure-score.md) rechtstreeks naar ServiceNow verzenden en een ticket maken. Zowel incident management en change management tickets kunnen worden gemaakt.
+ServiceNow is een populair cloud computing-platform dat bedrijven helpt bij het beheren van digitale workflows voor bedrijfsactiviteiten. Hun Now-platform heeft IT-workflows, werkstromen voor werknemers en klantworkflows. Microsoft werkt samen met ServiceNow om het eenvoudiger te maken voor IT-beheerders om hun tickets en taken op beide platforms te beheren. [Meer informatie over ServiceNow](https://www.servicenow.com/)
+
+Microsoft 365 security center is nu verbeterd met de mogelijkheid om native te maken en te volgen tickets in ServiceNow. Beveiligingsbeheerders kunnen een [verbeteringsactie voor Microsoft Secure Score](microsoft-secure-score.md) rechtstreeks naar ServiceNow verzenden en een ticket maken. Zowel incident management en change management tickets kunnen worden gemaakt. Ze kunnen vervolgens worden gevolgd op de startpagina van het Microsoft-beveiligingscentrum en ServiceNow.
 
 ## <a name="prerequisites"></a>Vereisten
 

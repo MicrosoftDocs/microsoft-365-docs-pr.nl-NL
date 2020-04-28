@@ -19,14 +19,14 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Leer het standaardthema van Microsoft 365 te wijzigen en het aan te passen aan uw bedrijfslogo of -kleur. '
-ms.openlocfilehash: 6a689c6da967bf3f62699bb9df287f7c5fc42e6a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 06b247da1a8ac1f330f2ad36c8b29897963819f3
+ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627604"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43900772"
 ---
-# <a name="customize-the-theme-for-your-organization"></a>Het thema voor uw organisatie aanpassen
+# <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Het Microsoft 365-thema aanpassen voor uw organisatie
 
 Meer informatie over het aanpassen van uw thema in het Microsoft 365-beheercentrum. Als beheerder van uw Microsoft 365 voor Bedrijven-abonnement u het standaardthema wijzigen dat wordt weergegeven in de bovenste navigatiebalk voor iedereen in de organisatie. U uw bedrijfslogo toevoegen en de kleuren aanpassen aan de rest van uw merk. U zelfs een doelkoppeling toevoegen waargebruikers naartoe kunnen navigeren wanneer ze uw logo selecteren. U hier het standaardthema en het aangepaste themaresultaat in Microsoft 365 zien.
   
@@ -64,7 +64,7 @@ Meer informatie over het aanpassen van uw thema in het Microsoft 365-beheercentr
     
 4. Selecteer **Wijzigingen opslaan**.
     
-U ziet uw nieuwe thema meteen in het beheercentrum en na een korte vertraging ziet u het in Microsoft 365, inclusief pagina's in Outlook, SharePoint, [sharepoint mobiele app voor iOS](https://support.office.com/en-us/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)en [mobiele SharePoint-app voor Android.](https://support.office.com/en-us/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284) Zie de volgende afbeelding voor een voorbeeld van waar u een thema wijzigen van het beheercentrum.
+U ziet uw nieuwe thema meteen in het beheercentrum en na een korte vertraging ziet u het in Microsoft 365, inclusief pagina's in Outlook, SharePoint, [sharepoint mobiele app voor iOS](https://support.office.com/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)en [mobiele SharePoint-app voor Android.](https://support.office.com/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284) Zie de volgende afbeelding voor een voorbeeld van waar u themawijzigingen vanuit het beheercentrum aanpassen.
 
 ![m365-admin-tenant-thema-conceptueel](../../media/m365-admin-tenant-theme-conceptual.png)
 
@@ -72,7 +72,7 @@ U kunt op elk gewenst moment het aangepaste pictogram of de aangepaste kleuren v
   
 ## <a name="best-practices"></a>Aanbevolen procedures
 
-Bij het kiezen van een **logoafbeelding**raden we u aan waar mogelijk een SVG-bestandstype te gebruiken, zodat uw logo op alle schermen en op alle zoomniveaus een hoge resolutie krijgt.
+Bij het kiezen van een **logoafbeelding**raden we u aan een SVG-bestandstype te gebruiken, zodat uw logo op alle schermen en op alle zoomniveaus een hoge resolutie krijgt.
 
 Wanneer u aangepaste kleuren kiest, kiest u een **achtergrondkleur van** de navigatiebalk met een hoge contrastverhouding met de **afbeelding van het logo** die u hebt gekozen. Kies ook een **tekst- en pictogrammenkleur** met een hoge contrastverhouding met de **achtergrondkleur van** de navigatiebalk om ervoor te zorgen dat alle tekst en pictogrammen gemakkelijk zichtbaar zijn.
 
@@ -99,4 +99,3 @@ Hier is een eenvoudig stroomdiagram waarmee u snel instellen met een visueel aan
 [Aangepaste tegels toevoegen aan de pagina Mijn apps en het startprogramma voor apps](../manage/customize-the-app-launcher.md)
   
   
-

@@ -21,14 +21,21 @@ ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: Het Microsoft 365-beheercentrum - meer informatie over de functies die deze maand zijn toegevoegd.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: a3c042413525ec591f74cd63685490f7de93775a
-ms.sourcegitcommit: 4f2129b161eed3f9ddec47494fa19a2a7a553e4f
+ms.openlocfilehash: 0b6d0741b5c59b1d720ca1ef73c0d45a674569b1
+ms.sourcegitcommit: c758a4290d205394225a0df2fd667cb565c79c8f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43805185"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43907235"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe nieuws in het Microsoft 365-beheercentrum
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Sommige informatie in dit artikel is mogelijk niet van toepassing op Office 365 dat wordt beheerd door 21Vianet.
+
+::: moniker-end
 
 We voegen voortdurend nieuwe functies toe aan [het Microsoft 365-beheercentrum,](microsoft-365-admin-center-preview.md)oplossen van problemen waarover we meer te weten komen en wijzigingen aanbrengen op basis van uw feedback. Neem hieronder een kijkje om te zien wat er vandaag voor u beschikbaar is. Sommige functies worden op verschillende snelheden uitgerold naar onze klanten. Als u nog geen functie ziet, [probeert u uzelf toe te voegen aan gerichte release.](manage/release-options-in-office-365.md)
 
