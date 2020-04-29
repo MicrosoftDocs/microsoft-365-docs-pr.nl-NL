@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Meer informatie over hoe u uw wachtwoorden opnieuw instellen met behulp van het hulpprogramma voor het opnieuw instellen van selfservicewachtwoorden.
-ms.openlocfilehash: beffbcac997806f0c13347dfba42a1ab0ec65c1d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9d9a1f97f9f6fc59b54f2f9bdce9c337c7d57b13
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617144"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919433"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 
@@ -65,12 +65,12 @@ Met deze stappen wordt selfservice voor wachtwoordherstel ingeschakeld voor iede
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a>naar de **privacypagina &amp; Instellingen** **Settings** \> beveiliging.
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a>naar de privacypagina **Settings** \> **Instellingen** \> ** &amp; Beveiliging.**
 
 ::: moniker-end
 
    
-2. Selecteer **onder Uw personen hun eigen wachtwoorden opnieuw instellen,** de koppeling voor het Azure **AD-beheercentrum**. U ontvangt Azure vervolgens gratis.
+2. Selecteer **Self-service wachtwoord opnieuw instellen**, selecteer de koppeling voor de Ga naar de **Azure-portal om selfservice wachtwoord opnieuw instellen in te schakelen.** U ontvangt Azure vervolgens gratis.
   
 3. Selecteer **Gebruikers** in de linkernavigatie en selecteer **Vervolgens Wachtwoord opnieuw instellen**.
   

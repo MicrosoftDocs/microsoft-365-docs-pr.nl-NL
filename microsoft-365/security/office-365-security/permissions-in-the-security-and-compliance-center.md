@@ -1,5 +1,5 @@
 ---
-title: Machtigingen in het Security & Compliance Center
+title: Rapporten in het beveiligings- en compliancecentrum
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Beheerders kunnen meer te weten komen over de machtigingen die beschikbaar zijn in het Beveiligings& Compliance Center.
-ms.openlocfilehash: 8bfa22f3a4f614c0a72d1f7201c2d299cd3fc337
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8fd288aa9a0a409a005c43a1ff685bf29bfef6b3
+ms.sourcegitcommit: 90f7bbba5fc23f10b59c75b2b65d6c0903ce66dd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634482"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43930181"
 ---
-# <a name="permissions-in-the-security--compliance-center"></a>Machtigingen in het Security & Compliance Center
+# <a name="permissions-in-the-security--compliance-center"></a>Rapporten in het beveiligings- en compliancecentrum
 
 Met het Security & Compliance Center u machtigingen verlenen aan mensen die nalevingstaken uitvoeren, zoals apparaatbeheer, preventie van gegevensverlies, eDiscovery, retentie, enzovoort. Deze mensen kunnen alleen de taken uitvoeren waartoe u hen expliciet toegang verleent. Om toegang te krijgen tot het Security & Compliance Center, moeten gebruikers een globale beheerder zijn of lid zijn van een of meer beveiligings- & Compliance Center-rolgroepen.
 
@@ -50,13 +50,21 @@ Het beheren van machtigingen in het Security & Compliance Center geeft gebruiker
 
 Als u wilt zien hoe u toegang verlenen tot het Beveiligingscentrum & Compliance Center, [raadpleegt U gebruikers toegang geven tot microsoft 365 Compliance-beheercentrum](grant-access-to-the-security-and-compliance-center.md).
 
+||||
+|---|---|---|
 |**Rolgroep**|**Beschrijving**|**Toegewezen standaardrollen**|
-|:-----|:-----|:-----|
 |**Compliance Administrator**<sup>1</sup>|Leden kunnen instellingen beheren voor apparaatbeheer, preventie van gegevensverlies, rapporten en bewaring.|Case Management <br/><br/> Complianceadministrator <br/><br/> Nalevingszoekopdracht <br/><br/> DLP Compliance Management <br/><br/> Apparaatbeheer <br/><br/> Dispositiebeheer <br/><br/> Houden <br/><br/> IB Compliance Management <br/><br/> Waarschuwingen beheren <br/><br/> Organisatieconfiguratie <br/><br/> RecordManagement (RecordManagement) <br/><br/> Retentiebeheer <br/><br/> Alleen-weergave-controlelogboeken <br/><br/> Beheer van alleen-weergeven <br/><br/> Alleen-weergave DLP-nalevingsbeheer <br/><br/> Alleen-weergave-apparaatbeheer <br/><br/> IB-nalevingsbeheer alleen weergeven <br/><br/> Alleen waarschuwingen voor het beheren van weergave beheren <br/><br/> Alleen-weergaveontvangers <br/><br/> Recordbeheer alleen weergeven|
 |**Beheerder van nalevingsgegevens**|Leden kunnen instellingen beheren voor apparaatbeheer, gegevensbescherming, preventie van gegevensverlies, rapporten en bewaring.|Complianceadministrator <br/><br/> Nalevingszoekopdracht <br/><br/> DLP Compliance Management <br/><br/> Apparaatbeheer <br/><br/> Dispositiebeheer <br/><br/> IB Compliance Management <br/><br/> Waarschuwingen beheren <br/><br/> Organisatieconfiguratie <br/><br/> RecordManagement (RecordManagement) <br/><br/> Retentiebeheer <br/><br/> Beheerder van gevoeligheidslabel <br/><br/> Alleen-weergave-controlelogboeken <br/><br/> Alleen-weergave DLP-nalevingsbeheer <br/><br/> Alleen-weergave-apparaatbeheer <br/><br/> IB-nalevingsbeheer alleen weergeven <br/><br/> Alleen waarschuwingen voor het beheren van weergave beheren <br/><br/> Alleen-weergaveontvangers <br/><br/> Recordbeheer alleen weergeven <br/><br/> Beheer van alleen-weergeven|
+|**Content Explorer-inhoudsviewer**|Bekijk de inhoudsbestanden in Inhoudsverkenner.|Inhoudsviewer voor gegevensclassificatie|
+|**Lijstviewer voor Content Explorer**|Bekijk alleen alle items in Content explorer in lijstindeling.|Lijstviewer voor gegevensclassificatie|
 |**Gegevensonderzoeker**|Leden kunnen zoekopdrachten uitvoeren op postvakken, SharePoint-sites en OneDrive-accounts.|Communicatie <br/><br/> Nalevingszoekopdracht <br/><br/> Voogd <br/><br/> Beheer van gegevensonderzoek <br/><br/> Exporteren<br/><br/> Voorbeeld <br/><br/> RMS decoderen <br/><br/> Review<br/><br/> Zoeken en zuiveren|
 |**eDiscovery-beheer**|Leden kunnen zoekopdrachten en plaatshouders uitvoeren op postvakken, SharePoint Online-sites en OneDrive voor Bedrijven-locaties. Leden kunnen ook eDiscovery-aanvragen maken en beheren, leden toevoegen en verwijderen aan een aanvraag, Inhoudszoekopdrachten maken en bewerken die aan een aanvraag zijn gekoppeld en toegang krijgen tot casegegevens in Advanced eDiscovery. <br/><br/> Een eDiscovery-beheerder is lid van de rolgroep eDiscovery Manager aan aanvullende machtigingen toegewezen. Naast de taken die een eDiscovery Manager kan uitvoeren, kan een eDiscovery-beheerder: <br/>* Bekijk alle eDiscovery-cases in de organisatie. <br/>* Beheer een eDiscovery-aanvraag nadat ze zichzelf als lid van de aanvraag hebben toegevoegd. <br/><br/> Het belangrijkste verschil tussen een eDiscovery-manager en een eDiscovery-beheerder is dat een eDiscovery-beheerder toegang heeft tot alle aanvragen die worden vermeld op de pagina **eDiscovery-aanvragen** in het Beveiligingscentrum & Nalevingscentrum. Een eDiscovery-manager heeft alleen toegang tot de aanvragen die ze hebben gemaakt of aanvragen waarvan ze lid zijn. Zie [EDiscovery-machtigingen toewijzen in het Security & Compliance Center](../../compliance/assign-ediscovery-permissions.md)voor meer informatie over het maken van een gebruiker als eDiscovery-beheerder.|Case Management <br/><br/> Communicatie <br/><br/> Nalevingszoekopdracht <br/><br/> Voogd <br/><br/> Exporteren <br/><br/> Houden <br/><br/> Voorbeeld <br/><br/> RMS decoderen <br/><br/> Review|
 |**Wereldwijde lezer**|Leden hebben alleen-lezen toegang tot rapporten, waarschuwingen en kunnen alle configuratie en instellingen zien.<br/><br/> Het belangrijkste verschil tussen Global Reader en Security Reader is dat een Global Reader toegang heeft tot **configuratie en instellingen.**|Beveiligingslezer <br/><br/> Gevoeligheidslabellezer <br/><br/> Serviceassurance-weergave <br/><br/> Alleen-weergave-controlelogboeken <br/><br/> Alleen-weergave DLP-nalevingsbeheer <br/><br/> Alleen-weergave-apparaatbeheer <br/><br/> IB-nalevingsbeheer alleen weergeven <br/><br/> Alleen waarschuwingen voor het beheren van weergave beheren <br/><br/> Alleen-weergaveontvangers <br/><br/> Recordbeheer alleen weergeven <br/><br/> Beheer van alleen-weergeven|
+|**Insider-risicobeheer**|Gebruik deze rolgroep om insider-risicobeheer voor uw organisatie in één groep te beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten en onderzoekers, u machtigingen voor insider-risicobeheer in één groep configureren. Deze rolgroep bevat alle machtigingsrollen voor insider-risicobeheer. Dit is de eenvoudigste manier om snel aan de slag te gaan met insider risk management en is een goede pasvorm voor organisaties die geen afzonderlijke machtigingen nodig hebben die zijn gedefinieerd voor afzonderlijke groepen gebruikers.|Case Management <br/><br/> Insider-risicobeheerbeheerder <br/><br/> Analyse van insiderrisicobeheer <br/><br/> Onderzoek naar risicobeheer met voorkennis <br/><br/> Tijdelijke bijdrage voor insider risicomanagement|
+|**Beheerders van insiderrisicobeheer**|Gebruik deze rolgroep om in eerste instantie insider risk management te configureren en later om beheerders van insiderrisico's te scheiden in een gedefinieerde groep. Gebruikers in deze rolgroep kunnen beleid voor insider-risicobeheer, algemene instellingen en toewijzingen voor rollengroepen maken, lezen, bijwerken en verwijderen.|Case Management <br/><br/> Insider-risicobeheerbeheerder|
+|**Insider Risk Management Analisten**|Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die optreden als insider risk case analisten. Gebruikers in deze rolgroep hebben toegang tot alle waarschuwingen, aanvragen en aankondigingen van insiders. Ze hebben geen toegang tot content explorer met insiderrisico.|Case Management <br/><br/> Analyse van insiderrisicobeheer|
+|**Insider Risk Management Onderzoekers**|Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die optreden als onderzoekers van insider-risicogegevens. Gebruikers in deze rolgroep hebben toegang tot alle waarschuwingen voor het beheer van insiderrisico's, aanvragen, aankondigingssjablonen en de Content Verkenner voor alle gevallen.|Case Management <br/><br/> Onderzoek naar risicobeheer met voorkennis|
+|**IRM-bijdragers**|Deze rolgroep is zichtbaar, maar wordt alleen gebruikt door achtergrondservices.|Tijdelijke bijdrage voor insider risicomanagement|
 |**MailFlow-beheerder**|Leden kunnen inzicht en rapporten van de e-mailstroom controleren en bekijken in het Security & Compliance Center. Globale beheerders kunnen gewone gebruikers aan deze groep toevoegen, maar als de gebruiker geen lid is van de Exchange Admin-groep, heeft de gebruiker geen toegang tot exchange-beheergerelateerde taken.|Alleen-weergaveontvangers|
 |**Organisatiebeheer**<sup>1</sup>|Leden kunnen machtigingen beheren voor toegang tot functies in het Security & Compliance Center en ook instellingen beheren voor apparaatbeheer, preventie van gegevensverlies, rapporten en bewaring. <br/><br/> Houd er rekening mee dat een gebruiker die geen globale beheerder is, de lijst met apparaten die door MDM voor Microsoft 365 worden beheerd en acties op deze apparaten kan uitvoeren, zoals het terugtrekken van een apparaat uit MDM voor Office 365, een Exchange-beheerder moet zijn. <br/><br/> lobal-beheerders worden automatisch toegevoegd als leden van deze rolgroep.|Controlelogboeken <br/><br/> Case Management <br/><br/> Complianceadministrator <br/><br/> Nalevingszoekopdracht <br/><br/> DLP Compliance Management <br/><br/> Apparaatbeheer <br/><br/> Dispositiebeheer <br/><br/> Houden <br/><br/> IB Compliance Management <br/><br/> Waarschuwingen beheren <br/><br/> Organisatieconfiguratie <br/><br/> Quarantaine <br/><br/> RecordManagement (RecordManagement) <br/><br/> Retentiebeheer <br/><br/> Rolbeheer <br/><br/> Zoeken en zuiveren <br/><br/> Beveiligingsbeheerder <br/><br/> Beveiligingslezer <br/><br/> Beheerder van gevoeligheidslabel <br/><br/> Gevoeligheidslabellezer <br/><br/> Serviceassurance-weergave <br/><br/> Alleen-weergave-controlelogboeken <br/><br/> Alleen-weergave DLP-nalevingsbeheer <br/><br/> Alleen-weergave-apparaatbeheer <br/><br/> IB-nalevingsbeheer alleen weergeven <br/><br/> Alleen waarschuwingen voor het beheren van weergave beheren <br/><br/> Alleen-weergaveontvangers <br/><br/> Recordbeheer alleen weergeven <br/><br/> Beheer van alleen-weergeven|
 |**Quarantainebeheerder**|Leden hebben toegang tot alle quarantaineacties. Zie [In quarantaine geplaatste berichten en bestanden beheren als beheerder in Office 365](manage-quarantined-messages-and-files.md) voor meer informatie.|Quarantaine|
@@ -67,6 +75,7 @@ Als u wilt zien hoe u toegang verlenen tot het Beveiligingscentrum & Compliance 
 |**Beveiligingslezer**|Leden hebben alleen-lezen toegang tot een aantal beveiligingsfuncties van Identity Protection Center, Privileged Identity Management, Monitor Office 365 Service Health en Security & Compliance Center. <br/><br/> Het lidmaatschap van deze rolgroep wordt gesynchroniseerd tussen services en centraal beheerd. Leden van deze rolgroep kunnen cross-servicebeheerders, externe partnergroepen en Microsoft Support omvatten. Deze groep krijgt standaard geen rollen toegewezen. Het is echter lid van de rol Beveiligingslezers in Azure Active Directory en neemt de mogelijkheden van die rol over. Als u machtigingen centraal wilt beheren, brengt u wijzigingen aan in deze rol in het Azure Active Directory-beheercentrum - zie [Beheerdersrolmachtigingen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)voor meer informatie. Als u deze rolgroep bewerkt in het Security & Compliance Center, zijn deze wijzigingen alleen van toepassing op het Security & Compliance Center en niet op andere services, terwijl wijzigingen die zijn aangebracht in het Azure Active Directory-beheercentrum van invloed zijn op alle services|Beveiligingslezer <br/><br/> Gevoeligheidslabellezer <br/><br/> Alleen-weergave DLP-nalevingsbeheer <br/><br/> Alleen-weergave-apparaatbeheer <br/><br/> IB-nalevingsbeheer alleen weergeven <br/><br/> Alleen waarschuwingen voor het beheren van weergave beheren|
 |**Gebruiker van servicebeveiliging**|Leden hebben toegang tot de sectie Serviceassurance in het Security & Compliance Center. Servicebeveiliging biedt rapporten en documenten waarin de beveiligingspraktijken van Microsoft voor klantgegevens die zijn opgeslagen in Office 365 worden beschreven. Het biedt ook onafhankelijke controlerapporten van derden over Office 365. Zie [Serviceborger in het Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/service-assurance)voor meer informatie.|Serviceassurance-weergave|
 |**Toezichtherziening**|Leden kunnen het beleid maken en beheren dat bepaalt welke communicatie in een organisatie moet worden beoordeeld. Zie [Beleid voor communicatienaleving configureren voor uw organisatie voor](../../compliance/communication-compliance-configure.md)meer informatie.|Supervisory Review Administrator|
+|
 
 > [!NOTE]
 > <sup>1.</sup> Deze rolgroep wijst leden niet de machtigingen toe die nodig zijn om het controlelogboek te doorzoeken of rapporten te gebruiken die Exchange-gegevens kunnen bevatten, zoals de DLP- of ATP-rapporten. Als u in het controlelogboek wilt zoeken of alle rapporten wilt bekijken, moet een gebruiker machtigingen in Exchange Online hebben toegewezen. Dit komt omdat de onderliggende cmdlet die wordt gebruikt om het controlelogboek te doorzoeken een Exchange Online-cmdlet is. Globale beheerders kunnen in het controlelogboek zoeken en alle rapporten bekijken omdat ze automatisch worden toegevoegd als leden van de rolegroep Organisatiebeheer in Exchange Online. Zie [Het controlelogboek doorzoeken in het Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)voor meer informatie.
@@ -78,29 +87,31 @@ In de volgende tabel worden de beschikbare rollen en de rolgroepen vermeld waara
 Houd er rekening mee dat de volgende rollen niet standaard zijn toegewezen aan de rolgroep Organisatiebeheer:
 
 - Communicatie
-
 - Voogd
-
+- Inhoudsviewer voor gegevensclassificatie
+- Lijstviewer voor gegevensclassificatie
 - Beheer van gegevensonderzoek
-
 - Exporteren
-
+- Insider-risicobeheerbeheerder
+- Analyse van insiderrisicobeheer
+- Onderzoek naar risicobeheer met voorkennis
+- Tijdelijke bijdrage voor insider risicomanagement
 - Voorbeeld
-
 - Review
-
 - RMS decoderen
-
 - Supervisory Review Administrator
 
+||||
+|---|---|---|
 |**Rol**|**Beschrijving**|**Standaardtoewijzingen voor rollengroepen**|
-|:-----|:-----|:-----|
 |**Controlelogboeken**|Schakel controle voor de organisatie in en configureer deze, bekijk de controlerapporten van de organisatie en exporteer deze rapporten naar een bestand.|Organisatiebeheer <br/><br/> Records beheer <br/><br/> Beveiligingsbeheerder|
-|**Case Management**|Maak, bewerk, verwijder en bedien de toegang tot eDiscovery-aanvragen.|Complianceadministrator <br/><br/> eDiscovery-beheer <br/><br/> Organisatiebeheer|
+|**Case Management**|Maak, bewerk, verwijder en bedien de toegang tot eDiscovery-aanvragen.|Complianceadministrator <br/><br/> eDiscovery-beheer <br/><br/> Intern risicobeheer <br/><br/> Beheerders van insiderrisicobeheer <br/><br/> Insider Risk Management Analisten <br/><br/> Insider Risk Management Onderzoekers <br/><br/> Organisatiebeheer|
 |**Communicatie**|Beheer alle communicatie met de bewaarders die zijn geïdentificeerd in een Advanced eDiscovery-aanvraag.  Maak wachtmeldingen, houd herinneringen vast en escalaties voor het beheer. Volg de bevestiging van de beheerder van het onthouden van wachtmeldingen en beheer de toegang tot het bewaarderportaal dat door elke bewaarder in een zaak wordt gebruikt om communicatie bij te houden voor de gevallen waarin ze als bewaarder zijn geïdentificeerd.|eDiscovery-beheer|
 |**Complianceadministrator**|Instellingen en rapporten weergeven en bewerken voor nalevingsfuncties.|Complianceadministrator <br/><br/> Beheerder van nalevingsgegevens <br/><br/> Organisatiebeheer|
 |**Nalevingszoekopdracht**|Zoek in postvakken en ontvang een schatting van de resultaten.|Complianceadministrator <br/><br/> Beheerder van nalevingsgegevens <br/><br/> eDiscovery-beheer <br/><br/> Organisatiebeheer <br/><br/> Beveiligingsoperator|
 |**Voogd**|Identificeer en beheer beheerders van Geavanceerde eDiscovery-aanvragen en gebruik de informatie uit Azure Active Directory en andere bronnen om gegevensbronnen te vinden die zijn gekoppeld aan beheerders. Andere gegevensbronnen, zoals postvakken, SharePoint-sites en Teams, koppelen aan beheerders in een aanvraag.  Plaats een wettelijke greep op de gegevensbronnen die zijn gekoppeld aan bewaarders om inhoud in de context van een aanvraag te bewaren.|eDiscovery-beheer|
+|**Inhoudsviewer voor gegevensclassificatie**|Weergave van de weergave van bestanden op de plaats weer geven in Content explorer.|Content Explorer-inhoudsviewer|
+|**Lijstviewer voor gegevensclassificatie**|Bekijk de lijst met bestanden in content explorer.|Lijstviewer voor Content Explorer|
 |**Beheer van gegevensonderzoek**|Maak, bewerk, verwijder en beheer de toegang tot gegevensonderzoeken.|Gegevensonderzoeker|
 |**Apparaatbeheer**|Instellingen en rapporten weergeven en bewerken voor functies voor apparaatbeheer.|Complianceadministrator <br/><br/> Beheerder van nalevingsgegevens <br/><br/> Organisatiebeheer <br/><br/> Beveiligingsbeheerder|
 |**Dispositiebeheer**|Machtigingen beheren voor toegang tot handmatige dispositie in het Beveiligingscentrum & Compliance Center.|Complianceadministrator <br/><br/> Beheerder van nalevingsgegevens <br/><br/> Organisatiebeheer|
@@ -108,6 +119,10 @@ Houd er rekening mee dat de volgende rollen niet standaard zijn toegewezen aan d
 |**Exporteren**|Postvakken en site-inhoud exporteren die is geretourneerd uit zoekopdrachten.|eDiscovery-beheer|
 |**Houden**|Plaats inhoud in postvakken, sites en openbare mappen in de wachtstand. In de wacht wordt een kopie van de inhoud op een veilige locatie opgeslagen. Eigenaren van inhoud kunnen de oorspronkelijke inhoud nog steeds wijzigen of verwijderen.|Complianceadministrator <br/><br/> eDiscovery-beheer <br/><br/> Organisatiebeheer|
 |**IB Compliance Management**|Het beleid voor informatiebarrière weergeven, maken, verwijderen, wijzigen en testen.|Complianceadministrator <br/><br/> Beheerder van nalevingsgegevens <br/><br/> Organisatiebeheer <br/><br/> Beveiligingsbeheerder|
+|**Insider-risicobeheerbeheerder**|Maak, bewerk, verwijder en beheer de toegang tot de insider risk management-functie.|Intern risicobeheer <br/><br/> Beheerders van insiderrisicobeheer|
+|**Analyse van insiderrisicobeheer**|Krijg toegang tot alle waarschuwingen, aanvragen en aankondigingen voor insider-risicobeheer.|Intern risicobeheer <br/><br/> Insider Risk Management Analisten|
+|**Onderzoek naar risicobeheer met voorkennis**|Krijg toegang tot alle waarschuwingen voor het beheer van insider-risico's, aanvragen, aankondigingssjablonen en de Content Verkenner voor alle gevallen.|Intern risicobeheer <br/><br/> Insider Risk Management Onderzoekers|
+|**Tijdelijke bijdrage voor insider risicomanagement**|Deze rolgroep is zichtbaar, maar wordt alleen gebruikt door achtergrondservices.|IRM-bijdragers|
 |**Waarschuwingen beheren**|Instellingen en rapporten voor waarschuwingen weergeven en bewerken.|Complianceadministrator <br/><br/> Beheerder van nalevingsgegevens <br/><br/> Organisatiebeheer <br/><br/> Beveiligingsbeheerder <br/><br/> Beveiligingsoperator|
 |**Organisatieconfiguratie**|Controleerrapporten uitvoeren, weergeven en exporteren en beheer nalevingsbeleid voor DLP, apparaten en bewaring.|Complianceadministrator <br/><br/> Beheerder van nalevingsgegevens <br/><br/> Organisatiebeheer|
 |**Voorbeeld**|Bekijk een lijst met items die worden geretourneerd uit zoekopdrachten naar inhoud en open elk item uit de lijst om de inhoud ervan weer te geven.|eDiscovery-beheer|
@@ -132,3 +147,4 @@ Houd er rekening mee dat de volgende rollen niet standaard zijn toegewezen aan d
 |**Alleen-weergaveontvangers**|Bekijk informatie over gebruikers en groepen.|MailFlow-beheerder <br/><br/> Complianceadministrator <br/><br/> Beheerder van nalevingsgegevens <br/><br/> Organisatiebeheer|
 |**Recordbeheer alleen weergeven**|Bekijk de configuratie en rapporten voor de functie RecordBeheer.|Complianceadministrator <br/><br/> Beheerder van nalevingsgegevens <br/><br/> Organisatiebeheer|
 |**Beheer van alleen-weergeven**|Bekijk de configuratie en rapporten voor de functie Retentiebeheer.|Beheerder van nalevingsgegevens <br/><br/> Organisatiebeheer <br/><br/> Complianceadministrator|
+|

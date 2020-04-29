@@ -21,12 +21,12 @@ ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: Het Microsoft 365-beheercentrum - meer informatie over de functies die deze maand zijn toegevoegd.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 0b6d0741b5c59b1d720ca1ef73c0d45a674569b1
-ms.sourcegitcommit: c758a4290d205394225a0df2fd667cb565c79c8f
+ms.openlocfilehash: e0f7242ff144b5e4b42a6cb1713b2ad5df41f2f3
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43907235"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919758"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe nieuws in het Microsoft 365-beheercentrum
 
@@ -49,6 +49,7 @@ En als u geïnteresseerd bent in wat er nieuw is in andere Microsoft-cloudservic
 - [Nieuwe nieuwe artikelen in Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
 - [Nieuwe nieuwe artikelen in het Microsoft 365-compliancecenter](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
 - [Nieuwe informatie in het SharePoint-beheercentrum](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
+- [Nieuwe nieuwe artikelen in het Exchange-beheercentrum](https://docs.microsoft.com/Exchange/whats-new)
 - [Office-updates](https://docs.microsoft.com/OfficeUpdates/)
 
 ## <a name="march-2020"></a>Maart 2020
@@ -96,6 +97,7 @@ De nieuwe productnamen gaan in op 21 april 2020. Dit is alleen een wijziging in 
 ### <a name="videos-training-and-docs"></a>Video's, training en documenten
 
 [Wat is er nieuw in Microsoft 365 web-serie:](https://go.microsoft.com/fwlink/p/?linkid=2118096)In de aflevering van deze maand, we wijzen op de 3-jarige verjaardag van Microsoft Teams en hebben betrekking op nieuwe functies, waaronder verbeterde geluidskwaliteit in online vergaderingen, Gerichte communicatie voor firstline managers met de Shifts app, Teams en Skype interoperabiliteit van de consument, en nog veel meer.
+
 
 ## <a name="february-2020"></a>Februari 2020
 
@@ -259,7 +261,7 @@ Technisch gezien is dit niet het nieuws van het Microsoft 365-beheercentrum om t
 > [!IMPORTANT]
 > U nu naar uw SharePoint-beheercentrum gaan met een normale URL:[https://admin.microsoft.com/SharePoint](https://admin.microsoft.com/SharePoint)
 
-Zie Nieuwe informatie [in het SharePoint-beheercentrum](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center) voor meer informatie
+Zie Nieuwe informatie [in het SharePoint-beheercentrum](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)voor meer informatie .
 
 ## <a name="september-2019"></a>September 2019
 

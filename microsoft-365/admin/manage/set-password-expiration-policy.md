@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Informatie over het instellen van een verloopbeleid voor wachtwoorden voor uw bedrijf in het Microsoft 365-beheercentrum. '
-ms.openlocfilehash: bcea72dadb6f10ac4ef80677f3def57eca2724cd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: dd925ee3a5d2aadb07dceed5a0e896e77921e2a1
+ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628050"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901008"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Het wachtwoordverloopbeleid voor uw organisatie instellen:
 
@@ -67,7 +67,7 @@ Hier volgen enkele belangrijke punten over de huidige werking van deze functie s
     
 ## <a name="prevent-last-password-from-being-used-again"></a>Voorkomen dat laatste wachtwoord opnieuw wordt gebruikt
 
-Als u wilt voorkomen dat uw gebruikers oude wachtwoorden opnieuw gebruiken, kunt u dit in Azure AD instellen. Zie [Het wachtwoordverloopbeleid voor uw organisatie instellen](https://docs.microsoft.com/office365/admin/manage/set-password-expiration-policy?view=o365-worldwide).
+Als u wilt voorkomen dat uw gebruikers oude wachtwoorden opnieuw gebruiken, kunt u dit in Azure AD instellen. Zie [Wachtwoordgeschiedenis afdwingen](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/enforce-password-history).
 
 Als een medewerker een mobiel apparaat gebruikt om toegang tot Microsoft 365 te krijgen, kunt u het wissen om ervoor te zorgen dat het wachtwoord niet meer wordt opgeslagen en vervolgens opnieuw gebruikt. Zie [Het mobiele apparaat van een voormalige werknemer wissen en blokkeren](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee?view=o365-worldwide#wipe-and-block-a-former-employees-mobile-device) voor meer informatie.
 
