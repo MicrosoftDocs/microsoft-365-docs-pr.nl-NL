@@ -21,18 +21,18 @@ search.appverid:
 - GEA150
 ROBOTS: NOINDEX
 description: Meer informatie over alle manieren waarop u hulp krijgen met het Microsoft 365-beheercentrum.
-ms.openlocfilehash: f9d42057e1ad16108237b9f53eedf60736cd6bd5
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 847281acc368f45ffaf466cc3877c042507a7f79
+ms.sourcegitcommit: 90f7bbba5fc23f10b59c75b2b65d6c0903ce66dd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894743"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43930193"
 ---
 <!-- The following is just placeholder text from Madhura's mail. We need to add images/examples of each -->
 
 # <a name="how-to-get-help-in-the-microsoft-365-admin-center"></a>Hulp krijgen in het Microsoft 365-beheercentrum
 
-Als u een beheerder bent, is [admin.microsoft.com](https://admin.microsoft.com) uw plek om uw Microsoft 365-abonnement te beheren en optimaal te benutten. Soms vindt u niet de juiste taak, hebt u meer context nodig voordat u aan een taakstroom begint of bent u gewoon niet zeker van de omvang en de impact van uw acties als beheerder. Om deze situaties te dekken, bieden we moderne hulp en intelligente hulp in het hele Microsoft 365-beheercentrum op deze manieren:
+Als u een beheerder bent, is [admin.microsoft.com](https://admin.microsoft.com) uw plek om uw Microsoft 365-abonnement te beheren en optimaal te benutten. Soms vindt u mogelijk niet de juiste taak, hebt u meer context nodig voordat u aan een taakstroom begint of bent u gewoon niet zeker van het bereik en de impact van uw acties als beheerder. Om deze situaties te dekken, bieden we moderne hulp en intelligente hulp in het hele Microsoft 365-beheercentrum op deze manieren:
 
 <ul class="panelContent cardsW">
     <li>
@@ -94,6 +94,7 @@ Als u een beheerder bent, is [admin.microsoft.com](https://admin.microsoft.com) 
     </li>
 </ul>
  
+
 ## <a name="integrated-help"></a>Geïntegreerde hulp
 
 Hulp is geïntegreerd in het beheercentrum, dus het is daar wanneer je het nodig hebt. Bovenaan veel pagina's vindt u inline help-tekst die een informatief overzicht geeft van de taak bij de hand, evenals links naar artikelen waarmee u snel officiële documentatie vinden voor meer diepgaande informatie.
@@ -102,9 +103,9 @@ Hulp is geïntegreerd in het beheercentrum, dus het is daar wanneer je het nodig
 
 ## <a name="modern-self-help-powered-by-ai"></a>Moderne zelfhulp aangedreven door AI
 
-Als u de knop 'Hulp nodig' selecteert in het Microsoft 365-beheercentrum, wordt onze moderne zelfhulpervaring mogelijk gemaakt door kunstmatige intelligentie. Als u bijvoorbeeld zoekt naar *het verifiëren van mijn domein,* krijgt u de stappen plus een paar artikelen die u volgens ons zullen helpen. We gebruiken machine learning om de dichtstbijzijnde oplossing aan de oppervlakte te brengen waarvan is vastgesteld dat ze andere beheerders helpen die vergelijkbare query's hebben ingevoerd.
+Als u onze moderne zelfhulpervaring wilt openen die wordt aangedreven door kunstmatige intelligentie, selecteert u de knop **Help nodig** in het Microsoft 365-beheercentrum. Als u bijvoorbeeld zoekt naar 'mijn domein verifiëren', krijgt u de stappen plus een paar artikelen waarvan we denken dat ze u zullen helpen. We gebruiken machine learning om de dichtstbijzijnde oplossing te laten zien die andere beheerders heeft geholpen die vergelijkbare query's hebben ingevoerd.
 
-Of, voor die momenten waarop je niet helemaal weet hoe je iets gedaan krijgt in je specifieke situatie, gebruik je de Assistent. Deze ervaring is momenteel alleen beschikbaar in het Engels. Gebruik de schakelaar boven aan het deelvenster Hulp nodig om deze in te schakelen. De ondersteuningsassistent biedt een gespreksinterface voor het verkrijgen van hulp. Voer uw vraag in en de chatbot zal verhelderende vragen stellen om u het juiste antwoord te geven op uw specifieke situatie. Zie het als uw virtuele helper om oplossingen te ontdekken en taken uit te voeren.
+Of, voor die momenten waarop je niet helemaal weet hoe je iets gedaan krijgt in je specifieke situatie, gebruik je de Assistent. Momenteel is deze ervaring alleen beschikbaar in het Engels. Als u Ondersteuningsassistent wilt inschakelen, gebruikt u de schakelaar boven aan het deelvenster **Help nodig.** De ondersteuningsassistent biedt een gespreksinterface om u te helpen. Nadat je je vraag hebt ingevoerd, stelt de chatbot verhelderende vragen om je het juiste antwoord te geven op je specifieke situatie. Zie het als uw virtuele helper om oplossingen te ontdekken en taken uit te voeren.
 
 ![Moderne zelfhulp](../../media/help-options.png)
 
