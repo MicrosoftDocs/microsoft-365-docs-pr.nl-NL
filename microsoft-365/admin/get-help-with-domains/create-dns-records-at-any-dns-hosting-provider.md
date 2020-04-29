@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 7b7b075d-79f9-4e37-8a9e-fb60c1d95166
 description: Lees hier hoe u uw domein kunt verifiëren en DNS-records kunt maken bij een DNS-hostingprovider voor Microsoft 365.
 ms.custom: okr_smb
-ms.openlocfilehash: 85392bfbd19072d582e7c2db7ce3a8c7bf466176
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c727092c153e43369d5ed52d71bfcd256878db4b
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628492"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919503"
 ---
 # <a name="create-dns-records-at-any-dns-hosting-provider"></a>DNS-records maken bij een DNS-hostingprovider
 
@@ -69,19 +69,19 @@ Voordat u uw domein met Microsoft 365 kunt gaan gebruiken, moet worden gecontrol
   
 1. Voer een van de volgende handelingen uit, afhankelijk van of u een TXT-record of een MX-record maakt:
     
-  - **Als u een TXT-record maakt, gebruikt u deze waarden:**
+   - **Als u een TXT-record maakt, gebruikt u deze waarden:**
     
-|||||
-|:-----|:-----|:-----|:-----|
-|**Recordtype**|**Alias** of **Hostnaam**|**Waarde**|**TTL**|
-|TXT|Voer een van de volgende handelingen uit: Typ **@** of laat het veld leeg, of typ de naam van uw domein.  <br/> **Let op:** Verschillende DNS-hosts hebben verschillende vereisten voor dit veld. |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365.  <br/>        [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)     <br/>     |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort.  |
+      |||||
+      |:-----|:-----|:-----|:-----|
+      |**Recordtype**|**Alias** of **Hostnaam**|**Waarde**|**TTL**|
+      |TXT|Voer een van de volgende handelingen uit: Typ **@** of laat het veld leeg, of typ de naam van uw domein.  <br/> **Let op:** Verschillende DNS-hosts hebben verschillende vereisten voor dit veld. |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365.  <br/>        [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)     <br/>     |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort.  |
    
-  - **Als u een MX-record maakt, gebruikt u deze waarden:**
+   - **Als u een MX-record maakt, gebruikt u deze waarden:**
     
-||||||
-|:-----|:-----|:-----|:-----|:-----|
-|**Recordtype**|**Alias** of **Hostnaam**|**Value**|**Priority**|**TTL**|
-|MX|Typ **@** of uw domeinnaam. |MS=ms *XXXXXXXX* <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365.    <br/>       [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)     <br/>     |Gebruik een lagere prioriteit dan de prioriteit voor bestaande MX-records voor **Prioriteit** om conflicten met de MX-record voor de e-mailstroom te voorkomen. <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit. <br/> |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort. |
+      ||||||
+      |:-----|:-----|:-----|:-----|:-----|
+      |**Recordtype**|**Alias** of **Hostnaam**|**Value**|**Priority**|**TTL**|
+      |MX|Typ **@** of uw domeinnaam. |MS=ms *XXXXXXXX* <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Office 365.    <br/>       [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)     <br/>     |Gebruik een lagere prioriteit dan de prioriteit voor bestaande MX-records voor **Prioriteit** om conflicten met de MX-record voor de e-mailstroom te voorkomen. <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit. <br/> |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort. |
    
 2. Sla de record op.
     
@@ -103,9 +103,8 @@ Wanneer in Microsoft 365 de juiste TXT-record is gevonden, is uw domein gecontro
 ## <a name="add-mx-record-to-route-email"></a>MX-record toevoegen om e-mail te routeren
 <a name="BKMK_add_MX"> </a>
 
-Voeg een MX-record toe zodat e-mail voor uw domein naar Microsoft 365 wordt verzonden.  *Wanneer u de MX-record van uw domein bijwerkt, wordt alle nieuwe e-mail voor iedereen die uw domein gebruikt, verzonden naar Microsoft 365*. Elk e-mailbericht dat u al hebt, blijft bij uw huidige e-mailhost, tenzij u besluit [e-mail en contactpersonen te migreren naar Microsoft 365](../setup/migrate-email-and-contacts-admin.md) naar Microsoft 365. 
-  
-  
+Voeg een MX-record toe zodat e-mail voor uw domein naar Microsoft 365 wordt verzonden.  *Wanneer u de MX-record van uw domein bijwerkt, wordt alle nieuwe e-mail voor iedereen die uw domein gebruikt, verzonden naar Microsoft 365*. Elk e-mailbericht dat u al hebt, blijft bij uw huidige e-mailhost, tenzij u besluit [e-mail en contactpersonen te migreren naar Microsoft 365](../setup/migrate-email-and-contacts-admin.md).
+
  **Taak**
   
 De pagina zoeken waarop u records voor uw domein kunt maken.
@@ -118,39 +117,39 @@ De pagina zoeken waarop u records voor uw domein kunt maken.
     
 ::: moniker range="o365-worldwide"
 
-De MX-record die u toevoegt, bevat een waarde (de waarde **Adres waarnaar wordt verwezen**) die er ongeveer zo uitziet: \<MX token\>.mail.protection.outlook.com, waarbij \<MX-token\> een waarde is zoals MSxxxxxxx. 
+  De MX-record die u toevoegt, bevat een waarde (de waarde **Adres waarnaar wordt verwezen**) die er ongeveer zo uitziet: \<MX token\>.mail.protection.outlook.com, waarbij \<MX-token\> een waarde is zoals MSxxxxxxx. 
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-De MX-record die u toevoegt, bevat een waarde (de waarde **Adres waarnaar wordt verwezen**) die er ongeveer zo uitziet: \<<MX token\>.mail.protection.outlook.de, waarbij \<MX-token\> een waarde is zoals MSxxxxxxx. 
+  De MX-record die u toevoegt, bevat een waarde (de waarde **Adres waarnaar wordt verwezen**) die er ongeveer zo uitziet: \<<MX token\>.mail.protection.outlook.de, waarbij \<MX-token\> een waarde is zoals MSxxxxxxx. 
 
 ::: moniker-end
 
-1. Voeg op de website van uw DNS-host een nieuwe MX-record toe.
+4. Voeg op de website van uw DNS-host een nieuwe MX-record toe.
     
     Nu krijgt u [de informatie voor de MX-record](../get-help-with-domains/information-for-dns-records.md) van Microsoft 365. 
     
-2. Voor de MX-record (in de stap hierboven) kopieert u de waarde **Adres waarnaar wordt verwezen**. 
+5. Voor de MX-record (in de stap hierboven) kopieert u de waarde **Adres waarnaar wordt verwezen**. 
     
     U gebruikt deze waarde in de record die u op de site van uw DNS-host maakt, zoals wordt beschreven in de volgende stap.
     
-3. Controleer in de nieuwe MX-record op de site van uw DNS-host of de velden zijn ingesteld op precies de volgende waarden:
+6. Controleer in de nieuwe MX-record op de site van uw DNS-host of de velden zijn ingesteld op precies de volgende waarden:
     
-  - **Recordtype**: **MX**
+   - **Recordtype**: **MX**
     
-  - **Prioriteit**: Stel de prioriteit in van de MX-record op de hoogst beschikbare waarde, meestal **0**.
+   - **Prioriteit**: Stel de prioriteit in van de MX-record op de hoogst beschikbare waarde, meestal **0**.
     
-    Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.
+      Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.
     
-  - **Host Name**: **@**
+   - **Host Name**: **@**
     
-  - **Adres waarnaar wordt verwezen**: Plak hier de waarde van het **Adres waarnaar wordt verwezen** die u zojuist uit Microsoft 365 hebt gekopieerd. 
+   - **Adres waarnaar wordt verwezen**: Plak hier de waarde van het **Adres waarnaar wordt verwezen** die u zojuist uit Microsoft 365 hebt gekopieerd. 
     
-  - **TTL**: Stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**) enzovoort. 
+   - **TTL**: Stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**) enzovoort. 
     
-4. Sla de record op.
+7. Sla de record op.
     
 Verwijder eventuele andere MX-records.
   
@@ -167,12 +166,12 @@ Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één v
   
 1. Typ of kopieer en plak de volgende waarden in de vakken voor elke nieuwe record. Nadat u elk van de eerste drie nieuwe records hebt toegevoegd, kiest u om nog een CNAME-record te maken.
     
-|||||
-|:-----|:-----|:-----|:-----|
-|**Recordtype** <br/> |**Host** <br/> |**Verwijst naar** <br/> |**TTL** <br/> |
-|CNAME (alias)  <br/> |autodiscover  <br/> |autodiscover.outlook.com  <br/> |1 uur  <br/> |
-|CNAME (alias)  <br/> |lyncdiscover  <br/> |webdir.online.lync.com  <br/> |1 uur  <br/> |
-|CNAME (alias)  <br/> |sip  <br/> |sipdir.online.lync.com  <br/> |1 uur  <br/> |
+      |||||
+      |:-----|:-----|:-----|:-----|
+      |**Recordtype** <br/> |**Host** <br/> |**Verwijst naar** <br/> |**TTL** <br/> |
+      |CNAME (alias)  <br/> |autodiscover  <br/> |autodiscover.outlook.com  <br/> |1 uur  <br/> |
+      |CNAME (alias)  <br/> |lyncdiscover  <br/> |webdir.online.lync.com  <br/> |1 uur  <br/> |
+      |CNAME (alias)  <br/> |sip  <br/> |sipdir.online.lync.com  <br/> |1 uur  <br/> |
    
    > [!NOTE]
    > Voor **TTL**: Stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**) enzovoort. > Deze records zijn niet van toepassing op Exchange-, Lync- of Skype voor bedrijven-hybride implementaties. 
@@ -188,15 +187,15 @@ Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één v
   
 1. Typ of kopieer en plak de volgende waarden in de vakken voor elke nieuwe record. Nadat u elk van de eerste drie nieuwe records hebt toegevoegd, kiest u om nog een CNAME-record te maken.
     
-|||||
-|:-----|:-----|:-----|:-----|
-|**Recordtype** <br/> |**Host** <br/> |**Verwijst naar** <br/> |**TTL** <br/> |
-|CNAME (alias)  <br/> |autodiscover  <br/> |autodiscover-outlook.office.de  <br/> |1 uur  <br/> |
-|CNAME (alias)  <br/> |lyncdiscover  <br/> |webdir.online.skype.de  <br/> |1 uur  <br/> |
-|CNAME (alias)  <br/> |sip  <br/> |sipdir.online.lync.de  <br/> |1 uur  <br/> |
+    |||||
+    |:-----|:-----|:-----|:-----|
+    |**Recordtype** <br/> |**Host** <br/> |**Verwijst naar** <br/> |**TTL** <br/> |
+    |CNAME (alias)  <br/> |autodiscover  <br/> |autodiscover-outlook.office.de  <br/> |1 uur  <br/> |
+    |CNAME (alias)  <br/> |lyncdiscover  <br/> |webdir.online.skype.de  <br/> |1 uur  <br/> |
+    |CNAME (alias)  <br/> |sip  <br/> |sipdir.online.lync.de  <br/> |1 uur  <br/> |
    
-   > [!NOTE]
-   > Voor **TTL**: Stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**) enzovoort. > Deze records zijn niet van toepassing op Exchange-, Lync- of Skype voor bedrijven-hybride implementaties. 
+     > [!NOTE]
+     > Voor **TTL**: Stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**) enzovoort. > Deze records zijn niet van toepassing op Exchange-, Lync- of Skype voor bedrijven-hybride implementaties. 
   
 2. Sla de records op als u klaar bent.
     
@@ -210,15 +209,15 @@ Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één v
   
 1. Typ of kopieer en plak de volgende waarden in de vakken voor elke nieuwe record. Nadat u elk van de eerste drie nieuwe records hebt toegevoegd, kiest u om nog een CNAME-record te maken.
     
-|||||
-|:-----|:-----|:-----|:-----|
-|**Recordtype** <br/> |**Host** <br/> |**Verwijst naar** <br/> |**TTL** <br/> |
-|CNAME (alias)  <br/> |autodiscover  <br/> |autodiscover.partner.outlook.cn  <br/> |1 uur  <br/> |
-|CNAME (alias)  <br/> |lyncdiscover  <br/> |webdir.online.partner.lync.cn  <br/> |1 uur  <br/> |
-|CNAME (alias)  <br/> |sip  <br/> |sipdir.online.partner.lync.cn  <br/> |1 uur  <br/> |
+    |||||
+    |:-----|:-----|:-----|:-----|
+    |**Recordtype** <br/> |**Host** <br/> |**Verwijst naar** <br/> |**TTL** <br/> |
+    |CNAME (alias)  <br/> |autodiscover  <br/> |autodiscover.partner.outlook.cn  <br/> |1 uur  <br/> |
+    |CNAME (alias)  <br/> |lyncdiscover  <br/> |webdir.online.partner.lync.cn  <br/> |1 uur  <br/> |
+    |CNAME (alias)  <br/> |sip  <br/> |sipdir.online.partner.lync.cn  <br/> |1 uur  <br/> |
    
-   > [!NOTE]
-   > Voor **TTL**: Stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**) enzovoort. > Deze records zijn niet van toepassing op Exchange-, Lync- of Skype voor bedrijven-hybride implementaties. 
+     > [!NOTE]
+     > Voor **TTL**: Stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**) enzovoort. > Deze records zijn niet van toepassing op Exchange-, Lync- of Skype voor bedrijven-hybride implementaties. 
   
 2. Sla de records op als u klaar bent.
     
@@ -232,11 +231,11 @@ Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één v
 > [!IMPORTANT]
 > Als u Mobile Device Management (MDM) voor Microsoft 365 hebt, moet u twee extra CNAME-records maken. Volg de stappen die u hebt gevolgd voor de andere vier CNAME-records, maar gebruik de waarden uit de volgende tabel. > (Als u geen MDM hebt, kunt u deze stap overslaan.) 
   
-|||||
-|:-----|:-----|:-----|:-----|
-|**Recordtype** <br/> |**Host** <br/> |**Verwijst naar** <br/> |**TTL** <br/> |
-|CNAME (alias)  <br/> |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |1 uur  <br/> |
-|CNAME (alias)  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment.manage.microsoft.com  <br/> |1 uur  <br/> |
+   |||||
+   |:-----|:-----|:-----|:-----|
+   |**Recordtype** <br/> |**Host** <br/> |**Verwijst naar** <br/> |**TTL** <br/> |
+   |CNAME (alias)  <br/> |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |1 uur  <br/> |
+   |CNAME (alias)  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment.manage.microsoft.com  <br/> |1 uur  <br/> |
    
 ::: moniker-end
 
@@ -245,11 +244,11 @@ Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één v
 > [!IMPORTANT]
 > Als u Mobile Device Management (MDM) voor Microsoft 365 hebt, moet u twee extra CNAME-records maken. Volg de stappen die u hebt gevolgd voor de andere vier CNAME-records, maar gebruik de waarden uit de volgende tabel. > (Als u geen MDM hebt, kunt u deze stap overslaan.) 
   
-|||||
-|:-----|:-----|:-----|:-----|
-|**Recordtype** <br/> |**Host** <br/> |**Verwijst naar** <br/> |**TTL** <br/> |
-|CNAME (alias)  <br/> |enterpriseregistration  <br/> |enterpriseregistration.microsoftonline.de  <br/> |1 uur  <br/> |
-|CNAME (alias)  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |1 uur  <br/> |
+   |||||
+   |:-----|:-----|:-----|:-----|
+   |**Recordtype** <br/> |**Host** <br/> |**Verwijst naar** <br/> |**TTL** <br/> |
+   |CNAME (alias)  <br/> |enterpriseregistration  <br/> |enterpriseregistration.microsoftonline.de  <br/> |1 uur  <br/> |
+   |CNAME (alias)  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |1 uur  <br/> |
    
 ::: moniker-end
 
@@ -268,12 +267,12 @@ Op de website van uw DNS-host, bewerkt u de bestaande SPF-record of maakt u een 
   
 1. Typ of kopieer en plak in de vakken voor de nieuwe record de verzameling waarden hieronder die op uw situatie van toepassing zijn.
     
-|||||
-|:-----|:-----|:-----|:-----|
-|**Recordtype** <br/> |**Host** <br/> |**TXT-waarde** <br/> |**TTL** <br/> |
-|TXT (Text)  <br/> |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |1 uur  <br/> |
+    |||||
+    |:-----|:-----|:-----|:-----|
+    |**Recordtype** <br/> |**Host** <br/> |**TXT-waarde** <br/> |**TTL** <br/> |
+    |TXT (Text)  <br/> |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |1 uur  <br/> |
    
-   Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
+    Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
     
 2. Sla de record op als u klaar bent.
     
@@ -293,12 +292,12 @@ Op de website van uw DNS-host, bewerkt u de bestaande SPF-record of maakt u een 
   
 1. Typ of kopieer en plak in de vakken voor de nieuwe record de verzameling waarden hieronder die op uw situatie van toepassing zijn.
     
-|||||
-|:-----|:-----|:-----|:-----|
-|**Recordtype**|**Host**|**TXT-waarde**|**TTL**|
-|TXT (Text)|@|v=spf1 include:spf.protection.outlook.de -all <br/>  Het is raadzaam dit item te kopiëren en te plakken, zodat alle spatiëring ongewijzigd blijft.           |1 uur|
+    |||||
+    |:-----|:-----|:-----|:-----|
+    |**Recordtype**|**Host**|**TXT-waarde**|**TTL**|
+    |TXT (Text)|@|v=spf1 include:spf.protection.outlook.de -all <br/>  Het is raadzaam dit item te kopiëren en te plakken, zodat alle spatiëring ongewijzigd blijft.           |1 uur|
    
-   Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
+    Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
     
 2. Sla de record op als u klaar bent.
     
@@ -318,12 +317,12 @@ Op de website van uw DNS-host, bewerkt u de bestaande SPF-record of maakt u een 
   
 1. Typ of kopieer en plak in de vakken voor de nieuwe record de verzameling waarden hieronder die op uw situatie van toepassing zijn.
     
-|||||
-|:-----|:-----|:-----|:-----|
-|**Recordtype**|**Host**|**TXT-waarde**|**TTL**|
-|TXT (Text)|@|v=spf1 include:spf.protection.partner.outlook.cn -all> [!NOTE]> Het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |1 uur|
+    |||||
+    |:-----|:-----|:-----|:-----|
+    |**Recordtype**|**Host**|**TXT-waarde**|**TTL**|
+    |TXT (Text)|@|v=spf1 include:spf.protection.partner.outlook.cn -all> [!NOTE]> Het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |1 uur|
    
-   Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
+    Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
     
 2. Sla de record op als u klaar bent.
     
@@ -340,27 +339,27 @@ Op de website van uw DNS-host maakt u twee nieuwe SRV-records, meestal één voo
   
 1. Typ of kopieer en plak de volgende waarden in de vakken voor elke nieuwe record. **(Zie onderstaande opmerkingen voor het maken van SRV-records maken wanneer uw DNS-host deze niet allemaal als afzonderlijke velden heeft.)**
     
-||||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|**Recordtype** <br/> |**Naam** <br/> |**Doel** <br/> |**Protocol** <br/> |**Service** <br/> |**Prioriteit** <br/> |**Gewicht** <br/> |**Poort** <br/> |**TTL** <br/> |
-|SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipdir.online.lync.com  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |1  <br/> |443  <br/> |1 uur  <br/> |
-|SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipfed.online.lync.com  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |1  <br/> |5061  <br/> |1 uur  <br/> |
+    ||||||||||
+    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+    |**Recordtype** <br/> |**Naam** <br/> |**Doel** <br/> |**Protocol** <br/> |**Service** <br/> |**Prioriteit** <br/> |**Gewicht** <br/> |**Poort** <br/> |**TTL** <br/> |
+    |SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipdir.online.lync.com  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |1  <br/> |443  <br/> |1 uur  <br/> |
+    |SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipfed.online.lync.com  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |1  <br/> |5061  <br/> |1 uur  <br/> |
    
-  > [!NOTE]
-  >  Voor **Naam**: als uw DNS-host niet toestaat dat u dit instelt op **@**, laat u dit vak leeg.  Gebruik deze methode *alleen* wanneer uw DNS-host afzonderlijke velden voor de waarden Service en Protocol heeft. Raadpleeg anders onderstaande opmerkingen bij Service en Protocol. 
-
->  Voor **Service** en **Protocol**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u de waarden voor **Service** en **Protocol** op als de waarde **Naam** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Naam** anders heten, als **Host**, **Hostnaam** of **Subdomein**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een punt.  Bijvoorbeeld: **Naam**: _sip._tls 
-
->  Voor **Prioriteit**, **Gewicht** en **Poort**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u ze op als de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een spatie en sluit u af met een punt. De waarden moeten in de volgende volgorde worden opgenomen: Prioriteit, Gewicht, Poort, Doel. Bijvoorbeeld: **Doel**: 100 1 443 sipdir.online.lync.com. 
-
->  Variatie voor **Prioriteit**, **Gewicht** en **Poort**: sommige DNS-host bieden enkele, maar niet alle vereiste velden apart. Voor deze DNS-hostsites host geeft u de waarden die niet afzonderlijk worden weergegeven als een gecombineerde tekenreeks op, in de juiste volgorde, bij de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks voor de velden die niet afzonderlijk worden weergegeven, waarin de waarden van elkaar zijn gescheiden door spaties. De waarden moeten worden opgenomen *in de juiste volgorde*, waarbij waarden waarvoor afzonderlijke velden beschikbaar zijn, worden weggelaten: Prioriteit, Gewicht, Poort, Doel. Wanneer er voor Prioriteit bijvoorbeeld een apart veld is, voegt u alleen de waarden voor Gewicht, Poort en Doel samen: **Doel**: 1 443 sipdir.online.lync.com 
-
-> Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
+    > [!NOTE]
+    >  Voor **Naam**: als uw DNS-host niet toestaat dat u dit instelt op **@**, laat u dit vak leeg.  Gebruik deze methode *alleen* wanneer uw DNS-host afzonderlijke velden voor de waarden Service en Protocol heeft. Raadpleeg anders onderstaande opmerkingen bij Service en Protocol. 
+    > 
+    >  Voor **Service** en **Protocol**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u de waarden voor **Service** en **Protocol** op als de waarde **Naam** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Naam** anders heten, als **Host**, **Hostnaam** of **Subdomein**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een punt.  Bijvoorbeeld: **Naam**: _sip._tls 
+    > 
+    >  Voor **Prioriteit**, **Gewicht** en **Poort**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u ze op als de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een spatie en sluit u af met een punt. De waarden moeten in de volgende volgorde worden opgenomen: Prioriteit, Gewicht, Poort, Doel. Bijvoorbeeld: **Doel**: 100 1 443 sipdir.online.lync.com. 
+    > 
+    >  Variatie voor **Prioriteit**, **Gewicht** en **Poort**: sommige DNS-host bieden enkele, maar niet alle vereiste velden apart. Voor deze DNS-hostsites host geeft u de waarden die niet afzonderlijk worden weergegeven als een gecombineerde tekenreeks op, in de juiste volgorde, bij de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks voor de velden die niet afzonderlijk worden weergegeven, waarin de waarden van elkaar zijn gescheiden door spaties. De waarden moeten worden opgenomen *in de juiste volgorde*, waarbij waarden waarvoor afzonderlijke velden beschikbaar zijn, worden weggelaten: Prioriteit, Gewicht, Poort, Doel. Wanneer er voor Prioriteit bijvoorbeeld een apart veld is, voegt u alleen de waarden voor Gewicht, Poort en Doel samen: **Doel**: 1 443 sipdir.online.lync.com 
+    > 
+    > Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
   
 2. Sla de records op als u klaar bent.
     
-> [!NOTE]
->  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
+    > [!NOTE]
+    >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
   
 ::: moniker-end
 
@@ -371,27 +370,27 @@ Op de website van uw DNS-host maakt u twee nieuwe SRV-records, meestal één voo
   
 1. Typ of kopieer en plak de volgende waarden in de vakken voor elke nieuwe record. **(Zie onderstaande opmerkingen voor het maken van SRV-records maken wanneer uw DNS-host deze niet allemaal als afzonderlijke velden heeft.)**
     
-||||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|**Recordtype** <br/> |**Naam** <br/> |**Doel** <br/> |**Protocol** <br/> |**Service** <br/> |**Prioriteit** <br/> |**Gewicht** <br/> |**Poort** <br/> |**TTL** <br/> |
-|SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipdir.online.lync.de  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |1  <br/> |443  <br/> |1 uur  <br/> |
-|SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipfed.online.lync.de  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |1  <br/> |5061  <br/> |1 uur  <br/> |
+    ||||||||||
+    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+    |**Recordtype** <br/> |**Naam** <br/> |**Doel** <br/> |**Protocol** <br/> |**Service** <br/> |**Prioriteit** <br/> |**Gewicht** <br/> |**Poort** <br/> |**TTL** <br/> |
+    |SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipdir.online.lync.de  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |1  <br/> |443  <br/> |1 uur  <br/> |
+    |SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipfed.online.lync.de  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |1  <br/> |5061  <br/> |1 uur  <br/> |
    
- > [!NOTE]
- >  Voor **Naam**: als uw DNS-host niet toestaat dat u dit instelt op **@**, laat u dit vak leeg.  Gebruik deze methode *alleen* wanneer uw DNS-host afzonderlijke velden voor de waarden Service en Protocol heeft. Raadpleeg anders onderstaande opmerkingen bij Service en Protocol. 
-
->  Voor **Service** en **Protocol**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u de waarden voor **Service** en **Protocol** op als de waarde **Naam** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Naam** anders heten, als **Host**, **Hostnaam** of **Subdomein**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een punt. >  Bijvoorbeeld: **Naam**: _sip._tls 
-
->  Voor **Prioriteit**, **Gewicht** en **Poort**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u ze op als de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een spatie en sluit u af met een punt. De waarden moeten in de volgende volgorde worden opgenomen: Prioriteit, Gewicht, Poort, Doel. >  Bijvoorbeeld: **Doel**: 100 1 443 sipdir.online.lync.de. 
-
->  Variatie voor **Prioriteit**, **Gewicht** en **Poort**: sommige DNS-host bieden enkele, maar niet alle vereiste velden apart. Voor deze DNS-hostsites host geeft u de waarden die niet afzonderlijk worden weergegeven als een gecombineerde tekenreeks op, in de juiste volgorde, bij de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks voor de velden die niet afzonderlijk worden weergegeven, waarin de waarden van elkaar zijn gescheiden door spaties. De waarden moeten worden opgenomen *in de juiste volgorde*, waarbij waarden waarvoor afzonderlijke velden beschikbaar zijn, worden weggelaten: Prioriteit, Gewicht, Poort, Doel. >  Wanneer er voor Prioriteit bijvoorbeeld een apart veld is, voegt u alleen de waarden voor Gewicht, Poort en Doel samen: **Doel**: 1 443 sipdir.online.lync.de 
-
->  Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
+    > [!NOTE]
+    >  Voor **Naam**: als uw DNS-host niet toestaat dat u dit instelt op **@**, laat u dit vak leeg.  Gebruik deze methode *alleen* wanneer uw DNS-host afzonderlijke velden voor de waarden Service en Protocol heeft. Raadpleeg anders onderstaande opmerkingen bij Service en Protocol. 
+    > 
+    >  Voor **Service** en **Protocol**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u de waarden voor **Service** en **Protocol** op als de waarde **Naam** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Naam** anders heten, als **Host**, **Hostnaam** of **Subdomein**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een punt. >  Bijvoorbeeld: **Naam**: _sip._tls 
+    > 
+    >  Voor **Prioriteit**, **Gewicht** en **Poort**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u ze op als de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een spatie en sluit u af met een punt. De waarden moeten in de volgende volgorde worden opgenomen: Prioriteit, Gewicht, Poort, Doel. >  Bijvoorbeeld: **Doel**: 100 1 443 sipdir.online.lync.de. 
+    > 
+    >  Variatie voor **Prioriteit**, **Gewicht** en **Poort**: sommige DNS-host bieden enkele, maar niet alle vereiste velden apart. Voor deze DNS-hostsites host geeft u de waarden die niet afzonderlijk worden weergegeven als een gecombineerde tekenreeks op, in de juiste volgorde, bij de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks voor de velden die niet afzonderlijk worden weergegeven, waarin de waarden van elkaar zijn gescheiden door spaties. De waarden moeten worden opgenomen *in de juiste volgorde*, waarbij waarden waarvoor afzonderlijke velden beschikbaar zijn, worden weggelaten: Prioriteit, Gewicht, Poort, Doel. >  Wanneer er voor Prioriteit bijvoorbeeld een apart veld is, voegt u alleen de waarden voor Gewicht, Poort en Doel samen: **Doel**: 1 443 sipdir.online.lync.de 
+    > 
+    >  Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
   
 2. Sla de records op als u klaar bent.
     
-> [!NOTE]
->  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
+    > [!NOTE]
+    >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
   
 ::: moniker-end
 
@@ -402,27 +401,27 @@ Op de website van uw DNS-host maakt u twee nieuwe SRV-records, meestal één voo
   
 1. Typ of kopieer en plak de volgende waarden in de vakken voor elke nieuwe record. **(Zie onderstaande opmerkingen voor het maken van SRV-records maken wanneer uw DNS-host deze niet allemaal als afzonderlijke velden heeft.)**
     
-||||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|**Recordtype** <br/> |**Naam** <br/> |**Doel** <br/> |**Protocol** <br/> |**Service** <br/> |**Prioriteit** <br/> |**Gewicht** <br/> |**Poort** <br/> |**TTL** <br/> |
-|SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipdir.online.partner.lync.cn  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |1  <br/> |443  <br/> |1 uur  <br/> |
-|SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipfed.online.partner.lync.cn  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |1  <br/> |5061  <br/> |1 uur  <br/> |
+    ||||||||||
+    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+    |**Recordtype** <br/> |**Naam** <br/> |**Doel** <br/> |**Protocol** <br/> |**Service** <br/> |**Prioriteit** <br/> |**Gewicht** <br/> |**Poort** <br/> |**TTL** <br/> |
+    |SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipdir.online.partner.lync.cn  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |1  <br/> |443  <br/> |1 uur  <br/> |
+    |SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipfed.online.partner.lync.cn  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |1  <br/> |5061  <br/> |1 uur  <br/> |
    
- > [!NOTE]
- >  Voor **Naam**: als uw DNS-host niet toestaat dat u dit instelt op **@**, laat u dit vak leeg.  Gebruik deze methode *alleen* wanneer uw DNS-host afzonderlijke velden voor de waarden Service en Protocol heeft. Raadpleeg anders onderstaande opmerkingen bij Service en Protocol. 
-
->  Voor **Service** en **Protocol**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u de waarden voor **Service** en **Protocol** op als de waarde **Naam** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Naam** anders heten, als **Host**, **Hostnaam** of **Subdomein**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een punt. >  Bijvoorbeeld: **Naam**: _sip._tls 
-
->  Voor **Prioriteit**, **Gewicht** en **Poort**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u ze op als de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een spatie en sluit u af met een punt. De waarden moeten in de volgende volgorde worden opgenomen: Prioriteit, Gewicht, Poort, Doel. >  Bijvoorbeeld: **Doel**: 100 1 443 sipdir.online.partner.lync.cn. 
-
->  Variatie voor **Prioriteit**, **Gewicht** en **Poort**: sommige DNS-host bieden enkele, maar niet alle vereiste velden apart. Voor deze DNS-hostsites host geeft u de waarden die niet afzonderlijk worden weergegeven als een gecombineerde tekenreeks op, in de juiste volgorde, bij de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks voor de velden die niet afzonderlijk worden weergegeven, waarin de waarden van elkaar zijn gescheiden door spaties. De waarden moeten worden opgenomen *in de juiste volgorde*, waarbij waarden waarvoor afzonderlijke velden beschikbaar zijn, worden weggelaten: Prioriteit, Gewicht, Poort, Doel. >  Wanneer er voor Prioriteit bijvoorbeeld een apart veld is, voegt u alleen de waarden voor Gewicht, Poort en Doel samen: **Doel**: 1 443 sipdir.online.partner.lync.cn 
-
->  Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
+    > [!NOTE]
+    >  Voor **Naam**: als uw DNS-host niet toestaat dat u dit instelt op **@**, laat u dit vak leeg.  Gebruik deze methode *alleen* wanneer uw DNS-host afzonderlijke velden voor de waarden Service en Protocol heeft. Raadpleeg anders onderstaande opmerkingen bij Service en Protocol. 
+    > 
+    >  Voor **Service** en **Protocol**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u de waarden voor **Service** en **Protocol** op als de waarde **Naam** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Naam** anders heten, als **Host**, **Hostnaam** of **Subdomein**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een punt. >  Bijvoorbeeld: **Naam**: _sip._tls 
+    > 
+    >  Voor **Prioriteit**, **Gewicht** en **Poort**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u ze op als de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een spatie en sluit u af met een punt. De waarden moeten in de volgende volgorde worden opgenomen: Prioriteit, Gewicht, Poort, Doel. >  Bijvoorbeeld: **Doel**: 100 1 443 sipdir.online.partner.lync.cn. 
+    > 
+    >  Variatie voor **Prioriteit**, **Gewicht** en **Poort**: sommige DNS-host bieden enkele, maar niet alle vereiste velden apart. Voor deze DNS-hostsites host geeft u de waarden die niet afzonderlijk worden weergegeven als een gecombineerde tekenreeks op, in de juiste volgorde, bij de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks voor de velden die niet afzonderlijk worden weergegeven, waarin de waarden van elkaar zijn gescheiden door spaties. De waarden moeten worden opgenomen *in de juiste volgorde*, waarbij waarden waarvoor afzonderlijke velden beschikbaar zijn, worden weggelaten: Prioriteit, Gewicht, Poort, Doel. >  Wanneer er voor Prioriteit bijvoorbeeld een apart veld is, voegt u alleen de waarden voor Gewicht, Poort en Doel samen: **Doel**: 1 443 sipdir.online.partner.lync.cn 
+    > 
+    >  Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
   
 2. Sla de records op als u klaar bent.
     
-> [!NOTE]
->  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
+    > [!NOTE]
+    >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
   
 ::: moniker-end
 
