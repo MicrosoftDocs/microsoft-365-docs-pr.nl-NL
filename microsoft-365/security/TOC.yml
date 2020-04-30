@@ -269,6 +269,8 @@
                       href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
                     - name: Berichten handmatig aan Microsoft verzenden
                       href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
+                    - name: Regels voor e-mailstromen gebruiken om te zien wat uw gebruikers melden bij Microsoft
+                      href: ./office-365-security/use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
                     - name: Malware en niet-malware aan Microsoft verzenden
                       href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
                 - name: Berichtkoppen tegen ongewenste e-mail
