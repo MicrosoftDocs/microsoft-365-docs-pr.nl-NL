@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 description: Meer informatie over het lezen en begrijpen van uw factuur voor Microsoft-bedrijfsproducten.
 keywords: factureringsrekeningen, organisatiegegevens, facturen
-ms.openlocfilehash: 3028b0e8aa952b932e7d56a5ecceaad5931dee30
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7b16af7c6ef39743aa8d0a4e927786f64f47c4cd
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634978"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942875"
 ---
 # <a name="understand-your-invoice"></a>Inzicht in uw factuur
 
 De factuur bevat een overzicht van uw kosten en betalingsinstructies. U [uw online factuur bekijken](#view-your-online-invoice) in het Microsoft 365-beheercentrum. U het ook downloaden in de Portable Document Format (.pdf) om te verzenden via e-mail.
 
-Zie [Uw factuur voor Microsoft 365 voor Bedrijven weergeven](view-your-bill-or-invoice.md)als u alleen een Microsoft 365-abonnement hebt.
+Zie [Uw factuur voor Microsoft 365 voor Bedrijven begrijpen](understand-your-invoice2.md)als u alleen een Microsoft 365-abonnement hebt.
 
 ## <a name="understand-the-invoice-header"></a>De factuurkoptekst begrijpen
 
@@ -78,7 +78,7 @@ Het totale verschuldigde bedrag voor elke servicefamilie wordt berekend door Azu
 
 `Total = Charges/Credits - Azure Credit + Tax`
 
-Zie [Kosten op uw Microsoft Customer Agreement-factuur begrijpen](https://docs.microsoft.com/azure/billing/billing-mca-understand-your-bill)als er Azure-kosten op uw factuur staan waarop u meer informatie wilt.
+Zie Uw factuur voor de [microsoft-overeenkomst controleren](https://docs.microsoft.com/azure/cost-management-billing/understand/review-customer-agreement-bill)als er Azure-kosten op uw factuur staan waarop u meer details wilt.
 
 ## <a name="understand-the-last-invoice-page"></a>De laatste factuurpagina begrijpen
 

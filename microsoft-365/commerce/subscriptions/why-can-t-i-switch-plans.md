@@ -23,18 +23,18 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: Begrijp de redenen waarom soms het schakelen van plannen handmatig moet worden gedaan of door ondersteuning te bellen.
-ms.openlocfilehash: 5d446e3492bc9039e490cacca469443c0dc52cbd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8b6c4069f2c7f0cfd86981c1001a7211aa298ff7
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631927"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943141"
 ---
 # <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Waarom kan ik Microsoft 365 niet overschakelen voor bedrijfsabonnementen?
 
 ::: moniker range="o365-worldwide"
 > [!NOTE]
-> Dit artikel is van toepassing op het oude beheercentrum. Zie Waarom kan ik geen upgradeplannen uitvoeren als u het artikel over het beheercentrum wilt bekijken [(voorbeeld).](why-cant-i-change-plans.md) De preview is beschikbaar voor alle Microsoft 365-beheerders, u zich aanmelden door **De voorvertoningsschakelaar** boven aan de startpagina proberen te selecteren. Zie [Informatie over het nieuwe Microsoft 365-beheercentrum voor](../../admin/microsoft-365-admin-center-preview.md)meer informatie.
+> Dit artikel is van toepassing op het oude beheercentrum. Zie Waarom kan ik geen upgradeplannen uitvoeren als u het artikel over het beheercentrum wilt bekijken [(voorbeeld).](upgrade-to-different-plan.md#why-cant-i-upgrade-plans) De preview is beschikbaar voor alle Microsoft 365-beheerders, u zich aanmelden door **De voorvertoningsschakelaar** boven aan de startpagina proberen te selecteren. Zie [Informatie over het nieuwe Microsoft 365-beheercentrum voor](../../admin/microsoft-365-admin-center-preview.md)meer informatie.
 ::: moniker-end
 
 Als u de knop **Abonnementen schakelen** niet ziet, kan uw abonnement niet automatisch worden geschakeld. In sommige gevallen kunt u mogelijk het probleem oplossen zodat u de knop **Veranderen van abonnement** kunt gebruiken, of u kunt mogelijk in plaats daarvan [handmatig van abonnement veranderen](switch-plans-manually.md). Plaats de muisaanwijzer boven het informatiepictogram om een bericht te bekijken waarin wordt uitgelegd waarom de knop **Veranderen van abonnement** niet beschikbaar is. Gebruik de informatie in dit artikel om het probleem op te lossen.

@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Wat zijn best practices voor Exchange Online Protection (EOP) en Advanced Threat Protection (ATP) beveiligingsinstellingen? Wat zijn de huidige aanbevelingen voor standaardbescherming? Wat moet worden gebruikt als u strenger wilt zijn? En welke extra's krijg je als je ook gebruik maakt van Advanced Threat Protection (ATP)?
-ms.openlocfilehash: 9755fccb482dc294da7a0747310776314c739139
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a88d58db68816cd6aeb9173c36b964f3f97653db
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634410"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949223"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Aanbevolen instellingen voor EOP- en Office 365 ATP-beveiliging
 
@@ -45,7 +45,7 @@ Anti-spam, anti-malware en anti-phishing zijn functies van EOP die door beheerde
 
 Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md)voor het maken en configureren van antispambeleid.
 
-| Naam beveiligingsfunctie | Standaard | Strikte | Opmerking |
+|Naam beveiligingsfunctie|Standaard|Strikte|Opmerking|
 |---|---|---|---|
 |**Spamdetectieactie** <br/><br/> _SpamActie_|**Bericht verplaatsen naar map Ongewenste e-mail** <br/><br/> `MoveToJmf`|**Quarantainebericht** <br/><br/> `Quarantine`||
 |**Actie voor spamdetectie** met hoog vertrouwen <br/><br/> _HighConfidenceSpamAction_|**Quarantainebericht** <br/><br/> `Quarantine`|**Quarantainebericht** <br/><br/> `Quarantine`||
@@ -69,7 +69,7 @@ Er zijn verschillende andere Advanced Spam Filter (AsF) instellingen in anti-spa
 
 We raden u aan deze ASF-instellingen **uit te** schakelen voor zowel **standaard-** als **strikte** niveaus. Zie Instellingen voor [Geavanceerd spamfilter (Asf) in Office 365](advanced-spam-filtering-asf-options.md)voor meer informatie over asf-instellingen.
 
-| Naam beveiligingsfunctie | Opmerkingen |
+|Naam beveiligingsfunctie|Opmerkingen|
 |----|---|
 |**Afbeeldingskoppelingen naar externe sites** _(IncreaseScoreWithImageLinks)_||
 |**Numeriek IP-adres in URL** _(IncreaseScoreWithNumericIps)_||
@@ -91,7 +91,7 @@ We raden u aan deze ASF-instellingen **uit te** schakelen voor zowel **standaard
 
 Zie [Uitgaand spamfiltering configureren in Office 365](configure-the-outbound-spam-policy.md)voor het maken en configureren van uitgaande spambeleid.
 
-| Naam beveiligingsfunctie | Standaard | Strikte | Opmerking |
+|Naam beveiligingsfunctie|Standaard|Strikte|Opmerking|
 |---|---|---|---|
 |**Maximum aantal ontvangers per gebruiker: externe uurlimiet** <br/><br/> _RecipientLimitExternalPerhour_|500|400||
 |**Maximum aantal ontvangers per gebruiker: interne uurlimiet** <br/><br/> _RecipientLimitInternalPerHour_|1000|800||
@@ -102,7 +102,7 @@ Zie [Uitgaand spamfiltering configureren in Office 365](configure-the-outbound-s
 
 Zie [Beleid voor antimalware configureren in Office 365](configure-anti-malware-policies.md)als u anti-malwarebeleid wilt maken en configureren.
 
-| Naam beveiligingsfunctie | Standaard | Strikte | Opmerking |
+|Naam beveiligingsfunctie|Standaard|Strikte|Opmerking|
 |---|---|---|---|
 |**Wilt u ontvangers op de hoogte stellen als hun berichten in quarantaine zijn geplaatst?** <br/><br/> _Actie_|Nee <br/><br/> _Bericht verwijderen_|Nee <br/><br/> _Bericht verwijderen_|Als er malware wordt gedetecteerd in een e-mailbijlage, wordt het bericht in quarantaine geplaatst en kan het alleen door een beheerder worden vrijgegeven.|
 |**Common Attachment Types Filter** <br/><br/> _Bestandfilter inschakelen_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Met deze instelling worden berichten in quarantaine geplaatst die uitvoerbare bijlagen bevatten op basis van het bestandstype, ongeacht de inhoud van de bijlage.|
@@ -112,9 +112,9 @@ Zie [Beleid voor antimalware configureren in Office 365](configure-anti-malware-
 
 ### <a name="eop-default-anti-phishing-policy-settings"></a>EOP standaard anti-phishing beleidsinstellingen
 
-U deze instellingen alleen configureren in Office 365-organisaties met Exchange Online-postvakken. Zie Het standaard [antiphishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)als u deze instellingen wilt configureren.
+Zie [Antiphishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)om deze instellingen te configureren.
 
-| Naam beveiligingsfunctie | Standaard | Strikte | Opmerking |
+|Naam beveiligingsfunctie|Standaard|Strikte|Opmerking|
 |---|---|---|---|
 |**Anti-spoofing-beveiliging inschakelen** <br/><br/> _AntispoofHandhaving inschakelen_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
 |**Niet-geverifieerde afzender inschakelen** <br/><br/> _Niet-geverifieerde afzender inschakelen_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Hiermee voegt u een vraagteken (?) toe aan de foto van de afzender in Outlook voor niet-geïdentificeerde vervalste afzenders. Zie [Spoofinstellingen in antiphishingbeleid](set-up-anti-phishing-policies.md)voor meer informatie.|
@@ -158,7 +158,7 @@ EOP-klanten krijgen basisantiphishing zoals eerder beschreven, maar Office 365 A
 
 #### <a name="impersonation-settings-in-atp-anti-phishing-policies"></a>Imitatie-instellingen in het ANTI-phishingbeleid van ATP
 
-| Naam beveiligingsfunctie | Standaard | Strikte | Opmerking |
+|Naam beveiligingsfunctie|Standaard|Strikte|Opmerking|
 |---|---|---|---|
 |Beveiligde gebruikers: **gebruikers toevoegen om te beschermen** <br/><br/> _TargetedUserProtection inschakelen_ <br/><br/> _TargetedUsersToProtect_|Aan <br/><br/> `$true` <br/><br/> \<lijst met gebruikers\>|Aan <br/><br/> `$true` <br/><br/> \<lijst met gebruikers\>|Is afhankelijk van uw organisatie, maar we raden u aan gebruikers toe te voegen in belangrijke rollen. Intern kunnen dit uw CEO, CFO en andere senior leiders zijn. Extern kunnen dit raadsleden of uw raad van bestuur zijn.|
 |Beveiligde domeinen: **voeg automatisch de domeinen toe die ik bezit** <br/><br/> _Bescherming van organisatiedomeinen inschakelen_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
@@ -178,7 +178,7 @@ EOP-klanten krijgen basisantiphishing zoals eerder beschreven, maar Office 365 A
 
 Houd er rekening mee dat dit dezelfde instellingen zijn die beschikbaar zijn in [de instellingen voor antispambeleid in EOP.](#eop-anti-spam-policy-settings)
 
-| Naam beveiligingsfunctie | Standaard | Strikte | Opmerking |
+|Naam beveiligingsfunctie|Standaard|Strikte|Opmerking|
 |---|---|---|---|
 |**Anti-spoofing-beveiliging inschakelen** <br/><br/> _AntispoofHandhaving inschakelen_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
 |**Niet-geverifieerde afzender inschakelen** <br/><br/> _Niet-geverifieerde afzender inschakelen_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Hiermee voegt u een vraagteken (?) toe aan de foto van de afzender in Outlook voor niet-geïdentificeerde vervalste afzenders. Zie [Spoofinstellingen in antiphishingbeleid](set-up-anti-phishing-policies.md)voor meer informatie.|
@@ -186,7 +186,7 @@ Houd er rekening mee dat dit dezelfde instellingen zijn die beschikbaar zijn in 
 
 #### <a name="advanced-settings-in-atp-anti-phishing-policies"></a>Geavanceerde instellingen in ATP-antiphishingbeleid
 
-| Naam beveiligingsfunctie | Standaard | Strikte | Opmerking |
+|Naam beveiligingsfunctie|Standaard|Strikte|Opmerking|
 |---|---|---|---|
 |**Geavanceerde phishingdrempels** <br/><br/> _PhishThresholdLevel PhishThresholdLevel_|**2 - Agressief** <br/><br/> `2`|**3 - Agressiever** <br/><br/> `3`||
 

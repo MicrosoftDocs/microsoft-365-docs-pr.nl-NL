@@ -10,15 +10,15 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: ''
-search.appverid: ''
+search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft- en Microsoft-partnerapps voor gebruikers en groepen in uw organisatie zoeken, testen en implementeren vanuit de portal voor geïntegreerde apps in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 5189eef7524242a87f1797f8856bbd33b9a32a31
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: bc9ad91a664072f4291f0c95c029fb2ca06530f5
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212267"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942151"
 ---
 # <a name="test-and-deploy-microsoft-365-apps-in-the-microsoft-365-admin-center"></a>Microsoft 365-apps testen en implementeren in het Microsoft 365-beheercentrum
 

@@ -10,16 +10,18 @@ ms.date: ''
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: De functie Veilige koppelingen biedt time-of-click verificatie van hyperlinks in Office-documenten en in e-mailberichten. Lees dit artikel om te leren hoe ATP Safe Links werkt.
-ms.openlocfilehash: b77ab718afdc4f68d8120e11fa5d1a321b66f32e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7887c3c2920f472d4baa7ff899c3e3b4f704385d
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638008"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943709"
 ---
 # <a name="how-atp-safe-links-works"></a>Hoe Veilige koppelingen in ATP werkt
 > [!IMPORTANT] 

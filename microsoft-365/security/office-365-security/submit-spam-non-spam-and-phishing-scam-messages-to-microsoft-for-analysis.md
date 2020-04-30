@@ -16,12 +16,12 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: 'U en uw gebruikers kunnen valse negatieve en fout-positieve spamberichten naar Microsoft sturen voor analyse. '
-ms.openlocfilehash: f6dbd808fac54ae273c21773bf8caeabce09b7fb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 928809a8d00e082bf3150abb27dc493c2b82c070
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631239"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939425"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Berichten handmatig verzenden naar Microsoft voor analyse
 
@@ -79,75 +79,4 @@ Als een bericht ten onrechte is geïdentificeerd als spam, u het bericht indiene
 
 ## <a name="create-a-mail-flow-rule-to-receive-copies-of-messages-that-are-reported-to-microsoft"></a>Een e-mailstroomregel maken om kopieën te ontvangen van berichten die aan Microsoft worden gerapporteerd
 
-U een regel voor e-mailstroom (ook wel een transportregel genoemd) maken die zoekt naar e-mailberichten die aan Microsoft worden gerapporteerd met behulp van de methoden die in dit onderwerp zijn beschreven, en u BCC-ontvangers configureren om kopieën van deze gerapporteerde berichten te ontvangen.
-
-U de regel voor e-mailstroom maken in het Exchange-beheercentrum (EAC) en PowerShell (Exchange Online PowerShell voor Microsoft 365-klanten. Exchange Online Protection PowerShell voor zelfstandige EOP-klanten).
-
-### <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
-
-- U moet machtigingen in Exchange Online krijgen toegewezen voordat u deze procedures uitvoeren. U moet in het bijzonder de rol **Transportregels** toegewezen krijgen, die standaard is toegewezen aan de rollen **Organisatiebeheer,** **Compliancebeheer**en **Records Management.** Zie [Rolgroepen beheren in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)voor meer informatie .
-
-- Zie [Exchange-beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center)als u de EAC in Exchange Online wilt openen.
-
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone Exchange Online Protection PowerShell.
-
-- Zie de volgende onderwerpen voor meer informatie over regels voor e-mailstromen in Exchange Online en zelfstandige EOP:
-
-  - [Regels voor e-mailstroom (transportregels) in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
-
-  - [Voorwaarden en uitzonderingen voor e-mailstroomregels (predicaten) in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
-
-  - [Acties voor e-mailstroomregel in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
-
-### <a name="use-the-eac-to-create-a-mail-flow-rule-to-receive-copies-of-reported-messages"></a>De EAC gebruiken om een e-mailstroomregel te maken om kopieën van gerapporteerde berichten te ontvangen
-
-1. Ga in de EAC naar **Mail flow** \> **Rules**.
-
-2. Klik **op** ![](../../media/ITPro-EAC-AddIcon.png) Pictogram Toevoegen toevoegen en selecteer **vervolgens Een nieuwe regel maken**.
-
-3. Configureer op de pagina **Nieuwe regel** die wordt geopend de volgende instellingen:
-
-   - **Naam:** Voer een unieke, beschrijvende naam voor de regel in. Bijvoorbeeld, BCC Berichten Gerapporteerd aan Microsoft.
-
-   - Klik **op Meer opties**.
-
-   - **Deze regel toepassen als**: **Selecteer Het geadresseerdeadres** \> **bevat een van deze woorden:** Voer in het dialoogvenster](../../media/ITPro-EAC-AddIcon.png)Woorden of zinnen **opgeven** dat wordt weergegeven een van de volgende waarden in, klik op Pictogram **toevoegen** ![en herhaal totdat u alle waarden hebt ingevoerd.
-
-     - `junk@office365.microsoft.com`
-     - `abuse@messaging.microsoft.com`
-     - `phish@office365.microsoft.com`
-     - `false_positive@messaging.microsoft.com`
-
-     Als u een item wilt **Edit** ![bewerken, selecteert](../../media/ITPro-EAC-EditIcon.png)u het item en klikt u op pictogram Bewerken bewerken . Als u een item wilt **Remove** ![verwijderen,](../../media/ITPro-EAC-DeleteIcon.png)selecteert u het item en klikt u op Pictogram Verwijderen .
-
-     Klik op **OK**als u klaar bent.
-
-   - **Ga als volgt**te werk : Selecteer **Geadresseerden** \> toevoegen **aan het vak BCC**. Zoek en selecteer in het dialoogvenster dat wordt weergegeven de geadresseerden die u wilt toevoegen. Klik op **OK**als u klaar bent.
-
-4. U extra selecties maken om de regel te controleren, de regel te testen, de regel te activeren gedurende een bepaalde periode en andere instellingen. We raden u aan de regel te testen voordat u deze afdwingt.
-
-5. Klik op **Opslaan** wanneer u gereed bent.
-
-### <a name="use-powershell-to-create-a-mail-flow-rule-to-receive-copies-of-reported-messages"></a>PowerShell gebruiken om een e-mailstroomregel te maken om kopieën van gerapporteerde berichten te ontvangen
-
-In dit voorbeeld wordt een nieuwe regel voor e-mailstroom gemaakt met de naam BCC-berichten die aan Microsoft worden gerapporteerd en die wordt gerapporteerd met behulp van de methoden die in dit onderwerp zijn beschreven, en worden de gebruikers laura@contoso.com en julia@contoso.com toegevoegd als BCC-ontvangers.
-
-```powershell
-New-TransportRule -Name "Bcc Messages Reported to Microsoft" -RecipientAddressContainsWords "junk@office365.microsoft.com","abuse@messaging.microsoft.com","phish@office365.microsoft.com","false_positive@messaging.microsoft.com" -BlindCopyTo "laura@contoso.com","julia@contoso.com".
-```
-
-Zie [Nieuwe-Transportregel](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule) voor gedetailleerde syntaxis- en parameterinformatie.
-
-### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
-
-Ga een van de volgende stappen uit om te controleren of u een e-mailstroomregels hebt geconfigureerd om kopieën van gerapporteerde berichten te ontvangen:
-
-- Ga in de EAC naar **EAC-regels** \> **Rules** \> en selecteer](../../media/ITPro-EAC-EditIcon.png)de regel \> klik op Pictogram Bewerken **bewerken** ![en controleer de instellingen.
-
-- Voer in PowerShell de volgende opdracht uit om de instellingen te verifiëren:
-
-  ```powershell
-  Get-TransportRule -Identity "Bcc Messages Reported to Microsoft" | Format-List
-  ```
-
-- Stuur een testbericht naar een van de rapportage-e-mailadressen en verifieer de resultaten.
+Zie Regels [voor e-mailstromen gebruiken om te zien wat uw gebruikers aan Microsoft rapporteren.](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)

@@ -9,16 +9,18 @@ audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection:
 - M365-security-compliance
 - remotework
 description: Bescherm uw zakelijke e-mail en gegevens tegen cyberbedreigingen, waaronder ransomware, phishing en schadelijke bijlagen.
-ms.openlocfilehash: f2d76fd92ac6d439fd6400a0478028c99ae935eb
-ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
+ms.openlocfilehash: 04f59d4f87bda9460930b54818d2ab43933d11e5
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43808842"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943541"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>Top 12 taken voor beveiligingsteams ter ondersteuning van thuiswerken
 
@@ -45,7 +47,7 @@ Voor klanten die onze bedrijfsplannen gebruiken, raadt Microsoft u aan de taken 
 |8      |  [Pc's inschrijven voor apparaatbeheer en vereisen compatibele pc's](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)   |  | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)        | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |9      | [Optimaliseer uw netwerk voor cloudconnectiviteit](#9-optimize-your-network-for-cloud-connectivity)  |  ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |10   | [Treingebruikers](#10-train-users) |    ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
-|11 |[Aan de slag met Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security) |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
+|11 |[Aan de slag met Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security) |  |  |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
 |12 |[Controleren op bedreigingen en actie ondernemen](#12-monitor-for-threats-and-take-action) |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)  |
 | | | |
 

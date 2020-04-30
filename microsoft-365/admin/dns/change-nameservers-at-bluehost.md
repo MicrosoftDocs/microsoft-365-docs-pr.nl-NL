@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7712b6af-329c-43a0-af7b-c4e4c1befb0e
 description: 'Meer informatie over hoe u Microsoft instellen om uw DNS-records te beheren bij Bluehost. '
-ms.openlocfilehash: 63084b35c3f0d71764bca1995f25d7c6f0842a86
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f20c09d2c9ca107648cba843cc93d839df8c53fc
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629909"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939389"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-bluehost"></a>Naamservers wijzigen om Microsoft in te stellen met Bluehost
 
@@ -35,7 +35,7 @@ Volg deze instructies als u wilt dat Microsoft uw DNS-records voor u beheert. (A
   
 ## <a name="add-a-txt-record-for-verification"></a>Een TXT-record toevoegen voor verificatie
 
-Voordat u uw domein bij Microsoft gebruikt, moeten we ervoor zorgen dat u eigenaar bent. Uw mogelijkheid om in te loggen op uw account bij uw domeinregistrar en de DNS-record te maken bewijst microsoft dat u eigenaar bent van het domein.
+Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat u de eigenaar bent van het domein. Als u zich bij uw account bij de domeinregistrar kunt aanmelden en de DNS-record kunt maken, is dit voor Microsoft bewezen.
   
 > [!NOTE]
 > Deze record wordt alleen gebruikt om te verifiëren dat u de eigenaar van uw domein bent. Dit heeft verder geen invloed. U kunt deze record later desgewenst verwijderen. 
@@ -55,7 +55,7 @@ Voordat u uw domein bij Microsoft gebruikt, moeten we ervoor zorgen dat u eigena
 |||||
 |:-----|:-----|:-----|:-----|
 |**Host Record** <br/> |**TTL** <br/> |**Type** <br/> |**TXT Value** <br/> |
-|@  <br/> |14400  <br/> |TXT  <br/> |MS=ms *XXXXXXXX* <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de waarde van uw specifieke **bestemming of adrespunt** in de tabel. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) <br/> |
+|@  <br/> |14400  <br/> |TXT  <br/> |MS=ms *XXXXXXXX* <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) <br/> |
 
    
 5. Selecteer **Record toevoegen**.
@@ -64,9 +64,9 @@ Voordat u uw domein bij Microsoft gebruikt, moeten we ervoor zorgen dat u eigena
     
 Nu u de record op de site van uw domeinregistrar hebt toegevoegd, gaat u terug naar Microsoft en vraagt u om een zoekopdracht naar de record.
   
-Wanneer Microsoft de juiste TXT-record vindt, wordt uw domein geverifieerd.
+Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
-1. Ga in het Microsoft-beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen.</a> **Settings**
+1. Ga in het Microsoft-beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
 
     
 2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
@@ -76,7 +76,7 @@ Wanneer Microsoft de juiste TXT-record vindt, wordt uw domein geverifieerd.
 4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
 > [!NOTE]
-> Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Zie Problemen zoeken en oplossen na het toevoegen van [uw domein- of DNS-records](../get-help-with-domains/find-and-fix-issues.md)als u problemen ondervindt met e-mailstroom of andere problemen na het toevoegen van DNS-records. 
+> Het duurt meestal ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>De naamserverrecords (NS-records) van uw domein wijzigen
 
@@ -125,8 +125,6 @@ Als u het instellen van uw domein met Microsoft wilt voltooien, wijzigt u de NS-
 |:-----|:-----|
 |**Derde lege rij** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**Vierde lege rij** <br/> |ns4.bdm.microsoftonline.com  <br/> |
-   
-    ![Bluehost-BP-Redelegate-1-3-3](../../media/480b32bb-af27-40a5-90c5-5617ed02bb41.png)
   
 4. Als u de vierde Nameserver-record wilt toevoegen, selecteert u Rij opnieuw **toevoegen** en maakt u een record met de waarden uit de laatste rij van de bovenstaande tabel. 
     

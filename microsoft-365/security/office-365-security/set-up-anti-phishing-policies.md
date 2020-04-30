@@ -14,27 +14,25 @@ ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het basisbeleid voor phishing in Exchange Online Protection (EOP) en het geavanceerde ATP-antiphishingbeleid in Office 365 Advanced Threat Protection.
-ms.openlocfilehash: 64a47d5514ab7a3a845e8d8b008f1cd8f672640b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 32214d24c7ed030b3bc7aad36bf3ac99f68a17fb
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638354"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949379"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti-phishingbeleid in Microsoft 365
 
-Beleidsregels voor het configureren van instellingen voor bescherming tegen phishing zijn beschikbaar in Office 365-organisaties met Exchange Online-postvakken, zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken en ATP-organisaties (Office 365 Advanced Threat Protection).
+Beleidsregels voor het configureren van instellingen voor bescherming tegen phishing zijn beschikbaar in Microsoft 365-organisaties met Exchange Online-postvakken, zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken en ATP-organisaties (Office 365 Advanced Threat Protection).
 
 ATP-antiphishingbeleid is alleen beschikbaar in organisaties met Office 365 ATP. Bijvoorbeeld:
 
-- Office 365 Enterprise E5, Office 365 Education A5, enz.
+- Microsoft 365 Enterprise E5, Microsoft 365 Education A5, enz.
 - [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
 - [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business)
 - [Office 365 ATP als invoegtoepassing](https://products.office.com/exchange/advance-threat-protection)
 
-ATP anti-phishing beleid omvat een ingebouwde standaard anti-phishing beleid, en u extra aangepaste ATP anti-phishing beleid.
-
-Andere Microsoft 365-organisaties met Exchange Online-postvakken of zelfstandige Exchange Online Protection-organisaties (EOP)-organisaties zonder Exchange Online-postvakken hebben een ingebouwd standaard beleid voor antiphishing, maar u geen aanvullend beleid maken. Alleen organisaties met Exchange Online-postvakken kunnen hun standaard antiphishingbeleid wijzigen.
+Alle andere organisaties hebben anti-phishing beleid.
 
 De verschillen op hoog niveau tussen antiphishingbeleid en ATP-antiphishingbeleid worden beschreven in de volgende tabel:
 
@@ -42,8 +40,8 @@ De verschillen op hoog niveau tussen antiphishingbeleid en ATP-antiphishingbelei
 |---|:---:|:---:|
 |**Functie**|**Beleid tegen phishing**|**ATP anti-phishing beleid**|
 |Automatisch gemaakt standaardbeleid|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Aangepaste beleidsregels maken||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Beleidsinstellingen<sup>\*</sup>||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Aangepaste beleidsregels maken|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Beleidsinstellingen<sup>\*</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |Imitatie-instellingen||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |Spoofinstellingen|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |Geavanceerde phishingdrempels||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
@@ -57,7 +55,7 @@ Zie de volgende onderwerpen om antiphishingbeleid te configureren:
 
 - [ATP-beleid voor phishing configureren in Microsoft 365](configure-atp-anti-phishing-policies.md)
 
-De rest van dit onderwerp beschrijft de instellingen die beschikbaar zijn in EOP en ATP anti-phishing beleid.
+De rest van dit onderwerp beschrijft de instellingen die beschikbaar zijn in anti-phishing beleid en ATP anti-phishing beleid.
 
 ## <a name="spoof-settings"></a>Spoofinstellingen
 
@@ -65,10 +63,10 @@ Spoofing is wanneer het Van-adres in een e-mailbericht (het afzenderadres dat wo
 
 De volgende spoofinstellingen zijn beschikbaar in antiphishingbeleid en ATP-antiphishingbeleid:
 
-- **Anti-spoofing bescherming:** Schakelt anti-spoofing bescherming in of uit. We raden u aan het ingeschakeld te laten. U gebruikt het **spoof-intelligentiebeleid** om specifieke vervalste interne en externe afzenders toe te staan of te blokkeren. Zie [Spoofinformatie configureren in Microsoft 365](learn-about-spoof-intelligence.md)voor meer informatie.
+- **Anti-spoofing bescherming:** Schakelt anti-spoofing bescherming in of uit. We raden u aan het ingeschakeld te laten. U gebruikt het **spoof-intelligentiebeleid** om specifieke vervalste interne en externe afzenders toe te staan of te blokkeren. Zie [spoof-intelligentie configureren in Microsoft 365](learn-about-spoof-intelligence.md) voor meer informatie.
 
   > [!NOTE]
-  > Spoofinstellingen zijn standaard ingeschakeld in het standaard antiphishingbeleid in EOP, het standaard ATP-antiphishingbeleid en in nieuwe aangepaste ATP-antiphishingbeleidsregels die u maakt. <br/><br/> U hoeft anti-spoofingbescherming niet uit te schakelen als uw MX-record niet naar Microsoft 365 wijst; u schakelt in plaats daarvan Uitgebreide filtering voor connectors in. Zie Uitgebreide [filtering voor connectors in Exchange Online voor](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)instructies .
+  > Spoofinstellingen zijn standaard ingeschakeld in het standaard antiphishingbeleid in EOP, het standaard ATP-antiphishingbeleid en in nieuwe aangepaste antiphishingbeleidsregels of ATP-antiphishingbeleid dat u maakt. <br/><br/> U hoeft anti-spoofingbescherming niet uit te schakelen als uw MX-record niet naar Microsoft 365 wijst; u schakelt in plaats daarvan Uitgebreide filtering voor connectors in. Zie Uitgebreide [filtering voor connectors in Exchange Online voor](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)instructies .
 
   Voor berichten van geblokkeerde vervalste afzenders u ook de actie opgeven die u op de berichten moet uitvoeren:
 

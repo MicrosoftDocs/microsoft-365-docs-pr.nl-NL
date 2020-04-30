@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6626053-a9c8-445b-81ee-eeb6672fae77
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services op eNomCentral voor Microsoft.
-ms.openlocfilehash: 2a1d32f0152b0c8a38b1a9e1c3fc46237708480d
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: b43261c601b953eef7f98170f04b51d8dcf97d8d
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919491"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939269"
 ---
 # <a name="create-dns-records-at-enomcentral-for-microsoft"></a>DNS-records maken bij eNomCentral voor Microsoft
 
@@ -34,8 +34,7 @@ ms.locfileid: "43919491"
 Als eNomCentral uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail, Skype voor Bedrijven Online, enzovoort in te stellen.
   
 Nadat u deze records hebt toegevoegd bij eNomCentral, wordt uw domein ingesteld om te werken met Microsoft-services.
-  
-Zie [Een openbare website gebruiken met Microsoft](https://support.office.com/article/choose-a-public-website-3325d50e-d131-403c-a278-7f3296fe33a9) voor informatie over webhosting en DNS voor websites met Microsoft.
+
   
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
@@ -64,7 +63,7 @@ Volg onderstaande stappen of [bekijk de video (start op 0:46)](https://support.o
   
 4. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record.
     
-    \(Kies de waarde **Recordtype** in de vervolgkeuzelijst.\) 
+    Kies de waarde **Recordtype** in de vervolgkeuzelijst.
     
     ||||
     |:-----|:-----|:-----|
@@ -165,7 +164,7 @@ Volg onderstaande stappen of [bekijk de video (start op 4:24)](https://support.o
   
 5. Typ of kopieer en plak de volgende waarden in de vakken voor de zes nieuwe records.
     
-        (Choose the **Record Type** value from the drop-down list.) 
+Kies de waarde **Recordtype** in de vervolgkeuzelijst.
         
     |**Host Name**|**Recordtype**|**Address**|
     |:-----|:-----|:-----|
@@ -175,7 +174,7 @@ Volg onderstaande stappen of [bekijk de video (start op 4:24)](https://support.o
     |enterpriseregistration  <br/> |CNAME (alias)  <br/> |enterpriseregistration.windows.net.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |
     |enterpriseenrollment  <br/> |CNAME (alias)  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |
    
-    ![Afbeelding van het te maken](../../media/672371c0-51af-44ba-bb18-80286b7676c1.png)
+    ![eNom-BP-Configure-3-2](../../media/672371c0-51af-44ba-bb18-80286b7676c1.png)
   
 6. Selecteer **Opslaan**.
     
@@ -203,7 +202,7 @@ Volg onderstaande stappen of [bekijk de video (start op 5:12)](https://support.o
   
 4. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record.
     
-    (Kies in de vervolgkeuzelijst de waarde **Record Type**.) 
+Kies de waarde **Recordtype** in de vervolgkeuzelijst.
     
     |**Host Name**|**Recordtype**|**Address**|
     |:-----|:-----|:-----|

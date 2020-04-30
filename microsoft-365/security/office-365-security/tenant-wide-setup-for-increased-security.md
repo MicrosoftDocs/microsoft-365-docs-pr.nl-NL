@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: Hiermee leidt u door de aanbevolen configuratie voor tenantbrede instellingen die de beveiliging van uw Microsoft 365-omgeving beïnvloeden. Uw beveiligingsbehoeften vereisen mogelijk meer of minder beveiliging. Gebruik deze aanbevelingen als uitgangspunt.
-ms.openlocfilehash: bd296d5cc822fd2257a7abad651335ad1d0717f1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0d16011a7abfcaa20d2a053ee9c00b3719a2b3c6
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631179"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949391"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Uw Microsoft 365-tenant configureren voor meer beveiliging
 
@@ -39,7 +39,7 @@ Het Microsoft 365-beveiligingscentrum bevat mogelijkheden die uw omgeving besche
 ||||
 |---|---|---|
 |**Gebied**|**Bevat een standaardbeleid**|**Aanbeveling**|
-|**Anti-phishing**|Ja|Als u een aangepast domein hebt, configureert u het standaard beleid voor antiphishing om de e-mailaccounts van uw meest waardevolle gebruikers, zoals uw CEO, te beschermen en uw domein te beschermen. Bekijk [het antiphishingbeleid in Office 365](set-up-anti-phishing-policies.md) en zie [Standaardbeleid voor phishing instellen in EOP](configure-anti-phishing-policies-eop.md) of [ATP-beleid voor antiphishing configureren in Office 365](configure-atp-anti-phishing-policies.md).|
+|**Anti-phishing**|Ja|Als u een aangepast domein hebt, configureert u het standaard beleid voor antiphishing om de e-mailaccounts van uw meest waardevolle gebruikers, zoals uw CEO, te beschermen en uw domein te beschermen. Bekijk [het beleid tegen phishing in Office 365](set-up-anti-phishing-policies.md) en zie Beleid voor [antiphishing configureren in EOP](configure-anti-phishing-policies-eop.md) of [ATP-beleid voor phishing configureren in Office 365](configure-atp-anti-phishing-policies.md).|
 |**Anti-Malware Engine**|Ja| Bewerk het standaardbeleid: <br/> &ensp;&ensp;* Common Attachment Types Filter — Selecteer Op <br/><br/> U ook aangepaste malwarefilterbeleidsregels maken en deze toepassen op opgegeven gebruikers, groepen of domeinen in uw organisatie. <br/><br/> Meer informatie: <br/> &ensp;&ensp;* [Bescherming tegen malware](anti-malware-protection.md) <br/> &ensp;&ensp;* [Anti-malwarebeleid configureren](configure-anti-malware-policies.md)|
 |**ATP-veilige bijlagen**|Nee| Bescherm op de hoofdpagina voor veilige bijlagen bestanden in SharePoint, OneDrive en Microsoft Teams door het selectievakje in te schakelen: <br/> &ensp;&ensp;* ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams <br/><br/> Voeg een nieuw beleid voor veilige bijlagen toe met de volgende instellingen: <br/> &ensp;&ensp;* Blok - Blokkeer de huidige en toekomstige e-mails en bijlagen met gedetecteerde malware (kies deze optie) <br/> &ensp;&ensp;* Redirect inschakelen — (Schakel dit selectievakje in en voer een e-mailadres in, zoals een beheerders- of quarantaineaccount) <br/> &ensp;&ensp;* Pas de bovenstaande selectie als malware scannen op bijlagen keer uit of fout optreedt (schakel dit vakje) <br/> &ensp;&ensp;* Toegepast op — Het domein van de ontvanger is (selecteer uw domein) <br/><br/>Meer informatie: Beleid voor veilige bijlagen van [Office 365 ATP instellen](set-up-atp-safe-attachments-policies.md)|
 |**ATP Veilige Links**|Ja| Voeg deze instelling toe aan het standaardbeleid voor de hele organisatie: <br/> &ensp;&ensp;* Gebruik Veilige koppelingen in: Microsoft 365 Apps voor bedrijven, Office voor iOS en Android (selecteer deze optie). <br/><br/>Aanbevolen beleid voor specifieke ontvangers: <br/> &ensp;&ensp;* URL's worden herschreven en gecontroleerd aan de hand van een lijst met bekende kwaadaardige links wanneer de gebruiker op de link klikt (selecteer deze optie). <br/> &ensp;&ensp;* Gebruik veilige bijlagen om downloadbare inhoud te scannen (schakel dit selectievakje in). <br/> &ensp;&ensp;* Toegepast op — Het domein van de ontvanger is (selecteer uw domein). <br/><br/> Meer informatie: [Office 365 ATP Safe Links](atp-safe-links.md).|

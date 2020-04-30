@@ -15,16 +15,16 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Meer informatie over het sluiten van uw account bij Microsoft.
-ms.openlocfilehash: 3a193aea92ff384d53ce320a98cd9043d990b678
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b71cfe8246b5e3e9471c76cf8043bad52840f194
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42812071"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942851"
 ---
 # <a name="close-your-account"></a>Uw account sluiten
 
-Wanneer u uw account bij Microsoft sluit, worden alle gegevens met betrekking tot uw account verwijderd. Deze informatie omvat abonnementen, licenties, betalingsmethoden, gebruikers en gebruikersgegevens. Voordat u dit proces start, moet u een back-up maken van alle gegevens die u wilt behouden.
+Wanneer u uw account bij Microsoft sluit, wordt alle informatie met betrekking tot uw account verwijderd. Deze informatie omvat abonnementen, licenties, betalingsmethoden, gebruikers en gebruikersgegevens. Voordat u dit proces start, moet u een back-up maken van alle gegevens die u wilt behouden.
 
 ## <a name="step-1-delete-users"></a>Stap 1: Gebruikers verwijderen
 
@@ -72,7 +72,7 @@ Als uw organisatie Active Directory gebruikt die synchroniseert met Azure AD, ve
 
 3. Schakel op de pagina multi-factor authenticatie alle accounts uit, behalve het globale beheerdersaccount dat u momenteel gebruikt.
 
-U PowerShell ook <a href="https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userstates#use-powershell">gebruiken om meervoudige verificatie voor meerdere gebruikers uit te schakelen.</a>
+U PowerShell ook <a href="https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell">gebruiken om meervoudige verificatie voor meerdere gebruikers uit te schakelen.</a>
 
 ## <a name="step-5-delete-the-directory-in-azure-active-directory"></a>Stap 5: De map verwijderen in Azure Active Directory
 

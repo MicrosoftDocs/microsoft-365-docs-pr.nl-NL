@@ -21,12 +21,12 @@ ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: Het Microsoft 365-beheercentrum - meer informatie over de functies die deze maand zijn toegevoegd.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: e0f7242ff144b5e4b42a6cb1713b2ad5df41f2f3
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 03fae5d2a9b8adc9859eb16bfd9d98740e7d8bf2
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919758"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939449"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe nieuws in het Microsoft 365-beheercentrum
 
@@ -181,7 +181,7 @@ We zijn begonnen met het uitrollen van de mogelijkheid om uw betalingsmethode te
 
 ![Schermopname: factureringsgedeelte van de abonnementskaart met een creditcard als betalingsmethode.](../media/MAC-BillingEditCreditCard.png)
 
-Wilt u er meer over lezen? [Overstappen van creditcard of bankrekening naar factuur](../commerce/billing-and-payments/change-payment-method.md#change-from-credit-card-or-bank-account-to-invoice)
+Wilt u er meer over lezen? [Overstappen van creditcard of bankrekening naar factuur](../commerce/billing-and-payments/change-payment-method.md)
 
 ### <a name="global-reader"></a>Algemene lezer
 

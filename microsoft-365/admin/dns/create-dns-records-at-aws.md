@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7a2efd75-0771-4897-ba7b-082fe5bfa9da
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Amazon Web Services (AWS) voor Microsoft.
-ms.openlocfilehash: 1ce4d47dce2fce177efafade49b78ea706cf14e2
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: daac9a8efedc8a2710217e352d9793ead954d2c3
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919537"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939353"
 ---
 # <a name="create-dns-records-at-amazon-web-services-aws-for-microsoft"></a>DNS-records maken bij Amazon Web Services (AWS) voor Microsoft
 
@@ -35,7 +35,7 @@ Als AWS uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw d
   
 Nadat u deze records bij AWS hebt toegevoegd, wordt uw domein ingesteld om te werken met Microsoft-services.
   
-Zie [Een openbare website gebruiken met Microsoft](https://support.office.com/article/choose-a-public-website-3325d50e-d131-403c-a278-7f3296fe33a9)voor meer informatie over webhosting en DNS voor websites met Microsfot.
+
   
 > [!NOTE]
 > Het duurt meestal ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd](../get-help-with-domains/find-and-fix-issues.md). 

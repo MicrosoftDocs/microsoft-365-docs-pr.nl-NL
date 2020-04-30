@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe ze de geavanceerde antiphishingbeleidsregels kunnen maken, wijzigen en verwijderen die beschikbaar zijn in organisaties met Office 365 Advanced Threat Protection (ATP).
-ms.openlocfilehash: 358abc2835e8d1fba39d72021f03b75775528bcf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e1a7d3b9d401d8bb5bec08d7b5d58546bbd382aa
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638456"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949257"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>ATP-beleid tegen phishing configureren
 
@@ -29,9 +29,9 @@ Beheerders kunnen het standaard ATP-antiphishingbeleid bekijken, bewerken en con
 
 U ATP-antiphishingbeleid configureren in het Security & Compliance Center of in Exchange Online PowerShell.
 
-Zie Het [standaardantiphishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)voor informatie over het configureren van het beperktere ingebouwde antiphishingbeleid dat beschikbaar is in Exchange Online Protection-organisaties (dat wil zeggen Office 365-organisaties zonder ATP.
+Zie [Antiphishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)voor informatie over het configureren van de beperktere antiphishingbeleidsregels die beschikbaar zijn in Exchange Online Protection-organisaties (dat wil zeggen Office 365-organisaties zonder ATP.
 
-## <a name="atp-anti-phishing-policies-in-the-office-365-security--compliance-center-vs-exchange-online-powershell"></a>ATP-beleid tegen phishing in het Office 365 Security & Compliance Center vs Exchange Online PowerShell
+## <a name="atp-anti-phishing-policies-in-the-security--compliance-center-vs-exchange-online-powershell"></a>ATP-antiphishingbeleid in het Security & Compliance Center vs Exchange Online PowerShell
 
 De basiselementen van een ATP anti-phishing beleid zijn:
 
@@ -73,7 +73,7 @@ Om de effectiviteit van anti-phishingbescherming te vergroten, u aangepaste ATP-
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u antiphishingbeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Voor alleen-lezen toegang tot anti-phishingbeleid moet u lid zijn van de rolgroep **Security Reader.** Zie Machtigingen in het Security & Compliance [Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rolgroepen in het Security & Compliance Center.
+- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u antiphishingbeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Voor alleen-lezen toegang tot anti-phishingbeleid moet u lid zijn van de rolgroep **Security Reader.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
 - Zie Beleidsinstellingen voor [antiphishing](recommended-settings-for-eop-and-office365-atp.md#office-atp-anti-phishing-policy-settings)van Office ATP voor onze aanbevolen instellingen voor atp-antiphishing.
 
@@ -244,7 +244,7 @@ Gebruik de volgende procedures om het ANTI-phishingbeleid van ATP te wijzigen: e
 
 6. **Spoof:** klik op **Bewerken** om spoofinformatie in- of uit te schakelen, de identificatie van niet-geverifieerde afzenders in Outlook in of uit te schakelen en de actie te configureren die van toepassing is op berichten van geblokkeerde vervalste afzenders. Zie [Spoofinstellingen in antiphishingbeleid](set-up-anti-phishing-policies.md#spoof-settings)voor meer informatie.
 
-   Houd er rekening mee dat deze instellingen identiek zijn aan de instellingen die beschikbaar zijn in het standaard antiphishingbeleid in EOP.
+   Houd er rekening mee dat dezelfde instellingen ook beschikbaar zijn in anti-phishingbeleid in EOP.
 
    - **Instellingen voor spoofingfilters:** de standaardwaarde is **ingeschakeld**en we raden u aan deze aan te laten staan. Als u deze wilt uitschakelen, schuift u de schakelaar naar **Uit.** Zie [spoof-intelligentie configureren in Office 365](learn-about-spoof-intelligence.md) voor meer informatie.
 
@@ -408,7 +408,7 @@ In dit voorbeeld wordt anti-phish-beleid met de naam Research Quarantine met de 
 - Hiermee kunnen veiligheidstips worden gegeven.
 
 ```powershell
-New-AntiPhishPolicy -Name "Monitor Policy" -AdminDisplayName "Default monitoring policy" -EnableOrganizationDomainsProtection $true -EnableTargetedDomainsProtection $true -TargetedDomainsToProtect fabrikam.com -TargetedDomainProtectionAction Quarantine -EnableTargetedUserProtection $true -TargetedUsersToProtect "Mai Fujito;mfujito@fabrikam.com" -TargetedUserProtectionAction Quarantine -EnableMailboxIntelligence $true -EnableMailboxIntelligenceProtection $true -MailboxIntelligenceProtectionAction Quarantine -EnableSimilarUsersSafetyTips $true -EnableSimilarDomainsSafetyTips $true -EnableUnusualCharactersSafetyTips $true
+New-AntiPhishPolicy -Name "Monitor Policy" -AdminDisplayName "Research department policy" -EnableOrganizationDomainsProtection $true -EnableTargetedDomainsProtection $true -TargetedDomainsToProtect fabrikam.com -TargetedDomainProtectionAction Quarantine -EnableTargetedUserProtection $true -TargetedUsersToProtect "Mai Fujito;mfujito@fabrikam.com" -TargetedUserProtectionAction Quarantine -EnableMailboxIntelligence $true -EnableMailboxIntelligenceProtection $true -MailboxIntelligenceProtectionAction Quarantine -EnableSimilarUsersSafetyTips $true -EnableSimilarDomainsSafetyTips $true -EnableUnusualCharactersSafetyTips $true
 ```
 
 Zie [Nieuw-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/New-AntiPhishPolicy)voor gedetailleerde syntaxis- en parameterinformatie.

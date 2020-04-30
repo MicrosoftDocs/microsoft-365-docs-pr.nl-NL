@@ -18,149 +18,122 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Overzicht van de productiviteitsscore van Microsoft.
-ms.openlocfilehash: 3e85ef40513593b7fcd66269671128c1233d10f9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ae2d6188af6a0964dc7670adf0777c0bb3d77a77
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627750"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942232"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Microsoft-productiviteitsscore (voorbeeld)
 
-Microsoft 365 biedt productiviteitsoplossingen waarmee uw organisatie haar bedrijfsdoelstellingen kan bereiken. Productivity Score biedt inzichten om deze oplossingen te gebruiken die u transformeren naar de manier waarop werk wordt gedaan.Het bevat: 
+Productivity Score helpt organisaties om de manier waarop werk wordt gedaan te transformeren met inzichten over hoe mensen Microsoft 365 gebruiken en de technologische ervaringen die hen ondersteunen. De score weerspiegelt de prestaties van uw organisatie ten opzichte van de metingen van de ervaring van werknemers en technologie en vergelijkt uw score met organisaties als de uwe.
 
-- **Zichtbaarheid** door hen te helpen begrijpen hoe mensen werken in de vorm van hun huidige score met uitsplitsing tussen categorieën van employee experience en technologie-ervaring (binnenkort). 
-- **Inzichten** om mogelijkheden te identificeren om verbeterde ervaringen mogelijk te maken. 
-- **Acties** om vaardigheden en systemen bij te werken, zodat iedereen zijn beste werk kan doen. 
+De score omvat:
 
-De score en de inzichten zijn aanwezig in twee categorieën –  
+- **Statistieken** waarmee u zien hoe mensen Microsoft 365-producten gebruiken om samen te werken, te communiceren en te werken op verschillende platforms.
+- **Inzichten** over de gegevens om u te helpen mogelijkheden te identificeren om de productiviteit en tevredenheid van werknemers te verbeteren.
+- **Aanbevolen acties** die u uitvoeren om de mensen in uw organisatie te helpen Microsoft 365-producten efficiënt te gebruiken, zodat iedereen zijn beste werk kan doen.
 
-- **Werknemerservaring:** laat zien hoe Microsoft 365 helpt bij het creëren van een productief en betrokken personeelsbestand door te kwantificeren hoe mensen samenwerken aan inhoud, overal werken, door communicatiestijlen te begrijpen (binnenkort), en door een vergadercultuur te ontwikkelen (binnenkort) 
+We bieden gegevens, inzichten en aanbevelingen op twee gebieden: 
 
-- **Technologische ervaring** (binnenkort beschikbaar): helpt u bij het optimaliseren van uw apparaatervaringen, zoals het proactief oplossen van veelvoorkomende helpdeskproblemen en het verbeteren van de opstarttijden van pc's en uw netwerk om ervoor te zorgen dat uw apps goed werken.  
+- **Employee experience:** We meten hoe mensen samenwerken aan inhoud, hoe ze Microsoft 365-producten gebruiken om te communiceren en of ze Microsoft 365 op verschillende platforms gebruiken. 
 
-## <a name="how-it-works"></a>Hoe het werkt
+    We bieden deze inzichten, omdat wanneer mensen online samenwerken, ze tijd besparen. Wanneer ze de vrijheid hebben om op elk apparaat te werken, zijn ze productiever en tevredener. Wanneer ze op een flexibele manier kunnen communiceren, zijn ze efficiënter, vormen ze betere relaties en is uw organisatie meer verenigd. Voor bewijs, zie [Forrester rapport](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
 
-### <a name="areas-of-scoring"></a>Punten van scoren 
+- **Technologische ervaring:** Productiviteit is afhankelijk van betrouwbare en performante technologie en het efficiënte gebruik van Microsoft 365. We bieden endpoint-analyses, die u inzichten en aanbevelingen geven over het instellen en opstarten van apparaten, en we bieden microsoft 365-netwerkconnectiviteitsinzichten voor uw organisatie.
 
-Binnen elke scorecategorie biedt productivity score inzicht in uw werktransformatie in verschillende gebieden. De gebieden die onder de employee experience vallen zijn:
+Lees het overzicht van [de netwerkconnectiviteit](https://docs.microsoft.com/office365/enterprise/office-365-networking-overview)voor meer informatie over eindpuntanalyses.
+  
 
-- Samenwerken aan inhoud  
-- Overal werken 
-- Communicatiestijlen begrijpen (binnenkort beschikbaar) 
-- Het ontwikkelen van een vergadercultuur (binnenkort beschikbaar) 
+## <a name="how-the-score-is-calculated"></a>Hoe de score wordt berekend
 
-### <a name="scoring-user-actions"></a>Gebruikersacties scoren 
+Uw productiviteitsscore is gebaseerd op de gecombineerde scores van uw categorieën werknemers en technologische ervaringen. Elke categorie wordt gelijk gewogen, met een totaal van 100 punten per categorie. De totale mogelijke punten voor productiviteitsscore zijn 500.
 
-Binnen elk gebied meten we de op onderzoek gebaseerde kernactiviteiten die de manier van werken vertegenwoordigen die organisaties in staat stellen om te transformeren naar een zeer productieve organisatie. Voor elk gebied berekenen we het % van de gebruikers die deze acties in de afgelopen 28 dagen uitvoeren. 
+### <a name="score-categories"></a>Scorecategorieën 
 
-De employee experience score is samengesteld als een gemiddelde score op alle gebieden. Houd er rekening mee dat we in de loop van de tijd meer gebieden blijven toevoegen aan de ervaring van werknemers en technologie. 
+- Contentsamenwerking (100 punten)
+- Communicatie (100 punten)
+- Mobiliteit (100 punten)
+- Eindpuntanalyse (100 punten)
+- Netwerkconnectiviteit (100 punten)
+- **Totaal mogelijk = 500 punten**
+ 
+ In elke categorie identificeren we patronen voor belangrijke activiteiten die indicatoren zijn voor de manier waarop mensen Microsoft 365-producten gebruiken om samen te werken, te communiceren en te werken op verschillende platforms. Wij bieden 28-daagse en 180-daagse uitzicht en van de belangrijkste activiteiten. We bieden ook ondersteunende statistieken die geen deel uitmaken van de scoreberekening, maar die belangrijk zijn om u te helpen onderliggend gedrag en instellingen te identificeren waarop u reageren om verandering te stimuleren.
 
-### <a name="products-included-in-the-productivity-score"></a>Producten opgenomen in de productiviteitsscore 
+### <a name="products-included-in-productivity-score"></a>Producten opgenomen in productiviteitsscore 
 
-Productiviteitsscore bevat momenteel signalen van de belangrijkste Microsoft 365-workloads OneDrive, SharePoint, Word, Excel, PowerPoint, OneNote, Outlook, Yammer, Teams, Skype. 
+Productiviteitsscore bevat gegevens van Exchange, SharePoint, OneDrive, Teams, Word, Excel, PowerPoint, OneNote, Outlook, Yammer en Skype.
 
-Uw score wordt dagelijks bijgewerkt en weerspiegelt de acties van gebruikers die in de afgelopen 28 dagen zijn voltooid (inclusief de huidige dag).
+Uw score wordt dagelijks bijgewerkt en weerspiegelt de acties van gebruikers die in de afgelopen 28 tot 180 dagen zijn voltooid (inclusief de huidige dag).
 
-## <a name="access-and-required-permissions"></a>Toegangs- en vereiste machtigingen 
 
-Voor de werknemerservaring moet u een abonnement hebben op een Microsoft 365 voor zakelijk abonnement met meerdere gebruikers. 
+## <a name="pre-requisites"></a>Vereisten 
 
-Als u toestemming wilt hebben om toegang te krijgen tot de Microsoft Productivity Score, moet u de volgende rollen hebben: 
+U hebt een Microsoft 365 voor Bedrijven- of Office 365-abonnement voor bedrijven nodig om gegevens over werknemerservaring te krijgen en u moet cloudservices met meerdere tenant's gebruiken. Als u eindpuntanalysegegevens voor uw tenant wilt opvragen, moet u Microsoft Intune aan uw abonnement toevoegen. Intune helpt u de gegevens van uw organisatie te beschermen door apparaten en apps te beheren.       Zodra u Intune hebt, u endpoint-analyses inschakelen binnen de Intune-ervaring. Meer informatie over Microsoft Intune. 
+
+Als u de productiviteitsscore voor uw organisatie wilt weergeven, moet u een van de volgende rollen hebben: 
 
 - Algemene beheerder 
-- Exchange-beheerders 
-- SharePoint-beheerders 
-- Skype voor Bedrijven-beheerders 
+- Exchange-beheerders
+- SharePoint-beheerder 
+- Skype voor Bedrijven-beheerder 
 - Teams-beheerder 
 - Wereldwijde lezer 
 - Rapporten Reader 
 
-U hebt toegang tot de ervaring vanuit microsoft 365-beheerhuis door > **rapportenproductiviteitsscore** te kiezen in de linkernavigatie. **Reports**
+U hebt toegang tot de ervaring vanuit microsoft 365-beheerhome onder > **rapportenproductiviteitsscore**. **Reports**
 
 ## <a name="interpreting-productivity-score"></a>Productiviteitsscore interpreteren 
 
-### <a name="learn-how-your-organization-works"></a>Meer informatie over hoe uw organisatie werkt 
-
-he Productivity Score startpagina biedt de huidige score en geschiedenis op een percentage basis, primaire inzichten voor gebieden binnen elke score categorie aangevuld met benchmarks. 
+De startpagina productiviteitsscore toont uw totale score- en scoregeschiedenis en het primaire inzicht voor elke categorie
 
 ![Startpagina productiviteitscore](../../media/pslanding.png)
 
-1.**Productiviteitsscore** wordt vermeld op basis van <numerator> / <denominator> percentage en in het formaat, zodat u ook uw absolute punten (teller) en maximaal mogelijke punten zien  
-1. Met deze draaiknop u de scorecategorie selecteren waarop u zich wilt concentreren. In de preview u alleen **de werknemerservaring**bekijken, maar de selectie wordt binnenkort uitgebreid met **technologie-ervaring.** 
-1. **Met Peer benchmark** u uw huidige score vergelijken met organisaties zoals u. De benchmarkmaatstaf wordt berekend als het gemiddelde van de maatregelen binnen een reeks vergelijkbare organisaties. De set bestaat uit organisaties die een vergelijkbaar aantal ingeschakelde gebruikers, regio,de typen licenties die u bezit, de industrie en de ambtstermijn binnen Microsoft 365 of Office 365 hebben. 
-1. De sectie **Scorecategorieën** geeft een overzicht van uw productiviteitsscore met benchmarks per categorie.
-1. **Scoregeschiedenis** geeft aan hoe uw score in elke categorie in de afgelopen 6 maanden is verplaatst.
-1. Het primaire inzicht **voor Samenwerken aan inhoud** toont de relevante maatregelen met benchmarks uit dit gebied die bijdragen aan de score. Selecteer **Details weergeven** om de pagina gebiedsdetails te bekijken.
-1. Het primaire inzicht voor **Overal werken** toont de relevante maatregelen met benchmarks uit dit gebied die bijdragen aan de score. Selecteer **Details weergeven** om de pagina gebiedsdetails te bekijken.  
+**Je score** wordt weergegeven als een procentwaarde en in punten, zodat je je punten (teller) en maximaal mogelijke punten (noemer) zien.
 
-### <a name="insights-to-identify-opportunities-to-improve-experiences"></a>Inzichten om mogelijkheden te identificeren om ervaringen te verbeteren 
+**Met peerbenchmarks** u uw score vergelijken met organisaties als de uwe. Voor de categorieën werknemerservaring wordt de peer benchmark-maat berekend als het gemiddelde van de metingen binnen een reeks vergelijkbare organisaties. De set bestaat uit organisaties in uw regio met een vergelijkbaar aantal gelicentieerde gebruikers, soorten licenties, industrie en ambtstermijn met Microsoft 365. 
 
-Selecteer Voor elk gebied **Details weergeven** in het primaire inzicht om de pagina met gebiedsdetails weer te geven met aanvullende inzichten, gerelateerd onderzoek en acties om uw score te verbeteren. .
+De benchmark voor endpoint analytics-peer bevat doelen voor de opstartprestaties van apparaten en aanbevolen softwareconfiguratie op basis van geaggregeerde mediaanwaarden voor alle tenants.
 
-Alle detailpagina's van het gebied volgen de volgende structuur: 
+Voor netwerkconnectiviteit is de aanbevolen benchmark 80 punten.
 
-- Linksboven: primair inzicht behouden vanaf de startpagina.
-- Linksonder: Ondersteuning van inzichten met contextuele acties.  
-- Rechts: Academisch onderzoek dat de relatie tussen het gebied en de productiviteit aantoont.
+De sectie **Score-uitsplitsing** biedt een uitsplitsing van uw productiviteitsscore met benchmarks op gebieden voor werknemers- en technologie-ervaring.
 
-Bovendien bevatten alle inzichten de volgende elementen: 
+Scoregeschiedenis geeft aan hoe uw score in elke categorie in de afgelopen 6 maanden is gewijzigd.
 
-- Header: Key takeaway of resultaat bijgehouden voor elk inzicht;
-- Samenvatting: Verdere uitleg waarom de maatregelen in het inzicht belangrijk zijn voor de productiviteit van uw organisatie. 
-- Datavisualisatie: hiermee kwantificeert u de positie van uw organisatie visueel met betrekking tot de metingen in het inzicht met benchmarks indien van toepassing.
-- Acties: Contextuele actie die kan helpen om meer van het gewenste resultaat per inzicht te stimuleren en zo uw score te verbeteren.
+De **ervarings-** en **technologieervaringsgebieden** bevatten de primaire inzichten voor de categorieën in die gebieden. U op elke categorie klikken om diepere inzichten te zien.
 
-### <a name="area-detail-page--collaborating-on-content"></a>Pagina Met gebiedsdetails – Samenwerken aan inhoud 
+## <a name="category-details-pages"></a>Categoriedetailspagina's
 
-![Collaborationg op inhoudspagina.](../../media/pscollab.png)
+Elke pagina met categoriedetails toont het primaire inzicht en de ondersteunende statistieken, evenals gerelateerd onderzoek en acties die u uitvoeren om verandering in uw organisatie te stimuleren. Onderzoek ondersteunt het belang en de beweegredenen achter de primaire inzichten voor elke categorie. voor meer informatie, [lees het Forrester-rapport](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
 
-Samenwerken op de inhoudspagina bevat het primaire inzicht op de startpagina van productiviteitsscore. Het heeft de volgende componenten:
+### <a name="content-collaboration-details"></a>Details over inhoudssamenwerking
 
-1. Koptekst: Kwantificeert welk percentage gebruikers samenwerkt aan inhoud (belangrijkste uitkomst).
-1. Body: Meer details over hoe meer samenwerking leidt tot een hogere productiviteit.
-1. Visualisatie: Dit kwantificeert visueel elk element dat bijdraagt aan de score voor dit gebied met benchmarks:
+Het primaire inzicht voor samenwerking met inhoud is het aantal mensen dat online online maakt, leest en samenwerkt.The primary insight for content collaboration is the number of people who create, read, and collaborate (edit and share) online. Deze maatregelen zijn belangrijk omdat uit onderzoek blijkt dat wanneer mensen samenwerken met online bestanden, elke persoon gemiddeld 100 minuten of bijna 2 uur per week bespaart.
 
-    - **Lezers:** Kwantificeert gebruikers die bestanden in de cloud (OneDrive en SharePoint) openen of downloaden binnen een basis van gebruikers met OneDrive en SharePoint.
-    - **Auteurs**: Kwantificeert gebruikers die bestanden wijzigen, uploaden, synchroniseren, inchecken, kopiëren of verplaatsen in de cloud (OneDrive en SharePoint) binnen een basis van gebruikers met OneDrive en SharePoint.
-    - **Bijdragers**: Kwantificeert gebruikers die samenwerken aan bestanden in de cloud (OneDrive en SharePoint) binnen een basis van gebruikers met OneDrive en SharePoint. Twee gebruikers zijn bijdragers als een van hen een Word-, Excel-, PowerPoint-, OneNote- of PDF-clouddocument heeft gelezen of bewerkt nadat het andere document binnen een periode van 28 dagen is gemaakt of gewijzigd.
+We definiëren inhoudssamenwerking als één persoon die een Office-bestand maakt en deelt en vervolgens ten minste één andere persoon het bewerkt. 
 
-1. **Waarom het ertoe doet** biedt een samenvatting van onderzoek dat samenwerking op cloudbestanden koppelt aan productiviteit. **Lees het onderzoek van Forrester** gaat naar een onderzoeksartikel dat meer context biedt over hoe samenwerking bevorderlijk is voor een verhoogde productiviteit.
-1. Het ondersteunen van inzicht in **het samenwerken aan meerdere bestanden** kwantificeert hoe gebruikers in uw organisatie samenwerken in verschillende bestanden. 
-1. Ondersteuning van inzicht in **het delen van cloudbestanden** kwantificeert als gebruikers inhoud delen in de cloud terwijl ze onderscheid maken tussen intern en extern delen.
-1. Ondersteuning van inzicht in **het e-mailen van cloudbestanden** kwantificeert als gebruikers die bestanden delen via e-mail bijlagen gebruiken ten opzichte van koppelingen naar cloudbestanden.
+Lezers: mensen die online bestanden openen of downloaden in OneDrive of SharePoint.
 
-De bestandstypen die worden overwogen voor samenwerking zijn Word/Excel/PowerPoint/OneNote/PDF.
+**Makers:** Mensen die online OneDrive- of SharePoint-bestanden maken, wijzigen, uploaden, synchroniseren, inchecken, kopiëren of verplaatsen.
 
-### <a name="area-detail-page--working-anywhere"></a>Gebiedsdetailpagina – Overal werken 
+Bijdragers: mensen die samenwerken met onlinebestanden met OneDrive of SharePoint. Twee personen zijn bijdragers als een van hen een online Word-, Excel-, PowerPoint-, OneNote- of PDF-clouddocument leest of bewerkt nadat de andere persoon het document binnen een periode van 28 dagen heeft gemaakt of gewijzigd.
 
-![Werk overal pagina.](../../media/psflexibility.png)
+De bestandstypen die worden overwogen voor samenwerking zijn Word-, Excel-, PowerPoint-, OneNote- en PDF-bestanden.
 
-De pagina Overal werken kwantificeert de gebruikers (als percentage en absolute waarde) die ten minste één productiviteits-app gebruikten op twee of meer platforms, die desktop, mobiel en web zijn. Gebruikers krijgen hoger gescoord voor het gebruik van meer apps en platforms. De apps die worden overwogen zijn Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer, Skype. De basis van het inzicht zijn gebruikers ingeschakeld voor Microsoft 365 Apps voor bedrijven, Exchange, Yammer, Skype of Teams.
+We bieden inzicht in de opstarttijden en het instellen van apparaten in uw organisatie, evenals inzichten in netwerkconnectiviteit voor contentsamenwerking, omdat online bestandssamenwerking betrouwbare apparaten vereist die snel beginnen en up-to-date software hebben, evenals goede connectiviteit met Microsoft 365.
 
-1. **Waarom het ertoe doet** biedt een samenvatting van onderzoek koppelen gebruik van meerdere platforms aan hogere productiviteit. **Lees het onderzoek van Forrester** gaat naar een onderzoeksartikel dat meer context biedt over hoe overwerken bevorderlijk is voor een verhoogde productiviteit.
-1. Als u inzicht in **E-mail overal** ondersteunt, kwantificeert u het aantal gebruikers in uw organisatie dat Outlook gebruikt op verschillende platforms binnen de basis van gebruikers die actief zijn in Outlook.
-1. Door inzicht in **Chat overal** te ondersteunen, wordt gekwantificeerd hoe gebruikers in uw organisatie Teams gebruiken op verschillende platforms binnen de basis van gebruikers die actief zijn op Teams.
-1. Als u overal inzicht in **Office-documenten** ondersteunt, wordt gekwantificeerd hoe gebruikers in uw organisatie Word, Excel, PowerPoint en OneNote gebruiken op verschillende platforms binnen de basis van gebruikers die actief zijn in Word, Excel, PowerPoint of OneNote.
+### <a name="communication-details"></a>Communicatiedetails
 
-### <a name="actions-for-update-skills-and-systems"></a>Acties voor updatevaardigheden en -systemen 
+Het primaire inzicht voor communicatie is hoe vaak mensen in uw organisatie e-mail-, chat- en communityberichten gebruiken om te communiceren. Dit inzicht is belangrijk, want wanneer mensen gebruik maken van een verscheidenheid aan real-time communicatie-instrumenten, ze zijn in staat om de wijze van communicatie die hen helpt om het meest efficiënt te kiezen, en ze hebben tools zoals chat en gemeenschappen die hen helpen relaties te ontwikkelen op verschillende kantoorlocaties.
 
-Om de uitvoerbaarheid te bevorderen, wordt elk ondersteunend inzicht geleverd met inline-acties die uw werknemerservaring kunnen helpen transformeren, waarvan sommige configuratiewijzigingen of bewustmakingscampagnes kunnen zijn. Als u op deze aanzet tot actie klikt, wordt deze geopend in de opties van het deelvenster Aanbevolen acties die u mogelijk overweegt. Momenteel zijn de acties in de **samenwerking op inhoud** ingeschakeld.
+### <a name="mobility-details"></a>Mobiliteitsdetails
 
-![Werk samen op de pagina Office-documenten.](../../media/psactions1.png)
+Het primaire inzicht voor mobiliteit is het aantal mensen dat toegang heeft tot bestanden en e-mail en chat op meerdere platforms gebruikt. De mogelijkheid om vanaf elke locatie te werken op welk apparaat ze ook kiezen, is belangrijk voor mensen met verkooprollen, senior managers, consultants en anderen die weg van kantoor moeten werken om productief te zijn. Verbeteringen voor deze werknemers hebben een grote impact. 
 
-1. De **actie weergave** gaat naar een deelvenster met alle acties die betrekking hebben op samenwerken aan inhoud.
-1. **Gebruikers aanmoedigen om samen** te werken gaat naar een lijst met instructievideo's over samenwerking met onderwerpen zoals cocreatie en @mentions. 
-1. **Instellingen voor extern delen aanpassen** gaat naar een pagina met een overzicht over extern delen waarin wordt beschreven wat er gebeurt wanneer gebruikers delen, afhankelijk van wat ze delen en met wie.  
-1. **Bijlagen vervangen door gedeelde koppelingen** gaat naar een pagina waarin wordt uitgelegd hoe u OneDrive-koppelingen delen in plaats van bijlagen via e-mail voor een betere samenwerking.
+We meten het percentage en het absolute aantal mensen dat ten minste één Microsoft 365-productiviteitsapp heeft gebruikt op twee of meer platforms, waaronder desktop, mobiel en web. De productiviteits-apps die we meten zijn Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer en Skype. Mensen moeten microsoft 365-apps voor bedrijfs-, Exchange-, Yammer-, Skype- of Teams-licenties kunnen meten. 
 
-Als u een van de actieknoppen selecteert, opent u het deelvenster **Aanbevolen acties** aan de rechterkant met een samenvatting van elke actie en een koppeling naar de documentatiepagina's.
+## <a name="we-want-to-hear-from-you"></a>we willen graag van u horen
 
-![Deelvenster Aanbevolen acties.](../../media/psacttions2.png)
-
-
-## <a name="we-want-to-hear-from-you"></a>We willen graag van je horen 
-
-We willen het privé preview-programma gebruiken om feedback te krijgen en de learnings te gebruiken om het product samen met u te maken. U de **feedbacksecties** binnen het product gebruiken en/of contact opnemen met het team productiviteitsscore op ProductivityScorePreview@service.microsoft.com.
-
-Als u toegang wilt vragen tot de https://aka.ms/productivityscorepreviewprivépreview, vul dan het formulier in op .  
+Deel uw gedachten over productiviteitsscore en uw ideeën over hoe u deze verbeteren. Gebruik de **feedbacksecties** binnen het product en/of neem contact op met het team productiviteitsscore op ProductivityScorePreview@service.microsoft.com.

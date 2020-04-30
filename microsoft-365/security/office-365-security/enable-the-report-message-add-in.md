@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het inschakelen van de invoegtoepassing Bericht rapport voor de webversie van Outlook en Outlook, voor individuele gebruikers of uw hele organisatie.
-ms.openlocfilehash: 0024e8c87ef6326c1df4547349631c4f1fd4cab8
-ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
+ms.openlocfilehash: 22ce1c8e8084cb0bcbcb2f9fa4c0c80e1a59bf9c
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43921574"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939473"
 ---
 # <a name="enable-the-report-message-add-in"></a>De invoegtoepassing Bericht rapporteren inschakelen
 
@@ -133,7 +133,7 @@ Zie [De invoegtoepassing Rapportbericht gebruiken](https://support.office.com/ar
 
    ![Invoegpagina aankondigen](../../media/announce-add-in-page.png)
 
-### <a name="learn-how-to-use-the-report-message-add-in"></a>Meer informatie over het gebruik van de invoegtoepassing Rapportbericht
+## <a name="learn-how-to-use-the-report-message-add-in"></a>Meer informatie over het gebruik van de invoegtoepassing Rapportbericht
 
 Mensen die de invoegtoepassing aan hen hebben toegewezen, zien de volgende pictogrammen:
 
@@ -147,7 +147,7 @@ Mensen die de invoegtoepassing aan hen hebben toegewezen, zien de volgende picto
 
 Wanneer u gebruikers op de hoogte stelt van de invoegtoepassing Bericht melden, voegt u een koppeling toe naar [De invoegtoepassing Rapportbericht gebruiken.](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
 
-### <a name="review-or-edit-settings-for-the-report-message-add-in"></a>Instellingen voor de invoegtoepassing Rapportbericht controleren of bewerken
+## <a name="review-or-edit-settings-for-the-report-message-add-in"></a>Instellingen voor de invoegtoepassing Rapportbericht controleren of bewerken
 
 1. Ga in het Microsoft 365-beheercentrum naar de pagina <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> **Services &-invoegtoepassing** op .
 
@@ -158,3 +158,11 @@ Wanneer u gebruikers op de hoogte stelt van de invoegtoepassing Bericht melden, 
 3. Bekijk en bewerk de instellingen waar nodig voor uw organisatie in de flyout **Van rapportbericht bewerken** die wordt weergegeven. Klik op **Opslaan** wanneer u gereed bent.
 
    ![Instellingen voor de invoegtoepassing Rapportbericht](../../media/EditReportMessageAddIn.png)
+
+## <a name="view-and-review-reported-messages"></a>Gerapporteerde berichten weergeven en bekijken
+
+Als u berichten wilt controleren die gebruikers aan Microsoft rapporteren, hebt u de volgende opties:
+
+- Gebruik de portal Voor inzendingen voor beheerders. Zie [Inzendingen van gebruikers bij Microsoft weergeven voor](admin-submission.md#view-user-submissions-to-microsoft)meer informatie.
+
+- Maak een regel voor e-mailstroom (ook wel transportregel genoemd) om kopieën van gerapporteerde berichten te verzenden. Zie Regels [voor e-mailstromen gebruiken om te zien wat uw gebruikers aan Microsoft rapporteren.](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)

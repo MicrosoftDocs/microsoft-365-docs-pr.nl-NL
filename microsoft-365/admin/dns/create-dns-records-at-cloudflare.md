@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Cloudflare voor Microsoft.
-ms.openlocfilehash: ccd629dfdec24e509144c205b748a883cb65d554
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 116132d096db61e7004315dcf159fc78dd790d43
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919625"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939317"
 ---
 # <a name="create-dns-records-at-cloudflare-for-microsoft"></a>DNS-records maken bij Cloudflare voor Microsoft
 
@@ -35,7 +35,6 @@ Als Cloudflare uw DNS-hostingprovider is, voert u de stappen in dit artikel uit 
   
 Nadat u deze records bij Cloudflare hebt toegevoegd, wordt uw domein ingesteld voor gebruik met Microsoft 365-services.
   
-Zie [Een openbare website gebruiken met Microsoft](https://support.office.com/article/a8178510-501d-4bd8-9921-b04f2e9517a5.aspx) voor informatie over webhosting en DNS voor websites met Microsoft.
   
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
@@ -130,7 +129,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 4. Klik op de pagina **DNS-beheer** op **Record toevoegen**en selecteer de waarden in de volgende tabel. 
     
-    |**Type**|**Name**|**Mail server**|**Priority**|**TTL**|
+    |**Type**|**Naam**|**Mail server**|**Priority**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
     |MX  <br/> |@  <br/> |*\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * op van uw Microsoft 365-account.   [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) |1  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.    <br/>|30 minutes  <br/> |
    

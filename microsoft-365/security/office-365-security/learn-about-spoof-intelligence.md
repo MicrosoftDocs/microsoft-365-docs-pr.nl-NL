@@ -17,12 +17,12 @@ ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u vervalste afzenders configureren om al dan niet toe te staan, en andere instellingen voor spoofinformatie in Exchange Online en Exchange Online Protection (EOP).
-ms.openlocfilehash: 958f27d190748ee12976a6b47794a23e025172cf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e2aeefbd90a7ed66699778fab54a76a33293e4bb
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630489"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949235"
 ---
 # <a name="configure-spoof-intelligence-in-microsoft-365"></a>Spoofintelligentie configureren in Microsoft 365
 
@@ -166,13 +166,11 @@ Zie [Set-PhishFilterPolicy voor](https://docs.microsoft.com/powershell/module/ex
 
 De configuratieopties voor spoofinformatie worden beschreven in [spoofinstellingen in antiphishingbeleid.](set-up-anti-phishing-policies.md#spoof-settings)
 
-Uw beschikbare opties zijn afhankelijk van uw abonnement:
+U spoofinformatie-instellingen configureren in het standaard beleid voor antiphishing en ook in aangepast beleid. Zie een van de volgende onderwerpen voor instructies op basis van uw abonnement:
 
-- Zelfstandige EOP-organisaties zonder Exchange Online-postvakken kunnen geen spoofinformatie-instellingen configureren.
+- [Anti-phishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md).
 
-- Microsoft 365-organisaties met Exchange Online-postvakken kunnen spoofinformatie-instellingen configureren in het standaardbeleid (en alleen) antiphishingbeleid. Zie Het [standaard antiphishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)voor instructies.
-
-- Microsoft 365-organisaties met ATP kunnen spoofinformatie-instellingen configureren in het standaard ATP-antiphishingbeleid en ook in het aangepaste ATP-antiphishingbeleid. Zie [ATP-antiphishingbeleid configureren in Microsoft 365](configure-atp-anti-phishing-policies.md)voor instructies.
+- [Atp-antiphishingbeleid configureren in Microsoft 365](configure-atp-anti-phishing-policies.md).
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 
@@ -224,7 +222,7 @@ Wees ijverig over spoofing en phishing bescherming. Dit zijn gerelateerde manier
 
 - Controleer het **spoof-e-mailrapport**. U dit rapport vaak gebruiken om vervalste afzenders te bekijken en te beheren. Zie Rapport [Spoofdetecties](view-email-security-reports.md#spoof-detections-report)voor informatie .
 
-- Bekijk de SPF-configuratie (Sender Policy Framework). Zie [SPF instellen in Microsoft 365 om spoofing te voorkomen voor](set-up-spf-in-office-365-to-help-prevent-spoofing.md)een snelle introductie tot SPF en om deze snel te configureren. Voor een beter begrip van hoe Office 365 gebruikmaakt van SPF of voor het oplossen van problemen of niet-standaardimplementaties zoals hybride implementaties, begint u met [Hoe Office 365 gebruikmaakt van SPF (Sender Policy Framework) om spoofing te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md).
+- Bekijk de SPF-configuratie (Sender Policy Framework). Zie voor een korte introductie van SPF en om het snel te configureren [SPF in Microsoft 365 instellen om spoofing te voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md). Voor een beter begrip van hoe Office 365 gebruikmaakt van SPF of voor het oplossen van problemen of niet-standaardimplementaties zoals hybride implementaties, begint u met [Hoe Office 365 gebruikmaakt van SPF (Sender Policy Framework) om spoofing te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md).
 
 - Controleer de configuratie van uw DomainKeys Identified Mail (DKIM). U moet DKIM gebruiken naast SPF en DMARC om te voorkomen dat aanvallers berichten verzenden die eruit zien alsof ze uit uw domein komen. Met DKIM kunt u een digitale handtekening toevoegen aan e-mailberichten in de berichtkop. Zie [DKIM gebruiken om uitgaande e-mail die vanuit uw aangepaste domein in Office 365 is verzonden, te valideren](use-dkim-to-validate-outbound-email.md)voor informatie.
 

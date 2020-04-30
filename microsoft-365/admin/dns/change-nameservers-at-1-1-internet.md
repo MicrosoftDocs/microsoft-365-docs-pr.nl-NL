@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 31efc571-c8b9-46fb-b42d-203c2fb25289
 description: Lees hoe u Office 365 instellen dat door 21Vianet wordt beheerd om uw DNS-records te beheren, wanneer 1&1 Internet de DNS-hostingprovider is.
-ms.openlocfilehash: 53e846b5a9672f3fbf0e003ec48261afc80c0abf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 99ac40472d0afa0cb734b0e86a0f10d7904133e1
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630005"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939405"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-11-ionos"></a>Naamservers wijzigen om Microsoft 365 in te stellen met 1&1 IONOS
 
@@ -38,7 +38,7 @@ Volg deze instructies als u wilt dat Microsoft 365 uw Microsoft 365 DNS-records 
 ## <a name="add-a-txt-record-for-verification"></a>Een TXT-record toevoegen voor verificatie
 
 
-Voordat u uw domein met Microsoft 365 gebruikt, moeten we ervoor zorgen dat u eigenaar bent. Uw mogelijkheid om in te loggen op uw account bij uw domeinregistrar en de DNS-record te maken bewijst microsoft 365 dat u eigenaar bent van het domein.
+Voordat u uw domein met Microsoft 365 kunt gaan gebruiken, moet worden gecontroleerd dat u de eigenaar bent van het domein. Als u zich bij uw account bij de domeinregistrar kunt aanmelden en de DNS-record kunt maken, is dit voor Microsoft 365 bewezen.
   
 > [!NOTE]
 > Deze record wordt alleen gebruikt om te verifiëren dat u de eigenaar van uw domein bent. Dit heeft verder geen invloed. U kunt deze record later desgewenst verwijderen. 
@@ -62,7 +62,7 @@ Volg onderstaande stappen of [bekijk de video (start op 0:42)](https://support.o
 ||||
 |:-----|:-----|:-----|
 |**Type** <br/> |**Voorvoegsel** <br/> |**Naamwaarde** <br/> |
-|TXT  <br/> |(Laat dit veld leeg.)  <br/> |MS=ms *XXXXXXXX* <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de waarde van uw specifieke **bestemming of adresinrichten** in de tabel in Microsoft 365. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) <br/> |
+|TXT  <br/> |(Laat dit veld leeg.)  <br/> |MS=ms *XXXXXXXX* <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) <br/> |
 
    
 7. Selecteer **Opslaan**en vervolgens opnieuw **opslaan.** 
@@ -71,9 +71,9 @@ Volg onderstaande stappen of [bekijk de video (start op 0:42)](https://support.o
     
 9. Wacht enkele minuten voordat u verder gaat, zodat de record die u zojuist hebt gemaakt via internet kan worden bijgewerkt.
     
-Nu u de record op de site van uw domeinregistrar hebt toegevoegd, gaat u terug naar Microsoft 365 en vraagt u Microsoft 365 om de record te zoeken.
+Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug naar Microsoft 365 en vraagt u of Microsoft 365 naar de record wil zoeken.
   
-Wanneer Microsoft 365 de juiste TXT-record vindt, wordt uw domein geverifieerd.
+Wanneer in Microsoft 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
 1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
@@ -138,7 +138,7 @@ Klaar om uw NS-records te wijzigen, zodat Microsoft 365 uw domein kan instellen?
 |**Name server 3** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**Name server 4** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-    ![Entering name server values](../../media/0f15880c-88b6-4133-8f31-62f0d98ee63f.png)
+![Waarden van naamserver invoeren](../../media/0f15880c-88b6-4133-8f31-62f0d98ee63f.png)
   
 4. Kies **Opslaan**.
     
