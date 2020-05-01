@@ -1,264 +1,49 @@
-- name: Startpagina beheerder
-  href: admin-home.md
+- name: Help voor het Microsoft 365-beheercentrum
+  href: index.yml
   items:
-    - name: Overzicht
+    - name: Aan de slag
+      href: setup/index.yml
       items:
-        - name: Overzicht voor beheerders
-          href: admin-overview/admin-overview.md
-        - name: Registreren voor Office 365
+        - name: Aanmelden
           href: admin-overview/sign-up-for-office-365.md
-        - name: Videotraining
-          href: 'https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816'
-        - name: Informatie over het beheercentrum
-          href: admin-overview/about-the-admin-center.md
-        - name: Welk abonnement heb ik?
-          href: admin-overview/what-subscription-do-i-have.md
-        - name: Meer informatie over Office 365 Germany
-          href: admin-overview/learn-about-office-365-germany.md
-        - name: Mobiele app voor beheerders
-          href: admin-overview/admin-mobile-app.md
-    - name: Configuratie
-      items:
+        - name: Microsoft 365 uitproberen of kopen
+          href: ../commerce/try-or-buy-microsoft-365.md
         - name: De installatie plannen
           href: setup/plan-your-setup.md
-        - name: Office 365 instellen
+        - name: Uw organisatie instellen met behulp van de begeleide installatie
           href: setup/setup.md
-        - name: Verschillen tussen de installatiewizard en de installatiepagina
+        - name: De instellingspagina en wizard verkennen
           href: setup/o365-setup-wizard-and-setup-page.md
-        - name: Domein toevoegen
-          href: setup/add-domain.md
-        - name: Veelgestelde vragen over domeinen
-          href: setup/domains-faq.md
-        - name: Toepassingen installeren
-          href: setup/install-applications.md
-        - name: E-mail en contactpersonen migreren
+        - name: Uw gegevens migreren
           href: setup/migrate-email-and-contacts-admin.md
+        - name: Office-apps installeren
+          href: setup/install-applications.md
         - name: Teams implementeren
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
-        - name: Bestandsopslag en -deling instellen
-          href: setup/set-up-file-storage-and-sharing.md
-        - name: Teamsite aanpassen
-          href: setup/customize-team-site.md
-        - name: Gebruikers upgraden voor de nieuwste Office-client
-          href: setup/upgrade-users-to-latest-office-client.md
+        - name: App-training voor iedereen
+          href: 'https://support.office.com/en-us/office-training-center'
+        - name: Welk abonnement heb ik?
+          href: admin-overview/what-subscription-do-i-have.md
         - name: Aanmeldingspagina aanpassen
           href: setup/customize-sign-in-page.md
-        - name: Distributiegroepen maken
-          href: setup/create-distribution-lists.md
         - name: Het thema van uw organisatie aanpassen
           href: setup/customize-your-organization-theme.md
-    - name: Gebruikers en rollen
+        - name: Meer informatie over Office 365 Duitsland
+          href: admin-overview/learn-about-office-365-germany.md
+    - name: Overzicht van het Microsoft 365-beheercentrum
       items:
-        - name: Gebruikers toevoegen
-          href: add-users/add-users.md
-        - name: Een sjabloon maken en gebruiken om gebruikers toe te voegen
-          href: add-users/create-and-use-a-template-to-add-users.md
-        - name: Een gebruiker verwijderen
-          href: add-users/delete-a-user.md
-        - name: Gebruiker herstellen
-          href: add-users/restore-user.md
-        - name: Wachtwoorden opnieuw instellen
-          href: add-users/reset-passwords.md
-        - name: Instellen dat een wachtwoord nooit verloopt
-          href: add-users/set-password-to-never-expire.md
-        - name: Gebruikers wachtwoorden opnieuw laten instellen
-          href: add-users/let-users-reset-passwords.md
-        - name: Wachtwoord voor gebruiker opnieuw verzenden
-          href: add-users/resend-user-password.md
-        - name: Postvakmachtigingen toewijzen aan een andere gebruiker
-          href: add-users/give-mailbox-permissions-to-another-user.md
-        - name: Een gebruikersnaam en e-mailadres wijzigen
-          href: add-users/change-a-user-name-and-email-address.md
-        - name: 'Een aangepaste gebruikersweergave maken, bewerken of verwijderen'
-          href: add-users/create-edit-or-delete-a-custom-user-view.md
-        - name: Nieuwe werknemer toevoegen
-          href: add-users/add-new-employee.md
-        - name: Voormalige werknemer verwijderen
-          href: add-users/remove-former-employee.md
-        - name: Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken
-          href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
+        - name: Overzicht van het beheercentrum
+          href: admin-overview/about-the-admin-center.md
+        - name: Informatie over het nieuwe beheercentrum
+          href: microsoft-365-admin-center-preview.md
         - name: Informatie over beheerdersrollen
           href: add-users/about-admin-roles.md
-        - name: Beheerdersrollen toewijzen
-          href: add-users/assign-admin-roles.md
-        - name: Informatie over de Exchange Online-beheerdersrol
-          href: add-users/about-exchange-online-admin-role.md
-    - name: E-mail
-      items:
-        - name: E-mail in Office 365
-          href: email/email.md
-        - name: Gebruikerse-mailinstellingen
-          href: email/office-365-user-email-settings.md
-        - name: Een ander e-mailalias toevoegen voor een gebruiker
-          href: email/add-another-email-alias-for-a-user.md
-        - name: Gedeelde postvakken
-          items:
-            - name: Meer over gedeelde postvakken
-              href: email/about-shared-mailboxes.md
-            - name: Een gedeeld postvak maken
-              href: email/create-a-shared-mailbox.md
-            - name: Een gedeeld postvak configureren
-              href: email/configure-a-shared-mailbox.md
-            - name: Het postvak van een gebruiker converteren naar een gedeeld postvak
-              href: email/convert-user-mailbox-to-shared-mailbox.md
-            - name: Een licentie uit een gedeeld postvak verwijderen
-              href: email/remove-license-from-shared-mailbox.md
-            - name: Problemen met gedeelde postvakken oplossen
-              href: email/resolve-issues-with-shared-mailboxes.md
-        - name: E-mailadres wijzigen
-          href: email/change-email-address.md
-        - name: Postvak IN met prioriteit configureren
-          href: setup/configure-focused-inbox.md
-        - name: Handtekeningen en disclaimers maken
-          href: setup/create-signatures-and-disclaimers.md
-        - name: 'Een beveiligingsgroep maken, bewerken of verwijderen'
-          href: email/create-edit-or-delete-a-security-group.md
-        - name: Doorsturen van e‑mail configureren
-          href: email/configure-email-forwarding.md
-        - name: Samenwerking via e-mail
-          href: email/email-collaboration.md
-        - name: Een gebruiker of contactpersoon toevoegen aan een distributiegroep
-          href: email/add-user-or-contact-to-distribution-list.md
-        - name: Onbelangrijke e-mail configureren
-          href: email/configure-clutter.md
-    - name: Bedrijfsgegevens beveiligen
-      items:
-        - name: De 10 beste manieren om uw gegevens te beveiligen
-          href: security-and-compliance/secure-your-business-data.md
-        - name: Meervoudige verificatie instellen
-          href: security-and-compliance/set-up-multi-factor-authentication.md
-        - name: Meervoudige verificatie instellen (met Office 2013)
-          href: security-and-compliance/enable-modern-authentication.md
-        - name: AVG-naleving
-          href: security-and-compliance/gdpr-compliance.md
-    - name: Activiteitenoverzichten in het beheercentrum
-      href: activity-reports/activity-reports.md
-    - name: Power BI-gebruiksanalyse
-      items:
-        - name: Gebruiksanalyse
-          href: usage-analytics/usage-analytics.md
-        - name: Gebruiksanalyses inschakelen
-          href: usage-analytics/enable-usage-analytics.md
-        - name: De meest recente versie van gebruiksanalyse downloaden
-          href: usage-analytics/get-the-latest-version-of-usage-analytics.md
-        - name: Navigeren in rapporten en deze gebruiken
-          href: usage-analytics/navigate-and-utilize-reports.md
-        - name: Actieve gebruiker in gebruiksrapporten
-          href: usage-analytics/active-user-in-usage-reports.md
-        - name: Rapporten aanpassen
-          href: usage-analytics/customize-reports.md
-        - name: Gegevensmodel voor gebruiksanalyse
-          href: usage-analytics/usage-analytics-data-model.md
-        - name: Fouten in gebruiksanalyse
-          href: usage-analytics/usage-analytics-errors.md
-    - name: Beheren
-      items:
-        - name: Office 365 beheren
-          href: manage/manage.md
-        - name: Contactvoorkeuren wijzigen
-          href: manage/change-contact-preferences.md
-        - name: 'Adres, contactgegevens en meer wijzigen'
-          href: manage/change-address-contact-and-more.md
-        - name: Telefoonnummer en e-mailadres bijwerken
-          href: manage/update-phone-number-and-email-address.md
-        - name: Verloopbeleid voor wachtwoorden instellen
-          href: manage/set-password-expiration-policy.md
-        - name: Het startprogramma voor apps aanpassen
-          href: manage/customize-the-app-launcher.md
-        - name: Vereisten voor Gecentraliseerde implementatie
-          href: manage/centralized-deployment-of-add-ins.md
-        - name: Gecentraliseerde implementatie gebruiken om invoegtoepassingen te implementeren
-          href: manage/manage-deployment-of-add-ins.md
-        - name: Veelgestelde vragen over Gecentraliseerde implementatie
-          href: manage/centralized-deployment-FAQ.md
-        - name: Uw partner of wederverkoper zoeken
-          href: manage/find-your-partner-or-reseller.md
-        - name: Postvakken voor vergaderruimten en apparatuur
-          href: manage/room-and-equipment-mailboxes.md
-        - name: E-mail verzenden als distributielijst
-          href: manage/send-email-as-distribution-list.md
-        - name: Distributielijsten upgraden
-          href: manage/upgrade-distribution-lists.md
-        - name: Sites en bestanden extern delen
-          href: manage/share-sites-with-external-users.md
-        - name: Agenda’s delen met externe gebruikers
-          href: manage/share-calendars-with-external-users.md
-        - name: Licenties aan gebruikers toewijzen
-          href: manage/assign-licenses-to-users.md
-        - name: Licenties van gebruikers verwijderen
-          href: manage/remove-licenses-from-users.md
-        - name: Licentieconflicten oplossen
-          href: manage/resolve-license-conflicts.md
-        - name: Berichten in het berichtencentrum beheren
-          href: manage/manage-messages.md
-        - name: Nieuwe functies weergeven of verbergen met Beheer van nieuwe functies
-          href: manage/show-hide-new-features.md
-    - name: Abonnementen en facturering
-      items:
-        - name: Uw abonnementen beheren
-          href: ../commerce/index.yml
-        - name: Uw factuur bekijken
-          href: ../commerce/billing-and-payments/view-your-bill-or-invoice.md
-        - name: Betalingswijzen beheren
-          href: ../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
-        - name: Uw abonnement annuleren
-          href: ../commerce/subscriptions/cancel-your-subscription.md
-    - name: Domeinen
-      items:
-        - name: Domeinen in Office 365
-          href: get-help-with-domains/get-help-with-domains.md
-        - name: Wat is een domein?
-          href: get-help-with-domains/what-is-a-domain.md
-        - name: Een domeinnaam kopen
-          href: get-help-with-domains/buy-a-domain-name.md
-        - name: Uw domeinregistrar zoeken
-          href: get-help-with-domains/find-your-domain-registrar.md
-        - name: DNS-basisprincipes
-          href: get-help-with-domains/dns-basics.md
-        - name: Informatie voor DNS-records
-          href: get-help-with-domains/information-for-dns-records.md
-        - name: Problemen opsporen en oplossen
-          href: get-help-with-domains/find-and-fix-issues.md
-        - name: Uw domein instellen (hostspecifieke instructies)
-          href: get-help-with-domains/set-up-your-domain-host-specific-instructions.md
-        - name: Naamservers wijzigen bij een domeinregistrar
-          href: get-help-with-domains/change-nameservers-at-any-domain-registrar.md
-        - name: DNS-records maken bij een DNS-hostingprovider
-          href: get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md
-        - name: Een domein verwijderen
-          href: get-help-with-domains/remove-a-domain.md
-        - name: Gegevens handmatig overbrengen
-          href: get-help-with-domains/transfer-data-manually.md
-    - name: Groepen
-      items:
-        - name: Groepsoverzicht
-          href: create-groups/office-365-groups.md
-        - name: Groepen vergelijken
-          href: create-groups/compare-groups.md
-        - name: Een Microsoft 365-groep maken
-          href: create-groups/create-groups.md
-        - name: Een Microsoft 365-groep beheren
-          href: create-groups/manage-groups.md
-        - name: Beheerplan in Microsoft 365-groepen
-          href: create-groups/plan-for-groups-governance.md
-        - name: Maken van groepen beheren
-          href: create-groups/manage-creation-of-groups.md
-        - name: Domein kiezen om groepen te maken
-          href: create-groups/choose-domain-to-create-groups.md
-        - name: Naamgevingsbeleid voor groepen
-          href: create-groups/groups-naming-policy.md
-        - name: Leden toestemming geven om berichten te verzenden als of namens een groep
-          href: create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md
-        - name: Leden toevoegen aan of verwijderen uit groepen
-          href: create-groups/add-or-remove-members-from-groups.md
-        - name: Verloopbeleid voor Microsoft 365-groep
-          href: create-groups/office-365-groups-expiration-policy.md
-        - name: Verwijderde groep herstellen
-          href: create-groups/restore-deleted-group.md
-        - name: Gasttoegang voor groepen beheren
-          href: create-groups/manage-guest-access-in-groups.md
-        - name: Vertrouwelijkheidslabels gebruiken met groepen
-          href: 'https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-teams-groups-sites?toc=/office365/admin/toc.json'
+        - name: Mobiele app voor beheerders
+          href: admin-overview/admin-mobile-app.md
+        - name: Nieuwe functies in het beheercentrum
+          href: whats-new-in-preview.md
+        - name: Op de hoogte blijven van wijzigingen
+          href: manage/stay-on-top-of-updates.md
     - name: 'Office 365, beheerd door 21Vianet'
       items:
         - name: 'Informatie over Office 365, beheerd door 21Vianet'
@@ -275,19 +60,194 @@
           href: services-in-china/apply-for-a-fapiao.md
         - name: Azure Information Protection-pariteit
           href: services-in-china/parity-between-azure-information-protection.md
-    - name: Nieuwe functies krijgen
+    - name: Gebruikers en groepen beheren
+      href: add-users/index.yml
       items:
-        - name: Over het nieuwe beheercentrum
-          href: microsoft-365-admin-center-preview.md
-        - name: Nieuwe functies in het nieuwe beheercentrum
-          href: whats-new-in-preview.md
-        - name: Op de hoogte blijven van wijzigingen
-          href: manage/stay-on-top-of-updates.md
-        - name: Releaseopties in Office 365
-          href: manage/release-options-in-office-365.md
-        - name: Berichtencentrum
+        - name: Gebruikers
+          items:
+            - name: Gebruikers toevoegen
+              href: add-users/add-users.md
+            - name: Een nieuwe werknemer toevoegen
+              href: add-users/add-new-employee.md
+            - name: Beheerdersrollen toewijzen
+              href: add-users/assign-admin-roles.md
+            - name: Licenties van gebruikers verwijderen
+              href: manage/remove-licenses-from-users.md
+            - name: Licentieconflicten oplossen
+              href: manage/resolve-license-conflicts.md
+            - name: Een gebruikersnaam en e-mailadres wijzigen
+              href: add-users/change-a-user-name-and-email-address.md
+            - name: Een voormalige werknemer verwijderen
+              href: add-users/remove-former-employee.md
+            - name: Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken
+              href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
+            - name: Een gebruiker herstellen
+              href: add-users/restore-user.md
+            - name: Wachtwoorden opnieuw instellen
+              href: add-users/reset-passwords.md
+            - name: Instellen dat wachtwoorden nooit verlopen
+              href: add-users/set-password-to-never-expire.md
+            - name: Gebruikers wachtwoorden opnieuw laten instellen
+              href: add-users/let-users-reset-passwords.md
+            - name: Gebruikerswachtwoorden opnieuw verzenden
+              href: add-users/resend-user-password.md
+            - name: Een sjabloon maken om gebruikers toe te voegen
+              href: add-users/create-and-use-a-template-to-add-users.md
+        - name: Groepen
+          items:
+            - name: Groepsoverzicht
+              href: create-groups/office-365-groups.md
+            - name: Groepen vergelijken
+              href: create-groups/compare-groups.md
+            - name: Een groep maken
+              href: create-groups/create-groups.md
+            - name: Groepen beheren
+              href: create-groups/manage-groups.md
+            - name: Groepsleden toevoegen of verwijderen
+              href: create-groups/add-or-remove-members-from-groups.md
+            - name: Een verwijderde groep herstellen
+              href: create-groups/restore-deleted-group.md
+            - name: Plannen voor beheer van groepen
+              href: create-groups/plan-for-groups-governance.md
+            - name: Maken van groepen beheren
+              href: create-groups/manage-creation-of-groups.md
+            - name: Domein voor groepen kiezen
+              href: create-groups/choose-domain-to-create-groups.md
+            - name: Overzicht van beleid voor naamgeving van groepen
+              href: create-groups/groups-naming-policy.md
+            - name: Leden toestaan e-mail te verzenden naar en vanuit groepen
+              href: create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md
+            - name: Gasttoegang tot groepen beheren
+              href: create-groups/manage-guest-access-in-groups.md
+            - name: Vertrouwelijkheidslabels gebruiken met groepen
+              href: ../compliance/sensitivity-labels-teams-groups-sites.md
+    - name: E-mail en agenda's beheren
+      href: email/index.yml
+      items:
+        - name: Informatie over e-mailinstellingen voor gebruikers
+          href: email/office-365-user-email-settings.md
+        - name: Een ander e-mailalias toevoegen voor een gebruiker
+          href: email/add-another-email-alias-for-a-user.md
+        - name: Uw aangepaste domein gebruiken
+          href: email/change-email-address.md
+        - name: Handtekeningen en disclaimers maken
+          href: setup/create-signatures-and-disclaimers.md
+        - name: 'Een beveiligingsgroep maken, bewerken of verwijderen'
+          href: email/create-edit-or-delete-a-security-group.md
+        - name: E-mail doorsturen instellen
+          href: email/configure-email-forwarding.md
+        - name: Gedeelde postvakken
+          items:
+            - name: Meer over gedeelde postvakken
+              href: email/about-shared-mailboxes.md
+            - name: Een gedeeld postvak maken
+              href: email/create-a-shared-mailbox.md
+            - name: Een gedeeld postvak instellen
+              href: email/configure-a-shared-mailbox.md
+            - name: Het postvak van een gebruiker converteren naar een gedeeld postvak
+              href: email/convert-user-mailbox-to-shared-mailbox.md
+            - name: Een licentie uit een gedeeld postvak verwijderen
+              href: email/remove-license-from-shared-mailbox.md
+            - name: Problemen met gedeelde postvakken oplossen
+              href: email/resolve-issues-with-shared-mailboxes.md
+        - name: Postvak IN met prioriteit instellen
+          href: setup/configure-focused-inbox.md
+        - name: Informatie over samenwerking via e-mail
+          href: email/email-collaboration.md
+        - name: Een gebruiker of contactpersoon toevoegen aan een distributiegroep
+          href: email/add-user-or-contact-to-distribution-list.md
+        - name: Onbelangrijke e-mail beheren voor uw organisatie
+          href: email/configure-clutter.md
+    - name: Domeinen beheren
+      href: get-help-with-domains/what-is-a-domain.md
+      items:
+        - name: Een domein toevoegen
+          href: setup/add-domain.md
+        - name: Een domeinnaam kopen
+          href: get-help-with-domains/buy-a-domain-name.md
+        - name: Een domein verwijderen
+          href: get-help-with-domains/remove-a-domain.md
+        - name: Veelgestelde vragen over domeinen
+          href: setup/domains-faq.md
+        - name: Hostspecifieke instructies
+          items:
+            - name: Naamservers wijzigen bij een DNS-host
+              href: get-help-with-domains/change-nameservers-at-any-domain-registrar.md
+            - name: DNS-records maken bij een DNS-host
+              href: get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md
+        - name: Problemen met domeinen oplossen
+          href: get-help-with-domains/find-and-fix-issues.md
+    - name: Uw gegevens en services beheren
+      href: manage/index.yml
+      items:
+        - name: Uw organisatie upgraden naar de meest recente apps
+          href: setup/upgrade-users-to-latest-office-client.md
+        - name: Gebruikersactiviteiten controleren met behulp van rapporten
+          href: activity-reports/activity-reports.md
+        - name: De contactgegevens van uw organisatie wijzigen
+          href: manage/change-address-contact-and-more.md
+        - name: De contactgegevens van uw beheerder bijwerken
+          href: manage/update-phone-number-and-email-address.md
+        - name: Verloopbeleid voor wachtwoorden instellen
+          href: manage/set-password-expiration-policy.md
+        - name: Het startprogramma voor apps aanpassen
+          href: manage/customize-the-app-launcher.md
+        - name: Vereisten voor gecentraliseerde implementatie van invoegtoepassingen
+          href: manage/centralized-deployment-of-add-ins.md
+        - name: Invoegtoepassingen installeren en beheren met behulp van Gecentraliseerde implementatie
+          href: manage/manage-deployment-of-add-ins.md
+        - name: Een partner of wederverkoper zoeken
+          href: manage/find-your-partner-or-reseller.md
+        - name: Informatie over het berichtencentrum
           href: manage/message-center.md
-        - name: Microsoft 365 uitproberen of kopen
-          href: ../commerce/try-or-buy-microsoft-365.md
-    - name: Contact opnemen met ondersteuning voor zakelijke producten
+        - name: Berichten in het berichtencentrum beheren
+          href: manage/manage-messages.md
+        - name: Releaseopties instellen
+          href: manage/release-options-in-office-365.md
+        - name: Power BI-gebruiksanalyses
+          items:
+            - name: Informatie over gebruiksanalyses
+              href: usage-analytics/usage-analytics.md
+            - name: Gebruiksanalyses inschakelen
+              href: usage-analytics/enable-usage-analytics.md
+            - name: De meest recente versie van gebruiksanalyse downloaden
+              href: usage-analytics/get-the-latest-version-of-usage-analytics.md
+            - name: Navigeren in rapporten en deze gebruiken
+              href: usage-analytics/navigate-and-utilize-reports.md
+            - name: Informatie over actieve gebruikers in gebruiksrapporten
+              href: usage-analytics/active-user-in-usage-reports.md
+            - name: Rapporten aanpassen
+              href: usage-analytics/customize-reports.md
+            - name: Informatie over het gegevensmodel voor gebruiksanalyses
+              href: usage-analytics/usage-analytics-data-model.md
+            - name: Fouten bij gebruiksanalyses oplossen
+              href: usage-analytics/usage-analytics-errors.md
+    - name: Abonnementen en facturering beheren
+      href: ../commerce/index.yml
+    - name: Uw organisatie beveiligen
+      items:
+        - name: De 10 beste manieren om uw gegevens te beveiligen
+          href: security-and-compliance/secure-your-business-data.md
+        - name: Meervoudige verificatie instellen
+          href: security-and-compliance/set-up-multi-factor-authentication.md
+        - name: Meervoudige verificatie instellen (met Office 2013)
+          href: security-and-compliance/enable-modern-authentication.md
+        - name: Een handleiding voor AVG-naleving
+          href: security-and-compliance/gdpr-compliance.md
+    - name: Werken met klanten
+      href: work-with-customers/index.yml
+      items:
+        - name: Sites en bestanden extern delen
+          href: manage/share-sites-with-external-users.md
+        - name: Agenda's delen met gastgebruikers
+          href: manage/share-calendars-with-external-users.md
+        - name: Een team met gasten maken
+          href: 'https://support.office.com/article/11fbb083-52ee-434d-8c6e-63711fdafac7'
+        - name: Een Teams-vergadering met gasten plannen
+          href: 'https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a?ui=en-US&rs=en-US&ad=US'
+        - name: Deelnemen aan een Teams-vergadering met gasten
+          href: 'https://support.office.com/article/a120c282-063d-46b8-b973-851197ab75d8?ui=en-US&rs=en-US&ad=US'
+    - name: Problemen oplossen
+      href: 'https://docs.microsoft.com/office/troubleshoot/'
+    - name: Contact opnemen met de ondersteuning
       href: contact-support-for-business-products.md
