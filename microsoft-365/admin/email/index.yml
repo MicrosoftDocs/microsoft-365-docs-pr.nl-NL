@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: E-mail en agenda's beheren
+summary: Bekijk deze bronnen om beheerders te helpen met veelvoorkomende taken of bekijk het navigatiedeelvenster aan de linkerkant voor een volledige lijst.
+metadata:
+  title: E-mail en agenda's beheren
+  description: E-mailinstellingen, distributiegroepen, beveiligingsinstellingen beheren en gedeelde postvakken instellen
+  ms.service: O365-administration
+  ms.topic: landing-page
+  author: sirkkuw
+  ms.author: sirkkuw
+  ms.date: 04/16/2020
+  localization_priority: Priority
+  ms.openlocfilehash: 65b0a249c5574ca149c0abe1e0ed879f649143fe
+  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 04/30/2020
+  ms.locfileid: "43952708"
+landingContent:
+- title: E-mail beheren
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: E-mailinstellingen van gebruikers beheren
+      url: office-365-user-email-settings.md
+    - text: Over e-mailsamenwerking
+      url: email-collaboration.md
+  - linkListType: how-to-guide
+    links:
+    - text: Een andere e-mailalias toevoegen
+      url: add-another-email-alias-for-a-user.md
+    - text: Uw aangepaste domein gebruiken
+      url: change-email-address.md
+    - text: E-mail doorsturen instellen
+      url: configure-email-forwarding.md
+    - text: Werken met beveiligingsgroepen
+      url: create-edit-or-delete-a-security-group.md
+- title: Agenda's beheren
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Uw agenda en contactpersonen beheren in Outlook
+      url: https://support.office.com/article/631a182a-21e0-4e41-8fa2-0d83e55da02d
+  - linkListType: video
+    links:
+    - text: Een gedeelde agenda maken
+      url: https://support.office.com/article/8385667b-d758-4489-a53f-f542dd01e6ff
+- title: Gedeelde postvakken beheren
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Een gedeeld postvak instellen
+      url: configure-a-shared-mailbox.md
+    - text: Het postvak van een gebruiker converteren naar een gedeeld postvak
+      url: convert-user-mailbox-to-shared-mailbox.md
+    - text: Een licentie uit een gedeeld postvak verwijderen
+      url: remove-license-from-shared-mailbox.md
+    - text: Problemen met gedeelde postvakken oplossen
+      url: resolve-issues-with-shared-mailboxes.md
+- title: Problemen met e-mailverbinding en -bezorging oplossen
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Problemen met e-mail bezorging zoeken en oplossen
+      url: https://docs.microsoft.com/exchange/troubleshoot/mail-delivery/email-delivery-issues
+    - text: Problemen oplossen en vinden na het toevoegen van uw domein- of DNS-records
+      url: ../get-help-with-domains/find-and-fix-issues.md
+    - text: Verwijderde e-mails herstellen in een gebruikerspostvak
+      url: https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox
+    - text: Fix Outlook connection problems in Microsoft 365 and Exchange Online
+      url: https://support.office.com/article/e90bb691-c2a7-4697-a94f-88836856c72f
