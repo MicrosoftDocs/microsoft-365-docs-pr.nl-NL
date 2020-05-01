@@ -1,0 +1,83 @@
+### YamlMime:Landing
+title: Uw gegevens en service beheren
+summary: Bekijk deze bronnen om beheerders te helpen met veelvoorkomende taken of bekijk het navigatiedeelvenster aan de linkerkant voor een volledige lijst.
+metadata:
+  title: Uw gegevens en service beheren
+  description: De status van uw service bewaken, een back-up maken van gegevens, invoegins installeren en upgraden naar de nieuwste apps
+  ms.service: O365-administration
+  ms.topic: landing-page
+  author: sirkkuw
+  ms.author: sirkkuw
+  ms.date: 04/16/2020
+  localization_priority: Priority
+  ms.openlocfilehash: 7289f6a0b971db0f9b785f35c6bbae839ecae226
+  ms.sourcegitcommit: a2dd93943f68362220b123e3e4b0f7b3facbdd03
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 04/30/2020
+  ms.locfileid: "43955323"
+landingContent:
+- title: Controleer de status van onze service
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Gebruikersactiviteit controleren met behulp van rapporten
+      url: ../activity-reports/activity-reports.md
+    - text: Gebruiksanalyses controleren
+      url: ../usage-analytics/usage-analytics.md
+    - text: Gebruiksanalyses inschakelen
+      url: ../usage-analytics/enable-usage-analytics.md
+    - text: Contactgegevens van uw organisatie wijzigen
+      url: change-address-contact-and-more.md
+    - text: Uw contactgegevens van de beheerder bijwerken
+      url: update-phone-number-and-email-address.md
+    - text: Releaseopties instellen
+      url: release-options-in-office-365.md
+- title: Gebruikerstoegang blokkeren en een back-up maken van gegevens
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Toegang tot en back-ups maken van de gegevens van een voormalige gebruiker
+      url: ../add-users/get-access-to-and-back-up-a-former-user-s-data.md
+    - text: E-mailretentie instellen (Microsoft 365 Business Premium)
+      url: ../../business/set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
+    - text: Bedrijfsgegevens van apparaten verwijderen (Microsoft 365 Business Premium)
+      url: ../../business/remove-company-data.md
+- title: Invoeg- en apps beheren
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Uw organisatie upgraden naar de nieuwste apps
+      url: ../setup/upgrade-users-to-latest-office-client.md
+    - text: Het startprogramma voor apps aanpassen
+      url: customize-the-app-launcher.md
+    - text: Vereisten voor gecentraliseerde implementatie van invoegingen
+      url: centralized-deployment-of-add-ins.md
+    - text: Invoegtoepassing installeren en beheren met behulp van gecentraliseerde implementatie
+      url: manage-deployment-of-add-ins.md
+- title: Microsoft Teams
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Documentatie van Microsoft Teams-beheerders
+      url: https://docs.microsoft.com/en-us/microsoftteams/
+    - text: Outlook en Teams samen gebruiken
+      url: https://support.office.com/article/9bc459c4-ce13-479b-b88b-b8ae49092732
+  - linkListType: learn
+    links:
+    - text: Training voor Microsoft Teams
+      url: https://support.office.com/article/4f108e54-240b-4351-8084-b1089f0d21d7
+- title: OneDrive en SharePoint
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: SharePoint-documentatie voor IT-professionals en -beheerders
+      url: https://docs.microsoft.com/sharepoint/
+    - text: OneDrive-documentatie voor IT-professionals en -beheerders
+      url: https://docs.microsoft.com/onedrive/
+  - linkListType: how-to-guide
+    links:
+    - text: Delen in OneDrive en SharePoint beheren
+      url: https://docs.microsoft.com/onedrive/manage-sharing
+    - text: Sites maken en beheren
+      url: https://docs.microsoft.com/sharepoint/manage-sites-in-new-admin-center
