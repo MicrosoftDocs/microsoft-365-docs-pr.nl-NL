@@ -1,0 +1,163 @@
+- name: Microsoft 365-oplossings- en architectuurcentrum
+  href: solution-architecture-center.md
+  displayName: Home
+- name: Illustraties voor oplossingen en architectuur
+  items:
+    - name: Illustraties voor Microsoft 365-productiviteit
+      href: productivity-illustrations.md
+    - name: Microsoft cloudarchitectuurmodellen
+      href: cloud-architecture-models.md
+- name: Microsoft 365 foundation oplossingen
+  items:
+    - name: Overzicht
+      href: foundation-solutions-overview.md
+    - name: Externe werknemers in staat stellen met Microsoft 365
+      href: empower-people-to-work-remotely.md
+      items:
+        - name: Stap 1. De aanmeldingsbeveiliging voor externe werknemers met MFA verhogen
+          href: empower-people-to-work-remotely-secure-sign-in.md
+        - name: Stap 2. Externe toegang bieden
+          href: empower-people-to-work-remotely-remote-access.md
+        - name: 'Stap 3. Endpoint-beheer implementeren voor uw apparaten, pc''s en andere eindpunten'
+          href: empower-people-to-work-remotely-manage-endpoints.md
+        - name: Stap 4. Apps en services voor productiviteit van externe werknemers implementeren
+          href: empower-people-to-work-remotely-teams-productivity-apps.md
+        - name: Stap 5. Covid-19 crisiscommunicatielocaties creëren
+          href: empower-people-to-work-remotely-communication-venues.md
+        - name: Stap 6. Externe werknemers trainen en feedback over het gebruik aanpakken
+          href: empower-people-to-work-remotely-train-monitor-usage.md
+    - name: Veilige samenwerking met Microsoft 365 instellen
+      href: setup-secure-collaboration-with-teams.md
+      items:
+        - name: Drie beschermingsniveaus met Microsoft Teams
+          items:
+            - name: Drie niveaus van bescherming overzicht
+              href: configure-teams-three-tiers-protection.md
+            - name: Basislijnbeveiliging configureren
+              href: configure-teams-baseline-protection.md
+            - name: Gevoelige beveiliging configureren
+              href: configure-teams-sensitive-protection.md
+            - name: Zeer gevoelige beveiliging configureren
+              href: configure-teams-highly-sensitive-protection.md
+            - name: Een team configureren met beveiligingsisolatie
+              href: secure-teams-security-isolation.md
+        - name: Extern delen configureren
+          items:
+            - name: Overzicht van extern delen
+              href: collaborate-with-people-outside-your-organization.md
+            - name: Configuratiescenario's
+              items:
+                - name: Samenwerken aan documenten
+                  href: collaborate-on-documents.md
+                - name: Samenwerken in een site
+                  href: collaborate-in-site.md
+                - name: Samenwerken als een team
+                  href: collaborate-as-team.md
+                - name: Een B2B-extranet maken
+                  href: b2b-extranet.md
+                - name: Delen beperken
+                  href: microsoft-365-limit-sharing.md
+            - name: Beveiligingsscenario's
+              items:
+                - name: Niet-geverifieerd delen
+                  href: best-practices-anonymous-sharing.md
+                - name: Onopzettelijke blootstelling beperken
+                  href: share-limit-accidental-exposure.md
+                - name: Veilige omgeving voor het delen van gasten
+                  href: create-secure-guest-sharing-environment.md
+            - name: Verwijzing naar extern delen
+              href: microsoft-365-guest-settings.md
+    - name: Bedreigingsbeveiliging implementeren in Microsoft 365
+      href: deploy-threat-protection.md
+- name: Workloadoplossingen en -scenario's
+  items:
+    - name: Overzicht
+      href: workload-solutions-scenarios-overview.md
+    - name: Teamwork en samenwerking
+      items:
+        - name: Teams architectuur posters
+          href: 'https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Telefonieoplossingen
+          items:
+            - name: Kies uw oplossing
+              href: 'https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+            - name: Case study voor multi-nationale corporatie
+              href: null
+        - name: Bestandssamenwerking in SharePoint met Microsoft 365
+          href: 'https://docs.microsoft.com/sharepoint/deploy-file-collaboration?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Een intelligent SharePoint-intranet plannen
+          href: 'https://docs.microsoft.com/sharepoint/plan-intranet?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+        - name: OneDrive-gids voor ondernemingen
+          href: 'https://docs.microsoft.com/en-us/onedrive/plan-onedrive-enterprise?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+    - name: Beveiliging
+      items:
+        - name: Belangrijkste taken voor beveiligingsteams ter ondersteuning van thuiswerken
+          href: 'https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Microsoft 365 security for Business Decision Makers (BDMs)
+          href: 'https://docs.microsoft.com/microsoft-365/security/microsoft-365-security-for-bdm?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Microsoft Defender Geavanceerde bedreigingsbeveiliging implementeren
+          href: 'https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+    - name: Naleving
+      items:
+        - name: Informatiebescherming voor GDPR
+          href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Actieplannen voor naleving van de regelgeving
+          items:
+            - name: ISO - Aanbevolen actieplan
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/iso-action-plan?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+            - name: NIST - Aanbevolen actieplan
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/nist-action-plan?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+            - name: CCPA - Veelgestelde vragen
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+            - name: GDPR - Aanbevolen actieplan
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/gdpr?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+    - name: Contoso casestudies
+      items:
+        - name: Microsoft 365-oplossingen voor de Contoso Corporation
+          href: contoso-case-study-solutions.md
+        - name: Geïsoleerd team voor een topgeheim project
+          href: contoso-team-for-top-secret-project.md
+    - name: Testlabrichtlijnen
+      items:
+        - name: Test labgidsen voor oplossingen en scenario's
+          href: test-lab-guides-overview-solutions.md
+        - name: Team met beveiligingsisolatie
+          href: team-security-isolation-dev-test.md
+- name: Branchespecifieke richtsnoeren
+  items:
+    - name: Overzicht
+      href: industry-specific-guidance-overview.md
+    - name: Financiën
+      items:
+        - name: Beveiliging en naleving van financiële diensten
+          href: financial-services-secure-collaboration.md
+    - name: Energie- en nutsdiensten
+      items:
+        - name: Beveiliging en naleving van energie- en nutsdiensten
+          href: energy-secure-collaboration.md
+    - name: Gezondheidszorg
+      items:
+        - name: Teams voor gezondheidszorg
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+    - name: Education
+      items:
+        - name: Teams voor onderwijs
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+    - name: Regering
+      items:
+        - name: Teams voor de overheid
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Ondersteuning van externe overheidsmedewerkers met behulp van Teams
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+- name: Principes voor het ontwerpen van ondernemingsarchitectuur
+  items:
+    - name: Overzicht
+      href: design-principles.md
+    - name: Aan identiteit en verder
+      href: identity-design-principles.md
+    - name: Veiligheidshindernissen waar u over varen
+      href: security-design-principles.md
+- name: Microsoft 365-implementatiebronnen
+  items:
+    - name: Microsoft 365 implementeren
+      href: 'https://docs.microsoft.com/microsoft-365/enterprise/deploy-microsoft-365-enterprise'
