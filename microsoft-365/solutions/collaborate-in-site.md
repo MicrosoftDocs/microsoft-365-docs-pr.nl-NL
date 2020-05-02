@@ -5,17 +5,21 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: sharepoint-online
-ms.collection: SPO_Content
+ms.prod: microsoft-365-enterprise
+ms.collection:
+- SPO_Content
+- M365-collaboration
+ms.custom:
+- M365solutions
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Meer informatie over het samenwerken met gasten in een SharePoint-site.
-ms.openlocfilehash: 5a8bc5da55f3582a7e298dab97ec4d6b3d147b60
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b9b5a50b4d0f7486b3c86546a672b01db3a5b000
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630735"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002275"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>Samenwerken met gasten op een site
 
@@ -52,7 +56,7 @@ Let op de instellingen in de sectie **Samenwerkingsbeperkingen.** Zorg ervoor da
 
 Moderne SharePoint-sites gebruiken Microsoft 365-groepen om de toegang tot de site te beheren. De gastinstellingen van Microsoft 365-groepen moeten zijn ingeschakeld om gasttoegang in SharePoint-sites te laten werken.
 
-![Schermafbeelding van gastinstellingen van Microsoft 365-groepen in het Microsoft 365-beheercentrum](../media/office-365-groups-guest-settings.png)
+![Schermopname van gastinstellingen van Microsoft 365 Groepen in het Microsoft 365-beheercentrum](../media/office-365-groups-guest-settings.png)
 
 Gastinstellingen voor Microsoft 365-groepen instellen
 

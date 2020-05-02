@@ -5,17 +5,21 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: sharepoint-online
-ms.collection: SPO_Content
+ms.prod: microsoft-365-enterprise
+ms.collection:
+- SPO_Content
+- M365-collaboration
+ms.custom:
+- M365solutions
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Meer informatie over het configureren van Microsoft 365 voor samenwerking met mensen buiten uw organisatie.
-ms.openlocfilehash: 1b2a15312dcaacc398bb521f3ecfb6e7453f66bb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 338b486725f727506d654a4507d8ea47c6fa2bab
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630723"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002250"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Samenwerken met mensen buiten uw organisatie
 
@@ -42,7 +46,7 @@ Zodra u het scenario hebt ingeschakeld dat u wilt gebruiken voor het delen met m
 
 - [Aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers](best-practices-anonymous-sharing.md) - Meer informatie over aanbevolen procedures voor het delen met niet-geverifieerde gebruikers.
 - [Ongelimiteer de blootstelling](share-limit-accidental-exposure.md) beperkt : ontdek hoe u de kans verkleinen dat u per ongeluk gevoelige inhoud deelt met mensen buiten uw organisatie.
-- [Een veilige omgeving voor het delen van gasten maken](create-secure-guest-sharing-environment.md)) - Lees meer over de tools in Microsoft 365 om ervoor te zorgen dat delen met mensen buiten uw organisatie op een veilige en veilige manier gebeurt en voldoet aan uw governancevereisten.
+- [Maak een veilige omgeving voor het delen van gasten](create-secure-guest-sharing-environment.md) - Lees meer over de tools in Microsoft 365 om ervoor te zorgen dat delen met mensen buiten uw organisatie op een veilige en veilige manier gebeurt en voldoet aan uw governancevereisten.
 
 ## <a name="collaborate-with-partner-companies"></a>Samenwerken met partnerbedrijven
 

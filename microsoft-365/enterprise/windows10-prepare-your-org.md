@@ -12,12 +12,12 @@ ms.date: 06/01/2018
 f1.keywords:
 - NOCSH
 ms.author: josephd
-ms.openlocfilehash: 74c8dc4a0d4e2d457462320999ed79e80b372b7a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 43793a1780542b1825c693030dd9d4dbff4ee3d7
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636661"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002341"
 ---
 # <a name="step-1-prepare-your-organization-for-windows-10-enterprise"></a>Stap 1: Uw organisatie voorbereiden op Windows 10 Enterprise
 
@@ -56,7 +56,7 @@ Gebruik de juiste waarde in de onderstaande tabel wanneer u het beheerbeleid con
 
 U diagnostische gegevens inschakelen via een van deze methoden:
 
-* **Microsoft Intune** - Als u van plan bent Intune te gebruiken om uw apparaten te beheren, u een configuratiebeleid maken om diagnostische gegevens in te schakelen door het systeembeleid <a href="https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowtelemetry" target="blank">van SystemAllowTelemetry</a> te configureren. Zie Instellingen en functies op [uw apparaten beheren met Microsoft Intune-beleid](https://aka.ms/intuneconfigpolicies)voor meer informatie over het instellen van configuratiebeleid.
+* **Microsoft Intune** - Als u van plan bent Intune te gebruiken om uw apparaten te beheren, u een configuratiebeleid maken om diagnostische gegevens in te schakelen door het systeembeleid <a href="https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowtelemetry" target="blank">van SystemAllowTelemetry</a> te configureren.
 * **Registereditor** - U de registereditor gebruiken om diagnostische gegevens handmatig in te schakelen op elk apparaat in uw organisatie. U afwisselend een script schrijven om het register te bewerken. Als er al een beheerbeleid bestaat, zoals Groepsbeleid of MDM, wordt deze registerinstelling overschreven.
 * **Groepsbeleid** : als u niet van plan bent apparaten in te schrijven in Intune, u een groepsbeleidsobject gebruiken om het diagnostische gegevensniveau van uw organisatie in te stellen.
 * **Opdrachtprompt** : u diagnostische gegevens en service van Windows 10 automatisch starten met de opdrachtprompt. Deze methode is het beste als u de service op slechts een paar apparaten test. Als u de service automatisch inschakelt met deze opdracht, wordt het diagnostische gegevensniveau niet geconfigureerd. Als u geen diagnostisch gegevensniveau hebt geconfigureerd met beheerhulpprogramma's, werkt de service met het standaardniveau Verbeterd niveau.
