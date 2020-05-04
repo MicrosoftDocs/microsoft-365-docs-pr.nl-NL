@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Bepaal of uw tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie gebruiken om Office-invoegins te implementeren.
-ms.openlocfilehash: 10dd97adf67cf3aeb91337fb251e7cebffdce56c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0fcdb9901c708842470f72106ab4eea20ff8b17e
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628230"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011721"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Bepalen of gecentraliseerde implementatie van invoegingen werkt voor uw organisatie
 
@@ -73,7 +73,7 @@ Gecentraliseerde implementatie biedt geen ondersteuning voor het volgende:
 
 Als u Microsoft 365 Apps voor ondernemingen wilt gebruiken, moet een gebruiker een Microsoft 365-account hebben en een licentie hebben gekregen. Zie [Overzicht van Microsoft 365 Apps for enterprise voor](https://go.microsoft.com/fwlink/p/?linkid=846328)meer informatie.
 
-De eenvoudigste manier om te detecteren of een gebruiker Microsoft 365 ProPlus heeft geïnstalleerd en het onlangs heeft gebruikt, is door het microsoft Office-activeringsrapport te gebruiken, dat beschikbaar is in het Microsoft 365-beheercentrum. Het rapport bevat een lijst met alle gebruikers die Microsoft 365 Apps voor bedrijven hebben geactiveerd in de afgelopen 7 dagen, 30 dagen, 90 dagen of 180 dagen. Voor gecentraliseerde implementatiedoeleinden zijn de bureaubladactiveringen voor Windows of Mac de belangrijke kolommen in het rapport. U kunt het rapport exporteren naar Excel. Zie [Microsoft 365-rapporten in het beheercentrum - Microsoft Office-activeringen](../activity-reports/microsoft-office-activations.md)voor meer informatie over het rapport.
+De eenvoudigste manier om te detecteren of een gebruiker Microsoft 365 Apps voor bedrijven heeft geïnstalleerd en deze onlangs heeft gebruikt, is door het microsoft Office-activeringsrapport te gebruiken, dat beschikbaar is in het Microsoft 365-beheercentrum. Het rapport bevat een lijst met alle gebruikers die Microsoft 365 Apps voor bedrijven hebben geactiveerd in de afgelopen 7 dagen, 30 dagen, 90 dagen of 180 dagen. Voor gecentraliseerde implementatiedoeleinden zijn de bureaubladactiveringen voor Windows of Mac de belangrijke kolommen in het rapport. U kunt het rapport exporteren naar Excel. Zie [Microsoft 365-rapporten in het beheercentrum - Microsoft Office-activeringen](../activity-reports/microsoft-office-activations.md)voor meer informatie over het rapport.
   
 Als u het rapport Activeringen niet wilt gebruiken, u een gebruiker vragen een Office-toepassing zoals Word op zijn of haar machine te openen en vervolgens **Account** \> **bestand**te kiezen. Zie **Onder Productgegevens**ziet u **Abonnementsproduct** en **Microsoft Microsoft 365 Apps voor ondernemingen,** zoals weergegeven in de volgende afbeelding.
 

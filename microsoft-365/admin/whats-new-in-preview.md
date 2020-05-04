@@ -20,12 +20,12 @@ search.appverid:
 description: Het Microsoft 365-beheercentrum - meer informatie over de functies die deze maand zijn toegevoegd.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: bd701f8ea2a6187f73fff91ea1ca2ccf2641f6e3
-ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+ms.openlocfilehash: 2b25e68fbe07b46243f92bdcd252e86340d5f7eb
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952649"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011325"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe nieuws in het Microsoft 365-beheercentrum
 
@@ -289,7 +289,7 @@ Er is een update geweest voor een andere van onze eerste setup wizards: Microsof
 
 We hebben deze maand een aantal updates voor facturering en abonnementen:
 
-- Abonnementen op apparaat: u **Office 365 ProPlus for Education -licenties (apparaat)** toewijzen of niet toewijzen aan apparaten in het Microsoft 365-beheercentrum. **Office 365 ProPlus for Education (apparaat)** is een add-on licentie waarmee u een licentie toewijzen aan een apparaat. Ga naar > **Factureringsproducten & services** om de licentie te vinden en te kopen. **Billing**
+- Abonnementen op basis van apparaten: u **Microsoft 365 Apps for Education (apparaat)licenties** toewijzen of niet toewijzen aan apparaten in het Microsoft 365-beheercentrum. **Microsoft 365 Apps for Education (apparaat)** is een add-on licentie waarmee u een licentie aan een apparaat toewijzen. Ga naar > **Factureringsproducten & services** om de licentie te vinden en te kopen. **Billing**
 - Licentiebeheer op basis van gebruikers: we hebben de manier bijgewerkt waarop u licenties toewijst in **Gebruikers** > **actieve gebruikers** aan de nieuwe stijl. Zie voor meer informatie:
   - [Licenties toewijzen aan gebruikers](manage/assign-licenses-to-users.md)
   - [Licenties van gebruikers verwijderen](manage/remove-licenses-from-users.md)

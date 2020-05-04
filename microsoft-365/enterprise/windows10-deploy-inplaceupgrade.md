@@ -12,12 +12,12 @@ ms.date: 08/30/2018
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: ca5abb97628d04a9f29bb3a3fb9b43a578dbab74
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1c90640fa49aa102d2a4c8420feedf659b5682f2
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42811293"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011815"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>Stap 2: Windows 10 Enterprise implementeren voor bestaande apparaten als een in-place upgrade
 
@@ -31,13 +31,13 @@ Als u bestaande computers met Windows 7 of Windows 8.1 hebt, raden we dit pad aa
 
 Volg deze stappen voor het configureren en implementeren van een Windows 10 Enterprise-afbeelding met Microsoft Endpoint Configuration Manager als in-place upgrade.
 
-## <a name="the-windows-10-deployment-with-configuration-manager-poster"></a>De Windows 10-implementatie met configuratiebeheerposter
+## <a name="the-windows-10-deployment-with-configuration-manager-poster"></a>De poster Windows 10-implementatie met Configuration Manager
 
 De poster Configuration Manager is één pagina in de landschapsmodus (17x11). Klik op de afbeelding hieronder om een PDF in uw browser te bekijken. 
 
 [![Windows 10 implementeren met poster Configuration Manager](../media/windows10-deploy-inplaceupgrade/windows10-deployment-config-manager.png)](https://docs.microsoft.com/windows/deployment/media/Windows10DeploymentConfigManager.pdf)
 
-U deze poster ook downloaden in [PDF-](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.pdf) of [Visio-indeling.](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.vsdx)
+U kunt deze poster ook downloaden in [PDF-](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.pdf) of [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.vsdx)-indeling.
 
 ## <a name="part-1-verify-readiness-to-upgrade-windows"></a>Deel 1: Controleer de gereedheid om Windows te upgraden
 
@@ -47,7 +47,7 @@ Zie [Windows-upgrades beheren met gereedheid voor upgrade](https://docs.microsof
 
 Volg vervolgens de handleiding voor het gebruik van Configuration Manager (Current Branch) om windows 7 of hoger besturingssysteem te upgraden naar Windows 10. Zoals bij elke implementatie met een hoog risico raden we u aan een back-up van gebruikersgegevens te maken voordat u verdergaat. OneDrive-cloudopslag is klaar voor gebruik voor gelicentieerde Microsoft 365-gebruikers en kan worden gebruikt om hun bestanden veilig op te slaan. Zie [Snelaande handleiding voor OneDrive](https://aka.ms/ODfBquickstartguide)voor meer informatie. Als u toegang wilt krijgen tot deze pagina, moet u zich aanmelden als tenantbeheerder of globale beheerder in een Office 365- of Microsoft 365-tenant.
 
-Zie [Ondersteuning voor Windows 10 voor Configuratiebeheer voor](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10)een lijst met Configuratiebeheerversies en de bijbehorende Windows 10-clientversies die worden ondersteund.
+Zie [Ondersteuning voor Windows 10 voor Configuratiebeheer voor](https://docs.microsoft.com/mem/configmgr/core/plan-design/configs/support-for-windows-10)een lijst met Configuratiebeheerversies en de bijbehorende Windows 10-clientversies die worden ondersteund.
 
 **De gereedheid voor een upgrade van Windows verifiëren**
 
@@ -96,7 +96,7 @@ Voer de volgende stappen uit om een upgradetaakreeks te maken:
 Nadat u de upgradetaakreeks hebt gemaakt, moet u een verzameling maken die de apparaten bevat die u wilt upgraden.
 
 > [!NOTE]
-> Gebruik de volgende instellingen om de implementatie op één apparaat te testen. U verschillende lidmaatschapsregels gebruiken om groepen apparaten op te nemen wanneer u er klaar voor bent. Zie [Collecties maken in Configuration Manager](https://docs.microsoft.com/configmgr/core/clients/manage/collections/create-collections)voor meer informatie.
+> Gebruik de volgende instellingen om de implementatie op één apparaat te testen. U verschillende lidmaatschapsregels gebruiken om groepen apparaten op te nemen wanneer u er klaar voor bent. Zie [Collecties maken in Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/clients/manage/collections/create-collections)voor meer informatie.
 
 1. Klik in de console Configuratiebeheer in de werkruimte **Assets en Compliance** met de rechtermuisknop op **Apparaatverzamelingen**en selecteer **vervolgens Apparaatverzameling maken**. 
 2. Voer in de wizard Apparaatverzameling maken op de pagina **Algemeen** de volgende instellingen in en selecteer **Volgende:**
@@ -136,7 +136,7 @@ Voer deze stappen uit om de taakreeks Windows 10-upgrade te starten op het appar
  
 1. Meld u aan bij de Windows-computer en start **Software Center**.
 2. Selecteer de taakreeks die u in een vorige stap hebt gemaakt en selecteer **Vervolgens Installeren**.
-3. Wanneer de taakreeks begint, wordt automatisch het upgradeproces op de plaats gestart door een beroep te doen op het Windows-installatieprogramma (Setup.exe) met de nodige opdrachtregelparameters om een geautomatiseerde upgrade uit te voeren, waarbij alle gegevens, instellingen, apps en Stuurprogramma 's.
+3. Wanneer de taakreeks begint, wordt het upgradeproces automatisch gestart door een beroep te doen op het Windows-installatieprogramma (Setup.exe) met de nodige opdrachtregelparameters om een geautomatiseerde upgrade uit te voeren, waarbij alle gegevens, instellingen, apps en stuurprogramma's worden bewaard.
 4. Nadat de taakreeks is voltooid, wordt de computer volledig geüpgraded naar Windows 10.
 
 Als u problemen ondervindt bij het gebruik van Windows 10 in een bedrijfsomgeving, u [de belangrijkste Microsoft Support-oplossingen raadplegen voor de meest voorkomende problemen.](https://docs.microsoft.com/windows/client-management/windows-10-support-solutions) Deze bronnen omvatten KB-artikelen, updates en bibliotheekartikelen.
@@ -145,7 +145,7 @@ Gebruik tijdens de implementatie van updates in uw hele organisatie de updatecom
 
 Zie [Windows-updates en Windows Defender-antivirus controleren met naleving van updates](https://docs.microsoft.com/windows/deployment/update/update-compliance-monitor) voor meer informatie, aan de slag en gebruik Update Compliance.
 
-Als tussencontrolepunt ziet u de [exitcriteria](windows10-exit-criteria.md#crit-windows10-step2) die overeenkomen met deze stap.
+Als tussentijds controlepunt kunt u de [afsluitcriteria](windows10-exit-criteria.md#crit-windows10-step2) voor deze stap bekijken.
 
 ## <a name="next-step"></a>Volgende stap
 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Geautomatiseerde upgrades van Windows 7 naar Windows 10 voor grote organisaties
-ms.openlocfilehash: f9ba1022b4c7f702f6cb9b815deee59047c4b704
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 575ffba84b2cd7b7cfe5267a35a9f36c75dbe306
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113479"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011549"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>Geautomatiseerde in-place upgrades van Windows 7 naar Windows 10 voor grote organisaties
 
@@ -36,13 +36,13 @@ Bij het gebruiken van in-place upgrades worden verschillende implementatieproces
 
 De grijs weergegeven taken in de bovenstaande afbeelding van het implementatieproces zijn geen items die u volledig kunt negeren, maar om tijd te besparen gaat dit er vanuit dat u uw beveiligingsconfiguratie doorstuurt en uw processen voor software-updates na de implementatie verandert. Wij gaan er vanuit dat de gebruikerstraining voor het Windows-onderdeel grotendeels thuis is uitgevoerd door uw gebruikers, aangezien privé gekochte Windows-computers sinds 2012 voor het grootste deel geen Windows 7 vooraf geïnstalleerd hadden en het grootste deel van de Windows 7-thuissystemen sinds de release van Windows 10 in 2015 ook zijn bijgewerkt naar Windows 10.
 
-## <a name="in-place-upgrade-reliability-safeguards-and-scale"></a>Betrouwbaarheid, beveiliging en omvang van in-place upgrade
+## <a name="in-place-upgrade-reliability-safeguards-and-scale"></a>Betrouwbaarheid, beveiliging en omvang van in-place upgrades
 
-In-place upgrades voor Windows 10 zijn een betrouwbare aanpak voor het overzetten van een bestaand apparaat met Windows 7 of een nieuwere versie naar Windows 10, zonder dat bestandsmigratie of het opnieuw installeren van toepassingen nodig is. Na een in-place upgrade komen de bestanden, instellingen en beschikbare apps van de gebruiker overeen met de vorige Windows 7-installatie. Upgrades werken ook als u overstapt van vergelijkbare architecturen (32-bits naar 32-bits of 64-bits naar 64-bits) en vergelijkbare versies van Windows (Professional naar Pro of Enterprise naar Enterprise).
+In-place upgrades naar Windows 10 zijn een betrouwbare aanpak voor het overzetten van een bestaand apparaat met Windows 7 of een nieuwere versie naar Windows 10, zonder dat bestandsmigratie of het opnieuw installeren van toepassingen nodig is. Na een in-place upgrade komen de bestanden, instellingen en beschikbare apps van de gebruiker overeen met de vorige Windows 7-installatie. Upgrades werken ook als u overstapt van vergelijkbare architecturen (32-bits naar 32-bits of 64-bits naar 64-bits) en vergelijkbare versies van Windows (Professional naar Pro of Enterprise naar Enterprise).
 
-Tijdens het upgradeproces wordt standaard een reservekopie gemaakt van uw vorige Windows-installatie, dus als een upgrade mislukt of een apparaat of toepassing niet correct werkt, kan de computer terugkeren naar Windows 7. De standaardinstelling is dat er tien dagen zijn bijgewerkt. Dit betekent dat u de computer gedurende die periode indien nodig handmatig kunt terugzetten naar Windows 7.
+Tijdens het upgradeproces wordt standaard een reservekopie gemaakt van uw vorige Windows-installatie, dus als een upgrade mislukt of een apparaat of toepassing niet correct werkt, kan de computer terugkeren naar Windows 7. De standaardinstelling is dat u 10 dagen de tijd hebt om de computer indien nodig handmatig terug te zetten naar Windows 7.
 
-In-place upgrades kunnen worden geautomatiseerd met behulp van implementatiehulpprogramma's voor besturingssystemen zoals [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) of de [Microsoft Deployment Toolkit](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-the-microsoft-deployment-toolkit). In dit artikel vindt u de geautomatiseerde benaderingen en optimalisaties alsook koppelingen naar verwante hulpmiddelen voor extra hulp.
+In-place upgrades kunnen worden geautomatiseerd met behulp van implementatiehulpprogramma's voor besturingssystemen zoals [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) of de [Microsoft Deployment Toolkit](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-the-microsoft-deployment-toolkit). In dit artikel vindt u de geautomatiseerde benaderingen en optimalisaties alsook koppelingen naar verwante hulpmiddelen voor extra hulp.
 
 ## <a name="upgrading-a-small-number-of-computers"></a>Een klein aantal computers upgraden
 
@@ -50,7 +50,7 @@ Voor een enkele of klein aantal computers, is de handmatige aanpak voor het upgr
 
 ## <a name="how-to-upgrade-many-computers"></a>Een upgrade uitvoeren op veel computers
 
-Als u tientallen of duizenden computers beheert, kunt u het beste een in-place upgrade uitvoeren met behulp van geautomatiseerde takenreeksen in de Microsoft Endpoint Configuration Manager of de Microsoft Deployment Toolkit. Hoewel het proces in de meeste gevallen zeer betrouwbaar is, is het afhankelijk van het aantal pc's dat u bijwerkt toch handig om de nodige tests en controles uit te voeren om de upgrade op grote schaal succesvol te voltooien.
+Als u tientallen of duizenden computers beheert, kunt u het beste een in-place upgrade uitvoeren met behulp van geautomatiseerde takenreeksen in de Microsoft Endpoint Configuration Manager of de Microsoft Deployment Toolkit. Hoewel dit proces in de meeste gevallen zeer betrouwbaar is, is het afhankelijk van het aantal pc's dat u bijwerkt toch handig om de nodige tests en controles uit te voeren om de upgrade op grote schaal succesvol te voltooien.
 
 Dit houdt in dat u de Directory-gereedheid of taken met betrekking tot de levering van Azure Active Directory-, Office- en Line of Business-apps en verpakking en bestandsmigratie kunt overslaan, aangezien die aspecten worden behouden als onderdeel van de upgrade en de beveiliging op zijn minst doorgevoerd dient te worden. Deze onderdelen kunnen in de loop der tijd allemaal worden uitgebreid.
 
@@ -68,7 +68,7 @@ De optie voor upgrade-implementatie wordt besproken in de [OS Deployment and Fea
 
   - Herstellen van een pc naar een vorige status - waar niet-geïnstalleerde apps of stuurprogramma's opnieuw worden geïnstalleerd - in het geval van een mislukte upgrade,
 
-  - Samen met andere dingen die u moet configureren om de pc klaar te maken voor zakelijk gebruik
+  - Samen met alle andere dingen die u moet configureren om de pc klaar te maken voor zakelijk gebruik
 
 ![](../media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-2.png)
 
@@ -78,15 +78,15 @@ Onder de meest voorkomende redenen voor het niet-voltooien van een upgrade valle
 
   - Schijfversleuteling door derden
 
-  - Code-oplossingen op laag niveau, zoals anit-malware, VPN of virtualisatie
+  - Code-oplossingen op laag niveau, zoals anti-malware, VPN of virtualisatie
 
-[Sjablonen voor het upgraden van takenreeksen](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) zijn ingebouwd in Microsoft Endpoint Configuration Manager (huidige tak) en zijn beschikbaar voor verschillende versies. In recente versies zijn er belangrijke technologische verbeteringen aan Configuration Manager doorgevoerd, die het proces voor het bepalen van de gereedheid van het apparaat en de Office-compatibiliteit, het verkleinen van het netwerkverkeer en het configureren van nieuwe opties, zoals OneDrive-back-up, nog efficiënter maken. Bekijk deze [show van Microsoft-monteurs](https://youtu.be/CYRnAmCD7ls) voor meer informatie over recente updates voor implementatie van besturingssystemen met Configuration Manager.
+[Sjablonen voor het upgraden van takenreeksen](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) zijn ingebouwd in Microsoft Endpoint Configuration Manager (huidige tak) en zijn beschikbaar voor verschillende versies. In recente versies zijn er belangrijke technologische verbeteringen van Configuration Manager doorgevoerd, die het proces voor het bepalen van de gereedheid van het apparaat en de Office-compatibiliteit, het verkleinen van het netwerkverkeer en het configureren van nieuwe opties, zoals OneDrive-back-up, nog efficiënter maken. Bekijk deze [show van Microsoft-monteurs](https://youtu.be/CYRnAmCD7ls) voor meer informatie over recente updates voor implementatie van besturingssystemen met Configuration Manager.
 
 Als u geen Microsoft Endpoint Configuration Manager gebruikt, kunt u de Microsoft Deployment Toolkit gebruiken om de takenreeksen voor implementatie van upgrades te maken en uit te voeren.
 
 ## <a name="pre-cache-task-sequence-upgrades"></a>Takenreeks upgrades voorafgaand aan de cache
 
-Met de optie [voorafgaand aan de cache](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system#configure-pre-cache-content) voor implementatie van de takenreeks van Configuration Manager kunnen clients relevante inhoud van het OS-upgradepakket downloaden voordat het besturingssysteem wordt bijgewerkt met behulp van de takenreeks. Voorheen resulteerde het starten van de takenreeks in het downloaden van pakketinhoud. Inhoud voorafgaand aan de cache geeft u ook de mogelijkheid om alleen het toepasselijke OS-upgradepakket en alle andere inhoud waarnaar wordt verwezen te downloaden, zodra de implementatie wordt ontvangen.
+Met de optie [voorafgaand aan de cache](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system#configure-pre-cache-content) voor implementatie van de takenreeks van Configuration Manager kunnen clients relevante inhoud van het OS-upgradepakket downloaden voordat het besturingssysteem wordt bijgewerkt met behulp van de takenreeks. Voorheen resulteerde het starten van de takenreeks in het downloaden van pakketinhoud. Inhoud voorafgaand aan de cache geeft u ook de mogelijkheid om alleen het toepasselijke OS-upgradepakket en alle andere inhoud waarnaar wordt verwezen te downloaden, zodra de implementatie wordt ontvangen.
 
 Takenreeksen voorafgaand aan de cache gecombineerd met compatibiliteitsscans
 
@@ -104,6 +104,6 @@ De resultaten van de logboeken zelf zijn:
 
 4.  Als Setup oordeelt dat de pc niet voldoende ruimte beschikbaar heeft om te installeren, wordt MOSETUP\_E\_INSTALLDISKSPACE\_BLOCK (0xC190020E) getoond
 
-Wanneer u de volgorde voorafgaande aan de cache met compatibiliteitsscans op een groot aantal pc's in een verzameling hebt geïmplementeerd, kunt u de logboekbestanden voor de gereedheid van het apparaat parseren. Met behulp van de bovengenoemde outputs, kan \#1 (0xC1900210) worden gezien als “klaar voor implementatie” en kan \#4 (0xC190020E) worden opgelost door schijfruimte vrij te maken. U moet voorzichtig zijn met het verwijderen van items, maar Windows Update Cleanup, de prullenbak en tijdelijke bestanden zijn een goede plek om te beginnen en maken in veel gevallen genoeg ruimte vrij om de upgrade te voltooien. Kan de compatibiliteitscontrole zo vaak als nodig uitgevoerd worden tot de pc gereed is voor de in-place upgrade. Meer informatie over de opdrachtregelopties voor Windows Setup vindt u op <https://aka.ms/setupswitches>
+Wanneer u de volgorde voorafgaande aan de cache met compatibiliteitsscans op een groot aantal pc's in een verzameling hebt geïmplementeerd, kunt u de logboekbestanden voor de gereedheid van het apparaat parseren. Met behulp van de bovengenoemde outputs, kan \#1 (0xC1900210) worden gezien als “klaar voor implementatie” en kan \#4 (0xC190020E) worden opgelost door schijfruimte vrij te maken. U moet voorzichtig zijn met het verwijderen van items, maar Windows Update Cleanup, de prullenbak en tijdelijke bestanden zijn een goede plek om te beginnen en maken in veel gevallen genoeg ruimte vrij om de upgrade te voltooien. Kan de compatibiliteitscontrole zo vaak als nodig uitgevoerd worden tot de pc gereed is voor de in-place upgrade? Meer informatie over de opdrachtregelopties voor Windows Setup vindt u op <https://aka.ms/setupswitches>
 
 ## <a name="desktop-deployment-center"></a>[Desktop Deployment Center](https://aka.ms/howtoshift)

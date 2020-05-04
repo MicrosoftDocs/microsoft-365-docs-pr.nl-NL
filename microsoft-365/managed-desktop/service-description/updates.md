@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 763a9f3c7c517a5d093b9691310720468053bf24
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 02e6eb5914af9ad72971029913d31b214ebbd190
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636472"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011933"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Hoe updates worden verwerkt in Microsoft Managed Desktop
 
@@ -61,10 +61,10 @@ Hoe update-implementatie werkt:
 <tr><td>Functie-updates voor het besturingssysteem</td><td>0 dagen</td><td>30 dagen</td><td>60 dagen</td><td>90 dagen</td></tr>
 <tr><td>Stuurprogramma's/firmware</td><td colspan="4">Volgt het schema voor kwaliteitsupdates</td></tr>
 <tr><td>Definitie van antilichamen</td><td colspan="4">Bijgewerkt met elke scan</td></tr>
-<tr><td>Microsoft 365 Apps voor bedrijven</td><td colspan="4">Volgt het maandelijkse kanaal van Office
+<tr><td>Microsoft 365-apps voor ondernemingen</td><td colspan="4">Volgt het maandelijkse kanaal van Office
 </table>
 
-Zie [Overzicht van updatekanalen voor Microsoft 365 Apps voor ondernemingen voor](https://docs.microsoft.com/deployoffice/overview-of-update-channels-for-office-365-proplus)meer informatie over het maandelijkse kanaal voor Microsoft 365 Apps voor ondernemingen.
+Zie [Overzicht van updatekanalen voor Microsoft 365-apps voor](https://docs.microsoft.com/deployoffice/overview-update-channels)meer informatie over het maandelijkse kanaal voor Microsoft 365 Apps voor bedrijven.
 
 >[!NOTE]
 >Deze uitstelperioden zijn opzettelijk ontworpen om hoge beveiligings- en prestatienormen voor alle gebruikers te garanderen. Bovendien behoudt Microsoft Managed Desktop, op basis van gegevens die zijn verzameld op alle Microsoft Managed Desktop-apparaten en de verschillende omvang en impact van updates, flexibiliteit om de duur van de bovenstaande uitstelperioden voor alle implementatiegroepen ad hoc te wijzigen.

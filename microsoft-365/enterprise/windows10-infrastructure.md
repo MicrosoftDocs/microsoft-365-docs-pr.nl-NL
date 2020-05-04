@@ -12,12 +12,12 @@ ms.date: 08/28/2019
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: 53c38ba2e915cd439c8d7629bc7f9cd56ebc8647
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d1019547fb16fd4fd5669ebd5286e8c9e32668fe
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636673"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011921"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>Fase 3: Windows 10 Enterprise
 
@@ -41,7 +41,7 @@ Er zijn meerdere manieren waarop u Windows 10 Enterprise voor uw organisatie imp
 
 | Implementatiescenario | Wanneer te gebruiken |
 |:--- |:--- |
-| [Microsoft Endpoint Configuration Manager gebruiken als een in-place upgrade](windows10-deploy-inplaceupgrade.md) | Selecteer deze optie als u Windows 7- of Windows 8.1-computers moet upgraden naar de <a href="https://aka.ms/windows-10-release-information" target="_blank">huidige versie</a> van Windows 10 Enterprise en uw computers momenteel worden beheerd met Configuration <a href="https://docs.microsoft.com/configmgr/core/understand/introduction" target="_blank">Manager (Huidige branch).</a> |
+| [Microsoft Endpoint Configuration Manager gebruiken als een in-place upgrade](windows10-deploy-inplaceupgrade.md) | Selecteer deze optie als u Windows 7- of Windows 8.1-computers moet upgraden naar de <a href="https://aka.ms/windows-10-release-information" target="_blank">huidige versie</a> van Windows 10 Enterprise en uw computers momenteel worden beheerd met Configuration <a href="https://docs.microsoft.com/mem/configmgr/core/understand/introduction" target="_blank">Manager (Huidige branch).</a> |
 | [Windows Autopilot gebruiken](windows10-deploy-autopilot.md) | Selecteer deze optie als u nieuwe Windows-computers instelt waarop Windows 10 Enterprise, versie 1703 of hoger is geïnstalleerd. Eindgebruikers starten de installatie met de gewenste configuratie door hun rechten van het werk- of schoolaccount in te voeren. |
 
 Als deze implementatiescenario's niet voldoen aan de behoeften van uw organisatie, u meer te weten komen over andere scenario's en inzicht krijgen in de mogelijkheden en beperkingen van elk van deze [scenario's in Windows 10-implementatiescenario's.](https://docs.microsoft.com/windows/deployment/windows-10-deployment-scenarios) U kunt ook zelf <a href="https://aka.ms/planforwin10deployment" target="_blank">de implementatie van Windows 10 plannen</a>.
@@ -80,7 +80,7 @@ Neem een kijkje in Microsoft en ontdek hoe het bedrijf [Windows 10 Enterprise he
 
 Bekijk hoe de Contoso Corporation, een fictief maar representatief multinationaal bedrijf, [Windows 10 Enterprise heeft geïmplementeerd.](contoso-win10.md)
 
-![Contoso Corporation](../media/contoso-overview/contoso-icon.png)
+![De Contoso Corporation](../media/contoso-overview/contoso-icon.png)
 
 ## <a name="next-step"></a>Volgende stap
 

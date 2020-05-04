@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Meer informatie over standaardinstellingen en andere instellingen die beschikbaar zijn in Microsoft 365 voor Bedrijven om Windows 10-apparaten te beveiligen.
-ms.openlocfilehash: a3b7f0a8572a215491b32101a30c306b54571b6f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9096fb6a8fc790d9a9432578cfd8623f9cb69c7a
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633012"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011562"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Instellingen voor apparaatbeveiliging instellen voor Windows 10-pc's
 
@@ -67,7 +67,7 @@ Zie [Hoe bewaar beveiligingsfuncties in microsoft 365 Premium-kaart voor Intune-
 |Bescherm pc's tegen virussen en andere bedreigingen met Windows Defender-antivirussoftware  <br/> |Daarvoor moet Windows Defender-antivirussoftware zijn ingeschakeld om pc's te beschermen tegen de gevaren die verbinding met internet met zich meebrengt.  <br/> |
 |Bescherm pc's tegen internetdreigingen in Microsoft Edge  <br/> |Hiermee worden instellingen in Edge ingeschakeld die gebruikers helpen beschermen tegen schadelijke websites en downloads.  <br/> |
 |Gebruik regels die de kwetsbaarheid voor aanvallen van apparaten verminderen  <br/> |Wanneer deze optie is ingeschakeld, kunnen hiermee acties en apps worden geblokkeerd die doorgaans door malware worden gebruikt om apparaten te infecteren. Deze instelling is alleen beschikbaar als Windows Defender Antivirus is ingesteld op Aan. Zie [Kwetsbaarheid voor aanvallen verminderen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/exploit-protection) voor meer informatie.  <br/> |
-|Mappen beschermen tegen bedreigingen, zoals ransomware  <br/> |Deze instelling maakt gebruik van gecontroleerde mappentoegang om bedrijfsgegevens te beschermen tegen wijzigingen die worden aangebracht door verdachte of kwaadaardige apps, zoals ransomware. Deze typen apps worden geblokkeerd zodat er geen wijzigingen in beveiligde mappen kunnen worden aangebracht. Deze instelling is alleen beschikbaar als Windows Defender Antivirus is ingesteld op Aan. Zie [Mappen beveiligen met beheerde maptoegang](https://docs.microsoft.com/configmgr/protect/deploy-use/create-deploy-exploit-guard-policy#bkmk_CFA) voor meer informatie.  <br/> |
+|Mappen beschermen tegen bedreigingen, zoals ransomware  <br/> |Deze instelling maakt gebruik van gecontroleerde mappentoegang om bedrijfsgegevens te beschermen tegen wijzigingen die worden aangebracht door verdachte of kwaadaardige apps, zoals ransomware. Deze typen apps worden geblokkeerd zodat er geen wijzigingen in beveiligde mappen kunnen worden aangebracht. Deze instelling is alleen beschikbaar als Windows Defender Antivirus is ingesteld op Aan. Zie [Mappen beveiligen met beheerde maptoegang](https://docs.microsoft.com/mem/configmgr/protect/deploy-use/create-deploy-exploit-guard-policy#bkmk_CFA) voor meer informatie.  <br/> |
 |Netwerktoegang tot mogelijke schadelijke inhoud op internet voorkomen  <br/> |Gebruik deze instelling om uitgaande gebruikersverbindingen te blokkeren met internetlocaties met een lage reputatie die phishing- of exploits of andere schadelijke inhoud kunnen hosten. Deze instelling is alleen beschikbaar als Windows Defender Antivirus is ingesteld **op Aan**. Zie [Uw netwerk beveiligen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-real-time-protection-windows-defender-antivirus)voor meer informatie.  <br/> |
 |Bestanden en mappen op pc's beschermen tegen onbevoegde toegang met BitLocker  <br/> |Bitlocker beschermt gegevens door de harde schijven van de computer te versleutelen en te beschermen tegen blootstelling van gegevens als een computer zoekraakt of wordt gestolen. Zie [Veelgestelde vragen over Bitlocker](https://go.microsoft.com/fwlink/?linkid=871000)voor meer informatie.  <br/> |
 |Gebruikers toestaan om apps te downloaden vanuit de Microsoft Store  <br/> |Hiermee kunnen gebruikers apps downloaden en installeren vanuit de Microsoft Store. Omdat apps kunnen variëren van spelletjes tot productiviteitsprogramma's, laten we deze instelling **ingeschakeld**, maar u kunt de instelling uitschakelen voor extra beveiliging.  <br/> |

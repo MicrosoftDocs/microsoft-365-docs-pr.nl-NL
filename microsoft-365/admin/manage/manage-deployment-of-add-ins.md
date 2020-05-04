@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Leer om invoegingen te implementeren voor gebruikers en groepen in uw organisatie met behulp van gecentraliseerde implementatie in het beheercentrum.
-ms.openlocfilehash: 440cb55f318ac2aa43af5a24fa8ca80753aa03ac
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 30f2c08aa895f63ed529b4390d208e3daa9d6d7b
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628158"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011709"
 ---
 # <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Implementatie van invoegingen beheren in het Microsoft 365-beheercentrum
 
@@ -211,8 +211,8 @@ Als u wilt dat uw school of organisatie voldoet aan de AVG-vereisten voor minder
 |||
 |:-----|:-----|
 |**Platform** <br/> |**Buildnummer** <br/> |
-|Office 2016 ProPlus maandelijks voor Windows  <br/> |9001.2138   <br/> |
-|Office 2016 ProPlus halfjaarlijks  <br/> |8431.2159  <br/> |
+|Microsoft 365 Apps for enterprise (maandelijks kanaal)  <br/> |9001.2138   <br/> |
+|Microsoft 365 Apps for enterprise (semi-jaarlijks kanaal)  <br/> |8431.2159  <br/> |
 |Office 2016 voor Windows  <br/> |16.0.4672.1000  <br/> |
 |Office 2013 voor Windows  <br/> |15.0.5023.1000  <br/> |
 |Office 2016 voor Mac  <br/> |16.11.18020200  <br/> |

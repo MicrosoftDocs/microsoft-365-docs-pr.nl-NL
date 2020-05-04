@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f1c616a3d752324b8db5fdd5069904989a25eade
-ms.sourcegitcommit: b57d597edbff5ab6cff8c2b04d27c15b0024776f
+ms.openlocfilehash: 0bb91f226a29fe6b175cf1ca4866316d1457291e
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997512"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011861"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection inschakelen
 
@@ -36,7 +36,7 @@ Microsoft Threat Protection maakt een oplossing voor incidentrespons door de int
 Om de beste bescherming te krijgen en Microsoft Threat Protection te optimaliseren, raden we u aan alle toepasselijke ondersteunde services in uw netwerk te implementeren. Lees voor meer informatie [over het implementeren van ondersteunde services](deploy-supported-services.md).
 
 ## <a name="check-license-eligibility-and-required-permissions"></a>Controleer de geschiktheid van de licentie en vereiste machtigingen
-Een Microsoft 365 E5-, E5 Security-, A5- of A5-beveiligingslicentie of een geldige combinatie van licenties biedt toegang tot ondersteunde services en geeft u het recht om Microsoft Threat Protection te gebruiken in het Microsoft 365-beveiligingscentrum.
+Een Microsoft 365 E5-, E5 Security-, A5- of A5-beveiligingslicentie of een geldige combinatie van licenties biedt toegang tot ondersteunde services en geeft u het recht om Microsoft Threat Protection te gebruiken in het Microsoft 365-beveiligingscentrum zonder extra licentiekosten.
 
 Lees voor gedetailleerde licentie-informatie [de licentievereisten.](prerequisites.md#licensing-requirements)
 
@@ -44,22 +44,28 @@ Lees voor gedetailleerde licentie-informatie [de licentievereisten.](prerequisit
 U moet een **globale beheerder** of **beveiligingsbeheerder** in Azure Active Directory zijn om Microsoft Threat Protection in te schakelen. [Uw rollen weergeven in Azure AD](https://docs.microsoft.com//azure/active-directory/users-groups-roles/directory-manage-roles-portal)
 
 ## <a name="start-using-the-service"></a>De service gaan gebruiken
-Microsoft Threat Protection verzamelt gegevens van de verschillende geïntegreerde services. Het zal gegevens centraal verwerken en opslaan om nieuwe inzichten te identificeren en gecentraliseerde responsworkflows mogelijk te maken.
+
+>[!IMPORTANT]
+>Vanaf 3 mei 2020 zal Microsoft geleidelijk nieuwe, geoptimaliseerde ervaringen rond [licentievereisten](prerequisites.md#licensing-requirements) uitrollen en Microsoft Threat Protection inschakelen. Gedurende enkele weken tijdens deze periode zullen sommige klanten wijzigingen in hun portalervaringen gaan zien. Informatie over de nieuwe ervaringen zijn gemarkeerd **Nieuwe ervaring** in dit artikel.
+
+Microsoft Threat Protection verzamelt gegevens van de verschillende geïntegreerde services. Het zal gegevens centraal verwerken en opslaan om nieuwe inzichten te identificeren en gecentraliseerde responsworkflows mogelijk te maken. Het doet dit zonder dat dit gevolgen heeft voor bestaande implementaties, instellingen of gegevens die zijn gekoppeld aan de geïntegreerde services.
 
 Voordat u de service inschakelt, wordt in het Microsoft 365-beveiligingscentrum[(security.microsoft.com](https://security.microsoft.com)) de welkomstpagina van Microsoft Threat Protection weergegeven wanneer u **Incidenten,** **actiecentrum**of **Jagen** selecteert in het navigatiedeelvenster. Deze navigatieopties worden niet weergegeven als u niet in aanmerking komt voor microsoft-beveiligingsbeveiliging.
 
 ![Afbeelding van de welkomstpagina van Microsoft Threat Protection die](../../media/mtp-welcome.png)
 wordt weergegeven als Microsoft Threat Protection niet is ingeschakeld op*de welkomstpagina van Microsoft Threat Protection in het Microsoft 365-beveiligingscentrum*
 
-Als u Microsoft Threat Protection wilt inschakelen, voltooit u het proces vanaf de welkomstpagina. U Microsoft Threat Protection ook inschakelen door **instellingen** [(security.microsoft.com/settings)](https://security.microsoft.com/settings)in het navigatiedeelvenster te openen en **Microsoft Threat Protection te selecteren.** Klik op **Opslaan**.
+Als u Microsoft Threat Protection wilt inschakelen, voltooit u het proces vanaf de welkomstpagina. U Microsoft Threat Protection ook inschakelen door **instellingen** [(security.microsoft.com/settings)](https://security.microsoft.com/settings)in het navigatiedeelvenster te openen en **Microsoft Threat Protection te selecteren.**
 
 >[!NOTE]
->Als u **instellingen** niet ziet in het navigatiedeelvenster of geen toegang hebt tot de pagina, controleert u uw machtigingen en licenties.
+>Als u **instellingen** niet ziet in het navigatiedeelvenster of geen toegang hebt tot de pagina, controleert u uw machtigingen en licenties.       
 
 ### <a name="select-data-center-location"></a>Locatie van het datacenter selecteren
 Als Microsoft Defender ATP is ingericht voor uw organisatie, worden gegevens opgeslagen en verwerkt op dezelfde datacenterlocatie die u hebt geselecteerd voor [uw ATP-gegevens](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)van Microsoft Defender. Als u geen Microsoft Defender ATP hebt, wordt u gevraagd om een nieuwe datacenterlocatie te kiezen die specifiek voor Microsoft Threat Protection is bedoeld. 
-
+ 
 U moet toestemming geven voordat gegevens worden gedeeld tussen services en worden samengevoegd.
+
+**Nieuwe ervaring:** Vanaf 3 mei 2020 krijgen klanten geleidelijk wijzigingen in deze ervaring. Voor degenen met de nieuwe ervaring selecteert de service automatisch de optimale datacenterlocatie voor uw geaggregeerde gegevens op basis van uw bestaande Microsoft 365-beveiligingsservices. De geselecteerde locatie van het datacenter wordt weergegeven in het scherm.
 
 ### <a name="confirm-that-the-service-is-on"></a>Controleren of de service is ingeschakeld
 Zodra de service is ingericht, voegt het toe:

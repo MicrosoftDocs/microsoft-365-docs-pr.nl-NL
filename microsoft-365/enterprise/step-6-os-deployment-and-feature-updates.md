@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Meer informatie over de opties voor de implementatie van een besturingssysteem en functie-updates.
-ms.openlocfilehash: d22a0993b256a1bea1a6a5ac61f14b144c6ac6c7
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f372c41b113286d4ecff679f16581200264a9bdd
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636757"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011625"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>Stap 6: Implementatie van besturingssysteem en functie-updates
 
@@ -57,7 +57,7 @@ De vastgelegde installatiekopie heeft het Windows-installatiekopieformaat (of WI
 
 [Een referentie-image voor Windows 10 maken](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/create-a-windows-10-reference-image)
 
-[Een takenreeks maken om een besturingssysteem te installeren](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
+[Een takenreeks maken om een besturingssysteem te installeren](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
 ### <a name="deployment-types"></a>Implementatietypen
 
@@ -89,7 +89,7 @@ Het in-place upgradescenario kan worden gebruikt om te migreren naar Windows 10 
 
 [Een in-place upgrade uitvoeren naar Windows 10 met Configuration Manager](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-system-center-configuraton-manager)
 
-[Een taakreeks maken voor het upgraden van een besturingssysteem in Configuration Manager](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+[Een taakreeks maken voor het upgraden van een besturingssysteem in Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 
 ### <a name="phased-deployment"></a>Gefaseerde implementatie
 
@@ -101,7 +101,7 @@ Tijdens het plannen van de implementatie richt u zich op bare metal-, vernieuwin
 
 Ongeacht het implementatietype dat u kiest, moet u ervoor zorgen dat dit zo geautomatiseerd mogelijk is ten behoeve van de voorspelbaarheid en herhaalbaarheid. Microsoft biedt twee oplossingen voor het automatiseren van de implementatie van het besturingssysteem met behulp van geautomatiseerde takenreeksen:
 
-  - **[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/core/understand/introduction)** (ConfigMgr) biedt ingebouwde implementatiemogelijkheden voor besturingssystemen waarmee de mogelijkheden voor softwaredistributie en software-updatebeheer worden aangevuld. ConfigMgr wordt veel gebruikt door organisaties van elke omvang en biedt ondersteuning voor alle vier de Windows-implementatietypen. U kunt ConfigMgr daarnaast ook integreren met Microsoft Intune om extra mogelijkheden voor implementatie en apparaatbeheer toe te voegen.
+  - **[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/understand/introduction)** (ConfigMgr) biedt ingebouwde implementatiemogelijkheden voor besturingssystemen waarmee de mogelijkheden voor softwaredistributie en software-updatebeheer worden aangevuld. ConfigMgr wordt veel gebruikt door organisaties van elke omvang en biedt ondersteuning voor alle vier de Windows-implementatietypen. U kunt ConfigMgr daarnaast ook integreren met Microsoft Intune om extra mogelijkheden voor implementatie en apparaatbeheer toe te voegen.
 
   - Een andere populaire implementatieoptie is de gratis **[Microsoft Deployment Toolkit](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/get-started-with-the-microsoft-deployment-toolkit)** (MDT), die meestal door kleine en middelgrote organisaties wordt gebruikt voor de implementatie van het besturingssysteem. Hiervoor is zeer weinig infrastructuur vereist. MDT wordt geïntegreerd met Windows Deployment Services (WDS) voor het opstarten van het netwerk. Hiermee worden alle vier de implementatietypen ondersteund, alsook de installatie van toepassingen, sturingsprogramma's en instellingen. En uiteraard kan MDT worden geïntegreerd met Configuration Manager.
 

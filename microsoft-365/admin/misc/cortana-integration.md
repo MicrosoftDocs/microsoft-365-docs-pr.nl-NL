@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 'Meer informatie over het gebruik van Cortana wanneer het is geïntegreerd met Office 365. U Cortana uitschakelen in het beheercentrum om de toegang tot de gegevens van uw organisatie te beperken. '
-ms.openlocfilehash: 768abeed4bf40255e9dd7c6e09e20122523a943d
-ms.sourcegitcommit: c758a4290d205394225a0df2fd667cb565c79c8f
+ms.openlocfilehash: 5f1d225e8cf7378bf4548fbbc705cf4ca6c2c63b
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43907211"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011685"
 ---
 # <a name="cortana-in-office-365"></a>Cortana in Office 365
 
@@ -106,7 +106,7 @@ Dit zijn de twee manieren om na te denken over hoe Cortana werkt in uw ondernemi
 
 3. Als voorbeeld is Play My Emails een Cortana-service waarmee uw gebruikers verbinding kunnen maken via Outlook voor iOS en cortana in Office 365 gebruikt.
 
-4. Beheerders hebben altijd besturingselementen voor optionele verbonden ervaringen voor Cortana, vergelijkbaar met optionele verbonden ervaringen tijdens het gebruik van Office ProPlus-toepassingen.
+4. Beheerders hebben altijd besturingselementen voor optionele verbonden ervaringen voor Cortana, vergelijkbaar met optionele verbonden ervaringen tijdens het gebruik van Microsoft 365 Apps voor bedrijfstoepassingen.
 
 **Bestaande services voor consumenten**: Cortana optionele connected services zijn voornamelijk ontworpen voor consumentenervaringen en worden momenteel geleverd in Windows 10 (versie 1909 en eerder) en de Cortana-app op iOS en Android.
 

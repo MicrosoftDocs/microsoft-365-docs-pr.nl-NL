@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Meer informatie over het gebruik van de OptieSelfServicePurchase PowerShell-cmdlet om selfservice-aankopen in- of uit te schakelen.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0e9f9e3ee87f62b903e4bf7069f31319253de62d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 6c0bcec70eab4266674ca2a22f1b2054807a26e8
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42805716"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011673"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module
 
@@ -139,7 +139,7 @@ Dit kan te wijten zijn aan een oudere versie van Transport Layer Security (TLS).
 
 **Oplossing**
 
-Upgrade naar TLS 1.2:[https://docs.microsoft.com/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/configmgr/core/plan-design/security/enable-tls-1-2)
+Upgrade naar TLS 1.2:[https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2)
 
 <!--
 ## Uninstall the MSCommerce module

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ontdek hoe Contoso Microsoft Endpoint Configuration Manager gebruikt om Microsoft 365-apps voor ondernemingen te implementeren.
-ms.openlocfilehash: eca3978103ca1e590d747b3549a3c9e393f871ca
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2ff05a079d83389ed94445fc011b9f7902c6de56
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625252"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011885"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Implementatie van Microsoft 365-apps voor ondernemingen voor Contoso
 
@@ -40,7 +40,7 @@ Contoso koos voor de implementatie van Windows 10 Enterprise en Microsoft 365-ap
 - Intelligent implementeren van het taalpakket, met inbegrip van de automatische implementatie van dezelfde taal als het besturingssysteem
 - Volledig ondersteund en gebruiksvriendelijke methode voor het verwijderen van bestaande versies van Office van een client tijdens de implementatie
 
-Naast Configuration Manager gebruikte Contoso de [Readiness Toolkit](https://docs.microsoft.com/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro), een gratis hulpprogramma van Microsoft, voor het evalueren van compatibiliteitsproblemen met de macro's en invoegtoepassingen van Office.
+Naast Configuration Manager gebruikte Contoso de [Readiness Toolkit](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps), een gratis hulpprogramma van Microsoft, voor het evalueren van compatibiliteitsproblemen met de macro's en invoegtoepassingen van Office.
 
 ## <a name="managing-the-deployment-and-updates"></a>De implementatie en updates beheren
 
@@ -51,7 +51,7 @@ Microsoft 365-apps voor ondernemingen heeft een nieuw releasemodel: Office-als-e
 
 In plaats van updates voor Office met Configuration Manager te beheren, heeft Contoso automatische updates vanuit de cloud ingeschakeld. Dankzij updates op basis van de cloud kon de administratieve overhead worden gereduceerd en bleven tegelijkertijd alle apparaten up-to-date. 
 
-Contoso heeft dezelfde twee fasen gevolgd voor functie-updates als voor de implementatie van Office: apparaten in de pilotgroep ontvingen de functie-updates van vier maanden eerder dan de apparaten in de rest van de organisatie (de brede groep). Om dit in te schakelen voor Office, heeft Contoso twee aanbevolen [updatekanalen](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) gebruikt: 
+Contoso heeft dezelfde twee fasen gevolgd voor functie-updates als voor de implementatie van Office: apparaten in de pilotgroep ontvingen de functie-updates van vier maanden eerder dan de apparaten in de rest van de organisatie (de brede groep). Om dit in te schakelen voor Office, heeft Contoso twee aanbevolen [updatekanalen](https://docs.microsoft.com/DeployOffice/overview-update-channels) gebruikt: 
 
 - Semi-Annual-kanaal (Targeted) voor updates voor de pilotgroep 
 - Semi-Annual-kanaal voor updates voor de brede groep. 

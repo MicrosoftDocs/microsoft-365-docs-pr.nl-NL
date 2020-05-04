@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 86bec329c5e0793be070df311d6058282e7be854
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0df3f6d2636a277bdca12e7d76279c4c58c9f1d4
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636218"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011909"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Wat is Microsoft Managed Desktop?
 
@@ -53,7 +53,7 @@ Uw IT-beheerders profiteren van deze functies:
 Microsoft Managed Desktop neemt de last op zich van het beheer van geregistreerde apparaten en de Microsoft-software die ze gebruiken.
 
 - **Hardware:** In plaats van dat uw IT-afdeling apparaten (en hun stuurprogramma's) moet onderzoeken en testen, worden specifieke apparaten zorgvuldig getest door Microsoft Managed Desktop, wat resulteert in een samengestelde [lijst met apparaten](../service-description/device-list.md) die voldoen aan prestatievereisten op bedrijfsniveau en gegarandeerd met de service werken. U apparaten zelf verkrijgen (of met een partner werken) of apparaten die u al hebt, opnieuw gebruiken, mits ze op de goedgekeurde lijst staan. Het registreren van apparaten is eenvoudig en eenvoudig en voordat ze worden geïmplementeerd, u ook bepaalde aspecten van de apparaatervaring [aanpassen](../working-with-managed-desktop/config-setting-overview.md) voor uw eindgebruikers.
-- **Updates:** Microsoft Managed Desktop stelt alle aspecten van [implementatiegroepen](../service-description/updates.md) in voor windows 10-kwaliteits- en functie-updates, stuurprogramma's, firmware, anti-virusdefinities en Office ProPlus-updates. Dit omvat uitgebreide tests en verificatie van alle updates, ervoor te zorgen dat geregistreerde apparaten altijd up-to-date zijn en onderbrekingen tot een minimum beperken, waardoor uw IT-afdeling wordt bevrijd van die lopende taak.
+- **Updates:** Microsoft Managed Desktop stelt alle aspecten van [implementatiegroepen](../service-description/updates.md) in voor windows 10-kwaliteits- en functie-updates, stuurprogramma's, firmware, anti-virusdefinities en Microsoft 365-apps voor bedrijfsupdates. Dit omvat uitgebreide tests en verificatie van alle updates, ervoor te zorgen dat geregistreerde apparaten altijd up-to-date zijn en onderbrekingen tot een minimum beperken, waardoor uw IT-afdeling wordt bevrijd van die lopende taak.
 - **Apps:** Als onderdeel van Microsoft 365 Enterprise biedt En beheert Microsoft verschillende belangrijke Microsoft-apps voor u. Maar je hebt waarschijnlijk ook andere apps die je nodig hebt voor je bedrijf. In plaats van dat uw IT-afdeling deze apps moet testen, verpakken en implementeren, helpt Microsoft u ze te implementeren en kan u helpen met [Desktop App Assure](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure) indien nodig. Meer informatie bij [Apps in Microsoft Managed Desktop](../get-ready/apps.md).
 
 
@@ -74,7 +74,7 @@ Als Microsoft Managed Desktop geschikt lijkt voor uw organisatie, u zich verdiep
 - [Rollen en verantwoordelijkheden van Microsoft Managed Desktop](roles-and-responsibilities.md)
 - [Microsoft Managed Desktop-technologieën](technologies.md)
 - [Microsoft Managed Desktop en ITIL](../MMD-and-ITSM.md)
-- [Compliance](compliance.md)
+- [Naleving](compliance.md)
 - [Servicebeschrijving van Microsoft Managed Desktop](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/)
 
 **Maak je klaar voor inschrijving** In deze onderwerpen worden de stappen beschreven die u in uw organisatie moet nemen om u voor te bereiden op inschrijving, waaronder het controleren of uw omgeving voldoet aan belangrijke vereisten, het configureren van netwerken, het instellen van certificaten en het voorbereiden van uw apps.

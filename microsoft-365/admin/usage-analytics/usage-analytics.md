@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Krijg een overzicht van hoe uw organisatie Microsoft 365-services gebruikt om te communiceren en samen te werken.
-ms.openlocfilehash: 783b2c599a5f3a31446855450029859e6dfd9f65
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3e74160cc2e30dc9337e0203fd82ced98869faf7
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626932"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011757"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 Gebruiksanalyse
 ---
@@ -71,7 +71,7 @@ Het overzichtsrapport van Microsoft 365 bevat de volgende rapporten. U ze bekijk
 
 De activerings- en licentiepagina biedt rapporten over microsoft 365-activering; dat wil zeggen, hoeveel gebruikers Office-apps hebben gedownload en geactiveerd en hoeveel licenties zijn toegewezen door uw organisatie. De maandwaarde naar de top verwijst naar de huidige maand en de statistieken geven waarden weer die zijn samengevoegd vanaf het begin van de maand tot de huidige datum.
 
-- **Activeringstrackserviceplan** &ndash; (bijvoorbeeld Microsoft 365 ProPlus, Project en Visio) activeringen in uw organisatie. Elke persoon met een Office-licentie kan producten installeren op maximaal vijf apparaten. U in deze sectie ook rapporten gebruiken om te zien op welke apparaten mensen Office-apps hebben geïnstalleerd. Om een abonnement te activeren, moet een gebruiker de app installeren en zich aanmelden met zijn/haar account.
+- **Activeringstrackserviceplan** &ndash; (bijvoorbeeld Microsoft 365 Apps voor bedrijven, Project en Visio) activeringen in uw organisatie. Elke persoon met een Office-licentie kan producten installeren op maximaal vijf apparaten. U in deze sectie ook rapporten gebruiken om te zien op welke apparaten mensen Office-apps hebben geïnstalleerd. Om een abonnement te activeren, moet een gebruiker de app installeren en zich aanmelden met zijn/haar account.
 
 - **Licenties** &ndash; Dit rapport bevat een overzicht van licentietypen, het aantal gebruikers aan wie elk licentietype is toegewezen en de distributie van licentietoewijzing voor elke maand. De maandwaarde naar de top verwijst naar de huidige maand en de statistieken geven waarden weer die zijn samengevoegd vanaf het begin van de maand tot de huidige datum.
 

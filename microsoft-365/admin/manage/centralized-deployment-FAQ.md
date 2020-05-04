@@ -1,5 +1,5 @@
 ---
-title: Veelgestelde vragen over gecentraliseerde implementatie
+title: Veelgestelde vragen over Gecentraliseerde implementatie
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -18,20 +18,20 @@ search.appverid:
 - MET150
 - MOE150
 description: Bekijk de antwoorden op veelgestelde vragen over gecentraliseerde implementatie vanuit het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 39df2ec5a1671f800572bc845581bdbe2716d209
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: c389ab07136b8a6e625db9ecfeff514a6899cd7d
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209662"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011733"
 ---
-# <a name="centralized-deployment-faq"></a>Veelgestelde vragen over gecentraliseerde implementatie
+# <a name="centralized-deployment-faq"></a>Veelgestelde vragen over Gecentraliseerde implementatie
 
 Gecentraliseerde implementatie is de aanbevolen manier voor een Office 365-beheerder om Office-invoegtoepassing (Word, Excel, PowerPoint en Outlook) te implementeren voor gebruikers en groepen binnen een organisatie, op voorwaarde dat de organisatie voldoet aan alle vereisten voor het gebruik van gecentraliseerde implementatie zoals beschreven in dit artikel.   
   
 ## <a name="how-do-i-know-if-my-organization-is-set-up-for-centralized-deployment"></a>Hoe weet ik of mijn organisatie is ingesteld voor gecentraliseerde implementatie?  
 
-Voor een gecentraliseerde implementatie van invoegingen moeten gebruikers Office 365 ProPlus gebruiken (en zijn aangemeld bij Office met hun inloggegevens voor de organisatie) en exchange online-postvakken hebben. Uw abonnementsmap moet zich in Azure Active Directory bevinden of worden gefedereerd.  
+Voor een gecentraliseerde implementatie van invoegtoepassingmoet worden vereist dat gebruikers Microsoft 365 Apps voor ondernemingen gebruiken (en zijn aangemeld bij Office met behulp van hun inloggegevens voor de organisatie) en dat ze Exchange Online-postvakken hebben. Uw abonnementsmap moet zich in Azure Active Directory bevinden of worden gefedereerd.  
  
 Gecentraliseerde implementatie wordt alleen ondersteund voor online postvakken. Het ondersteunt geen implementatie naar on-premises Exchange-postvakken.
  

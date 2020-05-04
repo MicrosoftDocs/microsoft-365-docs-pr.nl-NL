@@ -14,12 +14,12 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-ms.openlocfilehash: 53b5bc1bad9a67543fccaa8dcb3223307d2634b9
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 8b792fa659866682df32130992340d9089aebfe7
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002738"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011849"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Illustraties voor Microsoft 365-productiviteit
 
@@ -124,12 +124,12 @@ Zie voor meer informatie het artikel voor deze poster: [Microsoft Telephony Solu
 <a name="msd"></a>
 ### <a name="deploy-a-modern-and-secure-desktop-with-microsoft"></a>Een moderne en beveiligde desktop implementeren met Microsoft
 
-Wat IT-architecten moeten weten over het implementeren en beheren van updates voor Office 365 ProPlus op Windows 10.
+Wat IT-architecten moeten weten over het implementeren en beheren van updates voor Microsoft 365 Apps for enterprise (voorheen Office 365 ProPlus genoemd) op Windows 10.
   
 
 |**Item**|**Beschrijving**|
 |:-----|:-----|
-|[![Miniatuur voor het implementeren van een moderne en veilige desktop met Microsoft-model](../media/solutions-architecture-center/deploy-modern-desktop-thumb.png)](https://www.microsoft.com/download/details.aspx?id=55987) <br/> [PDF](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.pdf)  \| [Visio](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.vsdx) <br/>Bijgewerkt in september 2017 | Dit model bevat: <ul><li>  Windows 10 en Office ProPlus implementeren vanuit de Microsoft-cloud </li><li>  Windows 10 en Office ProPlus implementeren met Microsoft Endpoint Configuration Manager </li><li>  Updates voor Windows 10 en Office ProPlus beheren vanuit de Microsoft-cloud </li><li>  Updates voor Windows 10 en Office ProPlus beheren met Microsoft Endpoint Configuration Manager </li><li>  Out-of-the-box en extra beveiligingsmogelijkheden van Windows 10 </li></ul><br/> |
+|[![Miniatuur voor het implementeren van een moderne en veilige desktop met Microsoft-model](../media/solutions-architecture-center/deploy-modern-desktop-thumb.png)](https://www.microsoft.com/download/details.aspx?id=55987) <br/> [PDF](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.pdf)  \| [Visio](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.vsdx) <br/>Bijgewerkt in september 2017 | Dit model bevat: <ul><li>  Windows 10- en Microsoft 365-apps voor bedrijven implementeren vanuit de Microsoft-cloud </li><li>  Windows 10- en Microsoft 365-apps voor bedrijven implementeren met Microsoft Endpoint Configuration Manager </li><li>  Updates voor Windows 10 en Microsoft 365 Apps voor bedrijven beheren vanuit de Microsoft-cloud </li><li>  Updates voor Windows 10- en Microsoft 365-apps voor bedrijven beheren met Microsoft Endpoint Configuration Manager </li><li>  Out-of-the-box en extra beveiligingsmogelijkheden van Windows 10 </li></ul><br/> |
    
 ## <a name="see-also"></a>Zie ook
 

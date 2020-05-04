@@ -1,5 +1,5 @@
 ---
-title: Nieuwe functies weergeven of verbergen met Wat is nieuw beheer
+title: Nieuwe functies weergeven of verbergen met Beheer van nieuwe functies
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -18,14 +18,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Bepaal welke functies en hun nieuwe inhoud wordt weergegeven aan of verborgen voor eindgebruikers in office wat is nieuw beheer voor Office-bureaublad-apps.
-ms.openlocfilehash: de4191529c58dd471c6f24e86bdff2177a38b51d
-ms.sourcegitcommit: 256184cf731c1851b04a07dd7d59ecf020d02635
+ms.openlocfilehash: 7399da493f8e6878a92dc13d92482d7ddece0ba3
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131970"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011697"
 ---
-# <a name="show-or-hide-new-features-using-whats-new-management"></a>Nieuwe functies weergeven of verbergen met Wat is nieuw beheer
+# <a name="show-or-hide-new-features-using-whats-new-management"></a>Nieuwe functies weergeven of verbergen met Beheer van nieuwe functies
 
 Met Office What's New Management for Win 32 kan uw organisatie bepalen welke functies worden weergegeven of verborgen voor eindgebruikers in de Office-bureaublad-app. Elke release van Office bevat nieuwe en verbeterde functies en met de inhoudspreview u nieuwe inhoud voor elke releaseversie en -kanaal bekijken en kiezen of u Nieuwe inhoud voor elke functie wilt verbergen of weergeven aan eindgebruikers. 
 
@@ -62,7 +62,7 @@ Er worden nieuwe functies weergegeven in Office Wat is nieuw beheer op basis van
 |**Halfjaarlijks (Gericht)** <br/> |1 september en 1 maart <br/> | 2 weken voor de grote release die nieuwe functies brengt
 |**Halfjaarlijks** <br/> |1 januari en 1 juli <br/> | 2 weken voor de grote release die nieuwe functies brengt<br/> |
 
-Zie [Updategeschiedenis voor Office 365 ProPlus (vermeld op datum) voor](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)meer informatie over schema's voor kanaalupdates.
+Zie [Updategeschiedenis voor Microsoft 365-apps (vermeld op datum) voor](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)meer informatie over programma's voor kanaalupdates.
 
 ## <a name="related-articles"></a>Verwante artikelen
 

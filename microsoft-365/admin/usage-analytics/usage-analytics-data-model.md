@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: 'Ontdek hoe gebruiksanalyses verbinding maken met een API en biedt een maandelijkse trend van het gebruik van verschillende Microsoft 365-services.  '
-ms.openlocfilehash: 56ef0ffcedee71a4529ff31aecefed0d2645b89a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2c39edd66bda19233a67c4623044ffc9e0e8046d
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634238"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011769"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Microsoft 365 Gegevensmodel gebruiksanalyse
 
@@ -50,7 +50,7 @@ Deze API biedt informatie over de maandelijkse trend van het gebruik van de vers
 |Tenant SharePoint Online Usage  <br/> |Bevat gegevens over de SharePoint-team- en groepssites, zoals totaalaantal sites, aantal documenten per site, aantal bestanden per activiteitstype en gebruikte opslagruimte.  <br/> |Bevat gegevens over de situatie aan het einde van de maand voor een rollende periode van 12 maanden inclusief de huidige gedeeltelijke maand.  <br/> |
 |Tenant OneDrive for Business Usage  <br/> |Bevat gegevens over de OneDrive-accounts, zoals het aantal accounts, aantal documenten in de OneDrive-accounts, de gebruikte opslagruimte en aantal bestanden per activiteitstype.  <br/> |Bevat gegevens over de situatie aan het einde van de maand voor een rollende periode van 12 maanden inclusief de huidige gedeeltelijke maand.  <br/> |
 |Gebruik microsoft 365-groepen tenant  <br/> |Bevat gegevens over het gebruik van Microsoft 365-groepen, waaronder Postvak, SharePoint en Yammer.  <br/> |Bevat gegevens over de situatie aan het einde van de maand voor een rollende periode van 12 maanden inclusief de huidige gedeeltelijke maand.  <br/> |
-|Tenant Office Activation  <br/> |Bevat gegevens over het aantal activeringen van Office-abonnementen, het aantal activeringen per apparaat (Android/iOS/Mac/pc), en het aantal activeringen per serviceplan, bijvoorbeeld Office Proplus, Visio en Project.  <br/> |Bevat gegevens over de situatie aan het einde van de maand voor een rollende periode van 12 maanden inclusief de huidige gedeeltelijke maand.  <br/> |
+|Tenant Office Activation  <br/> |Bevat gegevens over het aantal activeringen van Office-abonnementen, het aantal activeringen per apparaat (Android/iOS/Mac/PC), activeringen per serviceplan, bijvoorbeeld Microsoft 365 Apps voor bedrijven, Visio, Project.  <br/> |Bevat gegevens over de situatie aan het einde van de maand voor een rollende periode van 12 maanden inclusief de huidige gedeeltelijke maand.  <br/> |
 |User State  <br/> |Bevat metagegevens over gebruikers, waaronder de weergavenaam van de gebruiker, producten die zijn toegewezen, locatie, afdeling, functie en bedrijf. Deze gegevens betreffen gebruikers aan wie in de afgelopen volledige maand een licentie is toegewezen. Elke gebruiker wordt uniek vertegenwoordigd door een gebruikers-id.  <br/> |Deze gegevens betreffen gebruikers aan wie in de afgelopen volledige maand een licentie is toegewezen.  <br/> |
 |User Activity  <br/> |Bevat informatie op gebruikersniveau over activiteiten die zijn uitgevoerd door gebruikers met een licentie.  <br/> Zie [definitie actieve gebruikers](active-user-in-usage-reports.md) voor informatie over de activiteiten binnen een product die in deze gegevenstabel worden weergegeven.  <br/> |Deze gegevens betreffen gebruikers die een activiteit hebben uitgevoerd in een van de services in de afgelopen volledige maand.  <br/> |
    
@@ -152,7 +152,7 @@ Deze tabel biedt maand na maand adoptiegegevens in termen van enable, actieve, t
 |Actievegebruikers  <br/> |Het aantal gebruikers dat een opzettelijke activiteit heeft uitgevoerd in het product voor de bij Timeframe vermelde waarde.  <br/> Gebruikers worden geteld als actief voor een product in een bepaalde maand als ze een van de hoofdactiviteiten hebben uitgevoerd in het product. De hoofdactiviteiten zijn te vinden in de tabel **Tenant Product Activity**.  <br/> |
 |Cumulatieve Actievegebruikers  <br/> |Het aantal gebruikers dat is ingeschakeld voor het gebruik van een product, en dat het product ten minste eenmaal heeft gebruikt in de bij Timeframe vermelde maand sinds de start van de gegevensverzameling in het nieuwe gebruikssysteem.  <br/> |
 |MomReturningUsers  <br/> |Het aantal gebruikers dat actief was in de bij Timeframe vermelde waarde en in de maand daarvoor.  <br/> |
-|FirstTimeUsers FirstTimeUsers  <br/> |Het aantal gebruikers dat voor het eerst actief werd in de bij Timeframe vermelde waarde sinds de gegevensverzameling in het nieuwe gebruikssysteem.  <br/> Gebruikers worden geteld als nieuwe gebruikers in een bepaalde maand, als hun activiteit voor het eerst wordt gedetecteerd sinds de start van de gegevensverzameling met dit nieuwe rapportagesysteem. Zodra ze zijn geteld als nieuwe gebruiker, worden ze daarna nooit meer als nieuwe gebruiker geteld, ook niet na een lange onderbreking tussen activiteiten.  <br/> |
+|FirstTimeUsers FirstTimeUsers  <br/> |Het aantal gebruikers dat voor het eerst actief werd in de bij Timeframe vermelde waarde sinds de gegevensverzameling in het nieuwe gebruikssysteem.  <br/> Gebruikers worden geteld als nieuwe gebruikers in een bepaalde maand, als hun activiteit voor het eerst wordt gedetecteerd sinds de start van de gegevensverzameling met dit nieuwe rapportagesysteem. Eenmaal geteld als een eerste keer gebruiker, zelfs als deze gebruiker heeft een groot gat in hun activiteit zullen ze nooit meer worden geteld als een eerste keer gebruiker  <br/> |
 |Content date  <br/> |Als het veld Timeframe de huidige maand bevat, geeft deze waarde de laatste datum in de huidige maand aan waarvoor gegevens beschikbaar zijn.  <br/> Als het veld Timeframe de vorige maand bevat, geeft deze waarde de laatste datum van die maand aan.  <br/> |
    
 ### <a name="data-table---tenant-product-activity"></a>Gegevenstabel - Tenant Product Activity
@@ -277,7 +277,7 @@ In deze tabel vindt u gegevens over hoe Microsoft 365-groepen in de hele organis
    
 ### <a name="data-table---tenant-office-activation"></a>Gegevenstabel - Tenant Office Activation
 
-Deze tabel bevat gegevens over het aantal activeringen van Office-abonnementen binnen de serviceplannen, bijvoorbeeld Office Proplus, Visio en Project. De tabel bevat ook gegevens over het aantal activeringen per apparaat (Android/iOS/Mac/pc).
+De tabel bevat gegevens over het aantal activeringen van Office-abonnementen in de serviceplannen, bijvoorbeeld Microsoft 365 Apps voor ondernemingen, Visio, Project. De tabel bevat ook gegevens over het aantal activeringen per apparaat (Android/iOS/Mac/pc).
   
 |**Kolomnaam**|**Kolombeschrijving**|
 |:-----|:-----|
