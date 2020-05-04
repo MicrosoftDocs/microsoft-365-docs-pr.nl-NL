@@ -5,17 +5,21 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: sharepoint-online
-ms.collection: SPO_Content
+ms.prod: microsoft-365-enterprise
+ms.collection:
+- SPO_Content
+- M365-security-compliance
+ms.custom:
+- M365solutions
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Informatie over het maken van een veilige omgeving voor het delen met gasten in Microsoft 365.
-ms.openlocfilehash: 63a636ccf65b5439d5e83cf5fbe64e5db2ce40b5
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 73d3e2a9a55ead5447d2c6d640123ee3befd8373
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42806999"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44003745"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Een beveiligde omgeving voor het delen met gasten maken
 
@@ -29,9 +33,9 @@ Dit scenario omvat:
 - Gasten beperken tot alleen webtoegang voor onbeheerde apparaten.
 - Een time-outbeleid voor sessies configureren om ervoor te zorgen dat gasten dagelijks worden geverifieerd.
 - Gevoeligheidslabels maken en publiceren om inhoud te classificeren.
-- Het maken van een gevoelig informatietype voor een zeer vertrouwelijk project.
-- Automatisch een *zeer vertrouwelijk*-label toewijzen aan documenten die het gevoelige informatietype bevatten.
-- Gasttoegang automatisch verwijderen voor bestanden die als *zeer vertrouwelijk* zijn aangemerkt.
+- Een type voor gevoelige informatie maken voor een zeer gevoelig project.
+- Automatisch een label *Zeer gevoelig* toewijzen aan documenten die het type gevoelige informatie bevatten.
+- Gasttoegang automatisch verwijderen voor bestanden die als *zeer gevoelig* zijn aangemerkt.
 
 Voor een aantal van de opties die in dit artikel worden beschreven, moeten gasten een account hebben in Azure Active Directory. Als u er zeker van wilt zijn dat gasten worden opgenomen in de adreslijst wanneer u bestanden en mappen met hen deelt, gebruikt u de [SharePoint- en OneDrive-integratie met Azure AD B2B Preview](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).
 
@@ -188,34 +192,34 @@ Gevoeligheidslabels kunnen op verschillende manieren worden gebruikt om de gegev
 Eerst maken we drie gevoeligheidslabels in het Microsoft 365 Compliance Center:
 
 - Algemeen
-- Vertrouwelijk
-- Zeer vertrouwelijk
+- gevoelig
+- Zeer gevoelig
 
-Gebruik de volgende procedure om *algemene* en *vertrouwelijke* labels te maken.
+Gebruik de volgende procedure om de labels *Algemeen* en *Gevoelig* te maken.
 
-Een classificatielabel maken (algemeen en vertrouwelijk)
+Een classificatielabel maken (Algemeen en Gevoelig)
 1. Vouw in het [Microsoft 365 Compliance Center](https://compliance.microsoft.com) in de linkernavigatiebalk **Classificatie** uit en klik vervolgens op **Gevoeligheidslabels**.
 2. Klik op **een label maken**.
-3. Typ bij **Labelnaam** *Algemeen* of *Vertrouwelijk*.
-4. In **knopinfo**typt u *algemene informatie die kan worden gedeeld met werknemers, gasten en partners* of *vertrouwelijke informatie. Deel alleen met werknemers en geautoriseerde gasten*en klik vervolgens op **volgende**.
+3. Typ bij **Labelnaam** *Algemeen* of *Gevoelig*.
+4. In **Knopinfo** typt u *Algemene informatie die kan worden gedeeld met werknemers, gasten en partners* of *Gevoelige informatie. Deel alleen met werknemers en geautoriseerde gasten*. Klik vervolgens op **Volgende**.
 5. Laat de versleuteling **uit** en klik op **volgende**.
 6. Laat de markering van inhoud **uit** en klik op **volgende**.
 7. Laat het verlies van gegevensverlies voorkomen **uit** en klik op **volgende**.
 8. Laat automatische labeling **uit** en klik op **volgende**.
 9. Klik op **Maken**.
 
-Met het label *zeer vertrouwelijk* voegen we automatische watermerken van documenten toe aan het label.
+Met het label *Zeer gevoelig* voegen we met het label automatische watermerken van documenten toe.
 
-Een classificatielabel maken (zeer vertrouwelijk)
+Een classificatielabel maken (Zeer gevoelig)
 1. Klik op **een label maken**.
-2. Typ bij **Labelnaam** *Zeer vertrouwelijk*.
-3. In **knopinfo**typt u *zeer vertrouwelijke informatie. Niet delen met gasten*en klik vervolgens op **volgende**.
+2. In **Labelnaam** typt u *Zeer gevoelig*.
+3. In **Knopinfo** typt u *Zeer gevoelige informatie. Niet delen met gasten*. Vervolgens klikt u op **volgende**.
 4. Laat de versleuteling **uit** en klik op **volgende**.
 5. Schakel de markerings voor inhoud **aan**, voeg een selectievakje **koptekst toevoegen** toe en klik vervolgens op **tekst aanpassen**.
-6. Typ *zeer vertrouwelijk* voor de koptekst en klik op **opslaan**.
+6. Typ *Zeer gevoelig* voor de koptekst en klik op **Opslaan**.
 7. Schakel op de pagina **inhoudsmarkering** de inhoudsmarkering **in**.
 8. Selecteer het selectievakje **een watermerk toevoegen** en klik vervolgens op **tekst aanpassen**.
-9. Bij **tekst voor het watermerk** typt u *zeer vertrouwelijk*.
+9. Bij **Tekst voor het watermerk** typt u *Zeer gevoelig*.
 10. Typ *24* voor **tekengrootte** en klik vervolgens op **opslaan**.
 11. Klik op de pagina **inhoudsmarkering** op **volgende**.
 12. Laat het verlies van gegevensverlies voorkomen **uit** en klik op **volgende**.
@@ -237,16 +241,16 @@ Labels publiceren
 8. Typ op de pagina **Beleidsinstellingen** *Documentgevoeligheid* voor de naam en klik vervolgens op **Volgende**.
 9. Klik op **Publiceren**.
 
-De gepubliceerde labels zijn nu beschikbaar voor gebruikers van Office-bureaublad-apps. Wanneer gebruikers het label **zeer vertrouwelijk** toepassen, wordt er automatisch een watermerk toegevoegd aan het document.
+De gepubliceerde labels zijn nu beschikbaar voor gebruikers van Office-bureaublad-apps. Wanneer gebruikers het label **Zeer gevoelig** toepassen, wordt er automatisch een watermerk aan het document toegevoegd.
 
 ### <a name="more-information"></a>Meer informatie
 [Overzicht van gevoeligheidslabels](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels)
 
-## <a name="create-a-sensitive-information-type-for-a-highly-confidential-project"></a>Het maken van een gevoelig informatietype voor een zeer vertrouwelijk project.
+## <a name="create-a-sensitive-information-type-for-a-highly-sensitive-project"></a>Een type voor gevoelige informatie maken voor een zeer gevoelig project
 
 De typen gevoelige informatie zijn vooraf gedefinieerde tekenreeksen die kunnen worden gebruikt in werkstromen om nalevingsvereisten af te dwingen. Het Microsoft 365 Compliance Center bevat meer dan honderd soorten gevoelige informatie, waaronder rijbewijsnummers, creditcardnummers, bankrekeningnummers, enz.
 
-U kunt aangepaste typen gevoelige informatie maken om inhoud te beheren die specifiek is voor uw organisatie. In dit voorbeeld maken we een gevoelig informatietype voor een zeer vertrouwelijk project. Vervolgens kunnen we dit gevoelig informatietype gebruiken om automatisch een classificatielabel toe te wijzen.
+U kunt aangepaste typen gevoelige informatie maken om inhoud te beheren die specifiek is voor uw organisatie. In dit voorbeeld maken we een aangepast type voor gevoelige informatie voor een zeer gevoelig project. Vervolgens kunnen we dit gevoelig informatietype gebruiken om automatisch een classificatielabel toe te wijzen.
 
 Een gevoelig informatietype maken
 1. Vouw in het [Microsoft 365 Compliance Center](https://compliance.microsoft.com) in de linkernavigatiebalk **Classificatie** uit en klik vervolgens op **Gevoelige informatietypen**.
@@ -262,7 +266,7 @@ Een gevoelig informatietype maken
 
 ## <a name="create-a-policy-to-assign-a-label-based-on-a-sensitive-information-type"></a>Een beleid maken om een label toe te wijzen op basis van een gevoelig informatietype
 
-Zodra het type gevoelige informatie is gemaakt, kunnen we een bestandsbeleid in Microsoft Cloud App Security maken dat automatisch het label *zeer vertrouwelijk* toepast op documenten die de *Project Saturnus* tekenreeks bevatten.
+Zodra het type gevoelige informatie is gemaakt, kunnen we een bestandsbeleid in Microsoft Cloud App Security maken dat automatisch het label *Zeer gevoelig* toepast op documenten die de *Project Saturnus*-tekenreeks bevatten.
 
 > [!NOTE]
 > Er is een replicatieproces waarmee gevoeligheidslabels beschikbaar worden in Cloud App Security. Het is mogelijk dat u het label voor een beleid niet onmiddellijk kunt zien.
@@ -278,20 +282,20 @@ Een bestandsbeleid op basis van een gevoelig informatietype maken
 9. Kies in de lijst **Inspectietype kiezen**, **Gevoelig informatietype**.
 10. Zoek en selecteer het gevoeligheidslabel *Project Saturnus* en klik vervolgens op **Gereed**.</br>
    ![Schermafbeelding van de instellingen voor de inspectiemethode van Cloud App Security](../media/mcas-sensitive-info-type-project-saturn.png)
-11. Vouw onder **Beheermodel**, **Microsoft SharePoint Online** uit.
-12. Schakel het selectievakje **classificatielabel toepassen** in en selecteer het label **zeer vertrouwelijk**.
+11. Vouw onder **Beheermodel** de optie **Microsoft SharePoint Online** uit.
+12. Schakel het selectievakje **Classificatielabel toepassen** in en selecteer het label **Zeer gevoelig**.
 13. Klik op **Maken**.
 
-Als het beleid van kracht is, zal Cloud App Security, wanneer een gebruiker 'Project Saturnus' in een document typt, automatisch het label *zeer vertrouwelijk* toepassen wanneer het bestand wordt gescand.
+Als het beleid van kracht is, zal Cloud App Security, wanneer een gebruiker 'Project Saturnus' in een document typt, automatisch het label *Zeer gevoelig* toepassen wanneer het bestand wordt gescand.
 
 ### <a name="more-information"></a>Meer informatie
 [Bestandsbeleidsregels](https://docs.microsoft.com/cloud-app-security/data-protection-policies)
 
-## <a name="create-a-policy-to-remove-guest-access-to-highly-confidential-files"></a>Een beleid maken voor het verwijderen van gasttoegang tot zeer vertrouwelijke bestanden
+## <a name="create-a-policy-to-remove-guest-access-to-highly-sensitive-files"></a>Een beleid maken voor het verwijderen van gasttoegang tot zeer gevoelige bestanden
 
-In het voorbeeld in dit artikel mogen bestanden met het label *zeer vertrouwelijk* niet worden gedeeld met gasten. We kunnen een bestandsbeleid maken in de cloud app Security waarmee gasttoegang automatisch wordt verwijderd voor bestanden met dat label.
+In het voorbeeld in dit artikel mogen bestanden met het label *Zeer gevoelig* niet worden gedeeld met gasten. We kunnen een bestandsbeleid maken in de cloud app Security waarmee gasttoegang automatisch wordt verwijderd voor bestanden met dat label.
 
-Hiermee wordt niet voorkomen dat gebruikers deze bestanden delen of opnieuw delen. U bent nog steeds afhankelijk van uw gebruikersbeleid voor het beheer van bestanden die zijn opgeslagen op sites die het delen met gasten toestaan. Dit is echter een handig hulpmiddel om gasttoegang te verwijderen voor bestanden waaraan vertrouwelijke informatie is toegevoegd nadat ze zijn gedeeld met gasten.
+Hiermee wordt niet voorkomen dat gebruikers deze bestanden delen of opnieuw delen. U bent nog steeds afhankelijk van uw gebruikersbeleid voor het beheer van bestanden die zijn opgeslagen op sites die het delen met gasten toestaan. Dit is echter een handig hulpmiddel om gasttoegang te verwijderen voor bestanden waaraan gevoelige informatie is toegevoegd nadat ze zijn gedeeld met gasten.
 
 Een op labels gebaseerd bestandsbeleid maken
 1. Open [Microsoft Cloud App Security](https://portal.cloudappsecurity.com).
@@ -302,20 +306,20 @@ Een op labels gebaseerd bestandsbeleid maken
 6. Kies **App** in de lijst **Selecteer een filter** en selecteer vervolgens **Microsoft SharePoint Online** in de lijst **Apps selecteren...**.
 7. Klik op **een filter toevoegen**.
 8. Kies in de lijst **Selecteer een filter** de optie **Classificatielabel** en selecteer vervolgens **Azure Information Protection** in de lijst **Filter selecteren...**.
-9. Selecteer in de lijst **classificatielabel selecteren** de optie **zeer vertrouwelijk**.</br>
+9. Selecteer in de lijst **Classificatielabel selecteren** de optie **Zeer gevoelig**.</br>
    ![Schermafbeelding van de filterinstellingen van het Cloud App Security-beleid](../media/mcas-sharepoint-confidential-label-filter.png)
 10. Vouw onder **Beheermodel** de optie **Microsoft SharePoint Online** uit.
 11. Schakel de selectievakjes **Beleidovereenkomst verzenden naar bestandseigenaar** en **Externe gebruikers verwijderen** in.
-12. Typ voor dit aangepaste meldingsbericht *Dit bestand is zeer vertrouwelijk. Het bedrijfsbeleid verbiedt het delen met gasten*.
+12. Typ voor het aangepaste meldingsbericht *Dit bestand is zeer gevoelig. Het bedrijfsbeleid verbiedt het delen met gasten*.
 13. Klik op **Maken**.
 
-Het is belangrijk op te merken dat dit beleid de toegang verwijdert voor bestanden die worden gedeeld via een koppeling voor *specifieke personen*. Het ontzegt niet de toegang tot niet-geverifieerde koppelingen (*voor iedereen*). Bovendien wordt de toegang niet ontzegd als de gast lid is van de site of het team als geheel. Als u van plan bent om zeer vertrouwelijke documenten te gebruiken in een site of team met gastleden, kunt u overwegen [persoonlijke kanalen in Teams](https://support.office.com/article/60ef929a-4d68-418b-bf4f-5784db184ec9) te gebruiken en alleen leden van uw organisatie toe te laten tot de persoonlijke kanalen.
+Het is belangrijk op te merken dat dit beleid de toegang verwijdert voor bestanden die worden gedeeld via een koppeling voor *specifieke personen*. Het ontzegt niet de toegang tot niet-geverifieerde koppelingen (*voor iedereen*). Bovendien wordt de toegang niet ontzegd als de gast lid is van de site of het team als geheel. Als u van plan bent om zeer gevoelige documenten te gebruiken in een site of team met gastleden, kunt u overwegen [persoonlijke kanalen in Teams](https://support.office.com/article/60ef929a-4d68-418b-bf4f-5784db184ec9) te gebruiken en alleen leden van uw organisatie toe te laten tot de persoonlijke kanalen.
 
 ## <a name="test-the-solution"></a>De oplossing testen
 
 Als u de oplossing wilt testen die in dit artikel wordt beschreven, maakt u een Word-document en slaat u het op in een documentbibliotheek. Het bestand delen met een gastgebruiker. Wanneer de gast probeert toegang te krijgen tot het document, moeten ze zich inschrijven voor meervoudige verificatie en vervolgens de gebruiksvoorwaarden accepteren.
 
-Zodra de gasttoegang tot het document heeft, typt u *Project Saturnus* in het document en slaat u het op. Wanneer het document door de cloud-app Security wordt gescand, moet het label *zeer vertrouwelijk* worden toegepast en moet de gastgebruiker er geen toegang meer toe krijgen.
+Zodra de gasttoegang tot het document heeft, typt u *Project Saturnus* in het document en slaat u het op. Wanneer het document door Cloud App Security wordt gescand, moet het label *Zeer gevoelig* worden toegepast en moet de gastgebruiker er geen toegang meer toe kunnen krijgen.
 
 U kunt de hulpprogramma's die in dit artikel worden beschreven, gebruiken in verschillende combinaties om een productieve, veilige omgeving voor het delen met gasten te maken voor uw organisatie.
 
