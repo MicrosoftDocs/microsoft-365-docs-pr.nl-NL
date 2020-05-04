@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Leer hoe u de apparaat- en app-gereedheid in de omgeving kunt beoordelen.
-ms.openlocfilehash: fc048b046e46b4b2e792aa9bffb695eed742a74c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8596d23356fd8eda733938ad3a6fc0fbe81fcce3
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636854"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011661"
 ---
 # <a name="step-1-device-and-app-readiness"></a>Stap 1: apparaat- en app-gereedheid
 
@@ -89,7 +89,7 @@ U zult merken dat de meeste geïnventariseerde toepassingen, stuurprogramma's en
 
 U kunt Desktop Analytics ook gebruiken om de compatibiliteitsproblemen met de browser te evalueren: stel vast welke door gebruikers gebruikte websites en webapps nog steeds ActiveX-besturingselementen, browserhelperobjecten, VBScript of andere verouderde technologie gebruiken die niet worden ondersteund door de browser Microsoft Edge. Uw gebruikers moeten nog steeds Internet Explorer 11 gebruiken voor deze sites en u kunt deze toevoegen aan de [sitelijst voor Ondernemingsmodus](https://docs.microsoft.com/microsoft-edge/deploy/emie-to-improve-compatibility) met behulp van Sitelijstbeheer van ondernemingsmodus.
 
-Om u te helpen bij het overstappen naar Microsoft 365-apps voor ondernemingen, kunt u gebruikmaken van de [Readiness Toolkit voor Office](https://docs.microsoft.com/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro) voor het testen van de compatibiliteit van uw invoegtoepassingen en VBA-macro's (Microsoft Visual Basic for Applications).
+Om u te helpen bij het overstappen naar Microsoft 365-apps voor ondernemingen, kunt u gebruikmaken van de [Readiness Toolkit voor Office](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps) voor het testen van de compatibiliteit van uw invoegtoepassingen en VBA-macro's (Microsoft Visual Basic for Applications).
 
 ![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-6.png)
 
@@ -105,7 +105,7 @@ Naarmate u door de lijst gaat en problemen oplost, ziet u dat er meer en meer pc
 
 Software-inventarisatie in Configuration Manager is een alternatief voor het gebruik van analyse-oplossingen in de cloud voor apparaat- en app-gereedheid. U kunt het aantal installaties gebruiken en u richten op specifieke computers om prioriteit te geven aan compatibiliteitstests en -validatie en toepassingspakketten in te stellen die compatibel zijn met Windows 10 via pakketinstellingen. Hoewel u met deze optie geen bekende compatibiliteitsgegevens kunt vergelijken met de analytische services van Microsoft, kan dit een effectieve oplossing zijn voor het instellen van een kleinere set apps met prioriteit voor handmatig testen. 
 
-Raadpleeg voor meer informatie [Inleiding tot software-inventarisatie in Configuration Manager](https://docs.microsoft.com/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) en voor het instellen van platformvereisten in toepassingspakketten [Pakketten en programma's in Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
+Raadpleeg voor meer informatie [Inleiding tot software-inventarisatie in Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) en voor het instellen van platformvereisten in toepassingspakketten [Pakketten en programma's in Configuration Manager](https://docs.microsoft.com/mem/configmgr/apps/deploy-use/packages-and-programs).
 
 
 ## <a name="app-assure"></a>App Assure
