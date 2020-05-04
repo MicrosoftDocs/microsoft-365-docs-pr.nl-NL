@@ -9,15 +9,17 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - M365-security-compliance
-ms.service: O365-seccomp
+ms.prod: microsoft-365-enterprise
 localization_priority: Priority
 description: Ontdek hoe Microsoft 365 energiebedrijven helpt bij de overstap naar een modern samenwerkingsplatform, waarbij gegevens en systemen beveiligd blijven conform de regelgeving
-ms.openlocfilehash: 536c895a52024845d8e37c5a7c0b63ba1b2c2752
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- M365solutions
+ms.openlocfilehash: b0a791177f201e07d00ecbc4621509c1029c4734
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637186"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002238"
 ---
 # <a name="key-compliance-and-security-considerations-for-the-energy-industry"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor de energiesector
 :::image type="content" source="../media/solution-arch-center/MSC17_global_016.png" alt-text="Illustratie metafoor met een wereldwijde weergave van verschillende industrieën die de cloud gebruiken":::
@@ -197,7 +199,7 @@ Met veel communicatiekanalen die beschikbaar zijn voor werknemers, hebben organi
 
 Met Communication Compliance kunt u meerdere communicatiekanalen bewaken en modellen voor machinelearning gebruiken om mogelijke schendingen van het beleid te identificeren, waaronder Office 365-e-mail, Microsoft Teams, Skype voor Bedrijven Online, Facebook, Twitter en instant-berichten van Bloomberg. Communication Compliance helpt compliance-teams berichten effectief en efficiënt te beoordelen op mogelijke schendingen van:
 - Bedrijfsbeleid, zoals acceptabel gebruik, ethische normen en bedrijfsspecifiek beleid 
-- Vertrouwelijkheid of vertrouwelijke zakelijke onthullingen, zoals ongeoorloofde communicatie over vertrouwelijke projecten zoals aanstaande acquisities, fusies, financiële openbaarmakingen, reorganisaties of veranderingen in het leiderschapsteam
+- Gevoeligheid of gevoelige zakelijke onthullingen, zoals ongeoorloofde communicatie over gevoelige projecten zoals aanstaande acquisities, fusies, financiële openbaarmakingen, reorganisaties of veranderingen in het leiderschapsteam
 - Vereisten voor naleving van regelgeving, zoals mededelingen van werknemers over de soorten bedrijven of transacties, waarbij een organisatie zich bezighoudt met naleving van de FERC-voorschriften voor energiemarkten
 
 Communicatiecompliance biedt ingebouwde classificaties voor bedreiging, intimidatie en scheldwoorden die helpen bij het beperken van fout-positieven tijdens de beoordeling van communicatie. Dit bespaart beoordelaars tijd tijdens het onderzoeks- en herstelproces. Het helpt beoordelaars om zich te concentreren op specifieke berichten binnen lange threads die zijn gemarkeerd met beleidswaarschuwingen. Dit helpt compliance-teams om risico's sneller te identificeren en op te lossen. Het biedt compliance-teams de mogelijkheid om eenvoudig beleid te configureren en de oplossing aan te passen aan de specifieke behoeften van de organisatie en valse positieven te verminderen. Communication Compliance kan ook het gedrag van gebruikers in de loop van de tijd volgen, waarbij mogelijke patronen in risicovol gedrag of beleidsschendingen worden benadrukt. Ten slotte biedt het flexibele ingebouwde werkstromen voor herstel, zodat beoordelaars snel actie kunnen ondernemen en kunnen escaleren naar juridische of human resources-teams volgens gedefinieerde bedrijfsprocessen.
