@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Stap in de vereenvoudigde fasen van de basisinfrastructuur van Microsoft 365 voor bedrijven voor middelgrote bedrijven.
-ms.openlocfilehash: cad142f2f26eb999431eb5bb531cb4520e4d6102
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e1c747e5f4ab3e58adeaf91518512d8ece83d91b
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638258"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011897"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-for-non-enterprises"></a>Microsoft 365 voor bedrijven-basisinfrastructuur voor middelgrote bedrijven
 
@@ -215,7 +215,7 @@ De nieuwe en gemarkeerde Windows 10 Enterprise-elementen zijn onder meer:
 
 ## <a name="phase-4-microsoft-365-apps-for-enterprise"></a>Fase 4: Microsoft 365-apps voor ondernemingen
 
-Microsoft 365 voor bedrijven omvat Microsoft 365-apps voor ondernemingen, de abonnementsversie van Microsoft Office. Microsoft 365-apps voor ondernemingen wordt net als Office 2016 of Office 2019 rechtstreeks geïnstalleerd op uw clientapparaten. Microsoft 365-apps voor ondernemingen ontvangt echter regelmatig updates met nieuwe functies. Zie [Over Microsoft 365-apps voor ondernemingen in de onderneming](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise) voor meer informatie.
+Microsoft 365 voor bedrijven omvat Microsoft 365-apps voor ondernemingen, de abonnementsversie van Microsoft Office. Microsoft 365-apps voor ondernemingen wordt net als Office 2016 of Office 2019 rechtstreeks geïnstalleerd op uw clientapparaten. Microsoft 365-apps voor ondernemingen ontvangt echter regelmatig updates met nieuwe functies. Zie [Over Microsoft 365-apps voor ondernemingen](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps) voor meer informatie.
 
 Voor uw middelgroot bedrijf installeert u Microsoft 365-apps voor ondernemingen handmatig op apparaten, waaronder Windows-, iOS- en Android-apparaten. Dit kan worden gedaan als onderdeel van het voorbereiden van een nieuw apparaat of door de gebruiker als onderdeel van het onboardingproces.
 

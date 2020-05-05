@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: 9635e6d12b9f3ef606f8b62edac4dce6d75a1074
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7df489b75f1c104bb9ad541bbdc2ce09e7a669de
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631511"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011957"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit
 
@@ -104,7 +104,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 ### <a name="windows-and-office-as-a-service"></a>Windows en Office als een service
   - Windows-updates beheren via Groepsbeleid
   - Onderhoud van Windows 10 met Configuration Manager en Intune
-  - Onderhoud van Office 365 ProPlus met Configuration Manager
+  - Microsoft 365-apps voor ondernemingen beheren met Configuration Manager
 
 ### <a name="new-windows-virtual-desktop"></a>NIEUW! Windows Virtual Desktop
   - Windows Virtual Desktop: voorbereiden, implementeren, optimaliseren 
@@ -121,11 +121,11 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 
   - [Desktop Deployment series videos from Microsoft Mechanics](https://www.aka.ms/watchhowtoshift) (Desktopimplementatie-video's van Microsoft Mechanics)
 
-  - [Microsoft Endpoint Configuration Manager: implementatie van besturingssysteem](https://docs.microsoft.com/configmgr/osd/understand/introduction-to-operating-system-deployment)
+  - [Microsoft Endpoint Configuration Manager: implementatie van besturingssysteem](https://docs.microsoft.com/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
 
   - [<span class="underline">Implementatie van Windows 10 plannen</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 
-  - [<span class="underline">Implementatiegids voor Microsoft 365-apps voor ondernemingen</span>](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
+  - [<span class="underline">Implementatiegids voor Microsoft 365-apps</span>](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
 
   - [<span class="underline">Aan de slag met Intune</span>](https://docs.microsoft.com/intune/get-started-evaluation)
 

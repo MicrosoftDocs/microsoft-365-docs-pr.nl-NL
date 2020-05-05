@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Leer hoe u de gereedheid van directory en netwerken in de omgeving kunt beoordelen.
-ms.openlocfilehash: 4db179a2ed4c2aada841e8f7a4ed824aa1e190ff
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b9b2ed38afd77a5dd487b7e319eeee5300a62a25
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636806"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011649"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>Stap 2: gereedheid van directory en netwerk
 
@@ -121,7 +121,7 @@ Naast het gebruik van Delivery Optimization, zijn hier drie items die u helpen u
 
 **Binaire Delta-compressie** Microsoft 365-apps voor ondernemingen gebruikt Binaire Delta-compressie om de bandbreedte die wordt verbruikt door software-updates te verminderen bij het bijwerken van de meest recente versie van Microsoft 365-apps voor ondernemingen naar de volgende release. Door alleen de veranderingen op binair niveau op te halen uit de vorige versie, wordt de invloed van de cumulatieve updates geminimaliseerd. Dit kan elke maand honderden megabytes aan gegevens per pc besparen. Om deze functie te kunnen gebruiken, kunt u geen releases overslaan. Als u dat doet, moet de volledige cumulatieve update worden gedownload.
 
-[Updates voor Office 365 downloaden](https://docs.microsoft.com/deployoffice/overview-of-the-update-process-for-office-365-proplus#download-the-updates-for-office-365-proplus)
+[Updates voor Microsoft 365-apps downloaden](https://docs.microsoft.com/deployoffice/overview-update-process-microsoft-365-apps#download-the-updates-for-microsoft-365-apps)
 
 **Outlook-gegevensbestanden** Outlook is vaak geconfigureerd om het hele postvak van gebruikers lokaal in de cache op te slaan voor offline gebruik. In elke Windows-implementatie, behalve een interne upgrade, moeten de Outlook-gegevensbestanden van de gebruiker na de upgrade opnieuw worden opgebouwd. Dit is een geautomatiseerd proces, maar met Outlook-postvaklimieten die doorgaans zijn ingesteld op maximaal 100 GB, betekent het opnieuw lokaal cachen van het hele postvak voor alle gebruikers veel gegevensoverdracht. Om de netwerkbelasting te verminderen, kunt u overwegen groepsbeleid te gebruiken om de instelling 'Mail offline bewaren' te verlagen. In Microsoft 365-apps voor ondernemingen of Office 2016 is de standaardwaarde voor Outlook ingesteld op 12 maanden. Om de impact op het netwerk te verminderen, kunt u overwegen om de offlinecache in te stellen tussen 1 en 6 maanden. Het wijzigen van deze instelling heeft geen invloed op de grootte van het online postvak en het hele postvak kan nog steeds online worden doorzocht via Outlook.
 

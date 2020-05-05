@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Doorloop het proces van het migreren van versies van Microsoft Office, Office-servers en Windows naar Microsoft 365 Enterprise binnen uw organisatie.
-ms.openlocfilehash: 53d50321ffa2870fb0e94e9f6b7f005b8c666c2d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6830b4627eea799e18d32d3f9150617df339d7d4
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631535"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011793"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Migratie naar Microsoft 365 Enterprise
 
@@ -49,7 +49,7 @@ In veel grote en kleine organisaties wordt mogelijk een combinatie gebruikt van 
 - Zijn niet optimaal geschikt om de cloudtechnologieën van Microsoft te gebruiken en u te helpen bij het digitaal transformeren van uw bedrijf.
 - Bevatten geen nieuwe functies.
  
-Microsoft 365 Enterprise omvat Microsoft 365-apps voor ondernemingen, een versie van de Office-clientproducten die beschikbaar is met een Microsoft 365 Enterprise-licentie en die wordt geïnstalleerd en bijgewerkt vanuit de Microsoft-Cloud. Microsoft 365-apps voor ondernemingen bevat beveiligingsupdates en de nieuwste functies. Zie [Over Microsoft 365-apps voor ondernemingen in de onderneming](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise) voor meer informatie.
+Microsoft 365 Enterprise omvat Microsoft 365-apps voor ondernemingen, een versie van de Office-clientproducten die beschikbaar is met een Microsoft 365 Enterprise-licentie en die wordt geïnstalleerd en bijgewerkt vanuit de Microsoft-Cloud. Microsoft 365-apps voor ondernemingen bevat beveiligingsupdates en de nieuwste functies. Zie [Over Microsoft 365-apps voor ondernemingen](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps) voor meer informatie.
 
 ### <a name="office-2007"></a>Office 2007
 

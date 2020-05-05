@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over de basisstructuur van Contoso's on-premises IT-infrastructuur en hoe Microsoft 365 Enterprise in haar zakelijke behoeften voorziet.
-ms.openlocfilehash: 38d2b8df611cb06e19abba074f49e00d95496c30
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3899466e6c8ad50ad3a3d97863d1368ba1d8af20
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625288"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011195"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>De IT-infrastructuur en zakelijke behoeften van Contoso
 
@@ -110,7 +110,7 @@ Management:
 
 - Verlaag de IT-overhead voor het beheer van software die wordt uitgevoerd op client-pc's en apparaten
 
-  Automatiseer de installatie van updates voor het Windows-besturingssysteem en Microsoft Office ProPlus in de hele organisatie.
+  Automatiseer de installatie van updates voor het Windows-besturingssysteem en Microsoft 365-apps voor ondernemingen in de hele organisatie.
 
 ## <a name="mapping-contosos-business-needs-to-microsoft-365-enterprise"></a>De zakelijke behoeften van Contoso toewijzen aan Microsoft 365 Enterprise
 

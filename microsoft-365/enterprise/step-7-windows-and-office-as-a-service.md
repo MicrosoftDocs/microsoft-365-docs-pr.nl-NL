@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees hoe u het onderhoud voor Windows en Office in uw omgeving kunt voorbereiden.
-ms.openlocfilehash: 422cbd4fd8310a9bc63696c0ea6e9da858c51230
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: bca8fbf39bbbcc7b0a37512383caf630ffe3da67
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636733"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011613"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>Stap 7: Service van Windows en Office
 
@@ -83,7 +83,7 @@ We hebben ook nagedacht hoe we de implementatie van updates voor u zo gemakkelij
 
 [Windows 10-updates implementeren met Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 
-[Microsoft 365-apps voor ondernemingen beheren met Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
+[Microsoft 365-apps voor ondernemingen beheren met Configuration Manager](https://docs.microsoft.com/mem/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
 
 ## <a name="overview-of-windows-and-office-channels"></a>Overzicht van Windows- en Office-kanalen
 
@@ -103,7 +103,7 @@ Microsoft 365 biedt vier servicekanalen:
 Voor meer informatie over de Windows- en Office-servicekanalen raadpleegt u de onderstaande documentatie:
 
 - [Overzicht van Windows als een service](https://docs.microsoft.com/windows/deployment/update/waas-overview#servicing-channels)
-- [Overzicht van de update-kanalen voor Microsoft 365-apps voor ondernemingen](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
+- [Overzicht van de updatekanalen voor Microsoft 365-apps](https://docs.microsoft.com/DeployOffice/overview-update-channels#BKMK_SAC)
 
 ## <a name="phased-deployment-of-updates"></a>Gefaseerde implementatie van updates
 
@@ -141,7 +141,7 @@ Wat de tools betreft, kunt u beleidsinstellingen gebruiken bij Windows Update vo
 
 [Semi-annual-kanaal voor Windows](https://docs.microsoft.com/windows/deployment/update/waas-overview#semi-annual-channel)
 
-[Semi-Annual-kanaal voor Microsoft 365-apps voor ondernemingen](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
+[Semi-annual-kanaal voor Microsoft 365-apps](https://docs.microsoft.com/DeployOffice/overview-update-channels#BKMK_SAC)
 
 #### <a name="upgrade-task-sequences"></a>Takenreeksen upgraden
 
@@ -153,7 +153,7 @@ Met een Takenreeks kunt u aangepaste controles of taken maken VOORDAT u de funct
 
 Als u al takenreeksen gebruikt om uw Windows 7-computers naar Windows 10 te migreren en ervaring hebt met deze hulpmiddelen goed, is dit een prima startpunt en hebt u complete controle. Hoewel u één takenreeks voor de gehele upgrade kunt gebruiken, is het heel gebruikelijk dat organisaties twee takenreeksen gebruiken. Eén takenreeks zorgt ervoor dat de computers gereed zijn voor de upgrade, waarbij alle vereiste installatiebestanden op doelcomputers in stilte worden voorbereid, en één om de daadwerkelijke upgrade uit te voeren. Op deze manier zorgt u ervoor dat de productiviteit van uw gebruikers minder wordt beïnvloed.
 
-[Een taakreeks maken voor het upgraden van een besturingssysteem in Configuration Manager](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+[Een taakreeks maken voor het upgraden van een besturingssysteem in Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 
 #### <a name="semi-annual-channel-support-for-feature-updates"></a>Ondersteuning met een Semi-annual-kanaal voor functie-updates
 

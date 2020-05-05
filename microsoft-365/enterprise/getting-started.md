@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Inleiding tot het implementatieproces van de desktop.
-ms.openlocfilehash: f50a719d87a961c0446757d21d2f8be5d6eedbc0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 05ec900acbcfed9d148ef4f567aab099dd9b7c7d
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634216"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011873"
 ---
 # <a name="getting-started---desktop-deployment"></a>Aan de slag - Desktopimplementatie
 
@@ -53,7 +53,7 @@ Een van de belangrijkste eisen van moderne beheermethoden is dat apparaten altij
 
 [Windows 10 voor IT-professionals](https://www.microsoft.com/itpro/windows-10)
 
-[Over Microsoft 365-apps voor ondernemingen in de onderneming](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)
+[Over Microsoft 365-apps voor ondernemingen](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps)
 
 ## <a name="what-has-changed"></a>Wat is er veranderd?
 
@@ -67,7 +67,7 @@ Laten we eerst eens kijken wat er is veranderd en verbeterd sinds uw laatste des
 
 **Apparaatbeheer in de Cloud:** Services, zoals Microsoft Intune, helpen u bij het beheren van uw Windows 10-apparaten, net zoals andere mobiele apparaten, vanaf één locatie. Wat Microsoft Intune uniek maakt is de mogelijkheid om uw Windows 10-apparaten samen te beheren met behulp van de Microsoft Endpoint Configuration Manager. U kunt de Configuration Manager gebruiken om u te helpen bij uw overstap naar Windows 10, waarna u Microsoft Intune kunt toevoegen. Dankzij Microsoft Endpoint Configuration Manager kunt u binnen uw organisatie samenwerken via de Microsoft Intelligent Cloud, wat u een voorsprong geeft op de concurrentie. Dit geeft u de mogelijkheid om de apparaten van uw gebruikers vanaf elke locatie veilig te beheren, ongeacht of u verbonden bent met de infrastructuur van uw organisatie of de openbare cloud.
 
-[Co/beheer voor Windows 10-apparaten](https://docs.microsoft.com/configmgr/core/clients/manage/co-management-overview)
+[Co/beheer voor Windows 10-apparaten](https://docs.microsoft.com/mem/configmgr/core/clients/manage/co-management-overview)
 
 **Implementatieservice in de Cloud:** Terwijl u nieuwe pc's aanschaft, hebben wij een nieuwe Cloud-service geïntroduceerd, genaamd Windows Autopilot-implementatieservice, om u te helpen bij de implementatie van Microsoft 365-apparaten. Autopilot is geïntegreerd met uw hardwareproviders en nieuwe pc's worden automatisch geregistreerd in Autopilot, zodat de nieuwe pc direct naar de gebruiker kan worden verzonden. Wanneer de pc voor de eerste keer wordt opgestart, wordt deze snel geconfigureerd naar de gewenste configuratie voor uw organisatie en aangepast op de specifieke behoeften van de gebruiker.
 
@@ -77,7 +77,7 @@ Laten we eerst eens kijken wat er is veranderd en verbeterd sinds uw laatste des
 
 Klik-en-klaar is heel anders dan de op MSI-gebaseerde pakketten uit het verleden. Klik-en-klaar is sneller, lichter en ondersteunt updates op de achtergrond om te voorkomen dat uw gebruikers niet aan de slag kunnen. Het is nog steeds een lokale kopie van Office en u kunt uw bestaande implementatiehulpprogramma's, zoals Microsoft Endpoint Configuration Manager, blijven gebruiken om de apps in te richten en te configureren.
 
-[Implementatiegids voor Microsoft 365-apps voor ondernemingen](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
+[Implementatiegids voor Microsoft 365-apps](https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps)
 
 **Halfjaarlijkse updates:** Zodra u bent overgestapt op Windows 10 en Microsoft 365-apps voor ondernemingen, ontvangt u ieder half jaar updates met nieuwe functies. Aangezien Microsoft inzichten uit de cloud kan halen om u te helpen, kunt u deze updates snel en eenvoudig implementeren op honderden of duizenden apparaten. Net als bij een in-place upgrade, zorgt de onderdelenupdate ervoor dat apps, gegevens en configuraties uit de vorige versie worden behouden.
 
@@ -109,14 +109,14 @@ Net als bij vorige upgrades, blijft het Hulpprogramma voor migratie van gebruike
 
 **[Stap 6: Implementatie en functie-updates voor het besturingssysteem](https://aka.ms/mdd6)** Nu alles is voorbereid, is de volgende stap het implementeren van de installatiekopieën van het besturingssysteem. Een groot deel van het zware werk kan worden uitgevoerd met behulp van de System Center Configuration Manage-takenreeksen en -infrastructuur. De aanbevolen procedure is om in fasen te implementeren, waarbij u eerst een “early adopter group” in uw organisatie aanwijst met behulp van een representatieve set van hardware en apps. Vervolgens kunt u de gegevens van die apparaten en gebruikers gebruiken om u langzaamaan op steeds meer pc‘s te richten. 
 
-[Inleiding tot implementatie van het besturingssysteem in Configuration Manager](https://docs.microsoft.com/configmgr/osd/understand/introduction-to-operating-system-deployment)
+[Inleiding tot implementatie van het besturingssysteem in Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
 
 **[Stap 7: Windows en Office als een service](https://aka.ms/mdd7)** Dit vertegenwoordigt een enorme verschuiving in de manier waarop u de zaken op de desktops van uw gebruikers behoudt. Met deze overstap naar Windows 10 en Microsoft 365-apps voor ondernemingen kunt u doorgaan met het beheren van Windows en Office als een service. In plaats van elke paar jaar een enorme verschuiving in de technologie te implementeren, levert u nu voortdurend nieuwe functies, ervaringen en beveiligingen aan uw gebruiker. De halfjaarlijkse functie-updates bieden nieuwe mogelijkheden in de herfst en lente van elk jaar, terwijl maandelijkse cumulatieve kwaliteitsupdates oplossingen bieden voor beveiliging, betrouwbaarheid en fouten. U kunt er ook voor kiezen om de Office 2019-client te implementeren. U wordt ten zeerste aangeraden om over te stappen op Microsoft 365-apps voor ondernemingen. Dit volgt een vergelijkbaar serviceplan als Windows, zodat uw gebruikers ook regelmatig updates voor de Office-apps ontvangen.
 
 ![](../media/getting-started-media/getting-started-media-2.png)
 
 [Overzicht van Windows als een service](https://docs.microsoft.com/windows/deployment/update/waas-overview)
-[Overzicht van Office als een service](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
+[Overzicht van Office als een service](https://docs.microsoft.com/DeployOffice/overview-update-channels)
 
 **[Stap 8: Communicatie en training voor gebruikers](https://aka.ms/mdd8)** Deze laatste stap is essentieel om het gebruik van nieuwe mogelijkheden te stimuleren en zo teamwork, communicatie, beveiliging en meer te verbeteren. Voordat een brede implementatie wordt gericht op gebruikers buiten de eerste implementatiecirkel, raden we u aan gebruikerscommunicatie en -training uit te voeren. Hiermee kunt u de gewenste wijzigingen aanbrengen in de manier waarop personen nieuwe functies gebruiken in Office, Windows of andere zakelijke apps en services. Om u hierbij te helpen, bieden we gratis online training aan via Microsoft FastTrack. Bovendien hebben we gratis voorbeelden van communicatieplannen en tijdlijnen gepubliceerd, samen met e-mail-, sociale- en intranet-sjablonen, die u kunnen helpen bij uw implementatie van Windows 10. Als een Microsoft 365-organisatie kan uw organisatie ook in aanmerking komen voor rechtstreekse ondersteuning.
 

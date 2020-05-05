@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Leer hoe u Office-en LOB-apps kunt leveren.
-ms.openlocfilehash: bf610f6d6684cf8fb6211301468747fbecf3d8f1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ab40e59face9e8c4b37db15a9c815ea5579b4a2c
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636794"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011637"
 ---
 # <a name="step-3-office-and-lob-app-delivery"></a>Stap 3: Levering van Office- en LOB-apps
 
@@ -63,9 +63,9 @@ Een ander veelgebruikte methode voor de levering van apps is PC-imaging. In dit 
 
 Als u Microsoft 365-apps voor ondernemingen in uw installatiekopie wilt opnemen, is activering door de gebruiker vereist. Dit kan niet vooraf worden geactiveerd door de systeembeheerder. Gebruik het Office-implementatieprogramma om Office vooraf te installeren op het apparaat dat u repliceert en sla de aanmelding door de gebruiker over. Wanneer de installatiekopie is geïmplementeerd, kunnen eindgebruikers zich aanmelden met hun referenties en Microsoft 365-apps voor ondernemingen activeren.
 
-[Een takenreeks maken om een besturingssysteem te installeren](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
+[Een takenreeks maken om een besturingssysteem te installeren](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
-[Microsoft 365-apps voor ondernemingen implementeren als onderdeel van een installatiekopie van een besturingssysteem](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
+[Microsoft 365-apps implementeren als onderdeel van een installatiekopie van een besturingssysteem](https://docs.microsoft.com/deployoffice/deploy-microsoft-365-apps-operating-system-image)
 
 ## <a name="office-click-to-run"></a>Office Klik-en-Klaar 
 
@@ -81,11 +81,11 @@ Als u Configuration Manager gebruikt, kunt u dit nog steeds gebruiken voor een b
 
 ![](../media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-6.png)
 
-[Implementatiegids voor Microsoft 365-apps voor ondernemingen](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
+[Implementatiegids voor Microsoft 365-apps](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
 
-[Bestaande MSI-versies van Office verwijderen bij het uitvoeren van een upgrade naar Microsoft 365-apps voor ondernemingen](https://docs.microsoft.com/deployoffice/upgrade-from-msi-version)
+[Bestaande MSI-versies van Office verwijderen bij het uitvoeren van een upgrade naar Microsoft 365-apps](https://docs.microsoft.com/deployoffice/upgrade-from-msi-version)
 
-[Microsoft 365-apps voor ondernemingen beheren met Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
+[Microsoft 365-apps voor ondernemingen beheren met Configuration Manager](https://docs.microsoft.com/mem/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
 
 [Office 365-apps toewijzen aan Windows 10-apparaten met Microsoft Intune](https://docs.microsoft.com/intune/apps-add-office365)
 
