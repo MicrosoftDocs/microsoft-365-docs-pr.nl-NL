@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: dfc2136f04ed128fc655386c6eef7b91c5e5ef3a
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 12e68cd8fcd7c784b1d0b4c70c5c25370cbbb409
+ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011269"
+ms.locfileid: "44016000"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Vereisten voor Microsoft-bedreigingsbeveiliging
 
@@ -34,9 +34,6 @@ ms.locfileid: "44011269"
 Meer informatie over de vereisten voor licenties, hardware en software en andere configuratie-instellingen voor het inrichten en gebruiken van Microsoft Threat Protection.
 
 ## <a name="licensing-requirements"></a>Licentievereisten
-
->[!IMPORTANT]
->Vanaf 3 mei 2020 zal Microsoft geleidelijk nieuwe, geoptimaliseerde ervaringen rond licentievereisten uitrollen en [Microsoft Threat Protection inschakelen.](mtp-enable.md) Gedurende enkele weken tijdens deze periode zullen sommige klanten wijzigingen in hun portalervaringen gaan zien. Informatie over de nieuwe ervaringen zijn gemarkeerd **Nieuwe ervaring** in dit artikel.
 
 Als u Microsoft Threat Protection wilt gebruiken, hebt u één licentie of een combinatie van licenties nodig. Deze licenties of licentiecombinaties geven u zonder extra kosten toegang tot microsoft threat protection-functies.
 
@@ -56,19 +53,6 @@ U ook een combinatie van licenties voor E5- of A5-abonnementen op Office 365, *E
 Bekijk de [Serviceplannen van Microsoft 365 Enterprise voor](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise)meer informatie.
 
 > Heb je nog geen rijbewijs? [Koop een Microsoft 365-abonnement of probeer er een uit](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide)
-
-
-**Nieuwe ervaring:** Vanaf 3 mei 2020 krijgen klanten geleidelijk wijzigingen in deze ervaring. Voor degenen met de nieuwe ervaring is de optie om Microsoft Threat Protection in te schakelen beschikbaar voor *alle* klanten met een van de volgende licenties:
-
-- Microsoft 365 E5 of A5
-- Microsoft 365 E5-beveiliging of A5-beveiliging
-- Windows 10 Enterprise E5 of A5
-- Enterprise Mobility + Security (EMS) E5 of A5 
-- Office 365 E5 of A5
-- Microsoft Defender Advanced Threat Protection 
-- Azure Advanced Threat Protection 
-- Microsoft Cloud App Security 
-- Geavanceerde beveiliging van geavanceerde bedreigingen in Office 365 (abonnement 2) 
 
 ### <a name="check-your-existing--licenses"></a>Controleer uw bestaande licenties
 Ga naar het Microsoft 365-beheercentrum[(admin.microsoft.com)](https://admin.microsoft.com/)om uw bestaande licenties te bekijken. Ga in het beheercentrum naar **Factureringslicenties** > **Licenses**.

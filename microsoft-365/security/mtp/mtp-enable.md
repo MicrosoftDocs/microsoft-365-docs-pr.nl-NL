@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 0bb91f226a29fe6b175cf1ca4866316d1457291e
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 394fceffb96350b7702c5eef4a8138b3eb53f714
+ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011861"
+ms.locfileid: "44016072"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection inschakelen
 
@@ -45,9 +45,6 @@ U moet een **globale beheerder** of **beveiligingsbeheerder** in Azure Active Di
 
 ## <a name="start-using-the-service"></a>De service gaan gebruiken
 
->[!IMPORTANT]
->Vanaf 3 mei 2020 zal Microsoft geleidelijk nieuwe, geoptimaliseerde ervaringen rond [licentievereisten](prerequisites.md#licensing-requirements) uitrollen en Microsoft Threat Protection inschakelen. Gedurende enkele weken tijdens deze periode zullen sommige klanten wijzigingen in hun portalervaringen gaan zien. Informatie over de nieuwe ervaringen zijn gemarkeerd **Nieuwe ervaring** in dit artikel.
-
 Microsoft Threat Protection verzamelt gegevens van de verschillende geïntegreerde services. Het zal gegevens centraal verwerken en opslaan om nieuwe inzichten te identificeren en gecentraliseerde responsworkflows mogelijk te maken. Het doet dit zonder dat dit gevolgen heeft voor bestaande implementaties, instellingen of gegevens die zijn gekoppeld aan de geïntegreerde services.
 
 Voordat u de service inschakelt, wordt in het Microsoft 365-beveiligingscentrum[(security.microsoft.com](https://security.microsoft.com)) de welkomstpagina van Microsoft Threat Protection weergegeven wanneer u **Incidenten,** **actiecentrum**of **Jagen** selecteert in het navigatiedeelvenster. Deze navigatieopties worden niet weergegeven als u niet in aanmerking komt voor microsoft-beveiligingsbeveiliging.
@@ -64,8 +61,6 @@ Als u Microsoft Threat Protection wilt inschakelen, voltooit u het proces vanaf 
 Als Microsoft Defender ATP is ingericht voor uw organisatie, worden gegevens opgeslagen en verwerkt op dezelfde datacenterlocatie die u hebt geselecteerd voor [uw ATP-gegevens](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)van Microsoft Defender. Als u geen Microsoft Defender ATP hebt, wordt u gevraagd om een nieuwe datacenterlocatie te kiezen die specifiek voor Microsoft Threat Protection is bedoeld. 
  
 U moet toestemming geven voordat gegevens worden gedeeld tussen services en worden samengevoegd.
-
-**Nieuwe ervaring:** Vanaf 3 mei 2020 krijgen klanten geleidelijk wijzigingen in deze ervaring. Voor degenen met de nieuwe ervaring selecteert de service automatisch de optimale datacenterlocatie voor uw geaggregeerde gegevens op basis van uw bestaande Microsoft 365-beveiligingsservices. De geselecteerde locatie van het datacenter wordt weergegeven in het scherm.
 
 ### <a name="confirm-that-the-service-is-on"></a>Controleren of de service is ingeschakeld
 Zodra de service is ingericht, voegt het toe:

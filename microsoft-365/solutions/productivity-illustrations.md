@@ -14,12 +14,12 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-ms.openlocfilehash: 8b792fa659866682df32130992340d9089aebfe7
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 8482c6591958e36f2c764d61f3fa7116f348f8d8
+ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011849"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44022130"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Illustraties voor Microsoft 365-productiviteit
 
@@ -121,16 +121,7 @@ Bijgewerkt januari 2019
 
 Zie voor meer informatie het artikel voor deze poster: [Microsoft Telephony Solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
   
-<a name="msd"></a>
-### <a name="deploy-a-modern-and-secure-desktop-with-microsoft"></a>Een moderne en beveiligde desktop implementeren met Microsoft
-
-Wat IT-architecten moeten weten over het implementeren en beheren van updates voor Microsoft 365 Apps for enterprise (voorheen Office 365 ProPlus genoemd) op Windows 10.
   
-
-|**Item**|**Beschrijving**|
-|:-----|:-----|
-|[![Miniatuur voor het implementeren van een moderne en veilige desktop met Microsoft-model](../media/solutions-architecture-center/deploy-modern-desktop-thumb.png)](https://www.microsoft.com/download/details.aspx?id=55987) <br/> [PDF](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.pdf)  \| [Visio](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.vsdx) <br/>Bijgewerkt in september 2017 | Dit model bevat: <ul><li>  Windows 10- en Microsoft 365-apps voor bedrijven implementeren vanuit de Microsoft-cloud </li><li>  Windows 10- en Microsoft 365-apps voor bedrijven implementeren met Microsoft Endpoint Configuration Manager </li><li>  Updates voor Windows 10 en Microsoft 365 Apps voor bedrijven beheren vanuit de Microsoft-cloud </li><li>  Updates voor Windows 10- en Microsoft 365-apps voor bedrijven beheren met Microsoft Endpoint Configuration Manager </li><li>  Out-of-the-box en extra beveiligingsmogelijkheden van Windows 10 </li></ul><br/> |
-   
 ## <a name="see-also"></a>Zie ook
 
 [Architectuurmodellen voor SharePoint, Exchange, Skype voor Bedrijven en Lync](https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync)

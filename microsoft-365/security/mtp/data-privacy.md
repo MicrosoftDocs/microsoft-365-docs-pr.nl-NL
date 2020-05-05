@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 81773481f79a70cb5996696c9554dfe744170e8c
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: d11fdc58f44c9e4bacb708fb246fdea40eb75cff
+ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011241"
+ms.locfileid: "44016060"
 ---
 # <a name="microsoft-threat-protection-data-security-and-privacy"></a>Gegevensbeveiliging en privacy van Microsoft Threat Protection
 
@@ -33,7 +33,7 @@ ms.locfileid: "44011241"
 
 Door de Microsoft Threat Protection te gebruiken, stemt u in met de volgende voorwaarden:
 
-*De MTP-service (Microsoft Threat Protection) brengt bepaalde klantgegevens van andere online services van Microsoft over naar MTP en van MTP terug naar die online services van Microsoft enterprise. Deze gegevensoverdrachten worden geregeld door de [voorwaarden voor onlineservices](https://go.microsoft.com/fwlink/?linkid=2127420) en worden verder beschreven in het [Microsoft Trust Center.](https://go.microsoft.com/fwlink/?linkid=2127550)*
+*Door Microsoft Threat Protection (MTP) in te schakelen, stemt u in met de volgende voorwaarden. Uw toepasselijke klantgegevens zoals gedefinieerd in de Online Service Terms (OST) worden overgedragen van andere Microsoft-services naar MTP. Het gebruik van uw klantgegevens in MTP volgt de normen en toezeggingen voor gegevensverwerking voor Microsoft Defender Advanced Threat Protection (Microsoft Defender ATP). U erkent dat dergelijke toezeggingen kunnen verschillen van de services van die klantgegevens die worden overgedragen. Verder worden klantgegevens die in MTP zijn opgeslagen, in rust opgeslagen in de Geo die u hebt geselecteerd voor de opslag van uw MDATP-klantgegevens, die kunnen verschillen van de Geo die u hebt geselecteerd in verband met andere services. Microsoft zal de klantgegevens niet buiten een dergelijke geo overdragen, behalve zoals vermeld in de sectie Gegevenslocatie van het [Microsoft Trust Center.](https://www.microsoft.com/trust-center)*
 
 Zie voor meer informatie over de gegevensopslag en privacyinformatie van de specifieke producten:
 - [Microsoft Defender ATP-gegevensopslag en -privacy](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
