@@ -1,5 +1,5 @@
 ---
-title: Veelgestelde vragen over eop-wachtrijen, uitgestelde en teruggestuurde berichten
+title: Veelgestelde vragen over in een wachtrij geplaatste, uitgestelde en niet-bezorgde berichten in EOP
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9d015a0d-52a0-484d-9a08-121d04f973d3
-description: In dit onderwerp vindt u antwoorden op veelgestelde vragen over berichten die in de wachtrij staan, uitgesteld of teruggestuurd zijn tijdens het EOP-filterproces (Microsoft Exchange Online Protection).
-ms.openlocfilehash: 05993e8d0e9af69dd1ac35b588c4e8ec731642f7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.custom:
+- seo-marvel-apr2020
+description: Antwoorden vinden op veelgestelde vragen over berichten die in de wachtrij staan, uitgesteld of teruggestuurd zijn tijdens het EOP-filterproces (Microsoft Exchange Online Protection).
+ms.openlocfilehash: f7a7c8b5466e02353ca114d6c7ed44f37bed5592
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42810217"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036546"
 ---
-# <a name="eop-queued-deferred-and-bounced-messages-faq"></a>Veelgestelde vragen over eop-wachtrijen, uitgestelde en teruggestuurde berichten
+# <a name="eop-queued-deferred-and-bounced-messages-faq"></a>Veelgestelde vragen over in een wachtrij geplaatste, uitgestelde en niet-bezorgde berichten in EOP
 
 In dit onderwerp vindt u antwoorden op veelgestelde vragen over berichten die in de wachtrij staan, uitgesteld of teruggestuurd zijn tijdens het EOP-filterproces (Microsoft Exchange Online Protection).
 

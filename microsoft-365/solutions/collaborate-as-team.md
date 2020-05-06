@@ -11,15 +11,16 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - M365solutions
+- seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
-description: Meer informatie over hoe u samenwerken met gasten in Teams.
-ms.openlocfilehash: 7d840628ce6d987a907e8be2c8a3c3c5125f7d33
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+description: Meer informatie over de Microsoft 365-configuratiestappen die nodig zijn om een team in te stellen voor samenwerking met gasten in Teams.
+ms.openlocfilehash: bf074d9115d8e5d9e2c7c265ee96e493ac3d59e3
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002190"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036005"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Samenwerken met gasten in een team
 
@@ -58,19 +59,19 @@ Teams heeft een master-aan/uit-schakelaar voor gasttoegang en een verscheidenhei
 
 Controleer of de toegang van gasten is ingeschakeld in Teams en breng de gastinstellingen aan op basis van uw bedrijfsbehoeften. Houd er rekening mee dat deze instellingen van invloed zijn op alle teams.
 
-![Schermafbeelding van schakelaar gasttoegang in Teams](../media/teams-guest-access-toggle-on.png)
+![Schermafbeelding van wisselknop Gasttoegang in Teams](../media/teams-guest-access-toggle-on.png)
 
-Instellingen voor gasttoegang van Teams instellen
+Instellingen voor gasttoegang in Teams instellen
 
-1. Meld u aan bij het Microsoft [https://admin.microsoft.com](https://admin.microsoft.com)365-beheercentrum op .
-2. Klik in de linkernavigatie op **Alles weergeven**.
-3. Klik **onder Beheercentra**op **Teams**.
-4. Vouw in het beheercentrum Teams in de linkernavigatie **instellingen voor de hele organisatie** uit en klik op **Gasttoegang**.
-5. Controleer of **Gasttoegang toestaan in Teams** is ingesteld op **Aan**.
-6. Breng de gewenste wijzigingen aan in de extra gastinstellingen en klik op **Opslaan**.
+1. Meld u aan bij het Microsoft 365-beheercentrum op [https://admin.microsoft.com](https://admin.microsoft.com).
+2. Klik in het navigatievenster aan de linkerkant op **Alles weergeven**.
+3. Klik onder **Beheercentra** op **Teams**.
+4. Vouw in het Teams-beheercentrum in het linkernavigatievenster **Instellingen voor hele organisatie** uit en klik vervolgens op **Gasttoegang**.
+5. Zorg ervoor dat **Gasttoegang in Teams toestaan** is ingesteld op **Aan**.
+6. Breng de gewenste wijzigingen aan in de extra gastinstellingen en klik vervolgens op **Opslaan**.
 
 > [!NOTE]
-> Het kan tot vierentwintig uur duren voordat de gastinstelling Teams actief is nadat u deze hebt ingeschakeld.
+> Het kan 24 uur duren voordat de instelling voor gasten in Teams actief wordt nadat u deze hebt ingeschakeld.
 
 ## <a name="microsoft-365-groups-guest-settings"></a>Gastinstellingen voor Microsoft 365-groepen
 

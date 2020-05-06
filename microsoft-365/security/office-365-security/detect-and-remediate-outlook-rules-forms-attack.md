@@ -1,5 +1,5 @@
 ---
-title: Outlook-regels en aangepaste aanvallen op formuliereninjecties detecteren en herstellen
+title: Detecteren en herstellen van de Outlook-regels en aangepaste formulieren injecties aanvallen.
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -16,12 +16,13 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Meer informatie over het herkennen en herstellen van outlook-regels en aangepaste aanvallen op het uitvoeren van formulieren in Office 365
-ms.openlocfilehash: 71f796f589157a8eb801af3da78d67d16534447b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6e818d05465f7b91268cc44c345c6699e8c6d0ed
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637590"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034814"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook-regels en injecties met aangepaste formulieren detecteren en herstellen
 
@@ -234,9 +235,9 @@ Zoek naar de sleutel EnableUnsafeClientMailRules. Als deze er is en is ingesteld
 
 Klanten met on-premises Exchange-installaties moeten overwegen oudere versies van Outlook te blokkeren die geen patches beschikbaar hebben. Details over dit proces vindt u in het artikel [Outlook-clientblokkering configureren](https://docs.microsoft.com/exchange/configure-outlook-client-blocking-exchange-2013-help).
 
-## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Beveilig Microsoft 365 als een cybersecurity pro
+## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Microsoft 365 beveiligen als een cybersecurity pro
 
-Uw Microsoft 365-abonnement wordt geleverd met een krachtige set beveiligingsmogelijkheden die u gebruiken om uw gegevens en uw gebruikers te beschermen. Gebruik de [microsoft 365-beveiligingsroadmap - Topprioriteiten voor de eerste 30 dagen, 90 dagen en daarna](security-roadmap.md) om de aanbevolen aanbevolen aanbevolen microsoft-aanbevolen procedures voor het beveiligen van uw Microsoft 365-tenant te implementeren.
+Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkheden die u kunt gebruiken om uw gegevens en gebruikers te beschermen. Gebruik de [Microsoft 365-roadmap voor beveiliging - Topprioriteiten voor de eerste 30 dagen, 90 dagen en verder](security-roadmap.md) om door Microsoft aanbevolen procedures voor het beveiligen van uw Microsoft 365-tenant te implementeren.
 
 - Taken die in de eerste 30 dagen moeten worden uitgevoerd. Deze hebben direct effect en weinig invloed op uw gebruikers.
 

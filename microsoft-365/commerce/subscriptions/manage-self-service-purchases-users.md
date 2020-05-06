@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Gebruikers kunnen leren hoe ze hun selfservice-aankopen kunnen beheren.
-ms.openlocfilehash: f4be2176d970af426817e975b9942ce5e2b89a9e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ed84bfc215d000eaa144aaf1f6eac281fc5a0c16
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636637"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046166"
 ---
 # <a name="manage-self-service-purchases-users"></a>Selfservice-aankopen beheren (Gebruikers)
 
@@ -30,11 +30,11 @@ Uw beheerder heeft een alleen-lezen weergave van alle abonnementen die u koopt. 
 
 ## <a name="view-your-subscriptions"></a>Uw abonnementen bekijken
 
-U een lijst bekijken van alle selfservice gekochte abonnementen die u hebt gekocht. Ga in het beheercentrum naar de pagina >  **Factureringsproducten**<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& services.</a>
+U een lijst bekijken van alle selfservice gekochte abonnementen die u hebt gekocht. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 ## <a name="how-to-buy-more-or-reduce-licenses"></a>Meer kopen of licenties verminderen
 
-1. Ga in het beheercentrum naar de pagina >  **Factureringsproducten**<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& services.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Zoek het abonnement waarvoor u meer wilt kopen of voor licenties wilt verminderen.
 
@@ -74,7 +74,7 @@ Als u bijvoorbeeld 100 licenties hebt en u 5 extra licenties wilt toevoegen, voe
 
 ## <a name="cancel-a-subscription"></a>Een abonnement opzeggen
 
-1. Ga in het beheercentrum naar de pagina >  **Factureringsproducten**<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& services.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Zoek het abonnement dat u wilt opzeggen.
 

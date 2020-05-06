@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Leer Microsoft 365-groepen maken en verwijderen, groepsleden toevoegen en verwijderen en aanpassen hoe de groep werkt.
-ms.openlocfilehash: d37058fa3ef3803f3a8f6099d46e1262f314e501
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a691f2363547c5bffb4c674d61cddde0cdb0266a
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630453"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049213"
 ---
 # <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Een groep maken in het Microsoft 365-beheercentrum
   
 Hoewel gebruikers een Microsoft 365-groep kunnen maken vanuit Outlook of andere apps, moet u als beheerder mogelijk groepen maken of verwijderen, leden toevoegen of verwijderen en aanpassen hoe ze werken. Het Microsoft 365-beheercentrum is de plek om dit te doen. 
 
 > [!TIP]
-> Microsoft 365-verbonden Yammer-groepen moeten worden gemaakt in Yammer, maar kunnen worden beheerd in het Microsoft 365-beheercentrum, net als andere Microsoft 365-groepen. Zie [Yammer- en Microsoft 365-groepen](https://support.office.com/article/d8c239dc-a48b-47ab-b85e-6b4b8191a869.aspx)voor meer informatie. 
+> Microsoft 365-verbonden Yammer-groepen moeten worden gemaakt in Yammer, maar kunnen worden beheerd in het Microsoft 365-beheercentrum, net als andere Microsoft 365-groepen. Zie [Yammer- en Microsoft 365-groepen](https://docs.microsoft.com/yammer/manage-yammer-groups/yammer-and-office-365-groups)voor meer informatie. 
 
 ## <a name="create-a-microsoft-365-group"></a>Een Microsoft 365-groep maken
 
@@ -57,7 +57,7 @@ Zodra de groep is gemaakt, u leden toevoegen en extra instellingen configureren.
 
 ::: moniker range="o365-worldwide"
 
-Gebruikers kunnen [zichzelf toevoegen of goedkeuring aanvragen,](https://support.office.com/article/Join-a-group-in-Outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d)of u ze nu toevoegen.
+Gebruikers kunnen [zichzelf toevoegen of goedkeuring aanvragen,](https://support.microsoft.com/en-us/office/join-a-group-in-outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d)of u ze nu toevoegen.
 
 1. Vernieuw in het beheercentrum de pagina zodat uw nieuwe groep wordt weergegeven en selecteer vervolgens de naam van de groep waaraan u leden wilt toevoegen.
     
@@ -75,7 +75,7 @@ De groep wordt weergegeven in Outlook met leden die eraan zijn toegewezen.
 
 ::: moniker range="o365-germany"
 
-Gebruikers kunnen [zichzelf toevoegen of goedkeuring aanvragen,](https://support.office.com/article/Join-a-group-in-Outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d)of u ze nu toevoegen.
+Gebruikers kunnen [zichzelf toevoegen of goedkeuring aanvragen,](https://support.microsoft.com/en-us/office/join-a-group-in-outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d)of u ze nu toevoegen.
 1. Vernieuw in het beheercentrum de pagina zodat uw nieuwe groep wordt weergegeven, selecteer <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepen</a> **groepen** \> en selecteer vervolgens de groep waaraan u leden wilt toevoegen.
     
 2. Selecteer Naast **Leden**de optie **Bewerken**.
@@ -91,7 +91,7 @@ De groep wordt weergegeven in Outlook met leden die eraan zijn toegewezen.
 
 ::: moniker range="o365-21vianet"
 
-Gebruikers kunnen [zichzelf toevoegen of goedkeuring aanvragen,](https://support.office.com/article/Join-a-group-in-Outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d)of u ze nu toevoegen.
+Gebruikers kunnen [zichzelf toevoegen of goedkeuring aanvragen,](https://support.microsoft.com/en-us/office/join-a-group-in-outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d)of u ze nu toevoegen.
 1. Vernieuw in het beheercentrum de pagina zodat uw nieuwe groep wordt weergegeven, selecteer <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepen</a> **groepen** \> en selecteer vervolgens de groep waaraan u leden wilt toevoegen.
     
 2. Selecteer Naast **Leden**de optie **Bewerken**.
@@ -119,7 +119,7 @@ Nadat u een nieuwe groep hebt gemaakt en leden hebt toegevoegd, u uw groep verde
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Gasttoegang tot Microsoft 365-groepen beheren](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
+[Gasttoegang tot Microsoft 365-groepen beheren](https://support.office.com/article/adding-guests-to-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
 [Het domein kiezen dat u wilt gebruiken bij het maken van Microsoft 365-groepen](choose-domain-to-create-groups.md)
 

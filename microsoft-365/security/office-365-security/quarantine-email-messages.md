@@ -17,13 +17,15 @@ search.appverid:
 ms.assetid: 4c234874-015e-4768-8495-98fcccfc639b
 ms.collection:
 - M365-security-compliance
-description: Quarantaine in Microsoft 365 bevat potentieel gevaarlijke of ongewenste berichten. Beheerders en eindgebruikers hebben toegang tot quarantaine.
-ms.openlocfilehash: 2e2a83bc2ff2d57cf3310e2cb17a656683dbed47
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: In dit artikel wordt in quarantaine in Microsoft 365 uitgelegd. Quarantaine bevat potentieel gevaarlijke of ongewenste berichten.
+ms.openlocfilehash: 396be17e07a347ab4d28a3e0b67dd137bda999db
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634434"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033864"
 ---
 # <a name="quarantine-email-messages"></a>E-mailberichten in quarantaine plaatsen
 

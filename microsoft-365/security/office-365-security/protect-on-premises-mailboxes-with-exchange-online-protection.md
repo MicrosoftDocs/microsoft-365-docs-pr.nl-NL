@@ -1,5 +1,5 @@
 ---
-title: On-premises postvakken beschermen met Exchange Online Protection
+title: On-premises postvak beveiligen - Exchange Online Protection
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -18,13 +18,15 @@ search.appverid:
 ms.assetid: c5e95951-da67-4ec7-92c5-982abd477e69
 ms.collection:
 - M365-security-compliance
-description: Zelfs als u van plan bent om sommige of al uw postvakken on-premises te hosten, u de postvakken nog steeds beveiligen met Exchange Online Protection (EOP). Om connectors te configureren, moet uw account een globale beheerder zijn of een Exchange Company Administrator (de rolegroup Organisatiebeheer). Zie Beheerdersrollen toewijzen in Office 365, uitgevoerd door 21Vianet, voor informatie over hoe Office 365-machtigingen zich verhouden tot Exchange-machtigingen. Als al uw Exchange-postvakken on-premise zijn, volgt u deze stappen om uw EOP-service in te stellen.
-ms.openlocfilehash: 5d60e762b46f6f6f9228fb21ea6450e015ed9d93
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: In dit artikel leert u hoe u on-premises postvakken beschermen met Exchange Online Protection (EOP)
+ms.openlocfilehash: bdfebf16d77f26f3e3bb2890bd4aa8ccfa12f27b
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634446"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033876"
 ---
 # <a name="protect-on-premises-mailboxes-with-exchange-online-protection"></a>On-premises postvakken beschermen met Exchange Online Protection
 

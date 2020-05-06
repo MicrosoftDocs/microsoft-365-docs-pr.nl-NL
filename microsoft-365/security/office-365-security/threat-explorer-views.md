@@ -13,13 +13,14 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over de verschillende soorten weergaven die beschikbaar zijn in Threat Explorer en realtime detecties.
-ms.openlocfilehash: ccee7905068619d959e0939aca8b31856dd114a1
-ms.sourcegitcommit: c758a4290d205394225a0df2fd667cb565c79c8f
+description: Meer informatie over het gebruik van Threat Explorer en het realtime detectierapport om bedreigingen te onderzoeken en erop te reageren in het Security & Compliance Center.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 31fa228d69fcbe885f7639a47a5df2bf1ee0c60d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43907247"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035186"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Weergaven in Threat Explorer en realtime detecties
 

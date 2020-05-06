@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: Meer informatie over het wijzigen van de betalingsmethode voor uw zakelijke abonnement.
-ms.openlocfilehash: 8b2528b694dcca181d0508e54894ca50364eac20
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 195bdcd580663fe2cb9789562a52208753500a79
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708153"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045902"
 ---
 # <a name="change-your-payment-method"></a>Uw betalingsmethode wijzigen
 
@@ -53,7 +53,7 @@ Als u overstapt van factuur naar creditcard of bankrekening, worden uw huidige f
 Als u overstapt van creditcard of bankrekening naar factuur, wordt het openstaande saldo overgemaakt naar uw volgende factuur.
   
 > [!NOTE]
-> Als u met een creditcard betaalt en uw creditcard wordt geweigerd, ontvangt u een e-mail waarin staat dat we de betaling niet hebben kunnen verwerken. U uw creditcardgegevens bijwerken en de betaling onmiddellijk indienen via de link **Saldo vereffenen** op de pagina **Producten & services.** Zie [Wat als mijn creditcard is geweigerd en mijn betaling achterstallig is voor](pay-for-your-subscription.md#what-if-my-credit-card-was-declined-and-my-payment-is-past-due) meer informatie. 
+> Als u met een creditcard betaalt en uw creditcard wordt geweigerd, ontvangt u een e-mail waarin staat dat we de betaling niet hebben kunnen verwerken. U uw creditcardgegevens bijwerken en de betaling onmiddellijk indienen via de link **Saldo vereffenen** op de pagina **Uw producten.** Zie [Wat als mijn creditcard is geweigerd en mijn betaling achterstallig is voor](pay-for-your-subscription.md#what-if-my-credit-card-was-declined-and-my-payment-is-past-due) meer informatie. 
   
 ::: moniker-end
 
@@ -86,9 +86,9 @@ Als u van *creditcard of bankrekening naar factuur*gaat, wordt het openstaande s
 > [!TIP]
 > De volgende stappen zijn alleen van toepassing op individuele abonnementen. Als u meerdere abonnementen in uw organisatie hebt, voert u deze stappen uit voor elk abonnement dat u wilt wijzigen.
   
-Wanneer u overstapt van betalen per factuur naar betalen met een creditcard of bankrekening, maken we automatisch een nieuw abonnement voor u aan, verplaatsen we uw gebruikers naar het nieuwe abonnement en schakelen we uw oude abonnement uit. Maak je geen zorgen, uw gebruikers zien geen onderbreking in de service en al hun informatie is beschikbaar via het nieuwe abonnement.
+Als u uw betalingswijze wijzigt van factuur naar betalen met een creditcard of via een bankrekening, maken we automatisch een nieuw abonnement voor u, verplaatsen we uw gebruikers naar het nieuwe abonnement en schakelen we vervolgens uw oude abonnement uit. Uw gebruikers merken daar niets van en al hun informatie is gewoon beschikbaar in het nieuwe abonnement.
 
-1. Ga in het beheercentrum naar de pagina\> **Factureringsproducten** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& services.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Als u zich in **de tabelweergave** bevindt, selecteert u **Kaarten**.
 
@@ -139,20 +139,20 @@ Wanneer u teruggaat naar de pagina **Abonnementen** ziet u dat het oude abonneme
 
 ## <a name="change-from-credit-card-or-bank-account-to-invoice"></a>Wijzigen van creditcard of bankrekening naar factuur
 
-U alleen overstappen op betaling per factuur als uw bestelling hoger is dan een bepaald aantal. Als u niet aan de vereiste voldoet, ziet u het bericht 'Uw orderhoeveelheid is niet groot genoeg om in aanmerking te komen voor factuur met chequedraad'.
+U kunt naar betalen per factuur wijzigen als de bestelling boven een bepaalde hoeveelheid ligt. Als u niet aan de vereiste voldoet, ziet u het bericht 'de bestelhoeveelheid is niet groot genoeg om in aanmerking te komen voor een factuur met bankoverschrijving'.
 
-Als uw bestelhoeveelheid te hoog is, is mogelijk een kredietcontrole vereist. Als dat het zo is, ziet u het bericht 'Niet in aanmerking komen om te wijzigen in factuur. Uw bestelling vereist een credit check." In dit geval gaat u handmatig over op betaling per factuur. Gebruik de volgende stappen om de handmatige wijziging uit te voeren.
+Als de bestelhoeveelheid te hoog is, kan een kredietcontrole zijn vereist. In dat geval ziet u het bericht 'komt niet in aanmerking voor wijzigen naar factuur. Voor uw bestelling is een kredietcontrole vereist.' In dit geval wijzigt u handmatig naar betalen per factuur. Gebruik de volgende stappen om de handmatige wijziging uit te voeren.
 
-1. Ga naar <a href="https://Office365.com" target="_blank">Office365.com</a> en koop hetzelfde abonnement als het abonnement dat je momenteel hebt. Kies bij het uitchecken de optie om per factuur te betalen.
+1. Ga naar <a href="https://Microsoft365.com" target="_blank">Microsoft365.com</a> en koop hetzelfde abonnement als het abonnement dat je momenteel hebt. Kies bij het uitchecken de optie om per factuur te betalen.
 
     > [!IMPORTANT]
-    > U de pagina **Producten & services** in het beheercentrum niet gebruiken om het abonnement te kopen. Je moet <a href="https://Office365.com" target="_blank">Office365.com</a>gebruiken.
+    > U de pagina **Uw producten** in het beheercentrum niet gebruiken om het abonnement te kopen. Je moet <a href="https://Microsoft365.com" target="_blank">Microsoft365.com</a>gebruiken.
 
 2. Nadat de aankoop is voltooid, annuleert u het oorspronkelijke abonnement. Uw gebruikers worden automatisch overgeschoven naar het nieuwe abonnement.
 
 Als er geen kredietcontrole vereist is, gebruikt u de volgende stappen om te wijzigen in betalen per factuur.
 
-1. Ga in het beheercentrum naar de pagina\> **Factureringsproducten** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& services.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Als u zich in **de tabelweergave** bevindt, selecteert u **Kaarten**.
 
@@ -198,7 +198,7 @@ Als er geen kredietcontrole vereist is, gebruikt u de volgende stappen om te wij
 
 U kunt op elk moment de volgende stappen uitvoeren om te controleren welke betalingswijze is geconfigureerd voor een abonnement.
 
-1. Ga in het beheercentrum naar de pagina\> **Factureringsproducten** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& services.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Zoek het abonnement dat u wilt verifiëren. De betalingsmethode die is geconfigureerd voor het abonnement, wordt weergegeven in de sectie **Facturering.**
 

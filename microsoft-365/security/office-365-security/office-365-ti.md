@@ -1,5 +1,5 @@
 ---
-title: Mogelijkheden voor bedreigingsonderzoek en -respons in Office 365 Advanced Threat Protection Plan 2
+title: Mogelijkheden voor bedreigingsonderzoek & - Office 365 ATP-abonnement 2
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,13 +16,15 @@ search.appverid:
 ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
-description: Ontdek hoe de mogelijkheden voor bedreigingsinformatie in Office 365 Advanced Threat Protection u kunnen helpen bij het onderzoeken van bedreigingen tegen uw organisatie, reageren op malware, phishing en andere aanvallen die Microsoft 365 namens u heeft gedetecteerd en zoeken naar bedreigingsindicatoren.
-ms.openlocfilehash: 9d89e84cc50b82b8cc5f2fe4e0e5ad6f4f85b091
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Meer informatie over mogelijkheden voor het onderzoeken en reageren van bedreigingen in het Advanced Threat Protection Plan van Office 365.
+ms.openlocfilehash: 61b08dc2b77c874e255547b2bcaef596ee017bf4
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634518"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033936"
 ---
 # <a name="threat-investigation-and-response"></a>Onderzoek naar bedreigingen en respons
 

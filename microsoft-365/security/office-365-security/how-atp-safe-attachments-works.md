@@ -14,13 +14,15 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: De functie Veilige bijlagen biedt time-of-click verificatie van e-mailbijlagen. Gebruik veilige bijlagen om uw organisatie te beschermen tegen schadelijke bestanden die mensen per e-mail verzenden of ontvangen.
-ms.openlocfilehash: 14a1b37ce08e0ab63c23515fcf0fb03d99e59cc8
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom:
+- seo-marvel-apr2020
+description: Lees hoe u voorkomen dat uw organisatie wordt beschermd tegen schadelijke bestanden met ATP Safe Attachments voor Office 365.
+ms.openlocfilehash: a0d5923ccac525b23aa2ef6b45936524f0a7b483
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943757"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036654"
 ---
 # <a name="how-atp-safe-attachments-works"></a>Hoe Veilige bijlagen in ATP werkt
 

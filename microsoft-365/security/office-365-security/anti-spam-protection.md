@@ -16,13 +16,15 @@ search.appverid:
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over de antispam-instellingen en -filters waarmee u spam voorkomen in Exchange Online en Microsoft 365. Krijg je te veel spam in Microsoft 365? U uw spamfilters en antispaminstellingen aanpassen.
-ms.openlocfilehash: 3bb1c81af0061cc20b4c7bb2a963c0d06b7914e3
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.custom:
+- seo-marvel-apr2020
+description: Meer informatie over de antispam-instellingen en -filters waarmee u spam voorkomen in Exchange Online en Microsoft 365.
+ms.openlocfilehash: 96132bf66438861eb117aedd841f7912de1258cc
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708569"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034056"
 ---
 # <a name="anti-spam-protection-in-microsoft-365"></a>Bescherming tegen spam in Microsoft 365
 
@@ -71,7 +73,7 @@ Hier volgen enkele aanbevolen procedures die van toepassing zijn op beide scenar
 
 - **E-mailverificatie gebruiken:** als u eigenaar bent van een e-maildomein, u DNS gebruiken om te verzekeren dat berichten van afzenders in dat domein legitiem zijn. Gebruik alle volgende e-mailverificatiemethoden om spam en ongewenste spoofing in EOP te voorkomen:
 
-  - **SPF**: Sender Policy Framework verifieert het bron-IP-adres van het bericht tegen de eigenaar van het verzendende domein. Zie [SPF instellen om spoofing te voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md)voor een snelle introductie tot SPF en om deze snel te configureren. Voor een diepgaander inzicht in hoe Microsoft 365 SPF gebruikt, of voor het oplossen van problemen of niet-standaardimplementaties zoals hybride implementaties, begint u met [hoe Microsoft 365 Sender Policy Framework (SPF) gebruikt om spoofing te voorkomen.](how-office-365-uses-spf-to-prevent-spoofing.md)
+  - **SPF**: Sender Policy Framework verifieert het bron-IP-adres van het bericht tegen de eigenaar van het verzendende domein. Zie [SPF instellen om spoofing te voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md)voor een snelle introductie tot SPF en om deze snel te configureren. Voor een beter begrip van hoe Microsoft 365 gebruikmaakt van SPF of voor het oplossen van problemen of niet-standaardimplementaties zoals hybride implementaties, begint u met [Hoe Microsoft 365 gebruikmaakt van SPF (Sender Policy Framework) om spoofing te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md).
 
   - **DKIM**: DomainKeys Identified Mail voegt een digitale handtekening toe aan de berichtheader van berichten die vanuit uw domein worden verzonden. Zie [DKIM gebruiken om uitgaande e-mail die vanuit uw aangepaste domein in Microsoft 365 is verzonden, te valideren.](use-dkim-to-validate-outbound-email.md)
 

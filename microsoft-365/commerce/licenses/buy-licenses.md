@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
 description: Meer informatie over het toevoegen en verwijderen van licenties voor uw Microsoft 365 voor Bedrijven-abonnement.
-ms.openlocfilehash: ce14021b3d6efaa14c9010a82ad4b522b0b08339
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 57768a7e93b19c14c5428508268c2c1e37d700f6
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632527"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045222"
 ---
 # <a name="manage-subscription-licenses"></a>Abonnementslicenties beheren
 
@@ -42,9 +42,9 @@ U kunt een licentie niet uit een abonnement verwijderen als die licentie is toeg
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
-2. Zoek op de pagina **Producten & services** het abonnement waarop u licenties wilt toevoegen of verwijderen en selecteer licenties **toevoegen/verwijderen.**
+2. Zoek op de pagina **Uw producten** het abonnement waaraan u licenties wilt toevoegen of verwijderen en selecteer vervolgens **Licenties toevoegen/verwijderen.**
 
     [Wat is er aan de hand als ik de koppeling Toevoegen/verwijderen niet zie?](#what-if-i-dont-see-the-addremove-licenses-link)
 

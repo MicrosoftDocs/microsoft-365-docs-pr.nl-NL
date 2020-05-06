@@ -17,13 +17,14 @@ search.appverid:
 ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over antivirusbeveiliging in SharePoint Online.
-ms.openlocfilehash: f04cd18bb4880ab631816c90b4976beada436225
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Meer informatie over hoe SharePoint Online virussen detecteert in bestanden die gebruikers uploaden en gebruikers voorkomen dat de bestanden worden gedownload of gesynchroniseerd.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6a47f52a30f90d7a19cc01dc9e14eb9b534ec244
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630939"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034948"
 ---
 # <a name="virus-detection-in-sharepoint-online"></a>Virusdetectie in SharePoint Online
 

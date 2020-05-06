@@ -1,6 +1,6 @@
 ---
 title: Tickets maken en volgen via ServiceNow
-description: Microsoft 365 security center wordt verbeterd met de mogelijkheid om native te maken en te volgen tickets in ServiceNow. Beveiligingsbeheerders kunnen een aanbeveling voor een beveiligde score rechtstreeks naar ServiceNow verzenden en een ticket maken.
+description: Meer informatie over het maken en bijhouden van tickets in ServiceNow vanuit het Microsoft 365-beveiligingscentrum.
 keywords: beveiliging, Microsoft 365, M365, beveiligde score, beveiligingscentrum, ServiceNow, tickets, taken
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -17,12 +17,14 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: eb6af6b11d2d932f3bd2165aa3f597c14feb5ae8
-ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
+ms.custom:
+- seo-marvel-apr2020
+ms.openlocfilehash: 6070878d6cf0efd8a85d05ff6ef89ee49baf4144
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901020"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034186"
 ---
 # <a name="manage-tickets-through-servicenow"></a>Tickets beheren via ServiceNow
 

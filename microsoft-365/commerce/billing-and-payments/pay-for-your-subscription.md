@@ -24,12 +24,12 @@ description: Meer informatie over welke betalingsopties beschikbaar zijn om te b
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: ccf04de4fe11469241e734a202aad3e20778843c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 599eb7eafda81f59b02ab11c822307d0db0c49c2
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635014"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045834"
 ---
 # <a name="pay-for-your-subscription"></a>Betalen voor uw abonnement
 
@@ -44,14 +44,14 @@ Als u via een creditcard of bankrekening betaalt, worden automatisch kosten in r
 
 ### <a name="what-if-my-credit-card-was-declined-and-my-payment-is-past-due"></a>Wat gebeurt er als mijn creditcard is geweigerd en mijn betaling achterstallig is?
 
-Als u via creditcard betaalt maar uw creditcard wordt geweigerd, ontvangt u een e-mailbericht met de mededeling dat we de betaling niet konden verwerken. Dit kan verschillende oorzaken hebben, waaronder dat de creditcard is verlopen. We zullen om de paar dagen proberen de transactie opnieuw uit te voeren. Als deze pogingen niet slagen, blijft u e-mailberichten ontvangen over deze mislukte pogingen. U de functie **Saldo vereffenen** op elk gewenst moment gebruiken om uw creditcardgegevens te wijzigen en de betaling onmiddellijk opnieuw in te dienen.
+Als u via creditcard betaalt maar uw creditcard wordt geweigerd, ontvangt u een e-mailbericht met de mededeling dat we de betaling niet konden verwerken. Dit kan verschillende oorzaken hebben, waaronder dat de creditcard is verlopen. We zullen om de paar dagen proberen de transactie opnieuw uit te voeren. Als deze pogingen niet slagen, blijft u e-mailberichten ontvangen over deze mislukte pogingen. U kunt met behulp van de functie **Saldo vereffenen** op elk gewenst moment uw creditcardgegevens wijzigen en de betaling onmiddellijk opnieuw verzenden.
 
 > [!NOTE]
 > Als u naar een andere creditcard overschakelt om het openstaande saldo van uw abonnement mee te betalen, worden van deze creditcard alle toekomstige automatische betalingen voor dat abonnement afgeschreven.
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Zoek het abonnement met het openstaande saldo. Selecteer In de sectie **Facturering,** naast **Abonnement, een achterstallige betaling,** selecteer **Saldo vereffenen**.
 
@@ -299,7 +299,7 @@ U kunt, indien u dat wenst, een kopie van uw factuuroverzicht als e-mailbijlage 
 
 ## <a name="need-to-switch-payment-methods"></a>Wilt u een andere betalingswijze instellen?
 
-Als uw oorspronkelijke redenen voor het kiezen van de factuur, creditcard of bankrekening zijn veranderd, bijvoorbeeld als u uw abonnement zo aanpast dat het betalingsbedrag lager is, waardoor u niet meer in aanmerking komt voor factuurbetalingen, kunt u de betalingswijze wijzigen. Zie [Uw betalingsmethode wijzigen](change-payment-method.md)voor meer informatie .
+Als uw oorspronkelijke redenen voor het kiezen van de factuur, creditcard of bankrekening zijn veranderd, bijvoorbeeld als u uw abonnement zo aanpast dat het betalingsbedrag lager is, waardoor u niet meer in aanmerking komt voor factuurbetalingen, kunt u de betalingswijze wijzigen. Zie [Uw betalingswijze wijzigen](change-payment-method.md) voor meer informatie.
 
 ## <a name="related-articles"></a>Verwante artikelen
 

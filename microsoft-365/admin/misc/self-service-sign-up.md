@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 4f8712ff-9346-4c6c-bb63-a21ad7a62cbd
 description: Meer informatie over de Microsoft 365-zelfservice-aanmelding strekken en beschikbare selfserviceprogramma's zoals Microsoft Power Apps, Microsoft Flow en Dynamics 365 voor Financials.
 ms.custom: okr_SMB
-ms.openlocfilehash: d20609d48c71795205940546bef752c236ae3e81
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 02d318fbafb6e062f9c3d1592cd6adc7f764fd56
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627798"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045270"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>Zelfregistratie gebruiken in uw organisatie
 
@@ -42,7 +42,7 @@ Hieronder volgt een voorbeeld van zelfregistratie bij een onderwijsinstelling. D
 
 3. We valideren hun e-mailadres en kunnen microsoft 365, Power BI of andere services meteen gebruiken.
 
-4. Als bedrijfsbeheerder ziet u wie zich heeft aangemeld voor een abonnement door de pagina **Producten & services** in het beheercentrum te bekijken. Op deze manier u zien wanneer er nieuwe of niet-herkende licenties voor services in uw tenant zijn. Als u wilt bepalen of gebruikers zich kunnen aanmelden voor selfservice-abonnementen, gebruikt u de [PowerShell-cmdlet Set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0) met de parameter **AllowAdHocSubscriptions.** Zie [Hoe beheer ik selfservice-instellingen?](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide)
+4. Als bedrijfsbeheerder ziet u wie zich heeft aangemeld voor een abonnement door de pagina **Uw producten** in het beheercentrum te bekijken. Op deze manier u zien wanneer er nieuwe of niet-herkende licenties voor services in uw tenant zijn. Als u wilt bepalen of gebruikers zich kunnen aanmelden voor selfservice-abonnementen, gebruikt u de [PowerShell-cmdlet Set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0) met de parameter **AllowAdHocSubscriptions.** Zie [Hoe beheer ik selfservice-instellingen?](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide)
 
 ## <a name="available-self-service-programs"></a>Beschikbare selfservice-programma 's
 
