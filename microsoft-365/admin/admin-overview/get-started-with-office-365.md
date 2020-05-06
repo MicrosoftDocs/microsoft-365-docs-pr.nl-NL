@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
 description: Meer informatie over het instellen en gebruiken van Microsoft 365 op uw computer, telefoon en tablet.
-ms.openlocfilehash: fd52b12ab008e2c8d7b7a4476ae2212e01e1bb10
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6db85e57757d627c22767289761b4cb3120b3716
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43623916"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049421"
 ---
 # <a name="get-started"></a>Aan de slag
 
@@ -60,7 +60,7 @@ Hier volgen enkele bronnen om u op weg te helpen.
   
 - [Training voor beheerders:](https://support.office.com/article/e990f8ff-56d7-450e-ad9f-74ae8718ef09.aspx)Krijg links naar gratis online lessen voor beheerders.
     
-- [Help voor beheerders:](https://support.office.com/article/17d3ff3f-3601-466e-b5a1-482b31cfb791.aspx)krijg informatie over de belangrijkste taken, aan de slag met beheertools en problemen oplossen.
+- [Help voor beheerders:](https://docs.microsoft.com/microsoft-365/admin/admin-home)krijg informatie over de belangrijkste taken, aan de slag met beheertools en problemen oplossen.
     
 - [Neem contact op met ondersteuning - Help voor beheerders:](../contact-support-for-business-products.md) Bel ons, open een online verzoek of laat de community helpen. 
     

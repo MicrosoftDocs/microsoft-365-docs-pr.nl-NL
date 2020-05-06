@@ -14,13 +14,14 @@ search.appverid:
 ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen leren hoe u regels voor e-mailstroom gebruiken in Exchange Online Protection voor het filteren van bulke-mail.
-ms.openlocfilehash: 229a66658e041be737efbc4cbb7c36ba667d3aed
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Beheerders kunnen leren hoe u regels voor e-mailstroom gebruiken in Exchange Online Protection (EOP) voor het filteren van bulke-mail.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 43a10951a24ac76108fb0531f9e2c205c3fc9047
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631071"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034972"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-office-365"></a>Regels voor e-mailstromen gebruiken om bulke-mail te filteren in Office 365
 

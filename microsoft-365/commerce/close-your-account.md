@@ -15,12 +15,12 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Meer informatie over het sluiten van uw account bij Microsoft.
-ms.openlocfilehash: b71cfe8246b5e3e9471c76cf8043bad52840f194
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 43ec3fe2eedc354c0494818f97b01e8de63694c7
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942851"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045774"
 ---
 # <a name="close-your-account"></a>Uw account sluiten
 
@@ -40,7 +40,7 @@ Als uw organisatie Active Directory gebruikt die synchroniseert met Azure AD, ve
 
 ## <a name="step-2-cancel-all-active-subscriptions"></a>Stap 2: Alle actieve abonnementen opzeggen
 
-1. Ga in het beheercentrum naar de pagina >  **Factureringsproducten**<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& services.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Als de lijst met abonnementen zich in de **tabelweergave** bevindt, selecteert u **rechts Kaarten**.
 
@@ -52,7 +52,7 @@ Als uw organisatie Active Directory gebruikt die synchroniseert met Azure AD, ve
 
 ## <a name="step-3-delete-all-disabled-subscriptions"></a>Stap 3: Alle abonnementen voor uitgeschakelden verwijderen
 
-1. Ga in het beheercentrum naar de pagina >  **Factureringsproducten**<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& services.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Als de lijst met abonnementen zich in de **tabelweergave** bevindt, selecteert u **rechts Kaarten**.
 

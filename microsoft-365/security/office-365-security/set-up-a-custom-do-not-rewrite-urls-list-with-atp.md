@@ -16,20 +16,22 @@ search.appverid:
 ms.assetid: 35dbfd99-da5a-422b-9b0e-c6caf3b645fa
 ms.collection:
 - M365-security-compliance
-description: Wanneer u uw beleid voor veilige ATP-koppelingen instelt, u een lijst met URL's weerleggen om sommige mensen in uw organisatie in staat te stellen sites te bezoeken die u in uw lijst opneemt.
-ms.openlocfilehash: 490fb3279f2c54bc6f2335510aa711866318e01d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Meer informatie over het instellen van aangepaste geblokkeerde URL's voor gebruikers en het niet herschrijven van de lijst met URL's voor een groep gebruikers in het beleid voor veilige koppelingen van Office 365 ATP.
+ms.openlocfilehash: d7bd6c7d4c3dccfb4a16b2b2f172f8f75123692e
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638378"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046302"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>Een aangepaste lijst met niet-herschrijven url's instellen met BEHULP van ATP Safe Links
 
 > [!IMPORTANT]
 > Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Zie [Geavanceerde Outlook.com beveiliging](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2)als u een thuisgebruiker bent die op zoek is naar informatie over veilige koppelingen in Outlook.
 
-Met [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) kan uw organisatie een aangepaste [geblokkeerde URL's](set-up-a-custom-blocked-urls-list-wtih-atp.md)hebben, zodat wanneer mensen op webadressen (URL's) klikken in e-mailberichten of bepaalde Office-documenten, ze niet naar die URL's kunnen gaan. Uw organisatie kan ook aangepaste lijsten 'niet herschrijven' voor specifieke groepen in uw organisatie hebben. Met een lijst 'niet herschrijven' kunnen sommige mensen URL's bezoeken die anders worden geblokkeerd door [ATP Safe Links in Office 365.](atp-safe-links.md)
+Met [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) kan uw organisatie een aangepaste [geblokkeerde URL's](set-up-a-custom-blocked-urls-list-atp.md)hebben, zodat wanneer mensen op webadressen (URL's) klikken in e-mailberichten of bepaalde Office-documenten, ze niet naar die URL's kunnen gaan. Uw organisatie kan ook aangepaste lijsten 'niet herschrijven' voor specifieke groepen in uw organisatie hebben. Met een lijst 'niet herschrijven' kunnen sommige mensen URL's bezoeken die anders worden geblokkeerd door [ATP Safe Links in Office 365.](atp-safe-links.md)
 
 In dit artikel wordt beschreven hoe u een lijst met URL's opgeeft die zijn uitgesloten van het scannen van ATP Safe Links en een paar belangrijke punten om in gedachten te houden.
 
@@ -65,7 +67,7 @@ Als u ATP-beleid wilt bewerken (of definiëren), moet u een geschikte rol toegew
 7. Wanneer u klaar bent met het toevoegen van URL's, kiest u in de rechterbenedenhoek van het scherm **Opslaan**.
 
 > [!NOTE]
-> Controleer de aangepaste lijst met geblokkeerde URL's van uw organisatie. Zie [Een aangepaste geblokkeerde URL-lijst instellen met ATP Safe Links](set-up-a-custom-blocked-urls-list-wtih-atp.md).
+> Controleer de aangepaste lijst met geblokkeerde URL's van uw organisatie. Zie [Een aangepaste geblokkeerde URL-lijst instellen met ATP Safe Links](set-up-a-custom-blocked-urls-list-atp.md).
 
 ## <a name="important-points-to-keep-in-mind"></a>Belangrijke punten om in gedachten te houden
 

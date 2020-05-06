@@ -22,17 +22,16 @@ search.appverid:
 ms.assetid: 4e7b57d6-b93b-457d-aecd-0ea58bff07a6
 description: Meer informatie over het aanschaffen van een add-on om extra functionaliteit toe te voegen aan uw Microsoft 365 voor Bedrijven-abonnement. U ook een add-on bijwerken en verwijderen.
 ms.custom: okr_SMB
-ms.openlocfilehash: 011ed188f741f2f026b452a2ecfd8b8c1b01c66e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 801da522c9fea9efcc4d3d4a0285a6ffcb5adc0b
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634918"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045786"
 ---
 # <a name="buy-or-edit-an-add-on"></a>Een invoegtoepassing kopen of bewerken
 
 Verschillende van de Microsoft 365 voor zakelijke abonnementen hebben add-ons die u kopen voor uw abonnement. Met een invoegtoepassing beschikt u over aanvullende functionaliteit voor het abonnement waarvoor u het koopt.
-
 
 ## <a name="buy-an-add-on"></a>Een invoegtoepassing kopen
 
@@ -98,22 +97,21 @@ Verschillende van de Microsoft 365 voor zakelijke abonnementen hebben add-ons di
 
 ::: moniker-end
 
-
 ## <a name="update-an-add-on"></a>Een invoegtoepassing bijwerken
 
-Welke stappen u volgt om een invoegtoepassingen bij te werken hangt af van de invoegtoepassing die u gebruikt: een traditionele invoegtoepassing of een zelfstandige invoegtoepassing. 
+Welke stappen u volgt om een invoegtoepassingen bij te werken hangt af van de invoegtoepassing die u gebruikt: een traditionele invoegtoepassing of een zelfstandige invoegtoepassing.
 
 *Traditionele add-ons* zijn gekoppeld aan een specifiek abonnement. Als u het abonnement opzegt, wordt ook de bijbehorende add-on geannuleerd.
   
-*Zelfstandige add-ons* zijn niet gekoppeld aan een specifiek abonnement. Zelfstandige invoegtoepassingen worden weergegeven als een afzonderlijk abonnement op de pagina **Abonnementen** (of op de pagina **Producten & services** in het nieuwe beheercentrum) en hebben hun eigen vervaldatum. U beheert een zelfstandige invoegtoepassing op dezelfde wijze als u andere abonnementen beheert.
+*Zelfstandige add-ons* zijn niet gekoppeld aan een specifiek abonnement. Zelfstandige add-ons worden weergegeven als een apart abonnement op de pagina **Uw producten** en hebben hun eigen vervaldatum. U beheert een zelfstandige invoegtoepassing op dezelfde wijze als u andere abonnementen beheert.
   
 ### <a name="update-a-traditional-add-on"></a>Een traditionele invoegtoepassing bijwerken
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
-2. Selecteer **op** de pagina Producten & services het abonnement waarvoor u een add-on wilt bijwerken.
+2. Selecteer **op** de pagina Uw producten het abonnement waarvoor u een add-on wilt bijwerken.
 
 3. Selecteer **Invoegtoepassingen**. De add-ons die u hebt gekocht, worden weergegeven.
 
@@ -122,7 +120,6 @@ Welke stappen u volgt om een invoegtoepassingen bij te werken hangt af van de in
 5. Voer de gewenste hoeveelheidswijziging in voor het abonnement en selecteer **Wijziging verzenden**.
 
 ::: moniker-end
-
 
 ::: moniker range="o365-germany"
 
@@ -134,7 +131,7 @@ Welke stappen u volgt om een invoegtoepassingen bij te werken hangt af van de in
 
     De invoegtoepassingen die u hebt gekocht, worden weergegeven en onder elk ervan bevindt zich de koppeling **Aantal wijzigen**.
 
-4. Selecteer de koppeling **Hoeveelheid wijzigen** voor de invoegtoepassing die u wilt bijwerken. 
+4. Selecteer de koppeling **Hoeveelheid wijzigen** voor de invoegtoepassing die u wilt bijwerken.
 
     ![Koppeling Invoegtoepassingen en koppeling Aantal wijzigen.](../media/fa7c39f4-5256-49bb-9a26-70f1a52ae926.png)
   
@@ -157,7 +154,7 @@ Welke stappen u volgt om een invoegtoepassingen bij te werken hangt af van de in
 
     De invoegtoepassingen die u hebt gekocht, worden weergegeven en onder elk ervan bevindt zich de koppeling **Aantal wijzigen**.
 
-4. Selecteer de koppeling **Hoeveelheid wijzigen** voor de invoegtoepassing die u wilt bijwerken. 
+4. Selecteer de koppeling **Hoeveelheid wijzigen** voor de invoegtoepassing die u wilt bijwerken.
 
     ![Koppeling Invoegtoepassingen en koppeling Aantal wijzigen.](../media/fa7c39f4-5256-49bb-9a26-70f1a52ae926.png)
   
@@ -175,9 +172,9 @@ Welke stappen u volgt om een invoegtoepassingen bij te werken hangt af van de in
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
-2. Selecteer op de pagina **Producten & services** het invoegabonnement dat u wilt bijwerken en selecteer vervolgens Licenties **toevoegen/verwijderen.**
+2. Selecteer op de pagina **Uw producten** het invoegabonnement dat u wilt bijwerken en selecteer vervolgens **Licenties toevoegen/verwijderen.**
 
 3. Voer het aantal licenties in dat u nodig hebt in het vak en selecteer **Wijzigen verzenden**.
 
@@ -213,7 +210,6 @@ Welke stappen u volgt om een invoegtoepassingen bij te werken hangt af van de in
 
 ::: moniker-end
 
-
 ## <a name="remove-an-add-on"></a>Een invoegtoepassing verwijderen
 
 U annuleert een zelfstandige invoegtoepassing op dezelfde wijze als u [abonnementen annuleert](subscriptions/cancel-your-subscription.md). Ook kunt u **terugkerende facturering** voor een zelfstandige invoegtoepassing uitschakelen met behulp van de bovenstaande stappen. U kunt echter een traditionele invoegtoepassing niet verwijderen nadat u deze hebt aangeschaft. Als u een traditionele add-on moet verwijderen, neem dan [contact op met de ondersteuning voor hulp.](../admin/contact-support-for-business-products.md)
@@ -235,7 +231,7 @@ Zie [Invoeglicenties voor Skype voor Bedrijven en Microsoft Teams voor](https://
 |Office 365 Geavanceerde compliance  <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |
 |Office 365 Office 365 Extra bestandsopslag  <br/> | Microsoft 365 Apps voor bedrijven  <br/>  Microsoft 365 Business Basic  <br/>  Microsoft 365 Business Standard  <br/>  Office 365 Enterprise E1  <br/>  Office 365 Enterprise E2  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/>  Office 365 Enterprise E5  <br/>  Office voor het web met SharePoint-abonnement 1  <br/>  Office voor het web met SharePoint-abonnement 2  <br/>  SharePoint Online, abonnement 1  <br/>  SharePoint Online, abonnement 2  <br/> |
 |Telefoonsysteem  <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/>  Office 365 Enterprise E5  <br/> |
-|Audiovergaderingen  <br/> |  Microsoft 365 Business Basic <br/> Microsoft 365 Business Standard <br/> Office 365 Enterprise E1 <br/> Office 365 Enterprise E3 <br/> Office 365 Enterprise E4 <br/> Office 365 Enterprise E5 zonder audiovergaderingen <br/> Microsoft 365 Business Premium <br/> Microsoft 365 E3 <br/> Microsoft 365 E5  <br/> |
+|Audio Conferencing (Audiovergaderingen)  <br/> |  Microsoft 365 Business Basic <br/> Microsoft 365 Business Standard <br/> Office 365 Enterprise E1 <br/> Office 365 Enterprise E3 <br/> Office 365 Enterprise E4 <br/> Office 365 Enterprise E5 zonder audiovergaderingen <br/> Microsoft 365 Business Premium <br/> Microsoft 365 E3 <br/> Microsoft 365 E5  <br/> |
 |Communicatiekredieten  <br/> | Office 365 Enterprise E5  <br/> |
 |Plan voor binnenlands bellen <br/> | Office 365 Enterprise E5  <br/> |
 |Internationaal belplan  <br/> | Office 365 Enterprise E5  <br/> |

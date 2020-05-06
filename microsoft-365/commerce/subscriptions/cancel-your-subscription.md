@@ -1,5 +1,5 @@
 ---
-title: Uw abonnement opzeggen
+title: Uw abonnement annuleren
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,14 +21,14 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Meer informatie over het opzeggen van uw Microsoft 365 voor zakelijke proefversie of betaald abonnement.
-ms.openlocfilehash: 56ffeae38b3cba94efacbb52bf2d9beb9af90ebb
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: c12b574d29b50432cdb480dca711588ad1f0df32
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708081"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046202"
 ---
-# <a name="cancel-your-subscription"></a>Uw abonnement opzeggen
+# <a name="cancel-your-subscription"></a>Uw abonnement annuleren
 
 *Subsidiabiliteit:* Als u minder dan 25 licenties aan gebruikers hebt toegewezen, u uw Microsoft 365 voor zakelijke proefversie of betaald abonnement op elk gewenst moment online annuleren in het Microsoft 365-beheercentrum. Als u meer dan 25 licenties aan gebruikers hebt toegewezen, [belt u ondersteuning om uw abonnement op te zeggen.](../../admin/contact-support-for-business-products.md)
 
@@ -43,7 +43,7 @@ Als u uw eigen domeinnaam hebt toegevoegd om te gebruiken bij uw abonnement, moe
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Zoek het abonnement dat u wilt opzeggen en selecteer onder **Instellingen & Acties**de optie Abonnement **annuleren**.
 
