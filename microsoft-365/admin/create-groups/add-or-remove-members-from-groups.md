@@ -20,12 +20,12 @@ search.appverid:
 - BSA160
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Meer informatie over het toevoegen van een lid aan een groep, het verwijderen van de status van lid uit de groep en het beheren van de status van groepseigenaar in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 9191f9a29f9d4c1589feda66c9ca482180229bd6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8b4df54e3dc54baf2f9e770f42333b95af391e90
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631311"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049397"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Leden toevoegen aan of verwijderen uit Microsoft 365-groepen met behulp van het beheercentrum
 
@@ -276,16 +276,16 @@ Standaard is de maker van de groep de groepseigenaar. Vaak heeft een groep meerd
     
 - Als u honderden of duizenden gebruikers aan groepen wilt toevoegen, gebruikt u De [Add-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616191).
     
-- [Een nieuwe eigenaar toewijzen aan een groep zonder eigenaar](https://support.office.com/article/86bb3db6-8857-45d1-95c8-f6d540e45732.aspx)
+- [Een nieuwe eigenaar toewijzen aan een groep zonder eigenaar](https://support.microsoft.com/en-us/office/assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)
     
 ## <a name="articles-about-managing-groups"></a>Artikelen over het beheren van groepen
     
 - [Distributielijsten upgraden naar Microsoft 365-groepen in Outlook](../manage/upgrade-distribution-lists.md)
     
-- [Waarom u een upgrade voor uw distributielijsten moet uitvoeren naar groepen in Outlook](https://support.office.com/article/7fb3d880-593b-4909-aafa-950dd50ce188.aspx)
+- [Waarom u een upgrade voor uw distributielijsten moet uitvoeren naar groepen in Outlook](https://support.microsoft.com/en-us/office/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
 
 - [Gasttoegang beheren in Microsoft 365-groepen](manage-guest-access-in-groups.md)    
     
-- [Microsoft 365-groepen beheren met PowerShell:](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)dit artikel laat u kennismaken met belangrijke cmdlets en geeft voorbeelden
+- [Microsoft 365-groepen beheren met PowerShell:](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell)dit artikel laat u kennismaken met belangrijke cmdlets en geeft voorbeelden
     
 - [Naamgevingsbeleid voor Microsoft 365-groepen](groups-naming-policy.md)

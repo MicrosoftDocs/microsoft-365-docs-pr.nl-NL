@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 description: Meer informatie over het upgraden naar een nieuw abonnement.
 monikerRange: o365-worldwide
-ms.openlocfilehash: faddecffd91eb58dab7a3b498de97633b5efd9d0
-ms.sourcegitcommit: 11198133b43eb6a6369e544c8a0dd408d582591c
+ms.openlocfilehash: 7739da2d56fa0d37dd64b22b2959ad6dca198e75
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43796510"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046214"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Upgraden naar een ander abonnement 
 
@@ -42,7 +42,7 @@ Wanneer uw bedrijf verandert of meer functies nodig hebt, u plannen upgraden. De
 
 Wanneer u het tabblad **Upgrade** gebruikt, wordt u geleid door het proces van het kopen van een nieuw abonnement. Alle gebruikers krijgen automatisch licenties toegewezen in het nieuwe abonnement en uw oude abonnement wordt voor u geannuleerd.
 
-1. Ga in het beheercentrum naar de pagina \> **Factureringsproducten** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& services.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Selecteer het abonnement dat u wilt upgraden.
 
@@ -59,7 +59,7 @@ Wanneer u het tabblad **Upgrade** gebruikt, wordt u geleid door het proces van h
 
 7. Wanneer u klaar bent, selecteert u **De volgorde plaatsen**.
 
-Wanneer u klaar bent met afrekenen, kan het enkele minuten duren voordat de upgrade is voltooid. U uw nieuwe abonnement meteen gebruiken. Selecteer **Upgradestatus controleren** om de voortgang van de upgrade te controleren. U ontvangt een melding wanneer de upgrade is voltooid. De melding wordt weergegeven op de pagina **Producten & services,** naast uw nieuwe abonnement.
+Wanneer u klaar bent met afrekenen, kan het enkele minuten duren voordat de upgrade is voltooid. U uw nieuwe abonnement meteen gebruiken. Selecteer **Upgradestatus controleren** om de voortgang van de upgrade te controleren. U ontvangt een melding wanneer de upgrade is voltooid. De melding wordt weergegeven op de pagina **Uw producten,** naast uw nieuwe abonnement.
 
 ## <a name="the-upgrade-tab-is-empty"></a>Het tabblad Upgrade is leeg
 
@@ -137,7 +137,7 @@ Als u een add-on met uw abonnement hebt, u plannen mogelijk [handmatig wijzigen.
 
 #### <a name="your-subscription-has-an-unpaid-balance"></a>Uw abonnement heeft een onbetaald saldo
 
-Als u dit wilt oplossen, zoekt u het abonnement op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten & services</a> en selecteert u de koppeling Nu **betalen** in de sectie **Facturering.** Nadat de betaling is gedaan, controleert u nogmaals het tabblad **Upgrade.**
+Als u dit wilt oplossen, zoekt u het abonnement op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Uw producten</a> en selecteert u de koppeling **Nu betalen** in de sectie **Facturering.** Nadat de betaling is gedaan, controleert u nogmaals het tabblad **Upgrade.**
 
 ## <a name="what-does-upgrading-a-plan-do-to-my-service-and-billing"></a>Wat doet het upgraden van een abonnement met mijn service en facturering?
 

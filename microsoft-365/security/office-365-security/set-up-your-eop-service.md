@@ -9,15 +9,17 @@ ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
+ms.custom:
+- seo-marvel-apr2020
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
-description: In dit onderwerp wordt uitgelegd hoe u Microsoft Exchange Online Protection (EOP) instelt. Als u hier bent geland vanuit de wizard Office 365-domeinen, gaat u terug naar de wizard Office 365-domeinen als u Exchange Online-beveiliging niet wilt gebruiken. Zie E-mailstroom configureren met connectors in Office 365 als u meer informatie wilt over het configureren van connectors.
-ms.openlocfilehash: 9a2c876ac7696adfcabf87d4ad13e29374509f1b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: In dit artikel vindt u meer informatie over het instellen van Microsoft Exchange Online Protection (EOP).
+ms.openlocfilehash: c00d39cae440bc95e26c853e107d8d7a8f4c50d8
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638306"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035282"
 ---
 # <a name="set-up-your-eop-service"></a>Uw EOP-service instellen
 

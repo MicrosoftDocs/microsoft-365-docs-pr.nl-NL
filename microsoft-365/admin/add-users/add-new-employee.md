@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9cdfa29d-7681-4af2-a79d-3e72e7ab9778
 description: Nieuwe werknemers toevoegen aan Microsoft 365 voor Bedrijven voor e-mail-, Skype- en Office-apps.
-ms.openlocfilehash: 43685a786da7ec43c982f91b4fca554424cad624
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f25f9445cba31942a58c656d8d7f212dc093024d
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618894"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049495"
 ---
 # <a name="add-a-new-employee-to-microsoft-365"></a>Een nieuwe werknemer toevoegen aan Microsoft 365
 
@@ -82,7 +82,7 @@ En hier is een korte referentie om ze op weg te helpen:
 |Skype voor Bedrijven instellen zodat u in contact komen met collega's of zakenpartners in uw bedrijf of over de hele wereld. U gesprekken starten met chat-, spraak- of videogesprekken.  <br/> |[Installeer Skype voor Bedrijven op uw computer](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb.aspx).  <br/> <br/>Bekijk een video voor meer informatie over het gebruik van Skype voor [Bedrijven.](https://support.office.com/article/3a21eca4-434d-41f1-ab06-3d4a268573b7.aspx) <br/> <br/>Hebt u Skype voor Bedrijven zo ingesteld dat uw werknemers contact kunnen opnemen met mensen buiten uw bedrijf die de gratis Skype-app gebruiken? Zo niet, vertel het dan aan uw nieuwe werknemer, zodat hij weet wat ze kunnen verwachten wanneer ze Skype voor Bedrijven gebruiken.  <br/> |
 |Installeer apps op uw mobiele apparaat als u e-mail wilt ontvangen of Skype voor Bedrijven op uw telefoon wilt gebruiken.  <br/> |Als u de mobiele Outlook-app wilt instellen, u e-mail ontvangen via uw telefoon. Zie [iOS](https://support.office.com/article/b2de2161-cc1d-49ef-9ef9-81acd1c8e234.aspx), [Android,](https://support.office.com/article/886db551-8dfa-4fd5-b835-f8e532091872.aspx) [Windows Phone](https://support.microsoft.com/en-us/office/set-up-email-on-windows-phone-181a112a-be92-49ca-ade5-399264b3d417) voor instructies <br/> <br/>Als u Skype voor Bedrijven op uw mobiele apparaat wilt gebruiken, downloadt en installeert u de mobiele app. Zie [iOS](https://support.microsoft.com/en-us/office/install-skype-for-business-on-a-mobile-device-3239c8a3-cf55-4ff0-a967-5de51911c049#OS_Type=iOS), [Android,](https://support.microsoft.com/en-us/office/sign-in-to-skype-for-business-on-a-mobile-device-4d1b7dfa-5b0b-4868-bae5-25947fb99e6e#OS_Type=Android) [Windows Phone](https://support.microsoft.com/en-us/office/sign-in-to-skype-for-business-on-a-mobile-device-4d1b7dfa-5b0b-4868-bae5-25947fb99e6e#OS_Type=Windows_Phone) voor instructies <br/> |
 |Voltooi de training van OneDrive voor Bedrijven om te leren hoe u uw documenten, presentaties en spreadsheets in de cloud opslaan en ordenen.  <br/> |Bewaar uw bedrijfsgerelateerde documenten in de cloud met OneDrive voor Bedrijven. U altijd bij uw inhoud komen, zelfs als u op een andere computer bent aangemeld bij Microsoft 365. [Bekijk een video voor meer informatie over het gebruik van uw OneDrive voor Bedrijven](https://support.office.com/article/b30da4eb-ddd2-44b6-943b-e6fbfc6b8dde.aspx) <br/><br/> **Training:** [training van OneDrive voor Bedrijven](https://support.office.com/article/1f608184-b7e6-43ca-8753-2ff679203132.aspx) (Selecteer OneDrive voor Bedrijven).  <br/> |
-|Voltooi de SharePoint Online-training om u te helpen samenwerken met collega's en inhoud te delen.  <br/> |De beste plaats om documenten te bewaren waartoe uw collega's ook toegang hebben, is in SharePoint Online.  <br/> <br/>**Training:** [Video: samenwerken met teaminhoud met SharePoint Online](https://support.office.com/article/2dd9aeff-7749-4b78-9696-eb0f6267f1f5.aspx) <br/><br/> **Ontdek het:** Hoe gebruikt uw organisatie SharePoint Online en welk type documenten daar worden opgeslagen? Ook welke documenten zijn opgeslagen in OneDrive voor Bedrijven.  <br/> |
+|Voltooi de SharePoint Online-training om u te helpen samenwerken met collega's en inhoud te delen.  <br/> |De beste plaats om documenten te bewaren waartoe uw collega's ook toegang hebben, is in SharePoint Online.  <br/> <br/>**Training:** [Video: samenwerken met teaminhoud met SharePoint Online](https://support.office.com/article/what-is-sharepoint-online-c17b6824-cc22-478f-8757-497cc6b57121) <br/><br/> **Ontdek het:** Hoe gebruikt uw organisatie SharePoint Online en welk type documenten daar worden opgeslagen? Ook welke documenten zijn opgeslagen in OneDrive voor Bedrijven.  <br/> |
 
    
 ## <a name="related-articles"></a>Verwante artikelen

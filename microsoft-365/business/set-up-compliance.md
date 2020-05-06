@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Stel nalevingsfuncties in om gegevensverlies te voorkomen en de gevoelige informatie van uw en uw klanten veilig te houden.
-ms.openlocfilehash: e0d853223c7e6f455cba6e68ad173b137992d863
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 523d020587bcf16e46263b88ee7654b9c786e7a2
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635119"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048060"
 ---
 # <a name="set-up-compliance-features"></a>Compliancefuncties instellen
 
@@ -54,7 +54,7 @@ Als u een postvak in de wachtstand voor geschillen wilt plaatsen, gaat u in het 
     
 4. In het dialoogvenster **Procesblokkering** u de duur van de procesperiode opgeven in het veld **Duurduur van de procesperiode.** Laat het veld leeg als u een oneindige greep wilt plaatsen. U ook notities toevoegen en de eigenaar van de mailbox doorverwijzen naar een website die u mogelijk meer moet uitleggen over de blokkering van geschillen. \>**Opslaan**.
     
-**Retentie:** U aangepaste bewaarbeleidsregels inschakelen, bijvoorbeeld om voor een bepaalde tijd te behouden of inhoud permanent te verwijderen aan het einde van de bewaarperiode. Zie [Overzicht van bewaarbeleid](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423)voor meer informatie .
+**Retentie:** U aangepaste bewaarbeleidsregels inschakelen, bijvoorbeeld om voor een bepaalde tijd te behouden of inhoud permanent te verwijderen aan het einde van de bewaarperiode. Zie [Overzicht van bewaarbeleid](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)voor meer informatie .
 
 ## <a name="set-up-sensitivity-labels"></a>Gevoeligheidslabels instellen
 

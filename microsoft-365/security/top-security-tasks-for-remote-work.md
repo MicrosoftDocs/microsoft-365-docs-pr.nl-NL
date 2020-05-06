@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Bescherm uw zakelijke e-mail en gegevens tegen cyberbedreigingen, waaronder ransomware, phishing en schadelijke bijlagen.
-ms.openlocfilehash: 04f59d4f87bda9460930b54818d2ab43933d11e5
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: a5d81eed4d3d6edae48cd82109f83320953782a3
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943541"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046350"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>Top 12 taken voor beveiligingsteams ter ondersteuning van thuiswerken
 
@@ -65,11 +65,11 @@ Normaal gesproken raadt Microsoft gebruikers aan om hun apparaat 14 dagen te reg
 Het toepassen van dit beleid duurt slechts enkele minuten, maar wees bereid om uw gebruikers te ondersteunen in de komende dagen.  
 
 
-|Plannen  |Aanbeveling  |
+|Abonnement  |Aanbeveling  |
 |---------|---------|
-|Microsoft 365-abonnementen (zonder Azure AD P1 of P2)     |[Beveiligingsstandaardinstellingen inschakelen in Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). Beveiligingsstandaarden in Azure AD bevatten MFA voor gebruikers en beheerders.   |
-|Microsoft 365 E3 (met Azure AD P1)     | Gebruik [algemene beleid voor voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) om het volgende beleid te configureren: <br>- [MFA vereisen voor beheerders](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [MFA vereisen voor alle gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Verouderde verificatie blokkeren](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
-|Microsoft 365 E5 (met Azure AD P2)     | Als u gebruikmaakt van Azure AD-identiteitsbeveiliging, begint u met het implementeren van de [aanbevolen set voorwaardelijke toegang en bijbehorende beleidsregels van](../enterprise/identity-access-policies.md) Microsoft door deze twee beleidsregels te maken:<br> - [MFA vereisen wanneer het aanmeldingsrisico gemiddeld of hoog is](../enterprise/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Clients blokkeren die geen moderne verificatie ondersteunen](../enterprise/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br>- [Gebruikers met een hoog risico moeten het wachtwoord wijzigen](../enterprise/identity-access-policies.md#high-risk-users-must-change-password)       |
+|Microsoft 365-abonnementen (zonder Azure AD P1 of P2)     |[Schakel standaardinstellingen voor beveiliging in Azure AD in](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). De standaardinstellingen voor beveiliging in Azure AD omvatten MFA voor gebruikers en beheerders.   |
+|Microsoft 365 E3 (met Azure AD P1)     | Gebruik [algemeen beleid voor voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) om het volgende beleid te configureren: <br>- [MFA vereisen voor beheerders](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [MFA vereisen voor alle gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Verouderde verificatie blokkeren](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
+|Microsoft 365 E5 (met Azure AD P2)     | Als u gebruikmaakt van Azure AD Identity Protection, begint u het implementeren van de [aanbevolen set beleidsregels voor voorwaardelijke toegang en verwante beleidsregels](../enterprise/identity-access-policies.md) van Microsoft door de volgende twee beleidsregels te maken:<br> - [MFA vereisen bij een normaal of hoog risico bij het aanmelden](../enterprise/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Clients blokkeren die moderne verificatie niet ondersteunen](../enterprise/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br>- [Gebruikers met een hoog risico moeten het wachtwoord wijzigen](../enterprise/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
 
@@ -100,7 +100,7 @@ Uw globale beheerder kan deze beveiligingen configureren:
 - [ATP Safe Links instellen](office-365-security/set-up-atp-safe-links-policies.md)
 - [Beleid voor veilige bijlagen in ATP instellen](office-365-security/set-up-atp-safe-attachments-policies.md)
 - [Een aangepaste lijst instellen met URL's die niet opnieuw mogen worden geschreven](office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
-- [Een aangepaste lijst met geblokkeerde URL's instellen](office-365-security/set-up-a-custom-blocked-urls-list-wtih-atp.md)
+- [Een aangepaste lijst met geblokkeerde URL's instellen](office-365-security/set-up-a-custom-blocked-urls-list-atp.md)
 
 U moet samenwerken met uw Exchange Online-beheerder en SharePoint Online-beheerder om ATP voor deze workloads te configureren:
 - [ATP voor SharePoint, OneDrive en Microsoft Teams inschakelen](office-365-security/turn-on-atp-for-spo-odb-and-teams.md)
@@ -131,7 +131,7 @@ Nadat u een of meer van uw geavanceerde services voor bedreigingsbescherming heb
 ## <a name="6-configure-intune-mobile-app-protection-for-phones-and-tablets"></a>6: Intune-beveiliging voor mobiele apps configureren voor telefoons en tablets
 
 Met Microsoft Intune Mobile Application Management (MAM) u de gegevens van uw organisatie op telefoons en tablets beheren en beveiligen zonder deze apparaten te beheren. Zo werkt het:
-- U maakt een app (App) voor app-beveiliging dat bepaalt welke apps op een apparaat worden beheerd en welk gedrag is toegestaan (zoals voorkomen dat gegevens uit een beheerde app worden gekopieerd naar een niet-beheerde app). U maakt één beleid voor elke platorm (iOS, Android).
+- U maakt een app (App) voor app-beveiliging dat bepaalt welke apps op een apparaat worden beheerd en welk gedrag is toegestaan (zoals voorkomen dat gegevens uit een beheerde app worden gekopieerd naar een niet-beheerde app). U maakt één beleid voor elk platform (iOS, Android).
 - Nadat u het beleid voor app-beveiliging hebt gemaakt, u deze afdwingen door een regel voor voorwaardelijke toegang in Azure AD te maken om goedgekeurde apps en app-gegevensbescherming te vereisen.
 
 App-beveiligingsbeleid bevat veel instellingen. Gelukkig hoef je niet elke instelling te leren en de opties af te wegen. Microsoft maakt het eenvoudig om een configuratie van instellingen toe te passen door startpunten aan te bevelen. Het [kader voor gegevensbescherming met app-beveiligingsbeleid](https://docs.microsoft.com/mem/intune/apps/app-protection-framework) bevat drie niveaus waaruit u kiezen. 
@@ -154,7 +154,8 @@ Gebruik de richtlijnen bij [Het bijwerken van het algemene beleid om gast- en ex
 
 Het intune-beleid voor mobiele apps dat u hebt gemaakt, samen met de regel voor voorwaardelijke toegang om goedgekeurde apps en APP-beveiliging te vereisen, is van toepassing op gastenaccounts en helpt uw organisatiegegevens te beschermen. 
 
-**Opmerking:** als u pc's al hebt ingeschreven voor apparaatbeheer om compatibele pc's te vereisen, moet u ook gastaccounts uitsluiten van de regel voor voorwaardelijke toegang die de naleving van het apparaat afdwingt. 
+> [!NOTE]
+> Als u pc's al hebt ingeschreven voor apparaatbeheer om compatibele pc's te vereisen, moet u ook gastaccounts uitsluiten van de regel voor voorwaardelijke toegang die de naleving van het apparaat afdwingt. 
 
 
 ## <a name="8-enroll-pcs-into-device-management-and-require-compliant-pcs"></a>8: Pc's inschrijven voor apparaatbeheer en compatibele pc's vereisen
@@ -179,7 +180,7 @@ Als u het grootste deel van uw werknemers snel vanuit huis laat werken, kan deze
 
 Netwerkelementen zoals VPN-concentrators, centrale netwerkuitgangsapparatuur (zoals proxy's en apparaten voor het voorkomen van gegevensverlies), centrale internetbandbreedte, backhaul MPLS-circuits, NAT-mogelijkheden enzovoort, worden plotseling onder enorme druk gezet door de belasting van het hele bedrijf dat ze gebruikt. Het eindresultaat is slechte prestaties en productiviteit in combinatie met een slechte gebruikerservaring voor gebruikers die zich aanpassen aan het werken vanuit huis.
 
-Sommige van de beveiligingen die traditioneel zijn geboden door het routeren van verkeer terug via een bedrijfsnetwerk worden geleverd door de cloud-apps die uw gebruikers openen. Als u deze stap in dit artikel hebt bereikt, hebt u een reeks geavanceerde cloudbeveiligingsbesturingselementen voor Microsoft 365-services en -gegevens geïmplementeerd. Met deze besturingselementen u het verkeer van externe gebruikers rechtstreeks naar Office 365 routeren. Als u nog steeds een VPN-link nodig hebt voor toegang tot andere toepassingen, u uw prestaties en gebruikerservaring sterk verbeteren door split tunneling te implementeren. Zodra u overeenstemming bereikt in uw oganization, kan dit binnen een dag worden bereikt door een goed gecoördineerd netwerkteam.
+Sommige van de beveiligingen die traditioneel zijn geboden door het routeren van verkeer terug via een bedrijfsnetwerk worden geleverd door de cloud-apps die uw gebruikers openen. Als u deze stap in dit artikel hebt bereikt, hebt u een reeks geavanceerde cloudbeveiligingsbesturingselementen voor Microsoft 365-services en -gegevens geïmplementeerd. Met deze besturingselementen u het verkeer van externe gebruikers rechtstreeks naar Office 365 routeren. Als u nog steeds een VPN-link nodig hebt voor toegang tot andere toepassingen, u uw prestaties en gebruikerservaring sterk verbeteren door split tunneling te implementeren. Zodra u overeenstemming bereikt in uw organisatie, kan dit binnen een dag worden bereikt door een goed gecoördineerd netwerkteam.
 
 
 Zie deze bronnen op Documenten voor meer informatie:

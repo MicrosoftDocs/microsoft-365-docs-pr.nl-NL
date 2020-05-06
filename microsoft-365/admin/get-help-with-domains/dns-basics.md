@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Informatie over domeinen en de bijbehorende DNS-records om zo uw domeinen beter te beheren.
-ms.openlocfilehash: 0b1e969dbb8b172c799e98d5470860fec3625fc2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: bd011add44ea462dacab41fde1ef0ebe4a6b4aa8
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628480"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048183"
 ---
 # <a name="dns-basics"></a>DNS-basisprincipes
 
@@ -191,7 +191,7 @@ Er zijn enkele DNS-records nodig om Office 365 met uw domein te laten werken. Na
   
 U kunt [zoeken naar een lijst met waarden](information-for-dns-records.md) om uw domein in te stellen. .Deze zijn opgenomen in het Microsoft 365-beheercentrum. 
   
-Als u een implementatie plant, wilt u mogelijk een lijst bekijken met alle vereiste DNS-records voor Office 365, de functie ervan en voorbeeldwaarden. Bekijk [Externe DNS-records (Domain Name System) voor Office 365](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0).
+Als u een implementatie plant, wilt u mogelijk een lijst bekijken met alle vereiste DNS-records voor Office 365, de functie ervan en voorbeeldwaarden. Bekijk [Externe DNS-records (Domain Name System) voor Office 365](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records).
   
 ## <a name="how-can-i-learn-more"></a>Waar vind ik meer informatie?
 

@@ -23,13 +23,13 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
-description: 'Meer informatie over het verlengen van uw Microsoft 365 voor Bedrijven-abonnement met een productcode en het in- of uitschakelen van terugkerende facturering. '
-ms.openlocfilehash: 9a44f8e65aad46e82134d8f088f6955bcd37ad3b
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+description: 'Meer informatie over het verlengen van uw Microsoft 365 voor Bedrijven-abonnement met een productcode en het uitschakelen of inschakelen van terugkerende facturering. '
+ms.openlocfilehash: 7cceae61891da31dbb058af1db12598a02b172e2
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707653"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046226"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Microsoft 365 vernieuwen voor bedrijven
 
@@ -48,7 +48,7 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Kies het abonnement waarvan u de terugkerende facturering wilt beheren.
 
@@ -60,7 +60,7 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
 
     > [!NOTE]
     > - U alleen de instelling **Terugkerende facturering** voor actieve abonnementen wijzigen. Als uw abonnement al is verlopen of is uitgeschakeld, moet u [het opnieuw activeren](reactivate-your-subscription.md) voordat u Terugkerende **facturering** in- of uitschakelen.
-    > - Wanneer **Terugkerende facturering** is uitgeschakeld, wordt het abonnement niet meteen opgezegd. Het blijft actief totdat het verloopt. U de vervaldatum bekijken in het gedeelte **Facturering** van de abonnementsgegevens op de pagina **Producten & services.**
+    > - Wanneer **Terugkerende facturering** is uitgeschakeld, wordt het abonnement niet meteen opgezegd. Het blijft actief totdat het verloopt. U de vervaldatum bekijken in het gedeelte **Facturering** van de abonnementsgegevens op de pagina **Uw producten.**
     > - Zie [Mijn abonnement opzeggen](cancel-your-subscription.md)voor meer informatie over het opzeggen van het abonnement.
 
 ::: moniker-end
@@ -70,7 +70,7 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
 1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
 
 2. Kies het abonnement waarvan u de terugkerende facturering wilt beheren.
- 
+
 3. Als u **Terugkerende facturering**wilt inschakelen, schakelt u over op **Aan**.
 
     ![Close-up van een abonnementskaart waarop Terugkerende facturering is ingeschakeld.](../../media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
@@ -109,10 +109,6 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
   
 [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement afloopt?](what-if-my-subscription-expires.md)
 
-[Uw betalingsmethoden toevoegen, bijwerken of verwijderen](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
-
-[Uw betalingsmethode wijzigen](../billing-and-payments/change-payment-method.md)
-  
 [Voer uw productcode in](../enter-your-product-key.md)
   
 [Uw proefversie van Microsoft 365 voor bedrijven kopen](../buy-a-subscription-from-your-free-trial.md)

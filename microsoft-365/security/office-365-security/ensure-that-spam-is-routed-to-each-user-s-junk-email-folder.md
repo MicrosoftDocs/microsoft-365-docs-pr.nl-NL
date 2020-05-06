@@ -15,13 +15,14 @@ search.appverid:
 ms.assetid: 0cbaccf8-4afc-47e3-a36d-a84598a55fb8
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen leren hoe ze hun on-premises Exchange-omgeving kunnen configureren om spam te routeren naar de ongewenste e-mailmappen van gebruikers als ze zelfstandige Exchange Online Protection (EOP) gebruiken in hybride omgevingen.
-ms.openlocfilehash: f2964324c6d9104719fc79ff31f14b4b94c627cc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Beheerders kunnen lezen hoe ze spam kunnen routeren naar map ongewenste e-mail van gebruikers in een hybride omgeving van Exchange Online Protection.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 14193fecf90a6f2ddde05fbfdaded0ff2bcb5875
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621280"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036570"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Standalone EOP configureren om spam te leveren aan de map Ongewenste e-mail in hybride omgevingen
 

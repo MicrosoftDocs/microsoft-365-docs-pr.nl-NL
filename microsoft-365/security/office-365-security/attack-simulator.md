@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
-description: Als globale beheerder u Attack Simulator gebruiken om realistische aanvalsscenario's in uw organisatie uit te voeren. Dit kan u helpen kwetsbare gebruikers te identificeren en te vinden voordat een echte aanval uw bedrijf raakt.
-ms.openlocfilehash: cac09ed48a46531ea2246f9c3ef798649dc73196
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Meer informatie over het gebruik van Attack Simulator om gesimuleerde phishing- en wachtwoordaanvallen uit te voeren in uw Microsoft 365 E5- of ATP-abonnementorganisatie.
+ms.openlocfilehash: e2c6859291e4a25e56dd8dd20a8ecc5962310680
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638570"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035856"
 ---
 # <a name="attack-simulator-in-atp"></a>Aanvalsimulator in ATP
 
@@ -29,13 +31,13 @@ ms.locfileid: "43638570"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Als u het Security & <https://protection.office.com/>Compliance Center wilt openen, gaat u naar . Attack simulator is beschikbaar op **Threat management** \> **Attack simulator**.
+- Ga naar <https://protection.office.com/> om het Beveiligings- en compliancecentrum te openen. Attack simulator is beschikbaar op **Threat management** \> **Attack simulator**.
 
   ![Threat management - Attack Simulator](../../media/ThreatMgmt-AttackSimulator.png)
 
 - Zie de beschrijving van de Service Office [365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)voor meer informatie over de beschikbaarheid van Attack Simulator voor verschillende Microsoft 365-abonnementen.
 
-- U moet lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Zie Machtigingen in het Security & Compliance [Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rolgroepen in het Security & Compliance Center.
+- U moet lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
 - Uw account moet zijn geconfigureerd voor multi-factor authenticatie (MFA) om campagnes te maken en te beheren in Attack Simulator. Zie Meervoudige [verificatie instellen](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)voor instructies .
 

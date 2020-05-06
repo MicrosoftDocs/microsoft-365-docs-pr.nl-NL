@@ -1,5 +1,5 @@
 ---
-title: Beveiligingsroadmap - Topprioriteiten voor de eerste 30 dagen, 90 dagen en daarna
+title: Microsoft 365-beveiligingsroadmap - Topprioriteiten
 f1.keywords:
 - NOCSH
 ms.author: bcarter
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'De belangrijkste aanbevelingen van het cyberbeveiligingsteam van Microsoft voor het implementeren van beveiligingsmogelijkheden om uw Microsoft 365-omgeving te beschermen. '
-ms.openlocfilehash: f00cf7c63e84f19ac2cae080adb87209b32d3012
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 762f0772002917d11459b97f76b7bfbddceb2016
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633723"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035406"
 ---
 # <a name="security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>Beveiligingsroadmap - Topprioriteiten voor de eerste 30 dagen, 90 dagen en daarna
 
@@ -64,7 +64,7 @@ Deze taken kunnen snel worden uitgevoerd en hebben een lage impact op gebruikers
 |Beveiligingsbeheer|* Check Secure Score en kennis[https://securescore.office.com](https://securescore.office.com)te nemen van uw huidige score ( ).  <br/>  * Schakel controlelogboekregistratie in voor Office 365. Zie [Het controlelogboek doorzoeken](../../compliance/search-the-audit-log-in-security-and-compliance.md).  <br/> * [Microsoft 365 configureren voor meer beveiliging.](tenant-wide-setup-for-increased-security.md)  <br/>  * Bekijk regelmatig dashboards en rapporten in het Microsoft 365-beveiligingscentrum en cloud-appbeveiliging.|
 |Bedreigingsbeveiliging|[Verbind Microsoft 365 met Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) om te beginnen met het controleren met behulp van het standaardbeleid voor bedreigingsdetectie voor afwijkend gedrag. Het duurt zeven dagen om een basislijn voor anomaliedetectie te bouwen.  <br><br/>  Implementeer beveiliging voor beheerdersaccounts:  <br/> * Gebruik speciale beheerdersaccounts voor beheerdersactiviteiten.  <br/>  * Multi-factor authenticatie (MFA) afdwingen voor beheerdersaccounts.  <br/>  * Gebruik een [zeer veilig Windows 10-apparaat](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-highly-secure) voor beheerdersactiviteiten.|
 |Identiteits- en toegangsbeheer|* [Azure Active Directory Identity Protection inschakelen](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable).  <br/> * Voor federatieve identiteitsomgevingen u accountbeveiliging afdwingen (wachtwoordlengte, leeftijd, complexiteit, enz.).|
-|Gegevensbescherming| Bekijk voorbeeld aanbevelingen voor informatiebescherming. Informatiebescherming vereist coördinatie binnen uw organisatie. Aan de slag met de volgende informatiebronnen:  <br/> * [Informatiebeveiliging van Office 365 voor GDPR](https://aka.ms/o365gdpr) <br/> * [Beveiligde SharePoint Online-sites en -bestanden](https://docs.microsoft.com/Office365/enterprise/secure-sharepoint-online-sites-and-files) (inclusief delen, classificatie, preventie van gegevensverlies en Azure Information Protection)|
+|Gegevensbeveiliging| Bekijk voorbeeld aanbevelingen voor informatiebescherming. Informatiebescherming vereist coördinatie binnen uw organisatie. Aan de slag met de volgende informatiebronnen:  <br/> * [Informatiebeveiliging van Office 365 voor GDPR](https://aka.ms/o365gdpr) <br/> * [Beveiligde SharePoint Online-sites en -bestanden](https://docs.microsoft.com/Office365/enterprise/secure-sharepoint-online-sites-and-files) (inclusief delen, classificatie, preventie van gegevensverlies en Azure Information Protection)|
 
 ## <a name="90-days--enhanced-protections"></a>90 dagen — verbeterde beveiligingen
 <a name="Ninetydays"> </a>
@@ -77,7 +77,7 @@ Deze taken nemen een beetje meer tijd om te plannen en uit te voeren, maar sterk
 |Beveiligingsbeheer|* Controleer Secure Score voor aanbevolen[https://securescore.office.com](https://securescore.office.com)acties voor uw omgeving ( ).  <br/>  * Blijf regelmatig dashboards en rapporten bekijken in het Microsoft 365-beveiligingscentrum, cloud-appbeveiliging en SIEM-hulpprogramma's. <br/> * Zoek naar en implementeer software-updates. <br/> * Voer aanvalssimulaties uit voor spear-phishing, wachtwoordspray en brute-force wachtwoordaanvallen met [Attack Simulator](attack-simulator.md) (inbegrepen bij [Office 365 Threat Intelligence).](office-365-ti.md)  <br/> * Zoek naar risico's voor delen door de ingebouwde rapporten in Cloud App Security te bekijken (op het tabblad Onderzoeken). <br/> * Controleer [de nalevingsscore](https://docs.microsoft.com/microsoft-365/compliance/compliance-score) om de status te controleren op regelgeving die van toepassing is op uw organisatie (zoals GDPR, NIST 800-171).|
 |Bedreigingsbeveiliging| Implementeer verbeterde beveiligingen voor beheerdersaccounts: <br/> * [Configureer Privileged Access Workstations](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/privileged-access-workstations) (PAWs) voor beheerdersactiviteiten. <br/> * Configureer [Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure). <br/> * Configureer een SIEM-tool (Security Information and Event Management) om logboekgegevens te verzamelen van Office 365, Cloud App Security en andere services, waaronder AD FS. Het controlelogboek slaat gegevens op voor slechts 90 dagen. Als u deze gegevens vastlegt in siem-tool, u gegevens voor een langere periode opslaan.|
 |Identiteits- en toegangsbeheer|* MFA inschakelen en afdwingen voor alle gebruikers. <br/> * Implementeren van een set van [voorwaardelijke toegang en aanverwante beleid](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations). |
-|Gegevensbescherming| Het beleid inzake informatiebescherming aanpassen en implementeren. Deze bronnen bevatten voorbeelden: <br/> * [Informatiebeveiliging van Office 365 voor GDPR](https://aka.ms/o365gdpr) <br/> * [SharePoint Online-sites en -bestanden beveiligen](https://docs.microsoft.com/Office365/enterprise/secure-sharepoint-online-sites-and-files) <br/> <br> Gebruik beleid voor het voorkomen van gegevensverlies en bewakingstools in Microsoft 365 voor gegevens die zijn opgeslagen in Microsoft 365 (in plaats van cloud-appbeveiliging). <br><br>Gebruik Cloud App Security met Microsoft 365 voor geavanceerde waarschuwingsfuncties (andere dan preventie van gegevensverlies).|
+|Gegevensbeveiliging| Het beleid inzake informatiebescherming aanpassen en implementeren. Deze bronnen bevatten voorbeelden: <br/> * [Informatiebeveiliging van Office 365 voor GDPR](https://aka.ms/o365gdpr) <br/> * [SharePoint Online-sites en -bestanden beveiligen](https://docs.microsoft.com/Office365/enterprise/secure-sharepoint-online-sites-and-files) <br/> <br> Gebruik beleid voor het voorkomen van gegevensverlies en bewakingstools in Microsoft 365 voor gegevens die zijn opgeslagen in Microsoft 365 (in plaats van cloud-appbeveiliging). <br><br>Gebruik Cloud App Security met Microsoft 365 voor geavanceerde waarschuwingsfuncties (andere dan preventie van gegevensverlies).|
 
 ## <a name="beyond"></a>Buiten
 <a name="Beyond"> </a>
@@ -90,6 +90,6 @@ Dit zijn belangrijke beveiligingsmaatregelen die voortbouwen op eerder werk.
 |Beveiligingsbeheer|* Doorgaan met het plannen [https://securescore.office.com](https://securescore.office.com)van volgende acties met behulp van Secure Score ( ). <br/> * Blijf regelmatig dashboards en rapporten bekijken in het Microsoft 365-beveiligingscentrum, cloud-appbeveiliging en SIEM-hulpprogramma's. <br/> * Blijven zoeken naar en implementeren van software-updates. <br/> * Integreer eDiscovery in uw juridische en dreigingsresponsprocessen.|
 |Bedreigingsbeveiliging|* Implementeer [Secure Privileged Access](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/securing-privileged-access) (SPA) voor identiteitsonderdelen op locatie (AD, AD FS). <br/> * Gebruik Cloud App Security om te controleren op insider bedreigingen. <br/> * Ontdek schaduw IT SaaS gebruik met behulp van Cloud App Security.|
 |Identiteits- en toegangsbeheer|* Verfijn beleid en operationele processen. <br/> * Gebruik Azure AD Identity Protection om bedreigingen van insiders te identificeren.|
-|Gegevensbescherming| Beleid voor informatiebescherming verfijnen: <br/> * Microsoft 365- en Office 365-gevoeligheidslabels en preventie van gegevensverlies (DLP) of Azure Information Protection. <br/> * Cloud App Beveiligingsbeleid en waarschuwingen.|
+|Gegevensbeveiliging| Beleid voor informatiebescherming verfijnen: <br/> * Microsoft 365- en Office 365-gevoeligheidslabels en preventie van gegevensverlies (DLP) of Azure Information Protection. <br/> * Cloud App Beveiligingsbeleid en waarschuwingen.|
 
 Zie ook: [Hoe snelle cyberaanvallen zoals Petya en WannaCrypt te verzachten.](https://cloudblogs.microsoft.com/microsoftsecure/2018/02/21/how-to-mitigate-rapid-cyberattacks-such-as-petya-and-wannacrypt/)

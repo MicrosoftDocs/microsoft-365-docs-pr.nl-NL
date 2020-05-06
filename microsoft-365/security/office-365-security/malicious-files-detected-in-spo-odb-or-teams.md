@@ -1,5 +1,5 @@
 ---
-title: Informatie weergeven over schadelijke bestanden die zijn gedetecteerd in SharePoint, OneDrive of Microsoft Teams
+title: Informatie weergeven over schadelijke bestanden die zijn gedetecteerd door Office 365 ATP
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,12 +16,13 @@ ms.assetid: 5ed8abf1-c0e9-4e5b-a5b7-2059cea50b61
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over waar u naartoe gaan om informatie over schadelijke bestanden te bekijken die zijn gedetecteerd in SharePoint, OneDrive of Teams en hoe u actie ondernemen voor die bestanden.
-ms.openlocfilehash: 95f497c5be16d1ba1d4fa9fc57f0dd9650450414
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 47b1fea4b3b5713a8f69e8f4b2c0e2ad0f6dd6b8
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635398"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036642"
 ---
 # <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>Informatie weergeven over schadelijke bestanden die zijn gedetecteerd in SharePoint, OneDrive of Microsoft Teams
 

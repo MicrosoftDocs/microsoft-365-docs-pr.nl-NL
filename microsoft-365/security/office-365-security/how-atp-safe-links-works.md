@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: De functie Veilige koppelingen biedt time-of-click verificatie van hyperlinks in Office-documenten en in e-mailberichten. Lees dit artikel om te leren hoe ATP Safe Links werkt.
-ms.openlocfilehash: 7887c3c2920f472d4baa7ff899c3e3b4f704385d
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: e79c44b91eb5de7564058b4dc50c94d2a4223f08
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943709"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046362"
 ---
 # <a name="how-atp-safe-links-works"></a>Hoe Veilige koppelingen in ATP werkt
 > [!IMPORTANT] 
@@ -43,7 +43,7 @@ Op een hoog niveau, volgt de manier waarop [ATP Safe Links-beveiliging](atp-safe
     
 6. De ATP Safe Links-functie controleert onmiddellijk de URL voordat de website wordt geopend. De URL wordt geïdentificeerd als geblokkeerd, kwaadaardig of veilig.
         
-   - Als de URL naar een website gaat die is opgenomen in de [lijst met aangepaste geblokkeerde URL's van](set-up-a-custom-blocked-urls-list-wtih-atp.md)de organisatie, wordt een [waarschuwingspagina](atp-safe-links-warning-pages.md) geopend. 
+   - Als de URL naar een website gaat die is opgenomen in de [lijst met aangepaste geblokkeerde URL's van](set-up-a-custom-blocked-urls-list-atp.md)de organisatie, wordt een [waarschuwingspagina](atp-safe-links-warning-pages.md) geopend. 
     
    - Als de URL naar een website is waarvan is vastgesteld dat deze schadelijk is, wordt een [waarschuwingspagina](atp-safe-links-warning-pages.md) geopend. 
     
@@ -61,7 +61,7 @@ Op hoog niveau werkt [atp-beveiliging voor veilige koppelingen](atp-safe-links.m
     
 3. Wanneer de gebruiker op een URL in het document klikt, wordt de koppeling gecontroleerd door de ATP Safe Links-service.
     
-   - Als de URL naar een website gaat die is opgenomen in de [aangepaste geblokkeerde URL's lijst van](set-up-a-custom-blocked-urls-list-wtih-atp.md)de organisatie, wordt de gebruiker naar een [waarschuwingspagina geleid.](atp-safe-links-warning-pages.md)
+   - Als de URL naar een website gaat die is opgenomen in de [aangepaste geblokkeerde URL's lijst van](set-up-a-custom-blocked-urls-list-atp.md)de organisatie, wordt de gebruiker naar een [waarschuwingspagina geleid.](atp-safe-links-warning-pages.md)
     
    - Als de URL naar een website is waarvan is vastgesteld dat deze schadelijk is, wordt de gebruiker naar een [waarschuwingspagina geleid.](atp-safe-links-warning-pages.md)
     

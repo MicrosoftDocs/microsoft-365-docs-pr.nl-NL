@@ -1,5 +1,5 @@
 ---
-title: Domeinen en instellingen verplaatsen van de ene EOP-organisatie naar een andere EOP-organisatie
+title: Domeinen verplaatsen & instellingen van de ene EOP-organisatie naar de andere
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -11,17 +11,19 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
-description: Het wijzigen van bedrijfsvereisten kan soms nodig zijn om één Microsoft Exchange Online Protection (EOP)-organisatie (tenant) in twee afzonderlijke organisaties te splitsen, twee organisaties samen te voegen in één of om uw domeinen en EOP-instellingen van één te verplaatsen organisatie naar een andere organisatie.
-ms.openlocfilehash: c7d5c7ddc8391c70a555279c530cc2bf19e66ca2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom:
+- seo-marvel-apr2020
+description: In dit artikel leert u hoe u domeinen en instellingen verplaatst van de ene Microsoft Exchange Online Protection (EOP)-organisatie (tenant) naar de andere.
+ms.openlocfilehash: 86f268e6bfb5ed7229137df8b6bf017f15ab1f9c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42811320"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033960"
 ---
-# <a name="move-domains-and-settings-from-one-eop-organization-to-another-eop-organization"></a>Domeinen en instellingen verplaatsen van de ene EOP-organisatie naar een andere EOP-organisatie
+# <a name="move-domains-and-settings-from-one-eop-organization-to-another-eop-organization"></a>Domeinen en instellingen van één EOP-organisatie naar een andere EOP-organisatie verplaatsen
 
-Het wijzigen van bedrijfsvereisten kan soms nodig zijn om één Microsoft Exchange Online Protection (EOP)-organisatie (tenant) in twee afzonderlijke organisaties te splitsen, twee organisaties samen te voegen in één of om uw domeinen en EOP-instellingen van één te verplaatsen organisatie naar een andere organisatie. De overstap van de ene EOP-organisatie naar een tweede EOP-organisatie kan een uitdaging zijn, maar met een paar eenvoudige externe Windows PowerShell-scripts en een kleine hoeveelheid voorbereiding kan dit worden bereikt met een relatief klein onderhoudsvenster.
+Als u de vereisten voor bedrijven wijzigt, moet soms één EOP-organisatie (tenant) (Microsoft Exchange Online Protection) worden opgesplitst in twee afzonderlijke organisaties, twee organisaties samenvoegen tot één of moeten uw domeinen en EOP-instellingen van de ene organisatie naar de andere worden verplaatst. De overstap van de ene EOP-organisatie naar een tweede EOP-organisatie kan een uitdaging zijn, maar met een paar eenvoudige externe Windows PowerShell-scripts en een kleine hoeveelheid voorbereiding kan dit worden bereikt met een relatief klein onderhoudsvenster.
 
 > [!NOTE]
 > Instellingen kunnen alleen betrouwbaar worden verplaatst van een EOP standalone (Standard) organisatie naar een andere EOP Standard of een Exchange Enterprise CAL with Services (EOP Premium) organisatie, of van een EOP Premium organisatie naar een andere EOP Premium organisatie. Omdat sommige premiumfuncties niet worden ondersteund in EOP Standard-organisaties, is de overstap van een EOP Premium-organisatie naar een EOP Standard-organisatie mogelijk niet succesvol. <br><br> Deze instructies zijn voor EOP-filtering-only organisaties. Er zijn aanvullende overwegingen bij het overstappen van de ene Exchange Online-organisatie naar een andere Exchange Online-organisatie. Exchange Online-organisaties zijn buiten het bereik van deze instructies.

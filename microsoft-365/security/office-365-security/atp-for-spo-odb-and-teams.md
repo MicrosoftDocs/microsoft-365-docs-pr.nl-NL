@@ -17,13 +17,15 @@ ms.assetid: 26261670-db33-4c53-b125-af0662c34607
 ms.collection:
 - M365-security-compliance
 - SPO_Content
-description: Breid Geavanceerde bedreigingsbeveiliging van Office 365 uit naar bestanden in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams om een veiligere samenwerking voor uw organisatie mogelijk te maken.
-ms.openlocfilehash: 71e404a402db8c0c0ad01bf1daa415788dfa717b
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.custom:
+- seo-marvel-apr2020
+description: Meer informatie over geavanceerde bedreigingsbeveiliging van Office 365 voor bestanden in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
+ms.openlocfilehash: 90e84f0a4393e5097fb59b93693862a21d6d9f2f
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708381"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031446"
 ---
 # <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>ATP voor SharePoint, OneDrive en Microsoft Teams
 

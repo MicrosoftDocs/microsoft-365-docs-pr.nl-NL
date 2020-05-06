@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Meer informatie over gebruikersaccounts verwijderen. Bepaal wat u wilt doen met de e-mail van de gebruiker, de inhoud op OneDrive en of u de productlicentie wilt behouden of er niet meer voor wilt betalen.
-ms.openlocfilehash: 1d529627841c648684c8a9fe217a761b29749150
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a179915ae92def2a967dc86378346bb905c923e4
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617246"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049457"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Een gebruiker uit uw organisatie verwijderen
   
@@ -61,7 +61,7 @@ Denk, voordat u begint, na over wat u wilt doen met de e-mail- en OneDrive-inhou
 |||
 |:-----|:-----|
 |Productlicenties  <br/> |U kunt de licentie van de gebruiker verwijderen uit uw abonnementen zodat u niet langer betaalt voor deze licentie. Door deze optie te selecteren wordt de licentie automatisch verwijderd uit uw abonnementen.  <br/><br/> **U kunt de licentie niet verwijderen** als u deze hebt gekocht via een Partner of volumelicenties. Als u voor een jaarabonnement betaalt of als u in het midden van een factureringscyclus zit, kunt u de licentie niet verwijderen uit uw abonnement totdat uw verbintenis is voltooid.  <br/> |
-|OneDrive-inhoud  <br/> |Als de gebruiker de bestanden in OneDrive heeft opgeslagen, kunt u een andere gebruiker toegang geven tot deze bestanden.  <br/><br/> U moet de bestanden die u wilt behouden verplaatsen binnen de bewaarperiode die is ingesteld voor de OneDrive-bestanden. **Deze bewaarperiode is standaard 30 dagen.** Als u de bestanden niet binnen de bewaarperiode verplaatst na het verwijderen van de gebruiker, zal de OneDrive-inhoud permanent worden verwijderd. Als u het aantal dagen voor het bewaren van OneDrive-bestanden voor verwijderde accounts wilt verhogen, raadpleeg dan [Bewaren OneDrive instellen voor verwijderde gebruikers](https://support.office.com/article/fa1641ea-9f03-4f34-a826-dbd8697e76fe.aspx).  <br/><br/> **Belangrijk!** Als de verwijderde gebruiker een pc gebruikte voor het downloaden van bestanden van SharePoint en OneDrive, dan is het niet mogelijk om de bestanden te wissen die deze persoon opgeslagen heeft op zijn computer. Zij zullen toegang blijven houden tot bestanden die werden gesynchroniseerd vanaf OneDrive.           |
+|OneDrive-inhoud  <br/> |Als de gebruiker de bestanden in OneDrive heeft opgeslagen, kunt u een andere gebruiker toegang geven tot deze bestanden.  <br/><br/> U moet de bestanden die u wilt behouden verplaatsen binnen de bewaarperiode die is ingesteld voor de OneDrive-bestanden. **Deze bewaarperiode is standaard 30 dagen.** Als u de bestanden niet binnen de bewaarperiode verplaatst na het verwijderen van de gebruiker, zal de OneDrive-inhoud permanent worden verwijderd. Als u het aantal dagen voor het bewaren van OneDrive-bestanden voor verwijderde accounts wilt verhogen, raadpleeg dan [Bewaren OneDrive instellen voor verwijderde gebruikers](https://docs.microsoft.com/onedrive/set-retention).  <br/><br/> **Belangrijk!** Als de verwijderde gebruiker een pc gebruikte voor het downloaden van bestanden van SharePoint en OneDrive, dan is het niet mogelijk om de bestanden te wissen die deze persoon opgeslagen heeft op zijn computer. Zij zullen toegang blijven houden tot bestanden die werden gesynchroniseerd vanaf OneDrive.           |
 |E-mail  <br/> | Als aan een andere gebruiker toegang wordt gegeven tot de e-mail van de verwijderde gebruiker, dan zal het postvak van de verwijderde gebruiker worden geconverteerd naar een gedeeld postvak. De nieuwe eigenaar van het postvak heeft vervolgens toegang tot het postvak en kan controleren op nieuwe e-mail. U beschikt tevens over de volgende opties:  <br/>  <br/>De weergavenaam wijzigen - Het is raadzaam de weergavenaam te wijzigen zodat het gedeelde postvak in de lijst met Actieve gebruikers gemakkelijk te herkennen is.  <br/>  Automatische antwoorden inschakelen - Wij hebben alvast een beleefd automatisch antwoord voor u geschreven. U kunt verschillende automatische antwoorden verzenden naar personen van binnen uw organisatie en personen van buiten uw organisatie.  <br/> <br/> Aliassen opschonen - Aliassen zijn extra e-mailadressen voor gebruikers. Sommige organisaties gebruiken ze niet, dus als u ze niet hebt, hoeft u hier verder niets te doen. Als de gebruiker aliassen heeft is het raadzaam deze te verwijderen zodat u deze e-mailadressen opnieuw kunt gebruiken. Anders u deze e-mailadressen pas opnieuw gebruiken als de bewaartermijn voor verwijderde postvakken is verstreken. Een verwijderd postvak blijft standaard gedurende 30 dagen herstelbaar. Zie het Engelstalig artikel [Delete or restore user mailboxes in Exchange Online ](https://docs.microsoft.com/exchange/recipients-in-exchange-online/delete-or-restore-mailboxes#delete-a-user-mailbox) voor meer informatie. <br/> |
 |Active Directory  <br/> |Als uw bedrijf gebruikmaakt van **Active Directory** die wordt gesynchroniseerd met Azure AD, moet u het gebruikersaccount verwijderen uit Active Directory. Dit is niet mogelijk via Office 365. Lees voor instructies: [Een gebruikersaccount verwijderen](https://go.microsoft.com/fwlink/p/?linkid=841808).  <br/> |
    
@@ -138,7 +138,7 @@ Het aantal licenties beperken is een afzonderlijke stap die alleen kan worden ui
   
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>. Als u deze optie niet ziet, dan bent u geen globale beheerder of factureringsbeheerder en kunt u deze stap niet uitvoeren.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a> Als u deze optie niet ziet, dan bent u geen globale beheerder of factureringsbeheerder en kunt u deze stap niet uitvoeren.
 
 2. Selecteer het abonnement (als u er meer dan een hebt) en kies vervolgens **Licenties toevoegen/verwijderen** om de licentie te verwijderen, zodat u pas betaalt wanneer u een andere medewerker aanneemt.  
 

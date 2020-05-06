@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - BSA160
 description: Meer informatie over het plannen van de governance van Microsoft 365-groepen.
-ms.openlocfilehash: 95cd549fea6646639386d33e5a026f60b3ccbbba
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 4427f210bc1691ef04b97fa4802313078f8d0997
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617132"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049409"
 ---
 # <a name="plan-for-governance-in-groups"></a>Plan voor bestuur in groepen
 
@@ -50,10 +50,10 @@ Er zijn drie belangrijke communicatiemethoden die worden ondersteund door Micros
 > Als u een nieuwe groep maakt via andere toepassingen voor teamwork - zoals SharePoint, Planner of Stream - wordt een groep gemaakt met een Postvak IN van Outlook en de mogelijkheid om verbinding te maken met Microsoft Teams.
 
 Afhankelijk van waar een groep wordt gemaakt, worden bepaalde resources automatisch ingericht, zoals:
-- [Postvak IN](https://support.office.com/article/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22) - Voor e-mailgesprekken tussen groepsleden. Deze inbox heeft een e-mailadres en kan worden ingesteld om berichten te accepteren van mensen buiten de groep en zelfs buiten uw organisatie, net als een traditionele distributielijst.
+- [Postvak IN](https://support.microsoft.com/en-us/office/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22) - Voor e-mailgesprekken tussen groepsleden. Deze inbox heeft een e-mailadres en kan worden ingesteld om berichten te accepteren van mensen buiten de groep en zelfs buiten uw organisatie, net als een traditionele distributielijst.
  - [Agenda](https://support.office.com/article/schedule-a-meeting-on-a-group-calendar-in-outlook-0cf1ad68-1034-4306-b367-d75e9818376a) : voor het plannen van afspraken met betrekking tot de groep
 - [SharePoint-teamsite](https://support.office.com/article/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) – Een centrale opslagplaats voor informatie, koppelingen en inhoud met betrekking tot uw groep
-- [SharePoint-documentbibliotheek](https://support.office.com/article/share-group-files-749bc73b-90c9-4760-9b6f-9aa1cf01b403) : een centrale plek voor de groep om bestanden op te slaan en te delen
+- [SharePoint-documentbibliotheek](https://support.microsoft.com/en-us/office/share-group-files-in-outlook-749bc73b-90c9-4760-9b6f-9aa1cf01b403) : een centrale plek voor de groep om bestanden op te slaan en te delen
 - [OneNote-notitieblok](https://support.office.com/article/get-started-with-onenote-e768fafa-8f9b-4eac-8600-65aa10b2fe97) – Voor het verzamelen van ideeën, onderzoek en informatie
 - [Planner](https://support.office.com/article/microsoft-planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) – Voor het toewijzen en beheren van projecttaken onder uw groepsleden
 - [Yammer-groep](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) – Een gemeenschappelijke plaats om gesprekken te voeren en informatie te delen
@@ -81,7 +81,7 @@ Er zijn meerdere plaatsen om een gesprek te voeren binnen Microsoft 365. Als u b
 
 - Outlook-groepen: moderne DL (e-mailgebaseerde samenwerking)
   - Alomtegenwoordig voor gerichte communicatie
-  - DLs upgraden naar Microsoft 365-groepen - [Waarom moet u upgraden?](https://support.office.com/article/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
+  - DLs upgraden naar Microsoft 365-groepen - [Waarom moet u upgraden?](https://support.microsoft.com/office/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
 
 - SharePoint – Core-ervaring met contentsamenwerking voor alle Microsoft 365-groepen
   - Elke groep krijgt een verbonden SharePoint-teamsite
@@ -119,7 +119,7 @@ Er zijn drie primaire modellen van inrichting in groepen: open, IT-led, en gecon
 | -------------- | ------------------------------------------------------------ |
 | Openen (standaard) | Gebruikers kunnen hun eigen groepen maken als dat nodig is zonder te hoeven wachten op, of lastig IT. |
 | IT-geleide         | Gebruikers vragen een groep van IT. IT kan hen begeleiden bij het selecteren van de beste samenwerkingstools voor hun behoeften. |
-| Gecontroleerd     | Groepscreatie beperkt tot specifieke personen, teams of services. Zie [Beheren wie Microsoft 365-groepen kan maken](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)voor meer informatie. |
+| Gecontroleerd     | Groepscreatie beperkt tot specifieke personen, teams of services. Zie [Beheren wie Microsoft 365-groepen kan maken](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)voor meer informatie. |
 
 Uw organisatie heeft mogelijk specifieke vereisten om strenge controles uit te voeren op wie groepen kan maken. Gebruik de volgende tabel om te helpen bij het maken van de beslissing over welk inrichtingsmodel bij uw organisatie past.
 
@@ -154,7 +154,7 @@ Als u een Microsoft 365-groep hebt verwijderd, blijft deze standaard 30 dagen be
 >Als een gebruiker tijdens de 'bewaarperiode' toegang probeert te krijgen tot de site, verschijnt de melding 403 verboden bericht. Als de gebruiker na deze periode toegang probeert te krijgen tot de site, verschijnt de melding 404 bericht niet gevonden.
 
 #### <a name="resources"></a>*Resources*
-- [Een verwijderde Microsoft 365-groep herstellen](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54?ui=en-US&rs=en-001&ad=US)
+- [Een verwijderde Microsoft 365-groep herstellen](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group?ui=en-US&rs=en-001&ad=US)
 - [Een verwijderde Microsoft 365-groep herstellen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted)
 - [Delete groups using the Remove-UnifiedGroup cmdlet](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx) (Groepen verwijderen met de cmdlet Remove-UnifiedGroup)
 
@@ -207,7 +207,7 @@ Zodra u hebt ingesteld dat een groep verloopt:
 >Wanneer u het verloopbeleid wijzigt, berekent de service de vervaldatum voor elke groep opnieuw. Het begint altijd te tellen vanaf de datum waarop de groep is gemaakt en past vervolgens het nieuwe verloopbeleid toe.
 
 #### <a name="resources"></a>*Resources*
-- [Microsoft 365-groepsverloopbeleid](https://support.office.com/article/Office-365-Group-Expiration-Policy-8d253fe5-0e09-4b3c-8b5e-f48def064733?ui=en-US&rs=en-US&ad=US)
+- [Verloopbeleid voor Microsoft 365-groep](https://support.office.com/article/Office-365-Group-Expiration-Policy-8d253fe5-0e09-4b3c-8b5e-f48def064733?ui=en-US&rs=en-US&ad=US)
 - [Het verloopbeleid configureren voor Microsoft 365-groepen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)
 
 ### <a name="group-guest-access"></a><a name="group-guest-access"></a>Toegang tot groepsgasten
@@ -273,7 +273,7 @@ Al jaren vertrouwen organisaties op distributiegroepen om te communiceren en sam
 
 #### <a name="resources"></a>*Resources*
 - [Distributielijsten (DL) bijwerken naar groepen in Outlook](https://aka.ms/whyupgradedls)
-- Upgrade met één klik via Exchange-beheercentrum of via [PowerShell-scripts](https://support.office.com/article/787d7a75-e201-46f3-a242-f698162ff09f)
+- Upgrade met één klik via Exchange-beheercentrum of via [PowerShell-scripts](https://docs.microsoft.com/microsoft-365/admin/manage/upgrade-distribution-lists)
 - [Distributielijsten migreren naar Microsoft 365-groepen - Help voor beheerders](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists)
 - [Bestaande SharePoint-sites verbinden met Microsoft 365-groepen:](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group)
 - [De scannergegevens analyseren en gebruiken](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group-scanner)
@@ -296,8 +296,8 @@ In het dashboard Microsoft 365 Rapporten ziet u het activiteitenoverzicht voor d
 
 
 #### <a name="resources"></a>*Resources*
-- [Microsoft 365-rapporten in het beheercentrum](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40)
-- [Inhoudspakket voor Office 365-adoptie](https://support.office.com/article/Office-365-Adoption-Content-Pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)
+- [Microsoft 365-overzichten in het beheercentrum](https://docs.microsoft.com/microsoft-365/admin/activity-reports/office-365-groups)
+- [Inhoudspakket voor Office 365-adoptie](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics)
 - [Azure AD-inhoudspakket](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-power-bi-content-pack-how-to)
 - [Microsoft Graph groepeert activiteits-API](https://developer.microsoft.com/graph/docs/api-reference/v1.0/resources/office_365_groups_activity_reports)
 - [Rapport microsoft 365-groepen (uniforme groepen)](https://gallery.technet.microsoft.com/office/Office-365-Groups-Report-7e3e161b)
@@ -318,8 +318,8 @@ Overweeg een organisatie die Microsoft 365 heeft geïmplementeerd met ten minste
 
 | Fase | Beschrijving |
 | --------------- | ------------------------------------------------------------ |
-| Begeleiding |<ul><li>Overweeg een selfservice-inrichtingsmodel.</li><li> Groepen in Outlook & SharePoint-sites zijn [standaard privé](https://techcommunity.microsoft.com/t5/Office-365-Groups/Groups-in-Outlook-and-Group-connected-team-sites-are-now-private/m-p/186395).</li><li> Groepen kunnen worden gemaakt door bestaande distributielijsten (DLs) één voor één of in bulk te upgraden via PowerShell. Zie [Distributielijsten voor upgrade's naar Microsoft 365-groepen](https://support.office.com/article/Upgrade-distribution-lists-to-Office-365-Groups-in-Outlook-787D7A75-E201-46F3-A242-F698162FF09F).</li><li> Gasttoegang inschakelen, maar regelen met het toestaan/blokkeren van gastdomeinen.</li><li> Gebruik groepsrapportage om inzicht te krijgen in hoe gebruikers groepen gebruiken.</li><li> Overweeg om een organisatiebreed Microsoft Teams-team te maken als een manier voor iedereen om deel uit te maken van één team voor samenwerking. </li></ul>|
-| Volgende stappen      |<ul><li>Overweeg [siteontwerpen en sitescripts](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview) te gebruiken om het standaardontwerp te definiëren voor besturingselementen met behulp van de acties die zijn gedefinieerd in de [verwijzing naar JSON-schema.](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema)</li><li>Rapportage [van groepen bekijken](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40).</li><li>Totale groepen en inactieve/actieve groepen bijhouden.</li><li>Houd zowel Exchange- als SharePoint-opslag bij.</li><li>Groepsactiviteit weergeven voor groepspostvakgesprekken, groepssite-/bestandenactiviteit, enz.</li></ul> |
+| Begeleiding |<ul><li>Overweeg een selfservice-inrichtingsmodel.</li><li> Groepen in Outlook & SharePoint-sites zijn [standaard privé](https://techcommunity.microsoft.com/t5/Office-365-Groups/Groups-in-Outlook-and-Group-connected-team-sites-are-now-private/m-p/186395).</li><li> Groepen kunnen worden gemaakt door bestaande distributielijsten (DLs) één voor één of in bulk te upgraden via PowerShell. Zie [Distributielijsten voor upgrade's naar Microsoft 365-groepen](https://docs.microsoft.com/microsoft-365/admin/manage/upgrade-distribution-lists).</li><li> Gasttoegang inschakelen, maar regelen met het toestaan/blokkeren van gastdomeinen.</li><li> Gebruik groepsrapportage om inzicht te krijgen in hoe gebruikers groepen gebruiken.</li><li> Overweeg om een organisatiebreed Microsoft Teams-team te maken als een manier voor iedereen om deel uit te maken van één team voor samenwerking. </li></ul>|
+| Volgende stappen      |<ul><li>Overweeg [siteontwerpen en sitescripts](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview) te gebruiken om het standaardontwerp te definiëren voor besturingselementen met behulp van de acties die zijn gedefinieerd in de [verwijzing naar JSON-schema.](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema)</li><li>Rapportage [van groepen bekijken](https://docs.microsoft.com/microsoft-365/admin/activity-reports/office-365-groups).</li><li>Totale groepen en inactieve/actieve groepen bijhouden.</li><li>Houd zowel Exchange- als SharePoint-opslag bij.</li><li>Groepsactiviteit weergeven voor groepspostvakgesprekken, groepssite-/bestandenactiviteit, enz.</li></ul> |
 
 ### <a name="medium-sized-business"></a>Middelgrote bedrijven
 Naast de bovenstaande aanbevelingen wordt rekening gehouden met het volgende voor middelgrote bedrijven die Microsoft 365 hebben geïmplementeerd met ten minste een Enterprise E3/E5 met Azure Active Directory Premium P1-licenties.

@@ -16,18 +16,18 @@ search.appverid: MET150
 ms.assetid: ba780859-0297-4114-a258-2b2809bab9e6
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over hoe u e-mail vanaf uw mobiele apparaat openen.
-ms.openlocfilehash: 7c318c6d68a0314c750c6ca1e4c3b2d180d9507f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 42784d652d26222fc53b3e11f3427cf286cb32dd
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629093"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048817"
 ---
 # <a name="options-for-accessing-email-from-your-mobile-device"></a>Opties voor toegang tot e-mail vanaf uw mobiele apparaat
 
 Uw organisatie heeft instellingen geconfigureerd die bepalen welke mobiele apps u gebruiken om toegang te krijgen tot uw werkaccount voor e-mail, agenda en contactpersonen.
   
-De mobiele apps van Outlook voor Android en Outlook voor iOS zijn ontworpen voor uw werk of schoole-mail en zijn de enige apps die functies bieden zoals [Focused Inbox](https://support.office.com/article/f445ad7f-02f4-4294-a82e-71d8964e3978.aspx), die belangrijke e-mails centraal houdt, en [Planningsassistent](https://go.microsoft.com/fwlink/?linkid=873406), waarmee u vergadertijden vinden die met collega's werken en eenvoudig beschikbare vergaderruimtes vindt.
+De mobiele apps van Outlook voor Android en Outlook voor iOS zijn ontworpen voor uw werk of schoole-mail en zijn de enige apps die functies bieden zoals [Focused Inbox](https://support.office.com/article/f445ad7f-02f4-4294-a82e-71d8964e3978.aspx), die belangrijke e-mails centraal houdt, en [Planningsassistent](https://www.microsoft.com/?ref=go), waarmee u vergadertijden vinden die met collega's werken en eenvoudig beschikbare vergaderruimtes vindt.
   
 ## <a name="end-user-experience"></a>Ervaring van eindgebruikers
 

@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
-description: Lear over de vereisten voor Van e-mailadressen voor binnenkomende berichten in Microsoft 365. Vanaf november 2017 vereist de service nu RFC-compatibele From-adressen om spoofing te voorkomen.
-ms.openlocfilehash: 876ede087b37c381b9e9b557268057122e0987c0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 'Om phishing te voorkomen, vereisen Microsoft 365 en Outlook.com nu RFC-naleving voor From: addresses.'
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ef361c7009cc8903ab2721d299412b7d44a4f87c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633976"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034080"
 ---
 # <a name="how-microsoft-365-validates-the-from-address-to-prevent-phishing"></a>Hoe Microsoft 365 het Van-adres valideert om phishing te voorkomen
 

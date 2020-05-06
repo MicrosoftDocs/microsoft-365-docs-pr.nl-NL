@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 7b7b075d-79f9-4e37-8a9e-fb60c1d95166
 description: Lees hier hoe u uw domein kunt verifiëren en DNS-records kunt maken bij een DNS-hostingprovider voor Microsoft 365.
 ms.custom: okr_smb
-ms.openlocfilehash: c727092c153e43369d5ed52d71bfcd256878db4b
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: a2d9b57f0230aa736944727e39845f3a0a533426
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919503"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048781"
 ---
 # <a name="create-dns-records-at-any-dns-hosting-provider"></a>DNS-records maken bij een DNS-hostingprovider
 
@@ -41,7 +41,7 @@ Als u niet weet wie de DNS-hostingprovider of domeinregistrar voor uw domein is,
 Als u de records zelf wilt instellen, moet u deze records toevoegen. Houd er rekening mee dat uw verificatierecord en MX-record uniek zijn voor uw domein. Om die in te stellen, moet u een specifieke ‘token’-waarde ophalen en gebruiken voor uw domein. In de onderstaande stappen wordt uitgelegd hoe u dit doet.
   
 > [!IMPORTANT]
-> De exacte naam van de vakken of *velden* waarin u de gegevens typt of plakt voor het maken van elk type DNS-record, zijn anders voor elke DNS-host. Mogelijk heeft uw DNS-host Help-informatie op zijn website om u te helpen bij het toewijzen van de instructies, die hier worden weergegeven, aan de juiste velden op de website. Controleer in [DNS-records maken voor Microsoft 365](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23.aspx) of we stapsgewijze instructies hebben voor uw DNS-host. > Bepaalde DNS-hosts staan niet toe dat u alle vereiste recordtypen maakt. Dit [zorgt voor servicebeperkingen](https://support.office.com/article/7ae9a655-041d-4724-aa92-60392ee390c2.aspx) in Microsoft 365. Als bijvoorbeeld de host van uw domein SRV-, TXT- of CNAME-records niet ondersteunt, raden we u aan dat u [uw domein overbrengt](../get-help-with-domains/buy-a-domain-name.md) naar een DNS-host die wel alle vereiste records ondersteunt. We raden aan dat u uw domein overbrengt naar GoDaddy voor een snel en geautomatiseerd proces voor het instellen van Microsoft 365. 
+> De exacte naam van de vakken of *velden* waarin u de gegevens typt of plakt voor het maken van elk type DNS-record, zijn anders voor elke DNS-host. Mogelijk heeft uw DNS-host Help-informatie op zijn website om u te helpen bij het toewijzen van de instructies, die hier worden weergegeven, aan de juiste velden op de website. Controleer in [DNS-records maken voor Microsoft 365](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23.aspx) of we stapsgewijze instructies hebben voor uw DNS-host. > Bepaalde DNS-hosts staan niet toe dat u alle vereiste recordtypen maakt. Dit [zorgt voor servicebeperkingen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) in Microsoft 365. Als bijvoorbeeld de host van uw domein SRV-, TXT- of CNAME-records niet ondersteunt, raden we u aan dat u [uw domein overbrengt](../get-help-with-domains/buy-a-domain-name.md) naar een DNS-host die wel alle vereiste records ondersteunt. We raden aan dat u uw domein overbrengt naar GoDaddy voor een snel en geautomatiseerd proces voor het instellen van Microsoft 365. 
   
 > [!NOTE]
 > Het duurt gewoonlijk maar een paar minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen vinden en oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
@@ -81,7 +81,7 @@ Voordat u uw domein met Microsoft 365 kunt gaan gebruiken, moet worden gecontrol
       ||||||
       |:-----|:-----|:-----|:-----|:-----|
       |**Recordtype**|**Alias** of **Hostnaam**|**Value**|**Priority**|**TTL**|
-      |MX|Typ **@** of uw domeinnaam. |MS=ms *XXXXXXXX* <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Office 365.    <br/>       [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)     <br/>     |Gebruik een lagere prioriteit dan de prioriteit voor bestaande MX-records voor **Prioriteit** om conflicten met de MX-record voor de e-mailstroom te voorkomen. <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit. <br/> |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort. |
+      |MX|Typ **@** of uw domeinnaam. |MS=ms *XXXXXXXX* <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Office 365.    <br/>       [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)     <br/>     |Gebruik een lagere prioriteit dan de prioriteit voor bestaande MX-records voor **Prioriteit** om conflicten met de MX-record voor de e-mailstroom te voorkomen. <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort. |
    
 2. Sla de record op.
     
@@ -141,7 +141,7 @@ De pagina zoeken waarop u records voor uw domein kunt maken.
     
    - **Prioriteit**: Stel de prioriteit in van de MX-record op de hoogst beschikbare waarde, meestal **0**.
     
-      Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.
+      Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.
     
    - **Host Name**: **@**
     

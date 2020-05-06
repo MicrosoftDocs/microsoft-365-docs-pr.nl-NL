@@ -1,5 +1,5 @@
 ---
-title: Voorbeeldscript voor het toepassen van EOP-instellingen op meerdere tenants
+title: Voorbeeldscript voor EOP-instellingen - meerdere tenants
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -11,13 +11,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
-description: Met het volgende voorbeeldscript kunnen EOP-beheerders (Microsoft Exchange Online Protection) die meerdere tenants (bedrijven) beheren, Windows PowerShell gebruiken om configuratie-instellingen toe te passen op hun tenants.
-ms.openlocfilehash: 83199e809b6001b8b5b3b51d2cd15a6e44d83b03
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.custom:
+- seo-marvel-apr2020
+description: In dit artikel leert u hoe u PowerShell gebruiken om configuratie-instellingen toe te passen op uw tenants in Microsoft Exchange Online Protection (EOP).
+ms.openlocfilehash: b875a6c7ba53f459a73699b250ee5ed4a206f1b1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42810935"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035928"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>Voorbeeldscript voor het toepassen van EOP-instellingen op meerdere tenants
 
@@ -25,13 +27,13 @@ Met het volgende voorbeeldscript kunnen EOP-beheerders (Microsoft Exchange Onlin
 
 ## <a name="to-run-a-script-or-cmdlet-on-multiple-tenants"></a>Een script of cmdlet uitvoeren op meerdere tenants
 
-1. Maak met behulp van een toepassing zoals Excel een CSV-bestand (bijvoorbeeld c:\scripts\inputfile.csv):
+1. Maak met een toepassing zoals Excel een CSV-bestand (bijvoorbeeld c:\scripts\inputfile.csv):
 
 2. Geef in het CSV-bestand twee kolomnamen op: UserName en Cmdlet.
 
-3. Voeg voor elke rij in het CSV-bestand de beheerdersnaam van de tenant toe in de kolom UserName en de cmdlet die voor die tenant moet worden uitgevoerd in de kolom Cmdlet. Gebruik bijvoorbeeld admin@contoso.com en Get-AcceptedDomain.
+3. Voeg voor elke rij in het CSV-bestand de beheerdersnaam van de tenant toe in de kolom Gebruikersnaam en de cmdlet die voor die tenant moet worden uitgevoerd in de kolom Cmdlet. Gebruik bijvoorbeeld admin@contoso.com en Get-AcceptedDomain.
 
-4. Kopieer het script [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) naar een editor als Kladblok en sla het bestand op op een locatie (zoals c:\scripts) die .ps1-bestanden gemakkelijk te vinden maakt.
+4. Kopieer het [script RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) naar een editor zoals Kladblok en sla het bestand op een locatie (zoals c:\scripts) die .ps1-bestanden gemakkelijk te vinden maakt.
 
 5. Voer het script uit met de volgende syntaxis:
 
@@ -45,7 +47,7 @@ Met het volgende voorbeeldscript kunnen EOP-beheerders (Microsoft Exchange Onlin
    & "c:\scripts\RunCmdletOnMultipleTenanats.ps1" "c:\scripts\inputfile.csv"
    ```
 
-6. Elke huurder wordt aangemeld en de cmdlet wordt uitgevoerd.
+6. Elke tenant wordt aangemeld en de cmdlet wordt uitgevoerd.
 
 ## <a name="runcmdletonmultipletenantsps1"></a>RunCmdletOnMultipleTenants.ps1
 

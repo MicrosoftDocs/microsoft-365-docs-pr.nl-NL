@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 description: "Ontdek hoeveel belasting u in rekening wordt gebracht voor uw Microsoft 365 voor zakelijk abonnement in verschillende regio's. "
 ms.custom: okr_SMB
-ms.openlocfilehash: 491c8241d8517d342e04a214d426e937895aab5a
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 0aeabd49477bdef856a7ddb9f3b7c39211be2479
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708129"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045822"
 ---
 # <a name="tax-information"></a>Belastinginformatie
 
@@ -114,7 +114,7 @@ U komt mogelijk in aanmerking voor het btw-nultarief:
 
 #### <a name="add-your-vat-id-eu-countries-only"></a>Uw btw-nummer invoeren (alleen landen in de Europese Unie)
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Zoek de abonnementskaart voor het abonnement dat u wilt bijwerken.
 

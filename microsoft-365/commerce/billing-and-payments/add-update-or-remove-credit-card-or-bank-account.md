@@ -24,17 +24,17 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Meer informatie over het beheren van uw betalingsmethoden in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: be03d4b779c0592d47b23c4cf1fd491b7c8f455e
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: b15381ee4eba7c1a91e108743fc326c890ab1820
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106046"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045926"
 ---
 # <a name="add-update-or-remove-your-payment-methods"></a>Uw betalingsmethoden toevoegen, bijwerken of verwijderen
 
 ::: moniker range="o365-worldwide"
-U producten en services bij Microsoft kopen met een creditcard of bankpas of bankrekening. U uw betalingsgegevens invoeren op de pagina **Betalingsmethoden** of wanneer u een aankoop doet.
+U producten en services bij Microsoft kopen met een creditcard of bankpas of bankrekening. U kunt uw betalingsgegevens invullen op de pagina **Betalingsmethoden** of wanneer u een aankoop doet.
 
 U alleen betalingsmethoden beheren die u hebt toegevoegd.
 
@@ -66,7 +66,7 @@ U de betalingsmethode wijzigen die wordt gebruikt om voor één abonnement te be
 
 ### <a name="change-the-payment-method-used-for-a-single-subscription"></a>De betalingsmethode wijzigen die voor één abonnement wordt gebruikt
 
-1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 2. Selecteer het abonnement waarvoor u wilt betalen met de nieuwe kaart of bankrekening. Selecteer **onder Facturering**naast de betalingsmethode de optie **Bewerken**.
 3. Selecteer naast uw bestaande betalingsmethode **wijzigen**.
 4. Selecteer in de vervolgkeuzelijst een alternatieve betalingsmethode of kies ervoor om een betalingsmethode toe te voegen.
@@ -89,10 +89,10 @@ U alleen een creditcard of betaalkaart of bankrekening van uw lijst met betaling
 
 ### <a name="delete-a-payment-method"></a>Een betalingsmethode verwijderen
 
-Als uw betalingsmethode niet is gekoppeld aan abonnementen, u deze onmiddellijk verwijderen.
+Als uw betalingsmethode niet is gekoppeld aan een abonnement, kunt u deze direct verwijderen.
 
 1. Ga in het beheercentrum naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Betalingsmethoden</a> **voor facturen** > **& betalingen.** >
-2. Plaats de plaats van de kaart of bankrekening en selecteer vervolgens het pictogram verwijderen.
+2. Plaats de muisaanwijzer op de kaart of bankrekening en selecteer vervolgens het pictogram voor verwijderen.
 3. Selecteer Onder aan het deelvenster **Betalingsmethode verwijderen** de optie **Verwijderen**.
 
 ### <a name="add-an-alternate-payment-method-used-to-pay-for-subscriptions"></a>Een alternatieve betalingsmethode toevoegen die wordt gebruikt om voor abonnementen te betalen
@@ -100,7 +100,7 @@ Als uw betalingsmethode niet is gekoppeld aan abonnementen, u deze onmiddellijk 
 Als uw betalingsmethode is gekoppeld aan abonnementen en u geen alternatieve betalingsmethode in het bestand hebt, voegt u eerst een betalingsmethode toe. Wijzig vervolgens de betalingsmethode die wordt gebruikt om de abonnementen te betalen. Vervolgens u de betalingsmethode verwijderen.
 
 1. Ga in het beheercentrum naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Betalingsmethoden</a> **voor facturen** > **& betalingen.** >
-2. Plaats de plaats van de kaart of bankrekening en selecteer vervolgens het pictogram verwijderen.
+2. Plaats de muisaanwijzer op de kaart of bankrekening en selecteer vervolgens het pictogram voor verwijderen.
 3. In het deelvenster **Betalingsmethode verwijderen** worden bestaande abonnementen weergegeven die die betalingsmethode gebruiken.
 4. Selecteer **Betaalmethode toevoegen**.
 5. Selecteer het type betalingsmethode dat u wilt toevoegen, voer de accountgegevens in en selecteer **Toevoegen**.
@@ -114,7 +114,7 @@ Als uw betalingsmethode is gekoppeld aan abonnementen en u geen alternatieve bet
 Als uw betalingsmethode is gekoppeld aan abonnementen en u ten minste één alternatieve betalingsmethode in het bestand hebt, wijzigt u eerst de betalingsmethode die wordt gebruikt om voor de abonnementen te betalen. Vervolgens u de betalingsmethode verwijderen.
 
 1. Ga in het beheercentrum naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Betalingsmethoden</a> **voor facturen** > **& betalingen.** >
-2. Plaats de plaats van de kaart of bankrekening en selecteer vervolgens het pictogram verwijderen.
+2. Plaats de muisaanwijzer op de kaart of bankrekening en selecteer vervolgens het pictogram voor verwijderen.
 3. In het deelvenster **Betalingsmethode verwijderen** worden bestaande abonnementen weergegeven die die betalingsmethode gebruiken.
 4. Selecteer **Betalingsmethode wijzigen**.
 5. Selecteer een alternatieve betalingsmethode in de vervolgkeuzelijst en selecteer **Wijzigen**.
@@ -141,7 +141,7 @@ Als uw betalingsmethode is gekoppeld aan een factureringsprofiel en ook wordt ge
 2. Als u geen alternatieve betalingsmethode hebt, volgt u de stappen in [Een alternatieve betalingsmethode toevoegen die wordt gebruikt om voor abonnementen te betalen.](#add-an-alternate-payment-method-used-to-pay-for-subscriptions)
 3. Als u al andere betalingsmethoden beschikbaar hebt, volgt u de stappen in [Een betalingsmethode wijzigen](#change-a-payment-method).
 
-## <a name="troubleshoot-payment-methods"></a>Betalingsmethoden oplossen
+## <a name="troubleshoot-payment-methods"></a>Problemen met betalingsmethoden oplossen
 
 |**Probleem**|**Stappen voor probleemoplossing**|
 |:-----|:-----|

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Lees microsoft 365-groepen, waaronder het toevoegen van groepleden verwijderen, het bewerken van het e-mailadres, de groepsnaam of de beschrijving en het aanpassen van de werking van de groep.
-ms.openlocfilehash: 230a449bad22d0b872983a8c911955f4d00153ea
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 332d0dce46b94a3b69169183afb0c75ec537af8c
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630391"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049201"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Een groep beheren in het Microsoft 365-beheercentrum
 
@@ -194,7 +194,7 @@ Deze optie is geweldig als u een bedrijfse-mailadres zoals info@contoso.com wilt
 
 [Een Microsoft 365-groep maken](create-groups.md)
 
-[Gasttoegang tot Microsoft 365-groepen beheren](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
+[Gasttoegang tot Microsoft 365-groepen beheren](https://support.office.com/article/adding-guests-to-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
 [Het domein kiezen dat u wilt gebruiken bij het maken van Microsoft 365-groepen](choose-domain-to-create-groups.md)
 
@@ -202,4 +202,4 @@ Deze optie is geweldig als u een bedrijfse-mailadres zoals info@contoso.com wilt
 
 [Distributielijsten upgraden naar Microsoft 365-groepen](../manage/upgrade-distribution-lists.md)
 
-[Microsoft 365-groepen beheren met PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
+[Microsoft 365-groepen beheren met PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell)

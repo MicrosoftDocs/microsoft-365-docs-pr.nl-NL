@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5176feef-36dc-4d84-842f-1f2b5a21ba96
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij OVH voor Microsoft.
-ms.openlocfilehash: a1f29b6f6464e781768997be0969914771ec5703
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: 18ddcba9cdb4f45f624d32369db07b24f9a357cf
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939129"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048913"
 ---
 # <a name="create-dns-records-at-ovh-for-microsoft"></a>DNS-records maken bij OVH voor Microsoft
 
@@ -142,7 +142,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
     |**Recordtype**|**Subdomein**|**TTL**|**Prioriteit**|**Doel**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(laat leeg)  <br/> |3600 (seconden)  <br/> |10  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.    <br/> |\<domain-key\>.mail.protection.outlook.com.  <br/> **Let op:** Haal uw * \<domeinsleutel\> * uit uw Microsoft-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)  |
+    |MX  <br/> |(laat leeg)  <br/> |3600 (seconden)  <br/> |10  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/> |\<domain-key\>.mail.protection.outlook.com.  <br/> **Let op:** Haal uw * \<domeinsleutel\> * uit uw Microsoft-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)  |
    
     ![OVH MX record voor e-mail](../../media/6e2f5655-93e2-4620-8f19-c452e7edf8f0.png)
   

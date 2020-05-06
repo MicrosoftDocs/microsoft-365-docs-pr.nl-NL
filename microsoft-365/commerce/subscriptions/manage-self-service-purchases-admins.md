@@ -14,14 +14,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: Beheerders kunnen leren hoe ze selfservice-aankopen kunnen beheren die door gebruikers in hun organisatie worden gedaan.
-ms.openlocfilehash: ab0e98963e1274925fcf678307907a93eafc9663
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 7074a829bed3e65a160a9a33afb4f2b130f6c8d1
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42805917"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046178"
 ---
-# <a name="manage-self-service-purchases-admin"></a>Selfservice-aankopen beheren (beheerder)
+# <a name="manage-self-service-purchases-admin"></a>Selfservice-aankopen beheren (Beheerders)
 
 Als beheerder u selfservice-aankopen zien die door mensen in uw organisatie zijn gedaan. U het product, de naam van de koper, de gekochte abonnementen, de vervaldatum, de aankoopprijs en toegewezen gebruikers voor elke selfserviceaankoop bekijken. Indien nodig voor uw organisatie, u self-service inkoop per product via PowerShell uitschakelen. U hebt hetzelfde beleid voor gegevensbeheer en -toegang ten opzichte van producten die zijn gekocht via selfservice-aankoop of centraal.
 
@@ -29,7 +29,7 @@ U ook bepalen of gebruikers in uw organisatie zelfservice-aankopen kunnen doen. 
 
 ## <a name="view-self-service-subscriptions"></a>Selfservice-abonnementen weergeven
 
-1. Ga in het beheercentrum naar de pagina >  **Factureringsproducten**<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& services.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Kies naast **Resultaten verfijnen**in de vervolgkeuzelijst **Accounttype** de optie **Selfservice**.
 

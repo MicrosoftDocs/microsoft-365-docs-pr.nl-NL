@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
 description: Meer informatie over hoe u uw abonnement opnieuw activeren wanneer het verloopt of als Microsoft het abonnement uitschakelt of als u het in het midden opzegt.
-ms.openlocfilehash: 79a8b157743b96dd3227086d417e6903ec1762b0
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 9f665cc9ca80b7338197a5401cdf9a4c2283d123
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707665"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046238"
 ---
 # <a name="reactivate-your-subscription"></a>Uw abonnement opnieuw activeren
 
@@ -40,10 +40,9 @@ Als uw abonnement verloopt of is uitgeschakeld door Microsoft, of als u het midd
 
 ::: moniker range="o365-worldwide"
 
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
-
-2. Zoek op de pagina **Producten en services** naar het abonnement dat u opnieuw wilt activeren. Selecteer **in** de sectie Facturering de optie **Opnieuw activeren**.
+2. Zoek op de pagina **Uw producten** het abonnement dat u opnieuw wilt activeren. Selecteer **in** de sectie Facturering de optie **Opnieuw activeren**.
   
     Als u **Reactiveren** niet ziet als een beschikbare actie, [belt u Ondersteuning](../../admin/contact-support-for-business-products.md) om uw abonnement opnieuw te activeren.
 
@@ -91,11 +90,11 @@ Als uw abonnement verloopt of is uitgeschakeld door Microsoft, of als u het midd
 
 3. Voer uw betalingsgegevens in. U kunt uw bestaande betalingsgegevens hier bijwerken.
 
-  - Als uw abonnement is verlopen, keert uw abonnement na het verzenden van uw betalingsgegevens terug naar een actieve status en wordt de **factureringsdatum volgende** met één maand of een jaar verlengd, afhankelijk van uw huidige abonnementsverplichting. Als u met een creditcard of bankrekening betaalt, wordt uw creditcard of bankrekening in rekening gebracht voor de verlenging. Als u per factuur betaalt, ziet u de extensie die wordt weergegeven op uw volgende factuur. Als u ervoor wilt zorgen dat uw abonnement niet opnieuw verloopt, [schakelt u Terugkerende facturering in](renew-your-subscription.md#turn-recurring-billing-off-or-on).
+    - Als uw abonnement is verlopen, keert uw abonnement na het verzenden van uw betalingsgegevens terug naar een actieve status en wordt de **factureringsdatum volgende** met één maand of een jaar verlengd, afhankelijk van uw huidige abonnementsverplichting. Als u met een creditcard of bankrekening betaalt, wordt uw creditcard of bankrekening in rekening gebracht voor de verlenging. Als u per factuur betaalt, ziet u de extensie die wordt weergegeven op uw volgende factuur. Als u ervoor wilt zorgen dat uw abonnement niet opnieuw verloopt, [schakelt u Terugkerende facturering in](renew-your-subscription.md#turn-recurring-billing-off-or-on).
 
     > [!NOTE]
     > De mogelijkheid om te betalen per bankrekening is niet beschikbaar in sommige landen of regio's.
   
-  - Als uw abonnement is opgezegd of is uitgeschakeld omdat een betaling niet is ontvangen, wordt het bericht in een actieve status weergegeven en blijft uw **volgende factureringsdatum** hetzelfde.
+    - Als uw abonnement is opgezegd of is uitgeschakeld omdat een betaling niet is ontvangen, wordt het bericht in een actieve status weergegeven en blijft uw **volgende factureringsdatum** hetzelfde.
 
 ::: moniker-end

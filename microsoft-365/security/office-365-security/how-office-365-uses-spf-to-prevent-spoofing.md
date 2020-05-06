@@ -1,5 +1,5 @@
 ---
-title: Hoe Microsoft 365 Sender Policy Framework (SPF) gebruikt om spoofing te voorkomen
+title: Hoe Sender Policy Framework (SPF) spoofing voorkomt
 f1.keywords:
 - CSH
 ms.author: tracyp
@@ -15,15 +15,17 @@ search.appverid:
 ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 ms.collection:
 - M365-security-compliance
-description: 'Samenvatting: In dit artikel wordt beschreven hoe Microsoft 365 de SPF-record (Sender Policy Framework) (SPF) in DNS gebruikt om ervoor te zorgen dat e-mailsystemen van bestemming berichten vertrouwen die vanuit uw aangepaste domein worden verzonden. Dit geldt voor uitgaande e-mail die is verzonden vanuit Microsoft 365. Berichten die van Microsoft 365 naar een ontvanger binnen Microsoft 365 worden verzonden, passeren altijd SPF.'
-ms.openlocfilehash: d73fb881b8395c6c1383cca70e506694795f1364
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Lees hoe Microsoft 365 de SPF-record (Sender Policy Framework) in DNS gebruikt om ervoor te zorgen dat e-mailsystemen van bestemming berichten vertrouwen die vanuit uw aangepaste domein worden verzonden.
+ms.openlocfilehash: 5d09047b51f191947c13a3e6ca64b5cb30d3f6a0
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633988"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036387"
 ---
-# <a name="how-microsoft-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Hoe Microsoft 365 Sender Policy Framework (SPF) gebruikt om spoofing te voorkomen
+# <a name="how-microsoft-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Hoe Microsoft 365 SPF (Sender Policy Framework) gebruikt om adresvervalsing te voorkomen
 
  **Samenvatting:** In dit artikel wordt beschreven hoe Microsoft 365 de SPF-record (Sender Policy Framework) (SPF) in DNS gebruikt om ervoor te zorgen dat e-mailsystemen van bestemming berichten vertrouwen die vanuit uw aangepaste domein worden verzonden. Dit geldt voor uitgaande e-mail die is verzonden vanuit Microsoft 365. Berichten die van Microsoft 365 naar een ontvanger binnen Microsoft 365 worden verzonden, passeren altijd SPF.
 
@@ -202,7 +204,7 @@ v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 ip4:192.168.0.3 include:spf.protection.ou
 
 Zodra u uw SPF TXT-record hebt geformuleerd, volgt u de stappen in [SPF instellen in Microsoft 365 om spoofing te voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md) om deze aan uw domein toe te voegen.
 
-Hoewel SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing technieken die SPF niet kan beschermen tegen. Om u hiertegen te beschermen, moet u, zodra u SPF hebt ingesteld, ook DKIM en DMARC configureren voor Microsoft 365. Zie [DKIM gebruiken om uitgaande e-mail die vanuit uw aangepaste domein in Microsoft 365 is verzonden, te valideren.](use-dkim-to-validate-outbound-email.md) Zie vervolgens [DMARC gebruiken om e-mail te valideren in Microsoft 365](use-dmarc-to-validate-email.md).
+Hoewel SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing technieken die SPF niet kan beschermen tegen. Om u hiertegen te beschermen, moet u, zodra u SPF hebt ingesteld, ook DKIM en DMARC configureren voor Microsoft 365. Zie [DKIM gebruiken om uitgaande e-mail die vanuit uw aangepaste domein in Microsoft 365 is verzonden, te valideren.](use-dkim-to-validate-outbound-email.md) Zie vervolgens [DMARC gebruiken om e-mail in Microsoft 365 te valideren](use-dmarc-to-validate-email.md).
 
 ## <a name="troubleshooting-best-practices-for-spf-in-microsoft-365"></a>Probleemoplossing: aanbevolen procedures voor SPF in Microsoft 365
 <a name="SPFTroubleshoot"> </a>

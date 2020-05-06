@@ -1,7 +1,7 @@
 ---
 title: Aangepaste detectieregels maken en beheren in Microsoft Threat Protection
 description: Meer informatie over het maken en beheren van aangepaste detectieregels op basis van geavanceerde jachtquery's
-keywords: geavanceerde jacht, dreigingjacht, cyberdreigingsjacht, bescherming tegen microsoft-bedreigingen, microsoft 365, mtp, m365, zoeken, query, telemetrie, aangepaste detecties, regels, schema, kusto, microsoft 365, Microsoft Threat Protection, RBAC, machtigingen, Microsoft Verdediger ATP
+keywords: geavanceerde jacht, dreigingjacht, cyberdreigingsjacht, bescherming tegen microsoft-bedreigingen, microsoft 365, mtp, m365, zoeken, query, telemetrie, aangepaste detecties, regels, schema, kusto, microsoft 365, Microsoft Threat Protection, RBAC, machtigingen, Microsoft Defender ATP
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,17 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: adb8c7dfa0050ef2eb0d59e1e55d07da7aaa3f39
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: cdfc23f34d90c9d725ec6fb314728553a987c025
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42931742"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034862"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Aangepaste detectieregels maken en beheren
 
-**Van toepassing op:**
-- Microsoft-bedreigingsbeveiliging
+**Geldt voor:**
+- Microsoft Threat Protection
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
@@ -114,7 +114,7 @@ Identificeer de kolommen in uw queryresultaten waar u verwacht de belangrijkste 
 
 U slechts één kolom selecteren voor elk entiteitstype (postvak, gebruiker of apparaat). Kolommen die niet door uw query worden geretourneerd, kunnen niet worden geselecteerd.
 
-### <a name="3-specify-actions-on-files-or-machines"></a>3. Geef acties op bestanden of machines op.
+### <a name="4-specify-actions-on-files-or-machines"></a>4. Geef acties op bestanden of machines op.
 Uw aangepaste detectieregel kan automatisch acties uitvoeren op bestanden of machines die door de query worden geretourneerd.
 
 #### <a name="actions-on-machines"></a>Acties op machines
@@ -130,7 +130,7 @@ Wanneer deze optie is geselecteerd, wordt de `InitiatingProcessSHA1` `SHA256`act
 > [!NOTE]
 > De actie voor aangepaste detectieregels toestaan of blokkeren, wordt momenteel niet ondersteund op Microsoft Threat Protection.
 
-### <a name="4-set-the-rule-scope"></a>4. Stel de regelscope in.
+### <a name="5-set-the-rule-scope"></a>5. Stel het regelbereik in.
 Stel het bereik in om op te geven welke apparaten onder de regel vallen. Het bereik beïnvloedt regels die apparaten controleren en heeft geen invloed op regels die alleen postvakken en gebruikersaccounts of identiteiten controleren.
 
 Wanneer u het bereik instelt, u het beste selecteren:
@@ -140,7 +140,7 @@ Wanneer u het bereik instelt, u het beste selecteren:
 
 Alleen gegevens van apparaten in het bereik worden opgevraagd. Ook zullen acties alleen worden uitgevoerd op deze apparaten.
 
-### <a name="5-review-and-turn-on-the-rule"></a>5. De regel controleren en inschakelen.
+### <a name="6-review-and-turn-on-the-rule"></a>6. De regel controleren en inschakelen.
 Nadat u de regel hebt gecontroleerd, klikt u op **Maken** om deze op te slaan. De aangepaste detectieregel wordt onmiddellijk uitgevoerd. Het wordt opnieuw uitgevoerd op basis van geconfigureerde frequentie om te controleren op overeenkomsten, waarschuwingen te genereren en reactieacties uit te voeren.
 
 ## <a name="manage-existing-custom-detection-rules"></a>Bestaande aangepaste detectieregels beheren
@@ -185,6 +185,6 @@ Ga in het scherm regeldetails **(Aangepaste** > **detecties** > **zoeken [Regeln
 >Als u snel informatie wilt weergeven en actie wilt ondernemen voor een item in een tabel, gebruikt u de selectiekolom [&#10003;] links van de tabel.
 
 ## <a name="related-topic"></a>Gerelateerd onderwerp
-- [Overzicht van aangepaste detecties](custom-detections-overview.md)
-- [Geavanceerd jachtoverzicht](advanced-hunting-overview.md)
+- [Overzicht van aangepaste detectie](custom-detections-overview.md)
+- [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [Leer de geavanceerde jachtquerytaal](advanced-hunting-query-language.md)

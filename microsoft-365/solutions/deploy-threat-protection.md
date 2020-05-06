@@ -1,6 +1,6 @@
 ---
 title: Mogelijkheden voor bedreigingsbescherming implementeren in Microsoft 365
-description: Meer informatie over het implementeren van mogelijkheden voor bedreigingsbescherming in Microsoft 365 E5.
+description: Meer informatie over het implementeren van services en mogelijkheden voor bedreigingsbescherming in Microsoft 365 E5.
 ms.author: bcarter
 author: brendacarter
 manager: dansimp
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-ms.openlocfilehash: ff6854636c13e6c1ea40cf4cc6fa39d7b2b340b4
-ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
+ms.openlocfilehash: 81b069bb5c316bea211bee98c293f2d1fcdd2422
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44016094"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046260"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Mogelijkheden voor bedreigingsbescherming implementeren in Microsoft 365
 
@@ -48,7 +48,16 @@ In de volgende afbeelding wordt een aanbevolen pad weergegeven voor het implemen
 
 ![M365 threat protection signalen](../media/solutions-architecture-center/deploy-threat-protection-across-m365.png)
 
-Organisaties met meerdere beveiligingsteams kunnen deze mogelijkheden parallel implementeren.
+|Oplossing/mogelijkheden  |Beschrijving  |
+|---------|---------|
+|Meervoudige verificatie en voorwaardelijke toegang     |Bescherm tegen gecompromitteerde identiteiten en apparaten. Begin met deze bescherming, want het is fundamenteel. De configuratie die in deze richtlijnen wordt aanbevolen, bevat Azure AD-identiteitsbeveiliging als voorwaarde.     |
+|Azure Advanced Threat Protection     |  Een cloudgebaseerde beveiligingsoplossing die uw on-premises Active Directory-signalen gebruikt om geavanceerde bedreigingen, gecompromitteerde identiteiten en schadelijke insideracties gericht op uw organisatie te identificeren, detecteren en onderzoeken. Focus op dit volgende omdat het uw on-prem en uw cloudinfrastructuur beschermt, geen afhankelijkheden of vereisten heeft en onmiddellijk voordeel kan bieden.       | 
+|Office 365 Advanced Threat Protection     | Beschermt uw organisatie tegen schadelijke bedreigingen van e-mailberichten, koppelingen (URL's) en samenwerkingstools. Beveiligingen voor malware, phishing, spoofing en andere soorten aanvallen. Dit wordt vervolgens aanbevolen omdat wijzigingscontrole, migratie-instellingen van het zittende systeem en andere overwegingen langer kunnen duren om te implementeren. <br><br>Opmerking: zorg ervoor dat u ook de mogelijkheden voor bedreigingsbescherming configureert die zijn opgenomen in alle Office 365-abonnementen (Exchange Online Protection).       |
+|Microsoft Defender Advanced Threat Protection    | Een endpoint-beveiligingsplatform dat geavanceerde bedreigingen helpt voorkomen, detecteren, onderzoeken en erop reageert. Dit duurt langer om te implementeren, maar kan parallel met de andere mogelijkheden worden gedaan als andere beheerders verantwoordelijk zijn.   |
+|Microsoft Cloud App Security     |   Een cloudtoegangsbeveiligingsbroker voor detectie, onderzoek en governance. U dit vroeg inschakelen om te beginnen met het verzamelen van gegevens en inzichten. Het implementeren van informatie en andere gerichte bescherming in uw SaaS-apps omvat planning en kan meer tijd in beslag nemen.       | 
+
+> [!TIP]
+> Organisaties met meerdere beveiligingsteams kunnen deze mogelijkheden parallel implementeren.
 
 ## <a name="deploy-your-threat-protection-solution"></a>Uw oplossing voor bedreigingsbescherming implementeren
 
