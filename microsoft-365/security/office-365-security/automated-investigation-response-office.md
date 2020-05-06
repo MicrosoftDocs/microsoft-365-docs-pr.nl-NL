@@ -1,5 +1,5 @@
 ---
-title: Geautomatiseerd onderzoek en reactie (AIR)
+title: Overzicht van geautomatiseerd onderzoek en respons (AIR)
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -14,15 +14,15 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Krijg een overzicht van geautomatiseerde onderzoeks- en reactiemogelijkheden in Office 365 Advanced Threat Protection Plan 2.
-ms.custom: air
-ms.openlocfilehash: 638f421289d5b4f0d8c02fbd5bf2913191721bf6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: air - seo-marvel-mar2020
+ms.openlocfilehash: 3f8aa761207be61f78eb5f9b5140439c86455bf3
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638546"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035614"
 ---
-# <a name="automated-investigation-and-response-air"></a>Geautomatiseerd onderzoek en reactie (AIR)
+# <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-365"></a>Een overzicht van geautomatiseerd onderzoek en reactie (AIR) in Microsoft 365
 
 Als beveiligingswaarschuwingen worden geactiveerd, is het aan uw beveiligingsteam om deze waarschuwingen te bekijken en stappen te ondernemen om uw organisatie te beschermen. Soms kunnen beveiligingsteams zich overweldigd voelen door het aantal waarschuwingen dat wordt geactiveerd. Geautomatiseerde mogelijkheden voor onderzoek en respons (AIR) kunnen helpen. AIR stelt uw beveiligingsteam in staat om efficiënter en effectiever te werken. Air-mogelijkheden omvatten geautomatiseerde onderzoeksprocessen in reactie op bekende bedreigingen die vandaag de dag bestaan. De juiste herstelacties wachten op goedkeuring, zodat uw beveiligingsteam kan reageren op gedetecteerde bedreigingen. 
 

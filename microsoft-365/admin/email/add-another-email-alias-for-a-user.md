@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Lees hoe u meer dan één e-mailadres, de zogenaamde e-mailalias, hebben gekoppeld aan uw Microsoft 365 voor zakelijke account. '
-ms.openlocfilehash: 66ff2441c95ed28b2072792fd0a63b16eea85c04
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: efd0dbf5ae072c803b52d94dd41f16db9bb0413a
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629081"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048805"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Een ander e-mailalias toevoegen voor een gebruiker
   
@@ -68,7 +68,7 @@ U moet [beheerdersmachtigingen](../add-users/about-admin-roles.md) hebben om dit
     > Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u naar de beheerconsole van GoDaddy of de andere partner gaan om de nieuwe alias als het primaire e-mailadres in te stellen. 
   
     > [!TIP]
-    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Office 365](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207.aspx)als u een andere domeinnaam aan de lijst wilt toevoegen. 
+    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)als u een andere domeinnaam aan de lijst wilt toevoegen. 
   
      
 5. Wanneer u klaar bent, kiest **u Wijzigingen opslaan**.
@@ -100,7 +100,7 @@ U moet [beheerdersmachtigingen](../add-users/about-admin-roles.md) hebben om dit
     > Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u naar de beheerconsole van GoDaddy of de andere partner gaan om de nieuwe alias als het primaire e-mailadres in te stellen. 
   
     > [!TIP]
-    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Office 365](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207.aspx)als u een andere domeinnaam aan de lijst wilt toevoegen. 
+    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)als u een andere domeinnaam aan de lijst wilt toevoegen. 
 
 5. Wanneer u klaar bent, selecteert u **Opslaan**.
 
@@ -131,7 +131,7 @@ U moet [beheerdersmachtigingen](../add-users/about-admin-roles.md) hebben om dit
     > Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u naar de beheerconsole van GoDaddy of de andere partner gaan om de nieuwe alias als het primaire e-mailadres in te stellen. 
   
     > [!TIP]
-    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Office 365](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207.aspx)als u een andere domeinnaam aan de lijst wilt toevoegen. 
+    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)als u een andere domeinnaam aan de lijst wilt toevoegen. 
 
 5. Wanneer u klaar bent, selecteert u **Opslaan**.
 

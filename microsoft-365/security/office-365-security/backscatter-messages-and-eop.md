@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
-description: Backscatter is geautomatiseerde bounceberichten die naar vervalste e-mailadressen worden verzonden. De Backscatterer DNSBL identificeert servers die backscatter-berichten verzenden (waaronder veel legitieme e-mailbronnen). Aangezien het geen spammerlijst is, proberen wij niet om van De DNSBL van Backscatterer te verwijderen.
-ms.openlocfilehash: 22eeec29722cf1742e096234aad95b9f6ee407e2
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.custom:
+- seo-marvel-apr2020
+description: In dit artikel vindt u meer informatie over Backscatter en Microsoft Exchange Online Protection (EOP)
+ms.openlocfilehash: 14460b75920b053461722b5a129d785fb6952a5a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895403"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035590"
 ---
 # <a name="backscatter-and-eop"></a>Backscatter en EOP
 

@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 ms.collection:
 - M365-security-compliance
-description: In dit artikel vindt u informatie over probleemoplossing voor afzenders die problemen ondervinden wanneer ze e-mail naar inboxen in Microsoft 365 proberen te verzenden en aanbevolen procedures voor bulkmailingnaar klanten.
-ms.openlocfilehash: 89fd6d11cca0d7689203948922b27e46ae2c602a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: In dit artikel vindt u informatie over het oplossen van problemen met het verzenden van e-mail naar inboxen in Microsoft 365 & aanbevolen procedures voor bulkmailingnaar Microsoft 365-klanten.
+ms.openlocfilehash: 849707ee8b703f13ac12ecb414a8ed9ea6421704
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631143"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036738"
 ---
 # <a name="troubleshooting-mail-sent-to-office-365"></a>Problemen met e-mailberichten die worden verzonden naar Office 365 oplossen
 

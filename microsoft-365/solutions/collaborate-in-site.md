@@ -11,15 +11,16 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - M365solutions
+- seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
-description: Meer informatie over het samenwerken met gasten in een SharePoint-site.
-ms.openlocfilehash: b9b5a50b4d0f7486b3c86546a672b01db3a5b000
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+description: Meer informatie over de Microsoft 365-configuratiestappen die nodig zijn om een SharePoint-site in te stellen voor samenwerking met gasten.
+ms.openlocfilehash: f79846de5d4fd8661205e549db3457a7696e9770
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002275"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035993"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>Samenwerken met gasten op een site
 

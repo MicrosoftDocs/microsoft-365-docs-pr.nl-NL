@@ -1,5 +1,5 @@
 ---
-title: S/MIME-ondertekende en versleutelde e-mail verzenden en ontvangen in Exchange Online
+title: Stuur & ontvangen S/MIME versleutelde e-mail - Exchange Online
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,16 +14,17 @@ search.appverid:
 - MET150
 ms.assetid: 1ce37ada-0a80-4b47-8611-d008979589ff
 description: Het verzenden of beantwoorden van een S/MIME-versleuteld bericht in Microsoft Outlook lijkt sterk op de ervaring met een niet-versleuteld bericht.
-ms.openlocfilehash: a7050ed2b2cd37b08bd2e95b90577f36086f0e85
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b573cb7a0a299b5b8c942b198e141b98b8301087
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42812782"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035394"
 ---
-# <a name="send-and-receive-smime-signed-and-encrypted-email-in-exchange-online"></a>S/MIME-ondertekende en versleutelde e-mail verzenden en ontvangen in Exchange Online
+# <a name="send-and-receive-smime-signed-and-encrypted-email-in-exchange-online"></a>Verzenden en ontvangen van S/MIME ondertekende en versleutelde e-mail in Exchange Online
 
-Het verzenden of beantwoorden van een S/MIME-versleuteld bericht in Microsoft Outlook lijkt sterk op de ervaring met een niet-versleuteld bericht. Zie Berichten versleutelen met [S/MIME versleutelen in het web van S/MIME](https://support.office.com/article/878c79fc-7088-4b39-966f-14512658f480)voor meer informatie over het lezen of verzenden van S/MIME-versleutelde berichten uit een e-mailprogramma ( voorheen bekend als Outlook Web App).
+Het verzenden of beantwoorden van een S/MIME-versleuteld bericht in Microsoft Outlook lijkt sterk op de ervaring met een niet-versleuteld bericht. Zie Berichten versleutelen [met S/MIME in de webversie](https://support.office.com/article/878c79fc-7088-4b39-966f-14512658f480)van Outlook voor meer informatie over het lezen of verzenden van S/MIME-versleutelde berichten van een e-mailprogramma zoals De webversie van Outlook (voorheen Outlook Web App genoemd).
 
 ## <a name="for-more-information"></a>Voor meer informatie
 

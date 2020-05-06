@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Stel beleid voor veilige koppelingen in om uw organisatie te beschermen tegen schadelijke koppelingen in Word-, Excel-, PowerPoint- en Visio-bestanden en in e-mailberichten.
-ms.openlocfilehash: 31401e8f890f329f5724347deec2d85b6e473552
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 946b4bd9eee9b19b2b88eaca8f0ff80e173bb139
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638330"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045234"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP-beleid voor veilige koppelingen instellen
 
@@ -39,7 +39,7 @@ Als ATP Safe Links is ingeschakeld, wordt er een waarschuwingspagina geopend als
   
 1. Bekijk de voorwaarden.
     
-2. Bekijk en bewerk het standaard BELEID voor veilige links van ATP dat op iedereen van toepassing is. U bijvoorbeeld [uw aangepaste geblokkeerde URL's-lijst instellen voor ATP Safe Links.](set-up-a-custom-blocked-urls-list-wtih-atp.md)
+2. Bekijk en bewerk het standaard BELEID voor veilige links van ATP dat op iedereen van toepassing is. U bijvoorbeeld [uw aangepaste geblokkeerde URL's-lijst instellen voor ATP Safe Links.](set-up-a-custom-blocked-urls-list-atp.md)
     
 3. Beleid toevoegen of bewerken voor specifieke e-mailontvangers, inclusief [het instellen van de aangepaste URL's-lijst 'Niet herschrijven' voor ATP Safe Links.](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
     
@@ -75,7 +75,7 @@ Wanneer u [Office 365 Advanced Threat Protection hebt,](office-365-atp.md)hebt u
     
 3. Selecteer **Standaard**en kies Bewerken in **de sectie Beleid dat van toepassing is op de hele organisatiesectie** en kies **Bewerken** (de knop Bewerken lijkt op een potlood).<br/>![Klik op Bewerken om uw standaardbeleid voor beveiliging van veilige koppelingen te bewerken](../../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)
   
-4. Geef in de sectie **De volgende URL's blokkeren** een of meer URL's op die u wilt voorkomen dat mensen in uw organisatie bezoeken. (Zie [Een aangepaste geblokkeerde URL-lijst instellen met ATP Safe Links](set-up-a-custom-blocked-urls-list-wtih-atp.md).)
+4. Geef in de sectie **De volgende URL's blokkeren** een of meer URL's op die u wilt voorkomen dat mensen in uw organisatie bezoeken. (Zie [Een aangepaste geblokkeerde URL-lijst instellen met ATP Safe Links](set-up-a-custom-blocked-urls-list-atp.md).)
     
 5. Selecteer **in de sectie Instellingen die van toepassing zijn op inhoud, behalve de sectie e-mail,** de opties die u wilt gebruiken.In the Settings that apply to content except email section, select (or clear) the options you want to use. (We raden u aan alle opties te selecteren.) 
     
@@ -128,7 +128,7 @@ Standaardbeleidsopties zijn van toepassing op iedereen in uw organisatie.
 
 |Deze optie  |Is dit  |
 |---------|---------|
-| **De volgende URL's blokkeren** <br/>    | Hiermee kan uw organisatie een aangepaste lijst met URL's hebben die automatisch worden geblokkeerd. Wanneer gebruikers op een URL in deze lijst klikken, worden ze naar een [waarschuwingspagina](atp-safe-links-warning-pages.md) geleid waarin wordt uitgelegd waarom de URL is geblokkeerd. Zie Een [aangepaste geblokkeerde URL-lijst instellen met office 365 ATP Safe Links](set-up-a-custom-blocked-urls-list-wtih-atp.md)voor meer informatie. |
+| **De volgende URL's blokkeren** <br/>    | Hiermee kan uw organisatie een aangepaste lijst met URL's hebben die automatisch worden geblokkeerd. Wanneer gebruikers op een URL in deze lijst klikken, worden ze naar een [waarschuwingspagina](atp-safe-links-warning-pages.md) geleid waarin wordt uitgelegd waarom de URL is geblokkeerd. Zie Een [aangepaste geblokkeerde URL-lijst instellen met office 365 ATP Safe Links](set-up-a-custom-blocked-urls-list-atp.md)voor meer informatie. |
 | **Microsoft 365 Apps voor bedrijven, Office voor iOS en Android** <br/>    | Wanneer deze optie is geselecteerd, wordt de bescherming van ATP Safe Links toegepast op URL's in Word-, Excel- en PowerPoint-bestanden in Windows of Mac OS, e-mailberichten in Outlook, Office-documenten op iOS- of Android-apparaten, Visio 2016-bestanden in Windows en bestanden die zijn geopend in de webversies van Office-apps (Word, PowerPoint, Excel, Outlook en OneNote), mits de gebruiker zich heeft aangemeld bij Office 365. |
 | **Niet bijhouden wanneer gebruikers op ATP Safe Links klikken** <br/>  | Wanneer deze optie is geselecteerd, klikt u op gegevens voor URL's in Word, Excel, PowerPoint, Visio-documenten en Outlook-e-mailberichten.  <br/> |
 |**Laat gebruikers niet door ATP Safe Links naar originele URL klikken** <br/> |Wanneer deze optie is geselecteerd, kunnen gebruikers niet verder gaan dan een [waarschuwingspagina](atp-safe-links-warning-pages.md) naar een URL waarvan is vastgesteld dat deze kwaadaardig is.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Betalingsmethoden beheren
+title: Betalingswijzen beheren
 f1.keywords:
 - CSH
 ms.author: cmcatee
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - BEA160
 description: Meer informatie over het beheren van uw betalingsmethoden in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 997b957bb28d32402e17eb855bc891ed07e5f27f
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: fb3efa7aa2e098462e8c323d1cd0038222862e7b
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894839"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045866"
 ---
-# <a name="manage-payment-methods"></a>Betalingsmethoden beheren
+# <a name="manage-payment-methods"></a>Betalingswijzen beheren
 
 Wanneer u zakelijke producten of services van Microsoft koopt, u een bestaande betalingsmethode gebruiken of een nieuwe methode toevoegen. U een creditcard of bankpas of bankrekening gebruiken om te betalen voor de dingen die u koopt. Maar u alleen betalingsmethoden beheren die u toevoegt.
 
@@ -73,7 +73,7 @@ Zie [Een betalingsmethode voor één abonnement wijzigen](#change-a-payment-meth
 
 U de betalingsmethode wijzigen die wordt gebruikt om voor één abonnement te betalen.
 
-1. Ga in het beheercentrum naar de pagina >  **Factureringsproducten**<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& services.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 2. Selecteer op het tabblad **Abonnementen** het abonnement waarvoor u wilt betalen met de alternatieve betalingsmethode. 
 3. Selecteer **onder Facturering**naast de betalingsmethode de optie **Bewerken**.
 4. Selecteer naast uw bestaande betalingsmethode **wijzigen**.
@@ -108,7 +108,7 @@ Als een betalingsmethode is gekoppeld aan abonnementen of factureringsprofielen,
 7. De nieuwe betalingsmethode is al geselecteerd in de vervolgkeuzelijst. Selecteer **Volgende**.
 8. Selecteer **Verwijderen**.
 
-## <a name="troubleshoot-payment-methods"></a>Betalingsmethoden oplossen
+## <a name="troubleshoot-payment-methods"></a>Problemen met betalingsmethoden oplossen
 
 |**Probleem**|**Stappen voor probleemoplossing**|
 |:----------|:-----|

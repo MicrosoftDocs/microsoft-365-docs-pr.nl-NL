@@ -1,5 +1,5 @@
 ---
-title: Gebruik de lijstportal om uzelf uit de lijst met geblokkeerde afzenders te verwijderen
+title: Uzelf verwijderen uit de lijst met geblokkeerde afzenders
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -15,15 +15,17 @@ search.appverid:
 ms.assetid: 0bcecdd4-3343-4cc0-9e58-e19d4de515e8
 ms.collection:
 - M365-security-compliance
-description: Krijgt u een foutmelding wanneer u een e-mail probeert te verzenden naar een ontvanger wiens e-mailadres zich in Microsoft 365 bevindt? Als u denkt dat u het foutbericht niet moet ontvangen, u de lijst met de lijst gebruiken om uzelf uit de lijst met geblokkeerde afzenders te verwijderen.
-ms.openlocfilehash: 39f2c9335f162f26e8bf07a213236e0e0eefef2a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: In dit artikel leert u hoe u de lijst met verwijderde portal gebruiken om uzelf te verwijderen uit de lijst met geblokkeerde afzenders van Microsoft 365.
+ms.openlocfilehash: 700382a494865b80116cfd8419213ed43b35b8a1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636402"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034984"
 ---
-# <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>Gebruik de lijstportal om uzelf uit de lijst met geblokkeerde afzenders te verwijderen
+# <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>De delist-portal gebruiken om uzelf uit de lijst met geblokkeerde afzenders te verwijderen
 
 Krijgt u een foutmelding wanneer u een e-mail probeert te verzenden naar een ontvanger wiens e-mailadres zich in Microsoft 365 bevindt? Als u denkt dat u het foutbericht niet moet ontvangen, u de lijst met de lijst gebruiken om uzelf uit de lijst met geblokkeerde afzenders te verwijderen.
 

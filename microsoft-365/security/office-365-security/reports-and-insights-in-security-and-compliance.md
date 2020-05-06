@@ -1,5 +1,5 @@
 ---
-title: Slimme rapporten en inzichten in het beveiligings- en compliancecentrum
+title: Slimme rapporten, inzichten - Microsoft 365 Security & Compliance Center
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: e3e95f68-36e9-4256-bcca-78fe7fe5ea5d
 ms.collection:
 - M365-security-compliance
-description: Krijg een overzicht van rapporten en inzichten &amp; die mogelijk zijn in het Security Compliance Center.
-ms.openlocfilehash: 0ce3a0208344e328f4b494ab4d04c517fc2a21a6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Lees meer over de slimme rapporten en inzichten die beschikbaar zijn in het Beveiligings- en Compliancecenter en hoe u deze gebruiken om gegevens te bekijken en te verkennen en snelle acties uit te voeren.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2825aeac685ba4742165ed5e01829e24c9287c44
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637164"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035542"
 ---
 # <a name="smart-reports-and-insights-in-the-security-amp-compliance-center"></a>Slimme rapporten en inzichten &amp; in het Security Compliance Center
 

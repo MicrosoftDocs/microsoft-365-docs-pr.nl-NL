@@ -17,12 +17,13 @@ ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 ms.collection:
 - M365-security-compliance
 description: Wanneer u uw ATP-beleid voor veilige bijlagen instelt, kiest u Dynamische bezorging om berichtvertragingen te voorkomen en personen in staat te stellen een voorbeeld van bijlagen te bekijken die worden gescand.
-ms.openlocfilehash: c8e0a60912244a636fbbe6ca62f7c1b9c260e0f6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 7c30803efd2dafedd6d988de5374f08bd61f7d2a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637566"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034790"
 ---
 # <a name="dynamic-delivery-and-previewing-with-atp-safe-attachments"></a>Dynamische levering en previewing met veilige ATP-bijlagen
 

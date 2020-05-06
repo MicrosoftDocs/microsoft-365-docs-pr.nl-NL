@@ -20,12 +20,12 @@ search.appverid:
 description: Het Microsoft 365-beheercentrum - meer informatie over de functies die deze maand zijn toegevoegd.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 2b25e68fbe07b46243f92bdcd252e86340d5f7eb
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: afb18a9e9a249459665781bb1105397684f04653
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011325"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045950"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe nieuws in het Microsoft 365-beheercentrum
 
@@ -176,7 +176,7 @@ We combineren het nieuws van november en december, want na Ignite hadden we wein
 
 ### <a name="change-from-credit-card-to-invoice-payment"></a>Wijzigen van creditcard naar factuurbetaling
 
-We zijn begonnen met het uitrollen van de mogelijkheid om uw betalingsmethode te wijzigen van creditcard naar factuur. Ga naar\> **Factureringsproducten** **& services,** selecteer een abonnement en selecteer vervolgens de koppeling **Bewerken** naast de creditcardbetaling.
+We zijn begonnen met het uitrollen van de mogelijkheid om uw betalingsmethode te wijzigen van creditcard naar factuur. Ga naar **Facturering** \> **uw producten,** selecteer een abonnement en selecteer vervolgens de koppeling **Bewerken** naast de creditcardbetaling.
 
 ![Schermopname: factureringsgedeelte van de abonnementskaart met een creditcard als betalingsmethode.](../media/MAC-BillingEditCreditCard.png)
 
@@ -244,7 +244,7 @@ De servicestatus is bijgewerkt naar de nieuwe stijl en als u wordt beïnvloed do
 
 ### <a name="viral-subscriptions"></a>"Virale" abonnementen
 
-Zoals u weet, kunnen gebruikers gratis abonnementen op een groot aantal producten zoals Power BI en App Connect inschakelen. U nu de virale abonnementen zien die uw gebruikers hebben geprobeerd. Ga naar **Services voor factureringsproducten** > **&**. Selecteer het filter **Accounttype** op het tabblad Abonnementen om de door de gebruiker gekochte abonnementen weer te geven. Indien nodig u deze abonnementen nu uit uw account verwijderen.
+Zoals u weet, kunnen gebruikers gratis abonnementen op een groot aantal producten zoals Power BI en App Connect inschakelen. U nu de virale abonnementen zien die uw gebruikers hebben geprobeerd. Ga naar **Facturering** > **uw producten**. Selecteer het filter **Accounttype** op het tabblad Abonnementen om de door de gebruiker gekochte abonnementen weer te geven. Indien nodig u deze abonnementen nu uit uw account verwijderen.
 
 ### <a name="user-templates"></a>Gebruikerssjablonen
 
@@ -289,7 +289,7 @@ Er is een update geweest voor een andere van onze eerste setup wizards: Microsof
 
 We hebben deze maand een aantal updates voor facturering en abonnementen:
 
-- Abonnementen op basis van apparaten: u **Microsoft 365 Apps for Education (apparaat)licenties** toewijzen of niet toewijzen aan apparaten in het Microsoft 365-beheercentrum. **Microsoft 365 Apps for Education (apparaat)** is een add-on licentie waarmee u een licentie aan een apparaat toewijzen. Ga naar > **Factureringsproducten & services** om de licentie te vinden en te kopen. **Billing**
+- Abonnementen op basis van apparaten: u **Microsoft 365 Apps for Education (apparaat)licenties** toewijzen of niet toewijzen aan apparaten in het Microsoft 365-beheercentrum. **Microsoft 365 Apps for Education (apparaat)** is een add-on licentie waarmee u een licentie aan een apparaat toewijzen. Ga naar **Facturering** > **Uw producten** om de licentie te vinden en te kopen.
 - Licentiebeheer op basis van gebruikers: we hebben de manier bijgewerkt waarop u licenties toewijst in **Gebruikers** > **actieve gebruikers** aan de nieuwe stijl. Zie voor meer informatie:
   - [Licenties toewijzen aan gebruikers](manage/assign-licenses-to-users.md)
   - [Licenties van gebruikers verwijderen](manage/remove-licenses-from-users.md)
@@ -333,7 +333,7 @@ We hebben een aantal spannende wijzigingen om u te helpen uw organisatie in te r
 
 ### <a name="billing--subscriptions"></a>Facturering& abonnementen
 
-- **Softwareproducttype** - U nu softwareproducten bekijken die zijn gekocht via een Cloud Service Provider (CSP). Als u uw downloads en sleutels wilt bekijken, gaat u naar het tabblad >  **Factureringsproducten** > **& services****Software.**
+- **Softwareproducttype** - U nu softwareproducten bekijken die zijn gekocht via een Cloud Service Provider (CSP). Als u uw downloads en sleutels wilt bekijken, gaat u naar **het** > tabblad**Software** facturering**van uw producten.** > 
 - U moderne Azure-producten en -services bekijken vanuit het Microsoft 365-beheercentrum, of u ze nu hebt gekocht bij Microsoft of een externe provider. Voorbeelden van moderne Azure-producten zijn:
   - Azure Gereserveerde virtuele exemplaren
   - Azure-ondersteuningsplannen
@@ -431,7 +431,7 @@ We hebben nog een paar wijzigingen aangebracht in **gebruikersbeheer,** hier is 
 - Er is een bonanza van **facturering** veranderingen deze maand ...
   - U de CVV nu bijwerken voor bestaande creditcards zonder deze te hoeven verwijderen en opnieuw toe te voegen. U de CVV bijwerken door naar**betalingsmethoden** **voor facturen** > te gaan.
     - We hebben het gemakkelijker gemaakt om uw **facturen** te vinden en inzicht te krijgen in eventuele factureringsproblemen die uw account mogelijk heeft. En nu u uw rekeningen in de webbrowser zien in plaats van de PDF te moeten downloaden. Ga naar **facturen .** > **Invoices**
-    - Op de pagina **Producten & services** voegen we uw abonnementsgegevens nu samen als u meerdere abonnementen van hetzelfde type hebt.
+    - Op de pagina **Uw producten** voegen we uw abonnementsgegevens nu samen als u meerdere abonnementen van hetzelfde type hebt.
 
 ## <a name="march-2019---weve-officially-released-the-admin-center"></a>Maart 2019 - We hebben het admin center officieel uitgebracht
 

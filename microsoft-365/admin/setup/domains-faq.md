@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: Meer informatie over domeinen vindt u antwoorden op uw vragen in veelgestelde vragen.
 ms.custom: okr_smb
-ms.openlocfilehash: 81e67ee4b22ea0682d65ebc0e48a4b3564e79526
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 0b9b79c3cab74f4f809f0bd96ed5a51c17282ccd
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919479"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048159"
 ---
 # <a name="domains-faq"></a>Veelgestelde vragen over domeinen
 
@@ -366,7 +366,7 @@ U het oorspronkelijke onmicrosoft.de domein blijven gebruiken, zelfs nadat u uw 
 
 ## <a name="how-do-i-verify-my-nonprofit-or-education-status"></a>Hoe kan ik mijn non-profit- of onderwijsstatus verifiëren?
 
-1. Selecteer **Instellen** in het [beheercentrum](https://support.office.com/article/17d3ff3f-3601-466e-b5a1-482b31cfb791.aspx) om de wizard te starten. (Zorg ervoor dat u zich eerst aanmeldt bij Office 365.) 
+1. Selecteer **Instellen** in het [beheercentrum](https://docs.microsoft.com/microsoft-365/admin/admin-home) om de wizard te starten. (Zorg ervoor dat u zich eerst aanmeldt bij Office 365.) 
     
 2. Als u de beheerder voor uw school wilt worden, selecteert u de optie **Beheerder worden** in Office 365. 
     

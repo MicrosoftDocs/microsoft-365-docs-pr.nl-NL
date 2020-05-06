@@ -16,13 +16,15 @@ ms.collection:
 - M365-security-compliance
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
-description: Hiermee leidt u door de aanbevolen configuratie voor tenantbrede instellingen die de beveiliging van uw Microsoft 365-omgeving beïnvloeden. Uw beveiligingsbehoeften vereisen mogelijk meer of minder beveiliging. Gebruik deze aanbevelingen als uitgangspunt.
-ms.openlocfilehash: 0d16011a7abfcaa20d2a053ee9c00b3719a2b3c6
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+ms.custom:
+- seo-marvel-apr2020
+description: Met dit onderwerp u de aanbevolen configuratie voor tenantbrede instellingen doorlopen die van invloed zijn op de beveiliging van uw Microsoft 365-omgeving.
+ms.openlocfilehash: 25338e95a638173abeebd3477955ad16c9116712
+ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43949391"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44043355"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Uw Microsoft 365-tenant configureren voor meer beveiliging
 
@@ -42,7 +44,7 @@ Het Microsoft 365-beveiligingscentrum bevat mogelijkheden die uw omgeving besche
 |**Anti-phishing**|Ja|Als u een aangepast domein hebt, configureert u het standaard beleid voor antiphishing om de e-mailaccounts van uw meest waardevolle gebruikers, zoals uw CEO, te beschermen en uw domein te beschermen. Bekijk [het beleid tegen phishing in Office 365](set-up-anti-phishing-policies.md) en zie Beleid voor [antiphishing configureren in EOP](configure-anti-phishing-policies-eop.md) of [ATP-beleid voor phishing configureren in Office 365](configure-atp-anti-phishing-policies.md).|
 |**Anti-Malware Engine**|Ja| Bewerk het standaardbeleid: <br/> &ensp;&ensp;* Common Attachment Types Filter — Selecteer Op <br/><br/> U ook aangepaste malwarefilterbeleidsregels maken en deze toepassen op opgegeven gebruikers, groepen of domeinen in uw organisatie. <br/><br/> Meer informatie: <br/> &ensp;&ensp;* [Bescherming tegen malware](anti-malware-protection.md) <br/> &ensp;&ensp;* [Anti-malwarebeleid configureren](configure-anti-malware-policies.md)|
 |**ATP-veilige bijlagen**|Nee| Bescherm op de hoofdpagina voor veilige bijlagen bestanden in SharePoint, OneDrive en Microsoft Teams door het selectievakje in te schakelen: <br/> &ensp;&ensp;* ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams <br/><br/> Voeg een nieuw beleid voor veilige bijlagen toe met de volgende instellingen: <br/> &ensp;&ensp;* Blok - Blokkeer de huidige en toekomstige e-mails en bijlagen met gedetecteerde malware (kies deze optie) <br/> &ensp;&ensp;* Redirect inschakelen — (Schakel dit selectievakje in en voer een e-mailadres in, zoals een beheerders- of quarantaineaccount) <br/> &ensp;&ensp;* Pas de bovenstaande selectie als malware scannen op bijlagen keer uit of fout optreedt (schakel dit vakje) <br/> &ensp;&ensp;* Toegepast op — Het domein van de ontvanger is (selecteer uw domein) <br/><br/>Meer informatie: Beleid voor veilige bijlagen van [Office 365 ATP instellen](set-up-atp-safe-attachments-policies.md)|
-|**ATP Veilige Links**|Ja| Voeg deze instelling toe aan het standaardbeleid voor de hele organisatie: <br/> &ensp;&ensp;* Gebruik Veilige koppelingen in: Microsoft 365 Apps voor bedrijven, Office voor iOS en Android (selecteer deze optie). <br/><br/>Aanbevolen beleid voor specifieke ontvangers: <br/> &ensp;&ensp;* URL's worden herschreven en gecontroleerd aan de hand van een lijst met bekende kwaadaardige links wanneer de gebruiker op de link klikt (selecteer deze optie). <br/> &ensp;&ensp;* Gebruik veilige bijlagen om downloadbare inhoud te scannen (schakel dit selectievakje in). <br/> &ensp;&ensp;* Toegepast op — Het domein van de ontvanger is (selecteer uw domein). <br/><br/> Meer informatie: [Office 365 ATP Safe Links](atp-safe-links.md).|
+|**Veilige ATP-koppelingen**|Ja| Voeg deze instelling toe aan het standaardbeleid voor de hele organisatie: <br/> &ensp;&ensp;* Gebruik Veilige koppelingen in: Microsoft 365 Apps voor bedrijven, Office voor iOS en Android (selecteer deze optie). <br/><br/>Aanbevolen beleid voor specifieke ontvangers: <br/> &ensp;&ensp;* URL's worden herschreven en gecontroleerd aan de hand van een lijst met bekende kwaadaardige links wanneer de gebruiker op de link klikt (selecteer deze optie). <br/> &ensp;&ensp;* Gebruik veilige bijlagen om downloadbare inhoud te scannen (schakel dit selectievakje in). <br/> &ensp;&ensp;* Toegepast op — Het domein van de ontvanger is (selecteer uw domein). <br/><br/> Meer informatie: [Office 365 ATP Safe Links](atp-safe-links.md).|
 |**Antispam (e-mailfiltering)**|Ja| Waar moet je op letten: <br/> &ensp;&ensp;* Te veel spam : kies de aangepaste instellingen en bewerk het beleid voor standaardspamfilters. <br/> &ensp;&ensp;* Spoof intelligentie - Controleer afzenders die spoofing uw domein. Blokkeer of sta deze afzenders toe. <br/><br/>Meer informatie: [Microsoft 365 Email Anti-Spam Protection](anti-spam-protection.md).|
 |***E-mailverificatie***|Ja|E-mailverificatie maakt gebruik van een DNS (Domain Name System) om verifieerbare informatie toe te voegen aan e-mailberichten over de afzender van een e-mail. Microsoft 365 stelt e-mailverificatie in voor het standaarddomein (onmicrosoft.com), maar Microsoft 365-beheerders kunnen ook e-mailverificatie gebruiken voor aangepaste domeinen. Er worden drie verificatiemethoden gebruikt: <br/><br/> &ensp;&ensp;* Sender Policy Framework (of SPF).<br/>&ensp;&ensp;&ensp;&ensp;- Zie [SPF instellen in Microsoft 365 voor](set-up-spf-in-office-365-to-help-prevent-spoofing.md)het instellen van spf om spoofing te voorkomen. <br/> &ensp;&ensp;* DomainKeys Identified Mail (DKIM). <br/> &ensp;&ensp;&ensp;&ensp;- Zie [DKIM gebruiken om uitgaande e-mail die vanuit uw aangepaste domein wordt verzonden, te valideren.](use-dkim-to-validate-outbound-email.md) <br/>&ensp;&ensp;&ensp;&ensp;- Nadat u DKIM hebt geconfigureerd, schakelt u deze in het beveiligingscentrum in.<br/> &ensp;&ensp;* Domeingebaseerde berichtverificatie, rapportage en conformiteit (DMARC). <br/> &ensp;&ensp;&ensp;&ensp;- Voor DMARC-setup [Gebruik DMARC om e-mail in Microsoft 365 te valideren.](use-dmarc-to-validate-email.md)|
 |
@@ -109,7 +111,7 @@ Schakel voor beveiligde omgevingen verificatie uit voor apps die geen moderne ve
 
 Gebruik in de tussentijd een van de volgende methoden om dit te bereiken voor SharePoint Online en OneDrive voor Bedrijven:
 
-- Gebruik PowerShell, zie [Apps blokkeren die geen moderne verificatie gebruiken.](https://docs.microsoft.com/intune-classic/deploy-use/block-apps-with-no-modern-authentication)
+- Gebruik PowerShell, zie [Apps blokkeren die geen moderne verificatie (ADAL) gebruiken.](https://docs.microsoft.com/mem/intune/protect/app-modern-authentication-block)
 
 - Configureer dit in het SharePoint-beheercentrum op de pagina 'Apparaattoegang' — 'Beheer de toegang van apps die geen moderne verificatie gebruiken'. Kies Blokkeren.
 

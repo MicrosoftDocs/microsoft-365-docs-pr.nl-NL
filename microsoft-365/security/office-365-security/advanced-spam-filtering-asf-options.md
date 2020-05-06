@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: b286f853-b484-4af0-b01f-281fffd85e7a
 ms.collection:
 - M365-security-compliance
-description: Met de instellingen voor geavanceerde spamfilters (Asf) in antispambeleid (ook wel spamfilterbeleid of inhoudsfilterbeleid genoemd) kunnen beheerders berichten identificeren die specifieke berichteigenschappen bevatten die vaak worden gebruikt in spam. Afhankelijk van de eigenschap, asf detecties zal ofwel markeren het bericht als Spam of Hoog vertrouwen spam.
-ms.openlocfilehash: 58114fa97d46a5a6f6f49c24826ace9edd811e1d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Meer informatie over de instellingen van Advanced Spam Filter (AsF) in antispambeleid, waarmee beheerders berichten kunnen identificeren die specifieke berichteigenschappen bevatten die vaak in spam worden gebruikt.
+ms.openlocfilehash: 31793f5996cc27cf7e5de75d9c190657e6592c57
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634728"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034132"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-office-365"></a>Instellingen voor geavanceerde spamfilters (AsF) in Office 365
 

@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: a064a41fc7ab69e31d49553f600dfd6bb91ef7b0
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+ms.openlocfilehash: 9fd6efc56441cfbe8a05404319246c5e0bbe10ab
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "42812417"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046326"
 ---
 # <a name="deploy-apps-to-devices"></a>Apps implementeren op apparaten
 Een deel van onboarding naar Microsoft Managed Desktop omvat het toevoegen en implementeren van apps op de apparaten van uw gebruiker. Zodra u de Microsoft Managed Desktop-portal gebruikt, u uw apps toevoegen en implementeren. 
@@ -38,10 +38,10 @@ In deze procedure selecteert u welk type app u wilt toevoegen en configureert en
 
 U zich aanmelden bij microsoft Managed Desktop-portal of u aanmelden bij Intune en vervolgens zoeken naar Microsoft Managed Desktop. We tonen aanmelden bij Microsoft Managed Desktop-portal. 
 
-1.  Meld u aan bij [microsoft Managed Desktop Admin portal](https://aka.ms/mmdportal). 
-2.  Selecteer **Onder Inventaris**de optie **Apps**.
-3.  Selecteer in de werkbelasting Apps de optie **Toevoegen**.
-4.  Selecteer in **App toevoegen**de optie **Line-of-business-app** of **Windows-app (Win32).**
+1.    Meld u aan bij [microsoft Managed Desktop Admin portal](https://aka.ms/mmdportal). 
+2.    Selecteer **Onder Inventaris**de optie **Apps**.
+3.    Selecteer in de werkbelasting Apps de optie **Toevoegen**.
+4.    Selecteer in **App toevoegen**de optie **Line-of-business-app** of **Windows-app (Win32).**
     - Als u **de line-of-business-app hebt**geselecteerd, raadpleegt u Een [Windows-line-of-business-app toevoegen aan Microsoft Intune](https://docs.microsoft.com/intune/lob-apps-windows) voor instructies over het toevoegen en configureren van bedrijfsapps.
     - Als u **De Windows-app (Win32) hebt**geselecteerd, raadpleegt u [Win32-appbeheer](https://docs.microsoft.com/intune/apps-win32-app-management) voor instructies over het toevoegen en configureren van Windows-apps.
 
@@ -55,7 +55,7 @@ Als u zich nog niet hebt aangemeld bij Microsoft Store for Business, u zich aanm
 1. Meld u aan bij [Microsoft Store for Business](https://businessstore.microsoft.com) met uw Microsoft Store voor Bedrijven-beheerdersaccount.
 2. Selecteer **Winkelen voor mijn groep**.
 3. Gebruik Zoeken om de gewenste app te vinden en selecteer de app.
-4. Selecteer de app **downloaden**in de productdetails. Microsoft Store voegt de app toe aan **producten & services** voor uw organisatie.
+4. Selecteer de app **downloaden**in de productdetails. Microsoft Store voegt de app toe aan **Uw producten** voor uw organisatie.
 
 **Synchronisatie tussen Intune en Microsoft Store voor Bedrijven forceren**
 1. Meld u aan bij [Azure Portal](https://portal.azure.com/) als Intune-beheerder of globale beheerder voor uw tenant
@@ -79,7 +79,7 @@ Als u zich nog niet hebt aangemeld bij Microsoft Store for Business, u zich aanm
 
 Maak drie Azure AD-groepen voor elke app. In deze tabel worden de groepen beschreven die u nodig hebt (Beschikbaar, Vereist en Verwijderen). 
 
-Type app-toewijzing |   Groepsgebruik   | Voorbeeld azure AD-naam
+Type app-toewijzing |    Groepsgebruik    | Voorbeeld azure AD-naam
 --- | --- | ---
 Beschikbaar |  De app is beschikbaar via de bedrijfsportal-app of -website. | MMD – *app-naam* – Beschikbaar
 Vereist |  De app is geïnstalleerd op apparaten in de geselecteerde groepen. | MMD – *app-naam* – Vereist
@@ -102,13 +102,13 @@ Voeg uw gebruikers toe aan deze groepen om de app beschikbaar te stellen, de app
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Stappen om aan de slag te gaan met Microsoft Managed Desktop
 
-1. [Beheerderscontactpersonen toevoegen en verifiëren in de beheerportal](add-admin-contacts.md)
+1. [Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal](add-admin-contacts.md)
 2. [Voorwaardelijke toegang aanpassen](conditional-access.md)
 3. [Licenties toewijzen](assign-licenses.md)
-4. [Intune-bedrijfsportal implementeren](company-portal.md)
-5. [Roaming voor ondernemingsstatus inschakelen](enterprise-state-roaming.md)
+4. [Intune Company Portal implementeren](company-portal.md)
+5. [Enterprise State Roaming inschakelen](enterprise-state-roaming.md)
 6. [Apparaten instellen](set-up-devices.md)
-7. [Uw gebruikers klaar maken om apparaten te gebruiken](get-started-devices.md)
+7. [Uw gebruikers voorbereiden om apparaten te gebruiken](get-started-devices.md)
 8. Apps implementeren (dit onderwerp)
 
 

@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: 7ad6f58e-65d7-4c82-8e65-0b773666634d
 ms.collection:
 - M365-security-compliance
-description: Om u te helpen bij de eerste stap in het beveiligen van uw gegevens, hebben alle azure information protection-geschikte tenants vanaf juli 2018 standaard de beveiligingsfuncties in Azure Information Protection ingeschakeld. De beveiligingsfuncties in Azure Information Protection stonden voorheen bekend in Office 365 als Rights Management of Azure RMS. Als uw organisatie een Office E3-serviceplan of een hoger serviceplan heeft, krijgt u nu een voorsprong bij het beveiligen van informatie via Azure Information Protection wanneer we deze functies uitrollen.
-ms.openlocfilehash: 3efdeefd2008a5ff9f730b879190d1edc015803a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: In dit artikel worden de wijzigingen uitgelegd die worden uitgerold naar de beveiligingsfuncties in Azure Information Protection
+ms.openlocfilehash: 0f08163602ae34689c8e68bbc0c02e072ce89696
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638270"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035602"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-tenants"></a>Beveiligingsfuncties in Azure Information Protection die worden uitgerold naar bestaande tenants
 

@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: f40a9185-b6d5-4a80-bb31-aa3bb0cab48a
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij GoDaddy voor Microsoft.
 ms.custom: okr_smb
-ms.openlocfilehash: 0f71eb512b83451db8fee41b535ecc0c60d8d6bc
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: b1c5539af6683bbf8f94fd15880fb870caf31342
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939213"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049021"
 ---
 # <a name="create-dns-records-at-godaddy-for-microsoft"></a>DNS-records maken bij GoDaddy voor Microsoft
 
@@ -122,7 +122,7 @@ Voer de onderstaande stappen uit.
 
     |**Recordtype**|**Host**|**Verwijst naar**|**Priority**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX (Mail Exchanger)  <br/> |@  <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * uit uw Microsoft-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |10  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit.    <br/> |1 uur  <br/> |
+    |MX (Mail Exchanger)  <br/> |@  <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * uit uw Microsoft-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |10  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/> |1 uur  <br/> |
 
 6. Kies **Opslaan**.
 

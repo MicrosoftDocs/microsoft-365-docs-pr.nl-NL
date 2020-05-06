@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: Wijzig abonnementen handmatig door een nieuw abonnement aan te schaffen en ervoor te zorgen dat beide abonnementen worden vermeld en actief.
-ms.openlocfilehash: bcd9a129ef1597469ef9bbf93841b5db4f919f1e
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: fcaa3ebfd9d20fa50c9f37f3366aec9d4dd69103
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707629"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046190"
 ---
 # <a name="change-plans-manually"></a>Plannen handmatig wijzigen
 
@@ -58,14 +58,14 @@ Koop ook een licentie voor elke gebruiker die u wilt verplaatsen.
 
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>Stap 3: Controleer uw nieuwe abonnement en licenties
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. **Controleren of beide abonnementen worden vermeld en actief** Het abonnement waarvan u gebruikers verplaatst en het abonnement waarnaar u gebruikers verplaatst, moeten samen worden weergegeven. Als u het nieuwe abonnement niet ziet, wacht u een tijdje en kijkt u dan nog een keer. Controleer of beide abonnementen actief zijn. [Het nieuwe abonnement wordt niet vermeld of is niet actief](#the-new-subscription-isnt-listed-or-isnt-active).
 
 3. **Controleer of u voldoende licenties hebt voor elke gebruiker** Elke gebruiker heeft een licentie nodig die overeenkomt met zijn abonnement. Dus als u tien gebruikers wilt verplaatsen naar Microsoft 365 Business Premium, moet u ervoor zorgen dat er tien licenties beschikbaar zijn.
 
 4. **Meer licenties nodig voor het nieuwe abonnement?**
-   Ga naar de pagina **Producten & services** en koop meer [licenties.](../licenses/buy-licenses.md)
+   Ga naar de pagina **Uw producten** en koop [meer licenties.](../licenses/buy-licenses.md)
 
 > [Hoe zit het met de oude licenties?](#what-about-the-old-licenses)
 

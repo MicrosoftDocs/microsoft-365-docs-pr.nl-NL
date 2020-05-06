@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 'Meer informatie over het opnieuw instellen van het wachtwoord voor een gebruiker in een Abonnement op Microsoft 365 voor Bedrijven. '
-ms.openlocfilehash: 0d8a68edb0b85094b271712f018eea79ca9f0aee
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 99ec6423b835204624f91977b6f138fa7c8ba8cd
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626944"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049445"
 ---
 # <a name="reset-passwords"></a>Wachtwoorden opnieuw instellen
 
@@ -93,7 +93,7 @@ Als u uw wachtwoord bent vergeten en u zich niet kunt aanmelden:
     
 - Vraag een andere globale beheerder in uw bedrijf uw wachtwoord opnieuw in te stellen.
     
-- U kunt ook [Microsoft Ondersteuning bellen](https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&amp;rs=en-US&amp;ad=US#ID0EAADAAA=Phone_support_). 
+- U kunt ook [Microsoft Ondersteuning bellen](https://docs.microsoft.com/en-us/microsoft-365/admin/contact-support-for-business-products). 
     
 ## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>Alle zakelijke wachtwoorden opnieuw instellen voor iedereen in uw organisatie op hetzelfde moment
 <a name="bkmk_forgot"> </a>
@@ -117,9 +117,9 @@ Deze stappen werken voor een bedrijf met tienduizenden gebruikers. Als u honderd
 
 PowerShell gebruiken! Lees deze post van Eyal Doron: [Het beheren van wachtwoorden met PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).
   
-Hier ziet u een gerelateerd artikel: [Wachtwoorden voor meerdere gebruikersaccounts instellen](https://support.office.com/article/014fc912-bee1-461d-ad00-56b80428b907.aspx#bkmk_password).
+Hier ziet u een gerelateerd artikel: [Wachtwoorden voor meerdere gebruikersaccounts instellen](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).
   
-Zie [PowerShell voor Microsoft 365-beheerders voor](https://support.office.com/article/40fdcbd4-c34f-42ab-8678-8b3751137ef1.aspx)overzichtsinformatie.
+Zie [PowerShell voor Microsoft 365-beheerders voor](https://support.microsoft.com/en-us/office/powershell-for-office-365-administrators-40fdcbd4-c34f-42ab-8678-8b3751137ef1)overzichtsinformatie.
   
 ## <a name="force-a-password-change-for-all-users-in-your-business"></a>Wijzigen van het wachtwoord voor alle gebruikers in uw bedrijf forceren
 <a name="bkmk_forgot"> </a>
@@ -144,4 +144,4 @@ Kijk eens naar dit artikel: [Ik weet de gebruikersnaam of het wachtwoord niet me
 
 [Een voormalige werknemer verwijderen](remove-former-employee.md)
 
-[Microsoft 365 voor zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

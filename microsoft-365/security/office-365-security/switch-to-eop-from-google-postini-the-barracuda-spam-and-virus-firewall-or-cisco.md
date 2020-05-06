@@ -1,5 +1,5 @@
 ---
-title: Overschakelen naar EOP uit Google Postini, de Barracuda Spam en Virus Firewall of Cisco IronPort
+title: Overschakelen naar EOP van een andere beveiligingsservice
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -11,13 +11,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
-description: Het doel van dit onderwerp is om u te helpen het proces te begrijpen voor het overschakelen naar Exchange Online Protection (EOP) van een on-premises e-mailhygiëneapparaat of cloudgebaseerde beveiligingsservice, en vervolgens om u te helpen bij het aan de slag gaan.
-ms.openlocfilehash: e6a25d6477741f5796dd08b5811d97e2d0c76b51
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: In dit artikel leert u hoe u overschakelen naar Exchange Online Protection (EOP) van een on-premises e-mailhygiëneapparaat of een cloudservice voor beveiliging in de cloud.
+ms.openlocfilehash: 4bbd0b60d42b52d5c9343126f12059fcf1fc3d62
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631191"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035222"
 ---
 # <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Overschakelen naar EOP uit Google Postini, de Barracuda Spam en Virus Firewall of Cisco IronPort
 

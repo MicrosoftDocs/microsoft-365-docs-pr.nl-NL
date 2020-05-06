@@ -17,18 +17,18 @@ ms.collection:
 search.appverid:
 - MET150
 description: Meer informatie over het beheren van gratis selfservice-abonnementen voor uw organisatie.
-ms.openlocfilehash: 056ae95f9f5067ea3fa86164b620c72c84e3aad4
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 46c77cb32fec4dfa1fb9c3d3f992bd842be1b969
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43154130"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045253"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>Abonnementen voor selfservice-aanmelding beheren
 
 ## <a name="what-are-self-service-sign-up-subscriptions"></a>Wat zijn selfservice-abonnementen?
 
-Er zijn een beperkt aantal gratis self-service aanmeldingsabonnementen waarvoor gebruikers in uw organisatie zich kunnen aanmelden. Een gebruiker kan zich alleen aanmelden voor en zelf een selfservice-abonnement gebruiken. Deze abonnementen worden weergegeven op de pagina **Producten & services,** zijn gemarkeerd als **Gratis**en hebben een notitie met de tekst: "Dit is een gratis abonnement dat wordt geactiveerd door gebruikers in uw bedrijf." U zelfservice-aanmeldingsabonnementen beheren door gebruikers te blokkeren zich aan te melden en door gratis abonnementen te verwijderen waarvoor gebruikers zich hebben aangemeld. Zie [Zelfserviceaanmelden gebruiken in uw organisatie](../../admin/misc/self-service-sign-up.md)voor meer informatie over het aanmelden voor selfservice en de beschikbare abonnementen.
+Er zijn een beperkt aantal gratis self-service aanmeldingsabonnementen waarvoor gebruikers in uw organisatie zich kunnen aanmelden. Een gebruiker kan zich alleen aanmelden voor en zelf een selfservice-abonnement gebruiken. Deze abonnementen worden weergegeven op de pagina **Uw producten,** zijn gemarkeerd als **Gratis**en hebben een notitie met de tekst: "Dit is een gratis abonnement dat wordt geactiveerd door gebruikers in uw bedrijf." U zelfservice-aanmeldingsabonnementen beheren door gebruikers te blokkeren zich aan te melden en door gratis abonnementen te verwijderen waarvoor gebruikers zich hebben aangemeld. Zie [Zelfserviceaanmelden gebruiken in uw organisatie](../../admin/misc/self-service-sign-up.md)voor meer informatie over het aanmelden voor selfservice en de beschikbare abonnementen.
 
 ## <a name="how-are-these-subscriptions-different-from-self-service-purchase-subscriptions"></a>Wat zijn deze abonnementen anders dan self-service aankoopabonnementen?
 
@@ -43,7 +43,7 @@ U gebruikt de cmdlet [**Set-MsolCompanySettings**](https://docs.microsoft.com/po
 > [!IMPORTANT]
 > Wanneer u een selfservice-abonnement verwijdert, blokkeert u dat alle gebruikers toegang krijgen tot hun gegevens en e-mail en alle gegevens en e-mail verwijderen.
 
-1. Ga in het beheercentrum naar de pagina >  **Factureringsproducten**<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& services.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 2. Zoek het selfservice-abonnement dat u wilt verwijderen. Selecteer **abonnement verwijderen**in de sectie Instellingen **& acties** .
 3. Schakel in het deelvenster **Abonnement verwijderen** het selectievakje in en schakel vervolgens **Abonnement verwijderen**in.
 

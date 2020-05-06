@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: Meer informatie over het toevoegen van een partner voor abonnementsadviseur als partner van record op het moment dat Microsoft 365 wordt gekocht, de partner wijzigt of een partner uit een abonnement verwijdert.
-ms.openlocfilehash: 913be0cfa94784826f4bc8dcfcc1bbf314ab4c09
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: daefb83335af84403cb2dd4e9c7759700eab8278
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627966"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045282"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Een abonnementsadviseur toevoegen, wijzigen of verwijderen
 
@@ -114,7 +114,7 @@ Volg de stappen op de pagina providers om te zoeken naar of om te worden gekoppe
 > [!NOTE]
 > Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
     
 2. Als u meer dan één abonnement hebt, selecteert u het abonnement dat u wilt bewerken.
   
@@ -161,7 +161,7 @@ Om dit voorstel te accepteren
 > [!NOTE]
 > Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
     
 2. Als u meerdere abonnementen hebt, selecteert u de naam van het abonnement dat u wilt bewerken.
     
@@ -202,14 +202,14 @@ Om dit voorstel te accepteren
   
   Als je geen partner hebt, zie je een bericht met de tekst 'Er is hier niets'.
   
-## <a name="delete-a-partner-from-a-subscription"></a>De partner voor een abonnement verwijderen
+## <a name="delete-a-partner-from-a-subscription"></a>Een partner uit een abonnement verwijderen
 
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
 > Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
-1.  Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
+1.  Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
     
 2. Als u meerdere abonnementen hebt, selecteert u de naam van het abonnement dat u wilt bewerken.
     

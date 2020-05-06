@@ -1,5 +1,5 @@
 ---
-title: Het standaardverbindingsfilterbeleid, IP-lijst met toegestane gegevens, IP-bloklijst configureren, veilige lijst in- of uitschakelen
+title: Het standaardverbindingsfilterbeleid configureren
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,15 +15,17 @@ search.appverid:
 ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
-description: U het verbindingsfilterbeleid gebruiken om een lijst met IP-adressen die u vertrouwt, te gebruiken om ervoor te zorgen dat e-mail die wordt verzonden van mensen die u vertrouwt, niet wordt geblokkeerd. U ook een IP-bloklijst met geblokkeerde afzenders maken.
-ms.openlocfilehash: 54e68c79f78bb1408684ac583edff137cb687b53
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Meer informatie over het configureren van verbindingsfilters in Office 365 om e-mails van e-mailservers toe te staan of te blokkeren.
+ms.openlocfilehash: 0848e9a59df8c312891add29d14eec2dfed420df
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637744"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035080"
 ---
-# <a name="configure-connection-filtering"></a>Verbindingsfiltering configureren
+# <a name="configure-connection-filtering"></a>Filteren van verbinding configureren
 
 Als u een Microsoft 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection (EOP)-klant zonder Exchange Online-postvakken, gebruikt u verbindingsfiltering in EOP (met name het standaardverbindingsfilterbeleid) om goede of slechte brone-mailservers te identificeren op hun IP-adressen. De belangrijkste onderdelen van het standaardverbindingsfilterbeleid zijn:
 
@@ -44,7 +46,7 @@ In dit onderwerp wordt beschreven hoe u het standaardverbindingsfilterbeleid con
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone Exchange Online Protection PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u het standaardverbindingsfilterbeleid wilt wijzigen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Voor alleen-lezen toegang tot het standaardverbindingsfilterbeleid moet u lid zijn van de rolgroep **Beveiligingslezer.** Zie Machtigingen in het Security & Compliance [Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rolgroepen in het Security & Compliance Center.
+- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u het standaardverbindingsfilterbeleid wilt wijzigen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Voor alleen-lezen toegang tot het standaardverbindingsfilterbeleid moet u lid zijn van de rolgroep **Beveiligingslezer.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
 - Als u de bron-IP-adressen wilt vinden van de e-mailservers (afzenders) die u wilt toestaan of blokkeren, u het koptekstveld verbinding maken met IP **(CIP)** in de berichtkop. Zie [Kopteksten voor internetberichten weergeven in Outlook](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)als u een berichtkopin in verschillende e-mailclients wilt weergeven.
 

@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: Ent_Solutions
+ms.custom:
+- Ent_Solutions
+- seo-marvel-apr2020
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
-description: 'Samenvatting: Implementeer een nieuwe geïsoleerde SharePoint Online-teamsite met deze stapsgewijze instructies.'
-ms.openlocfilehash: e35e380b61a94e08ff25e2e4c4bdfa28a635449e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Gebruik deze stapsgewijze implementatiehandleiding om een geïsoleerde SharePoint Online-teamsite in Microsoft Office 365 te maken en te configureren.
+ms.openlocfilehash: 772a9e5ea08871857a70cc840e377046d459a314
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637626"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036449"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>Een geïsoleerde SharePoint Online-teamsite implementeren
 
@@ -68,7 +70,7 @@ U moet de volgende toegangsgroepen maken in Azure AD:
     
 2. Klik in de Microsoft Azure-portal op **Microsoft Azure Active Directory > Groepen**.
     
-3. Klik in de blade **Groepen: Alle groepen** op **Nieuwe groep**.
+3. Klik in de blade **Groepen: Alle groepen** op **+ Nieuwe groep**.
     
 4. Op het **nieuwe groepsblad:**
     
