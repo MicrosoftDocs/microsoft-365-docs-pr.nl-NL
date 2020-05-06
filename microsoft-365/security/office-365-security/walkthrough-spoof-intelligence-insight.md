@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
 ms.collection:
 - M365-security-compliance
-description: Bekijk hoe het inzicht in spoofintelligentie werkt in Office 365 Advanced Threat Protection.
-ms.openlocfilehash: 4ad3de8812e09b73018c02232e3e66e4bec9d041
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Ontdek hoe het nieuwe inzicht in spoofintelligentie werkt, inclusief hoe u snel bepalen welke afzenders u correct e-mail verzenden.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 481d248b833c7910152cd39113ff32fdc1217a5a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630927"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033642"
 ---
 # <a name="walkthrough---atp-spoof-intelligence-insight-in-microsoft-365"></a>Walkthrough - ATP Spoof intelligence insight in Microsoft 365
 
@@ -38,11 +39,11 @@ Deze walkthrough is een van de vele voor het Security & Compliance Center. Zie d
 
   U het inzicht in spoofinformatie bekijken vanuit meer dan één dashboard in het Security & Compliance Center. Ongeacht naar welk dashboard u nu kijkt, het inzicht biedt dezelfde details en stelt u in staat om snel dezelfde taken uit te voeren.
 
-- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u het inzicht in spoofintelligentie wilt gebruiken, moet u lid zijn van de rolgroepen **Organisatiebeheer,** **Beveiligingsbeheerder**of **Beveiligingslezer.** Zie Machtigingen in het Security & Compliance [Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rolgroepen in het Security & Compliance Center.
+- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u het inzicht in spoofintelligentie wilt gebruiken, moet u lid zijn van de rolgroepen **Organisatiebeheer,** **Beveiligingsbeheerder**of **Beveiligingslezer.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
 - U schakelt spoofinformatie in en uit in het ATP-antiphishingbeleid. Zie [ATP-antiphishingbeleid configureren in Microsoft 365](configure-atp-anti-phishing-policies.md)voor meer informatie.
 
-- In Microsoft 365-organisaties met Exchange Online-postvakken en in zelfstandige Exchange Online Protection (EOP) zonder Exchange Online-postvakken u spoofinformatie gebruiken om afzenders te controleren en te beheren die u niet-geverifieerde berichten verzendt. Zie [Spoofinformatie configureren in Microsoft 365](learn-about-spoof-intelligence.md)voor meer informatie.
+- In Microsoft 365-organisaties met Exchange Online-postvakken en in zelfstandige Exchange Online Protection (EOP) zonder Exchange Online-postvakken u spoofinformatie gebruiken om afzenders te controleren en te beheren die u niet-geverifieerde berichten verzendt. Zie [spoof-intelligentie configureren in Microsoft 365](learn-about-spoof-intelligence.md) voor meer informatie.
 
 ## <a name="open-the-spoof-intelligence-insight-in-the-security--compliance-center"></a>Open het inzicht in spoofintelligentie in het Security & Compliance Center
 

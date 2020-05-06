@@ -1,5 +1,5 @@
 ---
-title: Admin inzendingen, inzendingen, spam probleem, vals negatief, phish indienen, e-mail indienen voor het scannen, verdachte e-mail in Office 365, een e-mail scannen, hebben Microsoft scannen op phish, hebben Microsoft scannen op spam, e-mail indienen, e-mail indienen, dodgy e-mail, slechte actor e-mail, verdachte, niet-vertrouwde e-mail, verslag phish e-mails aan Microsoft, verslag uitschrijven van kwaadaardige e-mail aan Microsoft, verslag scam e-mail naar Microsoft, verslag scam e-mail aan Microsoft, verslag kwaadaardige e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail naar Microsoft, verslag scam e-mail aan Microsoft, verslag kwaadaardige e-mail aan Microsoft, verslag scam e-mail naar Microsoft, verslag scam e-mail naar Microsoft, verslag scam scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag kwaadaardige e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail aan Microsoft, verslag scam e-mail naar Microsoft, verslag scam e-mail naar Microsoft, verslag scam e-mail aan Microsoft, verslag kwaadaardige e-mail aan , malware in e-mail rapporteren aan Microsoft, spam e-mail in inbox, virus in e-mail
+title: Beheerdersinzendingen in Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,13 +14,15 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
+ms.custom:
+- seo-marvel-apr2020
 description: Meer informatie over het verzenden van verdachte e-mails, vermoedelijke phishingmails, spam en andere mogelijk schadelijke berichten, URL's en bestanden van uw bedrijf bij Microsoft voor het scannen.
-ms.openlocfilehash: 73c33ba1218a710c33f8b2675bc65c0a7486efda
-ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
+ms.openlocfilehash: 79f200963655e5fb07a04b686c1dd8cc3bbd0873
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43921505"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034198"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Beheerbeheer gebruiken om vermoedelijke spam, phish, URL's en bestanden bij Microsoft in te dienen
 

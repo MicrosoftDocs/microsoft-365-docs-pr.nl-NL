@@ -1,7 +1,7 @@
 ---
 title: Leer de geavanceerde taal van de jachtquery in Microsoft Threat Protection
 description: Maak uw eerste bedreigingsjachtquery en leer meer over veelvoorkomende operators en andere aspecten van de geavanceerde jachtquerytaal
-keywords: geavanceerde jacht, dreigingjacht, cyberdreigingsjacht, bescherming tegen microsoft-dreigingen, microsoft 365, mtp, m365, zoeken, query, taal, leren, eerste query, telemetrie, gebeurtenissen, telemetrie, aangepaste detecties, schema, kusto, operators, gegevenstypen, powershell downloaden, queryvoorbeeld
+keywords: geavanceerde jacht, bedreiging jacht, cyber dreiging jacht, Microsoft bedreiging bescherming, Microsoft 365, mtp, m365, zoeken, query, taal, leren, eerste query, telemetrie, gebeurtenissen, telemetrie, aangepaste detecties, schema, kusto, operators, gegevenstypen, powershell downloaden, query voorbeeld
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,17 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 5715baaccd95d975f7d15196906a6326177bbc2e
-ms.sourcegitcommit: 242f051c4cf3683f8c1a5da20ceca81bde212cfc
+ms.openlocfilehash: 14de9d84ef19be3dcf1e630b2814a6060bfe7f27
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982006"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036497"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Leer de geavanceerde jachtquerytaal
 
 **Geldt voor:**
-- Microsoft-bedreigingsbeveiliging
+- Microsoft Threat Protection
 
 Geavanceerde jacht is gebaseerd op de [Kusto query taal](https://docs.microsoft.com/azure/kusto/query/). U kusto-syntaxis en operatoren gebruiken om query's te maken die informatie vinden in het [schema](advanced-hunting-schema-tables.md) dat specifiek is gestructureerd voor geavanceerde jacht. Voer uw eerste query uit om deze concepten beter te begrijpen.
 
@@ -148,6 +148,11 @@ Gegevens in geavanceerde jachttabellen worden over het algemeen ingedeeld in de 
 | `int` | 32-bits numerieke waarde  |
 | `long` | 64-bits numerieke waarde |
 
+## <a name="get-help-as-you-write-queries"></a>Hulp krijgen bij het schrijven van query's
+Profiteer van de volgende functionaliteit om sneller query's te schrijven:
+- **Automatisch voorstellen** - terwijl u query's schrijft, biedt geavanceerde jacht suggesties van IntelliSense. 
+- **Schemaverwijzing** : naast uw werkgebied wordt een schemaverwijzing weergegeven met de lijst met tabellen en hun kolommen. Voor meer informatie, zweven over een item. Dubbelklik op een item om het in te voegen in de queryeditor.
+
 ## <a name="use-sample-queries"></a>Voorbeeldquery's gebruiken
 
 De sectie **Aan de slag** biedt een paar eenvoudige query's met veelgebruikte operatoren. Probeer het uitvoeren van deze query's en het maken van kleine wijzigingen aan hen.
@@ -162,9 +167,9 @@ De sectie **Aan de slag** biedt een paar eenvoudige query's met veelgebruikte op
 Zie [Kusto-querytaaldocumentatie](https://docs.microsoft.com/azure/kusto/query/)voor meer informatie over kusto-querytaal en ondersteunde operatoren.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Geavanceerd jachtoverzicht](advanced-hunting-overview.md)
+- [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [Werken met queryresultaten](advanced-hunting-query-results.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
 - [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)
-- [Het schema begrijpen](advanced-hunting-schema-tables.md)
+- [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

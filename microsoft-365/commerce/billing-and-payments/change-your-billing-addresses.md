@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: Meer informatie over het bijwerken van uw factuuradressen voor Microsoft 365 voor Bedrijven. U ook het e-mailadres bijwerken dat wordt gebruikt om factureringsmeldingen te ontvangen.
 ms.custom: okr_SMB
-ms.openlocfilehash: 169dfd78ca39e91e065c3bea59242a9f205463d0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7edef65eb1cf45192188316b13acfd87eac5a490
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632717"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048023"
 ---
 # <a name="change-your-billing-addresses"></a>Uw factuuradressen wijzigen
 
@@ -121,7 +121,7 @@ Als u Office 365 gebruikt dat wordt beheerd door 21Vianet in China, raadpleegt u
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Zoek het abonnement dat u wilt wijzigen. Selecteer in de sectie **Instellingen & acties** de optie **Servicegebruiksadres bewerken**.
 
@@ -170,6 +170,8 @@ Standaard worden de factureringsmeldingen van uw organisatie verzonden naar het 
 ## <a name="change-the-alternate-email-address-for-another-admin"></a>Het alternatieve e-mailadres voor een andere beheerder wijzigen
 
 U kunt ook het alternatieve e-mailadres van andere globale en factureringsbeheerders in uw organisatie wijzigen.
+
+::: moniker range="o365-worldwide"
   
 1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Factureringsfactureringsmeldingen.</a> **Billing**
 

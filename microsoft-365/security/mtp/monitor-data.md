@@ -1,6 +1,6 @@
 ---
-title: Gegevensbewaking en -rapportage in het Microsoft 365-beveiligingscentrum
-description: Beschrijft hoe u gebruikersactiviteiten bijhouden die kunnen leiden tot ongeautoriseerde openbaarmaking van gegevens.
+title: Gegevensbewaking & rapportage - Security center
+description: Lees hoe u gebruikersactiviteiten bijhouden die kunnen leiden tot ongeautoriseerde openbaarmaking van gegevens in het Beveiligingscentrum van Microsoft 365.
 keywords: beveiliging, malware, Microsoft 365, M365, security center, monitor, rapport, gegevens
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -14,12 +14,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 271cd4d3379239073a6f16c5253fc26da87d8605
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f9bb0a7d0ce7def52089ec64a35edc5a2475b342
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637090"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034008"
 ---
 # <a name="data-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Gegevensbewaking en -rapportage in het Microsoft 365-beveiligingscentrum
 

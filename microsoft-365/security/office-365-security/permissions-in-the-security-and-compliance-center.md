@@ -1,5 +1,5 @@
 ---
-title: Rapporten in het beveiligings- en compliancecentrum
+title: Machtigingen - Microsoft 365-beveiligingscentrum & Compliance Center
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,13 +16,14 @@ ms.collection: Strat_O365_IP
 search.appverid:
 - MOE150
 - MET150
-description: Beheerders kunnen meer te weten komen over de machtigingen die beschikbaar zijn in het Beveiligings& Compliance Center.
-ms.openlocfilehash: 8fd288aa9a0a409a005c43a1ff685bf29bfef6b3
-ms.sourcegitcommit: 90f7bbba5fc23f10b59c75b2b65d6c0903ce66dd
+description: Beheerders kunnen meer te weten komen over de machtigingen die beschikbaar zijn in het Microsoft 365 Security & Compliance Center.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dda0fe4263c6c62e9ac7829c87caf6332e56f809
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43930181"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033912"
 ---
 # <a name="permissions-in-the-security--compliance-center"></a>Rapporten in het beveiligings- en compliancecentrum
 
@@ -60,7 +61,7 @@ Als u wilt zien hoe u toegang verlenen tot het Beveiligingscentrum & Compliance 
 |**Gegevensonderzoeker**|Leden kunnen zoekopdrachten uitvoeren op postvakken, SharePoint-sites en OneDrive-accounts.|Communicatie <br/><br/> Nalevingszoekopdracht <br/><br/> Voogd <br/><br/> Beheer van gegevensonderzoek <br/><br/> Exporteren<br/><br/> Voorbeeld <br/><br/> RMS decoderen <br/><br/> Review<br/><br/> Zoeken en zuiveren|
 |**eDiscovery-beheer**|Leden kunnen zoekopdrachten en plaatshouders uitvoeren op postvakken, SharePoint Online-sites en OneDrive voor Bedrijven-locaties. Leden kunnen ook eDiscovery-aanvragen maken en beheren, leden toevoegen en verwijderen aan een aanvraag, Inhoudszoekopdrachten maken en bewerken die aan een aanvraag zijn gekoppeld en toegang krijgen tot casegegevens in Advanced eDiscovery. <br/><br/> Een eDiscovery-beheerder is lid van de rolgroep eDiscovery Manager aan aanvullende machtigingen toegewezen. Naast de taken die een eDiscovery Manager kan uitvoeren, kan een eDiscovery-beheerder: <br/>* Bekijk alle eDiscovery-cases in de organisatie. <br/>* Beheer een eDiscovery-aanvraag nadat ze zichzelf als lid van de aanvraag hebben toegevoegd. <br/><br/> Het belangrijkste verschil tussen een eDiscovery-manager en een eDiscovery-beheerder is dat een eDiscovery-beheerder toegang heeft tot alle aanvragen die worden vermeld op de pagina **eDiscovery-aanvragen** in het Beveiligingscentrum & Nalevingscentrum. Een eDiscovery-manager heeft alleen toegang tot de aanvragen die ze hebben gemaakt of aanvragen waarvan ze lid zijn. Zie [EDiscovery-machtigingen toewijzen in het Security & Compliance Center](../../compliance/assign-ediscovery-permissions.md)voor meer informatie over het maken van een gebruiker als eDiscovery-beheerder.|Case Management <br/><br/> Communicatie <br/><br/> Nalevingszoekopdracht <br/><br/> Voogd <br/><br/> Exporteren <br/><br/> Houden <br/><br/> Voorbeeld <br/><br/> RMS decoderen <br/><br/> Review|
 |**Wereldwijde lezer**|Leden hebben alleen-lezen toegang tot rapporten, waarschuwingen en kunnen alle configuratie en instellingen zien.<br/><br/> Het belangrijkste verschil tussen Global Reader en Security Reader is dat een Global Reader toegang heeft tot **configuratie en instellingen.**|Beveiligingslezer <br/><br/> Gevoeligheidslabellezer <br/><br/> Serviceassurance-weergave <br/><br/> Alleen-weergave-controlelogboeken <br/><br/> Alleen-weergave DLP-nalevingsbeheer <br/><br/> Alleen-weergave-apparaatbeheer <br/><br/> IB-nalevingsbeheer alleen weergeven <br/><br/> Alleen waarschuwingen voor het beheren van weergave beheren <br/><br/> Alleen-weergaveontvangers <br/><br/> Recordbeheer alleen weergeven <br/><br/> Beheer van alleen-weergeven|
-|**Insider-risicobeheer**|Gebruik deze rolgroep om insider-risicobeheer voor uw organisatie in één groep te beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten en onderzoekers, u machtigingen voor insider-risicobeheer in één groep configureren. Deze rolgroep bevat alle machtigingsrollen voor insider-risicobeheer. Dit is de eenvoudigste manier om snel aan de slag te gaan met insider risk management en is een goede pasvorm voor organisaties die geen afzonderlijke machtigingen nodig hebben die zijn gedefinieerd voor afzonderlijke groepen gebruikers.|Case Management <br/><br/> Insider-risicobeheerbeheerder <br/><br/> Analyse van insiderrisicobeheer <br/><br/> Onderzoek naar risicobeheer met voorkennis <br/><br/> Tijdelijke bijdrage voor insider risicomanagement|
+|**Intern risicobeheer**|Gebruik deze rolgroep om insider-risicobeheer voor uw organisatie in één groep te beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten en onderzoekers, u machtigingen voor insider-risicobeheer in één groep configureren. Deze rolgroep bevat alle machtigingsrollen voor insider-risicobeheer. Dit is de eenvoudigste manier om snel aan de slag te gaan met insider risk management en is een goede pasvorm voor organisaties die geen afzonderlijke machtigingen nodig hebben die zijn gedefinieerd voor afzonderlijke groepen gebruikers.|Case Management <br/><br/> Insider-risicobeheerbeheerder <br/><br/> Analyse van insiderrisicobeheer <br/><br/> Onderzoek naar risicobeheer met voorkennis <br/><br/> Tijdelijke bijdrage voor insider risicomanagement|
 |**Beheerders van insiderrisicobeheer**|Gebruik deze rolgroep om in eerste instantie insider risk management te configureren en later om beheerders van insiderrisico's te scheiden in een gedefinieerde groep. Gebruikers in deze rolgroep kunnen beleid voor insider-risicobeheer, algemene instellingen en toewijzingen voor rollengroepen maken, lezen, bijwerken en verwijderen.|Case Management <br/><br/> Insider-risicobeheerbeheerder|
 |**Insider Risk Management Analisten**|Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die optreden als insider risk case analisten. Gebruikers in deze rolgroep hebben toegang tot alle waarschuwingen, aanvragen en aankondigingen van insiders. Ze hebben geen toegang tot content explorer met insiderrisico.|Case Management <br/><br/> Analyse van insiderrisicobeheer|
 |**Insider Risk Management Onderzoekers**|Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die optreden als onderzoekers van insider-risicogegevens. Gebruikers in deze rolgroep hebben toegang tot alle waarschuwingen voor het beheer van insiderrisico's, aanvragen, aankondigingssjablonen en de Content Verkenner voor alle gevallen.|Case Management <br/><br/> Onderzoek naar risicobeheer met voorkennis|

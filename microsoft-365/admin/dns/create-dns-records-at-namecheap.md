@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 54ae2002-b38e-43a1-82fa-3e49d78fda56
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Namecheap voor Microsoft.
-ms.openlocfilehash: 2b55e529ab4a66dbada95914f213807884b4b6c0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 57ba92f3ad31a54abae6a6a212a84d3b7a665da1
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629333"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048949"
 ---
 # <a name="create-dns-records-at-namecheap-for-microsoft"></a>DNS-records maken bij Namecheap voor Microsoft
 
@@ -41,7 +41,7 @@ Nadat u deze records hebt toegevoegd bij Namecheap, wordt uw domein ingesteld om
 ## <a name="add-a-txt-record-for-verification"></a>Een TXT-record toevoegen voor verificatie
 <a name="BKMK_verify"> </a>
 
-Voordat u uw domein bij Microsoft gebruikt, moeten we ervoor zorgen dat u eigenaar bent. Uw mogelijkheid om in te loggen op uw account bij uw domeinregistrar en de DNS-record te maken bewijst microsoft dat u eigenaar bent van het domein.
+Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat u de eigenaar bent van het domein. Als u zich bij uw account bij de domeinregistrar kunt aanmelden en de DNS-record kunt maken, is dit voor Microsoft bewezen.
   
 > [!NOTE]
 > Deze record wordt alleen gebruikt om te verifiëren dat u de eigenaar van uw domein bent. Dit heeft verder geen invloed. U kunt deze record later desgewenst verwijderen. 
@@ -81,7 +81,7 @@ Voer de onderstaande stappen uit:
     
     |**Type**|**Host**|**Waarde**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |@  <br/> |MS=ms *XXXXXXXX*  <br/>**Opmerking:** Dit is een voorbeeld. Gebruik hier de waarde van uw specifieke **bestemming of adrespunt** in de tabel.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |30 min  <br/> |
+    |TXT  <br/> |@  <br/> |MS=ms *XXXXXXXX*  <br/>**Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |30 min  <br/> |
        
     ![Namecheap-BP-Verify-1-2](../../media/fe75c0fd-f85c-4bef-8068-edaf9779b7f1.png)
   
@@ -91,9 +91,9 @@ Voer de onderstaande stappen uit:
   
 9. Wacht enkele minuten voordat u verder gaat, zodat de record die u zojuist hebt gemaakt via internet kan worden bijgewerkt.
     
-Nu u de record op de site van uw domeinregistrar hebt toegevoegd, gaat u terug naar Microsoft en vraagt u de record aan.
+Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug naar Microsoft en vraagt u de record aan.
   
-Wanneer Microsoft de juiste TXT-record vindt, wordt uw domein geverifieerd.
+Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
 1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
@@ -113,7 +113,7 @@ Wanneer Microsoft de juiste TXT-record vindt, wordt uw domein geverifieerd.
 > Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>Voeg een MX-record toe, zodat e-mail voor uw domein naar Microsoft komt
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>Voeg een MX-record toe zodat e-mail voor uw domein naar Microsoft wordt verzonden
 <a name="BKMK_add_MX"> </a>
 
 Voer de onderstaande stappen uit:
@@ -150,7 +150,7 @@ Voer de onderstaande stappen uit:
     
     |**Type**|**Host**|**Value**|**Priority**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX Record  <br/> |@  <br/> |\<*domeinsleutel*\>.mail.protection.outlook.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> **Let op:** Haal uw * \<domeinsleutel\> * uit uw Microsoft-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |0  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit. <br/> |30 min  <br/> |
+    |MX Record  <br/> |@  <br/> |\<*domeinsleutel*\>.mail.protection.outlook.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> **Let op:** Haal uw * \<domeinsleutel\> * uit uw Microsoft-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |0  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> |30 min  <br/> |
        
     ![Namecheap-BP-Configure-2-2-2](../../media/f3b76d62-5022-48c1-901b-8615a8571309.png)
   
@@ -226,7 +226,7 @@ Voer de onderstaande stappen uit:
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, maakt u geen nieuwe voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden toe aan de huidige record, zodat u *één* SPF-record hebt die beide waardensets bevat. 
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden toe aan de huidige record, zodat u *één* SPF-record hebt die beide waardensets bevat. 
 
 Voer de onderstaande stappen uit:
   
@@ -269,7 +269,7 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-4-3](../../media/f2846c36-ace3-43d8-be5d-a65e2c267619.png)
   
-## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Voeg de twee SRV-records toe die nodig zijn voor Microsoft
+## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>De twee SRV-records toevoegen die zijn vereist voor Microsoft
 <a name="BKMK_add_SRV"> </a>
 
 1. Ga eerst naar de domeinenpagina bij Namecheap via [deze koppeling](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f). U wordt gevraagd u aan te melden.

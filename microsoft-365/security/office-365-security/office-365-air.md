@@ -1,5 +1,5 @@
 ---
-title: Geautomatiseerd onderzoek en reactie (AIR)
+title: Geautomatiseerd onderzoek en respons (AIR) - Aan de slag
 keywords: AIR, autoIR, ATP, geautomatiseerd, onderzoek, respons, sanering, bedreigingen, geavanceerd, bedreiging, bescherming
 f1.keywords:
 - NOCSH
@@ -15,15 +15,15 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Aan de slag met geautomatiseerde onderzoeks- en reactiemogelijkheden in Office 365 Advanced Threat Protection Plan 2.
-ms.custom: air
-ms.openlocfilehash: 3b7ddd88161b695e8929b749dac61d7947392a0d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: air - seo-marvel-mar2020
+ms.openlocfilehash: b9811963210f253bbfe90af02dd6d38926776a62
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634542"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033948"
 ---
-# <a name="automated-investigation-and-response-air"></a>Geautomatiseerd onderzoek en reactie (AIR)
+# <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Aan de slag met Automated Investigation and Response (AIR) in Office 365
 
 [Office 365 Advanced Threat Protection](office-365-atp.md) (Office 365 ATP) Plan 2 bevat krachtige mogelijkheden voor geautomatiseerd onderzoek en respons (AIR) die uw beveiligingsactiviteiten tijd en moeite kunnen besparen. Als waarschuwingen worden geactiveerd, is het aan uw beveiligingsteam om deze waarschuwingen te controleren, te prioriteren en erop te reageren. Het bijhouden van het volume van de inkomende waarschuwingen kan overweldigend zijn. Het automatiseren van een deel van dit kan helpen. Met AIR kan uw beveiligingsteam zich richten op taken met een hogere prioriteit zonder waarschuwingen uit het oog te verliezen die worden geactiveerd.
 
