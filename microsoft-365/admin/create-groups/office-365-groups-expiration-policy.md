@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het vervaldatumbeleid van Microsoft 365-groepen.
-ms.openlocfilehash: be61c66b310ada07876c5b3b005e6a7eb660092d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 82938caf083cd5b5fa330fd047686ae6a8b5300d
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630053"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049177"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365-groepsvervaldatumbeleid
 
@@ -77,12 +77,12 @@ Groepseigenaren worden alleen via e-mail op de hoogte gebracht. Als de groep is 
 
 30 dagen voordat de groep verloopt, ontvangen de groepseigenaren (of de e-mailadressen die u hebt opgegeven voor groepen die geen eigenaar hebben) een e-mail waarmee ze de groep eenvoudig kunnen vernieuwen. Als ze deze niet verlengen, ontvangen ze 15 dagen voor het verstrijken van de looptijd nog een e-mail met verlenging. Als ze het nog steeds niet hebben verlengd, ontvangen ze de dag voor het verstrijken nog een e-mailmelding.
 
-Als om de een of andere reden geen van de eigenaren of beheerders de groep verlengt voordat deze verloopt, kan de beheerder de groep nog steeds tot 30 dagen na afloop herstellen. Zie voor meer informatie: [Een verwijderde Microsoft 365-groep herstellen](https://support.office.com/article/restore-a-deleted-office-365-group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54).
+Als om de een of andere reden geen van de eigenaren of beheerders de groep verlengt voordat deze verloopt, kan de beheerder de groep nog steeds tot 30 dagen na afloop herstellen. Zie voor meer informatie: [Een verwijderde Microsoft 365-groep herstellen](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Overzicht van bewaarbeleid](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423)
+[Overzicht van bewaarbeleid](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)
 
-[Een nieuwe eigenaar toewijzen aan een groep zonder eigenaar](https://support.office.com/article/86bb3db6-8857-45d1-95c8-f6d540e45732)
+[Een nieuwe eigenaar toewijzen aan een groep zonder eigenaar](https://support.microsoft.com/en-us/office/assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)
 
 [Microsoft 365-groepen configureren die verlopen](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal) '

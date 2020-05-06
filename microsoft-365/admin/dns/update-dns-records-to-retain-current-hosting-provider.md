@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c4cf347-b897-45c1-a71f-210bdc8f1061
 description: Als u Microsoft hebt ingesteld om DNS-records voor uw aangepaste domein te beheren, vindt u informatie over het routeren van verkeer naar een bestaande openbare website die buiten Microsoft wordt gehost.
-ms.openlocfilehash: 08a4e505f4e2a50b3e92cae00b62415e6d02551f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 58b58479a2c880cc0193058abc328cc5feea4af1
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629117"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048829"
 ---
 # <a name="update-dns-records-to-keep-your-website-with-your-current-hosting-provider"></a>DNS-records bijwerken als u uw website bij uw huidige hostingprovider wilt houden
 
@@ -64,7 +64,7 @@ U kunt eveneens een CNAME-record maken om klanten te helpen bij het zoeken van u
     
 Ga ten slotte als volgt te werk:
   
-[Werk de NS-records van uw domein bij](https://support.office.com/article/a46bec33-2c78-4f45-a96c-b64b2a5bae22.aspx) om naar Microsoft te wijzen. 
+[Werk de NS-records van uw domein bij](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions) om naar Microsoft te wijzen. 
   
 Wanneer de NS-records zijn bijgewerkt om naar Microsoft te wijzen, is uw domein helemaal ingesteld. E-mail wordt doorgestuurd naar Microsoft en het verkeer naar uw websiteadres blijft naar uw huidige websitehost gaan.
  

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Windows-gebaseerde DNS voor Microsoft.
-ms.openlocfilehash: 3207a319880a23b71a17e80f3e9e77398fa79ef0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1aaf81dddf27911ad3562bec6f56fb34c64fd37d
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631367"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048841"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>DNS-records voor Microsoft maken met Behulp van Windows-dns
 
@@ -110,7 +110,7 @@ Voeg de MDM Enterpriseenrollment CNAME-record toe.
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, maakt u geen nieuwe voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden toe aan de huidige record, zodat u *één* SPF-record hebt die beide waardensets bevat. 
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden toe aan de huidige record, zodat u *één* SPF-record hebt die beide waardensets bevat. 
   
 Voeg de SPF TXT-record voor uw domein om spam te voorkomen.
   
@@ -200,7 +200,7 @@ Controleer uw domein in Microsoft.
 ## <a name="non-routable-email-address-used-as-a-upn-in-your-on-prem-active-directory"></a>Niet-routeerbaar e-mailadres gebruikt als een UPN in de on-premises Active Directory
 <a name="BKMK_ADNote"> </a>
 
-Als u van plan bent uw on-premises Active Directory met Microsoft te synchroniseren, wilt u ervoor zorgen dat het UPN-achtervoegsel (Active Directory User Principal Name) een geldig domeinachtervoegsel is en geen niet-ondersteund domeinachtervoegsel zoals @contoso.local. Als u het UPN-achtervoegsel wilt wijzigen, raadpleegt u [Een niet-routetabel domein voorbereiden voor adressynchronisatie.](https://support.office.com/article/e7968303-c234-46c4-b8b0-b5c93c6d57a7)
+Als u van plan bent uw on-premises Active Directory met Microsoft te synchroniseren, wilt u ervoor zorgen dat het UPN-achtervoegsel (Active Directory User Principal Name) een geldig domeinachtervoegsel is en geen niet-ondersteund domeinachtervoegsel zoals @contoso.local. Als u het UPN-achtervoegsel wilt wijzigen, raadpleegt u [Een niet-routetabel domein voorbereiden voor adressynchronisatie.](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization)
   
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 

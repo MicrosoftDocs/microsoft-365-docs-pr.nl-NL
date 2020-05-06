@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1970f7d6-03b5-442f-b385-5880b9c256ec
 description: Meer informatie over het toevoegen van gebruikers aan Microsoft 365, één voor één of meerdere gebruikers tegelijk vanuit een CSV-bestand.
-ms.openlocfilehash: 78e5cf2c3c0148a91d48355881c3aec331213fd5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6d7a9d97d4cca25bac6579ea4427136351110658
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618858"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049469"
 ---
 # <a name="add-users-individually-or-in-bulk"></a>Gebruikers afzonderlijk of in bulk toevoegen
 
@@ -118,7 +118,7 @@ De mensen in uw team hebben elk een gebruikersaccount nodig voordat ze zich kunn
 Nadat u een gebruiker toevoegt, krijgt u een e-mailmelding van het team van Microsoft Online Services. De e-mail bevat de gebruikersnaam en het wachtwoord van de persoon, zodat deze zich kan aanmelden bij Microsoft 365. U moet uw nieuwe gebruiker vertellen over hun Microsoft 365-aanmeldingsgegevens. Gebruik het gangbare proces voor het doorgeven van wachtwoorden.
 
 > [!NOTE]
->Als u gebruikers maakt door e-mailboxen te migreren, moet u gebruikersaccounts activeren door licenties toe te eigenen. Als u geen licentie toewijst aan een gebruiker, wordt het postvak uitgeschakeld na een respijtperiode van 30 dagen. Ontdek hoe u [licenties aan gebruikers kunt toewijzen](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) via het Microsoft 365-beheercentrum.
+>Als u gebruikers maakt door e-mailboxen te migreren, moet u gebruikersaccounts activeren door licenties toe te eigenen. Als u geen licentie toewijst aan een gebruiker, wordt het postvak uitgeschakeld na een respijtperiode van 30 dagen. Ontdek hoe u [licenties aan gebruikers kunt toewijzen](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) via het Microsoft 365-beheercentrum.
 
 ### <a name="video-add-and-manage-users-in-the-admin-center"></a>Video: Gebruikers toevoegen en beheren in het beheercentrum
 
