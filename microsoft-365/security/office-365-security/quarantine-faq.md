@@ -15,13 +15,14 @@ search.appverid:
 ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
 ms.collection:
 - M365-security-compliance
-description: Antwoorden op veelgestelde vragen over quarantaine in Office 365.
-ms.openlocfilehash: 3947fbed2a17380a18320a8bffd08a8178ad2b3f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Veelgestelde vragen en antwoorden over quarantaine voor Office 365-postvakken in Exchange Online of zelfstandige EOP zonder Exchange Online-postvakken.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5c5d7f426701ebc9a546a86a4fccbd7015fc0e49
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634422"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033852"
 ---
 # <a name="quarantine-faq"></a>Veelgestelde vragen over quarantaine
 

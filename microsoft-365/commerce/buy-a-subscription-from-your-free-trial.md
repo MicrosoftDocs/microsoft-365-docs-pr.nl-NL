@@ -27,12 +27,12 @@ search.appverid:
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
 description: Koop een Microsoft 365 voor zakelijk abonnement. U hetzelfde type abonnement kopen dat u hebt geprobeerd, of een ander abonnement.
-ms.openlocfilehash: 3635a4ae729aa0759ef1f2de2905fa745a48951a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 48786ffc4bd0a8c5e8e13e0062b6db1dd5bed561
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634942"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045798"
 ---
 # <a name="buy-a-subscription-to-microsoft-365-for-business-from-your-free-trial"></a>Koop een abonnement op Microsoft 365 voor bedrijven via uw gratis proefversie
 
@@ -50,9 +50,9 @@ Dat gaat heel eenvoudig en wanneer u een abonnement koopt dat van hetzelfde type
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
-2. Zoek op de pagina **Producten & services** het abonnement dat u wilt kopen. Selecteer **abonnement** kopen in de sectie **Licenties**.
+2. Zoek op de pagina **Uw producten** het abonnement dat u wilt kopen. Selecteer **abonnement** kopen in de sectie **Licenties**.
 
 3. Kies een maandelijkse of jaarlijkse verbintenis voor uw abonnement en selecteer **Vervolgens Afhandeling**.
 
@@ -163,6 +163,6 @@ Als u een ander type abonnement koopt dan uw proefperiode, moet u uw gebruikersl
 
 [Uw proefabonnement verlengen](extend-your-trial.md)
   
-[Aanmelden voor Microsoft 365](../admin/admin-overview/sign-up-for-office-365.md)
+[Meld u aan bij Microsoft 365](../admin/admin-overview/sign-up-for-office-365.md)
   
 [Overschakelen naar een ander Microsoft 365-abonnement of -abonnement](subscriptions/switch-to-a-different-plan.md)

@@ -1,5 +1,5 @@
 ---
-title: Hoe ervoor te zorgen dat een bericht niet is gemarkeerd als spam
+title: Hoe u ervoor kunt zorgen dat een bericht niet als spam wordt gemarkeerd
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,15 +15,17 @@ search.appverid:
 ms.assetid: ceeda109-6c24-4270-bd09-a36959417276
 ms.collection:
 - M365-security-compliance
-description: Als EOP-beheerder (Exchange Online or Exchange Online Protection) u ervoor zorgen dat een e-mailbericht dat door de service reist, niet als spam wordt gemarkeerd. Zie de bijgewerkte versie van de tips en procedures om dit te bereiken in Voorkomen vals-positieve e-mail gemarkeerd als spam met een safelist of andere technieken.
-ms.openlocfilehash: 7ff5c7d027a4caabaaadc8169d6afab5698a50bb
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.custom:
+- seo-marvel-apr2020
+description: Lees als Beheerder van Exchange Online of Exchange Online Protection (EOP) hoe u ervoor zorgen dat een e-mailbericht dat via de service reist, niet is gemarkeerd als spam.
+ms.openlocfilehash: 4661e695d4bea363de396853ae78c3b31f878243
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893632"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036375"
 ---
-# <a name="how-to-help-ensure-that-a-message-isnt-marked-as-spam"></a>Hoe ervoor te zorgen dat een bericht niet is gemarkeerd als spam
+# <a name="how-to-help-ensure-that-a-message-isnt-marked-as-spam"></a>Hoe u ervoor kunt zorgen dat een bericht niet als spam wordt gemarkeerd
 
 Als EOP-beheerder (Exchange Online or Exchange Online Protection) u ervoor zorgen dat een e-mailbericht dat door de service reist, niet als spam wordt gemarkeerd. Zie de bijgewerkte versie van de tips en procedures om dit te bereiken in [Lijsten met veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md).
 

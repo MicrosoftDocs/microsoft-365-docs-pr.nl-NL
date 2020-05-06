@@ -11,13 +11,15 @@ ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
-description: Microsoft Exchange Online Protection (EOP) is een cloudgebaseerde e-mailfilterservice die uw organisatie beschermt tegen spam en malware, en functies bevat om uw organisatie te beschermen tegen schendingen van het berichtenbeleid.
-ms.openlocfilehash: a87b9b40d1a95f7c4da194ffd2138aa9d1726032
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom:
+- seo-marvel-apr2020
+description: Meer informatie over Microsoft Exchange Online Protection (EOP) en hoe het uw organisatie beschermt tegen spam en malware.
+ms.openlocfilehash: 4630c58bef49f13a1ae1536336afbac170418dcc
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42812042"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036522"
 ---
 # <a name="exchange-online-protection-overview"></a>Overzicht van Exchange Online Protection
 
@@ -78,10 +80,10 @@ Zie EOP-service [instellen](set-up-your-eop-service.md) om ervoor te zorgen dat 
 
 [EOP-functies](eop-features.md)
 
-[Algemene Faq van EOP](eop-general-faq.md)
+[Algemene veelgestelde vragen over EOP](eop-general-faq.md)
 
-[Veelgestelde vragen over eop-wachtrijen, uitgestelde en teruggestuurde berichten](eop-queued-deferred-and-bounced-messages-faq.md)
+[Veelgestelde vragen over in een wachtrij geplaatste, uitgestelde en niet-bezorgde berichten in EOP](eop-queued-deferred-and-bounced-messages-faq.md)
 
 [Veelgestelde vragen over gedelegeerd beheer](delegated-administration-faq.md)
 
-[Domeinen en instellingen verplaatsen van de ene EOP-organisatie naar een andere EOP-organisatie](move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md)
+[Domeinen en instellingen van één EOP-organisatie naar een andere EOP-organisatie verplaatsen](move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md)

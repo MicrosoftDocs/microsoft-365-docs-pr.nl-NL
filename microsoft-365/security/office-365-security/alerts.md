@@ -17,13 +17,14 @@ search.appverid:
 ms.assetid: 2bb4e7c0-5f7f-4144-b647-cc6a956aaa53
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over waarschuwingen die u instellen om te helpen met beveiliging in Office 365.
-ms.openlocfilehash: 24e36b6867600985a9ca0f9cb3cbafc5a8c6029e
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+description: Meer informatie over het gebruik van de waarschuwingsfuncties in het Office 365 Security & Compliance Center om waarschuwingen te bekijken en te beheren, waaronder het beheren van geavanceerde waarschuwingen.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 8b0c2d89f7f91e1dfcae644663c43bc6e8640f37
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943553"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033772"
 ---
 # <a name="alerts-in-the-security-amp-compliance-center"></a>Waarschuwingen in &amp; het Security Compliance Center
 

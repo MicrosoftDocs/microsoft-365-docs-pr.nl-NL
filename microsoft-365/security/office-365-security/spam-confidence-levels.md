@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: 34681000-0022-4b92-b38a-e32b3ed96bf6
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen meer te weten komen over hoe het spamvertrouwensniveau (SCL) bepaalt hoe waarschijnlijk of onwaarschijnlijk een bericht spam is en welke standaardacties spamfiltereren op berichten op basis van de SCL.
-ms.openlocfilehash: 519bc48e7285283ad0570b8f3ac598615b132875
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: In dit artikel kunnen beheerders meer te weten komen over hoe het spamvertrouwensniveau (SCL) de gelijkenis van een bericht als spam bepaalt.
+ms.openlocfilehash: 9448b1fd99878dbb85bc8699afc0719bc62dd951
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638282"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035246"
 ---
 # <a name="spam-confidence-level-scl-in-office-365"></a>Spambetrouwbaarheidsniveau (SCL) in Office 365
 

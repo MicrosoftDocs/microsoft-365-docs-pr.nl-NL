@@ -1,5 +1,5 @@
 ---
-title: 'Ongewenste e-mail en phishing-scams melden in de webversie van Outlook '
+title: E-mailoplichting melden - Webblik
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365-gebruikers met Exchange Online-postvakken kunnen Outlook op internet (Outlook Web App) gebruiken om spam-, niet-spam- en phishingberichten naar Microsoft te verzenden voor analyse.
-ms.openlocfilehash: 9fc17abafe219a450e0fb6e45438211ea03fb337
-ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
+ms.openlocfilehash: 32e60aa707bcaea9e35cc3bb8ded3aefb7fe46ab
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43921478"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031488"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-office-365"></a>Ongewenste en phishing-e-mail melden in de webversie van Outlook in Office 365
 

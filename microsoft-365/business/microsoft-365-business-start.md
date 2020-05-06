@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie over Microsoft 365 voor bedrijven, het instellen ervan en hoe u de apparaten en pc's van uw gebruikers voorbereidt om te controleren of ze worden beschermd door Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 17b142fb704d1b0be088a649490e751effb19517
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8754c470cb6369f0814f953288be130fa49cea86
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633198"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048080"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Aan de slag met Microsoft 365 voor bedrijven
 
@@ -44,7 +44,7 @@ Bekijk deze video voor een snel overzicht van Microsoft 365 voor bedrijven.<br><
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Microsoft 365 voor bedrijven is bedoeld voor maximaal 300 licenties. Als u meer licenties nodig hebt, raadpleegt u [Microsoft 365 Enterprise-documentatie](https://go.microsoft.com/fwlink/p/?linkid=860986) voor meer informatie. 
+Microsoft 365 voor bedrijven is bedoeld voor maximaal 300 licenties. Als u meer licenties nodig hebt, raadpleegt u de documentatie bij [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) voor meer informatie. 
   
 ## <a name="get-microsoft-365-for-business"></a>Microsoft 365 voor bedrijven inde uhalen
 
@@ -83,7 +83,7 @@ Meld u aan bij [het Microsoft 365-beheercentrum](https://portal.office.com/admin
     
     - Gebruik de wizard Directorysynchronisatie om uw gebruikers te synchroniseren met de cloud. Volg de stappen in [Adreslijstsynchronisatie instellen voor Microsoft 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) om dit proces te voltooien. Nadat u uw gebruikers hebt gesynchroniseerd met de cloud, moet u [adreslijstsynchronisatie uitschakelen voor Office 365.](https://support.office.com/article/ee5f861e-bd48-4267-83d1-a4ead4b4a00d)
     
-    U moet ook elke gebruiker die op deze manier is toegevoegd, een licentie aan Microsoft 365 voor bedrijven geven. U dit doen in de [wizard Setup](set-up.md) of u licenties toewijzen aan gebruikers in [Microsoft 365 voor Bedrijven.](https://support.office.com/article/997596B5-4173-4627-B915-36ABAC6786DC)
+    U moet ook elke gebruiker die op deze manier is toegevoegd, een licentie aan Microsoft 365 voor bedrijven geven. U dit doen in de [wizard Setup](set-up.md) of u licenties toewijzen aan gebruikers in [Microsoft 365 voor Bedrijven.](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)
     
 ### <a name="2-prepare-mobile-devices"></a>2: Mobiele apparaten voorbereiden
 
@@ -112,4 +112,4 @@ Als u een lokale Active Directory behoudt die een aantal on-premises bronnen bev
   
 [Microsoft 365 voor bedrijven beheren](manage.md)[Migreren naar Microsoft 365 voor bedrijven](migrate-to-microsoft-365-business.md)
 
-[Microsoft 365 voor zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 

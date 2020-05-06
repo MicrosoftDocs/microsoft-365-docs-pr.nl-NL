@@ -1,5 +1,5 @@
 ---
-title: Schadelijke e-mail zoeken en onderzoeken die is geleverd in Office 365, herstellen, verhelpen, herstellen, bescherming tegen bedreigingen, bedreigingsverkenner, bescherming
+title: Schadelijke e-mail zoeken en onderzoeken
 keywords: TIMailData-Inline, Security Incident, incident, ATP PowerShell, e-mail malware, gecompromitteerde gebruikers, e-mail phish, e-mail malware, lees e-mail headers, lees headers, open e-mail headers
 f1.keywords:
 - NOCSH
@@ -17,12 +17,13 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het gebruik van mogelijkheden voor het onderzoeken en reageren van bedreigingen om schadelijke e-mail te vinden en te onderzoeken.
-ms.openlocfilehash: ec70bc585d4067357c9871cffc7475357fbfb5bb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 917534670485327de73f62852af3d8010fd49e40
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634132"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034254"
 ---
 # <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Kwaadaardige e-mail onderzoeken en herstellen die in Office 365 is geleverd
 

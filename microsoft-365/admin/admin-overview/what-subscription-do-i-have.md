@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: Meer informatie om te controleren welke abonnementen uw organisatie heeft door naar de pagina Abonnementen te gaan.
 ms.custom: okr_SMB
-ms.openlocfilehash: a8ebff405d57578142318a2111db1dcb53d54435
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b855c533627aadf6117e6830d7484276003ea665
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621428"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045210"
 ---
 # <a name="what-subscription-do-i-have"></a>Welk abonnement heb ik?
 
@@ -40,9 +40,9 @@ Als u een beheerder bent, u controleren welke abonnementen uw organisatie heeft 
 > [!NOTE]
 > Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Producten en services</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
-2. Uw abonnementen worden weergegeven op de pagina **Producten & services,** samen met de naam van het abonnement, informatie over het abonnement en de status ervan. Als u een gecondenseerde weergave wilt weergeven, selecteert u **Tabelweergave**.
+2. Uw abonnementen worden weergegeven op de pagina **Uw producten,** samen met de naam van het abonnement, informatie over het abonnement en de status ervan. Als u een gecondenseerde weergave wilt weergeven, selecteert u **Tabelweergave**.
 
 ::: moniker-end
   

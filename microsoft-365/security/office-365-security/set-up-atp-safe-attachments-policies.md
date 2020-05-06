@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
-description: Definieer beleid voor veilige bijlagen om uw organisatie te beschermen tegen schadelijke bestanden in e-mail.
-ms.openlocfilehash: d9139ff1b3adef2f70b6aede630791d355127573
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Meer informatie over het definiëren van beleid voor veilige bijlagen om uw organisatie te beschermen tegen schadelijke bestanden in e-mail.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ab67b66b8773f45e819abef34e1d77ce5de4cc62
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638342"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035318"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Beleid voor veilige bijlagen van Office 365 instellen
 

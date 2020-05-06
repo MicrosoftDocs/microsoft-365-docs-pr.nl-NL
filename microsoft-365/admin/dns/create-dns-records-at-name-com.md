@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9ddcc2fc-9433-4335-8192-6ffb1f541087
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services op name.com voor Microsoft.
-ms.openlocfilehash: 8518ca2570b3be1cb3abcd5c57b8309e989481cb
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: e9133b3701c2b454cad11b9579dc7463f1a74460
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43938658"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048961"
 ---
 # <a name="create-dns-records-at-namecom-for-microsoft"></a>DNS-records maken op name.com voor Microsoft
 
@@ -118,7 +118,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     |**Type**|**Host**|**Antwoord**|**TTL**|**Prio**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(Laat dit veld leeg.)  <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * uit uw Microsoft-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Gebruik de standaardwaarde (300).  <br/> |0  <br/> Zie [Wat is MX-prioriteit?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) voor meer informatie over prioriteit. <br/> |
+    |MX  <br/> |(Laat dit veld leeg.)  <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * uit uw Microsoft-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Gebruik de standaardwaarde (300).  <br/> |0  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> |
    
    ![Afbeelding van het te maken](../../media/11ba2160-fc8e-4196-bb15-2b7c6d49c8fc.png)
   

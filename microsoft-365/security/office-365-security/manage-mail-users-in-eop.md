@@ -11,13 +11,14 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
-description: Het definiëren van e-mailgebruikers is een belangrijk onderdeel van het beheer van de Exchange Online Protection (EOP)-service.
-ms.openlocfilehash: 56827e29872c6a6ffd14821af8e2d9ea005ff20c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Meer informatie over het beheren van e-mailgebruikers in Exchange Online Protection (EOP), inclusief het gebruik van directorysynchronisatie, EAC en PowerShell om gebruikers te beheren.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9a4555bf4b6a716839c327c692f0e44b590f8175
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635578"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035554"
 ---
 # <a name="manage-mail-users-in-eop"></a>E-mailgebruikers beheren in EOP
 
