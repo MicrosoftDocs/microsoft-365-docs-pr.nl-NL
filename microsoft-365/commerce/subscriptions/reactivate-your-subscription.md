@@ -25,14 +25,21 @@ search.appverid:
 - GEA150
 ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
 description: Meer informatie over hoe u uw abonnement opnieuw activeren wanneer het verloopt of als Microsoft het abonnement uitschakelt of als u het in het midden opzegt.
-ms.openlocfilehash: 9f665cc9ca80b7338197a5401cdf9a4c2283d123
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: d75ebb3b09ec8b72c60e829406c1341939a4e534
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046238"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141096"
 ---
 # <a name="reactivate-your-subscription"></a>Uw abonnement opnieuw activeren
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Als uw abonnement verloopt of is uitgeschakeld door Microsoft, of als u het midden op een abonnementsperiode hebt opgezegd, u het opnieuw activeren in het beheercentrum.
   

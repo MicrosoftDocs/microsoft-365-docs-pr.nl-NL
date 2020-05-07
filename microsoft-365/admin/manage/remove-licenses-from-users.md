@@ -21,14 +21,21 @@ search.appverid:
 - GEA150
 ms.assetid: 9b497c85-d0a4-4735-80fa-d3565bc05bd1
 description: Meer informatie over het verwijderen van licenties uit gebruikersaccounts.
-ms.openlocfilehash: e3c6150c2eb228e29bf6fc2b87d90809a7033660
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 49d3b4b6786bc6ab66bc0416aac847ada592664d
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628098"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139635"
 ---
 # <a name="unassign-licenses-from-users"></a>Licenties van gebruikers verwijderen
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 ::: moniker range="o365-worldwide"
 U licenties verwijderen of niet toewijzen aan gebruikers op de pagina **Actieve gebruikers** of op de pagina **Licenties.** Welke methode u gebruikt, is afhankelijk van de vraag of u productlicenties van specifieke gebruikers niet wilt toewijzen of gebruikerslicenties van specifieke producten wilt ongedaan maken.
@@ -142,7 +149,7 @@ Wanneer u de pagina **Licenties** gebruikt om licenties ongedaan te maken, u lic
 
 ## <a name="what-you-need-to-know-about-unassigning-licenses-for-users"></a>Wat u moet weten over het ontzeggen van licenties voor gebruikers
 
-- U moet een globale beheerder, factureringsbeheerder, licentiebeheerder of beheerder van gebruikersbeheer zijn. Zie [Over Microsoft 365-beheerdersrollen](../add-users/about-admin-roles.md)voor meer informatie .
+- U moet een globale beheerder, factureringsbeheerder, licentiebeheerder of gebruikersbeheerder zijn. Zie [Informatie over beheerdersrollen in Microsoft 365](../add-users/about-admin-roles.md) voor meer informatie.
 
 - U kunt [licenties van gebruikersaccounts intrekken met Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=848428).
 

@@ -21,14 +21,21 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Meer informatie over het opzeggen van uw Microsoft 365 voor zakelijke proefversie of betaald abonnement.
-ms.openlocfilehash: c12b574d29b50432cdb480dca711588ad1f0df32
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: f0f635529a7d7c6ee0f9a2d6b15b887e3fd23bfb
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046202"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141167"
 ---
 # <a name="cancel-your-subscription"></a>Uw abonnement annuleren
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 *Subsidiabiliteit:* Als u minder dan 25 licenties aan gebruikers hebt toegewezen, u uw Microsoft 365 voor zakelijke proefversie of betaald abonnement op elk gewenst moment online annuleren in het Microsoft 365-beheercentrum. Als u meer dan 25 licenties aan gebruikers hebt toegewezen, [belt u ondersteuning om uw abonnement op te zeggen.](../../admin/contact-support-for-business-products.md)
 

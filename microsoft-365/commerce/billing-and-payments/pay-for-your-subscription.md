@@ -24,14 +24,21 @@ description: Meer informatie over welke betalingsopties beschikbaar zijn om te b
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: 599eb7eafda81f59b02ab11c822307d0db0c49c2
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 613bb0fcc776b65090ee66faf6dc0516987947b2
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045834"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140869"
 ---
 # <a name="pay-for-your-subscription"></a>Betalen voor uw abonnement
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Wanneer u uw abonnement instelt, u ervoor kiezen om te betalen met creditcard- of bankrekeningbetalingen of om per factuur te betalen met behulp van cheque of elektronische overschrijving (EFT). De methode u kiest, is de betalingswijze die we blijven gebruiken voor de volgende factureringsperioden, tenzij u [uw betalingsmethode wijzigt](change-payment-method.md).
 

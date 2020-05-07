@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 56c3187999d34ac6d84c1b3857053f82bb40b2a9
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: 9f39878ca56aef3ec8c9d89805a87196c19eb5b8
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804754"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141505"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -52,7 +52,7 @@ De meeste worden op een binaire manier gescoord - als u de verbeteringsactie imp
 
 ### <a name="products-included-in-secure-score"></a>Producten opgenomen in Secure Score
 
-Momenteel zijn er aanbevelingen voor onder meer SharePoint Online, Exchange Online, OneDrive voor Bedrijven, Microsoft Information Protection en meer), Azure AD en Cloud App Security. Aanbevelingen voor andere beveiligingsproducten, zoals Azure ATP en Microsoft Defender ATP, komen binnenkort. De aanbevelingen hebben niet betrekking op alle aanvalsoppervlakken die aan elk product zijn gekoppeld, maar ze zijn een goede basislijn. U de verbeteringsacties ook markeren als gedekt door een derde partij.
+Momenteel zijn er aanbevelingen voor Microsoft 365 (waaronder Exchange Online), Azure AD, Microsoft Defender ATP, Azure ATP en Cloud App Security. Aanbevelingen voor andere beveiligingsproducten komen binnenkort. De aanbevelingen hebben niet betrekking op alle aanvalsoppervlakken die aan elk product zijn gekoppeld, maar ze zijn een goede basislijn. U de verbeteringsacties ook markeren als gedekt door een derde partij.
 
 ## <a name="required-permissions"></a>Vereiste machtigingen
 
@@ -110,8 +110,6 @@ Ranking is gebaseerd op het aantal resterende punten te bereiken, implementatie 
 
 ### <a name="actions"></a>Acties
 
-Acties met het label [Niet gescoord] worden niet bijgehouden door Microsoft Secure Score. Je nog steeds actie ondernemen, maar het voltooien ervan heeft geen invloed op je score. Als een actie in de toekomst wordt bijgehouden door Microsoft Secure Score en u deze al hebt voltooid, wordt de wijziging automatisch weergegeven door uw beveiligde score.
-
 Wanneer u een specifieke verbeteringsactie selecteert, wordt er een fly-out weergegeven. Als u de actie wilt voltooien, hebt u een aantal opties:
 
 1. Selecteer **Weergave-instellingen** om naar het configuratiescherm te gaan en de wijziging aan te brengen. U krijgt dan de punten die de actie waard is, zichtbaar aan de bovenkant van de fly out. Het kan tot 24 uur duren voordat punten zijn bijgewerkt.
@@ -122,7 +120,7 @@ Wanneer u een specifieke verbeteringsactie selecteert, wordt er een fly-out weer
 
 ![Voorbeeld van actie voor verbetering van de veilige score](../../media/secure-score/secure-score1x450.png)
 
-*Cijfers 2 & 3: Verbetering actie flyouts*
+*Cijfers 2: Verbetering actie flyout*
 
 ## <a name="monitor-improvements-over-time"></a>Verbeteringen in de loop van de tijd bewaken
 

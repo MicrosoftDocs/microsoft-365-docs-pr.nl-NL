@@ -20,14 +20,21 @@ search.appverid:
 - BSA160
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Meer informatie over het toevoegen van een lid aan een groep, het verwijderen van de status van lid uit de groep en het beheren van de status van groepseigenaar in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 8b4df54e3dc54baf2f9e770f42333b95af391e90
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 96d9485821c27f2e9a4696401938da35a9996996
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049397"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140553"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Leden toevoegen aan of verwijderen uit Microsoft 365-groepen met behulp van het beheercentrum
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 In Microsoft 365 maken groepsleden doorgaans hun eigen groepen, voegen ze zichzelf toe aan groepen waaraan ze lid willen worden of worden ze uitgenodigd door groepseigenaren. Als het groepseigendom verandert of als u vaststelt dat een lid moet worden toegevoegd of verwijderd, u als beheerder ook die wijziging aanbrengen. Alleen een globale beheerder, Exchange-beheerder, groepsbeheerder of gebruikersbeheerder kan deze wijzigingen aanbrengen. [Wat is een Microsoft 365-groep?](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
 

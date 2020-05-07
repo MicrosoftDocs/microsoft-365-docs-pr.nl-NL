@@ -19,14 +19,21 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Leer om invoegingen te implementeren voor gebruikers en groepen in uw organisatie met behulp van gecentraliseerde implementatie in het beheercentrum.
-ms.openlocfilehash: 30f2c08aa895f63ed529b4390d208e3daa9d6d7b
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: cb41d02d8075e94c788a9964e0a3ac69d8363ef4
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011709"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139707"
 ---
-# <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Implementatie van invoegingen beheren in het Microsoft 365-beheercentrum
+# <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>De implementatie van invoegtoepassingen in het Microsoft 365-beheercentrum beheren
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Met Office-invoegtoepassingen kunt u uw documenten aan uw persoonlijke voorkeur aanpassen en de manier waarop u toegang krijgt tot informatie op internet stroomlijnen (zie [Uw Office-invoegtoepassing gebruiken](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx)). Als beheerder u Office-invoegtoepassing implementeren voor de gebruikers in uw organisatie. U dit doen met de functie Gecentraliseerde implementatie in het Microsoft 365-beheercentrum.
   
@@ -234,7 +241,7 @@ Als u wilt dat uw school of organisatie voldoet aan de AVG-vereisten voor minder
   
 Word, Excel en PowerPoint 2013 voor Windows ondersteunen dezelfde secundaire controles als Active Directory Authentication Library (ADAL) is ingeschakeld. Er zijn twee opties voor naleving, zoals hierna wordt beschreven.
   
-- **ADAL inschakelen**. In dit artikel wordt uitgelegd hoe u ADAL voor Office 2013 inschakelt: [Microsoft 365-moderne verificatie gebruiken met Office-clients](https://support.office.com/article/776c0036-66fd-41cb-8928-5495c0f9168a).<br/>U hebt ook de registersleutels nodig om ADAL in te schakelen, zoals wordt beschreven in [Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten](../security-and-compliance/enable-modern-authentication.md).<br/>Daarnaast moet u deze updates van april voor Office 2013 installeren:
+- **ADAL inschakelen**. In dit artikel wordt uitgelegd hoe u ADAL voor Office 2013 inschakelt: [Microsoft 365-moderne verificatie gebruiken met Office-clients](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016).<br/>U hebt ook de registersleutels nodig om ADAL in te schakelen, zoals wordt beschreven in [Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten](../security-and-compliance/enable-modern-authentication.md).<br/>Daarnaast moet u deze updates van april voor Office 2013 installeren:
     
   - [Beschrijving van de beveiligingsupdate voor Outlook 2013: 10 april 2018](https://support.microsoft.com/help/4018330/description-of-the-security-update-for-office-2013-april-10-2018)
     
@@ -281,6 +288,6 @@ U ook een invoegtoepassing verwijderen die is geïmplementeerd.
 
 Lees meer over het maken en bouwen van [Office-invoegtoepassingen](https://go.microsoft.com/fwlink/p/?linkid=846362).
   
-[Gebruik gecentraliseerde PowerShell-cmdlets voor het beheren van invoegingen.](https://support.office.com/article/94f4e86d-b8e5-42dd-b558-e6092f830ec9)
+[Gebruik gecentraliseerde PowerShell-cmdlets voor het beheren van invoegingen.](https://docs.microsoft.com/office365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)
   
 [Problemen oplossen: gebruiker die geen invoegingen ziet](https://docs.microsoft.com/office365/troubleshoot/access-management/user-not-seeing-add-ins)

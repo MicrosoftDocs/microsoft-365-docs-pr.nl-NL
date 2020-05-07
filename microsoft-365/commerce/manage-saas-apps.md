@@ -13,14 +13,21 @@ ms.collection:
 - commerce
 search.appverid: MET150
 description: Meer informatie over het activeren en beheren van apps van derden in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 521a535115cd3a082348485f4d03dade27c71d92
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: eb2826a4b0c69d61eb35a9dfff37e9dc2dd6ad71
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045962"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141186"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>App-abonnementen van derden voor uw organisatie beheren
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 U licenties en facturering voor apps van derden beheren in het Microsoft 365-beheercentrum, terwijl de previewmodus is ingeschakeld. Bijgewerkte functies omvatten verbeterd abonnementsbeheer, verbeterde toegang tot factureringsgegevens en verbeterde flexibiliteit voor het beheren van facturen. Abonnementsbeheer is gebaseerd op het bijgewerkte commerceplatform van Microsoft. Dit geldt voor software-as-a-service-apps die klanten rechtstreeks kopen, of bij externe provider.
 

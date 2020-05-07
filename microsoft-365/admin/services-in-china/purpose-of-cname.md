@@ -19,12 +19,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: Meer informatie over de CNAME-record 'MSOID' in Office 365 die u naar de beste server voor verificatieprocessen leidt, zodat u sneller reageert.
 monikerRange: o365-21vianet
-ms.openlocfilehash: f5369b8a723c60691da0e73f2bd8cc32233abbcd
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: a7c59829419ac8e7db400b079681ccf5bff199d6
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212219"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053846"
 ---
 # <a name="whats-the-purpose-of-the-office-365-cname-record-for-msoid"></a>Wat is het doel van de CNAME-record MSOID voor Office 365?
 
@@ -40,7 +40,7 @@ Als deze CNAME-record voor uw domein ontbreekt, wordt door deze toepassingen een
   
  **Als Office 365 de DNS-records van uw domein beheert,** Office 365 stelt deze CNAME-record voor u in. 
   
- **Als u DNS-records voor uw domein beheert bij uw DNS-host,** maakt u deze record zelf door [de instructies voor uw DNS-host te volgen.](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23.aspx)
+ **Als u DNS-records voor uw domein beheert bij uw DNS-host,** maakt u deze record zelf door [de instructies voor uw DNS-host te volgen.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)
   
 Als u een Office 365-implementatie plant en meer wilt weten over alle DNS-records die u mogelijk moet toevoegen of bijwerken, leest u deze gegevens in [Referentie: Extern domeinnaamsysteemrecords voor Office 365](https://go.microsoft.com/fwlink/?LinkId=579013).
   

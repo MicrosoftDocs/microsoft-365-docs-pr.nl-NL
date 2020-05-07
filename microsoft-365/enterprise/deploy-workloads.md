@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Werk de gebruikers in uw organisatie in voor de productiviteitsworkloads van Microsoft 365 voor ondernemingen.
-ms.openlocfilehash: 2bb86ec474f93ea9d5f41fb104c6d533b7ec9561
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7767f01d87029c7fc641a65442a5171b0d03eab5
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638162"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066213"
 ---
 # <a name="microsoft-365-for-enterprise-workloads-and-scenarios"></a>Microsoft 365 voor bedrijfsworkloads en -scenario's
 
@@ -47,7 +47,7 @@ In deze scenario's wordt stapsgewijs beschreven hoe u een team van Microsoft Tea
 
 Hier volgen de workloads en scenario's in de algemene implementatiehandleiding voor Microsoft 365 voor ondernemingen:
 
-![Workloads en scenario's in de algemene implementatiehandleiding voor Microsoft 365 voor ondernemingen](../media/deploy-workloads/m365-deploy-content-arch-workloads.png)
+![Workloads en scenario's in de algemene implementatiehandleiding voor Microsoft 365 voor ondernemingen](media/deploy-workloads/m365-deploy-content-arch-workloads.png)
 
 Zie de [Productiviteitsbibliotheek van Microsoft 365](https://aka.ms/productivitylibrary) (https://aka.ms/productivitylibrary) voor aanvullende scenario's. 
 

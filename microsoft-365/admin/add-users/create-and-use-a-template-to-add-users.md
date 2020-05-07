@@ -19,14 +19,21 @@ search.appverid:
 - MET150
 - MOE150
 description: U een sjabloon maken en gebruiken om tijd te besparen en instellingen te standaardiseren wanneer u meerdere gebruikers toevoegt.
-ms.openlocfilehash: a45107f520ee34437989bcd000096945514384ba
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a39ad3df7928e45f7cb93a13c6ffc40111f2ee48
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617270"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140650"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>Een sjabloon maken en gebruiken om gebruikers toe te voegen
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 U een sjabloon maken en gebruiken om tijd te besparen en instellingen te standaardiseren wanneer u meerdere gebruikers toevoegt. Sjablonen zijn vooral handig als u gebruikers hebt die veel algemene eigenschappen delen, zoals gebruikers die dezelfde rol hebben en op dezelfde locatie werken en degenen die dezelfde software nodig hebben. U hebt bijvoorbeeld een team van ondersteuningstechnici die in hetzelfde kantoor werken.  
 

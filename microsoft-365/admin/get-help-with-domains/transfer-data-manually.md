@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: Ontdek hoe u gegevens handmatig overbrengen tussen twee Microsoft 365-accounts wanneer u het abonnement of de bedrijfsnaam hebt gewijzigd of meerdere abonnementen in één abonnement hebt gecombineerd.
-ms.openlocfilehash: c0cb6531518c18e8cdc5b5829dc05a5b9b375291
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1eaaf48f445eb54ebf91b96924c39e9062eea4fb
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628373"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053738"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>Gegevens handmatig overbrengen tussen twee accounts
 
@@ -55,7 +55,7 @@ Bereid je voor om je mouwen op te stropen en een stuk tijd in je agenda te blokk
 
 Ga naar de volgende pagina's van elk account en stel het nieuwe account in op basis van de instellingen van het oude account.
   
-Als u gegevens van Microsoft 365 overdraagt naar Microsoft 365 Voor middelgrote ondernemingen of Microsoft 365 Enterprise, worden de beheerderspagina's anders gestructureerd. Bekijk een [video: Maak kennis met Microsoft 365 Enterprise](https://support.office.com/article/11f7b4a0-1294-4e94-9238-beaae26efa9c.aspx)en ga naar de volgende plaatsen om naar beheerinstellingen te kijken.
+Als u gegevens van Microsoft 365 overdraagt naar Microsoft 365 Voor middelgrote ondernemingen of Microsoft 365 Enterprise, worden de beheerderspagina's anders gestructureerd. Bekijk een [video: Maak kennis met Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/admin/)en ga naar de volgende plaatsen om naar beheerinstellingen te kijken.
   
 Voor Microsoft 365 Enterprise en Microsoft 365 Voor middelgrote ondernemingen:
   
@@ -90,9 +90,9 @@ Er zijn verschillende manieren om de gegevens van een teamsite op te slaan of ov
   
 - U kunt de oude site opslaan als een sjabloon en vervolgens de sjabloon importeren in de nieuwe site.
 
-- Als u documenten wilt overbrengen, maakt u eerst handmatig uw hiërarchie opnieuw op de nieuwe site. Vervolgens kunt u beide SharePoint-teamsites tegelijk openen, beide documentbibliotheken openen met Windows Verkenner, en de documenten kopiëren en plakken. Bekijk deze [video: over het kopiëren of verplaatsen van bibliotheekbestanden met de opdracht Openen in Verkenner](https://support.office.com/article/c27bc6f3-7b38-4c29-b947-5d00c7153384.aspx).
+- Als u documenten wilt overbrengen, maakt u eerst handmatig uw hiërarchie opnieuw op de nieuwe site. Vervolgens kunt u beide SharePoint-teamsites tegelijk openen, beide documentbibliotheken openen met Windows Verkenner, en de documenten kopiëren en plakken. Bekijk deze [video: over het kopiëren of verplaatsen van bibliotheekbestanden met de opdracht Openen in Verkenner](https://support.office.com/article/where-to-store-files-c7c20284-bc94-47f4-9728-d28e9daf0790).
 
-- Als u gegevens in een lijst wilt overbrengen, slaat u de [lijst op als een sjabloon](https://support.office.com/article/c3884ad1-bc49-44b8-b3d6-3bc6a01eb393.aspx) en gebruikt u de sjabloon om de lijst opnieuw te maken op de nieuwe site.
+- Als u gegevens in een lijst wilt overbrengen, slaat u de [lijst op als een sjabloon](https://support.microsoft.com/en-us/office/manage-list-templates-c3884ad1-bc49-44b8-b3d6-3bc6a01eb393) en gebruikt u de sjabloon om de lijst opnieuw te maken op de nieuwe site.
 
 - Zie [Informatie over handmatige migratie van SharePoint Online-inhoud](https://support.microsoft.com/kb/2783484)als u een documentbibliotheek of lijstinhoud uit een SharePoint Online-omgeving (OneDrive voor Bedrijven of teamsites) wilt opslaan om shares of op een lokale computer op te slaan.
 
