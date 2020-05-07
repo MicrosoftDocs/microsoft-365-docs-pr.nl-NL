@@ -19,16 +19,23 @@ search.appverid:
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: Meer informatie over het aanpassen van rapporten in de browser en Power BI Desktop.
-ms.openlocfilehash: 6e4bb6cf977607ca6e3b3f57240ac89dbd530e4f
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 4f0c85802ecb5db9c57add2fa6dd561827e8fa22
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42807408"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140707"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Rapporten in Microsoft 365 Gebruiksanalyse naar voorkeur aanpassen
 
-Microsoft 365-gebruiksanalyses bieden een dashboard in Power BI dat inzicht biedt in hoe gebruikers Microsoft 365 adopteren en gebruiken. Het dashboard is alleen een beginpunt voor interactie met de gebruiksgegevens. De rapporten kunnen worden aangepast voor meer persoonlijke inzichten.
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
+
+Microsoft 365-gebruiksanalyse biedt een dashboard in Power BI dat inzicht biedt in de manier waarop gebruikers Microsoft 365 gebruiken en gebruiken. Het dashboard is alleen een beginpunt voor interactie met de gebruiksgegevens. De rapporten kunnen worden aangepast voor meer persoonlijke inzichten.
   
 U kunt ook Power BI Desktop gebruiken om uw rapporten verder aan te passen, door verbinding te maken met andere gegevensbronnen voor nog uitgebreidere inzichten in uw bedrijf.
   
@@ -38,11 +45,11 @@ In de volgende twee voorbeelden ziet u hoe u een bestaand visueel element kunt a
   
 ### <a name="modify-an-existing-visual"></a>Een bestaand visueel element wijzigen
 
-In dit voorbeeld ziet u hoe u het tabblad **Activering** wijzigt in het rapport **Activering/licentieverlening.** 
+In dit voorbeeld ziet u hoe u het tabblad **Activering wijzigt** in het rapport **Activering/licentieverlening.** 
   
 1. Klik in het rapport **Activering/licentieverlening** op het tabblad **Activering.**
     
-2. Voer de bewerkingsmodus in **Edit** door op de knop ![Bewerken bovenaan te klikken](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) via de knop Meer pagina in Power BI. 
+2. Voer de bewerkingsmodus in **Edit** door bovenaan op de ![knop Bewerken te klikken](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) via de knop Meer pagina in de knop Power BI. 
     
     ![Click Edit report on the top right navigation](../../media/e2c16663-1fbd-4d7f-887c-0cbb891d3b3d.png)
   
@@ -50,9 +57,9 @@ In dit voorbeeld ziet u hoe u het tabblad **Activering** wijzigt in het rapport 
     
     ![Choose Duplicate this page](../../media/b2d18dcd-6b82-4ce7-ab79-1b24e3721309.png)
   
-4. Klik rechtsonder op een van de staafdiagrammen met het aantal gebruikers dat wordt geactiveerd op basis van het besturingssysteem, zoals Android, iOS, Mac, enz.
+4. Klik rechtsonder op een van de staafdiagrammen met het aantal gebruikers dat activeert op basis van het besturingssysteem, zoals Android, iOS, Mac, enz.
     
-5. Klik in het gebied **Visualisaties** aan de rechterkant om **Mac Count** uit het visuele te verwijderen, op de **X** ernaast.
+5. Klik in het gebied **Visualisaties** aan de rechterkant om **Mac Count** uit de visual te verwijderen op de **X** ernaast.
 
     ![Mac-aantal verwijderen](../../media/ce3d8358-df57-4f64-bd25-ac5be7fc8713.png)    
     
@@ -60,13 +67,13 @@ In dit voorbeeld ziet u hoe u het tabblad **Activering** wijzigt in het rapport 
 
 In het volgende voorbeeld ziet u hoe u een nieuw visueel element maakt voor het bijhouden van nieuwe Yammer-gebruikers op maandbasis.
   
-1. Ga naar het rapport **Productgebruik** met het linkernavigatiescherm en klik op het tabblad **Yammer.**
+1. Ga naar het rapport **Productgebruik** met de linkernavigatie en klik op het tabblad **Yammer.**
     
-2. Schakel over naar de bewerkingsmodus door op ![De](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) knop Meer pagina in Power BI te klikken en **bewerken**. 
+2. Schakel over naar de bewerkingsmodus door te klikken op ![De knop Meer pagina in Power BI](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) en **Bewerken**. 
     
-3. Klik onder aan de pagina op ![De knop Pagina toevoegen in Power BI](../../media/d3b8c117-17d4-4f53-b078-8fefc2155b24.png) om een nieuwe pagina te maken.
+3. Klik onderaan de pagina op ![De knop Pagina toevoegen in Power BI](../../media/d3b8c117-17d4-4f53-b078-8fefc2155b24.png) om een nieuwe pagina te maken.
   
-4. Klik in het gebied **Visualisaties** aan de rechterkant op het **gestapelde staafdiagram** (bovenste rij, eerste van links).
+4. Klik in het gebied **Visualisaties** rechts op het **gestapelde staafdiagram** (bovenste rij, eerste van links).
 
     ![Staafdiagram selecteren](../../media/214c3fed-6eae-43e6-83fb-708a2d74406e.png)
     
@@ -86,9 +93,9 @@ In het volgende voorbeeld ziet u hoe u een nieuw visueel element maakt voor het 
 
 11. Selecteer in het gedeelte **Filtertype** dat wordt weergegeven het selectievakje **Yammer**.
 
-    ![Selectievakje Yammer selecteren](../../media/82e99730-0de9-42da-928a-76aab0c3e609.png)
+    ![Het selectievakje Yammer inschakelen](../../media/82e99730-0de9-42da-928a-76aab0c3e609.png)
   
-12. Klik net onder de lijst met ![visualisaties op het pictogram](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png) **Opmaak** in Power BI Visualizaions.
+12. Klik net onder de lijst met ![visualisaties op het pictogram](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png) **Opmaak** in Power BI Visualizaions .
 
 13. Vouw Titel uit en wijzig de waarde **Titel** in **Nieuwe gebruikers van Yammer per maand**.
     
@@ -96,7 +103,7 @@ In het volgende voorbeeld ziet u hoe u een nieuw visueel element maakt voor het 
     
 15. Wijzig de titel van de nieuwe pagina door de naam van de pagina rechtsonder te bewerken.
 
-16.  Sla het rapport op door bovenaan op **de leesweergave** te klikken en vervolgens **op te slaan.**
+16.  Sla het rapport op door bovenaan op **leesweergave** te klikken en vervolgens **op te slaan**.
     
 ## <a name="customizing-the-reports-in-power-bi-desktop"></a>De rapporten in Power BI Desktop aanpassen
 
@@ -104,19 +111,19 @@ Voor de meeste klanten is het aanpassen van de rapporten en visuele elementen va
   
 ### <a name="use-the-reporting-apis"></a>De rapportage-API's gebruiken
 
-U beginnen met rechtstreeks verbinding te maken met de ODATA-rapportage-API's van Microsoft 365 die deze rapporten van stroom kunnen maken.
+U beginnen door rechtstreeks verbinding te maken met de ODATA-rapportage-API's van Microsoft 365 die deze rapporten van stroom voorstaan.
   
 1. Ga naar **Gegevens ophalen** \> **Overige** \> **ODATA-feed** \> **Verbinding maken**.
     
-2. Typ in het URL-venster 'https://<i></i>reports.office.com/pbi/v1.0/\<tenantid'\>
+2. Voer in het URL-venster 'https://<i></i>reports.office.com/pbi/v1.0/\<tenantid\>in'
     
-    **LET OP:** De rapportage API's zijn in preview en zijn onderhevig aan wijzigingen totdat ze in productie gaan. 
+    **LET OP:** De rapportage-API's zijn in preview en kunnen worden gewijzigd totdat ze in productie gaan. 
   
     ![OData feed URL for Power BI desktop](../../media/c0ef967e-a454-4eba-bc8e-61e113170053.png)
   
-3. Voer uw Beheerdersreferenties (organisatie of school) in om zich te verifiëren bij Microsoft 365 wanneer daarom wordt gevraagd.
+3. Voer uw Microsoft 365-beheerdersreferenties (organisatie of school) in om deze te verifiëren bij Microsoft 365 wanneer daarom wordt gevraagd.
     
-    Zie de [veelgestelde vragen](usage-analytics.md#faq) voor meer informatie over wie toegang mag krijgen tot de microsoft 365-versiesjabloon-apprapporten. 
+    Zie de [veelgestelde vragen](usage-analytics.md#faq) voor meer informatie over wie toegang heeft tot de rapporten van de Microsoft 365-sjabloonvoor adoptie. 
     
 4. Zodra de verbinding is geautoriseerd, wordt het Navigator-venster weergegeven met de gegevenssets waarmee u verbinding kunt maken.
     
@@ -138,9 +145,9 @@ U het Power BI-sjabloonbestand downloaden vanuit het Microsoft-downloadcentrum v
     
     ![Enter your tenant ID to open the pbit file](../../media/071ed0bf-8b9d-49c6-81fc-fd4c6cc85bd3.png)
   
-3. Voer uw beheerdersreferenties in om u te verifiëren bij Microsoft 365 wanneer daarom wordt gevraagd.
+3. Voer uw beheerdersreferenties in om te verifiëren bij Microsoft 365 wanneer daarom wordt gevraagd.
     
-     voor meer informatie over wie toegang heeft tot de microsoft 365-rapporten voor gebruiksanalyse. 
+     voor meer informatie over wie toegang heeft tot de Microsoft 365-rapporten over gebruiksanalyses. 
     
     Na autorisatie worden de gegevens in het Power BI-bestand vernieuwd.
     

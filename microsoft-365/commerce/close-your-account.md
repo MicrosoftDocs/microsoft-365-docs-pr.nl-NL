@@ -15,14 +15,21 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Meer informatie over het sluiten van uw account bij Microsoft.
-ms.openlocfilehash: 43ec3fe2eedc354c0494818f97b01e8de63694c7
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: e41d11502b0c0f738cc23405c387bd5fca1cb0fe
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045774"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141276"
 ---
 # <a name="close-your-account"></a>Uw account sluiten
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Wanneer u uw account bij Microsoft sluit, wordt alle informatie met betrekking tot uw account verwijderd. Deze informatie omvat abonnementen, licenties, betalingsmethoden, gebruikers en gebruikersgegevens. Voordat u dit proces start, moet u een back-up maken van alle gegevens die u wilt behouden.
 

@@ -25,14 +25,21 @@ search.appverid:
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
 description: Meer informatie over het toevoegen en verwijderen van licenties voor uw Microsoft 365 voor Bedrijven-abonnement.
-ms.openlocfilehash: 57768a7e93b19c14c5428508268c2c1e37d700f6
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: f8ae177052be325673af96d9535f25dfcdc93180
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045222"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141231"
 ---
 # <a name="manage-subscription-licenses"></a>Abonnementslicenties beheren
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Met deze stappen u licenties toevoegen of verwijderen uit uw abonnementen.
 

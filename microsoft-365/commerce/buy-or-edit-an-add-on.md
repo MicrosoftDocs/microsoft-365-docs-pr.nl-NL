@@ -22,14 +22,21 @@ search.appverid:
 ms.assetid: 4e7b57d6-b93b-457d-aecd-0ea58bff07a6
 description: Meer informatie over het aanschaffen van een add-on om extra functionaliteit toe te voegen aan uw Microsoft 365 voor Bedrijven-abonnement. U ook een add-on bijwerken en verwijderen.
 ms.custom: okr_SMB
-ms.openlocfilehash: 801da522c9fea9efcc4d3d4a0285a6ffcb5adc0b
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 60bc63d4db84667f00ab0bde95e8541f45a38df7
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045786"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141288"
 ---
 # <a name="buy-or-edit-an-add-on"></a>Een invoegtoepassing kopen of bewerken
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Verschillende van de Microsoft 365 voor zakelijke abonnementen hebben add-ons die u kopen voor uw abonnement. Met een invoegtoepassing beschikt u over aanvullende functionaliteit voor het abonnement waarvoor u het koopt.
 

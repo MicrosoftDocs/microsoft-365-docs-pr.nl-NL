@@ -20,14 +20,21 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Meer informatie over het aanbrengen van wijzigingen in uw organisatieprofiel, zoals organisatienaam, adres, telefoon, technisch contact en e-mail.
-ms.openlocfilehash: 94f2c875a9373675fd044db7b73251cefe859647
-ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
+ms.openlocfilehash: a1b792dd74c38e93489bccc49e3a034e1da889e4
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44016012"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139671"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Het adres en de technische contactpersoon van uw organisatie en meer wijzigen
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
   
 U wijzigingen aanbrengen in uw organisatieprofiel, zoals uw organisatienaam, adres, telefoon en technische contactpersoon. **U moet een globale beheerder zijn om deze informatie bij te werken.**
   

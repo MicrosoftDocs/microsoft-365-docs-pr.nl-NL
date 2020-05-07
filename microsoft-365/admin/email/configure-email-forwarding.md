@@ -21,14 +21,21 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: E-mail doorsturen instellen voor een of meer e-mailaccounts met Office365.
-ms.openlocfilehash: 5807649fa43d094fd8f05cf63e2905d7cdb6dd7d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8cd86bcab4d73719e527f9942cd41a3174966c2d
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628913"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140451"
 ---
 # <a name="configure-email-forwarding"></a>Doorsturen van e‑mail configureren
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
   
 Als beheerder van een organisatie hebt u mogelijk bedrijfsvereisten om e-maildoorsturen in te stellen voor het postvak van een gebruiker. Dankzij de functie voor e-mail doorsturen kunt u e-mailberichten vanuit het postvak van een gebruiker doorsturen naar het postvak van een gebruiker binnen of buiten de organisatie.
 

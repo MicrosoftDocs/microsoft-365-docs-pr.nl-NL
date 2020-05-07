@@ -19,14 +19,21 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Leer een beveiligingsgroep maken, bewerken of verwijderen.
-ms.openlocfilehash: 689adb46bdec4d4f669482af6b5467fdcf63482c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6f4daa66c11675674fdbfbfeb625128d8f817520
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628877"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140439"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Een beveiligingsgroep maken, bewerken of verwijderen in het Microsoft 365-beheercentrum
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Op de pagina Microsoft **365-groepen** u groepen gebruikersaccounts maken waaraan u dezelfde machtigingen toewijzen in SharePoint Online en CRM Online. Een beheerder kan bijvoorbeeld een beveiligingsgroep maken om een bepaalde groep mensen toegang te verlenen tot een SharePoint-site. Alleen beheerders van globale en gebruikersbeheer hebben machtigingen om beveiligingsgroepen te maken, te bewerken of te verwijderen. Zie [Beheerdersrollen toewijzen](../add-users/assign-admin-roles.md)voor meer informatie over beheerdersrollen. 
   
@@ -145,7 +152,7 @@ Als u groepen gebruikers wilt maken zodat u ze allemaal tegelijk e-mail verzende
     
 Nadat u distributiegroepen en beveiligingsgroepen met e-mail hebt gemaakt in het Exchange-beheercentrum, worden hun namen en gebruikerslijsten weergegeven op de pagina **Beveiligingsgroepen.** U kunt deze groepen op beide locaties verwijderen, maar u kunt ze alleen bewerken in het Exchange-beheercentrum. Dynamische distributiegroepen worden niet weergegeven op de pagina **Beveiligingsgroepen.** 
   
- SharePoint-groepen worden automatisch gemaakt wanneer u een siteverzameling maakt. De standaardgroepen gebruiken de standaardmachtigingsniveaus in SharePoint (soms ook wel SharePoint-rollen genaamd) om gebruikers rechten en toegang te verlenen. Zie [StandaardSharePoint-groepen in SharePoint Online](https://support.office.com/article/13bb2b6b-dd8c-447e-b71b-0e4bb9efe1d3.aspx)voor meer informatie .
+ SharePoint-groepen worden automatisch gemaakt wanneer u een siteverzameling maakt. De standaardgroepen gebruiken de standaardmachtigingsniveaus in SharePoint (soms ook wel SharePoint-rollen genaamd) om gebruikers rechten en toegang te verlenen. Zie [StandaardSharePoint-groepen in SharePoint Online](https://docs.microsoft.com/sharepoint/default-sharepoint-groups)voor meer informatie .
   
 ## <a name="how-is-a-security-group-different-from-security-groups-i-create-in-sharepoint"></a>Waarin verschilt een beveiligingsgroep van beveiligingsgroepen die ik in SharePoint maak?
 

@@ -20,14 +20,21 @@ search.appverid:
 - BEA160
 ms.assetid: 796f7eda-b1f8-479a-adee-bd9226ca47ec
 description: Meer informatie over het oplossen van licentieconflicten met uw Microsoft 365 voor Bedrijven-abonnement.
-ms.openlocfilehash: 51f87c055402d9e6e3bd732a99abf2c155887290
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7d7da843ba747679f36539bcf920b1b9b2b7ad28
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628086"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139575"
 ---
 # <a name="resolve-license-conflicts"></a>Licentieconflicten oplossen
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 We raden u aan de licenties te kopen die u nodig hebt voor uw abonnement voordat u nieuwe gebruikers maakt. Op die manier kan een licentie worden toegewezen aan nieuwe gebruikers zodra hun gebruikersaccount is gemaakt. Er ontstaan licentieconflicten als alle beschikbare licenties al zijn toegewezen aan gebruikers, maar enkele licenties zijn verlopen, of als u een licentie probeert te verwijderen die al aan een gebruiker is toegewezen. Zie [Licenties uit uw abonnement verwijderen](../../commerce/licenses/remove-licenses-from-subscription.md)voor meer informatie.
   

@@ -20,14 +20,21 @@ search.appverid:
 ms.assetid: 89502322-bfbb-43d6-9207-4030f8ce26e0
 ROBOTS: NOINDEX
 description: 'Meer informatie over het delen van sites en bestanden met mensen buiten de organisatie. '
-ms.openlocfilehash: c11526ee199cf097053489bb4ab8060dcb2c6bc9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e49cc84314b55f1aacfa47ab28916bae12132a3e
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628026"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139611"
 ---
 # <a name="share-sites-and-files-externally"></a>Sites en bestanden extern delen
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Als u wilt samenwerken met mensen buiten uw organisatie, u hele sites of specifieke bestanden extern delen. Als u direct wilt gaan delen, kiest u het scenario dat u wilt inschakelen:
 

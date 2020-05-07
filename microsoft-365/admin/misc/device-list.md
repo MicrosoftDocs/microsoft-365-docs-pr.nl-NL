@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 932e3676-2491-49f0-9177-d893d2f5276e
 ROBOTS: NOINDEX
 description: Meer informatie over het maken van een CSV-bestand voor AutoPilot in Microsoft 365 voor bedrijven.
-ms.openlocfilehash: b1154d639ba23180f637520750d94f00e997cfc4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c83862675db1372aa2cef27c727c04577b4cf5a3
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627858"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064649"
 ---
 # <a name="device-list-csv-file"></a>CSV-bestand met apparatenlijst
 
@@ -51,7 +51,7 @@ Wanneer u apparaten toevoegt, moet u ze ook toevoegen aan een profiel. Een profi
 
 [Microsoft 365 voor bedrijfsdocumentatie en -bronnen](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
-[Aan de slag met Microsoft 365 voor bedrijven](https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364)
+[Aan de slag met Microsoft 365 voor bedrijven](https://docs.microsoft.com/microsoft-365/business/microsoft-365-business-overview)
   
-[Microsoft 365 voor bedrijven beheren](https://support.office.com/article/27ff1678-865a-4707-8145-e1155aa815d6)
+[Microsoft 365 voor bedrijven beheren](https://docs.microsoft.com/microsoft-365/business/manage)
   

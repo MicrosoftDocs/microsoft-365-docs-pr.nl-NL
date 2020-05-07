@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het vervaldatumbeleid van Microsoft 365-groepen.
-ms.openlocfilehash: 82938caf083cd5b5fa330fd047686ae6a8b5300d
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 0cb67b87a542d021387365802bd5969f4c4332b8
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049177"
+ms.locfileid: "44064819"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365-groepsvervaldatumbeleid
 
@@ -77,7 +77,7 @@ Groepseigenaren worden alleen via e-mail op de hoogte gebracht. Als de groep is 
 
 30 dagen voordat de groep verloopt, ontvangen de groepseigenaren (of de e-mailadressen die u hebt opgegeven voor groepen die geen eigenaar hebben) een e-mail waarmee ze de groep eenvoudig kunnen vernieuwen. Als ze deze niet verlengen, ontvangen ze 15 dagen voor het verstrijken van de looptijd nog een e-mail met verlenging. Als ze het nog steeds niet hebben verlengd, ontvangen ze de dag voor het verstrijken nog een e-mailmelding.
 
-Als om de een of andere reden geen van de eigenaren of beheerders de groep verlengt voordat deze verloopt, kan de beheerder de groep nog steeds tot 30 dagen na afloop herstellen. Zie voor meer informatie: [Een verwijderde Microsoft 365-groep herstellen](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group).
+Als om de een of andere reden geen van de eigenaren of beheerders de groep verlengt voordat deze verloopt, kan de beheerder de groep nog steeds tot 30 dagen na afloop herstellen. Zie voor meer informatie: [Een verwijderde Microsoft 365-groep herstellen](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ## <a name="related-articles"></a>Verwante artikelen
 

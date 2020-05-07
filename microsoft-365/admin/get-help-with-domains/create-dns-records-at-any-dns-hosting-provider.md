@@ -23,25 +23,25 @@ search.appverid:
 ms.assetid: 7b7b075d-79f9-4e37-8a9e-fb60c1d95166
 description: Lees hier hoe u uw domein kunt verifiëren en DNS-records kunt maken bij een DNS-hostingprovider voor Microsoft 365.
 ms.custom: okr_smb
-ms.openlocfilehash: a2d9b57f0230aa736944727e39845f3a0a533426
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 2cf28cdd3cc2f85e448d512e72f5b022177e8f1e
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048781"
+ms.locfileid: "44053718"
 ---
 # <a name="create-dns-records-at-any-dns-hosting-provider"></a>DNS-records maken bij een DNS-hostingprovider
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
-Bekijk onze lijst met [hostspecifieke instructies](https://support.office.com/article/ae950c9e-e8d9-4108-b0cb-449156998580) om uw host te vinden en volg de stappen om alle records toe te voegen die u nodig hebt. 
+Bekijk onze lijst met [hostspecifieke instructies](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions) om uw host te vinden en volg de stappen om alle records toe te voegen die u nodig hebt. 
   
 Als u niet weet wie de DNS-hostingprovider of domeinregistrar voor uw domein is, raadpleegt u [Zoeken naar uw domeinregistrar of DNS-hostingprovider](../get-help-with-domains/find-your-domain-registrar.md).
   
 Als u de records zelf wilt instellen, moet u deze records toevoegen. Houd er rekening mee dat uw verificatierecord en MX-record uniek zijn voor uw domein. Om die in te stellen, moet u een specifieke ‘token’-waarde ophalen en gebruiken voor uw domein. In de onderstaande stappen wordt uitgelegd hoe u dit doet.
   
 > [!IMPORTANT]
-> De exacte naam van de vakken of *velden* waarin u de gegevens typt of plakt voor het maken van elk type DNS-record, zijn anders voor elke DNS-host. Mogelijk heeft uw DNS-host Help-informatie op zijn website om u te helpen bij het toewijzen van de instructies, die hier worden weergegeven, aan de juiste velden op de website. Controleer in [DNS-records maken voor Microsoft 365](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23.aspx) of we stapsgewijze instructies hebben voor uw DNS-host. > Bepaalde DNS-hosts staan niet toe dat u alle vereiste recordtypen maakt. Dit [zorgt voor servicebeperkingen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) in Microsoft 365. Als bijvoorbeeld de host van uw domein SRV-, TXT- of CNAME-records niet ondersteunt, raden we u aan dat u [uw domein overbrengt](../get-help-with-domains/buy-a-domain-name.md) naar een DNS-host die wel alle vereiste records ondersteunt. We raden aan dat u uw domein overbrengt naar GoDaddy voor een snel en geautomatiseerd proces voor het instellen van Microsoft 365. 
+> De exacte naam van de vakken of *velden* waarin u de gegevens typt of plakt voor het maken van elk type DNS-record, zijn anders voor elke DNS-host. Mogelijk heeft uw DNS-host Help-informatie op zijn website om u te helpen bij het toewijzen van de instructies, die hier worden weergegeven, aan de juiste velden op de website. Controleer in [DNS-records maken voor Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) of we stapsgewijze instructies hebben voor uw DNS-host. > Bepaalde DNS-hosts staan niet toe dat u alle vereiste recordtypen maakt. Dit [zorgt voor servicebeperkingen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) in Microsoft 365. Als bijvoorbeeld de host van uw domein SRV-, TXT- of CNAME-records niet ondersteunt, raden we u aan dat u [uw domein overbrengt](../get-help-with-domains/buy-a-domain-name.md) naar een DNS-host die wel alle vereiste records ondersteunt. We raden aan dat u uw domein overbrengt naar GoDaddy voor een snel en geautomatiseerd proces voor het instellen van Microsoft 365. 
   
 > [!NOTE]
 > Het duurt gewoonlijk maar een paar minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen vinden en oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
@@ -432,6 +432,6 @@ Op de website van uw DNS-host maakt u twee nieuwe SRV-records, meestal één voo
   
  Zie [Uw domein instellen (host-specifieke instructies)](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions?view=o365-worldwide), **als u hulp nodig hebt bij het toevoegen van de vereiste DNS-records**, moet u eerst [de informatie verzamelen die u nodig hebt om DNS-records voor Microsoft 365 te maken](../get-help-with-domains/information-for-dns-records.md). Gebruik vervolgens de algemene stappen in dit onderwerp om de DNS-records van uw domein in te stellen, zodat u uw domein kunt gebruiken met Microsoft 365-services, als e-mail.
   
- **Als u nog geen website gebruikt voor uw aangepaste domein**, kunt u Microsoft 365 DNS-records voor uw domein laten instellen en beheren in plaats van dat u het zelf doet. Meer informatie over de [twee opties voor het instellen en beheren van DNS-records voor een aangepast domein](https://support.office.com/article/5980474a-097f-4f21-a864-21245314957f.aspx) in Microsoft 365. 
+ **Als u nog geen website gebruikt voor uw aangepaste domein**, kunt u Microsoft 365 DNS-records voor uw domein laten instellen en beheren in plaats van dat u het zelf doet. Meer informatie over de [twee opties voor het instellen en beheren van DNS-records voor een aangepast domein](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) in Microsoft 365. 
   
 

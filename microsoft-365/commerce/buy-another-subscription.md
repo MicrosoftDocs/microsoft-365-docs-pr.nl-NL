@@ -22,14 +22,21 @@ search.appverid:
 ms.assetid: fab3b86c-3359-4042-8692-5d4dc7550b7c
 description: 'Meer informatie over het kopen van een ander Microsoft 365 voor Bedrijven-abonnement voor uw organisatie wanneer u al een abonnement hebt. '
 ms.custom: okr_SMB
-ms.openlocfilehash: fe07ea5bcb977b867fe02cc69706595f3ff5064e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 63dc9554d1783f81615e52a83ad338368d482e93
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634930"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141300"
 ---
 # <a name="buy-another-microsoft-365-for-business-subscription"></a>Koop een ander Microsoft 365 voor zakelijk abonnement
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Als u al een Microsoft 365 voor zakelijk abonnement hebt en u een ander abonnement voor uw organisatie wilt kopen, u dit het beste doen via het beheercentrum. Als u het eerste Microsoft 365 voor bedrijven-abonnement voor uw organisatie nog niet hebt gekocht, gaat u [hier](https://products.office.com/business/compare-office-365-for-business-plans) om een abonnement te kiezen.
   

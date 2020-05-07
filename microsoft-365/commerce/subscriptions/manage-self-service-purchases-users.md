@@ -14,14 +14,21 @@ ms.collection:
 search.appverid:
 - MET150
 description: Gebruikers kunnen leren hoe ze hun selfservice-aankopen kunnen beheren.
-ms.openlocfilehash: ed84bfc215d000eaa144aaf1f6eac281fc5a0c16
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 8f141f28c2f1241d19ed34ae234c3b122dd9d69c
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046166"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141122"
 ---
 # <a name="manage-self-service-purchases-users"></a>Selfservice-aankopen beheren (Gebruikers)
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Als gebruiker u abonnementen op bepaalde producten kopen en licenties voor die abonnementen toewijzen aan mensen in uw team. U bent verantwoordelijk voor het betalen van alle self-service aankopen die u doet. U uw abonnementen beheren in het Microsoft 365-beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com.</a>
 
