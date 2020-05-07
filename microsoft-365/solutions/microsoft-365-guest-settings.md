@@ -12,16 +12,17 @@ ms.collection:
 f1.keywords: NOCSH
 ms.custom:
 - M365solutions
+- seo-marvel-apr2020
 localization_priority: Priority
-description: Meer informatie over de beschikbare instellingen voor het delen met gasten in Microsoft 365.
-ms.openlocfilehash: 419fed11ec0eed5c49828a43510b3b396b9ec0f5
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+description: Meer informatie over de instellingen voor het delen met gasten in Microsoft 365 die van invloed kunnen zijn op het delen met personen buiten uw organisatie.
+ms.openlocfilehash: 39b768a8ec512d45e3de5d57e07dbbfdf9d148b3
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002226"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036774"
 ---
-# <a name="microsoft-365-guest-sharing-settings-reference"></a>Overzicht van instellingen voor delen met gasten in Microsoft 365
+# <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 guest sharing settings reference (Overzicht van de instellingen voor delen met gasten van Microsoft 365)
 
 In dit artikel vindt u een overzicht van de verschillende instellingen die van invloed kunnen zijn op het delen met personen buiten uw organisatie voor de Microsoft 365-workloads: Teams, Microsoft 365 Groepen, SharePoint en OneDrive. Deze instellingen bevinden zich in de beheercentra van Microsoft Azure Active Directory, Microsoft 365, Teams en SharePoint.
 

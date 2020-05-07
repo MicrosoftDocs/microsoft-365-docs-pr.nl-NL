@@ -21,14 +21,21 @@ search.appverid:
 - BEA160
 ms.assetid: 75533195-f1f6-4c2c-8ceb-0b5597790d7b
 description: Meer informatie over hoe u uw proefabonnement met nog eens 30 dagen verlengen.
-ms.openlocfilehash: a158f737b0606ec8b3ae451d92d312ea2969f176
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: e634c43c1d6399abc3a88438fe410f5a1a19361e
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045762"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141250"
 ---
 # <a name="extend-your-trial"></a>Uw proefabonnement verlengen
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Heeft u meer tijd nodig om de functies van Microsoft 365 voor bedrijven uit te proberen voordat u koopt? Als uw proefabonnement binnen vijftien dagen afloopt en het proefabonnement voor die datum nog niet is verlengd, kunt u het proefabonnement met dertig dagen verlengen. Dit is slechts één keer mogelijk.
 

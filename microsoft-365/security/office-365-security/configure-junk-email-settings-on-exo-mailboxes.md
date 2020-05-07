@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u de instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken. Veel van deze instellingen zijn beschikbaar voor gebruikers in de webversie van Outlook of Outlook.
-ms.openlocfilehash: 55597c45f093a5b9a0b860c6987454f926025e28
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: 20112e23ff8bb62b96bdba4e86725c8566af3444
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804790"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066191"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
 
@@ -90,12 +90,6 @@ Als u wilt controleren of u de regel voor ongewenste e-mail in een postvak hebt 
 
   ```PowerShell
   Get-MailboxJunkEmailConfiguration -Identity "<MailboxIdentity>" | Format-List Enabled
-  ```
-
-- Vervang _ \<PostvakIdentiteit\> _ door de naam, alias of e-mailadres van het postvak en voer de volgende opdracht uit om de **eigenschapswaarde Ingeschakeld** van de regel voor ongewenste e-mail te verifiëren.
-
-  ```PowerShell
-  Get-InboxRule "Junk E-mail Rule" -Mailbox "<MailboxIdentity>" -IncludeHidden
   ```
 
 ## <a name="use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox"></a>Exchange Online PowerShell gebruiken om de safelist-verzameling in een postvak te configureren

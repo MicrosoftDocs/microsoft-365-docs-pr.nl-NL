@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: e64ceac2-ae62-4d29-a9ee-6aab9870ae2b
 ROBOTS: NOINDEX
 description: Meer informatie over het maken van contactpersonen in het beheercentrum en het beheren van uw wereldwijde adreslijst.
-ms.openlocfilehash: fe402fd5d90147caa7c6ee2f3632749255c672b3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f8298713944bdb88c7fbcb31d4bd5a5738cb081b
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627918"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064743"
 ---
 # <a name="quick-help-contacts"></a>Snelle Help: Contactpersonen
 
@@ -41,7 +41,7 @@ Als u gedeelde contactpersonen nodig hebt die iedereen in uw organisatie kan kri
   
 ## <a name="how-are-these-contacts-different-from-my-contacts"></a>Waarin verschillen deze contactpersonen van Mijn Contactpersonen?
 
-Mijn contactpersonen zijn contactpersonen die u voor uzelf en uw gebruikers maakt, maar die anderen niet kunnen zien. De contactpersonen die u in het beheercentrum maakt, zijn contactpersonen voor de organisatie en iedereen kan ze naast hun eigen contactpersonen zien. Zie Overzicht Personen voor meer informatie [: Outlook Web App](https://support.office.com/article/5fe173cf-e620-4f62-9bf6-da5041f651bf.aspx).
+Mijn contactpersonen zijn contactpersonen die u voor uzelf en uw gebruikers maakt, maar die anderen niet kunnen zien. De contactpersonen die u in het beheercentrum maakt, zijn contactpersonen voor de organisatie en iedereen kan ze naast hun eigen contactpersonen zien. Zie Overzicht Personen voor meer informatie [: Outlook Web App](https://support.microsoft.com/en-us/office/people-overview-outlook-web-app-5fe173cf-e620-4f62-9bf6-da5041f651bf).
   
 ## <a name="how-does-everyone-get-to-the-contacts-i-created-in-the-admin-center"></a>Hoe krijgt iedereen toegang tot de contactpersonen die ik in het beheercentrum heb gemaakt?
 

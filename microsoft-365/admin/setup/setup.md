@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 6a3a29a0-e616-4713-99d1-15eda62d04fa
 description: Lees hoe u uw abonnement op Microsoft 365 Business Standard, Microsoft 365 Business Basic, Microsoft 365 Apps voor bedrijven of Office 365 education kunt instellen.
-ms.openlocfilehash: 448dc7ae990a4c9803ea751e4ad855f375195734
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 812d1a65986f53e53a02d4c1b70c823dffa98786
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627544"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053858"
 ---
 # <a name="set-up-microsoft-365-for-business"></a>Microsoft 365 voor bedrijven instellen
 
@@ -309,9 +309,9 @@ Zie [Aan de slag](../admin-overview/get-started-with-office-365.md) voor een ron
 
 ### <a name="get-ready-for-office-365"></a>Voorbereiden op Office 365
 
-- **Controleer eerst of u in aanmerking komt voor een onderwijsabonnement** Volg de stappen om [uw domein te verifiëren om het eigendom, de non-profit- of onderwijsstatus te bewijzen of om Yammer te activeren](https://support.office.com/article/87d1844e-aa47-4dc0-a61b-1b773fd4e590), zodat Microsoft u groen licht kan geven voor het gebruik van een onderwijsplan. Vervolgens kunt u Office 365 instellen voor uw school door de richtlijnen in dit artikel te volgen.
+- **Controleer eerst of u in aanmerking komt voor een onderwijsabonnement** Volg de stappen om [uw domein te verifiëren om het eigendom, de non-profit- of onderwijsstatus te bewijzen of om Yammer te activeren](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq), zodat Microsoft u groen licht kan geven voor het gebruik van een onderwijsplan. Vervolgens kunt u Office 365 instellen voor uw school door de richtlijnen in dit artikel te volgen.
 
-- **Hulp nodig?** Als u hulp nodig hebt bij een meer geavanceerde implementatie, is **[FastTrack](https://www.microsoft.com/en-us/fasttrack/microsoft-365/office-365)** een prima plek om te beginnen. U kunt ook [een partner zoeken](https://go.microsoft.com/fwlink/p/?linkid=391089) om u te helpen.
+- **Hulp nodig?** Als u hulp nodig hebt bij een meer geavanceerde implementatie, is **[FastTrack](https://www.microsoft.com/nl-NL/fasttrack/microsoft-365/office-365)** een prima plek om te beginnen. U kunt ook [een partner zoeken](https://go.microsoft.com/fwlink/p/?linkid=391089) om u te helpen.
 
 - **Plannen** Deze hulpmiddelen en bronnen helpen u uw netwerk, adreslijst en gebruikers voor te bereiden op Office 365: [Uw organisatie voorbereiden op Office 365 Enterprise](https://support.office.com/article/712fced7-f9d0-4fde-8b79-286262a5d0bc).
 

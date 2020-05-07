@@ -101,10 +101,8 @@
           href: sharepoint-online-onedrive-workload.md
         - name: Migratie
           href: migration-microsoft-365-enterprise-workload.md
-        - name: Externe werknemers empoweren
+        - name: Externe werknemers mogelijkheden bieden
           href: empower-people-to-work-remotely.md
-        - name: Teams voor sterk gereglementeerde gegevens
-          href: secure-teams-highly-regulated-data-scenario.md
         - name: SharePoint-sites voor sterk gereglementeerde gegevens
           href: teams-sharepoint-online-sites-highly-regulated-data.md
     - name: Testlabrichtlijnen

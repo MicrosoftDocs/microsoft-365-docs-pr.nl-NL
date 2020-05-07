@@ -12,12 +12,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, MKB, FAQ, veelgestelde vragen, antwoorden, zakelijk
 ms.date: 06/08/2018
-ms.openlocfilehash: e456719d393dc911a6f28455e530c90e8ab9ff5a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+ms.openlocfilehash: 68e085313b0344f9e48ddfa9124c1d2d7297ae45
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635079"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065830"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft 365 Business
 
@@ -48,7 +48,7 @@ Microsoft 365 is een geïntegreerde oplossing die de beste productiviteitstools,
 * Gestroomlijnde implementatie van pc's met Windows AutoPilot.
 
 **Overige toeslagen** 
-- Microsoft 365 Business Premium-klanten hebben ook toegang tot de functionaliteit van Windows Virtual Desktop en Office Shared Computer Activation. Lees de [Microsoft 365 Business Premium blog](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog) voor meer informatie. Zie ook de [servicebeschrijving van de Microsoft 365 voor bedrijven](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description).
+- Microsoft 365 Business Premium-klanten hebben ook toegang tot de functionaliteit van Windows Virtual Desktop en Office Shared Computer Activation. Lees de [Microsoft 365 Business Premium blog](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog) voor meer informatie. Zie ook de [beschrijving van de Microsoft 365 voor zakelijke service.](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)
 
 ### <a name="who-should-consider-adopting-microsoft-365-business-premium"></a>Wie zou moeten overwegen om Microsoft 365 Business Premium te gebruiken? 
 Microsoft 365 Business Premium is een uitgebreide, cloudgebaseerde beveiligingsoplossing waarmee u:  
@@ -85,7 +85,7 @@ De compatibiliteit van de bestaande desktop (Win32) -toepassingen met Windows 10
 ### <a name="what-is-windows-10-business"></a>Wat is Windows 10 Business? 
 Windows 10 Business is een set cloudservices en apparaatbeheerfuncties die een aanvulling vormt op Windows 10 Pro en die het centrale beheer en de besturingselementen voor beveiliging van Microsoft 365 Business Premium inschakelt.
 
-Windows 10 Business is ook verkrijgbaar met bepaalde premium Microsoft Defender-functies, zoals gecontroleerde maptoegang en netwerkbeveiliging voor webgebaseerde threads. Het bevat ook Windows AutoPilot, een service die de implementatie van nieuwe Windows 10 pc's stroomlijnt.
+Windows 10 Business wordt ook geleverd met bepaalde premium Microsoft Defender-functies, zoals Controlled Folder Access en Network Protection voor webgebaseerde bedreigingen. Het bevat ook Windows AutoPilot, een service die de implementatie van nieuwe Windows 10 pc's stroomlijnt.
 
 Als u apparaten hebt met een licentie voor Windows 7, 8 en 8.1 Professional, biedt Microsoft 365 Business Premium een upgrade naar Windows 10 Pro, wat een vereiste is voor de implementatie van Windows 10 Business.
 > [!IMPORTANT]
@@ -130,7 +130,7 @@ Klanten die de volledige mogelijkheden van Microsoft 365 Business Premium willen
 ## <a name="deployment"></a>Implementatie
 
 ### <a name="what-should-customers-consider-when-planning-a-microsoft-365-business-premium-deployment"></a>Waarop moeten klanten letten bij het plannen van een Microsoft 365 Business Premium-implementatie? 
-De eenvoudigste manier voor een succesvolle implementatie van Microsoft 365 Business Premium is door contact op te nemen met een Microsoft-partner. Ze hebben uitgebreide training en ervaring met een breed scala aan klantscenario's en zijn het best uitgerust om uw omgeving en behoeften te begrijpen. Klanten die ervaren IT-personeel hebben, kunnen <a href="https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364" target="_blank">Aan de slag met Microsoft 365 Business Premium</a> gebruiken om hen te helpen bij hun Microsoft 365 Business Premium-implementatie. 
+De eenvoudigste manier voor een succesvolle implementatie van Microsoft 365 Business Premium is door contact op te nemen met een Microsoft-partner. Ze hebben uitgebreide training en ervaring met een breed scala aan klantscenario's en zijn het best uitgerust om uw omgeving en behoeften te begrijpen. Klanten die ervaren IT-personeel hebben, kunnen <a href="https://docs.microsoft.com/microsoft-365/business/microsoft-365-business-overview" target="_blank">Aan de slag met Microsoft 365 Business Premium</a> gebruiken om hen te helpen bij hun Microsoft 365 Business Premium-implementatie. 
 
 ### <a name="does-microsoft-365-business-premium-include-the-full-capabilities-of-microsoft-intune"></a>Omvat Microsoft 365 Business Premium de volledige functionaliteit van Microsoft Intune? 
 Ja, Microsoft 365 Business Premium-abonnees hebben een licentie voor het volledige gebruik van Intune-mogelijkheden voor iOS, Android, MacOS en ander platformonafhankelijk apparaatbeheer. Functies die niet beschikbaar zijn in de vereenvoudigde beheerconsole in Microsoft 365 Business Premium, zoals app-beheer door derden en configuratie van WiFi-profielen en VPN-certificaten, kunnen worden beheerd in de volledige Intune-console. 

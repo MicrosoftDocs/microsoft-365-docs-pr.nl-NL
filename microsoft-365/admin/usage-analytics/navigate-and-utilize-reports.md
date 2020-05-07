@@ -19,14 +19,21 @@ search.appverid:
 - MOE150
 ms.assetid: 286fcf0b-ffc7-4593-8073-d7a4a5dd2b45
 description: Meer informatie over het weergeven van de rapporten met behulp van navigatietabbladen en filters.
-ms.openlocfilehash: 3abbd2362cb6216d5dd561c7792fa41588daac66
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: dedcaf52a2b5e69d53f8c41494b5fd68ac1f248b
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42805380"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140669"
 ---
 # <a name="navigate-and-utilize-the-reports-in-microsoft-365-usage-analytics"></a>Navigeren en de rapporten gebruiken in Microsoft 365 Gebruiksanalyse
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Het dashboard biedt een beknopt overzicht van de belangrijkste gebruiks- en acceptatiestatistieken. Door de statistieken op het hoogste niveau te selecteren, u rapporten openen met meer details en inzichten. Elk tabblad bevat gegevensvisualisaties die zijn toegespitst op een aspect van het gebruik en toepassing voor uw organisatie. De verzamelde gegevens worden uitgelegd in de titel van elk rapport en er verschijnt een tegel met meer informatie over de visualisaties op het rapporttabblad dat u bekijkt.
 

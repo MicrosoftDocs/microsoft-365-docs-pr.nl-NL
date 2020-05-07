@@ -16,12 +16,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Aan de slag met geautomatiseerde onderzoeks- en reactiemogelijkheden in Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: b9811963210f253bbfe90af02dd6d38926776a62
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: cb65b5a7f0b12ff977c0e8bd92912b8f741a2281
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033948"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141545"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Aan de slag met Automated Investigation and Response (AIR) in Office 365
 
@@ -93,6 +93,13 @@ Machtigingen worden verleend via bepaalde rollen, zoals die welke worden beschre
 |--|--|
 |Air-functies instellen |Een van de volgende rollen: <br/>- Globale beheerder<br/>- Beveiligingsbeheerder <br/>Deze rollen kunnen worden toegewezen in [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) of in het Security & Compliance [Center](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
 |Aanbevolen acties goedkeuren of afwijzen|Een van de volgende rollen, toegewezen in [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) of in het Security & Compliance [Center):](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)<br/>- Globale beheerder <br/>- Beveiligingsbeheerder<br/>- Beveiligingslezer <br/>--- en ---<br/>- Zoeken en verwijderen (deze rol wordt alleen toegewezen in het [Security & Compliance Center](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Mogelijk moet u daar een nieuwe rolgroep maken en de rol Zoeken en verwijderen toevoegen aan die nieuwe rolgroep.)
+
+[Office 365 ATP Plan 2-licenties](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) moeten worden toegewezen aan:
+- Beveiligingsbeheerders (inclusief globale beheerders)
+- Het beveiligingsteam van uw organisatie (inclusief beveiligingslezers en mensen met de rol Zoeken en verwijderen)
+- Eindgebruikers
+
+Bovendien moet [het Office 365 ATP-beleid](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) worden gedefinieerd en toegepast om bescherming te kunnen bieden.
 
 ## <a name="next-steps"></a>Volgende stappen
 

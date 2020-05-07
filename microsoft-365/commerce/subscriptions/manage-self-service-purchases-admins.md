@@ -14,14 +14,21 @@ ms.collection:
 search.appverid:
 - MET150
 description: Beheerders kunnen leren hoe ze selfservice-aankopen kunnen beheren die door gebruikers in hun organisatie worden gedaan.
-ms.openlocfilehash: 7074a829bed3e65a160a9a33afb4f2b130f6c8d1
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 991dc87c40f41a6cbd2f1c08d4bc72bbb34d28f1
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046178"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141148"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Selfservice-aankopen beheren (Beheerders)
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Als beheerder u selfservice-aankopen zien die door mensen in uw organisatie zijn gedaan. U het product, de naam van de koper, de gekochte abonnementen, de vervaldatum, de aankoopprijs en toegewezen gebruikers voor elke selfserviceaankoop bekijken. Indien nodig voor uw organisatie, u self-service inkoop per product via PowerShell uitschakelen. U hebt hetzelfde beleid voor gegevensbeheer en -toegang ten opzichte van producten die zijn gekocht via selfservice-aankoop of centraal.
 

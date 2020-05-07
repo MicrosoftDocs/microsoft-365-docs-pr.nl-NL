@@ -1,5 +1,5 @@
 ---
-title: Een Microsoft 365-abonnement uitproberen of kopen
+title: Koop een Microsoft 365-abonnement of probeer er een uit
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -19,14 +19,21 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: Meer informatie over het krijgen van een gratis proefversie of het kopen van een abonnement voor Microsoft 365.
-ms.openlocfilehash: 255cd1779f3fb29a619110160faefdd3d5369eca
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 19529192e2fa48ac081a84e9ad54669c3ef16791
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707533"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141052"
 ---
-# <a name="try-or-buy-a-microsoft-365-subscription"></a>Een Microsoft 365-abonnement uitproberen of kopen
+# <a name="try-or-buy-a-microsoft-365-subscription"></a>Koop een Microsoft 365-abonnement of probeer er een uit
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Microsoft 365 is een complete oplossing die Office 365 en Windows 10 combineert met geavanceerd beveiligings- en apparaatbeheer. Als u al een abonnement hebt en u een Microsoft 365-abonnement wilt proefversien of kopen, u dit het beste doen via het beheercentrum. De volgende Microsoft 365-abonnementen zijn beschikbaar in het beheercentrum om nu te proberen of te kopen:
   
@@ -38,7 +45,7 @@ Microsoft 365 is een complete oplossing die Office 365 en Windows 10 combineert 
 
 Wanneer u een abonnement toevoegt via het beheercentrum, wordt het nieuwe abonnement gekoppeld aan dezelfde organisatie (domeinnaamruimte) als uw bestaande abonnement. Dit maakt het eenvoudiger om gebruikers in uw organisatie tussen abonnementen te verplaatsen of om hen een licentie toe te wijzen voor het aanvullende abonnement dat ze nodig hebben.
   
-## <a name="try-or-buy-a-microsoft-365-subscription"></a>Een Microsoft 365-abonnement uitproberen of kopen
+## <a name="try-or-buy-a-microsoft-365-subscription"></a>Koop een Microsoft 365-abonnement of probeer er een uit
 
 ::: moniker range="o365-worldwide"
 

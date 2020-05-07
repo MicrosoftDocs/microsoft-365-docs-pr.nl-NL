@@ -23,15 +23,21 @@ search.appverid:
 - BEA160
 - GEA150
 description: Meer informatie over het upgraden naar een nieuw abonnement.
-monikerRange: o365-worldwide
-ms.openlocfilehash: 7739da2d56fa0d37dd64b22b2959ad6dca198e75
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: b0f79233e6a05c2838026093bb0027cd4789b01b
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046214"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141064"
 ---
-# <a name="upgrade-to-a-different-plan"></a>Upgraden naar een ander abonnement 
+# <a name="upgrade-to-a-different-plan"></a>Upgraden naar een ander abonnement
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Wanneer uw bedrijf verandert of meer functies nodig hebt, u plannen upgraden. De eenvoudigste manier om dit te doen is door het tabblad **Upgrade** in het beheercentrum te gebruiken. Het gebruik **van** het tabblad Upgrade wordt echter niet in alle situaties ondersteund. In sommige gevallen u plannen mogelijk handmatig wijzigen.
 
