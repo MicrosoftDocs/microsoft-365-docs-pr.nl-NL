@@ -18,14 +18,22 @@ search.appverid:
 - MET150
 description: Meer informatie over hoe factureringsprofielen facturen ondersteunen.
 keywords: factureringsprofiel, facturen, kosten, beheerde kosten
-ms.openlocfilehash: c9bd089843bcb620dc3feb8ec3e8f946cd739d17
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: f93ca5af11ba416fecd13fcceffe75055a776553
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42812796"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140888"
 ---
 # <a name="manage-billing-profiles"></a>Factureringsprofielen beheren
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
+
 Voor commerciële klanten die producten en services van Microsoft kopen, u met factureringsprofielen aanpassen welke artikelen op uw factuur zijn opgenomen en hoe u uw facturen betaalt.
 
 Factureringsprofielen bevatten de volgende informatie:
@@ -53,7 +61,7 @@ Rollen in factureringsprofielen hebben machtigingen om aankopen te beheren en fa
 
 ## <a name="view-billing-profiles"></a>Factureringsprofielen weergeven
 
-1. Ga in het Beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Facturen en betalingen</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Facturen en betalingen</a>.
 
 2. Kies **Factureringsprofielen**en kies vervolgens een factureringsprofiel in de lijst.
 

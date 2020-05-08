@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: d7138188-086e-4a54-a155-11fa953c3930
 ROBOTS: NOINDEX
 description: Meer informatie over het activeren, verlengen of toevoegen van licenties aan een Microsoft 365 voor Bedrijven-abonnement.
-ms.openlocfilehash: da4e42ae2dadec8d376b9ef8d12c6d4cb4fe7af5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0f8233613f7929dad37167e7237be335d4e8f567
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636450"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165124"
 ---
 # <a name="enter-your-product-key-purchased-from-microsoft-open"></a>Voer uw productcode in die is aangeschaft bij Microsoft Open
 
@@ -63,7 +63,7 @@ Als u nieuw bent bij Microsoft 365 voor bedrijven, leest u hoe u [Microsoft 365 
 
 Bekijk deze lijst met veelvoorkomende fouten en oplossingen: [Problemen met uw productcode?](product-key-errors-and-solutions.md)
   
-Partners: raadpleeg [Partners: het abonnement van een klant instellen met een productcode](https://support.office.com/article/cf22c50f-95c9-4fa2-b959-c264de256d40.aspx).
+Partners: raadpleeg [Partners: het abonnement van een klant instellen met een productcode](https://support.microsoft.com/en-us/office/partners-use-a-product-key-to-set-up-a-customer-subscription-cf22c50f-95c9-4fa2-b959-c264de256d40).
   
 Klanten met een volumelicentie kunnen naar [Training en bronnen van Microsoft Volume Licensing Service Center](https://go.microsoft.com/fwlink/p/?LinkId=618103) gaan voor meer informatie.
   

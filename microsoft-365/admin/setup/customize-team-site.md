@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
 description: In dit artikel leert u hoe u uw teamsite aanpassen, ordenen en beheren voor bestandsopslag en -delen.
-ms.openlocfilehash: 1830cd3df75ee80f25ff0ca3147d4491103102e4
-ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
+ms.openlocfilehash: 465cd3781fb5023fa6a1c943b41fa7802d7b4a45
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44155279"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165105"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>Uw teamsite aanpassen voor het opslaan en delen van bestanden
 
@@ -77,7 +77,7 @@ Voor informatie over het toevoegen van kolommen aan lijsten raadpleegt u [Een ko
   
 Zie Grote lijsten en bibliotheken in SharePoint beheren als u veel gegevens in een lijst [opslaat.](https://support.office.com/article/B8588DAE-9387-48C2-9248-C24122F07C59.aspx)
   
-Een video weergeven over het toevoegen van agenda's aan uw site, zie [Een gedeelde agenda maken](https://support.office.com/article/61B96006-70E2-4535-A34F-EE4FC772F798.aspx).
+Een video weergeven over het toevoegen van agenda's aan uw site, zie [Een gedeelde agenda maken](https://support.microsoft.com/en-us/office/video-create-a-shared-calendar-in-office-365-61b96006-70e2-4535-a34f-ee4fc772f798).
 
 ## <a name="organize-sites-into-hubs"></a>Sites ordenen in hubs
 
@@ -87,7 +87,7 @@ Met hubsites kunt u sites toevoegen en koppelen. Raadpleeg voor meer informatie 
   
 Als u klaar bent om een hubsite te maken, raadpleegt u [Een hubsite maken in SharePoint Online](/sharepoint/create-hub-site).
   
-Raadpleeg [Een SharePoint-site koppelen aan een hubsite](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05.aspx) om te leren hoe u sites toevoegt aan een hubsite,
+Raadpleeg [Een SharePoint-site koppelen aan een hubsite](https://support.microsoft.com/en-us/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05) om te leren hoe u sites toevoegt aan een hubsite,
   
 ## <a name="sharing-files-with-the-team"></a>Bestanden delen met het team
 
@@ -115,7 +115,7 @@ Meer informatie over het omgaan met toegangsaanvragen met [Toegangsaanvragen ins
     
   - [Office installeren en instellen op een iPhone of iPad met Microsoft 365](https://support.office.com/article/9df6d10c-7281-4671-8666-6ca8e339b628.aspx)
     
-  - [Office instellen op Windows Phone met Microsoft 365](https://support.office.com/article/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7.aspx)
+  - [Office instellen op Windows Phone met Microsoft 365](https://support.microsoft.com/en-us/office/set-up-office-mobile-apps-on-a-windows-mobile-device-2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7)
     
 - [Meer informatie over het gebruik van OneDrive](https://go.microsoft.com/fwlink/?LinkID=511458).
     
