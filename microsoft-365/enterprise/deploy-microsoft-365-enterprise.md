@@ -13,14 +13,14 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
-ms.custom: ''
-description: Inzicht in de resources die u kunt gebruiken voor de implementatie van Microsoft 365 voor ondernemingen in uw organisatie.
-ms.openlocfilehash: b37e7fa844a27596904e5684c5692c0193c35513
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.custom: seo-marvel-apr2020
+description: Meer informatie over de verschillende resources die u kunt gebruiken voor de implementatie van Microsoft 365 voor ondernemingen in uw organisatie.
+ms.openlocfilehash: 0e588816cb2393af05b48900821d7aae92b6853d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002353"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031424"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>Microsoft 365 voor ondernemingen implementeren
 
@@ -117,7 +117,7 @@ Voor elke leider die een moderne werkplek wil realiseren, is het definiëren van
 
 Met intelligente beveiligingsfuncties en productintegratie kunt u daarbij ook nog de behoeften van het management en de totale eigendomskosten voor de IT-levensduur tot een minimum beperken. 
 
-Lees hoe Core Services Engineering and Operations (voorheen Microsoft IT) een [moderne werkplek heeft gebouwd met Microsoft 365](https://www.microsoft.com/en-us/itshowcase/microsoft-365).
+Lees hoe Core Services Engineering and Operations (voorheen Microsoft IT) een [moderne werkplek heeft gebouwd met Microsoft 365](https://www.microsoft.com/nl-NL/itshowcase/microsoft-365).
 
 > [!Note]
 > Deze webpagina is alleen beschikbaar in het Engels.

@@ -14,15 +14,15 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-ms.custom:
 - M365solutions
+ms.custom: ''
 description: Configureer de beveiliging en infrastructuur waardoor uw werknemers altijd en overal op afstand kunnen werken.
-ms.openlocfilehash: 5f22930a4c8d207e32c5379733ec77c637f3f581
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 5c2de3fbb174bdf1dccc8ef8371dca1ae1bfddf0
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002727"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159393"
 ---
 # <a name="configure-a-team-with-security-isolation-in-a-devtest-environment"></a>Een team configureren met beveiligingsisolatie in een ontwikkel-/testomgeving
 
@@ -121,7 +121,7 @@ Schakel eerst gevoeligheidslabels in om de inhoud van Microsoft Teams, Office 36
 Maak nu het team:
 
 1. Klik links in Teams op **Teams** en klik onderaan de lijst met teams op **Deelnemen aan een team of een team maken**.
-2. Klik op **team maken** (eerste kaart, linkerbovenhoek).
+2. Klik op **Team maken** (eerste kaart, linkerbovenhoek).
 3. Kies **Een volledig nieuw team maken**.
 4. Behoudt in de lijst **gevoeligheid** de standaardwaarde.
 5. Klik onder **privacy** op **persoonlijk**.
@@ -136,7 +136,7 @@ U moet nu een gevoeligheidslabel configureren met de volgende instellingen:
 Volg deze stappen:
 
 1. Open het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com).
-2. Klik onder **Oplossingen**op **informatiebeveiliging**.
+2. Klik onder **Oplossingen**op **Informatiebeveiliging**.
 3. Klik op **een label maken**.
 4. Typ **Bedrijfsstrategie** als labelnaam.
 5. Typ **Documenten bedrijfsstrategie voor senior management** als knopinfo en klik vervolgens op **Volgende**.

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Bescherm uw zakelijke e-mail en gegevens tegen cyberbedreigingen, waaronder ransomware, phishing en schadelijke bijlagen. '
-ms.openlocfilehash: 5d0a006c13d7149afe39466da49e21579b4195f7
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 119329289a9c19c2256cf112e82289b55cf9ce07
+ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140823"
+ms.locfileid: "44155431"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 manieren om Microsoft 365 te beveiligen voor bedrijfsabonnementen
 
@@ -97,7 +97,7 @@ Naast deze richtlijnen raadt Microsoft uw gebruikers aan de in dit artikel besch
     
 Microsoft raadt gebruikers ook aan hun persoonlijke e-mailaccounts te beschermen door de in de volgende artikelen aanbevolen acties uit te voeren:
   
-- [Uw Outlook.com e-mailaccount beschermen](https://support.office.com/article/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba.aspx)
+- [Uw Outlook.com e-mailaccount beschermen](https://support.microsoft.com/en-us/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
     
 - [Bescherm je Gmail-account met verificatie in twee stappen](https://go.microsoft.com/fwlink/?linkid=2015688&amp;clcid=0x409)
     
@@ -229,7 +229,7 @@ Als de ontvanger Outlook 2013 of Outlook 2016 en een Microsoft-e-mailaccount hee
   
 Als de ontvanger een andere e-mailclient of e-mailaccount gebruikt, zoals Gmail of Yahoo, ziet hij of zij een koppeling waarmee hij zich kan aanmelden om het e-mailbericht te lezen of een eenmalige toegangscode kan aanvragen om het bericht in een webbrowser te bekijken. Als gebruikers de e-mail niet ontvangen, laat ze dan hun spam- of ongewenste e-map controleren. 
   
-Zie [Versleutelde berichten verzenden, weergeven en beantwoorden in Outlook voor pc voor](https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980.aspx)meer informatie.
+Zie [Versleutelde berichten verzenden, weergeven en beantwoorden in Outlook voor pc voor](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)meer informatie.
   
 ## <a name="8-protect-your-email-from-phishing-attacks"></a>8. Bescherm uw e-mail tegen phishing-aanvallen
 <a name="phishing"> </a>

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: 'Leer een privépostvak converteren naar een gedeeld postvak dat door meerdere gebruikers kan worden geopend. '
-ms.openlocfilehash: 7e652dc77218be44caa56515e4b21efb692cbaa3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 51817001b02c1dd5dd0e82f5795ef1a3f66bf7c7
+ms.sourcegitcommit: 9ffa2fd25776726475e10148940987fa076bbd91
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628889"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44162696"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>Het postvak van een gebruiker converteren naar een gedeeld postvak
 
@@ -48,7 +48,7 @@ Wanneer u het postvak van een gebruiker converteert naar een gedeeld postvak, bl
 
 3. Selecteer het gebruikerspostvak. Selecteer **Onder Converteren naar gedeeld postvak**de optie **Converteren**.
 
-4. Als het postvak kleiner is dan 50 GB, kunt u de [licentie van de gebruiker](../manage/remove-licenses-from-users.md) verwijderen zodat u er niet meer voor hoeft te betalen. Verwijder het oude postvak van de gebruiker niet. Het gedeelde postvak moet blijven bestaan als anker. Als u het postvak converteert van een werknemer die uw organisatie verlaat, moet u aanvullende stappen ondernemen om ervoor te zorgen dat deze niet meer kan inloggen. Zie [Een voormalige werknemer verwijderen van Microsoft 365](../add-users/remove-former-employee.md).
+4. Als het postvak kleiner is dan 50 GB, kunt u de [licentie van de gebruiker](../manage/remove-licenses-from-users.md) verwijderen zodat u er niet meer voor hoeft te betalen. Verwijder het account van de gebruiker niet. Het gedeelde postvak moet blijven bestaan als anker. Als u het postvak converteert van een werknemer die uw organisatie verlaat, moet u aanvullende stappen ondernemen om ervoor te zorgen dat deze niet meer kan inloggen. Zie [Een voormalige werknemer verwijderen van Microsoft 365](../add-users/remove-former-employee.md).
     
 5. Zie Over gedeelde postvakken en [Een gedeeld postvak maken](create-a-shared-mailbox.md)voor alles wat u moet weten over gedeelde [postvakken.](about-shared-mailboxes.md)
 

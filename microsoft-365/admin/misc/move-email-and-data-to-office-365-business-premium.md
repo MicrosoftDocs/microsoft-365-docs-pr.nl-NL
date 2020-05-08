@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 1062115d-e312-482a-bb5a-765235990f41
 ROBOTS: NOINDEX
 description: Leer gegevens over te zetten naar uw nieuwe bedrijfsidentiteit.
-ms.openlocfilehash: 674b5e1fc8128656733b9586d9bab607df621954
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 64db403b27d661fe812acd209ca6ed8e95961125
+ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627834"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44155360"
 ---
 # <a name="move-email-and-data-to-microsoft-365-business-standard"></a>E-mail en gegevens verplaatsen naar Microsoft 365 Business Standard
 
@@ -61,14 +61,14 @@ Als u sommige van uw persoonlijke gegevens wilt overbrengen naar uw nieuwe bedri
 ## <a name="outlookemail"></a>[Outlook/E-mail](#tab/Outlook)
   
  **Gegevens van Outlook 2013 naar een Outlook-gegevensbestand exporteren**
-1. Voordat u uw Outlook-gegevensbestand (.pst) kunt maken, moet het account waaruit u Outlook-gegevens wilt exporteren al zijn toegevoegd aan de bureaubladversie van Outlook. Zie [E-mail instellen in Outlook (voor Windows)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) of [E-mail instellen in Outlook voor Mac 2011](https://support.office.com/article/d7b404a0-6e18-4d95-bed8-2de7661563ca.aspx) voor informatie over het toevoegen van een account aan Outlook 2013 of hoger.
+1. Voordat u uw Outlook-gegevensbestand (.pst) kunt maken, moet het account waaruit u Outlook-gegevens wilt exporteren al zijn toegevoegd aan de bureaubladversie van Outlook. Zie [E-mail instellen in Outlook (voor Windows)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) of [E-mail instellen in Outlook voor Mac 2011](https://support.microsoft.com/en-us/office/set-up-email-in-mac-os-x-mail-de372dc4-9648-4044-a76c-e8a60e178d54) voor informatie over het toevoegen van een account aan Outlook 2013 of hoger.
     
 2. Elke gebruiker moet de stappen in deze procedure uitvoeren: [Een back-up maken van e-mailberichten, contactpersonen en agenda in een PST-bestand van Outlook of deze naar een PST-bestand exporteren](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
     
  **Uw nieuwe e-mailaccount instellen in Outlook**
 1. Elke gebruiker moet zijn nieuwe e-mailaccount instellen dat bij het Microsoft 365 voor zakelijk abonnement is geleverd. Hiervoor hebben ze het adres van hun nieuwe e-mailaccount nodig. Het e-mailaccount van elke gebruiker is hetzelfde als de gebruikersnaam die hij gebruikt om zich aan te melden bij Microsoft 365 voor bedrijven. Dat ziet er ongeveer uit als sue@contoso.onmicrosoft.com of david@contoso.com.
     
-2. Vraag gebruikers hun e-mailaccount toe te voegen aan Outlook. Zie [E-mail instellen in Outlook (voor Windows)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) of [E-mail instellen in Outlook voor Mac 2011](https://support.office.com/article/d7b404a0-6e18-4d95-bed8-2de7661563ca.aspx) voor meer informatie.
+2. Vraag gebruikers hun e-mailaccount toe te voegen aan Outlook. Zie [E-mail instellen in Outlook (voor Windows)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) of [E-mail instellen in Outlook voor Mac 2011](https://support.microsoft.com/en-us/office/set-up-email-in-mac-os-x-mail-de372dc4-9648-4044-a76c-e8a60e178d54) voor meer informatie.
     
  **Gegevens importeren uit het Outlook-gegevensbestand**
 1. Hiermee worden de e-mail, agenda, taken en contactpersonen die in het PST-bestand zijn opgeslagen, samengevoegd tot uw Microsoft 365 voor zakelijke e-mailaccount.

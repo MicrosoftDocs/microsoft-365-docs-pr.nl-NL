@@ -27,12 +27,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: Meer informatie over het gebruik van OneDrive en een teamsite voor bestandsopslag en -delen.
-ms.openlocfilehash: 56057bc33adaf92a415c443bfb7bf89c10f8d646
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 98fc168e42fea50ae21914d5f44e403ae459c1d9
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627556"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165215"
 ---
 # <a name="set-up-file-storage-and-sharing"></a>Bestandsopslag en -deling instellen
 
@@ -63,7 +63,7 @@ Hier volgen aanbevelingen voor wat u op elke locatie moet opslaan wanneer u OneD
 |**SharePoint-teamsites** <br/> |Samenwerking. Wanneer u een Microsoft 365-groep maakt (bijvoorbeeld in het Microsoft 365-beheercentrum, in Outlook of door een team in Microsoft Teams te maken), wordt een SharePoint-teamsite voor die groep gemaakt. Wanneer u een nieuwe SharePoint-teamsite maakt vanaf de startpagina van SharePoint of vanuit het nieuwe SharePoint-beheercentrum, wordt er ook een Microsoft 365-groep gemaakt. Zie [Wat is een SharePoint-teamsite voor](https://support.office.com/article/75545757-36c3-46a7-beed-0aaa74f0401e.aspx) meer informatie en Een [teamsite maken in SharePoint Online](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d.aspx).  <br/> |Bestanden die het eigendom hebben gedeeld. We raden afzonderlijke teamsites aan voor elke eenheid werk in uw organisatie. Als u bijvoorbeeld personeel en financiële documenten privé wilt houden voor een klein team, maakt u een aparte teamsite.  <br/> |
 
 > [!NOTE]
-> SharePoint heeft ook andere soorten sites die u voor uw bedrijf gebruiken. U [communicatiesites](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb.aspx) in uw intranet gebruiken om informatie te publiceren voor een breed publiek. En u [hubsites](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f.aspx) gebruiken om sites in uw intranet met elkaar te verbinden.
+> SharePoint heeft ook andere soorten sites die u voor uw bedrijf gebruiken. U [communicatiesites](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-online-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb) in uw intranet gebruiken om informatie te publiceren voor een breed publiek. En u [hubsites](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f.aspx) gebruiken om sites in uw intranet met elkaar te verbinden.
   
 ## <a name="start-using-onedrive-and-your-team-site"></a>OneDrive en uw teamsite gebruiken
 
@@ -201,4 +201,4 @@ U opslag van derden inschakelen voor uw gebruikers in Microsoft 365, zodat ze do
 
   - [Office installeren en instellen op een iPhone of iPad met Microsoft 365](https://support.office.com/article/9df6d10c-7281-4671-8666-6ca8e339b628.aspx)
 
-  - [Office instellen op Windows Phone met Microsoft 365](https://support.office.com/article/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7.aspx)
+  - [Office instellen op Windows Phone met Microsoft 365](https://support.microsoft.com/en-us/office/set-up-office-mobile-apps-on-a-windows-mobile-device-2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7)

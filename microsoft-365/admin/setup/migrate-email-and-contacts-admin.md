@@ -26,12 +26,12 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: "Meer informatie over het importeren van contactpersonen, agenda's, e-mails van Gmail of een andere e-mailprovider naar Microsoft 365. "
-ms.openlocfilehash: ff81eed73a4bf5d7e58316e61212fd799de6d11c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3200ee91e4ca01fb946cbb045805a213958be000
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627580"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165153"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>E-mail en contactpersonen migreren naar Microsoft 365
 
@@ -87,6 +87,6 @@ Meer gedetailleerde stappen nodig? Zie [Een account toevoegen](https://support.o
   
 ## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-microsoft-365"></a>Meerdere postvakken: beheerders kunnen e-mail, contactpersonen en agenda's in bulk importeren naar Microsoft 365
 
-Afhankelijk van uw brone-mailsysteem u kiezen uit verschillende bulkmigratiemethoden. Lees [Manieren om meerdere e-mailaccounts te migreren naar Microsoft 365](https://support.office.com/article/0a4913fe-60fb-498f-9155-a86516418842) om te bepalen welke methode voor u werkt. 
+Afhankelijk van uw brone-mailsysteem u kiezen uit verschillende bulkmigratiemethoden. Lees [Manieren om meerdere e-mailaccounts te migreren naar Microsoft 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration) om te bepalen welke methode voor u werkt. 
   
 
