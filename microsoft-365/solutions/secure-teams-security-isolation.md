@@ -10,16 +10,16 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
+- M365solutions
 ms.custom:
 - Ent_Solutions
-- M365solutions
 description: Informatie over het maken van een team met een uniek gevoeligheidslabel voor beveiliging.
-ms.openlocfilehash: cfb05bdfe791289cef7af480397802a3e11271a1
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 3af0826e925f2592aaae930200c0f7b8b9865be1
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002706"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160061"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Een team configureren met beveiligingsisolatie
 
@@ -65,7 +65,7 @@ Aangezien we specifiek een gevoeligheidslabel voor dit team maken, is de volgend
 
 Een team maken voor vertrouwelijke informatie
 1. Klik links in Teams op **Teams** en klik onderaan de lijst met teams op **Deelnemen aan een team of een team maken**.
-2. Klik op **team maken** (eerste kaart, linkerbovenhoek).
+2. Klik op **Team maken** (eerste kaart, linkerbovenhoek).
 3. Kies **Een volledig nieuw team maken**.
 4. Behoudt in de lijst **gevoeligheid** de standaardwaarde.
 5. Klik onder **privacy**op **persoonlijk**.
@@ -78,8 +78,8 @@ Een team maken voor vertrouwelijke informatie
 U wordt aangeraden het maken van persoonlijke kanalen tot teameigenaren te beperken.
 
 Het maken van een persoonlijk kanaal beperken
-1. In het team klikt u op **meer opties**en klikt u vervolgens op **team beheren**.
-2. Vouw op het tabblad **Instellingen** de optie ** machtigingen voor leden** uit.
+1. In het team klikt u op **Meer opties**en klikt u vervolgens op **Team beheren**.
+2. Vouw op het tabblad **Instellingen** de optie **Machtigingen voor leden** uit.
 3. Schakel het selectievakje **Leden toestaan privékanalen te maken** uit.
 
 U kunt ook [teambeleid](https://docs.microsoft.com/MicrosoftTeams/teams-policies) gebruiken om te bepalen wie persoonlijke kanalen kan maken.
@@ -92,37 +92,37 @@ Als u een interne partner- of stakeholdergroep heeft die versleutelde documenten
 
 Een gevoeligheidslabel maken
 1. Open het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com).
-2. Klik onder **Oplossingen**op **informatiebeveiliging**.
+2. Klik onder **Oplossingen**op **Informatiebeveiliging**.
 3. Klik op **een label maken**.
 4. Typ een naam voor het label dat vergelijkbaar is met de naam van uw team. Bijvoorbeeld **zeer gevoelig - Project Saturnus**.
 5. Voeg een knopinfo toe en klik vervolgens op **volgende**.
 6. Kies op de pagina **versleuteling** in de vervolgkeuzelijst **versleuteling** de optie **toepassen**.
-7. Om teammachtigingen toe te voegen:<br>
-  a. Klik op **machtigingen toewijzen**.<br>
+7. Teammachtigingen toevoegen:<br>
+  a. Klik op **Machtigingen toewijzen**.<br>
   b. Klik op **gebruikers of groepen toevoegen**Selecteer het team dat u hebt gemaakt en klik vervolgens op **toevoegen.**<br>
-  c. Klik op **machtigingen kiezen**.<br>
+  c. Klik op **Machtigingen kiezen**.<br>
   d. Kies **co-auteurs** in de vervolgkeuzelijst en klik vervolgens op **opslaan**.<br>
 8. Als u gebruikers of groepen wilt opnemen met alleen-lezen toegang tot bestanden met het label:<br>
-  a. Klik op **machtigingen toewijzen**.<br>
+  a. Klik op **Machtigingen toewijzen**.<br>
   b. Klik op **gebruikers of groepen toevoegen**, selecteer het team dat u hebt gemaakt en klik vervolgens op **toevoegen**.<br>
-  c. Klik op **machtigingen kiezen**.<br>
+  c. Klik op **Machtigingen kiezen**.<br>
   d. Kies **Viewer** in de vervolgkeuzelijst en klik vervolgens op **opslaan**.<br>
   e. Klik op **Opslaan**.
 9. Klik op **Volgende**.
 10. Schakel op de pagina **inhoudsmarkering** de optie inhoudsmarkering in als u automatisch een koptekst, voettekst of watermerk wilt toevoegen aan bestanden die met dit label worden geclassificeerd.
 11. Stel op de pagina **Site- en groepsinstellingen** de **Site- en groepsinstellingen** in op **Aan**.
-12. Klik in de vervolgkeuzelijst **privacy van Office 365 met de groep verbonden teamsites** op **privé - alleen leden hebben toegang tot de site**.
-13. Als u gasttoegang wilt toestaan, selecteert u het selectievakje **laat groepseigenaren van Office 365 gebruikers buiten de organisatie toevoegen aan de groep**. 
-14. Kies onder **niet-beheerde apparaten** de optie **toegang blokkeren**.
+12. Klik in de vervolgkeuzelijst **Privacy van Office 365 met de groep verbonden teamsites** op **Privé - alleen leden hebben toegang tot de site**.
+13. Als u gasttoegang wilt toestaan, selecteert u het selectievakje **Laat groepseigenaren van Office 365 gebruikers buiten de organisatie toevoegen aan de groep**. 
+14. Kies onder **Niet-beheerde apparaten** de optie **Toegang blokkeren**.
 15. Klik op **Volgende**.
-16. Klik op de pagina **automatische labeling voor Office-apps** op **volgende**.
+16. Klik op de pagina **Automatische labeling voor Office-apps** op **Volgende**.
 17. Klik op **Verzenden** en klik vervolgens op **Gereed**.
 
 Nadat u het label heeft gemaakt, moet u het publiceren voor de gebruikers die het zullen gebruiken. In dit geval maken we het label alleen beschikbaar voor personen in het team.
 
 Een gevoeligheidslabel publiceren
 1. Kies in het Microsoft 365-compliancecentrum op de pagina **Informatiebeveiliging** het tabblad **Labelbeleid**.
-2. Klik op **labels publiceren**.
+2. Klik op **Labels publiceren**.
 3. Klik op de pagina **Kies gevoeligheidslabels om te publiceren** op **Kies gevoeligheidslabels om te publiceren**.
 4. Selecteer het label dat u hebt gemaakt en klik vervolgens op **toevoegen**.
 5. Klik op **Volgende**.
@@ -140,7 +140,7 @@ Zodra het label is gepubliceerd, moet u het op het team toepassen om de instelli
 
 Het gevoeligheidslabel toepassen
 1. Open het [SharePoint-beheercentrum](https://admin.microsoft.com/sharepoint).
-2. Klik onder **sites**op **actieve sites**.
+2. Klik onder **Sites** op **Actieve sites**.
 3. Klik op de site die is gekoppeld aan het team.
 4. Klik op het tabblad **beleid** onder **gevoeligheid**op **bewerken**.
 5. Selecteer het label dat u hebt gemaakt en klik vervolgens op **opslaan**.
@@ -166,11 +166,11 @@ We zullen ook het standaard koppelingstype voor delen bijwerken om het risico te
 
 Site-instellingen bijwerken
 1. Open het [SharePoint-beheercentrum](https://admin.microsoft.com/sharepoint).
-2. Klik onder **sites**op **actieve sites**.
+2. Klik onder **Sites** op **Actieve sites**.
 3. Klik op de site die is gekoppeld aan het team.
 4. Klik op het tabblad **Beleid** onder **Extern delen** op **Bewerken**.
 5. Als u de functie delen met gasten hebt toegestaan tijdens het maken van het gevoelige label, moet u ervoor zorgen dat **nieuwe en bestaande gasten** is geselecteerd. Als u delen niet hebt toegestaan toen u het label maakte, kiest u **Alleen mensen in uw organisatie**.
-6. Schakel onder Standaard koppelingstype voor delen het selectievakje **hetzelfde als instelling op organisatieniveau** uit en selecteer **personen met bestaande toegang**.
+6. Schakel onder Standaard koppelingstype voor delen het selectievakje **Hetzelfde als instelling op organisatieniveau** uit en selecteer **Personen met bestaande toegang**.
 7. Klik op **Opslaan**.
 
 #### <a name="private-channels"></a>Privékanalen
@@ -187,7 +187,7 @@ Als u niet van plan bent om privékanalen met uw team te gebruiken, overweeg dan
 Om ervoor te zorgen dat de SharePoint-site niet wordt gedeeld met personen die geen deel uitmaken van het team, beperken we het delen ervan tot eigenaren. We beperken ook het delen van bestanden en mappen tot de teameigenaren. Dit helpt ervoor te zorgen dat eigenaren weten wanneer een bestand wordt gedeeld met iemand buiten het team.
 
 Om het delen van sites met eigenaren te configureren
-1. Ga in Teams naar het tabblad **algemeen** van het team dat u wilt bijwerken.
+1. Ga in Teams naar het tabblad **Algemeen** van het team dat u wilt bijwerken.
 2. Klik op de werkbalk van het team op **Bestanden**.
 3. Klik op het beletselteken en klik vervolgens op **Openen in SharePoint**.
 4. Klik op de werkbalk van de onderliggende SharePoint-site op het pictogram Instellingen en vervolgens op **Sitemachtigingen**.
@@ -210,8 +210,8 @@ Gebruikers toevoegen aan de site
 
 Microsoft 365 biedt aanvullende methoden voor het beveiligen van uw inhoud. Overweeg of de volgende opties de beveiliging van uw organisatie zouden kunnen verbeteren.
 
-- Laat uw gastgebruikers akkoord gaan met [gebruiksvoorwaarden](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use).
-- Een beleid voor de [time-out van een gastsessie](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) configureren.
+- Laat uw gastgebruikers akkoord gaan met de [gebruiksvoorwaarden](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use).
+- Configureer een [beleid voor de time-out van een sessie](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) voor gasten.
 - Maak [gevoelige informatietypen](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types) en gebruik [gegevensverliesbeveiliging](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) om beleid in te stellen rond toegang tot gevoelige informatie.
 - Gebruik [Azure Active Directory-toegangsbeoordelingen](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview) om periodiek teamtoegang en lidmaatschap te controleren.
 

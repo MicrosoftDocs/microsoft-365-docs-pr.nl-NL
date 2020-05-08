@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie over Microsoft 365 voor bedrijven, het instellen ervan en hoe u de apparaten en pc's van uw gebruikers voorbereidt om te controleren of ze worden beschermd door Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 8754c470cb6369f0814f953288be130fa49cea86
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: a470f015857117d3cbbc15255e8d815438222509
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048080"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165784"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Aan de slag met Microsoft 365 voor bedrijven
 
@@ -79,9 +79,9 @@ Meld u aan bij [het Microsoft 365-beheercentrum](https://portal.office.com/admin
     
     Als u **permanent van een lokale Active Directory naar de cloud gaat,** u naar het Microsoft 365-beheercentrum gaan en de wizard Setup gebruiken om uw gebruikers handmatig toe te voegen, of u een eenmalige synchronisatie uitvoeren met Azure AD Connect. U kunt dit op twee manieren doen: 
     
-    - Als u ook een Exchange 2010-, Exchange 2013- of Exchange 2016-server hebt, u [Minimal Hybrid gebruiken om Exchange-postvakken snel te migreren naar Office 365.](https://support.office.com/article/fdecceed-0702-4af3-85be-f2a0013937ef) De minimale hybride stappen omvatten een eenmalige synchronisatie van gebruikers met Azure AD en e-mailmigratie van on-premises naar de cloud. Nadat de e-mailmigratie is voltooid, wordt de adreslijstsynchronisatie automatisch uitgeschakeld wanneer u deze methode gebruikt.
+    - Als u ook een Exchange 2010-, Exchange 2013- of Exchange 2016-server hebt, u [Minimal Hybrid gebruiken om Exchange-postvakken snel te migreren naar Office 365.](https://docs.microsoft.com/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate) De minimale hybride stappen omvatten een eenmalige synchronisatie van gebruikers met Azure AD en e-mailmigratie van on-premises naar de cloud. Nadat de e-mailmigratie is voltooid, wordt de adreslijstsynchronisatie automatisch uitgeschakeld wanneer u deze methode gebruikt.
     
-    - Gebruik de wizard Directorysynchronisatie om uw gebruikers te synchroniseren met de cloud. Volg de stappen in [Adreslijstsynchronisatie instellen voor Microsoft 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) om dit proces te voltooien. Nadat u uw gebruikers hebt gesynchroniseerd met de cloud, moet u [adreslijstsynchronisatie uitschakelen voor Office 365.](https://support.office.com/article/ee5f861e-bd48-4267-83d1-a4ead4b4a00d)
+    - Gebruik de wizard Directorysynchronisatie om uw gebruikers te synchroniseren met de cloud. Volg de stappen in [Adreslijstsynchronisatie instellen voor Microsoft 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) om dit proces te voltooien. Nadat u uw gebruikers hebt gesynchroniseerd met de cloud, moet u [adreslijstsynchronisatie uitschakelen voor Office 365.](https://docs.microsoft.com/office365/enterprise/turn-off-directory-synchronization)
     
     U moet ook elke gebruiker die op deze manier is toegevoegd, een licentie aan Microsoft 365 voor bedrijven geven. U dit doen in de [wizard Setup](set-up.md) of u licenties toewijzen aan gebruikers in [Microsoft 365 voor Bedrijven.](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)
     
@@ -104,7 +104,7 @@ Als u een lokale Active Directory behoudt die een aantal on-premises bronnen bev
   
 - Neem contact op met uw partner.
     
-- Als Microsoft 365 voor zakelijke beheerder heeft u toegang tot ons klantenserviceteam: ** [neem contact op met ondersteuning voor zakelijke producten - Help voor beheerders](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
+- Als Microsoft 365 voor zakelijke beheerder heeft u toegang tot ons klantenserviceteam: ** [neem contact op met ondersteuning voor zakelijke producten - Help voor beheerders](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)**
     
 ## <a name="see-also"></a>Zie ook
 
