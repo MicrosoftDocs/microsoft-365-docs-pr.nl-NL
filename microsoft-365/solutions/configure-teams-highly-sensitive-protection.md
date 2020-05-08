@@ -13,15 +13,16 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+- M365solutions
 ms.custom:
 - Ent_Solutions
 description: Informatie over het implementeren van teams met bescherming voor zeer vertrouwelijke gegevens.
-ms.openlocfilehash: f044dd672d52db4100fcb4cfec2519a8605c7be8
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: f60c46c3b596c131bb04a49f0293c6dd8bbbea2b
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002791"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166171"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Teams met bescherming voor zeer vertrouwelijke gegevens configureren
 

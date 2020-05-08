@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Lees wat er met uw gegevens gebeurt wanneer uw Microsoft 365 voor Bedrijven-abonnement verloopt, is uitgeschakeld of als u opzegt.
-ms.openlocfilehash: cd90b0b5825b2888b1194998c25a2ce9c7c28718
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 363d8379bb2fa34e58a81892beadcebb9c6624f2
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707605"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165117"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor bedrijven-abonnement afloopt?
 
@@ -50,7 +50,7 @@ In de volgende tabel wordt uitgelegd wat u verwachten wanneer een betaald Micros
 *Voor de meeste aanbiedingen, in de meeste landen en regio's.
   
 > [!NOTE]
-> **Wat zijn "klantgegevens"?** Klantgegevens, zoals gedefinieerd in de Voorwaarden van de [Microsoft Online-service,](https://go.microsoft.com/fwlink/p/?LinkId=613649)verwijzen naar alle gegevens, inclusief alle tekst-, geluids- of beeldbestanden die door of namens de klant aan Microsoft worden verstrekt via het gebruik van Microsoft 365-services door de klant. Zie Aan de slag met de [Microsoft Service Trust Portal](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662)voor meer informatie over de bescherming van klantgegevens.
+> **Wat zijn "klantgegevens"?** Klantgegevens, zoals gedefinieerd in de Voorwaarden van de [Microsoft Online-service,](https://go.microsoft.com/fwlink/p/?LinkId=613649)verwijzen naar alle gegevens, inclusief alle tekst-, geluids- of beeldbestanden die door of namens de klant aan Microsoft worden verstrekt via het gebruik van Microsoft 365-services door de klant. Zie Aan de slag met de [Microsoft Service Trust Portal](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal)voor meer informatie over de bescherming van klantgegevens.
   
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>Wat zijn mijn opties als mijn abonnement bijna verloopt?
 

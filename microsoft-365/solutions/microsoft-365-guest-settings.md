@@ -9,18 +9,18 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
+- M365solutions
 f1.keywords: NOCSH
 ms.custom:
-- M365solutions
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Meer informatie over de instellingen voor het delen met gasten in Microsoft 365 die van invloed kunnen zijn op het delen met personen buiten uw organisatie.
-ms.openlocfilehash: 39b768a8ec512d45e3de5d57e07dbbfdf9d148b3
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: a1c734adfe72d5eff5f18e67116544fd63eb854a
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036774"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160133"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 guest sharing settings reference (Overzicht van de instellingen voor delen met gasten van Microsoft 365)
 

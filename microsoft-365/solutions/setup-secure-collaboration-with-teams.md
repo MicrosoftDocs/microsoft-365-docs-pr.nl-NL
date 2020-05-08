@@ -9,16 +9,16 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom:
 - M365solutions
+ms.custom: ''
 f1.keywords: NOCSH
 description: Meer informatie over het instellen van Teams om uw gegevens te beschermen op basis van de gevoeligheid
-ms.openlocfilehash: 77493398b11109a51c4e60599561fd8cd4f6c3ac
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 8704c3a0a271c247652d611e963ff1d26308dcdb
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002670"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159465"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Veilige samenwerking met Microsoft 365 instellen
 
@@ -85,9 +85,9 @@ Het configureren van deze lagen omvat:
 
 Begin met de basislijnlaag en voeg vervolgens teams toe die de *gevoelige* en *zeer gevoelige* lagen gebruiken als dat nodig is om de informatie in uw organisatie te beschermen. Bekijk deze bronnen om aan de slag te gaan:
 
-- [Teams configureren met basislijnbeveiliging](configure-teams-baseline-protection.md)
-- [Teams configureren met bescherming voor gevoelige gegevens](configure-teams-sensitive-protection.md)
-- [Teams configureren met bescherming voor zeer gevoelige gegevens](configure-teams-highly-sensitive-protection.md)
+- [Teams met basisbescherming configureren](configure-teams-baseline-protection.md)
+- [Teams met bescherming voor vertrouwelijke gegevens configureren](configure-teams-sensitive-protection.md)
+- [Teams met bescherming voor zeer vertrouwelijke gegevens configureren](configure-teams-highly-sensitive-protection.md)
 
 Als u een zeer gevoelig project hebt dat extra bescherming tegen delen vereist, zelfs binnen uw organisatie, u een team configureren dat zijn eigen gevoeligheidslabel gebruikt om bestanden te versleutelen, zodat alleen teamleden ze kunnen lezen. Zie [Een team configureren met beveiligingsisolatie](secure-teams-security-isolation.md) voor meer informatie.
 
@@ -104,7 +104,7 @@ Met deze bronnen u aan de slag met het instellen van uw omgeving voor samenwerki
 Afhankelijk van de gevoeligheid van de informatie die wordt gedeeld, u beveiligingen toevoegen om overdeling te voorkomen. Met deze bronnen u de beveiligingen instellen die u voor uw organisatie nodig hebt:
 
 - [Aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers](best-practices-anonymous-sharing.md)
-- [Het beperken van de onopzettelijke blootstelling van bestanden bij het delen met personen van buiten uw organisatie](share-limit-accidental-exposure.md)
+- [Het beperken van de onopzettelijke blootstelling van bestanden bij het delen met personen buiten uw organisatie](share-limit-accidental-exposure.md)
 - [Een beveiligde omgeving voor het delen met gasten maken](create-secure-guest-sharing-environment.md)
 
 Als u een groot project hebt met een partnerorganisatie, u Azure Entitlement Management gebruiken om de gasten van die organisatie te beheren in een team dat u voor het project hebt ingesteld. Zie [Een B2B-extranet maken met beheerde gasten](b2b-extranet.md) voor meer informatie.

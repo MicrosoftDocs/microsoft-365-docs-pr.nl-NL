@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 6a3a29a0-e616-4713-99d1-15eda62d04fa
 description: Lees hoe u uw abonnement op Microsoft 365 Business Standard, Microsoft 365 Business Basic, Microsoft 365 Apps voor bedrijven of Office 365 education kunt instellen.
-ms.openlocfilehash: 812d1a65986f53e53a02d4c1b70c823dffa98786
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: 9415d81e88234ac537bb531d531b891f0a4feb80
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053858"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165081"
 ---
 # <a name="set-up-microsoft-365-for-business"></a>Microsoft 365 voor bedrijven instellen
 
@@ -285,7 +285,7 @@ Hebt u meer gedetailleerde stappen nodig of wilt u de 64-bits versie van Office 
 
 Installeer Office op uw mobiele apparaat en stel Outlook in voor gebruik met uw nieuwe Microsoft-postvak. Iedereen in uw team moet deze stap uitvoeren. Bovendien kan elke gebruiker de mobiele Office-apps installeren op maximaal vijf telefoons en vijf tablets. 
   
-Bekijk de stappen voor uw apparaat: [Android](https://support.office.com/article/6ef2ebf2-fc2d-474a-be4a-5a801365c87f.aspx) | [iOS](https://support.office.com/article/0402b37e-49c4-4419-a030-f34c2013041f.aspx) | [Windows Phone](https://support.office.com/article/9bccc8b8-a321-4d0d-a45e-6e06a3438e43.aspx)
+Bekijk de stappen voor uw apparaat: [Android](https://support.office.com/article/6ef2ebf2-fc2d-474a-be4a-5a801365c87f.aspx) | [iOS](https://support.office.com/article/0402b37e-49c4-4419-a030-f34c2013041f.aspx) | [Windows Phone](https://support.microsoft.com/nl-NL/office/set-up-office-apps-and-email-on-windows-phone-9bccc8b8-a321-4d0d-a45e-6e06a3438e43)
   
 ### <a name="4-store-files-online"></a>4. Bestanden online opslaan
 
@@ -313,7 +313,7 @@ Zie [Aan de slag](../admin-overview/get-started-with-office-365.md) voor een ron
 
 - **Hulp nodig?** Als u hulp nodig hebt bij een meer geavanceerde implementatie, is **[FastTrack](https://www.microsoft.com/nl-NL/fasttrack/microsoft-365/office-365)** een prima plek om te beginnen. U kunt ook [een partner zoeken](https://go.microsoft.com/fwlink/p/?linkid=391089) om u te helpen.
 
-- **Plannen** Deze hulpmiddelen en bronnen helpen u uw netwerk, adreslijst en gebruikers voor te bereiden op Office 365: [Uw organisatie voorbereiden op Office 365 Enterprise](https://support.office.com/article/712fced7-f9d0-4fde-8b79-286262a5d0bc).
+- **Plannen** Deze hulpmiddelen en bronnen helpen u uw netwerk, adreslijst en gebruikers voor te bereiden op Office 365: [Uw organisatie voorbereiden op Office 365 Enterprise](https://docs.microsoft.com/office365/enterprise/get-your-organization-ready-for-office-365).
 
 ### <a name="1-add-your-school-domain-or-connect-your-directory"></a>1. Domein van uw school toevoegen of uw adreslijst verbinden
 
@@ -339,25 +339,25 @@ Als u Office 365 beheerd door 21Vianet gebruikt, gaat u naar [dit beheercentrum]
 
 Selecteer **Naar setup** om de wizard te starten.
 
-Zie [De installatiewizard gebruiken](https://support.office.com/article/3c62a3b7-1680-41ca-943c-0ff01566bace.aspx) voor een overzicht van wat er gebeurt wanneer u de wizard uitvoert.
+Zie [De installatiewizard gebruiken](https://docs.microsoft.com/microsoft-365/admin/setup/plan-your-setup) voor een overzicht van wat er gebeurt wanneer u de wizard uitvoert.
   
-Als u uw gebruikers wilt synchroniseren vanuit een on-premises adreslijst of gebruik wilt maken van eenmalige aanmelding, **maakt u geen gebruik van de wizard Setup om gebruikers toe te voegen**. Lees in plaats daarvan deze richtlijnen voor informatie over uw opties: [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9). U stelt een van de volgende zaken in:
+Als u uw gebruikers wilt synchroniseren vanuit een on-premises adreslijst of gebruik wilt maken van eenmalige aanmelding, **maakt u geen gebruik van de wizard Setup om gebruikers toe te voegen**. Lees in plaats daarvan deze richtlijnen voor informatie over uw opties: [Understanding Office 365 identity and Azure Active Directory](https://docs.microsoft.com/office365/enterprise/about-office-365-identity). U stelt een van de volgende zaken in:
   
-- [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9#BK_Sync). Hiermee synchroniseert u met een on-premises adreslijst. U beheert uw gebruikers on-premises. U kunt ook wachtwoorden synchroniseren zodat gebruikers on-premises hetzelfde wachtwoord hebben als in de cloud, maar ze zullen zich opnieuw moeten aanmelden om Office 365 te kunnen gebruiken.
+- [Understanding Office 365 identity and Azure Active Directory](https://docs.microsoft.com/office365/enterprise/about-office-365-identity#BK_Sync). Hiermee synchroniseert u met een on-premises adreslijst. U beheert uw gebruikers on-premises. U kunt ook wachtwoorden synchroniseren zodat gebruikers on-premises hetzelfde wachtwoord hebben als in de cloud, maar ze zullen zich opnieuw moeten aanmelden om Office 365 te kunnen gebruiken.
 
-- [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9#BK_Federated). Hiermee synchroniseert u met een on-premises adreslijst. U beheert uw gebruikers on-premises. Gebruikers hebben lokaal hetzelfde wachtwoord als in de cloud, en ze hoeven zich niet opnieuw aan te melden om Office 365 te kunnen gebruiken. Dit wordt vaak 'eenmalige aanmelding' genoemd.
+- [Understanding Office 365 identity and Azure Active Directory](https://docs.microsoft.com/office365/enterprise/about-office-365-identity#BK_Federated). Hiermee synchroniseert u met een on-premises adreslijst. U beheert uw gebruikers on-premises. Gebruikers hebben lokaal hetzelfde wachtwoord als in de cloud, en ze hoeven zich niet opnieuw aan te melden om Office 365 te kunnen gebruiken. Dit wordt vaak 'eenmalige aanmelding' genoemd.
 
 ### <a name="2-set-up-services"></a>2. Services instellen
 
-E-mail, delen van bestanden, chatberichten en andere Office 365-services en -toepassingen instellen: [Office 365 Enterprise-services en -toepassingen configureren](https://support.office.com/article/7cec08a5-97fd-4761-b23b-ef3d66519e30).
+E-mail, delen van bestanden, chatberichten en andere Office 365-services en -toepassingen instellen: [Office 365 Enterprise-services en -toepassingen configureren](https://docs.microsoft.com/office365/enterprise/configure-services-and-applications).
   
 Met deze stap kunt u Office 365 per persoon op maximaal 5 pc's en laptops installeren.
   
 ### <a name="3-migrate-data"></a>3. Gegevens migreren
 
-Nadat u de services hebt geconfigureerd, kunt u beginnen met het migreren van gegevens, zoals e-mails en bestanden: [Gegevens van uw organisatie migreren naar Office 365 Enterprise](https://support.office.com/article/e2fdfc8d-547e-4419-8628-2738ed4e0f46).
+Nadat u de services hebt geconfigureerd, kunt u beginnen met het migreren van gegevens, zoals e-mails en bestanden: [Gegevens van uw organisatie migreren naar Office 365 Enterprise](https://docs.microsoft.com/office365/enterprise/migrate-data-to-office-365).
   
-Als u een Student Information System (SIS) voor uw studenten en medewerkers gebruikt, lees dan de informatie over [SIS-integratie instellen](https://support.office.com/article/f3d1147b-4ade-4905-8518-508e729f2e91.aspx).
+Als u een Student Information System (SIS) voor uw studenten en medewerkers gebruikt, lees dan de informatie over [SIS-integratie instellen](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync).
   
 ### <a name="train-your-users"></a>Uw gebruikers trainen
 

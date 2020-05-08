@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Meer informatie over hoe u toegang krijgt tot on-premises bronnen zoals bedrijfsapps, bestandsshares en printers van een Azure Active Directory dat is toegetreden tot Windows 10-apparaat.
-ms.openlocfilehash: c1e04e5ca0d36c32a55a9819140356db5093e3a1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 980efbf09349cc0203ac50ae5e028c008d5694ca
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627449"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165896"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>On-premises resources openen vanaf een apparaat dat is verbonden met Azure AD in Microsoft 365 Business Premium
 
@@ -41,7 +41,7 @@ De stappen worden ook samengevat in de volgende secties.
 
 Voer de volgende stappen uit om de Azure AD-apparaten van uw organisatie toegang te geven tot on-premises resources.
   
-1. Als u uw gebruikers, groepen en contactpersonen uit de lokale Active Directory wilt synchroniseren met Azure Active Directory, voert u de wizard Adressynchronisatie en Azure AD Connect uit zoals beschreven in [Adreslijstsynchronisatie instellen voor Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846).
+1. Als u uw gebruikers, groepen en contactpersonen uit de lokale Active Directory wilt synchroniseren met Azure Active Directory, voert u de wizard Adressynchronisatie en Azure AD Connect uit zoals beschreven in [Adreslijstsynchronisatie instellen voor Office 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization).
     
 2. Nadat de adreslijstsynchronisatie is voltooid, controleert u of de Windows 10-apparaten van uw organisatie zijn aangesloten bij Azure AD. Deze stap wordt individueel gedaan op elk Windows 10-apparaat. Zie [Windows-apparaten instellen voor Microsoft 365 Business Premium-gebruikers](set-up-windows-devices.md) voor meer informatie. 
     

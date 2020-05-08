@@ -21,12 +21,12 @@ ms.assetid: 0dc55430-98d6-4cbe-ba69-1a4ad29a967d
 ROBOTS: NOINDEX
 description: 'Meer informatie over typen gebruikers in het beheercentrum. '
 ms.custom: okr_smb
-ms.openlocfilehash: b9a705d651aff3cde9fdd32d0122e8947e574715
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 152be955ffdb5526c974d3b0f4d19693cb29e948
+ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627762"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44155350"
 ---
 # <a name="quick-help-types-of-users"></a>Snelle Help: Typen gebruikers
 
@@ -45,7 +45,7 @@ Op de pagina **Actieve gebruikers** in het Microsoft 365-beheercentrum u filtere
 |Wachtwoordbeheerders  <br/> |Deze gebruikers kunnen namens u wachtwoorden opnieuw instellen, serviceaanvragen beheren en de servicestatus controleren.  <br/> |
 |Servicebeheerders  <br/> |Deze gebruikers kunnen namens u serviceaanvragen beheren en de servicestatus controleren.  <br/> |
 |Beheerders gebruikerstoegang  <br/> |Deze gebruikers kunnen wachtwoorden opnieuw instellen, de servicestatus controleren en gebruikersaccounts, gebruikersgroepen en serviceaanvragen beheren. Zij kunnen geen globale beheerder verwijderen, geen andere beheerdersrollen maken, noch wachtwoorden opnieuw instellen voor financieel medewerkers, globale beheerders en servicebeheerders.  <br/> |
-|Aangepast filter toevoegen  <br/> |Met deze optie u een aangepast filter maken om alleen bepaalde typen gebruikers van uw voorkeur weer te geven, zoals welke gebruikers zich in het Microsoft 365 Apps for Business-abonnement bevinden. [Snelle hulp: gebruikers filteren](https://support.office.com/article/8ac6a63c-04d8-4ceb-91af-d7e27b6eac0c).  <br/> |
+|Aangepast filter toevoegen  <br/> |Met deze optie u een aangepast filter maken om alleen bepaalde typen gebruikers van uw voorkeur weer te geven, zoals welke gebruikers zich in het Microsoft 365 Apps for Business-abonnement bevinden. [Snelle hulp: gebruikers filteren](https://docs.microsoft.com/microsoft-365/admin/add-users/create-edit-or-delete-a-custom-user-view).  <br/> |
    
 ## <a name="related-articles"></a>Verwante artikelen
 
