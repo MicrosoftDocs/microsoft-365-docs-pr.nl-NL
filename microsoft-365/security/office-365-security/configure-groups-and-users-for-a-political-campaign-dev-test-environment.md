@@ -1,5 +1,5 @@
 ---
-title: Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
+title: Groepen en gebruikers configureren - Ontwikkel-/testomgeving voor politieke campagnes
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -17,124 +17,125 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: 'Overzicht: maak proefabonnementen voor Office 365 en Enterprise Mobility + Security (EMS) met gebruikers en groepen voor een ontwikkel-/testomgeving voor politieke campagnes.'
-ms.openlocfilehash: f07ccbb648ef20c6b7c6ef005afef59fd89d56aa
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 14722ab96230ecb8acaf4476d6ca70c47de2ffdd
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638452"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035104"
 ---
-# <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a><span data-ttu-id="3cea5-103">Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes</span><span class="sxs-lookup"><span data-stu-id="3cea5-103">Configure groups and users for a political campaign dev/test environment</span></span>
+# <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a><span data-ttu-id="3231e-103">Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes</span><span class="sxs-lookup"><span data-stu-id="3231e-103">Configure groups and users for a political campaign dev/test environment</span></span>
 
- <span data-ttu-id="3cea5-104">**Overzicht:** maak proefabonnementen voor Office 365 en Enterprise Mobility + Security (EMS) met gebruikers en groepen voor een ontwikkel-/testomgeving voor politieke campagnes.</span><span class="sxs-lookup"><span data-stu-id="3cea5-104">**Summary:** Create Office 365 and Enterprise Mobility + Security (EMS) trial subscriptions with users and groups for a political campaign dev/test environment.</span></span>
+ <span data-ttu-id="3231e-104">**Overzicht:** maak proefabonnementen voor Office 365 en Enterprise Mobility + Security (EMS) met gebruikers en groepen voor een ontwikkel-/testomgeving voor politieke campagnes.</span><span class="sxs-lookup"><span data-stu-id="3231e-104">**Summary:** Create Office 365 and Enterprise Mobility + Security (EMS) trial subscriptions with users and groups for a political campaign dev/test environment.</span></span>
 
-<span data-ttu-id="3cea5-105">Gebruik de instructies in dit artikel om een ontwikkel-/testomgeving te maken met vereenvoudigde gebruikersaccounts en groepen voor de [Microsoft-beveiligingsrichtlijnen voor politieke campagnes, non-profitorganisaties en andere agile organisaties](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md).</span><span class="sxs-lookup"><span data-stu-id="3cea5-105">Use the instructions in this article to create a dev/test environment that includes simplified user accounts and groups for the [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md) solution.</span></span>
+<span data-ttu-id="3231e-105">Gebruik de instructies in dit artikel om een ontwikkel-/testomgeving te maken met vereenvoudigde gebruikersaccounts en groepen voor de [Microsoft-beveiligingsrichtlijnen voor politieke campagnes, non-profitorganisaties en andere agile organisaties](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md).</span><span class="sxs-lookup"><span data-stu-id="3231e-105">Use the instructions in this article to create a dev/test environment that includes simplified user accounts and groups for the [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md) solution.</span></span>
 
-## <a name="phase-1-create-your-office-365-devtest-environment"></a><span data-ttu-id="3cea5-106">Fase 1: creëer uw ontwikkel-/testomgeving voor Office 365</span><span class="sxs-lookup"><span data-stu-id="3cea5-106">Phase 1: Create your Office 365 dev/test environment</span></span>
+## <a name="phase-1-create-your-office-365-devtest-environment"></a><span data-ttu-id="3231e-106">Fase 1: creëer uw ontwikkel-/testomgeving voor Office 365</span><span class="sxs-lookup"><span data-stu-id="3231e-106">Phase 1: Create your Office 365 dev/test environment</span></span>
 
-<span data-ttu-id="3cea5-107">In deze fase creëert u proefabonnementen voor Office 365 E5 en Enterprise Mobility + Security (EMS) E5 voor een fictieve organisatie die een politieke campagne vertegenwoordigt.</span><span class="sxs-lookup"><span data-stu-id="3cea5-107">In this phase, you obtain trial subscriptions for Office 365 E5 and Enterprise Mobility + Security (EMS) E5 for a fictional organization that represents a political campaign.</span></span>
+<span data-ttu-id="3231e-107">In deze fase creëert u proefabonnementen voor Office 365 E5 en Enterprise Mobility + Security (EMS) E5 voor een fictieve organisatie die een politieke campagne vertegenwoordigt.</span><span class="sxs-lookup"><span data-stu-id="3231e-107">In this phase, you obtain trial subscriptions for Office 365 E5 and Enterprise Mobility + Security (EMS) E5 for a fictional organization that represents a political campaign.</span></span>
 
-<span data-ttu-id="3cea5-108">Volg eerst de instructies in **fase 2** van de [ontwikkel-/testomgeving voor Office 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment).</span><span class="sxs-lookup"><span data-stu-id="3cea5-108">First, follow the instructions in **Phase 2** of the [Office 365 dev/test environment](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment).</span></span>
+<span data-ttu-id="3231e-108">Volg eerst de instructies in **fase 2** van de [ontwikkel-/testomgeving voor Office 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment).</span><span class="sxs-lookup"><span data-stu-id="3231e-108">First, follow the instructions in **Phase 2** of the [Office 365 dev/test environment](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment).</span></span>
 
-<span data-ttu-id="3cea5-109">Meld u vervolgens aan voor het proefabonnement EMS E5 en voeg het toe aan dezelfde organisatie als uw proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="3cea5-109">Next, sign up for the EMS E5 trial subscription and add it to the same organization as your trial subscription.</span></span>
+<span data-ttu-id="3231e-109">Meld u vervolgens aan voor het proefabonnement EMS E5 en voeg het toe aan dezelfde organisatie als uw proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="3231e-109">Next, sign up for the EMS E5 trial subscription and add it to the same organization as your trial subscription.</span></span>
 
-1. <span data-ttu-id="3cea5-110">Indien nodig meldt u zich aan bij het beheercentrum met de inloggegevens van het algemene beheerdersaccount van uw proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="3cea5-110">If needed, sign in to the admin center with the credentials of the global administrator account of your trial subscription.</span></span> <span data-ttu-id="3cea5-111">Zie [Waar kan ik me aanmelden?](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) voor hulp.</span><span class="sxs-lookup"><span data-stu-id="3cea5-111">For help, see [Where to sign in](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).</span></span>
+1. <span data-ttu-id="3231e-110">Indien nodig meldt u zich aan bij het beheercentrum met de inloggegevens van het algemene beheerdersaccount van uw proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="3231e-110">If needed, sign in to the admin center with the credentials of the global administrator account of your trial subscription.</span></span> <span data-ttu-id="3231e-111">Zie [Waar kan ik me aanmelden?](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) voor hulp.</span><span class="sxs-lookup"><span data-stu-id="3231e-111">For help, see [Where to sign in](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).</span></span>
 
-2. <span data-ttu-id="3cea5-112">Klik op de tegel **Beheerder**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-112">Click the **Admin** tile.</span></span>
+2. <span data-ttu-id="3231e-112">Klik op de tegel **Beheerder**.</span><span class="sxs-lookup"><span data-stu-id="3231e-112">Click the **Admin** tile.</span></span>
 
-3. <span data-ttu-id="3cea5-113">Klik op het tabblad **Microsoft 365-beheercentrum** in uw browser in de linkernavigatiebalk op **Facturering >** Services.</span><span class="sxs-lookup"><span data-stu-id="3cea5-113">On the **Microsoft 365 admin center** tab in your browser, in the left navigation, click **Billing > Purchase services**.</span></span>
+3. <span data-ttu-id="3231e-113">Klik op het tabblad **Microsoft 365-beheercentrum** in uw browser in de linkernavigatiebalk op **Facturering >** Services.</span><span class="sxs-lookup"><span data-stu-id="3231e-113">On the **Microsoft 365 admin center** tab in your browser, in the left navigation, click **Billing > Purchase services**.</span></span>
 
-4. <span data-ttu-id="3cea5-114">Zoek op de pagina **Services aanschaffen** naar het item **Enterprise Mobility + Security E5**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-114">On the **Purchase services** page, find the **Enterprise Mobility + Security E5** item.</span></span> <span data-ttu-id="3cea5-115">Plaats de muisaanwijzer erop en klik op **gratis proefversie**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-115">Hover your mouse pointer over it and click **Start free trial**.</span></span>
+4. <span data-ttu-id="3231e-114">Zoek op de pagina **Services aanschaffen** naar het item **Enterprise Mobility + Security E5**.</span><span class="sxs-lookup"><span data-stu-id="3231e-114">On the **Purchase services** page, find the **Enterprise Mobility + Security E5** item.</span></span> <span data-ttu-id="3231e-115">Plaats de muisaanwijzer erop en klik op **gratis proefversie**.</span><span class="sxs-lookup"><span data-stu-id="3231e-115">Hover your mouse pointer over it and click **Start free trial**.</span></span>
 
-5. <span data-ttu-id="3cea5-116">Kies op de pagina **Uw bestelling bevestigen** de optie **Nu proberen**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-116">On the **Confirm your order** page, click **Try now**.</span></span>
+5. <span data-ttu-id="3231e-116">Kies op de pagina **Uw bestelling bevestigen** de optie **Nu proberen**.</span><span class="sxs-lookup"><span data-stu-id="3231e-116">On the **Confirm your order** page, click **Try now**.</span></span>
 
-6. <span data-ttu-id="3cea5-117">Klik op de pagina **Ontvangst bestelling** op **Doorgaan**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-117">On the **Order receipt** page, click **Continue**.</span></span>
+6. <span data-ttu-id="3231e-117">Klik op de pagina **Ontvangst bestelling** op **Doorgaan**.</span><span class="sxs-lookup"><span data-stu-id="3231e-117">On the **Order receipt** page, click **Continue**.</span></span>
 
-<span data-ttu-id="3cea5-118">Activeer vervolgens de EMS E5-licentie voor uw globale beheerdersaccount.</span><span class="sxs-lookup"><span data-stu-id="3cea5-118">Next, enable the EMS E5 license for your global administrator account.</span></span>
+<span data-ttu-id="3231e-118">Activeer vervolgens de EMS E5-licentie voor uw globale beheerdersaccount.</span><span class="sxs-lookup"><span data-stu-id="3231e-118">Next, enable the EMS E5 license for your global administrator account.</span></span>
 
-1. <span data-ttu-id="3cea5-119">Klik op het tabblad **Microsoft 365-beheercentrum** in uw browser in de linkernavigatiebalk op **Gebruikers > Actieve gebruikers**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-119">On the **Microsoft 365 admin center** tab in your browser, in the left navigation, click **Users > Active users**.</span></span>
+1. <span data-ttu-id="3231e-119">Klik op het tabblad **Microsoft 365-beheercentrum** in uw browser in de linkernavigatiebalk op **Gebruikers > Actieve gebruikers**.</span><span class="sxs-lookup"><span data-stu-id="3231e-119">On the **Microsoft 365 admin center** tab in your browser, in the left navigation, click **Users > Active users**.</span></span>
 
-2. <span data-ttu-id="3cea5-120">Klik op uw globale beheerdersaccount en klik vervolgens op **bewerken** voor **productlicenties**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-120">Click your global administrator account, and then click **Edit** for **Product licenses**.</span></span>
+2. <span data-ttu-id="3231e-120">Klik op uw globale beheerdersaccount en klik vervolgens op **bewerken** voor **productlicenties**.</span><span class="sxs-lookup"><span data-stu-id="3231e-120">Click your global administrator account, and then click **Edit** for **Product licenses**.</span></span>
 
-3. <span data-ttu-id="3cea5-121">Schakel in het deelvenster **productlicenties** de productlicentie voor **Enterprise Mobility + Security E5** **in**, klik op **opslaan** en klik tweemaal op **sluiten**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-121">On the **Product licenses** pane, turn the product license for **Enterprise Mobility + Security E5** to **On**, click **Save,** and then click **Close** twice.</span></span>
+3. <span data-ttu-id="3231e-121">Schakel in het deelvenster **productlicenties** de productlicentie voor **Enterprise Mobility + Security E5** **in**, klik op **opslaan** en klik tweemaal op **sluiten**.</span><span class="sxs-lookup"><span data-stu-id="3231e-121">On the **Product licenses** pane, turn the product license for **Enterprise Mobility + Security E5** to **On**, click **Save,** and then click **Close** twice.</span></span>
 
-## <a name="phase-2-create-and-configure-your-azure-active-directory-ad-groups"></a><span data-ttu-id="3cea5-122">Fase 2: uw Microsoft Azure AD-groepen (Active Directory) maken en configureren</span><span class="sxs-lookup"><span data-stu-id="3cea5-122">Phase 2: Create and configure your Azure Active Directory (AD) groups</span></span>
+## <a name="phase-2-create-and-configure-your-azure-active-directory-ad-groups"></a><span data-ttu-id="3231e-122">Fase 2: uw Microsoft Azure AD-groepen (Active Directory) maken en configureren</span><span class="sxs-lookup"><span data-stu-id="3231e-122">Phase 2: Create and configure your Azure Active Directory (AD) groups</span></span>
 
-<span data-ttu-id="3cea5-123">In deze fase maakt en configureert u de Microsoft Azure AD-groepen voor uw campagne.</span><span class="sxs-lookup"><span data-stu-id="3cea5-123">In this phase, you create and configure the Azure AD groups for your campaign.</span></span>
+<span data-ttu-id="3231e-123">In deze fase maakt en configureert u de Microsoft Azure AD-groepen voor uw campagne.</span><span class="sxs-lookup"><span data-stu-id="3231e-123">In this phase, you create and configure the Azure AD groups for your campaign.</span></span>
 
-<span data-ttu-id="3cea5-124">Maak eerst een set groepen voor een normale politieke campagne met de Microsoft Azure-portal.</span><span class="sxs-lookup"><span data-stu-id="3cea5-124">First, create a set of groups for a typical political campaign with the Azure portal.</span></span>
+<span data-ttu-id="3231e-124">Maak eerst een set groepen voor een normale politieke campagne met de Microsoft Azure-portal.</span><span class="sxs-lookup"><span data-stu-id="3231e-124">First, create a set of groups for a typical political campaign with the Azure portal.</span></span>
 
-1. <span data-ttu-id="3cea5-125">Open een afzonderlijk tabblad in uw browser en ga naar de Microsoft Azure-portal op [https://portal.azure.com](https://portal.azure.com).</span><span class="sxs-lookup"><span data-stu-id="3cea5-125">On a separate tab in your browser, go to the Azure portal at [https://portal.azure.com](https://portal.azure.com).</span></span> <span data-ttu-id="3cea5-126">Indien nodig meldt u zich aan met de inloggegevens van het algemene beheerdersaccount van uw proefabonnement op Office 365 E5.</span><span class="sxs-lookup"><span data-stu-id="3cea5-126">If needed, sign in with the credentials of the global administrator account for your Office 365 E5 trial subscription.</span></span>
+1. <span data-ttu-id="3231e-125">Open een afzonderlijk tabblad in uw browser en ga naar de Microsoft Azure-portal op [https://portal.azure.com](https://portal.azure.com).</span><span class="sxs-lookup"><span data-stu-id="3231e-125">On a separate tab in your browser, go to the Azure portal at [https://portal.azure.com](https://portal.azure.com).</span></span> <span data-ttu-id="3231e-126">Indien nodig meldt u zich aan met de inloggegevens van het algemene beheerdersaccount van uw proefabonnement op Office 365 E5.</span><span class="sxs-lookup"><span data-stu-id="3231e-126">If needed, sign in with the credentials of the global administrator account for your Office 365 E5 trial subscription.</span></span>
 
-2. <span data-ttu-id="3cea5-127">Klik in de Microsoft Azure-portal op **Azure Active Directory > gebruikers en groepen > alle groepen**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-127">In the Azure portal, click **Azure Active Directory > Users and groups > All groups**.</span></span>
+2. <span data-ttu-id="3231e-127">Klik in de Microsoft Azure-portal op **Azure Active Directory > gebruikers en groepen > alle groepen**.</span><span class="sxs-lookup"><span data-stu-id="3231e-127">In the Azure portal, click **Azure Active Directory > Users and groups > All groups**.</span></span>
 
-3. <span data-ttu-id="3cea5-128">Voer de volgende stappen uit voor elke groepsnaam in deze lijst:</span><span class="sxs-lookup"><span data-stu-id="3cea5-128">Do the following steps for each group name in this list:</span></span>
+3. <span data-ttu-id="3231e-128">Voer de volgende stappen uit voor elke groepsnaam in deze lijst:</span><span class="sxs-lookup"><span data-stu-id="3231e-128">Do the following steps for each group name in this list:</span></span>
 
-   - <span data-ttu-id="3cea5-129">Senior en strategisch personeel</span><span class="sxs-lookup"><span data-stu-id="3cea5-129">Senior and strategic staff</span></span>
+   - <span data-ttu-id="3231e-129">Senior en strategisch personeel</span><span class="sxs-lookup"><span data-stu-id="3231e-129">Senior and strategic staff</span></span>
 
-   - <span data-ttu-id="3cea5-130">IT-personeel</span><span class="sxs-lookup"><span data-stu-id="3cea5-130">IT staff</span></span>
+   - <span data-ttu-id="3231e-130">IT-personeel</span><span class="sxs-lookup"><span data-stu-id="3231e-130">IT staff</span></span>
 
-   - <span data-ttu-id="3cea5-131">Analytisch personeel</span><span class="sxs-lookup"><span data-stu-id="3cea5-131">Analytics staff</span></span>
+   - <span data-ttu-id="3231e-131">Analytisch personeel</span><span class="sxs-lookup"><span data-stu-id="3231e-131">Analytics staff</span></span>
 
-   - <span data-ttu-id="3cea5-132">Normaal kernpersoneel</span><span class="sxs-lookup"><span data-stu-id="3cea5-132">Regular core staff</span></span>
+   - <span data-ttu-id="3231e-132">Normaal kernpersoneel</span><span class="sxs-lookup"><span data-stu-id="3231e-132">Regular core staff</span></span>
 
-   - <span data-ttu-id="3cea5-133">Operationeel personeel</span><span class="sxs-lookup"><span data-stu-id="3cea5-133">Operations staff</span></span>
+   - <span data-ttu-id="3231e-133">Operationeel personeel</span><span class="sxs-lookup"><span data-stu-id="3231e-133">Operations staff</span></span>
 
-   - <span data-ttu-id="3cea5-134">Veldmedewerkers</span><span class="sxs-lookup"><span data-stu-id="3cea5-134">Field staff</span></span>
+   - <span data-ttu-id="3231e-134">Veldmedewerkers</span><span class="sxs-lookup"><span data-stu-id="3231e-134">Field staff</span></span>
 
-1. <span data-ttu-id="3cea5-135">Klik in de blade **Alle groepen** op **+ Nieuwe groep**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-135">On the **All groups** blade, click **+ New group**.</span></span>
+1. <span data-ttu-id="3231e-135">Klik in de blade **Alle groepen** op **+ Nieuwe groep**.</span><span class="sxs-lookup"><span data-stu-id="3231e-135">On the **All groups** blade, click **+ New group**.</span></span>
 
-2. <span data-ttu-id="3cea5-136">Typ de naam van de groep in de lijst in **naam**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-136">Type the group name from the list in **Name**.</span></span>
+2. <span data-ttu-id="3231e-136">Typ de naam van de groep in de lijst in **naam**.</span><span class="sxs-lookup"><span data-stu-id="3231e-136">Type the group name from the list in **Name**.</span></span>
 
-3. <span data-ttu-id="3cea5-137">Selecteer **dynamische gebruiker** voor **lidmaatschap**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-137">Select **Dynamic user** in **Membership**.</span></span>
+3. <span data-ttu-id="3231e-137">Selecteer **dynamische gebruiker** voor **lidmaatschap**.</span><span class="sxs-lookup"><span data-stu-id="3231e-137">Select **Dynamic user** in **Membership**.</span></span>
 
-4. <span data-ttu-id="3cea5-138">Klik op **ja** voor **Office-functies inschakelen**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-138">Click **Yes** for **Enable Office features**.</span></span>
+4. <span data-ttu-id="3231e-138">Klik op **ja** voor **Office-functies inschakelen**.</span><span class="sxs-lookup"><span data-stu-id="3231e-138">Click **Yes** for **Enable Office features**.</span></span>
 
-5. <span data-ttu-id="3cea5-139">Klik op **dynamische query toevoegen**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-139">Click **Add dynamic query**.</span></span>
+5. <span data-ttu-id="3231e-139">Klik op **dynamische query toevoegen**.</span><span class="sxs-lookup"><span data-stu-id="3231e-139">Click **Add dynamic query**.</span></span>
 
-6. <span data-ttu-id="3cea5-140">Selecteer voor **gebruikers toevoegen waar**de optie **afdeling**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-140">In **Add users where**, select **department**.</span></span>
+6. <span data-ttu-id="3231e-140">Selecteer voor **gebruikers toevoegen waar**de optie **afdeling**.</span><span class="sxs-lookup"><span data-stu-id="3231e-140">In **Add users where**, select **department**.</span></span>
 
-7. <span data-ttu-id="3cea5-141">Selecteer in het volgende veld **is gelijk aan**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-141">In the next field, select **Equals**.</span></span>
+7. <span data-ttu-id="3231e-141">Selecteer in het volgende veld **is gelijk aan**.</span><span class="sxs-lookup"><span data-stu-id="3231e-141">In the next field, select **Equals**.</span></span>
 
-8. <span data-ttu-id="3cea5-142">Typ de groepsnaam uit de lijst in het volgende veld.</span><span class="sxs-lookup"><span data-stu-id="3cea5-142">In the next field, type the group name from the list.</span></span>
+8. <span data-ttu-id="3231e-142">Typ de groepsnaam uit de lijst in het volgende veld.</span><span class="sxs-lookup"><span data-stu-id="3231e-142">In the next field, type the group name from the list.</span></span>
 
-9. <span data-ttu-id="3cea5-143">Klik op **query toevoegen**en klik vervolgens op **maken**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-143">Click **Add query**, and then click **Create**.</span></span>
+9. <span data-ttu-id="3231e-143">Klik op **query toevoegen**en klik vervolgens op **maken**.</span><span class="sxs-lookup"><span data-stu-id="3231e-143">Click **Add query**, and then click **Create**.</span></span>
 
-10. <span data-ttu-id="3cea5-144">Klik op **gebruikers en groepen: alle groepen**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-144">Click **Users and groups - All groups**.</span></span>
+10. <span data-ttu-id="3231e-144">Klik op **gebruikers en groepen: alle groepen**.</span><span class="sxs-lookup"><span data-stu-id="3231e-144">Click **Users and groups - All groups**.</span></span>
 
-<span data-ttu-id="3cea5-145">Vervolgens configureert u de groepen zo dat er automatisch Office 365 E5- en EMS E5-licenties worden toegewezen aan leden.</span><span class="sxs-lookup"><span data-stu-id="3cea5-145">Next, you configure the groups so that members are automatically assigned Office 365 E5 and EMS E5 licenses.</span></span>
+<span data-ttu-id="3231e-145">Vervolgens configureert u de groepen zo dat er automatisch Office 365 E5- en EMS E5-licenties worden toegewezen aan leden.</span><span class="sxs-lookup"><span data-stu-id="3231e-145">Next, you configure the groups so that members are automatically assigned Office 365 E5 and EMS E5 licenses.</span></span>
 
-1. <span data-ttu-id="3cea5-146">Klik in de Microsoft Azure-portal op **licenties voor Azure Active Directory > alle producten**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-146">In the Azure portal, click **Azure Active Directory > Licenses > All products**.</span></span>
+1. <span data-ttu-id="3231e-146">Klik in de Microsoft Azure-portal op **licenties voor Azure Active Directory > alle producten**.</span><span class="sxs-lookup"><span data-stu-id="3231e-146">In the Azure portal, click **Azure Active Directory > Licenses > All products**.</span></span>
 
-2. <span data-ttu-id="3cea5-147">Selecteer in de lijst zowel **Enterprise Mobility + Security E5** als **Office 365 Enterprise E5**en klik vervolgens op **+ Toewijzen**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-147">In the list, select **Enterprise Mobility + Security E5** and **Office 365 Enterprise E5**, and then click **+ Assign**.</span></span>
+2. <span data-ttu-id="3231e-147">Selecteer in de lijst zowel **Enterprise Mobility + Security E5** als **Office 365 Enterprise E5**en klik vervolgens op **+ Toewijzen**.</span><span class="sxs-lookup"><span data-stu-id="3231e-147">In the list, select **Enterprise Mobility + Security E5** and **Office 365 Enterprise E5**, and then click **+ Assign**.</span></span>
 
-3. <span data-ttu-id="3cea5-148">Klik in de blade **Licentie toewijzen** op \*\* Gebruikers en groepen\*\*.</span><span class="sxs-lookup"><span data-stu-id="3cea5-148">In the **Assign license** blade, click **Users and groups**.</span></span>
+3. <span data-ttu-id="3231e-148">Klik in de blade **Licentie toewijzen** op \*\* Gebruikers en groepen\*\*.</span><span class="sxs-lookup"><span data-stu-id="3231e-148">In the **Assign license** blade, click **Users and groups**.</span></span>
 
-4. <span data-ttu-id="3cea5-149">In de lijst met groepen selecteert u het volgende:</span><span class="sxs-lookup"><span data-stu-id="3cea5-149">In the list of groups, select the following:</span></span>
+4. <span data-ttu-id="3231e-149">In de lijst met groepen selecteert u het volgende:</span><span class="sxs-lookup"><span data-stu-id="3231e-149">In the list of groups, select the following:</span></span>
 
-   - <span data-ttu-id="3cea5-150">Analytisch personeel</span><span class="sxs-lookup"><span data-stu-id="3cea5-150">Analytics staff</span></span>
+   - <span data-ttu-id="3231e-150">Analytisch personeel</span><span class="sxs-lookup"><span data-stu-id="3231e-150">Analytics staff</span></span>
 
-   - <span data-ttu-id="3cea5-151">Veldmedewerkers</span><span class="sxs-lookup"><span data-stu-id="3cea5-151">Field staff</span></span>
+   - <span data-ttu-id="3231e-151">Veldmedewerkers</span><span class="sxs-lookup"><span data-stu-id="3231e-151">Field staff</span></span>
 
-   - <span data-ttu-id="3cea5-152">IT-personeel</span><span class="sxs-lookup"><span data-stu-id="3cea5-152">IT staff</span></span>
+   - <span data-ttu-id="3231e-152">IT-personeel</span><span class="sxs-lookup"><span data-stu-id="3231e-152">IT staff</span></span>
 
-   - <span data-ttu-id="3cea5-153">Operationeel personeel</span><span class="sxs-lookup"><span data-stu-id="3cea5-153">Operations staff</span></span>
+   - <span data-ttu-id="3231e-153">Operationeel personeel</span><span class="sxs-lookup"><span data-stu-id="3231e-153">Operations staff</span></span>
 
-   - <span data-ttu-id="3cea5-154">Normaal kernpersoneel</span><span class="sxs-lookup"><span data-stu-id="3cea5-154">Regular core staff</span></span>
+   - <span data-ttu-id="3231e-154">Normaal kernpersoneel</span><span class="sxs-lookup"><span data-stu-id="3231e-154">Regular core staff</span></span>
 
-   - <span data-ttu-id="3cea5-155">Senior en strategisch personeel</span><span class="sxs-lookup"><span data-stu-id="3cea5-155">Senior and strategic staff</span></span>
+   - <span data-ttu-id="3231e-155">Senior en strategisch personeel</span><span class="sxs-lookup"><span data-stu-id="3231e-155">Senior and strategic staff</span></span>
 
-5. <span data-ttu-id="3cea5-156">Klik op **Selecteren** en klik vervolgens op **Toewijzen**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-156">Click **Select**, and then click **Assign**.</span></span>
+5. <span data-ttu-id="3231e-156">Klik op **Selecteren** en klik vervolgens op **Toewijzen**.</span><span class="sxs-lookup"><span data-stu-id="3231e-156">Click **Select**, and then click **Assign**.</span></span>
 
-6. <span data-ttu-id="3cea5-157">Sluit het tabblad Microsoft Azure-portal in uw browser.</span><span class="sxs-lookup"><span data-stu-id="3cea5-157">Close the Azure portal tab in your browser.</span></span>
+6. <span data-ttu-id="3231e-157">Sluit het tabblad Microsoft Azure-portal in uw browser.</span><span class="sxs-lookup"><span data-stu-id="3231e-157">Close the Azure portal tab in your browser.</span></span>
 
-## <a name="phase-3-add-your-user-accounts"></a><span data-ttu-id="3cea5-158">Fase 3: uw gebruikersaccounts toevoegen</span><span class="sxs-lookup"><span data-stu-id="3cea5-158">Phase 3: Add your user accounts</span></span>
+## <a name="phase-3-add-your-user-accounts"></a><span data-ttu-id="3231e-158">Fase 3: uw gebruikersaccounts toevoegen</span><span class="sxs-lookup"><span data-stu-id="3231e-158">Phase 3: Add your user accounts</span></span>
 
-<span data-ttu-id="3cea5-159">In deze fase voegt u de voorbeeldgebruikersaccounts voor uw politieke campagne toe.</span><span class="sxs-lookup"><span data-stu-id="3cea5-159">In this phase, you add the example user accounts for your political campaign.</span></span>
+<span data-ttu-id="3231e-159">In deze fase voegt u de voorbeeldgebruikersaccounts voor uw politieke campagne toe.</span><span class="sxs-lookup"><span data-stu-id="3231e-159">In this phase, you add the example user accounts for your political campaign.</span></span>
 
-<span data-ttu-id="3cea5-160">Eerst maakt u [Verbinding met de Windows PowerShell voor Graph-module van Azure Active Directory](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).</span><span class="sxs-lookup"><span data-stu-id="3cea5-160">First, you [Connect with the Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
+<span data-ttu-id="3231e-160">Eerst maakt u [Verbinding met de Windows PowerShell voor Graph-module van Azure Active Directory](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).</span><span class="sxs-lookup"><span data-stu-id="3231e-160">First, you [Connect with the Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
 
-<span data-ttu-id="3cea5-161">Vervolgens vult u de naam van uw organisatie in, uw locatie en een gemeenschappelijk wachtwoord in en voert u vervolgens deze opdrachten uit in de opdrachtprompt van Windows PowerShell of de Integrated Scripting Environment (ISE):</span><span class="sxs-lookup"><span data-stu-id="3cea5-161">Next, you fill in your organization name, your location, and a common password, and then run these commands from the PowerShell command prompt or Integrated Script Environment (ISE):</span></span>
+<span data-ttu-id="3231e-161">Vervolgens vult u de naam van uw organisatie in, uw locatie en een gemeenschappelijk wachtwoord in en voert u vervolgens deze opdrachten uit in de opdrachtprompt van Windows PowerShell of de Integrated Scripting Environment (ISE):</span><span class="sxs-lookup"><span data-stu-id="3231e-161">Next, you fill in your organization name, your location, and a common password, and then run these commands from the PowerShell command prompt or Integrated Script Environment (ISE):</span></span>
 
 ```powershell
 $orgName="<organization name, such as contoso for the contoso.onmicrosoft.com trial subscription domain name>"
@@ -165,46 +166,46 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 ```
 
 > [!IMPORTANT]
-> <span data-ttu-id="3cea5-162">U gebruikt hier een gemeenschappelijk wachtwoord voor automatisering en configuratiegemak in een ontwikkel-/testomgeving.</span><span class="sxs-lookup"><span data-stu-id="3cea5-162">The use of a common password here is for automation and ease of configuration for a dev/test environment.</span></span> <span data-ttu-id="3cea5-163">Dit wordt afgeraden voor productie-omgevingen.</span><span class="sxs-lookup"><span data-stu-id="3cea5-163">This is not recommended for production subscriptions.</span></span> <span data-ttu-id="3cea5-164">Als u zich aanmeldt met een van deze nieuwe gebruikersaccounts, wordt u gevraagd het wachtwoord te wijzigen.</span><span class="sxs-lookup"><span data-stu-id="3cea5-164">As you sign in with each of these new user accounts, you will be prompted to change the password.</span></span>
+> <span data-ttu-id="3231e-162">U gebruikt hier een gemeenschappelijk wachtwoord voor automatisering en configuratiegemak in een ontwikkel-/testomgeving.</span><span class="sxs-lookup"><span data-stu-id="3231e-162">The use of a common password here is for automation and ease of configuration for a dev/test environment.</span></span> <span data-ttu-id="3231e-163">Dit wordt afgeraden voor productie-omgevingen.</span><span class="sxs-lookup"><span data-stu-id="3231e-163">This is not recommended for production subscriptions.</span></span> <span data-ttu-id="3231e-164">Als u zich aanmeldt met een van deze nieuwe gebruikersaccounts, wordt u gevraagd het wachtwoord te wijzigen.</span><span class="sxs-lookup"><span data-stu-id="3231e-164">As you sign in with each of these new user accounts, you will be prompted to change the password.</span></span>
 
-<span data-ttu-id="3cea5-165">Gebruik deze stappen om te controleren of lidmaatschap van een dynamische groep en groepsgebaseerde licenties correct werken.</span><span class="sxs-lookup"><span data-stu-id="3cea5-165">Use these steps to verify that dynamic group membership and group-based licensing are working correctly.</span></span>
+<span data-ttu-id="3231e-165">Gebruik deze stappen om te controleren of lidmaatschap van een dynamische groep en groepsgebaseerde licenties correct werken.</span><span class="sxs-lookup"><span data-stu-id="3231e-165">Use these steps to verify that dynamic group membership and group-based licensing are working correctly.</span></span>
 
-1. <span data-ttu-id="3cea5-166">Klik in het tabblad **Microsoft Office voor Thuisgebruik** van uw browser op de tegel **Beheerder**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-166">From the **Microsoft Office Home** tab of your browser, click the **Admin** tile.</span></span>
+1. <span data-ttu-id="3231e-166">Klik in het tabblad **Microsoft Office voor Thuisgebruik** van uw browser op de tegel **Beheerder**.</span><span class="sxs-lookup"><span data-stu-id="3231e-166">From the **Microsoft Office Home** tab of your browser, click the **Admin** tile.</span></span>
 
-2. <span data-ttu-id="3cea5-167">Klik in het nieuwe tabblad **Microsoft 365-beheercentrum** van uw browser op **Gebruikers**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-167">From the new **Microsoft 365 admin center** tab of your browser, click **Users**.</span></span>
+2. <span data-ttu-id="3231e-167">Klik in het nieuwe tabblad **Microsoft 365-beheercentrum** van uw browser op **Gebruikers**.</span><span class="sxs-lookup"><span data-stu-id="3231e-167">From the new **Microsoft 365 admin center** tab of your browser, click **Users**.</span></span>
 
-3. <span data-ttu-id="3cea5-168">Klik in de lijst met gebruikers op **gegadigde**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-168">In the list of users, click **Candidate**.</span></span>
+3. <span data-ttu-id="3231e-168">Klik in de lijst met gebruikers op **gegadigde**.</span><span class="sxs-lookup"><span data-stu-id="3231e-168">In the list of users, click **Candidate**.</span></span>
 
-4. <span data-ttu-id="3cea5-169">Controleer in het deelvenster met de eigenschappen van het **kandidaat**-gebruikersaccount of:</span><span class="sxs-lookup"><span data-stu-id="3cea5-169">In the pane that lists the properties of the **Candidate** user account, verify that:</span></span>
+4. <span data-ttu-id="3231e-169">Controleer in het deelvenster met de eigenschappen van het **kandidaat**-gebruikersaccount of:</span><span class="sxs-lookup"><span data-stu-id="3231e-169">In the pane that lists the properties of the **Candidate** user account, verify that:</span></span>
 
-   - <span data-ttu-id="3cea5-170">Het lid is van de groep **Senior en strategisch personeel** (in **groepslidmaatschappen**).</span><span class="sxs-lookup"><span data-stu-id="3cea5-170">It is a member of the **Senior and strategic staff** group (in **Group memberships**).</span></span>
+   - <span data-ttu-id="3231e-170">Het lid is van de groep **Senior en strategisch personeel** (in **groepslidmaatschappen**).</span><span class="sxs-lookup"><span data-stu-id="3231e-170">It is a member of the **Senior and strategic staff** group (in **Group memberships**).</span></span>
 
-   - <span data-ttu-id="3cea5-171">Het de licenties **Enterprise Mobility + Security E5** en **Office 365 Enterprise E5** heeft toegewezen gekregen (in **productlicenties**).</span><span class="sxs-lookup"><span data-stu-id="3cea5-171">It has been assigned the **Enterprise Mobility + Security E5** and **Office 365 Enterprise E5** licenses (in **Product licenses**).</span></span>
+   - <span data-ttu-id="3231e-171">Het de licenties **Enterprise Mobility + Security E5** en **Office 365 Enterprise E5** heeft toegewezen gekregen (in **productlicenties**).</span><span class="sxs-lookup"><span data-stu-id="3231e-171">It has been assigned the **Enterprise Mobility + Security E5** and **Office 365 Enterprise E5** licenses (in **Product licenses**).</span></span>
 
-5. <span data-ttu-id="3cea5-172">Sluit het deelvenster voor het gebruikersaccount **gegadigde**.</span><span class="sxs-lookup"><span data-stu-id="3cea5-172">Close the **Candidate** user account pane.</span></span>
+5. <span data-ttu-id="3231e-172">Sluit het deelvenster voor het gebruikersaccount **gegadigde**.</span><span class="sxs-lookup"><span data-stu-id="3231e-172">Close the **Candidate** user account pane.</span></span>
 
-## <a name="record-values-for-future-reference"></a><span data-ttu-id="3cea5-173">Noteer waarden voor toekomstig gebruik</span><span class="sxs-lookup"><span data-stu-id="3cea5-173">Record values for future reference</span></span>
+## <a name="record-values-for-future-reference"></a><span data-ttu-id="3231e-173">Noteer waarden voor toekomstig gebruik</span><span class="sxs-lookup"><span data-stu-id="3231e-173">Record values for future reference</span></span>
 
-<span data-ttu-id="3cea5-174">Noteer deze waarden voor het werken met de proefabonnementen voor Office 365 en EMS voor deze ontwikkel- en testomgeving:</span><span class="sxs-lookup"><span data-stu-id="3cea5-174">Record these values for working with the Office 365 and EMS trial subscriptions for this dev/test environment:</span></span>
+<span data-ttu-id="3231e-174">Noteer deze waarden voor het werken met de proefabonnementen voor Office 365 en EMS voor deze ontwikkel- en testomgeving:</span><span class="sxs-lookup"><span data-stu-id="3231e-174">Record these values for working with the Office 365 and EMS trial subscriptions for this dev/test environment:</span></span>
 
-- <span data-ttu-id="3cea5-175">De naam van de organisatie voor uw proefabonnement:</span><span class="sxs-lookup"><span data-stu-id="3cea5-175">Your trial subscription organization name:</span></span> ![Onderstrepen](../../media/Common-Images/TableLine.png)
+- <span data-ttu-id="3231e-175">De naam van de organisatie voor uw proefabonnement:</span><span class="sxs-lookup"><span data-stu-id="3231e-175">Your trial subscription organization name:</span></span> ![Onderstrepen](../../media/Common-Images/TableLine.png)
 
-  <span data-ttu-id="3cea5-177">Voor de domeinnaam van het proefabonnement van contoso.onmicrosoft.com is de naam van de organisatie 'contoso'.</span><span class="sxs-lookup"><span data-stu-id="3cea5-177">For example, for the trial subscription domain name of contoso.onmicrosoft.com, the organization name is "contoso".</span></span>
+  <span data-ttu-id="3231e-177">Voor de domeinnaam van het proefabonnement van contoso.onmicrosoft.com is de naam van de organisatie 'contoso'.</span><span class="sxs-lookup"><span data-stu-id="3231e-177">For example, for the trial subscription domain name of contoso.onmicrosoft.com, the organization name is "contoso".</span></span>
 
-- <span data-ttu-id="3cea5-178">De naam van de globale beheerder:</span><span class="sxs-lookup"><span data-stu-id="3cea5-178">The global administrator name:</span></span> ![Onderstrepen](../../media/Common-Images/TableLine.png)<span data-ttu-id="3cea5-180">.onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="3cea5-180">.onmicrosoft.com</span></span>
+- <span data-ttu-id="3231e-178">De naam van de globale beheerder:</span><span class="sxs-lookup"><span data-stu-id="3231e-178">The global administrator name:</span></span> ![Onderstrepen](../../media/Common-Images/TableLine.png)<span data-ttu-id="3231e-180">.onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="3231e-180">.onmicrosoft.com</span></span>
 
-  <span data-ttu-id="3cea5-181">Sla het wachtwoord voor dit account en het algemene wachtwoord voor de andere gebruikersaccounts op een veilige locatie op.</span><span class="sxs-lookup"><span data-stu-id="3cea5-181">Record the password for this account and the common initial password for the other user accounts in a secure location.</span></span>
+  <span data-ttu-id="3231e-181">Sla het wachtwoord voor dit account en het algemene wachtwoord voor de andere gebruikersaccounts op een veilige locatie op.</span><span class="sxs-lookup"><span data-stu-id="3231e-181">Record the password for this account and the common initial password for the other user accounts in a secure location.</span></span>
 
-## <a name="next-step"></a><span data-ttu-id="3cea5-182">Volgende stap</span><span class="sxs-lookup"><span data-stu-id="3cea5-182">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="3231e-182">Volgende stap</span><span class="sxs-lookup"><span data-stu-id="3231e-182">Next step</span></span>
 
-<span data-ttu-id="3cea5-183">Maak de vier verschillende soorten SharePoint Online-teamsites in deze ontwikkel-/testomgeving met [teamsites maken in een ontwikkel-en testomgeving voor politieke campagnes](create-team-sites-in-a-political-campaign-dev-test-environment.md).</span><span class="sxs-lookup"><span data-stu-id="3cea5-183">Build the four different types of SharePoint Online team sites in this dev/test environment with [Create team sites in a political campaign dev/test environment](create-team-sites-in-a-political-campaign-dev-test-environment.md).</span></span>
+<span data-ttu-id="3231e-183">Maak de vier verschillende soorten SharePoint Online-teamsites in deze ontwikkel-/testomgeving met [teamsites maken in een ontwikkel-en testomgeving voor politieke campagnes](create-team-sites-in-a-political-campaign-dev-test-environment.md).</span><span class="sxs-lookup"><span data-stu-id="3231e-183">Build the four different types of SharePoint Online team sites in this dev/test environment with [Create team sites in a political campaign dev/test environment](create-team-sites-in-a-political-campaign-dev-test-environment.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="3cea5-184">Zie ook</span><span class="sxs-lookup"><span data-stu-id="3cea5-184">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3231e-184">Zie ook</span><span class="sxs-lookup"><span data-stu-id="3231e-184">See also</span></span>
 
-[<span data-ttu-id="3cea5-185">Microsoft-beveiligingsrichtlijnen voor politieke campagnes, non-profitorganisaties en andere flexibele organisaties</span><span class="sxs-lookup"><span data-stu-id="3cea5-185">Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations</span></span>](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
+[<span data-ttu-id="3231e-185">Microsoft-beveiligingsrichtlijnen voor politieke campagnes, non-profitorganisaties en andere flexibele organisaties</span><span class="sxs-lookup"><span data-stu-id="3231e-185">Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations</span></span>](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
 
-[<span data-ttu-id="3cea5-186">Team sites maken in een ontwikkel-en testomgeving voor politieke campagnes</span><span class="sxs-lookup"><span data-stu-id="3cea5-186">Create team sites in a political campaign dev/test environment</span></span>](create-team-sites-in-a-political-campaign-dev-test-environment.md)
+[<span data-ttu-id="3231e-186">Team sites maken in een ontwikkel-en testomgeving voor politieke campagnes</span><span class="sxs-lookup"><span data-stu-id="3231e-186">Create team sites in a political campaign dev/test environment</span></span>](create-team-sites-in-a-political-campaign-dev-test-environment.md)
 
-[<span data-ttu-id="3cea5-187">Testlabrichtlijnen voor cloudacceptatie (TLG's)</span><span class="sxs-lookup"><span data-stu-id="3cea5-187">Cloud adoption Test Lab Guides (TLGs)</span></span>](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[<span data-ttu-id="3231e-187">Testlabrichtlijnen voor cloudacceptatie (TLG's)</span><span class="sxs-lookup"><span data-stu-id="3231e-187">Cloud adoption Test Lab Guides (TLGs)</span></span>](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
 
-[<span data-ttu-id="3cea5-188">Cloud adoption and hybrid solutions</span><span class="sxs-lookup"><span data-stu-id="3cea5-188">Cloud adoption and hybrid solutions</span></span>](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
+[<span data-ttu-id="3231e-188">Cloud adoption and hybrid solutions</span><span class="sxs-lookup"><span data-stu-id="3231e-188">Cloud adoption and hybrid solutions</span></span>](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
