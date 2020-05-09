@@ -1,7 +1,7 @@
 - name: Zakelijke abonnementen beheren
   href: index.yml
 - name: Helpcentrum voor beheerders van Microsoft 365
-  href: ../admin/admin-home.md
+  href: ../admin/index.yml
 - name: Uitproberen of kopen
   items:
     - name: Aanmelden voor de proefversie van Microsoft 365
@@ -51,7 +51,7 @@
     - name: Inzicht in uw factuur
       href: billing-and-payments/understand-your-invoice.md
     - name: Betaalmethoden beheren
-      href: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
+      href: billing-and-payments/manage-payment-methods.md
     - name: Betalen voor uw abonnement
       href: billing-and-payments/pay-for-your-subscription.md
     - name: Betaalmethode wijzigen
