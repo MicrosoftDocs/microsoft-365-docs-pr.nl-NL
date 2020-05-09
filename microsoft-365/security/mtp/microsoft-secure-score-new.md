@@ -1,5 +1,5 @@
 ---
-title: Microsoft Secure Score (voorbeeld)
+title: Microsoft Secure Score nieuw
 description: Beschrijft de Microsoft Secure Score in het Microsoft 365-beveiligingscentrum, hoe details worden berekend en wat beveiligingsbeheerders kunnen verwachten.
 keywords: beveiliging, malware, Microsoft 365, M365, beveiligde score, beveiligingscentrum, verbeteringsacties
 ms.prod: w10
@@ -17,17 +17,19 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 0a721311706faccbd7563520183c7f198298dddc
+ms.openlocfilehash: 965b4cf872129dc7bc9b439c1c15025acceb44c6
 ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173460"
+ms.locfileid: "44173544"
 ---
-# <a name="microsoft-secure-score-preview"></a>Microsoft Secure Score (voorbeeld)
+# <a name="microsoft-secure-score-new"></a>Microsoft Secure Score (nieuw)
 
 >[!IMPORTANT]
->Sommige informatie heeft betrekking op vooraf uitgebrachte product dat aanzienlijk kan worden gewijzigd voordat het commercieel wordt vrijgegeven. Microsoft doet geen garanties, uitdrukkelijk of impliciet, met betrekking tot de hier verstrekte informatie.
+>Deze nieuwe iteratie van Microsoft Secure Score vervangt de vorige iteratie door nieuwe ontwerpelementen en -functies in de komende maanden
+>
+>Als u geen **tabblad Statistieken & trends** naast Geschiedenis ziet, bevindt u zich in de vorige iteratie. [Ga naar Microsoft Secure Score (vorige iteratie)](microsoft-secure-score.md)
 
 Microsoft Secure Score is een meting van de beveiligingshouding van een organisatie, met een hoger aantal dat aangeeft dat er meer verbeteracties zijn uitgevoerd. Het kan worden https://security.microsoft.com/securescore gevonden op in de [Microsoft 365 security center](overview-security-center.md).
 
@@ -103,8 +105,8 @@ Om u te helpen sneller de informatie te verzamelen die u nodig hebt, worden micr
 
 Op de overzichtspagina van Microsoft Secure Score u zien hoe punten worden verdeeld over deze groepen en welke punten beschikbaar zijn. De overzichtspagina is ook de plek om een totaalbeeld te krijgen van de totale score, historische trend van uw beveiligde score met benchmarkvergelijkingen en geprioritteerde verbeteringsacties die kunnen worden ondernomen om uw score te verbeteren.
 
-![Overzichtspagina](../../media/secure-score/secure-score-homepage.png)
-van de beveiligde score*homepage figuur 1: Microsoft Secure Score*
+![Startpagina van beveiligde score](../../media/secure-score/secure-score-homepage-new.png)
+
 
 ## <a name="take-action-to-improve-your-score"></a>Onderneem actie om je score te verbeteren
 
@@ -176,32 +178,12 @@ Microsoft Secure Score is een numerieke samenvatting van uw beveiligingshouding 
 
 Om van Microsoft Secure Score een betere vertegenwoordiger van uw beveiligingshouding te maken, hebben we enkele wijzigingen aangebracht. Zie [Wat komt er in Microsoft Secure Score?](microsoft-secure-score-whats-coming.md)
 
-### <a name="april-2020"></a>April 2020
+- Added Azure Active Directory improvement actions Added Azure Active Directory improvement actions Added Azure Active Directory improvement actions Added Azure
+- Azure Advanced Threat Protection-verbeteringsacties toegevoegd
+- Ondersteuning voor beveiligingsaanbevelingen voor Microsoft Defender [ATP-dreiging & kwetsbaarheidsbeheer](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
+    - Alle vrijgegeven beveiligingsaanbevelingen van TVM zijn nu beschikbaar
 
-#### <a name="added-azure-active-directory-improvement-action"></a>Added Azure Active Directory improvement action Added Azure Active Directory improvement action Added Azure Active Directory improvement action Added Azure
-
-- Geef gebruikers geen toestemming voor onbeheerde toepassingen (momenteel beschikbaar in een vrijgegeven versie)
-
-#### <a name="added-azure-advanced-threat-protection-improvement-actions"></a>Azure Advanced Threat Protection-verbeteringsacties toegevoegd
-
-- Afdrukspoolerservice uitschakelen op domeincontrollers
-- Onveilige Kerberos-delegaties wijzigen om imitatie te voorkomen
-- Lokale beheerderswachtwoorden beveiligen en beheren met Microsoft LAPS
-- Risico op zijwaarts e-bewegens bewegingspad voor gevoelige entiteiten verminderen
-- Slapende accounts verwijderen uit gevoelige groepen
-- Onveilige SID-geschiedeniskenmerken verwijderen uit entiteiten
-- Onveilige accountkenmerken oplossen
-- De belichting met wissen van tekstreferenties stoppen
-- Verouderde protocollen communicatie stoppen
-- Stop zwak versleutelingsgebruik
-
-#### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations"></a>Ondersteuning voor beveiligingsaanbevelingen voor Microsoft Defender ATP Threat & Vulnerability Management (TVM)
-
-Alle vrijgegeven beveiligingsaanbevelingen van TVM zijn nu beschikbaar.
-
-### <a name="january---march-2020"></a>Januari - maart 2020
-
-#### <a name="updated-interface-and-functionality"></a>Bijgewerkte interface en functionaliteit
+### <a name="updated-interface-and-functionality"></a>Bijgewerkte interface en functionaliteit
 
 * Alle nieuwe statistieken en trends weergaven voor CISO en lead level discussies
 * Nieuwe manieren om je score bij te houden en te benchmarken
@@ -209,16 +191,6 @@ Alle vrijgegeven beveiligingsaanbevelingen van TVM zijn nu beschikbaar.
 * Uw verbeteringsacties filteren, taggen, zoeken en groeperen
 * Beheren naar uw toekomstige doelen met behulp van scoreprojecties en geplande acties
 * En meer!
-
-#### <a name="removed-not-scored-and-review-improvement-actions"></a>Verwijderd "not scored" en "review" verbeteringsacties
-
-Een van de principes van Secure Score is dat de score gestandaardiseerd en gemakkelijk te relateren aan. Het hebben van verbeteringsacties die niet meetbaar of uitvoerbaar zijn, heeft verwarring veroorzaakt. Eén Microsoft Secure Score heeft alleen zin als elke aanbeveling een duidelijk effect op de score kan hebben. Niet-gescoorde verbeteringsacties zijn niet meetbaar en beoordelingsverbeteringsacties worden niet gemeten volgens dezelfde standaard als andere verbeteringsacties.
-
-Om deze redenen zijn alle verbeteringsacties die niet zijn gescoord of waarvoor een beoordelingscadans nodig was, tijdelijk verwijderd. Er is geen actie nodig van uw kant.
-
-#### <a name="simplification-of-the-point-system"></a>Vereenvoudiging van het puntensysteem
-
-Om punten te standaardiseren voor meerdere ervaringen, is elk actiepunt voor verbetering van de beveiligde score bijgewerkt om 10 punten of minder waard te zijn. Het is noodzakelijk om consistenter te zijn in de brede adempauze van veiligheidscontroles die we vandaag hebben en die we in de toekomst zullen toevoegen. Hoewel dit een belangrijke verandering is en u een daling van punttotalen zult zien, zal er geen verandering in uw veiligheidshouding zijn.
 
 ## <a name="we-want-to-hear-from-you"></a>We willen graag van je horen
 

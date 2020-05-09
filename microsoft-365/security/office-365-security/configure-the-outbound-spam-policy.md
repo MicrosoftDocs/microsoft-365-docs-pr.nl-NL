@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel vindt u meer informatie over het configureren van uitgaand spambeleid dat van toepassing is op specifieke gebruikers, groepen of domeinen in uw organisatie.
-ms.openlocfilehash: 644ffb51c92f4d71d3ae2cde1eba408289573f48
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: efd3fecc2447435f40e4e20fd958e8f3b2d8e48f
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036786"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173438"
 ---
 # <a name="configure-outbound-spam-filtering"></a>Filteren van uitgaande spam configureren
 
@@ -53,7 +53,7 @@ Het verschil tussen deze twee elementen is niet duidelijk wanneer u uitgaande sp
 
 - Wanneer u een uitgaand spambeleid verwijdert uit het Security & Compliance Center, worden de regel voor uitgaand spamfilter en het bijbehorende uitgaande spamfilterbeleid verwijderd.
 
-In Exchange Online PowerShell of zelfstandige Exchange Online Protection PowerShell is het verschil zichtbaar tussen uitgaand spamfilterbeleid en uitgaande spamfilterregels. U beheert het beleid voor ** \*** uitgaande spamfilters met behulp van de cmdlets -HostedContentFilterPolicy en u beheert uitgaande spamfilterregels met behulp van de ** \*cmdlets -HostedContentFilterRule.**
+In Exchange Online PowerShell of zelfstandige Exchange Online Protection PowerShell is het verschil zichtbaar tussen uitgaand spamfilterbeleid en uitgaande spamfilterregels. U beheert het beleid voor uitgaande spamfilters met behulp van de ** \*cmdlets -HostedOutboundSpamFilterPolicy** en u beheert uitgaande spamfilterregels met behulp van de ** \*cmdlets -HostedOutboundSpamFilterRule.**
 
 - In PowerShell maakt u eerst het uitgaande spamfilterbeleid en vervolgens maakt u de regel voor uitgaande spamfilters die het beleid identificeert waarop de regel van toepassing is.
 

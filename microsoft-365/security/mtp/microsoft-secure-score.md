@@ -1,6 +1,6 @@
 ---
-title: Microsoft Secure Score
-description: Beschrijft de Microsoft Secure Score in het Microsoft 365-beveiligingscentrum, hoe details worden berekend en wat beveiligingsbeheerders kunnen verwachten.
+title: Microsoft Secure Score (vorige iteratie)
+description: Beschrijft de Microsoft Secure Score in het Microsoft 365-beveiligingscentrum, hoe u uw beveiligingshouding verbeteren en wat beveiligingsbeheerders kunnen verwachten.
 keywords: beveiliging, malware, Microsoft 365, M365, beveiligde score, beveiligingscentrum, verbeteringsacties
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -17,14 +17,19 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 9f39878ca56aef3ec8c9d89805a87196c19eb5b8
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 383ef5a0ff61b861bd72dc08d7b974ef98592fcc
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141505"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173390"
 ---
-# <a name="microsoft-secure-score"></a>Microsoft Secure Score
+# <a name="microsoft-secure-score-previous-iteration"></a>Microsoft Secure Score (vorige iteratie)
+
+>[!IMPORTANT]
+>Deze iteratie van Microsoft Secure Score wordt de komende maanden vervangen door nieuwe ontwerpelementen en -functies. Als u de nieuwste iteratie nog niet ziet, zult u dat binnenkort doen.
+>
+>Als u naast Geschiedenis een tabblad **Statistieken & trends** ziet, bevindt u zich in de nieuwe iteratie. [Ga naar Microsoft Secure Score (nieuw)](microsoft-secure-score-new.md)
 
 Microsoft Secure Score is een meting van de beveiligingshouding van een organisatie, met een hoger aantal dat aangeeft dat er meer verbeteracties zijn uitgevoerd. Het volgen van de aanbevelingen voor beveiligingsscore kan uw organisatie beschermen tegen bedreigingen. Vanuit een gecentraliseerd dashboard in het Microsoft 365-beveiligingscentrum kunnen organisaties de beveiliging van hun Microsoft 365-identiteiten, gegevens, apps, apparaten en infrastructuur bewaken en eraan werken.
 

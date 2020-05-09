@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 'Meer informatie over het opnieuw instellen van het wachtwoord voor een gebruiker in een Abonnement op Microsoft 365 voor Bedrijven. '
-ms.openlocfilehash: 14226927680c70035a01d9390f114cb0bfddbf38
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 32d2d529ab4e2592556613b016231dbbd93458b3
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064807"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173516"
 ---
 # <a name="reset-passwords"></a>Wachtwoorden opnieuw instellen
 
@@ -79,11 +79,11 @@ Deze stappen zijn alleen voor mensen die een Microsoft 365 voor bedrijfsabonneme
 
 Gebruik deze stappen als u uw wachtwoord bent vergeten, maar u zich aanmelden bij Microsoft 365 omdat uw wachtwoord bijvoorbeeld in uw browser wordt opgeslagen: 
     
-1. Selecteer in Microsoft 365 De optie **Persoonlijke gegevens van** \> **Office 365** \> **instellen**. 
+1. Selecteer uw naam (pictogram) in de rechterbovenhoek >**Persoonlijke gegevens** **van mijn account** > . 
           
-2. Controleer goed of uw **Contactgegevens** en **Alternatief e-mailadres** correct zijn. Als dit niet zo is, wijzigt u deze nu. 
+2. Controleer **onder Contactgegevens**of uw **alternatieve e-mail** juist is en of u een mobiel telefoonnummer hebt opgegeven. Als dit niet zo is, wijzigt u deze nu. 
         
-3. Meld u af bij Office 365: selecteer uw naam in de rechterbovenhoek (in de bovenstaande afbeelding weergegeven als **Willeke**) \>**Afmelden**. 
+3. Afmelden: selecteer uw naam in de rechterbovenhoek (in **Diane**de \> bovenstaande afbeelding, weergegeven als Diane ) **Afmelden**. 
         
 4. Meld u nu weer aan: typ uw gebruikersnaam van de gebruiker \> **Volgende** \> en selecteer vervolgens **Wachtwoord vergeten**. 
     
@@ -92,6 +92,8 @@ Gebruik deze stappen als u uw wachtwoord bent vergeten, maar u zich aanmelden bi
 Als u uw wachtwoord bent vergeten en u zich niet kunt aanmelden: 
     
 - Vraag een andere globale beheerder in uw bedrijf uw wachtwoord opnieuw in te stellen.
+
+- Zorg ervoor dat u alternatieve contactgegevens hebt verstrekt, waaronder een mobiel telefoonnummer. 
     
 - U kunt ook [Microsoft Ondersteuning bellen](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). 
     

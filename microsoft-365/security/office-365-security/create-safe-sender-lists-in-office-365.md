@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe beheerders een lijst met veilige afzenders kunnen maken in Microsoft 365 en EOP waarmee binnenkomende berichten spamfilters kunnen overslaan.
-ms.openlocfilehash: e09d607f6b5203bdc3ab23ad5bd6e8f85782605a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 300ecf8cfdb7436b8eda306a28c237ed8bf19760
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036341"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173414"
 ---
 # <a name="create-safe-sender-lists"></a>Lijsten met veilige afzenders maken
 
@@ -85,7 +85,7 @@ In het volgende voorbeeld wordt ervan uitgegaan dat u e-mail van contoso.com nod
 
 ## <a name="use-outlook-safe-senders"></a>Outlook Safe Senders gebruiken
 
-In plaats van een organisatieinstelling kunnen gebruikers of beheerders de e-mailadressen van de afzender toevoegen aan de lijst Veilige afzenders in het postvak. Zie Instellingen [voor ongewenste e-mail configureren in Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md)voor instructies.
+In plaats van een organisatieinstelling kunnen gebruikers of beheerders de e-mailadressen van de afzender toevoegen aan de lijst Veilige afzenders in het postvak. Zie Instellingen [voor ongewenste e-mail configureren in Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md)voor instructies. Dit is niet wenselijk in de meeste situaties, omdat afzenders delen van de filterstapel zullen omzeilen. Hoewel u de afzender vertrouwt, kan de afzender worden gecompromitteerd en uiteindelijk schadelijke inhoud verzenden. Het is het beste dat u onze filters laat doen wat nodig is om elk bericht te controleren en vervolgens [het false positive/negative aan Microsoft te melden](report-junk-email-messages-to-microsoft.md) als onze filters het verkeerd hebben. Dit belemmert ook op [Zap](zero-hour-auto-purge.md) doen wat het moet doen om de boodschap ook.
 
 Wanneer berichten spamfilters overslaan vanwege de lijst Met veilige afzenders van een gebruiker, bevat het `SFV:SFE`headerveld **X-Forefront-Antispam-Report** de waarde , wat aangeeft dat spam, spoof en phish-filtering zijn omzeild.
 

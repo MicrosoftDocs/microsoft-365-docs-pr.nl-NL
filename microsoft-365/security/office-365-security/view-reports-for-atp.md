@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Rapporten zoeken en gebruiken voor Geavanceerde bedreigingsbeveiliging &amp; van Office 365 in het Security Compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56e8b79ad85a5801f75a6ed36a58afe58b552527
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: c202e7df274e81da5395f7466199d85443361c05
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034960"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173320"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Rapporten weergeven voor geavanceerde bedreigingsbeveiliging van Office 365
 
@@ -101,7 +101,7 @@ Dit rapport is gebaseerd op gegevens verzameld, en bedreigingen gedetecteerd, pe
 In de detailstabel u meer informatie zien over kliktijd en gebruikersinformatie. Houd tot slot rekening met het rapport URL-beveiligingsstatus toont de functie Bescherming tegen ATP Safe Links, zodat alleen klanten die ATP Safe Links hebben ingeschakeld, gegevens in dit rapport zien.
 
 > [!NOTE]
-> Dit is een *trendrapport voor bescherming,* wat betekent dat gegevens trends in een grotere gegevensset vertegenwoordigen. Rapportage is hier niet in realtime beschikbaar. Voor realtime URL-klikgegevens blijft u URL-trace gebruiken.
+> Dit is een *trendrapport voor bescherming,* wat betekent dat gegevens trends in een grotere gegevensset vertegenwoordigen. Als gevolg hiervan zijn de gegevens in de geaggregeerde weergave hier niet in realtime beschikbaar, maar de gegevens in de tabelweergave met details wel, dus u een kleine discrepantie zien tussen de twee weergaven.
 
 ## <a name="atp-file-types-report"></a>ATP-bestandstyperapport
 

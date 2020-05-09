@@ -21,20 +21,21 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Meer informatie over het instellen van bepaalde afzonderlijke gebruikerswachtwoorden die nooit verlopen met Windows PowerShell.
-ms.openlocfilehash: 66c4901d171f5ed2e07d7a9f5cccbf141dc3d04d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3d5d65f687a5ed02e0e20ff77482f7bef5b6b695
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43624032"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173494"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Het wachtwoord van een gebruiker zo instellen dat het nooit verloopt
 
 ## <a name="set-the-password-expiration-policy-for-your-organization"></a>Het wachtwoordverloopbeleid voor uw organisatie instellen:
 
-1. Ga in het beheercentrum naar de privacypagina **Instellingenbeveiliging** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">&.</a>
-2. Selecteer naast **het wachtwoordbeleid** **Bewerken**. 
-3. Als wachtwoorden nooit verlopen, stelt u de schakelaar in op **Uitschakelen.** U krijgt de optie om het aantal dagen op te geven totdat wachtwoorden verlopen.
+1. Ga in het beheercentrum naar de pagina **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">instellingen.</a>
+2. Selecteer beveiliging **& Privacy**boven aan de pagina Instellingen .
+3. Selecteer **Verloopbeleid wachtwoorden**. 
+4. Als wachtwoorden nooit verlopen, klikt u op het selectievakje naast **Gebruikerswachtwoorden instellen om na een aantal dagen te verlopen.** U krijgt de optie om het aantal dagen op te geven totdat wachtwoorden verlopen.
 
 ## <a name="set-the-password-expiration-policy-for-individual-users"></a>Het wachtwoordverloopbeleid instellen voor individuele gebruikers
 

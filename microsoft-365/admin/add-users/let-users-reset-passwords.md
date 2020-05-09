@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Meer informatie over hoe u uw wachtwoorden opnieuw instellen met behulp van het hulpprogramma voor het opnieuw instellen van selfservicewachtwoorden.
-ms.openlocfilehash: 9d9a1f97f9f6fc59b54f2f9bdce9c337c7d57b13
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 01099f6f678bbaa3b163ac59e0417614352e0e97
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919433"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173528"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 
@@ -53,7 +53,7 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
 Met deze stappen wordt selfservice voor wachtwoordherstel ingeschakeld voor iedereen in uw bedrijf.
   
 ::: moniker range="o365-worldwide"
-1.  Ga in het beheercentrum naar de privacypagina **Instellingenbeveiliging** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">&.</a>
+1. Ga in het beheercentrum naar de pagina **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">instellingen.</a>
 
 ::: moniker-end
 
@@ -70,13 +70,13 @@ Met deze stappen wordt selfservice voor wachtwoordherstel ingeschakeld voor iede
 ::: moniker-end
 
    
-2. Selecteer **Self-service wachtwoord opnieuw instellen**, selecteer de koppeling voor de Ga naar de **Azure-portal om selfservice wachtwoord opnieuw instellen in te schakelen.** U ontvangt Azure vervolgens gratis.
+2. Selecteer beveiliging **& Privacy**boven aan de pagina Instellingen .
   
-3. Selecteer **Gebruikers** in de linkernavigatie en selecteer **Vervolgens Wachtwoord opnieuw instellen**.
+3. Selecteer **Self Service Password Reset**.
   
 4. Selecteer op de pagina Eigenschappen de optie **Alles** om het in te schakelen voor iedereen in uw bedrijf en selecteer **Opslaan**.
   
-5. Wanneer gebruikers zich aanmelden bij Office 365, wordt ze gevraagd aanvullende contactgegevens op te geven waarmee ze in de toekomst hun wachtwoord opnieuw kunnen instellen.
+5. Wanneer uw gebruikers zich aanmelden, wordt hen gevraagd aanvullende contactgegevens in te voeren waarmee ze hun wachtwoord in de toekomst kunnen resetten.
 
 ## <a name="related-articles"></a>Verwante artikelen
 
