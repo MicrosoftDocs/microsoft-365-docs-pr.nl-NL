@@ -24,14 +24,21 @@ search.appverid:
 - GEA150
 ms.assetid: 997596b5-4173-4627-b915-36abac6786dc
 description: Informatie over het toewijzen van licenties aan gebruikers of het overzetten van gebruikers naar een nieuw abonnement.
-ms.openlocfilehash: 2019aeef0d802e92489b09bbddb564c4ecded8c0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 971141514f9117db69a2fbc8f91c2e42b329c33a
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628242"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139695"
 ---
 # <a name="assign-licenses-to-users"></a>Licenties aan gebruikers toewijzen
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 ::: moniker range="o365-worldwide"
 

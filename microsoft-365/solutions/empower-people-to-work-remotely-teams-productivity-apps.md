@@ -1,5 +1,5 @@
 ---
-title: 4. Productiviteitsapps en -services implementeren voor externe medewerkers
+title: Stap 4. Productiviteitsapps en -services implementeren voor externe medewerkers
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -14,17 +14,17 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-ms.custom:
 - M365solutions
+ms.custom: ''
 description: Geef uw gebruikers de mogelijkheid productief te zijn met Teams, Exchange, SharePoint en andere Microsoft 365-services.
-ms.openlocfilehash: dddc3cac8a6cb955e8a337eed07279ba75c029aa
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 2fc55ff9f991c75e8124c710e60fe2ba34ed7f17
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002766"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160736"
 ---
-# <a name="4-deploy-remote-worker-productivity-apps-and-services"></a>4. Productiviteitsapps en -services implementeren voor externe medewerkers
+# <a name="step-4-deploy-remote-worker-productivity-apps-and-services"></a>Stap 4. Productiviteitsapps en -services implementeren voor externe medewerkers
 
 Om productief te zijn, moeten mensen met elkaar kunnen communiceren en samenwerken. Ze moeten kunnen vergaderen, chatten via spraak en tekst, nieuwe inhoud kunnen maken, bestanden en informatie delen, e-mails uitwisselen en agenda's en taken kunnen beheren. Microsoft 365 bied cloudservices voor al deze belangrijke functies:
 
@@ -32,6 +32,8 @@ Om productief te zijn, moeten mensen met elkaar kunnen communiceren en samenwerk
 - Gebruik Exchange Online en de Outlook-client voor het uitwisselen van e-mail en het beheer van agenda's, contactpersonen en taken.
 - Gebruik SharePoint en OneDrive voor het opslaan van en samenwerken aan bestanden. U kunt ze gebruiken met een webbrowser of binnen Teams.
 - Microsoft 365-apps zijn versies van Word, PowerPoint, Excel en Outlook, voor het maken van nieuwe inhoud of samenwerken aan bestaande inhoud, die zijn geïnstalleerd op uw lokale computer en die voortdurend functie- en beveiligingsupdates ontvangen.
+
+![De apps Teams, Outlook, SharePoint, OneDrive en Microsoft 365 gebruiken om productief te blijven](../media/empower-people-to-work-remotely/remote-workers-productivity-grid.png)
 
 ## <a name="keep-people-connected-with-microsoft-teams"></a>Houd iedereen verbonden met Microsoft Teams
 

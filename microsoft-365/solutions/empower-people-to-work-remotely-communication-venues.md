@@ -1,5 +1,5 @@
 ---
-title: '# Stap 5: Communicatielocaties voor COVID-19-crisis maken'
+title: 'Stap 5: Communicatielocaties voor COVID-19-crisis maken'
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -14,14 +14,15 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
+- M365solutions
 ms.custom: ''
 description: Gebruik Microsoft 365 om op verschillende manieren te communiceren over intern en openbaar nieuws over COVID-19.
-ms.openlocfilehash: 189e0bde959ee8ad245b03cb5aca42ab6b19a0b3
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 686cfa12d76bf4122ebe4ae22a49da938322fee9
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002710"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160808"
 ---
 # <a name="step-5-create-covid-19-crisis-communication-venues"></a>Stap 5: Communicatielocaties voor COVID-19-crisis maken
 
@@ -31,6 +32,8 @@ U kunt op veel manieren extra communicatielocaties bieden om aan de unieke verei
 - Geconsolideerde volksgezondheid en nieuws in één portal
 - Een communicatiesite in SharePoint Online
 - Een Yammer-community
+
+![Communicatielocaties voor COVID-19-crisis](../media/empower-people-to-work-remotely/comm-venues-grid.png)
 
 ## <a name="employee-surveys"></a>Enquêtes voor werknemers
 
