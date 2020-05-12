@@ -19,18 +19,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel leert u hoe u in quarantaine geplaatste berichten kunt weergeven en beheren in het Beveiligings- en compliancecentrum van Microsoft 365.
-ms.openlocfilehash: 177f60f1fccc764d74ec0374249a62c602cb84aa
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: ff6cb3dbf9a0a2010bf792115c53265689873090
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036510"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173378"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user"></a>Berichten in quarantaine zoeken en vrijgeven als gebruiker
 
 Potentieel gevaarlijke of ongewenste berichten worden in quarantaine geplaatst in Microsoft 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken. Zie [Quarantaine in Office 365](quarantine-email-messages.md) voor meer informatie.
 
-Als gebruiker kunt u uw berichten in quarantaine waarvan u ontvanger bent en het bericht in quarantaine werd geplaatst als spam, bulkmail of (vanaf april 2020) phishing, zien, vrijgeven en verwijderen. U kunt uw in quarantaine geplaatste berichten weergeven en beheren in het beveiligings- en compliancecentrum of (als een beheerder dit heeft ingesteld) in [spammeldingen voor eindgebruikers](use-spam-notifications-to-release-and-report-quarantined-messages.md).
+Als gebruiker kunt u uw berichten in quarantaine zien, vrijgeven en verwijderen, als u een ontvanger bent en het bericht in quarantaine is geplaatst als spam of bulkmail. Vanaf april 2020 kunt u phishingberichten (niet de e-mails met hoge waarschijnlijkheid) weergeven of verwijderen als u een ontvanger bent. U kunt uw in quarantaine geplaatste berichten weergeven en beheren in het beveiligings- en compliancecentrum of (als een beheerder dit heeft ingesteld) in [spammeldingen voor eindgebruikers](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 

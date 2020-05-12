@@ -1,6 +1,6 @@
 ---
-title: Illustraties voor Microsoft 365-productiviteit
-description: Gebruik deze illustraties om inzicht te krijgen in de basisprincipes van de architectuur voor het implementeren van Microsoft 365-productiviteitsoplossingen.
+title: Illustraties van Microsoft 365-productiviteit
+description: Gebruik deze illustraties om inzicht te krijgen in de basisbeginselen van de architectuur voor de implementatie van Microsoft 365-productiviteitsoplossingen.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -11,70 +11,70 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - M365-security-compliance
-ms.custom:
 - M365solutions
+ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 8482c6591958e36f2c764d61f3fa7116f348f8d8
-ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
-ms.translationtype: MT
+ms.openlocfilehash: 2ad424741ecbfe6f4bb8693df13a92bc71f012ce
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44022130"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160085"
 ---
-# <a name="microsoft-365-productivity-illustrations"></a>Illustraties voor Microsoft 365-productiviteit
+# <a name="microsoft-365-productivity-illustrations"></a>Illustraties van Microsoft 365-productiviteit
 
-De Microsoft 365 enterprise solution-serie biedt richtlijnen voor de implementatie van Microsoft 365-mogelijkheden, vooral waar mogelijkheden technologieën overschrijden.
+De reeks bedrijfsoplossingen van Microsoft 365 bevat richtlijnen voor de implementatie van Microsoft 365-functionaliteit, met name wanneer er gebruik wordt gemaakt van meerdere technologieën.
 
 ### <a name="microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects"></a>Microsoft Teams en gerelateerde productiviteitsservices in Microsoft 365 voor IT-architecten
-De logische architectuur van productiviteitsservices in Microsoft 365, toonaangevend met Microsoft Teams.
+De logische architectuur van productiviteitsservices in Microsoft 365, geleid door Microsoft Teams.
 
 |**Item**|**Beschrijving**|
 |:-----|:-----|
-|[![Duimafbeelding voor logische architectuurposter teams](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>Bijgewerkt april 2019   |Microsoft biedt een reeks productiviteitsservices die samenwerken om samenwerkingservaringen te bieden met gegevensbeheer, beveiliging en nalevingsmogelijkheden. <br/> <br/>Deze serie illustraties biedt een overzicht van de logische architectuur van productiviteitsservices voor bedrijfsarchitecten, toonaangevend met Microsoft Teams.|
+|[![Miniatuurafbeelding van de poster Logische architectuur van Teams](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>Laatst bijgewerkt: april 2019   |Microsoft biedt een pakket met productiviteitsservices die samenwerken met behulp van functies voor gegevensbeheer, beveiliging en compliance. <br/> <br/>Deze reeks illustraties biedt een overzicht van de logische architectuur van productiviteitsservices voor ondernemingsarchitecten, geleid door Microsoft Teams.|
 
 
 ### <a name="groups-in-microsoft-365-for-it-architects"></a>Groepen in Microsoft 365 voor IT-architecten
-Wat IT-architecten moeten weten over groepen in Microsoft 365
+Wat IT-architecten moeten weten over Microsoft 365-groepen
 
 |**Item**|**Beschrijving**|
 |:-----|:-----|
-|[![Duimafbeelding voor groepen infographic](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) <br> Bijgewerkt juni 2019|Deze illustraties beschrijven de verschillende soorten groepen, hoe deze worden gemaakt en beheerd, en een paar governance aanbevelingen.|
+|[![Miniatuurafbeelding van de infographic voor groepen](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) <br> Laatst bijgewerkt: juni 2019|Deze illustraties tonen verschillende soorten groepen, hoe ze worden gemaakt en beheerd, en enkele aanbevelingen voor beheer.|
 
-### <a name="security-and-information-protection-for-multi-region-organizations"></a>Beveiliging en informatiebescherming voor organisaties in meerdere regio's
-Beveiliging en informatiebescherming voor organisaties in meerdere regio's met één microsoft 365-tenant
-
-|**Item**|**Beschrijving**|
-|:-----|:-----|
-|[![Duimafbeelding voor infographic met meerdere regio's](../media/solutions-architecture-center/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx)<br>Bijgewerkt maart 2020 |Het gebruik van één Microsoft 365-tenant voor uw wereldwijde organisatie is om vele redenen de beste keuze en ervaring. Veel architecten worstelen echter met hoe ze de doelstellingen op het gebied van beveiliging en informatiebescherming in verschillende regio's kunnen bereiken. Deze reeks onderwerpen geeft aanbevelingen. |
-
-### <a name="microsoft-defender-atp-deployment-strategy"></a>Microsoft Defender ATP-implementatiestrategie
-
-Afhankelijk van uw omgeving zijn sommige tools beter geschikt voor bepaalde architecturen.
-
+### <a name="security-and-information-protection-for-multi-region-organizations"></a>Beveiliging en informatiebescherming voor organisaties met meerdere regio's
+Beveiliging en informatiebescherming voor organisaties met meerdere regio's en een enkele microsoft 365-tenant
 
 |**Item**|**Beschrijving**|
 |:-----|:-----|
-|[![Duimafbeelding voor Microsoft Defender ATP-implementatiestrategie](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.vsdx) <br>Bijgewerkt in februari 2020| Het architectonisch materiaal helpt u bij het plannen van uw implementatie voor de volgende architecturen: <ul><li> Cloud-native </li><li> Co-management </li><li> On-premise</li><li>Evaluatie en lokale onboarding</li>
+|[![Miniatuurafbeelding van de infographic voor meerdere regio's](../media/solutions-architecture-center/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx)<br>Laatst bijgewerkt: maart 2020 |Een Microsoft 365-tenant voor uw wereldwijde organisatie is de beste keuze en ervaring om een groot aantal redenen. Veel architecten weten echter niet precies hoe ze de doelen voor beveiliging en informatiebescherming in verschillende regio's moeten realiseren. In deze serie onderwerpen vindt u aanbevelingen. |
+
+### <a name="microsoft-defender-atp-deployment-strategy"></a>Implementatiestrategie voor Microsoft Defender ATP
+
+Sommige hulpprogramma's zijn beter geschikt voor bepaalde architecturen, afhankelijk van uw omgeving.
+
+
+|**Item**|**Beschrijving**|
+|:-----|:-----|
+|[![Miniatuurafbeelding van de implementatiestrategie voor Microsoft Defender ATP](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf) \| [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.vsdx) <br>Laatst bijgewerkt: februari 2020| Met het materiaal voor architecten kunt u uw implementatie plannen voor de volgende architecturen: <ul><li> Cloud-native </li><li> Co-management </li><li> On-premises</li><li>Evaluatie en lokale onboarding</li>
 
 
 <a name="m365foundationinfra"></a>
-### <a name="microsoft-365-enterprise-foundation-infrastructure"></a>Infrastructuur van Microsoft 365 Enterprise Foundation
+### <a name="microsoft-365-enterprise-foundation-infrastructure"></a>Microsoft 365 Enterprise Foundation-infrastructuur
 
-Krijg in één oogopslag een overzicht van de [basisinfrastructuur](https://docs.microsoft.com/microsoft-365/enterprise/deploy-foundation-infrastructure) voor Microsoft 365 Enterprise om uw implementatie te starten.
+Bekijk een overzicht van de [Foundation Infrastructure](https://docs.microsoft.com/microsoft-365/enterprise/deploy-foundation-infrastructure) voor Microsoft 365 Enterprise om te beginnen met de implementatie.
   
 |**Item**|**Beschrijving**|
 |:-----|:-----|
-|[![Miniatuurafbeelding van de microsoft 365 Enterprise Foundation Infrastructure-poster](../media/solutions-architecture-center/Microsoft365EnterpriseFoundInfra-thumb.png)](https://aka.ms/m365efoundinfraposter) <br/> [Bekijk online](https://aka.ms/m365efoundinfraposter) \| [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft365EnterpriseFoundInfra.pdf) <br/> Bijgewerkt in december 2019| Deze poster vat elke fase van de funderingsinfrastructuur samen in termen van doelen, functies en tools, ontwerpbeslissingen, configuratieresultaten, onboarding en doorlopende monitoring en updates. <br/>| 
+|[![Miniatuurafbeelding van de poster Microsoft 365 Enterprise Foundation](../media/solutions-architecture-center/Microsoft365EnterpriseFoundInfra-thumb.png)](https://aka.ms/m365efoundinfraposter) <br/> [Online weergeven](https://aka.ms/m365efoundinfraposter) \| [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft365EnterpriseFoundInfra.pdf) <br/> Laatst bijgewerkt: december 2019| Deze poster bevat een overzicht van elke fase van de Foundation-infrastructuur, inclusief doelstellingen, functies en hulpmiddelen, ontwerpbesluiten, configuratieresultaten, onboarding en voortdurende bewaking en updates. <br/>| 
 
    
 <a name="BKMK_O365IDP"></a>
-### <a name="identity-and-device-protection-for-office-365"></a>Identiteits- en apparaatbeveiliging voor Office 365
+### <a name="identity-and-device-protection-for-office-365"></a>Identiteits-en apparaatbescherming voor Office 365
 
-Aanbevolen mogelijkheden voor het beveiligen van identiteiten en apparaten die toegang hebben tot Office 365, andere SaaS-services en on-premises toepassingen die zijn gepubliceerd met Azure AD Application Proxy.
+Aanbevolen mogelijkheden voor het beschermen van identiteiten en apparaten die toegang krijgen tot Office 365, andere SaaS-Services en on-premises toepassingen die worden gepubliceerd met de Azure AD-toepassingsproxy.
 
 |**Item**|**Beschrijving**|
 |:-----|:-----|
-|[![Modelposter: identiteits- en apparaatbeveiliging voor Office 365 en andere SaaS-toepassingen](../media/solutions-architecture-center/O365-Identity-device-protection-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=55032) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) \| [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) \| [Meer talen](https://www.microsoft.com/download/details.aspx?id=55032)     <br/> Bijgewerkt in november 2018|Het is belangrijk om consistente beschermingsniveaus te gebruiken voor uw gegevens, identiteiten en apparaten. In dit document ziet u welke mogelijkheden vergelijkbaar zijn met meer informatie over mogelijkheden om identiteiten en apparaten te beschermen.  <br/> |
+|[![Poster van model: Identiteits- en apparaatbescherming voor Office 365 en andere SaaS-toepassingen](../media/solutions-architecture-center/O365-Identity-device-protection-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=55032) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) \| [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) \| [Meer talen](https://www.microsoft.com/download/details.aspx?id=55032) <br/> Laatst bijgewerkt: november 2018|Het is belangrijk dat u een consistent beveiligingsniveau gebruikt voor uw gegevens, identiteiten en apparaten. In dit document ziet u welke mogelijkheden vergelijkbaar zijn en krijgt u meer informatie over mogelijkheden om identiteiten en apparaten te beveiligen.  <br/> |
    
 <!--
 
@@ -110,16 +110,16 @@ This guidance includes Test Lab Guides. For more information, see [Microsoft Sec
 
 -->
 
-### <a name="microsoft-telephony-solutions"></a>Microsoft-telefonieoplossingen
+### <a name="microsoft-telephony-solutions"></a>Microsoft telefonieoplossingen
 
-Microsoft ondersteunt verschillende opties wanneer u uw reis naar Teams in de Microsoft-cloud begint. Met deze poster u bepalen welke Microsoft-telefonieoplossing (Telefoonsysteem in de cloud of Enterprise Voice on-premises) geschikt is voor gebruikers in uw organisatie en hoe uw organisatie verbinding kan maken met het Public Switched Telephone Network (PSTN).
+Microsoft ondersteunt verschillende opties bij het begin van uw ervaring met Teams in de Microsoft-cloud. Met deze poster kunt u bepalen welke Microsoft-telefonie-oplossing (telefoonsysteem in de cloud of Enterprise Voice on-premises) geschikt is voor gebruikers in uw organisatie en hoe u uw organisatie kunt koppelen aan het openbare PSTN (Public Switched Telephone Network).
 
 
-[![Poster miniatuur voor Microsoft Telephony Solutions](../media/solutions-architecture-center/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
+[![Miniatuurafbeelding van de poster Microsoft telefonie-oplossingen](../media/solutions-architecture-center/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
 [PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.vsdx) <br>
-Bijgewerkt januari 2019
+Laatst bijgewerkt: januari 2019
 
-Zie voor meer informatie het artikel voor deze poster: [Microsoft Telephony Solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+Zie het artikel voor deze poster voor meer informatie: [Microsoft telefonieoplossingen](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
   
   
 ## <a name="see-also"></a>Zie ook

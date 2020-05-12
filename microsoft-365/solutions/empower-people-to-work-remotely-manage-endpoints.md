@@ -1,5 +1,5 @@
 ---
-title: 3. Eindpuntbeheer voor uw apparaten, pc's en andere eindpunten implementeren
+title: Stap 3. Eindpuntbeheer voor uw apparaten, pc's en andere eindpunten implementeren
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -14,17 +14,17 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-ms.custom:
 - M365solutions
+ms.custom: ''
 description: Gebruik Microsoft Endpoint Manager om uw apparaten, pc's en andere eindpunten te beheren.
-ms.openlocfilehash: 2a5b047aabb95d0b60c46fe3bec339e723adee0e
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 388ac2b7f9f4a31d33c1f4551e215b2b32c8f85f
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049580"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160796"
 ---
-# <a name="3-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>3. Eindpuntbeheer voor uw apparaten, pc's en andere eindpunten implementeren
+# <a name="step-3-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Stap 3. Eindpuntbeheer voor uw apparaten, pc's en andere eindpunten implementeren
 
 Als u externe medewerkers hebt, moet u steeds meer persoonlijke apparaten ondersteunen. Eindpuntbeheer biedt op beleid gebaseerde beveiliging waarbij apparaten moeten voldoen aan specifieke criteria voordat ze toegang krijgen tot bronnen. Microsoft Endpoint Manager biedt een moderne werkplek en moderne beheermogelijkheden om uw gegevens in de cloud en on-premises veilig te houden. 
 
