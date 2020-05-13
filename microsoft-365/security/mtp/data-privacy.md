@@ -19,21 +19,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d11fdc58f44c9e4bacb708fb246fdea40eb75cff
-ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
+ms.openlocfilehash: 9d2c5ba495d6250ffb20f695edd515c63b123c30
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44016060"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209257"
 ---
 # <a name="microsoft-threat-protection-data-security-and-privacy"></a>Gegevensbeveiliging en privacy van Microsoft Threat Protection
 
 **Geldt voor:**
 - Microsoft Threat Protection
 
-Door de Microsoft Threat Protection te gebruiken, stemt u in met de volgende voorwaarden:
-
-*Door Microsoft Threat Protection (MTP) in te schakelen, stemt u in met de volgende voorwaarden. Uw toepasselijke klantgegevens zoals gedefinieerd in de Online Service Terms (OST) worden overgedragen van andere Microsoft-services naar MTP. Het gebruik van uw klantgegevens in MTP volgt de normen en toezeggingen voor gegevensverwerking voor Microsoft Defender Advanced Threat Protection (Microsoft Defender ATP). U erkent dat dergelijke toezeggingen kunnen verschillen van de services van die klantgegevens die worden overgedragen. Verder worden klantgegevens die in MTP zijn opgeslagen, in rust opgeslagen in de Geo die u hebt geselecteerd voor de opslag van uw MDATP-klantgegevens, die kunnen verschillen van de Geo die u hebt geselecteerd in verband met andere services. Microsoft zal de klantgegevens niet buiten een dergelijke geo overdragen, behalve zoals vermeld in de sectie Gegevenslocatie van het [Microsoft Trust Center.](https://www.microsoft.com/trust-center)*
+Microsoft Threat Protection is actief in Microsoft Azure-datacenters in de Europese Unie, het Verenigd Koninkrijk en de Verenigde Staten. Klantgegevens die door de service worden verzameld, worden in rust opgeslagen in (a) de geografische locatie van de tenant zoals geïdentificeerd tijdens de inrichting of, b) als Microsoft Threat Protection een andere online service van Microsoft gebruikt om dergelijke gegevens te verwerken, de geolocatie zoals gedefinieerd door de regels voor gegevensopslag van die andere onlineservice.
 
 Zie voor meer informatie over de gegevensopslag en privacyinformatie van de specifieke producten:
 - [Microsoft Defender ATP-gegevensopslag en -privacy](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)

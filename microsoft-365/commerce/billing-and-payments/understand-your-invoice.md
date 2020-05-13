@@ -18,19 +18,19 @@ search.appverid:
 - MET150
 description: Meer informatie over het lezen en begrijpen van uw factuur voor Microsoft-bedrijfsproducten.
 keywords: factureringsrekeningen, organisatiegegevens, facturen
-ms.openlocfilehash: dad635df97e9cdf490118adc3a041c876878521b
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 63186bb0fc601be786e223fe2e6febbdb48361e2
+ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141326"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44211402"
 ---
 # <a name="understand-your-invoice"></a>Inzicht in uw factuur
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -46,7 +46,7 @@ De bovenkant van de eerste pagina identificeert wie verantwoordelijk is voor de 
 | --- | --- |
 | Verkocht aan |Het factureringsaccount dat de naam en het adres van de rechtspersoon identificeert die verantwoordelijk is voor de betaling. Deze informatie kan worden beheerd op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">Factureringsaccounts,</a> waar u de accountovereenkomst vinden en rollen en machtigingen beheren. |
 | Bill aan |Hiermee wordt aangegeven wie de factuur ontvangt. Deze informatie kan worden beheerd op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Factureringsprofielen.</a> Het factureringsprofiel wordt ook weergegeven op de online factuurpagina in de sectie **Factuuroverzicht.** Zie [Factureringsprofielen beheren](manage-billing-profiles.md)voor meer informatie over factureringsprofielen en hoe u deze gebruiken om flexibelere factureringsopties voor uw organisatie op te bouwen. |
-| Factureringsprofiel |De naam van het factureringsprofiel dat wordt gebruikt om factuureigenschappen zoals Factuur- en PO-nummer en betalingsvoorwaarden te definiëren. Deze informatie kan worden beheerd op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Factureringsprofielen.</a> Zie [Factureringsprofielen beheren](manage-billing-profiles.md)voor meer informatie over factureringsprofielen en hoe u deze gebruiken om flexibelere factureringsopties voor uw organisatie op te bouwen. |
+| Factureringsprofiel |De naam van het factureringsprofiel dat wordt gebruikt om factuureigenschappen zoals **Factuur naar,** **PO-nummer**en betalingsvoorwaarden te definiëren. Deze informatie kan worden beheerd op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Factureringsprofielen.</a> Zie [Factureringsprofielen beheren](manage-billing-profiles.md)voor meer informatie over factureringsprofielen en hoe u deze gebruiken om flexibelere factureringsopties voor uw organisatie op te bouwen. |
 | Factuurnummer |Een uniek, door Microsoft gegenereerd factuurnummer dat wordt gebruikt voor trackingdoeleinden. |
 | Factuurdatum |Datum waarop de factuur wordt gegenereerd, meestal vijf tot twaalf dagen na het einde van de factureringscyclus. U uw factuurdatum controleren op de pagina met details van het factureringsprofiel. Kosten die plaatsvinden tussen het einde van de factureringsperiode en de factuurdatum worden opgenomen in de factuur voor de volgende maand, omdat ze zich in de volgende factureringsperiode bevinden. De begin- en einddatum van de factureringsperiode voor elke factuur worden weergegeven in de factuur-PDF boven **het factureringsoverzicht**.|
 | Betalingsvoorwaarden |Hoe u betaalt voor uw Microsoft-factuur. *Netto 30 dagen* betekent dat u betaalt door instructies op uw factuur te volgen, binnen 30 dagen na de factuurdatum. |
@@ -77,13 +77,13 @@ De kosten pagina's tonen de kosten uitgesplitst naar product. Voor Azure-klanten
 | Belastingbedrag | Bedrag van de belasting toegepast op de aankoop op basis van belastingtarief |
 | Totaal | Het totale bedrag dat verschuldigd is voor de aankoop |
 
-De details van lijnartikelen zijn afhankelijk van het type product waarvoor u in rekening wordt gebracht. Voor Azure-producten wordt bijvoorbeeld de hoeveelheid toegepaste Azure-credits weergegeven. Producten op basis van zitplaatsen tonen een eenheidsprijs en -hoeveelheid. De factuurdetails geven een overzicht van de gekochte producten, kortingspunten of credits die zijn toegepast, het belastingtarief en het bedrag en de totalen van het regelartikel.
+De details van lijnartikelen zijn afhankelijk van het type product waarvoor u in rekening wordt gebracht. Voor Azure-producten wordt bijvoorbeeld de hoeveelheid toegepaste Azure-credits weergegeven. Producten op basis van zitplaatsen tonen een eenheidsprijs en -hoeveelheid. De factuurgegevens tonen de gekochte producten, korting of credits die zijn toegepast, belastingtarief en bedrag, en de totalen van het regelartikel.
 
-`Total = Charges - Azure Credit + Tax`
+    `Total = Charges - Azure Credit + Tax`
 
 Het totale verschuldigde bedrag voor elke servicefamilie wordt berekend door Azure-tegoeden af te trekken van credits/kosten en belasting toe te voegen:
 
-`Total = Charges/Credits - Azure Credit + Tax`
+    `Total = Charges/Credits - Azure Credit + Tax`
 
 Zie Uw factuur voor de [microsoft-overeenkomst controleren](https://docs.microsoft.com/azure/cost-management-billing/understand/review-customer-agreement-bill)als er Azure-kosten op uw factuur staan waarop u meer details wilt.
 
@@ -101,7 +101,7 @@ Als u services van derden in uw factuur hebt staan, staan de naam en het adres v
 
 Facturen zijn online beschikbaar. Een link naar uw online factuur is beschikbaar via uw PDF-factuur en via een e-mailmelding. De online factuur is uitbreidbaar, zodat u de kosten op uw factuur bekijken en meer details voor elk artikel bekijken. De online factuur omvat:
 
-- **Prijsdetails** &mdash; Aanvullende informatie, inclusief details over kortingen en productprijzen.
+- **Prijsdetails** &mdash; Aanvullende informatie, inclusief informatie over kortingen en productprijzen.
 
 - **Online betalen** &mdash; U ervoor kiezen om online een betaling uit te voeren vanaf de factuur.
 
@@ -114,6 +114,42 @@ Facturen zijn online beschikbaar. Een link naar uw online factuur is beschikbaar
 2. Als u de .pdf-versie van uw factuur wilt downloaden, kiest u **Factuur-PDF downloaden** in de rij voor de factuur die u wilt zien.
 
 3. Als u uw online factuur wilt bekijken, kiest u een factuur in de lijst. U de .pdf ook downloaden van de pagina factuurgegevens.
+
+## <a name="invoice-faq"></a>Veelgestelde vragen over facturen
+
+### <a name="when-is-my-invoice-available"></a>Wanneer is mijn factuur beschikbaar?
+
+Sommige facturen worden binnen 24 uur na aankoop gegenereerd. Andere facturen worden gegenereerd aan het einde van de factureringsperiode en bevatten alle artikelen uit die periode.
+
+### <a name="how-do-i-pay-the-amount-due-on-my-invoice"></a>Hoe betaal ik het verschuldigde bedrag op mijn factuur?
+
+Betalingsinstructies zijn afhankelijk van uw betaalmethode en worden onder aan de factuur-PDF weergegeven. Als uw betalingsmethode een creditcard is, wordt deze automatisch in rekening gebracht binnen 10 dagen na de factuurdatum. Als uw betalingsmethode is gecontroleerd of overboeking, raadpleegt u de informatie onder **Betalingsinstructies** in de PDF.
+
+### <a name="whats-the-difference-between-sold-to-and-bill-to-addresses"></a>Wat is het verschil tussen 'Verkocht aan' en 'Bill to'-adressen?
+
+- **Verkocht aan:** De rechtspersoon die verantwoordelijk is voor de betaling en op de factuur is geïdentificeerd. Het hier opgegeven adres wordt gebruikt om uw belastingtarief te bepalen, tenzij u ervoor kiest om tijdens uw aankoop een alternatief verzendadres op te geven. Zie [Belastinginformatie voor](tax-information.md)meer informatie .
+- **Rekening aan:** Het adres waar de fysieke factuur wordt verzonden, indien van toepassing. Er kunnen meerdere **facturen** per rechtspersoon worden gefactureerd, maar er kan slechts één **factuur per** factureringsprofiel worden aangesproken.
+
+### <a name="what-are-billed-amount-and-amount-due"></a>Wat zijn 'Gefactureerd bedrag' en 'Verschuldigd bedrag?'
+
+- **Gefactureerd bedrag:** Het totale bedrag voor de aankoop die u hebt gedaan.
+- **Verschuldigd bedrag:** Het resterende saldo voor wat je verschuldigd bent.
+
+### <a name="what-is-the-difference-between-service-period-and-billing-period"></a>Wat is het verschil tussen 'Serviceperiode' en 'Factureringsperiode'?
+
+- **Serviceperiode:** De periode waarin u wordt in rekening gebracht om de service te gebruiken.
+- **Factureringsperiode:** De periode sinds de laatste factuurdatum.
+
+### <a name="how-do-i-view-and-print-my-bill"></a>Hoe kan ik mijn factuur weergeven en afdrukken?
+
+1. Selecteer **op**de pagina Facturen  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& betalingen</a> een factuurdatumbereik.
+2. Als u een PDF-kopie van de factuur wilt afdrukken of opslaan, selecteert u **Factuur-PDF downloaden**en vervolgens de PDF afdrukken.
+
+Zie [Uw factuur of factuur weergeven](view-your-bill-or-invoice.md)voor meer informatie.
+
+### <a name="why-dont-i-see-azure-prepayment-as-a-payment-method"></a>Waarom zie ik Azure-vooruitbetaling niet als een betalingsmethode?
+
+Azure-vooruitbetaling is alleen beschikbaar als betalingsmethode voor in aanmerking komende Azure-producten en -services.
 
 ## <a name="need-help-contact-support"></a>Hulp nodig? Neem contact op met ondersteuning.
 

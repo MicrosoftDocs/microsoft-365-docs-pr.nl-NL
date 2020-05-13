@@ -14,12 +14,12 @@ ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel leert u hoe u PowerShell gebruiken om configuratie-instellingen toe te passen op uw tenants in Microsoft Exchange Online Protection (EOP).
-ms.openlocfilehash: b875a6c7ba53f459a73699b250ee5ed4a206f1b1
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: c25bafe9ece71264931d8f059dd726147a6d28a4
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035928"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209137"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>Voorbeeldscript voor het toepassen van EOP-instellingen op meerdere tenants
 
@@ -33,25 +33,25 @@ Met het volgende voorbeeldscript kunnen EOP-beheerders (Microsoft Exchange Onlin
 
 3. Voeg voor elke rij in het CSV-bestand de beheerdersnaam van de tenant toe in de kolom Gebruikersnaam en de cmdlet die voor die tenant moet worden uitgevoerd in de kolom Cmdlet. Gebruik bijvoorbeeld admin@contoso.com en Get-AcceptedDomain.
 
-4. Kopieer het [script RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) naar een editor zoals Kladblok en sla het bestand op een locatie (zoals c:\scripts) die .ps1-bestanden gemakkelijk te vinden maakt.
+4. Kopieer het [script RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) naar Kladblok en sla het bestand op een locatie die gemakkelijk te vinden is (bijvoorbeeld c:\scripts).
 
 5. Voer het script uit met de volgende syntaxis:
 
-   ```Powershell
+   ```powershell
    & "<file path>\RunCmdletOnMultipleTenants.ps1" "<file path>\inputfile.csv"
    ```
 
    Hier is een voorbeeld:
 
-   ```Powershell
+   ```powershell
    & "c:\scripts\RunCmdletOnMultipleTenanats.ps1" "c:\scripts\inputfile.csv"
    ```
 
-6. Elke tenant wordt aangemeld en de cmdlet wordt uitgevoerd.
+6. Elke tenant wordt aangemeld bij en het script wordt uitgevoerd.
 
 ## <a name="runcmdletonmultipletenantsps1"></a>RunCmdletOnMultipleTenants.ps1
 
-```Powershell
+```powershell
 # This script runs Windows PowerShell cmdlets on multiple tenants.
 # Usage: RunCmdletOnMultipleTenants.ps1 inputfile.csv
 #

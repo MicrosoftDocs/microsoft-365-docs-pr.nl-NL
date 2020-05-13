@@ -12,16 +12,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft biedt hulp voor EOP op verschillende plaatsen en methoden, waaronder zelfondersteuning en ondersteuning.
-ms.openlocfilehash: 6fde3c6cf62f865a17f081c1892d6a5197b037f9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2ef6bacbce6f46a17abcceb98e40d20ed3ad5363
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638044"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209197"
 ---
 # <a name="help-and-support-for-eop"></a>Help en ondersteuning voor EOP
 
-De hier vermelde technische ondersteuningsbronnen helpen u antwoorden te vinden als u problemen hebt met Microsoft Exchange Online Protection (EOP). Microsoft biedt hulp voor EOP op verschillende plaatsen en methoden, waaronder zelfondersteuning en ondersteuning.
+In Microsoft 365-organisaties met postvakken in Exchange Online- of zelfstandige Exchange Online Protection-organisaties (EOP)-organisaties zonder Exchange Online-postvakken, helpen de technische ondersteuningsbronnen in dit onderwerp u antwoorden te vinden als u problemen hebt met EOP. Microsoft biedt hulp voor EOP op verschillende plaatsen en methoden, waaronder zelfondersteuning en ondersteuning.
 
 ## <a name="self-support-options"></a>Opties voor zelfondersteuning
 
@@ -51,7 +51,7 @@ Zie [Premier Support for Partners](https://partner.microsoft.com/support/microso
 
 1. Log in bij het Microsoft 365-beheercentrum.
 
-2. Ga naar **Support** \> **Vraag om nieuwe serviceaanvraag** \> **New Service Request** voor klantenservice
+2. Ga naar **Support** \> **Vraag om nieuwe serviceaanvraag voor klantenservice** \> **New Service Request**
 
 3. Gebruik het formulier om informatie over uw probleem toe te voegen, oplossingen voor eerdere problemen te zoeken of logboeken of gerelateerde bestanden bij te voegen.
 
@@ -59,9 +59,9 @@ Zie [Premier Support for Partners](https://partner.microsoft.com/support/microso
 
 1. Log in bij het Microsoft 365-beheercentrum.
 
-2. Voor algemene productproblemen gaat u naar **Support** \> **Ask for Customer Support** \> **Bel technische ondersteuning**.
+2. Voor algemene productproblemen gaat u naar **Support** \> **Ask for Customer Support** Bel technische \> **ondersteuning**.
 
-   Ga voor vragen voordat u EOP koopt of vragen over facturering en abonnementen naar **De** \> klantenservice **vragen** \> facturering **en abonnementsondersteuning.**
+   Ga voor vragen voordat u EOP koopt of vragen over facturering en abonnementen naar **De** klantenservice vragen facturering \> **Ask for Customer Support** \> **en abonnementsondersteuning.**
 
 3. Gebruik de virtuele agent om te zoeken naar het meest recente juiste telefoonnummer.
 

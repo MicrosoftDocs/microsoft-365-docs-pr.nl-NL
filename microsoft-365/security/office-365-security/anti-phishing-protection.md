@@ -1,5 +1,5 @@
 ---
-title: Bescherming tegen phishing in Microsoft 365
+title: Bescherming tegen phishing
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,13 +18,13 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
-description: Dit artikel introduceert de beschikbare online bronnen die kunnen worden gebruikt om te leren over en implementeren anti-phishing opties en strategieën in Microsoft 365.
-ms.openlocfilehash: 09d384376b1e44989987c40ef3c7860e4fac6167
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Beheerders kunnen meer te weten komen over de anti-phishingbeveiligingsfuncties in Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (Office 365 ATP).
+ms.openlocfilehash: c1b9332fc35997dfe1cbfdfbef79e2d7beed736f
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033760"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208969"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Bescherming tegen phishing in Microsoft 365
 
@@ -38,13 +38,13 @@ ms.locfileid: "44033760"
 
 - **Ransomware** die uw gegevens versleutelt en betaling eist om deze te decoderen, begint bijna altijd in phishingberichten. Anti-phishing bescherming kan u niet helpen versleutelde bestanden te decoderen, maar het kan helpen bij het detecteren van de eerste phishing-berichten die zijn gekoppeld aan de ransomware campagne. Voor meer informatie over het herstellen van een ransomware aanval, zie [Herstellen van een ransomware aanval in Microsoft 365](recover-from-ransomware.md).
 
-Met de toenemende complexiteit van aanvallen, is het zelfs moeilijk voor getrainde gebruikers om geavanceerde phishing-berichten te identificeren. Gelukkig kunnen Exchange Online Protection (EOP) en de extra functies in Microsoft 365 Advanced Threat Protection (ATP) helpen.
+Met de toenemende complexiteit van aanvallen, is het zelfs moeilijk voor getrainde gebruikers om geavanceerde phishing-berichten te identificeren. Gelukkig kunnen Exchange Online Protection (EOP) en de extra functies in Office 365 Advanced Threat Protection (Office 365 ATP) helpen.
 
 ## <a name="anti-phishing-protection-in-eop"></a>Bescherming tegen phishing in EOP
 
 EOP (dat wil zeggen Microsoft 365-organisaties zonder ATP) bevat functies die uw organisatie kunnen beschermen tegen phishingbedreigingen:
 
-- **Spoof-intelligentie**: bekijk vervalste berichten van afzenders in interne en externe domeinen en sta die afzenders toe of blokkeer ze. Zie [spoof-intelligentie configureren in Microsoft 365](learn-about-spoof-intelligence.md) voor meer informatie.
+- **Spoof-intelligentie**: bekijk vervalste berichten van afzenders in interne en externe domeinen en sta die afzenders toe of blokkeer ze. Zie [Spoofinformatie configureren in EOP](learn-about-spoof-intelligence.md)voor meer informatie.
 
 - **Anti-phishingbeleid in EOP:** Schakel spoofinformatie in of uit, schakel de identificatie van niet-geverifieerde afzenders in Outlook in of uit en geef de actie op voor geblokkeerde vervalste afzenders (ga naar de map Ongewenste e-mail of quarantaine). Zie [Beleid voor antiphishing configureren in EOP](configure-anti-phishing-policies-eop.md)voor meer informatie.
 

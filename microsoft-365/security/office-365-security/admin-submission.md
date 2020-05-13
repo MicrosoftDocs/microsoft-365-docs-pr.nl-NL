@@ -1,5 +1,5 @@
 ---
-title: Beheerdersinzendingen in Office 365
+title: Beheerdersinzendingen
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,17 +16,17 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Meer informatie over het verzenden van verdachte e-mails, vermoedelijke phishingmails, spam en andere mogelijk schadelijke berichten, URL's en bestanden van uw bedrijf bij Microsoft voor het scannen.
-ms.openlocfilehash: 79f200963655e5fb07a04b686c1dd8cc3bbd0873
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Beheerders kunnen leren hoe u de inzendingenportal in het Security & Compliance Center gebruiken om verdachte e-mails, vermoedelijke phishingmails, spam en andere mogelijk schadelijke berichten, URL's en bestanden bij Microsoft in te dienen om te scannen.
+ms.openlocfilehash: ae84c9ca111c7e7056ae97abff20471c474dccb2
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034198"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209749"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Beheerbeheer gebruiken om vermoedelijke spam, phish, URL's en bestanden bij Microsoft in te dienen
 
-Als u een beheerder bent in een Microsoft 365-organisatie met postvakken in Exchange Online, u de inzendingenportal in het Beveiligingscentrum & Compliance Center gebruiken om e-mailberichten, URL's en bijlagen bij Microsoft in te dienen om te scannen.
+In Microsoft 365-organisaties met postvakken in Exchange Online kunnen beheerders de inzendingenportal in het Beveiligingscentrum & Compliance Center gebruiken om e-mailberichten, URL's en bijlagen bij Microsoft in te dienen om te scannen.
 
 Wanneer u een e-mail indient, ontvangt u informatie over het beleid dat de binnenkomende e-mail mogelijk in uw tenant heeft toegestaan, evenals het onderzoeken van URL's en bijlagen in de e-mail. Beleidsregels waarmee een e-mail mogelijk is toegestaan, bevatten de lijst met veilige afzenders van een individuele gebruiker en beleid op tenantniveau, zoals de regels voor de e-mailstroom van Exchange (ook wel transportregels genoemd).
 
@@ -34,7 +34,7 @@ Zie [Berichten en bestanden rapporteren aan Microsoft voor](report-junk-email-me
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de <https://protection.office.com/reportsubmission>pagina **Indiening** wilt gaan, gebruikt u .
+- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de **pagina Indiening** wilt gaan, gebruikt u <https://protection.office.com/reportsubmission> .
 
 - U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u antispambeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rolgroepen **Organisatiebeheer,** **Beveiligingsbeheerder**of **Beveiligingslezer.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
@@ -42,7 +42,7 @@ Zie [Berichten en bestanden rapporteren aan Microsoft voor](report-junk-email-me
 
 ## <a name="report-suspicious-content-to-microsoft"></a>Verdachte inhoud melden aan Microsoft
 
-1. Ga in het Security & Compliance Center **naar** \> Berichten **voor** \> het indienen van meldingen voor **het verzenden van beheerbeheer.**
+1. Ga in het Security & Compliance Center **naar** \> Berichten voor het indienen van meldingen voor het **verzenden** \> **van beheerbeheer.**
 
 2. Klik op de pagina **Inzendingen** die wordt weergegeven op de knop **Nieuwe inzending.**
 
@@ -74,7 +74,7 @@ Zie [Berichten en bestanden rapporteren aan Microsoft voor](report-junk-email-me
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Een verdachte URL naar Microsoft verzenden
 
-1. Selecteer **URL**in de sectie **Objecttype** . Voer in het vak dat wordt weergegeven <https://www.fabrikam.com/marketing.html>de volledige URL in (bijvoorbeeld).
+1. Selecteer **URL**in de sectie **Objecttype** . Voer in het vak dat wordt weergegeven de volledige URL in <https://www.fabrikam.com/marketing.html> (bijvoorbeeld).
 
 2. Selecteer in de sectie **Reden voor indiening** een van de volgende opties:
 
@@ -104,11 +104,11 @@ Zie [Berichten en bestanden rapporteren aan Microsoft voor](report-junk-email-me
 
 ## <a name="view-admin-submissions"></a>Beheerdersinzendingen weergeven
 
-1. Ga in het Security & Compliance Center **naar** \> Berichten **voor** \> het indienen van meldingen voor **het verzenden van beheerbeheer.**
+1. Ga in het Security & Compliance Center **naar** \> Berichten voor het indienen van meldingen voor het **verzenden** \> **van beheerbeheer.**
 
 2. Controleer op de pagina **Inzendingen** die wordt weergegeven of het tabblad **Inzendingen beheerder** is geselecteerd.
 
-Boven aan de pagina u een begindatum, een einddatum en (standaard) filteren op **indienings-id** door ![een](../../media/scc-quarantine-refresh.png)waarde in het vak in te voeren en op Knop Vernieuwen te klikken. U meerdere waarden invoeren die zijn gescheiden door komma's.
+Boven aan de pagina u een begindatum, een einddatum en (standaard) filteren op **indienings-id** door een waarde in het vak in te voeren en op Knop Vernieuwen te ![ ](../../media/scc-quarantine-refresh.png) klikken. U meerdere waarden invoeren die zijn gescheiden door komma's.
 
 Als u de filtercriteria wilt wijzigen, klikt u op de knop **Indiening-id** en kiest u een van de volgende waarden:
 
@@ -178,7 +178,7 @@ U onder aan de pagina op de knop **Kolomopties** klikken om kolommen uit de weer
 
 Als u de [invoegtoepassing Rapportbericht](enable-the-report-message-add-in.md)hebt geïmplementeerd of als mensen de [ingebouwde rapportage gebruiken in de webversie van Outlook,](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)u zien welke gebruikers rapporteren op het tabblad **Gebruikersinzendingen.**
 
-1. Ga in het Security & Compliance Center **naar** \> Berichten **voor** \> het indienen van meldingen voor **het verzenden van beheerbeheer.**
+1. Ga in het Security & Compliance Center **naar** \> Berichten voor het indienen van meldingen voor het **verzenden** \> **van beheerbeheer.**
 
 2. Klik op de pagina **Inzendingen** die wordt weergegeven op het tabblad **Gebruikersinzendingen.**
 
@@ -193,7 +193,7 @@ U onder aan de pagina op de knop **Kolomopties** klikken om kolommen uit de weer
 
 <sup>\*</sup>Als u op deze waarde klikt, wordt gedetailleerde informatie weergegeven in een flyout.
 
-Boven aan de pagina u een begindatum, een einddatum en (standaard) filteren op **afzender** door een ![waarde](../../media/scc-quarantine-refresh.png)in het vak in te voeren en op Knop Vernieuwen te klikken. U meerdere waarden invoeren die zijn gescheiden door komma's.
+Boven aan de pagina u een begindatum, een einddatum en (standaard) filteren op **afzender** door een waarde in het vak in te voeren en op Knop Vernieuwen te ![ ](../../media/scc-quarantine-refresh.png) klikken. U meerdere waarden invoeren die zijn gescheiden door komma's.
 
 Als u de filtercriteria wilt wijzigen, klikt u op de knop **Afzender** en kiest u een van de volgende waarden:
 
@@ -211,7 +211,7 @@ Als u de resultaten wilt exporteren, klikt u op **Exporteren** boven aan de pagi
 
 Als u [een aangepast postvak](user-submission.md) hebt geconfigureerd om gerapporteerde berichten van gebruikers te ontvangen, u berichten die zijn afgeleverd in het rapportagepostvak bekijken en verzenden.
 
-1. Ga in het Security & Compliance Center **naar** \> Berichten **voor** \> het indienen van meldingen voor **het verzenden van beheerbeheer.**
+1. Ga in het Security & Compliance Center **naar** \> Berichten voor het indienen van meldingen voor het **verzenden** \> **van beheerbeheer.**
 
 2. Klik op de pagina **Inzendingen** die wordt weergegeven op het tabblad **Aangepast postvak.**
 
@@ -224,7 +224,7 @@ U onder aan de pagina op de knop **Kolomopties** klikken om kolommen uit de weer
 - **Ip-afzender**<sup>\*</sup>
 - **Type inzending**
 
-Boven aan de pagina u een begindatum, een einddatum invoeren en u filteren op **Verzenden door** een waarde in het vak in te voeren en op knop Vernieuwen te ![](../../media/scc-quarantine-refresh.png)klikken. U meerdere waarden invoeren die zijn gescheiden door komma's.
+Boven aan de pagina u een begindatum, een einddatum invoeren en u filteren op **Verzenden door** een waarde in het vak in te voeren en op knop Vernieuwen te ![ ](../../media/scc-quarantine-refresh.png) klikken. U meerdere waarden invoeren die zijn gescheiden door komma's.
 
 Als u de resultaten wilt exporteren, klikt u op **Exporteren** boven aan de pagina en selecteert u **Grafiekgegevens** of **Tabel**. Sla in het dialoogvenster dat wordt weergegeven het CSV-bestand op.
 

@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Meer informatie over hoe u bepalen welke gebruikers Microsoft 365-groepen kunnen maken.
-ms.openlocfilehash: 5ecd48161a751a1558146236d48df13bb0662ad1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 55b3ec119e8c74982ce340c58f6b8da684c9ffa8
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630403"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208340"
 ---
 # <a name="manage-who-can-create-groups"></a>Beheren wie groepen kan maken
 
@@ -96,7 +96,7 @@ Beheerders in de bovenstaande rollen hoeven geen lid te zijn van deze groep: ze 
 > [!IMPORTANT]
 > Zorg ervoor dat u een **beveiligingsgroep** gebruikt om te beperken wie groepen kan maken. Als u een Microsoft 365-groep probeert te gebruiken, kunnen leden geen groep maken vanuit SharePoint omdat deze controleert op een beveiligingsgroep. 
     
-1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
+1. Ga in het beheercentrum **Groups** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepen groepen.</a>
 
 2. Klik op **Een groep toevoegen**.
 
@@ -114,19 +114,19 @@ U moet de preview-versie van [Azure Active Directory PowerShell voor Graph (Azur
 
 - Als u de versie met algemene beschikbaarheid van 2.0 van de Azure AD PowerShell-module (AzureAD) hebt geïnstalleerd, moet u deze verwijderen door deze uit te voeren `Uninstall-Module AzureAD` in uw PowerShell-sessie en vervolgens de preview-versie installeren door . `Install-Module AzureADPreview`
 
-- Als u de preview-versie `Install-Module AzureADPreview` al hebt geïnstalleerd, voert u uit om te controleren of deze de nieuwste versie van deze module is.
+- Als u de preview-versie al hebt geïnstalleerd, voert u uit `Install-Module AzureADPreview` om te controleren of deze de nieuwste versie van deze module is.
 
 
 
 Kopieer het script hieronder naar een teksteditor, zoals Kladblok of de [Windows PowerShell ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise).
 
-Vervang * \<SecurityGroupName\> * door de naam van de beveiligingsgroep die u hebt gemaakt. Bijvoorbeeld:
+Vervang * \< SecurityGroupName \> * door de naam van de beveiligingsgroep die u hebt gemaakt. Bijvoorbeeld:
 
 `$GroupName = "Group Creators"`
 
 Sla het bestand op als GroupCreators.ps1. 
 
-Navigeer in het PowerShell-venster naar de locatie waar <FileLocation>u het bestand hebt opgeslagen (typ 'CD").
+Navigeer in het PowerShell-venster naar de locatie waar u het bestand hebt opgeslagen (typ <FileLocation> 'CD").
 
 Voer het script uit door te typen:
 
@@ -173,6 +173,8 @@ Als u in de toekomst wilt wijzigen welke beveiligingsgroep wordt gebruikt, u het
 Als u de groepsinstellingsbeperking wilt uitschakelen en alle gebruikers opnieuw groepen wilt toestaan, stelt u $GroupName in op '' en $AllowGroupCreation op 'Waar' en voert u het script opnieuw uit.
     
 ## <a name="step-4-verify-that-it-works"></a>Stap 4: Controleren of het werkt
+
+Het kan dertig minuten of langer duren voordat wijzigingen worden doorgevoerd. U de nieuwe instellingen als volgt verifiëren:
 
 1. Meld u aan met een gebruikersaccount van iemand die NIET de mogelijkheid zou moeten hebben om groepen te maken. Dat wil zeggen, ze zijn geen lid van de beveiligingsgroep die u hebt gemaakt of een beheerder.
     

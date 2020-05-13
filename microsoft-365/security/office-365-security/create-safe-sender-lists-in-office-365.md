@@ -15,34 +15,31 @@ search.appverid:
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
-description: Lees hoe beheerders een lijst met veilige afzenders kunnen maken in Microsoft 365 en EOP waarmee binnenkomende berichten spamfilters kunnen overslaan.
-ms.openlocfilehash: 300ecf8cfdb7436b8eda306a28c237ed8bf19760
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+description: Beheerders kunnen meer te weten komen over de beschikbare en voorkeursopties om binnenkomende berichten toe te staan in Exchange Online Protection (EOP).
+ms.openlocfilehash: 3ef05c919a86bc3458cceb2a2bc73522e16e4bb1
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173414"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209533"
 ---
-# <a name="create-safe-sender-lists"></a>Lijsten met veilige afzenders maken
+# <a name="create-safe-sender-lists-in-eop"></a>Lijsten met veilige afzenders maken in EOP
 
 Als u een Microsoft 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection(EOP)-klant zonder Exchange Online-postvakken, biedt EOP meerdere manieren om ervoor te zorgen dat gebruikers e-mail van vertrouwde afzenders ontvangen. Deze opties omvatten Exchange-mailstroomregels (ook wel transportregels genoemd), Outlook Safe Senders, de IP-lijst toestaan (verbindingsfiltering) en toegestane afzenderlijsten of toegestane domeinlijsten in antispambeleid. Gezamenlijk u deze opties zien als _lijsten met veilige afzenders._
 
 De beschikbare lijsten met veilige afzenders worden in de volgende lijst beschreven in volgorde van de meest aanbevolen tot de minst aanbevolen:
 
 1. Regels voor e-mailstromen
-
 2. Outlook-veilige afzenders
-
 3. Lijst met IP-regels (verbindingsfiltering)
-
 4. Toegestane afzenderlijsten of toegestane domeinlijsten (antispambeleid)
 
 Regels voor e-mailstroom bieden de meeste flexibiliteit om ervoor te zorgen dat alleen de juiste berichten zijn toegestaan. Toegestane afzender- en toegestane domeinlijsten in antispambeleid zijn niet zo veilig als de LIJST met IP-toegestane lijsten, omdat het e-maildomein van de afzender gemakkelijk kan worden vervalst. Maar de IP-lijst toestaan brengt ook een risico met zich mee, omdat e-mail van _elk_ domein dat vanaf dat IP-adres wordt verzonden, spamfilters omzeilt.
 
 > [!IMPORTANT]
-> <ul><li>Let erop dat *u eventuele* uitzonderingen op spamfilters nauwkeurig in de gaten houdt met behulp van lijsten met veilige afzenders.</li><li>Hoewel u veilige afzenderlijsten gebruiken om te helpen met valse positieven (goede e-mail gemarkeerd als spam), moet u het gebruik van veilige afzenderlijsten beschouwen als een tijdelijke oplossing die indien mogelijk moet worden vermeden. We raden u aan valse positieven te beheren met behulp van lijsten met veilige afzenders, omdat uitzonderingen op spamfiltering uw organisatie kunnen openen voor spoofing en andere aanvallen. Als u erop staat veilige afzenderlijsten te gebruiken om fout-positieven te beheren, moet u waakzaam zijn en het onderwerp [Berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md) in de aanslag houden.</li><li>Als u wilt toestaan dat een domein niet-geverifieerde e-mail verzendt (anti-spoofingbescherming omzeilt), maar antispam- en anti-malwarecontroles niet omzeilt, u deze toevoegen aan de [lijst met veilige afzenders allowedTospoof](walkthrough-spoof-intelligence-insight.md)</li><li>EOP en Outlook inspecteren verschillende berichteigenschappen om de afzender van het bericht te bepalen. Zie de sectie [Overwegingen voor bulke-mail](#considerations-for-bulk-email) later in dit onderwerp voor meer informatie.</li></ul>
+> • Let erop dat *u eventuele* uitzonderingen op spamfilter seert met behulp van veilige afzenderlijsten. <br/><br/> • Hoewel u veilige afzenderlijsten gebruiken om te helpen met valse positieven (goede e-mail gemarkeerd als spam), moet u het gebruik van veilige afzenderlijsten beschouwen als een tijdelijke oplossing die indien mogelijk moet worden vermeden. We raden u aan valse positieven te beheren met behulp van lijsten met veilige afzenders, omdat uitzonderingen op spamfiltering uw organisatie kunnen openen voor spoofing en andere aanvallen. Als u erop staat veilige afzenderlijsten te gebruiken om fout-positieven te beheren, moet u waakzaam zijn en het onderwerp [Berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md) in de aanslag houden. <br/><br/> • Om een domein toe te staan om niet-geverifieerde e-mail te verzenden (bypass anti-spoofing bescherming), maar niet te omzeilen anti-spam en anti-malware controles, u het toevoegen aan de [AllowedToSpoof veilige afzender lijst](walkthrough-spoof-intelligence-insight.md) <br/><br/> • EOP en Outlook inspecteren verschillende berichteigenschappen om de afzender van het bericht te bepalen. Zie de sectie [Overwegingen voor bulke-mail](#considerations-for-bulk-email) later in dit onderwerp voor meer informatie.
 
-U hebt daarentegen ook verschillende opties om e-mail van specifieke bronnen te blokkeren met behulp van _geblokkeerde afzenderlijsten._ Zie [Lijsten met geblokkeerde afzenders maken in Office 365](create-block-sender-lists-in-office-365.md) voor meer informatie.
+U hebt daarentegen ook verschillende opties om e-mail van specifieke bronnen te blokkeren met behulp van _geblokkeerde afzenderlijsten._ Zie [Lijsten met blokafzenders maken in EOP](create-block-sender-lists-in-office-365.md)voor meer informatie.
 
 ## <a name="recommended-use-mail-flow-rules"></a>(Aanbevolen) Regels voor e-mailstromen gebruiken
 
@@ -50,11 +47,11 @@ E-mailstroomregels in Exchange Online en zelfstandige EOP gebruiken voorwaarden 
 
 In het volgende voorbeeld wordt ervan uitgegaan dat u e-mail van contoso.com nodig hebt om spamfilters over te slaan. Configureer hiervoor de volgende instellingen:
 
-1. **Voorwaarde**: **Het afzenderdomein** \> **is** \> contoso.com.
+1. **Voorwaarde**: **Het** \> **afzenderdomein is** \> contoso.com.
 
 2. Een van de volgende instellingen configureren:
 
-   - **Voorwaarde voor e-mailstroomregel:** **een berichtkop** \> `Authentication-Results` \> bevat een `dmarc=bestguesspass`van deze **woorden** \> **Koptekstnaam:** **Kopwaarde**: `dmarc=pass` of .
+   - **Voorwaarde voor e-mailstroomregel:** **een berichtkop** \> **bevat een van deze woorden** \> **Koptekstnaam:** `Authentication-Results` \> **Kopwaarde**: of `dmarc=pass` `dmarc=bestguesspass` .
 
      Met deze voorwaarde wordt de verificatiestatus van afzenders van het verzendende e-maildomein gecontroleerd om ervoor te zorgen dat het verzendende domein niet wordt vervalst. Zie [SPF,](set-up-spf-in-office-365-to-help-prevent-spoofing.md) [DKIM](use-dkim-to-validate-outbound-email.md)en [DMARC](use-dmarc-to-validate-email.md)voor meer informatie over e-mailverificatie.
 
@@ -67,31 +64,31 @@ In het volgende voorbeeld wordt ervan uitgegaan dat u e-mail van contoso.com nod
 
 3. **Facultatieve voorwaarden**:
 
-   - **De afzender** \> **is intern/extern** \> Buiten de **organisatie**: deze voorwaarde is impliciet, maar het is OK om deze te gebruiken om rekening te houden met on-premises e-mailservers die mogelijk niet correct zijn geconfigureerd.
+   - **De afzender** \> **is intern/extern** \> **Buiten de organisatie**: Deze voorwaarde is impliciet, maar het is OK om deze te gebruiken om rekening te houden met on-premises e-mailservers die mogelijk niet correct zijn geconfigureerd.
 
-   - **Het onderwerp of het onderwerp** \> of het\>lichaam bevat een van deze **woorden** \> \<trefwoorden: Als u verder beperken de berichten door trefwoorden of zinnen in de onderwerpregel of bericht lichaam, u deze woorden gebruiken als een voorwaarde.
+   - **Het onderwerp of lichaam** \> **onderwerp of lichaam bevat een van deze woorden** \> \< \> trefwoorden: Als u de berichten verder beperken op trefwoorden of woordgroepen in de onderwerpregel of berichttekst, u deze woorden als voorwaarde gebruiken.
 
 4. **Actie:** Configureer beide acties in de regel:
 
-   a. **Wijzig de eigenschappen** \> van het bericht **en stel het spamvertrouwensniveau (SCL)** \> **Bypass spamfiltering in.**
+   a. **De berichteigenschappen** \> wijzigen **stel het spambetrouwbaarheidsniveau (SCL)** \> in **Spamfiltering omzeilen.**
 
-   b. **Een berichtkop bevat** \> een van \<deze **woorden** \> **Koptekstnaam:**\>CustomHeaderName\> Header **value:** \<CustomHeaderValue .
+   b. **Een berichtkoptekst** \> **bevat een van deze woorden** \> **Naam van koptekst:** \< waarde van de CustomHeaderName-header: \> **Header value** \< CustomHeaderValue \> .
 
       Bijvoorbeeld `X-ETR: Bypass spam filtering for authenticated sender 'contoso.com'`. Als u meer dan één domein in de regel hebt, u de koptekst naar gelang van het geval aanpassen.
 
-      Wanneer een bericht spamfilters overslaat vanwege een e-mailstroomregel, wordt de waardewaarde `SFV:SKN` gestempeld in de header **X-Forefront-Antispam-Report.** Als het bericht afkomstig is van een bron die `IPV:CAL` zich op de lijst met IP-toegestane gegevens bevindt, wordt de waarde ook toegevoegd. Deze waarden kunnen u helpen bij het oplossen van problemen.
+      Wanneer een bericht spamfilters overslaat vanwege een e-mailstroomregel, wordt de `SFV:SKN` waardewaarde gestempeld in de header **X-Forefront-Antispam-Report.** Als het bericht afkomstig is van een bron die zich op de lijst met IP-toegestane gegevens bevindt, wordt de waarde `IPV:CAL` ook toegevoegd. Deze waarden kunnen u helpen bij het oplossen van problemen.
 
 ![Instellingen voor e-mailstroomregels in de EAC voor het omzeilen van spamfiltering.](../../media/1-AllowList-SkipFilteringFromContoso.png)
 
 ## <a name="use-outlook-safe-senders"></a>Outlook Safe Senders gebruiken
 
-In plaats van een organisatieinstelling kunnen gebruikers of beheerders de e-mailadressen van de afzender toevoegen aan de lijst Veilige afzenders in het postvak. Zie Instellingen [voor ongewenste e-mail configureren in Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md)voor instructies. Dit is niet wenselijk in de meeste situaties, omdat afzenders delen van de filterstapel zullen omzeilen. Hoewel u de afzender vertrouwt, kan de afzender worden gecompromitteerd en uiteindelijk schadelijke inhoud verzenden. Het is het beste dat u onze filters laat doen wat nodig is om elk bericht te controleren en vervolgens [het false positive/negative aan Microsoft te melden](report-junk-email-messages-to-microsoft.md) als onze filters het verkeerd hebben. Dit belemmert ook op [Zap](zero-hour-auto-purge.md) doen wat het moet doen om de boodschap ook.
+In plaats van een organisatieinstelling kunnen gebruikers of beheerders de e-mailadressen van de afzender toevoegen aan de lijst Veilige afzenders in het postvak. Zie Instellingen [voor ongewenste e-mail configureren in Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md)voor instructies. Dit is niet wenselijk in de meeste situaties, omdat afzenders delen van de filterstapel zullen omzeilen. Hoewel u de afzender vertrouwt, kunnen de verzenderblikken nog steeds worden gecompromitteerd en kunnen schadelijke inhoud verzenden. Het is het beste dat u onze filters laat doen wat nodig is om elk bericht te controleren en vervolgens [het false positive/negative aan Microsoft te melden](report-junk-email-messages-to-microsoft.md) als onze filters het verkeerd hebben. Het omzeilen van de filterstapel interfereert ook met [ZAP.](zero-hour-auto-purge.md)
 
-Wanneer berichten spamfilters overslaan vanwege de lijst Met veilige afzenders van een gebruiker, bevat het `SFV:SFE`headerveld **X-Forefront-Antispam-Report** de waarde , wat aangeeft dat spam, spoof en phish-filtering zijn omzeild.
+Wanneer berichten spamfilters overslaan vanwege de lijst Met veilige afzenders van een gebruiker, bevat het headerveld **X-Forefront-Antispam-Report** de waarde `SFV:SFE` , wat aangeeft dat spam, spoof en phish-filtering zijn omzeild.
 
 ## <a name="use-the-ip-allow-list"></a>De lijst met IP-toegestane gebruiken
 
-Als u geen e-mailstroomregels gebruiken zoals eerder beschreven, u de volgende beste optie toevoegen aan de lijst met brone-mailgegevens in het verbindingsfilterbeleid. Zie [Verbindingsfiltering configureren in Office 365](configure-the-connection-filter-policy.md)voor meer informatie.
+Als u geen e-mailstroomregels gebruiken zoals eerder beschreven, u de volgende beste optie toevoegen aan de lijst met brone-mailgegevens in het verbindingsfilterbeleid. Zie [Verbindingsfiltering configureren in EOP](configure-the-connection-filter-policy.md)voor meer informatie.
 
 **Opmerkingen**:
 
@@ -106,7 +103,7 @@ Als u geen e-mailstroomregels gebruiken zoals eerder beschreven, u de volgende b
 
 ## <a name="use-allowed-sender-lists-or-allowed-domain-lists"></a>Toegestane afzenderlijsten of toegestane domeinlijsten gebruiken
 
-De minst wenselijke optie is om de toegestane afzenderlijst of toegestane domeinlijst te gebruiken in antispambeleid. U moet deze optie zo *mogelijk* vermijden, omdat afzenders alle spam-, spoof- en phish-beveiliging en afzenderverificatie (SPF, DKIM, DMARC) omzeilen. Deze methode wordt het best alleen gebruikt voor tijdelijke tests. De gedetailleerde stappen zijn te vinden in [Beleid voor antispam configureren in het Office 365-onderwerp.](configure-your-spam-filter-policies.md)
+De minst wenselijke optie is om de toegestane afzenderlijst of toegestane domeinlijst te gebruiken in antispambeleid. U moet deze optie zo *mogelijk* vermijden, omdat afzenders alle spam-, spoof- en phish-beveiliging en afzenderverificatie (SPF, DKIM, DMARC) omzeilen. Deze methode wordt het best alleen gebruikt voor tijdelijke tests. De gedetailleerde stappen zijn te vinden in [Antispambeleid configureren in het EOP-onderwerp.](configure-your-spam-filter-policies.md)
 
 De maximumlimiet voor deze lijsten is ongeveer 1000 vermeldingen; hoewel, u zult slechts 30 ingangen in de portaal kunnen ingaan. U moet PowerShell gebruiken om meer dan 30 vermeldingen toe te voegen.
 
@@ -121,7 +118,7 @@ Een standaard SMTP-e-mailbericht bestaat uit een *berichtenvelop* en berichtinho
 
 - Het `5322.From` (ook wel bekend als de **Afzender Van** of P2) is het e-mailadres in het veld **Van** koptekst en is het e-mailadres van de afzender dat wordt weergegeven in e-mailclients.
 
-Vaak zijn `5321.MailFrom` de `5322.From` en adressen hetzelfde (persoonlijke communicatie). Wanneer e-mail echter namens iemand anders wordt verzonden, zijn de adressen vaak verschillend. Dit gebeurt meestal voor bulk e-mailberichten.
+Vaak zijn de `5321.MailFrom` en `5322.From` adressen hetzelfde (persoonlijke communicatie). Wanneer e-mail echter namens iemand anders wordt verzonden, zijn de adressen vaak verschillend. Dit gebeurt meestal voor bulk e-mailberichten.
 
 Stel dat Blue Yonder Airlines Margie's Travel heeft ingehuurd om zijn e-mailadvertenties uit te sturen. Het bericht dat u in uw Postvak IN ontvangt, heeft de volgende eigenschappen:
 
@@ -129,12 +126,12 @@ Stel dat Blue Yonder Airlines Margie's Travel heeft ingehuurd om zijn e-mailadve
 
 - Het `5322.From` adres is blueyonder@news.blueyonderairlines.com, dat is wat je ziet in Outlook.
 
-Veilige afzenderlijsten en veilige domeinlijsten in antispambeleid `5321.MailFrom` in `5322.From` EOP inspecteren zowel de adressen als de adressen. Outlook Safe Senders `5322.From` gebruikt alleen het adres.
+Veilige afzenderlijsten en veilige domeinlijsten in antispambeleid in EOP inspecteren zowel de adressen als de `5321.MailFrom` `5322.From` adressen. Outlook Safe Senders gebruikt alleen het `5322.From` adres.
 
 Om te voorkomen dat dit bericht wordt gefilterd, u de volgende stappen uitvoeren:
 
-- Voeg blueyonder@news.blueyonderairlines.com `5322.From` (het adres) toe als veilige afzender van Outlook.
+- Voeg blueyonder@news.blueyonderairlines.com (het adres) toe `5322.From` als veilige afzender van Outlook.
 
-- [Gebruik een e-mailstroomregel](#recommended-use-mail-flow-rules) met een voorwaarde die `5322.From` zoekt naar `5321.MailFrom`berichten van blueyonder@news.blueyonderairlines.com (het adres, blueyonder.airlines@margiestravel.com (de) of beide.
+- [Gebruik een e-mailstroomregel](#recommended-use-mail-flow-rules) met een voorwaarde die zoekt naar berichten van blueyonder@news.blueyonderairlines.com (het `5322.From` adres, blueyonder.airlines@margiestravel.com (de `5321.MailFrom` ) of beide.
 
-Zie [Lijsten met veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md)voor meer informatie.
+Zie [Lijsten met veilige afzenders maken in EOP](create-safe-sender-lists-in-office-365.md)voor meer informatie.

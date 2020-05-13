@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over multi-factor authenticatie in Microsoft 365 en de stappen die u moet volgen om deze in te stellen.
-ms.openlocfilehash: 035a79c9db44990dbce09de540e3e483b3cea8df
-ms.sourcegitcommit: 7c0470fd7a98911d142bac060c228947c46a6be7
+ms.openlocfilehash: 6d28e9e7db825aa9030196396ad420028dc1c881
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43665666"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213126"
 ---
 # <a name="plan-for-multi-factor-authentication-for-microsoft-365-deployments"></a>Plannen voor meervoudige verificatie voor Microsoft 365-implementaties
 
@@ -131,10 +131,10 @@ Voer de volgende stappen uit om MFA voor uw abonnement in te schakelen:
     
 2. [MFA instellen voor Microsoft 365](set-up-multi-factor-authentication.md).
     
-3. Vertel individuele gebruikers hoe ze zich moeten aanmelden via MFA. Zie [Aanmelden bij Microsoft 365 met MFA](https://support.office.com/en-us/article/sign-in-to-microsoft-365-with-2-step-verification-2b856342-170a-438e-9a4f-3c092394d3cb).
+3. Vertel individuele gebruikers hoe ze zich moeten aanmelden via MFA. Zie [Aanmelden bij Microsoft 365 met MFA](https://support.office.com/article/sign-in-to-microsoft-365-with-2-step-verification-2b856342-170a-438e-9a4f-3c092394d3cb).
 
 > [!IMPORTANT]
-> Als u uw gebruikers hebt ingeschakeld voor Azure Multi-Factor Authentication en alle apparaten met Office 2013 die niet zijn ingeschakeld voor moderne verificatie, moeten ze AppPasswords op die apparaten gebruiken. Meer informatie over AppPasswords en wanneer/waar/hoe ze gebruikt moeten worden vindt u hier: [App Passwords with Azure Multi-Factor Authentication](https://go.microsoft.com/fwlink/p/?LinkId=528178).
+> Als u uw gebruikers hebt ingeschakeld voor Azure Multi-Factor Authentication en alle apparaten met Office 2013 die niet zijn ingeschakeld voor moderne verificatie, moeten ze app-wachtwoorden op die apparaten gebruiken. Zie [dit artikel](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-mfasettings#app-passwords) voor meer informatie.
   
 ## <a name="faq"></a>Veelgestelde vragen
 

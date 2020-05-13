@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Krijg een overzicht van geautomatiseerde onderzoeks- en reactiemogelijkheden in Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: 3f8aa761207be61f78eb5f9b5140439c86455bf3
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d62d24a8f4cbd0541099ece91e46a23d3fbc786c
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035614"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208909"
 ---
 # <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-365"></a>Een overzicht van geautomatiseerd onderzoek en reactie (AIR) in Microsoft 365
 
@@ -50,7 +50,7 @@ Momenteel voor AIR worden waarschuwingen die worden gegenereerd uit de volgende 
 > [!NOTE]
 > Aan de waarschuwingen met een sterretje (*) wordt een *informatieve* ernst toegewezen in het desbetreffende waarschuwingsbeleid binnen het Security & Compliance Center, waarbij e-mailmeldingen zijn uitgeschakeld. E-mailmeldingen kunnen worden ingeschakeld via [de configuratie van het waarschuwingsbeleid.](../../compliance/alert-policies.md#alert-policy-settings) Waarschuwingen die zijn gemarkeerd met een hash (#) zijn algemeen beschikbare waarschuwingen die zijn gekoppeld aan openbare preview-playbooks.
 
-Als u waarschuwingen wilt weergeven, kiest u in het Beveiligings- & Compliance Center de optie **Waarschuwingen** > **weergeven.** Selecteer een waarschuwing om de details te bekijken en gebruik vanaf daar de koppeling **Onderzoek bekijken** om naar het desbetreffende [onderzoek](air-view-investigation-results.md#investigation-graph)te gaan.  
+Als u waarschuwingen wilt weergeven, kiest u in het Beveiligingscentrum & **de**optie  >  **Waarschuwingen weergeven.** Selecteer een waarschuwing om de details te bekijken en gebruik vanaf daar de koppeling **Onderzoek bekijken** om naar het desbetreffende [onderzoek](air-view-investigation-results.md#investigation-graph)te gaan.  
 
 > [!NOTE]
 > Informatieve waarschuwingen worden standaard verborgen in de waarschuwingsweergave. Als u ze wilt zien, wijzigt u het waarschuwingsfilter om informatieve waarschuwingen op te nemen.
@@ -68,6 +68,7 @@ De beveiligingsplaybooks die je met AIR krijgt, zijn ontworpen om de meest voork
 ### <a name="security-playbooks-are-rolling-out-in-phases"></a>Beveiligingsplaybooks worden gefaseerd uitgerold
 
 Als onderdeel van AIR worden veiligheidsplaybooks gefaseerd uitgerold. Fase 1 is nu algemeen beschikbaar en bevat verschillende playbooks die aanbevelingen bevatten voor acties die beveiligingsbeheerders kunnen controleren en goedkeuren:
+
 - Door de gebruiker gerapporteerdphishbericht
 - URL klik vonnis wijzigen
 - Malware gedetecteerd na levering (Malware ZAP)
@@ -76,6 +77,7 @@ Als onderdeel van AIR worden veiligheidsplaybooks gefaseerd uitgerold. Fase 1 is
 Fase 1 bevat ook ondersteuning voor door de beheerder geactiveerde e-mailonderzoeken (met Behulp van [Threat Explorer).](threat-explorer.md)
 
 Fase 2 is nu vooruitgang met de volgende playbooks in **openbare preview,** met aanbevelingen voor acties en het helpen van beveiligingsbeheerders bij het onderzoeken van problemen:
+
 - Gebruiker gerapporteerd als gecompromitteerd (openbare preview)
 
 Verdere playbooks zullen worden vrijgegeven als ze zijn voltooid. Bezoek de [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) om te zien wat er nog meer is gepland en binnenkort.
@@ -83,6 +85,7 @@ Verdere playbooks zullen worden vrijgegeven als ze zijn voltooid. Bezoek de [Mic
 ### <a name="playbooks-include-investigation-and-recommendations"></a>Playbooks bevatten onderzoek en aanbevelingen
 
 In AIR bevat elk beveiligingsdraaiboek: 
+
 - een root-onderzoek van de entiteiten van een e-mail (bestanden, URL's, ontvangers, IP-adressen, enz.),
 - verder op zoek naar soortgelijke e-mails ontvangen door de organisatie 
 - stappen die zijn genomen om andere potentiële bedreigingen te identificeren en te correleren, en 
@@ -95,6 +98,7 @@ Elke stap op hoog niveau bevat een aantal substappen die worden uitgevoerd om ee
 Stel dat een gebruiker in uw organisatie een e-mail ontvangt waarvan hij denkt dat het een phishing-poging is. De gebruiker, die is getraind om dergelijke berichten te rapporteren, gebruikt de [invoegtoepassing Rapportbericht](enable-the-report-message-add-in.md) om deze naar Microsoft te verzenden voor analyse. De indiening wordt ook naar uw systeem verzonden en is zichtbaar in Explorer in de weergave **Inzendingen** (voorheen aangeduid als de weergave Door de **gebruiker gerapporteerde** weergave). Bovendien activeert het door de gebruiker gerapporteerde bericht nu een systeemgebaseerde informatieve waarschuwing, die automatisch het onderzoeksplaybook start.
 
 Tijdens de wortelonderzoeksfase worden verschillende aspecten van de e-mail beoordeeld. Dit zijn onder andere:
+
 - Een bepaling over wat voor soort bedreiging het zou kunnen zijn;
 - Wie heeft het verzonden;
 - Waar de e-mail is verzonden vanuit (verzendende infrastructuur);
@@ -110,8 +114,8 @@ Vervolgens worden verschillende dreigingsonderzoeken en jachtstappen uitgevoerd:
 - Vergelijkbare e-mailberichten worden geïdentificeerd via zoekopdrachten in het e-mailcluster.
 - Het signaal wordt gedeeld met andere platforms, zoals [Microsoft Defender ATP.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - Een bepaling wordt gemaakt over de vraag of gebruikers hebben geklikt via een kwaadaardige links in verdachte e-mailberichten.
-- Er wordt gecontroleerd in Exchange Online Protection[(EOP)](exchange-online-protection-eop.md)en Office 365 Advanced Threat Protection[(ATP)](office-365-atp.md)om te zien of er andere soortgelijke berichten zijn gerapporteerd door gebruikers.
-- Een controle wordt gedaan om te zien of een gebruiker is gecompromitteerd. Met deze controle worden signalen in Office 365, [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)en Azure Active [Directory](https://docs.microsoft.com/azure/active-directory)gecontroleerd, waarbij eventuele gerelateerde afwijkingen van gebruikersactiviteiten worden aangetast. 
+- Er wordt gecontroleerd in Exchange Online Protection[(EOP)](exchange-online-protection-overview.md)en Office 365 Advanced Threat Protection[(ATP)](office-365-atp.md)om te zien of er andere soortgelijke berichten zijn gerapporteerd door gebruikers.
+- Een controle wordt gedaan om te zien of een gebruiker is gecompromitteerd. Met deze controle worden signalen in Office 365, [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)en Azure Active [Directory](https://docs.microsoft.com/azure/active-directory)gecontroleerd, waarbij eventuele gerelateerde afwijkingen van gebruikersactiviteiten worden aangetast.
 
 Tijdens de jachtfase worden risico's en bedreigingen toegewezen aan verschillende jachtstappen. 
 
@@ -136,4 +140,3 @@ Net als bij playbooks die worden geactiveerd door een waarschuwing, bevatten aut
 - [Aan de slag met AIR](office-365-air.md)
 
 - [Bezoek de Microsoft 365 Roadmap om te zien wat er binnenkort komt en uitrol](https://www.microsoft.com/microsoft-365/roadmap?filters=)
-

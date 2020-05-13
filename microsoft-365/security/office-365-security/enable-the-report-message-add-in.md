@@ -16,17 +16,17 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het inschakelen van de invoegtoepassing Bericht rapport voor de webversie van Outlook en Outlook, voor individuele gebruikers of uw hele organisatie.
-ms.openlocfilehash: 22ce1c8e8084cb0bcbcb2f9fa4c0c80e1a59bf9c
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: 67fe2112e5d507ac1f0dc78ffa3534ebc9874916
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939473"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209485"
 ---
 # <a name="enable-the-report-message-add-in"></a>De invoegtoepassing Bericht rapporteren inschakelen
 
 > [!NOTE]
-> Als u een beheerder bent in een organisatie met Exchange Online-postvakken, raden we u aan de portal Inzendingen te gebruiken in het Beveiligings- & Compliance Center. Zie [Het indienen van beheerders gebruiken om vermoedelijke spam, phish, URL's en bestanden in te dienen bij Microsoft.](admin-submission.md)
+> Als u een beheerder bent in een Microsoft 365-organisatie met Exchange Online-postvakken, raden we u aan de portal Inzendingen te gebruiken in het Beveiligings- & Compliance Center. Zie [Het indienen van beheerders gebruiken om vermoedelijke spam, phish, URL's en bestanden in te dienen bij Microsoft.](admin-submission.md)
 
 Met de invoegtoepassing Rapportbericht voor Outlook en Outlook op het web (voorheen Outlook Web App) kunnen mensen eenvoudig valse positieven (goede e-mail gemarkeerd als slecht) of valse negatieven (slechte e-mail toegestaan) melden aan Microsoft en haar gelieerde ondernemingen voor analyse. Microsoft gebruikt deze inzendingen om de effectiviteit van e-mailbeveiligingstechnologieën te verbeteren.
 
@@ -54,7 +54,7 @@ Als u een globale beheerder of een Exchange Online-beheerder bent en Exchange is
   - Postvakken in on-premises Exchange-organisaties
   - GCC-, GCC HIGH- of DoD-abonnementen
 
-- U configureren dat gerapporteerde berichten worden gekopieerd of doorgestuurd naar een postvak dat u opgeeft. Zie [Een postvak opgeven voor het indienen van spam- en phishingberichten in Office 365 voor](user-submission.md)meer informatie.
+- U configureren dat gerapporteerde berichten worden gekopieerd of doorgestuurd naar een postvak dat u opgeeft. Zie [Een postvak opgeven voor het indienen van spam- en phishingberichten in Exchange Online voor](user-submission.md)meer informatie.
 
 - Uw bestaande webbrowser moet werken met de invoegtoepassing Bericht rapporteren. Maar als u merkt dat de invoegtoepassing niet beschikbaar is of niet werkt zoals verwacht, probeert u een andere browser.
 
@@ -64,7 +64,7 @@ Als u een globale beheerder of een Exchange Online-beheerder bent en Exchange is
 
 ## <a name="get-the-report-message-add-in-for-yourself"></a>De invoegtoepassing Rapportbericht zelf opvragen
 
-1. Ga naar de Microsoft <https://appsource.microsoft.com/marketplace/apps> AppSource bij en zoek naar de invoegtoepassing Bericht rapport. Ga naar <https://appsource.microsoft.com/product/office/wa104381180>.
+1. Ga naar de Microsoft AppSource <https://appsource.microsoft.com/marketplace/apps> bij en zoek naar de invoegtoepassing Bericht rapport. Ga naar <https://appsource.microsoft.com/product/office/wa104381180> .
 
 2. Klik **op NU KRIJGEN.**
 
@@ -91,7 +91,7 @@ Zie [De invoegtoepassing Rapportbericht gebruiken](https://support.office.com/ar
 > [!NOTE]
 > Het kan tot 12 uur duren voordat de invoegtoepassing in uw organisatie wordt weergegeven.
 
-1. Ga in het Microsoft 365-beheercentrum naar de pagina <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> **Services &-invoegtoepassing** op , en klik vervolgens op **Invoegtoepassing implementeren**.
+1. Ga in het Microsoft 365-beheercentrum naar de pagina **Services & invoegtoepassing** <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> op , en klik vervolgens op **Invoegtoepassing implementeren**.
 
    ![Pagina Services en invoegtoepassing in het Microsoft 365-beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
@@ -101,7 +101,7 @@ Zie [De invoegtoepassing Rapportbericht gebruiken](https://support.office.com/ar
 
    ![Een nieuwe invoegpagina implementeren](../../media/NewAddInScreen2.png)
 
-4. Klik op de **invoegpagina Selecteren** die wordt weergegeven in het vak **Zoeken,** voer **Bericht melden**in en klik vervolgens op Zoekpictogram](../../media/search-icon.png) **zoeken** ![. Zoek in de lijst met resultaten **rapportbericht** en klik op **Toevoegen**.
+4. Klik op de **invoegpagina Selecteren** die wordt weergegeven in het vak **Zoeken,** voer **Bericht melden**in en klik vervolgens op Zoekpictogram **zoeken** ![ ](../../media/search-icon.png) . Zoek in de lijst met resultaten **rapportbericht** en klik op **Toevoegen**.
 
    ![Invoegzoekresultaten selecteren](../../media/NewAddInScreen3.png)
 
@@ -149,7 +149,7 @@ Wanneer u gebruikers op de hoogte stelt van de invoegtoepassing Bericht melden, 
 
 ## <a name="review-or-edit-settings-for-the-report-message-add-in"></a>Instellingen voor de invoegtoepassing Rapportbericht controleren of bewerken
 
-1. Ga in het Microsoft 365-beheercentrum naar de pagina <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> **Services &-invoegtoepassing** op .
+1. Ga in het Microsoft 365-beheercentrum naar de pagina **Services &-invoegtoepassing** op <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> .
 
    ![Pagina Services en invoegtoepassing in het nieuwe Microsoft 365-beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 

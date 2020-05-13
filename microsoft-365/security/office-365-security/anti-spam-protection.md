@@ -18,20 +18,20 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Meer informatie over de antispam-instellingen en -filters waarmee u spam voorkomen in Exchange Online en Microsoft 365.
-ms.openlocfilehash: 96132bf66438861eb117aedd841f7912de1258cc
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Beheerders kunnen meer te weten komen over de antispam-instellingen en -filters die spam helpen voorkomen in Exchange Online Protection (EOP).
+ms.openlocfilehash: d7c58fd4751bc7d92d5dfa3cadcfb7b24a3fc465
+ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034056"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44211414"
 ---
-# <a name="anti-spam-protection-in-microsoft-365"></a>Bescherming tegen spam in Microsoft 365
+# <a name="anti-spam-protection-in-eop"></a>Bescherming tegen spam in EOP
 
 > [!NOTE]
-> Dit onderwerp is bedoeld voor Microsoft 365-beheerders. Zie [Overzicht van het filter ongewenste e-mail](https://support.Microsoft.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) en ongewenste [e-mail en phishing](https://support.Microsoft.com/article/86c1d76f-4d5a-4967-9647-35665dc17c31)voor onderwerpen van eindgebruikers.
+> Dit onderwerp is bedoeld voor beheerders. Zie [Overzicht van het filter ongewenste e-mail](https://support.Microsoft.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) en ongewenste [e-mail en phishing](https://support.Microsoft.com/article/86c1d76f-4d5a-4967-9647-35665dc17c31)voor onderwerpen van eindgebruikers.
 
-Als u een Microsoft 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection (EOP)-klant zonder Exchange Online-postvakken, worden uw e-mailberichten automatisch beschermd tegen spam (ongewenste e-mail) door EOP.
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken worden e-mailberichten automatisch beveiligd tegen spam (ongewenste e-mail) door EOP.
 
 Microsoft's e-mail veiligheid roadmap omvat een ongeëvenaarde cross-product aanpak. EOP anti-spam en anti-phishing technologie wordt toegepast op onze e-mailplatforms om gebruikers te voorzien van de nieuwste anti-spam en anti-phishing tools en innovaties in het hele netwerk. Het doel voor EOP is om een uitgebreide en bruikbare e-mailservice aan te bieden die gebruikers helpt detecteren en beschermen tegen ongewenste e-mail, frauduleuze e-mailbedreigingen (phishing) en malware.
 
@@ -43,7 +43,7 @@ Om ongewenste e-mail te helpen verminderen, bevat EOP bescherming tegen ongewens
 
 De anti-spam instellingen in EOP zijn gemaakt van de volgende technologieën:
 
-- **Verbindingsfiltering:** identificeert goede en slechte e-mailbronservers in het begin van de binnenkomende e-mailverbinding via de IP-lijst met toegestane gegevens, IP-bloklijst en de *veilige lijst* (een dynamische maar niet-bewerkbare lijst met vertrouwde afzenders die door Microsoft worden onderhouden). U configureert deze instellingen in het verbindingsfilterbeleid. Meer informatie bij [Verbindingsfiltering configureren in Microsoft 365](configure-the-connection-filter-policy.md).
+- **Verbindingsfiltering:** identificeert goede en slechte e-mailbronservers in het begin van de binnenkomende e-mailverbinding via de IP-lijst met toegestane gegevens, IP-bloklijst en de *veilige lijst* (een dynamische maar niet-bewerkbare lijst met vertrouwde afzenders die door Microsoft worden onderhouden). U configureert deze instellingen in het verbindingsfilterbeleid. Meer informatie bij [Verbindingsfiltering configureren](configure-the-connection-filter-policy.md).
 
   > [!NOTE]
   > Spoofintelligentie maakt gebruik van verbindingsfiltering om lijsten te maken en te blokkeren van afzenders die uw e-maildomein spoofen. Zie [Meer informatie over spoofinformatie in Microsoft 365](learn-about-spoof-intelligence.md)voor meer informatie.
@@ -105,7 +105,7 @@ Hier volgen enkele stappen die u nemen om valse positieven te voorkomen:
 
   Zie Instellingen voor ongewenste [e-mail configureren in Exchange Online-postvakken in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md)voor meer informatie over deze instellingen.
 
-- **De lijsten met beschikbare veilige afzenders gebruiken:** Zie voor informatie [Lijsten met veilige afzenders maken](lijsten met veilige afzenders maken-in-office-365.md.
+- **De lijsten met beschikbare veilige afzenders gebruiken:** zie [Lijsten met veilige afzenderen maken](create-safe-sender-lists-in-office-365.md)voor informatie .
 
 - **Controleer of gebruikers zich binnen de verzend- en ontvangstlimieten bevinden,** zoals beschreven in [Het ontvangen en verzenden van limieten](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits) in de beschrijving van de Exchange Online-service.
 
