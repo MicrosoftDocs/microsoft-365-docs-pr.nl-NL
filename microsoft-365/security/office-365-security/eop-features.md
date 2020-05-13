@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: In de volgende tabel vindt u een lijst met functies die beschikbaar zijn in de door Exchange Online Protection (EOP) gehoste e-mailfilterservice.
-ms.openlocfilehash: d3b7638a1ff060d1c1760f62e487a7cd649a9131
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: fc9a13ce7a2fc8782ed260ce0ce64aec456a4d51
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209461"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213422"
 ---
 # <a name="eop-features"></a>EOP-functies
 
@@ -78,7 +78,7 @@ In de volgende tabel vindt u een lijst met functies die beschikbaar zijn in de d
 |Web-based beheer|Beheerders kunnen de service beheren in het Exchange-beheercentrum (EAC), dat wordt ondersteund in 60 talen. Zie [Exchange-beheercentrum in het zelfstandige EOP](exchange-admin-center-in-exchange-online-protection-eop.md)voor meer informatie.|
 |Adreslijstsynchronisatie|Adreslijstsynchronisatie is beschikbaar via het Azure Active Directory Sync-hulpprogramma. Zie de sectie 'Adreslijstsynchronisatie gebruiken om e-mailgebruikers te beheren' voor meer informatie in [EOP beheren.](manage-mail-users-in-eop.md)|
 |Directory Based Edge Blocking (DBEB)|Met de DBEB-functie u berichten weigeren voor ongeldige ontvangers bij de perimeter van het servicenetwerk. Met DBEB kunnen beheerders geadresseerden met e-mail toevoegen aan Microsoft 365 en alle berichten blokkeren die naar e-mailadressen worden verzonden en die niet aanwezig zijn in Microsoft 365. Zie [Directory based edge blocking gebruiken om berichten die naar ongeldige ontvangers worden verzonden, te weigeren voor](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking)meer informatie over het configureren van DBEB.|
-|Powershell|Volledige EOP-functionaliteit is beschikbaar in Exchange Online Protection PowerShell. Zie [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/exchange-online-protection-powershell)voor meer informatie.|
+|Powershell|Volledige EOP-functionaliteit is beschikbaar in standalone EOP PowerShell. Zie [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/exchange-online-protection-powershell)voor meer informatie.|
 |**Rapportage en logboekregistratie**||
 |Berichttracering|Beheerders kunnen e-mailberichten volgen wanneer ze de service passeren. U bepalen of een doelbericht is ontvangen, geweigerd, uitgesteld of geleverd door de service. Hiermee u de vragen van uw gebruikers efficiënt beantwoorden, problemen met de e-mailstroom oplossen, beleidswijzigingen valideren en de noodzaak om contact op te nemen met de technische ondersteuning voor hulp te verlichten. Zie [Berichttracering in het Security & Compliance Center](message-trace-scc.md)voor meer informatie.|
 |Webgebaseerde rapporten|De rapporten over e-mailbeveiliging in het Security & Compliance Center bieden berichtengegevens. U bijvoorbeeld controleren hoeveel spam en malware wordt gedetecteerd of hoe vaak uw regels voor e-mailstroom worden geëvenaard. Met deze interactieve rapporten u snel een visueel rapport van beknopte gegevens krijgen en inzoomen op details over afzonderlijke berichten, tot 90 dagen terug. Zie [Rapporten over e-mailbeveiliging gebruiken om gegevens over malware, spam en regeldetecties weer te geven](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports)voor meer informatie.|

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe ze uitgaand spambeleid kunnen bekijken, maken, wijzigen en verwijderen in Exchange Online Protection (EOP).
-ms.openlocfilehash: 9970956c2d05a47032cd47b867b8b4e9e92abc29
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 3f34c1ad27af1e0df2d2e2385f095da53e1cc318
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209569"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213030"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Uitgaand spamfilteren configureren in EOP
 
@@ -37,7 +37,7 @@ Beheerders kunnen het standaard uitgaande spambeleid bekijken, bewerken en confi
 
 U uitgaande spambeleidsregels configureren in het Security & Compliance Center of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; standalone EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
-## <a name="outbound-spam-policies-in-the-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>Uitgaand spambeleid in het Security & Compliance Center vs Exchange Online PowerShell of Exchange Online Protection PowerShell
+## <a name="outbound-spam-policies-in-the-security--compliance-center-vs-powershell"></a>Uitgaand spambeleid in het Security & Compliance Center vs PowerShell
 
 De basiselementen van een uitgaand spambeleid in EOP zijn:
 
@@ -53,7 +53,7 @@ Het verschil tussen deze twee elementen is niet duidelijk wanneer u uitgaande sp
 
 - Wanneer u een uitgaand spambeleid verwijdert uit het Security & Compliance Center, worden de regel voor uitgaand spamfilter en het bijbehorende uitgaande spamfilterbeleid verwijderd.
 
-In Exchange Online PowerShell of zelfstandige Exchange Online Protection PowerShell is het verschil zichtbaar tussen uitgaand spamfilterbeleid en uitgaande spamfilterregels. U beheert het beleid voor uitgaande spamfilters met behulp van de cmdlets ** \* -HostedOutboundSpamFilterPolicy** en u beheert uitgaande spamfilterregels met behulp van de cmdlets ** \* -HostedOutboundSpamFilterRule.**
+In Exchange Online PowerShell of zelfstandige EOP PowerShell is het verschil zichtbaar tussen uitgaand spamfilterbeleid en uitgaande spamfilterregels. U beheert het beleid voor uitgaande spamfilters met behulp van de cmdlets ** \* -HostedOutboundSpamFilterPolicy** en u beheert uitgaande spamfilterregels met behulp van de cmdlets ** \* -HostedOutboundSpamFilterRule.**
 
 - In PowerShell maakt u eerst het uitgaande spamfilterbeleid en vervolgens maakt u de regel voor uitgaande spamfilters die het beleid identificeert waarop de regel van toepassing is.
 
@@ -77,7 +77,7 @@ Om de effectiviteit van uitgaande spamfilters te vergroten, u aangepaste uitgaan
 
 - U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Gebruik <https://protection.office.com/antispam> om direct naar de pagina **Antispaminstellingen** te gaan.
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone Exchange Online Protection PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie Verbinding maken met Exchange [Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)als u verbinding wilt maken met zelfstandige EOP PowerShell.
 
 - U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u uitgaande spambeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Voor alleen-lezen toegang tot uitgaande spambeleid moet u lid zijn van de rolgroep **Security Reader.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
@@ -101,7 +101,12 @@ Als u een aangepast uitgaand spambeleid maakt in het Security & Compliance Cente
 
 4. (Optioneel) Vouw de sectie **Meldingen** uit om extra gebruikers te configureren die kopieën en meldingen van verdachte uitgaande e-mailberichten moeten ontvangen:
 
-   - **Stuur een kopie van verdachte uitgaande e-mailberichten naar specifieke personen:** deze instelling voegt de opgegeven gebruikers als BCC-ontvangers toe aan de verdachte uitgaande berichten. Ga als volgt te werk om deze instelling in te schakelen:
+   - **Stuur een kopie van verdachte uitgaande e-mailberichten naar specifieke personen:** deze instelling voegt de opgegeven gebruikers als BCC-ontvangers toe aan de verdachte uitgaande berichten.
+
+     > [!NOTE]
+     > Deze instelling werkt alleen in het standaard uitgaande spambeleid. Het werkt niet in het aangepaste uitgaande spambeleid dat u maakt.
+
+     Ga als volgt te werk om deze instelling in te schakelen:
 
      a. Schakel het selectievakje in om de instelling in te schakelen.
 
@@ -122,7 +127,7 @@ Als u een aangepast uitgaand spambeleid maakt in het Security & Compliance Cente
    - **Specifieke personen op de hoogte stellen als een afzender is geblokkeerd vanwege het verzenden van uitgaande spam:**
 
      > [!NOTE]
-     > Het [standaardwaarschuwingsbeleid](../../compliance/alert-policies.md) met de naam **Gebruiker met de naam Gebruiker die geen e-mail** verzendt, stuurt al e-mailmeldingen naar leden van de groep **TenantAdministrators** **(Globale beheerders)** wanneer gebruikers worden geblokkeerd vanwege het overschrijden van de limieten in de sectie **Adressenlimieten.** We raden u aan het waarschuwingsbeleid te gebruiken in plaats van deze instelling in het uitgaande spambeleid om beheerders en andere gebruikers hiervan op de hoogte te stellen. Zie De [waarschuwingsinstellingen voor gebruikers met beperkte toegang controleren voor](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users)instructies.
+     > Het [standaardwaarschuwingsbeleid](../../compliance/alert-policies.md) met de naam **Gebruiker met de naam Gebruiker die geen e-mail** verzendt, stuurt al e-mailmeldingen naar leden van de groep **TenantAdministrators** **(Globale beheerders)** wanneer gebruikers worden geblokkeerd vanwege het overschrijden van de limieten in de sectie **Adressenlimieten.** We raden u aan het waarschuwingsbeleid te gebruiken in plaats van deze instelling in het uitgaande spambeleid om beheerders en andere gebruikers hiervan op de hoogte te stellen. Zie De [waarschuwingsinstellingen voor gebruikers met beperkte toegang controleren voor](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users)instructies. <br/><br/> Deze instelling werkt alleen in het standaard uitgaande spambeleid. Het werkt niet in het aangepaste uitgaande spambeleid dat u maakt.
 
      Ga als volgt te werk om deze instelling in te schakelen:
 
@@ -146,7 +151,7 @@ Als u een aangepast uitgaand spambeleid maakt in het Security & Compliance Cente
 
    > [!NOTE]
    > Deze instellingen zijn alleen van toepassing op postvakken in de cloud.
-     
+
    - **Maximum aantal ontvangers per gebruiker**
 
      Een geldige waarde is 0 tot 10000. De standaardwaarde is 0, wat betekent dat de standaardinstellingen van de service worden gebruikt. Zie [Limieten verzenden voor microsoft 365-opties voor](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)meer informatie.
@@ -263,7 +268,7 @@ Om de prioriteit van beleid te wijzigen, kunt u het beleid naar boven of beneden
 
 U kunt het standaardbeleid niet verwijderen.
 
-## <a name="use-exchange-online-powershell-or-exchange-online-protection-powershell-to-configure-outbound-spam-policies"></a>Exchange Online PowerShell of Exchange Online Protection PowerShell gebruiken om uitgaand spambeleid te configureren
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies"></a>Exchange Online PowerShell of zelfstandige EOP PowerShell gebruiken om uitgaand spambeleid te configureren
 
 ### <a name="use-powershell-to-create-outbound-spam-policies"></a>PowerShell gebruiken om uitgaand spambeleid te maken
 

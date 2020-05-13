@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u verbindingsfiltering configureren in Exchange Online Protection (EOP) om e-mails van e-mailservers toe te staan of te blokkeren.
-ms.openlocfilehash: 9b4f203f11e72b4459c9fa35d3e4fdca544cffbb
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b9fd8c1b365f59647618e397a511873aae40146f
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209581"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213434"
 ---
 # <a name="configure-connection-filtering"></a>Filteren van verbinding configureren
 
@@ -44,7 +44,7 @@ In dit onderwerp wordt beschreven hoe u het standaardverbindingsfilterbeleid con
 
 - U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Gebruik <https://protection.office.com/antispam> om direct naar de pagina **Antispaminstellingen** te gaan.
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone Exchange Online Protection PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie Verbinding maken met Exchange [Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)als u verbinding wilt maken met zelfstandige EOP PowerShell.
 
 - U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u het standaardverbindingsfilterbeleid wilt wijzigen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Voor alleen-lezen toegang tot het standaardverbindingsfilterbeleid moet u lid zijn van de rolgroep **Beveiligingslezer.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
@@ -90,7 +90,7 @@ In dit onderwerp wordt beschreven hoe u het standaardverbindingsfilterbeleid con
 
 3. De beleidsinstellingen worden weergegeven in de vervolgkeuzelijst die wordt geopend.
 
-## <a name="use-exchange-online-powershell-or-standalone-exchange-online-protection-powershell-to-modify-the-default-connection-filter-policy"></a>Exchange Online PowerShell of zelfstandige Exchange Online Protection PowerShell gebruiken om het standaardbeleid voor verbindingsfilter te wijzigen
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-modify-the-default-connection-filter-policy"></a>Exchange Online PowerShell of zelfstandige EOP PowerShell gebruiken om het standaardbeleid voor verbindingsfilter te wijzigen
 
 Gebruik de volgende syntaxis:
 
@@ -134,7 +134,7 @@ Ga een van de volgende stappen uit om te controleren of u het standaardbeleid vo
 
 - Ga in het Beveiligingscentrum & naar **Bedreigingsbeheer** \> **Policy** \> **Anti-spam** \> klik op de vervolgkeuzelijst naast Het **filterbeleid van Verbinding (altijd aan)** en controleer de instellingen.
 
-- Voer in Exchange Online PowerShell of zelfstandige Exchange Online Protection PowerShell de volgende opdracht uit en controleer de instellingen:
+- Voer in Exchange Online PowerShell of standalone EOP PowerShell de volgende opdracht uit en controleer de instellingen:
 
   ```powershell
   Get-HostedConnectionFilterPolicy -Identity Default

@@ -14,12 +14,12 @@ ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel leert u hoe u domeinen en instellingen verplaatst van de ene Microsoft Exchange Online Protection (EOP)-organisatie (tenant) naar de andere.
-ms.openlocfilehash: c57f8363093c2e1a9bfad5c34f62a0ca2c1ae689
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: e9e0bd0d18ad73c08f0bc5b487a46289f67e40ba
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208315"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213446"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a>Domeinen en instellingen verplaatsen van de ene EOP-organisatie naar de andere
 
@@ -59,11 +59,11 @@ Als u de bronorganisatie in de doelorganisatie opnieuw wilt maken, moet u ervoor
   > [!NOTE]
   > Cmdlet-ondersteuning voor het exporteren en importeren van de verzameling e-mailstromenregels wordt momenteel alleen ondersteund voor EOP Premium-abonnementen.
 
-De eenvoudigste manier om al uw instellingen te verzamelen, is door PowerShell te gebruiken. Zie Verbinding maken met Exchange [Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)als u verbinding wilt maken met Exchange Online Protection PowerShell.
+De eenvoudigste manier om al uw instellingen te verzamelen, is door PowerShell te gebruiken. Zie Verbinding maken met Exchange [Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)als u verbinding wilt maken met zelfstandige EOP PowerShell.
 
 Vervolgens u al uw instellingen verzamelen en exporteren naar een .xml-bestand dat moet worden geïmporteerd in de doeltenant. In het algemeen u de uitvoer van de **cmdlet Get** voor elke instelling naar de cmdlet **Exporteren-Clixml** geleid om de instellingen in XML-bestanden op te slaan, zoals in het volgende codevoorbeeld wordt weergegeven.
 
-Maak in Exchange Online Protection PowerShell een map met de naam Exporteren op een locatie die gemakkelijk te vinden en te wijzigen is in die map. Bijvoorbeeld:
+Maak in standalone EOP PowerShell een map met de naam Exporteren op een locatie die gemakkelijk te vinden en te wijzigen is in die map. Bijvoorbeeld:
 
 ```PowerShell
 mkdir C:\EOP\Export
