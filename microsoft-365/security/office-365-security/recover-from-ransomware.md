@@ -13,14 +13,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365-beheerders kunnen leren hoe ze kunnen herstellen van een ransomware-aanval.
-ms.openlocfilehash: 49e14e92505f5241828a525aba82a2dc871e6784
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 51f5bb365fe707615444c1399479171aa72755e1
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634398"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208256"
 ---
-# <a name="recover-from-a-ransomware-attack-in-office-365"></a>Herstellen van een ransomware-aanval in Office 365
+# <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Herstellen van een ransomware aanval in Microsoft 365
 
 Zelfs als u alle voorzorgsmaatregelen neemt om uw organisatie [ransomware](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) te beschermen, u nog steeds het slachtoffer worden van een ransomware-aanval. Ransomware is big business, en de aanvallen zijn te verifiëren geavanceerde.
 
@@ -42,7 +42,7 @@ Het belangrijkste punt hier is om de verspreiding van data-encryptie te stoppen 
 
 Als u vermoedt dat e-mail een doelwit is, moet u de toegang van gebruikers tot postvakken tijdelijk uitschakelen. Exchange ActiveSync wordt door mobiele apparaten gebruikt om gegevens te synchroniseren tussen het apparaat en het Exchange Online-postvak.
 
-Zie [ActiveSync uitschakelen voor gebruikers in Office 365](https://support.microsoft.com/help/2795303/how-to-disable-exchange-activesync-for-users-in-office-365)als u ActiveSync voor een postvak wilt uitschakelen.
+Zie Exchange [ActiveSync uitschakelen voor gebruikers in Exchange Online](https://support.microsoft.com/help/2795303/how-to-disable-exchange-activesync-for-users-in-office-365)als u ActiveSync voor een postvak wilt uitschakelen.
 
 Zie als:
 

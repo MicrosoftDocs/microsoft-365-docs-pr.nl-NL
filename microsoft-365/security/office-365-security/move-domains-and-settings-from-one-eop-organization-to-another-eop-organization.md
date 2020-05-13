@@ -14,14 +14,14 @@ ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel leert u hoe u domeinen en instellingen verplaatst van de ene Microsoft Exchange Online Protection (EOP)-organisatie (tenant) naar de andere.
-ms.openlocfilehash: 86f268e6bfb5ed7229137df8b6bf017f15ab1f9c
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: c57f8363093c2e1a9bfad5c34f62a0ca2c1ae689
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033960"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208315"
 ---
-# <a name="move-domains-and-settings-from-one-eop-organization-to-another-eop-organization"></a>Domeinen en instellingen van één EOP-organisatie naar een andere EOP-organisatie verplaatsen
+# <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a>Domeinen en instellingen verplaatsen van de ene EOP-organisatie naar de andere
 
 Als u de vereisten voor bedrijven wijzigt, moet soms één EOP-organisatie (tenant) (Microsoft Exchange Online Protection) worden opgesplitst in twee afzonderlijke organisaties, twee organisaties samenvoegen tot één of moeten uw domeinen en EOP-instellingen van de ene organisatie naar de andere worden verplaatst. De overstap van de ene EOP-organisatie naar een tweede EOP-organisatie kan een uitdaging zijn, maar met een paar eenvoudige externe Windows PowerShell-scripts en een kleine hoeveelheid voorbereiding kan dit worden bereikt met een relatief klein onderhoudsvenster.
 
@@ -44,9 +44,13 @@ Als u de bronorganisatie in de doelorganisatie opnieuw wilt maken, moet u ervoor
 
 - Groepen
 
-- Filters voor antispaminhoud
+- Anti-spam
 
-- Filters voor anti-malware-inhoud
+  - Antispambeleid (ook wel inhoudsfilterbeleid genoemd)
+  - Uitgaand beleid voor spamfilters
+  - Beleid voor verbindingsfilter
+
+- Anti-malwarebeleid
 
 - Verbindingslijnen
 
@@ -125,7 +129,7 @@ Get-HostedContentFilterPolicy | Export-Clixml HostedContentFilterPolicy.xml
 Get-HostedContentFilterRule | Export-Clixml HostedContentFilterRule.xml
 Get-HostedOutboundSpamFilterPolicy | Export-Clixml HostedOutboundSpamFilterPolicy.xml
 #****************************************************************************
-# Anti-malware content filters
+# Anti-malware policies
 #****************************************************************************
 Get-MalwareFilterPolicy | Export-Clixml MalwareFilterPolicy.xml
 Get-MalwareFilterRule | Export-Clixml MalwareFilterRule.xml
@@ -175,9 +179,11 @@ Foreach ($domain in $Domains) {
 
 Nu u de informatie bekijken en verzamelen uit het Microsoft 365-beheercentrum van uw doelorganisatie, zodat u uw domeinen snel verifiëren wanneer het zover is:
 
-1. Meld u aan bij het Microsoft [https://portal.office.com](https://portal.office.com)365-beheercentrum op .
+1. Meld u aan bij het Microsoft 365-beheercentrum op <https://portal.office.com> .
 
 2. Klik **op Domeinen**.
+
+   Als u geen domeinen ziet, klikt u op **Navigtion aanpassen,** selecteert u **Setup**en klikt u op **Opslaan**.
 
 3. Klik op elke koppeling **Start-installatie** en ga vervolgens door de wizard Setup.
 
@@ -185,7 +191,7 @@ Nu u de informatie bekijken en verzamelen uit het Microsoft 365-beheercentrum va
 
 5. Neem de MX-record of TXT-record op die u gebruikt om uw domein te verifiëren en de wizard Setup af te ronden.
 
-6. Voeg de verificatie-TXT-records toe aan uw DNS-records. Hiermee u sneller de domeinen in de bronorganisatie verifiëren nadat ze uit de doelorganisatie zijn verwijderd. Zie [DNS-records maken bij elke DNS-hostingprovider voor Office 365 voor](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)meer informatie over het configureren van DNS.
+6. Voeg de verificatie-TXT-records toe aan uw DNS-records. Hiermee u sneller de domeinen in de bronorganisatie verifiëren nadat ze uit de doelorganisatie zijn verwijderd. Zie [DNS-records maken bij elke DNS-hostingprovider voor Microsoft 365 voor](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)meer informatie over het configureren van DNS.
 
 ## <a name="step-3-force-senders-to-queue-mail"></a>Stap 3: Afzenders dwingen om e-mail in de wachtrij te plaatsen
 
@@ -195,8 +201,7 @@ Een optie om afzenders te dwingen in de wachtrij te staan, is door uw MX-records
 
 Een andere optie is om een ongeldige MX-record in elk domein te plaatsen waar de DNS-records voor uw domein worden bewaard (ook wel uw DNS-hostingservice genoemd). Dit zal ertoe leiden dat de afzender in de wachtrij van uw e-mail en opnieuw proberen (typische pogingen opnieuw proberen zijn voor 48 uur, maar dit kan variëren van provider tot provider). U invalid.outlook.com gebruiken als ongeldig MX-doel. Door de Waarde Time to Live (TTL) te verlagen tot vijf minuten op de MX-record, wordt de wijziging sneller doorgevoerd in DNS-providers.
 
-Zie [DNS-records maken bij elke DNS-hostingprovider voor Office 365 voor](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)meer informatie over het configureren van DNS.
-
+Zie [DNS-records maken bij elke DNS-hostingprovider voor Microsoft 365 voor](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)meer informatie over het configureren van DNS.
 
 > [!IMPORTANT]
 > Verschillende providers wachtrij e-mail voor verschillende perioden. U moet uw nieuwe tenant snel instellen en uw DNS-instellingen terugdraaien om te voorkomen dat niet-leveringsrapporten (NDR's) naar de afzender worden verzonden als de wachtrijtijd verstrijkt.
@@ -244,7 +249,7 @@ Remove-MsolDomain -DomainName $Domain.Name -Force
 
 ## <a name="step-5-verify-domains-for-the-target-organization"></a>Stap 5: Domeinen voor de doelorganisatie verifiëren
 
-1. Meld u aan bij [https://portal.office.com](https://portal.office.com)het beheercentrum op .
+1. Meld u aan bij het beheercentrum op [https://portal.office.com](https://portal.office.com) .
 
 2. Klik **op Domeinen**.
 
@@ -926,4 +931,4 @@ if($HostedContentFilterPolicyCount -gt 0){
 
 ## <a name="step-8-revert-your-dns-settings-to-stop-mail-queuing"></a>Stap 8: Uw DNS-instellingen terugdraaien om e-mailwachtrijen te stoppen
 
-Als u ervoor kiest om uw MX-records in te stellen op een ongeldig adres waardoor de afzenders tijdens uw overgang in de wachtrij staan, moet u deze weer instellen op de juiste waarde zoals opgegeven in het [beheercentrum.](https://admin.microsoft.com) Zie [DNS-records maken bij elke DNS-hostingprovider voor Office 365 voor](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)meer informatie over het configureren van DNS.
+Als u ervoor kiest om uw MX-records in te stellen op een ongeldig adres waardoor de afzenders tijdens uw overgang in de wachtrij staan, moet u deze weer instellen op de juiste waarde zoals opgegeven in het [beheercentrum.](https://admin.microsoft.com) Zie [DNS-records maken bij elke DNS-hostingprovider voor Microsoft 365 voor](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)meer informatie over het configureren van DNS.

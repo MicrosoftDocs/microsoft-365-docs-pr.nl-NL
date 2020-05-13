@@ -1,11 +1,11 @@
 ---
-title: Services voor niet-klanten die e-mail naar Office 365 verzenden
+title: Services voor niet-klanten die e-mail naar Microsoft 365 verzenden
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 5/2/2016
+ms.date: ''
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -16,14 +16,14 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: Om het vertrouwen van gebruikers in het gebruik van e-mail te behouden, heeft Microsoft verschillende beleidsregels en technologieën ingevoerd om onze gebruikers te beschermen.
-ms.openlocfilehash: 2d8de601fd24f30c342768b8b27e44248f05b5fe
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3a3dc26d757de84f5abd46c85f3596db67d676ae
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638390"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208232"
 ---
-# <a name="services-for-non-customers-sending-mail-to-office-365"></a>Services voor niet-klanten die e-mail naar Office 365 verzenden
+# <a name="services-for-non-customers-sending-mail-to-microsoft-365"></a>Services voor niet-klanten die e-mail naar Microsoft 365 verzenden
 
 E-mailmisbruik, ongewenste e-mail en frauduleuze e-mails (phishing) blijven het hele e-mailecosysteem belasten. Om het vertrouwen van gebruikers in het gebruik van e-mail te behouden, heeft Microsoft verschillende beleidsregels en technologieën ingevoerd om onze gebruikers te beschermen. Microsoft begrijpt echter dat legitieme e-mail niet negatief mag worden beïnvloed. Daarom hebben we een reeks services opgezet om afzenders te helpen hun vermogen om e-mail te leveren aan Microsoft 365-gebruikers te verbeteren door hun verzendreputatie proactief te beheren.
 
@@ -33,14 +33,14 @@ In dit overzicht vindt u informatie over de voordelen die wij uw organisatie bie
 
 |**Service**|**Voordelen**|
 |:-----|:-----|
-|Deze online help-inhoud| Biedt:  <br/>  Een startpunt voor vragen met betrekking tot het leveren van communicatie aan EOP-gebruikers  <br/>  Bevat een eenvoudige online gids met ons beleid en onze vereisten  <br/>  Een overzicht van de filters voor ongewenste e-mail en verificatietechnologieën die door Microsoft worden gebruikt|
+|Deze online help-inhoud|Biedt: <br/> Een startpunt voor vragen met betrekking tot het leveren van communicatie aan EOP-gebruikers. <br/><br/> Bevat een eenvoudige online gids met ons beleid en onze vereisten. <br/><br/> Een overzicht van de filters voor ongewenste e-mail en verificatietechnologieën die door Microsoft worden gebruikt.|
 |[Microsoft-ondersteuning](#microsoft-support)|Biedt zelfhulp en escalatieondersteuning voor leveringsproblemen.|
 |[Anti-Spam IP-delist Portal](#anti-spam-ip-delist-portal)|Een tool om IP-delist-aanvraag in te dienen. Alvorens dit verzoek in te dienen, is het de verantwoordelijkheid van de afzender om ervoor te zorgen dat verdere e-mail afkomstig van het betreffende IP niet beledigend of kwaadaardig is.|
-|[Melding van misbruik en spam voor ongewenste e-mail afkomstig van Exchange Online](#abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online)|Voorkomt dat spam en andere ongewenste e-mail vanuit Exchange Online wordt verzonden en dat het internet en uw e-mailsysteem worden verrommeld.|
+|[Melding van misbruik en spam voor ongewenste e-mail afkomstig van Exchange Online](#abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online)|Voorkomt dat spam en andere ongewenste e-mail wordt verzonden vanuit Exchange Online en verrommeling van het internet en uw e-mailsysteem.|
 
 ## <a name="microsoft-support"></a>Microsoft-ondersteuning
 
-Microsoft biedt verschillende ondersteuningsopties voor mensen die problemen hebben met het verzenden van e-mail naar Microsoft 365-inboxen. Wij raden u aan:
+Microsoft biedt verschillende ondersteuningsopties voor mensen die problemen hebben met het verzenden van e-mail naar Microsoft 365-ontvangers. Wij raden u aan:
 
 - Volg de instructies in een niet-leveringsrapport dat u ontvangt.
 

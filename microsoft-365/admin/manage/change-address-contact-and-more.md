@@ -20,19 +20,19 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Meer informatie over het aanbrengen van wijzigingen in uw organisatieprofiel, zoals organisatienaam, adres, telefoon, technisch contact en e-mail.
-ms.openlocfilehash: a1b792dd74c38e93489bccc49e3a034e1da889e4
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: d3871e683aed862cfe58e072035b75cc004b9ef6
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139671"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208172"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Het adres en de technische contactpersoon van uw organisatie en meer wijzigen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
   
@@ -47,7 +47,7 @@ Zie [Uw factuuradressen voor Microsoft 365 voor Bedrijven wijzigen](../../commer
 
 Ga als u andere informatie op de profielpagina van uw bedrijf wijzigen:
   
-1. Ga in het beheercentrum naar de pagina **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2118715" target="_blank">instellingen.</a>
+1. Ga in het beheercentrum **Settings** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2118715" target="_blank">**Instellingen org-instellingen.**</a>
 
 2. Selecteer op het tabblad **Organisatieprofiel** de optie **Organisatiegegevens**.
 

@@ -1,5 +1,5 @@
 ---
-title: Rapportage en berichttracering in Exchange Online Protection
+title: Rapportage en berichttracering
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,16 +14,16 @@ ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel vindt u meer informatie over rapporten en hulpprogramma's voor probleemoplossing die beschikbaar zijn voor EOP-beheerders (Microsoft Exchange Online Protection).
-ms.openlocfilehash: 44b4223b4310a2de1d90f99f8a7af23cc6054f94
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: af41f1d3b6ccc7632b392f58c36344239200f915
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034378"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44206440"
 ---
-# <a name="reporting-and-message-trace-in-exchange-online-protection"></a>Rapportage en berichttracering in Exchange Online Protection
+# <a name="reporting-and-message-trace-in-eop"></a>Rapportage en berichttracering in EOP
 
-Microsoft Exchange Online Protection (EOP) biedt veel verschillende rapporten waarmee u de algehele status en status van uw organisatie bepalen. Er zijn ook tools om specifieke gebeurtenissen op te lossen (zoals een bericht dat niet bij de beoogde ontvangers binnenkomt) en controlerapporten om te helpen bij nalevingsvereisten.
+In Microsoft 365-organisaties met postvakken in Exchange Online- of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken, biedt EOP veel verschillende rapporten waarmee u de algehele status en status van uw organisatie bepalen. Er zijn ook tools om specifieke gebeurtenissen op te lossen (zoals een bericht dat niet bij de beoogde ontvangers binnenkomt) en controlerapporten om te helpen bij nalevingsvereisten.
 
 ## <a name="usage-reports"></a>Gebruiksrapporten
 
@@ -41,7 +41,7 @@ Zie de volgende bronnen voor meer informatie:
 
 - [Microsoft 365-rapporten in het beheercentrum - E-mailactiviteit](https://docs.microsoft.com/office365/admin/activity-reports/email-activity)
 
-- [Microsoft 365-rapporten in het beheercentrum - gebruik van e-mailapps](https://docs.microsoft.com/office365/admin/activity-reports/email-apps-usage)
+- [Microsoft 365-rapporten in het beheercentrum - Gebruik van e-mailapps](https://docs.microsoft.com/office365/admin/activity-reports/email-apps-usage)
 
 - [Microsoft 365-rapporten in het beheercentrum - Postvakgebruik](https://docs.microsoft.com/office365/admin/activity-reports/mailbox-usage)
 
@@ -57,11 +57,7 @@ Deze verbeterde rapporten bieden een interactieve rapportage-ervaring voor EOP-b
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Aangepaste rapporten met Microsoft Graph
 
-Maak programmatisch rapporten die beschikbaar zijn in het Microsoft 365-beheercentrum met Behulp van Microsoft Graph. Zie de subonderwerpen van [Werken met Office 365-gebruiksrapporten in Microsoft Graph](https://docs.microsoft.com/graph/api/resources/report).
-
-## <a name="custom-reports-using-microsoft-graph"></a>Aangepaste rapporten met Microsoft Graph
-
-Programmatisch rapporten maken. Zie [Overzicht van Microsoft Graph](https://docs.microsoft.com/graph/overview).
+Maak programmatisch rapporten die beschikbaar zijn in het beheercentrum met Microsoft Graph. Zie [Overzicht van Microsoft Graph](https://docs.microsoft.com/graph/overview) en Werken met gebruiksrapporten voor Office [365 in Microsoft Graph](https://docs.microsoft.com/graph/api/resources/report)voor meer informatie.
 
 ## <a name="message-trace"></a>Berichttracering
 
@@ -69,7 +65,7 @@ Volgt e-mailberichten terwijl ze via EOP reizen. U bepalen of een e-mailbericht 
 
 U deze informatie gebruiken om de vragen van uw gebruiker efficiënt te beantwoorden, problemen met de e-mailstroom op te lossen, beleidswijzigingen te valideren en de noodzaak om contact op te nemen met de technische ondersteuning voor hulp te verlichten.
 
-Zie [Een e-mailbericht traceren](https://docs.microsoft.com/exchange/monitoring/trace-an-email-message/trace-an-email-message)
+Zie [Berichttracering in het Security & Compliance Center](message-trace-scc.md).
 
 ## <a name="audit-logging"></a>Controlelogboekregistratie
 
@@ -85,6 +81,7 @@ In de volgende tabel wordt beschreven wanneer EOP-rapportage- en berichttracerin
 |Overzichtsrapporten voor e-mailbeveiliging|90 dagen|De aggregatie van berichtgegevens is meestal binnen 24-48 uur voltooid. Sommige kleine incrementele geaggregeerde wijzigingen kunnen optreden voor maximaal 5 dagen.|
 |Detailrapporten voor e-mailbeveiliging|90 dagen|Voor gedetailleerde gegevens die minder dan 7 dagen oud zijn, moeten gegevens binnen 24 uur worden weergegeven, maar mogelijk niet volledig zijn tot 48 uur. Sommige kleine incrementele wijzigingen kunnen optreden voor maximaal 5 dagen. <br/><br/> Als u gedetailleerde rapporten wilt weergeven voor berichten die meer dan 7 dagen oud zijn, kunnen de resultaten enkele uren duren.|
 |Gegevens over berichttracering|90 dagen|Wanneer u een berichttracering uitvoert voor berichten die minder dan 7 dagen oud zijn, moeten de berichten binnen 5-30 minuten worden weergegeven.<br/><br/> Wanneer u een berichttracering uitvoert voor berichten die meer dan 7 dagen oud zijn, kunnen de resultaten enkele uren duren.|
+|
 
 > [!NOTE]
-> Beschikbaarheid en latentie van gegevens is hetzelfde, of het nu wordt aangevraagd via het Microsoft 365-beheercentrum of het externe PowerShell.
+> Beschikbaarheid en latentie van gegevens is hetzelfde, of het nu wordt aangevraagd via het beheercentrum of externe PowerShell.

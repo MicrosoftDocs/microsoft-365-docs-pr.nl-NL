@@ -9,6 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+monikerRange: o365-germany
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -19,18 +20,17 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: Meer informatie over Office 365 Duitsland.
-ms.openlocfilehash: d992d437e40baaa105ca407d40bb81ff84d9e3f3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2c63672865ac2c64bd9731df797202cf9cfdd9cd
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43623904"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208352"
 ---
-> [!NOTE]
-> Office 365 Duitsland accepteert niet langer nieuwe klanten of implementeert geen nieuwe services meer. De nieuwe cloudregio's in Duitsland, beschikbaar in het eerste kwartaal van 2020 voor Microsoft 365 en Office 365, bieden zowel de belangrijkste klantendataresidentie binnen Duitsland als volledige connectiviteit met het wereldwijde cloudnetwerk van Microsoft. 
->
+# <a name="learn-about-office-365-germany"></a>Meer informatie over Office 365 Duitsland
 
-# <a name="learn-about-office-365-germany"></a>Meer informatie over Office 365 Germany
+> [!NOTE]
+> Office 365 Duitsland accepteert niet langer nieuwe klanten of implementeert geen nieuwe services meer. De nieuwe cloudregio's in Duitsland, beschikbaar in het eerste kwartaal van 2020 voor Microsoft 365 en Office 365, bieden zowel de belangrijkste klantendataresidentie binnen Duitsland als volledige connectiviteit met het wereldwijde cloudnetwerk van Microsoft.
 
 Office 365 Duitsland was een gedifferentieerde optie voor de Office 365-services die in heel Europa beschikbaar zijn. Het hielp om tegemoet te komen aan de behoeften van de meest gereguleerde klanten in Duitsland, de Europese Unie (EU) en de European Free Trade Association (EVA) door het leveren van onze toonaangevende productiviteitsdiensten voor digitaal werk, vanuit Duitse datacenters, met dataresidentie in Duitsland, en strikte maatregelen voor toegang tot en controle van gegevens via een uniek model voor gegevensbeheerders dat onder de Duitse wetgeving valt.
   

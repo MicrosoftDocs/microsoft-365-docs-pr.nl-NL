@@ -1,5 +1,5 @@
 ---
-title: Betalingswijzen beheren
+title: Betaalmethoden beheren
 f1.keywords:
 - CSH
 ms.author: cmcatee
@@ -20,16 +20,20 @@ search.appverid:
 - MOE150
 - BEA160
 description: Meer informatie over het beheren van uw betalingsmethoden in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: fb3efa7aa2e098462e8c323d1cd0038222862e7b
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: c1679b8f525712681aaaad20334840da5e625ad6
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045866"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213066"
 ---
-# <a name="manage-payment-methods"></a>Betalingswijzen beheren
+# <a name="manage-payment-methods"></a>Betaalmethoden beheren
 
-Wanneer u zakelijke producten of services van Microsoft koopt, u een bestaande betalingsmethode gebruiken of een nieuwe methode toevoegen. U een creditcard of bankpas of bankrekening gebruiken om te betalen voor de dingen die u koopt. Maar u alleen betalingsmethoden beheren die u toevoegt.
+Wanneer u zakelijke producten of services van Microsoft koopt, u een bestaande betalingsmethode gebruiken of een nieuwe methode toevoegen. U een creditcard of bankpas of bankrekening gebruiken om te betalen voor de dingen die u koopt.
+
+Als uw zakelijke account een factureringsprofiel heeft en u een eigenaar van het factureringsprofiel of een bijdrager voor factureringsprofielen bent, u het factureringsprofiel dat wordt ondersteund door een creditcard of factuurbetaling gebruiken om aankopen te doen of rekeningen te betalen. Als u een factuurbeheerder bent, u alleen een factureringsprofiel gebruiken om facturen te betalen. Zie [Factureringsprofielen beheren](manage-billing-profiles.md)voor meer informatie over factureringsprofielen en -rollen .
+
+Als uw zakelijke account geen factureringsprofiel heeft, kan elke globale of factureringsbeheerder een bankrekening beheren en gebruiken die aan het zakelijke account is toegevoegd. U echter alleen creditcards beheren of gebruiken die u toevoegt.
 
 > [!NOTE]
 > De optie om te betalen met een bankrekening is niet beschikbaar in sommige landen of regio's.
@@ -40,7 +44,7 @@ Wanneer u zakelijke producten of services van Microsoft koopt, u een bestaande b
 
 Als u een betalingsmethode toevoegt, worden er geen abonnementen aan gekoppeld. Zie [Een betalingsmethode voor één abonnement wijzigen](#change-a-payment-method-for-a-single-subscription)als u één abonnement aan de betalingsmethode wilt toewijzen. Zie Een betalingsmethode vervangen als u alle abonnementen wilt vervangen die een andere betalingsmethode gebruiken met de nieuwe [betalingsmethode.](#replace-a-payment-method)
 
-1. Ga in het beheercentrum naar de pagina<a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Betalingsmethoden</a> **voor facturen** > **& betalingen.** > 
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden**  >  **voor factureringsfacturen &**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> betalingen.
 2. Selecteer **Betaalmethode toevoegen**.
 3. Kies op de pagina **Betalingsmethoden** een betalingsmethode uit het vervolgkeuzemenu.
 4. Voer de gegevens voor de nieuwe kaart of bankrekening in en selecteer **Toevoegen**.
@@ -49,9 +53,9 @@ Als u een betalingsmethode toevoegt, worden er geen abonnementen aan gekoppeld. 
 
 U de naam wijzigen op de creditcard of betaalkaart, het factuuradres of de vervaldatum van een bestaande betalingsmethode. U de kaart of het rekeningnummer echter niet wijzigen. Als het rekeningnummer is gewijzigd, [vervangt u het door een andere betalingsmethode](#replace-a-payment-method)en verwijdert u het [oude](#delete-a-payment-method)nummer .
 
-1. Ga in het beheercentrum naar de pagina<a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Betalingsmethoden</a> **voor facturen** > **& betalingen.** > 
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden**  >  **voor factureringsfacturen &**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> betalingen.
 2. Selecteer de rij van de betalingsmethode die u wilt bijwerken. Selecteer **bewerken**in het rechterdeelvenster .
-3. Werk uw betalingsmethodegegevens bij (naam op de creditcard of betaalkaart, factuuradres of vervaldatum) en selecteer **Opslaan**.
+3. Werk uw betalingsmethodegegevens bij, inclusief de naam op de creditcard of betaalkaart, het factuuradres of de vervaldatum, en selecteer **Opslaan**.
 
 ## <a name="replace-a-payment-method"></a>Een betalingsmethode vervangen
 
@@ -59,7 +63,7 @@ Wanneer u een betalingsmethode vervangt, vervangt u deze voor alle abonnementen 
 
 Zie [Een betalingsmethode voor één abonnement wijzigen](#change-a-payment-method-for-a-single-subscription)als u de betalingsmethode voor één abonnement wilt wijzigen.
 
-1. Ga in het beheercentrum naar de pagina<a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Betalingsmethoden</a> **voor facturen** > **& betalingen.** > 
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden**  >  **voor factureringsfacturen &**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> betalingen.
 2. Selecteer de rij van de te vervangen betalingsmethode. In het rechterdeelvenster worden alle factureringsprofielen en afzonderlijke abonnementen weergegeven die de geselecteerde betalingsmethode gebruiken.
 3. Selecteer in het rechterdeelvenster de optie **Betalingsmethode vervangen voor alle objecten**.
 4. Als u een bestaande betalingsmethode wilt gebruiken, kiest u er een in de vervolgkeuzelijst en selecteert u **Vervangen**.
@@ -73,7 +77,7 @@ Zie [Een betalingsmethode voor één abonnement wijzigen](#change-a-payment-meth
 
 U de betalingsmethode wijzigen die wordt gebruikt om voor één abonnement te betalen.
 
-1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 2. Selecteer op het tabblad **Abonnementen** het abonnement waarvoor u wilt betalen met de alternatieve betalingsmethode. 
 3. Selecteer **onder Facturering**naast de betalingsmethode de optie **Bewerken**.
 4. Selecteer naast uw bestaande betalingsmethode **wijzigen**.
@@ -89,7 +93,7 @@ U alleen een betalingsmethode verwijderen die niet is gekoppeld aan een abonneme
 
 Als een betalingsmethode niet is gekoppeld aan abonnementen of factureringsprofielen, u deze onmiddellijk verwijderen.
 
-1. Ga in het beheercentrum naar de pagina<a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Betalingsmethoden</a> **voor facturen** > **& betalingen.** > 
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden**  >  **voor factureringsfacturen &**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> betalingen.
 2. Zoek de betalingsmethode die u wilt verwijderen, selecteer de drie puntjes en selecteer **Verwijderen**.
 3. Selecteer Onder aan het rechterdeelvenster **delete**.
 
@@ -97,7 +101,7 @@ Als een betalingsmethode niet is gekoppeld aan abonnementen of factureringsprofi
 
 Als een betalingsmethode is gekoppeld aan abonnementen of factureringsprofielen, vervangt u deze eerst door een bestaande betalingsmethode of voegt u een nieuwe methode toe en verwijdert u vervolgens de oude betalingsmethode.
 
-1. Ga in het beheercentrum naar de pagina<a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Betalingsmethoden</a> **voor facturen** > **& betalingen.** > 
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden**  >  **voor factureringsfacturen &**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> betalingen.
 2. Selecteer de rij voor de betalingsmethode die u wilt verwijderen. In het rechterdeelvenster worden bestaande abonnementen weergegeven die deze betalingsmethode gebruiken.
 3. Selecteer **Verwijderen**in het rechterdeelvenster .
 4. Als u een bestaande betalingsmethode wilt gebruiken, kiest u er een in de vervolgkeuzelijst, selecteert u **Volgende**en selecteert u **Verwijderen**.
@@ -113,7 +117,7 @@ Als een betalingsmethode is gekoppeld aan abonnementen of factureringsprofielen,
 |**Probleem**|**Stappen voor probleemoplossing**|
 |:----------|:-----|
 |**Ik krijg een foutmelding met de tekst: "De browser is momenteel ingesteld om cookies te blokkeren."** |Laat uw browser cookies van derden toestaan en probeer het opnieuw. |
-|**Mijn creditcard of betaalkaart is geweigerd.** |Als u met een creditcard of betaalkaart betaalt en uw kaart wordt geweigerd, ontvangt u een e-mail met de tekst dat Microsoft de betaling niet heeft kunnen verwerken. Controleer of het &mdash; kaartnummer, de vervaldatum, de naam op de kaart en het adres, inclusief plaats, staat en postcode, precies zo worden weergegeven als op de kaart en uw afschrift. U uw kaartgegevens bijwerken en de betaling onmiddellijk indienen via de koppeling **Saldo vereffenen** in het gedeelte **Facturering** van de pagina met abonnementsgegevens. Zie [Wat als mijn creditcard is geweigerd en mijn betaling achterstallig is voor](pay-for-your-subscription.md#what-if-my-credit-card-was-declined-and-my-payment-is-past-due) meer informatie.  <br/><br/>  Neem contact op met uw bank als u het bericht 'geweigerd' blijft zien. Het is mogelijk dat uw kaart niet actief is. Als u de kaart onlangs in de e-mail hebt ontvangen met een bijgewerkte vervaldatum, controleert u of deze is geactiveerd. Uw bank kan u ook vertellen of uw kaart niet is goedgekeurd voor online, internationale of terugkerende transacties. |
+|**Mijn creditcard of betaalkaart is geweigerd.** |Als u met een creditcard of betaalkaart betaalt en uw kaart wordt geweigerd, ontvangt u een e-mail met de tekst dat Microsoft de betaling niet heeft kunnen verwerken. Controleer of het &mdash; kaartnummer, de vervaldatum, de naam op de kaart en het adres, inclusief plaats, staat en postcode, &mdash; precies worden weergegeven zoals ze op de kaart en uw afschrift staan. U uw kaartgegevens bijwerken en de betaling onmiddellijk indienen via de koppeling **Saldo vereffenen** in het gedeelte **Facturering** van de pagina met abonnementsgegevens. Zie [Wat als mijn creditcard is geweigerd en mijn betaling achterstallig is voor](pay-for-your-subscription.md#what-if-my-credit-card-was-declined-and-my-payment-is-past-due) meer informatie.  <br/><br/>  Neem contact op met uw bank als u het bericht 'geweigerd' blijft zien. Het is mogelijk dat uw kaart niet actief is. Als u de kaart onlangs in de e-mail hebt ontvangen met een bijgewerkte vervaldatum, controleert u of deze is geactiveerd. Uw bank kan u ook vertellen of uw kaart niet is goedgekeurd voor online, internationale of terugkerende transacties. |
 |**Ik wil een kaart of bankrekeningnummer bijwerken.** |U de kaart of het rekeningnummer niet wijzigen op een bestaande betalingsmethode. Als uw kaart of rekeningnummer is gewijzigd, [vervangt u deze door een andere betalingsmethode,](#replace-a-payment-method)waarbij alle actieve abonnementen van de betalingsmethode naar de nieuwe worden verplaatst en vervolgens de oude betalingsmethode wordt [verwijderd.](#delete-a-payment-method-with-no-subscriptions-or-billing-profiles-attached) |
 |**Ik heb slechts één kaart of bankrekening op mijn rekening en ik wil deze verwijderen.** |Als u slechts één betalingsmethode hebt, moet u [deze vervangen door een nieuwe betalingsmethode](#replace-a-payment-method) voordat u deze verwijderen. |
 |**Ik kan mijn kaart of bankrekening niet toevoegen.**  |U moet een betalingsmethode gebruiken die is uitgegeven vanuit hetzelfde land als uw huurder. Als u problemen ondervindt bij het invoeren van uw kaart- of bankrekeninggegevens, u [contact opnemen met de ondersteuning.](../../admin/contact-support-for-business-products.md) |

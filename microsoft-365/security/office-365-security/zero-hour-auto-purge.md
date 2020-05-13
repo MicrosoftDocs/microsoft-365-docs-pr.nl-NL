@@ -1,5 +1,5 @@
 ---
-title: Zero-hour auto purge (ZAP) - Functie voor e-mailbeveiliging
+title: Nuluur automatische zuivering (ZAP)
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -20,25 +20,25 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Lees meer over Zero-hour auto purge (ZAP), een functie voor e-mailbeveiliging in Microsoft 365 die spam-, malware- of phishingberichten detecteert die al bij Exchange Online zijn bezorgd.
-ms.openlocfilehash: ba7aa74dd9152990ce327d1b1564c3246d15cbb8
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+description: Beheerders kunnen meer te weten komen over hoe zero-hour auto purge (ZAP) met terugwerkende kracht afgeleverde berichten in een Exchange Online-postvak kan verplaatsen naar de map Ongewenste e-mail of quarantaine die met terugwerkende kracht spam of phishing blijken te zijn.
+ms.openlocfilehash: 643063139f5d65b0271fd14ee5a2d1ca1f42ad1a
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173296"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208438"
 ---
-# <a name="zero-hour-auto-purge-zap---protection-against-spam-and-malware-in-microsoft-365"></a>Zero-hour auto purge (ZAP) - bescherming tegen spam en malware in Microsoft 365
+# <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Zero-hour auto purge (ZAP) in Exchange Online
 
 ## <a name="overview"></a>Overzicht
 
-Zero-hour auto purge (ZAP) is een functie voor e-mailbeveiliging in Microsoft 365 die met terugwerkende kracht schadelijke phishing-, spam- of malwareberichten detecteert en neutraliseert die al zijn afgeleverd bij Postvakken van Exchange Online.
+In Microsoft 365-organisaties met postvakken in Exchange Online is zero-hour auto purge (ZAP) een functie voor e-mailbeveiliging die met terugwerkende kracht schadelijke phishing-, spam- of malwareberichten detecteert en neutraliseert die al zijn afgeleverd bij Postvakken van Exchange Online.
 
-ZAP is beschikbaar met de standaard Exchange Online Protection (EOP) die is inbegrepen bij elk Microsoft 365-abonnement dat Exchange Online-postvakken bevat. ZAP werkt niet in zelfstandige EOP-omgevingen die on-premises Exchange-postvakken beschermen.
+ZAP werkt niet in zelfstandige Exchange Online Protection (EOP)-omgevingen die on-premises Exchange-postvakken beschermen.
 
 ## <a name="how-zap-works"></a>Hoe ZAP werkt
 
-Microsoft 365 werkt dagelijks spam- en malwarehandtekeningen in realtime bij. Gebruikers kunnen echter nog steeds schadelijke berichten ontvangen om verschillende redenen, waaronder als inhoud wordt bewapend nadat ze aan gebruikers zijn geleverd. ZAP lost dit probleem op door voortdurend updates van de microsoft 365-spam- en malwarehandtekeningen te controleren. ZAP kan berichten vinden en verwijderen die zich al in het postvak van een gebruiker bevinden.
+Spam en malware handtekeningen worden bijgewerkt in de dienst real-time op een dagelijkse basis. Gebruikers kunnen echter nog steeds schadelijke berichten ontvangen om verschillende redenen, waaronder als inhoud wordt bewapend nadat ze aan gebruikers zijn geleverd. ZAP lost dit probleem op door voortdurend updates te controleren voor de spam- en malwarehandtekeningen in de service. ZAP kan berichten vinden en verwijderen die zich al in het postvak van een gebruiker bevinden.
 
 De ZAP-actie is naadloos voor de gebruiker; ze worden niet op de hoogte gesteld als een bericht wordt gedetecteerd en verplaatst.
 
@@ -48,7 +48,7 @@ De ZAP-actie is naadloos voor de gebruiker; ze worden niet op de hoogte gesteld 
 
 Voor **lees- of ongelezen berichten** die malware blijken te bevatten na levering, quarantainet ZAP het bericht dat de malwarebijlage bevat. Alleen beheerders kunnen malwareberichten vanuit quarantaine bekijken en beheren.
 
-Malware ZAP is standaard ingeschakeld in anti-malwarebeleid. Zie [Beleid voor antimalware configureren in Microsoft 365](configure-anti-malware-policies.md)voor meer informatie.
+Malware ZAP is standaard ingeschakeld in anti-malwarebeleid. Zie [Beleid voor anti-malware configureren in EOP](configure-anti-malware-policies.md)voor meer informatie.
 
 ### <a name="phish-zap"></a>Phish ZAP
 
@@ -58,7 +58,7 @@ Voor **gelezen of ongelezen berichten** die na levering als phish worden geïden
 
 - **Bericht verplaatsen naar ongewenste e-mail:** ZAP verplaatst het bericht naar de map Ongewenste e-mail, zolang de regel voor ongewenste e-mail is ingeschakeld in het postvak (het is standaard ingeschakeld). Zie [Instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md)voor meer informatie.
 
-- **Bericht omleiden naar e-mailadres**, **Bericht verwijderen**, **Quarantainebericht:** ZAP zet het bericht in quarantaine. Alleen beheerders kunnen in quarantaine geplaatste berichten in quarantaine bekijken en beheren.
+- **Bericht omleiden naar e-mailadres**, **Bericht verwijderen**, **Quarantainebericht:** ZAP zet het bericht in quarantaine.
 
 Standaard is phish ZAP ingeschakeld in antispambeleid en de standaardactie voor het **phishing-e-mailfiltervonnis** is **Quarantainebericht**, wat betekent dat phish ZAP het bericht standaard in quarantaine zet.
 
@@ -78,7 +78,7 @@ Standaard is spam ZAP ingeschakeld in antispambeleid en de standaardactie voor *
 
 Zie [Antispambeleid configureren in Microsoft 365 voor](configure-your-spam-filter-policies.md)meer informatie over het configureren van spamfilteruitspraken.
 
-### <a name="zap-considerations-for-office-365-advanced-threat-protection-atp"></a>ZAP-overwegingen voor Office 365 Advanced Threat Protection (ATP)
+### <a name="zap-considerations-for-office-365-advanced-threat-protection-office-365-atp"></a>ZAP-overwegingen voor Geavanceerde bedreigingsbeveiliging van Office 365 (Office 365 ATP)
 
 ZAP zal geen bericht in quarantaine plaatsen dat aan het scannen van [Dynamic Delivery](dynamic-delivery-and-previewing.md) is, of waar malwarefiltering de bijlage al heeft vervangen door het bestand Malware **Alert Text.txt.** Als een phish- of spamsignaal wordt ontvangen voor dit soort berichten en het filtervonnis in het antispambeleid is ingesteld om actie te ondernemen op het bericht (Verplaatsen naar ongewenstee items, omleiding, quarantaine, quarantaine) dan zal ZAP standaard een actie 'Verplaatsen naar ongewenste e-mail' uitvoeren.
 

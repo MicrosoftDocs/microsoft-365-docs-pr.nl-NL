@@ -13,13 +13,13 @@ localization_priority: Normal
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen leren hoe ze de geavanceerde antiphishingbeleidsregels kunnen maken, wijzigen en verwijderen die beschikbaar zijn in organisaties met Office 365 Advanced Threat Protection (ATP).
-ms.openlocfilehash: e1a7d3b9d401d8bb5bec08d7b5d58546bbd382aa
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+description: Beheerders kunnen leren hoe u de geavanceerde antiphishingbeleidsregels maken, wijzigen en verwijderen die beschikbaar zijn in organisaties met Office 365 Advanced Threat Protection (Office 365 ATP).
+ms.openlocfilehash: efecd830db7ed10210605e31aa0ded2599de1b72
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43949257"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208885"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>ATP-beleid tegen phishing configureren
 
@@ -29,7 +29,7 @@ Beheerders kunnen het standaard ATP-antiphishingbeleid bekijken, bewerken en con
 
 U ATP-antiphishingbeleid configureren in het Security & Compliance Center of in Exchange Online PowerShell.
 
-Zie [Antiphishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)voor informatie over het configureren van de beperktere antiphishingbeleidsregels die beschikbaar zijn in Exchange Online Protection-organisaties (dat wil zeggen Office 365-organisaties zonder ATP.
+Zie [Antiphishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)voor informatie over het configureren van de beperktere antiphishingbeleidsregels die beschikbaar zijn in Exchange Online Protection-organisaties (dat wil zeggen Microsoft 365-organisaties zonder Office 365 ATP.
 
 ## <a name="atp-anti-phishing-policies-in-the-security--compliance-center-vs-exchange-online-powershell"></a>ATP-antiphishingbeleid in het Security & Compliance Center vs Exchange Online PowerShell
 
@@ -47,7 +47,7 @@ Het verschil tussen deze twee elementen is niet duidelijk wanneer u ATP-antiphis
 
 - Wanneer u een ATP-antiphishingbeleid verwijdert uit het Security & Compliance Center, worden de anti-phish-regel en het bijbehorende anti-phish-beleid verwijderd.
 
-In Exchange Online PowerShell is het verschil tussen anti-phish-beleid en anti-phish-regels duidelijk. U beheert anti-phish-beleid met behulp van de ** \*cmdlets -AntiPhishPolicy** en u beheert anti-phish-regels met behulp van de ** \*cmdlets -AntiPhishRule.**
+In Exchange Online PowerShell is het verschil tussen anti-phish-beleid en anti-phish-regels duidelijk. U beheert anti-phish-beleid met behulp van de cmdlets ** \* -AntiPhishPolicy** en u beheert anti-phish-regels met behulp van de ** \* cmdlets -AntiPhishRule.**
 
 - In PowerShell maakt u eerst het anti-phish-beleid, vervolgens maakt u de anti-phish-regel die het beleid identificeert waarop de regel van toepassing is.
 
@@ -63,13 +63,13 @@ Elke ATP-organisatie heeft een ingebouwd ATP-antiphishingbeleid met de naam Offi
 
 - Het beleid met de naam Office365 AntiPhish Default heeft de aangepaste prioriteitswaarde **Laagste** die u niet wijzigen (het beleid wordt altijd als laatste toegepast). Elk aangepast beleid dat u maakt, heeft altijd een hogere prioriteit dan het beleid met de naam Office365 AntiPhish Default.
 
-- Het beleid met de naam Office365 AntiPhish Default is `True`het standaardbeleid (de eigenschap **IsDefault** heeft de waarde) en u het standaardbeleid niet verwijderen.
+- Het beleid met de naam Office365 AntiPhish Default is het standaardbeleid (de eigenschap **IsDefault** heeft de `True` waarde) en u het standaardbeleid niet verwijderen.
 
 Om de effectiviteit van anti-phishingbescherming te vergroten, u aangepaste ATP-antiphishingbeleidsregels maken met strengere instellingen die worden toegepast op specifieke gebruikers of groepen gebruikers.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Gebruik . **ATP anti-phishing** <https://protection.office.com/antiphishing>
+- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Gebruik **ATP anti-phishing** <https://protection.office.com/antiphishing> .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
@@ -79,7 +79,7 @@ Om de effectiviteit van anti-phishingbescherming te vergroten, u aangepaste ATP-
 
 - Sta maximaal 30 minuten toe om een nieuw of bijgewerkt beleid toe te passen.
 
-- Zie [Volgorde en voorrang van e-mailbeveiliging in Office 365](how-policies-and-protections-are-combined.md)voor informatie over waar antiphishingbeleid wordt toegepast in de filterpijplijn.
+- Zie [Volgorde en voorrang van e-mailbeveiliging voor](how-policies-and-protections-are-combined.md)informatie over waar antiphishingbeleid wordt toegepast in de filterpijplijn.
 
 ## <a name="use-the-security--compliance-center-to-create-atp-anti-phishing-policies"></a>Gebruik het Security & Compliance Center om ATP-antiphishingbeleid te maken
 
@@ -107,15 +107,15 @@ Wanneer u een ATP-antiphishingbeleid maakt, u alleen de beleidsnaam, beschrijvin
 
    - **De ontvanger is:** Hiermee geeft u een of meer postvakken, e-mailgebruikers of e-mailcontactpersonen in uw organisatie op.
    - **De ontvanger is lid van**: Geeft een of meer groepen in uw organisatie op.
-   - **Het domein van de geadresseerde is**: specificeert geadresseerden in een of meer van de geconfigureerde domeinen in Office 365.
+   - **Het domein van de geadresseerde is**: Hiermee geeft u ontvangers op in een of meer van de geconfigureerde geaccepteerde domeinen in de organisatie.
 
    Nadat u de voorwaarde hebt geselecteerd, wordt een overeenkomstige vervolgkeuzelijst weergegeven met een **elk vak.**
 
    - Klik in het vak en blader door de lijst met waarden die u wilt selecteren.
    - Klik in het vak en begin met typen om de lijst te filteren en een waarde te selecteren.
    - Als u extra waarden wilt toevoegen, klikt u in een leeg gebied in het vak.
-   - Als u afzonderlijke vermeldingen **Remove** ![wilt](../../media/scc-remove-icon.png) verwijderen, klikt u op Pictogram Verwijderen op de waarde verwijderen.
-   - Als u de hele **Remove** ![voorwaarde](../../media/scc-remove-icon.png) wilt verwijderen, klikt u op Pictogram Verwijderen op voorwaarde.
+   - Als u afzonderlijke vermeldingen **Remove** wilt verwijderen, klikt u ![ op Pictogram Verwijderen op de waarde ](../../media/scc-remove-icon.png) verwijderen.
+   - Als u de hele **Remove** voorwaarde wilt verwijderen, klikt u ![ op Pictogram Verwijderen op ](../../media/scc-remove-icon.png) voorwaarde.
 
    Als u een aanvullende voorwaarde wilt toevoegen, klikt u op **Een voorwaarde toevoegen** en selecteert u een resterende waarde onder Toegepast **als**.
 
@@ -135,15 +135,15 @@ Nadat u het ATP-antiphishingbeleid hebt gemaakt met deze algemene beleidsinstell
 
 Gebruik de volgende procedures om het ANTI-phishingbeleid van ATP te wijzigen: een nieuw beleid dat u hebt gemaakt of bestaande beleidsregels die u al hebt aangepast.
 
-1. Als u er nog niet bent, opent u het Beveiligingscentrum & Compliance Center en gaat u naar **Threat Management** \> **Policy** \> **ATP anti-phishing.**
+1. Als u er nog niet bent, opent u het Beveiligingscentrum & Compliance center en gaat u naar **Threat management** \> **Policy** \> **ATP anti-phishing.**
 
 2. Selecteer het aangepaste ATP-antiphishingbeleid dat u wilt wijzigen. Als deze al is geselecteerd, schakelt u de selectie uit en selecteert u deze opnieuw.
 
-3. De flyout met de naam bewerken van **uw beleid \<\> ** wordt weergegeven. Als u in een sectie op **Bewerken** klikt, hebt u toegang tot de instellingen in die sectie.
+3. De flyout met de naam bewerken van **uw beleid \< \> ** wordt weergegeven. Als u in een sectie op **Bewerken** klikt, hebt u toegang tot de instellingen in die sectie.
 
    - De volgende stappen worden weergegeven in de volgorde waarin de secties worden weergegeven, maar ze zijn niet opeenvolgend (u de secties in elke volgorde selecteren en wijzigen).
 
-   - Nadat u in een sectie op **Bewerken** hebt geklikt, worden de beschikbare instellingen weergegeven in een wizard-indeling, maar u in](../../media/scc-remove-icon.png) elke volgorde binnen de pagina's springen en u op **Opslaan** op een pagina klikken (of pictogram **Annuleren** of **Sluiten** ![sluiten om terug te keren naar de pagina **Uw beleidsnaam \<\> ** bewerken (u hoeft niet de laatste pagina van de wizard te bezoeken om op te slaan of te verlaten).
+   - Nadat u in een sectie op **Bewerken** hebt geklikt, worden de beschikbare instellingen weergegeven in een wizard-indeling, maar u in elke volgorde binnen de pagina's springen en u op **Opslaan** op een pagina klikken (of pictogram **Annuleren** of **Sluiten** sluiten om terug te keren naar de pagina Uw ![ ](../../media/scc-remove-icon.png) ** \< beleidsnaam \> ** bewerken (u hoeft niet de laatste pagina van de wizard te bezoeken om op te slaan of te verlaten).
 
 4. **Beleidsinstelling:** klik op **Bewerken** om dezelfde instellingen te wijzigen die beschikbaar waren toen u het beleid in de vorige sectie [maakte:](#use-the-security--compliance-center-to-create-atp-anti-phishing-policies)
 
@@ -164,7 +164,7 @@ Gebruik de volgende procedures om het ANTI-phishingbeleid van ATP te wijzigen: e
 
         - Klik in het vak en blader door de lijst met gebruikers om te selecteren.
         - Klik in het vak en begin met typen om de lijst te filteren en een gebruiker te selecteren.
-        - Als u een **Remove** ![item wilt](../../media/scc-remove-icon.png) verwijderen, klikt u op Pictogram Verwijderen op de gebruiker.
+        - Als u een **Remove** item wilt verwijderen, klikt u ![ op Pictogram Verwijderen op de ](../../media/scc-remove-icon.png) gebruiker.
 
      - **Naam:** Deze waarde wordt ingevuld op basis van het e-mailadres dat u hebt geselecteerd, maar u deze wijzigen.
 
@@ -226,7 +226,7 @@ Gebruik de volgende procedures om het ANTI-phishingbeleid van ATP te wijzigen: e
 
        - Klik in het vak en blader door de lijst met gebruikers om te selecteren.
        - Klik in het vak en begin met typen om de lijst te filteren en een gebruiker te selecteren.
-       - Als u een **Remove** ![item wilt](../../media/scc-remove-icon.png) verwijderen, klikt u op Pictogram Verwijderen op de gebruiker.
+       - Als u een **Remove** item wilt verwijderen, klikt u ![ op Pictogram Verwijderen op de ](../../media/scc-remove-icon.png) gebruiker.
 
      - **Vertrouwde domeinen**: Voer de domeinnaam in (bijvoorbeeld contoso.com), druk op ENTER en herhaal indien nodig.
 
@@ -236,7 +236,7 @@ Gebruik de volgende procedures om het ANTI-phishingbeleid van ATP te wijzigen: e
      - U de volgende instellingen direct op deze pagina **in-** of **uitschakelen:**
 
        - **Beveiligde gebruikers**
-       - **Beveiligde domeinen** \> **Domeinen Omvatten domeinen die ik bezit**
+       - **Beveiligde domeinen** \> **Domeinen opnemen waarvan ik eigenaar ben**
        - **Beveiligde domeinen** \> **Beveiligde domeinen** (aangepaste domeinen)
        - **Postvakintelligentie**
 
@@ -246,10 +246,10 @@ Gebruik de volgende procedures om het ANTI-phishingbeleid van ATP te wijzigen: e
 
    Houd er rekening mee dat dezelfde instellingen ook beschikbaar zijn in anti-phishingbeleid in EOP.
 
-   - **Instellingen voor spoofingfilters:** de standaardwaarde is **ingeschakeld**en we raden u aan deze aan te laten staan. Als u deze wilt uitschakelen, schuift u de schakelaar naar **Uit.** Zie [spoof-intelligentie configureren in Office 365](learn-about-spoof-intelligence.md) voor meer informatie.
+   - **Instellingen voor spoofingfilters:** de standaardwaarde is **ingeschakeld**en we raden u aan deze aan te laten staan. Als u deze wilt uitschakelen, schuift u de schakelaar naar **Uit.** Zie [Spoofinformatie configureren in EOP](learn-about-spoof-intelligence.md)voor meer informatie.
 
      > [!NOTE]
-     > U hoeft anti-spoofingbeveiliging niet uit te schakelen als uw MX-record niet naar Office 365 wijst. u schakelt in plaats daarvan Uitgebreide filtering voor connectors in. Zie Uitgebreide [filtering voor connectors in Exchange Online voor](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)instructies .
+     > U hoeft anti-spoofingbescherming niet uit te schakelen als uw MX-record niet naar Microsoft 365 wijst; u schakelt in plaats daarvan Uitgebreide filtering voor connectors in. Zie Uitgebreide [filtering voor connectors in Exchange Online voor](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)instructies .
 
    - **Functie Niet-geverifieerde afzender inschakelen:** de standaardwaarde is **Ingeschakeld**. Als u deze wilt uitschakelen, schuift u de schakelaar naar **Uit.**
 
@@ -283,7 +283,7 @@ Gebruik de volgende procedures om het ANTI-phishingbeleid van ATP te wijzigen: e
 
    Klik op Opslaan op **een** van beide pagina's als u klaar bent.
 
-8. Terug op de pagina **Uw beleidsnaam \<\> bewerken,** uw instellingen controleren en vervolgens op **Sluiten**klikken.
+8. Terug op de pagina **Uw \< beleidsnaam \> bewerken,** uw instellingen controleren en vervolgens op **Sluiten**klikken.
 
 ### <a name="use-the-security--compliance-center-to-modify-the-default-atp-anti-phishing-policy"></a>Gebruik het Beveiligings- & Compliance Center om het standaard BELEID voor ANTI-phishing van ATP te wijzigen
 
@@ -333,7 +333,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 
 2. Selecteer het beleid dat u wilt wijzigen. Als deze al is geselecteerd, schakelt u de selectie uit en selecteert u deze opnieuw.
 
-3. De flyout met de naam bewerken van **uw beleid \<\> ** wordt weergegeven.
+3. De flyout met de naam bewerken van **uw beleid \< \> ** wordt weergegeven.
 
    - Het aangepaste ATP-antiphishingbeleid met de **prioriteitswaarde** **0** heeft alleen de **knop Prioriteit verlagen** beschikbaar.
 
@@ -355,7 +355,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 
    - Klik **op Standaardbeleid** om het standaard beleid voor antiphishing weer te geven.
 
-3. De flyout met de naam bewerken van **uw beleid \<\> ** wordt weergegeven, waar u de instellingen en waarden bekijken.
+3. De flyout met de naam bewerken van **uw beleid \< \> ** wordt weergegeven, waar u de instellingen en waarden bekijken.
 
 ## <a name="use-the-security--compliance-center-to-remove-atp-anti-phishing-policies"></a>Gebruik het Beveiligings- & Compliance Center om het ANTI-phishingbeleid van ATP te verwijderen
 
@@ -363,7 +363,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 
 2. Selecteer het beleid dat u wilt verwijderen. Als deze al is geselecteerd, schakelt u de selectie uit en selecteert u deze opnieuw.
 
-3. Klik in de flyout **van de beleidsnaam \<\> bewerken** die wordt weergegeven op Beleid **verwijderen**en klik vervolgens op **Ja** in het waarschuwingsdialoogvenster dat wordt weergegeven.
+3. Klik in de flyout **van de \< \> beleidsnaam bewerken** die wordt weergegeven op Beleid **verwijderen**en klik vervolgens op **Ja** in het waarschuwingsdialoogvenster dat wordt weergegeven.
 
 U kunt het standaardbeleid niet verwijderen.
 
@@ -385,7 +385,7 @@ Het maken van een anti-phishing beleid in PowerShell is een proces in twee stapp
 
   - Het nieuwe beleid als uitgeschakeld maken _(ingeschakeld_ `$false` op de cmdlet **Nieuw-AntiPhishRule).**
 
-  - Stel de prioriteit in van het beleid tijdens het maken ( _ \<Prioriteitsnummer\>_) op de cmdlet **Nieuw-AntiPhishRule.** _Priority_
+  - Stel de prioriteit in van het beleid tijdens het maken ( _ \< \> Prioriteitsnummer_) op de cmdlet **Nieuw-AntiPhishRule.** _Priority_
 
 - Een nieuw anti-phish-beleid dat u in PowerShell maakt, is niet zichtbaar in het Security & Compliance Center totdat u het beleid toewijst aan een anti-phish-regel.
 
@@ -399,7 +399,7 @@ New-AntiPhishPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] <Addit
 
 In dit voorbeeld wordt anti-phish-beleid met de naam Research Quarantine met de volgende instellingen gemaakt:
 
-- Het beleid is ingeschakeld (we gebruiken de parameter _Ingeschakeld_ niet `$true`en de standaardwaarde is ).
+- Het beleid is ingeschakeld (we gebruiken de parameter _Ingeschakeld_ niet en de standaardwaarde is `$true` ).
 - De beschrijving is: Het beleid van de afdeling van het onderzoek.
 - Hiermee u organisatiedomeinen beveiliging voor alle geaccepteerde domeinen en gerichte domeinenbescherming voor fabrikam.com.
 - Hiermee geeft u Mai Fujito (mfujito@fabrikam.com) op als de gebruiker om te beschermen tegen imitatie.
@@ -608,7 +608,7 @@ Ga een van de volgende stappen uit om te controleren of u het ANTI-phishingbelei
   - Selecteer het beleid in de lijst en bekijk de details in de flyout.
   - Klik **op Standaardbeleid** en bekijk de details in de flyout.
 
-- Vervang in \<Exchange Online\> PowerShell Naam door de naam van het beleid of de regel en voer de volgende opdracht uit en controleer de instellingen:
+- Vervang in Exchange Online PowerShell \< Naam door de naam van het beleid of de regel en voer de volgende opdracht uit en controleer \> de instellingen:
 
   ```PowerShell
   Get-AntiPhishPolicy -Identity "<Name>"

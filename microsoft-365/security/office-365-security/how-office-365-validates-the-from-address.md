@@ -1,5 +1,5 @@
 ---
-title: Hoe Microsoft 365 het Van-adres valideert om phishing te voorkomen
+title: Hoe EOP het Van-adres valideert om phishing te voorkomen
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,18 +16,18 @@ search.appverid:
 ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
-description: 'Om phishing te voorkomen, vereisen Microsoft 365 en Outlook.com nu RFC-naleving voor From: addresses.'
+description: Beheerders kunnen meer te weten komen over de typen e-mailadressen die worden geaccepteerd of afgewezen door Exchange Online Protection (EOP) en Outlook.com om phishing te voorkomen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef361c7009cc8903ab2721d299412b7d44a4f87c
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: f16bb9b0af1ca5481437ef253c6d36dd519ff9e2
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034080"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209449"
 ---
-# <a name="how-microsoft-365-validates-the-from-address-to-prevent-phishing"></a>Hoe Microsoft 365 het Van-adres valideert om phishing te voorkomen
+# <a name="how-eop-validates-the-from-address-to-prevent-phishing"></a>Hoe EOP het Van-adres valideert om phishing te voorkomen
 
-Microsoft 365 e-mailaccounts ontvangen een steeds groter aantal phishing-aanvallen. Naast het gebruik van [vervalste (vervalste) afzender e-mailadressen](anti-spoofing-protection.md), aanvallers gebruiken vaak waarden in de Van adres die internet normen schenden. Om dit soort phishing te voorkomen, vereisen Microsoft 365 en Outlook.com nu binnenkomende berichten om een RFC-compatibel Adres op te nemen zoals beschreven in dit onderwerp. Deze handhaving werd in november 2017 mogelijk gemaakt.
+Phishing-aanvallen vormen een constante bedreiging voor elke e-mailorganisatie. Naast het gebruik van [vervalste (vervalste) afzender e-mailadressen](anti-spoofing-protection.md), aanvallers gebruiken vaak waarden in de Van adres die internet normen schenden. Om dit soort phishing te voorkomen, vereisen Exchange Online Protection (EOP) en Outlook.com nu binnenkomende berichten om een RFC-compatibel Van adres op te nemen zoals beschreven in dit onderwerp. Deze handhaving werd in november 2017 mogelijk gemaakt.
 
 **Opmerkingen**:
 
@@ -53,7 +53,7 @@ Het Adres Van wordt in detail gedefinieerd over verschillende RFC's (bijvoorbeel
   - Als het Van-adres een weergavenaam bevat, moet de waarde Van Mailadres worden ingesloten in hoekhaakjes (< >) zoals weergegeven.
   - Microsoft raadt u ten zeerste aan een spatie in te voegen tussen de weergavenaam en het e-mailadres.
 
-- **E-mailadres:** Een e-mailadres maakt gebruik van de indeling: `local-part@domain`
+- **E-mailadres:** Een e-mailadres maakt gebruik van de `local-part@domain` indeling:
 
   - **lokaal deel**: een tekenreeks die het postvak identificeert dat aan het adres is gekoppeld. Deze waarde is uniek binnen het domein. Vaak wordt de gebruikersnaam of GUID van de eigenaar van het postvak gebruikt.
   - **domein:** de volledig gekwalificeerde domeinnaam (FQDN) van de e-mailserver die het postvak host dat is geïdentificeerd door het lokale deel van het e-mailadres.
@@ -104,7 +104,7 @@ Het volgende Van e-mailadressen zijn ongeldig:
 
 ## <a name="suppress-auto-replies-to-your-custom-domain"></a>Automatische antwoorden op uw aangepaste domein onderdrukken
 
-U de waarde `From: <>` niet gebruiken om automatische antwoorden te onderdrukken. In plaats daarvan moet u een null MX-record instellen voor uw aangepaste domein. Automatische antwoorden (en alle antwoorden) worden natuurlijk onderdrukt omdat er geen gepubliceerd adres is waar naar de reagerende server berichten kan worden verzonden.
+U de waarde niet gebruiken `From: <>` om automatische antwoorden te onderdrukken. In plaats daarvan moet u een null MX-record instellen voor uw aangepaste domein. Automatische antwoorden (en alle antwoorden) worden natuurlijk onderdrukt omdat er geen gepubliceerd adres is waar naar de reagerende server berichten kan worden verzonden.
 
 - Kies een e-maildomein dat geen e-mail kan ontvangen. Als uw primaire domein bijvoorbeeld contoso.com is, u noreply.contoso.com kiezen.
 

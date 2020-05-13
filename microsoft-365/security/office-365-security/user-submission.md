@@ -15,16 +15,16 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u een postvak configureert om spam- en phishing-e-mail te verzamelen die door gebruikers wordt gerapporteerd.
-ms.openlocfilehash: 6de4c076af5b0c669625cd8edaa367f072c27598
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: 7b4b913a29c3eb16286d5a2874fe48bbc1c121fe
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173342"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208499"
 ---
-# <a name="specify-a-mailbox-for-user-submissions-of-spam-and-phishing-messages-in-office-365"></a>Een postvak opgeven voor het indienen van spam- en phishingberichten door gebruikers in Office 365
+# <a name="specify-a-mailbox-for-user-submissions-of-spam-and-phishing-messages-in-exchange-online"></a>Een postvak opgeven voor het indienen van spam- en phishingberichten door gebruikers in Exchange Online
 
-In Office 365-organisaties met Exchange Online-postvakken u een postvak opgeven om berichten te ontvangen die gebruikers als kwaadaardig of niet kwaadaardig rapporteren. Wanneer gebruikers berichten verzenden met behulp van de verschillende rapportageopties, u dit postvak gebruiken om berichten te onderscheppen (alleen naar het aangepaste postvak verzenden) of kopieën van berichten ontvangen (verzenden naar het aangepaste postvak en Microsoft). Deze functie werkt met de volgende opties voor berichtrapportage:
+In Microsoft 365-organisaties met Exchange Online-postvakken u een postvak opgeven om berichten te ontvangen die gebruikers als kwaadaardig of niet kwaadaardig rapporteren. Wanneer gebruikers berichten verzenden met behulp van de verschillende rapportageopties, u dit postvak gebruiken om berichten te onderscheppen (alleen naar het aangepaste postvak verzenden) of kopieën van berichten ontvangen (verzenden naar het aangepaste postvak en Microsoft). Deze functie werkt met de volgende opties voor berichtrapportage:
 
 - [De invoegtoepassing Rapportbericht](enable-the-report-message-add-in.md)
 
@@ -36,15 +36,15 @@ Door door de gebruiker gerapporteerde berichten naar een aangepast postvak te le
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de <https://protection.office.com/userSubmissionsReportMessage>pagina **Inzendingen van gebruiker** wilt gaan, gebruikt u .
+- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina **Inzendingen van gebruiker** wilt gaan, gebruikt u <https://protection.office.com/userSubmissionsReportMessage> .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone Exchange Online Protection PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u het postvak wilt configureren voor gebruikersinzendingen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Zie [Machtigingen in het Office 365-beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
+- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u het postvak wilt configureren voor gebruikersinzendingen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
 ## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>Het beveiligingscentrum & compliancecenter gebruiken om het postvak voor inzendingen van gebruikers te configureren
 
-1. Ga in het Security & Compliance Center naar \> **Inzendingen** **voor** \> **Policy** gebruikers van het beleid voor bedreigingen .
+1. Ga in het Security & Compliance Center naar Inzendingen voor gebruikers van **het beleid voor** \> **Policy** \> **bedreigingen.**
 
 2. Selecteer op de pagina **Gebruikersinzendingen** die wordt weergegeven een van de volgende opties:
 
@@ -58,7 +58,7 @@ Door door de gebruiker gerapporteerde berichten naar een aangepast postvak te le
 
          > Uw e-mail wordt ter analyse naar Microsoft verzonden. Sommige e-mails kunnen persoonlijke of gevoelige informatie bevatten.
 
-       - **Na indiening** ![:](../../media/scc-expand-icon.png)Klik op Pictogram Uitvouwen . Voer in de vakken **Titel-** en **Bevestigingsbericht** de beschrijvende tekst in die gebruikers zien nadat ze een bericht hebben gemeld met de invoegtoepassing Rapportbericht. U het variabele %type% gebruiken om het onderwerptype op te nemen.
+       - **Na indiening**: Klik op ![ Pictogram Uitvouwen ](../../media/scc-expand-icon.png) . Voer in de vakken **Titel-** en **Bevestigingsbericht** de beschrijvende tekst in die gebruikers zien nadat ze een bericht hebben gemeld met de invoegtoepassing Rapportbericht. U het variabele %type% gebruiken om het onderwerptype op te nemen.
 
       Klik op **Opslaan** wanneer u gereed bent. Als u deze waarden wilt wissen, klikt u op **Terugherstellen** op de pagina **Gebruikersinzendingen.**
 

@@ -17,16 +17,16 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het vinden en gebruiken van e-mailbeveiligingsrapporten voor uw organisatie. E-mailbeveiligingsrapporten zijn beschikbaar in het Security & Compliance Center.
-ms.openlocfilehash: b65dd6479262b97f08e34420d9a88ee2a327a73b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ca23f7ba0ce7bc43f8808e213dc79d066316a9ec
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631083"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208511"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
-Er zijn verschillende rapporten beschikbaar in het [Security & Compliance Center](https://protection.office.com) om u te helpen zien hoe e-mailbeveiligingsfuncties, zoals antispam, anti-malware en versleutelingsfuncties in Microsoft 365, uw organisatie beschermen. Als u over de [benodigde machtigingen](#what-permissions-are-needed-to-view-these-reports)beschikt, u deze rapporten bekijken in het Security & Compliance Center door naar **het dashboard rapporten** \> **Dashboard**te gaan.
+Er zijn verschillende rapporten beschikbaar in het [Security & Compliance Center](https://protection.office.com) om u te helpen zien hoe e-mailbeveiligingsfuncties, zoals antispam, anti-malware en versleutelingsfuncties in Microsoft 365, uw organisatie beschermen. Als u over de [benodigde machtigingen](#what-permissions-are-needed-to-view-these-reports)beschikt, u deze rapporten bekijken in het Security & Compliance Center door naar **het dashboard rapporten** te \> **Dashboard**gaan.
 
 ![Rapporten dashboard in het Security & Compliance Center](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
@@ -75,7 +75,7 @@ In dit rapport, dat beschikbaar is voor iedereen met Exchange Online Protection,
 
 In **het versleutelingsrapport** worden informatie weergegeven over e-mailberichten die zijn versleuteld, via het beleid van uw organisatie of via besturingselementen voor eindgebruikers. Het beveiligingsteam van uw organisatie kan informatie in dit rapport gebruiken om patronen te identificeren en proactief beleid voor gevoelige e-mailberichten toe te passen of aan te passen.
 
-Als u dit rapport wilt bekijken, gaat u in het & Compliance Center beveiliging naar **Dashboard** \> **het rapport Dashboardversleuteling** **rapporten** \> .
+Als u dit rapport wilt bekijken, gaat u in het & Compliance Center naar **het** rapport \> **Dashboard** \> **Dashboardversleuteling rapporten**.
 
 ![Versleutelingsrapport](../../media/encryptionreport-defaultview.png)
 
@@ -100,9 +100,9 @@ Met dit rapport kan het beveiligings- en complianceteam van uw organisatie contr
 Het rapport **Status van bedreigingsbeveiliging** is een slim rapport met schadelijke e-mail die is gedetecteerd en geblokkeerd door Exchange Online Protection. Dit rapport is handig voor het bekijken van e-mail die is geïdentificeerd als malware of een phishing-poging in de loop van de tijd (tot 90 dagen) en stelt beveiligingsbeheerders in staat trends te identificeren of te bepalen of het beleid moet worden aangepast.
 
 > [!NOTE]
-> Een rapport over de status van bedreigingsbescherming is beschikbaar voor klanten die [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) of [Exchange Online Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/what-is-eop) (EOP) hebben; De informatie die wordt weergegeven in het rapport Status bedreigingsstatus voor ATP-klanten zal echter waarschijnlijk andere gegevens bevatten dan wat EOP-klanten kunnen zien. EOP-klanten kunnen bijvoorbeeld informatie over malware die in e-mail is gedetecteerd, bekijken, maar geen informatie over [schadelijke bestanden die zijn gedetecteerd in SharePoint Online, OneDrive of Microsoft Teams,](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)een ATP-specifieke mogelijkheid. ([Meer informatie over ATP-rapporten](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp).)
+> Een rapport over de status van bedreigingsbescherming is beschikbaar voor klanten die [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) of [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) hebben; De informatie die wordt weergegeven in het rapport Status bedreigingsstatus voor ATP-klanten zal echter waarschijnlijk andere gegevens bevatten dan wat EOP-klanten kunnen zien. EOP-klanten kunnen bijvoorbeeld informatie over malware die in e-mail is gedetecteerd, bekijken, maar geen informatie over [schadelijke bestanden die zijn gedetecteerd in SharePoint Online, OneDrive of Microsoft Teams,](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)een ATP-specifieke mogelijkheid. ([Meer informatie over ATP-rapporten](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp).)
 
-Als u dit rapport wilt bekijken, gaat u in het [Security & Compliance Center](https://protection.office.com)naar de status **bedreigingsbeveiliging** **van het** \> **dashboard** \> rapporten .
+Als u dit rapport wilt bekijken, gaat u in het [Security & Compliance Center](https://protection.office.com)naar de status **bedreigingsbeveiliging van het dashboard rapporten** \> **Dashboard** \> **Threat Protection Status**.
 
 ![Statusrapport risicobeveiliging](../../media/0ff86e12-c2b2-4d89-92a5-cefb054dc070.png)
 
@@ -120,7 +120,7 @@ U ook kiezen of u gegevens wilt bekijken voor e-mail die als kwaadaardig is geï
 
 Het rapport **Malware Detecties** laat zien hoeveel inkomende en uitgaande berichten zijn gedetecteerd als malware bevatten voor uw organisatie.
 
-Ga naar \> **Meldingen** \> **dashboardmalwaredetecties**om dit rapport te bekijken in het [Security & Compliance Center.](https://protection.office.com) **Dashboard**
+Ga in het [Security & Compliance Center](https://protection.office.com)naar **Reports** \> **Dashboard** \> **Malwaredetecties**van dashboardrapporten om dit rapport te bekijken.
 
 ![Voorbeeld van rapport Malware Detecties](../../media/a1ba61a3-565a-46d6-b0d5-6a6cff6b31d7.png)
 
@@ -130,7 +130,7 @@ Net als bij andere rapporten, zoals het [rapport Status bedreigingsbeveiliging,]
 
 De **Top Malware** rapport toont de verschillende soorten malware die werd gedetecteerd door Exchange [Online](https://docs.microsoft.com/microsoft-365/security/office-365-security/eop-features).
 
-Ga naar **Dashboard** \> **Top** \> **Malware**voor het bekijken van dit rapport in het Security & [Compliance Center.](https://protection.office.com)
+Ga naar **Reports** Dashboard Top Malware om dit rapport te bekijken in het [Security & Compliance](https://protection.office.com) \> **Dashboard** \> **Top Malware**Center.
 
 ![SCC - EOP Top Malware](../../media/763330b3-f56e-4ba4-b0bb-051500ae950a.png)
 
@@ -148,13 +148,13 @@ Het rapport **Top afzenders en geadresseerden** is een cirkeldiagram met uw bela
 
 Als u dit rapport wilt bekijken, gaat u in het [Security & Compliance Center](https://protection.office.com)naar **Rapporten** \> **Dashboard** \> **Top Afzenders en Geadresseerden**.
 
-![Als u dit rapport wilt bekijken, gaat \> u \> in het Beveiligings- & Compliance Center naar Rapporten Dashboard Top Afzenders en Geadresseerden](../../media/b5506b5c-2420-4a5a-9ea3-d654294ac838.png)
+![Als u dit rapport wilt bekijken, gaat u in het & Compliance Center naar Rapporten \> Dashboard \> Top Afzenders en Geadresseerden](../../media/b5506b5c-2420-4a5a-9ea3-d654294ac838.png)
 
 Wanneer u de boventoon over een wig in het cirkeldiagram zweeft, ziet u een aantal verzonden of ontvangen berichten.
 
 Klik (of tik) op het rapport om het te openen in een nieuw browservenster, waar u een meer gedetailleerde weergave van het rapport krijgen.
 
-Gebruik de lijst **Gegevens weergeven voor** om te kiezen of u gegevens wilt weergeven voor ontvangers van topafzenders, ontvangers, spamen en malwareontvangers. U ook zien wie malware heeft ontvangen die is gedetecteerd door [Exchange Online Protection.](https://docs.microsoft.com/microsoft-365/security/office-365-security/what-is-eop)
+Gebruik de lijst **Gegevens weergeven voor** om te kiezen of u gegevens wilt weergeven voor ontvangers van topafzenders, ontvangers, spamen en malwareontvangers. U ook zien wie malware heeft ontvangen die is gedetecteerd door [Exchange Online Protection.](exchange-online-protection-overview.md)
 
 ![De lijst Gegevens weergeven voor om specifieke informatie weer te geven](../../media/bd91449f-7d42-4749-8666-7b44044049b8.png)
 
@@ -164,9 +164,9 @@ Onder de grafiek ziet u wie de belangrijkste afzenders of ontvangers van e-mail 
 
 Het **rapport Spoofdetecties** laat zien hoeveel spoof-e-mailberichten zijn gedetecteerd en welke, welke als "goed" werden beschouwd (spoofmail die om legitieme zakelijke redenen is gedaan).
 
-Als u dit rapport wilt bekijken, gaat u in het [Beveiligings& Compliance Center](https://protection.office.com)naar Dashboard **Dashboard** \> **Spoofmail** **rapporten** \> .
+Als u dit rapport wilt bekijken, gaat u in het [Beveiligings- & Compliance Center](https://protection.office.com)naar **Dashboard** \> **Dashboard** \> **Spoofmail rapporten**.
 
-![Ga in het Beveiligingscentrum & \> \> naar Dashboard Spoofmail rapporten](../../media/0427e85c-9e40-4225-a0f0-e21a4e8b0e44.png)
+![Ga in het Beveiligingscentrum & naar Dashboard \> \> Spoofmail rapporten](../../media/0427e85c-9e40-4225-a0f0-e21a4e8b0e44.png)
 
 Wanneer u meer dan een dag in de grafiek zweeft, u zien hoeveel spoof-e-mailberichten zijn binnengekomen.
 
@@ -176,9 +176,9 @@ Klik (of tik) op het rapport om het te openen in een nieuw browservenster, waar 
 
 Het rapport **Spamdetecties** toont alle spam-inhoud die door Exchange Online is geblokkeerd. Berichten worden geteld per bericht en niet per ontvanger. Als er bijvoorbeeld een e-mailbericht is verzonden naar 100 ontvangers in uw organisatie, wordt het als één bericht geteld.
 
-Ga naar **Meldingen** \> \> **dashboardspamdetecties**om dit rapport in het [Security & Compliance Center](https://protection.office.com)te bekijken. **Dashboard**
+Ga naar **Meldingen** [Security & Compliance Center](https://protection.office.com) \> **Dashboard** \> **dashboardspamdetecties**om dit rapport in het Security & Compliance Center te bekijken.
 
-![Ga naar Het Dashboard \> \> EOP Spamdetecties in het &-beveiligingscentrum voor rapporten om dit rapport te bekijken.](../../media/028cff3c-79ce-4ec0-8f0f-ec32ac28243a.png)
+![Ga naar Het \> Dashboard EOP Spamdetecties in het &-beveiligingscentrum voor rapporten om dit rapport \> te bekijken.](../../media/028cff3c-79ce-4ec0-8f0f-ec32ac28243a.png)
 
 Wanneer u meer dan een dag in de grafiek zweeft, u zien hoeveel items die dag zijn geblokkeerd en hoe deze items zijn gecategoriseerd. U bijvoorbeeld zien hoeveel spamberichten zijn gefilterd en hoeveel items afkomstig zijn van een IP-adres (Blocked Internet Protocol).
 
@@ -192,9 +192,9 @@ Onder de grafiek ziet u een lijst met spamitems die zijn gedetecteerd. Selecteer
 
 Het **verzonden en ontvangen e-mailrapport** is een slim rapport met informatie over binnenkomende en uitgaande e-mail, inclusief spamdetecties, malware en e-mail die als 'goed' is geïdentificeerd.
 
-Als u dit rapport wilt bekijken, gaat u in het [Beveiligingscentrum & Compliance](https://protection.office.com)naar **Rapporten** \> **Dashboard** \> **verzonden en ontvangen e-mail**.
+Als u dit rapport wilt bekijken, gaat u in het [& Compliance Center](https://protection.office.com)naar **Rapporten** \> **Dashboard** \> **verzonden en ontvangen e-mail**.
 
-![Als u dit rapport wilt bekijken, gaat \> u \> in het & Compliance Center naar Rapporten dashboard verzonden en ontvangen e-mail](../../media/0e710ed0-1b0e-4dac-8796-94a01a710f3a.png)
+![Als u dit rapport wilt bekijken, gaat u in het & Compliance Center naar Rapporten \> dashboard \> verzonden en ontvangen e-mail](../../media/0e710ed0-1b0e-4dac-8796-94a01a710f3a.png)
 
 Wanneer u meer dan een dag in de grafiek zweeft, u zien hoeveel berichten zijn binnengekomen en hoe deze berichten zijn gecategoriseerd. U bijvoorbeeld zien hoeveel berichten zijn gedetecteerd als malware en hoeveel er als spam zijn geïdentificeerd.
 
@@ -220,11 +220,11 @@ Details zijn beschikbaar voor elk bericht, inclusief de leveringsreden, zoals ee
 
 Ga als volgt te werk om dit rapport in het [Security & Compliance Center](https://protection.office.com)te bekijken:
 
-- Ga naar Meldingen van gebruikers **van het** \> **Dashboard voor** \> **bedreigingen**.
+- Ga naar Meldingen van gebruikers **van het Dashboard** \> **voor** \> **bedreigingen**.
 
-- Ga naar Meldingen van gebruikers **controleren** \> naar **Bedreigingsbeheer** \> . **User-reported messages**
+- Ga naar **Meldingen** van gebruikers controleren naar \> **Review** \> **Bedreigingsbeheer**.
 
-![Kies in het Security & \> Compliance \> Center de optie Gerapporteerde berichten van gebruikerscontrole van het risicobeheer](../../media/e372c57c-1414-4616-957b-bc933b8c8711.png)
+![Kies in het Security & Compliance Center de optie \> Gerapporteerde berichten van het risicobeheer \>](../../media/e372c57c-1414-4616-957b-bc933b8c8711.png)
 
 > [!IMPORTANT]
 > Als het rapport Met meldingen van door de gebruiker gerapporteerde berichten correct kan werken, **moet controlelogboekregistratie zijn ingeschakeld** voor uw Office 365-omgeving. Dit wordt meestal gedaan door iemand die de rol Controlelogboeken heeft toegewezen in Exchange Online. Zie [Microsoft 365-controlelogboekzoeken in- of uitschakelen](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)voor meer informatie.
@@ -235,9 +235,9 @@ Als u de in dit artikel beschreven rapporten wilt bekijken en gebruiken, **moet 
 
 - Voor het Beveiligingscentrum & Compliance Center moet u een van de volgende rollen toegewezen hebben:
 
-  -Organisatiebeheer - Beveiligingsbeheerder (dit kan worden toegewezen in[https://aad.portal.azure.com](https://aad.portal.azure.com)het Azure Active Directory-beheercentrum ( ) -Beveiligingslezer
+  -Organisatiebeheer - Beveiligingsbeheerder (dit kan worden toegewezen in het Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) ) -Beveiligingslezer
 
-- Voor Exchange Online moet u een van de volgende rollen[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)hebben toegewezen in het Exchange-beheercentrum ( ) of met PowerShell-cmdlets (Zie [Exchange Online PowerShell):](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)
+- Voor Exchange Online moet u een van de volgende rollen hebben toegewezen in het Exchange-beheercentrum [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ( ) of met PowerShell-cmdlets (Zie Exchange Online [PowerShell):](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)
 
   -Organisatiebeheer -Alleen organisatiebeheer -Functie-weergave-alleen ontvangers -ComplianceManagement
 

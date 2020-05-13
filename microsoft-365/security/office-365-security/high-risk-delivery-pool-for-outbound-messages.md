@@ -16,12 +16,12 @@ ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 ms.collection:
 - M365-security-compliance
 description: Ontdek hoe de leveringspool met een hoog risico wordt gebruikt om de reputatie van e-mailservers in de Microsoft 365-datacenters te beschermen.
-ms.openlocfilehash: 7fb4788361534335be1e07bae44ed7511bebe434
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 190dc3bd7ed2a6cddb23c8bc7c117dee30fd4f13
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638032"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209185"
 ---
 # <a name="high-risk-delivery-pool-for-outbound-messages"></a>Groep met verhoogd risico voor uitgaande berichten
 
@@ -45,11 +45,8 @@ De uitgaande delivery pool met hoog risico beheert de levering voor alle niet-le
 Mogelijke oorzaken voor een stijging van de NDR's zijn:
 
 - Een spoofing-campagne die van invloed is op een van de klanten die de service gebruiken.
-
 - Een directory oogst aanval.
-
 - Een spamaanval.
-
 - Een malafide e-mailserver.
 
 Al deze problemen kunnen resulteren in een plotselinge toename van het aantal NDR's dat door de service wordt verwerkt. Vele malen, deze NDR's lijken te zijn spam naar andere e-mailservers en diensten (ook wel bekend als _[backscatter).](backscatter-messages-and-eop.md)_

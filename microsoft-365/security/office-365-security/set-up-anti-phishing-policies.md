@@ -15,17 +15,17 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: In dit artikel leert u hoe u antiphishingbeveiliging in Microsoft 365 instellen om uw organisatie te beschermen tegen schadelijke phishing-aanvallen.
-ms.openlocfilehash: bbde781114cadb6535bdb09c133d834ce23793a3
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Beheerders kunnen meer te weten komen over het antiphishingbeleid dat beschikbaar is in Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (Office 365 ATP).
+ms.openlocfilehash: 0b1342d61ab4ab1fedde63271082c577211f6595
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035330"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209809"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti-phishingbeleid in Microsoft 365
 
-Beleidsregels voor het configureren van instellingen voor bescherming tegen phishing zijn beschikbaar in Microsoft 365-organisaties met Exchange Online-postvakken, zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken en ATP-organisaties (Office 365 Advanced Threat Protection).
+Beleidsregels voor het configureren van instellingen voor bescherming tegen phishing zijn beschikbaar in Microsoft 365-organisaties met Exchange Online-postvakken, zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken en Office 365 Advanced Threat Protection (Office 365 ATP)-organisaties.
 
 ATP-antiphishingbeleid is alleen beschikbaar in organisaties met Office 365 ATP. Bijvoorbeeld:
 
@@ -185,7 +185,7 @@ De volgende imitatie-instellingen zijn alleen beschikbaar in het ANTI-phishingbe
 
 ### <a name="advanced-phishing-thresholds-in-atp-anti-phishing-policies"></a>Geavanceerde phishingdrempels in ATP-antiphishingbeleid
 
-De volgende geavanceerde phishing-drempels zijn alleen beschikbaar in het ATP-antiphishingbeleid om aan te geven hoe gedetecteerde phishingberichten moeten worden behandeld:
+De volgende geavanceerde phishing-drempels zijn alleen beschikbaar in ATP-antiphishingbeleid om de gevoeligheid voor het toepassen van machine learning-modellen op berichten voor het bepalen van een phishingvonnis te controleren:
 
 - **1 - Standaard:** Dit is de standaardwaarde. De ernst van de actie die wordt uitgevoerd op het bericht is afhankelijk van de mate van vertrouwen dat het bericht is phishing (laag, gemiddeld, hoog, of zeer hoog vertrouwen). Bijvoorbeeld, berichten die worden geïdentificeerd als phishing met een zeer hoge mate van vertrouwen hebben de meest ernstige acties toegepast, terwijl berichten die worden geïdentificeerd als phishing met een lage mate van vertrouwen hebben minder ernstige acties toegepast.
 

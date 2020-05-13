@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 'Meer informatie over het opnieuw instellen van het wachtwoord voor een gebruiker in een Abonnement op Microsoft 365 voor Bedrijven. '
-ms.openlocfilehash: 32d2d529ab4e2592556613b016231dbbd93458b3
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: 0cd9bfe2b4f60ed0150e95f35d1f24994724ca60
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173516"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208196"
 ---
 # <a name="reset-passwords"></a>Wachtwoorden opnieuw instellen
 
@@ -79,11 +79,11 @@ Deze stappen zijn alleen voor mensen die een Microsoft 365 voor bedrijfsabonneme
 
 Gebruik deze stappen als u uw wachtwoord bent vergeten, maar u zich aanmelden bij Microsoft 365 omdat uw wachtwoord bijvoorbeeld in uw browser wordt opgeslagen: 
     
-1. Selecteer uw naam (pictogram) in de rechterbovenhoek >**Persoonlijke gegevens** **van mijn account** > . 
+1. Selecteer uw naam (pictogram) in de rechterbovenhoek > Persoonlijke gegevens **van mijn account**  >  **Personal Info**. 
           
 2. Controleer **onder Contactgegevens**of uw **alternatieve e-mail** juist is en of u een mobiel telefoonnummer hebt opgegeven. Als dit niet zo is, wijzigt u deze nu. 
         
-3. Afmelden: selecteer uw naam in de rechterbovenhoek (in **Diane**de \> bovenstaande afbeelding, weergegeven als Diane ) **Afmelden**. 
+3. Afmelden: selecteer uw naam in de rechterbovenhoek (in de bovenstaande afbeelding, weergegeven als **Diane**) \> **Afmelden**. 
         
 4. Meld u nu weer aan: typ uw gebruikersnaam van de gebruiker \> **Volgende** \> en selecteer vervolgens **Wachtwoord vergeten**. 
     
@@ -100,7 +100,7 @@ Als u uw wachtwoord bent vergeten en u zich niet kunt aanmelden:
 ## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>Alle zakelijke wachtwoorden opnieuw instellen voor iedereen in uw organisatie op hetzelfde moment
 <a name="bkmk_forgot"> </a>
 
-Deze stappen werken voor een bedrijf met tienduizenden gebruikers. Als u honderden of duizenden gebruikers hebt, raadpleegt u het volgende gedeelte over het bulksgewijs opnieuw instellen van wachtwoorden.
+Deze stappen werken voor een bedrijf met tienduizenden gebruikers. Als u honderden of duizenden gebruikers hebt, raadpleegt u de volgende sectie over het opnieuw instellen van wachtwoorden in bulk (maximaal 40 gebruikers tegelijk).
   
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
     

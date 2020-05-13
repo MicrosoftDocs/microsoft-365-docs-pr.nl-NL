@@ -14,19 +14,19 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het installeren en gebruiken van de invoegtoepassing Microsoft Ongewenste E-mailrapportage om spam-, niet-spam- en phishingberichten aan Microsoft te melden.
-ms.openlocfilehash: be087a15071114b2d1ec564cbb118dcd85e32429
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5c0b802bea89a0f0f62952261bf0d2864842024f
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638498"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208825"
 ---
-# <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook-in-office-365"></a>De invoegtoepassing Voor melding van ongewenste e-mail rapportage voor Microsoft Outlook installeren en gebruiken in Office 365
+# <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>De invoegtoepassing Voor het melden van ongewenste e-mail voor Microsoft Outlook installeren en gebruiken
 
 > [!NOTE]
-> Als u momenteel de invoegtoepassing Ongewenste e-mailrapportage niet gebruikt, raden we in plaats daarvan de [invoegtoepassing Rapportbericht](enable-the-report-message-add-in.md) aan.
+> Als u momenteel de invoegtoepassing Ongewenste e-mailrapportage niet gebruikt, raden we in plaats daarvan de [invoegtoepassing Rapportbericht](enable-the-report-message-add-in.md) aan. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
-Met de invoegtoepassing Ongewenste e-mailrapportage voor Microsoft Outlook kunnen gebruikers valse positieven (goede e-mail gemarkeerd als spam), valse negatieven (slechte e-mail toegestaan) en phishingberichten indienen bij Exchange Online Protection (EOP). Als uw organisatie Geen EOP gebruikt, heeft het indienen van uw ongewenste e-mailrapport geen invloed op uw spamfiltering.
+Met de invoegtoepassing Ongewenste e-mailrapportage voor Microsoft Outlook kunnen gebruikers valse positieven (goede e-mail gemarkeerd als spam), valse negatieven (slechte e-mail toegestaan) en phishingberichten indienen bij Microsoft. Als uw organisatie geen Exchange Online Protection gebruikt (bijvoorbeeld on-premises Exchange- of e-mailservices dan Exchange Online), heeft het indienen van uw ongewenste e-mailrapport geen invloed op uw spamfiltering.
 
 In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing Ongewenste e-mailrapportage installeert en gebruikt.
 
@@ -39,7 +39,7 @@ In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing Ongewenste e-mailrapp
   - Outlook 2013 of hoger
   - Outlook opgenomen in Microsoft 365 Apps voor bedrijven
 
-- Zie [Berichten en bestanden rapporteren aan Microsoft in Office 365](report-junk-email-messages-to-microsoft.md)voor meer informatie over het rapporteren van berichten aan Microsoft.
+- Zie Berichten en bestanden rapporteren aan Microsoft voor meer informatie over het rapporteren van berichten [aan Microsoft.](report-junk-email-messages-to-microsoft.md)
 
 ## <a name="use-the-junk-email-reporting-add-in-to-report-spam-and-phishing-messages"></a>De invoegtoepassing Ongewenste e-mailrapportage gebruiken om spam- en phishingberichten te melden
 
@@ -93,7 +93,7 @@ In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing Ongewenste e-mailrapp
 
 - U moet beheerdersbevoegdheden hebben op de computer waar u de invoegtoepassing installeert.
 
-- Ga <https://www.microsoft.com/download/details.aspx?id=18275> naar en download het juiste .msi-bestand voor uw versie van Office naar een locatie die gemakkelijk te vinden is:
+- Ga naar <https://www.microsoft.com/download/details.aspx?id=18275> en download het juiste .msi-bestand voor uw versie van Office naar een locatie die gemakkelijk te vinden is:
 
   - **32-bits**:`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
 
@@ -197,7 +197,7 @@ Als u wilt controleren of u de invoegtoepassing Ongewenste e-mailrapportage hebt
 
 Nadat u Outlook hebt gesloten, gebruikt u een van de volgende procedures om de invoegtoepassing Voor het melden van ongewenste e-mailrapporten te verwijderen:
 
-- **Configuratiescherm**: Druk op de Windows-toets + R. Voer **Run** in het dialoogvenster `control appwiz.cpl` Uitvoeren dat wordt geopend, in en klik op **OK**.
+- **Configuratiescherm**: Druk op de Windows-toets + R. Voer in het dialoogvenster **Uitvoeren** dat wordt geopend, in `control appwiz.cpl` en klik op **OK**.
 
   Zoek en selecteer **microsoft ongewenste e-mailrapportage-invoegtoepassing** in de lijst en klik op **Verwijderen**.
 
@@ -209,7 +209,7 @@ Nadat u Outlook hebt gesloten, gebruikt u een van de volgende procedures om de i
 
   Selecteer in het dialoogvenster dat wordt weergegeven de optie **Invoegtoepassing voor microsoft-e-mailrapportage voor Outlook verwijderen** en klik op **Volgende**.
 
-- **Stille modus**: Zoek of download het juiste .msi-bestand. Vervang PathToFile\> in \<een opdrachtpromptvenster door de locatie van het MSI-bestand en voer een van de volgende opdrachten uit:
+- **Stille modus**: Zoek of download het juiste .msi-bestand. Vervang PathToFile in een opdrachtpromptvenster \< door de locatie van het \> MSI-bestand en voer een van de volgende opdrachten uit:
 
   - **32-bits**:
 
@@ -249,7 +249,7 @@ Zie [Berichten en bestanden rapporteren aan Microsoft voor](report-junk-email-me
 
 #### <a name="problem-an-error-message-continually-appears-that-asks-users-to-contact-their-system-administrator"></a>Probleem: er verschijnt voortdurend een foutbericht waarin gebruikers wordt gevraagd contact op te nemen met hun systeembeheerder
 
-1. Controleer of `LoggingLevel` stel de registersleutel in op de waarde "Verbose":
+1. Controleer of stel de registersleutel in `LoggingLevel` op de waarde "Verbose":
 
    - **32-bits Outlook op 32-bits Windows:**
 
@@ -288,7 +288,7 @@ Zie [Berichten en bestanden rapporteren aan Microsoft voor](report-junk-email-me
 
 #### <a name="problem-users-selected-not-to-receive-a-confirmation-prompt-when-they-report-messages-and-now-they-want-the-prompt-back"></a>Probleem: gebruikers hebben ervoor gekozen om geen bevestigingsprompt te ontvangen wanneer ze berichten rapporteren, en nu willen ze de prompt terug
 
-1. Maak `ConfirmReportJunk`de registersleutel wih de waarde "True":
+1. Maak de `ConfirmReportJunk` registersleutel wih de waarde "True":
 
    ```text
    Windows Registry Editor Version 5.00

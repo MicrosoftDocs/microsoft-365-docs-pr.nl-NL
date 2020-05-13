@@ -2,10 +2,10 @@
 title: Referentiebeleid, -praktijken en -richtlijnen
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 12/09/2016
+ms.date: ''
 audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: Microsoft heeft verschillende beleidsregels, procedures ontwikkeld en verschillende best practices in de branche aangenomen om onze gebruikers te beschermen tegen beledigende, ongewenste of schadelijke e-mail.
-ms.openlocfilehash: 6e73355c02e0416a80441aff8143fcbf51150b94
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9684453503329e955c21051885c5d93e8c927c48
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634386"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208208"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Verwijzing: Beleid, procedures en richtlijnen
 
@@ -31,9 +31,9 @@ Als u zich niet aan deze beleidsregels en richtlijnen houdt, is het mogelijk dat
 
 ## <a name="general-microsoft-policies"></a>Algemeen Microsoft-beleid
 
-E-mail die naar Microsoft 365-gebruikers wordt verzonden, moet voldoen aan alle Microsoft-beleidsregels met betrekking tot e-mailoverdracht en -gebruik van Office 365.
+E-mail die naar Microsoft 365-gebruikers wordt verzonden, moet voldoen aan alle Microsoft-beleidsregels met betrekking tot e-mailoverdracht en -gebruik van Microsoft 365.
 
-- Servicevoorwaarden voor Office 365; in het bijzonder, het verbod op het gebruik van de dienst om spam of verspreiden van malware
+- Servicevoorwaarden voor Microsoft 365; in het bijzonder het verbod om de dienst te gebruiken om spam te gebruiken of malware te verspreiden.
 
 - [Microsoft Services-overeenkomst](https://www.microsoft.com/servicesagreement/)
 
@@ -85,7 +85,7 @@ Microsoft werkt actief samen met brancheorganisaties en serviceproviders om het 
 
 - [Online vertrouwensalliantie](https://www.otalliance.org/resources)
 
-- [Coalitie &amp; van afzenderprovider e-mail](https://www.espcoalition.org/)
+- [E-mail afzender & Provider Coalitie](https://www.espcoalition.org/)
 
 ## <a name="abuse-and-spam-reporting"></a>Meldingen van misbruik en spam
 

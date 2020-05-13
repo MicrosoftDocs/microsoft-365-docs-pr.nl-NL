@@ -1,5 +1,5 @@
 ---
-title: E-mailoplichting melden - Webblik
+title: RReport ongewenste en phishing-e-mail in de webversie van Outlook
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
-description: Microsoft 365-gebruikers met Exchange Online-postvakken kunnen Outlook op internet (Outlook Web App) gebruiken om spam-, niet-spam- en phishingberichten naar Microsoft te verzenden voor analyse.
-ms.openlocfilehash: 32e60aa707bcaea9e35cc3bb8ded3aefb7fe46ab
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Beheerders kunnen meer te weten komen over de ingebouwde opties voor ongewenste e-mail, niet voor ongewenste e-mail en phishing in de webversie van Outlook (Outlook Web App) in Exchange Online en hoe u deze rapportageopties voor gebruikers uitschakelen.
+ms.openlocfilehash: 1ec226259ccb3dac9a01ee8d4c5fc635c0fc5702
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44031488"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44206476"
 ---
-# <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-office-365"></a>Ongewenste en phishing-e-mail melden in de webversie van Outlook in Office 365
+# <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-exchange-online"></a>Ongewenste en phishing-e-mail melden in de webversie van Outlook in Exchange Online
 
-Als u een Microsoft 365-klant bent met Exchange Online-postvakken, u de ingebouwde rapportageopties in Outlook op de web (voorheen Outlook Web App) gebruiken om false positives (goede e-mail gemarkeerd als spam), valse negatieven (slechte e-mail toegestaan) en phishing-berichten in te dienen bij Exchange Online Protection (EOP).
+In Microsoft 365-organisaties met postvakken in Exchange Online u de ingebouwde rapportageopties in Outlook op de web (voorheen Outlook Web App) gebruiken om false positives (goede e-mail gemarkeerd als spam), valse negatieven (slechte e-mail toegestaan) en phishingberichten in te dienen bij Exchange Online Protection (EOP).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -33,9 +33,9 @@ Als u een Microsoft 365-klant bent met Exchange Online-postvakken, u de ingebouw
 
 - Beheerders kunnen de mogelijkheid voor gebruikers om berichten aan Microsoft te melden in de webversie van Outlook uitschakelen of inschakelen. Zie de [rapportage over ongewenste e-mail in de websectie](#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) van Outlook later in dit onderwerp voor meer informatie.
 
-- U configureren dat gerapporteerde berichten worden gekopieerd of doorgestuurd naar een postvak dat u opgeeft. Zie [Een postvak opgeven voor het indienen van spam- en phishingberichten in Office 365 voor](user-submission.md)meer informatie.
+- U configureren dat gerapporteerde berichten worden gekopieerd of doorgestuurd naar een postvak dat u opgeeft. Zie [Een postvak opgeven voor het indienen van spam- en phishingberichten in Exchange Online voor](user-submission.md)meer informatie.
 
-- Zie [Berichten en bestanden rapporteren aan Microsoft in Office 365](report-junk-email-messages-to-microsoft.md)voor meer informatie over het rapporteren van berichten aan Microsoft.
+- Zie Berichten en bestanden rapporteren aan Microsoft voor meer informatie over het rapporteren van berichten [aan Microsoft.](report-junk-email-messages-to-microsoft.md)
 
 ## <a name="report-spam-and-phishing-messages-in-outlook-on-the-web"></a>Spam- en phishingberichten melden in de webversie van Outlook
 
@@ -85,7 +85,7 @@ Standaard kunnen gebruikers spamfout-positieven, valse negatieven en phishingber
 
 - Elke organisatie heeft een standaardbeleid met de naam OwaMailboxPolicy-Default, maar u aangepaste beleidsregels maken. Aangepaste beleidsregels worden toegepast op gebruikers met scopen vóór het standaardbeleid. Zie [Outlook voor het webpostvakbeleid in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policies)voor meer informatie over het beleid voor webpostvak.
 
-- Als u ongewenste e-mailrapportage uitschakelt, wordt de mogelijkheid om een bericht te markeren niet als ongewenste e-mail verwijderd of niet als ongewenste e-mail in de webversie van Outlook. Als u een bericht selecteert in de map Ongewenste e-mail en op **Niet ongewenstee berichten** \> **klikt,** wordt het bericht nog steeds teruggezet naar het Postvak IN. Als u een bericht selecteert in een andere e-mailmap en op **Ongewenste e-mail** \> **klikt,** wordt het bericht nog steeds verplaatst naar de map Ongewenste e-mail. Wat niet meer beschikbaar is, is de optie om het bericht aan Microsoft te rapporteren.
+- Als u ongewenste e-mailrapportage uitschakelt, wordt de mogelijkheid om een bericht te markeren niet als ongewenste e-mail verwijderd of niet als ongewenste e-mail in de webversie van Outlook. Als u een bericht selecteert in de map Ongewenste e-mail en op **Niet ongewenstee berichten** \> **klikt,** wordt het bericht nog steeds teruggezet naar het Postvak IN. Als u een bericht selecteert in een andere e-mailmap en op **Ongewenste** \> **e-mail klikt,** wordt het bericht nog steeds verplaatst naar de map Ongewenste e-mail. Wat niet meer beschikbaar is, is de optie om het bericht aan Microsoft te rapporteren.
 
 ### <a name="use-exchange-online-powershell-to-disable-or-enable-junk-email-reporting-in-outlook-on-the-web"></a>Exchange Online PowerShell gebruiken om meldingen van ongewenste e-mail uit te schakelen of in te schakelen in de webversie van Outlook
 
@@ -125,13 +125,13 @@ Gebruik een van de volgende stappen om te controleren of u de rapportage over on
   Get-OwaMailboxPolicy | Format-Table Name,ReportJunkEmailEnabled
   ```
 
-- Open het postvak van een betrokken gebruiker in de webversie van Outlook, selecteer een bericht in het Postvak IN, klik op **Ongewenste** \> **e-mail** en controleer of de prompt om het bericht aan Microsoft te melden wel of niet wordt weergegeven.<sup>\*</sup>
+- Open het postvak van een betrokken gebruiker in de webversie van **Junk** Outlook, selecteer een bericht in het Postvak IN, klik op \> **Ongewenste e-mail** en controleer of de prompt om het bericht aan Microsoft te melden wel of niet wordt weergegeven.<sup>\*</sup>
 
-- Open het postvak van een betrokken gebruiker in de webversie van Outlook, selecteer een bericht in de map Ongewenste e-mail, klik op **Ongewenste** \> **e-mail** en controleer of het bericht aan Microsoft wordt gemeld of niet wordt weergegeven.<sup>\*</sup>
+- Open het postvak van een betrokken gebruiker in de webversie van **Junk** Outlook, selecteer een bericht in de map Ongewenste e-mail, klik op \> **Ongewenste e-mail** en controleer of het bericht aan Microsoft wordt gemeld of niet wordt weergegeven.<sup>\*</sup>
 
 <sup>\*</sup>Gebruikers kunnen de prompt verbergen om het bericht te rapporteren terwijl ze het bericht nog steeds rapporteren. Ga als volgt te werk om deze instelling in de webversie van Outlook te controleren:
 
-1. Klik op **Instellingen** ![Outlook](../../media/owa-settings-icon.png) \> op het pictogram Webinstellingen Bekijk alle **ongewenste e-mail van** **Outlook-instellingen** \> .
+1. Klik op **Instellingen** ![ Outlook op het pictogram Webinstellingen Bekijk alle ongewenste ](../../media/owa-settings-icon.png) \> **e-mail van Outlook-instellingen** \> **Junk email**.
 2. Controleer in de sectie **Rapportage** de waarde: **Vraag het mij voordat u een rapport verzendt.**
 
    ![Instellingen voor meldingen van ongewenste e-mail in Outlook op de web](../../media/owa-junk-email-reporting-options.png)

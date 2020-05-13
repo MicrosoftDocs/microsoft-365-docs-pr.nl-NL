@@ -15,12 +15,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Multi-factor verificatie configureren met behulp van tekstberichten die naar een smartphone worden verzonden in uw Microsoft 365 Enterprise-testomgeving.
-ms.openlocfilehash: b17c6b3b39bebaff2737ea5e9bb198beef00844c
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: ae8cab25a20cc75992eecc600219d9f1dd869b63
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153878"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213138"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>Meervoudige verificatie voor uw Microsoft 365 Enterprise-testomgeving
 
@@ -28,7 +28,7 @@ ms.locfileid: "43153878"
 
 Voor een extra beveiligingsniveau voor het aanmelden bij Microsoft 365 of een service of toepassing die de Azure AD-tenant voor uw abonnement gebruikt, u Azure-multifactorverificatie inschakelen, waarvoor meer nodig is dan alleen een gebruikersnaam en wachtwoord om een account te verifiëren. 
 
-Met meervoudige verificatie moeten gebruikers een telefoongesprek bevestigen, een verificatiecode typen die in een sms-bericht wordt verzonden of een app-wachtwoord op hun smartphones opgeven nadat ze hun wachtwoorden correct hebben ingevoerd. Ze kunnen zich pas aanmelden nadat aan deze tweede verificatiefactor is voldaan. 
+Met meervoudige verificatie moeten gebruikers een telefoongesprek bevestigen, een verificatiecode typen die in een sms-bericht wordt verzonden of de verificatie verifiëren met een app op hun smartphones nadat ze hun wachtwoorden correct hebben ingevoerd. Ze kunnen zich pas aanmelden nadat aan deze tweede verificatiefactor is voldaan. 
   
 In dit artikel wordt beschreven hoe u verificatie op basis van sms'en in- en test voor een specifiek gebruikersaccount.
   
@@ -43,7 +43,7 @@ Er zijn twee fasen voor het instellen van meervoudige verificatie voor een accou
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart met alle artikelen over de Microsoft 365 Enterprise-testlabrichtlijnen.
+> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart met alle artikelen in de stack met Microsoft 365 Enterprise-testlabrichtlijnen.
   
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: uw Microsoft 365 Enterprise-testomgeving uitbouwen
 
@@ -58,9 +58,9 @@ Als u meervoudige verificatie in een gesimuleerde onderneming wilt testen, volgt
 
 Schakel multi-factor authenticatie in voor het User 2-account met de volgende stappen:
   
-1. Open een afzonderlijk, privéexemplaar van uw browser, ga naar[https://portal.microsoft.com](https://portal.microsoft.com)het Microsoft 365-beheercentrum ( ) en meld u aan met uw globale beheerdersaccount.
+1. Open een afzonderlijk, privéexemplaar van uw browser, ga naar het Microsoft 365-beheercentrum ( [https://portal.microsoft.com](https://portal.microsoft.com) ) en meld u aan met uw globale beheerdersaccount.
     
-2. Klik in de linkernavigatie op **Gebruikers > Actieve gebruikers**.
+2. Selecteer **Gebruikers > Actieve gebruikers** op de linkernavigatiebalk.
     
 3. Klik in het deelvenster Actieve gebruikers op **Multifactorverificatie**.
     
@@ -80,7 +80,7 @@ Voer de configuratie in voor het account Gebruiker 2 om een sms-bericht te gebru
   
 1. Open een nieuw, privéexemplaar van uw browser.
     
-2. Ga naar de Office 365-portal ()[https://portal.office.com](https://portal.office.com)en meld u aan met de naam en het wachtwoord van het account Gebruiker 2.
+2. Ga naar de Office 365-portal [https://portal.office.com](https://portal.office.com) () en meld u aan met de naam en het wachtwoord van het account Gebruiker 2.
     
 3. Na het aanmelden wordt u gevraagd het account in te stellen voor meer informatie. Klik op **Volgende**.
     
@@ -96,7 +96,7 @@ Voer de configuratie in voor het account Gebruiker 2 om een sms-bericht te gebru
     
 6. Voer de verificatiecode in van het sms-bericht dat op uw smartphone is ontvangen en klik op **Verifiëren**.
     
-7. Houd op de **pagina Stap 3: Houd uw bestaande toepassingen** op, noteer het weergegeven app-wachtwoord voor het account Gebruiker 2 op een veilige locatie en klik vervolgens op **Gereed**.
+7. Klik op de **pagina Stap 3: Houd uw bestaande toepassingen** op **Gereed**.
     
 8. Als dit de eerste keer is dat u zich hebt aangemeld met het account Gebruiker 2, wordt u gevraagd het wachtwoord te wijzigen. Typ het oorspronkelijke wachtwoord en een nieuw wachtwoord twee maal en klik op **Wachtwoord bijwerken en meld u aan.** Neem het nieuwe wachtwoord op een veilige locatie op.
     
@@ -121,7 +121,7 @@ Maak vervolgens een nieuwe groep met de naam MFAUsers en voeg het account Gebrui
 
 Maak vervolgens een beleid voor voorwaardelijke toegang om multifactorauthenticatie voor leden van de groep MFAUsers te vereisen.
 
-1. Ga in een nieuw tabblad [https://portal.azure.com](https://portal.azure.com)van uw browser naar .
+1. Ga in een nieuw tabblad van uw browser naar [https://portal.azure.com](https://portal.azure.com) .
 2. Klik op **Azure Active Directory > Beveiliging > voorwaardelijke toegang**.
 3. Klik in het deelvenster **Voorwaardelijke toegang – Beleid** op Nieuw **beleid**.
 4. Typ MFA voor **gebruikersaccounts** in **Het** nieuwe deelvenster in **Naam**.

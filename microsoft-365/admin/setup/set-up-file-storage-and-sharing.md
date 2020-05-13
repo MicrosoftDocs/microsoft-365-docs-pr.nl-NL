@@ -27,12 +27,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: Meer informatie over het gebruik van OneDrive en een teamsite voor bestandsopslag en -delen.
-ms.openlocfilehash: 98fc168e42fea50ae21914d5f44e403ae459c1d9
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 7eb9ece0408fc495938c319390267790b01a2b89
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165215"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208184"
 ---
 # <a name="set-up-file-storage-and-sharing"></a>Bestandsopslag en -deling instellen
 
@@ -144,7 +144,7 @@ Hier volgt de werkwijze waarop u bestanden op uw teamsite kunt synchroniseren me
 
     ![Uw lokale map op dit scherm wijzigen](../../media/6395485a-e729-4a9a-8e7d-b35e662435da.png)
   
-6. De bestanden op uw teamsites worden weergegeven in het linkerdeelvenster van Verkenner onder de naam van uw organisatie. De bestanden in OneDrive worden weergegeven \<onder\>'OneDrive - Naam van organisatie'
+6. De bestanden op uw teamsites worden weergegeven in het linkerdeelvenster van Verkenner onder de naam van uw organisatie. De bestanden in OneDrive worden weergegeven onder 'OneDrive - \< Naam van \> organisatie'
 
     ![Bekijken wat er is gesynchroniseerd in uw lokale map](../../media/93e2ca9f-4b5b-4930-a94d-ebc5b95aca84.png)
   
@@ -185,7 +185,7 @@ U opslag van derden inschakelen voor uw gebruikers in Microsoft 365, zodat ze do
   
 1. Meld u aan bij het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">beheercentrum</a>.
 
-2. Ga naar de pagina **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2118715" target="_blank">instellingen.</a>
+2. Ga naar **Settings** de \> instellingenpagina van Instellingen <a href="https://go.microsoft.com/fwlink/p/?linkid=2118715" target="_blank">**org.**</a>
 
 3. Selecteer op het tabblad **Services** de optie **Office op internet**.
 

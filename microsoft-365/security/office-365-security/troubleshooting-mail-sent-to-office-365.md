@@ -18,50 +18,32 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel vindt u informatie over het oplossen van problemen met het verzenden van e-mail naar inboxen in Microsoft 365 & aanbevolen procedures voor bulkmailingnaar Microsoft 365-klanten.
-ms.openlocfilehash: 849707ee8b703f13ac12ecb414a8ed9ea6421704
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 0d9c1646aa7491b3da458c7cb0ddeb908873153a
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036738"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208595"
 ---
-# <a name="troubleshooting-mail-sent-to-office-365"></a>Problemen met e-mailberichten die worden verzonden naar Office 365 oplossen
+# <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Problemen met e-mail oplossen die naar Microsoft 365 is verzonden
 
 In dit artikel vindt u informatie over probleemoplossing voor afzenders die problemen ondervinden wanneer ze e-mail naar inboxen in Microsoft 365 proberen te verzenden en aanbevolen procedures voor bulkmailingnaar klanten.
 
-## <a name="troubleshooting-common-problems-with-mail-delivery-to-office-365"></a>Veelvoorkomende problemen met e-mailbezorging naar Office 365 oplossen
+## <a name="are-you-managing-your-ip-and-domains-sending-reputation"></a>Beheert u de verzendreputatie van uw IP en domein?
 
-Kies uit een van deze veelvoorkomende problemen.
+EOP-filtertechnologieën zijn ontworpen om antispambescherming te bieden voor Microsoft 365 en andere Microsoft-producten zoals Exchange Server. We maken ook gebruik van SPF, DKIM en DMARC; e-mailverificatietechnologieën die helpen bij het oplossen van het probleem van spoofing en phishing door te controleren of het domein dat de e-mail verzendt, daartoe is gemachtigd. EOP-filtering wordt beïnvloed door een aantal factoren die verband houden met het verzenden van IP, domein, authenticatie, lijstnauwkeurigheid, klachtenpercentages, inhoud en meer. Van deze, een van de belangrijkste factoren in het rijden van de reputatie van een afzender en hun vermogen om e-mail te leveren is hun junk e-mail klacht tarief.
 
-- [Beheert u de verzendreputatie van uw IP en domein?](#are-you-managing-your-ip-and-domains-sending-reputation)
-
-- [Stuurt u e-mail vanaf nieuwe IP-adressen?](#are-you-sending-email-from-new-ip-addresses)
-
-- [Controleren of uw DNS correct is ingesteld](#confirm-that-your-dns-is-set-up-correctly)
-
-- [Zorg ervoor dat u niet adverteren jezelf als een niet-routeerbare IP](#ensure-that-you-do-not-advertise-yourself-as-a-non-routable-ip)
-
-- [U hebt een NDR (Non-Delivery Report) ontvangen bij het verzenden van e-mail naar een gebruiker in Office 365](#you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365)
-
-- [Mijn e-mail is geland in de ongewenste map van de ontvanger in EOP](#my-email-landed-in-the-recipients-junk-folder-in-eop)
-
-- [Verkeer vanaf mijn IP-adres wordt beperkt door EOP](#traffic-from-my-ip-address-is-throttled-by-eop)
-
-### <a name="are-you-managing-your-ip-and-domains-sending-reputation"></a>Beheert u de verzendreputatie van uw IP en domein?
-
-EOP-filtertechnologieën zijn ontworpen om antispambeveiligingen te bieden voor Microsoft 365, evenals andere Microsoft-producten zoals Exchange Server, Microsoft Office Outlook en Windows Live Mail. We maken ook gebruik van SPF, DKIM en DMARC; e-mailverificatietechnologieën die helpen bij het oplossen van het probleem van spoofing en phishing door te controleren of het domein dat de e-mail verzendt, daartoe is gemachtigd. EOP-filtering wordt beïnvloed door een aantal factoren die verband houden met het verzenden van IP, domein, authenticatie, lijstnauwkeurigheid, klachtenpercentages, inhoud en meer. Van deze, een van de belangrijkste factoren in het rijden van de reputatie van een afzender en hun vermogen om e-mail te leveren is hun junk e-mail klacht tarief.
-
-### <a name="are-you-sending-email-from-new-ip-addresses"></a>Stuurt u e-mail vanaf nieuwe IP-adressen?
+## <a name="are-you-sending-email-from-new-ip-addresses"></a>Stuurt u e-mail vanaf nieuwe IP-adressen?
 
 IP-adressen die niet eerder werden gebruikt om e-mail te verzenden, hebben doorgaans geen reputatie opgebouwd in onze systemen. Als gevolg hiervan hebben e-mails van nieuwe IP's meer kans op leveringsproblemen. Zodra het IP een reputatie heeft opgebouwd voor het niet verzenden van spam, zal EOP meestal zorgen voor een betere e-maillevering.
 
 Nieuwe IP's die worden toegevoegd voor domeinen die zijn geverifieerd onder bestaande SPF-records, ervaren doorgaans het extra voordeel van het overnemen van een deel van de verzendreputatie van het domein. Als uw domein heeft een goede serverreputatie nieuwe IP's kunnen ervaren een snellere oprit tijd. Een nieuwe IP kan verwachten volledig worden opvoeren binnen een paar weken of eerder, afhankelijk van het volume, lijst nauwkeurigheid, en ongewenste e-mail klachtenpercentages.
 
-### <a name="confirm-that-your-dns-is-set-up-correctly"></a>Controleren of uw DNS correct is ingesteld
+## <a name="confirm-that-your-dns-is-set-up-correctly"></a>Controleren of uw DNS correct is ingesteld
 
 Voor instructies over het maken en onderhouden van DNS-records, inclusief de MX-record die vereist is voor e-mailroutering, moet u contact opnemen met uw DNS-hostingprovider.
 
-### <a name="ensure-that-you-do-not-advertise-yourself-as-a-non-routable-ip"></a>Zorg ervoor dat u niet adverteren jezelf als een niet-routeerbare IP
+## <a name="ensure-that-you-do-not-advertise-yourself-as-a-non-routable-ip"></a>Zorg ervoor dat u niet adverteren jezelf als een niet-routeerbare IP
 
 We accepteren geen e-mail van afzenders die niet op zoek zijn naar reverse-DNS. In sommige gevallen adverteren legitieme afzenders zichzelf verkeerd als een niet-internet routeerbaar IP wanneer ze een verbinding met EOP proberen te openen. IP-adressen die zijn gereserveerd voor privénetwerken (niet-routeerbaar) zijn onder andere:
 
@@ -71,38 +53,23 @@ We accepteren geen e-mail van afzenders die niet op zoek zijn naar reverse-DNS. 
 
 - 172.16.0.0/11 (of 172.16.0.0 - 172.31.255.255)
 
-### <a name="you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365"></a>U hebt een NDR (Non-Delivery Report) ontvangen bij het verzenden van e-mail naar een gebruiker in Office 365
+## <a name="you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365"></a>U hebt een NDR (Non-Delivery Report) ontvangen bij het verzenden van e-mail naar een gebruiker in Office 365
 
 Sommige leveringsproblemen zijn het gevolg van het feit dat het IP-adres van de afzender wordt geblokkeerd door Microsoft of omdat het gebruikersaccount is geïdentificeerd als geblokkeerde afzender vanwege eerdere spamactiviteiten. Als u van mening bent dat u de NDR ten onrechte hebt ontvangen, volgt u eerst alle instructies in het NDR-bericht om het probleem op te lossen.
 
 Zie de lijst met foutcodes in rapporten zonder [bezorging e-mail in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)voor meer informatie over de fout die u hebt ontvangen.
 
- Als u bijvoorbeeld de volgende NDR ontvangt, geeft dit aan dat het verzendende IP-adres door Microsoft is geblokkeerd.
+ Als u bijvoorbeeld de volgende NDR ontvangt, geeft dit aan dat het verzendende IP-adres door Microsoft is geblokkeerd:
 
  `550 5.7.606-649 Access denied, banned sending IP [x.x.x.x]; To request removal from this list please visit https://sender.office.com/ and follow the directions.`
 
 Als u verwijdering uit deze lijst wilt aanvragen, u [de lijstmetnaamportal gebruiken om uzelf uit de lijst met geblokkeerde afzenders te verwijderen.](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)
 
-### <a name="my-email-landed-in-the-recipients-junk-folder-in-eop"></a>Mijn e-mail is geland in de ongewenste map van de ontvanger in EOP
+## <a name="my-email-landed-in-the-recipients-junk-email-folder"></a>Mijn e-mail is geland in de map Ongewenste e-mail van de ontvanger
 
-Als een bericht door EOP ten onrechte als spam is geïdentificeerd, u samenwerken met de ontvanger om dit fout-positieve bericht in te dienen bij het Microsoft Spam Analysis Team, dat het bericht evalueert en analyseert. Afhankelijk van de resultaten van de analyse kunnen de filterregels voor spaminhoud voor de hele service worden aangepast om het bericht door te laten gaan. U gebruikt e-mail om berichten aan Microsoft in te dienen die niet als spam moeten worden geclassificeerd. Houd daarbij de stappen in de volgende procedure.
+Als een bericht door EOP ten onrechte als spam is geïdentificeerd, u samenwerken met de ontvanger om dit fout-positieve bericht in te dienen bij het Microsoft Spam Analysis Team, dat het bericht evalueert en analyseert. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
-### <a name="to-use-email-to-submit-false-positive-messages-to-the-microsoft-spam-analysis-team"></a>E-mail gebruiken om fout-positieve berichten in te dienen bij het Microsoft Spam Analysis Team
-
-1. Sla het bericht dat u wilt verzenden op als niet-spam.
-
-2. Maak een nieuw, leeg bericht en voeg het niet-spambericht eraan toe.
-
-    U indien nodig meerdere niet-spamberichten toevoegen.
-
-3. Kopieer en plak de onderwerpregel van het oorspronkelijke bericht in de nieuwe onderwerpregel van het bericht.
-
-    > [!IMPORTANT]
-    > Laat het lichaam van het nieuwe bericht leeg.
-
-4. Stuur je nieuwe bericht naar [not_junk@office365.microsoft.com.](mailto:not_junk@office365.microsoft.com)
-
-### <a name="traffic-from-my-ip-address-is-throttled-by-eop"></a>Verkeer vanaf mijn IP-adres wordt beperkt door EOP
+## <a name="traffic-from-my-ip-address-is-throttled-by-eop"></a>Verkeer vanaf mijn IP-adres wordt beperkt door EOP
 
 Als u een NDR van EOP ontvangt die aangeeft dat uw IP-adres wordt beperkt door EOP, bijvoorbeeld:
 
@@ -110,7 +77,7 @@ Als u een NDR van EOP ontvangt die aangeeft dat uw IP-adres wordt beperkt door E
 
 U hebt de NDR ontvangen omdat verdachte activiteit is gedetecteerd vanaf het IP-adres en deze tijdelijk is beperkt terwijl deze verder wordt geëvalueerd. Als de verdenking wordt opgehelderd door middel van evaluatie, zal deze beperking binnenkort worden opgeheven.
 
-### <a name="i-cant-receive-email-from-senders-in-office-365"></a>Ik kan geen e-mail ontvangen van afzenders in Office 365
+## <a name="i-cant-receive-email-from-senders-in-microsoft-365"></a>Ik kan geen e-mail ontvangen van afzenders in Microsoft 365
 
  Om berichten van onze gebruikers te ontvangen, moet u ervoor zorgen dat uw netwerk verbindingen toestaat vanaf de IP-adressen die EOP in onze datacenters gebruikt. Zie [IP-adressen van Exchange Online Protection](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)voor meer informatie .
 
@@ -118,7 +85,7 @@ U hebt de NDR ontvangen omdat verdachte activiteit is gedetecteerd vanaf het IP-
 
 Als u vaak bulke-mailcampagnes uitvoert met Microsoft 365-gebruikers en ervoor wilt zorgen dat uw e-mails op een veilige en tijdige manier binnenkomen, volgt u de tips in deze sectie.
 
-### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>Ervoor zorgen dat de naam Van: aangeeft wie het bericht verzendt
+### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>Ervoor zorgen dat de naam Van weergeeft wie het bericht verzendt
 
 Het onderwerp moet een korte samenvatting van wat het bericht over gaat, en de bericht lichaam moet duidelijk en beknopt aangeven wat het aanbod, de dienst, of het product over gaat. Bijvoorbeeld:
 

@@ -16,20 +16,20 @@ search.appverid:
 ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
-description: Rapporten zoeken en gebruiken voor Geavanceerde bedreigingsbeveiliging &amp; van Office 365 in het Security Compliance Center.
+description: Rapporten zoeken en gebruiken voor Geavanceerde bedreigingsbeveiliging van Office 365 in het Security &amp; Compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c202e7df274e81da5395f7466199d85443361c05
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: af5844cf05d14e34059a26291d2034187439ec56
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173320"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208487"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Rapporten weergeven voor geavanceerde bedreigingsbeveiliging van Office 365
 
-Als uw organisatie [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) heeft en u over de [benodigde machtigingen](#what-permissions-are-needed-to-view-the-atp-reports)beschikt, u verschillende ATP-rapporten gebruiken in het Security &amp; Compliance Center. (Ga naar **Dashboard Rapporten** \> **.)**
+Als uw organisatie [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) heeft en u over de [benodigde machtigingen](#what-permissions-are-needed-to-view-the-atp-reports)beschikt, u verschillende ATP-rapporten gebruiken in het Security Compliance &amp; Center. (Ga naar **Rapporten** \> **Dashboard**.)
 
-![Het &amp; dashboard van het Security Compliance Center kan u helpen te zien waar Advanced Threat Protection werkt](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![Het dashboard van het Security &amp; Compliance Center kan u helpen te zien waar Advanced Threat Protection werkt](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
 ATP-rapporten bevatten het volgende:
 
@@ -70,9 +70,9 @@ Deze weergaven geven u de mogelijkheid om te exporteren, via een knop klik (in *
 In de overzichts- en e-mailsweergave worden binnen enkele uren na de verwerking informatie weergegeven in plaats van binnen 24 uur (vraag opnieuw. verhoogde snelheden hier is een duidelijk signaal)!
 
 > [!NOTE]
-> Een rapport over de status van bedreigingsbescherming is beschikbaar voor klanten die [Office 365 ATP](office-365-atp.md) of [Exchange Online Protection](exchange-online-protection-eop.md) (EOP) hebben; De informatie die wordt weergegeven in het rapport Status bedreigingsstatus voor ATP-klanten zal echter waarschijnlijk andere gegevens bevatten dan wat EOP-klanten kunnen zien. Het rapport Statusstatus bedreigingsbeveiliging voor ATP-klanten bevat bijvoorbeeld informatie over [schadelijke bestanden die zijn gedetecteerd in SharePoint Online, OneDrive of Microsoft Teams.](atp-for-spo-odb-and-teams.md) Dergelijke informatie is specifiek voor ATP, dus klanten die EOP hebben maar geen ATP, zien deze gegevens niet in hun rapport over de status van bedreigingsbescherming.
+> Een rapport over de status van bedreigingsbeveiliging is beschikbaar voor klanten die [Office 365 ATP](office-365-atp.md) of [Exchange Online Protection](exchange-online-protection-overview.md)(EOP) hebben; De informatie die wordt weergegeven in het rapport Status bedreigingsstatus voor ATP-klanten zal echter waarschijnlijk andere gegevens bevatten dan wat EOP-klanten kunnen zien. Het rapport Statusstatus bedreigingsbeveiliging voor ATP-klanten bevat bijvoorbeeld informatie over [schadelijke bestanden die zijn gedetecteerd in SharePoint Online, OneDrive of Microsoft Teams.](atp-for-spo-odb-and-teams.md) Dergelijke informatie is specifiek voor ATP, dus klanten die EOP hebben maar geen ATP, zien deze gegevens niet in hun rapport over de status van bedreigingsbescherming.
 
-Als u het rapport Status bedreigingsbeveiliging wilt weergeven, gaat u in het [Security &amp; Compliance Center](https://protection.office.com)naar de **status bedreigingsbeveiliging** **van het** \> **dashboard** \> rapporten .
+Als u het rapport Status bedreigingsbeveiliging wilt weergeven, gaat u in het [Security &amp; Compliance Center](https://protection.office.com)naar de status **bedreigingsbeveiliging van het dashboard rapporten** \> **Dashboard** \> **Threat Protection Status**.
 
 ![ATP Threat Protection Status rapport](../../media/6bdd41eb-62e0-423b-9fd4-d1d5baf0cbd5.png)
 
@@ -107,7 +107,7 @@ In de detailstabel u meer informatie zien over kliktijd en gebruikersinformatie.
 
 Het rapport **ATP-bestandstypen** toont u het type bestanden dat is gedetecteerd als kwaadaardig door [ATP-veilige bijlagen.](atp-safe-attachments.md)
 
-Als u dit rapport wilt bekijken, gaat u in het [Security &amp; Compliance Center](https://protection.office.com)naar **ATP-bestandstypen** **rapporten** \> **dashboard** \> .
+Als u dit rapport wilt bekijken, gaat u in het [Security &amp; Compliance Center](https://protection.office.com)naar **Reports** \> **Dashboard** \> **ATP-bestandstypen**rapporten dashboard .
 
 ![ATP-bestandstyperapport](../../media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
   
@@ -119,7 +119,7 @@ Wanneer u over een bepaalde dag zweeft, u de uitsplitsing zien van typen schadel
 
 Het rapport **ATP-berichtdispositie** toont u de acties die zijn uitgevoerd voor e-mailberichten die zijn gedetecteerd als schadelijke inhoud.
 
-Als u dit rapport wilt bekijken, gaat u in het [Security &amp; Compliance Center](https://protection.office.com)naar Het **DASHBOARD** \> **ATP-berichtdispositie**van **rapporten** \> .
+Als u dit rapport wilt bekijken, gaat u in het [Security &amp; Compliance Center](https://protection.office.com)naar Het DASHBOARD **Reports** \> **Dashboard** \> **ATP-berichtdispositie**van rapporten .
 
 ![Rapport over de dispositie van ATP-berichten](../../media/b0ff65c4-53d3-496d-bafa-8937a5eb69e5.png)
 
@@ -143,16 +143,16 @@ Naast de atp-rapporten die in dit artikel worden beschreven, zijn er nog verschi
 
 ## <a name="what-permissions-are-needed-to-view-the-atp-reports"></a>Welke machtigingen zijn nodig om de ATP-rapporten te bekijken?
 
-Als u de in dit artikel beschreven rapporten wilt bekijken en gebruiken, **moet u een geschikte rol hebben toegewezen voor zowel het Security &amp; Compliance Center als het Exchange-beheercentrum.**
+Als u de in dit artikel beschreven rapporten wilt bekijken en gebruiken, **moet u een geschikte rol hebben toegewezen voor zowel het Security Compliance Center als het &amp; Exchange-beheercentrum.**
 
-- Voor het &amp; Security Compliance Center moet u een van de volgende rollen toegewezen hebben:
+- Voor het Security &amp; Compliance Center moet u een van de volgende rollen toegewezen hebben:
 
   - Organisatiebeheer
-  - Beveiligingsbeheerder (dit kan worden toegewezen in het[https://aad.portal.azure.com](https://aad.portal.azure.com)Azure Active Directory-beheercentrum ( ))
-  - Beveiligingsoperator (dit kan worden toegewezen in het[https://aad.portal.azure.com](https://aad.portal.azure.com)Azure Active Directory-beheercentrum ( ))
+  - Beveiligingsbeheerder (dit kan worden toegewezen in het Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) ))
+  - Beveiligingsoperator (dit kan worden toegewezen in het Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) ))
   - Beveiligingslezer
 
-- Voor Exchange Online moet u een van de volgende rollen[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)hebben toegewezen in het Exchange-beheercentrum ( ) of met PowerShell-cmdlets (Zie [Exchange Online PowerShell):](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)
+- Voor Exchange Online moet u een van de volgende rollen hebben toegewezen in het Exchange-beheercentrum [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ( ) of met PowerShell-cmdlets (Zie Exchange Online [PowerShell):](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)
 
   - Organisatiebeheer
   - Organisatiebeheer alleen weergeven
@@ -161,7 +161,7 @@ Als u de in dit artikel beschreven rapporten wilt bekijken en gebruiken, **moet 
 
 Zie de volgende bronnen voor meer informatie:
 
-- [Machtigingen in het &amp; Security Compliance Center](permissions-in-the-security-and-compliance-center.md)
+- [Machtigingen in het Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 
 - [Functiemachtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
 
@@ -171,10 +171,10 @@ Als u geen gegevens in uw ATP-rapporten ziet, controleert u of uw beleid correct
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Rapporten en inzichten &amp; in het Security Compliance Center](reports-and-insights-in-security-and-compliance.md)
+[Rapporten en inzichten in het Security &amp; Compliance Center](reports-and-insights-in-security-and-compliance.md)
   
-[Een planning maken voor een &amp; rapport in het Security Compliance Center](create-a-schedule-for-a-report.md)
+[Een planning maken voor een rapport in het Security &amp; Compliance Center](create-a-schedule-for-a-report.md)
 
-[Een aangepast rapport instellen en &amp; downloaden in het Security Compliance Center](set-up-and-download-a-custom-report.md)
+[Een aangepast rapport instellen en downloaden in het Security &amp; Compliance Center](set-up-and-download-a-custom-report.md)
 
 [Machtigingen voor rollen (Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)
