@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen meer te weten komen over de instellingen voor geavanceerde spamfilters (Asf) die beschikbaar zijn in antispambeleid in Exchange Online Protection (EOP).
-ms.openlocfilehash: 3193c1ea11d9a470a6b0df72f052bab20dec29f8
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 904513780ca472efb91cfcd914ad6c72d6c720f7
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208046"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213410"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>Instellingen voor geavanceerde spamfilters (AsF) in EOP
 
@@ -35,7 +35,7 @@ In Microsoft 365-organisaties met postvakken in Exchange Online- of zelfstandige
 > [!NOTE]
 > Het inschakelen van een of meer van de AsF-instellingen is een agressieve benadering van spamfiltering. U geen berichten rapporteren die door AsF worden gefilterd als false positives. U berichten identificeren die door AsF zijn gefilterd door: <ul><li>Periodieke spamquarantainemeldingen voor eindgebruikers.</li><li>De aanwezigheid van gefilterde berichten in quarantaine.</li><li>De specifieke `X-CustomSpam:` X-headervelden die worden toegevoegd aan berichten zoals beschreven in dit onderwerp.</li></ul>
 
-In de volgende secties worden de AsF-instellingen en -opties beschreven die beschikbaar zijn in antispambeleid in het Security & Compliance Center en in Exchange Online PowerShell of standalone Exchange Online Protection PowerShell[(New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterpolicy) en [Set-HostedContentFilterPolicy).](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy) Zie [Beleid voor antispam configureren in EOP](configure-your-spam-filter-policies.md)voor meer informatie.
+In de volgende secties worden de AsF-instellingen en -opties beschreven die beschikbaar zijn in antispambeleid in het Security & Compliance Center en in Exchange Online PowerShell of standalone EOP PowerShell[(New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterpolicy) en [Set-HostedContentFilterPolicy).](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy) Zie [Beleid voor antispam configureren in EOP](configure-your-spam-filter-policies.md)voor meer informatie.
 
 ## <a name="enable-disable-or-test-asf-settings"></a>Asf-instellingen in- of uitschakelen of testen
 

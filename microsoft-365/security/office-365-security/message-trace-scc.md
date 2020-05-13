@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: Beheerders kunnen berichttracering gebruiken in het Security & Compliance Center om erachter te komen wat er met berichten is gebeurd.
-ms.openlocfilehash: e78d3361306a93542302e29ff5c1fac4e2262b2f
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 22ae7293dfe85fe5354d21e690de6f060a931788
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209425"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44212984"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Berichttracering in het Beveiligings- en compliancecentrum
 
@@ -27,7 +27,7 @@ Berichttracering in het Security & Compliance Center volgt e-mailberichten terwi
 Berichttracering in het Beveiligings& Compliance Center verbetert de oorspronkelijke berichttracering die beschikbaar was in het Exchange-beheercentrum (EAC). U de informatie uit berichttracering gebruiken om vragen van gebruikers over wat er met berichten is gebeurd efficiënt te beantwoorden, problemen met de e-mailstroom op te lossen en beleidswijzigingen te valideren.
 
 > [!NOTE]
-> • Om een berichttracering uit te voeren, moet u lid zijn van de rolgroepen Organisatiebeheer, Compliance Management of Helpdesk. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie. <br/><br/>• Het maximum aantal berichten dat in de resultaten wordt weergegeven, is afhankelijk van het geselecteerde rapporttype (zie de sectie [Rapporttype kiezen](#choose-report-type) voor meer informatie). De [Get-HistoricalSearch-cmdlet](https://docs.microsoft.com/powershell/module/exchange/reporting/get-historicalsearch) in Exchange Online PowerShell of Exchange Online Protection PowerShell retourneert alle berichten in de resultaten.
+> • Om een berichttracering uit te voeren, moet u lid zijn van de rolgroepen Organisatiebeheer, Compliance Management of Helpdesk. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie. <br/><br/>• Het maximum aantal berichten dat in de resultaten wordt weergegeven, is afhankelijk van het geselecteerde rapporttype (zie de sectie [Rapporttype kiezen](#choose-report-type) voor meer informatie). De [Get-HistoricalSearch-cmdlet](https://docs.microsoft.com/powershell/module/exchange/reporting/get-historicalsearch) in Exchange Online PowerShell of standalone EOP PowerShell retourneert alle berichten in de resultaten.
 
 ## <a name="open-message-trace"></a>Berichttracering openen
 

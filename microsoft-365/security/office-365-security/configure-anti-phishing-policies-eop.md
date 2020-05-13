@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe ze de antiphishingbeleidsregels kunnen maken, wijzigen en verwijderen die beschikbaar zijn in EOP-organisaties (Exchange Online Protection) met of zonder Exchange Online-postvakken.
-ms.openlocfilehash: 076c8aa8a0111643ab0f43bcd5f6ff21f82277b2
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 5c2e036c075072056e7783ca4dc5aeb1289d827a
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208897"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213386"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Anti-phishingbeleid configureren in EOP
 
@@ -31,7 +31,7 @@ Organisaties met Exchange Online-postvakken kunnen antiphishingbeleid configurer
 
 Zie [ATP-antiphishingbeleid configureren](configure-atp-anti-phishing-policies.md)voor informatie over het maken en wijzigen van de meer geavanceerde ATP-antiphishingbeleidsregels die beschikbaar zijn in Office 365 Advanced Threat Protection (Office 365 ATP).
 
-## <a name="anti-phishing-policies-in-the-security--compliance-center-vs-exchange-online-powershell"></a>Anti-phishingbeleid in het Security & Compliance Center vs Exchange Online PowerShell
+## <a name="anti-phishing-policies-in-the-security--compliance-center-vs-powershell"></a>Anti-phishingbeleid in het Security & Compliance Center vs PowerShell
 
 De basiselementen van een anti-phishing beleid zijn:
 
