@@ -18,17 +18,17 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: In dit artikel leert u hoe u in quarantaine geplaatste berichten kunt weergeven en beheren in het Beveiligings- en compliancecentrum van Microsoft 365.
-ms.openlocfilehash: ff6cb3dbf9a0a2010bf792115c53265689873090
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+description: Gebruikers kunnen meer informatie krijgen over het weergeven en beheren van berichten in quarantaine in Exchange Online Protection (EOP) die aan hun hadden moeten worden afgeleverd.
+ms.openlocfilehash: 802c2a5ce196a1ca67b01b973be5889b141f57f5
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173378"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208849"
 ---
-# <a name="find-and-release-quarantined-messages-as-a-user"></a>Berichten in quarantaine zoeken en vrijgeven als gebruiker
+# <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Berichten in quarantaine zoeken en vrijgeven als gebruiker in EOP
 
-Potentieel gevaarlijke of ongewenste berichten worden in quarantaine geplaatst in Microsoft 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken. Zie [Quarantaine in Office 365](quarantine-email-messages.md) voor meer informatie.
+In Microsoft 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken worden potentieel gevaarlijke of ongewenste berichten in quarantaine geplaatst. Zie [Quarantaine in EOP](quarantine-email-messages.md) voor meer informatie.
 
 Als gebruiker kunt u uw berichten in quarantaine zien, vrijgeven en verwijderen, als u een ontvanger bent en het bericht in quarantaine is geplaatst als spam of bulkmail. Vanaf april 2020 kunt u phishingberichten (niet de e-mails met hoge waarschijnlijkheid) weergeven of verwijderen als u een ontvanger bent. U kunt uw in quarantaine geplaatste berichten weergeven en beheren in het beveiligings- en compliancecentrum of (als een beheerder dit heeft ingesteld) in [spammeldingen voor eindgebruikers](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
@@ -36,11 +36,11 @@ Als gebruiker kunt u uw berichten in quarantaine zien, vrijgeven en verwijderen,
 
 - Ga naar <https://protection.office.com> om het Beveiligings- en compliancecentrum te openen. Ga naar <https://protection.office.com/quarantine> als u de quarantaine-pagina direct wilt openen.
 
-- Beheerders kunnen instellen hoe lang berichten in quarantaine blijven voordat ze permanent worden verwijderd (antispambeleid). Berichten waarvan de quarantaine is verlopen, kunnen niet meer worden hersteld. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
+- Beheerders kunnen instellen hoe lang berichten in quarantaine blijven voordat ze permanent worden verwijderd (antispambeleid). Berichten waarvan de quarantaine is verlopen, kunnen niet meer worden hersteld. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
 
-- Beheerders kunnen ook [Spammeldingen voor eindgebruikers inschakelen](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications) in antispambeleid. Gebruikers kunnen ongewenste, in quarantaine geplaatste berichten vrijgeven, maar in quarantaine geplaatste berichten niet rechtstreeks uit deze meldingen halen. Zie [Spammeldingen voor eindgebruikers in Office 365](use-spam-notifications-to-release-and-report-quarantined-messages.md) voor meer informatie.
+- Beheerders kunnen ook [Spammeldingen voor eindgebruikers inschakelen](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications) in antispambeleid. Gebruikers kunnen ongewenste, in quarantaine geplaatste berichten vrijgeven, maar in quarantaine geplaatste berichten niet rechtstreeks uit deze meldingen halen. Zie [Spammeldingen voor eindgebruikers in EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md) voor meer informatie.
 
-- Berichten die in quarantaine zijn geplaatst voor phishing van vertrouwelijke informatie, malware of door e-mailstroomregels (ook wel transportregels genoemd), zijn alleen beschikbaar voor beheerders. Phishingberichten kunnen door gebruikers worden bekeken, maar alleen worden vrijgegeven door beheerders. Zie [Berichten en bestanden in quarantaine beheren als Office 365-beheerder](manage-quarantined-messages-and-files.md).
+- Berichten die in quarantaine zijn geplaatst voor phishing van vertrouwelijke informatie, malware of door e-mailstroomregels (ook wel transportregels genoemd), zijn alleen beschikbaar voor beheerders. Phishingberichten kunnen door gebruikers worden bekeken, maar alleen worden vrijgegeven door beheerders. Zie [Berichten en bestanden in quarantaine beheren als EOP-beheerder](manage-quarantined-messages-and-files.md).
 
 - U kunt een bericht slechts eenmaal vrijgeven en melden als fout-positief (geen ongewenste e-mail).
 
@@ -96,7 +96,7 @@ Als gebruiker kunt u uw berichten in quarantaine zien, vrijgeven en verwijderen,
 
      - **Spam**
 
-     - **Phish** (vanaf april 2020)
+     - **Phishing**
 
    Als u het filter wilt wissen, drukt u op **Wissen**. Als u het filterdeelvenster wilt verbergen, klikt u opnieuw op **Filter**.
 
@@ -134,7 +134,7 @@ Wanneer u een e-mailbericht selecteert in de lijst verschijnen de volgende beric
 
 - **Onderwerp**
 
-- **Reden van quarantaine**: wordt getoond als een bericht is geïdentificeerd als **Spam**, **Bulk** of (vanaf april 2020) **Phish**.
+- **Reden van quarantaine**: wordt getoond als een bericht is geïdentificeerd als **Spam**, **Bulk** of **Phishing**.
 
 - **Ontvangers**: als het bericht naar meerdere ontvangers is gestuurd, moet u klikken op **Preview bericht** of **Berichtkop bekijken** om de volledige lijst met ontvangers te zien.
 

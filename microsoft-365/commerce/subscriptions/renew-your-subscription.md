@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 vernieuwen voor bedrijven
+title: Microsoft 365 voor bedrijven verlengen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -8,7 +8,7 @@ manager: mnirkhe
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -23,52 +23,52 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
-description: 'Meer informatie over het verlengen van uw Microsoft 365 voor Bedrijven-abonnement met een productcode en het uitschakelen of inschakelen van terugkerende facturering. '
-ms.openlocfilehash: 7bcd0fcc9d3984589ff7c05ec2c1b95afad22c29
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
-ms.translationtype: MT
+description: 'Meer informatie over het verlengen van uw Microsoft 365 voor bedrijven-abonnement met een productcode en het in- en uitschakelen van terugkerende facturering. '
+ms.openlocfilehash: 992a3c2cb100f9153cae5cbd681f6f789a361935
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141076"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208426"
 ---
-# <a name="renew-microsoft-365-for-business"></a>Microsoft 365 vernieuwen voor bedrijven
+# <a name="renew-microsoft-365-for-business"></a>Microsoft 365 voor bedrijven verlengen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
-Dit artikel is van toepassing op de meest betaalde Microsoft 365 voor zakelijke abonnementen.
+Dit artikel is van toepassing op de meeste betaalde Microsoft 365 voor bedrijven-abonnementen. 
   
-Zie [Uw productcode zoeken en invoeren](../enter-your-product-key.md)als u wilt verlengen met een productcode die u bij een winkel of Microsoft-partner hebt gekocht.
+Als u een abonnement wilt verlengen met een productcode die u in een winkel of bij een Microsoft-partner hebt gekocht, raadpleegt u [Voer uw productcode in](../enter-your-product-key.md).
 
 > [!NOTE]
-> Betalen per bankrekening is niet beschikbaar in sommige landen of regio's.
+> Betalen via een bankrekening is niet beschikbaar in bepaalde landen of regio's.
   
-## <a name="turn-recurring-billing-off-or-on"></a>Terugkerende facturering uitschakelen of inschakelen
+## <a name="turn-recurring-billing-off-or-on"></a>Terugkerende facturering uit- of inschakelen
 
-Als u met een creditcard of bankrekening betaalt, is **Terugkerende facturering** standaard ingeschakeld. Wanneer **Terugkerende facturering** is ingeschakeld, wordt uw abonnement elk jaar op de dag dat u zich hebt geabonneerd, in rekening gebracht. U het uitschakelen of opnieuw inschakelen in het beheercentrum als uw abonnement actief is.
+Als u betaalt per creditcard of bankrekening wordt **Terugkerende facturering** standaard ingeschakeld. Wanneer **Terugkerende facturering** is ingeschakeld, wordt uw abonnement elk jaar verlengd op de dag dat u zich hebt aangemeld. U kunt de optie uitschakelen of weer inschakelen in het beheercentrum als de status van uw abonnement Actief is.
   
-Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonnement aan het einde van de abonnementsperiode. U **Terugkerende facturering** inschakelen en creditcard- of bankrekeninggegevens verstrekken, zodat uw abonnement elk jaar op de dag dat u zich hebt geabonneerd, in rekening wordt gebracht. Je hebt ook de mogelijkheid om elke maand te betalen, of om het hele jaar vooraf te betalen. Uw creditcard of bankrekening wordt pas in rekening gebracht nadat uw oorspronkelijke abonnementstermijn is verstreken.
+Als u vooraf voor uw abonnement hebt betaald met een productcode, verloopt uw abonnement aan het einde van de abonnementsperiode. U kunt **Terugkerende facturering** inschakelen en creditcard- of bankrekeninggegevens opgeven zodat uw abonnement automatisch elk jaar op de dag van aanmelden wordt gefactureerd. U kunt ook elke maand betalen of voor het hele jaar vooruit. Er wordt pas iets van een creditcard of bankrekening afgeschreven als de eerste abonnementstermijn is verlopen.
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 
 2. Kies het abonnement waarvan u de terugkerende facturering wilt beheren.
 
-3. Selecteer **onder Facturering**naast **Vernieuwing op** of Aflopen **op**bewerken . **edit**
+3. Selecteer onder **Facturering**, naast **Wordt verlengd op** of **Verloopt op**, de optie **Bewerken**.
 
-4. Selecteer In het deelvenster **Terugkerende factureringsinstellingen** de optie **Uitschakelen** om het uit te schakelen. Als terugkerende facturering al is uitgeschakeld, selecteert u **Maandelijks** of **Eenmaal** om deze in te schakelen.
+4. Schakel in het deelvenster **Terugkerende factureringsinstellingen** **Uitschakelen** om het uit te schakelen. Als terugkerende facturering al is uitgeschakeld, selecteert u **Maandelijks** of **Eenmaal** om deze in te schakelen.
 
 5. Selecteer **Wijziging verzenden**.
 
     > [!NOTE]
-    > - U alleen de instelling **Terugkerende facturering** voor actieve abonnementen wijzigen. Als uw abonnement al is verlopen of is uitgeschakeld, moet u [het opnieuw activeren](reactivate-your-subscription.md) voordat u Terugkerende **facturering** in- of uitschakelen.
-    > - Wanneer **Terugkerende facturering** is uitgeschakeld, wordt het abonnement niet meteen opgezegd. Het blijft actief totdat het verloopt. U de vervaldatum bekijken in het gedeelte **Facturering** van de abonnementsgegevens op de pagina **Uw producten.**
-    > - Zie [Mijn abonnement opzeggen](cancel-your-subscription.md)voor meer informatie over het opzeggen van het abonnement.
+    > - U kunt **Terugkerende facturering** alleen in- of uitschakelen als uw abonnement de status Actief heeft. Als uw abonnement is verlopen of uitgeschakeld, moet u [het opnieuw activeren](reactivate-your-subscription.md) voordat u **Terugkerende facturering** kunt in- of uitschakelen.
+    > - Wanneer **Terugkerende facturering** is uitgeschakeld, wordt het abonnement niet direct opgezegd. Het blijft actief totdat het verloopt. U kunt de vervaldatum bekijken in het gedeelte **Facturering** van de abonnementsgegevens op de pagina **Mijn producten**.
+    > - Zie [Mijn abonnement opzeggen](cancel-your-subscription.md) voor meer informatie over het direct opzeggen van een abonnement.
 
 ::: moniker-end
 
@@ -78,16 +78,16 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
 
 2. Kies het abonnement waarvan u de terugkerende facturering wilt beheren.
 
-3. Als u **Terugkerende facturering**wilt inschakelen, schakelt u over op **Aan**.
+3. Als u **terugkerende facturering** wilt inschakelen, zet u de wisselknop op **Aan**.
 
-    ![Close-up van een abonnementskaart waarop Terugkerende facturering is ingeschakeld.](../../media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
+    ![Close-up van een abonnementskaart met terugkerende facturering ingeschakeld.](../../media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
   
-    U **Terugkerende facturering** uitschakelen door de schakelfunctie in **te schakelen**naar Uitschakelen.
+    U kunt **Terugkerende facturering** uitschakelen door de wisselknop op **Uit** te zetten.
 
     > [!NOTE]
-    > - U alleen de instelling **Terugkerende facturering** voor actieve abonnementen wijzigen. Als uw abonnement al is verlopen of is uitgeschakeld, moet u [het opnieuw activeren](reactivate-your-subscription.md) voordat u Terugkerende **facturering** in- of uitschakelen.
-    > - Wanneer **Terugkerende facturering** is uitgeschakeld, wordt het abonnement niet meteen opgezegd. Het blijft actief totdat het verloopt. U de vervaldatum bekijken op de abonnementskaart
-    > - Zie [Mijn abonnement opzeggen](cancel-your-subscription.md)voor meer informatie over het opzeggen van het abonnement.
+    > - U kunt **Terugkerende facturering** alleen in- of uitschakelen als uw abonnement de status Actief heeft. Als uw abonnement is verlopen of uitgeschakeld, moet u [het opnieuw activeren](reactivate-your-subscription.md) voordat u **Terugkerende facturering** kunt in- of uitschakelen.
+    > - Wanneer **Terugkerende facturering** is uitgeschakeld, wordt het abonnement niet direct opgezegd. Het blijft actief totdat het verloopt. U kunt de vervaldatum bekijken op de abonnementskaart
+    > - Zie [Mijn abonnement opzeggen](cancel-your-subscription.md) voor meer informatie over het direct opzeggen van een abonnement.
 
 ::: moniker-end
 
@@ -97,16 +97,16 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
 
 2. Kies het abonnement waarvan u de terugkerende facturering wilt beheren.
 
-3. Als u **Terugkerende facturering**wilt inschakelen, schakelt u over op **Aan**.
+3. Als u **terugkerende facturering** wilt inschakelen, zet u de wisselknop op **Aan**.
 
-    ![Close-up van een abonnementskaart waarop Terugkerende facturering is ingeschakeld.](../../media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
+    ![Close-up van een abonnementskaart met terugkerende facturering ingeschakeld.](../../media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
   
-    U **Terugkerende facturering** uitschakelen door de schakelfunctie in **te schakelen**naar Uitschakelen.
+    U kunt **Terugkerende facturering** uitschakelen door de wisselknop op **Uit** te zetten.
 
     > [!NOTE]
-    > - U alleen de instelling **Terugkerende facturering** voor actieve abonnementen wijzigen. Als uw abonnement al is verlopen of is uitgeschakeld, moet u [het opnieuw activeren](reactivate-your-subscription.md) voordat u Terugkerende **facturering** in- of uitschakelen.
-    > - Wanneer **Terugkerende facturering** is uitgeschakeld, wordt het abonnement niet meteen opgezegd. Het blijft actief totdat het verloopt. U de vervaldatum bekijken op de abonnementskaart.
-    > - Zie [Mijn abonnement opzeggen](cancel-your-subscription.md)voor meer informatie over het opzeggen van het abonnement.
+    > - U kunt **Terugkerende facturering** alleen in- of uitschakelen als uw abonnement de status Actief heeft. Als uw abonnement is verlopen of uitgeschakeld, moet u [het opnieuw activeren](reactivate-your-subscription.md) voordat u **Terugkerende facturering** kunt in- of uitschakelen.
+    > - Wanneer **Terugkerende facturering** is uitgeschakeld, wordt het abonnement niet direct opgezegd. Het blijft actief totdat het verloopt. U kunt de vervaldatum bekijken op de abonnementskaart.
+    > - Zie [Mijn abonnement opzeggen](cancel-your-subscription.md) voor meer informatie over het direct opzeggen van een abonnement.
 
 ::: moniker-end
 
@@ -116,6 +116,6 @@ Als u een prepaid abonnement hebt betaald met een productcode, verloopt uw abonn
   
 [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement afloopt?](what-if-my-subscription-expires.md)
 
-[Voer uw productcode in](../enter-your-product-key.md)
+[De productcode invoeren](../enter-your-product-key.md)
   
-[Uw proefversie van Microsoft 365 voor bedrijven kopen](../buy-a-subscription-from-your-free-trial.md)
+[De proefversie van Office 365 voor Bedrijven kopen](../buy-a-subscription-from-your-free-trial.md)

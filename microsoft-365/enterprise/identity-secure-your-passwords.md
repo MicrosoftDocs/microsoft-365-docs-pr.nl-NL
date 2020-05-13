@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: U moet de wachtwoorden binnen uw organisatie sterk en beheerbaar maken.
-ms.openlocfilehash: b4eb1861eb8d1c483972cf6a7c22a339dc1b0b36
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6e5c2567ee2027be2a84121fdad10ba873ec1c43
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637046"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214648"
 ---
 # <a name="step-2-secure-your-passwords"></a>Stap 2: Wachtwoorden beveiligen
 
@@ -31,7 +31,7 @@ ms.locfileid: "43637046"
 
 *Deze stap is optioneel en geldt voor zowel E3- als E5-versies van Microsoft 365*
 
-Al uw gebruikers dienen de [Wachtwoordondersteuning van Microsoft](https://www.microsoft.com/research/publication/password-guidance/) te gebruiken om de wachtwoorden voor hun gebruikersaccounts te maken.
+Al uw gebruikers dienen de [Wachtwoordondersteuning van Microsoft](https://www.microsoft.com/research/publication/password-guidance) te gebruiken om de wachtwoorden voor hun gebruikersaccounts te maken.
 
 Als u wilt voorkomen dat gebruikers een te makkelijk wachtwoord aanmaken, gebruikt u Azure AD-wachtwoordbeveiliging. Hierbij wordt gebruikgemaakt van een wereldwijd geblokkeerde wachtwoordlijst en een optionele, aangepaste lijst met geblokkeerde wachtwoorden die u kunt vaststellen. U kunt bijvoorbeeld termen op deze lijst zetten die specifiek voor uw organisatie zijn, zoals:
 

@@ -13,12 +13,12 @@ ms.custom: ''
 localization_priority: Priority
 description: Ontdek hoe u financiële services met Microsoft 365 kunt overzetten naar een modern samenwerkingsplatform, waarbij gegevens en systemen beveiligd blijven conform de regelgeving
 f1.keywords: NOCSH
-ms.openlocfilehash: affaf7ee6d9251003aec084d73b501212ebeda40
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 24177c6e878116b8d60d8f38be77d0b52141699a
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160457"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214694"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor Amerikaanse banken en kapitaalmarkten
 
@@ -216,7 +216,7 @@ Financiële instellingen beheren grote hoeveelheden gegevens. En sommige bewaarp
 - Wat er gebeurt wanneer de bewaarperiode is verlopen (het document verwijderen, een verwijderingsbeoordeling starten of geen actie ondernemen)
 -  Waardoor de bewaarperiode wordt geactiveerd (aanmaakdatum, datum laatst gewijzigd, datum gelabeld of een gebeurtenis) en het document of de e-mail als record wordt gemarkeerd (wat betekent dat het niet kan worden bewerkt of verwijderd)
 
-De retentielabels worden vervolgens gepubliceerd naar SharePoint- en OneDrive-sites, Exchange-postvakken en Microsoft 365-groepen. Gebruikers kunnen de retentielabels handmatig toepassen op documenten en e-mails. Recordbeheerders kunnen intelligentie gebruiken om de labels automatisch toe te passen. Intelligente functionaliteit kan worden gebaseerd op [meer dan 90 ingebouwde typen gevoelige informatie](https://docs.microsoft.com/microsoft-365/compliance/what-the-sensitive-information-types-look-for?view=o365-worldwide) (zoals het ABA Outing-nummer, het Amerikaanse bankrekeningnummer of Amerikaanse burgerservicenummer). Deze functionaliteit kan ook worden aangepast op basis van trefwoorden of gevoelige gegevens in documenten of e-mailberichten, zoals creditcardnummers of andere persoonsgegevens die zijn gebaseerd op SharePoint-metagegevens. Voor gegevens die niet gemakkelijk kunnen worden geïdentificeerd door handmatige of geautomatiseerde patroonvergelijking, kunnen trainbare classificaties worden gebruikt om documenten intelligent te classificeren op basis van technieken voor machine learning.
+De retentielabels worden vervolgens gepubliceerd naar SharePoint- en OneDrive-sites, Exchange-postvakken en Microsoft 365-groepen. Gebruikers kunnen de retentielabels handmatig toepassen op documenten en e-mails. Recordbeheerders kunnen intelligentie gebruiken om de labels automatisch toe te passen. Intelligente functionaliteit kan worden gebaseerd op [meer dan 90 ingebouwde typen gevoelige informatie](https://docs.microsoft.com/microsoft-365/compliance/content-search?view=o365-worldwide) (zoals het ABA Outing-nummer, het Amerikaanse bankrekeningnummer of Amerikaanse burgerservicenummer). Deze functionaliteit kan ook worden aangepast op basis van trefwoorden of gevoelige gegevens in documenten of e-mailberichten, zoals creditcardnummers of andere persoonsgegevens die zijn gebaseerd op SharePoint-metagegevens. Voor gegevens die niet gemakkelijk kunnen worden geïdentificeerd door handmatige of geautomatiseerde patroonvergelijking, kunnen trainbare classificaties worden gebruikt om documenten intelligent te classificeren op basis van technieken voor machine learning.
  
 De **Securities and Exchange Commission (SEC)** vereist dat brokerdealers en andere gereguleerde financiële instellingen alle zakelijke communicatie bewaren. Deze vereisten zijn van toepassing op veel typen communicatie en gegevens, waaronder e-mailberichten, documenten, chatberichten en faxberichten en meer. **SEC-regel 17a-4** definieert de criteria waaraan deze organisaties moeten voldoen om records op te slaan in een elektronisch gegevensopslagsysteem. In 2003 bracht de SEC een release uit waarin deze vereisten werden toegelicht. Deze bevat de volgende criteria:
 

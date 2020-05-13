@@ -17,17 +17,17 @@ ms.collection:
 - Strat_O365_IP
 ms.custom: TopSMBIssues
 localization_priority: Priority
-description: Lees hoe Exchange Online en Exchange Online Protection (EOP) in Microsoft 365 e-mailverificatie (SPF, DKIM en DMARC) gebruiken om spoofing, phishing en spam te helpen voorkomen.
-ms.openlocfilehash: f3a3ea902cb0c4fede4fcfd919f0969765bc4a96
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Beheerders kunnen meer informatie krijgen over hoe Exchange Online Protection (EOP) e-mailverificatie (SPF, DKIM en DMARC) gebruikt om adresvervalsing, phishing en spam te helpen voorkomen.
+ms.openlocfilehash: c79a75f1ae520a0c4f885c923b4a56cdb0f7fb87
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637554"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209497"
 ---
-# <a name="email-authentication-in-microsoft-365"></a>E-mailverificatie in Microsoft 365
+# <a name="email-authentication-in-eop"></a>E-mailverificatie in EOP
 
-E-mailverificatie (ook wel e-mailvalidatie genoemd) is een groep standaarden die probeert om spoofing (e-mailberichten van vervalste afzenders) te stoppen. In Microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken worden de volgende standaarden gebruikt om binnenkomende e-mail te verifiëren:
+E-mailverificatie (ook wel e-mailvalidatie genoemd) is een groep standaarden die probeert om spoofing (e-mailberichten van vervalste afzenders) te stoppen. In Microsoft 365-organisaties met postvakken in Exchange Online en zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken worden deze standaarden gebruikt om binnenkomende e-mail te verifiëren:
 
 - [SPF](how-office-365-uses-spf-to-prevent-spoofing.md)
 

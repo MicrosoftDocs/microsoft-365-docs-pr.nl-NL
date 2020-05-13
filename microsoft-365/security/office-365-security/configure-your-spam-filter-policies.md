@@ -15,21 +15,21 @@ search.appverid:
 ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
-description: Basisinstellingen van spamfilters bevatten de actie die moet worden uitgevoerd op berichten die als spam zijn geïdentificeerd.
-ms.openlocfilehash: 027cea45159131ebe4718dfb2209d8be15f8e355
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
+ms.openlocfilehash: 66266ac79f6f442c8551b9ec15d553d6fb074cdc
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637710"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209557"
 ---
-# <a name="configure-anti-spam-policies"></a>Beleid tegen ongewenste e-mail configureren
+# <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
-Voor Microsoft 365-gebruikers met postvakken in Exchange Online of standalone EOP-klanten (Exchange Online Protection) zonder Exchange Online-postvakken, zijn binnenkomende e-mailberichten automatisch tegen spam beschermd door EOP. EOP gebruikt antispambeleid (ook wel bekend als spamfilterbeleid of inhoudsfilterbeleid) als onderdeel van de algehele bescherming van uw bedrijf tegen spam. Zie [Bescherming tegen antispam](anti-spam-protection.md) voor meer informatie.
+In Microsoft 365-organisaties met postvakken in Exchange Online of standalone EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken, zijn binnenkomende e-mailberichten automatisch tegen spam beschermd door EOP. EOP gebruikt antispambeleid (ook wel bekend als spamfilterbeleid of inhoudsfilterbeleid) als onderdeel van de algehele bescherming van uw bedrijf tegen spam. Zie [Bescherming tegen antispam](anti-spam-protection.md) voor meer informatie.
 
 Beheerders kunnen het standaardbeleid bekijken, bewerken en configureren (maar niet verwijderen). Voor grotere nauwkeurigheid kunt u ook aangepast antispambeleid maken dat wordt toegepast op specifieke gebruikers, groepen of domeinen binnen uw bedrijf. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
 
-U kunt antispambeleid configureren in het beveiligings- en compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-klanten; Exchange Online Protection PowerShell voor standalone EOP-klanten).
+U kunt antispambeleid configureren in het beveiligings- en compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; standalone EOP PowerShell voor bedrijven-organisaties zonder Exchange Online-postvakken).
 
 ## <a name="anti-spam-policies-in-the-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>Antispambeleid in het beveiligings- en compliancecentrum vergeleken met Exchange Online PowerShell of Exchange Online Protection PowerShell
 
@@ -120,9 +120,9 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
     |**Geen actie**|||||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
     |
 
-    > <sup>1</sup> In Exchange Online wordt het bericht verplaatst naar de map Ongewenste e-mail als de regel Ongewenste e-mail is ingeschakeld voor het postvak (standaard is die regel ingeschakeld). Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.<br/>In standalone EOP-omgevingen waar EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de EOP-spamfilterbeoordeling te vertalen, zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. <br/><br/><sup>2</sup> U kunt deze waarde gebruiken als voorwaarde in e-mailstroomregels (ook wel transportregels) om het bericht te filteren of om te leiden.
+    > <sup>1</sup> In Exchange Online wordt het bericht verplaatst naar de map Ongewenste e-mail als de regel Ongewenste e-mail is ingeschakeld voor het postvak (standaard is die regel ingeschakeld). Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.<br/>In standalone EOP-omgevingen waar EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de EOP-spamfilterbeoordeling te vertalen, zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. <br/><br/><sup>2</sup> U kunt deze waarde gebruiken als voorwaarde in e-mailstroomregels (ook wel transportregels) om het bericht te filteren of om te leiden.
 
-   - **De drempelwaarde selecteren**: hiermee wordt het bulkklachtniveau (BCL) van een bericht aangegeven dat de gespecificeerde actie activeert voor de **Bulk-e-mail**-spamfilterbeoordeling (groter dan de opgegeven waarde, niet groter dan of gelijk aan). Een hogere waarde geeft aan dat het bericht minder wenselijk is (grotere kans dat het bericht spam is). De standaardwaarde is 7. Zie [Bulkklachtniveau (BCL) in Office 365](bulk-complaint-level-values.md) en [Wat is het verschil tussen ongewenste e-mail en bulk-e-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md) voor meer informatie.
+   - **De drempelwaarde selecteren**: hiermee wordt het bulkklachtniveau (BCL) van een bericht aangegeven dat de gespecificeerde actie activeert voor de **Bulk-e-mail**-spamfilterbeoordeling (groter dan de opgegeven waarde, niet groter dan of gelijk aan). Een hogere waarde geeft aan dat het bericht minder wenselijk is (grotere kans dat het bericht spam is). De standaardwaarde is 7. Zie [Bulkklachtniveau (BCL) in EOP](bulk-complaint-level-values.md) en [Wat is het verschil tussen ongewenste e-mail en bulk-e-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md) voor meer informatie.
 
      Standaard is de enige PowerShell-instelling _MarkAsSpamBulkMail_ `On` in antispambeleid. Deze instelling is van grote invloed op de resultaten van een **Bulk-e-mail**-filterbeoordeling:
 
@@ -132,9 +132,9 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 
    - **Quarantaine**: geeft aan hoe lang het bericht in quarantaine moet worden gehouden als u de actie **Bericht in quarantaine plaatsen** hebt geselecteerd voor een spamfilterbeoordeling. Na het verlopen van de periode wordt het bericht verwijderd. De standaardwaarde is 30 dagen. Een geldige waarde ligt tussen de 1 en 30 dagen. Zie de volgende artikelen voor meer informatie over quarantaine:
 
-     - [Quarantaine in Office 365](quarantine-email-messages.md)
-     - [Berichten en bestanden in quarantaine beheren als Office 365-beheerder](manage-quarantined-messages-and-files.md)
-     - [Berichten in quarantaine zoeken en vrijgeven als Office 365-gebruiker](find-and-release-quarantined-messages-as-a-user.md)
+     - [Berichten in quarantaine in EOP](quarantine-email-messages.md)
+     - [Berichten en bestanden in quarantaine beheren als EOP-beheerder](manage-quarantined-messages-and-files.md)
+     - [Berichten in quarantaine zoeken en vrijgeven als gebruiker in EOP](find-and-release-quarantined-messages-as-a-user.md)
 
    - **Deze X-koptekst toevoegen**: dit vak is alleen vereist en beschikbaar als u de actie **X-kop toevoegen** hebt geselecteerd voor een spamfilterbeoordeling. De waarde die u opgeeft, is de naam van het *kopveld* dat wordt toegevoegd aan de berichtkop. De kopveld*waarde* is altijd `This message appears to be spam`.
 
@@ -148,7 +148,7 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 
    - **Bericht naar dit e-mailadres omleiden**: dit vak is alleen vereist en beschikbaar als u de actie **Bericht naar e-mailadres omleiden** hebt geselecteerd voor een spamfilterbeoordeling. Voer het e-mailadres in waarnaar u het bericht wilt verzenden. U kunt meerdere waarden opgeven, gescheiden door puntkomma’s (;).
 
-   - **Veiligheidstips**: standaard staan veiligheidstips ingeschakeld, maar u kunt ze uitschakelen door het selectievakje **Aan** uit te schakelen. Zie [Veiligheidstips in e-mailberichten in Office 365](safety-tips-in-office-365.md) voor meer informatie over veiligheidstips.
+   - **Veiligheidstips**: standaard staan veiligheidstips ingeschakeld, maar u kunt ze uitschakelen door het selectievakje **Aan** uit te schakelen. Zie [Veiligheidstips in e-mailberichten](safety-tips-in-office-365.md) voor meer informatie over veiligheidstips.
 
    **Zero-hour auto purge**-instellingen: ZAP detecteert en voert actie uit op berichten die al zijn afgeleverd aan Exchange Online-postvakken. Zie [Zero-hour auto purge - beveiliging tegen ongewenste e-mail en malware](zero-hour-auto-purge.md) voor meer informatie over ZAP.
 
@@ -159,7 +159,7 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 5. (Optioneel) Vouw de sectie **Lijsten toestaan** uit om op basis van e-mailadres of e-maildomein afzenders van berichten te configureren die de spamfilters mogen overslaan:
 
    > [!CAUTION]
-   > <ul><li>Denk goed na voordat u hier domeinen toevoegt. Zie [Lijsten met veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md) voor meer informatie.</li><li>Voeg nooit geaccepteerde domeinen (domeinen waarvan u eigenaar bent) of algemene domeinen (bijv.: microsoft.com of office.com) toe aan de lijst met toegestane domeinen. Hiermee kunnen kwaadwillende gebruikers e-mail verzenden die de e-mailspamfilters in uw bedrijf overslaat.</li></ul>
+   > • Denk goed na voordat u hier domeinen toevoegt. Zie [Lijsten met veilige afzenders maken in EOP](create-safe-sender-lists-in-office-365.md) voor meer informatie. <br/><br/> • Voeg nooit geaccepteerde domeinen (domeinen waarvan u eigenaar bent) of algemene domeinen (bijv.: microsoft.com of office.com) toe aan de lijst met toegestane domeinen. Hiermee kunnen kwaadwillende gebruikers e-mail verzenden die de e-mailspamfilters in uw bedrijf overslaat.
 
    - **Afzender toelaten**: klik op **Bewerken**. In het deelvenster **Lijst met toegestane afzenders** dat wordt weergegeven:
 
@@ -188,7 +188,7 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 6. (Optioneel) Vouw de sectie **Geblokkeerd** uit om op basis van e-mailadres of e-maildomein afzenders van berichten te configureren die altijd worden gemarkeerd als Hoogstwaarschijnlijk spam:
 
    > [!NOTE]
-   > Het is niet gevaarlijk handmatig domeinen te blokkeren, maar het kan de werkbelasting vergroten Zie [Lijsten met geblokkeerde afzenders maken in Office 365](create-block-sender-lists-in-office-365.md) voor meer informatie.
+   > Het is niet gevaarlijk handmatig domeinen te blokkeren, maar het kan de werkbelasting vergroten Zie [Lijsten met geblokkeerde afzenders maken in EOP](create-block-sender-lists-in-office-365.md) voor meer informatie.
 
    - **Afzender blokkeren**: klik op **Bewerken**. In het deelvenster **Lijst met geblokkeerde afzenders** dat wordt weergegeven:
 
@@ -238,7 +238,7 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 
 8. De optionele sectie **Spameigenschappen** bevat ASF-instellingen (geavanceerde instellingen voor spamfilters) die standaard zijn uitgeschakeld. ASF-instellingen worden afgeschaft en hun functionaliteit wordt opgenomen in andere onderdelen van de filterstack. Het is raadzaam dat u al deze ASF-instellingen uitgeschakeld laat in uw antispambeleid.
 
-   Zie [Geavanceerde instellingen voor spamfilters in Office 365](advanced-spam-filtering-asf-options.md) voor meer informatie over deze instellingen.
+   Zie [Geavanceerde instellingen voor spamfilters in EOP](advanced-spam-filtering-asf-options.md) voor meer informatie over deze instellingen.
 
 9. (Verplicht) Vouw de sectie **Toegepast op** uit om de interne geadresseerden te bepalen op wie het beleid van toepassing is.
 
@@ -246,7 +246,7 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 
     Het eenvoudigste is drie keer te klikken op **Een voorwaarde toevoegen** om alle beschikbare voorwaarden weer te geven. U kunt op de ![knop Verwijderen](../../media/scc-remove-icon.png) klikken om voorwaarden te verwijderen die u niet wilt configureren.
 
-    - **Het domein van de geadresseerde is**: specificeert geadresseerden in een of meer van de geconfigureerde domeinen in Office 365. Klik in het vak **Een tag toevoegen** om een domein weer te geven en te selecteren. Klik opnieuw op het vak **Een tag toevoegen** om aanvullende domeinen te selecteren als er meer dan één domein beschikbaar is.
+    - **Het domein van de geadresseerde is**: specificeert geadresseerden in een of meer van de geconfigureerde domeinen in uw organisatie. Klik in het vak **Een tag toevoegen** om een domein weer te geven en te selecteren. Klik opnieuw op het vak **Een tag toevoegen** om aanvullende domeinen te selecteren als er meer dan één domein beschikbaar is.
 
     - **Geadresseerde is**: specificeert een of meer postvakken, e-mailgebruikers or e-mailcontactpersonen binnen uw bedrijf. Klik in het vak **Tag toevoegen** en begin te typen om de lijst te filteren. Klik opnieuw op het vak **Tag toevoegen** om aanvullende geadresseerden te selecteren.
 
@@ -324,7 +324,7 @@ Om de prioriteit van beleid te wijzigen, kunt u het beleid naar boven of beneden
 
 ### <a name="configure-end-user-spam-notifications"></a>Spammeldingen voor eindgebruikers configureren
 
-Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst, kunt u spammeldingen voor eindgebruikers configureren om geadresseerden te laten weten wat er is gebeurd met berichten die naar hen zijn verzonden. Zie [Spammeldingen voor eindgebruikers in Office 365](use-spam-notifications-to-release-and-report-quarantined-messages.md) voor meer informatie over deze meldingen.
+Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst, kunt u spammeldingen voor eindgebruikers configureren om geadresseerden te laten weten wat er is gebeurd met berichten die naar hen zijn verzonden. Zie [Spammeldingen voor eindgebruikers in EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md) voor meer informatie over deze meldingen.
 
 1. Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.
 

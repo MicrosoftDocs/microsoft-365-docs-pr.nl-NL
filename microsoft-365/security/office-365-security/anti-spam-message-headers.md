@@ -2,8 +2,8 @@
 title: Berichtkoppen tegen ongewenste e-mail
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ search.appverid:
 ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
-description: Lees meer over de koptekstvelden die Exchange Online Protection toevoegt aan berichten om informatie te geven over het bericht en hoe het is verwerkt.
+description: Beheerders kunnen meer informatie krijgen over de koptekstvelden die aan berichten worden toegevoegd door EOP (Exchange Online Protection) om informatie te geven over het bericht en hoe het is verwerkt.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7f86b5ffa02b6f84c10ab2300f913b5f03726713
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: d63d173b90ffd868cfbeac212f2c9d5a6ee125c6
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173402"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208220"
 ---
-# <a name="anti-spam-message-headers"></a>Berichtkoppen tegen ongewenste e-mail
+# <a name="anti-spam-message-headers-in-microsoft-365"></a>Berichtkoppen tegen ongewenste e-mail in Microsoft 365
 
-Wanneer Exchange Online Protection (EOP) een inkomend e-mailbericht scant, wordt de berichtkop **X-Forefront-Antispam-Report** in elk bericht ingevoegd. De velden in deze kop kunnen beheerders informatie bieden over het bericht en over hoe het is verwerkt. De velden in de kop **X-Microsoft-Antispam** bevatten extra informatie over bulkmail en phishing. Naast deze twee koppen worden door Exchange Online Protection ook resultaten over e-mailverificatie ingevoegd voor elk bericht dat wordt verwerkt in de kop **Authentication-results**.
+In Microsoft 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken wordt door EOP de **X-Forefront-Antispam-Report**-koptekst gescand en ingevoegd in elk inkomend e-mailbericht. De velden in deze kop kunnen beheerders informatie bieden over het bericht en over hoe het is verwerkt. De velden in de kop **X-Microsoft-Antispam** bevatten extra informatie over bulkmail en phishing. Naast deze twee koppen worden door Exchange Online Protection ook resultaten over e-mailverificatie ingevoegd voor elk bericht dat wordt verwerkt in de kop **Authentication-results**.
 
 Zie [Internetberichtkoppen weergeven in Outlook](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c) voor meer informatie over het weergeven van een e-mailberichtkop in verschillende e-mailclients.
 
