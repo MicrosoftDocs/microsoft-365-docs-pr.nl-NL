@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Bepaal of uw tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie gebruiken om Office-invoegins te implementeren.
-ms.openlocfilehash: 0fcdb9901c708842470f72106ab4eea20ff8b17e
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: bd1c9ca0a034494f6556f0badca66284c3d9e1de
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011721"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214250"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Bepalen of gecentraliseerde implementatie van invoegingen werkt voor uw organisatie
 
@@ -75,9 +75,9 @@ Als u Microsoft 365 Apps voor ondernemingen wilt gebruiken, moet een gebruiker e
 
 De eenvoudigste manier om te detecteren of een gebruiker Microsoft 365 Apps voor bedrijven heeft geïnstalleerd en deze onlangs heeft gebruikt, is door het microsoft Office-activeringsrapport te gebruiken, dat beschikbaar is in het Microsoft 365-beheercentrum. Het rapport bevat een lijst met alle gebruikers die Microsoft 365 Apps voor bedrijven hebben geactiveerd in de afgelopen 7 dagen, 30 dagen, 90 dagen of 180 dagen. Voor gecentraliseerde implementatiedoeleinden zijn de bureaubladactiveringen voor Windows of Mac de belangrijke kolommen in het rapport. U kunt het rapport exporteren naar Excel. Zie [Microsoft 365-rapporten in het beheercentrum - Microsoft Office-activeringen](../activity-reports/microsoft-office-activations.md)voor meer informatie over het rapport.
   
-Als u het rapport Activeringen niet wilt gebruiken, u een gebruiker vragen een Office-toepassing zoals Word op zijn of haar machine te openen en vervolgens **Account** \> **bestand**te kiezen. Zie **Onder Productgegevens**ziet u **Abonnementsproduct** en **Microsoft Microsoft 365 Apps voor ondernemingen,** zoals weergegeven in de volgende afbeelding.
+Als u het rapport Activeringen niet wilt gebruiken, u een gebruiker vragen een Office-toepassing zoals Word op zijn of haar machine te openen en vervolgens **Account bestand** te \> **Account**kiezen. Zie **Onder Productgegevens**ziet u **Abonnementsproduct** en **Microsoft 365 voor ondernemingen,** zoals weergegeven in de volgende afbeelding.
 
-![Productinformatie in een Office-toepassing](../../media/4bff2bb8-0690-4d22-ac1f-b8881807fa39.png)
+![Productinformatie in een Office-toepassing](../../media/product-information-microsoft-365-enterprise.png)
   
 Zie [Tips voor probleemoplossing voor Microsoft 365 Apps voor bedrijven voor](https://go.microsoft.com/fwlink/p/?linkid=846339)hulp bij Microsoft 365 Apps voor bedrijven.
 
@@ -108,7 +108,7 @@ Import-Module O365CompatibilityChecker
 ```powershell
 Invoke-CompatibilityCheck
 ```
-   die u vraagt voor *_TenantDomain_* (bijvoorbeeld *TailspinToysIncorporated.onmicrosoft.</span> com)* en *_TenantAdmin-referenties_* (gebruik uw globale beheerdersreferenties) en vraagt vervolgens toestemming.
+   die u vraagt voor *_TenantDomain_* (bijvoorbeeld *TailspinToysIncorporated.onmicrosoft. </span> com)* en *_TenantAdmin-referenties_* (gebruik uw globale beheerdersreferenties) en vraagt vervolgens toestemming.
     
 > [!NOTE]
 > Afhankelijk van het aantal gebruikers in uw tenant, kan het afronden van de controle minuten of uren in beslag nemen. 
@@ -161,7 +161,7 @@ Als u of uw gebruikers problemen ondervinden bij het laden van de invoegtoepassi
   
 |**Platform**|**Foutopsporingsgegevens**|
 |:-----|:-----|
-|Office  <br/> | Charles/Fiddler-logboeken  <br/>  Tenant-ID ( [meer informatie over hoe](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b.aspx))  <br/>  Correlatie-ID. Bekijk de bron van een van de kantoorpagina's en zoek naar de correlatie-id-waarde en stuur deze naar ondersteuning:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
+|Office  <br/> | Charles/Fiddler-logboeken  <br/>  Tenant-ID ( [meer informatie over hoe](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id.aspx))  <br/>  Correlatie-ID. Bekijk de bron van een van de kantoorpagina's en zoek naar de correlatie-id-waarde en stuur deze naar ondersteuning:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
 |Uitgebreide clients (Windows, Mac)  <br/> | Charles/Fiddler-logboeken  <br/>  Nummers van de client-app maken (bij voorkeur als screenshot van **Bestand/Account)**  <br/> |
    
 

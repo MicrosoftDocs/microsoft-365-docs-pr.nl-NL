@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Vereis dat uw externe werknemers zich aanmelden met meervoudige verificatie (MFA).
-ms.openlocfilehash: 2cb16c78f7fb0b1f9f48559c61a6200d6adcf470
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: a0350be5cf75024fbefadb21ae56017bf64ca0d8
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166135"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213470"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Stap 1. Aanmeldingsbeveiliging voor externe werknemers verbeteren met MFA
 
@@ -55,9 +55,9 @@ Zie dit [overzicht van gevoeligheidslabels](https://docs.microsoft.com/azure/act
 
 Beleidsregels voor voorwaardelijke toegang zijn regels waarmee wordt aangegeven wanneer aanmeldingen worden beoordeeld en toegestaan. U kunt bijvoorbeeld een toegangsbeleid met de volgende voorwaarden maken:
 
-- Als de gebruikersaccountnaam staat voor een gebruiker die een Exchange-, gebruikers-, wachtwoord-, beveiligings-, SharePoint- of globale beheerder is, wordt MFA vereist om toegang te verlenen.
+- Als de naam van het gebruikersaccount lid is van een groep gebruikers die is toegewezen aan een Exchange-, gebruikers-, wachtwoord-, beveiligings-, SharePoint- of globale beheerdersrol, wordt MFA vereist om toegang te verlenen.
 
-Dit beleid is eenvoudiger dan proberen te onthouden afzonderlijke gebruikersaccounts te configureren voor MFA als deze worden toegevoegd aan of verwijderd uit deze beheerdersrollen.
+Met dit beleid kunt u MFA op basis van groepslidmaatschap vereisen in plaats van dat u afzonderlijke gebruikersaccounts voor MFA gaat configureren wanneer deze worden toegewezen (of als de toewijzing ongedaan wordt gemaakt) vanuit deze beheerdersrollen.
 
 U kunt beleidsregels voor voorwaardelijke toegang ook gebruiken voor meer geavanceerde mogelijkheden, zoals vereisen dat de aanmelding wordt uitgevoerd vanaf een compatibel apparaat, zoals uw laptop met Windows 10.
 
@@ -65,15 +65,15 @@ Voor voorwaardelijke toegang is Azure AD Premium P1 vereist, dat deel uitmaakt v
 
 Zie dit [overzicht van voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) voor meer informatie.
 
-## <a name="azure-ad-identity-protection-policies"></a>Azure AD Identity Protection-beleid
+## <a name="azure-ad-identity-protection-support"></a>Ondersteuning voor Azure AD Identity Protection
 
-Azure AD Identity Protection-beleid bestaat uit regels waarmee wordt aangegeven wanneer aanmeldingen worden beoordeeld en toegestaan. U kunt bijvoorbeeld een Azure AD Identity Protection-beleid maken waarin het volgende wordt aangegeven:
+Met Azure AD Identity Protection kunt u een aanvullend beleid voor voorwaardelijke toegang maken. Hierin wordt het volgende gesteld:
 
-- Als het risico van de aanmelding als gemiddeld of hoog wordt beschouwd, moet de gebruiker MFA gebruiken om zich aan te melden.
+- Als het aanmeldingsrisico op Gemiddeld of Hoog wordt vastgesteld, is MFA vereist.
 
 Voor Azure AD Identity Protection is Azure AD Premium P2 vereist, dat deel uitmaakt van Microsoft 365 E5.
 
-Zie dit [overzicht van Azure AD Identity Protection](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection) voor meer informatie.
+Zie [Risk-based Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk#require-mfa-medium-or-high-sign-in-risk-users) (Op risico's gebaseerde voorwaardelijke toegang) voor meer informatie.
 
 ## <a name="using-these-methods-together"></a>Deze methoden samen gebruiken
 
@@ -84,12 +84,12 @@ Houd het volgende in gedachten:
 
 Als de standaardinstellingen voor beveiliging zijn ingeschakeld, moeten alle nieuwe gebruikers zich voor MFA registreren en de Microsoft Authenticator-app gebruiken. 
 
-In deze tabel ziet u de resultaten van het inschakelen van MFA met de standaardinstellingen voor beveiliging, het beleid voor voorwaardelijke toegang en de instellingen per gebruikersaccount.
+In deze tabel ziet u de resultaten na het inschakelen van MFA met de standaardinstellingen voor beveiliging en het beleid voor voorwaardelijke toegang.
 
-|| Ingeschakeld | Uitgeschakeld | Secundaire verificatiemethode |
+|| Ingeschakeld | Uitgeschakeld | Extra verificatiemethode |
 |:-------|:-----|:-------|:-------|
 | **Standaardinstellingen voor beveiliging**  | Kan geen beleid voor voorwaardelijke toegang gebruiken | Kan beleid voor voorwaardelijke toegang gebruiken | De Microsoft Authenticator-app |
-| **Beleidsregels voor voorwaardelijke toegang** | Als er een of meer zijn ingeschakeld, kunt u de standaardinstellingen voor beveiliging niet inschakelen | Als er geen een is ingeschakeld, kunt u de standaardinstellingen voor beveiliging inschakelen  | Door gebruiker opgegeven tijdens MFA-registratie  |
+| **Beleidsregels voor voorwaardelijke toegang** | Als er een of meer zijn ingeschakeld, kunt u de standaardinstellingen voor beveiliging niet inschakelen | Als ze allemaal zijn uitgeschakeld, kunt u de standaardinstellingen voor beveiliging inschakelen  | Opgeven door gebruiker tijdens MFA-registratie  |
 ||||
 
 ## <a name="admin-training-and-technical-resources-for-mfa-and-identity"></a>Training voor beheerders en technische informatiebronnen voor MFA en identiteit

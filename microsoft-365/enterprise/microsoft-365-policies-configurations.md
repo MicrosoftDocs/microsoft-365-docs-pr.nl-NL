@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: f336c9ef2957374223a8f0d7b64f892c87e1169d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0512d51f2789383c7612c3dbd97c0a77c2c4c7fa
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631547"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214660"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
@@ -63,11 +63,11 @@ Elke industrie heeft ook zijn eigen set van gespecialiseerde regelgeving. In pla
 
 Deze richtlijnen laten u zien hoe u bescherming voor identiteiten en apparaten voor elk van deze beschermingsniveaus implementeren. Gebruik deze richtlijnen als uitgangspunt voor uw organisatie en pas het beleid aan om aan de specifieke vereisten van uw organisatie te voldoen.
 
-Het is belangrijk om consistente beschermingsniveaus te gebruiken voor uw gegevens, identiteiten en apparaten. Als u deze richtlijnen bijvoorbeeld implementeert, moet u uw gegevens op vergelijkbare niveaus beschermen. Deze architectuurmodellen laten zien welke mogelijkheden vergelijkbaar zijn.
+Het is belangrijk dat u een consistent beveiligingsniveau gebruikt voor uw gegevens, identiteiten en apparaten. Als u deze richtlijnen bijvoorbeeld implementeert, moet u uw gegevens op vergelijkbare niveaus beschermen. Deze architectuurmodellen laten zien welke mogelijkheden vergelijkbaar zijn.
 
-**Identiteits- en apparaatbeveiliging voor Office 365**<br/>
+**Identiteits-en apparaatbescherming voor Office 365**<br/>
 ![Miniatuur voor poster 'Identiteit en apparaatbeveiliging voor Office 365'](../media/O365_Identity_device_protection_thumb.png)<br/>
-[PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [Meer talen](https://www.microsoft.com/download/details.aspx?id=55032)
+[PDF](https://go.microsoft.com/fwlink/p/?linkid=841656)  |  [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657)  |  [Meer talen](https://www.microsoft.com/download/details.aspx?id=55032)
 
 **File Protection Solutions in Office 365** (Oplossingen voor bestandsbeveiliging in Office 365)<br/>
 ![Miniatuur voor poster 'Oplossingen voor bestandsbeveiliging in Office 365'](../media/24be68b5-d852-4fdb-94ad-94491a19edd8.png)<br/>
@@ -121,10 +121,10 @@ In deze richtlijnen ziet u hoe u aanbevolen beleidsregels maken om het gebruik v
 In deze richtlijnen ziet u hoe u een set beleidsregels implementeert om de toegang tot Office 365 te beschermen, waaronder Exchange Online, SharePoint Online en OneDrive voor Bedrijven. Naast het implementeren van dit beleid, raden we u aan ook het beschermingsniveau voor uw tenant te verhogen met behulp van deze resources:
 
 - [Configureer uw tenant voor meer beveiliging:](https://support.office.com/article/Configure-your-Office-365-tenant-for-increased-security-8d274fe3-db51-4107-ba64-865e7155b355)deze aanbevelingen zijn van toepassing op basislijnbeveiliging voor uw tenant.
-- [Microsoft 365-beveiligingsroadmap: topprioriteiten voor de eerste 30 dagen, 90 dagen en verder:](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352)deze aanbevelingen omvatten logboekregistratie, gegevensbeheer, beheerderstoegang en bescherming tegen bedreigingen.
+- [Microsoft 365-beveiligingsroadmap: topprioriteiten voor de eerste 30 dagen, 90 dagen en verder:](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)deze aanbevelingen omvatten logboekregistratie, gegevensbeheer, beheerderstoegang en bescherming tegen bedreigingen.
 
 
-### <a name="windows-10-and-microsoft-365-apps-for-enterprise"></a>Windows 10 en Microsoft 365 Apps voor bedrijven
+### <a name="windows-10-and-microsoft-365-apps-for-enterprise"></a>Windows 10- en Microsoft 365-apps voor ondernemingen
 
 Windows 10 en Microsoft 365 Apps for Enterprise is de aanbevolen clientomgeving voor pc's. We raden Windows 10 aan, omdat Azure is ontworpen om de soepelste ervaring te bieden die mogelijk is voor zowel on-premises als Azure AD. Windows 10 bevat ook geavanceerde beveiligingsmogelijkheden die kunnen worden beheerd via Intune. Microsoft 365 Apps for enterprise bevat de nieuwste versies van Office-toepassingen. Deze maken gebruik van moderne authenticatie, die veiliger is en een vereiste voor voorwaardelijke toegang. Deze apps bevatten ook verbeterde beveiligings- en nalevingstools.
 

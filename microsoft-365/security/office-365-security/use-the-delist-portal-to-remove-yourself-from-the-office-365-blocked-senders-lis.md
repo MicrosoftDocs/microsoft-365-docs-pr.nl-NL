@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel leert u hoe u de lijst met verwijderde portal gebruiken om uzelf te verwijderen uit de lijst met geblokkeerde afzenders van Microsoft 365.
-ms.openlocfilehash: 700382a494865b80116cfd8419213ed43b35b8a1
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 239d30fec4d904af353731974435d377801be6c7
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034984"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208535"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>De delist-portal gebruiken om uzelf uit de lijst met geblokkeerde afzenders te verwijderen
 
@@ -35,19 +35,19 @@ Microsoft gebruikt de lijst met geblokkeerde afzenders om zijn klanten te besche
 
 U weet dat u aan de lijst bent toegevoegd wanneer u een antwoord ontvangt op een e-mailbericht met een foutmelding die een fout bevat die er ongeveer als volgt uitziet:
 
-> 550 5.7.606-649 Toegang geweigerd, verboden verzenden IP [_IP-adres_]; Om verwijdering uit deze https://sender.office.com/ lijst aan te vragen, u de aanwijzingen bezoeken en volgen. Zie Rapporten [voor niet-bezorging e-mailen in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online).
+> 550 5.7.606-649 Toegang geweigerd, verboden verzenden IP [_IP-adres_]; Om verwijdering uit deze lijst aan te vragen, u de aanwijzingen bezoeken https://sender.office.com/ en volgen. Zie Rapporten [voor niet-bezorging e-mailen in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online).
 
 waar _IP-adres_ het IP-adres is van de computer waarop de e-mailserver wordt uitgevoerd.
 
 ### <a name="to-use-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>Delijstportal gebruiken om uzelf uit de lijst met geblokkeerde afzenders te verwijderen
 
-1. Ga in een webbrowser [https://sender.office.com](https://sender.office.com)naar .
+1. Ga in een webbrowser naar [https://sender.office.com](https://sender.office.com) .
 
 2. Volg de instructies op de pagina. Controleer of u het e-mailadres gebruikt waarnaar het foutbericht is verzonden en het IP-adres dat is opgegeven in het foutbericht. U slechts één e-mailadres en één IP-adres per bezoek invoeren.
 
 3. Klik **op Verzenden**.
 
-    De portal stuurt een e-mail naar het e-mailadres dat u verstrekt. De e-mail ziet er ![ongeveer als volgt uit: Screenshot van e-mail ontvangen wanneer u een verzoek indient via de lijst portal](../../media/bf13e4f7-f68c-4e46-baa7-b6ab4cfc13f3.png)
+    De portal stuurt een e-mail naar het e-mailadres dat u verstrekt. De e-mail ziet er ongeveer als volgt uit: ![ Screenshot van e-mail ontvangen wanneer u een verzoek indient via de lijst portal](../../media/bf13e4f7-f68c-4e46-baa7-b6ab4cfc13f3.png)
 
 4. Klik op de bevestigingskoppeling in de e-mail die u door de niet-vermeldende portal is verzonden.
 
@@ -60,4 +60,4 @@ waar _IP-adres_ het IP-adres is van de computer waarop de e-mailserver wordt uit
     > [!NOTE]
     > Het kan tot 24 uur duren of de resultaten kunnen sterk variëren voordat beperkingen worden verwijderd.
 
-Zie [Lijsten met veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md) en Uitgaande [spambeveiliging in Office 365](outbound-spam-controls.md) om te voorkomen dat IP op de zwarte lijst komt te staan.
+Zie [Lijsten met veilige afzenders maken in EOP](create-safe-sender-lists-in-office-365.md) en Uitgaande [spambeveiliging in EOP](outbound-spam-controls.md) om te voorkomen dat IP op de zwarte lijst komt te staan.
