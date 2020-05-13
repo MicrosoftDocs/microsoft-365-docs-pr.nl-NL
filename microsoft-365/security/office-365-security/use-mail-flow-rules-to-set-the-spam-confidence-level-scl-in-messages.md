@@ -17,18 +17,18 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het maken van regels voor e-mailstromen (transportregels) om berichten te identificeren en het spamvertrouwensniveau (SCL) van berichten in Exchange Online Protection in te stellen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 444a7f2a8342102c2222cc734b2592f46632f8d3
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: f9af154a9f71992597e111147b792cd5286e2ad3
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035008"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208559"
 ---
-# <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>Regels voor e-mailstroom gebruiken om het spamvertrouwensniveau (SCL) in te stellen in berichten
+# <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages-in-eop"></a>Gebruik regels voor e-mailstroom om het spamvertrouwensniveau (SCL) in te stellen in berichten in EOP
 
-Als u een Microsoft 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection-klant (EOP) zonder Exchange Online-postvakken, gebruikt EOP antispambeleid (ook bekend als beleid voor spamfilters of inhoudsfilterbeleid) om binnenkomende berichten te scannen op spam. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
+In Microsoft 365-organisaties met postvakken in Exchange Online- of zelfstandige Exchange Online Protection-organisaties (EOP)-organisaties zonder Exchange Online-postvakken gebruikt EOP antispambeleid (ook wel spamfilterbeleid of inhoudsfilterbeleid genoemd) om binnenkomende berichten te scannen op spam. Zie [Beleid voor antispam configureren in EOP](configure-your-spam-filter-policies.md)voor meer informatie.
 
-Als u specifieke berichten als spam wilt markeren voordat ze worden gescand door spamfiltering, of berichten markeren zodat ze spamfilters overslaan, u regels voor e-mailstroom (ook wel transportregels genoemd) maken om de berichten te identificeren en het spamvertrouwensniveau (SCL) in te stellen. Zie [Spam vertrouwensniveau (SCL) in Office 365 voor](spam-confidence-levels.md)meer informatie over de SCL.
+Als u specifieke berichten als spam wilt markeren voordat ze worden gescand door spamfiltering, of berichten markeren zodat ze spamfilters overslaan, u regels voor e-mailstroom (ook wel transportregels genoemd) maken om de berichten te identificeren en het spamvertrouwensniveau (SCL) in te stellen. Zie [Spam vertrouwensniveau (SCL) in EOP voor](spam-confidence-levels.md)meer informatie over de SCL.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -42,7 +42,7 @@ Als u specifieke berichten als spam wilt markeren voordat ze worden gescand door
 
 1. Ga in de EAC naar **Mail flow** \> **Rules**.
 
-2. Klik **op** ![](../../media/ITPro-EAC-AddIcon.png) Pictogram Toevoegen toevoegen en selecteer **vervolgens Een nieuwe regel maken**.
+2. Klik **op** ![ Pictogram Toevoegen toevoegen en selecteer vervolgens Een nieuwe ](../../media/ITPro-EAC-AddIcon.png) regel **maken**.
 
 3. Configureer op de pagina **Nieuwe regel** die wordt geopend de volgende instellingen:
 
@@ -52,12 +52,12 @@ Als u specifieke berichten als spam wilt markeren voordat ze worden gescand door
 
    - **Pas deze regel toe als**: Selecteer een of meer voorwaarden om berichten te identificeren. Zie [Voorwaarden en uitzonderingen (predicaten) e-mailstroomregel in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)voor meer informatie.
 
-   - **Ga als volgt**te werk: Selecteer **De eigenschappen** \> van het bericht **wijzigen stel het spamvertrouwensniveau (SCL) in.** Configureer in het dialoogvenster **SCL opgeven** dat wordt weergegeven een van de volgende waarden:
+   - **Ga als volgt**te werk: Selecteer **De eigenschappen van het bericht wijzigen** stel het \> **spamvertrouwensniveau (SCL) in.** Configureer in het dialoogvenster **SCL opgeven** dat wordt weergegeven een van de volgende waarden:
 
    - **Spamfiltering omzeilen:** Hiermee stelt u de SCL in op -1, wat betekent dat de berichten spamfilters overslaan.
 
      > [!CAUTION]
-     > Wees zeer voorzichtig met het toestaan van berichten om spam filtering overslaan. Aanvallers kunnen dit beveiligingslek gebruiken om phishing en andere schadelijke berichten naar uw organisatie te verzenden. De regels voor e-mailstroom vereisen meer dan alleen het e-mailadres of domein van de afzender. Zie [Lijsten met veilige afzenders maken in Office 365](create-safe-sender-lists-in-office-365.md)voor meer informatie.
+     > Wees zeer voorzichtig met het toestaan van berichten om spam filtering overslaan. Aanvallers kunnen dit beveiligingslek gebruiken om phishing en andere schadelijke berichten naar uw organisatie te verzenden. De regels voor e-mailstroom vereisen meer dan alleen het e-mailadres of domein van de afzender. Zie [Lijsten met veilige afzenders maken in EOP](create-safe-sender-lists-in-office-365.md)voor meer informatie.
 
    - **0 tot 4**: Het bericht wordt verzonden via spamfiltering voor extra verwerking.
 
@@ -69,4 +69,4 @@ Als u specifieke berichten als spam wilt markeren voordat ze worden gescand door
 
 ## <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
-Als u wilt controleren of deze procedure correct werkt, stuurt u een e-mailbericht naar iemand binnen uw organisatie en controleert u of de actie die op het bericht is uitgevoerd, zoals verwacht. Als u bijvoorbeeld **het spamvertrouwensniveau (SCL) instelt** op **Het filteren van spam omzeilen,** moet het bericht naar het postvak IN van de opgegeven ontvanger worden verzonden. Als u **echter het spamvertrouwensniveau (SCL) instelt** op **9**en de **spamactie met veel vertrouwen** voor uw toepasselijke inhoudsfilterbeleid is om het bericht naar de map Ongewenste e-mail te verplaatsen, moet het bericht naar de map Ongewenste e-mail van de opgegeven ontvanger worden verzonden.
+Als u wilt controleren of deze procedure correct werkt, stuurt u een e-mailbericht naar iemand binnen uw organisatie en controleert u of de actie die op het bericht is uitgevoerd, zoals verwacht. Als u bijvoorbeeld **het spamvertrouwensniveau (SCL) instelt** op **Het filteren van spam omzeilen,** moet het bericht naar het postvak IN van de opgegeven ontvanger worden verzonden. Als u **echter het spamvertrouwensniveau (SCL) instelt** op **9**en de **spamactie met veel vertrouwen** voor uw toepasselijke antispambeleid is om het bericht naar de map Ongewenste e-mail te verplaatsen, moet het bericht naar de map Ongewenste e-mail van de opgegeven ontvanger worden verzonden.

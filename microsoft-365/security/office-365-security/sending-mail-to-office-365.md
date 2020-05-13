@@ -2,10 +2,10 @@
 title: E-mail verzenden naar Microsoft 365
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 04/09/2016
+ms.date: ''
 audience: ITPro
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -18,16 +18,16 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Leer als externe afzender hoe u de mogelijkheid vergroten om e-mail te leveren aan gebruikers in Microsoft 365. Lees ook hoe u ongewenste e-mail & phishing-pogingen als externe gebruiker melden.
-ms.openlocfilehash: c1086088a92240be4bb7bbbd52077cecb1c54476
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: c464d09ddd5f6324c9b3e22e9cad6a613862c9a1
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035382"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209821"
 ---
 # <a name="sending-mail-to-microsoft-365"></a>E-mail verzenden naar Microsoft 365
 
-Deze artikelen helpen externe afzenders hun reputatie te verbeteren en hun mogelijkheid om e-mail te leveren aan gebruikers in Office 365 te vergroten. Ze bieden ook informatie over hoe u ongewenste e-mail en phishing-pogingen melden, zelfs als u zelf geen Microsoft 365-gebruiker bent.
+Deze artikelen helpen externe afzenders hun reputatie te verbeteren en hun vermogen om e-mail te leveren aan gebruikers in Microsoft 365 te vergroten. Ze bieden ook wat informatie over hoe u ongewenste e-mail en phishing-pogingen melden, zelfs als u zelf geen Microsoft 365-gebruiker bent.
 
 Als u geen klant bent, maar probeert om e-mail te sturen naar iemand in wie is, bent u op de juiste plaats. Als u een beheerder bent en u hulp nodig hebt bij het bestrijden van spam, is dit niet de juiste sectie voor u. Ga in plaats daarvan naar [antispam en anti-malwarebescherming in Microsoft 365.](anti-spam-and-anti-malware-protection.md)
 

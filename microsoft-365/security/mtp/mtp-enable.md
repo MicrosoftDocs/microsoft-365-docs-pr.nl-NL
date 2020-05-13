@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 394fceffb96350b7702c5eef4a8138b3eb53f714
-ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
+ms.openlocfilehash: 9a57929e42f08db8abda170c889441d3a50ade72
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44016072"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209245"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection inschakelen
 
@@ -45,22 +45,27 @@ U moet een **globale beheerder** of **beveiligingsbeheerder** in Azure Active Di
 
 ## <a name="start-using-the-service"></a>De service gaan gebruiken
 
+>[!IMPORTANT]
+>Vanaf 12 mei 2020 zal Microsoft geleidelijk nieuwe, geoptimaliseerde ervaringen rond [licentievereisten](prerequisites.md#licensing-requirements) uitrollen en Microsoft Threat Protection inschakelen. Gedurende enkele weken tijdens deze periode zullen sommige klanten wijzigingen in hun portalervaringen gaan zien. Informatie over de nieuwe ervaringen zijn gemarkeerd **Nieuwe ervaring** in dit artikel.
+
 Microsoft Threat Protection verzamelt gegevens van de verschillende geïntegreerde services. Het zal gegevens centraal verwerken en opslaan om nieuwe inzichten te identificeren en gecentraliseerde responsworkflows mogelijk te maken. Het doet dit zonder dat dit gevolgen heeft voor bestaande implementaties, instellingen of gegevens die zijn gekoppeld aan de geïntegreerde services.
 
 Voordat u de service inschakelt, wordt in het Microsoft 365-beveiligingscentrum[(security.microsoft.com](https://security.microsoft.com)) de welkomstpagina van Microsoft Threat Protection weergegeven wanneer u **Incidenten,** **actiecentrum**of **Jagen** selecteert in het navigatiedeelvenster. Deze navigatieopties worden niet weergegeven als u niet in aanmerking komt voor microsoft-beveiligingsbeveiliging.
 
-![Afbeelding van de welkomstpagina van Microsoft Threat Protection die](../../media/mtp-welcome.png)
-wordt weergegeven als Microsoft Threat Protection niet is ingeschakeld op*de welkomstpagina van Microsoft Threat Protection in het Microsoft 365-beveiligingscentrum*
+![Afbeelding van de welkomstpagina van Microsoft Threat Protection die wordt weergegeven als Microsoft Threat Protection niet is ingeschakeld op ](../../media/mtp-welcome.png)
+ *de welkomstpagina van Microsoft Threat Protection in het Microsoft 365-beveiligingscentrum*
 
 Als u Microsoft Threat Protection wilt inschakelen, voltooit u het proces vanaf de welkomstpagina. U Microsoft Threat Protection ook inschakelen door **instellingen** [(security.microsoft.com/settings)](https://security.microsoft.com/settings)in het navigatiedeelvenster te openen en **Microsoft Threat Protection te selecteren.**
 
 >[!NOTE]
->Als u **instellingen** niet ziet in het navigatiedeelvenster of geen toegang hebt tot de pagina, controleert u uw machtigingen en licenties.       
+>Als u **instellingen** niet ziet in het navigatiedeelvenster of geen toegang hebt tot de pagina, controleert u uw machtigingen en licenties.
 
 ### <a name="select-data-center-location"></a>Locatie van het datacenter selecteren
 Als Microsoft Defender ATP is ingericht voor uw organisatie, worden gegevens opgeslagen en verwerkt op dezelfde datacenterlocatie die u hebt geselecteerd voor [uw ATP-gegevens](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)van Microsoft Defender. Als u geen Microsoft Defender ATP hebt, wordt u gevraagd om een nieuwe datacenterlocatie te kiezen die specifiek voor Microsoft Threat Protection is bedoeld. 
  
 U moet toestemming geven voordat gegevens worden gedeeld tussen services en worden samengevoegd.
+
+**Nieuwe ervaring:** Vanaf 12 mei 2020 krijgen klanten geleidelijk wijzigingen in deze ervaring. Voor degenen met de nieuwe ervaring selecteert de service automatisch de optimale datacenterlocatie voor uw geaggregeerde gegevens op basis van uw bestaande Microsoft 365-beveiligingsservices. De geselecteerde locatie van het datacenter wordt weergegeven in het scherm.
 
 ### <a name="confirm-that-the-service-is-on"></a>Controleren of de service is ingeschakeld
 Zodra de service is ingericht, voegt het toe:
@@ -69,15 +74,15 @@ Zodra de service is ingericht, voegt het toe:
 - Een actiecentrum voor het beheren van [geautomatiseerd onderzoek en respons](mtp-autoir.md)
 - [Geavanceerde jachtmogelijkheden](advanced-hunting-overview.md)
 
-![Afbeelding van het navigatiedeelvenster van het Beveiligingscentrum](../../media/mtp-on.png)
-van Microsoft 365 met Microsoft Threat Protection-functies*Microsoft 365-beveiligingscentrum met incidentenbeheer en andere mogelijkheden voor Microsoft-bedreigingsbeveiliging*
+![Afbeelding van het navigatiedeelvenster van het Beveiligingscentrum van Microsoft 365 met Microsoft Threat Protection-functies ](../../media/mtp-on.png)
+ *Microsoft 365-beveiligingscentrum met incidentenbeheer en andere mogelijkheden voor Microsoft-bedreigingsbeveiliging*
 
 ### <a name="getting-azure-atp-data"></a>Azure ATP-gegevens opvragen
 Als u Azure ATP-gegevens wilt delen met Microsoft Threat Protection, moet u ervoor zorgen dat Microsoft Cloud App Security en Azure ATP-integratie zijn ingeschakeld. [Meer informatie over deze integratie](https://docs.microsoft.com/cloud-app-security/aatp-integration)
 
 
 ## <a name="turn-off-microsoft-threat-protection"></a>Microsoft-bedreigingsbeveiliging uitschakelen
-Als u microsoft-beveiligingsbeveiliging niet meer wilt gebruiken, gaat u naar >  **Opt-in-instellingen** > **van Microsoft Threat Protection**/**Opt-out** in het Microsoft 365-beveiligingscentrum. Schakel De optie **Microsoft Threat Protection inschakelen uit** en sla de wijzigingen op.
+Als u microsoft-beveiligingsbeveiliging niet meer wilt gebruiken, gaat u naar **Settings**  >  Opt-in-instellingen**van Microsoft Threat Protection**/  >  **Opt-out** in het Microsoft 365-beveiligingscentrum. Schakel De optie **Microsoft Threat Protection inschakelen uit** en sla de wijzigingen op.
 
 Overeenkomstige functies worden verwijderd uit het Microsoft 365-beveiligingscentrum.
 

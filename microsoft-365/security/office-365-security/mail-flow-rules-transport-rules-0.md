@@ -1,5 +1,5 @@
 ---
-title: Mail flow regels (transport regels) - Exchange Online Protection
+title: Regels voor e-mailstromen in EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,18 +12,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: U regels voor e-mailstroom (transportregels) gebruiken om berichten die door uw organisatie stromen te identificeren en actie te ondernemen.
-ms.openlocfilehash: 8cb28a1f198d0717d2373de8f2b9cb048b6ff7df
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 8eb4b805065ef1e279c5bbdab17a86b29aacc17b
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036183"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209689"
 ---
-# <a name="mail-flow-rules-transport-rules-in-exchange-online-protection"></a>Regels voor e-mailstroom (transportregels) in Exchange Online Protection
+# <a name="mail-flow-rules-transport-rules-in-standalone-eop"></a>Regels voor e-mailstroom (transportregels) in zelfstandige EOP
 
-U regels voor e-mailstroom (ook wel transportregels genoemd) gebruiken om berichten die door uw organisatie stromen te identificeren en actie te ondernemen. E-mailstroomregels zijn vergelijkbaar met de Regels voor Postvak IN die beschikbaar zijn in de webversie van Outlook en Outlook. Het belangrijkste verschil is dat de regels voor e-mailstroom actie ondernemen op berichten tijdens het transport en niet nadat het bericht in het postvak is bezorgd. Regels voor e-mailstromen bevatten een uitgebreidere set voorwaarden, uitzonderingen en acties, die u de flexibiliteit bieden om veel soorten berichtenbeleid te implementeren.
+In zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken u e-mailstroomregels (ook wel transportregels genoemd) gebruiken om berichten die door uw organisatie stromen te identificeren en actie te ondernemen.
 
-In dit artikel worden de onderdelen van de regels voor e-mailstromen en hoe ze werken, uitgelegd.
+In dit onderwerp worden de onderdelen van de regels voor e-mailstromen en hoe ze werken uitgelegd.
 
 Zie [Regels voor e-mailstroom beheren in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)voor stappen voor het maken, kopiëren en beheren van regels voor e-mailstromen. Voor elke regel hebt u de mogelijkheid om deze af te dwingen, te testen of te testen en de afzender hiervan op de hoogte te stellen. Zie [Regels voor e-mailstroom](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules) en [beleidstips testen in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips)voor meer informatie over de testopties.
 
@@ -39,13 +39,13 @@ Zie de volgende onderwerpen als u specifiek berichtenbeleid wilt implementeren m
 
 - [Regels voor e-mailstroom gebruiken om het spamvertrouwensniveau (SCL) in te stellen in berichten](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
 
-- [Lijsten met blokafzenders maken in Office 365](create-block-sender-lists-in-office-365.md)
+- [Lijsten met blokafzenders maken in EOP](create-block-sender-lists-in-office-365.md)
 
 - [Malwarebedreigingen verminderen door het blokkeren van bestandsbijlagen in Exchange Online Protection](reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md)
 
 - [Regels definiëren om e-mailberichten in Office 365 te versleutelen of te decoderen](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)
 
-De volgende video geeft een demonstratie van het instellen van regels voor e-mailstroom in Exchange Online Protection.
+De volgende video biedt een demonstratie van het instellen van mail flow regels in standalone EOP.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/7cdcd2cb-9382-4065-98e1-81257b32a189?autoplay=false]
 
@@ -55,13 +55,13 @@ Er wordt een regel voor e-mailstroom gemaakt van voorwaarden, uitzonderingen, ac
 
 - **Voorwaarden:** Identificeer de berichten waarop u de acties wilt toepassen. Sommige voorwaarden onderzoeken de koptekstvelden van berichten (bijvoorbeeld de velden Aan, Van of Cc). Andere voorwaarden onderzoeken berichteigenschappen (bijvoorbeeld het berichtonderwerp, de hoofdtekst, bijlagen, de grootte van het bericht of de berichtclassificatie). De meeste voorwaarden vereisen dat u een vergelijkingsoperator opgeeft (bijvoorbeeld gelijk is aan, niet gelijk is of bevat) en een waarde die overeenkomt. Als er geen voorwaarden of uitzonderingen zijn, wordt de regel toegepast op alle berichten.
 
-Zie [Voorwaarden en uitzonderingen (basisregels) voor e-mailstroomregels](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)in Exchange Online Protection.
+Zie [Voorwaarden en uitzonderingen (basisregels) voor e-mailstroomregels](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)in zelfstandige EOP .
 
 - **Uitzonderingen**: Identificeer optioneel de berichten waarop de acties niet van toepassing moeten zijn. Dezelfde bericht-id's die beschikbaar zijn in voorwaarden zijn ook beschikbaar in uitzonderingen. Uitzonderingen overschrijven voorwaarden en voorkomen dat de regelacties worden toegepast op een bericht, zelfs als het bericht overeenkomt met alle geconfigureerde voorwaarden.
 
 - **Acties:** Geef op wat u moet doen met berichten die overeenkomen met de voorwaarden in de regel en niet overeenkomen met een van de uitzonderingen. Er zijn veel acties beschikbaar, zoals het weigeren, verwijderen of omleiden van berichten, het toevoegen van extra ontvangers, het toevoegen van voorvoegsels in het berichtonderwerp of het invoegen van disclaimers in de berichttekst.
 
-Zie Acties voor [e-mailstroomregels in Exchange Online-beveiliging voor](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)meer informatie over acties met de regel van de e-mailstroom die beschikbaar zijn in Exchange Online.
+Zie Acties voor [e-mailstroomregels in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)voor meer informatie over acties met de regel van de e-mailstroom die beschikbaar zijn in zelfstandige EOP.
 
 - **Eigenschappen:** Geef andere regels op die geen voorwaarden, uitzonderingen of acties zijn. Bijvoorbeeld wanneer de regel moet worden toegepast, of de regel moet worden afgedwongen of getest, en de periode waarin de regel actief is.
 
@@ -84,7 +84,7 @@ In de volgende tabel worden de regeleigenschappen beschreven die beschikbaar zij
 
 |**Eigendomsnaam in de EAC**|**Parameternaam in PowerShell**|**Beschrijving**|
 |:-----|:-----|:-----|
-|**Prioriteit**|_Prioriteit_|Geeft de volgorde aan waarin de regels worden toegepast op berichten. De standaardprioriteit is gebaseerd op wanneer de regel wordt gemaakt (oudere regels hebben een hogere prioriteit dan nieuwere regels en regels met een hogere prioriteit worden verwerkt vóór regels met een lagere prioriteit). <br/><br/> U wijzigt de regelprioriteit in de EAC door de regel omhoog of omlaag te verplaatsen in de lijst met regels. In de PowerShell stelt u het prioriteitsnummer in (0 is de hoogste prioriteit). <br/><br/> Als u bijvoorbeeld één regel hebt om berichten met een creditcardnummer af te wijzen en een andere regel die goedkeuring vereist, wilt u dat de afwijsregel eerst plaatsvindt en stopt u met het toepassen van andere regels.  |
+|**Prioriteit**|_Prioriteit_|Geeft de volgorde aan waarin de regels worden toegepast op berichten. De standaardprioriteit is gebaseerd op wanneer de regel wordt gemaakt (oudere regels hebben een hogere prioriteit dan nieuwere regels en regels met een hogere prioriteit worden verwerkt vóór regels met een lagere prioriteit). <br/><br/> U wijzigt de regelprioriteit in de EAC door de regel omhoog of omlaag te verplaatsen in de lijst met regels. In PowerShell stelt u het prioriteitsnummer in (0 is de hoogste prioriteit). <br/><br/> Als u bijvoorbeeld één regel hebt om berichten met een creditcardnummer af te wijzen en een andere regel die goedkeuring vereist, wilt u dat de afwijsregel eerst plaatsvindt en stopt u met het toepassen van andere regels.  |
 |**Modus**|_Modus_|U opgeven of u wilt dat de regel onmiddellijk begint met het verwerken van berichten, of dat u regels wilt testen zonder de weergave van het bericht te beïnvloeden (met of zonder gegevensverliespreventie of DLP-beleidstips). <br/><br/> Beleidstips bevatten een korte notitie in outlook of de webversie van Outlook met informatie over mogelijke beleidsschendingen aan de persoon die het bericht maakt. Zie **Beleidstips**voor meer informatie. <br/><br/> Zie Een regel voor **e-mailstroom testen**voor meer informatie over de modi.|
 |**Deze regel activeren op de volgende datum** <br/><br/> **Deze regel op de volgende datum deactiveren**|_Activeringsdatum_ <br/> _Vervaldatum_|Hiermee geeft u het datumbereik op wanneer de regel actief is.|
 |**In** selectievakje ingeschakeld of niet geselecteerd|Nieuwe regels: _Ingeschakelde_ parameter op de cmdlet **Nieuw-Transportregel.** <br/><br/> Bestaande regels: Gebruik de cmdlets **Enable-TransportRule** of **Disable-TransportRule.** <br/><br/> De waarde wordt weergegeven in de **eigenschap Staat** van de regel.|U een uitgeschakelde regel maken en deze inschakelen wanneer u klaar bent om deze te testen. U ook een regel uitschakelen zonder deze te verwijderen om de instellingen te behouden.|
@@ -95,15 +95,13 @@ In de volgende tabel worden de regeleigenschappen beschreven die beschikbaar zij
 
 ## <a name="how-mail-flow-rules-are-applied-to-messages"></a>Hoe regels voor e-mailstromen worden toegepast op berichten
 
-Alle berichten die door uw organisatie stromen, worden geëvalueerd aan de hand van de ingeschakelde regels voor e-mailstromen in uw organisatie. Regels worden verwerkt in de volgorde die wordt vermeld op de pagina **EAC-regels** \> **Rules** of op basis van de overeenkomstige _parameterwaarde prioriteit_ in de PowerShell.
+Alle berichten die door uw organisatie stromen, worden geëvalueerd aan de hand van de ingeschakelde regels voor e-mailstromen in uw organisatie. Regels worden verwerkt in de volgorde die wordt vermeld op de pagina **E-mailstroomregels** \> **Rules** in EAC of op basis van de overeenkomstige _parameterwaarde prioriteit_ in PowerShell.
 
 Elke regel biedt ook de mogelijkheid om de verwerking van meer regels te stoppen wanneer de regel wordt geëvenaard. Deze instelling is belangrijk voor berichten die overeenkomen met de voorwaarden in meerdere regels voor e-mailstromen (welke regel wilt u toepassen op het bericht? Alle? Slechts een?).
 
 ### <a name="differences-in-processing-based-on-message-type"></a>Verschillen in verwerking op basis van berichttype
 
 Er zijn verschillende soorten berichten die door een organisatie gaan. In de volgende tabel ziet u welke berichtentypen kunnen worden verwerkt door regels voor e-mailstromen.
-
-****
 
 |**Type bericht**|**Kan een regel worden toegepast?**|
 |:-----|:-----|
@@ -114,7 +112,7 @@ Er zijn verschillende soorten berichten die door een organisatie gaan. In de vol
 |**Duidelijke ondertekende berichten:** berichten die zijn ondertekend, maar niet versleuteld.|Ja|
 |**UM-berichten**: berichten die zijn gemaakt of verwerkt door de Unified Messaging-service, zoals voicemail, fax, meldingen van gemiste oproepen en berichten die zijn gemaakt of doorgestuurd met Microsoft Outlook Voice Access.|Ja|
 |**Anonieme berichten**: Berichten verzonden door anonieme afzenders.|Ja|
-|**Rapporten lezen**: Rapporten die worden gegenereerd als reactie op ontvangstverzoeken van afzenders. Leesrapporten hebben een `IPM.Note*.MdnRead` berichtklasse van of `IPM.Note*.MdnNotRead`.|Ja|
+|**Rapporten lezen**: Rapporten die worden gegenereerd als reactie op ontvangstverzoeken van afzenders. Leesrapporten hebben een berichtklasse van `IPM.Note*.MdnRead` of `IPM.Note*.MdnNotRead` .|Ja|
 
 ## <a name="what-else-should-i-know"></a>Wat moet ik nog meer weten?
 

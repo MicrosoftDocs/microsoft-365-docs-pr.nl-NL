@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
 description: Ontwerp geïsoleerde SharePoint Online-teamsites, waaronder het bepalen van machtigingsniveaus, het toewijzen van machtigingen aan gebruikers met toegangsgroepen en geneste Azure AD-groepen.
-ms.openlocfilehash: 4663a0b9710fc05d0b063a3100d3b5ac223a2161
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 821e15a05bc80e3795f9e18d4457416baf7145b7
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034838"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209509"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>Een geïsoleerde SharePoint Online-teamsite ontwerpen
 
@@ -63,15 +63,15 @@ U machtigingen toewijzen aan gebruikers door hun gebruikersaccount of een Micros
   
 Als voorbeeld de standaardSharePoint-groepen gebruiken:
   
-- Leden van de ** \<sitenaam> SharePoint-groep van leden,** die zowel gebruikersaccounts als groepen kunnen bevatten, krijgen het **machtigingsniveau bewerken** toegewezen
+- Leden van de ** \< sitenaam> SharePoint-groep leden,** die zowel gebruikersaccounts als groepen kunnen bevatten, krijgen het **machtigingsniveau bewerken** toegewezen
     
-- Leden van de ** \<sitenaam> SharePoint-groep bezoekers,** die zowel gebruikersaccounts als groepen kan bevatten, krijgen het **machtigingsniveau lezen** toegewezen
+- Leden van de ** \< sitenaam> SharePoint-groep bezoekers,** die zowel gebruikersaccounts als groepen kan bevatten, krijgen het **machtigingsniveau Lezen** toegewezen
     
-- Leden van de ** \<sitenaam> SharePoint-groep Eigenaren,** die zowel gebruikersaccounts als groepen kunnen bevatten, krijgen het **machtigingsniveau Volledig beheer** toegewezen
+- Leden van de ** \< sitenaam> SharePoint-groep Eigenaren,** die zowel gebruikersaccounts als groepen kunnen bevatten, krijgen het **machtigingsniveau Volledig beheer** toegewezen
     
  **Beste praktijken:** Hoewel u machtigingen beheren via afzonderlijke gebruikersaccounts, raden we u aan in plaats daarvan één Azure AD-groep te gebruiken, die een toegangsgroep wordt genoemd. Dit vereenvoudigt het beheer van machtigingen via het lidmaatschap van de toegangsgroep, in plaats van het beheren van de lijst met gebruikersaccounts voor elke SharePoint-groep.
   
-Azure AD-groepen voor Microsoft 365 zijn anders dan Microsoft 365-groepen. Azure AD-groepen worden weergegeven in het Microsoft 365-beheercentrum met hun **type** ingesteld op **Beveiliging** en hebben geen e-mailadres. Azure AD-groepen kunnen worden beheerd binnen:
+Azure AD-groepen voor Microsoft 365 zijn verschillende microsoft 365-groepen. Azure AD-groepen worden weergegeven in het Microsoft 365-beheercentrum met hun **type** ingesteld op **Beveiliging** en hebben geen e-mailadres. Azure AD-groepen kunnen worden beheerd binnen:
   
 - Active Directory Domain Services (AD DS)
     
@@ -99,9 +99,9 @@ Hier volgen de standaard SharePoint-groepen die zijn geconfigureerd om op Azure 
   
 Houd bij het ontwerpen van de drie toegangsgroepen rekening met het volgende:
   
-- Er mogen slechts een paar leden in de ** \<sitenaam>** beheerders-toegangsgroep zijn, wat overeenkomt met een klein aantal SharePoint Online-beheerders die de teamsite beheren.
+- Er mogen slechts een paar leden in de ** \< sitenaam> beheerders-toegangsgroep** zijn, wat overeenkomt met een klein aantal SharePoint Online-beheerders die de teamsite beheren.
     
-- De meeste van uw siteleden staan in de ** \<sitenaam> leden** of ** \<sitenaam> kijkers** toegang tot groepen. Omdat siteleden in de ** \<sitenaam> ledende** toegangsgroep de mogelijkheid hebben om bronnen op de site te verwijderen of te wijzigen, moet u het lidmaatschap zorgvuldig overwegen. Voeg bij twijfel het sitelid toe aan de ** \<sitenaam>** kijkerstoegangsgroep.
+- De meeste van uw siteleden staan in de ** \< sitenaam> leden** of ** \< sitenaam> kijkers** toegang tot groepen. Omdat siteleden in de ** \< sitenaam> leden** de toegangsgroep hebben de mogelijkheid om bronnen op de site te verwijderen of te wijzigen, moet u het lidmaatschap zorgvuldig overwegen. Voeg bij twijfel het sitelid toe aan de ** \< sitenaam> kijkerstoegangsgroep.**
     
 Hier vindt u een voorbeeld van de SharePoint-groepen en toegangsgroepen voor een geïsoleerde site met de naam ProjectX.
   

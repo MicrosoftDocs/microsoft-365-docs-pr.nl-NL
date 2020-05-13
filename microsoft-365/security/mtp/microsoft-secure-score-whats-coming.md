@@ -17,21 +17,21 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: a7e13ae8a3ccffa644a123f57b05c4364d4333d2
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: d9025e4333c6d6ae40f894fc6bde195028871dab
+ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141345"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44211448"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>Wat komt er in Microsoft Secure Score?
 
-Om [van Microsoft Secure Score](microsoft-secure-score.md) een betere vertegenwoordiger te maken van uw beveiligingshouding en de bruikbaarheid te verbeteren, brengen we in de nabije toekomst enkele wijzigingen door. Je score en de hoogst mogelijke score veranderen. Dit impliceert echter geen verandering in uw beveiligingshouding.
+Om [van Microsoft Secure Score](microsoft-secure-score-new.md) een betere vertegenwoordiger te maken van uw beveiligingshouding en de bruikbaarheid te verbeteren, brengen we in de nabije toekomst enkele wijzigingen door. Je score en de hoogst mogelijke score veranderen. Dit impliceert echter geen verandering in uw beveiligingshouding.
 
-Zie Nieuwe wijzigingen in Microsoft Secure Score voor meer informatie over recente [wijzigingen?](microsoft-secure-score.md#whats-new)
+Zie Nieuwe wijzigingen in Microsoft Secure Score voor meer informatie over recente [wijzigingen?](microsoft-secure-score-new.md#whats-new)
 
 ## <a name="may-2020"></a>Mei 2020
 
-### <a name="adding-additional-azure-advanced-threat-protection-improvement-actions-to-preview"></a>Extra Azure Advanced Threat Protection-verbeteringsacties toevoegen om een voorbeeld te bekijken
+### <a name="adding-additional-azure-advanced-threat-protection-improvement-actions-to-the-preview-release-and-new-iteration"></a>Extra Azure Advanced Threat Protection-verbeteringsacties toevoegen aan de preview-release en nieuwe iteratie
 
 - Beveiligingsfuncties inschakelen op Active Directory-vertrouwensrelaties

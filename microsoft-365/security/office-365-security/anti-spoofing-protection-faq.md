@@ -1,5 +1,5 @@
 ---
-title: Veelgestelde vragen over anti-spoofingbescherming
+title: Veelgestelde vragen over beveiliging tegen adresvervalsing
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,21 +15,21 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Veelgestelde vragen en antwoorden voor beheerders over anti-spoofing bescherming in Exchange Online en standalone Exchange Online Protection (EOP).
-ms.openlocfilehash: b39e48fd57b899e6296d40ab10aac265cb4165a3
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+description: Beheerders kunnen veelgestelde vragen en antwoorden over anti-spoofing bescherming bekijken in Exchange Online Protection (EOP).
+ms.openlocfilehash: 603293dd00100e3b93a225d94f2ed8fd9baae6a5
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43529843"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209093"
 ---
-# <a name="anti-spoofing-protection-faq-in-office-365"></a>Veelgestelde vragen over antispoofingbeveiliging in Office 365
+# <a name="anti-spoofing-protection-faq"></a>Veelgestelde vragen over beveiliging tegen adresvervalsing
 
-In dit onderwerp worden veelgestelde vragen en antwoorden gegeven over anti-spoofingbescherming voor Office 365-klanten met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-klanten zonder Exchange Online-postvakken.
+Dit onderwerp bevat veelgestelde vragen en antwoorden over anti-spoofing bescherming voor Microsoft 365-organisaties met postvakken in Exchange Online, of zelfstandige Exchange Online Protection (EOP) organisaties zonder Exchange Online mailboxen.
 
 Zie [Veelgestelde vragen](anti-spam-protection-faq.md)over spambescherming voor vragen en antwoorden over bescherming tegen spam.
 
-Zie Veelgestelde vragen over bescherming [tegen malware in Office 365](anti-malware-protection-faq-eop.md) voor vragen en antwoorden over bescherming tegen malware
+Zie [Faq voor anti-malwarebescherming](anti-malware-protection-faq-eop.md) voor vragen en antwoorden over bescherming tegen malware
 
 ## <a name="why-did-microsoft-choose-to-junk-unauthenticated-inbound-email"></a>Waarom heeft Microsoft ervoor gekozen om niet-geverifieerde binnenkomende e-mail te verzenden?
 
@@ -41,11 +41,11 @@ Toen Microsoft deze functie in 2018 instelde, gebeurde er een aantal false posit
 
 Microsoft zelf heeft de nieuwe vereisten voor e-mailverificatie enkele weken voor de implementatie ervan voor het eerst aangenomen aan klanten. Hoewel er aanvankelijk sprake was van verstoring, nam deze geleidelijk af.
 
-## <a name="is-spoof-intelligence-available-to-office-365-customers-without-atp"></a>Is spoofinformatie beschikbaar voor Office 365-klanten zonder ATP?
+## <a name="is-spoof-intelligence-available-to-microsoft-365-customers-without-atp"></a>Is spoof intelligentie beschikbaar voor Microsoft 365 klanten zonder ATP?
 
-Ja. Vanaf oktober 2018 is spoofintelligence beschikbaar voor alle organisaties met Exchange Online-mailboxen en zelfstandige EOP-organisaties zonder Exchange Online-mailboxen.
+Ja. Vanaf oktober 2018 is spoofinformatie beschikbaar voor alle organisaties met mailboxen in Exchange Online en zelfstandige EOP-organisaties zonder Exchange Online-mailboxen.
 
-Anti-spoofing-technologie werd in eerste instantie geïmplementeerd bij organisaties die Office 365 Enterprise E5-abonnementen of de ATP-add-on (Office 365 Advanced Threat Protection) voor hun abonnement hadden.
+Anti-spoofing-technologie werd in eerste instantie alleen geïmplementeerd voor organisaties die Office 365 Enterprise E5-abonnementen of de Office 365 Advanced Threat Protection (Office 365 ATP)-add-on voor hun abonnement hadden.
 
 ## <a name="how-can-i-report-spam-or-non-spam-messages-back-to-microsoft"></a>Hoe kan ik spam- of niet-spamberichten terugmelden bij Microsoft?
 
@@ -63,17 +63,17 @@ Nu [Enhanced Filtering for Connectors](https://docs.microsoft.com/exchange/mail-
 
 ## <a name="does-anti-spoofing-protection-mean-i-will-be-protected-from-all-phishing"></a>Betekent anti-spoofing bescherming dat ik zal worden beschermd tegen alle phishing?
 
-Helaas, nee. Aanvallers passen zich aan om andere technieken te gebruiken (bijvoorbeeld gecompromitteerde accounts of accounts in gratis e-mailservices). Echter, anti-phishing bescherming werkt veel beter om deze andere vormen van phishing-methoden te detecteren. De beveiligingslagen in Office 365 zijn ontworpen om samen te werken en op elkaar te bouwen.
+Helaas, nee. Aanvallers passen zich aan om andere technieken te gebruiken (bijvoorbeeld gecompromitteerde accounts of accounts in gratis e-mailservices). Echter, anti-phishing bescherming werkt veel beter om deze andere vormen van phishing-methoden te detecteren. De beschermlagen in EOP zijn ontworpen om samen te werken en op elkaar te bouwen.
 
 ## <a name="do-other-large-email-services-block-unauthenticated-inbound-email"></a>Blokkeren andere grote e-mailservices niet-geverifieerde binnenkomende e-mail?
 
-Bijna alle grote e-mailservices implementeren traditionele SPF-, DKIM- en DMARC-controles. Sommige services hebben andere, strengere controles, maar weinigen gaan zo ver als Office 365 om niet-geverifieerde e-mail te blokkeren en ze te behandelen als vervalste berichten. Echter, de industrie wordt steeds meer bewust over problemen met niet-geverifieerde e-mail, met name als gevolg van het probleem van phishing.
+Bijna alle grote e-mailservices implementeren traditionele SPF-, DKIM- en DMARC-controles. Sommige diensten hebben andere, strengere controles, maar weinigen gaan zo ver als EOP om niet-geverifieerde e-mail te blokkeren en ze te behandelen als vervalste berichten. Echter, de industrie wordt steeds meer bewust over problemen met niet-geverifieerde e-mail, met name als gevolg van het probleem van phishing.
 
 ## <a name="do-i-still-need-to-enable-the-advanced-spam-filter-setting-spf-record-hard-fail-_markasspamspfrecordhardfail_-if-i-enable-anti-spoofing"></a>Moet ik nog steeds de instelling Geavanceerd spamfilter inschakelen dat "SPF-record: hard fail"_(MarkAsSpamSpfRecordHardFail_) instelt als ik anti-spoofing inschakel?
 
 Nee. Deze AsF-instelling is niet langer nodig omdat anti-spoofing niet alleen spf hard als mislukt beschouwt, maar een veel bredere reeks criteria. Als u anti-adresvervalsing hebt ingeschakeld en het **SPF-record: hard fail** (_MarkAsSpamSpfRecordHardFail_) is ingeschakeld, krijgt u waarschijnlijk meer fout-positieven.
 
-We raden u aan deze functie uit te schakelen, omdat deze bijna geen extra voordeel biedt voor het detecteren van spam of phishingberichten en in plaats daarvan voornamelijk valse positieven genereert. Zie [ASF-instellingen (Advanced Spam Filter) in Office 365](advanced-spam-filtering-asf-options.md) voor meer informatie.
+We raden u aan deze functie uit te schakelen, omdat deze bijna geen extra voordeel biedt voor het detecteren van spam of phishingberichten en in plaats daarvan voornamelijk valse positieven genereert. Zie [Instellingen voor Geavanceerd spamfilter (AsF) in EOP](advanced-spam-filtering-asf-options.md)voor meer informatie.
 
 ## <a name="does-sender-rewriting-scheme-help-fix-forwarded-email"></a>Helpt sender rewriting Scheme bij het oplossen van doorgestuurde e-mail?
 

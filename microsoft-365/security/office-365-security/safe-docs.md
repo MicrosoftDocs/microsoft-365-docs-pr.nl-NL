@@ -15,16 +15,16 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over veilige documenten in Office 365 ATP.
-ms.openlocfilehash: b70c7013ce038a3934b7ea5e62d1d0530f12e4e6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b9e5a42b3d6be987170049ad5f0f451f8280fbff
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634314"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209161"
 ---
-# <a name="safe-documents-in-office-365-advanced-threat-protection"></a>Veilige documenten in geavanceerde bedreigingsbeveiliging van Office 365
+# <a name="safe-documents-in-office-365-advanced-threat-protection"></a>Veilige documenten in Office 365 Advanced Threat Protection
 
-Safe Documents is een functie in Office 365 Advanced Threat Protection (ATP) die [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) gebruikt om documenten en bestanden te scannen die in de beveiligde [weergave](https://support.office.com/article/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)worden geopend.
+Veilige documenten is een functie in Office 365 Advanced Threat Protection (Office 365 ATP) die [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) gebruikt om documenten en bestanden te scannen die zijn geopend in de beveiligde [weergave.](https://support.office.com/article/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -32,17 +32,22 @@ Safe Documents is een functie in Office 365 Advanced Threat Protection (ATP) die
 
 - Veilige documenten zijn momenteel beschikbaar voor een openbare preview, beschikbaar voor gebruikers die deel uitmaken van het [Office Insider-programma](https://insider.office.com/en-us/join) op het 'Monthly Channel (Targeted)' met Office Version 2002 (12527.20092) of hoger. Deze functie is standaard uitgeschakeld en moet worden ingeschakeld door de beveiligingsbeheerder.
 
-- Alleen de Amerikaanse regio wordt momenteel ondersteund voor compatibele bestandsverwerking (Alle bestanden worden naar de Amerikaanse regio afgereisd om te scannen). Steun voor de VK/EU-regio is gepland in een toekomstige update.
-
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie Verbinding maken met Exchange [Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)als u verbinding wilt maken met Exchange Online Protection PowerShell.
 
-- U moet machtigingen toegewezen krijgen voordat u de procedures in dit onderwerp uitvoeren. Als u veilige documenten wilt in- en configureren, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Zie Machtigingen in het Security & Compliance [Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rolgroepen in het Security & Compliance Center.
+- U moet machtigingen toegewezen krijgen voordat u de procedures in dit onderwerp uitvoeren. Als u veilige documenten wilt in- en configureren, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
+
+## <a name="how-does-microsoft-handle-your-data"></a>Hoe gaat Microsoft om met uw gegevens?
+
+Om u te beschermen, stuurt Safe Documents bestanden naar de [Microsoft Defender Advanced Threat Protection-cloud](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) voor analyse.
+
+- Details over hoe Microsoft Defender Advanced Thread Protection met uw gegevens omgaat, vindt u [hier](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+- Naast de bovenstaande richtlijnen worden bestanden die door veilige documenten worden verzonden, niet langer bewaard in Defender dan de tijd die nodig is voor analyse, wat meestal minder dan 24 uur is
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Het beveiligingscentrum & compliance center gebruiken om veilige documenten te configureren
 
-1. Open het Security & <https://protection.office.com>Compliance Center op .
+1. Open het Security & Compliance Center op <https://protection.office.com> .
 
-2. Ga naar **ATP-veilige bijlagen**voor **bedreigingsbeheerbeleid** \> **Policy** \> .
+2. Ga naar ATP-veilige bijlagen **voor** \> **Policy** \> **bedreigingsbeheerbeleid**.
 
 3. Configureer een van de volgende instellingen in de **sectie Help-personen die veilig zijn wanneer ze een bestand buiten de beveiligde weergave in office-toepassingen vertrouwen,** een van de volgende instellingen configureren:
 
@@ -78,7 +83,7 @@ Zie [Set-AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange
 
 Ga een van de volgende stappen uit om te controleren of u veilige documenten hebt ingeschakeld en geconfigureerd:
 
-- Ga in het Security & Compliance Center naar ATP \> **Safe Attachments**voor **bedreigingsbeheerbeleid** \> **Policy** en controleer of de selecties in de **sectie Help-personen veilig blijven wanneer ze een bestand vertrouwen dat wordt geopend buiten de sectie Beveiligde weergave in Office-toepassingen.**
+- Ga in het Beveiligingscentrum **Threat management** & compliancecenter naar \> **Policy** \> **ATP-beveiligingsbijlagen**voor bedreigingsbeheerbeleid en controleer of de selecties in de **sectie Help-personen veilig blijven wanneer ze een bestand vertrouwen dat wordt geopend buiten de sectie Beveiligde weergave in Office-toepassingen.**
 
 - Voer de volgende opdracht uit in Exchange Online PowerShell en controleer de eigenschapswaarden:
 

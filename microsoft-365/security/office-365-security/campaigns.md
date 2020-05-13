@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over campagneweergaven in Geavanceerde bedreigingsbeveiliging van Office 365.
-ms.openlocfilehash: 69b11319ffb033b628e59abac931b6a3f30d082c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5441c877dac70330bf1e5653983494be5b1b3293
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637816"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209593"
 ---
 # <a name="campaign-views-in-atp"></a>Campagneweergaven in ATP
 
@@ -60,9 +60,9 @@ Campagneweergaven zijn beschikbaar in het [Security & Compliance Center](https:/
 
 U ook naar de weergave Campagnes gaan vanaf:
 
-- Campagnes \> voor \> \> **bedreigingsbeheerverkenners** **Threat management** **View** **Campaigns**
+- **Bedreigingsbeheer** \> **Explorer** \> **Bekijk** \> **Campagnes**
 
-- **Bedreigingsbeheer** \> **Explorer** \> **Alle e-mailcampagne** \> **weergeven** \> **Campaign**
+- **Bedreigingsbeheer** \> **Explorer** \> **Bekijk** \> **Alle e-mail** \> **Campagne**
 
 > [!TIP]
 > Als u geen campagnegegevens ziet, probeert u het datumbereik te wijzigen.
@@ -83,7 +83,7 @@ Op de overzichtspagina vindt u de volgende informatie over de campagne:
 
 - **Klik:** het aantal gebruikers dat op de URL in het phishingbericht heeft geklikt.
 
-- **Klikpercentage:** het percentage zoals berekend door " / **Klikinboxed**".**Clicked** Deze waarde is een indicator van de effectiviteit van de campagne, en of de ontvangers in staat waren om het bericht te identificeren als phishing en te voorkomen dat te klikken op de payload URL.
+- **Klikpercentage:** het percentage zoals berekend door "**Clicked**  /  **Klikinboxed**". Deze waarde is een indicator van de effectiviteit van de campagne, en of de ontvangers in staat waren om het bericht te identificeren als phishing en te voorkomen dat te klikken op de payload URL.
 
 - **Bezocht**: Hoeveel gebruikers daadwerkelijk maakte het door naar de payload website. Als er **klikwaarden** zijn, maar veilige links de toegang tot de website hebben geblokkeerd, is deze waarde nul.
 
@@ -144,7 +144,7 @@ Het diagram bevat de volgende informatie:
 
   <sup>\*\*</sup>Bekijk uw antispambeleid, omdat deze berichten in quarantaine moeten worden geplaatst en niet moeten worden bezorgd.
 
-- **Leveringslocaties**: U wilt waarschijnlijk berichten onderzoeken die daadwerkelijk aan ontvangers zijn geleverd (naar het Postvak IN of de map Ongewenste e-mail), zelfs als gebruikers niet op de payload-URL in het bericht hebben geklikt. U de in quarantaine geplaatste berichten ook uit quarantaine verwijderen. Zie [E-mailberichten in quarantaine in Office 365](quarantine-email-messages.md)voor meer informatie.
+- **Leveringslocaties**: U wilt waarschijnlijk berichten onderzoeken die daadwerkelijk aan ontvangers zijn geleverd (naar het Postvak IN of de map Ongewenste e-mail), zelfs als gebruikers niet op de payload-URL in het bericht hebben geklikt. U de in quarantaine geplaatste berichten ook uit quarantaine verwijderen. Zie [In quarantaine geplaatste e-mailberichten in EOP](quarantine-email-messages.md)voor meer informatie.
 
   - **Verwijderde map**
 

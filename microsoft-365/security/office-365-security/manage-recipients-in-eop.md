@@ -1,11 +1,11 @@
 ---
-title: Ontvangers beheren in EOP
+title: Geadresseerden beheren in zelfstandige EOP
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 11/17/2014
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,26 +13,25 @@ localization_priority: Normal
 ms.assetid: 2921f544-8257-4bae-8e3a-ce9250e9f162
 ms.custom:
 - seo-marvel-apr2020
-description: In dit artikel vindt u meer informatie over e-mailontvangers die worden ondersteund door Microsoft Exchange Online Protection (EOP).
-ms.openlocfilehash: eb2855f93083c88725492be2691799c3521bbf8f
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Beheerders kunnen meer te weten komen over de verschillende typen geadresseerde objecten in standalone Exchange Online Protection (EOP).
+ms.openlocfilehash: c2337f28fbcd825022967434828af409f3bf0453
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036147"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208364"
 ---
-# <a name="manage-recipients-in-eop"></a>Ontvangers beheren in EOP
+# <a name="manage-recipients-in-standalone-eop"></a>Geadresseerden beheren in zelfstandige EOP
 
-Microsoft Exchange Online Protection (EOP) biedt verschillende manieren om uw e-mailontvangers te beheren. Als beheerder u bepaalde beheertaken uitvoeren in het Exchange-beheercentrum (EAC) of met externe Windows PowerShell, en andere beheertaken controleren die in het Microsoft 365-beheercentrum worden uitgevoerd.
+EOP-organisaties (Standalone Exchange Online Protection) zonder Exchange Online-postvakken ondersteunen de volgende typen ontvangers:
 
-EOP ondersteunt de volgende typen ontvangers:
-
-- **E-mailgebruikers:** e-mailgebruikers zijn ontvangers in uw door EOP beheerde domeinen. Deze ontvangers hebben aanmeldingsgegevens in uw organisatie, maar ze hebben externe e-mailadressen, wat betekent dat de postvakken van de ontvanger zich buiten uw cloudorganisatie bevinden.
-
-  U e-mailgebruikers toevoegen zodat ze e-mail kunnen ontvangen en u ook regels voor e-mailstromen (ook wel transportregels genoemd) voor specifieke gebruikers maken. U ook rollen toewijzen aan e-mailgebruikers in uw organisatie. gebruikers met beheerdersrolgroepbevoegdheden hebben toegang tot het Exchange-beheercentrum (EAC) en kunnen bepaalde beheertaken uitvoeren. Zie [Beheerdersrolgroepmachtigingen beheren in EOP](manage-admin-role-group-permissions-in-eop.md)voor meer informatie over gebruikersrollen en het toewijzen van gebruikersrollen in EOP.
+- **E-mailgebruikers:** E-mailgebruikers zijn het fundamentele type gebruikersaccounts in uw zelfstandige EOP-organisatie. E-mailgebruikers hebben aanmeldingsgegevens in uw EOP-organisatie, maar ze hebben externe e-mailadressen (hun mailboxen bevinden zich buiten uw EOP-organisatie).
 
   Zie E-mailgebruikers beheren in EOP voor meer informatie over het beheren van [e-mailgebruikers in EOP.](manage-mail-users-in-eop.md)
 
-- **Groepen**: E-mailgebruikers kunnen worden gegroepeerd in distributiegroepen of beveiligingsgroepen.
+- **Groepen**: U de volgende typen groepen maken:
 
-Zie Groepen beheren in EOP voor meer informatie over het beheren van groepen [in EOP.](manage-groups-in-eop.md)
+  - Distributiegroepen
+  - Beveiligingsgroepen met e-mail
+
+  Zie Groepen beheren in EOP voor meer informatie over het beheren van groepen [in EOP.](manage-groups-in-eop.md)

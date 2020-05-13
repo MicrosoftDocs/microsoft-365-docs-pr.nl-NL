@@ -16,12 +16,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: Gebruik het nieuwe beveiligingsdashboard om de status van Office 365-bedreigingsbeveiliging te controleren en beveiligingswaarschuwingen te bekijken en te reageren.
-ms.openlocfilehash: 3b6d754505d0e23f1080520e66061b8f6fef523e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d750c0055a9a55f573e4b920166284f6d95ae70f
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632515"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208034"
 ---
 # <a name="security-dashboard"></a>Beveiligingsdashboard
 
@@ -35,7 +35,7 @@ Bekijk de video om een overzicht te krijgen en lees dit artikel voor meer inform
 
 Afhankelijk van wat het abonnement van uw organisatie bevat, bevat het beveiligingsdashboard verschillende widgets, zoals Threat Management Summary, Threat Protection Status, Global Weekly Threat Detections, Malware en meer, zoals beschreven in de volgende secties.
 
-Ga naar **Dashboard voor beveiligingsbeheer** \> om het beveiligingsdashboard in het [Beveiligingscentrum & compliance](../../compliance/go-to-the-securitycompliance-center.md)te bekijken. **Dashboard**
+Ga naar Dashboard voor [beveiligingsbeheer](../../compliance/go-to-the-securitycompliance-center.md)om het **Threat management** beveiligingsdashboard in het Security & Compliance Center te \> **Dashboard**bekijken.
 
 > [!NOTE]
 > U moet een globale beheerder, een beveiligingsbeheerder of een beveiligingslezer zijn om het beveiligingsdashboard te kunnen bekijken. Voor sommige widgets zijn extra machtigingen vereist om deze te bekijken. Zie [Machtigingen in het Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie.
@@ -61,7 +61,7 @@ De Threat Protection Status widget toont threat protection effectiviteit met een
 
 ![Statuswidget voor bedreigingsbescherming](../../media/tpswidget.png)
 
-De details zijn afhankelijk van de vraag of uw Microsoft 365-abonnement [Exchange Online Protection](exchange-online-protection-eop.md) (EOP) met of zonder Office [365 Advanced Threat Protection](office-365-atp.md) (ATP) bevat.
+De details zijn afhankelijk van de vraag of uw Microsoft 365-abonnement [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) met of zonder Office [365 Advanced Threat Protection](office-365-atp.md) (ATP) bevat.
 
 |||
 |---|---|

@@ -1,5 +1,5 @@
 ---
-title: ATO-instellingen in Office 365
+title: Asf-instellingen in EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,25 +17,25 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Meer informatie over de instellingen van Advanced Spam Filter (AsF) in antispambeleid, waarmee beheerders berichten kunnen identificeren die specifieke berichteigenschappen bevatten die vaak in spam worden gebruikt.
-ms.openlocfilehash: 31793f5996cc27cf7e5de75d9c190657e6592c57
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Beheerders kunnen meer te weten komen over de instellingen voor geavanceerde spamfilters (Asf) die beschikbaar zijn in antispambeleid in Exchange Online Protection (EOP).
+ms.openlocfilehash: 3193c1ea11d9a470a6b0df72f052bab20dec29f8
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034132"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208046"
 ---
-# <a name="advanced-spam-filter-asf-settings-in-office-365"></a>Instellingen voor geavanceerde spamfilters (AsF) in Office 365
+# <a name="advanced-spam-filter-asf-settings-in-eop"></a>Instellingen voor geavanceerde spamfilters (AsF) in EOP
 
 > [!NOTE]
 > Asf-instellingen die momenteel beschikbaar zijn in antispambeleid worden momenteel afgeschaft. We raden u aan deze instellingen niet te gebruiken in het antispambeleid. De functionaliteit van deze AsF-instellingen wordt opgenomen in andere delen van de filterstapel. Zie [EOP-beleidsinstellingen voor antispam](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)voor meer informatie .
 
-Met de instellingen voor geavanceerde spamfilters (Asf) in antispambeleid (ook wel spamfilterbeleid of inhoudsfilterbeleid genoemd) kunnen beheerders berichten markeren als spam op basis van specifieke berichteigenschappen. Asf richt zich specifiek op deze eigenschappen omdat ze vaak worden gevonden in spam. Afhankelijk van de eigenschap, asf detecties zal ofwel markeren het bericht als **Spam** of **Hoog vertrouwen spam**.
+In Microsoft 365-organisaties met postvakken in Exchange Online- of zelfstandige Exchange Online Protection-organisaties (EOP)-organisaties zonder Exchange Online-postvakken kunnen beheerders met de instellingen voor geavanceerd spamfilter (AdZG) in antispambeleid (ook wel spamfilterbeleid of beleid voor inhoudsfilter genoemd) beheerders toestaan berichten te markeren als spam op basis van specifieke berichteigenschappen. Asf richt zich specifiek op deze eigenschappen omdat ze vaak worden gevonden in spam. Afhankelijk van de eigenschap, asf detecties zal ofwel markeren het bericht als **Spam** of **Hoog vertrouwen spam**.
 
 > [!NOTE]
-> Het inschakelen van een of meer van de AsF-instellingen is een agressieve benadering van spamfiltering. U geen berichten rapporteren die door AsF worden gefilterd als false positives. U berichten identificeren die door AsF zijn gefilterd door: <ul><li>Periodieke spamquarantainemeldingen voor eindgebruikers.</li><li>De aanwezigheid van gefilterde berichten in quarantaine.</li><li>De `X-CustomSpam:` specifieke X-headervelden die worden toegevoegd aan berichten zoals beschreven in dit onderwerp.</li></ul>
+> Het inschakelen van een of meer van de AsF-instellingen is een agressieve benadering van spamfiltering. U geen berichten rapporteren die door AsF worden gefilterd als false positives. U berichten identificeren die door AsF zijn gefilterd door: <ul><li>Periodieke spamquarantainemeldingen voor eindgebruikers.</li><li>De aanwezigheid van gefilterde berichten in quarantaine.</li><li>De specifieke `X-CustomSpam:` X-headervelden die worden toegevoegd aan berichten zoals beschreven in dit onderwerp.</li></ul>
 
-In de volgende secties worden de AsF-instellingen en -opties beschreven die beschikbaar zijn in antispambeleid in het Security & Compliance Center en in Exchange Online PowerShell of standalone Exchange Online Protection PowerShell[(New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterpolicy) en [Set-HostedContentFilterPolicy).](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy) Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
+In de volgende secties worden de AsF-instellingen en -opties beschreven die beschikbaar zijn in antispambeleid in het Security & Compliance Center en in Exchange Online PowerShell of standalone Exchange Online Protection PowerShell[(New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterpolicy) en [Set-HostedContentFilterPolicy).](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy) Zie [Beleid voor antispam configureren in EOP](configure-your-spam-filter-policies.md)voor meer informatie.
 
 ## <a name="enable-disable-or-test-asf-settings"></a>Asf-instellingen in- of uitschakelen of testen
 
@@ -70,7 +70,7 @@ Voor elke Asf-instelling zijn de volgende opties beschikbaar in antispambeleid:
 De volgende AsF-instellingen stellen het spamvertrouwensniveau (SCL) van gedetecteerde berichten in op 5 of 6, wat overeenkomt met **het** spamfiltervonnis en de bijbehorende actie in het antispambeleid.
 
 ||||
-|:-----|:-----|:-----|
+|---|---|---|
 |**Instelling voor antispambeleid**|**Beschrijving**|**X-header toegevoegd**|
 |**Afbeeldingskoppelingen naar externe sites** <br/><br/> *VerhogingScoreWithImageLinks*|Berichten die `<Img>` HTML-tagkoppelingen naar externe sites bevatten (bijvoorbeeld via http) worden gemarkeerd als spam.|`X-CustomSpam: Image links to remote sites`|
 |**URL-omleiding naar andere poort** <br/><br/> *VerhogingScoreWithRedirecttoOtherPort*|Berichten met hyperlinks die worden omgeleid naar andere TCP-poorten dan 80 (HTTP), 8080 (alternatieve HTTP) of 443 (HTTPS) worden gemarkeerd als spam.|`X-CustomSpam: URL redirect to other port`|
@@ -83,7 +83,7 @@ De volgende AsF-instellingen stellen het spamvertrouwensniveau (SCL) van gedetec
 De volgende AsF-instellingen stellen de SCL van gedetecteerde berichten in op 9, wat overeenkomt met het oordeel van het **spamfilter** met veel vertrouwen en de bijbehorende actie in het antispambeleid.
 
 ||||
-|:-----|:-----|:-----|
+|---|---|---|
 |**Instelling voor antispambeleid**|**Beschrijving**|**X-header toegevoegd**|
 |**Lege berichten** <br/><br/> *MarkAsSpamEmptyMessages*|Berichten zonder onderwerp, geen inhoud in de berichttekst en geen bijlagen worden gemarkeerd als spam met een hoog vertrouwen.|`X-CustomSpam: Empty Message`|
 |**JavaScript of VBScript in HTML** <br/><br/> *MarkasspamJavaScriptinhtml*|Berichten die JavaScript of Visual Basic Script Edition in HTML gebruiken, worden gemarkeerd als spam met een hoog vertrouwen. <br/><br/> Deze scripttalen worden gebruikt in e-mailberichten om ervoor te zorgen dat specifieke acties automatisch plaatsvinden.|`X-CustomSpam: Javascript or VBscript tags in HTML`|

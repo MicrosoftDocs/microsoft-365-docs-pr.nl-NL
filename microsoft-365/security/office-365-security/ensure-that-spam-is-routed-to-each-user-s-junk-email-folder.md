@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen lezen hoe ze spam kunnen routeren naar map ongewenste e-mail van gebruikers in een hybride omgeving van Exchange Online Protection.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 14193fecf90a6f2ddde05fbfdaded0ff2bcb5875
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: a5b4d16c864b25c4d47910f0dd69f0ed3e71a0de
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036570"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209473"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Standalone EOP configureren om spam te leveren aan de map Ongewenste e-mail in hybride omgevingen
 
@@ -44,7 +44,7 @@ Zie [Kopteksten voor spamberichten](anti-spam-message-headers.md)voor meer infor
 In dit onderwerp wordt beschreven hoe u deze regels voor e-mailstroom maakt, het Exchange-beheercentrum (EAC) en in exchangemanagementshell (Exchange PowerShell) in de on-premises Exchange-organisatie.
 
 > [!TIP]
-> In plaats van de berichten af te leveren aan de map Ongewenste e-mail van de eindgebruiker, u antispambeleid in EOP configureren om spamberichten in EOP in quarantaine te plaatsen. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
+> In plaats van de berichten af te leveren aan de map Ongewenste e-mail van de eindgebruiker, u antispambeleid in EOP configureren om spamberichten in EOP in quarantaine te plaatsen. Zie [Beleid voor antispam configureren in EOP](configure-your-spam-filter-policies.md)voor meer informatie.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -60,7 +60,7 @@ In dit onderwerp wordt beschreven hoe u deze regels voor e-mailstroom maakt, het
 
   - Of de regel voor ongewenste e-mail is ingeschakeld in het postvak (de _parameterwaarde Ingeschakeld_ is $true op de cmdlet [Set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration) in de Exchange Management Shell). Het is de ongewenste e-mailregel die het bericht na levering daadwerkelijk verplaatst naar de map Ongewenste e-mail. Standaard is de regel voor ongewenste e-mail ingeschakeld voor postvakken. Zie [Antispam-instellingen voor Exchange configureren op postvakken voor](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings)meer informatie.
   
-- Zie [Exchange-beheercentrum in Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center)als u de EAC op een Exchange-server wilt openen. Zie [https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell).
+- Zie [Exchange-beheercentrum in Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center)als u de EAC op een Exchange-server wilt openen. Zie [https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) .
 
 - Zie de volgende onderwerpen voor meer informatie over regels voor e-mailstromen in on-premises Exchange:
 
@@ -74,7 +74,7 @@ In dit onderwerp wordt beschreven hoe u deze regels voor e-mailstroom maakt, het
 
 1. Ga in de EAC naar **Mail flow** \> **Rules**.
 
-2. Klik **op** ![](../../media/ITPro-EAC-AddIcon.png) Pictogram Toevoegen toevoegen en selecteer **Een nieuwe regel maken** in de vervolgkeuzelijst die wordt weergegeven.
+2. Klik **op** ![ Pictogram Toevoegen toevoegen en selecteer Een nieuwe regel ](../../media/ITPro-EAC-AddIcon.png) **maken** in de vervolgkeuzelijst die wordt weergegeven.
 
 3. Configureer op de pagina **Nieuwe regel** die wordt geopend de volgende instellingen:
 
@@ -94,9 +94,9 @@ In dit onderwerp wordt beschreven hoe u deze regels voor e-mailstroom maakt, het
 
      - Klik **op Tekst invoeren**. Typ in het dialoogvenster **Koptekst opgeven** dat wordt **weergegeven, X-Forefront-Antispam-Report** en klik op **OK**.
 
-     - Klik **op Woorden invoeren**. Klik in het dialoogvenster **Woorden of zinnen opgeven** dat wordt weergegeven, voer een van de waarden van de EOP-spamkop (**SFV:SPM,** **SFV:SKS**of **SFV:SKB**) **in,** ![klik op Pictogram](../../media/ITPro-EAC-AddIcon.png)Toevoegen en klik vervolgens op **OK**.
+     - Klik **op Woorden invoeren**. Klik in het dialoogvenster **Woorden of zinnen opgeven** dat wordt weergegeven, voer een van de waarden van de EOP-spamkop (**SFV:SPM,** **SFV:SKS**of **SFV:SKB**) **in,** klik op Pictogram ![ Toevoegen en klik vervolgens op ](../../media/ITPro-EAC-AddIcon.png) **OK**.
 
-   - **Ga als volgt**te werk: Selecteer **De eigenschappen** \> van het bericht **wijzigen Stel het betrouwbaarheidsniveau voor spam (SCL) in.**
+   - **Ga als volgt**te werk: Selecteer **De eigenschappen van het bericht wijzigen** Stel het \> **betrouwbaarheidsniveau voor spam (SCL) in.**
 
      **Selecteer** 6 in het dialoogvenster **SCL opgeven** dat wordt weergegeven (de standaardwaarde is **5**).
 
@@ -132,9 +132,9 @@ Zie [Nieuwe-Transportregel](https://docs.microsoft.com/powershell/module/exchang
 
 Ga op de volgende stappen als u wilt controleren of u zelfstandige EOP hebt geconfigureerd om spam te leveren aan de map Ongewenste e-mail in een hybride omgeving:
 
-- Ga in de EAC naar **E-mailstroomregels,** \> **Rules**selecteer de regel](../../media/ITPro-EAC-EditIcon.png) en klik op Pictogram Bewerken **bewerken** ![om de instellingen te verifiëren.
+- Ga in de EAC naar **E-mailstroomregels,** \> **Rules**selecteer de regel en klik op Pictogram Bewerken **bewerken** ![ om de instellingen te ](../../media/ITPro-EAC-EditIcon.png) verifiëren.
 
-- Vervang RuleName \<\> in de Exchange Management Shell door de naam van de regel voor e-mailstroom en voer de volgende opdracht in om de instellingen te verifiëren:
+- Vervang RuleName in de Exchange Management Shell \< door de naam van de regel voor \> e-mailstroom en voer de volgende opdracht in om de instellingen te verifiëren:
 
   ```powershell
   Get-TransportRule -Identity "<RuleName>" | Format-List

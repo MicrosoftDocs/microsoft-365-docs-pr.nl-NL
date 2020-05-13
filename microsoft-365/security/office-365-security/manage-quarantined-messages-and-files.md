@@ -17,23 +17,23 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: In dit artikel leert u hoe beheerders in quarantaine geplaatste berichten en bestanden voor gebruikers in Office 365 kunnen beheren.
-ms.openlocfilehash: e69887b54b3e892775c16fa3e306da3b17ab7db3
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Beheerders kunnen leren hoe ze in quarantaine geplaatste berichten kunnen bekijken en beheren voor alle gebruikers in Exchange Online Protection (EOP). Beheerders in organisaties met Office 365 Advanced Threat Protection (Office 365 ATP) kunnen ook in quarantaine geplaatste bestanden beheren in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
+ms.openlocfilehash: 0f0dd7ee14aeb4558674a6e2240e022df3c489fc
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036171"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209005"
 ---
-# <a name="manage-quarantined-messages-and-files-as-an-administrator"></a>In quarantaine geplaatste berichten en bestanden beheren als beheerder
+# <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>In quarantaine geplaatste berichten en bestanden beheren als beheerder in EOP
 
-Potentieel gevaarlijke of ongewenste berichten worden in quarantaine geplaatst in Microsoft 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken. Zie [Quarantaine in Office 365](quarantine-email-messages.md) voor meer informatie.
+In Microsoft 365-organisaties met postvakken in Exchange Online- of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken, bevat quarantaine potentieel gevaarlijke of ongewenste berichten. Zie [In quarantaine geplaatste e-mailberichten in EOP](quarantine-email-messages.md)voor meer informatie.
 
 Beheerders kunnen alle soorten in quarantaine geplaatste berichten voor alle gebruikers bekijken, vrijgeven en verwijderen. Alleen beheerders kunnen berichten beheren die in quarantaine zijn geplaatst als malware, phishing met een hoog vertrouwen of als gevolg van regels voor e-mailstroom (ook wel transportregels genoemd). Beheerders kunnen ook fout-positieven melden aan Microsoft.
 
-Beheerders in organisaties met Office 365 Advance Threat Protection (ATP) kunnen ook in quarantaine geplaatste bestanden bekijken, downloaden en verwijderen in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
+Beheerders in organisaties met Office 365 Advance Threat Protection (Office 365 ATP) kunnen ook in quarantaine geplaatste bestanden bekijken, downloaden en verwijderen in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
 
-U bekijkt en beheert in quarantaine geplaatste berichten in het Security & Compliance Center of in PowerShell (Exchange Online PowerShell voor Microsoft 365-klanten; Exchange Online Protection PowerShell voor zelfstandige EOP-klanten).
+U bekijkt en beheert in quarantaine geplaatste berichten in het Security & Compliance Center of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; standalone EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -46,8 +46,6 @@ U bekijkt en beheert in quarantaine geplaatste berichten in het Security & Compl
 - In quarantaine geplaatste berichten worden standaard bewaard voordat ze automatisch worden verwijderd:
 
   - Berichten in quarantaine geplaatst door antispambeleid (spam, phishing en bulke-mail): 30 dagen. Dit is de standaard- en maximale waarde. Zie [Antispambeleid configureren](configure-your-spam-filter-policies.md)om deze waarde te configureren.
-
-1. Als u een werk- of schoolaccount gebruikt met algemene beheerdersbevoegdheden (of de juiste functies van het Beveiligingscentrum & Compliance Center) in uw organisatie, u zich aanmelden en [naar het Security & Compliance Center gaan.](../../compliance/go-to-the-securitycompliance-center.md)
 
   - Berichten die malware bevatten: 15 dagen.
 
@@ -74,8 +72,6 @@ U bekijkt en beheert in quarantaine geplaatste berichten in het Security & Compl
    - **Vrijgegeven?**<sup>\*</sup>
 
    - **Beleidstype**<sup>\*</sup>
-
-1. Als u een werk- of schoolaccount gebruikt met algemene beheerdersbevoegdheden (of de juiste functies van het Beveiligingscentrum & Compliance Center) in uw organisatie, u zich aanmelden en [naar het Security & Compliance Center gaan.](../../compliance/go-to-the-securitycompliance-center.md)
 
    - **Ontvanger**
 
@@ -125,7 +121,7 @@ U bekijkt en beheert in quarantaine geplaatste berichten in het Security & Compl
 
    - **Bericht-ID**: de wereldwijd unieke identificatie van het bericht.
 
-        U hebt bijvoorbeeld [berichttracering](message-trace-scc.md) gebruikt om te zoeken naar een bericht dat naar een gebruiker in uw organisatie is verzonden en u bepaalt dat het bericht in quarantaine is geplaatst in plaats van geleverd. Zorg ervoor dat u de volledige bericht-ID-waarde\<\>opneemt, waaronder mogelijk hoekhaakjes ( ). Bijvoorbeeld: `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>`.
+     U hebt bijvoorbeeld [berichttracering](message-trace-scc.md) gebruikt om te zoeken naar een bericht dat naar een gebruiker in uw organisatie is verzonden en u bepaalt dat het bericht in quarantaine is geplaatst in plaats van geleverd. Zorg ervoor dat u de volledige bericht-ID-waarde opneemt, waaronder mogelijk hoekhaakjes ( \< \> ). Bijvoorbeeld: `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>` .
 
    - **E-mailadres afzender**: een enkel e-mailadres van een afzender.
 
@@ -240,7 +236,7 @@ In organisaties met ATP kunnen beheerders in quarantaine geplaatste bestanden be
 
 2. **Weergave wijzigen in quarantaine geplaatst** in de standaardwaardebestanden . **files** U sorteren op een veld door te klikken op een beschikbare kolomkop.
 
-3. U kunt de resultaten sorteren door op een beschikbare kolomkop te klikken. Klik op **Kolommen wijzigen** om maximaal zeven kolommen te laten zien. De standaardkolommen zijn gemarkeerd met<sup>\*</sup>een sterretje :
+3. U kunt de resultaten sorteren door op een beschikbare kolomkop te klikken. Klik op **Kolommen wijzigen** om maximaal zeven kolommen te laten zien. De standaardkolommen zijn gemarkeerd met een sterretje <sup>\*</sup> :
 
    - **Gebruiker**<sup>\*</sup>
 

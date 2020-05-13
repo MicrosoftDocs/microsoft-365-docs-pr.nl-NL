@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 7ac93507-0e38-4398-8bfe-9c1d123cb387
 description: 'Meer informatie over abonnementen en licenties in Microsoft 365 voor Bedrijven en weet wie licenties kan toewijzen en wat er gebeurt wanneer u een licentie aan iemand toewijst. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 1508daa6dae30c35a9517fceb81b0a4d2b4a7f58
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5178b25de6f66968f8a89c7b2c34ee466f8855bd
+ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635434"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44211436"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Inzicht in abonnementen en licenties in Microsoft 365 voor Bedrijven
 
@@ -58,10 +58,10 @@ In de volgende tabel ziet u wat er automatisch gebeurt als u iemand een licentie
   
 |**Als deze service is opgenomen in het abonnement**|**Gebeurt dit automatisch**|
 |:-----|:-----|
-|Exchange Online  <br/> |Er wordt een postvak voor die medewerker gemaakt.  <br/> |
+|Exchange Online  <br/> |Er wordt een postvak voor die medewerker gemaakt.  <br/> Zie ['Instellen... berichten in het Microsoft 365-beheercentrum](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center). |
 |SharePoint Online  <br/> |De medewerker krijgt machtigingen voor bewerken voor de standaardteamsite van SharePoint Online.  <br/> |
 |Skype voor Bedrijven Online  <br/> |De medewerker krijgt toegang tot de functies die bij de licentie horen.  <br/> |
-|Microsoft 365 Apps voor bedrijven  <br/> |De medewerker kan Microsoft Office downloaden op maximaal vijf Macs of pc's, vijf tablets en vijf smartphones.  <br/> |
+|Microsoft 365-apps voor ondernemingen  <br/> |De medewerker kan Microsoft Office downloaden op maximaal vijf Macs of pc's, vijf tablets en vijf smartphones.  <br/> |
    
 ## <a name="how-many-devices-can-people-install-office-on"></a>Op hoeveel apparaten kan iemand Office installeren?
 
@@ -71,7 +71,7 @@ Als uw abonnement een van de volgende producten bevat, kan elke medewerker Offic
     
 - Microsoft 365 Business Standard
     
-- Microsoft 365 Apps voor bedrijven
+- Microsoft 365-apps voor ondernemingen
     
 - Office 365 Enterprise E3
     

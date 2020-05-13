@@ -1,5 +1,5 @@
 ---
-title: Regels voor e-mailstromen gebruiken om te zien wat uw gebruikers aan Microsoft rapporteren
+title: Regels voor e-mailstromen gebruiken om te zien wat uw gebruikers melden bij Microsoft
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,26 +15,26 @@ ms.assetid: 8401f520-8e7c-467b-9e06-4a9fdb2ba548
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe ze regels voor e-mailstromen (ook wel transportregels genoemd) kunnen gebruiken om kopieën te ontvangen van berichten die gebruikers aan Microsoft rapporteren.
-ms.openlocfilehash: 2b1e82ece936551c48e5617955f546cf851a8913
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: faafd8fb750259c192807349b63eee14279179de
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939497"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208571"
 ---
-# <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>Regels voor e-mailstromen gebruiken om te zien wat uw gebruikers aan Microsoft rapporteren
+# <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>Regels voor e-mailstromen gebruiken om te zien wat uw gebruikers melden bij Microsoft
 
-Gebruikers kunnen berichten op meerdere manieren aan Microsoft rapporteren voor analyse zoals beschreven in [Berichten en bestanden rapporteren aan Microsoft.](report-junk-email-messages-to-microsoft.md)
+In Microsoft 365-organisaties met postvakken in Exchange Online- of zelfstandige Exchange Online Protection-organisaties (EOP)-organisaties zonder Exchange Online-postvakken, zijn er meerdere manieren voor gebruikers om berichten aan Microsoft te rapporteren voor analyse zoals beschreven in [Berichten en bestanden rapporteren aan Microsoft.](report-junk-email-messages-to-microsoft.md)
 
 U een regel voor e-mailstroom (ook wel een transportregel genoemd) maken die zoekt naar berichten die gebruikers aan Microsoft rapporteren, en u BCC-ontvangers configureren om kopieën van deze gerapporteerde berichten te ontvangen.
 
-U de regel voor e-mailstroom maken in het Exchange-beheercentrum (EAC) en PowerShell (Exchange Online PowerShell voor Microsoft 365-klanten. Exchange Online Protection PowerShell voor zelfstandige EOP-klanten).
+U de regel voor e-mailstroom maken in het Exchange-beheercentrum (EAC) en PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
 - U moet machtigingen in Exchange Online of EOP krijgen voordat u deze procedures uitvoeren. U moet in het bijzonder de rol **Transportregels** toegewezen krijgen, die standaard is toegewezen aan de rollen **Organisatiebeheer,** **Compliancebeheer**en **Records Management.** Zie [Rolgroepen beheren in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)voor meer informatie .
 
-- Zie [Exchange-beheercentrum in Exchange Online-](https://docs.microsoft.com/Exchange/exchange-admin-center) of [Exchange-beheercentrum in Exchange Online Protection als](exchange-admin-center-in-exchange-online-protection-eop.md)u de EAC wilt openen.
+- Zie [Exchange-beheercentrum in Exchange Online-](https://docs.microsoft.com/Exchange/exchange-admin-center) of [Exchange-beheercentrum in het zelfstandige EOP](exchange-admin-center-in-exchange-online-protection-eop.md)om de EAC te openen.
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone Exchange Online Protection PowerShell.
 
@@ -50,7 +50,7 @@ U de regel voor e-mailstroom maken in het Exchange-beheercentrum (EAC) en PowerS
 
 1. Ga in de EAC naar **Mail flow** \> **Rules**.
 
-2. Klik **op** ![](../../media/ITPro-EAC-AddIcon.png) Pictogram Toevoegen toevoegen en selecteer **vervolgens Een nieuwe regel maken**.
+2. Klik **op** ![ Pictogram Toevoegen toevoegen en selecteer vervolgens Een nieuwe ](../../media/ITPro-EAC-AddIcon.png) regel **maken**.
 
 3. Configureer op de pagina **Nieuwe regel** die wordt geopend de volgende instellingen:
 
@@ -58,18 +58,18 @@ U de regel voor e-mailstroom maken in het Exchange-beheercentrum (EAC) en PowerS
 
    - Klik **op Meer opties**.
 
-   - **Deze regel toepassen als**: **Selecteer Het geadresseerdeadres** \> **bevat een van deze woorden:** Voer in het dialoogvenster](../../media/ITPro-EAC-AddIcon.png)Woorden of zinnen **opgeven** dat wordt weergegeven een van de volgende waarden in, klik op Pictogram **toevoegen** ![en herhaal totdat u alle waarden hebt ingevoerd.
+   - **Deze regel toepassen als**: **Selecteer Het geadresseerdeadres** bevat een van deze \> **woorden:** Voer in het dialoogvenster Woorden of zinnen **opgeven** dat wordt weergegeven een van de volgende waarden in, klik op Pictogram **toevoegen** en herhaal totdat u alle waarden ![ hebt ](../../media/ITPro-EAC-AddIcon.png) ingevoerd.
 
      - `junk@office365.microsoft.com`
      - `abuse@messaging.microsoft.com`
      - `phish@office365.microsoft.com`
      - `false_positive@messaging.microsoft.com`
 
-     Als u een item wilt **Edit** ![bewerken, selecteert](../../media/ITPro-EAC-EditIcon.png)u het item en klikt u op pictogram Bewerken bewerken . Als u een item wilt **Remove** ![verwijderen,](../../media/ITPro-EAC-DeleteIcon.png)selecteert u het item en klikt u op Pictogram Verwijderen .
+     Als u een item wilt bewerken, selecteert u het item en klikt u op pictogram Bewerken **bewerken** ![ ](../../media/ITPro-EAC-EditIcon.png) . Als u een item wilt **Remove** verwijderen, selecteert u het item en klikt u op ![ Pictogram Verwijderen ](../../media/ITPro-EAC-DeleteIcon.png) .
 
      Klik op **OK**als u klaar bent.
 
-   - **Ga als volgt**te werk : Selecteer **Geadresseerden** \> toevoegen **aan het vak BCC**. Zoek en selecteer in het dialoogvenster dat wordt weergegeven de geadresseerden die u wilt toevoegen. Klik op **OK**als u klaar bent.
+   - **Ga als volgt**te werk : Selecteer **Geadresseerden toevoegen** aan het vak \> **BCC**. Zoek en selecteer in het dialoogvenster dat wordt weergegeven de geadresseerden die u wilt toevoegen. Klik op **OK**als u klaar bent.
 
 4. U extra selecties maken om de regel te controleren, de regel te testen, de regel te activeren gedurende een bepaalde periode en andere instellingen. We raden u aan de regel te testen voordat u deze afdwingt.
 
@@ -89,7 +89,7 @@ Zie [Nieuwe-Transportregel](https://docs.microsoft.com/powershell/module/exchang
 
 Ga een van de volgende stappen uit om te controleren of u een e-mailstroomregels hebt geconfigureerd om kopieën van gerapporteerde berichten te ontvangen:
 
-- Ga in de EAC naar **EAC-regels** \> **Rules** \> en selecteer](../../media/ITPro-EAC-EditIcon.png)de regel \> klik op Pictogram Bewerken **bewerken** ![en controleer de instellingen.
+- Ga in de EAC naar **EAC-regels** \> **Rules** \> en selecteer de regel klik op \> Pictogram Bewerken **bewerken** en controleer ![ de ](../../media/ITPro-EAC-EditIcon.png) instellingen.
 
 - Voer in PowerShell de volgende opdracht uit om de instellingen te verifiëren:
 

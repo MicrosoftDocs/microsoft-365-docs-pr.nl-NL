@@ -14,12 +14,12 @@ ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel leert u hoe u overschakelen naar Exchange Online Protection (EOP) van een on-premises e-mailhygiëneapparaat of een cloudservice voor beveiliging in de cloud.
-ms.openlocfilehash: 4bbd0b60d42b52d5c9343126f12059fcf1fc3d62
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d7b2cfbe84d1e03bcd549c5220f6063592962792
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035222"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209269"
 ---
 # <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Overschakelen naar EOP uit Google Postini, de Barracuda Spam en Virus Firewall of Cisco IronPort
 
@@ -55,9 +55,9 @@ De beste plaats om te beginnen, als u een hybride implementatie overweegt, is [h
 
 Wanneer u besluit over te schakelen naar EOP, moet u speciale aandacht besteden aan de volgende gebieden:
 
-- **Aangepaste filterregels:** als u aangepaste filterregels of beleidsregels hebt om specifieke spam op te vangen, raden we u aan EOP een periode lang te proberen met de standaardinstellingen, voordat u uw regels migreert. EOP biedt spambescherming op bedrijfsniveau met de standaardinstellingen, het kan blijken dat u sommige regels niet hoeft te migreren naar EOP. Natuurlijk, als u regels hebt die specifieke aangepaste bedrijfsbeleidsregels afdwingen, u deze maken. [Regels voor e-mailstroom (transportregels) in Exchange Online Protection](mail-flow-rules-transport-rules-0.md) bieden gedetailleerde instructies voor het maken van regels voor e-mailstromen in EOP.
+- **Aangepaste filterregels:** als u aangepaste filterregels of beleidsregels hebt om specifieke spam op te vangen, raden we u aan EOP met de standaardinstellingen voor een bepaalde periode te proberen voordat u uw regels migreert. EOP biedt spambescherming op bedrijfsniveau met de standaardinstellingen, het kan blijken dat u sommige regels niet hoeft te migreren naar EOP. Natuurlijk, als u regels hebt die specifieke aangepaste bedrijfsbeleidsregels afdwingen, u deze maken. [Regels voor e-mailstroom (transportregels) in Exchange Online Protection](mail-flow-rules-transport-rules-0.md) bieden gedetailleerde instructies voor het maken van regels voor e-mailstromen in EOP.
 
-- **IP-lijstmetjes en IP-bloklijsten:** Als u lijsten en bloklijsten per gebruiker hebt, moet u de lijsten naar EOP kopiëren als onderdeel van uw installatieproces. Zie Het [beleid voor verbindingsfilter configureren](configure-the-connection-filter-policy.md)voor meer informatie over IP-lijstmetjes en IP-bloklijsten .
+- **IP-lijstmetjes en IP-bloklijsten:** Als u lijsten en bloklijsten per gebruiker hebt, moet u de lijsten naar EOP kopiëren als onderdeel van uw installatieproces. Zie Het [beleid voor verbindingsfilter configureren](configure-the-connection-filter-policy.md)voor meer informatie over de lijst met IP-regels en IP-blokken .
 
 - **Beveiligde communicatie:** als u een partner hebt die versleutelde berichten nodig heeft, raden we u aan dit in te stellen in het Exchange-beheercentrum. Zie Connectors instellen [voor beveiligde e-mailstroom met een partnerorganisatie](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner)als u dit scenario wilt configureren.
 

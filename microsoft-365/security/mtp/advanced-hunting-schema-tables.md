@@ -17,19 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 93da55287c3b7d7498a9c25f4deeb2615da81675
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2b87ba629d956b904db6598186a2f2b95012a9ee
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633493"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209761"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Begrijp het geavanceerde jachtschema
 
 **Geldt voor:**
 - Microsoft Threat Protection
-
-
 
 Het [geavanceerde jachtschema](advanced-hunting-overview.md) bestaat uit meerdere tabellen die informatie over gebeurtenissen of informatie over machines en entiteiten bevatten. Als u query's wilt maken die meerdere tabellen omvatten, moet u de tabellen en kolommen in het geavanceerde jachtschema begrijpen.
 
@@ -39,29 +37,31 @@ In de volgende verwijzing worden alle tabellen in het schema weergegeven. Elke t
 
 | Tabelnaam | Beschrijving |
 |------------|-------------|
-| **[AlertInfo](advanced-hunting-alertinfo-table.md)** | Waarschuwingen van Microsoft Defender ATP, Office 365 ATP, Microsoft Cloud App Security en Azure ATP, inclusief ernstinformatie en categorisering van bedreigingen  |
 | **[AlertEvidence](advanced-hunting-alertevidence-table.md)** | Bestanden, IP-adressen, URL's, gebruikers of apparaten die zijn gekoppeld aan waarschuwingen |
-| **[AccountInfo](advanced-hunting-accountinfo-table.md)** | Accountgegevens uit verschillende bronnen, waaronder Azure Active Directory |
-| **[EmailEvents](advanced-hunting-emailevents-table.md)** | Microsoft 365-e-mailgebeurtenissen, waaronder e-mailbezorging en blokkeringsgebeurtenissen |
-| **[EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md)** | Informatie over bestanden die aan e-mails zijn gekoppeld |
-| **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Informatie over URL's op Microsoft 365-e-mails |
+| **[AlertInfo](advanced-hunting-alertinfo-table.md)** | Waarschuwingen van Microsoft Defender ATP, Office 365 ATP, Microsoft Cloud App Security en Azure ATP, inclusief ernstinformatie en categorisering van bedreigingen  |
+| **[AppFileEvents](advanced-hunting-appfileevents-table.md)** | Bestandsgerelateerde activiteiten in cloud-apps en -services |
+| **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | Meerdere gebeurtenistypen, waaronder gebeurtenissen die worden geactiveerd door beveiligingsbesturingselementen zoals Windows Defender Antivirus en exploitprotection |
+| **[DeviceFileCertificateInfo](advanced-hunting-DeviceFileCertificateInfo-table.md)** | Certificaatgegevens van ondertekende bestanden verkregen uit certificaatverificatiegebeurtenissen op eindpunten |
+| **[DeviceFileEvents](advanced-hunting-devicefileevents-table.md)** | Bestandscreatie, wijziging en andere bestandssysteemgebeurtenissen |
+| **[DeviceImageLoadEvents](advanced-hunting-deviceimageloadevents-table.md)** | DLL-laadgebeurtenissen |
 | **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | Machine-informatie, inclusief OS-informatie |
+| **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | Aanmeldingen en andere verificatiegebeurtenissen |
+| **[DeviceNetworkEvents](advanced-hunting-devicenetworkevents-table.md)** | Netwerkverbinding en gerelateerde gebeurtenissen |
 | **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | Netwerkeigenschappen van machines, waaronder adapters, IP- en MAC-adressen, evenals verbonden netwerken en domeinen |
 | **[DeviceProcessEvents](advanced-hunting-deviceprocessevents-table.md)** | Procescreatie en gerelateerde gebeurtenissen |
-| **[DeviceNetworkEvents](advanced-hunting-devicenetworkevents-table.md)** | Netwerkverbinding en gerelateerde gebeurtenissen |
-| **[DeviceFileEvents](advanced-hunting-devicefileevents-table.md)** | Bestandscreatie, wijziging en andere bestandssysteemgebeurtenissen |
 | **[DeviceRegistryEvents](advanced-hunting-deviceregistryevents-table.md)** | Aanmaken en wijzigen van registervermeldingen |
-| **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | Aanmeldingen en andere verificatiegebeurtenissen |
-| **[DeviceImageLoadEvents](advanced-hunting-deviceimageloadevents-table.md)** | DLL-laadgebeurtenissen |
-| **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | Meerdere gebeurtenistypen, waaronder gebeurtenissen die worden geactiveerd door beveiligingsbesturingselementen zoals Windows Defender Antivirus en exploitprotection |
-| **[DeviceFileCertificateInfoBeta](advanced-hunting-devicefilecertificateinfobeta-table.md)** | Certificaatgegevens van ondertekende bestanden verkregen uit certificaatverificatiegebeurtenissen op eindpunten |
-| **[DeviceTvmSoftwareInventoryVulnerabilities](advanced-hunting-tvm-softwareinventory-table.md)** | Inventarisatie van software op apparaten en eventuele bekende kwetsbaarheden in deze softwareproducten |
-| **[DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-tvm-softwarevulnerability-table.md)** | Kennisbank van openbaar gemaakte kwetsbaarheden, waaronder de vraag of exploitcode openbaar beschikbaar is |
 | **[DeviceTvmSecureConfigurationAssessment](advanced-hunting-tvm-configassessment-table.md)** | Beoordelingsgebeurtenissen voor & kwetsbaarheidsbeheer, die de status van verschillende beveiligingsconfiguraties op apparaten aangeven |
 | **[DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-tvm-secureconfigkb-table.md)** | Kennisbank van verschillende beveiligingsconfiguraties die worden gebruikt door Threat & Vulnerability Management om apparaten te beoordelen; omvat mappings naar verschillende standaarden en benchmarks  |
-| **[AppFileEvents](advanced-hunting-appfileevents-table.md)** | Bestandsgerelateerde activiteiten in cloud-apps en -services |
+| **[DeviceTvmSoftwareInventoryVulnerabilities](advanced-hunting-tvm-softwareinventory-table.md)** | Inventarisatie van software op apparaten en eventuele bekende kwetsbaarheden in deze softwareproducten |
+| **[DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-tvm-softwarevulnerability-table.md)** | Kennisbank van openbaar gemaakte kwetsbaarheden, waaronder de vraag of exploitcode openbaar beschikbaar is |
+| **[EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md)** | Informatie over bestanden die aan e-mails zijn gekoppeld |
+| **[EmailEvents](advanced-hunting-emailevents-table.md)** | Microsoft 365-e-mailgebeurtenissen, waaronder e-mailbezorging en blokkeringsgebeurtenissen |
+| **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Informatie over URL's op Microsoft 365-e-mails |
+| **[Identiteitsinfo](advanced-hunting-identityinfo-table.md)** | Accountgegevens uit verschillende bronnen, waaronder Azure Active Directory |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Verificatiegebeurtenissen die zijn geregistreerd door Active Directory en andere onlineservices van Microsoft |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Query-activiteiten die worden uitgevoerd met Active Directory-objecten, zoals gebruikers, groepen, apparaten en domeinen |
+
+
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen

@@ -16,14 +16,14 @@ search.appverid:
 ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
 ms.collection:
 - M365-security-compliance
-description: Ontdek hoe het nieuwe inzicht in spoofintelligentie werkt, inclusief hoe u snel bepalen welke afzenders u correct e-mail verzenden.
+description: Beheerders kunnen leren hoe het inzicht in spoofintelligentie werkt, inclusief hoe u snel bepalen welke afzenders u correct e-mail verzenden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 481d248b833c7910152cd39113ff32fdc1217a5a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 4a71b885926d742f86a5a0c86443a5f5ba23b8a6
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033642"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208462"
 ---
 # <a name="walkthrough---atp-spoof-intelligence-insight-in-microsoft-365"></a>Walkthrough - ATP Spoof intelligence insight in Microsoft 365
 
@@ -35,7 +35,7 @@ Deze walkthrough is een van de vele voor het Security & Compliance Center. Zie d
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de <https://protection.office.com/searchandinvestigation/dashboard>pagina **Beveiligingsdashboard** wilt gaan, gebruikt u .
+- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina **Beveiligingsdashboard** wilt gaan, gebruikt u <https://protection.office.com/searchandinvestigation/dashboard> .
 
   U het inzicht in spoofinformatie bekijken vanuit meer dan één dashboard in het Security & Compliance Center. Ongeacht naar welk dashboard u nu kijkt, het inzicht biedt dezelfde details en stelt u in staat om snel dezelfde taken uit te voeren.
 
@@ -69,7 +69,7 @@ Deze walkthrough is een van de vele voor het Security & Compliance Center. Zie d
 
    Een **domeinpaar** is een combinatie van het Adres Van en de verzendende infrastructuur:
 
-   - Het Van-adres is het e-mailadres van de afzender dat wordt weergegeven in e-mailclients. Dit adres identificeert de auteur van de e-mail. Dat wil zeggen, het postvak van de persoon of het systeem dat verantwoordelijk is voor het schrijven van het bericht. Dit adres wordt ook `5322.From` wel het adres genoemd.
+   - Het Van-adres is het e-mailadres van de afzender dat wordt weergegeven in e-mailclients. Dit adres identificeert de auteur van de e-mail. Dat wil zeggen, het postvak van de persoon of het systeem dat verantwoordelijk is voor het schrijven van het bericht. Dit adres wordt ook wel het `5322.From` adres genoemd.
 
    - De verzendende infrastructuur, of afzender, is het organisatiedomein van de reverse DNS lookup (PTR-record) van het verzendende IP-adres. Als het verzendende IP-adres geen PTR-record heeft, wordt de afzender geïdentificeerd door het verzendende IP met het subnetmasker 255.255.0 in CIDR-notatie (/24). Als het IP-adres bijvoorbeeld 192.168.100.100 is, is het volledige IP-adres van de afzender 192.168.100.100/24.
 

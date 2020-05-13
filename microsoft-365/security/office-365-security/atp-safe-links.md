@@ -26,12 +26,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: In dit artikel leert u hoe u veilige koppelingen gebruiken om uw organisatie te beschermen tegen phishing en andere aanvallen.
-ms.openlocfilehash: 5f166848fe5c2beb46fedfaa33394e1e73c94a10
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 9f6222889d213c25c7411e39f0714ccf09cfe0d9
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045247"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208945"
 ---
 # <a name="atp-safe-links"></a>Veilige ATP-koppelingen
 
@@ -69,8 +69,8 @@ Als [er nieuwe functies aan ATP worden toegevoegd,](office-365-atp.md#new-featur
 |Rol  |Waar/hoe toegewezen  |
 |---------|---------|
 |globale beheerder |De persoon die zich aanmeldt om Microsoft 365 te kopen is standaard een globale beheerder. (Zie [Over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) voor meer informatie.)         |
-|Beveiligingsbeheerder |Azure Active Directory-beheercentrum ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-|Exchange Online Organisatiebeheer |Exchange-beheercentrum[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)( ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell)](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell) |
+|Beveiligingsbeheerder |Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
+|Exchange Online Organisatiebeheer |Exchange-beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell)](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell) |
     
 ## <a name="how-to-make-sure-atp-safe-links-protection-is-in-place"></a>Hoe zorg je ervoor dat de bescherming van ATP Safe Links aanwezig is
 
@@ -87,7 +87,7 @@ In de volgende tabel worden enkele voorbeeldscenario's beschreven waarin de besc
 |Jean is lid van een groep met een BELEID voor veilige links van ATP dat betrekking heeft op URL's in e-mail- en Office-documenten. Jean opent een PowerPoint-presentatie die iemand heeft verzonden en klikt vervolgens op een URL in de presentatie.  <br/> |Ja. Het beleid voor veilige koppelingen van ATP die is gedefinieerd, is van toepassing op jean's groep, jean's e-mail en Word-, Excel-, PowerPoint- of Visio-documenten die Jean opent, zolang Jean is aangemeld en Microsoft 365 Apps voor bedrijven gebruikt op Windows-, iOS- of Android-apparaten.  <br/> |
 |In de organisatie van Chris hebben nog geen globale of beveiligingsbeheerders beleid voor veilige koppelingen gedefinieerd. Chris ontvangt een e-mail met een URL naar een kwaadaardige website. Chris is zich niet bewust van de URL is kwaadaardig en klikt op de link.  <br/> |Nee. Het standaardbeleid dat URL's voor iedereen in de organisatie dekt, moet worden gedefinieerd om de beveiliging te kunnen beschermen.  <br/> |
 |In de organisatie van Pat hebben nog geen globale of beveiligingsbeheerders een ATP Safe Links-beleid gedefinieerd of bewerkt. Pat opent een Word-document en klikt op een URL in het bestand.  <br/> |Nee. Er moet een beleid worden gedefinieerd dat Office-documenten bevat, zodat de bescherming kan worden ingevoerd. Zie [Beleid voor veilige koppelingen van ATP instellen in Office 365](set-up-atp-safe-links-policies.md).  <br/> |
-|Lee's organisatie heeft een ATP `https://tailspintoys.com` Safe Links beleid dat is vermeld als een geblokkeerde website. Lee ontvangt een e-mailbericht `https://tailspintoys.com/aboutus/trythispage`met een URL naar . Lee klikt op de URL.  <br/> |Het hangt ervan af of de hele site en alle subpagina's zijn opgenomen in de lijst met geblokkeerde URL's. Zie [Een aangepaste geblokkeerde URL-lijst instellen met ATP Safe Links](set-up-a-custom-blocked-urls-list-atp.md).  <br/> |
+|Lee's organisatie heeft een ATP Safe Links beleid dat is `https://tailspintoys.com` vermeld als een geblokkeerde website. Lee ontvangt een e-mailbericht met een URL naar `https://tailspintoys.com/aboutus/trythispage` . Lee klikt op de URL.  <br/> |Het hangt ervan af of de hele site en alle subpagina's zijn opgenomen in de lijst met geblokkeerde URL's. Zie [Een aangepaste geblokkeerde URL-lijst instellen met ATP Safe Links](set-up-a-custom-blocked-urls-list-atp.md).  <br/> |
 |Jamie, Jean's collega, stuurt een e-mail naar Jean, niet wetende dat de e-mail een kwaadaardige URL bevat.  <br/> |Het hangt ervan af of het BELEID voor veilige links van ATP is gedefinieerd voor e-mail die binnen de organisatie wordt verzonden. Zie [Beleid voor veilige koppelingen van ATP instellen in Office 365](set-up-atp-safe-links-policies.md).  <br/> |
 
 

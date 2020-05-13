@@ -13,16 +13,16 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Beheerders kunnen meer te weten komen over de foutcodes die zijn gekoppeld aan het bezorgen van berichten met behulp van connectors (ook wel mailflow intelligence genoemd).
-ms.openlocfilehash: aa156299dcc835369b7eb69bb5719b27078d8404
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 55b57e4b487444abb57bcc184ef6fd742ea9dc1d
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635634"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44206614"
 ---
-# <a name="mail-flow-intelligence"></a>Informatie over de e-mailstroom
+# <a name="mail-flow-intelligence-in-eop"></a>Mail flow intelligence in EOP
 
-Normaal gesproken gebruikt u een connector om e-mailberichten van uw organisatie door te sturen naar uw on-premises e-mailomgeving. U ook een connector gebruiken om berichten van Microsoft 365 naar een partnerorganisatie te routeren. Wanneer Microsoft 365 deze berichten niet via de connector kan verzenden, staan ze in de wachtrij in Microsoft 365. Microsoft 365 blijft de levering voor elk bericht gedurende 24 uur opnieuw proberen. Na 24 uur verloopt het bericht in de wachtrij en wordt het bericht teruggestuurd naar de oorspronkelijke afzender in een rapport zonder levering (ook wel een NDR- of bouncebericht genoemd).
+In Microsoft 365-organisaties met postvakken in Exchange Online- of zelfstandige Exchange Online Protection-organisaties (EOP)-organisaties zonder Exchange Online-postvakken, gebruikt u meestal een connector om e-mailberichten van EOP naar uw on-premises e-mailomgeving te routeren. U ook een connector gebruiken om berichten van Microsoft 365 naar een partnerorganisatie te routeren. Wanneer Microsoft 365 deze berichten niet via de connector kan verzenden, staan ze in de wachtrij in Microsoft 365. Microsoft 365 blijft de levering voor elk bericht gedurende 24 uur opnieuw proberen. Na 24 uur verloopt het bericht in de wachtrij en wordt het bericht teruggestuurd naar de oorspronkelijke afzender in een rapport zonder levering (ook wel een NDR- of bouncebericht genoemd).
 
 Microsoft 365 genereert een fout wanneer een bericht niet kan worden geleverd met behulp van een connector. De meest voorkomende fouten en hun oplossingen worden beschreven in dit onderwerp. Gezamenlijk staan wachtrij- en meldingsfouten voor niet-leverbare berichten die via connectors worden verzonden, bekend als _mailflow intelligence._
 
@@ -72,9 +72,9 @@ Deze fout betekent doorgaans dat Microsoft 365 een verbindingsfout heeft ondervo
 
     2. Selecteer de connector met **de** **Van-waarde Office 365** en **de** **e-mailserver** van uw organisatie en doe een van de volgende stappen:
 
-       - De connector verwijderen door op pictogram **Verwijderen** ![te klikken](../../media/adf01106-cc79-475c-8673-065371c1897b.gif)
+       - De connector verwijderen door op pictogram **Verwijderen** te klikken ![](../../media/adf01106-cc79-475c-8673-065371c1897b.gif)
 
-       - Schakel de connector **Edit** ![uit door op](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) het pictogram Bewerken bewerken te klikken en schakel **het uitschakeling in .**
+       - Schakel de connector uit door op het pictogram Bewerken **bewerken** te klikken ![ en schakel het ](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **uitschakeling in .**
 
   - Wijzig het geaccepteerde domein in Microsoft 365 dat is gekoppeld aan uw on-premises e-mailomgeving van **Intern relay** naar **gezaghebbend**. Zie [Geaccepteerde domeinen beheren in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)voor instructies .
 
@@ -86,7 +86,7 @@ Deze fout betekent doorgaans dat Microsoft 365 een verbindingsfout heeft ondervo
 
 Deze fout betekent doorgaans dat Microsoft 365 is verbonden met de e-mailserver van de bestemming, maar de server heeft onmiddellijk gereageerd op een fout of niet voldoet aan de verbindingsvereisten. De foutdetails verklaren het probleem. Bijvoorbeeld:
 
-- De e-mailserver van de bestemming heeft gereageerd met een fout 'Service niet beschikbaar', wat aangeeft dat de server de communicatie met Office 365 niet kan onderhouden.
+- De e-mailserver van de bestemming heeft gereageerd met een fout 'Service niet beschikbaar', wat aangeeft dat de server de communicatie met Microsoft 365 niet kan onderhouden.
 
 - De connector is geconfigureerd om TLS te vereisen, maar de e-mailserver van de bestemming ondersteunt TLS niet.
 
@@ -102,15 +102,15 @@ Deze fout betekent doorgaans dat Microsoft 365 moeite heeft met het communiceren
 
 - Uw firewall maakt gebruik van SMTP-regels voor pakketonderzoek en deze regels werken niet goed.
 
-- Uw on-premises e-mailserver werkt niet correct (bijvoorbeeld serviceloopt, loopt vast of systeembronnen is laag), waardoor de server een time-out krijgt en de verbinding met Office 365 wordt gesloten.
+- Uw on-premises e-mailserver werkt niet correct (bijvoorbeeld serviceloopt, loopt vast of systeembronnen is laag), waardoor de server een time-out krijgt en de verbinding met Microsoft 365 sluit.
 
-- Er zijn netwerkproblemen tussen uw on-premises omgeving en Office 365.
+- Er zijn netwerkproblemen tussen uw on-premises omgeving en Microsoft 365.
 
 ### <a name="how-do-i-fix-error-code-450-44318"></a>Hoe los ik foutcode 450 4.4.318 op?
 
 - Ontdek welk scenario op u van toepassing is en breng de nodige correcties aan.
 
-- Als het probleem wordt veroorzaakt door netwerkproblemen tussen uw on-premises omgeving en Office 365, neemt u contact op met uw netwerkteam om het probleem op te lossen.
+- Als het probleem wordt veroorzaakt door netwerkproblemen tussen uw on-premises omgeving en Microsoft 365, neemt u contact op met uw netwerkteam om het probleem op te lossen.
 
 - Als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudserviceprovider), moet u contact opnemen met uw partner om het probleem op te lossen.
 

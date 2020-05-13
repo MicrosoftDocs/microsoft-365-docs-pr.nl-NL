@@ -2,8 +2,8 @@
 title: Beveiligen tegen bedreigingen
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: msfttracyp
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: Admin
 ms.topic: hub-page
@@ -16,14 +16,14 @@ search.appverid:
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over de bescherming van bedreigingen in Office 365 en configureren hoe u deze voor uw organisatie gebruiken.
+description: Beheerders kunnen meer te weten komen over bedreigingsbeveiliging in Microsoft 365 en configureren hoe ze deze kunnen gebruiken voor uw organisatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7bdc7d619f3c48318572116fbc52647a0858ec5e
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 3ed243d36866e9ebadf00a0247dd4545113788e8
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033888"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44206602"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
@@ -67,7 +67,7 @@ Zie [Machtigingen in het Security &amp; Compliance Center](permissions-in-the-se
 
 [Anti-malware bescherming](anti-malware-protection.md) is beschikbaar in abonnementen die [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)bevatten.
 
-1. Kies in het [Security & Compliance Center](https://protection.office.com)de optie Threat **management** > **Policy** > **Anti-malware**.
+1. Kies in het [Security & Compliance Center](https://protection.office.com)de optie Threat **management**  >  **Policy**  >  **Anti-malware**.
 
 2. Dubbelklik op het **standaardbeleid** en kies **instellingen**.
 
@@ -89,15 +89,15 @@ Time-of-click bescherming tegen schadelijke URL's en bestanden is beschikbaar in
 
 Als u [ATP Safe Attachments](atp-safe-attachments.md)wilt instellen, moet u ten minste één ATP-beleid voor veilige bijlagen definiëren.
 
-1. Kies [in](https://protection.office.com)het Security & Compliance Center de optie**Policy** > **ATP-veilige bijlagen**voor **beleid voor bedreigingen** > .
+1. Kies [in](https://protection.office.com)het Security & Compliance Center de optie **Threat management**  >  **Policy**  >  **ATP-veilige bijlagen**voor beleid voor bedreigingen .
 
 2. Selecteer de optie **ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams**.
 
-3. Klik in de sectie **E-mailbijlagen** **+** beveiligen op het plusteken ( ).
+3. Klik in de sectie **E-mailbijlagen beveiligen** op het plusteken ( **+** ).
 
 4. Geef de volgende instellingen op:
 
-   - Typ **Name** in het `Block malware`vak Naam .
+   - Typ in het vak **Naam** . `Block malware`
 
    - Kies **Blokkeren**in de sectie Antwoord .
 
@@ -115,17 +115,17 @@ Zie Office [365 ATP-beleid voor veilige bijlagen instellen](set-up-atp-safe-atta
 
 Als u [ATP Safe Links wilt](atp-safe-links.md)instellen, controleert en bewerkt u uw standaardbeleid en voegt u een beleid toe voor specifieke gebruikers.
 
-1. Kies [in](https://protection.office.com)het Security & Compliance Center de optie Atp Safe > **Links** **voor bedreigingsbeheerbeleid** > **Policy**.
+1. Kies [in](https://protection.office.com)het Security & Compliance Center de optie Atp Safe Links **voor bedreigingsbeheerbeleid**  >  **Policy**  >  **ATP Safe Links**.
 
 2. Dubbelklik op het **standaardbeleid.**
 
 3. Selecteer **in** de sectie Veilige koppelingen gebruiken in de optie Microsoft **365 Apps voor bedrijven, Office voor iOS en Android**en klik op **Opslaan**.
 
-4. Klik **in de sectie Beleid dat van toepassing is op specifieke ontvangers** op het plusteken (**+**).
+4. Klik **in de sectie Beleid dat van toepassing is op specifieke ontvangers** op het plusteken ( **+** ).
 
 5. Geef de volgende instellingen op:
 
-   - Typ in het vak **Naam** een `Safe Links`naam, zoals .
+   - Typ in het vak **Naam** een naam, zoals `Safe Links` .
 
    - Kies in de sectie **De actie selecteren de** optie **Aan**.
 
@@ -151,7 +151,7 @@ Zie [Beleid voor veilige koppelingen in ATP instellen in Office 365](set-up-atp-
 
 In de volgende procedure wordt beschreven hoe u een ATP-antiphishingbeleid configureert. De stappen zijn vergelijkbaar voor het configureren van een anti-phishing beleid (zonder ATP).
 
-1. Kies [in](https://protection.office.com)het Security & Compliance Center de optie Threat **management** > **Policy** > **ATP anti-phishing**.
+1. Kies [in](https://protection.office.com)het Security & Compliance Center de optie **Threat management**  >  **Policy**  >  **ATP anti-phishing**.
 
 2. Klik **op Standaardbeleid**.
 
@@ -179,13 +179,13 @@ In de volgende procedure wordt beschreven hoe u een ATP-antiphishingbeleid confi
 
 5. Sluit de pagina standaardbeleidsinstellingen.
 
-Zie [ATP-beleid voor phishing configureren in Office 365](configure-atp-anti-phishing-policies.md)voor meer informatie over de anti-phishingbeleidsopties.
+Zie [ATP-beleid voor phishing configureren](configure-atp-anti-phishing-policies.md)voor meer informatie over uw antiphishingbeleid.
 
 ## <a name="part-4---anti-spam-protection"></a>Deel 4 - Bescherming tegen spam
 
 [Bescherming tegen spam](anti-spam-protection.md) is beschikbaar in abonnementen die [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)bevatten.
 
-1. Kies in het [Security & Compliance Center](https://protection.office.com)de optie **Bedreigingsbeheer** > **Anti-spam****Policy** > .
+1. Kies [in](https://protection.office.com)het Security & Compliance Center de optie **Bedreigingsbeheer**  >  **Policy**  >  **Anti-spam**.
 
 2. Schakel op het tabblad **Aangepast** **aangepaste instellingen** in.
 
@@ -197,7 +197,7 @@ Zie [ATP-beleid voor phishing configureren in Office 365](configure-atp-anti-phi
 
 4. Klik op **Opslaan**.
 
-Zie [Beleid voor antispam configureren in Office 365](configure-your-spam-filter-policies.md)voor meer informatie over de opties voor antispambeleid.
+Zie [Beleid voor antispam configureren in EOP](configure-your-spam-filter-policies.md)voor meer informatie over de opties voor antispambeleid.
 
 ## <a name="part-5---additional-settings-to-configure"></a>Deel 5 - Extra instellingen om te configureren
 
