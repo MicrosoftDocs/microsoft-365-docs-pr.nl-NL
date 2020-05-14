@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Stel Geavanceerde bedreigingsbeveiliging van Office 365 in en bescherm gevoelige gegevens tegen phishing, malware en andere bedreigingen.
-ms.openlocfilehash: 2dd75b20bf203b9b8f0cdefb2459c45d1d0ccec1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 748868b07ac8759a66bac3c6b4165509270426a6
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627121"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224466"
 ---
 # <a name="increase-threat-protection"></a>Bedreigingsbeveiliging verbeteren
 
@@ -34,15 +34,15 @@ Met dit artikel u de bescherming in uw Microsoft 365-abonnement verhogen om te b
 
 Controleer voordat u begint de beveiligde score van Office 365. Office 365 Secure Score analyseert de beveiliging van uw organisatie op basis van uw reguliere activiteiten en beveiligingsinstellingen en kent een score toe. Begin met het noteren van uw huidige score. Voer de in dit artikel aanbevolen acties uit om uw score te verhogen. Het doel is niet om de maximale score te bereiken, maar om je bewust te zijn van mogelijkheden om je omgeving te beschermen die de productiviteit van je gebruikers niet negatief beïnvloeden. 
 
-Zie [Microsoft Secure Score voor](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score)meer informatie.
+Zie [Microsoft Secure Score voor](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score)meer informatie.
 
 ## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Verhoog het niveau van bescherming tegen malware in e-mail
 
 Uw Office 365- of Microsoft 365-omgeving biedt bescherming tegen malware. U deze bescherming verhogen door bijlagen te blokkeren met bestandstypen die vaak worden gebruikt voor malware. Ga als bedoeld als het gaat om meer bescherming tegen malware in e-mail:
   
-1. Ga [https://protection.office.com](https://protection.office.com) naar en meld u aan met uw beheerdersaccountreferenties. 
+1. Ga naar [https://protection.office.com](https://protection.office.com) en meld u aan met uw beheerdersaccountreferenties. 
     
-2. Kies in &amp; het Security Compliance Center in het linkernavigatiedeelvenster onder **Bedreigingsbeheer** **de** \> optie **Beleid Anti-Malware**.
+2. Kies in het Security &amp; Compliance Center in het linkernavigatiedeelvenster onder **Bedreigingsbeheer** **de** optie \> **Beleid Anti-Malware**.
     
 3. Dubbelklik op het standaardbeleid om dit bedrijfsbrede beleid te bewerken.
     
@@ -67,11 +67,11 @@ Naast de bestanden die u in de vorige stap hebt geblokkeerd, is het een goede ge
 
 Ga als lid van het openbaar vervoer naar een andere regel:
   
-1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>beheercentrum bij , en kies **Beheercentra** \> **Exchange**.
+1. Ga naar het beheercentrum bij <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> , en kies **Beheercentra** \> **Exchange**.
     
 2. Selecteer **regels**in de categorie **e-mailstroom** .
     
-3. Selecteer **+** en selecteer **Vervolgens Een nieuwe regel maken**.
+3. Selecteer **+** en selecteer Vervolgens Een nieuwe regel **maken**.
     
 4. Selecteer **Meer opties** onder aan het dialoogvenster om de volledige set opties te bekijken. 
     
@@ -103,7 +103,7 @@ Als u een regel voor het vervoer van e-mail wilt maken, bekijkt u [deze korte vi
     
 2. Selecteer **regels**in de categorie **e-mailstroom** .
     
-3. Selecteer **+** en selecteer **Vervolgens Een nieuwe regel maken**.
+3. Selecteer **+** en selecteer Vervolgens Een nieuwe regel **maken**.
     
 4. Als u alle opties wilt bekijken, selecteert u **Meer opties** onder aan het dialoogvenster. 
     
@@ -130,7 +130,7 @@ Als u een ATP-antiphishingbeleid wilt maken, bekijkt u [deze korte trainingsvide
   
 1. Ga naar [https://protection.office.com](https://protection.office.com). 
     
-2. Kies &amp; **Beleid**in het Beveiligingscompliancecentrum in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**.
+2. Kies Beleid in het &amp; Beveiligingscompliancecentrum in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**. **Policy**
     
 3. Kies **op** de pagina Beleid **atp-antiphishing**.
     
@@ -147,10 +147,10 @@ Als u een ATP-antiphishingbeleid wilt maken, bekijkt u [deze korte trainingsvide
 |Beschrijving  <br/> |Zorg ervoor dat de belangrijkste medewerkers en ons domein niet worden nagebootst.  <br/> |
 |Gebruikers toevoegen om te beschermen  <br/> |Selecteer **+ Voeg een voorwaarde toe, De ontvanger is**. Typ gebruikersnamen of voer het e-mailadres in van de kandidaat, campagnemanager en andere belangrijke medewerkers. U maximaal 20 interne en externe adressen toevoegen die u wilt beschermen tegen imitatie.  <br/> |
 |Domeinen toevoegen om te beschermen  <br/> |Selecteer **+ Een voorwaarde toevoegen, Het domein van de geadresseerden is**. Voer het aangepaste domein in dat is gekoppeld aan uw Microsoft 365-abonnement als u er een hebt gedefinieerd. U meer dan één domein invoeren.  <br/> |
-|Acties kiezen  <br/> |Als e-mail wordt verzonden door een nagebootste gebruiker: Kies **Bericht omleiden naar een ander e-mailadres**en typ vervolgens het e-mailadres van de beveiligingsbeheerder. *Bijvoorbeeld<span><span>Alice @contoso.com*. Als e-mail wordt verzonden door een nagebootst domein: Kies **Quarantainebericht**.  <br/> |
+|Acties kiezen  <br/> |Als e-mail wordt verzonden door een nagebootste gebruiker: Kies **Bericht omleiden naar een ander e-mailadres**en typ vervolgens het e-mailadres van de beveiligingsbeheerder. *Bijvoorbeeld Alice <span> <span> @contoso.com*. Als e-mail wordt verzonden door een nagebootst domein: Kies **Quarantainebericht**.  <br/> |
 |Postvakintelligentie  <br/> |Postvakinformatie wordt standaard geselecteerd wanneer u een nieuw antiphishingbeleid maakt. Laat deze instelling **Aan** voor de beste resultaten.  <br/> |
 |Vertrouwde afzenders en domeinen toevoegen  <br/> |Hier u uw eigen domein of andere vertrouwde domeinen toevoegen.  <br/> |
-|Toegepast op  <br/> |Selecteer **Het domein van de geadresseerde is**. Selecteer **onder Een van deze**opties **Kiezen**. Selecteer **+ Toevoegen**. Schakel het selectievakje in naast de naam van het domein, bijvoorbeeld *contoso.<span> com <span>*, in de lijst en selecteer **Toevoegen**. Selecteer **Gereed**.  <br/> |
+|Toegepast op  <br/> |Selecteer **Het domein van de geadresseerde is**. Selecteer **onder Een van deze**opties **Kiezen**. Selecteer **+ Toevoegen**. Schakel het selectievakje in naast de naam van het domein, bijvoorbeeld *contoso. <span> <span> com*, in de lijst en selecteer **Toevoegen**. Selecteer **Gereed**.  <br/> |
   
 ## <a name="protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>Beschermen tegen schadelijke bijlagen en bestanden met ATP Safe Attachments
 
@@ -158,9 +158,9 @@ Mensen verzenden, ontvangen en delen regelmatig bijlagen, zoals documenten, pres
   
 Als u een ATP-beleid voor veilige bijlagen wilt maken, bekijkt u [deze korte video](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)of voert u de volgende stappen uit:
   
-1. Ga [https://protection.office.com](https://protection.office.com)naar en meld je aan met je beheerdersaccount. 
+1. Ga naar [https://protection.office.com](https://protection.office.com) en meld je aan met je beheerdersaccount. 
     
-2. Kies &amp; **Beleid**in het Beveiligingscompliancecentrum in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**.
+2. Kies Beleid in het &amp; Beveiligingscompliancecentrum in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**. **Policy**
     
 3. Kies op de pagina Beleid de optie **Veilige ATP-bijlagen**.
     
@@ -195,9 +195,9 @@ Wij raden u aan het volgende te doen:
     
 Als u ATP Safe Links wilt instellen, bekijkt u [deze korte trainingsvideo](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa)of voert u de volgende stappen uit:
   
-1. Ga [https://protection.office.com](https://protection.office.com)naar en meld je aan met je beheerdersaccount. 
+1. Ga naar [https://protection.office.com](https://protection.office.com) en meld je aan met je beheerdersaccount. 
     
-2. Kies &amp; **Beleid**in het Beveiligingscompliancecentrum in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**.
+2. Kies Beleid in het &amp; Beveiligingscompliancecentrum in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**. **Policy**
     
 3. Kies op de pagina Beleid de optie **Veilige links van ATP**.
     
@@ -211,7 +211,7 @@ Ga als u het standaardbeleid wijzigen:
     
 Ga als bedoeld als het gaat om een nieuw beleid te maken dat is gericht op alle ontvangers in uw domein:
   
-1. Selecteer **+** op de pagina Veilige koppelingen onder **Beleid dat van toepassing is op de hele organisatie**om een nieuw beleid te maken. 
+1. Selecteer op de pagina Veilige koppelingen onder **Beleid dat van toepassing is op de hele organisatie**om een nieuw beleid te **+** maken. 
     
 2. Pas de instellingen in de volgende tabel toe.
     
