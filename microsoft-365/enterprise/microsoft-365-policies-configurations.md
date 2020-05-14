@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 0512d51f2789383c7612c3dbd97c0a77c2c4c7fa
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: 4ffc6a8771a93e0aea4583dce092109afe57175d
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214660"
+ms.locfileid: "44222325"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
@@ -120,7 +120,7 @@ In deze richtlijnen ziet u hoe u aanbevolen beleidsregels maken om het gebruik v
 
 In deze richtlijnen ziet u hoe u een set beleidsregels implementeert om de toegang tot Office 365 te beschermen, waaronder Exchange Online, SharePoint Online en OneDrive voor Bedrijven. Naast het implementeren van dit beleid, raden we u aan ook het beschermingsniveau voor uw tenant te verhogen met behulp van deze resources:
 
-- [Configureer uw tenant voor meer beveiliging:](https://support.office.com/article/Configure-your-Office-365-tenant-for-increased-security-8d274fe3-db51-4107-ba64-865e7155b355)deze aanbevelingen zijn van toepassing op basislijnbeveiliging voor uw tenant.
+- [Configureer uw tenant voor meer beveiliging:](https://docs.microsoft.com/microsoft-365/security/office-365-security/tenant-wide-setup-for-increased-security)deze aanbevelingen zijn van toepassing op basislijnbeveiliging voor uw tenant.
 - [Microsoft 365-beveiligingsroadmap: topprioriteiten voor de eerste 30 dagen, 90 dagen en verder:](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)deze aanbevelingen omvatten logboekregistratie, gegevensbeheer, beheerderstoegang en bescherming tegen bedreigingen.
 
 

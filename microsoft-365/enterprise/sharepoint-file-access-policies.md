@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 2b0d015485196bc76e7de580c888892967fe5d05
-ms.sourcegitcommit: c079cc893cd1bd5d894b13814063a2f42238806e
+ms.openlocfilehash: 6429c3dee32087d6e82a427b2f374ec49bab5cac
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43035121"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222683"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Beleidsaanbevelingen voor het beveiligen van SharePoint-sites en -bestanden
 
@@ -46,7 +46,7 @@ In de volgende tabel worden de beleidsregels weergegeven die u moet controleren 
 |Beschermingsniveau|Beleid|Meer informatie|
 |:---------------|:-------|:----------------|
 |**Basislijn**|[MFA vereisen wanneer het aanmeldingsrisico *gemiddeld* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|SharePoint Online opnemen in de toewijzing van cloud-apps|
-|        |[Cliënten blokkeren die geen moderne verificatie ondersteunen](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|SharePoint Online opnemen in de toewijzing van cloud-apps|
+|        |[Clients blokkeren die moderne verificatie niet ondersteunen](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|SharePoint Online opnemen in de toewijzing van cloud-apps|
 |        |[App-beleid voor gegevensbescherming toepassen](identity-access-policies.md#apply-app-data-protection-policies)|Zorg ervoor dat alle aanbevolen apps zijn opgenomen in de lijst met apps. Zorg ervoor dat u het beleid voor elk platform bijwerkt (iOS, Android, Windows)|
 |        |[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|SharePoint Online opnemen in lijst met cloud-apps|
 |        |[Beperkingen voor app-beperkingen gebruiken in SharePoint Online](#use-app-enforced-restrictions-in-sharepoint-online)|Voeg dit nieuwe beleid toe. Hiermee moet Azure AD de instellingen gebruiken die zijn opgegeven in SharePoint Online. Deze regel is van toepassing op alle gebruikers, maar heeft alleen invloed op de toegang tot sites die zijn opgenomen in het toegangsbeleid van SharePoint Online|
@@ -60,7 +60,7 @@ In de volgende tabel worden de beleidsregels weergegeven die u moet controleren 
 
 Als u toegangsbesturingselementen implementeert in SharePoint Online, moet u dit beleid voor voorwaardelijke toegang in Azure AD maken om Azure AD te vertellen dat het beleid dat u configureert in SharePoint Online moet worden gehandhaafd. Deze regel is van toepassing op alle gebruikers, maar is alleen van invloed op de toegang tot de sites die u opgeeft met PowerShell wanneer u de toegangsbesturingselementen in SharePoint Online maakt.
 
-Zie Toegang tot specifieke SharePoint-siteverzamelingen of OneDrive-accounts blokkeren of beperken in dit artikel voor het configureren van dit beleid: [Toegang beheren vanaf niet-beheerde apparaten](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622).
+Zie Toegang tot specifieke SharePoint-siteverzamelingen of OneDrive-accounts blokkeren of beperken in dit artikel voor het configureren van dit beleid: [Toegang beheren vanaf niet-beheerde apparaten](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices).
 
 ## <a name="sharepoint-online-access-control-policies"></a>Beleid voor toegangsbeheer van SharePoint Online
 
@@ -69,7 +69,7 @@ Microsoft raadt u aan inhoud in SharePoint-sites te beschermen met gevoelige en 
 - Gevoelige sites: geef alleen browsertoegang toe. Dit voorkomt dat gebruikers bestanden bewerken en downloaden.
 - Sterk gereguleerde sites: blokkeer de toegang vanaf onbeheerde apparaten.
 
-Zie 'Toegang blokkeren of beperken tot specifieke SharePoint-siteverzamelingen of OneDrive-accounts' in dit artikel: [Toegang beheren vanaf niet-beheerde apparaten](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622).
+Zie 'Toegang blokkeren of beperken tot specifieke SharePoint-siteverzamelingen of OneDrive-accounts' in dit artikel: [Toegang beheren vanaf niet-beheerde apparaten](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices).
 
 ## <a name="how-these-policies-work-together"></a>Hoe dit beleid samenwerkt
 
@@ -79,7 +79,7 @@ In de volgende afbeelding vindt u een voorbeeld van hoe het beleid voor toegang 
 
 ![Hoe sharepoint-beleid voor toegang tot apparaten sites beschermt](../media/SharePoint-rules-scenario.png)
 
-In de illustratie:
+In de afbeelding:
 
 - James is toegewezen aan beleid voor voorwaardelijke toegang dat is gekoppeld aan basislijnbeveiliging, maar hij kan toegang krijgen tot SharePoint-sites die zijn gekoppeld aan gevoelige of sterk gereguleerde bescherming.
 - Als James toegang heeft tot een gevoelige of sterk gereguleerde site waar hij lid van is, wordt zijn toegang verleend zolang zijn pc voldoet.
@@ -88,4 +88,4 @@ In de illustratie:
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[SharePoint Online-sites en -bestanden beveiligen](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files)
+[Sites en bestanden van SharePoint Online beveiligen](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files)

@@ -1,5 +1,5 @@
 ---
-title: RReport ongewenste en phishing-e-mail in de webversie van Outlook
+title: Ongewenste en phishing-e-mail melden in de webversie van Outlook
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen meer te weten komen over de ingebouwde opties voor ongewenste e-mail, niet voor ongewenste e-mail en phishing in de webversie van Outlook (Outlook Web App) in Exchange Online en hoe u deze rapportageopties voor gebruikers uitschakelen.
-ms.openlocfilehash: 1ec226259ccb3dac9a01ee8d4c5fc635c0fc5702
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: dd4b23efa9e12a02ce69167712bc0466b3445c44
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206476"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224695"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-exchange-online"></a>Ongewenste en phishing-e-mail melden in de webversie van Outlook in Exchange Online
 

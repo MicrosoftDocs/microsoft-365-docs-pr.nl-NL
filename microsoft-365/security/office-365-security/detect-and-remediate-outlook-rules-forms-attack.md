@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Meer informatie over het herkennen en herstellen van outlook-regels en aangepaste aanvallen op het uitvoeren van formulieren in Office 365
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6e818d05465f7b91268cc44c345c6699e8c6d0ed
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e18635b9b9d090dbc2808b5b8142b59ec1f29c6e
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034814"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224587"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook-regels en injecties met aangepaste formulieren detecteren en herstellen
 
@@ -137,7 +137,7 @@ U moet een globale beheerdersrechten hebben om het script uit te voeren, omdat h
 
 3. Open een PowerShell-instantie als beheerder en open de map waarop u het script hebt opgeslagen.
 
-4. Voer deze PowerShell-opdrachtregel als volgt uit `.\Get-AllTenantRulesAndForms.ps1`.\Get-AllTenantRulesAndForms.ps1
+4. Voer deze PowerShell-opdrachtregel als volgt uit `.\Get-AllTenantRulesAndForms.ps1` .\Get-AllTenantRulesAndForms.ps1
 
 #### <a name="interpreting-the-output"></a>De uitvoer interpreteren
 
@@ -159,7 +159,7 @@ Als u enig bewijs van een van deze aanvallen, herstel is eenvoudig, verwijder ge
 
 1. Identificeer alle apparaten die de gebruiker met Outlook heeft gebruikt. Ze zullen allemaal moeten worden gereinigd van potentiële malware. Sta niet toe dat de gebruiker zich aanmeldt en e-mail gebruikt totdat alle apparaten zijn schoongemaakt.
 
-2. Volg de stappen in Een regel voor elk apparaat [verwijderen.](https://support.office.com/article/2f0e7139-f696-4422-8498-44846db9067f)
+2. Volg de stappen in Een regel voor elk apparaat [verwijderen.](https://support.microsoft.com/en-us/office/delete-a-rule-2f0e7139-f696-4422-8498-44846db9067f)
 
 3. Als u niet zeker bent over de aanwezigheid van andere malware, u alle software op het apparaat opmaken en opnieuw installeren. Voor mobiele apparaten u de stappen van de fabrikant volgen om het apparaat opnieuw in te stellen op de fabrieksafbeelding.
 

@@ -25,19 +25,19 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Voeg uw domein toe aan Office 365 in het Microsoft 365-beheercentrum door een DNS-record toe te voegen aan uw DNS-host. De setup wizard begeleidt u door het proces.
-ms.openlocfilehash: bab4da6e4a8191d91ccdd38dd54f62f4d790c3b8
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 336e6ee78d7020d73c7e00f639e8f1e1b20c62cd
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140773"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222337"
 ---
-# <a name="add-a-domain-to-office-365"></a>Een domein toevoegen aan Office 365
+# <a name="add-a-domain-to-microsoft-365"></a>Een domein toevoegen aan Microsoft 365
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -74,7 +74,7 @@ ms.locfileid: "44140773"
 
 ::: moniker-end
     
-2. Ga naar de pagina > **Setup-domeinen.** **Setup** 
+2. Ga naar **Setup**de pagina  >  **Setup-domeinen.** 
 
 3. Selecteer **Domein toevoegen**.
     
@@ -82,7 +82,7 @@ ms.locfileid: "44140773"
     
 5. Kies hoe u wilt controleren of u eigenaar bent van het domein.
     
-    1. Als uw domein is geregistreerd&amp;bij GoDaddy of 11, selecteert u **Aanmelden** > **volgende** en stelt Microsoft uw records[automatisch in.](../get-help-with-domains/domain-connect.md)
+    1. Als uw domein is geregistreerd bij GoDaddy of &amp; 11, selecteert u **Aanmelden**  >  **volgende** en stelt Microsoft [uw records automatisch in.](../get-help-with-domains/domain-connect.md)
     
     2. U kunt een e-mailbericht met een verificatiecode laten verzenden naar de geregistreerde contactpersoon voor het domein. Als u de e-mail niet herkent of hebt, u de derde optie gebruiken.
     
@@ -113,9 +113,9 @@ ms.locfileid: "44140773"
 
 Volg de onderstaande stappen om een aangepaste record toe te voegen voor een website of service van derden.
 
-1. Meld u aan bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>het Microsoft-beheercentrum op .
+1. Meld u aan bij het Microsoft-beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
-2. Ga naar de pagina  > **Instellingendomeinen.** **Settings**
+2. Ga naar **Settings**de pagina   >  **Instellingendomeinen.**
 
 3. Selecteer een domein op de pagina **Domeinen**. 
     
@@ -136,7 +136,7 @@ In de wizard bevestigen we alleen dat u eigenaar bent van het domein en stellen 
   
 ### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>Domain Connect-registrars die integreren met Microsoft 365
 
-- [1&amp;1 IONOS](https://www.1and1.com/)
+- [1 &amp; 1 IONOS](https://www.1and1.com/)
 - [123Reg](https://www.123-reg.co.uk/)
 - [Godaddy](https://www.godaddy.com/)
 - [Wordpress](https://wordpress.com/)

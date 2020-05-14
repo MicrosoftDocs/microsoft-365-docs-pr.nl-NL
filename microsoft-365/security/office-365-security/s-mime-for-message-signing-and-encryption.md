@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: Beheerders kunnen meer te weten komen over het gebruik van S/MIME (Secure/Multipurpose Internet Mail Extensions) in Exchange Online om e-mails te versleutelen en digitaal te ondertekenen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8c45df36535e7b5af2648b82f83159315b94bec8
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: cf9859240914e078eb62b0e914f8de79cf647f2d
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036618"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224671"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>S/MIME voor het ondertekenen en versleutelen van berichten in Exchange Online
 
@@ -51,7 +51,7 @@ De stappen die u volgt om S/MIME in te stellen met elk van deze eindpunten zijn 
 5. Stel het Outlook- of EAS-eindpunt in om S/MIME te gebruiken.
 
 > [!NOTE]
-> U s/mime-besturingselement niet installeren in Outlook op de web op Mac, iOS, Android of andere niet-Windows-apparaten. Zie [Berichten versleutelen met S/MIME in de webversie van Outlook voor](https://support.office.com/article/878c79fc-7088-4b39-966f-14512658f480)meer informatie.
+> U s/mime-besturingselement niet installeren in Outlook op de web op Mac, iOS, Android of andere niet-Windows-apparaten. Zie [Berichten versleutelen met S/MIME in de webversie van Outlook voor](https://support.microsoft.com/en-us/office/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480)meer informatie.
 
 ## <a name="setup-smime-with-outlook-on-the-web"></a>S/MIME instellen met de webversie van Outlook
 

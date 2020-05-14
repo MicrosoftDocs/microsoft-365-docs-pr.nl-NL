@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 99a124ff57816481cde92dd79c3058a2e7b72d31
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: bfbb0481670b2f957bf240c261fcbafab96717b9
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625204"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222587"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Voorwaarde voor het implementeren van identiteits- en apparaattoegangsbeleid
 
@@ -42,7 +42,7 @@ Voordat u het aanbevolen beleid voor identiteits- en apparaattoegangsbeleid impl
 | **Bereid je ondersteuningsteam voor.** Heb een plan voor gebruikers die MFA niet kunnen voltooien. Dit kan zijn ze toe te voegen aan een groep beleidsuitsluiting of het registreren van nieuwe MFA-informatie voor hen. Voordat u een van deze beveiligingsgevoelige wijzigingen aanbrengt, moet u ervoor zorgen dat de werkelijke gebruiker de aanvraag indient. Het is een effectieve stap om gebruikersmanagers te verplichten om te helpen met de goedkeuring. | Ja | Ja | Ja | Ja |  
 | [Wachtwoordterugschrijven configureren naar on-premises AD](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started). Met terugschrijfinformatie met wachtwoorden kan Azure AD vereisen dat gebruikers hun on-premises wachtwoorden wijzigen wanneer een compromis met een hoog risico-account wordt gedetecteerd. U deze functie op twee manieren inschakelen met Azure AD Connect: schakel **Wachtwoordwriteback** in het optionele functiesscherm van de installatiewizard Azure AD Connect in of schakel deze in via Windows PowerShell. |   | Ja | Ja | Ja |
 | [Azure Active Directory Identity Protection inschakelen](https://docs.microsoft.com/azure/active-directory/identity-protection/enable). Azure AD Identity Protection stelt u in staat om potentiële kwetsbaarheden te detecteren die van invloed zijn op de identiteit van uw organisatie en een geautomatiseerd herstelbeleid te configureren voor laag, gemiddeld en hoog aanmeldingsrisico en gebruikersrisico.Azure AD Identity Protection enables you to detecting potential vulnerabilities affecting your organization's identities and configure an automated remediation policy to low, medium, and high sign-in risk and user risk.  | Ja | Ja | Ja | Ja |
-| **Moderne verificatie inschakelen** voor [Exchange Online](https://support.office.com/article/Enable-or-disable-modern-authentication-in-Exchange-Online-58018196-f918-49cd-8238-56f57f38d662) en voor Skype voor [Bedrijven Online](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx). Moderne verificatie is een voorwaarde voor het gebruik van multi-factor authenticatie (MFA). Moderne verificatie is standaard ingeschakeld voor Office 2016-clients, SharePoint Online en OneDrive voor Bedrijven. | Ja | Ja | Ja | Ja |
+| **Moderne verificatie inschakelen** voor [Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) en voor Skype voor [Bedrijven Online](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx). Moderne verificatie is een voorwaarde voor het gebruik van multi-factor authenticatie (MFA). Moderne verificatie is standaard ingeschakeld voor Office 2016-clients, SharePoint Online en OneDrive voor Bedrijven. | Ja | Ja | Ja | Ja |
 ||||||
 
 
@@ -69,7 +69,7 @@ De volgende e-mailclients ondersteunen moderne verificatie en voorwaardelijke to
 
 |Platform|Client|Versie/notities|
 |:-------|:-----|:------------|
-|**Windows**|Outlook|2016, 2013 [Moderne verificatie inschakelen](https://support.office.com/article/Enable-Modern-Authentication-for-Office-2013-on-Windows-devices-7dc1c01a-090f-4971-9677-f1b192d6c910), Vereiste [updates](https://support.office.com/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|
+|**Windows**|Outlook|2016, 2013 [Moderne verificatie inschakelen](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication), Vereiste [updates](https://support.office.com/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|
 |**Ios**|Outlook voor iOS|[Laatste](https://itunes.apple.com/us/app/microsoft-outlook-email-and-calendar/id951937596?mt=8)|
 |**Android**|Outlook voor Android|[Laatste](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en)|
 |**Macos**|Outlook|2016|
@@ -91,7 +91,7 @@ De volgende clients worden aanbevolen wanneer een beleid voor beveiligde documen
 |Macos|Openbare preview|Openbare preview|N.v.t.|N.v.t.|Niet ondersteund|
 |Linux|Niet ondersteund|Niet ondersteund|Niet ondersteund|Niet ondersteund|Niet ondersteund|
 
-<sup>*</sup>Meer informatie over het gebruik van voorwaardelijke toegang met de [Synchronisatieclient van OneDrive](https://support.office.com/article/Azure-Active-Directory-conditional-access-with-the-OneDrive-sync-client-on-Windows-028d73d7-4b86-4ee0-8fb7-9a209434b04e).
+<sup>*</sup>Meer informatie over het gebruik van voorwaardelijke toegang met de [Synchronisatieclient van OneDrive](https://docs.microsoft.com/onedrive/enable-conditional-access).
 
 ### <a name="microsoft-365-client-support"></a>Microsoft 365-clientondersteuning
 Zie de volgende artikelen voor meer informatie over clientsupport:
@@ -114,7 +114,7 @@ Zie [Basislijnbeveiligingsbeleid voor Azure AD-beheerdersaccounts voor](https://
 Aanvullende aanbevelingen zijn onder meer:
 - Gebruik Azure AD Privileged Identity Management om het aantal permanente beheerdersaccounts te verminderen. Zie [Pim gebruiken.](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-getting-started) 
 - [Gebruik privileged access management in Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview) om uw organisatie te beschermen tegen inbreuken die bestaande bevoegde beheerdersaccounts kunnen gebruiken met permanente toegang tot gevoelige gegevens of toegang tot kritieke configuratie-instellingen. 
-- Gebruik alleen beheerdersaccounts voor beheer. Beheerders moeten een apart gebruikersaccount hebben voor regelmatig niet-administratief gebruik en gebruiken hun beheerdersaccount alleen wanneer dat nodig is om een taak te voltooien die is gekoppeld aan hun functie. [Microsoft 365-beheerdersrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) hebben aanzienlijk meer bevoegdheden dan Microsoft 365-services.
+- Gebruik alleen beheerdersaccounts voor beheer. Beheerders moeten een apart gebruikersaccount hebben voor regelmatig niet-administratief gebruik en gebruiken hun beheerdersaccount alleen wanneer dat nodig is om een taak te voltooien die is gekoppeld aan hun functie. [Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) hebben aanzienlijk meer bevoegdheden dan Microsoft 365-services.
 - Volg aanbevolen procedures voor het beveiligen van bevoegde accounts in Azure AD zoals beschreven in dit [artikel.](https://docs.microsoft.com/azure/active-directory/admin-roles-best-practices)
 
 ## <a name="next-steps"></a>Volgende stappen

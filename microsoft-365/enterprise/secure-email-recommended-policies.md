@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 24cf0f9b4965b20f3a03dd64795985a082fdc847
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e469f0d1c0be85aeb5f98a4f2e6e2758cddd8450
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631403"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222695"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Beleidsaanbevelingen voor het beveiligen van e-mail
 
@@ -42,7 +42,7 @@ Als u Exchange Online en Outlook hebt opgenomen in het toepassingsgebied van het
 |Beschermingsniveau|Beleid|Meer informatie|
 |:---------------|:-------|:----------------|
 |**Basislijn**|[MFA vereisen wanneer het aanmeldingsrisico *gemiddeld* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Exchange Online opnemen in de toewijzing van cloud-apps|
-|        |[Cliënten blokkeren die geen moderne verificatie ondersteunen](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Exchange Online opnemen in de toewijzing van cloud-apps|
+|        |[Clients blokkeren die moderne verificatie niet ondersteunen](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Exchange Online opnemen in de toewijzing van cloud-apps|
 |        |[App-beleid voor gegevensbescherming toepassen](identity-access-policies.md#apply-app-data-protection-policies)|Zorg ervoor dat Outlook is opgenomen in de lijst met apps. Zorg ervoor dat u het beleid voor elk platform bijwerkt (iOS, Android, Windows)|
 |        |[Goedgekeurde apps en APP-beveiliging vereisen](identity-access-policies.md#require-approved-apps-and-app-protection)|Exchange Online opnemen in de lijst met cloud-apps|
 |        |[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Exchange Online opnemen in lijst met cloud-apps|
@@ -61,7 +61,7 @@ Met dit beleid voorkomt u dat ActiveSync-clients andere regels voor voorwaardeli
 
 Met de nieuwe OME-mogelijkheden (Office 365 Message Encryption), die gebruikmaken van de beveiligingsfuncties in Azure Information Protection, kan uw organisatie beveiligde e-mail eenvoudig met iedereen op elk apparaat delen. Gebruikers kunnen beveiligde berichten verzenden en ontvangen met andere Microsoft 365-organisaties en niet-klanten die Outlook.com, Gmail en andere e-mailservices gebruiken.
 
-Zie [Nieuwe Office 365-berichtenversleutelingsmogelijkheden instellen](https://support.office.com/article/set-up-new-office-365-message-encryption-capabilities-7ff0c040-b25c-4378-9904-b1b50210d00e)voor meer informatie.
+Zie [Nieuwe Office 365-berichtenversleutelingsmogelijkheden instellen](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities)voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 
