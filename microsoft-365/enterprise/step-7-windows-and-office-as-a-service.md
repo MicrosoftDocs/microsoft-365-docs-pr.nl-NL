@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees hoe u het onderhoud voor Windows en Office in uw omgeving kunt voorbereiden.
-ms.openlocfilehash: bca8fbf39bbbcc7b0a37512383caf630ffe3da67
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: f30581408be1c69d7aec7e31e9b5d6461266adb1
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011613"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222671"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>Stap 7: Service van Windows en Office
 
@@ -95,7 +95,7 @@ Windows 10 biedt drie servicekanalen:
 
 Microsoft 365 biedt vier servicekanalen:
 
-- Met het [**Office Insider-programma**](https://support.office.com/article/What-is-Office-Insider-f4208185-b63a-4b68-9c7a-9a32d2411c16) voor organisaties kunnen zij de nieuwste Office-functies en -functionaliteiten die nog in ontwikkeling zijn, testen en feedback erover geven
+- Met het [**Office Insider-programma**](https://products.office.com/office-insider) voor organisaties kunnen zij de nieuwste Office-functies en -functionaliteiten die nog in ontwikkeling zijn, testen en feedback erover geven
 - **Monthly-kanaal** om gebruikers te voorzien van de nieuwste Office-functies zodra deze beschikbaar zijn
 - **Semi-annual-kanaal** biedt slechts tweemaal per jaar nieuwe functies met functie-updates
 - **Semi-annual-kanaal (targeted)** is een volledig ondersteunde build van Office die pilot-gebruikers en testers van toepassingscompatibiliteit de mogelijkheid biedt het volgende Semi-annual-kanaal te testen en te valideren.

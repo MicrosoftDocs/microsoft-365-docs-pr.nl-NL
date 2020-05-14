@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Meer informatie over het voorbereiden van uw eindgebruikers op Windows 10 en Microsoft 365-apps voor ondernemingen met communicatie en training voor gebruikers.
-ms.openlocfilehash: 7497925b7efd66dd4b86dd4d64df81490bbc7d90
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e6118e1029186c84bebdb0fee079364f22356c2e
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636745"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222659"
 ---
 # <a name="step-8-user-communications-and-training"></a>Stap 8: Communicatie en training voor gebruikers
 
@@ -61,7 +61,7 @@ Er zijn ook zichtbare besturingselementen voor beveiliging en compliance waaraan
 
 Als u bijvoorbeeld meervoudige verificatie geeft ingeschakeld, gebruikt deze Azure AD en beschermt gebruikersaanmelding door het gebruik van een telefoon-app of PIN om veilig van diensten gebruik te kunnen maken.  Azure Information Protection maakt het eenvoudig voor gebruikers om documenten te classificeren en te labelen.
 
-[Meervoudige verificatie instellen voor gebruikers](https://support.office.com/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
+[Meervoudige verificatie instellen voor gebruikers](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)
 
 Dit zijn slechts één van de nieuwe mogelijkheden die door uw gebruikers zullen worden ervaren. Sommigen zullen als verrassend worden gezien, ofwel positief of minder positief. Deze verrassingen kunnen leiden tot meer telefoontjes en vragen voor uw helpdesk, vooral als het hun normale workflow verandert.
 

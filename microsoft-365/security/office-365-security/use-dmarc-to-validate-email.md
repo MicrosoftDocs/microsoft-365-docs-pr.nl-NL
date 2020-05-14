@@ -15,12 +15,12 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: Informatie over het configureren van DMARC (Domain-based Message Authentication, Reporting, and Conformance) om berichten te valideren die zijn verzonden vanuit uw organisatie.
-ms.openlocfilehash: 9de3ef1218be8152dc0795809c21efe8a93fd659
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 9ae159ccb2673fd9c8538b184e4de1b8e1c2b039
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708545"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224575"
 ---
 # <a name="use-dmarc-to-validate-email"></a>DMARC gebruiken om e-mail te valideren
 
@@ -168,7 +168,7 @@ Voorbeelden:
     _dmarc.contoso.com  3600 IN  TXT  "v=DMARC1; p=reject"
     ```
 
-Wanneer u het record hebt gemaakt, moet u het record bij uw domeinregistrar bijwerken. Zie [DNS-records voor Microsoft 365 maken wanneer u uw DNS-records beheert](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23) voor instructies over het toevoegen van het DMARC TXT-record aan uw DNS-records voor Microsoft 365.
+Wanneer u het record hebt gemaakt, moet u het record bij uw domeinregistrar bijwerken. Zie [DNS-records voor Microsoft 365 maken wanneer u uw DNS-records beheert](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) voor instructies over het toevoegen van het DMARC TXT-record aan uw DNS-records voor Microsoft 365.
 
 ## <a name="best-practices-for-implementing-dmarc-in-microsoft-365"></a>Aanbevolen procedures voor implementatie van DMARC in Microsoft 365
 
