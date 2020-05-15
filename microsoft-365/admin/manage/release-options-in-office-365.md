@@ -21,23 +21,23 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Meer informatie over het instellen van de releaseoptie voor nieuwe product- en functiesupdates in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: fc931893e95ff053cd251b6c1b12bfdbaadf49ae
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 3a7a0562edef527718816bba6e67ea948cfad6b5
+ms.sourcegitcommit: 708857a82eab3d37da1dec027399b09bd306a5dd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139647"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44249882"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>De standaard- of gerichte releaseopties instellen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
-Met Microsoft 365 ontvangt u nieuwe productupdates en -functies zodra deze beschikbaar zijn in plaats van om de paar jaar dure updates uit te voeren. U kunt beheren hoe uw organisatie deze updates ontvangt. U kunt u bijvoorbeeld registreren voor een vroege release, zodat uw organisatie updates als eerste ontvangt. U kunt bepaalde personen aanwijzen die als enigen de updates ontvangen. Of u blijft het standaardreleaseschema volgen en ontvangt de updates later. In dit artikel worden de verschillende releaseopties besproken en wordt uitgelegd hoe u deze kunt gebruiken voor uw organisatie.
+Met Microsoft 365 ontvangt u nieuwe productupdates en -functies zodra deze beschikbaar zijn in plaats van om de paar jaar dure updates uit te voeren. U kunt beheren hoe uw organisatie deze updates ontvangt. U kunt u bijvoorbeeld registreren voor een vroege release, zodat uw organisatie updates als eerste ontvangt. U kunt bepaalde personen aanwijzen die als enigen de updates ontvangen. Of u blijft het standaardreleaseschema volgen en ontvangt de updates later. In dit artikel worden de verschillende releaseopties uitgelegd en hoe u deze gebruiken voor uw organisatie.
   
 > [!IMPORTANT]
 > De in dit artikel beschreven Microsoft 365-updates zijn van toepassing op Microsoft 365, SharePoint Online en Exchange Online. Ze zijn niet van toepassing op Skype voor Bedrijven en gerelateerde services. Deze release opties zijn gericht, best effort manieren om wijzigingen in Microsoft 365 release, maar kan niet worden gegarandeerd te allen tijde of voor alle updates. 
@@ -48,7 +48,7 @@ Elke nieuwe release wordt eerst getest en gevalideerd door het featureteam, verv
   
 ![Validatieringen vrijgeven voor Microsoft 365](../../media/73611ed3-2d8c-4e7b-8074-9f03b239f9ed.png)
   
-Voor belangrijke updates worden Office-klanten in eerste instantie op de hoogte gebracht door de [Microsoft 365 Roadmap.](https://products.office.com/business/office-365-roadmap) Naarmate een update dichter bij de uitrol komt, wordt deze gecommuniceerd via uw [Microsoft 365 Message Center.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter)
+Voor belangrijke updates worden klanten in eerste instantie op de hoogte gebracht door de [Microsoft 365 Roadmap.](https://products.office.com/business/office-365-roadmap) Naarmate een update dichter bij de uitrol komt, wordt deze gecommuniceerd via uw [Microsoft 365 Message Center.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter)
 
 > [!NOTE]
 > U hebt een Microsoft 365- of Azure AD-account nodig om toegang te krijgen tot uw Berichtencentrum via het [beheercentrum.](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center) Microsoft 365 home plan gebruikers hebben geen admin center.
@@ -99,7 +99,7 @@ U de manier wijzigen waarop uw organisatie Microsoft 365-updates ontvangt door d
 > [!IMPORTANT]
 > Het kan tot 24 uur duren voordat de onderstaande wijzigingen van kracht worden in Microsoft 365. Als u zich afmeldt nadat u het programma hebt ingeschakeld, hebben uw gebruikers mogelijk geen toegang meer tot functies waarvan de geplande release nog niet beschikbaar is. 
   
-1. Ga in het beheercentrum naar de > **instellingeninstelling**en kies onder het tabblad **Organisatieprofiel** de **optie Voorkeuren vrijgeven**. **Settings**
+1. Ga in het beheercentrum **Settings**naar de  >  **instellingeninstelling**en kies onder het tabblad **Organisatieprofiel** de **optie Voorkeuren vrijgeven**.
 
 5. Als u gerichte release wilt uitschakelen, selecteert u **Standaardrelease**en selecteert u **Wijzigingen opslaan**. 
     
@@ -112,10 +112,6 @@ U de manier wijzigen waarop uw organisatie Microsoft 365-updates ontvangt door d
 9. Wanneer u klaar bent met het toevoegen van gebruikers, selecteert u **Wijzigingen opslaan**.
 
 
-
-## <a name="get-the-targeted-release-version-of-office"></a>De gerichte releaseversie van Office krijgen
-
-Als u een Targeted Release-versie van Office wilt installeren, [volgt u deze stappen](https://support.office.com/article/4dd8ba40-73c0-4468-b778-c7b744d03ead). Zo krijgt u vroegtijdige toegang tot de nieuwe functies van Office 2016 voor Windows-desktopcomputers.
   
 ## <a name="learn-more"></a>Meer informatie
 
