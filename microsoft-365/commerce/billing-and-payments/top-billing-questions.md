@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 5480fc33-dd47-41e7-bcfb-b2533efdb92a
 description: 'Vind antwoorden op uw belangrijkste factureringsvragen voor microsoft 365 voor bedrijven. '
-ms.openlocfilehash: 3a75f9a754bf4f983ac0aca02b380e55d80be4b9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5d5b705c8c283103c09dc13dd13b853ffb3b270b
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634990"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232803"
 ---
 # <a name="top-billing-questions-for-microsoft-365-for-business"></a>Belangrijkste factureringsvragen voor Microsoft 365 voor bedrijven
 
@@ -40,13 +40,13 @@ Als u geen antwoord op uw vraag vinden of als u een probleem hebt met uw factuur
   
 ::: moniker range="o365-worldwide"
 
-Zie [Uw factuur begrijpen](understand-your-invoice2.md)als u hulp nodig hebt bij het interpreteren van de kosten die u op uw factuur ziet of inzicht geeft in de gebruikte voorwaarden.
+Zie [Uw factuur of factuur](understand-your-invoice2.md)begrijpen als u hulp nodig hebt bij het interpreteren van de kosten die u op uw factuur ziet of inzicht geeft in de gebruikte voorwaarden.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Zie [Uw factuur begrijpen](understand-your-invoice2.md)als u hulp nodig hebt bij het interpreteren van de kosten die u op uw factuur ziet of inzicht geeft in de gebruikte voorwaarden.
+Zie [Uw factuur of factuur](understand-your-invoice2.md)begrijpen als u hulp nodig hebt bij het interpreteren van de kosten die u op uw factuur ziet of inzicht geeft in de gebruikte voorwaarden.
 
 ::: moniker-end
 
@@ -120,7 +120,7 @@ Ja, maar je moet [ondersteuning bellen](../../admin/contact-support-for-business
 
 Ja. Als u uw factuuroverzicht als e-mailbijlage wilt ontvangen, gebruikt u de volgende stappen:
   
-1. Ga in het Microsoft 365-beheercentrum naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Factureringsmeldingen</a> of selecteer \> **Factureringsfactureringsmeldingen**. **Billing**
+1. Ga in het Microsoft 365-beheercentrum naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Factureringsmeldingen</a> of selecteer **Billing** \> **Factureringsfactureringsmeldingen**.
 
 2. Schakel **onder Factuuroverzicht ontvangen als e-mailbijlage?** **On**
 
@@ -133,7 +133,7 @@ Ja. Als u uw factuuroverzicht als e-mailbijlage wilt ontvangen, gebruikt u de vo
 
 Ja. Als u uw factuuroverzicht als e-mailbijlage wilt ontvangen, gebruikt u de volgende stappen:
   
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Factureringsfactureringsmeldingen.</a> **Billing**
+1. Ga in het beheercentrum **Billing** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Factureringsfactureringsmeldingen.</a>
 
 2. Schakel **onder Factuuroverzicht ontvangen als e-mailbijlage?** **On**
 

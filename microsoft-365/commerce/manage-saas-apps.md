@@ -13,19 +13,19 @@ ms.collection:
 - commerce
 search.appverid: MET150
 description: Meer informatie over het activeren en beheren van apps van derden in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: eb2826a4b0c69d61eb35a9dfff37e9dc2dd6ad71
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 3e6d77eec71ca1137e0aaf44b62d198d9c87b0c5
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141186"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232743"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>App-abonnementen van derden voor uw organisatie beheren
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -67,7 +67,7 @@ Ondersteuning voor apps van derden is beschikbaar in deze regio's:
 
 Beheerders moeten apps van derden activeren voordat ze aan gebruikers worden toegewijsd. Deze apps worden geactiveerd in de portal van de externe uitgever.
 
-1. Ga in het beheercentrum naar de<a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">pagina</a> **Apps voor facturering** > **van uw producten.** > 
+1. Ga in het beheercentrum naar de pagina **Apps voor facturering**van uw  >  **producten.**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">Apps</a>
 2. Zoek en selecteer de app die u wilt beheren.
 3. Selecteer **onder Instellingen & acties**de optie Beheren in de portal van de **uitgever**.
 
@@ -89,7 +89,7 @@ Nadat de app is geactiveerd, blijft deze actief, tenzij deze is geannuleerd, ver
 
 Beheerders moeten apps van derden activeren voordat ze aan gebruikers worden toegewijsd. Ze worden geactiveerd in het portaal van de externe uitgever. Selecteer op de app-pagina onder **Instellingen & acties**de koppeling om licenties toe te wijzen.
 
-1. Ga in het beheercentrum naar de<a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">pagina</a> **Apps voor facturering** > **van uw producten.** > 
+1. Ga in het beheercentrum naar de pagina **Apps voor facturering**van uw  >  **producten.**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">Apps</a>
 2. Zoek en selecteer de app die u wilt beheren.
 3. Selecteer **onder Instellingen & acties**de koppeling naar Beheren in de portal van de **uitgever**.
 
@@ -97,11 +97,11 @@ Beheerders moeten apps van derden activeren voordat ze aan gebruikers worden toe
 
 Beheerders kunnen het aantal licenties wijzigen dat eigendom is van hun organisatie. Dit geldt alleen voor apps die zijn aangeschaft met een stoelgebaseerde prijs.
 
-1. Ga in het beheercentrum naar de<a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">pagina</a> **Apps voor facturering** > **van uw producten.** > 
+1. Ga in het beheercentrum naar de pagina **Apps voor facturering**van uw  >  **producten.**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">Apps</a>
 2. Zoek en selecteer de app die u wilt beheren.
 3. Selecteer **Licentienummer wijzigen**.
 
-## <a name="manage-payment-methods"></a>Betalingswijzen beheren
+## <a name="manage-payment-methods"></a>Betaalmethoden beheren
 
 Software-as-a-service-apps hebben elk een factureringsprofiel toegewezen. Met factureringsprofielen u aanpassen welke producten op uw factuur zijn opgenomen en hoe u uw facturen betaalt. Zij omvatten:
 
@@ -113,16 +113,16 @@ Zie [Factureringsprofielen begrijpen](https://docs.microsoft.com/microsoft-store
 
 ### <a name="change-the-billing-profile-on-a-software-as-a-service-app-subscription"></a>Het factureringsprofiel wijzigen op een abonnement met een software-as-a-service-app
 
-1. Ga in het beheercentrum naar de<a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">pagina</a> **Apps voor facturering** > **van uw producten.** > 
+1. Ga in het beheercentrum naar de pagina **Apps voor facturering**van uw  >  **producten.**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">Apps</a>
 2. Zoek en selecteer de app die u wilt beheren.
 3. Selecteer Naast **Het factureringsprofiel**de optie **Bewerken**.
 
-Zie [Uw factuur begrijpen](billing-and-payments/understand-your-invoice.md)voor meer informatie over facturen.
+Zie Uw factuur of [factuur begrijpen](billing-and-payments/understand-your-invoice.md)voor meer informatie over facturen.
 
 ## <a name="cancel-a-software-as-a-service-app-subscription"></a>Een abonnement op de software-as-a-service-app opzeggen
 
 U een software-as-a-service-app annuleren vanaf de app-pagina.
 
-1. Ga in het beheercentrum naar de<a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">pagina</a> **Apps voor facturering** > **van uw producten.** > 
+1. Ga in het beheercentrum naar de pagina **Apps voor facturering**van uw  >  **producten.**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">Apps</a>
 2. Zoek en selecteer de app die u wilt beheren.
 3. Selecteer Onder **Instellingen & acties**de optie Abonnement **annuleren**.

@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 description: "Ontdek hoeveel belasting u in rekening wordt gebracht voor uw Microsoft 365 voor zakelijk abonnement in verschillende regio's. "
 ms.custom: okr_SMB
-ms.openlocfilehash: 0aeabd49477bdef856a7ddb9f3b7c39211be2479
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 7c071a29fa5cedfc12c69a6471d1321a9167106f
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045822"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232827"
 ---
 # <a name="tax-information"></a>Belastinginformatie
 
@@ -114,7 +114,7 @@ U komt mogelijk in aanmerking voor het btw-nultarief:
 
 #### <a name="add-your-vat-id-eu-countries-only"></a>Uw btw-nummer invoeren (alleen landen in de Europese Unie)
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 
 2. Zoek de abonnementskaart voor het abonnement dat u wilt bijwerken.
 
@@ -184,6 +184,6 @@ Maak de volgende documentatie gereed:
   
 ## <a name="related-articles"></a>Verwante artikelen
   
-[Uw factuur weergeven](view-your-bill-or-invoice.md)
+[Uw rekening of factuur weergeven](view-your-bill-or-invoice.md)
   
-[Inzicht in uw factuur](understand-your-invoice.md)
+[Uw factuur of factuur begrijpen](understand-your-invoice.md)

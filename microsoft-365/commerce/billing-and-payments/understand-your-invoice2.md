@@ -1,5 +1,5 @@
 ---
-title: Uw factuur voor Microsoft 365 voor Bedrijven begrijpen
+title: Uw factuur of factuur voor Microsoft 365 voor Bedrijven begrijpen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,15 +23,15 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
-description: Lees hoe u de kosten, facturering en betalingsgegevens op uw Microsoft 365 voor zakelijke factuur interpreteert en hoe u het ordernummer van de aankoop wijzigt.
-ms.openlocfilehash: 5cb2f961fa11f25e160ddd978783c7744776307e
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+description: Lees hoe u de kosten, facturering en betalingsgegevens op uw Microsoft 365 voor zakelijke factuur of factuur interpreteert en hoe u het ordernummer van de aankoop wijzigt.
+ms.openlocfilehash: bd0204deb34d1fe08ec6391c24df5ab6fe6cc6d6
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045810"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232791"
 ---
-# <a name="understand-your-invoice-for-microsoft-365-for-business"></a>Uw factuur voor Microsoft 365 voor Bedrijven begrijpen
+# <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Uw factuur of factuur voor Microsoft 365 voor Bedrijven begrijpen
 
 Elke maand ontvangt u een e-mail waarin staat dat uw nieuwe factuuroverzicht beschikbaar is in het beheercentrum. [Ontdek hoe u uw rekening of factuur kunt vinden en bekijken](view-your-bill-or-invoice.md).
   
@@ -104,7 +104,7 @@ Als u per factuur betaalt, kunt u het IO-nummer (inkooporder) toevoegen aan of w
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 
 2. Als u zich in **de tabelweergave** bevindt, selecteert u **Kaarten** om van weergave te wisselen.
 

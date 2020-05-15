@@ -24,19 +24,19 @@ description: Meer informatie over welke betalingsopties beschikbaar zijn om te b
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: 613bb0fcc776b65090ee66faf6dc0516987947b2
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: a1ee158079e30348c3b1f9f26ef0b62160bf9544
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140869"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232873"
 ---
 # <a name="pay-for-your-subscription"></a>Betalen voor uw abonnement
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -58,7 +58,7 @@ Als u via creditcard betaalt maar uw creditcard wordt geweigerd, ontvangt u een 
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 
 2. Zoek het abonnement met het openstaande saldo. Selecteer In de sectie **Facturering,** naast **Abonnement, een achterstallige betaling,** selecteer **Saldo vereffenen**.
 
@@ -107,7 +107,7 @@ Als u uw abonnement per factuur betaalt, krijgt u een e-mailbericht met de meded
 Nee, als uw abonnement is ingesteld om te betalen per factuur, worden rechtstreekse onlinebetalingen niet geaccepteerd. U kunt [uw betalingsmethode echter wijzigen naar betaling via creditcard of bankrekening](change-payment-method.md). Het verschuldigde bedrag wordt dan automatisch na elke serviceperiode in rekening gebracht op uw creditcard of bankrekening. Voor Azure, zie [How to change the credit card used to pay for an Azure subscription](https://go.microsoft.com/fwlink/p/?LinkId=718057) (Hoe wijzig ik de creditcard voor het betalen van een Azure-abonnement?).
 
 > [!NOTE]
-> Als u overstapt naar automatische creditcardbetalingen, moet u eerst alle openstaande saldi betalen. Raadpleeg uw factuuroverzicht voor betalingsopties en instructies. Zie [Uw factuur begrijpen](understand-your-invoice2.md)voor meer informatie.
+> Als u overstapt naar automatische creditcardbetalingen, moet u eerst alle openstaande saldi betalen. Raadpleeg uw factuuroverzicht voor betalingsopties en instructies. Zie [Uw factuur of factuur begrijpen](understand-your-invoice2.md)voor meer informatie.
 
 ### <a name="where-do-i-send-my-check-or-eft-payment"></a>Waarheen verstuur ik mijn betaling per cheque of EFT?
 
@@ -284,19 +284,19 @@ U kunt, indien u dat wenst, een kopie van uw factuuroverzicht als e-mailbijlage 
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Factureringsfactureringsmeldingen.</a> **Billing**
+1. Ga in het beheercentrum **Billing** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Factureringsfactureringsmeldingen.</a>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Factureringsfactureringsmeldingen.</a> **Billing**
+1. Ga in het beheercentrum **Billing** naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Factureringsfactureringsmeldingen.</a>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">Factureringsfactureringsmeldingen.</a> **Billing**
+1. Ga in het beheercentrum **Billing** naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">Factureringsfactureringsmeldingen.</a>
 
 ::: moniker-end
 
@@ -312,4 +312,4 @@ Als uw oorspronkelijke redenen voor het kiezen van de factuur, creditcard of ban
 
 [Een creditcard of bankrekening toevoegen, bijwerken of verwijderen](add-update-or-remove-credit-card-or-bank-account.md)
 
-[Inzicht in uw factuur](understand-your-invoice2.md)
+[Uw factuur of factuur begrijpen](understand-your-invoice2.md)

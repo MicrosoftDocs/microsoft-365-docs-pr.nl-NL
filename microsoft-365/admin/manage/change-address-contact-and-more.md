@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Meer informatie over het aanbrengen van wijzigingen in uw organisatieprofiel, zoals organisatienaam, adres, telefoon, technisch contact en e-mail.
-ms.openlocfilehash: d3871e683aed862cfe58e072035b75cc004b9ef6
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: cae24ebb6ad317767c7798b808f166024cd9d73a
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208172"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232897"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Het adres en de technische contactpersoon van uw organisatie en meer wijzigen
 
@@ -60,7 +60,7 @@ Ga als u andere informatie op de profielpagina van uw bedrijf wijzigen:
 |**Veld**  |**Beschrijving**  |
 |---------|---------|
 |Naam  <br/>   | De naam die u hier opgeeft, wordt voor gebruikers weergegeven op de volgende pagina's:  <br/>  Aanmeldingspagina: als uw gebruikers andere Microsoft-accounts hebben ingesteld met hun e-mailadres van het bedrijf of de school, zien ze mogelijk de naam van de organisatie op de aanmeldingspagina. Op deze manier kunnen ze onderscheid maken tussen hun werk- of schoolaccount en hun andere accounts, zodat ze weten welk account ze moeten gebruiken wanneer ze zich aanmelden.  <br/>  Profielkoppeling en -pagina van organisatie: de koppeling naar het profiel van uw organisatie bevat de naam van de organisatie.  <br/>  Yammer-navigatie: in Yammer gebruikt de linkernavigatie de naam van de organisatie als naam van het Yammer-thuisnetwerk.  <br/> OneDrive-synchronisatieclient: de organisatienaam wordt weergegeven in Verkenner op Windows en Finder op Mac, de bestandspaden, het OneDrive-activiteitencentrum, de knopinfo van het OneDrive-cloudpictogram en het venster OneDrive-instellingen. Momenteel wordt de naam van de organisatie niet bijgewerkt voor geconfigureerde clients. <br/> MS Teams: Organisatie Switcher in Teams geeft de organisatienaam weer <br/>  |
-|Adres, plaats, provincie, postcode  <br/>     | Het hier ingevoerde adres is wat u op uw factuur ziet, onder Verkocht aan: Het adres verkocht aan op uw factuur is hetzelfde als uw organisatieadres op uw profielpagina (zie [Uw factuur voor Microsoft 365 voor Bedrijven begrijpen).](../../commerce/billing-and-payments/understand-your-invoice2.md)  <br/>        |
+|Adres, plaats, provincie, postcode  <br/>     | Het hier ingevoerde adres is wat u op uw factuur ziet, onder Verkocht aan: Het adres verkocht aan op uw factuur is hetzelfde als uw organisatieadres op uw profielpagina (zie [Uw factuur of factuur voor Microsoft 365 voor Bedrijven begrijpen).](../../commerce/billing-and-payments/understand-your-invoice2.md)  <br/>        |
 |Land of regio  <br/>    | Dit is het land of de regio waarin het bedrijf is gevestigd. Via het geselecteerde land of de geselecteerde regio wordt bepaald welke services beschikbaar zijn voor u, welke belastingen en factureringsvaluta voor uw land of regio worden gebruikt en wat het dichtstbijzijnde datacentrum voor u is (zie [Gebruiksrechtbeperkingen voor Microsoft Office](https://office.microsoft.com/redir/FX103037529)).  <br/>OPMERKING: Als deze optie is geselecteerd, kan het land of de regio niet worden gewijzigd. Als u de selectie wilt wijzigen, moet u uw abonnement opzeggen en u opnieuw aanmelden. Neem voor hulp bij dit proces [contact op met ondersteuning.](../contact-support-for-business-products.md)        |
 |Telefoon  <br/>     | Dit is het primaire nummer voor uw bedrijf. Dit is meestal het nummer van het hoofdkantoor van het bedrijf.  <br/>        |
 |Technische contactpersoon  <br/> |Dit is het e-mailadres voor de primaire technische persoon die uw Microsoft 365-abonnement beheert. Dit is de persoon die communicatie ontvangt over de status van de Microsoft 365-service.  <br/> |

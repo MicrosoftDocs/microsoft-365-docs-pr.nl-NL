@@ -1,5 +1,5 @@
 ---
-title: Inzicht in uw factuur
+title: Uw factuur of factuur begrijpen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 search.appverid:
 - MET150
-description: Meer informatie over het lezen en begrijpen van uw factuur voor Microsoft-bedrijfsproducten.
+description: Meer informatie over het lezen en begrijpen van uw factuur of factuur voor Microsoft-bedrijfsproducten.
 keywords: factureringsrekeningen, organisatiegegevens, facturen
-ms.openlocfilehash: 63186bb0fc601be786e223fe2e6febbdb48361e2
-ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
+ms.openlocfilehash: 25e9f2865c5970d11fac14d9427cb54374884541
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44211402"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232815"
 ---
-# <a name="understand-your-invoice"></a>Inzicht in uw factuur
+# <a name="understand-your-bill-or-invoice"></a>Uw factuur of factuur begrijpen
 
 ::: moniker range="o365-21vianet"
 
@@ -36,7 +36,7 @@ ms.locfileid: "44211402"
 
 De factuur bevat een overzicht van uw kosten en betalingsinstructies. U [uw online factuur bekijken](#view-your-online-invoice) in het Microsoft 365-beheercentrum. U het ook downloaden in de Portable Document Format (.pdf) om te verzenden via e-mail.
 
-Zie [Uw factuur voor Microsoft 365 voor Bedrijven begrijpen](understand-your-invoice2.md)als u alleen een Microsoft 365-abonnement hebt.
+Zie Uw factuur of factuur voor [Microsoft 365 voor Bedrijven begrijpen](understand-your-invoice2.md)als u alleen een Microsoft 365-abonnement hebt.
 
 ## <a name="understand-the-invoice-header"></a>De factuurkoptekst begrijpen
 
