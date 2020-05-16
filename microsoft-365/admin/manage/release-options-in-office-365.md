@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Meer informatie over het instellen van de releaseoptie voor nieuwe product- en functiesupdates in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 3a7a0562edef527718816bba6e67ea948cfad6b5
-ms.sourcegitcommit: 708857a82eab3d37da1dec027399b09bd306a5dd
+ms.openlocfilehash: 2738cf7af32d2e15b0c2c790a241dabbb1f104bc
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/15/2020
-ms.locfileid: "44249882"
+ms.locfileid: "44262315"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>De standaard- of gerichte releaseopties instellen
 
@@ -99,7 +99,7 @@ U de manier wijzigen waarop uw organisatie Microsoft 365-updates ontvangt door d
 > [!IMPORTANT]
 > Het kan tot 24 uur duren voordat de onderstaande wijzigingen van kracht worden in Microsoft 365. Als u zich afmeldt nadat u het programma hebt ingeschakeld, hebben uw gebruikers mogelijk geen toegang meer tot functies waarvan de geplande release nog niet beschikbaar is. 
   
-1. Ga in het beheercentrum **Settings**naar de  >  **instellingeninstelling**en kies onder het tabblad **Organisatieprofiel** de **optie Voorkeuren vrijgeven**.
+1. Ga in het beheercentrum **Settings**naar de  >  **instelling Instellingen van de organisatie**en kies onder het tabblad **Organisatieprofiel** de **optie Voorkeuren vrijgeven**.
 
 5. Als u gerichte release wilt uitschakelen, selecteert u **Standaardrelease**en selecteert u **Wijzigingen opslaan**. 
     

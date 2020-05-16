@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Bescherm uw zakelijke e-mail en gegevens tegen cyberbedreigingen, waaronder ransomware, phishing en schadelijke bijlagen.
-ms.openlocfilehash: abc75a7c7a8b771e5b15fb3c4f0aeb2125be4684
-ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
+ms.openlocfilehash: 1b21c59e95eccced66a7b64ec7c67354de53e59d
+ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44155419"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44267177"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>Top 12 taken voor beveiligingsteams ter ondersteuning van thuiswerken
 
@@ -41,7 +41,7 @@ Voor klanten die onze bedrijfsplannen gebruiken, raadt Microsoft u aan de taken 
 |2     | [Beveiligen tegen bedreigingen](#2-protect-against-threats) |![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
 |3      |  [Geavanceerde bedreigingsbeveiliging van Office 365 configureren](#3-configure-office-365-advanced-threat-protection)  |   |      |  ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |4      | [Azure Advanced Threat Protection (ATP) configureren](#4-configure-azure-advanced-threat-protection)   |   |      |  ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
-|5     |   [Microsoft Advanced Threat Protection inschakelen](#5-turn-on-microsoft-advanced-threat-protection)  |  |      | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
+|5     |   [Microsoft Threat Protection inschakelen](#5-turn-on-microsoft-threat-protection)  |  |      | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |6      | [Intune-beveiliging voor mobiele apps configureren voor telefoons en tablets](#6-configure-intune-mobile-app-protection-for-phones-and-tablets) |    |  ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)       |  ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
 |7     | [MFA en voorwaardelijke toegang configureren voor gasten, inclusief intune-app-beveiliging](#7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection)  |    |  ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)     | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |8      |  [Pc's inschrijven voor apparaatbeheer en vereisen compatibele pc's](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)   |  | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)        | ![Opgenomen](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
@@ -114,7 +114,7 @@ U moet samenwerken met uw Exchange Online-beheerder en SharePoint Online-beheerd
 - [Bekijk video: Inleiding tot Azure ATP](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
 - Bekijk de [drie fasen van Azure ATP-implementatie](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp#whats-next)
 
-## <a name="5-turn-on-microsoft-advanced-threat-protection"></a>5: Microsoft Advanced Threat Protection inschakelen
+## <a name="5-turn-on-microsoft-threat-protection"></a>5: Microsoft Threat Protection inschakelen
 
 Nu u Office 365 ATP en Azure ATP hebt geconfigureerd, u de gecombineerde signalen van deze mogelijkheden in één dashboard bekijken. [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) (MTP) brengt waarschuwingen, incidenten, geautomatiseerd onderzoek en respons en geavanceerde jacht over workloads (Azure ATP, Office 365 ATP, Microsoft Defender ATP en Microsoft Cloud App Security) samen in één deelvenster op [security.microsoft.com.](https://security.microsoft.com) 
 <br>
@@ -236,7 +236,7 @@ Ga nu aan de slag met Cloud App Security. Later u meer geavanceerde controle en 
 
 ## <a name="12-monitor-for-threats-and-take-action"></a>12: Monitor op bedreigingen en actie ondernemen
 
-Microsoft 365 bevat verschillende manieren om de status te controleren en passende acties uit te voeren. Uw beste uitgangspunt is het Microsoft 365-beveiligingscentrum ( ),[https://security.microsoft.com](https://security.microsoft.com)waar u de Microsoft Secure [Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score?view=o365-worldwide)van uw organisatie bekijken en alle waarschuwingen of entiteiten die uw aandacht vereisen.
+Microsoft 365 bevat verschillende manieren om de status te controleren en passende acties uit te voeren. Uw beste uitgangspunt is het Microsoft 365-beveiligingscentrum ( ), waar u de [https://security.microsoft.com](https://security.microsoft.com) [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score?view=o365-worldwide)van uw organisatie bekijken en alle waarschuwingen of entiteiten die uw aandacht vereisen.
 
 - [Aan de slag met het Microsoft 365-beveiligingscentrum](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center?view=o365-worldwide)
 - [Rapporten controleren en bekijken](https://docs.microsoft.com/microsoft-365/security/mtp/monitoring-and-reporting?view=o365-worldwide)

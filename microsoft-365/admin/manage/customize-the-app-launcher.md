@@ -20,19 +20,19 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: 'Maak snelle koppelingen naar uw e-mail, documenten, apps, SharePoint-sites, externe sites en andere bronnen door aangepaste tegels toe te voegen aan het startprogramma voor apps. '
-ms.openlocfilehash: 2c0a1cbd2f7c605bc03a55787266c7a627f8e329
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: f099eabef7a22e9ebd8f20b23ccd3d8da142f07f
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139719"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262361"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Aangepaste tegels toevoegen aan het startprogramma voor apps
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -44,7 +44,7 @@ U kunt aan het startprogramma voor apps uw eigen aangepaste tegels toevoegen die
   
 ## <a name="add-a-custom-tile-to-the-app-launcher"></a>Een aangepaste tegel toevoegen aan het startprogramma voor apps
 
-1. Ga in het beheercentrum naar de **instellingen** > **instellingen** en kies het tabblad **Organisatieprofiel.**
+1. Ga in het beheercentrum **Settings**naar de  >  **instellingen van de organisatie** en kies het tabblad **Organialiseerprofiel.**
     
 2. Kies op het tabblad **Organizenprofiel** de **optie Aangepaste startprogrammategels voor apps**.
   
@@ -76,15 +76,15 @@ U en uw gebruikers zien nu de aangepaste tegel in het startprogramma voor apps o
   
 ## <a name="edit-or-delete-a-custom-tile"></a>Edit or delete a custom tile
 
-1. Ga in het beheercentrum naar het profieltabblad **Instellingen** > **instellingen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2067339" target="_blank">organisatie.</a>
+1. Ga in het beheercentrum naar het profieltabblad **Instellingen**  >  **van de organisatie**  >  **instellingen.** </a>
     
 2. Selecteer op de pagina **Organisatieprofiel** naast **Aangepaste tegels toevoegen voor uw organisatie**de optie **Bewerken**.
 
 3. Werk de **Tegelnaam**, **URL**, **Beschrijving** of **Afbeeldings-URL** voor de aangepaste tegel bij (zie [Een aangepaste tegel toevoegen aan het startprogramma voor apps](#add-a-custom-tile-to-the-app-launcher)).
     
-4. Selecteer **Sluiten bijwerken** \> **Close**. 
+4. Selecteer **Sluiten** \> **bijwerken**. 
     
-Als u een aangepaste tegel wilt verwijderen, selecteert u in het venster **Aangepaste tegels** de tegel en selecteert u Tegel > **Verwijderen** **verwijderen**. 
+Als u een aangepaste tegel wilt verwijderen, selecteert u in het venster **Aangepaste tegels** de tegel en selecteert u Tegel Verwijderen **Remove tile**  >  **verwijderen**. 
   
 ## <a name="whats-next"></a>En nu?
 

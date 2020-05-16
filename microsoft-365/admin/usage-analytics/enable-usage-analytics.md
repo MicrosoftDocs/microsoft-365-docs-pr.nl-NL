@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Meer informatie over het verzamelen van gegevens voor uw tenant met de sjabloon-app Microsoft 365 Usage Analytics in Power BI.
-ms.openlocfilehash: 386b64b1db15ba9f00450ac037a74bfc702e95ea
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 3c5e1a35b93b755b92710f0499599d849a6c251c
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140681"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262533"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 Gebruiksanalyse inschakelen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -63,7 +63,7 @@ Zie [Over beheerdersrollen](../add-users/about-admin-roles.md) voor meer informa
     
 2. Zoek **op** de pagina Gebruik de **Microsoft 365-analysekaart voor gebruik** en selecteer Aan de **slag**.
     
-3. Stel gegevens beschikbaar maken **voor Microsoft 365-gebruiksanalyses voor Power BI** **in** \> het deelvenster Rapporten dat wordt **geopend.** 
+3. Stel gegevens beschikbaar maken **voor Microsoft 365-gebruiksanalyses voor Power BI** **in** het deelvenster Rapporten dat wordt \> **Save**geopend. 
   
 Hiermee wordt het gegevensverzamelingsproces gestart, en dit zal voltooid worden in 2 tot 48 uur, afhankelijk van de grootte van uw tenant. De knop **Ga naar Power BI** zal ingeschakeld zijn (niet langer grijs) als het verzamelen van gegevens is voltooid. 
     
@@ -83,7 +83,7 @@ Als u de sjabloon-app wilt starten, moet u een **globale beheerder**zijn, **rapp
 
 5.  Klik **op App verkennen** om de app te bekijken met voorbeeldgegevens. Klik **op Verbinding maken** om de app te verbinden met de gegevens van uw organisatie.
 
-6.  Nadat u op **Verbinding hebt**geklikt , typt u in het scherm Verbinding maken met \> Microsoft **365 gebruiksanalyse** de tenant-id die u in stap (1) **Volgende**hebt gekopieerd.
+6.  Nadat u op **Verbinding hebt**geklikt , typt u in het scherm Verbinding maken met **Microsoft 365 gebruiksanalyse** de tenant-id die u in stap (1) Volgende hebt \> **Next**gekopieerd.
     
 7. Selecteer in het volgende scherm **oAuth2** als **de verificatiemethode** \> **Aanmelden**. Als u een andere verificatiemethode kiest, mislukt de verbinding met de sjabloon-app.
     
@@ -97,7 +97,7 @@ Samengevoegde gegevens op tenantniveau zijn beschikbaar in alle rapporten. **Geg
 
 Alleen hoofdbeheerders kunnen de gegevens die worden verzameld voor alle rapporten anoniem maken. Hiermee worden identificeerbare informatie zoals gebruikers-, groeps- en sitenamen verborgen in rapporten en in de sjabloon-app.
   
-1. Ga in het beheercentrum naar de **instellingen** \> **instellingen**en kies onder het tabblad **Services** de optie **Rapporten**.
+1. Ga in het beheercentrum **Settings** naar de \> **instellingen van de organisatie Instellingen**en kies onder het tabblad **Services** de optie **Rapporten**.
     
 2. Selecteer **Rapporten**en kies vervolgens voor **Anonieme id's weergeven**. Deze instelling wordt zowel toegepast op de gebruiksrapporten als op de sjabloon-app.
   

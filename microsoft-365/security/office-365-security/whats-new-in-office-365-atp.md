@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 02/21/2020
+ms.date: 05/15/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4e6dfaa8a6a2a0157e9274c7b25dae6e7aed2395
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 83ae99a75e3c3aa8d109766418abcf0888b8cbf4
+ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036582"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44267165"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Nieuw in Office 365 ATP
 
@@ -35,6 +35,10 @@ In dit artikel worden nieuwe functies weergegeven in de nieuwste versie van Offi
 > [!TIP]
 > Heb je nog geen Office 365 ATP? [Neem contact op met de verkoop om een proefversie te starten.](https://go.microsoft.com/fwlink/p/?LinkId=518644)
 
+## <a name="marchapril-2020"></a>Maart/april 2020
+
+- De mogelijkheid om [gecompromitteerde gebruikersaccounts aan](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) te pakken met geautomatiseerd onderzoek en respons is nu algemeen beschikbaar.
+
 ## <a name="januaryfebruary-2020"></a>Januari/februari 2020
 
 - [Algemene beschikbaarheid van campagneweergaven in Office 365 ATP](campaigns.md)
@@ -46,7 +50,7 @@ In dit artikel worden nieuwe functies weergegeven in de nieuwste versie van Offi
     - Geavanceerde NOT-filters (dit zijn geavanceerde filteropties die geen bevatten, geen omvatten, enz.)
     - Gedetailleerde tijdfilters (dag, uur, half uur) 
 
-- De widget **Incidenten** is nu de widget **Actiecentrum.** (Als u uw beveiligingswidgets wilt bekijken, gaat u in het Security & Compliance Center naar **Threat management** > **Review**.)
+- De widget **Incidenten** is nu de widget **Actiecentrum.** (Ga naar **Bedreigingsbeheer**  >  om uw beveiligingswidgets te bekijken in het Security & Compliance Center **Review**.)
 
 - [Veilige documenten in Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(voorbeeld)**
 

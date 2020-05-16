@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb00dd4e-2d5f-4e8d-8ff4-94b2cf002bdd
 description: "Meer informatie over hoe u uw gebruikers hun agenda's laten delen met externe gebruikers voor vergaderingen en afspraken. "
-ms.openlocfilehash: 6e5a4a3a7e29dcbb6b19aeb1dd3b914ff98eb06e
-ms.sourcegitcommit: 708857a82eab3d37da1dec027399b09bd306a5dd
+ms.openlocfilehash: 5853d285508c5ed0ec4771a145912e374c191089
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/15/2020
-ms.locfileid: "44249870"
+ms.locfileid: "44262293"
 ---
 # <a name="share-calendars-with-external-users"></a>Agenda’s delen met externe gebruikers
 
@@ -39,7 +39,7 @@ Agendadelen is een algemene instelling, wat betekent dat u, de beheerder, deze i
   
 ## <a name="enable-calendar-sharing-using-the-microsoft-365-admin-center"></a>Agendadelen inschakelen met het Microsoft 365-beheercentrum
 
-1. Ga in het beheercentrum naar **Settings** \> **Instellingeninstellingen**. 
+1. Ga in het beheercentrum naar **Instellingen** \> **voor instellingen .** 
     
 2. Selecteer Op het tabblad **Services** de optie **Agenda**.
   

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 08/07/2019
+ms.date: 05/15/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,18 +15,18 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het gebruik van Threat Explorer en het realtime detectierapport om bedreigingen te onderzoeken en erop te reageren in het Security & Compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 31fa228d69fcbe885f7639a47a5df2bf1ee0c60d
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 824fde8d6f6a03dd61a46d1f0ccc08c93b85adf8
+ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035186"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44267189"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Weergaven in Threat Explorer en realtime detecties
 
 ![Bedreigingsverkenner](../../media/ThreatExplorerFirstOpened.png)
 
-[Threat Explorer](threat-explorer.md) (en het realtime detectierapport) is een krachtige, bijna realtime tool waarmee beveiligingsteams bedreigingen &amp; in het Security Compliance Center kunnen onderzoeken en erop kunnen reageren. Explorer (en het realtime detectierapport) geeft informatie weer over vermoedelijke malware en phish in e-mail en bestanden in Office 365, evenals andere beveiligingsbedreigingen en risico's voor uw organisatie. 
+[Threat Explorer](threat-explorer.md) (en het realtime detectierapport) is een krachtige, bijna realtime tool waarmee beveiligingsteams bedreigingen in het Security Compliance Center kunnen onderzoeken en erop kunnen &amp; reageren. Explorer (en het realtime detectierapport) geeft informatie weer over vermoedelijke malware en phish in e-mail en bestanden in Office 365, evenals andere beveiligingsbedreigingen en risico's voor uw organisatie. 
 
 - Als u [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) Plan 2 hebt, hebt u Explorer.
 - Als u Office 365 ATP-abonnement 1 hebt, hebt u realtime detecties.
@@ -38,7 +38,7 @@ Wanneer u Explorer voor het eerst opent (of het realtime detectierapport), worde
 |ATP P1 trial     | Realtime detectie        |   7      |
 |ATP P1 betaald     |   Realtime detectie      |    30     |
 |ATP P1 betaalde testen ATP P2 trial     | Bedreigingsverkenner   |   7   |
-|ATP P2 trail     |  Bedreigingsverkenner       |     7    |
+|ATP P2-proef     |  Bedreigingsverkenner       |     7    |
 |ATP P2 betaald     |     Bedreigingsverkenner    |  30       |
 
 Gebruik het menu **Weergave** om te wijzigen welke informatie wordt weergegeven. Met tooltips u bepalen welke weergave u wilt gebruiken.
@@ -49,7 +49,7 @@ Nadat u een weergave hebt geselecteerd, u filters toepassen en query's instellen
 
 ## <a name="email--malware"></a>E-mail > Malware
 
-Als u dit rapport in Explorer (of realtime detecties) wilt bekijken, kiest u**E-mailmalware** >  **weergeven** > .**Malware** In deze weergave vindt u informatie over e-mailberichten waarvan is vastgesteld dat ze malware bevatten.  
+Als u dit rapport in Explorer (of realtime **View**detecties) wilt bekijken, kiest u  >  **E-mailmalware**  >  **weergeven**. In deze weergave vindt u informatie over e-mailberichten waarvan is vastgesteld dat ze malware bevatten.  
 
 ![Gegevens over e-mail als malware identificeren](../../media/ExplorerEmailMalwareMenu.png) 
 
@@ -65,7 +65,7 @@ Bekijk hieronder meer details over specifieke berichten. Wanneer u een item in d
 
 ## <a name="email--phish"></a>E-mail > Phish
 
-Als u dit rapport wilt bekijken in Explorer (of realtime detecties), kiest u > **Phish** **weergeven** > **Email**. In deze weergave worden e-mailberichten weergegeven die zijn geïdentificeerd als phishingpogingen.  
+Als u dit rapport wilt bekijken in Explorer **View**(of realtime detecties), kiest u  >  **Email**  >  **Phish**weergeven . In deze weergave worden e-mailberichten weergegeven die zijn geïdentificeerd als phishingpogingen.  
 
 ![Gegevens over e-mail weergeven die zijn geïdentificeerd als phishingpogingen](../../media/ThreatExplorerEmailPhish.png) 
 
@@ -85,13 +85,13 @@ Wanneer u een item in de lijst selecteert, zoals een GEDETECTEERDe URL, wordt ee
 
 ## <a name="email--submissions"></a>E-mail > Inzendingen
 
-Als u dit rapport wilt bekijken in Explorer (of realtime detecties), kiest u > **E-mailinzendingen** > **Submissions** **weergeven**. Deze weergave toont e-mail die gebruikers hebben gerapporteerd als ongewenste e-mail, niet als ongewenste e-mail of phishing. 
+Als u dit rapport wilt bekijken in Explorer **View**(of realtime detecties), kiest u  >  **E-mailinzendingen**  >  **weergeven**. Deze weergave toont e-mail die gebruikers hebben gerapporteerd als ongewenste e-mail, niet als ongewenste e-mail of phishing. 
 
 ![E-mailberichten gerapporteerd door gebruikers](../../media/ThreatExplorerEmailUserReportedViewOptions.png) 
 
 Klik **op Afzender** om uw lijst met weergaveopties te openen. Gebruik deze lijst om informatie te bekijken per afzender, ontvangers, rapporttype (de bepaling van de gebruiker dat de e-mail ongewenste e-mail was, geen ongewenste e-mail of phish) en meer. 
 
-Als u bijvoorbeeld informatie wilt weergeven over e-mailberichten die als phishingpogingen zijn gerapporteerd, klikt u op**Type Afzenderrapport,** **Sender** > selecteert u **Phish**en klikt u op Vernieuwen.
+Als u bijvoorbeeld informatie wilt weergeven over e-mailberichten die als phishingpogingen zijn gerapporteerd, klikt u op **Type**  >  **Afzenderrapport,** selecteert u **Phish**en klikt u op Vernieuwen.
 
 ![Phish geselecteerd voor filter Rapporttype](../../media/ThreatExplorerEmailUserReportedPhishSelected.png)
 
@@ -103,7 +103,7 @@ Selecteer een item in de lijst om aanvullende details weer te geven.
 
 ## <a name="email--all-email"></a>E-mail > Alle e-mail
 
-Als u dit rapport wilt weergeven, kiest u in Explorer > **Alle e-mail** >  **weergeven**.**All mail** Deze weergaven tonen een all-up weergave van e-mailactiviteit, inclusief e-mail die als kwaadaardig is geïdentificeerd als gevolg van phishing of malware, evenals alle niet-schadelijke e-mail (normale e-mail, spam en bulkmail). 
+Als u dit rapport wilt **View**weergeven, kiest u in Explorer  >  **Alle e-mail**  >  **weergeven**. Deze weergaven tonen een all-up weergave van e-mailactiviteit, inclusief e-mail die als kwaadaardig is geïdentificeerd als gevolg van phishing of malware, evenals alle niet-schadelijke e-mail (normale e-mail, spam en bulkmail). 
 
 > [!NOTE]
 > Als u een fout krijgt die te veel gegevens leest **om weer te geven,** voegt u een filter toe en verkleint u, indien nodig, het datumbereik dat u bekijkt. 
@@ -116,7 +116,7 @@ Bekijk onder de grafiek meer details over specifieke e-mailberichten, zoals onde
 
 ## <a name="content--malware"></a>Inhoud > malware
 
-Als u dit rapport in Explorer (of realtime detecties) wilt bekijken, kiest u**Inhoudsmalware** >  **weergeven.** > **Malware** In deze weergave worden bestanden weergegeven die als kwaadaardig zijn geïdentificeerd door [Office 365 Advanced Threat Protection in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.](atp-for-spo-odb-and-teams.md)
+Als u dit rapport in Explorer (of realtime **View**detecties) wilt bekijken, kiest u  >  **Inhoudsmalware**  >  **weergeven.** In deze weergave worden bestanden weergegeven die als kwaadaardig zijn geïdentificeerd door [Office 365 Advanced Threat Protection in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.](atp-for-spo-odb-and-teams.md)
 
 Bekijk informatie per malwarefamilie, detectietechnologie (hoe de malware werd gedetecteerd) en werkbelasting (OneDrive, SharePoint of Teams). 
 
@@ -128,7 +128,7 @@ Bekijk onder de grafiek meer details over specifieke bestanden, zoals de bestand
 
 Met Explorer (en real-time detecties) u met een klik een filter toepassen. Klik op een item in de legenda en dat item wordt een filter voor het rapport. Stel dat we de malwareweergave in Explorer bekijken:
   
-![Ga naar \> Threat management Explorer](../../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
+![Ga naar Threat management \> Explorer](../../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
   
 Als u op **ATP-detonatie** klikt in deze grafiek, wordt deze weergegeven: 
   

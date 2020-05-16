@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Leer het standaardthema van Microsoft 365 te wijzigen en het aan te passen aan uw bedrijfslogo of -kleur. '
-ms.openlocfilehash: cfde26e2b7f6d74a59b7431091fbc3c2f6049ec6
-ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
+ms.openlocfilehash: 3674c26be50d622364a4dc077a85eaa974d71fcd
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44022118"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262327"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Het Microsoft 365-thema aanpassen voor uw organisatie
 
@@ -34,7 +34,7 @@ Meer informatie over het aanpassen van uw thema in het Microsoft 365-beheercentr
   
 ## <a name="customize-your-theme-in-the-admin-center"></a>Uw thema aanpassen in het beheercentrum
 
-1. Ga in het beheercentrum naar de **instellingen** \> **instellingen**en kies het tabblad **Organisatieprofiel.**
+1. Ga in het beheercentrum **Settings** naar de \> **instellingen van de organisatie**en kies het tabblad **Organigram.**
 
 2. Kies aangepaste **thema's**op het tabblad **Organisatieprofiel** .
 

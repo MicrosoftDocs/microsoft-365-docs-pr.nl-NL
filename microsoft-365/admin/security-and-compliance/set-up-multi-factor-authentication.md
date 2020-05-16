@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Meer informatie over het gebruik van beveiligingsstandaards voor het instellen van meervoudige verificatie voor gebruikers.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 4c0df9198db8154c1aa748a68eff29dd9bf3bca1
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: c4ea6037b34d29f2d1e05e248e03e49ee6b06f56
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213008"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262373"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Meervoudige verificatie instellen
   
@@ -79,7 +79,7 @@ Alle Office 2016-clienttoepassingen bieden ondersteuning voor MFA door middel va
 
 U moet er echter voor zorgen dat uw Microsoft 365-abonnement is ingeschakeld voor ADAL of moderne verificatie.
 
-1. Als u moderne verificatie wilt inschakelen, gaat u naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=834822) en selecteert u **Instellingen** \> **Instellingen**. Vervolgens kiest u op het tabblad **Services** de optie ** Moderne verificatie** in de lijst.
+1. Als u moderne verificatie wilt inschakelen, selecteert u in het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=834822) **instellingen** \> **instellingen** en kiest u vervolgens op het tabblad **Services** **Moderne verificatie** in de lijst.
 
 2. Schakel het selectievakje **Moderne verificatie inschakelen (aanbevolen)** in het deelvenster **Moderne verificatie** in en kies **Wijzigingen opslaan**. 
 
