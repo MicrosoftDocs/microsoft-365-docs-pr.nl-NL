@@ -13,12 +13,12 @@ metadata:
   author: robmazz
   ms.author: robmazz
   ms.date: 11/29/2019
-  ms.openlocfilehash: f954a03e23d354eb52e5dc112f1ebc1d804ca350
-  ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+  ms.openlocfilehash: 31685a610f6560296dc72b7624f81a5927d56ec2
+  ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 05/04/2020
-  ms.locfileid: "44011171"
+  ms.lasthandoff: 05/16/2020
+  ms.locfileid: "44268255"
 highlightedContent:
   items:
   - title: Meer informatie over Microsoft 365 voor ondernemingen
@@ -44,7 +44,7 @@ conceptualContent:
       text: Foundation-infrastructuur
     - url: deploy-workloads.md
       itemType: how-to-guide
-      text: Workloads en scenario's
+      text: Werkbelasting
     - url: desktop-deployment-center-home.md
       itemType: get-started
       text: Implementatiecentrum voor desktops
@@ -62,20 +62,6 @@ conceptualContent:
     - url: https://docs.microsoft.com/intune/fundamentals/planning-guide
       itemType: deploy
       text: Microsoft Intune
-  - title: Belangrijke scenario's implementeren
-    links:
-    - url: secure-teams-highly-regulated-data-scenario.md
-      itemType: how-to-guide
-      text: Microsoft Teams voor sterk gereglementeerde gegevens
-    - url: teams-sharepoint-online-sites-highly-regulated-data.md
-      itemType: how-to-guide
-      text: SharePoint-sites voor sterk gereglementeerde gegevens
-    - url: empower-people-to-work-remotely.md
-      itemType: how-to-guide
-      text: Externe werknemers
-    - url: migration-microsoft-365-enterprise-workload.md
-      itemType: deploy
-      text: Office-client en -server en Windows-migratie
   - title: Microsoft 365 voor bedrijven implementeren
     links:
     - url: https://docs.microsoft.com/windows/deployment/update/
