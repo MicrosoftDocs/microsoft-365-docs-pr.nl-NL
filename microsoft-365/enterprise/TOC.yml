@@ -90,7 +90,7 @@
           href: deploy-with-existing-infrastructure.md
         - name: Implementeren voor middelgrote bedrijven
           href: deploy-foundation-infrastructure-non-enterprises.md
-    - name: Werkbelastingen en scenario's implementeren
+    - name: Werkbelastingen implementeren
       href: deploy-workloads.md
       items:
         - name: Microsoft Teams
@@ -101,10 +101,6 @@
           href: sharepoint-online-onedrive-workload.md
         - name: Migratie
           href: migration-microsoft-365-enterprise-workload.md
-        - name: Externe werknemers mogelijkheden bieden
-          href: empower-people-to-work-remotely.md
-        - name: SharePoint-sites voor sterk gereglementeerde gegevens
-          href: teams-sharepoint-online-sites-highly-regulated-data.md
     - name: Testlabrichtlijnen
       href: m365-enterprise-test-lab-guides.md
       items:
@@ -180,12 +176,6 @@
           href: contoso-info-protect.md
         - name: Beveiligingsoverzicht
           href: contoso-security-summary.md
-        - name: Team voor een zeer geheim project
-          href: contoso-team-for-top-secret-project.md
-        - name: SharePoint-site voor sterk gereglementeerde gegevens
-          href: contoso-sharepoint-online-site-for-highly-confidential-assets.md
-    - name: Wijzigingen aan implementatie-inhoud voor Microsoft 365 voor ondernemingen
-      href: microsoft-365-deploment-guide-changes.md
     - name: 'Status van Microsoft 365-service '
       href: microsoft-365-service-health.md
 - name: Implementatiecentrum voor desktops

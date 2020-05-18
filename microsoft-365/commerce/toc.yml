@@ -28,7 +28,7 @@
       href: subscriptions/cancel-your-subscription.md
     - name: Wat gebeurt er als mijn abonnement verloopt?
       href: subscriptions/what-if-my-subscription-expires.md
-    - name: Apps van derden beheren
+    - name: Abonnementen op apps van derden beheren
       href: manage-saas-apps.md
     - name: Selfservice-aankopen beheren (Gebruikers)
       href: subscriptions/manage-self-service-purchases-users.md
@@ -46,11 +46,11 @@
       href: licenses/subscriptions-and-licenses.md
 - name: Facturen en betalingen
   items:
-    - name: Uw factuur bekijken
+    - name: Uw rekening of factuur bekijken
       href: billing-and-payments/view-your-bill-or-invoice.md
-    - name: Inzicht in uw factuur
+    - name: Inzicht in uw rekening of factuur
       href: billing-and-payments/understand-your-invoice.md
-    - name: Betaalmethoden beheren
+    - name: Betalingswijzen beheren
       href: billing-and-payments/manage-payment-methods.md
     - name: Betalen voor uw abonnement
       href: billing-and-payments/pay-for-your-subscription.md
@@ -62,15 +62,15 @@
       href: billing-and-payments/manage-billing-profiles.md
     - name: Uw factuuradressen wijzigen
       href: billing-and-payments/change-your-billing-addresses.md
-    - name: Payment Services Directive 2 en Strong Customer Authentication
+    - name: Informatie over Payment Services Directive 2 en Strong Customer Authentication
       href: billing-and-payments/psd2.md
 - name: Factureringsaccounts
   items:
     - name: Factureringsaccounts beheren
       href: manage-billing-accounts.md
-    - name: Een tenant koppelen aan mijn factureringsaccount
+    - name: Een tenant koppelen aan uw factureringsaccount
       href: 'https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business'
-- name: Relaties met mijn partners beheren
+- name: Relaties met uw partners beheren
   href: manage-partners.md
 - name: Uw account sluiten
   href: close-your-account.md
