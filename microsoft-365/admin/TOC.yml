@@ -73,6 +73,8 @@
               href: manage/assign-licenses-to-users.md
             - name: Beheerdersrollen toewijzen
               href: add-users/assign-admin-roles.md
+            - name: Gastgebruikers toevoegen aan een Microsoft 365-groep
+              href: create-groups/manage-guest-access-in-groups.md
             - name: Licenties van gebruikers verwijderen
               href: manage/remove-licenses-from-users.md
             - name: Licentieconflicten oplossen
