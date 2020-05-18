@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: De manier waarop Contoso de beveiligingsfuncties in Microsoft 365 Enterprise gebruikt.
-ms.openlocfilehash: f8a16b07c6d4cb9a62e0131a1f667b675d5eaf66
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c0f3497eb49a0490fccf6c0ec5174d932a21005e
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636484"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268396"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Overzicht van Microsoft 365 Enterprise-beveiliging voor de Contoso Corporation
 
@@ -134,9 +134,4 @@ Conform de aanbevolen procedures voor beveiliging en Microsoft 365 Enterprise-im
 - Centraal beveiligingsdashboard voor gebruikers met Windows Defender-beveiligingscentrum
 
   Contoso heeft de [app Windows-beveiliging](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center) geïmplementeerd op haar pc's en apparaten met Windows 10 Enterprise, zodat gebruikers in één oogopslag hun beveiligingspostuur kunnen zien en actie kunnen ondernemen.
-
-
-## <a name="next-step"></a>Volgende stap
-
-[Lees hier](contoso-sharepoint-online-site-for-highly-confidential-assets.md) hoe Contoso een SharePoint-site heeft gemaakt voor sterk gereglementeerde gegevens om samenwerking tussen de onderzoeksteams mogelijk te maken.
 

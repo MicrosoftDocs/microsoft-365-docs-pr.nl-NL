@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Meer informatie over hoe Contoso de functies voor informatiebescherming in Microsoft 365 Enterprise gebruikt om hun digitale activa in de cloud te beveiligen.
-ms.openlocfilehash: 41873f14ac52000635508aca4728572556692cc4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 137e6ff499ba8fb119c696dba9337307876ee0c2
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625300"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268408"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Informatiebescherming voor Contoso Corporation
 
@@ -65,15 +65,11 @@ Contoso heeft de volgende stappen genomen om Microsoft 365 Enterprise voor te be
 
    Contoso heeft gevoeligheidslabels gemaakt voor hun gegevensniveaus, met het label Sterk gereglementeerd dat codering, machtigingen en watermerken omvat.
 
-4. Beveiligde SharePoint-sites gemaakt voor gevoelige en sterk gereguleerde gegevens met machtigingen die de toegang blokkeren
-
-   Zowel gevoelige als sterk gereguleerde sites zijn geconfigureerd als privé-teamsites met aanvullende machtigingsbeperkingen. Gevoelige en sterk gereguleerde SharePoint-sites werden ook geconfigureerd met een bijbehorend retentielabel. Bestanden die zijn opgeslagen op sterk gereguleerde SharePoint-sites, worden beschermd met een gevoeligheidssublabel van het label Sterk gereglementeerd. Zie de [SharePoint-sites voor een sterk gereglementeerd gegevensscenario](teams-sharepoint-online-sites-highly-regulated-data.md) voor meer informatie.
-
-5.  Gegevens verplaatst van on-premises SharePoint-sites en bestandsshares naar de nieuwe SharePoint-sites
+4.  Gegevens verplaatst van on-premises SharePoint-sites en bestandsshares naar de nieuwe SharePoint-sites
 
     De bestanden die naar de nieuwe SharePoint-sites zijn gemigreerd, hebben de standaardretentielabels overgenomen die aan de site zijn toegewezen.
 
-6.  Getrainde medewerkers over het gebruik van gevoeligheidslabels voor nieuwe documenten, hoe om te gaan met de IT-afdeling van Contoso bij het maken van nieuwe SharePoint-sites en om altijd digitale middelen op SharePoint-sites op te slaan
+5.  Getrainde medewerkers over het gebruik van gevoeligheidslabels voor nieuwe documenten, hoe om te gaan met de IT-afdeling van Contoso bij het maken van nieuwe SharePoint-sites en om altijd digitale middelen op SharePoint-sites op te slaan
 
     Het moeilijkste deel van de overgang van informatiebescherming voor de cloud, was dat de IT-afdeling van Contoso en management de slechte informatieopslaggewoonten van hun werknemers moesten veranderen. Men wilde bereiken dat werknemers hun digitale activa altijd labelen en opslaan in de cloud, zich onthouden van het gebruik van on-premises bestandsshares, en nooit cloudopslagservices van derden of USB-drives gebruiken.
 

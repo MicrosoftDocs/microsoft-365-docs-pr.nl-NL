@@ -13,12 +13,12 @@ ms.collection:
 - SPO_Content
 ms.custom: ''
 description: Doorloop het proces van planning, implementatie en promotie van de waarde van SharePoint binnen uw organisatie.
-ms.openlocfilehash: ee2c5592015361a678785cb8e4aaad9074c5d804
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6b0483073a836f29b1faa5a30018848ef7b2df34
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636914"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268207"
 ---
 # <a name="deploy-sharepoint-and-onedrive-for-microsoft-365-enterprise"></a>SharePoint en OneDrive voor Microsoft 365 Enterprise implementeren
 
@@ -67,10 +67,6 @@ De volgende zakelijke pijlers kunnen voorzien in de behoeften van uw organisatie
 Zie [SharePoint-beheer](https://docs.microsoft.com/sharepoint/sharepoint-online) voor informatie over het configureren van SharePoint naar uw behoeften.
 
 Een manier om de voordelen van SharePoint te zien, is door te onderzoeken hoe individuen, een team, een divisie of uw hele organisatie vandaag met elkaar omgaan. Zoek vervolgens naar een beter scenario dat het eenvoudiger maakt om bestanden op te slaan en te delen. Houd er rekening mee dat [Microsoft Teams](teams-workload.md) mogelijk een betere keuze is voor een sommige scenario's.
-
-#### <a name="sharepoint-site-for-highly-regulated-data"></a>SharePoint-site voor sterk gereglementeerde gegevens
-
-Zeer gereglementeerde gegevens zijn onderhevig aan regionale voorschriften of zijn de meest waardevolle gegevens voor uw organisatie, zoals handelsgeheimen, informatie over financiën of personeel, en de organisatorische strategie. U kunt een SharePoint-site configureren voor beperkte toegang, gegevensclassificatie, preventie van gegevensverlies en versleuteling voor dit type gegevens. Zie voor meer informatie [Microsoft Teams en SharePoint-sites voor sterk gereglementeerde gegevens](teams-sharepoint-online-sites-highly-regulated-data.md).
 
 #### <a name="result"></a>Resultaat
 Een lijst met SharePoint-scenario's waarin de behoeften van uw organisatie voor het opslaan en delen van documenten, inhoudsbeheer, samenwerking en beveiliging worden geadresseerd.
