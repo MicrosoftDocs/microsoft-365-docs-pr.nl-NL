@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Exchange online-beheerders beheren de e-mail en postvakken van uw organisatie. Ze herstellen bijvoorbeeld verwijderde items in het postvak van een gebruiker. '
-ms.openlocfilehash: e45d6a0e9f2151e03a300b1e36bf53b7c9f8ef68
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 984345dd92e9b9a6da3c803b77b663bd8299c62e
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618906"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322073"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>De Exchange Online-beheerdersrol
 
@@ -37,7 +37,7 @@ Hier volgen enkele van de belangrijkste taken die gebruikers kunnen uitvoeren wa
   
 - [Recover deleted items in a user mailbox - Admin Help](https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox)
     
-- [Stel een archief- en verwijderingsbeleid in voor postvakken in uw organisatie.](https://docs.microsoft.com/office365/securitycompliance/set-up-an-archive-and-deletion-policy-for-mailboxes)
+- [Stel een archief- en verwijderingsbeleid in voor postvakken in uw organisatie.](https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes)
     
 - Postvakfuncties instellen zoals het beleid voor het delen van een postvak: hoe gebruikers een agenda en contactpersonen met anderen kunnen delen buiten uw organisatie. 
     
@@ -45,7 +45,7 @@ Hier volgen enkele van de belangrijkste taken die gebruikers kunnen uitvoeren wa
     
 - [Maak een gedeeld postvak](../email/create-a-shared-mailbox.md) zodat een groep mensen e-mail kan controleren en verzenden vanaf een gemeenschappelijk e-mailadres. 
     
-- [E-mail anti-spam bescherming](https://docs.microsoft.com/office365/securitycompliance/anti-spam-protection) en malware filters voor de organisatie. 
+- [E-mail anti-spam bescherming](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection) en malware filters voor de organisatie. 
     
 - Microsoft 365-groepen beheren
     

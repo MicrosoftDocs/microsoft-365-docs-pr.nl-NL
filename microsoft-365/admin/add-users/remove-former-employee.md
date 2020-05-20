@@ -24,19 +24,19 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Volg deze checklist om een werknemer uit Microsoft 365 te verwijderen en gegevens te beveiligen. '
-ms.openlocfilehash: d54a37575c0280ca9ad23fdd4a4b878286dde1ab
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: bfde2f55f12967e15213ecb12274a215c4190c93
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140591"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322085"
 ---
 # <a name="remove-a-former-employee"></a>Een voormalige werknemer verwijderen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
   
@@ -135,7 +135,7 @@ U kunt de inhoud van het postvak van de voormalige werknemer op twee manieren op
     
     Inactieve postvakken kunnen geen e-mail ontvangen en worden niet weergegeven in het gedeelde adresboek van uw organisatie of in andere lijsten.
     
-    Zie [Inactieve postvakken beheren in Exchange Online](https://docs.microsoft.com/office365/securitycompliance/create-and-manage-inactive-mailboxes)voor meer informatie over het plaatsen van een blokkering in een postvak .
+    Zie [Inactieve postvakken beheren in Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/create-and-manage-inactive-mailboxes)voor meer informatie over het plaatsen van een blokkering in een postvak .
     
 ## <a name="forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox"></a>E-mail van een voormalige werknemer doorsturen naar een andere werknemer of converteren naar een gedeeld postvak
 <a name="bkmk_forward"> </a>
@@ -218,7 +218,7 @@ Als de voormalige werknemer een telefoon van de zaak had, kunt u deze via het Ex
     
 4. Selecteer de gebruiker en selecteer onder **Mobiele apparaten**de optie **Details weergeven**. 
     
-5. Selecteer op de pagina **Details van mobiele apparaten** onder Mobiele **apparaten**het mobiele apparaat, selecteer Apparaat wissen van **gegevenswissen**![](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png)en selecteer **Vervolgens Blokkeren**. 
+5. Selecteer op de pagina **Details van mobiele apparaten** onder Mobiele **apparaten**het mobiele apparaat, selecteer Apparaat wissen van **gegevenswissen** ![ en selecteer Vervolgens ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) **Blokkeren**. 
     
 6. Kies **Opslaan**. 
     
@@ -325,7 +325,7 @@ Als u de licentie verwijdert, worden alle gegevens van die gebruiker gedurende d
 
 
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 
 
 ::: moniker-end

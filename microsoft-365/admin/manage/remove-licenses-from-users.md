@@ -21,19 +21,19 @@ search.appverid:
 - GEA150
 ms.assetid: 9b497c85-d0a4-4735-80fa-d3565bc05bd1
 description: Meer informatie over het verwijderen van licenties uit gebruikersaccounts.
-ms.openlocfilehash: 49d3b4b6786bc6ab66bc0416aac847ada592664d
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: d4ac823a7345cb4d04f599c5635248d6ce324257
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139635"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322027"
 ---
 # <a name="unassign-licenses-from-users"></a>Licenties van gebruikers verwijderen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -129,7 +129,7 @@ Wanneer u de pagina **Licenties** gebruikt om licenties ongedaan te maken, u lic
 
 4. Selecteer in het deelvenster **Bestaande producten vervangen** **Huidige licentietoewijzingen vervangen** \> **Volgende**.
 
-5. Schakel onder aan het deelvenster **Bestaande producten vervangen** het selectievakje Alle **productlicenties verwijderen uit het selectievakje Geselecteerde gebruikers** in en schakel sluiten **sluiten** \> **vervangen** \> **in.**
+5. Schakel onder aan het deelvenster **Bestaande producten vervangen** het selectievakje Alle **productlicenties verwijderen uit het selectievakje Geselecteerde gebruikers** in en schakel sluiten sluiten **vervangen** \> **Close** \> **in.**
 
 ::: moniker-end
 
@@ -143,7 +143,7 @@ Wanneer u de pagina **Licenties** gebruikt om licenties ongedaan te maken, u lic
 
 4. Selecteer in het deelvenster **Bestaande producten vervangen** **Huidige licentietoewijzingen vervangen** \> **Volgende**.
 
-5. Schakel onder aan het deelvenster **Bestaande producten vervangen** het selectievakje Alle **productlicenties verwijderen uit het selectievakje Geselecteerde gebruikers** in en schakel sluiten **sluiten** \> **vervangen** \> **in.**
+5. Schakel onder aan het deelvenster **Bestaande producten vervangen** het selectievakje Alle **productlicenties verwijderen uit het selectievakje Geselecteerde gebruikers** in en schakel sluiten sluiten **vervangen** \> **Close** \> **in.**
 
 ::: moniker-end
 
@@ -159,9 +159,9 @@ Wanneer u de pagina **Licenties** gebruikt om licenties ongedaan te maken, u lic
 
 - Houd er rekening mee dat bestanden die zijn opgeslagen in OneDrive voor Bedrijven niet worden verwijderd, tenzij de gebruiker wordt verwijderd uit het Microsoft 365-beheercentrum of wordt verwijderd via Active Directory-synchronisatie. Zie [OneDrive-retentie en verwijdering voor](https://docs.microsoft.com/onedrive/retention-and-deletion)meer informatie.
 
-- Het postvak van de gebruiker is ook niet langer doorzoekbaar met behulp van een eDiscovery-tool zoals Content Search of Advanced eDiscovery wanneer de licentie wordt verwijderd. Zie de sectie 'Zoeken in losgekoppelde of gedelicenseerde postvakken' in [Content Search in Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/content-search#searching-disconnected-or-de-licensed-mailboxes)voor meer informatie.
+- Het postvak van de gebruiker is ook niet langer doorzoekbaar met behulp van een eDiscovery-tool zoals Content Search of Advanced eDiscovery wanneer de licentie wordt verwijderd. Zie de sectie 'Zoeken in losgekoppelde of gedelicenseerde postvakken' in [Content Search in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/content-search#searching-disconnected-or-de-licensed-mailboxes)voor meer informatie.
 
-- Als u een Enterprise-abonnement hebt, zoals Office 365 Enterprise E3, u met Exchange Online de postvakgegevens van een verwijderd gebruikersaccount bewaren met [inactieve postvakken.](https://docs.microsoft.com/office365/securitycompliance/inactive-mailboxes-in-office-365) Zie [Inactieve postvakken maken en beheren in Exchange Online](https://docs.microsoft.com/office365/securitycompliance/create-and-manage-inactive-mailboxes)voor meer informatie.
+- Als u een Enterprise-abonnement hebt, zoals Office 365 Enterprise E3, u met Exchange Online de postvakgegevens van een verwijderd gebruikersaccount bewaren met [inactieve postvakken.](https://docs.microsoft.com/microsoft-365/compliance/inactive-mailboxes-in-office-365) Zie [Inactieve postvakken maken en beheren in Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/create-and-manage-inactive-mailboxes)voor meer informatie.
 
 - Zie Een [voormalige werknemer](../add-users/remove-former-employee.md)verwijderen voor informatie over het blokkeren van de toegang van een gebruiker tot Microsoft 365-gegevens nadat zijn licentie is verwijderd en hoe u daarna toegang tot de gegevens krijgen.
 

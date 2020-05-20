@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie over het verzenden van versleutelde e-mail via Outlook.
-ms.openlocfilehash: fe0835c7b5b3328114ce7820da3336ca9f300d3e
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 5318fbe045c909e3b7f81d195a8e6b4d5eb96dc1
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165683"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322145"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>Uw gevoelige e-mail versleutelen of labelen
 
@@ -52,7 +52,7 @@ Als u een bericht wilt versleutelen dat niet voldoet aan een vooraf gedefinieerd
 
 ## <a name="admin-settings"></a>Beheerinstellingen
 
-U alles te weten komen over het instellen van e-mailversleuteling bij [e-mailversleuteling in Office 365.](https://docs.microsoft.com/office365/securitycompliance/email-encryption)
+U alles te weten komen over het instellen van e-mailversleuteling bij [e-mailversleuteling in Office 365.](https://docs.microsoft.com/microsoft-365/compliance/email-encryption)
 
 ### <a name="automatically-encrypt-email-messages"></a>E-mailberichten automatisch versleutelen
 
@@ -64,9 +64,9 @@ U maakt regels voor e-mailstromen om e-mailberichten te versleutelen met de nieu
 2. Kies de tegel Beheerder. 
 3. Kies in het beheercentrum **Beheercentra > Exchange**. 
 
-Zie [Regels voor e-mailstroom definiëren om e-mailberichten in Office 365 te versleutelen](https://docs.microsoft.com/office365/securitycompliance/define-mail-flow-rules-to-encrypt-email)voor meer informatie.
+Zie [Regels voor e-mailstroom definiëren om e-mailberichten in Office 365 te versleutelen](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)voor meer informatie.
 
 ### <a name="brand-your-encryption-messages"></a>Merk uw versleutelingsberichten
 
-U ook uw campagnebranding toepassen om het uiterlijk en de tekst in de e-mailberichten aan te passen. Zie [Het merk van uw organisatie toevoegen aan uw versleutelde berichten voor](https://docs.microsoft.com/office365/securitycompliance/email-encryption)meer informatie.
+U ook uw campagnebranding toepassen om het uiterlijk en de tekst in de e-mailberichten aan te passen. Zie [Het merk van uw organisatie toevoegen aan uw versleutelde berichten voor](https://docs.microsoft.com/microsoft-365/compliance/email-encryption)meer informatie.
 

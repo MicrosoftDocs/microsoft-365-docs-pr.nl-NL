@@ -6,7 +6,6 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
 audience: Admin
-ms.date: 05/17/2019
 ms.topic: overview
 f1_keywords:
 - "197503"
@@ -26,12 +25,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: In dit artikel leert u hoe u veilige koppelingen gebruiken om uw organisatie te beschermen tegen phishing en andere aanvallen.
-ms.openlocfilehash: 9f6222889d213c25c7411e39f0714ccf09cfe0d9
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 3dfa4016b34f430a260c9af4be2ed0c4126dea34
+ms.sourcegitcommit: 4ce28ad4d17d336106c1720d65349f19f9e90e04
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208945"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44294227"
 ---
 # <a name="atp-safe-links"></a>Veilige ATP-koppelingen
 
@@ -40,7 +39,7 @@ ms.locfileid: "44208945"
 > [!IMPORTANT]
 > Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Zie [Geavanceerd Outlook.com beveiliging](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2)als u Outlook.com, Microsoft 365 Family of Microsoft 365 Personal gebruikt en u op zoek bent naar informatie over veilige koppelingen in Outlook.
 
-Office 365 ATP Safe Links (onderdeel van [Advanced Threat Protection)](office-365-atp.md)kunnen uw organisatie helpen beschermen door de time-of-click verificatie van webadressen (URL's) in [e-mailberichten](how-atp-safe-links-works.md#how-atp-safe-links-works-with-urls-in-email) en [Office-documenten](how-atp-safe-links-works.md#how-atp-safe-links-works-with-urls-in-office-documents)te bieden. Beveiliging wordt gedefinieerd via [het ATP Safe Links-beleid](set-up-atp-safe-links-policies.md) dat is ingesteld door uw Microsoft 365-beveiligingsteam.
+Office 365 ATP Safe Links (onderdeel van [Office 365 Advanced Threat Protection)](office-365-atp.md)kunnen uw organisatie helpen beschermen door de time-of-click verificatie van webadressen (URL's) in [e-mailberichten](how-atp-safe-links-works.md#how-atp-safe-links-works-with-urls-in-email) en [Office-documenten](how-atp-safe-links-works.md#how-atp-safe-links-works-with-urls-in-office-documents)te bieden. Beveiliging wordt gedefinieerd via [het ATP Safe Links-beleid](set-up-atp-safe-links-policies.md) dat is ingesteld door uw Microsoft 365-beveiligingsteam.
   
 Zodra uw ATP Safe Links-beleid van kracht is, kunnen wereldwijde beheerders, beveiligingsbeheerders en beveiligingslezers [rapporten bekijken voor Geavanceerde bedreigingsbeveiliging.](view-reports-for-atp.md) De informatie in deze rapporten kan uw beveiligingsteam helpen verdere stappen te ondernemen om uw organisatie te beschermen of beveiligingsincidenten te onderzoeken.
 
@@ -48,7 +47,7 @@ Als [er nieuwe functies aan ATP worden toegevoegd,](office-365-atp.md#new-featur
          
 ## <a name="how-to-get-atp-safe-links-protection"></a>Hoe krijg je ATP Safe Links bescherming
 
-**Controleer eerst of uw abonnement [advanced threat protection](office-365-atp.md)bevat.** ATP is opgenomen in abonnementen, zoals [Microsoft 365 Enterprise,](https://www.microsoft.com/microsoft-365/enterprise/home) [Microsoft 365 Business Premium,](https://www.microsoft.com/microsoft-365/business)Office 365 Enterprise E5, Office 365 Education A5, enz. Als uw organisatie een Microsoft 365-abonnement heeft dat geen Office 365 ATP bevat, u mogelijk ATP als add-on aanschaffen. Zie de volgende bronnen voor meer informatie: 
+**Controleer eerst of uw abonnement [Office 365 Advanced Threat Protection](office-365-atp.md) bevat** Plan 1 of Plan 2. Office 365 ATP is opgenomen in abonnementen, zoals [Microsoft 365 Enterprise,](https://www.microsoft.com/microsoft-365/enterprise/home) [Microsoft 365 Business Premium,](https://www.microsoft.com/microsoft-365/business)Office 365 Enterprise E5, Office 365 Education A5, enz. Als uw organisatie een Microsoft 365-abonnement heeft dat geen Office 365 ATP bevat, u mogelijk ATP als add-on aanschaffen. Zie de volgende bronnen voor meer informatie: 
 
 - [Office 365 Advanced Threat Protection-abonnementen en -prijzen](https://products.office.com/exchange/advance-threat-protection)
 

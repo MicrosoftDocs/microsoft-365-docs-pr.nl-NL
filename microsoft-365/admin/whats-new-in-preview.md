@@ -20,12 +20,12 @@ search.appverid:
 description: Het Microsoft 365-beheercentrum - meer informatie over de functies die deze maand zijn toegevoegd.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 6dcfa1bac5fa9837f9882a575c3d5eaa6cf3be4f
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 6514456a16a6ee2079a1b93e053c21863809db24
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208159"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322133"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe nieuws in het Microsoft 365-beheercentrum
 
@@ -46,7 +46,7 @@ En als u geïnteresseerd bent in wat er nieuw is in andere Microsoft-cloudservic
 
 - [Nieuwe informatie in Exchange Online](https://go.microsoft.com/fwlink/?linkid=2119714)
 - [Nieuwe nieuwe artikelen in Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
-- [Nieuwe nieuwe artikelen in het Microsoft 365-compliancecenter](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
+- [Nieuwe nieuwe artikelen in het Microsoft 365-compliancecenter](https://docs.microsoft.com/microsoft-365/compliance/whats-new)
 - [Nieuwe informatie in het SharePoint-beheercentrum](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 - [Nieuwe nieuwe artikelen in het Exchange-beheercentrum](https://docs.microsoft.com/Exchange/whats-new)
 - [Office-updates](https://docs.microsoft.com/OfficeUpdates/)

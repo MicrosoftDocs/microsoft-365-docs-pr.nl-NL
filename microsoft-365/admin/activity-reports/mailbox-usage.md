@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: beffbe01-ce2d-4614-9ae5-7898868e2729
 description: Meer informatie over hoe u postvakgebruiksrapport op de hoogte krijgt van de activiteiten van de gebruikers met een gebruikerspostvak.
-ms.openlocfilehash: 7453bf20949e04f07d74f6cf1df13e88de522b92
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: a866a586c9d36be03b39cb1c75be884eae3cb41b
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046925"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321991"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---mailbox-usage"></a>Microsoft 365-rapporten in het beheercentrum - Postvakgebruik
 
@@ -37,7 +37,7 @@ Het **postvakgebruiksrapport** bevat informatie over gebruikers met een gebruike
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
 
     
-2. Selecteer in de vervolgkeuzelijst **Een rapport** selecteren de optie **Exchange-postvakgebruik** **Exchange** \> .
+2. Selecteer in de vervolgkeuzelijst **Een rapport** selecteren de optie **Exchange** \> **Exchange-postvakgebruik**.
   
 ## <a name="interpret-the-mailbox-usage-report"></a>Het rapport Postvakgebruik interpreteren
 
@@ -48,7 +48,7 @@ U krijgt een overzicht van het **Postvakgebruik** in uw organisatie aan de hand 
 |1.  <br/> |In het rapport **Postvakgebruik** kunnen trends worden weergegeven voor de laatste 7, 30, 90 of 180 dagen. Als u echter een bepaalde dag in het rapport selecteert, worden in de tabel gegevens weergegeven voor maximaal 28 dagen vanaf de huidige datum (niet de datum waarop het rapport is gegenereerd).  <br/> |
 |2.  <br/> |De gegevens in elk rapport bestrijken meestal tot de laatste 24 tot 48 uur.  <br/> |
 |3.  <br/> |De grafiek Postvak toont het totale aantal gebruikerspostvakken in uw organisatie en het totale aantal gebruikerspostvakken dat actief is op een bepaalde dag van de rapportageperiode. Een gebruikerspostvak wordt als actief beschouwd als er een e-mailbericht via het postvak is verzonden of gelezen, een afspraak is gemaakt of een vergadering is verzonden, geaccepteerd, afgewezen of geannuleerd.  <br/> |
-|4.  <br/> |De grafiek **Opslag** toont de hoeveelheid gebruikte opslagruimte in uw organisatie. Opslagdiagram bevat geen archiefpostvakken. Zie [Overzicht van onbeperkte archivering in Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/unlimited-archiving)voor meer informatie over het automatisch uitbreiden van archivering.<br/> |
+|4.  <br/> |De grafiek **Opslag** toont de hoeveelheid gebruikte opslagruimte in uw organisatie. Opslagdiagram bevat geen archiefpostvakken. Zie [Overzicht van onbeperkte archivering in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/unlimited-archiving)voor meer informatie over het automatisch uitbreiden van archivering.<br/> |
 |5.  <br/> | De grafiek **Quotum** toont het aantal gebruikerspostvakken in elke quotumcategorie. Er zijn vier quotumcategorieën:  <br/>  Goed: het aantal gebruikers waarvoor de gebruikte opslagruimte onder het quotum voor Waarschuwing geven ligt.  <br/>  Waarschuwing: het aantal gebruikers waarvoor de gebruikte opslagruimte op of boven het quotum voor Waarschuwing geven ligt, maar onder het quotum voor Verzenden blokkeren.  <br/>  Kan niet verzenden: het aantal gebruikers waarvoor de gebruikte opslagruimte op of boven het quotum voor Verzenden blokkeren ligt, maar onder het quotum voor Verzenden/ontvangen blokkeren.  <br/>  Kan niet verzenden/ontvangen: het aantal gebruikers waarvoor de gebruikte opslagruimte op of boven het quotum voor Verzenden/ontvangen blokkeren ligt.  <br/> |
 |6.  <br/> | In de grafiek **Postvak** bevat de Y-as het aantal gebruikerspostvakken.  <br/>  In de grafiek **Opslag** bevat de Y-as de hoeveelheid opslagruimte die wordt gebruikt door gebruikerspostvakken in uw organisatie.  <br/>  In de grafiek **Quotum** bevat de Y-as het aantal gebruikerspostvakken in elk opslagquotum.  <br/>  De X-as in de grafieken Postvak en Opslag toont het geselecteerde datumbereik voor dit specifieke rapport.  <br/>  De X-as van de grafiek Quotum is de quotumcategorie.  <br/> |
 |7.  <br/> |U grafieken filteren die u ziet door een item in de legenda te selecteren.  <br/> |

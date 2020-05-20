@@ -1,5 +1,5 @@
 ---
-title: Betaalmethoden beheren
+title: Betalingswijzen beheren
 f1.keywords:
 - CSH
 ms.author: cmcatee
@@ -14,20 +14,28 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - commerce
+ms.custom:
+- TopSMBIssues
+- okr_SMB
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 - BEA160
 description: Meer informatie over het beheren van uw betalingsmethoden in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: c1679b8f525712681aaaad20334840da5e625ad6
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: d31da19c10eb61719ba813d271dbdcf573a5aff3
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213066"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322157"
 ---
-# <a name="manage-payment-methods"></a>Betaalmethoden beheren
+# <a name="manage-payment-methods"></a>Betalingswijzen beheren
+
+::: moniker range="o365-21vianet"
+> [!NOTE]
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+::: moniker-end
 
 Wanneer u zakelijke producten of services van Microsoft koopt, u een bestaande betalingsmethode gebruiken of een nieuwe methode toevoegen. U een creditcard of bankpas of bankrekening gebruiken om te betalen voor de dingen die u koopt.
 
@@ -44,17 +52,42 @@ Als uw zakelijke account geen factureringsprofiel heeft, kan elke globale of fac
 
 Als u een betalingsmethode toevoegt, worden er geen abonnementen aan gekoppeld. Zie [Een betalingsmethode voor één abonnement wijzigen](#change-a-payment-method-for-a-single-subscription)als u één abonnement aan de betalingsmethode wilt toewijzen. Zie Een betalingsmethode vervangen als u alle abonnementen wilt vervangen die een andere betalingsmethode gebruiken met de nieuwe [betalingsmethode.](#replace-a-payment-method)
 
-1. Ga in het beheercentrum naar de pagina **Betalingsmethoden**  >  **voor factureringsfacturen &**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> betalingen.
+::: moniker range="o365-worldwide"
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden** > **voor factureringsfacturen &** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> betalingen.
+::: moniker-end
+
+::: moniker range="o365-germany"
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden** > **voor factureringsfacturen &** > **Payment methods** betalingen.
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden** > **voor factureringsfacturen &** > **Payment methods** betalingen.
+::: moniker-end
+
 2. Selecteer **Betaalmethode toevoegen**.
+
 3. Kies op de pagina **Betalingsmethoden** een betalingsmethode uit het vervolgkeuzemenu.
+
 4. Voer de gegevens voor de nieuwe kaart of bankrekening in en selecteer **Toevoegen**.
 
 ## <a name="update-payment-method-details"></a>Gegevens over betalingsmethode bijwerken
 
 U de naam wijzigen op de creditcard of betaalkaart, het factuuradres of de vervaldatum van een bestaande betalingsmethode. U de kaart of het rekeningnummer echter niet wijzigen. Als het rekeningnummer is gewijzigd, [vervangt u het door een andere betalingsmethode](#replace-a-payment-method)en verwijdert u het [oude](#delete-a-payment-method)nummer .
 
-1. Ga in het beheercentrum naar de pagina **Betalingsmethoden**  >  **voor factureringsfacturen &**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> betalingen.
+::: moniker range="o365-worldwide"
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden** > **voor factureringsfacturen &** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> betalingen.
+::: moniker-end
+
+::: moniker range="o365-germany"
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden** > **voor factureringsfacturen &** > **Payment methods** betalingen.
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden** > **voor factureringsfacturen &** > **Payment methods** betalingen.
+::: moniker-end
+
 2. Selecteer de rij van de betalingsmethode die u wilt bijwerken. Selecteer **bewerken**in het rechterdeelvenster .
+
 3. Werk uw betalingsmethodegegevens bij, inclusief de naam op de creditcard of betaalkaart, het factuuradres of de vervaldatum, en selecteer **Opslaan**.
 
 ## <a name="replace-a-payment-method"></a>Een betalingsmethode vervangen
@@ -63,26 +96,58 @@ Wanneer u een betalingsmethode vervangt, vervangt u deze voor alle abonnementen 
 
 Zie [Een betalingsmethode voor één abonnement wijzigen](#change-a-payment-method-for-a-single-subscription)als u de betalingsmethode voor één abonnement wilt wijzigen.
 
-1. Ga in het beheercentrum naar de pagina **Betalingsmethoden**  >  **voor factureringsfacturen &**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> betalingen.
+::: moniker range="o365-worldwide"
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden** > **voor factureringsfacturen &** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> betalingen.
+::: moniker-end
+
+::: moniker range="o365-germany"
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden** > **voor factureringsfacturen &** > **Payment methods** betalingen.
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden** > **voor factureringsfacturen &** > **Payment methods** betalingen.
+::: moniker-end
+
 2. Selecteer de rij van de te vervangen betalingsmethode. In het rechterdeelvenster worden alle factureringsprofielen en afzonderlijke abonnementen weergegeven die de geselecteerde betalingsmethode gebruiken.
+
 3. Selecteer in het rechterdeelvenster de optie **Betalingsmethode vervangen voor alle objecten**.
+
 4. Als u een bestaande betalingsmethode wilt gebruiken, kiest u er een in de vervolgkeuzelijst en selecteert u **Vervangen**.
     > [!NOTE]
     > Als u abonnementen hebt die zijn gekoppeld aan een factureringsprofiel, u alleen een creditcard of betaalkaart gebruiken om ervoor te betalen. Als u bankrekeningen op de pagina **Betalingsmethoden** hebt vermeld, zijn deze niet beschikbaar om te selecteren in de vervolgkeuzelijst.
+
 5. Als u een nieuwe betalingsmethode wilt toevoegen, selecteert u **Betalingsmethode toevoegen**.
+
 6. Voer **in** het deelvenster Een betalingsmethode toevoegen de accountgegevens in en selecteer **Opslaan**. U moet een betalingsmethode uit hetzelfde land gebruiken als uw huurder.
+
 7. De nieuwe betalingsmethode is al geselecteerd in de vervolgkeuzelijst. Selecteer **Vervangen**.
 
 ## <a name="change-a-payment-method-for-a-single-subscription"></a>Een betalingsmethode voor één abonnement wijzigen
 
 U de betalingsmethode wijzigen die wordt gebruikt om voor één abonnement te betalen.
 
-1. Ga in het beheercentrum naar de pagina **Facturering**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
-2. Selecteer op het tabblad **Abonnementen** het abonnement waarvoor u wilt betalen met de alternatieve betalingsmethode. 
+::: moniker range="o365-worldwide"
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
+::: moniker-end
+
+::: moniker range="o365-germany"
+1. Ga in het beheercentrum naar de pagina **Facturering** > **Mijn producten**.
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+1. Ga in het beheercentrum naar de pagina **Facturering** > **Mijn producten**.
+::: moniker-end
+
+2. Selecteer op het tabblad **Abonnementen** het abonnement waarvoor u wilt betalen met de alternatieve betalingsmethode.
+
 3. Selecteer **onder Facturering**naast de betalingsmethode de optie **Bewerken**.
+
 4. Selecteer naast uw bestaande betalingsmethode **wijzigen**.
+
 5. Kies in de vervolgkeuzelijst een alternatieve betalingsmethode of kies ervoor om een betalingsmethode toe te voegen.
+
 6. Als u een betalingsmethode toevoegt, voert u de kaart- of accountgegevens in en selecteert u **Opslaan**.
+
 7. Controleer of de geselecteerde betalingsmethode juist is en selecteer **Opslaan**.
 
 ## <a name="delete-a-payment-method"></a>Een betalingsmethode verwijderen
@@ -93,23 +158,52 @@ U alleen een betalingsmethode verwijderen die niet is gekoppeld aan een abonneme
 
 Als een betalingsmethode niet is gekoppeld aan abonnementen of factureringsprofielen, u deze onmiddellijk verwijderen.
 
-1. Ga in het beheercentrum naar de pagina **Betalingsmethoden**  >  **voor factureringsfacturen &**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> betalingen.
+::: moniker range="o365-worldwide"
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden** > **voor factureringsfacturen &** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> betalingen.
+::: moniker-end
+
+::: moniker range="o365-germany"
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden** > **voor factureringsfacturen &** > **Payment methods** betalingen.
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden** > **voor factureringsfacturen &** > **Payment methods** betalingen.
+::: moniker-end
+
 2. Zoek de betalingsmethode die u wilt verwijderen, selecteer de drie puntjes en selecteer **Verwijderen**.
+
 3. Selecteer Onder aan het rechterdeelvenster **delete**.
 
 ### <a name="delete-a-payment-method-with-subscriptions-or-billing-profiles-attached"></a>Een betalingsmethode verwijderen met abonnementen of factureringsprofielen eraan gekoppeld
 
 Als een betalingsmethode is gekoppeld aan abonnementen of factureringsprofielen, vervangt u deze eerst door een bestaande betalingsmethode of voegt u een nieuwe methode toe en verwijdert u vervolgens de oude betalingsmethode.
 
-1. Ga in het beheercentrum naar de pagina **Betalingsmethoden**  >  **voor factureringsfacturen &**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> betalingen.
+::: moniker range="o365-worldwide"
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden** > **voor factureringsfacturen &** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> betalingen.
+::: moniker-end
+
+::: moniker range="o365-germany"
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden** > **voor factureringsfacturen &** > **Payment methods** betalingen.
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+1. Ga in het beheercentrum naar de pagina **Betalingsmethoden** > **voor factureringsfacturen &** > **Payment methods** betalingen.
+::: moniker-end
+
 2. Selecteer de rij voor de betalingsmethode die u wilt verwijderen. In het rechterdeelvenster worden bestaande abonnementen weergegeven die deze betalingsmethode gebruiken.
+
 3. Selecteer **Verwijderen**in het rechterdeelvenster .
+
 4. Als u een bestaande betalingsmethode wilt gebruiken, kiest u er een in de vervolgkeuzelijst, selecteert u **Volgende**en selecteert u **Verwijderen**.
     > [!NOTE]
     > Als u abonnementen hebt die zijn gekoppeld aan een factureringsprofiel, u alleen een creditcard gebruiken om ervoor te betalen. Als u bankrekeningen op de pagina **Betalingsmethoden** hebt vermeld, zijn deze niet beschikbaar om te kiezen in de vervolgkeuzelijst.
+
 5. Als u een nieuwe betalingsmethode wilt toevoegen, selecteert u **Betalingsmethode toevoegen**.
+
 6. Kies het type betalingsmethode dat u wilt toevoegen, voer de accountgegevens in en selecteer **Opslaan**.
+
 7. De nieuwe betalingsmethode is al geselecteerd in de vervolgkeuzelijst. Selecteer **Volgende**.
+
 8. Selecteer **Verwijderen**.
 
 ## <a name="troubleshoot-payment-methods"></a>Problemen met betalingsmethoden oplossen

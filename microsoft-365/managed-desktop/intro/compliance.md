@@ -1,19 +1,19 @@
 ---
-title: Compliance
+title: Naleving
 description: In dit artikel worden de nalevingsstandaarden weergegeven die relevant zijn voor Microsoft Managed Desktop.
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6114642b5899e2708703e3c0d62cadde25296504
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 31844ee413f89992babd2b1917fcb89d20db6804
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632813"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322015"
 ---
-# <a name="compliance"></a>Compliance
+# <a name="compliance"></a>Naleving
 
 Wanneer u Microsoft Managed Desktop IT-as-a-service gebruikt, biedt Microsoft u een uitgebreide reeks compliance-aanbiedingen. Deze inspanning helpt uw organisatie te voldoen aan de verschillende nalevingsvereisten.
 
@@ -21,7 +21,7 @@ Wanneer u Microsoft Managed Desktop IT-as-a-service gebruikt, biedt Microsoft u 
 
 Microsoft Managed Desktop heeft de volgende certificeringen behaald:
 
-- [Iso 27001 Beheernormen voor informatiebeveiliging](../../compliance/offering-ISO-27001.md)
+- [Iso 27001 Information Security Management Standards (ISMS)](../../compliance/offering-ISO-27001.md)
 - [ISO 27701 Privacy Information Management System (PIMS)](../../compliance/offering-iso-27701.md)
 - [ISO 27017 Gedragscode voor informatiebeveiligingscontroles](../../compliance/offering-ISO-27017.md)
 - [ISO 27018 Gedragscode voor het beschermen van persoonsgegevens in de cloud](../../compliance/offering-ISO-27018.md)
@@ -38,7 +38,7 @@ Microsoft Managed Desktop heeft de volgende certificeringen behaald:
 U vindt relevante informatie, waaronder controle en technische vereisten, in de [Service Trust Portal (STP),](https://servicetrust.microsoft.com/)de centrale opslagplaats voor dergelijke informatie over Microsoft Cloud Service-aanbiedingen. U auditorrapporten, nalevingscertificaten en meer downloaden uit de sectie [Auditrapporten](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) van de STP.
 
 > [!NOTE]
-> Omdat Microsoft Managed Desktop op Azure wordt uitgevoerd, bevatten sommige relevante documenten bestandsnamen zoals 'Microsoft Azure, Dynamics 365 en andere Online Services'. In deze documenten u Microsoft Managed Desktop meestal vinden onder de categorie 'Monitoring + Management'.
+> Omdat Microsoft Managed Desktop op Azure wordt uitgevoerd, bevatten relevante documenten meestal bestandsnamen zoals 'Microsoft Azure, Dynamics 365 en andere Online Services'. In deze documenten u Microsoft Managed Desktop meestal vinden onder de categorie 'Monitoring + Management'.
 
 ## <a name="shared-responsibility"></a>Gedeelde verantwoordelijkheid
 
