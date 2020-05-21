@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 965b4cf872129dc7bc9b439c1c15025acceb44c6
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: dbc8d1e8dae1845412b1fb3ad86b831b08a4a518
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173544"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327142"
 ---
 # <a name="microsoft-secure-score-new"></a>Microsoft Secure Score (nieuw)
 
@@ -31,7 +31,7 @@ ms.locfileid: "44173544"
 >
 >Als u geen **tabblad Statistieken & trends** naast Geschiedenis ziet, bevindt u zich in de vorige iteratie. [Ga naar Microsoft Secure Score (vorige iteratie)](microsoft-secure-score.md)
 
-Microsoft Secure Score is een meting van de beveiligingshouding van een organisatie, met een hoger aantal dat aangeeft dat er meer verbeteracties zijn uitgevoerd. Het kan worden https://security.microsoft.com/securescore gevonden op in de [Microsoft 365 security center](overview-security-center.md).
+Microsoft Secure Score is een meting van de beveiligingshouding van een organisatie, met een hoger aantal dat aangeeft dat er meer verbeteracties zijn uitgevoerd. Het kan worden gevonden op https://security.microsoft.com/securescore in de [Microsoft 365 security center](overview-security-center.md).
 
 Het volgen van de aanbevelingen voor beveiligingsscore kan uw organisatie beschermen tegen bedreigingen. Vanuit een gecentraliseerd dashboard in het Microsoft 365-beveiligingscentrum kunnen organisaties de beveiliging van hun Microsoft 365-identiteiten, gegevens, apps, apparaten en infrastructuur bewaken en eraan werken.
 
@@ -103,6 +103,9 @@ Om u te helpen sneller de informatie te verzamelen die u nodig hebt, worden micr
 * App (e-mail- en cloud-apps, waaronder Office 365 en Microsoft Cloud App Security)
 * Infrastructuur (voorlopig geen verbeteracties)
 
+>[!NOTE]
+>In de recente release van Microsoft Secure Score is een verbeterd scoremodel uitgebracht dat Microsoft Secure Score tijdelijk onverenigbaar maakte met Identity Secure Score en de Graph API. [Details weergeven](microsoft-secure-score-new.md#incompatibility-with-identity-secure-score-and-graph-api)
+
 Op de overzichtspagina van Microsoft Secure Score u zien hoe punten worden verdeeld over deze groepen en welke punten beschikbaar zijn. De overzichtspagina is ook de plek om een totaalbeeld te krijgen van de totale score, historische trend van uw beveiligde score met benchmarkvergelijkingen en geprioritteerde verbeteringsacties die kunnen worden ondernomen om uw score te verbeteren.
 
 ![Startpagina van beveiligde score](../../media/secure-score/secure-score-homepage-new.png)
@@ -120,8 +123,8 @@ Ranking is gebaseerd op het aantal resterende punten te bereiken, implementatie 
 
 Wanneer u een specifieke verbeteringsactie selecteert, wordt een flyout van de volledige pagina weergegeven.  
 
-![Voorbeeld van voorbeeld](../../media/secure-score/secure-score-improvement-action-details.png)
-van de flyout van de verbeteringsactie*Figuur 2: Voorbeeld van de actie van de verbetering*
+![Voorbeeld van voorbeeld van de flyout van de verbeteringsactie ](../../media/secure-score/secure-score-improvement-action-details.png)
+ *Figuur 2: Voorbeeld van de actie van de verbetering*
 
 Als u de actie wilt voltooien, hebt u een aantal opties:
 
@@ -177,6 +180,14 @@ Microsoft Secure Score is een numerieke samenvatting van uw beveiligingshouding 
 ## <a name="whats-new"></a>Wat is er nieuw? 
 
 Om van Microsoft Secure Score een betere vertegenwoordiger van uw beveiligingshouding te maken, hebben we enkele wijzigingen aangebracht. Zie [Wat komt er in Microsoft Secure Score?](microsoft-secure-score-whats-coming.md)
+
+### <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>Onverenigbaarheid met Identity Secure Score en Graph API
+
+In de recente release van Microsoft Secure Score is een verbeterd scoremodel uitgebracht. Deze veranderingen zorgen voor een flexibeler en nauwkeuriger beeld van uw beveiligingshouding. Deze updates hebben Microsoft Secure Score echter tijdelijk onverenigbaar gemaakt met Identity Secure Score en de Graph API.
+
+Op termijn zullen Identity Secure Score en de Graph API het nieuwe scoremodel aannemen. Tot die tijd zien klanten verschillen in de scores die worden gerapporteerd door Microsoft Secure Score, Identity Secure Score en de Graph API. Onze excuses voor het ongemak dat dit veroorzaakt, en werken eraan om ervoor te zorgen dat deze ervaringen in de toekomst beter compatibel zijn.
+
+### <a name="updated-improvement-actions"></a>Bijgewerkte verbeteringsacties
 
 - Added Azure Active Directory improvement actions Added Azure Active Directory improvement actions Added Azure Active Directory improvement actions Added Azure
 - Azure Advanced Threat Protection-verbeteringsacties toegevoegd

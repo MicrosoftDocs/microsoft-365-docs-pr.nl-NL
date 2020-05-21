@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Meer informatie over het herstellen van een verwijderde Microsoft 365-groep.
-ms.openlocfilehash: 9d432d6ddb7e41b6560329b562c24f392a424412
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 123805750beff88904a8e3874f0d4d46a72e8f01
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140522"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327626"
 ---
 # <a name="restore-a-deleted-group"></a>Een verwijderde groep herstellen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -72,6 +72,9 @@ Als u een globale beheerder of een groepsbeheerder bent, u een verwijderde groep
 1. Ga naar het [beheercentrum](https://admin.microsoft.com).
 2. Groepen **Groups**uitvouwen en vervolgens op **Verwijderde groepen**klikken .
 3. Selecteer de groep die u wilt herstellen en klik op **Groep herstellen**.
+
+> [!NOTE]
+> In sommige gevallen kan het zo lang duren voordat de groep en al haar gegevens zijn hersteld. 
   
 ## <a name="permanently-delete-a-microsoft-365-group"></a>Een Microsoft 365-groep definitief verwijderen
 

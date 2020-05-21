@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Leer het standaardthema van Microsoft 365 te wijzigen en het aan te passen aan uw bedrijfslogo of -kleur. '
-ms.openlocfilehash: 3674c26be50d622364a4dc077a85eaa974d71fcd
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: dba7003f6624a2635976ac689d608a83e62de5c0
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262327"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327204"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Het Microsoft 365-thema aanpassen voor uw organisatie
 
@@ -64,7 +64,7 @@ Meer informatie over het aanpassen van uw thema in het Microsoft 365-beheercentr
     
 4. Selecteer **Wijzigingen opslaan**.
     
-U ziet uw nieuwe thema meteen in het beheercentrum en na een korte vertraging ziet u het in Microsoft 365, inclusief pagina's in Outlook, SharePoint, [sharepoint mobiele app voor iOS](https://support.office.com/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)en [mobiele SharePoint-app voor Android.](https://support.office.com/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284) Zie de volgende afbeelding voor een voorbeeld van waar u themawijzigingen vanuit het beheercentrum aanpassen.
+U ziet uw nieuwe thema meteen in het beheercentrum en na een korte vertraging ziet u het in Microsoft 365, inclusief pagina's in Outlook, SharePoint, [mobiele SharePoint-app voor iOS](https://support.office.com/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)en [de mobiele SharePoint-app voor Android.](https://support.office.com/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284) Zie de volgende afbeelding voor een voorbeeld van waar u themawijzigingen vanuit het beheercentrum aanpassen.
 
 ![m365-admin-tenant-thema-conceptueel](../../media/m365-admin-tenant-theme-conceptual.png)
 

@@ -20,19 +20,19 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Bescherm uw zakelijke e-mail en gegevens tegen cyberbedreigingen, waaronder ransomware, phishing en schadelijke bijlagen. '
-ms.openlocfilehash: 119329289a9c19c2256cf112e82289b55cf9ce07
-ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
+ms.openlocfilehash: a6b73070affc1054d316f71c071772b53b2e4f09
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44155431"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327228"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 manieren om Microsoft 365 te beveiligen voor bedrijfsabonnementen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -67,7 +67,7 @@ Zie [MFA](https://support.office.com/article/e12187b8-216a-4490-9e3b-df34a06fb78
   
 Ga als u meerstapsverificatie instellen:
 
-1. Selecteer gebruikers **actieve** > **gebruikers**in het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=834822).
+1. Selecteer gebruikers **actieve**gebruikers in het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=834822)  >  **Active Users**.
 
 2. Selecteer **multifactorverificatie**in de sectie **Actieve gebruikers** .
 
@@ -117,9 +117,9 @@ De beheerdersaccounts die u gebruikt om uw Microsoft 365-omgeving te beheren, be
 
 Uw Microsoft 365-omgeving bevat bescherming tegen malware, maar u deze bescherming verhogen door bijlagen te blokkeren met bestandstypen die vaak worden gebruikt voor malware. Als u malwarebescherming in e-mail wilt opvoeren, bekijkt u een [korte trainingsvideo](https://support.office.com/article/02b5783a-eea0-42e8-8856-62440718c3f0)of voert u de volgende stappen uit:
   
-1. Ga [https://protection.office.com](https://protection.office.com) naar en meld u aan met uw beheerdersaccountreferenties. 
+1. Ga naar [https://protection.office.com](https://protection.office.com) en meld u aan met uw beheerdersaccountreferenties. 
     
-2. Kies in &amp; het Security Compliance Center in het linkernavigatiedeelvenster onder **Bedreigingsbeheer** **de** \> optie **Beleid Anti-Malware**.
+2. Kies in het Security &amp; Compliance Center in het linkernavigatiedeelvenster onder **Bedreigingsbeheer** **de** optie \> **Beleid Anti-Malware**.
     
 3. Dubbelklik op het standaardbeleid om dit bedrijfsbrede beleid te bewerken.
     
@@ -148,7 +148,7 @@ Als u een regel voor het transport van e-mail wilt maken, bekijkt u een [korte t
 
 2. Selecteer **regels**in de categorie **e-mailstroom** .
     
-3. Selecteer **+** en maak **vervolgens een nieuwe regel**.
+3. Selecteer **+** en maak vervolgens een nieuwe **regel**.
     
 4. Selecteer **** onder aan het dialoogvenster om de volledige set opties te bekijken. 
     
@@ -184,7 +184,7 @@ Ga als lid van het openbaar vervoer naar een andere regel:
 
 2. Selecteer **regels**in de categorie **e-mailstroom** .
     
-3. Selecteer **+** en maak **vervolgens een nieuwe regel**.
+3. Selecteer **+** en maak vervolgens een nieuwe **regel**.
     
 4. Selecteer **Meer opties** onder aan het dialoogvenster om de volledige set opties te bekijken. 
     
@@ -192,10 +192,11 @@ Ga als lid van het openbaar vervoer naar een andere regel:
     
 6. Kies **Opslaan**.
     
-|**Instelling**|**Gebruikers waarschuwen voordat u bijlagen van Office-bestanden opent**|
+|**Instelling**|**E-mails automatisch doorsturen weigeren naar externe domeinen**|
 |:-----|:-----|
 |Name  <br/> |Automatisch doorsturen van e-mail naar externe domeinen voorkomen  <br/> |
 |Pas deze regel toe als ...  <br/> |De afzender . . . is extern/intern . . . Binnen de organisatie  <br/> |
+|Voorwaarde toevoegen  <br/> |De ontvanger . . . is extern/intern . . . Buiten de organisatie  <br/> |
 |Voorwaarde toevoegen  <br/> |De berichteigenschappen . . . het berichttype opnemen . . . Automatisch doorsturen  <br/> |
 |Doe de volgende ...  <br/> |Het bericht blokkeren . . . het bericht af te wijzen en een uitleg op te nemen.  <br/> |
 |Berichttekst opgeven  <br/> |Het automatisch doorsturen van e-mail buiten deze organisatie wordt om veiligheidsredenen voorkomen.  <br/> |
@@ -244,7 +245,7 @@ Als u een ATP-antiphishingbeleid wilt maken, bekijkt u een [korte trainingsvideo
   
 1. Ga naar [https://protection.office.com](https://protection.office.com). 
     
-2. Selecteer In &amp; het Beveiligingscompliancecentrum in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**de optie **Beleid**.
+2. Selecteer In het &amp; Beveiligingscompliancecentrum in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**de optie **Beleid**.
     
 3. Selecteer op de pagina Beleid **ATP-antiphishing**.
     
@@ -254,7 +255,7 @@ Als u een ATP-antiphishingbeleid wilt maken, bekijkt u een [korte trainingsvideo
     
 6. Nadat u uw instellingen hebt gecontroleerd, selecteert u **Dit beleid maken** of **Opslaan,** indien van toepassing.
     
-| | | **Instelling of optie**|**Aanbevolen instelling** <br/>
+| | | **Instellen of optie** | **Aanbevolen instelling** <br/>
 | Naam  <br/> | Domein en meest waardevolle campagnemedewerkers  <br/> | | Beschrijving  <br/> | Zorg ervoor dat de belangrijkste medewerkers en ons domein niet worden nagebootst.  <br/> | | Gebruikers toevoegen om te beschermen  <br/> | Selecteer **+ Voeg een voorwaarde toe, De ontvanger is**. Typ gebruikersnamen of voer het e-mailadres in van de kandidaat, campagnemanager en andere belangrijke medewerkers. U maximaal 20 interne en externe adressen toevoegen die u wilt beschermen tegen imitatie.  <br/> | | Domeinen toevoegen om te beschermen  <br/> | Selecteer **+ Een voorwaarde toevoegen, Het domein van de geadresseerden is**. Voer het aangepaste domein in dat is gekoppeld aan uw Microsoft 365-abonnement als u er een hebt gedefinieerd. U meer dan één domein invoeren.  <br/> | | Acties kiezen  <br/> | Als e-mail wordt verzonden door een nagebootste gebruiker: selecteer **Bericht omleiden naar een ander e-mailadres**en typ vervolgens het e-mailadres van de beveiligingsbeheerder. bijvoorbeeld securityadmin@contoso.com.          Als e-mail wordt verzonden door een nagebootst domein: selecteer **Quarantainebericht**.  <br/> | | Postvakintelligentie  <br/> | Postvakinformatie wordt standaard geselecteerd wanneer u een nieuw antiphishingbeleid maakt. Laat deze instelling **Aan** voor de beste resultaten.  <br/> | | Vertrouwde afzenders en domeinen toevoegen  <br/> | Definieer in dit voorbeeld geen overschrijvingen.  <br/> | | Toegepast op  <br/> | Selecteer **Het domein van de geadresseerde is**. Selecteer **onder Een van deze**opties **Kiezen**. Selecteer **+ Toevoegen**. Schakel het selectievakje naast de naam van het domein in, bijvoorbeeld contoso.com, in de lijst en selecteer **Toevoegen**. Selecteer **Gereed**.  <br/> |
    
 Zie [Office 365 ATP-beleid voor phishing instellen](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409)voor meer informatie .
@@ -266,9 +267,9 @@ Mensen verzenden, ontvangen en delen regelmatig bijlagen, zoals documenten, pres
   
 Als u een ATP-beleid voor veilige bijlagen wilt maken, bekijkt u een [korte trainingsvideo](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)of voert u de volgende stappen uit:
   
-1. Ga [https://protection.office.com](https://protection.office.com) naar en meld je aan met je beheerdersaccount. 
+1. Ga naar [https://protection.office.com](https://protection.office.com) en meld je aan met je beheerdersaccount. 
     
-2. Selecteer In &amp; het Beveiligingscompliancecentrum in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**de optie **Beleid**.
+2. Selecteer In het &amp; Beveiligingscompliancecentrum in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**de optie **Beleid**.
     
 3. Selecteer op de pagina Beleid de optie **veilige ATP-bijlagen**.
     
@@ -280,7 +281,7 @@ Als u een ATP-beleid voor veilige bijlagen wilt maken, bekijkt u een [korte trai
     
 7. Nadat u uw instellingen hebt gecontroleerd, selecteert u **Dit beleid maken** of **Opslaan,** indien van toepassing.
     
-| | | **Instelling of optie**|**Aanbevolen instelling** <br/>| | Naam  <br/> | Blokkeer huidige en toekomstige e-mails met gedetecteerde malware.  <br/> | | Beschrijving  <br/> | Blokkeer huidige en toekomstige e-mails en bijlagen met gedetecteerde malware.  <br/> | | Bijlagen opslaan onbekende malware reactie  <br/> | Selecteer **Blokkeren - Blokkeer de huidige en toekomstige e-mails en bijlagen met gedetecteerde malware.**  <br/> | | Bijlage bij detectie omleiden  <br/> | Omleiding inschakelen (selecteer dit vak) Voer het beheerdersaccount of een postvakinstelling in voor quarantaine.          Pas de bovenstaande selectie toe als malware scannen op bijlagen een keer uit of fout optreedt (selecteer dit vak).  <br/> | | Toegepast op  <br/> | Het domein van de ontvanger is . . . selecteer uw domein.  <br/> |
+| | | **Instellen of optie** | **Aanbevolen instelling** <br/>| | Naam  <br/> | Blokkeer huidige en toekomstige e-mails met gedetecteerde malware.  <br/> | | Beschrijving  <br/> | Blokkeer huidige en toekomstige e-mails en bijlagen met gedetecteerde malware.  <br/> | | Bijlagen opslaan onbekende malware reactie  <br/> | Selecteer **Blokkeren - Blokkeer de huidige en toekomstige e-mails en bijlagen met gedetecteerde malware.**  <br/> | | Bijlage bij detectie omleiden  <br/> | Omleiding inschakelen (selecteer dit vak) Voer het beheerdersaccount of een postvakinstelling in voor quarantaine.          Pas de bovenstaande selectie toe als malware scannen op bijlagen een keer uit of fout optreedt (selecteer dit vak).  <br/> | | Toegepast op  <br/> | Het domein van de ontvanger is . . . selecteer uw domein.  <br/> |
    
 Zie [Office 365 ATP-beleid voor phishing instellen](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409)voor meer informatie .
   
@@ -297,9 +298,9 @@ Wij raden u aan het volgende te doen:
     
 Als u naar ATP Safe Links wilt gaan, bekijkt u een [korte trainingsvideo](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa)of voert u de volgende stappen uit:
   
-1. Ga [https://protection.office.com](https://protection.office.com) naar en meld je aan met je beheerdersaccount. 
+1. Ga naar [https://protection.office.com](https://protection.office.com) en meld je aan met je beheerdersaccount. 
     
-2. Selecteer In &amp; het Beveiligingscompliancecentrum in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**de optie **Beleid**.
+2. Selecteer In het &amp; Beveiligingscompliancecentrum in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**de optie **Beleid**.
     
 3. Selecteer op de pagina Beleid de optie **Veilige ATP-koppelingen**.
     
@@ -313,12 +314,12 @@ Ga als u het standaardbeleid wijzigen:
     
 Ga als bedoeld als het gaat om een nieuw beleid te maken dat is gericht op alle ontvangers in uw domein:
   
-1. Selecteer **+** op de pagina Veilige koppelingen onder **Beleid dat van toepassing is op de hele organisatie**om een nieuw beleid te maken. 
+1. Selecteer op de pagina Veilige koppelingen onder **Beleid dat van toepassing is op de hele organisatie**om een nieuw beleid te **+** maken. 
     
 2. Pas de instellingen in de volgende tabel toe.
     
 3. Kies **Opslaan**. 
     
-| | | **Instelling of optie**|**Aanbevolen instelling** <br/>| | Naam  <br/> | Beleid voor veilige koppelingen voor alle ontvangers in het domein  <br/> | | De actie selecteren voor onbekende mogelijk schadelijke URL's in berichten  <br/> | Selecteer **Op - URL's worden herschreven en gecontroleerd aan de hand van een lijst met bekende schadelijke links wanneer de gebruiker op de koppeling klikt.**  <br/> | | Veilige bijlagen gebruiken om downloadbare inhoud te scannen  <br/> | Selecteer dit vak.  <br/> | | Toegepast op  <br/> | Het domein van de ontvanger is . . . selecteer uw domein.  <br/> |
+| | | **Instellen of optie** | **Aanbevolen instelling** <br/>| | Naam  <br/> | Beleid voor veilige koppelingen voor alle ontvangers in het domein  <br/> | | De actie selecteren voor onbekende mogelijk schadelijke URL's in berichten  <br/> | Selecteer **Op - URL's worden herschreven en gecontroleerd aan de hand van een lijst met bekende schadelijke links wanneer de gebruiker op de koppeling klikt.**  <br/> | | Veilige bijlagen gebruiken om downloadbare inhoud te scannen  <br/> | Selecteer dit vak.  <br/> | | Toegepast op  <br/> | Het domein van de ontvanger is . . . selecteer uw domein.  <br/> |
    
 Zie [veilige koppelingen van Office 365 ATP voor](https://go.microsoft.com/fwlink/?linkid=2016138&amp;clcid=0x409)meer informatie .

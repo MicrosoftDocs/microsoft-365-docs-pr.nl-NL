@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 2b87ba629d956b904db6598186a2f2b95012a9ee
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 3509bc5031ed83785c2b0de4c0711d04f5d5ac56
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209761"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327014"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Begrijp het geavanceerde jachtschema
 
@@ -50,14 +50,14 @@ In de volgende verwijzing worden alle tabellen in het schema weergegeven. Elke t
 | **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | Netwerkeigenschappen van machines, waaronder adapters, IP- en MAC-adressen, evenals verbonden netwerken en domeinen |
 | **[DeviceProcessEvents](advanced-hunting-deviceprocessevents-table.md)** | Procescreatie en gerelateerde gebeurtenissen |
 | **[DeviceRegistryEvents](advanced-hunting-deviceregistryevents-table.md)** | Aanmaken en wijzigen van registervermeldingen |
-| **[DeviceTvmSecureConfigurationAssessment](advanced-hunting-tvm-configassessment-table.md)** | Beoordelingsgebeurtenissen voor & kwetsbaarheidsbeheer, die de status van verschillende beveiligingsconfiguraties op apparaten aangeven |
-| **[DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-tvm-secureconfigkb-table.md)** | Kennisbank van verschillende beveiligingsconfiguraties die worden gebruikt door Threat & Vulnerability Management om apparaten te beoordelen; omvat mappings naar verschillende standaarden en benchmarks  |
-| **[DeviceTvmSoftwareInventoryVulnerabilities](advanced-hunting-tvm-softwareinventory-table.md)** | Inventarisatie van software op apparaten en eventuele bekende kwetsbaarheden in deze softwareproducten |
-| **[DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-tvm-softwarevulnerability-table.md)** | Kennisbank van openbaar gemaakte kwetsbaarheden, waaronder de vraag of exploitcode openbaar beschikbaar is |
+| **[DeviceTvmSecureConfigurationAssessment](advanced-hunting-devicetvmsecureconfigurationassessment-table.md)** | Beoordelingsgebeurtenissen voor & kwetsbaarheidsbeheer, die de status van verschillende beveiligingsconfiguraties op apparaten aangeven |
+| **[DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-devicetvmsecureconfigurationassessmentkb-table.md)** | Kennisbank van verschillende beveiligingsconfiguraties die worden gebruikt door Threat & Vulnerability Management om apparaten te beoordelen; omvat mappings naar verschillende standaarden en benchmarks  |
+| **[DeviceTvmSoftwareInventoryVulnerabilities](advanced-hunting-devicetvmsoftwareinventoryvulnerabilities-table.md)** | Inventarisatie van software op apparaten en eventuele bekende kwetsbaarheden in deze softwareproducten |
+| **[DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md)** | Kennisbank van openbaar gemaakte kwetsbaarheden, waaronder de vraag of exploitcode openbaar beschikbaar is |
 | **[EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md)** | Informatie over bestanden die aan e-mails zijn gekoppeld |
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | Microsoft 365-e-mailgebeurtenissen, waaronder e-mailbezorging en blokkeringsgebeurtenissen |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Informatie over URL's op Microsoft 365-e-mails |
-| **[Identiteitsinfo](advanced-hunting-identityinfo-table.md)** | Accountgegevens uit verschillende bronnen, waaronder Azure Active Directory |
+| **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Accountgegevens uit verschillende bronnen, waaronder Azure Active Directory |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Verificatiegebeurtenissen die zijn geregistreerd door Active Directory en andere onlineservices van Microsoft |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Query-activiteiten die worden uitgevoerd met Active Directory-objecten, zoals gebruikers, groepen, apparaten en domeinen |
 

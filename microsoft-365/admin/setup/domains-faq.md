@@ -22,19 +22,19 @@ search.appverid:
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: Meer informatie over domeinen vindt u antwoorden op uw vragen in veelgestelde vragen.
 ms.custom: okr_smb
-ms.openlocfilehash: 09e811b64def4d507a9d825f95b9d22f910669bb
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 1af20ed0052a7bb4f98072a7142bf7e112b8305e
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140747"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327110"
 ---
 # <a name="domains-faq"></a>Veelgestelde vragen over domeinen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -102,7 +102,7 @@ U moet de DNS-records voor Office 365-services zelf instellen (tenzij u een GoDa
 
 Een domein is een unieke naam die na het **@** -teken wordt weergegeven in een e-mailadres en na **www.** in een webadres. Meestal bestaat deze uit de naam van uw organisatie en een standaard-internetachtervoegsel, zoals  *uwbedrijf.com*  of  *universiteit.edu*  . 
   
-Het gebruik van een aangepast domein zoals "**rob\@contoso.com**" met Office 365 kan helpen bij het opbouwen van geloofwaardigheid en erkenning voor uw merk. 
+Het gebruik van een aangepast domein zoals "**rob \@ contoso.com**" met Office 365 kan helpen bij het opbouwen van geloofwaardigheid en erkenning voor uw merk. 
   
 U kunt [een domein kopen in Office 365, waarna het automatisch wordt ingesteld](../get-help-with-domains/buy-a-domain-name.md). U kunt ook een domein kopen bij een domeinregistrar of een domein gebruiken dat u al hebt.
   
@@ -128,11 +128,11 @@ Volg de stappen hieronder om de code op te halen op Office 365. Ga vervolgens na
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Instellingenlicenties.</a> **Settings**
+1. Ga in het beheercentrum **Settings** naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Instellingenlicenties.</a>
 
 ::: moniker-end
     
-2. Selecteer **op** de pagina Domeinen het Office 365-domein dat u naar een andere domeinregistrar wilt overbrengen en selecteer **vervolgens Domeinoverdracht** > **inschakelen.**
+2. Selecteer **op** de pagina Domeinen het Office 365-domein dat u naar een andere domeinregistrar wilt overbrengen en selecteer **vervolgens**  >  **Domeinoverdracht inschakelen.**
        
 4. Volg de stappen om het overzetten van uw domein voor te bereiden.
     
@@ -187,7 +187,7 @@ Volg de stappen hieronder om de code op te halen op Office 365. Ga vervolgens na
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen..</a> **Settings**
+1. Ga in het beheercentrum **Settings** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Instellingendomeinen..</a>
 
 ::: moniker-end
 
@@ -258,6 +258,8 @@ Providers die ondersteuning bieden voor alle vereiste DNS-records:
 - Desktopclients van Skype voor Bedrijven Online kunnen Automatisch opsporen gebruiken om automatisch de Skype voor Bedrijven Online-service te vinden, zodat gebruikers zich kunnen aanmelden zonder dat ze een servernaam hoeven in te voeren.
     
 - Mobiele clients van Skype voor Bedrijven Online kunnen Automatisch opsporen gebruiken om automatisch de Skype voor Bedrijven Online-service te vinden, zodat gebruikers zich kunnen aanmelden zonder dat ze een servernaam hoeven in te voeren.
+
+- Microsoft Teams federatie met Skype voor Bedrijven, zowel on-premises als online. Zie Het [netwerk van uw organisatie voorbereiden op Microsoft Teams voor](https://docs.microsoft.com/microsoftteams/prepare-network)meer informatie.
     
  **Als SPF/TXT-records niet worden ondersteund**, kunnen andere personen mogelijk uw domein gebruiken om spam of andere schadelijke e-mail te verzenden. Door SPF-records worden de servers geïdentificeerd die zijn geautoriseerd om e-mail vanaf uw domein te verzenden. 
   
@@ -342,7 +344,7 @@ Als u meerdere domeinen aan Office 365 toevoegt, kunt u alle services (zoals e-m
 
 Office 365 maakt een domein voor u, zoals *contoso.onmicrosoft.com*wanneer u zich aanmeldt bij de service. De gebruikersnaam die u maakt wanneer u zich aanmeldt, bevat het domein, zoals *alan@contoso.onmicrosoft.com.* 
   
- **Als u uw e-mail wilt laten lijken op *alan\@contoso.com:*** [koop het domein](../get-help-with-domains/buy-a-domain-name.md) of volg gewoon de stappen in Uw gebruikers en domein toevoegen aan Office [365](add-domain.md) als u het al bezit. 
+ **Als u uw e-mail wilt laten lijken op *alan \@ contoso.com:*** [koop het domein](../get-help-with-domains/buy-a-domain-name.md) of volg gewoon de stappen in Uw gebruikers en domein toevoegen aan Office [365](add-domain.md) als u het al bezit. 
   
 - **U kunt de naam van het onmicrosoft-domein niet meer wijzigen nadat u zich hebt geregistreerd.** Als u tijdens het registreren bijvoorbeeld in eerste instantie fourthcoffee.onmicrosoft.com hebt gekozen, kunt u deze naam niet meer wijzigen in fabrikam.onmicrosoft.com. Als u een ander onmicrosoft.com-domein wilt gebruiken, moet u een nieuw abonnement nemen op Office 365. 
     
@@ -405,7 +407,7 @@ Dat kan, maar er zijn beperkingen:
     
     1. Meld u aan bij Office 365 met uw werk- of schoolaccount.
         
-    2. Ga naar \> **Instellingendomeinen**. **Settings** 
+    2. Ga **Settings** naar \> **Instellingendomeinen**. 
     
 2. Controleren of u eigenaar bent van het domein dat u wilt gebruiken
     
@@ -441,13 +443,13 @@ Dat kan, maar er zijn beperkingen:
         
     3. Selecteer **in**EAC Beveiliging en selecteer **vervolgens het filter Verbinding**. 
         
-    4. Selecteer **+** in de **lijst IP-toestaan**het IP-adres van de e-mailserver dat u ophalen van uw huidige e-mailprovider en voeg deze toe. 
+    4. Selecteer in de **lijst IP-toestaan** **+** het IP-adres van de e-mailserver dat u ophalen van uw huidige e-mailprovider en voeg deze toe. 
     
 5. Gebruikersaccounts maken en het primaire (antwoordadres) instellen
     
     1. Ga naar het Microsoft 365-beheercentrum.
         
-    2. Selecteer op de linkernavigatiebalk de optie **Actieve gebruikers** **gebruikers** \> . 
+    2. Selecteer op de linkernavigatiebalk de optie **Users** \> **Actieve gebruikers gebruikers**. 
         
     3. Maak de gebruikersaccounts.
         
@@ -457,7 +459,7 @@ Dat kan, maar er zijn beperkingen:
         
     6. Selecteer naast Gebruikersnaam uw aangepaste domeinnaam in de vervolgkeuzelijst.
         
-    7. Selecteer **Sluiten maken** \> **Close**. 
+    7. Selecteer **Sluiten** \> **maken**. 
         
 6. DNS-records bijwerken bij uw DNS-hostingprovider
     

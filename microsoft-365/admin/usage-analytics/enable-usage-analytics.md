@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Meer informatie over het verzamelen van gegevens voor uw tenant met de sjabloon-app Microsoft 365 Usage Analytics in Power BI.
-ms.openlocfilehash: 3c5e1a35b93b755b92710f0499599d849a6c251c
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: 375bc26a2e106d909eb9ea5d0990a054553d71b0
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262533"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327670"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 Gebruiksanalyse inschakelen
 
@@ -83,7 +83,7 @@ Als u de sjabloon-app wilt starten, moet u een **globale beheerder**zijn, **rapp
 
 5.  Klik **op App verkennen** om de app te bekijken met voorbeeldgegevens. Klik **op Verbinding maken** om de app te verbinden met de gegevens van uw organisatie.
 
-6.  Nadat u op **Verbinding hebt**geklikt , typt u in het scherm Verbinding maken met **Microsoft 365 gebruiksanalyse** de tenant-id die u in stap (1) Volgende hebt \> **Next**gekopieerd.
+6.  Nadat u op **Verbinding hebt**geklikt, typt u in het scherm Verbinding maken met **Microsoft 365 gebruiksanalyse,** typt u de tenant-id (zonder streepjes) die u in stap (1) hebt gekopieerd en selecteert u **Volgende**.
     
 7. Selecteer in het volgende scherm **oAuth2** als **de verificatiemethode** \> **Aanmelden**. Als u een andere verificatiemethode kiest, mislukt de verbinding met de sjabloon-app.
     

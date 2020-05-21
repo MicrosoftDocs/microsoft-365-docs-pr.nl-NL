@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: d481a53da541b28975071a9dff6b7cdcc671345b
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: 034305eec75bd369752915084b2857ebea455aa0
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804804"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327922"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop-apparaten 
 
@@ -25,7 +25,7 @@ Als u wilt worden ingeschreven bij Microsoft Managed Desktop, moet een apparaat 
 De links naar apparaten hier zijn alleen voor uw referentie. Als u apparaten wilt bestellen, werkt u samen met uw commerciële kanaalcontacten om ervoor te zorgen dat u de juiste configuraties kiest. In deze tabel is de *archiefdatum* de datum waarop deze modellen onderhevig zijn aan een kortere Microsoft Managed Desktop-levensduur; dergelijke apparaten die na deze datum aan boord zijn, ontvangen geen volledige periode van drie jaar ondersteuning van Microsoft Managed Desktop. Gearchiveerde apparaten worden ook vermeld in [door Microsoft Beheerde bureaublad gearchiveerde apparaten](archived-device-list.md). *Pensioendatum* is de datum waarop dit model helemaal niet meer wordt ondersteund door Microsoft Managed Desktop. Op die datum worden alle ingeschreven apparaten van dit model verwijderd van Microsoft Managed Desktop, ongeacht wanneer ze zijn ingeschreven.
 
 >[!NOTE]
->Apparaten kunnen op elk gewenst moment aan deze tabel worden toegevoegd, maar we bieden 90 dagen opzegtermijn voor wijzigingen die van invloed zijn op het archief of de pensioendatum. De apparaten die het **\*** meest recent zijn toegevoegd, zijn gemarkeerd met .
+>Apparaten kunnen op elk gewenst moment aan deze tabel worden toegevoegd, maar we bieden 90 dagen opzegtermijn voor wijzigingen die van invloed zijn op het archief of de pensioendatum. De apparaten die het meest recent zijn toegevoegd, zijn gemarkeerd met **\*** .
 
 
 **Microsoft Managed Desktop Devices**
@@ -60,13 +60,17 @@ De links naar apparaten hier zijn alleen voor uw referentie. Als u apparaten wil
 | [Surface Pro 6](https://www.microsoft.com/p/surface-pro-6-for-business/8xjq3d3lrp0r/grf9?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 GB / Intel i5 / 8 GB RAM | Geen | 16 okt 2020 | 16 okt 2023 |
 | **\*[Surface Pro 7](https://www.microsoft.com/en-us/surface/business/surface-pro-7)** | 128 GB / Intel i5 / 8 GB RAM | Geen | 22 okt 2021 | 22 okt 2024 |
 
-
-
 Bovendien moet het apparaat ook aan deze criteria voldoen:     
 
 - Een afbeelding laten goedkeuren door Microsoft Managed Desktop. Wanneer u apparaten bestelt, moet u opgeven dat ze worden gebruikt met Microsoft Managed Desktop.
 - De eerste run-ervaring van Windows niet voltooid.
 - Worden geregistreerd bij Microsoft Managed Desktop met de functie [Apparaatregistratie](https://aka.ms/mmddrhelp)
+
+>[!NOTE]
+>Apparaten met een 2,0 GHz of snellere processor bieden een veel betere ervaring voor gebruikers die betrokken zijn bij deze activiteiten:
+>- Videoconferenties gebruiken met Teams. Zie [Hardwarevereisten voor Microsoft Teams](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app) voor meer informatie.
+>-  Eén apparaat gebruiken voor verschillende workloads.
+>- Met behulp van meerdere monitoren.
 
 **Aanvullende help**
 

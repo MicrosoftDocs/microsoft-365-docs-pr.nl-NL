@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 80b7e209f87d3612e753127f5d1a1b3c36304cc3
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: a41510deb8bad39e2f871babfbcb91a2e43f6dd8
+ms.sourcegitcommit: 56772bed89516cebc5eb370e292ccfbb4889cb38
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209352"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44330837"
 ---
 # <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-environment"></a>Microsoft Threat Protection-pijlers configureren voor uw proeflabomgeving
 
@@ -237,5 +237,14 @@ Klik op **Volgende**.
 16. Schuif omlaag en klik op **Voorkeuren opslaan** om de nieuwe integraties te bevestigen.
 <br>![Knop afbeelding of_Save voorkeuren waarop u moet klikken](../../media/mtp-eval-72.png) <br>
 
+## <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection inschakelen
+1. Ga naar [Microsoft 365 Security Center](https://security.microsoft.com/homepage). Navigeer naar **Instellingen** en selecteer **Microsoft Bedreigingsbeveiliging**.
+<br>![Afbeelding of_Microsoft optie Bedreigingsbescherming van de pagina Instellingen van het Microsoft 365 Security Center](../../media/mtp-eval-72b.png) <br>
+
+2. Schakel het selectievakje **Microsoft Bedreigingsbeveiliging inschakelen in** en klik op **Opslaan**.
+<br>![Afbeelding of_Microsoft optie Bedreigingsbescherming van de pagina Instellingen van het Microsoft 365 Security Center](../../media/mtp-eval-72c.png) <br>
+
+Gefeliciteerd! U hebt zojuist uw Microsoft Threat Protection trial lab-omgeving gemaakt! U nu een aanval simuleren en zien hoe de cross-productmogelijkheden detecteren, waarschuwingen maken en automatisch reageren op een bestandsloze aanval op een eindpunt.
+
 ## <a name="next-steps"></a>Volgende stappen
-[Schakel Microsoft Threat Protection in](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable?view=o365-worldwide#start-using-the-service) en [genereer vervolgens een testwaarschuwing.](generate-test-alert.md)
+[Een testwaarschuwing genereren](generate-test-alert.md).

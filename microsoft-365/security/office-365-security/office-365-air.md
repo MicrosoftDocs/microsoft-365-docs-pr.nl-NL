@@ -16,12 +16,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Aan de slag met geautomatiseerde onderzoeks- en reactiemogelijkheden in Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: 4e36e0fa07f825d3259ef9e42b802c81ae929470
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: c2020c3d46fcf17194e2560af53d9a26fca30629
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159405"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327828"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Aan de slag met Automated Investigation and Response (AIR) in Office 365
 
@@ -31,7 +31,7 @@ In dit artikel wordt de [algehele luchtstroom](#the-overall-flow-of-air) beschre
 
 ## <a name="the-overall-flow-of-air"></a>De totale stroom van AIR
 
-Op een hoog niveau wordt een waarschuwing geactiveerd en wordt een beveiligingsplaybook gestart en geautomatiseerd onderzoek, wat resulteert in bevindingen en aanbevelingen. Hier is de totale stroom van AIR, stap voor stap:
+Op een hoog niveau wordt een waarschuwing geactiveerd en start een beveiligingsplaybook een geautomatiseerd onderzoek, wat resulteert in bevindingen en aanbevelingen. Hier is de totale stroom van AIR, stap voor stap:
 
 1. Een geautomatiseerd onderzoek wordt op een van de volgende manieren gestart:
 
