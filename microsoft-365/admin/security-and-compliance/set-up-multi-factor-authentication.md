@@ -20,77 +20,100 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
-description: Meer informatie over het gebruik van beveiligingsstandaards voor het instellen van meervoudige verificatie voor gebruikers.
+description: Meer informatie over het instellen van multi-factor authenticatie voor uw organisatie.
 monikerRange: o365-worldwide
-ms.openlocfilehash: c4ea6037b34d29f2d1e05e248e03e49ee6b06f56
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: 893a4ae535dfb781a4f77ee57c0ead40fda8454f
+ms.sourcegitcommit: 185d62f41f6b173894ba6e3e87b11b2b5d02db58
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262373"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44340772"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Meervoudige verificatie instellen
   
-> [!IMPORTANT]
-> Als u uw abonnement of proefversie na 21 oktober 2019 hebt gekocht en u onverwacht wordt gevraagd om multi-factor authenticatie (MFA), zijn [beveiligingsstandaards](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) automatisch ingeschakeld voor uw abonnement.
+Op basis van uw kennis van [multi-factor authenticatie (MFA) en de ondersteuning ervan in Microsoft 365,](multi-factor-authentication-microsoft-365.md)is het tijd om het in te stellen en uit te rollen naar uw organisatie.
 
-Bij elk nieuw Microsoft 365-abonnement is automatisch [beveiligingsstandaards](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) ingeschakeld. Dit betekent dat elke gebruiker multi-factor authenticatie (MFA) moet instellen en de Microsoft Authenticator-app op zijn mobiele apparaat moet installeren. Zie [MFA instellen voor een Microsoft 365-account voor](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14)meer informatie .
+Bepaal voordat u begint of deze speciale voorwaarden op u van toepassing zijn en onderneem de juiste actie:
 
-De volgende negen beheerdersrollen moeten aanvullende verificatie uitvoeren wanneer ze zich aanmelden:
+- Als u Office 2013-clients op Windows-apparaten hebt, [schakelt u Moderne verificatie in.](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication)
 
-- Globale beheerder
-- SharePoint-beheerder
-- Exchange-beheerder
-- Beheerder van voorwaardelijke toegang
-- Beveiligingsbeheerder
-- Helpdesk- of wachtwoordbeheerder
-- Factureringsbeheerder
-- Gebruikersbeheerder
-- Verificatiebeheerder
+- Als u directoryservices van derden hebt met Active Directory Federation Services (AD FS), stelt u de Azure MFA-server in. Bekijk [geavanceerde scenario's met Azure Multi-Factor Authentication en VPN-oplossingen van derden](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-nps-vpn) voor meer informatie.
 
-Alle andere gebruikers wordt gevraagd om indien nodig extra verificatie uit te voeren.
+## <a name="step-1-decide-on-the-method-of-requiring-your-users-to-use-mfa"></a>Stap 1: Bepaal de methode om uw gebruikers MFA te verplichten
 
-> [!NOTE]
-> U moet een globale beheerder zijn om MFA in te stellen of te wijzigen <br><br>
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
+Er zijn drie manieren om uw gebruikers te verplichten MFA te gebruiken voor aanmeldingen. Zie [MFA-ondersteuning in Microsoft 365](multi-factor-authentication-microsoft-365.md) voor de details.
 
-Als u MFA eerder hebt ingesteld met basislijnbeleid, [moet u deze uitschakelen om beveiligingsstandaardinstellingen in te schakelen.](#move-from-baseline-policies-to-security-defaults) Als u echter Microsoft 365 Business hebt of als uw abonnement [Azure Active Directory Premium P1 of Azure Active Directory Premium P2](https://azure.microsoft.com/pricing/details/active-directory/)bevat, u ook beleid voor voorwaardelijke [toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) instellen. Als u beleid voor voorwaardelijke toegang wilt gebruiken, moet u ervoor zorgen dat beveiligingsstandaards zijn uitgeschakeld en [moderne verificatie](#enable-modern-authentication-for-your-organization) is ingeschakeld.
+- Beveiligingsstandaards (aanbevolen voor kleine bedrijven)
 
-> [!TIP]
-> Zie [Microsoft Authenticator gebruiken met Office 365](https://support.office.com/article/use-microsoft-authenticator-with-office-365-1412611f-ad8d-43ab-807c-7965e5155411)om uw gebruikers uit te leggen hoe ze de Microsoft Authenticator-app kunnen instellen.
+  Als u uw abonnement of proefversie na 21 oktober 2019 hebt gekocht en u onverwacht wordt gevraagd voor MFA, zijn [beveiligingsstandaards](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) automatisch ingeschakeld voor uw abonnement.
+  
+  Bij elk nieuw Microsoft 365-abonnement is automatisch beveiligingsstandaards ingeschakeld. Dit betekent dat elke gebruiker MFA moet instellen en de Microsoft Authenticator-app op zijn mobiele apparaat moet installeren.
 
-## <a name="manage-security-defaults"></a>Standaardinstellingen voor beveiliging beheren
+  Alle gebruikers moeten de Microsoft Authenticator-app gebruiken omdat hun aanvullende verificatiemethode en verouderde verificatie worden geblokkeerd. 
 
-1. Meld u aan bij het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=834822) met globale-beheerdersreferenties.
-2. Ga naar de [pagina Azure Active Directory - Eigenschappen](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
-3. Kies onderaan de pagina de optie **Standaardinstellingen voor beveiliging beheren**.
-4. Kies **Ja** om beveiligingsstandaards in te schakelen en **Nee** om beveiligingsstandaards uit te schakelen en kies **Opslaan**.
+- Beleid voor voorwaardelijke toegang (aanbevolen voor ondernemingen)
 
-## <a name="move-from-baseline-policies-to-security-defaults"></a>Overstappen van basislijnbeleid op standaardinstellingen voor beveiliging
+  Gebruikers kiezen de aanvullende verificatiemethode tijdens mfa-registratie.
 
-1. Ga naar de [pagina Voorwaardelijke toegang - Beleid](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies).
-2. Kies elk basislijnbeleid dat is **ingeschakeld** en stel **Beleid inschakelen** in **op Uit**.
-3. Ga naar de [pagina Azure Active Directory - Eigenschappen](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
-4. Kies onder aan de pagina **De standaardinstellingen voor Beveiliging beheren**en stel in het venster **Standaardinstellingen voor beveiliging inschakelen** **standaard** in om in te schakelen op **Ja**en kies **Vervolgens Opslaan**. 
+- Account per gebruiker (niet aanbevolen)
 
-## <a name="enable-modern-authentication-for-your-organization"></a>Moderne verificatie inschakelen voor uw organisatie
+  Gebruikers kiezen de aanvullende verificatiemethode tijdens mfa-registratie.
 
-Alle Office 2016-clienttoepassingen bieden ondersteuning voor MFA door middel van de Active Directory Authentication Library (ADAL). Dit betekent dat app-wachtwoorden niet vereist zijn voor Office 2016-clients. Zie [dit artikel](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-mfasettings#app-passwords) voor meer informatie.
+## <a name="step-2-test-mfa-on-your-pilot-users"></a>Stap 2. MFA testen op uw pilotgebruikers
 
-U moet er echter voor zorgen dat uw Microsoft 365-abonnement is ingeschakeld voor ADAL of moderne verificatie.
+Als u beleid voor voorwaardelijke toegang of MFA per gebruiker gebruikt (niet aanbevolen), selecteert u pilotgebruikers in uw bedrijf of organisatie om MFA-registratie en aanmeldingen te testen. Bijvoorbeeld:
 
-1. Als u moderne verificatie wilt inschakelen, selecteert u in het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=834822) **instellingen** \> **instellingen** en kiest u vervolgens op het tabblad **Services** **Moderne verificatie** in de lijst.
+- Maak voor beleid voor voorwaardelijke toegang een groep pilotgebruikers en een beleid waarvoor MFA vereist is voor de leden van de groep en voor alle apps. Voeg vervolgens de accounts van de pilootgebruiker toe aan de groep.
 
-2. Schakel het selectievakje **Moderne verificatie inschakelen (aanbevolen)** in het deelvenster **Moderne verificatie** in en kies **Wijzigingen opslaan**. 
+- Schakel MFA voor de gebruikersaccounts van uw pilotgebruikers één keer in.
 
-    ![Moderne verificatievenster met selectievakje inschakelen aangevinkt.](../../media/enablemodernauth.png)
-    
-> [!IMPORTANT]
-> Vanaf augustus 2017 hebben alle nieuwe Microsoft 365-abonnementen, waaronder Skype voor Bedrijven online en Exchange online, standaard moderne verificatie ingeschakeld. U kunt de status van moderne verificatie voor de webversie van Skype voor Bedrijven controleren via de webversie van Skype voor Bedrijven PowerShell met globale beheerdersreferenties. Voer Get-CsOAuthConfiguration uit om de uitvoer van ClientADALAuthOverride te controleren. Als -ClientADALAuthOverride is 'toegestaan', is moderne verificatie ingeschakeld.
-Als u uw MA-status wilt controleren voor Exchange Online, gaat u naar [Moderne verificatie inschakelen in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online).
+Werk samen met uw pilootgebruikers om vragen en problemen aan te pakken om zich voor te bereiden op een soepele uitrol naar uw organisatie.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="step-3-inform-your-organization-that-mfa-is-coming"></a>Stap 3. Informeer uw organisatie dat MFA eraan komt
 
-[Top 10 manieren om Microsoft 365 te beveiligen voor bedrijfsabonnementen](secure-your-business-data.md)
+Gebruik e-mailmeldingen, gangposters, teamvergaderingen of formele training om ervoor te zorgen dat uw medewerkers het inzicht krijgen:
 
-[Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten](enable-modern-authentication.md)
+- Waarom MFA nodig is voor aanmeldingen
+- [Registreren voor hun aanvullende verificatiemethode](https://support.office.com/article/set-up-your-microsoft-365-sign-in-for-multi-factor-authentication-ace1d096-61e5-449b-a875-58eb3d74de14?ui=en-US&rs=en-001&ad=US)
+- [Aanmelden na registratie](https://support.office.com/article/sign-in-to-microsoft-365-with-multi-factor-authentication-2b856342-170a-438e-9a4f-3c092394d3cb)
+- [Hun aanvullende verificatiemethode wijzigen](https://support.office.com/article/change-how-you-do-additional-verification-956ec8d0-7081-4518-a701-f8414cc20831)
+- [Hoe om te gaan met situaties zoals een nieuwe smartphone](https://support.office.com/article/fix-common-problems-with-multi-factor-authentication-6951be76-af50-49a4-847f-21391eaa59f2)
+
+Het belangrijkste is, zorg ervoor dat uw medewerkers begrijpen ***wanneer de MFA-eis zal worden opgelegd,*** zodat het hen niet verrast.
+
+## <a name="step-4-roll-out-the-mfa-requirement-to-your-organization-or-users"></a>Stap 4. De MFA-vereiste uitrollen naar uw organisatie of gebruikers
+
+Op basis van de door u gekozen MFA-vereistenmethode rolt u MFA-verificatie uit naar de werknemers buiten uw pilottesters.
+
+### <a name="security-defaults"></a>Standaardinstellingen voor beveiliging
+
+U schakelt beveiligingsstandaards in of uit vanuit het deelvenster **Eigenschappen** voor Azure Active Directory (Azure AD) in de Azure-portal.
+
+1.  Meld u aan bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com) met algemene beheerdersreferenties.
+2.  Ga naar de [pagina Azure Active Directory - Eigenschappen](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
+3.  Kies onderaan de pagina de optie **Standaardinstellingen voor beveiliging beheren**.
+4.  Kies **Ja** om beveiligingsstandaards in te schakelen en **Nee** om beveiligingsstandaards uit te schakelen en kies **Opslaan**.
+
+Als u het [beleid voor voorwaardelijke basislijnhebt](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection)gebruikt, gaat u als u over op het gebruik van beveiligingsstandaardinstellingen.
+
+1.  Ga naar de [pagina Voorwaardelijke toegang - Beleid](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies).
+2.  Kies elk basislijnbeleid dat is **ingeschakeld** en stel **Beleid inschakelen** in **op Uit**.
+2.  Ga naar de [pagina Azure Active Directory - Eigenschappen](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
+4.  Kies onderaan de pagina de optie **Standaardinstellingen voor beveiliging beheren**.
+5.  Kies **Ja** om beveiligingsstandaards in te schakelen en **Nee** om beveiligingsstandaards uit te schakelen en kies **Opslaan**.
+
+### <a name="conditional-access-policies"></a>Beleid voor voorwaardelijke toegang
+
+Het juiste beleid maken, configureren of inschakelen met de groep gebruikers waarvoor MFA nodig is voor aanmelding.
+
+### <a name="per-user-mfa-not-recommended"></a>MFA per gebruiker (niet aanbevolen)
+
+Gebruikersaccounts voor MFA inschakelen die overeenkomen met uw implementatie.
+
+### <a name="supporting-your-employees"></a>Uw medewerkers ondersteunen
+
+Zorg er tijdens het registreren van uw medewerkers voor dat uw IT-specialisten, IT-afdeling of helpdesk vragen kunnen beantwoorden en problemen snel kunnen oplossen.
+
+Zie dit artikel voor [informatie over het oplossen van MFA-aanmeldingen](https://support.office.com/article/fix-common-problems-with-multi-factor-authentication-6951be76-af50-49a4-847f-21391eaa59f2). 
+
+

@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 9d2c5ba495d6250ffb20f695edd515c63b123c30
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 1e67d4a4af84da9651f091f45eddaa01f467e06c
+ms.sourcegitcommit: 2fbcecaa60e9f551738b9235bd380af807a6681a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209257"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44339900"
 ---
 # <a name="microsoft-threat-protection-data-security-and-privacy"></a>Gegevensbeveiliging en privacy van Microsoft Threat Protection
 
@@ -32,6 +32,9 @@ ms.locfileid: "44209257"
 - Microsoft Threat Protection
 
 Microsoft Threat Protection is actief in Microsoft Azure-datacenters in de Europese Unie, het Verenigd Koninkrijk en de Verenigde Staten. Klantgegevens die door de service worden verzameld, worden in rust opgeslagen in (a) de geografische locatie van de tenant zoals geïdentificeerd tijdens de inrichting of, b) als Microsoft Threat Protection een andere online service van Microsoft gebruikt om dergelijke gegevens te verwerken, de geolocatie zoals gedefinieerd door de regels voor gegevensopslag van die andere onlineservice.
+
+Klantgegevens in gepseudonimiseerde vorm kunnen ook worden opgeslagen in centrale opslag- en verwerkingssystemen in de Verenigde Staten.
+
 
 Zie voor meer informatie over de gegevensopslag en privacyinformatie van de specifieke producten:
 - [Microsoft Defender ATP-gegevensopslag en -privacy](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)

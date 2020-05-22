@@ -14,12 +14,12 @@ ms.custom: ''
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Meer informatie over het maken van een B2B extranetsite of -team met beheerde gastgebruikers van een partnerorganisatie.
-ms.openlocfilehash: 1b7542dd2fcd5fa28afc013f83da713c37e1187b
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: f01a558d55f497952494676f0148a1e3e4f06b35
+ms.sourcegitcommit: b18949de721c6eef3521d5f8286d9b926ad4aabe
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166147"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44342522"
 ---
 # <a name="create-a-b2b-extranet-with-managed-guests"></a>Een B2B-extranet maken met beheerde gasten
 
@@ -30,6 +30,12 @@ Met deze methode voor het delen van resources voor samenwerking kan de partneror
 In dit artikel worden de stappen doorlopen om een pakket resources te maken (in dit geval een site of team) die u met een partnerorganisatie delen via een zelfserviceregistratiemodel. 
 
 Maak voordat u begint de site of het team dat u wilt delen met de partnerorganisatie en schakel deze in voor het delen van gasten. Zie [Samenwerken met gasten op een site](collaborate-in-site.md) of Samenwerken met gasten in een [team](collaborate-as-team.md) voor meer informatie. We raden u ook aan [een veilige omgeving voor het delen van gasten](create-secure-guest-sharing-environment.md) te maken voor informatie over beveiligings- en nalevingsfuncties die u gebruiken om uw governancebeleid te onderhouden wanneer u samenwerkt met gasten.
+
+## <a name="video-demonstration"></a>Videodemonstratie
+
+Deze video toont de procedures die in dit artikel.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wKUj?autoplay=false]
 
 ## <a name="connect-the-partner-organization"></a>De partnerorganisatie verbinden
 
