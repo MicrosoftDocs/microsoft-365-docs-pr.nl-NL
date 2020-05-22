@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
-ms.openlocfilehash: 85517d5caeac900623c61ef8294b416ddbd97eb8
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: 4850fa9f44bb4f9b23b40bc4e30c6e8ba4fac0ff
+ms.sourcegitcommit: 185d62f41f6b173894ba6e3e87b11b2b5d02db58
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213374"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44340808"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -341,9 +341,9 @@ Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst,
    - **Spammeldingen voor eindgebruikers inschakelen**: selecteer het selectievakje om meldingen in te schakelen. Schakel het selectievakje uit om meldingen uit te schakelen.
 
    - **Iedere (dagen) spammeldingen voor eindgebruikers verzenden **: selecteer hoe vaak meldingen worden verzonden. De standaardwaarde is 3 dagen. U kunt 1 tot 15 dagen opgeven.
-   
+
      Er zijn drie cycli van spammeldingen voor eindgebruikers binnen een periode van 24 uur die beginnen op de volgende tijden: 01:00 UTC, 08:00 UTC en 16:00 UTC. 
-    
+
      > [!NOTE]
      > Als we tijdens een vorige cyclus een melding hebben gemist, wordt in de volgende cyclus de melding gepusht. Dit geeft de indruk van meerdere meldingen op dezelfde dag.
 
