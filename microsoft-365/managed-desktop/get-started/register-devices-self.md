@@ -1,5 +1,5 @@
 ---
-title: Registreer zelf nieuwe apparaten
+title: Nieuwe apparaten zelf registreren
 description: Apparaten zelf registreren zodat ze kunnen worden beheerd door Microsoft Managed Desktop
 ms.prod: w10
 author: jaimeo
@@ -7,19 +7,19 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 1d4ca01e7b791dafc952b62a5f5dd59263b31546
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 8765d6ecd180d71d918a5feda8cd5089e7f561ee
+ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42812034"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "44347817"
 ---
-# <a name="register-new-devices-yourself"></a>Registreer zelf nieuwe apparaten
+# <a name="register-new-devices-yourself"></a>Nieuwe apparaten zelf registreren
 
 Microsoft Managed Desktop kan werken met gloednieuwe apparaten of u apparaten die u misschien al hebt opnieuw gebruiken (waarvoor u ze opnieuw moet afbeelding smaken). U apparaten registreren met Microsoft Managed Desktop op de Azure Portal.
 
 > [!NOTE]
-> Samenwerken met een partner om apparaten te verkrijgen? Als dat zo is, hoeft u zich geen zorgen te maken over het verkrijgen van de hardware hashes; Dat regelen ze wel voor je. Zorg ervoor dat uw partner een relatie met u aangaat in het [Partnercentrum](https://partner.microsoft.com/dashboard) en dat deze bevoegdheden voor Azure Active Directory en Office 365 bevatten. Uw partner kan meer informatie krijgen bij [Partner Center help.](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer) Zodra deze relatie is vastgesteld, zal uw partner gewoon apparaten namens u registreren - geen verdere actie die van u wordt verlangd. Zie Stappen voor partners om [apparaten te registreren](register-devices-partner.md)als u de details wilt zien of als uw partner vragen heeft. Zodra de apparaten zijn geregistreerd, u doorgaan met [het controleren van de afbeelding](#check-the-image) en het leveren van de [apparaten](#deliver-the-device) aan uw gebruikers.
+> Samenwerken met een partner om apparaten te verkrijgen? Als dat zo is, hoeft u zich geen zorgen te maken over het verkrijgen van de hardware hashes; Dat regelen ze wel voor je. Zorg ervoor dat uw partner een relatie met u opbouwt in het [Partner Center.](https://partner.microsoft.com/dashboard) Uw partner kan meer informatie krijgen bij [Partner Center help.](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer) Zodra deze relatie is vastgesteld, zal uw partner gewoon apparaten namens u registreren - geen verdere actie die van u wordt verlangd. Zie Stappen voor partners om [apparaten te registreren](register-devices-partner.md)als u de details wilt zien of als uw partner vragen heeft. Zodra de apparaten zijn geregistreerd, u doorgaan met [het controleren van de afbeelding](#check-the-image) en het leveren van de [apparaten](#deliver-the-device) aan uw gebruikers.
 
 ## <a name="prepare-to-register-brand-new-devices"></a>Voorbereiden om gloednieuwe apparaten te registreren
 
@@ -53,7 +53,7 @@ Microsoft Managed Desktop identificeert elk apparaat uniek door te verwijzen naa
 3. Uitvoeren`Save-Script -Name Get-MMDRegistrationInfo -Path <pathToUsb>`
 4. Schakel het apparaat in dat u registreert, maar *start de installatie-ervaring niet.* Als u per ongeluk de installatie-ervaring start, moet u het apparaat opnieuw instellen of opnieuw inbeelden.
 5. Plaats het USB-station en druk op Shift + F10.
-6. Open een PowerShell-prompt met beheerdersrechten en voer vervolgens uit `cd <pathToUsb>`.
+6. Open een PowerShell-prompt met beheerdersrechten en voer vervolgens uit `cd <pathToUsb>` .
 7. Uitvoeren`Set-ExecutionPolicy -ExecutionPolicy Unrestricted`
 8. Uitvoeren`.\Get-MMDRegistrationInfo -OutputFile <path>\hardwarehash.csv`
 9. Verwijder het USB-station en schakel het apparaat vervolgens uit door`shutdown -s -t 0`
@@ -98,7 +98,7 @@ Selecteer **Apparaten** in het linkernavigatiedeelvenster in de [Azure-portal](h
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 
-Voer de volgende stappen uit:
+Volg deze stappen:
 
 1. Geef **in Het uploaden van**bestanden een pad naar het CSV-bestand dat u eerder hebt gemaakt.
 2. Optioneel u een **bestel-id** of **aankoop-id** toevoegen voor uw eigen trackingdoeleinden. Er zijn geen indelingsvereisten voor deze waarden.

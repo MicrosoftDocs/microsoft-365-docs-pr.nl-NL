@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: De stappen om de gegevensbeveiligingsinfrastructuur voor Microsoft 365 Enterprise te implementeren.
-ms.openlocfilehash: 0e6fdf1a9c63200bfb57fc9f833515553c1609f4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d6e3501e8262a0c3245c6e13da6633ac465276fb
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631619"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268301"
 ---
 # <a name="phase-6-information-protection"></a>Fase 6: Gegevensbeveiliging
 
 ![Fase 6: Gegevensbeveiliging](../media/deploy-foundation-infrastructure/infoprotection_icon.png)
 
-Gegevensbeveiliging is een reeks beleidsregels en technologieën waarmee wordt bepaald hoe u gevoelige informatie verzendt, opslaat en verwerkt. In fase 6 gaat u door de beveiligingsinstellingen en -functies van Microsoft 365 Enterprise die u helpen gegevens te beveiligen voor uw cloudworkloads en -scenario's.
+Gegevensbeveiliging is een reeks beleidsregels en technologieën waarmee wordt bepaald hoe u gevoelige informatie verzendt, opslaat en verwerkt. In fase 6 gaat u door de beveiligingsinstellingen en -functies van Microsoft 365 Enterprise die u helpen gegevens te beveiligen voor uw cloudworkloads.
 
 >[!Note]
 >Als u al gegevensbeveiliging hebt geïmplementeerd, bekijkt u het [afsluitcriterium](infoprotect-exit-criteria.md) voor deze fase om er zeker van te zijn dat er wordt voldaan aan de vereiste en optionele voorwaarden voor Microsoft 365 Enterprise.

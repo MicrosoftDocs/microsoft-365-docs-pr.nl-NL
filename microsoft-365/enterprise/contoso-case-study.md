@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Hoe een fictieve maar representatieve wereldwijde organisatie Microsoft 365 Enterprise in gebruik heeft genomen.
-ms.openlocfilehash: bf974d374b9c60744b2efda465a7c5e92f0386bb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e623e4a95172432dc790f345b1758afed63e144c
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625348"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268420"
 ---
 # <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Microsoft 365 Enterprise voor Contoso Corporation
 
@@ -68,14 +68,9 @@ Zie de volgende artikelen voor meer informatie:
 
   Contoso gebruikt het volledige spectrum van de beveiligingsfuncties van Microsoft 365 Enterprise voor identiteits- en toegangsbeheer, bedreigingsbeveiliging, gegevensbeveiliging en beveiligingsbeheer.
 
-- [Team voor een zeer geheim project](contoso-team-for-top-secret-project.md)
+- [Team voor een zeer geheim project](../solutions/contoso-team-for-top-secret-project.md)
 
-  Contoso heeft een team voor sterk gereglementeerde gegevens gebruikt om een veilige samenwerkingsomgeving te creëren voor een zeer geheim project.
-
-- [SharePoint Online-site voor zeer vertrouwelijke digitale activa](contoso-sharepoint-online-site-for-highly-confidential-assets.md)
-
-  Ter bescherming van het intellectuele eigendom en om onderzoeksteams gemakkelijker te laten samenwerken heeft Contoso een SharePoint Online-site gebruikt voor sterk gereglementeerde gegevens.
-
+  Contoso heeft een team voor sterk gereglementeerde gegevens gebruikt om een veilige samenwerkingsomgeving te creëren met beveiligingsisolatie.
 
 ## <a name="next-step"></a>Volgende stap
 

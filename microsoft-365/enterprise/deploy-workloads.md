@@ -1,8 +1,8 @@
 ---
-title: Microsoft 365 voor bedrijfsworkloads en -scenario's
+title: Microsoft 365 voor bedrijfsworkloads
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/21/2019
+ms.date: 05/15/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,14 +12,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Werk de gebruikers in uw organisatie in voor de productiviteitsworkloads van Microsoft 365 voor ondernemingen.
-ms.openlocfilehash: 7767f01d87029c7fc641a65442a5171b0d03eab5
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 0e1658655c4b97a7e571d1ac09c4b2edcc6c82ce
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066213"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268274"
 ---
-# <a name="microsoft-365-for-enterprise-workloads-and-scenarios"></a>Microsoft 365 voor bedrijfsworkloads en -scenario's
+# <a name="microsoft-365-for-enterprise-workloads"></a>Microsoft 365 voor bedrijfsworkloads
 
 Als u wilt profiteren van de voordelen van de creativiteit en het teamwork van Microsoft 365 voor ondernemingen, kunt u de volgende workloads op uw basisinfrastructuur implementeren:
 
@@ -29,31 +29,13 @@ Als u wilt profiteren van de voordelen van de creativiteit en het teamwork van M
 
 Zie het artikel over [migratie](migration-microsoft-365-enterprise-workload.md) voor een algemene routekaart voor het migreren van uw hele organisatie naar Microsoft 365 voor ondernemingen, inclusief Microsoft Office-clientproducten, on-premises Office Server-producten en Microsoft Windows-apparaten.
 
-In scenario's worden functies en services van Microsoft 365 voor ondernemingen op een geïntegreerde manier gebruikt om aan de bedrijfsbehoefte te kunnen voldoen. 
+Hier volgen de workloads in de algemene implementatiehandleiding voor Microsoft 365 voor ondernemingen:
 
-Een van die behoeften bestaat uit het garanderen dat uw werknemers productief en veilig kunnen werken als ze niet rechtstreeks met het intranet verbonden zijn. Zie het scenario over het [machtigen van externe werknemers](empower-people-to-work-remotely.md) voor een routekaart om de infrastructurele elementen te implementeren en de acceptatie van externe gebruiker te bevorderen voor belangrijke workloads, zoals Microsoft Teams en Exchange Online.
+![Workloads in de algemene implementatiehandleiding voor Microsoft 365 voor ondernemingen](../media/deploy-workloads/m365-deploy-content-arch-workloads.png)
 
-Een andere dergelijke behoeft is het beschermen van sterk gereglementeerde gegevens die zijn opgeslagen in Microsoft 365. Sterk gereglementeerde gegevens bevatten de volgende digitale activa:
+## <a name="foundation-infrastructure-prerequisites"></a>Vereisten voor de basisinfrastructuur
 
-- Digitale activa die onderhevig zijn aan regionale regelgeving.
-- De meest waardevolle gegevens voor uw organisatie, zoals handelsgeheimen, informatie over financiën of personeel, en de organisatorische strategie.
-
-Als u deze gegevens tegen interne en externe bedreigingen wilt beveiligen, raadpleegt u:
-
-- [Teams for highly regulated data](secure-teams-highly-regulated-data-scenario.md) (Teams voor sterk gereglementeerde gegevens)
-- [SharePoint sites for highly regulated data](teams-sharepoint-online-sites-highly-regulated-data.md) (SharePoint-sites voor sterk gereglementeerde gegevens). 
-
-In deze scenario's wordt stapsgewijs beschreven hoe u een team van Microsoft Teams-team of een SharePoint-site configureert om uw meest waardevolle gegevens veilig op te slaan.
-
-Hier volgen de workloads en scenario's in de algemene implementatiehandleiding voor Microsoft 365 voor ondernemingen:
-
-![Workloads en scenario's in de algemene implementatiehandleiding voor Microsoft 365 voor ondernemingen](media/deploy-workloads/m365-deploy-content-arch-workloads.png)
-
-Zie de [Productiviteitsbibliotheek van Microsoft 365](https://aka.ms/productivitylibrary) (https://aka.ms/productivitylibrary) voor aanvullende scenario's. 
-
-## <a name="foundation-infrastructure-prerequisites"></a>Vereisten voor de basisstructuur
-
-*Idealiter* dient u workloads en scenario's te implementeren nadat u alle fasen van de [basisinfrastructuur](deploy-foundation-infrastructure.md) hebt geconfigureerd. Dit zorgt ervoor dat alle onderliggende basislagen aanwezig zijn, zodat u uw gebruikers en hun apparaten integratie, beveiliging en de beste ervaring kunt bieden.
+*Idealiter* dient u workloads te implementeren nadat u alle fasen van de [basisinfrastructuur](deploy-foundation-infrastructure.md) hebt geconfigureerd. Dit zorgt ervoor dat alle onderliggende basislagen aanwezig zijn, zodat u uw gebruikers en hun apparaten integratie, beveiliging en de beste ervaring kunt bieden.
 
 | Fase | Resultaat |
 |:-------|:-----|

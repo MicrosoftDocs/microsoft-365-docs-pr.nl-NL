@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Handleiding voor handmatige upgrade van Windows 7 naar Windows 10.
-ms.openlocfilehash: ea1705a91baf6b0526e87bcf04529ab2668aa439
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3840a57e3672bdbe0f9fc3c785e20350646a0102
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42805688"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222313"
 ---
 # <a name="windows-7-to-windows-10-manual-upgrade-step-by-step-guide"></a>Stapsgewijze handleiding voor handmatige upgrade van Windows 7 naar Windows 10.
 
@@ -110,6 +110,6 @@ Van hieruit kunt u het proces initiëren om terug te gaan naar Windows 7. Na een
 
 ## <a name="moving-to-windows-10-on-a-new-pc"></a>Overstappen naar Windows 10 op een nieuwe pc
 
-Een andere aanbevolen optie is om over te stappen naar Windows 10 op een nieuwe pc. Als dit het geval is, kunt u uw bestanden van uw oude computer overbrengen met een back-up in [OneDrive](https://support.office.com/article/b5e918be-0fd4-4095-98da-bceed57f8e0c?ocid=MoveToWindows10), [In Windows ingebouwde back-ups maken en terugzetten](https://support.microsoft.com/help/4469209?ocid=MoveToWindows10), handmatig een [extern opslagapparaat](https://support.microsoft.com/help/4465814/windows-7-move-files-off-pc-with-an-external-storage-device?ocid=MoveToWindows10) gebruiken of hulpprogramma's zoals [PCmover Express van LapLink](https://www.microsoft.com/windows/transfer-your-data). Met een van deze opties moet u nog steeds eventuele vereiste toepassingen die geen deel uitmaken van Windows 10 opnieuw installeren. Als u meer wilt weten over de opties voor het handmatig overstappen van een bestaande pc met Windows 7 naar een nieuwe pc met Windows 10, raadpleegt u [Overstappen op een Windows 10-pc](https://support.microsoft.com/help/4229823?ocid=MoveToWindows10) in Windows-ondersteuning.
+Een andere aanbevolen optie is om over te stappen naar Windows 10 op een nieuwe pc. Als dit uw voorkeur heeft, kunt u uw bestanden van uw oude computer overbrengen met een back-up in [OneDrive](https://support.office.com/article/b5e918be-0fd4-4095-98da-bceed57f8e0c?ocid=MoveToWindows10), [In Windows ingebouwde back-ups maken en terugzetten](https://support.microsoft.com/help/4469209?ocid=MoveToWindows10), handmatig een [extern opslagapparaat](https://support.microsoft.com/help/4465814/windows-7-move-files-off-pc-with-an-external-storage-device?ocid=MoveToWindows10) gebruiken of hulpprogramma's zoals PCmover Express van LapLink. Met een van deze opties moet u nog steeds eventuele vereiste toepassingen die geen deel uitmaken van Windows 10 opnieuw installeren. Als u meer wilt weten over de opties voor het handmatig overstappen van een bestaande pc met Windows 7 naar een nieuwe pc met Windows 10, raadpleegt u [Overstappen op een Windows 10-pc](https://support.microsoft.com/help/4229823?ocid=MoveToWindows10) in Windows-ondersteuning.
 
 ## <a name="desktop-deployment-center"></a>[Desktop Deployment Center](https://aka.ms/howtoshift) (Implementatiecentrum voor desktops)

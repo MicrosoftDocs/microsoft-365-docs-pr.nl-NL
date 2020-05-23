@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: seo-marvel-apr2020
 description: Meer informatie over de verschillende resources die u kunt gebruiken voor de implementatie van Microsoft 365 voor ondernemingen in uw organisatie.
-ms.openlocfilehash: 0e588816cb2393af05b48900821d7aae92b6853d
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 42b193683a2e0c5efce73b62b00747b20baec05a
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44031424"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268328"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>Microsoft 365 voor ondernemingen implementeren
 
@@ -55,7 +55,7 @@ Als u Microsoft 365 voor ondernemingen zelf wilt implementeren, kunt u:
 
 - De [basisinfrastructuur](deploy-foundation-infrastructure.md) implementeren voor ingebouwde beveiliging en integratie voor vereenvoudigd beheer. Hierdoor kunt u er makkelijker voor zorgen dat de clientsoftware wordt bijgewerkt met de meest recente verbeteringen in productiviteit en beveiliging. 
  
-  De basisinfrastructuur is ingedeeld als een reeks genummerde fasen die op elkaar voortbouwen en een omgeving vormen die de workloads en scenario's van Microsoft 365 voor ondernemingen ondersteunt. 
+  De basisinfrastructuur is ingedeeld als een reeks genummerde fasen die op elkaar voortbouwen en een omgeving vormen die de workloads van Microsoft 365 voor ondernemingen ondersteunt. 
 
   **Als u een kleinere of nieuwere organisatie bent**, volgt u de fasen om de infrastructuur methodisch uit te bouwen.
 
@@ -63,13 +63,13 @@ Als u Microsoft 365 voor ondernemingen zelf wilt implementeren, kunt u:
 
   **Als u een grote onderneming bent**, bekijkt u de fasen als lagen IT-infrastructuur in plaats van een gedefinieerd pad en bepaalt u hoe u het beste zo te werk kunt gaan dat er wordt voldaan aan de vereisten van elke laag in uw organisatie.
 
-- Implementeer belangrijke [workloads en scenario's](deploy-workloads.md) voor de productiviteit bovenop de infrastructuur. Hiermee wordt creativiteit en teamwerk in uw organisatie bevorderd.
+- Implementeer belangrijke [workloads](deploy-workloads.md) voor de productiviteit bovenop de infrastructuur. Hiermee wordt creativiteit en teamwerk in uw organisatie bevorderd.
 
-Hier ziet u de relatie tussen de basisinfrastructuur en de workloads en scenario's.
+Hier ziet u de relatie tussen de basisinfrastructuur en de workloads.
 
-![De relatie tussen de basisinfrastructuur en de workloads en scenario's](../media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
+![De relatie tussen de basisinfrastructuur en de workloads](../media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
 
-Workloads en scenario's worden boven op de basisinfrastructuur uitgevoerd. U hoeft echter niet alle fasen van de basisinfrastructuur te laten uitbouwen om workloads voor productiviteit en samenwerking te gaan gebruiken.
+Workloads worden boven op de basisinfrastructuur uitgevoerd. U hoeft echter niet alle fasen van de basisinfrastructuur te laten uitbouwen om workloads voor productiviteit en samenwerking te gaan gebruiken.
 
 Ga [hier](deploy-foundation-infrastructure.md) zelf aan de slag met uw end-to-end-implementatietraject.
 
@@ -125,10 +125,6 @@ Lees hoe Core Services Engineering and Operations (voorheen Microsoft IT) een [m
 ### <a name="how-the-contoso-corporation-deployed-microsoft-365-for-enterprise"></a>Hoe Contoso Corporation Microsoft 365 voor ondernemingen heeft geïmplementeerd
 
 Contoso Corporation is een fictief maar representatief wereldwijd productieconglomeraat met het hoofdkantoor in Parijs, Frankrijk. Bekijk hoe [Contoso Microsoft 365 voor ondernemingen heeft geïmplementeerd](contoso-case-study.md) en aandacht heeft besteed aan belangrijke ontwerpbeslissingen en implementatiedetails voor netwerken, identiteiten, Windows 10 Enterprise, Microsoft 365-apps voor ondernemingen, beheer van mobiele apparaten, gegevensbescherming en beveiliging. 
-
-## <a name="stay-current-with-deployment-content"></a>Blijf up-to-date met de implementatie-inhoud
-
-Zie [dit artikel](microsoft-365-deploment-guide-changes.md)voor de meest recente wijzigingen in de inhoud.
 
 ## <a name="next-step"></a>Volgende stap
 

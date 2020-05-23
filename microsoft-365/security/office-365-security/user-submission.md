@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u een postvak configureert om spam- en phishing-e-mail te verzamelen die door gebruikers wordt gerapporteerd.
-ms.openlocfilehash: 2a1872aff88cd1cc21c6a6e3258671c303b55e17
-ms.sourcegitcommit: 4ce28ad4d17d336106c1720d65349f19f9e90e04
+ms.openlocfilehash: d3ff44957864e3d5e959d6252d1d538cc715ae92
+ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44294191"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "44347805"
 ---
 # <a name="specify-a-mailbox-for-user-submissions-of-spam-and-phishing-messages-in-exchange-online"></a>Een postvak opgeven voor het indienen van spam- en phishingberichten door gebruikers in Exchange Online
 
@@ -71,12 +71,15 @@ Door door de gebruiker gerapporteerde berichten naar een aangepast postvak te le
 
         - **Microsoft en een aangepast postvak**: voer in het vak dat wordt weergegeven het e-mailadres van een bestaand Exchange Online-postvak in. Distributiegroepen zijn niet toegestaan. Inzendingen van gebruikers gaan naar zowel Microsoft voor analyse als naar het aangepaste postvak dat uw beheer- of beveiligingsteam kan analyseren.
 
-        - **Aangepast postvak**: Voer in het vak dat wordt weergegeven het e-mailadres van een bestaand Exchange Online-postvak in. Distributiegroepen zijn niet toegestaan. Gebruik deze optie als u wilt dat het bericht alleen eerst naar het beheer- of beveiligingsteam gaat voor analyse. Berichten gaan niet naar Microsoft, tenzij de beheerder deze doorstuurt.
+        - **Aangepast postvak**: Voer in het vak dat wordt weergegeven het e-mailadres van een bestaand Exchange Online-postvak in. Distributiegroepen zijn niet toegestaan. Gebruik deze optie als u wilt dat het bericht alleen naar een beheerder of het beveiligingsteam gaat voor analyse. Berichten gaan niet naar Microsoft, tenzij de beheerder het zelf doorstuurt.
 
-        Klik op **Bevestigen**als u klaar bent.
+        > [!NOTE]
+        > Amerikaanse overheidsorganisaties (GCC, GCC-H en DoD) kunnen alleen **aangepaste postvak**configureren. De andere twee opties zijn uitgeschakeld. 
 
-     > [!CAUTION]
-     > Als u de melding van [ongewenste e-mail in de webversie](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) van Outlook hebt uitgeschakeld met behulp van het beleid voor webpostvak, maar u een van de vorige instellingen configureert om berichten aan Microsoft te rapporteren, kunnen gebruikers berichten rapporteren aan Microsoft in de webversie van Outlook met de invoegtoepassing Bericht rapport.
+      Klik op **Bevestigen**als u klaar bent.
+
+      > [!CAUTION]
+      > Als u de melding van [ongewenste e-mail in de webversie](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) van Outlook hebt uitgeschakeld met behulp van het beleid voor webpostvak, maar u een van de vorige instellingen configureert om berichten aan Microsoft te rapporteren, kunnen gebruikers berichten rapporteren aan Microsoft in de webversie van Outlook met de invoegtoepassing Bericht rapport.
 
    - **De functie Rapportbericht voor Outlook uitschakelen:** Selecteer deze optie als u rapportagehulpprogramma's van derden gebruikt in plaats van de invoegtoepassing Rapportbericht of de ingebouwde rapportage in de webversie van Outlook en configureer vervolgens de volgende instellingen:
 
@@ -88,13 +91,13 @@ Door door de gebruiker gerapporteerde berichten naar een aangepast postvak te le
 
 Berichten die naar aangepaste postvakken worden verzonden, moeten een specifieke e-mailindeling voor indiening volgen. Het onderwerp (enveloptitel) van de indiening moet in dit formaat zijn:
 
-`{(int)safetyApiAction}|{networkId}|{senderIp}|{fromAddress}|({subject.Substring(0, Math.Min(subjectLen, subject.Length))})`
+`SafetyAPIAction|NetworkMessgeId|SenderIp|FromAddress|(Message Subject)`
 
-waren SafetyApiAction is:
+waren SafetyAPIAction is een van de volgende gehele waarden:
 
-- Junk = 1
-- NotJunk = 2
-- Phish = 3
+- 1: Junk
+- 2: NotJunk
+- 3: Phish
 
 In het volgende voorbeeld:
 
@@ -102,7 +105,7 @@ In het volgende voorbeeld:
 - De Network Message ID is 49871234-6dc6-43e8-abcd-08d797f20abe.
 - Het IP-adres van de afzender is 167.220.232.101.
 - Het Adres van test@contoso.com.
-- Het onderwerp e-mail van het bericht is "test phish indiening"
+- De onderwerpregel van het bericht is "test phish submission"
 
 `3|49871234-6dc6-43e8-abcd-08d797f20abe|167.220.232.101|test@contoso.com|(test phish submission)`
 

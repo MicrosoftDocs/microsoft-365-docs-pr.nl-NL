@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c4b5d58a006591da23d37aaeccf72cfccc6d1c43
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 3e8f83b943e83c37ecf13af1221c043d413bd6b5
+ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033972"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "44347829"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Proactief op zoek naar bedreigingen met geavanceerde jacht in Microsoft Threat Protection
 
@@ -50,6 +50,14 @@ We raden aan om verschillende stappen te doorlopen om snel aan de slag te gaan m
 | **Vooraf gedefinieerde query's gebruiken** | Bekijk verzamelingen van vooraf gedefinieerde query's die verschillende scenario's voor bedreigingsjacht behandelen. | [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md) |
 | **Query's optimaliseren** | Meer informatie over het maken van efficiënte query's en query's die gegevens van e-mails en apparaten combineren. | - [Aanbevolen procedures voor query's](advanced-hunting-shared-queries.md) <br>- [Jaag op apparaten en e-mails](advanced-hunting-best-practices.md) |
 | **Aangepaste detectieregels maken** | Ontdek hoe u geavanceerde jachtquery's gebruiken om waarschuwingen te activeren en automatisch reactieacties toe te passen. | - [Overzicht van aangepaste detecties](custom-detections-overview.md)<br>- [Aangepaste detectieregels](custom-detection-rules.md) |
+
+## <a name="get-access"></a>Krijg toegang
+Als u geavanceerde jacht- of andere [Microsoft Threat Protection-mogelijkheden](microsoft-threat-protection.md) wilt gebruiken, moet u een geschikte rol in Azure AD krijgen toegewezen. Houd er rekening mee dat uw toegang tot eindpuntgegevens wordt beïnvloed door op rollen gebaseerde toegangscontrole-instellingen in Microsoft Defender ATP. [Lees meer over het beheren van toegang tot Microsoft Threat Protection](mtp-permissions.md)
+
+## <a name="get-help-as-you-write-queries"></a>Hulp krijgen bij het schrijven van query's
+Profiteer van de volgende functionaliteit om sneller query's te schrijven:
+- **Automatisch voorstellen** - terwijl u query's schrijft, biedt geavanceerde jacht suggesties van IntelliSense. 
+- **Schemaverwijzing** : naast uw werkgebied wordt een schemaverwijzing weergegeven met de lijst met tabellen en hun kolommen. Voor meer informatie, zweven over een item. Dubbelklik op een item om het in te voegen in de queryeditor.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [De querytaal leren](advanced-hunting-query-language.md)

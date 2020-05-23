@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Geautomatiseerde upgrades van Windows 7 naar Windows 10 voor grote organisaties
-ms.openlocfilehash: 575ffba84b2cd7b7cfe5267a35a9f36c75dbe306
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: c151c5488fdbc77dc2da7dd308bafb75b6bb5f22
+ms.sourcegitcommit: ad789f1e7bf9c9dc0d45c731373e667a26ed30b1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011549"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221396"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>Geautomatiseerde in-place upgrades van Windows 7 naar Windows 10 voor grote organisaties
 
@@ -90,7 +90,7 @@ Met de optie [voorafgaand aan de cache](https://docs.microsoft.com/mem/configmgr
 
 Takenreeksen voorafgaand aan de cache gecombineerd met compatibiliteitsscans
 
-Naast het besparen van tijd bij het downloaden van het pakket, kunt u het upgradepakket vooraf opslaan en Windows Setup gebruiken om te controleren of de in-place upgrade kan worden uitgevoerd voordat de daadwerkelijke Windows-upgrade wordt uitgevoerd. U kunt de syntax voor de opdrachtregel gebruiken om de compatibiliteitsscan op de achtergrond uit te voeren en erachter te komen of het apparaat volgens Windows Setup gereed is voor de upgrade.
+Naast het besparen van tijd bij het downloaden van het pakket, kunt u het upgradepakket vooraf opslaan en Windows Setup gebruiken om te controleren of de in-place upgrade kan worden uitgevoerd voordat de daadwerkelijke Windows-upgrade wordt uitgevoerd. U kunt de volgende opdrachtregelsyntaxis gebruiken om de compatibiliteitsscan op de achtergrond uit te voeren en erachter te komen of het apparaat volgens Windows Setup gereed is voor de upgrade: **Setup.EXE /Auto Upgrade /Quiet /NoReboot /Compat ScanOnly**
 
 Vervolgens worden er logboeken verzonden naar het opgegeven serverpad en wordt Windows Setup niet automatisch weergegeven aan de gebruiker en kan het niet af worden gesloten zonder tussenkomst van de gebruiker.
 

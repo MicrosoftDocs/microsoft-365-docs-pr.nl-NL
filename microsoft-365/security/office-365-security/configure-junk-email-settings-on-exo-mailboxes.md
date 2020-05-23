@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u de instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken. Veel van deze instellingen zijn beschikbaar voor gebruikers in de webversie van Outlook of Outlook.
-ms.openlocfilehash: ea3727bcfa90229da64db96b531885383d2bf7ed
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 11c01c289ad00475cfa458d0585f377287c495b0
+ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206626"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "44347793"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
 
@@ -40,6 +40,9 @@ Wanneer de regel voor ongewenste e-mail is ingeschakeld in het postvak, kan EOP 
  Wanneer de regel voor ongewenste e-mail is uitgeschakeld in het postvak, kan EOP geen berichten verplaatsen naar de map Ongewenste e-mail op basis van de spamfilteractie **Bericht verplaatsen naar de map Ongewenste e-mail** of de safelist-verzameling in het postvak.
 
 Beheerders kunnen Exchange Online PowerShell gebruiken om de status van de regel voor ongewenste e-mail op postvakken uit te schakelen, in te schakelen en weer te geven. Beheerders kunnen Exchange Online PowerShell ook gebruiken om vermeldingen in de safelist-verzameling op postvakken te configureren (de lijst Veilige afzenders, de lijst Met veilige geadresseerden en de lijst Afzenders blokkeren).
+
+> [!NOTE]
+> Berichten van afzenders die gebruikers aan hun eigen lijsten met veilige afzenders hebben toegevoegd, slaan EOP-filtering over (de SCL is -1). Als u wilt voorkomen dat gebruikers items toevoegen aan hun lijst Met veilige afzenders in Outlook, gebruikt u Groepsbeleid zoals vermeld in de [sectie Over ongewenste e-mail in de](#about-junk-email-settings-in-outlook) sectie Outlook later in dit onderwerp.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -165,7 +168,7 @@ Als u wilt controleren of u de safelist-verzameling in een postvak hebt geconfig
 
 ## <a name="about-junk-email-settings-in-outlook"></a>Informatie over instellingen voor ongewenste e-mail in Outlook
 
-Als u de instellingen voor ongewenste e-mailfilter aan de clientzijde wilt inschakelen, uitschakelen en configureren die beschikbaar zijn in Outlook, gebruikt u Groepsbeleid. Zie [AdMX/ADML (Beheersjabloonbestanden) en Office Customization Tool voor Microsoft 365 Apps voor bedrijven, Office 2019 en Office 2016 voor](https://www.microsoft.com/download/details.aspx?id=49030)meer informatie.
+Als u de instellingen voor ongewenste e-mailfilter aan de clientzijde wilt inschakelen, uitschakelen en configureren die beschikbaar zijn in Outlook, gebruikt u Groepsbeleid. Zie [Beheersjabloonbestanden (ADMX/ADML) en Office Customization Tool voor Microsoft 365 Apps voor bedrijven, Office 2019 en Office 2016 en](https://www.microsoft.com/download/details.aspx?id=49030) Hoe u [instellingen voor ongewenste e-mail implementeren, zoals de lijst Veilige afzenders, met groepsbeleid](https://support.microsoft.com/help/2252421/how-to-deploy-junk-email-settings-such-as-the-safe-senders-list-by-usi)voor meer informatie.
 
 Wanneer het Outlook Junk Email Filter is ingesteld op de standaardwaarde **Geen automatische filtering** in opties voor ongewenste e-mail voor **Home** \> **Junk** \> **Junk E-Mail Options** \> **Options**thuis, probeert Outlook massages niet te classificeren als spam, maar gebruikt het nog steeds de safelist-verzameling (de lijst Veilige afzenders, lijst Met veilige geadresseerden en de lijst Geblokkeerde afzenders) om berichten na levering naar de map Ongewenste e-mail te verplaatsen. Zie Overzicht van het [filter ongewenste e-mail](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)voor meer informatie over deze instellingen .
 

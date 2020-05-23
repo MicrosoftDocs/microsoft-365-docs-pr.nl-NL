@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Bekijk de criteria voor op gegevensbescherming gebaseerde services en infrastructuur om ervoor te zorgen dat uw configuratie voldoet aan de vereisten van Microsoft 365 Enterprise.
-ms.openlocfilehash: c0b4ff6a0d289b8a8c63255d817ea455df00bf13
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 19f4fc4ae93c00e33a2f58d8c23582e6e49cf887
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631631"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268219"
 ---
 # <a name="information-protection-infrastructure-exit-criteria"></a>Uitgangscriteria voor de infrastructuur voor gegevensbescherming
 
@@ -116,4 +116,4 @@ Via [Stap 7](infoprotect-configure-privileged-access-management.md) kunt u zo no
 
 De infrastructuur voor gegevensbescherming voor Microsoft 365 Enterprise gebruikt gedefinieerde beveiligingsniveaus, verhoogde beveiliging voor Office 365, classificatie met typen gevoelige gegevens en bijbehorende labels, Windows-gegevensbescherming, preventie van gegevensverlies, e-mailversleuteling en beleid voor uitgebreide toegang.
 
-Als u de volledige implementatie van Microsoft 365 Enterprise hebt gevolgd, bent u nu klaar om uw [workloads en scenario's](deploy-workloads.md) te laten profiteren van alle functies en configuraties van uw basisinfrastructuur.
+Als u de volledige implementatie van Microsoft 365 Enterprise hebt gevolgd, bent u nu klaar om uw [workloads](deploy-workloads.md) te laten profiteren van alle functies en configuraties van uw basisinfrastructuur.
