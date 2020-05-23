@@ -234,9 +234,11 @@
       items:
         - name: De 10 beste manieren om uw gegevens te beveiligen
           href: security-and-compliance/secure-your-business-data.md
+        - name: Meervoudige verificatie instellen voor Microsoft 365
+          href: security-and-compliance/multi-factor-authentication-microsoft-365.md
         - name: Meervoudige verificatie instellen
           href: security-and-compliance/set-up-multi-factor-authentication.md
-        - name: Meervoudige verificatie instellen (met Office 2013)
+        - name: Moderne verificatie voor Office 2013 inschakelen
           href: security-and-compliance/enable-modern-authentication.md
         - name: Veiligheidsscore
           href: 'https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new'
