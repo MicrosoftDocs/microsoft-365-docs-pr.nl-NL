@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen lezen hoe ze spam kunnen routeren naar map ongewenste e-mail van gebruikers in een hybride omgeving van Exchange Online Protection.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5b4d16c864b25c4d47910f0dd69f0ed3e71a0de
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 1d5d83f8cfb994499be98eccf77b36d83e1f3d7c
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209473"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351961"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Standalone EOP configureren om spam te leveren aan de map Ongewenste e-mail in hybride omgevingen
 
@@ -44,7 +44,7 @@ Zie [Kopteksten voor spamberichten](anti-spam-message-headers.md)voor meer infor
 In dit onderwerp wordt beschreven hoe u deze regels voor e-mailstroom maakt, het Exchange-beheercentrum (EAC) en in exchangemanagementshell (Exchange PowerShell) in de on-premises Exchange-organisatie.
 
 > [!TIP]
-> In plaats van de berichten af te leveren aan de map Ongewenste e-mail van de eindgebruiker, u antispambeleid in EOP configureren om spamberichten in EOP in quarantaine te plaatsen. Zie [Beleid voor antispam configureren in EOP](configure-your-spam-filter-policies.md)voor meer informatie.
+> In plaats van de berichten af te leveren aan de map Ongewenste e-mail van de eindgebruiker, u antispambeleid in EOP configureren om spamberichten in EOP in quarantaine te plaatsen. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -52,13 +52,13 @@ In dit onderwerp wordt beschreven hoe u deze regels voor e-mailstroom maakt, het
 
 - Als en wanneer een bericht wordt afgeleverd in de map Ongewenste e-mail in een on-premises Exchange-organisatie, wordt u gecontroleerd door een combinatie van de volgende instellingen:
 
-  - De parameterwaarde _SCLJunkThreshold_ op de cmdlet [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) in de Exchange Management Shell. De standaardwaarde is 4, wat betekent dat een SCL van 5 of hoger het bericht moet leveren aan de e-mailmap ongewenste e-mail van de gebruiker.
+  - De parameterwaarde _SCLJunkThreshold_ op de cmdlet [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) in de Exchange Management Shell. De standaardwaarde is 4, wat betekent dat een SCL van 5 of hoger het bericht moet leveren aan de e-mailmap ongewenste e-mail van de gebruiker.
 
-  - De _parameterwaarde SCLJunkThreshold_ op de cmdlet [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox) in de Exchange Management Shell. De standaardwaarde is leeg ($null), wat betekent dat de organisatieinstelling wordt gebruikt.
+  - De _parameterwaarde SCLJunkThreshold_ op de cmdlet [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox) in de Exchange Management Shell. De standaardwaarde is leeg ($null), wat betekent dat de organisatieinstelling wordt gebruikt.
 
   Zie [SCL-drempels (Exchange spam confidence level) voor](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/scl)meer informatie.
 
-  - Of de regel voor ongewenste e-mail is ingeschakeld in het postvak (de _parameterwaarde Ingeschakeld_ is $true op de cmdlet [Set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration) in de Exchange Management Shell). Het is de ongewenste e-mailregel die het bericht na levering daadwerkelijk verplaatst naar de map Ongewenste e-mail. Standaard is de regel voor ongewenste e-mail ingeschakeld voor postvakken. Zie [Antispam-instellingen voor Exchange configureren op postvakken voor](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings)meer informatie.
+  - Of de regel voor ongewenste e-mail is ingeschakeld in het postvak (de _parameterwaarde Ingeschakeld_ is $true op de cmdlet [Set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration) in de Exchange Management Shell). Het is de ongewenste e-mailregel die het bericht na levering daadwerkelijk verplaatst naar de map Ongewenste e-mail. Standaard is de regel voor ongewenste e-mail ingeschakeld voor postvakken. Zie [Antispam-instellingen voor Exchange configureren op postvakken voor](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings)meer informatie.
   
 - Zie [Exchange-beheercentrum in Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center)als u de EAC op een Exchange-server wilt openen. Zie [https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) .
 
@@ -126,7 +126,7 @@ New-TransportRule -Name "EOP SFV:SKS to SCL 6" -HeaderContainsMessageHeader "X-F
 New-TransportRule -Name "EOP SFV:SKB to SCL 6" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SFV:SKB" -SetSCL 6
 ```
 
-Zie [Nieuwe-Transportregel](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule) voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Nieuwe-Transportregel](https://docs.microsoft.com/powershell/module/exchange/new-transportrule) voor gedetailleerde syntaxis- en parameterinformatie.
 
 ## <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 

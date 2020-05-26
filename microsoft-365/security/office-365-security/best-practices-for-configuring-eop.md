@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Volg deze aanbevolen aanbevelingen voor standalone Exchange Online Protection (EOP) om uzelf voor succes in te stellen en veelvoorkomende configuratiefouten te voorkomen.
-ms.openlocfilehash: 157d6b76631336e3c6f6e5e669323266c17e015f
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: ade41b5343e19f75658f01e6c395c470e230b315
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209617"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351925"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Aanbevolen procedures voor het configureren van standalone EOP
 
@@ -53,7 +53,7 @@ Deze instellingen hebben betrekking op een reeks functies die buiten het beveili
 |[POP-connectiviteit met postvak](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Uitgeschakeld|Uitgeschakeld||
 |Geverifieerde SMTP-indiening|Uitgeschakeld|Uitgeschakeld|Geverifieerde client SMTP indiening (ook bekend als client SMTP indiening of SMTP AUTH) is vereist voor POP3 en IMAP4 klanten om e-mail te sturen.|
 |EWS-connectiviteit met postvak|Uitgeschakeld|Uitgeschakeld||
-|[PowerShell-connectiviteit](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)|Uitgeschakeld|Uitgeschakeld|Beschikbaar voor postvakgebruikers of e-mailgebruikers (gebruikersobjecten die worden geretourneerd door de cmdlet [Get-User).](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-user)|
+|[PowerShell-connectiviteit](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)|Uitgeschakeld|Uitgeschakeld|Beschikbaar voor postvakgebruikers of e-mailgebruikers (gebruikersobjecten die worden geretourneerd door de cmdlet [Get-User).](https://docs.microsoft.com/powershell/module/exchange/get-user)|
 |Gebruik [spoofinformatie](learn-about-spoof-intelligence.md) om afzenders waar mogelijk op de witte lijst te zetten|Ja|Ja||
 |[Op directory gebaseerde randblokkering (DBEB)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Ingeschakeld|Ingeschakeld|Domeintype = Gezaghebbend|
 |[Meervoudige verificatie instellen voor alle beheerdersaccounts](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)|Ingeschakeld|Ingeschakeld||

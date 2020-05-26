@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe ze de antiphishingbeleidsregels kunnen maken, wijzigen en verwijderen die beschikbaar zijn in EOP-organisaties (Exchange Online Protection) met of zonder Exchange Online-postvakken.
-ms.openlocfilehash: 5c2e036c075072056e7783ca4dc5aeb1289d827a
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: b5ec72365c9b7446f4b6a4c32d96a89ca57efbe4
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213386"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352055"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Anti-phishingbeleid configureren in EOP
 
@@ -67,7 +67,7 @@ Om de effectiviteit van anti-phishingbescherming te vergroten, u aangepaste anti
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Gebruik **Anti-phishing** <https://protection.office.com/antiphishing> .
+- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Gebruik **Anti-phishing** <https://protection.office.com/antiphishing> .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
@@ -75,7 +75,7 @@ Om de effectiviteit van anti-phishingbescherming te vergroten, u aangepaste anti
 
 - U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u antiphishingbeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Voor alleen-lezen toegang tot anti-phishingbeleid moet u lid zijn van de rolgroep **Security Reader.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
-- Om antispambeleid in standalone EOP te kunnen maken en wijzigen, moet u iets doen waarvoor _hydratatie_ voor uw tenant nodig is. In de EAC u bijvoorbeeld naar het tabblad **Machtigingen** gaan, een bestaande rolgroep selecteren, op pictogram Bewerken **bewerken klikken** en een rol ![ verwijderen ](../../media/ITPro-EAC-EditIcon.png) (die u uiteindelijk weer toevoegt). Als uw tenant nooit is gehydrateerd, krijgt u een dialoogvenster met de naam **Organisatie-instellingen bijwerken** met een voortgangsbalk die moet worden voltooid. Zie de cmdlet [Inschakelen-organisatieaanpassing](https://docs.microsoft.com/powershell/module/exchange/organization/enable-organizationcustomization) (die niet beschikbaar is in standalone EOP PowerShell of in het Security & Compliance Center) voor meer informatie over hydratatie.
+- Om antispambeleid in standalone EOP te kunnen maken en wijzigen, moet u iets doen waarvoor _hydratatie_ voor uw tenant nodig is. In de EAC u bijvoorbeeld naar het tabblad **Machtigingen** gaan, een bestaande rolgroep selecteren, op pictogram Bewerken **bewerken klikken** en een rol ![ verwijderen ](../../media/ITPro-EAC-EditIcon.png) (die u uiteindelijk weer toevoegt). Als uw tenant nooit is gehydrateerd, krijgt u een dialoogvenster met de naam **Organisatie-instellingen bijwerken** met een voortgangsbalk die moet worden voltooid. Zie de cmdlet [Inschakelen-organisatieaanpassing](https://docs.microsoft.com/powershell/module/exchange/enable-organizationcustomization) (die niet beschikbaar is in standalone EOP PowerShell of in het Security & Compliance Center) voor meer informatie over hydratatie.
 
 - Zie [EOP standaard antiphishingbeleidsinstellingen](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings)voor onze aanbevolen instellingen voor antiphishing.
 
@@ -109,7 +109,7 @@ Wanneer u een antiphishingbeleid maakt, u alleen de beleidsnaam, beschrijving en
 
    - **De ontvanger is:** Hiermee geeft u een of meer postvakken, e-mailgebruikers of e-mailcontactpersonen in uw organisatie op.
    - **De ontvanger is lid van**: Geeft een of meer groepen in uw organisatie op.
-   - **Het domein van de geadresseerde is**: Hiermee geeft u ontvangers op in een of meer van de geconfigureerde geaccepteerde domeinen in uw organisatie.
+   - **Het domein van de geadresseerde is**: specificeert geadresseerden in een of meer van de geconfigureerde domeinen in uw organisatie.
 
    Nadat u de voorwaarde hebt geselecteerd, wordt een overeenkomstige vervolgkeuzelijst weergegeven met een **elk vak.**
 
@@ -310,7 +310,7 @@ In dit voorbeeld wordt anti-phish-beleid met de naam Research Quarantine met de 
 New-AntiPhishPolicy -Name "Monitor Policy" -AdminDisplayName "Research department policy" -AuthenticationFailAction Quarantine
 ```
 
-Zie [Nieuw-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/New-AntiPhishPolicy)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Nieuw-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishPolicy)voor gedetailleerde syntaxis- en parameterinformatie.
 
 #### <a name="step-2-use-powershell-to-create-an-anti-phish-rule"></a>Stap 2: PowerShell gebruiken om een anti-phish-regel te maken
 
@@ -330,7 +330,7 @@ In dit voorbeeld wordt een anti-phish-regel met de naam Research Department met 
 New-AntiPhishRule -Name "Research Department" -AntiPhishPolicy "Research Quarantine" -SentToMemberOf "Research Department"
 ```
 
-Zie [Nieuw-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/New-AntiPhishRule)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Nieuw-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishRule)voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-powershell-to-view-anti-phish-policies"></a>PowerShell gebruiken om anti-phish-beleid weer te geven
 
@@ -352,7 +352,7 @@ In dit voorbeeld worden alle eigenschapswaarden voor het anti-phish-beleid met d
 Get-AntiPhishPolicy -Identity "Executives"
 ```
 
-Zie [Get-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/Get-AntiPhishPolicy)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Get-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishPolicy)voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-powershell-to-view-anti-phish-rules"></a>PowerShell gebruiken om anti-phish-regels weer te geven
 
@@ -384,7 +384,7 @@ In dit voorbeeld worden alle eigenschapswaarden voor de anti-phish-regel met de 
 Get-AntiPhishRule -Identity "Contoso Executives"
 ```
 
-Zie [Get-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/Get-AntiPhishrule)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Get-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishrule)voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-powershell-to-modify-anti-phish-policies"></a>PowerShell gebruiken om anti-phish-beleid te wijzigen
 
@@ -400,7 +400,7 @@ Als u een anti-phish-beleid wilt wijzigen, gebruikt u de als volgt:
 Set-AntiPhishPolicy -Identity "<PolicyName>" <Settings>
 ```
 
-Zie [Set-AntiPhishPolicy voor](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/Set-AntiPhishPolicy)gedetailleerde syntaxis- en parameterinformatie.
+Zie [Set-AntiPhishPolicy voor](https://docs.microsoft.com/powershell/module/exchange/Set-AntiPhishPolicy)gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-powershell-to-modify-anti-phish-rules"></a>PowerShell gebruiken om anti-phish-regels te wijzigen
 
@@ -414,7 +414,7 @@ Als u een anti-phish-regel wilt wijzigen, gebruikt u de als volgt:
 Set-AntiPhishRule -Identity "<RuleName>" <Settings>
 ```
 
-Zie [Set-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishrule)voor gedetailleerde syntaxis- en parameterinformatie .
+Zie [Set-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/set-antiphishrule)voor gedetailleerde syntaxis- en parameterinformatie .
 
 ### <a name="use-powershell-to-enable-or-disable-anti-phish-rules"></a>PowerShell gebruiken om anti-phish-regels in te schakelen of uit te schakelen
 
@@ -438,7 +438,7 @@ In dit voorbeeld wordt dezelfde regel ingeschakeld.
 Enable-AntiPhishRule -Identity "Marketing Department"
 ```
 
-Zie [Inschakelen-antiphishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/enable-AntiPhishrule) en [Disable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/disable-AntiPhishrule)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Inschakelen-antiphishRule](https://docs.microsoft.com/powershell/module/exchange/enable-AntiPhishrule) en [Disable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/disable-AntiPhishrule)voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-powershell-to-set-the-priority-of-anti-phish-rules"></a>PowerShell gebruiken om de prioriteit van anti-phish-regels in te stellen
 
@@ -478,7 +478,7 @@ In dit voorbeeld wordt het anti-phish-beleid met de naam Marketing Department ve
 Remove-AntiPhishPolicy -Identity "Marketing Department"
 ```
 
-Zie [Verwijderen-antiphishbeleid voor](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/Remove-AntiPhishPolicy)gedetailleerde syntaxis- en parameterinformatie .
+Zie [Verwijderen-antiphishbeleid voor](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishPolicy)gedetailleerde syntaxis- en parameterinformatie .
 
 ### <a name="use-powershell-to-remove-anti-phish-rules"></a>PowerShell gebruiken om anti-phish-regels te verwijderen
 
@@ -496,7 +496,7 @@ In dit voorbeeld wordt de anti-phish-regel met de naam MarketingAfdeling verwijd
 Remove-AntiPhishRule -Identity "Marketing Department"
 ```
 
-Zie [Verwijderen-antiphishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/Remove-AntiPhishRule)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Verwijderen-antiphishRule](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishRule)voor gedetailleerde syntaxis- en parameterinformatie.
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 

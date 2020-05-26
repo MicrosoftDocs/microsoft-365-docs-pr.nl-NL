@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: Beheerders kunnen leren hoe u machtigingen toewijzen of verwijderen in het Exchange-beheercentrum (EAC) in Exchange Online Protection.
-ms.openlocfilehash: 3d7b709304f901c4adc41c67b0d6fe9c6ff382bf
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: ba2d053e1e75bd8867ebb9eb7f426cde92abd3e8
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209676"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352333"
 ---
-# <a name="manage-role-groups-in-standalone-eop"></a>Rolgroepen beheren in zelfstandige EOP
+# <a name="manage-role-groups-in-standalone-eop"></a>Rollengroepen beheren in standalone EOP
 
 In zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken u het Exchange-beheercentrum (EAC) gebruiken om gebruikers toe te voegen aan rolgroepen. Als u een gebruikers toevoegt aan een rolgroep, geeft de gebruiker machtigingen om specifieke beheertaken uit te voeren. U gebruikers ook verwijderen uit rolgroepen.
 
@@ -135,7 +135,7 @@ In dit voorbeeld worden alle rolgroepen geretourneerd waarvan de gebruiker Julia
 Get-RoleGroup -Filter "Members -eq 'CN=Julia,OU=contoso.onmicrosoft.com,OU=Microsoft Exchange Hosted Organizations,DC=NAMPR001,DC=PROD,DC=OUTLOOK,DC=COM'"
 ```
 
-Zie Groep voor rollen [en](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Get-RoleGroup)parameters voor gedetailleerde syntaxis- en parametergegevens.
+Zie Groep voor rollen [en](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroup)parameters voor gedetailleerde syntaxis- en parametergegevens.
 
 ### <a name="use-standalone-eop-powershell-to-create-role-groups"></a>Zelfstandige EOP PowerShell gebruiken om rolgroepen te maken
 
@@ -184,7 +184,7 @@ Wanneer u een nieuwe rolgroep maakt, u alle instellingen handmatig configureren 
      New-RoleGroup "Limited Organization Management" -Roles $RoleGroup.Roles -Members "Isabelle","Carter","Lukas"
      ```
 
-Voor gedetailleerde syntaxis- en parameterinformatie, [Nieuw-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/New-RoleGroup).
+Voor gedetailleerde syntaxis- en parameterinformatie, [Nieuw-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/New-RoleGroup).
 
 ### <a name="use-standalone-eop-powershell-modify-the-list-of-members-in-role-groups"></a>De lijst met leden in rolgroepen wijzigen door zelfstandige EOP PowerShell te wijzigen
 
@@ -214,7 +214,7 @@ In dit voorbeeld wordt Daigoro Akai toegevoegd en wordt Valeria Barrio verwijder
 Update-RoleGroupMember -Identity "Help Desk" -Members @{Add="Daigoro Akai"; Remove="Valeria Barrios"}
 ```
 
-Zie [Update-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Update-RoleGroupMember)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Update-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Update-RoleGroupMember)voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-standalone-eop-powershell-to-remove-role-groups"></a>Zelfstandige EOP PowerShell gebruiken om rolgroepen te verwijderen
 
@@ -232,7 +232,7 @@ In dit voorbeeld wordt de rolgroep Trainingsbeheerders verwijderd.
 Remove-RoleGroup -Identity "Training Administrators"
 ```
 
-Zie Groep verwijderen en [parameteren](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Remove-RoleGroup)voor gedetailleerde syntaxis- en parametergegevens.
+Zie Groep verwijderen en [parameteren](https://docs.microsoft.com/powershell/module/exchange/Remove-RoleGroup)voor gedetailleerde syntaxis- en parametergegevens.
 
 ### <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 

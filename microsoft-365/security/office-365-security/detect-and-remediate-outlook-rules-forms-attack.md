@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Meer informatie over het herkennen en herstellen van outlook-regels en aangepaste aanvallen op het uitvoeren van formulieren in Office 365
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e18635b9b9d090dbc2808b5b8142b59ec1f29c6e
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.openlocfilehash: b892a72c2016222d34df8c58fcda20d2d2b9ba74
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224587"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351973"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook-regels en injecties met aangepaste formulieren detecteren en herstellen
 
@@ -175,17 +175,17 @@ Er zijn twee externe PowerShell-cmdlets die u gebruiken om gevaarlijke regels te
 
 1. Maak verbinding met de Exchange-server via externe PowerShell. Volg de stappen in [Connect to Exchange-servers met behulp van externe PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
 
-2. Als u één regel, meerdere regels of alle regels uit een postvak volledig wilt verwijderen, gebruikt u de cmdlet [Remove-InboxRule.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Remove-InboxRule)
+2. Als u één regel, meerdere regels of alle regels uit een postvak volledig wilt verwijderen, gebruikt u de cmdlet [Remove-InboxRule.](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule)
 
-3. Als u de regel en de inhoud ervan wilt behouden voor verder onderzoek, gebruikt u de cmdlet [Disable-InboxRule.](https:https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-inboxrule/library/dd298120(v=exchg.160).aspx)
+3. Als u de regel en de inhoud ervan wilt behouden voor verder onderzoek, gebruikt u de cmdlet [Disable-InboxRule.](https:https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule/library/dd298120(v=exchg.160).aspx)
 
 #### <a name="steps-for-mailboxes-in-exchange-online"></a>Stappen voor postvakken in Exchange Online
 
 1. Volg de stappen in [Connect to Exchange Online met PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
-2. Als u één regel, meerdere regels of alle regels uit een postvak volledig wilt verwijderen, gebruikt u de cmdlet [Voor de regel verwijderen.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Remove-InboxRule)
+2. Als u één regel, meerdere regels of alle regels uit een postvak volledig wilt verwijderen, gebruikt u de cmdlet [Voor de regel verwijderen.](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule)
 
-3. Als u de regel en de inhoud ervan wilt behouden voor verder onderzoek, gebruikt u de cmdlet [Disable-InboxRule.](https:https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-inboxrule/library/dd298120(v=exchg.160).aspx)
+3. Als u de regel en de inhoud ervan wilt behouden voor verder onderzoek, gebruikt u de cmdlet [Disable-InboxRule.](https:https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule/library/dd298120(v=exchg.160).aspx)
 
 ## <a name="how-to-minimize-future-attacks"></a>Hoe toekomstige aanvallen te minimaliseren
 

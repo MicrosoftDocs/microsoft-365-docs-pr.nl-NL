@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen meer informatie krijgen over het verwijderen van gebruikers uit de portal voor gebruikers met beperkte rechten in Office 365. Gebruikers worden toegevoegd aan de portal gebruikers met beperkte rechten voor het verzenden van uitgaande spam, meestal vanwege een inbreuk op het account.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 370d2ff5f98b507cd819a57e4b0de613de7ab395
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: f9865b409be6bce14b84a9175e8f17cdad58befe
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035418"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351005"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Geblokkeerde gebruikers verwijderen uit de portal voor gebruikers met beperkte rechten in Office 365
 
@@ -102,7 +102,7 @@ Als u meer informatie over een specifieke gebruiker wilt bekijken, vervangt u \<
 Get-BlockedSenderAddress -SenderAddress <emailaddress>
 ```
 
-Zie [OntvangAdresGeblokkeerdeVerzender](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-blockedsenderaddress) voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [OntvangAdresGeblokkeerdeVerzender](https://docs.microsoft.com/powershell/module/exchange/get-blockedsenderaddress) voor gedetailleerde syntaxis- en parameterinformatie.
 
 Als u een gebruiker wilt verwijderen uit de lijst van beperkte gebruikers, vervangt u het \<e-mailadres\> door hun e-mailadres en voert u de volgende opdracht uit:
 
@@ -110,4 +110,4 @@ Als u een gebruiker wilt verwijderen uit de lijst van beperkte gebruikers, verva
 Remove-BlockedSenderAddress -SenderAddress <emailaddress>
 ```
 
-Zie [VerwijderAdresGeblokkeerdeVerzender](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/remove-blockedsenderaddress) voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [VerwijderAdresGeblokkeerdeVerzender](https://docs.microsoft.com/powershell/module/exchange/remove-blockedsenderaddress) voor gedetailleerde syntaxis- en parameterinformatie.

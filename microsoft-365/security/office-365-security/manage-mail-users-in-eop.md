@@ -1,5 +1,5 @@
 ---
-title: E-mailgebruikers beheren in zelfstandige EOP
+title: E-mailgebruikers beheren in standalone EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: Meer informatie over het beheren van e-mailgebruikers in Exchange Online Protection (EOP), inclusief het gebruik van directorysynchronisatie, EAC en PowerShell om gebruikers te beheren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e40465901747bcbd006d437fa527a9803aad1e24
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 0e8a4585a16b579c28de719181eed65b65ec6f4f
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208643"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352430"
 ---
-# <a name="manage-mail-users-in-standalone-eop"></a>E-mailgebruikers beheren in zelfstandige EOP
+# <a name="manage-mail-users-in-standalone-eop"></a>E-mailgebruikers beheren in standalone EOP
 
 In zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken zijn e-mailgebruikers het fundamentele type gebruikersaccount. Een e-mailgebruiker heeft accountgegevens in uw zelfstandige EOP-organisatie en heeft toegang tot bronnen (machtigingen hebben toegewezen). Het e-mailadres van een e-mailgebruiker is extern (bijvoorbeeld in uw on-premises e-mailomgeving).
 
@@ -35,7 +35,7 @@ Voor zelfstandige EOP-organisaties met een klein aantal gebruikers u e-mailgebru
 
 - Zie [Exchange-beheercentrum in het zelfstandige EOP](exchange-admin-center-in-exchange-online-protection-eop.md)als u het Exchange-beheercentrum (EAC) wilt openen.
 
-- Zie Verbinding maken met Exchange [Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)als u verbinding wilt maken met zelfstandige EOP PowerShell.
+- Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
 
 - Wanneer u e-mailgebruikers maakt in EOP PowerShell, u beperking tegenkomen. Ook gebruiken de EOP PowerShell-cmdlets een batchverwerkingsmethode die resulteert in een propagatievertraging van enkele minuten voordat de resultaten van de opdrachten zichtbaar zijn.
 
@@ -149,7 +149,7 @@ Get-Recipient -Identity <MailUserIdentity> | Format-List
 Get-User -Identity <MailUserIdentity> | Format-List
 ```
 
-Zie Ontvanger en [Ontvang-gebruiker](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-user)voor gedetailleerde syntaxis- en parametergegevens. [Get-Recipient](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient)
+Zie Ontvanger en [Ontvang-gebruiker](https://docs.microsoft.com/powershell/module/exchange/get-user)voor gedetailleerde syntaxis- en parametergegevens. [Get-Recipient](https://docs.microsoft.com/powershell/module/exchange/get-recipient)
 
 ### <a name="use-standalone-eop-powershell-to-create-mail-users"></a>Gebruik standalone EOP PowerShell om e-mailgebruikers te maken
 
@@ -178,7 +178,7 @@ In dit voorbeeld wordt een e-mailgebruiker met de volgende instellingen gemaakt:
 New-EOPMailUser -Name JeffreyZeng -MicrosoftOnlineServicesID jeffreyz@contoso.onmicrosoft.com -Password (ConvertTo-SecureString -String 'Pa$$word1' -AsPlainText -Force) -ExternalEmailAddress jeffreyz@tailspintoys.com -DisplayName "Jeffrey Zeng" -Alias jeffreyz -FirstName Jeffrey -LastName Zeng
 ```
 
-Zie [Nieuw-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-eopmailuser)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Nieuw-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/new-eopmailuser)voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-standalone-eop-powershell-to-modify-mail-users"></a>Gebruik standalone EOP PowerShell om e-mailgebruikers te wijzigen
 
@@ -205,7 +205,7 @@ $Recip = Get-Recipient -RecipientType MailUser -ResultSize unlimited
 $Recip | foreach {Set-EOPUser -Identity $_.Alias -Company Contoso}
 ```
 
-Zie [Set-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-eopmailuser)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Set-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/set-eopmailuser)voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-standalone-eop-powershell-to-remove-mail-users"></a>Gebruik standalone EOP PowerShell om e-mailgebruikers te verwijderen
 
@@ -221,7 +221,7 @@ In dit voorbeeld wordt de e-mailgebruiker voor Jeffrey Zeng verwijderd.
 Remove-EOPMailUser -Identity "Jeffrey Zeng"
 ```
 
-Zie [EOPMailUser verwijderen voor](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/remove-eopmailuser)gedetailleerde syntaxis- en parametergegevens.
+Zie [EOPMailUser verwijderen voor](https://docs.microsoft.com/powershell/module/exchange/remove-eopmailuser)gedetailleerde syntaxis- en parametergegevens.
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 
@@ -255,7 +255,7 @@ In standalone EOP is adreslijstsynchronisatie beschikbaar voor klanten met on-pr
 
 - Het gebruik van adreslijstsynchronisatie wordt aanbevolen voor gebruik met de volgende functies:
 
-  - **Lijsten met veilige afzenders en lijsten met geblokkeerde afzenders:** Wanneer deze lijsten worden gesynchroniseerd met de service, hebben deze lijsten voorrang op spamfiltering in de service. Hiermee kunnen gebruikers hun eigen lijst met veilige afzenders en de lijst met geblokkeerde afzenders beheren met afzonderlijke afzender- en domeinvermeldingen. Zie [Instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken voor](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes)meer informatie.
+  - **Lijsten met veilige afzenders en lijsten met geblokkeerde afzenders:** Wanneer deze lijsten worden gesynchroniseerd met de service, hebben deze lijsten voorrang op spamfiltering in de service. Hiermee kunnen gebruikers hun eigen lijst met veilige afzenders en de lijst met geblokkeerde afzenders beheren met afzonderlijke afzender- en domeinvermeldingen. Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes) voor meer informatie.
 
   - **Directory Based Edge Blocking (DBEB)**: Zie [Directory Based Edge Blocking gebruiken om berichten die naar ongeldige ontvangers worden verzonden, te weigeren.](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)
 

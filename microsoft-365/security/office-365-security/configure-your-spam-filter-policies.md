@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
-ms.openlocfilehash: 4850fa9f44bb4f9b23b40bc4e30c6e8ba4fac0ff
-ms.sourcegitcommit: 185d62f41f6b173894ba6e3e87b11b2b5d02db58
+ms.openlocfilehash: 9ce3ad0bfa7b50dfd5dfa5b5e2a35e6d70600e46
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44340808"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351985"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -416,7 +416,7 @@ New-HostedContentFilterPolicy -Name "Contoso Executives" -HighConfidenceSpamActi
 > [!NOTE]
 > **New-HostedContentFilterPolicy** en **Set-HostedContentFilterPolicy** bevatten een oudere parameter _ZapEnabled_ en nieuwere parameters_PhishZapEnabled_ en _SpamZapEnabled_. De parameter _ZapEnabled_ is in februari 2020 afgeschaft. The parameters _PhishZapEnabled_ en _SpamZapEnabled_ namen hun waarden over van de parameter _ZapEnabled_. Maar als u de parameters _PhishZapEnabled_ en _SpamZapEnabled_ gebruikt in een opdracht of de instelling **Spam ZAP** of **Phish ZAP** in het antispambeleid in het Beveiligings- en compliancecentrum, wordt de waarde van de parameter _ZapEnabled_ genegeerd. Met andere woorden, gebruik de parameter _ZapEnabled_ niet, maar gebruik hiervoor in de plaats de parameters _PhishZapEnabled_ en _SpamZapEnabled_.
 
-Zie [New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/new-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.
 
 #### <a name="step-2-use-powershell-to-create-a-spam-filter-rule"></a>Stap 2: PowerShell gebruiken om een spamfilterregel te maken
 
@@ -436,7 +436,7 @@ Dit voorbeeld maakt een nieuwe spamfilterregel met de naam Contoso Executives me
 New-HostedContentFilterRule -Name "Contoso Executives" -HostedContentFilterPolicy "Contoso Executives" -SentToMemberOf "Contoso Executives Group"
 ```
 
-Zie [New-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterrule) voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [New-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/new-hostedcontentfilterrule) voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-powershell-to-view-spam-filter-policies"></a>PowerShell gebruiken om spamfilterbeleid te bekijken
 
@@ -458,7 +458,7 @@ In dit voorbeeld worden alle eigenschapswaarden weergegeven voor het spamfilterb
 Get-HostedContentFilterPolicy -Identity "Executives" | Format-List
 ```
 
-Zie [Get-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Get-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/get-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-powershell-to-view-spam-filter-rules"></a>PowerShell gebruiken om spamfilterregels te bekijken
 
@@ -496,7 +496,7 @@ In dit voorbeeld worden alle eigenschapswaarden weergegeven voor het spamfilterr
 Get-HostedContentFilterRule -Identity "Contoso Executives" | Format-List
 ```
 
-Zie [Get-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedcontentfilterrule) voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Get-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/get-hostedcontentfilterrule) voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-powershell-to-modify-spam-filter-policies"></a>PowerShell gebruiken om spamfilterbeleid te wijzigen
 
@@ -512,7 +512,7 @@ Gebruik de volgende syntaxis om spamfilterbeleid te wijzigen:
 Set-HostedContentFilterPolicy -Identity "<PolicyName>" <Settings>
 ```
 
-Zie [Set-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Set-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/set-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-powershell-to-modify-spam-filter-rules"></a>PowerShell gebruiken om spamfilterregels te wijzigen
 
@@ -532,7 +532,7 @@ In dit voorbeeld wordt de naam veranderd van de bestaande spamfilterregel met de
 Set-HostedContentFilterRule -Identity "{Fabrikam Spam Filter}" -Name "Fabrikam Spam Filter"
 ```
 
-Zie [Set-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterrule) voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Set-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/set-hostedcontentfilterrule) voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-powershell-to-enable-or-disable-spam-filter-rules"></a>PowerShell gebruiken om spamfilterregels in of uit te schakelen
 
@@ -556,7 +556,7 @@ In dit voorbeeld wordt dezelfde regel ingeschakeld.
 Enable-HostedContentFilterRule -Identity "Marketing Department"
 ```
 
-Zie [Enable-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/enable-hostedcontentfilterrule) en [Disable-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/disable-hostedcontentfilterrule) voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Enable-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/enable-hostedcontentfilterrule) en [Disable-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/disable-hostedcontentfilterrule) voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-powershell-to-set-the-priority-of-spam-filter-rules"></a>PowerShell gebruiken om de prioriteit van spamfilterregels in te stellen
 
@@ -596,7 +596,7 @@ In dit voorbeeld wordt het spamfilterbeleid verwijderd met de naam Marketing Dep
 Remove-HostedContentFilterPolicy -Identity "Marketing Department"
 ```
 
-Zie [Remove-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/remove-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Remove-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-powershell-to-remove-spam-filter-rules"></a>PowerShell gebruiken om spamfilterregels te verwijderen
 
@@ -614,7 +614,7 @@ In dit voorbeeld wordt de spamfilterregel verwijderd met de naam Marketing Depar
 Remove-HostedContentFilterRule -Identity "Marketing Department"
 ```
 
-Zie [Remove-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/remove-hostedcontentfilterrule) voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Remove-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/remove-hostedcontentfilterrule) voor gedetailleerde syntaxis- en parameterinformatie.
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 

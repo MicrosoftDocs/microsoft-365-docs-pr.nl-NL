@@ -20,19 +20,24 @@ search.appverid:
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. De Servicebeheerder opent bijvoorbeeld supporttickets met Microsoft.
 ms.custom: okr_smb
-ms.openlocfilehash: 4e3cec5b2ff86b35d02f8963a584efdb272f2c5e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2f3b5fedf77c2f763f60c097b25101255d55ecaf
+ms.sourcegitcommit: 4ce28ad4d17d336106c1720d65349f19f9e90e04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618918"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44294209"
 ---
 # <a name="about-admin-roles"></a>Informatie over beheerdersrollen
 
-Uw abonnement wordt geleverd met een set beheerdersrollen die u kunt toewijzen aan gebruikers in uw organisatie. Elke beheerdersrol wordt toegewezen aan algemene bedrijfsfuncties en machtigt personen in uw organisatie om specifieke taken uit te voeren in de beheercentra. Zie [Beheerdersrollen toewijzen](assign-admin-roles.md) voor meer informatie.
+Uw abonnement op Microsoft 365 of Office 365 wordt geleverd met een set beheerdersrollen die u kunt toewijzen aan gebruikers in uw organisatie via het Microsoft 365-beheercentrum. Elke beheerdersrol wordt toegewezen aan algemene bedrijfsfuncties en machtigt personen in uw organisatie om specifieke taken uit te voeren in de beheercentra.
 
-> [!TIP] 
-> Op zoek naar de gedetailleerde rolbeschrijvingen? Bekijk [machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
+In het Microsoft 365-beheercentrum kunt u Azure AD- en Microsoft Intune-rollen beheren. Deze rollen vormen echter een subset van de rollen die beschikbaar zijn in de Azure-Portal en het Intune-beheercentrum.
+
+Op zoek naar de gedetailleerde rolbeschrijvingen voor Azure AD? Bekijk [machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
+
+Op zoek naar de gedetailleerde rolbeschrijvingen voor Microsoft Intune? Bekijk [op rollen gebaseerd toegangsbeheer (RBAC) met Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control).
+
+Zie [beheerdersrollen toewijzen](assign-admin-roles.md)voor meer informatie over het toewijzen van rollen in het Microsoft 365-beheercentrum.
 
 ## <a name="things-to-consider"></a>Aandachtspunten
 
@@ -44,32 +49,21 @@ Omdat beheerders toegang hebben tot gevoelige gegevens en bestanden, raden we u 
 | De *minste strikte* functie toewijzen    | Het toewijzen van de *minste strikte* rol betekent dat beheerders alleen de toegang krijgen die ze nodig hebben om de taak uit te voeren. Als u bijvoorbeeld wilt dat iemand de wachtwoorden van werknemers opnieuw instelt, moet u geen onbeperkte globale beheerdersrol toewijzen, maar een beperkte beheerdersrol zoals Wachtwoordbeheerder of Helpdesk-beheerder. Dit helpt uw gegevens veilig te houden.                 |
 | Meervoudige verificatie (MFA) voor beheerders vereisen                  |    Het is een goed idee om MFA te vereisen voor al uw gebruikers, maar beheerders moeten beslist verplicht worden om MFA te gebruiken om in te loggen. Met MFA doorlopen gebruikers een tweede identificatiemethode, om te verifiëren dat ze zijn wie ze zeggen dat ze zijn. Beheerders kunnen toegang hebben tot veel klant- en werknemersgegevens en als u MFA vereist, is het wachtwoord nutteloos zonder de tweede vorm van identificatie, zelfs als het wachtwoord van de beheerder wordt gecompromitteerd.  <br><br>Wanneer u MFA inschakelt, moet de gebruiker de volgende keer dat deze zich aanmeldt een alternatief e-mailadres en telefoonnummer opgeven voor accountherstel.  <br> [Meervoudige verificatie instellen](../security-and-compliance/set-up-multi-factor-authentication.md)          |
 
-  
-## <a name="some-roles-are-missing-from-active-users--manage-admin-roles-where-did-they-go"></a>Sommige rollen ontbreken in Actieve gebruikers > Beheerdersrollen beheren. Waar zijn ze gebleven?
-Standaard tonen we eerst de rollen die de meeste organisaties gebruiken. Als u een rol niet kunt vinden, gaat u naar het einde van de lijst en selecteert u **Meer rollen weergeven**.
-
-## <a name="how-can-i-tell-which-permissions-are-assigned-to-me"></a>Hoe kan ik zien welke machtigingen aan mij zijn toegewezen?
 Als er een bericht wordt weergegeven in het Beheercentrum waarin wordt aangegeven dat u geen machtigingen hebt om een instelling of pagina te bewerken, komt dit omdat u een rol hebt toegewezen gekregen die deze machtiging niet omvat.
 
-## <a name="what-about-the-azure-active-directory-roles"></a>Hoe zit het met de rollen in Azure Active Directory? 
+## <a name="azure-ad-roles-available-in-the-microsoft-365-admin-center"></a>Azure AD-rollen die beschikbaar zijn in het Microsoft 365-beheercentrum
 
-De Azure-Portal heeft meer rollen beschikbaar dan het Microsoft 365-beheercentrum. Als u een groot bedrijf hebt, kunnen er rollen zijn in de Azure-portal die beantwoorden aan de behoeften van uw organisatie.
-
-Zie [Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)voor een lijst en een omschrijving van alle rollen in Azure Active Directory.
+In het Microsoft 365-beheercentrum kunt u meer dan 30 Azure AD-rollen beheren. Deze rollen vormen echter een subset van de rollen die beschikbaar zijn in de Azure-Portal. Als u een groot bedrijf hebt, kunnen er rollen zijn in de Azure-portal die beantwoorden aan de behoeften van uw organisatie.
 
 Een gebruiker aan wie een beheerdersrol is toegewezen, heeft dezelfde toegangsrechten voor alle cloudservices waarop de organisatie zich heeft geabonneerd. Dit is onafhankelijk van het feit of u de rol toewijst in het Microsoft 365-beheercentrum, in het Azure Portal of door de Azure AD-module voor Windows PowerShell te gebruiken.
-  
-## <a name="roles-available-in-the-microsoft-365-admin-center"></a>Rollen die beschikbaar zijn in het Microsoft 365-beheercentrum
-
-In het Microsoft 365-beheercentrum kunt u meer dan 30 Azure AD-rollen beheren. Deze rollen vormen echter een subset van de rollen die beschikbaar zijn in de Azure-Portal.
 
 ::: moniker range="o365-worldwide"
 
-In het Beheercentrum kunt u naar **Rollen**gaan en vervolgens een rol selecteren om het detailvenster te openen. Selecteer het tabblad **Machtigingen** om de gedetailleerde takenlijst weer te geven met wat de beheerders die aan die rol zijn toegewezen kunnen doen.
+In het Microsoft 365-beheercentrum kunt u naar **Rollen**gaan en vervolgens een rol selecteren om het detailvenster te openen. Selecteer het tabblad **Machtigingen** om de gedetailleerde takenlijst weer te geven met wat de beheerders die aan die rol zijn toegewezen kunnen doen. Selecteer het tabblad **toegewezen** of **toegewezen beheerders** om gebruikers toe te voegen aan rollen.
 
 ::: moniker-end
 
-Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen. (Zie [machtigingen voor beheerdersrol in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)voor meer informatie, waaronder de cmdlets die zijn gekoppeld aan een rol.)
+Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen. Standaard tonen we eerst de rollen die de meeste organisaties gebruiken. Als u een rol niet kunt vinden, gaat u naar het einde van de lijst en selecteert u **Meer rollen weergeven**. (Zie [machtigingen voor beheerdersrol in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)voor meer informatie, waaronder de cmdlets die zijn gekoppeld aan een rol.)
 
 |Beheerdersrol     |Aan wie moet deze rol worden toegewezen?  |
 |---------|---------|
@@ -84,7 +78,7 @@ Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen
 |Teams-servicebeheerder    |   Wijs de rol Teams-servicebeheerder toe aan gebruikers die het Teams-beheercentrum moeten openen en beheren. <br><br>Teams-servicebeheerders kunnen ook: <br> - Vergaderingen beheren <br> - Vergaderbruggen beheren <br> - Alle organisatiebrede instellingen beheren, inclusief federatie, Teams-upgrade en Teams-clientinstellingen   |
 |Gebruikersbeheerder     |    Wijs de beheerdersrol Gebruikers toe aan gebruikers die de voor alle gebruikers de volgende taken moeten uitvoeren: <br> - Gebruikers en groepen toevoegen <br> - Licenties toewijzen <br> - De meeste gebruikerseigenschappen beheren <br> - Gebruikersweergaven maken en beheren <br> - Verloopbeleid voor wachtwoorden bijwerken <br> - Serviceaanvragen beheren <br> - De servicestatus bewaken <br><br>  De gebruikersbeheerder kan ook de volgende acties uitvoeren voor gebruikers die geen beheerders zijn en voor gebruikers die de volgende rollen hebben gekregen: adreslijst lezer, gast invite, helpdesk-beheerder, Message Center Reader, rapportlezer: <br> - Gebruikersnamen beheren<br> - Gebruikers verwijderen en herstellen<br> - Wachtwoorden opnieuw instellen <br> - Gebruikers dwingen zich af te melden <br> - Apparaatsleutels bijwerken (FIDO)   |
 
-### <a name="all-roles"></a>Alle rollen
+### <a name="all-azure-ad-roles"></a>Alle Azure AD-rollen
 
  Hieronder ziet u een lijst met alle beheerdersrollen die beschikbaar zijn in het Microsoft 365-beheercentrum.
 
@@ -134,6 +128,17 @@ Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen
 |Ondersteuningstechnicus voor Teams-communicatie     |    Leest oproeprecorddetails voor alle oproepdeelnemers om communicatieproblemen op te lossen.     |
 |Ondersteuningsspecialist voor Teams-communicatie     |    Leest details van gebruikersoproepen voor een specifieke gebruiker, om communicatieproblemen op te lossen.|
 |Gebruikersbeheerder     |   Gebruikerswachtwoorden opnieuw instellen, gebruikers en groepen maken en beheren, zoals filters, serviceaanvragen beheren en de servicestatus controleren.|
+
+## <a name="microsoft-intune-roles-available-in-the-microsoft-365-admin-center"></a>Microsoft Intune-rollen die beschikbaar zijn in het Microsoft 365-beheercentrum
+
+|Beheerdersrol     |Aan wie moet deze rol worden toegewezen?  |
+|---------|---------|
+|Toepassingsbeheerder     |   Wijs de rol van Applicatiebeheerder toe aan gebruikers die de applicatielevenscyclus voor mobiele apps beheren, door beleid beheerde apps configureren en apparaatinformatie en configuratieprofielen bekijken.  |
+|Helpdesk-operator     |   Wijs de rol van helpdesk-operator toe aan gebruikers die apps en beleid toewijzen aan gebruikers en apparaten. |
+|InTune-beheerdersrol    |   Wijs de rol van Intune-beheerder toe aan gebruikers die Intune-machtigingen aan andere beheerders kunnen toewijzen en die aangepaste en ingebouwde Intune-rollen kunnen beheren.   |
+|Beleids- en profielbeheerder     |   Wijs de rol van beleids- en profielbeheerder toe aan gebruikers die nalevingsbeleid, configuratieprofielen en Apple-inschrijving beheren.   |
+|Alleen-lezen operator     |   Wijs de rol van alleen-lezen operator toe aan gebruikers die gebruikers, apparaten, registratiedetails en configuraties alleen kunnen bekijken.   |
+|Schoolbeheerder     |   Wijs de rol van schoolbeheerder toe aan gebruikers die volledige toegang nodig hebben voor het beheren van Windows 10- en iOS-apparaten, apps en configuraties in Intune voor het onderwijs.   |
 
 ## <a name="delegated-administration-for-microsoft-partners"></a>Gedelegeerd beheer voor Microsoft-partners
 

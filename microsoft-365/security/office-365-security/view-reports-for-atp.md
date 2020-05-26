@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Rapporten zoeken en gebruiken voor Geavanceerde bedreigingsbeveiliging van Office 365 in het Security &amp; Compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: af5844cf05d14e34059a26291d2034187439ec56
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 857b98c02895f187d8639d991b74ed1fe12622ae
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208487"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351871"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Rapporten weergeven voor geavanceerde bedreigingsbeveiliging van Office 365
 
@@ -136,9 +136,9 @@ Naast de atp-rapporten die in dit artikel worden beschreven, zijn er nog verschi
 |**Rapport(en)**|**Details**|
 |**Explorer-** of **realtimedetecties:**(Office 365 ATP Plan 2-klanten hebben Explorer; Klanten van Office 365 ATP Plan 1 hebben realtime detecties.)|[Bedreigingsverkenner (en realtime detecties)](threat-explorer.md)|
 |**E-mailbeveiligingsrapporten,** zoals een rapport Top afzenders en geadresseerden, een SpoofMailrapport en een rapport over spamdetecties.|[E-mailbeveiligingsrapporten weergeven in het Security &amp; Compliance Center](view-email-security-reports.md)|
-|**URL-trace van ATP Safe Links**: (Dit is een rapport dat u genereert met PowerShell.) Dit rapport toont de resultaten van ATP Safe Links acties in de afgelopen zeven (7) dagen.|[Get-UrlTrace-cmdlet-verwijzing](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-urltrace)|
-|**EOP- en ATP-resultaten**: (Dit is een aangepast rapport dat u genereert met PowerShell). Dit rapport bevat informatie, zoals Domein, Datum, Gebeurtenistype, Richting, Actie en Aantal berichten.|[Get-MailTrafficATPReport-cmdlet-verwijzing](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-mailtrafficatpreport)|
-|**EOP- en ATP-detecties**: (Dit is een aangepast rapport dat u genereert met PowerShell). Dit rapport bevat details over schadelijke bestanden of URL's, phishing-pogingen, imitatie en andere potentiële bedreigingen in e-mail of bestanden.|[Get-MailDetailATPReport-cmdlet-verwijzing](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-maildetailatpreport)|
+|**URL-trace van ATP Safe Links**: (Dit is een rapport dat u genereert met PowerShell.) Dit rapport toont de resultaten van ATP Safe Links acties in de afgelopen zeven (7) dagen.|[Get-UrlTrace-cmdlet-verwijzing](https://docs.microsoft.com/powershell/module/exchange/get-urltrace)|
+|**EOP- en ATP-resultaten**: (Dit is een aangepast rapport dat u genereert met PowerShell). Dit rapport bevat informatie, zoals Domein, Datum, Gebeurtenistype, Richting, Actie en Aantal berichten.|[Get-MailTrafficATPReport-cmdlet-verwijzing](https://docs.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport)|
+|**EOP- en ATP-detecties**: (Dit is een aangepast rapport dat u genereert met PowerShell). Dit rapport bevat details over schadelijke bestanden of URL's, phishing-pogingen, imitatie en andere potentiële bedreigingen in e-mail of bestanden.|[Get-MailDetailATPReport-cmdlet-verwijzing](https://docs.microsoft.com/powershell/module/exchange/get-maildetailatpreport)|
 |
 
 ## <a name="what-permissions-are-needed-to-view-the-atp-reports"></a>Welke machtigingen zijn nodig om de ATP-rapporten te bekijken?

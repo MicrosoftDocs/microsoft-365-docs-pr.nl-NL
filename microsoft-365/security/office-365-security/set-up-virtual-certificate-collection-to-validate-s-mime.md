@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 04a616e6-197c-490c-ae8c-c8d5f0f0b3dd
 description: Beheerders kunnen leren hoe u een virtuele certificaatverzameling maakt die wordt gebruikt om S/MIME-certificaten te valideren in Exchange Online.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 89061e3c07803d741e25846ffe8a3325a12668a4
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 5bd453383a263fdb2c0c7e2ce0014ad205e5fdc2
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035294"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352167"
 ---
 # <a name="set-up-virtual-certificate-collection-in-exchange-online-to-validate-smime"></a>Virtuele certificaatverzameling instellen in Exchange Online om S/MIME te valideren
 
@@ -42,7 +42,7 @@ In dit voorbeeld wordt het SST-bestand C:\Mijn documenten\Geëxporteerd certific
 Set-SmimeConfig -SMIMECertificateIssuingCA (Get-Content "C:\My Documents\Exported Certificate Store.sst" -Encoding Byte)
 ```
 
-Zie [Set-SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/set-smimeconfig)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Set-SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/set-smimeconfig)voor gedetailleerde syntaxis- en parameterinformatie.
 
 ## <a name="ensuring-a-certificate-is-valid"></a>Ervoor zorgen dat een certificaat geldig is
 
@@ -52,4 +52,4 @@ In Exchange Online wordt alleen de SST gebruikt voor certificaatvalidatie.
 
 [S/MIME voor het ondertekenen en versleutelen van berichten](s-mime-for-message-signing-and-encryption.md)
 
-[Get-SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/get-smimeconfig)
+[Get-SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/get-smimeconfig)

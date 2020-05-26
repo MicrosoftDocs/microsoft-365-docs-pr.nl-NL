@@ -1,5 +1,5 @@
 ---
-title: Een rapport met een beheerdersrolgroep uitvoeren in zelfstandige EOP
+title: Een rapport over groepen met beheerdersrollen uitvoeren in standalone EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,14 +14,14 @@ ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u een rapport met een beheerdersrolgroep uitvoert in zelfstandige Exchange Online Protection (EOP). In dit rapport wordt logboeken opgeslagen wanneer een beheerder leden toevoegt aan of verwijdert uit beheerdersrolgroepen, registreert EOP elke gebeurtenis.
-ms.openlocfilehash: f5641e9900c786f976d05cdeeec148caab12a03d
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 39022892075b295a26645157941195b97897c690
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209173"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350937"
 ---
-# <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Een rapport met een beheerdersrolgroep uitvoeren in zelfstandige EOP
+# <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Een rapport over groepen met beheerdersrollen uitvoeren in standalone EOP
 
 In zelfstandige Exchange Online Protection -organisaties (EOP)-organisaties zonder Exchange Online-postvakken, wanneer een beheerder leden toevoegt aan of verwijdert uit administratieve rolgroepen, registreert de service elke gebeurtenis. Zie Machtigingen in zelfstandige EOP voor meer informatie over rolgroepen in zelfstandige [EOP.](feature-permissions-in-eop.md)
 
@@ -115,7 +115,7 @@ Search-AdminAuditLog -StartDate 05/01/2018 -EndDate 10/03/2018 -ObjectID contoso
 
 Als uw zoekopdrachten veel logboekitems retourneren, raden we u aan de procedure in Exchange Online PowerShell gebruiken te gebruiken **om te zoeken naar controlelogboekvermeldingen en later** in dit onderwerp resultaten naar een ontvanger te sturen. De procedure in die sectie stuurt een XML-bestand als e-mailbijlage naar de ontvangers die u opgeeft, zodat u gemakkelijker de gegevens extraheren waarin u geïnteresseerd bent.
 
-Zie [Search-AdminAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-adminauditlog)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Search-AdminAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-adminauditlog)voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="view-details-of-audit-log-entries"></a>Details van controlelogboekvermeldingen weergeven
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: Gebruik deze Test Lab-handleiding om beheer van privileged access uw Microsoft 365 Enterprise-testomgeving in te schakelen.
-ms.openlocfilehash: 27f63de138f388b0dcbc1bc896bafcb9abc9ed6a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1a81c62124177a328209f175262ac13455ca0899
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632861"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352520"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-enterprise-test-environment"></a>Privileged access management voor uw Microsoft 365 Enterprise-testomgeving
 
@@ -31,7 +31,7 @@ Met de instructies in dit artikel configureert u beheer van bevoegde toegang om 
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 >[!TIP]
->Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart met alle artikelen over de Microsoft 365 Enterprise-testlabrichtlijnen.
+>Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart met alle artikelen in de stack met Microsoft 365 Enterprise-testlabrichtlijnen.
   
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: uw Microsoft 365 Enterprise-testomgeving uitbouwen
 
@@ -62,9 +62,9 @@ In deze fase controleert u of het beleid voor bevoegde toegang werkt en dat gebr
 
 ### <a name="test-ability-to-execute-a-task-not-defined-in-a-privileged-access-policy"></a>De mogelijkheid testen om een taak uit te voeren die NIET is gedefinieerd in een beleid voor bevoegde toegang
 
-Maak eerst verbinding met Exchange Management PowerShell met de referenties van een gebruiker die is geconfigureerd als globale beheerder in uw testomgeving en probeer een nieuwe Journal-regel te maken. De taak [Nieuw-JournalRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-journalrule?view=exchange-ps) is momenteel niet gedefinieerd in een beleid voor bevoegde toegang voor uw organisatie.
+Maak eerst verbinding met Exchange Management PowerShell met de referenties van een gebruiker die is geconfigureerd als globale beheerder in uw testomgeving en probeer een nieuwe Journal-regel te maken. De taak [Nieuw-JournalRule](https://docs.microsoft.com/powershell/module/exchange/new-journalrule?view=exchange-ps) is momenteel niet gedefinieerd in een beleid voor bevoegde toegang voor uw organisatie.
 
-1. Open op uw lokale computer de Exchange Online Remote PowerShell-module bij **Microsoft Corporation** > **Microsoft Exchange Online Remote PowerShell Module** met behulp van het Global Admin-account voor uw testomgeving.
+1. Open op uw lokale computer de Exchange Online Remote PowerShell-module bij **Microsoft Corporation**Microsoft Exchange Online  >  **Remote PowerShell Module** met behulp van het Global Admin-account voor uw testomgeving.
 
 2. Maak in Exchange Management PowerShell een nieuwe Journal-regel voor uw organisatie:
 
@@ -81,7 +81,7 @@ New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -Jou
 
 1. Meld u aan bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com) met referenties het Global Admin-account voor uw testomgeving.
 
-2. Ga in het beheercentrum naar **Instellingenbeveiliging** > & toegang tot**privacybevoegdheden** > **Privileged access**.
+2. Ga in het beheercentrum naar **Settings**  >  **Instellingenbeveiliging & Toegang**  >  **tot privacybevoegde toegang**.
 
 3. Selecteer **Toegangsbeleid en -aanvragen beheren**.
 
@@ -103,7 +103,7 @@ New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -Jou
 
 ### <a name="test-approval-requirement-for-the-new-journalrule-task-defined-in-a-privileged-access-policy"></a>Goedkeuringsvereiste testen voor de taak Nieuw-JournalRule die is gedefinieerd in een beleid voor bevoorrechte toegang
 
-1. Open op uw lokale computer de Exchange Online Remote PowerShell-module bij **Microsoft Corporation** > **Microsoft Exchange Online Remote PowerShell Module** met behulp van een account globale beheer voor uw testomgeving.
+1. Open op uw lokale computer de Exchange Online Remote PowerShell-module bij **Microsoft Corporation**Microsoft Exchange Online  >  **Remote PowerShell Module** met behulp van een account globale beheer voor uw testomgeving.
 
 2. Maak in Exchange Management PowerShell een nieuwe Journal-regel voor uw organisatie:
 
@@ -125,7 +125,7 @@ Insufficient permissions. Please raise an elevated access request for this task.
 
 1. Meld u aan bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com) met het global admin-account voor uw testomgeving.
 
-2. Ga in het beheercentrum naar **Instellingenbeveiliging** > & toegang tot**privacybevoegdheden** > **Privileged access**.
+2. Ga in het beheercentrum naar **Settings**  >  **Instellingenbeveiliging & Toegang**  >  **tot privacybevoegde toegang**.
 
 3. Selecteer **Toegangsbeleid en -aanvragen beheren**.
 
@@ -147,7 +147,7 @@ Insufficient permissions. Please raise an elevated access request for this task.
 
 1. Meld u aan bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com) met behulp van de referenties voor gebruiker 3 in uw testomgeving (lid van de beveiligingsgroep 'Bevoegde toegangs-approvers' in uw testomgeving).
 
-2. Ga in het beheercentrum naar **Instellingenbeveiliging** > & toegang tot**privacybevoegdheden** > **Privileged access**.
+2. Ga in het beheercentrum naar **Settings**  >  **Instellingenbeveiliging & Toegang**  >  **tot privacybevoegde toegang**.
 
 3. Selecteer **Toegangsbeleid en -aanvragen beheren**.
 
@@ -155,7 +155,7 @@ Insufficient permissions. Please raise an elevated access request for this task.
 
 ### <a name="test-creating-a-new-journal-rule-with-privileged-access-approved-for-the-new-journalrule-task"></a>Een nieuwe logboekregel maken met bevoorrechte toegang die is goedgekeurd voor de taak Nieuw-JournalRule
 
-1. Open op uw lokale computer de Exchange Online Remote PowerShell-module bij **Microsoft Corporation** > **Microsoft Exchange Online Remote PowerShell Module** met behulp van het Global Admin-account voor uw testomgeving.
+1. Open op uw lokale computer de Exchange Online Remote PowerShell-module bij **Microsoft Corporation**Microsoft Exchange Online  >  **Remote PowerShell Module** met behulp van het Global Admin-account voor uw testomgeving.
 
 2. Maak in Exchange Management PowerShell een nieuwe Journal-regel voor uw organisatie:
 

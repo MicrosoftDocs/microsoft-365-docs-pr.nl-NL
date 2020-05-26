@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: Gebruikers moeten machtigingen krijgen toegewezen in het Microsoft 365 Security & Compliance Center voordat ze een van de beveiligings- of nalevingsfuncties kunnen beheren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6071bb6260e0c0f524eb6e5d4e78c78fa8ff750
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 19358e3cca0c4d47338fe5fc72b671e36477ce7e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036666"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351949"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>Gebruikers toegang geven tot het Security & Compliance Center
 
@@ -50,11 +50,11 @@ Raadpleeg [machtigingen in het Security & Compliance Center](permissions-in-the-
 
 3. Ga in het Beveiligingscentrum & naar **Machtigingen**.
 
-4. Kies in de lijst de rolgroep waaraan u de **Edit** ![gebruiker wilt](../../media/O365-MDM-CreatePolicy-EditIcon.gif)toevoegen en klik op pictogram Bewerken bewerken .
+4. Kies in de lijst de rolgroep waaraan u de gebruiker wilt toevoegen en klik op pictogram Bewerken **bewerken** ![ ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) .
 
-5. **Klik**![op de eigenschappenpagina van de rolgroep](../../media/ITPro-EAC-AddIcon.gif) onder **Leden**op Pictogram Toevoegen en selecteer de naam van de gebruiker (of gebruikers) die u wilt toevoegen.
+5. **Klik**op de eigenschappenpagina van de rolgroep onder **Leden**op Pictogram Toevoegen en selecteer de naam van de ![ gebruiker ](../../media/ITPro-EAC-AddIcon.gif) (of gebruikers) die u wilt toevoegen.
 
-6. Wanneer u alle gebruikers hebt geselecteerd die u aan de rolgroep wilt toevoegen, klikt u op **Toevoegen\> ** en vervolgens **OK**.
+6. Wanneer u alle gebruikers hebt geselecteerd die u aan de rolgroep wilt toevoegen, klikt u op **Toevoegen \> ** en vervolgens **OK**.
 
 7. Klik **op Opslaan** om de wijzigingen in de rolgroep op te slaan.
 
@@ -82,7 +82,7 @@ Raadpleeg [machtigingen in het Security & Compliance Center](permissions-in-the-
 
    - _Lid_ is de mailbox, universal security group (USG) of computer die aan de rolgroep moet worden toegevoegd. U slechts één lid tegelijk opgeven.
 
-Zie [Groeplid toevoegen](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Add-RoleGroupMember)voor gedetailleerde informatie over syntaxis en parameters.
+Zie [Groeplid toevoegen](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember)voor gedetailleerde informatie over syntaxis en parameters.
 
 ### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
@@ -92,4 +92,4 @@ Als u wilt controleren of u gebruikers toegang hebt gegeven tot het Beveiligings
 Get-RoleGroupMember -Identity "Organization Management"
 ```
 
-Zie [Groepslid voor get-rolegroup](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Get-RoleGroupMember).
+Zie [Groepslid voor get-rolegroup](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).

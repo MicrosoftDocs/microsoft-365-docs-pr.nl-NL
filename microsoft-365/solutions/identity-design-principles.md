@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: c830e7f7b0366623520d7ba4e5a47a51e73f09ad
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 8b991fb6cf8f03f2ff686c89251f53f53f87a5e1
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160376"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352544"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Naar identiteit en daarbuiten — Het standpunt van één architect
 
@@ -183,7 +183,7 @@ Sommige klanten kiezen ervoor om te gaan met meer dan een huurder. Dit moet een 
 - Simulatie van de omgeving van een klant die de productieomgeving van de klant niet verandert. 
 - Ontwikkeling van software voor klanten.
 
-In deze scenario's met meerdere tenants willen klanten vaak bepaalde configuratie voor tenants hetzelfde houden of rapporteren over configuratiewijzigingen en drifts. Dit betekent vaak dat u van handmatige wijzigingen naar configuratie als code moet gaan. Microsoft Premiere-ondersteuning biedt een workshop voor dit soort [https://Microsoft365dsc.com](https://Microsoft365dsc.com)vereisten op basis van deze openbare IP: .
+In deze scenario's met meerdere tenants willen klanten vaak bepaalde configuratie voor tenants hetzelfde houden of rapporteren over configuratiewijzigingen en drifts. Dit betekent vaak dat u van handmatige wijzigingen naar configuratie als code moet gaan. Microsoft Premiere-ondersteuning biedt een workshop voor dit soort vereisten op basis van deze openbare IP: [https://Microsoft365dsc.com](https://Microsoft365dsc.com) .
 
 
 ### <a name="multi-geo"></a>Multi-Geo 
@@ -209,7 +209,7 @@ Er is een lange en groeiende lijst van [ingebouwde rollen.](https://docs.microso
 
 Het is niet mogelijk om alles te delegeren (hoewel de kloof afneemt), wat betekent dat de globale beheerdersrol soms moet worden gebruikt. Configuratie-as-code en automatisering moeten worden overwogen in plaats van mensen die lid zijn van deze rol.
 
-**Opmerking:** Het Microsoft 365-beheercentrum heeft een meer gebruiksvriendelijke interface, maar heeft subset van mogelijkheden in vergelijking met de Azure AD-beheerervaring. Beide portalen gebruiken dezelfde Azure AD-rollen, zodat er op dezelfde plaats wijzigingen plaatsvinden. Tip: als u een gebruikersinterface voor identiteitsbeheer wilt zonder [https://aad.portal.azure.com](https://aad.portal.azure.com)alle Azure-rommel, gebruikt u . 
+**Opmerking:** Het Microsoft 365-beheercentrum heeft een meer gebruiksvriendelijke interface, maar heeft subset van mogelijkheden in vergelijking met de Azure AD-beheerervaring. Beide portalen gebruiken dezelfde Azure AD-rollen, zodat er op dezelfde plaats wijzigingen plaatsvinden. Tip: als u een gebruikersinterface voor identiteitsbeheer wilt zonder alle Azure-rommel, gebruikt u [https://aad.portal.azure.com](https://aad.portal.azure.com) . 
 
 Wat staat er in de naam? Maak geen veronderstellingen van de naam van de rol. Taal is niet een zeer nauwkeurig instrument. Het doel moet zijn om bewerkingen te definiëren die moeten worden gedelegeerd voordat wordt gekeken welke rollen nodig zijn. Als u iemand toevoegt aan de rol 'Beveiligingslezer' ziet u de beveiligingsinstellingen niet overal in. 
 
@@ -243,29 +243,29 @@ Zoals eerder vermeld, zijn veel klanten op zoek naar een meer gedetailleerde del
 
 - **Exchange Online** - [https://docs.microsoft.com/exchange/permissions-exo/permissions-exo](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) 
 - **SharePoint Online** - [https://docs.microsoft.com/sharepoint/manage-site-collection-administrators](https://docs.microsoft.com/sharepoint/manage-site-collection-administrators) 
-- **Microsoft Teams**  -  [ https://docs.microsoft.com/microsoftteams/itadmin-readiness](https://docs.microsoft.com/microsoftteams/itadmin-readiness )
+- **Microsoft Teams**  -  [https://docs.microsoft.com/microsoftteams/itadmin-readiness ](https://docs.microsoft.com/microsoftteams/itadmin-readiness )
 - **eDiscovery** - [https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions](https://docs.microsoft.com/microsoft-365/compliance/) 
-  + **Machtigingsfiltering**  -  [ https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search](https://docs.microsoft.com/microsoft-365/compliance/)
-  + **Nalevingsgrenzen**  -  [ https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries )
-  + **Geavanceerde eDiscovery**  -  [ https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 )
+  + **Machtigingsfiltering**  -  [https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search ](https://docs.microsoft.com/microsoft-365/compliance/)
+  + **Nalevingsgrenzen**  -  [https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries ](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries )
+  + **Geavanceerde eDiscovery**  -  [https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 ](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 )
 - **Yammer** - [https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins](https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins) 
 - **Multi-geo** - [https://docs.microsoft.com/office365/enterprise/add-a-sharepoint-geo-admin](https://docs.microsoft.com/office365/enterprise/add-a-sharepoint-geo-admin) 
 - **Dynamica 365** –[https://docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) <br>
   Let op: deze link is naar de wortel van de documentatie. Er zijn meerdere soorten services met variaties in het beheer-/delegatiemodel.
-- **Power Platform** -  [ Energieplatformhttps://docs.microsoft.com/power-platform/admin/admin-documentation](https://docs.microsoft.com/power-platform/admin/admin-documentation )
-  + **Power Apps**  -  [ https://docs.microsoft.com/power-platform/admin/wp-security](https://docs.microsoft.com/power-platform/admin/wp-security ) <br>
+- **Energieplatform**  -  [https://docs.microsoft.com/power-platform/admin/admin-documentation ](https://docs.microsoft.com/power-platform/admin/admin-documentation )
+  + **Power Apps**  -  [https://docs.microsoft.com/power-platform/admin/wp-security ](https://docs.microsoft.com/power-platform/admin/wp-security ) <br>
     Opmerking: er zijn meerdere typen met variaties in de beheerders-/delegatiemodellen.
-  + **Power automatiseren**  -  [ https://docs.microsoft.com/power-automate/environments-overview-admin](https://docs.microsoft.com/power-automate/environments-overview-admin )
-  + **PowerBI (PowerBI)**  -  [ https://docs.microsoft.com/power-bi/service-admin-governance](https://docs.microsoft.com/power-bi/service-admin-governance ) <br>
+  + **Power automatiseren**  -  [https://docs.microsoft.com/power-automate/environments-overview-admin ](https://docs.microsoft.com/power-automate/environments-overview-admin )
+  + **PowerBI (PowerBI)**  -  [https://docs.microsoft.com/power-bi/service-admin-governance ](https://docs.microsoft.com/power-bi/service-admin-governance ) <br>
 Opmerking: beveiliging en delegatie van gegevensplatforms (welk Onderdeel van Power BI een onderdeel is) is een complex gebied.
-- **MEM/Intune**  -  [ https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control )
-- **Microsoft Defender ATP**  -  [ https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles )
+- **MEM/Intune**  -  [https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control ](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control )
+- **Microsoft Defender ATP**  -  [https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles ](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles )
 - **Microsoft-bedreigingsbeveiliging** - [https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions)
 - **Beveiliging van Microsoft Cloud-apps** - [https://docs.microsoft.com/cloud-app-security/manage-admins](https://docs.microsoft.com/cloud-app-security/manage-admins)
-- **Stream** -  [ Streamenhttps://docs.microsoft.com/stream/assign-administrator-user-role](https://docs.microsoft.com/stream/assign-administrator-user-role )
-- **Information barriers** -  [ Informatiebarrièreshttps://docs.microsoft.com/microsoft-365/compliance/information-barriers](https://docs.microsoft.com/microsoft-365/compliance/information-barriers )
+- **Streamen**  -  [https://docs.microsoft.com/stream/assign-administrator-user-role ](https://docs.microsoft.com/stream/assign-administrator-user-role )
+- **Informatiebarrières**  -  [https://docs.microsoft.com/microsoft-365/compliance/information-barriers ](https://docs.microsoft.com/microsoft-365/compliance/information-barriers )
 
-Voor de rest, zoeken in Docs [https://docs.microsoft.com/](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)is echt goed de laatste tijd - . 
+Voor de rest, zoeken in Docs is echt goed de laatste tijd - [https://docs.microsoft.com/](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) . 
 
 
 ### <a name="activity-logs"></a>Activiteitslogboeken
@@ -273,7 +273,7 @@ Office 365 heeft een [uniform controlelogboek](https://docs.microsoft.com/micros
 
 Voorbeelden van Microsoft 365-logboeken die via andere API's worden geopend, zijn de volgende:
 - [Azure AD](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings) (activiteiten die niet gerelateerd zijn aan Office 365)
-- [Het bijhouden van berichten uitwisselen](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-messagetrace?view=exchange-ps)
+- [Het bijhouden van berichten uitwisselen](https://docs.microsoft.com/powershell/module/exchange/get-messagetrace?view=exchange-ps)
 - Hierboven besproken Threat/UEBA Systems (bijvoorbeeld Azure AD Identity Protection, Microsoft Cloud App Security, Microsoft Defender ATP, etc.)
 - [Microsoft-informatiebescherming](https://docs.microsoft.com/microsoft-365/compliance/data-classification-activity-explorer?view=o365-worldwide)
 - [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)

@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen veelgestelde vragen en antwoorden over in quarantaine geplaatste berichten bekijken in Exchange Online Protection (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b2022a43f1dd89d47fdb4f3898f8f481419962c0
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: 0a231e363d5764465547ee1e80cc080c3d7c006c
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213102"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351093"
 ---
 # <a name="quarantined-messages-faq"></a>Veelgestelde vragen over in quarantaine geplaatste berichten
 
@@ -40,7 +40,7 @@ Alleen beheerders kunnen berichten beheren die in quarantaine zijn geplaatst voo
 
 ## <a name="how-do-i-quarantine-spam"></a>Hoe quarantaine spam?
 
-Berichten die door spamfilter worden geclassificeerd als spam of bulk-e-mail worden standaard naar het postvak van de gebruiker verzonden en worden verplaatst naar de map Ongewenste e-mail. Maar u in plaats daarvan antispambeleid maken en configureren om spam of bulke-mailberichten in quarantaine te plaatsen. Zie [Beleid voor antispam configureren in EOP](configure-your-spam-filter-policies.md)voor meer informatie.
+Berichten die door spamfilter worden geclassificeerd als spam of bulk-e-mail worden standaard naar het postvak van de gebruiker verzonden en worden verplaatst naar de map Ongewenste e-mail. Maar u in plaats daarvan antispambeleid maken en configureren om spam of bulke-mailberichten in quarantaine te plaatsen. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
 
 ## <a name="how-do-i-give-users-access-to-the-quarantine"></a>Hoe geef ik gebruikers toegang tot de quarantaine?
 
@@ -62,7 +62,7 @@ Nadat de periode is verstreken, worden de berichten verwijderd en kunnen ze niet
 
 In het Security & Compliance Center u maximaal 100 berichten tegelijk selecteren en vrijgeven.
 
-Beheerders kunnen de cmdlets [Get-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-quarantinemessage) en [Release-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/release-quarantinemessage) gebruiken in Exchange Online PowerShell of standalone EOP PowerShell om in bulk in quarantaine geplaatste berichten te vinden en vrij te geven en om valse positieven in bulk te melden.
+Beheerders kunnen de cmdlets [Get-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/get-quarantinemessage) en [Release-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/release-quarantinemessage) gebruiken in Exchange Online PowerShell of standalone EOP PowerShell om in bulk in quarantaine geplaatste berichten te vinden en vrij te geven en om valse positieven in bulk te melden.
 
 ## <a name="are-wildcards-supported-when-searching-for-quarantined-messages-can-i-search-for-quarantined-messages-for-a-specific-domain"></a>Worden wildcards ondersteund bij het zoeken naar in quarantaine geplaatste berichten? Kan ik zoeken naar in quarantaine geplaatste berichten voor een specifiek domein?
 

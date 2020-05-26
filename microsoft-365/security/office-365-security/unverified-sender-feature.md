@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel u weten hoe u voorkomen dat phishingberichten uw postvak, Outlook.com en de webversie van Outlook bereiken.
-ms.openlocfilehash: 2172a9890d629dd840c3e2e2591d78546899d17e
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.openlocfilehash: 9583161c9e64d6a24312565d68ae516a2be8606e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224873"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352452"
 ---
 # <a name="unverified-sender"></a>Niet-geverifieerde afzender
 
@@ -50,7 +50,7 @@ Niet elk bericht dat niet te verifiëren is kwaadaardig. U moet echter voorzicht
 
 Als u een Office 365-klant bent, u deze functie beheren via het Office 365 Security & Compliance Center.
 
-- In het Security & Compliance Center kunnen globale of beveiligingsbeheerders de functie in- of uitschakelen, via anti-spoofing bescherming onder het Anti-Phish-beleid. Daarnaast u de **cmdlet Set-AntiPhishPolicy** gebruiken in Exchange Online PowerShell. Zie Bescherming [tegen phishing in Office 365](anti-phishing-protection.md) en [Set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy)voor meer informatie.
+- In het Security & Compliance Center kunnen globale of beveiligingsbeheerders de functie in- of uitschakelen, via anti-spoofing bescherming onder het Anti-Phish-beleid. Daarnaast u de **cmdlet Set-AntiPhishPolicy** gebruiken in Exchange Online PowerShell. Zie Bescherming [tegen phishing in Office 365](anti-phishing-protection.md) en [Set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/set-antiphishpolicy)voor meer informatie.
 
     ![Niet-geverifieerde afzenders bewerken in de grafische interface.](../../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 
@@ -58,7 +58,7 @@ Als u een Office 365-klant bent, u deze functie beheren via het Office 365 Secur
 
   - Voeg het domeinpaar toe via de Spoof Intelligence Insight. Zie [Walkthrough: spoof intelligence insight](walkthrough-spoof-intelligence-insight.md)voor meer informatie.
 
-  - Voeg het domeinpaar toe via de **cmdlet Set-PhishFilterPolicy** in Exchange Online PowerShell. Zie [Set-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy) en [Office 365 ATP anti-phishing- en antiphishingbeleid instellen](set-up-anti-phishing-policies.md)voor meer informatie.
+  - Voeg het domeinpaar toe via de **cmdlet Set-PhishFilterPolicy** in Exchange Online PowerShell. Zie [Set-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/set-phishfilterpolicy) en [Office 365 ATP anti-phishing- en antiphishingbeleid instellen](set-up-anti-phishing-policies.md)voor meer informatie.
 
 Bovendien passen we de niet-geverifieerde afzenderbehandeling niet toe als het bericht via e-mailstroomregels (ook wel transportregels) of de veilige domeinlijst (antispambeleid) in het Postvak IN is bezorgd.
 

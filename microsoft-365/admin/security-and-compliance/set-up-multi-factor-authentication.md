@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Meer informatie over het instellen van multi-factor authenticatie voor uw organisatie.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 893a4ae535dfb781a4f77ee57c0ead40fda8454f
-ms.sourcegitcommit: 185d62f41f6b173894ba6e3e87b11b2b5d02db58
+ms.openlocfilehash: ca1a8bd47e2fa5bbd7b7aed396debefaad10ea5e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44340772"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351713"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Meervoudige verificatie instellen
   
@@ -104,7 +104,7 @@ Als u het [beleid voor voorwaardelijke basislijnhebt](https://docs.microsoft.com
 
 ### <a name="conditional-access-policies"></a>Beleid voor voorwaardelijke toegang
 
-Het juiste beleid maken, configureren of inschakelen met de groep gebruikers waarvoor MFA nodig is voor aanmelding.
+Maak, configureer en schakel het juiste beleid in dat de groep gebruikers bevat die MFA nodig heeft voor aanmelding.
 
 ### <a name="per-user-mfa-not-recommended"></a>MFA per gebruiker (niet aanbevolen)
 

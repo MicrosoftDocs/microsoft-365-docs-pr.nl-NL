@@ -14,12 +14,12 @@ ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders in zelfstandige Exchange Online Protection-organisaties (EOP) kunnen leren hoe ze distributiegroepen en beveiligingsgroepen met e-mail kunnen maken, wijzigen en verwijderen in het Exchange-beheercentrum (EAC) en in zelfstandige Exchange Online Protection (EOP) PowerShell.
-ms.openlocfilehash: fc3f3807216b269a9868e87c5ec784d75385f878
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 4f1dbdb503f8baf02b7dd763dbf7fc6acdf5771a
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209017"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352189"
 ---
 # <a name="manage-groups-in-eop"></a>Groepen beheren in EOP
 
@@ -38,7 +38,7 @@ U groepen beheren in het Exchange-beheercentrum (EAC) en in zelfstandige EOP Pow
 
 - Zie [Exchange-beheercentrum in het zelfstandige EOP](exchange-admin-center-in-exchange-online-protection-eop.md)om het Exchange-beheercentrum te openen.
 
-- Zie Verbinding maken met Exchange [Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)als u verbinding wilt maken met zelfstandige EOP PowerShell.
+- Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
 
 - Wanneer u groepen beheert in zelfstandige EOP PowerShell, u beperking tegenkomen. De PowerShell-procedures in dit onderwerp gebruiken een batchverwerkingsmethode die resulteert in een propagatievertraging van enkele minuten voordat de resultaten van de opdrachten zichtbaar zijn.
 
@@ -147,7 +147,7 @@ Als u de lijst met groepsleden wilt retourneren, vervangt u \< GroupIdentity \> 
 Get-DistributionGroupMember -Identity <GroupIdentity>
 ```
 
-Zie Ontvanger en Groeplid [voor ontvang-distributie](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) voor gedetailleerde syntaxis- en parametergegevens. [Get-DistributionGroupMember](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-distributiongroupmember)
+Zie Ontvanger en Groeplid [voor ontvang-distributie](https://docs.microsoft.com/powershell/module/exchange/get-recipient) voor gedetailleerde syntaxis- en parametergegevens. [Get-DistributionGroupMember](https://docs.microsoft.com/powershell/module/exchange/get-distributiongroupmember)
 
 ### <a name="use-standalone-eop-powershell-to-create-groups"></a>Gebruik standalone EOP PowerShell om groepen te maken
 
@@ -173,7 +173,7 @@ In dit voorbeeld wordt een distributiegroep met de naam IT-beheerders met de opg
 New-EOPDistributionGroup -Name "IT Administrators" -Alias itadmin -Members @("michelle@contoso.com","laura@contoso.com","julia@contoso.com") -ManagedBy "chris@contoso.com"
 ```
 
-Zie [Nieuw-EOPDistributionGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/New-EOPDistributionGroup)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Nieuw-EOPDistributionGroup](https://docs.microsoft.com/powershell/module/exchange/New-EOPDistributionGroup)voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-standalone-eop-powershell-to-modify-groups"></a>Zelfstandige EOP PowerShell gebruiken om groepen te wijzigen
 
@@ -207,7 +207,7 @@ $CurrentMemberNames += "Tyson Fawcett"
 Update-EOPDistributionGroupMember -Identity "Security Team" -Members $CurrentMemberNames
 ```
 
-Zie [Set-EOPDistributionGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-eopdistributiongroup) en [Update-EOPDistributionGroupMember](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/update-eopdistributiongroupmember)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Set-EOPDistributionGroup](https://docs.microsoft.com/powershell/module/exchange/set-eopdistributiongroup) en [Update-EOPDistributionGroupMember](https://docs.microsoft.com/powershell/module/exchange/update-eopdistributiongroupmember)voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="remove-a-group-using-remote-windows-powershell"></a>Een groep verwijderen met externe Windows PowerShell
 
@@ -217,7 +217,7 @@ In dit voorbeeld wordt de distributiegroep met de naam IT-beheerders verwijderd.
 Remove-EOPDistributionGroup -Identity "IT Administrators"
 ```
 
-Zie [Remove-EOPDistributionGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/remove-eopdistributiongroup)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Remove-EOPDistributionGroup](https://docs.microsoft.com/powershell/module/exchange/remove-eopdistributiongroup)voor gedetailleerde syntaxis- en parameterinformatie.
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 
