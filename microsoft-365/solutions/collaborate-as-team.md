@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Meer informatie over de Microsoft 365-configuratiestappen die nodig zijn om een team in te stellen voor samenwerking met gasten in Teams.
-ms.openlocfilehash: dabcfa53e9ccf4b3ea136b5ab522619fe81ae738
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 6742409732e1ef9b466dae6854768c3843f33bd0
+ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160025"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "44371495"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Samenwerken met gasten in een team
 
@@ -44,10 +44,10 @@ Controleer de instellingen voor organisatorische relaties om ervoor te zorgen da
 
 Instellingen voor organisatierelaties instellen
 
-1. Meld u aan [https://portal.azure.com](https://portal.azure.com)bij Microsoft Azure op .
+1. Meld u aan bij Microsoft Azure op [https://portal.azure.com](https://portal.azure.com) .
 2. Klik in de linkernavigatie op **Azure Active Directory**.
-3. Klik in het deelvenster **Overzicht** op **Organisatierelaties**.
-4. Klik in het deelvenster **Organisatierelaties** op **Instellingen**.
+3. Klik in het deelvenster **Overzicht** op **Externe identiteiten**.
+4. Klik in het deelvenster **Organisatieidentiteiten** op **Instellingen voor externe samenwerking**.
 5. Zorg ervoor dat **beheerders en gebruikers in de gastuitnodigingsrol kunnen uitnodigen** en dat leden kunnen **uitnodigen,** beide zijn ingesteld op **Ja**.
 6. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
@@ -102,7 +102,7 @@ Als u het delen van bestanden en mappen met niet-geverifieerde personen wilt toe
 Instellingen voor delen van SharePoint-organisatieniveau instellen
 
 1. Klik in het Microsoft 365-beheercentrum in de linkernavigatie onder **Beheercentra**op **SharePoint**.
-2. Klik in het SharePoint Online Beheercentrum in het navigatievenster aan de linkerkant op **Delen**.
+2. Klik in het SharePoint Online Beheercentrum in het navigatievenster aan de linkerkant op **delen**.
 3. Controleer of extern delen voor SharePoint is ingesteld op **iedereen** of **nieuwe en bestaande gasten.**
 4. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
@@ -161,12 +161,12 @@ Instellingen voor delen op siteniveau instellen
 Instellingen voor het delen van gasten zijn nu geconfigureerd, zodat u beginnen met het toevoegen van interne gebruikers en gasten aan uw team. 
 
 Interne gebruikers uitnodigen voor een team
-1. Klik in het team**\*\*** op **Meer opties** ( ) en klik vervolgens op **Lid toevoegen**.
+1. Klik in het team op **Meer opties** ( ) en klik vervolgens op **\*\*\*** Lid **toevoegen**.
 2. Typ de naam van de persoon die u wilt uitnodigen.
 3. Klik **op Toevoegen**en klik vervolgens op **Sluiten.**
 
 Gasten uitnodigen voor een team
-1. Klik in het team**\*\*** op **Meer opties** ( ) en klik vervolgens op **Lid toevoegen**.
+1. Klik in het team op **Meer opties** ( ) en klik vervolgens op **\*\*\*** Lid **toevoegen**.
 2. Typ het e-mailadres van de gast die u wilt uitnodigen.
 3. Klik **op Gastgegevens bewerken**.
 4. Typ de volledige naam van de gast en klik op het vinkje.
