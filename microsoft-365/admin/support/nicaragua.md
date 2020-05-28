@@ -9,17 +9,18 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over het contact opnemen met de ondersteuning van uw land of regio.
+description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8e0a657bbddc6c323bf0d5b42b16838e36046e30
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 413d08ddfa2dc983498602eacab201889cf75046
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42805789"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44394355"
 ---
-# <a name="contact-support-for-nicaragua"></a>Neem contact op met ondersteuning voor Nicaragua
+# <a name="contact-support-for-nicaragua"></a>Contact ondersteuning voor Nicaragua
 
 [Zoek een ander land of regio.](../contact-support-for-business-products.md)
 
@@ -30,8 +31,8 @@ Voer na het kiezen
 
 877 635 7036
 
-## <a name="hours"></a>Uur
-### <a name="billing-support"></a>Ondersteuning voor facturering:
+## <a name="hours"></a>Uren
+### <a name="billing-support"></a>Factureringsondersteuning:
 
 Spaans: ma-vr 9:00-17:00 uur
 

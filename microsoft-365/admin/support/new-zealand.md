@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7f0238692caedaacdf7bb7b15efe540eee8db74e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: c715eb234274977041396631ead7ffa7dc30e9a7
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42812868"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44394391"
 ---
 # <a name="contact-support-for-new-zealand"></a>Neem contact op met ondersteuning voor Nieuw-Zeeland
 
@@ -26,7 +27,7 @@ ms.locfileid: "42812868"
 ## <a name="phone-number"></a>Telefoonnummer
 0800 194 197
 
-## <a name="hours"></a>Uur
+## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Factureringsondersteuning:
 
 Engels: ma-vr 9:00-18:00 uur
