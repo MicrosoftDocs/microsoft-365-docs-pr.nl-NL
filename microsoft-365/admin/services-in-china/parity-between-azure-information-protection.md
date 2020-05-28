@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - GEU150
 - GEA150
 description: Meer informatie over Azure Information Protection voor Office 365 wordt beheerd door 21Vianet en hoe u deze configureert voor klanten in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 3d24b450cc9ba9a6427732d408e35af1394b4a34
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1f5d73f5c421a545ea0085f018a2c2a703b0b374
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627652"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399036"
 ---
 # <a name="parity-between-azure-information-protection-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>Pariteit tussen Azure Information Protection voor Office 365 die wordt beheerd door 21Vianet en commerciële aanbiedingen
 
@@ -54,35 +55,35 @@ Om de versleuteling correct te laten werken, moet de RMS zijn ingeschakeld voor 
 
 - Controleer of het RMS is ingeschakeld:
   1. Start PowerShell als beheerder.
-  2. Als de AIPService-module niet `Install-Module AipService`is geïnstalleerd, voert u uit .
-  3. Importeer de `Import-Module AipService`module met behulp van .
-  4. Maak verbinding met `Connect-AipService -environmentname azurechinacloud`de service via .
-  5. Uitvoeren `(Get-AipServiceConfiguration).FunctionalState` en controleren of `Enabled`de status is.
+  2. Als de AIPService-module niet is geïnstalleerd, voert u uit  `Install-Module AipService` .
+  3. Importeer de module met behulp van `Import-Module AipService` .
+  4. Maak verbinding met de service via  `Connect-AipService -environmentname azurechinacloud` .
+  5. Uitvoeren  `(Get-AipServiceConfiguration).FunctionalState`   en controleren of de status  `Enabled` is.
 
-- Als de functionele `Disabled`status `Enable-AipService`is, voert u uit .
+- Als de functionele status  `Disabled` is, voert u uit  `Enable-AipService` .
 
 ### <a name="dns-configuration-for-encryption-windows"></a>DNS-configuratie voor versleuteling (Windows)
 
 Om versleuteling correct te laten werken, moeten Office-clienttoepassingen verbinding maken met het China-exemplaar van de service en bootstrap van daaruit. Als u clienttoepassingen wilt omleiden naar de juiste service-instantie, moet de tenantbeheerder een DNS SRV-record configureren met informatie over de AZURE RMS-URL. Zonder de DNS SRV-record probeert de clienttoepassing standaard verbinding te maken met de openbare cloud-instantie en mislukt deze.
 
-Ook is de veronderstelling dat gebruikers zullen inloggen met een gebruikersnaam op `joe@contoso.cn`basis van `onmschina` de tenant-eigendom `joe@contoso.onmschina.cn`domein (bijvoorbeeld), en niet de gebruikersnaam (bijvoorbeeld, ). De domeinnaam van de gebruikersnaam wordt gebruikt voor DNS-omleiding naar de juiste serviceinstantie.
+Ook is de veronderstelling dat gebruikers zullen inloggen met een gebruikersnaam op basis van de tenant-eigendom domein `joe@contoso.cn` (bijvoorbeeld), en niet de gebruikersnaam `onmschina` (bijvoorbeeld, `joe@contoso.onmschina.cn` ). De domeinnaam van de gebruikersnaam wordt gebruikt voor DNS-omleiding naar de juiste serviceinstantie.
 
 - Haal de RMS-id op:
   1. Start PowerShell als beheerder.
-  2. Als de AIPService-module niet `Install-Module AipService`is geïnstalleerd, voert u uit .
-  3. Maak verbinding met `Connect-AipService -environmentname azurechinacloud`de service via .
-  4. Ren `(Get-AipServiceConfiguration).RightsManagementServiceId` om de RMS-id te krijgen.
+  2. Als de AIPService-module niet is geïnstalleerd, voert u uit  `Install-Module AipService` .
+  3. Maak verbinding met de service via  `Connect-AipService -environmentname azurechinacloud` .
+  4. Ren  `(Get-AipServiceConfiguration).RightsManagementServiceId`   om de RMS-id te krijgen.
 
 - Meld u aan bij uw DNS-provider, navigeer naar de DNS-instellingen voor het domein en voeg vervolgens een nieuwe SRV-record toe.
   - Service = `_rmsredir`
   - Protocol = `_http`
   - Naam = `_tcp`
-  - Doel `[GUID].rms.aadrm.cn` = (waarbij GUID de RMS-id is)
+  - Doel =  `[GUID].rms.aadrm.cn`   (waarbij GUID de RMS-id is)
   - Prioriteit, Gewicht, Seconden, TTL = standaardwaarden
 
 - Koppel het aangepaste domein aan de tenant in de [Azure-portal.](https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains) Dit voegt een vermelding in DNS toe, wat enkele minuten kan duren voordat u wordt geverifieerd nadat u de waarde aan de DNS-instellingen hebt toegevoegd.
 
-- Meld u aan bij het Microsoft 365-beheercentrum met de bijbehorende `contoso.cn`globale beheerdersreferenties en voeg het domein (bijvoorbeeld ) toe voor het maken van gebruikers. In het verificatieproces zijn mogelijk aanvullende DNS-wijzigingen vereist. Zodra de verificatie is uitgevoerd, kunnen gebruikers worden gemaakt.
+- Meld u aan bij het Microsoft 365-beheercentrum met de bijbehorende globale beheerdersreferenties en voeg het domein (bijvoorbeeld ) toe `contoso.cn` voor het maken van gebruikers. In het verificatieproces zijn mogelijk aanvullende DNS-wijzigingen vereist. Zodra de verificatie is uitgevoerd, kunnen gebruikers worden gemaakt.
 
 ### <a name="dns-configuration-for-encryption-mac-ios-android"></a>DNS-configuratie voor versleuteling (Mac, iOS, Android)
 

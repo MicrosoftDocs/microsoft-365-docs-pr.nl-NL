@@ -14,25 +14,26 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - GEA150
 ms.assetid: c80a315a-af87-4996-94b9-fd2194f58a93
 description: Lees hoe u uw Fapiao-aanvraag indienen bij het beheersysteem 21Vianet Fapiao nadat u een betaling hebt gedaan in het Office 365 dat wordt beheerd door 21Vianet in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 55629654599dd20b813708a148e3ce49f6b6cf88
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: c920f7497c50e7f961028624f9e3ca954a6108f3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140811"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399096"
 ---
 # <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>Een Fapiao aanvragen voor Office 365 dat wordt beheerd door 21Vianet
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -138,7 +139,7 @@ Als u de Fapiao titel wilt wijzigen, stuur dan de Fapiao terug naar ons en we zu
     
 ### <a name="how-do-i-find-my-order-id"></a>Hoe vind ik mijn bestel-id?
 
-1. Ga in het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627)naar de pagina **Facturen** \> **&.**
+1. Ga in het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627)naar de pagina **Billing** \> **Facturen &.**
     
 2. Zoek de gewenste factuur, selecteer om de PDF weer te geven of kies ervoor om de PDF te downloaden.
 

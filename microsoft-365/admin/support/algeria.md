@@ -9,44 +9,45 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over het contact opnemen met de ondersteuning van uw land of regio.
+description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 88aff10d49ed1eb0b66ce9be4a2e27b5825d869c
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 16d441bdee2c9d7e860607d8f20fa45e5af54bed
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42805577"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398760"
 ---
-# <a name="contact-support-for-algeria"></a>Neem contact op met ondersteuning voor Algerije
+# <a name="contact-support-for-algeria"></a>Contact ondersteuning voor Algerije
 
 [Zoek een ander land of regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 021 89 10 70
 
-Selecteer optie 1
+Optie 1 selecteren
 
-Selecteer optie 9
+Optie 9 selecteren
 
 Code 7703 invoeren
 
-## <a name="hours"></a>Uur
-### <a name="billing-support"></a>Ondersteuning voor facturering:
+## <a name="hours"></a>Uren
+### <a name="billing-support"></a>Factureringsondersteuning:
 
-Arabisch: Zondag-do 9:00-17:00
+Arabisch: zon-do 9:00-17:00 uur
 
-Frans: ma-vr 9:00-17:00
+Frans: ma-vr 9:00-17:00 uur
 
-Engels: ma-vr 9:00-5:00
+Engels: ma-vr 9:00-17:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Arabisch: Zondag-do 9:00-17:00
+Arabisch: zon-do 9:00-17:00 uur
 
-Frans: ma-vr 20.00-21.00 uur
+Frans: ma-vr 08:00-21:00 uur
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Lokale oproepkosten zijn van toepassing
+Lokale gesprekskosten zijn van toepassing

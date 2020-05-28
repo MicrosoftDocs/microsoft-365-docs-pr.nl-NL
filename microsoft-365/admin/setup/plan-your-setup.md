@@ -14,17 +14,18 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
 description: Meer informatie over wat u moet doen om uw Microsoft 365 voor bedrijven in te stellen.
-ms.openlocfilehash: d02e1aaf03449bd976b8db549274002b3ebb6ed6
-ms.sourcegitcommit: b458277f0a9937555bc6c5b3fb2a41613f7cc9a9
+ms.openlocfilehash: 7c329e8f4df5076a9f4826d18e8a82bcc7cd6dd8
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43794031"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398844"
 ---
 # <a name="plan-your-setup-of-microsoft-365-for-business"></a>Uw installatie van Microsoft 365 voor bedrijven plannen
 
@@ -49,7 +50,7 @@ De wizard Setup leidt u door het installeren van de Microsoft 365-apps op uw com
 > [!NOTE]
 > Als u [beheerdersrollen in Microsoft 365 voor Bedrijven](../add-users/assign-admin-roles.md) wilt toewijzen aan de gebruikers die u in de wizard toevoegt, u dat later op de pagina **Gebruikers** doen. 
   
-Als u de wizard Setup niet voltooit, u de installatietaken op elk gewenst moment voltooien vanuit**de installatievan** [het beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2024339) > . Vanaf hier u e-mail en contactpersonen migreren vanuit een andere e-mailservice, het domein van uw beheerdersaccount wijzigen, uw factureringsgegevens beheren, gebruikers toevoegen of verwijderen, wachtwoorden opnieuw instellen en andere zakelijke functies uitvoeren. Zie [Verschillen tussen de installatiewizard van Microsoft 365 en de pagina Setup](o365-setup-wizard-and-setup-page.md)voor meer informatie over de verschillen tussen de wizard Setup en de installatiepagina . **Setup**
+Als u de wizard Setup niet voltooit, u de installatietaken op elk gewenst moment voltooien vanuit [de installatievan het beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2024339)  >  **Setup**. Vanaf hier u e-mail en contactpersonen migreren vanuit een andere e-mailservice, het domein van uw beheerdersaccount wijzigen, uw factureringsgegevens beheren, gebruikers toevoegen of verwijderen, wachtwoorden opnieuw instellen en andere zakelijke functies uitvoeren. Zie [Verschillen tussen de installatiewizard van Microsoft 365 en de pagina Setup](o365-setup-wizard-and-setup-page.md)voor meer informatie over de verschillen tussen de wizard Setup en de installatiepagina . **Setup**
 
 Als u ergens vastloopt, kunt u ons altijd bellen. [We zijn er om u te helpen.](../contact-support-for-business-products.md)
   
@@ -93,7 +94,7 @@ Als u van plan bent om van een bestaande e-mailservice naar Microsoft 365 te gaa
   
 Als u Microsoft 365 gaat gebruiken voor uw e-mail:
   
-- Als u uw zakelijke e-mailadres (zoals *\@rob contoso.com)* wilt verplaatsen van een andere e-mailservice naar Microsoft 365, moet u uw e-mail doorsturen om naar uw nieuwe Microsoft 365-postvak te worden bezorgd. U doet dit door **de gegevens van uw gebruikers migreren** te selecteren op de pagina **Setup,** waar we u stap voor stap begeleiden bij de updates die u bij uw domeinhost moet uitvoeren.
+- Als u uw zakelijke e-mailadres (zoals *rob \@ contoso.com)* wilt verplaatsen van een andere e-mailservice naar Microsoft 365, moet u uw e-mail doorsturen om naar uw nieuwe Microsoft 365-postvak te worden bezorgd. U doet dit door **de gegevens van uw gebruikers migreren** te selecteren op de pagina **Setup,** waar we u stap voor stap begeleiden bij de updates die u bij uw domeinhost moet uitvoeren.
 
 - Wanneer u de domeinhost hebt bijgewerkt, duurt het doorgaans een tot twee uur voordat de wijzigingen van kracht zijn. Maar wees ervan bewust dat het soms kan duren tot 72 uur voor de wijzigingen bij te werken op het internet.
 

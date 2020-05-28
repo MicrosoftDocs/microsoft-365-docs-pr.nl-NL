@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - SPO_Content
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 ms.assetid: 1062115d-e312-482a-bb5a-765235990f41
 ROBOTS: NOINDEX
 description: Leer gegevens over te zetten naar uw nieuwe bedrijfsidentiteit.
-ms.openlocfilehash: 64db403b27d661fe812acd209ca6ed8e95961125
-ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
+ms.openlocfilehash: 03a8ff6b3cfab43d80401a10825a1c274e278ed9
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44155360"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399324"
 ---
 # <a name="move-email-and-data-to-microsoft-365-business-standard"></a>E-mail en gegevens verplaatsen naar Microsoft 365 Business Standard
 
@@ -39,7 +40,7 @@ Als u sommige van uw persoonlijke gegevens wilt overbrengen naar uw nieuwe bedri
  **Uw OneDrive-gegevens kopiëren**
 1. Maak een tijdelijke map op uw harde schijf om de bestanden die u wilt migreren naar Microsoft 365 voor Bedrijven tijdelijk op te slaan.
     
-2. Ga [https://onedrive.live.com/](https://onedrive.live.com/) naar en meld u aan met het Microsoft-account dat u gebruikt om toegang te krijgen tot uw Microsoft 365 Family-abonnement. 
+2. Ga naar [https://onedrive.live.com/](https://onedrive.live.com/) en meld u aan met het Microsoft-account dat u gebruikt om toegang te krijgen tot uw Microsoft 365 Family-abonnement. 
     
 3. Kopieer de bestanden die u met Microsoft 365 voor bedrijven wilt gebruiken naar de lokale map die u in stap 1 hebt gemaakt.
     

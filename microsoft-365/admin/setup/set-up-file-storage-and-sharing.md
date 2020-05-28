@@ -19,6 +19,7 @@ ms.custom:
 - IT_Networking
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -27,12 +28,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: Meer informatie over het gebruik van OneDrive en een teamsite voor bestandsopslag en -delen.
-ms.openlocfilehash: 7eb9ece0408fc495938c319390267790b01a2b89
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: e41e180417cb8543a73b08668d18ef9d2998c782
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208184"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398832"
 ---
 # <a name="set-up-file-storage-and-sharing"></a>Bestandsopslag en -deling instellen
 
@@ -144,7 +145,7 @@ Hier volgt de werkwijze waarop u bestanden op uw teamsite kunt synchroniseren me
 
     ![Uw lokale map op dit scherm wijzigen](../../media/6395485a-e729-4a9a-8e7d-b35e662435da.png)
   
-6. De bestanden op uw teamsites worden weergegeven in het linkerdeelvenster van Verkenner onder de naam van uw organisatie. De bestanden in OneDrive worden weergegeven onder 'OneDrive - \< Naam van \> organisatie'
+6. De bestanden op uw teamsites worden weergegeven in het linkerdeelvenster van Verkenner onder de naam van uw organisatie. De bestanden in OneDrive worden weergegeven onder 'OneDrive - \<Name of Organization\> '
 
     ![Bekijken wat er is gesynchroniseerd in uw lokale map](../../media/93e2ca9f-4b5b-4930-a94d-ebc5b95aca84.png)
   

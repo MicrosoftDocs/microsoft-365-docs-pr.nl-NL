@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - okr_smb
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
@@ -26,12 +27,12 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: "Meer informatie over het importeren van contactpersonen, agenda's, e-mails van Gmail of een andere e-mailprovider naar Microsoft 365. "
-ms.openlocfilehash: 3200ee91e4ca01fb946cbb045805a213958be000
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 6fa8ff991bf9c02743b81d7947d9486e8f7b7b0f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165153"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398868"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>E-mail en contactpersonen migreren naar Microsoft 365
 
@@ -67,7 +68,7 @@ Als u alleen contactpersonen wilt, voert u de volgende stappen uit:
     
 2. [Contactpersonen importeren in Outlook](https://support.office.com/article/bb796340-b58a-46c1-90c7-b549b8f3c5f8.aspx)
     
-Als u het proces wilt starten, opent u Outlook en kiest **u Bestand** \> **Openen &amp; ** **Importeren/exporteren** \> .
+Als u het proces wilt starten, opent u Outlook en kiest **u Bestand** \> **Openen &amp; ** \> **Importeren/exporteren .**
   
 ![Menu Bestand in Outlook 2016](../../media/2f1c39a5-177e-4052-9dd8-90c0d140be2c.png)![Opdracht &amp; Exporteren openen in Outlook 2016](../../media/eecab6df-c372-45b1-8a8a-2f6d7af0dd68.png)![Knop Importeren/exporteren in Outlook 2016](../../media/ed90ae47-20db-4be1-b0c0-826008432c6e.png)
   
@@ -79,7 +80,7 @@ Wil je gewoon je e-mail van een andere provider (zoals Gmail, Yahoo of Live.com)
 
 Voeg een account, zoals je privé-Gmail-account, toe aan Outlook.
   
-- Open Outlook en ga vervolgens naar **Account toevoegen van** **bestand** \> .
+- Open Outlook en ga vervolgens naar **Account** toevoegen van bestand \> **Add account**.
     
 Meer gedetailleerde stappen nodig? Zie [Een account toevoegen](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b).
   

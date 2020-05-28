@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over het contact opnemen met de ondersteuning van uw land of regio.
+description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: aee304f995adf4ebe2d6c2a442d12b75626ec4df
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 0be0bfa06f16c51972903e0406f7bfe5b7b8ee70
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42810296"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398748"
 ---
 # <a name="contact-support-for-american-samoa"></a>Neem contact op met ondersteuning voor Amerikaans Samoa
 
@@ -26,13 +27,13 @@ ms.locfileid: "42810296"
 ## <a name="phone-number"></a>Telefoonnummer
 800-865-9408
 
-## <a name="hours"></a>Uur
-### <a name="billing-support"></a>Ondersteuning voor facturering:
+## <a name="hours"></a>Uren
+### <a name="billing-support"></a>Factureringsondersteuning:
 
-Engels: ma-vr 6 UUR-14:00
+Engels: ma-vr 6:00-14:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Lokale oproepkosten zijn van toepassing
+Lokale gesprekskosten zijn van toepassing

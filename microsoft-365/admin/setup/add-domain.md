@@ -19,18 +19,19 @@ ms.custom:
 - SaRA
 - MSStore_Link
 - okr_smb
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Voeg uw domein toe aan Office 365 in het Microsoft 365-beheercentrum door een DNS-record toe te voegen aan uw DNS-host. De setup wizard begeleidt u door het proces.
-ms.openlocfilehash: b40f537ec10b7d2406a9bb2fe281c39342f2d119
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: b5ad21174c0a2ebb3466072ef43fb1ba284d3b59
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327216"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398988"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Een domein toevoegen aan Microsoft 365
 

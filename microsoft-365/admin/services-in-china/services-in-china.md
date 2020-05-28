@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - SPO_Content
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - GEU150
@@ -21,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Meer informatie over Office 365 wordt beheerd door 21Vianet, dat is ontworpen om te voldoen aan de behoeften aan veilige, betrouwbare en schaalbare cloudservices in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 6d3facba5beb9398f26ede5345b9121275a47b94
-ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
+ms.openlocfilehash: f18dd909cedb69e509d6da69e45940337cda8c17
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44155407"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399012"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Office 365, beheerd door 21Vianet
 
@@ -186,7 +187,7 @@ Exchange-contactgegevens op mobiele apparaten van Apple delen met de Apple iClou
 
 |||
 |:-----|:-----|
-|Account beheren (vanuit de Office-client)  <br/> |Deze functie en andere functies die bedoeld zijn om naar uw Office 365-portal te gaan, wijzen momenteel naar de wereldwijde Office 365-portal en u zich niet aanmelden met uw Office 365-account dat wordt beheerd door een 21Vianet-account. Dit is een bekend probleem dat wordt opgelost. In de tussentijd u https://portal.partner.microsoftonline.cn/ de URL gebruiken om u aan te melden bij uw account en vanaf daar instellingen te beheren. Zie [Uw Office 365 Pro Plus-account voor Office 365 beheren voor Office 365, beheerd door 21Vianet,](https://support.office.com/article/fbe473d3-69de-4d0c-aecb-b9c2d0d45bc8.aspx)voor meer informatie.  <br/> |
+|Account beheren (vanuit de Office-client)  <br/> |Deze functie en andere functies die bedoeld zijn om naar uw Office 365-portal te gaan, wijzen momenteel naar de wereldwijde Office 365-portal en u zich niet aanmelden met uw Office 365-account dat wordt beheerd door een 21Vianet-account. Dit is een bekend probleem dat wordt opgelost. In de tussentijd u de URL gebruiken https://portal.partner.microsoftonline.cn/ om u aan te melden bij uw account en vanaf daar instellingen te beheren. Zie [Uw Office 365 Pro Plus-account voor Office 365 beheren voor Office 365, beheerd door 21Vianet,](https://support.office.com/article/fbe473d3-69de-4d0c-aecb-b9c2d0d45bc8.aspx)voor meer informatie.  <br/> |
    
 ## <a name="onenote"></a>OneNote
 

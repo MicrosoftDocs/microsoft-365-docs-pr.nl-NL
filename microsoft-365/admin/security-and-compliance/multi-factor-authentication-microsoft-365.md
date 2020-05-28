@@ -1,5 +1,5 @@
 ---
-title: Meervoudige verificatie voor Microsoft 365
+title: Meervoudige verificatie instellen voor Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -20,14 +21,14 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over multi-factor authenticatie in Microsoft 365.
-ms.openlocfilehash: 128296b7dbc37ba5ebffb25a87bce589f8e5a904
-ms.sourcegitcommit: 185d62f41f6b173894ba6e3e87b11b2b5d02db58
+ms.openlocfilehash: e8ba304d145ca7227eea074556ff6efccd751ecf
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44340831"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399144"
 ---
-# <a name="multi-factor-authentication-for-microsoft-365"></a>Meervoudige verificatie voor Microsoft 365
+# <a name="multi-factor-authentication-for-microsoft-365"></a>Meervoudige verificatie instellen voor Microsoft 365
 
 Wachtwoorden zijn de meest voorkomende methode om een aanmelding bij een computer of online service te verifiëren, maar ze zijn ook het meest kwetsbaar. Mensen kunnen eenvoudige wachtwoorden kiezen en dezelfde wachtwoorden gebruiken voor meerdere aanmeldingen op verschillende computers en services.
 
@@ -151,17 +152,10 @@ In deze tabel ziet u de resultaten van het inschakelen van MFA met de standaardi
 |:-------|:-----|:-------|:-------|
 | **Standaardinstellingen voor beveiliging** | Kan geen beleid voor voorwaardelijke toegang gebruiken |   Kan beleid voor voorwaardelijke toegang gebruiken | De Microsoft Authenticator-app |
 | **Beleidsregels voor voorwaardelijke toegang** |Als er een of meer zijn ingeschakeld, kunt u de standaardinstellingen voor beveiliging niet inschakelen | Als ze allemaal zijn uitgeschakeld, kunt u de standaardinstellingen voor beveiliging inschakelen | Door gebruiker opgegeven tijdens MFA-registratie |
-| **Instelling voor account per gebruiker (niet aanbevolen)** | Overschreven door beveiligingsstandaards en beleid voor voorwaardelijke toegang waarvoor MFA vereist is | Overschreven door beveiligingsstandaards en beleid voor voorwaardelijke toegang | Door gebruiker opgegeven tijdens MFA-registratie|
+| **Instelling voor account per gebruiker (niet aanbevolen)** | Overschrijft beveiligingsstandaards en beleid voor voorwaardelijke toegang waarvoor MFA vereist is bij elke aanmelding | Overschreven door beveiligingsstandaards en beleid voor voorwaardelijke toegang | Door gebruiker opgegeven tijdens MFA-registratie|
 ||||
 
 Als beveiligingsstandaardinstellingen zijn ingeschakeld, worden alle nieuwe gebruikers gevraagd om MFA-registratie en het gebruik van de Microsoft Authenticator-app bij hun volgende aanmelding.
-
-Als een gebruiker echter een oudere telefoon heeft die tekstberichten kan ontvangen, maar de Microsoft Authenticator-app niet kan uitvoeren, u MFA inschakelen op dat specifieke gebruikersaccount en deze telefoon laten registreren met behulp van de aanvullende verificatiemethode voor tekstcode met de volgende stappen:
-
-1. Beveiligingsstandaardinstellingen uitschakelen in de Azure-portal.
-2. Mfa inschakelen voor het gebruikersaccount in het Microsoft 365-beheercentrum.
-3. Laat de gebruiker zich aanmelden en registreren voor MFA en de verificatiemethode voor tekstcodes.
-4. Als deze is voltooid, schakelt u beveiligingsstandaards in de Azure-portal in
 
 ## <a name="ways-to-manage-mfa-settings"></a>Manieren om MFA-instellingen te beheren
 

@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: Leer om e-mailhandtekening, wettelijke disclaimer of openbaarmakingsverklaring toe te voegen aan alle e-mailberichten die uw organisatie binnenkomen of verlaten.
-ms.openlocfilehash: affd091f951b81541214b4f98c414b5cd4675cd3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5149f6f4a0276cc1384f15a8134d1ede0b673b8c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631975"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398952"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Handtekeningen en disclaimers voor de hele organisatie maken
 
@@ -62,7 +63,7 @@ Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid
 
 ::: moniker-end
 
-1. Selecteer het ![startprogramma voor](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png)apps Het pictogram van het startprogramma voor apps en selecteer **Vervolgens Beheerder**.
+1. Selecteer het startprogramma voor apps ![ Het pictogram van het startprogramma voor apps en selecteer Vervolgens ](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) **Beheerder**.
    
     Kunt u de app die u zoekt niet vinden? Selecteer in het startprogramma voor apps **Alle apps** om een alfabetische lijst te zien met de apps die voor u beschikbaar zijn. Van daaruit kunt u zoeken naar een specifieke app. 
     
@@ -70,7 +71,7 @@ Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid
     
 3. Selecteer Onder E-mailstroom de optie **Regels**.
     
-4. Selecteer **+** het pictogram (Toevoegen) en kies **Disclaimers toepassen**.
+4. Selecteer het **+** pictogram (Toevoegen) en kies **Disclaimers toepassen**.
     
 5. Geef een naam op voor de regel.
     

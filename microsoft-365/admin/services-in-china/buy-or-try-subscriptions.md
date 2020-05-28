@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - GEA150
 ms.assetid: f9877a28-1434-4108-9e92-f29ef8ee5591
 description: Lees hoe u een Office 365-abonnement probeert of meteen koopt, abonnementen toevoegt of invoegtoepassingen krijgt voor een bestaand Office 365-account dat wordt beheerd door 21Vianet in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 0781430eaf2ccfeed7c31665029d514be9cc5f2e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: d1ad668a5eb22ab38ac458fa7b1867941e1d6612
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42805781"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399084"
 ---
 # <a name="buy-or-try-subscriptions-for-office-365-operated-by-21vianet"></a>Abonnementen voor Office 365 kopen of uitproberen die worden beheerd door 21Vianet
 
@@ -65,7 +66,7 @@ U meteen een abonnement kopen of Office 365 tot 30 dagen proberen. Als u het leu
 
 ## <a name="add-subscriptions-or-add-ons-to-an-existing-office-365-account"></a>Abonnementen of invoegtoepassingen toevoegen aan een bestaand Office 365-account
 
-1. Ga in het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627)naar de pagina Services **voor factureringsaankopen.** **Billing** \>
+1. Ga in het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627)naar de pagina **Services voor factureringsaankopen.** \> **Purchase services**
 
 2. Selecteer de service(s) die u wilt kopen, selecteer **Kopen**en selecteer **Nu uitchecken**.
 

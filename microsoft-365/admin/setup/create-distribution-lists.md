@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: b1ffe755-59e5-4369-826d-825f145a8400
 description: Stuur e-mail naar een groep mensen zonder de naam van elke afzonderlijke ontvanger te hoeven typen door distributie te maken (lijst).
-ms.openlocfilehash: a845055acbc5428e0e261997f946f75dc4701d57
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: cf06d408363a71e43f1a850bf108d667a141af3a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627640"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398964"
 ---
 # <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Distributiegroepen maken in het Microsoft 365-beheercentrum
   
@@ -58,7 +59,7 @@ Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid
     
     Kunt u de app die u zoekt niet vinden? Selecteer in het startprogramma voor apps **Alle apps** om een alfabetische lijst te zien met de apps die voor u beschikbaar zijn. Van daaruit kunt u zoeken naar een specifieke app. 
     
-2. Selecteer **Groepen** \> **in** het linkernavigatiedeelvenster en selecteer vervolgens Een **groep toevoegen**. 
+2. Selecteer **Groups** \> **Groepen in** het linkernavigatiedeelvenster en selecteer vervolgens Een groep **toevoegen**. 
       
 3. Kies in het veld **Een groeptype kiezen** de optie **Distributie**en kies **Volgende**.
   

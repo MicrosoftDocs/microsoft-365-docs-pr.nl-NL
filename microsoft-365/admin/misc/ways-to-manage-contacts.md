@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -20,12 +21,12 @@ search.appverid:
 ms.assetid: 32639d73-981f-48c2-951c-62ab12b7b48c
 ROBOTS: NOINDEX
 description: Meer informatie over het beheren van uw contactpersonen in het beheercentrum.
-ms.openlocfilehash: b479ffe391d611914d51a04aa47c09bf0bb4ba5a
-ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
+ms.openlocfilehash: fc8b3a92153377893eacb5b27a5763845e4d4b6b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44155383"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399204"
 ---
 # <a name="quick-help-ways-to-manage-contacts"></a>Snelle Help: Manieren om contactpersonen te beheren
 
