@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over het contact opnemen met de ondersteuning van uw land of regio.
+description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9d145d963d6bb2edc41ed2a91f8c5111aaa8a786
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: e58c8d0ca3f490f00261e6489e3ba1bc81534e2f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42812161"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44392351"
 ---
 # <a name="contact-support-for-panama"></a>Neem contact op met ondersteuning voor Panama
 
@@ -26,12 +27,12 @@ ms.locfileid: "42812161"
 ## <a name="phone-number"></a>Telefoonnummer
 00800 051 0398
 
-Selecteer optie 4
+Optie 4 selecteren
 
 Code 7007 invoeren
 
-## <a name="hours"></a>Uur
-### <a name="billing-support"></a>Ondersteuning voor facturering:
+## <a name="hours"></a>Uren
+### <a name="billing-support"></a>Factureringsondersteuning:
 
 Spaans: ma-vr 9:00-17:00 uur
 

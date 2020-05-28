@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c042ea2d496552efcb8ec263157c6cc0263f8915
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 33fd084e6c65f399c2a01186b362f51c86ea1ae7
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42812853"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44390815"
 ---
 # <a name="contact-support-for-romania"></a>Contact ondersteuning voor Roemenië
 
@@ -26,7 +27,7 @@ ms.locfileid: "42812853"
 ## <a name="phone-number"></a>Telefoonnummer
 0800 896 956
 
-## <a name="hours"></a>Uur
+## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Factureringsondersteuning:
 
 Engels: ma-vr 9:00-17:00 uur

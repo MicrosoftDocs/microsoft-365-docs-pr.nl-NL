@@ -9,38 +9,39 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over het contact opnemen met de ondersteuning van uw land of regio.
+description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 13927587eaf47303dd6232f36cea3197862f0852
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 6b91cb56e24fac4af7ef84274a49d258cad9161e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42809604"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44390767"
 ---
-# <a name="contact-support-for-rwanda"></a>Neem contact op met ondersteuning voor Rwanda
+# <a name="contact-support-for-rwanda"></a>Contact ondersteuning voor Rwanda
 
 [Zoek een ander land of regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 +225 20 24 24 90
 
-Selecteer optie 9
+Optie 9 selecteren
 
 Code 7703 invoeren
 
-## <a name="hours"></a>Uur
-### <a name="billing-support"></a>Ondersteuning voor facturering:
+## <a name="hours"></a>Uren
+### <a name="billing-support"></a>Factureringsondersteuning:
 
 Frans: ma-vr 10:00-18:00 uur
 
-Engels: ma-vr 10:00-18:00
+Engels: ma-vr 10:00-18:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Frans: ma-vr 20.00-22.00 uur
+Frans: ma-vr 9:00-22:00
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Internationale oproepkosten zijn van toepassing
+Internationale gesprekskosten zijn van toepassing
