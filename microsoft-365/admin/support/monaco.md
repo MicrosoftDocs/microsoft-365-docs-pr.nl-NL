@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d340f23fa61952977a2bd4267871ed1640314d43
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 2a2317855f7a541b004b5933370270b94d274683
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42809607"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44396636"
 ---
 # <a name="contact-support-for-monaco"></a>Contact ondersteuning voor Monaco
 
@@ -26,7 +27,7 @@ ms.locfileid: "42809607"
 ## <a name="phone-number"></a>Telefoonnummer
 +33 1 57 32 42 97
 
-## <a name="hours"></a>Uur
+## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Factureringsondersteuning:
 
 Frans: ma-vr 9:00-17:00 uur

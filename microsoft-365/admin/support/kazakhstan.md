@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4380c2716781c545443307658aa2a2eb7db439a6
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 972eccccb7fd8bebe3e6a1cb0d7a427f20b3a586
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42806397"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44397452"
 ---
 # <a name="contact-support-for-kazakhstan"></a>Neem contact op met ondersteuning voor Kazachstan
 
@@ -26,7 +27,7 @@ ms.locfileid: "42806397"
 ## <a name="phone-number"></a>Telefoonnummer
 +8 800 555 1349
 
-## <a name="hours"></a>Uur
+## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Factureringsondersteuning:
 
 Russisch: ma-vr 10:00-19:00 Moskou

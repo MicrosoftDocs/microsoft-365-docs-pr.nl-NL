@@ -9,17 +9,18 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over het contact opnemen met de ondersteuning van uw land of regio.
+description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8f483ac0264261b0b18cbf920ae403cdea661e95
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 246941ffe9d6558442597dd09a014eff26903bae
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42805959"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44397836"
 ---
-# <a name="contact-support-for-georgia"></a>Neem contact op met ondersteuning voor Georgië
+# <a name="contact-support-for-georgia"></a>Contact ondersteuning voor Georgië
 
 [Zoek een ander land of regio.](../contact-support-for-business-products.md)
 
@@ -28,21 +29,21 @@ ms.locfileid: "42805959"
 
 Optie 2 selecteren
 
-Selecteer optie 9
+Optie 9 selecteren
 
-Code 7700 invoeren
+Voer code 7700 in
 
-## <a name="hours"></a>Uur
-### <a name="billing-support"></a>Ondersteuning voor facturering:
+## <a name="hours"></a>Uren
+### <a name="billing-support"></a>Factureringsondersteuning:
 
-Russisch: ma-vr 10 AM-19:00 Moskou
+Russisch: ma-vr 10:00-19:00 Moskou
 
-Engels: ma-vr 9:00-5 uur Londen
+Engels: ma-vr 9:00-17:00 Londen
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Russisch: ma-vr 7:00-20:00 Moskou
+Russisch: ma-vr 7 am-8 PM Moskou
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Lokale oproepkosten zijn van toepassing
+Lokale gesprekskosten zijn van toepassing

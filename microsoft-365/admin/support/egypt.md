@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 74f6d14f711942e6237501e2a06b31f0ae61fb8c
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: f63b4eaf59b3219c4b46a6da5d6d30597e7e8da8
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42811384"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398028"
 ---
 # <a name="contact-support-for-egypt"></a>Contact ondersteuning voor Egypte
 
@@ -26,7 +27,7 @@ ms.locfileid: "42811384"
 ## <a name="phone-number"></a>Telefoonnummer
 0800 000 0325
 
-## <a name="hours"></a>Uur
+## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Factureringsondersteuning:
 
 Arabisch: zon-do 10:00-18:00

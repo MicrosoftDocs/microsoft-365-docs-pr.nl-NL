@@ -9,27 +9,28 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over het contact opnemen met de ondersteuning van uw land of regio.
+description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 25a291601a4c688e43ca6392833ba34c72056178
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 734d4aa36a1d941082d67dee07bc6e719bce5c61
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42811410"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398112"
 ---
-# <a name="contact-support-for-cyprus"></a>Neem contact op met ondersteuning voor Cyprus
+# <a name="contact-support-for-cyprus"></a>Contact met ondersteuning voor Cyprus
 
 [Zoek een ander land of regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 8009 2519
 
-## <a name="hours"></a>Uur
-### <a name="billing-support"></a>Ondersteuning voor facturering:
+## <a name="hours"></a>Uren
+### <a name="billing-support"></a>Factureringsondersteuning:
 
-Engels: ma-vr 9:00-5:00
+Engels: ma-vr 9:00-17:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 

@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4b25b2c055a770c677e23e143e153324830117f4
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 44dcfc9e57f545776ce824737371f38d0db525b1
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42809627"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398376"
 ---
 # <a name="contact-support-for-burkina-faso"></a>Neem contact op met ondersteuning voor Burkina Faso
 
@@ -26,7 +27,7 @@ ms.locfileid: "42809627"
 ## <a name="phone-number"></a>Telefoonnummer
 +1 312 843 5147
 
-## <a name="hours"></a>Uur
+## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Factureringsondersteuning:
 
 Frans: ma-vr 8:00-16:00 uur

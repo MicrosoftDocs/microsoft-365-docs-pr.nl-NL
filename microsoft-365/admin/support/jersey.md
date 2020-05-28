@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b077ec82ab3e600651e8cd92bac60bfac31eea49
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: cd67a7a554a46e51fcc99d1738a3672bdec8c300
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42805395"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44397476"
 ---
 # <a name="contact-support-for-jersey"></a>Neem contact op met de ondersteuning voor Jersey
 
@@ -26,7 +27,7 @@ ms.locfileid: "42805395"
 ## <a name="phone-number"></a>Telefoonnummer
 +1 312 843 5151
 
-## <a name="hours"></a>Uur
+## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Factureringsondersteuning:
 
 Engels: ma-vr 10:00-18:00 uur
