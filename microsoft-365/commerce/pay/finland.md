@@ -9,27 +9,28 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Meer informatie over waar u de betaling voor uw abonnement verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 194833881bd27bc4908ac4658163412342adc702
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 377f8c246564384c82baf00f3e542b9b03400645
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42810312"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403664"
 ---
-# <a name="payment-information-for-finland"></a><span data-ttu-id="dad2b-103">Betalingsgegevens voor Finland</span><span class="sxs-lookup"><span data-stu-id="dad2b-103">Payment information for Finland</span></span>
+# <a name="payment-information-for-finland"></a><span data-ttu-id="f855f-103">Betalingsgegevens voor Finland</span><span class="sxs-lookup"><span data-stu-id="f855f-103">Payment information for Finland</span></span>
 
-<span data-ttu-id="dad2b-104">[Zoek een ander land of regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="dad2b-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="f855f-104">[Zoek een ander land of regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="f855f-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="dad2b-105">Betaal alleen in EUR en verwijs naar factuurnummer(s) voor uw betalingsoverschrijving.</span><span class="sxs-lookup"><span data-stu-id="dad2b-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="f855f-105">Betaal alleen in EUR en verwijs naar factuurnummer(s) voor uw betalingsoverschrijving.</span><span class="sxs-lookup"><span data-stu-id="f855f-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="dad2b-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="dad2b-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="f855f-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="f855f-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="dad2b-107">**Bank:** Citibank, Londen</span><span class="sxs-lookup"><span data-stu-id="dad2b-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="dad2b-108">**SWIFT-code/BIC:** CITIGB2L CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="dad2b-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
-<span data-ttu-id="dad2b-109">**IBAN:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="dad2b-109">**IBAN:** GB31CITI18500812207591</span></span>  
-<span data-ttu-id="dad2b-110">**SORTEERcode:** 185008</span><span class="sxs-lookup"><span data-stu-id="dad2b-110">**SORT Code:** 185008</span></span>  
-<span data-ttu-id="dad2b-111">**Rekeningnummer:** 12207591</span><span class="sxs-lookup"><span data-stu-id="dad2b-111">**Account Number:** 12207591</span></span>  
-<span data-ttu-id="dad2b-112">**Accountnaam:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="dad2b-112">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="f855f-107">**Bank:** Citibank, Londen</span><span class="sxs-lookup"><span data-stu-id="f855f-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="f855f-108">**SWIFT-code/BIC:** CITIGB2L CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="f855f-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
+<span data-ttu-id="f855f-109">**IBAN:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="f855f-109">**IBAN:** GB31CITI18500812207591</span></span>  
+<span data-ttu-id="f855f-110">**SORTEERcode:** 185008</span><span class="sxs-lookup"><span data-stu-id="f855f-110">**SORT Code:** 185008</span></span>  
+<span data-ttu-id="f855f-111">**Rekeningnummer:** 12207591</span><span class="sxs-lookup"><span data-stu-id="f855f-111">**Account Number:** 12207591</span></span>  
+<span data-ttu-id="f855f-112">**Accountnaam:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="f855f-112">**Account Name:** MICROSOFT</span></span>  
