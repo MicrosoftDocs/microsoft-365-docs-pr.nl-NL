@@ -13,25 +13,26 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Leer een beveiligingsgroep maken, bewerken of verwijderen.
-ms.openlocfilehash: 6f4daa66c11675674fdbfbfeb625128d8f817520
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 283f1eca7500bfb1d8172657639bbc7cff76906f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140439"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400086"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Een beveiligingsgroep maken, bewerken of verwijderen in het Microsoft 365-beheercentrum
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -46,7 +47,7 @@ Er zijn ook [Groepen in Exchange Online en SharePoint Online](#groups-in-exchang
 
 ### <a name="add-a-security-group"></a>Een beveiligingsgroep toevoegen
 
-1. Ga in het Microsoft 365-beheercentrum naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a> **Groups**
+1. Ga in het Microsoft 365-beheercentrum naar de pagina **Groups**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a>
   
 2. Selecteer **op** de pagina Groepen de optie **Een groep toevoegen**.
     
@@ -97,7 +98,7 @@ Er zijn ook [Groepen in Exchange Online en SharePoint Online](#groups-in-exchang
 > [!NOTE]
 > Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
-1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
+1. Ga in het beheercentrum **Groups** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepen groepen.</a>
   
 2. Selecteer **op** de pagina Groepen de naam van de groep. 
     
@@ -107,7 +108,7 @@ Er zijn ook [Groepen in Exchange Online en SharePoint Online](#groups-in-exchang
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
+1. Ga in het beheercentrum **Groups** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepen groepen.</a>
   
 2. Selecteer **op** de pagina Groepen de naam van de groep. 
     
@@ -119,7 +120,7 @@ Er zijn ook [Groepen in Exchange Online en SharePoint Online](#groups-in-exchang
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
+1. Ga in het beheercentrum **Groups** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepen groepen.</a>
   
 2. Selecteer **op** de pagina Groepen de naam van de groep. 
     
@@ -132,7 +133,7 @@ Er zijn ook [Groepen in Exchange Online en SharePoint Online](#groups-in-exchang
 
 ### <a name="delete-a-security-group"></a>Een beveiligingsgroep verwijderen
 
-1. Ga in het beheercentrum naar de pagina **Groepen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
+1. Ga in het beheercentrum **Groups**naar de pagina  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepen groepen.</a>
     
 2. Selecteer **op** de pagina Groepen de naam van de groep. 
     
@@ -142,7 +143,7 @@ Er zijn ook [Groepen in Exchange Online en SharePoint Online](#groups-in-exchang
     
 ## <a name="groups-in-exchange-online-and-sharepoint-online"></a>Groepen in Exchange Online en SharePoint Online
 
-Als u groepen gebruikers wilt maken zodat u ze allemaal tegelijk e-mail verzenden, u dat doen in het Exchange-beheercentrum door naar **Exchange** \> **ontvangersgroepen voor** \> **beheerdersuitwisseling** \> te gaan. **Groups** Selecteer vervolgens **New**![Nieuwe](../../media/328ffb57-5f31-430a-b653-4a6b8e76d338.png)toevoegen en selecteer het type groep dat u wilt maken: 
+Als u groepen gebruikers wilt maken zodat u ze allemaal tegelijk e-mail verzenden, **Admin** u dat doen in het Exchange-beheercentrum door naar \> **Exchange** \> **ontvangersgroepen voor** \> **beheerdersuitwisseling**te gaan. Selecteer vervolgens **Nieuwe** ![ toevoegen en selecteer het type groep dat u wilt ](../../media/328ffb57-5f31-430a-b653-4a6b8e76d338.png) maken: 
   
 - **Distributiegroep**: deze groep wordt gebruikt om berichten te verzenden naar een groep gebruikers. Het wordt ook wel een *distributiegroep met e-mail*of een *distributielijst genoemd.* Zie [Distributiegroepen beheren](https://technet.microsoft.com/library/bb124513.aspx)voor meer informatie .
     

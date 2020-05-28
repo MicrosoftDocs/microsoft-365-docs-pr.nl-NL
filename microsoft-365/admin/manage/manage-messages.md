@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 97af2932-0868-4ccf-8f6b-21a94946c58a
 description: Leer berichten in het Berichtencentrum beheren om te helpen bij wijzigingsbeheer.
-ms.openlocfilehash: 95a4544dd99ebce793242532ae144f00c3b16fcb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 63c46b10913b3388c833470041da3695f0988327
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628146"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399714"
 ---
 # <a name="manage-messages-in-message-center"></a>Berichten in het berichtencentrum beheren
 
@@ -32,7 +33,7 @@ Berichten in het berichtencentrum zijn belangrijke aankondigingen over nieuwe en
   
 ## <a name="read-a-message"></a>Een bericht lezen
 
-Als u naar het berichtencentrum wilt gaan, gaat u naar het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2024339)en selecteert u Het Centrum **voor gezondheidsberichten** > **Message center**. 
+Als u naar het berichtencentrum wilt gaan, gaat u naar het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2024339)en selecteert u Het Centrum **voor**  >  **gezondheidsberichten**. 
 
 Selecteer een berichttitel om deze te openen in het leesvenster. Elk bericht bevat een samenvatting van de wijziging, een overzicht van hoe de wijziging u kan beïnvloeden, informatie over hoe u uw organisatie voorbereiden op de wijziging en (in de meeste gevallen) een aanvullende informatiekoppeling waar u meer weten. De aanvullende informatie blijft beschikbaar, zelfs nadat een bericht is verlopen.
 

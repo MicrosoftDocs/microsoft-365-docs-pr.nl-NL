@@ -19,18 +19,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
 description: Meer informatie over het uploaden van apparaten met AutoPilot in Microsoft 365 Business Premium. U een profiel toewijzen aan een apparaat of een groep apparaten.
-ms.openlocfilehash: 83c027cfe019e037518c4ca13eb331e5300fc2c1
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 8c3d029d682ae30444bdc7d30a4790a8f982e0e0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165856"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400989"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>AutoPilot-apparaten maken en bewerken
 
@@ -46,11 +47,11 @@ Apparaten moeten aan deze eisen voldoen:
 
 1. Kies **Apparaten** \> **AutoPilot**in het Microsoft 365-beheercentrum .
   
-2. Kies op de pagina **AutoPilot** het tabblad \> **Apparaten** **toevoegen**.
+2. Kies op de pagina **AutoPilot** het tabblad **Apparaten** \> **toevoegen**.
     
     ![In the Devices tab, choose Add devices.](../media/6ba81e22-c873-40ad-8a72-ce64d15ea6ba.png)
   
-3. Blader in het deelvenster **Apparaten toevoegen** naar een \> [CSV-bestand van](https://docs.microsoft.com/microsoft-365/admin/misc/device-list) de apparaatlijst dat u Hebt voorbereid Op sluit **opslaan** \> **Close**.
+3. Blader in het deelvenster **Apparaten toevoegen** naar een [CSV-bestand van](https://docs.microsoft.com/microsoft-365/admin/misc/device-list) de apparaatlijst dat u Hebt voorbereid Op sluit \> **Save** \> **opslaan**.
     
     U deze informatie ophalen bij uw hardwareleverancier of u het [PowerShell-script Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) gebruiken om een CSV-bestand te genereren. 
     

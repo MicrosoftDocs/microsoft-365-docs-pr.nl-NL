@@ -19,27 +19,28 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: Meer informatie over het maken, bewerken of verwijderen van een app-beheerbeleid en het beveiligen van werkbestanden op Android- of iOS-apparaten.
-ms.openlocfilehash: 0d9e901cac94fe7692ffe705c6b0a51df2bc542f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 01c50e6660d8d8640a2bff2794ee0ea8a69188c8
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627429"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401049"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Instellingen voor app-beveiliging instellen voor Android- of iOS-apparaten
 
-![Banner die https://aka.ms/aboutM365previewwijzen op .](../media/m365admincenterchanging.png)
+![Banner die wijzen op https://aka.ms/aboutM365preview .](../media/m365admincenterchanging.png)
 
 ## <a name="create-an-app-management-policy"></a>Beleid voor app-beheer maken
 
 1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. Kies in het linkernavigatiegebied de optie \> **Apparatenbeleid** \> **Toevoegen**. **Devices**
+2. Kies in het **Devices** linkernavigatiegebied de optie \> **Apparatenbeleid** \> **Toevoegen**.
   
 3. Voer in het deelvenster **Beleid toevoegen** een unieke naam in voor dit beleid. 
     
@@ -51,7 +52,7 @@ ms.locfileid: "43627429"
     
     ![Screenshot of Create a policy with Application management for Android selected](../media/eabbe06d-ac0a-4f3a-8630-68c808b1e662.png)
   
-6. Bepaal nu **Voor wie zijn deze instellingen?** Als u de standaardbeveiligingsgroep **Alle gebruikers** niet wilt gebruiken, kiest u **Wijzigen**, kiest u de beveiligingsgroepen die deze \> **instellingen**selecteren .
+6. Bepaal nu **Voor wie zijn deze instellingen?** Als u de standaardbeveiligingsgroep **Alle gebruikers** niet wilt gebruiken, kiest u **Wijzigen**, kiest u de beveiligingsgroepen die deze instellingen selecteren \> **Select**.
     
 7. Kies ten slotte, **Klaar** om het beleid op te slaan en dit toe te wijzen aan apparaten. 
     

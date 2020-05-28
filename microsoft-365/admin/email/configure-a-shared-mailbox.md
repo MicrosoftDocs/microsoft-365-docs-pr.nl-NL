@@ -15,17 +15,18 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Nadat u een gedeeld postvak hebt gemaakt, wilt u een aantal instellingen configureren voor de gebruikers, zoals het doorsturen van e-mail en automatische antwoorden. Later u andere instellingen wijzigen, zoals de naam van het postvak of de leden.
-ms.openlocfilehash: 63d3d0a5867875344ff4635071bbbad69e02eadc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7c88ffa3276f40ea983f9060658f4e4091e36280
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629045"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400146"
 ---
 # <a name="configure-a-shared-mailbox"></a>Een gedeeld postvak configureren
 
@@ -228,7 +229,7 @@ Zie [Een proceshouden](https://docs.microsoft.com/microsoft-365/compliance/creat
 
 ::: moniker-end
 
-2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **vervolgens Machtigingen** \> voor leden **aanpassen**.
+2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **vervolgens Machtigingen** voor leden \> **aanpassen**.
 
 3. Selecteer **Bewerken** naast de machtiging die u voor een lid wilt wijzigen. 
 

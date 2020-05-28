@@ -14,17 +14,18 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 446babfe-2e08-4cc2-bbfb-c05b854933ac
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij easyDNS voor Microsoft.
-ms.openlocfilehash: b7b29900108ab94f0fd99dcf3404cfa137ce92ff
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 24f477d240af936975141c53d382e114a24c0ac5
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631355"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400230"
 ---
 # <a name="create-dns-records-at-easydns-for-microsoft"></a>DNS-records maken bij easyDNS voor Microsoft
 
@@ -36,7 +37,7 @@ LET OP: SRV Records zijn momenteel NIET beschikbaar onder alle easyDNS-servicepa
   
 ## <a name="verify-that-you-own-the-domain-with-a-txt-record"></a>Controleren of u eigenaar bent van het domein met een TXT-record
 
-1. Ga [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) naar en log in met uw referenties. 
+1. Ga naar [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) en log in met uw referenties. 
     
 2. Selecteer dns onder de kop **alle domeinen.** **dns.**
     
@@ -54,7 +55,7 @@ LET OP: SRV Records zijn momenteel NIET beschikbaar onder alle easyDNS-servicepa
     
 7. Wacht een paar minuten voordat u verdergaat, zodat de record die u zojuist hebt gemaakt, zich over het internet kan verspreiden en door Microsoft kan worden gedetecteerd.
     
-8. Nu u de record op de site van uw domeinregistrar hebt toegevoegd, gaat u terug naar Microsoft en vraagt u de record aan.
+8. Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug naar Microsoft en vraagt u de record aan.
     
 9. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
@@ -66,7 +67,7 @@ LET OP: SRV Records zijn momenteel NIET beschikbaar onder alle easyDNS-servicepa
     
 ## <a name="add-an-mx-record-to-route-email-to-microsoft"></a>Een MX-record toevoegen om e-mail naar Microsoft te routeren
 
-1. Ga [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) naar en log in met uw referenties. 
+1. Ga naar [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) en log in met uw referenties. 
     
 2. Selecteer dns onder de kop **alle domeinen.** **dns.**
     
@@ -76,7 +77,7 @@ LET OP: SRV Records zijn momenteel NIET beschikbaar onder alle easyDNS-servicepa
     
     |**E-MAIL VOOR ZONE**|**MAILSERVER**|**PREF PREF**|
     |:-----|:-----|:-----|
-    |@  <br/> |\<domeinsleutel\>.mail.protection.outlook.com (Uw \<domeinsleutelwaarde\> ophalen op de pagina Domeinen van het beheercentrum)  <br/> |0  <br/> |
+    |@  <br/> |\<domain-key\>.mail.protection.outlook.com (Uw \<domain-key\> waarde ophalen via de pagina Domeinen van het beheercentrum)  <br/> |0  <br/> |
    
 2. Als u uw andere MX-records wilt opslaan voor back-updoeleinden, kopieert u deze ergens naar beneden. Verwijder alle andere MX-records voordat u verdergaat met het verwijderen van alle andere MX-records.
     
@@ -86,7 +87,7 @@ LET OP: SRV Records zijn momenteel NIET beschikbaar onder alle easyDNS-servicepa
     
 ## <a name="add-the-required-cname-records"></a>De vereiste CNAME-records toevoegen
 
-1. Ga [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) naar en log in met uw referenties. 
+1. Ga naar [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) en log in met uw referenties. 
     
 2. Selecteer dns onder de kop **alle domeinen.** **dns.**
     
@@ -109,7 +110,7 @@ LET OP: SRV Records zijn momenteel NIET beschikbaar onder alle easyDNS-servicepa
     
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Een TXT-record voor SPF toevoegen om spam tegen te gaan
 
-1. Ga [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) naar en log in met uw referenties. 
+1. Ga naar [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) en log in met uw referenties. 
     
 2. Selecteer dns onder de kop **alle domeinen.** **dns.**
     
@@ -125,11 +126,11 @@ LET OP: SRV Records zijn momenteel NIET beschikbaar onder alle easyDNS-servicepa
     
 6. Controleer of de record correct is en selecteer **BEVESTIGEN**. 
     
-## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Voeg de twee SRV-records toe die nodig zijn voor Microsoft
+## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>De twee SRV-records toevoegen die zijn vereist voor Microsoft
 
 LET OP: SRV Records zijn momenteel NIET beschikbaar onder het Domein Plus-serviceniveau van easyDNS. Mogelijk moet u upgraden naar een hoger serviceniveau met easyDNS om SRV-records toe te voegen 
   
-1. Ga [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) naar en log in met uw referenties. 
+1. Ga naar [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) en log in met uw referenties. 
     
 2. Selecteer dns onder de kop **alle domeinen.** **dns.**
     

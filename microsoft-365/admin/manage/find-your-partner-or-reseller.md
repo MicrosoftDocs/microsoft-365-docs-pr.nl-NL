@@ -15,6 +15,7 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,12 +23,12 @@ search.appverid:
 - BEA160
 ms.assetid: b6c18a9b-2aed-4c84-9d75-af709160258c
 description: 'Meer informatie over het vinden van een nieuwe Microsoft 365-partner of het opvragen van contactgegevens voor een partner waarmee u in het verleden hebt samengewerkt. '
-ms.openlocfilehash: 54933174816047188a8c084c63df6c1e8e166d82
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 749f1a12ffbd1512b15a83e7979aea3b0cb3be48
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628182"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399762"
 ---
 # <a name="find-your-partner-or-reseller"></a>Uw partner of wederverkoper zoeken
 
@@ -50,7 +51,7 @@ Als u microsoft 365 wilt kopen of vernieuwen via Open Volume Licensing, of als u
   
 ## <a name="get-partner-info-in-the-admin-center"></a>Gegevens van partner weergeven in het beheercentrum
 
-1. Ga in het beheercentrum naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">Instellingenpartnerrelaties.</a> **Settings**
+1. Ga in het beheercentrum **Settings**naar de pagina  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">Instellingenpartnerrelaties.</a>
   
 2. Als u een partner hebt, ziet u hier de naam van de partner en de relatie met uw organisatie. Als u de contactgegevens van partners (telefoonnummer en e-mailadres) wilt weergeven, selecteert u de partnernaam.
     

@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: Meer informatie over het verifiëren van uw e-mail- en domeineigendom om een niet-beheerde tenant in Microsoft 365 over te nemen
-ms.openlocfilehash: 1772ba9929433c87603d4b9d7027419063fd2fca
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 4c2dcdb0f6c4f6b795d9579c8796e9668ed2ed05
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627942"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399444"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>Een interne beheerovername uitvoeren
 
@@ -40,9 +41,9 @@ Als u een beheerder bent en een onbeheerde tenant wilt overnemen die is gemaakt 
 > [!NOTE]
 > Als selfservice is ingeschakeld in uw tenant, kunnen gebruikers zich alleen abonneren op gratis services, zoals Power BI. Deze stappen gaan ervan uit dat een selfservice-gebruikersabonnement de onbeheerde tenant heeft gemaakt die u als beheerder wilt overnemen. In de eerste stap maakt u een gebruikerscontext in de onbeheerde tenant, waarbij u Power BI gebruikt om het overnamepad voor beheerders te illustreren.
 
-1. Als u zich wilt aanmelden voor Power BI, gaat u naar de [Power BI-site](https://powerbi.com) en selecteert **u Gratis** > **start starten** (in het vak Delen met Power BI Pro). 
+1. Als u zich wilt aanmelden voor Power BI, gaat u naar de [Power BI-site](https://powerbi.com) en selecteert **u Gratis**start  >  **starten** (in het vak Delen met Power BI Pro). 
 
-2. Meld u aan met een gebruikersaccount dat de `powerbiadmin@contoso.com`domeinnaam van uw organisatie gebruikt (zoals). Als uw account al in gebruik is, meldt u zich aan met uw huidige wachtwoord.
+2. Meld u aan met een gebruikersaccount dat de domeinnaam van uw organisatie gebruikt `powerbiadmin@contoso.com` (zoals). Als uw account al in gebruik is, meldt u zich aan met uw huidige wachtwoord.
 
 3. Controleer uw e-mail op de **verificatiecode** en voer de code in om uw e-mailadres te valideren.
     

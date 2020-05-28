@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Meer informatie over het vervaldatumbeleid van Microsoft 365-groepen.
-ms.openlocfilehash: 0cb67b87a542d021387365802bd5969f4c4332b8
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 00dfb09cdf4fe3f70344152444e7433c1de8a8c2
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064819"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400723"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365-groepsvervaldatumbeleid
 
@@ -57,7 +58,7 @@ Het is belangrijk om te weten dat de vervaldatum standaard is uitgeschakeld. Beh
 
 ## <a name="how-to-set-the-expiration-policy"></a>Het verloopbeleid instellen
 
-Zoals hierboven vermeld, is het verlopen standaard uitgeschakeld. Een beheerder moet het verloopbeleid inschakelen en de eigenschappen instellen om deze in werking te laten treden. Ga naar **Azure Active Directory (AAD)-groepen** > **Groups** > **verlopen**in. Hier u de standaardgroepslevensduur instellen en opgeven hoe ver u van tevoren wilt dat de eerste en tweede vervaldatummeldingen naar de groepseigenaar gaan.
+Zoals hierboven vermeld, is het verlopen standaard uitgeschakeld. Een beheerder moet het verloopbeleid inschakelen en de eigenschappen instellen om deze in werking te laten treden. Ga naar **Azure Active Directory (AAD)-groepen**  >  **Groups**  >  **verlopen**in. Hier u de standaardgroepslevensduur instellen en opgeven hoe ver u van tevoren wilt dat de eerste en tweede vervaldatummeldingen naar de groepseigenaar gaan.
 
 De groepslevensduur wordt in dagen opgegeven en kan worden ingesteld op 180, 365 of op een aangepaste waarde die u opgeeft. De aangepaste waarde moet ten minste 30 dagen zijn.
 

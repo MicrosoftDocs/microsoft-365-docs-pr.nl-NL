@@ -14,6 +14,9 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - Adm_O365_Setup
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
@@ -21,20 +24,19 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Meer informatie over het kopen van een domeinnaam in Microsoft 365.
-ms.custom: okr_smb
-ms.openlocfilehash: e60947b2f0f2591d09add00bd5aeb2ad3a5aa161
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 9358df6728e1e29228241887be65fb68a4720281
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140415"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400002"
 ---
 # <a name="buy-a-domain-name"></a>Een domeinnaam kopen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -42,7 +44,7 @@ ms.locfileid: "44140415"
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
-### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Aanmelden en naar \> Instellingen \> domeinen Een domein kopen
+### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Aanmelden en naar Instellingen \> domeinen \> Een domein kopen
 
 1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
@@ -80,7 +82,7 @@ Wij bieden een gratis Domain Privacy Subscription met de aankoop van een domein.
 ### <a name="buy-a-domain-from-another-domain-registrar"></a>Een domein kopen bij een andere domeinregistrar
 Als u een domein wilt kopen bij een andere domeinregistrar dan [GoDaddy,](https://www.godaddy.com)raden we u aan er een hieronder te gebruiken die automatische installatie ondersteunt (Domain Connect). 
   
-- [1&amp;1 IONOS](https://www.1and1.com/)
+- [1 &amp; 1 IONOS](https://www.1and1.com/)
 - [Wordpress](https://www.wordpress.com) 
 
    

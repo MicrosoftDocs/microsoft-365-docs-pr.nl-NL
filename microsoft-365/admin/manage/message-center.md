@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: Krijg een overzicht van het Microsoft 365 Message Center en zijn rol in change management.
-ms.openlocfilehash: 776cbaf3eb684cce41b818454c91cb7039696b88
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 509c379beffaa4be8bb9cfcd7277ef6beb147bf3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628122"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399702"
 ---
 # <a name="message-center"></a>Berichtencentrum
 
@@ -35,19 +36,19 @@ Als u berichtencentrum wilt openen, moet u eerst de schakelaar uitproberen van *
 
 ::: moniker range="o365-worldwide"
 
-- Ga in het beheercentrum naar **het Centrum voor gezondheidsberichten** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2070717" target="_blank">Message center</a>.
+- Ga in het beheercentrum naar **het Centrum voor** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2070717" target="_blank">gezondheidsberichten</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-- Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a>naar het **Gezondheidsberichtcentrum** **Health** > .
+- Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a>naar **het** > **Gezondheidsberichtcentrum**.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
  
-- Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a>naar het **Gezondheidsberichtcentrum** **Health** > .
+- Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a>naar **het** > **Gezondheidsberichtcentrum**.
 
 ::: moniker-end
 
@@ -61,7 +62,7 @@ U de [Microsoft 365 Admin-app](https://go.microsoft.com/fwlink/p/?linkid=627216)
 |Wie kan berichten in het berichtencentrum bekijken?  <br/> |De meeste gebruikers aan wie een beheerdersrol in Microsoft 365 is toegewezen, kunnen berichten in het Berichtencentrum bekijken. [Hier vindt u een lijst met](#admin-roles-that-dont-have-access-to-the-message-center) beheerdersrollen die geen toegang hebben tot het Berichtencentrum. U de leesrol van het Berichtencentrum ook toewijzen aan gebruikers die berichten in het Berichtencentrum moeten kunnen lezen en delen zonder andere beheerdersrechten.<br/><br/> Daarnaast u de rol van de Message Center-privacylezer toewijzen aan mensen die meldingen moeten zien over beveiligings- en privacygegevens die relevant zijn voor uw organisatie. Zie [Over beheerdersrollen](../add-users/about-admin-roles.md) voor meer informatie over wat elke beheerdersrol kan doen. <br/><br/>De meeste berichten in het Berichtencentrum kunnen via e-mail worden gedeeld met niet-beheerdersgebruikers die mogelijk actie moeten ondernemen. Deze optie is niet beschikbaar voor berichten over gegevensprivacy die de privacylezer van het Berichtencentrum bekijkt. <br/> |
 |Is dit de enige manier waarop Microsoft zal communiceren wijzigingen over Microsoft 365?  <br/> |Nee, er zijn veel manieren waarop we wijzigingen in Microsoft 365 communiceren. Het berichtencentrum is de belangrijkste manier waarop we de timing van afzonderlijke wijzigingen doorgeven. Zie [Microsoft 365-wijzigingen op de hoogte houden](stay-on-top-of-updates.md) voor informatie over aanvullende bronnen.  <br/> |
 |Hoe kan ik berichten in mijn taal bekijken?  <br/> |Berichten in het berichtencentrum worden alleen in het Engels geschreven vanwege de tijdigheid van de informatie die we plaatsen, maar u bepalen of berichten standaard in het Engels worden weergegeven of automatisch automatisch worden vertaald naar uw voorkeurstaal. En, ongeacht welke standaardweergave u kiest, u ervoor kiezen om berichten te bewerken naar elke taal die we ondersteunen. Zie [Taalvertaling voor berichten in het Berichtencentrum](language-translation-for-message-center-posts.md) voor meer informatie.  <br/> |
-|Kan ik wijzigingen of functies bekijken voordat ze in de organisatie worden geïmplementeerd?  <br/> |Soms. Sommige wijzigingen en nieuwe functies kunnen worden bekeken door u aan te melden voor het gerichte releaseprogramma. Als u zich wilt aanmelden, gaat u in het beheercentrum naar**Voorkeuren**voor het profiel > release **van instellingenorganisatie** > **Organization profile**. (In het nieuwe beheercentrum moet u mogelijk alles onder aan het linkernavigatiedeelvenster **weergeven** selecteren om **Instellingen**te zien .) U Gerichte release kiezen voor uw hele organisatie, of alleen voor geselecteerde gebruikers. Zie [Standaard- of gerichte releaseopties in Microsoft 365](release-options-in-office-365.md) voor meer informatie over het programma.  <br/> |
+|Kan ik wijzigingen of functies bekijken voordat ze in de organisatie worden geïmplementeerd?  <br/> |Soms. Sommige wijzigingen en nieuwe functies kunnen worden bekeken door u aan te melden voor het gerichte releaseprogramma. Als u zich wilt aanmelden, gaat u in het beheercentrum naar Voorkeuren voor het profiel release **van**  >  **instellingenorganisatie**  >  **Release preferences**. (In het nieuwe beheercentrum moet u mogelijk alles onder aan het linkernavigatiedeelvenster **weergeven** selecteren om **Instellingen**te zien .) U Gerichte release kiezen voor uw hele organisatie, of alleen voor geselecteerde gebruikers. Zie [Standaard- of gerichte releaseopties in Microsoft 365](release-options-in-office-365.md) voor meer informatie over het programma.  <br/> |
 |Kan ik de exacte datum vinden waarop een wijziging beschikbaar is voor mijn organisatie?  <br/> |Helaas kunnen we u niet de exacte datum vertellen waarop een wijziging in uw organisatie zal worden aangebracht. In ons bericht in het berichtencentrum geven we op basis van ons betrouwbaarheidsniveau zoveel mogelijk informatie over de timing van de release. We begrijpen dat u liever hebt dat we specifieker zijn over de timing van releases, en er wordt gewerkt aan verbeteringen dit detailniveau te verbeteren.  <br/> |
 |Zijn deze berichten specifiek voor mijn organisatie?  <br/> |We doen ons best om ervoor te zorgen dat u alleen berichten in het berichtencentrum ziet die van invloed zijn op uw organisatie. De Microsoft 365 Roadmap bevat alle functies waaraan we momenteel werken en uitrollen, maar niet al deze functies zijn van toepassing op elke organisatie. Als een functie bijvoorbeeld alleen wordt geïmplementeerd voor onderwijsinstellingen, sturen we het bericht ALLEEN naar deze organisaties.  <br/> |
 |Kan ik berichten in het berichtencentrum in plaats daarvan per e-mail ontvangen?  <br/> |Ja! U ervoor kiezen om een wekelijkse samenvatting naar u te laten e-mailen en maximaal twee e-mailadressen. Als u de samenvatting naar meer dan twee meer mensen wilt laten gaan, u naar een Microsoft 365-groep of distributielijst verzenden. De per e-mail e-mail en de wekelijkse samenvatting is standaard ingeschakeld. Als u uw wekelijkse samenvattingen niet krijgt, controleert u uw spammap. Zie het gedeelte [Voorkeuren](#preferences) van dit artikel voor meer informatie over het instellen van de wekelijkse samenvatting.  <br/> |

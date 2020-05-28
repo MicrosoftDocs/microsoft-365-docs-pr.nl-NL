@@ -21,17 +21,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: Help uw gebruikers Office-apps te installeren op Windows 10-apparaten en installeer Office eenvoudig op Windows 10-pc's vanuit het Microsoft 365-beheercentrum.
-ms.openlocfilehash: a7078ad6d7423900aefba47605cb2b2852856108
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 617942c08b1fb27e8e864906774b4120486e0bb3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627196"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400904"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>Uw gebruikers helpen Office te installeren op Windows 10-apparaten
 
@@ -49,7 +50,7 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
 
 ## <a name="manage-office-deployments"></a>Office-implementaties beheren
 
-1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>beheercentrum bij en meld u aan met globale beheerdersreferenties. 
+1. Ga naar het beheercentrum bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> en meld u aan met globale beheerdersreferenties. 
 
 2. Ga naar **Instellen** in het linkernavigatiedeelvenster en schuif op de pagina **Setup** naar **Apps en updates**.
     > [!NOTE]
@@ -64,4 +65,4 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
 
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Voor meer informatie over het instellen en gebruiken van Microsoft 365 Business Premium
 
-[Microsoft 365 voor zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -21,17 +21,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Lees de stappen om eenvoudig nieuwe gebruikers toe te voegen, hun apparaten te beveiligen en rollen toe te wijzen in Microsoft 365 Business Premium.
-ms.openlocfilehash: d57f7470d53a6c80e04872726c634f67f091fb0d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9d2efe62ed1c48df5c10a765b8d3499934e6aebd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627469"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401069"
 ---
 # <a name="add-more-users"></a>Meer gebruikers toevoegen
 
@@ -46,7 +47,7 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
 Ga als lid op de andere dag als lid:
 
 1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
-2. Kies **gebruikers** \> **in**het linkernavigatiedeelvenster in het linkernavigatiedeelvenster .
+2. Kies **gebruikers** in het linkernavigatiedeelvenster in het linkernavigatiedeelvenster \> **Active users**.
 3. Kies op de pagina **Actieve gebruikers** de optie Een **gebruiker toevoegen**.
 4. Typ in het deelvenster **Nieuwe gebruiker** de vereiste informatie. 
   

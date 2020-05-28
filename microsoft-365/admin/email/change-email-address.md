@@ -16,6 +16,7 @@ ms.collection:
 - Adm_O365_Setup
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -24,19 +25,19 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: 'Wijzig uw oorspronkelijke e-mailadres in een vriendelijk e-mailadres zoals tom@fourthcoffee.com. Om dit te doen, moet u een domeinnaam kopen en toevoegen aan Microsoft 365. '
-ms.openlocfilehash: 50739c01fda9528140870798324dd69a1c68abce
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: e1ac40fb38a207cc0f19f48ac4ab7c6f34ffbb35
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140498"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400158"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>Uw e-mailadres wijzigen om uw aangepaste domein te gebruiken
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -84,7 +85,7 @@ U moet een globaal beheerdersaccount hebben om deze stappen uit te voeren.
 
 ::: moniker-end 
 
-2. Ga naar de pagina > **Setup-domeinen.** **Setup** 
+2. Ga naar **Setup**de pagina  >  **Setup-domeinen.** 
 
 3. Selecteer **op** de pagina Domeinen de optie **Domein toevoegen**.
     

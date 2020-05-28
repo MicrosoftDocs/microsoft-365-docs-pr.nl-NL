@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
 description: Meer informatie over het toevoegen van een Microsoft 365-gebruiker of contactpersoon aan een distributiegroep. U bijvoorbeeld een werknemer, partner of leverancier toevoegen aan uw e-maildistributiegroep.
-ms.openlocfilehash: 0b1feacbd3e35adcdf96ae8c42aa330921a4b390
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 47b338a326c5c1152c8e14e13f01f9a36de1cb6f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629069"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400170"
 ---
 # <a name="add-a-user-or-contact-to-a-distribution-group"></a>Een gebruiker of contactpersoon toevoegen aan een distributiegroep
 
@@ -37,7 +38,7 @@ Als beheerder van een organisatie moet u mogelijk een van uw gebruikers of conta
 > [!NOTE]
 > Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
-1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
+1. Ga in het beheercentrum **Groups** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepen groepen.</a>
 
 2. Selecteer **op** de pagina Groepen de naam van de groep waaraan u een contactpersoon wilt toevoegen.
 
@@ -53,7 +54,7 @@ Als beheerder van een organisatie moet u mogelijk een van uw gebruikers of conta
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
+1. Ga in het beheercentrum **Groups** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepen groepen.</a>
     
 2. Selecteer **op** de pagina Groepen de groep waaraan u een contactpersoon wilt toevoegen.
     
@@ -71,7 +72,7 @@ Als u de [contactpersoon](../misc/contacts.md) nog niet hebt gemaakt, doet u dit
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen.</a>
+1. Ga in het beheercentrum **Groups** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepen groepen.</a>
     
 2. Selecteer **op** de pagina Groepen de groep waaraan u een contactpersoon wilt toevoegen.
     

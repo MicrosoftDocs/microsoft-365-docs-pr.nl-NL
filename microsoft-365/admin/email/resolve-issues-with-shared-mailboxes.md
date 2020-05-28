@@ -15,17 +15,18 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Probeer deze oplossingen als u problemen ondervindt met gedeelde postvakken.
-ms.openlocfilehash: 52aac8ab6936dfeba2ae4b5b7a80c45029ec6105
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5d6de9ac66b11f0e50b259cdca0b1bb50b8326ee
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628745"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400014"
 ---
 # <a name="resolve-issues-with-shared-mailboxes"></a>Problemen met gedeelde postvakken oplossen
 
@@ -34,7 +35,7 @@ Als u foutmeldingen ziet bij het maken of gebruiken van een gedeeld postvak, pro
 ## <a name="error-when-creating-shared-mailboxes"></a>Fout bij het maken van gedeelde postvakken
 <a name="bkmk_Fix"> </a>
 
-Als u het foutbericht ziet, **wordt het proxyadres 'smtp:<gedeelde postvaknaam'\>al gebruikt\<door de proxyadressen of LegacyExchangeDN van "name>". Kies een ander proxyadres,** dit betekent dat u het gedeelde postvak een naam probeert te geven die al in gebruik is. Stel bijvoorbeeld dat u gedeelde postvakken wilt maken met de naam info@domein1 en info@domein2. U kunt dit op twee manieren doen:
+Als u het foutbericht ziet, **wordt het proxyadres 'smtp:<gedeelde postvaknaam' \> al gebruikt door de proxyadressen of LegacyExchangeDN van \<name> " ". Kies een ander proxyadres,** dit betekent dat u het gedeelde postvak een naam probeert te geven die al in gebruik is. Stel bijvoorbeeld dat u gedeelde postvakken wilt maken met de naam info@domein1 en info@domein2. U kunt dit op twee manieren doen:
 
   - Gebruik Windows PowerShell. Zie dit blogbericht voor instructies: [Gedeelde postvakken maken met dezelfde alias bij verschillende domeinen](https://www.cogmotive.com/blog/office-365-tips/create-shared-mailboxes-with-same-alias-at-different-domains-in-office-365)
     

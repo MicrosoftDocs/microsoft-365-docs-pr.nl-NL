@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: Ontdek hoe u gegevens handmatig overbrengen tussen twee Microsoft 365-accounts wanneer u het abonnement of de bedrijfsnaam hebt gewijzigd of meerdere abonnementen in één abonnement hebt gecombineerd.
-ms.openlocfilehash: 1eaaf48f445eb54ebf91b96924c39e9062eea4fb
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: 69476687915024accabdce2a603ebdd7e8b653af
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053738"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399870"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>Gegevens handmatig overbrengen tussen twee accounts
 
@@ -61,7 +62,7 @@ Voor Microsoft 365 Enterprise en Microsoft 365 Voor middelgrote ondernemingen:
   
 |**Locatie**|**Doel**|
 |:-----|:-----|
-|**Microsoft** \> **365-serviceinstellingen** \> **beheren** <br/> |Selecteer elk tabblad voor instellingen voor e-mail, sites, Lync, gebruikerssoftware, wachtwoorden, community, rechtenbeheer en mobiel.  <br/> |
+|**Beheerder** \> **Microsoft 365** \> **Service-instellingen** <br/> |Selecteer elk tabblad voor instellingen voor e-mail, sites, Lync, gebruikerssoftware, wachtwoorden, community, rechtenbeheer en mobiel.  <br/> |
 |**Beheer** \> **Exchange** <br/> | Instellingen van Exchange Online  <br/> |
 |**Beheer** \> **SharePoint** <br/> | Instellingen van SharePoint Online  <br/> |
 |**Beheerder** \> **Skype voor Bedrijven** <br/> |Aanvullende instellingen voor Skype voor Bedrijven  <br/> |

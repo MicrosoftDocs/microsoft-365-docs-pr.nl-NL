@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: e158b079-b054-4b7e-8e01-e55169ce18d7
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij DNSMadeEasy voor Microsoft.
-ms.openlocfilehash: d69a497c08ff905c28b923ebdb0e6fba6c5f82fa
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: db28ac0cb95bd86bc13a1a1ce47f273989aa4436
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049057"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400519"
 ---
 # <a name="create-dns-records-at-dnsmadeeasy-for-microsoft"></a>DNS-records maken bij DNSMadeEasy voor Microsoft
 
@@ -55,7 +56,7 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
     
 2. Selecteer op de pagina **Beheerconsole** in het gebied **Onlangs bijgewerkte domeinen** het domein dat u wilt bijwerken. 
     
-3. Selecteer op de pagina **Beheerde DNS** in het **+** gebied **TXT Records** het besturingselement ( Nieuw **toevoegen**).
+3. Selecteer op de pagina **Beheerde DNS** in het gebied **TXT Records** het **+** besturingselement ( Nieuw **toevoegen**).
     
     (Mogelijk moet u omlaag schuiven.)
     
@@ -109,7 +110,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     |**Naam**|**Server**|**MX Level**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |(Laat dit veld leeg.)  <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> **Opmerking**: Uw \<*domeinsleutel*\> kunt u ophalen uit uw Microsoft-account. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |10  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/> |1800  <br/> |
+    |(Laat dit veld leeg.)  <br/> | *\<domain-key\>*.mail.protection.outlook.com  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> **Let op:** Haal uw \<*domain-key*\> van uw Microsoft-account. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |10  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/> |1800  <br/> |
    
     ![Afbeelding van het voorkomen van DNSMadeEasy-Bp-2-2](../../media/69b53af9-1eec-435c-8434-1b6058c1ec82.png)
   

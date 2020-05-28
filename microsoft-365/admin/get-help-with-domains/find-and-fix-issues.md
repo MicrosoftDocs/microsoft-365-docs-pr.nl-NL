@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: Leer eventuele problemen op te sporen die u tegenkomt tijdens het instellen van een aangepast domein door ervoor te zorgen dat de DNS-records correct zijn ingesteld.
-ms.openlocfilehash: 457b9a0f76e66f121572064f359f120b770b65de
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: e3c66e10a673d840cfddad81a057739b6dfac721
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053717"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399942"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd
 
@@ -35,7 +36,7 @@ ms.locfileid: "44053717"
 Het kan een uitdaging zijn om uw domein in te stellen om met Microsoft 365 te werken. Bij het werken met het DNS-systeem is het belangrijk dat alle waarden correct worden ingevoerd, want de DNS-instellingen voor uw domein zijn van invloed op belangrijke zakelijke activiteiten, zoals e-mail.
 
 > [!NOTE]
-> U controleren op problemen met uw domein door de status ervan te controleren. Ga naar **Domeinen** > **instellen** en bekijk de meldingen in de kolom **Status.** Als u een probleem ziet, selecteert u Meer acties (drie puntjes) en kiest u **De status controleren**. In het deelvenster dat wordt geopend, worden eventuele problemen met uw domein beschreven.
+> U controleren op problemen met uw domein door de status ervan te controleren. Ga naar **Domeinen**  >  **instellen** en bekijk de meldingen in de kolom **Status.** Als u een probleem ziet, selecteert u Meer acties (drie puntjes) en kiest u **De status controleren**. In het deelvenster dat wordt geopend, worden eventuele problemen met uw domein beschreven.
   
 ## <a name="whats-going-on"></a>Wat gebeurt er?
 

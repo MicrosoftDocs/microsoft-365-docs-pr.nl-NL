@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -20,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: Meer informatie over het toevoegen van een partner voor abonnementsadviseur als partner van record op het moment dat Microsoft 365 wordt gekocht, de partner wijzigt of een partner uit een abonnement verwijdert.
-ms.openlocfilehash: daefb83335af84403cb2dd4e9c7759700eab8278
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: fa9cd549c0af616776722f6d2be4ecb9ecac1bc7
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045282"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399468"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Een abonnementsadviseur toevoegen, wijzigen of verwijderen
 
@@ -72,7 +73,7 @@ Als beheerder van Office 365 u gebruikers maken of bewerken, gebruikerswachtwoor
 > [!NOTE]
 > Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
-1. Ga in het beheercentrum naar de pagina Services <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">voor factureringsaankopen.</a> **Billing** \>
+1. Ga in het beheercentrum naar de pagina **Services voor** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">factureringsaankopen.</a>
     
 2. Selecteer het product dat u wilt kopen en selecteer **Kopen**.
   
@@ -91,7 +92,7 @@ Volg de stappen op de pagina providers om te zoeken naar of om te worden gekoppe
 
 ## <a name="add-a-partner-at-the-time-of-purchase"></a>Een partner toevoegen op het moment van aanschaf
 
-1. Ga in het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=848041)naar de pagina Services **voor factureringsaankopen.** **Billing** \>
+1. Ga in het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=848041)naar de pagina **Services voor factureringsaankopen.** \> **Purchase services**
     
 2. Selecteer het product dat u wilt kopen en selecteer **Kopen**.
   
@@ -114,7 +115,7 @@ Volg de stappen op de pagina providers om te zoeken naar of om te worden gekoppe
 > [!NOTE]
 > Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
     
 2. Als u meer dan één abonnement hebt, selecteert u het abonnement dat u wilt bewerken.
   
@@ -130,7 +131,7 @@ Volg de stappen op de pagina providers om te zoeken naar of om te worden gekoppe
     
 2. Als u meer dan één abonnement hebt, selecteert u het abonnement dat u wilt bewerken.
   
-3. Aan de rechterkant, onder de abonnementskosten, kies **Meer acties** > **Voeg partner van record toe.**
+3. Aan de rechterkant, onder de abonnementskosten, kies **Meer acties** Voeg partner van > **record toe.**
 
 4. Typ de Microsoft-partner-id van de partner die u toevoegt, selecteer **Id controleren** en vervolgens **Verzenden**. U kunt de partner vragen om diens Microsoft-partner-id.
 
@@ -161,7 +162,7 @@ Om dit voorstel te accepteren
 > [!NOTE]
 > Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
     
 2. Als u meerdere abonnementen hebt, selecteert u de naam van het abonnement dat u wilt bewerken.
     
@@ -198,7 +199,7 @@ Om dit voorstel te accepteren
 
 ## <a name="view-your-partner-relationships"></a>Uw partnerrelaties bekijken
 
-- Ga in het beheercentrum naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">Instellingenpartnerrelaties.</a> **Settings** Uw partners staan op deze pagina. 
+- Ga in het beheercentrum **Settings**naar de pagina  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">Instellingenpartnerrelaties.</a> Uw partners staan op deze pagina. 
   
   Als je geen partner hebt, zie je een bericht met de tekst 'Er is hier niets'.
   
@@ -209,7 +210,7 @@ Om dit voorstel te accepteren
 > [!NOTE]
 > Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
-1.  Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1.  Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
     
 2. Als u meerdere abonnementen hebt, selecteert u de naam van het abonnement dat u wilt bewerken.
     

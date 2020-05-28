@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Windows-gebaseerde DNS voor Microsoft.
-ms.openlocfilehash: 1aaf81dddf27911ad3562bec6f56fb34c64fd37d
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 8f65a397552813f22d4bde82f7fcd51c478d82bd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048841"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400242"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>DNS-records voor Microsoft maken met Behulp van Windows-dns
 
@@ -38,21 +39,21 @@ Om aan de slag te gaan, moet u [uw DNS-records vinden in Windows-gebaseerde DNS,
 Problemen met e-mailstroom of andere problemen na het toevoegen van DNS-records, zie [Problemen oplossen na het wijzigen van uw domeinnaam of DNS-records.](../get-help-with-domains/find-and-fix-issues.md) 
   
 ## <a name="find-your-dns-records-in-windows-based-dns"></a>Uw DNS-records vinden in Windows-DNS
-<a name="BKMK_find_your_dns_1"> </a> Ga naar de pagina met de DNS-records voor uw domein. Als u in Windows Server 2008 werkt, gaat u naar **Uitvoeren starten.** > **Run** Als u in Windows Server 2012 werkt, drukt u op de Windows-toets en **r**. Typ **dnsmgmnt.msc**en selecteer **OK**. Vouw in DNS-beheer ** \<DNS-servernaam\> \> Forward Lookup Zones  **uit. Selecteer uw domein. Nu kunt u de DNS-records gaan maken.
+<a name="BKMK_find_your_dns_1"> </a> Ga naar de pagina met de DNS-records voor uw domein. Als u in Windows Server 2008 werkt, gaat u naar **Uitvoeren**  >  **starten.** Als u in Windows Server 2012 werkt, drukt u op de Windows-toets en **r**. Typ **dnsmgmnt.msc**en selecteer **OK**. Vouw in DNS-beheer ** \<DNS server name\> \> opzoekzones uit.  ** Selecteer uw domein. Nu kunt u de DNS-records gaan maken.
    
 ## <a name="add-mx-record"></a>MX-record toevoegen
 <a name="BKMK_add_MX"> </a>
 
 Voeg een MX-record toe, zodat e-mail voor uw domein naar Microsoft komt.
-- De MX-record die u toevoegt, bevat een waarde (de waarde **Adres waarnaar wordt verwezen**) die er ongeveer zo uitziet: \<MX token\>.mail.protection.outlook.com, waarbij \<MX-token\> een waarde is zoals MSxxxxxxx. 
+- De MX-record die u toevoegt, bevat een waarde (de waarde **punten naar adres)** die er ongeveer als volgt uitziet: \<MX token\> .mail.protection.outlook.com, waar \<MX token\> is een waarde als MSxxxxxxx. 
 - Kopieer de waarde die wordt vermeld onder Adres punten naar adres in de rij MX in de sectie Exchange Online van de pagina DNS-records toevoegen in Microsoft. U gebruikt deze waarde in de record die u in deze taak maakt. 
-- Ga op de pagina DNS-beheer voor het domein naar **Action** > **Mail Exchanger (MX)**. Zie [Uw DNS-records zoeken in windows-gebaseerde DNS](#find-your-dns-records-in-windows-based-dns)voor het domein om deze pagina voor het domein te vinden.  
+- Ga op de pagina DNS-beheer voor het domein naar **Action**  >  **Mail Exchanger (MX)**. Zie [Uw DNS-records zoeken in windows-gebaseerde DNS](#find-your-dns-records-in-windows-based-dns)voor het domein om deze pagina voor het domein te vinden.  
 - Controleer in het dialoogvenster **Nieuwe bronrecord** of de velden zijn ingesteld op precies de volgende waarden: 
     - Host Name:  
     - @Address: Plak de punten naar adreswaarde die u zojuist van Microsoft hebt gekopieerd.  
     - Pref: 
 - Selecteer **Wijzigingen opslaan**.
-- Verouderde MX-records verwijderen. Als u oude MX-records voor dit domein hebt die e-mail ergens anders routeren, schakelt u het selectievakje naast elke oude record in en selecteert u **Ok verwijderen.** > **OK** 
+- Verouderde MX-records verwijderen. Als u oude MX-records voor dit domein hebt die e-mail ergens anders routeren, schakelt u het selectievakje naast elke oude record in en selecteert u **Ok**  >  **verwijderen.** 
    
 ## <a name="add-cname-records"></a>CNAME-records toevoegen
 <a name="BKMK_add_CNAME"> </a>
@@ -62,7 +63,7 @@ Voeg de CNAME-records toe die voor Microsoft vereist zijn. Als er aanvullende CN
 > [!IMPORTANT]
 > Als u Mobile Device Management (MDM) voor Microsoft hebt, moet u twee extra CNAME-records maken. Volg de stappen die u hebt gevolgd voor de andere vier CNAME-records, maar gebruik de waarden uit de volgende tabel. (Als u geen MDM hebt, u deze stap overslaan.) 
 
-- Ga op de pagina DNS-beheer voor het domein naar **Action** > **CNAME (CNAME).**
+- Ga op de pagina DNS-beheer voor het domein naar **Action**  >  **CNAME (CNAME).**
 - Controleer in het dialoogvenster **Nieuwe bronrecord** of de velden zijn ingesteld op precies de volgende waarden:  
     - Host naam: autodiscover
     - Type: 
@@ -115,7 +116,7 @@ Voeg de MDM Enterpriseenrollment CNAME-record toe.
 Voeg de SPF TXT-record voor uw domein om spam te voorkomen.
   
 - Mogelijk hebt u al andere tekenreeksen in de TXT-waarde voor deze record (zoals tekenreeksen voor marketing-e-mail). Dit is geen probleem. Laat deze tekenreeksen staan en voeg deze toe, plaats dubbele aanhalingstekens rond elke tekenreeks om ze te scheiden. 
-- Ga op de pagina DNS-beheer voor uw domein naar **Actietekst** \> **(TXT).** 
+- Ga op de pagina DNS-beheer **Action** voor uw domein naar \> **Actietekst (TXT).** 
 -  Controleer in het dialoogvenster **Nieuwe bronrecord** of de velden zijn ingesteld op precies de volgende waarden. 
  > [!IMPORTANT]
 > In sommige versies van Windows DNS Manager is het mogelijk dat het domein zo is ingesteld dat wanneer u een txt-record maakt, de thuisnaam standaard wordt ingesteld op het bovenliggende domein. Als u in deze situatie een TXT-record toevoegt, stelt u de hostnaam in op leeg (geen waarde) in plaats van op @ of de domeinnaam. 
@@ -173,7 +174,7 @@ Voordat u de DNS-records toevoegt om uw Microsoft-services in te stellen, moet M
 6. Kopieer vanuit de tabel de waarde Doel of adres waarnaar wordt verwezen. Deze hebt u nodig voor de volgende stap. Het is raadzaam deze waarde te kopiëren en te plakken, zodat alle spatiëring ongewijzigd blijft.
 
 Voeg een TXT-record toe. 
--  Ga op de pagina DNS-beheer voor uw domein naar **Actietekst** \> **(TXT).** 
+-  Ga op de pagina DNS-beheer **Action** voor uw domein naar \> **Actietekst (TXT).** 
 -   **Selecteer**bewerken in het dialoogvenster **Nieuwe bronrecord** .  
 -  Controleer in het gedeelte **Aangepaste hostnamen** van het dialoogvenster **Nieuwe bronrecord** of de velden zijn ingesteld op precies de volgende waarden. 
 
@@ -183,14 +184,14 @@ Voeg een TXT-record toe.
 - Host naam: @
 - Type: TXT
 - Adres: Plak de waarde Bestemming of Adres waar u zojuist van Microsoft hebt gekopieerd.  
-- Selecteer **OK** > **gereed**.
+- Selecteer **OK**  >  **gereed**.
 
 Controleer uw domein in Microsoft.  
 > [!IMPORTANT]
 > Wacht ongeveer 15 minuten voordat u dit doet, zodat de record die u zojuist hebt gemaakt, kan worden bijgewerkt via het internet.       
 
 - Ga terug naar Microsoft en volg de onderstaande stappen om een verificatiecontrole aan te vragen. Er wordt gecontroleerd op de TXT-record die u in de vorige stap hebt toegevoegd. Wanneer de juiste TXT-record wordt gevonden, wordt het domein geverifieerd.  
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Setup-domeinen.</a> **Setup**
+1. Ga in het beheercentrum **Setup** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Setup-domeinen.</a>
 2. Selecteer op de pagina **Domeinen** in de kolom **Actie** voor het domein dat u verifieert de optie **Installatie starten**. 
 3. Selecteer op **de pagina Bevestigen dat u eigenaar bent van uw domein** de optie **Gereed, controleer nu**en selecteer vervolgens in het bevestigingsdialoogvenster **Voltooien**. 
    

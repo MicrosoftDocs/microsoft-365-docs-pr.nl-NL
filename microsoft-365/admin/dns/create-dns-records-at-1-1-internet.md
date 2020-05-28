@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5762c3ca-1de2-4999-bfe5-4c5e25a8957e
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services op 1&1 IONOS voor Microsoft.
-ms.openlocfilehash: 1c32e15be8bfdf9ea29647af511d0f8ff0ac0b57
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 983fba73a6f82308d6d1bcf706ff93d72b98976c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049141"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400591"
 ---
 # <a name="create-dns-records-at-11-ionos-for-microsoft"></a>DNS-records maken op 1&1 IONOS voor Microsoft
 
@@ -108,19 +109,19 @@ Volg onderstaande stappen of [bekijk de video (start op 3:22)](https://docs.micr
     
 4. Selecteer **DNS-instellingen bewerken**in het gebied **Domeininstellingen** .
     
-5. Selecteer in de sectie **MX Records** in het gebied **Mail Exchanger (MX Record)** de optie **Andere e-mailserver**.<br/>(Mogelijk moet u omlaag schuiven.)<br/>![Afbeelding&amp;van het te maken:1-BP-afbeelding](../../media/b0db72ae-9431-460f-ba7a-3268590b892e.png) <br/>
+5. Selecteer in de sectie **MX Records** in het gebied **Mail Exchanger (MX Record)** de optie **Andere e-mailserver**.<br/>(Mogelijk moet u omlaag schuiven.)<br/>![&amp;Afbeelding van het te maken:1-BP-afbeelding](../../media/b0db72ae-9431-460f-ba7a-3268590b892e.png) <br/>
   
-6. Als er al MX-records worden vermeld, verwijdert u deze door de records te selecteren en op de toets **Delete** op het toetsenbord te drukken.<br/>(Als er nog geen MX-records worden vermeld, gaat u verder met de volgende stap.)<br/>![Afbeelding&amp;van het te maken:1 BP-afbeelding](../../media/4a39bac7-7310-481d-bda4-1dd5c220c60f.png)<br/>
+6. Als er al MX-records worden vermeld, verwijdert u deze door de records te selecteren en op de toets **Delete** op het toetsenbord te drukken.<br/>(Als er nog geen MX-records worden vermeld, gaat u verder met de volgende stap.)<br/>![&amp;Afbeelding van het te maken:1 BP-afbeelding](../../media/4a39bac7-7310-481d-bda4-1dd5c220c60f.png)<br/>
   
 7. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de **MX 1**-record. 
     
     |**MX 1**|**Prioriteit**|
     |:-----|:-----|
-    | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/>  OPMERKING: haal \<uw\> domeinsleutel uit uw Microsoft-account. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |10  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/> | 
+    | *\<domain-key\>*.mail.protection.outlook.com  <br/>  OPMERKING: haal je \<domain-key\> uit je Microsoft-account. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |10  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/> | 
     
     ![1 en 1 - configureren 2 en 3](../../media/3afb04d1-7bbf-4147-89ae-561e14ded26d.png)<br/>
   
-8. Kies **Opslaan**.<br/>(Mogelijk moet u omlaag schuiven.)<br/>![Afbeelding&amp;van het te maken:1 BP-afbeelding](../../media/355b3ba7-4d2b-45ed-aa17-ac4affb54fe3.png)
+8. Kies **Opslaan**.<br/>(Mogelijk moet u omlaag schuiven.)<br/>![&amp;Afbeelding van het te maken:1 BP-afbeelding](../../media/355b3ba7-4d2b-45ed-aa17-ac4affb54fe3.png)
   
 9. Selecteer **Ja**. in het dialoogvenster **DNS-instellingen bewerken** .<br/>![Ja selecteren in het dialoogvenster DNS-instellingen bewerken](../../media/920cc95f-fedf-4da2-94a4-9cb41ed49bcf.png)
   
@@ -143,7 +144,7 @@ Volg onderstaande stappen of [bekijk de video (start op 3:57)](https://docs.micr
     
 2. Selecteer **Domeinen beheren**.
     
-3. Zoek op de pagina **Domain Center** het domein dat u wilt bijwerken en selecteer **Subdomeinen beheren**.<br/>![Afbeelding&amp;van het te maken:1 BP-afbeelding](../../media/d570d03f-5c38-463d-809e-5bb9e4fb2777.png) <br/>Nu maakt u twee subdomeinen en stelt u voor elk subdomein een **Alias**-waarde in.<br/>(Dit is vereist omdat 1&1 IONOS slechts één CNAME-record op het hoogste niveau ondersteunt, maar Microsoft vereist meerdere CNAME-records.)<br/>Eerst maakt u het autodiscover-subdomein.
+3. Zoek op de pagina **Domain Center** het domein dat u wilt bijwerken en selecteer **Subdomeinen beheren**.<br/>![&amp;Afbeelding van het te maken:1 BP-afbeelding](../../media/d570d03f-5c38-463d-809e-5bb9e4fb2777.png) <br/>Nu maakt u twee subdomeinen en stelt u voor elk subdomein een **Alias**-waarde in.<br/>(Dit is vereist omdat 1&1 IONOS slechts één CNAME-record op het hoogste niveau ondersteunt, maar Microsoft vereist meerdere CNAME-records.)<br/>Eerst maakt u het autodiscover-subdomein.
     
 4. Selecteer **Subdomein maken**in de sectie **Subdomeinoverzicht** .
     
@@ -155,15 +156,15 @@ Volg onderstaande stappen of [bekijk de video (start op 3:57)](https://docs.micr
     |:-----|:-----|
     |autodiscover  <br/> |autodiscover.outlook.com   | 
 
-    ![Afbeelding&amp;van het te maken:1 BP-afbeelding](../../media/9be45113-ebaf-48e6-983c-a7e6ff9eea45.png)
+    ![&amp;Afbeelding van het te maken:1 BP-afbeelding](../../media/9be45113-ebaf-48e6-983c-a7e6ff9eea45.png)
   
-6. Selecteer **Subdomein maken**.<br/>![Afbeelding&amp;van het te maken:1 BP-afbeelding](../../media/1e7bc874-f174-4597-8c08-df611d16a74d.png)
+6. Selecteer **Subdomein maken**.<br/>![&amp;Afbeelding van het te maken:1 BP-afbeelding](../../media/1e7bc874-f174-4597-8c08-df611d16a74d.png)
   
-7. Zoek in de sectie **Subdomeinoverzicht** het **subdomein automatisch ontdekken** dat u zojuist hebt gemaakt en selecteer vervolgens het **besturingselement Paneel (v)** voor dat subdomein. <br/>![Afbeelding&amp;van het te maken:1 BP-afbeelding](../../media/10e2e446-3e54-4fb2-8a29-8c442536cc31.png)
+7. Zoek in de sectie **Subdomeinoverzicht** het **subdomein automatisch ontdekken** dat u zojuist hebt gemaakt en selecteer vervolgens het **besturingselement Paneel (v)** voor dat subdomein. <br/>![&amp;Afbeelding van het te maken:1 BP-afbeelding](../../media/10e2e446-3e54-4fb2-8a29-8c442536cc31.png)
   
-8. Selecteer **DNS-instellingen bewerken**in het gebied **Subdomeininstellingen** . <br/>![Afbeelding&amp;van het te maken:1 BP-afbeelding-3-5](../../media/5c602118-b89b-4897-9faf-0736be8a6a0d.png)
+8. Selecteer **DNS-instellingen bewerken**in het gebied **Subdomeininstellingen** . <br/>![&amp;Afbeelding van het te maken:1 BP-afbeelding-3-5](../../media/5c602118-b89b-4897-9faf-0736be8a6a0d.png)
   
-9. Selecteer in de sectie **A/AAAA Records (IP-adressen)** in het gedeelte **IP-adres (A Record)** de optie **CNAME**.<br/>![Afbeelding&amp;van het te maken:1-BP-afbeelding](../../media/7f57f468-fbee-4440-a53d-3e334d8e5b71.png)
+9. Selecteer in de sectie **A/AAAA Records (IP-adressen)** in het gedeelte **IP-adres (A Record)** de optie **CNAME**.<br/>![&amp;Afbeelding van het te maken:1-BP-afbeelding](../../media/7f57f468-fbee-4440-a53d-3e334d8e5b71.png)
   
 10. Typ of kopieer en plak alleen de **Alias**-waarde uit de volgende tabel in het vak **Alias:**.<br/> 
     
@@ -171,11 +172,11 @@ Volg onderstaande stappen of [bekijk de video (start op 3:57)](https://docs.micr
     |:-----|:-----|
     |autodiscover  <br/> |autodiscover.outlook.com   |
 
-    ![Afbeelding&amp;van het te maken:1 BP-afbeelding-3-7](../../media/afac3118-3337-4f99-98dd-a7ca930230ce.png)
+    ![&amp;Afbeelding van het te maken:1 BP-afbeelding-3-7](../../media/afac3118-3337-4f99-98dd-a7ca930230ce.png)
   
-11. Schakel het selectievakje in voor de vrijwaring **I am aware**.<br/>![Afbeelding&amp;van het te maken:1-BP-afbeelding](../../media/6c4cac1a-23f2-4ff3-b2d1-3dca908638d2.png)
+11. Schakel het selectievakje in voor de vrijwaring **I am aware**.<br/>![Afbeelding &amp; van het te maken:1-BP-afbeelding](../../media/6c4cac1a-23f2-4ff3-b2d1-3dca908638d2.png)
   
-12. Kies **Opslaan**.<br/>![Afbeelding&amp;van het te maken:1 BP afbeelding van het aantal](../../media/ea1dfc06-c175-4146-ab40-da4d162097e1.png)
+12. Kies **Opslaan**.<br/>![Afbeelding &amp; van het te maken:1 BP afbeelding van het aantal](../../media/ea1dfc06-c175-4146-ab40-da4d162097e1.png)
   
   
 ### <a name="additional-cname-records"></a>Extra CNAME-records
@@ -302,11 +303,11 @@ Volg onderstaande stappen of [bekijk de video (start op 5:51)](https://docs.micr
     |SRV  <br/> |sip  <br/> |tls  <br/> |(Laat dit veld leeg.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |1  <br/> |443  <br/> |3600 (1 uur)  <br/> |
     |SRV  <br/> |sipfederationtls  <br/> |tcp  <br/> |(Laat dit veld leeg.)  <br/> |sipfed.online.lync.com  <br/> |100  <br/> |1  <br/> |5061  <br/> |3600 (1 uur)  <br/> |  
     
-    ![Afbeelding&amp;van het te maken:1-BP-afbeelding](../../media/087e337d-926b-42ff-b11d-b449cfaed76c.png)
+    ![&amp;Afbeelding van het te maken:1-BP-afbeelding](../../media/087e337d-926b-42ff-b11d-b449cfaed76c.png)
   
-7. Kies **Opslaan**. <br/>![Afbeelding&amp;van het te maken:1 BP-knopafbeelding -5-2](../../media/aa5f803d-fb24-48e0-976a-6759c5fd252c.png)
+7. Kies **Opslaan**. <br/>![&amp;Afbeelding van het te maken:1 BP-knopafbeelding -5-2](../../media/aa5f803d-fb24-48e0-976a-6759c5fd252c.png)
   
-8. Kies **Opslaan**. <br/>![Afbeelding&amp;van het te maken:1 BP-knopafbeelding -5-3](../../media/097e7e95-4899-4878-b6e7-c3abd8193c52.png)
+8. Kies **Opslaan**. <br/>![&amp;Afbeelding van het te maken:1 BP-knopafbeelding -5-3](../../media/097e7e95-4899-4878-b6e7-c3abd8193c52.png)
   
 9. Selecteer **Ja**. in het dialoogvenster **DNS-instellingen bewerken** . <br/>![Ja selecteren in het dialoogvenster DNS-instellingen bewerken](../../media/920cc95f-fedf-4da2-94a4-9cb41ed49bcf.png)
   

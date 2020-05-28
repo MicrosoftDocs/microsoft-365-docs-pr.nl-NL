@@ -12,17 +12,18 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - FRP150
 description: Meer informatie over het nieuwe Microsoft 365-beheercentrum.
-ms.openlocfilehash: 95453380fc693c4313debf5baaa96264d486385b
-ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+ms.openlocfilehash: 0eeebcd0c96b5f3741c01a2776391ceaa698a40e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952637"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399480"
 ---
 # <a name="about-the-new-microsoft-365-admin-center"></a>Over het nieuwe Microsoft 365-beheercentrum
 
@@ -30,7 +31,7 @@ ms.locfileid: "43952637"
 
 Het nieuwe Microsoft 365-beheercentrum is gebouwd voor IT-teams als een vereenvoudigde manier om uw Microsoft 365-services te beheren. Het beheercentrum biedt een op maat gemaakte ervaring op basis van de unieke behoeften van uw rol of organisatie, verbetert de efficiëntie voor dagelijkse taken en biedt bruikbare inzichten die u helpen gegevensgestuurde beslissingen te nemen om uw gebruikers een betere ervaring te bieden.
 
-Het Microsoft 365-beheercentrum is het gemeenschappelijke toegangspunt voor alle Microsoft [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339)365-beheerders en is toegankelijk op . Gespecialiseerde werkruimten, zoals beveiliging of apparaatbeheer, zorgen voor meer gedetailleerde controle. Zie Hoe het zit [met de specifieke typen IT-rollen en andere werkruimten zoals Beveiliging, Apparaatbeheer of Exchange?](#what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange)
+Het Microsoft 365-beheercentrum is het gemeenschappelijke toegangspunt voor alle Microsoft 365-beheerders en is toegankelijk op [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) . Gespecialiseerde werkruimten, zoals beveiliging of apparaatbeheer, zorgen voor meer gedetailleerde controle. Zie Hoe het zit [met de specifieke typen IT-rollen en andere werkruimten zoals Beveiliging, Apparaatbeheer of Exchange?](#what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange)
 
 ::: moniker-end
 
@@ -38,7 +39,7 @@ Het Microsoft 365-beheercentrum is het gemeenschappelijke toegangspunt voor alle
 
 Het nieuwe Microsoft 365-beheercentrum, dat momenteel in preview is, is gebouwd voor IT-teams als een vereenvoudigde manier om uw Microsoft 365-services te beheren. Het beheercentrum biedt een op maat gemaakte ervaring op basis van de unieke behoeften van uw rol of organisatie, verbetert de efficiëntie voor dagelijkse taken en biedt bruikbare inzichten die u helpen gegevensgestuurde beslissingen te nemen om uw gebruikers een betere ervaring te bieden.
 
-Het Microsoft 365-beheercentrum is het gemeenschappelijke toegangspunt voor alle Microsoft 365-beheerders en is toegankelijk door in te loggen op [https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage](https://go.microsoft.com/fwlink/p/?linkid=850627). Bovendien zorgen gespecialiseerde werkruimten, zoals Azure Active Directory en Exchange, voor meer gedetailleerde controle. U hebt toegang tot de specialistische werkruimten vanuit het navigatiedeelvenster in het Microsoft 365-beheercentrum.
+Het Microsoft 365-beheercentrum is het gemeenschappelijke toegangspunt voor alle Microsoft 365-beheerders en is toegankelijk door in te loggen op [https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage](https://go.microsoft.com/fwlink/p/?linkid=850627) . Bovendien zorgen gespecialiseerde werkruimten, zoals Azure Active Directory en Exchange, voor meer gedetailleerde controle. U hebt toegang tot de specialistische werkruimten vanuit het navigatiedeelvenster in het Microsoft 365-beheercentrum.
 
 ::: moniker-end
 
@@ -55,9 +56,9 @@ We willen graag dat je deelneemt aan het nieuwe Microsoft 365-beheercentrum, zod
 
 ### <a name="turn-on-targeted-release"></a>Gerichte release inschakelen
 
-1. Meld u aan bij [admin.microsoft.com,](https://admin.microsoft.com)ga naar het navigatiedeelvenster en selecteer Het **profiel Instellingenorganisatie** **Settings** \> .
+1. Meld u aan bij [admin.microsoft.com,](https://admin.microsoft.com)ga naar het navigatiedeelvenster en selecteer Het profiel **Settings** \> **Instellingenorganisatie**.
 
-1. Meld u aan bij [portal.partner.microsoftonline.cn,](https://go.microsoft.com/fwlink/p/?linkid=513813)ga naar het navigatiedeelvenster en selecteer Het **profiel Instellingenorganisatie** **Settings** \> .
+1. Meld u aan bij [portal.partner.microsoftonline.cn,](https://go.microsoft.com/fwlink/p/?linkid=513813)ga naar het navigatiedeelvenster en selecteer Het profiel **Settings** \> **Instellingenorganisatie**.
 
 2. Ga naar de **betaalkaart Voor vrijen** en selecteer **Bewerken**. 
     
@@ -118,13 +119,13 @@ U ook feedback geven van buiten het beheercentrum op ons UserVoice-forum. U deze
 
 ## <a name="what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange"></a>Hoe zit het met de specifieke soorten IT-rollen en andere werkruimten zoals Beveiliging, Apparaatbeheer of Exchange?
 
-Het Microsoft 365-beheercentrum is het gemeenschappelijke toegangspunt voor alle teams en rollen die Microsoft 365 beheren. De ervaring, informatie en besturingselementen zijn afgestemd en aanpasbaar voor elke beheerder en rol. Bovendien zorgen gespecialiseerde werkruimten voor diepe, gedetailleerde controle. Deze gespecialiseerde werkruimten omvatten &amp; SharePoint, Teams Skype, Exchange, Beveiliging, Compliance, Apparaatbeheer en Azure Active Directory. U vindt de specialistische werkruimten in het navigatiedeelvenster in [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339)het Microsoft 365-beheercentrum op .
+Het Microsoft 365-beheercentrum is het gemeenschappelijke toegangspunt voor alle teams en rollen die Microsoft 365 beheren. De ervaring, informatie en besturingselementen zijn afgestemd en aanpasbaar voor elke beheerder en rol. Bovendien zorgen gespecialiseerde werkruimten voor diepe, gedetailleerde controle. Deze gespecialiseerde werkruimten omvatten SharePoint, Teams &amp; Skype, Exchange, Beveiliging, Compliance, Apparaatbeheer en Azure Active Directory. U vindt de specialistische werkruimten in het navigatiedeelvenster in het Microsoft 365-beheercentrum op [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) .
   
 Het bijwerken van alle beheercentra om een coherente ervaring te hebben zal een tijdje duren, maar u meer te weten komen over de beheercentra die we al zijn begonnen met make-over:
   
 - [Aan de slag met het nieuwe SharePoint-beheercentrum](https://go.microsoft.com/fwlink/?linkid=2024186)
     
-- [Teams beheren tijdens de overgang &amp; naar het nieuwe Microsoft Teams Skype voor Bedrijven-beheercentrum](https://go.microsoft.com/fwlink/?linkid=2024308)
+- [Teams beheren tijdens de overgang naar het nieuwe Microsoft Teams &amp; Skype voor Bedrijven-beheercentrum](https://go.microsoft.com/fwlink/?linkid=2024308)
     
 - [Overzicht van Microsoft 365-apparaatbeheer](https://go.microsoft.com/fwlink/?linkid=2006262)
     

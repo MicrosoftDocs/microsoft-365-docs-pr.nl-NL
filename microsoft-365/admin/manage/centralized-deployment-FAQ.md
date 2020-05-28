@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Bekijk de antwoorden op veelgestelde vragen over gecentraliseerde implementatie vanuit het Microsoft 365-beheercentrum.
-ms.openlocfilehash: c389ab07136b8a6e625db9ecfeff514a6899cd7d
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 0d0f2163982042f7b8f868a36f5cc115a17295a2
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011733"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399822"
 ---
 # <a name="centralized-deployment-faq"></a>Veelgestelde vragen over Gecentraliseerde implementatie
 
@@ -35,7 +36,7 @@ Voor een gecentraliseerde implementatie van invoegtoepassingmoet worden vereist 
  
 Gecentraliseerde implementatie wordt alleen ondersteund voor online postvakken. Het ondersteunt geen implementatie naar on-premises Exchange-postvakken.
  
-U de [office 365-controlecompatibiliteitscontrole](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker) voor gecentraliseerde implementatie gebruiken om te bepalen of uw abonnement in aanmerking komt. 
+U de [office 365-controlecompatibiliteitscontrole](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker)voor gecentraliseerde implementatie gebruiken   om te bepalen of uw abonnement in aanmerking komt. 
   
 ## <a name="how-do-you-target-add-in-user-assignments-with-centralized-deployment"></a>Hoe target u invoegtoepassinggebruikerstoewijzingen met gecentraliseerde implementatie?  
 
@@ -59,7 +60,7 @@ Zie voor meer informatie over het beheren van gebruikerstoegang </br>[Invoegdown
 
 Ja. Gecentraliseerde implementatie biedt beheerders de flexibiliteit om een van de drie implementatiemethoden te kiezen voor Outlook-invoegtoepassing tijdens de invoegtoepassing:
 
-**Fixed (Default)**   The inis is automatically ployed to the assigned users, they cannot remove it.  
+**Opgelost (standaard)**   De invoegtoepassing wordt automatisch geïmplementeerd voor de toegewezen gebruikers en deze kunnen deze niet verwijderen.  
  
 **Beschikbaar** Gebruikers kunnen de invoegtoepassing in Outlook installeren door Home > Get More-ins te kiezen > beheerde beheerder.   
  

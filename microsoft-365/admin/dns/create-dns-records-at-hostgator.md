@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5f0c840e-4140-4571-88ed-cf235ff142d6
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Hostgator voor Microsoft.
-ms.openlocfilehash: fb510bcdcdefb141535e9a1099e18b63adffd2ab
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 8adfc4b6154dad0da7dd2fe037c73fcfc4f84d58
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048997"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400435"
 ---
 # <a name="create-dns-records-at-hostgator-for-microsoft"></a>DNS-records maken bij Hostgator voor Microsoft
 
@@ -136,7 +137,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     |**Priority**|**Destination**|
     |:-----|:-----|
-    |0  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> | *\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal \< uw domeinsleutel\> uit uw *Microsoft-account.*    [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
+    |0  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> | *\<domain-key\>*.mail.protection.outlook.com  <br/> **Let op:** Haal uw \< *domain-key*  \> van uw Microsoft-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
   
 6. Selecteer **Nieuwe record toevoegen**.
    

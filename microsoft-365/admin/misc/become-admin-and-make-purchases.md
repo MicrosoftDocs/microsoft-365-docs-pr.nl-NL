@@ -14,17 +14,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 48b26596-9e5b-4e5a-a64f-7430eb2a1e45
 description: 'Meer informatie over hoe u beheerder worden en een Microsoft 365-abonnement voor uw organisatie krijgen. '
-ms.openlocfilehash: ac18b40a1160d58e343df8196881769b7200d5a5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7d1e5673e6c995d007603d364b22ad81638d1782
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627954"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399456"
 ---
 # <a name="become-the-admin-and-purchase-microsoft-365-for-your-organization"></a>Word de beheerder en koop Microsoft 365 voor uw organisatie
 
@@ -89,6 +90,6 @@ Nu u de beheerder bent, u het volgende doen:
 |Microsoft 365 gebruiken  <br/> |Ga naar het [Office 365-trainingscentrum](https://support.office.com/learn/office365-for-business) en lees hoe u zich kunt aanmelden, e-mail kunt lezen, documenten kunt delen en meer. U en uw gebruikers kunnen deze site gebruiken om aan de slag te gaan met Microsoft 365.  <br/> |
 |Uw Microsoft 365-abonnement beheren  <br/> |Ga naar [microsoft 365-helpcentrum voor beheerders](../admin-home.md) en leer veelvoorkomende administratieve taken zoals het toevoegen en verwijderen van gebruikers, het opnieuw instellen van wachtwoorden en het instellen van mobiele apparaten.  <br/> |
 
-## <a name="still-need-help"></a>Nog steeds hulp nodig?
+## <a name="still-need-help"></a>Meer hulp nodig?
 
 [Ondersteuning voor Microsoft bellen](../contact-support-for-business-products.md)

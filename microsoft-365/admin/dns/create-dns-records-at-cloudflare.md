@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Cloudflare voor Microsoft.
-ms.openlocfilehash: 36578d8eed2c5630a9ce5abfb355983a26028888
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 9b717ddedaf6435f6599f4f75cc0fa7c4e618d59
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049069"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400543"
 ---
 # <a name="create-dns-records-at-cloudflare-for-microsoft"></a>DNS-records maken bij Cloudflare voor Microsoft
 
@@ -131,7 +132,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     |**Type**|**Naam**|**Mail server**|**Priority**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |@  <br/> |*\<domeinsleutel\>*  .mail.protection.outlook.com  <br/> **Let op:** Haal uw * \<domeinsleutel\> * op van uw Microsoft 365-account.   [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) |1  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/>|30 minutes  <br/> |
+    |MX  <br/> |@  <br/> |*\<domain-key\>*.mail.protection.outlook.com  <br/> **Let op:** Haal uw *\<domain-key\>* van uw Microsoft 365-account.   [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) |1  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/>|30 minutes  <br/> |
    
 
   

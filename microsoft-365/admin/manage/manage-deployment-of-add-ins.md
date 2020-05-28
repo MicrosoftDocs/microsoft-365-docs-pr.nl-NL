@@ -13,25 +13,26 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Leer om invoegingen te implementeren voor gebruikers en groepen in uw organisatie met behulp van gecentraliseerde implementatie in het beheercentrum.
-ms.openlocfilehash: cb41d02d8075e94c788a9964e0a3ac69d8363ef4
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: e71afad19690d3a05dc5f06bc0718861cb22f12d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139707"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399726"
 ---
 # <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>De implementatie van invoegtoepassingen in het Microsoft 365-beheercentrum beheren
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -67,7 +68,7 @@ Afhankelijk van de grootte van de doelgroep, kunt u eventueel uitrolstappen toev
 Zie [Bepalen of gecentraliseerde implementatie van invoegingen voor uw organisatie werkt](centralized-deployment-of-add-ins.md)voordat u begint.
 
   
-1. Ga in het beheercentrum naar de pagina **Invoegtoepassing** **Instellingen.** \>
+1. Ga in het beheercentrum **Settings** naar de pagina \> **Invoegtoepassing** Instellingen.
     
 2. Selecteer **Invoegtoepassing implementeren** boven aan de pagina. Selecteer **Volgende**op de overzichtspagina .
     
@@ -147,7 +148,7 @@ Updates voor invoegtoepassingen worden als volgt uitgevoerd:
 
 Na implementatie kunnen beheerders ook de toegang van de gebruiker tot invoegingen wijzigen.
 
-1. Ga in het beheercentrum naar de pagina **Instellingenservices** > **& invoegingen.**
+1. Ga in het beheercentrum **Settings**naar de pagina  >  **Instellingenservices & invoegingen.**
 
 2. Selecteer de geïmplementeerde invoegtoepassing.
 
@@ -277,7 +278,7 @@ Als de geïmplementeerde invoegtoepassing geen ondersteuning biedt voor opdracht
 
 U ook een invoegtoepassing verwijderen die is geïmplementeerd.
 
-1. Ga in het beheercentrum naar de pagina **Instellingenservices** > **& invoegingen.**
+1. Ga in het beheercentrum **Settings**naar de pagina  >  **Instellingenservices & invoegingen.**
 
 2. Selecteer de geïmplementeerde invoegtoepassing.
 

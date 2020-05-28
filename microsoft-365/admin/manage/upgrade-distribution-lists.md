@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Meer informatie over het upgraden van een of meer distributielijsten naar Microsoft 365-groepen in Outlook en hoe u PowerShell gebruiken om meerdere distributielijsten tegelijk te upgraden.
-ms.openlocfilehash: 993b0baf46b702322df64693f682e25b0240a0ab
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: cac0232b721c07ce8e07c7b101e0313eb9cd91df
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065667"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399492"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Distributielijsten upgraden naar Microsoft 365-groepen in Outlook
 
@@ -38,7 +39,7 @@ U moet een globale beheerder of Exchange-beheerder zijn om een distributielijst 
 
 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum</a>.
 
-2. Ga in het Exchange-beheercentrum naar \> **Ontvangersgroepen**. **Recipients**<br/>U ziet een bericht waarin wordt aangegeven dat u distributielijsten (ook **wel distributiegroepen** genoemd) hebt die in aanmerking komen om te worden geüpgraded naar Microsoft 365-groepen.<br/> ![De knop Aan de slag gaan selecteren](../../media/8cf838b4-2644-401f-a366-08c1eea183eb.png)
+2. Ga in het Exchange-beheercentrum naar **Recipients** \> **Ontvangersgroepen**.<br/>U ziet een bericht waarin wordt aangegeven dat u distributielijsten (ook **wel distributiegroepen** genoemd) hebt die in aanmerking komen om te worden geüpgraded naar Microsoft 365-groepen.<br/> ![De knop Aan de slag gaan selecteren](../../media/8cf838b4-2644-401f-a366-08c1eea183eb.png)
 
 3. Selecteer een of meer distributielijsten (ook wel een **distributiegroep** genoemd) op de pagina **groepen**.<br/>![Een distributiegroep selecteren](../../media/2c303433-d60b-4100-a6ae-5809b03a8cdb.png)
 
@@ -89,7 +90,7 @@ Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address
 \< DL SMTP address3\>, \< DL SMTP address 4\>
 ```
 
-Als u bijvoorbeeld vijf DLs wilt upgraden met `dl1@contoso.com` `dl2@contoso.com`SMTP-adres `dl3@contoso.com` `dl4@contoso.com` en `dl5@contoso.com`de volgende opdracht wilt uitvoeren:
+Als u bijvoorbeeld vijf DLs wilt upgraden met SMTP-adres `dl1@contoso.com` en de volgende opdracht wilt `dl2@contoso.com` `dl3@contoso.com` `dl4@contoso.com` `dl5@contoso.com` uitvoeren:
 
 `Upgrade-DistributionGroup -DlIdentities dl1@contoso.com, dl2@contoso.com, dl3@contoso.com, dl4@contoso.com, dl5@contoso.com`
 
@@ -98,7 +99,7 @@ Als u bijvoorbeeld vijf DLs wilt upgraden met `dl1@contoso.com` `dl2@contoso.com
 Er zijn twee manieren waarop u alle in aanmerking komende DLs upgraden.
 
 > [!NOTE]
-> De cmdlet Upgrade-DistributionGroup ontvangt geen gegevens uit de pijplijn, daarom is het vereist{}om de operator 'foreach-object' te gebruiken om succesvol uit te voeren.
+> De cmdlet Upgrade-DistributionGroup ontvangt geen gegevens uit de pijplijn, daarom is het vereist om de operator 'foreach-object' te gebruiken {} om succesvol uit te voeren.
 
 1. Download de in aanmerking komende DLs in de tenant en upgrade ze met de upgradeopdracht:
 

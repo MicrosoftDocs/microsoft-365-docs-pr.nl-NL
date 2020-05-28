@@ -18,17 +18,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Meer informatie over het verschil tussen Microsoft 365 Business Standard en Microsoft 365 Business Premium en hoe u upgraden naar Microsoft 365 Business Premium.
-ms.openlocfilehash: 20a4162f74a9cb0e943195a589fd2d964f773f48
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: bdab8165623170926b17efa4cae9408b78a2f5f5
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045975"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401377"
 ---
 # <a name="upgrade-to-microsoft-365-business-premium-from-microsoft-365-business-standard"></a>Upgrade naar Microsoft 365 Business Premium vanuit Microsoft 365 Business Standard
 
@@ -55,9 +56,9 @@ We hebben een vergelijking van deze twee plannen naast elkaar toegevoegd aan de 
 
 ## <a name="upgrade-to-microsoft-365-business-premium"></a>Upgraden naar Microsoft 365 Business Premium
 
-1. Meld u aan <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>bij het beheercentrum op .
+1. Meld u aan bij het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
 
-2. Ga naar het navigatiedeelvenster en selecteer **Facturering van** \> **uw producten**. Zoek uw huidige abonnement en selecteer het om de details weer te geven.
+2. Ga naar het navigatiedeelvenster en selecteer **Facturering** \> **van uw producten**. Zoek uw huidige abonnement en selecteer het om de details weer te geven.
 
 3. Selecteer op de volgende pagina **Upgrade**.
 
@@ -85,7 +86,7 @@ Het kost Microsoft een paar minuten om uw nieuwe serviceplannen in te stellen. A
 
 Nu Microsoft 365 Business Premium-licenties zijn toegewezen, voert u stappen uit om apparaten en bestanden te beveiligen. U gebruikt een aantal nieuwe opties in het navigatiedeelvenster van het beheercentrum.
   
-1. Ga in het beheercentrum in het navigatiedeelvenster naar \> **Apparatenbeleid**. **Devices**
+1. Ga in het beheercentrum in het **Devices** navigatiedeelvenster naar \> **Apparatenbeleid**.
 
 2. Selecteer op de pagina **Apparaatbeleid** de optie **Toevoegen**.
 
