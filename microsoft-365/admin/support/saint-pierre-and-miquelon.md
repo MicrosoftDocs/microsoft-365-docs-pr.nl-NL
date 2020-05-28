@@ -9,34 +9,35 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over het contact opnemen met de ondersteuning van uw land of regio.
+description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4710e4ecdb8e17f3601cd375db461e8357a4aded
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 16696e504a935773582ea39c482d6ac9b7bd2bc8
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42806380"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44389755"
 ---
-# <a name="contact-support-for-saint-pierre-and-miquelon"></a>Neem contact op met ondersteuning voor Saint Pierre en Miquelon
+# <a name="contact-support-for-saint-pierre-and-miquelon"></a>Neem contact op met de ondersteuning voor Saint Pierre en Miquelon
 
 [Zoek een ander land of regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 +1 312 843 5147
 
-## <a name="hours"></a>Uur
-### <a name="billing-support"></a>Ondersteuning voor facturering:
+## <a name="hours"></a>Uren
+### <a name="billing-support"></a>Factureringsondersteuning:
 
-Frans: ma-vr 6:00-14:00 uur
+Frans: ma-vr 6:00-14:00
 
-Engels: ma-vr 6 UUR-14:00
+Engels: ma-vr 6:00-14:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Frans: ma-vr 5 uur-6 uur
+Frans: ma-vr 5:00-18:00
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Internationale oproepkosten zijn van toepassing
+Internationale gesprekskosten zijn van toepassing
