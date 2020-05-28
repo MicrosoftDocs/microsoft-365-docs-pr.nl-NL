@@ -9,28 +9,29 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over het contact opnemen met de ondersteuning van uw land of regio.
+description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 25a291601a4c688e43ca6392833ba34c72056178
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 734d4aa36a1d941082d67dee07bc6e719bce5c61
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42811410"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398112"
 ---
-# <a name="contact-support-for-cyprus"></a><span data-ttu-id="5e364-103">Neem contact op met ondersteuning voor Cyprus</span><span class="sxs-lookup"><span data-stu-id="5e364-103">Contact support for Cyprus</span></span>
+# <a name="contact-support-for-cyprus"></a><span data-ttu-id="63c0c-103">Contact met ondersteuning voor Cyprus</span><span class="sxs-lookup"><span data-stu-id="63c0c-103">Contact support for Cyprus</span></span>
 
-<span data-ttu-id="5e364-104">[Zoek een ander land of regio.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="5e364-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="63c0c-104">[Zoek een ander land of regio.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="63c0c-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="5e364-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="5e364-105">Phone number</span></span>
-<span data-ttu-id="5e364-106">8009 2519</span><span class="sxs-lookup"><span data-stu-id="5e364-106">8009 2519</span></span>
+## <a name="phone-number"></a><span data-ttu-id="63c0c-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="63c0c-105">Phone number</span></span>
+<span data-ttu-id="63c0c-106">8009 2519</span><span class="sxs-lookup"><span data-stu-id="63c0c-106">8009 2519</span></span>
 
-## <a name="hours"></a><span data-ttu-id="5e364-107">Uur</span><span class="sxs-lookup"><span data-stu-id="5e364-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="5e364-108">Ondersteuning voor facturering:</span><span class="sxs-lookup"><span data-stu-id="5e364-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="63c0c-107">Uren</span><span class="sxs-lookup"><span data-stu-id="63c0c-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="63c0c-108">Factureringsondersteuning:</span><span class="sxs-lookup"><span data-stu-id="63c0c-108">Billing Support:</span></span>
 
-<span data-ttu-id="5e364-109">Engels: ma-vr 9:00-5:00</span><span class="sxs-lookup"><span data-stu-id="5e364-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="63c0c-109">Engels: ma-vr 9:00-17:00 uur</span><span class="sxs-lookup"><span data-stu-id="63c0c-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="5e364-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="5e364-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="63c0c-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="63c0c-110">Technical Support:</span></span>
 
-<span data-ttu-id="5e364-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="5e364-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="63c0c-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="63c0c-111">English: 24 hours a day, 7 days a week</span></span>
