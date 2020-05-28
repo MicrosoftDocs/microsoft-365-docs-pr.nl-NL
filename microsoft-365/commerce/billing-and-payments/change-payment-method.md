@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: Meer informatie over het wijzigen van de betalingsmethode voor uw zakelijke abonnement.
-ms.openlocfilehash: babc8911305fe009ad3b9dc49163a0525c6d0666
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 7350546da14ebd68182e158c0d15cdfb727f5718
+ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401808"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407966"
 ---
 # <a name="change-your-payment-method"></a>Uw betalingsmethode wijzigen
 
@@ -43,7 +43,7 @@ Wanneer u een abonnement koopt, kiest u ervoor om te betalen met een creditcard 
 > [!IMPORTANT]
 > Betalen met een bankrekening is in sommige landen of regio's niet beschikbaar.
 
- **Wilt u alleen uw creditcard- of bankrekeninggegevens wijzigen?** Zie [Een creditcard of bankrekening toevoegen, bijwerken of verwijderen](add-update-or-remove-credit-card-or-bank-account.md).
+ **Wilt u alleen uw creditcard- of bankrekeninggegevens wijzigen?** Zie [Betalingsmethoden beheren](manage-payment-methods.md).
 
  **Wil je gewoon veranderen hoe vaak je wordt gefactureerd?** Zie [Uw betalingsfrequentie wijzigen](change-payment-frequency.md).
   
@@ -67,7 +67,7 @@ Bij het kopen van Office 365 voor Bedrijven kiest u voor betalen per creditcard 
   
  **Wilt u de betalingsfrequentie aanpassen?** Als u wilt wijzigen hoe vaak u voor uw abonnement betaalt, van jaarlijks naar maandelijks of maandelijks naar jaarlijks, moet u [Microsoft-ondersteuning voor](../../admin/contact-support-for-business-products.md) hulp bellen.
   
- **Wilt u alleen uw creditcard- of bankrekeninggegevens wijzigen?** Zie [Een creditcard of bankrekening toevoegen, bijwerken of verwijderen](add-update-or-remove-credit-card-or-bank-account.md).
+ **Wilt u alleen uw creditcard- of bankrekeninggegevens wijzigen?** Zie [Betalingsmethoden beheren](manage-payment-methods.md).
   
  **Wat gebeurt er als ik een openstaand saldo heb?**
   

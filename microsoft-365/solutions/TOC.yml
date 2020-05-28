@@ -3,7 +3,7 @@
   displayName: Home
 - name: Illustraties voor oplossingen en architectuur
   items:
-    - name: Illustraties voor Microsoft 365-productiviteit
+    - name: Illustraties van Microsoft 365-productiviteit
       href: productivity-illustrations.md
     - name: Microsoft cloudarchitectuurmodellen
       href: cloud-architecture-models.md
@@ -14,17 +14,17 @@
     - name: Externe werknemers mogelijkheden bieden met Microsoft 365
       href: empower-people-to-work-remotely.md
       items:
-        - name: Stap 1. Aanmeldingsbeveiliging voor externe werknemers verbeteren met MFA
+        - name: Stap 1. De aanmeldingsbeveiliging verhogen
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: Stap 2. Externe toegang bieden
           href: empower-people-to-work-remotely-remote-access.md
-        - name: 'Stap 3. Implementeer endpoint management voor uw apparaten, pc''s en andere eindpunten'
+        - name: Stap 3. Eindpuntbeheer implementeren
           href: empower-people-to-work-remotely-manage-endpoints.md
-        - name: Stap 4. Productiviteitsapps en -services implementeren voor externe medewerkers
+        - name: Stap 4. Productiviteit-apps en -services implementeren
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: Stap 5. Communicatielocaties voor COVID-19-crisis maken
+        - name: Stap 5. Communicatielocaties maken
           href: empower-people-to-work-remotely-communication-venues.md
-        - name: Stap 6. Externe werknemers trainen en voor feedback over gebruik zorgen
+        - name: Stap 6. Trein remote workers
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Veilige samenwerking met Microsoft 365 instellen
       href: setup-secure-collaboration-with-teams.md

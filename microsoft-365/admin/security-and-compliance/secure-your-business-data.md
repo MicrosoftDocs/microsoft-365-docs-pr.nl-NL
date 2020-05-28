@@ -14,18 +14,19 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Bescherm uw zakelijke e-mail en gegevens tegen cyberbedreigingen, waaronder ransomware, phishing en schadelijke bijlagen. '
-ms.openlocfilehash: a6b73070affc1054d316f71c071772b53b2e4f09
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 9a9b6c01d979f4a5bb055f907dc0292a33f40993
+ms.sourcegitcommit: 1f3101326e8a54b9bda4ba0324eae00fafcf5e7b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327228"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44405177"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 manieren om Microsoft 365 te beveiligen voor bedrijfsabonnementen
 
@@ -254,9 +255,19 @@ Als u een ATP-antiphishingbeleid wilt maken, bekijkt u een [korte trainingsvideo
 5. Geef de naam, beschrijving en instellingen voor uw beleid op, zoals aanbevolen in de onderstaande grafiek. Zie [Meer informatie over de beleidsopties voor antiphishing](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409) op ATP voor meer informatie. 
     
 6. Nadat u uw instellingen hebt gecontroleerd, selecteert u **Dit beleid maken** of **Opslaan,** indien van toepassing.
-    
-| | | **Instellen of optie** | **Aanbevolen instelling** <br/>
-| Naam  <br/> | Domein en meest waardevolle campagnemedewerkers  <br/> | | Beschrijving  <br/> | Zorg ervoor dat de belangrijkste medewerkers en ons domein niet worden nagebootst.  <br/> | | Gebruikers toevoegen om te beschermen  <br/> | Selecteer **+ Voeg een voorwaarde toe, De ontvanger is**. Typ gebruikersnamen of voer het e-mailadres in van de kandidaat, campagnemanager en andere belangrijke medewerkers. U maximaal 20 interne en externe adressen toevoegen die u wilt beschermen tegen imitatie.  <br/> | | Domeinen toevoegen om te beschermen  <br/> | Selecteer **+ Een voorwaarde toevoegen, Het domein van de geadresseerden is**. Voer het aangepaste domein in dat is gekoppeld aan uw Microsoft 365-abonnement als u er een hebt gedefinieerd. U meer dan één domein invoeren.  <br/> | | Acties kiezen  <br/> | Als e-mail wordt verzonden door een nagebootste gebruiker: selecteer **Bericht omleiden naar een ander e-mailadres**en typ vervolgens het e-mailadres van de beveiligingsbeheerder. bijvoorbeeld securityadmin@contoso.com.          Als e-mail wordt verzonden door een nagebootst domein: selecteer **Quarantainebericht**.  <br/> | | Postvakintelligentie  <br/> | Postvakinformatie wordt standaard geselecteerd wanneer u een nieuw antiphishingbeleid maakt. Laat deze instelling **Aan** voor de beste resultaten.  <br/> | | Vertrouwde afzenders en domeinen toevoegen  <br/> | Definieer in dit voorbeeld geen overschrijvingen.  <br/> | | Toegepast op  <br/> | Selecteer **Het domein van de geadresseerde is**. Selecteer **onder Een van deze**opties **Kiezen**. Selecteer **+ Toevoegen**. Schakel het selectievakje naast de naam van het domein in, bijvoorbeeld contoso.com, in de lijst en selecteer **Toevoegen**. Selecteer **Gereed**.  <br/> |
+
+
+|**Instellen of optie**|**Aanbevolen instelling** <br/>|
+|:-----|:-----|
+|Name  <br/> |Domein en meest waardevolle campagnemedewerkers  <br/> |
+|Beschrijving  <br/> |Zorg ervoor dat de belangrijkste medewerkers en ons domein niet worden nagebootst.  <br/> |
+|Gebruikers toevoegen om te beschermen  <br/> |Selecteer **+ Voeg een voorwaarde toe, De ontvanger is**. Typ gebruikersnamen of voer het e-mailadres in van de kandidaat, campagnemanager en andere belangrijke medewerkers. U maximaal 20 interne en externe adressen toevoegen die u wilt beschermen tegen imitatie.  <br/> |
+|Domeinen toevoegen om te beschermen  <br/> |Selecteer **+ Een voorwaarde toevoegen, Het domein van de geadresseerden is**. Voer het aangepaste domein in dat is gekoppeld aan uw Microsoft 365-abonnement als u er een hebt gedefinieerd. U meer dan één domein invoeren.  <br/> |
+|Acties kiezen  <br/> |Als e-mail wordt verzonden door een nagebootste gebruiker: selecteer **Bericht omleiden naar een ander e-mailadres**en typ vervolgens het e-mailadres van de beveiligingsbeheerder. bijvoorbeeld securityadmin@contoso.com.          Als e-mail wordt verzonden door een nagebootst domein: selecteer **Quarantainebericht**.  <br/> |
+|Postvakintelligentie  <br/> |Postvakinformatie wordt standaard geselecteerd wanneer u een nieuw antiphishingbeleid maakt. Laat deze instelling **Aan** voor de beste resultaten.  <br/> |
+|Vertrouwde afzenders en domeinen toevoegen  <br/> |Definieer in dit voorbeeld geen overschrijvingen.  <br/> |
+|Toegepast op  <br/> |Selecteer **Het domein van de geadresseerde is**. Selecteer **onder Een van deze**opties **Kiezen**. Selecteer **+ Toevoegen**. Schakel het selectievakje naast de naam van het domein in, bijvoorbeeld contoso.com, in de lijst en selecteer **Toevoegen**. Selecteer **Gereed**.  <br/> |
+|
    
 Zie [Office 365 ATP-beleid voor phishing instellen](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409)voor meer informatie .
   
@@ -281,7 +292,15 @@ Als u een ATP-beleid voor veilige bijlagen wilt maken, bekijkt u een [korte trai
     
 7. Nadat u uw instellingen hebt gecontroleerd, selecteert u **Dit beleid maken** of **Opslaan,** indien van toepassing.
     
-| | | **Instellen of optie** | **Aanbevolen instelling** <br/>| | Naam  <br/> | Blokkeer huidige en toekomstige e-mails met gedetecteerde malware.  <br/> | | Beschrijving  <br/> | Blokkeer huidige en toekomstige e-mails en bijlagen met gedetecteerde malware.  <br/> | | Bijlagen opslaan onbekende malware reactie  <br/> | Selecteer **Blokkeren - Blokkeer de huidige en toekomstige e-mails en bijlagen met gedetecteerde malware.**  <br/> | | Bijlage bij detectie omleiden  <br/> | Omleiding inschakelen (selecteer dit vak) Voer het beheerdersaccount of een postvakinstelling in voor quarantaine.          Pas de bovenstaande selectie toe als malware scannen op bijlagen een keer uit of fout optreedt (selecteer dit vak).  <br/> | | Toegepast op  <br/> | Het domein van de ontvanger is . . . selecteer uw domein.  <br/> |
+
+|**Instellen of optie**|**Aanbevolen instelling** <br/>|
+|:-----|:-----|
+|Name  <br/> |Blokkeer huidige en toekomstige e-mails met gedetecteerde malware.  <br/> |
+|Beschrijving  <br/> |Blokkeer huidige en toekomstige e-mails en bijlagen met gedetecteerde malware.  <br/> |
+|Bijlagen opslaan onbekende malware reactie  <br/> |Selecteer **Blokkeren - Blokkeer de huidige en toekomstige e-mails en bijlagen met gedetecteerde malware.**  <br/> |
+|Bijlage bij detectie omleiden  <br/> |Omleiding inschakelen (selecteer dit vak) Voer het beheerdersaccount of een postvakinstelling in voor quarantaine.          Pas de bovenstaande selectie toe als malware scannen op bijlagen een keer uit of fout optreedt (selecteer dit vak).  <br/> |
+|Toegepast op  <br/> |Het domein van de ontvanger is . . . selecteer uw domein.  <br/> |
+|
    
 Zie [Office 365 ATP-beleid voor phishing instellen](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409)voor meer informatie .
   
@@ -320,6 +339,12 @@ Ga als bedoeld als het gaat om een nieuw beleid te maken dat is gericht op alle 
     
 3. Kies **Opslaan**. 
     
-| | | **Instellen of optie** | **Aanbevolen instelling** <br/>| | Naam  <br/> | Beleid voor veilige koppelingen voor alle ontvangers in het domein  <br/> | | De actie selecteren voor onbekende mogelijk schadelijke URL's in berichten  <br/> | Selecteer **Op - URL's worden herschreven en gecontroleerd aan de hand van een lijst met bekende schadelijke links wanneer de gebruiker op de koppeling klikt.**  <br/> | | Veilige bijlagen gebruiken om downloadbare inhoud te scannen  <br/> | Selecteer dit vak.  <br/> | | Toegepast op  <br/> | Het domein van de ontvanger is . . . selecteer uw domein.  <br/> |
+|**Instellen of optie**|**Aanbevolen instelling** <br/>|
+|:-----|:-----|
+|Name  <br/> |Beleid voor veilige koppelingen voor alle ontvangers in het domein  <br/> |
+|De actie selecteren voor onbekende mogelijk schadelijke URL's in berichten  <br/> |Selecteer **Op - URL's worden herschreven en gecontroleerd aan de hand van een lijst met bekende schadelijke links wanneer de gebruiker op de koppeling klikt.**  <br/> |
+|Veilige bijlagen gebruiken om downloadbare inhoud te scannen  <br/> |Selecteer dit vak.  <br/> |
+|Toegepast op  <br/> |Het domein van de ontvanger is . . . selecteer uw domein.  <br/> |
+|
    
 Zie [veilige koppelingen van Office 365 ATP voor](https://go.microsoft.com/fwlink/?linkid=2016138&amp;clcid=0x409)meer informatie .

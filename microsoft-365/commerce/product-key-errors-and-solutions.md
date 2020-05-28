@@ -22,13 +22,15 @@ search.appverid:
 ms.assetid: 88d337ab-e7b1-43eb-a25e-7d6204e91099
 ROBOTS: NOINDEX
 description: 'Meer informatie over het oplossen van de problemen waarmee u wordt geconfronteerd wanneer u uw productcode voor Microsoft 365 voor bedrijven invoert. '
-ms.custom: okr_SMB
-ms.openlocfilehash: a9a72921ea18cdaa2603e300cf3c18a52e3116ab
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
+ms.openlocfilehash: c53a4716eaa8d8f9952d3e9417517ff41acf76b9
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708117"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44404620"
 ---
 # <a name="problems-with-your-microsoft-365-for-business-product-key"></a>Problemen met uw Microsoft 365 voor zakelijke productcode?
 
@@ -42,7 +44,7 @@ Als er een foutbericht optreedt wanneer u een productcode voor **Microsoft 365 v
 
 | Foutbericht wanneer u uw productcode invoert... | Probeer dit: |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 'Dit is een ongeldige productcode. Voer de productcode opnieuw in. Als uw productcode voor Microsoft 365 Personal of Microsoft 365 Family is, u deze inwisselen bij office.com/setup. <br/><br/>Als u Office 365 Solo in Japan gebruikt: 'Sorry, dit is een ongeldige productcode. Voer de productcode opnieuw in. Als uw productcode voor Office 365 Solo is, u deze inwisselen bij office.com/setup. | Als u Microsoft [365 Family of Personal](https://support.office.com/article/28cbc8cf-1332-4f04-9123-9b660abb629e.aspx)instelt, moet [https://www.office.com/setup](https://www.office.com/setup)u uw productcode inwisselen op . Zakelijke klanten dienen de nummers en tekens die ze invoeren, zorgvuldig te controleren. |
+| 'Dit is een ongeldige productcode. Voer de productcode opnieuw in. Als uw productcode voor Microsoft 365 Personal of Microsoft 365 Family is, u deze inwisselen bij office.com/setup. <br/><br/>Als u Office 365 Solo in Japan gebruikt: 'Sorry, dit is een ongeldige productcode. Voer de productcode opnieuw in. Als uw productcode voor Office 365 Solo is, u deze inwisselen bij office.com/setup. | Als u Microsoft [365 Family of Personal](https://support.office.com/article/28cbc8cf-1332-4f04-9123-9b660abb629e.aspx)instelt, moet u uw productcode inwisselen op [https://www.office.com/setup](https://www.office.com/setup) . Zakelijke klanten dienen de nummers en tekens die ze invoeren, zorgvuldig te controleren. |
 | 'De opgegeven productcode is niet geldig. Voer de productcode opnieuw in.' Of 'Deze productcode is niet geldig. Voer een andere productcode in.' | Controleer zorgvuldig de ingevoerde cijfers en tekens. U kunt bijvoorbeeld fouten maken met 0 en o, 5 en S, l en I enzovoort. Als het probleem zich blijft voordoen, neemt u contact op met de wederverkoper waar u de productcode hebt gekocht. |
 | 'U hebt deze productcode al ingevoerd. Voer een andere code in.' | Controleer de productcodes die u al hebt ingevoerd om te zien of de code als is toegevoegd. Als u een abonnement wilt verlengen met behulp van een productcode, moet u een nieuwe en ongebruikte productcode gebruiken.  <br/><br/>Wilt u een nieuwe productcode kopen? Ga naar de [Microsoft Store](https://go.microsoft.com/fwlink/p/?LinkId=529160) of een externe wederverkoper, of (als u met een partner werkt) neem contact op met uw partner.  <br/><br/>Als het probleem blijft bestaan, neem dan [contact op met de ondersteuning.](../admin/contact-support-for-business-products.md) Als u met een partner werkt, neem dan contact op met de partner voor ondersteuning bij productcodes. |
 | 'De opgegeven productcode is verlopen. Voer een andere code in.' | Gebruik voor het verlengen van een abonnement of het activeren van een nieuw abonnement een nieuwe, ongebruikte productcode.<br/><br/>Wilt u een nieuwe productcode kopen? Ga naar de [Microsoft Store](https://go.microsoft.com/fwlink/p/?LinkId=529160) of een externe wederverkoper, of (als u met een partner werkt) neem contact op met uw partner.   |

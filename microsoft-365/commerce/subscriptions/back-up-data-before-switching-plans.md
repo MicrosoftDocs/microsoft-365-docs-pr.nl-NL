@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - commerce
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
 description: Maak een back-up van Outlook-, OneDrive-, Yammer- en SharePoint-inhoud voordat u Microsoft 365-abonnementen wijzigt.
-ms.openlocfilehash: a482d59e92cd7055362663ed92630322e4ccf68a
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: b7a29912416bd659f2e0dd40c7aa6b9f6309676e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708093"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403616"
 ---
 # <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Back-ups maken van gegevens voordat u overstapt op Microsoft 365 voor bedrijfsabonnementen
 
@@ -61,7 +62,7 @@ De URL van de teamwebsite heeft standaard de volgende vorm:
 https://<orgDomain>/_layouts/15/start.aspx#/SitePages/Home.aspx
 ```
 
-waar _ \<orgDomain\> _ de URL van de organisatie is.
+waar _\<orgDomain\>_ is de URL van de organisatie.
   
 Bijvoorbeeld, als het domein van de organisatie contoso.onmicrosoft.com is, dan is de rechtstreekse URL naar de teamsite https://contoso.onmicrosoft.com/_layouts/15/start.aspx#/SitePages/Home.aspx.
   

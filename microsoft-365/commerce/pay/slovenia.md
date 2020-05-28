@@ -9,26 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Meer informatie over waar u de betaling voor uw abonnement verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: aae6efcd61ed22ece5957af8c67d650d1fba184b
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: dd00f9a851a97b4a64cc5bfae9d58128a8733620
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42811025"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403700"
 ---
 # <a name="payment-information-for-slovenia"></a>Betalingsgegevens voor Slovenië
 
 [Zoek een ander land of regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in EUR en verwijs naar uw factuurnummer(en) bij uw betalingsoverschrijving.
+Betaal alleen in EUR en verwijs naar uw factuurnummer(s) over uw betalingsoverschrijving.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
-**Bank:** Citibank  
-**SWIFT-code/BIC:** CITIGB2L  
+**Bank:** Citibank, Londen  
+**SWIFT-code/BIC:** CITIGB2L CITIGB2L  
 **IBAN:** GB31CITI18500812207591  
 **SORTEERcode:** 185008  
 **Rekeningnummer:** 12207591  

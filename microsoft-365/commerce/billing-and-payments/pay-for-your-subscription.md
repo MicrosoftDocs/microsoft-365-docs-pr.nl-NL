@@ -25,12 +25,12 @@ ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
-ms.openlocfilehash: 387cc4af038bea572a60176b2c2b400f410aa6ad
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: baf09d87f6229cb530c328d570fa70dc25729a11
+ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401760"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407954"
 ---
 # <a name="pay-for-your-subscription"></a>Betalen voor uw abonnement
 
@@ -48,7 +48,7 @@ Wanneer u uw abonnement instelt, u ervoor kiezen om te betalen met creditcard- o
 
 ## <a name="pay-by-credit-card-or-bank-account"></a>Betalen via creditcard of bankrekening
 
-Als u via een creditcard of bankrekening betaalt, worden automatisch kosten in rekening gebracht voor uw abonnement vanaf de dag na de factuurdatum tot het einde van uw abonnementsperiode. U kunt [uw creditcard- of bankrekeninggegevens bijwerken](add-update-or-remove-credit-card-or-bank-account.md) wanneer dat nodig is. U kunt ook [Een kopie van uw factuuroverzicht per e-mail ontvangen](#receive-a-copy-of-your-billing-statement-in-email).
+Als u via een creditcard of bankrekening betaalt, worden automatisch kosten in rekening gebracht voor uw abonnement vanaf de dag na de factuurdatum tot het einde van uw abonnementsperiode. U [betalingsmethoden beheren](manage-payment-methods.md) wanneer dat nodig is. U kunt ook [Een kopie van uw factuuroverzicht per e-mail ontvangen](#receive-a-copy-of-your-billing-statement-in-email).
 
 ### <a name="what-if-my-credit-card-was-declined-and-my-payment-is-past-due"></a>Wat gebeurt er als mijn creditcard is geweigerd en mijn betaling achterstallig is?
 
@@ -63,12 +63,12 @@ Als u via creditcard betaalt maar uw creditcard wordt geweigerd, ontvangt u een 
 
 2. Zoek het abonnement met het openstaande saldo. Selecteer In de sectie **Facturering,** naast **Abonnement, een achterstallige betaling,** selecteer **Saldo vereffenen**.
 
-3. Als u de eigenaar van de creditcard bent, u de vervaldatum voor de kaart wijzigen, een andere kaart kiezen of [een nieuwe kaart toevoegen.](add-update-or-remove-credit-card-or-bank-account.md)
+3. Als u de eigenaar van de creditcard bent, u de vervaldatum voor de kaart wijzigen, een andere kaart kiezen of [een nieuwe kaart toevoegen.](manage-payment-methods.md)
 
     > [!NOTE]
     > Wanneer u de functie **Saldo vereffening** gebruikt, worden er kosten in rekening gebracht voor het volledige openstaande saldo op uw account, wat meer kan zijn dan het verschuldigde bedrag dat elders wordt weergegeven.
 
-4. Als u niet de creditcardhouder bent, u een andere creditcard kiezen of [een nieuwe kaart toevoegen.](add-update-or-remove-credit-card-or-bank-account.md)
+4. Als u niet de creditcardhouder bent, u een andere creditcard kiezen of [een nieuwe kaart toevoegen.](manage-payment-methods.md)
 
 5. Nadat u de creditcardgegevens hebt bijgewerkt of de creditcard hebt gewijzigd die wordt gebruikt om voor het abonnement te betalen, selecteert u **Opslaan**.
 
@@ -80,12 +80,12 @@ Als u via creditcard betaalt maar uw creditcard wordt geweigerd, ontvangt u een 
 
 2. Selecteer het abonnement dat u wilt wijzigen. Selecteer **nu betalen**in de sectie **Mijn factuur** .
 
-3. Als u de eigenaar van de creditcard bent, u de vervaldatum voor de kaart wijzigen, een andere kaart kiezen of [een nieuwe kaart toevoegen.](add-update-or-remove-credit-card-or-bank-account.md)
+3. Als u de eigenaar van de creditcard bent, u de vervaldatum voor de kaart wijzigen, een andere kaart kiezen of [een nieuwe kaart toevoegen.](manage-payment-methods.md)
 
     > [!NOTE]
     > Als u de functie **Nu betalen** gebruikt, wordt het gehele openstaande saldo van uw account in rekening gebracht, dat mogelijk meer is dan het verschuldigde bedrag dat ergens anders wordt weergegeven.
 
-4. Als u niet de creditcardhouder bent, u een andere creditcard kiezen of [een nieuwe kaart toevoegen.](add-update-or-remove-credit-card-or-bank-account.md)
+4. Als u niet de creditcardhouder bent, u een andere creditcard kiezen of [een nieuwe kaart toevoegen.](manage-payment-methods.md)
 
 5. Nadat u de creditcardgegevens hebt bijgewerkt of de creditcard hebt gewijzigd die wordt gebruikt om voor het abonnement te betalen, selecteert u **Verzenden**. U ziet een bevestigingsbericht met de mededeling: 'De betalingswijze is bijgewerkt en alle openstaande bedragen zijn betaald. Bedankt.'
 
@@ -311,6 +311,6 @@ Als uw oorspronkelijke redenen voor het kiezen van de factuur, creditcard of ban
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Een creditcard of bankrekening toevoegen, bijwerken of verwijderen](add-update-or-remove-credit-card-or-bank-account.md)
+[Betalingswijzen beheren](manage-payment-methods.md)
 
 [Inzicht in uw rekening of factuur](understand-your-invoice2.md)

@@ -17,12 +17,12 @@ search.appverid:
 - GEA150
 ms.assetid: 6f70de1b-a64d-4498-bfbd-be8c83a9c0fc
 description: Werk de contactgegevens van uw organisatie bij en kies de Microsoft 365-productgerelateerde communicatie die u wilt ontvangen.
-ms.openlocfilehash: e802a45c9b038c7256def259090c58f92b6a7cb8
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: afb69c52ba89c2a9e6ff7af014a74b0abfda4e5e
+ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399786"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407930"
 ---
 # <a name="change-your-contact-preferences-for-communications-from-microsoft"></a>Uw contactvoorkeuren voor correspondentie van Microsoft wijzigen
 
@@ -51,4 +51,4 @@ Antwoorden op vragen over facturering vindt u in de volgende artikelen:
   
 - [Uw factuuradressen voor Microsoft 365 voor Bedrijven wijzigen](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
-- [Een creditcard of bankrekening in Microsoft 365 voor bedrijven toevoegen, bijwerken of verwijderen](../../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
+- [Betalingswijzen beheren](../../commerce/billing-and-payments/manage-payment-methods.md)

@@ -17,16 +17,16 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het maken van regels voor e-mailstromen (transportregels) om berichten te identificeren en het spamvertrouwensniveau (SCL) van berichten in Exchange Online Protection in te stellen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9af154a9f71992597e111147b792cd5286e2ad3
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 223e676579c99eca7db641146d3a1b6bd22f9ca2
+ms.sourcegitcommit: 1f3101326e8a54b9bda4ba0324eae00fafcf5e7b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208559"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44405117"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages-in-eop"></a>Gebruik regels voor e-mailstroom om het spamvertrouwensniveau (SCL) in te stellen in berichten in EOP
 
-In Microsoft 365-organisaties met postvakken in Exchange Online- of zelfstandige Exchange Online Protection-organisaties (EOP)-organisaties zonder Exchange Online-postvakken gebruikt EOP antispambeleid (ook wel spamfilterbeleid of inhoudsfilterbeleid genoemd) om binnenkomende berichten te scannen op spam. Zie [Beleid voor antispam configureren in EOP](configure-your-spam-filter-policies.md)voor meer informatie.
+In Microsoft 365-organisaties met postvakken in Exchange Online- of zelfstandige Exchange Online Protection-organisaties (EOP)-organisaties zonder Exchange Online-postvakken gebruikt EOP antispambeleid (ook wel spamfilterbeleid of inhoudsfilterbeleid genoemd) om binnenkomende berichten te scannen op spam. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
 
 Als u specifieke berichten als spam wilt markeren voordat ze worden gescand door spamfiltering, of berichten markeren zodat ze spamfilters overslaan, u regels voor e-mailstroom (ook wel transportregels genoemd) maken om de berichten te identificeren en het spamvertrouwensniveau (SCL) in te stellen. Zie [Spam vertrouwensniveau (SCL) in EOP voor](spam-confidence-levels.md)meer informatie over de SCL.
 
@@ -54,7 +54,7 @@ Als u specifieke berichten als spam wilt markeren voordat ze worden gescand door
 
    - **Ga als volgt**te werk: Selecteer **De eigenschappen van het bericht wijzigen** stel het \> **spamvertrouwensniveau (SCL) in.** Configureer in het dialoogvenster **SCL opgeven** dat wordt weergegeven een van de volgende waarden:
 
-   - **Spamfiltering omzeilen:** Hiermee stelt u de SCL in op -1, wat betekent dat de berichten spamfilters overslaan.
+   - **Spamfiltering omzeilen:** de berichten slaan spamfiltering over.
 
      > [!CAUTION]
      > Wees zeer voorzichtig met het toestaan van berichten om spam filtering overslaan. Aanvallers kunnen dit beveiligingslek gebruiken om phishing en andere schadelijke berichten naar uw organisatie te verzenden. De regels voor e-mailstroom vereisen meer dan alleen het e-mailadres of domein van de afzender. Zie [Lijsten met veilige afzenders maken in EOP](create-safe-sender-lists-in-office-365.md)voor meer informatie.

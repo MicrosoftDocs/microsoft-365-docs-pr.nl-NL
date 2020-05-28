@@ -20,17 +20,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: Ontdek manieren waarop u uw Windows-apparaten upgraden naar Windows 10 Pro om geavanceerdere beveiligings- en zakelijke netwerkfuncties te gebruiken.
-ms.openlocfilehash: f0cedda49dbff2a8c2884bb52e240fabfbeb4537
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c982f59ded0b0d2e1cd321f5856b38bd792eebed
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632046"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403525"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Windows-apparaten upgraden naar Windows 10 Pro
 
@@ -48,7 +49,7 @@ Als u wilt upgraden naar Windows 10 Pro, hebt u verschillende opties. U kunt:
 
     - Klik op de site voor het downloaden van software op **Nu bijwerken** om te beginnen met het upgraden van het apparaat naar Windows 10 Pro Creators Update. 
     
-- Maak een installatiemedia met behulp van de [Tool Media](https://go.microsoft.com/fwlink/?LinkID=836960) &ndash; Creatie Selecteer deze optie om een installatiemedia (USB-flashstation of ISO-bestand) van Windows 10 te maken om Windows 10 te installeren op een pc die verschilt van de pc die u gebruikt.
+- Maak een installatiemedia met behulp van de [Tool Media Creatie](https://go.microsoft.com/fwlink/?LinkID=836960) Selecteer deze optie om een &ndash; installatiemedia (USB-flashstation of ISO-bestand) van Windows 10 te maken om Windows 10 te installeren op een pc die verschilt van de pc die u gebruikt.
 
     - Lees de instructies over het gebruik van het gereedschap en maak uw installatiemedia. 
 
@@ -61,4 +62,4 @@ Zie [Mobiele apparaten instellen voor Microsoft 365 voor zakelijke gebruikers](s
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Voor meer informatie over het instellen en gebruiken van Microsoft 365 voor bedrijven
 
-[Microsoft 365 voor zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
