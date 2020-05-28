@@ -11,18 +11,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 - GEA150
 description: Meer informatie over het maken van een activiteitenrapport van Microsoft Forms met het dashboard Microsoft 365 Reports in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 63eb8613879849201876b237c659a4529ce2ca0f
-ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+ms.openlocfilehash: f835533fb626c8d6e7bd408b90abaa558304e20b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43781503"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387751"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Microsoft 365-rapporten in het beheercentrum - Formulierenactiviteit
 
@@ -38,7 +39,7 @@ U bijvoorbeeld de activiteit begrijpen van elke gebruiker die microsoft formulie
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
 
     
-2. Selecteer in de vervolgkeuzelijst **Een rapport** selecteren de **optie** **Activiteiten Formulieren** \> .
+2. Selecteer in de vervolgkeuzelijst **Een rapport** selecteren de optie **Activiteiten Formulieren** \> **activity**.
 
 ## <a name="interpret-the-forms-activity-report"></a>Het activiteitenrapport formulieren interpreteren
 

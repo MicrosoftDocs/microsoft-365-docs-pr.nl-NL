@@ -11,6 +11,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -18,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: fc1cf1d0-cd84-43fd-adb7-a4c4dfa8112d
 description: Meer informatie over het uitvoeren van een rapport actieve gebruikers met behulp van het dashboard Microsoft 365-rapporten in het Microsoft 365-beheercentrum en hoe u erachter komt hoeveel productlicenties worden gebruikt.
-ms.openlocfilehash: e865fa1ed68e7e68c103bf6abc66816b844d7b2d
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 7f32059f01163a2a499f1befb9f4e3c519973549
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046841"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387895"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---active-users"></a>Microsoft 365-rapporten in het beheercentrum - Actieve gebruikers
 
@@ -50,7 +51,7 @@ U kunt bijvoorbeeld het rapport **Actieve gebruikers** gebruiken om te kijken ho
 |3.  <br/> |In de grafiek **Actieve gebruikers** ziet u per product de actieve gebruikers voor de rapportageperiode.  <br/> In de grafiek **Services** ziet u het aantal gebruikers per activiteitstype en service.  <br/> |
 |4.  <br/> | In de grafiek **Actieve gebruikers** wordt op de x-as de geselecteerde rapportageperiode weergegeven en op de y-as de actieve gebruikers per dag. Deze zijn per licentietype van elkaar zijn gescheiden en van een kleurcodering voorzien.      <br/>  Op de activiteitengrafiek **Services** worden op de x-as de afzonderlijke services weergegeven die voor uw gebruikers zijn ingeschakeld in de opgegeven periode. Op de y-as wordt het aantal gebruikers per activiteitsstatus weergegeven, voorzien van een kleurcodering per activiteitsstatus.      <br/> |
 |5.  <br/> |U de reeks die u in de grafiek ziet filteren door een item in de legenda te selecteren. Door deze selectie te wijzigen, verandert de informatie in de rastertabel niet.  <br/> |
-|6.  <br/> |U de rapportgegevens ook exporteren naar een CSV-bestand in Excel](../../media/816a224b-6ca7-4967-a135-4f6427f64dc8.JPG) door de koppeling Uw gegevens **exporteren** ![naar een Excel-bestandskoppeling te selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren.  <br/> |
+|6.  <br/> |U de rapportgegevens ook exporteren naar een **Export** CSV-bestand in Excel door de ![ koppeling Uw gegevens exporteren naar een Excel-bestandskoppeling te ](../../media/816a224b-6ca7-4967-a135-4f6427f64dc8.JPG) selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren.  <br/> |
 |7.  <br/> |Gebruik de besturingselementen van een kolom om te wijzigen welke gegevens worden weergegeven in de rastertabel.  <br/> Als uw abonnement wordt beheerd door 21Vianet, ziet u Yammer niet. <br/> <br/> |
 |||
 

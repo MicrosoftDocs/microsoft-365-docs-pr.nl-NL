@@ -16,25 +16,26 @@ ms.collection:
 - SPO_Content
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: Meer informatie over het bewaren van bestanden en e-mails van een werknemer wanneer de persoon uw organisatie verlaat.
-ms.openlocfilehash: f7132b927c05b8339f20b268b48847291e9c710e
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 2bf32aa9e7a3dcc76ae2114240bff07d697ce29d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140631"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387199"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -129,7 +130,7 @@ Als globale beheerder u uzelf toegang geven tot de inhoud in de OneDrive van een
 
 ::: moniker-end
 
-2. Selecteer **SharePoint**voor **beheercentra** \> in het linkerdeelvenster . (Mogelijk moet u **Alles weergeven** selecteren om de lijst met beheercentra weer te geven.)
+2. Selecteer SharePoint voor **beheercentra** in het linkerdeelvenster \> **SharePoint**. (Mogelijk moet u **Alles weergeven** selecteren om de lijst met beheercentra weer te geven.)
 
 3. Als het klassieke SharePoint-beheercentrum wordt weergegeven, selecteert u **Nu** openen boven aan de pagina om het nieuwe SharePoint-beheercentrum te openen.
 
@@ -204,7 +205,7 @@ Als u de e-mailberichten, agenda's, taken en contactpersonen van de voormalige w
 > U het postvak van de voormalige gebruiker ook [converteren naar een gedeeld postvak](https://docs.microsoft.com/office365/admin/email/convert-user-mailbox-to-shared-mailbox) of de [e-mail van een voormalige werknemer doorsturen naar een andere werknemer.](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee#forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox)
 
   
-1. Ga in Outlook naar **Bestand** \> **Openen &amp; ** **Importeren/exporteren** \> .
+1. Ga in Outlook naar **Bestand** \> **Openen &amp; ** \> **Importeren/exporteren .**
     
     Hiermee wordt de wizard Importeren en exporteren gestart.
     

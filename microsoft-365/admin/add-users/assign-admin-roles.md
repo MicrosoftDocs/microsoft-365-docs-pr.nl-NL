@@ -18,6 +18,7 @@ ms.custom:
 - okr_smb
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -26,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Meer informatie over het toewijzen van beheerdersrollen aan een gebruiker of meerdere gebruikers in uw bedrijf, zodat deze specifieke taken in het beheercentrum kunnen uitvoeren.
-ms.openlocfilehash: 7842714d7a57c7db9c3f0afe7e4b2e353137b66f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 86759a07221e93e211107dcbd41a6bee5e6ca9a4
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618786"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387235"
 ---
 # <a name="assign-admin-roles"></a>Beheerdersrollen toewijzen
 
@@ -65,7 +66,7 @@ U gebruikers op twee verschillende manieren aan een rol toewijzen:
 
 ### <a name="assign-admin-roles-to-users-using-roles"></a>Beheerdersrollen toewijzen aan gebruikers die rollen gebruiken
 
-1. Ga in het beheercentrum naar > **Rollenrollen** om alle beheerdersrollen weer te geven die beschikbaar zijn voor uw organisatie. **Roles**
+1. Ga in het beheercentrum naar **Roles** > **Rollenrollen** om alle beheerdersrollen weer te geven die beschikbaar zijn voor uw organisatie.
 2. Selecteer de beheerdersrol waaraan u de gebruiker wilt toewijzen.
 3. Selecteer **Toegewezen beheerders** > **Toevoegen**.
 4. Typ de **weergavenaam** of **gebruikersnaam**van de gebruiker en selecteer de gebruiker in de lijst met suggesties.

@@ -13,24 +13,25 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Meer informatie over het toevoegen van gasten aan een Microsoft 365-groep, het bekijken van gastgebruikers en het gebruik van PowerShell om de toegang van gasten te beheren.
-ms.openlocfilehash: 48f3339968040eeb82a93d6540c70f0bbea0754a
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 99288521f29d67f3146cafe1f194662750cc8a5d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140541"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386779"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Gasttoegang beheren in Microsoft 365-groepen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -55,7 +56,7 @@ Gasttoegang in groepen wordt vaak gebruikt als onderdeel van een breder scenario
 
 Als u gasttoegang in groepen wilt in- of uitschakelen, u dit doen in het Microsoft 365-beheercentrum.
 
-1. Ga in het beheercentrum naar de **instellingen** \> **instellingen** en selecteer **Microsoft 365-groepen**.
+1. Ga in het beheercentrum **Settings** naar de \> **instellingen instellingen** en selecteer Microsoft **365-groepen**.
   
 2. Kies op de pagina **Microsoft 365-groepen** of u mensen buiten de groepresources van uw organisatie toegang wilt geven of groepseigenaren mensen buiten uw organisatie aan groepen wilt laten toevoegen.
 
@@ -63,7 +64,7 @@ Als u gasttoegang in groepen wilt in- of uitschakelen, u dit doen in het Microso
 
 Als de gast al in uw directory aanwezig is, u deze toevoegen aan uw groepen vanuit het Microsoft 365-beheercentrum.
   
-1. Ga in het beheercentrum naar de pagina **Groepen** > **groepen.**
+1. Ga in het beheercentrum **Groups**naar de pagina  >  **Groepen groepen.**
   
 2. Klik op de groep waaraan u de gast wilt toevoegen en selecteer **Alles weergeven en leden beheren** op het tabblad **Leden.** 
   
@@ -85,12 +86,12 @@ U moet de preview-versie van [Azure Active Directory PowerShell voor Grafiek](ht
 
 - Als u de versie met algemene beschikbaarheid van 2.0 van de Azure AD PowerShell-module (AzureAD) hebt geïnstalleerd, moet u deze verwijderen door deze uit te voeren `Uninstall-Module AzureAD` in uw PowerShell-sessie en vervolgens de preview-versie installeren door . `Install-Module AzureADPreview`
 
-- Als u de preview-versie `Install-Module AzureADPreview` al hebt geïnstalleerd, voert u uit om te controleren of deze de nieuwste versie van deze module is.
+- Als u de preview-versie al hebt geïnstalleerd, voert u uit `Install-Module AzureADPreview` om te controleren of deze de nieuwste versie van deze module is.
 
 > [!NOTE]
 > U moet algemene beheerdersrechten hebben om deze opdrachten uit te voeren. 
 
-Voer het volgende * / * script uit en wijzig de naam van de groep waar u gasttoegang wilt blokkeren.
+Voer het volgende script uit en wijzig */<GroupName/>* de naam van de groep waar u gasttoegang wilt blokkeren.
 
 ```PowerShell
 $GroupName = "<GroupName>"

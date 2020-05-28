@@ -15,23 +15,24 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 description: U een sjabloon maken en gebruiken om tijd te besparen en instellingen te standaardiseren wanneer u meerdere gebruikers toevoegt.
-ms.openlocfilehash: a39ad3df7928e45f7cb93a13c6ffc40111f2ee48
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 3173d28f27acdf1a084137d36cd71894e94e9547
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140650"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387223"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>Een sjabloon maken en gebruiken om gebruikers toe te voegen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -39,7 +40,7 @@ U een sjabloon maken en gebruiken om tijd te besparen en instellingen te standaa
 
 ## <a name="create-a-template"></a>Een sjabloon maken
 
-Sjablonen zijn eenvoudig&mdash;te maken u **gebruikers** > **actieve gebruikers** > selecteren**Gebruikerssjablonen**en vervolgens **een sjabloon toevoegen** in de vervolgkeuzelijst, of u een nieuwe gebruiker toevoegen en wanneer u klaar bent, hebt u de mogelijkheid om de vermelding als sjabloon op te slaan.
+Sjablonen zijn eenvoudig te maken &mdash; u **gebruikers**actieve gebruikers selecteren  >  **Active users**  >  **Gebruikerssjablonen**en vervolgens **een sjabloon toevoegen** in de vervolgkeuzelijst, of u een nieuwe gebruiker toevoegen en wanneer u klaar bent, hebt u de mogelijkheid om de vermelding als sjabloon op te slaan.
 
 Wanneer u een sjabloon maakt nadat u een gebruiker hebt toegevoegd, worden de waarden die u kiest voor de volgende instellingen opgeslagen in de sjabloon:
 
@@ -68,12 +69,12 @@ Wanneer u een sjabloon maakt door de optie **Een sjabloon toevoegen** te selecte
 
 Ga als lid van het werk om een bestaande sjabloon te gebruiken om een gebruiker toe te voegen:
 
-1. Selecteer gebruikers actief **gebruikers** > **Active users**in het beheercentrum .
+1. Selecteer gebruikers actief **gebruikers**in het beheercentrum  >  **Active users**.
 
 2. Selecteer **Gebruikerssjablonen**en selecteer vervolgens een sjabloon in de vervolgkeuzelijst. (De lijst bevat alleen de sjablonen die u hebt gemaakt, niet de sjablonen die door andere beheerders zijn gemaakt.)
 
  > [!NOTE]
- > U ook een sjabloon gebruiken om een gebruiker toe te voegen door **gebruikerssjablonen** > te selecteren**Sjablonen beheren,** een sjabloon te selecteren en vervolgens **sjabloon gebruiken**te selecteren.
+ > U ook een sjabloon gebruiken om een gebruiker toe te voegen door **gebruikerssjablonen te**selecteren  >  **Sjablonen beheren,** een sjabloon te selecteren en vervolgens **sjabloon gebruiken**te selecteren.
 
 3. Volg de stappen om een gebruiker te maken op basis van de geselecteerde sjabloon.
 
@@ -84,7 +85,7 @@ Ga als lid van het werk om een bestaande sjabloon te gebruiken om een gebruiker 
 
 U eenvoudig sjablonen verwijderen die u niet meer nodig hebt en nieuwe sjablonen toevoegen. Een sjabloon verwijderen:
 
-1. Selecteer gebruikers actief **gebruikers** > **Active users**in het beheercentrum .
+1. Selecteer gebruikers actief **gebruikers**in het beheercentrum  >  **Active users**.
 
 2. Selecteer **Sjablonen**en selecteer **Vervolgens Sjablonen beheren** in de vervolgkeuzelijst.
 

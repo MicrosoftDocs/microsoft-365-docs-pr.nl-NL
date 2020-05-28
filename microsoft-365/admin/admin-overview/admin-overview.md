@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: c7228a3e-061f-4575-b1ef-adf1d1669870
 description: 'Meer informatie over het Microsoft 365-beheercentrum: hoe meld je je aan, wie je beheerder is en bekijk er een video-introductie over.'
-ms.openlocfilehash: 79c43c0f918c8d4793b02bea08aa092e3a5ef421
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 84c8ef52c4cd3bf687a0849e1e3b1a25f9b31f4d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43623962"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386935"
 ---
 # <a name="admin-center-overview"></a>Overzicht van het beheercentrum 
 
@@ -35,19 +36,19 @@ Met dit account hebt u toegang tot het Microsoft 365-beheercentrum om uw bedrijf
   
 ::: moniker range="o365-worldwide"
 
- **Meld u aan met <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>uw beheerdersaccount op .**
+ **Meld u aan met uw beheerdersaccount op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .**
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-**Meld u aan met uw beheerdersaccount <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>bij Office 365 Duitsland op .**
+**Meld u aan met uw beheerdersaccount bij Office 365 Duitsland op <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a> .**
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-**Meld u aan met uw beheerdersaccount bij Office 365 dat wordt beheerd door 21Vianet op <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>.**
+**Meld u aan met uw beheerdersaccount bij Office 365 dat wordt beheerd door 21Vianet op <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a> .**
 
 ::: moniker-end
 

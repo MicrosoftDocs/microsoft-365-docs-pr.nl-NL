@@ -22,18 +22,19 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: Meer informatie over het maken van een app-beheerbeleid en het beveiligen van werkbestanden op de persoonlijke Windows 10-apparaten van uw gebruikers.
-ms.openlocfilehash: bbfb07302f2d77f7e66301723d176cf053f79cc1
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: c3e003205da30fa79069946960ef00e4195f0cbc
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561335"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386532"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Instellingen voor toepassingsbeveiliging instellen voor Windows 10-apparaten
 
@@ -43,27 +44,27 @@ Als uw gebruikers persoonlijke Windows 10-apparaten gebruiken voor hun werk, kun
   
 1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. Kies op het linkernavigatiescherm het **beleid** \> **Voor apparaten** \> **toevoegen**.
+2. Kies op het **Devices** linkernavigatienet de optie \> **Apparatenbeleid** \> **Toevoegen**.
 
 3. Voer in het deelvenster **Beleid toevoegen** een unieke naam in voor dit beleid. 
     
 4. Kies onder **Type beleid** de optie **Toepassingsbeheer voor Windows 10**.
     
-5. Kies onder **Apparaattype** **de** optie Persoonlijk of **eigendom van het bedrijf**.
+5. Kies **onder Apparaattype** **persoonlijke** of **bedrijfseigendom**.
     
 6. De optie **Werkbestanden versleutelen** is automatisch ingeschakeld. 
     
 7. Stel **Voorkomen dat gebruikers bedrijfsgegevens kopiëren naar persoonlijke bestanden en afdwingen dat werkbestanden worden opgeslagen in OneDrive voor Bedrijven** in op **Aan** als u niet wilt dat de gebruikers werkbestanden opslaan op hun pc. 
     
-9. **Gegevens herstellen op Windows-apparaten uitvouwen.** We raden je aan hem **aan**te zetten.
+9. Gegevens **herstellen op Windows-apparaten**uitbreiden . We raden u aan deze **in te**schakelen.
     
-    Voordat u naar de locatie van het certificaat voor de gegevensherstelagent kunt bladeren, moet u deze eerst maken. Zie [EFS-certificaat (Encrypting File System(EFS) Data Recovery Agent (ENCRYPT) for](https://go.microsoft.com/fwlink/p/?linkid=853700)instructions.
+    Voordat u naar de locatie van het certificaat voor de gegevensherstelagent kunt bladeren, moet u deze eerst maken. Zie EEN [EFS-certificaat (Encrypting File System) (EFS) Data Recovery Agent (DRA) voor instructies.](https://go.microsoft.com/fwlink/p/?linkid=853700)
     
     Werkbestanden worden standaard versleuteld met een geheime code die wordt opgeslagen op het apparaat en die gekoppeld is aan het profiel van de gebruiker. Alleen de gebruiker kan het bestand openen en ontsleutelen. Als een apparaat zoekraakt of als een gebruiker wordt verwijderd, kan een bestand echter blijven steken in versleutelde toestand. Een beheerder kan het DRA-certificaat (Data Recovery Agent) gebruiken om het bestand te decoderen.
     
     ![Browse to Data Recovery Agent certificate.](../media/7d7d664f-b72f-4293-a3e7-d0fa7371366c.png)
   
-10. Vouw **extra netwerk- en cloudlocaties beveiligen** uit als u extra domeinen of SharePoint Online-locaties wilt toevoegen om ervoor te zorgen dat bestanden in alle vermelde apps worden beveiligd. Als u meerdere items moet opgeven voor een veld, gebruikt u een puntkomma (;) tussen de items.
+10. Extra **netwerk- en cloudlocaties** uitbreiden als u extra domeinen of SharePoint Online-locaties wilt toevoegen om ervoor te zorgen dat bestanden in alle vermelde apps worden beveiligd. Als u meerdere items moet opgeven voor een veld, gebruikt u een puntkomma (;) tussen de items.
     
     ![Expand Protect additional network and cloud locations, and enter domains or SharePoint Online sites you own.](../media/7afaa0c7-ba53-456d-8c61-312c45e09625.png)
   

@@ -15,17 +15,18 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9cdfa29d-7681-4af2-a79d-3e72e7ab9778
 description: Nieuwe werknemers toevoegen aan Microsoft 365 voor Bedrijven voor e-mail-, Skype- en Office-apps.
-ms.openlocfilehash: f25f9445cba31942a58c656d8d7f212dc093024d
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 0df9ed292cd4d8010c779cb822b84f9916cf1928
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049495"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387307"
 ---
 # <a name="add-a-new-employee-to-microsoft-365"></a>Een nieuwe werknemer toevoegen aan Microsoft 365
 
@@ -63,7 +64,7 @@ Omdat ze nog geen toegang hebben tot hun e-mail, stuur de informatie niet naar d
 
 Net als Facebook, Amazon of Gmail meldt uw werknemer zich aan om Microsoft 365 te gebruiken. Geef ze de volgende aanmeldingsgegevens:
   
-- Log hier [https://www.office.com](https://www.office.com)in
+- Log hier in [https://www.office.com](https://www.office.com)
     
 - Selecteer **Aanmelden**en typ vervolgens de gebruikersnaam en het wachtwoord.
     
@@ -76,7 +77,7 @@ En hier is een korte referentie om ze op weg te helpen:
   
 |**Taak**|**Zoek de details**|
 |:-----|:-----|
-|Aanmelden bij Office  <br/> |Ga [https://www.office.com](https://www.office.com)naar, selecteer **Aanmelden**en voer vervolgens uw gebruikersnaam en wachtwoord in.  <br/> |
+|Aanmelden bij Office  <br/> |Ga [https://www.office.com](https://www.office.com) naar, selecteer **Aanmelden**en voer vervolgens uw gebruikersnaam en wachtwoord in.  <br/> |
 |Installeer Office-apps op uw computer.  <br/><br/> |Wanneer u zich aanmeldt, heeft de startpagina een koppeling om apps zoals Word en Outlook te downloaden en te installeren.  Selecteer **Office installeren**.         Zie Office [installeren voor](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)instructies.  <br/> |
 |Stel uw e-mail in Outlook 2016 in .  <br/> |Zodra Office-apps op uw computer zijn geïnstalleerd, stelt u uw e-mail in. Zie Outlook [instellen](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx)voor instructies .  <br/> |
 |Skype voor Bedrijven instellen zodat u in contact komen met collega's of zakenpartners in uw bedrijf of over de hele wereld. U gesprekken starten met chat-, spraak- of videogesprekken.  <br/> |[Installeer Skype voor Bedrijven op uw computer](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb.aspx).  <br/> <br/>Bekijk een video voor meer informatie over het gebruik van Skype voor [Bedrijven.](https://support.office.com/article/3a21eca4-434d-41f1-ab06-3d4a268573b7.aspx) <br/> <br/>Hebt u Skype voor Bedrijven zo ingesteld dat uw werknemers contact kunnen opnemen met mensen buiten uw bedrijf die de gratis Skype-app gebruiken? Zo niet, vertel het dan aan uw nieuwe werknemer, zodat hij weet wat ze kunnen verwachten wanneer ze Skype voor Bedrijven gebruiken.  <br/> |

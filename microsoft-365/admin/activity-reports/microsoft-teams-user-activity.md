@@ -11,6 +11,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MST160
@@ -18,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 07f67fc4-c0a4-4d3f-ad20-f40c7f6db524
 description: Meer informatie over het verkrijgen van het rapport over gebruikersactiviteiten van Microsoft Teams en inzicht krijgen in de activiteiten van Teams in uw organisatie.
-ms.openlocfilehash: 4a1b546efa7ba3bac887f60de54231389b8b5ca6
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 59fdeec9979b939524279d938e97baf6993d3cb0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43047095"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387667"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>Microsoft 365-rapporten in het beheercentrum - Microsoft Teams-gebruikersactiviteit
 
@@ -37,7 +38,7 @@ Het dashboard Microsoft 365 **Rapporten** toont u het activiteitenoverzicht voor
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
 
     
-2. Selecteer in de vervolgkeuzelijst **Een rapport** selecteren de **optie Gebruikersactiviteit van** **Microsoft Teams** \> .
+2. Selecteer in de vervolgkeuzelijst **Een rapport** selecteren de optie **Gebruikersactiviteit van Microsoft Teams** \> **User activity**.
   
 ## <a name="interpret-the-microsoft-teams-user-activity-report"></a>Het rapport Gebruikersactiviteit in Microsoft Teams interpreteren
 

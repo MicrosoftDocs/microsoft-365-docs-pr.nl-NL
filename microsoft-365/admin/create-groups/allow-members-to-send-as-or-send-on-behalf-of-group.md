@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: Meer informatie over hoe u leden toestaat e-mail te verzenden als een Microsoft 365-groep of e-mail te verzenden namens een Microsoft 365-groep.
-ms.openlocfilehash: ce4527321468ee01864177fc1a607fab6a474481
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: a4d8cb65feab3fca69824adc8f7b4ef10e705d8c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049385"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44388135"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Leden toestaan om namens een groep te verzenden of te verzenden
 
@@ -44,13 +45,13 @@ Met de machtiging **Verzenden namens** kan een gebruiker e-mail verzenden namens
 
 In dit gedeelte wordt uitgelegd hoe u gebruikers toestaat om als groep e-mail te verzenden in het [Exchange-beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2059104) (EAC) in Exchange Online.
   
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum</a>naar \> **Ontvangersgroepen**. **Recipients**
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum</a>naar **Recipients** \> **Ontvangersgroepen**.
     
-2. Selecteer **Edit**![groepspictogram](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) bewerken in Groep waarvan u gebruikers wilt toestaan als te verzenden.   
+2. Selecteer **Edit** ![ groepspictogram bewerken ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) in Groep waarvan u gebruikers wilt toestaan als te verzenden.   
     
 3. Selecteer **delegering van groepen**.
     
-4. Selecteer in de sectie **+** Verzenden **als** het teken om de gebruikers toe te voegen die u als groep wilt verzenden. 
+4. Selecteer in de sectie **Verzenden als** het teken om de gebruikers toe te voegen die u als groep **+** wilt verzenden. 
     
     ![Selecteer het plusteken om de gebruikers toe te voegen die u wilt verzenden als de Microsoft 365-groep](../../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
   
@@ -62,13 +63,13 @@ In dit gedeelte wordt uitgelegd hoe u gebruikers toestaat om als groep e-mail te
 
 In dit gedeelte wordt uitgelegd hoe u gebruikers toestaat e-mail namens een groep te verzenden in het Exchange-beheercentrum (EAC) in Exchange Online.
   
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum</a>naar \> **Ontvangersgroepen**. **Recipients**
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum</a>naar **Recipients** \> **Ontvangersgroepen**.
     
-2. Selecteer **Edit** ![groepspictogram](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) bewerken in de groep die gebruikers wilt toestaan te verzenden als. 
+2. Selecteer **Edit** ![ groepspictogram bewerken ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) in de groep die gebruikers wilt toestaan te verzenden als. 
     
 3. Selecteer **delegering van groepen**.
     
-4. Selecteer in de sectie Verzenden **+** namens het teken om de gebruikers toe te voegen die u als groep wilt verzenden. 
+4. Selecteer in de sectie Verzenden namens het **+** teken om de gebruikers toe te voegen die u als groep wilt verzenden. 
     
     ![Selecteer het plusteken om de gebruikers toe te voegen die u wilt verzenden als de Microsoft 365-groep](../../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
   

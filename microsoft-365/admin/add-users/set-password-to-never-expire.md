@@ -15,24 +15,25 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Meer informatie over het instellen van bepaalde afzonderlijke gebruikerswachtwoorden die nooit verlopen met Windows PowerShell.
-ms.openlocfilehash: 3d5d65f687a5ed02e0e20ff77482f7bef5b6b695
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: 6562a4092c47d9c4bf7bf294767e6050a3e0577a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173494"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386999"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Het wachtwoord van een gebruiker zo instellen dat het nooit verloopt
 
 ## <a name="set-the-password-expiration-policy-for-your-organization"></a>Het wachtwoordverloopbeleid voor uw organisatie instellen:
 
-1. Ga in het beheercentrum naar de pagina **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">instellingen.</a>
+1. Ga in het beheercentrum **Settings** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Instellingen instellingen.</a>
 2. Selecteer beveiliging **& Privacy**boven aan de pagina Instellingen .
 3. Selecteer **Verloopbeleid wachtwoorden**. 
 4. Als wachtwoorden nooit verlopen, klikt u op het selectievakje naast **Gebruikerswachtwoorden instellen om na een aantal dagen te verlopen.** U krijgt de optie om het aantal dagen op te geven totdat wachtwoorden verlopen.
@@ -127,4 +128,4 @@ Voer een van de volgende opdrachten uit:
     ```
 
 > [!WARNING]
-> Wachtwoorden ingesteld `-PasswordPolicies DisablePasswordExpiration` op leeftijd `pwdLastSet` op basis van het kenmerk. Als u de gebruikerswachtwoorden nooit laat verlopen en vervolgens meer dan 90 dagen voorbij gaat, verlopen de wachtwoorden. Op basis `pwdLastSet` van het kenmerk moeten `-PasswordPolicies None`alle wachtwoorden die `pwdLastSet` ouder zijn dan 90 dagen, als u de vervaldatum wijzigt, deze de volgende keer dat hij zich aanmeldt, wijzigen. Deze wijziging kan gevolgen hebben voor een groot aantal gebruikers.
+> Wachtwoorden ingesteld `-PasswordPolicies DisablePasswordExpiration` op leeftijd op basis van het `pwdLastSet` kenmerk. Als u de gebruikerswachtwoorden nooit laat verlopen en vervolgens meer dan 90 dagen voorbij gaat, verlopen de wachtwoorden. Op basis van het `pwdLastSet` kenmerk moeten alle wachtwoorden die ouder zijn dan 90 dagen, als u de vervaldatum wijzigt, deze de volgende keer dat `-PasswordPolicies None` hij zich `pwdLastSet` aanmeldt, wijzigen. Deze wijziging kan gevolgen hebben voor een groot aantal gebruikers.

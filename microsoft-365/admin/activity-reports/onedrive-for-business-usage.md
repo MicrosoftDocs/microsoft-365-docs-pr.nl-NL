@@ -12,6 +12,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - SPO_Content
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 - ODB160
 ms.assetid: 0de3b312-c4e8-4e4b-a02d-32b2f726a680
 description: 'Laat het gebruiksrapport van OneDrive voor Bedrijven weten over het totale aantal bestanden en opslag dat in uw organisatie wordt gebruikt. '
-ms.openlocfilehash: 4c7cfaeed03627b6dfab6c694f3a5e858b125c40
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 84c76e564067f2580455296a1ed4d1159de7d44c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43047105"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387547"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-usage"></a>Microsoft 365-rapporten in het beheercentrum - Gebruik van OneDrive voor Bedrijven
 
@@ -42,7 +43,7 @@ De OneDrive-kaart op het dashboard geeft u bijvoorbeeld een overzicht op hoog ni
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
 
     
-2. Selecteer **onedrive-gebruik** \> in de vervolgkeuzelijst **Een rapport** **selecteren**. 
+2. Selecteer **onedrive-gebruik** in de vervolgkeuzelijst **Een rapport** \> **selecteren**. 
   
 ## <a name="interpret-the-onedrive-usage-report"></a>Het rapport Gebruik van OneDrive interpreteren
 
@@ -60,7 +61,7 @@ U krijgt inzicht in het gebruik van OneDrive voor Bedrijven door de weergaven **
 |6.  <br/> | In de grafiek **Accounts** is de Y-as het aantal OneDrive-accounts.  <br/>  In de grafiek **Bestanden** is de Y-as het aantal bestanden dat is opgeslagen in OneDrive.  <br/>  In de grafiek **Opslag** is de Y-as de hoeveelheid OneDrive-opslagruimte die wordt gebruikt.  <br/>  De X-as in alle grafieken is het geselecteerde datumbereik voor dit specifieke rapport.  <br/> |
 |7.  <br/> |U de reeks die u in de grafiek ziet filteren door een item in de legenda te selecteren. Selecteer bijvoorbeeld in de grafiek **Bestanden** de optie **Totaalaantal bestanden** of **Actieve bestanden**. Selecteer **in** de grafiek Accounts de optie **Totale accounts** of **Actieve accounts**. Of selecteer **Opslag gebruikt**in de **grafiek Opslag** . Door deze selectie te wijzigen, wordt de informatie in de tabel niet gewijzigd.  <br/> |
 |8.  <br/> | De tabel toont een onderverdeling van de gegevens van de OneDrive van elke gebruiker. In de tabel worden alleen gebruikers weergegeven die een toegewezen productlicentie inclusief OneDrive hebben, en die SharePoint Online hebben ingeschakeld. Gebruikers moeten ook zijn aangemeld bij de synchronisatieclient van OneDrive of met een webbrowser naar hun zijn gegaan.  <br/>  Als er bestandsactiviteit op de OneDrive heeft plaatsgevonden, wordt de laatste datum vermeld waarop bestandsactiviteit heeft plaatsgevonden. De rijen in de tabel zijn gesorteerd op **Datum van laatste activiteit**. De OneDrive met de meest recente bestandsactiviteit staat dus bovenaan in de lijst.  <br/>  U kunt kolommen toevoegen aan of verwijderen uit de tabel.  <br/> ![Kolomopties](../../media/onedriveusage-columns.png)  <br/> **URL** is het webadres voor de OneDrive van de gebruiker.  <br/> **Verwijderd** is de verwijderstatus van de OneDrive. Het duurt ten minste zeven dagen voor accounts kunnen worden gemarkeerd als verwijderd.  <br/> **Eigenaar** is de gebruikersnaam van de primaire beheerder van de OneDrive.  <br/> **De hoofdnaam** van de eigenaar is het e-mailadres van de eigenaar van de OneDrive.  <br/> **Datum van laatste activiteit (UTC)** verwijst naar de datum waarop de laatste bestandsactiviteit in de OneDrive is uitgevoerd. Als er geen bestandsactiviteit voor OneDrive heeft plaatsgevonden, is de waarde leeg.  <br/> **Bestanden** is het aantal bestanden in de OneDrive.  <br/> **Actieve bestanden** is het aantal actieve bestanden gedurende de tijdsperiode. Een bestand wordt als actief beschouwd als het in de geselecteerde periode is opgeslagen, gesynchroniseerd, gewijzigd of gedeeld.  <br/> OPMERKING: Een bestandsactiviteit kan meerdere keren plaatsvinden voor één bestand, maar telt slechts als één actief bestand. Zo kunt u bijvoorbeeld hetzelfde bestand meerdere malen opslaan en synchroniseren in een bepaalde periode, maar dit wordt als één actief bestand en één gesynchroniseerd bestand meegeteld in de gegevens. >  Als er bestanden zijn verwijderd tijdens de opgegeven periode voor het rapport, is het aantal actieve bestanden dat in het rapport wordt getoond, mogelijk groter dan het huidige aantal bestanden in de OneDrive. >  Verwijderde gebruikers kunnen nog 180 dagen nadat ze zijn verwijderd in rapporten worden vermeld.<br/>**Opslag gebruikt (MB)** is de hoeveelheid opslagruimte in MB die door de OneDrive wordt gebruikt. Dit omvat alle versies en metagegevens die zijn gekoppeld aan de bestanden.  <br/>  Als het beleid van uw organisatie voorkomt dat u rapporten bekijkt waarin gebruikersgegevens identificeerbaar zijn, u de privacyinstelling voor al deze rapporten wijzigen. Bekijk de **sectie Hoe verberg ik de gegevens op gebruikersniveau?** [Activity Reports in the Microsoft 365 admin center Preview](activity-reports.md)  <br/> |
-|9.  <br/> |Selecteer **Manage columns** het pictogram ![Kolommen](../../media/13d2e536-de88-4db3-80c7-7a3a57298eb4.png) beheren Kolommen beheren om kolommen toe te voegen of te verwijderen uit het rapport.  <br/> |
+|9.  <br/> |Selecteer het pictogram **Kolommen beheren** Kolommen beheren om kolommen toe te voegen of te verwijderen uit ![ het ](../../media/13d2e536-de88-4db3-80c7-7a3a57298eb4.png) rapport.  <br/> |
 |10.  <br/> |U de rapportgegevens ook exporteren naar een CSV-bestand in Excel door de koppeling **Exporteren te** selecteren. Hiermee exporteert u de gegevens van elke OneDrive en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 OneDrive-accounts hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 OneDrive-accounts hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren.  <br/> OPMERKING: Wanneer de gegevens naar een Excel-bestand worden geëxporteerd, moet u er rekening mee houden dat de datum waarop het inhoudsrapport is gegenereerd, wordt weergegeven in het bestand in de kolom **Gegevens.**  <br/> |
 |||
    

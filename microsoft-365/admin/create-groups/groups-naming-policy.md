@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MST160
@@ -20,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
 description: Meer informatie over het maken van een naamgevingsbeleid voor Microsoft 365-groepen.
-ms.openlocfilehash: 2d8b016e0830f0d20ea6fb6227dd7789878bfc94
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 38b5bbed0c6e4c12af2f529568a53df329d9a933
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630441"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44388003"
 ---
 # <a name="groups-naming-policy"></a>Naamgevingsbeleid voor groepen
 
@@ -38,7 +39,7 @@ Het naamgevingsbeleid wordt toegepast op groepen die zijn gemaakt voor alle groe
 
 Het groepsnaambeleid bestaat uit de volgende functie:
 
-- **Naamgevingsbeleid voor voorvoegsel:** U voorvoegsels of achtervoegsels gebruiken om de\_naamgevingsconventie van groepen te definiëren (bijvoorbeeld: 'US My Group\_Engineering'). De voorvoegsels/achtervoegsels kunnen bestaan uit vaste tekenreeksen of gebruikerskenmerken (zoals [Department]) die worden vervangen op basis van de gebruiker die de groep maakt.
+- **Naamgevingsbeleid voor voorvoegsel:** U voorvoegsels of achtervoegsels gebruiken om de naamgevingsconventie van groepen te definiëren (bijvoorbeeld: 'US \_ My Group \_ Engineering'). De voorvoegsels/achtervoegsels kunnen bestaan uit vaste tekenreeksen of gebruikerskenmerken (zoals [Department]) die worden vervangen op basis van de gebruiker die de groep maakt.
 
 - **Aangepaste geblokkeerde woorden:** u een reeks geblokkeerde woorden uploaden die specifiek zijn voor uw organisatie en die worden geblokkeerd in groepen die door gebruikers zijn gemaakt. (Bijvoorbeeld: "CEO, Payroll, HR").
 
@@ -54,7 +55,7 @@ Voorvoegsels en achtervoegsels kunnen vaste tekenreeksen of gebruikerskenmerken 
 
 ### <a name="fixed-strings"></a>Vaste tekenreeksen
 
-U korte tekenreeksen gebruiken waarmee u groepen in de GAL en de linkernavigatie van de groepsworkloads onderscheiden. Enkele van de veelvoorkomende voorvoegsels zijn trefwoorden\_zoals 'Grp Name', 'Name',\#'Name'\_
+U korte tekenreeksen gebruiken waarmee u groepen in de GAL en de linkernavigatie van de groepsworkloads onderscheiden. Enkele van de veelvoorkomende voorvoegsels zijn trefwoorden zoals 'Grp \_ Name', \# 'Name', \_ 'Name'
 
 ### <a name="attributes"></a>Kenmerken
 
@@ -80,7 +81,7 @@ Het wordt aangeraden kenmerken te gebruiken met waarden die voor alle gebruikers
 
 - Voor- en achtervoegsels kunnen speciale tekens bevatten die voor de groepsnaam en de groepsalias worden ondersteund. Wanneer de voorvoegsels en achtervoegsels speciale tekens bevatten die niet zijn toegestaan in de groepsalias, worden ze alleen toegepast op de groepsnaam. In dit geval zouden de voor- en achtervoegsels die op de groepsnaam worden toegepast verschillen van degene die op de groepsalias worden toegepast.
 
-- Als u met Yammer Microsoft 365 verbonden groepen gebruikt, gebruikt u \# \[de \] \<volgende \>tekens in uw naamgevingsbeleid: @, , , , en . Als deze tekens in het naamgevingsbeleid staan, kunnen gewone Yammer-gebruikers geen groepen maken.
+- Als u met Yammer Microsoft 365 verbonden groepen gebruikt, gebruikt u de volgende tekens in uw naamgevingsbeleid: @, \# \[ , , , \] \<, and \> . Als deze tekens in het naamgevingsbeleid staan, kunnen gewone Yammer-gebruikers geen groepen maken.
 
 ## <a name="custom-blocked-words"></a>Aangepaste geblokkeerde woorden
 

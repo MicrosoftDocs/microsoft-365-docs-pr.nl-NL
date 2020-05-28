@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: c7c9f938-5b8e-4d52-b1a2-c7c32cb2312a
 description: Ontvang het rapport Yammer-activiteit en weet meer over het aantal gebruikers dat Yammer gebruikt om een bericht te plaatsen, leuk te vinden of te lezen.
-ms.openlocfilehash: bd128e17b8d435b8d5c6b06f16ff37fea11a6ce3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2bf02c0599f999b0eebb52d119096567bb09508b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618954"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387463"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-activity-report"></a>Microsoft 365-rapporten in het beheercentrum - Yammer-activiteitenrapport
 
@@ -38,7 +39,7 @@ Als Microsoft 365-beheerder worden in het dashboard **Rapporten** u gegevens wee
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
 
     
-2. Selecteer **Yammer-activiteit** \> **Activity**in de vervolgkeuzelijst **Een rapport** selecteren .
+2. Selecteer **Yammer-activiteit** in de vervolgkeuzelijst **Een rapport** selecteren \> **Activity**.
   
 ## <a name="interpret-the-yammer-activity-report"></a>Het Yammer-activiteitsrapport interpreteren
 

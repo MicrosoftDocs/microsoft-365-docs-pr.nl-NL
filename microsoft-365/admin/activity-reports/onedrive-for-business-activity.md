@@ -12,6 +12,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - SPO_Content
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 - ODB160
 ms.assetid: 8bbe4bf8-221b-46d6-99a5-2fb3c8ef9353
 description: Download het OneDrive-gebruiksrapport voor uw organisatie en ken de activiteit van elke OneDrive-gebruiker, het aantal gedeelde bestanden en het opslaggebruik.
-ms.openlocfilehash: b94e5e34f7599cc372b506c2c365503ea1334685
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 9de2260049d901b401bd62a9e4d05191222b97a3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43047083"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387535"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-activity"></a>Microsoft 365-rapporten in het beheercentrum - Activiteit van OneDrive voor Bedrijven
 
@@ -47,7 +48,7 @@ Raadpleeg het [rapport Gebruik van OneDrive](onedrive-for-business-usage.md) om 
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
 
     
-2. Selecteer **OneDrive-activiteit** \> in de vervolgkeuzelijst **Een rapport** **selecteren**.
+2. Selecteer **OneDrive-activiteit** in de vervolgkeuzelijst **Een rapport** \> **selecteren**.
   
 ## <a name="interpret-the-onedrive-for-business-activity-report"></a>Het OneDrive voor Bedrijven-activiteitenrapport interpreteren
 
@@ -64,7 +65,7 @@ U krijgt inzicht in de OneDrive voor Bedrijven-activiteit door de weergaven **Be
 |5.  <br/> | In de grafiek **Bestanden** geeft de Y-as het aantal unieke bestanden aan dat een gebruiker heeft opgeslagen, gesynchroniseerd, gewijzigd of gedeeld.  <br/>  In de grafiek **Gebruikers** geeft de Y-as het aantal unieke gebruikers aan dat een bestandsactiviteit heeft uitgevoerd (opslaan, synchroniseren, wijzigen of delen) binnen een OneDrive-account.  <br/>  De X-as in alle grafieken is het geselecteerde datumbereik voor dit specifieke rapport.  <br/> |
 |6.  <br/> |U de reeks die u in de grafiek ziet filteren door een item in de legenda te selecteren. Selecteer bijvoorbeeld in de grafiek **Bestanden** **Bekeken of bewerkt** of **Gesynchroniseerd** om alleen de informatie te zien die betrekking heeft op elke grafiek. Door deze selectie te wijzigen, verandert de informatie in de rastertabel niet.  <br/> |
 |7.  <br/> | De tabel toont een uitsplitsing van de gegevens per gebruiker. U kunt kolommen toevoegen aan of verwijderen uit de tabel.   <br/>  **Gebruikersnaam** is de gebruikersnaam van de eigenaar van het OneDrive-account.  <br/> **Datum van laatste activiteit (UTC)** verwijst naar de datum binnen het geselecteerde datumbereik waarop de laatste bestandsactiviteit op de OneDrive-account is waargenomen. Als u activiteit voor een bepaalde datum wilt zien, selecteert u de datum rechtstreeks in de grafiek.  <br/> ![Een specifieke datum in de grafiek selecteren](../../media/29e54c4b-8dc2-4ed8-9367-1f66f2988fac.png)  <br/>  Hiermee filtert u de tabel om bestandsactiviteitsgegevens alleen weer te geven voor gebruikers die de activiteit op die specifieke dag hebben uitgevoerd.  <br/> **Weergegeven of bewerkte bestanden** is het aantal bestanden dat door de gebruiker is geüpload, gedownload, gewijzigd of bekeken.  <br/> **Gesynchroniseerde bestanden** is het aantal bestanden dat is gesynchroniseerd vanaf het lokale apparaat van een gebruiker naar het OneDrive-account.  <br/> **Bestanden die intern worden gedeeld,** is het aantal bestanden dat is gedeeld met gebruikers binnen de organisatie of met gebruikers binnen groepen (waaronder mogelijk externe gebruikers).  <br/> **Extern gedeelde bestanden** is het aantal bestanden dat is gedeeld met gebruikers buiten de organisatie.  <br/> **Verwijderd** geeft aan dat de licentie van de gebruiker werd verwijderd.  <br/> OPMERKING: Activiteit voor een verwijderde gebruiker wordt nog steeds weergegeven in een rapport zolang hij of zij op een bepaald moment tijdens de geselecteerde periode een licentie heeft. In de kolom **Verwijderd** kunt u zien dat de gebruiker niet meer actief is, maar wel heeft bijgedragen aan de gegevens in het rapport.<br/>**Datum verwijderd** is de datum waarop de licentie van de gebruiker werd verwijderd.  <br/> **Toegewezen product** zijn de Microsoft 365-producten waarvoor een licentie is verleend aan de gebruiker.  <br/>  Als het beleid van uw organisatie voorkomt dat u rapporten bekijkt waarin gebruikersgegevens identificeerbaar zijn, u de privacyinstelling voor al deze rapporten wijzigen. Bekijk de **sectie Hoe verberg ik de gegevens op gebruikersniveau?** [Activity Reports in the Microsoft 365 admin center](activity-reports.md)  <br/> |
-|8.  <br/> |Selecteer **Manage columns** het pictogram ![Kolommen](../../media/13d2e536-de88-4db3-80c7-7a3a57298eb4.png) beheren Kolommen beheren om kolommen toe te voegen of te verwijderen uit het rapport.  <br/> |
+|8.  <br/> |Selecteer het pictogram **Kolommen beheren** Kolommen beheren om kolommen toe te voegen of te verwijderen uit ![ het ](../../media/13d2e536-de88-4db3-80c7-7a3a57298eb4.png) rapport.  <br/> |
 |9.  <br/> |U de rapportgegevens ook exporteren naar een CSV-bestand in Excel door de koppeling **Exporteren te** selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren.  <br/> |
 |||
    

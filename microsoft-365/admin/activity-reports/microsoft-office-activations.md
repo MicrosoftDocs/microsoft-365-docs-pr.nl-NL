@@ -11,6 +11,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -18,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 87c24ae2-82e0-4d1e-be01-c3bcc3f18c60
 description: Meer informatie over hoe u een office-activeringsrapport krijgen om te weten welke gebruikers hun Office-abonnement hebben geactiveerd en hoe u gebruikers identificeren die mogelijk extra hulp nodig hebben.
-ms.openlocfilehash: 632973c8d50dffd50725c46163e0af874c64b0c6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3b7d3e599d31377fb11a07623a53a3c75dced129
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621220"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387739"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-office-activations"></a>Microsoft 365-rapporten in het beheercentrum - Microsoft Office-activeringen
 
@@ -39,7 +40,7 @@ Het activeringsrapport van Office geeft een overzicht van welke gebruikers hun O
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
 
     
-2. Selecteer **office 365-activeringen** \> **Activations**in de vervolgkeuzelijst **Een rapport** selecteren . 
+2. Selecteer **office 365-activeringen** in de vervolgkeuzelijst **Een rapport** selecteren \> **Activations**. 
   
 ## <a name="interpret-the-office-activations-report"></a>Het Office-activeringsrapport interpreteren
 
