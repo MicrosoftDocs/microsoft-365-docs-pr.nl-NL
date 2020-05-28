@@ -15,6 +15,7 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -24,12 +25,12 @@ search.appverid:
 ms.assetid: 32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
 description: Ontvang technische en factureringsondersteuning via het telefoonnummer dat wordt weergegeven voor uw land of regio, door uw serviceaanvraag online te versturen of door naar een Microsoft Store te gaan.
 feedback_system: None
-ms.openlocfilehash: f1698de8c9b1d80763c983fbc9adf3778be45645
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 80fa10e01934e98f16fa36403268229409638d68
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707545"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44388243"
 ---
 # <a name="contact-support-for-business-products---admin-help"></a>Contact opnemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders
 
