@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - commerce
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 66315e5b-883a-432b-8650-d896f95af228
 ROBOTS: NOINDEX
 description: Meer informatie over de e-factuur van Microsoft 365 voor bedrijven voor Taiwan.
-ms.openlocfilehash: 0b57ce0cb6b30b4c9dcd37c3b6931a3389b50b68
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 1ea9ff21e25229924cd6815999b9c0868173026f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045878"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401784"
 ---
 # <a name="understand-your-e-invoice-for-microsoft-365-for-business-taiwan"></a>Uw e-factuur voor Microsoft 365 voor bedrijven (Taiwan) begrijpen
 
@@ -55,7 +56,7 @@ Op het moment van het aanmaken van een account, in **stap 1**, Welkom, Laten we 
   
 Nadat u uw account hebt gemaakt, u uw btw-id bijwerken via uw beheercentrum door de volgende stappen te volgen:
   
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
     
 2. Selecteer een abonnement en selecteer **Meer acties**.
     

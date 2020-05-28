@@ -20,13 +20,15 @@ search.appverid:
 - MOE150
 - BEA160
 description: "Ontdek hoeveel belasting u in rekening wordt gebracht voor uw Microsoft 365 voor zakelijk abonnement in verschillende regio's. "
-ms.custom: okr_SMB
-ms.openlocfilehash: 7c071a29fa5cedfc12c69a6471d1321a9167106f
-ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
+ms.openlocfilehash: 72939c40ad340e751be30aecc6e102570ea42eb0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232827"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401748"
 ---
 # <a name="tax-information"></a>Belastinginformatie
 
@@ -186,4 +188,4 @@ Maak de volgende documentatie gereed:
   
 [Uw rekening of factuur weergeven](view-your-bill-or-invoice.md)
   
-[Uw factuur of factuur begrijpen](understand-your-invoice.md)
+[Inzicht in uw rekening of factuur](understand-your-invoice.md)

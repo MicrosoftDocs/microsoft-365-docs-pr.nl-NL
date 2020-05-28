@@ -20,6 +20,7 @@ ms.custom:
 - TopSMBIssues
 - MSStore_Link
 - okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -27,12 +28,12 @@ search.appverid:
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
 description: Koop een Microsoft 365 voor zakelijk abonnement. U hetzelfde type abonnement kopen dat u hebt geprobeerd, of een ander abonnement.
-ms.openlocfilehash: 48786ffc4bd0a8c5e8e13e0062b6db1dd5bed561
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: de141cb42b310bff6221d0bef6d923882dadadfd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045798"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402616"
 ---
 # <a name="buy-a-subscription-to-microsoft-365-for-business-from-your-free-trial"></a>Koop een abonnement op Microsoft 365 voor bedrijven via uw gratis proefversie
 
@@ -50,7 +51,7 @@ Dat gaat heel eenvoudig en wanneer u een abonnement koopt dat van hetzelfde type
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 
 2. Zoek op de pagina **Uw producten** het abonnement dat u wilt kopen. Selecteer **abonnement** kopen in de sectie **Licenties**.
 
@@ -99,7 +100,7 @@ Als u een ander type abonnement koopt dan uw proefperiode, moet u uw gebruikersl
 ::: moniker range="o365-worldwide"
 
 
-1. Ga in het beheercentrum naar de pagina Services <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">voor factureringsaankopen.</a> **Billing** \>
+1. Ga in het beheercentrum naar de pagina **Services voor** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">factureringsaankopen.</a>
 
 2. Selecteer **op** de pagina Services kopen het abonnement dat u wilt kopen en selecteer **Kopen**.
 

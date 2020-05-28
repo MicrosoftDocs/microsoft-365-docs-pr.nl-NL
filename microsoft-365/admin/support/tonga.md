@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over het contact opnemen met de ondersteuning van uw land of regio.
+description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 071cadf365216bc3ae568b1470eae6f30b99ab09
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: dde7dc7c46d6e67f0786f6e44ab3b79d6e43c762
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42806202"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401880"
 ---
 # <a name="contact-support-for-tonga"></a>Neem contact op met ondersteuning voor Tonga
 
@@ -26,13 +27,13 @@ ms.locfileid: "42806202"
 ## <a name="phone-number"></a>Telefoonnummer
 +1 312 843 5148
 
-## <a name="hours"></a>Uur
-### <a name="billing-support"></a>Ondersteuning voor facturering:
+## <a name="hours"></a>Uren
+### <a name="billing-support"></a>Factureringsondersteuning:
 
-Engels: ma-vr 14.00-22.00 uur
+Engels: ma-vr 14:00-22:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Internationale oproepkosten zijn van toepassing
+Internationale gesprekskosten zijn van toepassing

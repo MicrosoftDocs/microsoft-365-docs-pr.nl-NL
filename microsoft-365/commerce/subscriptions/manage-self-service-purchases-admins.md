@@ -11,22 +11,23 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Beheerders kunnen leren hoe ze selfservice-aankopen kunnen beheren die door gebruikers in hun organisatie worden gedaan.
-ms.openlocfilehash: 991dc87c40f41a6cbd2f1c08d4bc72bbb34d28f1
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 562e0e26d9ca7d10d71a46b8cf2d87c487c1b529
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141148"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403268"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Selfservice-aankopen beheren (Beheerders)
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -36,7 +37,7 @@ U ook bepalen of gebruikers in uw organisatie zelfservice-aankopen kunnen doen. 
 
 ## <a name="view-self-service-subscriptions"></a>Selfservice-abonnementen weergeven
 
-1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Kies naast **Resultaten verfijnen**in de vervolgkeuzelijst **Accounttype** de optie **Selfservice**.
 
@@ -44,7 +45,7 @@ U ook bepalen of gebruikers in uw organisatie zelfservice-aankopen kunnen doen. 
 
 ## <a name="view-who-has-licenses-for-a-self-service-purchase-subscription"></a>Zien wie licenties heeft voor een abonnement op selfservice-aankoop
 
-1. Ga in het beheercentrum naar de pagina **Factureringslicenties.** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a>
+1. Ga in het beheercentrum naar de pagina **Factureringslicenties.**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a>
 
 2. Kies het filterpictogram en kies **Self-service**.
 
@@ -63,7 +64,7 @@ U selfservice-aankopen voor gebruikers in uw organisatie uitschakelen of inschak
 
 U de **MSCommerce** PowerShell-module gebruiken om:
 
-- De standaardstatus van de parameter **AllowSelfServicePurchase** &mdash; weergeven, ongeacht of deze is ingeschakeld of uitgeschakeld per product
+- De standaardstatus van de parameter **AllowSelfServicePurchase weergeven,** &mdash; ongeacht of deze is ingeschakeld of uitgeschakeld per product
 - Bekijk een lijst met toepasselijke producten en of selfservice-aankoop is ingeschakeld of uitgeschakeld
 - De huidige instelling voor een specifiek product weergeven of wijzigen om het in te schakelen of uit te schakelen
 
@@ -75,7 +76,7 @@ U bestaande licenties toewijzen of aanvullende abonnementen aanschaffen via best
 
 1. Meld u aan bij het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">beheercentrum</a> met uw globale beheerder- of factureringsbeheeraccount.
 
-2. Ga naar de pagina<a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Services voor factureringsaankopen.</a> **Billing** > 
+2. Ga naar de pagina **Services voor**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">factureringsaankopen.</a>
 
 3. Zoek en kies het product dat u wilt kopen en kies **kopen**.
 

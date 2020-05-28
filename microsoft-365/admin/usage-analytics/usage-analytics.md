@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Krijg een overzicht van hoe uw organisatie Microsoft 365-services gebruikt om te communiceren en samen te werken.
-ms.openlocfilehash: 3e74160cc2e30dc9337e0203fd82ced98869faf7
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 6619205fb62cce3ba7c62c3df773f650dc125dac
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011757"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402020"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 Gebruiksanalyse
 ---
@@ -65,13 +66,13 @@ Het overzichtsrapport van Microsoft 365 bevat de volgende rapporten. U ze bekijk
 
 - **Opslag** &ndash; Gebruik dit rapport om cloudopslag voor postvakken, OneDrive- en SharePoint-sites bij te houden.
 
-- **Mobility** &ndash; Track welke clients en apparaten mensen gebruiken om verbinding te maken met e-mail, Teams, Skype of Yammer.
+- **Mobiliteit** &ndash; Bijhouden welke clients en apparaten mensen gebruiken om verbinding te maken met e-mail, Teams, Skype of Yammer.
 
 ## <a name="activation-and-licensing"></a>Activering en licenties
 
 De activerings- en licentiepagina biedt rapporten over microsoft 365-activering; dat wil zeggen, hoeveel gebruikers Office-apps hebben gedownload en geactiveerd en hoeveel licenties zijn toegewezen door uw organisatie. De maandwaarde naar de top verwijst naar de huidige maand en de statistieken geven waarden weer die zijn samengevoegd vanaf het begin van de maand tot de huidige datum.
 
-- **Activeringstrackserviceplan** &ndash; (bijvoorbeeld Microsoft 365 Apps voor bedrijven, Project en Visio) activeringen in uw organisatie. Elke persoon met een Office-licentie kan producten installeren op maximaal vijf apparaten. U in deze sectie ook rapporten gebruiken om te zien op welke apparaten mensen Office-apps hebben geïnstalleerd. Om een abonnement te activeren, moet een gebruiker de app installeren en zich aanmelden met zijn/haar account.
+- **Activering** &ndash; Serviceplan (bijvoorbeeld Microsoft 365 Apps voor bedrijven, Project en Visio) activeringen bijhouden in uw organisatie. Elke persoon met een Office-licentie kan producten installeren op maximaal vijf apparaten. U in deze sectie ook rapporten gebruiken om te zien op welke apparaten mensen Office-apps hebben geïnstalleerd. Om een abonnement te activeren, moet een gebruiker de app installeren en zich aanmelden met zijn/haar account.
 
 - **Licenties** &ndash; Dit rapport bevat een overzicht van licentietypen, het aantal gebruikers aan wie elk licentietype is toegewezen en de distributie van licentietoewijzing voor elke maand. De maandwaarde naar de top verwijst naar de huidige maand en de statistieken geven waarden weer die zijn samengevoegd vanaf het begin van de maand tot de huidige datum.
 

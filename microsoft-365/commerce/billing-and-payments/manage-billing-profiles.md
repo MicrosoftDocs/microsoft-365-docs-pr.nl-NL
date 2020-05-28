@@ -13,24 +13,24 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
-ms.custom: ''
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Meer informatie over hoe factureringsprofielen facturen ondersteunen.
 keywords: factureringsprofiel, facturen, kosten, beheerde kosten
-ms.openlocfilehash: f93ca5af11ba416fecd13fcceffe75055a776553
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 64f0f6bf456b1251a2db49aa9c2f7473cb7c885b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140888"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401772"
 ---
 # <a name="manage-billing-profiles"></a>Factureringsprofielen beheren
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -38,11 +38,11 @@ Voor commerciële klanten die producten en services van Microsoft kopen, u met f
 
 Factureringsprofielen bevatten de volgende informatie:
 
-- **Factuurrekening** &ndash; Naam van het factureringsaccount waaraan het profiel is gerelateerd
+- **Factureringsaccount** &ndash; Naam van het factureringsaccount waaraan het profiel is gerelateerd
 - **Betalingsmethoden** &ndash; Creditcards of betaalpassen, bankrekeningen, cheque of overschrijving
 - **Contactgegevens** &ndash; Factuuradres en een naam van contactpersonen
-- **Factuurinstellingen** &ndash; Valuta op basis van het land van de factureringsaccount, een optioneel PO-nummer en de optie om facturen als e-mailbijlagen te ontvangen
-- **Machtigingen** &ndash; waarmee u het factureringsprofiel wijzigen, rekeningen betalen of de betalingsmethode in het factureringsprofiel gebruiken om aankopen te doen
+- **Factuurinstellingen** &ndash; Valuta op basis van het land van de factureringsrekening, een optioneel PO-nummer en de optie om facturen als e-mailbijlagen te ontvangen
+- **Machtigingen** &ndash; Machtigingen waarmee u het factureringsprofiel wijzigen, rekeningen betalen of de betalingsmethode in het factureringsprofiel gebruiken om aankopen te doen
 
 Gebruik factureringsprofielen om uw aankopen te beheren en uw factuur aan te passen. Er wordt een maandelijkse factuur gegenereerd voor de producten die zijn gekocht met het factureringsprofiel. U de factuur aanpassen, zoals het aankoopordernummer bijwerken en de voorkeur voor e-mailfactuur.
 

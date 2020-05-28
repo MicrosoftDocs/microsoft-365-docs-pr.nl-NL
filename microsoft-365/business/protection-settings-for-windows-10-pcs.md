@@ -17,17 +17,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Meer informatie over standaardinstellingen en andere instellingen die beschikbaar zijn in Microsoft 365 voor Bedrijven om Windows 10-apparaten te beveiligen.
-ms.openlocfilehash: 9096fb6a8fc790d9a9432578cfd8623f9cb69c7a
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 0403ea2c30221dd5693b7f3e9b4921ad175399a1
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011562"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402801"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Instellingen voor apparaatbeveiliging instellen voor Windows 10-pc's
 
@@ -39,7 +40,7 @@ Bekijk een video over het beveiligen van Windows 10-apparaten met Microsoft 365 
   
 1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. Kies op het linkernavigatienet de optie \> **Apparatenbeleid** \> **Toevoegen**. **Devices**
+2. Kies op het **Devices** linkernavigatienet de optie \> **Apparatenbeleid** \> **Toevoegen**.
   
 3. Voer in het deelvenster **Beleid toevoegen** een unieke naam in voor dit beleid. 
     

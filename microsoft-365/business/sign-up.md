@@ -21,16 +21,17 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 description: Ontdek wat Microsoft 365 Business Premium inhoudt en ontvang stapsgewijze richtlijnen voor het aanmelden voor Microsoft 365 Business Premium.
-ms.openlocfilehash: 443363fa673a112ae13eb5b63308115724d9bd00
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 50662149ae2faa99c567080d5e914c3300ac3494
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635099"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401553"
 ---
 # <a name="sign-up-for-microsoft-365-business-premium"></a>Meld u aan voor Microsoft 365 Business Premium
 
@@ -96,4 +97,4 @@ Zie [instellen](set-up.md)om hulp te krijgen bij het instellen.
 
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft 365 voor zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -17,17 +17,18 @@ ms.custom:
 - Core_O365Admin_Migration
 - MSB365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: De instellingen voor de beveiliging van microsoft 365 Business Premium-apps valideren op Windows 10-apparaten en controleren of gebruikers geen bedrijfsgegevens kunnen kopiëren naar persoonlijke bestanden of niet-beheerde apps.
-ms.openlocfilehash: 20b2e43ae53486c046440ff1066d241ec9661888
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 589d2fc25cc1425a775523595881660cc03e152e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635739"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403385"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Beveiligingsinstellingen voor apps op Windows 10-pc's valideren
 
@@ -37,11 +38,11 @@ Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-wi
   
  **Verbindingsinstellingen controleren**
   
-1. Nadat u zich hebt aangemeld met Microsoft 365 Business Premium-referenties en verbinding hebt gemaakt met Azure AD zoals beschreven in [Windows-apparaten instellen voor Microsoft 365 Business Premium-gebruikers,](set-up-windows-devices.md)gaat u naar **Windows Settings** \> **Accounts** \> **Access werk of school**. Kies **Verbonden met Azure AD van \<naam tenant\>** en kies vervolgens **Info**.
+1. Nadat u zich hebt aangemeld met Microsoft 365 Business Premium-referenties en verbinding hebt gemaakt met Azure AD zoals beschreven in [Windows-apparaten instellen voor Microsoft 365 Business Premium-gebruikers,](set-up-windows-devices.md)gaat u naar **Windows Settings** \> **Accounts** \> **Accounts Access werk of school**. Kies **Verbonden met Azure \<tenant name\> AD**en kies **Vervolgens Info**.
     
     ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
-2. Op de pagina\> Beheerd **op** \<tenantnaam ziet u de **verbindingsgegevens** met een **managementserveradres** zoals in de volgende afbeelding. 
+2. Op de pagina **Beheerd door** ziet u \<tenant name\> de **verbindingsgegevens** met een **managementserveradres** zoals in de volgende afbeelding. 
     
     ![Managed by page shows connection info of the device manager URL.](../media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   
@@ -63,11 +64,11 @@ Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-wi
 
  **Verbindingsinstellingen controleren**
   
-1. Ga op uw persoonlijke Windows 10-apparaat waar u bent aangemeld als lokale gebruiker naar **Windows-instellingen**en klik of tik op **Werk of school voor** **Accounts** \> Toegang .
+1. Ga op uw persoonlijke Windows 10-apparaat waar u bent aangemeld als lokale gebruiker naar **Windows-instellingen**en klik of tik op Werk of school **voor Accounts** \> **Toegang**.
     
 2. Kies **Verbinden** onder **Toegang tot werk of school**.
     
-3. Voer uw Microsoft 365 Business Premium-referentie in in het \> **dialoogvenster Aanmelden voor een werk- of schoolaccount** . **Sign in**
+3. Voer uw Microsoft 365 Business Premium-referentie in in het **dialoogvenster Aanmelden voor een werk- of schoolaccount** \> **Sign in**.
     
 4. Kies op de pagina **Toegang tot werk of school** de optie **Werk- of schoolaccount** en vervolgens **Info**.
     

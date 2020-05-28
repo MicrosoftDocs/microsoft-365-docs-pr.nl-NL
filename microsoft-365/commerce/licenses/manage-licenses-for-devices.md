@@ -15,15 +15,17 @@ ms.collection:
 - Adm_TOC
 - commerce
 description: Meer informatie over het toewijzen van licenties aan groepen voor gebruik met apparaten.
-ms.custom: okr_SMB
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - MET150
-ms.openlocfilehash: 1a525117c25a2471ad696ef1447fd7e4ccb6bed0
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: ce3c8f7d669f2fe5d19c48d7a1fb1f224aaec7f4
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011183"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402868"
 ---
 # <a name="manage-licenses-for-devices"></a>Licenties voor apparaten beheren
 
@@ -41,7 +43,7 @@ Om te beginnen maakt u een groep in het Azure Active Directory-beheercentrum en 
 
 Wanneer u licenties aan een groep toewijst, wijst u licenties toe aan alle apparaten binnen de groep. U slechts één abonnement toewijzen aan één groep.
 
-1. Ga in het Microsoft 365-beheercentrum naar de pagina **Factureringslicenties.** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a>
+1. Ga in het Microsoft 365-beheercentrum naar de pagina **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Factureringslicenties.</a>
 2. Kies **op** de pagina Licenties de optie **Microsoft 365 Apps for Education (apparaat)** of **Microsoft 365 Apps for Enterprise (apparaat).**
 3. Kies op de volgende pagina een abonnement en kies **Licenties toewijzen.**
 4. Begin in het **groepsvenster licenties toewijzen aan een groepsvenster** met het typen van een groepsnaam en kies deze vervolgens uit de resultaten om deze aan de lijst toe te voegen.
@@ -51,7 +53,7 @@ Wanneer u licenties aan een groep toewijst, wijst u licenties toe aan alle appar
 
 Wanneer u licenties uit een groep ongedaan maakt, verwijdert u de licenties van alle apparaten binnen de groep. Alle apps en de bijbehorende gegevens zijn dan alleen-lezen.
 
-1. Ga in het beheercentrum naar de pagina **Factureringslicenties.** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a>
+1. Ga in het beheercentrum naar de pagina **Factureringslicenties.**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a>
 2. Kies **op** de pagina Licenties de optie **Microsoft 365 Apps for Education (apparaat)** of **Microsoft 365 Apps for Enterprise (apparaat).**
 3. Kies op de volgende pagina een abonnement, kies **Meer acties**en kies **Licenties ongedaan maken**.
 4. Kies in het dialoogvenster **Licenties zonder toewijzing** de optie **Niet-toewijzen**.

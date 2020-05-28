@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: a73632a1-62c8-4a13-8115-913773b30f93
 description: Meer informatie over het oplossen van problemen met de Sjabloon-app Microsoft 365 Usage Analytics.
-ms.openlocfilehash: 7164aa246a79a8d8c5aa50d995b53b6221003c01
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 4696dd0c5140cdc110781c226819fc64a90fae1b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212147"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402032"
 ---
 # <a name="troubleshooting-microsoft-365-usage-analytics"></a>Problemen oplossen voor Microsoft 365 Gebruiksanalyse
 
@@ -39,7 +40,7 @@ Raadpleeg de volgende lijst met foutmeldingen voor hulp bij de meest voorkomende
   
  **Oorzaak:** Voordat u verbinding maken met de app, moet u zich abonneren op de gegevens van het Microsoft 365-beheercentrum. Als deze stap niet als eerste wordt uitgevoerd, u geen verbinding maken met de sjabloon-app, zelfs niet als u uw Microsoft 365-tenant-id opgeeft. 
   
- **Ga als volgt te werk om deze fout op te lossen:** Als u zich wilt abonneren op \> de gegevens, gaat u naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">beheercentrum</a> **Rapporten** \> Gebruik en zoek de Microsoft 365 usage analytics tegel op de hoofddashboard pagina. Selecteer de knop **Aan de slag** en schakel in het deelvenster **Rapporten** dat wordt geopend de **gebruiksanalyses voor Power BI beschikbaar maken voor Microsoft 365** in en **Opslaan**.
+ **Ga als volgt te werk om deze fout op te lossen:** Als u zich wilt abonneren op de gegevens, gaat u naar het \> **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">beheercentrum</a> Rapporten Gebruik en zoek de Microsoft 365 usage analytics tegel op de hoofddashboard pagina. Selecteer de knop **Aan de slag** en schakel in het deelvenster **Rapporten** dat wordt geopend de **gebruiksanalyses voor Power BI beschikbaar maken voor Microsoft 365** in en **Opslaan**.
   
 ## <a name="we-are-processing-your-data"></a>Uw gegevens worden verwerkt
 
@@ -67,7 +68,7 @@ Raadpleeg de volgende lijst met foutmeldingen voor hulp bij de meest voorkomende
   
  **Oorzaak:** de tenant-id is een GUID en moet de volgende indeling hebben: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. Als u een andere tekenreeks opgeeft in het invoervak, wordt deze fout weergegeven. 
   
- **Ga als volgt te werk om deze fout op te lossen:** Ga naar het \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">beheercentrum</a> **Rapporten** \> Gebruik en zoek de Microsoft 365 usage analytics tegel op de belangrijkste dashboard pagina. De tenant-id wordt vermeld op de tegel. U het vanaf hier kopiëren en plakken in het dialoogvenster voor verbinding maken met de sjabloon-app. 
+ **Ga als volgt te werk om deze fout op te lossen:** Ga naar het \> **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">beheercentrum</a> Rapporten Gebruik en zoek de Microsoft 365 usage analytics tegel op de belangrijkste dashboard pagina. De tenant-id wordt vermeld op de tegel. U het vanaf hier kopiëren en plakken in het dialoogvenster voor verbinding maken met de sjabloon-app. 
   
 ## <a name="the-tenant-id-you-provided-is-not-recognized-by-our-system"></a>De opgegeven tenant-id wordt niet herkend door het systeem
 
@@ -77,7 +78,7 @@ Raadpleeg de volgende lijst met foutmeldingen voor hulp bij de meest voorkomende
   
  **Oorzaak:** De tenant-id die u hebt opgegeven is niet geldig of bestaat niet. 
   
- **Ga als volgt te werk om deze fout op te lossen:** Ga naar het \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">beheercentrum</a> **Rapporten** \> Gebruik en zoek de Microsoft 365 usage analytics tegel op de belangrijkste dashboard pagina. De tenant-id wordt vermeld op de tegel. U het vanaf hier kopiëren en plakken in het dialoogvenster voor verbinding maken met de sjabloon-app. 
+ **Ga als volgt te werk om deze fout op te lossen:** Ga naar het \> **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">beheercentrum</a> Rapporten Gebruik en zoek de Microsoft 365 usage analytics tegel op de belangrijkste dashboard pagina. De tenant-id wordt vermeld op de tegel. U het vanaf hier kopiëren en plakken in het dialoogvenster voor verbinding maken met de sjabloon-app. 
   
 ## <a name="please-re-enter-your-credentials-to-sign-in-to-power-bi-again"></a>Voer uw referenties nogmaals in om u opnieuw aan te melden bij Power BI
 

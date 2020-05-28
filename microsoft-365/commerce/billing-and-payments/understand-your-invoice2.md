@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - okr_smb
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -24,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: Lees hoe u de kosten, facturering en betalingsgegevens op uw Microsoft 365 voor zakelijke factuur of factuur interpreteert en hoe u het ordernummer van de aankoop wijzigt.
-ms.openlocfilehash: bd0204deb34d1fe08ec6391c24df5ab6fe6cc6d6
-ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
+ms.openlocfilehash: 13eea485a6d748ce8798ddb5075309bec727c6bb
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232791"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402628"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Uw factuur of factuur voor Microsoft 365 voor Bedrijven begrijpen
 

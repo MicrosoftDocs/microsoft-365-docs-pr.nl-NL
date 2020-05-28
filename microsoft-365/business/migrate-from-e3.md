@@ -17,16 +17,17 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 description: Meer informatie over het verplaatsen van uw bedrijf naar Microsoft 365 Business Premium vanuit Office 365 E3.
-ms.openlocfilehash: 0d23e293d599f5b9d6c829d101f2395d6ac21215
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 23d024ed7f18fe6a5f5dc9b59e3ad20069dc3e6a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633185"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402236"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migreren van Office 365 E3 naar Microsoft 365 Business Premium 
 
@@ -41,7 +42,7 @@ In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Off
 | Functie    | Ondersteuning in Microsoft 365 Business Premium    | Ondersteuning in Office 365 E3 | 
 |:-------|:-----|:-----|
 | **On-premises**        | | | 
-| Office-apps<sup>1</sup>    | Microsoft 365 Apps voor bedrijven    | Microsoft 365 Apps voor bedrijven | 
+| Office-apps<sup>1</sup>    | Microsoft 365 Apps voor bedrijven    | Microsoft 365-apps voor ondernemingen | 
 | **Cloud productiviteits-apps**        | | | 
 | Exchange Online en Outlook    | 50 GB opslaglimiet per postvak en onbeperkt Exchange Online Archiveren    | 100 GB opslaglimiet per postvak en onbeperkt Exchange Online Archiveren | 
 | Teams    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
@@ -93,7 +94,7 @@ Als u iedereen in uw organisatie hebt geüpgraded naar Microsoft 365 Business Pr
 
 U de volgende stappen ook uitvoeren op de pagina Apparaten:
   
-1. Ga in het beheercentrum in de linkernavigatienaar \> **Apparatenbeleid**. **Devices**
+1. Ga in het beheercentrum in de **Devices** linkernavigatienaar \> **Apparatenbeleid**.
     
 2. Kies op de pagina **Apparaatbeleid** de optie **Toevoegen**.
     

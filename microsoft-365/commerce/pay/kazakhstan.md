@@ -9,26 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Meer informatie over waar u de betaling voor uw abonnement verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ce93bc4349ab46acd775dbe3b7eaace15baf7e46
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: b715ff4b7bdea13d199f36a986ab8a400293d156
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42805981"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401676"
 ---
 # <a name="payment-information-for-kazakhstan"></a>Betalingsgegevens voor Kazachstan
 
 [Zoek een ander land of regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in USD en raadpleeg factuurnummer(s) bij uw betalingsoverschrijving.
+Betaal alleen in USD en referentiefactuurnummer(s) voor uw betalingsoverschrijving.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
-**Bank:** Citibank  
-**SWIFT-code:** CITIGB2L  
+**Bank:** Citibank, Londen  
+**SWIFT-code:** CITIGB2L CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Rekeningnummer:** 12510049  
 **Accountnaam:** Microsoft  

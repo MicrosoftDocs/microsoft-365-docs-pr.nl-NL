@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over het contact opnemen met de ondersteuning van uw land of regio.
+description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 564c37283b47e9ac3fb42f48ec2bf2a7b6e53079
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 3bc781ca06797237b2576f8b5f83422d41df91d0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42811772"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402080"
 ---
 # <a name="contact-support-for-ukraine"></a>Neem contact op met ondersteuning voor Oekraïne
 
@@ -26,15 +27,15 @@ ms.locfileid: "42811772"
 ## <a name="phone-number"></a>Telefoonnummer
 0800 502 285
 
-## <a name="hours"></a>Uur
-### <a name="billing-support"></a>Ondersteuning voor facturering:
+## <a name="hours"></a>Uren
+### <a name="billing-support"></a>Factureringsondersteuning:
 
-Russisch: ma-vr 10 AM-19:00 Moskou
+Russisch: ma-vr 10:00-19:00 Moskou
 
-Engels: ma-vr 9:00-5 uur Londen
+Engels: ma-vr 9:00-17:00 Londen
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Russisch: ma-vr 7:00-20:00 Moskou
+Russisch: ma-vr 7 am-8 PM Moskou
 
 Engels: 24 uur per dag, 7 dagen per week

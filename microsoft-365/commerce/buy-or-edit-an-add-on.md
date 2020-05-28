@@ -21,20 +21,22 @@ search.appverid:
 - BEA160
 ms.assetid: 4e7b57d6-b93b-457d-aecd-0ea58bff07a6
 description: Meer informatie over het aanschaffen van een add-on om extra functionaliteit toe te voegen aan uw Microsoft 365 voor Bedrijven-abonnement. U ook een add-on bijwerken en verwijderen.
-ms.custom: okr_SMB
-ms.openlocfilehash: 60bc63d4db84667f00ab0bde95e8541f45a38df7
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
+ms.openlocfilehash: e22c4193fffa1d97334f61e789265e75d55d53a3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141288"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402188"
 ---
 # <a name="buy-or-edit-an-add-on"></a>Een invoegtoepassing kopen of bewerken
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -44,7 +46,7 @@ Verschillende van de Microsoft 365 voor zakelijke abonnementen hebben add-ons di
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina Services <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">voor factureringsaankopen.</a> **Billing** \>
+1. Ga in het beheercentrum naar de pagina **Services voor** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">factureringsaankopen.</a>
 
 2. Selecteer Onder aan de pagina **Inkoopservices** de optie **Invoegtoepassingen**.
 
@@ -66,7 +68,7 @@ Verschillende van de Microsoft 365 voor zakelijke abonnementen hebben add-ons di
 
 2. Selecteer op de pagina **Abonnementen** het abonnement waarvoor u een invoegtoepassing wilt kopen.
 
-3. **Selecteer** \> Invoegtoepassingen invoegen kopen in de linkerbenedenhoek van de **abonnementsgegevens.**
+3. **Selecteer** Invoegtoepassingen invoegen kopen in de linkerbenedenhoek van de \> abonnementsgegevens. **Buy add-ons**
 
     ![Koppeling Add-ons kopen op de pagina Abonnementen van het Microsoft 365-beheercentrum.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
   
@@ -88,7 +90,7 @@ Verschillende van de Microsoft 365 voor zakelijke abonnementen hebben add-ons di
 
 2. Selecteer op de pagina **Abonnementen** het abonnement waarvoor u een invoegtoepassing wilt kopen.
 
-3. **Selecteer** \> Invoegtoepassingen invoegen kopen in de linkerbenedenhoek van de **abonnementsgegevens.**
+3. **Selecteer** Invoegtoepassingen invoegen kopen in de linkerbenedenhoek van de \> abonnementsgegevens. **Buy add-ons**
 
     ![Koppeling Add-ons kopen op de pagina Abonnementen van het Microsoft 365-beheercentrum.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
   
@@ -116,7 +118,7 @@ Welke stappen u volgt om een invoegtoepassingen bij te werken hangt af van de in
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 
 2. Selecteer **op** de pagina Uw producten het abonnement waarvoor u een add-on wilt bijwerken.
 
@@ -179,7 +181,7 @@ Welke stappen u volgt om een invoegtoepassingen bij te werken hangt af van de in
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 
 2. Selecteer op de pagina **Uw producten** het invoegabonnement dat u wilt bijwerken en selecteer vervolgens **Licenties toevoegen/verwijderen.**
 

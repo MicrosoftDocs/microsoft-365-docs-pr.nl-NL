@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Lees wat er met uw gegevens gebeurt wanneer uw Microsoft 365 voor Bedrijven-abonnement verloopt, is uitgeschakeld of als u opzegt.
-ms.openlocfilehash: 363d8379bb2fa34e58a81892beadcebb9c6624f2
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: e1953f439577b9339b035968a63e8d1a6eddcd29
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165117"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403160"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor bedrijven-abonnement afloopt?
 
@@ -40,9 +41,9 @@ Als uw abonnement afloopt, hetzij omdat het verloopt, hetzij omdat u besluit te 
 
 In de volgende tabel wordt uitgelegd wat u verwachten wanneer een betaald Microsoft 365 voor zakelijk abonnement verloopt.
 
-| **Actief**                                                             | **Verlopen <br/>(30\*dagen)**                                                | **Uitgeschakeld <br/>(90\*dagen)**                                               | **Gedeprovisioneerd**                                                                         |
+| **Actief**                                                             | **Verlopen <br/> (30 \* dagen)**                                                | **Uitgeschakeld <br/> (90 \* dagen)**                                               | **Gedeprovisioneerd**                                                                         |
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| *Gegevens die toegankelijk zijn voor iedereen*                                               | *Gegevens die toegankelijk zijn voor iedereen*                                                     | *Alleen gegevens die toegankelijk zijn voor beheerders*                                             | **Gegevens verwijderd<br/>Azure Active Directory wordt verwijderd, indien niet in gebruik door andere services** |
+| *Gegevens die toegankelijk zijn voor iedereen*                                               | *Gegevens die toegankelijk zijn voor iedereen*                                                     | *Alleen gegevens die toegankelijk zijn voor beheerders*                                             | **Gegevens verwijderd <br/> Azure Active Directory wordt verwijderd, indien niet in gebruik door andere services** |
 | Gebruikers hebben normale toegang tot Microsoft 365,gegevens en Office-toepassingen  | Gebruikers hebben normale toegang tot Microsoft 365, bestanden en toepassingen              | Gebruikers hebben geen toegang tot Microsoft 365, bestanden of toepassingen                        | Gebruikers hebben geen toegang tot Microsoft 365, bestanden of toepassingen                                     |
 | Beheerders hebben normale toegang tot Microsoft 365,gegevens en Office-toepassingen | Beheerders hebben toegang tot het beheercentrum                                           | Beheerders hebben toegang tot het beheercentrum, maar kunnen geen licenties toewijzen aan gebruikers       | Beheerders hebben toegang tot het beheercentrum om andere abonnementen te kopen en te beheren             |
 |                                                                        | Globale of factureringsbeheerders kunnen het abonnement opnieuw activeren in het beheercentrum | Globale of factureringsbeheerders kunnen het abonnement opnieuw activeren in het beheercentrum |                                                                                           |

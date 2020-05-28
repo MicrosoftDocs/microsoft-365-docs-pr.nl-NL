@@ -11,22 +11,23 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Gebruikers kunnen leren hoe ze hun selfservice-aankopen kunnen beheren.
-ms.openlocfilehash: 8f141f28c2f1241d19ed34ae234c3b122dd9d69c
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: e8cb319b482ef49090544916b5e76a02083ebf06
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141122"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403256"
 ---
 # <a name="manage-self-service-purchases-users"></a>Selfservice-aankopen beheren (Gebruikers)
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -37,11 +38,11 @@ Uw beheerder heeft een alleen-lezen weergave van alle abonnementen die u koopt. 
 
 ## <a name="view-your-subscriptions"></a>Uw abonnementen bekijken
 
-U een lijst bekijken van alle selfservice gekochte abonnementen die u hebt gekocht. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+U een lijst bekijken van alle selfservice gekochte abonnementen die u hebt gekocht. Ga in het beheercentrum naar de pagina **Facturering**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 ## <a name="how-to-buy-more-or-reduce-licenses"></a>Meer kopen of licenties verminderen
 
-1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Zoek het abonnement waarvoor u meer wilt kopen of voor licenties wilt verminderen.
 
@@ -54,7 +55,7 @@ Als u bijvoorbeeld 100 licenties hebt en u 5 extra licenties wilt toevoegen, voe
 
 ### <a name="to-assign-licenses"></a>Licenties toewijzen
 
-1. Ga in het beheercentrum naar de pagina **Factureringslicenties.** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a>
+1. Ga in het beheercentrum naar de pagina **Factureringslicenties.**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a>
 
 2. Kies het abonnement waarvoor u licenties wilt toewijzen.
 
@@ -69,7 +70,7 @@ Als u bijvoorbeeld 100 licenties hebt en u 5 extra licenties wilt toevoegen, voe
 
 ### <a name="to-unassign-licenses"></a>Licenties ongedaan maken
 
-1. Ga in het beheercentrum naar de pagina **Factureringslicenties.** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a>
+1. Ga in het beheercentrum naar de pagina **Factureringslicenties.**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a>
 
 2. Kies het product waarvoor u licenties wilt ongedaan maken.
 
@@ -81,7 +82,7 @@ Als u bijvoorbeeld 100 licenties hebt en u 5 extra licenties wilt toevoegen, voe
 
 ## <a name="cancel-a-subscription"></a>Een abonnement opzeggen
 
-1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
 2. Zoek het abonnement dat u wilt opzeggen.
 
@@ -91,7 +92,7 @@ Als u bijvoorbeeld 100 licenties hebt en u 5 extra licenties wilt toevoegen, voe
 
 ## <a name="manage-your-payment-details"></a>Uw betalingsgegevens beheren
 
-1. Ga in het beheercentrum naar de pagina > **Factureringsfacturen & betalingen** >  **Billing**<a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Factureringsprofielen.</a>
+1. Ga in het beheercentrum **Billing**naar de pagina  >  **Factureringsfacturen & betalingen**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Factureringsprofielen.</a>
 
 2. Selecteer een factureringsprofiel in de lijst.
 
@@ -104,7 +105,7 @@ Als u bijvoorbeeld 100 licenties hebt en u 5 extra licenties wilt toevoegen, voe
 
 ### <a name="update-an-existing-payment-method"></a>Een bestaande betalingsmethode bijwerken
 
-1. Ga in het beheercentrum naar de pagina **Facturen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& facturen.</a>
+1. Ga in het beheercentrum **Billing**naar de pagina  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Facturen & facturen.</a>
 
 2. Als u een bestaande betalingsmethode wilt bewerken, kiest u deze in de lijst.
 
@@ -114,7 +115,7 @@ Als u bijvoorbeeld 100 licenties hebt en u 5 extra licenties wilt toevoegen, voe
 
 ### <a name="add-a-new-payment-method"></a>Een nieuwe betalingsmethode toevoegen
 
-1. Ga in het beheercentrum naar de pagina **Facturen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& facturen.</a>
+1. Ga in het beheercentrum **Billing**naar de pagina  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Facturen & facturen.</a>
 
 2. Kies **Een betalingsmethode toevoegen**.
 
@@ -122,7 +123,7 @@ Als u bijvoorbeeld 100 licenties hebt en u 5 extra licenties wilt toevoegen, voe
 
 ## <a name="view-your-invoices"></a>Bekijk uw facturen
 
-1. Ga in het beheercentrum naar **de** > pagina<a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Facturen & facturen.</a>
+1. Ga in het beheercentrum naar **de**pagina Facturen  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& facturen.</a>
 
 2. Selecteer **onder Facturen** de factuur die u wilt weergeven.
 

@@ -9,26 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Meer informatie over waar u de betaling voor uw abonnement verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 225cee07151f63987657bcbf787a9840aec942ac
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 6c763a28e8ddcc7405fd818a538ed54dbd889d10
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42808520"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402388"
 ---
 # <a name="payment-information-for-korea"></a>Betalingsgegevens voor Korea
 
 [Zoek een ander land of regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in KRW en raadpleeg factuurnummer(s) over uw betalingsoverschrijving.
+Betaal alleen in KRW en verwijs naar factuurnummer(s) voor uw betalingsoverschrijving.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
 **Bank:** Citibank  
 **Tak:** 89-29 Shinmunro-2ka Chongro-gu Seoul, Korea 110-062  
-**SWIFT-code:** CITIKRSX  
+**SWIFT-code:** CITIKRSX CITIKRSX  
 **Rekeningnummer:** 5001296088  
 **Accountnaam:** MICROSOFT KOREA  

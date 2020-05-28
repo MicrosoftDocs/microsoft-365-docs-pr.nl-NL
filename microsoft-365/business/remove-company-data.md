@@ -18,17 +18,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: Ontdek hoe u Microsoft 365 voor bedrijven gebruiken om bedrijfsgegevens te verwijderen die uw gebruikers op hun apparaten of Windows-pc's hebben.
-ms.openlocfilehash: 80997a48bb3924ab20f16a454120d24caf76e1e7
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 42784149fcf6b850e7d0483c17dd605e7ecb7cf0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634843"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402781"
 ---
 # <a name="remove-company-data-from-devices"></a>Bedrijfsgegevens van apparaten verwijderen
 
@@ -40,7 +41,7 @@ U Microsoft 365 voor bedrijven gebruiken om bedrijfsgegevens te verwijderen die 
   
 1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     
-2. Kies **Apparaten** \> **beheren**op het linkernavigatiescherm .  
+2. Kies **Apparaten** beheren op het linkernavigatiescherm \> **Manage**.  
   
 3. Kies of zoek op de pagina **Beheren** naar een gebruiker die gegevens moet verwijderen en kies de naam. 
     
@@ -48,7 +49,7 @@ U Microsoft 365 voor bedrijven gebruiken om bedrijfsgegevens te verwijderen die 
     
     ![Selecteer in het deelvenster Bedrijfsgegevens verwijderen het apparaat waarvan u de gegevens wilt verwijderen.](../media/resetorremove.png)
   
-5. Kies **Sluiten** **bevestigen** \> in het bevestigingsvenster .
+5. Kies Sluiten **bevestigen** in het bevestigingsvenster \> **Close**.
     
 
 

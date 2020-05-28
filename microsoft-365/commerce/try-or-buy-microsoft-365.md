@@ -14,24 +14,25 @@ ms.collection:
 - Adm_O365
 - commerce
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: Meer informatie over het krijgen van een gratis proefversie of het kopen van een abonnement voor Microsoft 365.
-ms.openlocfilehash: 19529192e2fa48ac081a84e9ad54669c3ef16791
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 28ec622d32c3218238edf9c171b1eb0566a93c60
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141052"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403136"
 ---
 # <a name="try-or-buy-a-microsoft-365-subscription"></a>Koop een Microsoft 365-abonnement of probeer er een uit
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -50,7 +51,7 @@ Wanneer u een abonnement toevoegt via het beheercentrum, wordt het nieuwe abonne
 ::: moniker range="o365-worldwide"
 
 
-1. Meld u aan bij [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339)het beheercentrum bij , en ga vervolgens naar **Billing** \> **Purchase services**.
+1. Meld u aan bij het beheercentrum bij [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) , en ga vervolgens naar **Billing** \> **Purchase services**.
 
 2. Op de pagina **Services kopen** worden de abonnementen vermeld die beschikbaar zijn voor uw organisatie. Kies het Microsoft 365-abonnement dat u wilt proberen of kopen.
 
@@ -79,7 +80,7 @@ Wanneer u een abonnement toevoegt via het beheercentrum, wordt het nieuwe abonne
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-1. Meld u aan bij [https://portal.office.de](https://go.microsoft.com/fwlink/?linkid=847686)het beheercentrum bij , en ga vervolgens naar **Billing** \> **Purchase services**.
+1. Meld u aan bij het beheercentrum bij [https://portal.office.de](https://go.microsoft.com/fwlink/?linkid=847686) , en ga vervolgens naar **Billing** \> **Purchase services**.
 
 2. Op de pagina **Services kopen** worden de abonnementen vermeld die beschikbaar zijn voor uw organisatie. 
 
@@ -107,7 +108,7 @@ Wanneer u een abonnement toevoegt via het beheercentrum, wordt het nieuwe abonne
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
-1. Meld u aan bij [https://portal.partner.microsoftonline.cn](https://go.microsoft.com/fwlink/?linkid=850628)het beheercentrum bij , en ga vervolgens naar **Billing** \> **Purchase services**.
+1. Meld u aan bij het beheercentrum bij [https://portal.partner.microsoftonline.cn](https://go.microsoft.com/fwlink/?linkid=850628) , en ga vervolgens naar **Billing** \> **Purchase services**.
 
 2. Op de pagina **Services kopen** worden de abonnementen vermeld die beschikbaar zijn voor uw organisatie. 
 

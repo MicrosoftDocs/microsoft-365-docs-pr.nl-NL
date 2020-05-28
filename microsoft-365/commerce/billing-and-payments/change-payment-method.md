@@ -18,6 +18,7 @@ ms.custom:
 - TopSMBIssues
 - MSStore_Link
 - okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -26,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: Meer informatie over het wijzigen van de betalingsmethode voor uw zakelijke abonnement.
-ms.openlocfilehash: 195bdcd580663fe2cb9789562a52208753500a79
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: babc8911305fe009ad3b9dc49163a0525c6d0666
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045902"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401808"
 ---
 # <a name="change-your-payment-method"></a>Uw betalingsmethode wijzigen
 
@@ -113,7 +114,7 @@ Als u uw betalingswijze wijzigt van factuur naar betalen met een creditcard of v
   
 Als u uw betalingswijze wijzigt van factuur naar creditcard of bankrekening, maken we automatisch een nieuw abonnement voor u, verplaatsen we uw gebruikers naar het nieuwe abonnement en schakelen we vervolgens uw oude abonnement uit. Uw gebruikers merken daar niets van en al hun informatie is gewoon beschikbaar in het nieuwe abonnement.
 
-1. Ga in het beheercentrum naar de pagina\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Factureringsabonnementen.</a> **Billing**
+1. Ga in het beheercentrum **Billing** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Factureringsabonnementen.</a>
 
 2. Zoek het abonnement dat u wilt wijzigen. Selecteer **betalingsgegevens wijzigen**in de sectie **Betalingsgegevens** .
   
@@ -177,7 +178,7 @@ Als er geen kredietcontrole vereist is, gebruikt u de volgende stappen om te wij
 > [!NOTE]
 > De optie om per factuur te betalen is alleen beschikbaar als uw abonnement meer dan een bepaald bedrag kost (dat verschilt per servicelocatie). Bij grotere factuurbetalingen kan kredietcontrole vereist zijn. Zie [Betalen voor uw abonnement voor](pay-for-your-subscription.md)meer informatie.
 
-1. Ga in het beheercentrum naar de pagina\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Factureringsabonnementen.</a> **Billing**
+1. Ga in het beheercentrum **Billing** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Factureringsabonnementen.</a>
 
 2. Zoek het abonnement dat u wilt wijzigen. Selecteer in de sectie **Betalingsmethode** de optie **Betalingsgegevens wijzigen**.
   
@@ -204,7 +205,7 @@ U kunt op elk moment de volgende stappen uitvoeren om te controleren welke betal
 
 ### <a name="use-the-old-admin-center-to-verify-which-payment-method-is-configured"></a>Het oude beheercentrum gebruiken om te controleren welke betalingsmethode is geconfigureerd
 
-1. Ga in het beheercentrum naar de pagina\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Factureringsabonnementen.</a> **Billing**
+1. Ga in het beheercentrum **Billing** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Factureringsabonnementen.</a>
 
 2. Zoek het abonnement dat u wilt verifiëren. De betalingsmethode die is geconfigureerd voor het abonnement wordt weergegeven onder **Betalingsmethode**.
 
@@ -216,7 +217,7 @@ U kunt op elk moment de volgende stappen uitvoeren om te controleren welke betal
 
 U kunt op elk moment de volgende stappen uitvoeren om te controleren welke betalingswijze is geconfigureerd voor een abonnement.
 
-1. Ga in het beheercentrum naar de pagina\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Factureringsabonnementen.</a> **Billing**
+1. Ga in het beheercentrum **Billing** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Factureringsabonnementen.</a>
 
 2. Zoek het abonnement dat u wilt verifiëren. De betalingsmethode die is geconfigureerd voor het abonnement wordt weergegeven onder **Betalingsmethode**.
 

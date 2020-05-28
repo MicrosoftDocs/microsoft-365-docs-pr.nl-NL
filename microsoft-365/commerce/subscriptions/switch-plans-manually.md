@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,12 +23,12 @@ search.appverid:
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
 description: Schakel Microsoft 365 voor zakelijke abonnementen handmatig over door een nieuw abonnement aan te schaffen en ervoor te zorgen dat beide abonnementen worden vermeld en actief.
-ms.openlocfilehash: f06e6a5f441286cbe048187eea39889772bb4e75
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 6d6f28dc45f1d5c8efc7202f1be718f8517cf12f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707509"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403196"
 ---
 # <a name="switch-microsoft-365-for-business-plans-manually"></a>Microsoft 365 handmatig overschakelen voor bedrijfsabonnementen
 
@@ -137,7 +138,7 @@ De licenties voor het huidige abonnement worden later verwijderd. U betaalt vana
   
 5. Schakel de schakelpositie in naar de **uit-positie** voor licenties die deze gebruiker niet meer nodig heeft.
 
-6. Selecteer Sluiten **Assign** \> **Close** \> **toewijzen**onder aan het deelvenster **Productlicenties** .
+6. Selecteer Sluiten **Assign** toewijzen onder aan het deelvenster **Productlicenties** \> **Close** \> **Close**.
 
 ### <a name="reassign-licenses-for-multiple-users-at-once"></a>Licenties opnieuw toewijzen voor meerdere gebruikers tegelijk
 

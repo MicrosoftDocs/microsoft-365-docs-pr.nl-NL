@@ -16,17 +16,18 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Meer informatie over het verplaatsen van uw bedrijf van Microsoft 365 Business Premium naar Microsoft 365 E3.
-ms.openlocfilehash: a41b27b91bd049abb2231a397a328f4f53af9500
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6a795d96ccae7e054e7e52d4fd60a4e73b3c71dd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633173"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401988"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Migreren van Microsoft 365 Business Premium naar Microsoft 365 E3
 
@@ -50,7 +51,7 @@ In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Mic
 |:-------|:-----|:-----|
 | **On-premises**        | | | 
 | Windows 10    | Windows 10 Business  |     Windows 10 Enterprise E3| 
-| Office-apps*    | [Microsoft 365 Apps voor bedrijven](#office-365-business)    | Microsoft 365 Apps voor bedrijven | 
+| Office-apps*    | [Microsoft 365 Apps voor bedrijven](#office-365-business)    | Microsoft 365-apps voor ondernemingen | 
 | **Cloud productiviteits-apps**        | | | 
 | Exchange Online en Outlook    | 50 GB opslaglimiet per postvak en onbeperkt Exchange Online-archivering    | 100 GB opslaglimiet per postvak en onbeperkt Exchange Online-archivering | 
 | Teams    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
@@ -76,7 +77,7 @@ In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Mic
 | Vensterinformatiebeveiliging voor eindpunt DLP    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
 | **Clienttoegangslicentie (CAL-rechten)**    | | |     
 | Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, Windows Rights Management)| |         ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| **Compliance**        | | | 
+| **Naleving**        | | | 
 | Onbeperkt e-mailarchiveren    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
 | Compliance Score/Compliance Manager    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
 | eDiscovery    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 

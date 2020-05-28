@@ -17,17 +17,18 @@ ms.custom:
 - Core_O365Admin_Migration
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: f3433b6b-02f7-447f-9d62-306bf03638b0
 description: Meer informatie over het valideren van de instellingen voor de beveiliging van de Microsoft 365 Business Premium-app op uw Android- of iOS-apparaten.
-ms.openlocfilehash: d25a23bc8eb56e05bd74f7bf4658ee9e18dc41f8
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d4b8ec3ff3a15c25133b20d437249611530977a5
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635719"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403365"
 ---
 # <a name="validate-app-protection-settings-on-android-or-ios-devices"></a>Instellingen voor app-beveiliging valideren op Android- of iOS-apparaten
 
@@ -41,7 +42,7 @@ Nadat u [app-configuraties voor Android-apparaten hebt ingesteld](app-protection
   
 Zorg er eerst voor dat het beleid van toepassing is op de app waarin u deze gaat valideren.
   
-1. Ga in het Microsoft 365 Business [Premium-beheercentrum](https://portal.office.com)naar **beleid** \> **bewerken**.
+1. Ga in het Microsoft 365 Business **Policies** [Premium-beheercentrum](https://portal.office.com)naar \> **beleid bewerken**.
     
 2. Kies **Toepassingsbeleid voor Android** voor de instellingen die u hebt gemaakt bij de installatie of een ander beleid dat u hebt gemaakt, en controleer of het bijvoorbeeld wordt afgedwongen voor Outlook. 
     
@@ -130,7 +131,7 @@ Nadat u [app-configuraties voor iOS-apparaten hebt ingesteld](app-protection-set
   
 Zorg er eerst voor dat het beleid van toepassing is op de app waarin u deze gaat valideren.
   
-1. Ga in het Microsoft 365 Business [Premium-beheercentrum](https://portal.office.com)naar **beleid** \> **bewerken**.
+1. Ga in het Microsoft 365 Business **Policies** [Premium-beheercentrum](https://portal.office.com)naar \> **beleid bewerken**.
     
 2. Kies **Toepassingsbeleid voor iOS** voor de instellingen die u hebt gemaakt bij de installatie of een ander beleid dat u hebt gemaakt, en controleer of het bijvoorbeeld wordt afgedwongen voor Outlook. 
     

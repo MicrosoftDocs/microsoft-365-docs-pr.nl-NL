@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - commerce
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: Wijzig abonnementen handmatig door een nieuw abonnement aan te schaffen en ervoor te zorgen dat beide abonnementen worden vermeld en actief.
-ms.openlocfilehash: fcaa3ebfd9d20fa50c9f37f3366aec9d4dd69103
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 20f5492a816c6c819456ac2ca4aa0f20da24eccd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046190"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403280"
 ---
 # <a name="change-plans-manually"></a>Plannen handmatig wijzigen
 
@@ -53,12 +54,12 @@ OF
 
 **Koop een nieuw abonnement en licenties:** Volg de stappen in [Een ander Microsoft 365 voor zakelijk abonnement](../buy-another-subscription.md) kopen om een nieuw abonnement te kopen.
 
-Het is belangrijk dat u een licentie koopt voor de organisatie waarvan de gebruikers nu ook deel uitmaken. Controleer bijvoorbeeld de e-mailadressen voor de gebruikers die u wilt verplaatsen. Als hun e-mailadressen contoso.com bevatten, \@moet u een nieuw abonnement voor contoso.com kopen.
+Het is belangrijk dat u een licentie koopt voor de organisatie waarvan de gebruikers nu ook deel uitmaken. Controleer bijvoorbeeld de e-mailadressen voor de gebruikers die u wilt verplaatsen. Als hun e-mailadressen \@ contoso.com bevatten, moet u een nieuw abonnement voor contoso.com kopen.
 Koop ook een licentie voor elke gebruiker die u wilt verplaatsen.
 
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>Stap 3: Controleer uw nieuwe abonnement en licenties
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 
 2. **Controleren of beide abonnementen worden vermeld en actief** Het abonnement waarvan u gebruikers verplaatst en het abonnement waarnaar u gebruikers verplaatst, moeten samen worden weergegeven. Als u het nieuwe abonnement niet ziet, wacht u een tijdje en kijkt u dan nog een keer. Controleer of beide abonnementen actief zijn. [Het nieuwe abonnement wordt niet vermeld of is niet actief](#the-new-subscription-isnt-listed-or-isnt-active).
 

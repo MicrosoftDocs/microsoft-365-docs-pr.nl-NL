@@ -24,12 +24,13 @@ description: Meer informatie over welke betalingsopties beschikbaar zijn om te b
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: a1ee158079e30348c3b1f9f26ef0b62160bf9544
-ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
+- AdminSurgePortfolio
+ms.openlocfilehash: 387cc4af038bea572a60176b2c2b400f410aa6ad
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232873"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401760"
 ---
 # <a name="pay-for-your-subscription"></a>Betalen voor uw abonnement
 
@@ -312,4 +313,4 @@ Als uw oorspronkelijke redenen voor het kiezen van de factuur, creditcard of ban
 
 [Een creditcard of bankrekening toevoegen, bijwerken of verwijderen](add-update-or-remove-credit-card-or-bank-account.md)
 
-[Uw factuur of factuur begrijpen](understand-your-invoice2.md)
+[Inzicht in uw rekening of factuur](understand-your-invoice2.md)

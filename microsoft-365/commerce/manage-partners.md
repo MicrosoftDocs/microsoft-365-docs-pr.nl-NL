@@ -11,30 +11,30 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
-ms.custom: ''
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Meer informatie over het werken met door Microsoft gecertificeerde solution providers (partners) om producten en services voor uw organisatie of school aan te schaffen en te beheren.
 keywords: partner, solution provider
-ms.openlocfilehash: 3ba5a62caf199bf1e111ecf921df0f21568d5257
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 752c9e0237bbdde7be996b5675848e948e866dce
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141205"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402592"
 ---
 # <a name="manage-partner-relationships"></a>Partnerrelaties beheren
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
 U samenwerken met door Microsoft gecertificeerde solution providers (partners) om producten en services voor uw organisatie of school aan te schaffen en te beheren. Er zijn een paar stappen die betrokken zijn bij het opzetten van dingen.
 
-- Beheerders vinden en nemen contact op <a href="https://www.microsoft.com/en-us/solution-providers/home" target="_blank">https://www.microsoft.com/en-us/solution-providers/home</a>met een partner via het formulier op .
+- Beheerders vinden en nemen contact op met een partner via het formulier op <a href="https://www.microsoft.com/en-us/solution-providers/home" target="_blank">https://www.microsoft.com/en-us/solution-providers/home</a> .
 - Partners sturen een e-mailverzoek naar klanten om een partnerrelatie op te bouwen.
 - Klanten accepteren de uitnodiging in het Microsoft 365-beheercentrum en gaan met de partner samenwerken.
 
@@ -90,7 +90,7 @@ Als u de beheerdersrechten niet aan de partner wilt delegeren, annuleert u de ui
 
 Als u beheerdersrechten aan een partner delegeren, u deze bevoegdheden op elk gewenst moment verwijderen. Als u beheerdersrechten verwijdert, wordt de partnerrelatie niet verwijderd. Ze kunnen nog steeds met u samenwerken, bijvoorbeeld als reseller.
 
-1. Ga in het beheercentrum naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Factureringsfactureringsaccounts.</a> **Billing**
+1. Ga in het beheercentrum **Billing**naar de pagina  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Factureringsfactureringsaccounts.</a>
 2. Selecteer op de pagina **Factureringsaccounts** het tabblad **Partnerrelaties.**
 3. Selecteer de rij met de naam van de partner.
 4. Selecteer op de partnerpagina **Beheerdersrollen verwijderen**.
@@ -99,7 +99,7 @@ Als u beheerdersrechten aan een partner delegeren, u deze bevoegdheden op elk ge
 
 Als u besluit dat u niet meer met een partner wilt werken, u de relatie beëindigen. U echter alleen relaties verwijderen wanneer de partner een gedelegeerde beheerder of een adviseur is. Neem voor alle andere partnertypen contact op met uw partner om de relatie te beëindigen.
 
-1. Ga in het beheercentrum naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Factureringsfactureringsaccounts.</a> **Billing**
+1. Ga in het beheercentrum **Billing**naar de pagina  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Factureringsfactureringsaccounts.</a>
 2. Selecteer op de pagina **Factureringsaccounts** het tabblad **Partnerrelaties.**
 3. Selecteer de rij met de naam van de partner.
 4. Selecteer **partner verwijderen**op de pagina partnerdetails .

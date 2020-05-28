@@ -19,17 +19,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Installeer Office op een iPhone of een Android-telefoon en uw werkbestanden in Office-apps worden beschermd door Microsoft 365 voor Bedrijven.
-ms.openlocfilehash: 1263a922ba41083511fec8030634ed6cfaf70f00
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e96e2edc0fc2bc25449d8f50239fa25179b345bd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632562"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402993"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Mobiele apparaten instellen voor Microsoft 365 voor zakelijke gebruikers
 
@@ -59,7 +60,7 @@ Wanneer de installatie is voltooid, tikt u op de knop **Openen** om Outlook te o
   
 ![Screenshot of Outlook with Get Started button](../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
-Voer uw werke-mailadres in \> in het scherm Account toevoegen toevoegen van **e-mailaccount** en voer uw Microsoft 365 voor zakelijke referenties **Add Account** \> in **Aanmelden**.
+Voer uw werke-mailadres in in het scherm Account toevoegen toevoegen van **e-mailaccount** \> **Add Account**en voer uw Microsoft 365 voor zakelijke referenties \> **in Aanmelden**.
   
 ![Sign in to your work account](../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
@@ -87,7 +88,7 @@ Typ Microsoft Outlook in het zoekvak Google Play en tik op **Installeren**. Zodr
   
 ![Tap Open to open Outlook app](../media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
-Tik in de Outlook-app op **Aan de slag**en \> voeg vervolgens uw Microsoft 365 voor zakelijk e-mailaccount **Doorgaan**toe en meld u aan met uw organisatiereferenties.
+Tik in de Outlook-app op **Aan de slag**en voeg vervolgens uw Microsoft 365 voor zakelijk e-mailaccount \> **Doorgaan**toe en meld u aan met uw organisatiereferenties.
   
 ![Sign in to your organizational account in Outlook](../media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
@@ -105,6 +106,6 @@ Open Outlook opnieuw en voer een pincode in en bevestig deze. Uw Outlook-app is 
 
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft 365 voor zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
 
 ---

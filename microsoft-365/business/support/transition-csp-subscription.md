@@ -6,6 +6,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - seo-marvel-mar
+- AdminSurgePortfolio
 ms.author: jasgro
 ms.topic: article 
 ms.prod: microsoft-365-business
@@ -13,12 +14,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, overgangs-CSP-abonnement
 ms.date: 11/01/2017
-ms.openlocfilehash: da56ce5bc70dfed5a3e86c739ef3c940b4ac1511
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5fc532b4a59d8e94068e7e1bae99bf8edac75abb
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635059"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403425"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Een Microsoft 365 Business CSP-abonnement overschakelen
 
@@ -69,7 +70,7 @@ In de volgende tabel wordt een overzicht van de gevolgen voor klanten die niet o
 
 |       | T-0 naar T+30     | T+30 naar T+60 | T+60 naar T+120 | Voorbij T+120  |
 |-------|-----------------|--------------|---------------|---------------|
-| **Status** | In respijtperiode | Verlopen      | Handicap      | Gedeprovisioneerd |
+| **Status** | In respijtperiode | Verlopen      | Uitgeschakeld      | Gedeprovisioneerd |
 | **Gevolgen voor de service**                                                        |
 | **Microsoft 365 Business-beheerportal** | Geen invloed op functionaliteit | Geen invloed op functionaliteit | Kan gebruikers toevoegen/verwijderen, abonnementen kopen.</br> Kan geen licenties toewijzen/intrekken. | Het abonnement van de klant en alle gegevens worden verwijderd. Beheerder kan andere betaalde abonnementen beheren. |
 | **Office-apps**                         | Geen gevolgen voor de eindgebruiker | Geen gevolgen voor de eindgebruiker | Office voert de modus voor verminderde functionaliteit in.</br> Gebruikers kunnen alleen bestanden bekijken. | Office voert de modus voor verminderde functionaliteit in.</br> Gebruikers kunnen alleen bestanden bekijken. |

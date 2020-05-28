@@ -11,18 +11,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 093a6d0d-890b-489e-9f46-b15687d3fe4f
 description: Meer informatie over een actieve gebruiker van Microsoft 365-gebruiksanalyses, activiteitenrapporten en acceptatiestatistieken.
-ms.openlocfilehash: 2117bae32913ad713318c1df25be66d6ef6859e5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b4834d96b2f762d77f0d27309cf8c71a782b0dcd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631789"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402880"
 ---
 # <a name="active-user-in-microsoft-365-usage-reports"></a>Actieve gebruiker in Microsoft 365-gebruiksrapporten
 
@@ -38,7 +39,7 @@ Een actieve gebruiker van Microsoft 365-producten voor [Microsoft 365-gebruiksan
 |Yammer  <br/> |Elke gebruiker die een bericht heeft gelezen, geplaatst of leuk heeft gevonden op Yammer.  <br/> ||
 |Skype voor Bedrijven  <br/> |Elke gebruiker die heeft deelgenomen aan een peer-to-peer-sessie (inclusief chatberichten, audio- en videogesprekken, het delen van een toepassing en bestandsoverdracht) of die een vergadering heeft georganiseerd of eraan heeft deelgenomen.  <br/> ||
 |Office  <br/> |Elke gebruiker die zijn Microsoft 365 Pro Plus-, Visio Pro- of Project Pro-abonnement op ten minste één apparaat heeft geactiveerd.  <br/> ||
-|Microsoft 365-groepen  <br/> |Elk groepslid met activiteit in het postvak (als een bericht is verstuurd naar de groep)  <br/> |Deze definitie wordt uitgebreid met groepssitebestandsactiviteit en Yammer-groepsactiviteit (bestandsactiviteit op groepssite en bericht dat is geplaatst in yammer-groep die is gekoppeld aan de groep.) Deze gegevens zijn momenteel niet beschikbaar in de sjabloon-app Microsoft 365 Usage Analytics  <br/> |
+|Microsoft 365 Groepen  <br/> |Elk groepslid met activiteit in het postvak (als een bericht is verstuurd naar de groep)  <br/> |Deze definitie wordt uitgebreid met groepssitebestandsactiviteit en Yammer-groepsactiviteit (bestandsactiviteit op groepssite en bericht dat is geplaatst in yammer-groep die is gekoppeld aan de groep.) Deze gegevens zijn momenteel niet beschikbaar in de sjabloon-app Microsoft 365 Usage Analytics  <br/> |
 |Microsoft Teams  <br/> |Elke gebruiker die heeft deelgenomen aan chatberichten, privéchatberichten, gesprekken, vergaderingen of andere activiteiten. Andere activiteiten worden gedefinieerd als het aantal andere teamactiviteiten van de gebruiker, waarvan sommige, en niet beperkt tot: het leuk vinden van berichten, apps, het werken aan bestanden, zoeken, teams volgen en channelen en ze bevoordelen.  <br/> ||
    
 ## <a name="adoption-metrics"></a>Adoptiestatistieken

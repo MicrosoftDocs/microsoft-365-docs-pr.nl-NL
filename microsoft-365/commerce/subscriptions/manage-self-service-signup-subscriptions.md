@@ -14,15 +14,16 @@ ms.collection:
 - Adm_O365
 - commerce
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Meer informatie over het beheren van gratis selfservice-abonnementen voor uw organisatie.
-ms.openlocfilehash: 46c77cb32fec4dfa1fb9c3d3f992bd842be1b969
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 81c67292a394c62d6057022babb88aa8796b9b3d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045253"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403244"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>Abonnementen voor selfservice-aanmelding beheren
 
@@ -43,7 +44,7 @@ U gebruikt de cmdlet [**Set-MsolCompanySettings**](https://docs.microsoft.com/po
 > [!IMPORTANT]
 > Wanneer u een selfservice-abonnement verwijdert, blokkeert u dat alle gebruikers toegang krijgen tot hun gegevens en e-mail en alle gegevens en e-mail verwijderen.
 
-1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 2. Zoek het selfservice-abonnement dat u wilt verwijderen. Selecteer **abonnement verwijderen**in de sectie Instellingen **& acties** .
 3. Schakel in het deelvenster **Abonnement verwijderen** het selectievakje in en schakel vervolgens **Abonnement verwijderen**in.
 

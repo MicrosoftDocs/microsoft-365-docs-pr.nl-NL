@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over het contact opnemen met de ondersteuning van uw land of regio.
+description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 58cc54d1ae57c44e9fe4a916269ed278eb3ce0fc
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: d74f3d568e31a04a7f71cedcd461459ab4566e5b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42806720"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401820"
 ---
 # <a name="contact-support-for-turkmenistan"></a>Neem contact op met ondersteuning voor Turkmenistan
 
@@ -26,17 +27,17 @@ ms.locfileid: "42806720"
 ## <a name="phone-number"></a>Telefoonnummer
 +7 499 922 86 23
 
-## <a name="hours"></a>Uur
-### <a name="billing-support"></a>Ondersteuning voor facturering:
+## <a name="hours"></a>Uren
+### <a name="billing-support"></a>Factureringsondersteuning:
 
-Russisch: ma-vr 10 AM-19:00 Moskou
+Russisch: ma-vr 10:00-19:00 Moskou
 
-Engels: ma-vr 9:00-5 uur Londen
+Engels: ma-vr 9:00-17:00 Londen
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Russisch: ma-vr 7:00-20:00 Moskou
+Russisch: ma-vr 7 am-8 PM Moskou
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Internationale oproepkosten zijn van toepassing
+Internationale gesprekskosten zijn van toepassing

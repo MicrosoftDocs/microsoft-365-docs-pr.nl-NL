@@ -18,17 +18,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Meer informatie over de beveiligingsfuncties die worden geleverd met Microsoft 365 Business Premium om uw gegevens op pc's, telefoons en tablets te beveiligen.
-ms.openlocfilehash: f6aef84afc76217161dee6b68d626128e0cc15b2
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 839b5481e27591e1762a0d8eb5623f279d6d22dd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165752"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402709"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Beveiligings- en compliancefuncties van Microsoft 365 Business Premium
 
@@ -109,7 +110,7 @@ Uw Microsoft 365 Business Premium-abonnement bevat functies waarmee u de nalevin
 
    Microsoft 365 Business Premium bevat alle functies van [Azure Information Protection Plan 1.](https://go.microsoft.com/fwlink/p/?linkid=871407) Met dit plan u **gevoeligheidslabels** maken waarmee u de toegang tot gevoelige informatie in e-mail en documenten beheren, met besturingselementen zoals 'Niet doorsturen' en 'Niet kopiëren'. U gevoelige informatie ook classificeren als 'Vertrouwelijk' en opgeven hoe geclassificeerde informatie buiten en binnen het bedrijf kan worden gedeeld. Versleuteling op bedrijfsniveau is eenvoudig toe te passen op e-mail en documenten om uw gegevens privé te houden. U ook de azure information protection-client-invoegtoepassing voor Office-apps installeren. Zie [Azure Information Protection unified labeling client](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)voor meer informatie. Installeer voor gevoeligheidslabels de **AzInfoProtection_UL.exe**.
 
-U deze functies &amp; beheren in het Security Compliance center en het Intune-beheercentrum. Na verloop van tijd worden de vereenvoudigde besturingselementen toegevoegd aan het Microsoft 365-beheercentrum.
+U deze functies beheren in het Security &amp; Compliance center en het Intune-beheercentrum. Na verloop van tijd worden de vereenvoudigde besturingselementen toegevoegd aan het Microsoft 365-beheercentrum.
   
     
 ## <a name="faq"></a>Veelgestelde vragen
@@ -118,7 +119,7 @@ U deze functies &amp; beheren in het Security Compliance center en het Intune-be
   
 Ja, deze functies zijn beschikbaar in alle markten waar Microsoft 365 Business Premium wordt verkocht.
   
-### <a name="how-do-i-find-the-security-amp-compliance-center"></a>Hoe vind ik &amp; het Security Compliance center?
+### <a name="how-do-i-find-the-security-amp-compliance-center"></a>Hoe vind ik het Security &amp; Compliance center?
   
 1. [Meld u aan bij Microsoft 365 Business Premium](https://portal.microsoft.com/) met uw beheerdersreferenties. 
     
@@ -126,4 +127,4 @@ Ja, deze functies zijn beschikbaar in alle markten waar Microsoft 365 Business P
     
     ![Kies Beheercentra in de linkernavigatiebalk in het Microsoft 365-beheercentrum.](../media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
-3. Kies ** &amp; Security Compliance** om &amp; naar security compliance center te gaan.
+3. Kies **Security &amp; Compliance** om naar security compliance center te &amp; gaan.

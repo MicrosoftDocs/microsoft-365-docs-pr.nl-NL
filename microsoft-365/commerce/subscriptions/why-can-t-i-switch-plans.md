@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -23,12 +24,12 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: Begrijp de redenen waarom soms het schakelen van plannen handmatig moet worden gedaan of door ondersteuning te bellen.
-ms.openlocfilehash: 8b6c4069f2c7f0cfd86981c1001a7211aa298ff7
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 9f48ed56f230802ebd305d9b79e8ad694fadcc4c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943141"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403148"
 ---
 # <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Waarom kan ik Microsoft 365 niet overschakelen voor bedrijfsabonnementen?
 
@@ -41,18 +42,18 @@ Als u de knop **Abonnementen schakelen** niet ziet, kan uw abonnement niet autom
   
 ::: moniker range="o365-worldwide"
 
- **Hebt u iets anders nodig?** [Een ander abonnement](../buy-another-subscription.md) | [kopen Uw abonnementabonnementen](cancel-your-subscription.md) | [en facturering annuleren](../index.yml) | [Oproepondersteuning](../../admin/contact-support-for-business-products.md)
+ **Hebt u iets anders nodig?** [Een ander abonnement kopen](../buy-another-subscription.md)  |  [Uw abonnement opzeggen](cancel-your-subscription.md)  |  [Abonnementen en facturering](../index.yml)  |  [Ondersteuning voor bellen](../../admin/contact-support-for-business-products.md)
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- **Hebt u iets anders nodig?** [Een ander abonnement](../buy-another-subscription.md) | [kopen Uw abonnementabonnementen](cancel-your-subscription.md) | [en facturering annuleren](../index.yml) | [Oproepondersteuning](../../admin/contact-support-for-business-products.md)
+ **Hebt u iets anders nodig?** [Een ander abonnement kopen](../buy-another-subscription.md)  |  [Uw abonnement opzeggen](cancel-your-subscription.md)  |  [Abonnementen en facturering](../index.yml)  |  [Ondersteuning voor bellen](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- **Hebt u iets anders nodig?** [Abonnementen voor Office 365 kopen of uitproberen die worden beheerd door 21Vianet](../../admin/services-in-china/buy-or-try-subscriptions.md) | [Uw abonnement](cancel-your-subscription.md) | annuleren[Gespreksondersteuning](../../admin/contact-support-for-business-products.md)
+ **Hebt u iets anders nodig?** [Abonnementen voor Office 365 kopen of uitproberen die worden beheerd door 21Vianet](../../admin/services-in-china/buy-or-try-subscriptions.md)  |  [Uw abonnement opzeggen](cancel-your-subscription.md)  |  [Ondersteuning voor bellen](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
@@ -83,19 +84,19 @@ Als u de knop **Veranderen van abonnement** wilt gebruiken om automatisch abonne
 
 ::: moniker range="o365-worldwide"
 
-Ga naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">Servicestatus</a> of selecteer De **status** **van de service** \> om te zien of er problemen zijn met de inrichten of servicestatus in het beheercentrum.
+Ga naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">Servicestatus</a> of selecteer De status **van de service** om te zien of er problemen zijn met de inrichten of servicestatus in het beheercentrum. \> **Service health**
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Ga naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=848042" target="_blank">Servicestatus</a> of selecteer De **status** **van de service** \> om te zien of er problemen zijn met de inrichten of de status van de service.
+Ga naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=848042" target="_blank">Servicestatus</a> of selecteer De status **van de service** om te zien of er problemen zijn met de inrichten of de status van de \> **Service health**service.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Ga naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=850629" target="_blank">Servicestatus</a> of selecteer De **status** **van de service** \> om te zien of er problemen zijn met de inrichten of de status van de service.
+Ga naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=850629" target="_blank">Servicestatus</a> of selecteer De status **van de service** om te zien of er problemen zijn met de inrichten of de status van de \> **Service health**service.
 
 ::: moniker-end
 

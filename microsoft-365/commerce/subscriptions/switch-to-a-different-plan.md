@@ -1,5 +1,5 @@
 ---
-title: Overschakelen naar een ander Microsoft 365 voor zakelijk abonnement
+title: Overstappen op een ander Microsoft 365 voor Bedrijven-abonnement
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -16,6 +16,7 @@ ms.collection:
 - commerce
 ms.custom:
 - SaRA
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -24,14 +25,14 @@ search.appverid:
 - GEA150
 ms.assetid: 73318661-8f33-478b-bcc7-fb8d69dbb22a
 description: Meer informatie over hoe u overschakelt naar een nieuw Microsoft 365 voor Bedrijven-abonnement.
-ms.openlocfilehash: 8682ced4aab6fd1b0cbfc132527e977eabc59306
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: c1216f0eb5069610ea63ca1a81d90243d3ef111d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707497"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403184"
 ---
-# <a name="switch-to-a-different-microsoft-365-for-business-plan"></a>Overschakelen naar een ander Microsoft 365 voor zakelijk abonnement
+# <a name="switch-to-a-different-microsoft-365-for-business-plan"></a>Overstappen op een ander Microsoft 365 voor Bedrijven-abonnement
 
 Wanneer uw bedrijf verandert of meer functies nodig hebt, u van abonnement wisselen.  
 
@@ -67,7 +68,7 @@ Wanneer u de knop **Abonnementen schakelen** gebruikt, wordt u geleid door het p
 
 2. Selecteer **Switch-abonnementen** om de lijst met nieuwe abonnementen weer te geven die beschikbaar zijn.
 
-    [De knop Abonnementen schakelen is er](#the-switch-plans-button-isnt-there) | [niet, ik zie het gewenste abonnement niet](#i-dont-see-the-plan-i-want)
+    [De knop Abonnementen schakelen is er](#the-switch-plans-button-isnt-there)  |  niet [Ik zie het plan niet dat ik wil.](#i-dont-see-the-plan-i-want)
 
 3. Selecteer een abonnement om de nieuwe totale kosten per maand te bekijken. Lees de **belangrijkste informatie**en selecteer **Volgende** om uit te checken.
 

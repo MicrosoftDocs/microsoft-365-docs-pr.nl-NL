@@ -11,16 +11,18 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
+ms.custom:
+- AdminSurgePortfolio
+- aka.ms/self-service-purchase-faq
 search.appverid:
 - MET150
 description: Vind antwoorden op veelgestelde vragen over selfservice-aankopen.
-ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: c7f91b8067aac5baa3c792dac10c1fdadae55fa2
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: cc0a059c745c64c9c196deccf771fffa30a5fe63
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046154"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403208"
 ---
 # <a name="self-service-purchase-faq"></a>Veelgestelde vragen over selfserviceaankopen
 
@@ -119,7 +121,7 @@ Beheerders kunnen bestaande licenties toewijzen of aanvullende abonnementen van 
 
 ### <a name="where-does-the-admin-see-self-service-purchases"></a>Waar ziet de beheerder selfservice-aankopen?
 
-Globale en factureringsbeheerders kunnen abonnementen zien die via selfservice-aankoop zijn gekocht in **Facturering** > **Uw producten** in het Microsoft <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">365-beheercentrum,</a> samen met alle andere abonnementen die via centrale inkoop zijn gekocht. Ze kunnen de lijst filteren op alleen de abonnementen die via centrale inkoop zijn gekocht of abonnementen opnemen die via selfservice-aankoop zijn gekocht.
+Globale en factureringsbeheerders kunnen abonnementen zien die via selfservice-aankoop zijn gekocht in **Facturering**  >  **Uw producten** in het Microsoft <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">365-beheercentrum,</a> samen met alle andere abonnementen die via centrale inkoop zijn gekocht. Ze kunnen de lijst filteren op alleen de abonnementen die via centrale inkoop zijn gekocht of abonnementen opnemen die via selfservice-aankoop zijn gekocht.
 
 Beheerders kunnen het product, de naam van de koper, het gekochte abonnement, de vervaldatum, de bestelgeschiedenis, de aankoopprijs en toegewezen gebruikers zien.
 

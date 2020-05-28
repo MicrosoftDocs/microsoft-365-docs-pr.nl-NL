@@ -11,14 +11,15 @@ ms.service: o365-administration
 ms.localizationpriority: Normal
 ms.collection:
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Meer informatie over het activeren en beheren van apps van derden in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 3e6d77eec71ca1137e0aaf44b62d198d9c87b0c5
-ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
+ms.openlocfilehash: ed1a88345ae5cc135a43f4297ce518b444eaabe7
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232743"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402580"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>App-abonnementen van derden voor uw organisatie beheren
 
@@ -101,7 +102,7 @@ Beheerders kunnen het aantal licenties wijzigen dat eigendom is van hun organisa
 2. Zoek en selecteer de app die u wilt beheren.
 3. Selecteer **Licentienummer wijzigen**.
 
-## <a name="manage-payment-methods"></a>Betaalmethoden beheren
+## <a name="manage-payment-methods"></a>Betalingswijzen beheren
 
 Software-as-a-service-apps hebben elk een factureringsprofiel toegewezen. Met factureringsprofielen u aanpassen welke producten op uw factuur zijn opgenomen en hoe u uw facturen betaalt. Zij omvatten:
 

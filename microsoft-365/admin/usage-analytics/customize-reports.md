@@ -13,25 +13,26 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: Meer informatie over het aanpassen van rapporten in de browser en Power BI Desktop.
-ms.openlocfilehash: 4f0c85802ecb5db9c57add2fa6dd561827e8fa22
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 121a9be4a83570b7fcf358c48bf558d3bc7c1131
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140707"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402928"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Rapporten in Microsoft 365 Gebruiksanalyse naar voorkeur aanpassen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -49,7 +50,7 @@ In dit voorbeeld ziet u hoe u het tabblad **Activering wijzigt** in het rapport 
   
 1. Klik in het rapport **Activering/licentieverlening** op het tabblad **Activering.**
     
-2. Voer de bewerkingsmodus in **Edit** door bovenaan op de ![knop Bewerken te klikken](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) via de knop Meer pagina in de knop Power BI. 
+2. Voer de bewerkingsmodus in door bovenaan op de knop **Bewerken** te klikken via de ![ knop Meer pagina in de knop Power ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) BI. 
     
     ![Click Edit report on the top right navigation](../../media/e2c16663-1fbd-4d7f-887c-0cbb891d3b3d.png)
   
@@ -69,7 +70,7 @@ In het volgende voorbeeld ziet u hoe u een nieuw visueel element maakt voor het 
   
 1. Ga naar het rapport **Productgebruik** met de linkernavigatie en klik op het tabblad **Yammer.**
     
-2. Schakel over naar de bewerkingsmodus door te klikken op ![De knop Meer pagina in Power BI](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) en **Bewerken**. 
+2. Schakel over naar de bewerkingsmodus door te klikken op ![ De knop Meer pagina in Power BI en ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) **Bewerken**. 
     
 3. Klik onderaan de pagina op ![De knop Pagina toevoegen in Power BI](../../media/d3b8c117-17d4-4f53-b078-8fefc2155b24.png) om een nieuwe pagina te maken.
   
@@ -95,7 +96,7 @@ In het volgende voorbeeld ziet u hoe u een nieuw visueel element maakt voor het 
 
     ![Het selectievakje Yammer inschakelen](../../media/82e99730-0de9-42da-928a-76aab0c3e609.png)
   
-12. Klik net onder de lijst met ![visualisaties op het pictogram](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png) **Opmaak** in Power BI Visualizaions .
+12. Klik net onder de lijst met visualisaties op het pictogram **Opmaak** ![ in Power BI Visualizaions ](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png) .
 
 13. Vouw Titel uit en wijzig de waarde **Titel** in **Nieuwe gebruikers van Yammer per maand**.
     
@@ -115,7 +116,7 @@ U beginnen door rechtstreeks verbinding te maken met de ODATA-rapportage-API's v
   
 1. Ga naar **Gegevens ophalen** \> **Overige** \> **ODATA-feed** \> **Verbinding maken**.
     
-2. Voer in het URL-venster 'https://<i></i>reports.office.com/pbi/v1.0/\<tenantid\>in'
+2. Voer in het URL-venster 'https:// <i></i> \<tenantid\> reports.office.com/pbi/v1.0/' in
     
     **LET OP:** De rapportage-API's zijn in preview en kunnen worden gewijzigd totdat ze in productie gaan. 
   

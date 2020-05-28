@@ -16,6 +16,7 @@ ms.collection:
 - commerce
 ms.custom:
 - SaRA
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -23,19 +24,19 @@ search.appverid:
 - BEA160
 - GEA150
 description: Meer informatie over het upgraden naar een nieuw abonnement.
-ms.openlocfilehash: b0f79233e6a05c2838026093bb0027cd4789b01b
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 2a0dcff5b4326fc75b4e8e4154ee73e0ac17897d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141064"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403172"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Upgraden naar een ander abonnement
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -95,7 +96,7 @@ Als u plannen automatisch wilt upgraden, moeten al uw gebruikers geldige licenti
 
 #### <a name="you-cant-upgrade-subscriptions-right-now-because-this-subscription-isnt-fully-set-up-or-the-service-isnt-available"></a>U abonnementen nu niet upgraden omdat dit abonnement niet volledig is ingesteld of de service niet beschikbaar is.
 
-Als een van de services bijvoorbeeld een incident heeft, u niet upgraden totdat alle services in orde zijn. Ga naar de <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">statuspagina</a> van de **gezondheidsservice** \> om te zien of er problemen zijn met inrichten of servicestatus zijn.
+Als een van de services bijvoorbeeld een incident heeft, u niet upgraden totdat alle services in orde zijn. Ga naar de statuspagina van de **gezondheidsservice** om te zien of er problemen zijn met inrichten of servicestatus \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">Service health</a> zijn.
 
 Als een service niet volledig is ingericht of als er een probleem is met de servicestatus, wacht u enkele uren totdat de service beschikbaar is en probeert u het opnieuw. Als je nog steeds een probleem hebt, bel dan [de ondersteuning.](../../admin/contact-support-for-business-products.md)
 
@@ -133,7 +134,7 @@ Mogelijk ziet u geen plannen op het tabblad **Upgrade** omdat de service bezig i
 
 #### <a name="the-plan-that-you-want-to-upgrade-to-isnt-a-supported-option"></a>Het abonnement waarnaar u wilt upgraden, is geen ondersteunde optie
 
-Wanneer u plannen upgradet, worden de plannen die beschikbaar zijn om te upgraden weergegeven op basis van de services in uw huidige abonnement. U alleen upgraden naar een abonnement met dezelfde gegevensgerelateerde services, zoals Exchange Online of SharePoint Online, of naar een hogere versie ervan. Dit zorgt ervoor\'dat gebruikers tijdens de upgrade geen gegevens verliezen met betrekking tot die services.
+Wanneer u plannen upgradet, worden de plannen die beschikbaar zijn om te upgraden weergegeven op basis van de services in uw huidige abonnement. U alleen upgraden naar een abonnement met dezelfde gegevensgerelateerde services, zoals Exchange Online of SharePoint Online, of naar een hogere versie ervan. Dit zorgt ervoor dat gebruikers \' tijdens de upgrade geen gegevens verliezen met betrekking tot die services.
 
 Als uw abonnement niet in aanmerking komt om plannen automatisch te upgraden, u plannen mogelijk [handmatig wijzigen.](change-plans-manually.md) U ook ondersteuning voor hulp [bellen.](../../admin/contact-support-for-business-products.md)
 

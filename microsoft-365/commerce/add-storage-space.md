@@ -18,6 +18,7 @@ ms.collection:
 ms.custom:
 - MAX_CampaignID
 - okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -28,19 +29,19 @@ search.appverid:
 - GSP150
 ms.assetid: 96ea3533-de64-4b01-839a-c560875a662c
 description: Lees meer over het toevoegen en verkleinen van bestandsopslag in uw Microsoft 365-abonnement. Met extra bestandsopslag u meer inhoud opslaan in SharePoint Online en OneDrive.
-ms.openlocfilehash: 921fd4a232d288971150a3379b138613f009f9dc
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: f31495127feb345cccdc792c60333f5fc0c7cc6f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140964"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402676"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Opslagruimte voor uw abonnement toevoegen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum verandert. Als uw ervaring niet overeenkomt met de hier gepresenteerde details, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -58,7 +59,7 @@ Als de opslagruimte voor uw SharePoint Online-siteverzamelingen begint vol te ra
 
 ::: moniker range="o365-germany"
 
-1. Meld u https://portal.office.de aan als globale of SharePoint-beheerder en selecteer vervolgens de tegel Beheerder om het beheercentrum te openen. (Als u een bericht ziet dat u geen toestemming hebt om toegang te krijgen tot de pagina, hebt u geen microsoft 365-beheerdersmachtigingen in uw organisatie.)
+1. Meld u aan https://portal.office.de als globale of SharePoint-beheerder en selecteer vervolgens de tegel Beheerder om het beheercentrum te openen. (Als u een bericht ziet dat u geen toestemming hebt om toegang te krijgen tot de pagina, hebt u geen microsoft 365-beheerdersmachtigingen in uw organisatie.)
 
 2. Selecteer **SharePoint**in het linkerdeelvenster onder **Beheercentra**. Als het klassieke SharePoint-beheercentrum wordt weergegeven, selecteert u **Nu** openen boven aan de pagina om het nieuwe SharePoint-beheercentrum te openen.
 
@@ -70,7 +71,7 @@ Als de opslagruimte voor uw SharePoint Online-siteverzamelingen begint vol te ra
 
 ::: moniker range="o365-21vianet"
 
-1. Meld u https://login.partner.microsoftonline.cn/ aan als globale of SharePoint-beheerder en selecteer vervolgens de tegel Beheerder om het beheercentrum te openen. (Als u een bericht ziet dat u geen toestemming hebt om toegang te krijgen tot de pagina, hebt u geen microsoft 365-beheerdersmachtigingen in uw organisatie.)
+1. Meld u aan https://login.partner.microsoftonline.cn/ als globale of SharePoint-beheerder en selecteer vervolgens de tegel Beheerder om het beheercentrum te openen. (Als u een bericht ziet dat u geen toestemming hebt om toegang te krijgen tot de pagina, hebt u geen microsoft 365-beheerdersmachtigingen in uw organisatie.)
 
 2. Selecteer **SharePoint**in het linkerdeelvenster onder **Beheercentra**. Als het klassieke SharePoint-beheercentrum wordt weergegeven, selecteert u **Nu** openen boven aan de pagina om het nieuwe SharePoint-beheercentrum te openen.
 
@@ -95,7 +96,7 @@ Als u nog geen extra opslagruimte voor uw abonnement hebt gekocht, u dat doen.
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina Services <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">voor factureringsaankopen.</a> **Billing** \>
+1. Ga in het beheercentrum naar de pagina **Services voor** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">factureringsaankopen.</a>
 
 2. Selecteer Onder aan de pagina **Inkoopservices** de optie **Invoegtoepassingen**.
 
@@ -113,7 +114,7 @@ Als u nog geen extra opslagruimte voor uw abonnement hebt gekocht, u dat doen.
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Factureringsabonnementen.</a> **Billing**  
+1. Ga in het beheercentrum **Billing** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Factureringsabonnementen.</a>  
 
 2. Kies **op** de pagina Abonnementen het abonnement waaraan u opslagruimte wilt toevoegen en selecteer **vervolgens Invoegtoepassingen**.
 
@@ -167,7 +168,7 @@ Als u al extra bestandsopslag hebt aangeschaft via de add-on **Extra bestandsops
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 
 2. Kies het abonnement dat de add-on Voor extra bestandsopslag van **Office 365 Extra bestandsopslag** bevat.
 
