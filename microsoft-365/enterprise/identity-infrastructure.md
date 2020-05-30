@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: De stappen om de identiteitsinfrastructuur voor Microsoft 365 Enterprise te implementeren.
-ms.openlocfilehash: 0189da0814d1d526d9e07ad35dbbabcbfe82a4cd
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 6f237f779df16f2a2a03eab29af78a89c5f7a5ae
+ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42952028"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "44371416"
 ---
 # <a name="phase-2-identity"></a>Fase 2 : Identiteit
 
@@ -44,11 +44,11 @@ Zie de [poster Identiteitsinfrastructuur](../media/identity-infrastructure/M365E
 
 Via deze poster met twee pagina's krijgt u snel inzicht in de identiteitsconcepten en configuraties voor Microsoft 365 Enterprise.
 
-U kunt ook [deze poster downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/identity-infrastructure/M365E-ID-Infra.pdf) en afdrukken in het formaat Letter, Legal of Tabloid (11 x 17).
+U kunt [deze poster ook downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/identity-infrastructure/M365E-ID-Infra.pdf) en afdrukken in het formaat Letter, Legal of Tabloid (11 x 17).
 
 ## <a name="plan-and-deploy-your-microsoft-365-enterprise-identity-infrastructure"></a>Uw identiteitsinfrastructuur voor Microsoft 365 Enterprise plannen en implementeren 
 
-Voer de volgende stappen uit om uw nieuwe identiteitsinfrastructuur in de cloud te plannen en te implementeren. U kunt deze stappen ook gebruiken om uw bestaande on-premises of hybride identiteitsinfrastructuur aan te passen, zodat u kunt werken met Microsoft 365 Enterprise. 
+Voer de volgende stappen uit om uw nieuwe identiteitsinfrastructuur in de cloud te plannen en te implementeren. U kunt deze stappen ook gebruiken om uw bestaande on-premises of hybride identiteitsinfrastructuur aan te passen om met Microsoft 365 Enterprise te werken. 
 
 |||
 |:-------|:-----|
@@ -61,16 +61,20 @@ Voer de volgende stappen uit om uw nieuwe identiteitsinfrastructuur in de cloud 
 
 Wanneer u deze stappen hebt voltooid, gaat u naar het [afsluitcriterium](identity-exit-criteria.md) voor deze fase om er zeker van te zijn dat u voldoet aan de vereiste en optionele voorwaarden voor Microsoft 365 Enterprise-identiteiten.
 
-## <a name="identity-and-device-access-recommendations"></a>Aanbevelingen voor identiteits- en apparaattoegang
+## <a name="identity-and-device-access-recommendations"></a>Aanbevelingen voor identiteiten en apparaattoegang
 
-Microsoft biedt een aantal aanbevelingen voor [identiteits- en apparaattoegang](microsoft-365-policies-configurations.md) om te zorgen dat uw personeel veilig en productief blijft. Gebruik voor identiteit de aanbevelingen en instellingen in de volgende artikelen, samen met de stappen in deze fase:
+Microsoft biedt een aantal aanbevelingen voor [identiteiten en apparaattoegang](microsoft-365-policies-configurations.md) om te zorgen dat uw personeel veilig en productief blijft. Gebruik voor identiteiten de aanbevelingen en instellingen in de volgende artikelen, samen met de stappen in deze fase:
 
 - [Vereisten](identity-access-prerequisites.md)
-- [Algemeen beleid voor identiteits- en apparaattoegang](identity-access-policies.md)
+- [Algemeen beleid voor identiteiten en apparaattoegang](identity-access-policies.md)
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Hoe Microsoft omgaat met Microsoft 365 Enterprise
 
-Lees hoe IT-experts bij Microsoft [identiteiten en beveiligde toegang beheren](https://www.microsoft.com/itshowcase/deploying-and-managing-microsoft-365#primaryR5).
+Lees hoe IT-experts bij Microsoft [identiteiten en beveiligde toegang beheren](https://www.microsoft.com/nl-NL/itshowcase/managing-user-identities-and-secure-access-at-microsoft).
+
+>[!Note]
+>Deze IT-presentatie is alleen beschikbaar in het Engels.
+>
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Hoe Contoso Microsoft 365 Enterprise gebruikt
 

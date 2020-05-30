@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/21/2019
+ms.date: 05/26/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Overzicht: Wachtwoord-hash-synchronisatie en -aanmelding configureren en demonstreren voor uw Microsoft 365-testomgeving.'
-ms.openlocfilehash: 8c0f9b45fc4a57ad5ac50ea2a3340d6e05769b96
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7b1ba549a9ac9d3faec8b717a0f76cca1200352b
+ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632897"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "44371438"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Wachtwoord-hash-synchronisatie voor uw Microsoft 365-testomgeving
 
@@ -83,7 +83,7 @@ Eerst installeert en configureert u Azure AD Connect op APP1.
 
 1. Ga naar het [Azure-portal](https://portal.azure.com), meld u aan met uw globale beheerdersaccount en maak vervolgens verbinding met APP1 via het TESTLAB\\Gebruiker1-account.
     
-2. Ga naar de computer van APP1, open een Windows PowerShell-opdrachtprompt op beheerdersniveau en voer deze opdrachten uit:
+2. Open, vanaf het bureaublad van APP1, een Windows PowerShell-opdrachtprompt op beheerdersniveau en voer deze opdrachten uit om verbeterde beveiliging van Internet Explorer uit te schakelen:
     
    ```powershell
    Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Active Setup\Installed Components\{A509B1A7-37EF-4b3f-8CFC-4F3A74704073}" -Name "IsInstalled" -Value 0
