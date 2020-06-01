@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
-description: E-mail doorsturen instellen voor een of meer e-mailaccounts met Office365.
-ms.openlocfilehash: 72eca099f0c7e60efe8f616dfe23201cd46975cf
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: E-mail doorsturen naar een of meer e-mailaccounts instellen met Office365.
+ms.openlocfilehash: 3ce82d514e1342ac6110ca74106477e3cf7820cb
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400122"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432299"
 ---
 # <a name="configure-email-forwarding"></a>Doorsturen van e‑mail configureren
 
@@ -38,37 +38,34 @@ ms.locfileid: "44400122"
 
 ::: moniker-end
   
-Als beheerder van een organisatie hebt u mogelijk bedrijfsvereisten om e-maildoorsturen in te stellen voor het postvak van een gebruiker. Dankzij de functie voor e-mail doorsturen kunt u e-mailberichten vanuit het postvak van een gebruiker doorsturen naar het postvak van een gebruiker binnen of buiten de organisatie.
+Als beheerder van een organisatie u bedrijfsvereisten hebben om e-mail doorsturen in te stellen voor het postvak van een gebruiker. Dankzij de functie voor e-mail doorsturen kunt u e-mailberichten vanuit het postvak van een gebruiker doorsturen naar het postvak van een gebruiker binnen of buiten de organisatie.
 
   
 ## <a name="configure-email-forwarding"></a>Doorsturen van e‑mail configureren
 
- Voordat u e-mail doorstuur instelt, moet u het volgende noteren: 
+ Noteer het volgende voordat u e-mail doorstuurt: 
 
-- Zodra u e-mail doorsturen hebt ingesteld, worden alleen **nieuwe** e-mails die naar het *postvak worden* verzonden, verzonden. 
+- Zodra u e-mail doorsturen, alleen **nieuwe** e-mails verzonden naar de *van* mailbox zal worden fowarded. 
     
-- E-mail doorsturen vereist dat het *van* account een licentie heeft. Als u e-mail doorsturen instelt omdat de gebruiker uw organisatie heeft verlaten, is een andere optie om zijn postvak om te [zetten naar een gedeeld postvak.](convert-user-mailbox-to-shared-mailbox.md) Op deze manier kunnen meerdere mensen er toegang toe krijgen. Een gedeeld postvak mag echter niet meer dan 50 GB bedragen. 
+- E-mail doorsturen vereist dat de *van* account heeft een licentie. Als u e-mail doorstuurt omdat de gebruiker uw organisatie heeft verlaten, is een andere optie om het postvak om te [zetten naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md). Op deze manier hebben meerdere mensen er toegang toe. Een gedeeld postvak mag echter niet meer dan 50 GB bedragen. 
     
-U moet exchange-beheerder of globale beheerder in Microsoft 365 zijn om deze stappen uit te voeren. Zie het onderwerp [Over beheerdersrollen](../add-users/about-admin-roles.md)voor meer informatie .
+U moet een Exchange-beheerder of globale beheerder in Microsoft 365 zijn om deze stappen uit te voeren. Zie het onderwerp [Over beheerdersrollen voor](../add-users/about-admin-roles.md)meer informatie.
 
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
-
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
     
-2. Selecteer de naam van de gebruiker wiens e-mail u wilt doorsturen om de eigenschappenpagina te openen. 
+2. Selecteer de naam van de gebruiker wiens e-mail u wilt doorsturen om de pagina Eigenschappen te openen. 
  
-3. Selecteer op het tabblad **E-mail** de optie **E-mail doorsturen beheren**. 
+3. Selecteer **e-mail doorsturen op**het tabblad **E-mail** beheren . 
   
-4. Selecteer op de pagina e-mail doorsturen **alle e-mails die naar dit postvak zijn verzonden,** voer het doorstuuradres in en kies of u een kopie van doorgestuurde e-mails wilt bewaren. Als u deze optie niet ziet, controleert u of er een licentie is toegewezen aan het gebruikersaccount. Selecteer **Wijzigingen opslaan**.
+4. Selecteer op de pagina e-mail doorsturen de optie **Alle e-mails die naar dit postvak worden verzonden,** voer het doorstuuradres in en kies of u een kopie van doorgestuurde e-mails wilt bewaren. Als u deze optie niet ziet, controleert u of een licentie is toegewezen aan het gebruikersaccount. Selecteer **Wijzigingen opslaan**.
     
-    **Als u naar meerdere e-mailadressen wilt doorsturen,** u de gebruiker vragen een regel in Outlook in te stellen om door te sturen naar de adressen. Zie [Regels gebruiken om berichten automatisch door te sturen](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746)voor meer informatie. 
+    Als u **meerdere e-mailadressen wilt doorsturen,** u de gebruiker vragen een regel in Outlook in te stellen om door te sturen naar de adressen. Zie [Regels gebruiken om berichten automatisch door te sturen voor](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746)meer informatie. 
     
      Of maak in het beheercentrum [een distributiegroep,](../setup/create-distribution-lists.md) [voeg de adressen eraan toe](add-user-or-contact-to-distribution-list.md)en stel vervolgens doorsturen in om naar de DL te wijzen met behulp van de instructies in dit artikel.
     
-5. Verwijder niet het account van de gebruiker die e-mail die u doorstuurt of hun licentie verwijdert!  Als u dit doet, stopt het doorsturen van e-mail. 
+5. Verwijder het account van de gebruiker die een e-mail stuurt en die u doorstuurt niet of verwijdert zijn licentie!  Als u dat doet, stopt e-mail doorsturen. 
 
 ::: moniker-end
 
@@ -76,17 +73,17 @@ U moet exchange-beheerder of globale beheerder in Microsoft 365 zijn om deze sta
     
  1.   Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>. 
     
-2. Selecteer de naam van de gebruiker wiens e-mail u wilt doorsturen om de eigenschappenpagina te openen. 
+2. Selecteer de naam van de gebruiker wiens e-mail u wilt doorsturen om de pagina Eigenschappen te openen. 
 
-3. Vouw **e-mailinstellingen**uit en selecteer vervolgens in de sectie **E-mail doorsturen** de optie **Bewerken**.
+3. Vouw **E-mailinstellingen**uit en selecteer vervolgens in de sectie **E-maildoorschakeling** de optie **Bewerken**.
 
-4. Stel op de pagina e-mail doorsturen de schakel in **op Aan,** voer het doorstuuradres in en kies of u een kopie van doorgestuurde e-mails wilt bewaren. Als u deze optie niet ziet, controleert u of er een licentie is toegewezen aan het gebruikersaccount. Kies **Opslaan**.
+4. Stel op de pagina e-mail doorsturen de schakelaar **in op Aan,** voer het doorstuuradres in en kies of u een kopie van doorgestuurde e-mails wilt bewaren. Als u deze optie niet ziet, controleert u of een licentie is toegewezen aan het gebruikersaccount. Kies **Opslaan**.
     
-    **Als u naar meerdere e-mailadressen wilt doorsturen,** u de gebruiker vragen een regel in Outlook in te stellen om door te sturen naar de adressen. Zie [Regels gebruiken om berichten automatisch door te sturen](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746)voor meer informatie. 
+    Als u **meerdere e-mailadressen wilt doorsturen,** u de gebruiker vragen een regel in Outlook in te stellen om door te sturen naar de adressen. Zie [Regels gebruiken om berichten automatisch door te sturen voor](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746)meer informatie. 
     
      Of maak in het beheercentrum [een distributiegroep,](../setup/create-distribution-lists.md) [voeg de adressen eraan toe](add-user-or-contact-to-distribution-list.md)en stel vervolgens doorsturen in om naar de DL te wijzen met behulp van de instructies in dit artikel.
     
-5. Verwijder niet het account van de gebruiker die e-mail die u doorstuurt of hun licentie verwijdert!  Als u dit doet, stopt het doorsturen van e-mail.    
+5. Verwijder het account van de gebruiker die een e-mail stuurt en die u doorstuurt niet of verwijdert zijn licentie!  Als u dat doet, stopt e-mail doorsturen.    
 
 ::: moniker-end
 
@@ -94,16 +91,16 @@ U moet exchange-beheerder of globale beheerder in Microsoft 365 zijn om deze sta
 
  1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>. 
     
-2. Selecteer de naam van de gebruiker wiens e-mail u wilt doorsturen om de eigenschappenpagina te openen. 
+2. Selecteer de naam van de gebruiker wiens e-mail u wilt doorsturen om de pagina Eigenschappen te openen. 
 
-3. Vouw **e-mailinstellingen**uit en selecteer vervolgens in de sectie **E-mail doorsturen** de optie **Bewerken**.
+3. Vouw **E-mailinstellingen**uit en selecteer vervolgens in de sectie **E-maildoorschakeling** de optie **Bewerken**.
 
-4. Stel op de pagina e-mail doorsturen de schakel in **op Aan,** voer het doorstuuradres in en kies of u een kopie van doorgestuurde e-mails wilt bewaren. Als u deze optie niet ziet, controleert u of er een licentie is toegewezen aan het gebruikersaccount. Kies **Opslaan**.
+4. Stel op de pagina e-mail doorsturen de schakelaar **in op Aan,** voer het doorstuuradres in en kies of u een kopie van doorgestuurde e-mails wilt bewaren. Als u deze optie niet ziet, controleert u of een licentie is toegewezen aan het gebruikersaccount. Kies **Opslaan**.
     
-    **Als u naar meerdere e-mailadressen wilt doorsturen,** u de gebruiker vragen een regel in Outlook in te stellen om door te sturen naar de adressen. Zie [Regels gebruiken om berichten automatisch door te sturen](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746)voor meer informatie. 
+    Als u **meerdere e-mailadressen wilt doorsturen,** u de gebruiker vragen een regel in Outlook in te stellen om door te sturen naar de adressen. Zie [Regels gebruiken om berichten automatisch door te sturen voor](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746)meer informatie. 
     
      Of maak in het beheercentrum [een distributiegroep,](../setup/create-distribution-lists.md) [voeg de adressen eraan toe](add-user-or-contact-to-distribution-list.md)en stel vervolgens doorsturen in om naar de DL te wijzen met behulp van de instructies in dit artikel.
     
-5. Verwijder niet het account van de gebruiker die e-mail die u doorstuurt of hun licentie verwijdert!  Als u dit doet, stopt het doorsturen van e-mail. 
+5. Verwijder het account van de gebruiker die een e-mail stuurt en die u doorstuurt niet of verwijdert zijn licentie!  Als u dat doet, stopt e-mail doorsturen. 
 
 ::: moniker-end 

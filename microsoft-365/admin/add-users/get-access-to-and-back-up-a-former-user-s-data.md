@@ -22,22 +22,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
-description: Meer informatie over het bewaren van bestanden en e-mails van een werknemer wanneer de persoon uw organisatie verlaat.
-ms.openlocfilehash: 2bf32aa9e7a3dcc76ae2114240bff07d697ce29d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over het bewaren van de bestanden en e-mails van een werknemer wanneer de persoon uw organisatie verlaat.
+ms.openlocfilehash: 13cc1117c52a45f4ec1389d2e8b9f0189f4730e1
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387199"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44431711"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
-
-::: moniker-end
 
 
 Wanneer een werknemer uw organisatie verlaat, wilt u waarschijnlijk toegang krijgen tot hun gegevens (documenten en e-mails) en deze bekijken, een back-up maken of aan een nieuwe werknemer geven.
@@ -45,25 +38,22 @@ Wanneer een werknemer uw organisatie verlaat, wilt u waarschijnlijk toegang krij
     
 ## <a name="access-a-former-users-onedrive-documents"></a>Toegang tot de OneDrive-documenten van een voormalige gebruiker
 
-Als u de licentie van een gebruiker verwijdert maar het account niet verwijdert, u uzelf toegang geven tot de inhoud in de OneDrive van de gebruiker. Als u het account van de gebruiker verwijdert, hebt u standaard 30 dagen de tijd om toegang te krijgen tot de OneDrive-gegevens van de voormalige gebruiker. [Meer informatie over het instellen van de OneDrive-retentie voor verwijderde gebruikers](/onedrive/set-retention). Als u [een gebruikersaccount](/office365/admin/add-users/restore-user) niet binnen deze tijd herstelt, wordt de OneDrive-inhoud ervan verwijderd. 
+Als u de licentie van een gebruiker verwijdert maar het account niet verwijdert, u uzelf toegang geven tot de inhoud in de OneDrive van de gebruiker. Als u het account van de gebruiker verwijdert, hebt u standaard 30 dagen de tijd om toegang te krijgen tot de OneDrive-gegevens van de vorige gebruiker. [Meer informatie over het instellen van de OneDrive-retentie voor verwijderde gebruikers](/onedrive/set-retention). Als u [een gebruikersaccount](/office365/admin/add-users/restore-user) niet binnen deze tijd herstelt, wordt de OneDrive-inhoud verwijderd. 
 
-Als u de OneDrive-bestanden van een voormalige gebruiker wilt behouden, geeft u uzelf eerst toegang tot hun OneDrive en verplaatst u de bestanden die u wilt bewaren. 
+Als u de OneDrive-bestanden van een voormalige gebruiker wilt behouden, geeft u uzelf eerst toegang tot zijn OneDrive en verplaatst u vervolgens de bestanden die u wilt behouden. 
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.  
     
 2. Selecteer een gebruiker.
 
-3. Selecteer **OneDrive**in het rechterdeelvenster . Selecteer **Onder Toegang tot bestanden openen**de optie Koppeling naar bestanden **maken**.
+3. Selecteer **OneDrive**in het rechterdeelvenster . Selecteer **onder Toegang tot bestanden**ophalen de optie Koppeling maken naar **bestanden**.
 
 4. Selecteer de koppeling om de bestandslocatie te openen. Download de bestanden naar uw computer of selecteer **Verplaatsen naar** of **Kopiëren om** ze naar uw eigen OneDrive of naar een gedeelde bibliotheek te verplaatsen of te kopiëren. 
 
 > [!NOTE]
-> U maximaal 500 MB aan bestanden en mappen tegelijk verplaatsen of kopiëren.<br/>
+> U bestanden en mappen tot 500 MB per keer verplaatsen of kopiëren.<br/>
 > Wanneer u documenten met versiegeschiedenis verplaatst of kopieert, wordt alleen de nieuwste versie verplaatst.  
 
 ::: moniker-end
@@ -74,12 +64,12 @@ Als u de OneDrive-bestanden van een voormalige gebruiker wilt behouden, geeft u 
 
 2. Selecteer een gebruiker.
 
-3. Vouw in het rechterdeelvenster **OneDrive-instellingen** **Access**uit en selecteer vervolgens **Access-bestanden**.
+3. Vouw in het rechterdeelvenster **OneDrive-instellingen**uit en selecteer vervolgens naast **Access** **Access Access-bestanden**.
 
 4. Selecteer de koppeling om de bestandslocatie te openen. Download de bestanden naar uw computer of selecteer **Verplaatsen naar** of **Kopiëren om** ze naar uw eigen OneDrive of naar een gedeelde bibliotheek te verplaatsen of te kopiëren. 
 
 > [!NOTE]
-> U maximaal 500 MB aan bestanden en mappen tegelijk verplaatsen of kopiëren.<br/>
+> U bestanden en mappen tot 500 MB per keer verplaatsen of kopiëren.<br/>
 > Wanneer u documenten met versiegeschiedenis verplaatst of kopieert, wordt alleen de nieuwste versie verplaatst.  
 
 ::: moniker-end
@@ -90,19 +80,19 @@ Als u de OneDrive-bestanden van een voormalige gebruiker wilt behouden, geeft u 
 
 2. Selecteer een gebruiker.
 
-3. Vouw in het rechterdeelvenster **OneDrive-instellingen** **Access**uit en selecteer vervolgens **Access-bestanden**.
+3. Vouw in het rechterdeelvenster **OneDrive-instellingen**uit en selecteer vervolgens naast **Access** **Access Access-bestanden**.
 
 4. Selecteer de koppeling om de bestandslocatie te openen. Download de bestanden naar uw computer of selecteer **Verplaatsen naar** of **Kopiëren om** ze naar uw eigen OneDrive of naar een gedeelde bibliotheek te verplaatsen of te kopiëren.  
 
 > [!NOTE]
-> U maximaal 500 MB aan bestanden en mappen tegelijk verplaatsen of kopiëren.<br/>
+> U bestanden en mappen tot 500 MB per keer verplaatsen of kopiëren.<br/>
 > Wanneer u documenten met versiegeschiedenis verplaatst of kopieert, wordt alleen de nieuwste versie verplaatst.  
 
 ::: moniker-end
     
 
 
-## <a name="revoke-admin-access-to-a-users-onedrive"></a>Beheerderstoegang tot onedrive van een gebruiker intrekken
+## <a name="revoke-admin-access-to-a-users-onedrive"></a>Beheerderstoegang tot de OneDrive van een gebruiker intrekken
 
 Als globale beheerder u uzelf toegang geven tot de inhoud in de OneDrive van een gebruiker, maar u uw toegang verwijderen wanneer u deze niet meer nodig hebt. 
 
@@ -130,34 +120,34 @@ Als globale beheerder u uzelf toegang geven tot de inhoud in de OneDrive van een
 
 ::: moniker-end
 
-2. Selecteer SharePoint voor **beheercentra** in het linkerdeelvenster \> **SharePoint**. (Mogelijk moet u **Alles weergeven** selecteren om de lijst met beheercentra weer te geven.)
+2. Selecteer in het linkerdeelvenster **SharePoint voor beheerderscentra** \> **SharePoint**. (Mogelijk moet u **Alles weergeven** selecteren om de lijst met beheercentra weer te geven.)
 
-3. Als het klassieke SharePoint-beheercentrum wordt weergegeven, selecteert u **Nu** openen boven aan de pagina om het nieuwe SharePoint-beheercentrum te openen.
+3. Als het klassieke SharePoint-beheercentrum wordt weergegeven, selecteert u **Deze nu openen** boven aan de pagina om het SharePoint-beheercentrum te openen.
 
-4. Selecteer **meer functies**in het linkerdeelvenster .
+4. Selecteer in het linkerdeelvenster **Meer functies**.
 
-5. Selecteer Onder **Gebruikersprofielen**de optie **Openen**.
+5. Selecteer **Openen** **onder Gebruikersprofielen**.
 
 6. Selecteer **onder Personen**de optie **Gebruikersprofielen beheren**.
 
 7. Voer de naam van de gebruiker in en selecteer **Zoeken**.
 
-8. Klik met de rechtermuisknop op de gebruiker en kies **Eigenaren van siteverzamelingen beheren.**
+8. Klik met de rechtermuisknop op de gebruiker en kies **Eigenaren van siteverzamelingen beheren**.
 
-9. Verwijder de persoon die geen toegang meer nodig heeft tot de gegevens van de gebruiker en selecteer **OK.**
+9. Verwijder de persoon die geen toegang meer heeft tot de gegevens van de gebruiker en selecteer **vervolgens OK**.
 
     
 ## <a name="access-the-outlook-data-of-a-former-user"></a>Toegang tot de Outlook-gegevens van een voormalige gebruiker
 
 Als u de e-mailberichten, agenda, taken en contactpersonen van de voormalige werknemer wilt behouden, exporteert u de gegevens naar een Outlook-gegevensbestand (.pst).
   
-1. [Voeg de e-mail van de voormalige werknemer toe](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) aan uw Outlook (Als u het wachtwoord van de gebruiker opnieuw [instelt,](reset-passwords.md)u deze instellen op iets dat alleen u kent.)
+1. [Voeg de e-mail van de vorige werknemer toe](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) aan uw Outlook (Als u het wachtwoord van de gebruiker opnieuw [instelt,](reset-passwords.md)u deze instellen op iets dat alleen u kent.)
     
-2. Selecteer **Bestand**in Outlook .
+2. Selecteer Bestand **in**Outlook .
     
     ![Zo ziet het lint eruit in Outlook 2016.](../../media/d7f66ed3-9861-4521-b410-e86a58ab15a7.png)
   
-3. Selecteer ** &amp; Import/export openen openen** \> **Import/Export**.
+3. Selecteer ** &amp; Importeren** \> **importeren/exporteren**openen .
     
     ![De opdracht Importeren/exporteren in de weergave Backstage](../../media/6013919e-d8ce-4902-b7b4-78ff4260a2f8.jpg)
   
@@ -187,25 +177,25 @@ Als u de e-mailberichten, agenda, taken en contactpersonen van de voormalige wer
     
 De export wordt direct gestart in Outlook, tenzij er een nieuw Outlook-gegevensbestand (.pst) wordt gemaakt of een bestand wordt gebruikt dat met een wachtwoord is beveiligd.
   
-   - Als u een Outlook-gegevensbestand (.pst) maakt, kunt u het bestand desgewenst met een wachtwoord beveiligen. Wanneer het dialoogvenster **Outlook-gegevensbestand maken** wordt weergegeven, typt u het *wachtwoord* in de vakken **Wachtwoord** en **Wachtwoord verifiëren** en selecteert u **OK**. Typ het *wachtwoord*van Outlook-gegevensbestand in het dialoogvenster **Outlook-gegevensbestandwachtwoord** en selecteer **OK**.
+   - Als u een Outlook-gegevensbestand (.pst) maakt, kunt u het bestand desgewenst met een wachtwoord beveiligen. Wanneer het dialoogvenster **Outlook-gegevensbestand maken** wordt weergegeven, typt u het *wachtwoord* in de vakken **Wachtwoord** en **Wachtwoord verifiëren** en selecteert u **OK**. Typ het *wachtwoord* **van Outlook-gegevensbestand** in het dialoogvenster Outlook-gegevensbestand en selecteer **OK**.
     
-  - Als u exporteert naar een bestaand Outlook-gegevensbestand (.pst) dat met een wachtwoord is beveiligd, typt u in het dialoogvenster **Wachtwoord van Outlook-gegevensbestand** het *wachtwoord*en selecteert u **OK**.
+  - Als u exporteert naar een bestaand Outlook-gegevensbestand (.pst) dat met een wachtwoord is beveiligd, typt u in het dialoogvenster **Wachtwoord voor outlook-gegevensbestand** het *wachtwoord*en selecteert u **OK**.
     
-Zie hoe u [e-mail, contactpersonen en agenda exporteert of back-upt naar een PST-bestand van Outlook](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx) in Outlook 2010. 
+Bekijk hoe [u e-mail, contactpersonen en agenda exporteren of back-upen naar een PST-bestand](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx) van Outlook in Outlook 2010. 
   
   
   > [!NOTE]
-  > Standaard is uw e-mail offline beschikbaar voor een periode van 12 maanden. Bekijk indien nodig hoe [u de offline beschikbare gegevens verhogen.](Https://docs.microsoft.com/outlook/troubleshoot/mailboxes/only-subset-items-synchronized)
+  > Standaard is uw e-mail offline beschikbaar voor een periode van 12 maanden. Zie indien nodig hoe [u de beschikbare gegevens offline verhogen.](Https://docs.microsoft.com/outlook/troubleshoot/mailboxes/only-subset-items-synchronized)
  
 ## <a name="give-another-user-access-to-a-former-users-email"></a>Een andere gebruiker toegang geven tot de e-mail van een voormalige gebruiker 
 
-Als u de e-mailberichten, agenda's, taken en contactpersonen van de voormalige werknemer toegang wilt geven tot de voormalige werknemer, importeert u de gegevens naar het Postvak IN van een andere werknemer.
+Als u toegang wilt geven tot de e-mailberichten, agenda's, taken en contactpersonen van de voormalige werknemer aan een andere werknemer, importeert u de informatie in het Postvak IN van een andere werknemer.
 
 > [!NOTE]
-> U het postvak van de voormalige gebruiker ook [converteren naar een gedeeld postvak](https://docs.microsoft.com/office365/admin/email/convert-user-mailbox-to-shared-mailbox) of de [e-mail van een voormalige werknemer doorsturen naar een andere werknemer.](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee#forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox)
+> U het postvak van de vorige gebruiker ook [converteren naar een gedeeld postvak](https://docs.microsoft.com/office365/admin/email/convert-user-mailbox-to-shared-mailbox) of [de e-mail van een voormalige werknemer doorsturen naar een andere werknemer.](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee#forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox)
 
   
-1. Ga in Outlook naar **Bestand** \> **Openen &amp; ** \> **Importeren/exporteren .**
+1. Ga in Outlook naar **Bestand** \> **openen &amp; Exporteren** \> **importeren/exporteren**.
     
     Hiermee wordt de wizard Importeren en exporteren gestart.
     
@@ -221,7 +211,7 @@ Als u de e-mailberichten, agenda's, taken en contactpersonen van de voormalige w
     
 6. Selecteer **Volgende**.
     
-7. Als er een wachtwoord is toegewezen aan het Outlook-gegevensbestand (.pst), voert u het wachtwoord in en selecteert u **OK**.
+7. Als een wachtwoord is toegewezen aan het Outlook-gegevensbestand (.pst), voert u het wachtwoord in en selecteert u **OK**.
     
 8. Stel de opties voor het importeren van items in. De standaardinstellingen hoeft u meestal niet te wijzigen.
     
@@ -231,15 +221,15 @@ Als u de e-mailberichten, agenda's, taken en contactpersonen van de voormalige w
 > De stappen blijven hetzelfde voor toegang tot de OneDrive- en e-mailgegevens van een bestaande gebruiker.
     
 > [!TIP]
-> Als u slechts een paar items uit een Outlook-gegevensbestand (.pst) wilt importeren of herstellen, u het Outlook-gegevensbestand openen. Sleep vervolgens in het navigatiedeelvenster de items uit outlook-mappen voor gegevensbestand naar uw bestaande Outlook-mappen. 
+> Als u slechts een paar items uit een Outlook-gegevensbestand (.pst) wilt importeren of herstellen, u het Outlook-gegevensbestand openen. Sleep vervolgens in het navigatiedeelvenster de items uit Outlook-mappen voor gegevensbestand naar uw bestaande Outlook-mappen. 
   
   
 ## <a name="related-articles"></a>Verwante artikelen
 [Een voormalige werknemer verwijderen uit Office 365](remove-former-employee.md)
 
-[Beheerders in een OneDrive-account toevoegen en verwijderen](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive)
+[Beheerders toevoegen en verwijderen in een OneDrive-account](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive)
 
 [Een verwijderde OneDrive herstellen](/onedrive/restore-deleted-onedrive)
   
-[OneDrive-retentie en verwijdering](/onedrive/retention-and-deletion)
+[Retentie en verwijdering van OneDrive](/onedrive/retention-and-deletion)
   

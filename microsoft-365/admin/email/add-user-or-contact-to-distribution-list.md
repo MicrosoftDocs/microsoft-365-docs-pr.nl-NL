@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
 description: Meer informatie over het toevoegen van een Microsoft 365-gebruiker of contactpersoon aan een distributiegroep. U bijvoorbeeld een werknemer, partner of leverancier toevoegen aan uw e-maildistributiegroep.
-ms.openlocfilehash: 47b338a326c5c1152c8e14e13f01f9a36de1cb6f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 23862a756d15f98e7b37175f557406914e177d75
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400170"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432311"
 ---
 # <a name="add-a-user-or-contact-to-a-distribution-group"></a>Een gebruiker of contactpersoon toevoegen aan een distributiegroep
 
@@ -35,20 +35,17 @@ Als beheerder van een organisatie moet u mogelijk een van uw gebruikers of conta
 
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
-
 1. Ga in het beheercentrum **Groups** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepen groepen.</a>
 
 2. Selecteer **op** de pagina Groepen de naam van de groep waaraan u een contactpersoon wilt toevoegen.
 
-3. Selecteer op het tabblad **Leden** **alle leden weergeven en leden beheren**.
+3. Selecteer op het tabblad **Leden** de optie **Alles weergeven en leden beheren**.
 
-4. Selecteer op de pagina **Leden weergeven** de optie **Leden toevoegen**en selecteer de gebruiker of contactpersoon die u aan de distributiegroep wilt toevoegen. 
+4. Selecteer leden toevoegen op de pagina **Leden weergeven** en selecteer de gebruiker of contactpersoon die u aan de distributiegroep wilt toevoegen. **Add members** 
     
     ![Leden toevoegen aan distributiegroep](../../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
   
-5. Selecteer **Opslaan** en vervolgens **Sluiten**.
+5. Selecteer **Opslaan** en **sluit**vervolgens .
 
 ::: moniker-end
 
@@ -58,13 +55,13 @@ Als beheerder van een organisatie moet u mogelijk een van uw gebruikers of conta
     
 2. Selecteer **op** de pagina Groepen de groep waaraan u een contactpersoon wilt toevoegen.
     
-3. Selecteer **bewerken in** **Edit**de sectie Leden .
+3. Selecteer **Bewerken**in de sectie **Leden** .
   
-4. Selecteer op de pagina **Leden weergeven** de optie **Leden toevoegen**en selecteer de gebruiker of contactpersoon die u aan de distributiegroep wilt toevoegen. 
+4. Selecteer leden toevoegen op de pagina **Leden weergeven** en selecteer de gebruiker of contactpersoon die u aan de distributiegroep wilt toevoegen. **Add members** 
     
     ![Leden toevoegen aan distributiegroep](../../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
   
-5. Selecteer **Opslaan** en vervolgens **Sluiten**.
+5. Selecteer **Opslaan** en **sluit**vervolgens .
     
 Als u de [contactpersoon](../misc/contacts.md) nog niet hebt gemaakt, doet u dit eerst, zoals in deze video wordt weergegeven. 
 
@@ -76,13 +73,13 @@ Als u de [contactpersoon](../misc/contacts.md) nog niet hebt gemaakt, doet u dit
     
 2. Selecteer **op** de pagina Groepen de groep waaraan u een contactpersoon wilt toevoegen.
     
-3. Selecteer **bewerken in** **Edit**de sectie Leden .
+3. Selecteer **Bewerken**in de sectie **Leden** .
   
-4. Selecteer op de pagina **Leden weergeven** de optie **Leden toevoegen**en selecteer de gebruiker of contactpersoon die u aan de distributiegroep wilt toevoegen. 
+4. Selecteer leden toevoegen op de pagina **Leden weergeven** en selecteer de gebruiker of contactpersoon die u aan de distributiegroep wilt toevoegen. **Add members** 
     
     ![Leden toevoegen aan distributiegroep](../../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
   
-5. Selecteer **Opslaan** en vervolgens **Sluiten**.
+5. Selecteer **Opslaan** en **sluit**vervolgens .
     
 Als u de [contactpersoon](../misc/contacts.md) nog niet hebt gemaakt, doet u dit eerst, zoals in deze video wordt weergegeven. 
 

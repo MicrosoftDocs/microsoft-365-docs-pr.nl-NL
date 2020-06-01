@@ -24,22 +24,22 @@ search.appverid:
 - GEA150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Meer informatie over gebruikersaccounts verwijderen. Bepaal wat u wilt doen met de e-mail van de gebruiker, de inhoud op OneDrive en of u de productlicentie wilt behouden of er niet meer voor wilt betalen.
-ms.openlocfilehash: 4102fe4ac297a1f426b3bf575e748a72b323ebb6
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 81243286b70985082f8b671d7e021735a76cffc4
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387187"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44431675"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Een gebruiker uit uw organisatie verwijderen
   
 ||
 |:-----|
-|**Op zoek naar hoe u uw *eigen* Microsoft 365-gebruikersaccount verwijderen dat u op het werk of op school gebruikt? Neem contact op met de technische ondersteuning op uw werk of universiteit om deze stappen voor u uit te voeren.**|
+|**Wilt u uw *eigen* Microsoft 365-gebruikersaccount verwijderen dat u op het werk of op school gebruikt? Neem contact op met de technische ondersteuning op uw werk of universiteit om deze stappen voor u uit te voeren.**|
    
 ## <a name="what-you-need-to-know-about-deleting-users"></a>Wat u moet weten over het verwijderen van gebruikers
 
-- Alleen mensen met machtigingen voor algemene beheer- of gebruikersbeheer van [Microsoft 365](about-admin-roles.md) kunnen gebruikersaccounts verwijderen. 
+- Alleen mensen met algemene beheerders- of gebruikersbeheermachtigingen voor [Microsoft 365](about-admin-roles.md) voor het bedrijf of de school kunnen gebruikersaccounts verwijderen. 
     
 - U hebt 30 dagen de tijd om het account te [herstellen](restore-user.md). Daarna worden de gegevens van de gebruiker permanent verwijderd. 
     
@@ -47,7 +47,7 @@ ms.locfileid: "44387187"
     
 - Als u de e-mail van de gebruiker wilt bewaren, moet u deze naar een andere locatie verplaatsen **VOORDAT** u het account verwijdert. Als u het account al hebt verwijderd, kunt u het binnen 30 dagen herstellen en vervolgens de e-mailgegevens verplaatsen. Hierna kunt u het account verwijderen. Zie [Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken](get-access-to-and-back-up-a-former-user-s-data.md).
     
-- Als u een Enterprise-abonnement hebt zoals Office 365 Enterprise E3, u de postvakgegevens van een verwijderd gebruikersaccount behouden door er een *inactief postvak van te*maken. Zie het Engelstalige artikel [Manage inactive mailboxes in Exchange Online (Inactieve postvakken beheren in Exchange Online)](https://docs.microsoft.com/microsoft-365/compliance/inactive-mailboxes-in-office-365) voor meer informatie.
+- Als u een Enterprise-abonnement hebt, zoals Office 365 Enterprise E3, u de postvakgegevens van een verwijderd gebruikersaccount behouden door er een *inactief postvak van*te maken. Zie het Engelstalige artikel [Manage inactive mailboxes in Exchange Online (Inactieve postvakken beheren in Exchange Online)](https://docs.microsoft.com/microsoft-365/compliance/inactive-mailboxes-in-office-365) voor meer informatie.
 
 
 ## <a name="global-admin-delete-a-user-stop-paying-for-their-license-and-choose-what-to-do-with-their-email-and-onedrive-content"></a>Globale beheerder: Verwijder een gebruiker, stop de betaling voor zijn licentie en kies u wilt doen met zijn e-mailadres en de OneDrive-inhoud
@@ -67,13 +67,6 @@ Denk, voordat u begint, na over wat u wilt doen met de e-mail- en OneDrive-inhou
 |Active Directory  <br/> |Als uw bedrijf gebruikmaakt van **Active Directory** die wordt gesynchroniseerd met Azure AD, moet u het gebruikersaccount verwijderen uit Active Directory. Dit is niet mogelijk via Office 365. Lees voor instructies: [Een gebruikersaccount verwijderen](https://go.microsoft.com/fwlink/p/?linkid=841808).  <br/> |
    
 ### <a name="get-started"></a>Aan de slag
-
-::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
-
-::: moniker-end
 
 Omdat de begeleide ervaring stap voor stap uitlegt hoe u de gebruiker verwijdert, gaat u als volgt aan de slag.
 
@@ -101,7 +94,7 @@ Omdat de begeleide ervaring stap voor stap uitlegt hoe u de gebruiker verwijdert
 
 
 > [!IMPORTANT]
-> Verwijder het account van een gebruiker niet als je het hebt [geconverteerd naar een gedeeld postvak](../email/convert-user-mailbox-to-shared-mailbox.md) of als je e-mail doorsturen in het account hebt ingesteld. Die functies hebben nog steeds het account nodig. Voor een gedeeld postvak is geen licentie vereist. Als u het account hebt geconverteerd naar een gedeeld postvak, u [stoppen met betalen voor de licentie.](#stop-paying-for-the-license) Als u e-mail doorsturen voor het account hebt ingesteld, u de licentie niet verwijderen. Als u dit doet, wordt het doorsturen van e-mail gestopt en wordt het postvak gedeactiveerd.
+> Verwijder het account van een gebruiker niet als u het hebt [geconverteerd naar een gedeeld postvak](../email/convert-user-mailbox-to-shared-mailbox.md) of als u e-mail doorstuurt in het account. Die functies hebben nog steeds het account nodig. Voor een gedeeld postvak is geen licentie vereist. Als u het account hebt geconverteerd naar een gedeeld postvak, u [stoppen met betalen voor de licentie.](#stop-paying-for-the-license) Als u e-mail doorschakelt in het account hebt ingesteld, u de licentie niet verwijderen. Als u dit doet, stopt u het doorsturen van e-mail en wordt het postvak gedeactiveerd.
   
 ::: moniker range="o365-worldwide"
 
@@ -177,7 +170,7 @@ Hier volgt een overzicht van de meestvoorkomende problemen tijdens het verwijder
   
 - **U krijgt een foutbericht met de volgende strekking: 'Gebruiker kan niet worden verwijderd. Probeer het later opnieuw.'** Controleer of E-mail doorsturen is ingesteld voor het account of dat het account is omgezet naar een gedeeld postvak. In beide gevallen treedt deze fout op. Verwijder het account niet als e-mail doorsturen is ingesteld of als het account is omgezet naar een gedeeld postvak.
 
-- **U beschikt niet over de juiste machtigingen om een gebruiker te verwijderen**. Alleen mensen die [algemene beheerders van Microsoft 365 of beheerders van gebruikersbeheer](about-admin-roles.md) zijn, kunnen gebruikers verwijderen. Meestal is dit de technische ondersteuning van uw onderwijsinstelling of bedrijf.
+- **U beschikt niet over de juiste machtigingen om een gebruiker te verwijderen**. Alleen mensen die [microsoft 365 globale beheerders of gebruikersbeheerbeheerders](about-admin-roles.md) zijn, kunnen gebruikers verwijderen. Meestal is dit de technische ondersteuning van uw onderwijsinstelling of bedrijf.
 
 - **U verwijdert de gebruiker, maar zijn of haar naam staat nog steeds in het globale adresboek**. Dit gebeurt als een bedrijf gebruikmaakt van Active Directory. U moet het gebruikersaccount uit Active Directory verwijderen. Zie het volgende TechNet-artikel voor instructies: [Gebruikersaccounts verwijderen.](https://go.microsoft.com/fwlink/p/?linkid=841808)
 

@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Volg deze checklist om een werknemer uit Microsoft 365 te verwijderen en gegevens te beveiligen. '
-ms.openlocfilehash: 293ad26645aa3b190c25271273b29ac6c4ec8ed0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 1b691d948576a3949d637d2de05b6f931844037c
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387043"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44431651"
 ---
 # <a name="remove-a-former-employee"></a>Een voormalige werknemer verwijderen
 
@@ -45,24 +45,21 @@ ms.locfileid: "44387043"
 
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
-
 Bekijk een korte video over het verwijderen van een werknemer. <br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR] 
 
 Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-Ga als u een werknemer verwijderen:
+Een werknemer verwijderen:
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer het vak naast de naam van de gebruiker en selecteer **Wachtwoord opnieuw instellen**.
+2. Selecteer het vak naast de naam van de gebruiker en selecteer **Wachtwoord opnieuw instellen.**
 
-3. Voer een nieuw wachtwoord in en selecteer **Opnieuw instellen**. (Stuur het niet naar hen.)
+3. Voer een nieuw wachtwoord in en selecteer **Opnieuw instellen.** (Stuur het niet naar hen.)
     
-4. Selecteer de naam van de gebruiker om naar het eigenschappenvenster te gaan en selecteer op het tabblad **OneDrive** de optie **Afmelding initiëren**.
+4. Selecteer de naam van de gebruiker om naar het eigenschappenvenster te gaan en selecteer op het tabblad **OneDrive** de optie **Afmelding starten**.
 
 ::: moniker-end
 
@@ -72,7 +69,7 @@ Ga als u een werknemer verwijderen:
 
 2. Selecteer de gebruiker en selecteer **Wachtwoord opnieuw instellen**.
 
-3. Voer een nieuw wachtwoord in en selecteer **Opnieuw instellen**. (Stuur het niet naar hen.)
+3. Voer een nieuw wachtwoord in en selecteer **Opnieuw instellen.** (Stuur het niet naar hen.)
 
 4. Selecteer de gebruiker opnieuw, vouw **OneDrive-instellingen**uit en selecteer **Starten** naast **Afmelden**.
 
@@ -84,16 +81,16 @@ Ga als u een werknemer verwijderen:
 
 2. Selecteer de gebruiker en selecteer **Wachtwoord opnieuw instellen**.
 
-3. Voer een nieuw wachtwoord in en selecteer **Opnieuw instellen**. (Stuur het niet naar hen.)
+3. Voer een nieuw wachtwoord in en selecteer **Opnieuw instellen.** (Stuur het niet naar hen.)
 
 4. Selecteer de gebruiker opnieuw, vouw **OneDrive-instellingen**uit en selecteer **Starten** naast **Afmelden**.
 
 ::: moniker-end
 
     
-Binnen een uur - of nadat ze de huidige Microsoft 365-pagina hebben verlaten waarop ze zich bevinden - wordt ze gevraagd om zich opnieuw aan te melden. (Een toegangstoken is goed voor een uur, dus de tijdlijn is afhankelijk van hoeveel tijd er nog over is op dat token en of ze uit hun huidige webpagina navigeren.)
+Binnen een uur - of nadat ze de huidige Microsoft 365-pagina waarop ze zich bevinden - worden ze gevraagd om zich opnieuw aan te melden. (Een toegangstoken is goed voor een uur, dus de tijdlijn is afhankelijk van hoeveel tijd er nog over is op dat token en of ze uit hun huidige webpagina navigeren.)
   
- **WAARSCHUWING**: Als de gebruiker zich in de webversie van Outlook bevindt en met het postvak bezig is, kan het zijn dat de gebruiker niet onmiddellijk wordt geblokkeerd. Zodra ze een andere tegel selecteren, zoals OneDrive, of hun browser vernieuwen, wordt de afmelding gestart. 
+ **WAARSCHUWING**: Als de gebruiker zich in de webversie van Outlook bevindt en met het postvak bezig is, kan het zijn dat de gebruiker niet onmiddellijk wordt geblokkeerd. Zodra ze een andere tegel selecteren, zoals OneDrive, of hun browser vernieuwen, wordt het afmelden gestart. 
   
 Zie de cmdlet [Revoke-AzureADUserAllRefreshToken](https://go.microsoft.com/fwlink/?linkid=841345) als u PowerShell wilt gebruiken om een gebruiker onmiddellijk af te melden. 
   
@@ -102,10 +99,10 @@ Zie [Wat u moet weten over het beëindigen van een sessie van een werknemer](#wh
 ## <a name="overview-of-all-the-steps-to-remove-an-employee-and-secure-data"></a>Overzicht van alle stappen voor het verwijderen van een werknemer en het beveiligen van gegevens
 <a name="bkmk_now"> </a>
 
-Een vraag die we vaak krijgen is: "Wat moet ik doen om gegevens te beschermen wanneer een werknemer de organisatie verlaat?" In dit artikel wordt uitgelegd hoe u de toegang tot Microsoft 365 blokkeren en welke stappen u moet ondernemen om uw gegevens te beveiligen.
+Een vraag die we vaak krijgen is: "Wat moet ik doen om gegevens te beschermen wanneer een werknemer de organisatie verlaat?" In dit artikel wordt uitgelegd hoe u de toegang tot Microsoft 365 blokkeren en welke stappen u moet nemen om uw gegevens te beveiligen.
   
 > [!NOTE]
-> Als u een globale beheerder bent, u de werknemer verwijderen, zijn e-mail doorsturen en kiezen wat u met zijn OneDrive-inhoud wilt doen met de nieuwe begeleide ervaring. Zie [Globale beheerder: Een gebruiker verwijderen voor](remove-former-employee.md)meer informatie. We raden u echter aan alle aanvullende stappen te voltooien die hier worden vermeld om ervoor te zorgen dat de werknemer geen toegang heeft tot de gegevens van uw bedrijf. 
+> Als u een globale beheerder bent, u de werknemer verwijderen, hun e-mail doorsturen en kiezen wat u met zijn OneDrive-inhoud moet doen met behulp van de nieuwe begeleide ervaring. Zie [Globale beheerder: Een gebruiker verwijderen voor](remove-former-employee.md)meer informatie. We raden u echter aan alle aanvullende stappen die hier worden vermeld, in te vullen om ervoor te zorgen dat de werknemer geen toegang heeft tot de gegevens van uw bedrijf. 
   
 Hier volgt een kort overzicht. Elke stap in dit artikel wordt tot in detail beschreven.
   
@@ -136,7 +133,7 @@ U kunt de inhoud van het postvak van de voormalige werknemer op twee manieren op
     
     Inactieve postvakken kunnen geen e-mail ontvangen en worden niet weergegeven in het gedeelde adresboek van uw organisatie of in andere lijsten.
     
-    Zie [Inactieve postvakken beheren in Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/create-and-manage-inactive-mailboxes)voor meer informatie over het plaatsen van een blokkering in een postvak .
+    Zie [Inactieve postvakken beheren in Exchange Online voor](https://docs.microsoft.com/microsoft-365/compliance/create-and-manage-inactive-mailboxes)meer informatie over het plaatsen van een blokkering in een postvak.
     
 ## <a name="forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox"></a>E-mail van een voormalige werknemer doorsturen naar een andere werknemer of converteren naar een gedeeld postvak
 <a name="bkmk_forward"> </a>
@@ -152,18 +149,15 @@ In deze stap wijst u het e-mailadres van de voormalige werknemer toe aan een and
 - Voor het doorsturen van e-mail is vereist dat het account van de voormalige werknemer een licentie heeft.
     
  > [!IMPORTANT] 
- > Als u e-mail doorstuur of een gedeeld postvak instelt, verwijdert u aan het einde het account van de voormalige werknemer niet. Het account moet aanwezig zijn om het doorsturen van e-mail of het gedeelde postvak te bevestigen. 
+ > Als u e-mail doorstuurt of een gedeeld postvak, verwijdert u uiteindelijk het account van de vorige werknemer niet. Het account moet aanwezig zijn om het doorsturen van e-mail of het gedeelde postvak te bevestigen. 
 
 ::: moniker range="o365-worldwide"  
 
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
-
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer de naam van de werknemer die u wilt blokkeren en selecteer vervolgens het tabblad **E-mail.**
+2. Selecteer de naam van de werknemer die u wilt blokkeren en selecteer het tabblad **E-mail.**
 
-3. Selecteer **E-mail doorsturen onder E-mail doorsturen**de optie **E-mail doorsturen beheren**.
+3. Selecteer onder **E-mail doorsturen**de optie **E-mail doorsturen beheren**.
 
 4. Schakel **Alle naar dit postvak verzonden e-mail doorsturen** in. Typ in het vak **Doorstuuradres** het e-mailadres van de huidige werknemer (of het gedeelde postvak) waarnaar de nieuwe e-mail wordt doorgestuurd. 
   
@@ -177,9 +171,9 @@ In deze stap wijst u het e-mailadres van de voormalige werknemer toe aan een and
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer de werknemer die u wilt blokkeren en vouw **e-mailinstellingen**uit .
+2. Selecteer de werknemer die u wilt blokkeren en uitvouwen **e-mailinstellingen**.
 
-3. Selecteer naast **E-mail doorsturen**de optie **Bewerken**.
+3. **Selecteer**bewerken naast **e-mail doorsturen**.
 
 4. Schakel **Alle naar dit postvak verzonden e-mail doorsturen** in. Typ in het vak **Doorstuuradres** het e-mailadres van de huidige werknemer (of het gedeelde postvak) waarnaar de nieuwe e-mail wordt doorgestuurd. 
   
@@ -193,9 +187,9 @@ In deze stap wijst u het e-mailadres van de voormalige werknemer toe aan een and
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer de werknemer die u wilt blokkeren en vouw **e-mailinstellingen**uit .
+2. Selecteer de werknemer die u wilt blokkeren en uitvouwen **e-mailinstellingen**.
 
-3. Selecteer naast **E-mail doorsturen**de optie **Bewerken**.
+3. **Selecteer**bewerken naast **e-mail doorsturen**.
 
 4. Schakel **Alle naar dit postvak verzonden e-mail doorsturen** in. Typ in het vak **Doorstuuradres** het e-mailadres van de huidige werknemer (of het gedeelde postvak) waarnaar de nieuwe e-mail wordt doorgestuurd. 
   
@@ -219,7 +213,7 @@ Als de voormalige werknemer een telefoon van de zaak had, kunt u deze via het Ex
     
 4. Selecteer de gebruiker en selecteer onder **Mobiele apparaten**de optie **Details weergeven**. 
     
-5. Selecteer op de pagina **Details van mobiele apparaten** onder Mobiele **apparaten**het mobiele apparaat, selecteer Apparaat wissen van **gegevenswissen** ![ en selecteer Vervolgens ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) **Blokkeren**. 
+5. Selecteer op de pagina **Details van mobiele apparaten** onder Mobiele **apparaten**de optie **Wipe Data** ![ Gegevensvegende apparaat wissen ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) en selecteer **Vervolgens Blokkeren**. 
     
 6. Kies **Opslaan**. 
     
@@ -229,19 +223,16 @@ Als de voormalige werknemer een telefoon van de zaak had, kunt u deze via het Ex
 <a name="bkmk_block"> </a>
 
  > [!IMPORTANT] 
- > Het blokkeren van een account kan tot 24 uur duren voordat deze van kracht wordt. Als u onmiddellijk de aanmeldingstoegang van een gebruiker moet voorkomen, moet u [het wachtwoord opnieuw instellen](reset-passwords.md) en vervolgens een eenmalige gebeurtenis starten die hen afmeldt bij Microsoft 365-sessies op alle apparaten. Zie [Meld je nu af!](#sign-out-now)
+ > Het blokkeren van een account kan tot 24 uur duren. Als u de aanmeldingstoegang van een gebruiker onmiddellijk moet voorkomen, moet u [het wachtwoord opnieuw instellen](reset-passwords.md) en vervolgens een eenmalige gebeurtenis starten die deze tijd afmeldt bij Microsoft 365-sessies op alle apparaten. Zie [Nu afmelden!](#sign-out-now)
  
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
 2. Selecteer de naam van de werknemer die u wilt blokkeren en selecteer onder de naam van de gebruiker het symbool voor **Deze gebruiker blokkeren.**
 
-3. Selecteer **De gebruiker blokkeren van aanmelden**en selecteer **Opslaan**. 
+3. Selecteer **De gebruiker blokkeren om zich aan te melden**en selecteer **Opslaan**. 
 
 ::: moniker-end
 
@@ -249,9 +240,9 @@ Als de voormalige werknemer een telefoon van de zaak had, kunt u deze via het Ex
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer de werknemer die u wilt blokkeren en selecteer **Vervolgens Aanmelding blokkeren**.
+2. Selecteer de werknemer die u wilt blokkeren en selecteer **Aanmelding blokkeren.**
 
-3. Selecteer **De gebruiker blokkeren van aanmelden**en selecteer **Opslaan**. 
+3. Selecteer **De gebruiker blokkeren om zich aan te melden**en selecteer **Opslaan**. 
 
 ::: moniker-end
 
@@ -259,43 +250,40 @@ Als de voormalige werknemer een telefoon van de zaak had, kunt u deze via het Ex
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer de werknemer die u wilt blokkeren en selecteer **Vervolgens Aanmelding blokkeren**.
+2. Selecteer de werknemer die u wilt blokkeren en selecteer **Aanmelding blokkeren.**
 
-3. Selecteer **De gebruiker blokkeren van aanmelden**en selecteer **Opslaan**. 
+3. Selecteer **De gebruiker blokkeren om zich aan te melden**en selecteer **Opslaan**. 
 
 ::: moniker-end
 
 ## <a name="block-a-former-employees-access-to-email-exchange-online"></a>De toegang van een voormalige werknemer tot e-mail (Exchange Online) blokkeren
 <a name="bkmk_block_email"> </a>
 
-Als u e-mail hebt als onderdeel van uw Microsoft 365-abonnement, moet u zich aanmelden bij het Exchange-beheercentrum om deze stappen te volgen om te voorkomen dat uw voormalige werknemer toegang krijgt tot zijn of haar e-mail.
+Als u e-mail hebt als onderdeel van uw Microsoft 365-abonnement, moet u zich aanmelden bij het Exchange-beheercentrum om deze stappen te volgen om te voorkomen dat uw voormalige werknemer toegang krijgt tot zijn e-mail.
   
 
 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum</a>.
      
 2. Ga in het Exchange-beheercentrum naar **Ontvangers** \> **Postvakken**. 
     
-3. Dubbelklik op de gebruiker en ga naar de pagina **Postvakfuncties.** Schakel **onder Mobiele apparaten**Exchange **ActiveSync uit en** **OWA uitschakelen voor apparaten** in en antwoord op beide wanneer u **daarom** wordt gevraagd. 
+3. Dubbelklik op de gebruiker en ga naar de pagina Met de onderdelen **postvak.** Selecteer onder **Mobiele apparaten** **Exchange ActiveSync uitschakelen** en **OWA uitschakelen voor apparaten** en antwoord **ja** op beide wanneer daarom wordt gevraagd. 
     
-4. Selecteer **Onder E-mailconnectiviteit**de optie **Ja uitschakelen** en beantwoorden wanneer daarom wordt gevraagd. **Yes** 
+4. Selecteer onder **Verbinding met e-mail**de optie **Uitschakelen** en beantwoorden **ja** wanneer daarom wordt gevraagd. 
     
 ## <a name="remove-and-delete-the-microsoft-365-license-from-a-former-employee"></a>De Microsoft 365-licentie verwijderen en verwijderen van een voormalige werknemer
 <a name="bkmk_remove"> </a>
 
-U blijft dus niet betalen voor een licentie nadat iemand uw organisatie verlaat, u moet de Microsoft 365-licentie verwijderen en deze vervolgens uit uw abonnement verwijderen. Als u de licentie niet uit het abonnement verwijdert, kunt u deze aan een andere gebruiker toewijzen.
+U hoeft dus niet te blijven betalen voor een licentie nadat iemand uw organisatie heeft verlaten, maar moet de Microsoft 365-licentie verwijderen en deze vervolgens uit uw abonnement verwijderen. Als u de licentie niet uit het abonnement verwijdert, kunt u deze aan een andere gebruiker toewijzen.
   
-Als u de licentie verwijdert, worden alle gegevens van die gebruiker gedurende dertig dagen bewaard. U kunt de gegevens [openen](get-access-to-and-back-up-a-former-user-s-data.md) of het account [herstellen](restore-user.md) als de gebruiker terugkeert. Na 30 dagen worden alle gegevens van de gebruiker (behalve documenten die zijn opgeslagen in SharePoint Online) definitief verwijderd van Microsoft 365 en kunnen ze niet worden hersteld. 
+Als u de licentie verwijdert, worden alle gegevens van die gebruiker gedurende dertig dagen bewaard. U kunt de gegevens [openen](get-access-to-and-back-up-a-former-user-s-data.md) of het account [herstellen](restore-user.md) als de gebruiker terugkeert. Na 30 dagen worden alle gegevens van de gebruiker (behalve documenten die zijn opgeslagen op SharePoint Online) permanent verwijderd uit Microsoft 365 en kunnen ze niet worden hersteld. 
 
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
-
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer de naam van de werknemer die u wilt blokkeren en selecteer vervolgens het tabblad **Licenties en apps.**
+2. Selecteer de naam van de werknemer die u wilt blokkeren en selecteer het tabblad **Licenties en Apps.**
 
-4. Schakel de selectievakjes voor de licentie(s) die u wilt verwijderen uit en selecteer **Wijzigingen opslaan**.
+4. Schakel de selectievakjes uit voor de licentie(s) die u wilt verwijderen en selecteer **Wijzigingen opslaan**.
 
 ::: moniker-end
 
@@ -303,9 +291,9 @@ Als u de licentie verwijdert, worden alle gegevens van die gebruiker gedurende d
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer de werknemer die u wilt blokkeren en **selecteer**vervolgens bewerken naast **Productlicenties**.
+2. Selecteer de werknemer die u wilt blokkeren en selecteer vervolgens naast **Productlicenties** **Bewerken**.
 
-3. Schakel op de pagina **Productlicenties** de licentie(s) die u wilt verwijderen in en selecteer **Opslaan**.
+3. Schakel op de pagina **Productlicenties** de licentie(s) die u wilt verwijderen uit en selecteer **Opslaan.**
 
 ::: moniker-end
 
@@ -313,9 +301,9 @@ Als u de licentie verwijdert, worden alle gegevens van die gebruiker gedurende d
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer de werknemer die u wilt blokkeren en **selecteer**vervolgens bewerken naast **Productlicenties**.
+2. Selecteer de werknemer die u wilt blokkeren en selecteer vervolgens naast **Productlicenties** **Bewerken**.
 
-3. Schakel op de pagina **Productlicenties** de licentie(s) die u wilt verwijderen in en selecteer **Opslaan**.
+3. Schakel op de pagina **Productlicenties** de licentie(s) die u wilt verwijderen uit en selecteer **Opslaan.**
 
 ::: moniker-end
 
@@ -343,11 +331,11 @@ Als u de licentie verwijdert, worden alle gegevens van die gebruiker gedurende d
 
 ::: moniker-end
     
-2. Selecteer **Licenties toevoegen/verwijderen** om de licentie te verwijderen, zodat u er pas voor betaalt als u een andere persoon inhuurt.
+2. Selecteer **Licenties toevoegen/verwijderen** om de licentie te verwijderen, zodat u deze pas betaalt als u een andere persoon hebt ingehuurd.
 
 Wanneer u een andere persoon aan uw bedrijf [toevoegt,](add-users.md) wordt u gevraagd om tegelijkertijd een licentie te kopen, met slechts één stap!
     
-Zie [Licenties toewijzen aan gebruikers in Microsoft 365 voor Bedrijven](../manage/assign-licenses-to-users.md)en Licenties verwijderen van gebruikers in Microsoft 365 voor Bedrijven voor meer informatie over het beheren van gebruikerslicenties voor Microsoft [365 voor Bedrijven.](../manage/remove-licenses-from-users.md)
+Zie [Licenties toewijzen aan gebruikers in Microsoft 365 voor bedrijven](../manage/assign-licenses-to-users.md)en [Licenties verwijderen van gebruikers in Microsoft 365 voor bedrijven en Licenties verwijderen van gebruikers in Microsoft 365 voor bedrijven](../manage/remove-licenses-from-users.md).
   
 ## <a name="how-the-deleted-employee-account-affects-skype-for-business"></a>Invloed van een verwijderd werknemersaccount op Skype voor Bedrijven
 <a name="bkmk_remove"> </a>
@@ -365,14 +353,11 @@ Verwijder het account niet als u doorsturen van e-mail hebt ingesteld of het acc
 
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
-
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
 2. Selecteer de naam van de werknemer die u wilt verwijderen.
 
-3. Selecteer onder de naam van de gebruiker het symbool voor **Gebruiker verwijderen**. Kies de gewenste opties voor deze gebruiker en selecteer **Vervolgens Gebruiker verwijderen**.
+3. Selecteer onder de naam van de gebruiker het symbool voor **Gebruiker verwijderen**. Kies de gewenste opties voor deze gebruiker en selecteer **Gebruiker verwijderen**.
 
 ::: moniker-end
 
@@ -382,7 +367,7 @@ Verwijder het account niet als u doorsturen van e-mail hebt ingesteld of het acc
 
 2. Selecteer de naam van de werknemer die u wilt verwijderen.
 
-3. Selecteer gebruiker **verwijderen**boven aan de pagina . Kies de gewenste opties voor deze gebruiker en selecteer **Vervolgens Gebruiker verwijderen**.
+3. Selecteer gebruiker **verwijderen**boven aan de pagina. Kies de gewenste opties voor deze gebruiker en selecteer **Gebruiker verwijderen**.
 
 ::: moniker-end
 
@@ -392,7 +377,7 @@ Verwijder het account niet als u doorsturen van e-mail hebt ingesteld of het acc
 
 2. Selecteer de naam van de werknemer die u wilt verwijderen.
 
-3. Selecteer gebruiker **verwijderen**boven aan de pagina . Kies de gewenste opties voor deze gebruiker en selecteer **Vervolgens Gebruiker verwijderen**.
+3. Selecteer gebruiker **verwijderen**boven aan de pagina. Kies de gewenste opties voor deze gebruiker en selecteer **Gebruiker verwijderen**.
 
 ::: moniker-end
 
@@ -400,7 +385,7 @@ Wanneer u een gebruiker verwijdert, wordt het account inactief gedurende ongevee
   
 ### <a name="does-your-organization-use-active-directory"></a>Maakt uw organisatie gebruik van Active Directory?
 
-Als uw organisatie gebruikersaccounts synchroniseert met Microsoft 365 vanuit een lokale Active Directory-omgeving, moet u deze gebruikersaccounts in uw lokale Active Directory-service verwijderen en herstellen. U kunt ze niet verwijderen of herstellen via Office 365.
+Als uw organisatie gebruikersaccounts synchroniseert met Microsoft 365 vanuit een lokale Active Directory-omgeving, moet u deze gebruikersaccounts verwijderen en herstellen in uw lokale Active Directory-service. U kunt ze niet verwijderen of herstellen via Office 365.
   
 Lees voor instructies dit artikel: [Een gebruikersaccount verwijderen](https://go.microsoft.com/fwlink/?linkid=841808).
   
