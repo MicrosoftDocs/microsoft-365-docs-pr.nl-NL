@@ -283,7 +283,7 @@
                   items:
                     - name: Filteren van uitgaande spam configureren
                       href: ./office-365-security/configure-the-outbound-spam-policy.md
-                    - name: Groep met verhoogd risico voor uitgaande berichten
+                    - name: Uitgaande bezorgingspools
                       href: ./office-365-security/high-risk-delivery-pool-for-outbound-messages.md
                     - name: Geblokkeerde gebruikers verwijderen uit de portal voor gebruikers met beperkte rechten
                       href: ./office-365-security/removing-user-from-restricted-users-portal-after-spam.md
