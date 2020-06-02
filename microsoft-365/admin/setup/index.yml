@@ -11,18 +11,18 @@ metadata:
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 82575756389813a3ddec91fa2b278acee0d9eef1
-  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+  ms.openlocfilehash: 6c8dea517cf2550d6781a027f9522ee2e051b209
+  ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 05/27/2020
-  ms.locfileid: "44398892"
+  ms.lasthandoff: 06/01/2020
+  ms.locfileid: "44471298"
 landingContent:
 - title: Aanmelden
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Een abonnement kiezen en u aanmelden voor Microsoft 365
+    - text: Kies een abonnement en meld je aan voor Microsoft 365
       url: ../admin-overview/sign-up-for-office-365.md
   - linkListType: video
     links:
@@ -32,19 +32,23 @@ landingContent:
       url: https://support.office.com/article/9ac1a0f1-789b-4143-b954-5821d5d89298
     - text: Aanmelden voor Microsoft Business Premium
       url: https://support.office.com/article/9ac1a0f1-789b-4143-b954-5821d5d89298
-- title: Begeleide set-up
+- title: Begeleid instellen
   linkLists:
   - linkListType: overview
     links:
-    - text: Uw set-up plannen
+    - text: Plan uw set-up
       url: plan-your-setup.md
   - linkListType: how-to-guide
     links:
+    - text: Microsoft Business Basic instellen
+      url: setup-business-basic.md
     - text: Microsoft Business Standard instellen
-      url: setup.md
+      url: setup-business-standard.md
     - text: Microsoft Business Premium instellen
       url: ../../business/set-up.md
-- title: Klaar met instellen
+    - text: Microsoft Apps voor Bedrijven instellen
+      url: setup-apps-for-business.md
+- title: Einde instellen
   linkLists:
   - linkListType: how-to-guide
     links:
