@@ -23,25 +23,25 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
-description: Meer informatie over het gebruik van Microsoft 365 voor bedrijven om Windows 10-apparaten die u beheert in de fabriek te resetten en deze bij aankoop terug te zetten naar de oorspronkelijke instellingen.
-ms.openlocfilehash: 62585828274652e48b6c6d3654faa8c20fb4caba
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lees hoe u Microsoft 365 voor bedrijven gebruiken om Windows 10-apparaten die u beheert in de fabriek te resetten, en deze bij aankoop terug te plaatsen naar de oorspronkelijke instellingen.
+ms.openlocfilehash: 6b82f502f8fdcbbd2338b2a0e2ad69d230a693cb
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402761"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470802"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Fabrieksinstellingen terugzetten voor Windows 10-apparaten
 
-[![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+Dit artikel is van toepassing op Microsoft 365 Business Premium.
 
-Het herstellen van de fabrieksinstellingen zet de instellingen op het apparaat terug naar de oorspronkelijke instellingen toen het apparaat is gekocht. Alle apps en gegevens die op het apparaat zijn geïnstalleerd na aankoop worden verwijderd. U Microsoft 365 voor bedrijven gebruiken om Windows 10-apparaten die u beheert opnieuw in de fabriek te resetten.
+Het herstellen van de fabrieksinstellingen zet de instellingen op het apparaat terug naar de oorspronkelijke instellingen toen het apparaat is gekocht. Alle apps en gegevens die op het apparaat zijn geïnstalleerd na aankoop worden verwijderd. U Microsoft 365 voor bedrijven gebruiken om Windows 10-apparaten die u beheert in de fabriek te resetten.
   
 1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     
-2. Kies **Apparaten** beheren in het linkernavigatiegebied \> **Manage**.
+2. Kies in het linkernavigatiesysteem **Apparaten** \> **beheren**.
 
-3. Schakel op de pagina **Beheren** het selectievakje in naast het apparaat waaruit u gegevens wilt verwijderen en kies vervolgens in de vervolgkeuzelijst **Beheren** **Fabrieksreset**.
+3. Schakel op de pagina **Beheren** het selectievakje in naast het apparaat waaruit u gegevens wilt verwijderen en kies vervolgens in de vervolgkeuzelijst **Fabrieksreset** **beheren.**
     
 4. Kies in het deelvenster **Weet u zeker dat u de fabrieksinstellingen op de volgende apparaten wilt herstellen?** de optie **Bevestigen** \> **Sluiten**.
     
