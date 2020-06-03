@@ -1,7 +1,7 @@
 ---
-title: E-mailUrlInfo-tabel in het geavanceerde jachtschema
+title: MailUrlInfo tabel in de geavanceerde jacht schema
 description: Meer informatie over URL- of koppelingsgegevens in de tabel EmailUrlInfo van het geavanceerde jachtschema
-keywords: geavanceerde jacht, dreigingjacht, cyberdreigingsjacht, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetrie, schemareferentie, kusto, tabel, kolom, gegevenstype, beschrijving, EmailUrlInfo, netwerkbericht-id, url, link
+keywords: geavanceerde jacht, bedreiging jacht, cyber bedreiging jacht, Microsoft threat protection, Microsoft 365, mtp, m365, zoeken, query, telemetrie, schema referentie, kusto, tabel, kolom, gegevenstype, beschrijving, EmailUrlInfo, netwerk bericht id, url, link
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,35 +17,33 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 46849aa81da5a615a5dff7c5e2ac28566443d3ee
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 47486f34f9926d83e52ba206f63d3e85286527dc
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633517"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515817"
 ---
-# <a name="emailurlinfo"></a><span data-ttu-id="dd70e-104">EmailUrlInfo</span><span class="sxs-lookup"><span data-stu-id="dd70e-104">EmailUrlInfo</span></span>
+# <a name="emailurlinfo"></a><span data-ttu-id="a79ad-104">EmailUrlInfo</span><span class="sxs-lookup"><span data-stu-id="a79ad-104">EmailUrlInfo</span></span>
 
-<span data-ttu-id="dd70e-105">**Geldt voor:**</span><span class="sxs-lookup"><span data-stu-id="dd70e-105">**Applies to:**</span></span>
-- <span data-ttu-id="dd70e-106">Microsoft Threat Protection</span><span class="sxs-lookup"><span data-stu-id="dd70e-106">Microsoft Threat Protection</span></span>
+<span data-ttu-id="a79ad-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="a79ad-105">**Applies to:**</span></span>
+- <span data-ttu-id="a79ad-106">Microsoft Threat Protection</span><span class="sxs-lookup"><span data-stu-id="a79ad-106">Microsoft Threat Protection</span></span>
 
+<span data-ttu-id="a79ad-107">De `EmailUrlInfo` tabel in het geavanceerde [jachtschema](advanced-hunting-overview.md) bevat informatie over URL's op e-mails en bijlagen die door Office 365 ATP worden verwerkt.</span><span class="sxs-lookup"><span data-stu-id="a79ad-107">The `EmailUrlInfo` table in the [advanced hunting](advanced-hunting-overview.md) schema contains information about URLs on emails and attachments processed by Office 365 ATP.</span></span> <span data-ttu-id="a79ad-108">Gebruik deze verwijzing om query's te construeren die informatie uit deze tabel retourneren.</span><span class="sxs-lookup"><span data-stu-id="a79ad-108">Use this reference to construct queries that return information from this table.</span></span>
 
+<span data-ttu-id="a79ad-109">Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor informatie over andere tabellen in het geavanceerde jachtschema.</span><span class="sxs-lookup"><span data-stu-id="a79ad-109">For information on other tables in the advanced hunting schema, [see the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
 
-<span data-ttu-id="dd70e-107">De `EmailUrlInfo` tabel in het [geavanceerde jachtschema](advanced-hunting-overview.md) bevat informatie over URL's op e-mails en bijlagen die zijn verwerkt door Office 365 ATP.</span><span class="sxs-lookup"><span data-stu-id="dd70e-107">The `EmailUrlInfo` table in the [advanced hunting](advanced-hunting-overview.md) schema contains information about URLs on emails and attachments processed by Office 365 ATP.</span></span> <span data-ttu-id="dd70e-108">Gebruik deze verwijzing om query's te construeren die informatie uit deze tabel retourneren.</span><span class="sxs-lookup"><span data-stu-id="dd70e-108">Use this reference to construct queries that return information from this table.</span></span>
-
-<span data-ttu-id="dd70e-109">Voor informatie over andere tabellen in de geavanceerde jacht schema, [zie de geavanceerde jacht referentie](advanced-hunting-schema-tables.md).</span><span class="sxs-lookup"><span data-stu-id="dd70e-109">For information on other tables in the advanced hunting schema, [see the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
-
-| <span data-ttu-id="dd70e-110">Kolomnaam</span><span class="sxs-lookup"><span data-stu-id="dd70e-110">Column name</span></span> | <span data-ttu-id="dd70e-111">Gegevenstype</span><span class="sxs-lookup"><span data-stu-id="dd70e-111">Data type</span></span> | <span data-ttu-id="dd70e-112">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="dd70e-112">Description</span></span> |
+| <span data-ttu-id="a79ad-110">Kolomnaam</span><span class="sxs-lookup"><span data-stu-id="a79ad-110">Column name</span></span> | <span data-ttu-id="a79ad-111">Gegevenstype</span><span class="sxs-lookup"><span data-stu-id="a79ad-111">Data type</span></span> | <span data-ttu-id="a79ad-112">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="a79ad-112">Description</span></span> |
 |-------------|-----------|-------------|
-| `Timestamp` | <span data-ttu-id="dd70e-113">Datetime</span><span class="sxs-lookup"><span data-stu-id="dd70e-113">datetime</span></span> | <span data-ttu-id="dd70e-114">Datum en tijdstip waarop de gebeurtenis is geregistreerd</span><span class="sxs-lookup"><span data-stu-id="dd70e-114">Date and time when the event was recorded</span></span> |
-| `UrlId` | <span data-ttu-id="dd70e-115">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="dd70e-115">string</span></span> | <span data-ttu-id="dd70e-116">Unieke id voor de URL in het e-mailonderwerp, de hoofdtekst of de bijlage</span><span class="sxs-lookup"><span data-stu-id="dd70e-116">Unique identifier for the URL in the email subject, body, or attachment</span></span> |
-| `NetworkMessageId` | <span data-ttu-id="dd70e-117">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="dd70e-117">string</span></span> | <span data-ttu-id="dd70e-118">Unieke id voor de e-mail, gegenereerd door Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="dd70e-118">Unique identifier for the email, generated by Microsoft 365</span></span> |
-| `Url` | <span data-ttu-id="dd70e-119">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="dd70e-119">string</span></span> | <span data-ttu-id="dd70e-120">Volledige URL in het e-mailonderwerp, de hoofdtekst of de bijlage</span><span class="sxs-lookup"><span data-stu-id="dd70e-120">Full URL in the email subject, body, or attachment</span></span> |
+| `Timestamp` | <span data-ttu-id="a79ad-113">Datetime</span><span class="sxs-lookup"><span data-stu-id="a79ad-113">datetime</span></span> | <span data-ttu-id="a79ad-114">Datum en tijdstip waarop de gebeurtenis is geregistreerd</span><span class="sxs-lookup"><span data-stu-id="a79ad-114">Date and time when the event was recorded</span></span> |
+| `UrlId` | <span data-ttu-id="a79ad-115">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="a79ad-115">string</span></span> | <span data-ttu-id="a79ad-116">Unieke id voor de URL in het e-mailonderwerp, de hoofdtekst of de bijlage</span><span class="sxs-lookup"><span data-stu-id="a79ad-116">Unique identifier for the URL in the email subject, body, or attachment</span></span> |
+| `NetworkMessageId` | <span data-ttu-id="a79ad-117">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="a79ad-117">string</span></span> | <span data-ttu-id="a79ad-118">Unieke id voor de e-mail, gegenereerd door Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="a79ad-118">Unique identifier for the email, generated by Microsoft 365</span></span> |
+| `Url` | <span data-ttu-id="a79ad-119">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="a79ad-119">string</span></span> | <span data-ttu-id="a79ad-120">Volledige URL in het onderwerp, de hoofdtekst of de bijlage van de e-mail</span><span class="sxs-lookup"><span data-stu-id="a79ad-120">Full URL in the email subject, body, or attachment</span></span> |
 
-## <a name="related-topics"></a><span data-ttu-id="dd70e-121">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="dd70e-121">Related topics</span></span>
-- [<span data-ttu-id="dd70e-122">Proactief op zoek naar bedreigingen</span><span class="sxs-lookup"><span data-stu-id="dd70e-122">Proactively hunt for threats</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="dd70e-123">De querytaal leren</span><span class="sxs-lookup"><span data-stu-id="dd70e-123">Learn the query language</span></span>](advanced-hunting-query-language.md)
-- [<span data-ttu-id="dd70e-124">Gedeelde query's gebruiken</span><span class="sxs-lookup"><span data-stu-id="dd70e-124">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
-- [<span data-ttu-id="dd70e-125">Zoek naar bedreigingen op verschillende apparaten en e-mails</span><span class="sxs-lookup"><span data-stu-id="dd70e-125">Hunt for threats across devices and emails</span></span>](advanced-hunting-query-emails-devices.md)
-- [<span data-ttu-id="dd70e-126">Meer informatie over het schema</span><span class="sxs-lookup"><span data-stu-id="dd70e-126">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
-- [<span data-ttu-id="dd70e-127">Aanbevolen procedures voor query's toepassen</span><span class="sxs-lookup"><span data-stu-id="dd70e-127">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
+## <a name="related-topics"></a><span data-ttu-id="a79ad-121">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="a79ad-121">Related topics</span></span>
+- [<span data-ttu-id="a79ad-122">Proactief op zoek naar bedreigingen</span><span class="sxs-lookup"><span data-stu-id="a79ad-122">Proactively hunt for threats</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="a79ad-123">De querytaal leren</span><span class="sxs-lookup"><span data-stu-id="a79ad-123">Learn the query language</span></span>](advanced-hunting-query-language.md)
+- [<span data-ttu-id="a79ad-124">Gedeelde query's gebruiken</span><span class="sxs-lookup"><span data-stu-id="a79ad-124">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
+- [<span data-ttu-id="a79ad-125">Zoek naar bedreigingen op verschillende apparaten en e-mails</span><span class="sxs-lookup"><span data-stu-id="a79ad-125">Hunt for threats across devices and emails</span></span>](advanced-hunting-query-emails-devices.md)
+- [<span data-ttu-id="a79ad-126">Meer informatie over het schema</span><span class="sxs-lookup"><span data-stu-id="a79ad-126">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
+- [<span data-ttu-id="a79ad-127">Aanbevolen procedures voor query's toepassen</span><span class="sxs-lookup"><span data-stu-id="a79ad-127">Apply query best practices</span></span>](advanced-hunting-best-practices.md)

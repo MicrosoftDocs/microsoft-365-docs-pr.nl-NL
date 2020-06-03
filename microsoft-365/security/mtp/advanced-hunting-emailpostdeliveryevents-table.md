@@ -1,0 +1,64 @@
+---
+title: MailPostDeliveryEvents tabel in de geavanceerde jacht schema
+description: Meer informatie over acties na levering op Microsoft 365-e-mails in de tabel EmailPostDeliveryEvents van het geavanceerde jachtschema
+keywords: geavanceerde jacht, bedreiging jacht, cyber bedreiging jacht, Microsoft threat protection, Microsoft 365, mtp, m365, zoeken, query, telemetrie, schema referentie, kusto, tabel, kolom, gegevenstype, beschrijving, EmailPostDeliveryEvents, netwerk bericht id, afzender, ontvanger, bijlage id, bijlage naam, malware verdict, phishing verdict, bijlage tellen, link tellen, url tellen
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: microsoft-365-enterprise
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+f1.keywords:
+- NOCSH
+ms.author: lomayor
+author: lomayor
+ms.localizationpriority: medium
+manager: dansimp
+audience: ITPro
+ms.collection: M365-security-compliance
+ms.topic: article
+ms.openlocfilehash: f4b34abdbfcbd6c3a2f142001a3d486485c86fcd
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515913"
+---
+# <a name="emailpostdeliveryevents"></a><span data-ttu-id="21023-104">E-mailpostDeliveryEvents</span><span class="sxs-lookup"><span data-stu-id="21023-104">EmailPostDeliveryEvents</span></span>
+
+<span data-ttu-id="21023-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="21023-105">**Applies to:**</span></span>
+- <span data-ttu-id="21023-106">Microsoft Threat Protection</span><span class="sxs-lookup"><span data-stu-id="21023-106">Microsoft Threat Protection</span></span>
+
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
+<span data-ttu-id="21023-107">De `EmailPostDeliveryEvents` tabel in het geavanceerde [jachtschema](advanced-hunting-overview.md) bevat informatie over acties na levering die zijn uitgevoerd op e-mailberichten die door Microsoft 365 zijn verwerkt.</span><span class="sxs-lookup"><span data-stu-id="21023-107">The `EmailPostDeliveryEvents` table in the [advanced hunting](advanced-hunting-overview.md) schema contains information about post-delivery actions taken on email messages processed by Microsoft 365.</span></span> <span data-ttu-id="21023-108">Gebruik deze verwijzing om query's te construeren die informatie uit deze tabel retourneren.</span><span class="sxs-lookup"><span data-stu-id="21023-108">Use this reference to construct queries that return information from this table.</span></span>
+
+<span data-ttu-id="21023-109">Voor meer informatie over afzonderlijke e-mailberichten u ook de [`EmailEvents`](advanced-hunting-emailevents-table.md) tabellen en de tabellen [`EmailAttachmentInfo`](advanced-hunting-emailattachmentinfo-table.md) [`EmailUrlInfo`](advanced-hunting-emailurlinfo-table.md) gebruiken.</span><span class="sxs-lookup"><span data-stu-id="21023-109">To get more information about individual email messages, you can also use the [`EmailEvents`](advanced-hunting-emailevents-table.md), [`EmailAttachmentInfo`](advanced-hunting-emailattachmentinfo-table.md), and the [`EmailUrlInfo`](advanced-hunting-emailurlinfo-table.md) tables.</span></span> <span data-ttu-id="21023-110">Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor informatie over andere tabellen in het geavanceerde jachtschema.</span><span class="sxs-lookup"><span data-stu-id="21023-110">For information on other tables in the advanced hunting schema, [see the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
+
+| <span data-ttu-id="21023-111">Kolomnaam</span><span class="sxs-lookup"><span data-stu-id="21023-111">Column name</span></span> | <span data-ttu-id="21023-112">Gegevenstype</span><span class="sxs-lookup"><span data-stu-id="21023-112">Data type</span></span> | <span data-ttu-id="21023-113">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="21023-113">Description</span></span> |
+|-------------|-----------|-------------|
+| `Timestamp` | <span data-ttu-id="21023-114">Datetime</span><span class="sxs-lookup"><span data-stu-id="21023-114">datetime</span></span> | <span data-ttu-id="21023-115">Datum en tijdstip waarop de gebeurtenis is geregistreerd</span><span class="sxs-lookup"><span data-stu-id="21023-115">Date and time when the event was recorded</span></span> |
+| `EventId` | <span data-ttu-id="21023-116">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="21023-116">string</span></span> | <span data-ttu-id="21023-117">Unieke id voor het evenement</span><span class="sxs-lookup"><span data-stu-id="21023-117">Unique identifier for the event</span></span> |
+| `NetworkMessageId` | <span data-ttu-id="21023-118">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="21023-118">string</span></span> | <span data-ttu-id="21023-119">Unieke id voor de e-mail, gegenereerd door Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="21023-119">Unique identifier for the email, generated by Microsoft 365</span></span> |
+| `InternetMessageId` | <span data-ttu-id="21023-120">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="21023-120">string</span></span> | <span data-ttu-id="21023-121">Openbare id voor de e-mail die is ingesteld door het verzendende e-mailsysteem</span><span class="sxs-lookup"><span data-stu-id="21023-121">Public-facing identifier for the email that is set by the sending email system</span></span> |
+| `Action` | <span data-ttu-id="21023-122">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="21023-122">string</span></span> | <span data-ttu-id="21023-123">Maatregelen tegen de entiteit</span><span class="sxs-lookup"><span data-stu-id="21023-123">Action taken on the entity</span></span> |
+| `ActionType` | <span data-ttu-id="21023-124">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="21023-124">string</span></span> | <span data-ttu-id="21023-125">Type activiteit dat de gebeurtenis heeft geactiveerd: Handmatige sanering, Phish ZAP, Malware ZAP</span><span class="sxs-lookup"><span data-stu-id="21023-125">Type of activity that triggered the event: Manual remediation, Phish ZAP, Malware ZAP</span></span> |
+| `ActionTrigger` | <span data-ttu-id="21023-126">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="21023-126">string</span></span> | <span data-ttu-id="21023-127">Geeft aan of een actie is geactiveerd door een beheerder (handmatig of door goedkeuring van een in behandeling zijnde geautomatiseerde actie) of door een speciaal mechanisme, zoals een ZAP of Dynamic Delivery</span><span class="sxs-lookup"><span data-stu-id="21023-127">Indicates whether an action was triggered by an administrator (manually or through approval of a pending automated action), or by some special mechanism, such as a ZAP or Dynamic Delivery</span></span> |
+| `ActionResult` | <span data-ttu-id="21023-128">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="21023-128">string</span></span> | <span data-ttu-id="21023-129">Resultaat van de actie</span><span class="sxs-lookup"><span data-stu-id="21023-129">Result of the action</span></span> |
+| `RecipientEmailAddress` | <span data-ttu-id="21023-130">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="21023-130">string</span></span> | <span data-ttu-id="21023-131">E-mailadres van de ontvanger of e-mailadres van de ontvanger na uitbreiding van de distributielijst</span><span class="sxs-lookup"><span data-stu-id="21023-131">Email address of the recipient, or email address of the recipient after distribution list expansion</span></span> |
+| `DeliveryLocation` | <span data-ttu-id="21023-132">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="21023-132">string</span></span> | <span data-ttu-id="21023-133">Locatie waar de e-mail is bezorgd: Postvak IN/map, On-premises/Extern, Ongewenste e-mail, Quarantaine, Mislukt, Verwijderd, Verwijderde items</span><span class="sxs-lookup"><span data-stu-id="21023-133">Location where the email was delivered: Inbox/Folder, On-premises/External, Junk, Quarantine, Failed, Dropped, Deleted items</span></span> |
+
+## <a name="supported-event-types"></a><span data-ttu-id="21023-134">Ondersteunde gebeurtenistypen</span><span class="sxs-lookup"><span data-stu-id="21023-134">Supported event types</span></span>
+<span data-ttu-id="21023-135">In deze tabel worden gebeurtenissen met de volgende `ActionType` waarden vastgelegd:</span><span class="sxs-lookup"><span data-stu-id="21023-135">This table captures events with the following `ActionType` values:</span></span>
+
+- <span data-ttu-id="21023-136">**Handmatige herstel** : een beheerder heeft handmatig actie ondernomen op een e-mailbericht nadat het is afgeleverd bij het postvak van de gebruiker.</span><span class="sxs-lookup"><span data-stu-id="21023-136">**Manual remediation** – An administrator manually took action on an email message after it was delivered to the user mailbox.</span></span> <span data-ttu-id="21023-137">Dit omvat acties die handmatig worden uitgevoerd via [Threat Explorer](../office-365-security/threat-explorer.md) of goedkeuringen van [geautomatiseerde acties voor onderzoek en respons (AIR).](mtp-autoir-actions.md)</span><span class="sxs-lookup"><span data-stu-id="21023-137">This includes actions taken manually through [Threat Explorer](../office-365-security/threat-explorer.md) or approvals of [automated investigation and response (AIR) actions](mtp-autoir-actions.md).</span></span>
+- <span data-ttu-id="21023-138">**Phish ZAP** - [Zero-hour auto purge (ZAP)](../office-365-security/zero-hour-auto-purge.md) heeft actie ondernomen op een phishing-e-mail na levering.</span><span class="sxs-lookup"><span data-stu-id="21023-138">**Phish ZAP** – [Zero-hour auto purge (ZAP)](../office-365-security/zero-hour-auto-purge.md) took action on a phishing email after delivery.</span></span>
+- <span data-ttu-id="21023-139">**Malware ZAP** - Zero-hour auto purge (ZAP) heeft actie ondernomen op een e-mailbericht gevonden met malware na levering.</span><span class="sxs-lookup"><span data-stu-id="21023-139">**Malware ZAP** – Zero-hour auto purge (ZAP) took action on an email message found containing malware after delivery.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="21023-140">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="21023-140">Related topics</span></span>
+- [<span data-ttu-id="21023-141">Proactief op zoek naar bedreigingen</span><span class="sxs-lookup"><span data-stu-id="21023-141">Proactively hunt for threats</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="21023-142">De querytaal leren</span><span class="sxs-lookup"><span data-stu-id="21023-142">Learn the query language</span></span>](advanced-hunting-query-language.md)
+- [<span data-ttu-id="21023-143">Gedeelde query's gebruiken</span><span class="sxs-lookup"><span data-stu-id="21023-143">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
+- [<span data-ttu-id="21023-144">Zoek naar bedreigingen op verschillende apparaten en e-mails</span><span class="sxs-lookup"><span data-stu-id="21023-144">Hunt for threats across devices and emails</span></span>](advanced-hunting-query-emails-devices.md)
+- [<span data-ttu-id="21023-145">Meer informatie over het schema</span><span class="sxs-lookup"><span data-stu-id="21023-145">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
+- [<span data-ttu-id="21023-146">Aanbevolen procedures voor query's toepassen</span><span class="sxs-lookup"><span data-stu-id="21023-146">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
