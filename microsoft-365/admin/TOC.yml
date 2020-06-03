@@ -11,7 +11,15 @@
         - name: De installatie plannen
           href: setup/plan-your-setup.md
         - name: Uw organisatie instellen met behulp van de begeleide installatie
-          href: setup/setup.md
+          items:
+            - name: Microsoft 365 Business Basic
+              href: setup/setup-business-basic.md
+            - name: Microsoft 365 Business Standard
+              href: setup/setup-business-standard.md
+            - name: Microsoft Business Premium
+              href: ../business/set-up.md
+            - name: Microsoft 365-apps voor bedrijven
+              href: setup/setup-apps-for-business.md
         - name: De instellingspagina en wizard verkennen
           href: setup/o365-setup-wizard-and-setup-page.md
         - name: Uw gegevens migreren
@@ -21,7 +29,7 @@
         - name: Teams implementeren
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
         - name: App-training voor iedereen
-          href: 'https://support.office.com/en-us/office-training-center'
+          href: 'https://support.office.com/office-training-center'
         - name: Welk abonnement heb ik?
           href: admin-overview/what-subscription-do-i-have.md
         - name: Aanmeldingspagina aanpassen
@@ -240,10 +248,42 @@
           href: security-and-compliance/set-up-multi-factor-authentication.md
         - name: Moderne verificatie voor Office 2013 inschakelen
           href: security-and-compliance/enable-modern-authentication.md
+        - name: Microsoft Business Premium beveiligen
+          items:
+            - name: Vereisten voor gegevensbescherming
+              href: ../business/pre-requisites-for-data-protection.md
+            - name: Beveiligingsfuncties
+              href: ../business/security-features.md
+            - name: Bedreigingsbeveiliging verbeteren
+              href: ../business/increase-threat-protection.md
+            - name: Compliancefuncties instellen
+              href: ../business/set-up-compliance.md
         - name: Veiligheidsscore
           href: 'https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new'
         - name: Een handleiding voor AVG-naleving
           href: security-and-compliance/gdpr-compliance.md
+    - name: Apparaten beheren
+      items:
+        - name: Beleid en apparaten bekijken en bewerken
+          href: ../business/view-policies-and-devices.md
+        - name: Bedrijfsgegevens verwijderen
+          href: ../business/remove-company-data.md
+        - name: Fabrieksinstellingen terugzetten voor apparaten
+          href: ../business/reset-devices-to-factory-settings.md
+        - name: Beveiligingsfuncties toewijzen aan Intune-instellingen
+          href: ../business/map-protection-features-to-intune-settings.md
+        - name: Instellingen voor app-beveiliging voor Android en iOS
+          href: ../business/app-protection-settings-for-android-and-ios.md
+          items:
+            - name: Instellingen valideren op Android of iOS
+              href: ../business/validate-settings-on-android-or-ios.md
+        - name: Instellingen voor apparaatbeveiliging voor Windows 10-pc's
+          href: ../business/protection-settings-for-windows-10-pcs.md
+          items:
+            - name: Instellingen valideren op Windows 10-pc's
+              href: ../business/validate-settings-on-windows-10-pcs.md
+        - name: Instellingen voor app-beveiliging voor Windows 10-pc's
+          href: ../business/protection-settings-for-windows-10-devices.md
     - name: Werken met klanten
       href: work-with-customers/index.yml
       items:
