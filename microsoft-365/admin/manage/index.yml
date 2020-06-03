@@ -3,7 +3,7 @@ title: Uw gegevens en service beheren
 summary: Bekijk deze bronnen om beheerders te helpen met veelvoorkomende taken of bekijk het navigatiedeelvenster aan de linkerkant voor een volledige lijst.
 metadata:
   title: Uw gegevens en service beheren
-  description: De status van uw service bewaken, een back-up maken van gegevens, invoegins installeren en upgraden naar de nieuwste apps
+  description: Controleer de status van uw service, maakt een back-up van gegevens, installeer invoegtoepassingen en upgrade naar de nieuwste apps
   ms.service: O365-administration
   ms.topic: landing-page
   author: sirkkuw
@@ -11,14 +11,14 @@ metadata:
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: b1a5bd2f50542a9c76c32da7465e80e371238560
-  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+  ms.openlocfilehash: 99441695ad069ffe15f5347991d9dd65976eb23e
+  ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 05/27/2020
-  ms.locfileid: "44399750"
+  ms.lasthandoff: 06/02/2020
+  ms.locfileid: "44498267"
 landingContent:
-- title: Controleer de status van onze service
+- title: De status van onze service bewaken
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -34,6 +34,8 @@ landingContent:
       url: update-phone-number-and-email-address.md
     - text: Releaseopties instellen
       url: release-options-in-office-365.md
+    - text: Nieuwe functies weergeven of verbergen
+      url: show-hide-new-features.md
 - title: Gebruikerstoegang blokkeren en een back-up maken van gegevens
   linkLists:
   - linkListType: how-to-guide
@@ -44,7 +46,7 @@ landingContent:
       url: ../../business/set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
     - text: Bedrijfsgegevens van apparaten verwijderen (Microsoft 365 Business Premium)
       url: ../../business/remove-company-data.md
-- title: Invoeg- en apps beheren
+- title: Invoegtoepassingen en apps beheren
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -60,7 +62,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Documentatie van Microsoft Teams-beheerders
+    - text: Microsoft Teams-beheerdersdocumentatie
       url: https://docs.microsoft.com/en-us/microsoftteams/
     - text: Outlook en Teams samen gebruiken
       url: https://support.office.com/article/9bc459c4-ce13-479b-b88b-b8ae49092732

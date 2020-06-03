@@ -1,7 +1,7 @@
 ---
 title: Overzicht van aangepaste detecties in Microsoft Threat Protection
-description: Begrijpen hoe u geavanceerde jacht gebruiken om aangepaste detecties te maken en waarschuwingen te genereren
-keywords: geavanceerde jacht, dreigingsjacht, cyberdreigingsjacht, bescherming tegen microsoft-bedreigingen, microsoft 365, mtp, m365, zoeken, query, telemetrie, aangepaste detecties, schema, kusto, microsoft 365, Microsoft Threat Protection
+description: Begrijp hoe u geavanceerde jacht gebruiken om aangepaste detecties te maken en waarschuwingen te genereren
+keywords: geavanceerde jacht, bedreiging jacht, cyber bedreiging jacht, Microsoft threat protection, Microsoft 365, mtp, m365, zoeken, query, telemetrie, aangepaste detecties, schema, kusto, Microsoft 365, Microsoft Threat Protection
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,28 +17,26 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: a9ba61650b69e3c42506735c90ae05b917a53209
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: cdbaf9cfd2172656ed75cb3c0a1a9e361070f25b
+ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42931724"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44498349"
 ---
-# <a name="custom-detections-overview"></a>Overzicht van aangepaste detecties
+# <a name="custom-detections-overview"></a>Overzicht van aangepaste detectie
 
 **Van toepassing op:**
-- Microsoft-bedreigingsbeveiliging
+- Microsoft Threat Protection
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+Met aangepaste detecties u proactief controleren op en reageren op verschillende gebeurtenissen en systeemtoestanden, waaronder vermoedelijke inbreukactiviteit en verkeerd geconfigureerde eindpunten. Dit wordt mogelijk gemaakt door aanpasbare detectieregels die automatisch waarschuwingen en reactieacties activeren.
 
-Met aangepaste detecties u proactief controleren op en reageren op verschillende gebeurtenissen en systeemtoestanden, waaronder vermoedelijke inbreukactiviteiten en verkeerd geconfigureerde eindpunten. Dit wordt mogelijk gemaakt door aanpasbare detectieregels die automatisch waarschuwingen en reactieacties activeren.
-
-Aangepaste detecties werken met [geavanceerde jacht,](advanced-hunting-overview.md)die een krachtige, flexibele querytaal biedt die een brede set gebeurtenis- en systeeminformatie uit uw netwerk omvat. U instellen dat ze op regelmatige tijdstippen worden uitgevoerd, waarschuwingen genereren en responsacties uitvoeren wanneer er overeenkomsten zijn.
+Aangepaste detecties werken met [geavanceerde jacht,](advanced-hunting-overview.md)die een krachtige, flexibele querytaal biedt die een brede set gebeurtenis- en systeeminformatie van uw netwerk omvat. U instellen dat ze op regelmatige tijdstippen worden uitgevoerd, waarschuwingen genereren en responsacties uitvoeren wanneer er overeenkomsten zijn.
 
 Aangepaste detecties bieden:
-- Waarschuwingen voor op regels gebaseerde detecties die zijn gebaseerd op geavanceerde jachtquery's
+- Waarschuwingen voor op regels gebaseerde detecties die zijn opgebouwd uit geavanceerde jachtquery's
 - Automatische reactieacties
 
 ## <a name="related-topic"></a>Gerelateerd onderwerp
 - [Aangepaste detectieregels maken en beheren](custom-detection-rules.md)
-- [Geavanceerd jachtoverzicht](advanced-hunting-overview.md)
+- [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

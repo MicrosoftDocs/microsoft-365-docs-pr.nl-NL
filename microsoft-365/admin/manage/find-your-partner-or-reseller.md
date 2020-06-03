@@ -22,23 +22,23 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: b6c18a9b-2aed-4c84-9d75-af709160258c
-description: 'Meer informatie over het vinden van een nieuwe Microsoft 365-partner of het opvragen van contactgegevens voor een partner waarmee u in het verleden hebt samengewerkt. '
-ms.openlocfilehash: 749f1a12ffbd1512b15a83e7979aea3b0cb3be48
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: 'Meer informatie over het vinden van een nieuwe Microsoft 365-partner of het ophalen van contactgegevens voor een partner waarmee u in het verleden hebt samengewerkt. '
+ms.openlocfilehash: b116fc77f41efa2e73bfa50bb187897d167d9998
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399762"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515793"
 ---
 # <a name="find-your-partner-or-reseller"></a>Uw partner of wederverkoper zoeken
 
-Als beheerder u samenwerken met een partner om Microsoft 365-abonnementen te kopen, activeren en vernieuwen via een Microsoft Open Volume Licensing-programma. 
+Als beheerder u met een partner werken om Microsoft 365-abonnementen te kopen, activeren en verlengen via een Microsoft Open Volume Licensing-programma. 
   
  **Weet u niet zeker of Open Volume Licensing iets voor u is?** Bekijk het [overzicht van Microsoft Open-programma's](https://go.microsoft.com/fwlink/p/?LinkId=613298).
   
 ## <a name="find-a-new-partner-or-reseller"></a>Een nieuwe partner of wederverkoper zoeken
 
-Als u microsoft 365 wilt kopen of vernieuwen via Open Volume Licensing, of als u gewoon meer informatie wilt over het werken met een partner, kiest u een onderstaande optie. 
+Als u microsoft 365 wilt kopen of verlengen via Open Volume Licensing, of als u gewoon meer informatie wilt over het werken met een partner, kiest u een optie hieronder. 
   
 - [Een partner zoeken met Microsoft PinPoint](https://go.microsoft.com/fwlink/p/?LinkId=613304)
     
@@ -47,13 +47,13 @@ Als u microsoft 365 wilt kopen of vernieuwen via Open Volume Licensing, of als u
 ## <a name="find-contact-information-for-a-partner-youve-worked-with-in-the-past"></a>Contactgegevens zoeken voor een partner waarmee u eerder hebt gewerkt
 
 > [!NOTE]
-> In sommige gevallen vindt u informatie in het Microsoft 365-beheercentrum voor partners waarmee u in het verleden hebt samengewerkt. Houd er rekening mee dat deze gegevens mogelijk verouderd zijn. Als aanbevolen procedure is het raadzaam contact op te nemen met de persoon of afdeling die in uw organisatie verantwoordelijk is voor de aankoop om erachter te komen met welke partner u moet werken. 
+> In sommige gevallen u informatie vinden in het Microsoft 365-beheercentrum voor partners waarmee u in het verleden hebt samengewerkt. Houd er rekening mee dat deze gegevens mogelijk verouderd zijn. Als aanbevolen procedure is het raadzaam contact op te nemen met de persoon of afdeling die in uw organisatie verantwoordelijk is voor de aankoop om erachter te komen met welke partner u moet werken. 
   
 ## <a name="get-partner-info-in-the-admin-center"></a>Gegevens van partner weergeven in het beheercentrum
 
-1. Ga in het beheercentrum **Settings**naar de pagina  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">Instellingenpartnerrelaties.</a>
+1. Ga in het beheercentrum naar de pagina **Relaties instellingenpartnerrelaties.**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">Partner relationships</a>
   
-2. Als u een partner hebt, ziet u hier de naam van de partner en de relatie met uw organisatie. Als u de contactgegevens van partners (telefoonnummer en e-mailadres) wilt weergeven, selecteert u de partnernaam.
+2. Als u een partner hebt, ziet u hier de naam van de partner en de relatie met uw organisatie. Als u contactgegevens van partners (telefoonnummer en e-mailadres) wilt bekijken, selecteert u de partnernaam.
     
 ## <a name="more-resources"></a>Meer informatie
 

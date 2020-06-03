@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: Meer informatie over toestemming van gebruikers voor apps en hoe u deze inschakelen om apps van derden toegang te geven tot de Microsoft 365-gegevens van gebruikers.
-ms.openlocfilehash: df81d2cf3e1d796e462d2b9240b8288273ed5372
-ms.sourcegitcommit: ff1af42b036bfdf75729db8c78f10cf4642616ac
+ms.openlocfilehash: 955ae9e58c14dbb8012a440ef6c336f44b0760a4
+ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44477170"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44498315"
 ---
 # <a name="managing-user-consent-to-apps-in-microsoft-365"></a>Toestemming van gebruikers beheren voor apps in Microsoft 365
 
@@ -42,7 +42,7 @@ Zo schakel je toestemming van gebruikers voor apps in of uit.
 
 1. Ga in het beheercentrum naar de pagina **Instellingen** \> **voor**  >  [organisatieservices](https://go.microsoft.com/fwlink/p/?linkid=2053743) en selecteer **vervolgens Toestemming van gebruikers voor apps**.
 
-2. Selecteer **op** de pagina Toestemming voor apps van gebruiker de optie om Geïntegreerde apps in of uit te schakelen.
+2. Selecteer **op** de pagina Toestemming voor apps van de gebruiker de optie om toestemming van de gebruiker in of uit te schakelen.
 
 ## <a name="more-info"></a>Meer informatie
 <a name="__toc379982114"> </a>
