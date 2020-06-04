@@ -218,6 +218,8 @@
           href: manage/manage-messages.md
         - name: Releaseopties instellen
           href: manage/release-options-in-office-365.md
+        - name: Nieuwe functies weergeven of verbergen
+          href: manage/show-hide-new-features.md
         - name: Power BI-gebruiksanalyses
           items:
             - name: Informatie over gebruiksanalyses
