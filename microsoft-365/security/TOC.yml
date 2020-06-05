@@ -373,26 +373,10 @@
                   href: ./office-365-security/use-dmarc-to-validate-email.md
             - name: Slimme rapporten en inzichten in het beveiligings- en compliancecentrum
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
-              items:
-                - name: Overzicht van beveiligingsdashboard
-                  href: ./office-365-security/security-dashboard.md
-                  items:
-                    - name: Stapsgewijze instructies - Van een gedetailleerd rapport tot een inzicht
-                      href: ./office-365-security/from-a-detailed-report-to-an-insight.md
-                    - name: Stapsgewijze instructies - Van een inzicht tot een gedetailleerd rapport
-                      href: ./office-365-security/from-an-insight-to-a-detailed-report.md
-                    - name: Stapsgewijze instructies - Van een dashboard tot een inzicht
-                      href: ./office-365-security/from-a-dashboard-to-an-insight.md
-                    - name: Een planning maken voor een rapport
-                      href: ./office-365-security/create-a-schedule-for-a-report.md
-                    - name: Planningen voor meerdere rapporten beheren
-                      href: ./office-365-security/manage-schedules-for-multiple-reports.md
-                    - name: Een aangepast rapport instellen en downloaden
-                      href: ./office-365-security/set-up-and-download-a-custom-report.md
-                    - name: Bestaande rapporten downloaden
-                      href: ./office-365-security/download-existing-reports.md
-                - name: Informatie over schadelijke bestanden bekijken
-                  href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
+            - name: Overzicht van beveiligingsdashboard
+              href: ./office-365-security/security-dashboard.md
+            - name: Informatie over schadelijke bestanden bekijken
+              href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
         - name: Advanced Threat Protection
           href: ./office-365-security/office-365-atp.md
           items:
