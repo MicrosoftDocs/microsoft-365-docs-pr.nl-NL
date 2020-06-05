@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - FRP150
 description: Meer informatie over het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 267a7fe56cbd71734664f085846c8b5a1356cccd
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 720130f01000e1f8845d2fa28dbc2d278a258ebf
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432205"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560421"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Over het Microsoft 365-beheercentrum
 
@@ -54,8 +54,6 @@ Zodra er nieuwe functies beschikbaar komen in het Microsoft 365-beheercentrum, u
 ### <a name="turn-on-targeted-release"></a>Gerichte release inschakelen
 
 1. Meld u aan bij [admin.microsoft.com](https://admin.microsoft.com), ga naar het navigatiedeelvenster en selecteer Het profiel **van de** organisatie instellingen \> **Organization profile**.
-
-1. Meld u aan bij [portal.partner.microsoftonline.cn](https://go.microsoft.com/fwlink/p/?linkid=513813), ga naar het navigatiedeelvenster en selecteer Het profiel **van de** organisatie instellingen \> **Organization profile**.
 
 2. Ga naar de kaart **Voorkeuren vrijgeven** en selecteer **Bewerken**. 
     

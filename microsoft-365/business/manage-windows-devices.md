@@ -1,7 +1,7 @@
 ---
 title: Inschakelen domein-aangesloten Windows 10-apparaten worden beheerd door Microsoft 365 voor bedrijven
 f1.keywords:
-- NOCSH
+- CSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -23,14 +23,13 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Meer informatie over het inschakelen van Microsoft 365 om lokale Windows 10-apparaten met Actieve Directory in slechts een paar stappen te beschermen.
-ms.openlocfilehash: 7bfe5da8701a17712fa249eac99a22b8d5a1b2d1
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 857651081fb10856d28dd419333ebef655388407
+ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44471042"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44564930"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Inschakelen domein-aangesloten Windows 10-apparaten worden beheerd door Microsoft 365 Business Premium
 
@@ -42,48 +41,92 @@ In deze video worden de stappen beschreven voor het instellen van dit voor het m
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
   
 
-## <a name="1-prepare-for-directory-synchronization"></a>1. Voorbereiden op directorysynchronisatie 
+## <a name="before-you-get-started-make-sure-you-complete-these-steps"></a>Voordat u aan de slag gaat, moet u de volgende stappen uitvoeren:
+- Gebruikers synchroniseren met Azure AD met Azure AD Connect.
+- Volledige Azure AD Connect Organizational Unit (OU) synchronisatie.
+- Zorg ervoor dat alle domeingebruikers die u synchroniseert licenties hebben voor Microsoft 365 Business Premium.
 
-Voordat u uw gebruikers en computers synchroniseert vanuit het lokale Active Directory-domein, controleert [u Voorbereiden op adreslijstsynchronisatie naar Office 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). In het bijzonder:
+Zie [Domeingebruikers synchroniseren met Microsoft](manage-domain-users.md) voor de stappen.
 
-   - Zorg ervoor dat er geen duplicaten in uw map bestaan voor de volgende kenmerken: **e-mail,** **proxyAdressen**en **userPrincipalName**. Deze waarden moeten uniek zijn en eventuele duplicaten moeten worden verwijderd.
-   
-   - We raden u aan het kenmerk **USERPrincipalName** (UPN) voor elk lokaal gebruikersaccount te configureren op basis van het primaire e-mailadres dat overeenkomt met de gelicentieerde Microsoft 365-gebruiker. Bijvoorbeeld: *mary.shelley@contoso.com* in plaats van *mary@contoso.local*
-   
-   - Als het Active Directory-domein eindigt in een niet-routeerbaar achtervoegsel zoals *.local* of *.lan*, in plaats van een internetroertable achtervoegsel zoals *.com* of *.org,* past u eerst het UPN-achtervoegsel van het lokale gebruikersaccounts aan zoals beschreven in [Een niet-routeerbaar domein voorbereiden voor adreslijstsynchronisatie](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization). 
+## <a name="1-verify-mdm-authority-in-intune"></a>1. MDM-autoriteit in Intune verifiëren
 
-## <a name="2-install-and-configure-azure-ad-connect"></a>2. Azure AD Connect installeren en configureren
+Ga naar portal.azure.com en zoek bovenaan de pagina naar Intune.
+Selecteer op de pagina Microsoft Intune de optie **Apparaatinschrijving** en controleer op de pagina **Overzicht** of **de MDM-autoriteit** **Intune**is.
 
-Als u uw gebruikers, groepen en contactpersonen uit de lokale Active Directory wilt synchroniseren met Azure Active Directory, installeert u Azure Active Directory Connect en stelt u adreslijstsynchronisatie in. Zie [Adreslijstsynchronisatie instellen voor Office 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) voor meer informatie.
+- Als **MDM-autoriteit** **geen**is, klikt u op de **MDM-autoriteit** om deze in te stellen op **Intune**.
+- Als **MDM-autoriteit** **Microsoft Office 365**is, ga dan naar **Apparaten**Inschrijven  >  **en** gebruik het dialoogvenster **MDM-autoriteit toevoegen** aan het recht om **Intune MDM-autoriteit** toe te voegen (het dialoogvenster **MDM-autoriteit toevoegen** is alleen beschikbaar als de **MDM-autoriteit** is ingesteld op Microsoft Office 365).
 
-> [!NOTE]
-> De stappen zijn precies hetzelfde voor Microsoft 365 voor bedrijven. 
+## <a name="2-verify-azure-ad-is-enabled-for-joining-computers"></a>2. Controleren of Azure AD is ingeschakeld voor het samenvoegen van computers
 
-Terwijl u uw opties voor Azure AD Connect configureert, raden we u aan **wachtwoordsynchronisatie,** **naadloze aanmelding met één aanmelding**en de functie voor het **terugschrijven van wachtwoorden** in te schakelen, die ook wordt ondersteund in Microsoft 365 voor bedrijven.
+- Ga naar het beheercentrum bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> en selecteer Azure Active **Directory** (selecteer Alles weergeven als Azure Active Directory niet zichtbaar is) in de lijst **Met beheercentra.** 
+- Kies **apparaten** en vervolgens **apparaatinstellingen** **in** het Azure **Active Directory-beheercentrum**.
+- Controleren**of gebruikers apparaten kunnen koppelen aan Azure AD** is ingeschakeld 
+    1. Als u alle gebruikers wilt inschakelen, stelt u in op **Alles**.
+    2. Als u specifieke gebruikers wilt inschakelen, stelt u deze in **op Geselecteerd** om een specifieke groep gebruikers in te schakelen.
+        - Voeg de gewenste domeingebruikers toe die in Azure AD zijn gesynchroniseerd aan een [beveiligingsgroep](../admin/create-groups/create-groups.md).
+        - Kies **Groepen selecteren** om de mdm-gebruikersbereik voor die beveiligingsgroep in te schakelen.
 
-> [!NOTE]
-> Er zijn enkele extra stappen voor het terugschrijven van wachtwoorden buiten het selectievakje in Azure AD Connect. Zie Hoe voor meer [informatie: wachtwoordschrijftijd configureren.](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback) 
+## <a name="3-verify-azure-ad-is-enabled-for-mdm"></a>3. Controleren of Azure AD is ingeschakeld voor MDM
 
-## <a name="3-configure-hybrid-azure-ad-join"></a>3. Hybride Azure AD Join configureren
+- Ga naar het beheercentrum bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> en selecteer **Eindpunt managemen**t (selecteer **Alles weergeven** als **Eindpuntbeheer** niet zichtbaar is)
+- Ga in het **Microsoft Endpoint Manager-beheercentrum**naar **Automatische**inschrijving voor  >  **Windows**  >  **Windows Windows-inschrijving**  >  **Automatic Enrollment**.
+- Controleer of het gebruikersbereik van MDM is ingeschakeld.
 
-Voordat u Windows 10-apparaten inschakelt als Hybride Azure AD, moet u ervoor zorgen dat u aan de volgende voorwaarden voldoet:
+    1. Als u alle computers wilt inschrijven, stelt u in **op Alles** om alle gebruikerscomputers die zijn aangesloten bij Azure AD en nieuwe computers automatisch in te schrijven wanneer de gebruikers een werkaccount aan Windows toevoegen.
+    2. Stel in **op Sommige** om de computers van een specifieke groep gebruikers in te schrijven.
+        -  Voeg de gewenste domeingebruikers toe die in Azure AD zijn gesynchroniseerd aan een [beveiligingsgroep](../admin/create-groups/create-groups.md).
+        -  Kies **Groepen selecteren** om de mdm-gebruikersbereik voor die beveiligingsgroep in te schakelen.
 
-   - U voert de nieuwste versie van Azure AD Connect uit.
+## <a name="4-set-up-service-connection-point-scp"></a>4. Service-verbindingspunt instellen (SCP)
 
-   - Azure AD connect heeft alle computerobjecten gesynchroniseerd van de apparaten waaraan u hybride Azure AD wilt zijn. Als de computerobjecten behoren tot specifieke organisatie-eenheden (OU), controleert u of deze OE's ook zijn ingesteld voor synchronisatie in Azure AD connect.
+Deze stappen worden vereenvoudigd door [hybride azure AD join te configureren.](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join) Als u de stappen wilt uitvoeren die u azure AD Connect en uw algemene beheerderswachtwoorden van Microsoft 365 Business Premium en Active Directory-beheerders moet gebruiken.
 
-Als u bestaande windows 10-apparaten met een domein wilt registreren als Hybride Azure AD is aangesloten, voert u de stappen uit in de [zelfstudie: Hybride Azure Active Directory-join configureren voor beheerde domeinen](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join). Met deze hybride mogelijkheid biedt uw bestaande on-premises Active Directory zich aan aangesloten bij Windows 10-computers en maken ze klaar voor de cloud.
-    
-## <a name="4-enable-automatic-enrollment-for-windows-10"></a>4. Automatische inschrijving inschakelen voor Windows 10
+1.  Start Azure AD Connect en selecteer **Configureren**.
+2.  Selecteer op de pagina **Extra taken** de optie **Apparaatopties configureren**en selecteer **Volgende**.
+3.  Selecteer **Volgende**op de pagina **Overzicht.**
+4.  Voer **op** de pagina Verbinding maken met Azure AD de referenties in van een globale beheerder voor Microsoft 365 Business Premium.
+5.  Selecteer op de pagina **Apparaatopties** de optie **Hybride Azure AD join configureren**en selecteer **Volgende**.
+6.  Voer op de **SCP-pagina** voor elk forest waar u Azure AD Connect wilt configureren van het SCP de volgende stappen uit en selecteer **Volgende:**
+    - Schakel het vakje naast de bosnaam in. Het forest moet uw AD-domeinnaam zijn.
+    - Open onder de kolom **Verificatieservice** de vervolgkeuzelijst en selecteer overeenkomende domeinnaam (er mag slechts één optie zijn).
+    - Selecteer **Toevoegen** om de domeinbeheerdersreferenties in te voeren.  
+7.  Selecteer alleen op de pagina **Apparatenbesturingssystemen** windows 10 of hoger apparaten die zijn aangesloten bij het domein.
+8.  Selecteer Op de pagina **Klaar om te configureren** de optie **Configureren**.
+9.  Selecteer **op** de pagina Configuratie voltooid de optie **Afsluiten**.
 
- Zie [Automatisch een Windows 10-apparaat inschrijven met groepsbeleid](https://docs.microsoft.com/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy)als u Windows 10-apparaten automatisch wilt inschrijven voor beheer van mobiele apparaten in Intune. U het groepsbeleid instellen op lokaal computerniveau of voor bulkbewerkingen u de sjablonen Groepsbeleidsbeheer en ADMX gebruiken om deze groepsbeleidsinstelling op uw domeincontroller te maken.
 
-## <a name="5-configure-seamless-single-sign-on"></a>5. Naadloos aanmelden configureren
+## <a name="5-create-a-gpo-for-intune-enrollment--admx-method"></a>5. Maak een GPO voor Intune Enrollment – ADMX-methode
 
-  Seamless SSO meldt gebruikers automatisch aan bij hun Microsoft 365-cloudbronnen wanneer ze bedrijfscomputers gebruiken. Implementeer eenvoudig een van de twee opties voor groepsbeleid die zijn beschreven in [Azure Active Directory Naadloze aanmelding: Snel starten](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso-quick-start#step-2-enable-the-feature). Met de optie **Groepsbeleid** kunnen gebruikers hun instellingen niet wijzigen, terwijl de optie **Groepsbeleidsvoorkeur** de waarden instelt, maar ze ook door de gebruiker kan worden geconfigureerd.
+Gebruiken. ADMX-sjabloonbestand.
 
-## <a name="6-set-up-windows-hello-for-business"></a>6. Windows Hello voor Bedrijven instellen
+1.  Meld u aan bij de **Server Manager**AD-server, zoek en open  >  **groepsbeleidsbeheer voor serverbeheerprogramma's**  >  **Group Policy Management**.
+2.  Selecteer uw domeinnaam onder Domeinen en klik met de rechtermuisknop op **Groepsbeleidsobjecten** om **Nieuw**te selecteren. **Domains**
+3.  Geef de nieuwe GPO een naam, bijvoorbeeld "*Cloud_Enrollment*" en selecteer vervolgens **OK**.
+4.  Klik met de rechtermuisknop op het nieuwe GPO onder **Groepsbeleidsobjecten** en selecteer **Bewerken**.
+5.  Ga in de **editor voor groepsbeleidsbeheer**naar Beheersjablonen voor **Computer Configuration**  >  **Policies**  >  **computerconfiguratiebeleid**  >  **Windows Components**  >  **MDM**.
+6. Klik met de rechtermuisknop op **Automatische MDM-inschrijving inschakelen met standaard Azure AD-referenties** en selecteer **Ingeschakeld OK**  >  **OK**. Sluit het editorvenster.
 
- Windows Hello voor Bedrijven vervangt wachtwoorden door sterke tweestapsverificatie (2FA) voor het aanmelden bij een lokale computer. De ene factor is een asymmetrisch sleutelpaar en de andere is een pincode of een andere lokale beweging, zoals vingerafdruk of gezichtsherkenning als uw apparaat dit ondersteunt. We raden u aan wachtwoorden te vervangen door 2FA en Windows Hello for Business waar mogelijk.
+> [!IMPORTANT]
+> Zie De [nieuwste beheersjablonen](#get-the-latest-administrative-templates)ophalen als u het beleid **Automatische MDM-inschrijving**inschakelen niet ziet.
 
-Als u Hybride Windows Hello voor Bedrijven wilt configureren, controleert u de vereisten voor hybride [sleutelvertrouwen in Windows Hello voor bedrijven](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-trust-prereqs). Volg vervolgens de instructies in [De vertrouwensinstellingen voor hybride Windows Hello voor Bedrijven configureren.](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-whfb-settings) 
+## <a name="6-deploy-the-group-policy"></a>6. Het groepsbeleid implementeren
+
+1.  Selecteer in Serverbeheer onder Domeinen > **groepsbeleidsobjecten** de GPO uit stap 3 hierboven, bijvoorbeeld 'Cloud_Enrollment'.
+2.  Selecteer het tabblad **Bereik** voor uw GPO.
+3.  Klik op het tabblad Bereik van GPO met de rechtermuisknop op de koppeling naar het domein onder **Koppelingen**.
+4.  Selecteer **Afgedwongen** om de GPO te implementeren en **vervolgens OK** in het bevestigingsscherm.
+
+## <a name="get-the-latest-administrative-templates"></a>De nieuwste beheersjablonen ophalen
+
+Als u het beleid Automatische MDM-inschrijving inschakelen niet ziet **met standaard Azure AD-referenties,** kan dit zijn omdat u de ADMX niet hebt geïnstalleerd voor Windows 10, versie 1803, versie 1809 of versie 1903. Voer de volgende stappen uit (Opmerking: de nieuwste MDM.admx is backwards compatible):
+
+1.  Download: [Beheersjablonen (.admx) voor Windows 10 May 2019 Update (1903)](https://www.microsoft.com/download/details.aspx?id=58495&WT.mc_id=rss_alldownloads_all).
+2.  Installeer het pakket op de primaire domeincontroller (PDC).
+3.  Navigeren, afhankelijk van de versie naar de map: **C:\Program Files (x86)\Microsoft Group Policy\Windows 10 May 2019 Update (1903) v3**.
+4.  Wijzig de naam van de map **Beleidsdefinities** in het bovenstaande pad naar **Beleidsdefinities**.
+5.  Map **Beleidsdefinities** kopiëren naar **C:\Windows\SYSVOL\domain\Policies**. 
+    -   Als u van plan bent een centrale beleidsopslag voor uw hele domein te gebruiken, voegt u daar de inhoud van Beleidsdefinities toe.
+6.  Start de primaire domeincontroller opnieuw om het beleid beschikbaar te maken. Deze procedure zal ook werken voor elke toekomstige versie.
+
+Op dit punt moet u het beleid **Automatische MDM-inschrijving inschakelen** kunnen zien met standaard Azure AD-referenties beschikbaar.
+
