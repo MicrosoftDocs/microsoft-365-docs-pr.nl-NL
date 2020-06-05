@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 06/03/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Geef uw gebruikers de mogelijkheid productief te zijn met Teams, Exchange, SharePoint en andere Microsoft 365-services.
-ms.openlocfilehash: 2fc55ff9f991c75e8124c710e60fe2ba34ed7f17
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 1c621ae797f32cd5b98af4c1eb7a341d0f976938
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160736"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560445"
 ---
 # <a name="step-4-deploy-remote-worker-productivity-apps-and-services"></a>Stap 4. Productiviteitsapps en -services implementeren voor externe medewerkers
 
@@ -39,7 +39,9 @@ Om productief te zijn, moeten mensen met elkaar kunnen communiceren en samenwerk
 
 Met Teams kunt u op één plek chatten, vergaderen, bellen en samenwerken. Miljoenen mensen doen elke dag hun werk in Teams, omdat het alles wat u nodig hebt om extern te werken, samenbrengt in een hub voor teamwork. 
 
-U kunt [dit artikel](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams) gebruiken voor richtlijnen voor het ondersteunen van uw externe medewerkers met Teams. 
+Gebruik [dit artikel](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams) voor richtlijnen voor het ondersteunen van uw externe medewerkers met Teams. 
+
+Bekijk de [video Deel 1](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity) voor richtlijnen en demo's over het gebruik van Teams voor extern werken.
 
 ### <a name="chat-and-conversations"></a>Chat en gesprekken
 
@@ -63,25 +65,34 @@ Met apps en werkstromen zijn externe medewerkers productiever in Teams, door het
 
 Met Outlook kunnen externe medewerkers verbonden en georganiseerd blijven met e-mail, agenda's, contactpersonen en meer. Allemaal samen op één plek. Met Outlook blijft u op koers en kunt u uw dagindeling prioriteren op basis van wat voor u relevant is. Met Outlook kunt u rechtstreeks vanuit OneDrive bijlagen delen, Teams-vergaderingen plannen en eraan deelnemen, agenda's delen en bekijken en anderen machtigen. Door te weten wat eraan zit te komen qua werk- en privé-verplichtingen en wat er aandacht nodig heeft, kunnen externe medewerkers zich richten op wat belangrijk is. Outlook biedt handige manieren voor externe medewerkers om hun tijd in te delen en eenvoudig te vinden wat ze zoeken, met inbegrip van bestanden, personen in de organisatie en meer. 
 
+Zie [dit artikel](../enterprise/secure-email-recommended-policies.md) voor het aanbevolen beleid voor identiteiten en apparaattoegang om e-mailberichten en e-mailclients van organisaties te beveiligen waarmee moderne verificatie en voorwaardelijke toegang worden ondersteund.
+
 ## <a name="store-and-collaborate-on-files-with-sharepoint-online-and-onedrive"></a>Samenwerken aan en opslaan van bestanden met SharePoint Online en OneDrive
 
 Bij het samenwerken aan inhoud kunnen externe medewerkers SharePoint Online- en OneDrive-mappen gebruiken als een centrale locatie in de cloud om bestanden op te slaan en te delen, eraan samen te werken en te communiceren. Externe medewerkers kunnen overal veilig werken vanuit een webbrowser, Teams en Office-apps.
+
+Zie [dit artikel](../enterprise/sharepoint-file-access-policies.md) voor het aanbevolen beleid voor identiteiten en apparaattoegang om SharePoint Online en OneDrive voor Bedrijven te ondersteunen.
 
 ## <a name="create-and-collaborate-on-content-with-microsoft-365-apps"></a>Maken van en samenwerken aan inhoud met Microsoft 365 Apps
 
 Microsoft 365 Apps is de meest productieve en veiligste Office-ervaring voor ondernemingen, waarmee medewerkers naadloos samen kunnen werken vanaf elke locatie op elk moment. Externe medewerkers kunnen met meerdere personen tegelijk aan een document werken en in realtime bewerkingen en wijzigingen zien vanaf elk(e) laptop, pc of mobiel apparaat.
 
+Zie [dit artikel](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps) voor het plannen, implementeren en beheren van Microsoft 365-apps in uw bedrijfsomgeving.
+
 ## <a name="admin-technical-resources-for-productivity-apps-and-services"></a>Technische bronnen voor beheerders voor productiviteits-apps en -services
 
 - [Externe medewerkers ondersteunen met Microsoft Teams](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams)
+- [Video Deel 1 over Teams voor externe werknemers](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity)
 - [Teams Customer Success Kit downloaden](https://www.microsoft.com/download/details.aspx?id=54244)
 - [Hulpmiddelen voor de acceptatie van Teams](https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads) 
 - [Een strategie voor veranderingsmanagement maken voor Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/change-management-strategy)
 - [Teams met drie beschermingsniveaus](configure-teams-three-tiers-protection.md)
+
+## <a name="user-training-resources-for-productivity-apps-and-services"></a>Bronnen voor gebruikerstraining voor productiviteits-apps en -services
 
 - [Uw gebruikers trainen in Office en Office 365](https://support.office.com/article/train-your-users-on-office-and-microsoft-365-7cba3c97-7f19-46ed-a1c6-763971a26c2)
 - [De webversie van Office gebruiken](https://support.microsoft.com/office/get-started-with-office-for-the-web-in-microsoft-365-5622c7c9-721d-4b3d-8cb9-a7276c2470e5)
 
 ## <a name="next-step"></a>Volgende stap
 
-Ga door met [Stap 5](empower-people-to-work-remotely-communication-venues.md) om extra communicatielocaties te maken voor de unieke vereisten van de COVID-19-crisis.
+Ga door met [Stap 5](empower-people-to-work-remotely-communication-venues.md) om extra communicatielocaties te maken voor uw externe medewerkers.

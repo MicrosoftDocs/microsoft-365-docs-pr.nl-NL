@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 06/03/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,16 +17,16 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Gebruik Microsoft Endpoint Manager om uw apparaten, pc's en andere eindpunten te beheren.
-ms.openlocfilehash: 388ac2b7f9f4a31d33c1f4551e215b2b32c8f85f
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: c7149295c24e5339e87db55998ec48fe9f0e9a93
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160796"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560491"
 ---
 # <a name="step-3-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Stap 3. Eindpuntbeheer voor uw apparaten, pc's en andere eindpunten implementeren
 
-Als u externe medewerkers hebt, moet u steeds meer persoonlijke apparaten ondersteunen. Eindpuntbeheer biedt op beleid gebaseerde beveiliging waarbij apparaten moeten voldoen aan specifieke criteria voordat ze toegang krijgen tot bronnen. Microsoft Endpoint Manager biedt een moderne werkplek en moderne beheermogelijkheden om uw gegevens in de cloud en on-premises veilig te houden. 
+Als u externe medewerkers hebt, moet u steeds meer persoonlijke apparaten ondersteunen. Eindpuntbeheer biedt op beleid gebaseerde beveiliging waarbij apparaten moeten voldoen aan specifieke criteria voordat ze toegang krijgen tot bronnen. Microsoft Endpoint Manager biedt moderne beheermogelijkheden om uw gegevens in de cloud en on-premises veilig te houden. 
 
 Endpoint Manager biedt services en hulpprogramma‘s voor het beheer van mobiele apparaten, desktopcomputers, virtuele machines, embedded apparaten en servers door enkele services te combineren die u mogelijk al kent en gebruikt:
 
@@ -34,7 +34,7 @@ Endpoint Manager biedt services en hulpprogramma‘s voor het beheer van mobiele
 
 ## <a name="microsoft-intune"></a>Microsoft Intune
 
-Intune is ontworpen om u te helpen gegevens te beschermen wanneer de gegevens van uw organisatie toegankelijk zijn vanaf apparaten die niet door u worden beheerd. Met het beleid voor app-bescherming van Intune in combinatie met voorwaardelijke toegang in Azure AD hebt u gedetailleerde controle over de gegevens op mobiele apparaten. Met Intune kunt u ook uitgebreid beleid definiëren waardoor alleen de juiste mensen onder de juiste omstandigheden toegang hebben tot uw bedrijfsgegevens. U kunt ervoor zorgen dat de gegevens beschermd blijven door te bepalen hoe deze worden gebruikt in Office, Outlook en andere mobiele apps.
+Intune is ontworpen om u te helpen gegevens te beschermen wanneer de gegevens van uw organisatie toegankelijk zijn vanaf apparaten die niet door u worden beheerd. Met het beleid voor app-bescherming van Intune in combinatie met voorwaardelijke toegang in Azure Active Directory (Azure AD) hebt u gedetailleerde controle over de gegevens op mobiele apparaten. Met Intune kunt u ook uitgebreid beleid definiëren waardoor alleen de juiste mensen onder de juiste omstandigheden toegang hebben tot uw bedrijfsgegevens. U kunt ervoor zorgen dat de gegevens beschermd blijven door te bepalen hoe deze worden gebruikt in Office, Outlook en andere mobiele apps.
 
 Zie voor meer informatie dit [overzicht van Microsoft Intune](https://docs.microsoft.com/intune/fundamentals/what-is-intune).
 
@@ -66,8 +66,10 @@ Voor meer informatie raadpleegt u dit [overzicht van Windows Autopilot](https://
 
 ## <a name="admin-technical-resources-for-endpoint-management"></a>Technische bronnen voor eindpuntbeheerders
 
-- [Beheerde apparaten inschrijven voor beveiliging, app-instellingen gebruiken voor onbeheerde apparaten en gebruikmaken van apparaat- en app-beleid](https://docs.microsoft.com/microsoft-365/enterprise/mobility-infrastructure)
-- [Verschillende typen apparaten inschrijven voor Mobile Device Management (MDM)](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment)
+- [De video Deel 3 over het beheren van Windows 10-apparaten voor externe werknemers](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security)
+- [De video Deel 5 over het beheren van gebruikersdesktops en browsers voor externe werknemers](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security)
+- [Een mobiliteitsinfrastructuur voor Microsoft 365 implementeren](https://docs.microsoft.com/microsoft-365/enterprise/mobility-infrastructure)
+- [Verschillende typen apparaten inschrijven voor het beheer van mobiele apparaten](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment)
 - [Uw eindgebruikers informeren over Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/end-user-educate)
  
 ## <a name="results-of-step-3"></a>Resultaten van stap 3
