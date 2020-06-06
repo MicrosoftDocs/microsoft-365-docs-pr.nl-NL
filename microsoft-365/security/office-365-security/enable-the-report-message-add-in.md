@@ -15,121 +15,121 @@ search.appverid:
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over het inschakelen van de invoegtoepassing Bericht rapport voor de webversie van Outlook en Outlook, voor individuele gebruikers of uw hele organisatie.
-ms.openlocfilehash: 67fe2112e5d507ac1f0dc78ffa3534ebc9874916
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+description: Meer informatie over het inschakelen van de invoegtoepassing Report Message voor Outlook en Outlook op de web, voor individuele gebruikers of uw hele organisatie.
+ms.openlocfilehash: 0b900fe00dc590b69755b54f8103688042026df0
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209485"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588226"
 ---
 # <a name="enable-the-report-message-add-in"></a>De invoegtoepassing Bericht rapporteren inschakelen
 
 > [!NOTE]
-> Als u een beheerder bent in een Microsoft 365-organisatie met Exchange Online-postvakken, raden we u aan de portal Inzendingen te gebruiken in het Beveiligings- & Compliance Center. Zie [Het indienen van beheerders gebruiken om vermoedelijke spam, phish, URL's en bestanden in te dienen bij Microsoft.](admin-submission.md)
+> Als u een beheerder bent in een Microsoft 365-organisatie met Exchange Online-postvakken, raden we u aan de portal Inzendingen te gebruiken in het Security & Compliance Center. Zie [Beheerdersinzending gebruiken om vermoedelijke spam, phish, URL's en bestanden in te dienen bij Microsoft.](admin-submission.md)
 
-Met de invoegtoepassing Rapportbericht voor Outlook en Outlook op het web (voorheen Outlook Web App) kunnen mensen eenvoudig valse positieven (goede e-mail gemarkeerd als slecht) of valse negatieven (slechte e-mail toegestaan) melden aan Microsoft en haar gelieerde ondernemingen voor analyse. Microsoft gebruikt deze inzendingen om de effectiviteit van e-mailbeveiligingstechnologieën te verbeteren.
+Met de invoegtoepassing Report Message voor Outlook en Outlook op het web (voorheen Bekend als Outlook Web App) kunnen mensen eenvoudig fout-positieven (goede e-mail gemarkeerd als slecht) of valse negatieven (slechte e-mail toegestaan) melden aan Microsoft en haar gelieerde ondernemingen voor analyse. Microsoft gebruikt deze inzendingen om de effectiviteit van e-mailbeveiligingstechnologieën te verbeteren.
 
-Stel dat mensen veel berichten melden als phishing. Deze informatie wordt weergegeven in het [beveiligingsdashboard](security-dashboard.md) en andere rapporten. Het beveiligingsteam van uw organisatie kan deze informatie gebruiken als een indicatie dat het antiphishingbeleid mogelijk moet worden bijgewerkt. Als mensen veel berichten rapporteren die als ongewenste e-mail zijn gemarkeerd als Niet-ongewenstee e-mail met behulp van de invoegtoepassing Rapportbericht, moet het beveiligingsteam van uw organisatie mogelijk [het antispambeleid](configure-your-spam-filter-policies.md)aanpassen.
+Stel dat mensen veel berichten melden als phishing. Deze informatie duikt op in het [beveiligingsdashboard](security-dashboard.md) en andere rapporten. Het beveiligingsteam van uw organisatie kan deze informatie gebruiken als een indicatie dat het beleid voor antiphishing mogelijk moet worden bijgewerkt. Of als mensen veel berichten rapporteren die zijn gemarkeerd als ongewenste e-mail als Niet ongewenste e-mail met behulp van de invoegtoepassing Rapportbericht, moet het beveiligingsteam van uw organisatie mogelijk [het antispambeleid](configure-your-spam-filter-policies.md)aanpassen.
 
-Als uw organisatie bovendien [Office 365 Advanced Threat Protection Plan 1](office-365-atp.md) of Plan [2](office-365-ti.md)gebruikt, biedt de invoegtoepassing Rapportbericht het beveiligingsteam van uw organisatie nuttige informatie die ze kunnen gebruiken om het beveiligingsbeleid te bekijken en bij te werken.
+Als uw organisatie bovendien [Office 365 Advanced Threat Protection Plan 1](office-365-atp.md) of [Plan 2](office-365-ti.md)gebruikt, biedt de invoegtoepassing Rapportbericht het beveiligingsteam van uw organisatie nuttige informatie die ze kunnen gebruiken om beveiligingsbeleid te controleren en bij te werken.
 
-Beheerders kunnen de invoegtoepassing Rapportbericht voor de organisatie inschakelen en individuele gebruikers kunnen het zelf installeren.
+Beheerders kunnen de invoegtoepassing Report Message voor de organisatie inschakelen en individuele gebruikers kunnen het zelf installeren.
 
-Als u een individuele gebruiker bent, u [de invoegtoepassing Bericht melden voor uzelf inschakelen.](#get-the-report-message-add-in-for-yourself)
+Als u een individuele gebruiker bent, u [de invoegtoepassing Report Message zelf inschakelen.](#get-the-report-message-add-in-for-yourself)
 
-Als u een globale beheerder of een Exchange Online-beheerder bent en Exchange is geconfigureerd om OAuth-verificatie te gebruiken, u [de invoegtoepassing Bericht rapport voor uw organisatie inschakelen.](#get-and-enable-the-report-message-add-in-for-your-organization) De invoegtoepassing Rapportbericht is nu beschikbaar via [gecentraliseerde implementatie.](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins)
+Als u een globale beheerder of een Exchange Online-beheerder bent en Exchange is geconfigureerd om OAuth-verificatie te gebruiken, u [de invoegtoepassing Rapportbericht voor uw organisatie inschakelen.](#get-and-enable-the-report-message-add-in-for-your-organization) De invoegtoepassing Rapportberichten is nu beschikbaar via [gecentraliseerde implementatie.](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- De invoegtoepassing Rapportbericht werkt met de meeste Microsoft 365-abonnementen en de volgende producten:
+- De invoegtoepassing Report Message werkt met de meeste Microsoft 365-abonnementen en de volgende producten:
 
-  - De webversie van Outlook
-  - Outlook 2013 SP1 of hoger
+  - Webversie van Outlook
+  - SP1 2013 of hoger
   - Outlook 2016 voor Mac
-  - Outlook opgenomen in Microsoft 365-apps voor Enterprise
+  - Outlook inbegrepen bij Microsoft 365-apps voor Enterprise
 
 - De invoegtoepassing Rapportbericht is momenteel niet beschikbaar voor:
 
   - Postvakken in on-premises Exchange-organisaties
   - GCC-, GCC HIGH- of DoD-abonnementen
 
-- U configureren dat gerapporteerde berichten worden gekopieerd of doorgestuurd naar een postvak dat u opgeeft. Zie [Een postvak opgeven voor het indienen van spam- en phishingberichten in Exchange Online voor](user-submission.md)meer informatie.
+- U gerapporteerde berichten configureren die moeten worden gekopieerd of doorgestuurd naar een postvak dat u opgeeft. Zie [Een postvak opgeven voor gebruikersinzendingen van spam- en phishingberichten in Exchange Online](user-submission.md)voor meer informatie.
 
-- Uw bestaande webbrowser moet werken met de invoegtoepassing Bericht rapporteren. Maar als u merkt dat de invoegtoepassing niet beschikbaar is of niet werkt zoals verwacht, probeert u een andere browser.
+- Uw bestaande webbrowser moet werken met de invoegtoepassing Rapportbericht. Maar als u merkt dat de invoegtoepassing niet beschikbaar is of niet werkt zoals verwacht, probeer dan een andere browser.
 
-- Voor organisatorische installaties moet de organisatie worden geconfigureerd om OAuth-verificatie te gebruiken. Zie [Bepalen of gecentraliseerde implementatie van invoegingen voor uw organisatie werkt](../../admin/manage/centralized-deployment-of-add-ins.md)voor meer informatie.
+- Voor organisatorische installaties moet de organisatie worden geconfigureerd om OAuth-verificatie te gebruiken. Zie [Bepalen of Gecentraliseerde implementatie van invoegtoepassingen werkt voor uw organisatie voor](../../admin/manage/centralized-deployment-of-add-ins.md)meer informatie.
 
 - Beheerders moeten lid zijn van de rolgroep Globale beheerders. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-## <a name="get-the-report-message-add-in-for-yourself"></a>De invoegtoepassing Rapportbericht zelf opvragen
+## <a name="get-the-report-message-add-in-for-yourself"></a>De invoegtoepassing Rapportbericht voor uzelf ophalen
 
-1. Ga naar de Microsoft AppSource <https://appsource.microsoft.com/marketplace/apps> bij en zoek naar de invoegtoepassing Bericht rapport. Ga naar <https://appsource.microsoft.com/product/office/wa104381180> .
+1. Ga naar de Microsoft AppSource bij <https://appsource.microsoft.com/marketplace/apps> en zoek naar de invoegtoepassing Rapportbericht. Ga naar <https://appsource.microsoft.com/product/office/wa104381180> .
 
-2. Klik **op NU KRIJGEN.**
+2. Klik **op NU ophalen.**
 
-   ![Rapportbericht - Nu verzenden](../../media/ReportMessageGETITNOW.png)
+   ![Bericht melden - Nu ophalen](../../media/ReportMessageGETITNOW.png)
 
 3. Bekijk in het dialoogvenster dat wordt weergegeven de gebruiksvoorwaarden en het privacybeleid en klik op **Doorgaan**.
 
 4. Meld u aan met uw werk- of schoolaccount (voor zakelijk gebruik) of uw Microsoft-account (voor persoonlijk gebruik).
 
-Nadat de invoegtoepassing is geïnstalleerd en ingeschakeld, ziet u de volgende pictogrammen:
+Nadat de invoegtoepassing is geïnstalleerd en is ingeschakeld, ziet u de volgende pictogrammen:
 
 - In Outlook ziet het pictogram er als volgt uit:
 
-  ![Pictogram Invoegtoepassing Bericht rapporteren voor Outlook](../../media/OutlookReportMessageIcon.png)
+  ![Invoegpictogram Bericht rapporteren voor Outlook](../../media/OutlookReportMessageIcon.png)
 
 - In de webversie van Outlook ziet het pictogram er als volgt uit:
 
-  ![Pictogram Invoegtoepassing Van het webrapportbericht](../../media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)
+  ![Invoegpictogram webbericht rapporteren](../../media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)
 
-Zie [De invoegtoepassing Rapportbericht gebruiken](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)voor meer informatie over het gebruik van de invoegtoepassing Rapport.
+Zie De invoegtoepassing Rapportbericht gebruiken voor meer informatie over het gebruik van [de invoegtoepassing](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
 
-## <a name="get-and-enable-the-report-message-add-in-for-your-organization"></a>De invoegtoepassing Rapportbericht voor uw organisatie opvragen en inschakelen
+## <a name="get-and-enable-the-report-message-add-in-for-your-organization"></a>De invoegtoepassing Rapportbericht voor uw organisatie ophalen en inschakelen
 
 > [!NOTE]
 > Het kan tot 12 uur duren voordat de invoegtoepassing in uw organisatie wordt weergegeven.
 
-1. Ga in het Microsoft 365-beheercentrum naar de pagina **Services & invoegtoepassing** <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> op , en klik vervolgens op **Invoegtoepassing implementeren**.
+1. Ga in het Microsoft 365-beheercentrum naar de pagina **Services & invoegtoepassingen** op <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> en klik vervolgens op **Invoegtoepassing implementeren**.
 
-   ![Pagina Services en invoegtoepassing in het Microsoft 365-beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![Pagina Services en invoegtoepassingen in het Microsoft 365-beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
-2. Bekijk de informatie in de flyout Implementeren die wordt weergegeven door een nieuwe flyout voor **invoeging** en klik op **Volgende**.
+2. Bekijk de informatie in de **flyout Voor de invoegtoepassing implementeren** die wordt weergegeven en controleer de informatie en klik vervolgens op **Volgende**.
 
-3. Klik op de volgende pagina op **Kiezen uit de Store**.
+3. Klik op de volgende pagina op **Kiezen uit de Winkel**.
 
    ![Een nieuwe invoegpagina implementeren](../../media/NewAddInScreen2.png)
 
-4. Klik op de **invoegpagina Selecteren** die wordt weergegeven in het vak **Zoeken,** voer **Bericht melden**in en klik vervolgens op Zoekpictogram **zoeken** ![ ](../../media/search-icon.png) . Zoek in de lijst met resultaten **rapportbericht** en klik op **Toevoegen**.
+4. Klik op de **invoegtoepassingspagina selecteren** die wordt weergegeven in het vak **Zoeken,** voer **Rapportbericht**in en **klik** vervolgens op ![ Zoekzoeken. ](../../media/search-icon.png) Zoek **rapportbericht** in de lijst met resultaten en klik vervolgens op **Toevoegen**.
 
-   ![Invoegzoekresultaten selecteren](../../media/NewAddInScreen3.png)
+   ![Invoegtoepassingszoeken selecteren](../../media/NewAddInScreen3.png)
 
 5. Bekijk in het dialoogvenster dat wordt weergegeven de licentie- en privacygegevens en klik op **Doorgaan**.
 
-6. Configureer de volgende instellingen op de pagina **Invoegpagina configureren** die wordt weergegeven:
+6. Configureer de volgende instellingen op de **invoegpagina configureren** die wordt weergegeven:
 
    - **Toegewezen gebruikers**: Selecteer een van de volgende waarden:
 
      - **Iedereen** (standaard)
-     - **Specifieke gebruikers /groepen**
+     - **Specifieke gebruikers/groepen**
      - **Alleen ik**
 
-   - **Implementatiemethode:** Selecteer een van de volgende waarden:
+   - **Implementatiemethode**: Selecteer een van de volgende waarden:
 
-     - **Fixed (Default)**: De invoegtoepassing wordt automatisch geïmplementeerd bij de opgegeven gebruikers en deze kunnen niet worden verwijderd.
-     - **Beschikbaar:** Gebruikers kunnen de add-in installeren bij **Home** \> **Get-ins** \> **Admin-managed**.
-     - **Optioneel**: de invoegtoepassing wordt automatisch geïmplementeerd bij de opgegeven gebruikers, maar ze kunnen ervoor kiezen om de invoeging te verwijderen.
+     - **Opgelost (Standaard)**: De invoegtoepassing wordt automatisch geïmplementeerd voor de opgegeven gebruikers en deze kan deze niet verwijderen.
+     - **Beschikbaar**: Gebruikers kunnen de invoegtoepassing **thuis** \> **installeren Door invoegtoepassingen** \> **beheerde beheerder.**
+     - **Optioneel**: De invoegtoepassing wordt automatisch geïmplementeerd voor de opgegeven gebruikers, maar ze kunnen ervoor kiezen deze te verwijderen.
 
    ![Invoegpagina configureren](../../media/configure-add-in.png)
 
    Klik op **Implementeren**als u klaar bent.
 
-7. Op de pagina **Bericht implementeren** dat wordt weergegeven, ziet u een voortgangsrapport gevolgd door een bevestiging dat de invoegtoepassing is geïmplementeerd. Nadat u de informatie hebt gelezen, klikt u op **Volgende**.
+7. Op de pagina **Rapportbericht implementeren** dat wordt weergegeven, ziet u een voortgangsrapport, gevolgd door een bevestiging dat de invoegtoepassing is geïmplementeerd. Nadat u de informatie hebt gelezen, klikt u op **Volgende**.
 
    ![Pagina Rapportbericht implementeren](../../media/deploy-report-message-page.png)
 
-8. Bekijk de informatie op de **invoegpagina aankondigen** die wordt weergegeven en klik op **Sluiten**.
+8. Bekijk de informatie op de **invoegtoepassingspagina aankondigen** en klik vervolgens op **Sluiten**.
 
    ![Invoegpagina aankondigen](../../media/announce-add-in-page.png)
 
@@ -139,30 +139,30 @@ Mensen die de invoegtoepassing aan hen hebben toegewezen, zien de volgende picto
 
 - In Outlook ziet het pictogram er als volgt uit:
 
-  ![Pictogram Invoegtoepassing rapport voor Outlook](../../media/OutlookReportMessageIcon.png)
+  ![Pictogram Invoegtoepassing rapportbericht voor Outlook](../../media/OutlookReportMessageIcon.png)
 
 - In de webversie van Outlook ziet het pictogram er als volgt uit:
 
-  ![Pictogram Invoegtoepassing van het Web-rapportbericht](../../media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)
+  ![Invoegtoepassingspictogram Webrapportbericht](../../media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)
 
-Wanneer u gebruikers op de hoogte stelt van de invoegtoepassing Bericht melden, voegt u een koppeling toe naar [De invoegtoepassing Rapportbericht gebruiken.](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
+Wanneer u gebruikers op de hoogte stelt van de invoegtoepassing Rapportbericht, voegt u een koppeling toe naar [De invoegtoepassing Rapportbericht](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)gebruiken .
 
 ## <a name="review-or-edit-settings-for-the-report-message-add-in"></a>Instellingen voor de invoegtoepassing Rapportbericht controleren of bewerken
 
-1. Ga in het Microsoft 365-beheercentrum naar de pagina **Services &-invoegtoepassing** op <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> .
+1. Ga in het Microsoft 365-beheercentrum naar de pagina **Services &-invoegtoepassingen** op <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> .
 
-   ![Pagina Services en invoegtoepassing in het nieuwe Microsoft 365-beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![Pagina Services en invoegtoepassingen in het nieuwe Microsoft 365-beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
-2. Zoek en selecteer de **invoegtoepassing Rapportbericht.**
+2. Zoek en selecteer de invoegtoepassing **Rapportbericht.**
 
-3. Bekijk en bewerk de instellingen waar nodig voor uw organisatie in de flyout **Van rapportbericht bewerken** die wordt weergegeven. Klik op **Opslaan** wanneer u gereed bent.
+3. Controleer en bewerk instellingen in de flyout **Rapportbericht bewerken** die wordt weergegeven, en bewerk deze zo geschikt voor uw organisatie. Klik op **Opslaan** wanneer u gereed bent.
 
    ![Instellingen voor de invoegtoepassing Rapportbericht](../../media/EditReportMessageAddIn.png)
 
-## <a name="view-and-review-reported-messages"></a>Gerapporteerde berichten weergeven en bekijken
+## <a name="view-and-review-reported-messages"></a>Gerapporteerde berichten bekijken en bekijken
 
-Als u berichten wilt controleren die gebruikers aan Microsoft rapporteren, hebt u de volgende opties:
+Als u berichten wilt bekijken die gebruikers aan Microsoft rapporteren, hebt u de volgende opties:
 
-- Gebruik de portal Voor inzendingen voor beheerders. Zie [Inzendingen van gebruikers bij Microsoft weergeven voor](admin-submission.md#view-user-submissions-to-microsoft)meer informatie.
+- Gebruik de portal Beheerdersinzendingen. [Zie Gebruikersinzendingen weergeven bij Microsoft](admin-submission.md#view-user-submissions-to-microsoft)voor meer informatie.
 
-- Maak een regel voor e-mailstroom (ook wel transportregel genoemd) om kopieën van gerapporteerde berichten te verzenden. Zie Regels [voor e-mailstromen gebruiken om te zien wat uw gebruikers aan Microsoft rapporteren.](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)
+- Maak een e-mailstroomregel (ook wel een transportregel genoemd) om kopieën van gerapporteerde berichten te verzenden. Zie Regels [voor e-mailstromen gebruiken om te zien wat uw gebruikers aan Microsoft rapporteren](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)voor instructies.
