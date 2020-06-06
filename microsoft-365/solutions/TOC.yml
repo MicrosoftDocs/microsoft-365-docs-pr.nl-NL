@@ -81,7 +81,7 @@
         - name: Telefonieoplossingen
           items:
             - name: Kies uw oplossing
-              href: 'https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: Case study voor multi-national corporation
               href: null
         - name: Samenwerking in SharePoint met Microsoft 365
@@ -89,7 +89,7 @@
         - name: Een intelligent SharePoint-intranet plannen
           href: 'https://docs.microsoft.com/sharepoint/plan-intranet?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: OneDrive-gids voor ondernemingen
-          href: 'https://docs.microsoft.com/en-us/onedrive/plan-onedrive-enterprise?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/onedrive/plan-onedrive-enterprise?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Beveiliging
       items:
         - name: Toptaken voor beveiligingsteams om thuiswerken te ondersteunen
@@ -158,6 +158,8 @@
       href: identity-design-principles.md
     - name: Veiligheid hindernissen u varen over
       href: security-design-principles.md
+    - name: Netwerken (naar de cloud)
+      href: networking-design-principles.md
 - name: Microsoft 365-implementatiebronnen
   items:
     - name: Microsoft 365 implementeren
