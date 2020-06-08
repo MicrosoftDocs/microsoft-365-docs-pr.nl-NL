@@ -17,17 +17,17 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
-ms.openlocfilehash: 993939027962bd51ad4fdc3381c1e7d8ea4eddd4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f0d256a1d181b482516c7be55bca240a55dec567
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634530"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588178"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
 > [!IMPORTANT]
-> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) hebben. Zie [Geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2) als u Outlook.com, Microsoft 365 Family of Microsoft 365 Personal gebruikt en u zoek informatie over veilige koppelingen of veilige bijlagen in Outlook.
+> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) hebben. Zie [Geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2) als u Outlook.com, Microsoft 365 Family of Microsoft 365 Personal gebruikt en u zoek informatie over veilige koppelingen of veilige bijlagen in Outlook.
 
 ## <a name="overview"></a>Overzicht
 
@@ -112,7 +112,7 @@ U moet een passende rol zijn toegewezen om toegang te krijgen tot ATP-functies i
 
 |Rol of rollengroep|Informatiebronnen|
 |---------|---------|
-|Globale beheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum) |[Over Microsoft 365-beheersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
+|Globale beheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum) |[Over Microsoft 365-beheersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
 |Beveiligingsbeheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum) |[Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[Rapporten in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|
 |Exchange Online Organization Management (die wordt toegewezen in Exchange Online)|[Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)<br><br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
 |Zoeken en opschonen (die wordt alleen toegewezen in het beveiligings- en compliancecentrum) |[Machtigingen in het Beveiligings- en compliancecentrum](machtigingen-in-het-beveiligings-en-compliance-centrum.md|

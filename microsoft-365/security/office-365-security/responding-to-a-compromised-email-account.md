@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Lees hoe u een gehackt e-mailaccount kunt herkennen en hierop kunt reageren met behulp van de hulpmiddelen die beschikbaar zijn in Microsoft 365.
-ms.openlocfilehash: f53d38c6e34e555542e0c655d7e7d24ca3c9c978
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: adf1ded6fb88cc26e96840dc2a8bfe20300205dc
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033828"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588214"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Reageren op een gehackt e-mailaccount
 
@@ -87,7 +87,7 @@ U moet de volgende stappen uitvoeren om weer toegang te krijgen tot uw account. 
 > [!WARNING]
 > Stuur het nieuwe wachtwoord niet via e-mail naar de bedoelde gebruiker, aangezien de hacker op dit moment nog steeds toegang tot het postvak heeft.
 
-1. Volg de procedures voor het opnieuw instellen van een wachtwoord van iemand anders voor Microsoft 365-apps voor ondernemingen in [Wachtwoorden voor Microsoft 365-apps voor ondernemingen opnieuw instellen](https://docs.microsoft.com/office365/admin/add-users/reset-passwords)
+1. Volg de procedures voor het opnieuw instellen van een wachtwoord van iemand anders voor Microsoft 365-apps voor ondernemingen in [Wachtwoorden voor Microsoft 365-apps voor ondernemingen opnieuw instellen](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords)
 
 **Opmerkingen**:
 
@@ -98,7 +98,7 @@ U moet de volgende stappen uitvoeren om weer toegang te krijgen tot uw account. 
 - Als uw identiteit op locatie federatief is met Microsoft 365, moet u uw wachtwoord op locatie wijzigen en uw beheerder op de hoogte stellen van de aanval.
 
 > [!TIP]
-> We raden u ten zeerste aan om meervoudige verificatie in te schakelen om een inbreuk te voorkomen, met name voor accounts met beheerdersbevoegdheden.  [Hier](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) vindt u meer informatie over meervoudige verificatie.
+> We raden u ten zeerste aan om meervoudige verificatie in te schakelen om een inbreuk te voorkomen, met name voor accounts met beheerdersbevoegdheden.  [Hier](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication) vindt u meer informatie over meervoudige verificatie.
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>Stap 2 E-mailadressen verwijderen die verdachte mails doorsturen
 
@@ -202,4 +202,4 @@ Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkhe
 
 - [Securities and Exchange Commission - "Phishing" fraude](https://www.sec.gov/investor/pubs/phishing.htm)
 
-- Om ongewenste e-mailberichten rechtstreeks bij Microsoft en uw beheerder te melden, kunt u [De invoegtoepassing rapporteer bericht gebruiken](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
+- Om ongewenste e-mailberichten rechtstreeks bij Microsoft en uw beheerder te melden, kunt u [De invoegtoepassing rapporteer bericht gebruiken](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)

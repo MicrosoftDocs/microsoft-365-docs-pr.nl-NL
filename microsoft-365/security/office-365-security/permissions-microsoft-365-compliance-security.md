@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Via het Microsoft 365-beveiligingscentrum of het Microsoft 365-compliancecentrum kunt u machtigingen centraal beheren voor alle taken die zijn gerelateerd aan beveiliging of naleving.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 74139dfef3e0adfccbf16451d3577a8a916a0f97
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 633473206ebe95c14e351607175405988a933540
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033900"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588002"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Machtigingen in het Microsoft 365-compliancecentrum en het Microsoft 365-beveiligingscentrum
 
@@ -58,8 +58,8 @@ Gebruikers met deze rol hebben machtigingen voor het beheren van nalevingsfuncti
 |**In deze service...**|**Kan de beheerder voor naleving...**|
 |:-----|:-----|
 |[**Microsoft 365-compliancecentrum**](https://compliance.microsoft.com/)|De gegevens van uw organisatie in Microsoft 365-services beheren en beschermen. <br/><br/> Nalevingswaarschuwingen beheren.|
-|[**Compliance Score**](https://docs.microsoft.com/office365/securitycompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|De wettelijke nalevingsactiviteiten van uw organisatie bijhouden, toewijzen en verifiëren.|
-|[**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Gegevensbeheer uitvoeren. <br/><br/> Wettelijke en gegevensonderzoeken uitvoeren. <br/><br/> Verzoeken van gegevenssubjecten beheren.|
+|[**Compliance Score**](https://docs.microsoft.com/microsoft-365/compliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|De wettelijke nalevingsactiviteiten van uw organisatie bijhouden, toewijzen en verifiëren.|
+|[**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Gegevensbeheer uitvoeren. <br/><br/> Wettelijke en gegevensonderzoeken uitvoeren. <br/><br/> Verzoeken van gegevenssubjecten beheren.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Alle audit-gegevens van Intune weergeven.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Heeft alleen-lezen machtigingen en kan waarschuwingen beheren. <br/><br/> Kan bestandsbeleid maken en wijzigen en handelingen voor het beheren van bestanden goedkeuren. <br/><br/> Kan alle ingebouwde rapporten bekijken bij Gegevensbeheer.|
 
@@ -70,8 +70,8 @@ Gebruikers met deze rol hebben machtigingen om gegevens te beveiligen en te volg
 |**In deze service...**|**Kan de beheerder van nalevingsgegevens...**|
 |:-----|:-----|
 |[**Microsoft 365-compliancecentrum**](https://compliance.microsoft.com/)|De gegevens van uw organisatie in Microsoft 365-services beheren en beschermen. <br/><br/> Nalevingswaarschuwingen beheren. <br/><br/> Gevoeligheidslabels beheren|
-|[**Compliance Score**](https://docs.microsoft.com/office365/securitycompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|De wettelijke nalevingsactiviteiten van uw organisatie bijhouden, toewijzen en verifiëren.|
-|[**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Gegevensbeheer uitvoeren. <br/><br/> Wettelijke en gegevensonderzoeken uitvoeren. <br/><br/> Verzoeken van gegevenssubjecten beheren. <br/><br/> Gevoeligheidslabels beheren|
+|[**Compliance Score**](https://docs.microsoft.com/microsoft-365/compliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|De wettelijke nalevingsactiviteiten van uw organisatie bijhouden, toewijzen en verifiëren.|
+|[**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Gegevensbeheer uitvoeren. <br/><br/> Wettelijke en gegevensonderzoeken uitvoeren. <br/><br/> Verzoeken van gegevenssubjecten beheren. <br/><br/> Gevoeligheidslabels beheren|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control) (binnenkort beschikbaar)|Alle audit-gegevens van Intune weergeven.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Alleen-lezen machtigingen gebruiken om informatie te bekijken. <br/>Waarschuwingen beheren. <br/><br/> Bestandsbeleid maken en wijzigen en handelingen voor het beheren van bestanden goedkeuren. <br/><br/> Alle ingebouwde rapporten bij Gegevensbeheer bekijken.|
 
@@ -84,7 +84,7 @@ Gebruikers met deze rol hebben machtigingen voor het beheren van beveiligingsfun
 |[**Microsoft 365-beveiligingscentrum**](https://security.microsoft.com/)|Beveiligingsbeleid van de Microsoft 365-services controleren. <br/><br/>  Beveiligingsbedreigingen en -meldingen beheren. <br/><br/> Rapporten bekijken. <br/><br/> Gevoeligheidslabels beheren.|
 |**Identity Protection Center**|Doe alles wat de Beveiligingslezer kan, plus voer alle Identity Protection Center-werkzaamheden uit, met uitzondering van het opnieuw instellen van wachtwoorden.|
 |[**Privileged Identity Management**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|Doe alles wat de Beveiligingslezer kan. <br/><br/> **Kan** geen functietoewijzingen of -instellingen in Azure AD beheren.|
-|[**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Beveiligingsbeleid beheren. <br/><br/> Beveiligingsrisico's bekijken, onderzoeken en oplossen <br/><br/> Rapporten bekijken. <br/><br/> Gevoeligheidslabels beheren.|
+|[**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Beveiligingsbeleid beheren. <br/><br/> Beveiligingsrisico's bekijken, onderzoeken en oplossen <br/><br/> Rapporten bekijken. <br/><br/> Gevoeligheidslabels beheren.|
 |**Azure Advanced Threat Protection**|Toezicht houden op verdachte beveiligingsactiviteiten en hierop reageren.|
 |**Windows Defender ATP en EDR**|Rollen toewijzen. <br/><br/> Machinegroepen beheren. <br/><br/> Bedreigingsdetectie en automatisch herstel van eindpunten configureren. <br/><br/> Meldingen bekijken, onderzoeken en hierop reageren.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Informatie over gebruikers, apparaten, implementatie, configuratie en toepassingen bekijken. <br/><br/> **Kan** geen wijzigingen doorvoeren in Intune.|
@@ -101,7 +101,7 @@ Gebruikers met deze rol kunnen meldingen beheren en hebben globale alleen-lezent
 |[**Microsoft 365-beveiligingscentrum**](https://security.microsoft.com/)|Doe alles wat de Beveiligingslezer kan. <br/><br/> Beveiligingsrisico's bekijken, onderzoeken en oplossen.|
 |**Identity Protection Center** (binnenkort beschikbaar)|Doe alles wat de Beveiligingslezer kan.|
 |[**Privileged Identity Management**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|Doe alles wat de Beveiligingslezer kan.|
-|[**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Doe alles wat de Beveiligingslezer kan. <br/><br/> Beveiligingsrisico's bekijken, onderzoeken en oplossen|
+|[**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Doe alles wat de Beveiligingslezer kan. <br/><br/> Beveiligingsrisico's bekijken, onderzoeken en oplossen|
 |**Windows Defender ATP en EDR**|Doe alles wat de Beveiligingslezer kan. <br/><br/> Meldingen bekijken, onderzoeken en hierop reageren.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Informatie over gebruikers, apparaten, implementatie, configuratie en toepassingen bekijken. <br/><br/> **Kan** geen wijzigingen doorvoeren in Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Doe alles wat de Beveiligingslezer, plus meldingen bekijken en verwijderen.|
@@ -116,7 +116,7 @@ Gebruikers met deze rol hebben globale alleen-lezentoegang tot beveiligingsfunct
 |[**Microsoft 365-beveiligingscentrum**](https://security.microsoft.com/)|Beveiligingsbeleid van de Microsoft 365-services bekijken. <br/><br/> Beveiligingsbedreigingen en -meldingen bekijken. <br/><br/> Rapporten bekijken.|
 |**Identity Protection Center**|Alle beveiligingsrapporten en informatie over instellingen van beveiligingsfuncties lezen: anti-spam, versleuteling, preventie van gegevensverlies (DLP), anti-malware, Advanced Threat Protection (ATP), anti-phishing en regels voor e-mailstroom (ook wel transportregels genoemd).|
 |[**Privileged Identity Management**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|Alleen-lezentoegang gebruiken om alle informatie in Azure AD PIM te bekijken: beleid en rapporten voor Azure AD-roltoewijzingen, beveiligingscontroles en (in de toekomst) beleidsgegevens en -rapporten voor andere scenario's dan Azure AD-roltoewijzing. <br/><br/> **Kan** niet aanmelden bij Azure AD PIM of hier wijzigingen aanbrengen. In het PIM-portal of via PowerShell kan iemand in deze rol extra rollen activeren (bijvoorbeeld globale beheerder of beheerder van rolbevoegdheden), als de gebruiker hiervoor in aanmerking komt.|
-|[**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Beveiligingsbeleid bekijken. <br/><br/> Beveiligingsrisico's bekijken en onderzoeken. <br/><br/> Rapporten bekijken.|
+|[**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Beveiligingsbeleid bekijken. <br/><br/> Beveiligingsrisico's bekijken en onderzoeken. <br/><br/> Rapporten bekijken.|
 |**Windows Defender ATP en EDR**|Meldingen bekijken en onderzoeken.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Informatie over gebruikers, apparaten, implementatie, configuratie en toepassingen bekijken. <br/><br/> **Kan** geen wijzigingen doorvoeren in Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Alleen-lezen machtigingen gebruiken om informatie te bekijken. <br/><br/> Waarschuwingen beheren.|
@@ -149,7 +149,7 @@ Als u een gebruiker toewijst aan een van de beheerdersrollen voor naleving of be
 
 |**Microsoft 365-service**|**Informatie over rollen**|
 |:-----|:-----|
-|Beheerdersrollen in abonnementen voor Office 365- en Microsoft 365 voor Bedrijven|[Microsoft 365-beheersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide)|
+|Beheerdersrollen in abonnementen voor Office 365- en Microsoft 365 voor Bedrijven|[Microsoft 365-beheersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)|
 |Azure Active Directory (Azure AD) en Azure AD Identity Protection|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Azure Advanced Threat Protection|[Azure ATP-rolgroepen](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
 |Azure Information Protection|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
@@ -158,7 +158,7 @@ Als u een gebruiker toewijst aan een van de beheerdersrollen voor naleving of be
 |Intune|[Toegangsbeheer in Intune op basis van rollen](https://docs.microsoft.com/intune/role-based-access-control)|
 |Managed Desktop|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Microsoft Cloud App Security|[Toegangsbeheer op basis van rollen](https://docs.microsoft.com/cloud-app-security/manage-admins)|
-|Beveiligings- en compliancecentrum|[Microsoft 365-beheersrollen](https://docs.microsoft.com/office365/SecurityCompliance/permissions-in-the-security-and-compliance-center)|
+|Beveiligings- en compliancecentrum|[Microsoft 365-beheersrollen](permissions-in-the-security-and-compliance-center.md)|
 |Privileged Identity Management|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Secure Score|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |SharePoint Online|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <br/><br/> [Over de SharePoint-beheerdersrollen in Office 365](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)|
