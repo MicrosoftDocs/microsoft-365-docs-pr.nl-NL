@@ -25,14 +25,15 @@ ms.custom:
 - BEA160
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 ms.assetid: 2ae3ea58-4fce-4592-91d6-46e9ae3ec218
 description: U vindt uw factuur of factuuroverzicht in het Microsoft 365-beheercentrum. U kunt ook een kopie van uw factuur opslaan en afdrukken.
-ms.openlocfilehash: 7425c0b49ff65fa0d5c777e3c7fdb7af99488a9d
-ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
+ms.openlocfilehash: d034e59e80af6396867282f3e7c23179c332c251
+ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232779"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407942"
 ---
 # <a name="view-your-bill-or-invoice"></a>Uw rekening of factuur weergeven
 
@@ -89,6 +90,6 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
 
 [Betalen met factuur, creditcard of via bankrekening](pay-for-your-subscription.md)
   
-[Een creditcard of bankrekening toevoegen, bijwerken of verwijderen](add-update-or-remove-credit-card-or-bank-account.md)
+[Betalingswijzen beheren](manage-payment-methods.md)
 
 [Betalingsopties voor Minecraft: Education Edition](https://go.microsoft.com/fwlink/p/?linkid=838761)
