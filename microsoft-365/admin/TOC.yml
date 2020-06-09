@@ -42,6 +42,14 @@
           href: setup/customize-your-organization-theme.md
         - name: Meer informatie over Office 365 Duitsland
           href: admin-overview/learn-about-office-365-germany.md
+        - name: Toegang tot on-premises gebruikers en bronnen
+          items:
+            - name: Domeingebruikers synchroniseren met Microsoft 365
+              href: ../business/manage-domain-users.md
+            - name: Toestaan dat aan een domein toegevoegde Windows 10-apparaten worden beheerd
+              href: ../business/manage-windows-devices.md
+            - name: Toegang tot bronnen uit een aan Azure AD toegevoegd apparaat
+              href: ../business/access-resources.md
     - name: Overzicht van het Microsoft 365-beheercentrum
       items:
         - name: Overzicht van het beheercentrum
@@ -278,6 +286,10 @@
           href: ../business/reset-devices-to-factory-settings.md
         - name: Beveiligingsfuncties toewijzen aan Intune-instellingen
           href: ../business/map-protection-features-to-intune-settings.md
+        - name: Apparaatstatussen
+          href: ../business/device-states.md
+        - name: Instellingen voor app-beveiliging voor Windows 10-pc's
+          href: ../business/protection-settings-for-windows-10-devices.md
         - name: Instellingen voor app-beveiliging voor Android en iOS
           href: ../business/app-protection-settings-for-android-and-ios.md
           items:
@@ -288,8 +300,16 @@
           items:
             - name: Instellingen valideren op Windows 10-pc's
               href: ../business/validate-settings-on-windows-10-pcs.md
-        - name: Instellingen voor app-beveiliging voor Windows 10-pc's
-          href: ../business/protection-settings-for-windows-10-devices.md
+        - name: AutoPilot
+          items:
+            - name: AutoPilot-apparaten en -profiel toevoegen
+              href: ../business/add-autopilot-devices-and-profile.md
+            - name: AutoPilot-profielen maken en bewerken
+              href: ../business/create-and-edit-autopilot-profiles.md
+            - name: AutoPilot-apparaten maken en bewerken
+              href: ../business/create-and-edit-autopilot-devices.md
+            - name: AutoPilot-profielinstellingen
+              href: ../business/autopilot-profile-settings.md
     - name: Werken met klanten
       href: work-with-customers/index.yml
       items:
