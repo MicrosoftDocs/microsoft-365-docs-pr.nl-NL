@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Beheerders kunnen leren hoe u URL- en bestandsvermeldingen configureert in de lijst Tenant Toestaan/blokkeren in het Security & Compliance Center.
-ms.openlocfilehash: b3a25458bbde2b3a78cfecc60ccb75fe298013f7
-ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
+ms.openlocfilehash: 0143ee2601a4cb9593c79f8c6c62d1f06914088f
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44419259"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44613418"
 ---
 # <a name="manage-urls-and-files-in-the-tenant-allowblock-list"></a>URL's en bestanden beheren in de lijst Tenant Allow/Block
 
@@ -56,7 +56,7 @@ In dit onderwerp wordt beschreven hoe u vermeldingen configureert in de lijst te
 
 - Standaard verlopen vermeldingen in de lijst tenant-toestaan/blokkeren na 30 dagen. U een datum opgeven of instellen dat deze nooit verloopt.
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
 
 - U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u waarden wilt toevoegen en verwijderen uit de lijst tenant-toestaan/blokkeren, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Voor alleen-lezen toegang tot de tenant-lijst voor toestaan/blokkeren, moet u lid zijn van de rolgroep **Beveiligingslezer.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 

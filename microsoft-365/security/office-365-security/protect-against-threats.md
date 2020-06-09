@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen meer te weten komen over bedreigingsbeveiliging in Microsoft 365 en configureren hoe deze voor uw organisatie kunnen worden gebruikt.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4176aabb88d177c7cff0f32f32543a251b558170
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 54500500095392ebfc3d93080701fa4715fc8448
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44587990"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617394"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
@@ -58,7 +58,7 @@ U moet een geschikte rol toegewezen krijgen om beleid te configureren in het [Se
 |---------|---------|
 |globale beheerder|[Over Microsoft 365-beheersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
 |Beveiligingsbeheerder|[Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Exchange Online Organisatiebeheer|[Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>En<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
+|Exchange Online Organisatiebeheer|[Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>En<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
 |
 
 Zie [Machtigingen in het Security &amp; Compliance Center voor](permissions-in-the-security-and-compliance-center.md)meer informatie.
@@ -225,6 +225,6 @@ Nadat u uw functies voor bedreigingsbeveiliging hebt geconfigureerd, controleert
 |---|---|
 |**Wat te doen**|**Informatiebronnen**|
 |Bekijk hoe functies voor bedreigingsbescherming voor uw organisatie werken door rapporten te bekijken|[Beveiligingsdashboard](security-dashboard.md)<br/>[Beveiligingsrapporten voor e-mail](view-email-security-reports.md)<br/>[Rapporten voor Office 365 ATP](view-reports-for-atp.md)<br/>[Bedreigingsverkenner](threat-explorer.md)|
-|Uw beleid voor bedreigingsbescherming periodiek herzien en herzien indien nodig|[Veilige score](../mtp/microsoft-secure-score.md)<br/>[Slimme rapporten en inzichten](reports-and-insights-in-security-and-compliance.md)<br/>[Microsoft 365-functies voor bedreigingsonderzoek en -reactie](keep-users-safe-with-office-365-ti.md)|
+|Uw beleid voor bedreigingsbescherming periodiek herzien en herzien indien nodig|[Secure Score](../mtp/microsoft-secure-score.md)<br/>[Slimme rapporten en inzichten](reports-and-insights-in-security-and-compliance.md)<br/>[Microsoft 365-functies voor bedreigingsonderzoek en -reactie](keep-users-safe-with-office-365-ti.md)|
 |Kijk voor nieuwe functies en service-updates|[Standaard- en gerichte releaseopties](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365)<br/>[Berichtencentrum](https://docs.microsoft.com/microsoft-365/admin/manage/message-center)<br/>[Microsoft 365-routekaart](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Servicebeschrijvingen](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
 |

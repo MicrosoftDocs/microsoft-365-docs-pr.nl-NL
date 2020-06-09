@@ -14,12 +14,12 @@ ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel leert u hoe u domeinen en instellingen van de ene Microsoft Exchange Online Protection (EOP)-organisatie (tenant) naar een andere verplaatsen.
-ms.openlocfilehash: 1144f193fd56587e8ea38fdd659af4bbaa05311c
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 32a1721a70df88e7e0d558322988e3e64b3f3397
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588190"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617448"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a>Domeinen en instellingen van één EOP-organisatie naar een andere verplaatsen
 
@@ -59,7 +59,7 @@ Als u de bronorganisatie opnieuw wilt maken in de doelorganisatie, moet u ervoor
   > [!NOTE]
   > Cmdlet-ondersteuning voor het exporteren en importeren van de e-mailstroomregelverzameling wordt momenteel alleen ondersteund voor EOP Premium-abonnementen.
 
-De eenvoudigste manier om al uw instellingen te verzamelen, is door PowerShell te gebruiken. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
+De eenvoudigste manier om al uw instellingen te verzamelen, is door PowerShell te gebruiken. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
 
 Vervolgens u al uw instellingen verzamelen en exporteren naar een .xml-bestand dat moet worden geïmporteerd naar de doel tenant. In het algemeen u de uitvoer van de cmdlet **Ophalen** voor elke instelling naar de **cmdlet Export-Clixml** leiden om de instellingen op te slaan in .xml-bestanden, zoals weergegeven in het volgende codevoorbeeld.
 

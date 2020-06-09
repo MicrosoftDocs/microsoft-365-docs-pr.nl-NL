@@ -1,5 +1,5 @@
 ---
-title: S/MIME-instellingen configureren - Exchange Online voor de webversie van Outlook
+title: S/MIME-instellingen configureren - Exchange Online voor Outlook in de webversie
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,34 +16,34 @@ ms.collection:
 - M365-security-compliance
 description: Een korte beschrijving van wat Exchange Online-beheerders moeten doen om de S/MIME-instellingen in de webversie van Outlook in Exchange Online weer te geven en te configureren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0b98a853d81d5ce067233314dfc59c7f677656bd
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 2c1496025124717688cc812e22e0d8fe3a441112
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352031"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616620"
 ---
-# <a name="configure-smime-settings-in-exchange-online-for-outlook-on-the-web"></a>S/MIME-instellingen configureren in Exchange Online voor de webversie van Outlook
+# <a name="configure-smime-settings-in-exchange-online-for-outlook-on-the-web"></a>S/MIME-instellingen configureren in de webversie van Exchange Online voor Outlook
 
-Als beheerder van Exchange Online u de webversie van Outlook (voorheen Outlook Web App) instellen om het verzenden en ontvangen van S/MIME-beveiligde berichten mogelijk te maken. Gebruik de **cmdlets Get-SmimeConfig** en **Set-SmimeConfig** om deze functie te bekijken en te beheren in Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
+Als beheerder van Exchange Online u de webversie van Outlook (voorheen Outlook Web App) instellen om het verzenden en ontvangen van door S/MIME beveiligde berichten toe te staan. Gebruik de **cmdlets Get-SmimeConfig** en **Set-SmimeConfig** om deze functie in Exchange Online PowerShell te bekijken en te beheren. Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
-Zie [Get-SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/get-smimeconfig) en [Set-SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/set-smimeconfig)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Get-SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/get-smimeconfig) en [Set-SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/set-smimeconfig)voor gedetailleerde syntaxis- en parameterinformatie .
 
 ## <a name="considerations-for-new-microsoft-edge-chromium-based"></a>Overwegingen voor nieuwe Microsoft Edge (op chromium gebaseerd)
 
-Als u S/MIME wilt gebruiken in Outlook op het web in de nieuwe [Microsoft Edge-webbrowser,](https://www.microsoft.com/windows/microsoft-edge) moet u (of een andere beheerder) het Microsoft Edge-browserbeleid met de naam **ExtensionInstallForcelist** instellen en configureren om de Microsoft S/MIME-extensie in de nieuwe Microsoft Edge te installeren. De beleidswaarde is `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` . En houd er rekening mee dat het toepassen van dit beleid domeingebonden computers vereist, dus het gebruik van S/MIME in de nieuwe Microsoft Edge-browser vereist effectief computers met domeinverbonden computers.
+Als u S/MIME wilt gebruiken in de webversie van Outlook in de nieuwe [Microsoft Edge-webbrowser,](https://www.microsoft.com/windows/microsoft-edge) moet u (of een andere beheerder) het Microsoft Edge-browserbeleid met de naam **ExtensionInstallForcelist** instellen en configureren om de Microsoft S/MIME-extensie in nieuwe Microsoft Edge te installeren. De beleidswaarde is `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` . En houd er rekening mee dat voor het toepassen van dit beleid computers die zijn samengevoegd, vereist het gebruik van S/MIME in de nieuwe Microsoft Edge-browser effectief computers die zijn samengevoegd met een domein.
 
-Zie [ExtensionInstallForcelist](https://docs.microsoft.com/DeployEdge/microsoft-edge-policies#extensioninstallforcelist)voor meer informatie over het beleid **extensionInstallForcelist.**
+Zie ExtensionInstallForcelist voor meer informatie over het beleid **voor ExtensieinstallForcelist** . [ExtensionInstallForcelist](https://docs.microsoft.com/DeployEdge/microsoft-edge-policies#extensioninstallforcelist)
 
-Deze stap is een vereiste voor het gebruik van nieuwe Microsoft Edge; het vervangt niet het S/MIME-besturingselement dat door gebruikers is geïnstalleerd. Gebruikers wordt gevraagd om het S/MIME-besturingselement in Outlook op het web te downloaden en te installeren tijdens hun eerste gebruik van S/MIME. Of gebruikers kunnen proactief naar **S/MIME** gaan in hun Web-instellingen in Outlook voor de download om de downloadkoppeling voor het besturingselement te krijgen.
+Deze stap is een voorwaarde voor het gebruik van nieuwe Microsoft Edge; het vervangt niet de S / MIME-besturingselement dat is geïnstalleerd door gebruikers. Gebruikers wordt gevraagd om het S/MIME-besturingselement in Outlook op het web te downloaden en te installeren tijdens hun eerste gebruik van S/MIME. Of gebruikers kunnen proactief naar **S/MIME** gaan in hun Web-instellingen van Outlook op om de downloadkoppeling voor het besturingselement te krijgen.
 
 ## <a name="considerations-for-chrome"></a>Overwegingen voor Chrome
 
-Als u S/MIME wilt gebruiken in Outlook op het web in de Webbrowser Google Chrome, moet u (of een andere beheerder) het Chromium-beleid met de naam **ExtensionInstallForcelist** instellen en configureren om de Microsoft S/MIME-extensie in Chrome te installeren. De beleidswaarde is `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` . En houd er rekening mee dat het toepassen van dit beleid domein-verbonden computers vereist, dus het gebruik van S / MIME in Chrome vereist effectief domein-aangesloten computers.
+Als u S/MIME wilt gebruiken in de webversie van Outlook in de Webbrowser Google Chrome, moet u (of een andere beheerder) het Chromium-beleid met de naam **ExtensionInstallForcelist** instellen en configureren om de Microsoft S/MIME-extensie in Chrome te installeren. De beleidswaarde is `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` . En houd er rekening mee dat voor het toepassen van dit beleid computers die zijn samengevoegd, vereist het gebruik van S/MIME in Chrome effectief computers die zijn samengevoegd met een domein.
 
-Zie [ExtensionInstallForcelist](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=ExtensionInstallForcelist)voor meer informatie over het beleid **extensionInstallForcelist.**
+Zie ExtensionInstallForcelist voor meer informatie over het beleid **voor ExtensieinstallForcelist** . [ExtensionInstallForcelist](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=ExtensionInstallForcelist)
 
-Deze stap is een voorwaarde voor het gebruik van Chrome; het vervangt niet het S/MIME-besturingselement dat door gebruikers is geïnstalleerd. Gebruikers wordt gevraagd om het S/MIME-besturingselement in Outlook op het web te downloaden en te installeren tijdens hun eerste gebruik van S/MIME. Of gebruikers kunnen proactief naar **S/MIME** gaan in hun Web-instellingen in Outlook voor de download om de downloadkoppeling voor het besturingselement te krijgen.
+Deze stap is een voorwaarde voor het gebruik van Chrome; het vervangt niet de S / MIME-besturingselement dat is geïnstalleerd door gebruikers. Gebruikers wordt gevraagd om het S/MIME-besturingselement in Outlook op het web te downloaden en te installeren tijdens hun eerste gebruik van S/MIME. Of gebruikers kunnen proactief naar **S/MIME** gaan in hun Web-instellingen van Outlook op om de downloadkoppeling voor het besturingselement te krijgen.
 
 ## <a name="for-more-information"></a>Voor meer informatie
 

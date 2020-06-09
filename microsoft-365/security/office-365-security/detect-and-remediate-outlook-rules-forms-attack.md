@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Meer informatie over het herkennen en herstellen van de Outlook-regels en aangepaste formuliereninjectiesaanvallen in Office 365
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bc71a358170cdda86d16096c56b9d9660bf6a5be
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 5d8c4495715ef29e1d9b70b993d1216e80461cf7
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588262"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44613382"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook-regels en aanvallen op aangepaste formulieren detecteren en herstellen
 
@@ -173,7 +173,7 @@ Er zijn twee externe PowerShell-cmdlets die u gebruiken om gevaarlijke regels te
 
 #### <a name="steps-for-mailboxes-that-are-on-an-exchange-server"></a>Stappen voor postvakken die zich op een Exchange-server bevinden
 
-1. Maak verbinding met de Exchange-server via externe PowerShell. Volg de stappen in [Verbinding maken met Exchange-servers met behulp van externe PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
+1. Maak verbinding met de Exchange-server via externe PowerShell. Volg de stappen in [Verbinding maken met Exchange-servers met behulp van externe PowerShell.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-servers-using-remote-powershell)
 
 2. Als u één regel, meerdere regels of alle regels uit een postvak volledig wilt verwijderen, gebruikt u de cmdlet [Remove-InboxRule.](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule)
 
@@ -181,7 +181,7 @@ Er zijn twee externe PowerShell-cmdlets die u gebruiken om gevaarlijke regels te
 
 #### <a name="steps-for-mailboxes-in-exchange-online"></a>Stappen voor postvakken in Exchange Online
 
-1. Volg de stappen in [Verbinding maken met Exchange Online met PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+1. Volg de stappen in [Verbinding maken met Exchange Online met PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Als u één regel, meerdere regels of alle regels uit een postvak volledig wilt verwijderen, gebruikt u de cmdlet [Regel verwijderen in postvak UIT.](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule)
 

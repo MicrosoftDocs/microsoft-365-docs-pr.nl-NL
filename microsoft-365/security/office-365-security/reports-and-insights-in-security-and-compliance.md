@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over de slimme rapporten en inzichten die beschikbaar zijn in het Security and Compliance Center, en hoe u ze gebruiken om gegevens te bekijken en te verkennen en snelle acties te ondernemen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3646c38f56852d18fe7f2a79c82c059f6d0bca21
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: fc969dd9bbcbe049f4fcd065ef9caed51c52fac6
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588154"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617306"
 ---
 # <a name="smart-reports-and-insights-in-the-security-amp-compliance-center"></a>Slimme rapporten en inzichten in het Security &amp; Compliance Center
 
@@ -54,11 +54,6 @@ Een breed scala aan rapporten zijn beschikbaar in het Security &amp; Compliance 
 |**Controlelogboek** <br/> Informatie over Microsoft 365-activiteiten, gebruikers, bestanden of mappen en meer  <br/> |Ga in het Security &amp; Compliance Center naar Search ** &amp; investigation** \> **Audit log search** <br/> |[Zoek in het controlelogboek in het Security &amp; Compliance Center](../../compliance/search-the-audit-log-in-security-and-compliance.md) <br/> |
 |**Nalevingsrapporten** <br/> FedRAMP-rapporten, governance-, risico- en compliancerapporten, ISO-rapporten over informatiebeveiliging en audit- en beoordelingsrapporten van serviceorganisatie  <br/> |Ga in het Security &amp; Compliance Center naar Service **assurance** \> **Compliance-rapporten** <br/> |[Plannen voor &amp; naleving van beveiliging in Office 365](../../compliance/plan-for-security-and-compliance.md) <br/> |
   
-## <a name="next-steps"></a>Volgende stappen
-
-Nu u een overzicht hebt van rapporten en inzichten, is uw volgende stap om te leren hoe u rapporten aanpassen, beheren en downloaden. Zie de volgende artikelen:
-  
-
     
 ## <a name="related-topics"></a>Verwante onderwerpen
 

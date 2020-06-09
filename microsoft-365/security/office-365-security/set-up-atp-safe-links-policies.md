@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Stel beleid voor veilige koppelingen in om uw organisatie te beschermen tegen schadelijke koppelingen in Word-, Excel-, PowerPoint- en Visio-bestanden en in e-mailberichten.
-ms.openlocfilehash: 928f13ec8f04506540d02177acd82b2403a74683
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 54b896616cf09c84525b812fed6fb3f35b07bf10
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588086"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617216"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP-beleid voor veilige koppelingen instellen
 
@@ -55,7 +55,7 @@ Als een gebruiker op een koppeling in een e-mail klikt en de URL is geblokkeerd 
     |---------|---------|
     |globale beheerder |De persoon die zich aanmeldt om Microsoft 365 te kopen, is standaard een globale beheerder. (Zie [Over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.)         |
     |Beveiligingsbeheerder |Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-    |Exchange Online Organisatiebeheer |Exchange-beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)) |
+    |Exchange Online Organisatiebeheer |Exchange-beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)) |
 
     Zie [Machtigingen in het Security &amp; Compliance Center voor](permissions-in-the-security-and-compliance-center.md)meer informatie over rollen en machtigingen.
 

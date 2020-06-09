@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u de instellingen voor ongewenste e-mail configureert in Exchange Online-postvakken. Veel van deze instellingen zijn beschikbaar voor gebruikers in Outlook of Outlook in de webversie.
-ms.openlocfilehash: a0b2bce985c642a2069d51cbd3103b6fd044ff17
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: d5eaadc6d177acf91ea4d9d149c92a4de6cc8dd3
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588450"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616632"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
 
@@ -46,9 +46,9 @@ Beheerders kunnen Exchange Online PowerShell gebruiken om de status van de regel
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U Exchange Online PowerShell alleen gebruiken om deze procedures uit te voeren. Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
+- U Exchange Online PowerShell alleen gebruiken om deze procedures uit te voeren. Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
-- U moet machtigingen toegewezen krijgen voordat u deze procedures uitvoeren. U hebt in het bijzonder de rol **E-mailontvangers** (die standaard is toegewezen aan de rolgroepen **Organisatiebeheer,** **Organisatiebeheer**en **Aangepaste e-mailontvangers)** of de rol **Gebruikersopties** (die standaard is toegewezen aan de rolgroepen **Organisatiebeheer** en **Helpdesk)** nodig. Zie [Rolgroepen wijzigen in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups)als u gebruikers wilt toevoegen aan rolgroepen in Exchange Online. Houd er rekening mee dat een gebruiker met standaardmachtigingen dezelfde procedures kan uitvoeren op zijn eigen postvak, zolang deze toegang heeft [tot Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
+- U moet machtigingen toegewezen krijgen voordat u deze procedures uitvoeren. U hebt in het bijzonder de rol **E-mailontvangers** (die standaard is toegewezen aan de rolgroepen **Organisatiebeheer,** **Organisatiebeheer**en **Aangepaste e-mailontvangers)** of de rol **Gebruikersopties** (die standaard is toegewezen aan de rolgroepen **Organisatiebeheer** en **Helpdesk)** nodig. Zie [Rolgroepen wijzigen in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups)als u gebruikers wilt toevoegen aan rolgroepen in Exchange Online. Houd er rekening mee dat een gebruiker met standaardmachtigingen dezelfde procedures kan uitvoeren op zijn eigen postvak, zolang deze toegang heeft [tot Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell).
 
 - In standalone EOP-omgevingen waar EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de EOP-spamfilterbeoordeling te vertalen, zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. 
 

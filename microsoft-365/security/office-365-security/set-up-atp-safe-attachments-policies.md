@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het definiëren van beleid voor veilige bijlagen om uw organisatie te beschermen tegen schadelijke bestanden in e-mail.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d826cb6e0dd4370a1e02722901d083d4f021e2b4
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 581c45c9c5b606b3b4b0ba91bd96740bc838629d
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588118"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617228"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Office 365 ATP-beleid voor veilige bijlagen instellen
 
@@ -50,7 +50,7 @@ Mensen verzenden, ontvangen en delen regelmatig bijlagen, zoals documenten, pres
   |---------|---------|
   |globale beheerder |De persoon die zich aanmeldt om Microsoft 365 te kopen, is standaard een globale beheerder. (Zie [Over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.)|
   |Beveiligingsbeheerder |Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-  |Exchange Online Organization Management, Exchange Online Hygiene Management |Exchange-beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell))|
+  |Exchange Online Organization Management, Exchange Online Hygiene Management |Exchange-beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
   |
 
   Zie [Machtigingen in het Security &amp; Compliance Center voor](permissions-in-the-security-and-compliance-center.md)meer informatie over rollen en machtigingen.

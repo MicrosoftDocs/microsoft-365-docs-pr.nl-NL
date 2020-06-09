@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het instellen van aangepaste geblokkeerde URL's voor gebruikers en het niet herschrijven van de lijst met URL's voor een groep gebruikers in het beleid voor veilige koppelingen met Office 365 ATP.
-ms.openlocfilehash: c75f468aa98c8fa9e45cd596c62a7509310fdca5
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: f4e7067c9edc9bbe2965311a7c203cb16f242f49
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588130"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617240"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>Een aangepaste lijst met URL's die niet opnieuw worden herschreven instellen met atp-veilige koppelingen
 
@@ -45,7 +45,7 @@ Als u ATP-beleid wilt bewerken (of definiëren), moet u een geschikte rol toegew
 |---------|---------|
 |globale beheerder |De persoon die zich aanmeldt om Microsoft 365 te kopen, is standaard een globale beheerder. (Zie [Over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.)         |
 |Beveiligingsbeheerder |Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-|Exchange Online Organisatiebeheer |Exchange-beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)) |
+|Exchange Online Organisatiebeheer |Exchange-beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)) |
 
 > [!TIP]
 > Zie [Machtigingen in het Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rollen en machtigingen.

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Rapporten voor Geavanceerde bedreigingsbeveiliging van Office 365 zoeken en gebruiken in het Security &amp; Compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d8a5c0231d1ac63573619470be3b786cae9c37a
-ms.sourcegitcommit: 86705d15231c987be2fcf5a295b9b6239fc46077
+ms.openlocfilehash: 3e6f6e3f2fd5820f280ab47f3ffdde11bd9da72e
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44566726"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44613358"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Rapporten voor geavanceerde bedreigingsbeveiliging van Office 365 weergeven
 
@@ -152,7 +152,7 @@ Als u de in dit artikel beschreven rapporten wilt weergeven en gebruiken, **moet
   - Beveiligingsoperator (dit kan worden toegewezen in het Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) ))
   - Beveiligingslezer
 
-- Voor Exchange Online moet u een van de volgende rollen hebben toegewezen in het Exchange-beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) of met PowerShell-cmdlets (Zie [Exchange Online PowerShell):](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)
+- Voor Exchange Online moet u een van de volgende rollen hebben toegewezen in het Exchange-beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) of met PowerShell-cmdlets (Zie [Exchange Online PowerShell):](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)
 
   - Organisatiebeheer
   - Alleen-weergeven organisatiebeheer

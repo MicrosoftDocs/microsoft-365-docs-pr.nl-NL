@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - seo-marvel-apr2020
 description: In dit artikel leest u meer over de functie VEILIGE bijlagen atp voor Office 365 en hoe u de functie voor uw abonnement krijgen.
-ms.openlocfilehash: 75b047c1761a936f1fb0e08c65d9c270a136a953
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 36993454a128d23ba388c24321a249f3be40d3d6
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588298"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616776"
 ---
 # <a name="atp-safe-attachments"></a>ATP-veilige bijlagen
 
@@ -49,7 +49,7 @@ Als u ATP-beleid wilt definiëren (of bewerken), moet u een geschikte rol toegew
 |---------|---------|
 |globale beheerder|De persoon die zich aanmeldt om Microsoft 365 te kopen, is standaard een globale beheerder. (Zie [Over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.)|
 |Beveiligingsbeheerder|Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-|Exchange Online Organisatiebeheer|Exchange-beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell))|
+|Exchange Online Organisatiebeheer|Exchange-beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
 
 ## <a name="how-to-know-if-atp-safe-attachments-protection-is-in-place"></a>Hoe weet u of atp-beveiliging voor veilige bijlagen aanwezig is
 
