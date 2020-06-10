@@ -1,0 +1,1238 @@
+- name: Microsoft 365-compliance
+  href: index.yml
+- name: Aan de slag
+  items:
+    - name: Wat is er nieuw in het compliancecentrum?
+      href: whats-new.md
+    - name: Recente updates voor compliance-inhoud
+      href: recently-updated-topics-mcc.md
+    - name: Microsoft 365-compliancecentrum
+      href: microsoft-365-compliance-center.md
+    - name: Microsoft 365-oplossingscatalogus
+      href: microsoft-365-solution-catalog.md
+    - name: Uw gratis Azure Active Directory-abonnement gebruiken
+      href: use-your-free-azure-ad-subscription-in-office-365.md
+    - name: Beveiliging en compliance plannen in Office 365
+      href: plan-for-security-and-compliance.md
+- name: Insider-risico's beheren
+  items:
+    - name: Intern risicobeheer
+      items:
+        - name: Meer informatie over intern risicobeheer
+          href: insider-risk-management.md
+        - name: Intern risicobeheer plannen
+          href: insider-risk-management-plan.md
+        - name: Aan de slag met intern risicobeheer
+          href: insider-risk-management-configure.md
+        - name: Intern risicobeleid maken en beheren
+          href: insider-risk-management-policies.md
+        - name: Waarschuwingen voor insider-risico onderzoeken
+          href: insider-risk-management-alerts.md
+        - name: Actie ondernemen in het geval van insider-risico
+          href: insider-risk-management-cases.md
+        - name: Gegevens controleren met de Verkenner voor inhoud met insider-risico
+          href: insider-risk-management-content-explorer.md
+        - name: Gebruikers toevoegen aan het intern risicobeleid
+          href: insider-risk-management-users.md
+        - name: Kennisgevingssjablonen voor insider-risico maken
+          href: insider-risk-management-notices.md
+    - name: Communicatiecompliance
+      items:
+        - name: Meer informatie over communicatiecompliance
+          href: communication-compliance.md
+        - name: Communicatiecompliance plannen
+          href: communication-compliance-plan.md
+        - name: Aan de slag met communicatiecompliance
+          href: communication-compliance-configure.md
+        - name: Waarschuwingen voor communicatiecompliance onderzoeken en oplossen
+          href: communication-compliance-investigate-remediate.md
+        - name: Functieverwijzing voor communicatiecompliance
+          href: communication-compliance-feature-reference.md
+        - name: Casestudy - Contoso configureert snel een beleid tegen aanstootgevende taal
+          href: communication-compliance-case-study.md
+        - name: Toezichtbeleid in Office 365
+          href: supervision-policies.md
+        - name: Toezichtbeleid configureren voor Office 365
+          href: configure-supervision-policies.md
+    - name: Informatiebelemmeringen
+      href: information-barriers.md
+      items:
+        - name: Beleid voor informatiebelemmering definiëren
+          href: information-barriers-policies.md
+        - name: Kenmerken voor het beleid voor informatiebelemmering
+          href: information-barriers-attributes.md
+        - name: Problemen met informatiebelemmeringen oplossen
+          href: information-barriers-troubleshooting.md
+        - name: Beleid voor informatiebelemmering bewerken
+          href: information-barriers-edit-segments-policies.md
+    - name: Privileged Access Management
+      items:
+        - name: Meer informatie over Privileged Access Management
+          href: privileged-access-management-overview.md
+        - name: Aan de slag met Privileged Access Management
+          href: privileged-access-management-configuration.md
+    - name: Toegang van gebruikers en apparaten beveiligen
+      href: protect-access-to-data-and-services.md
+    - name: Klanten-lockbox
+      href: customer-lockbox-requests.md
+- name: Informatiebescherming beheren
+  href: protect-information.md
+  items:
+    - name: Vertrouwelijkheidslabels
+      items:
+        - name: Meer informatie over vertrouwelijkheidslabels
+          href: sensitivity-labels.md
+        - name: Aan de slag met vertrouwelijkheidslabels
+          href: get-started-with-sensitivity-labels.md
+        - name: Vertrouwelijkheidslabels maken en publiceren
+          href: create-sensitivity-labels.md
+        - name: Toegang tot inhoud beperken door versleuteling toe te passen met vertrouwelijkheidslabels
+          href: encryption-sensitivity-labels.md
+        - name: Een vertrouwelijkheidslabel automatisch toepassen op inhoud
+          href: apply-sensitivity-label-automatically.md
+        - name: Gebruik van labels weergeven met labelanalyse
+          href: label-analytics.md
+        - name: 'Vertrouwelijkheidslabels gebruiken voor teams, groepen en sites'
+          href: sensitivity-labels-teams-groups-sites.md
+        - name: Vertrouwelijkheidslabels inschakelen voor Office-bestanden in SharePoint en OneDrive
+          href: sensitivity-labels-sharepoint-onedrive-files.md
+        - name: Vertrouwelijkheidslabels gebruiken in Office-apps
+          href: sensitivity-labels-office-apps.md
+    - name: Preventie van gegevensverlies (DLP)
+      href: data-loss-prevention-policies.md
+      items:
+        - name: DLP en Microsoft Teams
+          href: dlp-microsoft-teams.md
+        - name: Een uitgebreid overzicht van DLP bekijken
+          href: 'https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111'
+        - name: DLP instellen
+          items:
+            - name: Aan de slag met aanbevelingen voor DLP-beleid
+              href: get-started-with-dlp-policy-recommendations.md
+            - name: Aan de slag met het standaard DLP-beleid
+              href: get-started-with-the-default-dlp-policy.md
+            - name: Een DLP-beleid maken vanuit een sjabloon
+              href: create-a-dlp-policy-from-a-template.md
+            - name: 'Een DLP-beleid maken, testen en afstemmen'
+              href: create-test-tune-dlp-policy.md
+            - name: Meldingen en beleidstips gebruiken in DLP-beleid
+              href: use-notifications-and-policy-tips.md
+            - name: Wat zijn de DLP-beleidssjablonen?
+              href: what-the-dlp-policy-templates-include.md
+            - name: Een DLP-beleid maken om documenten te beveiligen met FCI of andere eigenschappen
+              href: protect-documents-that-have-fci-or-other-properties.md
+            - name: De DLP-rapporten weergeven
+              href: view-the-dlp-reports.md
+            - name: Een query maken om te zoeken naar gevoelige gegevens die zijn opgeslagen op sites
+              href: form-a-query-to-find-sensitive-data-stored-on-sites.md
+            - name: De werking van DLP tussen het Beveiligings- en compliancecentrum en het Exchange-beheercentrum
+              href: how-dlp-works-between-admin-centers.md
+    - name: Typen gevoelige informatie
+      items:
+        - name: Definities van entiteiten van het type Gevoelige informatie
+          href: sensitive-information-type-entity-definitions.md
+        - name: Doel van de DLP-functies
+          href: what-the-dlp-functions-look-for.md
+        - name: Een uitgebreid overzicht over het aanpassen van DLP bekijken
+          href: 'https://go.microsoft.com/fwlink/?linkid=852306'
+        - name: Een ingebouwd type gevoelige informatie aanpassen
+          href: customize-a-built-in-sensitive-information-type.md
+        - name: Aangepaste typen gevoelige informatie
+          href: custom-sensitive-info-types.md
+        - name: Aangepaste typen gevoelige informatie maken met de classificatie van exacte gegevensovereenkomsten
+          href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
+        - name: Een aangepast type gevoelige informatie maken in het Beveiligings- en compliancecentrum
+          href: create-a-custom-sensitive-information-type.md
+        - name: Een aangepast type gevoelige informatie maken met PowerShell
+          href: create-a-custom-sensitive-information-type-in-scc-powershell.md
+        - name: Een woordenlijst met trefwoorden maken
+          href: create-a-keyword-dictionary.md
+        - name: Fingerprinting van documenten
+          href: document-fingerprinting.md
+        - name: DLP-functies voor gevoelige informatie
+          href: what-the-dlp-functions-look-for.md
+    - name: Versleuteling in Microsoft 365
+      href: encryption.md
+    - name: Versleuteling van Office 365-service
+      href: office-365-service-encryption.md
+    - name: Klantsleutel
+      items:
+        - name: Serviceversleuteling met klantsleutel in Office 365
+          href: customer-key-overview.md
+        - name: Klantsleutel instellen voor Office 365
+          href: customer-key-set-up.md
+        - name: Klantsleutel beheren voor Office 365
+          href: customer-key-manage.md
+        - name: Een klantsleutel of een beschikbaarheidssleutel rollen of draaien
+          href: customer-key-availability-key-roll.md
+        - name: Meer informatie over de beschikbaarheidssleutel voor de klantsleutel
+          href: customer-key-availability-key-understand.md
+    - name: Versleuteling van data-in-transit
+      href: office-365-encryption-for-data-in-transit.md
+    - name: E-mailversleuteling
+      href: email-encryption.md
+      items:
+        - name: Office 365-berichtversleuteling (OME)
+          href: ome.md
+        - name: De nieuwe mogelijkheden van Office 365-berichtversleuteling instellen
+          href: set-up-new-message-encryption-capabilities.md
+        - name: E-mailstroomregels definiëren voor het versleutelen van e-mailberichten in Office 365
+          href: define-mail-flow-rules-to-encrypt-email.md
+        - name: Het huismerk van uw organisatie toevoegen aan uw versleutelde berichten
+          href: add-your-organization-brand-to-encrypted-messages.md
+        - name: Een beleid voor het type Gevoelige informatie voor uw organisatie maken met Office 365-berichtversleuteling
+          href: ome-sensitive-info-types.md
+        - name: Office 365-berichtversleuteling beheren
+          href: manage-office-365-message-encryption.md
+        - name: Office 365 Advanced Message Encryption
+          href: ome-advanced-message-encryption.md
+        - name: Een vervaldatum instellen voor e-mailberichten die zijn versleuteld met Office 365 Advanced Message Encryption
+          href: ome-advanced-expiration.md
+        - name: E-mailberichten intrekken die zijn versleuteld met Office 365 Advanced Message Encryption
+          href: revoke-ome-encrypted-mail.md
+        - name: Versies van OME vergelijken
+          href: ome-version-comparison.md
+        - name: Veelgestelde vragen over Office 365-berichtversleuteling
+          href: ome-faq.md
+        - name: Hoe Exchange Online uw e-mailgeheimen kan beveiligen
+          href: exchange-online-secures-email-secrets.md
+        - name: Hoe Exchange Online TLS gebruikt voor het beveiligen van e-mailverbindingen in Office 365
+          href: exchange-online-uses-tls-to-secure-email-connections.md
+        - name: Technische naslaginformatie over versleuteling in Office 365
+          href: technical-reference-details-about-encryption.md
+        - name: BitLocker en Distributed Key Manager (DKM) voor versleuteling
+          href: office-365-bitlocker-and-distributed-key-manager-for-encryption.md
+        - name: OME (verouderd)
+          items:
+            - name: Verouderde informatie voor Office 365-berichtversleuteling
+              href: legacy-information-for-message-encryption.md
+            - name: Azure Rights Management instellen voor de vorige versie van Office 365-berichtversleuteling
+              href: set-up-azure-rms-for-previous-version-message-encryption.md
+    - name: IRM instellen in het SharePoint-beheercentrum
+      href: set-up-irm-in-sp-admin-center.md
+    - name: Inzicht in gegevensclassificatie
+      href: data-classification-overview.md
+      items:
+        - name: Aan de slag met de inhoudsverkenner
+          href: data-classification-content-explorer.md
+        - name: Aan de slag met de activiteitenverkenner
+          href: data-classification-activity-explorer.md
+        - name: Opmerkingen bij de release van gegevensclassificatie
+          href: data-classification-pub-preview-relnotes.md
+        - name: Aan de slag met trainbare classificaties (preview)
+          href: classifier-getting-started-with.md
+        - name: Een ingebouwde classificatie gebruiken (preview)
+          href: classifier-using-a-ready-to-use-classifier.md
+        - name: Een classificatie maken en trainen (preview)
+          href: classifier-creating-a-trainable-classifier.md
+- name: Gegevensbeheer beheren
+  items:
+    - name: Gegevensbeheer beheren
+      href: manage-information-governance.md
+    - name: Gegevens importeren
+      items:
+        - name: Overzicht van het importeren van PST-bestanden
+          href: importing-pst-files-to-office-365.md
+        - name: PST-bestanden importeren via het netwerk
+          href: use-network-upload-to-import-pst-files.md
+        - name: PST-bestanden importeren door schijfverzending
+          href: use-drive-shipping-to-import-pst-files-to-office-365.md
+        - name: 'Gebruik het hulpprogramma voor PST-verzameling om PST-bestanden te zoeken, te kopiëren en te verwijderen.'
+          href: find-copy-and-delete-pst-files-in-your-organization.md
+        - name: Gegevens filteren bij het importeren van PST-bestanden
+          href: filter-data-when-importing-pst-files.md
+        - name: Veelgestelde vragen over het importeren van PST-bestanden
+          href: faqimporting-pst-files-to-office-365.md
+    - name: Gegevens van derden archiveren
+      items:
+        - name: Overzicht van het archiveren van gegevens van derden
+          href: archiving-third-party-data.md
+        - name: Facebook-gegevens archiveren (preview)
+          href: archive-facebook-data-with-sample-connector.md
+        - name: HR-gegevens importeren (preview)
+          href: import-hr-data.md
+        - name: Instant Bloomberg-gegevens archiveren
+          href: archive-instant-bloomberg-data.md
+        - name: LinkedIn-gegevens archiveren
+          href: archive-linkedin-data.md
+        - name: Twitter-gegevens archiveren (preview)
+          href: archive-twitter-data-with-sample-connector.md
+        - name: Werken met een partner voor het archiveren van gegevens van derden
+          href: work-with-partner-to-archive-third-party-data.md
+        - name: Gegevens van derden zoeken
+          href: use-content-search-to-search-third-party-data-that-was-imported.md
+    - name: Postvakgegevens opslaan
+      items:
+        - name: Archiveren van postvakken inschakelen
+          href: enable-archive-mailboxes.md
+        - name: Overzicht van onbeperkte archivering
+          href: unlimited-archiving.md
+        - name: Onbeperkte archivering inschakelen
+          href: enable-unlimited-archiving.md
+        - name: Een archief- en verwijderingsbeleid instellen voor postvakken
+          href: set-up-an-archive-and-deletion-policy-for-mailboxes.md
+    - name: Gegevens behouden
+      items:
+        - name: Overzicht van bewaarbeleid
+          href: retention-policies.md
+        - name: Bewaarbeleid maken en configureren
+          href: create-retention-policies.md
+        - name: Retentie voor SharePoint en OneDrive
+          href: retention-policies-sharepoint.md
+        - name: Retentie voor Microsoft Teams
+          href: retention-policies-teams.md
+        - name: Retentie voor Exchange
+          href: retention-policies-exchange.md
+        - name: Bestandsplan
+          href: file-plan-manager.md
+        - name: Meer informatie over retentielabels
+          href: labels.md
+        - name: 'Retentielabels maken, publiceren en automatisch toepassen'
+          href: create-retention-labels.md
+        - name: Voldoen aan SEC Rule 17a-4
+          href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
+        - name: PowerShell gebruiken om retentielabels te maken en publiceren
+          href: bulk-create-publish-labels-using-powershell.md
+        - name: Retentie op basis van gebeurtenissen
+          href: event-driven-retention.md
+        - name: Retentie op basis van gebeurtenissen automatiseren
+          href: automate-event-driven-retention.md
+        - name: De levenscyclus van SharePoint-documenten beheren
+          href: auto-apply-retention-labels-scenario.md
+    - name: Gegevens verwijderen
+      href: disposition.md
+    - name: Inactieve postvakken beheren
+      items:
+        - name: Overzicht van inactieve postvakken
+          href: inactive-mailboxes-in-office-365.md
+        - name: Inactieve postvakken maken en beheren
+          href: create-and-manage-inactive-mailboxes.md
+        - name: De duur van bewaring van een inactief postvak wijzigen
+          href: change-the-hold-duration-for-an-inactive-mailbox.md
+        - name: Een inactief postvak herstellen
+          href: recover-an-inactive-mailbox.md
+        - name: Een inactief postvak terugzetten
+          href: restore-an-inactive-mailbox.md
+        - name: Een inactief postvak verwijderen
+          href: delete-an-inactive-mailbox.md
+    - name: Gegevensbeheer controleren
+      items:
+        - name: Labelactiviteit voor documenten weergeven
+          href: view-label-activity-for-documents.md
+        - name: Gebruik van labels weergeven met labelanalyse
+          href: label-analytics.md
+        - name: De gegevensbeheerrapporten weergeven
+          href: view-the-data-governance-reports.md
+    - name: Meer informatie over gegevensbeheer
+      items:
+        - name: Video's bekijken van het team van Microsoft-gegevensbeheer
+          href: 'https://go.microsoft.com/fwlink/?linkid=867039'
+    - name: Records Management
+      items:
+        - name: Records Management
+          href: records-management.md
+        - name: Records
+          href: records.md
+        - name: Bestandsplan
+          items:
+            - name: Retentielabels beheren
+              href: file-plan-manager.md
+            - name: Meer informatie over retentielabels
+              href: labels.md
+            - name: Retentielabels maken en publiceren
+              href: create-retention-labels.md
+            - name: PowerShell gebruiken om retentielabels op schaal te maken en publiceren
+              href: bulk-create-publish-labels-using-powershell.md
+            - name: Gebruik van labels weergeven met labelanalyse
+              href: label-analytics.md
+            - name: Labelactiviteit voor documenten weergeven
+              href: view-label-activity-for-documents.md
+            - name: De gegevensbeheerrapporten weergeven
+              href: view-the-data-governance-reports.md
+        - name: Gebeurtenissen
+          items:
+            - name: Retentie op basis van gebeurtenissen
+              href: event-driven-retention.md
+            - name: Retentie op basis van gebeurtenissen automatiseren
+              href: automate-event-driven-retention.md
+        - name: Verwijdering
+          href: disposition.md
+        - name: Meer informatie over Records Management
+          items:
+            - name: Video's bekijken over Records Management
+              href: 'https://go.microsoft.com/fwlink/?linkid=867039'
+- name: eDiscovery beheren
+  items:
+    - name: eDiscovery in Microsoft 365
+      href: ediscovery.md
+    - name: Inhoud zoeken
+      items:
+        - name: Overzicht van inhoud zoeken
+          href: search-for-content.md
+        - name: Het gebruik van inhoud zoeken
+          href: content-search.md
+          items:
+            - name: Trefwoordquery's en zoekvoorwaarden
+              href: keyword-queries-and-search-conditions.md
+            - name: Trefwoordstatistieken voor zoekresultaten weergeven
+              href: view-keyword-statistics-for-content-search.md
+            - name: Zoekresultaten exporteren
+              href: export-search-results.md
+            - name: Een zoekrapport exporteren
+              href: export-a-content-search-report.md
+            - name: Zoekresultaten downloaden met Microsoft Edge
+              href: configure-edge-to-export-search-results.md
+            - name: E-mailberichten zoeken en verwijderen
+              href: search-for-and-delete-messages-in-your-organization.md
+            - name: Zoeken in cloudpostvakken van on-premises gebruikers
+              href: search-cloud-based-mailboxes-for-on-premises-users.md
+            - name: Meerdere inhoudzoekacties bulksgewijs bewerken
+              href: bulk-edit-content-searches.md
+            - name: Een CSV-bestand voorbereiden voor het zoeken naar een lijst met id's
+              href: csv-file-for-an-id-list-content-search.md
+            - name: De zoekquery controleren op fouten
+              href: check-your-content-search-query-for-errors.md
+            - name: Veelvoorkomende problemen met eDiscovery oplossen
+              href: ediscovery-troubleshooting-common-issues.md
+            - name: Een mislukte zoekactie opnieuw uitvoeren
+              href: retry-failed-content-search.md
+            - name: BCC-geadresseerden voor zoekacties behouden
+              href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
+        - name: Inhoud zoeken configureren
+          items:
+            - name: Filtering van machtigingen voor inhoud zoeken configureren
+              href: permissions-filtering-for-content-search.md
+            - name: De downloadsnelheid vergroten bij het exporteren van zoekresultaten
+              href: increase-download-speeds-when-exporting-ediscovery-results.md
+            - name: De grootte van PST-bestanden wijzigen bij het exporteren van zoekresultaten
+              href: change-the-size-of-pst-files-when-exporting-results.md
+            - name: Rapporten uitschakelen bij het exporteren van zoekresultaten
+              href: disable-reports-when-you-export-content-search-results.md
+        - name: Inzicht in inhoud zoeken
+          items:
+            - name: Limieten voor inhoud zoeken
+              href: limits-for-content-search.md
+            - name: Gedeeltelijk geïndexeerde items
+              href: partially-indexed-items-in-content-search.md
+            - name: Gedeeltelijk geïndexeerde items onderzoeken
+              href: investigating-partially-indexed-items-in-ediscovery.md
+            - name: Duplicaten verwijderen in zoekresultaten
+              href: de-duplication-in-ediscovery-search-results.md
+            - name: Verschillen tussen geschatte en werkelijke zoekresultaten
+              href: differences-between-estimated-and-actual-ediscovery-search-results.md
+        - name: PowerShell-scripts voor inhoud zoeken uitvoeren
+          items:
+            - name: Inhoud zoeken gebruiken voor doelgerichte verzamelingen
+              href: use-content-search-for-targeted-collections.md
+            - name: Het postvak en het OneDrive-account doorzoeken voor een lijst met gebruikers
+              href: search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md
+            - name: 'Meerdere zoekacties maken, rapporteren en verwijderen'
+              href: create-report-on-and-delete-multiple-content-searches.md
+            - name: Een zoekactie klonen
+              href: clone-a-content-search.md
+    - name: Core eDiscovery
+      items:
+        - name: Aan de slag met Core eDiscovery
+          href: get-started-core-ediscovery.md
+        - name: eDiscovery-bewaringen maken
+          href: create-ediscovery-holds.md
+        - name: Inhoud zoeken in een case
+          href: search-for-content-in-core-ediscovery.md
+        - name: Inhoud exporteren uit een case
+          href: export-content-in-core-ediscovery.md
+        - name: 'Een case sluiten, opnieuw openen en verwijderen'
+          href: close-reopen-delete-core-ediscovery-cases.md
+        - name: Core eDiscovery-verwijzing
+          items:
+            - name: eDiscovery-machtigingen toewijzen
+              href: assign-ediscovery-permissions.md
+            - name: Trefwoordquery's en zoekvoorwaarden
+              href: keyword-queries-and-search-conditions.md
+            - name: Filtering van zoekmachtigingen configureren
+              href: permissions-filtering-for-content-search.md
+            - name: Compliancegrenzen instellen
+              href: set-up-compliance-boundaries.md
+            - name: Een script gebruiken om gebruikers toe te voegen aan een eDiscovery-bewaring
+              href: use-a-script-to-add-users-to-a-hold-in-ediscovery.md
+            - name: Een rapport maken over eDiscovery-bewaringen
+              href: create-a-report-on-holds-in-ediscovery-cases.md
+            - name: Een zoekrapport exporteren
+              href: export-a-content-search-report.md
+            - name: Trefwoordstatistieken voor zoekresultaten weergeven
+              href: view-keyword-statistics-for-content-search.md
+            - name: Zoekresultaten voorbereiden voor Advanced eDiscovery (klassiek)
+              href: prepare-search-results-for-advanced-ediscovery.md
+            - name: Gelekte gegevens zoeken en opschonen
+              href: data-spillage-scenariosearch-and-purge.md
+            - name: BCC-geadresseerden voor zoekacties behouden
+              href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
+            - name: Veelvoorkomende problemen met eDiscovery oplossen
+              href: ediscovery-troubleshooting-common-issues.md
+            - name: Een mislukte zoekactie opnieuw uitvoeren
+              href: retry-failed-content-search.md
+            - name: Zoekresultaten downloaden met Microsoft Edge
+              href: configure-edge-to-export-search-results.md
+    - name: Advanced eDiscovery
+      items:
+        - name: Overzicht van Advanced eDiscovery
+          href: overview-ediscovery-20.md
+        - name: Aan de slag met Advanced eDiscovery
+          href: get-started-with-advanced-ediscovery.md
+        - name: Werken met beheerders
+          href: managing-custodians.md
+          items:
+            - name: Beheerders toevoegen aan een case
+              href: add-custodians-to-case.md
+            - name: Beheerders beheren
+              href: manage-new-custodians.md
+            - name: Activiteit van beheerders weergeven
+              href: view-custodian-activity.md
+        - name: Werken met communicatie
+          href: managing-custodian-communications.md
+          items:
+            - name: Een bewaringsmelding maken
+              href: create-hold-notification.md
+            - name: De communicatie editor gebruiken
+              href: using-communications-editor.md
+            - name: Bewaringsmeldingen beheren
+              href: manage-hold-notification.md
+            - name: Een bewaringsmelding bevestigen
+              href: acknowledge-hold-notification.md
+        - name: Bewaringen beheren
+          href: managing-holds.md
+        - name: Werken met verwerkingsfouten
+          href: processing-data-for-case.md
+          items:
+            - name: Geavanceerde indexering van beheerdersgegevens
+              href: indexing-custodian-data.md
+            - name: Foutherstel bij het verwerken van gegevens
+              href: error-remediation-when-processing-data-in-advanced-ediscovery.md
+            - name: Foutherstel voor één item
+              href: single-item-error-remediation.md
+        - name: Gegevens verzamelen voor een case
+          href: collecting-data-for-ediscovery.md
+          items:
+            - name: Een zoekactie maken
+              href: create-search-to-collect-data.md
+            - name: Zoekacties
+              href: building-search-queries.md
+            - name: Trefwoordquery's en zoekvoorwaarden
+              href: keyword-queries-and-search-conditions.md
+            - name: Zoekstatistieken
+              href: search-statistics.md
+            - name: Zoekresultaten toevoegen aan een controleset
+              href: add-data-to-review-set.md
+        - name: Controlesets beheren
+          href: managing-review-sets.md
+          items:
+            - name: Niet-Office 365-gegevens laden in een controleset
+              href: load-non-Office-365-data-into-a-review-set.md
+            - name: Gegevens toevoegen aan een andere controleset
+              href: add-data-to-review-set-from-another-review-set.md
+        - name: Casegegevens controleren
+          items:
+            - name: Het dashboard voor controlesets gebruiken (preview)
+              href: advanced-ediscovery-dashboard.md
+            - name: Documenten weergeven in een controleset
+              href: view-documents-in-review-set.md
+            - name: Een query uitvoeren op de gegevens in een controleset
+              href: review-set-search.md
+            - name: Documenten taggen in een controleset
+              href: tagging-documents.md
+        - name: Casegegevens analyseren
+          href: analyzing-data-in-review-set.md
+          items:
+            - name: Detectie van bijna-duplicaten
+              href: near-duplicate-detection-in-advanced-ediscovery.md
+            - name: E-mailthreads
+              href: email-threading-in-advanced-ediscovery.md
+            - name: Thema's
+              href: themes-in-advanced-ediscovery.md
+            - name: De relevantiemodule gebruiken om gegevens te analyseren
+              href: using-relevance.md
+        - name: Casegegevens exporteren
+          href: exporting-data-ediscover20.md
+          items:
+            - name: Documenten exporteren vanuit een controleset
+              href: export-documents-from-review-set.md
+            - name: Exporttaken downloaden
+              href: download-export-jobs.md
+        - name: Taken beheren
+          href: managing-jobs-ediscovery20.md
+        - name: Case-instellingen configureren
+          items:
+            - name: Een case sluiten of verwijderen
+              href: close-or-delete-case.md
+            - name: Leden toevoegen aan of verwijderen uit een case
+              href: add-or-remove-members-from-a-case-in-advanced-ediscovery.md
+            - name: Instellingen voor zoeken en analyseren configureren
+              href: configure-search-and-analytics-settings-in-advanced-ediscovery.md
+        - name: Advanced eDiscovery-verwijzing
+          items:
+            - name: Limieten voor Advanced eDiscovery
+              href: limits-ediscovery20.md
+            - name: Ondersteunde bestandstypen
+              href: supported-filetypes-ediscovery20.md
+            - name: Velden voor metagegevens van documenten
+              href: document-metadata-fields-in-advanced-ediscovery.md
+            - name: Detectie van advocaat/cliënt-bevoegdheid instellen
+              href: attorney-privilege-detection.md
+            - name: Gesprekscontrolesets
+              href: conversation-review-sets.md
+            - name: eDiscovery-machtigingen toewijzen
+              href: assign-ediscovery-permissions.md
+            - name: Trefwoordquery's en zoekvoorwaarden
+              href: keyword-queries-and-search-conditions.md
+            - name: Filtering van zoekmachtigingen configureren
+              href: permissions-filtering-for-content-search.md
+            - name: Compliancegrenzen instellen
+              href: set-up-compliance-boundaries.md
+            - name: Problemen met AzCopy oplossen
+              href: troubleshooting-azcopy.md
+    - name: Advanced eDiscovery (klassiek)
+      items:
+        - name: Overzicht van Advanced eDiscovery (klassiek)
+          href: office-365-advanced-ediscovery.md
+        - name: Aan de slag met Advanced eDiscovery (klassiek)
+          href: quick-setup-for-advanced-ediscovery.md
+        - name: Cases instellen
+          href: set-up-users-and-cases-in-advanced-ediscovery.md
+          items:
+            - name: Problemen voor een case definiëren
+              href: define-issues-and-assign-users.md
+        - name: Casegegevens verzamelen
+          items:
+            - name: Zoekresultaten voorbereiden
+              href: prepare-search-results-for-advanced-ediscovery.md
+            - name: Gegevens laden in een case
+              href: prepare-data-for-advanced-ediscovery.md
+            - name: Niet-Office 365-inhoud importeren in een case
+              href: import-non-office-365-data-into-advanced-ediscovery.md
+        - name: Casegegevens verwerken
+          href: run-the-process-module-in-advanced-ediscovery.md
+          items:
+            - name: De procesmodule uitvoeren en gegevens laden
+              href: run-the-process-module-and-load-data-in-advanced-ediscovery.md
+            - name: Resultaten van procesmodule weergeven
+              href: view-process-module-results-in-advanced-ediscovery.md
+        - name: Casegegevens controleren
+          items:
+            - name: Casegegevens zoeken en taggen
+              href: search-and-tagging.md
+            - name: Besluiten nemen over de controleset
+              href: decision-based-on-the-results-in-advanced-ediscovery.md
+        - name: Casegegevens analyseren
+          href: analyze-case-data-with-advanced-ediscovery.md
+          items:
+            - name: Expresanalyse uitvoeren
+              href: use-express-analysis-in-advanced-ediscovery.md
+            - name: Overzicht van documentovereenkomstigheid (bijna-duplicaten)
+              href: understand-document-similarity-in-advanced-ediscovery.md
+            - name: De resultaten van de analyse weergeven
+              href: view-analyze-results-in-advanced-ediscovery.md
+        - name: De relevantiemodule gebruiken
+          href: use-relevance-in-advanced-ediscovery.md
+          items:
+            - name: Overzicht van de relevantie-evaluatie
+              href: assessment-in-relevance-in-advanced-ediscovery.md
+            - name: Relevantie-evaluatie en -tagging uitvoeren
+              href: tagging-and-assessment-in-advanced-ediscovery.md
+            - name: Relevantietraining instellen
+              href: manage-relevance-setup-in-advanced-ediscovery.md
+            - name: Relevantietraining en -tagging uitvoeren
+              href: tagging-and-relevance-training-in-advanced-ediscovery.md
+            - name: Het proces voor relevantietraining bijhouden
+              href: track-relevance-analysis-in-advanced-ediscovery.md
+            - name: De resultaten van de relevantieanalyse testen
+              href: test-relevance-analysis-in-advanced-ediscovery.md
+            - name: Aanvullende gegevens voor relevantietraining laden
+              href: set-up-loads-to-add-imported-files.md
+        - name: Casegegevens exporteren
+          href: export-case-data-in-advanced-ediscovery.md
+          items:
+            - name: Gegevens exporteren
+              href: export-results-in-advanced-ediscovery.md
+            - name: Rapportvelden exporteren
+              href: export-report-fields-in-advanced-ediscovery.md
+            - name: Batchgeschiedenis weergeven en eerdere resultaten exporteren
+              href: view-batch-history-and-export-past-results.md
+        - name: Advanced eDiscovery (klassiek) configureren
+          items:
+            - name: Case- en organisatie-instellingen configureren
+              href: define-case-and-tenant-settings-in-advanced-ediscovery.md
+            - name: Analyse-instellingen configureren
+              href: set-analyze-options-in-advanced-ediscovery.md
+            - name: Instellingen voor tekst negeren configureren
+              href: set-ignore-text-in-advanced-ediscovery.md
+            - name: Gemarkeerde trefwoorden en andere relevantie-instellingen configureren
+              href: define-highlighted-keywords-and-advanced-options.md
+        - name: Advanced eDiscovery (klassiek)-verwijzing
+          items:
+            - name: Advanced eDiscovery (klassiek)-hulpprogramma's configureren
+              href: use-advanced-ediscovery-utilities.md
+            - name: Rapporten uitvoeren
+              href: run-reports-in-advanced-ediscovery.md
+    - name: Buitengebruikstelling van verouderde eDiscovery-hulpprogramma's
+      href: legacy-ediscovery-retirement.md
+- name: Gegevensonderzoeken beheren
+  items:
+    - name: Overzicht van gegevensonderzoeken
+      href: overview-data-investigations.md
+    - name: Een gegevenslekincident beheren
+      href: manage-data-spillage-incidents.md
+    - name: Machtigingen toewijzen voor gegevensonderzoeken
+      href: data-investigations-permissions.md
+    - name: Een nieuw onderzoek maken
+      href: create-new-investigation.md
+    - name: Gegevens zoeken in een onderzoek
+      href: search-for-data.md
+      items:
+        - name: Zoekacties
+          href: build-search-queries.md
+        - name: Zoekstatistieken
+          href: search-statistics.md
+    - name: Gegevens in bewijsmateriaal controleren
+      href: review-data-in-evidence.md
+      items:
+        - name: Query's uitvoeren op de gegevens
+          href: evidence-query.md
+        - name: Documenten taggen
+          href: tag-documents.md
+        - name: Documenten annoteren en redigeren
+          href: annotate-and-redact-documents.md
+        - name: Niet-Office 365-gegevens laden
+          href: load-non-office365-data.md
+        - name: Foutherstel bij het verwerken van gegevens
+          href: error-remediation.md
+        - name: Items verwijderen uit de oorspronkelijke locatie
+          href: delete-items-from-original-locations.md
+    - name: Analyse uitvoeren voor sneller onderzoek
+      href: run-analytics-to-investigate-faster.md
+      items:
+        - name: E-mailthreads
+          href: email-threading.md
+        - name: Detectie van bijna-duplicaten
+          href: near-duplicates.md
+        - name: Thema's
+          href: themes.md
+        - name: De relevantiemodule gebruiken
+          href: use-relevance-module.md
+    - name: Interessante personen beheren in een onderzoek
+      href: manage-people-of-interest.md
+      items:
+        - name: De gegevens van personen in een onderzoek indexeren
+          href: index-data-people-of-interest.md
+        - name: De controleactiviteit van personen in een onderzoek weergeven
+          href: view-people-of-interest-activity.md
+    - name: Gegevens exporteren uit een onderzoek
+      href: export-data.md
+      items:
+        - name: Documenten exporteren uit bewijsmateriaal
+          href: export-documents-from-incident.md
+        - name: Exporttaken downloaden
+          href: download-export-jobs-from-a-data-investigation.md
+    - name: Onderzoeksinstellingen configureren
+      items:
+        - name: Leden toevoegen aan of verwijderen uit een onderzoek
+          href: add-remove-members.md
+        - name: Instellingen voor zoeken en analyseren configureren
+          href: configure-search-analytics-settings.md
+        - name: Een onderzoek sluiten of verwijderen
+          href: close-or-delete-investigation.md
+    - name: Gegevensonderzoekverwijzing
+      items:
+        - name: Opmerkingen bij de release
+          href: data-investigations-release-notes.md
+        - name: Limieten in gegevensonderzoeken
+          href: limits-datainvestigations.md
+        - name: Ondersteunde bestandstypen
+          href: supported-filetypes-datainvestigations.md
+        - name: Velden voor metagegevens van documenten
+          href: document-metadata-fields.md
+        - name: Taken beheren
+          href: manage-jobs.md
+- name: Bewaringen beheren
+  items:
+    - name: Het type bewaring voor een postvak identificeren
+      href: identify-a-hold-on-an-exchange-online-mailbox.md
+    - name: Een bewaring vanwege juridische procedure maken
+      href: create-a-litigation-hold.md
+    - name: Items verwijderen uit de map Herstelbare items van postvakken in bewaring
+      href: delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md
+    - name: De quota verhogen voor herstelbare items voor postvakken in bewaring
+      href: increase-the-recoverable-quota-for-mailboxes-on-hold.md
+    - name: Ontvangers van BCC-en uitgebreide distributiegroepen behouden
+      href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
+- name: Controle- en waarschuwingsbeleid beheren
+  items:
+    - name: Geïntegreerde controle
+      items:
+        - name: Zoeken in het auditlogboek
+          href: search-the-audit-log-in-security-and-compliance.md
+        - name: Zoeken in auditlogboeken in- of uitschakelen
+          href: turn-audit-log-search-on-or-off.md
+        - name: Gedetailleerde eigenschappen in het auditlogboek
+          href: detailed-properties-in-the-office-365-audit-log.md
+        - name: 'Auditlogboekrecords exporteren, configureren en weergeven'
+          href: export-view-audit-log-records.md
+        - name: Het auditlogboek gebruiken om veelvoorkomende problemen te onderzoeken
+          href: auditing-troubleshooting-scenarios.md
+        - name: Controle delen gebruiken in het auditlogboek
+          href: use-sharing-auditing.md
+        - name: Zoeken naar eDiscovery-activiteiten in het auditlogboek
+          href: search-for-ediscovery-activities-in-the-audit-log.md
+    - name: Postvakcontrole
+      href: enable-mailbox-auditing.md
+    - name: Geavanceerde controle
+      items:
+        - name: Overzicht van geavanceerde controle
+          href: advanced-audit.md
+        - name: Bewaarbeleid voor auditlogboek beheren
+          href: audit-log-retention-policies.md
+        - name: Geavanceerde controle gebruiken om verdachte accounts te onderzoeken
+          href: mailitemsaccessed-forensics-investigations.md
+    - name: Waarschuwingsbeleid
+      href: alert-policies.md
+- name: Compliancerisico's beheren
+  items:
+    - name: Microsoft Service Trust Portal
+      href: get-started-with-service-trust-portal.md
+    - name: Compliancescore en compliancebeheer
+      items:
+        - name: Compliancescore (preview)
+          href: compliance-score.md
+        - name: Compliancescore (preview) instellen
+          href: compliance-score-setup.md
+        - name: Werken met compliancescore (preview)
+          href: working-with-compliance-score.md
+        - name: Berekening van compliancescore (preview)
+          href: compliance-score-methodology.md
+        - name: Opmerkingen bij de release van compliancescore (preview)
+          href: compliance-score-release-notes.md
+        - name: Veelgestelde vragen over compliancescore (preview)
+          href: compliance-score-faq.md
+        - name: Compliancebeheer (preview)
+          href: compliance-manager-overview.md
+          items:
+            - name: Wat is er nieuw in compliancebeheer (preview)
+              href: compliance-manager-release-notes.md
+            - name: Werken met compliancebeheer (preview)
+              href: working-with-compliance-manager.md
+            - name: Compliancebeheer (klassiek)
+              href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
+    - name: Hulpprogramma voor AVG-verzoeken van betrokkenen
+      href: manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md
+    - name: Office 365 Information Protection voor de AVG
+      href: office-365-information-protection-for-gdpr.md
+      items:
+        - name: 'Overzicht: Office 365 Protection voor de AVG'
+          href: office-365-info-protection-for-gdpr-overview.md
+        - name: Persoonsgegevens zoeken en vinden
+          href: search-for-and-find-personal-data.md
+        - name: Nieuwe typen gevoelige informatie aanpassen of maken voor de AVG
+          href: customize-or-create-a-new-sensitive-information-type.md
+        - name: Een classificatieschema voor een persoonlijk plan ontwerpen
+          href: architect-a-classification-schema-for-personal-data.md
+        - name: Labels toepassen op persoonsgegevens in Office 365
+          href: apply-labels-to-personal-data-in-office-365.md
+        - name: Beveiliging toepassen op persoonsgegevens in Office 365
+          href: apply-protection-to-personal-data-in-office-365.md
+        - name: Office 365 AVG dev/test-omgeving
+          href: gdpr-discovery-protection-reporting-in-office365-dev-test-environment.md
+    - name: AVG voor on-premises Office-servers
+      href: gdpr-for-office-servers.md
+      items:
+        - name: AVG voor SharePoint Server
+          href: gdpr-for-sharepoint-server.md
+        - name: AVG voor Exchange Server
+          href: gdpr-for-exchange-server.md
+        - name: AVG voor Skype voor Bedrijven Server en Lync Server
+          href: gdpr-for-skype-for-business-server.md
+        - name: AVG voor Project Server
+          href: gdpr-for-project-server.md
+        - name: AVG voor Office Web Apps Server en Office Online Server
+          href: gdpr-for-office-online-server.md
+        - name: AVG voor on-premises Windows Server-bestandsshares
+          href: gdpr-for-on-premises-file-shares.md
+    - name: Branchespecifieke richtlijnen
+      items:
+        - name: Beveiliging en compliance voor financiële dienstverlening
+          href: ../solutions/financial-services-secure-collaboration.md
+        - name: Beveiliging en compliance voor energieservices
+          href: ../solutions/energy-secure-collaboration.md
+- name: Actieplannen voor wettelijke compliance
+  items:
+    - name: ISO - Aanbevolen actieplan
+      href: iso-action-plan.md
+    - name: NIST - Aanbevolen actieplan
+      href: nist-action-plan.md
+    - name: CCPA - Veelgestelde vragen
+      href: ccpa-faq.md
+    - name: AVG
+      href: gdpr.md
+      items:
+        - name: Aanbevolen actieplan voor AVG
+          href: gdpr-action-plan.md
+        - name: Controlelijsten voor verantwoordelijkheidsgereedheid
+          items:
+            - name: Controlelijsten voor verantwoordelijkheidsgereedheid
+              href: gdpr-arc.md
+            - name: Azure
+              href: gdpr-arc-azure.md
+            - name: Dynamics 365
+              href: gdpr-arc-dynamics365.md
+            - name: Microsoft Support & Professional Services
+              href: gdpr-arc-prof-services.md
+            - name: Office 365
+              href: gdpr-arc-office365.md
+        - name: Verzoeken van betrokkenen
+          items:
+            - name: Verzoeken van betrokkenen
+              href: gdpr-data-subject-requests.md
+            - name: Azure
+              href: gdpr-dsr-azure.md
+            - name: Azure DevOps Services
+              href: gdpr-dsr-vsts.md
+            - name: Dynamics 365
+              href: gdpr-dsr-dynamics365.md
+            - name: Intune
+              href: gdpr-dsr-intune.md
+            - name: Microsoft Support & Professional Services
+              href: gdpr-dsr-prof-services.md
+            - name: Office 365
+              href: gdpr-dsr-office365.md
+            - name: Visual Studio-familie
+              href: gdpr-dsr-visual-studio-family.md
+        - name: Melding van schending
+          items:
+            - name: Melding van schending
+              href: gdpr-breach-notification.md
+            - name: Azure en Dynamics 365
+              href: gdpr-breach-azure-dynamics.md
+            - name: Microsoft Support & Professional Services
+              href: gdpr-breach-microsoft-support-professional-services.md
+            - name: Office 365
+              href: gdpr-breach-office365.md
+        - name: Gegevensbeschermingseffectbeoordeling
+          items:
+            - name: Gegevensbeschermingseffectbeoordeling
+              href: gdpr-data-protection-impact-assessments.md
+            - name: Azure
+              href: gdpr-dpia-azure.md
+            - name: Dynamics 365
+              href: gdpr-dpia-dynamics.md
+            - name: Microsoft Support & Professional Services
+              href: gdpr-dpia-prof-services.md
+            - name: Office 365
+              href: gdpr-dpia-office365.md
+        - name: Informatiebescherming
+          href: gdpr-information-protection.md
+        - name: Microsoft-functionaris voor gegevensbescherming
+          href: gdpr-data-protection-officer.md
+        - name: Aanvullende stappen voor het exporteren van door het systeem gegenereerde logboekgegevens
+          href: gdpr-system-generated-log-data.md
+- name: Mogelijkheden voor hybride compliance
+  items:
+    - name: Exchange Online-e-mailversleuteling met AD RMS
+      href: information-rights-management-in-exchange-online.md
+      items:
+        - name: IRM configureren voor gebruik van een on-premises AD RMS-server
+          href: configure-irm-to-use-an-on-premises-ad-rms-server.md
+- name: Complianceopties
+  items:
+    - name: Microsoft complianceopties
+      href: offering-home.md
+    - name: Wereldwijd
+      items:
+        - name: CIS Benchmark
+          href: offering-cis-benchmark.md
+        - name: CSA-STAR-attest
+          href: offering-csa-star-attestation.md
+        - name: CSA-STAR-certificering
+          href: offering-csa-star-certification.md
+        - name: CSA-STAR-zelfevaluatie
+          href: offering-csa-star-self-assessment.md
+        - name: ISO 20000-1-2011
+          href: offering-iso-20000-1-2011.md
+        - name: ISO 22301
+          href: offering-iso-22301.md
+        - name: ISO 27001
+          href: offering-iso-27001.md
+        - name: ISO 27017
+          href: offering-iso-27017.md
+        - name: ISO 27018
+          href: offering-iso-27018.md
+        - name: ISO 27701
+          href: offering-iso-27701.md
+        - name: ISO-9001
+          href: offering-iso-9001.md
+        - name: SOC
+          href: offering-soc.md
+        - name: WCAG
+          href: offering-wcag-2-1.md
+    - name: US Government
+      items:
+        - name: CJIS
+          href: offering-cjis.md
+        - name: CNSSI 1253
+          href: offering-cnssi-1253.md
+        - name: DFARS
+          href: offering-dfars.md
+        - name: 'DoD DISA L2,L4,L5'
+          href: offering-dod-disa-l2-l4-l5.md
+        - name: DoE 10 CFR Part 810
+          href: offering-doe-10-cfr-part-810.md
+        - name: EAR (US Export Admin. Reg.)
+          href: offering-ear.md
+        - name: FedRamp
+          href: offering-fedramp.md
+        - name: FIPS 140-2
+          href: offering-fips-140-2.md
+        - name: IRS 1075
+          href: offering-irs-1075.md
+        - name: ITAR
+          href: offering-itar.md
+        - name: NIST 800-171
+          href: offering-nist-sp-800-171.md
+        - name: NIST CSF
+          href: offering-nist-csf.md
+        - name: Section 508 VPATS
+          href: offering-section-508-vpats.md
+    - name: Branche
+      items:
+        - name: Onderwijs
+          items:
+            - name: FERPA
+              href: offering-ferpa.md
+        - name: Energie
+          items:
+            - name: NERC
+              href: offering-nerc-cip.md
+        - name: Financieel
+          items:
+            - name: 23 NYCRR Part 500
+              href: offering-23-nycrr-part-500.md
+            - name: AFM + DNB (Nederland)
+              href: offering-afm-dnb-netherlands.md
+            - name: APRA (Australië)
+              href: offering-apra-australia.md
+            - name: AMF en ACPR (Frankrijk)
+              href: offering-amf-acpr-france.md
+            - name: EBA (EU)
+              href: offering-eba-eu.md
+            - name: FCA (VK)
+              href: offering-fca-uk.md
+            - name: FFIEC (VS)
+              href: offering-ffiec-us.md
+            - name: FINMA (Zwitserland)
+              href: offering-finma-switzerland.md
+            - name: FINRA 4511
+              href: offering-finra-4511.md
+            - name: FISC (Japan)
+              href: offering-fisc-japan.md
+            - name: FSA (Denemarken)
+              href: offering-fsa-denmark.md
+            - name: GLBA
+              href: offering-glba.md
+            - name: KNF (Polen)
+              href: offering-knf-poland.md
+            - name: MAS + ABS (Singapore)
+              href: offering-mas-abs-singapore.md
+            - name: NBB + FSMA (België)
+              href: offering-nbb-fsma-belgium.md
+            - name: OSFI (Canada)
+              href: offering-osfi-canada.md
+            - name: PCI DSS
+              href: offering-pci-dss.md
+            - name: RBI + IRDAI (India)
+              href: offering-rbi-irdai-india.md
+            - name: SEC 17a-4
+              href: offering-sec-17a-4.md
+            - name: SEC Regulation SCI
+              href: offering-sec-reg-sci.md
+            - name: SOC
+              href: offering-soc.md
+            - name: SOX
+              href: offering-sox.md
+            - name: TruSight
+              href: offering-trusight.md
+        - name: Gezondheid
+          items:
+            - name: HDS (Frankrijk)
+              href: offering-hds-france.md
+            - name: HIPAA/HITECH
+              href: offering-hipaa-hitech.md
+            - name: HITRUST
+              href: offering-hitrust.md
+            - name: MARS-E
+              href: offering-mars-e.md
+            - name: NEN-7510 (Nederland)
+              href: offering-nen-7510-netherlands.md
+        - name: Productie
+          items:
+            - name: FDA CFR Title 21 Part 11
+              href: offering-fda-cfr-title-21-part-11.md
+            - name: GxP
+              href: offering-gxp.md
+            - name: TISAX (Duitsland)
+              href: offering-tisax-germany.md
+        - name: Media
+          items:
+            - name: CDSA
+              href: offering-cdsa.md
+            - name: DPP (VK)
+              href: offering-dpp-uk.md
+            - name: FACT (VK)
+              href: offering-fact-uk.md
+            - name: MPAA
+              href: offering-mpaa.md
+        - name: Detailhandel
+          items:
+            - name: 23 NYCRR Part 500
+              href: offering-23-nycrr-part-500.md
+            - name: AFM + DNB (Nederland)
+              href: offering-afm-dnb-netherlands.md
+            - name: AMF en ACPR (Frankrijk)
+              href: offering-amf-acpr-france.md
+            - name: CDSA
+              href: offering-cdsa.md
+            - name: CIS Benchmark
+              href: offering-cis-benchmark.md
+            - name: CSA-STAR-attest
+              href: offering-csa-star-attestation.md
+            - name: DoE 10 CFR Part 810
+              href: offering-doe-10-cfr-part-810.md
+            - name: DPP (VK)
+              href: offering-dpp-uk.md
+            - name: EAR (US Export Admin. Reg.)
+              href: offering-ear.md
+            - name: ENISA IAF (EU)
+              href: offering-enisa.md
+            - name: EU-modelclausules
+              href: offering-eu-model-clauses.md
+            - name: EBA (EU)
+              href: offering-eba-eu.md
+            - name: EU U.S. Privacy Shield
+              href: offering-eu-us-privacy-shield.md
+            - name: FACT (VK)
+              href: offering-fact-uk.md
+            - name: FCA (VK)
+              href: offering-fca-uk.md
+            - name: FFIEC (VS)
+              href: offering-ffiec-us.md
+            - name: FINMA (Zwitserland)
+              href: offering-finma-switzerland.md
+            - name: AVG (EU)
+              href: gdpr.md
+            - name: GLBA
+              href: offering-glba.md
+            - name: HITRUST
+              href: offering-hitrust.md
+            - name: IRS 1075
+              href: offering-irs-1075.md
+            - name: ISO 27018
+              href: offering-iso-27018.md
+            - name: ISO-9001
+              href: offering-iso-9001.md
+            - name: ITAR
+              href: offering-itar.md
+            - name: KNF (Polen)
+              href: offering-knf-poland.md
+            - name: MARS-E
+              href: offering-mars-e.md
+            - name: MPAA
+              href: offering-mpaa.md
+            - name: NBB + FSMA (België)
+              href: offering-nbb-fsma-belgium.md
+            - name: NIST CSF
+              href: offering-nist-csf.md
+            - name: PCI DSS
+              href: offering-pci-dss.md
+            - name: Section 508 VPATS
+              href: offering-section-508-vpats.md
+            - name: Gedeelde evaluaties
+              href: offering-shared-assessments.md
+            - name: SOC
+              href: offering-soc.md
+            - name: LOPD (Spanje)
+              href: offering-lopd-spain.md
+            - name: Cyber Essentials Plus (VK)
+              href: offering-cyber-essentials-plus-uk.md
+            - name: G-Cloud (VK)
+              href: offering-g-cloud-uk.md
+    - name: Regionaal
+      items:
+        - name: Azië
+          items:
+            - name: CS Mark (Gold) (Japan))
+              href: offering-cs-mark-gold-japan.md
+            - name: DJCP (China)
+              href: 'https://www.trustcenter.cn/compliance/default.html#DJCP'
+            - name: GB 18030 (China)
+              href: 'https://www.trustcenter.cn/compliance/default.html#GB18030'
+            - name: ISMS (Korea)
+              href: offering-ISMS-korea.md
+            - name: MeitY (India)
+              href: offering-meity-india.md
+            - name: MTCS (Singapore)
+              href: offering-mtcs-singapore.md
+            - name: My Number (Japan)
+              href: offering-my-number-act-japan.md
+            - name: TRUCS (China)
+              href: 'https://aka.ms/TRUCS-Compliance'
+        - name: Australië/Oceanië
+          items:
+            - name: APRA (Australië)
+              href: offering-APRA-Australia.md
+            - name: IRAP/CCSL (Australië)
+              href: offering-CCSL-IRAP-Australia.md
+            - name: NZ CC Framework (Nieuw-Zeeland)
+              href: offering-nz-cc-framework-nz.md
+        - name: Europa
+          items:
+            - name: BIR 2012 (Nederland)
+              href: offering-bir-2012-netherlands.md
+            - name: C5 (Duitsland)
+              href: offering-c5-germany.md
+            - name: Cyber Essentials Plus (VK)
+              href: offering-cyber-essentials-plus-uk.md
+            - name: EN 301 549 (EU)
+              href: offering-en-301-549-eu.md
+            - name: ENS (Spanje)
+              href: offering-ens-spain.md
+            - name: ENISA IAF (EU)
+              href: offering-enisa.md
+            - name: EU-modelclausules
+              href: offering-eu-model-clauses.md
+            - name: EU U.S. Privacy Shield
+              href: offering-eu-us-privacy-shield.md
+            - name: AVG (EU)
+              href: gdpr.md
+            - name: G-Cloud (VK)
+              href: offering-g-cloud-uk.md
+            - name: IDW PS 951 (Duitsland)
+              href: 'https://www.idw.de/the-idw/about-the-idw'
+            - name: IT-Grundschutz-werkblad (Duitsland)
+              href: offering-it-grundschutz-workbook-germany.md
+            - name: LOPD (Spanje)
+              href: offering-lopd-spain.md
+            - name: PASF (VK)
+              href: offering-pasf-uk.md
+            - name: Persoonsgegevenslokalisatie (Rusland)
+              href: offering-russia-data-localization.md
+        - name: Noord-Amerika
+          items:
+            - name: California Consumer Privacy Act (CCPA)
+              href: offering-ccpa.md
+            - name: Canadese privacywetten
+              href: offering-canadian-privacy-laws.md
+        - name: Zuid-Amerika
+          items:
+            - name: PDPA (Argentinië)
+              href: offering-pdpa-argentina.md
+- name: Office 365 Enterprise
+  href: 'https://docs.microsoft.com/Office365/Enterprise'
+- name: Microsoft 365-apps voor bedrijven
+  href: 'https://docs.microsoft.com/office365/admin/admin-home'
+- name: Microsoft 365-beveiliging
+  href: 'https://docs.microsoft.com/microsoft-365/security/'
