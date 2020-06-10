@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat berichten die worden verzonden vanuit uw aangepaste domein worden vertrouwd door de ontvangende e-mailsystemen.
-ms.openlocfilehash: 2db8af2c0651388998967db239ceed92a8be1018
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 9a2cda171de2b81acdabc2180fe53d8ed4e0f900
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036606"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616476"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein
 
@@ -33,7 +33,7 @@ U dient DKIM te gebruiken naast SPF en DMARC om te voorkomen dat spoofing-oplich
 
 Simpel gezegd gebruikt u een persoonlijke sleutel om de berichtkop in de uitgaande e-mail van uw domein te versleutelen. U publiceert een openbare sleutel naar de DNS-records van uw domein die vervolgens door ontvangende servers wordt gebruikt om de handtekening te decoderen. Ze gebruiken de openbare sleutel om te verifiëren dat de berichten werkelijk van u afkomstig zijn en niet afkomstig zijn van iemand die uw domein *spooft*.
 
-In Microsoft 365 wordt DKIM automatisch ingesteld voor de oorspronkelijke 'onmicrosoft.com'-domeinen. Dat betekent dat u niets hoeft te doen om DKIM in te stellen voor enige oorspronkelijke domeinnaam (bijvoorbeeld litware.onmicrosoft.com). Zie [Veelgestelde vragen over domeinen](https://docs.microsoft.com/office365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain) voor meer informatie over domeinen.
+In Microsoft 365 wordt DKIM automatisch ingesteld voor de oorspronkelijke 'onmicrosoft.com'-domeinen. Dat betekent dat u niets hoeft te doen om DKIM in te stellen voor enige oorspronkelijke domeinnaam (bijvoorbeeld litware.onmicrosoft.com). Zie [Veelgestelde vragen over domeinen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain) voor meer informatie over domeinen.
 
 U kunt er ook voor kiezen om niets te doen met DKIM voor uw aangepaste domein. Als u geen DKIM voor uw aangepaste domein instelt, maakt Microsoft 365 een persoonlijk en openbare sleutelpaar en wordt DKIM-ondertekening ingeschakeld. Vervolgens wordt het standaardbeleid van Microsoft 365 voor uw aangepaste domein geconfigureerd. Hoewel dit voldoende is voor de meeste klanten, moet u de DKIM voor uw aangepaste domein handmatig configureren in de volgende gevallen:
 
@@ -133,7 +133,7 @@ New-DkimSigningConfig -DomainName <domain> -Enabled $false
 Get-DkimSigningConfig -Identity <domain> | Format-List Selector1CNAME, Selector2CNAME
 ```
 
-In Microsoft 365 wordt de sleutelwijziging automatisch uitgevoerd op basis van de twee records die u instelt. Als u behalve het oorspronkelijke domein in Microsoft 365 ook aangepaste domeinen hebt ingericht, moet u twee CNAME-records publiceren voor elk extra domein. Als u dus twee domeinen hebt, moet u twee extra CNAME-records publiceren, enzovoort.
+Als u behalve het oorspronkelijke domein in Microsoft 365 ook aangepaste domeinen hebt ingericht, moet u twee CNAME-records publiceren voor elk extra domein. Als u dus twee domeinen hebt, moet u twee extra CNAME-records publiceren, enzovoort.
 
 Gebruik de volgende notatie voor de CNAME-records.
 
@@ -158,7 +158,7 @@ Waarbij:
 
   > contoso.com.  3600  IN  MX   5 contoso-com.mail.protection.outlook.com
 
-- _initialDomain_ is het domein dat u hebt gebruikt toen u zich aanmeldde voor Microsoft 365. Oorspronkelijke domeinen moeten altijd eindigen op onmicrosoft.com. Zie [Veelgestelde vragen over domeinen](https://docs.microsoft.com/office365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain)voor meer informatie over het bepalen van uw oorspronkelijke domein.
+- _initialDomain_ is het domein dat u hebt gebruikt toen u zich aanmeldde voor Microsoft 365. Oorspronkelijke domeinen moeten altijd eindigen op onmicrosoft.com. Zie [Veelgestelde vragen over domeinen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain)voor meer informatie over het bepalen van uw oorspronkelijke domein.
 
 Als u bijvoorbeeld het oorspronkelijk domein cohovineyardandwinery.onmicrosoft.com hebt en twee aangepaste domeinen cohovineyard.com en cohowinery.com, moet u twee CNAME-records instellen voor elk extra domein: dus een totaal van vier CNAME-records.
 
@@ -181,7 +181,10 @@ TTL:                3600
 ```
 
 > [!NOTE]
-> Het is belangrijk om de tweede record te maken, maar mogelijk is slechts één van de kiezers beschikbaar op het moment dat het bestand wordt gemaakt. In wezen kan de tweede kiezer verwijzen naar een adres dat nog niet is gemaakt. We raden niettemin u aan om de tweede CNAME-record te maken, omdat de sleutelwijziging probleemloos zal verlopen en u hoeft zelf geen handmatige stappen te doorlopen.
+> Het is belangrijk om de tweede record te maken, maar mogelijk is slechts één van de kiezers beschikbaar op het moment dat het bestand wordt gemaakt. In wezen kan de tweede kiezer verwijzen naar een adres dat nog niet is gemaakt. We raden u niettemin aan om de tweede CNAME-record te maken, omdat de sleutelroulatie dan probleemloos zal verlopen.
+
+> [!CAUTION]
+> Automatische sleutelroulatie is tijdelijk uitgeschakeld terwijl er enkele ontwerpwijzigingen worden doorgevoerd in de manier waarop we sleutels maken. Het is een goede gewoonte om meerdere sleutels te hebben, zodat u ze regelmatig kunt rouleren. Hoewel ze moeilijk te kraken zijn, is het nog steeds een praktische beperkingsstrategie tegen zaken zoals imitatie. Raadpleeg het document [Rotate DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/rotate-dkimsigningconfig) voor informatie over hoe u dit kunt doen voor uw organisatie. We verwachten dat automatische roulatie weer wordt ingeschakeld vóór augustus 2020.
 
 ### <a name="enable-dkim-signing-for-your-custom-domain"></a>DKIM-ondertekening voor uw aangepaste domein inschakelen
 <a name="EnableDKIMinO365"> </a>
@@ -202,7 +205,7 @@ Als u de CNAME-records in DNS hebt gepubliceerd, kunt u DKIM-ondertekening insch
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>DKIM-ondertekening voor uw aangepaste domein inschakelen met behulp van Windows PowerShell
 
-1. [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+1. [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Voer de volgende opdracht uit:
 
@@ -253,7 +256,7 @@ Als u het handtekeningenbeleid uitschakelt, wordt DKIM niet volledig uitgeschake
 
 ### <a name="to-disable-the-dkim-signing-policy-by-using-windows-powershell"></a>Het DKIM-handtekeningenbeleid uitschakelen met behulp van Windows PowerShell
 
-1. [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+1. [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Voer een van de volgende opdrachten uit voor elk domein waarvoor u DKIM-ondertekening wilt uitschakelen.
 
@@ -299,7 +302,7 @@ DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
     b=<signed field>;
 ```
 
-In dit voorbeeld bevatten de hostnaam en het domein de waarden waarnaar de CNAME zou wijzen als DKIM-ondertekening voor fabrikam.com door de domeinbeheerder was ingeschakeld. Uiteindelijk wordt elk bericht dat wordt verzonden vanuit Microsoft 365 DKIM-ondertekend. Als u DKIM zelf inschakelt, is het domein hetzelfde als het domein in het Van:-adres, in dit geval fabrikam.com. Als u dit niet doet, wordt het niet afgestemd en wordt in plaats daarvan het oorspronkelijke domein van uw organisatie gebruikt. Zie [Veelgestelde vragen over domeinen](https://docs.microsoft.com/office365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain)voor meer informatie over het bepalen van uw oorspronkelijke domein.
+In dit voorbeeld bevatten de hostnaam en het domein de waarden waarnaar de CNAME zou wijzen als DKIM-ondertekening voor fabrikam.com door de domeinbeheerder was ingeschakeld. Uiteindelijk wordt elk bericht dat wordt verzonden vanuit Microsoft 365 DKIM-ondertekend. Als u DKIM zelf inschakelt, is het domein hetzelfde als het domein in het Van:-adres, in dit geval fabrikam.com. Als u dit niet doet, wordt het niet afgestemd en wordt in plaats daarvan het oorspronkelijke domein van uw organisatie gebruikt. Zie [Veelgestelde vragen over domeinen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain)voor meer informatie over het bepalen van uw oorspronkelijke domein.
 
 ## <a name="set-up-dkim-so-that-a-third-party-service-can-send-or-spoof-email-on-behalf-of-your-custom-domain"></a>DKIM instellen zodat een externe service namens uw aangepaste domein e-mails kan verzenden of spoofen
 <a name="SetUp3rdPartyspoof"> </a>

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe u een DNS-record (Domain Name Service) bijwerkt, zodat u SPF (Sender Policy Framework) kunt gebruiken met uw aangepaste domein in Office 365.
-ms.openlocfilehash: 9d5d300b7397d719d9ab85139cd27d912627a3ff
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 6061cd9ea52f4ed4073f510dcba60fba9b4fd23c
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035306"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588074"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>SPF instellen om adresvervalsing te helpen voorkomen
 
@@ -49,7 +49,7 @@ Voordat u de TXT-record in DNS bijwerkt, moet u enkele gegevens verzamelen en de
 
 Verzamel de volgende informatie:
 
-- Het huidige SPF TXT-record voor uw aangepaste domein. Zie [De informatie verzamelen die u nodig hebt om DNS-records voor Office 365 te maken](https://docs.microsoft.com/office365/admin/get-help-with-domains/information-for-dns-records)voor instructies.
+- Het huidige SPF TXT-record voor uw aangepaste domein. Zie [De informatie verzamelen die u nodig hebt om DNS-records voor Office 365 te maken](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/information-for-dns-records)voor instructies.
 
 - Externe IP-adressen van alle on-premises messaging-servers. Bijvoorbeeld: **131.107.2.200**.
 
@@ -67,9 +67,9 @@ Verzamel de volgende informatie:
    |2|Exchange Online|Gangbaar|include:spf.protection.outlook.com|
    |3|Alleen Exchange Online|Niet gangbaar|ip4:23.103.224.0/19 ip4:206.191.224.0/19 ip4:40.103.0.0/16 include:spf.protection.outlook.com|
    |4|Office 365 Duitsland, alleen Microsoft Cloud Duitsland|Niet gangbaar|include:spf.protection.outlook.de|
-   |5|E-mailsysteem van derden|Niet gangbaar|opnemen:\<domeinnaam\>  <br/> Waarbij domeinnaam de domeinnaam is van het e-mailsysteem van derden.|
-   |6|On-premises e-mailsysteem. Bijvoorbeeld, Exchange Online Protection plus een ander e-mailsysteem|Niet gangbaar| Gebruik een van deze voor elk extra e-mailsysteem: <br> ip4:\<_IP-adres_\>  <br/>  ip6:\<_IP-adres_\>  <br/>  opnemen:\<_domeinnaam_\>  <br/>  Waar de waarde voor \<_IP-adres_\> het IP-adres van het andere e-mailsysteem is en \<_domeinnaam_\> de domeinnaam is van het andere e-mailsysteem waarmee e-mail wordt verzonden namens uw domein.|
-   |7|Elk e-mailsysteem (vereist)|Gangbaar. Alle SPF-records eindigen met deze waarde|\<_afdwingregel_\>  <br/> Dit kan een van meerdere waarden zijn. We adviseren u om **-alle**te gebruiken.|
+   |5|E-mailsysteem van derden|Niet gangbaar|inclusief:\<domain name\>  <br/> Waarbij domeinnaam de domeinnaam is van het e-mailsysteem van derden.|
+   |6|On-premises e-mailsysteem. Bijvoorbeeld, Exchange Online Protection plus een ander e-mailsysteem|Niet gangbaar| Gebruik een van deze voor elk extra e-mailsysteem: <br> ip4:\<_IP address_\>  <br/>  ip6:\<_IP address_\>  <br/>  inclusief:\<_domain name_\>  <br/>  Waar de waarde voor \<_IP address_\> het IP-adres van het andere e-mailsysteem is en \<_domain name_\> de domeinnaam is van het andere e-mailsysteem waarmee e-mail wordt verzonden namens uw domein.|
+   |7|Elk e-mailsysteem (vereist)|Gangbaar. Alle SPF-records eindigen met deze waarde|\<_enforcement rule_\>  <br/> Dit kan een van meerdere waarden zijn. We adviseren u om **-alle**te gebruiken.|
 
 2. Als u dit nog niet hebt gedaan, kunt u het SPF TXT-record maken met behulp van de syntaxis uit de tabel:
 
@@ -85,7 +85,7 @@ Verzamel de volgende informatie:
 
    Als u al bent overgestapt naar Office 365 en uw SPF TXT-records hebt ingesteld voor uw aangepaste domein, en u migreert naar Office 365 Duitsland, moet u uw SPF TXT-record bijwerken. Als u dit wilt doen, wijzigt u **include:spf.protection.outlook.com** naar **include:spf.protection.outlook.de**.
 
-3. Zodra u uw SPF TXT-record hebt gemaakt, moet u het record in DNS bijwerken. U kunt slechts één SPF TXT-record voor een domein hebben. Als er een SPF TXT-record aanwezig is, moet u het bestaande record bijwerken, in plaats van een nieuwe record toe te voegen. Ga naar [DNS-records maken voor Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) en klik vervolgens op de link voor uw DNS-host.
+3. Zodra u uw SPF TXT-record hebt gemaakt, moet u het record in DNS bijwerken. U kunt slechts één SPF TXT-record voor een domein hebben. Als er een SPF TXT-record aanwezig is, moet u het bestaande record bijwerken, in plaats van een nieuwe record toe te voegen. Ga naar [DNS-records maken voor Office 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) en klik vervolgens op de link voor uw DNS-host.
 
 4. De SPF TXT-record testen.
 

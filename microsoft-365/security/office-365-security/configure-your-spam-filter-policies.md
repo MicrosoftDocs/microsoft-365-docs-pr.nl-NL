@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
-ms.openlocfilehash: 9ce3ad0bfa7b50dfd5dfa5b5e2a35e6d70600e46
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 74e33fe394802050ced64c5c3d9e41dcbd2550f0
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351985"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616524"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -71,7 +71,7 @@ Om de effectiviteit van spamfilters te verhogen, kunt u aangepast antispambeleid
 
 - U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Gebruik <https://protection.office.com/antispam> om direct naar de pagina **Antispaminstellingen** te gaan.
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
 
 - U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u antispambeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rollengroep **Organisatiebeheer** of **Beveiligingsbeheer**. Voor alleen-lezentoegang tot het antispambeleid moet u lid zijn van de rollengroep **Beveiligingslezer**. Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
@@ -242,7 +242,7 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 
 9. (Verplicht) Vouw de sectie **Toegepast op** uit om de interne geadresseerden te bepalen op wie het beleid van toepassing is.
 
-    U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering gebruiken OF-logica (bijv.: _\<afzender1\>_ of _\<afzender2\>_). Verschillende voorwaarden of uitzonderingen gebruiken EN-logica (bijv.: _\<geadresseerde1\>_ en _\<lid van groep 1\>_).
+    U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
 
     Het eenvoudigste is drie keer te klikken op **Een voorwaarde toevoegen** om alle beschikbare voorwaarden weer te geven. U kunt op de ![knop Verwijderen](../../media/scc-remove-icon.png) klikken om voorwaarden te verwijderen die u niet wilt configureren.
 
@@ -336,7 +336,7 @@ Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst,
 
 3. Klik op **Spammeldingen voor eindgebruikers configureren** in de uitgebreide beleidsgegevens die worden weergegeven.
 
-4. Configureer in het dialoogvenster **\<Beleidsnaam\>** dat wordt geopend de volgende instellingen:
+4. Configureer de volgende instellingen in het dialoogvenster **\<Policy Name\>** dat wordt geopend:
 
    - **Spammeldingen voor eindgebruikers inschakelen**: selecteer het selectievakje om meldingen in te schakelen. Schakel het selectievakje uit om meldingen uit te schakelen.
 
@@ -391,7 +391,7 @@ Antispambeleid maken in PowerShell bestaat uit twee stappen:
 
   - Schakel het nieuwe beleid uit (_Ingeschakeld_ `$false` in het cmdlet **New-HostedContentFilterRule**).
 
-  - Stel de prioriteit van het beleid tijdens het maken in (_Prioriteit_s_\<nummer\>_ in het cmdlet **New-HostedContentFilterRule**).
+  - Stel de prioriteit van het beleid in tijdens het maken (_Prioriteit_ _\<Number\>_) in de cmdlet **New-HostedContentFilterRule**).
 
 - Nieuw spamfilterbeleid dat u maakt in PowerShell is niet zichtbaar in het Beveiligings- en compliancecentrum totdat u het beleid toewijst aan een spamfilterregel.
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen meer informatie krijgen over het verwijderen van gebruikers uit de portal voor gebruikers met beperkte rechten in Office 365. Gebruikers worden toegevoegd aan de portal gebruikers met beperkte rechten voor het verzenden van uitgaande spam, meestal vanwege een inbreuk op het account.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9865b409be6bce14b84a9175e8f17cdad58befe
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: b9e28550c67e20466b18b17d8b49fb1b68997cc4
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351005"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617360"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Geblokkeerde gebruikers verwijderen uit de portal voor gebruikers met beperkte rechten in Office 365
 
@@ -40,7 +40,7 @@ Beheerders kunnen gebruikers verwijderen uit de portal met beperkte verzenders i
 
 - U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina met **Beperkte gebruikers** wilt gaan, gebruik dan <https://protection.office.com/restrictedusers>.
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
 - U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u gebruikers wilt verwijderen uit de portal voor gebruikers met beperkte rechten, moet u lid zijn van **Organisatiebeheer** of **Beveiligingsbeheer**-rollengroep. Voor alleen-lezen toegang tot de portal met beperkte gebruikers moet u lid zijn van de **Beveiligingslezer**-groep. Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
@@ -96,7 +96,7 @@ Voer de volgende opdracht uit om deze lijst weer te geven met gebruikers die gee
 Get-BlockedSenderAddress
 ```
 
-Als u meer informatie over een specifieke gebruiker wilt bekijken, vervangt u \<e-mailadres\> door hun e-mailadres en voert u de volgende opdracht uit:
+Als u meer informatie over een specifieke gebruiker wilt bekijken, vervangt u \<emailaddress\> door het e-mailadres van die gebruiker en voert u de volgende opdracht uit:
 
 ```powershell
 Get-BlockedSenderAddress -SenderAddress <emailaddress>
@@ -104,7 +104,7 @@ Get-BlockedSenderAddress -SenderAddress <emailaddress>
 
 Zie [OntvangAdresGeblokkeerdeVerzender](https://docs.microsoft.com/powershell/module/exchange/get-blockedsenderaddress) voor gedetailleerde syntaxis- en parameterinformatie.
 
-Als u een gebruiker wilt verwijderen uit de lijst van beperkte gebruikers, vervangt u het \<e-mailadres\> door hun e-mailadres en voert u de volgende opdracht uit:
+Als u een gebruiker wilt verwijderen uit de lijst met beperkte gebruikers, vervangt u \<emailaddress\> door het e-mailadres van die gebruiker en voert u de volgende opdracht uit:
 
 ```powershell
 Remove-BlockedSenderAddress -SenderAddress <emailaddress>

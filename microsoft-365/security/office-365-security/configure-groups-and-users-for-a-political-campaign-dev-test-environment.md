@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: 'Overzicht: maak proefabonnementen voor Office 365 en Enterprise Mobility + Security (EMS) met gebruikers en groepen voor een ontwikkel-/testomgeving voor politieke campagnes.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 14722ab96230ecb8acaf4476d6ca70c47de2ffdd
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d1cd4812cdb8a58062d7c64e73049c080f8b906f
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035104"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588462"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
 
@@ -35,7 +35,7 @@ Gebruik de instructies in dit artikel om een ontwikkel-/testomgeving te maken me
 
 In deze fase creëert u proefabonnementen voor Office 365 E5 en Enterprise Mobility + Security (EMS) E5 voor een fictieve organisatie die een politieke campagne vertegenwoordigt.
 
-Volg eerst de instructies in **fase 2** van de [ontwikkel-/testomgeving voor Office 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment).
+Volg eerst de instructies in **Fase 2** van [de lichtgewicht basisconfiguratie](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise).
 
 Meld u vervolgens aan voor het proefabonnement EMS E5 en voeg het toe aan dezelfde organisatie als uw proefabonnement.
 
