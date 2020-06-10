@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Ontdek hoe u uw wachtwoorden opnieuw instellen met behulp van de selfservice tool voor het opnieuw instellen van wachtwoorden.
-ms.openlocfilehash: 21bcbbbd5ef2167b04b8da6db437c528b5fab0c5
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 40f094489a1981302e97043b019e8c90a52ffc55
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431699"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678680"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 
@@ -54,7 +54,8 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
 Met deze stappen wordt selfservice voor wachtwoordherstel ingeschakeld voor iedereen in uw bedrijf.
   
 ::: moniker range="o365-worldwide"
-1. Ga in het beheercentrum **Settings** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Instellingeninstellingen.</a>
+
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">beheercentrum</a>naar de **Settings** > **instellingenpagina van instellingen.**
 
 ::: moniker-end
 
@@ -70,13 +71,17 @@ Met deze stappen wordt selfservice voor wachtwoordherstel ingeschakeld voor iede
 
 ::: moniker-end
 
-2. Selecteer boven aan de pagina Instellingen **de optie Beveiliging & Privacy**.
+2. Selecteer boven aan de pagina Instellingen voor **Organisatie** het tabblad **Beveiliging & privacy.**
   
-3. **Zelfservicewachtwoord opnieuw instellen**.
+3. Selecteer **Selfservice Wachtwoord opnieuw instellen**.
+
+4. Selecteer Onder **Selfservice-wachtwoord opnieuw instellen**de optie **Ga naar de Azure-portal om het resetten van zelfservicewachtwoorden in te schakelen.**
+
+5. Selecteer **gebruikers in**het linkernavigatiedeelvenster en vervolgens op de **Gebruikers | Alle gebruikers** pagina, selecteer **Wachtwoord resetten**.
   
-4. Selecteer **Alles** op de pagina Eigenschappen om het voor iedereen in uw bedrijf in te schakelen en selecteer **Opslaan**.
+6. Selecteer **Alles** op de pagina **Eigenschappen** om het voor iedereen in uw bedrijf in te schakelen en selecteer **Opslaan**.
   
-5. Wanneer uw gebruikers zich aanmelden, wordt hen gevraagd om aanvullende contactgegevens in te voeren waarmee ze hun wachtwoord in de toekomst opnieuw kunnen instellen.
+7. Wanneer uw gebruikers zich aanmelden, wordt hen gevraagd om aanvullende contactgegevens in te voeren waarmee ze hun wachtwoord in de toekomst opnieuw kunnen instellen.
 
 ## <a name="related-articles"></a>Verwante artikelen
 

@@ -16,12 +16,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: Gebruik het nieuwe beveiligingsdashboard om de status van office 365-bedreigingsbeveiliging te controleren en beveiligingswaarschuwingen weer te geven en erop te reageren.
-ms.openlocfilehash: c18c25fcb35661ae8703a98ca0e83cdddc0a9f2e
-ms.sourcegitcommit: 86705d15231c987be2fcf5a295b9b6239fc46077
+ms.openlocfilehash: 6aedc0e499a489d7526737700ecc76deab9e6e32
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44566714"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679130"
 ---
 # <a name="security-dashboard"></a>Beveiligingsdashboard
 
@@ -48,13 +48,11 @@ De widget Overzicht van bedreigingsbeheer vertelt u in één oogopslag hoe uw or
 
 De informatie die u in het overzicht van bedreigingsbeheer ziet, is afhankelijk van wat u abonnement bevat. In de volgende tabel wordt beschreven welke informatie is opgenomen voor Office 365 E3 en Office 365 E5.
 
-
-|Office 365 E3 |Office 365 E5 |
+|Office 365 E3|Office 365 E5|
 |---|---|
 |Malwareberichten geblokkeerd<br/>Phishingberichten geblokkeerd<br>Berichten gerapporteerd door gebruikers<br><br><br><br>|Malwareberichten geblokkeerd<br>Phishingberichten geblokkeerd<br>Berichten gerapporteerd door gebruikers<br>Zero-day malware geblokkeerd<br>Geavanceerde phishingberichten gedetecteerd<br>Schadelijke URL's geblokkeerd|
 
-
-Als u het overzichtsobject Bedreigingsbeheer wilt bekijken of openen, moet u machtigingen hebben om rapporten over geavanceerde bedreigingsbescherming weer te geven. Zie [Welke machtigingen nodig zijn om de ATP-rapporten weer te geven voor](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)meer informatie?
+Als u het overzichtsobject Bedreigingsbeheer wilt bekijken of openen, moet u machtigingen hebben om rapporten over geavanceerde bedreigingsbescherming weer te geven. Zie [Welke machtigingen nodig zijn om de ATP-rapporten weer te geven voor](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports) meer informatie?
 
 ## <a name="threat-protection-status"></a>Status bedreigingsbescherming
 
@@ -69,7 +67,7 @@ De gegevens zijn afhankelijk van de vraag of uw Microsoft 365-abonnement [Exchan
 |EOP, maar niet Office 365 ATP|Schadelijke e-mail die is gedetecteerd en geblokkeerd door EOP.<br><br> Zie [Threat Protection Status report (EOP)](view-email-security-reports.md#threat-protection-status-report).|
 |Office 365 ATP|Schadelijke inhoud en schadelijke e-mail gedetecteerd en geblokkeerd door EOP en Office 365 ATP<br><br>Geaggregeerde telling van unieke e-mailberichten met schadelijke inhoud geblokkeerd door de anti-malware engine, [nul uur auto zuivering](zero-hour-auto-purge.md), en ATP functies (waaronder [Safe Links,](atp-safe-links.md) [Safe Attachments](atp-safe-attachments.md), en [ATP anti-phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)).<br><br>Zie [Atp (Threat Protection Status report)](view-reports-for-atp.md#threat-protection-status-report).|
 
-Als u de widget Bedreigingsbeveiligingsstatus wilt bekijken of openen, moet u machtigingen hebben om rapporten over geavanceerde bedreigingsbescherming weer te geven. Zie [Welke machtigingen nodig zijn om de ATP-rapporten weer te geven voor](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)meer informatie?
+Als u de widget Bedreigingsbeveiligingsstatus wilt bekijken of openen, moet u machtigingen hebben om rapporten over geavanceerde bedreigingsbescherming weer te geven. Zie [Welke machtigingen nodig zijn om de ATP-rapporten weer te geven voor](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports) meer informatie?
 
 ## <a name="global-weekly-threat-detections"></a>Wereldwijde wekelijkse bedreigingsdetecties
 
@@ -79,13 +77,12 @@ De global weekly threat detections widget laat zien hoeveel bedreigingen zijn ge
 
 De statistieken worden berekend zoals beschreven in de volgende tabel:
 
-|Metrische|Hoe het wordt berekend |
+|Metrische|Hoe het wordt berekend|
 |---|---|
 |Gescande berichten|Aantal gescande e-mailberichten vermenigvuldigd met het aantal geadresseerden|
 |Bedreigingen gestopt|Aantal e-mailberichten dat is geïdentificeerd als malware, vermenigvuldigd met het aantal ontvangers|
 |Geblokkeerd door [ATP](office-365-atp.md)|Aantal e-mailberichten dat door ATP wordt geblokkeerd, vermenigvuldigd met het aantal geadresseerden|
 |Verwijderd na levering|Aantal berichten dat is verwijderd door automatische zuivering van [nul uur,](zero-hour-auto-purge.md) vermenigvuldigd met het aantal geadresseerden|
-
 
 ## <a name="malware"></a>Malware
 

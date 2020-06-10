@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: 4fe7f6ac-be8e-4b57-9e13-24ff889a4b28
 description: Meer informatie over het gebruik van filters voor het maken, bewerken of verwijderen van aangepaste gebruikersweergave in Microsoft 365.
-ms.openlocfilehash: 265aa1a7c22475710a12a93c2bfee0b7749f438b
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 598a167b9845f763ddab57d3c5ba36e431aa751c
+ms.sourcegitcommit: a3ec91423c352cd5fbf79b46ccd9c169455a03ba
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431639"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44664572"
 ---
-# <a name="create-edit-or-delete-a-custom-user-view-in-office-365"></a>Een aangepaste gebruikersweergave maken, bewerken of verwijderen in Office 365
+# <a name="create-edit-or-delete-a-custom-user-view"></a>Een aangepaste gebruikersweergave maken, bewerken of verwijderen
 
-Als u een hoofdbeheerder of een beheerder voor gebruikerstoegang van Office 365 bent, kunt u aangepaste gebruikersweergaven maken waarmee een specifieke subset van gebruikers kan worden weergegeven. Deze weergaven vormen een aanvulling op de standaardweergaven van Office 365. U kunt aangepaste gebruikersweergaven maken, bewerken of verwijderen en de aangepaste weergaven die u maakt, zijn beschikbaar voor alle beheerders.
+Als u een globale of gebruikersbeheerbeheerder bent van een Microsoft 365 voor bedrijven-abonnement, u aangepaste gebruikersweergaven maken om een specifieke subset van gebruikers weer te geven. Deze weergaven zijn in aanvulling op de standaard set van weergaven. U kunt aangepaste gebruikersweergaven maken, bewerken of verwijderen en de aangepaste weergaven die u maakt, zijn beschikbaar voor alle beheerders.
   
 ## <a name="custom-user-views-in-the-admin-center"></a>Aangepaste gebruikersweergaven in het beheercentrum
 
@@ -98,7 +98,7 @@ Ook kunt u filteren op andere gegevens uit het gebruikersprofiel die worden gebr
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
+1. Ga in het beheercentrum naar **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Gebruikers actieve gebruikers</a>.
     
 2. Selecteer op de pagina **Actieve gebruikers** de optie **Filters** en selecteer **Nieuw filter**.
   
@@ -108,7 +108,7 @@ Ook kunt u filteren op andere gegevens uit het gebruikersprofiel die worden gebr
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.  
+1. Ga in het beheercentrum naar **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Gebruikers actieve gebruikers</a>.  
 
 2. Selecteer **weergaven op** de pagina **Actieve gebruikers** en selecteer Aangepaste **weergave toevoegen**.
   
@@ -119,7 +119,7 @@ Ook kunt u filteren op andere gegevens uit het gebruikersprofiel die worden gebr
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>. 
+1. Ga in het beheercentrum naar **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Gebruikers actieve gebruikers</a>. 
 
 2. Selecteer **weergaven op** de pagina **Actieve gebruikers** en selecteer Aangepaste **weergave toevoegen**.
   
@@ -132,7 +132,7 @@ Ook kunt u filteren op andere gegevens uit het gebruikersprofiel die worden gebr
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
+1. Ga in het beheercentrum naar **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Gebruikers actieve gebruikers</a>.
     
 2. Selecteer op de pagina **Actieve gebruikers** **Filter,** selecteer het filter dat u wilt wijzigen en selecteer **vervolgens Filter bewerken**. 
     
@@ -145,7 +145,7 @@ Ook kunt u filteren op andere gegevens uit het gebruikersprofiel die worden gebr
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.  
+1. Ga in het beheercentrum naar **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Gebruikers actieve gebruikers</a>.  
 
 2. Selecteer op de pagina **Actieve gebruikers** **weergaven,** selecteer het filter dat u wilt wijzigen en selecteer **Deze weergave bewerken**. 
     
@@ -158,7 +158,7 @@ Ook kunt u filteren op andere gegevens uit het gebruikersprofiel die worden gebr
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>. 
+1. Ga in het beheercentrum naar **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Gebruikers actieve gebruikers</a>. 
 
 2. Selecteer op de pagina **Actieve gebruikers** **weergaven,** selecteer het filter dat u wilt wijzigen en selecteer **Deze weergave bewerken**. 
     

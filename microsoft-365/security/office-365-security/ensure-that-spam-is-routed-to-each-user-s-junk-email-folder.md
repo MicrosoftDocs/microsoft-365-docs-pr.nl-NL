@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe ze spam kunnen routeren naar ongewenste e-mailmappen van gebruikers in een hybride exchange-omgeving voor onlinebescherming.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dcfee309e532256a71511c3f6de019b22f5db093
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 5d8ba6aae599ee4dd327bd1ec82b46e8f3ee3ca8
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617052"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679118"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Zelfstandige EOP configureren om spam te leveren aan de map Ongewenste e-mail in hybride omgevingen
 
@@ -60,7 +60,7 @@ In dit onderwerp wordt beschreven hoe u deze regels voor e-mailstroom maakt in h
 
   - Of de regel voor ongewenste e-mail is ingeschakeld in het postvak (de parameterwaarde _ingeschakeld_ is $true op de cmdlet [Set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration) in de Shell Exchange Management). Het is de regel voor ongewenste e-mail die het bericht na levering daadwerkelijk naar de map Ongewenste e-mail verplaatst. Standaard is de regel voor ongewenste e-mail ingeschakeld op postvakken. Zie [Exchange-antispaminstellingen configureren voor postvakken](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings)voor meer informatie.
   
-- Zie [Exchange-beheercentrum in Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center)als u de EAC op een Exchange Server wilt openen. Zie [https://docs.microsoft.com/powershell/exchange/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/open-the-exchange-management-shell) .
+- Zie [Exchange-beheercentrum in Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center)als u de EAC op een Exchange Server wilt openen. Zie De Shell voor [Exchange Management openen](https://docs.microsoft.com/powershell/exchange/open-the-exchange-management-shell)als u de Shell voor Exchange Management wilt openen.
 
 - Zie de volgende onderwerpen voor meer informatie over regels voor e-mailstroom in on-premises Exchange:
 

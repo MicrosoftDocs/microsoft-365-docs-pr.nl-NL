@@ -24,16 +24,16 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: U kunt beheercentrum gebruiken voor het instellen van uw organisatie in de cloud, het beheren van gebruikers en abonnementen. Ga aan de slag door u aan te melden bij het account met beheerdersmachtigingen.
-ms.openlocfilehash: c5f061e8ffd8f545965483d8d318debea708bf2c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 77799599dfd93525efe101f7dea02c5fc8408bbf
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386959"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678646"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Over het Microsoft 365-beheercentrum
 
-**Als u een Microsoft 365 voor business-abonnement hebt gekocht en u beheerdersmachtigingen hebt, hebt u toegang tot het beheercentrum.** Dit artikel is bedoeld voor u!
+**Als u een Microsoft 365 voor bedrijfsabonnement hebt gekocht en u beheerdersmachtigingen hebt, hebt u toegang tot het beheercentrum.** Dit artikel is bedoeld voor u!
 
 **Als u een gebruiker bent of een Microsoft 365 Family-abonnement hebt, hebt u geen beheercentrum.** Als u Microsoft 365 wilt instellen, gaat u naar [Microsoft 365 of Office 2019 downloaden en installeren of opnieuw installeren op een pc of Mac.](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)
 
@@ -67,7 +67,7 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine
 
 2. Selecteer het pictogram voor het startprogramma voor apps in de linkerbovenhoek en kies **Beheer**.
 
-    De tegel **Beheerder** wordt alleen weergegeven voor mensen met Microsoft 365-beheerdersmachtigingen. [admin permissions](../add-users/about-admin-roles.md) Als u de tegel niet ziet, hebt u geen machtigingen om toegang te krijgen tot het beheercentrum voor uw organisatie.
+    De tegel **Beheerder** wordt alleen weergegeven aan mensen met microsoft 365-beheerdersmachtigingen . [admin permissions](../add-users/about-admin-roles.md) Als u de tegel niet ziet, hebt u geen machtigingen om toegang te krijgen tot het beheercentrum voor uw organisatie.
 
 ## <a name="admin-center-features-and-settings"></a>Functies en instellingen van het beheercentrum
 
@@ -75,7 +75,7 @@ Hier vindt u de functies en instellingen die in het linkernavigatievenster van h
   
 |**Menu**|**Doel**|
 |-----|-----|
-|**Start** <br/> |Dit is de openingspagina in het nieuwe beheercentrum. Hier ziet u waar u gebruikers, facturering, servicestatus en rapporten kunt beheren.  <br/> |
+|**Start** <br/> |Dit is de bestemmingspagina in het beheercentrum. Hier ziet u waar u gebruikers, facturering, servicestatus en rapporten kunt beheren.  <br/> |
 |**Gebruikers** <br/> |U kunt gebruikers, zoals werknemers of studenten, in uw organisatie maken en beheren. U kunt ook hun machtigingsniveau instellen of hun wachtwoord opnieuw instellen.  <br/> |
 |**Groepen** <br/> |Groepen in uw organisatie maken en beheren, zoals een Microsoft 365-groep, distributiegroep, beveiligingsgroep of gedeeld postvak. Lees hier hoe u groepen kunt [maken](../create-groups/create-groups.md) en [beheren](../create-groups/manage-groups.md).  <br/> |
 |**Resources** <br/> |U kunt resources, zoals een SharePoint-siteverzameling, maken en beheren. Lees hier hoe u [siteverzamelingen maakt](https://docs.microsoft.com/sharepoint/create-site-collection).  <br/> |

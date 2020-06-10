@@ -1,5 +1,5 @@
 ---
-title: Implementatie van invoegingen beheren in het beheercentrum
+title: Implementatie van invoegtoepassingen in het beheercentrum beheren
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
-description: Leer om invoegingen te implementeren voor gebruikers en groepen in uw organisatie met behulp van gecentraliseerde implementatie in het beheercentrum.
-ms.openlocfilehash: e71afad19690d3a05dc5f06bc0718861cb22f12d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over het implementeren van invoegtoepassingen voor gebruikers en groepen in uw organisatie met behulp van gecentraliseerde implementatie in het beheercentrum.
+ms.openlocfilehash: 9d6a3da00445dd5cde26c80fe63edd81f745ce63
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399726"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678634"
 ---
 # <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>De implementatie van invoegtoepassingen in het Microsoft 365-beheercentrum beheren
 
@@ -36,9 +36,9 @@ ms.locfileid: "44399726"
 
 ::: moniker-end
 
-Met Office-invoegtoepassingen kunt u uw documenten aan uw persoonlijke voorkeur aanpassen en de manier waarop u toegang krijgt tot informatie op internet stroomlijnen (zie [Uw Office-invoegtoepassing gebruiken](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx)). Als beheerder u Office-invoegtoepassing implementeren voor de gebruikers in uw organisatie. U dit doen met de functie Gecentraliseerde implementatie in het Microsoft 365-beheercentrum.
+Met Office-invoegtoepassingen kunt u uw documenten aan uw persoonlijke voorkeur aanpassen en de manier waarop u toegang krijgt tot informatie op internet stroomlijnen (zie [Uw Office-invoegtoepassing gebruiken](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx)). Als beheerder u Office-invoegtoepassingen implementeren voor de gebruikers in uw organisatie. U dit doen met de functie Gecentraliseerde implementatie in het Microsoft 365-beheercentrum.
   
-Gecentraliseerde implementatie is de aanbevolen en meest veelzijdige manier voor de meeste beheerders om invoegtoepassingen te implementeren voor gebruikers en groepen binnen een organisatie. Zie Bepalen of gecentraliseerde implementatie van invoegingen voor uw organisatie mogelijk is voor meer informatie over hoe u bepalen of [gecentraliseerde implementatie van invoegingen werkt voor uw organisatie.](centralized-deployment-of-add-ins.md)
+Gecentraliseerde implementatie is de aanbevolen en meest veelzijdige manier voor de meeste beheerders om invoegtoepassingen te implementeren voor gebruikers en groepen binnen een organisatie. Zie [Bepalen of Gecentraliseerde implementatie van invoegtoepassingen werkt voor uw organisatie voor](centralized-deployment-of-add-ins.md)meer informatie over hoe u bepalen of uw organisatie gecentraliseerde implementatie kan ondersteunen.
   
 Gecentraliseerde implementatie biedt de volgende voordelen:
   
@@ -49,7 +49,7 @@ Gecentraliseerde implementatie biedt de volgende voordelen:
 - Invoegtoepassingen worden niet meer weergegeven voor gebruikers als de beheerder de invoegtoepassing uitschakelt of verwijdert, of als de gebruiker wordt verwijderd uit Azure Active Directory of uit een groep waaraan de invoegtoepassing is toegewezen.
     
 > [!NOTE]
->  Voor Word gebruiken Excel en PowerPoint een [SharePoint-app-catalogus](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) om invoegingen te implementeren voor gebruikers in een on-premises omgeving zonder verbinding met Microsoft 365 en/of ondersteuning voor SharePoint-invoegingen vereist. > voor Outlook gebruiken het configuratiescherm van Exchange om te implementeren in een on-premises omgeving zonder verbinding met Microsoft 365. > 
+>  Voor Word gebruiken Excel en PowerPoint een [SharePoint-app-catalogus](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) om invoegtoepassingen te implementeren voor gebruikers in een on-premises omgeving zonder dat er verbinding is met Microsoft 365 en/of ondersteuning voor SharePoint-invoegtoepassingen. > Voor Outlook gebruik exchange-configuratiescherm om te implementeren in een on-premises omgeving zonder verbinding met Microsoft 365. > 
   
 ## <a name="recommended-approach-for-deploying-office-add-ins"></a>Aanbevolen werkwijze voor de implementatie van Office-invoegtoepassingen
 
@@ -63,33 +63,33 @@ Overweeg de invoegtoepassingen in fasen uit te rollen om de implementatie goed t
     
 Afhankelijk van de grootte van de doelgroep, kunt u eventueel uitrolstappen toevoegen of verwijderen.
   
-## <a name="deploy-an-office-add-in-using-the-admin-center"></a>Een Office-invoegtoepassing implementeren met behulp van het beheercentrum
+## <a name="deploy-an-office-add-in-using-the-admin-center"></a>Een Office-invoegtoepassing implementeren met het beheercentrum
 
-Zie [Bepalen of gecentraliseerde implementatie van invoegingen voor uw organisatie werkt](centralized-deployment-of-add-ins.md)voordat u begint.
+Zie [Bepalen of Gecentraliseerde implementatie van invoegtoepassingen werkt voor uw organisatie.](centralized-deployment-of-add-ins.md)
 
   
-1. Ga in het beheercentrum **Settings** naar de pagina \> **Invoegtoepassing** Instellingen.
+1. Ga in het beheercentrum **Settings** naar de pagina \> **Instellingen invoegtoepassingen.**
     
-2. Selecteer **Invoegtoepassing implementeren** boven aan de pagina. Selecteer **Volgende**op de overzichtspagina .
+2. Selecteer **Invoegtoepassing** implementeren boven aan de pagina. Selecteer Volgende op de **overzichtspagina.**
     
 3. Selecteer een optie en volg de instructies.
   
-4. Als u de optie hebt geselecteerd om een invoegtoepassing toe te voegen in de Office Store, u nu uw invoegselectie maken. De beschikbare invoegtoepassingen worden weergegeven in de categorieën **Voorgesteld voor u**, **Beoordeling** en **Naam**. Er kunnen alleen gratis invoegtoepassingen worden toegevoegd vanuit de Office Store. Betaalde invoegtoepassingen worden momenteel niet ondersteund. Zodra u uw invoegtoepassing hebt geselecteerd, moet u akkoord gaan met een aantal aanvullende algemene voorwaarden om verder te gaan. <br/><br/> OPMERKING: Met de office store-optie worden updates en verbeteringen aan de invoegtoepassing automatisch beschikbaar gesteld aan gebruikers zonder uw tussenkomst.
+4. Als u de optie hebt geselecteerd om een invoegtoepassing toe te voegen in de Office Store, u nu uw invoegselectie maken. De beschikbare invoegtoepassingen worden weergegeven in de categorieën **Voorgesteld voor u**, **Beoordeling** en **Naam**. Er kunnen alleen gratis invoegtoepassingen worden toegevoegd vanuit de Office Store. Betaalde invoegtoepassingen worden momenteel niet ondersteund. Zodra je je invoegtoepassing hebt geselecteerd, moet je akkoord gaan met een aantal aanvullende voorwaarden om door te gaan. <br/><br/> OPMERKING: Met de optie Office Store worden updates en verbeteringen aan de invoegtoepassing automatisch beschikbaar gesteld aan gebruikers zonder tussenkomst.
 
-5. Selecteer **op**de volgende pagina Iedereen , **Specifieke gebruikers/groepen** of **Just me** om aan te geven aan wie de invoegtoepassing is geïmplementeerd. Gebruik het vak Zoeken om de gebruikers of groepen te zoeken waarvoor u de invoegtoepassing wilt implementeren. <br/>OPMERKING: Meer informatie over de andere staten die van toepassing zijn op een invoegtoepassing. Zie [Statussen van invoegtoepassingen](#add-in-states) verderop in dit onderwerp.
+5. Selecteer op de volgende pagina **Iedereen**, **Specifieke gebruikers/groepen** of **Just me** om aan te geven aan wie de invoegtoepassing is geïmplementeerd. Gebruik het vak Zoeken om de gebruikers of groepen te zoeken waarvoor u de invoegtoepassing wilt implementeren. <br/>OPMERKING: Meer informatie over de andere statussen die van toepassing zijn op een invoegtoepassing. Zie [Statussen van invoegtoepassingen](#add-in-states) verderop in dit onderwerp.
   
 6. Selecteer **Implementeren**.
   
-7. Er verschijnt een groen vinkje wanneer de invoegtoepassing is geïmplementeerd. U de instructies op de pagina volgen om te testen of de invoegtoepassing is geïmplementeerd.
+7. Er verschijnt een groene teek wanneer de invoegtoepassing is geïmplementeerd. U de instructies op de pagina volgen om te testen of de invoegtoepassing is geïmplementeerd.
 
 > [!NOTE]
-> Gebruikers moeten Office mogelijk opnieuw opstarten om het invoegpictogram op het lint van de app te zien verschijnen. Het kan tot 12 uur duren voordat Outlook-invoegins op de linten van gebruikers worden weergegeven.
+> Gebruikers moeten Office mogelijk opnieuw starten om het invoegpictogram op het lint van de app te zien verschijnen. Outlook-invoegtoepassingen kunnen tot 12 uur duren voordat ze op linten van gebruikers worden weergegeven.
     
-8. Als u klaar bent, selecteert u **Volgende**. Als u alleen bij uzelf bent geïmplementeerd, u Wijzigen selecteren **wie toegang heeft tot invoegtoepassing** om te implementeren voor meer gebruikers.
+8. Selecteer **Volgende**als u klaar bent. Als u alleen bent geïmplementeerd, u Wijzigen selecteren **die toegang heeft tot invoegtoepassing** om meer gebruikers te implementeren.
 
 
 
-Als u de invoegtoepassing hebt geïmplementeerd op andere leden van uw organisatie dan uzelf, volgt u de instructies die worden weergegeven om de implementatie van de invoegtoepassing effectief aan te kondigen. <br/>U ziet nu uw invoegtoepassing samen met andere apps in Microsoft 365.
+Als u de invoegtoepassing voor leden van uw organisatie anders dan uzelf hebt geïmplementeerd, volgt u de instructies die worden weergegeven om de implementatie van de invoegtoepassing effectief aan te kondigen. <br/>U ziet nu uw invoegtoepassing samen met andere apps in Microsoft 365.
   
 Laat gebruikers en groepen weten dat u de invoegtoepassing hebt geïmplementeerd en dat deze nu voor hen beschikbaar is. U kunt ook een e-mailbericht naar gebruikers en groepen sturen waarin u beschrijft wanneer en hoe de invoegtoepassing kan worden gebruikt en hoe de invoegtoepassing kan helpen hun werk beter te doen. Neem relevante Help-inhoud of veelgestelde vragen op (of een koppeling hiernaartoe) voor het geval gebruikers problemen met de invoegtoepassing hebben.
   
@@ -103,13 +103,13 @@ Beheerders kunnen een invoegtoepassing aan iedereen of aan specifieke gebruikers
     
 - **Groepen**: Als u een invoegtoepassing aan een groep toewijst, wordt de invoegtoepassing automatisch toegewezen aan gebruikers die aan de groep zijn toegevoegd. En wanneer een gebruiker uit een groep wordt verwijderd, heeft de gebruiker niet langer toegang tot de invoegtoepassing. In beide gevallen hoeft u als beheerder geen extra actie uit te voeren. 
 
-- **Just me:** Als u een add-in toewijst aan alleen uzelf, wijst dit de invoegtoepassing toe aan alleen uw account. Dit is ideaal als u de add-in eerst wilt testen.
+- **Just me**: Als u een invoegtoepassing aan uzelf toewijst, wijst dit de invoegtoepassing alleen aan uw account toe. Dit is ideaal als u de add-in eerst wilt testen.
     
 Welke optie voor uw organisatie geschikt is, is afhankelijk van uw configuratie. U wordt echter aangeraden toewijzingen via groepen te maken. Als beheerder kunt u mogelijk handiger invoegtoepassingen beheren door gebruik te maken van groepen. U kunt dan het lidmaatschap van deze groepen beheren in plaats van dat u telkens de toegewezen gebruikers moet wijzigen. Aan de andere kant wilt u de toegang in sommige gevallen misschien beperken tot een zeer klein aantal gebruikers en geeft u daarom de voorkeur aan toewijzingen voor specifieke gebruikers. U moet de toegewezen gebruikers dan handmatig beheren.
   
 ### <a name="add-in-states"></a>Statussen van invoegtoepassingen
 
-Een invoegtoepassing kan in **de** aan- of **uitstatus** staan.
+Een invoegtoepassing kan zich in de status **Aan** of **Uit** besgaan.
   
 |**Status**|**Hoe de status optreedt**|**Impact**|
 |:-----|:-----|:-----|
@@ -140,22 +140,22 @@ Updates voor invoegtoepassingen worden als volgt uitgevoerd:
 - **Line-Of-Business-invoegtoepassing:** In dit geval, waarbij een beheerder een manifest expliciet heeft geüpload, wordt vereist dat de beheerder een nieuw manifestbestand uploadt zodat het wijzigen van metagegevens wordt ondersteund. De volgende keer dat de betreffende Office-toepassingen worden gestart, wordt de invoegtoepassing bijgewerkt. De webtoepassing kan elk moment worden gewijzigd. 
 
     > [!NOTE]
-    > Beheerder hoeft geen LOB-invoegtoepassing te verwijderen voor het uitvoeren van een update.   In de sectie Invoegtoepassing kan Beheerder eenvoudig op de LOB-invoegtoepassing klikken en de **knop Bijwerken** in de rechterbenedenhoek kiezen. Update werkt alleen als de versie van de nieuwe invoegtoepassing groter is dan die van de bestaande invoegtoepassing.   
+    > De beheerder hoeft geen LOB-invoegtoepassing te verwijderen voor het uitvoeren van een update.   In de sectie Invoegtoepassingen kan admin eenvoudig op de LOB-invoegtoepassing klikken en de **knop Bijwerken** rechtsonder kiezen. Update werkt alleen als de versie van de nieuwe invoegtoepassing groter is dan die van de bestaande invoegtoepassing.   
     
 - **Office Store-invoegtoepassing:** Als een beheerder een invoegtoepassing in de Office Store heeft geselecteerd (als een invoegtoepassing in de Office Store wordt bijgewerkt), wordt de invoegtoepassing later bijgewerkt in Gecentraliseerde implementatie. De volgende keer dat de betreffende Office-toepassingen worden gestart, wordt de invoegtoepassing bijgewerkt. De webtoepassing kan elk moment worden gewijzigd. 
 
-### <a name="edit-add-in-access"></a>Invoegtoepassing toegang bewerken
+### <a name="edit-add-in-access"></a>Invoegtoepassingstoegang bewerken
 
-Na implementatie kunnen beheerders ook de toegang van de gebruiker tot invoegingen wijzigen.
+Na de implementatie kunnen beheerders ook de gebruikerstoegang tot invoegtoepassingen wijzigen.
 
-1. Ga in het beheercentrum **Settings**naar de pagina  >  **Instellingenservices & invoegingen.**
+1. Ga in het beheercentrum **Settings**naar de  >  **pagina Instellingenservices & invoegtoepassingen.**
 
 2. Selecteer de geïmplementeerde invoegtoepassing.
 
-3. Klik op **Bewerken** onder **Wie heeft toegang**.
+3. Klik op **Bewerken** onder **Wie heeft Toegang**.
 4. Sla de wijzigingen op.
     
-### <a name="prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook"></a>Invoegdownloads voorkomen door de Office Store voor alle clients uit te schakelen (behalve Outlook)
+### <a name="prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook"></a>Downloads van invoegtoepassing voorkomen door de Office Store voor alle clients uit te schakelen (behalve Outlook)
 
 > [!NOTE]
 > De installatie van Outlook-invoegtoepassingen wordt beheerd via een [ander proces](https://technet.microsoft.com/library/jj943754%28v=exchg.150%29.aspx).
@@ -166,9 +166,9 @@ Aanschaf van invoegtoepassingen uitschakelen:
   
 1. Ga in het beheercentrum naar de pagina**Instellingen** \> [Services &amp; invoegtoepassingen](https://go.microsoft.com/fwlink/p/?linkid=2053743).
     
-3. Selecteer **apps en services die eigendom zijn van gebruikers**.
+3. Selecteer **apps en services van gebruikers.**
     
-4. Schakel de optie uit om gebruikers toegang te geven tot de Office Store.
+4. Schakel de optie uit om gebruikers toegang te geven tot het Office-winkel.
 
 Hierdoor wordt voorkomen dat alle gebruikers de volgende invoegtoepassingen via de store kunnen aanschaffen.
   
@@ -183,9 +183,9 @@ Hierdoor wordt voorkomen dat alle gebruikers de volgende invoegtoepassingen via 
     
 - Aanschaf die begint vanuit **AppSource**
     
-- Invoegingen binnen Microsoft 365
+- Invoegtoepassingen binnen Microsoft 365
     
-Een gebruiker die toegang probeert te krijgen tot het archief, ziet het volgende bericht: **Microsoft 365 is geconfigureerd om te voorkomen dat er afzonderlijke invoegnamen in de Office Store worden gekocht.**
+Een gebruiker die toegang probeert te krijgen tot de store, ziet het volgende bericht: **Sorry, Microsoft 365 is geconfigureerd om individuele acquisitie van Office Store-invoegtoepassingen te voorkomen.**
   
 Ondersteuning voor het uitschakelen van Office Store is beschikbaar in de volgende versies:
   
@@ -219,12 +219,12 @@ Als u wilt dat uw school of organisatie voldoet aan de AVG-vereisten voor minder
 |||
 |:-----|:-----|
 |**Platform** <br/> |**Buildnummer** <br/> |
-|Microsoft 365 Apps for enterprise (maandelijks kanaal)  <br/> |9001.2138   <br/> |
-|Microsoft 365 Apps for enterprise (semi-jaarlijks kanaal)  <br/> |8431.2159  <br/> |
+|Microsoft 365-apps voor bedrijven (huidig kanaal)  <br/> |9001.2138   <br/> |
+|Microsoft 365 Apps voor bedrijven (halfjaarlijks Bedrijfskanaal)  <br/> |8431.2159  <br/> |
 |Office 2016 voor Windows  <br/> |16.0.4672.1000  <br/> |
 |Office 2013 voor Windows  <br/> |15.0.5023.1000  <br/> |
 |Office 2016 voor Mac  <br/> |16.11.18020200  <br/> |
-|Office voor internet  <br/> |N.v.t.  <br/> |
+|Office voor het web  <br/> |N.v.t.  <br/> |
    
  **Voor Outlook**: 
   
@@ -242,7 +242,7 @@ Als u wilt dat uw school of organisatie voldoet aan de AVG-vereisten voor minder
   
 Word, Excel en PowerPoint 2013 voor Windows ondersteunen dezelfde secundaire controles als Active Directory Authentication Library (ADAL) is ingeschakeld. Er zijn twee opties voor naleving, zoals hierna wordt beschreven.
   
-- **ADAL inschakelen**. In dit artikel wordt uitgelegd hoe u ADAL voor Office 2013 inschakelt: [Microsoft 365-moderne verificatie gebruiken met Office-clients](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016).<br/>U hebt ook de registersleutels nodig om ADAL in te schakelen, zoals wordt beschreven in [Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten](../security-and-compliance/enable-modern-authentication.md).<br/>Daarnaast moet u deze updates van april voor Office 2013 installeren:
+- **ADAL inschakelen**. In dit artikel wordt uitgelegd hoe u ADAL voor Office 2013 inschakelen: [Microsoft 365 moderne verificatie gebruiken met Office-clients](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016).<br/>U hebt ook de registersleutels nodig om ADAL in te schakelen, zoals wordt beschreven in [Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten](../security-and-compliance/enable-modern-authentication.md).<br/>Daarnaast moet u deze updates van april voor Office 2013 installeren:
     
   - [Beschrijving van de beveiligingsupdate voor Outlook 2013: 10 april 2018](https://support.microsoft.com/help/4018330/description-of-the-security-update-for-office-2013-april-10-2018)
     
@@ -256,39 +256,39 @@ Nu u de invoegtoepassing hebt geïmplementeerd, kunnen uw eindgebruikers deze ga
   
 Als de invoegtoepassing opdrachten van de invoegtoepassing ondersteunt, verschijnen de opdrachten in het Office-lint. In het volgende voorbeeld wordt de opdracht **Bronvermelding zoeken** weergegeven voor de invoegtoepassing **Bronvermeldingen**. 
 
-![Office-lint met zoekcitaten](../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
+![Office-lint met zoekvermeldingen](../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
   
 Als de geïmplementeerde invoegtoepassing geen ondersteuning biedt voor opdrachten van de invoegtoepassing of als u alle geïmplementeerde invoegtoepassingen wilt weergeven, kunt u ze weergeven via **Mijn invoegtoepassingen**. 
   
 ### <a name="in-word-2016-excel-2016-or-powerpoint-2016"></a>In Word 2016, Excel 2016 of PowerPoint 2016
 
-1. Selecteer ** \> Mijn invoegingen invoegen**. 
+1. Selecteer ** \> Mijn invoegtoepassingen invoegen**. 
     
 2. Selecteer het tabblad **Beheerd door beheerder** in het venster Office-invoegtoepassingen. 
     
-3. Dubbelklik op de invoegtoepassing die u eerder hebt geïmplementeerd (in dit voorbeeld **Bronvermeldingen** ). <br/>![Tabblad Beheerd beheer van office-invoegtoepassing](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)
+3. Dubbelklik op de invoegtoepassing die u eerder hebt geïmplementeerd (in dit voorbeeld **Bronvermeldingen** ). <br/>![Tabblad Beheerde van de pagina Office-invoegtoepassingen](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)
   
 ### <a name="in-outlook"></a>In Outlook
 
-1. Selecteer op het lint **Start** de optie **Invoegtoepassing ophalen**.<br/>![Knop Store in Outlook](../../media/getaddinsicon.png)
+1. Selecteer op **het** startlint de optie **Invoegtoepassingen ophalen**.<br/>![Knop Store in Outlook](../../media/getaddinsicon.png)
   
-2. Selecteer **Beheerd beheerd door beheerders** in de linkernavigatie.
+2. Selecteer **Beheerd beheer** in het linkernavigatiesysteem.
 
 ## <a name="delete-the-add-in"></a>De invoegtoepassing verwijderen
 
 U ook een invoegtoepassing verwijderen die is geïmplementeerd.
 
-1. Ga in het beheercentrum **Settings**naar de pagina  >  **Instellingenservices & invoegingen.**
+1. Ga in het beheercentrum **Settings**naar de  >  **pagina Instellingenservices & invoegtoepassingen.**
 
 2. Selecteer de geïmplementeerde invoegtoepassing.
 
-3. Klik op **Invoegtoepassing verwijderen**. Verwijder de knop Invoegtoepassing rechtsonder.
-4. Valideer uw selecties en kies **Invoegtoepassing verwijderen**.
+3. Klik op **Invoegtoepassing verwijderen**. Verwijder de invoegknop rechtsonder.
+4. Valideer uw selecties en kies **Invoegtoepassing verwijderen.**
   
 ## <a name="learn-more"></a>Meer informatie
 
 Lees meer over het maken en bouwen van [Office-invoegtoepassingen](https://go.microsoft.com/fwlink/p/?linkid=846362).
   
-[Gebruik gecentraliseerde PowerShell-cmdlets voor het beheren van invoegingen.](https://docs.microsoft.com/office365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)
+[Gebruik Gecentraliseerde PowerShell-cmdlets voor het beheren van invoegtoepassingen.](https://docs.microsoft.com/office365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)
   
-[Problemen oplossen: gebruiker die geen invoegingen ziet](https://docs.microsoft.com/office365/troubleshoot/access-management/user-not-seeing-add-ins)
+[Problemen oplossen: gebruiker ziet geen invoegtoepassingen](https://docs.microsoft.com/office365/troubleshoot/access-management/user-not-seeing-add-ins)
