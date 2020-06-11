@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 05/27/2020
+ms.date: 06/03/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Configureer de beveiligings- en service-infrastructuur waardoor uw werknemers altijd en overal op afstand kunnen werken.
-ms.openlocfilehash: ce287cdf5bcbd0283252b08c035dc954044a9c0e
-ms.sourcegitcommit: 416a4b87bfd7e5aff80194b59b2776f054aa8eb5
+ms.openlocfilehash: 763c8e745eb54897c1df88ecb5a9064987ed5a13
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44534959"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560460"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Externe werknemers mogelijkheden bieden met Microsoft 365
 
@@ -38,7 +38,17 @@ Onder extern werken, ook wel telewerken wordt genoemd, valt het volgende:
 - Bepaalde werknemers die fulltime extern werken.
 - Een volledig externe organisatie die geen kantoor heeft en waarvan alle werknemers extern werken.
 
-Ter ondersteuning van externe medewerkers, bijvoorbeeld in reactie op de COVID-19-crisis, is er een combinatie van functies beschikbaar in Microsoft 365 waarmee ze heel goed kunnen samenwerken, zoals:
+Externe werknemers moeten overal ter wereld en op elk gewenst moment toegang hebben tot:
+
+- Resources van de organisatie, zoals de resources van on-premises toepassingsdatacenters.
+- Cloudservices en gegevens in uw Microsoft 365-abonnement, zoals Teams, Exchange Online, SharePoint en OneDrive.
+
+Voor een naadloze aanmelding moeten de gebruikersaccounts van Active Directory Domain Services (AD DS) worden gesynchroniseerd met Azure Active Directory (Azure AD). Als u uw Windows 10-apparaten wilt beveiligen, moeten ze worden ingeschreven in Intune. Dit is een algemeen overzicht van de infrastructuur.
+
+![De basisinfrastructuur voor externe werknemers met Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-basic-infrastructure.png)
+
+
+Ter ondersteuning van externe werknemers, bijvoorbeeld in reactie op de COVID-19-crisis, is er een combinatie van functies beschikbaar in Microsoft 365 waarmee ze heel goed kunnen samenwerken, zoals:
 
 - Onlinevergaderingen en chatsessies.
 - Gedeelde werkruimten voor cloudopslag met wereldwijde toegankelijkheid en realtime samenwerking.
@@ -51,27 +61,25 @@ Voor een krachtige beveiliging bevat Microsoft 365 het volgende:
 - Machtigingen om te definiëren wie wat mag doen met bestanden.
 - Uitgebreide beveiligingsfuncties om Windows 10-apparaten te beveiligen.
 
-Als u aan deze criteria voor externe werknemers wilt voldoen, gebruikt u de volgende functies van Microsoft 365:
+Als u aan deze criteria voor externe werknemers wilt voldoen, gebruikt u de volgende functies van Microsoft 365.
 
-- Gebruikersidentiteit en aanmeldingsbeveiliging
-  - Azure Active Directory-gebruikersaccounts (Azure AD) met meervoudige verificatie (MFA)
-  - Een beleid voor voorwaardelijke toegang om MFA te vereisen voor risicovolle aanmeldingen (Microsoft 365 E5)
-- Samenwerkingsplatforms
-  - Microsoft Teams, SharePoint en OneDrive, waarmee externe werknemers online videovergaderingen kunnen plannen en bijwonen en tegelijk aan dezelfde documenten kunnen werken
-- Veilige toegang tot bronnen
-  - Groepen en machtigingen voor Teams, SharePoint-sites en OneDrive, zodat alleen geverifieerde, gemachtigde gebruikers toegang hebben
-- Bescherming voor gelekte bestanden
-  - Gevoeligheidslabels voor versleuteling en machtigingen die met bestanden worden verzonden.
-- Apparaatbeheer en -beveiliging met Microsoft Intune
-  - Inschrijving voor beheerde apparaten
-  - App-instellingen voor persoonlijke apparaten
-  - Beleid voor apparaten en apps
-- Productiviteits-apps voor apparaten
-  - Microsoft 365-apps (Word, PowerPoint, Excel) voor samenwerking via Teams, Exchange, SharePoint en OneDrive 
-- Windows 10 Enterprise
-  - Ingebouwd pakket van beveiligingsfuncties ter bescherming tegen cyberaanvallen en ter voorkoming van het lekken van gegevens
-- Toegang tot on-premises apps en servers
-  - VPN-verbindingen (virtueel particulier netwerk), Azure AD-toepassingsproxy of Azure Point-to-Site VPN
+| Functie | Beschrijving | Licenties |
+|:-------|:-----|:-------|
+| Afgedwongen door MFA en met standaardbeveiligingsinstellingen   | Beveilig uw identiteiten en apparaten met een tweede vorm van verificatie voor aanmeldingen. Als standaardinstelling voor de beveiliging is MFA vereist voor alle gebruikersaccounts.   | Microsoft 365 E3 en E5 |
+| Afgedwongen door MFA en met voorwaardelijke toegang| Gebruik beleid voor voorwaardelijke toegang om MFA te vereisen op basis van de eigenschappen van de aanmelding.    | Microsoft 365 E3 en E5 | 
+| Afgedwongen door MFA en met voorwaardelijke toegang op basis van risico   | Gebruik Azure Advanced Threat Protection om MFA te vereisen op basis van het risico van de gebruikersaanmelding. | Microsoft 365 E5 of E3 met Azure AD Premium P2-licenties | 
+| Selfservice voor wachtwoordherstel (SSPR)    | Sta toe dat gebruikers hun wachtwoorden of accounts opnieuw kunnen instellen of ontgrendelen.  | Microsoft 365 E3 en E5 |
+| Azure AD-toepassingsproxy    | Bied beveiligde externe toegang bieden voor webtoepassingen die worden gehost op intranetservers.   | Hiervoor is een afzonderlijk betaald Azure-abonnement vereist |
+| Azure-punt-naar-site-VPN   | Maak een veilige verbinding tussen het apparaat van een externe werknemer en uw intranet via een virtueel Azure-netwerk.   | Hiervoor is een afzonderlijk betaald Azure-abonnement vereist |
+| Windows Virtual Desktop   | Bied ondersteuning voor externe werknemers die alleen hun persoonlijke en niet-beheerde apparaten kunnen gebruiken met virtuele bureaubladen die worden uitgevoerd in Azure. | Hiervoor is een afzonderlijk betaald Azure-abonnement vereist |
+| Extern bureaublad-services (RDS) | Geef werknemers toestemming om verbinding te maken met Windows-computers op uw intranet. | Microsoft 365 E3 en E5 | 
+| Gateway voor extern bureaublad-services   | Versleutel de communicatie en voorkom dat de RDS-hosts rechtstreeks worden weergegeven op internet. | Hiervoor zijn afzonderlijke Windows Server-licenties vereist |
+| Microsoft Intune | Beheer apparaten en toepassingen.   | Microsoft 365 E3 en E5 | 
+| Configuration Manager | Software-installaties, updates en instellingen op uw apparaten beheren | Hiervoor zijn afzonderlijke Configuration Manager-licenties vereist |
+| Desktop Analytics | Bepaal de updategereedheid van uw Windows-clients.   | Hiervoor zijn afzonderlijke Configuration Manager-licenties vereist |
+| Windows Autopilot | Configureer de nieuwe Windows 10-apparaten vooraf voor productief gebruik.   | Microsoft 365 E3 en E5 |
+| Microsoft Teams, Exchange Online, SharePoint Online en OneDrive, Microsoft 365-apps, Microsoft Power platform, Yammer en Power Apps | Maak, communiceer en werk samen. | Microsoft 365 E3 en E5 |
+||||
 
 Gebruik de volgende stappen om de toegang tot de servers, gegevens en cloudservices van uw organisatie te beveiligen en optimaliseren, en uw werknemers maximaal productief te laten zijn.
 
