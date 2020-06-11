@@ -181,10 +181,10 @@ TTL:                3600
 ```
 
 > [!NOTE]
-> Het is belangrijk om de tweede record te maken, maar mogelijk is slechts één van de kiezers beschikbaar op het moment dat het bestand wordt gemaakt. In wezen kan de tweede kiezer verwijzen naar een adres dat nog niet is gemaakt. We raden u niettemin aan om de tweede CNAME-record te maken, omdat de sleutelroulatie dan probleemloos zal verlopen.
+> Het is belangrijk om de tweede record te maken, maar mogelijk is slechts één van de kiezers beschikbaar op het moment dat het bestand wordt gemaakt. In wezen kan de tweede kiezer verwijzen naar een adres dat nog niet is gemaakt. We raden u niettemin aan om de tweede CNAME-record te maken, omdat de sleutelrotatie dan probleemloos zal verlopen.
 
 > [!CAUTION]
-> Automatische sleutelroulatie is tijdelijk uitgeschakeld terwijl er enkele ontwerpwijzigingen worden doorgevoerd in de manier waarop we sleutels maken. Het is een goede gewoonte om meerdere sleutels te hebben, zodat u ze regelmatig kunt rouleren. Hoewel ze moeilijk te kraken zijn, is het nog steeds een praktische beperkingsstrategie tegen zaken zoals imitatie. Raadpleeg het document [Rotate DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/rotate-dkimsigningconfig) voor informatie over hoe u dit kunt doen voor uw organisatie. We verwachten dat automatische roulatie weer wordt ingeschakeld vóór augustus 2020.
+> Automatische sleutelrotatie is tijdelijk uitgeschakeld terwijl er enkele ontwerpwijzigingen worden doorgevoerd in de manier waarop we sleutels maken. Het is een goede gewoonte om meerdere sleutels te hebben, zodat u ze regelmatig kunt roteren. Hoewel ze moeilijk te kraken zijn, is het nog steeds een praktische beperkingsstrategie tegen zaken zoals imitatie. Raadpleeg het document [Rotate DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/rotate-dkimsigningconfig) voor informatie over hoe u dit kunt doen voor uw organisatie. We verwachten dat automatische rotatie weer wordt ingeschakeld vóór augustus 2020.
 
 ### <a name="enable-dkim-signing-for-your-custom-domain"></a>DKIM-ondertekening voor uw aangepaste domein inschakelen
 <a name="EnableDKIMinO365"> </a>
