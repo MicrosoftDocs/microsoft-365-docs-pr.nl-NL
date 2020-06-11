@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b0703aa14bee3d14d1c3ff4fe46ea9d72de73ce2
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: 8a3e4b8979a346266336e2729d18465d391c28f9
+ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515865"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689264"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Microsoft Threat Protection preview-functies
 
@@ -58,6 +58,8 @@ U weet dat u voorbeeldfuncties hebt ingeschakeld wanneer u ziet dat het selectie
 De volgende functies en verbeteringen zijn momenteel beschikbaar in preview:
 
 - **[Identiteits- en apptabellen](advanced-hunting-schema-tables.md)** — krijg inzicht in verificatiegebeurtenissen, Active Directory-query's en app-gerelateerde activiteiten met de [tabellen IdentityLogonEvents,](advanced-hunting-identitylogonevents-table.md) [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)en [AppFileEvents](advanced-hunting-appfileevents-table.md) in het geavanceerde jachtschema.
+
+- **[Ga op jacht](advanced-hunting-go-hunt.md)** — draai snel van het onderzoeken van een incident tot het inspecteren van een specifieke gebeurtenis, een gebruiker, een apparaat of andere entiteitstypen met behulp van geavanceerde [jachtmogelijkheden](advanced-hunting-overview.md) op basis van query's.
 
 - **[De tabel E-mailpostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** - gebruik deze tabel om [geavanceerde](advanced-hunting-overview.md) jachtquery's te maken die controleren op acties die zijn uitgevoerd op e-mails nadat ze aan postvakken van geadresseerden zijn bezorgd.
 
