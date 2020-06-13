@@ -130,6 +130,8 @@
                   href: mtp/advanced-hunting-shared-queries.md
                 - name: Op apparaten en e-mailberichten opsporen
                   href: mtp/advanced-hunting-query-emails-devices.md
+                - name: Beginnen met opsporen
+                  href: mtp/advanced-hunting-go-hunt.md
                 - name: Gegevensschema
                   items:
                     - name: Meer informatie over het schema

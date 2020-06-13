@@ -15,12 +15,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Meer informatie over de instellingen voor het delen met gasten in Microsoft 365 die van invloed kunnen zijn op het delen met personen buiten uw organisatie.
-ms.openlocfilehash: a1c734adfe72d5eff5f18e67116544fd63eb854a
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 35a1a20e65eccddcb1117f9def09bd4fdfc7f161
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160133"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679142"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 guest sharing settings reference (Overzicht van de instellingen voor delen met gasten van Microsoft 365)
 
@@ -195,7 +195,7 @@ Als u wilt beperken wie er met gasten kan delen in SharePoint en OneDrive, kunt 
 |Alleen gebruikers in geselecteerde beveiligingsgroepen kunnen met externe gebruikers delen|Uit|Wanneer **Aan** kunnen alleen de personen in de opgegeven beveiligingsgroepen met externe gebruikers delen. Alleen *Specifieke personen*-koppelingen zijn beschikbaar. Met *Iedereen* delen wordt in feite uitgeschakeld, tenzij **Alleen gebruikers in geselecteerde beveiligingsgroepen toestaan met geverifieerde externe gebruikers delen en met gebruik van anonieme koppelingen** ook **Aan** is|
 |Alleen gebruikers in geselecteerde beveiligingsgroepen kunnen met externe gebruikers delen en met gebruik van anonieme koppelingen|Uit|Wanneer **Aan** kunnen alleen de personen in de opgegeven beveiligingsgroepen met gasten delen. Zowel *Iedereen*- als *Specifieke personen*-koppelingen zijn beschikbaar.|
 
-Beide instellingen kunnen tegelijkertijd worden gebruikt. Als een gebruiker in een beveiligingsgroep voor beide instellingen wordt opgegeven, is het hogere machtigingsniveau van toepassing (*Iedereen* plus *Specifieke gebruikers*).
+Beide instellingen kunnen tegelijkertijd worden gebruikt. Als een gebruiker in een beveiligingsgroep voor beide instellingen wordt opgegeven, is het hogere machtigingsniveau van toepassing (*Iedereen* plus *Specifieke gebruikers*). Geneste beveiligingsgroepen worden ondersteund.
 
 ## <a name="sharepoint-site-level"></a>SharePoint (siteniveau)
 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ontdek hoe Contoso Microsoft Endpoint Configuration Manager gebruikt om Microsoft 365-apps voor ondernemingen te implementeren.
-ms.openlocfilehash: 2ff05a079d83389ed94445fc011b9f7902c6de56
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 4a36e33a6f2ef6df880864dd852f0f63056946e6
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011885"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679036"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Implementatie van Microsoft 365-apps voor ondernemingen voor Contoso
 
@@ -53,10 +53,10 @@ In plaats van updates voor Office met Configuration Manager te beheren, heeft Co
 
 Contoso heeft dezelfde twee fasen gevolgd voor functie-updates als voor de implementatie van Office: apparaten in de pilotgroep ontvingen de functie-updates van vier maanden eerder dan de apparaten in de rest van de organisatie (de brede groep). Om dit in te schakelen voor Office, heeft Contoso twee aanbevolen [updatekanalen](https://docs.microsoft.com/DeployOffice/overview-update-channels) gebruikt: 
 
-- Semi-Annual-kanaal (Targeted) voor updates voor de pilotgroep 
-- Semi-Annual-kanaal voor updates voor de brede groep. 
+- Halfjaarlijks Enterprise-kanaal (voorbeeld) voor updates voor de pilotgroep 
+- Halfjaarlijks Enterprise-kanaal voor updates voor de brede groep. 
 
-Omdat het Semi-Annual-kanaal (Targeted) een versie van Microsoft 365-apps voor ondernemingen vier maanden eerder dan het Semi-Annual-kanaal uitgeeft, heeft Contoso de tijd om de updates te valideren zonder deze te moeten beheren. 
+Omdat het Halfjaarlijkse Enterprise-kanaal (voorbeeld) een versie van Microsoft 365-apps voor ondernemingen vier maanden eerder dan het Halfjaarlijkse Enterprise-kanaal uitgeeft, heeft Contoso de tijd om de updates te valideren zonder deze te moeten beheren. 
 
 ## <a name="deployment-process"></a>Implementatieproces
 
@@ -65,7 +65,7 @@ Contoso implementeerde het volgende proces, met de aanbevolen procedures van Mic
 1. Vóór de implementatie gebruikten ze de Readiness Toolkit om hun apps en invoegtoepassingen van Office te testen om zo de compatibiliteit met Microsoft 365-apps voor ondernemingen te evalueren.
 2. In Configuration Manager had Contoso peer-cache ingeschakeld op hun clientapparaten, wat nuttig was bij de beperkte netwerkcapaciteit tijdens de implementatie op clientapparaten op externe locaties. 
 3. Ze hebben twee implementatiegroepen als verzamelingen gedefinieerd in Configuration Manager: een pilotgroep en een brede groep. De pilotgroep, die bestond uit een klein aantal representatieve apparaten verspreid in de hele organisatie, werd gebruikt voor het extra testen van apps, invoegtoepassingen en hardware met Windows 10 Enterprise en Microsoft 365-apps voor ondernemingen. 
-4. Ze hebben implementatiepakketten voor Office gemaakt met het clientbeheerdashboard van Office en de installatiewizard van Office 365. Beide zijn onderdeel van de Configuration Manager-console. Zij bouwden twee pakketten van Microsoft 365-apps voor ondernemingen, één voor de pilotgroep op het semi-Annual-kanaal (Targeted) en één voor de brede groep op het semi-Annual-kanaal. 
+4. Ze hebben implementatiepakketten voor Office gemaakt met het clientbeheerdashboard van Office en de installatiewizard van Office 365. Beide zijn onderdeel van de Configuration Manager-console. Zij bouwden twee pakketten van Microsoft 365-apps voor ondernemingen, één voor de pilotgroep op het Halfjaarlijkse Enterprise-kanaal (voorbeeld) en één voor de brede groep op het Halfjaarlijkse Enterprise-kanaal. 
 5. Als onderdeel van elk Office-pakket hadden ze de taalpakketten Engels, Frans en Duits toegevoegd. Als een apparaat een taal vereiste die niet was opgenomen in het Office-pakket, werd deze automatisch gedownload vanuit het CDN van Office (netwerk voor contentlevering).
 6. Ze gebruikten de ingebouwde functie in het Office-pakket om alle bestaande MSI-versies van Office automatisch te verwijderen voordat Microsoft 365-apps voor ondernemingen werd geïnstalleerd.
 7. In Configuration Manager hebben ze de Windows-en Office-pakketten geïmplementeerd op distributiepunten verspreid over het netwerk en vervolgens hebben ze de takenreeks voor de implementatie van Configuration Manager uitgevoerd om het pakket van Microsoft 365-apps voor ondernemingen te implementeren in de pilotgroep.
