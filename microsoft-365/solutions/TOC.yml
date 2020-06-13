@@ -70,6 +70,22 @@
               href: microsoft-365-guest-settings.md
     - name: Bedreigingsbeveiliging implementeren in Microsoft 365
       href: deploy-threat-protection.md
+    - name: Informatiebescherming implementeren voor gegevensprivacyregels
+      items:
+        - name: Overzicht
+          href: information-protection-deploy.md
+        - name: Plan
+          href: information-protection-deploy-assess.md
+        - name: Bijhouden
+          href: information-protection-deploy-compliance.md
+        - name: Voorkomen
+          href: information-protection-deploy-identity-device-threat.md
+        - name: Beveiligen
+          href: information-protection-deploy-protect-information.md
+        - name: Behouden
+          href: information-protection-deploy-govern.md
+        - name: Onderzoeken
+          href: information-protection-deploy-monitor-respond.md
 - name: Oplossingen en scenario's voor werkbelastingen
   items:
     - name: Overzicht
