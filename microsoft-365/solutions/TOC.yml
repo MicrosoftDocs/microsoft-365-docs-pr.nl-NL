@@ -28,9 +28,10 @@
         - name: Stap 6. Externe werknemers trainen
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Veilige samenwerking met Microsoft 365 instellen
-      href: setup-secure-collaboration-with-teams.md
       items:
-        - name: Drie beveiligingsniveaus met Microsoft Teams
+        - name: Overzicht
+          href: setup-secure-collaboration-with-teams.md
+        - name: Stap 1. Drie beveiligingsniveaus met Microsoft Teams configureren
           items:
             - name: Overzicht van drie beveiligingsniveaus
               href: configure-teams-three-tiers-protection.md
@@ -42,7 +43,7 @@
               href: configure-teams-highly-sensitive-protection.md
             - name: Een team configureren met beveiligingsisolatie
               href: secure-teams-security-isolation.md
-        - name: Extern delen configureren
+        - name: Stap 2. Extern delen configureren
           items:
             - name: Overzicht van extern delen
               href: collaborate-with-people-outside-your-organization.md
@@ -69,7 +70,11 @@
             - name: Verwijzing voor extern delen
               href: microsoft-365-guest-settings.md
     - name: Bedreigingsbeveiliging implementeren in Microsoft 365
-      href: deploy-threat-protection.md
+      items:
+        - name: Overzicht
+          href: deploy-threat-protection.md
+        - name: Stappen voor het implementeren van bedreigingsbeveiliging
+          href: deploy-threat-protection-configure.md
     - name: Informatiebescherming implementeren voor gegevensprivacyregels
       items:
         - name: Overzicht

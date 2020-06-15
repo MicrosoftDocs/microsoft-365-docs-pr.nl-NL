@@ -472,6 +472,8 @@
               href: retry-failed-content-search.md
             - name: Zoekresultaten downloaden met Microsoft Edge
               href: configure-edge-to-export-search-results.md
+            - name: Zoeken naar eDiscovery-activiteiten in het auditlogboek
+              href: search-for-ediscovery-activities-in-the-audit-log.md
     - name: Advanced eDiscovery
       items:
         - name: Overzicht van Advanced eDiscovery
@@ -587,6 +589,8 @@
               href: permissions-filtering-for-content-search.md
             - name: Compliancegrenzen instellen
               href: set-up-compliance-boundaries.md
+            - name: Zoeken naar eDiscovery-activiteiten in het auditlogboek
+              href: search-for-ediscovery-activities-in-the-audit-log.md
             - name: Problemen met AzCopy oplossen
               href: troubleshooting-azcopy.md
     - name: Advanced eDiscovery (klassiek)
