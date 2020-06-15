@@ -41,14 +41,14 @@ Onder extern werken, ook wel telewerken wordt genoemd, valt het volgende:
 Externe werknemers moeten overal ter wereld en op elk gewenst moment toegang hebben tot:
 
 - Resources van de organisatie, zoals de resources van on-premises toepassingsdatacenters.
-- Cloudservices en gegevens in uw Microsoft 365-abonnement, zoals Teams, Exchange Online, SharePoint en OneDrive.
+- Cloudservices en -gegevens in uw Microsoft 365-abonnement, zoals Teams, Exchange Online, SharePoint en OneDrive.
 
 Voor een naadloze aanmelding moeten de gebruikersaccounts van Active Directory Domain Services (AD DS) worden gesynchroniseerd met Azure Active Directory (Azure AD). Als u uw Windows 10-apparaten wilt beveiligen, moeten ze worden ingeschreven in Intune. Dit is een algemeen overzicht van de infrastructuur.
 
 ![De basisinfrastructuur voor externe werknemers met Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-basic-infrastructure.png)
 
 
-Ter ondersteuning van externe werknemers, bijvoorbeeld in reactie op de COVID-19-crisis, is er een combinatie van functies beschikbaar in Microsoft 365 waarmee ze heel goed kunnen samenwerken, zoals:
+Ter ondersteuning van externe werknemers, bijvoorbeeld in reactie op de COVID-19-crisis, is er een combinatie van functies beschikbaar in Microsoft 365 waarmee ze beter kunnen samenwerken, zoals:
 
 - Onlinevergaderingen en chatsessies.
 - Gedeelde werkruimten voor cloudopslag met wereldwijde toegankelijkheid en realtime samenwerking.
@@ -65,7 +65,7 @@ Als u aan deze criteria voor externe werknemers wilt voldoen, gebruikt u de volg
 
 | Functie | Beschrijving | Licenties |
 |:-------|:-----|:-------|
-| Afgedwongen door MFA en met standaardbeveiligingsinstellingen   | Beveilig uw identiteiten en apparaten met een tweede vorm van verificatie voor aanmeldingen. Als standaardinstelling voor de beveiliging is MFA vereist voor alle gebruikersaccounts.   | Microsoft 365 E3 en E5 |
+| Afgedwongen door MFA en met standaardbeveiligingsinstellingen   | Voorkom gecompromitteerde identiteiten en apparaten met een tweede vorm van verificatie voor aanmeldingen. Als standaardinstelling voor de beveiliging is MFA vereist voor alle gebruikersaccounts.   | Microsoft 365 E3 en E5 |
 | Afgedwongen door MFA en met voorwaardelijke toegang| Gebruik beleid voor voorwaardelijke toegang om MFA te vereisen op basis van de eigenschappen van de aanmelding.    | Microsoft 365 E3 en E5 | 
 | Afgedwongen door MFA en met voorwaardelijke toegang op basis van risico   | Gebruik Azure Advanced Threat Protection om MFA te vereisen op basis van het risico van de gebruikersaanmelding. | Microsoft 365 E5 of E3 met Azure AD Premium P2-licenties | 
 | Selfservice voor wachtwoordherstel (SSPR)    | Sta toe dat gebruikers hun wachtwoorden of accounts opnieuw kunnen instellen of ontgrendelen.  | Microsoft 365 E3 en E5 |
@@ -78,7 +78,7 @@ Als u aan deze criteria voor externe werknemers wilt voldoen, gebruikt u de volg
 | Configuration Manager | Software-installaties, updates en instellingen op uw apparaten beheren | Hiervoor zijn afzonderlijke Configuration Manager-licenties vereist |
 | Desktop Analytics | Bepaal de updategereedheid van uw Windows-clients.   | Hiervoor zijn afzonderlijke Configuration Manager-licenties vereist |
 | Windows Autopilot | Configureer de nieuwe Windows 10-apparaten vooraf voor productief gebruik.   | Microsoft 365 E3 en E5 |
-| Microsoft Teams, Exchange Online, SharePoint Online en OneDrive, Microsoft 365-apps, Microsoft Power platform, Yammer en Power Apps | Maak, communiceer en werk samen. | Microsoft 365 E3 en E5 |
+| Microsoft Teams, Exchange Online, SharePoint Online en OneDrive, Microsoft 365-apps, Microsoft Power Platform, Yammer en Power Apps | Maak, communiceer en werk samen. | Microsoft 365 E3 en E5 |
 ||||
 
 Gebruik de volgende stappen om de toegang tot de servers, gegevens en cloudservices van uw organisatie te beveiligen en optimaliseren, en uw werknemers maximaal productief te laten zijn.
