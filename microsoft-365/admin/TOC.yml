@@ -22,14 +22,14 @@
               href: setup/setup-apps-for-business.md
         - name: De instellingspagina en wizard verkennen
           href: setup/o365-setup-wizard-and-setup-page.md
-        - name: Uw gegevens migreren
-          href: setup/migrate-email-and-contacts-admin.md
         - name: Office-apps installeren
           href: setup/install-applications.md
         - name: Windows-apparaten instellen
           href: ../business/set-up-windows-devices.md
         - name: Mobiele apparaten instellen
           href: ../business/set-up-mobile-devices.md
+        - name: Gegevens migreren naar Microsoft 365
+          href: setup/migrate-email-and-contacts-admin.md
         - name: Teams implementeren
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
         - name: App-training voor iedereen
@@ -117,6 +117,8 @@
               href: add-users/resend-user-password.md
             - name: Een sjabloon maken om gebruikers toe te voegen
               href: add-users/create-and-use-a-template-to-add-users.md
+            - name: Gebruikers upgraden naar de nieuwste apps
+              href: setup/upgrade-users-to-latest-office-client.md
         - name: Groepen
           items:
             - name: Groepsoverzicht
@@ -154,6 +156,8 @@
           href: email/add-another-email-alias-for-a-user.md
         - name: Uw aangepaste domein gebruiken
           href: email/change-email-address.md
+        - name: E-mail en contactpersonen migreren naar Microsoft 365
+          href: setup/migrate-email-and-contacts-admin.md
         - name: Handtekeningen en disclaimers maken
           href: setup/create-signatures-and-disclaimers.md
         - name: 'Een beveiligingsgroep maken, bewerken of verwijderen'
@@ -204,8 +208,6 @@
     - name: Uw gegevens en services beheren
       href: manage/index.yml
       items:
-        - name: Uw organisatie upgraden naar de meest recente apps
-          href: setup/upgrade-users-to-latest-office-client.md
         - name: Gebruikersactiviteiten controleren met behulp van rapporten
           href: activity-reports/activity-reports.md
         - name: De contactgegevens van uw organisatie wijzigen
@@ -313,15 +315,15 @@
     - name: Werken met klanten
       href: work-with-customers/index.yml
       items:
-        - name: Sites en bestanden extern delen
+        - name: Sites en bestanden delen met gastgebruikers
           href: manage/share-sites-with-external-users.md
         - name: Agenda's delen met gastgebruikers
           href: manage/share-calendars-with-external-users.md
-        - name: Een team met gasten maken
+        - name: Een Team met gastgebruikers maken
           href: 'https://support.office.com/article/11fbb083-52ee-434d-8c6e-63711fdafac7'
         - name: Een Teams-vergadering met gasten plannen
           href: 'https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a?ui=en-US&rs=en-US&ad=US'
-        - name: Deelnemen aan een Teams-vergadering met gasten
+        - name: Deelnemen aan een Teams-vergadering met gastgebruikers
           href: 'https://support.office.com/article/a120c282-063d-46b8-b973-851197ab75d8?ui=en-US&rs=en-US&ad=US'
     - name: Problemen oplossen
       href: 'https://docs.microsoft.com/office/troubleshoot/'

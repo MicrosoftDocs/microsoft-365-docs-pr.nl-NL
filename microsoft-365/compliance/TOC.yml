@@ -2,6 +2,8 @@
   href: index.yml
 - name: Aan de slag
   items:
+    - name: Snelle taken om aan de slag te gaan met compliance
+      href: compliance-quick-tasks.md
     - name: Wat is er nieuw in het compliancecentrum?
       href: whats-new.md
     - name: Recente updates voor compliance-inhoud
@@ -155,6 +157,8 @@
       href: encryption.md
     - name: Versleuteling van Office 365-service
       href: office-365-service-encryption.md
+    - name: Technische naslaginformatie over versleuteling in Office 365
+      href: technical-reference-details-about-encryption.md
     - name: Klantsleutel
       items:
         - name: Serviceversleuteling met klantsleutel in Office 365
@@ -198,8 +202,6 @@
           href: exchange-online-secures-email-secrets.md
         - name: Hoe Exchange Online TLS gebruikt voor het beveiligen van e-mailverbindingen in Office 365
           href: exchange-online-uses-tls-to-secure-email-connections.md
-        - name: Technische naslaginformatie over versleuteling in Office 365
-          href: technical-reference-details-about-encryption.md
         - name: BitLocker en Distributed Key Manager (DKM) voor versleuteling
           href: office-365-bitlocker-and-distributed-key-manager-for-encryption.md
         - name: OME (verouderd)
@@ -533,7 +535,7 @@
               href: add-data-to-review-set-from-another-review-set.md
         - name: Casegegevens controleren
           items:
-            - name: Het dashboard voor controlesets gebruiken (preview)
+            - name: Het dashboard voor controlesets gebruiken
               href: advanced-ediscovery-dashboard.md
             - name: Documenten weergeven in een controleset
               href: view-documents-in-review-set.md
