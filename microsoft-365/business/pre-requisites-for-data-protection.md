@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
 description: Meer informatie over de vereisten voor het instellen van uw organisatie met Microsoft 365 voor bedrijven en het beschermen van werkgegevens op de apparaten van uw gebruikers.
-ms.openlocfilehash: 1bfa2b2d2ceba68d39da9c65560e67a6602e6cfa
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 237825d2c2683bb6e71ae2fd31f8a25b1aa85ff7
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470962"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785887"
 ---
 # <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>Voorwaarden voor het beveiligen van gegevens op apparaten met Microsoft 365 voor bedrijven
 
@@ -41,7 +41,7 @@ De eerste stap bij het opzetten van uw organisatie met Microsoft 365 voor bedrij
     
     [Upgrade Windows devices to Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md) (Windows-apparaten bijwerken naar de Windows Pro-makersupdate
     
-    Als u Windows 10 Home uitvoert, moet u Windows 10 Pro **aanschaffen.** Zie [Upgrade Windows 10 Home naar Windows 10 Pro](https://support.office.com/article/0aee10c1-4d34-43ee-a325-579c6c2df90e?ui=en-US&rs=en-US&ad=US) voor instructies. 
+    Als u Windows 10 Home uitvoert, moet u Windows 10 Pro **aanschaffen.** Zie [Upgrade Windows 10 Home naar Windows 10 Pro](https://support.microsoft.com/office/0aee10c1-4d34-43ee-a325-579c6c2df90e) voor instructies. 
     
 - Verwijder apparaten uit oplossingen voor mobiel beheer (Mobile Iron, AirWatch, enzovoort). U schrijft alle mensen in uw organisatie in microsoft 365 in voor mobiel bedrijfsbeheer.
     

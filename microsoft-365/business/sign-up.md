@@ -1,5 +1,5 @@
 ---
-title: Meld u aan voor Microsoft 365 Business Premium
+title: Aanmelden voor Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -25,28 +25,28 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Ontdek wat Microsoft 365 Business Premium inhoudt en ontvang stapsgewijze richtlijnen voor het aanmelden voor Microsoft 365 Business Premium.
-ms.openlocfilehash: 50662149ae2faa99c567080d5e914c3300ac3494
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lees wat Microsoft 365 Business Premium inhoudt en krijg stapsgewijze richtlijnen bij het aanmelden voor Microsoft 365 Business Premium.
+ms.openlocfilehash: 5cee380998b188e7d5845becacfa46383905737f
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401553"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785667"
 ---
-# <a name="sign-up-for-microsoft-365-business-premium"></a>Meld u aan voor Microsoft 365 Business Premium
+# <a name="sign-up-for-microsoft-365-business-premium"></a>Aanmelden voor Microsoft 365 Business Premium
 
-Bekijk een [korte video](https://go.microsoft.com/fwlink/?linkid=2109651) en bekijk het [overzicht](microsoft-365-business-overview.md)om erachter te komen wat Microsoft 365 Business Premium inhoudt.
+Bekijk een [korte video](https://go.microsoft.com/fwlink/?linkid=2109651) en bekijk het [overzicht](microsoft-365-business-overview.md)voor wat Microsoft 365 Business Premium inhoudt.
 
 Er zijn drie manieren om Microsoft 365 Business Premium te krijgen:
-- **Microsoft 365 Business Premium kopen en uw eigen installatie voltooien:** Om Microsoft 365 Business Premium online aan te schaffen, [volgt u de onderstaande stappen.](#sign-up-steps)
-- **Voor Microsoft-partners:** Als u een partner bent, [raadpleegt u Microsoft 365 Business Premium ophalen vanuit Microsoft Partner Center](get-microsoft-365-business.md).
-- **Hulp krijgen in een Microsoft Store:** Ga naar een [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2109652). Microsoft Stores kunnen u helpen met vragen over plannen, u helpen een abonnement te kopen dat past bij uw bedrijfsbehoeften en u te helpen uw installatie te voltooien.
+- **Microsoft 365 Business Premium kopen en uw eigen installatie voltooien**: Als u Microsoft 365 Business Premium online wilt aanschaffen, volgt u de [onderstaande stappen](#sign-up-steps).
+- **Voor Microsoft-partners**: Als u een partner bent, raadpleegt u [Microsoft 365 Business Premium ophalen in Microsoft Partner Center](get-microsoft-365-business.md).
+- **Hulp krijgen in een Microsoft Store:** ga naar een [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2109652). Microsoft-winkels kunnen u helpen met vragen over abonnementen, u helpen bij de aanschaf van een abonnement dat past bij uw bedrijfsbehoeften en u helpen uw installatie te voltooien.
 
 **Heb je iets anders nodig?** U kunt:
-- [Upgrade uw Office 365-abonnement naar Microsoft 365 Business Premium.](migrate-to-microsoft-365-business.md)
+- [Upgrade uw Office 365-abonnement naar Microsoft 365 Business Premium](migrate-to-microsoft-365-business.md).
 - [Ontvang een gratis proefversie](https://go.microsoft.com/fwlink/p/?linkid=2102309) van Microsoft 365 Business Premium voor een maand.
-- [Meld u aan voor Microsoft 365 Business Standard](https://go.microsoft.com/fwlink/p/?LinkID=510935) als u een abonnement met minder functies nodig hebt. Ontdek wat elk businessplan inhoudt op [products.office.com.](https://go.microsoft.com/fwlink/?linkid=2109397)
-- [Meld u aan voor een huis- of gezinsabonnement](https://go.microsoft.com/fwlink/?linkid=2109398) als u niet koopt voor een bedrijf. 
+- [Meld u aan voor Microsoft 365 Business Standard](https://go.microsoft.com/fwlink/p/?LinkID=510935) als u een abonnement met minder functies nodig hebt. Ontdek wat elk businessplan op [products.office.com](https://go.microsoft.com/fwlink/?linkid=2109397)bevat.
+- [Meld u aan voor een huis of familie plan](https://go.microsoft.com/fwlink/?linkid=2109398) als je niet koopt voor een bedrijf. 
 
 ## <a name="sign-up-steps"></a>Stappen aanmelden
 
@@ -54,47 +54,47 @@ Bekijk deze video voor een snel overzicht van het aanmeldingsproces.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3znhX] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-Voer de volgende stappen uit om Microsoft 365 voor uw bedrijf aan te melden en deze te kopen:
+Voer de volgende stappen uit om u aan te melden en Microsoft 365 voor uw bedrijf te kopen:
 
-1. Selecteer op de [pagina Microsoft 365 voor bedrijven](https://go.microsoft.com/fwlink/?linkid=2109654)de optie Plannen & prijzen **bekijken**. 
-2. Zoek op de volgende pagina de maandelijkse kosten uit en blader vervolgens naar beneden om meer te weten te komen over wat er in Microsoft 365 is opgenomen. Selecteer **nu kopen**onder Microsoft 365 Business Premium .
+1. Selecteer op de [microsoft 365 voor bedrijfspagina](https://go.microsoft.com/fwlink/?linkid=2109654)de optie **Plannen weergeven & prijzen**. 
+2. Op de volgende pagina, ontdek de maandelijkse kosten, en scroll vervolgens naar beneden de pagina om meer te weten te komen over wat er is opgenomen in Microsoft 365. Selecteer **nu kopen**onder Microsoft 365 Business Premium.
 3. Voer op de pagina **Bedankt voor het kiezen van Microsoft 365 Business Premium** uw gegevens in om aan de slag te gaan.
-4. Voer in **stap 1**een e-mailadres in dat u al gebruikt. Dit kan uw huidige werke-mailadres zijn of een adres dat Microsoft moet gebruiken om met u te communiceren tijdens de installatie. Het is ook het adres waar we u informatie sturen over uw factuur en verlengingen. Selecteer vervolgens account **instellen**.
+4. Voer **in stap 1**een e-mailadres in dat u al gebruikt. Dit kan uw huidige werke-mailadres zijn of elk adres dat Microsoft moet gebruiken om met u te communiceren tijdens de installatie. Het is ook het adres waar we u informatie sturen over uw factuur en verlengingen. Selecteer **vervolgens, Account instellen**.
 5. Voer in **stap 2**uw naam, bedrijfstelefoonnummer, bedrijfsnaam en locatie in. Uw land of regio bepaalt de exacte services die u van Microsoft ontvangt en kan niet worden gewijzigd nadat u deze stap hebt voltooid. Selecteer **Volgende**.
     > [!NOTE]
-    > We geven uw bedrijfsnaam weer in het beheercentrum; dit is waar u Microsoft 365-gebruikers, licenties enzovoort beheert. We nemen het ook op in interne URL's (SharePoint)-site.
+    > We geven uw bedrijfsnaam weer in het beheercentrum; Hier beheert u Microsoft 365-gebruikers, licenties, enzovoort. We nemen het ook op in interne (SharePoint) site URL's.
 6. In **stap 3**:
 
-    1. Bewijs dat je geen robot bent! Selecteer **Tekst mij** of **Bel me**en voer een nummer in waar we u kunnen bereiken. Selecteer **Verificatiecode verzenden** en u ontvangt meteen een sms of oproep. Voer uw code in en selecteer **Verifiëren**.
-    2. Bepaal vervolgens of u een nieuwe domeinnaam wilt kopen of een tijdelijke naam wilt kopen:
+    1. Bewijs dat je geen robot bent! Selecteer **Sms me** of **Bel mij**en voer een nummer in waar we je kunnen bereiken. Selecteer **Verificatiecode verzenden** en u ontvangt meteen een sms of oproep. Voer uw code in en selecteer **Verifiëren**.
+    2. Bepaal vervolgens of u een nieuwe domeinnaam wilt kopen of een tijdelijke domeinnaam wilt kopen:
 
         - **Ik heb geen domeinnaam** 
         
-            Als uw e-mailadres uw bedrijfsnaam niet bevat en als u geen website hebt die uw bedrijfsnaam gebruikt, u nu eenvoudig een domein kopen. Selecteer **Een nieuwe domeinnaam kopen**en voer de naam van uw bedrijf in. Als uw bedrijf bijvoorbeeld *ContosoSkis*wordt genoemd, probeert u Contosokis.com, Contososkis.org of Contososkis.biz in te voeren. Selecteer vervolgens **Beschikbaarheid controleren** om te zien of het gekozen domein beschikbaar is. U meerdere opties uitproberen voordat u een beslissing neemt. Als uw domeinnaam beschikbaar is, laten we u weten wat de kosten zijn en factureren we u rechtstreeks bij uw nieuwe abonnement. 
+            Als uw e-mailadres uw bedrijfsnaam niet bevat en als u geen website hebt die uw bedrijfsnaam gebruikt, u nu eenvoudig een domein kopen. Selecteer **Een nieuwe domeinnaam kopen**en voer de naam van uw bedrijf in. Als uw bedrijf bijvoorbeeld *ContosoSkis*wordt genoemd, probeert u Contosokis.com, Contososkis.org of Contososkis.biz in te voeren. Selecteer vervolgens **Beschikbaarheid controleren** om te zien of het door u gekozen domein beschikbaar is. U meerdere opties proberen voordat u een beslissing neemt. Als uw domeinnaam beschikbaar is, laten we u de kosten weten en factureren we u rechtstreeks met uw nieuwe abonnement. 
        
             > [!TIP]
-            > Als u niet zeker weet welke domeinextensie u moet kiezen voor uw nieuwe domein (bijvoorbeeld .com of .org), [raadpleegt u Een domeinnaam kopen](https://go.microsoft.com/fwlink/?linkid=2109700)
+            > Zie Een domeinnaam kopen als u niet zeker weet welke domeinextensie u moet kiezen voor uw nieuwe domein (bijvoorbeeld .com of .org), [raadpleegt](https://go.microsoft.com/fwlink/?linkid=2109700) u Een domeinnaam kopen
         
-        - **Ik weet het niet zeker, of ik heb al een domeinnaam** 
+        - **Ik ben niet zeker, of ik bezit een domeinnaam al** 
         
-             Kies **Een Microsoft-domein voor nu opvragen.** Dit kost niets, en later u een aangepaste naam voor uw bedrijf, of verbinding maken met een die u al bezit. We laten je zien hoe.
+             Kies **Nu een Microsoft-domein ophalen.** Dit kost niets, en later u een aangepaste naam voor uw bedrijf, of verbinding maken met een die u al bezit. We laten je zien hoe.
 
-    3. Selecteer **Volgende** om uw gebruikersnaam en bedrijfse-mailadres te maken. Voer de naam (ook wel een alias genoemd) in die u wilt gebruiken. Robert Young kan bijvoorbeeld RobY of RobYoung gebruiken als werkalias. Voeg een wachtwoord toe en selecteer **Aanmelden**. Noteer uw wachtwoord. We sturen een e-mail naar het adres dat je in stap 1 hebt ingevoerd om je te herinneren aan je gebruikersnaam.
+    3. Selecteer **Volgende** om uw gebruikersnaam en zakelijk e-mailadres te maken. Voer de naam (ook wel een alias genoemd) in die u wilt gebruiken. Robert Young kan bijvoorbeeld RobY of RobYoung gebruiken als werkalia alias. Voeg een wachtwoord toe en selecteer **Aanmelden**. Noteer uw wachtwoord. We sturen een e-mail naar het adres dat u in stap 1 hebt ingevoerd om u te herinneren aan uw gebruikersnaam.
 7. In **stap 4**: 
 
-    1. Bepaal hoeveel mensen in uw bedrijf een Microsoft 365-licentie nodig hebben of laat het **aantal gebruikers** voorlopig op 1 instellen en voeg later meer mensen toe. 
+    1. Bepaal hoeveel mensen in uw bedrijf een Microsoft 365-licentie nodig hebben, of laat het **aantal gebruikers** dat is ingesteld op 1 voor nu en voeg later meer mensen toe. 
     2. Selecteer maandelijkse of jaarlijkse facturering, controleer de totale kosten en selecteer **Volgende**. 
-    3. Voeg uw creditcardgegevens toe. Als uw bedrijfsadres niet overeenkomt met uw creditcardadres, hebben we ook uw bedrijfsadres nodig. Uw bedrijfsadres bepaalt welke belastingen u betaalt en welke services beschikbaar zijn. Zie Welke belasting moet [ik betalen voor](https://go.microsoft.com/fwlink/?linkid=2109701)meer informatie over belastingen?
-    4. Selecteer **Volgorde plaatsen**. Het duurt een korte tijd voor Microsoft om het opzetten van een nieuw plan af te ronden.
+    3. Voeg uw creditcardgegevens toe. Als uw bedrijfsadres niet overeenkomt met uw creditcardadres, hebben we ook uw bedrijfsadres nodig. Uw bedrijfsadres bepaalt welke belastingen u betaalt en welke services beschikbaar zijn. Zie Welke belasting moet [ik in rekening brengen voor](https://go.microsoft.com/fwlink/?linkid=2109701)meer informatie over belastingen?
+    4. Selecteer **Plaatsvolgorde**. Het duurt even voordat Microsoft klaar is met het instellen van een nieuw abonnement.
 
 ## <a name="whats-next"></a>En nu?
 
-Selecteer **Ga naar de installatie om** andere stappen uit te voeren, zoals het toevoegen van meer beveiliging om uw bedrijf te beschermen en het downloaden van Office-apps zoals Word en Excel.
+Selecteer **Ga naar setup om** andere stappen uit te voeren, zoals het toevoegen van meer beveiliging om uw bedrijf te beschermen en het downloaden van Office-apps zoals Word en Excel.
 
-Zie [instellen](set-up.md)om hulp te krijgen bij het instellen.
+[Zie](set-up.md)Instellen voor hulp bij het instellen.
 
 ## <a name="see-also"></a>Zie ook
 
-[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

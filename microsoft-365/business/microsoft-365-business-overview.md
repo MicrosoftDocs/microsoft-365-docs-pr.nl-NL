@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lees meer over Microsoft 365 Business Premium, een abonnementsservice met Office-productiviteitsapps en geavanceerde bescherming voor uw bedrijf tegen cyberdreigingen.
-ms.openlocfilehash: 61f4c34ade180717486ce889162947afe9be7ba6
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6cff2fe62111e0d3ee99f406d0be83db0a119b09
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402249"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44786169"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Overzicht van Microsoft 365 Business Premium
 
@@ -46,7 +46,7 @@ Bekijk deze video voor een kort overzicht van Microsoft 365 Business Premium.<br
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
 
 Microsoft 365 Business Premium is bedoeld voor maximaal 300 licenties. Als u meer licenties nodig hebt, raadpleegt u de documentatie bij [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) voor meer informatie.
 
@@ -111,11 +111,11 @@ Zie [beveiligingsfuncties van Microsoft 365 Business Premium](security-features.
 
 - Als u geen partner hebt en Microsoft 365 Business Premium wilt aanschaffen, kunt u deze [hier kopen](https://www.microsoft.com/microsoft-365/business) en volg de [aanmeldingsinstructies](sign-up.md).
 
-- U kunt ook naar een [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer) gaan om zowel Microsoft 365 Business Premium te kopen als hulp bij het instellen te krijgen.
+- U kunt ook naar een [Microsoft Store](https://www.microsoft.com/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer) gaan om zowel Microsoft 365 Business Premium te kopen als hulp bij het instellen te krijgen.
 
     > [!NOTE]
     > Deze koppeling is alleen bedoeld voor winkels in de Verenigde Staten
 
 ## <a name="see-also"></a>Zie ook
 
-[Trainingvideo‘s voor Microsoft 365 Business Premium](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingvideo‘s voor Microsoft 365 Business Premium](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

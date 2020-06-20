@@ -25,35 +25,35 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: Meer informatie over het instellen van Windows-apparaten met Windows 10 Pro voor Microsoft 365 Business Premium-gebruikers, zodat gecentraliseerde beheer- en beveiligingscontroles mogelijk zijn.
-ms.openlocfilehash: ecd9f5aa348d29d34e77061657619c015b09c41a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over het instellen van Windows-apparaten met Windows 10 Pro voor Microsoft 365 Business Premium-gebruikers, waarmee gecentraliseerde beheer- en beveiligingsbesturingselementen mogelijk zijn.
+ms.openlocfilehash: 85ac3c964792a132d5699703e543289020e38f57
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402953"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785847"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Windows-apparaten instellen voor Microsoft 365 Business Premium-gebruikers
 
 ## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-premium-users"></a>Voorwaarden voor het instellen van Windows-apparaten voor Microsoft 365 Business Premium-gebruikers
 
-Voordat u Windows-apparaten instellen voor Microsoft 365 Business Premium-gebruikers, moet u ervoor zorgen dat alle Windows-apparaten Windows 10 Pro, versie 1703 (Creators Update) gebruiken. Windows 10 Pro is een voorwaarde voor het implementeren van Windows 10 Business, een reeks cloudservices en apparaatbeheermogelijkheden die Windows 10 Pro aanvullen en de gecentraliseerde beheer- en beveiligingscontroles van Microsoft 365 Business Premium mogelijk maken.
+Voordat u Windows-apparaten instellen voor Microsoft 365 Business Premium-gebruikers, controleert u of op alle Windows-apparaten Windows 10 Pro, versie 1703 (Creators Update) wordt uitgevoerd. Windows 10 Pro is een voorwaarde voor de implementatie van Windows 10 Business, een reeks cloudservices en mogelijkheden voor apparaatbeheer die windows 10 Pro aanvullen en de gecentraliseerde beheer- en beveiligingscontroles van Microsoft 365 Business Premium mogelijk maken.
   
-Als u Windows-apparaten met Windows 7 Pro, Windows 8 Pro of Windows 8.1 Pro hebt, geeft uw Microsoft 365 Business Premium-abonnement recht op een Windows 10-upgrade.
+Als u Windows-apparaten hebt met Windows 7 Pro, Windows 8 Pro of Windows 8.1 Pro, geeft uw Microsoft 365 Business Premium-abonnement recht op een Windows 10-upgrade.
   
 Volg de stappen in dit onderwerp voor meer informatie over het voor Windows-apparaten uitvoeren van een upgrade naar de Windows 10 Pro makersupdate. [Voor Windows-apparaten upgrade uitvoeren naar Windows Pro makersupdate](upgrade-to-windows-pro-creators-update.md).
   
-Zie [Controleren of het apparaat is verbonden met Azure AD](#verify-the-device-is-connected-to-azure-ad) om te controleren of u de upgrade hebt uitgevoerd of om te controleren of de upgrade werkt.
+Zie [Controleren of het apparaat is verbonden met Azure AD](#verify-the-device-is-connected-to-azure-ad) om te controleren of u de upgrade hebt uitgevoerd of om te controleren of de upgrade heeft gewerkt.
 
 Bekijk een korte video over het verbinden van Windows met Microsoft 365.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10-apparaten koppelen aan Azure AD van uw organisatie
 
-Wanneer alle Windows-apparaten in uw organisatie zijn geüpgraded naar Windows 10 Pro Creators Update of al Windows 10 Pro Creators Update hebben uitgevoerd, u deze apparaten aansluiten bij de Azure Active Directory van uw organisatie. Zodra de apparaten zijn samengevoegd, worden ze automatisch geüpgraded naar Windows 10 Business, dat deel uitmaakt van uw Microsoft 365 Business Premium-abonnement.
+Wanneer alle Windows-apparaten in uw organisatie zijn geüpgraded naar Windows 10 Pro Creators Update of al Windows 10 Pro Creators Update draaien, u deze apparaten koppelen aan de Azure Active Directory van uw organisatie. Zodra de apparaten zijn aangesloten, worden ze automatisch geüpgraded naar Windows 10 Business, dat deel uitmaakt van uw Microsoft 365 Business Premium-abonnement.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>Voor een Windows 10 Pro-apparaat dat nieuw is of waarvoor pas een upgrade is uitgevoerd
 
@@ -67,7 +67,7 @@ Voor een nieuw apparaat met Windows 10 Pro makersupdate of voor een apparaat waa
     
 3. Voltooi de apparaatinstellingen voor Windows 10.
     
-   Als u klaar bent, wordt de gebruiker verbonden met Azure AD van uw organisatie. In [Controleren of het apparaat is verbonden met Azure AD](#verify-the-device-is-connected-to-azure-ad) kunt u zien hoe u dit kunt controleren. 
+   Once you're done, the user will be connected to your organization's Azure AD. See [Verify the device is connected to Azure AD](#verify-the-device-is-connected-to-azure-ad) to make sure. 
   
 ### <a name="for-a-device-already-set-up-and-running-windows-10-pro"></a>Voor een apparaat dat al is ingesteld en waarop Windows 10 Pro wordt uitgevoerd
 
@@ -95,9 +95,9 @@ Voor een nieuw apparaat met Windows 10 Pro makersupdate of voor een apparaat waa
   
    ![Enter your work or school email on the Let's get you signed in page](../media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
-6. Controleer op de pagina **Controleren of dit uw organisatie is,** of de gegevens juist zijn en klik op **Deelnemen**.
+6. Controleer op de pagina **Controleren of dit uw organisatie is,** controleer of de informatie juist is en klik op **Deelnemen**.
   
-   Klik op de pagina **U bent nu helemaal klaar** op **Gereed**.
+   On the **You're all set!** page, click **Done**.
   
    ![On the Make sure this is your organization screen, click Join](../media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
@@ -105,17 +105,17 @@ Als u bestanden hebt geüpload naar OneDrive voor Bedrijven, kunt u deze weer te
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>Controleren of het apparaat is verbonden met Azure AD
 
-Als u uw synchronisatiestatus wilt verifiëren, klikt u op de pagina **Werk of school** toegang in **Instellingen**in het gebied **Verbonden met** _ _ om de knoppen \<organization name\> **Info** bloot te leggen en de **verbinding verbreken .** Klik op **Info** om de synchronisatiestatus te bekijken. 
+Als u uw synchronisatiestatus wilt verifiëren, klikt u op de pagina **Access-werk of school** in **Instellingen**in het gebied **Verbonden met** _ _ om de \<organization name\> knoppen **Info** en **Loskoppelen**bloot te leggen. Klik op **Info** om de synchronisatiestatus te bekijken. 
   
 Klik op de pagina Synchronisatiestatus op Synchroniseren om het recentste beleid voor het beheren van mobiele apparaten naar de pc te downloaden.
   
-Als u het Microsoft 365 Business Premium-account wilt gebruiken, gaat u naar de knop **Windows Start,** klikt u met de rechtermuisknop op de afbeelding van uw huidige account en **schakelt u over van account**. Meld u aan met het e-mailadres en wachtwoord van uw organisatie.
+Als u het Microsoft 365 Business Premium-account wilt gebruiken, gaat u naar de knop **Start** van Windows, klikt u met de rechtermuisknop op de afbeelding van uw huidige account en **schakelt u vervolgens van account .** Meld u aan met het e-mailadres en wachtwoord van uw organisatie.
   
 ![Click Info button to view synchronization status](../media/818f7043-adbf-402a-844a-59d50034911d.png)
   
 ## <a name="verify-the-device-is-upgraded-to-windows-10-business"></a>Controleren of het apparaat is bijgewerkt naar Windows 10 Business
 
-Controleer of uw Azure AD-apparaten zijn toegetreden tot Windows 10-apparaten, zijn geüpgraded naar Windows 10 Business als onderdeel van uw Microsoft 365 Business Premium-abonnement.
+Controleer of uw Azure AD-apparaten die zijn aangesloten bij Windows 10-apparaten zijn geüpgraded naar Windows 10 Business als onderdeel van uw Microsoft 365 Business Premium-abonnement.
   
 1. Ga naar **Instellingen** \> **Systeem** \> **Info**.
     
@@ -125,8 +125,8 @@ Controleer of uw Azure AD-apparaten zijn toegetreden tot Windows 10-apparaten, z
   
 ## <a name="next-steps"></a>Volgende stappen
 
-Zie Mobiele apparaten instellen [voor Microsoft 365 Business Premium-gebruikers](set-up-mobile-devices.md)als u uw mobiele apparaten wilt instellen, zie [Microsoft 365 voor bedrijven](manage.md)beheren.
+Zie [Microsoft 365](set-up-mobile-devices.md) [voor bedrijven](manage.md)beheren als u uw mobiele apparaten wilt instellen.
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Voor meer informatie over het instellen en gebruiken van Microsoft 365 Business Premium
 
-[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
