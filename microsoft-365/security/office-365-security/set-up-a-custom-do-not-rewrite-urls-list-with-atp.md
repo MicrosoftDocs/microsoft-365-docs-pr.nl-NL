@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het instellen van aangepaste geblokkeerde URL's voor gebruikers en het niet herschrijven van de lijst met URL's voor een groep gebruikers in het beleid voor veilige koppelingen met Office 365 ATP.
-ms.openlocfilehash: f4e7067c9edc9bbe2965311a7c203cb16f242f49
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 183291ef5b43248c5ff3d4e63b03a170416119bf
+ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617240"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702534"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>Een aangepaste lijst met URL's die niet opnieuw worden herschreven instellen met atp-veilige koppelingen
 
@@ -73,13 +73,15 @@ Als u ATP-beleid wilt bewerken (of definiëren), moet u een geschikte rol toegew
 
 - URL's die u opgeeft in de lijst 'niet herschrijven' zijn uitgesloten van het scannen van ATP Safe Links voor de ontvangers die u opgeeft.
 
+- Overweeg veelgebruikte interne URL's toe te voegen aan de lijst 'niet herschrijven' om de gebruikerservaring te verbeteren. Als u bijvoorbeeld on-premises services hebt, zoals Skype voor Bedrijven of Sharepoint, u hun URL's aan de lijst toevoegen om ze uit te sluiten van scannen.
+
 - Als u al een lijst met URL's in uw lijst 'niet herschrijven' hebt, moet u die lijst bekijken en wildcards toevoegen. Als uw bestaande lijst bijvoorbeeld een vermelding heeft zoals `https://contoso.com/a` en u subpaden zoals in uw beleid wilt `https://contoso.com/a/b` opnemen, voegt u een wildcard toe aan uw item zodat het eruit ziet `https://contoso.com/a/*` als .
 
-- Wanneer u een lijst 'niet herschrijven' opgeeft voor een ATP-beleid voor veilige koppelingen, u maximaal drie wildcardsterpakken \* (). Jokertekens ( \* ) worden gebruikt om expliciet voorvoegsels of subdomeinen op te nemen. De vermelding `contoso.com` is niet hetzelfde als `*.contoso.com/*` , omdat mensen `*.contoso.com/*` subdomeinen en paden in het opgegeven domein kunnen bezoeken.
+- Wanneer u een lijst 'niet herschrijven' opgeeft voor een ATP-beleid voor veilige koppelingen, u maximaal drie jokertekens \* () opnemen. Jokertekens bevatten expliciet voorvoegsels of subdomeinen. De vermelding is bijvoorbeeld `contoso.com` niet hetzelfde als `*.contoso.com/*` , omdat `*.contoso.com/*` mensen subdomeinen en paden in het opgegeven domein kunnen bezoeken.
 
 In de volgende tabel worden voorbeelden weergegeven van wat u invoeren en welk effect deze vermeldingen hebben.
 
-|**Voorbeeldvermelding**|**Wat het doet**|
+|Voorbeeldvermelding|Wat het doet|
 |:-----|:-----|
 |`contoso.com`|Hiermee kunnen ontvangers een site bezoeken, `https://contoso.com` maar geen subdomeinen of paden.|
 |`*.contoso.com/*`|Hiermee kunnen ontvangers een domein, subdomeinen en paden bezoeken, zoals `https://www.contoso.com` , `https://www.contoso.com` , of `https://maps.contoso.com` `https://www.contoso.com/a` . <br/><br/> Dit item is inherent beter `*contoso.com*` dan, omdat het geen potentieel frauduleuze sites bevat, zoals `https://www.falsecontoso.com` of`https://www.false.contoso.completelyfalse.com`|

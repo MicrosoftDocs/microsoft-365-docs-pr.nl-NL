@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Volg deze aanbevelingen voor de beste praktijken voor standalone Exchange Online Protection (EOP) om u op te zetten voor succes en veelvoorkomende configuratiefouten te voorkomen.
-ms.openlocfilehash: a2ef5d20a79a15e4b1965d352ed0603ac0783121
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: e5e87883e9c8aad21552ebf306a9716f14532884
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616720"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739084"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Aanbevolen procedures voor het configureren van standalone EOP
 
@@ -54,7 +54,7 @@ Deze instellingen hebben betrekking op een reeks functies die buiten het beveili
 |Geverifieerde SMTP-indiening|Uitgeschakeld|Uitgeschakeld|Geverifieerde client SMTP indiening (ook bekend als client SMTP indiening of SMTP AUTH) is vereist voor POP3 en IMAP4 klanten om e-mail te sturen.|
 |EWS-connectiviteit met postvak|Uitgeschakeld|Uitgeschakeld||
 |[PowerShell-connectiviteit](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)|Uitgeschakeld|Uitgeschakeld|Beschikbaar voor postvakgebruikers of [e-mailgebruikers](https://docs.microsoft.com/powershell/module/exchange/get-user) (gebruikersobjecten die worden geretourneerd door de cmdlet van de gebruiker).|
-|Gebruik [spoofinformatie](learn-about-spoof-intelligence.md) om afzenders zoveel mogelijk op de witte lijst te zetten|Ja|Ja||
+|Gebruik [spoofinformatie](learn-about-spoof-intelligence.md) om afzenders toe te voegen aan uw lijst met toestaan|Ja|Ja||
 |[Directory-based edge blocking (DBEB)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Ingeschakeld|Ingeschakeld|Domeintype = Gezaghebbend|
 |[Meervoudige verificatie instellen voor alle beheerdersaccounts](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)|Ingeschakeld|Ingeschakeld||
 |
