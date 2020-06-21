@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f70f997b1f3b2ef47cfc647178c1836893bc3e66
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a1cf21fdd53ca90218370fb9c87547c64e867cd8
+ms.sourcegitcommit: bad47f9c69025d76d1e161519640cf7e238bd3b2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632837"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735512"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Netwerkconfiguratie voor Microsoft Managed Desktop
 
@@ -23,42 +23,42 @@ ms.locfileid: "43632837"
 
 ## <a name="proxy-configuration"></a>Proxyconfiguratie
 
-Microsoft Managed Desktop is een cloudmanaged service. Er zijn een aantal eindpunten die de Microsoft Managed Desktop-services moeten kunnen bereiken. In deze sectie worden de eindpunten weergegeven die moeten worden toegestaan voor de verschillende aspecten van de Microsoft Managed Desktop-service. 
+Microsoft Managed Desktop is een cloud-managed service. Er zijn een aantal eindpunten die de Microsoft Managed Desktop-services moeten kunnen bereiken. In deze sectie worden de eindpunten weergegeven die moeten worden toegestaan voor de verschillende aspecten van de Microsoft Managed Desktop-service. 
 
-Klanten kunnen hun netwerk optimaliseren door alle vertrouwde Microsoft 365-netwerkaanvragen rechtstreeks via hun firewall of proxy te verzenden, verificatie en alle extra inspectie of verwerking op pakketniveau te omzeilen. Dit vermindert de latentie en uw perimetercapaciteitsvereisten. 
+Klanten kunnen hun netwerk optimaliseren door alle vertrouwde Microsoft 365-netwerkaanvragen rechtstreeks via hun firewall of proxy te verzenden, verificatie en alle aanvullende inspectie of verwerking op pakketniveau te omzeilen. Dit vermindert de latentie en uw perimetercapaciteitsvereisten. 
 
-Om de prestaties voor Microsoft Managed Desktop-cloudservices te optimaliseren, hebben deze eindpunten ook speciale afhandeling nodig door clientbrowsers van klanten en de apparaten in hun edge-netwerk. Deze apparaten omvatten firewalls, SSL Break and Inspect, packet inspection devices en data loss prevention systems.
+Om de prestaties van microsoft Managed Desktop-cloudservices te optimaliseren, hebben deze eindpunten ook speciale afhandeling nodig door clientbrowsers van klanten en de apparaten in hun edge-netwerk. Deze apparaten omvatten firewalls, SSL Break and Inspect, pakketinspectieapparaten en systemen voor het voorkomen van gegevensverlies.
 
 ### <a name="proxy-requirement"></a>Proxy-vereiste
 
-De proxy of firewall moet TLS 1.2 ondersteunen. Anders moet u protocoldetectie mogelijk uitschakelen.
+De proxy of firewall moet TLS 1.2 ondersteunen. Anders moet u mogelijk protocoldetectie uitschakelen.
 
 ### <a name="endpoints-allowed---specific-for-microsoft-managed-desktop"></a>Eindpunten toegestaan - specifiek voor Microsoft Managed Desktop
 
-Microsoft Managed Desktop gebruikt de Azure Portal om zijn webconsole te hosten. De volgende URL's in de onderstaande tabel moeten op de toegestane lijst van uw proxy en firewall staan, zodat Microsoft Managed Desktop-apparaten kunnen communiceren met Microsoft Services.  
+Microsoft Managed Desktop gebruikt de Azure Portal om zijn webconsole te hosten. De volgende URL's in de onderstaande tabel moeten op de toegestane lijst met uw proxy en firewall staan, zodat Microsoft Managed Desktop-apparaten kunnen communiceren met Microsoft Services.  
 
-Houd er rekening mee dat de onderstaande MICROSOFT Managed Desktop-URL wordt gebruikt voor alles wat onze service uitvoert op de client-API. U moet ervoor zorgen dat deze URL altijd toegankelijk is op uw bedrijfsnetwerk.
+Houd er rekening mee dat de onderstaande URL van Microsoft Managed Desktop wordt gebruikt voor alles wat onze service op de klant-API uitvoert. U moet ervoor zorgen dat deze URL altijd toegankelijk is in uw bedrijfsnetwerk.
 
-Microsoft-service  | URL's vereist op lijst toestaan 
+Microsoft-service  | URL's vereist op lijst met toestaan 
 --- | --- | ---
 Microsoft Managed Desktop | prod-mwaas-services-customerapi.azurewebsites.net
 Hulp krijgen | \*.support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net
-Snelle assist | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*.lync.com
-Microsoft-ondersteunings- en herstelassistent | \*.apibasic.diagnostics.office.com  <br>\*api.diagnostics.office.com
+Snelle assist | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*,,Lync.com
+Microsoft-ondersteunings- en herstelassistent | \*.apibasic.diagnostics.office.com  <br>\*.api.diagnostics.office.com
  
 
 ### <a name="endpoints-allowed---other-microsoft-products"></a>Eindpunten toegestaan - andere Microsoft-producten
 
-Er zijn URL's van verschillende Microsoft-producten die in de toegestane lijst moeten staan, zodat Microsoft Managed Desktop-apparaten met die Microsoft Services kunnen communiceren. Gebruik de koppelingen om de volledige lijst voor elk product te bekijken. 
+Er zijn URL's van verschillende Microsoft-producten die in de toegestane lijst moeten staan, zodat Microsoft Managed Desktop-apparaten kunnen communiceren met die Microsoft Services. Gebruik de koppelingen om de volledige lijst voor elk product te bekijken. 
 
-Microsoft-service | Documentatiebron - URL's vereist op lijst met toegestane
+Microsoft-service | Documentatiebron - URL's vereist op lijst met toestaan
 --- | ---
-Windows 10 Enterprise inclusief Windows Update voor Bedrijven | [Verbindingseindpunten voor Windows 10, versie 1803 beheren](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Verbindingseindpunten voor Windows 10, versie 1809 beheren](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)<br><br>[Verbindingseindpunten voor Windows 10, versie 1903 beheren](https://docs.microsoft.com/windows/privacy/manage-windows-1903-endpoints)<br><br>time.windows.com
-Optimalisatie van de levering | [Delivery Optimization configureren voor Windows 10-updates](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
+Windows 10 Enterprise inclusief Windows Update voor Bedrijven | [Verbindingseindpunten beheren voor Windows 10, versie 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Verbindingseindpunten beheren voor Windows 10, versie 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)<br><br>[Verbindingseindpunten beheren voor Windows 10, versie 1903](https://docs.microsoft.com/windows/privacy/manage-windows-1903-endpoints)<br><br>[Verbindingseindpunten beheren voor Windows 10, versie 2004](https://docs.microsoft.com/windows/privacy/manage-windows-2004-endpoints)<br><br>time.windows.com
+Optimalisatie van de levering | [Leveringsoptimalisatie configureren voor Windows 10-updates](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
 Microsoft 365 | [Microsoft 365 URL- en IP-adresbereiken](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
-Microsoft Azure Active Directory | [Hiervoor vereiste poorten en protocollen voor hybride identiteit](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) en vereisten voor Active [Directory- en Active Directory Domain Services-poort](https://aka.ms/AA26ygm) 
-Microsoft Intune | [Vereisten voor netwerkconfiguratie inafstemmen](https://docs.microsoft.com/intune/network-bandwidth-use)<br>[Netwerkeindpunten voor Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/intune-endpoints)
-Microsoft Defender Advanced Threat Protection (ATP) | [ATP-eindpunten van Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
+Microsoft Azure Active Directory | [Hybride identiteit vereist poorten en protocollen](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) en [Active Directory en Active Directory Domain Services Poortvereisten](https://aka.ms/AA26ygm) 
+Microsoft Intune | [Vereisten voor intune-netwerkconfiguratie](https://docs.microsoft.com/intune/network-bandwidth-use)<br>[Netwerkeindpunten voor Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/intune-endpoints)
+Microsoft Defender Advanced Threat Protection (ATP) | [Microsoft Defender ATP-eindpunten](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
 
 <!---
 Microsoft service  | URLs required on allow list | Documentation source

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Ontdek hoe u meer dan één e-mailadres, e-mailalias genaamd, hebben gekoppeld aan uw Microsoft 365 voor bedrijven-account. '
-ms.openlocfilehash: bab4ace6d497bac8892a29c76b6f2d05c4fa018f
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: c0e71ef150ccf592ea4f808a5e6609e1675767a4
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432323"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780287"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Een ander e-mailalias toevoegen voor een gebruiker
 
@@ -162,7 +162,7 @@ Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u n
   
 ## <a name="related-articles"></a>Verwante artikelen
 
-[E-mail verzenden via een ander adres](https://support.office.com/article/ccba89cb-141c-4a36-8c56-6d16a8556d2e.aspx)
+[E-mail verzenden via een ander adres](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e)
 
 [Een gebruikersnaam en e-mailadres wijzigen](../add-users/change-a-user-name-and-email-address.md)
   

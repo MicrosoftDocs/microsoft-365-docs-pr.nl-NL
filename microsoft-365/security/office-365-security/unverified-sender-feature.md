@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel vindt u informatie over hoe u voorkomen dat phishingberichten uw postvak bereiken, Outlook.com en de webversie van Outlook.
-ms.openlocfilehash: b49cc27685f62f5fb5d123a8a7aa4e51e0065e64
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: ed317f5673aa37b91e8c5092eb127b8df6be944e
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588334"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754830"
 ---
 # <a name="unverified-sender"></a>Niet-geverifieerde afzender
 
@@ -88,6 +88,6 @@ Niet per se. Office 365 heeft mogelijk andere eigenschappen in het bericht om de
 
 [Help uw Outlook.com e-mailaccount te beschermen](https://support.microsoft.com/office/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
 
-[Omgaan met phishing of spoofing in Outlook.com](https://support.office.com/article/0d882ea5-eedc-4bed-aebc-079ffa1105a3)
+[Hoe om te gaan met phishing in Outlook.com](https://support.microsoft.com/office/0d882ea5-eedc-4bed-aebc-079ffa1105a3)
 
 [Ongewenste e-mail en spam filteren in de webversie van Outlook](https://support.microsoft.com/office/db786e79-54e2-40cc-904f-d89d57b7f41d)

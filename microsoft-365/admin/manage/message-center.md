@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: Krijg een overzicht van Microsoft 365 Message center en de rol ervan in change management.
-ms.openlocfilehash: c243bb551d98cb0ea3c177cf098cccd035243a06
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: f4d99bedaab6efb4dfeccf7610e54bb5f8effeb7
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44694957"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780083"
 ---
 # <a name="message-center"></a>Berichtencentrum
 
@@ -164,7 +164,7 @@ Als beheer wordt gedistribueerd over uw organisatie, wilt of hoeft u mogelijk ge
 We gebruiken automatische vertaling om berichten automatisch weer te geven in uw voorkeurstaal. Lees [Taalvertaling voor berichten in het berichtencentrum](language-translation-for-message-center-posts.md) voor meer informatie over het instellen van uw taal.
   
 > [!NOTE]
-> De wekelijkse samenvatting en alle berichten die worden gemaild worden verzonden in het Engels-only. Ontvangers kunnen [Translator voor Outlook](https://support.office.com/article/3d7e12ed-99d6-406e-a453-b9db0d9653fa.aspx) gebruiken om het bericht in hun voorkeurstaal te lezen. 
+> De wekelijkse samenvatting en alle berichten die worden gemaild worden verzonden in het Engels-only. Ontvangers kunnen [Translator voor Outlook](https://support.microsoft.com/office/3d7e12ed-99d6-406e-a453-b9db0d9653fa) gebruiken om het bericht in hun voorkeurstaal te lezen. 
   
 ### <a name="admin-roles-that-dont-have-access-to-the-message-center"></a>Beheerdersrollen die geen toegang hebben tot het Berichtencentrum
 

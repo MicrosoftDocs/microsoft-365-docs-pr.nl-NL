@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe de spoof intelligentie inzicht werkt, met inbegrip van hoe snel te bepalen welke afzenders zijn rechtmatig sturen u niet-geverifieerde e-mail.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1b97d36c3434e7410f4cb3d19ef8eaee6f37e601
-ms.sourcegitcommit: 86705d15231c987be2fcf5a295b9b6239fc46077
+ms.openlocfilehash: 1f04baca3761e44acfd26c09cdc0d5283db13697
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44566702"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726514"
 ---
 # <a name="walkthrough---atp-spoof-intelligence-insight-in-microsoft-365"></a>Walkthrough - ATP Spoof intelligentie inzicht in Microsoft 365
 
@@ -39,7 +39,12 @@ Deze walkthrough is een van de vele voor het Security & Compliance Center. Zie d
 
   U het inzicht in spoofinformatie bekijken vanuit meer dan één dashboard in het Security & Compliance Center. Welk dashboard u ook bekijkt, het inzicht biedt dezelfde details en stelt u in staat om snel dezelfde taken uit te voeren.
 
-- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u het inzicht in spoofinformatie wilt gebruiken, moet u lid zijn van de rolgroepen **Organisatiebeheer,** **Beveiligingsbeheerder**of **Beveiligingslezer.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
+- U moet machtigingen krijgen toegewezen voordat u de procedures in dit onderwerp uitvoeren. Als u het inzicht in spoofinformatie wilt gebruiken, moet u lid zijn van een van de volgende rolgroepen:
+
+  - **Organisatiebeheer** of **beveiligingsbeheerder** in het [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).
+  - **Organisatiebeheer** of **hygiënebeheer** in [Exchange Online.](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)
+  - **Security Reader** in het [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).
+  - **Alleen-weergeven organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - U schakelt spoofinformatie in en schakelt deze uit in het ATP-antiphishingbeleid. Zie [ATP-beleid voor antiphishing configureren in Microsoft 365](configure-atp-anti-phishing-policies.md)voor meer informatie.
 

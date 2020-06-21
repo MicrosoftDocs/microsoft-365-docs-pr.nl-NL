@@ -1,5 +1,5 @@
 ---
-title: DNS-records maken bij Hover voor Microsoft
+title: DNS-records maken bij Hover for Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,52 +20,52 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 46ab4b10-6857-44b1-b08d-d1b5f45a69c6
-description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Hover voor Microsoft.
-ms.openlocfilehash: 74662f37c3f72f02767f2434d9b251e3bd37ff1b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services bij Hover voor Microsoft.
+ms.openlocfilehash: e51cb77831f4e29ac3a51602a1bb19f8b0c9e0e3
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400423"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780347"
 ---
-# <a name="create-dns-records-at-hover-for-microsoft"></a>DNS-records maken bij Hover voor Microsoft
+# <a name="create-dns-records-at-hover-for-microsoft"></a>DNS-records maken bij Hover for Microsoft
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
 Als Hover uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail, Skype voor Bedrijven Online, enzovoort in te stellen.
      
-Nadat u deze records bij Hover hebt toegevoegd, wordt uw domein ingesteld voor gebruik met Microsoft-services.
+Nadat u deze records hebt toegevoegd bij Hover, wordt uw domein ingesteld om te werken met Microsoft-services.
   
 
   
 > [!NOTE]
->  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
+>  Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="add-a-txt-record-for-verification"></a>Een TXT-record toevoegen voor verificatie
 <a name="BKMK_verify"> </a>
 
-Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat u de eigenaar bent van het domein. Als u zich bij uw account bij de domeinregistrar kunt aanmelden en de DNS-record kunt maken, is dit voor Microsoft bewezen.
+Before you use your domain with Microsoft, we have to make sure that you own it. Your ability to log in to your account at your domain registrar and create the DNS record proves to Microsoft that you own the domain.
   
 > [!NOTE]
-> Deze record wordt alleen gebruikt om te verifiëren dat u de eigenaar van uw domein bent. Dit heeft verder geen invloed. U kunt deze record later desgewenst verwijderen. 
+> This record is used only to verify that you own your domain; it doesn't affect anything else. You can delete it later, if you like. 
   
-Volg onderstaande stappen of [bekijk de video](https://support.office.com/article/Video-Create-DNS-records-at-Hover-for-Office-365-182bd58e-8fe4-4717-9233-3a3546b72ad2?ui=en-US&amp;rs=en-US&amp;ad=US).
+Volg onderstaande stappen of [bekijk de video](https://support.microsoft.com/office/182bd58e-8fe4-4717-9233-3a3546b72ad2).
   
-1. Als u wilt beginnen, gaat u [via deze koppeling](https://www.hover.com/domains) naar uw pagina met domeinen bij Hover. U wordt gevraagd u aan te melden.
+1. To get started, go to your domains page at Hover by using [this link](https://www.hover.com/domains). You'll be prompted to sign in.
     
     ![Aanmelden](../../media/f608cfaa-4962-46a1-a469-89010494e4be.png)
   
-2. Selecteer **onder Uw domeinen beheren**de naam van het domein dat u wilt bewerken.
+2. Selecteer onder **Uw domeinen beheren**de naam van het domein dat u wilt bewerken.
     
     ![Een domein selecteren](../../media/ae7c1c46-7ad5-467a-b41c-077c90018989.png)
   
-3. Selecteer het **tabblad DNS.** 
+3. Selecteer het tabblad **DNS.** 
     
     ![Het tabblad DNS selecteren](../../media/bd727fb4-0b06-426d-9387-42a160aead42.png)
   
 4. Selecteer **Nieuw toevoegen**.
     
-    ![Nieuw toevoegen selecteren](../../media/66d6b2c9-741e-40e0-a096-6e7e204d655d.png)
+    ![Selecteer Nieuw toevoegen](../../media/66d6b2c9-741e-40e0-a096-6e7e204d655d.png)
   
 5. Selecteer in de vakken voor de nieuwe record de optie **TXT** voor het **recordtype** en typ of kopieer en plak de waarden uit de volgende tabel.
     
@@ -101,34 +101,34 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
   
 > [!NOTE]
->  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
+>  Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>Voeg een MX-record toe zodat e-mail voor uw domein naar Microsoft wordt verzonden
 <a name="BKMK_add_MX"> </a>
 
-Volg onderstaande stappen of [bekijk de video](https://support.office.com/article/Video-Create-DNS-records-at-Hover-for-Office-365-182bd58e-8fe4-4717-9233-3a3546b72ad2?ui=en-US&amp;rs=en-US&amp;ad=US).
+Volg onderstaande stappen of [bekijk de video](https://support.microsoft.com/office/182bd58e-8fe4-4717-9233-3a3546b72ad2).
   
-1. Als u wilt beginnen, gaat u [via deze koppeling](https://www.hover.com/domains) naar uw pagina met domeinen bij Hover. U wordt gevraagd u aan te melden.
+1. To get started, go to your domains page at Hover by using [this link](https://www.hover.com/domains). You'll be prompted to sign in.
     
     ![Aanmelden](../../media/f608cfaa-4962-46a1-a469-89010494e4be.png)
   
-2. Selecteer **onder Uw domeinen beheren**de naam van het domein dat u wilt bewerken.
+2. Selecteer onder **Uw domeinen beheren**de naam van het domein dat u wilt bewerken.
     
     ![Een domein selecteren](../../media/ae7c1c46-7ad5-467a-b41c-077c90018989.png)
   
-3. Selecteer het **tabblad DNS.** 
+3. Selecteer het tabblad **DNS.** 
     
     ![Het tabblad DNS selecteren](../../media/bd727fb4-0b06-426d-9387-42a160aead42.png)
   
 4. Selecteer **Nieuw toevoegen**.
     
-    ![Nieuw toevoegen selecteren](../../media/66d6b2c9-741e-40e0-a096-6e7e204d655d.png)
+    ![Selecteer Nieuw toevoegen](../../media/66d6b2c9-741e-40e0-a096-6e7e204d655d.png)
   
 5. Selecteer in de vakken voor de nieuwe record de optie **MX** voor het **recordtype** en typ of kopieer en plak de waarden uit de volgende tabel.
     
     |**Hostnaam**|**Record Type**|**Priority**|**Hostname**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |0  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> | *\<domain-key\>*.mail.protection.outlook.com  <br/> **Let op:** Haal uw *\<domain-key\>* van uw Microsoft-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |MX  <br/> |0  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> | *\<domain-key\>*,,Mail.protection.outlook.com  <br/> **Let op:** Haal je *\<domain-key\>* van je Microsoft-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![DNS-waarden typen of kopiëren en plakken](../../media/2c8915fa-04a8-4d2a-a8ae-a79de0c8ef99.png)
   
@@ -138,11 +138,11 @@ Volg onderstaande stappen of [bekijk de video](https://support.office.com/articl
   
 7. Als er andere MX-records zijn, verwijdert u deze met behulp van de volgende tweestapsprocedure:
     
-    Selecteer eerst het mousing over een record die u wilt verwijderen **.**
+    Selecteer eerst verwijderen door een record te **verwijderen.**
     
     ![Muis over en selecteer Verwijderen](../../media/2ddf4902-8cd2-4969-a418-2cb592741e86.png)
   
-    Ten tweede selecteert u **Ja** om elke verwijdering te bevestigen. 
+    Selecteer ten tweede **Ja** om elke verwijdering te bevestigen. 
     
     ![Selecteer Ja om verwijdering te bevestigen](../../media/48756bd5-0205-4c4d-9803-9246795dbf4a.png)
   
@@ -151,17 +151,17 @@ Volg onderstaande stappen of [bekijk de video](https://support.office.com/articl
 ## <a name="add-the-cname-records-that-are-required-for-microsoft"></a>De CNAME-records toevoegen die zijn vereist voor Microsoft
 <a name="BKMK_add_CNAME"> </a>
 
-Volg onderstaande stappen of [bekijk de video](https://support.office.com/article/Video-Create-DNS-records-at-Hover-for-Office-365-182bd58e-8fe4-4717-9233-3a3546b72ad2?ui=en-US&amp;rs=en-US&amp;ad=US).
+Volg onderstaande stappen of [bekijk de video](https://support.microsoft.com/office/182bd58e-8fe4-4717-9233-3a3546b72ad2).
   
-1. Als u wilt beginnen, gaat u [via deze koppeling](https://www.hover.com/domains) naar uw pagina met domeinen bij Hover. U wordt gevraagd u aan te melden.
+1. To get started, go to your domains page at Hover by using [this link](https://www.hover.com/domains). You'll be prompted to sign in.
     
     ![Aanmelden](../../media/f608cfaa-4962-46a1-a469-89010494e4be.png)
   
-2. Selecteer **onder Uw domeinen beheren**de naam van het domein dat u wilt bewerken.
+2. Selecteer onder **Uw domeinen beheren**de naam van het domein dat u wilt bewerken.
     
     ![Een domein selecteren](../../media/ae7c1c46-7ad5-467a-b41c-077c90018989.png)
   
-3. Selecteer het **tabblad DNS.** 
+3. Selecteer het tabblad **DNS.** 
     
     ![Het tabblad DNS selecteren](../../media/bd727fb4-0b06-426d-9387-42a160aead42.png)
   
@@ -169,7 +169,7 @@ Volg onderstaande stappen of [bekijk de video](https://support.office.com/articl
     
     Selecteer **Nieuw toevoegen**.
     
-    ![Nieuw toevoegen selecteren](../../media/66d6b2c9-741e-40e0-a096-6e7e204d655d.png)
+    ![Selecteer Nieuw toevoegen](../../media/66d6b2c9-741e-40e0-a096-6e7e204d655d.png)
   
 5. Selecteer in de lege vakken voor de nieuwe record de optie **CNAME** voor het **recordtype** en typ of kopieer en plak de waarden uit de eerste rij in de volgende tabel.
     
@@ -195,23 +195,23 @@ Volg onderstaande stappen of [bekijk de video](https://support.office.com/articl
 > [!IMPORTANT]
 > U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden toe aan de huidige record, zodat u *één* SPF-record hebt die beide waardensets bevat. 
   
-Volg onderstaande stappen of [bekijk de video](https://support.office.com/article/Video-Create-DNS-records-at-Hover-for-Office-365-182bd58e-8fe4-4717-9233-3a3546b72ad2?ui=en-US&amp;rs=en-US&amp;ad=US).
+Volg onderstaande stappen of [bekijk de video](https://support.microsoft.com/office/182bd58e-8fe4-4717-9233-3a3546b72ad2).
   
-1. Als u wilt beginnen, gaat u [via deze koppeling](https://www.hover.com/domains) naar uw pagina met domeinen bij Hover. U wordt gevraagd u aan te melden.
+1. To get started, go to your domains page at Hover by using [this link](https://www.hover.com/domains). You'll be prompted to sign in.
     
     ![Aanmelden](../../media/f608cfaa-4962-46a1-a469-89010494e4be.png)
   
-2. Selecteer **onder Uw domeinen beheren**de naam van het domein dat u wilt bewerken.
+2. Selecteer onder **Uw domeinen beheren**de naam van het domein dat u wilt bewerken.
     
     ![Een domein selecteren](../../media/ae7c1c46-7ad5-467a-b41c-077c90018989.png)
   
-3. Selecteer het **tabblad DNS.** 
+3. Selecteer het tabblad **DNS.** 
     
     ![Het tabblad DNS selecteren](../../media/bd727fb4-0b06-426d-9387-42a160aead42.png)
   
 4. Selecteer **Nieuw toevoegen**.
     
-    ![Nieuw toevoegen selecteren](../../media/66d6b2c9-741e-40e0-a096-6e7e204d655d.png)
+    ![Selecteer Nieuw toevoegen](../../media/66d6b2c9-741e-40e0-a096-6e7e204d655d.png)
   
 5. Selecteer in de vakken voor de nieuwe record de optie **TXT** voor het **Recordtype** en typ of kopieer en plak de waarden uit de volgende tabel.
     
@@ -228,17 +228,17 @@ Volg onderstaande stappen of [bekijk de video](https://support.office.com/articl
 ## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>De twee SRV-records toevoegen die zijn vereist voor Microsoft
 <a name="BKMK_add_SRV"> </a>
 
-Volg onderstaande stappen of [bekijk de video](https://support.office.com/article/Video-Create-DNS-records-at-Hover-for-Office-365-182bd58e-8fe4-4717-9233-3a3546b72ad2?ui=en-US&amp;rs=en-US&amp;ad=US).
+Volg onderstaande stappen of [bekijk de video](https://support.microsoft.com/office/182bd58e-8fe4-4717-9233-3a3546b72ad2).
   
-1. Als u wilt beginnen, gaat u [via deze koppeling](https://www.hover.com/domains) naar uw pagina met domeinen bij Hover. U wordt gevraagd u aan te melden.
+1. To get started, go to your domains page at Hover by using [this link](https://www.hover.com/domains). You'll be prompted to sign in.
     
     ![Aanmelden](../../media/f608cfaa-4962-46a1-a469-89010494e4be.png)
   
-2. Selecteer **onder Uw domeinen beheren**de naam van het domein dat u wilt bewerken.
+2. Selecteer onder **Uw domeinen beheren**de naam van het domein dat u wilt bewerken.
     
     ![Een domein selecteren](../../media/ae7c1c46-7ad5-467a-b41c-077c90018989.png)
   
-3. Selecteer het **tabblad DNS.** 
+3. Selecteer het tabblad **DNS.** 
     
     ![Het tabblad DNS selecteren](../../media/bd727fb4-0b06-426d-9387-42a160aead42.png)
   
@@ -246,7 +246,7 @@ Volg onderstaande stappen of [bekijk de video](https://support.office.com/articl
     
     Selecteer **Nieuw toevoegen**.
     
-    ![Nieuw toevoegen selecteren](../../media/66d6b2c9-741e-40e0-a096-6e7e204d655d.png)
+    ![Selecteer Nieuw toevoegen](../../media/66d6b2c9-741e-40e0-a096-6e7e204d655d.png)
   
 5. Selecteer in de lege vakken voor de nieuwe record de optie **SRV** voor het **recordtype** en typ of kopieer en plak de waarden uit de eerste rij in de volgende tabel.
     
@@ -264,5 +264,5 @@ Volg onderstaande stappen of [bekijk de video](https://support.office.com/articl
 7. Met de drie voorgaande stappen en de waarden uit de tweede rij in de tabel voegt u de andere SRV-record toe.
     
 > [!NOTE]
-> Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
+> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md). 
   

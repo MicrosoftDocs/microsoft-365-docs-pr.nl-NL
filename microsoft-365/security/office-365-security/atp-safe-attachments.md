@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - seo-marvel-apr2020
 description: In dit artikel leest u meer over de functie VEILIGE bijlagen atp voor Office 365 en hoe u de functie voor uw abonnement krijgen.
-ms.openlocfilehash: 36993454a128d23ba388c24321a249f3be40d3d6
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 77842596b460e2d96ccde79e9c8c6ef3d1f8985a
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616776"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754758"
 ---
 # <a name="atp-safe-attachments"></a>ATP-veilige bijlagen
 
@@ -41,7 +41,7 @@ Zorg er vervolgens voor dat uw ATP-beleid voor veilige bijlagen is gedefinieerd.
 
 - Atp Safe Attachments-beleid is ingesteld. (Zie [Atp-beleid voor veilige bijlagen instellen in Office 365](set-up-atp-safe-attachments-policies.md).)
 
-- Gebruikers hebben zich aangemeld met hun werk- of schoolaccount. (Zie [Aanmelden bij Office of Office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426).)
+- Gebruikers hebben zich aangemeld met hun werk- of schoolaccount. (Zie [Aanmelden bij Office](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426).)
 
 Als u ATP-beleid wilt definiëren (of bewerken), moet u een geschikte rol toegewezen krijgen. Enkele voorbeelden worden beschreven in de volgende tabel:
 

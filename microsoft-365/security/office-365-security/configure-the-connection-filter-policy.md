@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u verbindingsfiltering configureert in Exchange Online Protection (EOP) om e-mails van e-mailservers toe te staan of te blokkeren.
-ms.openlocfilehash: 14758161f827cf231a8f3a0415748c7a2dd5981f
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: e0cb5161ac33333a0f8cd5f897b4a0a85315c12e
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616588"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755246"
 ---
 # <a name="configure-connection-filtering"></a>Filteren van verbinding configureren
 
@@ -46,9 +46,19 @@ In dit onderwerp wordt beschreven hoe u het standaardfilterbeleid voor verbindin
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u het standaardfilterbeleid voor verbindingen wilt wijzigen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Voor alleen-lezen toegang tot het standaardbeleid voor verbindingsfilters moet u lid zijn van de rolgroep **Beveiligingslezer.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
+- U moet machtigingen krijgen voordat u de procedures in dit onderwerp uitvoeren:
 
-- Als u de ip-adressen van de bron wilt vinden van de e-mailservers (afzenders) die u wilt toestaan of blokkeren, u het kopveld aansluitende IP **(CIP)** in de berichtkop controleren. Zie [Internetberichtenkoppen weergeven in Outlook als](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)u een berichtkoptekst in verschillende e-mailclients wilt weergeven.
+  - Als u het standaardfilterbeleid voor verbindingen wilt wijzigen, moet u lid zijn van een van de volgende rolgroepen:
+
+    - **Organisatiebeheer** of **beveiligingsbeheerder** in het [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).
+    - **Organisatiebeheer** of **hygiënebeheer** in [Exchange Online.](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)
+
+  - Voor alleen-lezen toegang tot het standaardbeleid voor verbindingsfilter moet u lid zijn van een van de volgende rolgroepen:
+
+    - **Security Reader** in het [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).
+    - **Alleen-weergeven organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+
+- Als u de ip-adressen van de bron wilt vinden van de e-mailservers (afzenders) die u wilt toestaan of blokkeren, u het kopveld aansluitende IP **(CIP)** in de berichtkop controleren. Zie [Internetberichtenkoppen weergeven in Outlook als](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c)u een berichtkoptekst in verschillende e-mailclients wilt weergeven.
 
 - De LIJST MET IP-toestaan heeft voorrang op de IP-bloklijst (een adres op beide lijsten wordt niet geblokkeerd).
 

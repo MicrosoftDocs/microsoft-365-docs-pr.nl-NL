@@ -1,5 +1,5 @@
 ---
-title: DNS-records maken bij Network Solutions voor Microsoft
+title: DNS-records maken bij Network Solutions for Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1dc55f9f-5309-450f-acc3-b2b4119c8be3
-description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Network Solutions voor Microsoft.
-ms.openlocfilehash: 0804abef84dc97a290d3f8084cd20e0ad3d3c5ef
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services bij Network Solutions for Microsoft.
+ms.openlocfilehash: 25e85bf30527b49ada711af9ba5c418409acd24c
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400350"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780335"
 ---
-# <a name="create-dns-records-at-network-solutions-for-microsoft"></a>DNS-records maken bij Network Solutions voor Microsoft
+# <a name="create-dns-records-at-network-solutions-for-microsoft"></a>DNS-records maken bij Network Solutions for Microsoft
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
 Als Network Solutions uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail, Skype voor Bedrijven Online, enzovoort in te stellen.
   
-Dit zijn de belangrijkste records om toe te voegen. Volg onderstaande stappen of [bekijk de video](https://support.office.com/article/Video-Create-DNS-records-at-Network-Solutions-for-Office-365-c49698c2-6991-47fb-b5ac-18e49a505099?ui=en-US&amp;rs=en-US&amp;ad=US). 
+Dit zijn de belangrijkste records om toe te voegen. Volg onderstaande stappen of [bekijk de video](https://support.microsoft.com/office/c49698c2-6991-47fb-b5ac-18e49a505099). 
   
 - [Een TXT-record toevoegen voor verificatie](#add-a-txt-record-for-verification)
     
@@ -46,27 +46,27 @@ Dit zijn de belangrijkste records om toe te voegen. Volg onderstaande stappen of
     
 - [De twee SRV-records toevoegen die zijn vereist voor Microsoft](#add-the-two-srv-records-that-are-required-for-microsoft)
     
-Nadat u deze records hebt toegevoegd bij Network Solutions, wordt uw domein ingesteld voor gebruik met Microsoft-services.
+Nadat u deze records hebt toegevoegd bij Network Solutions, wordt uw domein ingesteld om te werken met Microsoft-services.
   
 
   
 > [!NOTE]
->  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
+>  Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="add-a-txt-record-for-verification"></a>Een TXT-record toevoegen voor verificatie
 <a name="BKMK_verify"> </a>
 
-Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat u de eigenaar bent van het domein. Als u zich bij uw account bij de domeinregistrar kunt aanmelden en de DNS-record kunt maken, is dit voor Microsoft bewezen.
+Before you use your domain with Microsoft, we have to make sure that you own it. Your ability to log in to your account at your domain registrar and create the DNS record proves to Microsoft that you own the domain.
   
 > [!NOTE]
-> Deze record wordt alleen gebruikt om te verifiëren dat u de eigenaar van uw domein bent. Dit heeft verder geen invloed. U kunt deze record later desgewenst verwijderen. 
+> This record is used only to verify that you own your domain; it doesn't affect anything else. You can delete it later, if you like. 
   
-Volg onderstaande stappen of [bekijk de video (start op 0:47)](https://support.office.com/article/Video-Create-DNS-records-at-Network-Solutions-for-Office-365-c49698c2-6991-47fb-b5ac-18e49a505099?ui=en-US&amp;rs=en-US&amp;ad=US).
+Volg onderstaande stappen of [bekijk de video (start op 0:47)](https://support.microsoft.com/office/c49698c2-6991-47fb-b5ac-18e49a505099).
   
 1. Als u wilt beginnen, gaat u [via deze koppeling](https://www.networksolutions.com/manage-it) naar uw pagina met domeinen bij Network Solutions. U wordt gevraagd u aan te melden.
     
     > [!IMPORTANT]
-    > Voordat u de knop **Aanmelden** selecteert, kiest u **Mijn domeinnamen beheren** in de **vervolgkeuzelijst Aanmelden.** 
+    > Voordat u de **knop Aanmelden** selecteert, kiest u Eerst **Mijn domeinnamen beheren** in de vervolgkeuzelijst Aanmelden **bij:** 
   
     ![Mijn domeinnamen beheren kiezen en aanmelden bij Network Solutions](../../media/fda7d4a1-9445-4086-be9c-87c6983ef2aa.png)
   
@@ -84,7 +84,7 @@ Volg onderstaande stappen of [bekijk de video (start op 0:47)](https://support.o
     
     ![Selecteer Geavanceerde DNS-records beheren](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
-5. Schuif omlaag naar de sectie **Tekst (TXT Records)** en selecteer **Vervolgens TXT Records bewerken**.
+5. Schuif omlaag naar de sectie **Tekst (TXT Records)** en selecteer **TXT-records bewerken**.
     
     ![TXT-records bewerken selecteren](../../media/240a01d6-750a-4da6-8554-641b571e4b71.png)
   
@@ -102,7 +102,7 @@ Volg onderstaande stappen of [bekijk de video (start op 0:47)](https://support.o
   
 8. Selecteer **Wijzigingen opslaan**.
     
-    ![Selecteer Wijzigingen opslaan](../../media/bd4d7cd0-c8a3-497a-b080-cfd5a5c60dc5.png)
+    ![Wijzigingen opslaan selecteren](../../media/bd4d7cd0-c8a3-497a-b080-cfd5a5c60dc5.png)
   
 9. Wacht enkele minuten voordat u verder gaat, zodat de record die u zojuist hebt gemaakt via internet kan worden bijgewerkt.
     
@@ -125,17 +125,17 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
   
 > [!NOTE]
->  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
+>  Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>Voeg een MX-record toe zodat e-mail voor uw domein naar Microsoft wordt verzonden
 <a name="BKMK_add_MX"> </a>
 
-Volg onderstaande stappen of [bekijk de video (start op 3:51)](https://support.office.com/article/Video-Create-DNS-records-at-Network-Solutions-for-Office-365-c49698c2-6991-47fb-b5ac-18e49a505099?ui=en-US&amp;rs=en-US&amp;ad=US).
+Volg onderstaande stappen of [bekijk de video (start op 3:51)](https://support.microsoft.com/office/c49698c2-6991-47fb-b5ac-18e49a505099).
   
 1. Als u wilt beginnen, gaat u [via deze koppeling](https://www.networksolutions.com/manage-it) naar uw pagina met domeinen bij Network Solutions. U wordt gevraagd u aan te melden.
     
     > [!IMPORTANT]
-    > Voordat u de knop **Aanmelden** selecteert, kiest u **Mijn domeinnamen beheren** in de **vervolgkeuzelijst Aanmelden.** 
+    > Voordat u de **knop Aanmelden** selecteert, kiest u Eerst **Mijn domeinnamen beheren** in de vervolgkeuzelijst Aanmelden **bij:** 
   
     ![Mijn domeinnamen beheren kiezen en aanmelden bij Network Solutions](../../media/fda7d4a1-9445-4086-be9c-87c6983ef2aa.png)
   
@@ -153,7 +153,7 @@ Volg onderstaande stappen of [bekijk de video (start op 3:51)](https://support.o
     
     ![Selecteer Geavanceerde DNS-records beheren](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
-5. Schuif omlaag naar de sectie **Mail Servers (MX Records)** en selecteer **VERVOLGENS MX Records bewerken**.
+5. Schuif omlaag naar de sectie **E-mailservers (MX Records)** en selecteer **MX-records bewerken**.
     
     ![MX-records bewerken selecteren](../../media/74b4e412-9073-4d2d-8710-fe340b223798.png)
   
@@ -161,7 +161,7 @@ Volg onderstaande stappen of [bekijk de video (start op 3:51)](https://support.o
     
     |**Prioriteit**|**TTL**|**Mail Server**|
     |:-----|:-----|:-----|
-    |10  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/> |3600  <br/> | *\<domain-key\>* mail.protection.outlook.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> **Let op:** Haal uw *\<domain-key\>* van uw Microsoft-account. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
+    |10  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/> |3600  <br/> | *\<domain-key\>* mail.protection.outlook.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> **Let op:** Haal je *\<domain-key\>* van je Microsoft-account. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
        
     ![Waarden typen of plakken in de vakken voor de nieuwe record](../../media/0bb96872-cc6e-4dfa-a649-fb7efbbf0012.png)
   
@@ -171,7 +171,7 @@ Volg onderstaande stappen of [bekijk de video (start op 3:51)](https://support.o
   
 8. Selecteer **Wijzigingen opslaan**.
     
-    ![Selecteer Wijzigingen opslaan](../../media/7c2f784a-6dee-4364-866c-ad7202ef1fc2.png)
+    ![Wijzigingen opslaan selecteren](../../media/7c2f784a-6dee-4364-866c-ad7202ef1fc2.png)
   
 9. Als er andere MX-records zijn, verwijdert u deze allemaal door voor elke record **Delete** te selecteren. 
     
@@ -183,17 +183,17 @@ Volg onderstaande stappen of [bekijk de video (start op 3:51)](https://support.o
   
 11. Selecteer **Wijzigingen opslaan**.
     
-    ![Selecteer Wijzigingen opslaan](../../media/24432ec6-666b-4612-9488-37c06437959b.png)
+    ![Wijzigingen opslaan selecteren](../../media/24432ec6-666b-4612-9488-37c06437959b.png)
   
 ## <a name="add-the-cname-records-that-are-required-for-microsoft"></a>De CNAME-records toevoegen die zijn vereist voor Microsoft
 <a name="BKMK_add_CNAME"> </a>
 
-Volg onderstaande stappen of [bekijk de video (start op 4:43)](https://support.office.com/article/Video-Create-DNS-records-at-Network-Solutions-for-Office-365-c49698c2-6991-47fb-b5ac-18e49a505099?ui=en-US&amp;rs=en-US&amp;ad=US).
+Volg onderstaande stappen of [bekijk de video (start op 4:43)](https://support.microsoft.com/office/c49698c2-6991-47fb-b5ac-18e49a505099).
   
 1. Als u wilt beginnen, gaat u [via deze koppeling](https://www.networksolutions.com/manage-it) naar uw pagina met domeinen bij Network Solutions. U wordt gevraagd u aan te melden.
     
     > [!IMPORTANT]
-    > Voordat u de knop **Aanmelden** selecteert, kiest u **Mijn domeinnamen beheren** in de **vervolgkeuzelijst Aanmelden.** 
+    > Voordat u de **knop Aanmelden** selecteert, kiest u Eerst **Mijn domeinnamen beheren** in de vervolgkeuzelijst Aanmelden **bij:** 
   
     ![Mijn domeinnamen beheren kiezen en aanmelden bij Network Solutions](../../media/fda7d4a1-9445-4086-be9c-87c6983ef2aa.png)
   
@@ -211,9 +211,9 @@ Volg onderstaande stappen of [bekijk de video (start op 4:43)](https://support.o
     
     ![Selecteer Geavanceerde DNS-records beheren](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
-5. Schuif omlaag naar de sectie **Host Aliassen (CNAME Records)** en selecteer **CNAME Records bewerken**.
+5. Schuif omlaag naar de sectie **Host Aliases (CNAME Records)** en selecteer **CNAME Records bewerken**.
     
-    ![CNAME-records bewerken onder Host Aliassen selecteren](../../media/2d0a4666-8d40-48f4-886c-64a5157baaf5.png)
+    ![CNAME-records bewerken selecteren onder hostaliassen](../../media/2d0a4666-8d40-48f4-886c-64a5157baaf5.png)
   
 6. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de vier nieuwe records.
     
@@ -225,7 +225,7 @@ Volg onderstaande stappen of [bekijk de video (start op 4:43)](https://support.o
     |enterpriseregistration  <br/> |3600  <br/> |(Geen instelling)  <br/> |enterpriseregistration.windows.net  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |
     |enterpriseenrollment  <br/> |3600  <br/> |(Geen instelling)  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |
     
-    ![Waarden voor de nieuwe records typen of plakken](../../media/5ce0b30c-b46c-4778-aa5a-fb5e2f0961c1.png)
+    ![Waarden typen of plakken voor de nieuwe records](../../media/5ce0b30c-b46c-4778-aa5a-fb5e2f0961c1.png)
   
 7. Wanneer u alle CNAME-records hebt toegevoegd die u nodig hebt, selecteert u **Doorgaan**.
     
@@ -233,7 +233,7 @@ Volg onderstaande stappen of [bekijk de video (start op 4:43)](https://support.o
   
 8. Selecteer **Wijzigingen opslaan**.
     
-    ![Selecteer Wijzigingen opslaan](../../media/f005c38a-0d8d-4c61-bec6-15e60c89aa5a.png)
+    ![Wijzigingen opslaan selecteren](../../media/f005c38a-0d8d-4c61-bec6-15e60c89aa5a.png)
   
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Een TXT-record voor SPF toevoegen om spam tegen te gaan
 <a name="BKMK_add_TXT"> </a>
@@ -241,12 +241,12 @@ Volg onderstaande stappen of [bekijk de video (start op 4:43)](https://support.o
 > [!IMPORTANT]
 > U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden toe aan de huidige record, zodat u *één* SPF-record hebt die beide waardensets bevat. 
   
-Volg onderstaande stappen of [bekijk de video (start op 5:35)](https://support.office.com/article/Video-Create-DNS-records-at-Network-Solutions-for-Office-365-c49698c2-6991-47fb-b5ac-18e49a505099?ui=en-US&amp;rs=en-US&amp;ad=US).
+Volg onderstaande stappen of [bekijk de video (start op 5:35)](https://support.microsoft.com/office/c49698c2-6991-47fb-b5ac-18e49a505099).
   
 1. Als u wilt beginnen, gaat u [via deze koppeling](https://www.networksolutions.com/manage-it) naar uw pagina met domeinen bij Network Solutions. U wordt gevraagd u aan te melden.
     
     > [!IMPORTANT]
-    > Voordat u de knop **Aanmelden** selecteert, kiest u **Mijn domeinnamen beheren** in de **vervolgkeuzelijst Aanmelden.** 
+    > Voordat u de **knop Aanmelden** selecteert, kiest u Eerst **Mijn domeinnamen beheren** in de vervolgkeuzelijst Aanmelden **bij:** 
   
     ![Mijn domeinnamen beheren kiezen en aanmelden bij Network Solutions](../../media/fda7d4a1-9445-4086-be9c-87c6983ef2aa.png)
   
@@ -264,9 +264,9 @@ Volg onderstaande stappen of [bekijk de video (start op 5:35)](https://support.o
     
     ![Selecteer Geavanceerde DNS-records beheren](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
-5. Schuif omlaag naar de sectie **Tekst (TXT Records)** en selecteer **Vervolgens TXT Records bewerken**.
+5. Schuif omlaag naar de sectie **Tekst (TXT Records)** en selecteer **TXT-records bewerken**.
     
-    ![TXT-records bewerken onder Tekst selecteren](../../media/a69a2631-6da2-4e81-99ab-9a9ab9b30b07.png)
+    ![TXT-records bewerken onder tekst selecteren](../../media/a69a2631-6da2-4e81-99ab-9a9ab9b30b07.png)
   
 6. Typ of kopieer en plak de volgende waarden in de vakken voor de nieuwe record.
     
@@ -274,7 +274,7 @@ Volg onderstaande stappen of [bekijk de video (start op 5:35)](https://support.o
     |:-----|:-----|:-----|
     |@  <br/> (In het systeem wordt deze waarde gewijzigd in **@ (None)** wanneer u de record opslaat.)  <br/> |3600  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft. |
        
-    ![Waarden voor de nieuwe record typen of plakken](../../media/11564eca-e2ee-4f17-af2b-a00eb7c157db.png)
+    ![Waarden typen of plakken voor de nieuwe record](../../media/11564eca-e2ee-4f17-af2b-a00eb7c157db.png)
   
 7. Selecteer **Doorgaan**.
     
@@ -282,17 +282,17 @@ Volg onderstaande stappen of [bekijk de video (start op 5:35)](https://support.o
   
 8. Selecteer **Wijzigingen opslaan**.
     
-    ![Selecteer Wijzigingen opslaan](../../media/600b8c6d-184f-4213-a50e-8f119ebf3ff0.png)
+    ![Wijzigingen opslaan selecteren](../../media/600b8c6d-184f-4213-a50e-8f119ebf3ff0.png)
   
 ## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>De twee SRV-records toevoegen die zijn vereist voor Microsoft
 <a name="BKMK_add_SRV"> </a>
 
-Volg onderstaande stappen of [bekijk de video (start op 6:18)](https://support.office.com/article/Video-Create-DNS-records-at-Network-Solutions-for-Office-365-c49698c2-6991-47fb-b5ac-18e49a505099?ui=en-US&amp;rs=en-US&amp;ad=US).
+Volg onderstaande stappen of [bekijk de video (start op 6:18)](https://support.microsoft.com/office/c49698c2-6991-47fb-b5ac-18e49a505099).
   
-1. Als u wilt beginnen, gaat u [via deze koppeling](https://www.networksolutions.com/manage-it) naar uw pagina met domeinen bij Network Solutions. U wordt gevraagd u aan te melden.
+1. To get started, go to your domains page at Network Solutions by using [this link](https://www.networksolutions.com/manage-it). You'll be prompted to log in.
     
     > [!IMPORTANT]
-    > Voordat u de knop **Aanmelden** selecteert, kiest u **Mijn domeinnamen beheren** in de **vervolgkeuzelijst Aanmelden.** 
+    > Voordat u de **knop Aanmelden** selecteert, kiest u Eerst **Mijn domeinnamen beheren** in de vervolgkeuzelijst Aanmelden **bij:** 
   
     ![Mijn domeinnamen beheren kiezen en aanmelden bij Network Solutions](../../media/fda7d4a1-9445-4086-be9c-87c6983ef2aa.png)
   
@@ -310,9 +310,9 @@ Volg onderstaande stappen of [bekijk de video (start op 6:18)](https://support.o
     
     ![Selecteer Geavanceerde DNS-records beheren](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
-5. Schuif omlaag naar de sectie **Service (SRV Records)** en selecteer **Vervolgens SRV Records bewerken**.
+5. Schuif omlaag naar de sectie **Service (SRV Records)** en selecteer **SRV-records bewerken**.
     
-    ![SRV-records bewerken onder Service selecteren](../../media/9a9248ea-5de5-4e16-9364-f7600fa371f5.png)
+    ![SRV-records bewerken selecteren onder Service](../../media/9a9248ea-5de5-4e16-9364-f7600fa371f5.png)
   
 6. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de twee nieuwe records.
     
@@ -323,7 +323,7 @@ Volg onderstaande stappen of [bekijk de video (start op 6:18)](https://support.o
     |_sip  <br/> |_tls  <br/> |3600  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |
     |_sipfederationtls  <br/> |_tcp  <br/> |3600  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |
        
-    ![Waarden voor de nieuwe records typen of plakken](../../media/86968d1c-8e43-4e61-aeaa-37fc7d7ef7a7.png)
+    ![Waarden typen of plakken voor de nieuwe records](../../media/86968d1c-8e43-4e61-aeaa-37fc7d7ef7a7.png)
   
 7. Selecteer **Doorgaan**.
     
@@ -331,8 +331,8 @@ Volg onderstaande stappen of [bekijk de video (start op 6:18)](https://support.o
   
 8. Selecteer **Wijzigingen opslaan**.
     
-    ![Selecteer Wijzigingen opslaan](../../media/6d323126-0ebe-45ab-8567-c234711d84c7.png)
+    ![Wijzigingen opslaan selecteren](../../media/6d323126-0ebe-45ab-8567-c234711d84c7.png)
   
 > [!NOTE]
->  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
+>  Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md). 
   

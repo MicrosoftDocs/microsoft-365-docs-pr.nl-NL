@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Leer het standaardthema van Microsoft 365 te wijzigen en aan te passen aan uw bedrijfslogo of kleur. '
-ms.openlocfilehash: 034e5cff726ea97397d5eee1592265ae3452209b
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: f3ba6021205289426ee78f16c7d0678e4b81ef75
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678612"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779855"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Het Microsoft 365-thema voor uw organisatie aanpassen
 
@@ -67,7 +67,7 @@ Als beheerder van uw Microsoft 365 voor Bedrijven-abonnement u het standaardthem
     
 4. Selecteer **Wijzigingen opslaan**.
     
-Je je nieuwe thema meteen zien in het beheercentrum. Na een korte vertraging u deze zien in Microsoft 365, onder meer op pagina's in Outlook, SharePoint, [de mobiele SharePoint-app voor iOS](https://support.office.com/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)en [de mobiele SharePoint-app voor Android.](https://support.office.com/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284)
+Je je nieuwe thema meteen zien in het beheercentrum. Na een korte vertraging u deze zien in Microsoft 365, onder meer op pagina's in Outlook, SharePoint, [de mobiele SharePoint-app voor iOS](https://support.microsoft.com/office/339402ce-16bb-4c97-9475-0c5375ccef7a)en [de mobiele SharePoint-app voor Android.](https://support.microsoft.com/office/d875654b-fb0a-4dbe-a17a-a676cf936284)
 
 U kunt op elk gewenst moment het aangepaste pictogram of de aangepaste kleuren verwijderen. Ga terug naar de themapagina en selecteer **Aangepaste thema's verwijderen.**
   

@@ -23,12 +23,12 @@ search.appverid:
 - BEA160
 ms.assetid: b6c18a9b-2aed-4c84-9d75-af709160258c
 description: 'Meer informatie over het vinden van een nieuwe Microsoft 365-partner of het ophalen van contactgegevens voor een partner waarmee u in het verleden hebt samengewerkt. '
-ms.openlocfilehash: b116fc77f41efa2e73bfa50bb187897d167d9998
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: fad16990df7783908f59a6e3dd59cb0a1a13572e
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515793"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780107"
 ---
 # <a name="find-your-partner-or-reseller"></a>Uw partner of wederverkoper zoeken
 
@@ -61,6 +61,6 @@ Als u microsoft 365 wilt kopen of verlengen via Open Volume Licensing, of als u 
   
  **Voor Microsoft-partners**
   
-[Help voor partners](https://support.office.com/article/ae811622-b838-4f62-b7e9-659627374963.aspx)
+[Help voor partners](https://support.microsoft.com/office/ae811622-b838-4f62-b7e9-659627374963)
   
 

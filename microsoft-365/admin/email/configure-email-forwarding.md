@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: E-mail doorsturen naar een of meer e-mailaccounts instellen met Office365.
-ms.openlocfilehash: 3ce82d514e1342ac6110ca74106477e3cf7820cb
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: f6c177ba37cf2b8ce3966732adbe8428d9b6179e
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432299"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780251"
 ---
 # <a name="configure-email-forwarding"></a>Doorsturen van e‑mail configureren
 
@@ -61,7 +61,7 @@ U moet een Exchange-beheerder of globale beheerder in Microsoft 365 zijn om deze
   
 4. Selecteer op de pagina e-mail doorsturen de optie **Alle e-mails die naar dit postvak worden verzonden,** voer het doorstuuradres in en kies of u een kopie van doorgestuurde e-mails wilt bewaren. Als u deze optie niet ziet, controleert u of een licentie is toegewezen aan het gebruikersaccount. Selecteer **Wijzigingen opslaan**.
     
-    Als u **meerdere e-mailadressen wilt doorsturen,** u de gebruiker vragen een regel in Outlook in te stellen om door te sturen naar de adressen. Zie [Regels gebruiken om berichten automatisch door te sturen voor](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746)meer informatie. 
+    Als u **meerdere e-mailadressen wilt doorsturen,** u de gebruiker vragen een regel in Outlook in te stellen om door te sturen naar de adressen. Zie [Regels gebruiken om berichten automatisch door te sturen voor](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746)meer informatie. 
     
      Of maak in het beheercentrum [een distributiegroep,](../setup/create-distribution-lists.md) [voeg de adressen eraan toe](add-user-or-contact-to-distribution-list.md)en stel vervolgens doorsturen in om naar de DL te wijzen met behulp van de instructies in dit artikel.
     
@@ -79,7 +79,7 @@ U moet een Exchange-beheerder of globale beheerder in Microsoft 365 zijn om deze
 
 4. Stel op de pagina e-mail doorsturen de schakelaar **in op Aan,** voer het doorstuuradres in en kies of u een kopie van doorgestuurde e-mails wilt bewaren. Als u deze optie niet ziet, controleert u of een licentie is toegewezen aan het gebruikersaccount. Kies **Opslaan**.
     
-    Als u **meerdere e-mailadressen wilt doorsturen,** u de gebruiker vragen een regel in Outlook in te stellen om door te sturen naar de adressen. Zie [Regels gebruiken om berichten automatisch door te sturen voor](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746)meer informatie. 
+    Als u **meerdere e-mailadressen wilt doorsturen,** u de gebruiker vragen een regel in Outlook in te stellen om door te sturen naar de adressen. Zie [Regels gebruiken om berichten automatisch door te sturen voor](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746)meer informatie. 
     
      Of maak in het beheercentrum [een distributiegroep,](../setup/create-distribution-lists.md) [voeg de adressen eraan toe](add-user-or-contact-to-distribution-list.md)en stel vervolgens doorsturen in om naar de DL te wijzen met behulp van de instructies in dit artikel.
     
@@ -97,7 +97,7 @@ U moet een Exchange-beheerder of globale beheerder in Microsoft 365 zijn om deze
 
 4. Stel op de pagina e-mail doorsturen de schakelaar **in op Aan,** voer het doorstuuradres in en kies of u een kopie van doorgestuurde e-mails wilt bewaren. Als u deze optie niet ziet, controleert u of een licentie is toegewezen aan het gebruikersaccount. Kies **Opslaan**.
     
-    Als u **meerdere e-mailadressen wilt doorsturen,** u de gebruiker vragen een regel in Outlook in te stellen om door te sturen naar de adressen. Zie [Regels gebruiken om berichten automatisch door te sturen voor](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746)meer informatie. 
+    Als u **meerdere e-mailadressen wilt doorsturen,** u de gebruiker vragen een regel in Outlook in te stellen om door te sturen naar de adressen. Zie [Regels gebruiken om berichten automatisch door te sturen voor](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746)meer informatie. 
     
      Of maak in het beheercentrum [een distributiegroep,](../setup/create-distribution-lists.md) [voeg de adressen eraan toe](add-user-or-contact-to-distribution-list.md)en stel vervolgens doorsturen in om naar de DL te wijzen met behulp van de instructies in dit artikel.
     

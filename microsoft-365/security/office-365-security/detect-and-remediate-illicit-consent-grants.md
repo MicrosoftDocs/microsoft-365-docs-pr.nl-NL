@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Meer informatie over het herkennen en herstellen van de aanval op illegale toestemmingssubsidies in Microsoft Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e775112809fc25e562686761c69471dad6cac1d
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: a324c4427046480fe81f58fc810f020c87247032
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44587494"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726802"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>Subsidies voor illegale toestemming opsporen en herstellen
 
@@ -30,7 +30,7 @@ ms.locfileid: "44587494"
 
 ## <a name="what-is-the-illicit-consent-grant-attack-in-office-365"></a>Wat is de aanval op illegale toestemmingstoegave in Office 365?
 
-In een aanval op een illegale toestemmingstoegeving maakt de aanvaller een azure-geregistreerde toepassing die toegang vraagt tot gegevens zoals contactgegevens, e-mail of documenten. De aanvaller trucs een eindgebruiker in het verlenen van die toepassing toestemming om toegang te krijgen tot hun gegevens, hetzij door middel van een phishing-aanval, of door het injecteren van illegale code in een vertrouwde website. Nadat de illegale toepassing toestemming heeft gekregen, heeft het toegang op accountniveau tot gegevens zonder dat er een organisatieaccount nodig is. Normale herstelstappen, zoals het resetten van wachtwoorden voor geschonden accounts of het vereisen van Multi-Factor Authentication (MFA) op accounts, zijn niet effectief tegen dit type aanval, omdat dit toepassingen van derden zijn en buiten de organisatie zijn. 
+In een aanval op een illegale toestemmingstoegeving maakt de aanvaller een azure-geregistreerde toepassing die toegang vraagt tot gegevens zoals contactgegevens, e-mail of documenten. De aanvaller trucs een eindgebruiker in het verlenen van die toepassing toestemming om toegang te krijgen tot hun gegevens, hetzij door middel van een phishing-aanval, of door het injecteren van illegale code in een vertrouwde website. Nadat de illegale toepassing toestemming heeft gekregen, heeft het toegang op accountniveau tot gegevens zonder dat er een organisatieaccount nodig is. Normale herstelstappen, zoals het resetten van wachtwoorden voor geschonden accounts of het vereisen van Multi-Factor Authentication (MFA) op accounts, zijn niet effectief tegen dit type aanval, omdat dit toepassingen van derden zijn en buiten de organisatie zijn.
 
 Deze aanvallen maken gebruik van een interactiemodel dat ervan uitgaat dat de entiteit die de informatie aanroept, automatisering is en geen mens.
 
@@ -43,18 +43,21 @@ U moet het **controlelogboek** doorzoeken om tekens te vinden, ook wel Indicator
 
 ### <a name="steps-for-finding-signs-of-this-attack"></a>Stappen voor het vinden van tekenen van deze aanval
 
-1. Open het **Security & Compliance Center** in uw tenant.
+1. Open het **Security & Compliance Center** op <https://protection.office.com> .
 
 2. Navigeer naar **zoeken** en selecteer **Zoeken in controlelogboek**.
 
-3. Zoek (alle activiteiten en alle gebruikers) en voer indien nodig de begin- en einddatum in en klik op **Zoeken.** 
+3. Zoek (alle activiteiten en alle gebruikers) en voer indien nodig de begin- en einddatum in en klik op **Zoeken.**
 
 4. Klik **op Resultaten filteren** en voer Toestemming voor toepassing in het veld **Activiteit** in.
 
 5. Klik op het resultaat om de details van de activiteit te zien. Klik **op Meer informatie** voor meer informatie over de activiteit. Controleer of IsAdminContent is ingesteld op True.
 
 > [!NOTE]
-> Het kan 30 minuten tot 24 uur duren voordat de bijbehorende controlelogboekinvoer na een gebeurtenis in de zoekresultaten wordt weergegeven. <br/><br/> Hoe lang een controlerecord wordt bewaard en doorzoekbaar in het controlelogboek, is afhankelijk van uw Microsoft 365-abonnement en met name het type van de licentie dat aan een specifieke gebruiker is toegewezen. Zie [Controlelogboek voor](../../compliance/search-the-audit-log-in-security-and-compliance.md)meer informatie.
+> 
+> Het kan 30 minuten tot 24 uur duren voordat de bijbehorende controlelogboekinvoer na een gebeurtenis in de zoekresultaten wordt weergegeven.
+> 
+> Hoe lang een controlerecord wordt bewaard en doorzoekbaar in het controlelogboek, is afhankelijk van uw Microsoft 365-abonnement en met name het type van de licentie dat aan een specifieke gebruiker is toegewezen. Zie [Controlelogboek voor](../../compliance/search-the-audit-log-in-security-and-compliance.md)meer informatie.
 > 
 > Als deze waarde waar is, geeft dit aan dat iemand met toegang tot global administrator mogelijk brede toegang tot gegevens heeft verleend. Als dit onverwacht is, neemt u stappen om een aanval te [bevestigen.](#how-to-confirm-an-attack)
 
@@ -109,7 +112,7 @@ De eenvoudigste manier om de Illegale Consent Grant-aanval te verifiëren, is do
 
 1. Meld u aan bij de computer waarvan u het script uitvoert met lokale beheerdersrechten.
 
-2. Download of kopieer het [Script Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) van GitHub naar een map van waaruit u het script uitvoert. Dit is dezelfde map waarop het bestand "permissions.csv" wordt geschreven.
+2. Download of kopieer het [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) script van GitHub naar een map van waaruit u het script uitvoert. Dit is dezelfde map waarop het bestand "permissions.csv" wordt geschreven.
 
 3. Open een PowerShell-instantie als beheerder en open de map waar u het script hebt opgeslagen.
 

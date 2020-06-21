@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Meer informatie over het implementeren van invoegtoepassingen voor gebruikers en groepen in uw organisatie met behulp van gecentraliseerde implementatie in het beheercentrum.
-ms.openlocfilehash: 9d6a3da00445dd5cde26c80fe63edd81f745ce63
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 25a4cd4147f6388cdbd8982eb10624e7b7e8f6cb
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678634"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780119"
 ---
 # <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>De implementatie van invoegtoepassingen in het Microsoft 365-beheercentrum beheren
 
@@ -36,7 +36,7 @@ ms.locfileid: "44678634"
 
 ::: moniker-end
 
-Met Office-invoegtoepassingen kunt u uw documenten aan uw persoonlijke voorkeur aanpassen en de manier waarop u toegang krijgt tot informatie op internet stroomlijnen (zie [Uw Office-invoegtoepassing gebruiken](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx)). Als beheerder u Office-invoegtoepassingen implementeren voor de gebruikers in uw organisatie. U dit doen met de functie Gecentraliseerde implementatie in het Microsoft 365-beheercentrum.
+Met Office-invoegtoepassingen kunt u uw documenten aan uw persoonlijke voorkeur aanpassen en de manier waarop u toegang krijgt tot informatie op internet stroomlijnen (zie [Uw Office-invoegtoepassing gebruiken](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)). Als beheerder u Office-invoegtoepassingen implementeren voor de gebruikers in uw organisatie. U dit doen met de functie Gecentraliseerde implementatie in het Microsoft 365-beheercentrum.
   
 Gecentraliseerde implementatie is de aanbevolen en meest veelzijdige manier voor de meeste beheerders om invoegtoepassingen te implementeren voor gebruikers en groepen binnen een organisatie. Zie [Bepalen of Gecentraliseerde implementatie van invoegtoepassingen werkt voor uw organisatie voor](centralized-deployment-of-add-ins.md)meer informatie over hoe u bepalen of uw organisatie gecentraliseerde implementatie kan ondersteunen.
   
@@ -44,7 +44,7 @@ Gecentraliseerde implementatie biedt de volgende voordelen:
   
 - Een globale beheerder kan een invoegtoepassing rechtstreeks aan een gebruiker toewijzen, aan meerdere gebruikers via een groep, of aan iedereen in de tenant.
     
-- Wanneer de betreffende Office-toepassing wordt gestart, wordt de invoegtoepassing automatisch voor de gebruiker gedownload. Als de invoegtoepassing opdrachten voor de invoegtoepassing ondersteunt, wordt de invoegtoepassing automatisch in het lint in de Office-toepassing weergegeven.
+- When the relevant Office application starts, the add-in automatically downloads for the user. If the add-in supports add-in commands, the add-in automatically appears in the Ribbon within the Office application.
     
 - Invoegtoepassingen worden niet meer weergegeven voor gebruikers als de beheerder de invoegtoepassing uitschakelt of verwijdert, of als de gebruiker wordt verwijderd uit Azure Active Directory of uit een groep waaraan de invoegtoepassing is toegewezen.
     
@@ -53,11 +53,11 @@ Gecentraliseerde implementatie biedt de volgende voordelen:
   
 ## <a name="recommended-approach-for-deploying-office-add-ins"></a>Aanbevolen werkwijze voor de implementatie van Office-invoegtoepassingen
 
-Overweeg de invoegtoepassingen in fasen uit te rollen om de implementatie goed te laten verlopen. De volgende werkwijze wordt aanbevolen:
+Consider rolling out add-ins in a phased approach to help ensure your add-in deployment goes smoothly. We recommend the following plan:
   
-1. Rol de invoegtoepassing uit naar een klein aantal belanghebbenden in het bedrijf en leden van de IT-afdeling. Controleer of de implementatie goed is verlopen en ga verder met stap 2 als dat het geval is.
+1. Roll-out the add-in to a small set of business stakeholders and members of the IT department. Evaluate if the deployment was successful, and if so, move on to step 2.
     
-2. Rol de invoegtoepassing uit naar een grotere groep personen binnen het bedrijf die van de invoegtoepassing gebruik zullen maken. Controleer opnieuw de resultaten en ga als alles goed is verlopen verder met de volgende stap voor een volledige implementatie.
+2. Roll-out to a larger set of individuals within the business who will be using the add-in. Again, evaluate results and, if all went well, go to the next step of a full deployment.
     
 3. Rol de invoegtoepassing volledig uit naar de gehele doelgroep.
     
@@ -83,7 +83,7 @@ Zie [Bepalen of Gecentraliseerde implementatie van invoegtoepassingen werkt voor
 7. Er verschijnt een groene teek wanneer de invoegtoepassing is geïmplementeerd. U de instructies op de pagina volgen om te testen of de invoegtoepassing is geïmplementeerd.
 
 > [!NOTE]
-> Gebruikers moeten Office mogelijk opnieuw starten om het invoegpictogram op het lint van de app te zien verschijnen. Outlook-invoegtoepassingen kunnen tot 12 uur duren voordat ze op linten van gebruikers worden weergegeven.
+> Gebruikers moeten Office mogelijk opnieuw starten om het invoegpictogram op het lint van de app te zien verschijnen. Outlook-invoegtoepassingen kunnen tot 24 uur duren voordat ze op linten van gebruikers worden weergegeven.
     
 8. Selecteer **Volgende**als u klaar bent. Als u alleen bent geïmplementeerd, u Wijzigen selecteren **die toegang heeft tot invoegtoepassing** om meer gebruikers te implementeren.
 
@@ -91,21 +91,21 @@ Zie [Bepalen of Gecentraliseerde implementatie van invoegtoepassingen werkt voor
 
 Als u de invoegtoepassing voor leden van uw organisatie anders dan uzelf hebt geïmplementeerd, volgt u de instructies die worden weergegeven om de implementatie van de invoegtoepassing effectief aan te kondigen. <br/>U ziet nu uw invoegtoepassing samen met andere apps in Microsoft 365.
   
-Laat gebruikers en groepen weten dat u de invoegtoepassing hebt geïmplementeerd en dat deze nu voor hen beschikbaar is. U kunt ook een e-mailbericht naar gebruikers en groepen sturen waarin u beschrijft wanneer en hoe de invoegtoepassing kan worden gebruikt en hoe de invoegtoepassing kan helpen hun werk beter te doen. Neem relevante Help-inhoud of veelgestelde vragen op (of een koppeling hiernaartoe) voor het geval gebruikers problemen met de invoegtoepassing hebben.
+It's a good idea to inform the users and groups who you deployed the add-in to so that they know that it's available. Consider sending an email to them that describes when and how to use the add-in and explains how the add-in can help them do their job better. Include or link to relevant Help content or FAQs that might help if users have any problems with the add-in.
   
 ### <a name="considerations-when-assigning-an-add-in-to-users-and-groups"></a>Overwegingen bij het toewijzen van een invoegtoepassing aan gebruikers en groepen
 
-Beheerders kunnen een invoegtoepassing aan iedereen of aan specifieke gebruikers en groepen toewijzen. Elke optie heeft gevolgen:
+Admins can assign an add-in to everyone or to specific users and groups. Each option has implications:
   
-- **Iedereen**: Zoals de naam al zegt, wordt met deze optie de invoegtoepassing aan elke gebruiker in de tenant toegewezen. Gebruik deze optie niet te vaak en alleen voor invoegtoepassingen die echt universeel voor uw organisatie zijn. 
+- **Everyone**: As the name implies, this option assigns the add-in to every user in the tenant. Use this option sparingly and only for add-ins that are truly universal to your organization. 
     
-- **Gebruikers**: Als u een invoegtoepassing aan een individuele gebruiker toewijst, moet u bij de implementatie voor een nieuwe gebruiker eerst die gebruiker toevoegen. Hetzelfde geldt voor het verwijderen van gebruikers. 
+- **Users**: If you assign an add-in to an individual user, then to deploy the add-in to a new user, you will need to first add that user. The same goes for removing users. 
     
-- **Groepen**: Als u een invoegtoepassing aan een groep toewijst, wordt de invoegtoepassing automatisch toegewezen aan gebruikers die aan de groep zijn toegevoegd. En wanneer een gebruiker uit een groep wordt verwijderd, heeft de gebruiker niet langer toegang tot de invoegtoepassing. In beide gevallen hoeft u als beheerder geen extra actie uit te voeren. 
+- **Groups**: If you assign an add-in to a group, users who are added to the group will automatically be assigned the add-in. And, when a user is removed from a group, the user loses access to the add-in. In either case, no additional action is required from you as the admin. 
 
 - **Just me**: Als u een invoegtoepassing aan uzelf toewijst, wijst dit de invoegtoepassing alleen aan uw account toe. Dit is ideaal als u de add-in eerst wilt testen.
     
-Welke optie voor uw organisatie geschikt is, is afhankelijk van uw configuratie. U wordt echter aangeraden toewijzingen via groepen te maken. Als beheerder kunt u mogelijk handiger invoegtoepassingen beheren door gebruik te maken van groepen. U kunt dan het lidmaatschap van deze groepen beheren in plaats van dat u telkens de toegewezen gebruikers moet wijzigen. Aan de andere kant wilt u de toegang in sommige gevallen misschien beperken tot een zeer klein aantal gebruikers en geeft u daarom de voorkeur aan toewijzingen voor specifieke gebruikers. U moet de toegewezen gebruikers dan handmatig beheren.
+The option that is right for your organization depends on your configuration. However, we recommend making assignments via groups. As an admin, you might find it easier to manage add-ins using groups and control the membership of those groups rather than having to change the users assigned each time. On the other hand, in some situations, you may want to restrict access to a very small set of users and therefore make assignments to specific users. As a result, you will need to manage the assigned users manually.
   
 ### <a name="add-in-states"></a>Statussen van invoegtoepassingen
 
@@ -117,11 +117,11 @@ Een invoegtoepassing kan zich in de status **Aan** of **Uit** besgaan.
 |**Uitgeschakeld**  <br/> |De beheerder heeft de invoegtoepassing uitgeschakeld.  <br/> |Gebruikers en groepen die zijn toegewezen aan de invoegtoepassing, hebben niet langer toegang tot de invoegtoepassing.  <br/> Als de status van de invoegtoepassing wordt gewijzigd in Actief, hebben de gebruikers en groepen opnieuw toegang tot de invoegtoepassing.  <br/> |
 |**Verwijderd**  <br/> |De beheerder heeft de invoegtoepassing verwijderd.  <br/> |Gebruikers en groepen die zijn toegewezen aan de invoegtoepassing, hebben niet langer toegang tot de invoegtoepassing.  <br/> |
    
-Stel dat u een invoegtoepassing verwijdert omdat deze door niemand meer wordt gebruikt. Het uitschakelen van een invoegtoepassing kan zinvol zijn als een invoegtoepassing alleen in bepaalde perioden van het jaar wordt gebruikt.
+Consider deleting an add-in if no one is using it any more. Turning off an add-in may make sense if an add-in is used only during specific times of the year.
   
 ### <a name="security-of-office-add-ins"></a>Beveiliging van Office-invoegtoepassingen
 
-Office-invoegtoepassingen bevatten een XML-manifestbestand dat gegevens over de invoegtoepassing bevat. Het belangrijkste is echter dat het manifestbestand naar een webapplicatie verwijst die alle code en logica bevat. Invoegtoepassingen kennen talloze mogelijkheden. Met behulp van invoegtoepassingen kunt u bijvoorbeeld:
+Office add-ins combine an XML manifest file that contains some metadata about the add-in, but most importantly points to a web application which contains all the code and logic. Add-ins can range in their capabilities. For example, add-ins can:
   
 - Gegevens weergeven.
     
@@ -131,18 +131,18 @@ Office-invoegtoepassingen bevatten een XML-manifestbestand dat gegevens over de 
     
 Zie [Office Add-ins platform overview](https://go.microsoft.com/fwlink/p/?linkid=846362) (Overzicht van platforms voor Office-invoegtoepassingen), met name de sectie Anatomy of an Office Add-in (Anatomie van een Office-invoegtoepassing).
   
-Voor interactie met het document van de gebruiker moet de invoegtoepassing declareren welke machtiging er in het manifest is vereist. Een JavaScript API-model voor toestemming voor toegang bestaande uit vijf niveaus vormt de basis voor privacy en veiligheid voor gebruikers van invoegtoepassingen voor taakvensters. De meeste invoegtoepassingen in de Office Store zijn van het niveau ReadWriteDocument. Vrijwel alle invoegtoepassingen ondersteunen ten minste het niveau ReadDocument. Zie [Requesting permissions for API use in content and task pane add-ins](https://go.microsoft.com/fwlink/p/?linkid=848863) (Machtigingen aanvragen voor API-gebruik in invoegtoepassingen voor inhouds- en taakvensters) voor meer informatie over machtigingsniveaus.
+To interact with the user's document, the add-in needs to declare what permission it needs in the manifest. A five-level JavaScript API access-permissions model provides the basis for privacy and security for users of task pane add-ins. The majority of the add-ins in the Office Store are level ReadWriteDocument with almost all add-ins supporting at least the ReadDocument level. For more information about the permission levels, see [Requesting permissions for API use in content and task pane add-ins](https://go.microsoft.com/fwlink/p/?linkid=848863).
   
-Wanneer een manifest wordt bijgewerkt, worden de wijzigingen voornamelijk aangebracht aan het pictogram en de tekst van de invoegtoepassing. Af en toe worden opdrachten van invoegtoepassingen gewijzigd. De machtigingen van de invoegtoepassing worden echter niet gewijzigd. De webtoepassing waar alle code en logica voor de invoegtoepassing wordt uitgevoerd, kan op elk moment worden gewijzigd, wat kenmerkend is voor webtoepassingen.
+When updating a manifest, the typical changes are to an add-in's icon and text. Occasionally, add-in commands change. However, the permissions of the add-in do not change. The web application where all the code and logic for the add-in runs can change at any time, which is the nature of web applications.
   
 Updates voor invoegtoepassingen worden als volgt uitgevoerd:
   
-- **Line-Of-Business-invoegtoepassing:** In dit geval, waarbij een beheerder een manifest expliciet heeft geüpload, wordt vereist dat de beheerder een nieuw manifestbestand uploadt zodat het wijzigen van metagegevens wordt ondersteund. De volgende keer dat de betreffende Office-toepassingen worden gestart, wordt de invoegtoepassing bijgewerkt. De webtoepassing kan elk moment worden gewijzigd. 
+- **Line-of-business add-in:** In this case, where an admin explicitly uploaded a manifest, the add-in requires that the admin upload a new manifest file to support metadata changes. The next time the relevant Office applications start, the add-in will update. The web application can change at any time. 
 
     > [!NOTE]
     > De beheerder hoeft geen LOB-invoegtoepassing te verwijderen voor het uitvoeren van een update.   In de sectie Invoegtoepassingen kan admin eenvoudig op de LOB-invoegtoepassing klikken en de **knop Bijwerken** rechtsonder kiezen. Update werkt alleen als de versie van de nieuwe invoegtoepassing groter is dan die van de bestaande invoegtoepassing.   
     
-- **Office Store-invoegtoepassing:** Als een beheerder een invoegtoepassing in de Office Store heeft geselecteerd (als een invoegtoepassing in de Office Store wordt bijgewerkt), wordt de invoegtoepassing later bijgewerkt in Gecentraliseerde implementatie. De volgende keer dat de betreffende Office-toepassingen worden gestart, wordt de invoegtoepassing bijgewerkt. De webtoepassing kan elk moment worden gewijzigd. 
+- **Office Store add-in:** When an admin selected an add-in from the Office Store, if an add-in updates in the Office Store, the add-in will update later in Centralized Deployment. The next time the relevant Office applications start, the add-in will update. The web application can change at any time. 
 
 ### <a name="edit-add-in-access"></a>Invoegtoepassingstoegang bewerken
 
@@ -160,7 +160,7 @@ Na de implementatie kunnen beheerders ook de gebruikerstoegang tot invoegtoepass
 > [!NOTE]
 > De installatie van Outlook-invoegtoepassingen wordt beheerd via een [ander proces](https://technet.microsoft.com/library/jj943754%28v=exchg.150%29.aspx).
 
-Als organisatie kunt u het downloaden van nieuwe Office-invoegtoepassingen vanuit Office Store verhinderen. Dit kunt u doen in combinatie met Gecentraliseerde implementatie om ervoor te zorgen dat alleen invoegtoepassingen die door organisaties zijn goedgekeurd voor gebruikers binnen de organisatie worden geïmplementeerd.
+As an organization you may wish to prevent the download of new Office add-ins from the Office Store. This can be used in conjunction with Centralized Deployment to ensure that only organization-approved add-ins are deployed to users within your organization.
   
 Aanschaf van invoegtoepassingen uitschakelen:
   
@@ -199,16 +199,16 @@ Ondersteuning voor het uitschakelen van Office Store is beschikbaar in de volgen
     
 Hiermee wordt niet voorkomen dat een beheerder Gecentraliseerde implementatie gebruikt om invoegtoepassingen vanuit Office Store toe te wijzen.
   
-Om te voorkomen dat een gebruiker zich aanmeldt met een Microsoft-account, kunt u ervoor zorgen dat er alleen kan worden aangemeld met het account van de organisatie. Kijk [hier](https://technet.microsoft.com/library/jj683102%28v=office.16%29.aspx) voor meer informatie.
+To prevent a user from signing in with a Microsoft account, you can restrict logon to use only the organizational account. For more information, look [here](https://technet.microsoft.com/library/jj683102%28v=office.16%29.aspx).
  
   
 ## <a name="minors-and-acquiring-add-ins-from-the-store"></a>Minderjarigen en het verkrijgen van invoegtoepassingen uit de Store
 
-De Algemene Verordening Gegevensbescherming (AVG) is een Europese verordening die in werking treedt op 25 mei 2018. De AVG biedt gebruikers rechten en beveiliging van hun gegevens. Eén van de aspecten van de AVG is dat persoonsgegevens van minderjarigen niet kunnen worden verzonden naar partijen die niet zijn goedgekeurd door de ouders of voogd. Wat de specifieke leeftijd is om iemand als minderjarig aan te merken, hangt af van het gebied waar de persoon zich bevindt.
+The General Data Protection Regulation (GDPR) is a European Union regulation that becomes effective May 25, 2018. It gives users rights to and protection of their data. One of the aspects of the GDPR is that minors cannot have their personal data sent to parties that their parent or guardian hasn't approved. The specific age defined as a minor depends on the region where the individual is located.
   
-In de Verenigde Staten, Zuid-Korea, het Verenigd Koninkrijk en de Europese Unie zijn er bijvoorbeeld wettelijke voorschriften voor ouderlijke toestemming. In deze gebieden wordt een minderjarige geblokkeerd (via Azure Active Directory) om nieuwe Office-invoegtoepassingen in de Store te verkrijgen en eerder aangeschafte invoegtoepassingen uit te voeren. In landen zonder wettelijke voorschriften zijn er geen downloadbeperkingen.
+Regions that have statutory regulations about parental consent include the United States, South Korea, the United Kingdom, and the European Union. For those regions, a minor will be blocked (via Azure Active Directory) from getting any new Office add-ins from the Store and running add-ins that were previously acquired. For countries without statutory regulations, there will be no download restrictions.
   
-Een gebruiker wordt als minderjarige aangemerkt op basis van gegevens die zijn opgegeven in Azure Active Directory. De tenantbeheerder is er verantwoordelijk voor om de wettelijke leeftijdsgroep en de ouderlijke toestemming voor die gebruiker op te geven.
+A user is determined to be a minor based on data specified in Azure Active Directory. The tenant admin is responsible for declaring the legal age group and the parental consent for that user.
   
 Als de ouders of voogd toestaan dat een minderjarige een bepaalde invoegtoepassing gebruikt, kan de tenantbeheerder gecentraliseerde implementatie gebruiken om deze invoegtoepassing te implementeren voor alle minderjarigen die toestemming hebben.
   
@@ -240,7 +240,7 @@ Als u wilt dat uw school of organisatie voldoet aan de AVG-vereisten voor minder
    
  **Vereisten voor Office 2013**
   
-Word, Excel en PowerPoint 2013 voor Windows ondersteunen dezelfde secundaire controles als Active Directory Authentication Library (ADAL) is ingeschakeld. Er zijn twee opties voor naleving, zoals hierna wordt beschreven.
+Word, Excel, and PowerPoint 2013 for Windows will support the same minor checks if Active Directory Authentication Library (ADAL) is enabled. There are two options for compliance, as explained next.
   
 - **ADAL inschakelen**. In dit artikel wordt uitgelegd hoe u ADAL voor Office 2013 inschakelen: [Microsoft 365 moderne verificatie gebruiken met Office-clients](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016).<br/>U hebt ook de registersleutels nodig om ADAL in te schakelen, zoals wordt beschreven in [Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten](../security-and-compliance/enable-modern-authentication.md).<br/>Daarnaast moet u deze updates van april voor Office 2013 installeren:
     
@@ -252,9 +252,9 @@ Word, Excel en PowerPoint 2013 voor Windows ondersteunen dezelfde secundaire con
     
 ## <a name="end-user-experience-with-add-ins"></a>Ervaring van eindgebruikers met invoegtoepassingen
 
-Nu u de invoegtoepassing hebt geïmplementeerd, kunnen uw eindgebruikers deze gaan gebruiken in hun Office-toepassingen (zie [Uw Office-invoegtoepassing gebruiken](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx)). De invoegtoepassing wordt weergegeven op alle platforms die de invoegtoepassing ondersteunen.
+Now that you've deployed the add-in, your end users can start using it in their Office applications (see [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)). The add-in will appear on all platforms that the add-in supports.
   
-Als de invoegtoepassing opdrachten van de invoegtoepassing ondersteunt, verschijnen de opdrachten in het Office-lint. In het volgende voorbeeld wordt de opdracht **Bronvermelding zoeken** weergegeven voor de invoegtoepassing **Bronvermeldingen**. 
+If the add-in supports add-in commands, the commands appear on the Office ribbon. In the following example, the command **Search Citation** appears for the **Citations** add-in. 
 
 ![Office-lint met zoekvermeldingen](../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
   

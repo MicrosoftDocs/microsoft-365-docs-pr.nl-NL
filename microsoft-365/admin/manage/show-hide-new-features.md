@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Bepaal welke functies en hun nieuwe inhoud wordt weergegeven aan of verborgen voor eindgebruikers in de Office What's New Management voor Office-bureaubladapps.
-ms.openlocfilehash: d4d4ff24896555a4af0ae4a936840c9935d73813
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 7b9522a901078d6e235e295c184fec65c251338b
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678600"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717173"
 ---
 # <a name="show-or-hide-new-features-using-whats-new-management"></a>Nieuwe functies weergeven of verbergen met Beheer van nieuwe functies
 
@@ -60,7 +60,8 @@ Nieuwe functies worden weergegeven in Office What's New Management op basis van 
 |:-----|:-----|:-----|
 |**Kanaal** <br/> |**In managementpreview** <br/> |**Actie ondernemen** <br/> |
 |**Huidige** <br/> |15e van de maand  <br/> |1 - 3 weken voor de maandelijkse release <br/> |
-|**Semi-annual Enterprise (Preview)** <br/> |1 september en 1 maart <br/> | 2 weken voor de grote release die nieuwe functies brengt
+|**Maandelijkse onderneming** <br/> |1e van de maand  <br/> |2 weken voor de grote release die nieuwe functies brengt |
+|**Semi-annual Enterprise (Preview)** <br/> |1 september en 1 maart <br/> | 2 weken voor de grote release die nieuwe functies brengt|
 |**Semi-jaarlijkse onderneming** <br/> |Jan 1 en 1 juli <br/> | 2 weken voor de grote release die nieuwe functies brengt<br/> |
 
 Zie [Updategeschiedenis voor Microsoft 365-apps (vermeld op datum) voor](https://docs.microsoft.com/officeupdates/update-history-microsoft365-apps-by-date)meer informatie over schema's voor het bijwerken van kanalen.

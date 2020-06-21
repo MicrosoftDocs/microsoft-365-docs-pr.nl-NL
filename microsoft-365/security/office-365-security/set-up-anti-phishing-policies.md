@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen meer te weten komen over het anti-phishingbeleid dat beschikbaar is in Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: 4cf727cd7d232baac13f44e008a509934f55d895
-ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
+ms.openlocfilehash: a61123e3d90a4125bf5a8303654973e1b478fc4c
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689276"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754662"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti-phishingbeleid in Microsoft 365
 
@@ -95,7 +95,7 @@ De volgende spoofinstellingen zijn beschikbaar in het anti-phishingbeleid en het
     - Voor het vraagteken in de foto van de afzender zijn SPF of DKIM het belangrijkst.
     - Bevestig voor de via-tag het domein in de DKIM-handtekening of het **E-MAIL FROM-adres** (of is een subdomein van) het domein in het Van-adres.
 
-  Zie [Verdachte berichten identificeren in Outlook.com en de webversie van Outlook voor](https://support.office.com/article/3d44102b-6ce3-4f7c-a359-b623bec82206) meer informatie
+  Zie [Verdachte berichten identificeren in Outlook.com en de webversie van Outlook voor](https://support.microsoft.com/office/3d44102b-6ce3-4f7c-a359-b623bec82206) meer informatie
 
 ## <a name="exclusive-settings-in-atp-anti-phishing-policies"></a>Exclusieve instellingen in atp-anti-phishingbeleid
 

@@ -19,27 +19,27 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 2e155154-bc66-48cc-8476-ab558c97115a
-description: Meer informatie over het instellen van een e-mailaccount in Outlook voor zowel Windows als Mac en over het installeren van Office-apps en het online openen van e-mails.
-ms.openlocfilehash: 04d14c314fbcda4f8d0edff57a141a89688bec28
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over het instellen van een e-mailaccount in Outlook voor zowel Windows als Mac en het installeren van Office-apps en het online openen van e-mails.
+ms.openlocfilehash: e17e532afca0a552b7e0e2565cd34e9dda256421
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399276"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779987"
 ---
 # <a name="set-up-outlook-to-read-email"></a>Outlook instellen om e-mail te lezen
 
-Uw Microsoft 365-abonnement wordt geleverd met een webgebaseerde Outlook, maar als uw abonnement Office-client-apps bevat, krijgt u ook Outlook dat u installeren op uw personal computer of apparaten.
+Uw Microsoft 365-abonnement wordt geleverd met een webgebaseerde Outlook, maar als uw abonnement Office-client-apps bevat, krijgt u ook Outlook die u installeren op uw personal computer of apparaten.
   
 ## <a name="set-up-an-email-account-in-outlook"></a>E-mailaccount instellen in Outlook
 
-De eerste keer dat u Outlook opent, wordt een wizard Automatische accountconfiguratie geopend. Als dit niet het geval is, kiest u **Bestand** en vervolgens **Account toevoegen**.
+The first time you open Outlook, an Auto Account Wizard opens. If not, choose **File** then **Add Account**.
   
 1. Op de pagina **E-mailaccounts** kiest u **Volgende** \> **Account toevoegen**.
     
 2. Geef op de pagina **Automatische accountconfiguratie** uw naam, e-mailadres en wachtwoord op en kies **Volgende** \> **Voltooien**.
     
-Lees het [hele artikel](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx).
+Lees het [hele artikel](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b).
   
 ## <a name="how-do-i-install-the-office-apps-including-outlook"></a>Hoe installeer ik Office-apps, met inbegrip van Outlook?
 
@@ -53,28 +53,28 @@ Lees het [hele artikel](https://support.office.com/article/6e27792a-9267-4aa4-8b
 
 De eerste keer dat u de Outlook-app opent, wordt de wizard Mijn Postvak IN instellen geopend. Voer in de wizard het volgende uit: 
   
-1. Selecteer Account toevoegen op de pagina **Mijn Postvak IN** **instellen**.
+1. Selecteer Op de pagina **Mijn Postvak** IN instellen de optie **Account toevoegen**.
     
-2. Selecteer **op** de pagina Accounts de optie **Exchange of Office 365**.
+2. Selecteer **Exchange of** **Office 365**op de pagina Accounts .
     
-3. Voer op de pagina **Uw Exchange-accountgegevens invoeren** uw naam, e-mailadres en wachtwoord in en selecteer **Account toevoegen**.
+3. Voer op de pagina **Gegevens van uw Exchange-account** invoeren uw naam, e-mailadres en wachtwoord in en selecteer **Account toevoegen**.
     
-Lees het [hele artikel](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx#PickTab=Outlook_for_Mac). 
+Lees het [hele artikel](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac). 
   
 ## <a name="how-do-i-access-my-mail-online"></a>Hoe krijg ik online toegang tot mijn e-mail?
 
-Nadat u zich hebt aangemeld bij Microsoft 365, selecteert u **Outlook**.
+Nadat u zich bij Microsoft 365 hebt aangemeld, selecteert u **Outlook**.
   
 ![De startpagina van Microsoft 365 met de Outlook-app gemarkeerd](../../media/3ceee838-9d85-4af3-95a6-fbcee11036f4.png)
   
-Kunt u de app die u zoekt niet vinden? Selecteer in het startprogramma voor apps **Alle apps** om een alfabetische lijst te zien van de Microsoft 365-apps die voor u beschikbaar zijn. Van daaruit kunt u zoeken naar een specifieke app. 
+Kunt u de app die u zoekt niet vinden? Selecteer in het startprogramma voor apps de optie **Alle apps** om een alfabetische lijst te zien van de Microsoft 365-apps die voor u beschikbaar zijn. Van daaruit kunt u zoeken naar een specifieke app. 
   
 ## <a name="how-do-i-know-if-my-subscription-includes-office-apps"></a>Hoe weet ik of in mijn abonnement Office-apps inbegrepen zijn?
 
-Microsoft 365 Business Standard en Microsoft 365 Apps voor Bedrijven bevatten Office-apps. Zie [Microsoft 365 voor Bedrijven-abonnementen](https://go.microsoft.com/fwlink/p/?LinkId=723731)of [Office 365 Enterprise-abonnementen](https://go.microsoft.com/fwlink/p/?LinkId=800029)voor meer informatie .
+Microsoft 365 Business Standard en Microsoft 365 Apps voor bedrijven omvatten Office-apps. Zie [Microsoft 365 voor bedrijven-abonnementen](https://go.microsoft.com/fwlink/p/?LinkId=723731)of [Office 365 Enterprise-abonnementen](https://go.microsoft.com/fwlink/p/?LinkId=800029)voor meer informatie .
   
 ## <a name="how-do-i-determine-what-subscription-i-have"></a>Hoe bepaal ik welk abonnement ik heb?
 
-Zie Welk abonnement [heb ik om](../admin-overview/what-subscription-do-i-have.md) uw abonnement te bepalen?
+Zie Welk abonnement [heb ik voor](../admin-overview/what-subscription-do-i-have.md) het bepalen van uw abonnement?
   
 

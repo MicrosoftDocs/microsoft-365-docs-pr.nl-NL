@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u het anti-phishingbeleid maakt, wijzigt en verwijdert dat beschikbaar is in EOP-organisaties (Exchange Online Protection) met of zonder Exchange Online-postvakken.
-ms.openlocfilehash: bd7686c55e05d4197d43799008596db82375222e
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: b6b95515ad44a65dbdd8a7516d8e6c8b2a386450
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616696"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726783"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Anti-phishingbeleid configureren in EOP
 
@@ -73,9 +73,19 @@ Om de effectiviteit van anti-phishing-bescherming te vergroten, u aangepaste ant
 
   U het beleid voor phishing niet beheren in standalone EOP PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Als u antiphishingbeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van de rolgroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Voor alleen-lezen toegang tot antiphishingbeleid moet u lid zijn van de rolgroep **Beveiligingslezer.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
+- U moet machtigingen krijgen voordat u de procedures in dit onderwerp uitvoeren:
 
-- Om antispambeleid in standalone EOP te kunnen maken en wijzigen, moet u iets doen waarvoor _hydratatie_ voor uw tenant vereist is. In de EAC u bijvoorbeeld naar het tabblad **Machtigingen** gaan, een bestaande rolgroep selecteren, **op** ![ pictogram Bewerken ](../../media/ITPro-EAC-EditIcon.png) klikken en een rol verwijderen (die u uiteindelijk weer toevoegt). Als uw tenant nooit is gehydrateerd, krijgt u een dialoogvenster met de naam **Organisatie-instellingen bijwerken** met een voortgangsbalk die moet worden voltooid. Zie de cmdlet [Enable-OrganizationCustomization](https://docs.microsoft.com/powershell/module/exchange/enable-organizationcustomization) (die niet beschikbaar is in standalone EOP PowerShell of in het Security & Compliance Center) voor meer informatie over hydratatie.
+  - Als u antiphishingbeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van een van de volgende rolgroepen:
+
+    - **Organisatiebeheer** of **beveiligingsbeheerder** in het [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).
+    - **Organisatiebeheer** of **hygiënebeheer** in [Exchange Online.](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)
+
+  - Voor alleen-lezen toegang tot antiphishingbeleid moet u lid zijn van een van de volgende rolgroepen:
+
+    - **Security Reader** in het [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).
+    - **Alleen-weergeven organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+
+- Om antispambeleid in standalone EOP te kunnen maken en wijzigen, moet u iets doen waarvoor _hydratatie_ voor uw tenant vereist is. In het Exchange-beheercentrum (EAC) u bijvoorbeeld naar het tabblad **Machtigingen** gaan, een bestaande rolgroep selecteren, **op** ![ pictogram Bewerken ](../../media/ITPro-EAC-EditIcon.png) klikken en een rol verwijderen (die u uiteindelijk weer toevoegt). Als uw tenant nooit is gehydrateerd, krijgt u een dialoogvenster met de naam **Organisatie-instellingen bijwerken** met een voortgangsbalk die moet worden voltooid. Zie de cmdlet [Enable-OrganizationCustomization](https://docs.microsoft.com/powershell/module/exchange/enable-organizationcustomization) (die niet beschikbaar is in standalone EOP PowerShell of in het Security & Compliance Center) voor meer informatie over hydratatie.
 
 - Zie [EOP-standaardbeleidsinstellingen voor antiphishing voor](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings)onze aanbevolen instellingen voor antiphishingbeleid.
 
@@ -103,7 +113,7 @@ Wanneer u een antiphishingbeleid maakt, u alleen de beleidsnaam, de beschrijving
 
 4. Identificeer **op** de pagina Toegepast op die wordt weergegeven de interne ontvangers waarop het beleid van toepassing is.
 
-   U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden met dezelfde voorwaarde of uitzondering gebruiken OR-logica _\<recipient1\>_ (bijvoorbeeld, of _\<recipient2\>_ ). Verschillende voorwaarden of uitzonderingen gebruiken EN-logica (bijvoorbeeld _\<recipient1\>_ en _\<member of group 1\>_ ).
+   U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
 
    Klik **op Een voorwaarde toevoegen**. Selecteer in de vervolgkeuzelijst die wordt weergegeven een voorwaarde onder **Toegepast als**:
 

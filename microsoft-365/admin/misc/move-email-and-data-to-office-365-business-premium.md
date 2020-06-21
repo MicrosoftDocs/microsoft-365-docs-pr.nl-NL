@@ -21,13 +21,13 @@ search.appverid:
 - MOE150
 ms.assetid: 1062115d-e312-482a-bb5a-765235990f41
 ROBOTS: NOINDEX
-description: Leer gegevens over te zetten naar uw nieuwe bedrijfsidentiteit.
-ms.openlocfilehash: 03a8ff6b3cfab43d80401a10825a1c274e278ed9
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over het verplaatsen van gegevens naar uw nieuwe bedrijfsidentiteit.
+ms.openlocfilehash: ebbb680baf36386d7f2dafae61fb262bf0220e69
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399324"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779999"
 ---
 # <a name="move-email-and-data-to-microsoft-365-business-standard"></a>E-mail en gegevens verplaatsen naar Microsoft 365 Business Standard
 
@@ -38,43 +38,43 @@ Als u sommige van uw persoonlijke gegevens wilt overbrengen naar uw nieuwe bedri
 ## <a name="onedrive"></a>[OneDrive](#tab/OneDrive)
   
  **Uw OneDrive-gegevens kopiëren**
-1. Maak een tijdelijke map op uw harde schijf om de bestanden die u wilt migreren naar Microsoft 365 voor Bedrijven tijdelijk op te slaan.
+1. Maak een tijdelijke map op uw harde schijf om tijdelijk de bestanden op te slaan die u wilt migreren naar Microsoft 365 voor bedrijven.
     
 2. Ga naar [https://onedrive.live.com/](https://onedrive.live.com/) en meld u aan met het Microsoft-account dat u gebruikt om toegang te krijgen tot uw Microsoft 365 Family-abonnement. 
     
 3. Kopieer de bestanden die u met Microsoft 365 voor bedrijven wilt gebruiken naar de lokale map die u in stap 1 hebt gemaakt.
     
- **OneDrive-bestanden importeren in Microsoft 365 voor Bedrijven**
-1. Ga naar [admin.microsoft.com](https://go.microsoft.com/fwlink/?LinkId=816877) en meld u aan met uw Microsoft 365 Apps voor zakelijke gebruikersnaam en wachtwoord. 
+ **OneDrive-bestanden importeren in Microsoft 365 voor bedrijven**
+1. Ga naar [admin.microsoft.com](https://go.microsoft.com/fwlink/?LinkId=816877) en meld u aan met uw Microsoft 365 Apps for business gebruikersnaam en wachtwoord. 
     
 2. Selecteer het pictogram voor het **startprogramma voor apps** in de linkerbovenhoek en kies **OneDrive**.
   
     > [!TIP]
-    > De eerste keer dat u OneDrive voor Bedrijven opent, moet u uw OneDrive instellen. Als dit gebeurt, selecteert u Op de pagina **Welkom bij OneDrive voor Bedrijven** de optie **Volgende**. Nadat OneDrive is ingesteld, is de optie **Uw OneDrive gereed**. 
+    > De eerste keer dat u OneDrive voor Bedrijven opent, moet u uw OneDrive instellen. Als dit gebeurt, selecteert u op de pagina **Welkom bij OneDrive voor Bedrijven** de optie **Volgende**. Nadat OneDrive is ingesteld, selecteert u **Uw OneDrive klaar**. 
   
 3. U komt terecht in een lege OneDrive-map. Als u submappen wilt maken, selecteert u **Nieuwe** \> **map**.
 
 4. Selecteer **Uploaden** om de bestanden te kopiëren vanaf uw harde schijf waar u uw OneDrive-bestanden hebt gekopieerd. 
   
     > [!NOTE]
-    >  U kunt afzonderlijke bestanden en groepen bestanden (zoals alle bestanden in een bepaalde map) in één keer uploaden, maar u kunt een map niet naar OneDrive voor Bedrijven kopiëren. In plaats daarvan moet u de door u gewenste mappenstructuur maken in OneDrive voor Bedrijven. >  Als u bestanden wilt kopiëren naar een map die u in stap 4 hebt gemaakt, opent u die map voordat u de bestanden uploadt. Anders worden de bestanden naar de hoofdmap geüpload. U kunt uw bestanden ook tussen mappen in OneDrive voor Bedrijven verplaatsen nadat u ze hebt geüpload. 
+    >  You can upload individual files and groups of files (such as all files in a particular folder) at one time but you cannot copy a folder to OneDrive for Business. Instead, you'll need to create the folder structure you want on OneDrive for business. >  If you want to copy files to a folder that you created in step 4, open that folder before you upload the files. Otherwise, the files will be uploaded to the root folder. You can also move your files between folders in OneDrive for Business after you've uploaded them. 
   
 ## <a name="outlookemail"></a>[Outlook/E-mail](#tab/Outlook)
   
  **Gegevens van Outlook 2013 naar een Outlook-gegevensbestand exporteren**
-1. Voordat u uw Outlook-gegevensbestand (.pst) kunt maken, moet het account waaruit u Outlook-gegevens wilt exporteren al zijn toegevoegd aan de bureaubladversie van Outlook. Zie [E-mail instellen in Outlook (voor Windows)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) of [E-mail instellen in Outlook voor Mac 2011](https://support.microsoft.com/en-us/office/set-up-email-in-mac-os-x-mail-de372dc4-9648-4044-a76c-e8a60e178d54) voor informatie over het toevoegen van een account aan Outlook 2013 of hoger.
+1. Before you can create your Outlook data file (.pst), the account that you want to export Outlook information from must already be added to the desktop version of Outlook. For information about how to add an account to Outlook 2013 or higher, see [Set up email in Outlook (for Windows)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) or [Set up email in Outlook for Mac 2011](https://support.microsoft.com/office/de372dc4-9648-4044-a76c-e8a60e178d54).
     
-2. Elke gebruiker moet de stappen in deze procedure uitvoeren: [Een back-up maken van e-mailberichten, contactpersonen en agenda in een PST-bestand van Outlook of deze naar een PST-bestand exporteren](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
+2. Elke gebruiker moet de stappen in deze procedure uitvoeren: [Een back-up maken van e-mailberichten, contactpersonen en agenda in een PST-bestand van Outlook of deze naar een PST-bestand exporteren](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91).
     
  **Uw nieuwe e-mailaccount instellen in Outlook**
-1. Elke gebruiker moet zijn nieuwe e-mailaccount instellen dat bij het Microsoft 365 voor zakelijk abonnement is geleverd. Hiervoor hebben ze het adres van hun nieuwe e-mailaccount nodig. Het e-mailaccount van elke gebruiker is hetzelfde als de gebruikersnaam die hij gebruikt om zich aan te melden bij Microsoft 365 voor bedrijven. Dat ziet er ongeveer uit als sue@contoso.onmicrosoft.com of david@contoso.com.
+1. Elke gebruiker moet zijn nieuwe e-mailaccount instellen dat bij het Microsoft 365 for Business-abonnement is geleverd. Hiervoor hebben ze het adres van hun nieuwe e-mailaccount nodig. Het e-mailaccount van elke gebruiker is hetzelfde als de gebruikersnaam die hij of zij gebruikt om zich aan te melden bij Microsoft 365 voor bedrijven. Dat ziet er ongeveer uit als sue@contoso.onmicrosoft.com of david@contoso.com.
     
-2. Vraag gebruikers hun e-mailaccount toe te voegen aan Outlook. Zie [E-mail instellen in Outlook (voor Windows)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) of [E-mail instellen in Outlook voor Mac 2011](https://support.microsoft.com/en-us/office/set-up-email-in-mac-os-x-mail-de372dc4-9648-4044-a76c-e8a60e178d54) voor meer informatie.
+2. Ask each user to add their email account to Outlook. To learn how, see [Set up email in Outlook (for Windows)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) or [Set up email in Outlook for Mac 2011](https://support.microsoft.com/office/de372dc4-9648-4044-a76c-e8a60e178d54).
     
  **Gegevens importeren uit het Outlook-gegevensbestand**
-1. Hiermee worden de e-mail, agenda, taken en contactpersonen die in het PST-bestand zijn opgeslagen, samengevoegd tot uw Microsoft 365 voor zakelijke e-mailaccount.
+1. Hiermee worden de e-mail, agenda, taken en contactpersonen die in het PST-bestand zijn opgeslagen, samengevoegd in uw e-mailaccount van Microsoft 365 voor bedrijven.
     
-2. Als u de in het PST-bestand opgeslagen informatie wilt importeren in uw Microsoft 365 voor zakelijke e-mailaccount, moet elke gebruiker de stappen in [E-mail, contactpersonen en agenda importeren uit een PST-bestand van Outlook](https://support.office.com/article/431a8e9a-f99f-4d5f-ae48-ded54b3440ac.aspx).
+2. Als u de gegevens die zijn opgeslagen in het PST-bestand in uw E-mailaccount van Microsoft 365 voor bedrijven wilt importeren, moet elke gebruiker de stappen in [E-mail, contactpersonen en agenda importeren uit een Outlook .pst-bestand](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac).
     
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: Vereisten voor Microsoft-bedreigingsbeveiliging
-description: Meer informatie over de vereisten voor licenties, hardware en software en andere configuratie-instellingen voor Microsoft Threat Protection
+title: Microsoft Threat Protection-vereisten
+description: Meer informatie over de vereisten voor licentieverlening, hardware en software en andere configuratie-instellingen voor Microsoft Threat Protection
 keywords: vereisten, vereisten, hardware, software, browser, MTP, M365, licentie, E5, A5, EMS, aankoop
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,73 +19,60 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 71e7b532e046015dd64e51fd422d276433d65b3a
-ms.sourcegitcommit: 6ea9a910a8106a5f1aa589c55d166bfa67fd12a8
+ms.openlocfilehash: f63c59403e84e79d1a4a5cf2b8a5544f5646781c
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280532"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773849"
 ---
-# <a name="microsoft-threat-protection-prerequisites"></a>Vereisten voor Microsoft-bedreigingsbeveiliging
+# <a name="microsoft-threat-protection-prerequisites"></a>Microsoft Threat Protection-vereisten
 
-**Geldt voor:**
+**Van toepassing op:**
 - Microsoft Threat Protection
 
-Meer informatie over de vereisten voor licenties, hardware en software en andere configuratie-instellingen voor het inrichten en gebruiken van Microsoft Threat Protection.
+Meer informatie over licenties en andere vereisten voor het inrichten en gebruiken van [Microsoft Threat Protection](microsoft-threat-protection.md).
 
-## <a name="licensing-requirements"></a>Licentievereisten
-
->[!IMPORTANT]
->Vanaf 12 mei 2020 zal Microsoft geleidelijk nieuwe, geoptimaliseerde ervaringen rond licentievereisten uitrollen en [Microsoft Threat Protection inschakelen.](mtp-enable.md) Gedurende enkele weken tijdens deze periode zullen sommige klanten wijzigingen in hun portalervaringen gaan zien. Informatie over de nieuwe ervaringen zijn gemarkeerd **Nieuwe ervaring** in dit artikel.
-
-Als u Microsoft Threat Protection wilt gebruiken, hebt u één licentie of een combinatie van licenties nodig. Deze licenties of licentiecombinaties geven u zonder extra kosten toegang tot microsoft threat protection-functies.
-
-### <a name="single-license"></a>Eén licentie
-U *een* van de volgende licenties gebruiken:
-
-- Microsoft 365 E5 of A5
-- Microsoft 365 E5-beveiliging of A5-beveiliging
-
-### <a name="combination-of-licenses"></a>Combinatie van licenties
-U ook een combinatie van licenties voor E5- of A5-abonnementen op Office 365, *Enterprise Mobility + Security (EMS)* en Windows gebruiken. De licentiecombinatie moet *al* deze licenties bevatten:
-
-- Office 365 E5 of A5
-- *Enterprise Mobility + Beveiliging (EMS)* E5 of A5
-- Windows 10 Enterprise E5 of A5
-
-Bekijk de [Serviceplannen van Microsoft 365 Enterprise voor](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise)meer informatie.
-
-> Heb je nog geen rijbewijs? [Koop een Microsoft 365-abonnement of probeer er een uit](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide)
-
-
-**Nieuwe ervaring:** Vanaf 12 mei 2020 krijgen klanten geleidelijk wijzigingen in deze ervaring. Voor degenen met de nieuwe ervaring is de optie om Microsoft Threat Protection in te schakelen beschikbaar voor *alle* klanten met een van de volgende licenties:
+## <a name="licensing-requirements"></a>Vergunningsvereisten
+Een van deze licenties geeft u toegang tot Microsoft Threat Protection-functies in het Microsoft 365-beveiligingscentrum zonder extra kosten:
 
 - Microsoft 365 E5 of A5
 - Microsoft 365 E5-beveiliging of A5-beveiliging
 - Windows 10 Enterprise E5 of A5
 - Enterprise Mobility + Security (EMS) E5 of A5 
 - Office 365 E5 of A5
-- Microsoft Defender Advanced Threat Protection 
+- Microsoft Defender Advanced Threat Protection
 - Azure Advanced Threat Protection 
-- Microsoft Cloud App Security 
-- Geavanceerde beveiliging van geavanceerde bedreigingen in Office 365 (abonnement 2) 
+- Microsoft Cloud App Security
+- Geavanceerde bedreigingsbeveiliging van Office 365 (abonnement 2)
+
+> [!NOTE]
+> Proeflicenties voor Office 365 bieden momenteel geen toegang tot Microsoft Threat Protection.
+
+Bekijk voor meer informatie [de Microsoft 365 Enterprise-serviceplannen](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise).
+
+> Heb je nog geen rijbewijs? [Koop een Microsoft 365-abonnement of probeer er een uit](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide)
 
 ### <a name="check-your-existing--licenses"></a>Controleer uw bestaande licenties
-Ga naar het Microsoft 365-beheercentrum[(admin.microsoft.com)](https://admin.microsoft.com/)om uw bestaande licenties te bekijken. Ga in het beheercentrum naar **Factureringslicenties**  >  **Licenses**.
+Ga naar microsoft 365-beheercentrum[(admin.microsoft.com)](https://admin.microsoft.com/)om uw bestaande licenties te bekijken. Ga in het beheercentrum naar **Billing**  >  **Factureringslicenties**.
 
 >[!NOTE]
-> U moet de **rol Factureringsbeheerder** of **Globale lezer** in [Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) toegewezen krijgen om licentiegegevens te kunnen zien. Als u toegangsproblemen ondervindt, neemt u contact op met een globale beheerder.
+> U moet de **factureringsbeheerder** of de **rol Global reader** in Azure [AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) toegewezen krijgen om licentiegegevens te kunnen zien. Als u toegangsproblemen ondervindt, neemt u contact op met een globale beheerder.
+
+## <a name="required-permissions"></a>Vereiste machtigingen
+Lees voor de lijst met vereiste rollen en hoe de toegang tot gegevens is geregeld over [het beheren van de toegang tot Microsoft Threat Protection.](mtp-permissions.md)
 
 ## <a name="browser-requirements"></a>Browservereisten
 Toegang tot Microsoft Threat Protection in het Microsoft 365-beveiligingscentrum met Microsoft Edge, Internet Explorer 11 of een HTML 5-compatibele webbrowser.
 
-## <a name="availability-to-us-gcc-gcc-high-and-other-us-government-institutions"></a>Beschikbaarheid voor Amerikaanse GCC, GCC High en andere Amerikaanse overheidsinstellingen
+## <a name="availability-to-us-gcc-gcc-high-and-other-us-government-institutions"></a>Beschikbaarheid voor US GCC, GCC High en andere Amerikaanse overheidsinstellingen
 Momenteel is Microsoft Threat Protection *niet* beschikbaar voor:
-- Community cloud van de Amerikaanse overheid (GCC)
+- Cloud van de Amerikaanse overheid (GCC)
 - US Government Community Cloud High (GCC High)
-- Ministerie van Defensie van de V.S.
+- Het Ministerie van Defensie van de V.S.
 - Alle Amerikaanse overheidsinstellingen met commerciële licenties
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van Microsoft Threat Protection](microsoft-threat-protection.md)
 - [Microsoft Threat Protection inschakelen](mtp-enable.md)
+- [Toegang en machtigingen beheren](mtp-permissions.md)

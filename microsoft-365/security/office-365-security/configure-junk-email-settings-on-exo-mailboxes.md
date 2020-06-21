@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u de instellingen voor ongewenste e-mail configureert in Exchange Online-postvakken. Veel van deze instellingen zijn beschikbaar voor gebruikers in Outlook of Outlook in de webversie.
-ms.openlocfilehash: d5eaadc6d177acf91ea4d9d149c92a4de6cc8dd3
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 4e40e3fa2186022a64c8ccdf66f62db24b9f9794
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616632"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755258"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
 
@@ -110,7 +110,7 @@ De safelist-verzameling in een postvak bevat de lijst Veilige afzenders, de lijs
 
 <sup>\*</sup>**Toelichting :**
 
-- In Exchange Online worden **domeinvermeldingen** in de lijst Veilige afzenders of de parameter _TrustedSendersAndDomains_ niet herkend, dus gebruik alleen e-mailadressen. In standalone EOP met adreslijstsynchronisatie worden domeinvermeldingen niet standaard gesynchroniseerd, maar u synchronisatie voor domeinen inschakelen. Zie [KB3019657](https://support.microsoft.com/help/3019657/domains-on-the-outlook-safe-senders-list-aren-t-recognized-by-exchange)voor meer informatie.
+- In Exchange Online worden **domeinvermeldingen** in de lijst Veilige afzenders of de parameter _TrustedSendersAndDomains_ niet herkend, dus gebruik alleen e-mailadressen. In standalone EOP met adreslijstsynchronisatie worden domeinvermeldingen niet standaard gesynchroniseerd, maar u synchronisatie voor domeinen inschakelen. Zie [KB3019657](https://support.microsoft.com/help/3019657)voor meer informatie.
 
 - U de lijst Veilige geadresseerden niet rechtstreeks wijzigen met de cmdlet **Set-MailboxJunkEmailConfiguration** (de parameter _TrustedRecipientsAndDomains_ werkt niet). U wijzigt de lijst Met veilige afzenders en deze wijzigingen worden gesynchroniseerd met de lijst Veilige geadresseerden.
 
@@ -168,11 +168,11 @@ Als u wilt controleren of u de safelist-verzameling in een postvak hebt geconfig
 
 ## <a name="about-junk-email-settings-in-outlook"></a>Informatie over instellingen voor ongewenste e-mail in Outlook
 
-Als u de instellingen voor ongewenste e-mailfilter aan de clientzijde die beschikbaar zijn in Outlook, wilt in- en configureren, gebruikt u Groepsbeleid. Zie [Instellingen voor beheerderssjabloonbestanden (ADMX/ADML) en Office Customization Tool voor Microsoft 365 Apps voor bedrijven, Office 2019 en Office 2016](https://www.microsoft.com/download/details.aspx?id=49030) en [Instellingen voor ongewenste e-mail implementeren, zoals de lijst Veilige afzenders, voor](https://support.microsoft.com/help/2252421/how-to-deploy-junk-email-settings-such-as-the-safe-senders-list-by-usi)meer informatie met groepsbeleid.
+Als u de instellingen voor ongewenste e-mailfilter aan de clientzijde die beschikbaar zijn in Outlook, wilt in- en configureren, gebruikt u Groepsbeleid. Zie [Instellingen voor beheerderssjabloonbestanden (ADMX/ADML) en Office Customization Tool voor Microsoft 365 Apps voor bedrijven, Office 2019 en Office 2016](https://www.microsoft.com/download/details.aspx?id=49030) en [Instellingen voor ongewenste e-mail implementeren, zoals de lijst Veilige afzenders, voor](https://support.microsoft.com/help/2252421)meer informatie met groepsbeleid.
 
-Wanneer het Outlook-filter voor ongewenste e-mail is ingesteld op de standaardwaarde **Geen automatische filtering** in opties voor ongewenste e-mailopties **voor** ongewenste \> **Junk** \> **e-mail** \> **Options**thuis, probeert Outlook massages niet te classificeren als spam, maar gebruikt u nog steeds de safelist-verzameling (de lijst Met veilige afzenders, lijst Met veilige geadresseerden en lijst Met geblokkeerde afzenders) om berichten na levering naar de map Ongewenste e-mail te verplaatsen. Zie Overzicht van het [filter ongewenste e-mail](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)voor meer informatie over deze instellingen.
+Wanneer het Outlook-filter voor ongewenste e-mail is ingesteld op de standaardwaarde **Geen automatische filtering** in opties voor ongewenste e-mailopties **voor** ongewenste \> **Junk** \> **e-mail** \> **Options**thuis, probeert Outlook massages niet te classificeren als spam, maar gebruikt u nog steeds de safelist-verzameling (de lijst Met veilige afzenders, lijst Met veilige geadresseerden en lijst Met geblokkeerde afzenders) om berichten na levering naar de map Ongewenste e-mail te verplaatsen. Zie Overzicht van het [filter ongewenste e-mail](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)voor meer informatie over deze instellingen.
 
-Wanneer het filter ongewenste e-mail van Outlook is ingesteld **op Laag** of **Hoog,** gebruikt het filter Ongewenste e-mail van Outlook zijn eigen SmartScreen-filtertechnologie om spam te identificeren en te verplaatsen naar de map Ongewenste e-mail. Deze spamclassificatie staat los van het spamvertrouwensniveau (SCL) dat wordt bepaald door EOP. In feite negeert Outlook de SCL van EOP (tenzij EOP het bericht heeft gemarkeerd om spamfiltering over te slaan) en gebruikt het zijn eigen criteria om te bepalen of het bericht spam is. Natuurlijk is het mogelijk dat de spam uitspraak van EOP en Outlook hetzelfde zou kunnen zijn. Zie [Het beschermingsniveau wijzigen in het filter ongewenste e-mail wijzigen](https://support.office.com/article/e89c12d8-9d61-4320-8c57-d982c8d52f6b)voor meer informatie over deze instellingen.
+Wanneer het filter ongewenste e-mail van Outlook is ingesteld **op Laag** of **Hoog,** gebruikt het filter Ongewenste e-mail van Outlook zijn eigen SmartScreen-filtertechnologie om spam te identificeren en te verplaatsen naar de map Ongewenste e-mail. Deze spamclassificatie staat los van het spamvertrouwensniveau (SCL) dat wordt bepaald door EOP. In feite negeert Outlook de SCL van EOP (tenzij EOP het bericht heeft gemarkeerd om spamfiltering over te slaan) en gebruikt het zijn eigen criteria om te bepalen of het bericht spam is. Natuurlijk is het mogelijk dat de spam uitspraak van EOP en Outlook hetzelfde zou kunnen zijn. Zie [Het beschermingsniveau wijzigen in het filter ongewenste e-mail wijzigen](https://support.microsoft.com/office/e89c12d8-9d61-4320-8c57-d982c8d52f6b)voor meer informatie over deze instellingen.
 
 > [!NOTE]
 > In november 2016 is Microsoft gestopt met het produceren van spamdefinitie-updates voor de SmartScreen-filters in Exchange en Outlook. De bestaande SmartScreen spam definities werden achtergelaten op zijn plaats, maar hun effectiviteit zal waarschijnlijk degraderen na verloop van tijd. Zie [Ondersteuning voor SmartScreen deprecating in Outlook en Exchange voor](https://techcommunity.microsoft.com/t5/exchange-team-blog/deprecating-support-for-smartscreen-in-outlook-and-exchange/ba-p/605332)meer informatie.
@@ -189,7 +189,7 @@ De safelist-verzameling (de lijst Met veilige afzenders, lijst met veilige geadr
 
   > Kan/kan niet worden toegevoegd aan de e-maillijsten van de server. U bent meer dan de grootte toegestaan op de server. Het filter Ongewenste e-mail op de server wordt uitgeschakeld totdat uw ongewenste e-maillijsten zijn teruggebracht tot de grootte die door de server is toegestaan.
 
-  Zie [KB2669081](https://support.microsoft.com/help/2669081/outlook-error-indicates-that-you-are-over-the-junk-e-mail-list-limit)voor meer informatie over deze limiet en hoe u deze wijzigen.
+  Zie [KB2669081](https://support.microsoft.com/help/2669081)voor meer informatie over deze limiet en hoe u deze wijzigen.
 
 - De gesynchroniseerde safelist verzameling in EOP heeft de volgende synchronisatielimieten:
 

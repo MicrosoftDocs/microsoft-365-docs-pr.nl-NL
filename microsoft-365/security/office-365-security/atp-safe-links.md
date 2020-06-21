@@ -25,12 +25,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: In dit artikel leert u hoe u veilige koppelingen gebruiken om uw organisatie te beschermen tegen phishing en andere aanvallen.
-ms.openlocfilehash: 5cd5e1331bb16b27cd036d20458355448ee32ae2
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 07ec9611a2dca7dff7daf3726b94b0aec638b17c
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616764"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754746"
 ---
 # <a name="atp-safe-links"></a>Veilige ATP-koppelingen
 
@@ -47,7 +47,7 @@ Als [er nieuwe functies worden toegevoegd aan ATP,](office-365-atp.md#new-featur
 
 ## <a name="how-to-get-atp-safe-links-protection"></a>Hoe atp safe links bescherming te krijgen
 
-**Controleer eerst of uw abonnement [Geavanceerde bedreigingsbeveiliging van Office 365](office-365-atp.md) bevat** Plan 1 of Plan 2. Office 365 ATP is inbegrepen in abonnementen, zoals [Microsoft 365 Enterprise,](https://www.microsoft.com/microsoft-365/enterprise/home) [Microsoft 365 Business Premium,](https://www.microsoft.com/microsoft-365/business)Office 365 Enterprise E5, Office 365 Education A5, enz. Als uw organisatie een Microsoft 365-abonnement heeft dat geen Office 365 ATP bevat, u atp mogelijk als add-on aanschaffen. Zie de volgende bronnen voor meer informatie:
+**Controleer eerst of uw abonnement [Geavanceerde bedreigingsbeveiliging van Office 365](office-365-atp.md) bevat** Plan 1 of Plan 2. Office 365 ATP is inbegrepen in abonnementen, zoals [Microsoft 365 Enterprise E5,](https://www.microsoft.com/microsoft-365/enterprise/home) [Microsoft 365 Business Premium,](https://www.microsoft.com/microsoft-365/business)Office 365 Enterprise E5, Office 365 Education A5, enz. Als uw organisatie een Microsoft 365-abonnement heeft dat geen Office 365 ATP bevat, u atp mogelijk als add-on aanschaffen. Zie de volgende bronnen voor meer informatie: 
 
 - [Office 365 Advanced Threat Protection-abonnementen en -prijzen](https://products.office.com/exchange/advance-threat-protection)
 
@@ -59,7 +59,7 @@ Als [er nieuwe functies worden toegevoegd aan ATP,](office-365-atp.md#new-featur
 
 - Microsoft 365-client-apps zijn geconfigureerd voor het gebruik van moderne verificatie (dit is voor de bescherming van ATP Safe Links in Office-documenten). (Zie [Moderne verificatie voor Office 2016](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016).)
 
-- Gebruikers hebben zich aangemeld met hun werk- of schoolaccount. (Zie [Aanmelden bij Office of Office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426).)
+- Gebruikers hebben zich aangemeld met hun werk- of schoolaccount. (Zie [Aanmelden bij Office](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426).)
 
 - De e-mail van uw organisatie gaat via Exchange Online Protection.
 
@@ -81,7 +81,7 @@ Nadat het BELEID voor veilige koppelingen van ATP is ingevoerd, kan het beveilig
 
 In de volgende tabel worden enkele voorbeeldscenario's beschreven waarin de bescherming van ATP-veilige koppelingen al dan niet is ingevoerd. (In al deze gevallen gaan we ervan uit dat de organisatie Office 365 Enterprise E5 heeft.)
 
-|**Voorbeeldscenario**|**Is ATP Safe Links bescherming van toepassing in dit geval?**|
+|Voorbeeldscenario|Is ATP Safe Links bescherming van toepassing in dit geval?|
 |:-----|:-----|
 |Jean is lid van een groep met atp-beleid voor veilige koppelingen voor URL's in e-mail- en Office-documenten. Jean opent een PowerPoint-presentatie die iemand heeft verzonden en klikt vervolgens op een URL in de presentatie.|Ja. Het beleid voor veilige koppelingen van atp die is gedefinieerd, is van toepassing op jean's groep, Jean's e-mail en Word-, Excel-, PowerPoint- of Visio-documenten die Jean opent, zolang Jean is aangemeld en Microsoft 365-apps voor bedrijven op Windows-, iOS- of Android-apparaten is gebruikt.|
 |In de organisatie van Chris hebben nog geen globale of beveiligingsbeheerders een ATP-beleid voor veilige koppelingen gedefinieerd. Chris ontvangt een e-mail met een URL naar een kwaadaardige website. Chris is zich niet bewust van de URL is kwaadaardig en klikt op de link.|Nee. Het standaardbeleid dat URL's voor iedereen in de organisatie dekt, moet worden gedefinieerd om bescherming te kunnen instellen.|

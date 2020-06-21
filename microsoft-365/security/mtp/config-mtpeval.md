@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: be92bfe8fc4f544f0554f99d147bfc90bf569d57
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: ba603f3703a7d4b6df567f8299af9f1804e42b96
+ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44498457"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702568"
 ---
 # <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-environment"></a>Pijlers voor Microsoft Threat Protection configureren voor uw proeflabomgeving
 
@@ -241,11 +241,9 @@ Klik op **Volgende**.
 >[!NOTE]
 >Vanaf 1 juni 2020 schakelt Microsoft automatisch Microsoft Threat Protection-functies in voor alle in aanmerking komende tenants. Zie dit [Microsoft Tech Community-artikel over licentiegeschiktheid](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/microsoft-threat-protection-will-automatically-turn-on-for/ba-p/1345426) voor meer informatie. 
 <br>
-1. Ga naar [Microsoft 365 Security Center](https://security.microsoft.com/homepage). Navigeer naar **Instellingen** en selecteer **Microsoft Threat Protection**.
-<br>![Image of_Microsoft Threat Protection option screenshot van de pagina Microsoft 365 Security Center Settings](../../media/mtp-eval-72b.png) <br>
 
-2. Schakel het **selectievakje Microsoft-bedreigingsbeveiliging inschakelen in** en klik op **Opslaan**.
-<br>![Image of_Microsoft Threat Protection option screenshot van de pagina Microsoft 365 Security Center Settings](../../media/mtp-eval-72c.png) <br>
+Ga naar [Microsoft 365 Security Center](https://security.microsoft.com/homepage). Navigeer naar **Instellingen** en selecteer **Microsoft Threat Protection**.
+<br>![Image of_Microsoft Threat Protection option screenshot van de pagina Microsoft 365 Security Center Settings](../../media/mtp-eval-72b.png) <br>
 
 Gefeliciteerd! U hebt zojuist uw Microsoft Threat Protection-proeflabomgeving gemaakt! U nu een aanval simuleren en zien hoe de cross-productmogelijkheden detecteren, waarschuwingen maken en automatisch reageren op een bestandloze aanval op een eindpunt.
 

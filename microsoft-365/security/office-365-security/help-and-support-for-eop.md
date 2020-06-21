@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft biedt hulp voor EOP op verschillende plaatsen en methoden, waaronder zelfondersteuning en ondersteuning.
-ms.openlocfilehash: 277c48a8ac9503681eb695fba3697ddd16e49b88
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 7d1c62bd6ddef44e86e47b894e2d386dd8c0bd55
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588238"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755186"
 ---
 # <a name="help-and-support-for-eop"></a>Help en ondersteuning voor EOP
 
@@ -33,7 +33,7 @@ Bij het inloggen biedt het Microsoft 365-beheercentrum informatie over de status
 
 [Microsoft 365-community](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
 
-[Microsoft Support and Recovery Assistant (SaRA)](https://support.office.com/article/e90bb691-c2a7-4697-a94f-88836856c72f)
+[Microsoft Support and Recovery Assistant (SaRA)](https://support.microsoft.com/office/e90bb691-c2a7-4697-a94f-88836856c72f)
 
 [Probleemoplosser voor e-mailstromen](https://aka.ms/FixEmail)
 

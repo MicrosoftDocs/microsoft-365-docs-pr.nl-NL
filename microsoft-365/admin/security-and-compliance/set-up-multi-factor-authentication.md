@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Meer informatie over het instellen van meerstapverificatie voor uw organisatie.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 9218e81aaf016c379c6ba8c7ae846a2a2132cf35
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: a8e84746a577b95307d325047f0822e8eb3786f0
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515805"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779939"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Meervoudige verificatie instellen
   
@@ -80,10 +80,10 @@ Werk samen met uw proefgebruikers om vragen en problemen aan te pakken om u voor
 Gebruik e-mailmeldingen, gangposters, teamvergaderingen of formele training om ervoor te zorgen dat uw medewerkers het begrijpen:
 
 - Waarom MFA nodig is voor aanmeldingen
-- [Hoe te registreren voor hun aanvullende verificatiemethode](https://support.office.com/article/set-up-your-microsoft-365-sign-in-for-multi-factor-authentication-ace1d096-61e5-449b-a875-58eb3d74de14?ui=en-US&rs=en-001&ad=US)
-- [Aanmelden na registratie](https://support.office.com/article/sign-in-to-microsoft-365-with-multi-factor-authentication-2b856342-170a-438e-9a4f-3c092394d3cb)
-- [Hoe de aanvullende verificatiemethode te wijzigen](https://support.office.com/article/change-how-you-do-additional-verification-956ec8d0-7081-4518-a701-f8414cc20831)
-- [Hoe om te gaan met situaties zoals een nieuwe smartphone](https://support.office.com/article/fix-common-problems-with-multi-factor-authentication-6951be76-af50-49a4-847f-21391eaa59f2)
+- [Hoe te registreren voor hun aanvullende verificatiemethode](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14)
+- [Aanmelden na registratie](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
+- [Hoe de aanvullende verificatiemethode te wijzigen](https://support.microsoft.com/office/956ec8d0-7081-4518-a701-f8414cc20831)
+- [Hoe om te gaan met situaties zoals een nieuwe smartphone](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2)
 
 Het belangrijkste is dat uw medewerkers begrijpen ***wanneer de MFA-eis wordt opgelegd,*** zodat het hen niet verbaast.
 
@@ -120,6 +120,6 @@ Gebruikersaccounts inschakelen voor MFA die overeenkomt met uw implementatie.
 
 Terwijl uw medewerkers zich registreren en beginnen met inloggen bij MFA, zorg er dan voor dat uw IT-specialisten, IT-afdeling of helpdesk vragen kunnen beantwoorden en problemen snel kunnen oplossen.
 
-Zie dit artikel voor [informatie over het oplossen van MFA-aanmeldingen](https://support.office.com/article/fix-common-problems-with-multi-factor-authentication-6951be76-af50-49a4-847f-21391eaa59f2). 
+Zie dit artikel voor [informatie over het oplossen van MFA-aanmeldingen](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2). 
 
 

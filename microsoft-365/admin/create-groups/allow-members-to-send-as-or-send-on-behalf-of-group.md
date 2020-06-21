@@ -19,59 +19,59 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
-description: Meer informatie over hoe u leden toestaat e-mail te verzenden als een Microsoft 365-groep of e-mail te verzenden namens een Microsoft 365-groep.
-ms.openlocfilehash: a4d8cb65feab3fca69824adc8f7b4ef10e705d8c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over het toestaan van leden om e-mail te verzenden als Microsoft 365-groep of e-mail te verzenden namens een Microsoft 365-groep.
+ms.openlocfilehash: 3a93dda83b10d7c38c8c6e7d8fd484b37df565d0
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388135"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780467"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Leden toestaan om namens een groep te verzenden of te verzenden
 
-Een lid van een Microsoft 365-groep aan wie **machtigingen verzenden als** of verzenden is **verleend,** kan e-mail verzenden als groep of namens de groep. In dit onderwerp wordt uitgelegd hoe een beheerder deze machtigingen kan instellen.
+Een lid van een Microsoft 365-groep die namens machtigingen **verzenden of** **verzenden** heeft gekregen, kan e-mail verzenden als groep of namens de groep. In dit onderwerp wordt uitgelegd hoe een beheerder deze machtigingen kan instellen.
   
-Als Megan Bowen bijvoorbeeld deel uitmaakt van de groep Microsoft 365 **trainen** en **Verzenden als** machtigingen voor de groep heeft, als ze een e-mail stuurt als de groep, lijkt het erop dat de groep **Training** de e-mail heeft verzonden. 
+Als Megan Bowen bijvoorbeeld deel uitmaakt van de Microsoft 365-groep **Training** en **als** machtigingen voor de groep heeft verzonden, lijkt het erop dat de **groep Training** de e-mail heeft verzonden als ze een e-mail stuurt als de groep. 
   
-Met de machtiging **Verzenden namens** kan een gebruiker e-mail verzenden namens een Microsoft 365-groep. Als Alex Wilber bijvoorbeeld deel uitmaakt van de **groep Marketing** Microsoft 365 en machtigingen voor verzenden **namens de** naam heeft en een e-mail als groep verzendt, ziet de e-mail eruit alsof deze is verzonden door **Alex Wilber namens Marketing.**
+Met de machtiging **Verzenden namens naam** kan een gebruiker e-mail verzenden namens een Microsoft 365-groep. Als Alex Wilber bijvoorbeeld deel uitmaakt van de **Marketing** Microsoft 365-groep en **machtigingen namens verzenden** heeft en een e-mail als groep verzendt, ziet de e-mail eruit alsof deze is verzonden door Alex **Wilber namens Marketing.**
 
 > [!IMPORTANT]
-> U **Verzenden als** of Verzenden namens **een** bepaalde gebruiker configureren, maar niet beide. Als u beide configureert, wordt standaard **verzonden als**.
+> U **Verzenden als** of Verzenden **namens** een bepaalde gebruiker configureren, maar niet beide. Als u beide configureert, wordt deze standaard **verzonden als**.
 
 > [!TIP]
-> Zie [E-mail verzenden van of namens een Microsoft 365-groep](https://support.office.com/article/0f4964af-aec6-484b-a65c-0434df8cdb6b.aspx) voor meer informatie over het gebruik van Outlook en Outlook op internet om e-mail vanuit een groep te verzenden.
+> Zie [E-mail verzenden vanuit of namens een Microsoft 365-groep](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b) voor meer informatie over het gebruik van Outlook en Outlook op internet om e-mail vanuit een groep te verzenden.
     
 ## <a name="allow-members-to-send-email-as-a-group"></a>Leden toestaan om e-mail als groep te verzenden
 
-In dit gedeelte wordt uitgelegd hoe u gebruikers toestaat om als groep e-mail te verzenden in het [Exchange-beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2059104) (EAC) in Exchange Online.
+In deze sectie wordt uitgelegd hoe gebruikers e-mail als groep kunnen verzenden in het [Exchange-beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2059104) (EAC) in Exchange Online.
   
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum</a>naar **Recipients** \> **Ontvangersgroepen**.
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum</a>naar **Groepen ontvangers** \> **Groups**.
     
-2. Selecteer **Edit** ![ groepspictogram bewerken ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) in Groep waarvan u gebruikers wilt toestaan als te verzenden.   
+2. Selecteer **Het** ![ groeppictogram Bewerken bewerken in groep dat gebruikers ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) als of te sturen wilt toestaan.   
     
 3. Selecteer **delegering van groepen**.
     
-4. Selecteer in de sectie **Verzenden als** het teken om de gebruikers toe te voegen die u als groep **+** wilt verzenden. 
+4. Selecteer **in** de sectie Verzenden als het **+** teken om de gebruikers toe te voegen die u als groep wilt verzenden. 
     
-    ![Selecteer het plusteken om de gebruikers toe te voegen die u wilt verzenden als de Microsoft 365-groep](../../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
+    ![Selecteer het plusteken om de gebruikers toe te voegen die u als Microsoft 365-groep wilt verzenden](../../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
   
 5. Typ om te zoeken of kies een gebruiker uit de lijst. Selecteer **OK** en **Opslaan**.
     
     ![Typ om een gebruiker uit de lijst te zoeken of te kiezen](../../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
   
-## <a name="allow-members-to-send-email-on-behalf-of-a-group"></a>Leden toestaan e-mail namens een groep te verzenden
+## <a name="allow-members-to-send-email-on-behalf-of-a-group"></a>Leden toestaan om namens een groep e-mail te verzenden
 
-In dit gedeelte wordt uitgelegd hoe u gebruikers toestaat e-mail namens een groep te verzenden in het Exchange-beheercentrum (EAC) in Exchange Online.
+In deze sectie wordt uitgelegd hoe gebruikers e-mail namens een groep kunnen verzenden in het Exchange-beheercentrum (EAC) in Exchange Online.
   
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum</a>naar **Recipients** \> **Ontvangersgroepen**.
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum</a>naar **Groepen ontvangers** \> **Groups**.
     
-2. Selecteer **Edit** ![ groepspictogram bewerken ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) in de groep die gebruikers wilt toestaan te verzenden als. 
+2. Selecteer **Het** ![ groeppictogram Bewerken bewerken in de groep die ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) gebruikers als of te sturen wilt toestaan. 
     
 3. Selecteer **delegering van groepen**.
     
-4. Selecteer in de sectie Verzenden namens het **+** teken om de gebruikers toe te voegen die u als groep wilt verzenden. 
+4. Selecteer in de sectie Verzenden namens naam het **+** teken om de gebruikers toe te voegen die u als groep wilt verzenden. 
     
-    ![Selecteer het plusteken om de gebruikers toe te voegen die u wilt verzenden als de Microsoft 365-groep](../../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
+    ![Selecteer het plusteken om de gebruikers toe te voegen die u als Microsoft 365-groep wilt verzenden](../../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
   
 5. Typ om te zoeken of kies een gebruiker uit de lijst. Selecteer **OK** en **Opslaan**.
     
@@ -79,8 +79,8 @@ In dit gedeelte wordt uitgelegd hoe u gebruikers toestaat e-mail namens een groe
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Meer informatie over Microsoft 365-groepen](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[Meer informatie over Microsoft 365-groepen](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
-[Machtiging voor geadresseerden toevoegen](https://go.microsoft.com/fwlink/p/?LinkId=723960)
+[Bijvoegtoepassing Permissie](https://go.microsoft.com/fwlink/p/?LinkId=723960)
 
 [Set-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616189)

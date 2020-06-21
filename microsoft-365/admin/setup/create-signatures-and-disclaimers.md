@@ -1,5 +1,5 @@
 ---
-title: Handtekeningen en disclaimers voor de hele organisatie maken
+title: Maak handtekeningen en disclaimers voor de hele organisatie
 f1.keywords:
 - NOCSH
 ms.author: twerner
@@ -22,28 +22,28 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
-description: Leer om e-mailhandtekening, wettelijke disclaimer of openbaarmakingsverklaring toe te voegen aan alle e-mailberichten die uw organisatie binnenkomen of verlaten.
-ms.openlocfilehash: 5149f6f4a0276cc1384f15a8134d1ede0b673b8c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Leer e-mailhandtekening, wettelijke disclaimer of openbaarmakingsverklaring toe te voegen aan alle e-mailberichten die uw organisatie invoeren of verlaten.
+ms.openlocfilehash: d7e19c6e3f425f95429aefd769d2b8992fde141e
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398952"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779879"
 ---
-# <a name="create-organization-wide-signatures-and-disclaimers"></a>Handtekeningen en disclaimers voor de hele organisatie maken
+# <a name="create-organization-wide-signatures-and-disclaimers"></a>Maak handtekeningen en disclaimers voor de hele organisatie
 
- U kunt een e-mailhandtekening, juridische vrijwaring of openbaarmakingsverklaring toevoegen aan de binnenkomende of uitgaande e-mailberichten van de organisatie. U kunt dit toepassen op alle binnenkomende en uitgaande berichten zoals hieronder wordt weergegeven. Of u kunt dit toepassen op bepaalde berichten, zoals berichten met specifieke woorden of tekstpatronen.
+ You can add an email signature, legal disclaimer, or disclosure statement to the email messages that enter or leave your organization. You can set it up to apply to all incoming and outgoing messages as shown below. Or you can apply it to certain messages like those containing specific words or text patterns.
 
  Bekijk een korte video over het maken van een bedrijfsbrede e-mailhandtekening. <br><br>
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="create-a-signature-that-applies-to-all-messages"></a>Een handtekening maken die van toepassing is op alle berichten
 
 > [!TIP]
-> Organisatiebrede handtekeningen worden 'disclaimers' genoemd, ongeacht wat ze bevatten. Ze kunnen bijvoorbeeld gewoon een handtekening zijn, of ook uw adres, wettelijke disclaimer of andere informatie bevatten die u wilt.
+> Organisatiebrede handtekeningen worden "disclaimers" genoemd, ongeacht wat ze bevatten. Ze kunnen bijvoorbeeld gewoon een handtekening zijn, of ook uw adres, wettelijke disclaimer of andere informatie bevatten die u wilt.
     
 ::: moniker range="o365-worldwide"
 
@@ -63,13 +63,13 @@ Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid
 
 ::: moniker-end
 
-1. Selecteer het startprogramma voor apps ![ Het pictogram van het startprogramma voor apps en selecteer Vervolgens ](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) **Beheerder**.
+1. Selecteer het startpictogram voor ![ de app Het startpictogram voor apps en ](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) selecteer **Beheerder**.
    
-    Kunt u de app die u zoekt niet vinden? Selecteer in het startprogramma voor apps **Alle apps** om een alfabetische lijst te zien met de apps die voor u beschikbaar zijn. Van daaruit kunt u zoeken naar een specifieke app. 
+    Kunt u de app die u zoekt niet vinden? Selecteer in het startprogramma voor apps de optie **Alle apps** om een alfabetische lijst te zien van de apps die voor u beschikbaar zijn. Van daaruit kunt u zoeken naar een specifieke app. 
     
-2. Selecteer **Beheercentra**en kies **Vervolgens Exchange**.
+2. Selecteer **Beheercentra**en kies **Exchange**.
     
-3. Selecteer Onder E-mailstroom de optie **Regels**.
+3. Selecteer onder E-mailstroom **regels**.
     
 4. Selecteer het **+** pictogram (Toevoegen) en kies **Disclaimers toepassen**.
     
@@ -85,11 +85,11 @@ Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid
 8.  Selecteer **Tekst invoeren** en typ uw disclaimer. 
     
     > [!TIP]
-    > [Meer informatie](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) over het opmaken van vrijwaringen. (Dit opmaakartikel is voor Exchange Server, maar is ook van toepassing op Microsoft 365.) 
+    > [Meer informatie](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) over het opmaken van vrijwaringen. (Dit opmaakartikel is voor Exchange Server, maar ook van toepassing op Microsoft 365.) 
 
-9. Selecteer **Selecteer Er een** en kies **Wrap** als terugvaloptie. Klik op **OK**. Dit betekent dat als de vrijwaring niet kan worden toegevoegd vanwege versleuteling of een andere e-mailinstelling, deze wordt ingesloten in een berichtenvelop.
+9. Selecteer **Er een selecteren** en kies **Wrap** als terugvaloptie. Klik op **OK**. Dit betekent dat als de vrijwaring niet kan worden toegevoegd vanwege versleuteling of een andere e-mailinstelling, deze wordt ingesloten in een berichtenvelop.
     
-10. Laat **De regel controleren met niveau van ernst** ingeschakeld. Kies nu **Laag**, **Normaal** of **Hoog** voor gebruik in het berichtenlogboek. 
+10. Leave **Audit this rule with severity level** selected. Then choose **Low**, **Medium**, or **High** to be used in the message log. 
     
 11. Kies **Afdwingen** om de vrijwaring direct in te schakelen, tenzij u deze eerst wilt testen. 
     
@@ -101,18 +101,18 @@ Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid
 
 U het volgende niet doen met Microsoft 365-handtekeningen:
   
-- De handtekening direct onder het laatste e-mailantwoord of doorsturen
+- De handtekening direct onder het laatste e-mailantwoord invoegen of doorsturen
     
 - E-mailhandtekeningen aan de serverzijde weergeven in de mappen Verzonden items van gebruikers
     
 - Afbeeldingen insluiten in e-mailhandtekeningen
     
-- Regels overslaan die variabelen bevatten die niet kunnen worden bijgewerkt (bijvoorbeeld omdat de waarde niet voor een gebruiker is opgegeven)
+- Regels overslaan die variabelen bevatten die niet kunnen worden bijgewerkt (bijvoorbeeld omdat de waarde niet is opgegeven voor een gebruiker)
     
-Gebruik een tool van derden om deze en andere mogelijkheden te verkrijgen. Doe een internet zoeken naar **e-mail handtekening software**. Een aantal van deze providers zijn Microsoft Gold Partners en hun software biedt deze mogelijkheden. 
+Gebruik een hulpprogramma van derden om deze en andere mogelijkheden te verkrijgen. Doe een internet zoeken naar **e-mail handtekening software**. Een aantal van deze providers zijn Microsoft Gold Partners en hun software biedt deze mogelijkheden. 
   
 ## <a name="more-resources"></a>Meer informatie
 
-- Zie [Disclaimers, handtekeningen, voetteksten of kopteksten voor berichten in de hele organisatie in Microsoft 365](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) voor informatie over het gebruik van PowerShell. 
+- Zie [Disclaimers voor berichten, handtekeningen, voetteksten of kopteksten voor berichten in Microsoft 365](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) voor informatie over het gebruik van PowerShell. 
     
 

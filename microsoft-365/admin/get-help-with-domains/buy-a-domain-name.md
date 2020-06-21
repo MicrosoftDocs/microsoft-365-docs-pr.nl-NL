@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Meer informatie over het kopen van een domeinnaam in Microsoft 365.
-ms.openlocfilehash: 9358df6728e1e29228241887be65fb68a4720281
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fcf13314d7206837f10459ed8c0a44e5d41f219b
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400002"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780191"
 ---
 # <a name="buy-a-domain-name"></a>Een domeinnaam kopen
 
@@ -44,17 +44,17 @@ ms.locfileid: "44400002"
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
-### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Aanmelden en naar Instellingen \> domeinen \> Een domein kopen
+### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Meld u aan en ga naar \> Domeininstellingen Instellingen \> Een domein kopen
 
 1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
-3. Selecteer **op** de pagina Domeinen de optie **Domein kopen**.
+3. Selecteer **domein kopen**op de pagina **Domeinen** .
     
 U kunt kiezen uit de volgende topleveldomeinen voor uw domein.
   
 - .biz
     
-- .nl
+- .com
     
 - .info
     
@@ -77,10 +77,10 @@ U kunt kiezen uit de volgende topleveldomeinen voor uw domein.
 > Wanneer u **Domein kopen**selecteert, u worden doorgestuurd naar de website van uw Microsoft-partner als de tenant wordt gekocht/beheerd via een Microsoft-partner.
 
 ### <a name="domain-privacy"></a>Domeinprivacy
-Wij bieden een gratis Domain Privacy Subscription met de aankoop van een domein. Dit houdt uw contactgegevens verbonden aan de registratie van uw domein met ICANN privé. [Meer informatie.](https://whois.icann.org/en/privacy-and-proxy-services)
+Wij bieden een gratis Domain Privacy Subscription met de aankoop van een domein. Hierdoor blijven uw contactgegevens gekoppeld aan de registratie van uw domein met ICANN private. [Meer informatie.](https://whois.icann.org/en/privacy-and-proxy-services)
   
 ### <a name="buy-a-domain-from-another-domain-registrar"></a>Een domein kopen bij een andere domeinregistrar
-Als u een domein wilt kopen bij een andere domeinregistrar dan [GoDaddy,](https://www.godaddy.com)raden we u aan er een hieronder te gebruiken die automatische installatie ondersteunt (Domain Connect). 
+Als u een domein wilt kopen bij een andere domeinregistrar dan [GoDaddy,](https://www.godaddy.com)raden we u aan er hieronder een te gebruiken die automatische installatie (Domain Connect) ondersteunt. 
   
 - [1 &amp; 1 IONOS](https://www.1and1.com/)
 - [Wordpress](https://www.wordpress.com) 
@@ -88,9 +88,9 @@ Als u een domein wilt kopen bij een andere domeinregistrar dan [GoDaddy,](https:
    
 ### <a name="transfer-your-domain-to-a-different-domain-registrar"></a>Uw domein overbrengen naar een andere domeinregistrar
 
-Als uw domein wordt beheerd door een provider die geen ondersteuning biedt voor alle benodigde DNS-records, kunt u dit overbrengen naar een andere registrar. Wanneer u het domein overbrengt, wijzigt u wie u betaalt om uw domeinnaam te verlengen en te behouden.
+If your domain is managed by a provider that doesn't support all the necessary DNS records, you can transfer it to a different registrar. When you transfer the domain, you change who you send payments to in order to renew and keep your domain name.
   
-Vraag de overdracht aan bij de registrar waarnaar u uw domein wilt verplaatsen. Zoek op de website van de registrar naar een optie zoals **DNS overbrengen**. Let op: nadat de registrar de nodige wijzigingen heeft aangebracht, kan het nog enkele dagen duren voordat de update is doorgevoerd op internet.
+Request the transfer at the registrar that you want to move your domain to. Look on their website for an option such as **Transfer DNS**. Be aware that after they make the changes, it can take a few days update across the Internet.
  
 
 
@@ -100,19 +100,19 @@ Vraag de overdracht aan bij de registrar waarnaar u uw domein wilt verplaatsen. 
 
 
 
-Als u nog geen eigen domein hebt, kunt u gemakkelijk online een domein kopen bij een domeinnaamregistrar, een domeinverkoper, of zelfs bij uw huidige internetprovider. U krijgt een domeinnaam wanneer u zich registreert voor Office 365 beheerd door 21Vianet, bijvoorbeeld contoso.partner.onmschina.cn. Maar misschien wilt u een aangepaste domeinnaam gebruiken, zoals fourthcoffee.com.
+If you don't already have your own domain, you can easily buy one online at a domain name registrar, domain reseller, or even at your current Internet provider. You get a domain name when you sign up for Office 365 operated by 21Vianet, for example, contoso.partner.onmschina.cn. But you may want to use a custom domain name, like fourthcoffee.com.
   
-Als u een domein wilt instellen in Microsoft 365, moet u eigenaar zijn van een domein en een aantal DNS-records voor uw domein wijzigen.
+Als u een domein wilt instellen in Microsoft 365, moet u een domein bezitten en een aantal DNS-records voor uw domein wijzigen.
   
 > [!CAUTION]
-> Sommige domeinregistrars of DNS-hostingproviders staan het maken van niet alle DNS-records toe die vereist zijn voor Microsoft 365. De hostingproviders uit de volgende lijst bieden ondersteuning voor alle benodigde records. Als u overweegt een andere hostingprovider te gebruiken, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.office.com/article/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). 
+> Sommige domeinregistrars of DNS-hostingproviders staan het maken van alle DNS-records die Microsoft 365 vereist niet toe. De hostingproviders uit de volgende lijst bieden ondersteuning voor alle benodigde records. Als u overweegt een andere hostingprovider te gebruiken, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.microsoft.com/office/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). 
   
-Nadat u uw domein hebt geregistreerd (bij een domeinregistrar), meldt u zich aan bij Microsoft 365 als beheerder en stelt u uw domein zo in dat u het gebruiken met uw e-mailadres en andere services..
+Nadat u uw domein hebt geregistreerd (bij een domeinregistrar), meldt u zich aan bij Microsoft 365 als beheerder en stelt u uw domein in, zodat u het gebruiken met uw e-mailadres en andere services..
   
 > [!NOTE]
-> De informatie over openbare sharepoint online in dit artikel is alleen van toepassing als uw organisatie Microsoft 365 vóór 9 maart 2015 heeft gekocht. 
+> De informatie over de openbare website van SharePoint Online in dit artikel is alleen van toepassing als uw organisatie Microsoft 365 vóór 9 maart 2015 heeft gekocht. 
 
-## <a name="domain-registrars-that-support-all-dns-records-required-for-microsoft-365"></a>Domeinregistrars die alle DNS-records ondersteunen die vereist zijn voor Microsoft 365
+## <a name="domain-registrars-that-support-all-dns-records-required-for-microsoft-365"></a>Domeinregistrars die alle DNS-records ondersteunen die nodig zijn voor Microsoft 365
 
 - [Oray](https://oray.com/)
     

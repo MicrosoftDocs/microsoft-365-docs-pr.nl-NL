@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
-description: Lees of u registersleutels wilt instellen om moderne verificatie in te schakelen voor apparaten waarop Microsoft Office 2013 is geïnstalleerd.
-ms.openlocfilehash: 8bf6f50068f1a1435897c49656823302df40235e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Leer registersleutels instellen om moderne verificatie in te schakelen voor apparaten waarop Microsoft Office 2013 is geïnstalleerd.
+ms.openlocfilehash: 8edcedefc04d5018b8b61022c26cbe027f7c24a9
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399168"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779963"
 ---
 # <a name="enable-modern-authentication-for-office-2013-on-windows-devices"></a>Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten
 
@@ -36,16 +36,16 @@ Als u moderne verificatie wilt inschakelen voor Windows-apparaten waarop Office 
 > [!NOTE]
 > Moderne verificatie is al ingeschakeld voor Office 2016-clients. U hoeft geen registersleutels in te stellen voor Office 2016. 
   
-Als u moderne verificatie wilt inschakelen voor Windows-apparaten, zoals laptops en tablets, waarop Microsoft Office 2013 is geïnstalleerd, moet u de volgende registersleutels instellen. De sleutels moeten worden ingesteld op elk apparaat waarop u de moderne verificatie wilt inschakelen:
+To enable modern authentication for any devices running Windows (for example on laptops and tablets), that have Microsoft Office 2013 installed, you need to set the following registry keys. The keys have to be set on each device that you want to enable for modern authentication:
   
 |**Registersleutel**|**Type**|**Value** |
 |:-------|:------:|--------:|
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  |REG_DWORD  |1  |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version |REG_DWORD |1 |
    
-Zodra u de registersleutels hebt ingesteld, u office 2013-apparaten instellen op [multifactorauthenticatie (MFA)](set-up-multi-factor-authentication.md) met Microsoft 365. 
+Zodra u de registersleutels hebt ingesteld, u Office 2013-apparaten-apps instellen op [multifactorauthenticatie (MFA)](set-up-multi-factor-authentication.md) met Microsoft 365. 
   
-Als u momenteel bent aangemeld met een van de client-apps, moet u zich afmelden en opnieuw aanmelden om de wijziging te effectueren. Anders zijn de MRU- en roaminginstellingen niet beschikbaar tot de ADAL-identiteit is vastgesteld.
+If you're currently signed-in with any of the client apps, you need to sign out and sign back in for the change to take effect. Otherwise, the MRU and roaming settings will be unavailable until the ADAL identity is established.
   
 ## <a name="disable-modern-authentication-on-devices"></a>Moderne verificatie uitschakelen op apparaten
 
@@ -56,7 +56,7 @@ Als u moderne verificatie wilt uitschakelen op een apparaat, stelt u de volgende
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL |REG_DWORD|0|
    
 ## <a name="related-articles"></a>Verwante artikelen
-[Aanmelden bij Office 2013 met een tweede verificatiemethode](https://support.office.com/article/2b856342-170a-438e-9a4f-3c092394d3cb.aspx)
+[Aanmelden bij Office 2013 met een tweede verificatiemethode](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
 
   
 

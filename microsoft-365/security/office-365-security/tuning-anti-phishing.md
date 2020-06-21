@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Beheerders kunnen leren om te achterhalen waarom en hoe een phishing-bericht is doorgekomen in Microsoft 365 en wat ze moeten doen om meer phishingberichten in de toekomst te voorkomen.
-ms.openlocfilehash: b7a68eb3ab3cf7dbb7156059416cca04d80bb3a8
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: ac416da714e30491f679e22909010a8c02fac843
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588438"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755050"
 ---
 # <a name="tune-anti-phishing-protection"></a>Beveiliging tegen phishing afstemmen
 
@@ -51,17 +51,21 @@ Controleer specifiek het kopveld **X-Forefront-Antispam-Report** in de berichtko
 
 - Voer maandelijks [Secure Score](../mtp/microsoft-secure-score.md) uit om de beveiligingsinstellingen van uw organisatie te beoordelen.
 
-- Controleer regelmatig het [spoofinformatierapport](learn-about-spoof-intelligence.md) en [configureer spoofinformatie](set-up-anti-phishing-policies.md#spoof-settings) om verdachte berichten in quarantaine te **plaatsen** in plaats van ze te leveren aan de map Ongewenste e-mail van de gebruiker.
+- Voor berichten die per ongeluk in quarantaine terechtkomen of voor berichten die zijn toegestaan, raden we u aan te zoeken naar die berichten in [Threat Explorer en realtime detecties.](threat-explorer.md) U zoeken op afzender, ontvanger of bericht-id. Nadat u het bericht hebt gevonden, gaat u naar de details door op het onderwerp te klikken. Voor een bericht in quarantaine u zien wat de detectietechnologie was, zodat u de juiste methode gebruiken om overschrijven. Voor een toegestaan bericht u zien welk beleid het bericht heeft toegestaan. 
+
+- Vervalste e-mail wordt getagd als phish in ATP. Soms spoof is goedaardig, en soms gebruikers willen niet dat het in quarantaine. Om de impact op gebruikers te minimaliseren, controleert u periodiek het [spoofinformatierapport](learn-about-spoof-intelligence.md). Zodra u de nodige overschrijvingen hebt beoordeeld en uitgevoerd, u erop vertrouwen dat [spoofinformatie wordt geconfigureerd](set-up-anti-phishing-policies.md#spoof-settings) om verdachte berichten in quarantaine te **plaatsen** in plaats van ze te leveren aan de map Ongewenste e-mail van de gebruiker.
+
+- U de bovenstaande stap voor Imitatie (domein of gebruiker) herhalen. Het rapport Imitatie wordt gevonden onder **Threat Management** \> **Dashboard** \> **Insights**.
 
 - Controleer regelmatig het [rapport Bedreigingsbeschermingsstatus](view-reports-for-atp.md#threat-protection-status-report).
 
-- Sommige klanten staan per ongeluk phishingberichten toe door hun eigen domeinen in de lijst Afzender toestaan of Domein toestaan in antispambeleid. Als u ervoor kiest om dit te doen, moet u uiterste voorzichtigheid gebruiken. Hoewel deze configuratie zal toestaan dat sommige legitieme berichten door, het zal ook toestaan dat kwaadaardige berichten die normaal gesproken zou worden geblokkeerd door de spam en / of phish filters.
+- Sommige klanten staan per ongeluk phishingberichten toe door hun eigen domeinen in de lijst Afzender toestaan of Domein toestaan in antispambeleid. Hoewel deze configuratie zal toestaan dat sommige legitieme berichten door, het zal ook toestaan dat kwaadaardige berichten die normaal gesproken zou worden geblokkeerd door de spam en / of phish filters. In plaats van het domein toe te staan, moet u het onderliggende probleem corrigeren.
 
   De beste manier om te gaan met legitieme berichten die worden geblokkeerd door Microsoft 365 (false positives) waarbij afzenders in uw domein betrokken zijn, is door de SPF-, DKIM- en DMARC-records in DNS voor _al_ uw e-maildomeinen volledig en volledig te configureren:
 
   - Controleer of uw SPF-record _alle_ bronnen van e-mail identificeert voor afzenders in uw domein (vergeet services van derden niet!).
 
-  - Gebruik hard fail ( \- ) om ervoor te zorgen dat onbevoegde afzenders worden geweigerd door e-mailsystemen die zijn geconfigureerd om dit te doen. U [spoofinformatie](learn-about-spoof-intelligence.md) gebruiken om afzenders te identificeren die uw domein gebruiken, zodat u geautoriseerde afzenders van derden opnemen in uw SPF-record.
+  - Gebruik hard fail \- (all) om ervoor te zorgen dat onbevoegde afzenders worden geweigerd door e-mailsystemen die hiervoor zijn geconfigureerd. U [spoofinformatie](learn-about-spoof-intelligence.md) gebruiken om afzenders te identificeren die uw domein gebruiken, zodat u geautoriseerde afzenders van derden opnemen in uw SPF-record.
 
   Zie voor configuratie-instructies:
   
@@ -72,6 +76,8 @@ Controleer specifiek het kopveld **X-Forefront-Antispam-Report** in de berichtko
   - [DMARC gebruiken om e-mail te valideren](use-dmarc-to-validate-email.md)
 
 - Waar mogelijk raden we u aan om e-mail voor uw domein rechtstreeks naar Microsoft 365 te verzenden. Met andere woorden, wijs de MX-record van uw Microsoft 365-domein aan op Microsoft 365. Exchange Online Protection (EOP) is in staat om de beste bescherming te bieden aan uw cloudgebruikers wanneer hun e-mail rechtstreeks wordt bezorgd aan Microsoft 365. Als u een e-mailhygiënesysteem van derden voor EOP moet gebruiken, gebruikt u Enhanced Filtering for Connectors. Zie Uitgebreide [filtering voor connectoren in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)voor instructies.
+
+- Gebruikers moeten [berichten rapporteren](enable-the-report-message-add-in.md) aan Microsoft, die ons systeem kan trainen. Beheerders moeten ook gebruik maken van de mogelijkheden voor [beheerdersinzending.](admin-submission.md)
 
 - Multi-factor authenticatie (MFA) is een goede manier om gecompromitteerde accounts te voorkomen. U moet sterk overwegen om MFA in te schakelen voor al uw gebruikers. Voor een gefaseerde aanpak, begin met het inschakelen van MFA voor uw meest gevoelige gebruikers (admins, leidinggevenden, enz.) voordat u MFA voor iedereen inschakelt. Zie [Meerstapverificatie instellen](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)voor instructies.
 

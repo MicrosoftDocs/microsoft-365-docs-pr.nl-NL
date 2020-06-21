@@ -20,37 +20,37 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 31efc571-c8b9-46fb-b42d-203c2fb25289
-description: Lees hoe u Office 365 instellen dat door 21Vianet wordt beheerd om uw DNS-records te beheren, wanneer 1&1 Internet de DNS-hostingprovider is.
-ms.openlocfilehash: b63dc0664791eb4941513f701824b813d77e67bd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lees hoe u Office 365 instellen dat door 21Vianet wordt beheerd om uw DNS-records te beheren, wanneer 1&1 internet de DNS-hostingprovider is.
+ms.openlocfilehash: 79870d534e7d825fd59dbbbec54c796227f5faf1
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400699"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780371"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-11-ionos"></a>Naamservers wijzigen om Microsoft 365 in te stellen met 1&1 IONOS
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
-Volg deze instructies als u wilt dat Microsoft 365 uw Microsoft 365 DNS-records voor u beheert. (Als u dat liever hebt, u [al uw Microsoft 365 DNS-records beheren op 1&1 IONOS](create-dns-records-at-1-1-internet.md).) 
+Volg deze instructies als u wilt dat Microsoft 365 uw DNS-records van Microsoft 365 voor u beheert. (Als u dat liever hebt, u [al uw DNS-records van Microsoft 365 beheren op 1&1 IONOS](create-dns-records-at-1-1-internet.md).) 
   
 
     
 ## <a name="add-a-txt-record-for-verification"></a>Een TXT-record toevoegen voor verificatie
 
 
-Voordat u uw domein met Microsoft 365 kunt gaan gebruiken, moet worden gecontroleerd dat u de eigenaar bent van het domein. Als u zich bij uw account bij de domeinregistrar kunt aanmelden en de DNS-record kunt maken, is dit voor Microsoft 365 bewezen.
+Before you use your domain with Microsoft 365, we have to make sure that you own it. Your ability to log in to your account at your domain registrar and create the DNS record proves to Microsoft 365 that you own the domain.
   
 > [!NOTE]
-> Deze record wordt alleen gebruikt om te verifiëren dat u de eigenaar van uw domein bent. Dit heeft verder geen invloed. U kunt deze record later desgewenst verwijderen. 
+> This record is used only to verify that you own your domain; it doesn't affect anything else. You can delete it later, if you like. 
   
-Volg onderstaande stappen of [bekijk de video (start op 0:42)](https://support.office.com/article/Video-Change-nameservers-to-set-up-Office-365-with-1-1-Internet-0ef1b3b5-d27a-4004-8ca1-fbe0453a0ea3?ui=en-US&amp;rs=en-US&amp;ad=US).
+Volg onderstaande stappen of [bekijk de video (start op 0:42)](https://support.microsoft.com/office/0ef1b3b5-d27a-4004-8ca1-fbe0453a0ea3).
   
-1. Om aan de slag te gaan, ga je naar je domeinenpagina op 1&1 IONOS via [deze link.](https://account.1and1.com/?redirect_url=https%3A%2F%2Fmy.1and1.com%2F) U wordt gevraagd u aan te melden. 
+1. Ga om te beginnen naar je domeinen pagina op 1&1 IONOS via [deze link.](https://account.1and1.com/?redirect_url=https%3A%2F%2Fmy.1and1.com%2F) U wordt gevraagd u aan te melden. 
     
 2. Selecteer onder **MY DOMAINS** de optie **Manage domains**.
     
-3. Zoek op de pagina **Domain Center** het domein dat u wilt bijwerken. selecteer vervolgens het **besturingselement Paneel** **(v)** voor dat domein.
+3. Zoek **op** de pagina Domain Center het domein dat u wilt bijwerken. Selecteer vervolgens het besturingselement **Panel** ( **v)** voor dat domein.
     
 4. Selecteer **DNS-instellingen bewerken**in het gebied **Domeininstellingen** .
     
@@ -66,9 +66,9 @@ Volg onderstaande stappen of [bekijk de video (start op 0:42)](https://support.o
 |TXT  <br/> |(Laat dit veld leeg.)  <br/> |MS=ms *XXXXXXXX* <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) <br/> |
 
    
-7. Selecteer **Opslaan**en vervolgens opnieuw **opslaan.** 
+7. Selecteer **Opslaan**en sla vervolgens opnieuw **op.** 
     
-8. Selecteer **Ja**. in het dialoogvenster **DNS-instellingen bewerken** .
+8. **Selecteer** **Ja** .
     
 9. Wacht enkele minuten voordat u verder gaat, zodat de record die u zojuist hebt gemaakt via internet kan worden bijgewerkt.
     
@@ -85,25 +85,25 @@ Wanneer in Microsoft 365 de juiste TXT-record is gevonden, is uw domein gecontro
 4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
     
 > [!NOTE]
-> Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Zie Problemen zoeken en oplossen na het toevoegen van [uw domein- of DNS-records in Microsoft 365](../get-help-with-domains/find-and-fix-issues.md)als u problemen ondervindt met e-mailstroom of andere problemen na het toevoegen van DNS-records. 
+> Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Zie Problemen zoeken en oplossen na het toevoegen van [uw domein of DNS-records in Microsoft 365 als](../get-help-with-domains/find-and-fix-issues.md)u problemen ondervindt met e-mailstroom of andere problemen na het toevoegen van DNS-records. 
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>De naamserverrecords (NS-records) van uw domein wijzigen
 
-Als u het instellen van uw domein met Microsoft 365 wilt voltooien, wijzigt u de NS-records van uw domein bij uw domeinregistrar om naar de primaire en secundaire naamservers van Microsoft 365 te wijzen. Hiermee wordt Microsoft 365 ingesteld om de DNS-records van het domein voor u bij te werken. We voegen alle records toe zodat e-mail, Skype voor Bedrijven Online en uw openbare website met uw domein werken en u helemaal klaar bent.
+Als u het instellen van uw domein wilt voltooien met Microsoft 365, wijzigt u de NS-records van uw domein bij uw domeinregistrar om te wijzen op de primaire en secundaire naamservers van Microsoft 365. Hiermee wordt Microsoft 365 ingesteld om de DNS-records van het domein voor u bij te werken. We voegen alle records toe, zodat e-mail, Skype voor Bedrijven Online en uw openbare website met uw domein werken en u helemaal klaar bent.
   
 > [!CAUTION]
-> Wanneer u de NS-records van uw domein wijzigt om naar de Microsoft 365-naamservers te wijzen, worden alle services die momenteel aan uw domein zijn gekoppeld, beïnvloed. Alle e-mail die naar uw domein wordt verzonden (zoals rob@ *your_domain* .com) wordt bijvoorbeeld naar Microsoft 365 verzonden nadat u deze wijziging hebt aangemaakt. 
+> Wanneer u de NS-records van uw domein wijzigt om naar de Microsoft 365-naamservers te wijzen, worden alle services beïnvloed die momenteel aan uw domein zijn gekoppeld. Alle e-mail die naar uw domein wordt verzonden (zoals rob@ *your_domain* .com) komt bijvoorbeeld naar Microsoft 365 nadat u deze wijziging hebt gewijzigd. 
   
-Klaar om uw NS-records te wijzigen, zodat Microsoft 365 uw domein kan instellen? Volg onderstaande stappen of [bekijk de video (start bij 365)](https://support.office.com/article/Video-Change-nameservers-to-set-up-Office-365-with-1-1-Internet-0ef1b3b5-d27a-4004-8ca1-fbe0453a0ea3?ui=en-US&amp;rs=en-US&amp;ad=US).
+Klaar om uw NS-records te wijzigen, zodat Microsoft 365 uw domein kan instellen? Volg onderstaande stappen of [bekijk de video (start bij 365)](https://support.microsoft.com/office/0ef1b3b5-d27a-4004-8ca1-fbe0453a0ea3).
   
 > [!IMPORTANT]
->  In de volgende procedure kunt u zien hoe u andere, ongewenste naamservers uit de lijst verwijdert en hoe u de juiste naamservers toevoegt als deze niet al in de lijst staan. >  Na het voltooien van de stappen in deze sectie, moeten alleen de volgende vier naamservers in de lijst staan: >  ns1.bdm.microsoftonline.com >  ns2.bdm.microsoftonline.com >  ns3.bdm.microsoftonline.com >  ns4.bdm.microsoftonline.com 
+>  The following procedure will show you how to delete any other, unwanted nameservers from the list, and also how to add the correct nameservers if they are not already listed. >  When you have completed the steps in this section, the only nameservers that should be listed are these four: >  ns1.bdm.microsoftonline.com >  ns2.bdm.microsoftonline.com >  ns3.bdm.microsoftonline.com >  ns4.bdm.microsoftonline.com 
   
-1. Ga om aan de slag te gaan naar de pagina domeinen op 1&1 IONOS via [deze link.](https://account.1and1.com/?redirect_url=https%3A%2F%2Fmy.1and1.com%2F) U wordt gevraagd u aan te melden. 
+1. Ga om te beginnen naar de pagina domeinen op 1&1 IONOS via [deze link.](https://account.1and1.com/?redirect_url=https%3A%2F%2Fmy.1and1.com%2F) U wordt gevraagd u aan te melden. 
     
 2. Selecteer onder **MY DOMAINS** de optie **Manage domains**.
     
-3. Zoek op de pagina **Domain Center** het domein dat u wilt bijwerken en selecteer vervolgens het besturingselement **Paneel** **(v)** voor dat domein.
+3. Zoek op de pagina **Domain Center** het domein dat u wilt bijwerken en selecteer het besturingselement **(v)** van **het paneel** voor dat domein.
     
 4. Selecteer **DNS-instellingen bewerken**in het gebied **Domeininstellingen** .
     
@@ -139,13 +139,13 @@ Klaar om uw NS-records te wijzigen, zodat Microsoft 365 uw domein kan instellen?
 |**Name server 3** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**Name server 4** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-![Waarden van naamserver invoeren](../../media/0f15880c-88b6-4133-8f31-62f0d98ee63f.png)
+![Naamserverwaarden invoeren](../../media/0f15880c-88b6-4133-8f31-62f0d98ee63f.png)
   
 4. Kies **Opslaan**.
     
     ![Opslaan selecteren op de pagina Naamserverinstellingen](../../media/864f7927-7127-4784-b8d2-dadfea2f9dc8.png)
   
-5. Selecteer **Ja**. in het dialoogvenster **DNS-instellingen bewerken** .
+5. **Selecteer** **Ja** .
     
     ![Opslaan selecteren in het dialoogvenster DNS-instellingen bewerken](../../media/0558e24c-17cd-428c-9ec1-5ed46481af7c.png)
   
@@ -155,7 +155,7 @@ Klaar om uw NS-records te wijzigen, zodat Microsoft 365 uw domein kan instellen?
 ### <a name="if-there-are-nameservers-already-listed"></a>Als er WEL naamservers worden vermeld
 
 > [!CAUTION]
-> Voer deze stappen  *alleen*  uit als u andere bestaande naamservers hebt dan de vier  *juiste*  naamservers. (Dat wil zeggen, verwijder  *alleen*  huidige naamservers die een  *andere*  naam hebben dan **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **ns3.bdm.microsoftonline.com** of **ns4.bdm.microsoftonline.com**.) 
+> Follow these steps  *only*  if you have existing nameservers other than the four  *correct*  nameservers. (That is, delete  *only*  any current nameservers that are  *not*  named **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **ns3.bdm.microsoftonline.com**, or **ns4.bdm.microsoftonline.com**.) 
   
 1. Als er al naamservers in de **Name server**-vakken worden vermeld, verwijdert u elke vermelding door deze te selecteren en op de toets **Delete** op het toetsenbord te drukken. 
     
@@ -170,13 +170,13 @@ Klaar om uw NS-records te wijzigen, zodat Microsoft 365 uw domein kan instellen?
 |**Name server 3** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**Name server 4** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-   ![Waarden van naamserver invoeren](../../media/52826bd1-0596-4103-a728-d5d28b9610d2.png)
+   ![Naamserverwaarden invoeren](../../media/52826bd1-0596-4103-a728-d5d28b9610d2.png)
   
 3. Kies **Opslaan**.
     
     ![Opslaan selecteren op de pagina Naamserverinstellingen](../../media/cd10e4fb-b7fa-480f-855b-a443f2705cf2.png)
   
-4. Selecteer **Ja**. in het dialoogvenster **DNS-instellingen bewerken** .
+4. **Selecteer** **Ja** .
     
     ![Opslaan selecteren in het dialoogvenster DNS-instellingen bewerken](../../media/0558e24c-17cd-428c-9ec1-5ed46481af7c.png)
   
