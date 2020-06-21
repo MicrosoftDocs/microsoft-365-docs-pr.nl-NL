@@ -25,20 +25,20 @@ description: Meer informatie over het inwisselen van een Microsoft 365 Business 
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: de0a45fe35a53d166eb8d587a6410f91b69e3288
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 30c10efdadae1828438ea9cba01cda93adaa4f0f
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402164"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818577"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Voer uw productcode in voor Microsoft 365 Business Standard
 
-Als u Microsoft 365 Business Standard hebt gekocht in een winkel, u in dit artikel uw abonnement activeren. 
+Als u Microsoft 365 Business Standard in een winkel hebt gekocht, u met dit artikel uw abonnement activeren. 
   
  **Hebt u iets anders nodig?**
- Zie [Productcodes gebruiken met Office](https://support.office.com/article/12a5763a-d45c-4685-8c95-a44500213759.aspx)voor **hulp bij Microsoft 365 Family of Microsoft 365 Personal.**  
- **Hebt u een volumelicentie?** Als u Microsoft 365 voor bedrijven hebt gekocht via een [Microsoft Open License Program,](https://go.microsoft.com/fwlink/p/?LinkID=613298)raadpleegt u het [artikel, Voer uw productcode in die is gekocht bij Microsoft Open.](purchases-from-microsoft-open.md)
+ Zie [Productcodes gebruiken](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx)met Office voor **hulp bij Microsoft 365 Family of Microsoft 365 Personal**.  
+ **Hebt u een volumelicentie?** Als u Microsoft 365 voor bedrijven hebt gekocht via een [Microsoft Open License Program,](https://go.microsoft.com/fwlink/p/?LinkID=613298)raadpleegt u het artikel, [Voert u uw productcode in die is gekocht bij Microsoft Open](purchases-from-microsoft-open.md).
   
 ## <a name="activate-a-new-subscription"></a>Een nieuw abonnement activeren
 
@@ -46,20 +46,20 @@ Als u Microsoft 365 Business Standard hebt gekocht in een winkel, u in dit artik
 
 2. Voer uw productcode in en selecteer **Volgende**.
 
-3. Voer uw naam, werk-e-mailadres, bedrijfstelefoonnummer, bedrijfsnaam en land of regio in en selecteer **Volgende**.
+3. Voer uw naam, werk-e-mailadres, zakelijk telefoonnummer, bedrijfsnaam en land of regio in en selecteer **Volgende**.
 
 4. Voer een telefoonnummer in om een sms of oproep te ontvangen om uw identiteit te verifiëren.
 
 5. U een nieuw domein krijgen, een domeinnaam gebruiken die u al bezit of later een domein toevoegen. De stappen kunnen variëren, dus volg de aanwijzingen, afhankelijk van welke optie u kiest.
 
     > [!NOTE]
-    > Als u ervoor wilt zorgen dat uw abonnement aan het einde van de looptijd automatisch wordt verlengd, u een creditcard of bankrekening toevoegen en terugkerende facturering voor dat abonnement [inschakelen.](subscriptions/renew-your-subscription.md#turn-recurring-billing-off-or-on)
+    > Als u ervoor wilt zorgen dat uw abonnement aan het einde van de looptijd automatisch wordt verlengd, u een creditcard of bankrekening toevoegen en [vervolgens Terugkerende facturering](subscriptions/renew-your-subscription.md#turn-recurring-billing-off-or-on) voor dat abonnement inschakelen.
 
-6. Wanneer u klaar bent, gaat u naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">beheercentrum</a> om uw abonnement te beheren.
+6. Wanneer u klaar bent, gaat u naar <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">het beheercentrum</a> om uw abonnement te beheren.
 
 ## <a name="extend-the-expiration-date-or-add-a-license-to-an-existing-subscription"></a>De vervaldatum verlengen of een licentie toevoegen aan een bestaand abonnement
 
-Als u een productcode wilt gebruiken om de vervaldatum te verlengen of een licentie toe te voegen aan uw bestaande Microsoft 365 Business Standard-abonnement, hebt u een nieuwe en ongebruikte sleutel nodig voor hetzelfde Microsoft 365-abonnement. Het invoeren van uw oorspronkelijke Microsoft 365-productcode werkt niet omdat een sleutel die al is ingewisseld, niet opnieuw kan worden gebruikt. Zie [Licenties toevoegen aan of verlengen van een abonnement waarvoor een productcode wordt betaald.](licenses/add-licenses-using-product-key.md)
+Als u een productcode wilt gebruiken om de vervaldatum te verlengen of een licentie toe te voegen aan uw bestaande Microsoft 365 Business Standard-abonnement, hebt u een nieuwe en ongebruikte sleutel nodig voor hetzelfde Microsoft 365-abonnement. Het invoeren van uw oorspronkelijke Microsoft 365-productcode werkt niet omdat een sleutel die al is ingewisseld, niet opnieuw kan worden gebruikt. Zie [Licenties toevoegen aan of verlengen van een abonnement dat is betaald voor het gebruik van een productcode.](licenses/add-licenses-using-product-key.md)
 
 ## <a name="whats-next"></a>En nu?
 

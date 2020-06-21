@@ -27,12 +27,12 @@ search.appverid:
 ms.assetid: 9b23c065-eef9-4bf7-acf5-127eb46d5e67
 ROBOTS: NOINDEX
 description: 'Begrijp wat u moet weten voordat u het aanmeldingsproces voor Office 365 doorloopt. '
-ms.openlocfilehash: 3b3212eeb5e95d4be24029a78f9af4d1b02931ce
-ms.sourcegitcommit: a418195dc11e6251ae37e788c102bbaa7087e44e
+ms.openlocfilehash: dd374cd12f4e3a041869d17157e7198445f99e69
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44579167"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780515"
 ---
 # <a name="how-to-sign-up---admin-help"></a>Aanmelden - Help voor beheerders
 
@@ -70,7 +70,7 @@ Bekijk een korte video over het kiezen van een Microsoft 365 voor bedrijfsplan.<
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Hulp nodig bij het kiezen? Er zijn verkoopadviseurs beschikbaar om uw vragen te beantwoorden. Ga gewoon naar [Alle producten vergelijken](https://products.office.com/compare-all-microsoft-office-products?tab=2) en kies een van de opties voor contactondersteuning aan de linkerkant van de pagina.
   
@@ -115,9 +115,9 @@ Je hoeft je proefperiode niet af te zeggen. Als u het proefabonnement niet koopt
 
 - **De adres- en contactgegevens voor uw abonnement:**
 
-  - **Land** waar de services worden gebruikt. U kunt dit later **niet** meer wijzigen, zelfs niet tijdens de registratieprocedure. U moet de wizard dan helemaal opnieuw uitvoeren.
+  - **Country** where the services will be used. You **won't** be able to change this later, even during the sign up process; you'll have to re-start the sign up wizard.
 
-  - **E-mailadres** en **telefoonnummer**, zodat we indien nodig contact met u kunnen opnemen over uw abonnement. Als u bijvoorbeeld uw wachtwoord bent vergeten, gebruiken we deze informatie om u een tijdelijk wachtwoord te sturen. Daarnaast sturen we uw factureringsgegevens naar het opgegeven e-mailadres.
+  - **Email** and **phone number** so we can contact you if needed about your subscription. For example, if you forget your password, we would use this information to send you a temporary one. We also send your billing information to the email address you specify.
 
     > [!NOTE]
     > Het e-mailadres dat u hier invoert, verschilt van uw Microsoft 365-e-mailadres (uw aanmeldingsnaam hieronder). Omdat uw factureringsgegevens ook naar dit e-mailadres worden verzonden, raden we u aan een e-mailadres te gebruiken dat geschikt is voor het ontvangen van zakelijke e-mail.
@@ -137,4 +137,4 @@ Je hoeft je proefperiode niet af te zeggen. Als u het proefabonnement niet koopt
 
 ## <a name="see-also"></a>Zie ook
 
-[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

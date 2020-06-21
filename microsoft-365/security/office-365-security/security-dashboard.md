@@ -15,17 +15,19 @@ search.appverid:
 ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
+ms.custom:
+- seo-marvel-apr2020
 description: Gebruik het nieuwe beveiligingsdashboard om de status van office 365-bedreigingsbeveiliging te controleren en beveiligingswaarschuwingen weer te geven en erop te reageren.
-ms.openlocfilehash: 6aedc0e499a489d7526737700ecc76deab9e6e32
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 3df48685e8068fd80baa4952753a1925fb237422
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679130"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819446"
 ---
 # <a name="security-dashboard"></a>Beveiligingsdashboard
 
-## <a name="overview"></a>Overzicht
+## <a name="basic-functions-and-how-to-open-security-dashboard"></a>Basisfuncties en hoe u Beveiligingsdashboard opent
 
 Met [het Security & Compliance Center](../../compliance/go-to-the-securitycompliance-center.md) kan uw organisatie gegevensbescherming en -naleving beheren. Ervan uitgaande dat u over de benodigde machtigingen beschikt, u met het beveiligingsdashboard uw status van bedreigingsbeveiliging bekijken en beveiligingswaarschuwingen bekijken en ernaar handelen.
 

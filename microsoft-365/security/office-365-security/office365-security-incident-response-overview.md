@@ -1,5 +1,5 @@
 ---
-title: Reactie op beveiligingsincidenten
+title: Reactie van beveiligingsincidenten
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,35 +15,37 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-description: Deze oplossing vertelt u hoe de meest voorkomende cyberbeveiligingsaanvallen eruit kunnen zien in Microsoft 365 en hoe u daarop reageren
-ms.openlocfilehash: 4c5713a0689dae07fe5300c04754d77912f53976
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Deze oplossing vertelt u hoe de meest voorkomende cyberbeveiligingsaanvallen eruit kunnen zien in Microsoft 365 en hoe u hierop reageren
+ms.custom:
+- seo-marvel-apr2020
+ms.openlocfilehash: c6f5087799a0e3a06d0849f99e9911cf77260e1b
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634506"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818793"
 ---
-# <a name="security-incident-response"></a>Reactie op beveiligingsincidenten
+# <a name="security-incident-response"></a>Reactie van beveiligingsincidenten
 
- **Samenvatting:** Deze oplossing vertelt u wat de indicatoren zijn voor de meest voorkomende cyberbeveiligingsaanvallen in Office 365, hoe u een bepaalde aanval positief bevestigen en hoe u erop reageren.
+ **Samenvatting:** Deze oplossing vertelt u wat de indicatoren zijn voor de meest voorkomende cyberbeveiligingsaanvallen in Office 365, hoe u een bepaalde aanval positief bevestigen en hoe u hierop reageren.
 
-## <a name="overview"></a>Overzicht
+## <a name="learn-how-to-respond-to-cyberattacks"></a>Meer informatie over hoe te reageren op cyberaanvallen
 
 Niet alle cyberaanvallen kunnen worden gedwarsboomd. Aanvallers zijn voortdurend op zoek naar nieuwe zwakke punten in uw defensieve strategie of ze zijn het benutten van oude. Als u weet hoe u een aanval herkennen, u er sneller op reageren, waardoor de duur van het beveiligingsincident wordt verkort.
 
-Met deze reeks artikelen u begrijpen hoe een bepaald type aanval eruit zou kunnen zien in Microsoft 365 en u stappen ondernemen om te reageren. Ze zijn snelle toegangspunten tot begrip:
+Met deze serie artikelen u begrijpen hoe een bepaald type aanval er in Microsoft 365 uit kan zien en krijgt u stappen die u nemen om te reageren. Ze zijn snelle toegangspunten om te begrijpen:
 
 - Wat de aanval is en hoe het werkt.
 
-- Welke tekenen, zogenaamde indicatoren van compromis (IOC), te zoeken naar en hoe te zoeken naar hen.
+- Welke tekenen, de zogenaamde indicatoren van compromis (IOC), om te zoeken naar en hoe ze te zoeken.
 
 - Hoe de aanval positief te bevestigen.
 
-- Stappen die u moet ondernemen om de aanval af te snijden en uw organisatie in de toekomst beter te beschermen.
+- Stappen te nemen om de aanval af te snijden en uw organisatie in de toekomst beter te beschermen.
 
 - Links naar diepgaande informatie over elk aanvalstype.
 
-Check terug hier maandelijks als meer artikelen zullen worden toegevoegd in de tijd.
+Check hier maandelijks terug als meer artikelen zullen worden toegevoegd na verloop van tijd.
 
 ## <a name="detect-and-remediate-articles"></a>Artikelen detecteren en herstellen
 
@@ -55,9 +57,9 @@ Check terug hier maandelijks als meer artikelen zullen worden toegevoegd in de t
 
 - [Reageren op een gehackt e-mailaccount in Office 365](responding-to-a-compromised-email-account.md)
 
-## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Beveilig Microsoft 365 als een cybersecurity pro
+## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Microsoft 365 beveiligen als een cybersecurity pro
 
-Uw Microsoft 365-abonnement wordt geleverd met een krachtige set beveiligingsmogelijkheden die u gebruiken om uw gegevens en uw gebruikers te beschermen.  Gebruik de [microsoft 365-beveiligingsroadmap - Topprioriteiten voor de eerste 30 dagen, 90 dagen en daarna](security-roadmap.md) om de aanbevolen aanbevolen aanbevolen microsoft-aanbevolen procedures voor het beveiligen van uw Microsoft 365-organisatie te implementeren.
+Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkheden die u kunt gebruiken om uw gegevens en gebruikers te beschermen.  Use the [Microsoft 365 security roadmap - Top priorities for the first 30 days, 90 days, and beyond](security-roadmap.md) to implement Microsoft recommended best practices for securing your Microsoft 365 organization.
 
 - Taken die in de eerste 30 dagen moeten worden uitgevoerd.  Deze hebben direct effect en weinig invloed op uw gebruikers.
 

@@ -21,12 +21,12 @@ description: Het Microsoft 365-beheercentrum - meer informatie over de functies 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 4e4d47b054b5c6371bb62a3fe0f52c08b0997498
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: d0c32c7f7ac3b2824cd48c0e10085e3d59a16c69
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44587578"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780705"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe in het Microsoft 365-beheercentrum
 
@@ -79,7 +79,7 @@ We hebben een aantal nieuwe Azure Active Directory-beheerdersrollen toegevoegd a
 
 We hebben van veel beheerders gehoord dat ze informatie over groepen en het gebruik ervan moeten delen met mensen die geen toegang hebben tot de beheercentra. U de lijst Groepen nu exporteren naar een CSV-bestand voor controledoeleinden, wat betekent dat u dat oude PowerShell-script weggooien. Als u het wilt **Groups**uitproberen, gaat u naar  >  **Groepengroepen**en selecteert u **Groepen exporteren** op de opdrachtbalk.
 
-### <a name="microsoft-365-solution-and-architecture-center"></a>Microsoft 365-oplossing en architectuurcentrum
+### <a name="microsoft-365-solution-and-architecture-center"></a>Microsoft 365-oplossings- en architectuurcentrum
 
 Nog deze maand hebben we een nieuwe site uitgebracht op [https://docs.microsoft.com](https://docs.microsoft.com) de [Microsoft 365-oplossing en het architectuurcentrum,](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center)die de technische richtlijnen samenbrengt die u nodig hebt om geïntegreerde Microsoft 365-oplossingen te begrijpen, te plannen en te implementeren voor veilige en compatibele samenwerking. In dit centrum vindt u:
 
@@ -153,19 +153,19 @@ We hebben deze maand twee updates voor groepen:
 
 #### <a name="for-your-users"></a>Voor uw gebruikers
 
-- [Een vergadering plannen](https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a)
-- [Deelnemen aan een Teams-vergadering](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
-- [Een organisatiebreed team maken](https://support.office.com/article/create-a-company-wide-team-037bb27a-bcc9-48fe-8d72-44d9482420a3)
-- [Een team met gasten maken](https://support.office.com/article/create-a-team-with-guests-11fbb083-52ee-434d-8c6e-63711fdafac7)
-- [Word lid van een team als gast](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [Een groepse-mailadres maken](https://support.office.com/article/create-a-company-email-address-ded875f9-a9de-437f-b559-2ae4f235bb2b)
+- [Een vergadering plannen](https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a)
+- [Deelnemen aan een Teams-vergadering](https://support.microsoft.com/office/078e9868-f1aa-4414-8bb9-ee88e9236ee4)
+- [Een organisatiebreed team maken](https://support.microsoft.com/office/037bb27a-bcc9-48fe-8d72-44d9482420a3)
+- [Een team met gasten maken](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7)
+- [Word lid van een team als gast](https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824)
+- [Een groepse-mailadres maken](https://support.microsoft.com/office/ded875f9-a9de-437f-b559-2ae4f235bb2b)
 
 #### <a name="for-admins-and-business-owners"></a>Voor beheerders en ondernemers
 
-- [Geef uw kleine bedrijf werk op afstand kracht bij het werk op afstand](https://support.office.com/article/empower-your-small-business-with-remote-work-9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
-- [Het runnen van een klein bedrijf op afstand](https://support.office.com/article/sign-up-for-a-microsoft-subscription-9ac1a0f1-789b-4143-b954-5821d5d89298)
-- [Aanmelden voor Microsoft Business Basic](https://support.office.com/article/sign-up-for-a-microsoft-subscription-9ac1a0f1-789b-4143-b954-5821d5d89298)
-- [Aanmelding met twee factoren instellen](https://support.office.com/article/sign-up-for-a-microsoft-subscription-9ac1a0f1-789b-4143-b954-5821d5d89298)
+- [Geef uw kleine bedrijf werk op afstand kracht bij het werk op afstand](https://support.microsoft.com/office/9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
+- [Het runnen van een klein bedrijf op afstand](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
+- [Aanmelden voor Microsoft Business Basic](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
+- [Aanmelding met twee factoren instellen](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
 
 ## <a name="march-2020"></a>Maart 2020
 
@@ -276,12 +276,12 @@ De lijst Met resourcepostvakken is bijgewerkt naar de nieuwe stijl. Ga in het Mi
 
 Bekijk de training voor beheerders voor kleine bedrijven die we in januari hebben uitgebracht:
 
-- [Uw bedrijfswebsite maken](https://support.office.com/article/3325d50e-d131-403c-a278-7f3296fe33a9)
-- [Antwoorden en hulp vinden](https://support.office.com/article/7f681212-c649-4a3e-a43b-32b1d1e58988)
-- [Hulp of ondersteuning krijgen](https://support.office.com/article/18948a4c-3eb1-4b30-b1bc-a4cc29eb7655)
-- [Een gebruiker verwijderen](https://support.office.com/article/6bcdad7b-732a-4260-997a-8c176bc3d9d6)
-- [Een Microsoft-abonnement kiezen](https://support.office.com/article/b9f7c78e-430f-4117-89ec-2eeb1dced2ca)
-- [Overzicht van Microsoft 365 voor bedrijfsbeveiliging](https://support.office.com/article/3274b159-a825-46d7-9421-7d6e209389d1)
+- [Uw bedrijfswebsite maken](https://support.microsoft.com/office/3325d50e-d131-403c-a278-7f3296fe33a9)
+- [Antwoorden en hulp vinden](https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988)
+- [Hulp of ondersteuning krijgen](https://support.microsoft.com/office/18948a4c-3eb1-4b30-b1bc-a4cc29eb7655)
+- [Een gebruiker verwijderen](https://support.microsoft.com/office/6bcdad7b-732a-4260-997a-8c176bc3d9d6)
+- [Een Microsoft-abonnement kiezen](https://support.microsoft.com/office/b9f7c78e-430f-4117-89ec-2eeb1dced2ca)
+- [Overzicht van Microsoft 365 voor bedrijfsbeveiliging](https://support.microsoft.com/office/3274b159-a825-46d7-9421-7d6e209389d1)
 
 ## <a name="november-and-december-2019"></a>November en december 2019
 

@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Meer informatie over het beveiligen van Windows 10-pc's nadat u Microsoft 365 Business Premium hebt ingesteld.
-ms.openlocfilehash: 5d5dda9c1faa7d50063c9b2b05bd938c67b54a76
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: f18447db445bf051a44b99053d41e10f3ed34fc3
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470609"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785794"
 ---
 # <a name="secure-windows-10-computers"></a>Windows 10-computers beveiligen
 
@@ -39,7 +39,7 @@ Bekijk deze video voor een overzicht van hoe u beleid instelt om uw Windows 10-c
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4kcAF] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="to-secure-your-windows-10-pcs"></a>Uw Windows 10-pc's beveiligen
 

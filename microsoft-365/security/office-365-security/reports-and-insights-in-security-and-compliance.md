@@ -16,14 +16,14 @@ search.appverid:
 ms.assetid: e3e95f68-36e9-4256-bcca-78fe7fe5ea5d
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over de slimme rapporten en inzichten die beschikbaar zijn in het Security and Compliance Center, en hoe u ze gebruiken om gegevens te bekijken en te verkennen en snelle acties te ondernemen.
+description: Meer informatie over de slimme rapporten en inzichten die beschikbaar zijn in het Security &amp; Compliance Center en hoe u ze gebruiken om gegevens te bekijken en te verkennen en snelle acties te ondernemen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fc969dd9bbcbe049f4fcd065ef9caed51c52fac6
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: c5d159371ba7cd2f43cf0782ba66e71b51ca2ad1
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617306"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819495"
 ---
 # <a name="smart-reports-and-insights-in-the-security-amp-compliance-center"></a>Slimme rapporten en inzichten in het Security &amp; Compliance Center
 
@@ -45,12 +45,12 @@ Een breed scala aan rapporten zijn beschikbaar in het Security &amp; Compliance 
 |:-----|:-----|:-----|
 |**Beveiliging &amp; Rapporten van het Compliance Center** (helemaal omhoog)  <br/> Topinzichten en aanbevelingen en koppelingen naar Security &amp; Compliance-rapporten, waaronder rapporten over preventie van gegevensverlies, labels, e-mailbeveiligingsrapporten, geavanceerde bedreigingsbeveiligingsrapporten en meer  <br/> |Ga in het Security &amp; Compliance Center naar Dashboard **Rapporten** \> **Dashboard** <br/> |[Rapporten controleren en weergeven in het Microsoft 365-beveiligingscentrum](../mtp/monitoring-and-reporting.md) <br/> |
 |**Preventie van gegevensverlies** <br/> Preventiebeleid voor gegevensverlies komt overeen, false positives en overschrijvingen en koppelingen om beleid te maken of te bewerken  <br/> |Ga in het Security &amp; Compliance Center naar het preventiebeleid voor **gegevensverlies** \> **Policy** <br/> |[Bekijk de rapporten voor preventie van gegevensverlies](../../compliance/view-the-dlp-reports.md) <br/> |
-|**Gegevensbeheer** <br/> Informatie over hoe labels worden toegepast, labels die zijn geclassificeerd als records, labeltrends en meer  <br/> |Ga in het Security &amp; Compliance Center naar Dashboard **Informatiebeheer** \> **Dashboard** <br/> |[De gegevensgovernancerapporten weergeven](../../compliance/view-the-data-governance-reports.md) <br/> |
+|**Gegevensbeheer** <br/> Informatie over hoe labels worden toegepast, labels die zijn geclassificeerd als records, labeltrends en meer  <br/> |Ga in het Security &amp; Compliance Center naar Dashboard **Informatiebeheer** \> **Dashboard** <br/> |[De gegevensbeheerrapporten weergeven](../../compliance/view-the-data-governance-reports.md) <br/> |
 |**Dashboard voor bedreigingsbeheer** (dit wordt ook wel het dashboard Beveiliging genoemd)  <br/> Bedreigingsdetecties, malwaretrends, topgerichte gebruikers, details over verzonden en ontvangen e-mailberichten en meer  <br/> |Ga in het Security &amp; Compliance Center naar Het Dashboard voor **bedreigingsbeheer** \> **Dashboard** <br/> |[Rapporten voor geavanceerde bedreigingsbeveiliging van Office 365 weergeven](view-reports-for-atp.md) <br/> |
 |**Threat explorer** (ook wel Explorer genoemd) of **Real-time detecties** <br/> Vermoedelijke malware ontdekt in e-mail en bestanden in Microsoft 365  <br/> |Ga in het Security &amp; Compliance Center naar Threat **management** \> **Explorer** of **Real-time detecties**<br/> |[Bedreigingsverkenner (of realtime detecties)](threat-explorer.md) <br/> |
 |**Geavanceerde beveiligingsrapporten voor bedreigingen en e-mail** <br/> Rapporten over e-mailbeveiliging en bedreigingsbeveiliging (inclusief meldingen over malware, spam, phishing en spoofing)  <br/> |Ga in het Security &amp; Compliance Center naar Dashboard **Rapporten** \> **Dashboard** <br/> |[Rapporten voor geavanceerde bedreigingsbeveiliging van Office 365 weergeven](view-reports-for-atp.md) <br/><br/> [E-mailbeveiligingsrapporten weergeven in het Security &amp; Compliance Center](view-email-security-reports.md) <br/> |
 |**E-mailstroom** <br/> Informatie over verzonden en ontvangen e-mailberichten, recente waarschuwingen, top afzenders en ontvangers, e-mail forwarding rapporten, en meer  <br/> |Ga in het Security &amp; Compliance Center naar Mail **flow** \> **Dashboard** <br/> |[Inzichten in de e-mailstroom in het Security & Compliance Center](mail-flow-insights-v2.md)<br/> |
-|**AVG naleving** <br/> Informatie over GDPR-compliance, inclusief links naar betrokkenen, labeltrends en actieve &amp; gesloten zaken  <br/> |Ga in het Security &amp; Compliance Center naar het DASHBOARD Van de privacy **Data privacy** \> **van** gegevens <br/> |[Office 365-informatiebescherming voor GDPR](https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr) <br/> |
+|**AVG naleving** <br/> Informatie over GDPR-compliance, inclusief links naar betrokkenen, labeltrends en actieve &amp; gesloten zaken  <br/> |Ga in het Security &amp; Compliance Center naar het DASHBOARD Van de privacy **Data privacy** \> **van** gegevens <br/> |[Office 365 Information Protection voor de AVG](https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr) <br/> |
 |**Controlelogboek** <br/> Informatie over Microsoft 365-activiteiten, gebruikers, bestanden of mappen en meer  <br/> |Ga in het Security &amp; Compliance Center naar Search ** &amp; investigation** \> **Audit log search** <br/> |[Zoek in het controlelogboek in het Security &amp; Compliance Center](../../compliance/search-the-audit-log-in-security-and-compliance.md) <br/> |
 |**Nalevingsrapporten** <br/> FedRAMP-rapporten, governance-, risico- en compliancerapporten, ISO-rapporten over informatiebeveiliging en audit- en beoordelingsrapporten van serviceorganisatie  <br/> |Ga in het Security &amp; Compliance Center naar Service **assurance** \> **Compliance-rapporten** <br/> |[Plannen voor &amp; naleving van beveiliging in Office 365](../../compliance/plan-for-security-and-compliance.md) <br/> |
   

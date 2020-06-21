@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Meer informatie over het verplaatsen van uw bedrijf naar Microsoft 365 Business Premium van Office 365 E3.
-ms.openlocfilehash: 6571fb3ba53620fbb8b97d8f5fd76832f95b82c3
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: d72f0c52a745ff973868b6fdaa95efa1a37a3dbd
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515897"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785926"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migreren van Office 365 E3 naar Microsoft 365 Business Premium 
 
@@ -117,8 +117,8 @@ U deze stappen ook uitvoeren op de pagina Apparaten:
 
 ### <a name="threat-protection"></a>Bedreigingsbeveiliging
 
-Nadat u bent gemigreerd naar Microsoft 365 Business Premium, hebt u Office 365 ATP. Zie [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) voor een overzicht. Zie [VEILIGE ATP-koppelingen instellen,](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa) [ATP-veilige bijlagen instellen](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)en [ATP-antiphishing instellen.](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c)
+Nadat u bent gemigreerd naar Microsoft 365 Business Premium, hebt u Office 365 ATP. Zie [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) voor een overzicht. Zie [VEILIGE ATP-koppelingen instellen,](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa) [ATP-veilige bijlagen instellen](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)en [ATP-antiphishing instellen.](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)
 
-### <a name="sensitivity-labels"></a>Gevoeligheidslabels
+### <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels
 
-Zie [Overzicht van gevoeligheidslabels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) en het maken en beheren van gevoeligheidslabels video als u wilt beginnen met het gebruik van [gevoeligheidslabels.](https://support.office.com/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9)
+Zie [Overzicht van gevoeligheidslabels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) en het maken en beheren van gevoeligheidslabels video als u wilt beginnen met het gebruik van [gevoeligheidslabels.](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9)

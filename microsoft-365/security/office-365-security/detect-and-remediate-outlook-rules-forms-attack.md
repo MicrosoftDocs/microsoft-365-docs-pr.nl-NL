@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Meer informatie over het herkennen en herstellen van de Outlook-regels en aangepaste formuliereninjectiesaanvallen in Office 365
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d8c4495715ef29e1d9b70b993d1216e80461cf7
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: f9b5551b8cbda85ac3940bc8f43ec2d7b7eccdb1
+ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613382"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44811048"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook-regels en aanvallen op aangepaste formulieren detecteren en herstellen
 
@@ -95,13 +95,13 @@ U een van deze twee methoden gebruiken om de aanval te bevestigen:
 
 - Bekijk handmatig de regels en formulieren voor elk postvak met de Outlook-client. Deze methode is grondig, maar u de gebruiker van het postvak slechts controleren op een tijdstip dat zeer tijdrovend kan zijn als u vele gebruikers hebt om te controleren. Het kan ook resulteren in een schending van de computer die u de controle uitvoert.
 
-- Gebruik het [PowerShell-script Get-AllTenantRulesAndForms.ps1](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1) om automatisch alle regels voor het doorsturen van e-mail en aangepaste formulieren te dumpen voor alle gebruikers in uw huurwoning. Dit is de snelste en veiligste methode met de minste hoeveelheid overhead.
+- Gebruik het [Get-AllTenantRulesAndForms.ps1](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1) PowerShell-script om automatisch alle regels voor het doorsturen van e-mail en aangepaste formulieren te dumpen voor alle gebruikers in uw huurperiode. Dit is de snelste en veiligste methode met de minste hoeveelheid overhead.
 
 ### <a name="confirm-the-rules-attack-using-the-outlook-client"></a>De regelsaanval bevestigen met de Outlook-client
 
 1. Open de Outlook-client voor gebruikers als gebruiker. De gebruiker kan uw hulp nodig hebben bij het onderzoeken van de regels op hun mailbox.
 
-2. Raadpleeg [E-mailberichten beheren door het](https://support.office.com/article/c24f5dea-9465-4df4-ad17-a50704d66c59) artikel regels te gebruiken voor de procedures voor het openen van de regelsinterface in Outlook.
+2. Raadpleeg [E-mailberichten beheren door het](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59) artikel regels te gebruiken voor de procedures voor het openen van de regelsinterface in Outlook.
 
 3. Zoek naar regels die de gebruiker niet heeft gemaakt, of onverwachte regels of regels met verdachte namen.
 
@@ -113,7 +113,7 @@ U een van deze twee methoden gebruiken om de aanval te bevestigen:
 
 1. Open de Outlook-client van de gebruiker als gebruiker.
 
-2. Volg de stappen in [Het tabblad Ontwikkelaars weergeven](https://support.office.com/article/e1192344-5e56-4d45-931b-e5fd9bea2d45) voor de gebruikersversie van Outlook.
+2. Volg de stappen in [Het tabblad Ontwikkelaars weergeven](https://support.microsoft.com/office/e1192344-5e56-4d45-931b-e5fd9bea2d45) voor de gebruikersversie van Outlook.
 
 3. Open het tabblad Nu zichtbaar ontwikkelaars in Outlook en klik op **een formulier ontwerpen**.
 
@@ -125,7 +125,7 @@ U een van deze twee methoden gebruiken om de aanval te bevestigen:
 
 ### <a name="steps-to-confirm-the-rules-and-forms-attack-using-powershell"></a>Stappen om de aanval regels en formulieren te bevestigen met PowerShell
 
-De eenvoudigste manier om een aanval op regels of aangepaste formulieren te verifiëren, is door het [PowerShell-script Get-AllTenantRulesAndForms.ps1 uit](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1) te voeren. Dit script maakt verbinding met elk postvak in uw tenant en dumpt alle regels en formulieren in twee CSV-bestanden.
+De eenvoudigste manier om een regels- of aangepaste formulierenaanval te verifiëren, is door het [Get-AllTenantRulesAndForms.ps1](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1) PowerShell-script uit te voeren. Dit script maakt verbinding met elk postvak in uw tenant en dumpt alle regels en formulieren in twee CSV-bestanden.
 
 #### <a name="pre-requisites"></a>Pre-requirementsen
 
@@ -133,11 +133,11 @@ U moet een globale beheerdersrechten hebben om het script uit te voeren, omdat h
 
 1. Meld u aan bij de machine waarvan u het script uitvoert met lokale beheerdersrechten.
 
-2. Download of kopieer het Get-AllTenantRulesAndForms.ps1-script van GitHub naar een map van waaruit u het uitvoert. Het script maakt twee datumstempelbestanden naar deze map, MailboxFormsExport-yyyy-mm-dd.csv en MailboxRulesExport-yyyy-mm-dd.csv.
+2. Download of kopieer het Get-AllTenantRulesAndForms.ps1 script van GitHub naar een map van waaruit u het uitvoert. In het script worden twee datumstempelbestanden naar deze map gemaakt, MailboxFormsExport-yyyy-mm-dd.csv en MailboxRulesExport-yyyy-mm-dd.csv.
 
 3. Open een PowerShell-instantie als beheerder en open de map waarop u het script hebt opgeslagen.
 
-4. Voer deze PowerShell-opdrachtregel als volgt `.\Get-AllTenantRulesAndForms.ps1` uit .\Get-AllTenantRulesAndForms.ps1
+4. Voer deze PowerShell-opdrachtregel als volgt `.\Get-AllTenantRulesAndForms.ps1` uit.\Get-AllTenantRulesAndForms.ps1
 
 #### <a name="interpreting-the-output"></a>De uitvoer interpreteren
 
@@ -159,7 +159,7 @@ Als u enig bewijs van een van deze aanvallen, herstel is eenvoudig, verwijder ge
 
 1. Identificeer alle apparaten die de gebruiker met Outlook heeft gebruikt. Ze zullen allemaal moeten worden gereinigd van potentiële malware. Sta de gebruiker niet toe om zich aan te melden en e-mail te gebruiken totdat alle apparaten zijn schoongemaakt.
 
-2. Volg de stappen in [Een regel verwijderen](https://support.microsoft.com/en-us/office/delete-a-rule-2f0e7139-f696-4422-8498-44846db9067f) voor elk apparaat.
+2. Volg de stappen in [Een regel verwijderen](https://support.microsoft.com/office/2f0e7139-f696-4422-8498-44846db9067f) voor elk apparaat.
 
 3. Als u niet zeker bent over de aanwezigheid van andere malware, u alle software op het apparaat opmaken en opnieuw installeren. Voor mobiele apparaten u de stappen van de fabrikant volgen om het apparaat terug te zetten naar de fabrieksafbeelding.
 
@@ -177,7 +177,7 @@ Er zijn twee externe PowerShell-cmdlets die u gebruiken om gevaarlijke regels te
 
 2. Als u één regel, meerdere regels of alle regels uit een postvak volledig wilt verwijderen, gebruikt u de cmdlet [Remove-InboxRule.](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule)
 
-3. Als u de regel en de inhoud ervan wilt behouden voor verder onderzoek, gebruikt u de cmdlet [Uitschakelen-InboxRule.](https:https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule/library/dd298120(v=exchg.160).aspx)
+3. Als u de regel en de inhoud ervan wilt behouden voor verder onderzoek, gebruikt u de cmdlet [Uitschakelen-InboxRule.](https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule)
 
 #### <a name="steps-for-mailboxes-in-exchange-online"></a>Stappen voor postvakken in Exchange Online
 
@@ -185,7 +185,7 @@ Er zijn twee externe PowerShell-cmdlets die u gebruiken om gevaarlijke regels te
 
 2. Als u één regel, meerdere regels of alle regels uit een postvak volledig wilt verwijderen, gebruikt u de cmdlet [Regel verwijderen in postvak UIT.](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule)
 
-3. Als u de regel en de inhoud ervan wilt behouden voor verder onderzoek, gebruikt u de cmdlet [Uitschakelen-InboxRule.](https:https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule/library/dd298120(v=exchg.160).aspx)
+3. Als u de regel en de inhoud ervan wilt behouden voor verder onderzoek, gebruikt u de cmdlet [Uitschakelen-InboxRule.](https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule)
 
 ## <a name="how-to-minimize-future-attacks"></a>Toekomstige aanvallen minimaliseren
 
@@ -207,7 +207,7 @@ De beste manier om uw gebruikersaccounts te beschermen, en met name uw beheerder
 
 ### <a name="second-keep-your-outlook-clients-current"></a>Ten tweede: houd uw Outlook-clients actueel
 
-Volledig bijgewerkte en gepatchte versies van Outlook 2013 en 2016 schakelt u standaard de regel/formulieractie 'Toepassing starten' uit. Dit zorgt ervoor dat, zelfs als een aanvaller het account overtreedt, de regel- en formulieracties worden geblokkeerd. U de nieuwste updates en beveiligingspatches installeren door de stappen in [Office-updates installeren te](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)volgen.
+Volledig bijgewerkte en gepatchte versies van Outlook 2013 en 2016 schakelt u standaard de regel/formulieractie 'Toepassing starten' uit. Dit zorgt ervoor dat, zelfs als een aanvaller het account overtreedt, de regel- en formulieracties worden geblokkeerd. U de nieuwste updates en beveiligingspatches installeren door de stappen in [Office-updates installeren te](https://support.microsoft.com/office/2ab296f3-7f03-43a2-8e50-46de917611c5)volgen.
 
 Dit zijn de patchversies voor uw Outlook 2013- en 2016-clients:
 
@@ -225,7 +225,7 @@ Zie voor meer informatie over de afzonderlijke beveiligingspatches:
 
 Houd er rekening mee dat zelfs met de geïnstalleerde patches en updates, het mogelijk is voor een aanvaller om de lokale machineconfiguratie te wijzigen om het gedrag 'Toepassing starten' opnieuw in te schakelen. U [Geavanceerd groepsbeleidsbeheer](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm/) gebruiken om het lokale machinebeleid voor uw klanten te controleren en af te dwingen.
 
-U zien of 'Toepassing starten' opnieuw is ingeschakeld via een overschrijving in het register met behulp van de informatie in [Hoe het systeemregister bekijken met behulp van 64-bits versies van Windows.](https://support.microsoft.com/help/305097/how-to-view-the-system-registry-by-using-64-bit-versions-of-windows) Controleer deze subsleutels:
+U zien of 'Toepassing starten' opnieuw is ingeschakeld via een overschrijving in het register met behulp van de informatie in [Hoe het systeemregister bekijken met behulp van 64-bits versies van Windows.](https://support.microsoft.com/help/305097) Controleer deze subsleutels:
 
 - **Outlook 2016**:`HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Security\`
 

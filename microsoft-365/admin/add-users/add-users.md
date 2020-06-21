@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1970f7d6-03b5-442f-b385-5880b9c256ec
 description: Meer informatie over het toevoegen van gebruikers aan Microsoft 365, één voor één of meerdere gebruikers tegelijk vanuit een CSV-bestand.
-ms.openlocfilehash: af4fead3112a678b1ee7eacb087dddc40ed43d36
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: af160b78317171bec98dcfa3d5877b53560f75a2
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432121"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780659"
 ---
 # <a name="add-users-individually-or-in-bulk"></a>Gebruikers afzonderlijk of in bulk toevoegen
 
@@ -80,11 +80,11 @@ De mensen in uw team hebben elk een gebruikersaccount nodig voordat ze zich kunn
     
 - **Wachtwoord** Gebruik het automatisch gegenereerde wachtwoord of vouw deze sectie uit om een sterk wachtwoord voor de gebruiker op te geven. 
     
-    Gebruikers moeten hun wachtwoord na 90 dagen wijzigen. U kunt ook de optie **Laat deze persoon zijn wachtwoord wijzigen bij de volgende aanmelding** inschakelen.
+    They'll need to change their password after 90 days. Or you can choose to **Make this user change their password when they first sign in**.
     
 - **Rollen** Vouw deze sectie uit als u van deze gebruiker een beheerder wilt maken. 
     
-- **Productlicenties** Vouw deze sectie uit en selecteer de juiste licentie. Als u geen beschikbare licenties hebt, kunt u nog steeds een gebruiker toevoegen en extra licenties kopen. 
+- **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses. 
 
 ::: moniker-end
 
@@ -105,11 +105,11 @@ De mensen in uw team hebben elk een gebruikersaccount nodig voordat ze zich kunn
     
 - **Wachtwoord** Gebruik het automatisch gegenereerde wachtwoord of vouw deze sectie uit om een sterk wachtwoord voor de gebruiker op te geven. 
     
-    Gebruikers moeten hun wachtwoord na 90 dagen wijzigen. U kunt ook de optie **Laat deze persoon zijn wachtwoord wijzigen bij de volgende aanmelding** inschakelen.
+    They'll need to change their password after 90 days. Or you can choose to **Make this user change their password when they first sign in**.
     
 - **Rollen** Vouw deze sectie uit als u van deze gebruiker een beheerder wilt maken. 
     
-- **Productlicenties** Vouw deze sectie uit en selecteer de juiste licentie. Als u geen beschikbare licenties hebt, kunt u nog steeds een gebruiker toevoegen en extra licenties kopen. 
+- **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses. 
 
 ::: moniker-end 
   
@@ -124,7 +124,7 @@ Nadat u een gebruiker toevoegt, krijgt u een e-mailmelding van het team van Micr
   
 ## <a name="next-steps"></a>Volgende stappen
 
-Deel de handleiding [Aan de slag voor werknemers](https://support.office.com/article/b9700090-ce64-4046-ab92-ce8488a7bc0f.aspx) met uw nieuwe gebruikers voor het instellen van dingen als [Office op een pc of Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx) en [mobiele Office-apps](https://support.office.com/article/7dabb6cb-0046-40b6-81fe-767e0b1f014f.aspx).
+Deel de handleiding [Aan de slag voor werknemers](https://support.microsoft.com/office/b9700090-ce64-4046-ab92-ce8488a7bc0f) met uw nieuwe gebruikers voor het instellen van dingen als [Office op een pc of Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) en [mobiele Office-apps](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f).
   
 ## <a name="need-help"></a>Hulp nodig?
 
@@ -144,6 +144,8 @@ Volg deze stappen om meerdere gebruikers tegelijkertijd toe te voegen:
 - **Migreert u vanuit Exchange?** [Manieren om meerdere e-mailaccounts naar Office 365 te migreren](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration). Wanneer u meerdere postvakken naar Microsoft 365 migreert met behulp van cutover, gefaseerde of een hybride Exchange-methode, voegt u gebruikers automatisch toe als onderdeel van de migratie. Tijdens de migratie worden alleen de gebruikersaccounts toegevoegd. U moet licenties toewijzen aan de gebruikers voordat ze e-mail en andere Office-apps kunnen gebruiken.
 
 ## <a name="related-articles"></a>Verwante artikelen
+
+[Licenties toewijzen aan gebruikers](../manage/assign-licenses-to-users.md)
 
 [Een nieuwe werknemer toevoegen aan Microsoft 365](add-new-employee.md)
 

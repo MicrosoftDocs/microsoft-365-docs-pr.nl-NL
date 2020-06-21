@@ -10,30 +10,32 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
-description: Beheerders kunnen meer te weten komen over het niet-geaccepteerde domeinrapport in het dashboard van de e-mailstroom in het Beveiligings- & Compliance Center.
-ms.openlocfilehash: 64bf572db90b44512ca72aec5733a99373d8f53f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Beheerders kunnen meer te weten komen over het niet-geaccepteerde domeinrapport in het e-mailstroomdashboard in het Security & Compliance Center.
+ms.openlocfilehash: a630d5b9674dbb136ecc54b23acd4408534d6fbc
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635278"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819519"
 ---
 # <a name="non-accepted-domain-report"></a>Rapport over niet-geaccepteerd domein
 
-Net als bij het domeininzicht **Afzender** identificeert het **niet-geaccepteerde domeininzicht** berichten van uw on-premises e-mailorganisatie, maar het domein van de afzender is niet geconfigureerd als geaccepteerd domein in uw organisatie.
+Net als bij het inzicht in het **domein van** de afzender identificeert het **niet-geaccepteerde domeininzicht** berichten van uw on-premises e-mailorganisatie, maar het domein van de afzender is niet geconfigureerd als een geaccepteerd domein in uw organisatie.
 
-Microsoft 365 kan deze berichten beperken als we gegevens hebben om te bewijzen dat de bedoeling van deze berichten kwaadaardig is. Daarom is het belangrijk voor u om te begrijpen wat er gebeurt en om het probleem op te lossen.
+Microsoft 365 kan deze berichten beperken als we gegevens hebben om te bewijzen dat de bedoeling van deze berichten schadelijk is. Daarom is het belangrijk dat u begrijpt wat er gebeurt en het probleem oplost.
 
-![Het niet-geaccepteerde domeinrapport in het dashboard van de e-mailstroom in het Security & Compliance Center](../../media/non-accepted-domain-report-selected.png)
+![Het niet-geaccepteerde domeinrapport in het e-mailstroomdashboard in het Security & Compliance Center](../../media/non-accepted-domain-report-selected.png)
 
-Wanneer u op de widget klikt, wordt u naar het volledige rapport gebracht. Klik in het volledige rapport op **Details weergeven** om de informatie in een tabel weer te geven zoals in het volgende diagram:
+Wanneer u op de widget klikt, wordt u naar het volledige rapport gebracht. In het volledige rapport, waar u op **Details weergeven** klikken om de informatie in een tabel weer te geven, zoals weergegeven in het volgende diagram:
 
-![Detailstabel weergeven in het niet-geaccepteerde domeinrapport](../../media/non-accepted-domain-report-view-details.png)
+![Tabel Details weergeven in het niet-geaccepteerde domeinrapport](../../media/non-accepted-domain-report-view-details.png)
 
-Wanneer u een rij in de tabel selecteert, toont een flyout u meer details. U op **Voorbeeldberichten weergeven klikken** om een aantal geïdentificeerde berichten te bekijken.
+Wanneer u een rij in de tabel selecteert, ziet u in een flyout meer details. U op **voorbeeldberichten weergeven** om enkele geïdentificeerde berichten weer te geven.
 
-![Een rij selecteren in de detailstabel in het niet-geaccepteerde domeinrapport](../../media/non-accepted-domain-report-select-row-in-table.png)
+![Een rij selecteren in de tabel Details in het niet-geaccepteerde domeinrapport](../../media/non-accepted-domain-report-select-row-in-table.png)
 
-## <a name="see-also"></a>Zie ook
+## <a name="related-topics"></a>Verwante onderwerpen
 
-Zie Inzicht in [e-mailstroom in het Security & Compliance Center](mail-flow-insights-v2.md)voor meer informatie over andere e-mailstroominzichten in het dashboard voor e-mailstromen.
+Zie [E-mailstroominzichten in het Security & Compliance Center](mail-flow-insights-v2.md)voor meer informatie over andere e-mailstroominzichten in het dashboard voor e-mailstromen.

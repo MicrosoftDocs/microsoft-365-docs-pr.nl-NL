@@ -1,5 +1,5 @@
 ---
-title: Dynamische levering en previewing met veilige ATP-bijlagen
+title: Dynamische levering en previewing met ATP Safe Attachments
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -18,16 +18,16 @@ ms.collection:
 - M365-security-compliance
 description: Wanneer u uw ATP-beleid voor veilige bijlagen instelt, kiest u Dynamische bezorging om berichtvertragingen te voorkomen en personen in staat te stellen een voorbeeld van bijlagen te bekijken die worden gescand.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c30803efd2dafedd6d988de5374f08bd61f7d2a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: b22112617ecba191c7ee8d7daab0de3cde1bf8c3
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034790"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819350"
 ---
-# <a name="dynamic-delivery-and-previewing-with-atp-safe-attachments"></a>Dynamische levering en previewing met veilige ATP-bijlagen
+# <a name="dynamic-delivery-and-previewing-with-atp-safe-attachments"></a>Dynamische levering en previewing met ATP Safe Attachments
 
-## <a name="overview"></a>Overzicht
+## <a name="basic-features-of-dynamic-delivery"></a>Basisfuncties van Dynamic Delivery
 
 Dynamische bezorging is een optie die kan worden geselecteerd voor de [veilige bijlagen van ATP. Lees dit artikel om meer te weten te komen over de mogelijkheden van Dynamische bezorging en bijlagenvoorbeeld in [veilige bijlagen van ATP in Office 365](atp-safe-attachments.md).
 
@@ -39,16 +39,16 @@ Dynamische bezorging elimineert e-mailvertragingen door de hoofdtekst van een e-
 
 - Nadat een bijlage is gescand, is deze beschikbaar om te openen of te downloaden.
 
-- Als wordt vastgesteld dat een bijlage schadelijk is, wordt deze naar quarantaine verzonden, waar iemand in het beveiligingsteam van uw organisatie (zoals een globale beheerder of beveiligingsbeheerder) [in quarantaine geplaatste berichten in Office 365](manage-quarantined-messages-and-files.md)kan beheren.
+- Als wordt vastgesteld dat een bijlage kwaadaardig is, wordt deze naar quarantaine verzonden, waarbij iemand in het beveiligingsteam van uw organisatie (zoals een globale beheerder of beveiligingsbeheerder) in quarantaine geplaatste berichten kan [beheren in Office 365.](manage-quarantined-messages-and-files.md)
 
 De meeste PDF-bestanden en Office-documenten kunnen worden weergegeven in de veilige modus terwijl er met ATP wordt gescand. Als een bijlage niet compatibel is met de voorbeeldweergave voor dynamische bezorging, zien geadresseerden van e-mailberichten een tijdelijke aanduiding voor bijlagen, totdat het scannen van de veilige bijlagen is voltooid.
 
 > [!TIP]
-> Als u een mobiel apparaat gebruikt en PDF's worden in eerste instantie niet weergegeven in Dynamic Delivery previewer, probeert u zich aan te melden met uw mobiele browser.
+> Als u een mobiel apparaat gebruikt en PDF's worden in het begin niet weergegeven in de dynamic delivery-previewer, u zich aanmelden met uw mobiele browser.
 
 Met dynamische bezorging kunnen personen hun e-mailberichten meteen lezen en beantwoorden, terwijl hun bijlagen worden geanalyseerd.
 
-Het scannen van ATP-bijlagen vindt plaats in dezelfde regio waar uw Microsoft 365-gegevens zich bevinden. Voor meer informatie over de geografie in datacenters raadpleegt u [waar bevinden uw gegevens zich?](https://products.office.com/where-is-your-data-located?geo=All)
+ATP Safe Attachments scannen vindt plaats in dezelfde regio waar uw Microsoft 365-gegevens zich bevinden. Voor meer informatie over de geografie in datacenters raadpleegt u [waar bevinden uw gegevens zich?](https://products.office.com/where-is-your-data-located?geo=All)
 
 ## <a name="what-happens-when-someone-forwards-an-email-that-contains-an-attachment"></a>Wat gebeurt er als iemand een e-mailbericht met een bijlage doorstuurt?
 
@@ -80,7 +80,7 @@ Er zijn bepaalde scenario's waarin dynamische bezorging niet wordt ondersteund. 
 
 - De zoekmap van een gebruikerspostvak met een foutstatus
 
-- Omgevingen waarin een Exchange Online-beheerder Exclaimer heeft ingeschakeld. Als u dit probleem wilt oplossen, raadpleegt u [berichten met bijlagen worden niet bezorgd als ATP dynamische bezorging en Exclaimer worden gebruikt.](https://support.microsoft.com/help/4014438/messages-with-attachments-are-not-delivered-when-atp-dynamic-delivery)
+- Omgevingen waarin een Exchange Online-beheerder Exclaimer heeft ingeschakeld. Als u dit probleem wilt oplossen, raadpleegt u [berichten met bijlagen worden niet bezorgd als ATP dynamische bezorging en Exclaimer worden gebruikt.](https://support.microsoft.com/help/4014438)
 
 - Berichten die zijn versleuteld met [S/MIME (Secure/Multipurpose Internet Mail Extensions)](s-mime-for-message-signing-and-encryption.md)
 

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: Meer informatie over het bewaren van de bestanden en e-mails van een werknemer wanneer de persoon uw organisatie verlaat.
-ms.openlocfilehash: 13cc1117c52a45f4ec1389d2e8b9f0189f4730e1
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 32f64efb30acb5438e5add8bcb897200951e6362
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431711"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780611"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken
 
@@ -141,7 +141,7 @@ Als globale beheerder u uzelf toegang geven tot de inhoud in de OneDrive van een
 
 Als u de e-mailberichten, agenda, taken en contactpersonen van de voormalige werknemer wilt behouden, exporteert u de gegevens naar een Outlook-gegevensbestand (.pst).
   
-1. [Voeg de e-mail van de vorige werknemer toe](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) aan uw Outlook (Als u het wachtwoord van de gebruiker opnieuw [instelt,](reset-passwords.md)u deze instellen op iets dat alleen u kent.)
+1. [Voeg de e-mail van de vorige werknemer toe](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) aan uw Outlook (Als u het wachtwoord van de gebruiker opnieuw [instelt,](reset-passwords.md)u deze instellen op iets dat alleen u kent.)
     
 2. Selecteer Bestand **in**Outlook .
     
@@ -160,7 +160,7 @@ Als u de e-mailberichten, agenda, taken en contactpersonen van de voormalige wer
 6. Selecteer het account dat u wilt exporteren door de naam of het e-mailadres te selecteren, zoals Postvak - Anne Weiler of anne@contoso.com. Als u alles in het account wilt exporteren, inclusief e-mail, de agenda, contactpersonen, taken en notities, moet het selectievakje **Inclusief submappen** zijn ingeschakeld. 
     
     > [!NOTE]
-    > U kunt slechts één account tegelijkertijd exporteren. Als u meerdere accounts wilt exporteren, herhaalt u deze stappen voor de volgende accounts. 
+    > You can export one account at a time. If you want to export multiple accounts, after one account is exported, repeat these steps. 
   
     ![Het dialoogvenster Outlook-gegevensbestand exporteren met de bovenste map geselecteerd en Inclusief submappen ingeschakeld](../../media/ce36616f-d76d-4ce2-b517-8ac4874e0971.jpg)
   
@@ -181,7 +181,7 @@ De export wordt direct gestart in Outlook, tenzij er een nieuw Outlook-gegevensb
     
   - Als u exporteert naar een bestaand Outlook-gegevensbestand (.pst) dat met een wachtwoord is beveiligd, typt u in het dialoogvenster **Wachtwoord voor outlook-gegevensbestand** het *wachtwoord*en selecteert u **OK**.
     
-Bekijk hoe [u e-mail, contactpersonen en agenda exporteren of back-upen naar een PST-bestand](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx) van Outlook in Outlook 2010. 
+Bekijk hoe [u e-mail, contactpersonen en agenda exporteren of back-upen naar een PST-bestand](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91) van Outlook in Outlook 2010. 
   
   
   > [!NOTE]
