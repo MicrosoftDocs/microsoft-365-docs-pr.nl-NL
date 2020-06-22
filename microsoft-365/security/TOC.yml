@@ -230,7 +230,7 @@
               href: mtp/feedback.md
             - name: Tickets beheren via ServiceNow
               href: ./mtp/tickets.md
-    - name: Microsoft 365-beveiliging
+    - name: Office 365 Advanced Threat Protection
       items:
         - name: Aan de slag
           items:
