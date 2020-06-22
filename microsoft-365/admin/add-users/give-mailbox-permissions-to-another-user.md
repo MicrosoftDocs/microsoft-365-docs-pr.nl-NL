@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: 'Lees hoe u een gebruiker toegang geeft tot het postvak van een andere gebruiker. Dat geeft de gebruiker het recht om e-mail te lezen en e-mails te verzenden vanuit het postvak van de andere gebruiker. '
-ms.openlocfilehash: 3fb920fb6f15a2ca48c5676e9b25afd1aa5263f1
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: dafe0f8c8f7d65b2721b70f6c132d179c461a89b
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431663"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780599"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>Postvakmachtigingen toewijzen aan een andere gebruiker - Help voor beheerders
 
@@ -37,11 +37,11 @@ Zie [Een gedeeld postvak maken](../email/create-a-shared-mailbox.md)voor informa
     
 ## <a name="looking-to-set-up-mailbox-permissions"></a>Wilt u machtigingen voor postvakken instellen?
 
-Met postvakmachtigingen kunt u lees-/schrijftoegang voor een postvak aan andere gebruikers verlenen. In de onderstaande artikelen vindt u wat u nodig hebt om deze functie in te stellen en te gebruiken:
+Mailbox permissions allow you to give read/write access to a mailbox to another user. The articles below might give you the help you need to set up and use this feature:
   
  **Machtigingen instellen:**
   
-De eerste stap bij het instellen van machtigingen bestaat uit het bepalen welke acties u een andere gebruiker wilt laten uitvoeren voor het betreffende postvak. U kunt toestaan dat een gebruiker e-mails in het postvak kan lezen, e-mails namens aan ander kan verzenden of e-mails kan verzenden alsof deze vanuit dat postvak zijn verzonden. Zie de volgende artikelen om de verschillende typen machtigingen in te stellen:
+The first step to setting up permissions is deciding which actions you want to allow the other user to take in the given mailbox. You can allow a user to read emails from the mailbox, send emails on behalf of another user, and send emails as if they were sent from that mailbox. Refer to the following articles on how to set up each type of permissions:
   
 - [E-mail lezen vanuit het postvak van een andere gebruiker](give-mailbox-permissions-to-another-user.md#read-email-in-another-users-mailbox)
     
@@ -55,7 +55,7 @@ Als u de machtigingen hebt ingesteld, kan het zestig minuten duren voordat de wi
   
  **Gebruik van het postvak als de machtigingen zijn ingesteld:**
   
-Een postvak kan op verschillende manieren worden geopend zodra u toegang hebt gekregen. Zie het volgende artikel voor hulp hierbij: [Het postvak van een andere gebruiker openen](https://support.office.com/article/Access-another-person-s-mailbox-A909AD30-E413-40B5-A487-0EA70B763081.aspx)
+There are a few different ways you can access a mailbox once you've been given access. For help on this, refer to this article: [Access another person's mailbox](https://support.microsoft.com/office/A909AD30-E413-40B5-A487-0EA70B763081)
   
 ## <a name="send-email-from-another-users-mailbox"></a>E-mail verzenden vanuit het postvak van een andere gebruiker
 
@@ -200,8 +200,8 @@ Een postvak kan op verschillende manieren worden geopend zodra u toegang hebt ge
 ## <a name="send-and-read-from-outlook-and-outlook-on-the-web-for-business"></a>Verzenden vanuit en lezen in Outlook en de webversie van Outlook voor Bedrijven
 
 
-Wilt u weten hoe u e-mail verzendt vanuit het postvak van een andere gebruiker? Raadpleeg de volgende onderwerpen:
+Want to know how to send email from another user's mailbox? Check out the following topics:
   
-- [E-mail- en agenda-items van een andere gebruiker beheren](https://support.office.com/article/afb79d6b-2967-43b9-a944-a6b953190af5.aspx)
+- [E-mail- en agenda-items van een andere gebruiker beheren](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5)
     
-- [E-mail verzenden namens een andere persoon of groep](https://support.office.com/article/0f4964af-aec6-484b-a65c-0434df8cdb6b.aspx)
+- [E-mail verzenden namens een andere persoon of groep](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b)

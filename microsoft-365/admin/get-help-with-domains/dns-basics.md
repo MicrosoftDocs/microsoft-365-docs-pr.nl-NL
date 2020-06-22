@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Informatie over domeinen en de bijbehorende DNS-records om zo uw domeinen beter te beheren.
-ms.openlocfilehash: 9e86aed070023963635319cdd9fdb6a8ccca4c23
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3a3a03c408d480b5d4678fde25c8830e063b1310
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399966"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780179"
 ---
 # <a name="dns-basics"></a>DNS-basisprincipes
 
@@ -155,7 +155,7 @@ Waarom kan het zonebestand van uw domein zich ergens buiten uw domeinregistrar b
 Als u een aangepast domein, zoals fourthcoffee.com, toevoegt aan Office 365, kunt u kortere, meer vertrouwde e-mailadressen en gebruikers-id's met de service gebruiken. U [krijgt een domein om te gebruiken](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) wanneer u zich aanmeldt voor een Office 365-account, maar dit bevat onmicrosoft.com. Veel mensen voegen liever het domein van hun organisatie of bedrijf toe als ze Office 365 voor e-mail willen gaan gebruiken. 
   
 > [!NOTE]
-> Als u alleen Microsoft-apps wilt downloaden en gebruiken, zoals Outlook of Word, hoeft u geen domein toe te voegen: [Installeer Office op uw pc of Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx). 
+> Als u alleen Microsoft-apps wilt downloaden en gebruiken, zoals Outlook of Word, hoeft u geen domein toe te voegen: [Installeer Office op uw pc of Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658). 
   
 U kunt uw domeinnaam in Office 365 gebruiken voor uw e-mailadres, het adres van uw openbare website en uw chatadres.
   
@@ -174,7 +174,7 @@ U kunt uw domeinnaam in Office 365 gebruiken voor uw e-mailadres, het adres van 
 Als u een aangepast domein, zoals fourthcoffee.com, toevoegt aan Office 365, kunt u kortere, meer vertrouwde e-mailadressen en gebruikers-id's met de service gebruiken. U [krijgt een domein om te gebruiken](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) wanneer u zich aanmeldt voor een Office 365-account, maar dit bevat onmicrosoft.com. Veel mensen voegen liever het domein van hun organisatie of bedrijf toe als ze Office 365 voor e-mail willen gaan gebruiken. 
   
 > [!NOTE]
-> Als u alleen Office 365-apps wilt downloaden en gebruiken, zoals Outlook of Word, hoeft u geen domein toe te voegen: [Installeer Office op uw pc of Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx). 
+> Als u alleen Office 365-apps wilt downloaden en gebruiken, zoals Outlook of Word, hoeft u geen domein toe te voegen: [Installeer Office op uw pc of Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658). 
   
 U kunt uw domeinnaam in Office 365 gebruiken voor uw e-mailadres, het adres van uw openbare website en uw chatadres.
   

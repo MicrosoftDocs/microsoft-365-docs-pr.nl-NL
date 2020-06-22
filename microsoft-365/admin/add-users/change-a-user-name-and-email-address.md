@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Lees hoe een globale beheerder het e-mailadres en de weergavenaam van een gebruiker kan wijzigen. '
-ms.openlocfilehash: b672476048354a8b086781d6d9c89a7aa42ccdd3
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 76a2124c7fc73e40650a18985a5aa10acf57737a
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432085"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780623"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Een gebruikersnaam en e-mailadres wijzigen
 
@@ -38,7 +38,7 @@ Bekijk een korte video over het wijzigen van het e-mailadres van een gebruiker. 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SJuc] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="change-a-users-email-address"></a>Het e-mailadres van een gebruiker wijzigen
 
@@ -93,7 +93,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 3. Selecteer **Instellen als primair** voor het e-mailadres dat u wilt instellen als het primaire e-mailadres voor die persoon. 
     
-    **BELANGRIJK**: U ziet de optie Instellen als primair niet als u Office 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen. 
+    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Office 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
     
     U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
   
@@ -103,7 +103,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
  
   - Het kan even duren voordat deze wijziging van kracht wordt.
   
-  - Wat de nieuwe gebruikersnaam is. Die heeft de gebruiker nodig om zich aan te melden bij Office 365.
+  - What their new username is. They'll need it to sign in to Office 365.
     
   - Als ze Skype voor Bedrijven Online gebruiken, moet ze alle geplande Skype voor Bedrijven Online-vergaderingen opnieuw plannen en moeten ze de externe contactpersonen laten weten dat die de oude contactgegevens moeten bijwerken.
 
@@ -121,7 +121,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 3. Selecteer **Instellen als primair** voor het e-mailadres dat u wilt instellen als het primaire e-mailadres voor die persoon. 
     
-    **BELANGRIJK**: U ziet de optie Instellen als primair niet als u Office 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen. 
+    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Office 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
     
     U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
   
@@ -131,7 +131,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
  
   - Het kan even duren voordat deze wijziging van kracht wordt.
   
-  - Wat de nieuwe gebruikersnaam is. Die heeft de gebruiker nodig om zich aan te melden bij Office 365.
+  - What their new username is. They'll need it to sign in to Office 365.
     
   - Als ze Skype voor Bedrijven Online gebruiken, moet ze alle geplande Skype voor Bedrijven Online-vergaderingen opnieuw plannen en moeten ze de externe contactpersonen laten weten dat die de oude contactgegevens moeten bijwerken.
 
@@ -149,7 +149,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 3. Selecteer **Instellen als primair** voor het e-mailadres dat u wilt instellen als het primaire e-mailadres voor die persoon. 
     
-    **BELANGRIJK**: U ziet de optie Instellen als primair niet als u Office 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen. 
+    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Office 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
     
     U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
   
@@ -159,7 +159,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
  
   - Het kan even duren voordat deze wijziging van kracht wordt.
   
-  - Wat de nieuwe gebruikersnaam is. Die heeft de gebruiker nodig om zich aan te melden bij Office 365.
+  - What their new username is. They'll need it to sign in to Office 365.
     
   - Als ze Skype voor Bedrijven Online gebruiken, moet ze alle geplande Skype voor Bedrijven Online-vergaderingen opnieuw plannen en moeten ze de externe contactpersonen laten weten dat die de oude contactgegevens moeten bijwerken.
 
@@ -181,7 +181,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
     Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruikersgegevens en probeer het opnieuw** wordt weergegeven, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
 
-Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorgevoerd. Nadat de wijziging is doorgevoerd, moet de gebruiker zich aanmelden bij Outlook, Skype voor Bedrijven en SharePoint met de bijgewerkte gebruikersnaam. Zorg er dus voor dat ze op de hoogte zijn van de wijziging.
+It might take up to 24 hours for this change to take effect across all services. After the change has taken effect, the person will have to sign in to Outlook, Skype for Business and SharePoint with their updated username, so be sure to tell them about this change.
 
 ::: moniker-end
 
@@ -195,7 +195,7 @@ Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorg
 
     Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruikersgegevens en probeer het opnieuw** wordt weergegeven, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
 
-Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorgevoerd. Nadat de wijziging is doorgevoerd, moet de gebruiker zich aanmelden bij Outlook, Skype voor Bedrijven en SharePoint met de bijgewerkte gebruikersnaam. Zorg er dus voor dat ze op de hoogte zijn van de wijziging.
+It might take up to 24 hours for this change to take effect across all services. After the change has taken effect, the person will have to sign in to Outlook, Skype for Business and SharePoint with their updated username, so be sure to tell them about this change.
 
 ::: moniker-end
 
@@ -209,7 +209,7 @@ Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorg
 
     Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruikersgegevens en probeer het opnieuw** wordt weergegeven, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
 
-Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorgevoerd. Nadat de wijziging is doorgevoerd, moet de gebruiker zich aanmelden bij Outlook, Skype voor Bedrijven en SharePoint met de bijgewerkte gebruikersnaam. Zorg er dus voor dat ze op de hoogte zijn van de wijziging.
+It might take up to 24 hours for this change to take effect across all services. After the change has taken effect, the person will have to sign in to Outlook, Skype for Business and SharePoint with their updated username, so be sure to tell them about this change.
 
 ::: moniker-end
 
@@ -217,7 +217,7 @@ Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorg
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>'Een parameter die overeenkomt met de parameternaam EmailAddresses kan niet worden gevonden'
 
-Als het foutbericht **Een parameter die overeenkomt met de parameternaam 'EmailAddresses' kan niet worden gevonden** wordt weergegeven, betekent dit dat nog wat tijd nodig is om uw tenant of uw aangepaste domein in te stellen, als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even zodat de instellingsprocedure kan worden voltooid, en probeer het vervolgens opnieuw. Als het probleem aanhoudt, belt u de ondersteuning. Zij voeren dan een volledige synchronisatie voor u uit.
+If you get the error message " **A parameter cannot be found that matches parameter name 'EmailAddresses**" it means that it's taking a bit longer to finish setting up your tenant, or your custom domain if you recently added one. The setup process can take up to 4 hours to complete. Wait a while so the set up process has time to finish, and then try again. If the problem persists, call Support and they will do a full sync for you.
   
 ### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>'De gebruiker kan niet worden bewerkt. Controleer de gebruiker en probeer het opnieuw'
 
@@ -226,15 +226,15 @@ Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebrui
 
 ## <a name="what-to-do-with-old-email-addresses"></a>Wat moet u doen met oude e-mailadressen
 
-Het vorige primaire e-mailadres van de gebruiker blijft behouden als extra e-mailadres. **U wordt sterk aangeraden om het oude e-mailadres niet te verwijderen.**
+A person's previous primary email address is retained as an additional email address. **We strongly recommend that you don't remove the old email address.**
   
-Sommige personen blijven waarschijnlijk e-mail verzenden naar het oude e-mailadres van de gebruiker. Als dit wordt verwijderd, kunnen er NDR-fouten ontstaan. Microsoft stuurt deze automatisch door naar het nieuwe e-mailadres. Gebruik oude SMTP-e-mailadressen niet opnieuw en gebruik ze niet voor nieuwe accounts. Hierdoor kunnen ook NDR-fouten worden veroorzaakt of kan de e-mail bij een verkeerd postvak worden bezorgd.
+Some people will likely continue to send email to the person's old email address and deleting it may result in NDR failures. Microsoft will automatically route it to the new one. Also, do not reuse old SMTP email addresses and apply them to new accounts. This can also cause NDR failures or delivery to an unintended mailbox.
    
 ## <a name="what-if-the-persons-offline-address-book-wont-sync-with-the-global-address-list"></a>Wat gebeurt er als het offlineadresboek van de gebruiker niet wordt gesynchroniseerd met de algemene adreslijst?
 
-Als ze Exchange Online gebruiken of als hun account is gekoppeld aan de on-premises Exchange-omgeving van uw organisatie, wordt mogelijk de volgende fout weergegeven wanneer u een gebruikersnaam en e-mailadres probeert te wijzigen: 'Deze gebruiker is gesynchroniseerd met de lokale Active Directory. Sommige gegevens kunnen alleen worden bewerkt via de lokale Active Directory.'
+If they are using Exchange Online or if their account is linked with your organization's on-premises Exchange environment, you may see this error when you try to change a username and email address: "This user is synchronized with your local Active Directory. Some details can be edited only through your local Active Directory."
   
-Dat komt door de MOERA (Microsoft Online Email Routing Address). De MOERA is opgebouwd uit het  _userPrincipalName_-kenmerk van de gebruiker in Active Directory en wordt automatisch toegewezen aan het cloudaccount tijdens de eerste synchronisatie. Eenmaal gemaakt, kan deze niet worden gewijzigd of verwijderd in Office 365. U kunt vervolgens in Active Directory de gebruikersnaam wijzigen, maar de MOERA wordt niet gewijzigd. Bij het weergeven van de zojuist gewijzigde naam in de algemene adressenlijst kunt u tegen problemen aanlopen. 
+This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it cannot be modified or removed in Office 365. You can subsequently change the username in the Active Directory, but it will not change the MOERA and you may run into issues displaying the newly changed name in the Global Address List. 
   
 U lost dit op door u met uw Microsoft 365-beheerdersreferenties aan te melden bij de [Azure Active Directory-module voor PowerShell]( https://go.microsoft.com/fwlink/?LinkId=823193) en gebruik de volgende syntaxis: 
   
