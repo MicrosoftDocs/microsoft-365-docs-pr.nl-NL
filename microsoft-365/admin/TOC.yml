@@ -33,7 +33,7 @@
         - name: Teams implementeren
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
         - name: App-training voor iedereen
-          href: 'https://support.office.com/office-training-center'
+          href: 'https://support.microsoft.com/training'
         - name: Welk abonnement heb ik?
           href: admin-overview/what-subscription-do-i-have.md
         - name: Aanmeldingspagina aanpassen
@@ -93,6 +93,8 @@
               href: manage/assign-licenses-to-users.md
             - name: Beheerdersrollen toewijzen
               href: add-users/assign-admin-roles.md
+            - name: Gastgebruikers
+              href: add-users/about-guest-users.md
             - name: Gastgebruikers toevoegen aan een Microsoft 365-groep
               href: create-groups/manage-guest-access-in-groups.md
             - name: Licenties van gebruikers verwijderen
@@ -170,7 +172,7 @@
               href: email/about-shared-mailboxes.md
             - name: Een gedeeld postvak maken
               href: email/create-a-shared-mailbox.md
-            - name: Een gedeeld postvak instellen
+            - name: Gedeeld postvakinstellingen configureren
               href: email/configure-a-shared-mailbox.md
             - name: Het postvak van een gebruiker converteren naar een gedeeld postvak
               href: email/convert-user-mailbox-to-shared-mailbox.md
@@ -218,6 +220,8 @@
           href: manage/set-password-expiration-policy.md
         - name: Het startprogramma voor apps aanpassen
           href: manage/customize-the-app-launcher.md
+        - name: Gebruikers upgraden naar de nieuwste apps
+          href: setup/upgrade-users-to-latest-office-client.md
         - name: Vereisten voor gecentraliseerde implementatie van invoegtoepassingen
           href: manage/centralized-deployment-of-add-ins.md
         - name: Invoegtoepassingen installeren en beheren met behulp van Gecentraliseerde implementatie
@@ -320,11 +324,11 @@
         - name: Agenda's delen met gastgebruikers
           href: manage/share-calendars-with-external-users.md
         - name: Een Team met gastgebruikers maken
-          href: 'https://support.office.com/article/11fbb083-52ee-434d-8c6e-63711fdafac7'
-        - name: Een Teams-vergadering met gasten plannen
-          href: 'https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a?ui=en-US&rs=en-US&ad=US'
+          href: 'https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7'
+        - name: Een Teams-vergadering met gastgebruikers plannen
+          href: 'https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a'
         - name: Deelnemen aan een Teams-vergadering met gastgebruikers
-          href: 'https://support.office.com/article/a120c282-063d-46b8-b973-851197ab75d8?ui=en-US&rs=en-US&ad=US'
+          href: 'https://support.microsoft.com/office/a120c282-063d-46b8-b973-851197ab75d8'
     - name: Problemen oplossen
       href: 'https://docs.microsoft.com/office/troubleshoot/'
     - name: Contact opnemen met de ondersteuning
