@@ -3,11 +3,10 @@ title: Hulp krijgen in het Microsoft 365-beheercentrum
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-layout: LandingPage
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: landing-page
+ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -21,97 +20,42 @@ search.appverid:
 - BEA160
 - GEA150
 ROBOTS: NOINDEX
-description: Meer informatie over alle manieren waarop u hulp krijgen met het Microsoft 365-beheercentrum.
-ms.openlocfilehash: eea5e58ba571cebd7d73202fa8f6c01ba06b8e44
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over alle manieren waarop u hulp krijgen bij het gebruik van het Microsoft 365-beheercentrum.
+ms.openlocfilehash: b10eb75e1a7d02c384c915ad814dddc9f3c6954f
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386767"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844714"
 ---
 <!-- The following is just placeholder text from Madhura's mail. We need to add images/examples of each -->
 
-# <a name="how-to-get-help-in-the-microsoft-365-admin-center"></a>Hulp krijgen in het Microsoft 365-beheercentrum
+# <a name="how-to-get-help-in-the-microsoft-365-admin-center"></a><span data-ttu-id="37b48-103">Hulp krijgen in het Microsoft 365-beheercentrum</span><span class="sxs-lookup"><span data-stu-id="37b48-103">How to get help in the Microsoft 365 admin center</span></span>
 
-Als u een beheerder bent, is [admin.microsoft.com](https://admin.microsoft.com) uw plek om uw Microsoft 365-abonnement te beheren en optimaal te benutten. Soms vindt u mogelijk niet de juiste taak, hebt u meer context nodig voordat u aan een taakstroom begint of bent u gewoon niet zeker van het bereik en de impact van uw acties als beheerder. Om deze situaties te dekken, bieden we moderne hulp en intelligente hulp in het hele Microsoft 365-beheercentrum op deze manieren:
+<span data-ttu-id="37b48-104">Als u een beheerder bent, [is admin.microsoft.com](https://admin.microsoft.com) uw go-to-place om uw Microsoft 365-abonnement te beheren en optimaal te benutten.</span><span class="sxs-lookup"><span data-stu-id="37b48-104">If you're an admin, [admin.microsoft.com](https://admin.microsoft.com) is your go-to place to manage and make the most of your Microsoft 365 subscription.</span></span> <span data-ttu-id="37b48-105">Soms vindt u mogelijk niet de juiste taak, hebt u meer context nodig voordat u aan een taakstroom begint of is u misschien niet zeker van de omvang en impact van uw acties als beheerder. Om deze situaties te dekken, bieden we moderne hulp en intelligente hulp in het Microsoft 365-beheercentrum op deze manieren:</span><span class="sxs-lookup"><span data-stu-id="37b48-105">Sometimes you might not find the right task, need more context before embarking on a task flow, or simply might not be sure of the scope and impact of your actions as an admin. To cover those situations, we provide modern help and intelligent assistance throughout the Microsoft 365 admin center in these ways:</span></span>
 
-<ul class="panelContent cardsW">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <a href="what-is-help.md">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../../media/what-is-help/M365_WhatisHelp_IntegratedHelp.png" alt="Integrated help" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Geïntegreerde hulp</h3>
-                            <p>Hulp in het beheercentrum</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <a href="what-is-help.md#modern-self-help-powered-by-ai">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../../media/what-is-help/M365_WhatisHelp_IntelligentAssistance.png" alt="Intelligent assistance" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Intelligente hulp</h3>
-                            <p>Zelfhulp aangedreven door AI</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <a href="what-is-help.md#guides-and-articles">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../../media/what-is-help/M365_WhatisHelp_ArticlesGuides.png" alt="Guides and articles" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Gidsen en artikelen</h3>
-                            <p>Uitgebreide inhoud op het web</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
- 
+* <span data-ttu-id="37b48-106">**Geïntegreerde hulp** - hulp in het beheercentrum</span><span class="sxs-lookup"><span data-stu-id="37b48-106">**Integrated help** - help in the admin center</span></span>
 
-## <a name="integrated-help"></a>Geïntegreerde hulp
+* <span data-ttu-id="37b48-107">**Intelligente hulp** - zelfhulp aangedreven door AI</span><span class="sxs-lookup"><span data-stu-id="37b48-107">**Intelligent assistance** - self-help powered by AI</span></span>
 
-Hulp is geïntegreerd in het beheercentrum, dus het is daar wanneer je het nodig hebt. Bovenaan veel pagina's vindt u inline help-tekst die een informatief overzicht geeft van de taak bij de hand, evenals links naar artikelen waarmee u snel officiële documentatie vinden voor meer diepgaande informatie.
+* <span data-ttu-id="37b48-108">**Gidsen en artikelen** - uitgebreide inhoud op het web</span><span class="sxs-lookup"><span data-stu-id="37b48-108">**Guides and articles** - comprehensive content on the web</span></span>
 
-![Pagina Groepen met inline help en koppelingen naar artikelen](../../media/integrated-help.png)
+## <a name="integrated-help"></a><span data-ttu-id="37b48-109">Geïntegreerde hulp</span><span class="sxs-lookup"><span data-stu-id="37b48-109">Integrated help</span></span>
 
-## <a name="modern-self-help-powered-by-ai"></a>Moderne zelfhulp aangedreven door AI
+<span data-ttu-id="37b48-110">Hulp is geïntegreerd in het hele beheercentrum, dus het is daar wanneer je het nodig hebt.</span><span class="sxs-lookup"><span data-stu-id="37b48-110">Help is integrated throughout the admin center, so it's right there when you need it.</span></span> <span data-ttu-id="37b48-111">Bovenaan de vele pagina's vindt u inline help-tekst die een informatief overzicht biedt van de taak bij de hand, evenals links naar artikelen waarmee u snel officiële documentatie vinden voor meer diepgaand leren.</span><span class="sxs-lookup"><span data-stu-id="37b48-111">At the top of many pages, you'll find inline help text that provides an informational overview of the task at hand, as well as links to articles that let you quickly find official documentation for more in-depth learning.</span></span>
 
-Als u onze moderne zelfhulpervaring wilt openen die wordt aangedreven door kunstmatige intelligentie, selecteert u de knop **Help nodig** in het Microsoft 365-beheercentrum. Als u bijvoorbeeld zoekt naar 'mijn domein verifiëren', krijgt u de stappen plus een paar artikelen waarvan we denken dat ze u zullen helpen. We gebruiken machine learning om de dichtstbijzijnde oplossing te laten zien die andere beheerders heeft geholpen die vergelijkbare query's hebben ingevoerd.
+![Pagina Groepen met inline help en links naar artikelen](../../media/integrated-help.png)
 
-Of, voor die momenten waarop je niet helemaal weet hoe je iets gedaan krijgt in je specifieke situatie, gebruik je de Assistent. Momenteel is deze ervaring alleen beschikbaar in het Engels. Als u Ondersteuningsassistent wilt inschakelen, gebruikt u de schakelaar boven aan het deelvenster **Help nodig.** De ondersteuningsassistent biedt een gespreksinterface om u te helpen. Nadat je je vraag hebt ingevoerd, stelt de chatbot verhelderende vragen om je het juiste antwoord te geven op je specifieke situatie. Zie het als uw virtuele helper om oplossingen te ontdekken en taken uit te voeren.
+## <a name="modern-self-help-powered-by-ai"></a><span data-ttu-id="37b48-113">Moderne zelfhulp aangedreven door AI</span><span class="sxs-lookup"><span data-stu-id="37b48-113">Modern self-help powered by AI</span></span>
+
+<span data-ttu-id="37b48-114">Als u onze moderne zelfhulpervaring wilt openen die wordt aangedreven door kunstmatige intelligentie, selecteert u de knop **Help nodig** in het Microsoft 365-beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="37b48-114">To open our modern self-help experience that’s powered by artificial intelligence, select the **Need Help** button in the Microsoft 365 admin center.</span></span> <span data-ttu-id="37b48-115">Als u bijvoorbeeld zoekt naar 'mijn domein verifiëren', krijgt u de stappen plus een paar artikelen waarvan we denken dat ze u zullen helpen.</span><span class="sxs-lookup"><span data-stu-id="37b48-115">For example, if you search for "verify my domain", you'll get the steps plus a few articles that we think will help you.</span></span> <span data-ttu-id="37b48-116">We gebruiken machine learning om de dichtstbijzijnde oplossing te vinden die andere beheerders heeft geholpen die vergelijkbare query's hebben ingevoerd.</span><span class="sxs-lookup"><span data-stu-id="37b48-116">We use machine learning to surface the closest solution that has helped other admins who have entered similar queries.</span></span>
+
+<span data-ttu-id="37b48-117">Of, voor die momenten waarop je niet goed weet hoe je iets gedaan te krijgen in uw specifieke situatie, gebruik maken van de Support Assistant.</span><span class="sxs-lookup"><span data-stu-id="37b48-117">Or, for those times when you don't quite know how to get something done in your specific situation, use the Support Assistant.</span></span> <span data-ttu-id="37b48-118">Momenteel is deze ervaring alleen beschikbaar in het Engels.</span><span class="sxs-lookup"><span data-stu-id="37b48-118">Currently, this experience is available only in English.</span></span> <span data-ttu-id="37b48-119">Als u Ondersteuningsassistent wilt inschakelen, gebruikt u de schakelaar boven aan het deelvenster **Help nodig.**</span><span class="sxs-lookup"><span data-stu-id="37b48-119">To turn on Support Assistant, just use the toggle at the top of the **Need Help** pane.</span></span> <span data-ttu-id="37b48-120">De ondersteuningsassistent biedt een gespreksinterface om u te helpen.</span><span class="sxs-lookup"><span data-stu-id="37b48-120">The Support Assistant provides a conversational interface to help you.</span></span> <span data-ttu-id="37b48-121">Nadat u uw vraag hebt ingevoerd, stelt de chatbot verduidelijkende vragen om u bij het juiste antwoord te brengen voor uw specifieke situatie.</span><span class="sxs-lookup"><span data-stu-id="37b48-121">After you enter your query, the chatbot asks clarifying questions to get you to the right answer for your specific situation.</span></span> <span data-ttu-id="37b48-122">Zie het als uw virtuele helper om oplossingen te ontdekken en taken uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="37b48-122">Think of it as your virtual helper to discover solutions and complete tasks.</span></span>
 
 ![Moderne zelfhulp](../../media/help-options.png)
 
-Natuurlijk, soms vragen zijn het beste beantwoord door de mens. Als onze moderne zelfhulp het antwoord niet heeft, heeft u altijd de mogelijkheid om contact op te nemen met onze ondersteuningsmedewerkers.
+<span data-ttu-id="37b48-124">Natuurlijk, soms vragen zijn het beste beantwoord door de mens.</span><span class="sxs-lookup"><span data-stu-id="37b48-124">Of course, sometimes questions are best answered by humans.</span></span> <span data-ttu-id="37b48-125">Als onze moderne zelfhulp het antwoord niet heeft, heeft u altijd de mogelijkheid om contact op te nemen met onze ondersteuningsmedewerkers.</span><span class="sxs-lookup"><span data-stu-id="37b48-125">If our modern self-help doesn't have the answer, you always have the option to contact our support agents.</span></span>
 
-## <a name="guides-and-articles"></a>Gidsen en artikelen
+## <a name="guides-and-articles"></a><span data-ttu-id="37b48-126">Gidsen en artikelen</span><span class="sxs-lookup"><span data-stu-id="37b48-126">Guides and articles</span></span>
 
-Als u op zoek bent naar uitgebreide implementatiehandleidingen, snelle stapsgewijze procedures of PowerShell-cmdlets, zoekt u ons bovendien op het web op. We werken inhoud regelmatig bij en proberen u van de laatste informatie te voorzien. Bekijk onze artikelen en handleidingen op de [Microsoft 365 Documentation](https://docs.microsoft.com/microsoft-365/) site.
+<span data-ttu-id="37b48-127">Als u op zoek bent naar uitgebreide implementatiehandleidingen, snelle stapsgewijze procedures of PowerShell-cmdlets, zoek ons dan op het web op.</span><span class="sxs-lookup"><span data-stu-id="37b48-127">Additionally, if you're looking for comprehensive deployment guides, quick step-by-step procedures, or PowerShell cmdlets, look us up on the web.</span></span> <span data-ttu-id="37b48-128">We werken de inhoud regelmatig bij en proberen u de laatste informatie te verstrekken.</span><span class="sxs-lookup"><span data-stu-id="37b48-128">We update content frequently and try to provide you with the latest information.</span></span> <span data-ttu-id="37b48-129">Bekijk onze artikelen en handleidingen op de [Microsoft 365 Documentatie](https://docs.microsoft.com/microsoft-365/) site.</span><span class="sxs-lookup"><span data-stu-id="37b48-129">Check out our articles and guides on the [Microsoft 365 Documentation](https://docs.microsoft.com/microsoft-365/) site.</span></span>
