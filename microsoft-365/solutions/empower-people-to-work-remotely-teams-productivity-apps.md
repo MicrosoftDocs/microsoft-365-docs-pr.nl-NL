@@ -71,7 +71,7 @@ Zie [dit artikel](../enterprise/secure-email-recommended-policies.md) voor het a
 
 Bij het samenwerken aan inhoud kunnen externe medewerkers SharePoint Online- en OneDrive-mappen gebruiken als een centrale locatie in de cloud om bestanden op te slaan en te delen, eraan samen te werken en te communiceren. Externe medewerkers kunnen overal veilig werken vanuit een webbrowser, Teams en Office-apps.
 
-Zie [dit artikel](../enterprise/sharepoint-file-access-policies.md) voor het aanbevolen beleid voor identiteiten en apparaattoegang om SharePoint Online en OneDrive voor Bedrijven te ondersteunen.
+Zie [dit artikel](../enterprise/sharepoint-file-access-policies.md) voor het aanbevolen beleid voor identiteiten en apparaattoegang om SharePoint Online en OneDrive voor Bedrijven te beveiligen.
 
 ## <a name="create-and-collaborate-on-content-with-microsoft-365-apps"></a>Maken van en samenwerken aan inhoud met Microsoft 365 Apps
 
