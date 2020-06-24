@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Meer informatie over het toevoegen van gasten aan een Microsoft 365-groep, het bekijken van gastgebruikers en het gebruik van PowerShell om de toegang van gasten te beheren.
-ms.openlocfilehash: fe72f5e831215730a1ac79bcce2296d53b969c9c
-ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
+ms.openlocfilehash: 0322bd269f1c5637627461d136b40f6af4fc9540
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761660"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854244"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Gasttoegang beheren in Microsoft 365-groepen
 
@@ -47,7 +47,7 @@ Gasttoegang in groepen wordt vaak gebruikt als onderdeel van een breder scenario
 
 Als u gasttoegang in groepen wilt in- of uitschakelen, u dit doen in het Microsoft 365-beheercentrum.
 
-1. Ga in het beheercentrum naar **de** \> **instellingen van de organisatie** en selecteer op het tabblad **Services** **Microsoft 365-groepen**.
+1. Ga in het beheercentrum naar **Alle** instellingen instellingen die \> **Settings** \> **orginstellingen weergeven** en selecteer op het tabblad **Services** **Microsoft 365-groepen**.
   
 2. Kies op de pagina **Microsoft 365-groepen** of u mensen buiten uw organisatie groepsbronnen wilt laten openen of dat groepseigenaren mensen buiten uw organisatie aan groepen wilt toevoegen.
 

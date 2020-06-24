@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over veilige documenten in Microsoft 365 E5 of Microsoft 365 E5 Security.
-ms.openlocfilehash: 1861671df5cfa9dab4b57d5fb53af8712a2a64ce
-ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
+ms.openlocfilehash: c574e28a01dc961d898638184afe9ece90e31133
+ms.sourcegitcommit: aa7f7350d1342ff9713bb840b2cc96d1a4234ef4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44811060"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44835347"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Veilige documenten in Microsoft 365 E5
 
@@ -28,9 +28,9 @@ Safe Documents is een functie in Microsoft 365 E5 of Microsoft 365 E5 Security d
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Deze functie is alleen beschikbaar voor gebruikers met de Microsoft 365 E5- of Microsoft 365 E5-beveiligingslicentie.
+- Veilige documenten zijn nu algemeen beschikbaar voor gebruikers met Office Version 2004 (12730.x) of hoger! Deze functie is standaard uitgeschakeld en moet worden ingeschakeld door de beveiligingsbeheerder.
 
-- Veilige documenten zijn momenteel beschikbaar voor openbare preview, beschikbaar voor gebruikers die deel uitmaken van het [Office Insider-programma](https://insider.office.com/join) op huidig kanaal (Preview) met Office Version 2002 (12527.20092) of hoger. Deze functie is standaard uitgeschakeld en moet worden ingeschakeld door de beveiligingsbeheerder.
+- Deze functie is alleen beschikbaar voor gebruikers met de *Microsoft 365 E5-* of *Microsoft 365 E5-beveiligingslicentie* (niet opgenomen in Office 365 ATP-abonnementen).
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
 
@@ -40,7 +40,7 @@ Safe Documents is een functie in Microsoft 365 E5 of Microsoft 365 E5 Security d
 
 Om u te beschermen, stuurt Safe Documents bestanden naar de [Microsoft Defender Advanced Threat Protection-cloud](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) voor analyse.
 
-- Details over hoe Microsoft Defender Advanced Thread Protection omgaat met uw gegevens vindt u [hier](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+- Details over hoe Microsoft Defender Advanced Threat Protection omgaat met uw gegevens vindt u [hier](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
 - Naast de bovenstaande richtlijnen worden bestanden die door veilige documenten worden verzonden, niet langer bewaard in Defender dan de tijd die nodig is voor analyse, wat meestal minder dan 24 uur is
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Gebruik het Security & Compliance Center om veilige documenten te configureren
@@ -51,7 +51,7 @@ Om u te beschermen, stuurt Safe Documents bestanden naar de [Microsoft Defender 
 
 3. Configureer in de sectie **Help-mensen veilig wanneer u vertrouwt dat een bestand buiten de sectie Beveiligde weergave in Office-toepassingen** wordt geopend, een van de volgende instellingen:
 
-   - **Veilige documenten voor Office-clients inschakelen (bestanden worden ook naar Microsoft Cloud verzonden voor diepgaande analyses)**
+   - **Veilige documenten voor Office-clients inschakelen**
 
    - **Laat mensen door de beveiligde weergave klikken, zelfs als Veilige documenten het bestand als kwaadaardig identificeert:** We raden u aan deze optie niet in te schakelen.
 
@@ -64,7 +64,7 @@ Om u te beschermen, stuurt Safe Documents bestanden naar de [Microsoft Defender 
 Gebruik de volgende syntaxis:
 
 ```powershell
-Set-AtpPolicyForO365 -EnableSafeDocs <$true|$false> -AllowSafeDocsOpen <$true|$false>
+Set-AtpPolicyForO365 -EnableSafeDocs <$true | $false> -AllowSafeDocsOpen <$true | $false>
 ```
 
 - De parameter _EnableSafeDocs_ schakelt veilige documenten voor de hele organisatie in of uit.

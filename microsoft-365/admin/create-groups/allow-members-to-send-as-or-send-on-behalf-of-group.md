@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: Meer informatie over het toestaan van leden om e-mail te verzenden als Microsoft 365-groep of e-mail te verzenden namens een Microsoft 365-groep.
-ms.openlocfilehash: 3a93dda83b10d7c38c8c6e7d8fd484b37df565d0
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 090a5e177ed843c035155cd735e0b7b9560e5631
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780467"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844666"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Leden toestaan om namens een groep te verzenden of te verzenden
 
@@ -76,6 +76,9 @@ In deze sectie wordt uitgelegd hoe gebruikers e-mail namens een groep kunnen ver
 5. Typ om te zoeken of kies een gebruiker uit de lijst. Selecteer **OK** en **Opslaan**.
     
     ![Typ om een gebruiker uit de lijst te zoeken of te kiezen](../../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
+    
+> [!NOTE]
+> Het kan tot twee uur duren voordat wijzigingen van kracht worden.
 
 ## <a name="related-articles"></a>Verwante artikelen
 

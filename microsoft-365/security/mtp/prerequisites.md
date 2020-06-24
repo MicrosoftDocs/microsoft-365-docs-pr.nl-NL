@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f63c59403e84e79d1a4a5cf2b8a5544f5646781c
-ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
+ms.openlocfilehash: c64adf870d3669b983e11093196f59c82b1f59e0
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773849"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844904"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Microsoft Threat Protection-vereisten
 
@@ -60,7 +60,7 @@ Ga naar microsoft 365-beheercentrum[(admin.microsoft.com)](https://admin.microso
 > U moet de **factureringsbeheerder** of de **rol Global reader** in Azure [AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) toegewezen krijgen om licentiegegevens te kunnen zien. Als u toegangsproblemen ondervindt, neemt u contact op met een globale beheerder.
 
 ## <a name="required-permissions"></a>Vereiste machtigingen
-Lees voor de lijst met vereiste rollen en hoe de toegang tot gegevens is geregeld over [het beheren van de toegang tot Microsoft Threat Protection.](mtp-permissions.md)
+U moet een **globale beheerder** of een **beveiligingsbeheerder** in Azure Active Directory zijn om Microsoft Threat Protection in te schakelen. Lees voor de lijst met rollen die nodig zijn voor het gebruik van Microsoft Threat Protection en informatie over de manier waarop de toegang tot gegevens is geregeld, lees over [het beheren van de toegang tot Microsoft Threat Protection](mtp-permissions.md).
 
 ## <a name="browser-requirements"></a>Browservereisten
 Toegang tot Microsoft Threat Protection in het Microsoft 365-beveiligingscentrum met Microsoft Edge, Internet Explorer 11 of een HTML 5-compatibele webbrowser.

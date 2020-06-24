@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Bepaal welke functies en hun nieuwe inhoud wordt weergegeven aan of verborgen voor eindgebruikers in de Office What's New Management voor Office-bureaubladapps.
-ms.openlocfilehash: 7b9522a901078d6e235e295c184fec65c251338b
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 9f63da1870253c9023fa1e2e169bae22435807e4
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717173"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844726"
 ---
 # <a name="show-or-hide-new-features-using-whats-new-management"></a>Nieuwe functies weergeven of verbergen met Beheer van nieuwe functies
 
@@ -42,13 +42,9 @@ Office Wat nieuw beheer is beschikbaar in het Microsoft 365-beheercentrum en via
 Beheerders kunnen een voorbeeld bekijken van de nieuwe inhoud voor een kanaal en de release van de inhoud beheren met Office What's New-beheer.
 
 1. Kies in het Microsoft 365-beheercentrum onder **Instellingen**de optie Instellingen voor **organisatie**.
-
 2. Kies op het tabblad **Services** de optie **Nieuw beheer van Office What's**.
-
 3. Selecteer een of meer functies om de functienaam, een korte beschrijving, de toepassing en de releaseversie voor elke functie in het flyout-deelvenster weer te geven.
-
 4. Kies **Verbergen voor gebruikers** of **Weergeven aan gebruikers**.  
-
     De status **Die standaard wordt weergegeven,** geeft aan dat functie-informatie standaard aan gebruikers wordt weergegeven totdat de beheerder de status voor een functie instelt op **Verborgen** of **Weergegeven**.  
 
     > [!NOTE]
@@ -65,6 +61,13 @@ Nieuwe functies worden weergegeven in Office What's New Management op basis van 
 |**Semi-jaarlijkse onderneming** <br/> |Jan 1 en 1 juli <br/> | 2 weken voor de grote release die nieuwe functies brengt<br/> |
 
 Zie [Updategeschiedenis voor Microsoft 365-apps (vermeld op datum) voor](https://docs.microsoft.com/officeupdates/update-history-microsoft365-apps-by-date)meer informatie over schema's voor het bijwerken van kanalen.
+
+## <a name="add-office-whats-new-management-card-to-the-admin-center-home-page"></a>Office What's New Management-kaart toevoegen aan de startpagina van het beheercentrum
+
+1. Kies op de microsoft 365-beheerderspagina de optie Kaart toevoegen boven aan de pagina
+2. Zoek **wat er nieuw is in Office Apps** in de lijst en kies het.
+3. Zodra de kaart op onze startpagina staat, u **Beheren** kiezen om de functies voor de organisatie van yor weer te geven of te [verbergen.](#show-or-hide-new-features) 
+
 
 ## <a name="related-articles"></a>Verwante artikelen
 

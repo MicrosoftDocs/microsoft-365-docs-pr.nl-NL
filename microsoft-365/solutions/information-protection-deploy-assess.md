@@ -16,12 +16,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Bepaal de regelgeving voor gegevensprivacy, de relevante scenario's, uw gereedheid en de gevoelige informatietypen die zich in uw Microsoft 365-omgeving bevinden.
-ms.openlocfilehash: 532a6764cd1d21eb5eb0402c3451e320d306dc03
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: f8d8fd0b5e6d8876dead566a50408cb2e7419386
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695183"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854350"
 ---
 # <a name="assess-data-privacy-risks-and-identify-sensitive-items-with-microsoft-365"></a>Gegevensprivacyrisico's beoordelen en gevoelige items identificeren met Microsoft 365
 
@@ -133,7 +133,7 @@ Het is ook belangrijk om na te denken over de volgende algemene uitdagingen op h
 
 ### <a name="employee-data-required-to-carry-out-day-to-day-business-functions"></a>Werknemersgegevens die nodig zijn om dagelijkse bedrijfsfuncties uit te voeren
 
-Organisaties moeten van nature gegevens verzamelen over werknemers voor elektronische identiteits- en HR-doeleinden, afhankelijk van wat ze in hun werknemersovereenkomsten overeenkomen. Zolang een persoon werkt voor een bedrijf, dit is meestal geen probleem. De organisatie kan willen mechanismen in te voeren om te voorkomen dat kwaadwillende actoren uit exfiltreting of lekken werknemer persoonlijke gegevens. 
+Organisaties moeten van nature gegevens verzamelen over werknemers voor elektronische identiteits- en HR-doeleinden, afhankelijk van wat ze in hun werknemersovereenkomsten overeenkomen. Zolang een persoon werkt voor een bedrijf, dit is meestal geen probleem. De organisatie kan willen mechanismen in te voeren om te voorkomen dat kwaadwillende actoren uit exfiltratie of lekken werknemer persoonlijke gegevens. 
 
 Als een persoon een bedrijf verlaat, hebben organisaties doorgaans processen, procedures en bewaar- en verwijderingsschema's voor het verwijderen van gebruikersaccounts, het ontmantelen van mailboxen en persoonlijke stations en het wijzigen van de status van werknemers in zaken als personeelssystemen. Voor situaties waarin geschillen betrokken zijn, kan een werknemer of een andere partij bij een juridisch onderzoek geldige redenen hebben voor het verkrijgen van informatie over persoonsgegevens die zijn opgeslagen in de systemen van de organisatie. In sommige gevallen kan deze partij verzoeken om het verwijderen of anonimisme van deze gegevens. 
 
@@ -151,7 +151,7 @@ Contracten met externe klanten, partners en de andere entiteiten waarmee de orga
 
 ### <a name="data-the-organization-has-about-consumers-who-provide-information-to-online-services-that-the-organization-manages-in-the-b2c-scenario"></a>Gegevens die de organisatie heeft over consumenten die informatie verstrekken aan online services die de organisatie beheert in het B2C-scenario
 
-Deze categorie is degene die de meeste mensen denken over voor de privacy van gegevens, als gevolg van vele openbare gevallen van lekkage van klantgegevens. Dit kan opzettelijk zijn, zoals een derde partij onder contract bij de provider, of onbedoeld, zoals geëxfiltreerd door een kwaadwillende acteur. Consumentenbescherming is een van de belangrijkste redenen waarom de EU en anderen deze verordeningen hebben vastgesteld. Regelgeving voor gegevensprivacy zoals GDPR en CCPA vereist dat u plannen maakt voor:
+Deze categorie is degene die de meeste mensen denken over voor de privacy van gegevens, als gevolg van vele openbare gevallen van lekkage van klantgegevens. Dit kan opzettelijk zijn, zoals een derde partij onder contract bij de provider, of onbedoeld, zoals exfiltratie door een kwaadwillende acteur. Consumentenbescherming is een van de belangrijkste redenen waarom de EU en anderen deze verordeningen hebben vastgesteld. Regelgeving voor gegevensprivacy zoals GDPR en CCPA vereist dat u plannen maakt voor:
 
 - [Actieplannen](../compliance/gdpr-action-plan.md) en [verantwoordingsplicht checklists](../compliance/gdpr-arc-office365.md)
 - [Effectbeoordelingen gegevensbescherming](../compliance/gdpr-data-protection-impact-assessments.md)
@@ -181,7 +181,7 @@ GDPR-beoordeling bestaat uit deze secties:
 | | |
 |:-------|:-----|
 | Beheermodel | <ol><li>Vermeldt uw privacybeleid expliciet welke gegevens worden verwerkt? </li><li>Voert u regelmatig Privacy Impact Assessments (PIA's) uit? </li><li> Gebruikt u een tool om persoonlijke gegevens (PI) te beheren? </li><li> Heeft u de wettelijke bevoegdheid om zaken te doen met pi-gegevens over een bepaald individu? Houdt u toestemming voor gegevens bij? </li><li> Houdt u controlecontroles bij, implementeer en beheert u deze? Controleert u op datalekken? </li></ol>|
-| Melding & verwijderen | <ol><li>Geeft u expliciete instructies over hoe de gegevens van gebruikers toegankelijk zijn? </li><li> Heeft u gedocumenteerde processen voor de behandeling van opt-out toestemming? </li><li>   Heeft u een geautomatiseerd verwijderingsproces voor gegevens? </li><li>   Heeft u een proces om identiteit te valideren wanneer u contact op met een klant? </li></ol>|
+| Verwijdering en kennisgeving | <ol><li>Geeft u expliciete instructies over hoe de gegevens van gebruikers toegankelijk zijn? </li><li> Heeft u gedocumenteerde processen voor de behandeling van opt-out toestemming? </li><li> Heeft u een geautomatiseerd verwijderingsproces voor gegevens? </li><li>   Heeft u een proces om identiteit te valideren wanneer u contact op met een klant? </li></ol>|
 | Risicobeperking en informatiebeveiliging | <ol><li>Gebruikt u tools om ongestructureerde gegevens te scannen? </li><li>Zijn alle servers up-to-date en maakt u gebruik van firewalls om ze te beschermen? </li><li>Voert u regelmatig back-ups van uw servers uit? </li><li>Houdt u actief toezicht op datalekken? </li><li>Versleutelt u uw gegevens in rust en in de verzending? </li></ol>|
 | Beleidsbeheer | <ol><li>Hoe beheert u uw Binding Corporate Rules (BCRs)? </li><li>Houdt u toestemming voor gegevens bij? </li><li> Op een schaal van 1 tot 5, 5 die volledig wordt gedekt, hebben uw contracten betrekking op gegevensclassificaties en verwerkingsvereisten? </li><li>Heeft u een incidentresponsplan en test u regelmatig? </li><li>Welk beleid gebruikt u om de toegang te beheren? </li></ol>|
 |||
@@ -190,7 +190,7 @@ GDPR-beoordeling bestaat uit deze secties:
 
 Deze stap omvat de identificatie van bepaalde gevoelige informatietypen die onderworpen zijn aan specifieke wettelijke controles, evenals het voorkomen ervan in uw Microsoft 365-omgeving. 
 
-Het vinden van inhoud in uw omgeving met persoonlijke inhoud kan een formidabele taak zijn, voorheen met een combinatie van het gebruik van Compliance Search, eDiscovery, Advanced eDiscovery DLP en auditing. 
+Het vinden van inhoud in uw omgeving met persoonlijke inhoud kan een formidabele taak zijn, voorheen met een combinatie van het gebruik van Compliance Search, eDiscovery, Advanced eDiscovery, DLP en auditing. 
 
 Met de nieuwe **gegevensclassificatieoplossing** in het Microsoft Compliance-beheercentrum is dit veel eenvoudiger geworden met de [Content Explorer-mogelijkheid,](../compliance/data-classification-content-explorer.md) die werkt met ingebouwde of aangepaste gevoelige informatietypen, waaronder die met betrekking tot persoonlijke gegevens.
  

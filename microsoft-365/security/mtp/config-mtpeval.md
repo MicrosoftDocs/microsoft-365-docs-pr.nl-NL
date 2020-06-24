@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ba603f3703a7d4b6df567f8299af9f1804e42b96
-ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
+ms.openlocfilehash: 60d0383f3acae73c36383b65daaac405a4e20bd3
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702568"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854362"
 ---
 # <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-environment"></a>Pijlers voor Microsoft Threat Protection configureren voor uw proeflabomgeving
 
@@ -237,7 +237,7 @@ Klik op **Volgende**.
 16. Schuif omlaag en klik op **Voorkeuren opslaan** om de nieuwe integraties te bevestigen.
 <br>![Knop Afbeelding of_Save voorkeuren waarop u moet klikken](../../media/mtp-eval-72.png) <br>
 
-## <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection inschakelen
+## <a name="start-the-microsoft-threat-protection-service"></a>De Microsoft Threat Protection-service starten
 >[!NOTE]
 >Vanaf 1 juni 2020 schakelt Microsoft automatisch Microsoft Threat Protection-functies in voor alle in aanmerking komende tenants. Zie dit [Microsoft Tech Community-artikel over licentiegeschiktheid](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/microsoft-threat-protection-will-automatically-turn-on-for/ba-p/1345426) voor meer informatie. 
 <br>
@@ -245,7 +245,10 @@ Klik op **Volgende**.
 Ga naar [Microsoft 365 Security Center](https://security.microsoft.com/homepage). Navigeer naar **Instellingen** en selecteer **Microsoft Threat Protection**.
 <br>![Image of_Microsoft Threat Protection option screenshot van de pagina Microsoft 365 Security Center Settings](../../media/mtp-eval-72b.png) <br>
 
+Zie [Microsoft-bedreigingsbeveiliging inschakelen](mtp-enable.md)voor een uitgebreidere richtlijnen. 
+
 Gefeliciteerd! U hebt zojuist uw Microsoft Threat Protection-proeflabomgeving gemaakt! U nu een aanval simuleren en zien hoe de cross-productmogelijkheden detecteren, waarschuwingen maken en automatisch reageren op een bestandloze aanval op een eindpunt.
+
 
 ## <a name="next-steps"></a>Volgende stappen
 [Een testwaarschuwing genereren](generate-test-alert.md).

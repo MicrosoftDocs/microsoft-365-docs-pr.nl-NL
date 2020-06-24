@@ -17,18 +17,18 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f9bca47c6a47468d0a5a37b77e4f587745bf619d
-ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
+ms.openlocfilehash: 48ff6d6f5cac0991895c40cae90ca31657cfedff
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44545932"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844880"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>Wat komt er in Microsoft Secure Score?
 
-Om [van Microsoft Secure Score](microsoft-secure-score-new.md) een betere vertegenwoordiger van uw beveiligingshouding te maken en de bruikbaarheid te verbeteren, voeren we in de nabije toekomst enkele wijzigingen door. Uw score en de maximaal mogelijke score zal veranderen. Dit betekent echter geen verandering in uw beveiligingshouding.
+Om [van Microsoft Secure Score](microsoft-secure-score.md) een betere vertegenwoordiger van uw beveiligingshouding te maken en de bruikbaarheid te verbeteren, voeren we in de nabije toekomst enkele wijzigingen door. Uw score en de maximaal mogelijke score zal veranderen. Dit betekent echter geen verandering in uw beveiligingshouding.
 
-Zie Wat is er nieuw in Microsoft Secure Score voor meer informatie over recente [wijzigingen?](microsoft-secure-score-new.md#whats-new)
+Zie Wat is er nieuw in Microsoft Secure Score voor meer informatie over recente [wijzigingen?](microsoft-secure-score.md#whats-new)
 
 ## <a name="june-2020"></a>Juni 2020
 

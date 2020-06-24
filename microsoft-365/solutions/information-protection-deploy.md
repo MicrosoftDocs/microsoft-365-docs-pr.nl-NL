@@ -5,7 +5,7 @@ author: brendacarter
 f1.keywords:
 - NOCSH
 manager: laurawi
-ms.date: 06/09/2020
+ms.date: 06/22/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -16,24 +16,41 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Configureer de beveiligings- en service-infrastructuur om uw gegevens te beschermen en zich te houden aan de privacyvoorschriften van gegevens.
-ms.openlocfilehash: 35ccfb21accd969c2a2cbdddde9a4ec1c7eeed64
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: ea0f5ead93dc631a28577a61f33bca3b601406f4
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695104"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854329"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>Informatiebescherming implementeren voor regelgeving voor gegevensprivacy met Microsoft 365
 
-Deze oplossing biedt richtlijnen voor het plannen en beschermen van persoonsgegevens die zijn opgeslagen in Microsoft 365-services en mogelijk onderworpen zijn aan regelgeving inzake gegevensprivacy, zoals de Algemene Verordening Gegevensbescherming (AVG) van de Europese Unie. Deze oplossing richt zich op de toepasselijke microsoft-functies voor informatiebescherming en naleving, Microsoft Compliance Score en beoordelingstools om u te helpen uw gegevens te kennen. 
- 
-Aanvullende informatie wordt ook verstrekt over het gebruik van Microsoft-besturingselementen voor identiteits-, apparaat- en bedreigingsbeveiliging voor uw gegevensprivacybehoeften, evenals hulpmiddelen voor het ontdekken en reageren op gegevensincidenten. 
+Uw organisatie kan onderworpen zijn aan regionale regelgeving inzake gegevensprivacy die vereist dat u rechten en controle over persoonlijke gegevens die in uw IT-infrastructuur zijn opgeslagen, zowel on-premises als in de cloud, moet beschermen, beheren en beheren. Het beste voorbeeld van een verordening inzake gegevensprivacy is de Algemene Verordening Gegevensbescherming (AVG) van de Europese Unie. Het niet naleven van de privacyregels kan leiden tot aanzienlijke boetes.
 
-## <a name="organization-of-this-guidance-material"></a>Organisatie van dit begeleidingsmateriaal
+Voorbeelden van de typen gegevens in Microsoft 365 zijn chatsessies in Microsoft Teams, e-mails in Exchange en bestanden in SharePoint en OneDrive. Deze oplossing biedt richtlijnen voor het identificeren, lokaliseren, beveiligen, beheren en reageren op privacyincidenten voor persoonlijke gegevens die zijn opgeslagen in Microsoft 365-services waarvoor privacyvoorschriften gelden.
+
+![Informatiebescherming implementeren voor gegevensprivacyregels](../media/information-protection-deploy/information-protection-deploy-big-picture.png)
+
+Aanvullende informatie wordt ook verstrekt over het gebruik van Microsoft 365-identiteits-, apparaat- en beschermingsbeveiligingscontroles voor uw gegevensprivacybehoeften. 
+
+Gebruik deze Microsoft 365-mogelijkheden en functies om te voldoen aan de criteria voor de bescherming van informatie voor naleving van de voorschriften inzake gegevensprivacy.
+
+| Functie | Beschrijving | Licenties |
+|:-------|:-----|:-------|
+| Compliance Manager | Beheer regelgevingsvoorwaarden met betrekking tot Microsoft-cloudservices met deze workflowgebaseerde risicobeoordelingstool in de Microsoft Service Trust Portal. | Microsoft 365 E3 en E5 |
+| Nalevingsscore (voorbeeld) | Bekijk een algemene score van uw huidige nalevingsconfiguratie en aanbevelingen voor het verbeteren ervan in het Microsoft 365 Compliance Center. | Microsoft 365 E3 en E5 |
+| Atp (Office Advanced Threat Protection) | Bescherm uw Microsoft 365-apps en -gegevens, zoals e-mailberichten, Office-documenten en samenwerkingshulpprogramma's, tegen aanvallen. | Microsoft 365 E3 en E5 | 
+| Vertrouwelijkheidslabels | Classificeer en bescherm de gegevens van uw organisatie zonder de productiviteit van gebruikers en hun vermogen om samen te werken te belemmeren door labels met verschillende beschermingsniveaus op e-mail, bestanden of sites te plaatsen. | Microsoft 365 E3 en E5 |
+| Gegevensverliesbescherming (DLP) | Risicovolle, onbedoelde of ongepaste delen detecteren, waarschuwen en blokkeren, zoals het delen van gegevens met persoonlijke gegevens, zowel intern als extern. | Microsoft 365 E3 en E5 | 
+| Labels en beleidsregels voor gegevensbewaring | Implementeer informatiebeheercontroles, zoals hoe lang gegevens en vereisten voor de opslag van persoonlijke gegevens op klanten moeten worden bijgehouden, om te voldoen aan het beleid of de gegevensregelgeving van uw organisatie. | Microsoft 365 E3 en E5 |
+| E-mailversleuteling | Verstuur en ontvang versleutelde e-mailberichten tussen mensen binnen en buiten uw organisatie die gereguleerde gegevens bevatten, zoals persoonlijke gegevens over klanten. | Microsoft 365 E3 en E5 |
+||||
+
+## <a name="organization-of-the-guidance-in-this-solution"></a>Organisatie van de begeleiding in deze oplossing
 
 Om u inzicht te geven in de Microsoft 365-hulpprogramma's die beschikbaar zijn voor het identificeren, beheren, beheren en controleren van persoonsgegevens die onderworpen zijn aan een of meer privacygerelateerde voorschriften, is deze richtlijnen ingedeeld in secties.
  
-![Informatiebescherming implementeren voor regelgeving inzake gegevensprivacy](../media/information-protection-deploy/information-protection-deploy-grid.png)
+![Informatiebescherming implementeren voor gegevensprivacyregels](../media/information-protection-deploy/information-protection-deploy-grid.png)
 
 Elk van deze secties komt overeen met een apart artikel in deze oplossing.
 
