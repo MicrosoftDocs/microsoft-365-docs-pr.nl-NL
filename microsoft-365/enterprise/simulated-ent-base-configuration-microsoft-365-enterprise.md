@@ -15,14 +15,15 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom:
 - Ent_TLGs
+- seo-marvel-apr2020
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Gebruik deze Testlabrichtlijnen om een gesimuleerde Enterprise-testomgeving te maken voor Microsoft 365 Enterprise.
-ms.openlocfilehash: 66d62677843843476baffac3f295e41eda71be69
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 486429bf9e1c0a88c9beb01a092f968256c1fa77
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42812764"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818493"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>De basisconfiguratie voor een gesimuleerde Enterprise
 
@@ -40,7 +41,7 @@ U kunt de resulterende omgeving gebruiken om de functies en functionaliteit van 
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart van alle artikelen in de folder met Microsoft 365 Enterprise-testlabrichtlijnen.
+> Ga naar de [Testlabrichtlijnen-stack van Microsoft 365](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de stack van Microsoft 365 voor Enterprise-testlabrichtlijnen.
 
 ## <a name="phase-1-create-a-simulated-intranet"></a>Fase 1: Creëer een gesimuleerd intranet
 
@@ -54,8 +55,8 @@ Bij deze methode gebruikt u een sjabloon van Azure Resource Manager (ARM) om het
 
 Voorafgaand aan de implementatie van de sjabloon leest u de pagina met de [Leesmij-sjabloon](https://github.com/maxskunkworks/TLG/tree/master/tlg-base-config_3-vm.m365-ems) en verzamelt u de volgende informatie:
 
-- De openbare DNS-domeinnaam van uw testomgeving (testlab.\<uw openbare domein>). U moet deze naam invoeren in het veld **domeinnaam** van de pagina **aangepaste implementatie**.
-- Een DNS-label voorvoegsel voor de Url's van de openbare IP-adressen van uw virtuele machines. U moet dit label invoeren in het veld **DNS-label voorvoegsel** van de pagina **aangepaste implementatie**.
+- De openbare DNS-domeinnaam van uw testomgeving (testlab.\<your public domain>). U moet deze naam invoeren in het veld **Domeinnaam** van de pagina **Aangepaste implementatie**.
+- Een DNS-label voorvoegsel voor de Url's van de openbare IP-adressen van uw virtuele machines. U moet dit label invoeren in het veld **DNS-label voorvoegsel** van de pagina **Aangepaste implementatie**.
 
 Nadat u de instructies hebt gelezen, klikt u op **implementeren naar Azure** op de pagina [Leesmij-sjabloon](https://github.com/maxskunkworks/TLG/tree/master/tlg-base-config_3-vm.m365-ems) om aan de slag te gaan.
 
@@ -130,7 +131,7 @@ Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name Corpnet -AddressPre
 $vnet | Set-AzVirtualNetwork
 ```
 
-Vervolgens maakt u de DC1-virtuele machine aan en configureert u deze als domeincontroller voor de **testlab.**\<uw openbare domein > AD DS-domein en een DNS-server voor de virtuele machines van het virtuele netwerk van TestLab. Als de naam van uw openbare domein bijvoorbeeld **<span>contoso</span>. com** is, is de DC1-virtuele machine een domeincontroller voor het **<span>testlab</span>. contoso.com**-domein.
+Vervolgens maakt u de DC1-virtuele machine en configureert u deze als een domeincontroller voor het **testlab.**\<your public domain> AD DS-domein en een DNS-server voor de virtuele machines van het Testlab-virtuele netwerk. Als de naam van uw openbare domein bijvoorbeeld **<span>contoso</span>. com** is, is de DC1-virtuele machine een domeincontroller voor het **<span>testlab</span>. contoso.com**-domein.
   
 Als u een virtuele machine van Azure wilt aanmaken voor DC1, vult u de naam van uw resourcegroep in en voert u deze opdrachten uit bij de opdrachtprompt van PowerShell op uw lokale computer.
   
@@ -180,7 +181,7 @@ Voeg vervolgens een extra gegevensschijf toe als een nieuw volume met de station
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
 ```
 
-Configureer DC1 vervolgens als een domeincontroller en DNS-server voor de **testlab.**\<uw openbare domein> domein. Geef de naam van uw openbare domein op, verwijder de \< en >-tekens en voer deze opdrachten uit op een Windows PowerShell-opdrachtprompt op beheerdersniveau op DC1.
+Configureer DC1 vervolgens als een domeincontroller en DNS-server voor het **testlab.**\<your public domain> -domein. Geef de naam van uw openbare domein op, verwijder de \< and >-tekens en voer deze opdrachten uit op een Windows PowerShell-opdrachtprompt op beheerdersniveau op DC1.
   
 ```powershell
 $yourDomain="<your public domain>"
@@ -257,7 +258,7 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 
 Vervolgens maakt u verbinding met de APP1-virtuele machine met de naam en het wachtwoord van het lokale APP1-administratoraccount en opent u een Windows PowerShell-opdrachtprompt.
   
-Als u de naamresolutie en de netwerkcommunicatie tussen APP1 en DC1 wilt controleren, voert u de opdracht **ping dc1.testlab.**\<naam van uw openbare domein> uit en controleert u of er vier antwoorden zijn.
+Als u de naamresolutie en de netwerkcommunicatie tussen APP1 en DC1 wilt controleren, voert u de opdracht **ping dc1. testlab.**\<your public domain name> uit en controleert u of er vier antwoorden zijn.
   
 Vervolgens voegt u de APP1-virtuele machine toe aan het TESTLAB-domein met deze opdrachten bij de Windows PowerShell-prompt.
   
@@ -315,7 +316,7 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 
 Vervolgens maakt u verbinding met de CLIENT1-virtuele machine met de naam en het wachtwoord van het lokale CLIENT1-administratoraccount en opent u een Windows PowerShell-opdrachtprompt.
   
-Als u de naamresolutie en de netwerkcommunicatie tussen CLIENT1 en DC1 wilt controleren, voert u de opdracht **ping dc1.testlab.**\<naam van uw openbare domein> uit op een Windows PowerShell-opdrachtprompt en controleert u of er vier antwoorden zijn.
+Als u de naamresolutie en de netwerkcommunicatie tussen CLIENT1 en DC1 wilt controleren, voert u de opdracht **ping dc1. testlab.**\<your public domain name> uit via de opdrachtprompt van Windows PowerShell en controleert u of er vier antwoorden zijn.
   
 Vervolgens voegt u de CLIENT1-virtuele machine toe aan het TESTLAB-domein met deze opdrachten bij de Windows PowerShell-prompt.
   
@@ -339,7 +340,7 @@ Controleer vervolgens of u toegang hebt tot web- en bestandssharebronnen op APP1
     
 4. Klik in het Startscherm op **Internet Explorer** en klik vervolgens op **OK**.
     
-5. Typ **http<span>://</span>app1.testab.**\<de naam van uw openbare domein>**/** in de adresbalk en druk vervolgens op ENTER. U ziet nu de standaardwebpagina voor Internet Information Services voor APP1.
+5. Typ **http<span>://</span>app1.testab.**\<your public domain name>**/** in de adresbalk en druk vervolgens op ENTER. U ziet nu de standaardwebpagina voor Internet Information Services voor APP1.
     
 6. Klik op de taakbalk van het bureaublad op het pictogram van de Verkenner.
     
