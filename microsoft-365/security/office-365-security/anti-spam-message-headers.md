@@ -14,33 +14,40 @@ search.appverid:
 ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen meer informatie krijgen over de koptekstvelden die aan berichten worden toegevoegd door EOP (Exchange Online Protection) om informatie te geven over het bericht en hoe het is verwerkt.
+description: Beheerders kunnen meer informatie krijgen over de velden met berichtkoppen die door Exchange Online Protection (EOP) worden toegevoegd aan berichten. Deze koptekstvelden bieden informatie over het bericht en hoe dit is verwerkt.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d63d173b90ffd868cfbeac212f2c9d5a6ee125c6
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 8ce0b906bb627a7de11e5a8a6db02c9c6f330a62
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208220"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755354"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Berichtkoppen tegen ongewenste e-mail in Microsoft 365
 
 In Microsoft 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken wordt door EOP de **X-Forefront-Antispam-Report**-koptekst gescand en ingevoegd in elk inkomend e-mailbericht. De velden in deze kop kunnen beheerders informatie bieden over het bericht en over hoe het is verwerkt. De velden in de kop **X-Microsoft-Antispam** bevatten extra informatie over bulkmail en phishing. Naast deze twee koppen worden door Exchange Online Protection ook resultaten over e-mailverificatie ingevoegd voor elk bericht dat wordt verwerkt in de kop **Authentication-results**.
 
-Zie [Internetberichtkoppen weergeven in Outlook](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c) voor meer informatie over het weergeven van een e-mailberichtkop in verschillende e-mailclients.
+Zie [Internetberichtkoppen weergeven in Outlook](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c) voor meer informatie over het weergeven van een e-mailberichtkop in verschillende e-mailclients.
 
 > [!TIP]
-> U kunt de inhoud van een berichtkop kopiëren en plakken in het hulpmiddel [Message Analyzer](https://testconnectivity.microsoft.com/?tabid=mha). Met dit hulpprogramma kunt u headers parseren en deze een leesbare indeling geven.
+> U kunt de inhoud van een berichtkop kopiëren en plakken in het hulpmiddel [Message Header Analyzer](https://mha.azurewebsites.net/). Met dit hulpprogramma kunt u headers parseren en deze een leesbare indeling geven.
 
 ## <a name="x-forefront-antispam-report-message-header-fields"></a>Berichtkopvelden van de vorm X-Forefront-Antispam-Report
 
-Na het openen van de berichtkopinformatie zoekt u **X-Forefront-Antispam-Report** en zoekt u deze velden. Andere velden in deze kop worden uitsluitend door het Microsoft-antispamteam voor diagnostische doeleinden gebruikt.
+Nadat u de informatie in de kop van het bericht hebt, zoekt u de koptekst van het **X-Forefront-Antispam-Report**. Er staan meerdere paren van koptekstvelden en -waarden in deze koptekst gescheiden door puntkomma's (;). Bijvoorbeeld:
+
+`...CTRY:;LANG:hr;SCL:1;SRV:;IPV:NLI;SFV:NSPM;PTR:;CAT:NONE;SFTY:;...`
+
+De afzonderlijke velden en waarden worden beschreven in de volgende tabel.
+
+> [!NOTE]
+> De koptekst **X-Forefront-Antispam-Report** bevat vele verschillende koptekstvelden en -waarden. Andere velden in deze kop die niet worden beschreven in de tabel worden uitsluitend door het Microsoft-antispamteam voor diagnostische doeleinden gebruikt.
 
 |||
 |---|---|
 |**Berichtkopveld**|**Beschrijving**|
 |ARC|Het ARC-protocol heeft de volgende berichtkoppen: <ul><li>AAR: hiermee wordt de inhoud van de berichtkop met verificatieresultaten van DMARC vastgelegd.</li><li>AMS: deze kop bevat cryptografische handtekeningen van het bericht.</li><li>AS: bevat cryptografische handtekeningen van de berichtkoppen. Deze koptekst bevat een tag voor een ketenvalidatie met de naam 'cv=', die het resultaat van de ketenvalidatie bevat als **none**, **pass** of **fail**.</li></ul>|
-|CAT:|De categorie beveiligingsbeleid, toegepast op het bericht: <ul><li>BULK: bulk</li><li>DIMP: imitatie van domein</li><li>GIMP: Mailbox Intelligence</li><li>HPHSH or HPHISH: phishing van hoge waarschijnlijkheid </li><li>HSPM: spam van hoge waarschijnlijkheid</li><li>MALW: malware</li><li>PHSH: phishing</li><li>SPM: spam</li><li>SPOOF: spoofing</li><li>UIMP: imitatie van gebruiker</li></ul><br/>Een inkomend bericht kan zijn gemarkeerd door meerdere beveiligingswijzen en meerdere detectiescans. Beleidsregels hebben verschillende prioriteiten en de regel met de hoogste prioriteit wordt het eerst toegepast. Zie [Welke beleidsregel wordt toegepast wanneer meerdere beveiligingswijzen en detectiescans op uw e-mail worden uitgevoerd?](how-policies-and-protections-are-combined.md) voor meer informatie.|
+|CAT:|De categorie beveiligingsbeleid, toegepast op het bericht: <ul><li>BULK: bulk</li><li>DIMP: imitatie van domein</li><li>GIMP: op imitatie gebaseerde postvakintelligentie</li><li>HPHSH or HPHISH: phishing van hoge waarschijnlijkheid</li><li>HSPM: spam van hoge waarschijnlijkheid</li><li>MALW: malware</li><li>PHSH: phishing</li><li>SPM: spam</li><li>SPOOF: spoofing</li><li>UIMP: imitatie van gebruiker</li><li>AMP: anti-malware</li><li>SAP: veilige bijlagen</li><li>OSPM: uitgaande spam</li></ul><br/>Een inkomend bericht kan zijn gemarkeerd door meerdere beveiligingswijzen en meerdere detectiescans. Beleidsregels hebben verschillende prioriteiten en de regel met de hoogste prioriteit wordt het eerst toegepast. Zie [Welke beleidsregel wordt toegepast wanneer meerdere beveiligingswijzen en detectiescans op uw e-mail worden uitgevoerd?](how-policies-and-protections-are-combined.md) voor meer informatie.|
 |CIP: \[IP-adres\]|Het IP-verbindingsadres. U kunt dit IP-adres gebruiken in de IP-acceptatielijst of IP-blokkeringslijst. Zie [Verbindingsfiltering configureren](configure-the-connection-filter-policy.md) voor meer informatie.|
 |CTRY|Het bronland wordt bepaald door het verbindings-IP-adres. Dit hoeft niet hetzelfde te zijn als het oorspronkelijke verzend-IP-adres.|
 |H:\[helostring\]|De HELO- of EHLO-tekenreeks van de verbindende e-mailserver.|

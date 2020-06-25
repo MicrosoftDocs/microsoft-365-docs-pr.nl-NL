@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Meer informatie over de typen groepen die u kunt gebruiken.
-ms.openlocfilehash: b81bb09efedc503b49d2ed4aa10b1e7153116f14
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 333d929e72647421951eefa50508c23dddc196ac
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388027"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780455"
 ---
 # <a name="compare-groups"></a>Groepen vergelijken
 
 In de sectie **Groepen** van het Microsoft 365-beheercentrum kunt u de volgende typen groepen maken en beheren: 
 
-- **Microsoft 365-groepen** worden gebruikt voor samenwerking tussen gebruikers, zowel binnen als buiten uw bedrijf.
+- **Microsoft 365-groepen** (voorheen Office 365-groepen) worden gebruikt voor samenwerking tussen gebruikers, zowel binnen als buiten uw bedrijf.
 - **Distributiegroepen** worden gebruikt voor het verzenden van meldingen aan een groep personen.
 - **Beveiligingsgroepen** worden gebruikt voor het verlenen van toegang tot SharePoint-bronnen zoals websites.
 - **Beveiligingsgroepen met e-mail** worden gebruikt om toegang te verlenen tot SharePoint-bronnen en het verzenden van meldingen aan die gebruikers.
@@ -81,4 +81,4 @@ Momenteel is het niet mogelijk een gedeeld postvak te migreren naar een Microsof
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Meer informatie over Microsoft 365-groepen](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[Meer informatie over Microsoft 365-groepen](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)

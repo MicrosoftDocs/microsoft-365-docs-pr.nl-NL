@@ -16,14 +16,15 @@ ms.collection:
 ms.custom:
 - TLG
 - Ent_TLGs
+- seo-marvel-apr2020
 ms.assetid: ''
 description: 'Overzicht: Wachtwoord-hash-synchronisatie en -aanmelding configureren en demonstreren voor uw Microsoft 365-testomgeving.'
-ms.openlocfilehash: 7b1ba549a9ac9d3faec8b717a0f76cca1200352b
-ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
+ms.openlocfilehash: 2d5fbd3ed2a2afb994fc36f5ba3a15a8c55a274e
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "44371438"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819386"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Wachtwoord-hash-synchronisatie voor uw Microsoft 365-testomgeving
 
@@ -39,7 +40,7 @@ Er zijn twee fasen om deze testomgeving in te stellen:
 2. Azure AD Connect op APP1 installeren en configureren.
     
 > [!TIP]
-> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart met alle artikelen over de Microsoft 365 Enterprise-testlabrichtlijnen.
+> Ga naar de [Testlabrichtlijnen-stack van Microsoft 365](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de stack van Microsoft 365 voor Enterprise-testlabrichtlijnen.
   
 ## <a name="phase-1-create-the-microsoft-365-simulated-enterprise-test-environment"></a>Fase 1: De Microsoft 365-testomgeving voor een gesimuleerde onderneming maken
 
@@ -50,40 +51,40 @@ Volg de instructies in [Basisconfiguratie voor gesimuleerde onderneming in Micro
 Deze configuratie bestaat uit: 
   
 - Een betaald of proefabonnement op Microsoft 365 E5 of Office 365 E5.
-- Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 in een virtueel Azure-netwerk. DC1 is een domeincontroller voor de testlab.\<uw openbare domeinnaam > AD DS-domein. Fase 2: Het testlab-domein maken en registreren
+- Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 in een virtueel Azure-netwerk. DC1 is een domeincontroller voor het testlab.\<your public domain name> AD DS-domein.
 
-## <a name="phase-2-create-and-register-the-testlab-domain"></a>In deze fase voegt u een openbaar DNS-domein toe en voegt u dit toe aan uw abonnement.
+## <a name="phase-2-create-and-register-the-testlab-domain"></a>Fase 2: Het testlab-domein maken en registreren
 
-Werk eerst met uw openbare DNS-registratieprovider om een nieuwe openbare DNS-domeinnaam te maken op basis van uw huidige domeinnaam en deze toe te voegen aan uw abonnement.
+In deze fase voegt u een openbaar DNS-domein toe en voegt u dit toe aan uw abonnement.
 
-U wordt aangeraden de naam **testlab.**\<uw openbare domein > te gebruiken. Als de naam van uw openbare domein bijvoorbeeld **<span>contoso</span>. com** is, voegt u de openbare domeinnaam **<span>testlab</span>.contoso.com** toe. Vervolgens voegt u het **testlab.**\<uw openbare domein > domein toe aan uw betaalde of proefabonnement op Microsoft 365 of Office 365 door het domeinregistratieproces te doorlopen.
+Werk eerst met uw openbare DNS-registratieprovider om een nieuwe openbare DNS-domeinnaam te maken op basis van uw huidige domeinnaam en deze toe te voegen aan uw abonnement. U wordt aangeraden de naam **testlab.**\<your public domain> te gebruiken. Als de naam van uw openbare domein bijvoorbeeld **<span>contoso</span>. com** is, voegt u de openbare domeinnaam **<span>testlab</span>.contoso.com** toe.
   
-Dit bestaat uit het toevoegen van extra DNS-records aan het **testlab.**\<uw openbare domein > domein. Zie voor meer informatie [Een domein aan Office 365 toevoegen](https://docs.microsoft.com/office365/admin/setup/add-domain). Dit is de resulterende configuratie. De registratie van de naam van uw testlab-domein Deze configuratie bestaat uit: 
+Vervolgens voegt u het **testlab.**\<your public domain>- domein toe aan uw betaalde of proefabonnement op Microsoft 365 of Office 365 door het domeinregistratieproces te doorlopen. Dit bestaat uit het toevoegen van extra DNS-records aan het **testlab.**\<your public domain>- domein. Zie voor meer informatie [Een domein aan Office 365 toevoegen](https://docs.microsoft.com/office365/admin/setup/add-domain). 
 
-Een betaald of proefabonnement op Microsoft 365 E5 of Office 365 E5 met het DNS-domein testlab.\<uw openbare domeinnaam> geregistreerd.
+Dit is de resulterende configuratie.
   
-![Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk.](../media/password-hash-sync-m365-ent-test-environment/Phase2.png)
+![De registratie van de naam van uw testlab-domein](../media/password-hash-sync-m365-ent-test-environment/Phase2.png)
   
-U ziet hoe de testlab.\<uw openbare domeinnaam > nu:
+Deze configuratie bestaat uit:
 
-- Ondersteund wordt door openbare DNS-records. Geregistreerd is in de Microsoft 365-abonnementen.
+- Een betaald of proefabonnement op Microsoft 365 E5 of Office 365 E5 met het DNS-domein testlab.\<your public domain name> geregistreerd.
+- Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk.
+
+U ziet hoe de testlab.\<your public domain name> nu is:
+
+- Ondersteund wordt door openbare DNS-records.
+- Geregistreerd is in de Microsoft 365-abonnementen.
 - Het AD DS-domein op uw gesimuleerde intranet is.
-
-Fase 3: Azure AD Connect op APP1 installeren In deze fase installeert en configureert u het Azure AD Connect-hulpprogramma op APP1, waarna u controleert of dit werkt.
-
-- Eerst installeert en configureert u Azure AD Connect op APP1.
-- Ga naar het [Azure-portal](https://portal.azure.com), meld u aan met uw globale beheerdersaccount en maak vervolgens verbinding met APP1 via het TESTLAB\\Gebruiker1-account.
-- Open, vanaf het bureaublad van APP1, een Windows PowerShell-opdrachtprompt op beheerdersniveau en voer deze opdrachten uit om verbeterde beveiliging van Internet Explorer uit te schakelen:
      
-## <a name="phase-3-install-azure-ad-connect-on-app1"></a>Klik in de taakbalk op **Internet Explorer** en ga naar [https://aka.ms/aadconnect](https://aka.ms/aadconnect).
+## <a name="phase-3-install-azure-ad-connect-on-app1"></a>Fase 3: Azure AD Connect op APP1 installeren
 
-Klik op de pagina Microsoft Azure Active Directory Connect op **Download** en klik vervolgens op **Uitvoeren**.
+In deze fase installeert en configureert u het Azure AD Connect-hulpprogramma op APP1, waarna u controleert of dit werkt.
   
-Klik op de pagina **Welkom bij Azure AD Connect** op **Ik ga akkoord** en vervolgens op **Volgende**.
+Eerst installeert en configureert u Azure AD Connect op APP1.
 
-1. Klik op de pagina **Express-instellingen** op **Express-instellingen gebruiken**.
+1. Ga naar het [Azure-portal](https://portal.azure.com), meld u aan met uw globale beheerdersaccount en maak vervolgens verbinding met APP1 via het TESTLAB\\Gebruiker1-account.
     
-2. Typ op de pagina **Verbinding maken met Azure AD** de naam van het globale beheerdersaccount in bij **Gebruikersnaam** en het wachtwoord bij **Wachtwoord** en klik vervolgens op **Volgende**.
+2. Open, vanaf het bureaublad van APP1, een Windows PowerShell-opdrachtprompt op beheerdersniveau en voer deze opdrachten uit om verbeterde beveiliging van Internet Explorer uit te schakelen:
     
    ```powershell
    Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Active Setup\Installed Components\{A509B1A7-37EF-4b3f-8CFC-4F3A74704073}" -Name "IsInstalled" -Value 0
@@ -91,62 +92,62 @@ Klik op de pagina **Welkom bij Azure AD Connect** op **Ik ga akkoord** en vervol
    Stop-Process -Name Explorer -Force
    ```
 
-3. Typ op de pagina **Verbinding maken met AD DS** **TESTLAB\\Gebruiker1** in bij **Gebruikersnaam,** het wachtwoord bij **Wachtwoord** en klik vervolgens op **Volgende**.
+3. Klik in de taakbalk op **Internet Explorer** en ga naar [https://aka.ms/aadconnect](https://aka.ms/aadconnect).
     
-4. Klik op de pagina **Gereed voor configureren** op **Installeren**.
+4. Klik op de pagina Microsoft Azure Active Directory Connect op **Download** en klik vervolgens op **Uitvoeren**.
     
-5. Klik op de pagina **Configuratie voltooid** op **Afsluiten**.
+5. Klik op de pagina **Welkom bij Azure AD Connect** op **Ik ga akkoord** en vervolgens op **Volgende**.
     
-6. Ga in Internet Explorer naar het Microsoft 365-beheercentrum ([https://portal.microsoft.com](https://portal.microsoft.com)).
+6. Klik op de pagina **Express-instellingen** op **Express-instellingen gebruiken**.
     
-7. Selecteer **Gebruikers > Actieve gebruikers** op de linkernavigatiebalk.
+7. Typ op de pagina **Verbinding maken met Azure AD** de naam van het globale beheerdersaccount in bij **Gebruikersnaam** en het wachtwoord bij **Wachtwoord** en klik vervolgens op **Volgende**.
     
-8. Bekijk het account met de naam **Gebruiker1**.
+8. Typ op de pagina **Verbinding maken met AD DS** **TESTLAB\\Gebruiker1** in bij **Gebruikersnaam,** het wachtwoord bij **Wachtwoord** en klik vervolgens op **Volgende**.
     
-9. Dit account is afkomstig uit het TESTLAB AD DS-domein en is het bewijs dat de adreslijstsynchronisatie heeft gewerkt.
+9. Klik op de pagina **Gereed voor configureren** op **Installeren**.
     
-10. Klik op het **Gebruiker1**-account en klik vervolgens op **Licenties en apps**.
+10. Klik op de pagina **Configuratie voltooid** op **Afsluiten**.
     
-11. Selecteer bij **Productlicenties** uw locatie (indien nodig), schakel de **Office 365 E5**-licentie uit en schakel de **Microsoft 365 E5**-licentie in.
+11. Ga in Internet Explorer naar het Microsoft 365-beheercentrum ([https://portal.microsoft.com](https://portal.microsoft.com)).
     
-12. Klik onderaan de pagina op **Opslaan** en vervolgens op **Afsluiten**.
+12. Selecteer **Gebruikers > Actieve gebruikers** op de linkernavigatiebalk.
     
-    Test vervolgens of u zich kunt aanmelden bij uw abonnement met de<strong>gebruiker1@testlab.</strong>\<uw domeinnaam> gebruikersnaam van het Gebruiker1-account. Meld u af bij APP1 en meld u weer aan met een ander account.
+    Bekijk het account met de naam **Gebruiker1**. Dit account is afkomstig uit het TESTLAB AD DS-domein en is het bewijs dat de adreslijstsynchronisatie heeft gewerkt.
     
-13. Wanneer u om een gebruikersnaam en wachtwoord wordt gevraagd, typt u <strong>gebruiker1@testlab.</strong>\<uw domeinnaam> en het wachtwoord voor Gebruiker1 in.
+13. Klik op het **Gebruiker1**-account en klik vervolgens op **Licenties en apps**.
     
-14. U moet u nu kunnen aanmelden als Gebruiker1. 
+14. Selecteer bij **Productlicenties** uw locatie (indien nodig), schakel de **Office 365 E5**-licentie uit en schakel de **Microsoft 365 E5**-licentie in. 
 
-15. Zoals u ziet, heeft Gebruiker1 de machtigingen van een domeinbeheerder voor het TESTLAB AD DS-domein, maar Gebruiker1 is geen globale beheerder.
+15. Klik onderaan de pagina op **Opslaan** en vervolgens op **Afsluiten**.
     
-Daarom wordt het pictogram van de **Beheerder** niet weergegeven als optie. Dit is de resulterende configuratie.
+Test vervolgens of u zich kunt aanmelden bij uw abonnement met de gebruikersnaam <strong>gebruiker1@testlab.</strong>\<your domain name> van het gebruiker1-account.
 
-1. De gesimuleerde onderneming in een testomgeving met wachtwoord-hash-synchronisatie
+1. Meld u af bij APP1 en meld u weer aan met een ander account.
 
-2. Deze configuratie bestaat uit: Een betaald of proefabonnement op Microsoft 365 E5 of Office 365 E5 met het DNS-domein TESTLAB.\<uw domeinnaam> geregistreerd. Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. 
+2. Wanneer u om een gebruikersnaam en wachtwoord wordt gevraagd, typt u <strong>gebruiker1@testlab.</strong>\<your domain name> en het wachtwoord voor gebruiker1. U moet u nu kunnen aanmelden als Gebruiker1. 
  
-Azure AD Connect wordt uitgevoerd op APP1 om het AD DS-domein TESTLAB te synchroniseren met de Azure AD-tenant van uw Microsoft 365-abonnement. Het Gebruiker1-account in het TESTLAB AD DS-domein is gesynchroniseerd met de Azure AD-tenant. 
+Zoals u ziet, heeft Gebruiker1 de machtigingen van een domeinbeheerder voor het TESTLAB AD DS-domein, maar Gebruiker1 is geen globale beheerder. Daarom wordt het pictogram van de **Beheerder** niet weergegeven als optie. 
 
-Volgende stap
+Dit is de resulterende configuratie.
 
-![Verken aanvullende [identiteits](m365-enterprise-test-lab-guides.md#identity)functies en -mogelijkheden in uw testomgeving.](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
+![De gesimuleerde onderneming in een testomgeving met wachtwoord-hash-synchronisatie](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
 
-Zie ook 
+Deze configuratie bestaat uit: 
   
-- [Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md) [Microsoft 365 Enterprise implementeren](deploy-microsoft-365-enterprise.md)
-- [Microsoft 365 Enterprise-documentatie](https://docs.microsoft.com/microsoft-365-enterprise/) Azure AD Connect runs on APP1 to synchronize the TESTLAB AD DS domain to the Azure AD tenant of your Microsoft 365 subscription periodically.
-- The User1 account in the TESTLAB  AD DS domain has been synchronized with the Azure AD tenant.
+- Een betaald of proefabonnement op Microsoft 365 E5 of Office 365 E5 met het DNS-domein TESTLAB.\<your domain name> geregistreerd.
+- Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. Azure AD Connect wordt uitgevoerd op APP1 om het AD DS-domein TESTLAB te synchroniseren met de Azure AD-tenant van uw Microsoft 365-abonnement.
+- Het Gebruiker1-account in het TESTLAB AD DS-domein is gesynchroniseerd met de Azure AD-tenant.
 
-## <a name="next-step"></a>Next step
+## <a name="next-step"></a>Volgende stap
 
-Explore additional <bpt id="p1">[</bpt>identity<ept id="p1">](m365-enterprise-test-lab-guides.md#identity)</ept> features and capabilities in your test environment.
+Verken aanvullende [identiteits](m365-enterprise-test-lab-guides.md#identity)functies en -mogelijkheden in uw testomgeving.
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a>Zie ook
 
-<bpt id="p1">[</bpt>Microsoft 365 Enterprise Test Lab Guides<ept id="p1">](m365-enterprise-test-lab-guides.md)</ept>
+[Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 
-<bpt id="p1">[</bpt>Deploy Microsoft 365 Enterprise<ept id="p1">](deploy-microsoft-365-enterprise.md)</ept>
+[Microsoft 365 Enterprise implementeren](deploy-microsoft-365-enterprise.md)
 
-<bpt id="p1">[</bpt>Microsoft 365 Enterprise documentation<ept id="p1">](https://docs.microsoft.com/microsoft-365-enterprise/)</ept>
+[Microsoft 365 Enterprise-documentatie](https://docs.microsoft.com/microsoft-365-enterprise/)
 
 

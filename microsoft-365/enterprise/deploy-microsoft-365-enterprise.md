@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: seo-marvel-apr2020
 description: Meer informatie over de verschillende resources die u kunt gebruiken voor de implementatie van Microsoft 365 voor ondernemingen in uw organisatie.
-ms.openlocfilehash: 42b193683a2e0c5efce73b62b00747b20baec05a
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
+ms.openlocfilehash: c076a3f96c7943d9e37c2d5bd7d6ce17d27ca3d6
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268328"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819326"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>Microsoft 365 voor ondernemingen implementeren
 
@@ -59,7 +59,7 @@ Als u Microsoft 365 voor ondernemingen zelf wilt implementeren, kunt u:
 
   **Als u een kleinere of nieuwere organisatie bent**, volgt u de fasen om de infrastructuur methodisch uit te bouwen.
 
-  U kunt echter de fasen of delen van de fasen van deze infrastructuur in elke gewenste volgorde implementeren, [een voor een of parallel](deployment-strategies-microsoft-365-enterprise.md), voor de integratie met uw huidige infrastructuur, afstemming op uw IT-plannen en -resources en om te voldoen aan uw zakelijke behoeften. Klik [hier](deploy-foundation-infrastructure-non-enterprises.md) voor een vereenvoudigde implementatie voor middelgrote bedrijven.
+  U kunt echter de fasen of delen van de fasen van deze infrastructuur in elke gewenste volgorde implementeren, [een voor een of parallel](deployment-strategies-microsoft-365-enterprise.md), voor de integratie met uw huidige infrastructuur, afstemming op uw IT-plannen en -resources en om te voldoen aan uw zakelijke behoeften. Voor een vereenvoudigde implementatie voor niet-ondernemingen, gaat u naar [foundation-infrastructuur voor niet-ondernemingen](deploy-foundation-infrastructure-non-enterprises.md).
 
   **Als u een grote onderneming bent**, bekijkt u de fasen als lagen IT-infrastructuur in plaats van een gedefinieerd pad en bepaalt u hoe u het beste zo te werk kunt gaan dat er wordt voldaan aan de vereisten van elke laag in uw organisatie.
 
@@ -71,7 +71,7 @@ Hier ziet u de relatie tussen de basisinfrastructuur en de workloads.
 
 Workloads worden boven op de basisinfrastructuur uitgevoerd. U hoeft echter niet alle fasen van de basisinfrastructuur te laten uitbouwen om workloads voor productiviteit en samenwerking te gaan gebruiken.
 
-Ga [hier](deploy-foundation-infrastructure.md) zelf aan de slag met uw end-to-end-implementatietraject.
+Ga zelf aan de slag met uw end-to-end implementatiereis op [Microsoft 365 voor Enterprise Foundation-infrastructuur](deploy-foundation-infrastructure.md).
 
 ## <a name="take-a-test-drive"></a>Uitproberen
 

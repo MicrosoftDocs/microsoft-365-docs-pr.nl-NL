@@ -15,14 +15,15 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom:
 - Ent_TLGs
+- seo-marvel-apr2020
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Gebruik deze testlabrichtlijnen om een lichtgewicht testomgeving te maken voor Microsoft 365 Enterprise.
-ms.openlocfilehash: 04e63b1c3d9d35bd636041f8be7655ab17b1d165
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7a4800d374416a1e197536bc1a867d3fbc4b1243
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631607"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818751"
 ---
 # <a name="the-lightweight-base-configuration"></a>De lichtgewicht basisconfiguratie
 
@@ -37,7 +38,7 @@ U kunt de resulterende omgeving gebruiken om de functies en functionaliteit van 
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
   
 > [!TIP]
-> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart met alle artikelen in de stack met Microsoft 365 Enterprise-testlabrichtlijnen.
+> Klik op [Testlabrichtlijnen-stack van Microsoft 365](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de stack van Microsoft 365 voor Enterprise-testlabrichtlijnen.
 
 ## <a name="phase-1-create-your-office-365-e5-subscription"></a>Fase 1: Maak uw Office 365 E5-abonnement
 
@@ -227,7 +228,7 @@ Haal de naam van uw abonnement op met de volgende opdracht.
 Get-AzSubscription | Sort Name | Select Name
 ```
 
-Stel uw Azure-abonnement in. Vervang alles binnen de aanhalingstekens, inclusief de \< en >-tekens, met de juiste naam.
+Stel uw Azure-abonnement in. Vervang alles binnen de aanhalingstekens, inclusief de \< and >-tekens, met de juiste naam.
   
 ```powershell
 $subscr="<subscription name>"
@@ -240,7 +241,7 @@ Vervolgens maakt u een nieuwe resourcegroep aan. Als u de naam van een unieke re
 Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
-Maak uw nieuwe resourcegroep aan met deze opdrachten. Vervang alles binnen de aanhalingstekens, inclusief de \< en >-tekens, met de juiste namen.
+Maak uw nieuwe resourcegroep aan met deze opdrachten. Vervang alles binnen de aanhalingstekens, inclusief de \< and >-tekens, met de juiste namen.
   
 ```powershell
 $rgName="<resource group name>"

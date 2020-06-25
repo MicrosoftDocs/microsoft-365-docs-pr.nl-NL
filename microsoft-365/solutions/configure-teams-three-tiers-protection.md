@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: Configuratieaanbevelingen voor het beveiligen van bestanden in Microsoft Teams.
-ms.openlocfilehash: 129baed3286e445b9e0e440d4ec7f7a3402d3305
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 643ca5d5c340dc72cb375c114c2c7edaecf3dd46
+ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159429"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702510"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Teams met drie beschermingsniveaus configureren
 
@@ -50,7 +50,7 @@ Zie de volgende bronnen voor meer informatie over deze lagen en functionaliteite
 
 De volgende tabel bevat een overzicht van de configuraties voor elke laag. Gebruik deze configuraties als uitgangspunt en pas de configuraties aan de behoeften van uw organisatie aan. Het is mogelijk dat u niet elke laag nodig hebt.
 
-||**Basislijn (openbaar)**|**Basislijn (privé)**|**Gevoelig**|**Zeer gevoelig**|
+||Basislijn (openbaar)|Basislijn (privé)|Gevoelig|Zeer gevoelig|
 |:-----|:-----|:-----|:-----|:-----|
 |Privé of openbaar team|Openbaar|Privé|Privé|Privé|
 |Wie heeft er toegang?|Iedereen in de organisatie, waaronder B2B-gebruikers.|Alleen leden van het team. Anderen kunnen toegang aanvragen tot de bijbehorende site.|Alleen leden van het team.|Alleen leden van het team.|

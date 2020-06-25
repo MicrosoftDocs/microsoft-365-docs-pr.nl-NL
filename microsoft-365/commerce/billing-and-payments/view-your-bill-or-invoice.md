@@ -28,16 +28,16 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: 2ae3ea58-4fce-4592-91d6-46e9ae3ec218
 description: U vindt uw factuur of factuuroverzicht in het Microsoft 365-beheercentrum. U kunt ook een kopie van uw factuur opslaan en afdrukken.
-ms.openlocfilehash: d034e59e80af6396867282f3e7c23179c332c251
-ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
+ms.openlocfilehash: 7360f2bb73f78450143d5f1428ae90aa5bc0e0a1
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407942"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44816995"
 ---
 # <a name="view-your-bill-or-invoice"></a>Uw rekening of factuur weergeven
 
-Dit artikel is bedoeld voor personen met een Microsoft 365 voor bedrijven-abonnement. U moet een globale beheerder of factureringsbeheerder zijn om de stappen in dit artikel uit te voeren.
+This article is for people who have a Microsoft 365 for business subscription. You must be a global admin or billing admin to do the steps described in this article.
   
 Hebt u hulp nodig bij de interpretatie van de kosten die worden weergegeven op uw factuur? Zie [Inzicht in uw rekening of factuur](understand-your-invoice2.md) voor een gedetailleerde uitleg.
   
@@ -49,13 +49,13 @@ Hebt u hulp nodig bij de interpretatie van de kosten die worden weergegeven op u
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGmo] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
 ## <a name="view-a-bill-or-invoice"></a>Een rekening of factuur bekijken
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het Beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Facturen en betalingen</a>.
+1. Ga in het Beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Facturen en betalingen</a>.
 
 ::: moniker-end
 
@@ -71,21 +71,20 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
 
 ::: moniker-end
 
-2. Selecteer een datumbereik in de vervolgkeuzelijst en kies vervolgens de order die u wilt weergeven.
+2. Selecteer in het tabblad **Facturen** een datumbereik in de vervolgkeuzelijst en kies vervolgens de order die u wilt weergeven.
 
 3. Op de overzichtspagina ziet u het volgende:
 
-  - Het totaalsaldo, het huidige verschuldigde bedrag, de vervaldatum van de betaling, het bedrag van de laatste betaling en de datum waarop deze is ontvangen.
+    - Het totaalsaldo, het huidige verschuldigde bedrag, de vervaldatum van de betaling, het bedrag van de laatste betaling en de datum waarop deze is ontvangen.
 
-  - Betalingsinstructies.
+    - Betalingsinstructies.
 
-  - Een registratie van eerdere betalingsdatums en de bijbehorende betaalde bedragen.
+    - Een registratie van eerdere betalingsdatums en de bijbehorende betaalde bedragen.
 
-  - De datum waarop de order is gemaakt en het ordernummer.
+    - De datum waarop de order is gemaakt en het ordernummer.
 
 4. Als u een PDF-versie van de factuur wilt afdrukken of opslaan, klikt u op **PDF downloaden**.
 
-  
 ## <a name="related-articles"></a>Verwante artikelen
 
 [Betalen met factuur, creditcard of via bankrekening](pay-for-your-subscription.md)

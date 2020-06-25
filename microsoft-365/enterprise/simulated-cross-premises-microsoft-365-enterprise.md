@@ -15,13 +15,14 @@ search.appverid:
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
+ms.custom: seo-marvel-apr2020
 description: 'Samenvatting: maak een gesimuleerd cross-premises virtueel netwerk in Microsoft Azure als een Microsoft 365-testomgeving.'
-ms.openlocfilehash: 52ba80d8613f44b252389da87891359eadae752a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 6a9eb7377ff7ce3aa5b251d345e57ae2a25ba926
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42810449"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817069"
 ---
 # <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a>Gesimuleerd cross-premises virtueel netwerk in een Microsoft 365-testomgeving
 
@@ -63,7 +64,7 @@ U kunt de resulterende omgeving gebruiken om de functies en functionaliteit van 
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart met alle artikelen in de stack met Microsoft 365 Enterprise-testlabrichtlijnen.
+> Ga naar de [Testlabrichtlijnen-stack van Microsoft 365](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de stack van Microsoft 365 voor Enterprise-testlabrichtlijnen.
 
 ## <a name="phase-1-configure-the-testlab-virtual-network"></a>Fase 1: het virtuele TestLab-netwerk configureren.
 
@@ -94,7 +95,7 @@ Haal de naam van uw abonnement op met behulp van de volgende opdracht.
 Get-AzSubscription | Sort Name | Select Name
 ```
 
-Stel uw Azure-abonnement in. Vervang alles binnen de aanhalingstekens, inclusief de \< en >-tekens, met de juiste namen.
+Stel uw Azure-abonnement in. Vervang alles binnen de aanhalingstekens, inclusief de \< and >-tekens, met de juiste namen.
   
 ```powershell
 $subscrName="<subscription name>"
@@ -208,7 +209,7 @@ U bent nu gereed om te experimenteren met de extra functies van [Microsoft 365 E
   
 ## <a name="next-steps"></a>Volgende stappen
 
-Bekijk de volgende extra sets Testlabrichtlijnen:
+Verken de volgende extra sets testlabrichtlijnen:
   
 - [Identiteit](m365-enterprise-test-lab-guides.md#identity)
 - [Mobile Device Management](m365-enterprise-test-lab-guides.md#mobile-device-management)
