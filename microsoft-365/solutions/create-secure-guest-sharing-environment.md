@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: In dit artikel vindt u meer informatie over de beschikbare opties voor het maken van een veilige omgeving voor het delen met een gast in Microsoft 365.
-ms.openlocfilehash: b567be8df8d0b9dc96400627c6607560fefd9c39
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 9997fee5c12b54642304270e379cd09ca75b5033
+ms.sourcegitcommit: 5e8901e7e571f20ede04f460bd3e7077dda004ca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159477"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874892"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Een beveiligde omgeving voor het delen met gasten maken
 
@@ -40,7 +40,7 @@ Dit scenario omvat:
 
 Voor een aantal van de opties die in dit artikel worden beschreven, moeten gasten een account hebben in Azure Active Directory. Als u er zeker van wilt zijn dat gasten worden opgenomen in de adreslijst wanneer u bestanden en mappen met hen deelt, gebruikt u de [SharePoint- en OneDrive-integratie met Azure AD B2B Preview](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).
 
-Merk op dat we het in dit artikel niet hebben over het inschakelen van instellingen voor het delen met gasten. Zie [Samenwerken met personen buiten uw organisatie](https://docs.microsoft.com/Office365/Enterprise/collaborate-with-people-outside-your-organization) voor meer informatie over het inschakelen van de functie voor het delen met gasten onder verschillende scenario's.
+Merk op dat we het in dit artikel niet hebben over het inschakelen van instellingen voor het delen met gasten. Zie [Samenwerken met personen buiten uw organisatie](collaborate-with-people-outside-your-organization.md) voor meer informatie over het inschakelen van de functie voor het delen met gasten onder verschillende scenario's.
 
 ## <a name="set-up-multi-factor-authentication-for-guests"></a>Meervoudige verificatie instellen voor gasten
 
