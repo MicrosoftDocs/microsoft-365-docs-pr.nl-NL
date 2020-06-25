@@ -19,12 +19,12 @@
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: Stap 2. Externe toegang bieden
           href: empower-people-to-work-remotely-remote-access.md
-        - name: Stap 3. Endpoint Management implementeren
+        - name: Stap 3. Beveiliging en naleving implementeren
+          href: empower-people-to-work-remotely-security-compliance.md
+        - name: Stap 4. Endpoint Management implementeren
           href: empower-people-to-work-remotely-manage-endpoints.md
-        - name: Stap 4. Productiviteitsapps en -services implementeren
+        - name: Stap 5. Productiviteitsapps en -services implementeren
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: Stap 5. Communicatielocaties maken
-          href: empower-people-to-work-remotely-communication-venues.md
         - name: Stap 6. Externe werknemers trainen
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Veilige samenwerking met Microsoft 365 instellen
@@ -139,6 +139,8 @@
           href: contoso-case-study-solutions.md
         - name: Geïsoleerd team voor een uiterst geheim project
           href: contoso-team-for-top-secret-project.md
+        - name: Teams-spraakmigratie
+          href: 'https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Testlabrichtlijnen
       items:
         - name: Testlabrichtlijnen voor oplossingen en scenario's
