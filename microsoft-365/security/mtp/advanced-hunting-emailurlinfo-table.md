@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 47486f34f9926d83e52ba206f63d3e85286527dc
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: efe7f7606dce4ceeb9953b0fb3272f1722479306
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515817"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899099"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 
@@ -41,7 +41,7 @@ Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor inf
 | `Url` | Tekenreeks | Volledige URL in het onderwerp, de hoofdtekst of de bijlage van de e-mail |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Proactief op zoek naar bedreigingen](advanced-hunting-overview.md)
+- [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
 - [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)

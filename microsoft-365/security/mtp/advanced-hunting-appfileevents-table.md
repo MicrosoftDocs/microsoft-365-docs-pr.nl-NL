@@ -1,7 +1,7 @@
 ---
-title: IdentityQueryEvents tabel in de geavanceerde jacht schema
-description: Meer informatie over Active Directory-querygebeurtenissen in de tabel IdentityQueryEvents van het geavanceerde jachtschema
-keywords: geavanceerde jacht, bedreiging jacht, cyber bedreiging jacht, Microsoft threat protection, Microsoft 365, mtp, m365, zoeken, query, telemetrie, schema referentie, kusto, tabel, kolom, gegevenstype, beschrijving, IdentityQueryEvents, Azure AD, Active Directory, Azure ATP, identiteiten, LDAP query's
+title: AppFileEvents tabel in het geavanceerde jachtschema
+description: Meer informatie over bestandsgerelateerde gebeurtenissen die zijn gekoppeld aan cloud-apps en -services in de tabel AppFileEvents van het geavanceerde jachtschema
+keywords: geavanceerde jacht, bedreiging jacht, cyber bedreiging jacht, Microsoft threat protection, Microsoft 365, mtp, m365, zoeken, query, telemetrie, schema referentie, kusto, tabel, kolom, gegevenstype, beschrijving, AppFileEvents, Cloud App Security, MCAS
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: bec7f13d49e2ccf4e3a9121d5e5a2fecd1b10aa2
+ms.openlocfilehash: da3b331d4f607aa0961e275db9444aadbec4fcf2
 ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899111"
+ms.locfileid: "44899337"
 ---
-# <a name="identityqueryevents"></a>IdentityQueryEvents
+# <a name="appfileevents"></a>AppFileEvents
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-De `IdentityQueryEvents` tabel in het geavanceerde [jachtschema](advanced-hunting-overview.md) bevat informatie over query's die zijn uitgevoerd op Active Directory-objecten, zoals gebruikers, groepen, apparaten en domeinen. Gebruik deze verwijzing om query's te construeren die informatie uit deze tabel retourneren.
+De `AppFileEvents` tabel in het geavanceerde [jachtschema](advanced-hunting-overview.md) bevat informatie over bestandsgerelateerde activiteiten in cloud-apps en -services die worden gecontroleerd door Microsoft Cloud App Security. Gebruik deze verwijzing om query's te construeren die informatie uit deze tabel retourneren.
 
 Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor informatie over andere tabellen in het geavanceerde jachtschema.
 
@@ -38,16 +38,14 @@ Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor inf
 | `Timestamp` | Datetime | Datum en tijdstip waarop de gebeurtenis is geregistreerd |
 | `ActionType` | Tekenreeks | Type activiteit dat de gebeurtenis heeft geactiveerd |
 | `Application` | Tekenreeks | Toepassing die de opgenomen actie heeft uitgevoerd |
-| `Query` | Tekenreeks | Type query: QueryGroep, QueryUser of EnumerateUsers |
-| `QueryObject` | Tekenreeks | Naam van de gebruiker, groep, apparaat, domein of een ander entiteitstype dat wordt opgevraagd |
-| `Protocol` | Tekenreeks | Protocol dat tijdens de communicatie wordt gebruikt |
+| `FileName` | Tekenreeks | Naam van het bestand waarop de geregistreerde actie is toegepast |
+| `FolderPath` | Tekenreeks | Map met het bestand waarop de opgenomen actie is toegepast |
+| `PreviousFileName` | Tekenreeks | Oorspronkelijke naam van het bestand dat naar aanleiding van de actie is hernoemd |
 | `AccountName` | Tekenreeks | Gebruikersnaam van het account |
 | `AccountDomain` | Tekenreeks | Domein van het account |
 | `AccountUpn` | Tekenreeks | Gebruikersnaam (UPN) van het account |
-| `AccountSid` | Tekenreeks | Beveiligings-id (SID) van het account |
 | `AccountObjectId` | Tekenreeks | Unieke id voor het account in Azure AD |
 | `AccountDisplayName` | Tekenreeks | Naam van de accountgebruiker die in het adresboek wordt weergegeven. Typisch een combinatie van een bepaalde of voornaam, een middelste initiatie, en een achternaam of achternaam. |
-| `DeviceName` | Tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van het eindpunt |
 | `IPAddress` | Tekenreeks | IP-adres toegewezen aan het eindpunt en gebruikt tijdens gerelateerde netwerkcommunicatie |
 | `Location` | Tekenreeks | Plaats, land of andere geografische locatie die aan het evenement is gekoppeld |
 

@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: f4b34abdbfcbd6c3a2f142001a3d486485c86fcd
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: f5c226b6028c845acc674ec0a0536727386c2380
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515913"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899385"
 ---
-# <a name="emailpostdeliveryevents"></a>E-mailpostDeliveryEvents
+# <a name="emailpostdeliveryevents"></a>EmailPostDeliveryEvents
 
 **Van toepassing op:**
 - Microsoft Threat Protection
@@ -56,7 +56,7 @@ In deze tabel worden gebeurtenissen met de volgende `ActionType` waarden vastgel
 - **Malware ZAP** - Zero-hour auto purge (ZAP) heeft actie ondernomen op een e-mailbericht gevonden met malware na levering.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Proactief op zoek naar bedreigingen](advanced-hunting-overview.md)
+- [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
 - [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 2ed89a676525b91f6b0923cf39be5b014638e93e
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: 032368e35cdfc991df4c01643e49cee538549f39
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515841"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899361"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Begrijp het geavanceerde jachtschema
 
@@ -58,14 +58,11 @@ In de volgende referentie worden alle tabellen in het schema weergegeven. Elke t
 | **[DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md)** | Kennisbank van openbaar gemaakte kwetsbaarheden, inclusief de vraag of exploitcode openbaar beschikbaar is |
 | **[EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md)** | Informatie over bestanden die aan e-mails zijn gekoppeld |
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | Microsoft 365-e-mailgebeurtenissen, waaronder e-mailbezorging en blokkeringsgebeurtenissen |
-| **[E-mailpostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | Beveiligingsgebeurtenissen die plaatsvinden na levering, nadat Microsoft 365 de e-mails naar het postvak van de ontvanger heeft bezorgd |
+| **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | Beveiligingsgebeurtenissen die plaatsvinden na levering, nadat Microsoft 365 de e-mails naar het postvak van de ontvanger heeft bezorgd |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Informatie over URL's in e-mails |
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Accountgegevens uit verschillende bronnen, waaronder Azure Active Directory |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Verificatiegebeurtenissen die zijn geregistreerd door Active Directory en andere onlineservices van Microsoft |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Queryactiviteiten uitgevoerd met Active Directory-objecten, zoals gebruikers, groepen, apparaten en domeinen |
-
-
-
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

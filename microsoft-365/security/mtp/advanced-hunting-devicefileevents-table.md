@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 4b815afbe8e3ca1f7967d13f6482b90f7c64e362
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 67749125d2f62f2774c36e6970cf8901b1fd5784
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617160"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899301"
 ---
 # <a name="devicefileevents"></a>DeviceFileEvents
 
@@ -77,7 +77,7 @@ Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor inf
 | `IsAzureInfoProtectionApplied` | Booleaanse | Geeft aan of het bestand is versleuteld door Azure Information Protection |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Proactief op zoek naar bedreigingen](advanced-hunting-overview.md)
+- [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
 - [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)
