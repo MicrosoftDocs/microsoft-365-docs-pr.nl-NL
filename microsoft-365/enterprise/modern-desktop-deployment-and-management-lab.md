@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: 48d8cf5bc618f4f1e840872c4369bc5cdda19727
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: 633e54dc2b3c83d0d6778176318512b03bd073a8
+ms.sourcegitcommit: aab8b94ea8a9d4f7c6b911d6dc5cde70722e00e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262555"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44869854"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit
 
@@ -34,9 +34,9 @@ Deze training wordt ten zeerste aanbevolen voor organisaties die zich voorbereid
 
 Met het lab beschikt u over een automatisch ingerichte virtuele testomgeving, inclusief desktopclients die lid zijn van een domein, een domeincontroller, een internetgateway en een volledig geconfigureerd Configuration Manager-exemplaar. Het lab bevat de nieuwste evaluatieversies van de volgende producten:
 
-  - Windows 10 Enterprise
+  - NIEUW! Windows 10 Enterprise, versie 2004
   - Windows 7 Enterprise
-  - Microsoft Endpoint Configuration Manager
+  - NIEUW! Microsoft Endpoint Configuration Manager, versie 2002
   - Windows Assessment and Deployment Kit voor Windows 10
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V)
@@ -113,7 +113,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 
 [Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-*Gebruik een grote bandbreedte om deze inhoud sneller te kunnen te downloaden. Houd rekening met 30-45 minuten voor automatische inrichting. De labomgeving vereist minimaal 16 GB beschikbaar geheugen en 150 GB beschikbare schijfruimte. Voor optimale prestaties wordt 32 GB beschikbaar geheugen aanbevolen. Het lab verloopt op 5 juli 2020. Voor die tijd wordt een nieuwe versie gepubliceerd.*
+*Gebruik een grote bandbreedte om deze inhoud sneller te kunnen te downloaden. Houd rekening met 30-45 minuten voor automatische inrichting. De labomgeving vereist minimaal 16 GB beschikbaar geheugen en 150 GB beschikbare schijfruimte. Voor optimale prestaties wordt 32 GB beschikbaar geheugen aanbevolen. Het lab verloopt op 12 september 2020. Voor die tijd wordt een nieuwe versie gepubliceerd.*
 
 ## <a name="additional-guidance"></a>Aanvullende richtlijnen
 

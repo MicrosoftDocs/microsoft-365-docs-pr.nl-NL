@@ -1,5 +1,5 @@
 ---
-title: Uw factuur of factuur voor Microsoft 365 voor Bedrijven begrijpen
+title: Uw factuur of factuur voor Microsoft 365 voor bedrijven begrijpen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -24,19 +24,19 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
-description: Lees hoe u de kosten, facturering en betalingsgegevens op uw Microsoft 365 voor zakelijke factuur of factuur interpreteert en hoe u het ordernummer van de aankoop wijzigt.
-ms.openlocfilehash: 13eea485a6d748ce8798ddb5075309bec727c6bb
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over het interpreteren van de kosten, facturering en betalingsgegevens op uw Microsoft 365 voor zakelijke factuur of factuur en hoe u het aankoopordernummer wijzigen.
+ms.openlocfilehash: a46f108766ccfec4f7f6abaa2d48d38137311707
+ms.sourcegitcommit: 7f765670cb6970fdf7ddbad464ed3f8fe704bfaf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402628"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "44909262"
 ---
-# <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Uw factuur of factuur voor Microsoft 365 voor Bedrijven begrijpen
+# <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Uw factuur of factuur voor Microsoft 365 voor bedrijven begrijpen
 
-Elke maand ontvangt u een e-mail waarin staat dat uw nieuwe factuuroverzicht beschikbaar is in het beheercentrum. [Ontdek hoe u uw rekening of factuur kunt vinden en bekijken](view-your-bill-or-invoice.md).
+Maandelijks of jaarlijks (afhankelijk van de optie die u hebt gekozen toen u uw abonnement kocht), ontvangt u een e-mail waarin staat dat uw nieuwe factuuroverzicht beschikbaar is in het beheercentrum. [Ontdek hoe u uw rekening of factuur kunt vinden en bekijken](view-your-bill-or-invoice.md).
   
-Uw factuur bestaat uit twee pagina's. Pagina 1 bevat een factuuroverzicht met algemene informatie over de factuur, de bestelling, het verschuldigde bedrag, hoe u kunt betalen en hoe u contact kunt opnemen met de klantenservice.
+Your invoice contains two pages. Page 1 is the invoice summary, and contains general information about the invoice, order, amount due, how to make a payment, and how to contact support.
   
 ![Page 1 of a sample invoice.](../../media/b2f2cf85-a005-4f8a-a7b7-bea231372025.png)
   
@@ -52,7 +52,7 @@ Het is handig dat u een paar belangrijke factureringsconcepten begrijpt voordat 
   
 ### <a name="invoice-balance-vs-order-balance"></a>Factuursaldo en ordersaldo
 
- Het **factuursaldo** is het bedrag dat op uw factuur wordt weergegeven en het enige bedrag dat is verschuldigd voor de specifieke factureringsperiode. Uw totale **ordersaldo** is de som van alle onbetaalde facturen. U uw ordersaldo bekijken in het **gedeelte Facturering** van het beheercentrum.
+ Het **factuursaldo** is het bedrag dat op uw factuur wordt weergegeven en het enige bedrag dat is verschuldigd voor de specifieke factureringsperiode. Uw totale **ordersaldo** is de som van alle onbetaalde facturen. U uw ordersaldo bekijken in het gedeelte **Facturering** van het beheercentrum.
   
 ### <a name="billing-frequency-vs-invoice-frequency"></a>Factureringsfrequentie en factuurfrequentie
 
@@ -62,38 +62,38 @@ Wanneer u meer dan één bestelling hebt geplaatst, ontvangt u voor elke bestell
   
 ## <a name="invoice-field-glossary"></a>Woordenlijst voor factuurvelden
 
-De volgende tabel toont de velden die u op uw factuur kunt zien. Sommige velden die hier worden vermeld, worden mogelijk niet op uw factuur weergegeven wanneer u per factuur, met een creditcard of via een bankrekening betaalt.
+The following table describes the fields you might see on your invoice. Some fields listed here might not appear in your invoice, depending on whether you pay by invoice or by credit card or bank account.
   
 > [!NOTE]
 > Betalen via een bankrekening is niet beschikbaar in bepaalde landen of regio's.
   
 |**Naam**|**Beschrijving**|
 |:-----|:-----|
-|Jaarlijks bedrag|Abonnementen worden maandelijks of jaarlijks gefactureerd. Als u tijdens de aankoop van het abonnement kiest voor jaarlijkse facturering, wordt de jaarlijkse licentieprijs weergegeven op de factuur. Als u de factureringsfrequentie wilt wijzigen, moet u uw abonnement opzeggen en een nieuw abonnement kiezen met de nieuwe factureringsfrequentie.|
-|Factureringsperiode|De factureringsperiode is de tijdsperiode sinds de laatste factuurdatum. De serviceperiode is de tijdsperiode waarvoor het gebruik in rekening wordt gebracht.|
-|Factureren aan|Dit is het adres van uw factureringsafdeling en is meestal hetzelfde als het verkoopadres. Zie [Uw factuuradressen wijzigen](change-your-billing-addresses.md)als u uw factuuradres wilt bijwerken.|
-|Kosten|Pagina 1 van de factuur bevat een overzicht van alle kosten voor de factureringsperiode. Pagina 2 bevat de gedetailleerde kosten voor elk abonnement.|
-|Cheque|Als u betaalt per factuur en in uw land de mogelijkheid wordt geboden om per cheque te betalen, vindt u onder aan pagina 1 informatie over het verzenden van de betaling. Vermeld het factuurnummer op uw cheque.|
-|Tegoeden|Pagina 1 van de factuur bevat een overzicht van alle tegoeden voor de factureringsperiode. Pagina 2 bevat de gedetailleerde tegoeden voor elk abonnement.|
-|IO-nummer van klant|Het IO-nummer (inkooporder). Wanneer u het IO-nummer aanpast, wordt het ook op toekomstige facturen vermeld. [Wijzig uw aankoopordernummer.](#change-your-purchase-order-number) <br/> **OPMERKING** U geen PO-nummer toevoegen aan een bestaande factuur.           |
-|Dagen|Elke factureringstransactie is gekoppeld aan een serviceperiode. De kolom Dagen geeft het aantal dagen in die serviceperiode weer.|
-|Kortingen|Pagina 1 van de factuur bevat een overzicht van alle kortingen voor de factureringsperiode. Pagina 2 bevat de gedetailleerde kortingen voor elk abonnement.|
-|Vervaldatum|De datum waarop het factuurbedrag moet worden betaald. Als uw abonnement wordt betaald met een creditcard of bankrekening, brengen we de dag na de factuurdatum kosten in rekening. <br/> **OPMERKING** Betalen per bankrekening is niet beschikbaar in sommige landen of regio's.           |
-|Elektronische betaling|Als u "factuur" als betalingsmethode voor abonnementen hebt gekozen, bevat pagina 1 de Microsoft-bankrekeninggegevens voor elektronische (draad, ACH, SEPA, enz.) betalingen. Meestal biedt uw bank een referentieveld dat u kunt invullen wanneer u de betaling doet. Noteer het factuurnummer dat in dit veld wordt getoond.|
+|Jaarlijks bedrag|Abonnementen worden maandelijks of jaarlijks gefactureerd. Als u tijdens de aankoop van het abonnement voor jaarlijkse facturering hebt gekozen, wordt de jaarlijkse licentieprijs weergegeven op de factuur. Als u de factureringsfrequentie wilt wijzigen, moet u uw abonnement opzeggen en een nieuw abonnement kiezen met de nieuwe factureringsfrequentie.|
+|Factureringsperiode|Billing Period is the time period since the last invoice date. Service Period is the time period during which you are charged to use the service.|
+|Factureren aan|Dit is het adres van uw factureringsafdeling en is meestal hetzelfde als het adres Verkocht aan. Zie [Uw factuuradres wijzigen als u](change-your-billing-addresses.md)uw factuuradres wilt bijwerken.|
+|Kosten|Page 1 of your invoice summarizes all charges for the invoice Billing Period. Page 2 shows the detailed charges for each subscription.|
+|Cheque|If you pay by invoice and check payment is offered in your country, the bottom of page 1 includes information about where to send your payment. Please reference the invoice number on your check.|
+|Tegoeden|Page 1 of your invoice summarizes all credits for the invoice Billing Period. Page 2 shows the detailed credits for each subscription.|
+|IO-nummer van klant|Het IO-nummer (inkooporder). Wanneer u het IO-nummer aanpast, wordt het ook op toekomstige facturen vermeld. [Uw inkoopordernummer wijzigen.](#change-your-purchase-order-number) <br/> **OPMERKING** U geen po-nummer toevoegen aan een bestaande factuur.           |
+|Dagen|Each billing transaction is associated with a Service Period. The Days column indicates the number of days in that service period.|
+|Kortingen|Page 1 of your invoice summarizes all discounts for the invoice Billing Period. Page 2 shows the detailed discounts for each subscription.|
+|Vervaldatum|De datum waarop het factuurbedrag moet worden betaald. Als uw abonnement wordt betaald met een creditcard of bankrekening, brengen we de dag na de factuurdatum kosten in rekening met uw creditcard of bankrekening. <br/> **OPMERKING** Betalen per bankrekening is niet beschikbaar in sommige landen of regio's.           |
+|Elektronische betaling|Als u 'factuur' als abonnementsbetaalmethode hebt gekozen, bevat pagina 1 de Microsoft-bankrekeninggegevens voor elektronische (overschrijving, ACH, SEPA, enz.) betalingen. Meestal biedt uw bank een referentieveld dat u kunt invullen wanneer u de betaling doet. Noteer het factuurnummer dat in dit veld wordt getoond.|
 |Eindtotaal|Deze rij bevat de totalen voor alle kosten, kortingen, tegoeden, subtotalen, belastingen en totalen voor alle abonnementen die op de factuur staan vermeld.|
-|Factuurdatum|De datum waarop die de factuur is gemaakt. De factuurdatum is op de dag na het einde van de factureringsperiode. Wanneer de factureringsperiode bijvoorbeeld van 15 januari tot 14 februari is, is de factuurdatum 15 februari.|
-|Factuurnummer|Het unieke nummer dat aan de factuur is toegekend. Vermeld het factuurnummer bij uw betaling.|
-|Maandelijkse prijs|Abonnementen worden maandelijks of jaarlijks gefactureerd. Als u tijdens de aankoop van het abonnement voor maandelijkse facturering hebt gekozen, wordt de maandelijkse licentieprijs weergegeven op de factuur. Als u de factureringsfrequentie wilt wijzigen, moet u uw abonnement opzeggen en een nieuw abonnement kiezen met de nieuwe factureringsfrequentie.|
-|Ordernummer|Elke keer wanneer u een nieuw abonnement aanschaft, wordt er een order aangemaakt. U ontvangt elke maand een factuur voor elke order.|
-|Betalingsinstructies|Wanneer u per creditcard betaalt, ziet u 'Niet betalen - kosten in mindering gebracht op geregistreerde creditcard'. Als u per factuur betaalt, ziet u instructies om te betalen via Electronic Funds Transfer (EFT) en cheque (indien van toepassing).|
-|Betalingstermijnen|Het aantal dagen vanaf de factuurdatum waarin de factuur moet worden betaald. Standaard is dit 30 dagen.|
-|Product|Op pagina 1 van uw factuur wordt de algemene term "Online services" gebruikt om uw abonnementen te beschrijven. Op pagina 2 ziet u de namen van de afzonderlijke abonnementen.|
+|Factuurdatum|The date the invoice was created. The invoice date is the day after the end of your Billing Period. For example, if your Billing Period is Jan 15 - Feb 14, your Invoice Date is Feb 15.|
+|Factuurnummer|The unique number assigned to your invoice. Please reference the Invoice Number with your payment.|
+|Maandelijkse prijs|Abonnementen worden maandelijks of jaarlijks gefactureerd. Als u tijdens de aankoop van het abonnement maandelijkse facturering hebt gekozen, wordt de maandelijkse licentieprijs weergegeven op de factuur. Als u de factureringsfrequentie wilt wijzigen, moet u uw abonnement opzeggen en een nieuw abonnement kiezen met de nieuwe factureringsfrequentie.|
+|Ordernummer|Every time you buy a new subscription, an order is created. Every month, you'll receive an invoice for each order.|
+|Betalingsinstructies|If you pay by credit card, you'll see "Do not pay - charged to credit card on file." If you pay by invoice, you'll see instructions for paying by Electronic Funds Transfer (EFT) and check (if applicable).|
+|Betalingstermijnen|The number of days from the Invoice Date when payment is due. The standard is 30 days.|
+|Product|On page 1 of your invoice, "Online Services" is the generic term used to describe your subscriptions. On page 2 , you'll see the individual subscription names.|
 |AANTAL|Het aantal licenties dat u tijdens de serviceperiode hebt aangeschaft.|
-|Serviceperiode|De serviceperiode is de tijdsperiode waarvoor het gebruik in rekening wordt gebracht. De factureringsperiode is de tijdsperiode sinds de laatste factuurdatum.|
-|Adres voor servicegebruik|Het adres waar de service wordt gebruikt, meestal hetzelfde als uw Sold-To-adres. Zie Uw [factuuradressen wijzigen](change-your-billing-addresses.md)als u uw adres voor servicegebruik wilt bijwerken.|
-|Verkocht aan|De naam en het adres van uw organisatie. Raadpleeg [Het adres en andere profielgegevens van uw organisatie wijzigen](../../admin/manage/change-address-contact-and-more.md) voor meer informatie over het bijwerken van deze gegevens.|
+|Serviceperiode|Service Period is the time period during which you are charged to use the service. A Billing Period is the time period since the last invoice date.|
+|Adres voor servicegebruik|Het adres waar de service wordt gebruikt, meestal hetzelfde als uw verkocht-naar-adres. Zie Uw [factuuradres wijzigen als u](change-your-billing-addresses.md)uw servicegebruiksadres wilt bijwerken.|
+|Verkocht aan|Your company name and address. To update this information, see [Change your organization's address, technical contact email, and other information](../../admin/manage/change-address-contact-and-more.md).|
 |Subtotaal|Elk abonnement dat op uw factuur staat vermeld, heeft een aparte rij Subtotaal voor alle kosten, kortingen, tegoeden, subtotalen, belastingen en totalen voor het bewuste abonnement.|
-|Belasting|Pagina 1 van de factuur toont alle verschuldigde belastingen. Pagina 2 toont het toegepaste btw-tarief en het totale btw-bedrag per regel. Als de factuur belastingen bevat en uw bedrijf is vrijgesteld van belasting, kunt u [contact opnemen met de klantenservice](../../admin/contact-support-for-business-products.md).|
+|Belasting|Page 1 of your invoice shows the total tax. Page 2 shows the tax rate applied, and the total tax amount for each line item. If your invoice contains taxes and your company is tax exempt, please [contact support](../../admin/contact-support-for-business-products.md).|
 |Totaal|Het totale verschuldigde bedrag voor de factureringsperiode.|
 
 ## <a name="change-your-purchase-order-number"></a>Uw IO-nummer wijzigen
@@ -101,19 +101,19 @@ De volgende tabel toont de velden die u op uw factuur kunt zien. Sommige velden 
 Als u per factuur betaalt, kunt u het IO-nummer (inkooporder) toevoegen aan of wijzigen voor uw abonnement.
   
 > [!NOTE]
-> U kunt geen IO-nummer aan een bestaande factuur toevoegen. Het IO-nummer wordt weergegeven op alle toekomstige facturen.
+> You can't add a PO number to an existing invoice. The PO number will appear on all future invoices.
 
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 
-2. Als u zich in **de tabelweergave** bevindt, selecteert u **Kaarten** om van weergave te wisselen.
+2. Als u zich in **de tabelweergave** belandt, selecteert u **Kaarten** om van weergave te wisselen.
 
 3. Zoek het abonnement dat u wilt wijzigen.
 
-4. Selecteer **bewerken** in de sectie **Edit**Facturering naast **factuur**.
+4. Selecteer in de sectie **Facturering** naast **factuur**de optie **Bewerken**.
 
-5. Voer onder aan het deelvenster **Betalingsgegevens bewerken** uw PO-nummer in en selecteer **Opslaan**.
+5. Voer onder aan het deelvenster **Betalingsgegevens bewerken** uw po-nummer in en selecteer **Opslaan**.
 
 ::: moniker-end
 
@@ -121,9 +121,9 @@ Als u per factuur betaalt, kunt u het IO-nummer (inkooporder) toevoegen aan of w
 
 1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
 
-2. Selecteer het abonnement dat u wilt wijzigen en selecteer in de sectie **Betalingsmethode** de optie **Betalingsgegevens wijzigen**.
+2. Selecteer het abonnement dat u wilt wijzigen en selecteer in de sectie **Betalingsmethode** de optie **Betalingsgegevens wijzigen.**
 
-3. Voer onder aan het deelvenster **Betalingsgegevens wijzigen** uw PO-nummer in en selecteer **Verzenden**.
+3. Voer onder aan het deelvenster **Betalingsgegevens wijzigen** uw po-nummer in en selecteer **Verzenden**.
 
 ::: moniker-end
 
@@ -131,14 +131,14 @@ Als u per factuur betaalt, kunt u het IO-nummer (inkooporder) toevoegen aan of w
 
 1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
 
-2. Selecteer het abonnement dat u wilt wijzigen en selecteer in de sectie **Betalingsmethode** de optie **Betalingsgegevens wijzigen**.
+2. Selecteer het abonnement dat u wilt wijzigen en selecteer in de sectie **Betalingsmethode** de optie **Betalingsgegevens wijzigen.**
 
-3. Voer onder aan het deelvenster **Betalingsgegevens wijzigen** uw PO-nummer in en selecteer **Verzenden**.
+3. Voer onder aan het deelvenster **Betalingsgegevens wijzigen** uw po-nummer in en selecteer **Verzenden**.
 
 ::: moniker-end
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Betalen voor uw Microsoft 365 voor Bedrijven-abonnement](pay-for-your-subscription.md)
+[Betalen voor uw Microsoft 365 voor bedrijven-abonnement](pay-for-your-subscription.md)
 
 [Betalingsopties voor Minecraft: Education Edition](https://go.microsoft.com/fwlink/p/?linkid=838761)

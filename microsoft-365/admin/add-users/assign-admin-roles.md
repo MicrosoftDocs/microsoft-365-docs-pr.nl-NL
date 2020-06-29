@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Meer informatie over het toewijzen van beheerdersrollen aan een gebruiker of meerdere gebruikers in uw bedrijf, zodat deze specifieke taken kunnen uitvoeren in het beheercentrum.
-ms.openlocfilehash: 59fc2211051aa4f122462186753e7f626715722f
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: cd50faf5db5e674e865e0913cae14a68a202bd1f
+ms.sourcegitcommit: 2e9e309ec09e5275ac6b3b425fba48a9ffce8eb2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780635"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44900774"
 ---
 # <a name="assign-admin-roles"></a>Beheerdersrollen toewijzen
 
@@ -110,9 +110,9 @@ Voer de volgende instructies uit als u rollen wilt toewijzen aan tientallen gebr
 ::: moniker range="o365-worldwide"
 
 
-## <a name="didnt-work-for-you"></a>Werkt het niet?
+## <a name="check-your-permissions"></a>Uw machtigingen controleren
 
-U hebt mogelijk niet de juiste machtigingen en hebt dus geen toegang tot beheerdersrollen toewijzen aan andere gebruikers. Vraag een andere beheerder om de rollen voor u toe te wijzen.
+U hebt mogelijk niet de juiste machtigingen om beheerdersrollen aan andere gebruikers toe te wijzen. Controleer of u de juiste machtigingen hebt of vraag een andere beheerder om rollen voor u toe te wijzen.
 
 ::: moniker-end
 
@@ -120,8 +120,8 @@ U hebt mogelijk niet de juiste machtigingen en hebt dus geen toegang tot beheerd
 
 [Over Microsoft 365-beheersrollen](about-admin-roles.md)
 
+[Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)
+
 [Rollen toewijzen aan gebruikersaccounts met PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)
 
 [Partnerrelaties autoriseren of verwijderen](../misc/add-partner.md)
-
-[Een alternatief e-mailadres toevoegen met het Exchange-beheercentrum](https://docs.microsoft.com/Exchange/recipients/user-mailboxes/email-addresses?view=exchserver-2019#add-an-email-address-to-a-user-mailbox)
