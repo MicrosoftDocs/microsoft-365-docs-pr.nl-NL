@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Gebruikers kunnen meer informatie krijgen over het weergeven en beheren van berichten in quarantaine in Exchange Online Protection (EOP) die aan hun hadden moeten worden afgeleverd.
-ms.openlocfilehash: 802c2a5ce196a1ca67b01b973be5889b141f57f5
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 01125b7aa0a89c27cdc8abc5ebb46da4b11ac504
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208849"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936981"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Berichten in quarantaine zoeken en vrijgeven als gebruiker in EOP
 
@@ -40,7 +40,7 @@ Als gebruiker kunt u uw berichten in quarantaine zien, vrijgeven en verwijderen,
 
 - Beheerders kunnen ook [Spammeldingen voor eindgebruikers inschakelen](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications) in antispambeleid. Gebruikers kunnen ongewenste, in quarantaine geplaatste berichten vrijgeven, maar in quarantaine geplaatste berichten niet rechtstreeks uit deze meldingen halen. Zie [Spammeldingen voor eindgebruikers in EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md) voor meer informatie.
 
-- Berichten die in quarantaine zijn geplaatst voor phishing van vertrouwelijke informatie, malware of door e-mailstroomregels (ook wel transportregels genoemd), zijn alleen beschikbaar voor beheerders. Phishingberichten kunnen door gebruikers worden bekeken, maar alleen worden vrijgegeven door beheerders. Zie [Berichten en bestanden in quarantaine beheren als EOP-beheerder](manage-quarantined-messages-and-files.md).
+- Berichten die in quarantaine zijn geplaatst voor phishing van vertrouwelijke informatie, malware of door e-mailstroomregels (ook wel transportregels genoemd), zijn alleen beschikbaar voor beheerders. Phishingberichten kunnen door gebruikers worden bekeken en vrijgegeven. Zie [Berichten en bestanden in quarantaine beheren als EOP-beheerder](manage-quarantined-messages-and-files.md).
 
 - U kunt een bericht slechts eenmaal vrijgeven en melden als fout-positief (geen ongewenste e-mail).
 

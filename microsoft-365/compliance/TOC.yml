@@ -159,6 +159,8 @@
       href: office-365-service-encryption.md
     - name: Technische naslaginformatie over versleuteling in Office 365
       href: technical-reference-details-about-encryption.md
+    - name: Stopzetten van TLS 1.0 en 1.1 voor Office 365
+      href: tls-1.0-and-1.1-deprecation-for-office-365.md
     - name: Klantsleutel
       items:
         - name: Serviceversleuteling met klantsleutel in Office 365
@@ -249,10 +251,14 @@
       items:
         - name: Overzicht van het archiveren van gegevens van derden
           href: archiving-third-party-data.md
+        - name: Bloomberg-berichtgegevens archiveren (preview)
+          href: archive-bloomberg-message-data.md
         - name: Facebook-gegevens archiveren (preview)
           href: archive-facebook-data-with-sample-connector.md
         - name: HR-gegevens importeren (preview)
           href: import-hr-data.md
+        - name: ICE Chat-gegevens archiveren (preview)
+          href: archive-icechat-data.md
         - name: Instant Bloomberg-gegevens archiveren
           href: archive-instant-bloomberg-data.md
         - name: LinkedIn-gegevens archiveren

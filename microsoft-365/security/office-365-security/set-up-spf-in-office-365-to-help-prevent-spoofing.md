@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe u een DNS-record (Domain Name Service) bijwerkt, zodat u SPF (Sender Policy Framework) kunt gebruiken met uw aangepaste domein in Office 365.
-ms.openlocfilehash: 6061cd9ea52f4ed4073f510dcba60fba9b4fd23c
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 93356799967932813252e7db27e7ac796e46cbc6
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588074"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936935"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>SPF instellen om adresvervalsing te helpen voorkomen
 
@@ -59,7 +59,7 @@ Verzamel de volgende informatie:
 
 ### <a name="to-add-or-update-your-spf-txt-record"></a>De SPF TXT-record toevoegen of bijwerken
 
-1. Ga na of u bekend bent met de SFP-syntaxis in de volgende tabel.
+1. Ga na of u bekend bent met de SPF-syntaxis in de volgende tabel.
 
    ||**Als u werkt met...**|**Gangbaar bij klanten?**|**Voegt u deze toe...**|
    |:-----|:-----|:-----|:-----|
