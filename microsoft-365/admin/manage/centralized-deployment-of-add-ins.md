@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Bepaal of uw tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie gebruiken om Office-invoegtoepassingen te implementeren.
-ms.openlocfilehash: 4b9ca7213f36440114d39ef491fe934f13ca96ea
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 4ad2f504c26fcc1f01c958bebf448718500a95b7
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717271"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936441"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Bepalen of gecentraliseerde implementatie van invoegtoepassingen werkt voor uw organisatie
 
@@ -40,16 +40,12 @@ U hieronder specifieke vereisten voor Office en Exchange bekijken of de [gecentr
 
 Gecentraliseerde implementatie biedt geen ondersteuning voor het volgende:
   
-- Invoegtoepassingen die zijn gericht op Word, Excel of PowerPoint in Office 2013
-    
+- Invoegtoepassingen die zijn gericht op Word, Excel of PowerPoint in Office 2013 
 - Een on-premises adreslijstservice
-    
+- Invoegtoepassing voor een Exchange On-Prem-postvak
 - Implementatie van invoegtoepassingen op SharePoint  
-
 - Teams-apps
-   
 - Implementatie van COM- (Component Object Model) of VSTO-invoegtoepassingen (Visual Studio Tools for Office)
-    
 - Implementaties van Microsoft 365 die geen Exchange bevatten, zoals Microsoft 365 Apps voor bedrijven
 
 ### <a name="office-requirements"></a>Office-vereisten

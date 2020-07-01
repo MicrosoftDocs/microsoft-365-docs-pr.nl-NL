@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Rapporten voor Geavanceerde bedreigingsbeveiliging van Office 365 zoeken en gebruiken in het Security &amp; Compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3e6f6e3f2fd5820f280ab47f3ffdde11bd9da72e
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: c71bef11e574593d821b992f3a5037dbf127d5d2
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613358"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936993"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Rapporten voor geavanceerde bedreigingsbeveiliging van Office 365 weergeven
 
@@ -51,9 +51,9 @@ Filters en uitsplitsingen van de informatie zorgen voor meer gedetailleerde cate
 
 |||
 |---|---|
-|Door detectietype|Welk beleid heeft geholpen deze bedreigingen op te vangen?|
+|Op beleidstype|Welk beleid heeft geholpen deze bedreigingen op te vangen?|
 |Door detectietechnologie|Welke onderliggende Microsoft-technologie ving de dreiging?|
-|Door leveringsstatus|Wat is er gebeurd met de e-mailberichten die als bedreigingen worden gedetecteerd?|
+|Door leveringsstatus|Wat was de uiteindelijke leveringsstatus van e-mailberichten die als bedreigingen werden gedetecteerd?|
 |
 
 > [!TIP]
@@ -65,7 +65,8 @@ Deze weergaven geven u de mogelijkheid om te exporteren, via een knop klik (in *
 
 ![Deze afbeelding toont Exporteren als een optie in het menu voor de malwareweergave, precies tussen Planning maken en Aanvraagrapport.](../../media/tp-threatProtectStatRpt-BreakDownByExport.png)
 
-**Opmerking**: Het maximum aantal inzendingen dat kan worden geëxporteerd voor **Phish** en **Malware** is iets minder dan 10000. Als u een weergave exporteert, worden alleen de meest recente 10000 vermeldingen geëxporteerd.
+> [!NOTE]
+> Het maximum aantal inzendingen dat kan worden geëxporteerd voor **Phish** en **Malware** is iets minder dan 10000. Als u een weergave exporteert, worden alleen de meest recente 10000 vermeldingen geëxporteerd. Op de geëxporteerde gegevens vertegenwoordigt de kolom _berichttelling_ het aantal berichten dat wordt gedetecteerd door de detectietechnologie en het beleidstype.    
 
 De weergaven Overzicht en E-mails geven informatie weer binnen enkele uren na verwerking in plaats van in 24 uur (vraag opnieuw. hogere snelheden hier is een duidelijk signaal)!
 
@@ -80,7 +81,7 @@ Als u een dag van een dag een gedetailleerde status wilt krijgen, houdt u de mui
 
 ![ATP Threat Protection Status gegevens voor een dag](../../media/d5c2c6ad-c002-4985-a032-c866e46fdea8.png)
 
-Standaard worden in het rapport Bedreigingsbeveiligingsstatus gegevens van de afgelopen zeven dagen weergegeven. U filters **echter** kiezen en het datumbereik wijzigen om gegevens maximaal 90 dagen weer te geven. (Als u een proefabonnement gebruikt, bent u mogelijk beperkt tot 30 dagen aan gegevens.)
+Standaard worden in het rapport Bedreigingsbeveiligingsstatus gegevens van de afgelopen zeven dagen weergegeven. U filters **echter** kiezen en het datumbereik wijzigen om gegevens maximaal 90 dagen weer te geven voor de totale weergave en 30 dagen voor de detailweergave. (Als u een proefabonnement gebruikt, bent u mogelijk beperkt tot 30 dagen aan gegevens.)
 
 ![ATP-statusstatusfilters voor bedreigingsbeveiliging](../../media/4f703369-642b-402b-9758-b9c828283410.png)
 
@@ -111,7 +112,7 @@ Als u dit rapport wilt weergeven, gaat u in het [Security &amp; Compliance Cente
 
 ![ATP-bestandstyperapport](../../media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
   
-Wanneer u gedurende een bepaalde dag zweeft, u de verdeling zien van soorten schadelijke bestanden die zijn gedetecteerd door [ATP Safe Attachments](atp-safe-attachments.md) en [anti-spam &amp; anti-malware bescherming.](anti-spam-and-anti-malware-protection.md)
+Wanneer u gedurende een bepaalde dag zweeft, u de verdeling zien van soorten schadelijke bestanden die zijn gedetecteerd door [ATP Safe Attachments](atp-safe-attachments.md) en [anti-spam &amp; anti-malware bescherming.](anti-spam-and-anti-malware-protection.md) De totale weergave van het rapport maakt het mogelijk om 90 dagen te filteren, terwijl de detailweergave slechts tien dagen filtering mogelijk maakt. 
   
 ![Rapportgegevens van ATP-bestandstypen voor een dag rapporteren](../../media/10d18428-699a-41d2-a73e-be3a8214ada1.png)
 

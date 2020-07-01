@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 44ba7a1c877580f31ca858f7fefcc502e0bb8beb
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 23938dc78c498af76267233c8ad38dd909d56400
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844622"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936627"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -56,6 +56,19 @@ Elke verbeteringsactie is 10 punten of minder waard. De meeste worden op een bin
 ### <a name="products-included-in-secure-score"></a>Producten die zijn opgenomen in Secure Score
 
 Momenteel zijn er aanbevelingen voor Microsoft 365 (inclusief Exchange Online), Azure AD, Microsoft Defender ATP, Azure ATP en Cloud App Security. Aanbevelingen voor andere beveiligingsproducten komen binnenkort. De aanbevelingen hebben niet betrekking op alle aanvalsoppervlakken die aan elk product zijn gekoppeld, maar ze zijn een goede basislijn. U de verbeteringsacties ook markeren als gedekt door een derde partij of alternatieve mitigatie.
+
+### <a name="security-defaults"></a>Standaardinstellingen voor beveiliging
+
+Microsoft Secure Score heeft [verbeteringsacties](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)bijgewerkt om beveiligingsstandaarden in Azure Active Directory te ondersteunen, waardoor het eenvoudiger wordt om uw organisatie te beschermen met vooraf geconfigureerde beveiligingsinstellingen voor veelvoorkomende aanvallen.
+
+Als u beveiligingsstandaarden inschakelt, krijgt u volledige punten voor de volgende verbeteringsacties:
+
+- Zorg ervoor dat alle gebruikers meervoudige verificatie kunnen voltooien voor beveiligde toegang (9 punten)
+- MFA vereisen voor administratieve rollen (10 punten)
+- Beleid inschakelen om verouderde verificatie te blokkeren (7 punten)
+
+>[!IMPORTANT]
+>Beveiligingsstandaarden bevatten beveiligingsfuncties die vergelijkbare beveiliging bieden als de verbeteringsacties 'aanmeldingsrisicobeleid' en 'gebruikersrisicobeleid'. In plaats van dit beleid naast de beveiligingsstandaarden in te stellen, raden we u aan hun statussen bij te werken naar 'Opgelost via alternatieve mitigatie'.
 
 ## <a name="required-permissions"></a>Vereiste machtigingen
 
