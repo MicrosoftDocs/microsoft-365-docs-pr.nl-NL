@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie over Microsoft 365 voor bedrijven, hoe u dit instellen en hoe u de apparaten en pc's van uw gebruikers voorbereiden om ervoor te zorgen dat ze worden beschermd door Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 48a103333e101d545d562e7f2e9dd7329686f107
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: 08a956cc7e68bbba74d29bafaab77065be1321ce
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786149"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022112"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Aan de slag met Microsoft 365 voor bedrijven
 
@@ -84,7 +84,7 @@ Meld u aan bij [het Microsoft 365-beheercentrum](https://portal.office.com/admin
     
     - Gebruik de wizard Directory sync om uw gebruikers te synchroniseren met de cloud. Volg de stappen in [Mapsynchronisatie instellen voor Microsoft 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) om dit proces te voltooien. Nadat u uw gebruikers hebt gesynchroniseerd met de cloud, moet u [adreslijstsynchronisatie voor Office 365 uitschakelen.](https://docs.microsoft.com/office365/enterprise/turn-off-directory-synchronization)
     
-    U moet ook elke gebruiker die op deze manier is toegevoegd, een licentie geven aan Microsoft 365 voor bedrijven. U dit doen in de [wizard Setup](set-up.md) of u [licenties toewijzen aan gebruikers in Microsoft 365 voor bedrijven.](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)
+    U moet ook elke gebruiker die op deze manier is toegevoegd, een licentie geven aan Microsoft 365 voor bedrijven. U dit doen in de [wizard Setup](set-up.md) of u [licenties toewijzen aan gebruikers.](../admin/manage/assign-licenses-to-users.md)
     
 ### <a name="2-prepare-mobile-devices"></a>2: Mobiele apparaten voorbereiden
 

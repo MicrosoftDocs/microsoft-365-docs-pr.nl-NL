@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Bescherm uw zakelijke e-mail en gegevens tegen cyberbedreigingen, waaronder ransomware, phishing en schadelijke bijlagen. '
-ms.openlocfilehash: 79ff8642170a5e45f67d95d7993632fd66252208
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 12a8d036a043cfdd162b5aa47e1d6d5023a42c81
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779951"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005628"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 manieren om Microsoft 365 te beveiligen voor zakelijke abonnementen
 
@@ -325,15 +325,17 @@ Als u naar ATP Safe Links wilt gaan, bekijkt u een [korte trainingsvideo](https:
     
 Ga alstkader het standaardbeleid wijzigen:
   
-1. Selecteer op de pagina Veilige koppelingen onder **Beleid dat van toepassing is op de hele organisatie**het **standaardbeleid.** 
+1. Dubbelklik op de pagina Veilige koppelingen onder **Beleid dat van toepassing is op de hele organisatie,** op het **standaardbeleid.** 
     
-2. Selecteer onder **Instellingen die van toepassing zijn op inhoud, behalve e-mail,** Microsoft **365-apps voor bedrijven, Office voor iOS en Android**.
+2. Voer onder **Instellingen die van toepassing zijn op inhoud in Office 365**een URL in die moet worden geblokkeerd, zoals _example.com_en selecteer **+** .
+
+3. Selecteer **onder Instellingen die van toepassing zijn op inhoud, behalve e-mail,** Office **365-toepassingen**, **Houd niet bij wanneer gebruikers op veilige koppelingen klikken**en laat gebruikers niet door veilige **koppelingen naar de oorspronkelijke URL klikken.**
     
-3. Kies **Opslaan**. 
+4. Kies **Opslaan**. 
     
 Ga als een nieuw beleid maken dat is gericht op alle ontvangers in uw domein:
   
-1. Selecteer op de pagina Veilige koppelingen onder **Beleid dat van toepassing is op de hele organisatie**de optie Een nieuw beleid **+** maken. 
+1. Selecteer op de pagina Veilige koppelingen onder **Beleid dat van toepassing is op specifieke ontvangers**de optie Een nieuw beleid **+** maken. 
     
 2. Pas de instellingen toe die in de volgende tabel worden vermeld.
     
@@ -343,7 +345,7 @@ Ga als een nieuw beleid maken dat is gericht op alle ontvangers in uw domein:
 |:-----|:-----|
 |Name  <br/> |Beleid voor veilige koppelingen voor alle ontvangers in het domein  <br/> |
 |Selecteer de actie voor onbekende mogelijk schadelijke URL's in berichten  <br/> |Selecteer **Aan - URL's worden herschreven en gecontroleerd aan de hand van een lijst met bekende schadelijke koppelingen wanneer gebruikers op de link klikken.**  <br/> |
-|Veilige bijlagen gebruiken om downloadbare inhoud te scannen  <br/> |Selecteer dit vak.  <br/> |
+|Real-time URL-scannen toepassen op verdachte koppelingen en koppelingen die verwijzen naar bestanden  <br/> |Selecteer dit vak.  <br/> |
 |Toegepast op  <br/> |Het domein van de ontvanger is . . . selecteer uw domein.  <br/> |
 |
    

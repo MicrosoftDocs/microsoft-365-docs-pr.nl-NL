@@ -12,7 +12,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
+- Adm_NonTOC
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
@@ -20,13 +20,13 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 796f7eda-b1f8-479a-adee-bd9226ca47ec
-description: Meer informatie over het oplossen van licentieconflicten met uw Microsoft 365 voor Bedrijven-abonnement.
-ms.openlocfilehash: 05efe9e75b051ece900ba9defe047f1244b713a9
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over het oplossen van licentieconflicten met uw Microsoft 365 voor bedrijven-abonnement.
+ms.openlocfilehash: 2270fd3ad831ec0ad92ac4eddec5f08a1d07f8be
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399666"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45015969"
 ---
 # <a name="resolve-license-conflicts"></a>Licentieconflicten oplossen
 
@@ -43,22 +43,21 @@ We raden u aan de licenties te kopen die u nodig hebt voor uw abonnement voordat
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Factureringslicenties.** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a>
+1. Ga in het beheercentrum **Billing** naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Factureringslicenties.</a>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Factureringslicenties.** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenses</a>
+1. Ga in het beheercentrum **Billing** naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Factureringslicenties.</a>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina **Factureringslicenties.** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenses</a>
+1. Ga in het beheercentrum **Billing** naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Factureringslicenties.</a>
 
 ::: moniker-end
-
 
 2. Kijk in de kolom **Status** voor informatie over het conflict. Als er een conflict is, ziet u een waarschuwingsbericht waarin staat dat een of meer gebruikers een geldige licentie nodig hebben.
 
@@ -67,9 +66,9 @@ We raden u aan de licenties te kopen die u nodig hebt voor uw abonnement voordat
 
 ## <a name="how-do-i-resolve-license-conflicts"></a>Licentieconflicten oplossen
 
-U licentieconflicten oplossen door [meer licenties te kopen](../../commerce/licenses/buy-licenses.md) of door licenties te verwijderen van gebruikers die ze niet meer nodig [hebben.](remove-licenses-from-users.md) U kunt optioneel [een gebruikersaccount verwijderen om een licentie vrij te geven](../add-users/delete-a-user.md).
+U licentieconflicten oplossen door [meer licenties te kopen](../../commerce/licenses/buy-licenses.md) of door [licenties te verwijderen van gebruikers die ze niet meer nodig hebben.](remove-licenses-from-users.md) U kunt optioneel [een gebruikersaccount verwijderen om een licentie vrij te geven](../add-users/delete-a-user.md).
   
-## <a name="related-articles"></a>Verwante artikelen 
+## <a name="related-articles"></a>Verwante artikelen
 
 [Licenties toewijzen aan gebruikers](assign-licenses-to-users.md)
   

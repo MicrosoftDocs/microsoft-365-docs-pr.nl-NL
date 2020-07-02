@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 23938dc78c498af76267233c8ad38dd909d56400
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 57e18d68f6f33482fec3880b56ccad52c719a6d9
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936627"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45023401"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -203,6 +203,31 @@ Na verloop van tijd zullen Identity Secure Score en de Graph API het nieuwe scor
 * Uw verbeteracties filteren, taggen, zoeken en groeperen
 * Beheer richting uw toekomstige doelen met behulp van scoreprojecties en geplande acties
 * En nog veel meer!
+
+### <a name="june-2020"></a>Juni 2020
+
+#### <a name="removed-improvement-action-for-microsoft-defender-advanced-threat-protection"></a>Verwijderde verbeteringsactie voor Geavanceerde bedreigingsbeveiliging van Microsoft Defender
+
+* Regels voor attack surface reduction inschakelen
+
+#### <a name="added-improvement-actions-for-microsoft-defender-advanced-threat-protection"></a>Verbeterde acties voor Microsoft Defender Advanced Threat Protection
+
+* Adobe Reader blokkeren voor het maken van onderliggende processen
+* Gebruik geavanceerde bescherming tegen ransomware
+* Alle Office-toepassingen blokkeren bij het maken van onderliggende processen
+* Office-toepassingen blokkeren bij het maken van uitvoerbare inhoud
+* JavaScript of VBScript blokkeren bij het starten van gedownloade uitvoerbare inhoud
+* De uitvoering van mogelijk versluierde scripts blokkeren
+* Uitvoerbare inhoud blokkeren van e-mailclient en webmail
+* Office-communicatietoepassing blokkeren bij het maken van onderliggende processen
+* Niet-vertrouwde en niet-ondertekende processen blokkeren die worden uitgevoerd vanaf USB
+* Persistentie blokkeren via WMI-evenementabonnement
+* Office-toepassingen blokkeren om code in andere processen te injecteren
+* Uitvoerbare bestanden blokkeren voor het uitvoeren van bestanden, tenzij ze voldoen aan een prevalentie-, leeftijds- of vertrouwde lijstcriterium
+* Procescreaties blokkeren die afkomstig zijn van OPDRACHTEN PSExec en WMI
+* Het stelen van referenties blokkeren van het subsysteem van de windows-lokale beveiligingsautoriteit (lsass.exe)
+* Win32 API-aanroepen blokkeren vanuit Office-macro's
+
 
 ## <a name="we-want-to-hear-from-you"></a>We willen graag van u horen
 

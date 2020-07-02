@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9cdfa29d-7681-4af2-a79d-3e72e7ab9778
 description: Voeg nieuwe werknemers toe aan Microsoft 365 voor Bedrijven voor e-mail, Skype en Office-apps.
-ms.openlocfilehash: bd0ed77954c7b7baa60e50473818577ec9ae7f76
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: de647b926a3e1a82aaed4928b96101bd59df07ff
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780671"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022131"
 ---
 # <a name="add-a-new-employee-to-microsoft-365"></a>Een nieuwe werknemer toevoegen aan Microsoft 365
 
@@ -50,7 +50,7 @@ Hier is een snel overzicht:
 ## <a name="step-1-create-a-microsoft-365-account-for-the-employee"></a>Stap 1: Een Microsoft 365-account voor de werknemer maken
 
 
-Zie Gebruikers [afzonderlijk of in bulk toevoegen aan Microsoft 365 - Help voor beheerders voor](add-users.md)instructies. Wanneer u uw nieuwe werknemer instelt, u ervoor kiezen om inloggegevens naar het persoonlijke account van de werknemer te sturen. Op deze manier ontvangen ze een e-mail van Microsoft Online Service Team waarin staat hoe ze zich moeten aanmelden bij Microsoft 365.
+Zie Gebruikers [toevoegen en tegelijkertijd licenties toewijzen voor](add-users.md)instructies. Wanneer u uw nieuwe werknemer instelt, u ervoor kiezen om inloggegevens naar het persoonlijke account van de werknemer te sturen. Op deze manier ontvangen ze een e-mail van Microsoft Online Service Team waarin staat hoe ze zich moeten aanmelden bij Microsoft 365.
   
 ## <a name="step-2-give-the-employee-their-user-id-and-password"></a>Stap 2: Geef de werknemer zijn gebruikersnaam en wachtwoord
 
@@ -85,12 +85,8 @@ En hier is een snelle verwijzing om ze op weg te helpen:
 |Voltooi de Training van OneDrive voor Bedrijven om u te helpen leren hoe u uw documenten, presentaties en spreadsheets in de cloud opslaan en ordenen.  <br/> |Bewaar uw bedrijfsgerelateerde documenten in de cloud met OneDrive voor Bedrijven. U altijd bij uw inhoud komen, zelfs als u bent aangemeld bij Microsoft 365 op een andere computer. [Bekijk een video voor meer informatie over het gebruik van uw OneDrive voor Bedrijven](https://support.microsoft.com/office/b30da4eb-ddd2-44b6-943b-e6fbfc6b8dde) <br/><br/> **Training:** [Training voor OneDrive voor Bedrijven](https://support.microsoft.com/office/1f608184-b7e6-43ca-8753-2ff679203132) (Selecteer OneDrive voor Bedrijven).  <br/> |
 |Voltooi de SharePoint Online-training om u te helpen samenwerken met collega's en inhoud te delen.  <br/> |De beste plaats om documenten te bewaren die uw collega's ook openen, is in SharePoint Online.  <br/> <br/>**Training:** [Video: Samenwerken met teaminhoud met SharePoint Online](https://support.microsoft.com/office/c17b6824-cc22-478f-8757-497cc6b57121) <br/><br/> **Ontdek:** Hoe wordt uw organisatie gebruikt voor SharePoint Online en welk type documenten daar worden opgeslagen. Welke documenten worden opgeslagen in OneDrive voor Bedrijven.  <br/> |
 
-   
 ## <a name="related-articles"></a>Verwante artikelen
-
 
 [Een voormalige werknemer verwijderen uit Microsoft 365](remove-former-employee.md)
   
-[Gebruikers afzonderlijk of in bulk toevoegen aan Microsoft 365](add-users.md)
-  
-
+[Gebruikers toevoegen en tegelijkertijd licenties toewijzen65](add-users.md)

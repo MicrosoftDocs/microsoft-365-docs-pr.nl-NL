@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Meer informatie over het opzeggen van uw Microsoft 365 voor een proefabonnement voor bedrijven of een betaald abonnement.
-ms.openlocfilehash: 3f60792446b468aaa5c85d03ab761fd75e607b8b
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: da9a86973c271fce8a9552cfc0ce1b287f7debc8
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818517"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45023367"
 ---
 # <a name="cancel-your-subscription"></a>Uw abonnement opzeggen
 
@@ -144,10 +144,12 @@ Wanneer de annulering van kracht wordt, verliezen uw gebruikers de toegang tot h
 
 ### <a name="uninstall-office-optional"></a>Office verwijderen (optioneel)
 
-Als u uw abonnement hebt opgezegd en gebruikers niet hebt verplaatst naar een ander abonnement dat Microsoft 365 omvat, wordt Microsoft 365 uitgevoerd in de modus Met beperkte functionaliteit. Wanneer dit gebeurt, kunnen gebruikers alleen documenten lezen en afdrukken en worden in Microsoft 365-toepassingen [productmeldingen zonder licentie](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)weergegeven. Laat uw gebruikers [Office verwijderen](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) van hun computer om verwarring te voorkomen.
+Als u uw abonnement hebt opgezegd en gebruikers niet [hebt verplaatst naar een ander abonnement](move-users-different-subscription.md) dat Microsoft 365 omvat, wordt Microsoft 365 uitgevoerd in de modus Met beperkte functionaliteit. Wanneer dit gebeurt, kunnen gebruikers alleen documenten lezen en afdrukken en worden in Microsoft 365-toepassingen [productmeldingen zonder licentie](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)weergegeven. Laat uw gebruikers [Office verwijderen](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) van hun computer om verwarring te voorkomen.
 
 ## <a name="related-articles"></a>Verwante artikelen
 
 [Uw abonnement verlengen](renew-your-subscription.md)
 
 [Uw abonnement opnieuw activeren](reactivate-your-subscription.md)
+
+[Gebruikers naar een ander abonnement overzetten](move-users-different-subscription.md)

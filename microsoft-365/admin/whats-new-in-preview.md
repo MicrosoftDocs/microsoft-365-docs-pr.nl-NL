@@ -21,12 +21,12 @@ description: Het Microsoft 365-beheercentrum - meer informatie over de functies 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: d0c32c7f7ac3b2824cd48c0e10085e3d59a16c69
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 0bb0955e08c187ae7b425228f435566bcd8e01d7
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780705"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45015991"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe in het Microsoft 365-beheercentrum
 
@@ -349,7 +349,7 @@ Er zijn veel veranderingen voor Rollen in het beheercentrum sinds we in juni zij
 
 - **Favorieten** - U een ster toevoegen aan uw favoriete of meest gebruikte rollen, zodat u ze gemakkelijk vinden door de kolom te sorteren of een filter te maken.
 - **Actieve gebruikers**  >  **Rollen beheren** - Dit is bijgewerkt om af te stemmen op de wijzigingen in Rollen. Net als bij de lijst Rollen hebben we de standaardlijst met rollen naar de meest nuttige scopes beperkt, maar u alle rollen zien door **Weergeven alles per categorie**uit te breiden.
-- **Global reader rol** - Je vroeg erom! Je hebt het! De [wereldwijde lezersrol!](add-users/about-admin-roles.md#azure-ad-roles-available-in-the-microsoft-365-admin-center)
+- **Global reader rol** - Je vroeg erom! Je hebt het! De [wereldwijde lezersrol!](add-users/about-admin-roles.md)
 
 ### <a name="report-an-issue"></a>Een probleem melden
 

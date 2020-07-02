@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: Meer informatie over het toevoegen van een partner van abonnementsadviseur als partner van record op het moment dat Microsoft 365 een abonnement koopt, de partner wijzigen of een partner uit een abonnement verwijderen.
-ms.openlocfilehash: 4ab02e95c2a2330e95f8a54f717e38025d04714c
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 07e0d47d45f20e206fb8ca4c5ff5e81785bc74b9
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432193"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005684"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Een abonnementsadviseur toevoegen, wijzigen of verwijderen
 
@@ -50,13 +50,13 @@ De partner die u kiest, is afhankelijk van de Microsoft-services die u gebruikt 
 
 ::: moniker range="o365-germany"
 
-Een geautoriseerde partner van Microsoft die fungeert als uw abonnementsadviseur biedt de verkoop-, ondersteunings- en technische expertise die u nodig hebt om u te helpen een abonnement in te stellen en te onderhouden. U kunt een abonnementsadviseur toevoegen als een Partner of Record wanneer u Office 365 koopt of op elk ander gewenst moment. Als u momenteel niet met een partner werkt, kunt u er ook een zoeken op de website [Microsoft Pinpoint](https://pinpoint.microsoft.com). 
+An authorized partner of Microsoft who serves as your subscription advisor provides the sales, support, and technical expertise you need to help you set up and maintain your subscription. You can add a subscription advisor partner as a partner of record when you purchase Office 365 or at another time. If you're not currently working with a partner, you can also find one on the [Microsoft Pinpoint](https://pinpoint.microsoft.com) website. 
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Welke partner u kiest, hangt af van de Office 365-services die u gebruikt en het land of de regio waar u die services gebruikt. Als u een partner toevoegt, of de partner voor uw abonnement wijzigt, moet u de partner eerst vragen om diens Microsoft-partner-id.
+The partner you choose depends on the Office 365 services you use and the country or region where you'll use those services. If you are adding a partner, or changing the partner for your subscription, first you need to get the partner's Microsoft Partner ID by asking the partner for it.
 
 ::: moniker-end
 
@@ -79,7 +79,7 @@ Volg de stappen op de pagina providers om te zoeken naar, of om te krijgen gekop
     
 4. Als u al een partner hebt, selecteert u in de tweede stap van de wizard afhandeling in het rechterdeelvenster onder Partnergegevens de optie **Toevoegen**.
 
-5. Typ de Microsoft-partner-id van de partner die u toevoegt. U kunt de partner vragen om diens Microsoft-partner-id.
+5. Type the Microsoft Partner ID for the partner you're adding. You can get the partner's Microsoft Partner ID by asking the partner for it.
 
 6. Voltooi de rest van de wizard om de aanschaf van uw abonnementen te voltooien. 
     
@@ -98,7 +98,7 @@ Volg de stappen op de pagina providers om te zoeken naar, of om te krijgen gekop
     
 4. Als u al een partner hebt, selecteert u in de tweede stap van de wizard afhandeling in het rechterdeelvenster onder Partnergegevens de optie **Toevoegen**.
 
-5. Typ de Microsoft-partner-id van de partner die u toevoegt. U kunt de partner vragen om diens Microsoft-partner-id.
+5. Type the Microsoft Partner ID for the partner you're adding. You can get the partner's Microsoft Partner ID by asking the partner for it.
 
 6. Voltooi de rest van de wizard om de aanschaf van uw abonnementen te voltooien. 
     
@@ -127,7 +127,7 @@ Volg de stappen op de pagina providers om te zoeken naar, of om te krijgen gekop
   
 3. Kies rechts, onder de abonnementskosten, **Meer acties** > **Partner toevoegen van record.**
 
-4. Typ de Microsoft-partner-id van de partner die u toevoegt, selecteer **Id controleren** en vervolgens **Verzenden**. U kunt de partner vragen om diens Microsoft-partner-id.
+4. Type the Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.
 
 5. De partner-id wordt weergegeven op de pagina **Abonnementen**.
     
@@ -159,7 +159,7 @@ Om dit voorstel te accepteren
     
 3. Selecteer onder **Partner-id** de optie **Partner of Record bewerken**.
   
-4. Typ de nieuwe Microsoft-partner-id van de partner die u toevoegt, selecteer **Id controleren** en vervolgens **Verzenden**. U kunt de partner vragen om diens Microsoft-partner-id.
+4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.
   
 ::: moniker-end
 
@@ -171,7 +171,7 @@ Om dit voorstel te accepteren
     
 3. Selecteer onder **Partner-id** de optie **Partner of Record bewerken**.
   
-4. Typ de nieuwe Microsoft-partner-id van de partner die u toevoegt, selecteer **Id controleren** en vervolgens **Verzenden**. U kunt de partner vragen om diens Microsoft-partner-id.   
+4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.   
 
 ::: moniker-end
 
@@ -183,7 +183,7 @@ Om dit voorstel te accepteren
     
 3. Selecteer onder **Partner-id** de optie **Partner of Record bewerken**.
   
-4. Typ de nieuwe Microsoft-partner-id van de partner die u toevoegt, selecteer **Id controleren** en vervolgens **Verzenden**. U kunt de partner vragen om diens Microsoft-partner-id.   
+4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.   
 
 ::: moniker-end
 
@@ -255,7 +255,7 @@ Als u een resellerrelatie wilt verwijderen is de optie **Verwijderen** niet besc
 
 Een resellerrelatie kunt u zelf niet verwijderen.
   
-Als u een resellerrelatie wilt verwijderen is de optie **Verwijderen** niet beschikbaar. U moet uw reseller-partner vragen deze instructies te volgen: [Een resellerrelatie met een partner verwijderen](https://docs.microsoft.com/partner-center/remove-a-relationship).
+U moet uw resellerpartner vragen om deze instructies op te volgen: [Verwijder een resellerrelatie met partner.](https://docs.microsoft.com/partner-center/remove-a-relationship)
   
 ::: moniker-end
 

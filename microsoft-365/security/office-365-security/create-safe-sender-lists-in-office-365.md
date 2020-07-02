@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen meer te weten komen over de beschikbare en gewenste opties om binnenkomende berichten toe te staan in Exchange Online Protection (EOP).
-ms.openlocfilehash: c9f444483afea82db1fbbe3b5be98751d42c2f5e
-ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
+ms.openlocfilehash: 9ca1fc3911dd3417304d0d1de6923408373bc33c
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44545944"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005856"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Veilige afzenderlijsten maken in EOP
 
@@ -126,7 +126,7 @@ Stel dat Blue Yonder Airlines Margie's Travel heeft ingehuurd om zijn e-mailadve
 
 - Het `5322.From` adres is blueyonder@news.blueyonderairlines.com, dat is wat u ziet in Outlook.
 
-Veilige afzenderlijsten en veilige domeinlijsten in antispambeleid in EOP inspecteren zowel de adressen als de `5321.MailFrom` `5322.From` adressen. Outlook Safe Senders gebruikt alleen het `5322.From` adres.
+Veilige afzenderlijsten en veilige domeinlijsten in antispambeleid in EOP inspecteren alleen de `5322.From` adressen, dit is vergelijkbaar met Outlook Safe Senders die het `5322.From` adres gebruikt.
 
 Als u wilt voorkomen dat dit bericht wordt gefilterd, u de volgende stappen uitvoeren:
 

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 1a84c568d1411cf21c23e59cabad955c40c18ac6
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: 7afcf16a42824ff234e53412a0cbd44f997fcaf9
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44498361"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005708"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Aangepaste detectieregels maken en beheren
 
@@ -118,8 +118,8 @@ Uw aangepaste detectieregel kan automatisch acties uitvoeren op apparaten, besta
 
 #### <a name="actions-on-devices"></a>Acties op apparaten
 Deze acties worden toegepast op apparaten in de `DeviceId` kolom van de queryresultaten:
-- **Apparaat isoleren** — gebruikt Microsoft Defender ATP om volledige netwerkisolatie toe te passen, waardoor het apparaat geen verbinding kan maken met een toepassing of service. [Meer informatie over de isolatie van Microsoft Defender ATP-machines](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-machines-from-the-network)
-- **Verzamel een onderzoekspakket** : verzamelt apparaatgegevens in een ZIP-bestand. [Meer informatie over het ATP-onderzoekspakket van Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-machines)
+- **Apparaat isoleren** — gebruikt Microsoft Defender ATP om volledige netwerkisolatie toe te passen, waardoor het apparaat geen verbinding kan maken met een toepassing of service. [Meer informatie over de isolatie van Microsoft Defender ATP-machines](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network)
+- **Verzamel een onderzoekspakket** : verzamelt apparaatgegevens in een ZIP-bestand. [Meer informatie over het ATP-onderzoekspakket van Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
 - **Antivirusscan uitvoeren** — voert een volledige Windows Defender Antivirus-scan uit op het apparaat
 - **Onderzoek initiëren** — start een [geautomatiseerd onderzoek](mtp-autoir.md) op het apparaat
 - **App-uitvoering beperken** : stelt beperkingen in op het apparaat om alleen bestanden die zijn ondertekend met een door Microsoft uitgegeven certificaat uit te voeren, toe te staan. [Meer informatie over app-beperkingen met Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#restrict-app-execution)

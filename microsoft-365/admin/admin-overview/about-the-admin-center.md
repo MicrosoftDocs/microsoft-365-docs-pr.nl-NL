@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: U kunt beheercentrum gebruiken voor het instellen van uw organisatie in de cloud, het beheren van gebruikers en abonnementen. Ga aan de slag door u aan te melden bij het account met beheerdersmachtigingen.
-ms.openlocfilehash: 9295d16f19ebaabdd9960331f1d875f436156b79
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: e4b1570afd8572df31af970fb168b6d22deee979
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780551"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022179"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Over het Microsoft 365-beheercentrum
 
@@ -89,7 +89,7 @@ Hier vindt u de functies en instellingen die in het linkernavigatievenster van h
    
 ## <a name="common-tasks-in-the-admin-center"></a>Veelvoorkomende taken in het beheercentrum
 
-- Gebruikers beheren: [Gebruikers afzonderlijk toevoegen](../add-users/add-users.md), [Gebruikers verwijderen of herstellen](../add-users/delete-a-user.md)of [Wachtwoord van een gebruiker opnieuw instellen](../add-users/reset-passwords.md).
+- Gebruikers beheren: [gebruikers toevoegen en tegelijkertijd licenties toewijzen,](../add-users/add-users.md)gebruikers verwijderen of [herstellen](../add-users/delete-a-user.md)of het wachtwoord van een gebruiker [opnieuw instellen.](../add-users/reset-passwords.md)
 
 - Hulp krijgen bij facturering: [Facturering](../../commerce/index.yml)
 

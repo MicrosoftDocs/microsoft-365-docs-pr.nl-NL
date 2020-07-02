@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
 description: In dit artikel leert u hoe u uw teamsite aanpassen, ordenen en beheren voor bestandsopslag en -delen.
-ms.openlocfilehash: 5eb95ffc1ec687920b4499a9876ce3186e678062
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: e7c3364332a127b5a398d3b08843ea7dd04679b5
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779867"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022167"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>Uw teamsite aanpassen voor het opslaan en delen van bestanden
 
@@ -104,7 +104,7 @@ As you manage your team site, you may have to add or remove users. Here's inform
   
 Bekijk een video over groepen, zie [Groepen begrijpen en beheren](https://support.microsoft.com/office/9c1037b7-de0b-41cd-b8f0-79a95aac854d). 
   
-Zie Gebruikers afzonderlijk of in bulk toevoegen aan [Microsoft 365 - Help voor beheerders als](../add-users/add-users.md)u gebruikers wilt toevoegen aan een Microsoft 365-groep.
+Zie [Gebruikers toevoegen en tegelijkertijd licenties toewijzen als](../add-users/add-users.md)u gebruikers wilt toevoegen aan een Microsoft 365-groep.
   
 Meer informatie over het afhandelen van toegangsaanvragen met [Toegangsaanvragen instellen en beheren](https://support.microsoft.com/office/94B26E0B-2822-49D4-929A-8455698654B3).
   

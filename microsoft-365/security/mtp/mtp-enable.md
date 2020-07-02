@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 0badae0d81b52b89c47f950b889109d4b9d35dda
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: b6ac30f7e32bbec80952ad4f2104032886b11503
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844590"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016341"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection inschakelen
 
@@ -61,10 +61,12 @@ Als u Microsoft Threat Protection wilt inschakelen, selecteert u **Microsoft Thr
 >Als u **Instellingen** niet ziet in het navigatiedeelvenster of geen toegang hebt tot de pagina, controleert u uw machtigingen en licenties.
 
 ### <a name="data-center-location"></a>Locatie datacenter
-Microsoft Threat Protection slaat gegevens op en verwerkt deze op [dezelfde locatie die wordt gebruikt door Microsoft Defender ATP.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy) Als u geen Microsoft Defender ATP hebt, wordt automatisch een nieuwe locatie van het datacenter geselecteerd op basis van de locatie van actieve Microsoft 365-beveiligingsservices. De geselecteerde locatie van het datacenter wordt weergegeven in het scherm.
+Microsoft Threat Protection slaat gegevens op en verwerkt deze op [dezelfde locatie die wordt gebruikt door Microsoft Defender ATP.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy) Als u geen Microsoft Defender ATP hebt, wordt automatisch een nieuwe locatie van het datacenter geselecteerd op basis van de locatie van actieve Microsoft 365-beveiligingsservices. De geselecteerde locatie van het datacenter wordt weergegeven in het scherm. 
+
+Selecteer **Hulp nodig?** In het Microsoft 365-beveiligingscentrum u contact opnemen met microsoft-ondersteuning voor het inrichten van Microsoft Threat Protection op een andere locatie van het datacenter. 
 
 >[!NOTE]
->Selecteer **Hulp nodig?** In het Microsoft 365-beveiligingscentrum u contact opnemen met Microsoft-ondersteuning over het inrichten van Microsoft Threat Protection op een andere locatie van het datacenter. 
+>Microsoft Defender ATP-bepalingen in datacenters van de Europese Unie (EU) automatisch worden ingeschakeld via Azure Security Center. Microsoft Threat Protection voorziet automatisch in hetzelfde EU-datacenter voor klanten die Microsoft Defender ATP op deze manier hebben ingericht. 
 
 ### <a name="confirm-that-the-service-is-on"></a>Controleer of de service is ingeschakeld
 Zodra de service is ingericht, voegt zij eraan toe:

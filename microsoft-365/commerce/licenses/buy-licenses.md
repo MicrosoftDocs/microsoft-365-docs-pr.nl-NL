@@ -1,39 +1,35 @@
 ---
-title: Abonnementslicenties beheren
+title: Abonnementslicenties kopen of verwijderen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
-audience: Admin
+ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- Adm_O365
 - Adm_TOC
 - commerce
 ms.custom:
 - SaRA
 - okr_SMB
 - AdminSurgePortfolio
+- manage_licenses
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-- GEA150
-ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
-description: Meer informatie over het toevoegen en verwijderen van licenties voor uw Microsoft 365 voor Bedrijven-abonnement.
-ms.openlocfilehash: c4b2b30c9d444aad11ea4cd2faf8b2546e33c39c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer licenties kopen of het aantal licenties voor uw Microsoft 365 for Business-abonnement verminderen.
+ms.date: 07/01/2020
+ms.openlocfilehash: 85861379bbce30c3c071a47529d516d7d5170e39
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44404020"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45015897"
 ---
-# <a name="manage-subscription-licenses"></a>Abonnementslicenties beheren
+# <a name="buy-or-remove-subscription-licenses"></a>Abonnementslicenties kopen of verwijderen
 
 ::: moniker range="o365-21vianet"
 
@@ -42,96 +38,82 @@ ms.locfileid: "44404020"
 
 ::: moniker-end
 
-Met deze stappen u licenties toevoegen of verwijderen uit uw abonnementen.
+U meer licenties kopen of het aantal licenties voor uw abonnementen verminderen met behulp van deze stappen.
 
-U kunt een licentie niet uit een abonnement verwijderen als die licentie is toegewezen aan een gebruiker. Als u een licentie wilt verwijderen die momenteel aan iemand is toegewezen, moet u [licenties van gebruikers verwijderen](../../admin/manage/remove-licenses-from-users.md) voordat u de licentie uit het abonnement verwijderen.
+## <a name="before-you-begin"></a>Voordat u begint
 
-## <a name="add-or-remove-licenses-for-your-business-subscription"></a>Licenties voor uw zakelijke abonnement toevoegen of verwijderen
+- U moet een globale beheerder of een factureringsbeheerder zijn om licenties te kopen. [Zie Over beheerdersrollen voor](../../admin/add-users/about-admin-roles.md)meer informatie .
+- U [gebruikers toevoegen en tegelijkertijd licenties toewijzen.](../../admin/add-users/add-users.md)
+
+## <a name="buy-or-remove-licenses-for-your-business-subscription"></a>Licenties voor uw bedrijfsabonnement kopen of verwijderen
 
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
-
-2. Zoek op de pagina **Uw producten** het abonnement waaraan u licenties wilt toevoegen of verwijderen en selecteer vervolgens **Licenties toevoegen/verwijderen.**
-
-    [Wat is er aan de hand als ik de koppeling Toevoegen/verwijderen niet zie?](#what-if-i-dont-see-the-addremove-licenses-link)
-
-3. Voer in het vak **Licenties totaal** het totale aantal licenties in dat u voor dit abonnement nodig hebt en selecteer **Wijzigen verzenden**. Als u bijvoorbeeld 100 licenties hebt en u 5 extra licenties wilt toevoegen, voert u 105 in. Als u er 5 wilt verwijderen, voert u 95 in.
-
-Nadat u nieuwe licenties hebt aangeschaft, moet u [de licenties toewijzen aan gebruikers.](../../admin/manage/assign-licenses-to-users.md)
+2. Zoek het abonnement waarvoor u licenties wilt kopen of verwijderen en selecteer **vervolgens Licenties toevoegen/verwijderen.** [Wat gebeurt er als u de koppeling Licenties toevoegen/verwijderen niet ziet?](#what-if-you-dont-see-the-addremove-licenses-link)
+3. Voer in het vak **Totaallicenties** het totale aantal licenties in dat u wilt voor dit abonnement en selecteer **vervolgens Wijziging verzenden**. Als u bijvoorbeeld 100 licenties hebt en er nog vijf wilt toevoegen, voert u 105 in. Als u er vijf wilt verwijderen, voert u 95 in.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
-
-2. Selecteer **op** de pagina Abonnementen het abonnement waaraan u licenties wilt toevoegen of verwijderen en selecteer vervolgens **Licenties toevoegen/verwijderen.**
-
-    [Wat is er aan de hand als ik de koppeling Toevoegen/verwijderen niet zie?](#what-if-i-dont-see-the-addremove-licenses-link)
-
-3. Voer in het vak **Licenties totaal** het totale aantal licenties in dat u voor dit abonnement nodig hebt en selecteer **Sluiten** \> **verzenden**. Als u bijvoorbeeld 100 licenties hebt en u 5 extra licenties wilt toevoegen, voert u 105 in. Als u er 5 wilt verwijderen, voert u 95 in.
-
-Nadat u nieuwe licenties hebt aangeschaft, moet u [de licenties toewijzen aan gebruikers.](../../admin/manage/assign-licenses-to-users.md)
+2. Selecteer **op** de pagina Abonnementen het abonnement waarop u licenties wilt kopen of verwijderen en selecteer **vervolgens Licenties toevoegen/verwijderen**. [Wat gebeurt er als u de koppeling Licenties toevoegen/verwijderen niet ziet?](#what-if-you-dont-see-the-addremove-licenses-link)
+3. Voer in het vak **Totaallicenties** het totale aantal licenties in **Submit** dat u wilt voor dit abonnement en selecteer \> **Sluiten verzenden**. Als u bijvoorbeeld 100 licenties hebt en er nog vijf wilt toevoegen, voert u 105 in. Als u vijf licenties wilt verwijderen, voert u 95 in.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
 1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
-
-2. Selecteer **op** de pagina Abonnementen het abonnement waaraan u licenties wilt toevoegen of verwijderen en selecteer vervolgens **Licenties toevoegen/verwijderen.**
-
-    [Wat is er aan de hand als ik de koppeling Toevoegen/verwijderen niet zie?](#what-if-i-dont-see-the-addremove-licenses-link)
-
-3. Voer in het vak **Licenties totaal** het totale aantal licenties in dat u voor dit abonnement nodig hebt en selecteer **Sluiten** \> **verzenden**. Als u bijvoorbeeld 100 licenties hebt en u 5 extra licenties wilt toevoegen, voert u 105 in. Als u er 5 wilt verwijderen, voert u 95 in.
-
-Nadat u nieuwe licenties hebt aangeschaft, moet u [de licenties toewijzen aan gebruikers.](../../admin/manage/assign-licenses-to-users.md)
+2. Selecteer **op** de pagina Abonnementen het abonnement waarop u licenties wilt kopen of verwijderen en selecteer **vervolgens Licenties toevoegen/verwijderen**. [Wat gebeurt er als u de koppeling Licenties toevoegen/verwijderen niet ziet?](#what-if-you-dont-see-the-addremove-licenses-link)
+3. Voer in het vak **Totaallicenties** het totale aantal licenties in dat **Submit** u wilt voor dit abonnement en selecteer \> **Sluiten verzenden**. Als u bijvoorbeeld 100 licenties hebt en u 5 extra licenties wilt toevoegen, voert u 105 in. Als u wilt verwijderen 5 van hen, voer 95.
 
 ::: moniker-end
 
-## <a name="what-if-i-dont-see-the-addremove-licenses-link"></a>Wat is er aan de hand als ik de koppeling Toevoegen/verwijderen niet zie?
+> [!NOTE]
+> U het aantal licenties voor uw abonnement niet verminderen als alle licenties momenteel aan gebruikers zijn toegewezen. Als u het aantal licenties wilt verminderen, hoeft u eerst [een of meer licenties van gebruikers los te maken](../../admin/manage/remove-licenses-from-users.md)en vervolgens de licenties uit het abonnement te verwijderen.
 
-In deze tabel worden de redenen beschreven waarom de koppeling **Licenties toevoegen/verwijderen** mogelijk niet beschikbaar is en wat u eraan doen. 
+## <a name="what-if-you-dont-see-the-addremove-licenses-link"></a>Wat gebeurt er als u de koppeling Licenties toevoegen/verwijderen niet ziet?
+
+In deze tabel worden de redenen beschreven waarom de koppeling **Licenties toevoegen/verwijderen** mogelijk niet beschikbaar is en wat u eraan doen.
 
 |Reden  |Beschrijving  |Oplossing  |
 |---------|---------|---------|
-|Er is een kredietcontrole in behandeling. |Als er een kredietcontrole in behandeling is, ziet u een bericht 'In behandeling zijnde kredietcontrole' en u geen licenties kopen totdat de kredietcontrole is voltooid.  | Kom later terug om te zien of de kredietcontrole is voltooid. Kredietcontroles duren doorgaans maximaal twee werkdagen.<br>Nadat de kredietcontrole voltooid is, zou de koppeling **Licenties toevoegen/verwijderen** in de sectie **Gebruikers** te zien moeten zijn. Ga dan naar [Abonnementslicenties beheren](#manage-subscription-licenses). |
-|U hebt het abonnement geactiveerd met een productcode.| Als het abonnement is aangeschaft en geactiveerd met een productcode van 25 tekens, ziet u de tekst 'PrePaid'.  |Zie [Licenties toevoegen aan een abonnement waarvoor een productcode is betaald.](add-licenses-using-product-key.md) |
-|U hebt uw abonnement gekocht via een partner. | Als het abonnement is aangeschaft via een partner, ziet u de VLSC-koppeling (Volume Licensing Service Center). | Zie [Licenties toevoegen aan een abonnement dat is aangeschaft via het Volume Licensing Service Center](add-licenses-bought-through-vlsc.md). |
-|U hebt uw abonnement gekocht via een reseller.|| Als het abonnement is gekocht bij een Cloud Solution Provider-partner (CSP), moet u contact op met uw CSP-partner als u meer licenties wilt kopen.        |
-|Je hebt een proefabonnement. |In een proefversie van Microsoft 365 wordt de tekst "Trial" weergegeven. | U moet eerst uw proefabonnement kopen, dan u meer licenties toevoegen. Zie [Een abonnement op Microsoft 365 voor bedrijven kopen vanuit uw gratis proefversie.](../buy-a-subscription-from-your-free-trial.md)|
+|Een kredietcontrole is in behandeling. |Als er een kredietcontrole in behandeling is, ziet u een bericht 'Tegoedcontrole in behandeling'. U geen licenties kopen totdat de kredietcontrole is voltooid.  | Kom later terug om te zien of de kredietcontrole is voltooid. Kredietcontroles duren doorgaans maximaal twee werkdagen.<br/>Nadat de kredietcontrole is voltooid, ziet u de koppeling **Licenties toevoegen/verwijderen.** |
+|U hebt het abonnement geactiveerd met behulp van een productcode.| Als het abonnement is gekocht en geactiveerd met behulp van een productcode van 25 tekens, ziet u de tekst 'Prepaid'.  |Zie [Licenties toevoegen aan een abonnement dat is betaald voor het gebruik van een productcode.](add-licenses-using-product-key.md) |
+|U hebt uw abonnement via een partner gekocht. | Als het abonnement is gekocht via een partner, ziet u de koppeling Volume Licensing Service Center (VLSC). | Zie [Licenties toevoegen aan een abonnement dat is aangeschaft via het Volume Licensing Service Center](add-licenses-bought-through-vlsc.md). |
+|U hebt uw abonnement gekocht via een reseller.|| Als het abonnement is gekocht via een CSP-partner (Cloud Solution Provider), neemt u contact op met uw CSP-partner om meer licenties te kopen.        |
+|Je hebt een proefabonnement. |Een proefversie van Microsoft 365 geeft de tekst 'Proefversie' weer. | Koop eerst uw proefabonnement, dan u meer licenties toevoegen. Zie [Een abonnement op Microsoft 365 voor bedrijven kopen via uw gratis proefperiode.](../buy-a-subscription-from-your-free-trial.md)|
 
 ## <a name="what-you-need-to-know-about-buying-licenses-for-your-business-subscription"></a>Wat u moet weten over het kopen van licenties voor uw zakelijke abonnement
 
-### <a name="buying-licenses"></a>Licenties kopen
-
-- U moet een globale beheerder of een factureringsbeheerder zijn om licenties te kopen. Zie [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md)voor meer informatie .
-- Zie Gebruikers afzonderlijk of in bulk toevoegen [microsoft 365 - Help voor beheerders.](../../admin/add-users/add-users.md)
-
 ### <a name="license-availability"></a>Beschikbaarheid van licenties
 
-- Als u voor het abonnement per creditcard of via uw bankrekening betaalt, zijn nieuwe licenties die u koopt, direct beschikbaar na ontvangst van de orderbevestiging. Als u per factuur betaalt, moet u mogelijk wachten op een kredietcontrole voordat uw nieuwe licenties beschikbaar zijn voor gebruik.
-
+- **Als je een factureringsprofiel hebt:** de creditcard die is gekoppeld aan je factureringsprofiel wordt in rekening gebracht zodra je meer licenties voor een abonnement koopt. De licenties zijn onmiddellijk beschikbaar voor u om toe te wijzen aan gebruikers. [Wat is een factureringsprofiel?](../billing-and-payments/manage-billing-profiles.md)
+- **Als u geen factuurprofiel hebt:** Als u uw abonnement betaalt met creditcard of bankpas of bankrekening, zijn nieuwe licenties die u koopt onmiddellijk beschikbaar nadat u een orderbevestiging hebt ontvangen. Als u per factuur betaalt, moet u mogelijk wachten op een kredietcontrole voordat uw nieuwe licenties beschikbaar zijn voor gebruik.
   > [!NOTE]
   > Betalen via een bankrekening is niet beschikbaar in bepaalde landen of regio's.
+- **Als u vooraf hebt betaald voor uw abonnement met een productcode:** U meer licenties toevoegen door een creditcard of betaalkaart of bankrekening toe te voegen om de extra kosten van de nieuwe licenties te dekken. Nadat u de nieuwe licenties hebt gekocht, voegen we een tweede abonnement toe met het aantal nieuwe licenties dat u zojuist hebt toegevoegd. Als u bijvoorbeeld een prepaidabonnement met vijf licenties hebt en vervolgens nog 10 licenties hebt gekocht, ziet u twee abonnementen vermeld: een met de vijf prepaidlicenties en één met de 10 nieuwe licenties.
 
-- Als u een prepaid hebt betaald voor uw abonnement met een productcode, u meer licenties toevoegen door een creditcard of bankrekening toe te voegen om de extra kosten van de nieuwe licenties te dekken. Nadat u de nieuwe licenties hebt gekocht, wordt een tweede abonnement toegevoegd voor het aantal nieuwe licenties die u zojuist hebt toegevoegd. Als u bijvoorbeeld een vooraf betaald abonnement met vijf licenties hebt en vervolgens tien extra licenties hebt gekocht, ziet u twee abonnementen: een met de vijf vooraf betaalde licenties en een met de tien nieuwe licenties.
+### <a name="changing-your-payment-method"></a>Uw betalingsmethode wijzigen
+
+- **Als je een factureringsprofiel hebt:** de creditcard die is gekoppeld aan je factureringsprofiel wordt in rekening gebracht zodra je meer licenties voor een abonnement koopt. [Wat is een factureringsprofiel?](../billing-and-payments/manage-billing-profiles.md)
+- **Als je geen factureringsprofiel hebt:** Als u met een creditcard, bankpas of bankrekening betaalt, worden de kosten voor het kopen van nieuwe licenties binnen twee dagen op uw betalingsmethode weergegeven.
 
 ### <a name="billing-statements"></a>Factureringsoverzichten
 
-- Als u per creditcard of bankrekening betaalt, wordt het bedrag voor het kopen van nieuwe licenties binnen twee dagen bij uw betaalmethode vermeld.
-- Als u per factuur betaalt, wordt het bedrag voor het kopen van nieuwe licenties vermeld op uw volgende factuuroverzicht.
-- Als u ergens midden in uw factureringsperiode nieuwe licenties koopt, kan er op uw eerste factuuroverzicht een deel van het betaalde bedrag worden vermeld. Het resterende bedrag wordt dan opgenomen in het volgende factuuroverzicht.
+- Licenties die in het midden van uw factureringsperiode zijn toegevoegd, worden op uw volgende factuur weergegeven. Als u jaarlijks betaalt, wordt u binnen een maand gefactureerd voor deze wijzigingen.
+- Op uw volgende factuuroverzicht worden de vorige kosten voor het oorspronkelijke aantal licenties in mindering gebracht. We voegen een prorata-kosten voor de periode toe met het oorspronkelijke aantal licenties en voegen een toeslag toe voor het nieuwe aantal licenties. Er zijn ook kosten in rekening gebracht voor het huidige aantal licenties voor de rest van uw factureringsperiode.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="next-steps"></a>Volgende stappen
 
-[Informatie over abonnementen en licenties](subscriptions-and-licenses.md)
+Als u meer licenties voor uw abonnement hebt gekocht, moet u [deze licenties eerst toewijzen aan gebruikers in uw organisatie.](../../admin/manage/assign-licenses-to-users.md)
 
-[Licenties kopen voor uw abonnement](buy-licenses.md)
+Als u het aantal licenties voor uw abonnement hebt verminderd omdat iemand uw organisatie heeft verlaten, u het account van die gebruiker verwijderen. Zie [Een voormalige werknemer verwijderen voor](../../admin/add-users/remove-former-employee.md)meer informatie.
 
-[Nog een abonnement kopen](../buy-another-subscription.md)
+## <a name="related-content"></a>Gerelateerde inhoud
 
-[Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md)
-
-[Yammer-gebruikerslicenties beheren](https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-licenses-in-office-365)
+[Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md) (artikel)\
+[Abonnementen en licenties begrijpen](subscriptions-and-licenses.md) (artikel)\
+[Probeer of koop een Microsoft 365-abonnement](../try-or-buy-microsoft-365.md) (artikel)

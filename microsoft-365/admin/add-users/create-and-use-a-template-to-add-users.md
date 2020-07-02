@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: U een sjabloon maken en gebruiken om tijd te besparen en instellingen te standaardiseren wanneer u meerdere gebruikers toevoegt.
-ms.openlocfilehash: cbe61c87bec40196ffd7a8e9868ea4611e4c259e
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 29953eb97476799d74e883ed8b20bd5f3382cbf4
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431807"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022143"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>Een sjabloon maken en gebruiken om gebruikers toe te voegen
 
@@ -89,7 +89,7 @@ U eenvoudig sjablonen verwijderen die u niet meer nodig hebt en nieuwe toevoegen
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Gebruikers afzonderlijk of in bulk toevoegen aan Microsoft 365](add-users.md)
+[Gebruikers toevoegen en tegelijkertijd licenties toewijzen](add-users.md)
 
 [Een voormalige werknemer verwijderen uit Microsoft 365](remove-former-employee.md)
   

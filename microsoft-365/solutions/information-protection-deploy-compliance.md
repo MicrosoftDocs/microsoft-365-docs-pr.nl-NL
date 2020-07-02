@@ -16,12 +16,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Meer informatie over het gebruik van Complance Score en Compliance Manager om uw beschermingsniveau voor persoonsgegevens te verbeteren.
-ms.openlocfilehash: 0d95c663030cf63fb83dfd40c7f3605c1c0b6f8f
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: 4a45f24d66d08c2c0f17d75d897f523ef074936c
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695171"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016365"
 ---
 # <a name="use-compliance-score-and-compliance-manager-to-manage-improvement-actions"></a>Compliance Score en Compliance Manager gebruiken om verbeteracties te beheren
 
@@ -109,7 +109,7 @@ U ook een nieuwe sjabloon toevoegen die is aangepast voor uw organisatie op basi
 
 ## <a name="compliance-score"></a>Compliance Score
 
-Zodra de beoordelingen en beoordelingsspecificaties zijn uitgevoerd in Compliance Manager, u nu naar de [compliancescore-tool](../compliance/working-with-compliance-score.md) gaan en de score bekijken en de gegevens verder snijden en de gegevens in blokjes snijden, inclusief het controlegebied.
+Zodra de beoordelingen en beoordelingsspecificaties zijn uitgevoerd in Compliance Manager, u nu naar de [compliancescore-tool](../compliance/compliance-score.md) gaan en de score bekijken en de gegevens verder snijden en de gegevens in blokjes snijden, inclusief het controlegebied.
 
 De Compliance Score-tool in het Microsoft 365 Compliance-beheercentrum biedt verschillende benaderingen voor het beoordelen en filteren van nalevingsgegevens die zijn verkregen van Compliance Manager en verschillende Microsoft 365-services. Deze tool wordt automatisch bijgewerkt wanneer verschillende configuratie-instellingen worden geïmplementeerd en deelt signalen met de Microsoft Secure Score, zodat veel verbeteringsacties in beide scores worden weergegeven. 
  
@@ -141,7 +141,7 @@ Hier volgen enkele belangrijke tips voor het gebruik van Compliance Score en Com
 
 - Elke verordening voor gegevensprivacy heeft een combinatie van technische controles, documentatiespecificaties en operationele, proces- en rapportagevereisten. Al deze verschijnen in de verbetering acties. 
 
-- Dit artikel richt zich op een subset van de technische besturingselementen die zijn opgegeven voor gegevensprivacy in Compliance Manager en Compliance Score. Raadpleeg de compliancemanager-tool en [documentatie](../compliance/working-with-compliance-score.md) voor meer informatie over niet-technische administratieve controles.
+- Dit artikel richt zich op een subset van de technische besturingselementen die zijn opgegeven voor gegevensprivacy in Compliance Manager en Compliance Score. Raadpleeg de compliancemanager-tool en [documentatie](../compliance/compliance-score.md) voor meer informatie over niet-technische administratieve controles.
 
 - Als u de weergave van verbeteracties wilt richten op uw interessegebied, u filteren op actietype op het tabblad **Oplossingen** in de beheerder van de nalevingsscore.
 

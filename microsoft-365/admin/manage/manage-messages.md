@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: 97af2932-0868-4ccf-8f6b-21a94946c58a
 description: Meer informatie over het beheren van Berichtencentrumberichten om te helpen bij het beheer van wijzigingen.
-ms.openlocfilehash: 95d1e4eb7bdf411ea1fed7ccfb58224860f889e5
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: c415120a86b0c095df8ba9cbb4130abda1f6596b
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432263"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005820"
 ---
 # <a name="manage-messages-in-message-center"></a>Berichten in het berichtencentrum beheren
 
-Berichten in het berichtencentrum zijn belangrijke aankondigingen over nieuwe en gewijzigde functies. In dit artikel vindt u meer informatie over wat u kunt doen met berichten om te helpen met het beheer van de wijzigingen in uw organisatie.
+Message center posts are important announcements about new and changed features. This article provides more information about the things you can do with messages to help with change management in your organization.
   
 ## <a name="read-a-message"></a>Een bericht lezen
 
@@ -157,19 +157,19 @@ Een ongelezen bericht in het berichtencentrum wordt vetgedrukt weergegeven. Wann
 
 ::: moniker-end
 
-## <a name="dismiss-and-restore"></a>Negeren en terugzetten
+## <a name="archive-and-restore"></a>Archiveren en herstellen
 
-Als u een bericht ziet dat niet op u betrekking heeft, of als u er al op hebt gereageerd, u het bericht verwijderen om het bericht te verwijderen uit de weergave Berichtencentrum. De weergave die u in het Berichtencentrum ziet, is specifiek voor uw gebruikersaccount, dus het verwijderen van uw weergave heeft geen invloed op andere beheerders.
+Als u een bericht ziet dat niet op u betrekking heeft, of als u er al op hebt gereageerd, u het bericht archiveren om het bericht te verwijderen uit de weergave Berichtencentrum. De weergave die u in het Berichtencentrum ziet, is specifiek voor uw gebruikersaccount, zodat het archiveren vanuit uw weergave geen invloed heeft op andere beheerders.
 
 ::: moniker range="o365-worldwide"
 
-- Selecteer op de hoofdpagina van het berichtencentrum een bericht en selecteer **Vervolgens Verwijderen** boven de lijst met berichten.
+- Selecteer op de hoofdpagina van het berichtencentrum een bericht en selecteer **Vervolgens Archief** boven de lijst met berichten.
 
-- Open het bericht en selecteer **Vervolgens Onder** aan het bericht verwijderen.
+- Open het bericht en selecteer **Vervolgens Archief** onder aan het bericht.
 
-Wilt u een genegeerd bericht weer terughalen? Geen probleem.
+Wilt u een gearchiveerd bericht terugkrijgen? Geen probleem.
   
-1. Selecteer het tabblad **Verwijderde berichten** boven aan het berichtencentrum. Een lijst met verwijderde berichten wordt weergegeven. 
+1. Selecteer het tabblad **Gearchiveerde berichten** boven aan het berichtencentrum. Er verschijnt een lijst met gearchiveerde berichten. 
 
 2. Selecteer het bericht, selecteer **Herstellen**en het bericht wordt hersteld naar actieve berichten.
 
@@ -177,15 +177,15 @@ Wilt u een genegeerd bericht weer terughalen? Geen probleem.
 
 ::: moniker range="o365-germany"
 
-Er zijn twee manieren om een bericht te verwijderen.
+Er zijn twee manieren om een bericht te archiveren.
   
 - Selecteer de X die rechts van de bericht-id wordt weergegeven. Het bericht wordt verwijderd uit uw lijst. Of:
 
-- Open het bericht en selecteer **Vervolgens Boven** aan het bericht verwijderen.
+- Open het bericht en selecteer **Archief** boven aan het bericht.
 
 Wilt u een genegeerd bericht weer terughalen? Geen probleem.
   
-1. Selecteer het filter **Verwijderde berichten** in het vervolgkeuzemenu **Weergaven**. Een lijst met verwijderde berichten wordt weergegeven.
+1. Selecteer het filter **Gearchiveerde berichten** in het vervolgkeuzemenu **Weergaven.** Er verschijnt een lijst met gearchiveerde berichten.
 
 2. Selecteer Rechts van de bericht-id **herstellen** en het bericht wordt hersteld naar actieve berichten.
 
@@ -193,15 +193,15 @@ Wilt u een genegeerd bericht weer terughalen? Geen probleem.
 
 ::: moniker range="o365-21vianet"
 
-Er zijn twee manieren om een bericht te verwijderen.
+Er zijn twee manieren om een bericht te archiveren.
   
 - Selecteer de X die rechts van de bericht-id wordt weergegeven. Het bericht wordt verwijderd uit uw lijst. Of:
 
-- Open het bericht en selecteer **Vervolgens Boven** aan het bericht verwijderen.
+- Open het bericht en selecteer **Archief** boven aan het bericht.
 
-Wilt u een genegeerd bericht weer terughalen? Geen probleem.
+Wilt u een gearchiveerd bericht terugkrijgen? Geen probleem.
   
-1. Selecteer het filter **Verwijderde berichten** in het vervolgkeuzemenu **Weergaven**. Een lijst met verwijderde berichten wordt weergegeven.
+1. Selecteer het filter **Gearchiveerde berichten** in het vervolgkeuzemenu **Weergaven.** Er verschijnt een lijst met gearchiveerde berichten.
 
 2. Selecteer Rechts van de bericht-id **herstellen** en het bericht wordt hersteld naar actieve berichten.
 

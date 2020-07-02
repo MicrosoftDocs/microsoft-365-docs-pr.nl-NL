@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 48ff6d6f5cac0991895c40cae90ca31657cfedff
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 39fbc934dabcb3b0b24bd0b861be8db14b6e0c35
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844880"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45023379"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>Wat komt er in Microsoft Secure Score?
 
@@ -30,26 +30,11 @@ Om [van Microsoft Secure Score](microsoft-secure-score.md) een betere vertegenwo
 
 Zie Wat is er nieuw in Microsoft Secure Score voor meer informatie over recente [wijzigingen?](microsoft-secure-score.md#whats-new)
 
-## <a name="june-2020"></a>Juni 2020
+## <a name="july-2020"></a>Juli 2020
 
-### <a name="remove-improvement-action-for-microsoft-defender-advanced-threat-protection"></a>Verbeteractie verwijderen voor Geavanceerde bedreigingsbeveiliging van Microsoft Defender
+### <a name="add-improvement-actions-for-azure-advanced-threat-protection"></a>Verbeteracties toevoegen voor Azure Advanced Threat Protection
 
-* Regels voor attack surface reduction inschakelen
-
-### <a name="add-improvement-actions-for-microsoft-defender-advanced-threat-protection"></a>Verbeteracties toevoegen voor Geavanceerde bedreigingsbeveiliging van Microsoft Defender
-
-* Adobe Reader blokkeren voor het maken van onderliggende processen
-* Gebruik geavanceerde bescherming tegen ransomware
-* Alle Office-toepassingen blokkeren bij het maken van onderliggende processen
-* Office-toepassingen blokkeren bij het maken van uitvoerbare inhoud
-* JavaScript of VBScript blokkeren bij het starten van gedownloade uitvoerbare inhoud
-* De uitvoering van mogelijk versluierde scripts blokkeren
-* Uitvoerbare inhoud blokkeren van e-mailclient en webmail
-* Office-communicatietoepassing blokkeren bij het maken van onderliggende processen
-* Niet-vertrouwde en niet-ondertekende processen blokkeren die worden uitgevoerd vanaf USB
-* Persistentie blokkeren via WMI-evenementabonnement
-* Office-toepassingen blokkeren om code in andere processen te injecteren
-* Uitvoerbare bestanden blokkeren voor het uitvoeren van bestanden, tenzij ze voldoen aan een prevalentie-, leeftijds- of vertrouwde lijstcriterium
-* Procescreaties blokkeren die afkomstig zijn van OPDRACHTEN PSExec en WMI
-* Het stelen van referenties blokkeren van het subsysteem van de windows-lokale beveiligingsautoriteit (lsass.exe)
-* Win32 API-aanroepen blokkeren vanuit Office-macro's
+- Riskante zijwaartse bewegingspaden
+- Ontveiligde accountkenmerken
+- Beveiligingsfuncties inschakelen op Active Directory-vertrouwensrelaties
+- Onveilige SID-geschiedeniskenmerken verwijderen uit entiteiten
