@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Informatie en implementatie van Windows-gegevensbescherming in Microsoft 365.
-ms.openlocfilehash: 66c9e10772edb0782096ba120858e895684255b2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c7b76ef28d41810d6e9e45e98adb7a94cf8ae2f4
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631643"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005720"
 ---
 # <a name="step-4-configure-windows-information-protection"></a>Stap 4: Windows-gegevensbescherming configureren
 
@@ -37,11 +37,14 @@ In Microsoft 365 Enterprise is Windows-gegevensbescherming een combinatie van Wi
 U kunt Windows-gegevensbescherming als volgt in uw organisatie implementeren met Microsoft 365 Enterprise:
 
 1. Registreer uw Windows-apparaten bij Intune. U had dit moeten hebben gedaan in [Fase 5: beheer voor mobiele apparaten](mobility-infrastructure.md).
-2. Maak een [Intune-beleid voor Windows-gegevensbescherming](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure).
-  - Controleer of u de lijst met beveiligde apps hebt ingevuld.
-  - Kies uw Windows-gegevensbeveiligingsniveau.
 
-U kunt Windows-gegevensbescherming ook gebruiken met[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-sccm). 
+2. Maak een [Intune-beleid voor Windows-gegevensbescherming](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure).
+
+   -    Controleer of u de lijst met beveiligde apps hebt ingevuld.
+  
+   - Kies uw Windows-gegevensbeveiligingsniveau.
+
+U kunt Windows-gegevensbescherming ook gebruiken met[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-configmgr). 
 
 Zie [Aanbevolen procedures voor Windows-gegevensbescherming]( https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/guidance-and-best-practices-wip) voor meer informatie.
 

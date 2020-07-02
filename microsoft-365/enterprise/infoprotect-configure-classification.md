@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Informatie over en configuratie van verschillende manieren om gegevens in uw organisatie te classificeren.
-ms.openlocfilehash: e8c40ca4c419edc2d59a060dfd4fe8918cf4e784
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 57d4c692630826f371ea825d86fc64b959b71df2
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42810201"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005808"
 ---
 # <a name="step-2-configure-classification-for-your-environment"></a>Stap 2: classificatie voor uw omgeving configureren
 
@@ -92,7 +92,7 @@ Zie de [bibliotheek met documentatie van Azure Information Protection](https://d
 
 Bestaande Azure Information Protection-labels werken naadloos samen met gevoeligheidslabels. U kunt bijvoorbeeld uw bestaande labels voor Azure Information Protection-labels en de labels die worden toegepast op documenten en e-mail behouden.
 
-Als u zowel gevoeligheidslabels als Azure Information Protection-labels hebt, moet u de [Azure Information Protection-labels naar de gevoeligheidslabels migreren](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels#how-sensitivity-labels-work-with-existing-azure-information-protection-labels).
+Als u zowel gevoeligheidslabels als Azure Information Protection-labels hebt, moet u de [Azure Information Protection-labels naar de gevoeligheidslabels migreren](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels#sensitivity-labels-and-azure-information-protection).
 
 ## <a name="example-classification-for-gdpr"></a>Voorbeeld: classificatie voor AVG
 

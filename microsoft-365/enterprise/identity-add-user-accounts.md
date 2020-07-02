@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Voeg gebruikersaccounts en groepen rechtstreeks toe aan de Cloud of door ze te synchroniseren met uw on-premises adreslijst.
-ms.openlocfilehash: 324d4662f868a4a92693b43c6bc0f75c11f20519
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 2a54044737f5b924bd619d5a6c7c72091dc7a0d1
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42812047"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005832"
 ---
 # <a name="step-4-add-your-user-accounts"></a>Stap 4: uw gebruikersaccounts toevoegen
 
@@ -53,8 +53,8 @@ De eerste beslissing in uw hybride identiteitsoplossing is uw verificatievereist
 
 - Met **beheerde verificatie**wordt het verificatieproces voor gebruikersaanmelding door Azure AD afgehandeld. Beheerde verificatie bestaat uit twee methoden: 
     - **Wachtwoord-hash-synchronisatie (PHS)** [aanbevolen en vereist voor enkele Premium-functies]. Dit is de eenvoudigste manier om verificatie in te schakelen voor on-premises adreslijstobjecten in Azure Active Directory. Azure AD Connect haalt het gehashte wachtwoord uit AD DS, voert extra beveiligingsverwerking uit op de wachtwoordhash en synchroniseert het met Azure AD. Zie voor meer informatie [wachtwoord hash-synchronisatie implementeren met Azure AD Connect-synchronisatie](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization).
-    - **Pass Through-verificatie (PTA)** biedt een eenvoudige oplossing voor wachtwoordvalidatie voor Azure AD-services. PTA gebruikt een agent die op een of meer on-premises servers wordt uitgevoerd om de gebruikersverificaties rechtstreeks met uw lokale AD DS te valideren. Voor meer informatie raadpleegt u [aanmelden als gebruiker met Azure Active Directory Pass Through-verificatie.
-- Met **federatieve verificatie**wordt het verificatieproces omgeleid naar een andere identiteitsprovider via een identiteitsfederatieserver, zoals Active Directory Federation Services (AD FS), voor aanmelding van een gebruiker. De identiteitsprovider kan aanvullende verificatiemethoden bieden, zoals op smartcards gebaseerde verificatie. Zie voor meer informatie [het kiezen van de juiste verificatiemethode voor uw Azure Active Directory hybride identiteitsoplossing](https://docs.microsoft.com/azure/security/azure-ad-choose-authn).
+    - **Pass Through-verificatie (PTA)** biedt een eenvoudige oplossing voor wachtwoordvalidatie voor Azure AD-services. PTA gebruikt een agent die op een of meer on-premises servers wordt uitgevoerd om de gebruikersverificaties rechtstreeks met uw lokale AD DS te valideren. Voor meer informatie raadpleegt u [aanmelden als gebruiker met Azure Active Directory Pass Through-verificatie](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication).
+- Met **federatieve verificatie**wordt het verificatieproces omgeleid naar een andere identiteitsprovider via een identiteitsfederatieserver, zoals Active Directory Federation Services (AD FS), voor aanmelding van een gebruiker. De identiteitsprovider kan aanvullende verificatiemethoden bieden, zoals op smartcards gebaseerde verificatie. Zie voor meer informatie [het kiezen van de juiste verificatiemethode voor uw Azure Active Directory hybride identiteitsoplossing](https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn).
 
 Bekijk deze video voor een overzicht van identiteitsmodellen en verificatie voor Microsoft 365 Enterprise.
 
@@ -62,7 +62,7 @@ Bekijk deze video voor een overzicht van identiteitsmodellen en verificatie voor
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
 
-Nadat u de hybride-identiteitsoplossing hebt vastgesteld, downloadt en voert u het [hulpprogramma voor het oplossen van fouten met IdFix Directory-synchronisatie uit om uw AD DS te analyseren op problemen.
+Nadat u de hybride-identiteitsoplossing hebt vastgesteld, downloadt en voert u het [hulpprogramma voor het oplossen van fouten met IdFix Directory-synchronisatie](https://www.microsoft.com/download/details.aspx?id=36832) uit om uw AD DS te analyseren op problemen.
 
 Wanneer u alle problemen hebt opgelost die met het hulpprogramma IdFix zijn geïdentificeerd, raadpleegt u [wachtwoord hash-synchronisatie implementeren](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-implement-password-hash-synchronization) voor hulp bij het installeren van de Azure AD Connect-hulpmiddelen en het configureren van adreslijstsynchronisatie tussen uw on-premises AD DS en de Azure AD-tenant voor uw Microsoft 365-abonnement. Nadat de synchronisatie is gestart, houdt u uw gebruikersaccounts en -groepen bij met uw on-premises-identiteitsprovider, zoals AD DS.
 
