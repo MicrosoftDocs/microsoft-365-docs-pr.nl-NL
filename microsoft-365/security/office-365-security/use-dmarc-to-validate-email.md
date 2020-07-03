@@ -15,12 +15,12 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: Informatie over het configureren van DMARC (Domain-based Message Authentication, Reporting, and Conformance) om berichten te valideren die zijn verzonden vanuit uw organisatie.
-ms.openlocfilehash: 9ae159ccb2673fd9c8538b184e4de1b8e1c2b039
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.openlocfilehash: adc213ec5c47184f997a812425e53a61d7ac2da3
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224575"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016319"
 ---
 # <a name="use-dmarc-to-validate-email"></a>DMARC gebruiken om e-mail te valideren
 
@@ -226,6 +226,8 @@ contoso.com     3600   IN  MX  10 contoso-com.mail.protection.outlook.com
 ```
 
 Alle, of de meeste, e-mail zal eerst worden gerouteerd naar mail.contoso.com, omdat dat de primaire MX is en vervolgens wordt de e-mail gerouteerd naar EOP. In bepaalde gevallen vermeldt u mogelijk niet eens EOP als een MX-record en koppelt u gewoon connectors om uw e-mail te routeren. EOP hoeft niet de eerste vermelding te zijn om DMARC-validatie te kunnen uitvoeren. Het garandeert de validatie, omdat we niet zeker kunnen weten dat alle on-premises/niet-O365-servers DMARC-controles uitvoeren.  Het afdwingen van DMARC voor het domein (niet de server) van een klant is beschikbaar wanneer u het DMARC TXT-record instelt, maar de ontvangende server voert de handhaving daadwerkelijk uit.  Als u EOP instelt als ontvangende server, voert EOP de DMARC-handhaving uit.
+
+:::image type="content" source="../../media/Tp_DMARCTroublehoot.png" alt-text="Een afbeelding voor het oplossen van problemen met DMARC. Met dank aan Daniel Mande":::
 
 ## <a name="for-more-information"></a>Voor meer informatie
 

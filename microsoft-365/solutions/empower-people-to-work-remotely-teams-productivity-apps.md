@@ -1,5 +1,5 @@
 ---
-title: Stap 4. Productiviteitsapps en -services implementeren voor externe medewerkers
+title: Stap 5. Productiviteitsapps en -services implementeren voor externe medewerkers
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -17,14 +17,14 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Geef uw gebruikers de mogelijkheid productief te zijn met Teams, Exchange, SharePoint en andere Microsoft 365-services.
-ms.openlocfilehash: 1c621ae797f32cd5b98af4c1eb7a341d0f976938
-ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
+ms.openlocfilehash: 274780d2b9ea4310eb2cd8c9114bb61c326d33fe
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44560445"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005960"
 ---
-# <a name="step-4-deploy-remote-worker-productivity-apps-and-services"></a>Stap 4. Productiviteitsapps en -services implementeren voor externe medewerkers
+# <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Stap 5. Productiviteitsapps en -services implementeren voor externe medewerkers
 
 Om productief te zijn, moeten mensen met elkaar kunnen communiceren en samenwerken. Ze moeten kunnen vergaderen, chatten via spraak en tekst, nieuwe inhoud kunnen maken, bestanden en informatie delen, e-mails uitwisselen en agenda's en taken kunnen beheren. Microsoft 365 bied cloudservices voor al deze belangrijke functies:
 
@@ -90,9 +90,9 @@ Zie [dit artikel](https://docs.microsoft.com/deployoffice/deployment-guide-micro
 
 ## <a name="user-training-resources-for-productivity-apps-and-services"></a>Bronnen voor gebruikerstraining voor productiviteits-apps en -services
 
-- [Uw gebruikers trainen in Office en Office 365](https://support.office.com/article/train-your-users-on-office-and-microsoft-365-7cba3c97-7f19-46ed-a1c6-763971a26c2)
+- [Uw gebruikers trainen in Office en Microsoft 365](https://support.microsoft.com/office/train-your-users-on-office-and-microsoft-365-7cba3c97-7f19-46ed-a1c6-763971a26c27)
 - [De webversie van Office gebruiken](https://support.microsoft.com/office/get-started-with-office-for-the-web-in-microsoft-365-5622c7c9-721d-4b3d-8cb9-a7276c2470e5)
 
 ## <a name="next-step"></a>Volgende stap
 
-Ga door met [Stap 5](empower-people-to-work-remotely-communication-venues.md) om extra communicatielocaties te maken voor uw externe medewerkers.
+Ga verder met [stap 6](empower-people-to-work-remotely-train-monitor-usage.md) om uw gebruikers te trainen en hun succes te bewaken.

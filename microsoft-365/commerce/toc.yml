@@ -36,12 +36,14 @@
       href: subscriptions/manage-self-service-purchases-admins.md
 - name: Licenties beheren
   items:
-    - name: Abonnementslicenties beheren
+    - name: Abonnementslicenties kopen of verwijderen
       href: licenses/buy-licenses.md
     - name: Licenties aan gebruikers toewijzen
       href: ../admin/manage/assign-licenses-to-users.md
     - name: Licenties van gebruikers verwijderen
       href: ../admin/manage/remove-licenses-from-users.md
+    - name: Gebruikers naar een ander abonnement overzetten
+      href: subscriptions/move-users-different-subscription.md
     - name: Inzicht in abonnementen en licenties
       href: licenses/subscriptions-and-licenses.md
 - name: Facturen en betalingen
