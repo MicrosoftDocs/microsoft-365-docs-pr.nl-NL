@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen in Exchange Online Protection (EOP) leren hoe ze uitgaand spambeleid kunnen bekijken, maken, wijzigen en verwijderen.
-ms.openlocfilehash: 12f2936530a300cf79556ebf02533c187caa23d5
-ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
+ms.openlocfilehash: 7102f858e0293f2a55fe68a55d4dc2cf3ab38a33
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761716"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024580"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Uitgaande spamfiltering configureren in EOP
 
@@ -79,17 +79,17 @@ Om de effectiviteit van uitgaande spamfiltering te vergroten, u aangepaste uitga
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
 
-- U moet machtigingen krijgen voordat u de procedures in dit onderwerp uitvoeren:
+- U moet beschikken over bepaalde machtigingen om de procedures in dit onderwerp te kunnen uitvoeren:
 
   - Als u uitgaand spambeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van een van de volgende rolgroepen:
 
-    - **Organisatiebeheer** of **beveiligingsbeheerder** in het [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).
-    - **Organisatiebeheer** of **hygiënebeheer** in [Exchange Online.](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)
+    - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
+    - **Organisatiebeheer** of **Hygiënebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
   - Voor alleen-lezen toegang tot uitgaand spambeleid moet u lid zijn van een van de volgende rolgroepen:
 
-    - **Security Reader** in het [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).
-    - **Alleen-weergeven organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+    - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
+    - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - Zie Beleidsinstellingen voor [EOP-uitgaande spamfilters](recommended-settings-for-eop-and-office365-atp.md#eop-outbound-spam-policy-settings)voor onze aanbevolen instellingen voor uitgaande spambeleid.
 
@@ -118,21 +118,21 @@ Als u een aangepast outbound spambeleid maakt in het Security & Compliance Cente
 
      Ga als volgt te werk om deze instelling in te schakelen:
 
-     a. Schakel het selectievakje in om de instelling in te schakelen.
+     1. Schakel het selectievakje in om de instelling in te schakelen.
 
-     b. Klik **op Personen toevoegen**. In de flyout **voor geadresseerden toevoegen of verwijderen** die wordt weergegeven:
+     1. Klik **op Personen toevoegen**. In de flyout **voor geadresseerden toevoegen of verwijderen** die wordt weergegeven:
 
-     c. Voert u het e-mailadres van de afzender in. U meerdere e-mailadressen opgeven die zijn gescheiden door puntkomma's (;) of één ontvanger per regel.
+     1. Voert u het e-mailadres van de afzender in. U meerdere e-mailadressen opgeven die zijn gescheiden door puntkomma's (;) of één ontvanger per regel.
 
-     d. Klikt u op ![Pictogram toevoegen](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) om de ontvangers toe te voegen.
+     1. Klikt u op ![Pictogram toevoegen](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) om de ontvangers toe te voegen.
 
         Herhaal deze stappen zo vaak als nodig is.
 
         De geadresseerden die u hebt toegevoegd, worden weergegeven in de sectie **Geadresseerdelijst** in de flyout. Als u een ontvanger wilt verwijderen, klikt u op ![ knop Verwijderen ](../../media/scc-remove-icon.png) .
 
-     e. Klik op **Opslaan** wanneer u gereed bent.
+     1. Klik op **Opslaan** wanneer u gereed bent.
 
-     Schakel het selectievakje uit om deze instelling uit te schakelen.
+        Schakel het selectievakje uit om deze instelling uit te schakelen.
 
    - **Informeer specifieke personen als een afzender is geblokkeerd als gevolg van het verzenden van uitgaande spam:**
 
@@ -185,8 +185,20 @@ Als u een aangepast outbound spambeleid maakt in het Security & Compliance Cente
      - **Beperk de gebruiker van het verzenden van e-mail:** e-mailmeldingen worden verzonden, de gebruiker wordt toegevoegd aan de portal **[Beperkte gebruikers] <https://sip.protection.office.com/restrictedusers> ** in het Security & Compliance Center en de gebruiker kan geen e-mail verzenden totdat deze door een beheerder uit de portal **Beperkte gebruikers** is verwijderd. Nadat een beheerder de gebruiker uit de lijst heeft verwijderd, wordt de gebruiker niet opnieuw beperkt voor die dag. Zie Een [gebruiker verwijderen uit de portal Beperkte gebruikers na het verzenden van spam-e-mail](removing-user-from-restricted-users-portal-after-spam.md)voor instructies.
 
      - **Geen actie, alleen alert**: E-mailmeldingen worden verzonden.
+6. (Optioneel) Vouw de sectie **Automatisch doorsturen** uit om besturingselementen te configureren over hoe automatisch doorsturen door gebruikers wordt beheerd.
 
-6. (vereist) Vouw de sectie **Toegepast op** uit om de interne afzenders te identificeren waarop het beleid van toepassing is.
+   > [!NOTE]
+   > Deze instellingen zijn alleen van toepassing op postvakken in de cloud.
+   
+   - **Automatisch doorsturen**
+  
+      Selecteer een van de opties om te bepalen hoe automatisch doorsturen wordt afgehandeld.
+    
+      - **Automatisch**: standaardinstelling waarmee het systeem automatisch doorsturen kan regelen met automatisch doorsturen standaard uitgeschakeld.
+      - **Op**: Extern doorsturen is onbeperkt ingeschakeld binnen het beleid.
+      - **Uit**: Extern doorsturen is uitgeschakeld en wordt geblokkeerd
+
+7. (vereist) Vouw de sectie **Toegepast op** uit om de interne afzenders te identificeren waarop het beleid van toepassing is.
 
     U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<sender1\>_ of _\<sender2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<sender1\>_ en _\<member of group 1\>_).
 
@@ -200,7 +212,7 @@ Als u een aangepast outbound spambeleid maakt in het Security & Compliance Cente
 
     - **Behalve als**: om uitzonderingen op de regel toe te voegen, klikt u drie keer op **Een voorwaarde toevoegen** om alle beschikbare uitzonderingen weer te geven. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
 
-7. Klik op **Opslaan** wanneer u gereed bent.
+8. Klik op **Opslaan** wanneer u gereed bent.
 
 ## <a name="use-the-security--compliance-center-to-view-outbound-spam-policies"></a>Gebruik het Security & Compliance Center om uitgaand spambeleid te bekijken
 
@@ -404,7 +416,8 @@ Zie [Get-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/mod
 
 Dezelfde instellingen zijn beschikbaar wanneer u een beleid voor malwarefilters wijzigt in PowerShell als wanneer u het beleid maakt zoals beschreven in [stap 1: PowerShell gebruiken om](#step-1-use-powershell-to-create-an-outbound-spam-filter-policy) eerder in dit onderwerp een uitgaande sectie voor spamfilterbeleid te maken.
 
-**Opmerking**: U de naam van een outbound spamfilterbeleid niet wijzigen (de cmdlet **Set-HostedOutboundSpamFilterPolicy** heeft geen parameter _Name)._ Wanneer u de naam van een uitgaande spambeleid wijzigt in het Security & Compliance Center, wijzigt u alleen de _regel_van het uitgaande spamfilter .
+> [!NOTE]
+> U de naam van een outbound spamfilterbeleid niet wijzigen (de cmdlet **Set-HostedOutboundSpamFilterPolicy** heeft geen parameter _Name)._ Wanneer u de naam van een uitgaande spambeleid wijzigt in het Security & Compliance Center, wijzigt u alleen de _regel_van het uitgaande spamfilter .
 
 Als u een beleid voor uitgaande spamfilters wilt wijzigen, gebruikt u deze syntaxis:
 
@@ -468,11 +481,11 @@ In dit voorbeeld wordt de prioriteit van de regel met de naam Marketing Departme
 Set-HostedOutboundSpamFilterRule -Identity "Marketing Department" -Priority 2
 ```
 
-**Opmerkingen**:
-
-- Als u de prioriteit van een nieuwe regel wilt instellen wanneer u deze maakt, gebruikt u in plaats daarvan de parameter _Prioriteit_ op de cmdlet **New-HostedOutboundSpamFilterRule.**
-
-- Het uitgaande standaardspamfilterbeleid heeft geen bijbehorende spamfilterregel en heeft altijd de onmodifiable **prioriteitswaarde Laagste**.
+> [!NOTE]
+> 
+> - Als u de prioriteit van een nieuwe regel wilt instellen wanneer u deze maakt, gebruikt u in plaats daarvan de parameter _Prioriteit_ op de cmdlet **New-HostedOutboundSpamFilterRule.**
+>
+> - Het uitgaande standaardspamfilterbeleid heeft geen bijbehorende spamfilterregel en heeft altijd de onmodifiable **prioriteitswaarde Laagste**.
 
 ### <a name="use-powershell-to-remove-outbound-spam-filter-policies"></a>PowerShell gebruiken om het beleid voor uitgaande spamfilters te verwijderen
 
@@ -517,3 +530,5 @@ Zie [Remove-HostedOutboundSpamFilterRule verwijderen](https://docs.microsoft.com
 [Groep met verhoogd risico voor uitgaande berichten](high-risk-delivery-pool-for-outbound-messages.md)
 
 [Veelgestelde vragen over beveiliging tegen ongewenste e-mail](anti-spam-protection-faq.md)
+
+[Rapport over automatisch doorgestuurde berichten](mfi-auto-forwarded-messages-report.md)

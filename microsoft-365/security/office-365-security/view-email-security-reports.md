@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het zoeken naar en gebruiken van e-mailbeveiligingsrapporten voor uw organisatie. E-mailbeveiligingsrapporten zijn beschikbaar in het Security & Compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 226f147dec7795ce6f8314a04218eab84e609218
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 6fbaa0b57c888f5eaf90a2a30d1850a145c33a80
+ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44937023"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "45035727"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
@@ -32,6 +32,9 @@ Er zijn verschillende rapporten beschikbaar in het [Security & Compliance Center
 ![Dashboard Rapporten in het Security & Compliance Center](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
 ## <a name="compromised-users-report"></a>Gecompromitteerde gebruikers melden
+
+> [!NOTE]
+> Dit rapport is beschikbaar in Microsoft 365-organisaties met Exchange Online-postvakken. Het is niet beschikbaar in zelfstandige Exchange Online Protection (EOP) organisaties zonder Exchange Online mailboxen.
 
 In het rapport **gecompromitteerde gebruikers** wordt het aantal gebruikersaccounts weergegeven dat in de afgelopen 7 dagen als **Verdacht** of **Beperkt is** gemarkeerd. Rekeningen in een van deze staten zijn problematisch of zelfs gecompromitteerd. Bij veelvuldig gebruik u het rapport gebruiken om pieken en zelfs trends in verdachte of beperkte accounts te herkennen. Zie [Reageren op een gecompromitteerd e-mailaccount](responding-to-a-compromised-email-account.md)voor meer informatie over gecompromitteerde gebruikers.
 
@@ -176,7 +179,7 @@ De geaggregeerde weergave maakt het mogelijk om 90 dagen te filteren, terwijl de
 
 Als u het rapport wilt bekijken, opent u het [Security & Compliance Center,](https://protection.office.com)gaat u naar **Reports** \> **Rapportendashboard** en selecteert u **Spamdetecties**. Open <https://protection.office.com/reportv2?id=SpamDetections> .
 
-![Widget Spamdetecties in het dashboard Rapporten](../../media/spam-detections-widget.png)
+![Widget Spamdetecties in het dashboard Rapporten](../../media/spam-detections-report-widget.png)
 
 Zie [Anti-spambescherming in EOP](anti-spam-protection.md)voor meer informatie over antispambeveiliging.
 
@@ -193,12 +196,14 @@ De volgende grafieken zijn beschikbaar in de rapportweergave:
 
   Wanneer u de muisaanwijzer gedurende een dag (gegevenspunt) in de grafiek houdt, u zien hoeveel items die dag zijn geblokkeerd en hoe deze items zijn gecategoriseerd.
 
-  ![Actieweergave in rapportweergave in het rapport Spamdetecties](../../media/spam-detections-report-action-view.png)
+  ![Actieweergave in het rapport Spamdetecties](../../media/spam-detections-report-action-view.png)
 
 - **Afsplitsen door:Richting**: De volgende richtingen worden weergegeven:
 
   - **Inkomende**
   - **Uitgaande**
+
+  ![Richtingsweergave in het rapport Spamdetecties](../../media/spam-detections-report-direction-view.png)
 
 Als u op **Filters** in een rapportweergave klikt, u de resultaten wijzigen met de volgende filters:
 
@@ -266,7 +271,7 @@ Dit is een slim rapport met schadelijke e-mail die is gedetecteerd en geblokkeer
 
 Als u het rapport wilt bekijken, opent u het [Security & Compliance Center,](https://protection.office.com)gaat u naar **Reports** \> **Rapportendashboard** en selecteert u **de status van bedreigingsbeveiliging**. Open <https://protection.office.com/reportv2?id=ATPV2AggregateReport> .
 
-![Statusrapport risicobeveiliging](../../media/0ff86e12-c2b2-4d89-92a5-cefb054dc070.png)
+![Widget Statusstatus bedreiging in het dashboard Rapporten](../../media/threat-protection-status-report-widget.png)
 
 Standaard worden in de grafiek gegevens van de afgelopen 7 dagen weergegeven. Als u op **Filters**klikt, u een datumbereik van 90 dagen selecteren (proefabonnementen kunnen worden beperkt tot 30 dagen). Met de tabelweergave voor details u 30 dagen filteren.
 
@@ -280,45 +285,55 @@ De volgende weergaven zijn beschikbaar:
   - **E-mail phish**
   - **Inhoudsmalware**
 
-- **Gegevens weergeven op: Inhoud \> Malware**: De volgende informatie wordt getoond:
+  ![Overzichtsweergave in het rapport Status bedreigingsbeveiliging](../../media/threat-protection-status-report-overview-view.png)
+
+- **Gegevens weergeven op: Inhoud \> Malware**<sup>1</sup>: De volgende informatie wordt weergegeven voor AtP-organisaties van Office 365:
 
   - **Anti-malware motor**
   - **Bestandsontploffing**
 
+  ![Weergave voor malware in inhoud in het statusrapport Bedreigingsbeveiliging](../../media/threat-protection-status-report-content-malware-view.png)
+
 - **Opsplitsen door: Detectietechnologie** en **Bekijk gegevens door: E-mail \> Phish**: De volgende informatie wordt getoond:
 
-  - **Reputatie van door ATP gegenereerde URL**<sup>\*</sup>
-  - **Geavanceerd phish-filter**<sup>\*</sup>
+  - **ATP-gegenereerde URL reputatie**<sup>1</sup>
+  - **Geavanceerd phish-filter**
   - **Anti-spoof: DMARC-storing**
   - **Anti-spoof: Intra-org**
   - **Anti-spoof: extern domein**
-  - **Merkimitatie**<sup>\*</sup>
-  - **Domeinimitatie**<sup>\*</sup>
+  - **Merkimitatie**
+  - **Domeinimitatie**<sup>1</sup>
   - **EOP URL reputatie**
   - **Algemeen phish filter**
   - **Anderen**
-  - **Phish ZAP**<sup>\*\*</sup>
-  - **URL-ontploffing**<sup>\*\*</sup>
-  - **Imitatie van gebruikers**<sup>\*</sup>
+  - **Phish ZAP**<sup>2</sup>
+  - **URL-ontploffing**<sup>1</sup>
+  - **Imitatie van de gebruiker**<sup>1</sup>
+
+  ![Detectietechnologieweergave voor phishing-e-mail in het statusrapport bedreigingsbeveiliging](../../media/threat-protection-status-report-phishing-detection-tech-view.png)
 
 - **Break down door: Detectie technologie** en **Bekijk gegevens door: E-mail \> Malware:** De volgende informatie wordt getoond:
 
-  - **Atp-gegenereerde bestandsreputatie**<sup>\*\*</sup>
-  - **Anti-malware motor**
+  - **ATP-gegenereerde bestandsreputatie**<sup>1</sup>
+  - **Anti-malware motor**<sup>1</sup>
   - **Blok van het bestandstype van antimalwarebeleid**
-  - **Bestandsontploffing**<sup>\*\*</sup>
+  - **Bestand detonatie**<sup>1</sup>
   - **Kwaadaardige bestandsreputatie**
-  - **Malware ZAP****<sup>\*\*</sup>
+  - **Malware ZAP**<sup>2</sup>
   - **Anderen**
+
+  ![Detectietechnologieweergave voor malware in het statusrapport voor bedreigingsbescherming](../../media/threat-protection-status-report-malware-detection-tech-view.png)
 
 - **Opsplitsen op: Beleidstype** en **Gegevens weergeven door: E-mail \> Phish** of **Bekijk gegevens door: E-mail \> malware:** De volgende informatie wordt weergegeven:
 
-  - **Anti-malware**<sup>\*\*</sup>
-  - **Veilige bijlage**<sup>\*\*</sup>
+  - **Anti-malware**
+  - **Veilige bijlage**<sup>1</sup>
   - **Anti-phish**
   - **Anti-spam**
   - **Mailstroomregel** (ook wel een transportregel genoemd)
   - **Anderen**
+
+  ![Beleidstypeweergave voor phishing-e-mail in het statusrapport Bedreigingsbeveiliging](../../media/threat-protection-status-report-phishing-policy-type-view.png)
 
 - **Opsplitsen door: Leveringsstatus** en **Gegevens weergeven door: E-mail \> Phish** of **Bekijk gegevens door: E-mail \> malware:** De volgende informatie wordt weergegeven:
 
@@ -332,9 +347,11 @@ De volgende weergaven zijn beschikbaar:
   - **On-premises server: geleverd**
   - **Quarantaine**
 
-<sup>\*</sup>Alleen Office 365 ATP
+  ![Weergave leveringsstatus voor phishing-e-mail in het statusrapport Bedreigingsbeveiliging](../../media/threat-protection-status-report-phishing-delivery-status-view.png)
 
-<sup>\*\*</sup>Zero-hour auto purge (ZAP) is niet beschikbaar in standalone EOP (het werkt alleen in Exchange Online mailboxen).
+<sup>1</sup> Office 365 ATP alleen
+
+<sup>2</sup> Zero-hour auto purge (ZAP) is niet beschikbaar in standalone EOP (het werkt alleen in Exchange Online mailboxen).
 
 Als u op **Filters**klikt, u het rapport wijzigen met de volgende filters:
 
@@ -348,10 +365,10 @@ Als u op **tabel Details weergeven**klikt, is de weergegeven informatie afhankel
 
 - **Gegevens weergeven op: Inhoud \> Malware:**
 
-- **Datum**
-- **Locatie**
-- **Geregisseerd door**
-- **Naam malware**
+  - **Datum**
+  - **Locatie**
+  - **Geregisseerd door**
+  - **Naam malware**
 
 - **Gegevens bekijken door: Overzicht**: Er is geen tabelknop **voor weergavedetails** beschikbaar.
 
@@ -361,7 +378,7 @@ Als u op **tabel Details weergeven**klikt, is de weergegeven informatie afhankel
   - **Onderwerp**
   - **Afzender**
   - **Geadresseerden**
-  - **Geregisseerd door**
+  - **Gedetecteerd door**
   - **Leveringsstatus**
   - **Bron van compromissen**
 
@@ -373,33 +390,31 @@ Als u op **Filters**klikt, u het rapport wijzigen met de volgende filters:
 
 ## <a name="top-malware-report"></a>Top malware rapport
 
-De **Top Malware** rapport toont de verschillende soorten malware die werd gedetecteerd door [EOP](eop-features.md).
+De **Top malware** rapport toont de verschillende soorten malware die werd gedetecteerd door [anti-malware bescherming in EOP](anti-malware-protection.md).
 
-Als u het rapport wilt bekijken, opent u het [Security & Compliance Center,](https://protection.office.com)gaat u naar **Reports** \> **Rapportendashboard** en selecteert u **Topmalware**. Open <https://protection.office.com/reportv2?id=TopMalwaret> .
+Als u het rapport wilt bekijken, opent u het [Security & Compliance Center,](https://protection.office.com)gaat u naar **Reports** \> **Rapportendashboard** en selecteert u **Topmalware**. Open <https://protection.office.com/reportv2?id=TopMalware> .
 
-![SCC - EOP Top Malware](../../media/763330b3-f56e-4ba4-b0bb-051500ae950a.png)
+![Top malware widget in het dashboard Rapporten](../../media/top-malware-report-widget.png)
 
 Wanneer u boven een wig in het cirkeldiagram hangt, u de naam van een soort malware zien en hoeveel berichten zijn gedetecteerd als het hebben van die malware.
 
-Klik (of tik) op het rapport om het te openen in een nieuw browservenster, waar u een gedetailleerdere weergave van het rapport krijgen.
+![Top malware rapport weergave](../../media/top-malware-report-view.png)
 
-![Dit rapport toont de beste malware gedetecteerd voor uw organisatie](../../media/3fded224-fb31-4713-86f2-8afce5ce2991.png)
+Als u op **tabel Details weergeven**klikt, ziet u de volgende details:
 
-Onder de grafiek ziet u een lijst met gedetecteerde malware en hoeveel berichten zijn gedetecteerd als het hebben van die malware. Houd er rekening mee dat de samengevoegde weergave slechts 90 dagen filtering toestaat.
+- **Top malware**
+- **Tellen**
+
+Als u op **Filters** klikt in de rapportweergave of de tabelweergave details, u een datumbereik opgeven met **begindatum** en **einddatum**.
 
 ## <a name="url-threat-protection-report"></a>URL-melding voor bedreigingsbeveiliging
 
-De widget voor dit rapport heeft de naam **URL-beveiligingsrapport** op het dashboard rapporten en is alleen beschikbaar in Office 365 Advanced Threat Protection (ATP). Specifiek:
-
-- Een Microsoft 365 E5-abonnement.
-- Een add-on voor geavanceerde bedreigingsbescherming (Plan 1 *of* Abonnement 2) voor een ander abonnement dat Exchange Online Protection (EOP) omvat.
-
-Als u rechtstreeks naar het **URL-waarschuwingsrapport voor bedreigingsbeveiliging** wilt gaan, opent <https://protection.office.com/reportv2?id=URLProtectionActionReport> u .
-
 > [!NOTE]
-> In dit rapport worden geen klikgegevens van gebruikers weergegeven waarbij het toegepaste beleid Voor veilige koppelingen de optie **Klikken van gebruikers niet bijhouden** is geselecteerd.
+> Dit rapport is alleen beschikbaar in Office 365 Advanced Threat Protection (ATP). Bijvoorbeeld een Microsoft 365 E5-abonnement of een ATP-abonnement 1 of ATP-abonnement 2-add-on.
 
-![Afbeelding van het URL-waarschuwingsrapport voor bedreigingsbeveiliging in actie.](../../media/tp-URLThreatProRpt1.PNG)
+Het **URL-waarschuwingsrapport voor bedreigingsbeveiliging** biedt overzichten en trendweergaven voor gedetecteerde bedreigingen en acties die zijn uitgevoerd op URL-klikken als onderdeel van [ATP Safe Links](atp-safe-links.md). In dit rapport worden geen klikgegevens van gebruikers weergegeven waarbij het toegepaste beleid Voor veilige koppelingen de optie **Klikken van gebruikers niet bijhouden** is geselecteerd.
+
+Als u het rapport wilt bekijken, opent u het [Beveiligingscentrum & Compliance Center,](https://protection.office.com)gaat u naar **Dashboard Rapporten** \> **Dashboard** en selecteert u **URL-beveiliging**. Open <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
 
 ### <a name="report-view-for-the-url-threat-protection-report"></a>Rapportweergave voor het URL-waarschuwingsrapport voor bedreiging
 
@@ -417,6 +432,8 @@ Het **URL-dreigingsbeveiligingsrapport** bevat twee geaggregeerde weergaven die 
 
   - **Begindatum** en **einddatum**
   - De beschikbare klikbeveiligingsacties, plus de waarde **Die u toestaat** om informatie te zien voor alle URL-klikken (niet alleen geblokkeerde klikken).
+
+  ![URL klik op de actieweergave voor beveiliging in het url-dreigingsbeveiligingsrapport](../../media/url-threat-protection-report-url-click-protection-action-view.png)
 
 - **URL-klik op toepassing**: geeft het aantal URL-klikken weer door toepassingen die Office 365 ATP Safe Links ondersteunen:
 
