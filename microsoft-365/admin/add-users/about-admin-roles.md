@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. De Servicebeheerder opent bijvoorbeeld supporttickets met Microsoft.
-ms.openlocfilehash: d67f80ef00f6decb7172d4ea484a3c4161fcbf31
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: e76024f1d13e9210b74e2f6c4fc63c9992615099
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387418"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45015909"
 ---
 # <a name="about-admin-roles"></a>Informatie over beheerdersrollen
 
@@ -35,13 +35,13 @@ Uw abonnement op Microsoft 365 of Office 365 wordt geleverd met een set beheerde
 
 In het Microsoft 365-beheercentrum kunt u Azure AD- en Microsoft Intune-rollen beheren. Deze rollen vormen echter een subset van de rollen die beschikbaar zijn in de Azure-Portal en het Intune-beheercentrum.
 
-Op zoek naar de gedetailleerde rolbeschrijvingen voor Azure AD? Bekijk [machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
+Zoekt u een volledige lijst met uitgebreide beschrijvingen van Azure AD-rollen die u kunt beheren in het Microsoft 365-Beheercentrum? Bekijk de machtigingen voor de beheerdersrol in Azure Active Directory. [Machtigingen voor de beheerdersrol in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
 
-Op zoek naar de gedetailleerde rolbeschrijvingen voor Microsoft Intune? Bekijk [op rollen gebaseerd toegangsbeheer (RBAC) met Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control).
+Zoekt u een volledige lijst met uitgebreide beschrijvingen van Intune-rollen die u kunt beheren in het Microsoft 365-Beheercentrum?  Bekijk [op rollen gebaseerd toegangsbeheer (RBAC) met Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control).
 
 Zie [beheerdersrollen toewijzen](assign-admin-roles.md)voor meer informatie over het toewijzen van rollen in het Microsoft 365-beheercentrum.
 
-## <a name="things-to-consider"></a>Aandachtspunten
+## <a name="security-guidelines-for-assigning-roles"></a>Beveiligingsrichtlijnen voor het toewijzen van rollen
 
 Omdat beheerders toegang hebben tot gevoelige gegevens en bestanden, raden we u aan deze richtlijnen te volgen om de gegevens van uw organisatie veiliger te houden.
 
@@ -53,11 +53,7 @@ Omdat beheerders toegang hebben tot gevoelige gegevens en bestanden, raden we u 
 
 Als er een bericht wordt weergegeven in het Beheercentrum waarin wordt aangegeven dat u geen machtigingen hebt om een instelling of pagina te bewerken, komt dit omdat u een rol hebt toegewezen gekregen die deze machtiging niet omvat.
 
-## <a name="azure-ad-roles-available-in-the-microsoft-365-admin-center"></a>Azure AD-rollen die beschikbaar zijn in het Microsoft 365-beheercentrum
-
-In het Microsoft 365-beheercentrum kunt u meer dan 30 Azure AD-rollen beheren. Deze rollen vormen echter een subset van de rollen die beschikbaar zijn in de Azure-Portal. Als u een groot bedrijf hebt, kunnen er rollen zijn in de Azure-portal die beantwoorden aan de behoeften van uw organisatie.
-
-Een gebruiker aan wie een beheerdersrol is toegewezen, heeft dezelfde toegangsrechten voor alle cloudservices waarop de organisatie zich heeft geabonneerd. Dit is onafhankelijk van het feit of u de rol toewijst in het Microsoft 365-beheercentrum, in het Azure Portal of door de Azure AD-module voor Windows PowerShell te gebruiken.
+## <a name="commonly-used-microsoft-365-admin-center-roles"></a>Veelgebruikte rollen in het Microsoft 365-Beheercentrum
 
 ::: moniker range="o365-worldwide"
 
@@ -80,82 +76,24 @@ Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen
 |Teams-servicebeheerder    |   Wijs de rol Teams-servicebeheerder toe aan gebruikers die het Teams-beheercentrum moeten openen en beheren. <br><br>Teams-servicebeheerders kunnen ook: <br> - Vergaderingen beheren <br> - Vergaderbruggen beheren <br> - Alle organisatiebrede instellingen beheren, inclusief federatie, Teams-upgrade en Teams-clientinstellingen   |
 |Gebruikersbeheerder     |    Wijs de beheerdersrol Gebruikers toe aan gebruikers die de voor alle gebruikers de volgende taken moeten uitvoeren: <br> - Gebruikers en groepen toevoegen <br> - Licenties toewijzen <br> - De meeste gebruikerseigenschappen beheren <br> - Gebruikersweergaven maken en beheren <br> - Verloopbeleid voor wachtwoorden bijwerken <br> - Serviceaanvragen beheren <br> - De servicestatus bewaken <br><br>  De gebruikersbeheerder kan ook de volgende acties uitvoeren voor gebruikers die geen beheerders zijn en voor gebruikers die de volgende rollen hebben gekregen: adreslijst lezer, gast invite, helpdesk-beheerder, Message Center Reader, rapportlezer: <br> - Gebruikersnamen beheren<br> - Gebruikers verwijderen en herstellen<br> - Wachtwoorden opnieuw instellen <br> - Gebruikers dwingen zich af te melden <br> - Apparaatsleutels bijwerken (FIDO)   |
 
-### <a name="all-azure-ad-roles"></a>Alle Azure AD-rollen
-
- Hieronder ziet u een lijst met alle beheerdersrollen die beschikbaar zijn in het Microsoft 365-beheercentrum.
-
-|Beheerdersrol     |Beschrijving  |
-|---------|---------|
-|Toepassingsbeheerder     |    Volledige toegang tot bedrijfstoepassingen, toepassingsregistraties en proxy-instellingen van toepassingen.     |
-|Toepassingsontwikkelaar     |    Creëer toepassingsregistraties en geef toestemming voor app-toegang namens hen.     |
-|Verificatiebeheerder     |    Kan gebruikers verplichten om authenticatie opnieuw te registreren voor niet-wachtwoordreferenties, zoals MFA.     |
-|Azure Information Protection-beheerder     |   Beheert labels voor het Azure Information Protection-beleid, beheert beveiligingssjablonen en activeert bescherming.       |
-|Factureringsbeheerder     |    Schaft producten aan, beheert abonnementen en ondersteuningstickets, en bewaakt de servicestatus.     |
-|Cloud Toepassingsbeheerder     | Volledige toegang tot bedrijfstoepassingen en toepassingsregistraties. Geen toepassingsproxy.     |
-|Cloud apparaat-beheerder     |    Kan apparaten inschakelen, uitschakelen en verwijderen en BitLocker-toetsen voor Windows 10 lezen.     |
-|Beheerder voor naleving     |    Beheert wettelijke vereisten en eDiscovery-zaken, houdt gegevensbeheer voor locaties, identiteiten en apps bij.     |
-|Gegevensbeheerder voor naleving     |    Houdt gegevens bij, zorgt ervoor dat deze worden beschermd, krijgt inzicht in problemen en helpt risico's te beperken.     |
-|Beheerder voor voorwaardelijke toegang     |   Beheert de instellingen voor voorwaardelijke toegang van Azure Active Directory, maar niet het beleid voor voorwaardelijke toegang van Exchange ActiveSync.      |
-|Fiatteur voor toegang tot klant-lockbox     |      Beheert de klant-lockbox-aanvragen en schakelt deze in of uit.   |
-|Beheerder van bureaubladanalyse     |   Kan de beheerprogramma's en -services van het bureaublad openen en beheren.      |
-|Dynamics 365-beheerder     |  Volledige toegang tot Microsoft Dynamics 365 Online, beheert serviceaanvragen, bewaakt de servicestatus.       |
-|Exchange-beheerder     |  Volledige toegang tot Exchange Online, kan groepen maken en beheren, serviceaanvragen beheren en de servicestatus controleren.    |
-|Externe identiteitsprovider beheerder    |     Configureer identiteitsproviders voor gebruik in directe federatie.    |
-|Algemene beheerder     |    Heeft onbeperkte toegang tot alle beheerfuncties en de meeste gegevens in alle beheerdcentra.     |
-|Algemene lezer     |    Heeft alleen-lezen toegang tot alle beheerfuncties en de meeste gegevens in alle beheerdcentra. Zie [Machtigingen voor beheerdersrol in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader) voor een gedetailleerde beschrijving van de toegangsrechten en beperkingen van deze rol.    |
-|Groepsbeheerder   |Maakt groepen en beheert alle groepsinstellingen in beheercentra.|
-|Gast invite     |    Beheert uitnodigingen voor Azure Active Directory B2B-gastgebruikers.     |
-|Helpdesk-beheerder     | Stelt wachtwoorden opnieuw in en verifieert opnieuw voor alle niet-beheerders en sommige beheerdersrollen, beheert serviceaanvragen en bewaakt de servicestatus.      |
-|Intune-beheerder     | Volledige toegang tot intune, beheert gebruikers en apparaten om beleid te koppelen, maakt en beheert groepen.      |
-|Kaizala-beheerder     |    Volledige toegang tot alle Kaizala-beheerfuncties en -gegevens, beheert serviceaanvragen.     |
-|Licentiebeheerder     |     Wijst licenties toe en verwijdert deze van gebruikers en bewerkt hun gebruikslocatie.    |
-|Privacy-lezer voor berichtencentrum     |    Toegang tot privacy-berichten in Berichtencentrum, ontvangt e-mail meldingen.     |
-|Berichtencentrumlezer     | Leest en deelt normale berichten in Berichtencentrum, ontvangt wekelijkse e-mailsamenvattingen, heeft alleen-lezen toegang tot gebruikers, groepen, domeinen en abonnementen.     |
-|Office-apps beheerder    |   Beheert cloudgebaseerd beleid voor Office en de nieuwe inhoud die gebruikers in hun Office-apps zien.   |
-|Power BI-beheerder    |   Volledige toegang tot Power BL-beheertaken, beheert serviceaanvragen en bewaakt de servicestatus.   |
-|Power platform-beheerder     |    Volledige toegang tot Microsoft Dynamics 365, PowerApps, beleid voor preventie van gegevensverlies en Microsoft Flow.     |
-|Beheerder van rolbevoegdheden     |    Hiermee beheert u roltoewijzingen en alle toegangsbeheerfuncties voor het beheer van vertrouwde identiteiten.     |
-|Bevoorrechte verificatiebeheerder     |    Deze stelt wachtwoorden opnieuw in, werkt niet-wachtwoordreferenties bij, dwingt gebruikers zich af te melden, bewaakt de servicestatus en beheert serviceaanvragen.     |
-|Rapportenlezer     |   Leest gebruiksrapportagegegevens van het rapportagedashboard, PowerBI-acceptatie-inhoudspakket, inlograpporten en Microsoft Graph-rapportage-API.      |
-|Zoekbeheerder     |    Volledige toegang tot Microsoft Search, wijst de rollen zoekbeheer en zoekeditor toe, beheert redactionele inhoud, bewaakt de servicestatus en maakt serviceaanvragen.     |
-|Zoekeditor     |    Kan alleen inhoud maken, bewerken en verwijderen voor Microsoft Search, zoals bladwijzers, Q & A en locaties.     |
-|Beveiligingsbeheerder     |    Beheert de beveiliging van de organisatie, beheert het beveiligingsbeleid, beoordeelt beveiligingsanalyses en rapporten, bewaakt het dreigingslandschap.     |
-|Beveiligingsoperator     |    Onderzoekt en reageert op beveiligingswaarschuwingen, beheert functies in het Identiteitsbeschermingscentrum en bewaakt de gezondheid van de service.     |
-|Beveiligingslezer     |    Alleen-lezen toegang tot beveiligingsfuncties, aanmeldrapporten en auditlogboeken.     |
-|Service support-beheerder     |    Maakt serviceaanvragen voor Azure-, Microsoft 365-en Office 365-services en bewaakt de servicestatus.     |
-|SharePoint-beheerder     |    Volledige toegang tot SharePoint Online, beheert Microsoft 365-groepen, beheert serviceaanvragen en bewaakt de servicestatus.     |
-|Skype voor Bedrijven-beheerder     | Volledige toegang tot alle Teams- en Skype-functies, Skype-gebruikerskenmerken, beheert serviceaanvragen en controleert de servicestatus.      |
-|Teams-beheerder     |    Volledige toegang tot Teams- en Skype-beheercentrum, beheert Microsoft 365-groepen, beheert serviceaanvragen en bewaakt de servicestatus.     |
-|Teams communicatiemanager     |    Wijst telefoonnummers toe, maakt en beheert spraak- en vergaderbeleid en leest oproepanalyses.     |
-|Ondersteuningstechnicus voor Teams-communicatie     |    Leest oproeprecorddetails voor alle oproepdeelnemers om communicatieproblemen op te lossen.     |
-|Ondersteuningsspecialist voor Teams-communicatie     |    Leest details van gebruikersoproepen voor een specifieke gebruiker, om communicatieproblemen op te lossen.|
-|Gebruikersbeheerder     |   Gebruikerswachtwoorden opnieuw instellen, gebruikers en groepen maken en beheren, zoals filters, serviceaanvragen beheren en de servicestatus controleren.|
-
-## <a name="microsoft-intune-roles-available-in-the-microsoft-365-admin-center"></a>Microsoft Intune-rollen die beschikbaar zijn in het Microsoft 365-beheercentrum
-
-|Beheerdersrol     |Aan wie moet deze rol worden toegewezen?  |
-|---------|---------|
-|Toepassingsbeheerder     |   Wijs de rol van Applicatiebeheerder toe aan gebruikers die de applicatielevenscyclus voor mobiele apps beheren, door beleid beheerde apps configureren en apparaatinformatie en configuratieprofielen bekijken.  |
-|Helpdesk-operator     |   Wijs de rol van helpdesk-operator toe aan gebruikers die apps en beleid toewijzen aan gebruikers en apparaten. |
-|InTune-beheerdersrol    |   Wijs de rol van Intune-beheerder toe aan gebruikers die Intune-machtigingen aan andere beheerders kunnen toewijzen en die aangepaste en ingebouwde Intune-rollen kunnen beheren.   |
-|Beleids- en profielbeheerder     |   Wijs de rol van beleids- en profielbeheerder toe aan gebruikers die nalevingsbeleid, configuratieprofielen en Apple-inschrijving beheren.   |
-|Alleen-lezen operator     |   Wijs de rol van alleen-lezen operator toe aan gebruikers die gebruikers, apparaten, registratiedetails en configuraties alleen kunnen bekijken.   |
-|Schoolbeheerder     |   Wijs de rol van schoolbeheerder toe aan gebruikers die volledige toegang nodig hebben voor het beheren van Windows 10- en iOS-apparaten, apps en configuraties in Intune voor het onderwijs.   |
-
 ## <a name="delegated-administration-for-microsoft-partners"></a>Gedelegeerd beheer voor Microsoft-partners
 
 Als u met een Microsoft-partner werkt, kunt u aan uw partner beheerdersrollen toewijzen. Zij kunnen op hun beurt gebruikers in uw bedrijf, of hun bedrijf, beheerdersrollen toewijzen. U wilt misschien dat ze dit doen, bijvoorbeeld als ze uw online organisatie voor u opzetten en beheren.
   
 Een partner kan deze rollen toewijzen: 
   
-- Volledig beheer, met de bevoegdheden die equivalent zijn aan een globale beheerder, met uitzondering van het beheren van meervoudige verificatie via het Partnercentrum.
-    
-- Beperkt beheer: de bevoegdheden van deze rol zijn te vergelijken met die van een helpdesk-beheerder.
+- **Volledig beheer** Bevoegdheden van deze rol zijn te vergelijken met die van een globale beheerder, met uitzondering van het beheren van meervoudige verificatie via het Partnercentrum.
+
+- **Beperkt beheer** Bevoegdheden van deze rol zijn te vergelijken met die van een helpdesk-beheerder.
 
 Voordat de partner deze rollen aan gebruikers kan toewijzen, moet u de partner als gedelegeerde beheerder aan uw account toevoegen. Dit proces wordt geïnitieerd door een geautoriseerde partner. De partner stuurt u een e-mailbericht waarin u wordt gevraagd of u de partner toestemming wilt geven om te fungeren als gedelegeerde beheerder. Zie [Partnerrelaties autoriseren of verwijderen](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner)voor instructies.
   
 ## <a name="related-articles"></a>Verwante artikelen
 
 [Beheerdersrollen toewijzen](assign-admin-roles.md)
+
+[Informatie over Azure AD-rollen in het Microsoft 365-beheercentrum](azure-ad-roles-in-the-mac.md)
+
+[Exchange Online-beheerdersrol](about-exchange-online-admin-role.md)
   
 [Activiteitenoverzichten in het Microsoft 365-beheercentrum](../activity-reports/activity-reports.md)
