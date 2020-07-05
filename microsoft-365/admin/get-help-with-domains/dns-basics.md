@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Informatie over domeinen en de bijbehorende DNS-records om zo uw domeinen beter te beheren.
-ms.openlocfilehash: 3a3a03c408d480b5d4678fde25c8830e063b1310
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: c9fee3488f7de3c0cc4b93be15ff49bd01469495
+ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780179"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "45035607"
 ---
 # <a name="dns-basics"></a>DNS-basisprincipes
 
@@ -43,7 +43,7 @@ Domeinnamen, zoals contoso.com, worden beheerd met een wereldwijd systeem van do
 
 ::: moniker range="o365-germany"
 
-Domeinnamen, zoals contoso.com, worden beheerd met een wereldwijd systeem van domeinregistrars en databases. Het DNS (Domain Name System) biedt een koppeling tussen door mensen leesbare computerhostnamen en de IP-adressen die door netwerkapparatuur worden gebruikt. Als u de basisprincipes van DNS en domeinregistrars begrijpt, kunt u domeinen in Office 365 beter beheren.
+Domeinnamen, zoals contoso.com, worden beheerd met een wereldwijd systeem van domeinregistrars en databases. Het DNS (Domain Name System) biedt een koppeling tussen door mensen leesbare computerhostnamen en de IP-adressen die door netwerkapparatuur worden gebruikt. Als u de basisprincipes van DNS en domeinregistrars begrijpt, kunt u domeinen beter beheren.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c005f2a4-90ad-46fe-b1ab-90f41f2a9d53?autoplay=false]
   
@@ -51,7 +51,7 @@ Domeinnamen, zoals contoso.com, worden beheerd met een wereldwijd systeem van do
 
 ::: moniker range="o365-21vianet"
 
-Domeinnamen, zoals contoso.com, worden beheerd met een wereldwijd systeem van domeinregistrars en databases. Het DNS (Domain Name System) biedt een koppeling tussen door mensen leesbare computerhostnamen en de IP-adressen die door netwerkapparatuur worden gebruikt. Als beheerders de basisprincipes van DNS en domeinregistrars begrijpen, kunnen ze domeinen in Office 365 die worden beheerd door 21Vianet, beter beheren.
+Domeinnamen, zoals contoso.com, worden beheerd met een wereldwijd systeem van domeinregistrars en databases. Het DNS (Domain Name System) biedt een koppeling tussen door mensen leesbare computerhostnamen en de IP-adressen die door netwerkapparatuur worden gebruikt. Beheerders die de basisprincipes van DNS en domeinregistrars begrijpen, zullen domeinen beter beheren.
   
 ::: moniker-end
 
@@ -65,30 +65,30 @@ Domeinnamen worden gebruikt in URL’s en e-mailadressen en hebben verschillende
     
 - **mail** is het domein op het derde niveau 
     
-Waarom zou u een domein op het derde niveau gebruiken? Mogelijk wilt u verschillende domeinnamen voor marketingdoeleinden of een blog gebruiken. Bijvoorbeeld: blog.contoso.com. U voegt doorgaans een domein op het tweede niveau toe, zoals contoso.com, om te gebruiken met Office 365, maar als u dat wilt, kunt u ook domeinen op het derde niveau gebruiken.
+Waarom zou u een domein op het derde niveau gebruiken? Mogelijk wilt u verschillende domeinnamen voor marketingdoeleinden of een blog gebruiken. Bijvoorbeeld: blog.contoso.com. U voegt doorgaans een domein op het tweede niveau toe om te gebruiken met Microsoft, zoals contoso.com, maar als u wilt, kunt u ook domeinen op het derde niveau gebruiken.
   
-Bekijk de [Servicebeschrijving voor Office 365-domeinen](https://go.microsoft.com/fwlink/?LinkId=402693) voor meer informatie over wat u met domeinen kunt doen voor elk type aanbod.
+Bekijk de [Servicebeschrijving voor Microsoft 365- en Office 365-platformen](https://go.microsoft.com/fwlink/?LinkId=402693) voor meer informatie over wat u met domeinen kunt doen voor elk type aanbod.
   
 ## <a name="understand-dns-record-types"></a>Meer informatie over DNS-recordtypen
 
-DNS-records die zijn opgeslagen bij een DNS-host voor uw domein worden gebruikt om verkeer van en naar uw domein te leiden. In de volgende tabel worden veelgebruikte DNS-records beschreven en wordt beschreven hoe ze worden gebruikt met Office 365.
+DNS-records die zijn opgeslagen bij een DNS-host voor uw domein worden gebruikt om verkeer van en naar uw domein te leiden. In de volgende tabel worden veelgebruikte DNS-records beschreven en hoe ze worden gebruikt.
   
-|**NS-record (naamserver)**|**Identificeert de naamservers die de 'gezaghebbende naamservers' voor een domein zijn. Wanneer u deze naamservers wijzigt voor uw domein, wijzigt u de locatie waar uw DNS-records worden beheerd en waar het DNS-systeem zoekt naar informatie over mailservers en dergelijke. Office 365 heeft eigen naamservers, maar u kunt ook besluiten om de naamservers te blijven gebruiken die al zijn ingesteld voor uw domein.**|
+|**NS-record (naamserver)**|**Identificeert de naamservers die de 'gezaghebbende naamservers' voor een domein zijn. Wanneer u deze naamservers wijzigt voor uw domein, wijzigt u de locatie waar uw DNS-records worden beheerd en waar het DNS-systeem zoekt naar informatie over mailservers en dergelijke. Microsoft heeft eigen naamservers, maar u kunt ook besluiten om de naamservers te blijven gebruiken die al zijn ingesteld voor uw domein.**|
 |:-----|:-----|
 |A-record (adresrecord)  <br/> |Koppelt een domeinnaam aan een IP-adres.  <br/> |
 |CNAME-record (alias of canoniek)  <br/> |Leidt het ene domein om naar een ander domein in het DNS-systeem. Wanneer een naamserver een domein opzoekt en ziet dat het domein een CNAME-record heeft, vervangt de server de eerste domeinnaam door de CNAME en wordt vervolgens de nieuwe naam opgezocht.  <br/> |
 |MX-record (e-mailuitwisselaar)  <br/> |Verwijst naar de locatie waar uw e-mail naartoe moet worden gezonden. Deze record bevat ook een prioriteitsveld, zodat u e-mail naar verschillende servers kunt verzenden in een bepaalde prioriteitsvolgorde.  <br/> |
 |SPF-record (Sender Policy Framework)  <br/> |Een TXT-record die e-mailspoofing en phishing helpt voorkomen.  <br/> |
-|SRV-record (service)  <br/> |Wordt gebruikt door Skype voor Bedrijven Online en Exchange Online om de gegevensstroom tussen Office 365-services te coördineren. De SRV-records zijn bijvoorbeeld vereist om de aanwezigheid in Outlook Web App te zien en om Skype voor Bedrijven Online, Skype of andere chatprogramma's met personen in andere bedrijven te gebruiken.  <br/> |
+|SRV-record (service)  <br/> |Wordt gebruikt door Skype voor Bedrijven Online en Exchange Online om de gegevensstroom tussen Microsoft-services te coördineren. De SRV-records zijn bijvoorbeeld vereist om de aanwezigheid in Outlook Web App te zien en om Skype voor Bedrijven Online, Skype of andere chatprogramma's met personen in andere bedrijven te gebruiken.  <br/> |
 |TTL (Time To Live)  <br/> |De hoeveelheid tijd die een naamserver een DNS-record bewaart voordat de server naar een bijgewerkte versie zoekt.  <br/> |
    
 ## <a name="how-does-dns-work"></a>Hoe werkt DNS?
 
-Een deel van het instellen van uw domein voor een cloudservice zoals Office 365 bestaat uit het wijzigen of toevoegen van [DNS-records](dns-basics.md) voor het domein. Deze wijzigingen zijn vereist vanwege de manier waarop het internet met DNS en domeinnamen omgaat zodat u weet waar u iets kunt vinden of naar toe sturen, bijvoorbeeld websites zoeken en e-mail verzenden. 
+Een deel van het instellen van uw domein voor een cloudservice zoals Microsoft 365 bestaat uit het wijzigen of toevoegen van [DNS-records](dns-basics.md) voor het domein. Deze wijzigingen zijn vereist vanwege de manier waarop het internet met DNS en domeinnamen omgaat zodat u weet waar u iets kunt vinden of naar toe sturen, bijvoorbeeld websites zoeken en e-mail verzenden. 
   
 Internet is ingesteld voor gebruik met DNS (Domain Name System), waarmee bekende namen, zoals contoso.com, kunnen worden gebruikt om te zoeken naar specifieke internetlocaties die in feite, diep verborgen op internet, zijn gelabeld met moeilijk te onthouden getallen, ook wel IP-adressen (Internet Protocol) genoemd. Een IP-adres is bijvoorbeeld 70.42.241.42. Het is dus veel makkelijker om een domeinnaam te gebruiken om locaties, zoals e-mailhosts en websites, aan te duiden.
   
-Dit is dus het korte antwoord: DNS-records laten het internet weten waar e-mail naartoe moet worden verzonden (zoals jan@contoso.com) of waar websites (zoals www.contoso.com) kunnen worden gevonden die uw domeinnaam gebruikt. Wanneer u de juiste informatie in de juiste DNS-records voor uw domein opneemt, wordt alles op de juiste manier gerouteerd door het DNS-systeem, zodat uw e-mail bijvoorbeeld binnenkomt in Office 365 en niet op een andere locatie.
+Dit is dus het korte antwoord: DNS-records laten het internet weten waar e-mail naartoe moet worden verzonden (zoals jan@contoso.com) of waar websites (zoals www.contoso.com) kunnen worden gevonden die uw domeinnaam gebruikt. Wanneer u de juiste informatie in de juiste DNS-records voor uw domein opneemt, wordt alles op de juiste manier gerouteerd door het DNS-systeem, zodat uw e-mail bijvoorbeeld binnenkomt in Microsoft 365 en niet op een andere locatie.
   
 De DNS-records van een domein kunnen ook in andere situaties handig zijn. In Exchange wordt bijvoorbeeld een DNS-record gecontroleerd waarmee in Outlook automatisch een verbinding kan worden ingesteld met de juiste Exchange-server.
   
@@ -96,11 +96,11 @@ De DNS-records van een domein kunnen ook in andere situaties handig zijn. In Exc
 
 Zoals u hiervoor hebt gelezen, wordt met DNS in feite verkeer op internet geleid, waarbij beschrijvende domeinnamen worden toegewezen aan de moeilijk te onthouden IP-adressen. Eén DNS-record, de zogenaamde MX-record, is specifiek bedoeld voor het verzenden van e-mail naar de juiste host.
   
-DNS-records zijn vergelijkbaar met een database met informatie over uw domein. De records en de bijbehorende waarden worden bewaard in een zonebestand dat een lijst bevat met elke record voor uw domein en wat de waarde is. Domeinregistrars en andere DNS-hostingbedrijven bieden een gebruikersinterface op hun websites, zodat u de records in het zonebestand van uw domein kunt bewerken. Dit is de plaats waar u de MX-record voor uw domein bijwerkt om e-mailberichten naar Office 365 te verzenden.
+DNS-records zijn vergelijkbaar met een database met informatie over uw domein. De records en de bijbehorende waarden worden bewaard in een zonebestand dat een lijst bevat met elke record voor uw domein en wat de waarde is. Domeinregistrars en andere DNS-hostingbedrijven bieden een gebruikersinterface op hun websites, zodat u de records in het zonebestand van uw domein kunt bewerken. Dit is de plaats waar u de MX-record voor uw domein bijwerkt om e-mailberichten naar Microsoft 365 te verzenden.
   
- *Wanneer u uw e-mailadres overzet naar Office 365 door de MX-record van uw domein in de volgende stap bij te werken, komt alle e-mail die naar dat domein wordt verzonden binnen in Office 365.*  Als andere personen uw domein voor e-mail gebruiken, moet u voor elke persoon Office 365-postvakken instellen. 
+ *Wanneer u uw e-mailadres overzet naar Microsoft 365 door de MX-record van uw domein in de volgende stap bij te werken, komt alle e-mail die naar dat domein wordt verzonden binnen in Microsoft 365.*  Als andere personen uw domein voor e-mail gebruiken, moet u voor elke persoon Microsoft 365-postvakken instellen. 
   
-Lijkt dit ingewikkeld? Dat is het soms ook, maar we begeleiden u stapsgewijs bij het instellen van het Office 365-domein.
+Lijkt dit ingewikkeld? Dat is het soms ook, maar we begeleiden u stapsgewijs bij het instellen van het Microsoft-domein.
   
 ### <a name="dns-tells-the-internet-where-to-look-for-websites-too"></a>Via DNS wordt ook aangegeven waar op internet naar websites moet worden gezocht.
 
@@ -108,23 +108,23 @@ Wanneer u een websiteadres typt, bijvoorbeeld www.contoso.com, wordt eerst met e
   
 ::: moniker range="o365-worldwide"
 
-Stel dat de NS-record voor contoso.com 'godaddy.com' is. Nu weet het internet dat op GoDaddy.com moet worden gezocht naar het zonebestand met alle DNS-records voor contoso.com. De DNS-records bevatten de MX-record waarin is opgegeven waar u e-mailberichten naartoe moet sturen voor contoso.com en andere records. Als de MX-record een waarde heeft met de melding (maar in technische termen) 'e-mail verzenden naar Office 365', worden alle e-mailberichten die naar een e-mailadres van contoso.com (zoals jan@contoso.com) worden gestuurd, daar naartoe verstuurd. Vervolgens wordt het e-mailbericht bezorgd, zolang er een postvak met de naam Jan op die locatie aanwezig is.
+Stel dat de NS-record voor contoso.com 'godaddy.com' is. Nu weet het internet dat op GoDaddy.com moet worden gezocht naar het zonebestand met alle DNS-records voor contoso.com. De DNS-records bevatten de MX-record waarin is opgegeven waar u e-mailberichten naartoe moet sturen voor contoso.com en andere records. Als de MX-record een waarde heeft waarin vermeld wordt (in technische termen) 'e-mail verzenden naar Microsoft 365', worden daar alle e-mails gericht aan een contoso.com-e-mailadres (zoals jan@contoso.com) naartoe gestuurd. Vervolgens wordt het e-mailbericht bezorgd, zolang er een postvak met de naam Jan op die locatie aanwezig is.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Stel dat de NS-record voor contoso.com 'godaddy.com' is. Nu weet het internet dat op GoDaddy.com moet worden gezocht naar het zonebestand met alle DNS-records voor contoso.com. De DNS-records bevatten de MX-record waarin is opgegeven waar u e-mailberichten naartoe moet sturen voor contoso.com en andere records. Als de MX-record een waarde heeft met de melding (maar in technische termen) 'e-mail verzenden naar Office 365', worden alle e-mailberichten die naar een e-mailadres van contoso.com (zoals jan@contoso.com) worden gestuurd, daar naartoe verstuurd. Vervolgens wordt het e-mailbericht bezorgd, zolang er een postvak met de naam Jan op die locatie aanwezig is.
+Stel dat de NS-record voor contoso.com 'godaddy.com' is. Nu weet het internet dat op GoDaddy.com moet worden gezocht naar het zonebestand met alle DNS-records voor contoso.com. De DNS-records bevatten de MX-record waarin is opgegeven waar u e-mailberichten naartoe moet sturen voor contoso.com en andere records. Als de MX-record een waarde heeft waarin vermeld wordt (in technische termen) 'e-mail verzenden naar Microsoft 365', worden daar alle e-mails gericht aan een contoso.com-e-mailadres (zoals jan@contoso.com) naartoe gestuurd. Vervolgens wordt het e-mailbericht bezorgd, zolang er een postvak met de naam Jan op die locatie aanwezig is.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Stel dat de NS-record voor contoso.com 'hichina.com' is. Nu weet het internet dat op hichina.com moet worden gezocht naar het zonebestand met alle DNS-records voor contoso.com. De DNS-records bevatten de MX-record waarin is opgegeven waar u e-mailberichten naartoe moet sturen voor contoso.com en andere records. Als de MX-record een waarde heeft met de melding (maar in technische termen) 'e-mail verzenden naar Office 365', worden alle e-mailberichten die naar een e-mailadres van contoso.com (zoals jan@contoso.com) worden gestuurd, daar naartoe verstuurd. Vervolgens wordt het e-mailbericht bezorgd, zolang er een postvak met de naam Jan op die locatie aanwezig is.
+Stel dat de NS-record voor contoso.com 'hichina.com' is. Nu weet het internet dat op hichina.com moet worden gezocht naar het zonebestand met alle DNS-records voor contoso.com. De DNS-records bevatten de MX-record waarin is opgegeven waar u e-mailberichten naartoe moet sturen voor contoso.com en andere records. Als de MX-record een waarde heeft waarin vermeld wordt (in technische termen) 'e-mail verzenden naar Microsoft 365', worden daar alle e-mails gericht aan een contoso.com-e-mailadres (zoals jan@contoso.com) naartoe gestuurd. Vervolgens wordt het e-mailbericht bezorgd, zolang er een postvak met de naam Jan op die locatie aanwezig is.
 
 ::: moniker-end
 
-De werkelijke waarden die u voor Office 365 moet invoeren, worden weergegeven als u uw domein instelt in de stappen voor het instellen van het domein. Als u de instelling handmatig uitvoert, kopieert en plakt u de waarden in de juiste DNS-records (MX-record, CNAME-records, enzovoort) op uw DNS-host. Dit kan uw domeinregistrar of iets anders zijn.
+De werkelijke waarden die u voor Microsoft 365 moet invoeren, worden weergegeven in de stappen die u moet volgen als u uw domein instelt. Als u de instelling handmatig uitvoert, kopieert en plakt u de waarden in de juiste DNS-records (MX-record, CNAME-records, enzovoort) op uw DNS-host. Dit kan uw domeinregistrar of iets anders zijn.
   
 ::: moniker range="o365-worldwide"
 
@@ -145,21 +145,21 @@ Waarom kan het zonebestand van uw domein zich ergens buiten uw domeinregistrar b
 ::: moniker-end
 
 > [!NOTE]
-> Als u uw domein instelt in Office 365, zodat [uw DNS-records worden ingesteld en beheerd door Microsoft](../setup/domains-faq.md#how-does-office-365-manage-my-dns-records), moet u tijdens het instellen van het domein [het DNS-beheer wijzigen in Office 365](../setup/domains-faq.md#change-dns-management-to-office-365). 
+> Als u in Microsoft 365 uw domein dusdanig instelt dat [Microsoft uw DNS-records voor u instelt en beheert](../setup/domains-faq.md#how-does-office-365-manage-my-dns-records), moet u tijdens het instellen van het domein [het DNS-beheer wijzigen in Microsoft 365](../setup/domains-faq.md#change-dns-management-to-office-365). 
  
 
 ::: moniker range="o365-worldwide"
 ## <a name="why-add-a-domain-in-office-365"></a>Waarom zou ik een domein toevoegen in Office 365?
 
 
-Als u een aangepast domein, zoals fourthcoffee.com, toevoegt aan Office 365, kunt u kortere, meer vertrouwde e-mailadressen en gebruikers-id's met de service gebruiken. U [krijgt een domein om te gebruiken](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) wanneer u zich aanmeldt voor een Office 365-account, maar dit bevat onmicrosoft.com. Veel mensen voegen liever het domein van hun organisatie of bedrijf toe als ze Office 365 voor e-mail willen gaan gebruiken. 
+Als u een aangepast domein, zoals fourthcoffee.com, toevoegt aan Microsoft 365, kunt u kortere, meer vertrouwde e-mailadressen en gebruikers-id's met de service gebruiken. U [krijgt een domein toegewezen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) wanneer u zich aanmeldt voor een Microsoft 365-account, maar dit bevat onmicrosoft.com. Veel mensen voegen liever het domein van hun organisatie of bedrijf toe als ze Microsoft 365 voor e-mail willen gaan gebruiken. 
   
 > [!NOTE]
 > Als u alleen Microsoft-apps wilt downloaden en gebruiken, zoals Outlook of Word, hoeft u geen domein toe te voegen: [Installeer Office op uw pc of Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658). 
   
-U kunt uw domeinnaam in Office 365 gebruiken voor uw e-mailadres, het adres van uw openbare website en uw chatadres.
+U kunt uw domeinnaam in Microsoft 365 gebruiken voor uw e-mailadres, het adres van uw openbare website en uw chatadres.
   
-- **E-mail:** Met uw domeinnaam kunt u uw e-mailadres aanpassen, zodat u een korter en gemakkelijker te onthouden adres kunt gebruiken dan [het eerste onmicrosoft.com-e-mailadres](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) dat bij uw account wordt geleverd. Dus in plaats van jan@contoso.onmicrosoft.com kan het e-mailadres (dat ook het werkaccount is dat u gebruikt voor het aanmelden bij Office 365) jan@contoso.com zijn. 
+- **E-mail:** Met uw domeinnaam kunt u uw e-mailadres aanpassen, zodat u een korter en gemakkelijker te onthouden adres kunt gebruiken dan [het eerste onmicrosoft.com-e-mailadres](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) dat bij uw account wordt geleverd. Dus in plaats van jan@contoso.onmicrosoft.com kan het e-mailadres (dat ook het werkaccount is dat u gebruikt voor het aanmelden bij Microsoft 365) jan@contoso.com zijn. 
     
 - **Website:** Als u een Microsoft 365-abonnement hebt dat een openbare SharePoint Online-website omvat (niet meer te koop), heeft deze openbare site in eerste instantie een adres zoals contoso-public.sharepoint.com. Als u een website voor uw bedrijf instelt, kunt u een aangepaste domeinnaam gebruiken om het websiteadres te wijzigen in bijvoorbeeld www.contoso.com. 
     
@@ -168,17 +168,17 @@ U kunt uw domeinnaam in Office 365 gebruiken voor uw e-mailadres, het adres van 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-## <a name="why-add-a-domain-in-office-365"></a>Waarom zou ik een domein toevoegen in Office 365?
+## <a name="why-add-a-domain-in-microsoft-365"></a>Waarom zou ik een domein toevoegen in Microsoft 365?
 
 
-Als u een aangepast domein, zoals fourthcoffee.com, toevoegt aan Office 365, kunt u kortere, meer vertrouwde e-mailadressen en gebruikers-id's met de service gebruiken. U [krijgt een domein om te gebruiken](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) wanneer u zich aanmeldt voor een Office 365-account, maar dit bevat onmicrosoft.com. Veel mensen voegen liever het domein van hun organisatie of bedrijf toe als ze Office 365 voor e-mail willen gaan gebruiken. 
+Als u een aangepast domein, zoals fourthcoffee.com, toevoegt aan Microsoft 365, kunt u kortere, meer vertrouwde e-mailadressen en gebruikers-id's met de service gebruiken. U [krijgt een domein toegewezen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) wanneer u zich aanmeldt voor een Microsoft 365-account, maar dit bevat onmicrosoft.com. Veel mensen voegen liever het domein van hun organisatie of bedrijf toe als ze Microsoft 365 voor e-mail willen gaan gebruiken. 
   
 > [!NOTE]
-> Als u alleen Office 365-apps wilt downloaden en gebruiken, zoals Outlook of Word, hoeft u geen domein toe te voegen: [Installeer Office op uw pc of Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658). 
+> Als u alleen Microsoft 365-apps wilt downloaden en gebruiken, zoals Outlook of Word, hoeft u geen domein toe te voegen: [Installeer Office op uw pc of Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658). 
   
-U kunt uw domeinnaam in Office 365 gebruiken voor uw e-mailadres, het adres van uw openbare website en uw chatadres.
+U kunt uw domeinnaam in Microsoft 365 gebruiken voor uw e-mailadres, het adres van uw openbare website en uw chatadres.
   
-- **E-mail:** Met uw domeinnaam kunt u uw e-mailadres aanpassen, zodat u een korter en gemakkelijker te onthouden adres kunt gebruiken dan [het eerste onmicrosoft.com-e-mailadres](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) dat bij uw account wordt geleverd. Dus in plaats van jan@contoso.onmicrosoft.com kan het e-mailadres (dat ook het werkaccount is dat u gebruikt voor het aanmelden bij Office 365) jan@contoso.com zijn. 
+- **E-mail:** Met uw domeinnaam kunt u uw e-mailadres aanpassen, zodat u een korter en gemakkelijker te onthouden adres kunt gebruiken dan [het eerste onmicrosoft.com-e-mailadres](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) dat bij uw account wordt geleverd. Dus in plaats van jan@contoso.onmicrosoft.com kan het e-mailadres (dat ook het werkaccount is dat u gebruikt voor het aanmelden bij Microsoft 365) jan@contoso.com zijn. 
     
 - **Website:** Als u een abonnement hebt dat een openbare SharePoint Online-website omvat (niet meer te koop), heeft deze openbare site in eerste instantie een adres zoals contoso-public.sharepoint.com. Als u een website voor uw bedrijf instelt, kunt u een aangepaste domeinnaam gebruiken om het websiteadres te wijzigen in bijvoorbeeld www.contoso.com. 
     
@@ -186,20 +186,17 @@ U kunt uw domeinnaam in Office 365 gebruiken voor uw e-mailadres, het adres van 
     
 ::: moniker-end
 
-## <a name="the-dns-records-required-for-office-365"></a>De benodigde DNS-records voor Office 365
+## <a name="the-dns-records-required-for-microsoft-365"></a>De benodigde DNS-records voor Microsoft 365
 
-Er zijn enkele DNS-records nodig om Office 365 met uw domein te laten werken. Naast het instellen van de MX-record van uw domein, zodat e-mail naar Office 365 wordt verzonden, zijn er ook records ter ondersteuning van andere taken, bijvoorbeeld om ervoor te zorgen dat Outlook automatisch verbinding kan maken met de juiste Exchange-server, voor de configuratie van chatberichten en om ongewenste e-mail te voorkomen.
+Er zijn enkele DNS-records nodig om Microsoft 365 met uw domein te laten werken. Naast het instellen van de MX-record van uw domein, zodat e-mail naar Microsoft 365 wordt verzonden, zijn er ook records ter ondersteuning van andere taken, bijvoorbeeld om ervoor te zorgen dat Outlook automatisch verbinding kan maken met de juiste Exchange-server, voor de configuratie van chatberichten en om ongewenste e-mail te voorkomen.
   
 U kunt [zoeken naar een lijst met waarden](information-for-dns-records.md) om uw domein in te stellen. .Deze zijn opgenomen in het Microsoft 365-beheercentrum. 
   
-Als u een implementatie plant, wilt u mogelijk een lijst bekijken met alle vereiste DNS-records voor Office 365, de functie ervan en voorbeeldwaarden. Bekijk [Externe DNS-records (Domain Name System) voor Office 365](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records).
+Als u een implementatie plant, wilt u mogelijk een lijst bekijken met alle vereiste DNS-records voor Microsoft 365, de functie ervan en voorbeeldwaarden. Bekijk [Externe DNS-records voor Microsoft 365](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records).
   
 ## <a name="how-can-i-learn-more"></a>Waar vind ik meer informatie?
 
 Raadpleeg het volgende: 
   
 - Weet u niet zeker waar uw domein is geregistreerd? [Hulp krijgen bij het vinden van uw domeinregistrar.](find-your-domain-registrar.md)
-    
-- Kijk [waarom u de stappen van de wizard moet voltooien](../setup/add-domain.md) voordat u uw domein kunt gebruiken met Office 365. 
-    
-
+- Kijk [waarom u de stappen van de wizard moet voltooien](../setup/add-domain.md) voordat u uw domein kunt gebruiken met Microsoft 365.
