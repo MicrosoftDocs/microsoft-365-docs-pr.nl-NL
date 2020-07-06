@@ -17,20 +17,19 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het gebruik van Explorer en realtime detecties in het Security &amp; Compliance Center om bedreigingen effectief en efficiënt te onderzoeken en erop te reageren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1aaff0662e549de3ea27db01df02ff34d192a96d
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: cf932db30feb3210b8980b95e666972cd3436dd0
+ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613442"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45039524"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Threat Explorer en real-time detecties
 
 Als uw organisatie [Office 365 Advanced Threat Protection](office-365-atp.md) (Office 365 ATP) heeft en u de [benodigde machtigingen](#required-licenses-and-permissions)hebt, hebt u **Explorer-** of **realtime detecties** (voorheen *realtime rapporten* - zie wat er [nieuw is!).](#new-features-in-threat-explorer-and-real-time-detections) Ga in het Security & Compliance Center naar **Bedreigingsbeheer**en kies **vervolgens Explorer-** _of_ **Real-time detecties**.
 
-|||
+| Met ATP Plan 2 ziet u: | Met ATP Plan 1 ziet u: |
 |---|---|
-|**Met ATP Plan 2 ziet u:**|**Met ATP Plan 1 ziet u:**|
 |![Dreiging ontdekkingsreiziger](../../media/threatmgmt-explorer.png)|![Realtime detectie](../../media/threatmgmt-realtimedetections.png)|
 |
 
@@ -44,6 +43,43 @@ Met dit rapport u:
 - [Gegevens over phishing-URL's weergeven en op vonnis klikken](#view-data-about-phishing-urls-and-click-verdict)
 - [Een geautomatiseerd onderzoek- en reactieproces](#start-automated-investigation-and-response) starten vanuit een weergave in Explorer (alleen ATP-abonnement)
 - ... [Onderzoek kwaadaardige e-mail, en meer!](#more-ways-to-use-explorer-or-real-time-detections)
+
+## <a name="experience-improvements-to-threat-explorer-and-real-time-detections"></a>Ervaring verbeteringen aan Threat Explorer en Real-Time Detecties
+
+Als onderdeel van het verbeteren van het jachtproces hebben we een paar updates doorgevoerd voor Threat Explorer en Real-Time Detections. Dit zijn 'ervaring' verbeteringen, met de focus op het maken van de jacht ervaring meer consistent. Deze wijzigingen worden hieronder beschreven: 
+
+- [Verbeteringen in de tijdzone](#timezone-improvements)
+- [Bijwerken in het vernieuwingsproces](#update-in-the-refresh-process)
+- [Grafiekzoom om aan filters toe te voegen](#chart-drilldown-to-add-to-filters)
+- [In productinformatie-updates](#in-product-information-updates)
+
+### <a name="timezone-improvements"></a>Verbeteringen in de tijdzone 
+
+We tonen de tijdzone voor de e-mailrecords binnen de Portal, evenals voor geëxporteerde gegevens. De tijdzone is zichtbaar voor ervaringen zoals E-mailraster, Gegevens flyout, e-mailtijdlijn en vergelijkbare e-mails, zodat de tijdzone voor de resultatenset duidelijk is voor de gebruiker. 
+
+![Tijdzone weergeven in Explorer](../media/TimezoneImprovements.png)
+
+### <a name="update-in-the-refresh-process"></a>Bijwerken in het vernieuwingsproces 
+
+We hebben feedback gehoord rond verwarring met automatische vernieuwing (bijvoorbeeld voor datum, zodra u de datum wijzigt, de pagina zou vernieuwen) en handmatig vernieuwen (voor andere filters). Op dezelfde manier leidt het verwijderen van filters tot automatische vernieuwing, dit veroorzaakt situaties waarin het wijzigen van de verschillende filters terwijl u de query wijzigt, inconsistente zoekervaringen kan veroorzaken. Om dit op te lossen, gaan we over op een handmatig filtermechanisme.
+Vanuit het oogpunt van de ervaring kan de gebruiker het verschillende bereik van filters toepassen en verwijderen (uit de filterset en datum) en op de vernieuwingsknop drukken om de resultaten te filteren zodra deze zijn uitgevoerd met het definiëren van de query. De refresh-knop is ook bijgewerkt om het duidelijk op het scherm te roepen. We hebben ook bijgewerkt tooltips en in-product documentatie rond deze verandering. 
+
+![Klik op Vernieuwen om resultaten te filteren](../media/ManualRefresh.png)
+
+### <a name="chart-drilldown-to-add-to-filters"></a>Grafiekzoom om aan filters toe te voegen
+
+U nu op de waarden van de grafieklegenda klikken om die waarde als filter toe te voegen. Houd er rekening mee dat u nog steeds op de vernieuwingsknop moet klikken om de resultaten te filteren als onderdeel van de hierboven beschreven wijziging.
+
+![Door grafieken doorzoomen naar Filteren](../media/ChartDrilldown.png)
+
+### <a name="in-product-information-updates"></a>In productinformatie-updates 
+
+U ziet ook aanvullende details in het product. Bijvoorbeeld het totale aantal zoekresultaten binnen het raster (zie hieronder), evenals verbeteringen rond labels, foutmeldingen en knopinfo, om meer informatie te geven over filters, zoekervaring en resultaatset. 
+
+![In-product-informatie weergeven](../media/ProductInfo.png)
+
+
+## <a name="new-features-in-real-time-detections"></a>Nieuwe functies in real-time detecties
 
 ## <a name="new-features-in-threat-explorer-and-real-time-detections"></a>Nieuwe functies in Threat Explorer en real-time detecties
 
@@ -68,20 +104,22 @@ Hoe wordt dit gedaan? De leveringsstatus is nu onderverdeeld in twee kolommen:
 
 Leveringsactie is de actie die wordt ondernomen op een e-mail vanwege bestaand beleid of detecties. Dit zijn de mogelijke acties die een e-mail kan ondernemen:
 
-|||||
+|Geleverd  |Junked  |Geblokkeerd  |Vervangen  |
+|---------|---------|---------|---------|
+|E-mail is geleverd aan Postvak IN of map van een gebruiker en de gebruiker kan er direct toegang toe krijgen.    | E-mail is verzonden naar de map Ongewenste e-mail of verwijderde map van de gebruiker en de gebruiker heeft toegang tot e-mails in die mappen.       | E-mails die in quarantaine zijn geplaatst, die zijn mislukt of zijn verwijderd. Dit is volledig ontoegankelijk voor de gebruiker!     | Elke e-mail waarin schadelijke bijlagen worden vervangen door .txt-bestanden waarin de bijlage staat, was schadelijk.     |
+    
+
+| Geleverd | Junked | Geblokkeerd | Vervangen |
 |---|---|---|---|
-|**Geleverd**|**Junked**|**Geblokkeerd**|**Vervangen**|
 |E-mail is geleverd aan de inbox van de gebruiker of een andere map en de gebruiker heeft er rechtstreeks toegang toe.| E-mail is verzonden naar de map Ongewenste e-mail of de map Verwijderde gebruiker en de gebruiker heeft toegang tot e-mailberichten in die mappen.| E-mailberichten die in quarantaine zijn geplaatst, die zijn mislukt of zijn verwijderd en die niet toegankelijk zijn voor de gebruiker.| Alle e-mailberichten waar kwaadaardige bijlagen werden vervangen door .txt-bestanden waarin de bijlagen staan, waren schadelijk.|
 |
 
 En hier is wat de gebruiker kan zien, en wat ze niet kunnen:
 
-|||
+| Toegankelijk voor eindgebruikers | Ontoegankelijk voor eindgebruikers |
 |---|---|
-|**Toegankelijk voor eindgebruikers**|**Ontoegankelijk voor eindgebruikers**|
 |Geleverd|Geblokkeerd|
 |Junked|Vervangen|
-|
 
 De leveringslocatie toont de resultaten van beleid en detecties die na levering worden uitgevoerd. Het is gekoppeld aan een leveringsactie. Dit veld is toegevoegd om inzicht te geven in de actie die is ondernomen wanneer een probleemmail wordt gevonden. Hier zijn de mogelijke waarden van de levering locatie:
 
@@ -114,7 +152,7 @@ U als volgt op dezelfde locatie komen in het rapport real-time detecties:
 > [!TIP]
 > Network Message ID brengt de klik terug naar specifieke e-mails wanneer u zoekt via Explorer of bijbehorende hulpprogramma's van derden via Network Message ID. Als u zoekt via de netwerkbericht-id, krijgen beheerders de specifieke e-mail die is gekoppeld aan een klikresultaat. Bij export zorgt de correlerende identificatie van Network Message ID voor een snellere en krachtigere analyse.
 
-![tp_ExportClickResultAndNetworkID.p.](../../media/tp_ExportClickResultAndNetworkID.png)
+![tp_ExportClickResultAndNetworkID.png](../../media/tp_ExportClickResultAndNetworkID.png)
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>Zie malware gedetecteerd in e-mail door technologie
 
@@ -205,6 +243,7 @@ Naast de scenario's die in dit artikel worden beschreven, hebt u nog veel meer r
 - [Kwaadaardige e-mail zoeken en onderzoeken die is bezorgd](investigate-malicious-email-that-was-delivered.md)
 - [Schadelijke bestanden weergeven die zijn gedetecteerd in SharePoint Online, OneDrive en Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
 - [Krijg een overzicht van de weergaven in Threat Explorer (en realtime detecties)](threat-explorer-views.md)
+- [Geautomatiseerd onderzoek en reactie in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
 
 ## <a name="required-licenses-and-permissions"></a>Vereiste licenties en machtigingen
 
@@ -242,3 +281,4 @@ Zie de volgende bronnen voor meer informatie over rollen en machtigingen:
 - Meer filtermogelijkheden en beschikbare acties zijn opgenomen in **Threat Explorer**.
 
 Zie [Office 365 ATP-servicebeschrijving: Beschikbaarheid van functies voor ATP-abonnementen (Advanced Threat Protection).](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)
+
