@@ -13,24 +13,25 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Microsoft 365-services gebruiken. Met het dashboard Gebruiksoverzicht kunt u voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
-ms.openlocfilehash: 665512e322eadd2f590fb5109fd6f1a9e7706e61
-ms.sourcegitcommit: b458277f0a9937555bc6c5b3fb2a41613f7cc9a9
+ms.openlocfilehash: f1902c71b167d6293530eae61fa6c57d63c5f06c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43794015"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387799"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Microsoft 365-overzichten in het beheercentrum
 
-U kunt gemakkelijk zien hoe mensen in uw bedrijf Microsoft 365-services gebruiken. Zo kunt u vaststellen wie een service veel gebruikt en quota behaalt, of wie misschien helemaal geen Microsoft 365-licentie nodig heeft.
+You can easily see how people in your business are using Microsoft 365 services. For example, you can identify who is using a service a lot and reaching quotas, or who may not need an Microsoft 365 license at all.
   
-Er zijn overzichten beschikbaar voor de afgelopen 7 dagen, 30 dagen, 90 dagen en 180 dagen. Er zijn niet direct gegevens voor alle rapportageperioden beschikbaar. De rapporten komen beschikbaar na 48 uur.
+Reports are available for the last 7 days, 30 days, 90 days, and 180 days. Data won't exist for all reporting periods right away. The reports become available within 48 hours.
   
 Bekijk deze video voor meer informatie over hoe u de rapporten kunt gebruiken:
   
@@ -97,6 +98,8 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
 - [Gebruik van e-mail-apps](email-apps-usage.md)
 
 - [Formulieractiviteit](forms-activity.md)
+
+- [Formulieren Pro-activiteiten](forms-pro-activity.md)
   
 - [Microsoft 365-groepen](office-365-groups.md)
   
@@ -156,7 +159,7 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
   
 ## <a name="how-to-view-usage-information-for-a-specific-user"></a>Gebruiksinformatie voor een specifieke gebruiker weergeven
 
-Gebruik de servicerapporten om te onderzoeken hoeveel een specifieke gebruiker gebruikmaakt van de service. Als u bijvoorbeeld wilt weten hoeveel postvakopslagruimte een specifieke gebruiker heeft gebruikt, opent u het rapport Postvakgebruik en sorteert u de gebruikers op naam. Als er duizenden gebruikers zijn, kunt u het rapport exporteren naar Excel zodat u de lijst snel kunt filteren.
+Use the service reports to research how much a specific user is using the service. For example, to find out how much mailbox storage a specific user has consumed, open the Mailbox usage report, and sort the users by name. If you have thousands of users, export the report to Excel so you filter through the list quickly.
   
 U kunt geen rapport genereren waarbij u het account van een gebruiker invoert en een lijst krijgt van welke services die persoon gebruikt en hoeveel.
   
@@ -174,7 +177,7 @@ Uw lijst met gebruikers ziet er zo uit:
   
 ![Rapporten: geanonimiseerde gebruikerslijst](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
   
-Het duurt enkele minuten voordat deze wijzigingen zijn doorgevoerd in de rapporten in het dashboard Rapporten. Deze instelling geldt ook voor de rapporten-API.
+It'll take a few minutes for these changes to take effect on the reports in the reports dashboard. This setting also applies to the reports API.
   
 ## <a name="what-happens-to-usage-data-when-a-user-account-is-closed"></a>Wat gebeurt er met de gebruiksgegevens wanneer een gebruikersaccount wordt gesloten?
 

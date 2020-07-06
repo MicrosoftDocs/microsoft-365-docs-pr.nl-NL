@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/20/2019
+ms.date: 05/26/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -20,12 +20,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 65a6d687-a16a-4415-9fd5-011ba9c5fd80
 description: 'Overzicht: federatieve verificatie configureren voor uw Microsoft 365-testomgeving.'
-ms.openlocfilehash: b0aa967570c3d12554cdb273a8b39b8931af1fbd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: efe2e196b95feff2aab1577f8e5d3ee29b5e39ba
+ms.sourcegitcommit: 330e9baf02b5bc220d61f777c2338814459626ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634096"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44385062"
 ---
 # <a name="federated-identity-for-your-microsoft-365-test-environment"></a>Federatieve identiteit voor uw Microsoft 365-testomgeving
 
@@ -166,7 +166,7 @@ Geef het openbare IP-adres van PROXY1 weer met deze Azure PowerShell-opdrachten 
 Write-Host (Get-AzPublicIpaddress -Name "PROXY1-PIP" -ResourceGroup $rgName).IPAddress
 ```
 
-Werk vervolgens samen met uw openbare DNS-provider en maak een nieuw openbaar DNS A-record voor **fs.testlab.**\<uw DNS-domeinnaam> die wordt omgezet in het IP-adres dat wordt weergegeven door de **Write-Host**-opdracht. Het **fs.testlab.**\<uw DNS-domeinnaam> wordt hierna de *federatiedienst FQDN* genoemd.
+Werk vervolgens met uw openbare DNS-provider om een nieuw openbaar DNS A-record aan te maken voor **fs.testlab.**\<your DNS domain name> dat wordt omgezet naar het IP-adres dat wordt weergegeven door de **Write-Host**. De **fs.testlab.**\<your DNS domain name> wordt hierna de *federatiedienst FQDN* genoemd.
   
 Gebruik vervolgens de [Azure-portal](https://portal.azure.com) om verbinding te maken met de virtuele machine DC1 met behulp van de CORP\\gebruiker1-referenties en voer vervolgens de volgende opdrachten uit op een Windows PowerShell-opdrachtprompt op beheerdersniveau:
   
@@ -278,7 +278,7 @@ Configureer vervolgens de AD FS-service met de volgende stappen:
     
 Maak vanuit de [Azure-portal](https://portal.azure.com) verbinding met PROXY1 met de CORP\\gebruiker1-accountreferenties.
   
-Voer vervolgens deze stappen uit om het zelfondertekende certificaat te installeren en PROXY1 te configureren.
+Voer vervolgens deze stappen uit om het zelfondertekende certificaat te installeren op **zowel PROXY1 als APP1**.
   
 1. Klik op **Start**, typ **mmc.exe** en druk op **Enter**.
     
@@ -387,13 +387,13 @@ Om aan te tonen dat federatieve verificatie werkt:
   
 1. Open een nieuwe privétab van uw browser op uw lokale computer en ga naar [https://admin.microsoft.com](https://admin.microsoft.com).
     
-2. Voor de aanmeldingsreferenties typt u **user1@**\<het domein dat u hebt gemaakt in fase 1>. 
+2. Typ **user1@**\<the domain created in Phase 1> voor de aanmeldingsreferenties. 
     
     Als uw testdomein bijvoorbeeld **testlab.contoso.com** is, typt u 'user1@testlab.contoso.com'. Druk op Tab of laat Microsoft 365 u automatisch omleiden.
     
     U zou nu een pagina moeten zien met **Uw verbinding is niet privé**. U ziet dit omdat u een zelfondertekend certificaat op ADFS1 heeft geïnstalleerd dat uw desktopcomputer niet kan valideren. Bij een productie-implementatie van federatieve verificatie gebruikt u een certificaat van een vertrouwde certificeringsinstantie en zien uw gebruikers deze pagina niet.
     
-3. Klik op de pagina **Uw verbinding is niet privé** op **Geavanceerd** en klik vervolgens op **Doorgaan naar\< uw federatiedienst FQDN>**. 
+3. Klik op de pagina **Uw verbinding is niet privé** op **Geavanceerd** en klik vervolgens op **Doorgaan naar \<your federation service FQDN>**. 
     
 4. Ga op de pagina met de naam van uw fictieve organisatie als volgt te werk:
     

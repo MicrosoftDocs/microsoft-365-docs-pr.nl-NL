@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Leer hoe u de gereedheid van directory en netwerken in de omgeving kunt beoordelen.
-ms.openlocfilehash: b9b2ed38afd77a5dd487b7e319eeee5300a62a25
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 78087b7e0c1cb7031954d3a9ac4188b59879db20
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011649"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679012"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>Stap 2: gereedheid van directory en netwerk
 
@@ -69,7 +69,7 @@ Voor Windows-afbeeldingen zonder aanpassingen moet u normaal gesproken 3 GB per 
 
 U moet de netwerkbandbreedte voor software-updates plannen. Windows 10 en Microsoft 365-apps voor ondernemingen gebruiken een nieuw servicemodel met maandelijkse en halfjaarlijkse updates. Als u nog niet eerder met dit model hebt gewerkt, kunt u [hier](https://docs.microsoft.com/windows/deployment/update/waas-overview) meer lezen over hoe dit werkt.
 
-Het nieuwe servicemodel omvat tweemaal per jaar functie-updates voor Windows, Office halfjaarlijkse kanaalupdates en maandelijkse kwaliteitsupdates. Functie-updates zijn doorgaans 2-4 GB groot en Office halfjaarlijkse kanaalupdates zijn 300-400 MB per update. Dan zijn er de maandelijkse kwaliteitsupdates. Deze variëren van een paar honderd megabyte tot meer dan een gigabyte. Dit komt omdat maandelijkse updates cumulatief zijn, dus deze nemen in omvang toe gedurende de levensduur van elke Windows 10-versie. Dat gezegd hebbende, er zijn hulpprogramma‘s die kunnen helpen de hoeveelheid gegevens te verminderen die over het netwerk moeten gaan om updates te implementeren. Hieronder vindt u meer informatie hierover.
+Het nieuwe servicemodel omvat tweemaal per jaar functie-updates voor Windows, Office halfjaarlijkse ondernemingskanaalupdates en maandelijkse kwaliteitsupdates. Functie-updates zijn doorgaans 2-4 GB en Office halfjaarlijkse ondernemingskanaalupdates zijn 300-400 MB per update. Dan zijn er de maandelijkse kwaliteitsupdates. Deze variëren van een paar honderd megabyte tot meer dan een gigabyte. Dit komt omdat maandelijkse updates cumulatief zijn, dus deze nemen in omvang toe gedurende de levensduur van elke Windows 10-versie. Dat gezegd hebbende, er zijn hulpprogramma‘s die kunnen helpen de hoeveelheid gegevens te verminderen die over het netwerk moeten gaan om updates te implementeren. Hieronder vindt u meer informatie hierover.
 
 ### <a name="user-personalization"></a>Gebruikerspersonalisatie
 

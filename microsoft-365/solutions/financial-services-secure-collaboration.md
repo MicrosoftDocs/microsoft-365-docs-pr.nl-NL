@@ -13,12 +13,12 @@ ms.custom: ''
 localization_priority: Priority
 description: Ontdek hoe u financiële services met Microsoft 365 kunt overzetten naar een modern samenwerkingsplatform, waarbij gegevens en systemen beveiligd blijven conform de regelgeving
 f1.keywords: NOCSH
-ms.openlocfilehash: 24177c6e878116b8d60d8f38be77d0b52141699a
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: 6c6b1c6bbd62e632b79629638aa78630974823df
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214694"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432425"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor Amerikaanse banken en kapitaalmarkten
 
@@ -67,7 +67,7 @@ Teams biedt een samenwerkingsruimte waarin gevoelige klantgegevens veilig kunnen
 
 Een ander algemeen scenario is het gebruik van Teams als 'virtuele gegevensruimte' om veilig samen te werken, waaronder het opslaan en beheren van documenten. Teamleden en syndicaten binnen investeringsbankieren, vermogensbeheer of private-equityfirma's kunnen veilig samenwerken aan een deal of investering. Multifunctionele teams zijn vaak betrokken bij het plannen en uitvoeren van dergelijke deals en de mogelijkheid om veilig gegevens te delen en gesprekken te voeren, is een kernvereiste. Het delen van gerelateerde documenten met externe investeerders is ook een essentiële vereiste. Teams bieden een veilige en volledig controleerbare locatie voor het centraal opslaan, beschermen en delen van investeringsgegevens.
 
-:::image type="content" source="../media/m365cO19-ent-dell-latitude13-5951.jpg" alt-text="Een groep kantoormedewerkers in een vergadering bespreekt afbeeldingen op een groot scherm.":::
+:::image type="content" source="../media/m365cO19-ent-dell-latitude13-5951.jpg" alt-text="Een groep kantoormedewerkers in een vergadering die afbeeldingen op een groot scherm bespreken.":::
  
 ### <a name="teams-improve-collaboration-and-reduce-compliance-risk"></a>Teams: betere samenwerking en minder compliancerisico
 
@@ -99,7 +99,7 @@ De volgende effectieve praktijken worden onder andere door FINRA aanbevolen:
 * Toegestane digitale kanalen duidelijk definiëren en controleren. Zowel goedgekeurde als verboden digitale kanalen definiëren. Het gebruik van verboden digitale kanalen of verboden functies binnen digitale kanalen blokkeren of beperken, die de organisatie belemmeren om te voldoen aan archiefbeheer en toezichtvereisten.
 * Training geven voor digitale communicatie. Verplichte trainingsprogramma's implementeren voordat u geregistreerde vertegenwoordigers toegang geeft tot goedgekeurde digitale kanalen. Met training kunt u de verwachtingen van een organisatie voor zakelijke en persoonlijke digitale communicatie verduidelijken en IT-medewerkers beter begeleiden bij het gebruik van toegestane functies van elk kanaal.
 
-FINRA's conclusies en bevindingen voor digitale communicatie houden rechtstreeks verband met het vermogen van een organisatie om te voldoen aan [SEC-regel 17a-4](https://www.law.cornell.edu/cfr/text/17/240.17a-4) voor het bewaren van alle zakelijke communicatie, FINRA-regels [3110](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3110) en [3120](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3120) voor toezicht op en controle van communicatie en regelserie [4510](https://www.finra.org/rules-guidance/rulebooks/finra-rules/4510) voor het bijhouden van gegevens. De Commodity Futures Trading Commission (FTC) publiceert soortgelijke vereisten onder 17 CFR 131. Deze regelgeving wordt later in dit artikel uitgebreid besproken.
+FINRA's conclusies en bevindingen voor digitale communicatie houden rechtstreeks verband met het vermogen van een organisatie om te voldoen aan [SEC-regel 17a-4](https://www.law.cornell.edu/cfr/text/17/240.17a-4) voor het bewaren van alle zakelijke communicatie, FINRA-regels [3110](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3110) en [3120](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3120) voor toezicht op en controle van communicatie en regelserie [4510](https://www.finra.org/rules-guidance/rulebooks/finra-rules/4510) voor het bijhouden van gegevens. De Commodity Futures Trading Commission (CFTC) kondigt gelijksoortige vereisten aan onder 17 CFR 131. Deze regelgeving wordt later in dit artikel uitgebreid besproken.
 
 ***Teams biedt, samen met de uitgebreide suite beveiligings- en compliancefuncties van Microsoft 365, een digitaal communicatiekanaal voor financiële dienstverleners voor een effectieve bedrijfsvoering en om te voldoen aan regelgeving.*** In de rest van dit artikel wordt beschreven hoe Microsoft 365 ingebouwde mogelijkheden voor recordbeheer, informatiebeveiliging, informatiebarrières en toezichtcontrole Teams een robuuste toolset biedt om te helpen aan deze wettelijke verplichtingen te voldoen.
 

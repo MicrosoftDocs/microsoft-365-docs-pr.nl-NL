@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 11/18/2019
+ms.date: 06/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Hoe een fictieve maar representatieve wereldwijde organisatie Microsoft 365 Enterprise in gebruik heeft genomen.
-ms.openlocfilehash: e623e4a95172432dc790f345b1758afed63e144c
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
+ms.openlocfilehash: dd9bf2dcb7a8bff453746a0084faaf69650bf6fd
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268420"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854256"
 ---
 # <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Microsoft 365 Enterprise voor Contoso Corporation
 
@@ -71,6 +71,10 @@ Zie de volgende artikelen voor meer informatie:
 - [Team voor een zeer geheim project](../solutions/contoso-team-for-top-secret-project.md)
 
   Contoso heeft een team voor sterk gereglementeerde gegevens gebruikt om een veilige samenwerkingsomgeving te creëren met beveiligingsisolatie.
+
+- [Overzicht Teams-spraakmigratie](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview)
+
+  Lees hoe Contoso hun on-premises gebruikers migreerde naar Teams voor geïntegreerde communicatie, samenwerking en spraak.
 
 ## <a name="next-step"></a>Volgende stap
 

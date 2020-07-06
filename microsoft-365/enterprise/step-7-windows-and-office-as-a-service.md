@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees hoe u het onderhoud voor Windows en Office in uw omgeving kunt voorbereiden.
-ms.openlocfilehash: f30581408be1c69d7aec7e31e9b5d6461266adb1
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+ms.openlocfilehash: e9de339c6bc66e5cd3c02af5f6a53c32b7573b1f
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222671"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679000"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>Stap 7: Service van Windows en Office
 
@@ -45,7 +45,7 @@ In zowel Windows 10 als Microsoft 365-apps voor ondernemingen worden nieuwe onde
 
 ## <a name="update-types"></a>Soorten updates
 
-Updates worden onderverdeeld in twee hoofdcategorieën: functie-updates en vervolgens op kwaliteits- en beveiligingsupdates die cumulatieve beveiligings-, betrouwbaarheids- en bugfixes bevatten. Wat de frequentie betreft, hanteren zowel Windows als Office een Semi-annual-kanaal. Nieuwe functies worden twee keer per jaar rond maart en september geleverd, maar de kwaliteits- en de beveiligingsupdates vinden maandelijks plaats. Bovendien bieden we, exclusief voor Office 365-toepassingen, een optie voor een Monthly-kanaal met volledig ondersteuning, waarbij updates zowel nieuwe functies als kwaliteitsupdates bevatten.
+Updates worden onderverdeeld in twee hoofdcategorieën: functie-updates en vervolgens op kwaliteits- en beveiligingsupdates die cumulatieve beveiligings-, betrouwbaarheids- en bugfixes bevatten. Wat de frequentie betreft, hanteren zowel Windows als Office een Semi-annual-kanaal. Nieuwe functies worden twee keer per jaar rond maart en september geleverd, maar de kwaliteits- en de beveiligingsupdates vinden maandelijks plaats. Bovendien bieden we, exclusief voor Office 365-toepassingen, een optie voor een Huidig kanaal met volledig ondersteuning, waarbij updates zowel nieuwe functies als kwaliteitsupdates bevatten.
 
 Als u gewend bent aan een langere cyclus tussen updates voor uw desktopbesturingssysteem en apps, vraagt u zich misschien af:
 
@@ -75,7 +75,7 @@ Met het cumulatieve model bent u altijd met één update weer up-to-date en hier
 
 Een ander voordeel is dat, voordat we de updates voor algemene implementatie uitrollen, deze eerst kunnen worden uitgebracht via de Insider-Programma's voor [Office](https://products.office.com/office-insider?tab=Windows-Desktop) en [Windows](https://insider.windows.com/). Hierdoor kunnen we diagnostische gegevens verzamelen en feedback ontvangen nog voordat we de updates voor iedereen uitbrengen. De Insider-Programma's zijn nu voor iedereen toegankelijk, zodat u de updates al eerder kunt begrijpen. Tegen de tijd dat we updates uitbrengen, hebben we reeds diagnostische gegevens ontvangen van miljoenen configuraties, dus wanneer er updates worden uitgebracht, is de kwaliteit nu aanzienlijk voorspelbaarder
 
-En wat daar nog bij komt, omdat de Monthly-kanaalupdates worden meegenomen in de builds van Microsoft 365-apps voor ondernemingen Insider, als u een Semi-Annual-kanaal voor Office gebruikt om twee keer per jaar de functie-updates te krijgen, kunt u deze builds al vroeg valideren en de gerichte versies van het Semi-Annual-kanaal gebruiken.
+EN nog iets, omdat de Monthly-kanaalupdates worden meegenomen in de builds van Microsoft 365-apps voor ondernemingen Insider, als u een Semi-Annual-kanaal voor Office gebruikt om twee keer per jaar de functie-updates voor Windows te krijgen, kunt u deze builds al vroeg valideren en de releases voor halfjaarlijks ondernemingskanaal (preview) gebruiken.
 
 ### <a name="supporting-management-tools"></a>Ondersteunende beheerprogramma’s
 
@@ -96,9 +96,9 @@ Windows 10 biedt drie servicekanalen:
 Microsoft 365 biedt vier servicekanalen:
 
 - Met het [**Office Insider-programma**](https://products.office.com/office-insider) voor organisaties kunnen zij de nieuwste Office-functies en -functionaliteiten die nog in ontwikkeling zijn, testen en feedback erover geven
-- **Monthly-kanaal** om gebruikers te voorzien van de nieuwste Office-functies zodra deze beschikbaar zijn
-- **Semi-annual-kanaal** biedt slechts tweemaal per jaar nieuwe functies met functie-updates
-- **Semi-annual-kanaal (targeted)** is een volledig ondersteunde build van Office die pilot-gebruikers en testers van toepassingscompatibiliteit de mogelijkheid biedt het volgende Semi-annual-kanaal te testen en te valideren.
+- **Huidig-kanaal** om gebruikers te voorzien van de nieuwste Office-functies zodra deze beschikbaar zijn
+- **Halfjaarlijks ondernemingskanaal** biedt slechts tweemaal per jaar nieuwe functionaliteiten met functie-updates
+- **Halfjaarlijks ondernemingskanaal (preview)** is een volledig ondersteunde build van Office die pilot-gebruikers en testers van toepassingscompatibiliteit de mogelijkheid biedt het aankomende halfjaarlijkse ondernemingskanaal te testen en te valideren
 
 Voor meer informatie over de Windows- en Office-servicekanalen raadpleegt u de onderstaande documentatie:
 
@@ -141,7 +141,7 @@ Wat de tools betreft, kunt u beleidsinstellingen gebruiken bij Windows Update vo
 
 [Semi-annual-kanaal voor Windows](https://docs.microsoft.com/windows/deployment/update/waas-overview#semi-annual-channel)
 
-[Semi-annual-kanaal voor Microsoft 365-apps](https://docs.microsoft.com/DeployOffice/overview-update-channels#BKMK_SAC)
+[Halfjaarlijks ondernemingskanaal voor Microsoft 365-apps](https://docs.microsoft.com/DeployOffice/overview-update-channels#BKMK_SAC)
 
 #### <a name="upgrade-task-sequences"></a>Takenreeksen upgraden
 

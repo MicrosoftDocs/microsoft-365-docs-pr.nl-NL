@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 06/17/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Hoe een fictieve maar representatieve wereldwijde organisatie Microsoft 365-oplossingen heeft geïmplementeerd.
-ms.openlocfilehash: 7d99a936bcfaddb2032b5f077ea95034e275182a
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: dc9fcf667b31af0ab3db9006f545b1f33e091639
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159489"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854280"
 ---
 # <a name="microsoft-365-solutions-for-the-contoso-corporation"></a>Microsoft 365-oplossingen voor Contoso Corporation
 
@@ -31,4 +31,9 @@ Het algehele doel van Contoso voor Microsoft 365 Enterprise is hun digitale tran
 
 Lees eerst over [Contoso Corporation](../enterprise/contoso-overview.md), hun wereldwijde kantoren en de ontwerpoverwegingen bij de implementatie van Microsoft 365 Enterprise.
 
-Zie vervolgens [dit artikel](contoso-team-for-top-secret-project.md) voor meer informatie over hoe Contoso een geïsoleerd team voor een zeer geheim project heeft geïmplementeerd.
+Zie vervolgens hoe Contoso Microsoft 365 heeft gebruikt voor deze oplossingen en scenario's:
+
+- [Geïsoleerd team voor een uiterst geheim project](contoso-team-for-top-secret-project.md)
+
+- [Migratie van hun on-premises gebruikers naar Teams voor geïntegreerde communicatie, samenwerking en spraak](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview)
+
