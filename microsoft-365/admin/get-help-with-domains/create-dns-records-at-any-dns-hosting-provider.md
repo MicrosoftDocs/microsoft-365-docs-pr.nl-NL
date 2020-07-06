@@ -1,7 +1,7 @@
 ---
-title: DNS-records maken bij een DNS-hostingprovider
+title: DNS-records toevoegen om het domein te verbinden
 f1.keywords:
-- NOCSH
+- CSH
 ms.author: pebaum
 author: pebaum
 manager: mnirkhe
@@ -15,423 +15,133 @@ ms.collection:
 - Adm_TOC
 - Adm_O365_Setup
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-- GEA150
-ms.assetid: 7b7b075d-79f9-4e37-8a9e-fb60c1d95166
 description: Lees hier hoe u uw domein kunt verifiëren en DNS-records kunt maken bij een DNS-hostingprovider voor Microsoft 365.
-ms.custom: okr_smb
-ms.openlocfilehash: 2cf28cdd3cc2f85e448d512e72f5b022177e8f1e
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.custom:
+- okr_smb
+- AdminSurgePortfolio
+ms.openlocfilehash: a9809dda90bc9eb4a8241f94f48f7f7842df9af9
+ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053718"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44419122"
 ---
-# <a name="create-dns-records-at-any-dns-hosting-provider"></a>DNS-records maken bij een DNS-hostingprovider
+# <a name="add-dns-records-to-connect-your-domain"></a>DNS-records toevoegen om het domein te verbinden
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
-  
-Bekijk onze lijst met [hostspecifieke instructies](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions) om uw host te vinden en volg de stappen om alle records toe te voegen die u nodig hebt. 
-  
-Als u niet weet wie de DNS-hostingprovider of domeinregistrar voor uw domein is, raadpleegt u [Zoeken naar uw domeinregistrar of DNS-hostingprovider](../get-help-with-domains/find-your-domain-registrar.md).
-  
-Als u de records zelf wilt instellen, moet u deze records toevoegen. Houd er rekening mee dat uw verificatierecord en MX-record uniek zijn voor uw domein. Om die in te stellen, moet u een specifieke ‘token’-waarde ophalen en gebruiken voor uw domein. In de onderstaande stappen wordt uitgelegd hoe u dit doet.
-  
-> [!IMPORTANT]
-> De exacte naam van de vakken of *velden* waarin u de gegevens typt of plakt voor het maken van elk type DNS-record, zijn anders voor elke DNS-host. Mogelijk heeft uw DNS-host Help-informatie op zijn website om u te helpen bij het toewijzen van de instructies, die hier worden weergegeven, aan de juiste velden op de website. Controleer in [DNS-records maken voor Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) of we stapsgewijze instructies hebben voor uw DNS-host. > Bepaalde DNS-hosts staan niet toe dat u alle vereiste recordtypen maakt. Dit [zorgt voor servicebeperkingen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) in Microsoft 365. Als bijvoorbeeld de host van uw domein SRV-, TXT- of CNAME-records niet ondersteunt, raden we u aan dat u [uw domein overbrengt](../get-help-with-domains/buy-a-domain-name.md) naar een DNS-host die wel alle vereiste records ondersteunt. We raden aan dat u uw domein overbrengt naar GoDaddy voor een snel en geautomatiseerd proces voor het instellen van Microsoft 365. 
-  
-> [!NOTE]
-> Het duurt gewoonlijk maar een paar minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen vinden en oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
-  
-## <a name="add-a-txt-or-mx-record-for-verification"></a>Een TXT- of MX-record toevoegen voor verificatie
-<a name="BKMK_verify"> </a>
+Als u een domein hebt aangeschaft bij een externe hostingprovider, kunt u dit verbinden met Microsoft 365 door de DNS-records bij te werken in het account van uw registrar.
 
-> [!NOTE]
-> U hoeft standaard slechts een van deze records te maken. De voorkeur gaat uit naar het recordtype TXT, maar deze wordt niet door alle DNS-hostingproviders ondersteund. In dat geval kunt u in plaats hiervan een MX-record maken. 
-  
-Voordat u uw domein met Microsoft 365 kunt gaan gebruiken, moet worden gecontroleerd dat u de eigenaar bent van het domein. Als u zich bij uw account bij de domeinregistrar kunt aanmelden en de DNS-record kunt maken, is dit voor Microsoft 365 bewezen.
-  
-> [!NOTE]
-> Deze record wordt alleen gebruikt om te verifiëren dat u de eigenaar van uw domein bent. Dit heeft verder geen invloed. U kunt deze record later desgewenst verwijderen. 
-  
- **Zoek het gedeelte op de website van uw DNS-hostingprovider waar u een nieuwe record kunt maken.**
-  
-1. Meld u aan bij de website van uw DNS-hostingprovider.
-    
-2. Selecteer uw domein.
-    
-3. Zoek de pagina waarop u DNS-records voor uw domein kunt bewerken.
-    
- **Maak de record.**
-  
-1. Voer een van de volgende handelingen uit, afhankelijk van of u een TXT-record of een MX-record maakt:
-    
-   - **Als u een TXT-record maakt, gebruikt u deze waarden:**
-    
-      |||||
-      |:-----|:-----|:-----|:-----|
-      |**Recordtype**|**Alias** of **Hostnaam**|**Waarde**|**TTL**|
-      |TXT|Voer een van de volgende handelingen uit: Typ **@** of laat het veld leeg, of typ de naam van uw domein.  <br/> **Let op:** Verschillende DNS-hosts hebben verschillende vereisten voor dit veld. |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365.  <br/>        [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)     <br/>     |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort.  |
-   
-   - **Als u een MX-record maakt, gebruikt u deze waarden:**
-    
-      ||||||
-      |:-----|:-----|:-----|:-----|:-----|
-      |**Recordtype**|**Alias** of **Hostnaam**|**Value**|**Priority**|**TTL**|
-      |MX|Typ **@** of uw domeinnaam. |MS=ms *XXXXXXXX* <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Office 365.    <br/>       [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)     <br/>     |Gebruik een lagere prioriteit dan de prioriteit voor bestaande MX-records voor **Prioriteit** om conflicten met de MX-record voor de e-mailstroom te voorkomen. <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort. |
-   
-2. Sla de record op.
-    
-Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug naar Microsoft 365 en vraagt u of Microsoft 365 naar de record wil zoeken.
-  
-Wanneer in Microsoft 365 de juiste TXT-record is gevonden, is uw domein gecontroleerd.
-  
-1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
-    
-2. Kies op de pagina **Domeinen** de naam van het domein dat u verifieert. 
-  
-3. Kies **Start setup** op de pagina **Setup**.
-       
-4. Kies **Verifiëren** op de pagina **Domein verifiëren**.   
-  
-> [!NOTE]
->  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
-  
-## <a name="add-mx-record-to-route-email"></a>MX-record toevoegen om e-mail te routeren
-<a name="BKMK_add_MX"> </a>
+Na het doorlopen van dit stappenproces blijft uw domein geregistreerd bij de host waar u het domein hebt gekocht, maar Microsoft 365 kan het gebruiken voor e-mailadressen (zoals user@yourdomain.com) en andere services.
 
-Voeg een MX-record toe zodat e-mail voor uw domein naar Microsoft 365 wordt verzonden.  *Wanneer u de MX-record van uw domein bijwerkt, wordt alle nieuwe e-mail voor iedereen die uw domein gebruikt, verzonden naar Microsoft 365*. Elk e-mailbericht dat u al hebt, blijft bij uw huidige e-mailhost, tenzij u besluit [e-mail en contactpersonen te migreren naar Microsoft 365](../setup/migrate-email-and-contacts-admin.md).
+Als u geen domein toevoegt, maken de mensen in uw organisatie gebruik van het domein onmicrosoft.com voor hun e-mailadressen, totdat u dit wel doet. Het is belangrijk om een domein toe te voegen voordat u gebruikers toevoegt, zodat u die niet tweemaal hoeft in te stellen.
 
- **Taak**
-  
-De pagina zoeken waarop u records voor uw domein kunt maken.
-  
-1. Meld u aan bij de website van uw DNS-host.
-    
-2. Selecteer uw domein.
-    
-3. Zoek de pagina waarop u DNS-records voor uw domein kunt bewerken.
-    
-::: moniker range="o365-worldwide"
+[Raadpleeg Veelgestelde vragen over domeinen](../setup/domains-faq.md) als u hieronder niet kunt vinden wat u zoekt.
 
-  De MX-record die u toevoegt, bevat een waarde (de waarde **Adres waarnaar wordt verwezen**) die er ongeveer zo uitziet: \<MX token\>.mail.protection.outlook.com, waarbij \<MX-token\> een waarde is zoals MSxxxxxxx. 
+## <a name="step-1-add-a-txt-record-to-verify-you-own-the-domain"></a>Stap 1: Voeg een TXT-record toe om te verifiëren dat u eigenaar van het domein bent
 
-::: moniker-end
+Eerst moet u bewijzen dat u de eigenaar bent van het domein dat u wilt toevoegen aan Microsoft 365.
 
-::: moniker range="o365-germany"
+1. Meld u aan bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com/) en selecteer **Alles weergeven** > **Instellingen** > **Domeinen**.
+2. In een nieuw browsertabblad of -venster meldt u zich aan bij uw DNS-hostingprovider en vervolgens gaat u naar de locatie waar u de DNS-instellingen kunt beheren (bijv. Instellingen zonebestand, Beheer domeinen, Domeinbeheer, DNS-beheer).
+3. Ga naar de pagina DNS-beheer van uw provider en voeg de TXT-record die in het Beheercentrum wordt weergegeven toe aan uw domein.
 
-  De MX-record die u toevoegt, bevat een waarde (de waarde **Adres waarnaar wordt verwezen**) die er ongeveer zo uitziet: \<<MX token\>.mail.protection.outlook.de, waarbij \<MX-token\> een waarde is zoals MSxxxxxxx. 
+Het toevoegen van deze record is niet van invloed op uw bestaande e-mail- of andere services en u kunt deze veilig verwijderen als uw domein eenmaal is verbonden met Microsoft 365.
 
-::: moniker-end
+Voorbeeld:
+- TXT-naam: `@`
+- TXT-waarde: MS=ms######## (unieke ID uit het Beheercentrum)
+- TTL: `3600‎` (of de standaardwaarde van uw provider)
 
-4. Voeg op de website van uw DNS-host een nieuwe MX-record toe.
-    
-    Nu krijgt u [de informatie voor de MX-record](../get-help-with-domains/information-for-dns-records.md) van Microsoft 365. 
-    
-5. Voor de MX-record (in de stap hierboven) kopieert u de waarde **Adres waarnaar wordt verwezen**. 
-    
-    U gebruikt deze waarde in de record die u op de site van uw DNS-host maakt, zoals wordt beschreven in de volgende stap.
-    
-6. Controleer in de nieuwe MX-record op de site van uw DNS-host of de velden zijn ingesteld op precies de volgende waarden:
-    
-   - **Recordtype**: **MX**
-    
-   - **Prioriteit**: Stel de prioriteit in van de MX-record op de hoogst beschikbare waarde, meestal **0**.
-    
-      Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.
-    
-   - **Host Name**: **@**
-    
-   - **Adres waarnaar wordt verwezen**: Plak hier de waarde van het **Adres waarnaar wordt verwezen** die u zojuist uit Microsoft 365 hebt gekopieerd. 
-    
-   - **TTL**: Stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**) enzovoort. 
-    
-7. Sla de record op.
-    
-Verwijder eventuele andere MX-records.
-  
-Als er MX-records voor dit domein aanwezig zijn waarmee e-mail ergens anders dan naar Microsoft 365 wordt verzonden, moet u ze allemaal verwijderen.
-  
-## <a name="add-three-cname-records"></a>Drie CNAME-records toevoegen
-<a name="BKMK_add_MX"> </a>
+4. Sla de record op, ga terug naar het Beheercentrum en selecteer vervolgens **Verifiëren**. Het duurt ongeveer 15 minuten voordat recordwijzigingen zijn doorgevoerd, maar soms kan het langer duren. Wacht even en probeer het een aantal keer totdat de wijziging is doorgevoerd.
 
-::: moniker range="o365-worldwide"
-
-Volg onderstaande stappen om de drie CNAME-records toe te voegen die zijn vereist voor Microsoft 365. Als er extra CNAME-records worden weergegeven in Microsoft 365, voegt u die toe aan de hand van dezelfde algemene stappen die hier worden weergegeven.
-  
-Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één voor één.
-  
-1. Typ of kopieer en plak de volgende waarden in de vakken voor elke nieuwe record. Nadat u elk van de eerste drie nieuwe records hebt toegevoegd, kiest u om nog een CNAME-record te maken.
-    
-      |||||
-      |:-----|:-----|:-----|:-----|
-      |**Recordtype** <br/> |**Host** <br/> |**Verwijst naar** <br/> |**TTL** <br/> |
-      |CNAME (alias)  <br/> |autodiscover  <br/> |autodiscover.outlook.com  <br/> |1 uur  <br/> |
-      |CNAME (alias)  <br/> |lyncdiscover  <br/> |webdir.online.lync.com  <br/> |1 uur  <br/> |
-      |CNAME (alias)  <br/> |sip  <br/> |sipdir.online.lync.com  <br/> |1 uur  <br/> |
-   
-   > [!NOTE]
-   > Voor **TTL**: Stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**) enzovoort. > Deze records zijn niet van toepassing op Exchange-, Lync- of Skype voor bedrijven-hybride implementaties. 
-  
-2. Sla de records op als u klaar bent.
-    
-::: moniker-end
-::: moniker range="o365-germany"
-
-Volg onderstaande stappen om de drie CNAME-records toe te voegen die zijn vereist voor Microsoft 365. Als er extra CNAME-records worden weergegeven in Microsoft 365, voegt u die toe aan de hand van dezelfde algemene stappen die hier worden weergegeven.
-  
-Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één voor één.
-  
-1. Typ of kopieer en plak de volgende waarden in de vakken voor elke nieuwe record. Nadat u elk van de eerste drie nieuwe records hebt toegevoegd, kiest u om nog een CNAME-record te maken.
-    
-    |||||
-    |:-----|:-----|:-----|:-----|
-    |**Recordtype** <br/> |**Host** <br/> |**Verwijst naar** <br/> |**TTL** <br/> |
-    |CNAME (alias)  <br/> |autodiscover  <br/> |autodiscover-outlook.office.de  <br/> |1 uur  <br/> |
-    |CNAME (alias)  <br/> |lyncdiscover  <br/> |webdir.online.skype.de  <br/> |1 uur  <br/> |
-    |CNAME (alias)  <br/> |sip  <br/> |sipdir.online.lync.de  <br/> |1 uur  <br/> |
-   
-     > [!NOTE]
-     > Voor **TTL**: Stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**) enzovoort. > Deze records zijn niet van toepassing op Exchange-, Lync- of Skype voor bedrijven-hybride implementaties. 
-  
-2. Sla de records op als u klaar bent.
-    
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-Volg onderstaande stappen om de drie CNAME-records toe te voegen die zijn vereist voor Microsoft 365. Als er extra CNAME-records worden weergegeven in Microsoft 365, voegt u die toe aan de hand van dezelfde algemene stappen die hier worden weergegeven.
-  
-Op de website van uw DNS-host maakt u drie nieuwe CNAME-records, meestal één voor één.
-  
-1. Typ of kopieer en plak de volgende waarden in de vakken voor elke nieuwe record. Nadat u elk van de eerste drie nieuwe records hebt toegevoegd, kiest u om nog een CNAME-record te maken.
-    
-    |||||
-    |:-----|:-----|:-----|:-----|
-    |**Recordtype** <br/> |**Host** <br/> |**Verwijst naar** <br/> |**TTL** <br/> |
-    |CNAME (alias)  <br/> |autodiscover  <br/> |autodiscover.partner.outlook.cn  <br/> |1 uur  <br/> |
-    |CNAME (alias)  <br/> |lyncdiscover  <br/> |webdir.online.partner.lync.cn  <br/> |1 uur  <br/> |
-    |CNAME (alias)  <br/> |sip  <br/> |sipdir.online.partner.lync.cn  <br/> |1 uur  <br/> |
-   
-     > [!NOTE]
-     > Voor **TTL**: Stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**) enzovoort. > Deze records zijn niet van toepassing op Exchange-, Lync- of Skype voor bedrijven-hybride implementaties. 
-  
-2. Sla de records op als u klaar bent.
-    
-::: moniker-end
-
-## <a name="add-two-cname-records-for-mobile-device-management-mdm-for-microsoft-365"></a>Twee CNAME-records voor MDM (Mobile Device Management) voor Microsoft 365 toevoegen
-<a name="BKMK_add_MX"> </a>
-
-::: moniker range="o365-worldwide"
-
-> [!IMPORTANT]
-> Als u Mobile Device Management (MDM) voor Microsoft 365 hebt, moet u twee extra CNAME-records maken. Volg de stappen die u hebt gevolgd voor de andere vier CNAME-records, maar gebruik de waarden uit de volgende tabel. > (Als u geen MDM hebt, kunt u deze stap overslaan.) 
-  
-   |||||
-   |:-----|:-----|:-----|:-----|
-   |**Recordtype** <br/> |**Host** <br/> |**Verwijst naar** <br/> |**TTL** <br/> |
-   |CNAME (alias)  <br/> |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |1 uur  <br/> |
-   |CNAME (alias)  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment.manage.microsoft.com  <br/> |1 uur  <br/> |
-   
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-> [!IMPORTANT]
-> Als u Mobile Device Management (MDM) voor Microsoft 365 hebt, moet u twee extra CNAME-records maken. Volg de stappen die u hebt gevolgd voor de andere vier CNAME-records, maar gebruik de waarden uit de volgende tabel. > (Als u geen MDM hebt, kunt u deze stap overslaan.) 
-  
-   |||||
-   |:-----|:-----|:-----|:-----|
-   |**Recordtype** <br/> |**Host** <br/> |**Verwijst naar** <br/> |**TTL** <br/> |
-   |CNAME (alias)  <br/> |enterpriseregistration  <br/> |enterpriseregistration.microsoftonline.de  <br/> |1 uur  <br/> |
-   |CNAME (alias)  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |1 uur  <br/> |
-   
-::: moniker-end
-
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Een TXT-record voor SPF toevoegen om spam tegen te gaan
-<a name="BKMK_add_MX"> </a>
-
-::: moniker range="o365-worldwide"
-
-> [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe voor Microsoft 365 te maken. In plaats daarvan voegt u de vereiste Microsoft 365-waarden toe aan de huidige record, zodat u beschikt over  *één*  SPF-record waarin beide sets waarden zijn opgenomen.
-  
-Op de website van uw DNS-host, bewerkt u de bestaande SPF-record of maakt u een nieuwe TXT-record voor SPF.
-  
-> [!IMPORTANT]
-> SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Microsoft 365 configureren. Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Microsoft 365](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx). Zie vervolgens [DMARC gebruiken om e-mail in Microsoft 365 te valideren](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx). 
-  
-1. Typ of kopieer en plak in de vakken voor de nieuwe record de verzameling waarden hieronder die op uw situatie van toepassing zijn.
-    
-    |||||
-    |:-----|:-----|:-----|:-----|
-    |**Recordtype** <br/> |**Host** <br/> |**TXT-waarde** <br/> |**TTL** <br/> |
-    |TXT (Text)  <br/> |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |1 uur  <br/> |
-   
-    Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
-    
-2. Sla de record op als u klaar bent.
-    
-3. Voor het valideren van uw SPF-record gebruikt u een van deze [SPF-validatiehulpmiddelen](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-> [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe voor Microsoft 365 te maken. In plaats daarvan voegt u de vereiste Microsoft 365-waarden toe aan de huidige record, zodat u beschikt over  *één*  SPF-record waarin beide sets waarden zijn opgenomen. 
-  
-Op de website van uw DNS-host, bewerkt u de bestaande SPF-record of maakt u een nieuwe TXT-record voor SPF.
-  
-> [!IMPORTANT]
-> SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Microsoft 365 configureren. Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Microsoft 365](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx). Zie vervolgens [DMARC gebruiken om e-mail in Microsoft 365 te valideren](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx). 
-  
-1. Typ of kopieer en plak in de vakken voor de nieuwe record de verzameling waarden hieronder die op uw situatie van toepassing zijn.
-    
-    |||||
-    |:-----|:-----|:-----|:-----|
-    |**Recordtype**|**Host**|**TXT-waarde**|**TTL**|
-    |TXT (Text)|@|v=spf1 include:spf.protection.outlook.de -all <br/>  Het is raadzaam dit item te kopiëren en te plakken, zodat alle spatiëring ongewijzigd blijft.           |1 uur|
-   
-    Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
-    
-2. Sla de record op als u klaar bent.
-    
-3. Voor het valideren van uw SPF-record gebruikt u een van deze [SPF-validatiehulpmiddelen](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
-    
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-> [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe voor Microsoft 365 te maken. In plaats daarvan voegt u de vereiste Microsoft 365-waarden toe aan de huidige record, zodat u beschikt over  *één*  SPF-record waarin beide sets waarden zijn opgenomen. 
-  
-Op de website van uw DNS-host, bewerkt u de bestaande SPF-record of maakt u een nieuwe TXT-record voor SPF.
-  
-> [!IMPORTANT]
-> SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Microsoft 365 configureren. Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Microsoft 365](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx). Zie vervolgens [DMARC gebruiken om e-mail in Microsoft 365 te valideren](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx). 
-  
-1. Typ of kopieer en plak in de vakken voor de nieuwe record de verzameling waarden hieronder die op uw situatie van toepassing zijn.
-    
-    |||||
-    |:-----|:-----|:-----|:-----|
-    |**Recordtype**|**Host**|**TXT-waarde**|**TTL**|
-    |TXT (Text)|@|v=spf1 include:spf.protection.partner.outlook.cn -all> [!NOTE]> Het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |1 uur|
-   
-    Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
-    
-2. Sla de record op als u klaar bent.
-    
-3. Voor het valideren van uw SPF-record gebruikt u een van deze [SPF-validatiehulpmiddelen](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
-    
-::: moniker-end
-
-## <a name="add-two-srv-records"></a>Twee SRV-records toevoegen
-<a name="BKMK_add_MX"> </a>
-
-::: moniker range="o365-worldwide"
-
-Op de website van uw DNS-host maakt u twee nieuwe SRV-records, meestal één voor één. Dit houdt in dat u na het toevoegen van de eerste nieuwe record via de website aangeeft dat u nog een SRV-record wilt maken.
-  
-1. Typ of kopieer en plak de volgende waarden in de vakken voor elke nieuwe record. **(Zie onderstaande opmerkingen voor het maken van SRV-records maken wanneer uw DNS-host deze niet allemaal als afzonderlijke velden heeft.)**
-    
-    ||||||||||
-    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |**Recordtype** <br/> |**Naam** <br/> |**Doel** <br/> |**Protocol** <br/> |**Service** <br/> |**Prioriteit** <br/> |**Gewicht** <br/> |**Poort** <br/> |**TTL** <br/> |
-    |SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipdir.online.lync.com  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |1  <br/> |443  <br/> |1 uur  <br/> |
-    |SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipfed.online.lync.com  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |1  <br/> |5061  <br/> |1 uur  <br/> |
-   
-    > [!NOTE]
-    >  Voor **Naam**: als uw DNS-host niet toestaat dat u dit instelt op **@**, laat u dit vak leeg.  Gebruik deze methode *alleen* wanneer uw DNS-host afzonderlijke velden voor de waarden Service en Protocol heeft. Raadpleeg anders onderstaande opmerkingen bij Service en Protocol. 
-    > 
-    >  Voor **Service** en **Protocol**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u de waarden voor **Service** en **Protocol** op als de waarde **Naam** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Naam** anders heten, als **Host**, **Hostnaam** of **Subdomein**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een punt.  Bijvoorbeeld: **Naam**: _sip._tls 
-    > 
-    >  Voor **Prioriteit**, **Gewicht** en **Poort**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u ze op als de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een spatie en sluit u af met een punt. De waarden moeten in de volgende volgorde worden opgenomen: Prioriteit, Gewicht, Poort, Doel. Bijvoorbeeld: **Doel**: 100 1 443 sipdir.online.lync.com. 
-    > 
-    >  Variatie voor **Prioriteit**, **Gewicht** en **Poort**: sommige DNS-host bieden enkele, maar niet alle vereiste velden apart. Voor deze DNS-hostsites host geeft u de waarden die niet afzonderlijk worden weergegeven als een gecombineerde tekenreeks op, in de juiste volgorde, bij de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks voor de velden die niet afzonderlijk worden weergegeven, waarin de waarden van elkaar zijn gescheiden door spaties. De waarden moeten worden opgenomen *in de juiste volgorde*, waarbij waarden waarvoor afzonderlijke velden beschikbaar zijn, worden weggelaten: Prioriteit, Gewicht, Poort, Doel. Wanneer er voor Prioriteit bijvoorbeeld een apart veld is, voegt u alleen de waarden voor Gewicht, Poort en Doel samen: **Doel**: 1 443 sipdir.online.lync.com 
-    > 
-    > Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
-  
-2. Sla de records op als u klaar bent.
-    
-    > [!NOTE]
-    >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
-  
-::: moniker-end
+Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleerd.
 
 
-::: moniker range="o365-germany"
+## <a name="step-2-add-dns-records-to-connect-microsoft-services"></a>Stap 2: DNS-records toevoegen om Microsoft-services te verbinden
 
-Op de website van uw DNS-host maakt u twee nieuwe SRV-records, meestal één voor één. Dit houdt in dat u na het toevoegen van de eerste nieuwe record via de website aangeeft dat u nog een SRV-record wilt maken.
-  
-1. Typ of kopieer en plak de volgende waarden in de vakken voor elke nieuwe record. **(Zie onderstaande opmerkingen voor het maken van SRV-records maken wanneer uw DNS-host deze niet allemaal als afzonderlijke velden heeft.)**
-    
-    ||||||||||
-    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |**Recordtype** <br/> |**Naam** <br/> |**Doel** <br/> |**Protocol** <br/> |**Service** <br/> |**Prioriteit** <br/> |**Gewicht** <br/> |**Poort** <br/> |**TTL** <br/> |
-    |SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipdir.online.lync.de  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |1  <br/> |443  <br/> |1 uur  <br/> |
-    |SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipfed.online.lync.de  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |1  <br/> |5061  <br/> |1 uur  <br/> |
-   
-    > [!NOTE]
-    >  Voor **Naam**: als uw DNS-host niet toestaat dat u dit instelt op **@**, laat u dit vak leeg.  Gebruik deze methode *alleen* wanneer uw DNS-host afzonderlijke velden voor de waarden Service en Protocol heeft. Raadpleeg anders onderstaande opmerkingen bij Service en Protocol. 
-    > 
-    >  Voor **Service** en **Protocol**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u de waarden voor **Service** en **Protocol** op als de waarde **Naam** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Naam** anders heten, als **Host**, **Hostnaam** of **Subdomein**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een punt. >  Bijvoorbeeld: **Naam**: _sip._tls 
-    > 
-    >  Voor **Prioriteit**, **Gewicht** en **Poort**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u ze op als de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een spatie en sluit u af met een punt. De waarden moeten in de volgende volgorde worden opgenomen: Prioriteit, Gewicht, Poort, Doel. >  Bijvoorbeeld: **Doel**: 100 1 443 sipdir.online.lync.de. 
-    > 
-    >  Variatie voor **Prioriteit**, **Gewicht** en **Poort**: sommige DNS-host bieden enkele, maar niet alle vereiste velden apart. Voor deze DNS-hostsites host geeft u de waarden die niet afzonderlijk worden weergegeven als een gecombineerde tekenreeks op, in de juiste volgorde, bij de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks voor de velden die niet afzonderlijk worden weergegeven, waarin de waarden van elkaar zijn gescheiden door spaties. De waarden moeten worden opgenomen *in de juiste volgorde*, waarbij waarden waarvoor afzonderlijke velden beschikbaar zijn, worden weggelaten: Prioriteit, Gewicht, Poort, Doel. >  Wanneer er voor Prioriteit bijvoorbeeld een apart veld is, voegt u alleen de waarden voor Gewicht, Poort en Doel samen: **Doel**: 1 443 sipdir.online.lync.de 
-    > 
-    >  Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
-  
-2. Sla de records op als u klaar bent.
-    
-    > [!NOTE]
-    >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
-  
-::: moniker-end
+In een nieuw browsertabblad of -venster meldt u zich aan bij uw DNS-hostingprovider en gaat u naar de locatie waar u de DNS-instellingen kunt beheren (bijv. Instellingen zonebestand, Beheer domeinen, Domeinbeheer, DNS-beheer).
+
+Afhankelijk van de services die u wilt inschakelen, kunt u verschillende typen DNS-records toevoegen. 
+
+### <a name="add-an-mx-record-for-email-outlook-exchange-online"></a>Een MX-record toevoegen voor e-mail (Outlook, Exchange Online)
+**Voordat u begint:** als gebruikers al een e-mailadres hebben met uw domein (zoals user@yourdomain.com), kunt u hun accounts aanmaken in het Beheercentrum voordat u de MX-records instelt. Op die manier blijven ze e-mail ontvangen. Wanneer u de MX-record van uw domein bijwerkt, wordt alle nieuwe e-mail voor iedereen die uw domein gebruikt, verzonden naar Microsoft 365. Elk e-mailbericht dat u al hebt, blijft bij uw huidige e-mailhost, tenzij u besluit [e-mail en contactpersonen te migreren naar Microsoft 365](../setup/migrate-email-and-contacts-admin.md).
+
+U ontvangt de informatie voor de MX-record via de domeininstallatiewizard in Beheercentrum.
+
+Voeg een nieuwe MX-record toe op de website van de hostingprovider.
+Zorg dat de velden zijn ingesteld op de volgende waarden:
+
+- Recordtype: `MX`
+- Prioriteit: instellen op de hoogst beschikbare waarde, meestal `0`.
+- Hostnaam: `@`
+- Verwijst naar adres: kopieer de waarde uit het Beheercentrum en plak deze hier.
+- TTL: `3600‎` (of de standaardwaarde van uw provider)
+
+Sla de record op en verwijder vervolgens alle andere MX-records.
+
+### <a name="add-cname-records-to-connect-other-services-teams-exchange-online-aad-mdm"></a>Voeg CNAME-records toe om andere services te verbinden (Teams, Exchange Online, AAD, MDM)
+U ontvangt de informatie voor de CNAME-records via de domeininstallatiewizard in Beheercentrum.
+
+Voeg op de website van de hostingprovider CNAME-records toe voor elke service die u wilt verbinden.
+Zorg dat de velden zijn ingesteld op de volgende waarden voor elk:
+
+- Recordtype: `CNAME (Alias)`
+- Host: plak hier de waarden die u kopieert vanuit Beheercentrum.
+- Verwijst naar adres: kopieer de waarde uit het Beheercentrum en plak deze hier.
+- TTL: `3600‎` (of de standaardwaarde van uw provider)
 
 
-::: moniker range="o365-21vianet"
+### <a name="add-or-edit-an-spf-txt-record-to-help-prevent-email-spam-outlook-exchange-online"></a>Een SPF TXT-record toevoegen of bewerken om spam te helpen voorkomen (Outlook, Exchange Online)
+**Voordat u begint:** als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe voor Microsoft 365 aan te maken. In plaats daarvan voegt u de vereiste Microsoft 365-waarden toe aan de huidige record op de website van de hostingprovider, zodat u beschikt over *één* enkel SPF-record waarin beide waardensets zijn opgenomen.
 
-Op de website van uw DNS-host maakt u twee nieuwe SRV-records, meestal één voor één. Dit houdt in dat u na het toevoegen van de eerste nieuwe record via de website aangeeft dat u nog een SRV-record wilt maken.
-  
-1. Typ of kopieer en plak de volgende waarden in de vakken voor elke nieuwe record. **(Zie onderstaande opmerkingen voor het maken van SRV-records maken wanneer uw DNS-host deze niet allemaal als afzonderlijke velden heeft.)**
-    
-    ||||||||||
-    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |**Recordtype** <br/> |**Naam** <br/> |**Doel** <br/> |**Protocol** <br/> |**Service** <br/> |**Prioriteit** <br/> |**Gewicht** <br/> |**Poort** <br/> |**TTL** <br/> |
-    |SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipdir.online.partner.lync.cn  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |1  <br/> |443  <br/> |1 uur  <br/> |
-    |SRV (service)  <br/> |@  <br/> (Of laat leeg als @ is niet toegestaan)  <br/> |sipfed.online.partner.lync.cn  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |1  <br/> |5061  <br/> |1 uur  <br/> |
-   
-    > [!NOTE]
-    >  Voor **Naam**: als uw DNS-host niet toestaat dat u dit instelt op **@**, laat u dit vak leeg.  Gebruik deze methode *alleen* wanneer uw DNS-host afzonderlijke velden voor de waarden Service en Protocol heeft. Raadpleeg anders onderstaande opmerkingen bij Service en Protocol. 
-    > 
-    >  Voor **Service** en **Protocol**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u de waarden voor **Service** en **Protocol** op als de waarde **Naam** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Naam** anders heten, als **Host**, **Hostnaam** of **Subdomein**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een punt. >  Bijvoorbeeld: **Naam**: _sip._tls 
-    > 
-    >  Voor **Prioriteit**, **Gewicht** en **Poort**: als uw DNS-host niet in deze velden voor SRV-records voorziet, geeft u ze op als de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks, waarin de waarden van elkaar zijn gescheiden door een spatie en sluit u af met een punt. De waarden moeten in de volgende volgorde worden opgenomen: Prioriteit, Gewicht, Poort, Doel. >  Bijvoorbeeld: **Doel**: 100 1 443 sipdir.online.partner.lync.cn. 
-    > 
-    >  Variatie voor **Prioriteit**, **Gewicht** en **Poort**: sommige DNS-host bieden enkele, maar niet alle vereiste velden apart. Voor deze DNS-hostsites host geeft u de waarden die niet afzonderlijk worden weergegeven als een gecombineerde tekenreeks op, in de juiste volgorde, bij de waarde **Doel** van de record. (Opmerking: Afhankelijk van uw DNS-host kan het veld **Doel** anders heten, als **Inhoud**, **IP-adres** of **Doelhost**.) Voor het instellen van de gecombineerde waarde maakt u één tekenreeks voor de velden die niet afzonderlijk worden weergegeven, waarin de waarden van elkaar zijn gescheiden door spaties. De waarden moeten worden opgenomen *in de juiste volgorde*, waarbij waarden waarvoor afzonderlijke velden beschikbaar zijn, worden weggelaten: Prioriteit, Gewicht, Poort, Doel. >  Wanneer er voor Prioriteit bijvoorbeeld een apart veld is, voegt u alleen de waarden voor Gewicht, Poort en Doel samen: **Doel**: 1 443 sipdir.online.partner.lync.cn 
-    > 
-    >  Voor **TTL**: stel deze waarde in op **1 uur** of op het equivalent in minuten (**60**), seconden (**3600**), enzovoort. 
-  
-2. Sla de records op als u klaar bent.
-    
-    > [!NOTE]
-    >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
-  
-::: moniker-end
+Op de website van de hostingprovider bewerkt u de bestaande SPF-record of maakt u een nieuwe SPF-record aan.
+Zorg dat de velden zijn ingesteld op de volgende waarden:
 
-## <a name="more-about-updating-dns-records"></a>Meer informatie over het bijwerken van DNS-records
-<a name="BKMK_MoreAbout"> </a>
+- Recordtype: `TXT (Text)`
+- Host: `@`
+- TXT-waarde: `v=spf1 include:spf.protection.outlook.com -all`
+- TTL: `3600‎` (of de standaardwaarde van uw provider)
 
- **Als u weet hoe u DNS-records moet bijwerken bij de DNS-host van uw domein**, gebruikt u de DNS-waarden in Microsoft 365 om records te bewerken bij de DNS-host van uw domein, bijvoorbeeld om een MX-record of SPF-record in te stellen. Zoek de specifieke waarden die u moet gebruiken door [deze stappen te volgen](../get-help-with-domains/information-for-dns-records.md) of bekijk ze in de wizard voor het instellen van domeinen terwijl u de wizard doorloopt.
-  
- Zie [Uw domein instellen (host-specifieke instructies)](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions?view=o365-worldwide), **als u hulp nodig hebt bij het toevoegen van de vereiste DNS-records**, moet u eerst [de informatie verzamelen die u nodig hebt om DNS-records voor Microsoft 365 te maken](../get-help-with-domains/information-for-dns-records.md). Gebruik vervolgens de algemene stappen in dit onderwerp om de DNS-records van uw domein in te stellen, zodat u uw domein kunt gebruiken met Microsoft 365-services, als e-mail.
-  
- **Als u nog geen website gebruikt voor uw aangepaste domein**, kunt u Microsoft 365 DNS-records voor uw domein laten instellen en beheren in plaats van dat u het zelf doet. Meer informatie over de [twee opties voor het instellen en beheren van DNS-records voor een aangepast domein](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) in Microsoft 365. 
-  
+Sla de record op.
 
+Voor het valideren van uw SPF-record, gebruikt u een van deze [SPF-validatiehulpmiddelen](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
+
+SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Microsoft 365 configureren. 
+
+Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Microsoft 365](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx) en [DMARC gebruiken om e-mail te valideren in Microsoft 365](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx).
+
+### <a name="add-srv-records-for-communications-services-teams-skype-for-business"></a>SRV-records toevoegen voor communicatieservices (Teams, Skype voor Bedrijven)
+
+Voeg op de website van de hostingprovider SRV-records toe voor elke service die u wilt verbinden.
+Zorg dat de velden zijn ingesteld op de volgende waarden voor elk:
+
+- Recordtype: `SRV (Service)`
+- Naam: `@`
+- Doel: kopieer de waarde uit het Beheercentrum en plak deze hier.
+- Protocol: kopieer de waarde uit het Beheercentrum en plak deze hier.
+- Service: kopieer de waarde uit het Beheercentrum en plak deze hier.
+- Prioriteit: `100`
+- Gewicht: `1`
+- Poort: kopieer de waarde uit het Beheercentrum en plak deze hier.
+- TTL: `3600‎` (of de standaardwaarde van uw provider)
+
+Sla de record op.
+
+#### <a name="srv-record-feild-restrictions-and-workarounds"></a>Beperkingen en tijdelijke oplossingen voor SRV-recordvelden
+Sommige hostingproviders stellen beperkingen in voor veldwaarden binnen SRV-records. Hier vindt u enkele veelvoorkomende tijdelijke oplossingen voor deze beperkingen.
+
+##### <a name="name"></a>Naam
+Als de hostingprovider niet toestaat om dit veld in te stellen op **@**, laat u het veld leeg. Gebruik deze methode *alleen* wanneer de hostingprovider afzonderlijke velden voor de waarden Service en Protocol heeft. Raadpleeg anders onderstaande opmerkingen bij Service en Protocol.
+
+##### <a name="service-and-protocol"></a>Service en Protocol
+Als uw hostingprovider niet in deze velden voor SRV-records voorziet, geeft u de waarden voor **Service** en **Protocol** op in het **Naam**-veld van de record. (Opmerking: Afhankelijk van de hostingprovider kan het **Naam**-veld anders heten, bijvoorbeeld **Host**, **Hostnaam** of **Subdomein**.) Om deze waarden toe te voegen, maakt u één enkele tekenreeks, waarin de waarden van elkaar zijn gescheiden door een punt. 
+
+Voorbeeld: `_sip._tls`
+
+##### <a name="priority-weight-and-port-br"></a>Prioriteit, Gewicht en Poort <br>
+Als uw hostingprovider niet in deze velden voor SRV-records voorziet, geeft u ze op in het **Doel**-veld van de record. (Opmerking: afhankelijk van uw hostingprovider kan het **Doel**-veld anders heten, bijvoorbeeld: **Inhoud**, **IP-adres**, of **Doelhost**.) 
+
+Als u deze waarden wilt toevoegen, moet u één enkele tekenreeks aanmaken, waarbij de waarden worden gescheiden door spaties en *soms eindigen met een punt* (neem contact op met uw provider als u niet zeker bent). De waarden moeten in de volgende volgorde worden opgenomen: Prioriteit, Gewicht, Poort, Doel. 
+
+- Voorbeeld 1: `100 1 443 sipdir.online.lync.com.`
+- Voorbeeld 2: `100 1 443 sipdir.online.lync.com`
