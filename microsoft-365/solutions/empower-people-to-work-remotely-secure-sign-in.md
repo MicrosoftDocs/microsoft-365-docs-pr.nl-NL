@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/20/2020
+ms.date: 06/22/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Vereis dat uw externe werknemers zich aanmelden met meervoudige verificatie (MFA).
-ms.openlocfilehash: 142f4d42715ae53e411f045f4df09471b7ba63da
-ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
+ms.openlocfilehash: 57febcb68b09ffcbbb1694100b31d7d75158d872
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44560409"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844952"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Stap 1. Aanmeldingsbeveiliging voor externe werknemers verbeteren met MFA
 
@@ -95,6 +95,10 @@ In deze tabel ziet u de resultaten na het inschakelen van MFA met de standaardin
 ## <a name="let-your-users-reset-their-own-passwords"></a>Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 
 Met self-service voor wachtwoordherstel (SSPR) kunnen gebruikers hun eigen wachtwoord opnieuw instellen zonder de IT-medewerkers te belasten. Gebruikers kunnen hun wachtwoord op elk moment en vanaf elke locatie snel opnieuw instellen. Bekijk [deze video](https://go.microsoft.com/fwlink/?linkid=2128524) om SSPR in te stellen.
+
+## <a name="sign-in-to-saas-apps-with-azure-ad"></a>Aanmelden bij SaaS-apps met Azure AD
+
+Azure AD kan naast het bieden van cloudverificatie voor gebruikers ook worden gebruikt om al uw apps centraal te beveiligen, ongeacht of ze zich on-premises, in de Microsoft-cloud of in een andere cloud bevinden. Door het [integreren van apps in azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/plan-an-application-integration), kunt u het externe medewerkers gemakkelijk maken om de toepassingen te vinden die ze nodig hebben en zich veilig hierop aan te melden.
 
 ## <a name="admin-technical-resources-for-mfa-and-identity"></a>Technische informatiebronnen voor beheerders voor MFA en identiteit
 

@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 05/27/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Zorg ervoor dat uw externe medewerkers toegang hebben tot on-premises informatiebronnen terwijl de toegang tot Microsoft 365-cloudservices wordt geoptimaliseerd.
-ms.openlocfilehash: 363f2a5edb43d294be5a8ecfe0fd02964dd8b945
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 199dc6aa33134cfa0f9ac311d037a934c12ba3b9
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160748"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844976"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>Stap 2. Externe toegang bieden tot on-premises apps en services
 
@@ -70,7 +70,11 @@ Hier vindt u de onderdelen van Azure AD-toepassingsproxy.
 
 ![Onderdelen van Azure AD-toepassingsproxy](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-application-proxy.png)
 
-Zie dit [overzicht van Azure AD-toepassingsproxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)voor meer informatie.
+Raadpleeg voor meer informatie dit [overzicht van Azure AD-toepassingsproxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy) en [deel 3 van de video over het gebruik van Azure AD-toepassingsproxy](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security).
+
+>[!Note]
+>Azure AD-toepassingsproxy maakt geen deel uit van een Microsoft 365-abonnement. U moet betalen voor het gebruik met een afzonderlijk Azure-abonnement.
+>
 
 ## <a name="deploy-remote-access-when-not-all-your-apps-are-web-apps"></a>Externe toegang implementeren wanneer niet al uw apps web-apps zijn
 
@@ -82,13 +86,32 @@ Een P2S VPN-verbinding maakt een beveiligde verbinding met uw bedrijfsnetwerk va
 
 Zie dit [overzicht van P2S VPN](https://docs.microsoft.com/azure/vpn-gateway/point-to-site-about) voor meer informatie.
 
+>[!Note]
+>Azure P2S VPN maakt geen deel uit van een Microsoft 365-abonnement. U moet betalen voor het gebruik met een afzonderlijk Azure-abonnement.
+>
+
 ## <a name="deploy-windows-virtual-desktop-to-provide-remote-access-for-remote-workers-using-personal-devices"></a>Windows-virtueel bureaublad implementeren om externe toegang te bieden voor externe medewerkers met persoonlijke apparaten 
 
-Om externe medewerkers te ondersteunen die alleen hun persoonlijke en onbeheerde apparaten kunnen gebruiken, gebruikt u Windows-virtueel bureaublad in Azure om virtuele bureaubladen te maken en toe te wijzen aan uw gebruikers die thuiswerken.
+Om externe medewerkers te ondersteunen die alleen hun persoonlijke en onbeheerde apparaten kunnen gebruiken, gebruikt u Windows-virtueel bureaublad in Azure om virtuele bureaubladen te maken en toe te wijzen aan uw gebruikers die thuiswerken. Gevirtualiseerde pc's werken net als pc's die verbinding hebben met uw bedrijfsnetwerk.
 
-Gevirtualiseerde pc's werken net als pc's die verbinding hebben met uw bedrijfsnetwerk.
+![Onderdelen van Azure Windows Virtual Desktop](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-windows-virtual-desktop.png)
 
-Voor meer informatie raadpleegt u dit [overzicht van Windows-virtueel bureaublad](https://docs.microsoft.com/azure/virtual-desktop/overview).
+Zie voor meer informatie: 
+
+- [Dit overzicht van Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/overview).
+- [Deel 2 van de video over het gebruik van Windows Virtual Desktop voor externe werknemers](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity).
+
+>[!Note]
+>Windows Virtual Desktop maakt geen deel uit van een Microsoft 365-abonnement. U moet betalen voor het gebruik met een afzonderlijk Azure-abonnement.
+>
+
+## <a name="protect-your-remote-desktop-services-connections-with-the-remote-desktop-services-gateway"></a>Verbindingen voor Extern bureaublad-services beveiligen met de Extern bureaublad-servicesgateway
+
+Als u Extern bureaublad-services (RDS) gebruikt om medewerkers verbinding te laten maken met Windows-computers in het on-premises-netwerk, moet u een Extern bureaublad-servicesgateway van Microsoft in het edgenetwerk gebruiken. De gateway maakt gebruik van Secure Sockets Layer (SSL) om communicatie te versleutelen en voorkomt dat het systeem dat als host fungeert voor RDS onbeveiligd met het internet is verbonden.
+
+![Verbindingen voor Extern bureaublad-services met de Extern bureaublad-servicesgateway](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-remote-desktop.png)
+
+Zie [dit artikel](https://www.microsoft.com/security/blog/2020/04/16/security-guidance-remote-desktop-adoption/) voor meer informatie.
 
 ## <a name="admin-technical-resources-for-remote-access"></a>Technische bronnen voor beheerders voor externe toegang
 
@@ -105,8 +128,9 @@ Na de implementatie van een oplossing voor externe toegang voor uw externe medew
 | Geen VPN-oplossing voor externe toegang en u hebt alleen externe toegang nodig tot on-premises web-apps | U hebt Azure-toepassingsproxy geconfigureerd. |
 | Geen VPN-oplossing voor externe toegang en u hebt externe toegang nodig tot on-premises apps, waarvan sommige niet op internet zijn gebaseerd | U hebt Azure P2S VPN geconfigureerd. |
 | Externe medewerkers gebruiken hun persoonlijke apparaten thuis | U hebt Windows-virtueel bureaublad geconfigureerd. |
+| Externe werknemers gebruiken RDS om verbinding te maken met on-premises-systemen | U hebt een Extern bureaublad-servicesgateway in het edgenetwerk geïmplementeerd. |
 |||
 
 ## <a name="next-step"></a>Volgende stap
 
-Ga door met [Stap 3](empower-people-to-work-remotely-manage-endpoints.md) om uw apparaten, pc's en andere eindpunten te beheren.
+Ga verder met [stap 3](empower-people-to-work-remotely-security-compliance.md) om beveiligings- en complianceservices van Microsoft 365 te implementeren om uw apps, gegevens en apparaten te beveiligen.
