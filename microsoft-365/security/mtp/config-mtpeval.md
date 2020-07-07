@@ -15,12 +15,11 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 60d0383f3acae73c36383b65daaac405a4e20bd3
-ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
-ms.translationtype: MT
+ms.openlocfilehash: 8a435b220343bd0353f2e0ef85ddf856ebf3e8aa
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854362"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049938"
 ---
 # <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-environment"></a>Pijlers voor Microsoft Threat Protection configureren voor uw proeflabomgeving
 
@@ -237,7 +236,7 @@ Klik op **Volgende**.
 16. Schuif omlaag en klik op **Voorkeuren opslaan** om de nieuwe integraties te bevestigen.
 <br>![Knop Afbeelding of_Save voorkeuren waarop u moet klikken](../../media/mtp-eval-72.png) <br>
 
-## <a name="start-the-microsoft-threat-protection-service"></a>De Microsoft Threat Protection-service starten
+## <a name="start-the-microsoft-threat-protection-service"></a>Microsoft Threat Protection-service starten
 >[!NOTE]
 >Vanaf 1 juni 2020 schakelt Microsoft automatisch Microsoft Threat Protection-functies in voor alle in aanmerking komende tenants. Zie dit [Microsoft Tech Community-artikel over licentiegeschiktheid](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/microsoft-threat-protection-will-automatically-turn-on-for/ba-p/1345426) voor meer informatie. 
 <br>
@@ -247,8 +246,9 @@ Ga naar [Microsoft 365 Security Center](https://security.microsoft.com/homepage)
 
 Zie [Microsoft-bedreigingsbeveiliging inschakelen](mtp-enable.md)voor een uitgebreidere richtlijnen. 
 
-Gefeliciteerd! U hebt zojuist uw Microsoft Threat Protection-proeflabomgeving gemaakt! U nu een aanval simuleren en zien hoe de cross-productmogelijkheden detecteren, waarschuwingen maken en automatisch reageren op een bestandloze aanval op een eindpunt.
+Gefeliciteerd! U hebt zojuist uw Microsoft Threat Protection-proeflabomgeving gemaakt! Nu u vertrouwd raken met de Microsoft Threat Protection-gebruikersinterface! Bekijk wat u leren en hoe u elke dashboards gebruiken voor uw dagelijkse beveiligingstaken: [interactieve handleiding voor Microsoft Threat Protection](https://aka.ms/MTP-Interactive-Guide).
 
+Vervolgens u een aanval simuleren en zien hoe de cross-productmogelijkheden detecteren, waarschuwingen maken en automatisch reageren op een bestandloze aanval op een eindpunt.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Een testwaarschuwing genereren](generate-test-alert.md).

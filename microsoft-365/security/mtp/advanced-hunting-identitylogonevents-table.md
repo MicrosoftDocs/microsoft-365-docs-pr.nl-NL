@@ -17,19 +17,18 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 17e12e9095219b7ad7923f7b5664946fff6ce724
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
-ms.translationtype: MT
+ms.openlocfilehash: 2116d8f6f1006f5acf9d468006fa07a04e13087b
+ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899373"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45046026"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-De `IdentityLogonEvents` tabel in het geavanceerde [jachtschema](advanced-hunting-overview.md) bevat informatie over verificatieactiviteiten die zijn opgenomen door Azure Active Directory en andere Microsoft-cloudapps en -services. Gebruik deze verwijzing om query's te construeren die informatie uit deze tabel retourneren.
+De `IdentityLogonEvents` tabel in het geavanceerde [jachtschema](advanced-hunting-overview.md) bevat informatie over verificatieactiviteiten die zijn gemaakt via uw on-premises Active Directory die is vastgelegd door Azure ATP en verificatieactiviteiten met betrekking tot microsoft onlineservices die zijn vastgelegd door Microsoft Cloud App Security. Gebruik deze verwijzing om query's te construeren die informatie uit deze tabel retourneren.
 
 Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor informatie over andere tabellen in het geavanceerde jachtschema.
 

@@ -17,12 +17,11 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 032368e35cdfc991df4c01643e49cee538549f39
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
-ms.translationtype: MT
+ms.openlocfilehash: 0cb275584acfc2ea0d2a2969694ee189f48a875d
+ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899361"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45046041"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Begrijp het geavanceerde jachtschema
 
@@ -31,10 +30,22 @@ ms.locfileid: "44899361"
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-Het [geavanceerde jachtschema](advanced-hunting-overview.md) bestaat uit meerdere tabellen die informatie over evenementen of entiteiten over evenementen of entiteiten verstrekken. Als u query's wilt maken die meerdere tabellen omvatten, moet u de tabellen en de kolommen in het geavanceerde jachtschema begrijpen.
+Het [geavanceerde jachtschema](advanced-hunting-overview.md) bestaat uit meerdere tabellen die informatie over gebeurtenissen of informatie over apparaten, waarschuwingen, identiteiten en andere entiteitstypen bevatten. Als u query's wilt maken die meerdere tabellen omvatten, moet u de tabellen en de kolommen in het geavanceerde jachtschema begrijpen.
+
+## <a name="get-schema-information-in-the-security-center"></a>Ontvang schema-informatie in het beveiligingscentrum
+Gebruik tijdens het maken van query's de ingebouwde schemaverwijzing om snel de volgende informatie over elke tabel in het schema op te halen:
+
+- **Beschrijving** van tabellen — type gegevens in de tabel en de bron van die gegevens.
+- **Kolommen** : alle kolommen in de tabel.
+- **Actietypen** : mogelijke waarden in de `ActionType` kolom die de gebeurtenistypen weergeeft die door de tabel worden ondersteund. Dit wordt alleen verstrekt voor tabellen die gebeurtenis-informatie bevatten.
+- **Voorbeeldquery** : voorbeeldquery's met de manier waarop de tabel kan worden gebruikt.
+
+### <a name="access-the-schema-reference"></a>Toegang tot de schemaverwijzing
+Als u snel toegang wilt krijgen tot de schemaverwijzing, selecteert u de **referentieactie Weergeven** naast de tabelnaam in de schemaweergave. U ook **schemaverwijzing** selecteren om naar een tabel te zoeken.   
+
+![Afbeelding die laat zien hoe u toegang krijgt tot in-portal-schemaverwijzing ](../../media/mtp-ah/ah-reference.png) 
 
 ## <a name="schema-tables"></a>Schematabellen
-
 In de volgende referentie worden alle tabellen in het schema weergegeven. Elke tabelnaam verwijst naar een pagina met de kolomnamen voor die tabel. Tabel- en kolomnamen worden ook vermeld in het beveiligingscentrum als onderdeel van de schemaweergave op het geavanceerde jachtscherm.
 
 | Tabelnaam | Beschrijving |
@@ -47,7 +58,7 @@ In de volgende referentie worden alle tabellen in het schema weergegeven. Elke t
 | **[DeviceFileEvents](advanced-hunting-devicefileevents-table.md)** | Bestandsgebeurtenissen, wijziging en andere bestandssysteemgebeurtenissen |
 | **[DeviceImageLoadEvents](advanced-hunting-deviceimageloadevents-table.md)** | DLL-laadgebeurtenissen |
 | **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | Machine-informatie, inclusief OS-informatie |
-| **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | Aanmeldingen en andere verificatiegebeurtenissen |
+| **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | Aanmeldingen en andere verificatiegebeurtenissen op apparaten |
 | **[DeviceNetworkEvents](advanced-hunting-devicenetworkevents-table.md)** | Netwerkverbinding en gerelateerde gebeurtenissen |
 | **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | Netwerkeigenschappen van machines, waaronder adapters, IP- en MAC-adressen, evenals verbonden netwerken en domeinen |
 | **[DeviceProcessEvents](advanced-hunting-deviceprocessevents-table.md)** | Procescreatie en gerelateerde gebeurtenissen |
@@ -61,7 +72,7 @@ In de volgende referentie worden alle tabellen in het schema weergegeven. Elke t
 | **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | Beveiligingsgebeurtenissen die plaatsvinden na levering, nadat Microsoft 365 de e-mails naar het postvak van de ontvanger heeft bezorgd |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Informatie over URL's in e-mails |
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Accountgegevens uit verschillende bronnen, waaronder Azure Active Directory |
-| **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Verificatiegebeurtenissen die zijn geregistreerd door Active Directory en andere onlineservices van Microsoft |
+| **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Verificatiegebeurtenissen op onlineservices van Active Directory en Microsoft |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Queryactiviteiten uitgevoerd met Active Directory-objecten, zoals gebruikers, groepen, apparaten en domeinen |
 
 ## <a name="related-topics"></a>Verwante onderwerpen

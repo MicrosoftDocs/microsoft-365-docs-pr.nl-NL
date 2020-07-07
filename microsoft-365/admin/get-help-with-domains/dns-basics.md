@@ -22,12 +22,11 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Informatie over domeinen en de bijbehorende DNS-records om zo uw domeinen beter te beheren.
-ms.openlocfilehash: c9fee3488f7de3c0cc4b93be15ff49bd01469495
-ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
-ms.translationtype: HT
+ms.openlocfilehash: 2fc581968a4cec3c6e9b5c51f717a8cfa78cd6a3
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "45035607"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049652"
 ---
 # <a name="dns-basics"></a>DNS-basisprincipes
 
@@ -143,10 +142,6 @@ Waarom kan het zonebestand van uw domein zich ergens buiten uw domeinregistrar b
 Waarom kan het zonebestand van uw domein zich ergens buiten uw domeinregistrar bevinden? Het is ook mogelijk dat u uw domeinnaam registreert bij een domeinregistrar, zoals HiChina, terwijl uw DNS-records ergens anders worden beheerd, in een afzonderlijk DNS-hostingbedrijf of een webhostingbedrijf. Die gegevens worden in de NS-records voor uw domeinopslagplaats opgeslagen, zodat alle DNS-servers weten waar ze moeten zoeken.
 
 ::: moniker-end
-
-> [!NOTE]
-> Als u in Microsoft 365 uw domein dusdanig instelt dat [Microsoft uw DNS-records voor u instelt en beheert](../setup/domains-faq.md#how-does-office-365-manage-my-dns-records), moet u tijdens het instellen van het domein [het DNS-beheer wijzigen in Microsoft 365](../setup/domains-faq.md#change-dns-management-to-office-365). 
- 
 
 ::: moniker range="o365-worldwide"
 ## <a name="why-add-a-domain-in-office-365"></a>Waarom zou ik een domein toevoegen in Office 365?

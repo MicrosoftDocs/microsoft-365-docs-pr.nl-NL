@@ -11,26 +11,23 @@ ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
 - M365-subscription-management
-- Adm_O365
 - Adm_TOC
+- commerce
 ms.custom:
 - TopSMBIssues
 - SaRA
 - okr_SMB
 - AdminSurgePortfolio
+- manage_licenses
 search.appverid:
 - MET150
-- MOE150
-- BEA160
-- GEA150
-ms.assetid: 997596b5-4173-4627-b915-36abac6786dc
-description: Informatie over het toewijzen van licenties aan gebruikers of het overzetten van gebruikers naar een nieuw abonnement.
-ms.openlocfilehash: da4dc2478180716710552ac1d4b7b81d019a622f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
-ms.translationtype: HT
+description: Handleiding over het toewijzen van licenties aan gebruikers.
+ms.date: 07/01/2020
+ms.openlocfilehash: 648a3433bf5c2bd9bb96abb90335f56ee4fb6bee
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399834"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45015945"
 ---
 # <a name="assign-licenses-to-users"></a>Licenties aan gebruikers toewijzen
 
@@ -43,211 +40,132 @@ ms.locfileid: "44399834"
 
 ::: moniker range="o365-worldwide"
 
-U kunt licenties toewijzen aan gebruikers op de pagina **Actieve gebruikers** of op de pagina **Licenties**. Welke methode u gebruikt, is afhankelijk van het feit of u productlicenties wilt toewijzen aan specifieke gebruikers of gebruikerslicenties wilt toewijzen aan specifieke producten.
+U kunt licenties toewijzen aan gebruikers op de pagina **Actieve gebruikers** of op de pagina **Licenties**. De methode die u gebruikt, is afhankelijk van of u productlicenties wilt toewijzen aan specifieke gebruikers of gebruikerslicenties wilt toewijzen aan een specifiek product.
 
-> [!NOTE]
-> Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
+::: moniker-end
 
-## <a name="assign-licenses-to-users-on-the-licenses-page"></a>Licenties aan gebruikers toewijzen op de pagina Licenties
+[Informatie over het toevoegen van een gebruiker en tegelijkertijd toewijzen van een licentie](../add-users/add-users.md).
 
-Wanneer u de pagina **Licenties** gebruikt om licenties toe te wijzen, wijst u licenties voor een specifiek product toe aan maximaal 20 gebruikers. Op de pagina **Licenties** ziet u een lijst met alle producten waarvoor u een abonnement hebt, samen met het totale aantal licenties voor elk product, hoeveel licenties er zijn toegewezen en hoeveel er beschikbaar zijn.
+## <a name="before-you-begin"></a>Voordat u begint
+
+- U moet algemeen, licentie-, of gebruikersbeheerder zijn om licenties toe te wijzen. Zie [Over beheerdersrollen in Microsoft 365](../add-users/about-admin-roles.md) voor meer informatie.
+- U kunt [licenties toewijzen aan gebruikersaccounts met Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=850410).
+- Voor groepslicenties, zie [Licenties toewijzen aan gebruikers op basis van groepslidmaatschap in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
+- Sommige services, zoals Sway, worden automatisch aan gebruikers toegewezen.Het is niet nodig deze afzonderlijk toe te wijzen.
+
+::: moniker range="o365-worldwide"
+
+## <a name="use-the-licenses-page-to-assign-licenses-to-users"></a>Gebruik de pagina Licenties om licenties aan gebruikers toe te wijzen
+
+Met behulp van de pagina **Licenties** kunt u licenties voor een specifiek product toewijzen aan maximaal 20 gebruikers. Op de pagina **Licenties** wordt een lijst weergegeven met alle producten waarvoor u een abonnement hebt. U ziet ook het totale aantal licenties voor elk product, het aantal toegewezen licenties en het aantal beschikbare licenties.
 
 1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a>.
-2. Selecteer een product waarvoor u licenties wilt toewijzen.
-3. Selecteer **Licenties toewijzen**.
+2. Selecteer een product.
+3. Selecteer **Licenties toewijzen** op de pagina met productdetails.
 4. Begin in het deelvenster **Licenties toewijzen aan gebruikers** met het typen van een naam en kies de naam in de resultaten om deze aan de lijst toe te voegen. U kunt maximaal 20 gebruikers tegelijk toevoegen.
 5. Selecteer **Apps en services in- of uitschakelen** om de toegang tot bepaalde items toe te wijzen of te verwijderen.
 6. Wanneer u klaar bent, selecteert u achtereenvolgens **Toewijzen** en **Sluiten**.
 
 Als er een conflict is, wordt er een bericht weergegeven waarin wordt uitgelegd wat het probleem is en hoe u dit kunt oplossen. Als u bijvoorbeeld licenties hebt geselecteerd die conflicterende services bevatten, moet u de services die bij elke licentie zijn opgenomen controleren en het opnieuw proberen.
 
-De apps en services wijzigen waartoe een gebruiker toegang heeft:
+## <a name="change-the-apps-and-services-a-user-has-access-to"></a>De apps en services wijzigen waartoe een gebruiker toegang heeft
 
-1. Selecteer de rij die de gebruiker bevat.
-2. Selecteer of deselecteer in het rechterdeelvenster de apps en services waarvoor u toegang wilt verlenen of verwijderen.
-3. Wanneer u klaar bent, selecteert u achtereenvolgens **Opslaan** en **Sluiten**.
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a>.
+2. Selecteer op de pagina **Licenties** de rij voor een specifieke gebruiker.
+3. Selecteer of deselecteer in het rechterdeelvenster de apps en services waarvoor u toegang wilt verlenen of verwijderen.
+4. Wanneer u klaar bent, selecteert u achtereenvolgens **Opslaan** en **Sluiten**.
 
 ::: moniker-end
 
-## <a name="assign-licenses-to-multiple-users-on-the-active-users-page"></a>Licenties toewijzen aan meerdere gebruikers op de pagina Actieve gebruikers
-
 ::: moniker range="o365-worldwide"
 
+## <a name="use-the-active-users-page-to-assign-licenses"></a>Licenties toewijzen met de pagina Actieve gebruikers
+
+Wanneer u de pagina **Actieve gebruikers** gebruikt om licenties toe te wijzen, wijst u gebruikerslicenties aan producten toe.
+
+### <a name="assign-licenses-to-multiple-users"></a>Licenties toewijzen aan meerdere gebruikers
+
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
-
 2. Selecteer de cirkels naast de namen van de gebruikers aan wie u licenties wilt toewijzen.
-
 3. Selecteer bovenaan **Meer opties (...)** en selecteer vervolgens **Productlicenties beheren**.
-
 4. Selecteer in het deelvenster **Productlicenties beheren** **Toevoegen aan bestaande productlicentietoewijzingen** \> **Volgende**.
-
-5. Zet de wisselknop in het deelvenster **Toevoegen aan bestaande producten** op **Aan** voor de licentie die u wilt toewijzen aan de geselecteerde gebruikers.
-
+5. Zet de wisselknop in het deelvenster **Toevoegen aan bestaande producten** op **Aan** voor de licentie die u wilt toewijzen aan de geselecteerde gebruikers.\
     De standaardinstelling is dat alle services die zijn gekoppeld aan die licenties, automatisch worden toegewezen aan de gebruikers. U kunt beperken welke services beschikbaar zijn voor de gebruikers. Zet de wisselknoppen op **Uit** voor de services waarvan de gebruikers geen gebruik mogen maken.
-
 6. Selecteer onderaan het deelvenster **Toevoegen** \> **Sluiten**.  
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
+## <a name="assign-licenses-to-multiple-users"></a>Licenties toewijzen aan meerdere gebruikers
+
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
-
-2. Schakel de selectievakjes in naast de namen van de gebruikers aan wie u licenties wilt toewijzen.
-
+2. Vink de selectievakjes aan naast de namen van de gebruikers aan wie u licenties wilt toewijzen.
 3. Selecteer in het deelvenster **Bulkacties** de optie **Productlicenties bewerken**.
-
 4. Selecteer in het deelvenster **Producten toewijzen** **Toevoegen aan bestaande productlicentietoewijzingen** \> ** Volgende**.
-
-5. Zet de wisselknop op **Aan** voor de licenties die u wilt toewijzen aan de geselecteerde gebruikers.
-
+5. Zet de wisselknop op **Aan** voor de licenties die u wilt toewijzen aan de geselecteerde gebruikers.\
     De standaardinstelling is dat alle services die zijn gekoppeld aan die licenties, automatisch worden toegewezen aan de gebruikers. U kunt beperken welke services beschikbaar zijn voor de gebruikers. Zet de wisselknoppen op **Uit** voor de services waarvan de gebruikers geen gebruik mogen maken.
-
 6. Selecteer onderaan in het deelvenster **Toevoegen aan bestaande producten** **Toevoegen** \> **Sluiten** \> **Sluiten**.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
+## <a name="assign-licenses-to-multiple-users"></a>Licenties toewijzen aan meerdere gebruikers
+
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
-
-2. Schakel de selectievakjes in naast de namen van de gebruikers aan wie u licenties wilt toewijzen.
-
+2. Vink de selectievakjes aan naast de namen van de gebruikers aan wie u licenties wilt toewijzen.
 3. Selecteer in het deelvenster **Bulkacties** de optie **Productlicenties bewerken**.
-
 4. Selecteer in het deelvenster **Producten toewijzen** **Toevoegen aan bestaande productlicentietoewijzingen** \> ** Volgende**.
-
-5. Zet de wisselknop op **Aan** voor de licenties die u wilt toewijzen aan de geselecteerde gebruikers.
-
+5. Zet de wisselknop op **Aan** voor de licenties die u wilt toewijzen aan de geselecteerde gebruikers.\
     De standaardinstelling is dat alle services die zijn gekoppeld aan die licenties, automatisch worden toegewezen aan de gebruikers. U kunt beperken welke services beschikbaar zijn voor de gebruikers. Zet de wisselknoppen op **Uit** voor de services waarvan de gebruikers geen gebruik mogen maken.
-
 6. Selecteer onderaan in het deelvenster **Toevoegen aan bestaande producten** **Toevoegen** \> **Sluiten** \> **Sluiten**.
 
 ::: moniker-end
 
-
-## <a name="assign-licenses-to-one-user-on-the-active-users-page"></a>Licenties toewijzen aan één gebruiker op de pagina Actieve gebruikers
-
 ::: moniker range="o365-worldwide"
 
+### <a name="assign-licenses-to-one-user"></a>Licenties aan een enkele gebruiker toewijzen
+
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
-
-2. Selecteer op de pagina **Actieve gebruikers** de rij van de gebruiker aan wie u een licentie wilt toewijzen.
-
+2. Selecteer de rij van de gebruiker aan wie u een licentie wilt toewijzen.
 3. Selecteer in het rechterdeelvenster **Licenties en apps**.
-
 4. Vouw de sectie **Licenties** uit en schakel de selectievakjes in voor de licenties die u wilt toewijzen. Selecteer vervolgens **Wijzigingen opslaan**.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
+## <a name="assign-licenses-to-one-user"></a>Licenties aan een enkele gebruiker toewijzen
+
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
-
-2. Schakel het selectievakje in naast de naam van de gebruiker aan wie u een licentie wilt toewijzen.
-
-3. Selecteer in het rechterdeelvenster in de rij **Productlicenties** de optie **Bewerken**.
-
-4. Zet in het deelvenster **Productlicenties** de wisselknop op **Aan** voor de licentie die u aan deze gebruiker wilt toewijzen.
-
+2. Vink het selectievakje aan naast de naam van de gebruiker aan wie u een licentie wilt toewijzen.
+3. Selecteer de optie **Bewerken** in het rechterdeelvenster in de rij **Productlicenties**.
+4. Zet in het deelvenster **Productlicenties** de wisselknop op **Aan** voor de licentie die u aan deze gebruiker wilt toewijzen.\
     De standaardinstelling is dat alle services die zijn gekoppeld aan die licentie, automatisch worden toegewezen aan de gebruiker. U kunt beperken welke services beschikbaar zijn voor de gebruiker. Zet de wisselknoppen op **Uit** voor de services waarvan die gebruiker geen gebruik mag maken.
-
 5. Selecteer onderaan het deelvenster **Productlicenties** de opties **Opslaan** \> **Sluiten** \> **Sluiten**.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
+## <a name="assign-licenses-to-one-user"></a>Licenties aan een enkele gebruiker toewijzen
+
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
-
-2. Schakel het selectievakje in naast de naam van de gebruiker aan wie u een licentie wilt toewijzen.
-
-3. Selecteer in het rechterdeelvenster in de rij **Productlicenties** de optie **Bewerken**.
-
-4. Zet in het deelvenster **Productlicenties** de wisselknop op **Aan** voor de licentie die u aan deze gebruiker wilt toewijzen.
-
+2. Vink het selectievakje aan naast de naam van de gebruiker aan wie u een licentie wilt toewijzen.
+3. Selecteer de optie **Bewerken** in het rechterdeelvenster in de rij **Productlicenties**.
+4. Zet in het deelvenster **Productlicenties** de wisselknop op **Aan** voor de licentie die u aan deze gebruiker wilt toewijzen.\
     De standaardinstelling is dat alle services die zijn gekoppeld aan die licentie, automatisch worden toegewezen aan de gebruiker. U kunt beperken welke services beschikbaar zijn voor de gebruiker. Zet de wisselknoppen op **Uit** voor de services waarvan die gebruiker geen gebruik mag maken.
-
 5. Selecteer onderaan het deelvenster **Productlicenties** de opties **Opslaan** \> **Sluiten** \> **Sluiten**.
 
 ::: moniker-end
 
-## <a name="move-users-to-a-different-subscription"></a>Gebruikers naar een ander abonnement overzetten
+## <a name="next-steps"></a>Volgende stappen
 
-Als u meerdere abonnementen hebt en er gebruikers zijn met een licentie voor één abonnement die u naar een ander abonnement wilt overzetten, dan kunt u hun bestaande licentie door een andere vervangen.
+Als de Office-apps nog niet door uw gebruikers zijn geïnstalleerd, kunt u de [Aan de slag-handleiding voor werknemers](https://support.microsoft.com/office/b9700090-ce64-4046-ab92-ce8488a7bc0f) delen met uw gebruikers om dingen in te stellen, zoals [Microsoft 365 of Office 2019 op een pc of Mac downloaden en installeren](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) en [Office-apps en e-mail op een mobiel apparaat instellen](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f).
 
-::: moniker range="o365-worldwide"
+## <a name="related-content"></a>Verwante onderwerpen
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
-
-2. Selecteer de cirkels naast de namen van de gebruikers voor wie u bestaande licenties wilt vervangen.
-
-3. Selecteer bovenaan **Meer opties (...)** en selecteer vervolgens **Productlicenties beheren**.
-
-4. Selecteer in het deelvenster **Productlicenties beheren** **Bestaande productlicentietoewijzingen vervangen** \> **Volgende**.
-
-5. Zet de wisselknop op **Aan** voor de licenties die u wilt toewijzen aan deze gebruikers.
-
-    U kunt beperken welke services beschikbaar zijn voor de gebruikers. Zet de wisselknoppen op **Uit** voor de services waarvan die gebruikers geen gebruik mogen maken. Alle eerdere licentietoewijzingen voor de geselecteerde gebruikers zijn ingetrokken.
-
-6. Selecteer onderaan het deelvenster **Bestaande producten vervangen** de opties **Vervangen** \> **Sluiten**.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
-
-2. Schakel de selectievakjes in naast de namen van de gebruikers voor wie u bestaande licenties wilt vervangen.
-
-3. Selecteer in het deelvenster **Bulkacties** de optie **Productlicenties bewerken**.
-
-4. Selecteer in het deelvenster **Producten toewijzen** de opties **Bestaande productlicentietoewijzingen vervangen** \> **Volgende**.
-
-5. Zet de wisselknop op **Aan** voor de licenties die u wilt toewijzen aan deze gebruikers.
-
-    U kunt beperken welke services beschikbaar zijn voor de gebruikers. Zet de wisselknoppen op **Uit** voor de services waarvan die gebruikers geen gebruik mogen maken. Alle eerdere licentietoewijzingen voor de geselecteerde gebruikers zijn ingetrokken.
-
-6. Selecteer onderaan het deelvenster **Bestaande producten vervangen** de opties **Vervangen** \> **Sluiten** \> **Sluiten**.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
-
-2. Schakel de selectievakjes in naast de namen van de gebruikers voor wie u bestaande licenties wilt vervangen.
-
-3. Selecteer in het deelvenster **Bulkacties** de optie **Productlicenties bewerken**.
-
-4. Selecteer in het deelvenster **Producten toewijzen** de opties **Bestaande productlicentietoewijzingen vervangen** \> **Volgende**.
-
-5. Zet de wisselknop op **Aan** voor de licenties die u wilt toewijzen aan deze gebruikers.
-
-    U kunt beperken welke services beschikbaar zijn voor de gebruikers. Zet de wisselknoppen op **Uit** voor de services waarvan die gebruikers geen gebruik mogen maken. Alle eerdere licentietoewijzingen voor de geselecteerde gebruikers zijn ingetrokken.
-
-6. Selecteer onderaan het deelvenster **Bestaande producten vervangen** de opties **Vervangen** \> **Sluiten** \> **Sluiten**.
-
-::: moniker-end
-
-## <a name="what-you-need-to-know-about-assigning-licenses-to-users"></a>Wat u moet weten over het toewijzen van licenties aan gebruikers
-
-- U moet een globale beheerder, factureringsbeheerder, licentiebeheerder of gebruikersbeheerder zijn. Zie [Informatie over beheerdersrollen in Microsoft 365](../add-users/about-admin-roles.md) voor meer informatie.
-
-- Zie [Assign licenses to user accounts with Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=850410) (Licenties toewijzen aan gebruikersaccounts in Office 365 PowerShell) voor meer informatie.
-
-- Gebruik deze stappen om een licentie toe te voegen aan een bestaand gebruikersaccount. Zie [Gebruikers afzonderlijk of bulksgewijs toevoegen aan Office 365 - Help voor beheerders](../add-users/add-users.md)
-
-- Sommige services, zoals Sway, worden automatisch aan gebruikers toegewezen en hoeven niet afzonderlijk te worden toegewezen.
-
-## <a name="related-articles"></a>Verwante artikelen
-
-[Informatie over abonnementen en licenties](../../commerce/licenses/subscriptions-and-licenses.md)
-
-[Licentieconflicten oplossen in Microsoft 365 voor Bedrijven](resolve-license-conflicts.md)
-
-[Licenties van gebruikers verwijderen](remove-licenses-from-users.md)
-
-[Licenties verwijderen uit uw abonnement](../../commerce/licenses/remove-licenses-from-subscription.md)
-
-[Licenties kopen voor uw abonnement](../../commerce/licenses/buy-licenses.md)
+[Informatie over abonnementen en licenties](../../commerce/licenses/subscriptions-and-licenses.md) (artikel)\
+[Licenties van gebruikers intrekken](remove-licenses-from-users.md) (artikel)\
+[Licenties kopen of intrekken voor uw abonnement](../../commerce/licenses/buy-licenses.md) (artikel)

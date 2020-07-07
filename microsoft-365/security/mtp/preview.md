@@ -19,12 +19,11 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 6287e7c56f79b09a79c75d7e8b8273dbd5569057
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
-ms.translationtype: MT
+ms.openlocfilehash: 45bc42e825c55ca228b13e8d308f9a1384301d07
+ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005888"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45048265"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Microsoft Threat Protection preview-functies
 
@@ -56,6 +55,8 @@ U weet dat u voorbeeldfuncties hebt ingeschakeld wanneer u ziet dat het selectie
 
 ## <a name="preview-features"></a>Voorbeeldfuncties
 De volgende functies en verbeteringen zijn momenteel beschikbaar in preview:
+
+- **[In-portal schema referentie](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — informatie over schematabellen direct beschikbaar in het beveiligingscentrum. Naast tabel- en kolombeschrijvingen bevat deze verwijzing informatie over ondersteunde gebeurtenistypen `ActionType` (waarden) en voorbeeldquery's.  
 
 - **[Identiteits- en apptabellen](advanced-hunting-schema-tables.md)** — krijg inzicht in verificatiegebeurtenissen, Active Directory-query's en app-gerelateerde activiteiten met de [tabellen IdentityLogonEvents,](advanced-hunting-identitylogonevents-table.md) [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)en [AppFileEvents](advanced-hunting-appfileevents-table.md) in het geavanceerde jachtschema.
 

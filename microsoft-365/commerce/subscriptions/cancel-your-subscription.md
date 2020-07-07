@@ -22,12 +22,11 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Meer informatie over het opzeggen van uw Microsoft 365 voor een proefabonnement voor bedrijven of een betaald abonnement.
-ms.openlocfilehash: da9a86973c271fce8a9552cfc0ce1b287f7debc8
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
-ms.translationtype: MT
+ms.openlocfilehash: 746060596010fd80816e19dece093d91fe850c30
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023367"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049746"
 ---
 # <a name="cancel-your-subscription"></a>Uw abonnement opzeggen
 
@@ -132,7 +131,7 @@ Als u uw NS-records (nameserver) hebt verplaatst naar Microsoft 365 wanneer u uw
 
 Als u niet van NS-record bent gewisseld wanneer u uw domein instelt, gaat uw e-mail meteen naar het nieuwe adres wanneer u de MX-record wijzigt.
 
-Zie [Hoe beheert Microsoft 365 mijn DNS-records?](../../admin/setup/domains-faq.md#how-does-office-365-manage-my-dns-records) Zie [Een domein verwijderen als](../../admin/get-help-with-domains/remove-a-domain.md)u uw NS-records wilt wijzigen.
+Zie [Een domein verwijderen als](../../admin/get-help-with-domains/remove-a-domain.md)u uw NS-records wilt wijzigen.
 
 ### <a name="save-your-data"></a>Uw gegevens opslaan
 

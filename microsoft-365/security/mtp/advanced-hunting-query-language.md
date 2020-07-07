@@ -17,12 +17,11 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 250d19a09d79fc5fd8c69f2ebd24abadc642fafc
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
-ms.translationtype: MT
+ms.openlocfilehash: 26b376fe3e804a3ebaa478e484807bea4c33d38b
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005844"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049691"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Leer de geavanceerde jachtquerytaal
 
@@ -151,7 +150,16 @@ Gegevens in geavanceerde jachttabellen worden over het algemeen ingedeeld in de 
 ## <a name="get-help-as-you-write-queries"></a>Hulp krijgen bij het schrijven van query's
 Profiteer van de volgende functionaliteit om query's sneller te schrijven:
 - **Autosuggest** - als je schrijft query's, geavanceerde jacht biedt suggesties van IntelliSense. 
-- **Schemaverwijzing** : een schemareferentie met de lijst met tabellen en hun kolommen wordt naast uw werkgebied weergegeven. Voor meer informatie u de muisaanwijzer op een item laten zweven. Dubbelklik op een item om het in te voegen aan de queryeditor.
+- **Schemastructuur** : een schemaweergave met de lijst met tabellen en hun kolommen wordt naast uw werkgebied weergegeven. Voor meer informatie u de muisaanwijzer op een item laten zweven. Dubbelklik op een item om het in te voegen aan de queryeditor.
+- **[Schemaverwijzing](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — in-portalverwijzing met tabel- en kolombeschrijvingen, ondersteunde gebeurtenistypen `ActionType` (waarden) en voorbeeldquery's
+
+## <a name="work-with-multiple-queries-in-the-editor"></a>Werken met meerdere query's in de editor
+De queryeditor kan dienen als uw krasblok voor het experimenteren met meerdere query's. Ga als u meerdere query's gebruikt:
+
+- Scheid elke query met een lege regel.
+- Plaats de cursor op een deel van een query om die query te selecteren voordat u deze uitvoert. Hiermee wordt alleen de geselecteerde query uitgevoerd. Als u een andere query wilt uitvoeren, verplaatst u de cursor dienovereenkomstig en selecteert u **Query uitvoeren**.
+
+![Afbeelding van de queryeditor met meerdere query's](../../media/mtp-ah/ah-multi-query.png)
 
 ## <a name="use-sample-queries"></a>Voorbeeldquery's gebruiken
 
