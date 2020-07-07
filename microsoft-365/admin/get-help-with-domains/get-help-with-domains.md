@@ -20,13 +20,12 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 28343f3a-dcee-41b6-9b97-5b0f4999b7ef
-description: Ga aan de slag met uw eigen domein voor e-mail, websites en accounts in Office 365. Meer informatie over domeinen, wijzigingen aanbrengen in uw domein, e-mail en websites integreren en tools en tips opdoen.
-ms.openlocfilehash: 1d3e7fb12f497d512693b8289f072106173356bb
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
-ms.translationtype: MT
+description: Ga aan de slag met uw eigen domein voor e-mail, websites en accounts in Office 365. Meer informatie over domeinen, wijzigingen aanbrengen in uw domein, e-mail en websites integreren en hulpprogramma's en tips krijgen.
+ms.openlocfilehash: 5586744707580bee18e179a35a5ffd042ebe7579
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399918"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049676"
 ---
 # <a name="get-help-with-office-365-domains"></a>Hulp krijgen bij Office 365-domeinen
 
@@ -142,7 +141,7 @@ Gebruik deze informatiebronnen om aan de slag te gaan met uw eigen domein voor e
                             <p><a href="../setup/domains-faq.md?#why-do-i-have-an-onmicrosoftcom-domain">Meer informatie over uw eerste onmicrosoft-domein</a></p>
                             <p><a href="../setup/add-domain.md">De invloed van het toevoegen van een domein of het wijzigen van DNS-records op huidige e-mail</a></p>
                             <p><a href="../setup/domains-faq.md">De werking van DNS-beheer in Office 365</a></p>
-                            <p><a href="https://go.microsoft.com/fwlink/p/?LinkId=402693">De functiebeschrijving van de Office 365-service voor domeinen lezen</a></p>
+                            <p><a href="https://go.microsoft.com/fwlink/p/?LinkId=402693">De beschrijving van de Office 365-service voor domeinen lezen</a></p>
                     </div>
                 </div>
             </div>
@@ -158,7 +157,6 @@ Gebruik deze informatiebronnen om aan de slag te gaan met uw eigen domein voor e
                             <p><a href="information-for-dns-records.md">Verzamel de informatie die u nodig hebt om DNS-records te maken</a></p>
                             <p><a href="find-your-domain-registrar.md">De registrar van uw domein zoeken</a></p>
                             <p><a href="buy-a-domain-name.md">Een domeinnaam kopen</a></p>
-                            <p><a href="../setup/domains-faq.md#how-to-set-up-an-office-365-pilot">Een pilot met uw aangepaste domein instellen voor enkele personen in uw bedrijf</a></p>
                             <p><a href="domain-connect.md">Snel een GoDaddy-domein toevoegen aan Office 365</a></p>
                             <p>Stapsgewijze hulp bij <a href="create-dns-records-at-any-dns-hosting-provider.md">het toevoegen van de vereiste DNS-records voor Office 365-services</a></p>
                             <p><a href="https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization">How to prepare a non-routable domain for directory synchronization</a></p>
@@ -178,7 +176,7 @@ Gebruik deze informatiebronnen om aan de slag te gaan met uw eigen domein voor e
                             <p><a href="../dns/create-dns-records-at-1-1-internet.md">DNS-records maken op 1&1 IONOS</a></p>
                             <p><a href="../dns/create-dns-records-at-network-solutions.md">DNS-records maken bij Network Solutions</a></p>
                             <p><b>Hulp voor veel meer populaire aanbieders:</b></p> 
-                            <P><a href="create-dns-records-at-any-dns-hosting-provider.md">DNS-records maken voor Office 365 wanneer u uw DNS-records beheert</a></p>
+                            <P><a href="create-dns-records-at-any-dns-hosting-provider.md">DNS-records voor Office 365 maken wanneer u uw DNS-records beheert</a></p>
                     </div>
                 </div>
             </div>
@@ -194,7 +192,7 @@ Gebruik deze informatiebronnen om aan de slag te gaan met uw eigen domein voor e
                             <p><a href="../dns/change-nameservers-at-network-solutions.md">Naamservers wijzigen voor het instellen van Office 365 bij Network Solutions</a></p>
                             <p><a href="domain-connect.md">Snel een GoDaddy-domein toevoegen aan Office 365</a></p>
                             <p><b>Hulp voor veel meer populaire domeinregistrars:</b></P> 
-                            <p><a href="../get-help-with-domains/set-up-your-domain-host-specific-instructions.md">Naamservers wijzigen in Office 365, zodat records voor u zijn ingesteld</a></p>
+                            <p><a href="../get-help-with-domains/set-up-your-domain-host-specific-instructions.md">Naamservers wijzigen in Office 365, zodat records voor u worden ingesteld</a></p>
                     </div>
                 </div>
             </div>
@@ -208,8 +206,7 @@ Gebruik deze informatiebronnen om aan de slag te gaan met uw eigen domein voor e
                         <h3>Wijzigingen aanbrengen</h3>
                             <p><a href="find-and-fix-issues.md">Problemen zoeken en oplossen na het wijzigen van uw domeinnaam of DNS-records</a></p>
                             <p><a href="../dns/add-or-edit-custom-dns-records.md">Aangepaste DNS-records toevoegen of bewerken in Office 365</a></p>
-                            <p><a href="../setup/domains-faq.md#can-i-add-custom-subdomains-or-multiple-domains-to-office-365">Aangepaste subdomeinen of meerdere domeinen toevoegen in Office 365?</a></p>
-                            <p><a href="../setup/domains-faq.md#how-do-i-change-how-my-dns-records-are-managed-in-office-365">Wijzigen hoe DNS voor uw domein wordt beheerd in Office 365</a></p>
+                            <p><a href="../setup/domains-faq.md#can-i-add-custom-subdomains-or-multiple-domains-to-microsoft-365">Aangepaste subdomeinen of meerdere domeinen toevoegen in Microsoft 365</a></p>
                             <p><a href="remove-a-domain.md">Een domein verwijderen</a></p>
                             <p><a href="https://docs.microsoft.com/office365/enterprise/office-365-integration">Office 365 integration with on-premises environments</a></p>
                             <p><a href="../contact-support-for-business-products.md">Hebt u nog vragen? Bel Ondersteuning of open een ondersteuningsticket</a></p>
