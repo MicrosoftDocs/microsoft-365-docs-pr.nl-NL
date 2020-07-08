@@ -115,6 +115,8 @@
                   href: mtp/advanced-hunting-overview.md
                 - name: De querytaal leren
                   href: mtp/advanced-hunting-query-language.md
+                - name: Aanbevolen procedures voor query's toepassen
+                  href: mtp/advanced-hunting-best-practices.md
                 - name: Werken met queryresultaten
                   href: mtp/advanced-hunting-query-results.md
                 - name: Gedeelde query's gebruiken
@@ -179,8 +181,6 @@
                   items:
                     - name: FileProfile()
                       href: mtp/advanced-hunting-fileprofile-function.md
-                - name: Aanbevolen procedures voor query's toepassen
-                  href: mtp/advanced-hunting-best-practices.md
                 - name: Aangepaste detectie
                   items:
                     - name: Overzicht van aangepaste detectie

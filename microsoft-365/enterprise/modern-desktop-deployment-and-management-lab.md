@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: 633e54dc2b3c83d0d6778176318512b03bd073a8
-ms.sourcegitcommit: aab8b94ea8a9d4f7c6b911d6dc5cde70722e00e5
+ms.openlocfilehash: 7090a9fcc279f9bedc5f86b43952a12e988069e1
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44869854"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049914"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit
 
@@ -52,12 +52,13 @@ Bovendien is het lab ontwikkeld om te worden verbonden met proefversies voor:
 
 ## <a name="step-by-step-labs"></a>Stapsgewijze labs
 
-Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario's voor implementatie en beheer. De labs zijn bijgewerkt voor de nieuwste versies van Intune en Configuration Manager (versie 1910). 
+Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario's voor implementatie en beheer. De labs zijn bijgewerkt voor de nieuwste versies van Intune en Configuration Manager. 
 
 ### <a name="device-and-app-readiness"></a>Gereedheid van apparaten en apps
 
   - Desktop Analytics
   - NIEUW! De nieuwe Microsoft Edge implementeren en bijwerken 
+  - NIEUW! Cloud Management Gateway (CMG) installeren en configureren 
   - Internet Explorer-modus 
   - Application Guard 
 
@@ -92,6 +93,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
   - Windows Defender Exploit Guard
   - Windows Defender-toepassingsbeheer
   - Windows Defender Advanced Threat Protection
+  - NIEUW! Eindpuntbeveiliging 
 
 ### <a name="os-deployment-and-feature-updates"></a>Implementatie van besturingssysteem en functie-updates
 
@@ -105,6 +107,8 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
   - Windows-updates beheren via Groepsbeleid
   - Onderhoud van Windows 10 met Configuration Manager en Intune
   - Microsoft 365-apps voor ondernemingen beheren met Configuration Manager
+  - NIEUW! Office-updates met Configuration Manager en Intune
+  - NIEUW! Microsoft Teams installeren 
 
 ### <a name="new-windows-virtual-desktop"></a>NIEUW! Windows Virtual Desktop
   - Windows Virtual Desktop: voorbereiden, implementeren, optimaliseren 
