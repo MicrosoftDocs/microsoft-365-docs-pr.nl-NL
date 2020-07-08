@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Meer informatie over het verwijderen van een oud domein uit Microsoft 365 en het verplaatsen van gebruikers en groepen naar een ander domein.
-ms.openlocfilehash: fdf0b9db2c23632a213e860bd54097c1d453cf55
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 6f5e36a897316c8cdc057a725957c54e7eb53edc
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432389"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079759"
 ---
 # <a name="remove-a-domain"></a>Een domein verwijderen
 
@@ -58,7 +58,7 @@ Verwijdert u uw domein omdat u het wilt toevoegen aan een ander Microsoft 365-ab
 
 5. Selecteer in het deelvenster **Domeinen wijzigen** een ander domein.
 
-U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verwijderen. Wanneer u het domein voor uw account bewerkt, moet u zich afmelden en weer aanmelden met het nieuwe domein dat u kiest om door te gaan.
+You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.
 
 ::: moniker-end
 
@@ -74,7 +74,7 @@ U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verw
 
 5. Selecteer in het deelvenster **Domeinen bewerken** een ander domein.
   
-U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verwijderen. Wanneer u het domein voor uw account bewerkt, moet u zich afmelden en weer aanmelden met het nieuwe domein dat u kiest om door te gaan.
+You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.
 
 ::: moniker-end
 
@@ -90,7 +90,7 @@ U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verw
 
 5. Selecteer in het deelvenster **Domeinen bewerken** een ander domein.
   
-U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verwijderen. Wanneer u het domein voor uw account bewerkt, moet u zich afmelden en weer aanmelden met het nieuwe domein dat u kiest om door te gaan.
+You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.
 
 ::: moniker-end
 
@@ -212,7 +212,7 @@ U kunt ook PowerShell gebruiken om gebruikers te verplaatsen naar een ander dome
 
 Het kan slechts 5 minuten duren voordat Microsoft 365 een domein verwijdert als er niet op veel plaatsen wordt verwezen, zoals beveiligingsgroepen, distributielijsten, gebruikers en Microsoft 365-groepen. Als er veel verwijzingen zijn waarin het domein wordt gebruikt, kan het enkele uren (een dag) duren voordat het domein is verwijderd.
   
-Als u honderden of duizenden gebruikers hebt, gebruikt u PowerShell om alle gebruikers te zoeken en ze vervolgens naar een ander domein te verplaatsen. Anders is het mogelijk dat een klein aantal gebruikers in de UI over het hoofd wordt gezien. Wanneer u het domein vervolgens wilt verwijderen, lukt dit niet en weet u niet waarom. Zie [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) voor meer informatie. Gebruik [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0) om het standaarddomein in te stellen.
+If you have hundreds or thousands of users, use PowerShell to query for all users and then move them to another domain. Otherwise, it's possible for a handful of users to be missed in the UI, and then when you go to remove the domain, you won't be able to and you won't know why. See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information. To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).
   
 ## <a name="still-need-help"></a>Meer hulp nodig?
 
@@ -221,7 +221,7 @@ Als u honderden of duizenden gebruikers hebt, gebruikt u PowerShell om alle gebr
 > [!NOTE]
 > U kunt het ['.onmicrosoft.com'](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)-domein niet uit uw account verwijderen.
   
-Werkt het nog steeds niet? Uw domein moet mogelijk handmatig worden verwijderd. [Bel ons gerust](../contact-support-for-business-products.md). We helpen u graag.
+Still not working? Your domain might need to be manually removed. [Give us a call](../contact-support-for-business-products.md) and we'll help you take care of it!
   
 ::: moniker-end
 
@@ -229,7 +229,7 @@ Werkt het nog steeds niet? Uw domein moet mogelijk handmatig worden verwijderd. 
 
 [Veelgestelde vragen over domeinen](../setup/domains-faq.md)
 
-[Hulp krijgen bij Office 365-domeinen](get-help-with-domains.md)
+[Hulp krijgen bij Microsoft 365-domeinen](get-help-with-domains.md)
 
 [Overstappen op een ander Microsoft 365 voor Bedrijven-abonnement](../../commerce/subscriptions/switch-to-a-different-plan.md)
 

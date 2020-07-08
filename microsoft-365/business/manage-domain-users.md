@@ -23,18 +23,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Synchroniseer domeingestuurde gebruikers met Microsoft 365 voor bedrijven.
-ms.openlocfilehash: a22e567fa99456b35742fcf40c07193c96c83cf0
-ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
+ms.openlocfilehash: af9cb7c9b2b639edc2375679a73ab41c4cf6de71
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44565685"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080057"
 ---
 # <a name="synchronize-domain-users-to-microsoft-365"></a>Domeingebruikers synchroniseren met Microsoft 365
 
 ## <a name="1-prepare-for-directory-synchronization"></a>1. Voorbereiden op directorysynchronisatie 
 
-Voordat u uw gebruikers en computers synchroniseert vanuit het lokale Active Directory-domein, controleert [u Voorbereiden op adreslijstsynchronisatie naar Office 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). In het bijzonder:
+Voordat u uw gebruikers en computers synchroniseert vanuit het lokale Active Directory-domein, controleert [u Voorbereiden op adreslijstsynchronisatie naar Microsoft 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). In het bijzonder:
 
    - Zorg ervoor dat er geen duplicaten in uw map bestaan voor de volgende kenmerken: **e-mail,** **proxyAdressen**en **userPrincipalName**. Deze waarden moeten uniek zijn en eventuele duplicaten moeten worden verwijderd.
    
@@ -59,7 +59,7 @@ Als u uw gebruikers, groepen en contactpersonen uit de lokale Active Directory w
  5. Volg de wizardstappen om Azure AD Connect te downloaden en deze te gebruiken om uw domeingestuurde gebruikers te synchroniseren met Microsoft 365.
 
 
-Zie [Adreslijstsynchronisatie instellen voor Office 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) voor meer informatie.
+Zie [Mapsynchronisatie instellen voor Microsoft 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) voor meer informatie.
 
 Terwijl u uw opties voor Azure AD Connect configureert, raden we u aan **wachtwoordsynchronisatie,** **naadloze aanmelding met één aanmelding**en de functie voor het **terugschrijven van wachtwoorden** in te schakelen, die ook wordt ondersteund in Microsoft 365 voor bedrijven.
 

@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Ontdek de installatiestappen voor Microsoft 365 Business Premium, waaronder het toevoegen van een domein en gebruikers, het instellen van beveiligingsbeleid en meer.
-ms.openlocfilehash: 89186fbd00e47385f0320c45f7fc44c258742aa3
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: efa7934ece0dfeac3c4b20daa37da6f1160901e7
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785698"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079807"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Microsoft 365 Business Premium instellen in de wizard Setup
 
@@ -49,37 +49,37 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
 
 Wanneer u Microsoft 365 Business Premium koopt, u een domein gebruiken dat u bezit of een domein kopen tijdens de [aanmelding.](sign-up.md)
 
-- Als u een nieuw domein hebt gekocht toen u zich aanmeldde, is uw domein helemaal ingesteld en u naar [Gebruikers toevoegen en licenties toewijzen.](#add-users-and-assign-licenses)
+- Als u tijdens de registratie een nieuw domein hebt gekocht, is uw domein helemaal ingesteld en kunt u doorgaan met [Gebruikers toevoegen en licenties toewijzen](#add-users-and-assign-licenses).
 
-### <a name="add-your-domain-to-personalize-sign-in"></a>Uw domein toevoegen om aanmelding te personaliseren
+### <a name="add-your-domain-to-personalize-sign-in"></a>Uw domein toevoegen om uw aanmelding te personaliseren
 
-1. Meld u aan bij [microsoft 365-beheercentrum](https://admin.microsoft.com) met behulp van uw globale beheerdersreferenties. 
+1. Meld u aan bij [Microsoft 365-beheercentrum](https://admin.microsoft.com) met uw globale-beheerdersreferenties. 
 
-2. Kies **Ga naar setup** om de wizard te starten.
+2. Kies **Naar setup** om de wizard te starten.
 
     ![Selecteer Ga naar setup.](../media/gotosetupinadmincenter.png)
 
-3. Op de pagina **Uw Office-apps installeren** u de apps optioneel op uw eigen computer installeren.
+3. Op de pagina **Uw Office-apps installeren** kunt u desgewenst de apps op uw eigen computer installeren.
     
 4. Voer in de stap **Domein toevoegen** de domeinnaam in die u wilt gebruiken (zoals contoso.com).
 
     > [!IMPORTANT]
-    > Als u een domein hebt gekocht tijdens de aanmelding, ziet u hier **geen domeinstap toevoegen.** Ga in plaats daarvan naar [Gebruikers toevoegen.](#add-users-and-assign-licenses)
+    > Als u tijdens de registratie een domein hebt gekocht, ziet u de stap **Een domein toevoegen** hier niet. Ga in plaats daarvan naar [Gebruikers toevoegen](#add-users-and-assign-licenses).
 
     ![Schermafbeelding van de aanmeldingspagina Personaliseren.](../media/adddomain.png)
 
     
-4. Volg de stappen in de wizard OM [DNS-records te maken bij een DNS-hostingprovider voor Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) die controleert of u eigenaar bent van het domein. Als u uw domeinhost kent, raadpleegt u ook de [specifieke instructies voor de host.](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions)
+4. Volg de stappen in de wizard OM [DNS-records te maken bij een DNS-hostingprovider voor Microsoft 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) die controleert of u eigenaar bent van het domein. Als u weet wat uw domeinhost is, raadpleegt u ook de [hostspecifieke instructies](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
 
-    Als uw hostingprovider GoDaddy is of een andere host ingeschakeld met [domeinverbinden,](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect)is het proces eenvoudig en wordt u automatisch gevraagd om u aan te melden en Microsoft namens u te laten verifiëren.
+    Als uw hostingprovider GoDaddy of een andere host is die is ingeschakeld met [domeinverbinding](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), is het proces eenvoudig en wordt u automatisch gevraagd om u aan te melden en u namens Microsoft te laten verifiëren.
 
-    ![Selecteer Toegang toestaan op de pagina GoDaddy-bevestiging.](../media/godaddyauth.png)
+    ![Selecteer Autoriseren op de pagina GoDaddy Toegang bevestigen.](../media/godaddyauth.png)
 
 ### <a name="add-users-and-assign-licenses"></a>Gebruikers toevoegen en licenties toewijzen
 
-U gebruikers toevoegen aan de wizard, maar u later ook [gebruikers toevoegen](add-users-m365b.md) in het beheercentrum. Als u een lokale domeincontroller hebt, u bovendien gebruikers toevoegen met [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express).
+U kunt gebruikers toevoegen in de wizard, maar u kunt ook [gebruikers later toevoegen](add-users-m365b.md) in het beheercentrum. Als u een lokale domeincontroller hebt, kunt u ook gebruikers toevoegen met [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express).
 
-#### <a name="add-users-in-the-wizard"></a>Gebruikers toevoegen aan de wizard
+#### <a name="add-users-in-the-wizard"></a>Gebruikers toevoegen in de wizard
 
 Alle gebruikers die u in de wizard toevoegt, krijgen automatisch een Microsoft 365 Business Premium-licentie toegewezen.
 
@@ -87,19 +87,19 @@ Alle gebruikers die u in de wizard toevoegt, krijgen automatisch een Microsoft 3
 
 1. Als uw Microsoft 365 Business Premium-abonnement bestaande gebruikers heeft (bijvoorbeeld als u Azure AD Connect hebt gebruikt), krijgt u een optie om nu licenties aan hen toe te wijzen. Wijs nu licenties aan hen toe.
 
-2. Nadat u de gebruikers hebt toegevoegd, krijgt u ook een optie om referenties te delen met de nieuwe gebruikers die u hebt toegevoegd. U kunt deze afdrukken, hun een e-mail sturen of deze downloaden.
+2. Nadat u de gebruikers hebt toegevoegd, krijgt u ook een optie voor het delen van referenties met de nieuwe gebruikers die u hebt toegevoegd. U kunt deze afdrukken, hun een e-mail sturen of deze downloaden.
 
 ### <a name="connect-your-domain"></a>Uw domein verbinden
 
 > [!NOTE]
-> Als u ervoor kiest om het .onmicrosoft-domein te gebruiken of Azure AD Connect hebt gebruikt om gebruikers in te stellen, ziet u deze stap niet.
+> Als u ervoor hebt gekozen om het domein. onmicrosoft te gebruiken of Azure AD Connect hebt gebruikt voor het instellen van gebruikers, wordt deze stap niet weergegeven.
   
 Als u services wilt instellen, moet u enkele records bij uw DNS-host of domeinregistrar bijwerken.
   
-1. Meestal wordt uw registrar automatisch gedetecteerd met de installatiewizard en wordt een koppeling weergegeven naar stapsgewijze instructies voor het bijwerken van uw NS-records op de website van de registrar. Als dit niet het geval is, [wijzigt u naamservers om Office 365 in te stellen met een domeinregistrar](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar). 
+1. Meestal wordt uw registrar automatisch gedetecteerd met de wizard Setup, en wordt een koppeling weergegeven naar stapsgewijze instructies voor het bijwerken van uw NS-records op de website van de registrar. Als dit niet het geval is, [wijzigt u naamservers om Microsoft 365 in te stellen met een domeinregistrar](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar). 
 
-    - Als u bestaande DNS-records hebt, bijvoorbeeld een bestaande website, maar uw DNS-host is ingeschakeld voor [domeinbinding,](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect)kiest u **Records voor mij toevoegen.** Accepteer **op** de pagina Kies uw online services alle standaardinstellingen en kies **Volgende**en kies **Autoriseren** op de pagina van uw DNS-host.
-    - Als u bestaande DNS-records hebt met andere DNS-hosts (niet ingeschakeld voor domeinverbintending), wilt u uw eigen DNS-records beheren om ervoor te zorgen dat de bestaande services verbonden blijven. Zie [basisprincipes van domeinen](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) voor meer informatie.
+    - Als u bestaande DNS-records hebt, bijvoorbeeld een bestaande website, maar uw DNS-host is ingeschakeld voor [domeinverbinding](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), kiest u **Records toevoegen voor mij**. Accepteer alle standaardinstellingen op de pagina **Uw online services kiezen**, kies **Volgende** en kies **Autoriseren** op de pagina van uw DNS-host.
+    - Als u bestaande DNS-records hebt met andere DNS-hosts (niet ingeschakeld voor domeinverbinding), kunt u uw eigen DNS-records beheren om ervoor te zorgen dat de bestaande services verbonden blijven. Zie [basisprincipes van domeinen](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) voor meer informatie.
 
         ![Records pagina activeren.](../media/activaterecords.png)
 

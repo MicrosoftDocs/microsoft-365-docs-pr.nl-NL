@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie over Microsoft 365 voor bedrijven, hoe u dit instellen en hoe u de apparaten en pc's van uw gebruikers voorbereiden om ervoor te zorgen dat ze worden beschermd door Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 08a956cc7e68bbba74d29bafaab77065be1321ce
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: aedcf78f10707dbe6a1d1527effea7d56283dce0
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45022112"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080038"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Aan de slag met Microsoft 365 voor bedrijven
 
@@ -80,9 +80,9 @@ Meld u aan bij [het Microsoft 365-beheercentrum](https://portal.office.com/admin
     
     Als u **permanent van een lokale Active Directory naar de cloud gaat,** u naar het Microsoft 365-beheercentrum gaan en de installatiewizard gebruiken om uw gebruikers handmatig toe te voegen, of u een eenmalige synchronisatie uitvoeren met Azure AD Connect. U kunt dit op twee manieren doen: 
     
-    - Als u ook een Exchange 2010-, Exchange 2013- of Exchange 2016-server hebt, u [Minimale hybride gebruiken om Exchange-postvakken snel te migreren naar Office 365](https://docs.microsoft.com/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate). De minimale hybride stappen omvatten een eenmalige synchronisatie van gebruikers naar Azure AD en e-mailmigratie van on-premises naar de cloud. Nadat de e-mailmigratie is voltooid, wordt de mapsynchronisatie automatisch uitgeschakeld wanneer u deze methode gebruikt.
+    - Als u ook een Exchange 2010-, Exchange 2013- of Exchange 2016-server hebt, u [Minimal Hybrid gebruiken om Exchange-postvakken snel te migreren naar Microsoft 365.](https://docs.microsoft.com/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate) De minimale hybride stappen omvatten een eenmalige synchronisatie van gebruikers naar Azure AD en e-mailmigratie van on-premises naar de cloud. Nadat de e-mailmigratie is voltooid, wordt de mapsynchronisatie automatisch uitgeschakeld wanneer u deze methode gebruikt.
     
-    - Gebruik de wizard Directory sync om uw gebruikers te synchroniseren met de cloud. Volg de stappen in [Mapsynchronisatie instellen voor Microsoft 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) om dit proces te voltooien. Nadat u uw gebruikers hebt gesynchroniseerd met de cloud, moet u [adreslijstsynchronisatie voor Office 365 uitschakelen.](https://docs.microsoft.com/office365/enterprise/turn-off-directory-synchronization)
+    - Gebruik de wizard Directory sync om uw gebruikers te synchroniseren met de cloud. Volg de stappen in [Mapsynchronisatie instellen voor Microsoft 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) om dit proces te voltooien. Nadat u uw gebruikers hebt gesynchroniseerd met de cloud, moet u [de mapsynchronisatie voor Microsoft 365 uitschakelen.](https://docs.microsoft.com/office365/enterprise/turn-off-directory-synchronization)
     
     U moet ook elke gebruiker die op deze manier is toegevoegd, een licentie geven aan Microsoft 365 voor bedrijven. U dit doen in de [wizard Setup](set-up.md) of u [licenties toewijzen aan gebruikers.](../admin/manage/assign-licenses-to-users.md)
     

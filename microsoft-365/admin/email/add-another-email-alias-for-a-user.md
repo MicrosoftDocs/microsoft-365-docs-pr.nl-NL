@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Ontdek hoe u meer dan één e-mailadres, e-mailalias genaamd, hebben gekoppeld aan uw Microsoft 365 voor bedrijven-account. '
-ms.openlocfilehash: c0e71ef150ccf592ea4f808a5e6609e1675767a4
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 030d8022a8503f6b383d03b0dd97720f66d8f2f6
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780287"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080013"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Een ander e-mailalias toevoegen voor een gebruiker
 
@@ -73,12 +73,12 @@ Hiervoor moet [u beheerdersmachtigingen](../add-users/about-admin-roles.md) hebb
     > Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u naar de beheerconsole van GoDaddy of de andere partner gaan om de nieuwe alias als het primaire e-mailadres in te stellen. 
   
     > [!TIP]
-    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)als u een andere domeinnaam aan de lijst wilt toevoegen. 
+    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365 als](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)u een andere domeinnaam aan de lijst wilt toevoegen. 
   
      
 5. Als u klaar bent, kiest u **Wijzigingen opslaan**.
     
-6. Wacht 24 uur totdat de nieuwe aliassen volledig zijn verwerkt in Office 365.
+6. Wacht 24 uur tot de nieuwe aliassen zijn gevuld in Microsoft 365.
     
     De gebruiker heeft nu een primair adres en een alias. Alle e-mail die naar eliza Hoffman's primaire adres wordt verzonden, Eliza@NodPublishers.com en haar alias Sales@NodPublishers.com, gaan bijvoorbeeld naar Eliza's Postvak IN.
     
@@ -99,17 +99,17 @@ Hiervoor moet [u beheerdersmachtigingen](../add-users/about-admin-roles.md) hebb
     > [!Important] 
     > Als u het foutbericht "**Een parameter kan niet worden gevonden die overeenkomt met parameternaam 'EmailAddresses**", betekent dit dat het iets langer duurt om het instellen van uw tenant of uw aangepaste domein af te ronden als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even, zodat de instellingsprocedure kan worden voltooid en probeer het vervolgens opnieuw. Als het probleem aanhoudt, bel dan de Ondersteuning; zij voeren dan een volledige synchronisatie voor u uit.
 
-4. Typ in het tekstvak onder **Alias**het eerste deel van de nieuwe e-mailalias. Als u uw eigen domein hebt toegevoegd aan Office 365, kunt u het domein voor de nieuwe e-mailalias kiezen in de vervolgkeuzelijst. Selecteer Vervolgens **Toevoegen**.
+4. Typ in het tekstvak onder **Alias**het eerste deel van de nieuwe e-mailalias. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, u het domein voor de nieuwe e-mailalias kiezen met de vervolgkeuzelijst. Selecteer Vervolgens **Toevoegen**.
 
     > [!IMPORTANT]
     > Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u naar de beheerconsole van GoDaddy of de andere partner gaan om de nieuwe alias als het primaire e-mailadres in te stellen. 
   
     > [!TIP]
-    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)als u een andere domeinnaam aan de lijst wilt toevoegen. 
+    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365 als](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)u een andere domeinnaam aan de lijst wilt toevoegen. 
 
 5. Wanneer u klaar bent, selecteert u **Opslaan**.
 
-6. Wacht 24 uur totdat de nieuwe aliassen volledig zijn verwerkt in Office 365. 
+6. Wacht 24 uur tot de nieuwe aliassen zijn gevuld in Microsoft 365. 
     
     De gebruiker heeft nu een primair adres en een alias. Alle e-mail die naar eliza Hoffman's primaire adres wordt verzonden, Eliza@NodPublishers.com en haar alias Sales@NodPublishers.com, gaan bijvoorbeeld naar Eliza's Postvak IN.
     
@@ -130,17 +130,17 @@ Hiervoor moet [u beheerdersmachtigingen](../add-users/about-admin-roles.md) hebb
     > [!Important] 
     > Als u het foutbericht "**Een parameter kan niet worden gevonden die overeenkomt met parameternaam 'EmailAddresses**", betekent dit dat het iets langer duurt om het instellen van uw tenant of uw aangepaste domein af te ronden als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even, zodat de instellingsprocedure kan worden voltooid en probeer het vervolgens opnieuw. Als het probleem aanhoudt, bel dan de Ondersteuning; zij voeren dan een volledige synchronisatie voor u uit.
 
-4. Typ in het tekstvak onder **Alias**het eerste deel van de nieuwe e-mailalias. Als u uw eigen domein hebt toegevoegd aan Office 365, kunt u het domein voor de nieuwe e-mailalias kiezen in de vervolgkeuzelijst. Selecteer Vervolgens **Toevoegen**.
+4. Typ in het tekstvak onder **Alias**het eerste deel van de nieuwe e-mailalias. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, u het domein voor de nieuwe e-mailalias kiezen met de vervolgkeuzelijst. Selecteer Vervolgens **Toevoegen**.
 
     > [!IMPORTANT]
     > Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u naar de beheerconsole van GoDaddy of de andere partner gaan om de nieuwe alias als het primaire e-mailadres in te stellen. 
   
     > [!TIP]
-    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)als u een andere domeinnaam aan de lijst wilt toevoegen. 
+    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365 als](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)u een andere domeinnaam aan de lijst wilt toevoegen. 
 
 5. Wanneer u klaar bent, selecteert u **Opslaan**.
 
-6. Wacht 24 uur totdat de nieuwe aliassen volledig zijn verwerkt in Office 365. 
+6. Wacht 24 uur tot de nieuwe aliassen zijn gevuld in Microsoft 365. 
     
     De gebruiker heeft nu een primair adres en een alias. Alle e-mail die naar eliza Hoffman's primaire adres wordt verzonden, Eliza@NodPublishers.com en haar alias Sales@NodPublishers.com, gaan bijvoorbeeld naar Eliza's Postvak IN.
     

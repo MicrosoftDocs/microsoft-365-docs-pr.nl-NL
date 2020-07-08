@@ -22,11 +22,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Informatie over domeinen en de bijbehorende DNS-records om zo uw domeinen beter te beheren.
-ms.openlocfilehash: 2fc581968a4cec3c6e9b5c51f717a8cfa78cd6a3
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: a69f6a34585f7ff033a30e10254f29b89d978d3e
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049652"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079989"
 ---
 # <a name="dns-basics"></a>DNS-basisprincipes
 
@@ -144,7 +145,7 @@ Waarom kan het zonebestand van uw domein zich ergens buiten uw domeinregistrar b
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
-## <a name="why-add-a-domain-in-office-365"></a>Waarom zou ik een domein toevoegen in Office 365?
+## <a name="why-add-a-domain-in-microsoft-365"></a>Waarom zou ik een domein toevoegen in Microsoft 365?
 
 
 Als u een aangepast domein, zoals fourthcoffee.com, toevoegt aan Microsoft 365, kunt u kortere, meer vertrouwde e-mailadressen en gebruikers-id's met de service gebruiken. U [krijgt een domein toegewezen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) wanneer u zich aanmeldt voor een Microsoft 365-account, maar dit bevat onmicrosoft.com. Veel mensen voegen liever het domein van hun organisatie of bedrijf toe als ze Microsoft 365 voor e-mail willen gaan gebruiken. 

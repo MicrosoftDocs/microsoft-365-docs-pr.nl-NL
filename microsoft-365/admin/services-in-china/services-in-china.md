@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Meer informatie over Office 365 dat wordt beheerd door 21Vianet dat is ontworpen om te voldoen aan de behoeften aan veilige, betrouwbare en schaalbare cloudservices in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 7c8459c8c3da67ac4cc80ac2912e368f23cd8e10
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 133df44635927d185e72c7981953e07162d458a9
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779915"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079735"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Office 365, beheerd door 21Vianet
 
@@ -57,7 +57,7 @@ Zie Aan [de](../admin-overview/get-started-with-office-365.md)slag als u wilt we
 |:-----|:-----|
 |Aangepaste domeinen  <br/> |Beheerders kunnen aangepaste domeinen maken en/of gebruiken die zijn geregistreerd via Chinees-specifieke domeinproviders. Als u geen aangepast domein hebt, u [een domeinnaam kopen](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/buy-a-domain-name) bij een domeinnaamregistrar. Als u er al een hebt, [zoekt u uw domeinregistrar of DNS-hostingprovider](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-your-domain-registrar).  <br/> Als u bovendien een openbare website maakt met de Office 365 SharePoint Online-service, vereist het nalevingsbeleid voor Internet compliance in China dat u een ICP-nummer (Internet Content Provider) krijgt.  **Let op:** Automatische validatie voor niet-toegestane woorden in aangepaste domeinnamen is niet beschikbaar.           |
 |Abonnementen, facturering en technische ondersteuning  <br/> |Verzorgd door 21Vianet. Zie Contact opnemen met [ondersteuning voor Office 365 voor Bedrijven](../contact-support-for-business-products.md)voor informatie over het contact opnemen met ondersteuning voor Ondersteuning voor Office 365 voor Bedrijven .  <br/> |
-|Self-service voor wachtwoordherstel  <br/> |Alleen beschikbaar voor beheerders. Zie [Uw wachtwoord wijzigen of opnieuw instellen in Microsoft 365 dat wordt beheerd door 21Vianet](https://support.microsoft.com/office/d8eb5b62-9d0e-4267-a9bf-2aa491ee6d0b).  <br/> |
+|Self-service voor wachtwoordherstel  <br/> |Alleen beschikbaar voor beheerders. Zie [Uw wachtwoord wijzigen of opnieuw instellen in Office 365 dat wordt beheerd door 21Vianet](https://support.microsoft.com/office/d8eb5b62-9d0e-4267-a9bf-2aa491ee6d0b).  <br/> |
 |Beveiliging, privacy, naleving en details over ondersteuningsniveaus  <br/> |Verzorgd door 21Vianet.  <br/> |
 |Office-bureaubladinstellingen  <br/> |Office-bureaubladinstellingen zijn niet beschikbaar voor Office 2010 en Office 2007. Beheerders kunnen echter [huidige Office-bureaubladtoepassingen configureren om met Office 365 te werken.](https://support.microsoft.com/office/85646aba-7e6c-4e24-a047-8fd9ce4f9d2e)  <br/> |
 |Ondersteuning voor mobiele apparaten en apparaten\*  <br/> | Binnenkort zijn de volgende mobiele functies:  <br/>  Beheer van mobiele apparaten (MDM)  <br/>  Blackberry Business Cloud Services (BBCS) is niet beschikbaar, maar u Exchange ActiveSync-apparaten of een aanbod van Research in Motion (RIM, de draadloze e-mailoplossing van BlackBerry) gebruiken om Blackberry Enterprise Server (BES) uit te voeren.  <br/>  Zie Mobiele toegang voor [uw gebruikers instellen en beheren voor](https://support.microsoft.com/office/01fff219-4492-40f2-82d3-fd2ffc0ad802)meer informatie over mobiele ondersteuning.  <br/> |

@@ -8,12 +8,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: e49c2271bd7005c674447cd59d5ccf7439cf4710
-ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
+ms.openlocfilehash: ca6bc91ebf300afe47326985cc923d929b2cd412
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44418876"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080079"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Gearchiveerde apparaten van Microsoft Managed Desktop
 
@@ -35,12 +35,14 @@ Als u wilt deelnemen aan Microsoft Managed Desktop, moet een apparaat een van de
 
 | Model  | Minimale specificaties  | Aanvullende eisen  | Pensioendatum |
 |---------|---------|---------|---------|
+| Dell Precision 3530| 256 GB / Intel i5 / 8 GB RAM | IR-camera vereist | **22 mei 2023** |
 | Dell Latitude 5490| 256 GB / Intel i5 / 8 GB RAM | IR-camera vereist | **9 januari 2023** |
 | Dell Latitude 7390 7390 2-in-1 / 7490 | 256 GB / Intel i5 / 8 GB RAM   | IR-camera vereist | **9 januari 2023** |
 |HP EliteBook 830 / 840 / 850 G5| 128 GB / Intel i5 / 8 GB RAM | SKU met 5VS01AV, IR-camera of vingerafdruksensor vereist  | **15 februari 2023** |
 |HP Elite x2 1013 G3| 256 GB / Intel i5 / 8 GB RAM | SKU met 5VS03AV, IR-camera vereist |**14 mei 2023** |
 |HP EliteBook x360 1030 G3| 256 GB / Intel i5 / 8 GB RAM | SKU met 5VS01AV, IR-camera vereist |**14 mei 2023** |
 |HP EliteBook x360 1040 G5| 256 GB / Intel i5 / 8 GB RAM | SKU met 5VS01AV, IR-camera vereist | **23 okt 2023** |
+|HP ProBook x360 440 G1| 128 GB / Intel i3 / 8 GB RAM | SKU met 5VS04AV, IR-camera of vingerafdruklezer vereist | **6 juni 2023** |
 |Surface Book 2| 256 GB / Intel i5 / 8 GB RAM | Geen | **16 november 2022** |
 |Surface Go| 128 GB / Intel 4415Y / 8GB RAM | Geen | **2 augustus 2023** |
 |Surface-laptop| 256 GB / Intel i5 / 8 GB RAM | Geen | **20 mei 2022** |
