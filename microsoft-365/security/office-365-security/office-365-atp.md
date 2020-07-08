@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 02/24/2020
+ms.date: ''
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
-ms.openlocfilehash: 52cb0d00d0c01adc34ee480f6daca9a6b509c671
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: ffde9288338f14ea23fa39990ccd9363c7fd2a84
+ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818805"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45039376"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -45,9 +45,8 @@ Office 365 ATP (Advanced Threat Protection) beschermt uw organisatie tegen kwaad
 
 De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement.
 
-|||
+| Office 365 ATP-abonnement 1 | Office 365 ATP-abonnement 2 |
 |---|---|
-|**Office 365 ATP-abonnement 1**|**Office 365 ATP-abonnement 2**|
 |Functies voor configuratie, beveiliging en detectie:<br/>• [Veilige bijlagen](atp-safe-attachments.md)<br/>• [Veilige koppelingen](atp-safe-links.md)<br/>• [ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>• [ATP-bescherming tegen phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)<br/>• [Realtime detectie](threat-explorer.md)|Functies van Office 365 ATP-abonnement 1<br/>--- plus ---<br/>Functies voor automatisering, onderzoek, herstel en onderwijs:<br/>• [Bedreigingsoverzichten](threat-trackers.md)<br/>• [Bedreigingsverkenner](threat-explorer.md)<br/>• [Geautomatiseerd onderzoek en reactie](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) <br/>• [Aanvalssimulator](attack-simulator.md) |
 |
 
@@ -56,6 +55,8 @@ De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement
 - Office 365 ATP-abonnement 1 is inbegrepen in Microsoft 365 Business Premium.
 
 - Office 365 ATP-abonnement 1 en Office 365 ATP-abonnement 2 zijn elk beschikbaar als invoegtoepassing voor bepaalde abonnementen. Zie [Beschikbaarheid van functies in ATP-abonnementen](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+
+- De [Veilige documenten](safe-docs.md)-functie is alleen beschikbaar voor gebruikers met Microsoft 365 E5- of Microsoft 365 E5 Security-licentie (niet opgenomen in Office 365 ATP-abonnementen).
 
 - Als uw huidige abonnement Office 365 ATP niet bevat, [neem dan contact op met de verkoopafdeling voor een proefabonnement](https://go.microsoft.com/fwlink/p/?LinkId=518644) en bekijk hoe ATP werkt voor uw organisatie.
 
