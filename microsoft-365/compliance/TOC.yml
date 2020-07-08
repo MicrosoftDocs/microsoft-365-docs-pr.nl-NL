@@ -161,6 +161,10 @@
       href: technical-reference-details-about-encryption.md
     - name: Stopzetten van TLS 1.0 en 1.1 voor Office 365
       href: tls-1.0-and-1.1-deprecation-for-office-365.md
+    - name: Stopzetten van TLS 1.0 en 1.1 in Office 365 GCC High en DoD
+      href: tls-1-2-in-office-365-gcc.md
+    - name: TLS 1.2 in Office 365
+      href: prepare-tls-1.2-in-office-365.md
     - name: Klantsleutel
       items:
         - name: Serviceversleuteling met klantsleutel in Office 365
@@ -488,15 +492,19 @@
           href: overview-ediscovery-20.md
         - name: Aan de slag met Advanced eDiscovery
           href: get-started-with-advanced-ediscovery.md
-        - name: Werken met beheerders
+        - name: Werken met beheerders en niet-beheerde gegevensbronnen
           href: managing-custodians.md
           items:
             - name: Beheerders toevoegen aan een case
               href: add-custodians-to-case.md
+            - name: Beheerders bulktoevoegen aan een case
+              href: bulk-add-custodians.md
             - name: Beheerders beheren
               href: manage-new-custodians.md
             - name: Activiteit van beheerders weergeven
               href: view-custodian-activity.md
+            - name: Niet-beheerde gegevensbronnen toevoegen aan een case
+              href: non-custodial-data-sources.md
         - name: Werken met communicatie
           href: managing-custodian-communications.md
           items:
@@ -809,19 +817,19 @@
   items:
     - name: Microsoft Service Trust Portal
       href: get-started-with-service-trust-portal.md
-    - name: Compliancescore en compliancebeheer
+    - name: Compliancescore en compliancebeheer (preview)
       items:
         - name: Compliancescore (preview)
           href: compliance-score.md
-        - name: Compliancescore (preview) instellen
+        - name: Compliancescore instellen
           href: compliance-score-setup.md
-        - name: Werken met compliancescore (preview)
-          href: working-with-compliance-score.md
-        - name: Berekening van compliancescore (preview)
+        - name: Compliancescore aanpassen met beoordelingen
+          href: compliance-score-assessments.md
+        - name: Werk met verbeteracties toewijzen en uitvoeren
+          href: compliance-score-improvement-actions.md
+        - name: Berekening van de score
           href: compliance-score-methodology.md
-        - name: Opmerkingen bij de release van compliancescore (preview)
-          href: compliance-score-release-notes.md
-        - name: Veelgestelde vragen over compliancescore (preview)
+        - name: Veelgestelde vragen
           href: compliance-score-faq.md
         - name: Compliancebeheer (preview)
           href: compliance-manager-overview.md
