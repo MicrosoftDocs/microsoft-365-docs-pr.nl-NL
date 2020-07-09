@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: Wanneer gebruikers zijn aangemeld met geldige werk- of schoolaccounts, kunnen ze cloudgebaseerde assistentieservices met Cortana krijgen in Microsoft 365-ervaringen die voldoen aan de beloftes inzake privacy, beveiliging en naleving van Office 365 op bedrijfsniveau.
-ms.openlocfilehash: 6c1eb42ad54c0cfb25f84b9f584171eb7d198bb9
-ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
+ms.openlocfilehash: 7b8f60f5138de63234520f18d6de0973b74482ed
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410999"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083548"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana in Microsoft 365
 
@@ -33,7 +33,7 @@ Cortana, uw persoonlijke productiviteitsassistent, biedt AI-aangedreven ervaring
 
 Als persoonlijke productiviteitsassistent is Cortana ontworpen om functies te leveren die veilig en veilig office 365-gegevens verwerken en verantwoorden, zoals e-mails, bestanden, chats, enz., om tijd te besparen, de efficiëntie te verhogen en de productiviteit van uw gebruikers te verbeteren.
 
-Verder richten we Cortana op de productiviteit van bedrijven.
+Verder richten we Cortana op de productiviteit van bedrijven. 
 
 - In overeenstemming met andere Office 365-services voldoen Cortana enterprise-services aan dezelfde beloftes voor privacy, beveiliging en naleving op bedrijfsniveau, zoals blijkt uit de [Voorwaarden voor Online Services (OST).](https://www.microsoft.com/licensing/product-licensing/products)
 
@@ -80,6 +80,26 @@ Beheerders kunnen Cortana configureren in Windows 10 voor hun organisatie met be
 Vanaf Windows 10, versie 2004, cortana is een Universal Windows Platform (UWP) app vooraf geïnstalleerd met Windows en wordt regelmatig bijgewerkt via de Microsoft Store. Als u de nieuwste updates voor Cortana wilt ontvangen, moet u [updates inschakelen via de Microsoft Store.](https://docs.microsoft.com/windows/configuration/stop-employees-from-using-microsoft-store)
 
 [Meer informatie over Cortana in Windows 10](https://docs.microsoft.com/windows/configuration/cortana-at-work/cortana-at-work-overview)
+
+### <a name="cortana-voice-assistance-in-teams"></a>Cortana-spraakassistentie in Teams
+
+Cortana-spraakassistentie in de mobiele teams-app stelt Microsoft 365 Enterprise-gebruikers in staat om communicatie-, samenwerkings- en vergadergerelateerde taken te stroomlijnen met behulp van gesproken natuurlijke taal. Gebruikers kunnen met Cortana spreken door te klikken op de microfoonknop in de rechterbovenhoek van de mobiele Teams-app. Ze kunnen onderweg verbinding maken met iemand door een spraakquery te doen, zoals 'Megan bellen' of 'een bericht sturen naar mijn volgende vergadering'. Gebruikers kunnen ook deelnemen aan vergaderingen door te zeggen "deelnemen aan mijn volgende vergadering" en gebruik maken van spraakassistentie om bestanden te delen, hun agenda te controleren en meer. Deze spraakassistentie-ervaringen worden geleverd met behulp van cortana-services op bedrijfsniveau die volledig voldoen aan de beloftes inzake privacy, beveiliging en naleving van Office 365, zoals blijkt uit de [voorwaarden voor online services (OST).](https://www.microsoft.com/licensing/product-licensing/products)
+
+**Beheerbeheer**
+
+Cortana-spraakassistentie wordt standaard ingeschakeld voor tenants. Beheerders kunnen bepalen wie in hun tenant cortana-spraakassistentie in Teams kan gebruiken via een beleid (TeamsCortanaPolicy). Dit beleid kan worden ingesteld op gebruikersaccountniveau of tenantniveau. Beheerders kunnen ook het veld CortanaVoiceInvocationMode binnen dit beleidsbesturingselement gebruiken om te bepalen of Cortana is uitgeschakeld, alleen is ingeschakeld met een drukknop aanroep of ingeschakeld met wake word-aanroep (ook van toepassing op apparaten die het ondersteunen). Houd er rekening mee dat op het moment van de eerste release voor Microsoft 365 Enterprise-gebruikers in de VS in het Engels, de mobiele Teams-app geen wake-woordactivering ondersteunt, maar in de toekomst wel wordt ondersteund.
+
+**Gebruikersbeheer**
+
+Individuele gebruikers kunnen cortana-spraakassistentie uitproberen in de mobiele teams-app door op de microfoonknop te klikken. Ze kunnen ook bepalen of Cortana in Teams is ingeschakeld voor hun apparaat via een instelling in de mobiele teams-app: 
+
+1. Open de mobiele teams-app.
+
+2. Ga naar **Instellingen**.
+
+3. Selecteer **Cortana**.
+
+4. De schakelaar naar in- of uitschakelen verplaatsen, afhankelijk van of u Cortana-spraakassistent op dit apparaat wilt.
 
 ### <a name="play-my-emails"></a>Mijn e-mails afspelen
 

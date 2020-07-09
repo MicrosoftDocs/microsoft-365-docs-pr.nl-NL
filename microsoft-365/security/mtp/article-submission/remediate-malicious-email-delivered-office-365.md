@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Bedreigingssanering
 appliesto:
 - Microsoft Threat Protection
-ms.openlocfilehash: 6c05eac80c6de546a30f9abe29360178bcbcfcf8
-ms.sourcegitcommit: dc5de2064706137256307f100b8dc61e9797bd1c
+ms.openlocfilehash: eb86c0b8e5368a42daa1002de5ac361613037090
+ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45068166"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086689"
 ---
 # <a name="remediate-malicious-email-that-was-delivered-in-office-365"></a>Schadelijke e-mail herstellen die is geleverd in Office 365
 
@@ -77,8 +77,6 @@ In het Onderhoudscentrum worden alle herstelacties van de afgelopen 30 dagen wee
 Elk herstelitem kan worden geopend om details erover te bekijken. Wanneer een herstelitem wordt geopend, worden basishersteldetails, de herstelnaam, de aanmaakdatum, beschrijving, ernst van de bedreiging en de status weergegeven. Het toont ook twee tabbladen. 
 
 1. **Tabblad E-mailinzending**: Dit zijn het aantal e-mails dat via Threat Explorer is verzonden of geautomatiseerde onderzoeken die moeten worden verholpen. Deze e-mails kunnen zijn:
-
-:::image type="content" source="../../../media/tp-RemediationArticle5.png" alt-text="Het actiecentrum met bruikbare en niet bruikbare bedreigingen.":::
 
 **Actie:** E-mails in de volgende locaties van cloudpostvak kunnen worden uitgevoerd en verplaatst, d.w.z. elke e-mail binnen de herstelbare categorie kan van de ene locatie naar de andere worden verplaatst:
   - Inbox 

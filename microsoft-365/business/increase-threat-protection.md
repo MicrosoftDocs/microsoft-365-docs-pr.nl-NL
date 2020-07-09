@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 Advanced Threat Protection instellen en gevoelige gegevens beschermen tegen phishing, malware en andere bedreigingen.
-ms.openlocfilehash: d5510cdc082781fd9a1776e86b1bab1d8a2723d6
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: 0e6cb7ed13a0851ef249e1f599d17e03c052414a
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786201"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083597"
 ---
 # <a name="increase-threat-protection"></a>Bedreigingsbeveiliging verbeteren
 
@@ -82,7 +82,7 @@ Ga als een regel voor e-mailtransport:
     
 |**Instelling**|**Gebruikers waarschuwen voordat u bijlagen van Office-bestanden opent**||
 |:-----|:-----|:-----|
-|Name  <br/> |Anti-ransomware regel: waarschuwen gebruikers  <br/>  |
+|Naam  <br/> |Anti-ransomware regel: waarschuwen gebruikers  <br/>  |
 |Pas deze regel toe als . . .  <br/> |Elke bijlage . . . bestandsextensie komt overeen met . . .  <br/> |
 |Woorden of zinnen opgeven  <br/> |Voeg deze bestandstypen toe:  <br/> dotm, docm, xlsm, sltm, xla, xlam, xll, pptm, potm, ppam, ppsm, sldm  <br/>|
 |Ga als volgt te werk. . .  <br/> |De ontvanger op de hoogte stellen met een bericht  <br/> |
@@ -114,7 +114,7 @@ Als u een regel voor e-mailtransport wilt maken, bekijkt u [deze korte video](ht
     
 |**Instelling**|**Gebruikers waarschuwen voordat u bijlagen van Office-bestanden opent**|
 |:-----|:-----|
-|Name  <br/> |Automatisch doorsturen van e-mail naar externe domeinen voorkomen  <br/> |
+|Naam  <br/> |Automatisch doorsturen van e-mail naar externe domeinen voorkomen  <br/> |
 |Pas deze regel toe als ...  <br/> |De afzender. . . is extern/intern . . . Binnen de organisatie  <br/> |
 |Voorwaarde toevoegen  <br/> |De eigenschappen van het bericht . . . het berichttype op te nemen. . . Automatisch doorsturen  <br/> |
 |Doe het volgende ...  <br/> |Blokkeer het bericht . . . het bericht te weigeren en een uitleg op te nemen.  <br/> |
@@ -137,14 +137,14 @@ Als u een ATP-antiphishingbeleid wilt maken, bekijkt [u deze korte trainingsvide
     
 4. Selecteer **+ Maken**op de pagina **Anti-phishing** . Een wizard lanceert die u door het definiëren van uw anti-phishing beleid.
     
-5. Geef de naam, beschrijving en instellingen voor uw beleid op zoals aanbevolen in de volgende tabel. Zie Meer informatie [over atp-beleidsopties voor antiphishing.](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#learn-about-atp-anti-phishing-policy-options) 
+5. Geef de naam, beschrijving en instellingen voor uw beleid op zoals aanbevolen in de volgende tabel. Zie Meer informatie [over atp-beleidsopties voor antiphishing.](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies) 
     
 6. Nadat u uw instellingen hebt bekeken, kiest u **Dit beleid maken** of **Opslaan**, naar gelang van het geval.
     
 
 |**Instellen of optie**<br/>|**Aanbevolen instelling** <br/>|
 |:-----|:-----|
-|Name  <br/> |Domein en meest waardevolle campagnemedewerkers  <br/> |
+|Naam  <br/> |Domein en meest waardevolle campagnemedewerkers  <br/> |
 |Beschrijving  <br/> |Zorg ervoor dat de belangrijkste medewerkers en ons domein niet worden nagebootst.  <br/> |
 |Gebruikers toevoegen om te beschermen  <br/> |Selecteer **+ Een voorwaarde toevoegen, de ontvanger is**. Typ gebruikersnamen of voer het e-mailadres in van de kandidaat, campagnemanager en andere belangrijke medewerkers. U maximaal 20 interne en externe adressen toevoegen die u wilt beschermen tegen imitatie.  <br/> |
 |Domeinen toevoegen om te beschermen  <br/> |Selecteer **+ Een voorwaarde toevoegen, het domein van de ontvanger is**. Voer het aangepaste domein in dat is gekoppeld aan uw Microsoft 365-abonnement als u er een hebt gedefinieerd. U meer dan één domein invoeren.  <br/> |
@@ -176,7 +176,7 @@ Als u een ATP-beleid voor veilige bijlagen wilt maken, bekijkt [u deze korte vid
 
 |**Instellen of optie**|**Aanbevolen instelling** <br/>|
 |:-----|:-----|
-|Name  <br/> |Blokkeer huidige en toekomstige e-mails met gedetecteerde malware.  <br/> |
+|Naam  <br/> |Blokkeer huidige en toekomstige e-mails met gedetecteerde malware.  <br/> |
 |Beschrijving  <br/> |Blokkeer huidige en toekomstige e-mails en bijlagen met gedetecteerde malware.  <br/> |
 |Bijlagen opslaan onbekende malware reactie  <br/> |Selecteer **Blokkeren - Blokkeer de huidige en toekomstige e-mails en bijlagen met gedetecteerde malware.**  <br/> |
 |Bijlage omleiden bij detectie  <br/> |Omleiding inschakelen (selecteer dit vak) Voer het beheerdersaccount of een postvakinstelling in voor quarantaine.          Pas de bovenstaande selectie toe als er een keer een keer een fout optreedt voor malwarescannen voor bijlagen (selecteer dit vak).  <br/> |
@@ -220,7 +220,7 @@ Ga als een nieuw beleid maken dat is gericht op alle ontvangers in uw domein:
 
 |**Instellen of optie**|**Aanbevolen instelling** <br/>|
 |:-----|:-----|
-|Name  <br/> |Beleid voor veilige koppelingen voor alle ontvangers in het domein  <br/> |
+|Naam  <br/> |Beleid voor veilige koppelingen voor alle ontvangers in het domein  <br/> |
 |Selecteer de actie voor onbekende mogelijk schadelijke URL's in berichten  <br/> |Selecteer **Aan - URL's worden herschreven en gecontroleerd aan de hand van een lijst met bekende schadelijke koppelingen wanneer gebruikers op de link klikken.**  <br/> |
 |Veilige bijlagen gebruiken om downloadbare inhoud te scannen  <br/> |Selecteer dit vak.  <br/> |
 |Toegepast op  <br/> |Het domein van de ontvanger is . . . selecteer uw domein.  <br/> |

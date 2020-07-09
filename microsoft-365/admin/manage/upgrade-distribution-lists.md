@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Meer informatie over het upgraden van een of meerdere distributielijsten naar Microsoft 365-groepen in Outlook en hoe u PowerShell gebruiken om meerdere distributielijsten tegelijk te upgraden.
-ms.openlocfilehash: f5748c293d18943c94c3610c0e3c5c33848eb521
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: a1fb974be4838ebe98c2c55fe8694e89e27d636e
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780023"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083572"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Distributielijsten upgraden naar Microsoft 365-groepen in Outlook
 
@@ -71,11 +71,15 @@ Als u een ervaren PowerShell-gebruiker bent, wilt u misschien PowerShell in plaa
 
 Als u één DL wilt upgraden, voert u de volgende opdracht uit:
 
-`Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>`
+```PowerShell
+Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>`
+```
 
 Als u bijvoorbeeld een DL's wilt upgraden met dl1@contoso.com SMTP-adres, voert u de volgende opdracht uit:
 
-`Upgrade-DistributionGroup -DlIdentities dl1@contoso.com`
+```PowerShell
+Upgrade-DistributionGroup -DlIdentities dl1@contoso.com`
+```
 
 > [!NOTE]
 > U ook één distributielijst upgraden naar een Microsoft 365-groep met de [PowerShell-cmdlet New-UnifiedGroup](https://go.microsoft.com/fwlink/?LinkID=786379)
@@ -84,9 +88,8 @@ Als u bijvoorbeeld een DL's wilt upgraden met dl1@contoso.com SMTP-adres, voert 
 
 U ook meerdere DLs als batch doorgeven en samen upgraden:
 
-```
+```PowerShell
 Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address2\>,
-
 \< DL SMTP address3\>, \< DL SMTP address 4\>
 ```
 
@@ -103,7 +106,7 @@ Er zijn twee manieren waarop u alle in aanmerking komende DLs upgraden.
 
 1. Haal de in aanmerking komende DLs in de tenant en upgrade ze met de upgradeopdracht:
 
-```
+```PowerShell
 Get-EligibleDistributionGroupForMigration | Foreach-Object{
     Upgrade-DistributionGroup -DlIdentities $_.PrimarySMTPAddress
 }
@@ -111,7 +114,7 @@ Get-EligibleDistributionGroupForMigration | Foreach-Object{
 
 2. Download de lijst met alle DL's en upgrade alleen de in aanmerking komende DLs:
 
-```
+```PowerShell
 Get-DistributionGroup| Foreach-Object{
     Upgrade-DistributionGroup -DlIdentities $_.PrimarySMTPAddress
 }

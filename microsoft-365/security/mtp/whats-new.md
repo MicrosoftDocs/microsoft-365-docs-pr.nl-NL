@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f4e733cf7196668fb1c3d1830ead15c6262a635e
-ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
+ms.openlocfilehash: e19a5528a4ccc250c981ab21d7644783ad1b0b8b
+ms.sourcegitcommit: c51dd4c659f763ae46c188d3fae90aab8d1d7e88
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854292"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45084153"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Wat is er nieuw in Microsoft Threat Protection
 
@@ -32,6 +32,11 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 ```
 ## <a name="june-2020"></a>Juni 2020
 - Twitter-feed <br> Ontvang het nieuwste beveiligingsonderzoek, bedreigingsinformatie, productnieuws en meer - direct in het dashboard.
+- [De schematabel van EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md) <br> Neem informatie over acties na levering op die zijn uitgevoerd op e-mailberichten op in uw geavanceerde jachtquery's.
+- [Inspecteer records in geavanceerde jacht](advanced-hunting-query-results.md#drill-down-from-query-results) <br> Controleer snel records in uw queryresultaten met het nieuwe detailpaneel.
+
+## <a name="may-2020"></a>Mei 2020
+- [Aangepaste detectie](custom-detections-overview.md) <br> Gebruik geavanceerde jachtquery's om aangepaste detectieregels te maken die automatisch controleren op en reageren op beveiligingsgebeurtenissen en systeemstatussen.
 
 ## <a name="february-2020"></a>Februari 2020
 - [Incidenten](incidents-overview.md) <br> Weet precies waar een aanval begon en andere details om u te helpen de omvang van de aanval te zien.
@@ -39,7 +44,6 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 - [Geavanceerde jachtverbeteringen](advanced-hunting-overview.md) <br> Ga proactief op zoek naar bedreigingen in de moderne werkruimte met Kusto Query Language en een voor beveiliging geoptimaliseerd schema.
 
 ## <a name="march-2019"></a>Maart 2019
-
 - Geavanceerd opsporen <br> Bestemmingspagina naar verschillende jachtmogelijkheden waarmee u proactief bedreigingen vinden die van invloed zijn op e-mail en gegevens, apparaten en identiteiten.
 - [Microsoft Secure Score](microsoft-secure-score.md) <br> Meting van de beveiligingshouding van een organisatie, waarbij een hoger aantal wijst op meer actiemaatregelen voor verbetering. Als u de aanbevelingen voor de beveiligingsscore volgt, u uw organisatie beschermen tegen bedreigingen. 
 - [Rapporten](monitoring-and-reporting.md) <br>  Bevat een groot aantal kaarten die een verscheidenheid aan gebieden die security analisten en beheerders bijhouden als onderdeel van hun dagelijkse activiteiten.
