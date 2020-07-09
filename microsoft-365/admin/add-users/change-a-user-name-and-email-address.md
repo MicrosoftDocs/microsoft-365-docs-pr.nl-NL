@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Lees hoe een globale beheerder het e-mailadres en de weergavenaam van een gebruiker kan wijzigen. '
-ms.openlocfilehash: 0c94114a50ce369ffb809e8f41060994f635a36c
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: fedc1532bfec246392180d386a6960dbb08bd137
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936525"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079711"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Een gebruikersnaam en e-mailadres wijzigen
 
@@ -50,7 +50,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
     
 2. Selecteer de naam van de gebruiker en selecteer vervolgens op het tabblad **Account** de optie **Gebruikersnaam beheren**.
     
-3. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Office 365, kiest u het domein voor de nieuwe e-mailalias in de vervolgkeuzelijst. 
+3. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kiest u het domein voor de nieuwe e-mailalias in de vervolgkeuzelijst. 
 
 4. Selecteer **Wijzigingen opslaan**.
 
@@ -63,7 +63,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 2. Selecteer de gebruiker. Selecteer in het flyoutdeelvenster naast **Gebruikersnaam/e-mailadres** de optie **Bewerken**.
 
-3. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Office 365, kunt u het domein voor de nieuwe e-mailalias kiezen in de vervolgkeuzelijst.
+3. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kunt u het domein voor de nieuwe e-mailalias kiezen in de vervolgkeuzelijst.
 
 4. Kies **Opslaan**.
 
@@ -75,7 +75,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 2. Selecteer de gebruiker. Selecteer in het flyoutdeelvenster naast **Gebruikersnaam/e-mailadres** de optie **Bewerken**.
 
-3. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Office 365, kunt u het domein voor de nieuwe e-mailalias kiezen in de vervolgkeuzelijst.
+3. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kunt u het domein voor de nieuwe e-mailalias kiezen in de vervolgkeuzelijst.
 
 4. Kies **Opslaan**.
 
@@ -93,7 +93,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 3. Selecteer **Instellen als primair** voor het e-mailadres dat u wilt instellen als het primaire e-mailadres voor die persoon. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Office 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
     
     U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
   
@@ -121,7 +121,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 3. Selecteer **Instellen als primair** voor het e-mailadres dat u wilt instellen als het primaire e-mailadres voor die persoon. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Office 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
     
     U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
   
@@ -131,7 +131,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
  
   - Het kan even duren voordat deze wijziging van kracht wordt.
   
-  - What their new username is. They'll need it to sign in to Office 365.
+  - What their new username is. They'll need it to sign in to Microsoft 365.
     
   - Als ze Skype voor Bedrijven Online gebruiken, moet ze alle geplande Skype voor Bedrijven Online-vergaderingen opnieuw plannen en moeten ze de externe contactpersonen laten weten dat die de oude contactgegevens moeten bijwerken.
 
@@ -149,7 +149,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 3. Selecteer **Instellen als primair** voor het e-mailadres dat u wilt instellen als het primaire e-mailadres voor die persoon. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Office 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
     
     U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
   
@@ -159,7 +159,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
  
   - Het kan even duren voordat deze wijziging van kracht wordt.
   
-  - What their new username is. They'll need it to sign in to Office 365.
+  - What their new username is. They'll need it to sign in to Microsoft 365.
     
   - Als ze Skype voor Bedrijven Online gebruiken, moet ze alle geplande Skype voor Bedrijven Online-vergaderingen opnieuw plannen en moeten ze de externe contactpersonen laten weten dat die de oude contactgegevens moeten bijwerken.
 
@@ -234,7 +234,7 @@ Some people might continue to send email to the person's old email address and d
 
 If they are using Exchange Online or if their account is linked with your organization's on-premises Exchange environment, you might see this error when you try to change a username and email address: "This user is synchronized with your local Active Directory. Some details can be edited only through your local Active Directory."
   
-This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it cannot be modified or removed in Office 365. You can subsequently change the username in the Active Directory, but it doesn't change the MOERA and you may run into issues displaying the newly changed name in the Global Address List. 
+This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it cannot be modified or removed in Microsoft 365. You can subsequently change the username in the Active Directory, but it doesn't change the MOERA and you may run into issues displaying the newly changed name in the Global Address List. 
   
 U lost dit op door u met uw Microsoft 365-beheerdersreferenties aan te melden bij de [Azure Active Directory-module voor PowerShell]( https://go.microsoft.com/fwlink/?LinkId=823193) en gebruik de volgende syntaxis: 
   

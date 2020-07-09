@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 03083fdf-bc52-409a-b2ac-2a5f5c308fa0
 description: In dit artikel vindt u informatie over het beheren van instellingen voor uw gebruikers.
-ms.openlocfilehash: 5fa8674b8e188605ba3f6339fd6384c37630c917
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: ca57d536794ffde4865ec86f34c8dc644ff3c1f1
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780203"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080001"
 ---
 # <a name="user-email-settings"></a>Gebruikerse-mailinstellingen
 
@@ -44,4 +44,4 @@ This table explains the various email settings you can change for a user in Micr
 
 > [!NOTE]
 >
-> <sup>1</sup> U kunt alleen e-mail-apps beheren voor postvakken die volledig worden gehost in Office 365. U kunt deze functie niet gebruiken voor het beheren van e-mailapps voor postvakken die on-premises worden gehost.
+> <sup>1</sup> U kunt alleen e-mail-apps beheren voor postvakken die volledig worden gehost in Microsoft 365. U kunt deze functie niet gebruiken voor het beheren van e-mailapps voor postvakken die on-premises worden gehost.
