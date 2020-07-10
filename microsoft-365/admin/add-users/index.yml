@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Gebruikers en groepen beheren
-summary: Bekijk deze bronnen om beheerders te helpen met veelvoorkomende taken of bekijk het navigatiedeelvenster aan de linkerkant voor een volledige lijst.
+summary: Raadpleeg deze bronnen om beheerders te kunnen helpen bij veelvoorkomende taken of bekijk de volledige lijst in het navigatiedeelvenster aan de linkerkant.
 metadata:
   title: Gebruikers en groepen beheren
   description: Wachtwoorden beheren, gebruikers toevoegen en verwijderen, groepen instellen en licenties beheren
@@ -14,7 +14,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 25b100e8f685c94d3dccc290e8f80b25e24a6d9b
   ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: nl-NL
   ms.lasthandoff: 06/18/2020
   ms.locfileid: "44785470"
@@ -29,13 +29,13 @@ landingContent:
       url: add-users.md
     - text: Gasten toevoegen aan een Microsoft 365-groep
       url: ../create-groups/manage-guest-access-in-groups.md
-    - text: Een ander e-mailadres toevoegen
+    - text: Nog een e-mailadres toevoegen
       url: ../email/add-another-email-alias-for-a-user.md
-    - text: Een gedeeld postvak maken
+    - text: Een gedeeld postvak aanmaken
       url: ../email/create-a-shared-mailbox.md
     - text: Licenties aan gebruikers toewijzen
       url: ../manage/assign-licenses-to-users.md
-    - text: Licenties van gebruikers verwijderen
+    - text: Licenties van gebruikers intrekken
       url: ../manage/remove-licenses-from-users.md
     - text: Gastgebruikers
       url: about-guest-users.md
@@ -47,11 +47,11 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Groepen maken
+    - text: Groepen aanmaken
       url: ../create-groups/create-groups.md
     - text: Leden toevoegen
       url: ../create-groups/add-or-remove-members-from-groups.md
-    - text: Een verwijderde groep herstellen of herstellen
+    - text: Een verwijderde groep herstellen of terugzetten
       url: ../create-groups/restore-deleted-group.md
     - text: Gasttoegang in groepen beheren
       url: ../create-groups/manage-guest-access-in-groups.md
@@ -65,7 +65,7 @@ landingContent:
       url: set-password-to-never-expire.md
     - text: Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
       url: let-users-reset-passwords.md
-    - text: Het wachtwoordverloopbeleid voor uw organisatie instellen
+    - text: Het beleid voor verlopen wachtwoorden voor uw organisatie instellen
       url: ../manage/set-password-expiration-policy.md
     - text: Beheerderswachtwoord opnieuw instellen
       url: reset-passwords.md#reset-my-admin-password
@@ -75,7 +75,7 @@ landingContent:
     links:
     - text: Een gebruiker verwijderen
       url: delete-a-user.md
-    - text: Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken
+    - text: Toegang krijgen tot de gegevens van een voormalige gebruiker en hier een back-up van maken
       url: get-access-to-and-back-up-a-former-user-s-data.md
     - text: E-mail doorsturen naar een andere gebruiker
       url: ../email/configure-email-forwarding.md

@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Help voor het Microsoft 365-beheercentrum
-summary: Ontdek bronnen voor het werken in het Microsoft 365-beheercentrum.
+summary: Resources verkennen voor het werken in het Microsoft 365-beheercentrum.
 brand: m365
 metadata:
   title: Help voor het Microsoft 365-beheercentrum
@@ -15,7 +15,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 9d8104660c4686b2240c292509a499a25308d9f6
   ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: nl-NL
   ms.lasthandoff: 06/18/2020
   ms.locfileid: "44799957"
@@ -24,61 +24,61 @@ highlightedContent:
   - title: Office 365 is nu Microsoft 365!
     itemType: whats-new
     url: new-subscription-names.md
-  - title: Wat is er nieuw in het Microsoft 365-beheercentrum!
+  - title: Nieuw in het Microsoft 365-beheercentrum!
     itemType: whats-new
     url: whats-new-in-preview.md
-  - title: Blijf op de hoogte van microsoft 365-wijzigingen
+  - title: Blijf op de hoogte van wijzigingen in Microsoft 365
     itemType: how-to-guide
     url: manage/stay-on-top-of-updates.md
 productDirectory:
   title: Aan de slag
-  summary: Stel uw abonnement en e-mail in, voeg gebruikers toe en installeer apps.
+  summary: Uw abonnement en e-mail instellen, gebruikers toevoegen en apps installeren.
   items:
   - title: Aan de slag
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
-    summary: Meld u aan en stel Microsoft 365 in.
+    summary: Registreren voor en installeren van Microsoft 365.
     url: setup/index.yml
   - title: Gegevens migreren
     imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
-    summary: Verplaats uw gegevens van een andere service naar Microsoft 365.
+    summary: Gegevensoverdracht van een andere service naar Microsoft 365.
     url: setup/migrate-email-and-contacts-admin.md
   - title: Apps installeren
     imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
     summary: Office en andere Microsoft-apps installeren.
     url: setup/install-applications.md
-  - title: Treingebruikers
+  - title: Gebruikers wegwijs maken
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
-    summary: Help gebruikers in uw organisatie hoe ze bestanden opslaan en delen en Office-apps gebruiken.
+    summary: Gebruikers in uw organisatie helpen met het opslaan en delen van bestanden en het gebruiken van Office-apps.
     url: https://support.microsoft.com/training
 additionalContent:
   sections:
   - title: Beheren
-    summary: Beheer uw abonnement, services en gebruikers, beveilig uw bedrijf en krijg hulp bij het oplossen van problemen.
+    summary: Uw abonnement, services en gebruikers beheren, uw activiteiten beveiligen en hulp krijgen bij het oplossen van problemen.
     items:
     - title: Overzicht van het Microsoft 365-beheercentrum
-      summary: Meer informatie over beheerdersrollen, hoe u op de hoogte blijft van wijzigingen en hoe u uw abonnement aanpassen.
+      summary: Meer informatie over beheerdersrollen, op de hoogte blijven van wijzigingen en het aanpassen van uw abonnement.
       url: admin-overview/about-the-admin-center.md
     - title: Gebruikers en groepen
       summary: Wachtwoorden beheren, gebruikers toevoegen en verwijderen, groepen instellen en beheren, gasttoegang beheren en gebruikerslicenties toewijzen.
       url: add-users/index.yml
     - title: E-mail en agenda's
-      summary: Beheer e-mailinstellingen, distributiegroepen en beveiligingsinstellingen en stel gedeelde postvakken in.
+      summary: E-mailinstellingen, distributiegroepen en beveiligingsinstellingen beheren en gedeelde postvakken instellen.
       url: email/index.yml
     - title: Domeinen
-      summary: Meer informatie over domeinen, domeinen instellen en beheren en DNS-records bijwerken.
+      summary: Meer informatie over domeinen, het instellen en beheren hiervan en het bijwerken van DNS-records.
       url: setup/add-domain.md
     - title: Uw gegevens en service
-      summary: Controleer de status van uw service, maakt een back-up van gegevens, installeer invoegtoepassingen en upgrade naar de nieuwste apps.
+      summary: Controleer de status van de service, maak een reservekopie van de gegevens, installeer invoegtoepassingen en voer een upgrade uit naar de nieuwste apps.
       url: manage/index.yml
     - title: Abonnementen en facturering
-      summary: Beheer facturen, abonnementen en productlicenties, werk betalingsmethoden bij en koop extra services en opslag.
+      summary: Rekeningen, abonnementen en productlicenties beheren, betalingswijzen bijwerken en aanvullende services en opslag aanschaffen.
       url: ../commerce/index.yml
     - title: Uw organisatie beveiligen
-      summary: Meer informatie over de beste manieren om uw organisatie te beveiligen, zoals het instellen van multifactorauthenticatie (MFA) en meer informatie over Microsoft Secure Score en GDPR.
+      summary: Meer informatie over de beste manieren om uw organisatie te beveiligen, zoals het instellen van meervoudige verificatie (MFA), en over Microsoft Secure Score en AVG.
       url: security-and-compliance/secure-your-business-data.md
     - title: Werken met klanten
-      summary: Deel documenten en gebruik Teams om samen te werken en elkaar te ontmoeten.
+      summary: Documenten delen en Teams gebruiken om samen te werken en te vergaderen.
       url: work-with-customers/index.yml
     - title: Problemen oplossen
-      summary: Toegang tot bronnen om problemen met uw Office-producten of -services op te lossen en op te lossen.
+      summary: Toegang krijgen tot bronnen die u kunnen helpen bij het oplossen van problemen met uw Office-producten of -services.
       url: https://docs.microsoft.com/office/troubleshoot/

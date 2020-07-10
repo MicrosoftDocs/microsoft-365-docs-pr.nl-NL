@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Aan de slag
-summary: Bekijk deze bronnen om beheerders te helpen met veelvoorkomende taken of bekijk het navigatiedeelvenster aan de linkerkant voor een volledige lijst.
+summary: Raadpleeg deze bronnen om beheerders te kunnen helpen bij veelvoorkomende taken of bekijk de volledige lijst in het navigatiedeelvenster aan de linkerkant.
 metadata:
   title: Aan de slag
-  description: Stel uw abonnement en e-mail in. gebruikers toevoegen en apps installeren
+  description: Uw abonnement en e-mail instellen. gebruikers toevoegen en apps installeren
   ms.service: O365-administration
   ms.topic: landing-page
   author: sirkkuw
@@ -13,42 +13,42 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 0af560ae2a7f8aa028e0cb493c9070f78f93e0a4
   ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: nl-NL
   ms.lasthandoff: 06/17/2020
   ms.locfileid: "44779843"
 landingContent:
-- title: Aanmelden
+- title: Registreren
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Kies een abonnement en meld je aan voor Microsoft 365
+    - text: Een abonnement kiezen en registreren voor Microsoft 365
       url: ../admin-overview/sign-up-for-office-365.md
   - linkListType: video
     links:
-    - text: Microsoft Business Basic aanmelden en instellen
+    - text: Registreren en Microsoft Business Basic instellen
       url: https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298
-    - text: Aanmelden voor Microsoft Business Standard
+    - text: Registreren voor Microsoft Business Standard
       url: https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298
-    - text: Aanmelden voor Microsoft Business Premium
+    - text: Registreren voor Microsoft Business Premium
       url: https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298
-- title: Begeleid instellen
+- title: Begeleide installatie
   linkLists:
   - linkListType: overview
     links:
-    - text: Plan uw set-up
+    - text: Uw installatie plannen
       url: plan-your-setup.md
   - linkListType: how-to-guide
     links:
-    - text: Microsoft Business Basic instellen
+    - text: Microsoft Business Basic installeren
       url: setup-business-basic.md
-    - text: Microsoft Business Standard instellen
+    - text: Microsoft Business Standard installeren
       url: setup-business-standard.md
-    - text: Microsoft Business Premium instellen
+    - text: Microsoft Business Premium installeren
       url: ../../business/set-up.md
-    - text: Microsoft Apps voor Bedrijven instellen
+    - text: Microsoft-apps voor bedrijven installeren
       url: setup-apps-for-business.md
-- title: Einde instellen
+- title: Installatie voltooien
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -64,7 +64,7 @@ landingContent:
       url: https://support.microsoft.com/office/647909af-560f-4977-ae45-3b45ad9e8236
     - text: Apps installeren op iOS
       url: https://support.microsoft.com/office/d1ad9f23-0fa3-4cf1-bf26-ff35336fd343
-    - text: Treingebruikers
+    - text: Gebruikers wegwijs maken
       url: https://support.microsoft.com/training
     - text: Pc's verbinden met Microsoft 365 Business Premium
       url: https://support.microsoft.com/office/cd5716f6-05de-430b-ac94-662d5ee71d07

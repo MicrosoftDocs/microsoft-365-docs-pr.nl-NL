@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: a7d2dfe479d51d67c526dbe1bed2bc3dc5c56546
   ms.sourcegitcommit: 7f765670cb6970fdf7ddbad464ed3f8fe704bfaf
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: nl-NL
   ms.lasthandoff: 06/27/2020
   ms.locfileid: "44909286"
@@ -53,8 +53,8 @@ additionalContent:
     - title: Microsoft 365 Enterprise
       summary: Ontworpen voor grote organisaties. Beveilig uw bedrijf en transformeer uw werkwijze met Office-apps, Windows 10 en Enterprise Mobility + Security.
       url: ./enterprise/index.yml
-    - title: Microsoft 365-oplossings- en architectuurcentrum
-      summary: Begrijp hoe u de oplossing en architectuur ontwerpt die geschikt is voor uw organisatie.
+    - title: Microsoft 365-oplossingen- en -architectuurcentrum
+      summary: Inzicht in het ontwerpen van de oplossing en architectuur die geschikt zijn voor uw organisatie.
       url: ./solutions/index.yml
     - title: Microsoft 365 Education
       summary: Ontworpen voor docenten voor meer creativiteit, het bevorderen van teamwork en het bieden van een eenvoudige en veilige ervaring in één betaalbare oplossing die is ontwikkeld voor het onderwijs.

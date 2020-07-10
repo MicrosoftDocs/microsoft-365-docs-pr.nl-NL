@@ -15,7 +15,7 @@ metadata:
   search.appverid: MET150
   ms.openlocfilehash: 4f5634b720079f57a37f9b7079a8bece6cf150cd
   ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: nl-NL
   ms.lasthandoff: 05/27/2020
   ms.locfileid: "44402140"
@@ -24,7 +24,7 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Uw rekening of factuur weergeven
+    - text: Uw rekening of factuur bekijken
       url: billing-and-payments/view-your-bill-or-invoice.md
     - text: Betalingswijzen beheren
       url: billing-and-payments/manage-payment-methods.md
