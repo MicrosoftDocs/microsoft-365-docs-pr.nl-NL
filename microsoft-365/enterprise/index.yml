@@ -15,7 +15,7 @@ metadata:
   ms.date: 11/29/2019
   ms.openlocfilehash: 31685a610f6560296dc72b7624f81a5927d56ec2
   ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: nl-NL
   ms.lasthandoff: 05/16/2020
   ms.locfileid: "44268255"
@@ -44,7 +44,7 @@ conceptualContent:
       text: Foundation-infrastructuur
     - url: deploy-workloads.md
       itemType: how-to-guide
-      text: Werkbelasting
+      text: Werkbelastingen
     - url: desktop-deployment-center-home.md
       itemType: get-started
       text: Implementatiecentrum voor desktops

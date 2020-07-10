@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Microsoft 365 Business Premium-bronnen
-summary: Microsoft 365 Business Premium (voorheen Microsoft 365 Business) is een uitgebreide abonnementsservice voor bedrijven met minder dan 300 werknemers. Het integreert uw favoriete Office productiviteit apps en diensten en samenwerkingstools zoals Microsoft Teams met geavanceerde beveiliging en apparaatbeheer mogelijkheden.
+title: Informatiebronnen voor Microsoft 365 Business Premium
+summary: Microsoft 365 Business Premium (voorheen Microsoft 365 Business) is een uitgebreide abonnementsservice voor bedrijven met minder dan 300 werknemers. Het integreert uw favoriete Office-productiviteitsapps en -services en hulpmiddelen voor samenwerking zoals Microsoft Teams, met geavanceerde beveiligings- en apparaatbeheerfuncties.
 brand: m365
 metadata:
-  title: Microsoft 365 Business Premium-bronnen
+  title: Informatiebronnen voor Microsoft 365 Business Premium
   description: beschrijving
   ms.service: o365-administration
   ms.topic: hub-page
@@ -14,24 +14,24 @@ metadata:
   ms.date: 10/01/2019
   ms.openlocfilehash: fe849499da31b3be4ab52144d1a39f8a1bc7a212
   ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: nl-NL
   ms.lasthandoff: 06/18/2020
   ms.locfileid: "44786188"
 productDirectory:
-  title: Veilig werken op afstand met Microsoft 365 Business Premium
+  title: Externe werkzaamheden beveiligen met Microsoft 365 Business Premium
   items:
   - title: Lezen
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
-    summary: Beste manieren om veilig werken op afstand mogelijk te maken met Microsoft 365 Business Premium.
+    summary: Beste manieren om externe werkzaamheden te beveiligen met Microsoft 365 Business Premium.
     url: https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623
-  - title: Ontvang de gratis partnerkit
+  - title: Download de gratis partner kit
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
-    summary: Praktische begeleiding en ga naar de markt middelen voor partners voor het beveiligen van werk op afstand.
+    summary: Praktische richtlijnen en marktintroductiebronnen voor partners voor het beveiligen van externe werkzaamheden.
     url: https://www.microsoft.com/microsoft-365/partners/videos/secure-your-smb-customers-as-they-cope-with-covid-19
   - title: Wat is er nieuw?
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    summary: Azure AD Premium P1 komt naar Microsoft 365 Business Premium!
+    summary: Azure AD Premium P1 komt beschikbaar voor Microsoft 365 Business Premium.
     url: https://aka.ms/aadp1smbblog
 conceptualContent:
   items:
@@ -42,7 +42,7 @@ conceptualContent:
       text: Overzicht
     - url: https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
       itemType: video
-      text: Microsoft 365 Business Premium-training
+      text: Training voor Microsoft 365 Business Premium
     - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
       itemType: overview
       text: Abonnementen vergelijken
@@ -82,7 +82,7 @@ conceptualContent:
       text: Technische grondbeginselen
     - url: https://www.microsoft.com/microsoft-365/partners/resources/securing-remote-work-checklist
       itemType: download
-      text: Checklist voor het beveiligen van werk op afstand
+      text: Controlelijst voor het beveiligen van externe werkzaamheden
   - title: Gebruikers beheren
     links:
     - url: https://docs.microsoft.com/microsoft-365/business/add-users-m365b

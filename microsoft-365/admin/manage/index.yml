@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Uw gegevens en service beheren
-summary: Bekijk deze bronnen om beheerders te helpen met veelvoorkomende taken of bekijk het navigatiedeelvenster aan de linkerkant voor een volledige lijst.
+summary: Bekijk deze bronnen om beheerders te ondersteunen bij veelvoorkomende taken of bekijk de volledige lijst in het navigatiedeelvenster aan de linkerkant.
 metadata:
   title: Uw gegevens en service beheren
-  description: Controleer de status van uw service, maakt een back-up van gegevens, installeer invoegtoepassingen en upgrade naar de nieuwste apps
+  description: De status van uw service controleren, een back-up van gegevens maken, invoegtoepassingen installeren en een upgrade naar de nieuwste apps uitvoeren
   ms.service: O365-administration
   ms.topic: landing-page
   author: sirkkuw
@@ -13,12 +13,12 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 3aba9a081fadb85a3c052d0b11d6ff49dbffa0ca
   ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: nl-NL
   ms.lasthandoff: 06/17/2020
   ms.locfileid: "44780095"
 landingContent:
-- title: De status van onze service bewaken
+- title: De status van uw service controleren.
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -36,13 +36,13 @@ landingContent:
       url: release-options-in-office-365.md
     - text: Nieuwe functies weergeven of verbergen
       url: show-hide-new-features.md
-- title: Gebruikerstoegang blokkeren en een back-up maken van gegevens
+- title: Gebruikers toegang blokkeren en een back-up van gegevens maken
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken
+    - text: Toegang krijgen tot gegevens van een voormalige gebruiker en er een back-up van maken
       url: ../add-users/get-access-to-and-back-up-a-former-user-s-data.md
-    - text: E-mailretentie instellen (Microsoft 365 Business Premium)
+    - text: Bewaren van e-mail instellen (Microsoft 365 Business Premium)
       url: ../../business/set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
     - text: Bedrijfsgegevens van apparaten verwijderen (Microsoft 365 Business Premium)
       url: ../../business/remove-company-data.md
@@ -62,7 +62,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Microsoft Teams-beheerdersdocumentatie
+    - text: Microsoft Teams-beheerdocumentatie
       url: https://docs.microsoft.com/en-us/microsoftteams/
     - text: Outlook en Teams samen gebruiken
       url: https://support.microsoft.com/office/9bc459c4-ce13-479b-b88b-b8ae49092732
@@ -74,9 +74,9 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: SharePoint-documentatie voor IT-professionals en -beheerders
+    - text: SharePoint-documentatie voor IT-professionals en beheerders
       url: https://docs.microsoft.com/sharepoint/
-    - text: OneDrive-documentatie voor IT-professionals en -beheerders
+    - text: OneDrive-documentatie voor IT-professionals en beheerders
       url: https://docs.microsoft.com/onedrive/
   - linkListType: how-to-guide
     links:

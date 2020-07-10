@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Werken met klanten
-summary: Bekijk deze bronnen om beheerders te helpen met veelvoorkomende taken of bekijk het navigatiedeelvenster aan de linkerkant voor een volledige lijst.
+summary: Bekijk deze bronnen om beheerders te ondersteunen bij veelvoorkomende taken of bekijk de volledige lijst in het navigatiedeelvenster aan de linkerkant.
 metadata:
   title: Werken met klanten
-  description: Documenten delen en Teams gebruiken om samen te werken en elkaar te ontmoeten
+  description: Documenten delen en Teams gebruiken om samen te werken en te vergaderen
   ms.service: O365-administration
   ms.topic: landing-page
   author: sirkkuw
@@ -13,7 +13,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 80aea7aef92cd584df0c35b0d14ec71e0ad738b7
   ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: nl-NL
   ms.lasthandoff: 06/18/2020
   ms.locfileid: "44785458"
@@ -30,11 +30,11 @@ landingContent:
     links:
     - text: Een Team met gastgebruikers maken
       url: https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7
-    - text: Word lid van een team als gast
+    - text: Deelnemen aan een team als gast
       url: https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824
-    - text: Chatten met medewerkers en klanten
+    - text: Chatten met werknemers en klanten
       url: https://support.microsoft.com/office/65748808-a403-462c-a6e1-b169e5bc6c92
-    - text: Een Teamsvergadering plannen met gastgebruikers
+    - text: Een Teams-vergadering met gastgebruikers plannen
       url: https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a
     - text: Deelnemen aan een Teams-vergadering met gastgebruikers
       url: https://support.microsoft.com/office/a120c282-063d-46b8-b973-851197ab75d8
