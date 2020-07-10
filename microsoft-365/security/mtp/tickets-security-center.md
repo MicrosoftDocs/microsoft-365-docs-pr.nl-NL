@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: 48512cf2fff802509ebaa14ca69d3ca02908902e
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.openlocfilehash: 16ee37b1c7bf33c902db35af2d29744f42830ea7
+ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45087913"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45094832"
 ---
 # <a name="create-and-track-servicenow-tickets-in-the-microsoft-365-security-center"></a>ServiceNow-tickets maken en bijhouden in het Microsoft 365-beveiligingscentrum
 
@@ -54,9 +54,7 @@ Lees algemene fouten die u in het verbindingsproces tegenkomen en hoe u deze bep
 
 ## <a name="create-a-task-and-share-it-to-servicenow"></a>Een taak maken en delen met ServiceNow
 
-Zodra de integratie is ingesteld, maakt u ServiceNow-taken op basis van specifieke microsoft Secure Score-verbeteringsacties. Ga naar een verbeteringsactie in Secure Score in de Microsoft 365-beveiligingscentrumportal en selecteer het pictogram 'delen'. Een van de vervolgkeuzeopties is ServiceNow.
-
-![ServiceNow delen in Secure Score](../../media/servicenow-share.png)
+Zodra de integratie is ingesteld, maakt u ServiceNow-taken op basis van specifieke microsoft Secure Score-verbeteringsacties. [Microsoft Secure Score](microsoft-secure-score.md) Ga naar een verbeteringsactie in Secure Score in de Microsoft 365-beveiligingscentrumportal en selecteer **Delen**. Een van de vervolgkeuzeopties is ServiceNow.
 
 Er wordt een taak gegenereerd waarin u de prioriteit instellen en de naam, beschrijving of vervaldatum bewerken. Zodra alle vereiste velden zijn ingevuld, stuurt u de taak naar ServiceNow.
 

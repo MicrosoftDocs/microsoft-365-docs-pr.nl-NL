@@ -1,11 +1,12 @@
 ---
-title: Kwaadaardige e-mail zoeken en onderzoeken
+title: Kwaadaardige e-mail onderzoeken die is geleverd in Office 365, Schadelijke e-mail zoeken en onderzoeken
 keywords: TIMailData-Inline, Security Incident, incident, ATP PowerShell, e-mail malware, gecompromitteerde gebruikers, e-mail phish, e-mail malware, lees e-mail headers, lees headers, open e-mail headers
 f1.keywords:
 - NOCSH
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
+ms.date: 07/09/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -18,18 +19,21 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het gebruik van mogelijkheden voor dreigingsonderzoek en -respons om schadelijke e-mail te vinden en te onderzoeken.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0ac44ab06aaff1618df2dfc1485d15a68458f385
-ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
+ms.openlocfilehash: 747b6b875a3b7ebc8125ac27ed00c9a300845427
+ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45039410"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45091957"
 ---
-# <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Kwaadaardige e-mail onderzoeken en herstellen die is geleverd in Office 365
+# <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Kwaadaardige e-mail onderzoeken die is geleverd in Office 365
 
 [Met Office 365 Advanced Threat Protection](office-365-atp.md) u activiteiten onderzoeken die mensen in uw organisatie in gevaar brengen en actie ondernemen om uw organisatie te beschermen. Als u bijvoorbeeld deel uitmaakt van het beveiligingsteam van uw organisatie, u verdachte e-mailberichten vinden en onderzoeken die zijn bezorgd. U dit doen met [Threat Explorer (of real-time detecties).](threat-explorer.md)
+
+> [!NOTE]
+> Ga naar de sanering artikel [hier](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-21vianet&branch=pr-en-us-4258).
   
-## <a name="before-you-begin"></a>Voordat je begint...
+## <a name="before-you-begin"></a>Voordat u begint
 
 Controleer of aan de volgende voorwaarden wordt voldaan:
   
@@ -177,6 +181,9 @@ Threat Explorer is een krachtig rapport dat meerdere doeleinden kan dienen, zoal
   
      **E-mailtijdlijn** is een veld in Threat Explorer dat het jagen gemakkelijker maakt voor uw beveiligingsteam. Wanneer meerdere gebeurtenissen op of in de buurt van hetzelfde tijdstip in een e-mail plaatsvinden, worden deze gebeurtenissen weergegeven in een tijdlijnweergave. Sommige gebeurtenissen die na levering aan e-mail plaatsvinden, worden vastgelegd in de kolom **Speciale acties.** Het combineren van informatie uit de tijdlijn van een e-mailbericht met speciale acties die na de levering zijn uitgevoerd, geeft beheerders inzicht in beleid en bedreigingsafhandeling (zoals waar de e-mail is doorgestuurd en, in sommige gevallen, wat de eindbeoordeling was).
 
+> [!IMPORTANT]
+> Ga naar een sanering onderwerp [hier](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-worldwide).
+
 <!-- Reference material
 
 1. **Navigate to Threat Explorer**: Go to [https://protection.office.com](https://protection.office.com) and sign in using your work or school account for Office 365. This takes you to the Security &amp; Compliance Center. 
@@ -254,6 +261,8 @@ To access your message header and email download options, follow these steps:
 -->
 
 ## <a name="related-topics"></a>Verwante onderwerpen
+
+[Schadelijke e-mail herstellen die in Office 365 wordt bezorgd](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-worldwide)
 
 [Office 365 Advanced Threat Protection](office-365-ti.md)
   
