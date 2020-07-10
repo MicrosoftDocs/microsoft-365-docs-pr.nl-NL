@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: 7090a9fcc279f9bedc5f86b43952a12e988069e1
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: a52d2ef1570509150aa1b44c7d7d767287e308f1
+ms.sourcegitcommit: 020b89b0d558a866ea68d35b5170db76f6d8d74d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049914"
+ms.locfileid: "45052723"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit
 
 Deze labs zijn bedoeld om u te helpen bij het plannen, testen en valideren van uw implementatie en het beheer van desktops met Windows 10 Enterprise en Microsoft 365-apps voor ondernemingen. De labs bevatten de stappen en hulpmiddelen die worden beschreven in het desktopimplementatiewiel, en omvatten Microsoft Endpoint Configuration Manager, Desktop Analytics, Office Customization Tool, OneDrive, Windows Autopilot en meer.
 
-Deze training wordt ten zeerste aanbevolen voor organisaties die zich voorbereiden op het einde van de levensduur van Windows 7, maar is ook van toepassing als u Windows 10 en Office 365 Plus of Office 2019 gebruikt. Als een geïsoleerde omgeving is het lab bovendien ideaal voor het verkennen van het implementatieprogramma en het testen van uw implementatie.
+Deze training wordt sterk aanbevolen voor organisaties die zich voorbereiden op het einde van Windows 7, maar is ook van toepassing als u momenteel Windows 10 en Microsoft 365-apps voor ondernemingen (voorheen Office 365 ProPlus) of Office 2019 gebruikt. Als een geïsoleerde omgeving is het lab bovendien ideaal voor het verkennen van het implementatieprogramma en het testen van uw implementatie.
 
 [Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
@@ -74,6 +74,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
   - Beheerde implementatie door onderneming met Configuration Manager en Microsoft Intune
   - Implementatie en beheer van apps met Microsoft Intune
   - Implementatie en self-service-installatie van apps met Microsoft Store voor Bedrijven
+  - NIEUW! Microsoft Teams installeren 
 
 ### <a name="user-file-and-settings-migration"></a>Migratie van gebruikersbestanden en -instellingen
 
@@ -108,8 +109,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
   - Onderhoud van Windows 10 met Configuration Manager en Intune
   - Microsoft 365-apps voor ondernemingen beheren met Configuration Manager
   - NIEUW! Office-updates met Configuration Manager en Intune
-  - NIEUW! Microsoft Teams installeren 
-
+  
 ### <a name="new-windows-virtual-desktop"></a>NIEUW! Windows Virtual Desktop
   - Windows Virtual Desktop: voorbereiden, implementeren, optimaliseren 
 
