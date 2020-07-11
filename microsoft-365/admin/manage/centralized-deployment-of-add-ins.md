@@ -20,17 +20,27 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Bepaal of uw tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie gebruiken om Office-invoegtoepassingen te implementeren.
-ms.openlocfilehash: 4ad2f504c26fcc1f01c958bebf448718500a95b7
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: fbf6ce702cfe0fa3c85b634996a38cc4857190b6
+ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936441"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "45102870"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Bepalen of gecentraliseerde implementatie van invoegtoepassingen werkt voor uw organisatie
 
-Gecentraliseerde implementatie is de aanbevolen en meest functierijke manier voor de meeste klanten om Office-invoegtoepassingen te implementeren voor gebruikers en groepen binnen uw organisatie. Als u een beheerder bent, gebruikt u deze richtlijnen om te bepalen of uw tenant en gebruikers voldoen aan de vereisten, zodat u gecentraliseerde implementatie gebruiken.
+Gecentraliseerde implementatie is de aanbevolen en meest functierijke manier voor de meeste klanten om Office-invoegtoepassingen te implementeren voor gebruikers en groepen binnen uw organisatie. Als u een beheerder bent, gebruikt u deze richtlijnen om te bepalen of uw organisatie en gebruikers voldoen aan de vereisten, zodat u gecentraliseerde implementatie gebruiken.
+
+Gecentraliseerde implementatie biedt de volgende voordelen:
+  
+- Een globale beheerder kan een invoegtoepassing rechtstreeks toewijzen aan een gebruiker, aan meerdere gebruikers via een groep of aan iedereen in de organisatie.
+    
+- Wanneer de desbetreffende Office-toepassing wordt gestart, wordt de invoegtoepassing automatisch gedownload. Als de invoegtoepassing invoegopdrachten ondersteunt, wordt de invoegtoepassing automatisch weergegeven op het lint in de Office-toepassing.
+    
+- Invoegtoepassingen worden niet meer weergegeven voor gebruikers als de beheerder de invoegtoepassing uit- of verwijdert of als de gebruiker wordt verwijderd uit Azure Active Directory of uit een groep waaraan de invoegtoepassing is toegewezen.
+
 Gecentraliseerde implementatie ondersteunt drie desktopplatforms Windows, Mac en Online Office-apps. Gecentraliseerde implementatie ondersteunt ook iOS en Android (alleen outlook-mobiele invoegtoepassingen).
+
 Het kan maximaal 24 uur duren voordat een invoegtoepassing aan alle gebruikers wordt weergegeven.
   
 ## <a name="requirements"></a>Vereisten
@@ -96,19 +106,19 @@ Met de gecentraliseerde implementatiecompatibiliteitscontrole u controleren of d
     
 2. Voer de volgende opdracht uit:
 
-```powershell
-Import-Module O365CompatibilityChecker
-```
+   ```powershell
+   Import-Module O365CompatibilityChecker
+   ```
     
 3. Voer de opdracht **Aanroepen-CompatabilityCheck** uit:
 
-```powershell
-Invoke-CompatibilityCheck
-```
-   die u vraagt om *_TenantDomain_* (bijvoorbeeld *TailspinToysIncorporated.onmicrosoft. </span> com)* en *_TenantAdmin-referenties_* (gebruik uw globale beheerdersreferenties) en vraagt vervolgens toestemming.
+   ```powershell
+   Invoke-CompatibilityCheck
+   ```
+   Met deze opdracht wordt u gevraagd voor *_TenantDomain_* (bijvoorbeeld *TailspinToysIncorporated.onmicrosoft. </span> com)* en *_TenantAdmin-referenties_* (gebruik uw globale beheerdersreferenties) en vraagt vervolgens toestemming.
     
-> [!NOTE]
-> Afhankelijk van het aantal gebruikers in uw tenant, kan het afronden van de controle minuten of uren in beslag nemen. 
+   > [!NOTE]
+   > Afhankelijk van het aantal gebruikers in uw tenant, kan het afronden van de controle minuten of uren in beslag nemen. 
   
 Als het hulpprogramma is uitgevoerd, wordt een uitvoerbestand gegenereerd in een CSV-indeling (door komma's gescheiden). Het bestand wordt standaard opgeslagen in **C:\windows\system32.** Het uitvoerbestand bevat de volgende gegevens:
   

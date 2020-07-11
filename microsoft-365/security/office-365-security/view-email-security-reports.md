@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het zoeken naar en gebruiken van e-mailbeveiligingsrapporten voor uw organisatie. E-mailbeveiligingsrapporten zijn beschikbaar in het Security & Compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6fbaa0b57c888f5eaf90a2a30d1850a145c33a80
-ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
+ms.openlocfilehash: 26dfa8ec046122dce28582fb3d7b395843572a88
+ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "45035727"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "45102904"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
@@ -38,6 +38,8 @@ Er zijn verschillende rapporten beschikbaar in het [Security & Compliance Center
 
 In het rapport **gecompromitteerde gebruikers** wordt het aantal gebruikersaccounts weergegeven dat in de afgelopen 7 dagen als **Verdacht** of **Beperkt is** gemarkeerd. Rekeningen in een van deze staten zijn problematisch of zelfs gecompromitteerd. Bij veelvuldig gebruik u het rapport gebruiken om pieken en zelfs trends in verdachte of beperkte accounts te herkennen. Zie [Reageren op een gecompromitteerd e-mailaccount](responding-to-a-compromised-email-account.md)voor meer informatie over gecompromitteerde gebruikers.
 
+![Gecompromitteerde gebruikers widget in het dashboard Rapporten](../../media/compromised-users-report-widget.png)
+
 De totaalweergave toont gegevens over de afgelopen 90 dagen en de detailweergave toont gegevens van de afgelopen 30 dagen.
 
 Als u het rapport wilt bekijken, opent u het [Security & Compliance Center,](https://protection.office.com)gaat u naar **Reports** \> **Rapportendashboard** en selecteert u **Gecompromitteerde gebruikers**. Open <https://protection.office.com/reportv2?id=CompromisedUsers> .
@@ -50,7 +52,7 @@ U zowel de grafiek als de detailtabel filteren door op **Filters** te klikken en
 
 - **Beperkt**: Het gebruikersaccount is beperkt tot het verzenden van e-mail als gevolg van zeer verdachte patronen.
 
-![De gecompromitteerde gebruikers melden zoals het verschijnt in Microsoft 365](../../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
+![Rapportweergave in het rapport Gecompromitteerde gebruikers](../../media/compromised-users-report-activity-view.png)
 
 Als u op **tabel Details weergeven**klikt, ziet u de volgende details:
 

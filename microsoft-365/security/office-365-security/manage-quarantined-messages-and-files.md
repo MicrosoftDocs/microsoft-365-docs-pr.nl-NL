@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen in Exchange Online Protection (EOP) leren hoe ze in quarantaine geplaatste berichten voor alle gebruikers kunnen bekijken en beheren. Beheerders in organisaties met Office 365 Advanced Threat Protection (Office 365 ATP) kunnen ook bestanden in quarantaine beheren in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
-ms.openlocfilehash: d3dadeb4035d55fa60785c7a752737cc83038730
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 5e7c594669cf910404badd85c35671c284d4d91e
+ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936969"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45101679"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Berichten en bestanden in quarantaine beheren als EOP-beheerder
 
@@ -218,6 +218,9 @@ Als u het bericht niet vrijgeeft of verwijdert, wordt het verwijderd nadat de st
 Wanneer u meerdere e-mailberichten in quarantaine selecteert (maximaal 100), verschijnt het deelvenster **Bulkopdrachten**, waar u de volgende acties kunt uitvoeren:
 
 - **Berichten vrijgeven**: de opties zijn dezelfde als wanneer u een enkel bericht vrijgeeft, behalve dat u **Berichten vrijgeven aan specifieke ontvangers** niet kunt selecteren. U kunt alleen **Bericht vrijgeven aan alle ontvangers** of **Berichten vrijgeven aan andere personen**.
+
+  > [!NOTE]
+  > Houd rekening met het volgende scenario: john@gmail.com stuurt een bericht naar faith@contoso.com en john@subsidiary.contoso.com. Gmail bifurcates dit bericht in twee exemplaren die beide zijn doorgestuurd naar quarantaine als phishing in Microsoft. Een beheerder geeft beide berichten vrij om te admin@contoso.com. Het eerste vrijgegeven bericht dat het beheerderspostvak bereikt, wordt bezorgd. Het tweede vrijgegeven bericht wordt geïdentificeerd als dubbele levering en wordt overgeslagen. Bericht worden geïdentificeerd als duplicaten als ze dezelfde bericht-ID en ontvangen tijd hebben.
 
 - **Berichten verwijderen**: nadat u op **Ja** hebt geklikt in de waarschuwing die wordt weergegeven, worden de berichten onmiddellijk verwijderd, zonder naar de originele ontvanger te worden verzonden.
 

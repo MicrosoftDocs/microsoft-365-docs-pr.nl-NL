@@ -1,25 +1,25 @@
 ---
 title: Nieuwe apparaten zelf registreren
-description: Apparaten zelf registreren zodat ze kunnen worden beheerd door Microsoft Managed Desktop
+description: Registreer apparaten zelf zodat ze kunnen worden beheerd door Microsoft Managed Desktop
 ms.prod: w10
 author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 8765d6ecd180d71d918a5feda8cd5089e7f561ee
-ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
+ms.openlocfilehash: 3c43c42ba2cb1feb339ad61b76d28fde4ed94298
+ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "44347817"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45101657"
 ---
 # <a name="register-new-devices-yourself"></a>Nieuwe apparaten zelf registreren
 
-Microsoft Managed Desktop kan werken met gloednieuwe apparaten of u apparaten die u misschien al hebt opnieuw gebruiken (waarvoor u ze opnieuw moet afbeelding smaken). U apparaten registreren met Microsoft Managed Desktop op de Azure Portal.
+Microsoft Managed Desktop kan werken met gloednieuwe apparaten of u apparaten die u mogelijk al hebt hergebruiken (waarvoor u ze opnieuw moet imagen). U apparaten registreren met behulp van de Microsoft Managed Desktop Admin Portal.
 
 > [!NOTE]
-> Samenwerken met een partner om apparaten te verkrijgen? Als dat zo is, hoeft u zich geen zorgen te maken over het verkrijgen van de hardware hashes; Dat regelen ze wel voor je. Zorg ervoor dat uw partner een relatie met u opbouwt in het [Partner Center.](https://partner.microsoft.com/dashboard) Uw partner kan meer informatie krijgen bij [Partner Center help.](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer) Zodra deze relatie is vastgesteld, zal uw partner gewoon apparaten namens u registreren - geen verdere actie die van u wordt verlangd. Zie Stappen voor partners om [apparaten te registreren](register-devices-partner.md)als u de details wilt zien of als uw partner vragen heeft. Zodra de apparaten zijn geregistreerd, u doorgaan met [het controleren van de afbeelding](#check-the-image) en het leveren van de [apparaten](#deliver-the-device) aan uw gebruikers.
+> Werken met een partner om apparaten te verkrijgen? Als dat zo is, hoeft u zich geen zorgen te maken over het verkrijgen van de hardware hashes; Dat regelen ze wel voor je. Zorg ervoor dat uw partner een relatie met u aangaat in het [Partner Center.](https://partner.microsoft.com/dashboard) Uw partner kan meer informatie leren bij [Partner Center help.](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer) Zodra deze relatie tot stand is gekomen, zal uw partner eenvoudig apparaten namens u registreren - geen verdere actie van u vereist. Zie Stappen voor partners om [apparaten te registreren](register-devices-partner.md)als u de gegevens wilt zien of als uw partner vragen heeft. Zodra de apparaten zijn geregistreerd, u doorgaan met [het controleren van de afbeelding](#check-the-image) en het leveren van de [apparaten](#deliver-the-device) aan uw gebruikers.
 
 ## <a name="prepare-to-register-brand-new-devices"></a>Voorbereiden om gloednieuwe apparaten te registreren
 
@@ -27,18 +27,18 @@ Microsoft Managed Desktop kan werken met gloednieuwe apparaten of u apparaten di
 Zodra u de nieuwe apparaten in de hand hebt, volgt u de volgende stappen:
 
 1. [Verkrijg de hardwarehash voor elk apparaat.](#obtain-the-hardware-hash)
-2. [De hashgegevens samenvoegen](#merge-hash-data)
+2. [De hash-gegevens samenvoegen](#merge-hash-data)
 3. [Registreer de apparaten in Microsoft Managed Desktop](#register-devices).
-4. [Controleer nogmaals of de afbeelding correct is.](#check-the-image)
+4. [Controleer of de afbeelding juist is.](#check-the-image)
 5. [Het apparaat leveren](#deliver-the-device)
 
 ### <a name="obtain-the-hardware-hash"></a>De hardwarehash verkrijgen
 
-Microsoft Managed Desktop identificeert elk apparaat uniek door te verwijzen naar de hardwarehash. Je hebt drie opties voor het verkrijgen van deze informatie:
+Microsoft Managed Desktop identificeert elk apparaat op unieke wijze door te verwijzen naar de hardwarehash. Je hebt drie opties voor het verkrijgen van deze informatie:
 
-- Vraag uw OEM-leverancier naar het AutoPilot-registratiebestand, dat de hardwarehashes bevat.
+- Vraag uw OEM-leverancier om het AutoPilot-registratiebestand, dat de hardwarehashes bevat.
 - Voer een [Windows PowerShell-script](#powershell-script-method) uit op elk apparaat en verzamel de resultaten in een bestand.
-- Start elk apparaat- maar voltooi de Installatie-ervaring van Windows niet - en [verzamel de hashes op een verwisselbaar flashstation.](#flash-drive-method)
+- Start elk apparaat - maar voltooi de Windows-installatieervaring niet - en [verzamel de hashes op een verwisselbaar flashstation](#flash-drive-method).
 
 #### <a name="powershell-script-method"></a>PowerShell-scriptmethode
 
@@ -48,33 +48,33 @@ Microsoft Managed Desktop identificeert elk apparaat uniek door te verwijzen naa
 
 #### <a name="flash-drive-method"></a>Flash-stationmethode
 
-1. Plaats een USB-station op een ander apparaat dan het apparaat dat u registreert.
+1. Plaats een ander apparaat dan het apparaat dat u registreert, een USB-station.
 2. Open een PowerShell-prompt met beheerdersrechten.
 3. Uitvoeren`Save-Script -Name Get-MMDRegistrationInfo -Path <pathToUsb>`
-4. Schakel het apparaat in dat u registreert, maar *start de installatie-ervaring niet.* Als u per ongeluk de installatie-ervaring start, moet u het apparaat opnieuw instellen of opnieuw inbeelden.
+4. Schakel het apparaat in dat u registreert, maar *start de installatie-ervaring niet.* Als u per ongeluk de installatie-ervaring start, moet u het apparaat opnieuw instellen of opnieuwimen.
 5. Plaats het USB-station en druk op Shift + F10.
-6. Open een PowerShell-prompt met beheerdersrechten en voer vervolgens uit `cd <pathToUsb>` .
+6. Open een PowerShell-prompt met beheerdersrechten en voer `cd <pathToUsb>` vervolgens uit .
 7. Uitvoeren`Set-ExecutionPolicy -ExecutionPolicy Unrestricted`
 8. Uitvoeren`.\Get-MMDRegistrationInfo -OutputFile <path>\hardwarehash.csv`
-9. Verwijder het USB-station en schakel het apparaat vervolgens uit door`shutdown -s -t 0`
+9. Verwijder het USB-station en schakel het apparaat uit door`shutdown -s -t 0`
 
 >[!IMPORTANT]
->Ga niet meer in op het apparaat dat u registreert totdat u de registratie voor het apparaat hebt voltooid. 
+>Geef het apparaat dat u opnieuw registreert niet weer aan totdat u de registratie ervoor hebt voltooid. 
 
 
-### <a name="merge-hash-data"></a>Hashgegevens samenvoegen
+### <a name="merge-hash-data"></a>Hash-gegevens samenvoegen
 
-U moet de gegevens in de CSV-bestanden in één bestand hebben gecombineerd om de registratie te voltooien. Hier is een voorbeeld PowerShell script om dit eenvoudig te maken:
+U moet de gegevens in de CSV-bestanden hebben gecombineerd in één bestand om de registratie te voltooien. Hier volgt een PowerShell-script om dit eenvoudig te maken:
 
 `Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv`
 ### <a name="register-devices"></a>Apparaten registreren
 
-Het CSV-bestand moet zich in een bepaalde indeling voor registratie hebben. Als u de gegevens zelf hebt verzameld in de vorige stappen, moet het bestand al in de juiste indeling zijn; als u het bestand van een leverancier verkrijgt, moet u mogelijk de indeling aanpassen.
+Het CSV-bestand moet in een bepaald formaat voor registratie staan. Als u de gegevens zelf hebt verzameld in de vorige stappen, moet het bestand al in de juiste indeling zijn. als u het bestand bij een leverancier verkrijgt, moet u mogelijk het formaat aanpassen.
 
 >[!NOTE]
->Voor uw gemak u een [voorbeeld CSV-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-self.csv)downloaden.
+>Voor uw gemak u een [voorbeeld van CSV-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-self.csv)downloaden.
 
-Uw bestand moet **exact dezelfde kolomkoppen** bevatten als de voorbeeldkop (fabrikant, model, enz.), maar uw eigen gegevens voor de andere rijen. Als u de sjabloon gebruikt, opent u deze in een tekstbewerkingstool zoals Kladblok en overweegt u alle gegevens alleen in rij 1 achter te laten en alleen gegevens in rijen 2 en lager in te voeren. 
+Uw bestand moet **exact dezelfde kolomkoppen** bevatten als de voorbeeldkoppen (fabrikant, model, enz.), maar uw eigen gegevens voor de andere rijen. Als u de sjabloon gebruikt, opent u deze in een tekstbewerkingsgereedschap zoals Kladblok en u overwegen alle gegevens in rij 1 alleen te laten, waarbij alleen gegevens in rij 2 en lager worden invoeren. 
     
   ```
  Manufacturer,Model,Serial Number,Hardware Hash
@@ -86,57 +86,57 @@ Uw bestand moet **exact dezelfde kolomkoppen** bevatten als de voorbeeldkop (fab
 >[!NOTE]
 >Als u vergeet een van de voorbeeldgegevens te wijzigen, mislukt de registratie.
 
-#### <a name="register-devices-by-using-the-azure-portal"></a>Apparaten registreren met behulp van de Azure Portal
+#### <a name="register-devices-by-using-the-admin-portal"></a>Apparaten registreren met behulp van de adminportal
 
-Selecteer **Apparaten** in het linkernavigatiedeelvenster in de [Azure-portal](https://aka.ms/mmdportal)van Microsoft Managed Desktop. Selecteer **+ Apparaten registreren**; de fly-in opent:
+Selecteer **Apparaten** in het linkernavigatiedeelvenster in de Microsoft Managed Desktop [Admin Portal.](https://aka.ms/mmdportal) Selecteer **+ Apparaten registreren**; de fly-in opent:
 
-[![Fly-in na het selecteren van Register-apparaten, het vermelden van apparaten met kolommen voor toegewezen gebruikers, serienummer, status, laatst geziene datum en leeftijd](../../media/register-devices-flyin-sterile.png)](../../media/register-devices-flyin-sterile.png)
+[![Fly-in na het selecteren van Apparaten registreren, apparaten met kolommen voor toegewezen gebruikers, serienummer, status, laatst geziene datum en leeftijd vermelden](../../media/register-devices-flyin-sterile.png)](../../media/register-devices-flyin-sterile.png)
 
 
-[//]: # (Helaas is dit niet waar. We kunnen deze notitie verwijderen - maar laten het nu totdat we een kans hebben om erover te praten.)
+[//]: # (Helaas is dit niet waar. We kunnen deze notitie verwijderen - maar laat het nu tot we een kans om te chatten over.)
 
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 
 Volg deze stappen:
 
-1. Geef **in Het uploaden van**bestanden een pad naar het CSV-bestand dat u eerder hebt gemaakt.
+1. Geef in **Bestandsupload**een pad op naar het CSV-bestand dat u eerder hebt gemaakt.
 2. Optioneel u een **bestel-id** of **aankoop-id** toevoegen voor uw eigen trackingdoeleinden. Er zijn geen indelingsvereisten voor deze waarden.
-3. Selecteer **Apparaten registreren**. Het systeem voegt de apparaten toe aan uw lijst met apparaten op het **apparaatblad**, gemarkeerd als **Registratie in behandeling**. Registratie duurt meestal minder dan 10 minuten, en wanneer het apparaat succesvol is, wordt het weergegeven als **Klaar voor de gebruiker,** wat betekent dat het klaar is en wacht tot een eindgebruiker begint te gebruiken.
+3. Selecteer **Apparaten registreren**. Het systeem voegt de apparaten toe aan uw lijst met apparaten op het **apparaatblad,** gemarkeerd als **Registratie in behandeling.** Registratie duurt meestal minder dan 10 minuten, en wanneer het apparaat succesvol is, wordt weergegeven als **Klaar voor de gebruiker,** wat betekent dat het klaar is en wacht tot een eindgebruiker begint te gebruiken.
 
 
-U de voortgang van de apparaatregistratie controleren op de hoofdpagina **Microsoft Managed Desktop - Devices.** Mogelijke staten die daar worden gemeld zijn:
+U de voortgang van apparaatregistratie volgen op de hoofdpagina **van Microsoft Managed Desktop - Devices.** Mogelijke staten gemeld zijn er:
 
 | Status | Beschrijving |
 |---------------|-------------|
-| Registratie in behandeling | Registratie is nog niet gedaan. Kom later terug. |
-| Registratie is mislukt | De registratie kon niet worden voltooid. Raadpleeg [apparaatregistratie probleemoplossing](#troubleshooting-device-registration) voor meer informatie. |
-| Klaar voor gebruik | Registratie geslaagd en het apparaat is nu klaar om te worden geleverd aan de eindgebruiker. Microsoft Managed Desktop begeleidt hen door de eerste set-up, dus u hoeft zich niet verder te voorbereiden. |
-| Actief | Het apparaat is geleverd aan de eindgebruiker en ze hebben zich geregistreerd bij uw tenant. Dit geeft ook aan dat ze regelmatig gebruik maken van het apparaat. |
-| Inactief | Het apparaat is geleverd aan de eindgebruiker en ze hebben zich geregistreerd bij uw tenant. Ze hebben het apparaat echter niet recent gebruikt (in de afgelopen 7 dagen).  | 
+| Inschrijving in behandeling | Registratie is nog niet gedaan. Kom later terug. |
+| Registratie is mislukt | De inschrijving kon niet worden voltooid. Raadpleeg [de registratie van het apparaat voor probleemoplossing](#troubleshooting-device-registration) voor meer informatie. |
+| Klaar voor de gebruiker | De registratie is geslaagd en het apparaat is nu klaar om te worden geleverd aan de eindgebruiker. Microsoft Managed Desktop begeleidt ze door de eerste tijdset-up, dus u hoeft geen verdere voorbereidingen te treffen. |
+| Actief | Het apparaat is geleverd aan de eindgebruiker en ze hebben zich geregistreerd bij uw tenant. Dit geeft ook aan dat ze het apparaat regelmatig gebruiken. |
+| Inactief | Het apparaat is geleverd aan de eindgebruiker en ze hebben zich geregistreerd bij uw tenant. Ze hebben het apparaat echter niet onlangs (in de afgelopen 7 dagen) gebruikt.  | 
 
 #### <a name="troubleshooting-device-registration"></a>Apparaatregistratie oplossen
 
 | Foutbericht | Details |
 |---------------|-------------|
-| Apparaat niet gevonden | We konden dit apparaat niet registreren omdat we geen overeenkomst konden vinden voor de meegeleverde fabrikant, model of serienummer. Bevestig deze waarden met uw apparaatleverancier. |
-| Hardwarehash niet geldig | De hardwarehash die u voor dit apparaat hebt opgegeven, is niet correct geformatteerd. Controleer de hardwarehash en voer deze vervolgens opnieuw in. |
+| Apparaat niet gevonden | We konden dit apparaat niet registreren omdat we geen overeenkomst konden vinden voor de geleverde fabrikant, het model of het serienummer. Bevestig deze waarden met uw apparaatleverancier. |
+| Hardware hash niet geldig | De hardwarehash die u voor dit apparaat hebt geleverd, is niet correct opgemaakt. Controleer de hardware hash en vervolgens opnieuw in te dienen. |
 | Apparaat al geregistreerd | Dit apparaat is al geregistreerd bij uw organisatie. Geen verdere actie vereist. |
-| Apparaat dat is geclaimd door een andere organisatie | Dit apparaat is al geclaimd door een andere organisatie. Neem contact op met uw apparaatleverancier. |
+| Apparaat geclaimd door een andere organisatie | Dit apparaat is al geclaimd door een andere organisatie. Neem contact op met uw apparaatleverancier. |
 | Onverwachte fout | Uw aanvraag kan niet automatisch worden verwerkt. Neem contact op met de ondersteuning en geef de aanvraag-id op:<requestId> |
 
 ### <a name="check-the-image"></a>De afbeelding controleren
 
-Als uw apparaat afkomstig is van een Microsoft Managed Desktop-partnerleverancier, moet de afbeelding correct zijn.
+Als uw apparaat afkomstig is van een microsoft managed desktop-partnerleverancier, moet de afbeelding correct zijn.
 
-U bent ook van harte welkom om de afbeelding alleen toe te passen als u dat liever hebt. Neem om aan de slag te gaan contact op met de Microsoft-vertegenwoordiger waarmee u werkt en geeft u de locatie en stappen voor het toepassen van de afbeelding.
+U bent ook van harte welkom om de afbeelding toe te passen op uw eigen als u dat liever. Neem voor u contact op met de Microsoft-vertegenwoordiger waarmee u werkt en deze biedt u de locatie en stappen voor het toepassen van de afbeelding.
 
 ### <a name="deliver-the-device"></a>Het apparaat leveren
 
 > [!IMPORTANT]
 > Voordat u het apparaat aan uw gebruiker overhandigt, moet u ervoor zorgen dat u de [juiste licenties](../get-ready/prerequisites.md) voor die gebruiker hebt verkregen en toegepast.
 
-Als alle licenties worden toegepast, u [uw gebruikers klaar maken om apparaten te gebruiken,](get-started-devices.md)en vervolgens kan uw gebruiker het apparaat opstarten en doorgaan met de Windows-installatie-ervaring.
+Als alle licenties worden toegepast, u [uw gebruikers klaar maken om apparaten te gebruiken,](get-started-devices.md)en vervolgens kan uw gebruiker het apparaat opstarten en doorgaan met de Windows-installatieervaring.
 
 
 

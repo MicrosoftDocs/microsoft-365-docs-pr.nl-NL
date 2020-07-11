@@ -19,14 +19,14 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Overzicht van de productiviteitsscore van Microsoft.
-ms.openlocfilehash: cf8747f38442c0dbef6178dc2cbd4ce32d59c5c6
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: a93ceef3833e1e55f6e3bb979fd93aa3d90ded37
+ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754794"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45101645"
 ---
-# <a name="microsoft-productivity-score-preview"></a>Microsoft Productivity score (Preview)
+# <a name="microsoft-productivity-score-preview"></a>Microsoft Productivity Score (Preview)
 
 Productiviteitsscore helpt organisaties om de manier waarop werk wordt gedaan te transformeren met inzichten over hoe mensen Microsoft 365 gebruiken en de technologische ervaringen die hen ondersteunen. De score weerspiegelt de prestaties van uw organisatie ten opzichte van metingen van werknemers- en technologie-ervaring en vergelijkt uw score met organisaties als de uwe.
 
@@ -145,7 +145,7 @@ Dit rapport helpt bedrijfsleiders inzicht te krijgen in:
 
 - De impact op de balans tussen werk en privéleven als mensen zich aanpassen aan het werken vanuit huis. 
 
-- Als mensen vergaderingen effectief gebruiken en hoe ze 
+- Als vergaderingen op afstand effectieve besluitvorming ondersteunen.
 
 [Meer informatie over het rapport Bedrijfscontinuïteit](https://aka.ms/bcrps)
 
