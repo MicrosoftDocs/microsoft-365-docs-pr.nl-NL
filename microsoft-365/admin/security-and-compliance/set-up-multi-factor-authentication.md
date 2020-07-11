@@ -8,7 +8,7 @@ manager: mnirkhe
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,102 +21,103 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
-description: Meer informatie over het instellen van meerstapverificatie voor uw organisatie.
+description: Instructies voor het instellen van meervoudige verificatie voor uw organisatie.
 monikerRange: o365-worldwide
-ms.openlocfilehash: b0fd16fc74319c88a6f91bf56ac96346915c35ac
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: 56ca51e77b2ba4fa370a2814a7be9df1393c29dc
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049758"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083536"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Meervoudige verificatie instellen
   
-Op basis van uw begrip van [multi-factor authenticatie (MFA) en de ondersteuning ervan in Microsoft 365,](multi-factor-authentication-microsoft-365.md)is het tijd om het in te stellen en uit te rollen naar uw organisatie.
+Gezien uw ervaring met [meervoudige verificatie (MFA) en de bijbehorende ondersteuning in Microsoft 365](multi-factor-authentication-microsoft-365.md), is het tijd om dit in te stellen en te implementeren in uw organisatie.
 
-Voordat u begint, u bepalen of deze speciale voorwaarden op u van toepassing zijn en de juiste actie ondernemen:
+Controleer voordat u begint of een van de volgende situaties op u van toepassing is en voer indien nodig de bijbehorende actie uit:
 
-- Als u Office 2013-clients op Windows-apparaten hebt, [schakelt u Moderne verificatie in](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication).
+- Als u Office 2013-clients op Windows-apparaten hebt, [moet u Moderne verificatie](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication) inschakelen.
 
-- Als u directoryservices van derden hebt met Active Directory Federation Services (AD FS), stelt u de Azure MFA-server in. Bekijk [geavanceerde scenario's met Azure Multi-Factor Authentication en VPN-oplossingen van derden](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-nps-vpn) voor meer informatie.
+- Als u adreslijstservices van derden van Active Directory Federation Services (AD FS) hebt, moet u de Azure MFA-server instellen. Raadpleeg [geavanceerde scenario's met Azure Multi-Factor Authentication en VPN-oplossingen van derden](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-nps-vpn) voor meer informatie.
 
-Alle andere gebruikers wordt gevraagd om indien nodig extra verificatie uit te voeren. Ga voor meer informatie naar [de verificatiemethode en -instellingen met twee factoren.](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-manage-settings#turn-on-two-factor-verification-prompts-on-a-trusted-device)
+Alle andere gebruikers wordt gevraagd om indien nodig aanvullende verificatie uit te voeren. Voor meer informatie gaat u naar [tweeledige verificatiemethode en -instellingen](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-manage-settings#turn-on-two-factor-verification-prompts-on-a-trusted-device).
 
-## <a name="step-1-decide-on-the-method-of-requiring-your-users-to-use-mfa"></a>Stap 1: Bepaal de methode om uw gebruikers te verplichten MFA te gebruiken
+## <a name="step-1-decide-on-the-method-of-requiring-your-users-to-use-mfa"></a>Stap 1: bepaal hoe uw gebruikers MFA moeten gebruiken
 
 > [!NOTE]
-> U moet een globale beheerder zijn om MFA in te stellen of te wijzigen. Er zijn drie manieren om uw gebruikers te verplichten MFA te gebruiken voor aanmeldingen. Zie [MFA-ondersteuning in Microsoft 365](multi-factor-authentication-microsoft-365.md) voor de details.
+> U moet een algemeen beheerder zijn om MFA in te stellen of te wijzigen. Er zijn drie manieren om uw gebruikers MFA te laten gebruiken voor aanmelding. Zie [MFA-ondersteuning in Microsoft 365](multi-factor-authentication-microsoft-365.md) voor meer details hierover.
 
 - Standaardinstellingen voor beveiliging (aanbevolen voor kleine bedrijven)
 
-  Als u uw abonnement of proefversie na 21 oktober 2019 hebt gekocht en u onverwacht wordt gevraagd om MFA, zijn [beveiligingsstandaarden](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) automatisch ingeschakeld voor uw abonnement.
+  Als u na 21 oktober 2019 uw abonnement of proefabonnement hebt afgesloten en u wordt onverwacht gevraagd om aanvullende verificatie met MFA, zijn de [standaardinstellingen voor beveiliging](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) automatisch ingeschakeld voor uw abonnement.
   
-  Bij elk nieuw Microsoft 365-abonnement zijn automatisch beveiligingsstandaarden ingeschakeld. Dit betekent dat elke gebruiker MFA moet instellen en de Microsoft Authenticator-app op zijn mobiele apparaat moet installeren.
+  De standaardinstellingen voor beveiliging zijn automatisch ingeschakeld voor elk nieuw abonnement op Microsoft 365. Dit betekent dat elke gebruiker MFA moet instellen en de Microsoft Authenticator-app op zijn mobiele apparaat moet installeren.
 
-  Alle gebruikers moeten de Microsoft Authenticator-app gebruiken omdat hun extra verificatiemethode en verouderde verificatie worden geblokkeerd. 
+  Alle gebruikers moeten de Microsoft Authenticator-app als extra verificatiemethode gebruiken en de oude methode wordt geblokkeerd. 
 
-- Beleid voor voorwaardelijke toegang (aanbevolen voor ondernemingen)
+- Beleid voor voorwaardelijke toegang (aanbevolen voor bedrijven)
 
-  Gebruikers kiezen de aanvullende verificatiemethode tijdens MFA-registratie.
+  Gebruikers kiezen de aanvullende verificatiemethode tijdens de MFA-registratie.
 
 - Account per gebruiker (niet aanbevolen)
 
-  Gebruikers kiezen de aanvullende verificatiemethode tijdens MFA-registratie.
+  Gebruikers kiezen de aanvullende verificatiemethode tijdens de MFA-registratie.
 
-## <a name="step-2-test-mfa-on-your-pilot-users"></a>Stap 2. Test MFA op uw pilootgebruikers
+## <a name="step-2-test-mfa-on-your-pilot-users"></a>Stap 2. MFA testen met testfasedeelnemers 
 
-Als u het beleid voor voorwaardelijke toegang of MFA per gebruiker gebruikt (niet aanbevolen), selecteert u proefgebruikers in uw bedrijf of organisatie om MFA-registratie en aanmeldingen te testen. Bijvoorbeeld:
+Als u een beleid voor voorwaardelijke toegang hanteert of MFA per gebruiker (niet aanbevolen), selecteert u testfasedeelnemers in uw bedrijf of organisatie om MFA-registratie en -aanmelding te testen. Bijvoorbeeld:
 
-- Maak voor het beleid voor voorwaardelijke toegang een groep proefgebruikers en een beleid waarvoor MFA vereist is voor de leden van de groep en voor alle apps. Voeg vervolgens de accounts van de pilootgebruiker toe aan de groep.
+- Voor beleid voor voorwaardelijke toegang maakt u een testfasedeelnemersgroep aan en een beleid dat MFA vereist voor de leden van de groep en voor alle-apps. Vervolgens voegt u de accounts van de testfasedeelnemers toe aan de groep.
 
-- Schakel voor MFA per gebruiker MFA één keer in voor de gebruikersaccounts van uw pilootgebruikers.
+- Voor MFA per gebruiker schakelt u MFA voor de gebruikersaccounts van de testfasedeelnemers een voor een in.
 
-Werk samen met uw proefgebruikers om vragen en problemen aan te pakken om u voor te bereiden op een soepele uitrol naar uw organisatie.
+Werk samen met de testfasedeelnemers om vragen en problemen op te lossen om een soepele implementatie in uw organisatie voor te bereiden.
 
-## <a name="step-3-inform-your-organization-that-mfa-is-coming"></a>Stap 3. Uw organisatie informeren dat MFA eraan komt
+## <a name="step-3-inform-your-organization-that-mfa-is-coming"></a>Stap 3. Laat uw organisatie weten dat MFA eraan komt
 
-Gebruik e-mailmeldingen, gangposters, teamvergaderingen of formele training om ervoor te zorgen dat uw medewerkers het begrijpen:
+Gebruik e-mailmeldingen, posters op de gang, teamvergaderingen of formele training om te zorgen dat uw medewerkers begrijpen:
 
-- Waarom MFA nodig is voor aanmeldingen
-- [Hoe te registreren voor hun aanvullende verificatiemethode](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14)
-- [Aanmelden na registratie](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
-- [Hoe de aanvullende verificatiemethode te wijzigen](https://support.microsoft.com/office/956ec8d0-7081-4518-a701-f8414cc20831)
-- [Hoe om te gaan met situaties zoals een nieuwe smartphone](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2)
+- waarom MFA vereist is voor aanmelding
+- [hoe ze zich kunnen registreren voor de aanvullende verificatiemethode](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14)
+- [hoe ze zich moeten aanmelden na registratie](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
+- [hoe ze de aanvullende verificatiemethode kunnen wijzigen](https://support.microsoft.com/office/956ec8d0-7081-4518-a701-f8414cc20831)
+- [hoe ze moeten omgaan met situaties als een nieuwe smartphone](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2)
 
-Het belangrijkste is dat uw medewerkers begrijpen ***wanneer de MFA-eis wordt opgelegd,*** zodat het hen niet verbaast.
+Het belangrijkste is dat uw medewerkers weten ***vanaf wanneer MFA vereist is***, zodat het niet onverwachts komt.
 
-## <a name="step-4-roll-out-the-mfa-requirement-to-your-organization-or-users"></a>Stap 4. De MFA-eis uitrollen naar uw organisatie of gebruikers
+## <a name="step-4-roll-out-the-mfa-requirement-to-your-organization-or-users"></a>Stap 4. MFA implementeren voor uw organisatie of gebruikers
 
-Op basis van de gekozen MFA-vereistemethode rolt u MFA-verificatie uit naar de werknemers buiten uw pilottesters.
+Implementeer MFA voor de werknemers en niet meer voor de testfasedeelnemers op basis van de gekozen MFA-verificatiemethode.
 
 ### <a name="security-defaults"></a>Standaardinstellingen voor beveiliging
 
-U schakelt beveiligingsstandaarden in of uit vanuit het deelvenster **Eigenschappen** voor Azure Active Directory (Azure AD) in de Azure-portal.
+U kunt standaardinstellingen voor beveiliging in- of uitschakelen vanuit het deelvenster **Eigenschappen** voor Azure Active Directory (Azure AD) in Azure Portal.
 
-1.  Meld u aan bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com) met globale beheerdersreferenties.
-2.  Ga naar de [pagina Azure Active Directory - Eigenschappen](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
+1.  Meld u aan bij [Microsoft 365-beheercentrum](https://admin.microsoft.com) met algemeen beheerdersreferenties.
+2.  Ga naar de [eigenschappenpagina van Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
 3.  Kies onderaan de pagina de optie **Standaardinstellingen voor beveiliging beheren**.
-4.  Kies **Ja** om beveiligingsstandaardinstellingen in te schakelen en **Nee** om beveiligingsstandaarden uit te schakelen en kies **Opslaan**.
+4.  Kies **Ja** als u de standaardinstellingen voor beveiliging wilt inschakelen of **Nee** om deze uit te schakelen en kies vervolgens **Opslaan**.
 
-Als u het [beleid voor voorwaardelijke toegang basislijn](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection)hebt gebruikt, gaat u als u over tot het gebruik van beveiligingsstandaarden.
+Als u [beleid voor voorwaardelijke toegang volgens basislijn](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection) gebruikt, gaat u als volgt te werk om de standaardinstellingen voor beveiliging te gebruiken.
 
-1.  Ga naar de [pagina Voorwaardelijke toegang - Beleidsregels](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies).
-2.  Kies elk basislijnbeleid dat is **ingeschakeld** en stel **Beleid inschakelen** in **op Uit**.
-2.  Ga naar de [pagina Azure Active Directory - Eigenschappen](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
+1.  Ga naar de [pagina met beleidsregels voor voorwaardelijke toegang](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies).
+2.  Kies elk basislijnbeleid dat **Aan** staat en zet **Beleid inschakelen** **Uit**.
+2.  Ga naar de [eigenschappenpagina van Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
 4.  Kies onderaan de pagina de optie **Standaardinstellingen voor beveiliging beheren**.
-5.  Kies **Ja** om beveiligingsstandaardinstellingen in te schakelen en **Nee** om beveiligingsstandaarden uit te schakelen en kies **Opslaan**.
+5.  Kies **Ja** als u de standaardinstellingen voor beveiliging wilt inschakelen of **Nee** om deze uit te schakelen en kies vervolgens **Opslaan**.
 
-### <a name="conditional-access-policies"></a>Beleid voor voorwaardelijke toegang
+### <a name="conditional-access-policies"></a>Beleidsregels voor voorwaardelijke toegang
 
-Maak, configureer en schakel het juiste beleid in dat de groep gebruikers omvat waarvoor MFA moet worden aangemeld.
+De juiste beleidsregels aanmaken, configureren en inschakelen voor de gebruikersgroep die zich met MFA moet aanmelden.
 
 ### <a name="per-user-mfa-not-recommended"></a>MFA per gebruiker (niet aanbevolen)
 
-Gebruikersaccounts inschakelen voor MFA die overeenkomt met uw implementatie.
+Schakel gebruikersaccounts in voor MFA in overeenstemming met uw implementatie.
 
-### <a name="supporting-your-employees"></a>Ondersteuning van uw medewerkers
+### <a name="supporting-your-employees"></a>Ondersteuning voor uw werknemers
 
-Terwijl uw medewerkers zich registreren en beginnen met inloggen bij MFA, zorg er dan voor dat uw IT-specialisten, IT-afdeling of helpdesk vragen kunnen beantwoorden en problemen snel kunnen oplossen.
+Zorg ervoor dat IT-specialisten, IT-afdeling of helpdesk snel vragen kan beantwoorden en problemen kan oplossen als uw werknemers zich registreren en gaan aanmelden met MFA.
 
-Zie dit artikel voor [informatie over het oplossen van MFA-aanmeldingen](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2). 
+Raadpleeg dit artikel voor [informatie over het oplossen van problemen bij het aanmelden met MFA](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2). 
 
 
