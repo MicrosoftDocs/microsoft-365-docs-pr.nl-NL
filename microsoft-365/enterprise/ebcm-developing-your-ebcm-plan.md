@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Overwegingen bij het ontwikkelen van een bedrijfscontinuïteitsplan met de cloud.
-ms.openlocfilehash: f8518a96461d33093b9d736f890f6166dc6b3c97
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 35aa5fb74b8281a089ef0b58998cd297507cc46f
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42807333"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083513"
 ---
 # <a name="developing-your-continuity-plan"></a>Uw continuïteitsplan ontwikkelen
 
@@ -80,6 +80,8 @@ Hier ziet u een voorbeeld van een afhankelijkheidsanalyse die u als beginpunt ku
 
 Wanneer u uw bedrijfsprocessen hebt geïnventariseerd en relaties met andere processen en technologieën in kaart hebt gebracht, moet u validatiescenario's voor alle processen maken. U gaat in feite na hoe u uw plannen voor de bedrijfscontinuïteit gaat valideren. U zult waarschijnlijk merken dat sommige belangrijker zijn dan andere en dat u aan de belangrijke prioriteit wilt geven.
 Vergeet niet dat het belangrijk is regelmatig werknemers te trainen hoe ze op incidenten moeten reageren en wat de maatregelen voor het behoud van de continuïteit zijn zodra het plan is opgesteld. Gebruik evaluaties van incidenten achteraf om uw tolerantiestrategieën te verbeteren met wat u van elke validatie of test hebt geleerd.
+
+![validatie van mogelijkheden in visio](../media/ebcm/capability-validation-visio.png)
 
 ## <a name="incident-coordination-and-communication"></a>Coördinatie en communicatie bij incidenten
 

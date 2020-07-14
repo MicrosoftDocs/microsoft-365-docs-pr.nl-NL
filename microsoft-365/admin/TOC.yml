@@ -222,8 +222,10 @@
           href: setup/upgrade-users-to-latest-office-client.md
         - name: Vereisten voor gecentraliseerde implementatie van invoegtoepassingen
           href: manage/centralized-deployment-of-add-ins.md
-        - name: Invoegtoepassingen installeren en beheren met behulp van Gecentraliseerde implementatie
+        - name: Invoegtoepassingen implementeren in het beheercentrum
           href: manage/manage-deployment-of-add-ins.md
+        - name: Invoegtoepassingen beheren in het beheercentrum
+          href: manage/manage-addins-in-the-admin-center.md
         - name: Veelgestelde vragen over Gecentraliseerde implementatie
           href: manage/centralized-deployment-faq.md
         - name: Een partner of wederverkoper zoeken
@@ -294,12 +296,12 @@
           href: ../business/device-states.md
         - name: Instellingen voor app-beveiliging voor Windows 10-pc's
           href: ../business/protection-settings-for-windows-10-devices.md
-        - name: Instellingen voor app-beveiliging voor Android en iOS
+        - name: Instellingen voor app-beveiliging instellen voor Android en iOS
           href: ../business/app-protection-settings-for-android-and-ios.md
           items:
             - name: Instellingen valideren op Android of iOS
               href: ../business/validate-settings-on-android-or-ios.md
-        - name: Instellingen voor apparaatbeveiliging voor Windows 10-pc's
+        - name: Instellingen voor apparaatbeveiliging instellen voor Windows 10-pc’s
           href: ../business/protection-settings-for-windows-10-pcs.md
           items:
             - name: Instellingen valideren op Windows 10-pc's

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Enkele voorbeelden van mitigaties voor incident-scenario's van de Microsoft 365-service.
-ms.openlocfilehash: ea9804d4f22a11ea9ffcda9d9939d70574c2e87e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e5313464a45be679eaee6c4d06ca000e63c1010c
+ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "42812437"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086631"
 ---
 # <a name="service-incident-mitigation-strategies"></a>Strategieën voor het beperken van service-incidenten
 
@@ -36,6 +36,7 @@ Hier vindt u enkele strategieën en scenario's die uitleggen hoe u de gevolgen v
 |VoIP-telefoons worden gebruikt als secundaire communicatiemethode.|Implementeer niet-VoIP-telefoons die geschikt zijn voor bellen via PSTN, met name voor het operationele centrum voor het netwerk en de service tijdens incidenten. Zet mobiele telefoonnummers van werknemers in de adreslijst van het bedrijfs, zodat cruciale medewerkers via het mobiele netwerk bereikt kunnen worden.|
 |OneDrive voor Bedrijven wordt gebruikt voor het opslaan van bestanden en gebruikersproductiviteit. [Files On-Demand](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/OneDrive-Files-On-Demand-For-The-Enterprise/ba-p/117234) wordt geconfigureerd om ruimte vrij te maken op lokale gebruikersstations.|Met OneDrive-synchronisatie kunt u groepsbeleid maken dat beheerders de mogelijkheid geeft het lokaal synchroniseren van specifieke inhoud of het vrijmaken van ruimte te verplichten. Als u het risico op ontoegankelijkheid van documenten wilt beperken, configureert u dit beleid voor het lokaal synchroniseren van kritieke documenten. Leid gebruikers op voor het handmatig toepassen van de instelling “altijd bewaren op dit apparaat” voor belangrijke documenten.|
 |De communicatie van zakelijke storingen naar klanten en leveranciers is afhankelijk van Exchange Online.|Openbare sociale netwerken van derden kunnen worden gebruikt als een alternatief middel voor massacommunicatie.
+|Het mislukken van hybride on-premises-architectuur, zoals ADFS of Pass Through-verificatie, veroorzaakt een probleem bij het aanmelden bij cloudservices door gebruikers.|Configureer [Wachtwoord-hashsynchronisatie](https://docs.microsoft.com/azure/active-directory/authentication/concept-resilient-controls#deploy-password-hash-sync-even-if-you-are-federated-or-use-pass-through-authentication), in combinatie met uw hybride verificatieservices, als secundaire verificatiemethode in de cloud om aanmeldingsproblemen te voorkomen tijdens de onderbreking. Raadpleeg [Een tolerant toegangsbeheerstrategie aanmaken met Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-resilient-controls) voor meer informatie over het bouwen van architectuur voor tolerant verificatie- en toegangsbeheer.|  
 
 ## <a name="leveraging-mobile-app-access"></a>Gebruikmaken van toegang tot mobiele apps
 
