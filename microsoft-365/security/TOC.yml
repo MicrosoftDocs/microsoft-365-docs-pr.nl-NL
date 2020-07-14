@@ -215,8 +215,12 @@
               href: mtp/device-profile.md
             - name: Feedback geven
               href: mtp/feedback.md
-            - name: Tickets beheren via ServiceNow
-              href: ./mtp/tickets.md
+            - name: ServiceNow-tickets en -taken maken
+              items:
+                - name: Overzicht van ServiceNow-integratie
+                  href: ./mtp/tickets.md
+                - name: ServiceNow-tickets in het beveiligingscentrum
+                  href: ./mtp/tickets-security-center.md
     - name: Office 365-beveiliging
       items:
         - name: Aan de slag

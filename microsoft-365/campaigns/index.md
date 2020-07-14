@@ -26,7 +26,7 @@ ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 365 voor campagnes
 ms.openlocfilehash: 167b265676d3c3bc9025a0c0e998379f72bb9e52
 ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/02/2020
 ms.locfileid: "43632033"
@@ -34,27 +34,27 @@ ms.locfileid: "43632033"
 <a name="microsoft-365-for-campaigns"></a>Microsoft 365 voor campagnes
 ===========================
 
-In onze huidige wereld is het beveiligen van gegevens en communicatie een prioriteit, met name voor politieke campagnes, medische en juridische praktijken en vele andere bedrijven. Microsoft 365 voor campagnes wordt geleverd met een reeks aanbevelingen die zijn ontworpen om u en uw gegevens te beschermen. Deze bibliotheek bevat hulp bij het instellen en gebruiken van deze aanbevolen omgeving, zelfs als u geen campagne bent.
+In de huidige wereld is het beveiligen van gegevens en communicatie een prioriteit, met name voor politieke campagnes, medische en juridische praktijken en vele andere bedrijfstakken. Microsoft 365 voor campagnes wordt geleverd met een set aanbevelingen om u en uw gegevens te beschermen. Dit pakket biedt hulp bij het instellen en gebruiken van deze aanbevelingen, zelfs als u geen campagne voert.
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3clbH] 
 
 
-**Wat is Microsoft 365 voor campagnes?** Het is een aanbevolen veilige configuratie die Microsoft 365 Business Premium bevat, zodat u:
-- Vertrouwen op vertrouwde hulpprogramma's voor zakelijke productiviteit en samenwerking, zoals Outlook, Word, Excel en andere Office-producten 
-- Bescherm uw werkbestanden op al uw iOS-, Android- en Windows 10-apparaten met bedrijfsbeveiliging die eenvoudig te beheren is 
-- Extra bescherming toepassen voor gebruikersaccounts en identiteit 
+**Wat is Microsoft 365 voor campagnes?** Dit is een aanbevolen veilige configuratie die Microsoft 365 Business Premium bevat, zodat u:
+- kunt vertrouwen op betrouwbare hulpprogramma's voor bedrijfsproductiviteit en samenwerking, zoals Outlook, Word, Excel en andere Office-producten 
+- uw werkbestanden op al uw iOS-, Android- en Windows 10-apparaten kunt beschermen met eenvoudig te beheren beveiliging op bedrijfsniveau 
+- extra beveiliging kunt toepassen op gebruikersaccounts en -identiteit 
 
-![Microsoft 365 Business Premium beschermt uw productiviteitstools, samenwerkingstools, bestandsopslag, e-mail, apparaten en identiteit](../media/M365-WhatIsIt-SecurityFocus.png)
+![Microsoft 365 Business Premium beschermt uw hulpprogramma's voor productiviteit en samenwerking, bestandsopslag, e-mail, apparaten en identiteit](../media/M365-WhatIsIt-SecurityFocus.png)
 
-Terwijl federale verkiezingscampagnes in de Verenigde Staten in aanmerking komen voor speciale prijzen voor Microsoft 365 Business Premium, kan elke organisatie met dit plan gebruik maken van deze richtlijnen om meer beveiliging te configureren en te leren hoe ze veilig kunnen samenwerken.
+Hoewel federale verkiezingscampagnes in de Verenigde Staten in aanmerking komen voor speciale prijzen voor Microsoft 365 Business Premium, kan elke organisatie met dit abonnement profiteren van deze richtlijnen voor het configureren van een betere beveiliging en meer informatie over hoe u veilig kunt samenwerken.
 
-Deze bibliotheek bevat het volgende:
-- Richtlijnen voor het instellen van prescriptieve instellingen voor het toevoegen van meer beveiliging.
-- Help gebruikers om apparaten in te stellen voor veilige toegang.
-- Richtlijnen voor het veilig samenwerken en delen.
+Dit pakket bevat het volgende:
+- Richtlijnen voor het instellen van een betere beveiliging.
+- Hulp voor gebruikers bij het instellen van beveiligde toegang.
+- Richtlijnen voor veilig samenwerken en delen.
 
-Zie [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business)voor meer informatie over wat er is inbegrepen. 
+Raadpleeg [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business) voor meer informatie over de inhoud. 
 
 
 <a name="get-started"></a>Aan de slag
@@ -71,8 +71,8 @@ Zie [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/bus
                         </div>
                     </div>
                     <div class="cardText">
-                        <p><b>Volg de volgende stappen om aan de slag te gaan:</b></p>
-                        <P><a href="get-microsoft-365-campaigns.md">Microsoft 365-campagnes ophalen</a></p>
+                        <p><b>Ga aan de hand van deze stappen aan de slag:</b></p>
+                        <P><a href="get-microsoft-365-campaigns.md">Microsoft 365-campagnes aanschaffen</a></p>
                         <P><a href="m365-campaigns-users.md">Meer informatie over hoe uw gebruikers werken met Microsoft 365</a></p>
                         <P><a href="microsoft-365-campaigns-setup-overview.md">Microsoft 365-campagnes instellen</a></p>
                     </div>
@@ -85,7 +85,7 @@ Zie [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/bus
 <a name="solutions-for-your-campaign-or-small-business"></a>Oplossingen voor uw campagne of kleine bedrijven
 --------------------------
 
-Nadat u uw beveiligde Microsoft 365-omgeving hebt ingesteld, u de volgende oplossingen gebruiken om aan de slag te gaan:
+Na het instellen van de veilige Microsoft 365-omgeving, kunt u de volgende oplossingen gebruiken om aan de slag te gaan:
 
 <ul class="panelContent cardsW cols cols2">
     <li>
@@ -98,9 +98,9 @@ Nadat u uw beveiligde Microsoft 365-omgeving hebt ingesteld, u de volgende oplos
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams maken voor samenwerking</h3>
+                        <h3>Teams voor samenwerking aanmaken</h3>
                         <p>Maak een ruimte voor communicatie en samenwerking met specifieke teams voor belangrijke medewerkers, alle medewerkers en partners of leveranciers met Microsoft Teams.</p>
-                        <p><a href="create-teams-for-collaboration.md">Maak je team aan</a></p>
+                        <p><a href="create-teams-for-collaboration.md">Team aanmaken</a></p>
                     </div>
                 </div>
             </div>
@@ -117,8 +117,8 @@ Nadat u uw beveiligde Microsoft 365-omgeving hebt ingesteld, u de volgende oplos
                     </div>
                     <div class="cardText">
                         <h3>Onlinevergaderingen instellen</h3>
-                        <p>Plan een vergadering met audio, video en delen met Microsoft Teams.</p>
-                        <p><a href="set-up-meetings.md">Een vergadering instellen</a></p>
+                        <p>Een vergadering plannen met audio, video en delen met Microsoft Teams.</p>
+                        <p><a href="set-up-meetings.md">Een vergadering organiseren</a></p>
                     </div>
                 </div>
             </div>
@@ -134,8 +134,8 @@ Nadat u uw beveiligde Microsoft 365-omgeving hebt ingesteld, u de volgende oplos
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Uw gevoelige e-mail versleutelen of labelen</h3>
-                        <p>Gebruik versleutelings- en gevoeligheidslabels om e-mail te beschermen die vertrouwelijke of gevoelige informatie bevat.</p>
+                        <h3>Uw gevoelige e-mailberichten versleutelen of labelen</h3>
+                        <p>Gebruik labels voor versleuteling en gevoeligheid om e-mailberichten te beveiligen die vertrouwelijke of gevoelige informatie bevatten.</p>
                         <p><a href="send-encrypted-email.md">Versleutelde e-mail verzenden</a></p>
                     </div>
                 </div>
@@ -152,9 +152,9 @@ Nadat u uw beveiligde Microsoft 365-omgeving hebt ingesteld, u de volgende oplos
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Een communicatiesite maken</h3>
-                        <p>Deel gebeurtenissen, berichten, afbeeldingen en meer met uw team op een interne communicatiesite die is gemaakt met SharePoint.</p>
-                        <p><a href="create-communications-site.md">Uw site maken</a></p>
+                        <h3>Een communicatiepagina aanmaken</h3>
+                        <p>Deel gebeurtenissen, berichten, afbeeldingen en meer met uw team op een interne communicatiepagina die is aangemaakt met SharePoint.</p>
+                        <p><a href="create-communications-site.md">Een pagina aanmaken</a></p>
                     </div>
                 </div>
             </div>
@@ -171,8 +171,8 @@ Nadat u uw beveiligde Microsoft 365-omgeving hebt ingesteld, u de volgende oplos
                     </div>
                     <div class="cardText">
                         <h3>Bestanden en video's delen</h3>
-                        <p>Sla uw bestanden en video's op in de cloud, zodat ze beschikbaar zijn voor alle geschikte mensen.</p>
-                        <p><a href="share-files-and-videos.md">Beginnen met delen</a></p>
+                        <p>Sla uw bestanden en video's op in de cloud, zodat deze beschikbaar zijn voor alle aangewezen personen.</p>
+                        <p><a href="share-files-and-videos.md">Begin met delen</a></p>
                     </div>
                 </div>
             </div>
