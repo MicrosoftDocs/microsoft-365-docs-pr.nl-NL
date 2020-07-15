@@ -18,11 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48850c76176d79e4f90581bfbab804f4649998cc
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: b7bda309dbb1b601c77b6fb34ff9b8be14d5638d
+ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049630"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138276"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Proactief jagen op bedreigingen met geavanceerde jacht in Microsoft Threat Protection
 
@@ -43,7 +44,7 @@ We raden aan om verschillende stappen te doorlopen om snel aan de slag te gaan m
 
 | Leerdoel | Beschrijving | Resource |
 |--|--|--|
-| **Krijg een gevoel voor de taal** | Geavanceerde jacht is gebaseerd op de [Kusto query taal,](https://docs.microsoft.com/azure/kusto/query/)ondersteuning van dezelfde syntaxis en operators. Begin met het leren van de querytaal door uw eerste query uit te voeren. | [Overzicht van querytaal](advanced-hunting-query-language.md) |
+| **Krijg een gevoel voor de taal** | Geavanceerde jacht is gebaseerd op [Kusto query taal,](https://docs.microsoft.com/azure/kusto/query/)ondersteuning van dezelfde syntaxis en operators. Begin met het leren van de querytaal door uw eerste query uit te voeren. | [Overzicht van querytaal](advanced-hunting-query-language.md) |
 | **Meer informatie over het gebruik van de queryresultaten** | Meer informatie over grafieken en verschillende manieren waarop u uw resultaten bekijken of exporteren. Ontdek hoe u query's snel aanpassen en inzoomen om rijkere informatie te krijgen. | [Werken met queryresultaten](advanced-hunting-query-results.md) |
 | **Meer informatie over het schema** | Krijg een goed inzicht op hoog niveau in de tabellen in het schema en hun kolommen. Zo u bepalen waar u gegevens moet zoeken en hoe u uw query's construeren. | [Schemaverwijzing](advanced-hunting-schema-tables.md) |
 | **Vooraf gedefinieerde query's gebruiken** | Verken verzamelingen van vooraf gedefinieerde query's die verschillende scenario's voor bedreigingsjacht bestrijken. | - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)<br>- [Ga jagen](advanced-hunting-go-hunt.md) |
@@ -53,6 +54,11 @@ We raden aan om verschillende stappen te doorlopen om snel aan de slag te gaan m
 ## <a name="get-access"></a>Toegang krijgen
 Als u geavanceerde jacht- of andere [Microsoft Threat Protection-mogelijkheden](microsoft-threat-protection.md) wilt gebruiken, moet u een passende rol krijgen toegewezen in Azure AD. Houd er rekening mee dat uw toegang tot eindpuntgegevens wordt beïnvloed door op rollen gebaseerde toegangscontrole-instellingen in Microsoft Defender ATP. [Lees meer over het beheren van toegang tot Microsoft Threat Protection](mtp-permissions.md)
 
+## <a name="data-freshness-and-update-frequency"></a>Versheid van gegevens en updatefrequentie
+Geavanceerde jachtgegevens kunnen worden onderverdeeld in twee verschillende typen, elk verschillend geconsolideerd.
+
+- **Gebeurtenis- of activiteitsgegevens** : vult tabellen over waarschuwingen, beveiligingsgebeurtenissen, systeemgebeurtenissen en routinebeoordelingen. Geavanceerde jacht ontvangt deze gegevens vrijwel onmiddellijk nadat de sensoren die ze verzamelen ze met succes naar de bijbehorende cloudservices sturen. U bijvoorbeeld beginnen met het opvragen van gebeurtenisgegevens van gezonde sensoren op werkstations of domeincontrollers, vrijwel direct nadat ze beschikbaar zijn op Microsoft Defender ATP en Azure ATP.
+- **Entiteitsgegevens** : vult tabellen met geconsolideerde informatie over gebruikers en apparaten. Deze gegevens zijn afkomstig van zowel relatief statische gegevensbronnen, zoals Active Directory-vermeldingen, als dynamische bronnen, zoals gebeurtenislogboeken. Om nieuwe gegevens te verstrekken, worden tabellen elke 15 minuten bijgewerkt met nieuwe informatie, waarbij rijen worden toegevoegd die mogelijk niet volledig zijn ingevuld. Elke 24 uur worden gegevens geconsolideerd om een record in te voegen dat de nieuwste, meest uitgebreide gegevensset over elke entiteit bevat.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [De querytaal leren](advanced-hunting-query-language.md)

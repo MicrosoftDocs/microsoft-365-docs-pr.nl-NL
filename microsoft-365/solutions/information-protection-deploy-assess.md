@@ -5,7 +5,7 @@ author: brendacarter
 f1.keywords:
 - NOCSH
 manager: laurawi
-ms.date: 06/09/2020
+ms.date: 07/13/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Bepaal de regelgeving voor gegevensprivacy, de relevante scenario's, uw gereedheid en de gevoelige informatietypen die zich in uw Microsoft 365-omgeving bevinden.
-ms.openlocfilehash: f8d8fd0b5e6d8876dead566a50408cb2e7419386
-ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
+ms.openlocfilehash: 0cfa9f8a22810027e1a31ce2ace8b42f26ef9eb2
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854350"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126593"
 ---
 # <a name="assess-data-privacy-risks-and-identify-sensitive-items-with-microsoft-365"></a>Gegevensprivacyrisico's beoordelen en gevoelige items identificeren met Microsoft 365
 
@@ -98,6 +98,8 @@ Gegevens worden ook in de loop van de tijd verplaatst terwijl deze worden verwer
 Om de privacyregels van gegevens aan te pakken, u niet vertrouwen op algemene noties van waar u denkt dat persoonlijke gegevens kunnen bestaan, nu of in de toekomst. De regelgeving inzake gegevensprivacy vereist dat organisaties aantonen dat ze voortdurend weten waar persoonsgegevens zich bevindt. Dit maakt het belangrijk om een eerste momentopname te maken van al uw gegevensbronnen voor mogelijke opslag van persoonlijke gegevens, waaronder uw Microsoft 365-omgeving, en mechanismen in te stellen voor voortdurende monitoring en detectie.
 
 Als u uw algehele gereedheid en risico's in verband met de regelgeving voor gegevensprivacy nog niet hebt beoordeeld, gebruikt u het volgende 3-stappenkader om aan de slag te gaan. 
+
+![Stappen om uw algehele gereedheid en risico's in verband met de regelgeving inzake gegevensprivacy te beoordelen](../media/information-protection-deploy-assess/information-protection-deploy-assess-grid.png)
 
 >[!Note]
 >Dit artikel en de inhoud ervan zijn niet bedoeld om de plaats in te nemen van juridische adviesdiensten. Het biedt slechts een aantal fundamentele richtlijnen en links naar instrumenten die kunnen worden van hulp in de vroege stadia van uw beoordeling.
@@ -178,7 +180,7 @@ Organisaties die onderworpen zijn aan andere regelgeving inzake gegevensprivacy,
 
 GDPR-beoordeling bestaat uit deze secties:
 
-| | |
+| Sectie | Beschrijving |
 |:-------|:-----|
 | Beheermodel | <ol><li>Vermeldt uw privacybeleid expliciet welke gegevens worden verwerkt? </li><li>Voert u regelmatig Privacy Impact Assessments (PIA's) uit? </li><li> Gebruikt u een tool om persoonlijke gegevens (PI) te beheren? </li><li> Heeft u de wettelijke bevoegdheid om zaken te doen met pi-gegevens over een bepaald individu? Houdt u toestemming voor gegevens bij? </li><li> Houdt u controlecontroles bij, implementeer en beheert u deze? Controleert u op datalekken? </li></ol>|
 | Verwijdering en kennisgeving | <ol><li>Geeft u expliciete instructies over hoe de gegevens van gebruikers toegankelijk zijn? </li><li> Heeft u gedocumenteerde processen voor de behandeling van opt-out toestemming? </li><li> Heeft u een geautomatiseerd verwijderingsproces voor gegevens? </li><li>   Heeft u een proces om identiteit te valideren wanneer u contact op met een klant? </li></ol>|

@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lees meer over Microsoft 365 Business Premium, een abonnementsservice met Office-productiviteitsapps en geavanceerde bescherming voor uw bedrijf tegen cyberdreigingen.
-ms.openlocfilehash: 6cff2fe62111e0d3ee99f406d0be83db0a119b09
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: 50b1fec21593bd22577e07e000cedb89dfd90f66
+ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786169"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138223"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Overzicht van Microsoft 365 Business Premium
 
@@ -110,11 +110,6 @@ Zie [beveiligingsfuncties van Microsoft 365 Business Premium](security-features.
 - Als u een partner hebt, krijgen ze Microsoft 365 Business Premium: [Microsoft 365 Business Premium downloaden in het Microsoft Partner Center](get-microsoft-365-business.md).
 
 - Als u geen partner hebt en Microsoft 365 Business Premium wilt aanschaffen, kunt u deze [hier kopen](https://www.microsoft.com/microsoft-365/business) en volg de [aanmeldingsinstructies](sign-up.md).
-
-- U kunt ook naar een [Microsoft Store](https://www.microsoft.com/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer) gaan om zowel Microsoft 365 Business Premium te kopen als hulp bij het instellen te krijgen.
-
-    > [!NOTE]
-    > Deze koppeling is alleen bedoeld voor winkels in de Verenigde Staten
 
 ## <a name="see-also"></a>Zie ook
 

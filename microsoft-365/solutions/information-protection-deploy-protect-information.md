@@ -16,12 +16,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Implementeer microsoft 365-beveiligings- en nalevingsfuncties en bescherm uw persoonlijke gegevens.
-ms.openlocfilehash: 2ec8d280d650606921becb6120546b52253620f4
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 99ac0f9e29c161ffa26362976f83584c9b168026
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844690"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126445"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Informatie beschermen die onderworpen is aan de privacywetgeving van gegevens
 
@@ -33,6 +33,8 @@ Deze besturingselementen bevinden zich binnen de volgende oplossingsgebieden:
 - Preventie van gegevensverlies (DLP)
 - Ome -versleuteling van Office-berichten (OME)
 - Toegangsbesturingselementen voor teams en sites
+
+![Belangrijkste diensten ter bescherming van persoonlijke gegevens die onderworpen zijn aan de privacywetgeving](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-grid.png)
 
 >[!Note]
 >Deze oplossing beschrijft beveiligings- en nalevingsfuncties om informatie die onderworpen is aan de regelgeving inzake gegevensprivacy te beschermen. Zie [Microsoft 365-beveiligingsdocumentatie](https://docs.microsoft.com/microsoft-365/security/)voor een volledige lijst met beveiligingsfuncties in Microsoft 365. Zie [Microsoft 365-nalevingsdocumentatie](https://docs.microsoft.com/microsoft-365/compliance/)voor een volledige lijst met nalevingsfuncties in Microsoft 365.
@@ -94,7 +96,7 @@ Voltooi deze activiteiten voordat u een van de hieronder gemarkeerde mogelijkhed
 
 1. Begrijp het volgende:
    - **Zakelijke vereisten.** Besbree de zakelijke redenen voor het toepassen van gevoeligheidslabels in uw onderneming. Bijvoorbeeld uw vereisten voor gegevensprivacy voor informatiebescherming.
-   - **Gevoeligheidslabelmogelijkheden.** Gevoeligheidsetikettering kan complex worden, dus zorg ervoor dat u de documentatie van de [gevoeligheidslabels](../compliance/sensitivity-labels.md) leest voordat u aan de slag gaat.
+   - **Gevoeligheidslabelmogelijkheden.** Gevoeligheidslabeling kan complex worden, dus zorg ervoor dat u de [documentatie van de gevoeligheidslabels](../compliance/sensitivity-labels.md) leest voordat u aan de slag gaat.
    - **Belangrijke dingen om te onthouden** Gevoeligheidslabels worden beheerd in het Microsoft Compliance-beheercentrum, maar de targeting- en toepassingsopties variëren aanzienlijk.
       - Er zijn gevoeligheidslabels voor sites, groepen en Teams op containerniveau (de instellingen zijn niet van toepassing op inhoud in de container). Deze worden gepubliceerd aan gebruikers en groepen die ze toepassen wanneer een site, groep of team is ingericht.
       - Er zijn gevoeligheidslabels voor actieve inhoud. Deze worden ook gepubliceerd aan gebruikers of groepen, die ze handmatig toepassen of wanneer ze automatisch worden toegepast wanneer:
@@ -102,14 +104,14 @@ Voltooi deze activiteiten voordat u een van de hieronder gemarkeerde mogelijkhed
         - Er wordt een e-mail opgesteld en verzonden.
       - Er zijn gevoeligheidslabels voor automatische toepassing op bestanden in rest in SharePoint en OneDrive, naast e-mails die onderweg zijn via Exchange. Deze zijn gericht op alle sites of specifieke sites en automatisch van toepassing op de bestanden in rust in deze omgevingen.
 
-2. Rationaliseren van de huidige gevoeligheidsetikettering met vroegere of alternatieve methoden
+2. Rationaliseren van de huidige gevoeligheid etikettering met verleden of alternatieve methoden
 
    - Azure Information Protection
 
-      Het huidige gevoeligheidsetiketteringssysteem moet mogelijk worden afgestemd op de bestaande implementatie van [Azure Information Protection-etikettering.](../compliance/sensitivity-labels.md#sensitivity-labels-and-azure-information-protection)
+      Het huidige gevoeligheidslabelingschema moet mogelijk worden afgestemd op bestaande Azure Information Protection-etiketteringsimplementatie. [Azure Information Protection](../compliance/sensitivity-labels.md#sensitivity-labels-and-azure-information-protection)
    - Ome
 
-      Als u van plan bent om moderne gevoeligheidsetikettering te gebruiken voor e-mailbescherming en bestaande e-mailversleutelingsmethoden zoals OME zijn van kracht, kunnen ze naast elkaar bestaan, maar u moet de scenario's begrijpen waarin een van beide moet worden toegepast. Zie [Office 365 Message Encryption new capabilities (OME),](#office-365-message-encryption-ome-new-capabilities)die een tabel bevat waarin moderne bescherming van het gevoeligheidslabel wordt vergeleken met bescherming op basis van OME.
+      Als u van plan bent om moderne gevoeligheidslabeling te gebruiken voor e-mailbescherming en bestaande e-mailversleutelingsmethoden zoals OME zijn van kracht, kunnen ze naast elkaar bestaan, maar u moet de scenario's begrijpen waarin een van beide moet worden toegepast. Zie [Office 365 Message Encryption new capabilities (OME),](#office-365-message-encryption-ome-new-capabilities)die een tabel bevat waarin moderne bescherming van het gevoeligheidslabel wordt vergeleken met bescherming op basis van OME.
 
 3. Plan voor integratie in een breder stelsel voor informatiebescherming. Naast coëxistentie met OME kunnen de huidige gevoeligheidslabels worden gebruikt langs de kant van mogelijkheden zoals Microsoft 365 data loss prevention (DLP) en Microsoft Cloud App Security. Zie [Gevoeligheidslabels en Microsoft Cloud App Security](../compliance/sensitivity-labels.md#sensitivity-labels-and-microsoft-cloud-app-security) om de doelstellingen voor gegevensbescherming te bereiken.
 
@@ -174,7 +176,7 @@ De mogelijkheid om gevoeligheidslabels automatisch toe te passen op inhoud is be
 - U hoeft niet te vertrouwen op gebruikers om alle inhoud correct te classificeren.
 - Gebruikers hoeven niet meer op de hoogte te zijn van uw beleid, maar kunnen zich concentreren op hun werk.
 
-Automatische etikettering ondersteunt het aanbevelen van een label aan gebruikers en het automatisch toepassen van een label. Maar in beide gevallen beslist de gebruiker of hij het label accepteert of weigert, om de juiste etikettering van inhoud te garanderen.
+Auto-labeling ondersteunt het aanbevelen van een label aan gebruikers en het automatisch toepassen van een label. Maar in beide gevallen beslist de gebruiker of hij het label accepteert of weigert, om de juiste etikettering van inhoud te garanderen.
 
 Deze labeling aan clientzijde heeft minimale vertraging voor documenten omdat het label kan worden toegepast nog voordat het document is opgeslagen. Niet alle client-apps ondersteunen echter autolabeling. Deze mogelijkheid wordt ondersteund door de unified labelingclient van Azure Information Protection en [enkele versies van Office-apps](../compliance/sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps).
 
@@ -235,7 +237,7 @@ Plan uw DLP-beleid voor:
 
 - Doorlopend DLP-beleidsbeheer, waarbij iemand in de organisatie beleid moet uitvoeren en afstemmen op wijzigingen in gevoelige informatietypen, bewaarlabels, regelgeving en nalevingsbeleid.
 
-Hoewel gevoeligheidslabels niet kunnen worden gebruikt in DLP-beleidsvoorwaarden, kunnen bepaalde beveiligingsscenario's om toegang te voorkomen haalbaar zijn met alleen gevoeligheidslabels die automatisch kunnen worden toegepast op basis van gevoelige informatietypen. Als er een etikettering met een robuuste gevoeligheid is ingevoerd, moet u overwegen of DLP moet worden gebruikt om de bescherming te vergroten, omdat:
+Hoewel gevoeligheidslabels niet kunnen worden gebruikt in DLP-beleidsvoorwaarden, kunnen bepaalde beveiligingsscenario's om toegang te voorkomen haalbaar zijn met alleen gevoeligheidslabels die automatisch kunnen worden toegepast op basis van gevoelige informatietypen. Als er robuuste gevoeligheidslabeling is aangebracht, moet u overwegen of DLP moet worden gebruikt om de bescherming te vergroten, omdat:
 
   - DLP kan het delen van bestanden voorkomen. Gevoeligheidslabels kunnen gewoon de toegang voorkomen.
 
@@ -279,7 +281,7 @@ Gevoeligheidslabels kunnen samenwerken met DLP om gegevensprivacy te bieden in e
 3. Er wordt een algemene strategie vastgesteld om aan de vereisten te voldoen en hotspots voor gegevensprivacy te beschermen en te regelen.
 4. Er wordt een gefaseerd actieplan opgesteld om de strategie voor gegevensprivacybeheer aan te pakken.
 
-Zodra deze elementen zijn bepaald, u gevoelige informatietypen, uw gevoeligheidsetiketterings taxonomie en DLP-beleid samen gebruiken. Dit cijfer toont een voorbeeld.
+Zodra deze elementen zijn bepaald, u gevoelige informatietypen, uw gevoeligheid die taxonomie en DLP-beleid samen labelt, gebruiken. Dit cijfer toont een voorbeeld.
 
 ![Voorbeeld van gevoeligheidslabels die met DLP werken](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
 
@@ -319,7 +321,7 @@ OME- en gevoeligheidslabels die worden toegepast op e-mail met versleuteling heb
 | Externe partijen <br> Veilig communiceren en samenwerken met externe/consumentengebruikers | Ja – vooraf ontvangers in label | Aanbevelen – just-in-time bescherming op basis van ontvangers |
 | Interne + partners, met vervaldatum/intrekking <br> Toegang tot e-mail en inhoud beheren met interne gebruikers en vertrouwde partners met vervaldatum en intrekking | Recommend - volledig aangepaste beveiliging met toegangsduur, gebruiker kan bestanden handmatig bijhouden en intrekken | Nee – geen intrekking of vervaldatum voor interne e-mail |
 | Externe partijen met expiratie/intrekking <br> Toegang tot e-mail en inhoud beheren met externe/consumentengebruikers met vervaldatum en intrekking | Ja - gebruiker kan bestanden handmatig bijhouden | Recommend (E5) – admin kan e-mail intrekken van Security & Compliance Center |
-| Automatische etikettering <br> Organisatie wil e-mail/bijlagen automatisch beveiligen met specifieke gevoelige inhoud en/of specifieke ontvangers | Aanbevelen (E5) - Automatische labeling in Exchange- en Outlook-clients, vergroot regels voor e-mailstroom en DLP-beleid | Ja - regels voor e-mailstroom en DLP-beleid met alleen beveiliging versleutelen of Niet doorsturen |
+| Autolabeling <br> Organisatie wil e-mail/bijlagen automatisch beveiligen met specifieke gevoelige inhoud en/of specifieke ontvangers | Aanbevelen (E5) - Automatische labeling in Exchange- en Outlook-clients, vergroot regels voor e-mailstroom en DLP-beleid | Ja - regels voor e-mailstroom en DLP-beleid met alleen beveiliging versleutelen of Niet doorsturen |
 ||||
 
 Er zullen ook verschillen zijn in de ervaringen van eindgebruikers en beheerders tussen deze twee methoden.

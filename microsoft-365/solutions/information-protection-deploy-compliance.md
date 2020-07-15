@@ -5,7 +5,7 @@ author: brendacarter
 f1.keywords:
 - NOCSH
 manager: laurawi
-ms.date: 06/09/2020
+ms.date: 07/13/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -15,19 +15,21 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365solutions
 ms.custom: ''
-description: Meer informatie over het gebruik van Complance Score en Compliance Manager om uw beschermingsniveau voor persoonsgegevens te verbeteren.
-ms.openlocfilehash: 4a45f24d66d08c2c0f17d75d897f523ef074936c
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+description: Meer informatie over het gebruik van Compliance Score en Compliance Manager om uw beschermingsniveau voor persoonsgegevens te verbeteren.
+ms.openlocfilehash: d3730f7a91876befc05f749497540fbe9abe9641
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016365"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126546"
 ---
 # <a name="use-compliance-score-and-compliance-manager-to-manage-improvement-actions"></a>Compliance Score en Compliance Manager gebruiken om verbeteracties te beheren
 
 Microsoft Compliance Score en Compliance Manager kunnen samen worden gebruikt om verbeteringen in verband met de regelgeving inzake gegevensprivacy te beheren, zoals de [Algemene Verordening Gegevensbescherming (AVG) van](../compliance/gdpr.md)de Europese Unie, de California Consumer Protection Act [CCPA),](../compliance/ccpa-faq.md)HIPAA-HITECH (US Health Care Privacy Act) en de Brazil Data Protection Act (LGPD). 
 
 In dit artikel vindt u richtlijnen voor het gebruik van deze hulpmiddelen voor gegevensprivacydoeleinden.
+
+![Compliance Score en Compliance Manager om verbeteracties te beheren](../media/information-protection-deploy-compliance/information-protection-deploy-compliance-grid.png)
 
 >[!Note]
 >De klantacties in Compliance Manager zijn aanbevelingen. Het is aan u om de effectiviteit van deze aanbevelingen in uw regelgevingsomgevingen te evalueren voordat deze worden geïmplementeerd. Aanbevelingen van compliancemanagers mogen niet worden geïnterpreteerd als een garantie voor naleving.
@@ -107,7 +109,7 @@ U ook een nieuwe sjabloon toevoegen die is aangepast voor uw organisatie op basi
 >Als u een groot aantal regelgeving of overlappende verbeteringsacties behandelt, u overwegen elke betreffende sjabloon te downloaden en de gegevenssets te combineren, verbeteringsacties of controletypen die niet van toepassing zijn op uw organisatie verwijderen en opnieuw uploaden. Dit kan gemakkelijker zijn dan het navigeren in elke sectie controle-informatie en het markeren van elk als buiten het bereik.
 >
 
-## <a name="compliance-score"></a>Compliance Score
+## <a name="compliance-score"></a>Compliancescore
 
 Zodra de beoordelingen en beoordelingsspecificaties zijn uitgevoerd in Compliance Manager, u nu naar de [compliancescore-tool](../compliance/compliance-score.md) gaan en de score bekijken en de gegevens verder snijden en de gegevens in blokjes snijden, inclusief het controlegebied.
 
