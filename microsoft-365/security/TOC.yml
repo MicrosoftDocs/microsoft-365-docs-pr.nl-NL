@@ -191,6 +191,10 @@
               items:
                 - name: Secure Score-overzicht
                   href: mtp/microsoft-secure-score.md
+                - name: Inzicht krijgen in uw beveiligingspositie
+                  href: mtp/microsoft-secure-score-improvement-actions.md
+                - name: Score-geschiedenis bijhouden en doestellingen halen
+                  href: mtp/microsoft-secure-score-history-metrics-trends.md
                 - name: Binnenkort beschikbaar
                   href: mtp/microsoft-secure-score-whats-coming.md
             - name: Rapporten
@@ -411,8 +415,10 @@
                   href: ./office-365-security/air-custom-reporting.md
             - name: Gehackte gebruikersaccounts snel detecteren en adresseren
               href: ./office-365-security/address-compromised-users-quickly.md
-            - name: Schadelijke e-mail onderzoeken en verhelpen
+            - name: Schadelijke e-mail onderzoeken
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
+            - name: Schadelijke e-mail verhelpen
+              href: ./office-365-security/remediate-malicious-email-delivered-office-365.md
             - name: Uw ATP-rapporten bekijken en lezen
               href: ./office-365-security/view-reports-for-atp.md
             - name: De nieuwste aanvallen begrijpen met bedreigingsanalyse
