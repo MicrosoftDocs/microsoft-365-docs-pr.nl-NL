@@ -1,11 +1,11 @@
 ---
-title: Stap 4. Productiviteitsapps en -services implementeren voor externe medewerkers
+title: Stap 5. Productiviteitsapps en -services implementeren voor externe medewerkers
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 06/03/2020
+ms.date: 07/13/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,14 +17,14 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Geef uw gebruikers de mogelijkheid productief te zijn met Teams, Exchange, SharePoint en andere Microsoft 365-services.
-ms.openlocfilehash: 1c621ae797f32cd5b98af4c1eb7a341d0f976938
-ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
+ms.openlocfilehash: a5c1d27afdb7afd8b4ee3052f745c4c986299a2e
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44560445"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127095"
 ---
-# <a name="step-4-deploy-remote-worker-productivity-apps-and-services"></a>Stap 4. Productiviteitsapps en -services implementeren voor externe medewerkers
+# <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Stap 5. Productiviteitsapps en -services implementeren voor externe medewerkers
 
 Om productief te zijn, moeten mensen met elkaar kunnen communiceren en samenwerken. Ze moeten kunnen vergaderen, chatten via spraak en tekst, nieuwe inhoud kunnen maken, bestanden en informatie delen, e-mails uitwisselen en agenda's en taken kunnen beheren. Microsoft 365 bied cloudservices voor al deze belangrijke functies:
 
@@ -67,11 +67,18 @@ Met Outlook kunnen externe medewerkers verbonden en georganiseerd blijven met e-
 
 Zie [dit artikel](../enterprise/secure-email-recommended-policies.md) voor het aanbevolen beleid voor identiteiten en apparaattoegang om e-mailberichten en e-mailclients van organisaties te beveiligen waarmee moderne verificatie en voorwaardelijke toegang worden ondersteund.
 
-## <a name="store-and-collaborate-on-files-with-sharepoint-online-and-onedrive"></a>Samenwerken aan en opslaan van bestanden met SharePoint Online en OneDrive
+## <a name="store-and-collaborate-on-files-with-sharepoint-and-onedrive"></a>Samenwerken aan en opslaan van bestanden met SharePoint en OneDrive
 
-Bij het samenwerken aan inhoud kunnen externe medewerkers SharePoint Online- en OneDrive-mappen gebruiken als een centrale locatie in de cloud om bestanden op te slaan en te delen, eraan samen te werken en te communiceren. Externe medewerkers kunnen overal veilig werken vanuit een webbrowser, Teams en Office-apps.
+Bij het samenwerken aan inhoud kunnen externe medewerkers SharePoint- en OneDrive-mappen gebruiken als centrale locatie in de cloud om bestanden op te slaan en te delen, eraan samen te werken, te cocreëren en te communiceren. Externe medewerkers kunnen overal veilig werken vanuit een webbrowser, Teams en Office-apps.
 
-Zie [dit artikel](../enterprise/sharepoint-file-access-policies.md) voor het aanbevolen beleid voor identiteiten en apparaattoegang om SharePoint Online en OneDrive voor Bedrijven te beveiligen.
+Mogelijk moet u uw documenten migreren naar SharePoint of OneDrive vanuit:
+
+- [SharePoint Server-teamsites](https://docs.microsoft.com/sharepointmigration/sp-teams-sites-migration-guide)
+- [MySites](https://docs.microsoft.com/sharepointmigration/mysites-to-onedrive-migration-guide)
+- [Bestandsshares](https://docs.microsoft.com/sharepointmigration/fileshare-to-odsp-migration-guide)
+- [Vak](https://docs.microsoft.com/sharepointmigration/box-to-onedrive-and-sharepoint-migration-guide)
+
+Zie [dit artikel](../enterprise/sharepoint-file-access-policies.md) voor het aanbevolen beleid voor identiteiten en apparaattoegang om SharePoint en OneDrive te beveiligen.
 
 ## <a name="create-and-collaborate-on-content-with-microsoft-365-apps"></a>Maken van en samenwerken aan inhoud met Microsoft 365 Apps
 
@@ -90,9 +97,9 @@ Zie [dit artikel](https://docs.microsoft.com/deployoffice/deployment-guide-micro
 
 ## <a name="user-training-resources-for-productivity-apps-and-services"></a>Bronnen voor gebruikerstraining voor productiviteits-apps en -services
 
-- [Uw gebruikers trainen in Office en Office 365](https://support.office.com/article/train-your-users-on-office-and-microsoft-365-7cba3c97-7f19-46ed-a1c6-763971a26c2)
+- [Uw gebruikers trainen in Office en Microsoft 365](https://support.microsoft.com/office/train-your-users-on-office-and-microsoft-365-7cba3c97-7f19-46ed-a1c6-763971a26c27)
 - [De webversie van Office gebruiken](https://support.microsoft.com/office/get-started-with-office-for-the-web-in-microsoft-365-5622c7c9-721d-4b3d-8cb9-a7276c2470e5)
 
 ## <a name="next-step"></a>Volgende stap
 
-Ga door met [Stap 5](empower-people-to-work-remotely-communication-venues.md) om extra communicatielocaties te maken voor uw externe medewerkers.
+Ga verder met [stap 6](empower-people-to-work-remotely-train-monitor-usage.md) om uw gebruikers te trainen en hun succes te bewaken.

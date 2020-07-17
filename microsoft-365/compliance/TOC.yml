@@ -283,34 +283,40 @@
           href: enable-unlimited-archiving.md
         - name: Een archief- en verwijderingsbeleid instellen voor postvakken
           href: set-up-an-archive-and-deletion-policy-for-mailboxes.md
-    - name: Gegevens behouden
+    - name: Gegevens behouden en verwijderen
       items:
-        - name: Overzicht van bewaarbeleid
-          href: retention-policies.md
-        - name: Bewaarbeleid maken en configureren
+        - name: Meer informatie over retentie
+          items:
+            - name: Bewaarbeleid en retentielabels
+              href: retention.md
+            - name: Retentie voor SharePoint en OneDrive
+              href: retention-policies-sharepoint.md
+            - name: Retentie voor Microsoft Teams
+              href: retention-policies-teams.md
+            - name: Retentie voor Exchange
+              href: retention-policies-exchange.md
+        - name: Aan de slag met retentie
+          href: get-started-with-retention.md
+        - name: Bewaarbeleid maken
           href: create-retention-policies.md
-        - name: Retentie voor SharePoint en OneDrive
-          href: retention-policies-sharepoint.md
-        - name: Retentie voor Microsoft Teams
-          href: retention-policies-teams.md
-        - name: Retentie voor Exchange
-          href: retention-policies-exchange.md
-        - name: Bestandsplan
+        - name: Bestandsplan gebruiken
           href: file-plan-manager.md
-        - name: Meer informatie over retentielabels
-          href: labels.md
-        - name: 'Retentielabels maken, publiceren en automatisch toepassen'
-          href: create-retention-labels.md
+        - name: Retentielabels maken en deze toepassen in apps
+          href: create-apply-retention-labels.md
+        - name: Een retentielabel automatisch toepassen op inhoud
+          href: apply-retention-labels-automatically.md
         - name: Voldoen aan SEC Rule 17a-4
           href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
-        - name: PowerShell gebruiken om retentielabels te maken en publiceren
+        - name: Retentielabels maken met PowerShell
           href: bulk-create-publish-labels-using-powershell.md
-        - name: Retentie op basis van gebeurtenissen
-          href: event-driven-retention.md
-        - name: Retentie op basis van gebeurtenissen automatiseren
-          href: automate-event-driven-retention.md
-        - name: De levenscyclus van SharePoint-documenten beheren
-          href: auto-apply-retention-labels-scenario.md
+        - name: Retentie op basis van gebeurtenissen gebruiken
+          items:
+            - name: Retentie starten als zich een gebeurtenis voordoet
+              href: event-driven-retention.md
+            - name: Retentie op basis van gebeurtenissen automatiseren
+              href: automate-event-driven-retention.md
+            - name: De levenscyclus van SharePoint-documenten beheren
+              href: auto-apply-retention-labels-scenario.md
     - name: Gegevens verwijderen
       href: disposition.md
     - name: Inactieve postvakken beheren
@@ -345,34 +351,6 @@
           href: records-management.md
         - name: Records
           href: records.md
-        - name: Bestandsplan
-          items:
-            - name: Retentielabels beheren
-              href: file-plan-manager.md
-            - name: Meer informatie over retentielabels
-              href: labels.md
-            - name: Retentielabels maken en publiceren
-              href: create-retention-labels.md
-            - name: PowerShell gebruiken om retentielabels op schaal te maken en publiceren
-              href: bulk-create-publish-labels-using-powershell.md
-            - name: Gebruik van labels weergeven met labelanalyse
-              href: label-analytics.md
-            - name: Labelactiviteit voor documenten weergeven
-              href: view-label-activity-for-documents.md
-            - name: De gegevensbeheerrapporten weergeven
-              href: view-the-data-governance-reports.md
-        - name: Gebeurtenissen
-          items:
-            - name: Retentie op basis van gebeurtenissen
-              href: event-driven-retention.md
-            - name: Retentie op basis van gebeurtenissen automatiseren
-              href: automate-event-driven-retention.md
-        - name: Verwijdering
-          href: disposition.md
-        - name: Meer informatie over Records Management
-          items:
-            - name: Video's bekijken over Records Management
-              href: 'https://go.microsoft.com/fwlink/?linkid=867039'
 - name: eDiscovery beheren
   items:
     - name: eDiscovery in Microsoft 365

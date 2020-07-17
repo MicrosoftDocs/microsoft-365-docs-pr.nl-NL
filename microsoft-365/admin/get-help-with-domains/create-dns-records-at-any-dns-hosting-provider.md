@@ -20,12 +20,12 @@ description: Lees hier hoe u uw domein kunt verifiëren en DNS-records kunt make
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: d3a9e3787afc30b33122edf91c1cf9e3dd84b847
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: 01bcffe37d9c38d91eff25d9df58f848f4ee1a82
+ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049664"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138254"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>DNS-records toevoegen om het domein te verbinden
 
@@ -37,7 +37,9 @@ Als u geen domein toevoegt, maken de mensen in uw organisatie gebruik van het do
 
 [Raadpleeg Veelgestelde vragen over domeinen](../setup/domains-faq.md) als u hieronder niet kunt vinden wat u zoekt.
 
-## <a name="step-1-add-a-txt-record-to-verify-you-own-the-domain"></a>Stap 1: Voeg een TXT-record toe om te verifiëren dat u eigenaar van het domein bent
+## <a name="step-1-add-a-txt-or-mx-record-to-verify-you-own-the-domain"></a>Stap 1: Voeg een TXT- of MX-record toe om te verifiëren dat u eigenaar van het domein bent
+
+### <a name="recommended-verify-with-a-txt-record"></a>Aanbevolen: verifiëren met een TXT-record
 
 Eerst moet u bewijzen dat u de eigenaar bent van het domein dat u wilt toevoegen aan Microsoft 365.
 
@@ -56,6 +58,25 @@ Voorbeeld:
 
 Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleerd.
 
+### <a name="verify-with-an-mx-record"></a>Verifiëren met een MX-record
+
+Als het toevoegen van TXT-records niet wordt toegestaan door uw registrar, kunt u verifiëren door een MX-record toe te voegen.
+
+1. Meld u aan bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com/) en selecteer **Alles weergeven** > **Instellingen** > **Domeinen**.
+2. In een nieuw browsertabblad of -venster meldt u zich aan bij uw DNS-hostingprovider en vervolgens gaat u naar de locatie waar u de DNS-instellingen kunt beheren (bijv. Instellingen zonebestand, Beheer domeinen, Domeinbeheer, DNS-beheer).
+3. Ga naar de pagina DNS-beheer van uw provider en voeg de MX-record die in het Beheercentrum wordt weergegeven, toe aan uw domein.
+
+Deze MX-record moet de hoogste **prioriteit** hebben van alle bestaande MX-records voor het domein. Anders kunnen er problemen optreden bij het verzenden en ontvangen van e-mail. U moet deze records verwijderen zodra de domeinverificatie is voltooid.
+
+Zorg dat de velden zijn ingesteld op de volgende waarden:
+
+- Recordtype: `MX`
+- Prioriteit: instellen op de hoogst beschikbare waarde, meestal `0`.
+- Hostnaam: `@`
+- Verwijst naar adres: kopieer de waarde uit het Beheercentrum en plak deze hier.
+- TTL: `3600‎` (of de standaardwaarde van uw provider)
+
+Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein geverifieerd.
 
 ## <a name="step-2-add-dns-records-to-connect-microsoft-services"></a>Stap 2: DNS-records toevoegen om Microsoft-services te verbinden
 
