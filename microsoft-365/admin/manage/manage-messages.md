@@ -29,7 +29,7 @@ ms.locfileid: "45005820"
 ---
 # <a name="manage-messages-in-message-center"></a>Berichten in het berichtencentrum beheren
 
-Message center posts are important announcements about new and changed features. This article provides more information about the things you can do with messages to help with change management in your organization.
+Berichten in het berichtencentrum zijn belangrijke aankondigingen over nieuwe en gewijzigde functies. In dit artikel vindt u meer informatie over wat u kunt doen met berichten om te helpen met het beheer van de wijzigingen in uw organisatie.
   
 ## <a name="read-a-message"></a>Een bericht lezen
 

@@ -39,10 +39,10 @@ Volg deze instructies als u wilt dat Microsoft 365 uw DNS-records van Microsoft 
 ## <a name="add-a-txt-record-for-verification"></a>Een TXT-record toevoegen voor verificatie
 
 
-Before you use your domain with Microsoft 365, we have to make sure that you own it. Your ability to log in to your account at your domain registrar and create the DNS record proves to Microsoft 365 that you own the domain.
+Voordat u uw domein met Microsoft 365 kunt gaan gebruiken, moet worden gecontroleerd dat u de eigenaar bent van het domein. Als u zich bij uw account bij de domeinregistrar kunt aanmelden en de DNS-record kunt maken, is dit voor Microsoft 365 bewezen.
   
 > [!NOTE]
-> This record is used only to verify that you own your domain; it doesn't affect anything else. You can delete it later, if you like. 
+> Deze record wordt alleen gebruikt om te verifiëren dat u de eigenaar van uw domein bent. Dit heeft verder geen invloed. U kunt deze record later desgewenst verwijderen. 
   
 Volg onderstaande stappen of [bekijk de video (start op 0:42)](https://support.microsoft.com/office/0ef1b3b5-d27a-4004-8ca1-fbe0453a0ea3).
   
@@ -97,7 +97,7 @@ Als u het instellen van uw domein wilt voltooien met Microsoft 365, wijzigt u de
 Klaar om uw NS-records te wijzigen, zodat Microsoft 365 uw domein kan instellen? Volg onderstaande stappen of [bekijk de video (start bij 365)](https://support.microsoft.com/office/0ef1b3b5-d27a-4004-8ca1-fbe0453a0ea3).
   
 > [!IMPORTANT]
->  The following procedure will show you how to delete any other, unwanted nameservers from the list, and also how to add the correct nameservers if they are not already listed. >  When you have completed the steps in this section, the only nameservers that should be listed are these four: >  ns1.bdm.microsoftonline.com >  ns2.bdm.microsoftonline.com >  ns3.bdm.microsoftonline.com >  ns4.bdm.microsoftonline.com 
+>  In de volgende procedure kunt u zien hoe u andere, ongewenste naamservers uit de lijst verwijdert en hoe u de juiste naamservers toevoegt als deze niet al in de lijst staan. >  Na het voltooien van de stappen in deze sectie, moeten alleen de volgende vier naamservers in de lijst staan: >  ns1.bdm.microsoftonline.com >  ns2.bdm.microsoftonline.com >  ns3.bdm.microsoftonline.com >  ns4.bdm.microsoftonline.com 
   
 1. Ga om te beginnen naar de pagina domeinen op 1&1 IONOS via [deze link.](https://account.1and1.com/?redirect_url=https%3A%2F%2Fmy.1and1.com%2F) U wordt gevraagd u aan te melden. 
     
@@ -155,7 +155,7 @@ Klaar om uw NS-records te wijzigen, zodat Microsoft 365 uw domein kan instellen?
 ### <a name="if-there-are-nameservers-already-listed"></a>Als er WEL naamservers worden vermeld
 
 > [!CAUTION]
-> Follow these steps  *only*  if you have existing nameservers other than the four  *correct*  nameservers. (That is, delete  *only*  any current nameservers that are  *not*  named **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **ns3.bdm.microsoftonline.com**, or **ns4.bdm.microsoftonline.com**.) 
+> Voer deze stappen  *alleen*  uit als u andere bestaande naamservers hebt dan de vier  *juiste*  naamservers. (Dat wil zeggen, verwijder  *alleen*  huidige naamservers die een  *andere*  naam hebben dan **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **ns3.bdm.microsoftonline.com** of **ns4.bdm.microsoftonline.com**.) 
   
 1. Als er al naamservers in de **Name server**-vakken worden vermeld, verwijdert u elke vermelding door deze te selecteren en op de toets **Delete** op het toetsenbord te drukken. 
     

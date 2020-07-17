@@ -52,9 +52,9 @@ Hier volgen enkele van de belangrijkste taken die gebruikers kunnen uitvoeren wa
 
 ## <a name="exchange-online-role-groups"></a>Exchange Online-rollengroepen
 
-If you have a large organization, the Exchange admin might want to assign users to Exchange role groups. When an admin adds a user to a role group, the user gets permissions to perform certain business functions only members of that group can do.
+In een grote organisatie kan de Exchange-beheerder gebruikers toewijzen aan Exchange-rollengroepen. Wanneer een beheerder een gebruiker toevoegt aan een rollengroep, krijgt de gebruiker machtigingen voor het uitvoeren van bepaalde bedrijfsfuncties waarover alleen leden van die groep beschikken.
   
- For example, the Exchange admin might assign someone to the Discovery Management role group so they can perform searches of mailboxes for data that meets certain criteria. To learn more, see [Permissions in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) and [Manage Role Groups](https://docs.microsoft.com/exchange/manage-role-groups-exchange-2013-help).
+ De Exchange-beheerder kan bijvoorbeeld iemand toewijzen aan de rollengroep Discovery-beheer zodat die persoon in postvakken kan zoeken naar gegevens die aan bepaalde criteria voldoen. Zie [Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) en [Rollengroepen beheren](https://docs.microsoft.com/exchange/manage-role-groups-exchange-2013-help) voor meer informatie.
   
 ## <a name="learn-about-other-admin-role"></a>Meer informatie over andere beheerdersrol
 

@@ -28,7 +28,7 @@ ms.locfileid: "45015921"
 ---
 # <a name="password-policy-recommendations"></a>Aanbevelingen voor wachtwoordbeleid
  
-As the admin of an organization, you're responsible for setting password policy for users in your organization. Setting password policy can be complicated and confusing, and this article provides recommendations to make your organization more secure against password attacks.
+Als beheerder van een organisatie bent u verantwoordelijk voor het instellen van wachtwoordbeleid voor gebruikers in uw organisatie. Aangezien dit ingewikkeld en verwarrend kan zijn, biedt dit artikel aanbevelingen om uw organisatie beter te beschermen tegen wachtwoordaanvallen.
   
 Zie [Een wachtwoordverloopbeleid instellen voor Microsoft 365](../manage/set-password-expiration-policy.md) om te bepalen hoe vaak Microsoft 365-wachtwoorden moeten verlopen in uw organisatie.
 
@@ -40,17 +40,17 @@ Goede wachtwoordpraktijken kunnen globaal in een aantal categorieën worden onde
   
 - **Algemene aanvallen tegengaan** Dit omvat de keuze waar gebruikers wachtwoorden invoeren (bekende en vertrouwde apparaten met goede malwaredetectie, goedgekeurde sites) en de keuze van het wachtwoord (lengte en uniekheid).
 
-- **Containing successful attacks** Containing successful hacker attacks is about limiting exposure to a specific service, or preventing that damage altogether, if a user's password gets stolen. For example, ensuring that a breach of your social networking credentials doesn't make your bank account vulnerable, or not letting a poorly guarded account accept reset links for an important account.
+- **Succesvolle aanvallen beheersen** Om succesvolle hackeraanvallen te beheersen, moet u de blootstelling aan een specifieke service beperken, of dat soort schade helemaal voorkomen, als het wachtwoord van een gebruiker wordt gestolen. U doet dit bijvoorbeeld door te verzekeren dat een lek van uw sociale-netwerkgegevens uw bankrekening niet kwetsbaar maakt, of door geen koppelingen voor opnieuw instellen te accepteren voor een belangrijk account dat niet zo goed wordt beveiligd.
 
-- **Understanding human nature** Many valid password practices fail in the face of natural human behaviors. Understanding human nature is critical because research shows that almost every rule you impose on your users will result in a weakening of password quality. Length requirements, special character requirements, and password change requirements all result in normalization of passwords, which makes it easier for attackers to guess or crack passwords.
+- **De menselijke aard begrijpen** Veel geldige wachtwoordpraktijken falen in de aanwezigheid van natuurlijk menselijk gedrag. Het  is essentieel de menselijke aard te begrijpen, want uit onderzoek blijkt dat vrijwel elke regel die u uw gebruikers oplegt in een zwakker wachtwoord resulteert. Vereisten voor lengte, speciale tekens en wachtwoordwijziging resulteren allemaal in normalisatie van wachtwoorden, waardoor aanvallers ze gemakkelijker kunnen raden of kraken.
 
 ## <a name="password-guidelines-for-administrators"></a>Wachtwoordrichtlijnen voor beheerders
 
-The primary goal of a more secure password system is password diversity. You want your password policy to contain lots of different and hard to guess passwords. Here are a few recommendations for keeping your organization as secure as possible.
+Het voornaamste doel van een veiliger wachtwoordsysteem is wachtwoorddiversiteit. U wilt dat uw wachtwoordbeleid veel verschillende en moeilijk te raden wachtwoorden bevat. Hier volgen enkele aanbevelingen om uw organisatie zo veilig mogelijk te houden.
   
 - Vereis een minimumlengte van acht tekens (langer is niet per se beter)
 
-- Don't require character composition requirements. For example, \*&amp;(^%$
+- Vereis niet wat voor soort tekens er moeten worden gebruikt, bijvoorbeeld \*&amp;(^%$
 
 - Vereis niet dat wachtwoorden regelmatig opnieuw moeten worden ingesteld voor gebruikersaccounts
 
@@ -64,7 +64,7 @@ The primary goal of a more secure password system is password diversity. You wan
 
 ### <a name="password-guidance-for-your-users"></a>Wachtwoordrichtlijnen voor uw gebruikers
 
-Here's some password guidance for users in your organization. Make sure to let your users know about these recommendations and enforce the recommended password policies at the organizational level.
+Hier volgen enkele wachtwoordrichtlijnen voor gebruikers in uw organisatie. Vertel uw gebruikers over deze aanbevelingen en dwing het aanbevolen wachtwoordbeleid op organisatieniveau af.
   
 - Gebruik geen wachtwoord dat hetzelfde of vrijwel hetzelfde is als een wachtwoord dat u op andere websites gebruikt
 
@@ -78,15 +78,15 @@ Hier volgen enkele van de meest gebruikte wachtwoordbeheerpraktijken, hoewel ond
   
 ### <a name="password-expiration-requirements-for-users"></a>Wachtwoordverloopvereisten voor gebruikers
 
-Password expiration requirements do more harm than good, because these requirements make users select predictable passwords, composed of sequential words and numbers which are closely related to each other. In these cases, the next password can be predicted based on the previous password. Password expiration requirements offer no containment benefits because cyber criminals almost always use credentials as soon as they compromise them.
+Wachtwoordverloopvereisten doen meer kwaad dan goed, omdat gebruikers hierdoor voorspelbare wachtwoorden kiezen, bestaande uit opeenvolgende woorden en cijfers die nauw verwant zijn met elkaar. In deze gevallen kan het volgende wachtwoord worden voorspeld aan de hand van het vorige wachtwoord. Wachtwoordverloopvereisten bieden geen beheersingsvoordelen, omdat cybercriminelen gegevens vrijwel altijd meteen gebruiken zodra ze die te pakken hebben.
   
 ### <a name="requiring-long-passwords"></a>Lange wachtwoorden vereisen
 
-Password length requirements (greater than about 10 characters) can result in user behavior that is predictable and undesirable. For example, users who are required to have a 16-character password may choose repeating patterns like **fourfourfourfour** or **passwordpassword** that meet the character length requirement but aren't hard to guess. Additionally, length requirements increase the chances that users will adopt other insecure practices, such as writing their passwords down, re-using them, or storing them unencrypted in their documents. To encourage users to think about a unique password, we recommend keeping a reasonable 8-character minimum length requirement. 
+Wachtwoordlengtevereisten (langer dan ongeveer tien tekens) kan resulteren in voorspelbaar en ongewenst gebruikersgedrag. Gebruikers die bijvoorbeeld een wachtwoord van minstens zestien tekens moeten hebben, kiezen misschien voor een herhaald patroon zoals **viervierviervier** of **wachtwoordwachtwoord**, dat wel aan de tekenlengtevereiste voldoet maar niet moeilijk te raden is. Bovendien vergroten lengtevereisten de kans dat gebruikers andere onveilige praktijken gebruiken, zoals hun wachtwoorden opschrijven, hergebruiken of onversleuteld opslaan in hun documenten. Om gebruikers aan te moedigen een uniek wachtwoord te bedenken, raden we aan een redelijke minimumlengte van acht tekens te vereisen. 
   
 ### <a name="requiring-the-use-of-multiple-character-sets"></a>Het gebruik van meerdere tekensets vereisen
 
-Password complexity requirements reduce key space and cause users to act in predictable ways, doing more harm than good. Most systems enforce some level of password complexity requirements. For example, passwords need characters from all three of the following categories:
+Vereisten voor wachtwoordcomplexiteit reduceren belangrijke ruimte en leiden ertoe dat gebruikers op voorspelbare manieren handelen, wat meer kwaad dan goed doet. De meeste systemen dwingen een bepaalde mate van wachtwoordcomplexiteit af. Wachtwoorden moeten bijvoorbeeld tekens uit de volgende drie categorieën bevatten:
   
 - hoofdletters
 
@@ -94,7 +94,7 @@ Password complexity requirements reduce key space and cause users to act in pred
 
 - niet-alfanumerieke tekens
 
-Most people use similar patterns, for example, a capital letter in the first position, a symbol in the last, and a number in the last 2. Cyber criminals know this, so they run their dictionary attacks using the most common substitutions, "$" for "s", "@" for "a," "1" for "l". Forcing your users to choose a combination of upper, lower, digits, special characters has a negative effect. Some complexity requirements even prevent users from using secure and memorable passwords, and force them into coming up with less secure and less memorable passwords.
+De meeste mensen gebruiken hetzelfde soort patroon, bijvoorbeeld een hoofdletter als eerste teken, een symbool als laatste teken en een cijfer als een van de laatste twee tekens. Cybercriminelen weten dit en voeren hun woordenboekaanvallen dus uit met de meest gebruikte vervangingen, zoals "$" voor "s", "@" voor "a" en "1" voor "l". Uw gebruikers dwingen een combinatie van hoofdletters, kleine letters, cijfers en speciale tekens te kiezen heeft een negatief effect. Sommige complexiteitsvereisten voorkomen zelfs dat gebruikers veilige en gemakkelijk te onthouden wachtwoorden kunnen gebruiken, en dwingen hen minder veilige en moeilijker te onthouden wachtwoorden te verzinnen.
   
 ## <a name="successful-patterns"></a>Succesvolle patronen
 
@@ -102,15 +102,15 @@ Hier volgen enkele aanbevelingen voor het aanmoedigen van wachtwoorddiversiteit.
   
 ### <a name="ban-common-passwords"></a>Verbied algemene wachtwoorden
 
-The most important password requirement you should put on your users when creating passwords is to ban the use of common passwords to reduce your organization's susceptibility to brute force password attacks. Common user passwords include, **abdcefg**, **password**, **monkey**.
+De belangrijkste wachtwoordvereiste die u uw gebruikers moet opleggen wanneer ze wachtwoorden bedenken, is het gebruik van algemene wachtwoorden te verbieden om uw organisatie zo min mogelijk bloot te stellen aan wrede wachtwoordaanvallen. Algemene gebruikerswachtwoorden zijn onder meer **abcdefg**, **wachtwoord** en **aap**.
   
 ### <a name="educate-users-to-not-re-use-organization-passwords-anywhere-else"></a>Vertel gebruikers organisatiewachtwoorden nergens anders te hergebruiken
 
-One of the most important messages to get across to users in your organization is to not re-use their organization password anywhere else. The use of organization passwords in external websites greatly increases the likelihood that cyber criminals will compromise these passwords.
+Een van de belangrijkste dingen die u gebruikers in uw organisatie moet vertellen, is hun organisatiewachtwoorden nergens anders te hergebruiken. Wanneer organisatiewachtwoorden op externe websites worden gebruikt, is de kans veel groter dat cybercriminelen deze wachtwoorden te pakken krijgen.
   
 ### <a name="enforce-multi-factor-authentication-registration"></a>Dwing registratie voor meervoudige verificatie af
 
-Make sure your users update contact and security information, like an alternate email address, phone number, or a device registered for push notifications, so they can respond to security challenges and be notified of security events. Updated contact and security information helps users verify their identity if they ever forget their password, or if someone else tries to take over their account. It also provides an out of band notification channel in the case of security events such as login attempts or changed passwords. 
+Zorg ervoor dat uw gebruikers hun contact- en beveiligingsgegevens bijwerken, zoals een alternatief e-mailadres, een telefoonnummer of een apparaat dat is geregistreerd voor pushmeldingen, zodat ze kunnen reageren op beveiligingsvragen en op de hoogte kunnen worden gesteld van beveiligingsgebeurtenissen. Bijgewerkte contact- en beveiligingsgegevens helpen gebruikers hun identiteit te verifiëren als ze hun wachtwoord ooit vergeten of als iemand anders hun account probeert over te nemen. Het biedt ook een out-of-band meldingskanaal in het geval van beveiligingsgebeurtenissen zoals aanmeldingspogingen of gewijzigde wachtwoorden. 
   
 Zie [Meervoudige verificatie instellen](../security-and-compliance/set-up-multi-factor-authentication.md) voor meer informatie.
   

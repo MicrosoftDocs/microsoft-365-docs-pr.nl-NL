@@ -36,7 +36,7 @@ Het is vaak noodzakelijk om vergaderingen met mensen buiten uw organisatie te pl
 Het delen van agenda's is een algemene instelling, wat betekent dat u, de beheerder, deze inschakelen voor alle gebruikers in de tenant. Nadat delen is ingeschakeld, kunnen gebruikers Outlook Web App gebruiken om hun agenda's te delen met iemand binnen of buiten de organisatie. Mensen binnen de organisatie kunnen de gedeelde agenda naast die van henzelf bekijken. Mensen buiten de organisatie ontvangen een URL die ze kunnen gebruiken om de agenda te bekijken. Gebruikers beslissen wanneer ze willen delen, hoe veel ze willen delen en wanneer ze hun agenda privé willen houden.
   
 > [!NOTE]
-> If you want to share calendars with an organization that uses Exchange Server 2013 (an on-premises solution), the Exchange administrator will need to set up an authentication relationship with the cloud. This is known as "federation" and must meet minimum software requirements. See [Sharing](https://technet.microsoft.com/library/dd638083%28v=exchg.150%29.aspx) for more information. 
+> Als u agenda's wilt delen met een organisatie die Exchange Server 2013 (een on-premises oplossing) gebruikt, moet de Exchange-beheerder een verificatierelatie met de cloud instellen. Dit wordt ook wel 'federatie' genoemd en moet voldoen aan de minimale softwarevereisten. Zie [Delen](https://technet.microsoft.com/library/dd638083%28v=exchg.150%29.aspx) voor meer informatie. 
   
 ## <a name="enable-calendar-sharing-using-the-microsoft-365-admin-center"></a>Agenda-delen inschakelen met het Microsoft 365-beheercentrum
 
@@ -53,5 +53,5 @@ Het delen van agenda's is een algemene instelling, wat betekent dat u, de beheer
     
 ## <a name="invite-people-to-access-calendars"></a>Mensen uitnodigen voor toegang tot agenda's
 
-Once sharing is enabled for the tenant, calendar owners can extend invitations to specific users. See [Sharing your calendar in Outlook Web App](https://support.microsoft.com/office/7ecef8ae-139c-40d9-bae2-a23977ee58d5) for instructions. 
+Nadat delen voor de tenant is ingeschakeld, kunnen eigenaren van agenda's uitnodigingen uitbreiden tot specifieke gebruikers. Zie [Uw agenda delen in Outlook Web App](https://support.microsoft.com/office/7ecef8ae-139c-40d9-bae2-a23977ee58d5) voor instructies. 
   

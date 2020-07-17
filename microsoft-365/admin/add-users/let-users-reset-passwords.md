@@ -39,9 +39,9 @@ Hier volgen enkele dingen die u moet weten:
   
 - U krijgt gratis selfservicewachtwoorden opnieuw instellen voor **cloudgebruikers** met een betaald Microsoft 365-abonnement voor bedrijven, onderwijs of non-profitorganisaties. Het werkt niet met Microsoft 365 trial.
 
-- It uses Azure. You'll automatically get this feature in Azure for **free** when you do these steps. It won't cost you anything to turn on self-service password reset if you don't use other Azure features.
+- Deze maakt gebruik van Azure. Deze functie ontvangt u in Azure automatisch **gratis** wanneer u deze stappen uitvoert. Het kost u niets als u selfservice voor wachtwoordherstel inschakelt als u geen andere Azure-functies gebruikt.
 
-- **If you're using an on-premises Active Directory**, the above two points don't apply. Rather, you can set this up but **it requires a paid subscription to Azure AD Premium**.
+- **Als u on-premises Active Directory gebruikt**, zijn de twee bovenstaande punten niet van toepassing. U kunt dit instellen, maar **u hebt hiervoor wel een betaald abonnement op Azure AD Premium nodig**.
 
 Bekijk een korte video over het laten resetten van hun eigen wachtwoorden door gebruikers. <br><br>
 

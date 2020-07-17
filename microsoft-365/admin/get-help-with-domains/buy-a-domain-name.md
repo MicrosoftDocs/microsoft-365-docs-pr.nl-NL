@@ -88,9 +88,9 @@ Als u een domein wilt kopen bij een andere domeinregistrar dan [GoDaddy,](https:
    
 ### <a name="transfer-your-domain-to-a-different-domain-registrar"></a>Uw domein overbrengen naar een andere domeinregistrar
 
-If your domain is managed by a provider that doesn't support all the necessary DNS records, you can transfer it to a different registrar. When you transfer the domain, you change who you send payments to in order to renew and keep your domain name.
+Als uw domein wordt beheerd door een provider die geen ondersteuning biedt voor alle benodigde DNS-records, kunt u dit overbrengen naar een andere registrar. Wanneer u het domein overbrengt, wijzigt u wie u betaalt om uw domeinnaam te verlengen en te behouden.
   
-Request the transfer at the registrar that you want to move your domain to. Look on their website for an option such as **Transfer DNS**. Be aware that after they make the changes, it can take a few days update across the Internet.
+Vraag de overdracht aan bij de registrar waarnaar u uw domein wilt verplaatsen. Zoek op de website van de registrar naar een optie zoals **DNS overbrengen**. Let op: nadat de registrar de nodige wijzigingen heeft aangebracht, kan het nog enkele dagen duren voordat de update is doorgevoerd op internet.
  
 
 
@@ -100,7 +100,7 @@ Request the transfer at the registrar that you want to move your domain to. Look
 
 
 
-If you don't already have your own domain, you can easily buy one online at a domain name registrar, domain reseller, or even at your current Internet provider. You get a domain name when you sign up for Office 365 operated by 21Vianet, for example, contoso.partner.onmschina.cn. But you may want to use a custom domain name, like fourthcoffee.com.
+Als u nog geen eigen domein hebt, kunt u gemakkelijk online een domein kopen bij een domeinnaamregistrar, een domeinverkoper, of zelfs bij uw huidige internetprovider. U krijgt een domeinnaam wanneer u zich registreert voor Office 365 beheerd door 21Vianet, bijvoorbeeld contoso.partner.onmschina.cn. Maar misschien wilt u een aangepaste domeinnaam gebruiken, zoals fourthcoffee.com.
   
 Als u een domein wilt instellen in Microsoft 365, moet u een domein bezitten en een aantal DNS-records voor uw domein wijzigen.
   

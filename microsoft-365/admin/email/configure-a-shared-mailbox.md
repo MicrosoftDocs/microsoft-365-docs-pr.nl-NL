@@ -118,7 +118,7 @@ U hoeft geen licentie toe te wijzen aan het gedeelde postvak om e-mail door te s
 
 ## <a name="allow-everyone-to-see-the-sent-email-the-replies"></a>Iedereen toestaan Verzonden items (de antwoorden) te zien
 
-By default, messages sent from the shared mailbox aren't saved to the Sent Items folder of the shared mailbox. Instead, they are saved to the Sent Items folder of the person who sent the message.
+Standaard worden berichten die vanuit het gedeelde postvak worden verzonden, niet opgeslagen in de map Verzonden items van het gedeelde postvak. In plaats daarvan worden ze opgeslagen in de map Verzonden Items van de persoon die het bericht heeft verzonden.
 
 Als u wilt toestaan dat iedereen de verzonden e-mail ziet, bewerkt u in het beheercentrum de instellingen van het gedeelde postvak en selecteert u **Verzonden items** \> **bewerken**.
 

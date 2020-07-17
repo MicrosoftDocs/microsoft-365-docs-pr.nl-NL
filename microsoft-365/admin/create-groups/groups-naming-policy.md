@@ -69,7 +69,7 @@ U kenmerken gebruiken waarmee u bepalen wie de groep heeft gemaakt, zoals [Afdel
 
 Ondersteunde Azure Active Directory (Azure AD) kenmerken zijn [Afdeling], [Bedrijf], [Office], [StateOrProvince], [CountryOrRegion], en [Titel].
 
-- Unsupported user attributes are considered as fixed strings. E.g. "[postalCode]"
+- Niet-ondersteunde gebruikerskenmerken worden als vaste tekenreeksen beschouwd. Bijvoorbeeld "[postalCode]"
 
 - Extensiekenmerken en aangepaste kenmerken worden niet ondersteund.
 
@@ -104,7 +104,7 @@ Er worden geen subreekszoekopdrachten uitgevoerd; specifiek, een exacte overeenk
 
 ## <a name="admin-override"></a>Overschrijven door beheerder
 
-Selective administrators are exempted from these policies, across all group workloads and endpoints, so that they can create groups with these blocked words and with their desired naming conventions. The following are the list of administrator roles exempted from the group naming policy.
+Bepaalde beheerders zijn voor alle groepswerkbelastingen en eindpunten vrijgesteld van dit beleid, zodat ze groepen kunnen maken met deze geblokkeerde woorden en met eigen naamgevingsconventies. Hierna volgt een lijst van beheerdersrollen die zijn vrijgesteld van het groepsnaambeleid.
 
 - Globale beheerder
 

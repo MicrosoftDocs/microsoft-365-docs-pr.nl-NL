@@ -33,7 +33,7 @@ Uw Microsoft 365-abonnement wordt geleverd met een webgebaseerde Outlook, maar a
   
 ## <a name="set-up-an-email-account-in-outlook"></a>E-mailaccount instellen in Outlook
 
-The first time you open Outlook, an Auto Account Wizard opens. If not, choose **File** then **Add Account**.
+De eerste keer dat u Outlook opent, wordt een wizard Automatische accountconfiguratie geopend. Als dit niet het geval is, kiest u **Bestand** en vervolgens **Account toevoegen**.
   
 1. Op de pagina **E-mailaccounts** kiest u **Volgende** \> **Account toevoegen**.
     

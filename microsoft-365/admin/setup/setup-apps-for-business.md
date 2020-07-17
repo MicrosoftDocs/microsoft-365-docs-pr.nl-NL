@@ -66,7 +66,7 @@ U kunt gebruikers toevoegen in de wizard, maar u kunt ook [gebruikers later toev
 
 ## <a name="install-office"></a>Office installeren
 
-Once you've created accounts for other people in your business, you and your team members will be able to install the full desktop version of Office (Word, Excel, Outlook, etc.). Each person can install Office on up to 5 PCs or Macs.
+Zodra u accounts voor andere personen in uw bedrijf hebt gemaakt, kunnen u en uw teamleden de volledige bureaubladversie van Office (Word, Excel, Outlook, enzovoort) installeren. Iedere persoon kan Office op maximaal 5 pc’s of Macs installeren.
   
 ::: moniker range="o365-worldwide"
 
@@ -100,9 +100,9 @@ Bekijk de stappen voor uw apparaat: [Android](https://support.microsoft.com/offi
   
 ## <a name="store-files-online"></a>Bestanden online opslaan
 
-Microsoft makes online file storage easy. To learn which storage locations are best for your business, see [Where you can store files in Office 365](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790).
+Microsoft maakt het gemakkelijk om bestanden op te slaan. Als u wilt weten welke opslaglocaties het meest geschikt zijn voor uw bedrijf, raadpleegt u [waar u bestanden kunt opslaan in Office 365](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790).
   
-Everyone gets a **OneDrive** cloud storage location automatically when you create Microsoft accounts for them. With OneDrive, you can access files across your computers, phones, and tablets.
+Iedereen ontvangt automatisch een **OneDrive**-opslaglocatie in de cloud wanneer u Microsoft-accounts voor hen maakt. Met OneDrive kunt u met uw computer, telefoon en tablet toegang krijgen tot bestanden.  
   
 1. Gebruik Verkenner op uw computer om OneDrive te openen. U kunt **OneDrive** ook in [Office 365](https://www.office.com) openen in het startprogramma voor apps.
 

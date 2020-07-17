@@ -37,7 +37,7 @@ ms.locfileid: "44816995"
 ---
 # <a name="view-your-bill-or-invoice"></a>Uw rekening of factuur weergeven
 
-This article is for people who have a Microsoft 365 for business subscription. You must be a global admin or billing admin to do the steps described in this article.
+Dit artikel is bedoeld voor personen met een Microsoft 365 voor bedrijven-abonnement. U moet een globale beheerder of factureringsbeheerder zijn om de stappen in dit artikel uit te voeren.
   
 Hebt u hulp nodig bij de interpretatie van de kosten die worden weergegeven op uw factuur? Zie [Inzicht in uw rekening of factuur](understand-your-invoice2.md) voor een gedetailleerde uitleg.
   

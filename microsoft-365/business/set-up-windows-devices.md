@@ -67,7 +67,7 @@ Voor een nieuw apparaat met Windows 10 Pro makersupdate of voor een apparaat waa
     
 3. Voltooi de apparaatinstellingen voor Windows 10.
     
-   Once you're done, the user will be connected to your organization's Azure AD. See [Verify the device is connected to Azure AD](#verify-the-device-is-connected-to-azure-ad) to make sure. 
+   Als u klaar bent, wordt de gebruiker verbonden met Azure AD van uw organisatie. In [Controleren of het apparaat is verbonden met Azure AD](#verify-the-device-is-connected-to-azure-ad) kunt u zien hoe u dit kunt controleren. 
   
 ### <a name="for-a-device-already-set-up-and-running-windows-10-pro"></a>Voor een apparaat dat al is ingesteld en waarop Windows 10 Pro wordt uitgevoerd
 
@@ -97,7 +97,7 @@ Voor een nieuw apparaat met Windows 10 Pro makersupdate of voor een apparaat waa
   
 6. Controleer op de pagina **Controleren of dit uw organisatie is,** controleer of de informatie juist is en klik op **Deelnemen**.
   
-   On the **You're all set!** page, click **Done**.
+   Klik op de pagina **U bent nu helemaal klaar** op **Gereed**.
   
    ![On the Make sure this is your organization screen, click Join](../media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   

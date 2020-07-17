@@ -96,7 +96,7 @@ Voer deze opdracht uit in PowerShell om de groep permanent te verwijderen:
 Remove-AzureADMSDeletedDirectoryObject -Id <objectId>
 ```
 
-To confirm that the group has been successfully purged, run the  *Get-AzureADMSDeletedGroup*  cmdlet again to confirm that the group no longer appears on the list of soft-deleted groups. In some cases it may take as long as 24 hours for the group and all of its data to be permanently deleted. 
+U kunt controleren dat de groep definitief is verwijderd door de cmdlet  *Get-AzureADMSDeletedGroup*  opnieuw uit te voeren en te kijken of de groep niet meer wordt vermeld in de lijst met voorlopig verwijderde groepen. In sommige gevallen duurt het wel 24 uur voordat de groep en alle bijbehorende gegevens permanent zijn verwijderd. 
   
 ## <a name="got-questions-about-microsoft-365-groups"></a>Heeft u vragen over Microsoft 365-groepen?
 

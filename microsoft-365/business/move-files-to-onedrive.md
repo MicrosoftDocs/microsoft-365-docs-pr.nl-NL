@@ -50,7 +50,7 @@ Als een gebruiker een computer met veel persoonlijke bestanden heeft, moet u eer
     
 3. Kies **Uploaden**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png) in de menubalk en blader naar de bestanden die u wilt opslaan. 
     
-To transfer the user profile and important files, you can also use a third-party tool, such as ForensiT. You should upload the resulting files in OneDrive for Business also.
+Als u het gebruikersprofiel en de belangrijke bestanden wilt overzetten, kunt u ook een hulpprogramma van derden gebruiken, zoals ForensiT. U moet de resulterende bestanden ook in OneDrive voor Bedrijven uploaden.
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Voor meer informatie over het instellen en gebruiken van Microsoft 365 voor bedrijven
 

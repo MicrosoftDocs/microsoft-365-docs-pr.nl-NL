@@ -32,7 +32,7 @@ ms.locfileid: "44779879"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Maak handtekeningen en disclaimers voor de hele organisatie
 
- You can add an email signature, legal disclaimer, or disclosure statement to the email messages that enter or leave your organization. You can set it up to apply to all incoming and outgoing messages as shown below. Or you can apply it to certain messages like those containing specific words or text patterns.
+ U kunt een e-mailhandtekening, juridische vrijwaring of openbaarmakingsverklaring toevoegen aan de binnenkomende of uitgaande e-mailberichten van de organisatie. U kunt dit toepassen op alle binnenkomende en uitgaande berichten zoals hieronder wordt weergegeven. Of u kunt dit toepassen op bepaalde berichten, zoals berichten met specifieke woorden of tekstpatronen.
 
  Bekijk een korte video over het maken van een bedrijfsbrede e-mailhandtekening. <br><br>
   
@@ -89,7 +89,7 @@ Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid
 
 9. Selecteer **Er een selecteren** en kies **Wrap** als terugvaloptie. Klik op **OK**. Dit betekent dat als de vrijwaring niet kan worden toegevoegd vanwege versleuteling of een andere e-mailinstelling, deze wordt ingesloten in een berichtenvelop.
     
-10. Leave **Audit this rule with severity level** selected. Then choose **Low**, **Medium**, or **High** to be used in the message log. 
+10. Laat **De regel controleren met niveau van ernst** ingeschakeld. Kies nu **Laag**, **Normaal** of **Hoog** voor gebruik in het berichtenlogboek. 
     
 11. Kies **Afdwingen** om de vrijwaring direct in te schakelen, tenzij u deze eerst wilt testen. 
     

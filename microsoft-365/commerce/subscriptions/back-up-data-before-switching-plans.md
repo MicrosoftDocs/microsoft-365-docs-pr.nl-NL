@@ -51,7 +51,7 @@ Beheerders kunnen alle berichten, notities, bestanden, onderwerpen, gebruikers e
 
 Als een gebruiker wordt overgeschakeld van een abonnement met SharePoint Online naar een abonnement dat het niet heeft, wordt de **SharePoint-tegel** niet meer weergegeven in het Microsoft 365-menu.
   
-However, as long as the new subscription is within the same organization as the one they are switched from, users will still be able to access the SharePoint team site. They can view and update notebooks, documents, tasks, and calendars by using the direct URL to the team site.
+Als het nieuwe abonnement zich echter binnen dezelfde organisatie bevindt als het vorige abonnement, hebben gebruikers nog steeds toegang tot de teamsite van SharePoint. Ze kunnen notitieblokken, documenten, taken en agenda's bekijken en bijwerken via de rechtstreekse URL naar de teamsite.
   
 > [!TIP]
 > We adviseren gebruikers naar de teamsite te gaan voordat het abonnement wordt gewijzigd en de URL als een favoriet of bladwijzer in hun browser op te slaan.

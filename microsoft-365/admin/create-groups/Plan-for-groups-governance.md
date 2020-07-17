@@ -152,7 +152,7 @@ Als u een Microsoft 365-groep hebt verwijderd, wordt deze standaard 30 dagen bew
 |![afbeelding desc](../../media/next_steps.png)|Volgende stappen|<ul><li>Communiceer en publiceer het beleid voor verwijderen en herstellen om gebruikers te informeren over het gedrag dat ze kunnen verwachten </li><li> Documenteer de vereisten van uw organisaties voor het bewaken van verwijderde groepen.</li><li>Plan om deze vereisten uit te voeren als onderdeel van de implementatie van uw groepen.</li></ul>|
 
 > [!Important]
->During the "soft-delete" period if a user tries to access the site they will get a 403 forbidden message. After this period if the user tries to access the site they will get a 404 not found message.
+>Als een gebruiker tijdens de 'bewaarperiode' toegang probeert te krijgen tot de site, verschijnt de melding 403 verboden bericht. Als de gebruiker na deze periode toegang probeert te krijgen tot de site, verschijnt de melding 404 bericht niet gevonden.
 
 #### <a name="resources"></a>*Resources*
 - [Een verwijderde Microsoft 365-groep herstellen](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group?ui=en-US&rs=en-001&ad=US)

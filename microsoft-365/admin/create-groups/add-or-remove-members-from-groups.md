@@ -179,7 +179,7 @@ In Microsoft 365 maken groepsleden doorgaans hun eigen groepen, voegen ze zichze
 
 ## <a name="manage-group-owner-status"></a>Status van groepseigenaar beheren
 
-By default, the person who created the group is the group owner. Often a group will have multiple owners for backup support or other reasons. Members can be promoted to owner status and owners can be demoted to member status.
+Standaard is de maker van de groep de groepseigenaar. Vaak heeft een groep meerdere eigenaren als back-upondersteuning of om andere redenen. Leden kunnen worden gepromoveerd naar de status van eigenaar. Eigenaren kunnen worden gedegradeerd naar de lidstatus.
   
 ### <a name="promote-a-member-to-owner-status-in-the-admin-center"></a>Een lid promoten als eigenaarstatus in het beheercentrum
 

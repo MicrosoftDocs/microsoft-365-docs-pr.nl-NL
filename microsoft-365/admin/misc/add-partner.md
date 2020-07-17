@@ -50,13 +50,13 @@ De partner die u kiest, is afhankelijk van de Microsoft-services die u gebruikt 
 
 ::: moniker range="o365-germany"
 
-An authorized partner of Microsoft who serves as your subscription advisor provides the sales, support, and technical expertise you need to help you set up and maintain your subscription. You can add a subscription advisor partner as a partner of record when you purchase Office 365 or at another time. If you're not currently working with a partner, you can also find one on the [Microsoft Pinpoint](https://pinpoint.microsoft.com) website. 
+Een geautoriseerde partner van Microsoft die fungeert als uw abonnementsadviseur biedt de verkoop-, ondersteunings- en technische expertise die u nodig hebt om u te helpen een abonnement in te stellen en te onderhouden. U kunt een abonnementsadviseur toevoegen als een Partner of Record wanneer u Office 365 koopt of op elk ander gewenst moment. Als u momenteel niet met een partner werkt, kunt u er ook een zoeken op de website [Microsoft Pinpoint](https://pinpoint.microsoft.com). 
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-The partner you choose depends on the Office 365 services you use and the country or region where you'll use those services. If you are adding a partner, or changing the partner for your subscription, first you need to get the partner's Microsoft Partner ID by asking the partner for it.
+Welke partner u kiest, hangt af van de Office 365-services die u gebruikt en het land of de regio waar u die services gebruikt. Als u een partner toevoegt, of de partner voor uw abonnement wijzigt, moet u de partner eerst vragen om diens Microsoft-partner-id.
 
 ::: moniker-end
 
@@ -79,7 +79,7 @@ Volg de stappen op de pagina providers om te zoeken naar, of om te krijgen gekop
     
 4. Als u al een partner hebt, selecteert u in de tweede stap van de wizard afhandeling in het rechterdeelvenster onder Partnergegevens de optie **Toevoegen**.
 
-5. Type the Microsoft Partner ID for the partner you're adding. You can get the partner's Microsoft Partner ID by asking the partner for it.
+5. Typ de Microsoft-partner-id van de partner die u toevoegt. U kunt de partner vragen om diens Microsoft-partner-id.
 
 6. Voltooi de rest van de wizard om de aanschaf van uw abonnementen te voltooien. 
     
@@ -98,7 +98,7 @@ Volg de stappen op de pagina providers om te zoeken naar, of om te krijgen gekop
     
 4. Als u al een partner hebt, selecteert u in de tweede stap van de wizard afhandeling in het rechterdeelvenster onder Partnergegevens de optie **Toevoegen**.
 
-5. Type the Microsoft Partner ID for the partner you're adding. You can get the partner's Microsoft Partner ID by asking the partner for it.
+5. Typ de Microsoft-partner-id van de partner die u toevoegt. U kunt de partner vragen om diens Microsoft-partner-id.
 
 6. Voltooi de rest van de wizard om de aanschaf van uw abonnementen te voltooien. 
     
@@ -127,7 +127,7 @@ Volg de stappen op de pagina providers om te zoeken naar, of om te krijgen gekop
   
 3. Kies rechts, onder de abonnementskosten, **Meer acties** > **Partner toevoegen van record.**
 
-4. Type the Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.
+4. Typ de Microsoft-partner-id van de partner die u toevoegt, selecteer **Id controleren** en vervolgens **Verzenden**. U kunt de partner vragen om diens Microsoft-partner-id.
 
 5. De partner-id wordt weergegeven op de pagina **Abonnementen**.
     
@@ -159,7 +159,7 @@ Om dit voorstel te accepteren
     
 3. Selecteer onder **Partner-id** de optie **Partner of Record bewerken**.
   
-4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.
+4. Typ de nieuwe Microsoft-partner-id van de partner die u toevoegt, selecteer **Id controleren** en vervolgens **Verzenden**. U kunt de partner vragen om diens Microsoft-partner-id.
   
 ::: moniker-end
 
@@ -171,7 +171,7 @@ Om dit voorstel te accepteren
     
 3. Selecteer onder **Partner-id** de optie **Partner of Record bewerken**.
   
-4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.   
+4. Typ de nieuwe Microsoft-partner-id van de partner die u toevoegt, selecteer **Id controleren** en vervolgens **Verzenden**. U kunt de partner vragen om diens Microsoft-partner-id.   
 
 ::: moniker-end
 
@@ -183,7 +183,7 @@ Om dit voorstel te accepteren
     
 3. Selecteer onder **Partner-id** de optie **Partner of Record bewerken**.
   
-4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.   
+4. Typ de nieuwe Microsoft-partner-id van de partner die u toevoegt, selecteer **Id controleren** en vervolgens **Verzenden**. U kunt de partner vragen om diens Microsoft-partner-id.   
 
 ::: moniker-end
 

@@ -58,7 +58,7 @@ Verwijdert u uw domein omdat u het wilt toevoegen aan een ander Microsoft 365-ab
 
 5. Selecteer in het deelvenster **Domeinen wijzigen** een ander domein.
 
-You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.
+U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verwijderen. Wanneer u het domein voor uw account bewerkt, moet u zich afmelden en weer aanmelden met het nieuwe domein dat u kiest om door te gaan.
 
 ::: moniker-end
 
@@ -74,7 +74,7 @@ You'll need to do this for yourself, too, if you're on the domain that you want 
 
 5. Selecteer in het deelvenster **Domeinen bewerken** een ander domein.
   
-You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.
+U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verwijderen. Wanneer u het domein voor uw account bewerkt, moet u zich afmelden en weer aanmelden met het nieuwe domein dat u kiest om door te gaan.
 
 ::: moniker-end
 
@@ -90,7 +90,7 @@ You'll need to do this for yourself, too, if you're on the domain that you want 
 
 5. Selecteer in het deelvenster **Domeinen bewerken** een ander domein.
   
-You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.
+U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verwijderen. Wanneer u het domein voor uw account bewerkt, moet u zich afmelden en weer aanmelden met het nieuwe domein dat u kiest om door te gaan.
 
 ::: moniker-end
 
@@ -212,7 +212,7 @@ U kunt ook PowerShell gebruiken om gebruikers te verplaatsen naar een ander dome
 
 Het kan slechts 5 minuten duren voordat Microsoft 365 een domein verwijdert als er niet op veel plaatsen wordt verwezen, zoals beveiligingsgroepen, distributielijsten, gebruikers en Microsoft 365-groepen. Als er veel verwijzingen zijn waarin het domein wordt gebruikt, kan het enkele uren (een dag) duren voordat het domein is verwijderd.
   
-If you have hundreds or thousands of users, use PowerShell to query for all users and then move them to another domain. Otherwise, it's possible for a handful of users to be missed in the UI, and then when you go to remove the domain, you won't be able to and you won't know why. See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information. To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).
+Als u honderden of duizenden gebruikers hebt, gebruikt u PowerShell om alle gebruikers te zoeken en ze vervolgens naar een ander domein te verplaatsen. Anders is het mogelijk dat een klein aantal gebruikers in de UI over het hoofd wordt gezien. Wanneer u het domein vervolgens wilt verwijderen, lukt dit niet en weet u niet waarom. Zie [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) voor meer informatie. Gebruik [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0) om het standaarddomein in te stellen.
   
 ## <a name="still-need-help"></a>Meer hulp nodig?
 
@@ -221,7 +221,7 @@ If you have hundreds or thousands of users, use PowerShell to query for all user
 > [!NOTE]
 > U kunt het ['.onmicrosoft.com'](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)-domein niet uit uw account verwijderen.
   
-Still not working? Your domain might need to be manually removed. [Give us a call](../contact-support-for-business-products.md) and we'll help you take care of it!
+Werkt het nog steeds niet? Uw domein moet mogelijk handmatig worden verwijderd. [Bel ons gerust](../contact-support-for-business-products.md). We helpen u graag.
   
 ::: moniker-end
 

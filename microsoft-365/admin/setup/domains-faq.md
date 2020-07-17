@@ -82,7 +82,7 @@ Het is belangrijk dat u **slechts één TXT-record voor SPF hebt**of maakt. Als 
 
 ## <a name="what-is-a-domain-name"></a>Wat is een domeinnaam?
 
-A domain is a unique name that appears after the **@** sign in email addresses, and after **www.** in web addresses. It typically takes the form of your organization's name and a standard Internet suffix, such as  *yourbusiness.com*  or  *stateuniversity.edu.* 
+Een domein is een unieke naam die na het **@** -teken wordt weergegeven in een e-mailadres en na **www.** in een webadres. Meestal bestaat deze uit de naam van uw organisatie en een standaard-internetachtervoegsel, zoals  *uwbedrijf.com*  of  *universiteit.edu*  . 
   
 Het gebruik van een aangepast domein zoals "**rob \@ contoso.com**" met Microsoft 365 kan helpen bij het opbouwen van geloofwaardigheid en erkenning voor uw merk. 
   
@@ -207,7 +207,7 @@ Microsoft 365 maakt een domein voor u, zoals *contoso.onmicrosoft.com,* wanneer 
     
 - **U kunt uw onmicrosoft-domein niet verwijderen.** Microsoft 365 moet het rond houden omdat het achter de schermen wordt gebruikt voor uw abonnement. U hoeft het domein echter zelf niet te gebruiken nadat u een aangepast domein hebt toegevoegd. 
     
-You can keep using the initial onmicrosoft.com domain even after you add your domain. It still works for email and other services, so it's your choice.
+U kunt het onmicrosoft.com-domein blijven gebruiken, ook nadat u uw domein hebt toegevoegd. Dit domein werkt nog steeds voor e-mail en andere services, dus de keuze is aan u.
   
 ::: moniker-end
 

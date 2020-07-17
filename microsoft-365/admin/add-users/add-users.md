@@ -78,7 +78,7 @@ U moet een globale, licentie- of gebruikersbeheerder zijn om gebruikers toe te v
     - **Contactgegevens** Vouw deze sectie uit om een mobiel telefoonnummer, adres, enzovoort in te vullen.
     - **Wachtwoord** Gebruik het automatisch gegenereerde wachtwoord of vouw uit om een sterk wachtwoord voor de gebruiker op te geven. Ze moeten hun wachtwoord na 90 dagen wijzigen. U kunt ook de optie **Laat deze persoon zijn wachtwoord wijzigen bij de volgende aanmelding** inschakelen.
     - **Rollen** Vouw deze sectie uit als u van deze gebruiker een beheerder wilt maken.
-    - **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses.
+    - **Productlicenties** Vouw deze sectie uit en selecteer de juiste licentie. Als u geen beschikbare licenties hebt, kunt u nog steeds een gebruiker toevoegen en extra licenties kopen.
 
 ::: moniker-end
 
@@ -92,7 +92,7 @@ U moet een globale, licentie- of gebruikersbeheerder zijn om gebruikers toe te v
     - **Contactgegevens** Vouw deze sectie uit om een mobiel telefoonnummer, adres, enzovoort in te vullen.
     - **Wachtwoord** Gebruik het automatisch gegenereerde wachtwoord of vouw uit om een sterk wachtwoord voor de gebruiker op te geven. Ze moeten hun wachtwoord na 90 dagen wijzigen. U kunt ook de optie **Laat deze persoon zijn wachtwoord wijzigen bij de volgende aanmelding** inschakelen.
     - **Rollen** Vouw deze sectie uit als u van deze gebruiker een beheerder wilt maken.
-    - **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses.
+    - **Productlicenties** Vouw deze sectie uit en selecteer de juiste licentie. Als u geen beschikbare licenties hebt, kunt u nog steeds een gebruiker toevoegen en extra licenties kopen.
 
 ::: moniker-end
 

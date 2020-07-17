@@ -115,9 +115,9 @@ Je hoeft je proefperiode niet af te zeggen. Als u het proefabonnement niet koopt
 
 - **De adres- en contactgegevens voor uw abonnement:**
 
-  - **Country** where the services will be used. You **won't** be able to change this later, even during the sign up process; you'll have to re-start the sign up wizard.
+  - **Land** waar de services worden gebruikt. U kunt dit later **niet** meer wijzigen, zelfs niet tijdens de registratieprocedure. U moet de wizard dan helemaal opnieuw uitvoeren.
 
-  - **Email** and **phone number** so we can contact you if needed about your subscription. For example, if you forget your password, we would use this information to send you a temporary one. We also send your billing information to the email address you specify.
+  - **E-mailadres** en **telefoonnummer**, zodat we indien nodig contact met u kunnen opnemen over uw abonnement. Als u bijvoorbeeld uw wachtwoord bent vergeten, gebruiken we deze informatie om u een tijdelijk wachtwoord te sturen. Daarnaast sturen we uw factureringsgegevens naar het opgegeven e-mailadres.
 
     > [!NOTE]
     > Het e-mailadres dat u hier invoert, verschilt van uw Microsoft 365-e-mailadres (uw aanmeldingsnaam hieronder). Omdat uw factureringsgegevens ook naar dit e-mailadres worden verzonden, raden we u aan een e-mailadres te gebruiken dat geschikt is voor het ontvangen van zakelijke e-mail.

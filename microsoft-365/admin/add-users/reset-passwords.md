@@ -44,7 +44,7 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine
   
 ## <a name="let-users-reset-their-own-passwords"></a>Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 
-We strongly recommend that you set up self-service password reset. This way you don't have to manually reset passwords for your users. To learn how, see [Let users reset their own passwords in Office 365](let-users-reset-passwords.md).
+We raden u sterk aan de selfservice voor het opnieuw instellen van wachtwoorden te configureren.  U hoeft dan de wachtwoorden van uw gebruikers niet handmatig opnieuw in te stellen. Raadpleeg [Personen hun eigen wachtwoorden opnieuw laten instellen in Office 365](let-users-reset-passwords.md) voor meer informatie.
   
 ## <a name="reset-a-business-password-for-someone-else"></a>Een bedrijfswachtwoord voor iemand anders opnieuw instellen
 
@@ -88,7 +88,7 @@ Gebruik deze stappen als u uw wachtwoord bent vergeten, maar u zich aanmelden bi
         
 4. Meld u nu weer aan: typ uw gebruikersnaam van de gebruiker \> **Volgende** \> en selecteer vervolgens **Wachtwoord vergeten**. 
     
-5. Follow the steps in the wizard to reset your password. It uses your alternate contact info to verify you're the right person to reset your password. 
+5. Volg de stappen in de wizard om uw wachtwoord opnieuw in te stellen. Uw alternatieve contactgegevens worden gebruikt om te controleren of u de juiste persoon bent om het wachtwoord opnieuw in te stellen. 
     
 Als u uw wachtwoord bent vergeten en u zich niet kunt aanmelden: 
     
@@ -118,7 +118,7 @@ Deze stappen werken voor een bedrijf met tienduizenden gebruikers. Als u honderd
 ## <a name="reset-business-passwords-in-bulk"></a>Zakelijke wachtwoorden in bulk opnieuw instellen
 <a name="bkmk_forgot"> </a>
 
-Use PowerShell! Check out this post by Eyal Doron: [Managing passwords with PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).
+PowerShell gebruiken! Lees deze post van Eyal Doron: [Het beheren van wachtwoorden met PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).
   
 Hier ziet u een gerelateerd artikel: [Wachtwoorden voor meerdere gebruikersaccounts instellen](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).
   

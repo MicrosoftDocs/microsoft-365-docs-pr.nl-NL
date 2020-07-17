@@ -82,9 +82,9 @@ Bekijk een video over het toevoegen van agenda's aan uw site, zie [Een gedeelde 
 
 ## <a name="organize-sites-into-hubs"></a>Sites ordenen in hubs
 
-Your team site shares almost everything with all members of the group associated with the site. If you want to have a separate site for specific customers, you can create additional team sites, and manage them using SharePoint hub sites. Here's more information. 
+Uw teamsite deelt bijna alles met alle leden van de groep die is gekoppeld aan de site. Als u een afzonderlijke site voor bepaalde klanten wilt hebben, kunt u aanvullende teamsites maken en beheren met SharePoint-hubsites. Hier vindt u meer informatie. 
   
-Hub sites let you add and associate sites. For more info see [What is a SharePoint hub site?](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f).
+Met hubsites kunt u sites toevoegen en koppelen. Raadpleeg voor meer informatie [Wat is een SharePoint-hubsite?](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f).
   
 Als u klaar bent om een hubsite te maken, raadpleegt u [Een hubsite maken in SharePoint Online](/sharepoint/create-hub-site).
   
@@ -92,7 +92,7 @@ Raadpleeg [Een SharePoint-site koppelen aan een hubsite](https://support.microso
   
 ## <a name="sharing-files-with-the-team"></a>Bestanden delen met het team
 
-While storage and organizing is a start, sharing with your team and external clients is also important. Here are some links to topics that will help you manage users and share your data. 
+Naast opslag en organisatie is ook het delen van bestanden met uw team en externe klanten belangrijk. Hier volgen enkele koppelingen naar onderwerpen die u kunnen helpen uw gebruikers te beheren en uw gegevens te delen. 
   
 Zie [SharePoint-bestanden of mappen delen in Microsoft 365 voor](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)het delen van bestanden met uw team.
   
@@ -100,7 +100,7 @@ Raadpleeg [Extern delen beheren voor uw SharePoint Online-omgeving](/sharepoint/
   
 ## <a name="managing-users-and-groups"></a>Gebruikers en groepen beheren.
 
-As you manage your team site, you may have to add or remove users. Here's information to help you understand, add, and manage users on your team site. 
+Tijdens het beheer van uw teamsite moet u wellicht gebruikers toevoegen of verwijderen. Hier vindt u informatie met inzichten over het toevoegen en beheren van gebruikers op uw teamsite. 
   
 Bekijk een video over groepen, zie [Groepen begrijpen en beheren](https://support.microsoft.com/office/9c1037b7-de0b-41cd-b8f0-79a95aac854d). 
   
@@ -110,7 +110,7 @@ Meer informatie over het afhandelen van toegangsaanvragen met [Toegangsaanvragen
   
 ## <a name="here-are-more-topics-you-might-be-interested-in"></a>Andere onderwerpen die mogelijk interessant zijn voor u
 
-- **Set up Office apps on your tablets and phones**. You need to do this so you can edit files that are stored on your team site from your tablet or phone. If you don't install the Office apps for your tablet or phone, you'll be able to view the files on your team site, but not edit them. 
+- **Office-apps instellen voor uw tablets en telefoons**. U moet dit doen om vanaf uw tablet of telefoon bestanden te kunnen bewerken die zijn opgeslagen op uw teamsite. Als u de Office-apps voor uw tablet of telefoon niet installeert, kunt u uw bestanden op uw teamsite wel zien maar niet bewerken. 
     
   - [Office installeren en instellen op een Android met Microsoft 365](https://support.microsoft.com/office/cafe9d6f-8b0c-4b03-b20a-12438a82a22d)
     

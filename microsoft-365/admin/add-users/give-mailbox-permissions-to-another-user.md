@@ -37,11 +37,11 @@ Zie [Een gedeeld postvak maken](../email/create-a-shared-mailbox.md)voor informa
     
 ## <a name="looking-to-set-up-mailbox-permissions"></a>Wilt u machtigingen voor postvakken instellen?
 
-Mailbox permissions allow you to give read/write access to a mailbox to another user. The articles below might give you the help you need to set up and use this feature:
+Met postvakmachtigingen kunt u lees-/schrijftoegang voor een postvak aan andere gebruikers verlenen. In de onderstaande artikelen vindt u wat u nodig hebt om deze functie in te stellen en te gebruiken:
   
  **Machtigingen instellen:**
   
-The first step to setting up permissions is deciding which actions you want to allow the other user to take in the given mailbox. You can allow a user to read emails from the mailbox, send emails on behalf of another user, and send emails as if they were sent from that mailbox. Refer to the following articles on how to set up each type of permissions:
+De eerste stap bij het instellen van machtigingen bestaat uit het bepalen welke acties u een andere gebruiker wilt laten uitvoeren voor het betreffende postvak. U kunt toestaan dat een gebruiker e-mails in het postvak kan lezen, e-mails namens aan ander kan verzenden of e-mails kan verzenden alsof deze vanuit dat postvak zijn verzonden. Zie de volgende artikelen om de verschillende typen machtigingen in te stellen:
   
 - [E-mail lezen vanuit het postvak van een andere gebruiker](give-mailbox-permissions-to-another-user.md#read-email-in-another-users-mailbox)
     
@@ -55,7 +55,7 @@ Als u de machtigingen hebt ingesteld, kan het zestig minuten duren voordat de wi
   
  **Gebruik van het postvak als de machtigingen zijn ingesteld:**
   
-There are a few different ways you can access a mailbox once you've been given access. For help on this, refer to this article: [Access another person's mailbox](https://support.microsoft.com/office/A909AD30-E413-40B5-A487-0EA70B763081)
+Een postvak kan op verschillende manieren worden geopend zodra u toegang hebt gekregen. Zie het volgende artikel voor hulp hierbij: [Het postvak van een andere gebruiker openen](https://support.microsoft.com/office/A909AD30-E413-40B5-A487-0EA70B763081)
   
 ## <a name="send-email-from-another-users-mailbox"></a>E-mail verzenden vanuit het postvak van een andere gebruiker
 
@@ -200,7 +200,7 @@ There are a few different ways you can access a mailbox once you've been given a
 ## <a name="send-and-read-from-outlook-and-outlook-on-the-web-for-business"></a>Verzenden vanuit en lezen in Outlook en de webversie van Outlook voor Bedrijven
 
 
-Want to know how to send email from another user's mailbox? Check out the following topics:
+Wilt u weten hoe u e-mail verzendt vanuit het postvak van een andere gebruiker? Raadpleeg de volgende onderwerpen:
   
 - [E-mail- en agenda-items van een andere gebruiker beheren](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5)
     

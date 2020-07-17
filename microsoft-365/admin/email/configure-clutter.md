@@ -38,7 +38,7 @@ Zie [Using PowerShell with Exchange Online](https://go.microsoft.com/fwlink/?Lin
   
 ## <a name="turn-clutter-on-using-exchange-powershell"></a>Onbelangrijke e-mail inschakelen bij gebruik van Exchange PowerShell
 
-You can enable Clutter manually for a mailbox by running the [Set-Clutter](https://go.microsoft.com/fwlink/?LinkID=834446) cmdlet. You can also view Clutter settings for mailboxes in your organization by running the [Get-Clutter](https://go.microsoft.com/fwlink/?LinkID=834759) cmdlet. 
+U kunt Onbelangrijke e-mail handmatig voor een postvak inschakelen door de cmdlet [Set-Clutter](https://go.microsoft.com/fwlink/?LinkID=834446) uit te voeren. U kunt ook de instellingen voor Onbelangrijke e-mail voor postvakken in uw organisatie weergeven door de cmdlet [Get-Clutter](https://go.microsoft.com/fwlink/?LinkID=834759) uit te voeren. 
   
 Onbelangrijke e-mail voor gebruiker Ilene de Crom inschakelen
     
@@ -47,7 +47,7 @@ Onbelangrijke e-mail voor gebruiker Ilene de Crom inschakelen
 
 ## <a name="turn-clutter-off-using-exchange-powershell"></a>Onbelangrijke e-mail uitschakelen bij gebruik van Exchange PowerShell
 
-You can disable Clutter manually for a mailbox by running the [Set-Clutter](https://go.microsoft.com/fwlink/?LinkID=834446) cmdlet. You can also view **Clutter** settings for mailboxes in your organization by running the [Get-Clutter](https://go.microsoft.com/fwlink/?LinkID=834759) cmdlet. 
+U kunt Onbelangrijke e-mail handmatig voor een postvak uitschakelen door de cmdlet [Set-Clutter](https://go.microsoft.com/fwlink/?LinkID=834446) uit te voeren. U kunt ook de instellingen voor **Onbelangrijke e-mail** voor postvakken in uw organisatie weergeven door de cmdlet [Get-Clutter](https://go.microsoft.com/fwlink/?LinkID=834759) uit te voeren. 
   
 Onbelangrijke e-mail voor gebruiker Ilene de Crom uitschakelen:
     

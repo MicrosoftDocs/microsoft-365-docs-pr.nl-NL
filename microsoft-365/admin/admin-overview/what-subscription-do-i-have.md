@@ -53,7 +53,7 @@ Als u een beheerder bent, u controleren welke abonnementen uw organisatie heeft 
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
-3. If you have multiple subscriptions, you'll see a column next to the detailed subscription information that lists the subscriptions that have been purchased, as well as any trial subscriptions. By default, the subscription at the top of the list is automatically selected, and the detailed information for that subscription is shown.
+3. Als u meerdere abonnementen hebt, ziet u naast de gedetailleerde informatie over het abonnement een kolom met de gekochte abonnementen, evenals eventuele proefabonnementen. De standaardinstelling is dat het abonnement boven aan de lijst automatisch wordt geselecteerd en dat de gedetailleerde informatie voor dat abonnement wordt weergegeven.
 
     Als u meerdere abonnementen hebt, kiest u de abonnementen waarvoor u gedetailleerde informatie wilt zien. De abonnementsgegevens worden dan bijgewerkt met informatie over dat abonnement.
 
@@ -72,7 +72,7 @@ Als u een beheerder bent, u controleren welke abonnementen uw organisatie heeft 
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
-3. If you have multiple subscriptions, you'll see a column next to the detailed subscription information that lists the subscriptions that have been purchased, as well as any trial subscriptions. By default, the subscription at the top of the list is automatically selected, and the detailed information for that subscription is shown.
+3. Als u meerdere abonnementen hebt, ziet u naast de gedetailleerde informatie over het abonnement een kolom met de gekochte abonnementen, evenals eventuele proefabonnementen. De standaardinstelling is dat het abonnement boven aan de lijst automatisch wordt geselecteerd en dat de gedetailleerde informatie voor dat abonnement wordt weergegeven.
 
     Als u meerdere abonnementen hebt, kiest u de abonnementen waarvoor u gedetailleerde informatie wilt zien. De abonnementsgegevens worden dan bijgewerkt met informatie over dat abonnement.
 

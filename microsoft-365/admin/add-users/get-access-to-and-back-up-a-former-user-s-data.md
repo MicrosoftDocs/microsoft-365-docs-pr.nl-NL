@@ -160,7 +160,7 @@ Als u de e-mailberichten, agenda, taken en contactpersonen van de voormalige wer
 6. Selecteer het account dat u wilt exporteren door de naam of het e-mailadres te selecteren, zoals Postvak - Anne Weiler of anne@contoso.com. Als u alles in het account wilt exporteren, inclusief e-mail, de agenda, contactpersonen, taken en notities, moet het selectievakje **Inclusief submappen** zijn ingeschakeld. 
     
     > [!NOTE]
-    > You can export one account at a time. If you want to export multiple accounts, after one account is exported, repeat these steps. 
+    > U kunt slechts één account tegelijkertijd exporteren. Als u meerdere accounts wilt exporteren, herhaalt u deze stappen voor de volgende accounts. 
   
     ![Het dialoogvenster Outlook-gegevensbestand exporteren met de bovenste map geselecteerd en Inclusief submappen ingeschakeld](../../media/ce36616f-d76d-4ce2-b517-8ac4874e0971.jpg)
   

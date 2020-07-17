@@ -155,7 +155,7 @@ Beveiligingsgroepen kunnen worden gebruikt met SharePoint, Exchange, MDM, Window
   
 ## <a name="do-i-have-to-use-security-groups-for-my-organization-to-be-secure"></a>Moet ik beveiligingsgroepen gebruiken om mijn organisatie veilig te laten zijn?
 
-No. This is just one more way you can manage security for your organization. You can always grant user permissions and access to sites individually. But with security groups, you can easily manage larger groups of users.
+Nee, dit is slechts een extra manier waarop u de beveiliging voor uw organisatie kunt beheren. U kunt altijd gebruikersmachtigingen en toegang tot sites op individuele basis verlenen. Met beveiligingsgroepen kunt u echter gemakkelijk grotere groepen gebruikers beheren.
   
 ## <a name="can-i-send-email-to-a-security-group"></a>Kan ik e-mail sturen naar een beveiligingsgroep?
 

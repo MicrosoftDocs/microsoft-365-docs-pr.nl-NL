@@ -36,7 +36,7 @@ Als u moderne verificatie wilt inschakelen voor Windows-apparaten waarop Office 
 > [!NOTE]
 > Moderne verificatie is al ingeschakeld voor Office 2016-clients. U hoeft geen registersleutels in te stellen voor Office 2016. 
   
-To enable modern authentication for any devices running Windows (for example on laptops and tablets), that have Microsoft Office 2013 installed, you need to set the following registry keys. The keys have to be set on each device that you want to enable for modern authentication:
+Als u moderne verificatie wilt inschakelen voor Windows-apparaten, zoals laptops en tablets, waarop Microsoft Office 2013 is geïnstalleerd, moet u de volgende registersleutels instellen. De sleutels moeten worden ingesteld op elk apparaat waarop u de moderne verificatie wilt inschakelen:
   
 |**Registersleutel**|**Type**|**Value** |
 |:-------|:------:|--------:|
@@ -45,7 +45,7 @@ To enable modern authentication for any devices running Windows (for example on 
    
 Zodra u de registersleutels hebt ingesteld, u Office 2013-apparaten-apps instellen op [multifactorauthenticatie (MFA)](set-up-multi-factor-authentication.md) met Microsoft 365. 
   
-If you're currently signed-in with any of the client apps, you need to sign out and sign back in for the change to take effect. Otherwise, the MRU and roaming settings will be unavailable until the ADAL identity is established.
+Als u momenteel bent aangemeld met een van de client-apps, moet u zich afmelden en opnieuw aanmelden om de wijziging te effectueren. Anders zijn de MRU- en roaminginstellingen niet beschikbaar tot de ADAL-identiteit is vastgesteld.
   
 ## <a name="disable-modern-authentication-on-devices"></a>Moderne verificatie uitschakelen op apparaten
 

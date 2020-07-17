@@ -57,19 +57,19 @@ Als u sommige van uw persoonlijke gegevens wilt overbrengen naar uw nieuwe bedri
 4. Selecteer **Uploaden** om de bestanden te kopiëren vanaf uw harde schijf waar u uw OneDrive-bestanden hebt gekopieerd. 
   
     > [!NOTE]
-    >  You can upload individual files and groups of files (such as all files in a particular folder) at one time but you cannot copy a folder to OneDrive for Business. Instead, you'll need to create the folder structure you want on OneDrive for business. >  If you want to copy files to a folder that you created in step 4, open that folder before you upload the files. Otherwise, the files will be uploaded to the root folder. You can also move your files between folders in OneDrive for Business after you've uploaded them. 
+    >  U kunt afzonderlijke bestanden en groepen bestanden (zoals alle bestanden in een bepaalde map) in één keer uploaden, maar u kunt een map niet naar OneDrive voor Bedrijven kopiëren. In plaats daarvan moet u de door u gewenste mappenstructuur maken in OneDrive voor Bedrijven. >  Als u bestanden wilt kopiëren naar een map die u in stap 4 hebt gemaakt, opent u die map voordat u de bestanden uploadt. Anders worden de bestanden naar de hoofdmap geüpload. U kunt uw bestanden ook tussen mappen in OneDrive voor Bedrijven verplaatsen nadat u ze hebt geüpload. 
   
 ## <a name="outlookemail"></a>[Outlook/E-mail](#tab/Outlook)
   
  **Gegevens van Outlook 2013 naar een Outlook-gegevensbestand exporteren**
-1. Before you can create your Outlook data file (.pst), the account that you want to export Outlook information from must already be added to the desktop version of Outlook. For information about how to add an account to Outlook 2013 or higher, see [Set up email in Outlook (for Windows)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) or [Set up email in Outlook for Mac 2011](https://support.microsoft.com/office/de372dc4-9648-4044-a76c-e8a60e178d54).
+1. Voordat u uw Outlook-gegevensbestand (.pst) kunt maken, moet het account waaruit u Outlook-gegevens wilt exporteren al zijn toegevoegd aan de bureaubladversie van Outlook. Zie [E-mail instellen in Outlook (voor Windows)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) of [E-mail instellen in Outlook voor Mac 2011](https://support.microsoft.com/office/de372dc4-9648-4044-a76c-e8a60e178d54) voor informatie over het toevoegen van een account aan Outlook 2013 of hoger.
     
 2. Elke gebruiker moet de stappen in deze procedure uitvoeren: [Een back-up maken van e-mailberichten, contactpersonen en agenda in een PST-bestand van Outlook of deze naar een PST-bestand exporteren](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91).
     
  **Uw nieuwe e-mailaccount instellen in Outlook**
 1. Elke gebruiker moet zijn nieuwe e-mailaccount instellen dat bij het Microsoft 365 for Business-abonnement is geleverd. Hiervoor hebben ze het adres van hun nieuwe e-mailaccount nodig. Het e-mailaccount van elke gebruiker is hetzelfde als de gebruikersnaam die hij of zij gebruikt om zich aan te melden bij Microsoft 365 voor bedrijven. Dat ziet er ongeveer uit als sue@contoso.onmicrosoft.com of david@contoso.com.
     
-2. Ask each user to add their email account to Outlook. To learn how, see [Set up email in Outlook (for Windows)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) or [Set up email in Outlook for Mac 2011](https://support.microsoft.com/office/de372dc4-9648-4044-a76c-e8a60e178d54).
+2. Vraag gebruikers hun e-mailaccount toe te voegen aan Outlook. Zie [E-mail instellen in Outlook (voor Windows)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) of [E-mail instellen in Outlook voor Mac 2011](https://support.microsoft.com/office/de372dc4-9648-4044-a76c-e8a60e178d54) voor meer informatie.
     
  **Gegevens importeren uit het Outlook-gegevensbestand**
 1. Hiermee worden de e-mail, agenda, taken en contactpersonen die in het PST-bestand zijn opgeslagen, samengevoegd in uw e-mailaccount van Microsoft 365 voor bedrijven.

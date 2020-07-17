@@ -89,7 +89,7 @@ Als de opslagruimte voor uw SharePoint Online-siteverzamelingen begint vol te ra
 > [!NOTE]
 > De gebruikte opslag bevat geen wijzigingen die in de afgelopen 24-48 uur zijn aangebracht.
 
-After you've determined how much storage you're using, you can add or remove storage space for your subscription. To find out how much it will cost to add storage space, follow the steps in this article, and review the pricing information before you purchase.
+Nadat u hebt vastgesteld hoeveel opslagruimte u gebruikt, kunt u opslagruimte voor uw abonnement toevoegen of verwijderen. Volg de stappen in dit artikel als u wilt weten wat het kost om opslagruimte toe te voegen, en bekijk de prijsinformatie voordat u iets koopt.
   
 Zie [Opslaglimieten voor siteverzamelingen beheren](https://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) voor informatie over het instellen van opslaglimieten voor siteverzamelingen.
   

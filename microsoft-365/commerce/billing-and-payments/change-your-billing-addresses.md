@@ -47,9 +47,9 @@ Uw factuur of factuur bevat drie adressen:
 
 - **Factuuradres** Het adres van uw factuurafdeling. Dit is doorgaans hetzelfde adres als onder **Verkocht aan**.
 
-- **Service Usage Address** The address where the service is being used, usually the same as the **Sold-To** address. If your organization has remote users or multiple offices, use the address where the majority of your users are located.
+- **Adres voor servicegebruik** Het adres waarop de service wordt gebruikt. Dit is doorgaans hetzelfde adres als het adres onder **Verkocht aan**. Als uw organisatie externe gebruikers of meerdere kantoren heeft, gebruikt u het adres waar zich de meeste gebruikers bevinden.
 
-In most cases, these addresses are the same. If you need to change one or more of the addresses, you can do that. You can also provide an alternate email address to receive billing notifications, and change the alternate email address for other admins.
+In de meeste gevallen komen deze adressen overeen. Als u een of meer van deze adressen wilt wijzigen, is dat mogelijk. U kunt ook een alternatief e-mailadres opgeven als u factuurmeldingen wilt ontvangen, en het alternatieve e-mailadres voor andere beheerders wijzigen.
   
 ::: moniker range="o365-worldwide"
 

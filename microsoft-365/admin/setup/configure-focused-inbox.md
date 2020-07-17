@@ -31,7 +31,7 @@ ms.locfileid: "44779927"
 
   Als u voor iedereen in uw bedrijf moet configureren hoe e-mail wordt gebruikt, is dit artikel interessant voor u. Er wordt uitgelegd hoe u dit kunt aanpassen of kunt uitschakelen voor uw bedrijf, en u krijgt antwoord op [Veelgestelde vragen](#faq-for-focused-inbox).  <br/> Zie [Postvak IN met prioriteit uitschakelen](https://support.microsoft.com/office/f714d94d-9e63-4217-9ccb-6cb2986aa1b2) als u Postvak IN met prioriteit alleen voor uzelf wilt uitschakelen.  
    
-If you want to be sure that your users receive business-specific email messages, for example, from HR or payroll, you can configure Focused Inbox so these messages reach the Focused view. You can also control whether users in your organization see the Focused Inbox in their mailbox.
+Als u er zeker van wilt zijn dat uw gebruikers bepaalde zakelijke e-mailberichten ontvangen, bijvoorbeeld van de afdeling HR of de salarisadministratie, kunt u Postvak IN met prioriteit configureren zodat deze specifieke zakelijke e-mail met prioriteit wordt weergegeven. U kunt ook bepalen of gebruikers in uw organisatie Postvak IN met prioriteit zien in hun postvak.
   
 ## <a name="turn-focused-inbox-on-or-off-in-your-organization"></a>Postvak IN met prioriteit in- of uitschakelen in uw organisatie
 
@@ -39,11 +39,11 @@ U kunt Windows PowerShell gebruiken om Postvak IN met prioriteit voor iedereen i
   
  **Postvak IN met prioriteit uitschakelen:**
   
-The following PowerShell example turns Focused Inbox **Off** in your organization. However, it doesn't block the availability of the feature for your users. If they want, they can still re-enable Focused Inbox again on each of their clients. 
+Het volgende PowerShell-voorbeeld schakelt Postvak IN met prioriteit **uit** in uw organisatie. De functie blijft echter wel beschikbaar voor uw gebruikers, wat betekent dat ze Postvak IN met prioriteit desgewenst weer kunnen inschakelen in een e-mailclient. 
   
 1. [Maak verbinding met Exchange Online via externe PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
     
-2. You need to be assigned permissions before you can perform this procedure or procedures. To see what permissions you need, see the "Transport rules" entry in [Messaging policy and compliance permissions](https://go.microsoft.com/fwlink/p/?LinkId=829796).
+2. U moet beschikken over bepaalde machtigingen om deze procedure of procedures te kunnen uitvoeren. Zie voor meer informatie het item Transport rules (Transportregels) in [Messaging policy and compliance permissions](https://go.microsoft.com/fwlink/p/?LinkId=829796) (Machtigingen voor berichtenbeleid en naleving).
     
 3. Voer de cmdlet **Get-OrganizationConfig** uit. 
     
@@ -73,23 +73,23 @@ Get-OrganizationConfig
 
 ## <a name="what-do-users-see-after-i-turn-on-focused-inbox"></a>Wat zien gebruikers nadat ik Postvak IN met prioriteit inschakel? 
 
-Your users will see the Focused view only after they close and restart Outlook. When they restart Outlook, they'll see a Tip in the Outlook user interface giving them to the option to use the new Focused Inbox.
+Gebruikers zien de weergave Prioriteit pas nadat ze Outlook opnieuw hebben gestart. Wanneer ze Outlook opnieuw hebben gestart, zien ze een Tip in de Outlook-gebruikersinterface met de optie om het nieuwe Postvak IN met prioriteit te gebruiken.
   
 ![Een afbeelding van hoe Postvak IN met prioriteit eruitziet als een gebruiker de webversie van Outlook voor het eerst opent.](../../media/f6ef79e7-0f4c-4a23-b6f0-7c15d927b5f0.png)
   
-If you're switching from Clutter to Focused Inbox, they can decide to enable it ("Try it") or dismiss the feature. If the user has multiple (supported) clients, they can enable/disable Focused Inbox individually on each one. The tip looks like this:
+Als u van de functie Onbelangrijke e-mail overstapt op Postvak IN met prioriteit, kunnen zij deze inschakelen ('Probeer het') of de functie sluiten. Als de gebruiker meerdere (ondersteunde) clients heeft, kan hij voor elke client Postvak IN met prioriteit afzonderlijk in-of uitschakelen. De tip ziet er zo uit:
   
 ![Een afbeelding van hoe een Postvak IN met prioriteit eruitziet als deze is uitgerold voor uw gebruikers en Outlook opnieuw wordt geopend.](../../media/c034f969-d650-4333-88f1-dd10ade0a94c.png)
   
-When a user decides to start using Focused Inbox, Clutter gets disabled automatically. The Clutter folder gets converted into a standard folder, that allows the user to rename or delete it.
+Wanneer een gebruiker besluit Postvak IN met prioriteit te gaan gebruiken, wordt Onbelangrijke e-mail automatisch uitgeschakeld. De map Onbelangrijke e-mail wordt geconverteerd naar een standaardmap. De gebruiker kan deze map een andere naam geven of verwijderen.
   
 ## <a name="turn-focused-inbox-on-or-off-for-specific-users"></a>Postvak IN met prioriteit in- of uitschakelen voor specifieke gebruikers
 
-This example turns Focused Inbox **Off** for Tim Matthews in the Contoso organization. However, it doesn't block the availability of the feature to him. If his wants, he can still re-enable Focused Inbox again on each of his clients. 
+In dit voorbeeld wordt Postvak IN met prioriteit **uitgeschakeld** voor Tim Matthews in de organisatie Contoso. De functie blijft echter wel beschikbaar voor hem. Als hij wil, kan hij Postvak IN met prioriteit weer inschakelen in elk van zijn clients. 
   
 1. [Maak verbinding met Exchange Online via externe PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
     
-2. You need to be assigned permissions before you can perform this procedure or procedures. To see what permissions you need, see the "Transport rules" entry in the Messaging policy and compliance permissions topic.
+2. U moet beschikken over bepaalde machtigingen om deze procedure of procedures te kunnen uitvoeren. Zie voor meer informatie het item Transport rules (Transportregels) in het artikel Messaging policy and compliance permissions (Machtigingen voor berichtenbeleid en naleving).
     
 3. Voer de cmdlet **Get-FocusedInbox** uit, bijvoorbeeld: 
     
@@ -129,7 +129,7 @@ This example turns Focused Inbox **Off** for Tim Matthews in the Contoso organiz
 
 1. [Maak verbinding met Exchange Online via externe PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
     
-2. You need to be assigned permissions before you can perform this procedure or procedures. To see what permissions you need, see the "Transport rules" entry in [Messaging policy and compliance permissions](https://go.microsoft.com/fwlink/p/?LinkId=829796).
+2. U moet beschikken over bepaalde machtigingen om deze procedure of procedures te kunnen uitvoeren. Zie voor meer informatie het item Transport rules (Transportregels) in [Messaging policy and compliance permissions](https://go.microsoft.com/fwlink/p/?LinkId=829796) (Machtigingen voor berichtenbeleid en naleving).
 
 3. Voer de volgende opdracht uit om alle berichten van bijvoorbeeld 'Salarisadministratie' at te leveren in Postvak IN met prioriteit.
     
@@ -147,7 +147,7 @@ U kunt de koptekst van e-mailberichten controleren om te kijken of de e-mailberi
  
 ## <a name="turn-onoff-clutter"></a>Onbelangrijke e-mail in- of uitschakelen
  
-We've received reports that Clutter suddenly stopped working for some users. If this happens, you can enable it again for specific users. See [Configure Clutter for your organization](../email/configure-clutter.md).
+We hebben meldingen ontvangen dat de functie Onbelangrijke e-mail voor sommige gebruikers plotseling niet meer werkt. Als dit gebeurt, kunt u deze functie weer inschakelen voor specifieke gebruikers. Zie [Onbelangrijke e-mail configureren voor uw organisatie](../email/configure-clutter.md).
  
 ## <a name="faq-for-focused-inbox"></a>Veelgestelde vragen over Postvak IN met prioriteit
 
@@ -155,7 +155,7 @@ Hier vindt u antwoorden op Veelgestelde vragen over Postvak IN met prioriteit.
 
 ### <a name="can-i-control-how-i-roll-out-focused-inbox-in-my-organization"></a>Kan ik bepalen op welke manier ik de functie Postvak IN met prioriteit implementeer in mijn organisatie?
 
-Yes. You can turn Focused Inbox on or off for your entire organization, or you can turn it on or off for specified users. See above.
+Ja. U kunt Postvak IN met prioriteit in- of uitschakelen voor de hele organisatie, of voor bepaalde gebruikers. Zie het bovenstaande.
   
 ### <a name="is-the-focused-inbox-feature-only-available-for-office-2016-clients"></a>Is de functie Postvak IN met prioriteit alleen beschikbaar voor clients met Office 2016?
 
@@ -167,17 +167,17 @@ Nadat u Postvak IN met prioriteit hebt in- of uitgeschakeld, wordt de nieuwe ins
   
 ### <a name="what-happens-to-clutter-once-i-turn-on-focused-inbox"></a>Wat gebeurt er met de functie Onbelangrijke e-mail als ik Postvak IN met prioriteit inschakel?
 
-After switching, you'll no longer receive less actionable email in the Clutter folder. Instead, email will be split between the Focused and Other tabs in your inbox. The same algorithm that moved items to the Clutter folder now powers Focused Inbox, meaning that any emails that were set to move to Clutter will now be moved to Other. Any messages already in your Clutter folder will remain there until you decide to delete or move them.
+Nadat u bent overgestapt, ontvangt u de e-mails waarvoor niet direct actie hoeft te worden ondernomen niet meer in de map Onbelangrijke e-mail. In plaats daarvan worden de e-mails geplaatst in de tabbladen Prioriteit of Overige in het postvak. Het algoritme dat items naar de map Onbelangrijke e-mail verplaatste, werkt nu voor Postvak IN met prioriteit, dus alle e-mails die in Onbelangrijke e-mail werden geplaatst, gaan nu naar Overige. Alle berichten die al in de map Onbelangrijke e-mail zitten, blijven daar totdat u besluit ze te verwijderen of te verplaatsen.
   
 Lees dit bericht van [Tony Redmond](https://www.petri.com/author/tony-redmond), Microsoft MVP: [How the Focused Inbox Replaces Clutter Inside Office 365](https://www.petri.com/focused-inbox-office-365).
   
 ### <a name="can-i-keep-users-on-clutter-what-is-microsofts-recommendation-when-it-comes-to-using-clutter-vs-focused-inbox"></a>Kan ik Onbelangrijke e-mail ingeschakeld laten voor gebruikers? Wat adviseert Microsoft als het gaat om de keuze tussen Onbelangrijke e-mail en Postvak IN met prioriteit?
 
-Yes, you can keep users on Clutter and disable Focused Inbox, however, eventually Clutter will be fully replaced with Focused Inbox so Microsoft's recommends moving to Focused Inbox now. To learn more about when you use Clutter with Exchange Online, see this blog post: [Update on Focused Inbox and our plans for Clutter](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448).
+Ja, u kunt de functie Onbelangrijke e-mail ingeschakeld laten en Postvak IN met prioriteit uitschakelen. Aangezien de functie Onbelangrijke e-mail uiteindelijk echter volledig wordt vervangen door Postvak IN met prioriteit, adviseren wij om nu over te stappen op Postvak IN met prioriteit. Raadpleeg het volgende blogbericht voor meer informatie over wanneer u Onbelangrijke e-mail in Exchange Online gebruikt: [Update on Focused Inbox and our plans for Clutter](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448) (Update over Postvak IN met prioriteit en onze plannen voor Onbelangrijke e-mail).
   
 ### <a name="should-i-disable-clutter-for-my-end-users-if-we-are-going-to-move-everyone-to-focused-inbox"></a>Moet ik Onbelangrijke e-mail uitschakelen voor mijn eindgebruikers als we iedereen gaan overzetten naar Postvak IN met prioriteit?
 
-No. It's possible to disable Clutter for a mailbox explicitly by running the Set-Clutter cmdlet. However, if you do this, the mailbox owner will see messages that were previously redirected to the Clutter folder remain in the Inbox and they'll have to process those messages until their client is upgraded to a version that supports the Focused Inbox. It's therefore best not to disable Clutter until the upgraded clients are available.
+Nee. U kunt de cmdlet Set-Clutter gebruiken om de functie Onbelangrijke e-mail expliciet uit te schakelen voor een postvak. Het is dan wel zo dat berichten die eerder werden omgeleid naar de map Onbelangrijke e-mail, in het Postvak IN blijven staan en dat de eigenaar deze berichten handmatig moet verwerken totdat de client is geüpgraded naar een versie die ondersteuning biedt voor Postvak IN met prioriteit. Het is daarom beter om de functie Onbelangrijke e-mail pas uit te schakelen wanneer de geüpgrade clients beschikbaar zijn.
   
 ### <a name="why-are-there-two-different-cmdlets-for-managing-focused-inbox"></a>Waarom zijn er twee verschillende cmdlets voor het beheren van Postvak IN met prioriteit?
 
@@ -189,12 +189,12 @@ Postvak IN met prioriteit kan op twee niveaus worden ingesteld.
     
 ### <a name="how-does-outlook-decide-to-show-the-focused-inbox-experience-with-these-two-states"></a>Hoe wordt er door Outlook aan de hand van deze twee statuswaarden bepaald of de functie Postvak IN met prioriteit wordt gebruikt?
 
-Outlook decides to show the experience by choosing which cmdlet has the latest time stamp. By default, both time stamps are "null" and in this case, the feature is enabled.
+Dit wordt bepaald aan de hand van de cmdlet met de meest recente tijdstempel. Standaard zijn beide tijdstempels 'null' en in dit geval wordt de functie ingeschakeld.
   
 ### <a name="why-does-the-get-focusedinbox-cmdlet-return-true-when-ive-turned-focused-inbox-off-in-my-organization"></a>Waarom retourneert de cmdlet Get-FocusedInbox 'true' als ik Postvak IN met prioriteit heb uitgeschakeld in mijn organisatie?
 
-There are two cmdlets for controlling Focused Inbox. When you run Get-FocusedInbox for a mailbox, it returns the mailbox level state of the feature. The experience in Outlook is chosen based on which cmdlet state was last modified.
+Er zijn twee cmdlets voor het beheren van Postvak IN met prioriteit. Wanneer u Get-FocusedInbox uitvoert voor een postvak, wordt de status van de functie op het niveau van het postvak geretourneerd. De weergave in Outlook wordt gekozen op basis van de cmdlet waarvan de status het laatst is gewijzigd.
   
 ### <a name="can-i-run-a-script-to-see-who-has-turned-on-focused-inbox"></a>Kan ik een script uitvoeren om te zien wie Postvak IN met prioriteit heeft ingeschakeld?
 
-No, and this is by design. Focused Inbox enablement is a client side setting, so all the cmdlet can do is tell you if the user's mailbox is eligible for the client experience. It is possible for it to be simultaneously enabled in some clients and disabled in others, for example, enabled in Outlook app and Outlook Mobile but disabled in Outlook on the web.
+Nee, en dat is standaard. Postvak IN met prioriteit kan alleen aan de clientzijde worden ingeschakeld, dus via de cmdlet weet u alleen of het postvak van de gebruiker in aanmerking komt voor deze functie. Het is mogelijk de functie gelijktijdig in sommige clients in te schakelen en in andere uit te schakelen, bijvoorbeeld ingeschakeld in Outlook-app en Outlook Mobile, maar uitgeschakeld in de webversie van Outlook.

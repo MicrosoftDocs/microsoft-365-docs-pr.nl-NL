@@ -53,7 +53,7 @@ Als beheerder bepaalt u welke versie van Office-mensen in uw organisatie kan wor
 
 ## <a name="upgrade-steps"></a>Upgradestappen
 
-The steps below will guide you through the process of upgrading your users to the latest Office desktop client. We recommend you read through these steps before beginning the upgrade process.
+Gebruik de onderstaande stappen om voor uw gebruikers een upgrade uit te voeren naar de meest recente Office-bureaubladclient. U wordt aangeraden deze stappen te lezen voordat u begint met het upgradeproces.
   
 ## <a name="step-1---check-system-requirements"></a>Stap 1: systeemvereisten controleren
 
@@ -114,7 +114,7 @@ We raden u aan als u invoegtoepassingen van derden hebt, contact op te nemen met
 
  **Niet-ondersteunde abonnementen** Als uw exemplaar van Office is verkregen via beëindigde abonnementen, zoals Office 365 Voor Professionals en Kleine Bedrijven Premium of Office 365 Voor Middelgrote bedrijven, u geen oudere versie van Office installeren, tenzij u de productcode hebt die bij uw abonnement is geleverd.
 
-If you'd prefer to install your older version of Office side-by-side with the latest version, you can see a list of versions where this is supported in, [Install and use different versions of Office on the same PC](https://support.microsoft.com/office/6ebb44ce-18a3-43f9-a187-b78c513788bf). A side-by-side installation might be the right choice for you, if for example, you've installed third-party add-ins you're using with your older version of Office and you're not yet sure they're compatible with the latest version.
+Als u de oudere versie van Office en de nieuwste versie graag beide geïnstalleerd wilt hebben, kunt u in [Install and use different versions of Office on the same PC](https://support.microsoft.com/office/6ebb44ce-18a3-43f9-a187-b78c513788bf) (Meerdere versies van Office op dezelfde pc installeren en gebruiken) een lijst raadplegen met de versies waarvoor dit wordt ondersteund. Het is bijvoorbeeld handig over beide versies te beschikken, als u invoegtoepassingen van derden hebt geïnstalleerd met een oudere versie van Office en u niet zeker weet of deze compatibel zijn met de nieuwste versie.
 
 ## <a name="step-4---assign-office-licenses-to-users"></a>Stap 4: Office-licenties toewijzen aan gebruikers
 

@@ -83,7 +83,7 @@ Na de implementatie kunnen beheerders ook de toegang van gebruikers tot invoegto
 > [!NOTE]
 > De installatie van Outlook-invoegtoepassingen wordt beheerd via een [ander proces](https://technet.microsoft.com/library/jj943754%28v=exchg.150%29.aspx).
 
-As an organization you may wish to prevent the download of new Office add-ins from the Office Store. This can be used in conjunction with Centralized Deployment to ensure that only organization-approved add-ins are deployed to users within your organization.
+Als organisatie kunt u het downloaden van nieuwe Office-invoegtoepassingen vanuit Office Store verhinderen. Dit kunt u doen in combinatie met Gecentraliseerde implementatie om ervoor te zorgen dat alleen invoegtoepassingen die door organisaties zijn goedgekeurd voor gebruikers binnen de organisatie worden geïmplementeerd.
   
 **Overname van invoegtoepassing uitschakelen**
   
@@ -128,7 +128,7 @@ Om te voorkomen dat een gebruiker zich aanmeldt met een Microsoft-account, kunt 
 
 Nadat u een invoegtoepassing hebt geïmplementeerd, kunnen uw eindgebruikers deze gaan gebruiken in hun Office-toepassingen (zie [Start met uw Office-invoegtoepassing).](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862) De invoegtoepassing wordt weergegeven op alle platforms die de invoegtoepassing ondersteunt.
   
-If the add-in supports add-in commands, the commands appear on the Office ribbon. In the following example, the command **Search Citation** appears for the **Citations** add-in. 
+Als de invoegtoepassing opdrachten van de invoegtoepassing ondersteunt, verschijnen de opdrachten in het Office-lint. In het volgende voorbeeld wordt de opdracht **Bronvermelding zoeken** weergegeven voor de invoegtoepassing **Bronvermeldingen**. 
 
 ![Office-lint met zoekvermeldingen](../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
   

@@ -62,7 +62,7 @@ In de volgende tabel ziet u wat er automatisch gebeurt als u iemand een licentie
 
 ## <a name="understand-licenses-for-non-user-mailboxes"></a>Licenties voor postvakken van niet-gebruikers
 
-You don't need to assign licenses to resource mailboxes, room mailboxes, and shared mailboxes, except when they are over their storage quota of 50 gigabytes (GB). For more about non-user mailboxes, see the following articles:
+U hoeft geen licenties toe te wijzen aan resourcepostvakken, postvakken voor vergaderruimten en gedeelde postvakken, behalve wanneer het opslagquotum van 50 GB (gigabytes) is overschreden. Zie de volgende artikelen voor meer informatie over postvakken van niet-gebruikers:
   
 - [Een gedeeld postvak maken](../../admin/email/create-a-shared-mailbox.md)
 - [Een licentie uit een gedeeld postvak verwijderen](../../admin/email/remove-license-from-shared-mailbox.md)
@@ -72,7 +72,7 @@ You don't need to assign licenses to resource mailboxes, room mailboxes, and sha
 
 ## <a name="who-can-assign-licenses"></a>Wie kan licenties toewijzen?
 
-Different types of admins can work with licenses in different ways, depending on their roles. The following table lists the most common options. For a complete list of admin roles and privileges, see [About admin roles](../../admin/add-users/about-admin-roles.md).
+Verschillende typen beheerders kunnen op verschillende manieren met licenties werken, afhankelijk van hun rol. In de volgende tabel ziet u de meest voorkomende opties. Zie [Informatie over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor een volledige lijst met rollen en bevoegdheden van beheerders.
   
 |**Beheerdersrol**|**Een licentie toewijzen**|**Een licentie niet toewijzen**|**Meer licenties kopen**|**Een account verwijderen**|
 |:-----|:-----|:-----|:-----|:-----|
