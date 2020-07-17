@@ -35,60 +35,60 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 06/19/2020
 ms.locfileid: "44816995"
 ---
-# <a name="view-your-bill-or-invoice"></a><span data-ttu-id="3bb27-104">Uw rekening of factuur weergeven</span><span class="sxs-lookup"><span data-stu-id="3bb27-104">View your bill or invoice</span></span>
+# <a name="view-your-bill-or-invoice"></a><span data-ttu-id="40751-104">Uw rekening of factuur weergeven</span><span class="sxs-lookup"><span data-stu-id="40751-104">View your bill or invoice</span></span>
 
-<span data-ttu-id="3bb27-105">This article is for people who have a Microsoft 365 for business subscription.</span><span class="sxs-lookup"><span data-stu-id="3bb27-105">This article is for people who have a Microsoft 365 for business subscription.</span></span> <span data-ttu-id="3bb27-106">You must be a global admin or billing admin to do the steps described in this article.</span><span class="sxs-lookup"><span data-stu-id="3bb27-106">You must be a global admin or billing admin to do the steps described in this article.</span></span>
+<span data-ttu-id="40751-p102">Dit artikel is bedoeld voor personen met een Microsoft 365 voor bedrijven-abonnement. U moet een globale beheerder of factureringsbeheerder zijn om de stappen in dit artikel uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="40751-p102">This article is for people who have a Microsoft 365 for business subscription. You must be a global admin or billing admin to do the steps described in this article.</span></span>
   
-<span data-ttu-id="3bb27-107">Hebt u hulp nodig bij de interpretatie van de kosten die worden weergegeven op uw factuur? Zie [Inzicht in uw rekening of factuur](understand-your-invoice2.md) voor een gedetailleerde uitleg.</span><span class="sxs-lookup"><span data-stu-id="3bb27-107">If you need help interpreting the charges you see on your bill, see [Understand your bill or invoice](understand-your-invoice2.md) for a detailed walkthrough.</span></span>
+<span data-ttu-id="40751-107">Hebt u hulp nodig bij de interpretatie van de kosten die worden weergegeven op uw factuur? Zie [Inzicht in uw rekening of factuur](understand-your-invoice2.md) voor een gedetailleerde uitleg.</span><span class="sxs-lookup"><span data-stu-id="40751-107">If you need help interpreting the charges you see on your bill, see [Understand your bill or invoice](understand-your-invoice2.md) for a detailed walkthrough.</span></span>
   
- <span data-ttu-id="3bb27-108">**Bent u geen beheerder?**</span><span class="sxs-lookup"><span data-stu-id="3bb27-108">**Not an admin?**</span></span> <span data-ttu-id="3bb27-109">Neem contact op met uw IT-beheerder.</span><span class="sxs-lookup"><span data-stu-id="3bb27-109">Contact your IT administrator for help.</span></span> 
+ <span data-ttu-id="40751-108">**Bent u geen beheerder?**</span><span class="sxs-lookup"><span data-stu-id="40751-108">**Not an admin?**</span></span> <span data-ttu-id="40751-109">Neem contact op met uw IT-beheerder.</span><span class="sxs-lookup"><span data-stu-id="40751-109">Contact your IT administrator for help.</span></span> 
   
- <span data-ttu-id="3bb27-110">**Ondervindt u een probleem met uw factuur?**</span><span class="sxs-lookup"><span data-stu-id="3bb27-110">**Have a problem with your bill?**</span></span> <span data-ttu-id="3bb27-111">[Neem contact op met ondersteuning voor zakelijke producten](../../admin/contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="3bb27-111">[Contact support for business products](../../admin/contact-support-for-business-products.md).</span></span>
+ <span data-ttu-id="40751-110">**Ondervindt u een probleem met uw factuur?**</span><span class="sxs-lookup"><span data-stu-id="40751-110">**Have a problem with your bill?**</span></span> <span data-ttu-id="40751-111">[Neem contact op met ondersteuning voor zakelijke producten](../../admin/contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="40751-111">[Contact support for business products](../../admin/contact-support-for-business-products.md).</span></span>
 
- <span data-ttu-id="3bb27-112">Bekijk een korte video over het weergeven van uw rekening of factuur (let op: uw factuur kan er anders uitzien dan in deze video).</span><span class="sxs-lookup"><span data-stu-id="3bb27-112">Watch a short video about viewing your bill or invoice (note that your invoice may appear different from the one in the video).</span></span> <br><br>
+ <span data-ttu-id="40751-112">Bekijk een korte video over het weergeven van uw rekening of factuur (let op: uw factuur kan er anders uitzien dan in deze video).</span><span class="sxs-lookup"><span data-stu-id="40751-112">Watch a short video about viewing your bill or invoice (note that your invoice may appear different from the one in the video).</span></span> <br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGmo] 
 
-<span data-ttu-id="3bb27-113">Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="3bb27-113">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
+<span data-ttu-id="40751-113">Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="40751-113">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
   
-## <a name="view-a-bill-or-invoice"></a><span data-ttu-id="3bb27-114">Een rekening of factuur bekijken</span><span class="sxs-lookup"><span data-stu-id="3bb27-114">View a bill or invoice</span></span>
+## <a name="view-a-bill-or-invoice"></a><span data-ttu-id="40751-114">Een rekening of factuur bekijken</span><span class="sxs-lookup"><span data-stu-id="40751-114">View a bill or invoice</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="3bb27-115">Ga in het Beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Facturen en betalingen</a>.</span><span class="sxs-lookup"><span data-stu-id="3bb27-115">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Bills & payments</a> page.</span></span>
+1. <span data-ttu-id="40751-115">Ga in het Beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Facturen en betalingen</a>.</span><span class="sxs-lookup"><span data-stu-id="40751-115">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Bills & payments</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="3bb27-116">Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Facturen en betalingen</a>.</span><span class="sxs-lookup"><span data-stu-id="3bb27-116">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Bills & payments</a> page.</span></span>
+1. <span data-ttu-id="40751-116">Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Facturen en betalingen</a>.</span><span class="sxs-lookup"><span data-stu-id="40751-116">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Bills & payments</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="3bb27-117">Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Facturen en betalingen</a>.</span><span class="sxs-lookup"><span data-stu-id="3bb27-117">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Bills & payments</a> page.</span></span>
+1. <span data-ttu-id="40751-117">Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Facturen en betalingen</a>.</span><span class="sxs-lookup"><span data-stu-id="40751-117">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Bills & payments</a> page.</span></span>
 
 ::: moniker-end
 
-2. <span data-ttu-id="3bb27-118">Selecteer in het tabblad **Facturen** een datumbereik in de vervolgkeuzelijst en kies vervolgens de order die u wilt weergeven.</span><span class="sxs-lookup"><span data-stu-id="3bb27-118">On the **Invoices** tab, select a date range from the drop-down list, and then choose the order that you want to view.</span></span>
+2. <span data-ttu-id="40751-118">Selecteer in het tabblad **Facturen** een datumbereik in de vervolgkeuzelijst en kies vervolgens de order die u wilt weergeven.</span><span class="sxs-lookup"><span data-stu-id="40751-118">On the **Invoices** tab, select a date range from the drop-down list, and then choose the order that you want to view.</span></span>
 
-3. <span data-ttu-id="3bb27-119">Op de overzichtspagina ziet u het volgende:</span><span class="sxs-lookup"><span data-stu-id="3bb27-119">On the summary page, you can see the following:</span></span>
+3. <span data-ttu-id="40751-119">Op de overzichtspagina ziet u het volgende:</span><span class="sxs-lookup"><span data-stu-id="40751-119">On the summary page, you can see the following:</span></span>
 
-    - <span data-ttu-id="3bb27-120">Het totaalsaldo, het huidige verschuldigde bedrag, de vervaldatum van de betaling, het bedrag van de laatste betaling en de datum waarop deze is ontvangen.</span><span class="sxs-lookup"><span data-stu-id="3bb27-120">The total balance, the current amount due, the payment due date, the amount of the last payment, and the date it was received.</span></span>
+    - <span data-ttu-id="40751-120">Het totaalsaldo, het huidige verschuldigde bedrag, de vervaldatum van de betaling, het bedrag van de laatste betaling en de datum waarop deze is ontvangen.</span><span class="sxs-lookup"><span data-stu-id="40751-120">The total balance, the current amount due, the payment due date, the amount of the last payment, and the date it was received.</span></span>
 
-    - <span data-ttu-id="3bb27-121">Betalingsinstructies.</span><span class="sxs-lookup"><span data-stu-id="3bb27-121">Payment instructions.</span></span>
+    - <span data-ttu-id="40751-121">Betalingsinstructies.</span><span class="sxs-lookup"><span data-stu-id="40751-121">Payment instructions.</span></span>
 
-    - <span data-ttu-id="3bb27-122">Een registratie van eerdere betalingsdatums en de bijbehorende betaalde bedragen.</span><span class="sxs-lookup"><span data-stu-id="3bb27-122">A record of past payment dates, and the amounts paid.</span></span>
+    - <span data-ttu-id="40751-122">Een registratie van eerdere betalingsdatums en de bijbehorende betaalde bedragen.</span><span class="sxs-lookup"><span data-stu-id="40751-122">A record of past payment dates, and the amounts paid.</span></span>
 
-    - <span data-ttu-id="3bb27-123">De datum waarop de order is gemaakt en het ordernummer.</span><span class="sxs-lookup"><span data-stu-id="3bb27-123">The order creation date, and the order number.</span></span>
+    - <span data-ttu-id="40751-123">De datum waarop de order is gemaakt en het ordernummer.</span><span class="sxs-lookup"><span data-stu-id="40751-123">The order creation date, and the order number.</span></span>
 
-4. <span data-ttu-id="3bb27-124">Als u een PDF-versie van de factuur wilt afdrukken of opslaan, klikt u op **PDF downloaden**.</span><span class="sxs-lookup"><span data-stu-id="3bb27-124">To print or save a PDF copy of the invoice, select **Download PDF**.</span></span>
+4. <span data-ttu-id="40751-124">Als u een PDF-versie van de factuur wilt afdrukken of opslaan, klikt u op **PDF downloaden**.</span><span class="sxs-lookup"><span data-stu-id="40751-124">To print or save a PDF copy of the invoice, select **Download PDF**.</span></span>
 
-## <a name="related-articles"></a><span data-ttu-id="3bb27-125">Verwante artikelen</span><span class="sxs-lookup"><span data-stu-id="3bb27-125">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="40751-125">Verwante artikelen</span><span class="sxs-lookup"><span data-stu-id="40751-125">Related articles</span></span>
 
-[<span data-ttu-id="3bb27-126">Betalen met factuur, creditcard of via bankrekening</span><span class="sxs-lookup"><span data-stu-id="3bb27-126">Pay by invoice, credit card, or bank account</span></span>](pay-for-your-subscription.md)
+[<span data-ttu-id="40751-126">Betalen met factuur, creditcard of via bankrekening</span><span class="sxs-lookup"><span data-stu-id="40751-126">Pay by invoice, credit card, or bank account</span></span>](pay-for-your-subscription.md)
   
-[<span data-ttu-id="3bb27-127">Betalingswijzen beheren</span><span class="sxs-lookup"><span data-stu-id="3bb27-127">Manage payment methods</span></span>](manage-payment-methods.md)
+[<span data-ttu-id="40751-127">Betalingswijzen beheren</span><span class="sxs-lookup"><span data-stu-id="40751-127">Manage payment methods</span></span>](manage-payment-methods.md)
 
-[<span data-ttu-id="3bb27-128">Betalingsopties voor Minecraft: Education Edition</span><span class="sxs-lookup"><span data-stu-id="3bb27-128">Minecraft: Education Edition payment options</span></span>](https://go.microsoft.com/fwlink/p/?linkid=838761)
+[<span data-ttu-id="40751-128">Betalingsopties voor Minecraft: Education Edition</span><span class="sxs-lookup"><span data-stu-id="40751-128">Minecraft: Education Edition payment options</span></span>](https://go.microsoft.com/fwlink/p/?linkid=838761)
