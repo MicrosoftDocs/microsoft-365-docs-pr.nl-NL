@@ -1,7 +1,7 @@
 ---
-title: Topscores in industrietests (AV-TEST, AV Comparatives, SE Labs, MITRE ATT&CK)
+title: Topscores in industrietests - Microsoft Threat Protection
 ms.reviewer: ''
-description: Microsoft Defender ATP scoort consequent hoog in onafhankelijke tests. Bekijk de laatste scores en analyses.
+description: Bekijk de laatste scores en analyses van Microsoft Threat Protection, die consequent hoge scores behalen in onafhankelijke tests (AV-TEST, AV Comparatives, SE Labs, MITRE ATT&CK). Bekijk de laatste scores en analyses.
 keywords: Microsoft Defender Antivirus, Windows Defender Antivirus, av reviews, antivirus test, av testen, laatste av-scores, detectiescores, beveiligingsproducttests, tests in de beveiligingsindustrie, antivirustests, beste antivirustests, beste antivirus, av-test, av-comparatives, SE labs, MITRE ATT&CK, endpoint protection platform, EPP, endpoint detection and response, EDR, Windows 10, Microsoft Defender Antivirus, WDAV, MDATP, Microsoft Threat Protection, security, malware, av, antivirus, scores, scores, next generation protection, ranking, success
 ms.prod: w10
 ms.mktglfcycl: secure
@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 6a3263154794ef8638c5c3c96709b61e67b9ec5a
-ms.sourcegitcommit: 7f765670cb6970fdf7ddbad464ed3f8fe704bfaf
+ms.openlocfilehash: 279376288f28e99d5881e5e482470407111c4add
+ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "44909274"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158867"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Topscores in industrietests
 
