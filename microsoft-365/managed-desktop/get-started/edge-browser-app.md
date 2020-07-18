@@ -4,14 +4,18 @@ description: ''
 keywords: browser, Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
+manager: laurawi
+audience: ITpro
+ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f4bc5f85b21148c5a923ca1fc18879a193191c4b
-ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
+ms.openlocfilehash: 916ddaea2bc91c56944d4561771c1e807447d604
+ms.sourcegitcommit: 63887d742c59cc660fc85537b335e98a9dc66fbe
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45094784"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "45170669"
 ---
 # <a name="new-microsoft-edge-app"></a>Nieuwe Microsoft Edge-app
 
@@ -119,7 +123,7 @@ Met dit beleid toegepast, slaat de first run experience de sectie importeren ove
 
 ## <a name="settings-you-manage"></a>Instellingen die u beheert
 
-U alle Microsft Edge-instellingen implementeren die niet eerder zijn beschreven met het profiel Beheerderssjablonen in Microsoft Intune. Zie Microsoft [Edge-beleidsinstellingen configureren met Microsoft Intune](https://docs.microsoft.com/deployedge/configure-edge-with-intune)voor meer informatie. Als u een beleid wilt evalueren dat momenteel niet is opgenomen in de beheersjablonen van Microsoft Edge in Intune, u aangepaste instellingen gebruiken voor Windows 10-apparaten in Intune.
+U alle Microsoft Edge-instellingen implementeren die niet eerder zijn beschreven met het profiel Beheerderssjablonen in Microsoft Intune. Zie Microsoft [Edge-beleidsinstellingen configureren met Microsoft Intune](https://docs.microsoft.com/deployedge/configure-edge-with-intune)voor meer informatie. Als u een beleid wilt evalueren dat momenteel niet is opgenomen in de beheersjablonen van Microsoft Edge in Intune, u aangepaste instellingen gebruiken voor Windows 10-apparaten in Intune.
 
 ### <a name="enabling-specific-chrome-extensions"></a>Specifieke Chrome-extensies inschakelen
 

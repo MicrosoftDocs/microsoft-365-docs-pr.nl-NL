@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over hoe u het gebruikersactiviteitsrapport van Microsoft Teams verzamelen en inzicht krijgt in de Teams-activiteit in uw organisatie.
-ms.openlocfilehash: 6c4f8a2ae9e6e88a17b65e61547e03583d116fbd
-ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
+ms.openlocfilehash: 734a4dfd62160c2f4d29b8faffb3268a1962fe4f
+ms.sourcegitcommit: a50260b7c5be7374e8e2bea19cc08406ef51ac47
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158843"
+ms.locfileid: "45167339"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity--preview"></a>Microsoft 365-rapporten in het beheercentrum - Gebruikersactiviteit van Microsoft Teams- Preview
 
@@ -51,9 +51,9 @@ U de gebruikersactiviteit in het rapport Voorbeeldteams bekijken door het tabbla
 |Totaal aantal vergaderingen   <br/> |Het aantal onlinevergaderingen waaraan de gebruiker heeft deelgenomen gedurende de opgegeven periode.  <br/> |
 |1:1 oproepen   <br/> | Het aantal 1:1-oproepen waaraan de gebruiker heeft deelgenomen gedurende de opgegeven periode.  <br/> |
 |Laatste activiteitsdatum (UTC)  <br/> |De laatste datum waarop de gebruiker heeft deelgenomen aan een Microsoft Teams-activiteit.<br/> |
-|Vergaderingen namen deel aan adhoc   <br/> | Het aantal adhoc-vergaderingen waaraan de gebruiker heeft deelgenomen gedurende de opgegeven periode.  <br/> |
-|Vergaderingen georganiseerd adhoc <br/> |Het aantal adhoc-vergaderingen dat de gebruiker tijdens de opgegeven periode heeft georganiseerd. <br/>|
+|Vergaderingen namen deel aan adhoc   <br/> | Het aantal vergaderingen dat niet is gepland in de agenda waaraan de gebruiker heeft deelgenomen gedurende de opgegeven periode.  <br/> |
+|Vergaderingen georganiseerd adhoc <br/> |Het aantal vergaderingen dat niet is gepland in de agenda dat de gebruiker tijdens de opgegeven periode heeft georganiseerd. <br/>|
 |Vergaderingen gepland  <br/> |Het aantal geplande vergaderingen dat een gebruiker heeft georganiseerd tijdens de opgegeven periode.  <br/> |
 |Heeft een licentie |Geselecteerd als de gebruiker een licentie heeft om Teams te gebruiken.|
-|Andere activiteit|Het aantal andere teamactiviteiten door de gebruiker. |
+|Andere activiteit|De gebruiker wordt als actief beschouwd, maar heeft een nulwaarde voor de chatberichten, 1:1-gesprekken, kanaalberichten, totale vergaderingen en vergaderingen die zijn georganiseerd. Voorbeelden van acties zijn wanneer de Microsoft Teams-client op de voorgrond wordt geactiveerd, acties zijn uitgevoerd in het berichtgebied samenstellen, toasts zijn verschenen in de Microsoft Teams-client, banners die worden weergegeven in de Microsoft Teams-client, enz. |
 |||
