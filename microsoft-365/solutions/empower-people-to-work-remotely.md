@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 06/08/2020
+ms.date: 07/14/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Configureer de beveiligings- en service-infrastructuur waardoor uw werknemers altijd en overal op afstand kunnen werken.
-ms.openlocfilehash: d4dded6c08e665a2756c45659f179e8252fcacc1
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 58915d80d9eb81009632971bbfc84a7b681e125e
+ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844868"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158892"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Externe werknemers mogelijkheden bieden met Microsoft 365
 
@@ -68,6 +68,12 @@ Als u aan de criteria voor externe werknemers wilt voldoen, gebruikt u de volgen
 | Windows Autopilot | Configureer de nieuwe Windows 10-apparaten vooraf voor productief gebruik.   | Microsoft 365 E3 en E5 |
 | Microsoft Teams, Exchange Online, SharePoint Online en OneDrive, Microsoft 365-apps, Microsoft Power Platform, Yammer en Power Apps | Maak, communiceer en werk samen. | Microsoft 365 E3 en E5 |
 ||||
+
+<a name="poster"></a> Zie de [Poster Externe werknemers mogelijkheden bieden](../downloads/empower-remote-workers.pdf) voor een overzicht van twee pagina's van dit scenario.
+
+[![Poster Externe werknemers mogelijkheden bieden](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf)
+
+U kunt deze poster ook downloaden in [PDF-](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf) of [PowerPoint-](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pptx) indeling en afdrukken op papier met formaat Letter, Legal of Tabloid (27,9 x 43,2 cm).
 
 Gebruik de volgende stappen om de toegang tot de servers, gegevens en cloudservices van uw organisatie te beveiligen en optimaliseren, en uw werknemers maximaal productief te laten zijn.
 
