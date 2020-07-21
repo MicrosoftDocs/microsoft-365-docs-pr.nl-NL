@@ -1,5 +1,5 @@
 ---
-title: Krijg inzicht in uw beveiligingshouding via Microsoft Secure Score
+title: Uw beveiligingshouding beoordelen via Microsoft Secure Score
 description: Beschrijft hoe u actie ondernemen om uw Microsoft Secure Score te verbeteren in het Microsoft 365-beveiligingscentrum.
 keywords: beveiliging, malware, Microsoft 365, M365, secure score, security center, verbeteracties
 ms.prod: microsoft-365-enterprise
@@ -20,14 +20,14 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 0ae1a196f11f383c1d3f9fd2056d5d19e7cdd6da
-ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
+ms.openlocfilehash: 469056bbae4627e0b013bfc0f2e965586fd15175
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45095026"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45200060"
 ---
-# <a name="gain-visibility-into-your-security-posture-through-microsoft-secure-score"></a>Krijg inzicht in uw beveiligingshouding via Microsoft Secure Score
+# <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Uw beveiligingshouding beoordelen met Microsoft Secure Score
 
 Microsoft Secure Score is een meting van de beveiligingshouding van een organisatie, waarbij een hoger aantal aangeeft dat er meer verbeteringsacties worden ondernomen. Het kan worden gevonden op https://security.microsoft.com/securescore in de [Microsoft 365 security center](overview-security-center.md).
 
@@ -40,7 +40,7 @@ Om u sneller te helpen met de informatie die u nodig hebt, worden de verbeteract
 * Infrastructuur (voorlopig geen verbeteringsacties)
 
 >[!NOTE]
->In de recente release van Microsoft Secure Score is een verbeterd scoremodel uitgebracht waardoor Microsoft Secure Score tijdelijk niet compatibel is met Identity Secure Score en de Graph API. [Details weergeven](microsoft-secure-score.md#incompatibility-with-identity-secure-score-and-graph-api)
+>In de recente release van Microsoft Secure Score is een verbeterd scoremodel uitgebracht waardoor Microsoft Secure Score tijdelijk niet compatibel is met Identity Secure Score en de Graph API. [Details weergeven](microsoft-secure-score-whats-new.md)
 
 Op de overzichtspagina van Microsoft Secure Score u zien hoe punten worden verdeeld tussen deze groepen en welke punten beschikbaar zijn. De overzichtspagina is ook de plek om een all-up weergave te krijgen van de totale score, historische trend van uw veilige score met benchmarkvergelijkingen en geprioriteerde verbeteracties die kunnen worden genomen om uw score te verbeteren.
 
@@ -121,3 +121,4 @@ Als je problemen hebt, laat het ons weten door een bericht te plaatsen in de [co
 - [Overzicht van Microsoft Secure Score](microsoft-secure-score.md)
 - [Uw Microsoft Secure Score-geschiedenis bijhouden en doelen bereiken](microsoft-secure-score-history-metrics-trends.md)
 - [Binnenkort beschikbaar](microsoft-secure-score-whats-coming.md)
+- [Wat is er nieuw](microsoft-secure-score-whats-new.md)

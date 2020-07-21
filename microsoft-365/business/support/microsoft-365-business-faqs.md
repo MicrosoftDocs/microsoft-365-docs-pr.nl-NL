@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, MKB, FAQ, veelgestelde vragen, antwoorden, zakelijk
 ms.date: 06/08/2018
-ms.openlocfilehash: a2feb91ddcd2d95da28c3363d983b382cf2aa6dc
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 30437825a896acb470b23cb8f68ea36235ee80c8
+ms.sourcegitcommit: 5f980a9eb5aca61cf3662ef0bc65dec215e21656
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403445"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "45185971"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft 365 Business
 
@@ -49,7 +49,7 @@ Microsoft 365 is een geïntegreerde oplossing die de beste productiviteitstools,
 * Gestroomlijnde implementatie van pc's met Windows AutoPilot.
 
 **Overige toeslagen** 
-- Microsoft 365 Business Premium-klanten hebben ook toegang tot de functionaliteit van Windows Virtual Desktop en Office Shared Computer Activation. Lees de [Microsoft 365 Business Premium blog](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog) voor meer informatie. Zie ook de [beschrijving van de Microsoft 365 voor zakelijke service.](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)
+- Microsoft 365 Business Premium-klanten hebben ook toegang tot de functionaliteit van Windows Virtual Desktop en Office Shared Computer Activation. Lees de [Microsoft 365 Business Premium blog](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog) voor meer informatie. Zie ook de [Beschrijving van Microsoft 365 voor zakelijke service.](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)
 
 ### <a name="who-should-consider-adopting-microsoft-365-business-premium"></a>Wie zou moeten overwegen om Microsoft 365 Business Premium te gebruiken? 
 Microsoft 365 Business Premium is een uitgebreide, cloudgebaseerde beveiligingsoplossing waarmee u:  
@@ -86,7 +86,7 @@ De compatibiliteit van de bestaande desktop (Win32) -toepassingen met Windows 10
 ### <a name="what-is-windows-10-business"></a>Wat is Windows 10 Business? 
 Windows 10 Business is een set cloudservices en apparaatbeheerfuncties die een aanvulling vormt op Windows 10 Pro en die het centrale beheer en de besturingselementen voor beveiliging van Microsoft 365 Business Premium inschakelt.
 
-Windows 10 Business wordt ook geleverd met bepaalde premium Microsoft Defender-functies, zoals Controlled Folder Access en Network Protection voor webgebaseerde bedreigingen. Het bevat ook Windows AutoPilot, een service die de implementatie van nieuwe Windows 10 pc's stroomlijnt.
+Windows 10 Business wordt ook geleverd met bepaalde premium Microsoft Defender-functies zoals Controlled Folder Access en Network Protection voor webgebaseerde bedreigingen. Het bevat ook Windows AutoPilot, een service die de implementatie van nieuwe Windows 10 pc's stroomlijnt.
 
 Als u apparaten hebt met een licentie voor Windows 7, 8 en 8.1 Professional, biedt Microsoft 365 Business Premium een upgrade naar Windows 10 Pro, wat een vereiste is voor de implementatie van Windows 10 Business.
 > [!IMPORTANT]
@@ -137,9 +137,9 @@ De eenvoudigste manier voor een succesvolle implementatie van Microsoft 365 Busi
 Ja, Microsoft 365 Business Premium-abonnees hebben een licentie voor het volledige gebruik van Intune-mogelijkheden voor iOS, Android, MacOS en ander platformonafhankelijk apparaatbeheer. Functies die niet beschikbaar zijn in de vereenvoudigde beheerconsole in Microsoft 365 Business Premium, zoals app-beheer door derden en configuratie van WiFi-profielen en VPN-certificaten, kunnen worden beheerd in de volledige Intune-console. 
   
 
-### <a name="does-azure-active-directory-azure-ad-premium-p1-come-with-microsoft-365-business"></a>Wordt Azure Active Directory (Azure AD) Premium P1 geleverd met Microsoft 365 Business? 
+### <a name="does-azure-active-directory-azure-ad-premium-p1-come-with-microsoft-365-business-premium"></a>Wordt Azure Active Directory (Azure AD) Premium P1 geleverd met Microsoft 365 Business Premium? 
 
-Voorheen had Microsoft 365 Business een subset van Azure AD Premium Plan 1-mogelijkheden, waaronder voorwaardelijke toegang, self-service wachtwoordherstel en meervoudige verificatie. We implementeren nu de volledige Azure AD Premium P1-licentie voor Microsoft 365 Business-abonnees, aanvankelijk voor nieuwe klanten en vervolgens voor huidige abonnees. Zie [Microsoft 365 Business Service Description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) en deze [blog](https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/azure-active-directory-premium-p1-is-coming-to-microsoft-365/ba-p/1275496)voor meer informatie.
+Ja, Azure AD Premium P1 is inbegrepen bij Microsoft Business Premium.
  
  
 ### <a name="does-microsoft-365-business-premium-allow-customers-to-manage-macs"></a>Biedt Microsoft 365 Business Premium klanten de mogelijkheid Macs te beheren? 

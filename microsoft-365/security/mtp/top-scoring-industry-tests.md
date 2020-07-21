@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 279376288f28e99d5881e5e482470407111c4add
-ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
+ms.openlocfilehash: 64197133386748695fbef5a33c09022ae41f75d3
+ms.sourcegitcommit: 5f980a9eb5aca61cf3662ef0bc65dec215e21656
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158867"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "45185990"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Topscores in industrietests
 
@@ -44,19 +44,18 @@ De kern van mitre's testaanpak is het emuleren van real-world aanvallen om te be
 [Microsoft Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) presteert consequent zeer in onafhankelijke tests, die laten zien hoe het is een top keuze in de antivirus markt. Houd er rekening mee dat deze tests alleen resultaten opleveren voor antivirus en niet testen op extra beveiligingsmaatregelen.
 
 Microsoft Defender Antivirus is de [volgende generatie beschermingsmogelijkheden](https://www.youtube.com/watch?v=Xy3MOxkX_o4) in de [Microsoft Defender ATP Windows 10-beveiligingsstack](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) die de nieuwste en meest geavanceerde bedreigingen vandaag de dag aanpakt. In sommige gevallen weten klanten misschien niet eens dat ze beschermd zijn omdat een cyberaanval milliseconden wordt gestopt [nadat een campagne is gestart.](https://cloudblogs.microsoft.com/microsoftsecure/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign) Dat komt omdat Microsoft Defender Antivirus en andere [endpoint protection platform (EPP)](https://www.microsoft.com/security/blog/2019/08/23/gartner-names-microsoft-a-leader-in-2019-endpoint-protection-platforms-magic-quadrant/) mogelijkheden in Microsoft Defender ATP detecteren en stopt malware op het eerste gezicht met [machine learning,](https://cloudblogs.microsoft.com/microsoftsecure/2018/06/07/machine-learning-vs-social-engineering) [kunstmatige intelligentie,](https://cloudblogs.microsoft.com/microsoftsecure/2018/02/14/how-artificial-intelligence-stopped-an-emotet-outbreak)gedragsanalyse, en andere geavanceerde technologieën.
-<br><br>
-
-**Download het laatste transparantierapport: [Onderzoek van AVT-testresultaten, januari-februari 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4AwWZ)**
 
 ### <a name="av-test-protection-score-of-5560-in-the-latest-test"></a>AV-TEST: Beschermingsscore van 5,5/6.0 in de laatste test
 
 Het AV-TEST Product Review and Certification Report test drie categorieën: bescherming, prestaties en bruikbaarheid. De volgende scores zijn voor de categorie Bescherming die twee scores heeft: Real-World Testing en de AV-TEST referentieset (bekend als "Prevalent Malware").
 
+**Download het laatste transparantierapport: [Onderzoek van av-testresultaten, januari-februari 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)**
+
 - Maart - April 2020 AV-TEST Business User test: [Bescherming score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/) <sup>**Laatste**</sup>
 
     Microsoft Defender Antivirus behaalde een algemene beschermingsscore van 5.5/6.0, met 20.540 gebruikte malwaremonsters.
 
-- Januari - Februari 2020 AV-TEST Business User test: [Bescherming score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [Analyse](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4AwWZ)
+- Januari - Februari 2020 AV-TEST Business User test: [Bescherming score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [Analyse](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)
 
 - November — December 2019 AV-TEST Business User test: [Beschermingsscore 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/december-2019/microsoft-windows-defender-antivirus-4.18-195015/)
 
@@ -84,7 +83,9 @@ Business Security Test bestaat uit drie hoofdonderdelen: de Real-World Protectio
 
 SE Labs test een reeks oplossingen die door producten en services worden gebruikt om aanvallen te detecteren en/of te beschermen, waaronder endpoint-software, netwerkapparaten en cloudservices.
 
-- Enterprise Endpoint Protection Januari — Maart 2020: [AAA award](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) <sup>**pdf**</sup>
+**Download het laatste transparantierapport: [Onderzoek se labs testresultaten, januari-maart 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)**
+
+- Enterprise Endpoint Protection Januari — Maart 2020: [AAA award](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) <sup>**pdf**</sup>  |  [Analyse](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
 
     Microsoft's next-gen bescherming werd genoemd een van de toonaangevende producten, het stoppen van alle gerichte aanvallen en alle, maar een publieke bedreiging.
 

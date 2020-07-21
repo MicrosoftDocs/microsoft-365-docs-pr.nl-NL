@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen meer te weten komen over de antispaminstellingen en -filters die spam helpen voorkomen in Exchange Online Protection (EOP).
-ms.openlocfilehash: ce673a4bee64dfbc84f870f9cf4871e9ac32a71c
-ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
+ms.openlocfilehash: 74ffe22ffea07350245f6fed18d09b52f96c8351
+ms.sourcegitcommit: e6bf1af2d5cf54c3fcc3fa916abe268fc96bdd4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44800105"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45189559"
 ---
 # <a name="anti-spam-protection-in-eop"></a>Antispambeveiliging in EOP
 
@@ -36,6 +36,9 @@ In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige 
 De e-mailveiligheidsroadmap van Microsoft omvat een ongeëvenaarde cross-productbenadering. EOP anti-spam en anti-phishing technologie wordt toegepast op onze e-mailplatforms om gebruikers te voorzien van de nieuwste anti-spam en anti-phishing tools en innovaties in het hele netwerk. Het doel van EOP is om een uitgebreide en bruikbare e-mailservice aan te bieden die gebruikers helpt bij het detecteren en beschermen van ongewenste e-mail, frauduleuze e-mailbedreigingen (phishing) en malware.
 
 Als e-mail gebruik is gegroeid, zo heeft e-mail misbruik. Ongecontroleerde ongewenste e-mail kan inboxen en netwerken verstoppen, de tevredenheid van gebruikers beïnvloeden en de effectiviteit van legitieme e-mailcommunicatie belemmeren. Daarom blijft Microsoft investeren in antispamtechnologieën. Simpel gezegd, het begint met het bevatten en filteren van ongewenste e-mail.
+
+> [!TIP]
+> De volgende antispamtechnologieën zijn handig wanneer u berichten wilt toestaan of blokkeren op basis van de berichtenenvelop (bijvoorbeeld het domein van de afzender of het bron-IP-adres van het bericht). Als u berichten wilt toestaan of blokkeren op basis van payload (bijvoorbeeld URL's in het bericht of bijgevoegde bestanden), moet u de [portal Tenant Allow/Block List](tenant-allow-block-list.md)gebruiken.
 
 ## <a name="anti-spam-technologies-in-eop"></a>Anti-spam technologieën in EOP
 
