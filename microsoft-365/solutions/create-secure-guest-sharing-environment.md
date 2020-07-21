@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: In dit artikel vindt u meer informatie over de beschikbare opties voor het maken van een veilige omgeving voor het delen met een gast in Microsoft 365.
-ms.openlocfilehash: 9997fee5c12b54642304270e379cd09ca75b5033
-ms.sourcegitcommit: 5e8901e7e571f20ede04f460bd3e7077dda004ca
+ms.openlocfilehash: 4d7c036cccade88bfcd013fe4b31bf4cd02b7b34
+ms.sourcegitcommit: a50260b7c5be7374e8e2bea19cc08406ef51ac47
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874892"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45167363"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Een beveiligde omgeving voor het delen met gasten maken
 
@@ -53,10 +53,12 @@ Meervoudige verificatie instellen voor gasten
 2. Klik in de blade **voorwaardelijke toegang - beleid** op **nieuw beleid**.
 3. Typ in het veld **naam** *gast-MFA*.
 4. Klik onder **toewijzingen**op **gebruikers en groepen**.
-5. Selecteer op de blade **Gebruikers en groepen** de optie **Gebruikers en groepen selecteren**, schakel het selectievakje **Alle gasten en externe gebruikers** in en klik vervolgens op **Gereed**.
-4. Klik onder **toegangsbeheer**op **toewijzen**.
-5. Schakel op de blade **Toewijzen** het selectievakje **Meervoudige verificatie vereisen** in en klik vervolgens op **Selecteren**.
-6. Klik op de blade **Nieuw** onder **Beleid inschakelen** op **Aan** en klik vervolgens op **Maken**.
+5. Selecteer op de blade **Gebruikers en groepen**, de optie **Gebruikers en groepen selecteren**. Schakel vervolgens het selectievakje **Alle gasten en externe gebruikers** in.
+6. Klik onder **Toewijzingen** op **Cloud-apps of -acties**.
+7. Selecteer op de blade **Cloud-apps of -acties**, **Alle Cloud-apps** op het tabblad **Opnemen**.
+8. Klik onder **Toegangsbeheer**op **Toewijzen**.
+9. Schakel op de blade **Toewijzen** het selectievakje **Meervoudige verificatie vereisen** in en klik vervolgens op **Selecteren**.
+10. Klik op de blade **Nieuw** onder **Beleid inschakelen** op **Aan** en klik vervolgens op **Maken**.
 
 Nu moeten gasten zich eerst inschrijven voor meervoudige verificatie voordat ze toegang krijgen tot gedeelde inhoud, sites of teams.
 
