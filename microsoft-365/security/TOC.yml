@@ -37,6 +37,18 @@
           href: ../enterprise/secure-email-recommended-policies.md
         - name: Aanbevolen beleid voor toegang tot SharePoint Online
           href: ../enterprise/sharepoint-file-access-policies.md
+    - name: Microsoft Secure Score
+      items:
+        - name: Secure Score-overzicht
+          href: mtp/microsoft-secure-score.md
+        - name: Uw beveiligingspositie vaststellen
+          href: mtp/microsoft-secure-score-improvement-actions.md
+        - name: Score-geschiedenis bijhouden en doestellingen halen
+          href: mtp/microsoft-secure-score-history-metrics-trends.md
+        - name: Binnenkort beschikbaar
+          href: mtp/microsoft-secure-score-whats-coming.md
+        - name: Wat is er nieuw
+          href: mtp/microsoft-secure-score-whats-new.md
     - name: Microsoft Threat Protection
       items:
         - name: Overzicht
@@ -187,16 +199,6 @@
                       href: mtp/custom-detections-overview.md
                     - name: Detectieregels maken en beheren
                       href: mtp/custom-detection-rules.md
-            - name: Microsoft Secure Score
-              items:
-                - name: Secure Score-overzicht
-                  href: mtp/microsoft-secure-score.md
-                - name: Inzicht krijgen in uw beveiligingspositie
-                  href: mtp/microsoft-secure-score-improvement-actions.md
-                - name: Score-geschiedenis bijhouden en doestellingen halen
-                  href: mtp/microsoft-secure-score-history-metrics-trends.md
-                - name: Binnenkort beschikbaar
-                  href: mtp/microsoft-secure-score-whats-coming.md
             - name: Rapporten
               items:
                 - name: Rapporten controleren en bekijken

@@ -24,6 +24,8 @@
           href: insider-risk-management.md
         - name: Intern risicobeheer plannen
           href: insider-risk-management-plan.md
+        - name: Aan de slag met instellingen voor interne risico's
+          href: insider-risk-management-settings.md
         - name: Aan de slag met intern risicobeheer
           href: insider-risk-management-configure.md
         - name: Intern risicobeleid maken en beheren
@@ -105,30 +107,32 @@
       items:
         - name: DLP en Microsoft Teams
           href: dlp-microsoft-teams.md
-        - name: Een uitgebreid overzicht van DLP bekijken
-          href: 'https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111'
-        - name: DLP instellen
-          items:
-            - name: Aan de slag met aanbevelingen voor DLP-beleid
-              href: get-started-with-dlp-policy-recommendations.md
-            - name: Aan de slag met het standaard DLP-beleid
-              href: get-started-with-the-default-dlp-policy.md
-            - name: Een DLP-beleid maken vanuit een sjabloon
-              href: create-a-dlp-policy-from-a-template.md
-            - name: 'Een DLP-beleid maken, testen en afstemmen'
-              href: create-test-tune-dlp-policy.md
-            - name: Meldingen en beleidstips gebruiken in DLP-beleid
-              href: use-notifications-and-policy-tips.md
-            - name: Wat zijn de DLP-beleidssjablonen?
-              href: what-the-dlp-policy-templates-include.md
-            - name: Een DLP-beleid maken om documenten te beveiligen met FCI of andere eigenschappen
-              href: protect-documents-that-have-fci-or-other-properties.md
-            - name: De DLP-rapporten weergeven
-              href: view-the-dlp-reports.md
-            - name: Een query maken om te zoeken naar gevoelige gegevens die zijn opgeslagen op sites
-              href: form-a-query-to-find-sensitive-data-stored-on-sites.md
-            - name: De werking van DLP tussen het Beveiligings- en compliancecentrum en het Exchange-beheercentrum
-              href: how-dlp-works-between-admin-centers.md
+        - name: Meer informatie over preventie van gegevensverlies van eindpunten (preview)
+          href: endpoint-dlp-learn-about.md
+        - name: Aan de slag met preventie van gegevensverlies van eindpunten (preview)
+          href: endpoint-dlp-getting-started.md
+        - name: Preventie van gegevensverlies van eindpunten gebruiken (preview)
+          href: endpoint-dlp-using.md
+        - name: Aan de slag met aanbevelingen voor DLP-beleid
+          href: get-started-with-dlp-policy-recommendations.md
+        - name: Aan de slag met het standaard DLP-beleid
+          href: get-started-with-the-default-dlp-policy.md
+        - name: Een DLP-beleid maken vanuit een sjabloon
+          href: create-a-dlp-policy-from-a-template.md
+        - name: 'Een DLP-beleid maken, testen en afstemmen'
+          href: create-test-tune-dlp-policy.md
+        - name: Meldingen en beleidstips gebruiken in DLP-beleid
+          href: use-notifications-and-policy-tips.md
+        - name: Wat zijn de DLP-beleidssjablonen?
+          href: what-the-dlp-policy-templates-include.md
+        - name: Een DLP-beleid maken om documenten te beveiligen met FCI of andere eigenschappen
+          href: protect-documents-that-have-fci-or-other-properties.md
+        - name: De DLP-rapporten weergeven
+          href: view-the-dlp-reports.md
+        - name: Een query maken om te zoeken naar gevoelige gegevens die zijn opgeslagen op sites
+          href: form-a-query-to-find-sensitive-data-stored-on-sites.md
+        - name: De werking van DLP tussen het Beveiligings- en compliancecentrum en het Exchange-beheercentrum
+          href: how-dlp-works-between-admin-centers.md
     - name: Typen gevoelige informatie
       items:
         - name: Definities van entiteiten van het type Gevoelige informatie
