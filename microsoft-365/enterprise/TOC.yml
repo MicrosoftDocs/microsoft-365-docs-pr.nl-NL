@@ -88,6 +88,11 @@
           href: deployment-strategies-microsoft-365-enterprise.md
         - name: Implementeren met bestaande infrastructuur
           href: deploy-with-existing-infrastructure.md
+        - name: Voorbeeldconfiguraties voor het implementeren en bijwerken van kanalen
+          href: deploy-update-channels-examples.md
+          items:
+            - name: Brede implementatie van de meest recente releases
+              href: deploy-update-channels-examples-rapid-deploy.md
         - name: Implementeren voor middelgrote bedrijven
           href: deploy-foundation-infrastructure-non-enterprises.md
     - name: Werkbelastingen implementeren
