@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Meer informatie over het toevoegen van gasten aan een Microsoft 365-groep, het bekijken van gastgebruikers en het gebruik van PowerShell om de toegang van gasten te beheren.
-ms.openlocfilehash: 0322bd269f1c5637627461d136b40f6af4fc9540
-ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
+ms.openlocfilehash: a56d9599824ac1436c6f875661bcd573c1f6b1ca
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854244"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204741"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Gasttoegang beheren in Microsoft 365-groepen
 
@@ -61,7 +61,7 @@ Als de gast al in uw map bestaat, u deze toevoegen aan uw groepen vanuit het Mic
   
 4. Selecteer **Leden toevoegen**en kies de naam van de gast die u wilt toevoegen.
     
-5. Kies **Opslaan**.
+5. Selecteer **Opslaan**.
 
 Als u een gast rechtstreeks aan de map wilt toevoegen, u [Azure Active Directory B2B-samenwerkingsgebruikers toevoegen in de Azure-portal](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
 
@@ -114,7 +114,7 @@ Zie [Uitnodigingen voor B2B-gebruikers van specifieke organisaties toestaan of b
 
 ## <a name="add-guests-to-the-global-address-list"></a>Gasten toevoegen aan de algemene adreslijst
 
-Gasten zijn standaard niet zichtbaar in de algemene adreslijst van Exchange. Gebruik de onderstaande stappen om een gast zichtbaar te maken in de algemene adreslijst.
+Gasten zijn standaard niet zichtbaar in de algemene adreslijst van Exchange. Gebruik de onderstaande stappen om een gast zichtbaar te maken in de algemene adreslijst. Zorg ervoor dat de gast zichtbaar is in het Exchange Online-beheercentrum. Het kan even duren voordat nieuwe gasten er zijn verschenen nadat ze zijn toegevoegd.
 
 Zoek de ObjectID van de gastgebruiker door uit te voeren:
 

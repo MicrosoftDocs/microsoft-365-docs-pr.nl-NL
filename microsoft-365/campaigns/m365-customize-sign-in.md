@@ -20,13 +20,13 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Pas uw sig-in-pagina aan met een privacy- en toestemmingsbericht voor Microsoft 365 voor campagnes.
-ms.openlocfilehash: ddf99652ef7fd66df508a36dc4368595509597f6
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+description: Pas uw aanmeldingspagina aan met een privacy- en toestemmingsbericht voor Microsoft 365 voor campagnes.
+ms.openlocfilehash: 7ace4f1fe28bece1859cecb968a4352f015b8ca2
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "42811680"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204789"
 ---
 # <a name="customize-your-sign-in-page-with-a-privacy-and-consent-notice"></a>Uw aanmeldingspagina aanpassen met een privacy- en toestemmingsbericht
 
@@ -36,16 +36,15 @@ U uw aanmeldingspagina aanpassen met uw huisstijl en u ook tekst toevoegen om uw
 
 ## <a name="customize-the-text-on-your-sign-in-page"></a>De tekst op uw aanmeldingspagina aanpassen
 
-Om de aanpasbare elementen op de aanmelding bij te werken, moet u een globale beheerder zijn. Zie [bedrijfsbrandingartikel toevoegen](https://docs.microsoft.com/azure/active-directory/fundamentals/customize-branding) voor specifieke instructies.
+Als u de aanpasbare elementen op de aanmeldingspagina wilt bijwerken, moet u een globale beheerder zijn. Zie [bedrijfsbrandingartikel toevoegen](https://docs.microsoft.com/azure/active-directory/fundamentals/customize-branding) voor specifieke instructies.
 
 De elementen die u bijwerken zijn:
 
 - **Aanmeldingspaginatekst**
 
-    Dit is een gemakkelijke plek om de privacy- en toestemmingsverklaring toe te voegen.
-- Achtergrondafbeelding van de pagina-inzingpagina
+     Een gemakkelijke plek om de privacy- en toestemmingsverklaring toe te voegen.
+- Achtergrondafbeelding van aanmeldingspagina
 - Bannerlogo
 - Gebruikersnaam hint
 
 Zie Voor voorbeelden van privacy- en toestemmingsberichten [het zoeken en in beslag nemen van computers en het verkrijgen van elektronisch bewijs in pdf-bestand voor strafrechtelijke onderzoeken,](https://www.justice.gov/sites/default/files/criminal-ccips/legacy/2015/01/14/ssmanual2009.pdf) met name **bijlage A: Voorbeeldnetwerkbannertaal.**
-

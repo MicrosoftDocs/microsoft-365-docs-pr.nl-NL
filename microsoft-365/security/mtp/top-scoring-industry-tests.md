@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 64197133386748695fbef5a33c09022ae41f75d3
-ms.sourcegitcommit: 5f980a9eb5aca61cf3662ef0bc65dec215e21656
+ms.openlocfilehash: 0ee31ef55c78457ee2b9d3db7b702ada2f55a639
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "45185990"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204957"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Topscores in industrietests
 
@@ -100,6 +100,8 @@ SE Labs test een reeks oplossingen die door producten en services worden gebruik
 ## <a name="endpoint-detection--response"></a>Endpoint detectie & reactie
 
 Microsoft Defender [ATP-eindpuntdetectie- en reactiemogelijkheden](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response) bieden geavanceerde aanvalsdetecties die bijna realtime en bruikbaar zijn. Beveiligingsanalisten kunnen waarschuwingen effectief prioriteren, inzicht krijgen in de volledige omvang van een inbreuk en reactieacties nemen om bedreigingen te herstellen.
+
+Microsoft Defender ATP's EDR en endpoint bescherming mogelijkheden hebben positieve resultaten ontvangen van de industrie tests en publicaties. [SC Labs beoordeelde endpoint security tools](https://www.scmagazine.com/home/reviews/sc-product-reviews-endpoint-security/) in juni 2020, en gaf Microsoft Defender ATP [5/ 5 sterren](https://www.scmagazine.com/review/microsoft-defender-advanced-threat-protection/). Ze riepen ook het vermogen van Microsoft Defender ATP uit om organisaties te beschermen tegen het moderne dreigingslandschap met behulp van een volledige set beveiligingsmogelijkheden, en identificeerden de endpoint-beveiligingsoplossing als holistisch en verenigd. Ze erkenden ook de convergentie van endpoint-beveiliging met endpointdetectie- en responsfunctionaliteit, omdat de aanvalsketen nu volledig wordt gedekt door oplossingen.
 
 ### <a name="mitre-industry-leading-optics-and-detection-capabilities"></a>MITRE: Toonaangevende optiek- en detectiemogelijkheden
 

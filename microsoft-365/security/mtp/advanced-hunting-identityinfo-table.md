@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: b384e76439ae706520725e7193fa64224b724be0
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: e922fc7930d645a7024a0ffc73359277c4b637e4
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44898955"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204921"
 ---
 # <a name="identityinfo"></a>IdentityInfo
 
@@ -50,7 +50,7 @@ Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor inf
 | `AccountName` | Tekenreeks | Gebruikersnaam van het account |
 | `AccountDomain` | Tekenreeks | Domein van het account |
 | `EmailAddress` | Tekenreeks | SMTP-adres van de rekening |
-| `SipProxyAddress` | Tekenreeks | Voice of over IP (VOIP) sessie initiatie protocol (SIP) adres van de rekening |
+| `SipProxyAddress` | Tekenreeks | Voip-sessieinitiatieprotocol (SIP) van voice-over-IP (VOIP) van het account |
 | `City` | Tekenreeks | Plaats waar de accountgebruiker zich bevindt |
 | `Country` | Tekenreeks | Land/regio waar de accountgebruiker zich bevindt |
 | `IsAccountEnabled` | Booleaanse | Geeft aan of het account is ingeschakeld of niet |

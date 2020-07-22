@@ -14,12 +14,12 @@ ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 ms.custom:
 - seo-marvel-apr2020
 description: Ontdek hoe Exchange Online Protection (EOP) uw on-premises e-mailorganisatie kan helpen beschermen in zelfstandige en hybride omgevingen.
-ms.openlocfilehash: a3f71ea5366224465cdaf3922c6c467fcb49f3cc
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 37b38df9e94bee93202be02c01a220afa9470b8a
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616984"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204801"
 ---
 # <a name="exchange-online-protection-overview"></a>Overzicht Exchange Online Protection
 
@@ -61,7 +61,13 @@ EOP voert load balancing uit tussen datacenters, maar alleen binnen een regio. A
 
 - In Asia-Pacific (APAC) bevinden alle Exchange Online-postvakken zich in APAC-datacenters en worden berichten momenteel doorgestuurd via APAC-datacenters voor EOP-filtering.
 
-- In Noord- en Zuid-Amerika bevinden alle Exchange Online-postvakken zich in Amerikaanse datacenters, met uitzondering van Zuid-Amerika waar datacenters in Brazilië en Chili worden gebruikt en in Canada waar datacenters in Canada worden gebruikt. Alle e-mailberichten, inclusief berichten voor klanten in Zuid-Amerika en Canada, worden doorgestuurd via lokale datacenters voor EOP-filtering; in quarantaine geplaatste e-mail wordt opgeslagen in het datacenter waar de tenant zich bevindt.
+- In Noord- en Zuid-Amerika worden diensten op de volgende locaties gedistribueerd:
+
+  - Zuid-Amerika: Exchange Online-postvakken bevinden zich in datacenters in Brazilië en Chili. Alle berichten worden doorgestuurd via lokale datacenters voor EOP-filtering. In quarantaine geplaatste berichten worden opgeslagen in het datacenter waar de tenant zich bevindt.
+
+  - Canada: Exchange Online-postvakken bevinden zich in datacenters in Canada. Alle berichten worden doorgestuurd via lokale datacenters voor EOP-filtering. In quarantaine geplaatste berichten worden opgeslagen in het datacenter waar de tenant zich bevindt.
+
+  - Verenigde Staten: Exchange Online-postvakken bevinden zich in Amerikaanse datacenters. Alle berichten worden doorgestuurd via lokale datacenters voor EOP-filtering. In quarantaine geplaatste berichten worden opgeslagen in het datacenter waar de tenant zich bevindt.
 
 - Voor de Government Community Cloud (GCC) bevinden alle Exchange Online-postvakken zich in Amerikaanse datacenters en worden alle berichten doorgestuurd via Amerikaanse datacenters voor EOP-filtering.
 

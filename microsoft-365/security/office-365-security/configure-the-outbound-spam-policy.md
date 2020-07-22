@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen in Exchange Online Protection (EOP) leren hoe ze uitgaand spambeleid kunnen bekijken, maken, wijzigen en verwijderen.
-ms.openlocfilehash: 7102f858e0293f2a55fe68a55d4dc2cf3ab38a33
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: 9f70deeb371278fa397e5186b4c770f776abff32
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024580"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204849"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Uitgaande spamfiltering configureren in EOP
 
@@ -136,26 +136,10 @@ Als u een aangepast outbound spambeleid maakt in het Security & Compliance Cente
 
    - **Informeer specifieke personen als een afzender is geblokkeerd als gevolg van het verzenden van uitgaande spam:**
 
-     > [!NOTE]
-     > Het [standaardwaarschuwingsbeleid](../../compliance/alert-policies.md) met de naam **Gebruiker die is beperkt tot het verzenden van e-mail,** stuurt al e-mailmeldingen naar leden van de groep **TenantAdmins** **(Globale beheerders)** wanneer gebruikers worden geblokkeerd vanwege het overschrijden van de limieten in de sectie **Geadresseerdelimieten.** We raden u aan het waarschuwingsbeleid te gebruiken in plaats van deze instelling in het uitgaande spambeleid om beheerders en andere gebruikers op de hoogte te stellen. Zie De [waarschuwingsinstellingen voor beperkte gebruikers verifiëren](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users)voor instructies. <br/><br/> Deze instelling werkt alleen in het standaard uitgaande spambeleid. Het werkt niet in het aangepaste uitgaande spambeleid dat u maakt.
-
-     Ga als volgt te werk om deze instelling in te schakelen:
-
-     a. Schakel het selectievakje in om de instelling in te schakelen.
-
-     b. Klik **op Personen toevoegen**. In de flyout **voor geadresseerden toevoegen of verwijderen** die wordt weergegeven:
-
-     c. Voert u het e-mailadres van de afzender in. U meerdere e-mailadressen opgeven die zijn gescheiden door puntkomma's (;) of één ontvanger per regel.
-
-     d. Klikt u op ![Pictogram toevoegen](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) om de ontvangers toe te voegen.
-
-        Herhaal deze stappen zo vaak als nodig is.
-
-        De geadresseerden die u hebt toegevoegd, worden weergegeven in de sectie **Geadresseerdelijst** in de flyout. Als u een ontvanger wilt verwijderen, klikt u op ![ knop Verwijderen ](../../media/scc-remove-icon.png) .
-
-     e. Klik op **Opslaan** wanneer u gereed bent.
-
-     Schakel het selectievakje uit om deze instelling uit te schakelen.
+     > [!IMPORTANT]
+     > Deze instelling wordt momenteel afgeschaft uit uitgaand spambeleid.
+     > 
+     > Het [standaardwaarschuwingsbeleid](../../compliance/alert-policies.md) met de naam **Gebruiker die is beperkt tot het verzenden van e-mail,** stuurt al e-mailmeldingen naar leden van de groep **TenantAdmins** **(Globale beheerders)** wanneer gebruikers worden geblokkeerd vanwege het overschrijden van de limieten in de sectie **Geadresseerdelimieten.** **We raden u ten zeerste aan het waarschuwingsbeleid te gebruiken in plaats van deze instelling in het uitgaande spambeleid om beheerders en andere gebruikers op de hoogte te stellen.** Zie De [waarschuwingsinstellingen voor beperkte gebruikers verifiëren](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users)voor instructies.
 
 5. (Optioneel) Vouw de sectie **Geadresseerdelimieten** uit om de limieten en acties voor verdachte uitgaande e-mailberichten te configureren:
 
@@ -189,11 +173,11 @@ Als u een aangepast outbound spambeleid maakt in het Security & Compliance Cente
 
    > [!NOTE]
    > Deze instellingen zijn alleen van toepassing op postvakken in de cloud.
-   
+
    - **Automatisch doorsturen**
   
       Selecteer een van de opties om te bepalen hoe automatisch doorsturen wordt afgehandeld.
-    
+
       - **Automatisch**: standaardinstelling waarmee het systeem automatisch doorsturen kan regelen met automatisch doorsturen standaard uitgeschakeld.
       - **Op**: Extern doorsturen is onbeperkt ingeschakeld binnen het beleid.
       - **Uit**: Extern doorsturen is uitgeschakeld en wordt geblokkeerd

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: da3b331d4f607aa0961e275db9444aadbec4fcf2
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 663dc2a3de676fa2daeab3d9621254e956d42fc4
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899337"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204753"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -41,13 +41,23 @@ Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor inf
 | `FileName` | Tekenreeks | Naam van het bestand waarop de geregistreerde actie is toegepast |
 | `FolderPath` | Tekenreeks | Map met het bestand waarop de opgenomen actie is toegepast |
 | `PreviousFileName` | Tekenreeks | Oorspronkelijke naam van het bestand dat naar aanleiding van de actie is hernoemd |
+| `PreviousFolderPath` | Tekenreeks | Oorspronkelijke map met het bestand voordat de opgenomen actie werd toegepast |
+| `Protocol` | Tekenreeks | Netwerkprotocol gebruikt |
 | `AccountName` | Tekenreeks | Gebruikersnaam van het account |
 | `AccountDomain` | Tekenreeks | Domein van het account |
 | `AccountUpn` | Tekenreeks | Gebruikersnaam (UPN) van het account |
 | `AccountObjectId` | Tekenreeks | Unieke id voor het account in Azure AD |
 | `AccountDisplayName` | Tekenreeks | Naam van de accountgebruiker die in het adresboek wordt weergegeven. Typisch een combinatie van een bepaalde of voornaam, een middelste initiatie, en een achternaam of achternaam. |
+| `DeviceName` | Tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat |
+| `DeviceType` | Tekenreeks | Type apparaat | 
+| `OSPlatform` | Tekenreeks | Platform van het besturingssysteem dat op het apparaat draait. Dit duidt op specifieke besturingssystemen, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. |
 | `IPAddress` | Tekenreeks | IP-adres toegewezen aan het eindpunt en gebruikt tijdens gerelateerde netwerkcommunicatie |
+| `DestinationDeviceName` | Tekenreeks | Naam van het apparaat waarop de servertoepassing wordt uitgevoerd die de geregistreerde actie heeft verwerkt |
+| `DestinationIPAddress` | Tekenreeks | IP-adres van het apparaat waarop de servertoepassing wordt uitgevoerd die de geregistreerde actie heeft verwerkt |
 | `Location` | Tekenreeks | Plaats, land of andere geografische locatie die aan het evenement is gekoppeld |
+| `Isp` | Tekenreeks | Internetserviceprovider (ISP) die is gekoppeld aan het IP-adres van het eindpunt |
+| `ReportId` | Lange | Unieke id voor het evenement |
+| `AdditionalFields` | Tekenreeks | Aanvullende informatie over de entiteit of gebeurtenis |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

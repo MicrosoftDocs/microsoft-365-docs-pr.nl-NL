@@ -17,19 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 039b9dc038cd1a1645aee2289f3bdb389eb3f426
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: 6465821ff1b8e8ea23cc5cf6b205f65a483bbe82
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515914"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204945"
 ---
-# <a name="fileprofile"></a>FileProfiel()
+# <a name="fileprofile"></a>FileProfile()
 
 **Van toepassing op:**
 - Microsoft Threat Protection
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 De `FileProfile()` functie is een verrijkingsfunctie in geavanceerde [jacht](advanced-hunting-overview.md) die de volgende gegevens toevoegt aan bestanden die door de query worden gevonden.
 

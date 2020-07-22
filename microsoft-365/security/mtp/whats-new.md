@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: e19a5528a4ccc250c981ab21d7644783ad1b0b8b
-ms.sourcegitcommit: c51dd4c659f763ae46c188d3fae90aab8d1d7e88
+ms.openlocfilehash: fca4889167dd7eb5f57d4980c4b033e0903209eb
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45084153"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204933"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Wat is er nieuw in Microsoft Threat Protection
 
@@ -30,6 +30,10 @@ RSS-feed: ontvang een melding wanneer deze pagina wordt bijgewerkt door de volge
 ```http
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+Threat+Protection%22&locale=en-us
 ```
+## <a name="july-2020"></a>Juli 2020
+- [Bestandsprofiel(), functie](advanced-hunting-fileprofile-function.md) <br> Gebruik deze functie in uw geavanceerde jachtquery's om resultaten te verrijken met uitgebreide bestandsinformatie. [advanced hunting](advanced-hunting-overview.md)
+- [Identiteits- en app-tabellen](advanced-hunting-schema-tables.md)<br> Krijg inzicht in verificatiegebeurtenissen, Active Directory-query's en app-gerelateerde activiteiten met de tabellen [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)en [AppFileEvents](advanced-hunting-appfileevents-table.md) in het geavanceerde jachtschema.
+
 ## <a name="june-2020"></a>Juni 2020
 - Twitter-feed <br> Ontvang het nieuwste beveiligingsonderzoek, bedreigingsinformatie, productnieuws en meer - direct in het dashboard.
 - [De schematabel van EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md) <br> Neem informatie over acties na levering op die zijn uitgevoerd op e-mailberichten op in uw geavanceerde jachtquery's.

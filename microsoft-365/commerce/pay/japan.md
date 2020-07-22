@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,15 +13,25 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Meer informatie over waar u de betaling voor uw abonnement verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 57dc44af9a04bb9d55cc0dd5574ee74620211a73
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 44df2d2fcc3c424a6962ac8ca456c41147971eb5
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401688"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204765"
 ---
 # <a name="payment-information-for-japan"></a>Betalingsgegevens voor Japan
 
-[Zoek een ander land of regio.](../billing-and-payments/pay-for-your-subscription.md)
+[Zoek een ander land of regio](../billing-and-payments/pay-for-your-subscription.md).
 
-Volg de betalingsinstructie op uw factuur en referentiefactuurnummer(s) over de betalingsoverschrijving.
+Betaal alleen in JPY en referentiefactuurnummer(s) op uw betalingsoverschrijving.
+
+## <a name="electronic-funds-transfer"></a>Elektronische betaling
+
+**Bank:** Citibank, N.A.  
+**Bank-ID:** 0401  
+**Tak:** Tokyo Branch  
+**Filiaalcode:** 730  
+**SWIFT-code:** CITIJPJT  
+**Rekeningnummer:** 160609028  
+**Accountnaam:** Microsoft Japan Co., Ltd.
