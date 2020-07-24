@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
-ms.openlocfilehash: c129ca73da516a5b4c420136abf0b5068e19e195
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: 60b53e21978867321f6fe824da35db683dc76663
+ms.sourcegitcommit: a53af7a228bb1f58cb8128a69a19da49f9e28700
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204861"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45372559"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -357,7 +357,7 @@ Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst,
      > [!NOTE]
      > Als we tijdens een vorige cyclus een melding hebben gemist, wordt in de volgende cyclus de melding gepusht. Dit geeft de indruk van meerdere meldingen op dezelfde dag.
 
-   - **Taal van meldingen**: klik op de vervolgkeuzelijst en selecteer een beschikbare taal in de lijst. De standaardwaarde is **Standaard**, oftewel de standaardtaal van de cloudorganisatie.
+   - **Taal van meldingen**: klik op de vervolgkeuzelijst en selecteer een beschikbare taal in de lijst. De standaardwaarde is **Standaard**, dat wil zeggen Engels.
 
    Klik op **Opslaan** wanneer u gereed bent.
 
