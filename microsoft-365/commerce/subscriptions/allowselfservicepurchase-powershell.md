@@ -1,5 +1,5 @@
 ---
-title: AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module
+title: Gebruik AllowSelfServicePurchase voor de MSCommerce PowerShell-module
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -14,34 +14,34 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Meer informatie over het gebruik van de OptieSelfServicePurchase PowerShell-cmdlet om selfservice-aankopen in- of uit te schakelen.
+description: Meer informatie over het gebruik van de PowerShell-cmdlet allowSelfServicePurchase om zelfbedieningsaankoop in of uit te schakelen.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ec5ebe814066916de5cafc176cdcd82bfd416a57
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b35b62a97f8dc269be5db232e163391a8ce50658
+ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403688"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391540"
 ---
-# <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module
+# <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>Gebruik AllowSelfServicePurchase voor de MSCommerce PowerShell-module
 
-De **MSCommerce** PowerShell-module is nu beschikbaar op [PowerShell Gallery.](https://aka.ms/allowselfservicepurchase-powershell-gallery) De module bevat een **PolicyID-parameterwaarde** voor **AllowSelfServicePurchase** waarmee u bepalen of gebruikers in uw organisatie selfservice-aankopen kunnen doen.
+De **MSCommerce** PowerShell module is nu beschikbaar op [PowerShell Gallery.](https://aka.ms/allowselfservicepurchase-powershell-gallery) De module bevat een **Parameterwaarde PolicyID** voor **AllowSelfServicePurchase** waarmee u bepalen of gebruikers in uw organisatie selfservice-aankopen kunnen doen.
 
 U de **MSCommerce** PowerShell-module gebruiken om:
 
-- De standaardstatus van de **parameterwaarde AllowSelfServicePurchase** weergeven , ongeacht of deze is ingeschakeld of uitgeschakeld
-- Bekijk een lijst met toepasselijke producten en of selfservice-aankoop is ingeschakeld of uitgeschakeld
+- De standaardstatus van de parameterwaarde **AllowSelfServicePurchase** weergeven, of deze nu is ingeschakeld of uitgeschakeld
+- Een lijst met toepasselijke producten weergeven en of selfservice-aankopen zijn ingeschakeld of uitgeschakeld
 - De huidige instelling voor een specifiek product weergeven of wijzigen om het in te schakelen of uit te schakelen
 
 ## <a name="requirements"></a>Vereisten
 
-Als u de **MSCommerce** PowerShell-module wilt gebruiken, hebt u het:
+Om de **MSCommerce** PowerShell-module te gebruiken, hebt u het:
 
 - Een Windows 10-apparaat
 - Beheerdersmachtiging voor het apparaat
-- De rol Globale of factureringsbeheerder voor uw tenant
+- Rol Globale of Factureringsbeheerder voor uw tenant
 
-## <a name="install-the-mscommerce-powershell-module"></a>De MSCommerce PowerShell-module installeren
+## <a name="install-the-mscommerce-powershell-module"></a>Installeer de MSCommerce PowerShell-module
 
 U installeert de **MSCommerce** PowerShell-module één keer op uw Windows 10-apparaat en importeert deze vervolgens in elke PowerShell-sessie die u start. Download de **MSCommerce** PowerShell-module in de [PowerShell Gallery.](https://aka.ms/allowselfservicepurchase-powershell-gallery)
 
@@ -51,15 +51,15 @@ Voer de volgende opdracht uit om de **MSCommerce** PowerShell-module met **Power
 Install-Module -Name MSCommerce
 ```
 
-## <a name="import-mscommerce-into-the-powershell-session"></a>MSCommerce importeren in de PowerShell-sessie
+## <a name="import-mscommerce-into-the-powershell-session"></a>MsCommerce importeren in de PowerShell-sessie
 
-Nadat u de module op uw Windows 10-apparaat hebt geïnstalleerd, importeert u deze in elke PowerShell-sessie die u start. Voer de volgende opdracht uit om deze in een PowerShell-sessie te importeren:
+Nadat u de module op uw Windows 10-apparaat hebt geïnstalleerd, importeert u deze in elke PowerShell-sessie die u start. Voer de volgende opdracht uit om het in een PowerShell-sessie te importeren:
 
 ```powershell
 Import-Module -Name MSCommerce
 ```
 
-## <a name="connect-to-mscommerce-with-your-credentials"></a>Verbinding maken met MSCommerce met uw referenties
+## <a name="connect-to-mscommerce-with-your-credentials"></a>Maak verbinding met MSCommerce met uw referenties
 
 Voer de volgende opdracht uit om verbinding te maken met de PowerShell-module met uw referenties.
 
@@ -67,11 +67,11 @@ Voer de volgende opdracht uit om verbinding te maken met de PowerShell-module me
 Connect-MSCommerce
 ```
 
-Met deze opdracht wordt de huidige PowerShell-sessie verbonden met een Azure Active Directory-tenant. De opdracht vraagt u om een gebruikersnaam en wachtwoord voor de tenant waarmee u verbinding wilt maken. Als meervoudige verificatie is ingeschakeld voor uw referenties, gebruikt u de interactieve optie om u aan te melden.
+Met deze opdracht wordt de huidige PowerShell-sessie verbonden met een Azure Active Directory-tenant. De opdracht vraagt u om een gebruikersnaam en wachtwoord voor de tenant waarmee u verbinding wilt maken. Als multi-factor authenticatie is ingeschakeld voor uw referenties, gebruikt u de interactieve optie om in te loggen.
 
 ## <a name="view-details-for-allowselfservicepurchase"></a>Details weergeven voor AllowSelfServicePurchase
 
-Als u een beschrijving wilt weergeven van de **parameterwaarde AllowSelfServicePurchase** en de standaardstatus op basis van uw organisatie, voert u de volgende opdracht uit:
+Voer de volgende opdracht uit om een beschrijving van de parameter **Value AllowSelfServicePurchase** en de standaardstatus op basis van uw organisatie weer te geven:
 
 ```powershell
 Get-MSCommercePolicy -PolicyId AllowSelfServicePurchase
@@ -79,25 +79,25 @@ Get-MSCommercePolicy -PolicyId AllowSelfServicePurchase
 
 ## <a name="view-a-list-of-self-service-purchase-products-and-their-status"></a>Bekijk een lijst met selfservice-aankoopproducten en hun status
 
-Voer de volgende opdracht uit om een lijst met alle beschikbare selfservice-aankoopproducten en de status van elk van deze producten weer te geven:
+Voer de volgende opdracht uit om een lijst met alle beschikbare selfservice-aankoopproducten en de status van elk te bekijken:
 
 ```powershell
 Get-MSCommerceProductPolicies -PolicyId AllowSelfServicePurchase
 ```
 
-In de volgende tabel worden de beschikbare producten en hun **productid weergegeven.**
+In de volgende tabel worden de beschikbare producten en hun **ProductId weergegeven.**
 
 | Product | Productid |
 |-----------------------------|--------------|
 | Power Apps per gebruiker | CFQ7TTC0KP0P |
-| Power automatiseren per gebruiker | CFQ7TTC0KP0N |
+| Power Automatiseer per gebruiker | CFQ7TTC0KP0N |
 | Power BI Pro | CFQ7TTC0L3PB |
 
-## <a name="view-or-set-the-status-for-allowselfservicepurchase"></a>De status voor AllowSelfServicePurchase weergeven of instellen
+## <a name="view-or-set-the-status-for-allowselfservicepurchase"></a>De status van AllowSelfServicePurchase weergeven of instellen
 
-Nadat u de lijst met producten hebt bekeken die beschikbaar zijn voor selfservice-aankoop, u de instelling voor een specifiek product bekijken of wijzigen.
+Nadat u de lijst met producten hebt weergegeven die beschikbaar zijn voor selfservice-aankopen, u de instelling voor een specifiek product bekijken of wijzigen.
 
-Voer de volgende opdracht uit om de beleidsinstelling voor een specifiek product op te halen:
+Voer de volgende opdracht uit om de beleidsinstelling voor een specifiek product te krijgen:
 
 ```powershell
 Get-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId CFQ7TTC0KP0N
@@ -117,7 +117,7 @@ Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId CFQ
 
 ## <a name="example-script-to-disable-allowselfservicepurchase"></a>Voorbeeldscript om AllowSelfServicePurchase uit te schakelen
 
-In het volgende voorbeeld u de **MSCommerce-module** importeren, inloggen met uw account, de **ProductId** voor Power Automatiseren en vervolgens **AllowSelfServicePurchase** uitschakelen voor dat product.
+In het volgende voorbeeld u de **MSCommerce-module** importeren, zich aanmelden met uw account, de **ProductId** for Power Automate ophalen en **vervolgens AllowSelfServicePurchase** voor dat product uitschakelen.
 
 ```powershell
 Import-Module -Name MSCommerce
@@ -132,10 +132,9 @@ Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $pr
 
 U ziet het volgende foutbericht:
 
-    HandleError : Failed to retrieve policy with PolicyId 'AllowSelfServicePurchase', ErrorMessage - The underlying
-    connection was closed: An unexpected error occurred on a send.
+> HandleError : Kan het beleid niet ophalen met PolicyId 'AllowSelfServicePurchase', ErrorMessage - De onderliggende verbinding is gesloten: er is een onverwachte fout opgetreden bij een verzenden.
 
-Dit kan te wijten zijn aan een oudere versie van Transport Layer Security (TLS). Om deze service aan te sluiten moet u TLS 1.2 of meer gebruiken
+Dit kan te wijten zijn aan een oudere versie van Transport Layer Security (TLS). Om deze service aan te sluiten, moet u TLS 1.2 of hoger gebruiken
 
 **Oplossing**
 

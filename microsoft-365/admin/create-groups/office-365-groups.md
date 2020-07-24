@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over Microsoft 365-groepen.
-ms.openlocfilehash: 14bc1211aaa65fb2daeebdb22729fce10154f204
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 6922e6bf8561d0600c25de9768669d90e959ff26
+ms.sourcegitcommit: 4789b261eb029d7c965421a1260acc110e6385db
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780407"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45387397"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Overzicht van Microsoft 365-groepen voor beheerders
 
@@ -80,7 +80,7 @@ De volgende limieten zijn van toepassing op Microsoft 365-groepen:
 |Bestandsopslag|1 Terabyte + 10 GB per geabonneerde gebruiker + eventuele extra opslagruimte gekocht. U een onbeperkte hoeveelheid extra opslagruimte aanschaffen.|
 |Grootte van groepspostvak|50 GB|
 
-Het standaard maximumaantal Microsoft 365-groepen dat een organisatie kan hebben, is 500.000, maar kan op aanvraag worden verhoogd. Zie Microsoft 365-groepen - Help voor beheerders voor meer informatie over microsoft [365-groepen.](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+Het standaard maximumaantal Microsoft 365-groepen dat een organisatie kan hebben, is 500.000. Als u verder wilt gaan dan de standaardlimiet, moet u contact opnemen met Microsoft Support. Zie Microsoft 365-groepen - Help voor beheerders voor meer informatie over microsoft [365-groepen.](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 Het beheren van uw Microsoft 365-groepen is effectiever wanneer u bruikbare informatie hebt over het gebruik van groepen. Het Microsoft 365-beheercentrum heeft een rapportagetool waarmee u dingen zien, zoals opslaggebruik, hoeveel actieve groepen u hebt en zelfs hoe uw gebruikers de groepen gebruiken. Zie: [Microsoft 365 Reports in het beheercentrum](../activity-reports/office-365-groups.md) voor meer informatie.
 

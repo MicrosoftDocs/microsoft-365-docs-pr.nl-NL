@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 05/15/2020
+ms.date: 07/23/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d8bd316b847502f9e4b1c94afbf67a0472015a6
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 92ad1b644dd0b3cac04657d01f70cfb274b7e517
+ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126407"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391552"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Nieuw in Office 365 ATP
 
@@ -37,7 +37,8 @@ In dit artikel worden nieuwe functies weergegeven in de nieuwste versie van Offi
 
 ## <a name="julyaugust-2020"></a>Juli/augustus 2020 
 
-- [Ervaring verbeteringen aan de jacht ervaring](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
+- [Ervaar verbeteringen in de jachtervaring](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
+- [Aanbevolen instellingen eenvoudig toepassen met vooraf ingesteld beveiligingsbeleid](preset-security-policies.md)
 
 ## <a name="marchapril-2020"></a>Maart/april 2020
 
@@ -63,11 +64,6 @@ In dit artikel worden nieuwe functies weergegeven in de nieuwste versie van Offi
 - [URL-klikgegevens exporteren voor offline analyse](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP-abonnement 1 of Plan 2)
 
 - [Campagneweergaven gebruiken in Office 365 ATP **(voorbeeld**)](campaigns.md)
-
-## <a name="july-2020"></a>Juli 2020 
- 
-- [Ervaring verbeteringen aan de jacht ervaring](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
-
 
 ## <a name="november-2019"></a>November 2019
 

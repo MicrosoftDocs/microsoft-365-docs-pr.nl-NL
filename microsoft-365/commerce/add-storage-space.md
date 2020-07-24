@@ -29,12 +29,12 @@ search.appverid:
 - GSP150
 ms.assetid: 96ea3533-de64-4b01-839a-c560875a662c
 description: Meer informatie over het toevoegen en verminderen van bestandsopslag in uw Microsoft 365-abonnement. Met extra bestandsopslag u meer inhoud opslaan in SharePoint Online en OneDrive.
-ms.openlocfilehash: f3720580c44b68f5b34d5e11f5af1a919ec07dea
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: d0580113449ae91e7be02a13993562d6b91a7d19
+ms.sourcegitcommit: 4789b261eb029d7c965421a1260acc110e6385db
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899123"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45387419"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Opslagruimte voor uw abonnement toevoegen
 
@@ -48,7 +48,7 @@ ms.locfileid: "44899123"
 Als de opslagruimte voor uw SharePoint Online-siteverzamelingen begint vol te raken, kunt u opslagruimte aan uw abonnement toevoegen als uw abonnement daarvoor in aanmerking komt.  Als u de **extra bestandsopslag van Office 365** niet ziet in de lijst met beschikbare invoegtoepassingen, betekent dit dat uw abonnement niet in aanmerking komt. Zie Mijn plan in aanmerking voor meer [informatie?](#is-my-plan-eligible-for-office-365-extra-file-storage)
 
 > [!NOTE]
-> Als u uw abonnement hebt gekocht via Volume Licensing of een CSP, u **Office 365 Extra Bestandsopslag** niet kopen voor uw organisatie. Neem contact op met uw vertegenwoordiger of partner voor hulp.
+> Als u uw abonnement hebt gekocht via Volume Licensing of een CSP, u **Office 365 Extra File Storage** voor uw organisatie niet rechtstreeks bij Microsoft kopen. Neem contact op met uw vertegenwoordiger of partner voor hulp.
 
 ## <a name="view-available-storage"></a>Beschikbare opslag weergeven
 
