@@ -169,6 +169,8 @@
       href: tls-1-2-in-office-365-gcc.md
     - name: TLS 1.2 in Office 365
       href: prepare-tls-1.2-in-office-365.md
+    - name: Dubbele sleutelcodering voor de openbare preview-versie van Microsoft 365
+      href: double-key-encryption.md
     - name: Klantsleutel
       items:
         - name: Serviceversleuteling met klantsleutel in Office 365
