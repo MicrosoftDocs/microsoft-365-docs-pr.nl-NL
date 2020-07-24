@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
-ms.openlocfilehash: 191f0492293738a9bce486226ca7d87d947a3f65
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+ms.openlocfilehash: c129ca73da516a5b4c420136abf0b5068e19e195
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726830"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204861"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -348,16 +348,16 @@ Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst,
 
 4. Configureer de volgende instellingen in het dialoogvenster **\<Policy Name\>** dat wordt geopend:
 
-   - **Spammeldingen voor eindgebruikers inschakelen**: selecteer het selectievakje om meldingen in te schakelen. Schakel het selectievakje uit om meldingen uit te schakelen.
+   - **Spammeldingen voor eindgebruikers inschakelen**: vink het selectievakje aan om meldingen in te schakelen. Schakel het selectievakje uit om meldingen uit te schakelen.
 
    - **Iedere (dagen) spammeldingen voor eindgebruikers verzenden **: selecteer hoe vaak meldingen worden verzonden. De standaardwaarde is 3 dagen. U kunt 1 tot 15 dagen opgeven.
 
-     Er zijn drie cycli van spammeldingen voor eindgebruikers binnen een periode van 24 uur die beginnen op de volgende tijden: 01:00 UTC, 08:00 UTC en 16:00 UTC. 
+     Er zijn drie cycli van spammeldingen voor eindgebruikers binnen een periode van 24 uur die beginnen op de volgende tijden: 01:00 UTC, 08:00 UTC en 16:00 UTC.
 
      > [!NOTE]
      > Als we tijdens een vorige cyclus een melding hebben gemist, wordt in de volgende cyclus de melding gepusht. Dit geeft de indruk van meerdere meldingen op dezelfde dag.
 
-   - **Taal van meldingen**: klik op de vervolgkeuzelijst en selecteer een beschikbare taal in de lijst. De standaardwaarde is **Standaard**, dit betekent dat de standaardtaal van het EOP-bedrijf wordt gebruikt door de quarantainemeldingen.
+   - **Taal van meldingen**: klik op de vervolgkeuzelijst en selecteer een beschikbare taal in de lijst. De standaardwaarde is **Standaard**, oftewel de standaardtaal van de cloudorganisatie.
 
    Klik op **Opslaan** wanneer u gereed bent.
 

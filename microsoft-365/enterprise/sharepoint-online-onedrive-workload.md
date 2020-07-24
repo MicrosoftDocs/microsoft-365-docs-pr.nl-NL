@@ -13,12 +13,12 @@ ms.collection:
 - SPO_Content
 ms.custom: ''
 description: Doorloop het proces van planning, implementatie en promotie van de waarde van SharePoint binnen uw organisatie.
-ms.openlocfilehash: 6b0483073a836f29b1faa5a30018848ef7b2df34
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
+ms.openlocfilehash: 77beb26065a9ecfd37acf976e7415cc870ff8ea4
+ms.sourcegitcommit: fe20f5ed07f38786c63df0f73659ca472e69e478
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268207"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201496"
 ---
 # <a name="deploy-sharepoint-and-onedrive-for-microsoft-365-enterprise"></a>SharePoint en OneDrive voor Microsoft 365 Enterprise implementeren
 
@@ -85,12 +85,11 @@ Voordat u met de technische planning begint, moet u bepalen of u FastTrack wilt 
 
 Als u uw eigen planning doet, of in samenwerking met FastTrack, moet u bepalen of uw netwerk en organisatie klaar zijn voor SharePoint. Het is vooral belangrijk dat u voldoet aan de [exitcriteria voor netwerken](networking-exit-criteria.md) in uw basisinfrastructuur, met speciale aandacht voor internetbandbreedte, doorvoer en onderbrekingen, om de prestaties te maximaliseren voor het extra verkeer van op SharePoint gebaseerde documenten.
 
-Gebruik [Migreren naar SharePoint](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) om u voor te bereiden op uw SharePoint-implementatie: 
+Gebruik [Migreren naar SharePoint](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) om u voor te bereiden op de SharePoint-implementatie.
 
 Bekijk de volgende bronnen voor een beter begrip van beveiliging in SharePoint:
-
--     [Hoe SharePoint en OneDrive uw gegevens in de cloud beschermen](https://docs.microsoft.com/sharepoint/safeguarding-your-data)
--     [Gegevensversleuteling in OneDrive en SharePoint](https://docs.microsoft.com/microsoft-365/compliance/data-encryption-in-odb-and-spo)
+- [Hoe SharePoint en OneDrive uw gegevens in de cloud beschermen](https://docs.microsoft.com/sharepoint/safeguarding-your-data)
+- [Gegevensversleuteling in OneDrive en SharePoint](https://docs.microsoft.com/microsoft-365/compliance/data-encryption-in-odb-and-spo)
 
 #### <a name="result"></a>Resultaat
 
