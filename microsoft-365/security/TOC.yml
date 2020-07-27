@@ -311,6 +311,8 @@
                       href: ./office-365-security/use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
                     - name: Malware en niet-malware aan Microsoft verzenden
                       href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
+                - name: Beveiligingsbeleid vooraf instellen
+                  href: ./office-365-security/preset-security-policies.md
                 - name: Berichtkoppen tegen ongewenste e-mail
                   href: ./office-365-security/anti-spam-message-headers.md
                 - name: Hoe beleid en beveiliging worden gecombineerd

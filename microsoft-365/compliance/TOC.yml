@@ -315,14 +315,10 @@
           href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
         - name: Retentielabels maken met PowerShell
           href: bulk-create-publish-labels-using-powershell.md
-        - name: Retentie op basis van gebeurtenissen gebruiken
-          items:
-            - name: Retentie starten als zich een gebeurtenis voordoet
-              href: event-driven-retention.md
-            - name: Retentie op basis van gebeurtenissen automatiseren
-              href: automate-event-driven-retention.md
-            - name: De levenscyclus van SharePoint-documenten beheren
-              href: auto-apply-retention-labels-scenario.md
+        - name: Retentie starten als zich een gebeurtenis voordoet
+          href: event-driven-retention.md
+        - name: De levenscyclus van SharePoint-documenten beheren
+          href: auto-apply-retention-labels-scenario.md
     - name: Gegevens verwijderen
       href: disposition.md
     - name: Inactieve postvakken beheren
