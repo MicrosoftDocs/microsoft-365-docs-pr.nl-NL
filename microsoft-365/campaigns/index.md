@@ -5,9 +5,8 @@ f1.keywords:
 ms.author: samanro
 author: samanro
 manager: scotv
-layout: LandingPage
 ms.audience: Admin
-ms.topic: landing-page
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -24,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 365 voor campagnes
-ms.openlocfilehash: 167b265676d3c3bc9025a0c0e998379f72bb9e52
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: d936b05c7668b2fcdeb976e547cde8694b304c27
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "43632033"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429976"
 ---
 <a name="microsoft-365-for-campaigns"></a>Microsoft 365 voor campagnes
 ===========================
@@ -60,122 +59,25 @@ Raadpleeg [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-3
 <a name="get-started"></a>Aan de slag
 --------------------------
 
-<ul class="panelContent cardsJ">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-blue.svg" alt="Roadmap" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <p><b>Ga aan de hand van deze stappen aan de slag:</b></p>
-                        <P><a href="get-microsoft-365-campaigns.md">Microsoft 365-campagnes aanschaffen</a></p>
-                        <P><a href="m365-campaigns-users.md">Meer informatie over hoe uw gebruikers werken met Microsoft 365</a></p>
-                        <P><a href="microsoft-365-campaigns-setup-overview.md">Microsoft 365-campagnes instellen</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+![Routekaart](https://docs.microsoft.com/office/media/icons/walkthrough-map-blue.png) **Volg de onderstaande stappen om aan de slag te gaan:**  
+
+- [Microsoft 365-campagnes aanschaffen](get-microsoft-365-campaigns.md)
+- [Meer informatie over hoe uw gebruikers werken met Microsoft 365](m365-campaigns-users.md)
+- [Microsoft 365-campagnes instellen](microsoft-365-campaigns-setup-overview.md)
+
+
 
 <a name="solutions-for-your-campaign-or-small-business"></a>Oplossingen voor uw campagne of kleine bedrijven
 --------------------------
 
 Na het instellen van de veilige Microsoft 365-omgeving, kunt u de volgende oplossingen gebruiken om aan de slag te gaan:
 
-<ul class="panelContent cardsW cols cols2">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/sm-m365-democracy-teams-collab.png" alt="a SharePoint communications site" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Teams voor samenwerking aanmaken</h3>
-                        <p>Maak een ruimte voor communicatie en samenwerking met specifieke teams voor belangrijke medewerkers, alle medewerkers en partners of leveranciers met Microsoft Teams.</p>
-                        <p><a href="create-teams-for-collaboration.md">Team aanmaken</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/m365-democracy-teams-meetings.png" alt="an online meeting" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Onlinevergaderingen instellen</h3>
-                        <p>Een vergadering plannen met audio, video en delen met Microsoft Teams.</p>
-                        <p><a href="set-up-meetings.md">Een vergadering organiseren</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/sm-m365-campaign-email-encrypt.png" alt="Encrypted and labeled email" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Uw gevoelige e-mailberichten versleutelen of labelen</h3>
-                        <p>Gebruik labels voor versleuteling en gevoeligheid om e-mailberichten te beveiligen die vertrouwelijke of gevoelige informatie bevatten.</p>
-                        <p><a href="send-encrypted-email.md">Versleutelde e-mail verzenden</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/sm-m365-democracy-comms-site.png" alt="a SharePoint communications site" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Een communicatiepagina aanmaken</h3>
-                        <p>Deel gebeurtenissen, berichten, afbeeldingen en meer met uw team op een interne communicatiepagina die is aangemaakt met SharePoint.</p>
-                        <p><a href="create-communications-site.md">Een pagina aanmaken</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/m365-democracy-teams-sharefiles.png" alt="sharing a file in Microsoft Teams" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Bestanden en video's delen</h3>
-                        <p>Sla uw bestanden en video's op in de cloud, zodat deze beschikbaar zijn voor alle aangewezen personen.</p>
-                        <p><a href="share-files-and-videos.md">Begin met delen</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+|               |               |
+| ------------- | ------------- |
+| ![een SharePoint-communicatiesite](../media/sm-m365-democracy-teams-collab.png) | ![een onlinevergadering](../media/m365-democracy-teams-meetings.png) |
+| **Teams voor samenwerking aanmaken** Maak een ruimte voor communicatie en samenwerking met specifieke teams voor belangrijke medewerkers, alle medewerkers en partners of leveranciers met Microsoft Teams. [Team aanmaken](create-teams-for-collaboration.md) | **Onlinevergaderingen organiseren** Een vergadering plannen met audio, video en delen met Microsoft Teams. [Een vergadering organiseren](set-up-meetings.md) |
+| ![Versleutelde en gelabelde e-mails](../media/sm-m365-campaign-email-encrypt.png) | ![een SharePoint-communicatiesite](../media/sm-m365-democracy-comms-site.png) |
+| **Uw gevoelige e-mailberichten versleutelen of labelen** Gebruik labels voor versleuteling en gevoeligheid om e-mailberichten te beveiligen die vertrouwelijke of gevoelige informatie bevatten. [Versleutelde e-mail verzenden](send-encrypted-email.md) | **Een communicatiesite maken** Deel gebeurtenissen, berichten, afbeeldingen en meer met uw team op een interne communicatiepagina die is aangemaakt met SharePoint. [Een site maken](create-communications-site.md) |
+| ![een bestand delen in Microsoft Teams](../media/m365-democracy-teams-sharefiles.png) | |
+| **Bestanden en video's delen** Sla uw bestanden en video's op in de cloud, zodat deze beschikbaar zijn voor alle aangewezen personen. [Begin met delen](share-files-and-videos.md) | |
+
