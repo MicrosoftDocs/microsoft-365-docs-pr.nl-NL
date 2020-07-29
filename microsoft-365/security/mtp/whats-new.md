@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: fca4889167dd7eb5f57d4980c4b033e0903209eb
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: 1a2a8cd91d0cc32dc5a10b1eb1dd28714cd4f6c4
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204933"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429964"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Wat is er nieuw in Microsoft Threat Protection
 
@@ -33,6 +33,7 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 ## <a name="july-2020"></a>Juli 2020
 - [Bestandsprofiel(), functie](advanced-hunting-fileprofile-function.md) <br> Gebruik deze functie in uw geavanceerde jachtquery's om resultaten te verrijken met uitgebreide bestandsinformatie. [advanced hunting](advanced-hunting-overview.md)
 - [Identiteits- en app-tabellen](advanced-hunting-schema-tables.md)<br> Krijg inzicht in verificatiegebeurtenissen, Active Directory-query's en app-gerelateerde activiteiten met de tabellen [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)en [AppFileEvents](advanced-hunting-appfileevents-table.md) in het geavanceerde jachtschema.
+- [Beginnen met opsporen](advanced-hunting-go-hunt.md)<br> Draai snel van het onderzoeken van een incident naar het inspecteren van een specifieke gebeurtenis, een gebruiker, een apparaat of andere entiteitstypen met behulp van [geavanceerde jachtmogelijkheden](advanced-hunting-overview.md) op basis van query's.
 
 ## <a name="june-2020"></a>Juni 2020
 - Twitter-feed <br> Ontvang het nieuwste beveiligingsonderzoek, bedreigingsinformatie, productnieuws en meer - direct in het dashboard.

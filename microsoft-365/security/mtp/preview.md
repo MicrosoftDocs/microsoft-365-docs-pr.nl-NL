@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 4dde4d1b30fe5bcbe4d3bc63c4d998c804b0ce69
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: 77f84519c7173aa1f9a4293b222fa5f677ed8159
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204825"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430361"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Microsoft Threat Protection preview-functies
 
@@ -57,6 +57,5 @@ U weet dat u voorbeeldfuncties hebt ingeschakeld wanneer u ziet dat het selectie
 ## <a name="preview-features"></a>Voorbeeldfuncties
 De volgende functies en verbeteringen zijn momenteel beschikbaar in preview:
 
-- **[In-portal schema referentie](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — informatie over schematabellen direct beschikbaar in het beveiligingscentrum. Naast tabel- en kolombeschrijvingen bevat deze verwijzing informatie over ondersteunde gebeurtenistypen `ActionType` (waarden) en voorbeeldquery's.  
+- **[In-portal schema referentie](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — informatie over schematabellen direct beschikbaar in het beveiligingscentrum. Naast tabel- en kolombeschrijvingen bevat deze verwijzing informatie over ondersteunde gebeurtenistypen `ActionType` (waarden) en voorbeeldquery's.
 
-- **[Ga op jacht](advanced-hunting-go-hunt.md)** — draai snel van het onderzoeken van een incident tot het inspecteren van een specifieke gebeurtenis, een gebruiker, een apparaat of andere entiteitstypen met behulp van geavanceerde [jachtmogelijkheden](advanced-hunting-overview.md) op basis van query's.

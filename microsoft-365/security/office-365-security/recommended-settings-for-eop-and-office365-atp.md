@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Wat zijn best practices voor Exchange Online Protection (EOP) en Advanced Threat Protection (ATP) beveiligingsinstellingen? Wat zijn de huidige aanbevelingen voor standaardbescherming? Wat moet worden gebruikt als u strenger wilt zijn? En welke extra's krijg je als je ook Advanced Threat Protection (ATP) gebruikt?
-ms.openlocfilehash: 542dce4d2abe9a40fcc5eef57502be5c37a34d57
-ms.sourcegitcommit: 688d62a8c52e4fb0feb721bb92b535effc278f54
+ms.openlocfilehash: f34c4e0aad2413fdeb082c37f980e6e4548db6b3
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45389843"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430373"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Aanbevolen instellingen voor EOP- en Office 365 ATP-beveiliging
 
@@ -194,7 +194,8 @@ Zie [Office 365 ATP-beleid voor veilige koppelingen](set-up-atp-safe-links-polic
 
 |Naam beveiligingsfunctie|Standaard|Strikte|Opmerking|
 |---|---|---|---|
-|**Veilige koppelingen gebruiken in: Office 365-toepassingen** <br/><br/> _EnableSafeLinksForO365Clients_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Gebruik ATP Safe Links in Office 365 Apps, Office voor iOS en Android.|
+|**Veilige koppelingen gebruiken in: Office 365-toepassingen** <br/><br/> _EnableSafeLinksForO365Clients_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Gebruik ATP Safe Links in Office 365-desktop- en mobiele clients (iOS en Android).|
+|**Veilige koppelingen gebruiken in: Metgezellen voor Office Web Access** <br/><br/> _EnableSafeLinksForWebAccessCompanion_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Gebruik VEILIGE ATP-koppelingen in Office Web Apps.|
 |**Niet bijhouden wanneer gebruikers op veilige koppelingen klikken** <br/><br/> _TrackClicks_|Uit <br/><br/> `$true`|Uit <br/><br/> `$true`||
 |**Laat gebruikers niet doorklikken naar veilige links naar de oorspronkelijke URL** <br/><br/> _Klikdoor_|Aan <br/><br/> `$false`|Aan <br/><br/> `$false`||
 |

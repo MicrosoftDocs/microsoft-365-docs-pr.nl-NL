@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het definiëren van beleid voor veilige bijlagen om uw organisatie te beschermen tegen schadelijke bestanden in e-mail.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 581c45c9c5b606b3b4b0ba91bd96740bc838629d
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 1569e8072f64ce751c44e76f971e98f37540afae
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617228"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430421"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Office 365 ATP-beleid voor veilige bijlagen instellen
 
@@ -92,7 +92,7 @@ Terwijl u uw ATP-beleid voor veilige bijlagen instelt, kiest u uit vele opties, 
 ||||
 |---|---|---|
 |**Optie**|**Effect**|**Gebruik wanneer u het:**|
-|**Uit**|Scant geen bijlagen op malware  <br/> Vertraagt de bezorging van berichten niet|Scannen uitschakelen voor scanners, faxen of slimme hosts die alleen bekende, goede bijlagen verzenden  <br/> Voorkom onnodige vertragingen bij het routeren van interne e-mail.  <br/> **We raden deze optie niet aan voor de meeste gebruikers. U mag deze optie alleen gebruiken om het scannen van ATP Safe Attachments uit te schakelen voor een kleine groep vertrouwde afzenders.**|
+|**Uit**|Scant geen bijlagen op malware  <br/> Vertraagt de bezorging van berichten niet|Scannen uitschakelen voor geselecteerde ontvangers.  <br/> Voorkom onnodige vertragingen bij het routeren van interne e-mail.  <br/> **Deze optie wordt niet aanbevolen voor de meeste gebruikers. U mag deze optie alleen gebruiken om het scannen van ATP Safe Attachments uit te schakelen voor ontvangers die alleen e-mails ontvangen van vertrouwde afzenders.**|
 |**Monitor**|Levert berichten met bijlagen en houdt vervolgens bij wat er gebeurt met gedetecteerde malware|Bekijk waar gedetecteerde malware naartoe gaat in uw organisatie|
 |**Blok**|Voorkomt dat berichten met gedetecteerde malware-bijlagen worden voortgezet  <br/> Stuurt berichten met gedetecteerde malware naar [quarantaine in Office 365](manage-quarantined-messages-and-files.md) waar een beveiligingsbeheerder of -analist deze berichten kan controleren en vrijgeven (of verwijderen)  <br/> Blokkeert toekomstige berichten en bijlagen automatisch|Bescherm uw organisatie tegen herhaalde aanvallen met dezelfde malware-bijlagen|
 |**Vervangen**|Verwijdert gedetecteerde malware-bijlagen  <br/> Ontvangers op de hoogte brengen dat bijlagen zijn verwijderd  <br/> Stuurt berichten met gedetecteerde malware naar [quarantaine in Office 365](manage-quarantined-messages-and-files.md) waar een beveiligingsbeheerder of -analist deze berichten kan controleren en vrijgeven (of verwijderen)|De zichtbaarheid van ontvangers vergroten dat bijlagen zijn verwijderd vanwege gedetecteerde malware|

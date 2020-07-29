@@ -1,5 +1,5 @@
 ---
-title: Uw beheerderstelefoonnummer en e-mailadres bijwerken
+title: Uw telefoonnummer en e-mailadres van uw beheerder bijwerken
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: Werk uw telefoonnummer en e-mailadres van de beheerder bij in het beheercentrum. Je hebt deze informatie nodig als je je eigen beheerderswachtwoord opnieuw wilt instellen.
-ms.openlocfilehash: bd8ee28cbc7982ea5b057fecb34d362557a5d5a9
-ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
+ms.openlocfilehash: ed7e8152ffdf05d94068e6bdb81697dee737ea01
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407918"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429952"
 ---
-# <a name="update-your-admin-phone-number-and-email-address"></a>Uw beheerderstelefoonnummer en e-mailadres bijwerken
+# <a name="update-your-admin-phone-number-and-email-address"></a>Uw telefoonnummer en e-mailadres van uw beheerder bijwerken
 
 ::: moniker range="o365-21vianet"
 
@@ -41,13 +41,13 @@ Zie [Het adres en andere profielgegevens van uw organisatie wijzigen](change-add
   
 ## <a name="to-update-your-name-phone-number-and-email-address"></a>Uw naam, telefoonnummer en e-mailadres bijwerken
 
-Gebruik de pagina **Persoonlijke gegevens** om uw naam, mobiel nummer en een alternatief e-mailadres te wijzigen. Het alternatieve e-mailadres wordt gebruikt voor belangrijke meldingen, zoals het opnieuw instellen van uw beheerderswachtwoord (niet het wachtwoord van uw computerbeheerder). 
+Gebruik de pagina **Instellingen en Privacy** om uw naam, mobiele telefoonnummer en alternatief e-mailadres te wijzigen. Het alternatieve e-mailadres wordt gebruikt voor belangrijke meldingen, zoals het opnieuw instellen van uw beheerderswachtwoord (niet het wachtwoord van uw computerbeheerder). 
   
 1. Blader naar het Microsoft 365-beheercentrum.
 
-2. Selecteer in de koptekst uw profielpictogram Persoonlijke gegevens van \> **mijn account** \> **Personal info**.
+2. Selecteer in de koptekst je profielpictogram \> **Mijn** \> **accountinstellingen en Privacy**.
 
-3. Selecteer Bewerken in de sectie **Contactgegevens.** Werk uw mobiele telefoon, telefoon en alternatief e-mailadres bij. Zorg ervoor dat u iets anders gebruikt dan uw Microsoft-e-mailadres voor uw alternatieve e-mailadres.
+3. Selecteer in de sectie **Contactvoorkeuren** de optie **Voorkeuren voor contactpersonen beheren en uitbreiden**. Werk uw mobiele, telefoon en alternatieve e-mailadres bij. Zorg ervoor dat u iets anders gebruikt dan uw Microsoft-e-mailadres voor uw alternatieve e-mailadres.
 
     > [!IMPORTANT]
     > Het alternatieve e-mailadres en het mobiele telefoonnummer zijn nodig voor het opnieuw instellen van uw beheerderswachtwoord (niet het wachtwoord van uw computerbeheerder).
@@ -56,6 +56,6 @@ Gebruik de pagina **Persoonlijke gegevens** om uw naam, mobiel nummer en een alt
   
 Antwoorden op vragen over facturering vindt u in de volgende artikelen:
   
-- [Uw factuuradressen voor Microsoft 365 voor Bedrijven wijzigen](../../commerce/billing-and-payments/change-your-billing-addresses.md)
+- [Uw factuuradressen voor Microsoft 365 voor bedrijven wijzigen](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
 - [Betalingswijzen beheren](../../commerce/billing-and-payments/manage-payment-methods.md)

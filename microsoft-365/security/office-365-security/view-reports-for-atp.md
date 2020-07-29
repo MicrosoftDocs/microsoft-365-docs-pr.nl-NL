@@ -18,135 +18,267 @@ ms.collection:
 - M365-security-compliance
 description: Rapporten voor Geavanceerde bedreigingsbeveiliging van Office 365 zoeken en gebruiken in het Security &amp; Compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c71bef11e574593d821b992f3a5037dbf127d5d2
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 4210ea30457215f9adc2984f24f161dc94985873
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936993"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434078"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Rapporten voor geavanceerde bedreigingsbeveiliging van Office 365 weergeven
 
-Als uw organisatie [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) heeft en u over de [benodigde machtigingen](#what-permissions-are-needed-to-view-the-atp-reports)beschikt, u verschillende ATP-rapporten gebruiken in het Security &amp; Compliance Center. (Ga naar **Rapporten** \> **Dashboard**.)
+Office 365 Advanced Threat Protection (ATP)-organisaties (bijvoorbeeld Microsoft 365 E5-abonnementen of ATP-abonnement 1- of ATP-abonnement 2-add-ons) bevatten verschillende beveiligingsrapporten. Als u over de [benodigde machtigingen](#what-permissions-are-needed-to-view-the-atp-reports)beschikt, u deze rapporten bekijken in het Security & Compliance Center door naar **Dashboard Rapporten** te gaan \> **Dashboard**. Als u rechtstreeks naar het dashboard van rapporten wilt gaan, opent <https://protection.office.com/insightdashboard> u .
 
-![Het dashboard van het Security &amp; Compliance Center kan u helpen te zien waar Geavanceerde bedreigingsbeveiliging werkt](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![Het dashboard Rapporten in het Security & Compliance Center](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
-ATP-rapporten bevatten het volgende:
+## <a name="advanced-threat-protection-file-types-report"></a>Rapport over geavanceerde bedreigingsbeveiligingsbestandstypen
 
-- [Statusrapport risicobeveiliging](#threat-protection-status-report)
-- [ATP-bestandstyperapport](#atp-file-types-report)
-- [ATP-rapport over berichtverwerking](#atp-message-disposition-report)
-- [real-time detecties of Explorer](threat-explorer.md) (afhankelijk van of u Office 365 ATP Plan 1 of 2 hebt)
-- ... [en meer.](#additional-reports-to-view)
+In **het rapport Rapport Advanced Threat Protection-bestandstypen** ziet u het type bestanden dat door [ATP Safe Attachments](atp-safe-attachments.md)als kwaadaardig is gedetecteerd.
 
-Lees dit artikel voor een overzicht van ATP-rapporten en hoe ze te gebruiken.
+ De totale weergave van het rapport maakt het mogelijk om 90 dagen te filteren, terwijl de detailweergave slechts 10 dagen filtering mogelijk maakt.
 
-## <a name="threat-protection-status-report"></a>Statusrapport risicobeveiliging
+Als u het rapport wilt bekijken, opent u het [beveiligingscentrum & Compliance Center,](https://protection.office.com)gaat u naar **Dashboard Rapporten** \> **Dashboard** en selecteert u **Office ATP-bestandstypen**. Open <https://protection.office.com/reportv2?id=ATPFileReport> .
 
-Het **rapport bedreigingsbeveiligingsstatus** is één weergave die informatie over schadelijke inhoud en schadelijke e-mail samenbrengt die is gedetecteerd en geblokkeerd door [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) en Office [365 ATP](office-365-atp.md). Dit rapport is handig voor het bekijken van detecties in de loop van de tijd (tot 90 dagen) en stelt beveiligingsbeheerders in staat om trends te identificeren of te bepalen of beleid aanpassingen nodig heeft.
-
-Het rapport biedt een geaggregeerd aantal unieke e-mailberichten met schadelijke inhoud, zoals bestanden of websiteadressen (URL's) die werden geblokkeerd door de anti-malware-engine, [zero-hour auto purge (ZAP)](zero-hour-auto-purge.md)en ATP-functies zoals [ATP Safe Links](atp-safe-links.md), [ATP Safe Attachments](atp-safe-attachments.md)en [ATP-anti-phishing](set-up-anti-phishing-policies.md).
-
-Filters en uitsplitsingen van de informatie zorgen voor meer gedetailleerde categorisaties van de informatie in dit rapport. Specifiek, er is een 'break down by' menu opgenomen voor **E-mail** \> **Phish** en **E-mail** \> **Malware weergaven**. Het zal de gegevens opsplitsen in:
-
-|||
-|---|---|
-|Op beleidstype|Welk beleid heeft geholpen deze bedreigingen op te vangen?|
-|Door detectietechnologie|Welke onderliggende Microsoft-technologie ving de dreiging?|
-|Door leveringsstatus|Wat was de uiteindelijke leveringsstatus van e-mailberichten die als bedreigingen werden gedetecteerd?|
-|
-
-> [!TIP]
-> Zowel de e-mail > Phish | Malware weergaven hebben gedetailleerde storingen voor de detectietechnologieën getoond, met categorieën zoals *ATP-gegenereerde bestand reputatie*, *File detonation*, *URL detonation*, *Anti-spoof: DMARC mislukking*, bijvoorbeeld, nuttig bij het lokaliseren precies welke functie leidde uw organisatie om bedreigingen te vangen.
-
-![Threat Protection Status rapport dropdown toont 'break down by'.](../../media/tp-threatProtectStatRpt-BreakDownBy.png)
-
-Deze weergaven geven u de mogelijkheid om te exporteren, via een knop klik (in **E-mail** \> **Phish**, **E-mail** \> **Malware**, en **Content** \> **Malware** weergaven). De geaggregeerde gegevens die naar uw computer worden geëxporteerd, kunnen worden geopend in Excel.
-
-![Deze afbeelding toont Exporteren als een optie in het menu voor de malwareweergave, precies tussen Planning maken en Aanvraagrapport.](../../media/tp-threatProtectStatRpt-BreakDownByExport.png)
+![Office ATP-bestandstypen widget in het dashboard Rapporten](../../media/atp-file-types-report-widget.png)
 
 > [!NOTE]
-> Het maximum aantal inzendingen dat kan worden geëxporteerd voor **Phish** en **Malware** is iets minder dan 10000. Als u een weergave exporteert, worden alleen de meest recente 10000 vermeldingen geëxporteerd. Op de geëxporteerde gegevens vertegenwoordigt de kolom _berichttelling_ het aantal berichten dat wordt gedetecteerd door de detectietechnologie en het beleidstype.    
+> De informatie in dit rapport is ook beschikbaar in het [rapport Advanced Threat Protection message disposition](#advanced-threat-protection-message-disposition-report).
 
-De weergaven Overzicht en E-mails geven informatie weer binnen enkele uren na verwerking in plaats van in 24 uur (vraag opnieuw. hogere snelheden hier is een duidelijk signaal)!
+### <a name="report-view-for-the-advanced-threat-protection-file-types-report"></a>Rapportweergave voor het rapport Geavanceerde bedreigingsbeveiligingsbestandstypen
+
+De volgende weergaven zijn beschikbaar:
+
+- **Gegevens bekijken op: Bestand**: De grafiek bevat de volgende informatie:
+
+  - **Schadelijke Excel-bijlagen**
+  - **Schadelijke Flash-bijlagen**
+  - **Schadelijke PDF-bijlagen**
+  - **Schadelijke PowerPoint-bijlagen**
+  - **Schadelijke URL's**
+  - **Bijlagen voor kwaadaardig Woord**
+  - **Kwaadaardige uitvoerbare bijlagen**
+  - **Anderen**
+
+  Wanneer u op een bepaalde dag (gegevenspunt) zweeft, u de verdeling zien van typen schadelijke bestanden die zijn gedetecteerd door [ATP Safe Attachments](atp-safe-attachments.md) en [anti-malwarebescherming in EOP.](anti-malware-protection.md)
+
+  ![Bestandsweergave in het rapport ATP-bestandstypen](../../media/atp-file-types-report-file-view.png)
+
+  Als u op **Filters**klikt, u het rapport wijzigen met de volgende filters:
+
+  - **Begindatum** en **einddatum**
+  - Dezelfde bestandstypewaarden die zichtbaar zijn in de grafiek.
+
+- **Gegevens bekijken op: Bericht**: De grafiek bevat de volgende informatie:
+
+  - **Toegang blokkeren**
+  - **Berichten vervangen**
+  - **Berichten gecontroleerd**
+  - **Vervangen door dynamische e-mailbezorging:** zie [Dynamische levering en previewing met ATP Safe Attachments](dynamic-delivery-and-previewing.md).
+
+  ![Berichtweergave in het rapport ATP-bestandstypen](../../media/atp-file-types-report-message-view.png)
+
+  Als u op **Filters**klikt, u het rapport wijzigen met de volgende filters:
+
+  - **Begindatum** en **einddatum**
+  - Dezelfde waarden voor het dispositie van berichten die beschikbaar zijn in de grafiek en de extra **waarde van berichten.**
+
+### <a name="details-table-view-for-the-advanced-threat-protection-file-types-report"></a>Tabelweergave details voor het rapport Geavanceerde bestandstypen voor bedreigingsbeveiliging
+
+Als u op **tabel Details weergeven**klikt, biedt het rapport een bijna realtime weergave van alle klikken die de afgelopen tien dagen binnen de organisatie plaatsvinden. De weergegeven informatie is afhankelijk van de grafiek waar u naar keek:
+
+- **Gegevens bekijken op: Bestand:**
+
+  - **Datum**
+  - **Adres van de geadresseerde**
+  - **Adres afzender**
+  - **Bericht-id**: beschikbaar in het kopveld **Bericht-ID** in de berichtkop en moet uniek zijn. Een voorbeeldwaarde is `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (let op de hoekhaakjes).
+  - **Bestand**
+
+  Als u op **Filters**klikt, u het rapport wijzigen met de volgende filters:
+
+  - **Begindatum** en **einddatum**
+  - Dezelfde bestandstypewaarden die zichtbaar zijn in de grafiek.
+
+- **Gegevens bekijken op: Bericht:**
+
+  - **Datum**
+  - **Adres van de geadresseerde**
+  - **Adres afzender**
+  - **Bericht-ID**
+  - **Bestand**
+  - **Onderwerp**
+
+  Als u op **Filters**klikt, u de resultaten wijzigen met de volgende filters:
+
+  - **Begindatum** en **einddatum**
+  - Dezelfde waarden voor het dispositie van berichten die beschikbaar zijn in de grafiek en de extra **waarde van berichten.**
+
+Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven**.
+
+## <a name="advanced-threat-protection-message-disposition-report"></a>Advanced Threat Protection message disposition report Advanced Threat Protection message disposition report Advanced Threat Protection
+
+Het **ATP-bericht dispositie** rapport toont u de acties die zijn genomen voor e-mailberichten die zijn gedetecteerd als met kwaadaardige inhoud.
+
+Als u het rapport wilt bekijken, opent u het [Beveiligingscentrum & Compliance Center,](https://protection.office.com)gaat u naar **Dashboard Rapporten** \> **Dashboard** en selecteert u **Office ATP-berichtweergave**. Open <https://protection.office.com/reportv2?id=ATPMessageReport> .
+
+![Object office 365 ATP-bericht dispositie in het dashboard Rapporten](../../media/atp-message-disposition-report-widget.png)
 
 > [!NOTE]
-> Een rapport over de status van bedreigingsbescherming is beschikbaar voor klanten die [office 365 ATP](office-365-atp.md) of [Exchange Online Protection](exchange-online-protection-overview.md)(EOP) hebben; De informatie die wordt weergegeven in het rapport Bedreigingsstatus voor ATP-klanten zal echter waarschijnlijk andere gegevens bevatten dan wat EOP-klanten kunnen zien. Het rapport Bedreigingsbeveiligingsstatus voor ATP-klanten bevat bijvoorbeeld informatie over [schadelijke bestanden die zijn gedetecteerd in SharePoint Online, OneDrive of Microsoft Teams.](atp-for-spo-odb-and-teams.md) Dergelijke informatie is specifiek voor ATP, dus klanten die EOP hebben maar geen ATP zien deze gegevens niet in hun Threat Protection Status rapport.
+> De informatie in dit rapport is ook beschikbaar in het [rapport Geavanceerde bedreigingsbeveiligingsbestandstypen.](#advanced-threat-protection-file-types-report)
 
-Als u het rapport bedreigingsbeveiliging wilt bekijken, gaat u in het [Security &amp; Compliance Center](https://protection.office.com)naar De status van **Reports** \> **Dashboard** \> **bedreigingsbeveiliging**rapporten.
+### <a name="report-view-for-the-advanced-threat-protection-message-disposition-report"></a>Rapportweergave voor het rapport Geavanceerde bedreigingsbeveiliging
 
-![ATP Threat Protection Status rapport ATP Threat Protection Status report ATP Threat Protection Status report ATP](../../media/6bdd41eb-62e0-423b-9fd4-d1d5baf0cbd5.png)
+De volgende weergaven zijn beschikbaar:
 
-Als u een dag van een dag een gedetailleerde status wilt krijgen, houdt u de muisaanwijzer boven de grafiek.
+- **Gegevens bekijken op: Bericht**: De grafiek bevat de volgende informatie:
 
-![ATP Threat Protection Status gegevens voor een dag](../../media/d5c2c6ad-c002-4985-a032-c866e46fdea8.png)
+  - **Toegang blokkeren**
+  - **Berichten vervangen**
+  - **Berichten gecontroleerd**
+  - **Vervangen door dynamische e-mailbezorging:** zie [Dynamische levering en previewing met ATP Safe Attachments](dynamic-delivery-and-previewing.md).
 
-Standaard worden in het rapport Bedreigingsbeveiligingsstatus gegevens van de afgelopen zeven dagen weergegeven. U filters **echter** kiezen en het datumbereik wijzigen om gegevens maximaal 90 dagen weer te geven voor de totale weergave en 30 dagen voor de detailweergave. (Als u een proefabonnement gebruikt, bent u mogelijk beperkt tot 30 dagen aan gegevens.)
+  ![Berichtweergave in het rapport ATP-bestandstypen](../../media/atp-file-types-report-message-view.png)
 
-![ATP-statusstatusfilters voor bedreigingsbeveiliging](../../media/4f703369-642b-402b-9758-b9c828283410.png)
+  Als u op **Filters**klikt, u het rapport wijzigen met de volgende filters:
 
-U ook de **gegevens weergeven per** menu gebruiken om te wijzigen welke informatie in het rapport wordt weergegeven.
+  - **Begindatum** en **einddatum**
+  - Dezelfde waarden voor het dispositie van berichten die beschikbaar zijn in de grafiek en de extra **waarde van berichten.**
 
-![Opties voor ATP-statusstatusbeveiligingsstatus weergeven](../../media/4959bf8c-d192-4542-b00b-184e101e7513.png)
+- **Gegevens bekijken op: Bestand**: De grafiek bevat de volgende informatie:
 
-## <a name="url-protection-status-report"></a>Rapport URL-beveiligingsstatus
+  - **Schadelijke Excel-bijlagen**
+  - **Schadelijke Flash-bijlagen**
+  - **Schadelijke PDF-bijlagen**
+  - **Schadelijke PowerPoint-bijlagen**
+  - **Schadelijke URL's**
+  - **Bijlagen voor kwaadaardig Woord**
+  - **Kwaadaardige uitvoerbare bijlagen**
+  - **Anderen**
 
-Dit rapport is gebaseerd op verzamelde gegevens en bedreigingen die per klik worden gedetecteerd (terwijl de meeste andere rapporten met e-mailbedreiging per bericht zijn). Dit rapport is ontworpen om bedreigingen weer te geven die afkomstig zijn van hyperlinks in e-mailberichten en documenten, per klik. Er zijn twee weergaven:
+  Wanneer u op een bepaalde dag (gegevenspunt) zweeft, u de verdeling zien van typen schadelijke bestanden die zijn gedetecteerd door [ATP Safe Attachments](atp-safe-attachments.md) en [anti-malwarebescherming in EOP.](anti-malware-protection.md)
 
-|||
-|---|---|
-|URL-klikbeveiligingsactie|Bekijk het aantal URL's dat door een gebruiker is geblokkeerd, geblokkeerd maar overschreven met een doorklik door een gebruiker, wordt overschreven met een doorklik door een gebruiker en is toegestaan.|
-|URL klik op toepassing|Bekijk de toepassing van waaruit de URL is geklikt.|
-|
+  ![Bestandsweergave in het rapport ATP-bestandstypen](../../media/atp-file-types-report-file-view.png)
 
-In de tabel Details u meer informatie zien over kliktijd en gebruikersinformatie. Tot slot, houd er rekening mee dat het URL-beveiligingsstatusrapport de beveiligingsfunctie van ATP-apparaten weergeeft, zodat alleen klanten die ATP Safe Links hebben ingeschakeld, gegevens in dit rapport worden weergegeven.
+  Als u op **Filters**klikt, u het rapport wijzigen met de volgende filters:
+
+  - **Begindatum** en **einddatum**
+  - Dezelfde bestandstypewaarden die zichtbaar zijn in de grafiek.
+
+### <a name="details-table-view-for-the-advanced-threat-protection-message-disposition-report"></a>Tabelweergave details voor het rapport Geavanceerde bedreigingsbeveiliging
+
+Als u op **tabel Details weergeven**klikt, biedt het rapport een bijna realtime weergave van alle klikken die de afgelopen tien dagen binnen de organisatie plaatsvinden. De weergegeven informatie is afhankelijk van de grafiek waar u naar keek:
+
+- **Gegevens bekijken op: Bericht:**
+
+  - **Datum**
+  - **Adres van de geadresseerde**
+  - **Adres afzender**
+  - **Bericht-ID**
+  - **Bestand**
+  - **Onderwerp**
+
+  Als u op **Filters**klikt, u de resultaten wijzigen met de volgende filters:
+
+  - **Begindatum** en **einddatum**
+  - Dezelfde waarden voor het dispositie van berichten die beschikbaar zijn in de grafiek en de extra **waarde van berichten.**
+
+- **Gegevens bekijken op: Bestand:**
+
+  - **Datum**
+  - **Adres van de geadresseerde**
+  - **Adres afzender**
+  - **Bericht-ID**
+  - **Bestand**
+
+  Als u op **Filters**klikt, u het rapport wijzigen met de volgende filters:
+
+  - **Begindatum** en **einddatum**
+  - Dezelfde bestandstypewaarden die zichtbaar zijn in de grafiek.
+
+Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven**.
+
+## <a name="threat-protection-status-report"></a>Statusrapport voor bedreigingsbescherming
+
+Het **statusrapport voor bedreigingsbescherming** is één weergave die informatie over schadelijke inhoud en schadelijke e-mail samenbrengt die is gedetecteerd en geblokkeerd door [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) en Office 365 ATP. Zie [Statusrapport Bedreigingsbeveiliging voor](view-email-security-reports.md#threat-protection-status-report)meer informatie .
+
+## <a name="url-threat-protection-report"></a>URL-melding voor bedreigingsbeveiliging
+
+Het **URL-waarschuwingsrapport voor bedreigingsbeveiliging** biedt overzichten en trendweergaven voor gedetecteerde bedreigingen en acties die zijn uitgevoerd op URL-klikken als onderdeel van [ATP Safe Links](atp-safe-links.md). In dit rapport worden geen klikgegevens van gebruikers weergegeven waarbij het toegepaste beleid Voor veilige koppelingen de optie **Klikken van gebruikers niet bijhouden** is geselecteerd.
+
+Als u het rapport wilt bekijken, opent u het [Beveiligingscentrum & Compliance Center,](https://protection.office.com)gaat u naar **Dashboard Rapporten** en \> **Dashboard** selecteert u **URL-beveiligingsrapport**. Open <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
+
+![URL-beveiligingsrapportobject in het dashboard Rapporten](../../media/url-protection-report-widget.png)
 
 > [!NOTE]
 > Dit is een *beveiligingstrendrapport,* wat betekent dat gegevens trends in een grotere gegevensset vertegenwoordigen. Als gevolg hiervan zijn de gegevens in de geaggregeerde weergave hier niet in realtime beschikbaar, maar de gegevens in de tabelweergave details zijn, dus u een lichte discrepantie tussen de twee weergaven zien.
 
-## <a name="atp-file-types-report"></a>ATP-bestandstyperapport
+### <a name="report-view-for-the-url-threat-protection-report"></a>Rapportweergave voor het URL-waarschuwingsrapport voor bedreiging
 
-Het rapport **ATP-bestandstypen** toont u het type bestanden dat door [ATP Safe Attachments](atp-safe-attachments.md)als kwaadaardig is gedetecteerd.
+Het **URL-dreigingsbeveiligingsrapport** bevat twee geaggregeerde weergaven die eenmaal per vier uur worden vernieuwd en waarin gegevens van de afgelopen 90 dagen worden weergegeven:
 
-Als u dit rapport wilt weergeven, gaat u in het [Security &amp; Compliance Center](https://protection.office.com)naar **ATP-bestandstypen** \> **rapportendashboard** \> **.**
+- **URL-klikbeveiligingsactie:** geeft het aantal URL-klikken weer door gebruikers in de organisatie en de resultaten van de klik:
 
-![ATP-bestandstyperapport](../../media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
-  
-Wanneer u gedurende een bepaalde dag zweeft, u de verdeling zien van soorten schadelijke bestanden die zijn gedetecteerd door [ATP Safe Attachments](atp-safe-attachments.md) en [anti-spam &amp; anti-malware bescherming.](anti-spam-and-anti-malware-protection.md) De totale weergave van het rapport maakt het mogelijk om 90 dagen te filteren, terwijl de detailweergave slechts tien dagen filtering mogelijk maakt. 
-  
-![Rapportgegevens van ATP-bestandstypen voor een dag rapporteren](../../media/10d18428-699a-41d2-a73e-be3a8214ada1.png)
+  - **Geblokkeerd**
+  - **Geblokkeerd en doorgeklikt**
+  - **Doorgeklikt tijdens de scan**
 
-## <a name="atp-message-disposition-report"></a>ATP-rapport over berichtverwerking
+  Een klik geeft aan dat de gebruiker via de blokpagina naar de kwaadaardige website heeft geklikt (beheerders kunnen doorklikken uitschakelen in het beleid voor veilige koppelingen).
 
-Het **ATP-bericht dispositie** rapport toont u de acties die zijn genomen voor e-mailberichten die zijn gedetecteerd als met kwaadaardige inhoud.
+  Als u op **Filters**klikt, u het rapport wijzigen met de volgende filters:
 
-Als u dit rapport wilt weergeven, gaat u in het [Security &amp; Compliance Center](https://protection.office.com)naar De **Reports** \> **Dashboard** \> **atp-berichtweergave**van rapportendashboard .
+  - **Begindatum** en **einddatum**
+  - De beschikbare klikbeveiligingsacties, plus de waarde **Die u toestaat** om informatie te zien voor alle URL-klikken (niet alleen geblokkeerde klikken).
 
-![ATP-bericht dispositie rapport](../../media/b0ff65c4-53d3-496d-bafa-8937a5eb69e5.png)
+  ![URL klik op de actieweergave voor beveiliging in het url-dreigingsbeveiligingsrapport](../../media/url-threat-protection-report-url-click-protection-action-view.png)
 
-Wanneer u boven een balk in de grafiek zweeft, u zien welke acties zijn uitgevoerd voor gedetecteerde e-mail voor die dag.
+- **URL-klik op toepassing**: geeft het aantal URL-klikken weer door toepassingen die Office 365 ATP Safe Links ondersteunen:
 
-![Atp-berichtdispositierapportgegevens voor een dag](../../media/68d2beb8-4b30-48c4-8ba6-5e8ab88ae456.png)
+  - **E-mailclient**
+  - **PowerPoint**
+  - **Word**
+  - **Excel**
+  - **OneNote**
+  - **Visio**
+  - **Teams**
+  - **Overige**
+
+  Als u op **Filters**klikt, u het rapport wijzigen met de volgende filters:
+
+  - **Begindatum** en **einddatum**
+  - De beschikbare toepassingen.
+
+### <a name="details-table-view-for-the-url-threat-protection-report"></a>Tabelweergave details voor het URL-dreigingsbeveiligingsrapport
+
+Als u op **tabel Details weergeven**klikt, geeft het rapport een bijna realtime weergave van alle klikken die de afgelopen zeven dagen binnen de organisatie plaatsvinden met de volgende details:
+
+- **Kliktijd**
+- **Gebruiker**
+- **Url**
+- **Actie**
+- **App**
+
+Als u op **Filters** klikt in de tabelweergave details, u filteren op dezelfde criteria als in de rapportweergave, en ook op **domeinen** of **geadresseerden,** gescheiden door komma's.
+
+Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven**.
 
 ## <a name="additional-reports-to-view"></a>Aanvullende rapporten om weer te geven
 
-Naast de ATP-rapporten die in dit artikel worden beschreven, zijn er nog verschillende rapporten beschikbaar, zoals beschreven in de volgende tabel:
+Naast de ATP-rapporten die in dit onderwerp worden beschreven, zijn er nog verschillende rapporten beschikbaar, zoals beschreven in de volgende tabel:
 
-|||
+|Rapport|Onderwerp|
 |---|---|
-|**Rapport(en)**|**Details**|
-|**Explorer-** of realtime detecties :(Office 365 ATP Plan **2-klanten**hebben Explorer; Office 365 ATP Plan 1-klanten hebben realtime detecties.)|[Bedreigingsverkenner (en realtime detecties)](threat-explorer.md)|
-|**E-mailbeveiligingsrapporten,** zoals een rapport Over afzenders en geadresseerden, een spoofberichtrapport en een rapport over spamdetecties.|[E-mailbeveiligingsrapporten weergeven in het Security &amp; Compliance Center](view-email-security-reports.md)|
-|**URL-tracering van ATP Safe**Links:(Dit is een rapport dat u genereert met PowerShell.) Dit rapport toont de resultaten van ATP Safe Links acties in de afgelopen zeven (7) dagen.|[Verwijzing naar Get-UrlTrace-cmdlet](https://docs.microsoft.com/powershell/module/exchange/get-urltrace)|
-|**EOP- en ATP-resultaten**: (Dit is een aangepast rapport dat u genereert met PowerShell). Dit rapport bevat informatie, zoals Domein, Datum, Gebeurtenistype, Richting, Actie en Aantal berichten.|[Get-MailTrafficATPReport cmdlet referentie](https://docs.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport)|
-|**EOP- en ATP-detecties**: (Dit is een aangepast rapport dat u genereert met PowerShell). Dit rapport bevat details over schadelijke bestanden of URL's, phishing-pogingen, imitatie en andere potentiële bedreigingen in e-mail of bestanden.|[Get-MailDetailATPReport cmdlet referentie](https://docs.microsoft.com/powershell/module/exchange/get-maildetailatpreport)|
-|
+|**Explorer** (ATP Plan 2) of **real-time detecties** (ATP Plan 1)|[Bedreigingsverkenner (en realtime detecties)](threat-explorer.md)|
+|**E-mailbeveiligingsrapporten,** zoals het rapport Top senders and recipients, het spoofmailrapport en het rapport Spamdetecties.|[E-mailbeveiligingsrapporten weergeven in het Security & Compliance Center](view-email-security-reports.md)|
+|**E-mailstroomrapporten**, zoals het rapport Doorsturen, het statusrapport Mailflow en het rapport Top afzenders en ontvangers.|[E-mailstroomrapporten weergeven in het Security & Compliance Center](view-mail-flow-reports.md)|
+|**URL-trace voor ATP Safe Links** (alleen PowerShell). De uitvoer van deze cmdlet toont u de resultaten van ATP Safe Links acties in de afgelopen zeven dagen.|[Get-UrlTrace](https://docs.microsoft.com/powershell/module/exchange/get-urltrace)|
+|**Mail verkeersresultaten voor EOP en ATP** (alleen PowerShell). De uitvoer van deze cmdlet bevat informatie over domein, datum, gebeurtenistype, richting, actie en aantal berichten.|[Get-MailTrafficATPReport](https://docs.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport) <br/><br/> |
+|**Rapporten over e-maildetails voor EOP- en ATP-detecties** (alleen PowerShell). De uitvoer van deze cmdlet bevat details over schadelijke bestanden of URL's, phishing-pogingen, imitatie en andere potentiële bedreigingen in e-mail of bestanden.|[Get-MailDetailATPReport](https://docs.microsoft.com/powershell/module/exchange/get-maildetailatpreport)|
 
 ## <a name="what-permissions-are-needed-to-view-the-atp-reports"></a>Welke machtigingen zijn nodig om de ATP-rapporten weer te geven?
 
-Als u de in dit artikel beschreven rapporten wilt weergeven en gebruiken, **moet u een passende rol hebben toegewezen voor zowel het Security Compliance Center als het &amp; Exchange-beheercentrum.**
+Als u de in dit onderwerp beschreven rapporten wilt weergeven en gebruiken, **moet u een passende rol hebben toegewezen voor zowel het Security Compliance Center als het &amp; Exchange-beheercentrum.**
 
-- Voor het Security &amp; Compliance Center moet u een van de volgende rollen toegewezen hebben:
+- Voor het Security & Compliance Center moet een van de volgende rollen zijn toegewezen:
 
   - Organisatiebeheer
   - Beveiligingsbeheerder (dit kan worden toegewezen in het Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) ))
@@ -162,7 +294,7 @@ Als u de in dit artikel beschreven rapporten wilt weergeven en gebruiken, **moet
 
 Zie de volgende bronnen voor meer informatie:
 
-- [Machtigingen in het Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
+- [Rapporten in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)
 
 - [Functiemachtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
 
@@ -172,6 +304,6 @@ Als u geen gegevens ziet in uw ATP-rapporten, controleert u dubbel of uw beleid 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Rapporten en inzichten in het Security &amp; Compliance Center](reports-and-insights-in-security-and-compliance.md)
+[Slimme rapporten en inzichten in het Security & Compliance Center](reports-and-insights-in-security-and-compliance.md)
   
 [Rolmachtigingen (Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)

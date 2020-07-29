@@ -17,19 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 89d592368d49d767d76865d299ab74a41a052b2f
-ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
+ms.openlocfilehash: b9afecb3d0efce93ae5d5725bba71d8d9719d17f
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689411"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430409"
 ---
 # <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>Snel op zoek naar entiteits- of evenementinformatie met go hunt
 
 **Van toepassing op:**
 - Microsoft Threat Protection
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Met de *go hunt-actie* u gebeurtenissen en verschillende entiteitstypen snel onderzoeken met behulp van krachtige op query gebaseerde [geavanceerde jachtmogelijkheden.](advanced-hunting-overview.md) Met deze actie wordt automatisch een geavanceerde jachtquery uitgevoerd om relevante informatie over de geselecteerde gebeurtenis of entiteit te vinden.
 

@@ -1,5 +1,5 @@
 ---
-title: Uw betalingsfrequentie wijzigen
+title: Uw factureringsfrequentie wijzigen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,14 +21,14 @@ ms.custom:
 search.appverid:
 - MET150
 description: Meer informatie over hoe u wijzigen hoe vaak u wordt gefactureerd voor uw zakelijke abonnement.
-ms.openlocfilehash: 321bf660caf53a39a85ad45b20bd7ed2267c8748
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 439e5b9c7e3c628b2b0834b624696e6c2ae19bb6
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402652"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430000"
 ---
-# <a name="change-your-payment-frequency"></a>Uw betalingsfrequentie wijzigen
+# <a name="change-your-billing-frequency"></a>Uw factureringsfrequentie wijzigen
 
 ::: moniker range="o365-21vianet"
 
@@ -37,10 +37,10 @@ ms.locfileid: "44402652"
 
 ::: moniker-end
 
-Wanneer u een abonnement koopt, kiest u voor maandelijkse of jaarlijkse facturering. Als u wilt wijzigen hoe vaak u voor een abonnement factureert, gebruikt u de volgende stappen.
+Wanneer u een abonnement koopt, kiest u voor maandelijkse of jaarlijkse facturering. Als u wilt wijzigen hoe vaak u voor een abonnement wordt gefactureerd, voert u de volgende stappen uit.
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering van** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
 
-2. Zoek het abonnement dat u wilt wijzigen. Selecteer in de sectie **Facturering** naast **maandelijks gefactureerd** of **jaarlijks gefactureerd**, de optie **Bewerken**.
+2. Zoek het abonnement dat u wilt wijzigen. Selecteer bewerken in de sectie **Facturering,** naast **maandelijks gefactureerd** of **gefactureerd ,** de optie **Bewerken**.
 
-3. Kies de optie voor hoe vaak u wilt worden gefactureerd en selecteer **Wijzigen**.
+3. Kies de optie voor hoe vaak u in rekening wilt worden gebracht en selecteer **Vervolgens Wijzigen.**

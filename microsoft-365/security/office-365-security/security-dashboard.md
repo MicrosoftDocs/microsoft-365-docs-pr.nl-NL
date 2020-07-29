@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Gebruik het nieuwe beveiligingsdashboard om de status van office 365-bedreigingsbeveiliging te controleren en beveiligingswaarschuwingen weer te geven en erop te reageren.
-ms.openlocfilehash: 3df48685e8068fd80baa4952753a1925fb237422
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 7edfcfefc379aa30b7028097b21522d63cd26268
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819446"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434265"
 ---
 # <a name="security-dashboard"></a>Beveiligingsdashboard
 
@@ -54,7 +54,7 @@ De informatie die u in het overzicht van bedreigingsbeheer ziet, is afhankelijk 
 |---|---|
 |Malwareberichten geblokkeerd<br/>Phishingberichten geblokkeerd<br>Berichten gerapporteerd door gebruikers<br><br><br><br>|Malwareberichten geblokkeerd<br>Phishingberichten geblokkeerd<br>Berichten gerapporteerd door gebruikers<br>Zero-day malware geblokkeerd<br>Geavanceerde phishingberichten gedetecteerd<br>Schadelijke URL's geblokkeerd|
 
-Als u het overzichtsobject Bedreigingsbeheer wilt bekijken of openen, moet u machtigingen hebben om rapporten over geavanceerde bedreigingsbescherming weer te geven. Zie [Welke machtigingen nodig zijn om de ATP-rapporten weer te geven voor](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports) meer informatie?
+Als u het overzichtsobject Bedreigingsbeheer wilt bekijken of openen, moet u machtigingen hebben om rapporten over geavanceerde bedreigingsbescherming weer te geven. Zie [Welke machtigingen nodig zijn om de ATP-rapporten weer te geven voor](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)meer informatie?
 
 ## <a name="threat-protection-status"></a>Status bedreigingsbescherming
 
@@ -67,7 +67,7 @@ De gegevens zijn afhankelijk van de vraag of uw Microsoft 365-abonnement [Exchan
 |Als uw abonnement...|U ziet deze details|
 |---|---|
 |EOP, maar niet Office 365 ATP|Schadelijke e-mail die is gedetecteerd en geblokkeerd door EOP.<br><br> Zie [Threat Protection Status report (EOP)](view-email-security-reports.md#threat-protection-status-report).|
-|Office 365 ATP|Schadelijke inhoud en schadelijke e-mail gedetecteerd en geblokkeerd door EOP en Office 365 ATP<br><br>Geaggregeerde telling van unieke e-mailberichten met schadelijke inhoud geblokkeerd door de anti-malware engine, [nul uur auto zuivering](zero-hour-auto-purge.md), en ATP functies (waaronder [Safe Links,](atp-safe-links.md) [Safe Attachments](atp-safe-attachments.md), en [ATP anti-phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)).<br><br>Zie [Atp (Threat Protection Status report)](view-reports-for-atp.md#threat-protection-status-report).|
+|Office 365 ATP|Schadelijke inhoud en schadelijke e-mail gedetecteerd en geblokkeerd door EOP en Office 365 ATP<br><br>Geaggregeerde telling van unieke e-mailberichten met schadelijke inhoud geblokkeerd door de anti-malware engine, [nul uur auto zuivering](zero-hour-auto-purge.md), en ATP functies (waaronder [Safe Links,](atp-safe-links.md) [Safe Attachments](atp-safe-attachments.md), en [ATP anti-phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)).<br><br>Zie [Atp (Threat Protection Status Report)](view-reports-for-atp.md#threat-protection-status-report).|
 
 Als u de widget Bedreigingsbeveiligingsstatus wilt bekijken of openen, moet u machtigingen hebben om rapporten over geavanceerde bedreigingsbescherming weer te geven. Zie [Welke machtigingen nodig zijn om de ATP-rapporten weer te geven voor](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports) meer informatie?
 

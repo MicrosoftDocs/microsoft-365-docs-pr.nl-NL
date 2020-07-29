@@ -1,5 +1,5 @@
 ---
-title: E-mailstroomrapporten weergeven in het Security & Compliance Center
+title: E-mailstroominzichten in het Beveiligings- en compliancecentrum bekijken
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het zoeken en gebruiken van beveiligingsrapporten voor e-mailstromen voor uw organisatie. E-mailstroomrapporten zijn beschikbaar in het Security & Compliance Center.
 ms.custom: ''
-ms.openlocfilehash: 70c96bb4f43edb80f98fdc98aa173fed9e54e7d7
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: e891d9373b169dc01cfd89f114e31b23e1bd8480
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44937180"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434177"
 ---
-# <a name="view-mail-flow-reports-in-the-security--compliance-center"></a>E-mailstroomrapporten weergeven in het Security & Compliance Center
+# <a name="view-mail-flow-reports-in-the-security--compliance-center"></a>E-mailstroominzichten in het Beveiligings- en compliancecentrum bekijken
 
 Naast de [e-mailstroominzichten](mail-flow-insights-v2.md) die beschikbaar zijn in het Security & Compliance Center, zijn er ook verschillende e-mailstroomrapporten beschikbaar om u te helpen uw Microsoft 365-organisatie te controleren. Als u over de [benodigde machtigingen](#what-permissions-are-needed-to-view-these-reports)beschikt, u deze rapporten bekijken in het Security & Compliance Center <https://office.protection.com> door naar Dashboard **Rapporten** te gaan \> **Dashboard**. Als u rechtstreeks naar het dashboard van rapporten wilt gaan, opent <https://office.protection.office.com/insightdashboard> u .
 
@@ -310,7 +310,7 @@ De volgende grafieken zijn beschikbaar in de rapportweergave:
 
   ![Richtingsweergave in het e-mailrapport Verzonden en ontvangen](../../media/sent-and-received-email-report-direction-view.png)
 
-- **Inzoomen op** \> **Malware (anti-malware)**: Deze selectie neemt u mee naar de [malware detectie in e-mail rapport](view-email-security-reports.md#malware-detection-in-email-report).
+- **Inzoomen op** \> **Malware (anti-malware)**: Deze selectie neemt u mee naar de [malware detecties in e-mail rapport](view-email-security-reports.md#malware-detections-in-email-report).
 
 - **Inzoomen op** \> **Spamdetecties)**: Deze selectie neemt je mee naar het [rapport Spamdetecties.](view-email-security-reports.md#spam-detections-report)
 

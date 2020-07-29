@@ -1,5 +1,5 @@
 ---
-title: Toegang tot de beheerportal
+title: Ga naar de beheerdersportal
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 ms.author: jaimeo
@@ -9,16 +9,16 @@ ms.topic: article
 audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b6310849f27200adbbcbcb1584903011fbdf6145
-ms.sourcegitcommit: 9af890ef1b1c95bfc7cc52f7f4e395b62dc5263f
+ms.openlocfilehash: 17696b18b4109b568bb1d616813ba40e2a9dccdc
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146265"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430469"
 ---
 # <a name="access-the-admin-portal"></a>Toegang tot de beheerportal
 
-Uw gateway naar de Microsoft Managed Desktop-service is de Microsoft [Azure-portal](https://portal.azure.com). Zie de [Azure-portaldocumentatie](https://docs.microsoft.com/azure/azure-portal/)voor meer informatie over het gebruik en aanpassen van uw Azure-portalervaring in het algemeen. 
+Uw gateway naar de Microsoft Managed Desktop-service is de Microsoft [Azure-portal](https://portal.azure.com). Zie de [Azure-portaldocumentatie](https://docs.microsoft.com/azure/azure-portal/)voor meer informatie over het gebruik en aanpassen van uw Azure-portalervaring in het algemeen. Nu beschikbaar in preview, u ook Microsoft Managed Desktop vinden in [Microsoft Endpoint Manager.](https://endpoint.microsoft.com/) Als u niet bekend bent met de mogelijkheden van deze portal voor apparaatbeheer, raadpleegt u de [documentatie van Microsoft Endpoint Manager](https://docs.microsoft.com/mem/).
 
 Uw beheeraccount heeft specifieke machtigingen nodig om toegang te krijgen tot de Microsoft Managed Desktop Admin-portal. U de toegang van beheerders tot deze functies binnen uw organisatie beheren met behulp van Role-based Access Control (RBAC). Zie [Machtigingen administratorrol in Azure Active Directory voor](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)meer informatie over Azure Active Directory-rollen.
 

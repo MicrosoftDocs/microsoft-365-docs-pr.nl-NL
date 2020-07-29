@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Wanneer u uw ATP-beleid voor veilige bijlagen instelt, kiest u Dynamische bezorging om berichtvertragingen te voorkomen en personen in staat te stellen een voorbeeld van bijlagen te bekijken die worden gescand.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b22112617ecba191c7ee8d7daab0de3cde1bf8c3
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 7e2da24ebac5863ab7852fdf8f9c7af8d507698b
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819350"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430349"
 ---
 # <a name="dynamic-delivery-and-previewing-with-atp-safe-attachments"></a>Dynamische levering en previewing met ATP Safe Attachments
 
@@ -68,20 +68,20 @@ Stel dat een organisatie dynamische bezorging gebruikt voor hun [ATP-beleid voor
 
 ## <a name="additional-considerations"></a>Aanvullende overwegingen
 
-Er zijn bepaalde scenario's waarin dynamische bezorging niet wordt ondersteund. Deze omvatten de volgende:
+Er zijn bepaalde scenario's waarin veilige bijlagen (waaronder Dynamische levering niet wordt ondersteund). Dit zijn onder andere:
 
-- E-mailberichten in openbare mappen
+- E-mailberichten die zich in openbare mappen bevinden.
 
-- E-mailberichten die met aangepaste regels worden gerouteerd uit en vervolgens weer naar het postvak van de gebruiker worden verzonden
+- E-mailberichten die worden doorgestuurd uit en vervolgens terug in het postvak van de gebruiker met behulp van aangepaste regels.
 
-- E-mailberichten die uit het gehoste postvak en naar andere locaties zijn verplaatst (automatisch of handmatig), met inbegrip van archiefmappen
+- E-mailberichten die (automatisch of handmatig) uit het gehoste postvak worden verplaatst naar andere locaties, waaronder archiefmappen.
 
-- E-mailberichten die zijn verwijderd
+- E-mailberichten die worden verwijderd.
 
-- De zoekmap van een gebruikerspostvak met een foutstatus
+- De zoekmap voor postvakken van een gebruiker die zich in een foutstaat bevindt.
 
-- Omgevingen waarin een Exchange Online-beheerder Exclaimer heeft ingeschakeld. Als u dit probleem wilt oplossen, raadpleegt u [berichten met bijlagen worden niet bezorgd als ATP dynamische bezorging en Exclaimer worden gebruikt.](https://support.microsoft.com/help/4014438)
+- Omgevingen waarin een Exchange Online-beheerder Exclaimer heeft ingeschakeld. Zie [Berichten met bijlagen niet worden bezorgd wanneer ATP Dynamic Delivery en Exclaimer worden gebruikt.](https://support.microsoft.com/help/4014438)
 
-- Berichten die zijn versleuteld met [S/MIME (Secure/Multipurpose Internet Mail Extensions)](s-mime-for-message-signing-and-encryption.md)
+- Berichten versleuteld met [Secure/Multipurpose Internet Mail Extensions (S/MIME)](s-mime-for-message-signing-and-encryption.md)).
 
-- In gevallen waarin dynamische bezorging niet wordt ondersteund, worden e-mailberichten niet door ATP-veilige bijlagen gescand. Het afleveren van e-mailberichten met bijlagen die URL's bevatten, wordt echter gecontroleerd, afhankelijk van hoe uw [ATP-beleid voor veilige koppelingen](set-up-atp-safe-links-policies.md) is geconfigureerd. In dergelijke gevallen worden URL's in e-mailberichten en Office-bestanden gecontroleerd.
+- In gevallen waarin Dynamische levering niet wordt ondersteund, scannen Safe Attachments geen e-mailberichten. Het afleveren van e-mailberichten met bijlagen die URL's bevatten, wordt echter gecontroleerd, afhankelijk van hoe uw [ATP-beleid voor veilige koppelingen](set-up-atp-safe-links-policies.md) is geconfigureerd. In dergelijke gevallen worden URL's in e-mailberichten en Office-bestanden gecontroleerd.

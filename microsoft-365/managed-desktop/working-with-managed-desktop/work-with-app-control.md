@@ -1,5 +1,5 @@
 ---
-title: Werken met app-besturingselement
+title: Werken met App-beheer
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
@@ -10,14 +10,14 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 74cd1ec93058ed733e7d79da2d6932f04acfa5da
-ms.sourcegitcommit: 63887d742c59cc660fc85537b335e98a9dc66fbe
+ms.openlocfilehash: 9efe6ba6704b0e1633973d157c38827221316bbd
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170696"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430445"
 ---
-# <a name="work-with-app-control"></a>Werken met app-besturingselement
+# <a name="work-with-app-control"></a>Werken met App-beheer
 
 Zodra app-besturingselement in uw omgeving is geïmplementeerd, hebben zowel u als Microsoft Managed Desktop Operations lopende verantwoordelijkheden. U bijvoorbeeld een nieuwe app in de omgeving toevoegen of een vertrouwde ondertekenaar toevoegen (of verwijderen). Om de beveiliging te verbeteren, moeten alle apps zijn ondertekend met code voordat u ze vrijlaat aan eindgebruikers. De uitgeversgegevens van een app bevatten informatie over de ondertekenaar.
 
@@ -54,8 +54,8 @@ Operations implementeert geleidelijk beleid naar implementatiegroepen volgens de
 |---------|---------|---------|
 |Test     |  Audit       |  Dag 0       |
 |Eerste     | Afgedwongen        | Dag 1        |
-|Snel     | Afgedwongen        |  Dag 3       |
-|Brede     | Afgedwongen        |  Dag 7       |
+|Snel     | Afgedwongen        |  Dag 2       |
+|Brede     | Afgedwongen        |  Dag 3       |
 
 
 U de implementatie op elk gewenst moment tijdens de implementatie onderbreken of terugdraaien. Open hiervoor een andere serviceaanvraag met Operations.

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het zoeken naar en gebruiken van e-mailbeveiligingsrapporten voor uw organisatie. E-mailbeveiligingsrapporten zijn beschikbaar in het Security & Compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 26dfa8ec046122dce28582fb3d7b395843572a88
-ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
+ms.openlocfilehash: 762903428245797ecdc0357dc485e8fe25d2203e
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "45102904"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434253"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
@@ -34,7 +34,7 @@ Er zijn verschillende rapporten beschikbaar in het [Security & Compliance Center
 ## <a name="compromised-users-report"></a>Gecompromitteerde gebruikers melden
 
 > [!NOTE]
-> Dit rapport is beschikbaar in Microsoft 365-organisaties met Exchange Online-postvakken. Het is niet beschikbaar in zelfstandige Exchange Online Protection (EOP) organisaties zonder Exchange Online mailboxen.
+> Dit rapport is beschikbaar in Microsoft 365-organisaties met Exchange Online-postvakken. Het is niet beschikbaar in zelfstandige Exchange Online Protection (EOP) organisaties.
 
 In het rapport **gecompromitteerde gebruikers** wordt het aantal gebruikersaccounts weergegeven dat in de afgelopen 7 dagen als **Verdacht** of **Beperkt is** gemarkeerd. Rekeningen in een van deze staten zijn problematisch of zelfs gecompromitteerd. Bij veelvuldig gebruik u het rapport gebruiken om pieken en zelfs trends in verdachte of beperkte accounts te herkennen. Zie [Reageren op een gecompromitteerd e-mailaccount](responding-to-a-compromised-email-account.md)voor meer informatie over gecompromitteerde gebruikers.
 
@@ -139,7 +139,7 @@ Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven**.
 
 Het **Mailflow-statusrapport** bevat informatie over malware, spam, phishing en geblokkeerde berichten. Zie [Het statusrapport van Mailflow](view-mail-flow-reports.md#mailflow-status-report)voor meer informatie .
 
-## <a name="malware-detection-in-email-report"></a>Detectie van malware in e-mailrapport
+## <a name="malware-detections-in-email-report"></a>Malwaredetecties in e-mailrapport
 
 De **malware detecties in e-mail** rapport toont informatie over malware detecties in inkomende en uitgaande e-mailberichten (malware gedetecteerd door Exchange Online Protection of EOP). Zie [Anti-malwarebescherming in EOP](anti-malware-protection.md)voor meer informatie over malwarebescherming in EOP.
 
@@ -162,7 +162,7 @@ Als u op **tabel Details weergeven**klikt, ziet u de volgende details:
 - **Datum**
 - **Adres afzender**
 - **Adres van de geadresseerde**
-- **Bericht-ID**
+- **Bericht-id**: beschikbaar in het kopveld **Bericht-ID** in de berichtkop en moet uniek zijn. Een voorbeeldwaarde is `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (let op de hoekhaakjes).
 - **Onderwerp**
 - **Bestandsnaam**
 - **Naam malware**
@@ -267,11 +267,14 @@ Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven**.
 
 ## <a name="threat-protection-status-report"></a>Statusrapport voor bedreigingsbescherming
 
-Het statusrapport **voor bedreigingsbescherming** is beschikbaar in zowel EOP als Office 365 ATP; de rapporten bevatten echter verschillende gegevens. EOP-klanten kunnen bijvoorbeeld informatie bekijken over malware die in e-mail is gedetecteerd, maar geen informatie over [schadelijke bestanden die zijn gedetecteerd in SharePoint Online, OneDrive of Microsoft Teams.](atp-for-spo-odb-and-teams.md) Zie Rapporten voor Geavanceerde bedreigingsbeveiliging van [Office 365 weergeven voor](view-reports-for-atp.md)meer informatie over ATP-rapporten van Office 365 .
+Het statusrapport **voor bedreigingsbescherming** is beschikbaar in zowel EOP als Office 365 ATP; de rapporten bevatten echter verschillende gegevens. EOP-klanten kunnen bijvoorbeeld informatie bekijken over malware die in e-mail is gedetecteerd, maar geen informatie over [schadelijke bestanden die zijn gedetecteerd in SharePoint Online, OneDrive of Microsoft Teams.](atp-for-spo-odb-and-teams.md)
 
-Dit is een slim rapport met schadelijke e-mail die is gedetecteerd en geblokkeerd, en het stelt beveiligingsbeheerders in staat om trends te identificeren of te bepalen of het organisatiebeleid moet worden aangepast.
+Het rapport biedt een geaggregeerd aantal unieke e-mailberichten met schadelijke inhoud, zoals bestanden of websiteadressen (URL's) die werden geblokkeerd door de anti-malware-engine, [zero-hour auto purge (ZAP)](zero-hour-auto-purge.md)en ATP-functies zoals [ATP Safe Links](atp-safe-links.md), [ATP Safe Attachments](atp-safe-attachments.md)en [ATP-anti-phishing](set-up-anti-phishing-policies.md). U deze informatie gebruiken om trends te identificeren of om te bepalen of het organisatiebeleid moet worden aangepast.
 
-Als u het rapport wilt bekijken, opent u het [Security & Compliance Center,](https://protection.office.com)gaat u naar **Reports** \> **Rapportendashboard** en selecteert u **de status van bedreigingsbeveiliging**. Open <https://protection.office.com/reportv2?id=ATPV2AggregateReport> .
+Als u het rapport wilt bekijken, opent u het [Security & Compliance Center,](https://protection.office.com)gaat u naar **Reports** \> **Rapportendashboard** en selecteert u **de status van bedreigingsbeveiliging**. Open een van de volgende URL's om rechtstreeks naar het rapport te gaan:
+
+- Atp voor Office 365: <https://protection.office.com/reportv2?id=ATPV2AggregateReport> .
+- Eop:<https://protection.office.com/reportv2?id=ATPAggregateLightReport>
 
 ![Widget Statusstatus bedreiging in het dashboard Rapporten](../../media/threat-protection-status-report-widget.png)
 
@@ -411,61 +414,7 @@ Als u op **Filters** klikt in de rapportweergave of de tabelweergave details, u 
 
 ## <a name="url-threat-protection-report"></a>URL-melding voor bedreigingsbeveiliging
 
-> [!NOTE]
-> Dit rapport is alleen beschikbaar in Office 365 Advanced Threat Protection (ATP). Bijvoorbeeld een Microsoft 365 E5-abonnement of een ATP-abonnement 1 of ATP-abonnement 2-add-on.
-
-Het **URL-waarschuwingsrapport voor bedreigingsbeveiliging** biedt overzichten en trendweergaven voor gedetecteerde bedreigingen en acties die zijn uitgevoerd op URL-klikken als onderdeel van [ATP Safe Links](atp-safe-links.md). In dit rapport worden geen klikgegevens van gebruikers weergegeven waarbij het toegepaste beleid Voor veilige koppelingen de optie **Klikken van gebruikers niet bijhouden** is geselecteerd.
-
-Als u het rapport wilt bekijken, opent u het [Beveiligingscentrum & Compliance Center,](https://protection.office.com)gaat u naar **Dashboard Rapporten** \> **Dashboard** en selecteert u **URL-beveiliging**. Open <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
-
-### <a name="report-view-for-the-url-threat-protection-report"></a>Rapportweergave voor het URL-waarschuwingsrapport voor bedreiging
-
-Het **URL-dreigingsbeveiligingsrapport** bevat twee geaggregeerde weergaven die eenmaal per vier uur worden vernieuwd en waarin gegevens van de afgelopen 90 dagen worden weergegeven:
-
-- **URL-klikbeveiligingsactie:** geeft het aantal URL-klikken weer door gebruikers in de organisatie en de resultaten van de klik:
-
-  - **Geblokkeerd**
-  - **Geblokkeerd en doorgeklikt**
-  - **Doorgeklikt tijdens de scan**
-
-  Een klik geeft aan dat de gebruiker via de blokpagina naar de kwaadaardige website heeft geklikt (beheerders kunnen doorklikken uitschakelen in het beleid voor veilige koppelingen).
-
-  Als u op **Filters**klikt, u het rapport wijzigen met de volgende filters:
-
-  - **Begindatum** en **einddatum**
-  - De beschikbare klikbeveiligingsacties, plus de waarde **Die u toestaat** om informatie te zien voor alle URL-klikken (niet alleen geblokkeerde klikken).
-
-  ![URL klik op de actieweergave voor beveiliging in het url-dreigingsbeveiligingsrapport](../../media/url-threat-protection-report-url-click-protection-action-view.png)
-
-- **URL-klik op toepassing**: geeft het aantal URL-klikken weer door toepassingen die Office 365 ATP Safe Links ondersteunen:
-
-  - **E-mailclient**
-  - **PowerPoint**
-  - **Word**
-  - **Excel**
-  - **OneNote**
-  - **Visio**
-  - **Teams**
-  - **Overige**
-
-  Als u op **Filters**klikt, u het rapport wijzigen met de volgende filters:
-
-  - **Begindatum** en **einddatum**
-  - De beschikbare toepassingen.
-
-### <a name="details-table-view-for-the-threat-protection-report"></a>Tabelweergave details voor het rapport dreigingsbeveiliging
-
-Als u op **tabel Details weergeven**klikt, geeft het rapport een bijna realtime weergave van alle klikken die de afgelopen zeven dagen binnen de organisatie plaatsvinden met de volgende details:
-
-- **Kliktijd**
-- **Gebruiker**
-- **Url**
-- **Actie**
-- **App**
-
-Als u op **Filters** klikt in de tabelweergave details, u filteren op dezelfde criteria als in de rapportweergave, en ook op **domeinen** of **geadresseerden,** gescheiden door komma's.
-
-Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven**.
+Het **URL-waarschuwingsrapport voor bedreigingsbeveiliging** is beschikbaar in Office 365 Advanced Threat Protection (ATP). Zie [URL-dreigingsbeveiligingsrapport](view-reports-for-atp.md#url-threat-protection-report)voor meer informatie.
 
 ## <a name="user-reported-messages-report"></a>Rapport door door gebruikers gerapporteerde berichten
 
@@ -511,3 +460,7 @@ Als u geen gegevens in uw rapporten ziet, controleert u dubbel of uw beleid corr
 [Bescherming tegen spam en malwarebestrijding in EOP](anti-spam-and-anti-malware-protection.md)
 
 [Slimme rapporten en inzichten in het Security & Compliance Center](reports-and-insights-in-security-and-compliance.md)
+
+[E-mailstroomrapporten weergeven in het Security & Compliance Center](view-mail-flow-reports.md)
+
+[Rapporten voor geavanceerde bedreigingsbeveiliging van Office 365 weergeven](view-reports-for-atp.md)

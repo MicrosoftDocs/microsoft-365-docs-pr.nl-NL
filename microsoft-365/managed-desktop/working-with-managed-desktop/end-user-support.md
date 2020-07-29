@@ -1,52 +1,52 @@
 ---
-title: Ondersteuning voor Microsoft Managed Desktop
+title: Ondersteuning krijgen voor Microsoft Managed Desktop
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 3e74f644457057eafe61235c874ca6290bfae6a3
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 6c23d2ffa70cf4931823fafa1918e7fd5eefa0b8
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327890"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430433"
 ---
-# <a name="getting-help-for-end-users"></a>Hulp krijgen voor eindgebruikers
+# <a name="getting-help-for-end-users"></a>Hulpinformatie opvragen voor gebruikers
 
-Er zijn twee manieren waarop gebruikers in uw organisatie hulp kunnen krijgen met hun Microsoft Managed Desktop-apparaten: **Help-app** of telefonische ondersteuning. Beide ondersteuningsopties zijn 24 uur per dag, 7 dagen per week beschikbaar voor gebruikers.
+Gebruikers in uw organisatie kunnen op twee manieren hulp krijgen bij hun Microsoft Managed Desktop-apparaten: **Help-app of** telefonische ondersteuning ophalen. Beide ondersteuningsopties zijn 24 uur per dag, 7 dagen per week beschikbaar voor gebruikers.
  
 >[!NOTE]
->Deze ondersteuningsopties zijn niet beschikbaar voor apparaten in de groep Testen.
+>Deze ondersteuningsopties zijn niet beschikbaar voor apparaten in de groep Test.
 
 ## <a name="get-help-app"></a>Help-app downloaden
 
-De voorkeursmethode voor het bieden van ondersteuning aan uw gebruikers is **Get Help**, een gebruiksvriendelijke interface die is ingebouwd in het apparaat van de eindgebruiker.  
+De voorkeursmethode voor het bieden van ondersteuning aan uw gebruikers is **Get Help,** een gebruiksvriendelijke interface die is ingebouwd in het apparaat van de eindgebruiker.  
 
-![Pictogram Help-app downloaden](../../media/get-help.png)
+![Pictogram Help-app ophalen](../../media/get-help.png)
 
 Dit is een toepassing die is geïnstalleerd op alle Microsoft Managed Desktop-apparaten en is vastgemaakt aan de taakbalk. 
 
 - Eindgebruikers kunnen een oproep terugvragen naar een opgegeven telefoonnummer of online chatten met een servicemedewerker.
-- Verzoeken die buiten het ondersteuningsbereik van Microsoft Managed Desktop vallen, worden via een telefoongesprek doorgestuurd naar de lokale IT-helpdesk.
+- Aanvragen die buiten het ondersteuningsbereik van Microsoft Managed Desktop vallen, worden via een telefoongesprek doorgestuurd naar de lokale IT-helpdesk.
 
 ### <a name="prerequisites"></a>Vereisten
-Als u ervoor wilt zorgen dat uw eindgebruikers via de app hulp kunnen krijgen, moet u ervoor zorgen dat aan deze vereisten wordt voldaan:
+Zorg ervoor dat aan deze voorwaarden wordt voldaan om uw eindgebruikers hulp te kunnen bieden via de app:
 
-- Het apparaat moet zijn geregistreerd bij Microsoft Managed Desktop met behulp van een van de methoden in [Microsoft Managed Desktop-apparaten instellen,](../get-started/set-up-devices.md)zoals [Nieuwe apparaten zelf registreren.](../get-started/register-devices-self.md)
-- De weergavetaal voor het apparaat moet zijn ingesteld op een van deze Engelstalige landplaatsen: en-us, en-gb, en-au, en-nz of en-ca.
-- De App Help ophalen moet up-to-date zijn. Controleer op app-updates in de Microsoft Store om dit te bevestigen.
-- Bepaalde [eindpunten](../get-ready/network.md#endpoints-allowed---specific-for-microsoft-managed-desktop) moeten toegankelijk zijn vanaf het apparaat.
+- Het apparaat moet zijn geregistreerd bij Microsoft Managed Desktop met behulp van een van de methoden in [Microsoft Managed Desktop-apparaten instellen,](../get-started/set-up-devices.md)zoals [zelf nieuwe apparaten registreren.](../get-started/register-devices-self.md)
+- De weergavetaal voor het apparaat moet zijn ingesteld op een van deze Engelstalige landbijlen: en-us, en-gb, en-au, en-nz of en-ca.
+- De Help-app get up-to-date moet up-to-date zijn. Controleer of u dit wilt bevestigen in de Microsoft Store.
+- Bepaalde [eindpunten](../get-ready/network.md#endpoints-allowed-that-are-necessary-for-microsoft-managed-desktop) moeten toegankelijk zijn vanaf het apparaat.
 
 > [!NOTE]
-> Het kan tot een uur duren voordat een apparaat volledig functioneert.
+> Het kan tot een uur duren voordat een apparaat volledig heeft gefunctioneel.
 
-Als u deze vereisten hebt gecontroleerd en de App Help downloaden nog steeds niet werkt, moet u als IT-beheerder een [ondersteuningsverzoek indienen.](admin-support.md)
+Als u deze vereisten hebt gecontroleerd en de Help-app ophalen nog steeds niet werkt, moet u als IT-beheerder een [ondersteuningsverzoek indienen.](admin-support.md)
 
 ## <a name="phone-support"></a>Telefonische ondersteuning
 
-Eindgebruikers met Microsoft Managed Desktop-apparaten hebben ook toegang tot gratis telefoonnummers die ze kunnen bellen. Dit is bedoeld om te worden gebruikt wanneer Hulp worden krijgen niet beschikbaar is. Als ze zich bijvoorbeeld niet bij het apparaat kunnen aanmelden of als het apparaat kapot is. Hier zijn de telefoonnummers voor telefonische ondersteuning:
+Eindgebruikers met Microsoft Managed Desktop-apparaten hebben ook toegang tot gratis telefoonnummers die ze kunnen bellen. Dit is bedoeld om te worden gebruikt wanneer Hulp ophalen niet beschikbaar is. Als ze zich bijvoorbeeld niet kunnen aanmelden bij het apparaat of als het apparaat is kapot. Hier zijn de telefoonnummers voor telefonische ondersteuning:
 
 - Verenigde Staten: +1 855 425 0216
 - Canada (exclusief Quebec): +1 855 425 0216
@@ -63,9 +63,9 @@ Eindgebruikers met Microsoft Managed Desktop-apparaten hebben ook toegang tot gr
 - Finland: +358 800 525088
 
 >[!NOTE]
->U moet uw e-mailadres van uw organisatie bij de hand hebben wanneer u belt om uw identiteit te verifiëren. 
+>U moet uw e-mailadres voor organisatie bij de hand hebben wanneer u belt om uw identiteit te verifiëren. 
 
 ## <a name="additional-resources"></a>Overige informatiebronnen
 - [Beheerdersondersteuning voor Microsoft Managed Desktop](admin-support.md). 
 - [Ondersteuning voor Microsoft Managed Desktop](../service-description/support.md).
-- Als u zich al abonneert op Microsoft Managed Desktop, vindt u gedetailleerde procedures, processtromen, werkinstructies en veelgestelde vragen in de Microsoft Managed Desktop Admin Guide in de sectie **Online-resources** van de [Microsoft Managed Desktop Admin Portal](https://aka.ms/mwaasportal).
+- Als u zich al abonneert op Microsoft Managed Desktop, u gedetailleerde procedures, processtromen, werkinstructies en veelgestelde vragen vinden in de Microsoft Managed Desktop Admin Guide in de sectie **Online bronnen** van de [Microsoft Managed Desktop Admin Portal](https://aka.ms/mwaasportal).

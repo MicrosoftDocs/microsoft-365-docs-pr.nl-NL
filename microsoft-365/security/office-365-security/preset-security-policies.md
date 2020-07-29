@@ -1,5 +1,5 @@
 ---
-title: Vooraf ingestelde beveiligingsbeleid
+title: Beveiligingsbeleid vooraf instellen
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe ze standaard- en strikte beleidsinstellingen kunnen toepassen op de beveiligingsfuncties van Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (ATP)
-ms.openlocfilehash: 34445c617d2dda59a65b197db2f42324d0085ab3
-ms.sourcegitcommit: 688d62a8c52e4fb0feb721bb92b535effc278f54
+ms.openlocfilehash: dd730639aa15709bafd600d4cc2706befb143cd4
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45389870"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430397"
 ---
 # <a name="preset-security-policies-in-eop-and-office-365-atp"></a>Vooraf ingesteld beveiligingsbeleid in EOP en Office 365 ATP
 
@@ -88,9 +88,10 @@ Wanneer meerdere beleidsregels op een gebruiker worden toegepast, wordt de volge
 
 1. **Beveiligingsbeleid** voor strikte beveiliging vooraf ingesteld
 2. **Beveiligingsbeleid** voor standaardbeveiliging vooraf ingesteld
-3. Alle andere gerelateerde beleidsregels.
+3. Aangepast beveiligingsbeleid
+4. Standaardbeveiligingsbeleid
 
-Met andere woorden, de instellingen van het **strikte beveiligingsbeleid** overschrijven de instellingen van het **standaardbeveiligingsbeleid,** waardoor de instellingen worden overschrijft van andere gerelateerde beleidsregels.
+Met andere woorden, de instellingen van het **strikte beveiligingsbeleid** overschrijven de instellingen van het **standaardbeveiligingsbeleid,** dat de instellingen overschrijft van een aangepast beleid, waardoor de instellingen worden overschrijft uit het standaardbeleid.
 
 ## <a name="assign-preset-security-policies-to-users"></a>Vooraf ingestelde beveiligingsbeleid toewijzen aan gebruikers
 
