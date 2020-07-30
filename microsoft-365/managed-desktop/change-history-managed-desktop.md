@@ -5,21 +5,40 @@ keywords: geschiedenis wijzigen
 ms.prod: m365-md
 ms.sitesec: library
 author: jaimeo
+ms.topic: article
+audience: ITPro
+manager: laurawi
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 1402cd8c03baa233ece1051a0ab9d7dc3b96b965
-ms.sourcegitcommit: ada2f1c6ca79177cae975d887107ff8884358e8a
+ms.openlocfilehash: 809f94e6355b7c0fe9155734fd548c9cb466cbe7
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "45107597"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46528034"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Geschiedenis voor Microsoft Managed Desktop-documentatie wijzigen
 
 In dit artikel worden nieuwe en bijgewerkte artikelen weergegeven in de [documentatie van Microsoft Managed Desktop](index.yml). "Bijgewerkte" artikelen zijn artikelen die materiële toevoegingen of correcties hebben gehad - kleine correcties, zoals correctie van typefouten, stijl of opmaakproblemen worden niet vermeld. Je altijd de geschiedenis van specifieke commits bekijken (inclusief details van eventuele wijzigingen) door de [repo op GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)te bezoeken.
+
+
+## <a name="july-2020"></a>Juli 2020
+Nieuw of gewijzigd artikel | Beschrijving
+--- | ---
+[Microsoft Managed Desktop-app-vereisten](service-description/mmd-app-requirements.md) | Bijgewerkt artikel
+[Compliance](intro/compliance.md) | Bijgewerkt artikel
+[Aan de slag met App-beheer](get-started/get-started-app-control.md) | Bijgewerkt artikel
+[Werken met App-beheer](working-with-managed-desktop/work-with-app-control.md) | Bijgewerkt artikel
+[Vereisten voor Microsoft Managed Desktop](get-ready/prerequisites.md) | Bijgewerkt artikel
+[App-besturingselement](service-description/app-control.md) | Bijgewerkt artikel
+[Netwerkconfiguratie voor Microsoft Managed Desktop](get-ready/network.md) | Bijgewerkt artikel
+[Nieuwe Microsoft Edge-app](get-started/edge-browser-app.md) | Bijgewerkt artikel
+[Toegang tot de beheerportal](get-started/access-admin-portal.md) | Nieuw artikel
+[App-besturingselement](service-description/app-control.md) | Nieuw artikel
+[Microsoft Project of Microsoft Visio installeren op Microsoft Managed Desktop-apparaten](get-started/project-visio.md) | Bijgewerkt artikel
 
 ## <a name="june-2020"></a>Juni 2020
 Nieuw of gewijzigd artikel | Beschrijving

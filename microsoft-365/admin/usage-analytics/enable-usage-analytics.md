@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Meer informatie over het verzamelen van gegevens voor uw tenant met de sjabloon-app Microsoft 365 Usage Analytics in Power BI.
-ms.openlocfilehash: 20228b0e2070065834ce203e22af619480311367
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: b5cb8df7fbe8ce1844d2af3ecaf62c7903d4e98b
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46502947"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527373"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 Gebruiksanalyse inschakelen
 
@@ -86,9 +86,9 @@ Als u de sjabloon-app wilt starten, moet u een **globale beheerder**, **rapportl
 
 6.  Nadat u **op Verbinding**hebt geklikt , typt u in het scherm Verbinding maken met Microsoft **365-gebruiksanalyse** de tenant-id (zonder streepjes) die u in stap hebt gekopieerd (1) en selecteert u **Volgende**.
     
-7. Selecteer **oAuth2** in het volgende scherm als **verificatiemethode** \> **Aanmelden.** Als u een andere verificatiemethode kiest, mislukt de verbinding met de sjabloon-app.
+7. Selecteer in het volgende scherm **Microsoft-account** als **verificatiemethode** \> **Aanmelden**. Als u een andere verificatiemethode kiest, mislukt de verbinding met de sjabloon-app.
     
-    ![Choose oAuth2 as authentication method](../../media/ac85a360-c278-4c60-8aa3-68f4828f1d96.png)
+    ![Microsoft-account kiezen als verificatiemethode](../../media/ab6f0463-c3f7-4088-a605-67c699fa86ad.png)
   
 8. Zodra de sjabloon-app is gehe momentediated, is het Microsoft 365 usage analytics-dashboard beschikbaar in Power BI op het web. Het eerste laden van het dashboard duurt 2 tot 30 minuten.
   

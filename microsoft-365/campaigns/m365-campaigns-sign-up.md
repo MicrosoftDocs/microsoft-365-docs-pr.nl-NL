@@ -13,6 +13,7 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -22,72 +23,72 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Stap voor stap aanmelden voor Microsoft 365 voor campagnes. Bescherm uw campagne tegen cyberbeveiligingsbedreigingen voor e-mail, gegevens en communicatie.
-ms.openlocfilehash: 34d5b3103666b9cead1c2dfc09400a9eca5e3e40
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Stapsgewijze aanmelding voor Microsoft 365 voor campagnes. Bescherm uw campagne tegen cyberbeveiligingsbedreigingen tot e-mail, gegevens en communicatie.
+ms.openlocfilehash: 0628ac1a2e8bf6d12bd4a196df11775ebcc2d583
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632777"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527112"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>Aanmelden voor Microsoft 365 voor campagnes 
 
 Zo u uw aanmelding voor Microsoft 365 voor campagnes voltooien.
 
 ## <a name="before-you-start"></a>Voordat u begint: 
-- Ontvang uw uitnodiging voor Microsoft 365 voor campagnes door de stappen in [Microsoft 365 voor campagnes te](get-microsoft-365-campaigns.md#get-microsoft-365-for-campaigns)voltooien. 
+- Download uw uitnodiging voor Microsoft 365 voor campagnes door de stappen in [Microsoft 365 voor campagnes ophalen te](get-microsoft-365-campaigns.md#get-microsoft-365-for-campaigns)voltooien. 
 - Open uw e-mailuitnodiging van Microsoft. De uitnodiging heeft een unieke aanmeldingslink voor uw organisatie. Je hebt dit nodig om campagnes speciale prijzen te krijgen.
-- Heb uw zakelijke creditcard en een telefoon klaar. 
+- Houd uw zakelijke creditcard en een telefoon klaar. 
 
     > [!TIP]
-    > Uw aanmeldingslink is uniek voor uw campagne. Het werkt slechts één keer, dus zorg ervoor dat je genoeg tijd hebt om je aan te melden. Je hebt ongeveer tien minuten nodig. 
+    > Je aanmeldingslink is uniek voor je campagne. Het werkt slechts eenmaal, dus zorg ervoor dat je genoeg tijd hebt om je aan te melden. Je hebt ongeveer tien minuten nodig. 
 
-## <a name="steps-to-sign-up"></a>Stappen om je aan te melden
+## <a name="steps-to-sign-up"></a>Stappen om u aan te melden
 
-1. Selecteer in uw uitnodiging voor e-mail voor Microsoft 365 voor campagnes de optie **ENROLL UW ORGANISATIE >**. Dit brengt u naar Microsoft 365 aanmelden.
+1. Selecteer UW ORGANISATIE IN UW uitnodiging voor e-mail Microsoft 365 voor campagnes de optie **UW ORGANISATIE >**. Dit brengt u naar Microsoft 365 aanmelden.
     > [!NOTE]
-    > Als u al een bestaand Microsoft 365 voor zakelijk abonnement hebt en u de microsoft 365 voor campagnes-aanbieding eraan wilt toevoegen, gaat u [Microsoft 365 voor campagnes toevoegen aan een bestaand abonnement](#steps-to-add-microsoft-365-for-campaigns-to-an-existing-subscription).
-1. **Voer op de pagina Microsoft 365 Business**uw bedrijfsgegevens in. Voor **zakelijke e-mailadres,** gebruik maken van een huidig e-mailadres. We hebben dit adres alleen nodig om contact met u te houden tijdens het installatieproces. Selecteer **Volgende**.
+    > Als u al een bestaand Microsoft 365 voor bedrijven-abonnement hebt en u de aanbieding Microsoft 365 voor campagnes eraan wilt toevoegen, gaat u microsoft [365 voor campagnes toevoegen aan een bestaand abonnement.](#steps-to-add-microsoft-365-for-campaigns-to-an-existing-subscription)
+1. **Voer op de microsoft 365 Business-pagina**uw bedrijfsgegevens in. Gebruik voor **zakelijk e-mailadres**een huidig e-mailadres. We hebben dit adres alleen nodig om contact met u te houden tijdens het installatieproces. Selecteer **Volgende**.
 1. **Ga op de pagina Uw gebruikersnaam maken:**
-    1. Voer **in Gebruikersnaam**de gewenste naam of alias in voor uw e-mailadres. U bijvoorbeeld alleen Alice of Rob noemen. In een grotere campagne, AliceC of AliceChavez misschien meer zin.
-    2. Voer in **Uw bedrijf**de naam in van de campagne waarvoor u werkt. Bijvoorbeeld ContosoCampaign. Als u al een domein hebt, gebruikt u die naam hier. 
-    3. Selecteer in **Een domein selecteren** **onmicrosoft.com** voor nu. We kunnen u later instellen met een domein of u helpen microsoft 365 te verbinden met een domein dat u al hebt.
-    4. Maak een wachtwoord aan en selecteer **Mijn account maken**. 
+    1. Voer in **Gebruikersnaam**de gewenste naam of alias in voor uw e-mailadres. U wilt bijvoorbeeld bekend staan als alleen Alice, of Rob. In een grotere campagne, AliceC of AliceChavez zou kunnen maken meer zin.
+    2. Voer in **Uw bedrijf**de naam in van de campagne waarvoor u werkt. Bijvoorbeeld ContosoCampaign. Als u al een domein bezit, gebruikt u die naam hier. 
+    3. Selecteer **in Een domein**selecteren voorlopig **.onmicrosoft.com.** We kunnen u later een domein instellen of u helpen Microsoft 365 te verbinden met een domein dat u al bezit.
+    4. Maak een wachtwoord en selecteer **Mijn account maken**. 
     > [!NOTE]
-    > Als uw campagne of partij geen domein bezit en u hebt besloten welk domein u wilt, u er nu een kopen door het te selecteren.
+    > Als uw campagne of partij geen domein bezit en u hebt besloten welk domein u wilt, u deze nu kopen door deze te selecteren.
 
-4. **Bewijs maar. Je bent. Niet. A. Robot. pagina**:
-    1. Houd uw telefoon klaar en selecteer **Sms mij** (of **Bel me** als u dat liever hebt). Voer vervolgens uw telefoonnummer in. 
-    2. Wanneer u **Mij sms selecteert,** sturen we u een verificatiecode. Of we bellen je met een code als je **Mij**belt.
-    3. Voer de code van uw sms-bericht (of oproep) in en selecteer **Volgende**. Verwacht een korte wachttijd. 
-5. **Waar gebruikt u deze pagina**: Voer de primaire werklocatiegegevens en het telefoonnummer van de campagne in. Selecteer **Volgende**.
+4. **Bewijs. Je bent. Niet. A. Robot. pagina**:
+    1. Houd uw telefoon klaar en selecteer **Sms-mij** (of **Bel me** als u dat liever hebt). Voer dan je telefoonnummer in. 
+    2. Wanneer u **Sms mij**selecteert, sturen we u een verificatiecode. Of we bellen je met een code als je **Bel me.**
+    3. Voer de code in uw sms-bericht (of oproep) in en selecteer **Volgende**. Verwacht een korte wachttijd. 
+5. **Waar gaat u deze pagina gebruiken:** Voer de primaire werklocatiegegevens en het telefoonnummer van de campagne in. Selecteer **Volgende**.
 6. **Hoe ziet deze pagina eruit:**
-    1. Controleer of de kosten per gebruiker $ 5,00 bedragen. 
+    1. Controleer of de kosten per gebruiker $ 5,00 zijn. 
     2. Als u zich alleen voor nu wilt instellen, selecteert u **Volgende**. 
-    3. Optioneel: Voeg nu wat extra licenties toe door het nummer in het **gebruikersveld te** wijzigen. Het personeel waarmee u werkt, kan op elk gewenst moment [licenties aan Microsoft 365 worden toegewezen.](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json)
-7. **Hoe wilt u betalen? pagina**: Nieuwe **creditcard**selecteren, uw zakelijke creditcardgegevens invoeren en **Bestelling plaatsen selecteren.** Als u dat liever hebt, is het ook mogelijk om een bankrekening te gebruiken.
-8. **Dit kan even duren:** u vindt meer informatie over waar u zich moet aanmelden en uw gebruikersnaam. We sturen deze informatie ook naar het e-mailadres dat je hebt ingevoerd tijdens stap 2 hierboven.
+    3. Optioneel: Voeg nu wat extra licenties toe door het nummer in het **gebruikersveld** te wijzigen. Het personeel waarmee u samenwerkt, kan op elk gewenst moment [licenties aan Microsoft 365 toegewezen krijgen.](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json)
+7. **Hoe wilt u betalen? pagina**: Selecteer **Nieuwe creditcard,** voer uw zakelijke creditcardgegevens in en selecteer **Bestelling plaatsen**. Als u dat liever hebt, is het ook mogelijk om een bankrekening te gebruiken.
+8. **Dit kan even duren:** U vindt er details over waar u zich moet aanmelden en waar uw gebruikersnaam moet worden geïdentificeerd. We sturen deze informatie ook naar het e-mailadres dat u hebt ingevoerd tijdens stap 2 hierboven.
 
-Uw aanmeldingsstappen zijn voltooid! Als u door wilt gaan met de volgende stappen, selecteert u **Setup starten**of later terugkomen om de stappen te voltooien. Wanneer u klaar bent, controleert u uw e-mail (vanaf stap 2) om uw gebruikersnaam en wachtwoord te vinden, zodat u de volgende keer inloggen. Deze worden uw beheerders- of globale beheerdersreferenties genoemd.
+Je aanmeldingsstappen zijn voltooid! Als u door wilt gaan met de volgende stappen, selecteert u **Setup starten**of komt u later terug om de stappen af te maken. Wanneer u klaar bent, controleert u uw e-mail (vanaf stap 2) om uw gebruikersnaam en wachtwoord te vinden, zodat u zich de volgende keer aanmelden. Dit worden uw beheerders- of globale beheerdersreferenties genoemd.
 
 ## <a name="steps-to-add-microsoft-365-for-campaigns-to-an-existing-subscription"></a>Stappen om Microsoft 365 voor campagnes toe te voegen aan een bestaand abonnement
 
-Als u al een abonnement hebt op Microsoft 365 voor Bedrijven, bijvoorbeeld Microsoft 365 Business Standard, u de Microsoft 365 for Campaigns-aanbieding gebruiken om er licenties aan toe te voegen.
+Als u al een en bestaand abonnement hebt op Microsoft 365 voor bedrijven, bijvoorbeeld Microsoft 365 Business Standard, u de aanbieding Microsoft 365 voor campagnes gebruiken om er licenties aan toe te voegen.
 > [!IMPORTANT]
 > U de aanbieding Microsoft 365 voor campagnes niet toevoegen aan een bestaand Microsoft 365-account.
 
-1. Selecteer in uw uitnodiging voor e-mail voor Microsoft 365 voor campagnes de optie **ENROLL UW ORGANISATIE >**. Dit brengt u naar Microsoft 365 aanmelden.
-2. Klik of tik op de **pagina Welkom,** klik of tik **Wil je dit toevoegen aan een bestaand abonnement? Log hier in**
+1. Selecteer UW ORGANISATIE IN UW uitnodiging voor e-mail Microsoft 365 voor campagnes de optie **UW ORGANISATIE >**. Dit brengt u naar Microsoft 365 aanmelden.
+2. Laten we op de **welkome pagina kennismaken,** klikken of tikken **Op Wilt u dit toevoegen aan een bestaand abonnement? Log hier in**
     
     ![Kies Aanmelden in de rechterbovenhoek.](../media/addtoexisting.png)
-3. Voer op de aanmeldingspagina de beheerdersalias in voor uw bestaande abonnement, bijvoorbeeld *<span></span>Alice@VoteContoso .org,* kies **Volgende,** voer uw wachtwoord in en kies **Aanmelden**.
-4. Op de **Hoe ziet dit eruit?** Voer het aantal gebruikers dat je hebt en kies **Volgende**. U hoeft hier geen promotiecode in te voeren omdat deze al is opgenomen in de uitnodigings-URL.
-5. Op de **pagina Hoe wilt u betalen?** **Place order**
+3. Voer op de aanmeldingspagina de beheerdersalias voor uw bestaande abonnement **in,** bijvoorbeeld *Alice@VoteContoso <span></span> .org*, kies **Volgende,** voer uw wachtwoord in en kies Aanmelden .
+4. Voer op de **Hoe ziet u er uit?** **Next** U hoeft hier geen promotiecode in te voeren omdat deze al is opgenomen in de URL van de uitnodiging.
+5. Voer op de pagina **Hoe wilt u betalen?** **Place order**
 
-Nadat u deze stappen hebt voltooid, u [de nieuwe licenties toewijzen](../admin/manage/assign-licenses-to-users.md) aan uw campagnepersoneel.
+Nadat u deze stappen hebt voltooid, u [de nieuwe licenties toewijzen aan](../admin/manage/assign-licenses-to-users.md) uw campagnemedewerkers.
 
 
 ## <a name="whats-next"></a>En nu?
-- [Stel Microsoft 365 in](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) om uw Microsoft 365 voor campagnes in te stellen. 
-- [Gebruikers toevoegen](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) aan uw abonnement. Vermeld de campagnekandidaat, alle senior campagnemedewerkers en iedereen die toegang heeft tot gevoelige campagne- of partijinformatie.
-- [Bump up bescherming voor uw campagne](m365-campaigns-security-overview.md)
+- [Stel Microsoft 365 in](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) om uw Microsoft 365 voor campagnes te voltooien. 
+- [Voeg gebruikers toe](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) aan uw abonnement. Vermeld de campagnekandidaat, alle senior campagnemedewerkers en iedereen die toegang heeft tot gevoelige campagne- of partijinformatie.
+- [Bescherming voor uw campagne opstoten](m365-campaigns-security-overview.md)
