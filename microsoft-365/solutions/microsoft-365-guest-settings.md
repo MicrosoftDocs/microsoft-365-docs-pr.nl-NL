@@ -15,12 +15,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Meer informatie over de instellingen voor het delen met gasten in Microsoft 365 die van invloed kunnen zijn op het delen met personen buiten uw organisatie.
-ms.openlocfilehash: 35a1a20e65eccddcb1117f9def09bd4fdfc7f161
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 05cd46be7b7dd81d04fa65d89b47f19e6dbb2493
+ms.sourcegitcommit: f3a02584c9354a46c082f8f948b34a177adf65bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679142"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46514787"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 guest sharing settings reference (Overzicht van de instellingen voor delen met gasten van Microsoft 365)
 
@@ -37,7 +37,7 @@ Microsoft Azure Active Directory is de directoryservice die wordt gebruikt door 
 
 ### <a name="organizational-relationships-settings"></a>Instellingen voor organisatierelaties
 
-**Navigatie:** [Azure Active Directory-beheercentrum](https://aad.portal.azure.com) > Azure Active Directory-> Organisatierelaties > Instellingen
+**Navigatie:** [Azure Active Directory-beheercentrum](https://aad.portal.azure.com) > Azure Active Directory-> Externe identiteiten> Externe collaboratie-instellingen
 
 ![Schermafbeelding van de instellingenpagina voor organisatierelaties in Microsoft Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
 
@@ -60,7 +60,7 @@ Het Microsoft 365-beheercentrum heeft instellingen op organisatieniveau voor del
 
 ### <a name="sharing"></a>Delen
 
-**Navigatie:** [Microsoft 365-beheercentrum](https://admin.microsoft.com) > Instellingen > Instellingen > tabblad Beveiliging & privacy > Delen
+**Navigatie:** [Microsoft 365-beheercentrum](https://admin.microsoft.com) > Instellingen > Organisatie-instellingen > tabblad Beveiliging & privacy > Delen
 
 ![Schermafbeelding van de instelling Beveiliging en privacy voor delen met gast in het Microsoft 365-beheercentrum](../media/sharepoint-security-privacy-sharing-setting.png)
 

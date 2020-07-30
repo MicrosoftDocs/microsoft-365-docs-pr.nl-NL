@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: In dit artikel vindt u meer informatie over de beschikbare opties voor het maken van een veilige omgeving voor het delen met een gast in Microsoft 365.
-ms.openlocfilehash: 4d7c036cccade88bfcd013fe4b31bf4cd02b7b34
-ms.sourcegitcommit: a50260b7c5be7374e8e2bea19cc08406ef51ac47
+ms.openlocfilehash: b720b701ca25dd6b341d4ac5ac696b51af890de5
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45167363"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46502913"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Een beveiligde omgeving voor het delen met gasten maken
 
@@ -101,6 +101,9 @@ Een voorwaardelijk toegangsbeleid maken
 12. Klik op de blade **Nieuw** onder **Beleid inschakelen** op **Aan** en klik vervolgens op **Maken**.
 
 De eerste keer dat een gastgebruiker probeert toegang te krijgen tot inhoud of een team of site in uw organisatie, moeten ze de gebruiksvoorwaarden accepteren.
+
+> [!NOTE]
+> Het gebruik van voorwaardelijke toegang vereist een licentie voor Azure AD Premium P1. Raadpleeg [Wat is voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) voor meer informatie.
 
 ### <a name="more-information"></a>Meer informatie
 [Gebruiksvoorwaarden voor Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use)

@@ -4,7 +4,7 @@ ms.reviewer: arvaradh
 f1.keywords: CSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Meer informatie over de typen groepen die u kunt gebruiken.
-ms.openlocfilehash: 333d929e72647421951eefa50508c23dddc196ac
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: ee8d14035ed9eb8296c54510b8fe1d374c9dc2b2
+ms.sourcegitcommit: f3a02584c9354a46c082f8f948b34a177adf65bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780455"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46514765"
 ---
 # <a name="compare-groups"></a>Groepen vergelijken
 
@@ -55,6 +55,8 @@ Groepsleden kunnen verzenden als of verzenden namens het e-mailadres van de groe
 
 Distributiegroepen zijn het meest geschikt voor situaties waarin u informatie wilt publiceren aan een bepaalde groep personen, zoals 'Medewerkers in gebouw A' of 'Iedereen bij Contoso'.
 
+Distributiegroepen kunnen worden [bijgewerkt naar Microsoft 365-groepen](https://docs.microsoft.com/microsoft-365/admin/manage/upgrade-distribution-lists).
+
 ## <a name="security-groups"></a>Beveiligingsgroepen
 
 [Beveiligingsgroepen](../email/create-edit-or-delete-a-security-group.md) worden gebruikt voor het verlenen van toegang tot Microsoft 365-bronnen, zoals SharePoint. Deze groepen kunnen het beheer vereenvoudigen, omdat u alleen de groep hoeft te beheren in plaats van afzonderlijke gebruikers aan afzonderlijke bronnen toe te voegen.
@@ -82,3 +84,5 @@ Momenteel is het niet mogelijk een gedeeld postvak te migreren naar een Microsof
 ## <a name="related-articles"></a>Verwante artikelen
 
 [Meer informatie over Microsoft 365-groepen](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+
+[Waarom u een upgrade voor uw distributielijsten moet uitvoeren naar groepen in Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)

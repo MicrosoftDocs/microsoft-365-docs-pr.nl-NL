@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. De Servicebeheerder opent bijvoorbeeld supporttickets met Microsoft.
-ms.openlocfilehash: e76024f1d13e9210b74e2f6c4fc63c9992615099
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 361c6599dfccbe7a80fa520bcd1fa988a1fae536
+ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015909"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506283"
 ---
 # <a name="about-admin-roles"></a>Informatie over beheerdersrollen
 
@@ -61,7 +61,7 @@ In het Microsoft 365-beheercentrum kunt u naar **Rollen**gaan en vervolgens een 
 
 ::: moniker-end
 
-Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen. Standaard tonen we eerst de rollen die de meeste organisaties gebruiken. Als u een rol niet kunt vinden, gaat u naar het einde van de lijst en selecteert u **Meer rollen weergeven**. (Zie [machtigingen voor beheerdersrol in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)voor meer informatie, waaronder de cmdlets die zijn gekoppeld aan een rol.)
+Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen. Standaard tonen we eerst de rollen die de meeste organisaties gebruiken. Als u een rol niet kunt vinden, gaat u naar het einde van de lijst en selecteert u **Alles weergeven per categorie**. (Zie [machtigingen voor beheerdersrol in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)voor meer informatie, waaronder de cmdlets die zijn gekoppeld aan een rol.)
 
 |Beheerdersrol     |Aan wie moet deze rol worden toegewezen?  |
 |---------|---------|
