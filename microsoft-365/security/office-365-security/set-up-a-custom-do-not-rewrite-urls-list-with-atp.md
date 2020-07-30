@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het instellen van aangepaste geblokkeerde URL's voor gebruikers en het niet herschrijven van de lijst met URL's voor een groep gebruikers in het beleid voor veilige koppelingen met Office 365 ATP.
-ms.openlocfilehash: 183291ef5b43248c5ff3d4e63b03a170416119bf
-ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
+ms.openlocfilehash: 7d7c8ad3f5ae0f6a79bd839151ed09628e7f2dfd
+ms.sourcegitcommit: df59c83174d845b8ddec48b9be2659fbfb58bb7f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702534"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46517471"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>Een aangepaste lijst met URL's die niet opnieuw worden herschreven instellen met atp-veilige koppelingen
 
@@ -60,11 +60,13 @@ Als u ATP-beleid wilt bewerken (of definiëren), moet u een geschikte rol toegew
 
 4. Geef een naam en beschrijving op voor uw polis.
 
-5. Selecteer in de sectie **De volgende URL's niet herschrijven** het vak **Een geldige URL invoeren** en typ vervolgens een URL en kies het plusteken (+).
+5. URL's **inschakelen** wordt herschreven en gecontroleerd aan de hand van een lijst met bekende schadelijke koppelingen wanneer gebruikers op de link klikken.
 
-6. Kies in de sectie **Toegepast op** de ontvanger **lid van**de groep(en) die u in uw polis wilt opnemen. Kies **Toevoegen**en kies **vervolgens OK**.
+6. Selecteer in de sectie **De volgende URL's niet herschrijven** het vak **Een geldige URL invoeren,** voer een URL in en kies vervolgens het plusteken (+).
 
-7. Wanneer u klaar bent met het toevoegen van URL's, kiest u in de rechterbenedenhoek van het scherm **Opslaan**.
+7. Kies in de sectie **Toegepast op** de ontvanger **lid van**de groep(en) die u in uw polis wilt opnemen. Kies **Toevoegen**en kies **vervolgens OK**.
+
+8. Wanneer u klaar bent met het toevoegen van URL's, kiest u in de rechterbenedenhoek van het scherm **Opslaan**.
 
 > [!NOTE]
 > Controleer de aangepaste lijst met geblokkeerde URL's van uw organisatie. Zie [Een aangepaste lijst met geblokkeerde URL's instellen met ATP-veilige koppelingen](set-up-a-custom-blocked-urls-list-atp.md).

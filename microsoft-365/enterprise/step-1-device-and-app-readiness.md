@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Leer hoe u de apparaat- en app-gereedheid in de omgeving kunt beoordelen.
-ms.openlocfilehash: 8596d23356fd8eda733938ad3a6fc0fbe81fcce3
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 2389dcfe70108e261208191bd3674eced702b4c6
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011661"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434155"
 ---
 # <a name="step-1-device-and-app-readiness"></a>Stap 1: apparaat- en app-gereedheid
 
@@ -35,9 +35,8 @@ ms.locfileid: "44011661"
 </thead>
 </table>
 
->[!NOTE]
->De apparaat- en app-gereedheid is de eerste stap in ons aanbevolen implementatieproces door de holistische aspecten van de toepassings- en hardwarecompatibiliteit te behandelen. Ga naar het [Implementatiecentrum voor desktops](https://aka.ms/HowToShift) om het volledige desktop-implementatieproces te zien.
->
+> [!NOTE]
+> De apparaat- en app-gereedheid is de eerste stap in ons aanbevolen implementatieproces door de holistische aspecten van de toepassings- en hardwarecompatibiliteit te behandelen. Ga naar het [Implementatiecentrum voor desktops](https://aka.ms/HowToShift) om het volledige desktop-implementatieproces te zien.
 
 In het verleden was toepassings- en hardwarecompatibiliteit een belangrijke horde voor het upgraden van de desktops van gebruikers. Het goede nieuws bij het plannen van uw overstap naar Windows 10 en Microsoft 365-apps voor ondernemingen is dat zo ongeveer elke toepassing die in de afgelopen 10 jaar is geschreven, kan worden uitgevoerd op Windows 10. De eventuele COM-invoegtoepassingen en VBA-macro's van uw organisatie die werden gebruikt in versies van Office die teruggaan tot Office 2010 blijven werken met de nieuwste versies van Office, zonder aanpassingen.
 
@@ -47,11 +46,13 @@ In dit artikel wordt u begeleid bij de eerste fase: apparaat- en app-gereedheid.
 
 ## <a name="windows-10-compatibility-scan"></a>Compatibiliteitsscan voor Windows 10
 
-Voordat u Windows 10 implementeert, wordt u aangeraden de gereedheid van de bestaande apparaten met Windows 7 of 8/8.1 te controleren. De Installatiemedia voor Windows 10 ondersteunen een opdrachtregelschakeloptie voor het uitvoeren van het setup.exe, waarbij alleen op compatibiliteit wordt gecontroleerd en de upgrade zelf niet wordt uitgevoerd. ScanOnly kan worden uitgevoerd als een batchbestand met een script of worden geïntegreerd in een taakreeks van Microsoft Endpoint Configuration Manager, met inbegrip van de mogelijkheid om ScanOnly rechtstreeks vanuit het netwerk uit te voeren, zodat de Windows 10-installatiemedia niet naar het lokale apparaat worden gestreamd. Wanneer ScanOnly is voltooid, worden de resultaten via retourcodes geretourneerd in logboekbestanden die worden gegenereerd door Setup.EXE.   
+Voordat u Windows 10 implementeert, wordt u aangeraden de gereedheid van de bestaande apparaten met Windows 7 of 8/8.1 te controleren. De Installatiemedia voor Windows 10 ondersteunen een opdrachtregelschakeloptie voor het uitvoeren van het setup.exe, waarbij alleen op compatibiliteit wordt gecontroleerd en de upgrade zelf niet wordt uitgevoerd. ScanOnly kan worden uitgevoerd als een batchbestand met een script of worden geïntegreerd in een taakreeks van Microsoft Endpoint Configuration Manager, met inbegrip van de mogelijkheid om ScanOnly rechtstreeks vanuit het netwerk uit te voeren, zodat de Windows 10-installatiemedia niet naar het lokale apparaat worden gestreamd. Wanneer ScanOnly is voltooid, worden de resultaten via retourcodes geretourneerd in logboekbestanden die worden gegenereerd door Setup.EXE.
 
 Een voorbeeld van een ScanOnly-opdrachtregel waarmee de compatibiliteitsscan op de achtergrond wordt uitgevoerd, ziet er ongeveer als volgt uit:
 
-    Setup.EXE /Auto Upgrade /Quiet /NoReboot /Compat ScanOnly
+```dos
+Setup.EXE /Auto Upgrade /Quiet /NoReboot /Compat ScanOnly
+```
 
 Voor meer informatie over ScanOnly en andere opdrachtschakelopties voor Windows Setup, raadpleegt u de [Opdrachtregelopties voor Windows Setup](https://aka.ms/setupswitches).
 
@@ -61,7 +62,7 @@ Desktop Analytics biedt veel voordelen ten opzichte van traditionele bureaubladb
 
 Als u Desktop Analytics wilt instellen, moet u eerst een Azure-abonnement instellen waarin een werkruimte voor Azure Log Analytics is opgenomen. Wanneer u beschikt over Desktop Analytics kunt u vervolgens elk Windows 7 SP1-apparaat of nieuwer apparaat registreren via Groepsbeleidsinstellingen. Zo eenvoudig is het. Er zijn geen agenten om te implementeren en de visuele werkstroom van Desktop Analytics helpt u bij de implementatie van pilot- tot productimplementatie. Als u wilt, kunt u gegevens uit Desktop Analytics exporteren naar hulpprogramma's voor software-implementatie, zoals Microsoft Endpoint Configuration Manager (Current Branch), om doel-pc's rechtstreeks aan te pakken en om verzamelingen te maken wanneer ze klaar zijn voor implementatie.
 
-Als u op dit moment Desktop Analytics niet hebt ingesteld voor uw omgeving of als u zich wilt registreren voor een proefversie, gaat u naar de pagina Desktop Analytics](https://www.aka.ms/desktopanalytics) en gaat u aan de slag.
+Als u op dit moment Desktop Analytics niet hebt ingesteld voor uw omgeving of als u zich wilt registreren voor een proefversie, gaat u naar de [pagina Desktop Analytics](https://www.aka.ms/desktopanalytics) om aan de slag te gaan.
 
 ## <a name="device-and-app-readiness-process"></a>Het apparaat- en app-gereedheidsproces
 
@@ -103,10 +104,9 @@ Naarmate u door de lijst gaat en problemen oplost, ziet u dat er meer en meer pc
 
 ### <a name="configuration-manager-software-inventory-for-application-prioritization"></a>Software-inventarisatie in Configuration Manager voor het prioriteit geven aan toepassingen
 
-Software-inventarisatie in Configuration Manager is een alternatief voor het gebruik van analyse-oplossingen in de cloud voor apparaat- en app-gereedheid. U kunt het aantal installaties gebruiken en u richten op specifieke computers om prioriteit te geven aan compatibiliteitstests en -validatie en toepassingspakketten in te stellen die compatibel zijn met Windows 10 via pakketinstellingen. Hoewel u met deze optie geen bekende compatibiliteitsgegevens kunt vergelijken met de analytische services van Microsoft, kan dit een effectieve oplossing zijn voor het instellen van een kleinere set apps met prioriteit voor handmatig testen. 
+Software-inventarisatie in Configuration Manager is een alternatief voor het gebruik van analyse-oplossingen in de cloud voor apparaat- en app-gereedheid. U kunt het aantal installaties gebruiken en u richten op specifieke computers om prioriteit te geven aan compatibiliteitstests en -validatie en toepassingspakketten in te stellen die compatibel zijn met Windows 10 via pakketinstellingen. Hoewel u met deze optie geen bekende compatibiliteitsgegevens kunt vergelijken met de analytische services van Microsoft, kan dit een effectieve oplossing zijn voor het instellen van een kleinere set apps met prioriteit voor handmatig testen.
 
 Raadpleeg voor meer informatie [Inleiding tot software-inventarisatie in Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) en voor het instellen van platformvereisten in toepassingspakketten [Pakketten en programma's in Configuration Manager](https://docs.microsoft.com/mem/configmgr/apps/deploy-use/packages-and-programs).
-
 
 ## <a name="app-assure"></a>App Assure
 
@@ -116,6 +116,6 @@ Een andere tool voor het oplossen van compatibiliteit met Windows 10 en de app v
 
 Desktop Analytics is niet alleen een tool waarmee u kunt overstappen naar Windows 10 en Microsoft 365-apps voor ondernemingen. Wanneer u eenmaal desktops op Windows 10 en Office 365 hebt draaien, kunt u deze gebruiken om uw implementatie te onderhouden en de halfjaarlijkse functie-updates te beheren, zodat u actueel kunt blijven.
 
-## <a name="next-step"></a>Volgende stap 
+## <a name="next-step"></a>Volgende stap
 
 ## <a name="step-2-directory-and-network-readiness"></a>[Stap 2: gereedheid van directory en netwerk](https://aka.ms/mdd2)

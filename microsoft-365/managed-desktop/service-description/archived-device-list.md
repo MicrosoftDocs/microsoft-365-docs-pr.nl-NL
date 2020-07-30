@@ -8,12 +8,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: ca6bc91ebf300afe47326985cc923d929b2cd412
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 4c7ce4e8fd9c41f9ae9417f546e14e7bf8beda5c
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080079"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46503065"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Gearchiveerde apparaten van Microsoft Managed Desktop
 
@@ -43,6 +43,9 @@ Als u wilt deelnemen aan Microsoft Managed Desktop, moet een apparaat een van de
 |HP EliteBook x360 1030 G3| 256 GB / Intel i5 / 8 GB RAM | SKU met 5VS01AV, IR-camera vereist |**14 mei 2023** |
 |HP EliteBook x360 1040 G5| 256 GB / Intel i5 / 8 GB RAM | SKU met 5VS01AV, IR-camera vereist | **23 okt 2023** |
 |HP ProBook x360 440 G1| 128 GB / Intel i3 / 8 GB RAM | SKU met 5VS04AV, IR-camera of vingerafdruklezer vereist | **6 juni 2023** |
+|HP EliteDesk 800 G4 DM | 128 GB / Intel i3 / 8 GB RAM | SKU met 5VS04AV | **18 juli 2023** |
+|HP EliteDesk 800 G4 SFF | 128 GB / Intel i3 / 8 GB RAM | SKU met 5VS04AV | **18 juli 2023** |
+|HP EliteOne 800 G4 23.8in AIO |128 GB / Intel i3 / 8 GB RAM |SKU met 5VS04AV| **18 juli 2023** |
 |Surface Book 2| 256 GB / Intel i5 / 8 GB RAM | Geen | **16 november 2022** |
 |Surface Go| 128 GB / Intel 4415Y / 8GB RAM | Geen | **2 augustus 2023** |
 |Surface-laptop| 256 GB / Intel i5 / 8 GB RAM | Geen | **20 mei 2022** |

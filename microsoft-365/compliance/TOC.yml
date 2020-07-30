@@ -319,8 +319,8 @@
           href: event-driven-retention.md
         - name: De levenscyclus van SharePoint-documenten beheren
           href: auto-apply-retention-labels-scenario.md
-    - name: Gegevens verwijderen
-      href: disposition.md
+        - name: Gegevensverwerking beheren
+          href: disposition.md
     - name: Inactieve postvakken beheren
       items:
         - name: Overzicht van inactieve postvakken

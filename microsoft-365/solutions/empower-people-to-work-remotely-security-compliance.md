@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 06/22/2020
+ms.date: 07/23/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Gebruik beveiligings- en complianceservices van Microsoft 365 om uw apps, gegevens en apparaten te beveiligen voor externe werknemers.
-ms.openlocfilehash: 5ba60a04cf6717f8f9261ed72336445c8d7876bc
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 82c86ae2ab53c642a1fcdb64a9bbb75e04d5f6fc
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127072"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429897"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>Stap 3: Het implementeren van beveiliging en compliance voor externe werknemers
 
@@ -47,8 +47,8 @@ Beveilig uw toepassingen en gegevens met deze beveiligingsfuncties van Microsoft
 
 | Functie | Beschrijving | Licenties |
 |:-------|:-----|:-------|
-| Office 365 Advanced Threat Protection (ATP) | Beveilig uw Microsoft 365-apps en -gegevens tegen een aanval, zoals e-mailberichten, Office-documenten en hulpmiddelen voor samenwerking. <br><br> Met Office ATP worden signalen van uw apps verzameld en geanalyseerd voor detectie, onderzoek en herstel van beveiligingsrisico's en wordt uw organisatie beschermd tegen bedreigingen in de vorm van e-mailberichten, koppelingen (URL's) en hulpmiddelen voor samenwerking. | Microsoft 365 E3 en E5 | 
-| Bescherming tegen malware | Windows Defender Antivirus en Device Guard bieden apparaatgerichte bescherming tegen malware. <br><br> In SharePoint Online wordt het uploaden van bestanden automatisch gescand op bekende malware. ‎<br><br> Exchange Online Protection (EOP) beveiligt postvakken in de cloud. | Microsoft 365 E3 en E5 |
+| Office 365 Advanced Threat Protection (ATP) | Beveilig uw Microsoft 365-apps en -gegevens tegen een aanval, zoals e-mailberichten, Office-documenten en hulpmiddelen voor samenwerking. <br><br> Met Office ATP worden signalen van uw apps verzameld en geanalyseerd voor detectie, onderzoek en herstel van beveiligingsrisico's en wordt uw organisatie beschermd tegen bedreigingen in de vorm van e-mailberichten, koppelingen (URL's) en hulpmiddelen voor samenwerking. | Microsoft 365 E3 of E5 | 
+| Bescherming tegen malware | Microsoft Defender Antivirus en Device Guard bieden apparaatbescherming tegen malware. <br><br> In SharePoint Online wordt het uploaden van bestanden automatisch gescand op bekende malware. ‎<br><br> Exchange Online Protection (EOP) beveiligt postvakken in de cloud. | Microsoft 365 E3 of E5 |
 | Microsoft Defender ATP | Beveilig de apparaten van uw organisatie tegen cyberbedreigingen en datalekken en detecteer, onderzoek en reageer op geavanceerde bedreigingen. | Microsoft 365 E5 |
 | Cloud App Security | Beveilig de cloudservices tegen een aanval. Zowel Microsoft 365 als andere SaaS-apps. | Microsoft 365 E5-licentie of afzonderlijke Cloud App Security-licenties |
 | Azure AD Identity Protection  | Detectie en herstel van identiteitsrisico's automatiseren. <br><br>Maak een risicobeleid voor voorwaardelijke toegang aan, waarbij meervoudige verificatie (MFA) voor risicovolle aanmeldingen vereist is. | Microsoft 365 E5 of E3 met Azure AD Premium P2-licenties |
@@ -62,13 +62,15 @@ Voldoe aan interne beleidsregels of wettelijk voorgeschreven vereisten met deze 
 
 | Functie | Beschrijving | Licenties |
 |:-------|:-----|:-------|
-| Vertrouwelijkheidslabels | Classificeer en bescherm de gegevens van uw organisatie zonder de productiviteit van gebruikers en hun vermogen om samen te werken te belemmeren door het labelen van e-mail, bestanden of websites met diverse beschermingsniveaus. | Microsoft 365 E3 en E5 |
-| Preventie van gegevensverlies (DLP) | Detecteer, waarschuw voor en blokkeer risicovol, onbedoeld of ongepast delen, zoals het delen van gegevens met persoonlijke informatie, zowel intern als extern. | Microsoft 365 E3 en E5 | 
-| App-beheer voor voorwaardelijke toegang | Voorkom dat gebruikers gevoelige gegevens downloaden naar persoonlijke apparaten. | Microsoft 365 E3 en E5 |
-| Labels en beleid voor gegevensretentie | Implementeer informatiebeheer-besturingselementen, zoals hoe lang gegevens bewaard blijven en vereisten voor het opslaan van persoonlijke gegevens van klanten, om te voldoen aan het beleid of de gegevensvoorschriften van uw organisatie. | Microsoft 365 E3 en E5 |
-| Office-berichtversleuteling (OME) | Versleutelde e-mailberichten met gereguleerde gegevens, zoals persoonlijke gegevens van klanten, verzenden naar en ontvangen van personen binnen en buiten de organisatie. | Microsoft 365 E3 en E5 |
-| Compliancebeheer | Beheer van wettelijk voorgeschreven complianceactiviteiten met betrekking tot de cloudservices van Microsoft met dit hulpprogramma voor risicoanalyse op basis van werkstromen in het Service Trust Portal van Microsoft. | Microsoft 365 E3 en E5 |
-| Compliancescore (preview) | Bekijk een totaalscore van uw huidige complianceconfiguratie en aanbevelingen voor het verbeteren hiervan in het Microsoft 365 Compliance Center. | Microsoft 365 E3 en E5 |
+| Vertrouwelijkheidslabels | Classificeer en bescherm de gegevens van uw organisatie zonder de productiviteit van gebruikers en hun vermogen om samen te werken te belemmeren door het labelen van e-mail, bestanden of websites met diverse beschermingsniveaus. | Microsoft 365 E3 of E5 |
+| Preventie van gegevensverlies (DLP) | Detecteer, waarschuw voor en blokkeer risicovol, onbedoeld of ongepast delen, zoals het delen van gegevens met persoonlijke informatie, zowel intern als extern. | Microsoft 365 E3 of E5 | 
+| App-beheer voor voorwaardelijke toegang | Voorkom dat gebruikers gevoelige gegevens downloaden naar persoonlijke apparaten. | Microsoft 365 E3 of E5 |
+| Labels en beleid voor gegevensretentie | Implementeer informatiebeheer-besturingselementen, zoals hoe lang gegevens bewaard blijven en vereisten voor het opslaan van persoonlijke gegevens van klanten, om te voldoen aan het beleid of de gegevensvoorschriften van uw organisatie. | Microsoft 365 E3 of E5 |
+| Office-berichtversleuteling (OME) | Versleutelde e-mailberichten met gereguleerde gegevens, zoals persoonlijke gegevens van klanten, verzenden naar en ontvangen van personen binnen en buiten de organisatie. | Microsoft 365 E3 of E5 |
+| Compliancebeheer | Beheer van wettelijk voorgeschreven complianceactiviteiten met betrekking tot de cloudservices van Microsoft met dit hulpprogramma voor risicoanalyse op basis van werkstromen in het Service Trust Portal van Microsoft. | Microsoft 365 E3 of E5 |
+| Compliancescore (preview) | Bekijk een totaalscore van uw huidige complianceconfiguratie en aanbevelingen voor het verbeteren hiervan in het Microsoft 365 Compliance Center. | Microsoft 365 E3 of E5 |
+| Communicatiecompliance  | Detecteer, onderschep en herstel ongepaste berichten in uw organisatie. | Microsoft 365 E5 of Microsoft 365 E3 met de invoegtoepassingen Compliance of Intern risicobeheer |
+| Intern risicobeheer |  Detecteer, onderzoek en onderneem actie op schadelijke en onbedoelde activiteiten in uw organisatie. Microsoft 365 kan dit soort activiteiten zelfs wanneer een werknemer een niet-beheerd apparaat gebruikt detecteren. | Microsoft 365 E5 of Microsoft 365 E3 met de invoegtoepassingen Compliance of Intern risicobeheer |
 ||||
 
 Zie [Belangrijkste 12 taken voor beveiligingsteams om het thuiswerken te ondersteunen](../security/top-security-tasks-for-remote-work.md) voor meer informatie.

@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: Een korte beschrijving van wat Exchange Online-beheerders moeten doen om de S/MIME-instellingen in de webversie van Outlook in Exchange Online weer te geven en te configureren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2c1496025124717688cc812e22e0d8fe3a441112
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: b9f4e6c33369640ad66956568959dd02b01c4fb9
+ms.sourcegitcommit: df59c83174d845b8ddec48b9be2659fbfb58bb7f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616620"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46517483"
 ---
 # <a name="configure-smime-settings-in-exchange-online-for-outlook-on-the-web"></a>S/MIME-instellingen configureren in de webversie van Exchange Online voor Outlook
 
@@ -31,7 +31,7 @@ Zie [Get-SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/get-
 
 ## <a name="considerations-for-new-microsoft-edge-chromium-based"></a>Overwegingen voor nieuwe Microsoft Edge (op chromium gebaseerd)
 
-Als u S/MIME wilt gebruiken in de webversie van Outlook in de nieuwe [Microsoft Edge-webbrowser,](https://www.microsoft.com/windows/microsoft-edge) moet u (of een andere beheerder) het Microsoft Edge-browserbeleid met de naam **ExtensionInstallForcelist** instellen en configureren om de Microsoft S/MIME-extensie in nieuwe Microsoft Edge te installeren. De beleidswaarde is `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` . En houd er rekening mee dat voor het toepassen van dit beleid computers die zijn samengevoegd, vereist het gebruik van S/MIME in de nieuwe Microsoft Edge-browser effectief computers die zijn samengevoegd met een domein.
+Als u S/MIME wilt gebruiken in de webversie van Outlook in de nieuwe [Microsoft Edge-webbrowser,](https://www.microsoft.com/windows/microsoft-edge) moet u (of een andere beheerder) het Microsoft Edge-browserbeleid met de naam **ExtensionInstallForcelist** instellen en configureren om de Microsoft S/MIME-extensie in de nieuwe Microsoft Edge te installeren. De beleidswaarde is `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` . En houd er rekening mee dat voor het toepassen van dit beleid apparaten die lid zijn van domeinen of azure ad-joined, vereist het gebruik van S/MIME in de nieuwe Microsoft Edge-browser effectief apparaten met een domein of met Azure AD.
 
 Zie ExtensionInstallForcelist voor meer informatie over het beleid **voor ExtensieinstallForcelist** . [ExtensionInstallForcelist](https://docs.microsoft.com/DeployEdge/microsoft-edge-policies#extensioninstallforcelist)
 

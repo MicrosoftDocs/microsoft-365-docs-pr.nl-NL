@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
-ms.openlocfilehash: ffde9288338f14ea23fa39990ccd9363c7fd2a84
-ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
+ms.openlocfilehash: d8a8ab2f5c7de5d57f50ec6b1c26e0fc71ac6616
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45039376"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434047"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -85,11 +85,11 @@ Rapporten worden in realtime bijgewerkt en voorzien u zo van de nieuwste inzicht
 
 - [Bedreigingsverkenner (of realtime detecties)](threat-explorer.md)
 
-- [Statusrapport risicobeveiliging](view-reports-for-atp.md#threat-protection-status-report)
+- [Statusrapport bedreigingsbeveiliging](view-reports-for-atp.md#threat-protection-status-report)
 
-- [ATP-bestandstyperapport](view-reports-for-atp.md#atp-file-types-report)
+- [Rapport over bestandstypen Advanced Threat Protection](view-reports-for-atp.md#advanced-threat-protection-file-types-report)
 
-- [ATP-rapport over berichtverwerking](view-reports-for-atp.md#atp-message-disposition-report)
+- [Rapport over berichtverwerking Advanced Threat Protection](view-reports-for-atp.md#advanced-threat-protection-message-disposition-report)
 
 - ... en verschillende andere.
 

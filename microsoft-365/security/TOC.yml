@@ -423,7 +423,7 @@
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: Schadelijke e-mail verhelpen
               href: ./office-365-security/remediate-malicious-email-delivered-office-365.md
-            - name: Uw ATP-rapporten bekijken en lezen
+            - name: ATP-rapporten bekijken in Beveiligings- en compliancecentrum
               href: ./office-365-security/view-reports-for-atp.md
             - name: De nieuwste aanvallen begrijpen met bedreigingsanalyse
               href: ./mtp/latest-attack-campaigns.md

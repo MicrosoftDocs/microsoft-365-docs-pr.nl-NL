@@ -1,5 +1,5 @@
 ---
-title: De standaard- of gerichte releaseopties instellen
+title: De opties voor standaard of gerichte release instellen
 f1.keywords:
 - CSH
 ms.author: sirkkuw
@@ -21,15 +21,15 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
-description: Meer informatie over het instellen van de releaseoptie voor nieuwe product- en functiesupdates in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 4b26a3e95b11feb5c6a5894702b86e74f82bde03
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over het instellen van de releaseoptie voor nieuwe product- en functies-updates in het Microsoft 365-beheercentrum.
+ms.openlocfilehash: 3baec050f33893357b25c832552643cf3a6d10d0
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399690"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46502877"
 ---
-# <a name="set-up-the-standard-or-targeted-release-options"></a>De standaard- of gerichte releaseopties instellen
+# <a name="set-up-the-standard-or-targeted-release-options"></a>De opties voor standaard of gerichte release instellen
 
 ::: moniker range="o365-21vianet"
 
@@ -41,25 +41,28 @@ ms.locfileid: "44399690"
 Met Microsoft 365 ontvangt u nieuwe productupdates en -functies zodra deze beschikbaar zijn in plaats van om de paar jaar dure updates uit te voeren. U kunt beheren hoe uw organisatie deze updates ontvangt. U kunt u bijvoorbeeld registreren voor een vroege release, zodat uw organisatie updates als eerste ontvangt. U kunt bepaalde personen aanwijzen die als enigen de updates ontvangen. Of u blijft het standaardreleaseschema volgen en ontvangt de updates later. In dit artikel worden de verschillende releaseopties uitgelegd en hoe u deze gebruiken voor uw organisatie.
   
 > [!IMPORTANT]
-> De in dit artikel beschreven Microsoft 365-updates zijn van toepassing op Microsoft 365, SharePoint Online en Exchange Online. Ze zijn niet van toepassing op Skype voor Bedrijven en gerelateerde services. Deze release opties zijn gericht, best effort manieren om wijzigingen in Microsoft 365 release, maar kan niet worden gegarandeerd te allen tijde of voor alle updates. 
+> De In dit artikel beschreven Microsoft 365-updates zijn van toepassing op Microsoft 365, SharePoint Online en Exchange Online. Ze zijn niet van toepassing op Skype voor Bedrijven en gerelateerde services. Deze releaseopties zijn gerichte manieren om wijzigingen in Microsoft 365 vrij te geven, maar kunnen niet te allen tijde of voor alle updates worden gegarandeerd. 
+
+> [!NOTE]
+> Zie [Overzicht van updatekanalen voor Microsoft 365 Apps voor](https://docs.microsoft.com/deployoffice/overview-update-channels)informatie over updatekanalen voor toepassingen. 
   
 ## <a name="how-it-works---release-validation"></a>Hoe het werkt: validatie van releases
 
-Elke nieuwe release wordt eerst getest en gevalideerd door het featureteam, vervolgens door het hele Microsoft 365-functieteam, gevolgd door heel Microsoft. Na intern testen en valideren bestaat de volgende stap uit een **Targeted Release** (eerder bekend als First Release) voor klanten die zich aanmelden. Bij elke release-ring verzamelt Microsoft feedback en valideert de kwaliteit verder door belangrijke gebruiksgegevens te controleren. Deze reeks van toenemende validatie is ingesteld om er voor te zorgen dat de mondiale release zo robuust mogelijk is. De releases worden in de volgende afbeelding geïllustreerd. 
+Elke nieuwe release wordt eerst getest en gevalideerd door het functieteam, vervolgens door het hele Microsoft 365-functieteam, gevolgd door heel Microsoft. Na intern testen en valideren bestaat de volgende stap uit een **Targeted Release** (eerder bekend als First Release) voor klanten die zich aanmelden. Bij elke release-ring verzamelt Microsoft feedback en valideert de kwaliteit verder door belangrijke gebruiksgegevens te controleren. Deze reeks van toenemende validatie is ingesteld om er voor te zorgen dat de mondiale release zo robuust mogelijk is. De releases worden in de volgende afbeelding geïllustreerd. 
   
-![Validatieringen vrijgeven voor Microsoft 365](../../media/73611ed3-2d8c-4e7b-8074-9f03b239f9ed.png)
+![Validatieringen voor Microsoft 365 vrijgeven](../../media/73611ed3-2d8c-4e7b-8074-9f03b239f9ed.png)
   
-Voor belangrijke updates worden klanten in eerste instantie op de hoogte gebracht door de [Microsoft 365 Roadmap.](https://products.office.com/business/office-365-roadmap) Naarmate een update dichter bij de uitrol komt, wordt deze gecommuniceerd via uw [Microsoft 365 Message Center.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter)
+Voor belangrijke updates worden klanten in eerste instantie op de hoogte gebracht door de [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap). Als een update dichter bij de uitrol komt, wordt deze gecommuniceerd via uw [Microsoft 365 Message center.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter)
 
 > [!NOTE]
-> U hebt een Microsoft 365- of Azure AD-account nodig om toegang te krijgen tot uw Berichtencentrum via het [beheercentrum.](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center) Microsoft 365 home plan gebruikers hebben geen admin center.
+> U hebt een Microsoft 365- of Azure AD-account nodig om toegang te krijgen tot uw Berichtencentrum via het [beheercentrum.](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center) Gebruikers van Microsoft 365 home plan hebben geen beheercentrum.
 
 
 ## <a name="standard-release"></a>Standard Release
 
-Dit is de standaardoptie waarbij u en uw gebruikers de nieuwste updates ontvangen wanneer ze breed worden uitgebracht voor alle klanten.
+Dit is de standaardoptie waarbij u en uw gebruikers de nieuwste updates ontvangen wanneer ze breed worden vrijgegeven aan alle klanten.
   
-Een goede gewoonte is om de meerderheid van de gebruikers in **Standard release** en IT-professionals en power users in **Targeted release** om nieuwe functies te evalueren en teams voor te bereiden op zakelijke gebruikers en leidinggevenden te ondersteunen. 
+Een goede praktijk is om de meerderheid van de gebruikers in **Standard release** en IT Pro's en power users in **Targeted release** om nieuwe functies te evalueren en teams voor te bereiden om zakelijke gebruikers en leidinggevenden te ondersteunen. 
   
 > [!NOTE]
 > Als u van het First Release-programma teruggaat naar het Standard Release-programma, hebben uw gebruikers mogelijk geen toegang meer tot functies die nog niet zijn opgenomen in het Standard Release-programma. 
@@ -73,15 +76,15 @@ Met deze optie zien u en uw gebruikers als eersten de nieuwste updates en kunt u
   
 ### <a name="targeted-release-for-entire-organization"></a>Targeted Release voor de hele organisatie
 
-Als u [de releaseoptie instelt in het beheercentrum](#set-up-the-release-option-in-the-admin-center) voor deze optie, krijgen al uw gebruikers de gerichte release-ervaring. Voor organisaties met meer dan 300 gebruikers wordt een testabonnement op deze optie aanbevolen. Neem contact op met uw Microsoft-contactpersoon voor meer informatie. 
+Als u de releaseoptie voor deze optie [in het beheercentrum instelt,](#set-up-the-release-option-in-the-admin-center) krijgen al uw gebruikers de gerichte release-ervaring. Voor organisaties met meer dan 300 gebruikers wordt een testabonnement op deze optie aanbevolen. Neem contact op met uw Microsoft-contactpersoon voor meer informatie. 
   
 ### <a name="targeted-release-for-selected-users"></a>Targeted Release voor specifieke gebruikers
 
-Als u [de releaseoptie inhet beheercentrum](#set-up-the-release-option-in-the-admin-center) voor deze optie instelt, u specifieke gebruikers, meestal powerusers, definiëren om vroege toegang tot functies en functionaliteit te ontvangen. 
+Als u de releaseoptie voor deze optie [in het beheercentrum instelt,](#set-up-the-release-option-in-the-admin-center) u specifieke gebruikers definiëren, meestal power users, om vroegtijdig toegang te krijgen tot functies en functionaliteit. 
   
 ## <a name="benefits-of-targeted-release"></a>Voordelen van Targeted Release
 
-Met gerichte release kunnen beheerders, wijzigingsmanagers of iemand anders die verantwoordelijk is voor Microsoft 365-updates zich voorbereiden op de komende wijzigingen door ze te laten zien:
+Met gerichte release kunnen beheerders, change managers of iemand anders die verantwoordelijk zijn voor Microsoft 365-updates zich voorbereiden op de komende wijzigingen door ze te laten:
   
 - Nieuwe updates testen en valideren voordat deze worden uitgebracht voor alle gebruikers in de organisatie.
     
@@ -95,20 +98,20 @@ Met gerichte release kunnen beheerders, wijzigingsmanagers of iemand anders die 
     
 ## <a name="set-up-the-release-option-in-the-admin-center"></a>De releaseoptie instellen in het beheercentrum
 
-U de manier wijzigen waarop uw organisatie Microsoft 365-updates ontvangt door deze stappen te volgen. Je moet een globale beheerder in Microsoft 365 zijn om je aan te melden.
+U de manier wijzigen waarop uw organisatie Microsoft 365-updates ontvangt door deze stappen te volgen. Je moet een wereldwijde beheerder in Microsoft 365 om in te kiezen.
   
 > [!IMPORTANT]
 > Het kan tot 24 uur duren voordat de onderstaande wijzigingen van kracht worden in Microsoft 365. Als u zich afmeldt nadat u het programma hebt ingeschakeld, hebben uw gebruikers mogelijk geen toegang meer tot functies waarvan de geplande release nog niet beschikbaar is. 
   
-1. Ga in het beheercentrum **Settings**naar de  >  **instelling Instellingen van de organisatie**en kies onder het tabblad **Organisatieprofiel** de **optie Voorkeuren vrijgeven**.
+1. Ga in het beheercentrum **Settings**naar de  >  **instelling Instellingen organisatie**en kies onder het profiel van de **organisatie** de optie **Voorkeuren vrijgeven**.
 
 5. Als u gerichte release wilt uitschakelen, selecteert u **Standaardrelease**en selecteert u **Wijzigingen opslaan**. 
     
-6. Als u gerichte release wilt inschakelen voor alle gebruikers in uw organisatie, selecteert u **Gerichte release voor iedereen**en selecteert u Wijzigingen **opslaan**. 
+6. Als u gerichte release voor alle gebruikers in uw organisatie wilt inschakelen, selecteert u **Gerichte release voor iedereen**en selecteert u Wijzigingen **opslaan.** 
     
-7. Als u gerichte release voor sommige mensen in uw organisatie wilt inschakelen, selecteert u **Gerichte release voor geselecteerde gebruikers**en selecteert u Wijzigingen **opslaan**. 
+7. Als u gerichte release voor sommige mensen in uw organisatie wilt inschakelen, selecteert u **Gerichte release voor geselecteerde gebruikers**en selecteert u Wijzigingen **opslaan.** 
     
-8. Kies **Gebruikers selecteren** om gebruikers één voor één toe te voegen of Gebruikers **uploaden** om ze in bulk toe te voegen.
+8. Kies **Gebruikers selecteren** om gebruikers één voor één toe te voegen of Upload **gebruikers** om ze in bulk toe te voegen.
     
 9. Wanneer u klaar bent met het toevoegen van gebruikers, selecteert u **Wijzigingen opslaan**.
 
@@ -116,4 +119,4 @@ U de manier wijzigen waarop uw organisatie Microsoft 365-updates ontvangt door d
   
 ## <a name="learn-more"></a>Meer informatie
 
-Ontdek hoe u [berichten beheert](https://docs.microsoft.com/office365/admin/manage/message-center) in uw [Microsoft 365-berichtencentrum](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter) om meldingen te ontvangen over aankomende Microsoft 365-updates en -releases.
+Ontdek hoe u [berichten beheert](https://docs.microsoft.com/office365/admin/manage/message-center) in uw [Microsoft 365-berichtencentrum](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter) om meldingen te ontvangen over toekomstige Microsoft 365-updates en -releases.
