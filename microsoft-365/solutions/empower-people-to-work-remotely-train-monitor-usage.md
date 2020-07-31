@@ -14,15 +14,16 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-- M365solutions
+- m365solution-remotework
+- m365solution-overview
 ms.custom: ''
 description: Train uw gebruikers en zorg ervoor dat problemen snel worden opgelost.
-ms.openlocfilehash: bb8c6614ed383136ef5724d45637891ee978c9cd
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 1954a3768d2a35c3193aa523d6383b7b8257a6a0
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160724"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521431"
 ---
 # <a name="step-6-train-remote-workers-and-address-usage-feedback"></a>Stap 6: Externe werknemers trainen en reageren op feedback over gebruik
 

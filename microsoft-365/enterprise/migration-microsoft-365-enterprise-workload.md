@@ -2,7 +2,7 @@
 title: Migratie naar Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/23/2019
+ms.date: 07/29/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,14 +12,20 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Doorloop het proces van het migreren van versies van Microsoft Office, Office-servers en Windows naar Microsoft 365 Enterprise binnen uw organisatie.
-ms.openlocfilehash: 6830b4627eea799e18d32d3f9150617df339d7d4
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 05654e4714d2328f2f5853ed49df83a907e580f6
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011793"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46528058"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Migratie naar Microsoft 365 Enterprise
+
+
+>[!Note]
+>Op zoek naar hulpprogramma's waarmee u uw *inhoud* naar Microsoft 365 kunt migreren?  Of het nu gaat om het migreren van inhoud van netwerkbestandsshares, SharePoint Server of andere cloudproviders een gratis migratieprogramma heeft dat aan uw behoeften voldoet. Meer informatie over onze GRATIS migratiehulpprogramma's op:
+>
+>[Gegevens migreren naar Microsoft 365](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online)
 
 De meeste ondernemingen hebben een heterogene omgeving met meerdere versies van besturingssystemen, clientsoftware en serversoftware. Microsoft 365 Enterprise bevat de veiligste versies van deze belangrijke componenten van uw IT-infrastructuur met productiviteitsfuncties die zijn ontworpen om te profiteren van cloudtechnologieën.
 
