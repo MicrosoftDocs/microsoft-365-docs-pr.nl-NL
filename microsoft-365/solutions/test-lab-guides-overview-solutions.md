@@ -1,5 +1,5 @@
 ---
-title: Test labgidsen voor oplossingen en scenario's
+title: Testlabrichtlijnen voor oplossingen en scenario's
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,18 +14,17 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-- M365solutions
 ms.custom:
 - Ent_Architecture
-description: Gebruik Test Lab-handleidingen om Microsoft 365-oplossingen en -scenario's uit te bouwen in een dev/testomgeving.
-ms.openlocfilehash: 38b06678df46189f49b40a5752803786a94784fe
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+description: Gebruik Test lab-gidsen om Microsoft 365-oplossingen en -scenario's uit te bouwen in een dev/testomgeving.
+ms.openlocfilehash: 7254596da5b2b8b32a01468d3ff1f34d4efd8db8
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159441"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521299"
 ---
-# <a name="test-lab-guides-for-solutions-and-scenarios"></a>Test labgidsen voor oplossingen en scenario's
+# <a name="test-lab-guides-for-solutions-and-scenarios"></a>Testlabrichtlijnen voor oplossingen en scenario's
 
 Met testlabrichtlijnen (TLG's) kunt u snel meer informatie krijgen over Microsoft-producten. Zij bieden instructies voor het configureren van vereenvoudigde maar representatieve testomgevingen. U kunt deze omgevingen gebruiken voor demonstratie, aanpassing of het maken van complexe testconcepten voor de duur van een proefabonnement of een betaald abonnement. 
 
@@ -35,5 +34,5 @@ U kunt TLG's ook gebruiken om representatieve omgevingen te maken voor het ontwi
   
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-Probeer [deze Test Lab Guide](team-security-isolation-dev-test.md) om een team op te zetten met beveiligingsisolatie.
+Probeer [deze Test Lab Guide](team-security-isolation-dev-test.md) om een team op te zetten met een beveiligingsisolatie.
 

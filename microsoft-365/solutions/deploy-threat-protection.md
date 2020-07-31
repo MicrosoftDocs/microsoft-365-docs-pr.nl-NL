@@ -10,15 +10,16 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-- M365solutions
+- m365solution-overview
+- m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: e39e69fa7c65d7846cc91b3603c5b6ef96f56752
-ms.sourcegitcommit: 92f641cad63379bf16417854a43b16b48a71a30a
+ms.openlocfilehash: 47ebc8fa23511fbb653b87a31c8a39e1d99c504e
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724844"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527718"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Mogelijkheden voor bedreigingsbescherming implementeren in Microsoft 365
 
@@ -70,7 +71,7 @@ Om ervoor te zorgen dat uw organisatie over de best mogelijke beveiliging beschi
 5. [Geavanceerde bedreigingsbeveiliging van Microsoft Defender configureren](deploy-threat-protection-configure.md#step-5-configure-microsoft-defender-advanced-threat-protection)
 6. [Beveiliging van Microsoft Cloud App configureren](deploy-threat-protection-configure.md#step-6-configure-microsoft-cloud-app-security)
 7. [Status bewaken en acties uitvoeren](deploy-threat-protection-configure.md#step-7-monitor-status-and-take-actions)
-8. [Treingebruikers](deploy-threat-protection-configure.md#step-8-train-users)
+8. [Gebruikers wegwijs maken](deploy-threat-protection-configure.md#step-8-train-users)
 
 Uw functies voor bedreigingsbeveiliging kunnen parallel worden geconfigureerd, dus als u meerdere beveiligingsteams hebt die verantwoordelijk zijn voor verschillende services, kunnen ze tegelijkertijd de beveiligingsfuncties van uw organisatie configureren. In het volgende diagram wordt het proces op hoog niveau voor het implementeren van mogelijkheden voor bedreigingsbescherming weergedrukt. 
 

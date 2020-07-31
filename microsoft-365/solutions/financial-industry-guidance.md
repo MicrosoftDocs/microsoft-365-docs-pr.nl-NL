@@ -7,18 +7,17 @@ audience: ITPro
 ms.topic: article
 ms.collection:
 - M365-security-compliance
-- M365solutions
 ms.prod: microsoft-365-enterprise
 ms.custom: ''
 localization_priority: Priority
 description: Ontdek hoe u financiële services met Microsoft 365 kunt overzetten naar een modern samenwerkingsplatform, waarbij gegevens en systemen beveiligd blijven conform de regelgeving
 f1.keywords: NOCSH
-ms.openlocfilehash: 30e9888a50f4a6ce28597e29760f3a7e7ba4c847
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 1aac8fec923adb896f96bdfe428dda7ebcebf596
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160492"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521181"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor Amerikaanse banken en kapitaalmarkten
 

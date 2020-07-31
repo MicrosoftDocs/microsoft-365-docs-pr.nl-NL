@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: Wanneer gebruikers zijn aangemeld met geldige werk- of schoolaccounts, kunnen ze cloudgebaseerde assistentieservices met Cortana krijgen in Microsoft 365-ervaringen die voldoen aan de beloftes inzake privacy, beveiliging en naleving van Office 365 op bedrijfsniveau.
-ms.openlocfilehash: 7b8f60f5138de63234520f18d6de0973b74482ed
-ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
+ms.openlocfilehash: 5707fb5966e77787b609c20b204602318627d350
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083548"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521275"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana in Microsoft 365
 
@@ -33,7 +33,7 @@ Cortana, uw persoonlijke productiviteitsassistent, biedt AI-aangedreven ervaring
 
 Als persoonlijke productiviteitsassistent is Cortana ontworpen om functies te leveren die veilig en veilig office 365-gegevens verwerken en verantwoorden, zoals e-mails, bestanden, chats, enz., om tijd te besparen, de efficiëntie te verhogen en de productiviteit van uw gebruikers te verbeteren.
 
-Verder richten we Cortana op de productiviteit van bedrijven. 
+Verder richten we Cortana op de productiviteit van bedrijven.
 
 - In overeenstemming met andere Office 365-services voldoen Cortana enterprise-services aan dezelfde beloftes voor privacy, beveiliging en naleving op bedrijfsniveau, zoals blijkt uit de [Voorwaarden voor Online Services (OST).](https://www.microsoft.com/licensing/product-licensing/products)
 
@@ -159,7 +159,7 @@ Cortana-toegang tot de door Microsoft gehoste gegevens van uw organisatie uitsch
 
 1. Selecteer in het Microsoft 365-beheercentrum **Settings**  >  **Instellingen Organisatie-instellingen** en selecteer **Cortana**.
 
-2. Schakel het selectievakje uit voor **Deze optionele verbonden ervaringen met Cortana toestaan om de door Microsoft gehoste gegevens van uw organisatie te gebruiken** om met Cortana verbonden ervaringen uit te schakelen.
+2. Schakel het selectievakje **voor Cortana toestaan in Windows 10 (versie 1909 en eerder) en de Cortana-app op iOS en Android uit om namens mensen in uw organisatie toegang te krijgen tot door Microsoft gehoste gegevens** om de verbonden ervaringen met Cortana uit te schakelen.
 
 3. Selecteer **Wijzigingen opslaan**.
 

@@ -9,16 +9,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-- M365solutions
+- m365solution-securecollab
+- m365solution-overview
 ms.custom: ''
 f1.keywords: NOCSH
 description: Meer informatie over het instellen van Teams om uw gegevens te beschermen op basis van de gevoeligheid
-ms.openlocfilehash: 8978c8602a00dd9c7caecc30ea4746a01680a236
-ms.sourcegitcommit: 92f641cad63379bf16417854a43b16b48a71a30a
+ms.openlocfilehash: ef49e788805139bf82fa5b1b43d2a87323640820
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724802"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527706"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Veilige samenwerking met Microsoft 365 instellen
 
@@ -128,6 +129,6 @@ Wanneer u klaar bent om deze oplossing te implementeren, gaat u verder met de vo
 
 [Documentatie over Microsoft 365-beveiliging](https://docs.microsoft.com/microsoft-365/security)
 
-[Microsoft 365-nalevingsdocumentatie](https://docs.microsoft.com/microsoft-365/compliance)
+[Microsoft 365-compliancedocumentatie](https://docs.microsoft.com/microsoft-365/compliance)
 
 [Welkom bij Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview)

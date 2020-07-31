@@ -9,18 +9,19 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-- M365solutions
+- m365solution-3tiersprotection
+- m365solution-securecollab
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Meer informatie over de Microsoft 365-configuratiestappen die nodig zijn om een team op te zetten voor samenwerking met gasten in Teams.
-ms.openlocfilehash: 2a412502af16ff95bf0f1f912ac57d00eb1d382a
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 73f9a7a1c52c8c237cccabafd8fca24abe038ff7
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430385"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46528216"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Samenwerken met gasten in een team
 

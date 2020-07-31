@@ -13,15 +13,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365solutions
+- m365solution-infoprotection
+- m365solution-overview
 ms.custom: ''
 description: Configureer de beveiligings- en service-infrastructuur om uw gegevens te beschermen en zich te houden aan de privacyvoorschriften van gegevens.
-ms.openlocfilehash: ea0f5ead93dc631a28577a61f33bca3b601406f4
-ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
+ms.openlocfilehash: 640ce075515c687c037cb0e4ab3e03e3beda81dc
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854329"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522287"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>Informatiebescherming implementeren voor regelgeving voor gegevensprivacy met Microsoft 365
 
@@ -37,13 +38,13 @@ Gebruik deze Microsoft 365-mogelijkheden en functies om te voldoen aan de criter
 
 | Functie | Beschrijving | Licenties |
 |:-------|:-----|:-------|
-| Compliance Manager | Beheer regelgevingsvoorwaarden met betrekking tot Microsoft-cloudservices met deze workflowgebaseerde risicobeoordelingstool in de Microsoft Service Trust Portal. | Microsoft 365 E3 en E5 |
-| Nalevingsscore (voorbeeld) | Bekijk een algemene score van uw huidige nalevingsconfiguratie en aanbevelingen voor het verbeteren ervan in het Microsoft 365 Compliance Center. | Microsoft 365 E3 en E5 |
-| Atp (Office Advanced Threat Protection) | Bescherm uw Microsoft 365-apps en -gegevens, zoals e-mailberichten, Office-documenten en samenwerkingshulpprogramma's, tegen aanvallen. | Microsoft 365 E3 en E5 | 
-| Vertrouwelijkheidslabels | Classificeer en bescherm de gegevens van uw organisatie zonder de productiviteit van gebruikers en hun vermogen om samen te werken te belemmeren door labels met verschillende beschermingsniveaus op e-mail, bestanden of sites te plaatsen. | Microsoft 365 E3 en E5 |
-| Gegevensverliesbescherming (DLP) | Risicovolle, onbedoelde of ongepaste delen detecteren, waarschuwen en blokkeren, zoals het delen van gegevens met persoonlijke gegevens, zowel intern als extern. | Microsoft 365 E3 en E5 | 
-| Labels en beleidsregels voor gegevensbewaring | Implementeer informatiebeheercontroles, zoals hoe lang gegevens en vereisten voor de opslag van persoonlijke gegevens op klanten moeten worden bijgehouden, om te voldoen aan het beleid of de gegevensregelgeving van uw organisatie. | Microsoft 365 E3 en E5 |
-| E-mailversleuteling | Verstuur en ontvang versleutelde e-mailberichten tussen mensen binnen en buiten uw organisatie die gereguleerde gegevens bevatten, zoals persoonlijke gegevens over klanten. | Microsoft 365 E3 en E5 |
+| Compliancebeheer | Beheer van wettelijk voorgeschreven complianceactiviteiten met betrekking tot de cloudservices van Microsoft met dit hulpprogramma voor risicoanalyse op basis van werkstromen in het Service Trust Portal van Microsoft. | Microsoft 365 E3 en E5 |
+| Compliancescore (preview) | Bekijk een totaalscore van uw huidige complianceconfiguratie en aanbevelingen voor het verbeteren hiervan in het Microsoft 365 Compliance Center. | Microsoft 365 E3 en E5 |
+| Atp (Office Advanced Threat Protection) | Beveilig uw Microsoft 365-apps en -gegevens tegen een aanval, zoals e-mailberichten, Office-documenten en hulpmiddelen voor samenwerking. | Microsoft 365 E3 en E5 | 
+| Vertrouwelijkheidslabels | Classificeer en bescherm de gegevens van uw organisatie zonder de productiviteit van gebruikers en hun vermogen om samen te werken te belemmeren door het labelen van e-mail, bestanden of websites met diverse beschermingsniveaus. | Microsoft 365 E3 en E5 |
+| Preventie van gegevensverlies (DLP) | Detecteer, waarschuw voor en blokkeer risicovol, onbedoeld of ongepast delen, zoals het delen van gegevens met persoonlijke informatie, zowel intern als extern. | Microsoft 365 E3 en E5 | 
+| Labels en beleid voor gegevensretentie | Implementeer informatiebeheer-besturingselementen, zoals hoe lang gegevens bewaard blijven en vereisten voor het opslaan van persoonlijke gegevens van klanten, om te voldoen aan het beleid of de gegevensvoorschriften van uw organisatie. | Microsoft 365 E3 en E5 |
+| E-mailversleuteling | Versleutelde e-mailberichten met gereguleerde gegevens, zoals persoonlijke gegevens van klanten, verzenden naar en ontvangen van personen binnen en buiten de organisatie. | Microsoft 365 E3 en E5 |
 ||||
 
 ## <a name="organization-of-the-guidance-in-this-solution"></a>Organisatie van de begeleiding in deze oplossing
