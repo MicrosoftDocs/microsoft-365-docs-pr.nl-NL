@@ -6,53 +6,56 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: dd50e5d7291589d12261396aac62e4d07b06909f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: bcb47a7d5e5dc0880ade6a7e5900d1019e13a8d7
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42810451"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529765"
 ---
 # <a name="work-with-insights"></a>Werken met inzichten
 
-Microsoft Managed Desktop biedt een aantal dashboards die IT-beheerders in uw tenant kunnen gebruiken om verschillende aspecten van de populatie apparaten te begrijpen. U hebt deze toegang via het Microsoft 365-beheercentrum.
+Microsoft Managed Desktop biedt een aantal dashboards die IT-beheerders in uw tenant kunnen gebruiken om verschillende aspecten van de populatie van apparaten te begrijpen. U hebt toegang tot deze toegang via het Microsoft 365-beheercentrum.
 
 Met deze dashboards vindt u de antwoorden op vragen als deze:
 
 - Hoeveel apparaten zijn actief en wanneer zijn ze voor het laatst gebruikt?
-- Welke apps worden het meest gebruikt en op welke tijden?
-- Welke apps veroorzaken problemen door veel te crashen of op te hangen?
-- Hoe verzoent of lost Microsoft Managed Desktop Operations dergelijke problemen op?
+- Welke apps worden het meest gebruikt en op welke momenten?
+- Welke apps veroorzaken problemen door te crashen of veel op te hangen?
+- Hoe wordt Microsoft Managed Desktop Operations dergelijke problemen verzacht of opgelost?
 - Welke apps verbruiken de meeste energie?
-- Wat is de voorspelde levensduur van de batterij mijn apparaten?
+- Wat is de voorspelde levensduur van de batterij van mijn apparaten?
 - Wat is de huidige status van beveiligingsupdates op apparaten?
-- Hoe lang duurde het voordat 95% van de apparaten de huidige versie van de nieuwste beveiligingsupdate kreeg?
+- Hoe lang duurde het voor 95% van de apparaten om actueel te zijn met de nieuwste beveiligingsupdate?
 
 Als u deze weergaven wilt openen vanuit het Microsoft 365-beheercentrum, selecteert u **Details weergeven** in het gebied **Rapporten:**
 
-![Beheercentrum met het gebied Rapporten rechtsboven, inclusief de kaart voor apparaatrapporten en de koppeling 'details weergeven'.](../../media/insights_overview.png)
+![Beheercentrum met rapporten rechtsboven, inclusief de kaart voor apparaatrapporten en de koppeling Details weergeven.](../../media/insights_overview.png)
 
 
 
-## <a name="usage-insights"></a>Gebruiksinzichten
-Deze weergave bevat gebruiksstatistieken voor uw Microsoft Managed Desktop-apparaten. 
+## <a name="usage-insights"></a>Inzichten in gebruik
+In deze weergave worden gebruiksstatistieken weergegeven voor uw Microsoft Managed Desktop-apparaten. 
 
-Als u gebruiksgegevens wilt weergeven, selecteert u het tabblad **Gebruik.**
+Als u gebruiksgegevens wilt **weergeven,** selecteert u het tabblad Gebruik.
 
 Meer informatie over [gebruiksinzichten](usage-insights.md).
 
-## <a name="reliability-insights"></a>Inzichten over betrouwbaarheid
-In deze weergave vindt u een statusoverzicht van uw beheerde apparaten. Als u betrouwbaarheidsgegevens wilt weergeven, selecteert u het tabblad **Betrouwbaarheid.**
+## <a name="reliability-insights"></a>Inzichten in betrouwbaarheid
+Deze weergave biedt u een statusoverzicht van uw beheerde apparaten. Als u betrouwbaarheidsgegevens wilt weergeven, selecteert u het tabblad **Betrouwbaarheid.**
 
-Meer informatie over [inzichten in betrouwbaarheid](reliability-insights.md).
+Meer informatie over [betrouwbaarheidsinzichten.](reliability-insights.md)
 
-## <a name="battery-insights"></a>Batterij-inzichten
-In deze weergave ziet u informatie over het energieverbruik van apps en de verwachte levensduur van de batterij voor apparaten in uw omgeving. Als u deze informatie wilt weergeven, selecteert u het tabblad **Batterij.**
+## <a name="battery-insights"></a>Inzichten in batterijen
+Deze weergave toont u informatie over het energieverbruik van apps en de verwachte levensduur van de batterij voor apparaten in uw omgeving. Als u deze informatie wilt **weergeven,** selecteert u het tabblad Batterij.
 
-Meer informatie over [batterijinzichten](battery-insights.md).
+Meer informatie over [batterijinzichten.](battery-insights.md)
 
-## <a name="windows-security-update-insights"></a>Inzichten over Windows-beveiligingsupdate
+## <a name="windows-security-update-insights"></a>Inzichten in Windows-beveiligingsupdates
 
 In deze weergave ziet u informatie over de status van beveiligingsupdates voor uw Microsoft Managed Desktop-apparaten. Als u deze informatie wilt weergeven, selecteert u het tabblad **Windows-beveiligingsgegevens.**
 
-Meer informatie over [inzichten in beveiligingsupdates](security-update-insights.md).
+Meer informatie over inzichten in [beveiligingsupdates](security-update-insights.md).

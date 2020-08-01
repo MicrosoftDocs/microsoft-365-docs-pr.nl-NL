@@ -19,19 +19,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
-description: Lees wat u moet doen om uw Microsoft 365 voor bedrijven in te stellen.
-ms.openlocfilehash: 7509e2c4801adbca492e5f5446c5b97eae31dccf
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: Meer informatie over de vereisten en overwegingen voor de overstap naar Microsoft 365 voor bedrijven.
+ms.openlocfilehash: b7d815da012e1c104561d5fccfb9e1704ac5c447
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44778947"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529658"
 ---
 # <a name="plan-your-setup-of-microsoft-365-for-business"></a>Plan uw installatie van Microsoft 365 voor bedrijven
 
 Dit artikel is voor mensen die zich hebben geabonneerd op een Microsoft 365 voor een bedrijfsplan.
   
-Er zijn een paar dingen die u moet beslissen, en informatie die u bij de hand moet hebben, voordat u uw organisatie verplaatst naar Microsoft 365.
+Voordat u uw organisatie verplaatst naar Microsoft 365, zijn er vereisten waaraan u moet voldoen, informatie die u bij de hand moet hebben en beslissingen die u moet nemen.
+
+
   
 ## <a name="info-to-have-on-hand-before-you-run-the-setup-wizard"></a>Informatie die u bij de hand moet hebben voordat u de wizard Setup uitvoert
 

@@ -6,12 +6,15 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: c53b5e8002b8217055a29903719bda83e43ce554
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 75514dfc3c5de3c579cc051b830ebdc92a93e531
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "42806822"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529527"
 ---
 # <a name="order-microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop-apparaten bestellen
 

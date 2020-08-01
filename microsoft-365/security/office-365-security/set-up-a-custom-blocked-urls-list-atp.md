@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het instellen van een lijst met geblokkeerde URL's voor uw organisatie met Behulp van Geavanceerde bedreigingsbeveiliging van Office 365.
-ms.openlocfilehash: 5c5253aabf5d5235e31f24624fd9e1b3f4adb184
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 288aea848836a56108872c0e4d36d01f4d59ec42
+ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617262"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533809"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-atp-safe-links"></a>Een aangepaste lijst met geblokkeerde URL's instellen met ATP-veilige koppelingen
 
@@ -84,6 +84,10 @@ Houd rekening met de volgende punten terwijl u URL's aan uw lijst toevoegt:
 |`https://contoso.com/a`|Blokkeert een `https://contoso.com/a` site, maar geen extra subpaden zoals`https://contoso.com/a/b`|
 |`https://contoso.com/a*`|Blokkeert een site `https://contoso.com/a` en extra subpaden zoals`https://contoso.com/a/b`|
 |`https://toys.contoso.com*`|Blokkeert een subdomein ("speelgoed" in dit geval), maar laat klikken naar andere domein-URL's (zoals `https://contoso.com` of `https://home.contoso.com` ).|
+
+
+> [!NOTE]
+> Standaard u slechts 500 URL's toevoegen aan de geblokkeerde URL-lijst in het standaardbeleid voor office 365 ATP Safe Links.
 
 ## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>Uitzonderingen definiëren voor bepaalde gebruikers in een organisatie
 

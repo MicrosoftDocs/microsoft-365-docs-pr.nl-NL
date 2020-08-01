@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Meer informatie over het inschakelen van Microsoft 365 om lokale Windows 10-apparaten met Actieve Directory in slechts een paar stappen te beschermen.
-ms.openlocfilehash: 857651081fb10856d28dd419333ebef655388407
-ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
+ms.openlocfilehash: 2eaf5aa76cae1680b93af008af615ae872e4fb20
+ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44564930"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533780"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Inschakelen domein-aangesloten Windows 10-apparaten worden beheerd door Microsoft 365 Business Premium
 
@@ -77,44 +77,32 @@ Selecteer op de pagina Microsoft Intune de optie **Apparaatinschrijving** en con
         -  Voeg de gewenste domeingebruikers toe die in Azure AD zijn gesynchroniseerd aan een [beveiligingsgroep](../admin/create-groups/create-groups.md).
         -  Kies **Groepen selecteren** om de mdm-gebruikersbereik voor die beveiligingsgroep in te schakelen.
 
-## <a name="4-set-up-service-connection-point-scp"></a>4. Service-verbindingspunt instellen (SCP)
+## <a name="4-create-the-required-resources"></a>4. Maak de benodigde resources 
 
-Deze stappen worden vereenvoudigd door [hybride azure AD join te configureren.](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join) Als u de stappen wilt uitvoeren die u azure AD Connect en uw algemene beheerderswachtwoorden van Microsoft 365 Business Premium en Active Directory-beheerders moet gebruiken.
+Het uitvoeren van de vereiste taken voor [het configureren van hybride Azure AD join](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join) is vereenvoudigd door het gebruik van de [Initialize-SecMgmtHybirdDeviceEnrollment](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) cmdlet gevonden in de [SecMgmt](https://www.powershellgallery.com/packages/SecMgmt) PowerShell module. Wanneer u deze cmdlet aanroept, wordt het vereiste serviceverbindingspunt en groepsbeleid gemaakt en geconfigureerd.
 
-1.  Start Azure AD Connect en selecteer **Configureren**.
-2.  Selecteer op de pagina **Extra taken** de optie **Apparaatopties configureren**en selecteer **Volgende**.
-3.  Selecteer **Volgende**op de pagina **Overzicht.**
-4.  Voer **op** de pagina Verbinding maken met Azure AD de referenties in van een globale beheerder voor Microsoft 365 Business Premium.
-5.  Selecteer op de pagina **Apparaatopties** de optie **Hybride Azure AD join configureren**en selecteer **Volgende**.
-6.  Voer op de **SCP-pagina** voor elk forest waar u Azure AD Connect wilt configureren van het SCP de volgende stappen uit en selecteer **Volgende:**
-    - Schakel het vakje naast de bosnaam in. Het forest moet uw AD-domeinnaam zijn.
-    - Open onder de kolom **Verificatieservice** de vervolgkeuzelijst en selecteer overeenkomende domeinnaam (er mag slechts één optie zijn).
-    - Selecteer **Toevoegen** om de domeinbeheerdersreferenties in te voeren.  
-7.  Selecteer alleen op de pagina **Apparatenbesturingssystemen** windows 10 of hoger apparaten die zijn aangesloten bij het domein.
-8.  Selecteer Op de pagina **Klaar om te configureren** de optie **Configureren**.
-9.  Selecteer **op** de pagina Configuratie voltooid de optie **Afsluiten**.
+U deze module installeren door een beroep te doen op het volgende van een exemplaar van PowerShell:
 
-
-## <a name="5-create-a-gpo-for-intune-enrollment--admx-method"></a>5. Maak een GPO voor Intune Enrollment – ADMX-methode
-
-Gebruiken. ADMX-sjabloonbestand.
-
-1.  Meld u aan bij de **Server Manager**AD-server, zoek en open  >  **groepsbeleidsbeheer voor serverbeheerprogramma's**  >  **Group Policy Management**.
-2.  Selecteer uw domeinnaam onder Domeinen en klik met de rechtermuisknop op **Groepsbeleidsobjecten** om **Nieuw**te selecteren. **Domains**
-3.  Geef de nieuwe GPO een naam, bijvoorbeeld "*Cloud_Enrollment*" en selecteer vervolgens **OK**.
-4.  Klik met de rechtermuisknop op het nieuwe GPO onder **Groepsbeleidsobjecten** en selecteer **Bewerken**.
-5.  Ga in de **editor voor groepsbeleidsbeheer**naar Beheersjablonen voor **Computer Configuration**  >  **Policies**  >  **computerconfiguratiebeleid**  >  **Windows Components**  >  **MDM**.
-6. Klik met de rechtermuisknop op **Automatische MDM-inschrijving inschakelen met standaard Azure AD-referenties** en selecteer **Ingeschakeld OK**  >  **OK**. Sluit het editorvenster.
+```powershell
+Install-Module SecMgmt
+```
 
 > [!IMPORTANT]
-> Zie De [nieuwste beheersjablonen](#get-the-latest-administrative-templates)ophalen als u het beleid **Automatische MDM-inschrijving**inschakelen niet ziet.
+> Het wordt aanbevolen deze module te installeren op de Windows Server waarop Azure AD Connect wordt uitgevoerd.
 
-## <a name="6-deploy-the-group-policy"></a>6. Het groepsbeleid implementeren
+Als u het vereiste serviceverbindingspunt en groepsbeleid wilt maken, wordt u een beroep doen op de cmdlet [Initialize-SecMgmtHybirdDeviceEnrollment.](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) U hebt uw algemene beheerdersreferenties van Microsoft 365 Business Premium nodig bij het uitvoeren van deze taak. Wanneer u klaar bent om de resources te maken, roept u het volgende aan:
 
-1.  Selecteer in Serverbeheer onder Domeinen > **groepsbeleidsobjecten** de GPO uit stap 3 hierboven, bijvoorbeeld 'Cloud_Enrollment'.
-2.  Selecteer het tabblad **Bereik** voor uw GPO.
-3.  Klik op het tabblad Bereik van GPO met de rechtermuisknop op de koppeling naar het domein onder **Koppelingen**.
-4.  Selecteer **Afgedwongen** om de GPO te implementeren en **vervolgens OK** in het bevestigingsscherm.
+```powershell
+PS C:\> Connect-SecMgmtAccount
+PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device Management'
+```
+
+Met de eerste opdracht wordt een verbinding tot stand gebracht met de Microsoft-cloud en wanneer u wordt gevraagd, geeft u uw globale beheerdersreferenties van Microsoft 365 Business Premium op.
+
+## <a name="5-link-the-group-policy"></a>5. Koppeling van het groepsbeleid
+
+1. Klik in de Groepsbeleidsbeheerconsole (GPMC) met de rechtermuisknop op de locatie waar u het beleid wilt koppelen en selecteer *Een bestaande GPO koppelen...* in het contextmenu.
+2. Selecteer het beleid dat in de bovenstaande stap is gemaakt en klik op **OK**.
 
 ## <a name="get-the-latest-administrative-templates"></a>De nieuwste beheersjablonen ophalen
 
@@ -129,4 +117,3 @@ Als u het beleid Automatische MDM-inschrijving inschakelen niet ziet **met stand
 6.  Start de primaire domeincontroller opnieuw om het beleid beschikbaar te maken. Deze procedure zal ook werken voor elke toekomstige versie.
 
 Op dit punt moet u het beleid **Automatische MDM-inschrijving inschakelen** kunnen zien met standaard Azure AD-referenties beschikbaar.
-
