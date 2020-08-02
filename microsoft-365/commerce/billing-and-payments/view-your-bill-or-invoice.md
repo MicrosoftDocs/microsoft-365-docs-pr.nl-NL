@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -26,69 +26,57 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
-ms.assetid: 2ae3ea58-4fce-4592-91d6-46e9ae3ec218
 description: U vindt uw factuur of factuuroverzicht in het Microsoft 365-beheercentrum. U kunt ook een kopie van uw factuur opslaan en afdrukken.
-ms.openlocfilehash: 7360f2bb73f78450143d5f1428ae90aa5bc0e0a1
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 81c3a03207fd8f35c975026ebd2a9a0334fc9407
+ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44816995"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533611"
 ---
-# <a name="view-your-bill-or-invoice"></a><span data-ttu-id="40751-104">Uw rekening of factuur weergeven</span><span class="sxs-lookup"><span data-stu-id="40751-104">View your bill or invoice</span></span>
+# <a name="view-your-bill-or-invoice"></a><span data-ttu-id="1897b-104">Uw rekening of factuur bekijken</span><span class="sxs-lookup"><span data-stu-id="1897b-104">View your bill or invoice</span></span>
 
-<span data-ttu-id="40751-p102">Dit artikel is bedoeld voor personen met een Microsoft 365 voor bedrijven-abonnement. U moet een globale beheerder of factureringsbeheerder zijn om de stappen in dit artikel uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="40751-p102">This article is for people who have a Microsoft 365 for business subscription. You must be a global admin or billing admin to do the steps described in this article.</span></span>
+<span data-ttu-id="1897b-105">Dit artikel is voor mensen met een Microsoft 365 voor Bedrijven-abonnement.</span><span class="sxs-lookup"><span data-stu-id="1897b-105">This article is for people who have a Microsoft 365 for business subscription.</span></span>
   
-<span data-ttu-id="40751-107">Hebt u hulp nodig bij de interpretatie van de kosten die worden weergegeven op uw factuur? Zie [Inzicht in uw rekening of factuur](understand-your-invoice2.md) voor een gedetailleerde uitleg.</span><span class="sxs-lookup"><span data-stu-id="40751-107">If you need help interpreting the charges you see on your bill, see [Understand your bill or invoice](understand-your-invoice2.md) for a detailed walkthrough.</span></span>
+<span data-ttu-id="1897b-106">Als u hulp nodig hebt bij de interpretatie van de kosten die worden weergegeven op uw factuur, raadpleegt u [Inzicht in uw rekening of factuur](understand-your-invoice2.md) voor een uitgebreide uitleg.</span><span class="sxs-lookup"><span data-stu-id="1897b-106">If you need help with interpreting the charges you see on your bill, see [Understand your bill or invoice](understand-your-invoice2.md) for a detailed walkthrough.</span></span>
   
- <span data-ttu-id="40751-108">**Bent u geen beheerder?**</span><span class="sxs-lookup"><span data-stu-id="40751-108">**Not an admin?**</span></span> <span data-ttu-id="40751-109">Neem contact op met uw IT-beheerder.</span><span class="sxs-lookup"><span data-stu-id="40751-109">Contact your IT administrator for help.</span></span> 
+<span data-ttu-id="1897b-107">**Ondervindt u een probleem met uw factuur?**</span><span class="sxs-lookup"><span data-stu-id="1897b-107">**Have a problem with your bill?**</span></span> <span data-ttu-id="1897b-108">[Neem contact op met ondersteuning voor zakelijke producten](../../admin/contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="1897b-108">[Contact support for business products](../../admin/contact-support-for-business-products.md).</span></span>
+
+## <a name="before-you-begin"></a><span data-ttu-id="1897b-109">Voordat u begint</span><span class="sxs-lookup"><span data-stu-id="1897b-109">Before you begin</span></span>
+
+<span data-ttu-id="1897b-110">U moet een algemene of factureringsbeheerder zijn om de stappen in dit artikel uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="1897b-110">You must be a Global or Billing admin to do the steps described in this article.</span></span>
   
- <span data-ttu-id="40751-110">**Ondervindt u een probleem met uw factuur?**</span><span class="sxs-lookup"><span data-stu-id="40751-110">**Have a problem with your bill?**</span></span> <span data-ttu-id="40751-111">[Neem contact op met ondersteuning voor zakelijke producten](../../admin/contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="40751-111">[Contact support for business products](../../admin/contact-support-for-business-products.md).</span></span>
+## <a name="view-a-bill-or-invoice"></a><span data-ttu-id="1897b-111">Een rekening of factuur bekijken</span><span class="sxs-lookup"><span data-stu-id="1897b-111">View a bill or invoice</span></span>
 
- <span data-ttu-id="40751-112">Bekijk een korte video over het weergeven van uw rekening of factuur (let op: uw factuur kan er anders uitzien dan in deze video).</span><span class="sxs-lookup"><span data-stu-id="40751-112">Watch a short video about viewing your bill or invoice (note that your invoice may appear different from the one in the video).</span></span> <br><br>
+1. <span data-ttu-id="1897b-112">Ga in het Beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Facturen en betalingen</a>.</span><span class="sxs-lookup"><span data-stu-id="1897b-112">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Bills & payments</a> page.</span></span>
+    - <span data-ttu-id="1897b-113">Als u Office 365 Germany gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Facturen en betalingen</a>.</span><span class="sxs-lookup"><span data-stu-id="1897b-113">If you're using Office 365 Germany, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Bills & payments</a> page.</span></span>
+    - <span data-ttu-id="1897b-114">Als u Office 365 beheerd door 21Vianet gebruikt, gaat u naar deze <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Facturen en betalingen</a>-pagina.</span><span class="sxs-lookup"><span data-stu-id="1897b-114">If you're using Office 365 operated by 21Vianet, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Bills & payments</a> page.</span></span>
+2. <span data-ttu-id="1897b-115">Kies in het tabblad **Facturen** een datumbereik in de vervolgkeuzelijst en kies vervolgens de bestelling die u wilt bekijken.</span><span class="sxs-lookup"><span data-stu-id="1897b-115">On the **Invoices** tab, select a date range from the drop-down list, and then choose the order that you want to view.</span></span>
+3. <span data-ttu-id="1897b-116">Op de overzichtspagina ziet u de artikelen, aantal, prijs, korting en totaal voor alle artikelen in de factuur.</span><span class="sxs-lookup"><span data-stu-id="1897b-116">On the summary page, you can see the items, quantity, price, discount, and total for all items in the invoice.</span></span>
+4. <span data-ttu-id="1897b-117">Als u een PDF-exemplaar van de factuur wilt afdrukken of opslaan, klikt u op **PDF downloaden**.</span><span class="sxs-lookup"><span data-stu-id="1897b-117">To print or save a PDF copy of the invoice, select **Download PDF**.</span></span>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGmo] 
+## <a name="receive-a-copy-of-your-billing-statement-in-email"></a><span data-ttu-id="1897b-118">Een kopie van uw factuuroverzicht per e-mail ontvangen</span><span class="sxs-lookup"><span data-stu-id="1897b-118">Receive a copy of your billing statement in email</span></span>
 
-<span data-ttu-id="40751-113">Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="40751-113">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
-  
-## <a name="view-a-bill-or-invoice"></a><span data-ttu-id="40751-114">Een rekening of factuur bekijken</span><span class="sxs-lookup"><span data-stu-id="40751-114">View a bill or invoice</span></span>
+<span data-ttu-id="1897b-119">U kunt, indien u dat wenst, een kopie van uw factuuroverzicht als e-mailbijlage ontvangen.</span><span class="sxs-lookup"><span data-stu-id="1897b-119">You can choose to receive a copy of your billing statement as an email attachment.</span></span> <span data-ttu-id="1897b-120">Houd in dat geval rekening met het volgende:</span><span class="sxs-lookup"><span data-stu-id="1897b-120">If you do, be aware that:</span></span>
 
-::: moniker range="o365-worldwide"
+- <span data-ttu-id="1897b-121">Er wordt een e-mailbericht verzonden naar zowel het primaire als het alternatieve e-mailadres van elke persoon die als ontvanger van meldingen staat geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="1897b-121">An email is sent to both the primary and alternate email address for every person listed as a notification recipient.</span></span>
+- <span data-ttu-id="1897b-122">U ontvangt twee aparte berichten. Het eerste bericht bevat de mededeling dat de factuur gereed is en instructies voor het aanmelden bij het beheercentrum om deze te bekijken. Het tweede bericht bevat het factuuroverzicht als bijlage.</span><span class="sxs-lookup"><span data-stu-id="1897b-122">You receive two separate emails: one that lets you know that your bill is ready, with instructions to sign in to the admin center to view it, and a second email that contains the billing statement as an attachment.</span></span>
 
-1. <span data-ttu-id="40751-115">Ga in het Beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Facturen en betalingen</a>.</span><span class="sxs-lookup"><span data-stu-id="40751-115">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Bills & payments</a> page.</span></span>
+### <a name="to-receive-your-billing-statement-in-email"></a><span data-ttu-id="1897b-123">Uw factuuroverzicht per e-mail ontvangen</span><span class="sxs-lookup"><span data-stu-id="1897b-123">To receive your billing statement in email</span></span>
 
-::: moniker-end
+1. <span data-ttu-id="1897b-124">In het beheercentrum gaat u naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Factureringsmeldingen</a>.</span><span class="sxs-lookup"><span data-stu-id="1897b-124">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Billing notifications</a> page.</span></span>
+    - <span data-ttu-id="1897b-125">Als u Office 365 Germany gebruikt, gaat u naar deze <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Factureringsmeldingen</a>-pagina.</span><span class="sxs-lookup"><span data-stu-id="1897b-125">If you're using Office 365 Germany, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Billing notifications</a> page.</span></span>
+    - <span data-ttu-id="1897b-126">Als u Office 365 beheerd door 21Vianet gebruikt, gaat u naar deze <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">Factureringsmeldingen</a>-pagina.</span><span class="sxs-lookup"><span data-stu-id="1897b-126">If you're using Office 365 operated by 21Vianet, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">Billing notifications</a> page.</span></span>
+1. <span data-ttu-id="1897b-127">Zet onder **Factuuroverzicht ontvangen als e-mailbijlage?** de wisselknop op **Aan**.</span><span class="sxs-lookup"><span data-stu-id="1897b-127">Under **Receive billing statement as email attachment?** switch the toggle to **On**.</span></span>
 
-::: moniker range="o365-germany"
+    <span data-ttu-id="1897b-128">U kunt op elk gewenst moment de ontvangst van e-mails met factuuroverzichten beëindigen door de wisselknop op **Uit** te zetten.</span><span class="sxs-lookup"><span data-stu-id="1897b-128">You can stop receiving the billing statement emails at any time by switching the toggle to **Off**.</span></span>
 
-1. <span data-ttu-id="40751-116">Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Facturen en betalingen</a>.</span><span class="sxs-lookup"><span data-stu-id="40751-116">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Bills & payments</a> page.</span></span>
+## <a name="next-steps"></a><span data-ttu-id="1897b-129">Volgende stappen</span><span class="sxs-lookup"><span data-stu-id="1897b-129">Next steps</span></span>
 
-::: moniker-end
+<span data-ttu-id="1897b-130">Als u een saldo hebt en dit wilt betalen, kunt u dat online doen.</span><span class="sxs-lookup"><span data-stu-id="1897b-130">If you have a balance and would like to pay it, you can do that online.</span></span> <span data-ttu-id="1897b-131">Raadpleeg [Betalen voor uw abonnement](pay-for-your-subscription.md) om te zien hoe dat werkt.</span><span class="sxs-lookup"><span data-stu-id="1897b-131">To learn how, see [Pay for your subscription](pay-for-your-subscription.md).</span></span>
 
-::: moniker range="o365-21vianet"
+## <a name="related-content"></a><span data-ttu-id="1897b-132">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="1897b-132">Related content</span></span>
 
-1. <span data-ttu-id="40751-117">Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Facturen en betalingen</a>.</span><span class="sxs-lookup"><span data-stu-id="40751-117">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Bills & payments</a> page.</span></span>
-
-::: moniker-end
-
-2. <span data-ttu-id="40751-118">Selecteer in het tabblad **Facturen** een datumbereik in de vervolgkeuzelijst en kies vervolgens de order die u wilt weergeven.</span><span class="sxs-lookup"><span data-stu-id="40751-118">On the **Invoices** tab, select a date range from the drop-down list, and then choose the order that you want to view.</span></span>
-
-3. <span data-ttu-id="40751-119">Op de overzichtspagina ziet u het volgende:</span><span class="sxs-lookup"><span data-stu-id="40751-119">On the summary page, you can see the following:</span></span>
-
-    - <span data-ttu-id="40751-120">Het totaalsaldo, het huidige verschuldigde bedrag, de vervaldatum van de betaling, het bedrag van de laatste betaling en de datum waarop deze is ontvangen.</span><span class="sxs-lookup"><span data-stu-id="40751-120">The total balance, the current amount due, the payment due date, the amount of the last payment, and the date it was received.</span></span>
-
-    - <span data-ttu-id="40751-121">Betalingsinstructies.</span><span class="sxs-lookup"><span data-stu-id="40751-121">Payment instructions.</span></span>
-
-    - <span data-ttu-id="40751-122">Een registratie van eerdere betalingsdatums en de bijbehorende betaalde bedragen.</span><span class="sxs-lookup"><span data-stu-id="40751-122">A record of past payment dates, and the amounts paid.</span></span>
-
-    - <span data-ttu-id="40751-123">De datum waarop de order is gemaakt en het ordernummer.</span><span class="sxs-lookup"><span data-stu-id="40751-123">The order creation date, and the order number.</span></span>
-
-4. <span data-ttu-id="40751-124">Als u een PDF-versie van de factuur wilt afdrukken of opslaan, klikt u op **PDF downloaden**.</span><span class="sxs-lookup"><span data-stu-id="40751-124">To print or save a PDF copy of the invoice, select **Download PDF**.</span></span>
-
-## <a name="related-articles"></a><span data-ttu-id="40751-125">Verwante artikelen</span><span class="sxs-lookup"><span data-stu-id="40751-125">Related articles</span></span>
-
-[<span data-ttu-id="40751-126">Betalen met factuur, creditcard of via bankrekening</span><span class="sxs-lookup"><span data-stu-id="40751-126">Pay by invoice, credit card, or bank account</span></span>](pay-for-your-subscription.md)
-  
-[<span data-ttu-id="40751-127">Betalingswijzen beheren</span><span class="sxs-lookup"><span data-stu-id="40751-127">Manage payment methods</span></span>](manage-payment-methods.md)
-
-[<span data-ttu-id="40751-128">Betalingsopties voor Minecraft: Education Edition</span><span class="sxs-lookup"><span data-stu-id="40751-128">Minecraft: Education Edition payment options</span></span>](https://go.microsoft.com/fwlink/p/?linkid=838761)
+<span data-ttu-id="1897b-133">[Betalen met factuur, creditcard of via bankrekening](pay-for-your-subscription.md) (artikel) </span><span class="sxs-lookup"><span data-stu-id="1897b-133">[Pay by invoice, credit card, or bank account](pay-for-your-subscription.md) (article) </span></span>\
+<span data-ttu-id="1897b-134">[Betalingswijzen beheren](manage-payment-methods.md) (artikel) </span><span class="sxs-lookup"><span data-stu-id="1897b-134">[Manage payment methods](manage-payment-methods.md) (article) </span></span>\
+<span data-ttu-id="1897b-135">[Betalingsopties voor Minecraft: Education Edition](https://go.microsoft.com/fwlink/p/?linkid=838761) (artikel)</span><span class="sxs-lookup"><span data-stu-id="1897b-135">[Minecraft: Education Edition payment options](https://go.microsoft.com/fwlink/p/?linkid=838761) (article)</span></span>
