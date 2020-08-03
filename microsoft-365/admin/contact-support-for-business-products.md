@@ -18,14 +18,14 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Ontvang technische en factureringsondersteuning via telefoonnummers voor uw land of regio, door uw serviceaanvraag online in te dienen of door contact op te nemen met een Microsoft Store voor virtuele klantenservice.
+description: Ontvang technische en factureringsondersteuning via het telefoonnummer dat wordt weergegeven voor uw land of regio of door uw serviceaanvraag online te versturen.
 feedback_system: None
-ms.openlocfilehash: 4ee5a8adc17bb01a58ba79ccb53714c75af7de99
-ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
+ms.openlocfilehash: c63e30aa8db9fc4a3ddb6ea394e01db635a1bc23
+ms.sourcegitcommit: ea5e2f85bd6b609658545b120c7e08789b9686fd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506307"
+ms.lasthandoff: 08/01/2020
+ms.locfileid: "46536858"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Manieren om contact op te nemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders
 
@@ -70,11 +70,6 @@ Als uw telefoonnummer voor ondersteuning hierboven niet wordt vermeld, zoekt u h
 
 [!INCLUDE [country-region-support-dropdown-list](includes/country-region-support-dropdown-list.md)]
 
-## <a name="virtual-support-from-the-microsoft-store"></a>Virtuele ondersteuning vanuit de Microsoft Store
-
-U kunt contact opnemen met Verkoop- en klantenservice van de Microsoft Store voor een gesprek met een Answer Desk-expert die u helpt bij het oplossen van uw probleem met Microsoft 365.
-
-Ga naar de pagina [Contact opnemen met Microsoft Store-ondersteuning](https://support.microsoft.com/help/28808/microsoft-store-contact-support?icid=bm_support_5292020) voor koppelingen naar snelle hulp en telefoonnummers.
 
 ::: moniker-end
 
