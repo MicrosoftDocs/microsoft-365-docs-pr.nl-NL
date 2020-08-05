@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7bda309dbb1b601c77b6fb34ff9b8be14d5638d
-ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
+ms.openlocfilehash: c09047648f1d6bb6d68be78315a876be4998e595
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138276"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552432"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Proactief jagen op bedreigingen met geavanceerde jacht in Microsoft Threat Protection
 
@@ -33,6 +33,9 @@ ms.locfileid: "45138276"
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Geavanceerde jacht is een op query gebaseerde hulpprogramma voor bedreigingsjacht waarmee u tot 30 dagen ruwe gegevens verkennen. U proactief gebeurtenissen in uw netwerk inspecteren om interessante indicatoren en entiteiten te vinden. De flexibele toegang tot gegevens vergemakkelijkt de ongebreidelde jacht op zowel bekende als potentiële bedreigingen.
+<p></p>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bp7O]
 
 U dezelfde query's voor bedreigingsjacht gebruiken om aangepaste detectieregels te maken. Deze regels worden automatisch uitgevoerd om te controleren op en te reageren op verschillende gebeurtenissen en systeemstatussen, waaronder vermoedelijke inbreukactiviteit en verkeerd geconfigureerde machines.
 
@@ -45,7 +48,7 @@ We raden aan om verschillende stappen te doorlopen om snel aan de slag te gaan m
 | Leerdoel | Beschrijving | Resource |
 |--|--|--|
 | **Krijg een gevoel voor de taal** | Geavanceerde jacht is gebaseerd op [Kusto query taal,](https://docs.microsoft.com/azure/kusto/query/)ondersteuning van dezelfde syntaxis en operators. Begin met het leren van de querytaal door uw eerste query uit te voeren. | [Overzicht van querytaal](advanced-hunting-query-language.md) |
-| **Meer informatie over het gebruik van de queryresultaten** | Meer informatie over grafieken en verschillende manieren waarop u uw resultaten bekijken of exporteren. Ontdek hoe u query's snel aanpassen en inzoomen om rijkere informatie te krijgen. | [Werken met queryresultaten](advanced-hunting-query-results.md) |
+| **Meer informatie over het gebruik van de queryresultaten** | Meer informatie over grafieken en verschillende manieren waarop u uw resultaten bekijken of exporteren. Ontdek hoe u query's snel aanpassen, inzoomen op rijkere informatie en reactieacties uitvoeren. | - [Werken met queryresultaten](advanced-hunting-query-results.md)<br>- [Actie ondernemen op queryresultaten](advanced-hunting-take-action.md) |
 | **Meer informatie over het schema** | Krijg een goed inzicht op hoog niveau in de tabellen in het schema en hun kolommen. Zo u bepalen waar u gegevens moet zoeken en hoe u uw query's construeren. | [Schemaverwijzing](advanced-hunting-schema-tables.md) |
 | **Vooraf gedefinieerde query's gebruiken** | Verken verzamelingen van vooraf gedefinieerde query's die verschillende scenario's voor bedreigingsjacht bestrijken. | - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)<br>- [Ga jagen](advanced-hunting-go-hunt.md) |
 | **Query's optimaliseren** | Lees hoe u efficiënte query's en query's maakt die gegevens van e-mails en apparaten combineren. | - [Aanbevolen procedures voor query's](advanced-hunting-shared-queries.md) <br>- [Hunt op verschillende apparaten en e-mails](advanced-hunting-best-practices.md) |
@@ -63,6 +66,7 @@ Geavanceerde jachtgegevens kunnen worden onderverdeeld in twee verschillende typ
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Werken met queryresultaten](advanced-hunting-query-results.md)
+- [Actie ondernemen op queryresultaten](advanced-hunting-take-action.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
 - [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)

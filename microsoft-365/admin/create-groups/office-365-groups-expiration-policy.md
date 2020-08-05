@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het verloopbeleid van Microsoft 365-groepen.
-ms.openlocfilehash: 8def757241dec28f5a54c76dc81614fd52fe85e5
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 84b7048e414fe37c89a59dd9f282a4b35e0f26c8
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780419"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560361"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365-groepverloopbeleid
 
@@ -78,7 +78,7 @@ Groepseigenaren worden alleen per e-mail op de hoogte gebracht. Als de groep is 
 
 30 dagen voordat de groep verloopt, ontvangen de groepseigenaren (of de e-mailadressen die u hebt opgegeven voor groepen die geen eigenaar hebben) een e-mail waarmee ze de groep eenvoudig kunnen vernieuwen. Als ze het niet verlengen, ontvangen ze 15 dagen voor het verstrijken nog een verlengingse-mail. Als ze het nog steeds niet hebben verlengd, ontvangen ze de dag voor het verstrijken nog een e-mailmelding.
 
-Als om de een of andere reden geen van de eigenaren of beheerders de groep verlengt voordat deze verloopt, kan de beheerder de groep nog steeds herstellen tot 30 dagen na afloop. Zie voor meer informatie: [Een verwijderde Microsoft 365-groep herstellen.](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)
+Als om de een of andere reden geen van de eigenaren of beheerders de groep verlengt voordat deze verloopt en automatische verlenging niet plaatsvindt omdat de groep niet automatisch aan de vereisten voldoet die moeten worden verlengd, kan de beheerder de groep nog steeds herstellen tot 30 dagen na afloop. Zie voor meer informatie: [Een verwijderde Microsoft 365-groep herstellen.](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)
 
 ## <a name="related-articles"></a>Verwante artikelen
 
@@ -86,4 +86,6 @@ Als om de een of andere reden geen van de eigenaren of beheerders de groep verle
 
 [Een nieuwe eigenaar toewijzen aan een groep zonder eigenaar](https://support.microsoft.com/office/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
-Verlopen verval van [Microsoft 365-groepen configureren](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal) '
+[Verlopen verval van Microsoft 365-groepen configureren](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal)
+
+[Automatische verlenging op basis van activiteiten](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)

@@ -18,12 +18,13 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Meer informatie over hoe u controleren of uw school in aanmerking komt voor academische prijzen van Microsoft 365 Education.
-ms.openlocfilehash: 70bc4e986a5072b7f05ae983b2e932aa804caaeb
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.date: 07/21/2020
+ms.openlocfilehash: 948d001315c44e288d9fe3e363ec6e1ddeb8ff32
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45205000"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560701"
 ---
 # <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>Controleer of de academische geschiktheid voor Microsoft 365 Education-abonnementen
 
@@ -44,7 +45,7 @@ Als u niet zeker weet of u een proefabonnement op Microsoft 365 Education hebt, 
 
 ## <a name="verify-your-schools-academic-eligibility"></a>Controleer of de academische geschiktheid van uw school
 
-Wanneer u zich in de meeste gevallen aanmeldt voor een gratis proefperiode en de wizard geschiktheidsverificatie voltooit om het domein van uw school te bieden, ontvangt u onmiddellijk goedkeuring of weigering van de geschiktheid van uw school. In sommige gevallen hebben we meer informatie nodig om een handmatige geschiktheidsbeoordeling te voltooien. Deze beoordeling kan tot 10 werkdagen duren. Nadat we de geschiktheidsgegevens van je school hebben beoordeeld, sturen we een e-mail waarin je wordt op de hoogte van de status van je school.
+Wanneer u zich in de meeste gevallen aanmeldt voor een gratis proefperiode en de wizard geschiktheidsverificatie voltooit om het domein van uw school te bieden, ontvangt u onmiddellijk goedkeuring of weigering van de geschiktheid van uw school. In sommige gevallen hebben we meer informatie nodig om een handmatige geschiktheidsbeoordeling in te vullen en zullen we contact met u opnemen met een vragenlijst om in te vullen. Deze beoordeling kan tot 10 werkdagen duren. Nadat we de geschiktheidsgegevens van je school hebben beoordeeld, sturen we een e-mail waarin je wordt op de hoogte van de status van je school.
 
 U de wizard academische verificatie sluiten voordat u een domein betreedt en meteen het proefabonnement gaan gebruiken. U komt echter pas in aanmerking voor academische prijzen als u het verificatieproces hebt voltooid. U moet het proces voor het einde van uw gratis proefperiode voltooien om te converteren naar een betaald abonnement en het te blijven gebruiken. Dit geldt ook wanneer u overstapt op het gratis A1-abonnement.
 

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 9c1b9c1853d80d818d97084e2668d3b12b6da0e6
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: 07c010a78d297a4a3c932c0d9a0e32cce0c43bfa
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46503214"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560905"
 ---
 # <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>Geavanceerde jachtdekking uitbreiden met de juiste instellingen
 
@@ -45,7 +45,7 @@ Als u Active Directory on premises uitvoert, moet u de Azure ATP-sensor op de do
 
 | Data | Beschrijving | Schematabel | Configureren |
 | --- | --- | --- | --- |
-| Domeincontroller | Gegevens van on-premises Active Directory die naar Azure ATP worden verzonden, waarbij identiteitsgerelateerde informatie wordt verrijkt, zoals accountgegevens, aanmeldingsactiviteit en Active Directory-query's | Meerdere tabellen, waaronder [IdentityInfo,](advanced-hunting-identityinfo-table.md) [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)en [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)  | [De Azure ATP-sensor installeren](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step4)|
+| Domeincontroller | Gegevens van on-premises Active Directory die naar Azure ATP worden verzonden, waarbij identiteitsgerelateerde informatie wordt verrijkt, zoals accountgegevens, aanmeldingsactiviteit en Active Directory-query's | Meerdere tabellen, waaronder [IdentityInfo,](advanced-hunting-identityinfo-table.md) [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)en [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)  | - [De Azure ATP-sensor installeren](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step4)<br>- [Relevante Windows-gebeurtenissen inschakelen](https://docs.microsoft.com/azure-advanced-threat-protection/configure-event-collection) |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

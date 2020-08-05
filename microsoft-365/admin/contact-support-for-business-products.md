@@ -20,12 +20,13 @@ search.appverid:
 - MET150
 description: Ontvang technische en factureringsondersteuning via het telefoonnummer dat wordt weergegeven voor uw land of regio of door uw serviceaanvraag online te versturen.
 feedback_system: None
-ms.openlocfilehash: c63e30aa8db9fc4a3ddb6ea394e01db635a1bc23
-ms.sourcegitcommit: ea5e2f85bd6b609658545b120c7e08789b9686fd
+ms.date: 7/28/2020
+ms.openlocfilehash: 6a7daed145294fa0e1c02ac47144d06cfdf26884
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46536858"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552444"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Manieren om contact op te nemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders
 
@@ -64,12 +65,9 @@ Beheerders: houd uw accountgegevens bij de hand wanneer u belt.
 
 - **In het Verenigd Koninkrijk belt u 0800 032 6417.**
 
-### <a name="phone-numbers-for-other-countries"></a>Internationale telefoonnummers
-
 Als uw telefoonnummer voor ondersteuning hierboven niet wordt vermeld, zoekt u het nummer voor uw land of regio in de vervolgkeuzelijst hieronder.
 
 [!INCLUDE [country-region-support-dropdown-list](includes/country-region-support-dropdown-list.md)]
-
 
 ::: moniker-end
 

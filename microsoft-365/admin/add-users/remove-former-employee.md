@@ -25,14 +25,14 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Volg deze checklist om een werknemer uit Microsoft 365 te verwijderen en gegevens te beveiligen. '
-ms.openlocfilehash: 51fd26835cd74fa8403437397d37395fcf1c7301
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: b63866615c19ecf1d9096f0d63cbcb2008350f51
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844856"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560385"
 ---
-# <a name="remove-a-former-employee"></a>Een voormalige werknemer verwijderen
+# <a name="remove-or-delete-a-former-employee"></a>Een voormalige werknemer verwijderen of verwijderen
 
 ::: moniker range="o365-21vianet"
 
@@ -59,7 +59,7 @@ Ga alsje om te voorkomen dat een werknemer zich aanmeldt:
 
 3. Voer een nieuw wachtwoord in en selecteer **Opnieuw instellen.** (Stuur het niet naar hen.)
     
-4. Selecteer de naam van de gebruiker om naar het eigenschappenvenster te gaan en selecteer op het tabblad **OneDrive** de optie **Afmelding starten**.
+4. Selecteer de naam van de gebruiker om naar het eigenschappenvenster te gaan en selecteer op het tabblad **Account** de optie **Afmelding starten**.
 
 ::: moniker-end
 
@@ -71,7 +71,7 @@ Ga alsje om te voorkomen dat een werknemer zich aanmeldt:
 
 3. Voer een nieuw wachtwoord in en selecteer **Opnieuw instellen.** (Stuur het niet naar hen.)
 
-4. Selecteer de gebruiker opnieuw, vouw **OneDrive-instellingen**uit en selecteer **Starten** naast **Afmelden**.
+4. Selecteer de naam van de gebruiker om naar het eigenschappenvenster te gaan en selecteer op het tabblad **Account** de optie **Afmelding starten**.
 
 ::: moniker-end
 
@@ -83,9 +83,12 @@ Ga alsje om te voorkomen dat een werknemer zich aanmeldt:
 
 3. Voer een nieuw wachtwoord in en selecteer **Opnieuw instellen.** (Stuur het niet naar hen.)
 
-4. Selecteer de gebruiker opnieuw, vouw **OneDrive-instellingen**uit en selecteer **Starten** naast **Afmelden**.
+4. Selecteer de naam van de gebruiker om naar het eigenschappenvenster te gaan en selecteer op het tabblad **Account** de optie **Afmelding starten**.
 
 ::: moniker-end
+
+> [!NOTE]
+> U moet een globale beheerder zijn om afmelding te starten.
 
     
 Binnen een uur - of nadat ze de huidige Microsoft 365-pagina waarop ze zich bevinden - worden ze gevraagd om zich opnieuw aan te melden. (Een toegangstoken is goed voor een uur, dus de tijdlijn is afhankelijk van hoeveel tijd er nog over is op dat token en of ze uit hun huidige webpagina navigeren.)
@@ -161,7 +164,7 @@ In deze stap wijst u het e-mailadres van de voormalige werknemer toe aan een and
 
 4. Schakel **Alle naar dit postvak verzonden e-mail doorsturen** in. Typ in het vak **Doorstuuradres** het e-mailadres van de huidige werknemer (of het gedeelde postvak) waarnaar de nieuwe e-mail wordt doorgestuurd. 
   
-5. Kies **Opslaan**. 
+5. Klik op **Opslaan**. 
     
 6. Vergeet niet dat u het account van de voormalige werknemer dient te behouden.
  
@@ -177,7 +180,7 @@ In deze stap wijst u het e-mailadres van de voormalige werknemer toe aan een and
 
 4. Schakel **Alle naar dit postvak verzonden e-mail doorsturen** in. Typ in het vak **Doorstuuradres** het e-mailadres van de huidige werknemer (of het gedeelde postvak) waarnaar de nieuwe e-mail wordt doorgestuurd. 
   
-5. Kies **Opslaan**. 
+5. Klik op **Opslaan**. 
     
 6. Vergeet niet dat u het account van de voormalige werknemer dient te behouden.
 
@@ -193,7 +196,7 @@ In deze stap wijst u het e-mailadres van de voormalige werknemer toe aan een and
 
 4. Schakel **Alle naar dit postvak verzonden e-mail doorsturen** in. Typ in het vak **Doorstuuradres** het e-mailadres van de huidige werknemer (of het gedeelde postvak) waarnaar de nieuwe e-mail wordt doorgestuurd. 
   
-5. Kies **Opslaan**. 
+5. Klik op **Opslaan**. 
     
 6. Vergeet niet dat u het account van de voormalige werknemer dient te behouden.
 
@@ -215,9 +218,10 @@ Als de voormalige werknemer een telefoon van de zaak had, kunt u deze via het Ex
     
 5. Selecteer op de pagina **Details van mobiele apparaten** onder Mobiele **apparaten**de optie **Wipe Data** ![ Gegevensvegende apparaat wissen ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) en selecteer **Vervolgens Blokkeren**. 
     
-6. Kies **Opslaan**. 
+6. Klik op **Opslaan**. 
     
-    **Tip**: zorg ervoor dat u de gebruiker geen toegang meer verleent tot uw on-premises Blackberry Enterprise Service. U moet ook alle Blackberry-apparaten voor de gebruiker uitschakelen. Raadpleeg de beheerhandleiding voor de Blackberry Business Cloud Services als u specifieke stappen moet uitvoeren voor het uitschakelen van de gebruiker. 
+   > [!TIP]
+   > Zorg ervoor dat u de gebruiker verwijdert of uitschakelt uit uw on-premises Blackberry Enterprise Service. U moet ook alle Blackberry-apparaten voor de gebruiker uitschakelen. Raadpleeg de beheerhandleiding voor de Blackberry Business Cloud Services als u specifieke stappen moet uitvoeren voor het uitschakelen van de gebruiker. 
     
 ## <a name="block-a-former-employees-access-to-microsoft-365-data"></a>De toegang van een voormalige werknemer tot Microsoft 365-gegevens blokkeren
 <a name="bkmk_block"> </a>
@@ -343,6 +347,10 @@ Zie [Licenties toewijzen aan gebruikers in Microsoft 365 voor bedrijven](../mana
 Als u een licentie uit Office 365 verwijdert, wordt het aan de gebruiker gekoppelde PSTN-nummer vrijgegeven. U kunt het toewijzen aan een andere gebruiker.
   
 Als de gebruiker tot een wachtrijgroep behoort, is de gebruiker geen geldig doel meer van de oproepwachtrijagenten. Daarom raden we u aan de gebruiker ook te verwijderen uit de groepen die aan de oproepwachtrij zijn gekoppeld. 
+
+## <a name="set-up-call-forwarding-to-people-in-your-organization"></a>Oproep doorsturen instellen naar mensen in uw organisatie
+
+Als u het doorschakelen van gesprekken voor het telefoonnummer van de beëindigde werknemer moet instellen, kan de instelling voor het doorschakelen van gesprekken onder het oproepbeleid instellen waarbij binnenkomende oproepen kunnen worden doorgestuurd naar andere gebruikers of tegelijkertijd een andere persoon kan bellen. Zie [Aanroepenbeleid in Microsoft Teams voor](https://docs.microsoft.com/microsoftteams/teams-calling-policy)meer informatie.
   
 ## <a name="delete-a-former-employees-user-account"></a>Het gebruikersaccount van een voormalige werknemer verwijderen
 <a name="bkmk_delete"> </a>

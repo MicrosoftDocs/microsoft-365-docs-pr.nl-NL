@@ -1,5 +1,5 @@
 ---
-title: Uw toegestane en geblokkeerde URL's en bestanden beheren in de lijst tenant-toestaan/blokkeren
+title: Uw toegestane en geblokkeerde URL's beheren in de lijst tenant-toestaan/blokkeren
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,22 +14,22 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen leren hoe u URL- en bestandsvermeldingen configureert in de lijst Tenant Toestaan/blokkeren in het Security & Compliance Center.
-ms.openlocfilehash: db34abf28b5ead8106eb0b1447052d63072b2da3
-ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
+description: Beheerders kunnen leren hoe u URL-vermeldingen configureert in de lijst tenant-toestaan/blokkeren in het Security & Compliance Center.
+ms.openlocfilehash: 5ff34cca922f18a015bd9da847facc8177cf8790
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45391564"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552548"
 ---
-# <a name="manage-urls-and-files-in-the-tenant-allowblock-list"></a>URL’s en bestanden beheren in de lijst met toegestane/geblokkeerde websites voor de tenant
+# <a name="manage-urls-in-the-tenant-allowblock-list"></a>URL's beheren in de lijst Tenant allow/block
 
 > [!NOTE]
 > De functies die in dit onderwerp worden beschreven, staan in Voorbeeld, kunnen worden gewijzigd en zijn niet in alle organisaties beschikbaar.
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken, u het niet eens zijn met het EOP-filteroordeel. Een goed bericht kan bijvoorbeeld als slecht worden gemarkeerd (een fout-positief) of een slecht bericht kan worden toegestaan door (een vals negatief).
 
-De tenantlijst toestaan/blokkeren in het Security & Compliance Center biedt u een manier om de Microsoft 365-filtervonnten handmatig te overschrijven. De tenantlijst toestaan/blokkeren wordt gebruikt tijdens de e-mailstroom en op het moment dat de gebruiker klikt. U URL's en bestanden opgeven om toe te staan of te blokkeren in de lijst tenant-toestaan/blokkeren.
+De tenantlijst toestaan/blokkeren in het Security & Compliance Center biedt u een manier om de Microsoft 365-filtervonnten handmatig te overschrijven. De tenantlijst toestaan/blokkeren wordt gebruikt tijdens de e-mailstroom en op het moment dat de gebruiker klikt. U URL's opgeven om toe te staan of te blokkeren in de lijst tenant-toestaan/blokkeren.
 
 In dit onderwerp wordt beschreven hoe u vermeldingen configureert in de lijst tenant-toestaan/blokkeren in het Security & Compliance Center of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
@@ -37,17 +37,9 @@ In dit onderwerp wordt beschreven hoe u vermeldingen configureert in de lijst te
 
 - U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina **Tenant allow/block list wilt** gaan, gebruikt u <https://protection.office.com/tenantAllowBlockList> .
 
-- U geeft bestanden op met de SHA256-hashwaarde van het bestand. Voer de volgende opdracht uit in een opdrachtprompt om de SHA256-hashwaarde van een bestand in Windows te zoeken:
-
-  ```dos
-  certutil.exe -hashfile "<Path>\<Filename>" SHA256
-  ```
-
-  Een voorbeeldwaarde is `768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3a` . Perceptuele hash (pHash) waarden zijn niet toegestaan.
-
 - De beschikbare URL-waarden worden later in dit onderwerp beschreven in de syntaxis van de URL voor de sectie [Tenant toestaan/blokkeren.](#url-syntax-for-the-tenant-allowblock-list)
 
-- Met de tenantlijst toestaan/blokkeren kunnen maximaal 500 vermeldingen voor URL's en 500 vermeldingen voor bestandshashes.
+- De tenant-lijst voor toestaan/blokkeren maakt maximaal 500 vermeldingen voor URL's mogelijk.
 
 - Een vermelding moet binnen 15 minuten actief zijn.
 
@@ -95,39 +87,15 @@ Zie de [URL-syntaxis voor de sectie Tenant toestaan/blokkeren](#url-syntax-for-t
 
 4. Klik op Toevoegen als u klaar bent met **toevoegen.**
 
-## <a name="use-the-security--compliance-center-to-create-file-entries-in-the-tenant-allowblock-list"></a>Gebruik het Security & Compliance Center om bestandsvermeldingen te maken in de lijst Tenant Allow/Block
+## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>Gebruik het Security & Compliance Center om vermeldingen in de tenant-lijst voor tenant-toestaan/blokkeren weer te geven
 
 1. Ga in het Security & Compliance Center naar Tenant Allow/Block Lists **voor bedreigingsbeheerbeleid** \> **Policy** \> **Tenant Allow/Block Lists**.
 
-2. Selecteer op de pagina **Tenant toestaan/blokkeren** het tabblad **Bestanden** en klik vervolgens op **Toevoegen**.
-
-3. Configureer in de flyout **nieuwe bestanden toevoegen** die wordt weergegeven de volgende instellingen:
-
-   - **Bestandshashes toevoegen:** Voer één SHA256-hashwaarde per regel in, tot een maximum van 20.
-
-   - **Blokkeren/Toestaan**: Selecteer of u de opgegeven bestanden wilt **toestaan** of **blokkeren.**
-
-   - **Nooit verlopen**: Doe een van de volgende stappen:
-
-     - Controleer of de instelling is uitgeschakeld ( ![ ](../../media/scc-toggle-off.png) Uitschakelen) en gebruik het vak **Verlopen op** om de vervaldatum voor de vermeldingen op te geven.
-
-     of
-
-     - Verplaats de schakelaar naar rechts om de items te configureren om nooit te verlopen: ![Inschakelen](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png).
-
-   - **Optionele notitie**: Voer beschrijvende tekst in voor de vermeldingen.
-
-4. Klik op Toevoegen als u klaar bent met **toevoegen.**
-
-## <a name="use-the-security--compliance-center-to-view-url-and-file-entries-in-the-tenant-allowblock-list"></a>Gebruik het Security & Compliance Center om URL- en bestandsvermeldingen weer te geven in de lijst Tenant Allow/Block
-
-1. Ga in het Security & Compliance Center naar Tenant Allow/Block Lists **voor bedreigingsbeheerbeleid** \> **Policy** \> **Tenant Allow/Block Lists**.
-
-2. Selecteer het tabblad **URL's** of het tabblad **Bestanden.**
+2. Selecteer het tabblad **URL's.**
 
 Klik op de volgende kolomkoppen om in oplopende of aflopende volgorde te sorteren:
 
-- **Waarde**: De URL of de bestandshash.
+- **Value**
 - **Actie**: **Blokkeren** of **toestaan**.
 - **Laatst bijgewerkte datum**
 - **Vervaldatum**
@@ -135,7 +103,7 @@ Klik op de volgende kolomkoppen om in oplopende of aflopende volgorde te sortere
 
 Klik **op Groeperen** om de items te groeperen op **actie** **(Blokkeren** of **Toestaan)** of **Geen**.
 
-Klik **op Zoeken,** voer een URL of bestandswaarde geheel of gedeeltelijk in en druk op ENTER om een specifieke waarde te vinden. Wanneer u klaar bent, klikt u op **Clear search** ![ Zoekfunctie wissen ](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) wissen.
+Klik **op Zoeken,** voer een waarde geheel of gedeeltelijk in en druk op ENTER om een specifieke waarde te zoeken. Wanneer u klaar bent, klikt u op **Clear search** ![ Zoekfunctie wissen ](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) wissen.
 
 Klik op **Filter**. Configureer een van de volgende instellingen in de flyout **Filter** die wordt weergegeven:
 
@@ -151,13 +119,13 @@ Klik op **Toepassen**als u klaar bent.
 
 Als u bestaande filters wilt wissen, klikt u op **Filter**en klikt u in de flyout **Filter** die wordt weergegeven op **Filters wissen**.
 
-## <a name="use-the-security--compliance-center-to-modify-url-and-file-entries-in-the-tenant-allowblock-list"></a>Gebruik het Security & Compliance Center om URL- en bestandsvermeldingen in de lijst Tenant allow/block te wijzigen
+## <a name="use-the-security--compliance-center-to-modify-entries-in-the-tenant-allowblock-list"></a>Gebruik het Security & Compliance Center om vermeldingen in de tenant-lijst voor tenant-toestaan/blokkeren te wijzigen
 
-U de URL of bestandswaarde zelf niet wijzigen. In plaats daarvan moet u de vermelding verwijderen en opnieuw maken.
+U de URL-waarde zelf niet wijzigen. In plaats daarvan moet u de vermelding verwijderen en opnieuw maken.
 
 1. Ga in het Security & Compliance Center naar Tenant Allow/Block Lists **voor bedreigingsbeheerbeleid** \> **Policy** \> **Tenant Allow/Block Lists**.
 
-2. Selecteer het tabblad **URL's** of het tabblad **Bestanden.**
+2. Selecteer het tabblad **URL's.**
 
 3. Selecteer het item dat u wilt wijzigen en **klik** op ![ pictogram Bewerken ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) bewerken .
 
@@ -177,11 +145,11 @@ U de URL of bestandswaarde zelf niet wijzigen. In plaats daarvan moet u de verme
 
 5. Klik op **Opslaan** wanneer u gereed bent.
 
-## <a name="use-the-security--compliance-center-to-remove-url-and-file-entries-from-the-tenant-allowblock-list"></a>Gebruik het Security & Compliance Center om URL- en bestandsvermeldingen uit de lijst tenant-toestaan/blokkeren te verwijderen
+## <a name="use-the-security--compliance-center-to-remove-entries-from-the-tenant-allowblock-list"></a>Gebruik het Security & Compliance Center om vermeldingen uit de tenant-lijst voor tenant-toestaan/blokkeren te verwijderen
 
 1. Ga in het Security & Compliance Center naar Tenant Allow/Block Lists **voor bedreigingsbeheerbeleid** \> **Policy** \> **Tenant Allow/Block Lists**.
 
-2. Selecteer het tabblad **URL's** of het tabblad **Bestanden.**
+2. Selecteer het tabblad **URL's.**
 
 3. Selecteer het item dat u wilt verwijderen en **klik** op ![ pictogram Verwijderen verwijderen ](../../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png) .
 
@@ -189,12 +157,12 @@ U de URL of bestandswaarde zelf niet wijzigen. In plaats daarvan moet u de verme
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-the-tenant-allowblock-list"></a>Exchange Online PowerShell of zelfstandige EOP PowerShell gebruiken om de tenant-lijst voor toestaan/blokkeren te configureren
 
-### <a name="use-powershell-to-add-url-and-file-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om URL- en bestandsvermeldingen toe te voegen in de lijst Tenant Toestaan/blokkeren
+### <a name="use-powershell-to-add-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om vermeldingen toe te voegen aan de lijst Tenant Allow/Block
 
-Als u URL- en bestandsvermeldingen wilt toevoegen in de lijst Tenant toestaan/blokkeren, gebruikt u de volgende syntaxis:
+Als u vermeldingen wilt toevoegen aan de lijst tenant-toestaan/blokkeren, gebruikt u de volgende syntaxis:
 
 ```powershell
-New-TenantAllowBlockListItems -ListType <Url | FileHash> -Action <Allow | Block> -Entries <String[]> [-ExpirationDate <DateTime>] [-NoExpiration] [-Notes <String>]
+New-TenantAllowBlockListItems -ListType Url -Action <Allow | Block> -Entries <String[]> [-ExpirationDate <DateTime>] [-NoExpiration] [-Notes <String>]
 ```
 
 In dit voorbeeld wordt een URL-blokvermelding toegevoegd voor contoso.com en alle subdomeinen (bijvoorbeeld contoso.com, www.contoso.com en xyz.abc.contoso.com). Omdat we de parameters voor vervaldatum of niet-uitademing niet hebben gebruikt, verloopt de vermelding na 30 dagen.
@@ -203,20 +171,14 @@ In dit voorbeeld wordt een URL-blokvermelding toegevoegd voor contoso.com en all
 New-TenantAllowBlockListItem -ListType Url -Action Block -Entries ~contoso.com
 ```
 
-```powershell
-New-TenantAllowBlockListItem -ListType FileHash -Action Allow -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
-```
-
-In dit voorbeeld wordt een bestand toegevoegd voor de opgegeven bestanden die nooit verlopen.
-
 Zie [Nieuwe-TenantAllowBlockListItems](https://docs.microsoft.com/powershell/module/exchange/new-tenantallowblocklistitems)voor gedetailleerde syntaxis- en parametergegevens .
 
-### <a name="use-powershell-to-view-url-and-file-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om URL- en bestandsvermeldingen weer te geven in de lijst Tenant Toestaan/blokkeren
+### <a name="use-powershell-to-view-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om vermeldingen in de lijst Tenant toestaan/blokkeren weer te geven
 
-Als u URL- en bestandsvermeldingen in de lijst Tenant toestaan/blokkeren wilt weergeven, gebruikt u de volgende syntaxis:
+Als u vermeldingen in de lijst tenant-toestaan/blokkeren wilt weergeven, gebruikt u de volgende syntaxis:
 
 ```powershell
-Get-TenantAllowBlockListItems -ListType <Url | FileHash> [-Entry <URLValue | FileHashValue>] [-Action <Allow | Block>] [-ExpirationDate <DateTime>] [-NoExpiration]
+Get-TenantAllowBlockListItems -ListType Url [-Entry <URLValue>] [-Action <Allow | Block>] [-ExpirationDate <DateTime>] [-NoExpiration]
 ```
 
 In dit voorbeeld worden alle geblokkeerde URL's geretourneerd.
@@ -225,22 +187,16 @@ In dit voorbeeld worden alle geblokkeerde URL's geretourneerd.
 Get-TenantAllowBlockListItems -ListType Url -Action Block
 ```
 
-In dit voorbeeld worden gegevens geretourneerd voor de opgegeven bestandshashwaarde.
-
-```powershell
-Get-TenantAllowBlockListItems -ListType FileHash -Entry "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
-```
-
 Zie Lijstitems voor gedetailleerde syntaxis en [parametergegevens](https://docs.microsoft.com/powershell/module/exchange/get-tenantallowblocklistitems).
 
-### <a name="use-powershell-to-modify-url-and-file-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om URL- en bestandsvermeldingen in de lijst tenant-toestaan/blokkeren te wijzigen
+### <a name="use-powershell-to-modify-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om vermeldingen in de lijst tenant-toestaan/blokkeren te wijzigen
 
-U de URL of bestandswaarde zelf niet wijzigen. In plaats daarvan moet u de vermelding verwijderen en opnieuw maken.
+U de URL-waarde zelf niet wijzigen. In plaats daarvan moet u de vermelding verwijderen en opnieuw maken.
 
-Als u URL- en bestandsvermeldingen in de lijst Tenant toestaan/blokkeren wilt wijzigen, gebruikt u de volgende syntaxis:
+Als u vermeldingen in de lijst tenant-toestaan/blokkeren wilt wijzigen, gebruikt u de volgende syntaxis:
 
 ```powershell
-Set-TenantAllowBlockListItems -ListType <Url | FileHash> -Ids <"Id1","Id2",..."IdN"> [-Action <Allow | Block>] [-ExpirationDate <DateTime>] [-NoExpiration] [-Notes <String>]
+Set-TenantAllowBlockListItems -ListType Url -Ids <"Id1","Id2",..."IdN"> [-Action <Allow | Block>] [-ExpirationDate <DateTime>] [-NoExpiration] [-Notes <String>]
 ```
 
 In dit voorbeeld wordt de vervaldatum van de opgegeven vermelding gewijzigd.
@@ -251,12 +207,12 @@ Set-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBw
 
 Zie [Set-TenantAllowBlockListIteMs voor](https://docs.microsoft.com/powershell/module/exchange/set-tenantallowblocklistitems)gedetailleerde syntaxis- en parametergegevens .
 
-### <a name="use-powershell-to-remove-url-and-file-entries-from-the-tenant-allowblock-list"></a>PowerShell gebruiken om URL- en bestandsvermeldingen uit de lijst tenant-toestaan/blokkeren te verwijderen
+### <a name="use-powershell-to-remove-entries-from-the-tenant-allowblock-list"></a>PowerShell gebruiken om vermeldingen uit de tenantlijst voor toestaan/blokkeren te verwijderen
 
-Als u URL- en bestandsvermeldingen wilt verwijderen uit de lijst tenant-toestaan/blokkeren, gebruikt u de volgende syntaxis:
+Als u vermeldingen uit de lijst tenant-toestaan/blokken wilt verwijderen, gebruikt u de volgende syntaxis:
 
 ```powershell
-Remove-TenantAllowBlockListItems -ListType <Url | FileHash> -Ids <"Id1","Id2",..."IdN">
+Remove-TenantAllowBlockListItems -ListType Url -Ids <"Id1","Id2",..."IdN">
 ```
 
 In dit voorbeeld wordt de opgegeven URL-vermelding verwijderd uit de lijst tenant-toestaan/blokkeren.

@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: 'Maak snelle koppelingen naar uw e-mail, documenten, apps, SharePoint-sites, externe sites en andere bronnen door aangepaste tegels toe te voegen aan het startprogramma voor apps. '
-ms.openlocfilehash: 7220f0be8ad6605b7ad6d30000fde6411948c996
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: cebb4385e40f2cef68d3ee26dca1cb905c8d91c5
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780131"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552492"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Aangepaste tegels toevoegen aan het startprogramma voor apps
 
@@ -45,7 +45,7 @@ U kunt aan het startprogramma voor apps uw eigen aangepaste tegels toevoegen die
   
 ## <a name="add-a-custom-tile-to-the-app-launcher"></a>Een aangepaste tegel toevoegen aan het startprogramma voor apps
 
-1. Ga in het beheercentrum naar **de**  >  **instellingeninstellingen voor organisatie en** kies het tabblad **Organisatieprofiel.**
+1. Meld u aan bij het beheercentrum **Settings**als globale beheerder, ga naar  >  **Instellingen Organisatie-instellingen**en kies het tabblad **Organisatieprofiel.**
     
 2. Kies op het tabblad **Organisatieprofiel** de optie **Tegels voor aangepaste app-startprogramma's**.
   
@@ -91,4 +91,3 @@ Als u een aangepaste tegel wilt verwijderen, selecteert u in het venster **Aange
 
 Naast het toevoegen van tegels aan het startprogramma voor apps, u tegels voor app-startprogramma's toevoegen aan de navigatiebalk[(meer informatie).](https://support.microsoft.com/office/eb34a21b-52fa-4fbf-a8d5-146132242985) Zie Het [Microsoft 365-thema aanpassen](../setup/customize-your-organization-theme.md)als u het uiterlijk van Microsoft 365 wilt aanpassen aan het merk van uw organisatie.
   
-

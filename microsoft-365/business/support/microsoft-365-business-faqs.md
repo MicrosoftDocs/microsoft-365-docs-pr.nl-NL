@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, MKB, FAQ, veelgestelde vragen, antwoorden, zakelijk
 ms.date: 07/21/2020
-ms.openlocfilehash: 520009d26d0133a2c53c6149fe4938bea9db5a32
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: 614da177df9250045ca3cc18c0b071e0aa43b7ec
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46502994"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560794"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft 365 Business
 
@@ -154,7 +154,7 @@ Windows AutoPilot is een service die de implementatie van nieuwe Windows 10-pc's
 Alle invoegtoepassingen die kunnen worden toegevoegd aan Microsoft 365 Business Standard, kunnen ook worden toegevoegd aan Microsoft 365 Business Premium. Dit betekent dat u Office 365 Cloud App Security, Advanced Compliance, Threat Intelligence, MyAnalytics, Power BI Pro en Audio Conferencing aanschaffen. 
  
 ### <a name="can-i-add-phone-system-and-calling-plans-to-microsoft-365-business-premium"></a>Kan ik telefoonsysteem en oproepabonnementen toevoegen aan Microsoft 365 Business Premium? 
-Nee, telefoonsysteem en oproepabonnementen zijn gereserveerd voor klanten die meer geavanceerde behoeften hebben. Klanten die deze mogelijkheden nodig hebben, moeten kijken naar het aanbod van Microsoft 365 Enterprise. 
+Ja, u een Business Voice-abonnement aanschaffen. [Business Voice](https://docs.microsoft.com/microsoftteams/business-voice/whats-business-voice) is een telefonieoplossing die is ontworpen voor kleine en middelgrote bedrijven van maximaal 300 gebruikers die telefoonsysteem, audioconferenties, een binnenlands belplan en meer bundelt. De mogelijkheden van het telefoonsysteem die u krijgt, zijn onder andere voicemail, beller-ID, oproeppark, doorschakelen van gesprekken, autobedienden en oproepwachtrijen. <br> Zie Beschikbaarheid van land en regio voor Business Voice voor de beschikbaarheid van Bedrijven en regio's voor informatie over de beschikbaarheid van [Business Voice.](https://docs.microsoft.com/microsoftteams/business-voice/country-region-availability) Zie [Prijzen voor Zakelijke spraak voor](https://go.microsoft.com/fwlink/?linkid=2127221)prijsinformatie.
  
 ### <a name="can-microsoft-365-business-premium-customers-use--microsoft-defender-advanced-threat-protection"></a>Kunnen Microsoft 365 Business Premium-klanten Microsoft Defender Advanced Threat Protection gebruiken? 
 Ja, Microsoft Defender Advanced Threat Protection is beschikbaar als add-on voor Microsoft 365 Business Premium-klanten.

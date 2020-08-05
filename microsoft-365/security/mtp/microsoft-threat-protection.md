@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: b11daf1cc6921e4be87b1bd3965adc2d76d0a0dd
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: afeef8de09e0ee7a727372041791871712ca4e0d
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049926"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560893"
 ---
 # <a name="microsoft-threat-protection"></a>Microsoft Threat Protection
 
@@ -55,6 +55,8 @@ Microsoft Threat Protection suite beschermt:
 - **E-mail en samenwerking met Office 365 ATP** - Office 365 ATP beschermt uw organisatie tegen schadelijke bedreigingen van e-mailberichten, koppelingen (URL's) en samenwerkingshulpprogramma's. 
 - **Identiteiten met Azure ATP en Azure AD Identity Protection** - Azure ATP gebruikt Active Directory-signalen om geavanceerde bedreigingen, gecompromitteerde identiteiten en schadelijke insideracties gericht op uw organisatie te identificeren, te detecteren en te onderzoeken. 
 - **Toepassingen met Microsoft Cloud App-beveiliging** - Microsoft Cloud App-beveiliging is een uitgebreide cross-SaaS-oplossing die uw cloud-apps diepgaand inzicht, sterke gegevenscontroles en verbeterde bedreigingsbescherming biedt. 
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Bzww] 
 
 De unieke cross-productlaag van Microsoft Threat Protection vergroot de afzonderlijke suitecomponenten tot:
 - Help beschermen tegen aanvallen en coördineer defensieve reacties in de suite door middel van signaaldeling en geautomatiseerde acties

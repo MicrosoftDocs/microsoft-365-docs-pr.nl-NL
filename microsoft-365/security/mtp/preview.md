@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 77f84519c7173aa1f9a4293b222fa5f677ed8159
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 3559bf3391427d6f6ae0cfc6b6f6e8ed343438fa
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430361"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552660"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Microsoft Threat Protection preview-functies
 
@@ -50,12 +50,14 @@ Schakel de instelling voor voorbeeldervaring in om als een van de eersten aankom
 
 3. Voorbeeldfuncties **Preview features**  >  **selecteren Voorbeeldfuncties inschakelen.** 
 
-3. Selecteer **Opslaan**.
+3. Klik op **Opslaan**.
 
 U weet dat u voorbeeldfuncties hebt ingeschakeld wanneer u ziet dat het selectievakje **Voorbeeldfuncties inschakelen** is ingeschakeld. 
 
 ## <a name="preview-features"></a>Voorbeeldfuncties
 De volgende functies en verbeteringen zijn momenteel beschikbaar in preview:
 
-- **[In-portal schema referentie](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — informatie over schematabellen direct beschikbaar in het beveiligingscentrum. Naast tabel- en kolombeschrijvingen bevat deze verwijzing informatie over ondersteunde gebeurtenistypen `ActionType` (waarden) en voorbeeldquery's.
+- **[Onderneem actie in geavanceerde jacht](advanced-hunting-take-action.md)** - Snel bedreigingen bevatten of adres gecompromitteerde activa die u vindt in geavanceerde [jacht](advanced-hunting-overview.md).
+
+- **[In-portal schema referentie](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** - Krijg informatie over geavanceerde jacht schema tabellen rechtstreeks in het beveiligingscentrum. Naast tabel- en kolombeschrijvingen bevat deze handige verwijzing informatie over ondersteunde gebeurtenistypen `ActionType` (waarden) en voorbeeldquery's.
 

@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Meer informatie over het instellen van de releaseoptie voor nieuwe product- en functies-updates in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 3baec050f33893357b25c832552643cf3a6d10d0
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: 648be8ca5d3c7aae93ed868972bc59b32ba87987
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46502877"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560713"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>De opties voor standaard of gerichte release instellen
 
@@ -38,10 +38,10 @@ ms.locfileid: "46502877"
 
 ::: moniker-end
 
-Met Microsoft 365 ontvangt u nieuwe productupdates en -functies zodra deze beschikbaar zijn in plaats van om de paar jaar dure updates uit te voeren. U kunt beheren hoe uw organisatie deze updates ontvangt. U kunt u bijvoorbeeld registreren voor een vroege release, zodat uw organisatie updates als eerste ontvangt. U kunt bepaalde personen aanwijzen die als enigen de updates ontvangen. Of u blijft het standaardreleaseschema volgen en ontvangt de updates later. In dit artikel worden de verschillende releaseopties uitgelegd en hoe u deze gebruiken voor uw organisatie.
-  
 > [!IMPORTANT]
-> De In dit artikel beschreven Microsoft 365-updates zijn van toepassing op Microsoft 365, SharePoint Online en Exchange Online. Ze zijn niet van toepassing op Skype voor Bedrijven en gerelateerde services. Deze releaseopties zijn gerichte manieren om wijzigingen in Microsoft 365 vrij te geven, maar kunnen niet te allen tijde of voor alle updates worden gegarandeerd. 
+> De In dit artikel beschreven Microsoft 365-updates zijn van toepassing op Microsoft 365, SharePoint Online en Exchange Online. Deze releaseopties zijn gerichte manieren om wijzigingen in Microsoft 365 vrij te geven, maar kunnen niet te allen tijde of voor alle updates worden gegarandeerd. Ze zijn niet van toepassing op Skype voor Bedrijven, Microsoft Teams en gerelateerde services.
+
+Met Microsoft 365 ontvangt u nieuwe productupdates en -functies zodra deze beschikbaar zijn in plaats van om de paar jaar dure updates uit te voeren. U kunt beheren hoe uw organisatie deze updates ontvangt. U kunt u bijvoorbeeld registreren voor een vroege release, zodat uw organisatie updates als eerste ontvangt. U kunt bepaalde personen aanwijzen die als enigen de updates ontvangen. Of u blijft het standaardreleaseschema volgen en ontvangt de updates later. In dit artikel worden de verschillende releaseopties uitgelegd en hoe u deze gebruiken voor uw organisatie.
 
 > [!NOTE]
 > Zie [Overzicht van updatekanalen voor Microsoft 365 Apps voor](https://docs.microsoft.com/deployoffice/overview-update-channels)informatie over updatekanalen voor toepassingen. 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Rapporten voor Geavanceerde bedreigingsbeveiliging van Office 365 zoeken en gebruiken in het Security &amp; Compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4210ea30457215f9adc2984f24f161dc94985873
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: a2225cbbd9233199e0ce1fc0baf0be5fe59bd258
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434078"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560295"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Rapporten voor geavanceerde bedreigingsbeveiliging van Office 365 weergeven
 
@@ -31,7 +31,7 @@ Office 365 Advanced Threat Protection (ATP)-organisaties (bijvoorbeeld Microsoft
 
 ![Het dashboard Rapporten in het Security & Compliance Center](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
-## <a name="advanced-threat-protection-file-types-report"></a>Rapport over geavanceerde bedreigingsbeveiligingsbestandstypen
+## <a name="advanced-threat-protection-file-types-report"></a>Rapport over bestandstypen Advanced Threat Protection
 
 In **het rapport Rapport Advanced Threat Protection-bestandstypen** ziet u het type bestanden dat door [ATP Safe Attachments](atp-safe-attachments.md)als kwaadaardig is gedetecteerd.
 
@@ -115,7 +115,7 @@ Als u op **tabel Details weergeven**klikt, biedt het rapport een bijna realtime 
 
 Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven**.
 
-## <a name="advanced-threat-protection-message-disposition-report"></a>Advanced Threat Protection message disposition report Advanced Threat Protection message disposition report Advanced Threat Protection
+## <a name="advanced-threat-protection-message-disposition-report"></a>Rapport over berichtverwerking Advanced Threat Protection
 
 Het **ATP-bericht dispositie** rapport toont u de acties die zijn genomen voor e-mailberichten die zijn gedetecteerd als met kwaadaardige inhoud.
 
@@ -197,7 +197,7 @@ Als u op **tabel Details weergeven**klikt, biedt het rapport een bijna realtime 
 
 Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven**.
 
-## <a name="threat-protection-status-report"></a>Statusrapport voor bedreigingsbescherming
+## <a name="threat-protection-status-report"></a>Statusrapport bedreigingsbeveiliging
 
 Het **statusrapport voor bedreigingsbescherming** is één weergave die informatie over schadelijke inhoud en schadelijke e-mail samenbrengt die is gedetecteerd en geblokkeerd door [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) en Office 365 ATP. Zie [Statusrapport Bedreigingsbeveiliging voor](view-email-security-reports.md#threat-protection-status-report)meer informatie .
 
@@ -218,7 +218,7 @@ Het **URL-dreigingsbeveiligingsrapport** bevat twee geaggregeerde weergaven die 
 
 - **URL-klikbeveiligingsactie:** geeft het aantal URL-klikken weer door gebruikers in de organisatie en de resultaten van de klik:
 
-  - **Geblokkeerd**
+  - **Geblokkeerd** (de gebruiker is geblokkeerd om naar de URL te navigeren)
   - **Geblokkeerd en doorgeklikt**
   - **Doorgeklikt tijdens de scan**
 
@@ -227,7 +227,7 @@ Het **URL-dreigingsbeveiligingsrapport** bevat twee geaggregeerde weergaven die 
   Als u op **Filters**klikt, u het rapport wijzigen met de volgende filters:
 
   - **Begindatum** en **einddatum**
-  - De beschikbare klikbeveiligingsacties, plus de waarde **Die u toestaat** om informatie te zien voor alle URL-klikken (niet alleen geblokkeerde klikken).
+  - De beschikbare acties voor klikbeveiliging, plus de waarde **Toegestaan** (de gebruiker mocht naar de URL navigeren).
 
   ![URL klik op de actieweergave voor beveiliging in het url-dreigingsbeveiligingsrapport](../../media/url-threat-protection-report-url-click-protection-action-view.png)
 

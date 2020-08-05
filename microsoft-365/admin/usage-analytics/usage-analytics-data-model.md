@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: 'Ontdek hoe gebruiksanalyses verbinding maken met een API en biedt maandelijks gebruikstrend van verschillende Microsoft 365-services.  '
-ms.openlocfilehash: 28dc51f76ac2e6bba00ecea853bc79419500508d
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: 1fa1cb842b603a920665ec1b59ca18f586b5d181
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695089"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560857"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Microsoft 365 Gegevensmodel gebruiksanalyse
 
@@ -140,6 +140,9 @@ Deze tabel bevat gegevens over elke gebruiker die in een van de services een act
 |SFB_P2PSummary  <br/> |Het aantal peer-to-peer-sessies waaraan deze gebruiker heeft deelgenomen.  <br/> |
 |SFB_ConfOrgSummary  <br/> |Het aantal telefonische vergaderingen dat deze gebruiker heeft georganiseerd.  <br/> |
 |SFB_ConfPartSummary  <br/> |Het aantal telefonische vergaderingen waaraan deze gebruiker heeft deelgenomen.  <br/> |
+
+> [!NOTE]
+> Teams_HasOtherAction betekent dat de gebruiker als actief wordt beschouwd, maar een nulwaarde heeft voor de chatberichten, 1:1-gesprekken, kanaalberichten, totale vergaderingen en vergaderingen die zijn georganiseerd.
    
 ### <a name="data-table---tenant-product-usage"></a>Gegevenstabel - Tenant Product Usage
 

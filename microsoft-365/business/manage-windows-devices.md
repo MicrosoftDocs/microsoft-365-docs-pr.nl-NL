@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Meer informatie over het inschakelen van Microsoft 365 om lokale Windows 10-apparaten met Actieve Directory in slechts een paar stappen te beschermen.
-ms.openlocfilehash: 2eaf5aa76cae1680b93af008af615ae872e4fb20
-ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
+ms.openlocfilehash: 6275c6c4be9cd9631ab095f8b0e1b39683022bb2
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533780"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560838"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Inschakelen domein-aangesloten Windows 10-apparaten worden beheerd door Microsoft 365 Business Premium
 
@@ -50,8 +50,7 @@ Zie [Domeingebruikers synchroniseren met Microsoft](manage-domain-users.md) voor
 
 ## <a name="1-verify-mdm-authority-in-intune"></a>1. MDM-autoriteit in Intune verifiëren
 
-Ga naar portal.azure.com en zoek bovenaan de pagina naar Intune.
-Selecteer op de pagina Microsoft Intune de optie **Apparaatinschrijving** en controleer op de pagina **Overzicht** of **de MDM-autoriteit** **Intune**is.
+Ga naar [Endpoint Manager](https://endpoint.microsoft.com/#blade/Microsoft_Intune_Enrollment/EnrollmentMenu/overview) en selecteer op de microsoft Intune-pagina **Apparaatinschrijving**en controleer vervolgens op de **pagina Overzicht** of **MDM-autoriteit** **Intune**is.
 
 - Als **MDM-autoriteit** **geen**is, klikt u op de **MDM-autoriteit** om deze in te stellen op **Intune**.
 - Als **MDM-autoriteit** **Microsoft Office 365**is, ga dan naar **Apparaten**Inschrijven  >  **en** gebruik het dialoogvenster **MDM-autoriteit toevoegen** aan het recht om **Intune MDM-autoriteit** toe te voegen (het dialoogvenster **MDM-autoriteit toevoegen** is alleen beschikbaar als de **MDM-autoriteit** is ingesteld op Microsoft Office 365).

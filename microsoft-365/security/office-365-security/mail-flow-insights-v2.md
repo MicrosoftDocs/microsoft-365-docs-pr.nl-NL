@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Beheerders kunnen meer te weten komen over het dashboard van de e-mailstroom in het Security & Compliance Center, inclusief inzichten, rapporten en widgets.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61a3df3016541b170f736d23b9e4b4854964046e
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: e3139fa6a139c7fa159c2e5e5daa3879322f4bf0
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588014"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552672"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>E-mailstroominzichten in het Beveiligings- en compliancecentrum
 
@@ -57,7 +57,7 @@ Het dashboard van de e-mailstroom is beschikbaar voor:
 
 - Leden van de **functie e-mailstroombeheerder** in het Security & Compliance Center. Als deze rol expliciet is toegewezen aan een gebruiker die geen lid is van de rollen global administrator of Exchange-beheerders:
 
-  - De gebruiker moet zich rechtstreeks aanmelden bij het Security & Compliance Center op [https://protection.office.com](https://protection.office.com) .
+  - De gebruiker moet zich rechtstreeks aanmelden bij het Security & Compliance Center op <https://protection.office.com> .
 
   - De gebruiker heeft alleen-lezen alleen-lezen toestemming voor het dashboard van de e-mailstroom.
 
