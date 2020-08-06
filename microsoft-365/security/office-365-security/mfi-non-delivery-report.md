@@ -1,5 +1,5 @@
 ---
-title: Rapport over niet-uitgevoerde bezorging
+title: Rapport over niet-uitgevoerde bezorging van het dashboard voor e-mail stroom
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,28 +12,52 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen meer te weten komen over het rapport niet-levering in het dashboard van de e-mailstroom in het Security & Compliance Center.
-ms.openlocfilehash: eddecd1de5675797837aed84a892c43ba36c4c56
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Beheerders kunnen informatie over het gebruik van het rapport over niet-uitgevoerde bezorgings gegevens in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum voor het bewaken van de meest voorkomende foutcodes in rapporten over niet-uitgevoerde bezorging (ook wel Ndr's of stuiteren) van afzenders in uw organisatie.
+ms.openlocfilehash: d45382ab5c7e0d0a73487740544f20b9c25a3ad1
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819507"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577422"
 ---
-# <a name="non-delivery-report"></a>Rapport over niet-uitgevoerde bezorging
+# <a name="non-delivery-report-in-the-security--compliance-center"></a>Rapport over niet-uitgevoerde bezorging van de beveiligings & nalevings centrum
 
-In **het rapport Niet-levering** worden de meest voorkomende foutcodes weergegeven in rapporten die niet worden weergegeven (ook wel NDR's of bounceberichten genoemd) voor gebruikers in uw organisatie. Dit rapport is bedoeld om de details van NDR's weer te geven, zodat u problemen oplossen.
+Het **rapport over niet-** uitgevoerde bezorging van het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in het beveiligingscentrum van beveiligings & bevat de belangrijkste foutcodes in rapporten over niet-uitgevoerde bezorging (ook wel ndr's genoemd) voor gebruikers in uw organisatie. Dit rapport toont de details van Ndr's, zodat u problemen met de bezorging van e-mail kunt oplossen.
 
-![Het rapport Niet-levering in het dashboard van de e-mailstroom in het Security & Compliance Center](../../media/non-delivery-report-selected.png)
+![Widget rapport over niet-uitgevoerde bezorging in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum](../../media/mfi-non-delivery-report-widget.png)
 
-U informatie voor alle NDR-codes of een specifieke code weergeven door op **Gegevens weergeven voor**. U ook op **tabel Details weergeven** klikken om een meer gedetailleerde weergave weer te geven, zoals weergegeven in het volgende diagram:
+## <a name="report-view-for-the-non-delivery-report"></a>Rapportweergave voor het rapport over niet-uitgevoerde bezorging
 
-![Tabel Details weergeven in het rapport Niet-levering](../../media/non-delivery-report-view-details-table.png)
+Door te klikken op de widget **niet-bezorgingsrapport** gaat u naar het **rapport niet-** uitgevoerde bezorging.
 
-Wanneer u een rij in de tabel selecteert om de details van de specifieke NDR weer te geven, u de gedetailleerde informatie gebruiken om problemen op te lossen en de nodige acties uit te voeren.
+Standaard wordt de activiteit voor alle foutcodes weergegeven. Als u op **gegevens weergeven**klikt, kunt u een specifieke foutcode selecteren in de vervolgkeuzelijst.
 
-![Een rij selecteren in de tabel Details in het rapport Niet-levering](../../media/non-delivery-report-details-table-select-row.png)
+Als u een bepaalde kleur (foutcode) op een specifieke dag van de grafiek aanwijst, ziet u het totale aantal berichten voor de fout.
+
+![Rapportweergave in het niet-geaccepteerde domein rapport](../../media/mfi-non-delivery-report-overview-view.png)
+
+## <a name="details-table-view-for-the-non-delivery-report"></a>De tabel weergave Details voor het rapport over niet-uitgevoerde bezorging
+
+Als u in een rapportweergave op **Details tabel weergeven** klikt, wordt de volgende informatie weergegeven:
+
+- **Einddatum**
+- **Rapportcode niet-uitgevoerde bezorging**
+- **Getal**
+- **Voorbeeldberichten**: de bericht-id's van een voorbeeld van de betreffende berichten.
+
+Als u in een weergave met detail tabellen op **filters** klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.
+
+Als u het rapport voor een specifiek datumbereik naar een of meer geadresseerden wilt verzenden, klikt u op **Download aanvragen**.
+
+Wanneer u een rij in de tabel selecteert, wordt een flyout met de volgende informatie weergegeven:
+
+- **Einddatum**
+- **Rapportcode voor niet-** uitgevoerde bezorging: u kunt op de link klikken voor meer informatie over de oorzaken en oplossingen voor de specifieke foutcode.
+- **Getal**
+- **Voorbeeldberichten**: u kunt op **voorbeeldberichten weergeven** klikken om de resultaten van de [bericht tracering](message-trace-scc.md) te zien voor een voorbeeld van de betreffende berichten.
+
+![Info-flyout na het selecteren van een rij in de tabel Details in het rapport niet-uitgevoerde bezorging](../../media/mfi-non-delivery-report-details-flyout.png)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-Zie [E-mailstroominzichten in het Security & Compliance Center](mail-flow-insights-v2.md)voor meer informatie over andere e-mailstroominzichten in het dashboard voor e-mailstromen.
+Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).

@@ -1,5 +1,5 @@
 ---
-title: Een postvak opgeven voor gebruikersinzendingen van spam- en phishingberichten
+title: Een postvak opgeven voor de verzending van spam en malafide berichten in de gebruikers
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,110 +15,108 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u een postvak configureert om spam en phishing-e-mail te verzamelen die door gebruikers worden gerapporteerd.
-ms.openlocfilehash: 0be1a4efa04d3e7a7968880b2a1cca108fdd34f9
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: ae6088a0eab214b4e160b85a278e1160c2845ed9
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46503089"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577124"
 ---
-# <a name="specify-a-mailbox-for-user-submissions-of-spam-and-phishing-messages-in-exchange-online"></a>Een postvak opgeven voor gebruikersinzendingen van spam- en phishingberichten in Exchange Online
+# <a name="specify-a-mailbox-for-user-submissions-of-spam-and-phishing-messages-in-exchange-online"></a>Een postvak opgeven voor de verzending van spam en phishing-berichten in Exchange Online
 
-In Microsoft 365-organisaties met Exchange Online-postvakken u een postvak opgeven om berichten te ontvangen die gebruikers melden als kwaadaardig of niet kwaadaardig. Wanneer gebruikers berichten verzenden met behulp van de verschillende rapportageopties, u dit postvak gebruiken om berichten te onderscheppen (alleen naar het aangepaste postvak verzenden) of kopieën van berichten te ontvangen (verzenden naar het aangepaste postvak en Microsoft). Deze functie werkt met de volgende opties voor berichtrapportage:
+In Microsoft 365-organisaties met postvakken van Exchange Online kunt u een postvak opgeven voor het ontvangen van berichten die gebruikers als schadelijk of niet schadelijk melden. Wanneer gebruikers berichten verzenden met behulp van de verschillende rapportopties, kunt u dit postvak gebruiken om berichten te onderscheppen (alleen verzenden naar het aangepaste postvak) of kopieën van berichten ontvangen (verzenden naar het aangepaste postvak en Microsoft). Deze functie werkt met de volgende opties voor het rapporteren van berichten:
 
-- [De invoegtoepassing Rapportbericht](enable-the-report-message-add-in.md)
+- [De invoegtoepassing bericht melden](enable-the-report-message-add-in.md)
 
-- [Ingebouwde rapportage in de webversie](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md) van Outlook (voorheen Outlook Web App genoemd)
+- [Ingebouwde rapporten in de webversie van Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md) (voorheen Outlook Web app)
 
-- Ingebouwde rapportage in Outlook voor iOS en Android
+- Ingebouwde rapporten in Outlook voor iOS en Android
 
   > [!NOTE]
-  > Als de rapportage [is uitgeschakeld in de webversie](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web)van Outlook, worden de inzendingen van gebruikers hier overschrijven en kunnen gebruikers berichten in de webversie van Outlook opnieuw rapporteren.
+  > Als het rapporteren is [uitgeschakeld in de webversie van Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web), wordt deze instelling vervangen door gebruikers die de instelling en de mogelijkheid bieden om berichten te rapporteren in de webversie van Outlook.
 
-U ook hulpprogramma's voor berichtrapportage van derden configureren om berichten door te sturen naar het postvak dat u opgeeft.
+U kunt ook hulpmiddelen voor het rapporteren van SMS-berichten configureren voor het doorsturen van berichten naar het postvak dat u opgeeft.
 
-Door gerapporteerde gebruikersberichten te leveren aan een aangepast postvak in plaats van rechtstreeks aan Microsoft, kunnen uw beheerders selectief en handmatig berichten rapporteren aan Microsoft met behulp van [admin-indiening.](admin-submission.md)
+Door gebruiker gerapporteerde berichten te verzenden naar een aangepast postvak in plaats van rechtstreeks aan Microsoft kunnen uw beheerders berichten selectief en handmatig rapporteren aan Microsoft via de [beheerder](admin-submission.md).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina **Inzendingen van** gebruikers wilt gaan, gebruikt u <https://protection.office.com/userSubmissionsReportMessage> .
-
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
+- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u direct naar de pagina voor het aanvragen van **gebruikers** wilt gaan, gebruikt u <https://protection.office.com/userSubmissionsReportMessage> .
 
 - U moet beschikken over bepaalde machtigingen om de procedures in dit onderwerp te kunnen uitvoeren:
 
-  - Als u de configuratie voor gebruikersinzendingen wilt wijzigen, moet u lid zijn van een van de volgende rolgroepen:
+  - Als u de configuratie van gebruikers inzendingen wilt wijzigen, moet u lid zijn van een van de volgende rollen groepen:
 
     - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
     - **Organisatiebeheer** of **Hygiënebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-  - Voor alleen-lezen toegang tot gebruikersinzendingen moet u lid zijn van een van de volgende rolgroepen:
+  - Voor alleen-lezen toegang tot gebruikers inzendingen moet u lid zijn van een van de volgende rollen groepen:
 
     - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
     - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>Gebruik het Security & Compliance Center om het postvak voor gebruikersinzendingen te configureren
+## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>De beveiligings & voor nalevings centrum gebruiken om het postvak voor de gebruiker te configureren
 
-1. Ga in het Security & Compliance Center naar **Gebruikersinzendingen voor** \> **Policy** \> **bedreigingsbeheerbeleid.**
+1. Ga in het beveiligings & compliance naar beleidsregels voor het beleid voor **risicobeheer** \> **Policy** \> **User submissions**.
 
-2. Selecteer op de pagina **Gebruikersinzendingen** die wordt weergegeven een van de volgende opties:
+2. Selecteer een van de volgende opties op de pagina **gebruikers items** die wordt weergegeven:
 
-   a. **De functie Rapportbericht voor Outlook inschakelen (Aanbevolen)**: Selecteer deze optie als u de invoegtoepassing Rapportbericht of de ingebouwde rapportage in de webversie van Outlook gebruikt en configureer vervolgens de volgende instellingen:
+   a. **De functie bericht rapporteren voor Outlook inschakelen (aanbevolen)**: Selecteer deze optie als u de invoegtoepassing bericht rapporteren of de ingebouwde rapporten in de webversie van Outlook gebruikt en de volgende instellingen configureert:
 
-      - **Het bevestigingsbericht van de eindgebruiker aanpassen**: Klik op deze link. Configureer in de flyout **bevestigingsbericht aanpassen** die wordt weergegeven de volgende instellingen:
+      - **Het bevestigingsbericht voor eindgebruikers aanpassen**: Klik op deze link. Configureer de volgende instellingen in het vervolgmenu met **bevestigingsberichten aanpassen** dat wordt weergegeven:
 
-      - **Vóór indiening**: Voer in de vakken **Bericht en** **Bevestiging** de beschrijvende tekst in die gebruikers zien voordat ze een bericht rapporteren met de invoegtoepassing Bericht rapporteren. U het variabele type %% gebruiken om het indieningstype (junk, niet junk, phish, enz.) op te nemen.
+      - **Voordat u gaat verzenden**: Typ in de vakken **titel** en **bevestiging** de beschrijvende tekst die gebruikers zien voordat ze een bericht rapporteren met behulp van de invoegtoepassing bericht melden. U kunt de variabele% type% gebruiken voor het inzendings type (ongewenst, geen ongewenste e-mail, phishing, enzovoort).
 
-        Zoals opgemerkt, als u een optie selecteert die de gerapporteerde berichten naar Microsoft verzendt, wordt ook de volgende tekst aan de melding toegevoegd:
+        Zoals u ziet, wordt de volgende tekst ook toegevoegd aan de melding wanneer u een optie selecteert waarmee de gerapporteerde berichten naar Microsoft worden verzonden:
 
-        > Uw e-mail wordt als nu naar Microsoft verzonden voor analyse. Sommige e-mails kunnen persoonlijke of gevoelige informatie bevatten.
+        > Uw e-mailbericht wordt verzonden naar Microsoft voor analyse. Sommige e-mailberichten kunnen persoonlijke of gevoelige informatie bevatten.
 
-      - **Na indiening**: Klik op ![ pictogram Uitvouwen ](../../media/scc-expand-icon.png) . Voer in de vakken **Bericht en** **Bevestiging** de beschrijvende tekst in die gebruikers zien nadat ze een bericht hebben gemeld met de invoegtoepassing Bericht rapporteren. U het variabele type %% gebruiken om het indieningstype op te nemen.
+      - **Na verzending**: Klik op ![ pictogram uitvouwen ](../../media/scc-expand-icon.png) . Voer in de vakken **titel** en **bevestigingsbericht** de beschrijvende tekst in die gebruikers zien nadat ze een bericht hebben gerapporteerd via de invoegtoepassing bericht rapporteren. U kunt de variabele% type% gebruiken om het type levering op te nemen.
 
-      Klik op **Opslaan** wanneer u gereed bent. Als u deze waarden wilt wissen, klikt u op **Terugzetten** op de pagina **Gebruikersinzendingen.**
+      Klik op **Opslaan** wanneer u gereed bent. Als u deze waarden wilt wissen, klikt u op de pagina voor het **aanbrengen** van **gebruikers** op terug herstellen.
 
-      - **Stuur de gerapporteerde berichten naar**: Maak een van de volgende selecties:
+      - **Verstuur de gerapporteerde berichten naar**: Voer een van de volgende opties in:
 
-        - **Microsoft (Aanbevolen)**: Het postvak voor gebruikersinzendingen wordt niet gebruikt (alle gerapporteerde berichten gaan naar Microsoft).
+        - **Microsoft (aanbevolen)**: het postvak voor de gebruiker wordt niet gebruikt (alle gerapporteerde berichten gaan naar Microsoft).
 
-        - **Microsoft en een aangepast postvak**: Voer in het vak dat wordt weergegeven het e-mailadres van een bestaand Exchange Online-postvak in. Distributiegroepen zijn niet toegestaan. Gebruikersinzendingen gaan naar zowel Microsoft voor analyse als naar het aangepaste postvak dat uw beheerders- of beveiligingsteam kan analyseren.
+        - **Microsoft en een aangepast postvak**: in het vak dat wordt weergegeven, voert u het e-mailadres van een bestaand Exchange Online-postvak in. Distributiegroepen zijn niet toegestaan. Gebruikers inzendingen gaan naar Microsoft for Analysis en naar het aangepaste postvak voor uw beheerder of beveiligingsactiviteiten team om dit te analyseren.
 
-        - **Aangepast postvak**: Voer in het vak dat wordt weergegeven het e-mailadres van een bestaand Exchange Online-postvak in. Distributiegroepen zijn niet toegestaan. Gebruik deze optie als u wilt dat het bericht alleen naar een beheerder of het beveiligingsteam gaat voor analyse eerst. Berichten gaan niet naar Microsoft, tenzij de beheerder het zelf doorstuurt.
+        - **Aangepast postvak**: Typ in het vak dat wordt weergegeven het e-mailadres van een bestaand Exchange Online-postvak. Distributiegroepen zijn niet toegestaan. Gebruik deze optie als u wilt dat het bericht eerst naar een beheerder of het beveiligings werkactiviteiten team gaat voor analyse. Berichten gaan niet naar Microsoft, tenzij deze door de beheerder zelf worden doorgestuurd.
 
         > [!NOTE]
-        > Organisaties van de Amerikaanse overheid (GCC, GCC-H en DoD) kunnen alleen **aangepast postvak**configureren. De andere twee opties zijn uitgeschakeld. 
+        > US Government-organisaties (GCC, GCC-H en DoD) kunnen alleen **aangepaste postvak**configureren. De andere twee opties zijn uitgeschakeld. 
 
-      Klik op **Bevestigen**als u klaar bent.
+      Wanneer u klaar bent, klikt u op **bevestigen**.
 
       > [!CAUTION]
-      > Als u [de rapportage over ongewenste e-mail in de webversie](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) van Outlook hebt uitgeschakeld met het beleid voor outlook voor webpostvak, maar u een van de vorige instellingen configureert om berichten aan Microsoft te rapporteren, kunnen gebruikers berichten rapporteren aan Microsoft in de webversie van Outlook met behulp van de invoegtoepassing Rapportbericht.
+      > Als u de [rapportage van ongewenste e-mail in de webversie van Outlook hebt uitgeschakeld](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) met behulp van de beleidsregels voor het postvak in de webversie van Outlook, maar u de volgende instellingen voor het melden van berichten naar Microsoft hebt uitgeschakeld, kunnen gebruikers berichten rapporteren aan Microsoft in de webversie van Outlook met behulp van de invoegtoepassing berichten rapporteren.
 
-   - **De functie Rapportbericht voor Outlook uitschakelen:** Selecteer deze optie als u rapportagehulpprogramma's van derden gebruikt in plaats van de invoegtoepassing Rapportbericht of de ingebouwde rapportage in de webversie van Outlook en configureer vervolgens de volgende instellingen:
+   - **De functie voor het melden van berichten voor Outlook uitschakelen**: Selecteer deze optie als u rapportagehulpmiddelen van derden gebruikt in plaats van de invoegtoepassing berichten rapporteren of de ingebouwde rapporten in de webversie van Outlook en configureer de volgende instellingen:
 
-      Selecteer **Dit aangepaste postvak gebruiken om door gebruikers gerapporteerde inzendingen te ontvangen.** Voer in het vak dat wordt weergegeven het e-mailadres in van een bestaand postvak dat zich al in Office 365 bevindt. Dit moet een bestaand postvak in Exchange Online zijn dat e-mail kan ontvangen.
+      Selecteer **dit aangepaste postvak gebruiken om door de gebruiker gerapporteerde inzendingen te ontvangen**. In het vak dat wordt weergegeven, voert u het e-mailadres in van een bestaand postvak dat zich al in Office 365 bevindt. Dit moet een bestaand postvak zijn in Exchange Online, dat e-mailberichten kan ontvangen.
 
-      Klik op **Bevestigen**als u klaar bent.
+      Wanneer u klaar bent, klikt u op **bevestigen**.
 
-## <a name="message-submission-format"></a>Indeling voor het indienen van berichten
+## <a name="message-submission-format"></a>Opmaak van berichten indienen
 
-Berichten die naar aangepaste postvakken worden verzonden, moeten een specifieke e-mailindeling volgen. Het onderwerp (enveloptitel) van de indiening moet in deze vorm zijn:
+Berichten die naar aangepaste postvakken worden verzonden, moeten een specifieke e-mail indeling voor het verzenden volgen. Het onderwerp (envelop titel) van de indiening moet de volgende indeling hebben:
 
 `SafetyAPIAction|NetworkMessgeId|SenderIp|FromAddress|(Message Subject)`
 
-waren SafetyAPIAction is een van de volgende gehele waarden:
+SafetyAPIAction is een van de volgende gehele waarden:
 
-- 1: Junk
+- 1: ongewenste e-mail
 - 2: NotJunk
-- 3: Phish
+- 3: phishing
 
 In het volgende voorbeeld:
 
-- Het bericht wordt gerapporteerd als Phish.
-- De Network Message ID is 49871234-6dc6-43e8-abcd-08d797f20abe.
-- De Sender IP is 167.220.232.101.
-- Het adres van Van is test@contoso.com.
-- De onderwerpregel van het bericht is "test phish submission"
+- Het bericht wordt als phishing gerapporteerd.
+- De netwerkbericht-ID is 49871234-6dc6-43e8-ABCD-08d797f20abe.
+- Het IP-adres van de afzender is 167.220.232.101.
+- Het van-adres is test@contoso.com.
+- De onderwerpregel van het bericht is "phishing testen"
 
 `3|49871234-6dc6-43e8-abcd-08d797f20abe|167.220.232.101|test@contoso.com|(test phish submission)`
 
-Berichten die deze indeling niet volgen, worden niet goed weergegeven in de portal Inzendingen.
+Berichten die niet op deze indeling volgen, worden niet correct weergegeven in de portal voor ingediende items.

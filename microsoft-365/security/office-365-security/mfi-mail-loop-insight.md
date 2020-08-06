@@ -1,5 +1,5 @@
 ---
-title: Inzicht in e-maillussen
+title: Mogelijke oplossingen voor e-mail lussen
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,24 +12,32 @@ localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen meer te weten komen over het inzicht in de e-mailloop in het dashboard voor de beveiliging & Compliance Center.
-ms.openlocfilehash: 80767a265734c542db8e24cf58d0a1c0df469780
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Beheerders kunnen leren hoe u met behulp & van het hulpprogramma voor het oplossen van e-mail lussen in hun organisatie e-mail lussen kunt identificeren en oplossen.
+ms.openlocfilehash: 54240cffc534b4be708492b37b827636edab280e
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819314"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577620"
 ---
-# <a name="mail-loop-insight"></a>Inzicht in e-maillussen
+# <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>Mogelijke oplossing voor e-mail lussen in de beveiligings & nalevings centrum
 
-Een e-maillus is slecht omdat het systeembronnen verspilt, het e-mailvolumequotum van uw organisatie verbruikt en verwarrende rapporten voor niet-levering (ook wel NDR's of bounceberichten genoemd) naar de oorspronkelijke afzenders verzendt. Dit inzicht wordt gerapporteerd wanneer een e-maillus wordt gevonden in uw organisatie, de e-maildomeinen die betrokken zijn bij de lus en het aantal berichten van de vorige dag die zich in de lus bevonden.
+Een lus voor e-mailberichten is slecht omdat dit de systeembronnen verspilt, het volume quotum van uw organisatie gebruikt en geen rapporten van niet-uitgevoerde bezorging (ook wel Ndr's genoemd) aan de oorspronkelijke afzenders stuurt.
 
-![Een e-maillusinzicht in het dashboard voor e-mailstroom in het Security & Compliance Center](../../media/c3f707cb-4c89-4e88-989c-81ce1d1d6b99.png)
+In het gedeelte **voor** het aanvullen van e-mail van het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in de & beveiligings **Update** wordt u gewaarschuwd wanneer een e-mail in uw organisatie wordt gedetecteerd. Dit inzicht wordt alleen weergegeven nadat de voorwaarde is vastgesteld (als u geen e-mail lussen hebt, ziet u het inzicht niet).
 
-U op **Details weergeven** klikken om de details in een flyout-deelvenster weer te geven. We identificeren ook de meest voorkomende lusscenario's en bieden de aanbevolen acties (indien beschikbaar) om de lus op te lossen.
+![Meer inzicht in langzame e-mail stroom regels op het gebied aanbevolen voor u in het dashboard voor e-mail stroom](../../media/mfi-fix-possible-mail-loop.png)
 
-![Flyout-deelvenster nadat u op Details weergeven in een mal-lusinzicht in het dashboard van de e-mailstroom hebt geklikt](../../media/f7e21300-c62f-41ec-853f-4a2775cd8aa7.png)
+Wanneer u op Details van het object **weergeven** klikt, verschijnt er een flyout met meer informatie:
+
+- **Domein**
+- **Aantal berichten**: u kunt op **voorbeeldberichten weergeven** klikken om de resultaten van de [bericht tracering](message-trace-scc.md) te zien voor een voorbeeld van de berichten die door de lus werden beïnvloed.
+- **Domeintype**, bijvoorbeeld bindend of niet-bindend.
+- **MX-record**: de host (**e-mail server**) en de **prioriteits** waarden van de MX-record voor het domein.
+- **Reden voor herhaling** en **oplossing**: we proberen de meest voorkomende scenario's voor e-mail lussen te identificeren en de aanbevolen acties te geven (indien beschikbaar) om de lus te verhelpen.
+
+![Voorbeeld van een flyout dat wordt weergegeven nadat u op Details weergeven hebt geklikt in de mogelijke oplossing voor e-mail](../../media/mfi-fix-possible-mail-loop-details.png)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-Zie [E-mailstroominzichten in het Security & Compliance Center](mail-flow-insights-v2.md)voor meer informatie over andere e-mailstroominzichten in het dashboard voor e-mailstromen.
+Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).

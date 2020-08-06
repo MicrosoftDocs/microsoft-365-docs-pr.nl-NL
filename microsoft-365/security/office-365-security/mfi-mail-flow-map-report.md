@@ -1,5 +1,5 @@
 ---
-title: Rapport met e-mailstroomkaart
+title: E-mail stroom plattegrond
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,46 +12,62 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen meer te weten komen over het rapport met de e-mailstroomkaart in het dashboard voor de e-& Beveiliging.
-ms.openlocfilehash: b0850ee50573583f1a971d1a5dfd69f47fb70b99
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Beheerders kunnen leren hoe u de e-mail stroom plattegrond kunt gebruiken in het dashboard voor e-mail stroom in het beveiligings & nalevings centrum voor het visualiseren en bijhouden van de manier waarop e-mail stromen van en naar hun organisatie via connectors en zonder connectors worden gebruikt.
+ms.openlocfilehash: 2996227de3e0141635522ada4e41f2e8e65e9040
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818841"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577671"
 ---
-# <a name="mail-flow-map-report"></a>Rapport met e-mailstroomkaart
+# <a name="mail-flow-map-in-the-security--compliance-center"></a>De kaart voor de e-mail stroom in het Beveiligingscentrum beveiligings &
 
-Dit rapport geeft inzicht in hoe e-mail door uw organisatie stroomt. U deze informatie gebruiken om patronen te leren, afwijkingen te identificeren en problemen op te lossen wanneer deze zich voordoen.
+De **e-mail stroom kaart** in het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in het Beveiligingscentrum beveiligings & biedt inzicht in de manier waarop e-mail stromen via uw organisatie worden doorgevoerd. U kunt deze gegevens gebruiken om patronen te ontdekken, afwijkingen te identificeren en problemen op te lossen.
 
-![Het rapport E-mailstroomkaart in het e-mailstroomdashboard in het Security & Compliance Center](../../media/mail-flow-map-selected.png)
+![Widget e-mail stroom in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum](../../media/mfi-mail-flow-map-widget.png)
 
-## <a name="mail-flow-map-widget"></a>E-mailstroomkaartobject
+Standaard toont de widget de e-mail stroom patroon van de vorige dag in een grafiek die een *Sankey* -diagram wordt genoemd. U kunt de pijl-links ![ en pijl- ](../../media/scc-left-arrow.png) rechts gebruiken ![ ](../../media/scc-right-arrow.png) om informatie uit verschillende dagen weer te geven. Elke andere kleur vertegenwoordigt een e-mail stroom via een andere binnenkomende of uitgaande connector (of zonder connectors). Als u de muisaanwijzer boven een bepaalde kleur houdt, wordt het aantal berichten weergegeven voor dat type verbindingslijn.
 
-Standaard toont de e-mailstroomkaart het hoge e-mailstroompatroon van de vorige dag. U de linker- en rechterpijlen voor verschillende dagen gebruiken. Als u de muiscursor boven elk gebied in het rapport plaatst, wordt het volume van e-mail van en naar uw organisatie weergegeven, zoals weergegeven in het volgende diagram:
+## <a name="report-view-for-the-mail-flow-map"></a>Rapportweergave voor de e-mail stroom kaart
 
-![Pijlen links en rechts in de widget E-maildiakaart](../../media/mail-flow-map-widget.png)
+Als u op de widget **e-mail stroom kaart** klikt, gaat u naar het rapport met de **e-mail stroom kaart** .
 
-## <a name="mail-flow-map-basics"></a>Basisprincipes van e-mailstroomkaart
+De volgende grafieken zijn beschikbaar in de rapportweergave:
 
-Als u op de widget **E-mailstroomkaart** klikt, gaat u naar het rapport **E-mailstroomkaart.** Hier ziet u meer gedetailleerd niveau van het rapport, u klikken op Details tabel weergeven om gedetailleerde gegevens te zien. U het gedetailleerde rapport ook downloaden door op Het rapport Aanvragen te klikken.
+- **Gegevens weergeven voor: overzicht**: dit is een grotere weergave van de widget. Als u de muisaanwijzer boven een bepaalde kleur houdt, wordt het aantal berichten weergegeven voor dat type verbindingslijn.
 
-![Overzichtsweergave in het rapport E-mailstroomkaart](../../media/mail-flow-map-overview.png)
+  ![Overzichtsweergave in het rapport e-mail stroom kaart](../../media/mfi-mail-flow-map-report-overview.png)
 
-## <a name="details"></a>Details
+- **Gegevens weergeven voor: detail**: in deze weergave worden details weergegeven over de connectors en doeldomeinen. De meeste e-mailadressen van de afzender en de ontvanger worden weergegeven en de rest wordt in **andere**gebieden meegenomen. Als u de muisaanwijzer boven een bepaalde kleur en sectie houdt, wordt het aantal berichten weergegeven.
 
-Standaard wordt **Gegevens weergeven voor** is ingesteld op de **waardeoverzicht**. Wanneer u op de vervolgkeuzelijst klikt en **Detail**selecteert, schakelt de weergave over naar het domeinniveau.
+  ![De weergave Details in het rapport van de e-mail stroom](../../media/mfi-mail-flow-map-report-detail.png)
 
-![Details selecteren in Gegevens weergeven voor in de overzichtsweergave in het rapport E-mailstroomkaart](../../media/mail-flow-map-select-detail.png)
+Als u op **filters** in een rapportweergave klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.
 
-De bovenste afzender- en geadresseerdendomeinen worden vermeld en de rest wordt in **andere** domeinen geplaatst, zoals in de volgende diagrammen wordt weergegeven:
+Als u het rapport voor een specifiek datumbereik naar een of meer geadresseerden wilt verzenden, klikt u op **Download aanvragen**.
 
-![Detailsweergave in het rapport E-mailstroomkaart](../../media/mail-flow-map-detail.png)
+Gerelateerde inzichten worden weergegeven onder de weergave voor de e-mail stroom, als deze beschikbaar zijn (bijvoorbeeld de oplossing voor de [oplossing potentiële e-mail](mfi-mail-loop-insight.md)).
 
-## <a name="related-insights"></a>Gerelateerde inzichten
+## <a name="details-table-view-for-the-mail-flow-map"></a>De tabel weergave Details voor de e-mail stroom kaart
 
-Gerelateerde inzichten worden weergegeven onder de e-mailstroomkaart als deze beschikbaar zijn (bijvoorbeeld het inzicht in het afzenderdomein of het inzicht in de afdruklus).
+Als u in een rapportweergave op **Details tabel weergeven** klikt, wordt de volgende informatie weergegeven:
+
+- **Einddatum**
+- **Categorie**
+- **Service provider van connector/derden**
+- **Domein afzender/ontvanger**
+- **Aantal berichten**
+
+Als u in een weergave met detail tabellen op **filters** klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.
+
+Als u een rij selecteert, worden dezelfde gegevens weergegeven in een flyout:
+
+![Flyout Details van de tabel Details in de toegewezen berichtenstroom](../../media/mfi-mail-flow-map-view-details-table-details.png)
+
+Als u het rapport voor een specifiek datumbereik naar een of meer geadresseerden wilt verzenden, klikt u op **Download aanvragen**.
+
+Als u terug wilt gaan naar de weergave rapporten, klikt u op **rapport weergeven**.
 
 ## <a name="see-also"></a>Zie ook
 
-Zie [E-mailstroominzichten in het Security & Compliance Center](mail-flow-insights-v2.md)voor meer informatie over andere e-mailstroominzichten in het dashboard voor e-mailstromen.
+Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).

@@ -1,5 +1,5 @@
 ---
-title: SMTP-verificatierapport voor clients
+title: Inzicht en rapporten met SMTP-verificatie clients in het dashboard voor e-mail stroom
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,46 +12,79 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen meer te weten komen over het smtp Auth-clientsrapport in het e-mailstroomdashboard in het Security & Compliance Center.
-ms.openlocfilehash: 90d008bf775c692431fb5b832652ceb97f9fd760
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Beheerders kunnen leren hoe u het SMTP-authenticatie inzicht en rapporten kunt gebruiken in het dashboard voor de beveiliging van de e-mail in het beveiligings & nalevings centrum om e-mail afzenders in hun organisatie met geverifieerde SMTP-verificatie (SMTP-verificatie) te controleren en e-mailberichten te verzenden.
+ms.openlocfilehash: afdcf01260dd6dfcaf6b53d107e5addd007b1fb3
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818817"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577211"
 ---
-# <a name="smtp-auth-clients-report"></a>SMTP-verificatierapport voor clients
+# <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>Client-auth-clients inzicht en rapporteren in de beveiligings & nalevings centrum
 
-Het **SMTP Auth-klantenrapport** belicht het gebruik van het SMTP Auth-client submission protocol door gebruikers of systeemaccounts in uw organisatie. Dit verouderde protocol (dat het eindpunt smtp.office365.com) gebruikt, biedt alleen basisverificatie en is gevoelig voor gebruik door gecompromitteerde accounts om e-mail te verzenden.  Met dit rapport u controleren op ongebruikelijke activiteiten. Het toont ook de TLS-gebruiksgegevens voor clients of apparaten die SMTP Auth gebruiken.
+De **SMTP auth-clients** bieden inzicht in in het [Dashboard voor de e-mail stroom](mail-flow-insights-v2.md) en het bijbehorende SMTP auth-client [rapport](#smtp-auth-clients-report) markeren het gebruik van het SMTP-verificatieprotocol voor clientgebruikers of systeemaccounts in uw organisatie. Dit oudere protocol (met het eindpunt smtp.office365.com) biedt alleen basisverificatie en kan worden gebruikt door gemanipuleerde accounts om e-mail te verzenden. In het inzicht en de rapportage kunt u controleren op ongebruikelijke activiteiten voor e-mail inzendingen van SMTP-verificatie. Ook de TLS-gebruiksgegevens voor clients of apparaten worden weergegeven met SMTP-AUTH.
 
-De widget die wordt weergegeven in het dashboard van mailflows geeft het aantal gebruikers of serviceaccounts aan dat het SMTP Auth-protocol in de afgelopen 7 dagen heeft gebruikt.
+De widget geeft het aantal gebruikers of serviceaccounts aan dat het SMTP-authenticatieprotocol in de afgelopen 7 dagen heeft gebruikt.
 
-![De KLANTEN VAN SMTP Auth rapporteren in het dashboard van de e-mailstroom in het Security & Compliance Center](../../media/smtp-auth-clients-report-selected.png)
+![De widget SMTP-auth-clients in het dashboard voor de e-mail stroom van het beveiligings & nalevings centrum](../../media/mfi-smtp-auth-clients-report-widget.png)
 
-Als u op de widget klikt, wordt een flyout geopend die een geaggregeerde weergave biedt van het TLS-gebruik en de volumes van de afgelopen week.
+Als u op het aantal berichten in het object klikt, wordt een flyout **SMTP auth clients** weergegeven. Het flyout biedt een geaggregeerde weergave van het TLS-gebruik en de volumes voor de laatste week.
 
-![De flyout in het SMTP Auth-klantenrapport](../../media/smtp-auth-clients-flyout.png)
+![Info-flyout na klikken op de widget SMTP-auth-clients in het dashboard voor e-mail stroom](../../media/mfi-smtp-auth-clients-report-details.png)
 
-Wanneer u op de koppeling **SMTP Auth-clientsrapport** klikt, ziet u twee hoofdpunten en twee gegevensweergaven. De gegevensdraaipunten zijn het **verzendvolume** en **TLS-gebruik.** De gegevensweergaven zijn de grafiek en de detailtabel.
+U kunt op de koppeling naar de **SMTP-auth-clients** klikken om naar de lijst met SMTP-verificatie clients te gaan, zoals wordt beschreven in de volgende sectie.
 
-In de weergave **Volume verzenden** wordt het aantal berichten weergegeven dat met SMTP Auth is verzonden voor het opgegeven tijdsbereik. U het bereik aanpassen door op **Filters**te klikken. De grafiek wordt georganiseerd door het afzenderdomein. U afzonderlijke gegevens voor elk domein bekijken door het domein te selecteren in de vervolgkeuzelijst **Gegevens weergeven voor** vervolgkeuzelijst.
+## <a name="smtp-auth-clients-report"></a>SMTP-verificatierapport voor clients
 
-![Volume verzenden in het SMTP Auth-klantenrapport](../../media/smtp-auth-clients-report-sending-volume.png)
+### <a name="report-view-for-the-smtp-auth-clients-report"></a>Rapportweergave voor het rapport met SMTP-verificatie clients
 
-U gedetailleerde informatie over de afzenders en het aantal berichten bekijken door op **tabel Details weergeven**te klikken. Als u wilt terugkeren naar de grafiek, klikt u op **Rapport weergeven**.
+In het rapport worden standaardgegevens weergegeven voor de laatste 7 dagen, maar de gegevens zijn beschikbaar voor de laatste 90 dagen.
 
-![Detailtabel voor verzenden van volume in het SMTP Auth-klantenrapport](../../media/smtp-auth-clients-report-details-sending-volume.png)
+De sectie overzicht bevat de volgende grafieken:
 
-De pivot **van TLS-gebruik** is belangrijk vanwege de aanstaande afschaffing van TLS1.0 en TLS1.1 in Office 365. Veel oudere apparaten en toepassingen kunnen geen e-mail verzenden als ze alleen TLS1.0 kunnen gebruiken met SMTP Auth. Met deze draaifunctie u gebruikers en systeemaccounts identificeren en actie ondernemen die nog oudere versies van TLS gebruiken.
+- **Gegevens weergeven voor: verzenden volume**: in de grafiek worden standaard de SMTP-auth-client berichten weergegeven die zijn verzonden vanuit alle domeinen (**gegevens weergeven voor: alle domeinen** van de afzender worden standaard geselecteerd). U kunt de resultaten filteren op een bepaald domein van de afzender door op **gegevens weergeven voor** te klikken en het domein van de afzender in de vervolgkeuzelijst te selecteren. Als u een specifiek gegevenspunt (dag) aanwijst, wordt het aantal berichten weergegeven.
 
-![TLS-gebruik in het SMTP Auth-klantenrapport](../../media/smtp-auth-clients-report-tls-usage.png)
+  ![De weergave volume in het rapport SMTP-auth-clients verzenden in het Beveiligingscentrum voor beveiliging &](../../media/mfi-smtp-auth-clients-report-sending-volume-view.png)
 
-U gedetailleerde informatie bekijken over de afzenders, de versies van TLS die ze gebruiken met SMTP Auth en hun bericht telt door te klikken op **tabel Details weergeven.** Als u wilt terugkeren naar de grafiek, klikt u op **Rapport weergeven**.
+- **Gegevens weergeven op: TLS**: de grafiek bevat het percentage van TLS-gebruik voor alle SMTP auth-client berichten tijdens de geselecteerde tijdsperiode. Met deze grafiek kunt u de gebruikers en systeemaccounts identificeren en er actie ondernemen wanneer u nog oudere versies van TLS gebruikt.
 
-U ook een meer gedetailleerde versie van het rapport downloaden door op Rapport Aanvragen te klikken.
+  ![Voorbeeld van TLS-weergave in het rapport SMTP-auth-clients in het nalevings centrum voor beveiligings &](../../media/mfi-smtp-auth-clients-report-tls-usage-view.png)
 
-![Detailtabel voor TLS-gebruik in het SMTP Auth-clientsrapport](../../media/smtp-auth-clients-report-details-tls-usage.png)
+Als u op **filters** in een rapportweergave klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.
+
+Klik op **rapportaanvragen** om een gedetailleerde versie van het rapport in een e-mailbericht te ontvangen. U kunt het datumbereik en de geadresseerden opgeven waarop u het rapport wilt ontvangen.
+
+### <a name="details-table-view-for-the-smtp-auth-clients-report"></a>Weergave Details voor het rapport met SMTP-verificatie clients
+
+Als u op **detail tabel weergeven**klikt, is de informatie die wordt weergegeven, afhankelijk van de grafiek die u bekijkt:
+
+- **Gegevens weergeven voor: verzenden volume**: de volgende informatie wordt weergegeven in een tabel:
+
+  - **Adres afzender**
+  - **Aantal berichten**
+
+  Als u een rij selecteert, worden de gegevens in een flyout weergegeven.
+
+- **Gegevens weergeven op: TLS-gebruik**: de volgende informatie wordt weergegeven in een tabel:
+
+  - **Adres afzender**
+  - **TLS 1.0%**<sup>\*</sup>
+  - **TLS 1,1%**<sup>\*</sup>
+  - **TLS 1.2%**<sup>\*</sup>
+  - **Aantal berichten**
+
+  <sup>\*</sup>In deze kolom ziet u het percentage en het aantal berichten van de afzender.
+
+Als u in een weergave met detail tabellen op **filters** klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.
+
+Als u een rij selecteert, worden dezelfde gegevens weergegeven in een flyout:
+
+![Flyout Details van de lijst Details van de weergave TLS-verificatie clients](../../media/mfi-smtp-auth-clients-report-tls-usage-view-view-details-table-details.png)
+
+Klik op **rapportaanvragen** om een gedetailleerde versie van het rapport in een e-mailbericht te ontvangen. U kunt het datumbereik en de geadresseerden opgeven waarop u het rapport wilt ontvangen.
+
+Als u terug wilt gaan naar de weergave rapporten, klikt u op **rapport weergeven**.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-Zie [E-mailstroominzichten in het Security & Compliance Center](mail-flow-insights-v2.md)voor meer informatie over andere e-mailstroominzichten in het dashboard voor e-mailstromen.
+Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).

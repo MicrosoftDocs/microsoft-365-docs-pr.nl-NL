@@ -1,5 +1,5 @@
 ---
-title: Inzicht in e-mailstroomstatus van hoofddomein
+title: Belangrijkste e-mail stroom status van e-mail stroom in het dashboard voor e-mail stroom
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,28 +12,34 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen meer te weten komen over het statusinzicht van de beste domeinmailstroom in het dashboard voor de &-naleving van de e-mailstroom.
-ms.openlocfilehash: 22b0f8cefe8baacac682550126de55dcbf880d73
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Beheerders kunnen leren hoe u het e-mail stroom status inzicht van de belangrijkste domein kunt gebruiken in het dashboard voor e-mail stroom in het nalevings centrum voor beveiliging & voor het oplossen van problemen met de e-mail stroom in hun e-mail domeinen.
+ms.openlocfilehash: 6366e3aee0ab50096f1396776397c80fabc8aaf2
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818589"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577743"
 ---
-# <a name="top-domain-mail-flow-status-insight"></a>Inzicht in e-mailstroomstatus van hoofddomein
+# <a name="top-domain-mail-flow-status-insight-in-the-security--compliance-center"></a>Belangrijkste status inzicht in de e-mail stroom van het domein in het beveiligings & nalevings centrum
 
-Het statusinzicht voor de status van de **hoogste domeinmailstroom** geeft u de huidige status voor de domeinen van uw organisatie in termen van e-mailstroom. Met dit inzicht u domeinen identificeren en oplossen die problemen ondervinden die van invloed zijn op ***de e-mailstroom*** (bijvoorbeeld niet in staat om externe e-mail te ontvangen), met name domeinverloop of domeinen met onjuiste MX-records.
+Met de **belangrijkste status van de e-mail stroom** van de e-mail in het Beveiligingscentrum van de e-mail in het compliance [-&](mail-flow-insights-v2.md) Beveiligingscentrum beschikt u over de huidige status voor de domeinen van uw organisatie in de voorwaarden voor de e-mail stroom. Met deze functie kunt u problemen met domeinen identificeren en oplossen die problemen met de ***e-mail stroom*** kunnen veroorzaken (bijvoorbeeld om externe e-mail te ontvangen), met name domein vervaldatums of domeinen met onjuiste MX-records.
 
-![Het inzicht in de status van de hoogste domeinstroom in het dashboard voor e-mailstroom in het Security & Compliance Center](../../media/domain-mail-flow-status-selected.png)
+![De widget hoofddomein stroom status in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum](../../media/mfi-top-domain-mail-flow-status-widget.png)
 
-Wanneer u op **Details weergeven** in het inzicht klikt, verschijnt er een flyout die u meer details geeft voor de status van elk domein.
+Wanneer u klikt op **Details weergeven** in de widget, verschijnt er een flyout met een **domein status** waarin meer Details voor de status van elk domein worden weergegeven:
 
-Een groen vinkje voor een domein geeft aan dat de huidige MX-record (wanneer u naar het dashboard voor e-mailstroomstatistieken hebt gebladerd) overeenkomt met de waarde die we hebben en dat het domein de afgelopen twee uur e-mail heeft ontvangen.
+- **Domein**
+- **Vorige MX-record**
+- **Huidige MX-record**
+- **Status van ontvangen e-mail**
+- **Domein status**: een groen vinkje geeft de huidige MX-record aan (op het moment dat u hebt geklikt op de widget) komt overeen met de waarde die we hebben voor de record en het domein heeft een e-mail ontvangen in de afgelopen twee uur.
 
-Een rode x voor een domein geeft aan dat de MX-record is gewijzigd en dat het domein de afgelopen 6 uur geen e-mail heeft ontvangen. Dit geeft waarschijnlijk aan dat uw domein is verlopen of dat de MX-record onjuist is bijgewerkt. Neem contact op met uw domeinregistrar of DNS-hostingservice om te zien of het domein is verlopen of dat de MX-record van het domein onjuist is.
+  Een rode X geeft aan dat de MX-record is gewijzigd en dat het domein geen e-mailbericht heeft ontvangen in de afgelopen 6 uur. Dit geeft waarschijnlijk aan dat uw domein is verlopen of dat de MX-record onjuist is bijgewerkt. Neem contact op met uw domeinregistratieservice of DNS-hostingservice om te zien of het domein is verlopen, of dat de MX-record van het domein onjuist is.
 
-![De flyout Details in het inzicht in de status van de status van de bovenste domeinstroom](../../media/domain-mail-flow-status-flyout.png)
+U kunt klikken op **meer weergeven** om dezelfde gegevens te bekijken voor meer domeinen.
+
+![Flyout Details in de e-mail stroom status van het belangrijkste domein](../../media/mfi-top-domain-mail-flow-status-view-details.png)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-Zie [E-mailstroominzichten in het Security & Compliance Center](mail-flow-insights-v2.md)voor meer informatie over andere e-mailstroominzichten in het dashboard voor e-mailstromen.
+Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).

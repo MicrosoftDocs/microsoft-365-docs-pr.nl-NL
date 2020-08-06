@@ -1,11 +1,11 @@
 ---
-title: Inzicht in regels voor langzame e-mailstroom
+title: Inzicht in langzame e-mail stroom regels oplossen
 f1.keywords:
 - NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
-ms.date: 5/3/2018
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,32 +13,39 @@ localization_priority: Normal
 ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen meer te weten komen over de regels voor trage e-mailstroom in het dashboard voor de e-mailstroom in het Security & Compliance Center.
-ms.openlocfilehash: 52ddb6bf5ab6998309fd3122c59636c14b3da1dd
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Beheerders kunnen leren hoe u het probleem kunt verhelpen met behulp van het artikel over het oplossen van problemen in de beveiliging & nalevings centrum voor het identificeren en oplossen van onjuiste of verbroken e-mail stroom regels (ook wel een transportregel genoemd) in hun organisatie.
+ms.openlocfilehash: bb1c09c2809260be8086059259a1aeec3f1fb3eb
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819362"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577155"
 ---
-# <a name="slow-mail-flow-rules-insight"></a>Inzicht in regels voor langzame e-mailstroom
+# <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Inzicht in langzame e-mail stroom regels in het nalevings centrum voor beveiliging &
 
-Inefficiënte regels voor e-mailstroom (ook wel transportregels genoemd) kunnen leiden tot vertragingen voor de e-mailstroom voor uw organisatie. Dit inzicht rapporteert regels voor e-mailstromen die van invloed zijn op de e-mailstroom van uw organisatie. Voorbeelden van dit soort regels zijn:
+In de efficiëntie regels voor de e-mail stroom (ook wel transport-regels genoemd) kan de e-mail stroom vertragingen voor uw organisatie veroorzaken. Dit inzicht geeft een overzicht van e-mail stroom regels met gevolgen voor de e-mail stroom van uw organisatie. Voorbeelden van dit soort regels zijn:
 
-- Voorwaarden die worden gebruikt **is lid van** voor grote groepen.
+- Voorwaarden die **deel uitmaakt van** grote groepen.
+- Voorwaarden die gebruikmaken van complexe reguliere expressies (regex)-patroon.
+- Voorwaarden voor het gebruik van inhouds controle in bijlagen.
 
-- Voorwaarden die gebruik maken van complexe reguliere expressie (regex) patroon matching.
+Met het beleid voor **trage e-mail stroom** kunt u het aanbevolen gebied van het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in het Beveiligingscentrum **voor** e-mail stroom op de beveiliging & Dit inzicht wordt alleen weergegeven nadat de voorwaarde is vastgesteld (als u geen e-mail lussen hebt, ziet u het inzicht niet).
 
-- Voorwaarden die inhoudcontrole gebruiken in bijlagen.
+U kunt deze melding gebruiken om de regels voor de e-mail stroom te identificeren en te perfectioneren, zodat de vertragingen van e-mailberichten kunnen worden beperkt.
 
-Het inzicht helpt u bij het identificeren en verfijnen van e-mailstroomregels om vertragingen in de e-mailstroom te verminderen.
+![Meer inzicht in langzame e-mail stroom regels op het gebied aanbevolen voor u in het dashboard voor e-mail stroom](../../media/mfi-fix-slow-mail-flow-rules.png)
 
-![Een trage e-mailstroomregels inzicht in het e-mailstroomdashboard in het Security & Compliance Center](../../media/1dd90faa-f065-4b10-8b47-d35dc127fc26.png)
+Wanneer u op Details van het object **weergeven** klikt, verschijnt er een flyout met meer informatie:
 
-Wanneer u op **Details weergeven**klikt, wordt een flyout-deelvenster weergegeven waarin u de regel controleren. Klik in het flyout-deelvenster ook op **voorbeeldberichten weergeven** om te zien wat voor soort berichten door de regel worden beïnvloed.
+- **Regel**: u kunt de muisaanwijzer op het overzicht plaatsen om alle voorwaarden, uitzonderingen en acties van de regel te zien. U kunt op het overzicht klikken om de regel in het Exchange-Beheercentrum (SBV) te bewerken.
+- **Aantal geëvalueerde berichten**: u kunt op **voorbeeldberichten weergeven** klikken om de resultaten van de [bericht tracering](message-trace-scc.md) te zien voor een voorbeeld van de berichten die door de regel werden beïnvloed.
+- **Gemiddelde tijd die is besteed aan elk bericht**
+- **Mediaan tijd besteed aan een bericht**: de middelste waarde die de bovenste helft van de onderste helft van de gegevens scheidt.
 
-![Flyout-deelvenster nadat u op Details weergeven hebt geklikt in een overzicht van de regels voor langzame e-mailstroom in het dashboard van de e-mailstroom](../../media/2cbd43b7-1f21-4338-a70c-7b50de5c69cd.png)
+![Voorbeeld van een flyout dat wordt weergegeven nadat u op Details weergeven hebt geklikt in de regel langzame e-mail stroom](../../media/mfi-fix-slow-mail-flow-rules-details.png)
+
+Zie voor meer informatie over voorwaarden en uitzonderingen in de e-mail stroom regels in Exchange Online: [voorwaarden voor de e-mail stroom regels en uitzonderingen (predikaten) in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-Zie [E-mailstroominzichten in het Security & Compliance Center](mail-flow-insights-v2.md)voor meer informatie over andere e-mailstroominzichten in het dashboard voor e-mailstromen.
+Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).

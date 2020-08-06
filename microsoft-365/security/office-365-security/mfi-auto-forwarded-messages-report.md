@@ -1,5 +1,5 @@
 ---
-title: Rapport over automatisch doorgestuurde berichten
+title: Inzicht in berichten automatisch doorsturen
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -10,32 +10,48 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
-description: Beheerders kunnen meer te weten komen over het rapport Automatisch doorgestuurde berichten in het dashboard van de e-mailstroom in het Security & Compliance Center.
-ms.openlocfilehash: ceeff0c6033cb2610c09a80ddbddcda90ff63b05
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Beheerders kunnen informatie vinden over het rapport met automatisch doorgestuurde berichten in het dashboard voor de e-mail stroom van het beveiligings & nalevings centrum.
+ms.openlocfilehash: 05e3f62610c32bc95caf579ef4dd46bf1ed90275
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635302"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577812"
 ---
-# <a name="auto-forwarded-messages-report"></a>Rapport over automatisch doorgestuurde berichten
+# <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Berichten met automatisch doorgestuurde inzichten in het beveiligings & nalevings centrum
 
-In het rapport **Automatisch doorgestuurde berichten** in het dashboard van de e-mailstroom worden informatie weergegeven over berichten die automatisch van uw organisatie worden doorgestuurd naar ontvangers in externe domeinen.
+Met de **automatisch doorgestuurde berichten** in het [Dashboard voor e-mail stromen](mail-flow-insights-v2.md) in de beveiligings & nalevings centrum wordt informatie weergegeven over berichten die automatisch van uw organisatie worden doorgestuurd naar geadresseerden in externe domeinen.
 
-![Het inzicht in automatisch doorgestuurde berichten in het Security & Compliance Center](../../media/8bc2600b-71c3-4b37-b4d0-9435fe0cfc8d.png)
+![Widget berichten automatisch doorsturen in het Beveiligingscentrum beveiligings &](../../media/mfi-auto-forwarded-messages.png)
 
-![Het rapport Automatisch doorgestuurde berichten in het dashboard van de e-mailstroom in het Security & Compliance Center](../../media/8bc2600b-71c3-4b37-b4d0-9435fe0cfc8d.png)
+## <a name="auto-forwarded-messages-details"></a>Details van automatisch doorgestuurde berichten
 
-## <a name="auto-forwarded-messages-details"></a>Gegevens over automatisch doorgestuurde berichten
+Wanneer u op het aantal berichten in het object klikt, wordt er een flyout weergegeven met meer informatie over de automatisch doorgestuurde berichten:
 
-Wanneer u op het aantal berichten in de widget klikt, verschijnt er een flyout-venster met de status van het automatisch doorgestuurde bericht. U de details bekijken door op de koppeling **Rapport doorsturen** te klikken.
+- **Berichten automatisch doorsturen met behulp van doorstuur methoden**:
 
-![De flyout details voor het rapport Automatisch doorgestuurde berichten in het Security & Compliance Center](../../media/87d0fb1e-d2ef-4901-b17c-ec32d23a539e.png)
+  - **Door een e-mail stroom regel**
+  - **Door regels voor Postvak in**
+  - **Door SMTP doorsturen**
+  - Een koppeling naar het [doorstuur rapport](view-mail-flow-reports.md#forwarding-report) voor meer informatie.
+
+- **Berichten automatisch doorsturen en door domeinen en gebruikers**:
+
+  - **Vijf belangrijkste domeinen doorgestuurd naar**
+  - **Nieuwe domeinen (vorige week)**
+  - **Belangrijkste 5 doorstuur gebruikers**
+  - **Nieuwe gebruikers (vorige week)**
+  - Een koppeling naar de [lijst met wijzigingen doorsturen](mfi-new-users-forwarding-email.md#forwarding-modifications-report) voor meer informatie.
+
+![Flyout Details van het rapport met automatisch doorgestuurde berichten in het Beveiligingscentrum beveiligings &](../../media/mfi-auto-forwarded-messages-details.png)
 
 ## <a name="insights"></a>Inzichten
 
-Twee inzichten worden gegenereerd op basis van de rapportgegevens: **Nieuwe doorsturende gebruikers** en **nieuwe doorstuurdomeinen.** Elk inzicht geeft een overzicht van het aantal nieuwe expediteurs of domeinen met een link naar het **nieuwe doorstuurrapport** met meer details voor de twee typen gegevens. Het **nieuwe doorstuurrapport** toont ook een tijdlijnweergave van nieuwe activiteiten en de detailstabel identificeert wie is begonnen met doorsturen en naar welke domeinen.
+Er worden twee inzichten gegenereerd op basis van de rapportgegevens:
+
+- [Nieuwe gebruikers die e-mail doorsturen](mfi-new-users-forwarding-email.md)
+- [Nieuwe domeinen die e-mail worden doorgestuurd](mfi-new-domains-being-forwarded-email.md)
 
 ## <a name="see-also"></a>Zie ook
 
-Zie Inzicht in [e-mailstroom in het Security & Compliance Center](mail-flow-insights-v2.md)voor meer informatie over andere e-mailstroominzichten in het dashboard voor e-mailstromen.
+Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).
