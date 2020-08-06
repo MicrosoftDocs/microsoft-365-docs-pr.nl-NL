@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: 'Lees hoe u een gebruiker toegang geeft tot het postvak van een andere gebruiker. Dat geeft de gebruiker het recht om e-mail te lezen en e-mails te verzenden vanuit het postvak van de andere gebruiker. '
-ms.openlocfilehash: dafe0f8c8f7d65b2721b70f6c132d179c461a89b
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 0b6977efbd6041a11c67ed66c9b7ecc72a38bde4
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780599"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560373"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>Postvakmachtigingen toewijzen aan een andere gebruiker - Help voor beheerders
 
@@ -55,7 +55,10 @@ Als u de machtigingen hebt ingesteld, kan het zestig minuten duren voordat de wi
   
  **Gebruik van het postvak als de machtigingen zijn ingesteld:**
   
-Een postvak kan op verschillende manieren worden geopend zodra u toegang hebt gekregen. Zie het volgende artikel voor hulp hierbij: [Het postvak van een andere gebruiker openen](https://support.microsoft.com/office/A909AD30-E413-40B5-A487-0EA70B763081)
+Een postvak kan op verschillende manieren worden geopend zodra u toegang hebt gekregen. Zie het volgende artikel voor hulp hierbij: [Het postvak van een andere gebruiker openen](https://support.microsoft.com/office/A909AD30-E413-40B5-A487-0EA70B763081).
+
+> [!NOTE]
+> De machtigingen kunnen alleen worden ingesteld binnen de huidige organisatie-tenant. Het is niet mogelijk om machtigingen voor het postvak in te stellen met niet-tenant gebruikers.
   
 ## <a name="send-email-from-another-users-mailbox"></a>E-mail verzenden vanuit het postvak van een andere gebruiker
 

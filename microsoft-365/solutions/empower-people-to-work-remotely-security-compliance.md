@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-remotework
 ms.custom: ''
 description: Gebruik beveiligings- en complianceservices van Microsoft 365 om uw apps, gegevens en apparaten te beveiligen voor externe werknemers.
-ms.openlocfilehash: 7483075767b7ffaf269899d83a0ab6e5f5759e99
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 223de710b924fc213e30fd9a6e246b3fec2344c0
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521503"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560461"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>Stap 3: Het implementeren van beveiliging en compliance voor externe werknemers
 
@@ -70,7 +70,7 @@ Voldoe aan interne beleidsregels of wettelijk voorgeschreven vereisten met deze 
 | Compliancebeheer | Beheer van wettelijk voorgeschreven complianceactiviteiten met betrekking tot de cloudservices van Microsoft met dit hulpprogramma voor risicoanalyse op basis van werkstromen in het Service Trust Portal van Microsoft. | Microsoft 365 E3 of E5 |
 | Compliancescore (preview) | Bekijk een totaalscore van uw huidige complianceconfiguratie en aanbevelingen voor het verbeteren hiervan in het Microsoft 365 Compliance Center. | Microsoft 365 E3 of E5 |
 | Communicatiecompliance  | Detecteer, onderschep en herstel ongepaste berichten in uw organisatie. | Microsoft 365 E5 of Microsoft 365 E3 met de invoegtoepassingen Compliance of Intern risicobeheer |
-| Intern risicobeheer |  Detecteer, onderzoek en onderneem actie op schadelijke en onbedoelde activiteiten in uw organisatie. Microsoft 365 kan dit soort activiteiten zelfs wanneer een werknemer een niet-beheerd apparaat gebruikt detecteren. | Microsoft 365 E5 of Microsoft 365 E3 met de invoegtoepassingen Compliance of Intern risicobeheer |
+| Intern risicobeheer |  Detecteer, onderzoek en onderneem actie op schadelijke en onbedoelde risico's in uw organisatie. Microsoft 365 kan dit soort risico's zelfs detecteren wanneer een werknemer een niet-beheerd apparaat gebruikt. | Microsoft 365 E5 of Microsoft 365 E3 met de invoegtoepassingen Compliance of Intern risicobeheer |
 ||||
 
 Zie [Belangrijkste 12 taken voor beveiligingsteams om het thuiswerken te ondersteunen](../security/top-security-tasks-for-remote-work.md) voor meer informatie.

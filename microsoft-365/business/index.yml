@@ -12,12 +12,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 86b644f7b35c6bcb2c02b6ee53ee468019caf75d
-  ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+  ms.openlocfilehash: ae67faeeae80f948b12eeb4af47c7bcc5d48148c
+  ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 07/22/2020
-  ms.locfileid: "45204777"
+  ms.lasthandoff: 08/04/2020
+  ms.locfileid: "46560825"
 productDirectory:
   title: Externe werkzaamheden beveiligen met Microsoft 365 Business Premium
   items:
@@ -33,6 +33,10 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
     summary: Azure AD Premium P1 wordt voortaan bij Microsoft 365 Business Premium geleverd.
     url: https://aka.ms/aadp1smbblog
+  - title: Neem deel aan de partner-webinar - Winst verhogen en risico verlagen in de wereld van extern werken!
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
+    summary: 19 augustus, 8:00 - 9:00 uur Pacific Standard Time (UTC-8).
+    url: https://aka.ms/GrowwithMicrosoft365
 conceptualContent:
   items:
   - title: Wat is Microsoft 365 Business Premium?
@@ -80,9 +84,9 @@ conceptualContent:
     - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-smb-technical-fundamentals-content-content-used-for-delivery
       itemType: download
       text: Technische grondbeginselen
-    - url: https://www.microsoft.com/microsoft-365/partners/resources/securing-remote-work-checklist
+    - url: https://aka.ms/SMBSecurityKit
       itemType: download
-      text: Controlelijst voor het beveiligen van externe werkzaamheden
+      text: Veilig Extern Werken-pakket
     - url: https://cct.transform.microsoft.com/
       itemType: deploy
       text: Klantadvies-tool

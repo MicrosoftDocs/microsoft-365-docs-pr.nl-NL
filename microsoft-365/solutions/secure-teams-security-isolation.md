@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het maken van een team met een uniek gevoeligheidslabel voor beveiliging.
-ms.openlocfilehash: 33b84423fa4744c34e184690bcfc3fe8dd435298
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: b16133a02c82c2b2ab0e56a5545e19b160933664
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528046"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560228"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Een team configureren met beveiligingsisolatie
 
@@ -41,6 +41,12 @@ De elementen van de configuratie van een team voor sterk gereglementeerde gegeve
 
 > [!IMPORTANT]
 > Zorg ervoor dat u [gevoeligheidslabels hebt ingeschakeld om de inhoud van Microsoft teams, Office 365-groepen en SharePoint-sites te beveiligen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), voordat u verder gaat met de stappen in dit artikel.
+
+<a name="poster"></a> Zie de [Poster Microsoft-team met beveiligingsisolatie](../downloads/team-security-isolation-poster.pdf) voor een overzicht van twee pagina's van dit scenario.
+
+[![Poster Microsoft-team met beveiligingsisolatie](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
+
+U kunt deze poster ook downloaden in [PDF-](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) of [PowerPoint-](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pptx) indeling en afdrukken op papier met formaat Letter, Legal of Tabloid (27,9 x 43,2 cm).
 
 ## <a name="initial-protections"></a>Initiële bescherming
 

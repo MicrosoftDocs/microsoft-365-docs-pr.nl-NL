@@ -2,7 +2,7 @@
 title: Aanbevolen procedures voor niet-geverifieerd delen
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: In dit artikel vindt u informatie over de aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers.
-ms.openlocfilehash: 72da93a457b91ec7a25e88a0ac2aa8e64b6fe385
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: cea60152f06e8fbd242c9641b962bc9a96fdd019
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526932"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560473"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers
 
@@ -46,6 +46,8 @@ Een vervaldatum instellen voor iedereen-koppelingen
 4. Typ het aantal dagen in het vak en klik vervolgens op **opslaan**.
 
 Wanneer een *iedereen*-koppeling verloopt, kan het bestand of de map opnieuw worden gedeeld met een nieuw *iedereen*-koppeling.
+
+U kunt *Iedereen* koppeling-vervaldatum voor een bepaalde site of OneDrive instellen door [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) te gebruiken.
 
 ## <a name="set-link-permissions"></a>Koppelingsmachtigingen instellen
 
