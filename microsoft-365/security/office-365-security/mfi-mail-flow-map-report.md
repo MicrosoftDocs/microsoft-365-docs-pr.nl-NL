@@ -1,5 +1,5 @@
 ---
-title: Rapport met e-mailstroomkaart
+title: E-mail stroom plattegrond
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,46 +12,62 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen meer te weten komen over het rapport met de e-mailstroomkaart in het dashboard voor de e-& Beveiliging.
-ms.openlocfilehash: b0850ee50573583f1a971d1a5dfd69f47fb70b99
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Beheerders kunnen leren hoe u de e-mail stroom plattegrond kunt gebruiken in het dashboard voor e-mail stroom in het beveiligings & nalevings centrum voor het visualiseren en bijhouden van de manier waarop e-mail stromen van en naar hun organisatie via connectors en zonder connectors worden gebruikt.
+ms.openlocfilehash: 2996227de3e0141635522ada4e41f2e8e65e9040
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818841"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577671"
 ---
-# <a name="mail-flow-map-report"></a><span data-ttu-id="7dc5a-103">Rapport met e-mailstroomkaart</span><span class="sxs-lookup"><span data-stu-id="7dc5a-103">Mail flow map report</span></span>
+# <a name="mail-flow-map-in-the-security--compliance-center"></a><span data-ttu-id="a88d4-103">De kaart voor de e-mail stroom in het Beveiligingscentrum beveiligings &</span><span class="sxs-lookup"><span data-stu-id="a88d4-103">Mail flow map in the Security & Compliance Center</span></span>
 
-<span data-ttu-id="7dc5a-104">Dit rapport geeft inzicht in hoe e-mail door uw organisatie stroomt.</span><span class="sxs-lookup"><span data-stu-id="7dc5a-104">This report gives insights as to how mail flows through your organization.</span></span> <span data-ttu-id="7dc5a-105">U deze informatie gebruiken om patronen te leren, afwijkingen te identificeren en problemen op te lossen wanneer deze zich voordoen.</span><span class="sxs-lookup"><span data-stu-id="7dc5a-105">You can use this information to learn patterns, identify anomalies, and fix issues as they arise.</span></span>
+<span data-ttu-id="a88d4-104">De **e-mail stroom kaart** in het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in het Beveiligingscentrum beveiligings & biedt inzicht in de manier waarop e-mail stromen via uw organisatie worden doorgevoerd.</span><span class="sxs-lookup"><span data-stu-id="a88d4-104">The **Mail flow map** in the [Mail flow dashboard](mail-flow-insights-v2.md) in the Security & Compliance Center gives insight as to how mail flows through your organization.</span></span> <span data-ttu-id="a88d4-105">U kunt deze gegevens gebruiken om patronen te ontdekken, afwijkingen te identificeren en problemen op te lossen.</span><span class="sxs-lookup"><span data-stu-id="a88d4-105">You can use this information to learn patterns, identify anomalies, and fix issues as they occur.</span></span>
 
-![Het rapport E-mailstroomkaart in het e-mailstroomdashboard in het Security & Compliance Center](../../media/mail-flow-map-selected.png)
+![Widget e-mail stroom in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum](../../media/mfi-mail-flow-map-widget.png)
 
-## <a name="mail-flow-map-widget"></a><span data-ttu-id="7dc5a-107">E-mailstroomkaartobject</span><span class="sxs-lookup"><span data-stu-id="7dc5a-107">Mail flow map widget</span></span>
+<span data-ttu-id="a88d4-107">Standaard toont de widget de e-mail stroom patroon van de vorige dag in een grafiek die een *Sankey* -diagram wordt genoemd.</span><span class="sxs-lookup"><span data-stu-id="a88d4-107">By default, the widget shows the mail flow pattern from the previous day in a chart known as a *Sankey* diagram.</span></span> <span data-ttu-id="a88d4-108">U kunt de pijl-links ![ en pijl- ](../../media/scc-left-arrow.png) rechts gebruiken ![ ](../../media/scc-right-arrow.png) om informatie uit verschillende dagen weer te geven.</span><span class="sxs-lookup"><span data-stu-id="a88d4-108">You can use the left arrow ![Left arrow](../../media/scc-left-arrow.png) and right arrow ![Right arrow](../../media/scc-right-arrow.png) to show information from different days.</span></span> <span data-ttu-id="a88d4-109">Elke andere kleur vertegenwoordigt een e-mail stroom via een andere binnenkomende of uitgaande connector (of zonder connectors).</span><span class="sxs-lookup"><span data-stu-id="a88d4-109">Each different color represents mail flow over a different inbound or outbound connector (or without using connectors).</span></span> <span data-ttu-id="a88d4-110">Als u de muisaanwijzer boven een bepaalde kleur houdt, wordt het aantal berichten weergegeven voor dat type verbindingslijn.</span><span class="sxs-lookup"><span data-stu-id="a88d4-110">If you hover over a specific color, the number of messages is displayed for that type of connector.</span></span>
 
-<span data-ttu-id="7dc5a-108">Standaard toont de e-mailstroomkaart het hoge e-mailstroompatroon van de vorige dag.</span><span class="sxs-lookup"><span data-stu-id="7dc5a-108">By default, the mail flow map shows the high level mail flow pattern from the previous day.</span></span> <span data-ttu-id="7dc5a-109">U de linker- en rechterpijlen voor verschillende dagen gebruiken.</span><span class="sxs-lookup"><span data-stu-id="7dc5a-109">You can use the left and right arrows for different days.</span></span> <span data-ttu-id="7dc5a-110">Als u de muiscursor boven elk gebied in het rapport plaatst, wordt het volume van e-mail van en naar uw organisatie weergegeven, zoals weergegeven in het volgende diagram:</span><span class="sxs-lookup"><span data-stu-id="7dc5a-110">Hovering your mouse cursor over each area in the report will show the volume of mail to and from your organization as shown in the following diagram:</span></span>
+## <a name="report-view-for-the-mail-flow-map"></a><span data-ttu-id="a88d4-111">Rapportweergave voor de e-mail stroom kaart</span><span class="sxs-lookup"><span data-stu-id="a88d4-111">Report view for the Mail flow map</span></span>
 
-![Pijlen links en rechts in de widget E-maildiakaart](../../media/mail-flow-map-widget.png)
+<span data-ttu-id="a88d4-112">Als u op de widget **e-mail stroom kaart** klikt, gaat u naar het rapport met de **e-mail stroom kaart** .</span><span class="sxs-lookup"><span data-stu-id="a88d4-112">Clicking on the **Mail flow map** widget will take you to the **Mail flow map** report.</span></span>
 
-## <a name="mail-flow-map-basics"></a><span data-ttu-id="7dc5a-112">Basisprincipes van e-mailstroomkaart</span><span class="sxs-lookup"><span data-stu-id="7dc5a-112">Mail flow map basics</span></span>
+<span data-ttu-id="a88d4-113">De volgende grafieken zijn beschikbaar in de rapportweergave:</span><span class="sxs-lookup"><span data-stu-id="a88d4-113">The following charts are available in the report view:</span></span>
 
-<span data-ttu-id="7dc5a-113">Als u op de widget **E-mailstroomkaart** klikt, gaat u naar het rapport **E-mailstroomkaart.**</span><span class="sxs-lookup"><span data-stu-id="7dc5a-113">Clicking on the **Mail flow map** widget will take you to the **Mail flow map** report.</span></span> <span data-ttu-id="7dc5a-114">Hier ziet u meer gedetailleerd niveau van het rapport, u klikken op Details tabel weergeven om gedetailleerde gegevens te zien.</span><span class="sxs-lookup"><span data-stu-id="7dc5a-114">Here you can see more granular level of report, you can click View details table to see detailed data.</span></span> <span data-ttu-id="7dc5a-115">U het gedetailleerde rapport ook downloaden door op Het rapport Aanvragen te klikken.</span><span class="sxs-lookup"><span data-stu-id="7dc5a-115">You can also download the detailed report by clicking Request report.</span></span>
+- <span data-ttu-id="a88d4-114">**Gegevens weergeven voor: overzicht**: dit is een grotere weergave van de widget.</span><span class="sxs-lookup"><span data-stu-id="a88d4-114">**Show data for: Overview**: This is basically a larger view of the widget.</span></span> <span data-ttu-id="a88d4-115">Als u de muisaanwijzer boven een bepaalde kleur houdt, wordt het aantal berichten weergegeven voor dat type verbindingslijn.</span><span class="sxs-lookup"><span data-stu-id="a88d4-115">If you hover over a specific color, the number of messages is displayed for that type of connector.</span></span>
 
-![Overzichtsweergave in het rapport E-mailstroomkaart](../../media/mail-flow-map-overview.png)
+  ![Overzichtsweergave in het rapport e-mail stroom kaart](../../media/mfi-mail-flow-map-report-overview.png)
 
-## <a name="details"></a><span data-ttu-id="7dc5a-117">Details</span><span class="sxs-lookup"><span data-stu-id="7dc5a-117">Details</span></span>
+- <span data-ttu-id="a88d4-117">**Gegevens weergeven voor: detail**: in deze weergave worden details weergegeven over de connectors en doeldomeinen.</span><span class="sxs-lookup"><span data-stu-id="a88d4-117">**Show data for: Detail**: This view shows details about the connectors and destination domains.</span></span> <span data-ttu-id="a88d4-118">De meeste e-mailadressen van de afzender en de ontvanger worden weergegeven en de rest wordt in **andere**gebieden meegenomen.</span><span class="sxs-lookup"><span data-stu-id="a88d4-118">The top sender and recipient domains are listed, and the rest are put in **Others**.</span></span> <span data-ttu-id="a88d4-119">Als u de muisaanwijzer boven een bepaalde kleur en sectie houdt, wordt het aantal berichten weergegeven.</span><span class="sxs-lookup"><span data-stu-id="a88d4-119">If you hover over a specific color and section, the number of messages is displayed.</span></span>
 
-<span data-ttu-id="7dc5a-118">Standaard wordt **Gegevens weergeven voor** is ingesteld op de **waardeoverzicht**.</span><span class="sxs-lookup"><span data-stu-id="7dc5a-118">By default, **Show data for** is set to the value **Overview**.</span></span> <span data-ttu-id="7dc5a-119">Wanneer u op de vervolgkeuzelijst klikt en **Detail**selecteert, schakelt de weergave over naar het domeinniveau.</span><span class="sxs-lookup"><span data-stu-id="7dc5a-119">When you click on the drop down and select **Detail**, the view switches to the domain level detail.</span></span>
+  ![De weergave Details in het rapport van de e-mail stroom](../../media/mfi-mail-flow-map-report-detail.png)
 
-![Details selecteren in Gegevens weergeven voor in de overzichtsweergave in het rapport E-mailstroomkaart](../../media/mail-flow-map-select-detail.png)
+<span data-ttu-id="a88d4-121">Als u op **filters** in een rapportweergave klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.</span><span class="sxs-lookup"><span data-stu-id="a88d4-121">If you click **Filters** in a report view, you can specify a date range with **Start date** and **End date**.</span></span>
 
-<span data-ttu-id="7dc5a-121">De bovenste afzender- en geadresseerdendomeinen worden vermeld en de rest wordt in **andere** domeinen geplaatst, zoals in de volgende diagrammen wordt weergegeven:</span><span class="sxs-lookup"><span data-stu-id="7dc5a-121">The top sender and recipient domains are listed, and the rest will be put in **Others** as shown in the following diagrams:</span></span>
+<span data-ttu-id="a88d4-122">Als u het rapport voor een specifiek datumbereik naar een of meer geadresseerden wilt verzenden, klikt u op **Download aanvragen**.</span><span class="sxs-lookup"><span data-stu-id="a88d4-122">To email the report for a specific date range to one or more recipients, click **Request download**.</span></span>
 
-![Detailsweergave in het rapport E-mailstroomkaart](../../media/mail-flow-map-detail.png)
+<span data-ttu-id="a88d4-123">Gerelateerde inzichten worden weergegeven onder de weergave voor de e-mail stroom, als deze beschikbaar zijn (bijvoorbeeld de oplossing voor de [oplossing potentiële e-mail](mfi-mail-loop-insight.md)).</span><span class="sxs-lookup"><span data-stu-id="a88d4-123">Related insights are shown beneath the Mail flow map if they're available (for example, the [Fix possible mail loop insight](mfi-mail-loop-insight.md)).</span></span>
 
-## <a name="related-insights"></a><span data-ttu-id="7dc5a-123">Gerelateerde inzichten</span><span class="sxs-lookup"><span data-stu-id="7dc5a-123">Related insights</span></span>
+## <a name="details-table-view-for-the-mail-flow-map"></a><span data-ttu-id="a88d4-124">De tabel weergave Details voor de e-mail stroom kaart</span><span class="sxs-lookup"><span data-stu-id="a88d4-124">Details table view for the Mail flow map</span></span>
 
-<span data-ttu-id="7dc5a-124">Gerelateerde inzichten worden weergegeven onder de e-mailstroomkaart als deze beschikbaar zijn (bijvoorbeeld het inzicht in het afzenderdomein of het inzicht in de afdruklus).</span><span class="sxs-lookup"><span data-stu-id="7dc5a-124">Related insights are shown beneath the Mail flow map if they're available (for example, the Sender domain insight or the Mail loop insight).</span></span>
+<span data-ttu-id="a88d4-125">Als u in een rapportweergave op **Details tabel weergeven** klikt, wordt de volgende informatie weergegeven:</span><span class="sxs-lookup"><span data-stu-id="a88d4-125">If you click **View details table** in a report view, the following information is shown:</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="7dc5a-125">Zie ook</span><span class="sxs-lookup"><span data-stu-id="7dc5a-125">See also</span></span>
+- <span data-ttu-id="a88d4-126">**Einddatum**</span><span class="sxs-lookup"><span data-stu-id="a88d4-126">**Date**</span></span>
+- <span data-ttu-id="a88d4-127">**Categorie**</span><span class="sxs-lookup"><span data-stu-id="a88d4-127">**Category**</span></span>
+- <span data-ttu-id="a88d4-128">**Service provider van connector/derden**</span><span class="sxs-lookup"><span data-stu-id="a88d4-128">**Connector / Third-party service provider**</span></span>
+- <span data-ttu-id="a88d4-129">**Domein afzender/ontvanger**</span><span class="sxs-lookup"><span data-stu-id="a88d4-129">**Sender/Recipient domain**</span></span>
+- <span data-ttu-id="a88d4-130">**Aantal berichten**</span><span class="sxs-lookup"><span data-stu-id="a88d4-130">**Message count**</span></span>
 
-<span data-ttu-id="7dc5a-126">Zie [E-mailstroominzichten in het Security & Compliance Center](mail-flow-insights-v2.md)voor meer informatie over andere e-mailstroominzichten in het dashboard voor e-mailstromen.</span><span class="sxs-lookup"><span data-stu-id="7dc5a-126">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
+<span data-ttu-id="a88d4-131">Als u in een weergave met detail tabellen op **filters** klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.</span><span class="sxs-lookup"><span data-stu-id="a88d4-131">If you click **Filters** in a details table view, you can specify a date range with **Start date** and **End date**.</span></span>
+
+<span data-ttu-id="a88d4-132">Als u een rij selecteert, worden dezelfde gegevens weergegeven in een flyout:</span><span class="sxs-lookup"><span data-stu-id="a88d4-132">If you select a row, similar details are shown in a flyout:</span></span>
+
+![Flyout Details van de tabel Details in de toegewezen berichtenstroom](../../media/mfi-mail-flow-map-view-details-table-details.png)
+
+<span data-ttu-id="a88d4-134">Als u het rapport voor een specifiek datumbereik naar een of meer geadresseerden wilt verzenden, klikt u op **Download aanvragen**.</span><span class="sxs-lookup"><span data-stu-id="a88d4-134">To email the report for a specific date range to one or more recipients, click **Request download**.</span></span>
+
+<span data-ttu-id="a88d4-135">Als u terug wilt gaan naar de weergave rapporten, klikt u op **rapport weergeven**.</span><span class="sxs-lookup"><span data-stu-id="a88d4-135">To go back to the reports view, click **View report**.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="a88d4-136">Zie ook</span><span class="sxs-lookup"><span data-stu-id="a88d4-136">See also</span></span>
+
+<span data-ttu-id="a88d4-137">Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="a88d4-137">For information about other insights in the Mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>

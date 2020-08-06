@@ -1,5 +1,5 @@
 ---
-title: Inzicht in e-maillussen
+title: Mogelijke oplossingen voor e-mail lussen
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,24 +12,32 @@ localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen meer te weten komen over het inzicht in de e-mailloop in het dashboard voor de beveiliging & Compliance Center.
-ms.openlocfilehash: 80767a265734c542db8e24cf58d0a1c0df469780
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Beheerders kunnen leren hoe u met behulp & van het hulpprogramma voor het oplossen van e-mail lussen in hun organisatie e-mail lussen kunt identificeren en oplossen.
+ms.openlocfilehash: 54240cffc534b4be708492b37b827636edab280e
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819314"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577620"
 ---
-# <a name="mail-loop-insight"></a><span data-ttu-id="c7d52-103">Inzicht in e-maillussen</span><span class="sxs-lookup"><span data-stu-id="c7d52-103">Mail loop insight</span></span>
+# <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a><span data-ttu-id="35b10-103">Mogelijke oplossing voor e-mail lussen in de beveiligings & nalevings centrum</span><span class="sxs-lookup"><span data-stu-id="35b10-103">Fix possible mail loop insight in the Security & Compliance Center</span></span>
 
-<span data-ttu-id="c7d52-104">Een e-maillus is slecht omdat het systeembronnen verspilt, het e-mailvolumequotum van uw organisatie verbruikt en verwarrende rapporten voor niet-levering (ook wel NDR's of bounceberichten genoemd) naar de oorspronkelijke afzenders verzendt.</span><span class="sxs-lookup"><span data-stu-id="c7d52-104">A mail loop is bad because it wastes system resources, consumes your organization's mail volume quota, and sends confusing non-delivery reports (also known as NDRs or bounce messages) to the original senders.</span></span> <span data-ttu-id="c7d52-105">Dit inzicht wordt gerapporteerd wanneer een e-maillus wordt gevonden in uw organisatie, de e-maildomeinen die betrokken zijn bij de lus en het aantal berichten van de vorige dag die zich in de lus bevonden.</span><span class="sxs-lookup"><span data-stu-id="c7d52-105">This insight reports when a mail loop is found in your organization, the email domains that are involved in the loop, and the number of messages from the previous day that were in the loop.</span></span>
+<span data-ttu-id="35b10-104">Een lus voor e-mailberichten is slecht omdat dit de systeembronnen verspilt, het volume quotum van uw organisatie gebruikt en geen rapporten van niet-uitgevoerde bezorging (ook wel Ndr's genoemd) aan de oorspronkelijke afzenders stuurt.</span><span class="sxs-lookup"><span data-stu-id="35b10-104">A mail loop is bad because it wastes system resources, consumes your organization's mail volume quota, and sends confusing non-delivery reports (also known as NDRs or bounce messages) to the original senders.</span></span>
 
-![Een e-maillusinzicht in het dashboard voor e-mailstroom in het Security & Compliance Center](../../media/c3f707cb-4c89-4e88-989c-81ce1d1d6b99.png)
+<span data-ttu-id="35b10-105">In het gedeelte **voor** het aanvullen van e-mail van het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in de & beveiligings **Update** wordt u gewaarschuwd wanneer een e-mail in uw organisatie wordt gedetecteerd.</span><span class="sxs-lookup"><span data-stu-id="35b10-105">The **Fix possible mail loop** insight in the **Recommended for you** area of the [Mail flow dashboard](mail-flow-insights-v2.md) in the Security & Compliance Center notifies you when a mail loop is detected in your organization.</span></span> <span data-ttu-id="35b10-106">Dit inzicht wordt alleen weergegeven nadat de voorwaarde is vastgesteld (als u geen e-mail lussen hebt, ziet u het inzicht niet).</span><span class="sxs-lookup"><span data-stu-id="35b10-106">This insight appears only after the condition is detected (if you don't have any mail loops, you won't see the insight).</span></span>
 
-<span data-ttu-id="c7d52-107">U op **Details weergeven** klikken om de details in een flyout-deelvenster weer te geven.</span><span class="sxs-lookup"><span data-stu-id="c7d52-107">You can click **View details** to see the details in a flyout pane.</span></span> <span data-ttu-id="c7d52-108">We identificeren ook de meest voorkomende lusscenario's en bieden de aanbevolen acties (indien beschikbaar) om de lus op te lossen.</span><span class="sxs-lookup"><span data-stu-id="c7d52-108">We also identify the most common loop scenarios and provide the recommended actions (if available) to fix the loop.</span></span>
+![Meer inzicht in langzame e-mail stroom regels op het gebied aanbevolen voor u in het dashboard voor e-mail stroom](../../media/mfi-fix-possible-mail-loop.png)
 
-![Flyout-deelvenster nadat u op Details weergeven in een mal-lusinzicht in het dashboard van de e-mailstroom hebt geklikt](../../media/f7e21300-c62f-41ec-853f-4a2775cd8aa7.png)
+<span data-ttu-id="35b10-108">Wanneer u op Details van het object **weergeven** klikt, verschijnt er een flyout met meer informatie:</span><span class="sxs-lookup"><span data-stu-id="35b10-108">When you click **View details** on the widget, a flyout appears with more information:</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="c7d52-110">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="c7d52-110">Related topics</span></span>
+- <span data-ttu-id="35b10-109">**Domein**</span><span class="sxs-lookup"><span data-stu-id="35b10-109">**Domain**</span></span>
+- <span data-ttu-id="35b10-110">**Aantal berichten**: u kunt op **voorbeeldberichten weergeven** klikken om de resultaten van de [bericht tracering](message-trace-scc.md) te zien voor een voorbeeld van de berichten die door de lus werden beïnvloed.</span><span class="sxs-lookup"><span data-stu-id="35b10-110">**Number of messages**: You can click **View sample messages** to see the [message trace](message-trace-scc.md) results for a sample of the messages that were affected by the loop.</span></span>
+- <span data-ttu-id="35b10-111">**Domeintype**, bijvoorbeeld bindend of niet-bindend.</span><span class="sxs-lookup"><span data-stu-id="35b10-111">**Domain type**" For example, Authoritative or Non-authoritative.</span></span>
+- <span data-ttu-id="35b10-112">**MX-record**: de host (**e-mail server**) en de **prioriteits** waarden van de MX-record voor het domein.</span><span class="sxs-lookup"><span data-stu-id="35b10-112">**MX record**: The host (**Mail server**) and **Priority** values of the MX record for the domain.</span></span>
+- <span data-ttu-id="35b10-113">**Reden voor herhaling** en **oplossing**: we proberen de meest voorkomende scenario's voor e-mail lussen te identificeren en de aanbevolen acties te geven (indien beschikbaar) om de lus te verhelpen.</span><span class="sxs-lookup"><span data-stu-id="35b10-113">**Loop reason** and **How to fix**: We'll try to identify the most common mail loop scenarios and provide the recommended actions (if available) to fix the loop.</span></span>
 
-<span data-ttu-id="c7d52-111">Zie [E-mailstroominzichten in het Security & Compliance Center](mail-flow-insights-v2.md)voor meer informatie over andere e-mailstroominzichten in het dashboard voor e-mailstromen.</span><span class="sxs-lookup"><span data-stu-id="c7d52-111">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
+![Voorbeeld van een flyout dat wordt weergegeven nadat u op Details weergeven hebt geklikt in de mogelijke oplossing voor e-mail](../../media/mfi-fix-possible-mail-loop-details.png)
+
+## <a name="related-topics"></a><span data-ttu-id="35b10-115">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="35b10-115">Related topics</span></span>
+
+<span data-ttu-id="35b10-116">Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="35b10-116">For information about other insights in the Mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>

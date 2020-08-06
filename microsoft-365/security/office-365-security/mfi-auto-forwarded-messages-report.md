@@ -1,5 +1,5 @@
 ---
-title: Rapport over automatisch doorgestuurde berichten
+title: Inzicht in berichten automatisch doorsturen
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -10,32 +10,48 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
-description: Beheerders kunnen meer te weten komen over het rapport Automatisch doorgestuurde berichten in het dashboard van de e-mailstroom in het Security & Compliance Center.
-ms.openlocfilehash: ceeff0c6033cb2610c09a80ddbddcda90ff63b05
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Beheerders kunnen informatie vinden over het rapport met automatisch doorgestuurde berichten in het dashboard voor de e-mail stroom van het beveiligings & nalevings centrum.
+ms.openlocfilehash: 05e3f62610c32bc95caf579ef4dd46bf1ed90275
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635302"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577812"
 ---
-# <a name="auto-forwarded-messages-report"></a><span data-ttu-id="a1783-103">Rapport over automatisch doorgestuurde berichten</span><span class="sxs-lookup"><span data-stu-id="a1783-103">Auto-forwarded messages report</span></span>
+# <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a><span data-ttu-id="04231-103">Berichten met automatisch doorgestuurde inzichten in het beveiligings & nalevings centrum</span><span class="sxs-lookup"><span data-stu-id="04231-103">Auto-forwarded messages insight in the Security & Compliance Center</span></span>
 
-<span data-ttu-id="a1783-104">In het rapport **Automatisch doorgestuurde berichten** in het dashboard van de e-mailstroom worden informatie weergegeven over berichten die automatisch van uw organisatie worden doorgestuurd naar ontvangers in externe domeinen.</span><span class="sxs-lookup"><span data-stu-id="a1783-104">The **Auto-forwarded messages** report in the mail flow dashboard displays information on messages that are automatically forwarded from your organization to recipients in external domains.</span></span>
+<span data-ttu-id="04231-104">Met de **automatisch doorgestuurde berichten** in het [Dashboard voor e-mail stromen](mail-flow-insights-v2.md) in de beveiligings & nalevings centrum wordt informatie weergegeven over berichten die automatisch van uw organisatie worden doorgestuurd naar geadresseerden in externe domeinen.</span><span class="sxs-lookup"><span data-stu-id="04231-104">The **Auto-forwarded messages** insight in the [Mail flow dashboard](mail-flow-insights-v2.md) in the Security & Compliance Center displays information about messages that are automatically forwarded from your organization to recipients in external domains.</span></span>
 
-![Het inzicht in automatisch doorgestuurde berichten in het Security & Compliance Center](../../media/8bc2600b-71c3-4b37-b4d0-9435fe0cfc8d.png)
+![Widget berichten automatisch doorsturen in het Beveiligingscentrum beveiligings &](../../media/mfi-auto-forwarded-messages.png)
 
-![Het rapport Automatisch doorgestuurde berichten in het dashboard van de e-mailstroom in het Security & Compliance Center](../../media/8bc2600b-71c3-4b37-b4d0-9435fe0cfc8d.png)
+## <a name="auto-forwarded-messages-details"></a><span data-ttu-id="04231-106">Details van automatisch doorgestuurde berichten</span><span class="sxs-lookup"><span data-stu-id="04231-106">Auto-forwarded messages details</span></span>
 
-## <a name="auto-forwarded-messages-details"></a><span data-ttu-id="a1783-107">Gegevens over automatisch doorgestuurde berichten</span><span class="sxs-lookup"><span data-stu-id="a1783-107">Auto-forwarded messages details</span></span>
+<span data-ttu-id="04231-107">Wanneer u op het aantal berichten in het object klikt, wordt er een flyout weergegeven met meer informatie over de automatisch doorgestuurde berichten:</span><span class="sxs-lookup"><span data-stu-id="04231-107">When you click the number of messages in the widget, a flyout pane appears that shows more information about the auto-forwarded messages:</span></span>
 
-<span data-ttu-id="a1783-108">Wanneer u op het aantal berichten in de widget klikt, verschijnt er een flyout-venster met de status van het automatisch doorgestuurde bericht.</span><span class="sxs-lookup"><span data-stu-id="a1783-108">When you click the number of messages in the widget, a flyout pane appears that shows the auto-forwarded message status.</span></span> <span data-ttu-id="a1783-109">U de details bekijken door op de koppeling **Rapport doorsturen** te klikken.</span><span class="sxs-lookup"><span data-stu-id="a1783-109">You can see the details by clicking the **Forwarding Report** link.</span></span>
+- <span data-ttu-id="04231-108">**Berichten automatisch doorsturen met behulp van doorstuur methoden**:</span><span class="sxs-lookup"><span data-stu-id="04231-108">**Auto-forwarded messages by forwarding methods**:</span></span>
 
-![De flyout details voor het rapport Automatisch doorgestuurde berichten in het Security & Compliance Center](../../media/87d0fb1e-d2ef-4901-b17c-ec32d23a539e.png)
+  - <span data-ttu-id="04231-109">**Door een e-mail stroom regel**</span><span class="sxs-lookup"><span data-stu-id="04231-109">**By mail flow rules**</span></span>
+  - <span data-ttu-id="04231-110">**Door regels voor Postvak in**</span><span class="sxs-lookup"><span data-stu-id="04231-110">**By Inbox rules**</span></span>
+  - <span data-ttu-id="04231-111">**Door SMTP doorsturen**</span><span class="sxs-lookup"><span data-stu-id="04231-111">**By SMTP forwarding**</span></span>
+  - <span data-ttu-id="04231-112">Een koppeling naar het [doorstuur rapport](view-mail-flow-reports.md#forwarding-report) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="04231-112">A link to the [Forwarding report](view-mail-flow-reports.md#forwarding-report) for more details.</span></span>
 
-## <a name="insights"></a><span data-ttu-id="a1783-111">Inzichten</span><span class="sxs-lookup"><span data-stu-id="a1783-111">Insights</span></span>
+- <span data-ttu-id="04231-113">**Berichten automatisch doorsturen en door domeinen en gebruikers**:</span><span class="sxs-lookup"><span data-stu-id="04231-113">**Auto-forwarded messages by domains and users**:</span></span>
 
-<span data-ttu-id="a1783-112">Twee inzichten worden gegenereerd op basis van de rapportgegevens: **Nieuwe doorsturende gebruikers** en **nieuwe doorstuurdomeinen.**</span><span class="sxs-lookup"><span data-stu-id="a1783-112">Two insights are generated based on the report data: **New forwarding users** and **New forwarding domains**.</span></span> <span data-ttu-id="a1783-113">Elk inzicht geeft een overzicht van het aantal nieuwe expediteurs of domeinen met een link naar het **nieuwe doorstuurrapport** met meer details voor de twee typen gegevens.</span><span class="sxs-lookup"><span data-stu-id="a1783-113">Each insight provides a summary of the number of new forwarders or domains with a link to the **New Forwarding Report** that provides more detail for the two types of data.</span></span> <span data-ttu-id="a1783-114">Het **nieuwe doorstuurrapport** toont ook een tijdlijnweergave van nieuwe activiteiten en de detailstabel identificeert wie is begonnen met doorsturen en naar welke domeinen.</span><span class="sxs-lookup"><span data-stu-id="a1783-114">The **New Forwarding Report** also shows a timeline view of new activity and the details table identifies who started forwarding and to which domains.</span></span>
+  - <span data-ttu-id="04231-114">**Vijf belangrijkste domeinen doorgestuurd naar**</span><span class="sxs-lookup"><span data-stu-id="04231-114">**Top 5 domains forwarded to**</span></span>
+  - <span data-ttu-id="04231-115">**Nieuwe domeinen (vorige week)**</span><span class="sxs-lookup"><span data-stu-id="04231-115">**New domains (last week)**</span></span>
+  - <span data-ttu-id="04231-116">**Belangrijkste 5 doorstuur gebruikers**</span><span class="sxs-lookup"><span data-stu-id="04231-116">**Top 5 forwarding users**</span></span>
+  - <span data-ttu-id="04231-117">**Nieuwe gebruikers (vorige week)**</span><span class="sxs-lookup"><span data-stu-id="04231-117">**New users (last week)**</span></span>
+  - <span data-ttu-id="04231-118">Een koppeling naar de [lijst met wijzigingen doorsturen](mfi-new-users-forwarding-email.md#forwarding-modifications-report) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="04231-118">A link to the [Forwarding modifications report](mfi-new-users-forwarding-email.md#forwarding-modifications-report) for more details.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a1783-115">Zie ook</span><span class="sxs-lookup"><span data-stu-id="a1783-115">See also</span></span>
+![Flyout Details van het rapport met automatisch doorgestuurde berichten in het Beveiligingscentrum beveiligings &](../../media/mfi-auto-forwarded-messages-details.png)
 
-<span data-ttu-id="a1783-116">Zie Inzicht in [e-mailstroom in het Security & Compliance Center](mail-flow-insights-v2.md)voor meer informatie over andere e-mailstroominzichten in het dashboard voor e-mailstromen.</span><span class="sxs-lookup"><span data-stu-id="a1783-116">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
+## <a name="insights"></a><span data-ttu-id="04231-120">Inzichten</span><span class="sxs-lookup"><span data-stu-id="04231-120">Insights</span></span>
+
+<span data-ttu-id="04231-121">Er worden twee inzichten gegenereerd op basis van de rapportgegevens:</span><span class="sxs-lookup"><span data-stu-id="04231-121">Two insights are generated based on the report data:</span></span>
+
+- [<span data-ttu-id="04231-122">Nieuwe gebruikers die e-mail doorsturen</span><span class="sxs-lookup"><span data-stu-id="04231-122">New users forwarding email</span></span>](mfi-new-users-forwarding-email.md)
+- [<span data-ttu-id="04231-123">Nieuwe domeinen die e-mail worden doorgestuurd</span><span class="sxs-lookup"><span data-stu-id="04231-123">New domains being forwarded email</span></span>](mfi-new-domains-being-forwarded-email.md)
+
+## <a name="see-also"></a><span data-ttu-id="04231-124">Zie ook</span><span class="sxs-lookup"><span data-stu-id="04231-124">See also</span></span>
+
+<span data-ttu-id="04231-125">Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="04231-125">For information about other insights in the Mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
