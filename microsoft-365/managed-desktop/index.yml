@@ -1,84 +1,53 @@
-### YamlMime:YamlDocument
-documentType: LandingData
-title: Documentatie en informatiebronnen voor Microsoft Managed Desktop
+### YamlMime:Landing
+title: Documentatie voor Microsoft Managed Desktop
+summary: Microsoft Managed Desktop combineert Microsoft 365 Enterprise, apparaatbeheer in de cloud door Microsoft en beveiligingscontroles, zodat uw IT-teams zich kunnen concentreren op de kernbehoeften van uw bedrijf.
 metadata:
   title: Documentatie voor Microsoft Managed Desktop
-  description: null
-  keywords: 'apparaat, app, beheer'
+  description: Microsoft Managed Desktop combineert Microsoft 365 Enterprise, apparaatbeheer in de cloud door Microsoft en beveiligingscontroles, zodat uw IT-teams zich kunnen concentreren op de kernbehoeften van uw bedrijf.
+  keywords: device, app, management
+  ms.service: m365-md
+  ms.topic: landing-page
   author: jaimeo
   ms.author: jaimeo
-  ms.topic: landing-page
-  ms.devlang: na
-  ms.service: m365-md
-sections:
-  - items:
-      - type: markdown
-        text: 'Microsoft Managed Desktop combineert Microsoft 365 Enterprise, apparaatbeheer in de cloud door Microsoft en beveiligingscontroles, zodat uw IT-teams zich kunnen concentreren op de kernbehoeften van uw bedrijf.'
-  - items:
-      - type: list
-        style: cards
-        className: cardsM
-        columns: 2
-        items:
-          - href: intro/index.md
-            html: '<p>Inleiding tot Microsoft Managed Desktop voor besluitvormers: wat het is, hoe het werkt en wat het voor u kan betekenen</p>'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_overview.svg'
-              alt: ''
-            title: Wat is Microsoft Managed Desktop?
-          - href: service-description/index.md
-            html: <p>Gedetailleerde beschrijving van alle onderdelen van Microsoft Managed Desktop</p>
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
-              alt: ''
-            title: Servicebeschrijving
-          - href: get-ready/index.md
-            html: <p>Alle stappen om uw omgeving en organisatie voor te bereiden op het werken met de service</p>
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_support.svg'
-              alt: ''
-            title: Voorbereiding
-          - href: get-started/index.md
-            html: '<p>Uw organisatie voorbereiden voor Microsoft Managed Desktop, inclusief het instellen van apparaten en implementeren van apps</p>'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_whats-new.svg'
-              alt: ''
-            title: Aan de slag
-          - href: working-with-managed-desktop/index.md
-            html: <p>Alles over uw dagelijkse activiteiten met de service</p>
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_portal.svg'
-              alt: ''
-            title: Werken met Microsoft Managed Desktop
-  - title: Nieuwe artikelen en blogberichten
-    items:
-      - type: paragraph
-        text: Lees de meest recente en beste informatie die u nodig hebt.
-      - type: list
-        style: cards
-        className: cardsM
-        columns: 2
-        items:
-          - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482'
-            title: '[Roadmap] Your Complete Roadmap to Microsoft Managed Desktop'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
-          - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182'
-            title: '[Technisch artikel] Study: Rising Demand for Managed Desktop Services'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
-          - href: 'https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw'
-            title: '[E-book] Delight your company with a modern workplace'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_guide.svg'
-              alt: ''
-  - title: Video's
-    items:
-      - type: paragraph
-        text: Lees meer over de voordelen van Microsoft Managed Desktop van de VP of Technology bij Indiana Pacers.
-      - type: markdown
-        text: '>[!VIDEO https://www.youtube.com/embed/GXVRu49Gmxc]'
-      - type: paragraph
-        text: De General Manager van Microsoft Managed Desktop deelt alle belangrijke kenmerken van de service op de jaarlijkse Ignite-conferentie.
-      - type: markdown
-        text: '>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ksbj]'
+  ms.date: 07/13/2020
+  ms.openlocfilehash: 08ff51dcc2ecc7bb5f7a11616f011964d99287f2
+  ms.sourcegitcommit: 48f3c002678906189bfba079bbf055d67d08a60f
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 08/05/2020
+  ms.locfileid: "46564141"
+landingContent:
+- title: Over Microsoft Managed Desktop
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat is Microsoft Managed Desktop?
+      url: /microsoft-365/managed-desktop/intro/
+    - text: Servicebeschrijving
+      url: /microsoft-365/managed-desktop/service-description
+  - linkListType: get-started
+    links:
+    - text: Voorbereiding
+      url: get-ready/index.md
+    - text: Aan de slag
+      url: get-started/index.md
+    - text: Werken met Microsoft Managed Desktop
+      url: /microsoft-365/managed-desktop/working-with-managed-desktop/
+- title: Nieuwe artikelen en blogberichten
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: '[Roadmap] Your Complete Roadmap to Microsoft Managed Desktop'
+      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482
+    - text: '[Technisch artikel] Study: Rising Demand for Managed Desktop Services'
+      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182
+    - text: '[E-book] Delight your company with a modern workplace'
+      url: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw
+- title: Video's
+  linkLists:
+  - linkListType: video
+    links:
+    - text: Meer informatie over de voordelen van Microsoft Managed Desktop van de technisch directeur van Lloyds Banking Group.
+      url: https://www.youtube.com/watch?v=B9Gqj66qxNo&feature=youtu.be
+    - text: Hoogtepunten van Microsoft Managed Desktop tijdens de jaarlijkse Ignite-conferentie
+      url: /microsoft-365/managed-desktop/service-description
