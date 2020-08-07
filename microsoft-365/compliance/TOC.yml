@@ -335,14 +335,6 @@
           href: restore-an-inactive-mailbox.md
         - name: Een inactief postvak verwijderen
           href: delete-an-inactive-mailbox.md
-    - name: Gegevensbeheer controleren
-      items:
-        - name: Labelactiviteit voor documenten weergeven
-          href: view-label-activity-for-documents.md
-        - name: Gebruik van labels weergeven met labelanalyse
-          href: label-analytics.md
-        - name: De gegevensbeheerrapporten weergeven
-          href: view-the-data-governance-reports.md
     - name: Meer informatie over gegevensbeheer
       items:
         - name: Video's bekijken van het team van Microsoft-gegevensbeheer
