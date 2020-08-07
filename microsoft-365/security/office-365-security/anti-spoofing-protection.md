@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Beheerders kunnen meer informatie krijgen over de functies tegen adresvervalsing die beschikbaar zijn in EOP (Exchange Online Protection) die kunnen beschermen tegen phishing-aanvallen van vervalste afzenders en domeinen.
-ms.openlocfilehash: c28f5cf18a8da3be06906eb1e6b118c856c40066
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b9d8d3b0118083886f2a5d18f64b5d12e1d432af
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209029"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577846"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Beveiliging tegen adresvervalsing in EOP
 
@@ -119,7 +119,7 @@ Zie voor informatie over DMARC [DMARC gebruiken om e-mail in Microsoft 365 te va
 
 ## <a name="reports-of-how-many-messages-were-marked-as-spoofed"></a>Rapporten bekijken over hoeveel berichten zijn gemarkeerd als vervalst
 
-EOP-organisaties kunnen het rapport **Spoof-detecties** gebruiken in het rapportendashboard in het Beveiligings- & Compliance-center. Zie [rapport over het opsporen van spoofing](view-email-security-reports.md#spoof-detections-report)voor meer informatie.
+EOP-organisaties kunnen het rapport **over het opsporen van spoofing** gebruiken in het rapportendashboard in het Beveiligings- en Compliancecentrum. Zie [rapport over het opsporen van spoofing](view-email-security-reports.md#spoof-detections-report)voor meer informatie.
 
 Office 365 ATP-organisatie kan Threat Explorer gebruiken in het Beveiligings- & Compliance-center om informatie over phishing-pogingen te bekijken. Zie voor meer informatie [Dreigingsonderzoek en -antwoord in Microsoft 365](office-365-ti.md).
 
@@ -129,12 +129,12 @@ Mailinglijsten (ook wel discussielijsten genoemd) staan erom bekend dat ze probl
 
 Stel dat Gabriela Laureano (glaureano@contoso.com) geïnteresseerd is in vogels spotten en lid wordt van de mailinglijst vogelspotters@fabrikam.com. Ze stuurt het volgende bericht naar de lijst:
 
-> **Van:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **Aan:** Discussielijst Vogelspotters \<vogelspotters@fabrikam.com\> <br/> 
+> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br/> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br/> 
 **Betreft:** Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <br/><br/>Wil iedereen de bezichtiging zien deze week vanaf de Wageningse Berg?
 
 De mailinglijstserver ontvangt het bericht, wijzigt de inhoud ervan en speelt het opnieuw af voor de leden van de lijst. Het opnieuw afgespeelde bericht heeft hetzelfde Van-adres (glaureano@contoso.com), maar er wordt een label aan de onderwerpregel toegevoegd en er wordt een voettekst onder aan het bericht toegevoegd. Dit type wijziging komt veel voor in mailinglijsten en kan leiden tot fout-positieven voor spoofing.
 
-> **Van:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **Aan:** Discussielijst Vogelspotters \<vogelspotters@fabrikam.com\> <br/> **Betreft:** [VOGELSPOTTERS] Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <br/><br/> Wil iedereen de bezichtiging zien deze week vanaf de Wageningse Berg? <br/><br/> Dit bericht is verzonden naar de Vogelspotters-discussielijst. U kunt zich op elk moment weer afmelden.
+> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br/> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br/> **Betreft:** [VOGELSPOTTERS] Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <br/><br/> Wil iedereen de bezichtiging zien deze week vanaf de Wageningse Berg? <br/><br/> Dit bericht is verzonden naar de Vogelspotters-discussielijst. U kunt zich op elk moment weer afmelden.
 
 Voer de volgende stappen uit, afhankelijk van of u de mailinglijst beheert, om ervoor te zorgen dat mailinglijstberichten anti-spoofingcontroles doorstaan:
 
