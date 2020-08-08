@@ -1,7 +1,7 @@
 ---
-title: Nieuwe Microsoft Edge
+title: Nieuwe Microsoft Edge-apps
 description: ''
-keywords: browser, Microsoft Managed Desktop, Microsoft 365, service, documentatie
+keywords: browser, Microsoft beheerde desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
@@ -10,135 +10,158 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 916ddaea2bc91c56944d4561771c1e807447d604
-ms.sourcegitcommit: 63887d742c59cc660fc85537b335e98a9dc66fbe
+ms.openlocfilehash: 95bf8ca693ac4b45be569870ff732c4053be39d2
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170669"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597495"
 ---
 # <a name="new-microsoft-edge-app"></a>Nieuwe Microsoft Edge-app
 
-De nieuwe [Microsoft Edge-browser](https://www.microsoft.com/edge) biedt prestaties van wereldklasse met meer privacy, meer productiviteit en meer waarde terwijl u bladert. Microsoft Managed Desktop biedt een openbare preview van de implementatie van de nieuwe Edge-browser in uw omgeving.
+De nieuwe [browser Microsoft Edge](https://www.microsoft.com/edge) biedt wereldwijde prestaties met meer privacy, meer productiviteit en meer tijdens het browsen. Microsoft Managed Desktop biedt een openbare preview van de implementatie van de nieuwe Edge-browser in uw omgeving.
 
 ## <a name="initial-deployment"></a>Eerste implementatie
 
-Als u uw Microsoft Managed Desktop-apparaten wilt migreren naar de nieuwe Microsoft Edge-browser, dient u een IT-ondersteuningsticket in via de Microsoft Managed Desktop Portal. We implementeren het Edge Stable-kanaal naar de testgroep wanneer u het ticket indient en implementeren het vervolgens elke 24 uur in elke volgende implementatiegroep. Als u de implementatie wilt onderbreken, dient u een ander ticket in waarin operations wordt gevraagd deze vast te houden.
+Als u uw Microsoft Managed Desktop-apparaten wilt migreren naar de nieuwe Microsoft Edge-browser, kunt u een IT-ondersteunings ticket via de beheerde bureaublad portal van Microsoft opslaan. We implementeren de Edge stabiel kanaal naar de test groep wanneer u het ticket bijwerkt en het vervolgens in elke volgende implementatiegroep elke 24 uur implementeren. Als u de implementatie wilt onderbreken, moet u een ander ticket vragen om te worden bewaard.
+
+Het [bèta-kanaal] ( https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) is ook beschikbaar op aanvraag voor een vertegenwoordiger van de validering binnen uw organisatie. Microsoft Managed Desktop implementeert de toepassing als vereist voor de test en de eerste groepen, zodat al deze gebruikers het bèta-kanaal hebben, naast het stabiele kanaal. Voor alle extra gebruikers die toegang hebben tot het bèta kanaal, voegt u ze toe aan de groep van de **moderne gebruikers van de werkplek** en kunnen ze deze installeren via de bedrijfs portal.
 
 ## <a name="updates-to-microsoft-edge"></a>Updates voor Microsoft Edge
 
-Microsoft Managed Desktop implementeert het [stabiele kanaal](https://docs.microsoft.com/deployedge/microsoft-edge-channels#stable-channel) van Microsoft Edge, dat ongeveer elke zes weken automatisch wordt bijgewerkt. Updates op het Stable-kanaal worden [geleidelijk](https://docs.microsoft.com/deployedge/microsoft-edge-update-progressive-rollout) uitgerold door de Microsoft Edge-productgroep om de beste ervaring voor klanten te garanderen. Het Microsoft Edge Beta-kanaal is momenteel niet beschikbaar.
+Microsoft Managed Desktop implementeert het [stabiele kanaal](https://docs.microsoft.com/deployedge/microsoft-edge-channels#stable-channel) van Microsoft Edge die elke zes weken automatisch wordt bijgewerkt. Updates op het stabiele kanaal worden [progressief](https://docs.microsoft.com/deployedge/microsoft-edge-update-progressive-rollout) uitgeworpen door de productgroep Microsoft Edge om ervoor te zorgen dat ze de beste ervaring voor klanten zijn. 
 
-Wijzig het [microsoft Edge-updatebeleid](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies)niet om ervoor te zorgen dat Microsoft Edge-updates correct worden bijgewerkt.
+Het [bèta-kanaal] ( https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) wordt geïmplementeerd op apparaten in zowel de test als de eerste groepen voor een vertegenwoordiger van de validering binnen de organisatie. Dit kanaal wordt volledig ondersteund en wordt telkens zes weken automatisch bijgewerkt met nieuwe functies.
 
-## <a name="settings-managed-by-microsoft-managed-desktop"></a>Instellingen beheerd door Microsoft Managed Desktop
+U kunt ervoor zorgen dat Microsoft Edge correct wordt bijgewerkt door de [Update beleidsregels](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies)voor Microsoft Edge niet te wijzigen.
 
-Microsoft Managed Desktop heeft een standaardset beleidsregels gemaakt voor Microsoft Edge om de browser te beveiligen. De standaard browserinstellingen zijn als volgt:
+### <a name="microsoft-edge-beta-channel"></a>Microsoft Edge bèta-kanaal
+
+
+## <a name="settings-managed-by-microsoft-managed-desktop"></a>Instellingen die worden beheerd door Microsoft Managed Desktop
+
+Microsoft Managed Desktop heeft een standaardreeks beleidsregels voor Microsoft Edge gemaakt om de browser te beveiligen. De instellingen voor standaardbrowser zijn als volgt:
 
 ### <a name="microsoft-edge-extensions"></a>Microsoft Edge-extensies
 
-Met de beveiligingsbasislijn voor Microsoft Edge op Microsoft Managed Desktop-apparaten worden twee beleidsregels ingesteld om alle Chrome-extensies uit te schakelen en eindgebruikers te beveiligen. Zie Instellingen die u beheert als u extensies in uw omgeving wilt inschakelen en implementeren. 
+Met de beveiligings basis voor Microsoft Edge on Microsoft Managed Desktop devices stelt u twee beleidsregels in om alle Chrome-extensies en veilige eindgebruikers uit te schakelen. Als u extensies wilt inschakelen en implementeren in uw omgeving, raadpleegt u instellingen die u beheert. 
 
-#### <a name="extension-installation-blocklist"></a>Blokkerlijst van extensie-installatie
-**Standaardwaarde:** Alle
+#### <a name="extension-installation-blocklist"></a>Extensies installeren blokkeringslijst geplaatst
+**Standaardwaarde:** Al
 
-Microsoft Managed Desktop stelt dit beleid in om te voorkomen dat Chrome-extensies worden geïnstalleerd op beheerde eindpunten. Er zijn bekende risico's verbonden aan het Chromium-uitbreidingsmodel, waaronder bescherming tegen gegevensverlies, privacy en andere risico's die apparaten in gevaar kunnen brengen. 
+Microsoft Managed Desktop stelt dit beleid in om te voorkomen dat chroom extensies worden geïnstalleerd op beheerde eindpunten. Er is een bekend risico sassociated met het Chroom-uitbreidings model, waaronder beveiliging tegen verlies van gegevensverlies, privacy en andere Risico's waarmee apparaten kunnen worden aangetast. 
 
-#### <a name="allow-user-level-native-messaging-hosts-installed-without-admin-permissions"></a>Native messaging-hosts op gebruikersniveau toestaan (geïnstalleerd zonder beheerdersmachtigingen)
+#### <a name="allow-user-level-native-messaging-hosts-installed-without-admin-permissions"></a>Native berichten hosten op gebruikersniveau toestaan (geïnstalleerd zonder beheerdersmachtigingen)
 
-**Standaardwaarde:** Handicap
+**Standaardwaarde:** Uitgeschakeld
 
-Door dit beleid uit te schakelen, gebruikt Microsoft Edge alleen native messaging-hosts die op systeemniveau zijn geïnstalleerd. Native messaging hosts zijn een onderdeel van Chrome-extensies waarmee de browser kan communiceren met andere delen van het eindpunt van de gebruiker, waardoor een verscheidenheid aan beveiligingsproblemen ontstaat.  
+Door dit beleid uit te schakelen, wordt Microsoft Edge alleen gebruikt voor de native Messaging-hosts die op systeemniveau zijn geïnstalleerd. Hosts voor systeemeigen berichten maken deel uit van chroom extensies waarmee de browser kan communiceren met andere onderdelen van het eindpunt van gebruikers, en maakt diverse beveiligingskwesties.  
 
 ### <a name="secure-sockets-layer-ssl"></a>Secure Sockets Layer (SSL)
 
 #### <a name="minimum-ssl-version"></a>Minimale SSL-versie
 
-**Standaardwaarde:** Minimaal TLS 1.2 ondersteund
+**Standaardwaarde:** Minimale TLS-1,2 ondersteund
 
-Als u de minder veilige TLS 1.1 wilt gebruiken, u dit aanvragen.
+Als u het minder veilige TLS 1,1 wilt gebruiken, kunt u dit aanvragen.
 
-#### <a name="allows-users-to-proceed-from-the-ssl-warning-page"></a>Hiermee kunnen gebruikers verder gaan vanaf de SSL-waarschuwingspagina
+#### <a name="allows-users-to-proceed-from-the-ssl-warning-page"></a>Gebruikers kunnen doorgaan op de pagina SSL-waarschuwing
 
-**Standaardwaarde:** Handicap
+**Standaardwaarde:** Uitgeschakeld
 
-We raden u af deze instelling in te schakelen, omdat gebruikers hiermee sites met SSL-fouten kunnen bezoeken.
+We raden u aan deze instelling niet in te schakelen omdat gebruikers sites kunnen bezoeken met een SSL-fout.
 
-### <a name="microsoft-defender-smart-screen"></a>Microsoft Defender-slim scherm
+### <a name="microsoft-defender-smart-screen"></a>Microsoft Defender slim scherm
 
-#### <a name="configure-microsoft-defender-smartscreen"></a>Microsoft Defender SmartScreen configureren
+#### <a name="configure-windows-defender-smartscreen"></a>Windows Defender SmartScreen configureren
 
-**Standaardwaarde:** Ingeschakeld
+**Standaardwaarde:** Enabled
 
-Standaard ingeschakeld om eindgebruikers te beschermen.
+Standaard ingeschakeld om eindgebruikers te helpen beschermen.
 
-#### <a name="microsoft-defender-smartscreen-prompts-for-sites"></a>Microsoft Defender SmartScreen vraagt naar sites
+#### <a name="windows-defender-smartscreen-prompts-for-sites"></a>Windows Defender SmartScreen vraagt voor sites
 
-**Standaardwaarde:** Ingeschakeld
+**Standaardwaarde:** Enabled
 
-We raden u af deze instelling uit te schakelen, omdat gebruikers hierdoor waarschuwingen kunnen negeren en mogelijk mogelijk schadelijke sites kunnen blijven gebruiken.
+U wordt aangeraden deze instelling uit te schakelen omdat gebruikers waarschuwingen negeren en doorgaan naar potentieel schadelijke sites.
 
-#### <a name="prevent-bypassing-of-microsoft-defender-smartscreen-warnings-about-downloads"></a>Voorkomen dat microsoft Defender SmartScreen-waarschuwingen over downloads worden omzeild
+#### <a name="prevent-bypassing-of-windows-defender-smartscreen-warnings-about-downloads"></a>Negeering van Windows Defender SmartScreen-waarschuwingen over downloads voorkomen
 
-**Standaardwaarde:** Ingeschakeld
+**Standaardwaarde:** Enabled
 
-We raden u af deze instelling uit te schakelen, omdat gebruikers hierdoor waarschuwingen kunnen negeren en niet-geverifieerde downloads kunnen voltooien.
+U wordt aangeraden deze instelling uit te schakelen omdat gebruikers waarschuwingen negeren en niet-geverifieerde downloads voltooien.
 
 ### <a name="adobe-flash"></a>Adobe Flash
 
 #### <a name="default-adobe-flash-setting"></a>Standaardinstelling voor Adobe Flash
 
-**Standaardwaarde:** Handicap
+**Standaardwaarde:** Uitgeschakeld
 
-We raden het gebruik van Flash af vanwege de bijbehorende beveiligingsrisico's. Als u nog steeds processen hebt die afhankelijk zijn van Flash, stelt u het beleid **[Voorforurls voor Plug-in](https://docs.microsoft.com/deployedge/microsoft-edge-policies#pluginsallowedforurls)** ingesteld om Flash in te schakelen voor sites die dit nodig hebben. Als u een toegestane lijst met sites niet bijhouden om Flash te gebruiken, dient u een wijzigingsverzoek in om de waarde te wijzigen in **Klik om af te spelen,** waarmee gebruikers kunnen kiezen wanneer het nodig is om Flash uit te voeren.
+We raden u niet aan gebruik te maken van Flash vanwege bijbehorende beveiligingsrisico's. Als u nog steeds processen hebt die van Flash variëren, stelt u het **[PluginsAllowedForUrls](https://docs.microsoft.com/deployedge/microsoft-edge-policies#pluginsallowedforurls)** -beleid in om Flash voor sites in te schakelen. Als u een toegestane lijst met sites niet kunt bewaren voor gebruik van Flash, moet u een wijzigingsaanvraag indienen om de waarde te wijzigen om **te worden afgespeeld**, zodat gebruikers kunnen kiezen wanneer deze nodig zijn om Flash uit te voeren.
 
-### <a name="password-manager"></a>Wachtwoordmanager
+### <a name="password-manager"></a>Wachtwoordbeheer
 
-#### <a name="enable-saving-passwords-to-the-password-manager"></a>Wachtwoorden opslaan inschakelen voor de wachtwoordmanager
+#### <a name="enable-saving-passwords-to-the-password-manager"></a>Het opslaan van wachtwoorden naar wachtwoordbeheer inschakelen
 
-**Standaardwaarde:** Handicap
+**Standaardwaarde:** Uitgeschakeld
 
-We raden eindgebruikers af om wachtwoorden op hun apparaat op te slaan.
+U wordt aangeraden eindgebruikers niet in staat te stellen om wachtwoorden op hun apparaat op te slaan.
+
+### <a name="internet-explorer-mode-in-microsoft-edge"></a>Internet Explorer-modus in Microsoft Edge
+Met de IE-modus op Microsoft Edge kunt u eenvoudig gebruikmaken van alle sites die uw organisatie nodig heeft in één browser. Met de geïntegreerde toepassing van chroom voor sites die compatibel zijn met de chroom beeldrendering-engine, wordt de Trident MSHTML-engine van Internet Explorer 11 (IE11) gebruikt voor sites die geen of geen afhankelijkheden hebben van de IE-functionaliteit. [Meer informatie] (https://docs.microsoft.com/DeployEdge/edge-ie-mode) 
+
+Microsoft Managed Desktop schakelt standaard de Internet Explorer-modus voor uw apparaten in 
+
+#### <a name="internet-explorer-mode-integration"></a>Integratie van de Internet Explorer-modus
+**Standaardwaarde:** De modus Internet Explorer
+
+Apparaten zijn standaard ingesteld op de modus Internet Explorer, maar u kunt ze instellen voor het openen van sites in een zelfstandig, Internet Explorer 11-venster. Als u dit wilt wijzigen, moet u een ondersteuningsaanvraag indienen.
+
+#### <a name="add-sites-to-the-enterprise-mode-site-list"></a>Sites toevoegen aan de site lijst van de ondernemingsmodus
+Voor sites die u wilt openen in de Internet Explorer-modus, moet u deze opnemen in de [lijst met bedrijfssites](https://docs.microsoft.com/DeployEdge/edge-ie-mode-sitelist). Het onderhoud en de implementatie van de ondernemings site lijst is uw eigen verantwoordelijkheid. Voor meer informatie raadpleegt u [configureren met behulp van het site lijstbeleid Enterprise mode configureren](https://docs.microsoft.com/DeployEdge/edge-ie-mode-policies#configure-using-the-configure-the-enterprise-mode-site-list-policy)
 
 ### <a name="other-settings"></a>Andere instellingen
 
 #### <a name="enable-site-isolation-for-every-site"></a>Site-isolatie inschakelen voor elke site
 
-**Standaardwaarde:** Ingeschakeld
+**Standaardwaarde:** Enabled
 
-Wanneer dit beleid is ingeschakeld, kunnen gebruikers zich niet afmelden voor het standaardgedrag waarin elke site in zijn eigen proces wordt uitgevoerd.
+Wanneer dit beleid is ingeschakeld, kunnen gebruikers niet deelnemen aan het standaardgedrag waarbij de afzonderlijke sites in een eigen proces worden uitgevoerd.
 
 #### <a name="supported-authentication-schemes"></a>Ondersteunde verificatieschema's
 
-**Standaardwaarde:** NTLM, Onderhandelen
+**Standaardwaarde:** NTLM, Negotiate
 
-Microsoft Managed Desktop biedt geen ondersteuning voor basis- of digestverificatieschema's.
+Microsoft Managed Desktop biedt geen ondersteuning voor basisverificatie en verificatieschema's.
 
-#### <a name="automatically-import-another-browsers-data-and-settings-at-first-run"></a>De gegevens en instellingen van een andere browser automatisch importeren bij de eerste run
+#### <a name="automatically-import-another-browsers-data-and-settings-at-first-run"></a>De gegevens en instellingen van een andere browser automatisch importeren bij de eerste uitvoering
 
-**Standaardwaarde:** Alle ondersteunde gegevenstypen en -instellingen automatisch importeren vanuit de standaardbrowser 
+**Standaardwaarde:** Automatisch alle ondersteunde gegevenstypen en instellingen in de standaardbrowser importeren 
 
-Met dit beleid toegepast, slaat de first run experience de sectie importeren over, waardoor de interactie van de gebruiker wordt geminimaliseerd. De browsergegevens van oudere versies van Microsoft Edge worden altijd geruisloos gemigreerd bij de eerste uitvoering, ongeacht deze instelling. 
+Met deze beleidsinstelling wordt de eerste uitvoering van de ervaring overgeslagen en wordt de functie voor het importeren van de gebruikersinteractie overgeslagen. De browser gegevens uit oudere versies van Microsoft Edge worden altijd Silent gemigreerd naar de eerste sessie, ongeacht deze instelling. 
 
 
 ## <a name="settings-you-manage"></a>Instellingen die u beheert
 
-U alle Microsoft Edge-instellingen implementeren die niet eerder zijn beschreven met het profiel Beheerderssjablonen in Microsoft Intune. Zie Microsoft [Edge-beleidsinstellingen configureren met Microsoft Intune](https://docs.microsoft.com/deployedge/configure-edge-with-intune)voor meer informatie. Als u een beleid wilt evalueren dat momenteel niet is opgenomen in de beheersjablonen van Microsoft Edge in Intune, u aangepaste instellingen gebruiken voor Windows 10-apparaten in Intune.
+U kunt alle instellingen voor Microsoft Edge die niet eerder zijn beschreven, implementeren met behulp van het Profielbeheer sjablonen in Microsoft intune. Zie [Microsoft Edge-beleidsinstellingen met Microsoft intune configureren](https://docs.microsoft.com/deployedge/configure-edge-with-intune)voor meer informatie. Als u een beleid wilt beoordelen dat nog niet is opgenomen in de beheersjablonen van Microsoft Edge in intune, kunt u aangepaste instellingen voor Windows 10-apparaten gebruiken in intune.
 
 ### <a name="enabling-specific-chrome-extensions"></a>Specifieke Chrome-extensies inschakelen
 
-De beheersjabloon biedt een instelling voor het implementeren van bepaalde Chrome-extensies met Microsoft Intune. U het vinden in **Computer configuration > Microsoft Edge > Extensions > Allow Specific Extensions to be installed**.
+De sjabloon beheerder biedt een instelling voor het implementeren van bepaalde Chrome-uitbreidingen met Microsoft intune. U vindt het bestand in **computer configuratie > Microsoft Edge > extensies > de mogelijkheid om bepaalde extensies te installeren**.
 
-### <a name="install-extensions-silently"></a>Extensies in stilte installeren
+### <a name="install-extensions-silently"></a>Extensies op de achtergrond installeren
 
-U de beheersjabloon ook gebruiken om Microsoft Edge in te stellen extensies te installeren zonder de gebruiker te waarschuwen. U het vinden in **Computer Configuration > Microsoft Edge > Extensions > Control welke extensies in stilte zijn geïnstalleerd.**
+U kunt ook de beheersjabloon gebruiken om Microsoft Edge te installeren om uitbreidingen te installeren zonder dat u een melding krijgt van de gebruiker. U vindt het bestand in **computer configuratie > Microsoft Edge > extensies > bepalen welke extensies op de achtergrond worden geïnstalleerd**.
 
-### <a name="other-common-enterprise-policies"></a>Ander gemeenschappelijk ondernemingsbeleid
+### <a name="microsoft-edge-update-policies"></a>Updatebeleid voor Microsoft Edge
+U kunt ervoor zorgen dat Microsoft Edge correct wordt bijgewerkt door de [Update beleidsregels](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies)voor Microsoft Edge niet te wijzigen.
 
-Microsoft Edge biedt een groot aantal aanvullende beleidsregels. Dit zijn enkele van de meest voorkomende:
+### <a name="other-common-enterprise-policies"></a>Overig algemeen ondernemingsbeleid
+
+Microsoft Edge biedt een groot aantal extra beleidsregels. Dit zijn enkele van de meest voorkomende versies:
  
-- [Sites configureren in de enterprise-sitelijst en de IE-modus](https://docs.microsoft.com/deployedge/edge-ie-mode-sitelist)
-- [Start-up, startpagina en nieuwe tabpagina-instellingen configureren](https://docs.microsoft.com/deployedge/microsoft-edge-policies#startup-home-page-and-new-tab-page)
-- [Surfgame-instelling configureren](https://docs.microsoft.com/deployedge/microsoft-edge-policies#allowsurfgame)
-- [Proxyserverinstellingen configureren](https://docs.microsoft.com/deployedge/microsoft-edge-policies#proxy-server)
+- [Sites configureren in de lijst met ondernemings sites en de IE-modus](https://docs.microsoft.com/deployedge/edge-ie-mode-sitelist)
+- [Instellingen voor opstarten, startpagina en nieuw tabblad configureren](https://docs.microsoft.com/deployedge/microsoft-edge-policies#startup-home-page-and-new-tab-page)
+- [Instellingen voor een surf spel configureren](https://docs.microsoft.com/deployedge/microsoft-edge-policies#allowsurfgame)
+- [Instellingen voor proxyserver configureren](https://docs.microsoft.com/deployedge/microsoft-edge-policies#proxy-server)
 

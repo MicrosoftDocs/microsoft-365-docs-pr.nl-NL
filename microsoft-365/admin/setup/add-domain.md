@@ -25,13 +25,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
-description: Voeg uw domein toe aan Microsoft 365 in het Microsoft 365-beheercentrum door een DNS-record toe te voegen aan uw DNS-host. De setup wizard begeleidt u door het proces.
-ms.openlocfilehash: ccebd7dd5e78663b7fd1d5318b17dfbc09bd8fb0
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+description: Voeg uw domein toe aan Microsoft 365 in het Microsoft 365-Beheercentrum door een DNS-record toe te voegen aan uw DNS-host. De installatiewizard begeleidt u bij het proces.
+ms.openlocfilehash: 8b70466e5cf82d9cf5be67162263f28ab5bd0d5d
+ms.sourcegitcommit: 20c219332270f1013d48b39773dd0e48dabad9e4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45079723"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46592296"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Een domein toevoegen aan Microsoft 365
 
@@ -44,9 +44,9 @@ ms.locfileid: "45079723"
 
  **[Raadpleeg de veelgestelde vragen over domeinen](domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
- *Als u domeinen wilt toevoegen, wijzigen of **verwijderen, moet** u een **globale beheerder** van een [bedrijfs- of ondernemingsplan zijn.](https://products.office.com/business/office) Deze wijzigingen zijn van invloed op de hele tenant, *aangepaste beheerders* of *gewone gebruikers* kunnen deze wijzigingen niet aanbrengen.*  
+ *Als u domeinen wilt toevoegen, wijzigen of verwijderen, **moet** u een **globale beheerder** van een [zakelijk of Enterprise-abonnement](https://products.office.com/business/office)zijn. Deze wijzigingen zijn van invloed op de hele Tenant, *aangepaste beheerders* of *gewone gebruikers* kunnen deze wijzigingen niet aanbrengen.*  
 
- Volg deze stappen om een domein toe te voegen, in te stellen of door te gaan met het instellen van een domein. 
+ Ga als volgt te werk om het instellen van een domein toe te voegen, in te stellen of door te gaan. 
 
 ::: moniker range="o365-worldwide"
   
@@ -75,28 +75,28 @@ ms.locfileid: "45079723"
 
 ::: moniker-end
     
-2. Ga naar **Settings**de pagina  >  **Domeinen** instellingen. 
+2. Ga naar de pagina **instellingen**  >  **domeinen** . 
 
-3. Selecteer **Domein toevoegen**.
+3. Selecteer **domein toevoegen**.
     
-4. Voer de naam in van het domein dat u wilt toevoegen en selecteer **Volgende**.
+4. Voer de naam in van het domein dat u wilt toevoegen en selecteer **volgende**.
     
-5. Kies hoe u wilt controleren of u eigenaar bent van het domein.
+5. Kies hoe u wilt bevestigen dat u de eigenaar van het domein bent.
     
-    1. Als uw domein is geregistreerd bij GoDaddy of &amp; 11, selecteert u **Aanmelden**  >  **bij volgende** en stelt Microsoft uw records automatisch [in](../get-help-with-domains/domain-connect.md).
+    1. Als uw domein is geregistreerd bij GoDaddy of 1 &amp; 1, selecteert u **Aanmelden**bij  >  **volgende** en [wordt uw records automatisch ingesteld](../get-help-with-domains/domain-connect.md).
     
-    2. U kunt een e-mailbericht met een verificatiecode laten verzenden naar de geregistreerde contactpersoon voor het domein. Als u de e-mail niet herkent of geen toegang hebt tot de e-mail, u de derde optie gebruiken.
+    2. U kunt een e-mailbericht met een verificatiecode laten verzenden naar de geregistreerde contactpersoon voor het domein. Als u het e-mailadres van de e-mail niet kent of als u toegang hebt tot de persoon, kunt u de derde optie gebruiken.
     
-    3. U kunt een TXT-record gebruiken om uw domein te verifiëren. Selecteer dit en selecteer **Volgende** om instructies te zien voor het toevoegen van deze DNS-record aan de website van uw registrar. Het kan tot 30 minuten duren voordat u de record hebt toegevoegd. 
+    3. U kunt een TXT-record gebruiken om uw domein te verifiëren. Selecteer dit en selecteer **volgende** om instructies te zien voor het toevoegen van deze DNS-record aan de website van uw bewaarder. Dit kan 30 minuten duren voordat u de record hebt toegevoegd. 
     
-6. Kies hoe u de DNS-wijzigingen wilt aanbrengen die nodig zijn voor het gebruik van uw domein door Office.
+6. Kies hoe u de DNS-wijzigingen wilt aanbrengen voor uw domein door Office te gebruiken.
     
-    1. Kies **De DNS-records voor mij toevoegen** als u wilt dat Office uw DNS automatisch configureert. 
+    1. Kies **de DNS-records voor mij toevoegen** als u wilt dat Office uw DNS automatisch configureert. 
     
   
-    2. Kies **Ik voeg de DNS-records zelf toe** als u alleen specifieke Microsoft 365-services aan uw domein wilt koppelen of als u dit voor nu wilt overslaan en dit later wilt doen. **Kies deze optie als u precies weet wat u doet.**
+    2. Kies **Ik voeg de DNS-records zelf toe** als u alleen bepaalde microsoft 365-Services wilt toevoegen aan uw domein of als u dit later wilt overslaan. **Kies deze optie als u precies weet wat u doet.**
     
-7. Als u ervoor kiest om *zelf DNS-records toe* te voegen, selecteert u **Volgende** en ziet u een pagina met alle records die u aan uw registrarswebsite moet toevoegen om uw domein in te stellen. 
+7. Als u ervoor kiest om *DNS-records zelf toe te voegen* , selecteert u **volgende** en ziet u een pagina met alle records die u moet toevoegen aan uw registratie website om uw domein in te stellen. 
     
   
   
@@ -106,52 +106,53 @@ ms.locfileid: "45079723"
     
     Als u niet weet wie de DNS-hostingprovider of domeinregistrar voor uw domein is, raadpleegt u [Zoeken naar uw domeinregistrar of DNS-hostingprovider](../get-help-with-domains/find-your-domain-registrar.md).
     
-    Als u later wilt wachten, schuift u naar de onderkant en selecteert u **Deze stap overslaan**.
+    Als u op een later tijdstip wilt wachten, schuift u naar beneden en selecteert u **deze stap overslaan**.
     
-8. Selecteer **Voltooien** - je bent klaar! 
+8. Selecteer **Voltooien** -u bent klaar. 
 
 ## <a name="add-or-edit-custom-dns-records"></a>Aangepaste DNS-records toevoegen of bewerken
 
-Volg de onderstaande stappen om een aangepaste record toe te voegen voor een website of service van derden.
+Voer de onderstaande stappen uit om een aangepaste record toe te voegen voor een website of een service van een andere leverancier.
 
-1. Meld u aan bij het Microsoft-beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+1. Meld u aan bij het Microsoft-Beheercentrum <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
-2. Ga naar **Settings**de pagina   >  **Domeinen** instellingen.
+2. Ga naar de pagina **instellingen**   >  **domeinen** .
 
 3. Selecteer een domein op de pagina **Domeinen**. 
     
-4. Selecteer **aangepaste records**onder **DNS-instellingen**; selecteer vervolgens **Nieuwe aangepaste record**.
+4. Selecteer **aangepaste records**onder **DNS-instellingen**. Selecteer vervolgens **nieuwe aangepaste record**.
 
-5. Selecteer het type DNS-record dat u wilt toevoegen en typ de informatie voor de nieuwe record.
+5. Selecteer het type DNS-record dat u wilt toevoegen en typ de gegevens voor de nieuwe record.
     
 6. Kies **Opslaan**.
 
-## <a name="registrars-with-domain-connect"></a>Registrars met Domain Connect
+## <a name="registrars-with-domain-connect"></a>Registraties met domein verbinding
 
-[Met domain](https://www.domainconnect.org/) Connect-enabled registrars u uw domein toevoegen aan Microsoft 365 in een proces in drie stappen dat minuten duurt. 
+Met de [met de domein Connect](https://www.domainconnect.org/) ingeschakelde registraties kunt u uw domein toevoegen aan microsoft 365 in drie stappen die een paar minuten duren. 
   
-In de wizard bevestigen we alleen dat u eigenaar bent van het domein en vervolgens automatisch de records van uw domein instellen, zodat e-mail wordt geleverd aan Microsoft 365 en andere Microsoft 365-services, zoals Teams, werken met uw domein.
+In de wizard wordt bevestigd dat u de eigenaar van het domein bent en worden de records van uw domein automatisch ingesteld, zodat e-mail wordt bezorgd bij Microsoft 365 en andere Microsoft 365-Services, zoals teams, werken met uw domein.
   
 > [!NOTE]
 > Start de wizard pas nadat u hebt gecontroleerd of pop-ups zijn toegestaan in uw browser.
   
-### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>Domain Connect-registrars integreren met Microsoft 365
+### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>Domein Connect-service registraties integreren met Microsoft 365
 
 - [1 &amp; 1 IONOS](https://www.1and1.com/)
-- [123Reg](https://www.123-reg.co.uk/)
-- [Godaddy](https://www.godaddy.com/)
-- [Wordpress](https://wordpress.com/)
+- [Uitvouwen](https://www.123-reg.co.uk/)
+- [Cloudflare](https://www.cloudflare.com/)
+- [GoDaddy](https://www.godaddy.com/)
+- [WordPress](https://wordpress.com/)
 - [Plesk](https://www.plesk.com/)
-- [Mediatemple](https://mediatemple.net/)
-- SecureServer of WildWestDomains (GoDaddy-resellers met SecureServer DNS-hosting)
-    - [MadDog Domeinen](https://www.maddogdomains.com/)
+- [MediaTemple](https://mediatemple.net/)
+- SecureServer of WildWestDomains (GoDaddy resellers met SecureServer DNS-hosting)
+    - [MadDog-domeinen](https://www.maddogdomains.com/)
     - [CheapNames](https://www.cheapnames.com)
 
 ### <a name="what-happens-to-my-email-and-website"></a>Wat gebeurt er met mijn e-mail en website?
 
-Nadat u klaar bent met instellen, wordt de MX-record voor uw domein bijgewerkt om naar Microsoft 365 te wijzen en alle e-mail voor uw domein begint naar Microsoft 365 te komen. Zorg ervoor dat u gebruikers hebt toegevoegd en stel postvakken in Microsoft 365 in voor iedereen die e-mail op uw domein krijgt!
+Wanneer u klaar bent met de installatie, wordt de MX-record voor uw domein bijgewerkt zodat deze verwijst naar Microsoft 365 en alle e-mailberichten voor uw domein komen te staan bij Microsoft 365. Zorg ervoor dat u gebruikers hebt toegevoegd en postvakken hebt ingesteld in Microsoft 365 voor iedereen die e-mail op uw domein ontvangt.
   
-Als uw bedrijf een website heeft, blijft die gewoon werken. De installatiestappen van Domain Connect hebben geen invloed op uw website.
+Als uw bedrijf een website heeft, blijft die gewoon werken. De installatiestappen voor domein verbinding hebben geen invloed op uw website.
 
 ## <a name="related-articles"></a>Verwante artikelen
 
@@ -163,4 +164,4 @@ Als uw bedrijf een website heeft, blijft die gewoon werken. De installatiestappe
 
 [Uw domein instellen (host-specifieke instructies)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md)
 
-[Hulp krijgen bij domeinen](../get-help-with-domains/get-help-with-domains.md)
+[Hulp vragen bij domeinen](../get-help-with-domains/get-help-with-domains.md)

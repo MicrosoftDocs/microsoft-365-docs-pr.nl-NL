@@ -13,12 +13,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 2bbbe1d1af36333ced4209d889c19e7bad7195d6
-ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
+ms.openlocfilehash: fb1290a0f0b884fdbc630cbfcd10cd1102c8acae
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588226"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597507"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Functies voor bedreigingsbeveiliging configureren in Microsoft 365
 
@@ -156,7 +156,7 @@ Met [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/w
 
 Nadat u de services en functies van bedreigingsbeveiliging hebt geconfigureerd en geïmplementeerd, is de volgende stap het controleren van bedreigings detectie en het uitvoeren van de juiste acties. Uw beste uitgangspunt is het Microsoft 365-Beveiligingscentrum ( [https://security.microsoft.com](https://security.microsoft.com) ), waarin u de beveiliging kunt controleren en beheren in uw Microsoft-identiteiten, gegevens, apparaten, apps en infrastructuur. 
 
-:::image type="content" source="../media/solutions-architecture-center/m365-security-center.png" alt-text="Microsoft 365-beveiligingscentrum":::
+![Microsoft 365-beveiligingscentrum](../media/solutions-architecture-center/m365-security-center.png)
 
 Het Microsoft 365-Beveiligingscentrum is specifiek bedoeld voor beveiligingsbeheerders en beveiligingsbewerkingen teams. In Microsoft 365 Beveiligingscentrum kunt u het volgende doen:
 - Bekijk de algehele beveiligingsstatus van uw organisatie met behulp van [Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score).

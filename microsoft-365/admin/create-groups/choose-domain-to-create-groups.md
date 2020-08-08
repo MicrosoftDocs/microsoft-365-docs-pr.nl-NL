@@ -1,5 +1,5 @@
 ---
-title: Het domein kiezen dat u wilt gebruiken bij het maken van Microsoft 365-groepen
+title: Het domein kiezen dat u wilt gebruiken voor het maken van Microsoft 365-groepen
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -19,27 +19,27 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
-description: 'Lees het domein dat u wilt gebruiken bij het maken van Microsoft 365-groepen door het beleid voor e-mailadressen te configureren met PowerShell. '
-ms.openlocfilehash: 5569f42f15835be02a20166e64ce09a08b146dd7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: 'Leer het domein kiezen dat u wilt gebruiken voor het maken van Microsoft 365-groepen door e-mailadres beleidsregels te configureren met PowerShell. '
+ms.openlocfilehash: 19caa4f4dfdef4895fa58f8bf5c198269844044f
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388207"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597375"
 ---
-# <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Het domein kiezen dat u wilt gebruiken bij het maken van Microsoft 365-groepen
+# <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Het domein kiezen dat u wilt gebruiken voor het maken van Microsoft 365-groepen
 
- Sommige organisaties gebruiken afzonderlijke e-maildomeinen om verschillende onderdelen van het bedrijf te segmenteren. U opgeven welk domein moet worden gebruikt wanneer uw gebruikers Microsoft 365-groepen maken.
+ Sommige organisaties gebruiken afzonderlijke e-maildomeinen om verschillende onderdelen van het bedrijf te segmenteren. U kunt opgeven welk domein moet worden gebruikt wanneer uw gebruikers Microsoft 365-groepen maken.
   
 Als uw organisatie vereist dat gebruikers hun groepen maken in andere domeinen dan het standaard geaccepteerde domein van uw bedrijf, kunt u dit toestaan door met PowerShell e-mailadresbeleidsregels (EAP's) te configureren.
   
-Voordat u de PowerShell-cmdlets uitvoeren, u een module downloaden en installeren waarmee u met uw organisatie praten. Zie [Verbinding maken met Exchange Online via externe PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=785881)
+Voordat u de PowerShell-cmdlets kunt uitvoeren, downloadt en installeert u een module waarmee u kunt communiceren met uw organisatie. Zie [Verbinding maken met Exchange Online via externe PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=785881)
   
 ## <a name="example-scenarios"></a>Voorbeelden van scenario's
 
-Stel dat Contoso.com het primaire domein van uw bedrijf is. Het standaard geaccepteerde domein van uw organisatie is echter service.contoso.com. Dit betekent dat groepen worden gemaakt in service.contoso.com (bijvoorbeeld jimsteam@service.contoso.com).
+Stel dat Contoso.com het primaire domein van uw bedrijf is. Het standaard geaccepteerde domein van uw organisatie is echter service.contoso.com. Dit houdt in dat groepen worden gemaakt in service.contoso.com (bijvoorbeeld jimsteam@service.contoso.com).
   
-Stel dat er ook subdomeinen zijn geconfigureerd in uw organisatie. U wilt ook dat groepen in deze domeinen worden gemaakt:
+Stel dat er ook subdomeinen zijn geconfigureerd in uw organisatie. U wilt dat groepen ook in deze domeinen worden gemaakt:
   
 - students.contoso.com voor studenten
     
@@ -48,11 +48,11 @@ Stel dat er ook subdomeinen zijn geconfigureerd in uw organisatie. U wilt ook da
 In de volgende twee scenario's wordt uitgelegd hoe u dit kunt doen.
   
 > [!NOTE]
-> Als u meerdere EAP's hebt, worden deze in volgorde van prioriteit geëvalueerd. De waarde 1 betekent de hoogste prioriteit. Zodra een EAP overeenkomt, wordt er geen verdere EAP geëvalueerd en adressen die op de groep worden gestempeld, zijn volgens het overeenkomende EAP. > Als er geen EAP's overeenkomen met de opgegeven criteria, wordt de groep ingericht in het standaard geaccepteerde domein van de organisatie. Bekijk [Geaccepteerd domeinen beheren in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=785428) voor meer informatie over het toevoegen van een geaccepteerd domein. 
+> Als u meerdere EAP's hebt, worden deze in volgorde van prioriteit geëvalueerd. De waarde 1 betekent de hoogste prioriteit. Wanneer u EAP-overeenkomsten maakt, worden er geen verdere EAP geëvalueerd en worden de adressen die een stempel voor de groep bevinden, als volgt vastgesteld. Als er > geen Eap's overeenkomen met de opgegeven criteria, wordt de groep ingericht in het standaard geaccepteerd domein van de organisatie. Bekijk [Geaccepteerd domeinen beheren in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=785428) voor meer informatie over het toevoegen van een geaccepteerd domein. 
   
 ### <a name="scenario-1"></a>Scenario 1
 
-In het volgende voorbeeld ziet u hoe u alle Microsoft 365-groepen in uw organisatie in het domein groups.contoso.com inrichten.
+In het volgende voorbeeld ziet u hoe u in het groups.contoso.com-domein alle Microsoft 365-groepen in uw organisatie kunt inrichten.
   
 ```
 New-EmailAddressPolicy -Name Groups -IncludeUnifiedGroupRecipients -EnabledEmailAddressTemplates "SMTP:@groups.contoso.com" -Priority 1
@@ -60,15 +60,15 @@ New-EmailAddressPolicy -Name Groups -IncludeUnifiedGroupRecipients -EnabledEmail
 
 ### <a name="scenario-2"></a>Scenario 2
 
-Stel dat u wilt bepalen in welke subdomeinen Microsoft 365-groepen zijn gemaakt. U wilt dat:
+Stel dat u wilt bepalen in welke subdomeinen Microsoft 365-groepen worden gemaakt. U wilt dat:
   
-- Groepen die zijn gemaakt door studenten (gebruikers die **afdeling** hebben ingesteld op **studenten)** in het students.groups.contoso.com domein. Gebruik deze opdracht:
+- Groepen die zijn gemaakt door studenten (gebruikers voor wie **afdeling** is ingesteld op **studenten**) in het students.groups.contoso.com-domein. Gebruik deze opdracht:
     
   ```
   New-EmailAddressPolicy -Name StudentsGroups -IncludeUnifiedGroupRecipients -EnabledEmailAddressTemplates "SMTP:@students.groups.contoso.com","smtp:@groups.contoso.com" -ManagedByFilter {Department -eq 'Students'} -Priority 1
   ```
 
-- Groepen die zijn gemaakt door faculteitsleden (gebruikers die **de afdeling** hebben ingesteld op faculteit **of e-mailadres faculty.contoso.com)**) in het domein faculty.groups.contoso.com. Gebruik deze opdracht:
+- Groepen die zijn gemaakt door leden van de faculteit (gebruikers met een **afdeling** ingesteld op de **docenten of het e-mailadres Faculty.contoso.com)**) in het Faculty.groups.contoso.com-domein. Gebruik deze opdracht:
     
   ```
   New-EmailAddressPolicy -Name FacultyGroups -IncludeUnifiedGroupRecipients -EnabledEmailAddressTemplates "SMTP:@faculty.groups.contoso.com","smtp:@groups.contoso.com" -ManagedByFilter {Department -eq 'Faculty' -or EmailAddresses -like "*faculty.contoso.com*"} -Priority 2
@@ -103,17 +103,17 @@ Het wijzigen van een EAP heeft geen invloed op de groepen die al zijn ingericht.
   
 ## <a name="hybrid-requirements"></a>Hybride vereisten
 
-Als uw organisatie is geconfigureerd in een hybride scenario, raadpleegt u [Microsoft 365-groepen configureren met on-premises Exchange-hybride](https://go.microsoft.com/fwlink/p/?LinkId=785430) om te controleren of uw organisatie voldoet aan de vereisten voor het maken van Microsoft 365-groepen. 
+Als uw organisatie is geconfigureerd in een hybride scenario, raadpleegt [u Microsoft 365 groepen configureren met on-premises Exchange hybride](https://docs.microsoft.com/exchange/hybrid-deployment/set-up-microsoft-365-groups) om ervoor te zorgen dat uw organisatie voldoet aan de vereisten voor het maken van microsoft 365-groepen. 
   
-## <a name="additional-info-about-using-email-address-policies-groups"></a>Aanvullende informatie over het gebruik van beleidsgroepen voor e-mailadressen:
+## <a name="additional-info-about-using-email-address-policies-groups"></a>Meer informatie over het gebruik van groepen voor e-mailadres beleidsregels:
 
 Er zijn nog een paar dingen die u moet weten:
   
 - De snelheid waarmee groepen worden gemaakt, hangt af van het aantal EAP's dat in uw organisatie is geconfigureerd.
     
-- Beheerders en gebruikers kunnen ook domeinen wijzigen wanneer ze groepen maken.
+- Beheerders en gebruikers kunnen ook domeinen wijzigen bij het maken van groepen.
     
-- De groep gebruikers wordt bepaald met standaardquery's (Gebruikerseigenschappen), die al beschikbaar zijn. Controleer [Filterbare eigenschappen voor de parameter -RecipientFilter](https://go.microsoft.com/fwlink/p/?LinkId=785918) voor ondersteunde filterbare eigenschappen. 
+- De groep gebruikers wordt bepaald met standaardquery's (Gebruikerseigenschappen), die al beschikbaar zijn. Zie [de Befilterbare eigenschappen voor de parameter-RecipientFilter](https://go.microsoft.com/fwlink/p/?LinkId=785918) voor ondersteunde filter-eigenschappen. 
     
 - Als u geen EAP's voor groepen configureert, wordt het standaard geaccepteerd domein voor het maken van groepen geselecteerd.
     
@@ -123,4 +123,4 @@ Er zijn nog een paar dingen die u moet weten:
     
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Een Microsoft 365-groep maken in het beheercentrum](create-groups.md)
+[Een Microsoft 365-groep maken in het Beheercentrum](create-groups.md)
