@@ -4,14 +4,10 @@
   href: ../admin/index.yml
 - name: Uitproberen of kopen
   items:
-    - name: Aanmelden voor de proefversie van Microsoft 365
-      href: sign-up-for-office-365-trial.md
     - name: Microsoft 365 uitproberen of kopen
       href: try-or-buy-microsoft-365.md
     - name: Uw proefabonnement verlengen
       href: extend-your-trial.md
-    - name: Nog een abonnement nemen
-      href: buy-another-subscription.md
     - name: Een invoegtoepassing kopen of bewerken
       href: buy-or-edit-an-add-on.md
     - name: Opslagruimte toevoegen
