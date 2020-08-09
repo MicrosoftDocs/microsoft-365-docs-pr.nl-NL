@@ -12,12 +12,12 @@ ms.custom: ''
 localization_priority: Priority
 description: Ontdek hoe u financiële services met Microsoft 365 kunt overzetten naar een modern samenwerkingsplatform, waarbij gegevens en systemen beveiligd blijven conform de regelgeving
 f1.keywords: NOCSH
-ms.openlocfilehash: ccb6243df9030188129c6f2be7b34f467b09781d
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 24355518219830d815ce027ec75bb72ee0675a32
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521205"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597519"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor Amerikaanse banken en kapitaalmarkten
 
@@ -66,7 +66,7 @@ Teams biedt een samenwerkingsruimte waarin gevoelige klantgegevens veilig kunnen
 
 Een ander algemeen scenario is het gebruik van Teams als 'virtuele gegevensruimte' om veilig samen te werken, waaronder het opslaan en beheren van documenten. Teamleden en syndicaten binnen investeringsbankieren, vermogensbeheer of private-equityfirma's kunnen veilig samenwerken aan een deal of investering. Multifunctionele teams zijn vaak betrokken bij het plannen en uitvoeren van dergelijke deals en de mogelijkheid om veilig gegevens te delen en gesprekken te voeren, is een kernvereiste. Het delen van gerelateerde documenten met externe investeerders is ook een essentiële vereiste. Teams bieden een veilige en volledig controleerbare locatie voor het centraal opslaan, beschermen en delen van investeringsgegevens.
 
-:::image type="content" source="../media/m365cO19-ent-dell-latitude13-5951.jpg" alt-text="Een groep kantoormedewerkers in een vergadering die afbeeldingen op een groot scherm bespreken.":::
+![Een groep kantoormedewerkers in een vergadering bespreekt afbeeldingen op een groot scherm](../media/m365cO19-ent-dell-latitude13-5951.jpg)
  
 ### <a name="teams-improve-collaboration-and-reduce-compliance-risk"></a>Teams: betere samenwerking en minder compliancerisico
 
@@ -156,7 +156,7 @@ Identity Protection gebruikt kennis die Microsoft heeft opgedaan vanuit haar pos
 
 Identity Protection helpt organisaties automatisch te beschermen tegen inbreuk op identiteiten door gebruik te maken van cloudintelligentie met geavanceerde detectie op basis van heuristische functies, gebruikers- en entiteitsgedragsanalyse (UEBA) en machine learning (ML) in het hele Microsoft-ecosysteem.
 
-:::image type="content" source="../media/win17-15021-00-n9.jpg" alt-text="Vijf informatiewerkers kijken toe terwijl een collega een presentatie geeft.":::
+![Vijf IT-medewerkers kijken toe terwijl een collega een presentatie geeft](../media/win17-15021-00-n9.jpg)
  
 ## <a name="identify-sensitive-data-and-prevent-data-loss"></a>Gevoelige gegevens identificeren en verlies van gegevens voorkomen
 Met Microsoft 365 kunnen alle organisaties gevoelige gegevens binnen de organisatie identificeren door een combinatie van krachtige mogelijkheden, waaronder:
@@ -178,7 +178,7 @@ De signalen die worden gegenereerd door en worden ingevoerd in Identity Protecti
 
 Identity Protection helpt organisaties automatisch te beschermen tegen inbreuk op identiteiten door gebruik te maken van cloudintelligentie met geavanceerde detectie op basis van heuristische functies, gebruikers- en entiteitsgedragsanalyse en machine learning in het hele Microsoft-ecosysteem.
 
-:::image type="content" source="../media/clo1718-portrait-006.jpg" alt-text="Een informatiewerker staat afgebeeld voor een groot aantal monitoren.":::
+![Een IT-medewerker staat afgebeeld voor een groot aantal monitoren](../media/clo1718-portrait-006.jpg)
 
 ## <a name="defend-the-fortress"></a>Het bedrijf beschermen
 
@@ -199,7 +199,7 @@ Met [Microsoft Cloud App Security (MCAS)](https://docs.microsoft.com/cloud-app-s
 * Verdachte gebruikersactiviteiten en geavanceerde aanvallen in de hele kill chain identificeren en onderzoeken.
 * Heldere incidentinformatie verstrekken op een eenvoudige tijdlijn voor snelle sortering.
 
-:::image type="content" source="../media/clo1717-corporate-office-021.jpg" alt-text="De kantoormedewerkers komen samen in een kleine vergaderruimte. Eén collega geeft een presentatie.":::
+![De kantoormedewerkers komen samen in een kleine vergaderruimte. Een ervan geeft een presentatie.](../media/clo1717-corporate-office-021.jpg)
  
 ## <a name="govern-data-and-manage-records"></a>Gegevens en records beheren
 
@@ -285,7 +285,7 @@ Financiële instellingen moeten doorgaans een toezichthoudende functie binnen hu
  
 * [FINRA-regel 3120 (controlesysteem voor toezicht)](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3120) vereist dat bedrijven beschikken over een systeem van controlebeleid en procedures voor toezicht (SCP's) waarmee hun schriftelijke toezichtprocedures worden gevalideerd, zoals gedefinieerd door Regel 3110. Bedrijven moeten niet alleen WSP's hebben, maar ook beleidsregels waarmee deze procedures jaarlijks worden getest om te valideren dat de toepasselijke effectenwetgeving en -regelgeving worden nageleefd. Op risico gebaseerde methoden en steekproeven kunnen worden gebruikt om de omvang van de tests te definiëren. Deze regel vereist onder andere dat bedrijven een jaarverslag verstrekken aan hoger management met een overzicht van de testresultaten en belangrijke uitzonderingen of gewijzigde procedures als gevolg van de testresultaten.
 
-:::image type="content" source="../media/wco18-desk-work-002.jpg" alt-text="Een kantoormedewerker bekijkt een grafiek en tabellen op een scherm, terwijl anderen op de achtergrond samenkomen.":::
+![Een kantoormedewerker bekijkt een grafiek en tabellen op een scherm, terwijl anderen op de achtergrond vergaderen.](../media/wco18-desk-work-002.jpg)
  
 ### <a name="communication-compliance"></a>Communicatiecompliance
 
@@ -296,7 +296,7 @@ Communicatiecompliance biedt rapporten waarmee activiteiten voor beleidsbeoordel
 
 Naast het naleven van de FINRA-regels, kunnen organisaties met Communicatiecompliance communicatie controleren op compliance van andere wettelijke vereisten, bedrijfsbeleid en ethische standaarden. Communicatiecompliance biedt ingebouwde classificaties voor bedreiging, intimidatie en scheldwoorden die helpen bij het beperken van fout-positieven tijdens de beoordeling van communicatie, waardoor beoordelaars tijd besparen tijdens het onderzoeks- en herstelproces. Daarnaast kunnen organisaties hiermee risico's verminderen door communicatie te bewaken wanneer ze gevoelige veranderingen ondergaan, zoals fusies en overnames of veranderingen in het leiderschap.
 
-:::image type="content" source="../media/msc16-slalom-004.jpg" alt-text="Een informatiewerker kijkt naar een scherm.":::
+![Een IT-medewerker kijkt aandachtig naar een scherm.](../media/msc16-slalom-004.jpg)
  
 ## <a name="protect-against-data-exfiltration-and-insider-risk"></a>Beschermen tegen data-exfiltratie en interne risico's
 
@@ -312,14 +312,14 @@ Met intern risicobeheer in Microsoft 365 kunnen bijvoorbeeld signalen van de Win
 
 Met intern risicobeheer in Microsoft 365 kunnen organisaties beter interne risico's bewaken en onderzoeken, terwijl organisaties nog steeds kunnen voldoen aan de regelgeving voor gegevensprivacy en de vastgelegde escalatiepaden kan volgen wanneer actie op een hoger niveau is vereist.
 
-:::image type="content" source="../media/clo17-call-center-006.jpg" alt-text="Een medewerker in een callcenter op een werkplek typt en kijkt naar een scherm.":::
+![Een medewerker in een callcenter op een werkplek typt en kijkt naar een scherm.](../media/clo17-call-center-006.jpg)
  
 ### <a name="tenant-restrictions"></a>Tenantbeperkingen
 Organisaties die te maken hebben met gevoelige gegevens en beveiliging heel belangrijk vinden, willen meestal de online resources beheren waartoe gebruikers toegang hebben. Tegelijkertijd willen ze veilige samenwerking mogelijk maken via onlineservices zoals Office 365. Hierdoor valt het niet mee om de Office 365-omgevingen te beheren waartoe gebruikers toegang hebben, omdat niet-zakelijke Office 365-omgevingen kunnen worden gebruikt om kwaadwillig of onbedoeld gegevens van bedrijfsapparaten te exfiltreren. Normaal gesproken beperken organisaties de domeinen of IP-adressen waartoe gebruikers toegang hebben vanaf bedrijfsapparaten. Maar dit werkt niet in een cloudomgeving, waarin gebruikers legitiem toegang moeten hebben tot Office 365-services.
 
 Microsoft 365 biedt tenant[beperkingen](https://docs.microsoft.com/azure/active-directory/manage-apps/tenant-restrictions), waarmee dit probleem kan worden opgelost. U kunt tenantbeperkingen configureren om de toegang van medewerkers tot externe Office 365 Enterprise-tenants met frauduleuze identiteiten (identiteiten die geen deel uitmaken van uw zakelijke adresboek) te beperken. Tegenwoordig zijn tenantbeperkingen van toepassing op de hele tenant, waardoor toegang wordt verleend aan alleen de tenants die voorkomen op de lijst die u configureert. Microsoft blijft aan deze oplossing werken om de controle te verfijnen en de bescherming te verbeteren.
 
-:::image type="content" source="../media/clo1717-corporate-office-001.jpg" alt-text="AFBEELDING":::
+![AFBEELDING](../media/clo1717-corporate-office-001.jpg)
  
 ## <a name="conclusion"></a>Conclusie
 

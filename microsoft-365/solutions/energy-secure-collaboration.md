@@ -13,15 +13,15 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Priority
 description: Ontdek hoe Microsoft 365 energiebedrijven helpt bij de overstap naar een modern samenwerkingsplatform, waarbij gegevens en systemen beveiligd blijven conform de regelgeving
 ms.custom: ''
-ms.openlocfilehash: bb45cf1abf101966514eb4f54090b3ac7cbee645
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: d68615d96f0f7294c16ccb7a4fba9968f4948266
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521015"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597453"
 ---
 # <a name="key-compliance-and-security-considerations-for-the-energy-industry"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor de energiesector
-:::image type="content" source="../media/solution-arch-center/MSC17_global_016.png" alt-text="Illustratie metafoor met een wereldwijde weergave van verschillende industrieën die de cloud gebruiken":::
+![De illustratie is een metafoor voor een wereldwijd perspectief van diverse industrieën die de cloud gebruiken](../media/solution-arch-center/MSC17_global_016.png)
 ## <a name="introduction"></a>Inleiding
 De energiesector voorziet de samenleving van brandstof en kritieke infrastructuur waar mensen dagelijks op vertrouwen. Om de betrouwbaarheid van infrastructuur met betrekking tot bulkstroomsystemen te waarborgen, leggen regelgevende instanties strikte normen op aan organisaties in de energie-industrie. Deze regelgevingsnormen hebben niet alleen betrekking op de opwekking en transmissie van stroom, maar ook op de gegevens en communicatie die essentieel zijn voor de dagelijkse bedrijfsvoering van energiebedrijven. 
 
