@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het maken van een team met een uniek gevoeligheidslabel voor beveiliging.
-ms.openlocfilehash: b16133a02c82c2b2ab0e56a5545e19b160933664
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: f540c1fce1c525ab49037ea27b139f10fac76f33
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560228"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577960"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Een team configureren met beveiligingsisolatie
 
@@ -28,7 +28,7 @@ Dit artikel bevat aanbevelingen en stappen om een privéteam in Microsoft Teams 
 
 Naast de privétoegang beschrijft dit artikel hoe u de bijbehorende SharePoint-site kunt configureren, die u kunt openen vanuit de sectie **Bestanden** van een teamkanaal, voor de extra beveiliging die nodig is om sterk gereguleerde gegevens op te slaan.
 
-De elementen van de configuratie van een team voor sterk gereglementeerde gegevens zijn:
+De elementen van de configuratie van een team met beveiligingsisolatie zijn:
 
 - Een privéteam
 - Extra beveiliging voor de onderliggende SharePoint-site voor het team waarmee:
@@ -42,9 +42,9 @@ De elementen van de configuratie van een team voor sterk gereglementeerde gegeve
 > [!IMPORTANT]
 > Zorg ervoor dat u [gevoeligheidslabels hebt ingeschakeld om de inhoud van Microsoft teams, Office 365-groepen en SharePoint-sites te beveiligen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), voordat u verder gaat met de stappen in dit artikel.
 
-<a name="poster"></a> Zie de [Poster Microsoft-team met beveiligingsisolatie](../downloads/team-security-isolation-poster.pdf) voor een overzicht van twee pagina's van dit scenario.
+<a name="poster"></a> Zie de [Poster Microsoft Teams met beveiligingsisolatie](../downloads/team-security-isolation-poster.pdf) voor een overzicht van twee pagina's van dit scenario.
 
-[![Poster Microsoft-team met beveiligingsisolatie](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
+[![Poster Microsoft Teams met beveiligingsisolatie](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
 
 U kunt deze poster ook downloaden in [PDF-](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) of [PowerPoint-](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pptx) indeling en afdrukken op papier met formaat Letter, Legal of Tabloid (27,9 x 43,2 cm).
 
@@ -226,7 +226,7 @@ Microsoft 365 biedt aanvullende methoden voor het beveiligen van uw inhoud. Over
 
 Nu het team is ingesteld, is het tijd om de ingebruikname van dit team en de extra beveiliging te bevorderen bij de teamleden.
 
-## <a name="train-your-users"></a>Uw gebruikers trainen
+### <a name="train-your-users"></a>Uw gebruikers trainen
 
 Leden van de teamgroep hebben toegang tot het team en alle bijbehorende resources, inclusief chats, vergaderingen en andere apps. Wanneer u werkt met bestanden in de sectie **Bestanden** van een kanaal, moeten leden van het team het gevoeligheidslabel toewijzen aan de bestanden die ze zelf hebben gemaakt.
 

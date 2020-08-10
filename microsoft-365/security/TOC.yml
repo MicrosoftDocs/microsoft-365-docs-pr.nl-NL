@@ -489,28 +489,30 @@
             - name: E-mailstroominzichten in het Beveiligings- en compliancecentrum
               href: ./office-365-security/mail-flow-insights-v2.md
               items:
-                - name: Rapport met e-mailstroomkaart
+                - name: Inzicht in automatisch doorgestuurde berichten
+                  href: ./office-365-security/mfi-auto-forwarded-messages-report.md
+                - name: Inzicht in mogelijke e-maillus oplossen
+                  href: ./office-365-security/mfi-mail-loop-insight.md
+                - name: Inzicht in regels voor langzame e-mailstroom oplossen
+                  href: ./office-365-security/mfi-slow-mail-flow-rules-insight.md
+                - name: E-mailstroomkaart
                   href: ./office-365-security/mfi-mail-flow-map-report.md
-                - name: Inzicht in e-mailstroomstatus van hoofddomein
-                  href: ./office-365-security/mfi-domain-mail-flow-status-insight.md
-                - name: SMTP-verificatierapport voor clients
-                  href: ./office-365-security/mfi-smtp-auth-clients-report.md
-                - name: Inzicht in verzenddomein oplossen
-                  href: ./office-365-security/mfi-sender-domain-insight.md
-                - name: Rapport over niet-uitgevoerde bezorging
-                  href: ./office-365-security/mfi-non-delivery-report.md
+                - name: Inzicht in nieuwe domeinen waarnaar e-mails worden doorgestuurd
+                  href: ./office-365-security/mfi-new-domains-being-forwarded-email.md
+                - name: Inzicht in nieuwe gebruikers die e-mails doorsturen
+                  href: ./office-365-security/mfi-new-users-forwarding-email.md
                 - name: Rapport over niet-geaccepteerd domein
                   href: ./office-365-security/mfi-non-accepted-domain-report.md
-                - name: Uitgaande en binnenkomende e-mailstroom
+                - name: Rapport over niet-uitgevoerde bezorging
+                  href: ./office-365-security/mfi-non-delivery-report.md
+                - name: Inzicht in uitgaande en binnenkomende e-mailstroom
                   href: ./office-365-security/mfi-outbound-and-inbound-mail-flow.md
-                - name: Wachtrijwaarschuwingen en wachtrijen
+                - name: Inzicht in wachtrijen
                   href: ./office-365-security/mfi-queue-alerts-and-queues.md
-                - name: Rapport over automatisch doorgestuurde berichten
-                  href: ./office-365-security/mfi-auto-forwarded-messages-report.md
-                - name: Inzicht in e-maillussen
-                  href: ./office-365-security/mfi-mail-loop-insight.md
-                - name: Inzicht in regels voor langzame e-mailstroom
-                  href: ./office-365-security/mfi-slow-mail-flow-rules-insight.md
+                - name: Inzicht in en rapport over SMTP-verificatieclients
+                  href: ./office-365-security/mfi-smtp-auth-clients-report.md
+                - name: Inzicht in e-mailstroomstatus van hoofddomein
+                  href: ./office-365-security/mfi-domain-mail-flow-status-insight.md
         - name: Beveiligingsoplossingen
           items:
             - name: 'Microsoft-beveiligingsrichtlijnen voor politieke campagnes, non-profitorganisaties en andere wendbare organisaties'
