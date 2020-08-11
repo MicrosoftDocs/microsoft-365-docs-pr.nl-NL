@@ -1,7 +1,7 @@
 ---
-title: Overzicht - Geavanceerde jacht
-description: Meer informatie over geavanceerde jachtquery's in Microsoft 365 en hoe u deze gebruiken om proactief bedreigingen en zwakke punten in uw netwerk te vinden
-keywords: geavanceerde jacht, bedreiging jacht, cyber bedreiging jacht, Microsoft threat protection, Microsoft 365, mtp, m365, zoeken, query, telemetrie, aangepaste detecties, schema, kusto, Microsoft 365, Microsoft Threat Protection
+title: Overzicht-geavanceerde jacht
+description: Meer informatie over geavanceerde zoekopdrachten in Microsoft 365 en hoe u deze kunt gebruiken om bedreigingen en zwakke plekken te vinden in uw netwerk
+keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, aangepaste detectie, schema, kusto, Microsoft 365, Microsoft Threat Protection
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -18,57 +18,57 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c09047648f1d6bb6d68be78315a876be4998e595
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 8dca8cac2c66147975f71c86b91aee7b36c92cf9
+ms.sourcegitcommit: 51f040a4edb8dd52521a5d7b0f7a975986a1af10
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552432"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46608331"
 ---
-# <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Proactief jagen op bedreigingen met geavanceerde jacht in Microsoft Threat Protection
+# <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Ervaring opzeggen met een geavanceerde jacht in Microsoft Threat Protection
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-Geavanceerde jacht is een op query gebaseerde hulpprogramma voor bedreigingsjacht waarmee u tot 30 dagen ruwe gegevens verkennen. U proactief gebeurtenissen in uw netwerk inspecteren om interessante indicatoren en entiteiten te vinden. De flexibele toegang tot gegevens vergemakkelijkt de ongebreidelde jacht op zowel bekende als potentiële bedreigingen.
+Geavanceerd zoeken is een probleem met de hulpmiddelen op basis van een query die u kunt gebruiken om maximaal 30 dagen onbewerkte gegevens te bekijken. U kunt de gebeurtenissen in uw netwerk proactief controleren om interessante indicatoren en entiteiten te vinden. De flexibele toegang tot gegevens bevordert het vergemakkelijken van de jacht voor zowel bekende als potentiële bedreigingen.
 <p></p>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bp7O]
 
-U dezelfde query's voor bedreigingsjacht gebruiken om aangepaste detectieregels te maken. Deze regels worden automatisch uitgevoerd om te controleren op en te reageren op verschillende gebeurtenissen en systeemstatussen, waaronder vermoedelijke inbreukactiviteit en verkeerd geconfigureerde machines.
+U kunt dezelfde aanvals opdrachten gebruiken om aangepaste detectieregels te maken. Deze regels worden automatisch uitgevoerd om diverse gebeurtenissen en systeem statussen te controleren en te beantwoorden, waaronder verdachte inbreuk activiteiten en onjuist geconfigureerde computers.
 
-In het Microsoft 365-beveiligingscentrum ondersteunt geavanceerde jachtquery's die gegevens uit verschillende werkruimten bekijken, waaronder gegevens over apparaten, e-mails, apps en identiteiten van Microsoft Defender ATP, Office 365 ATP, Microsoft Cloud App Security en Azure ATP. Als u geavanceerde jacht wilt gebruiken, [schakelt u Microsoft Threat Protection in.](mtp-enable.md)
+Deze functie is vergelijkbaar met de [geavanceerde jacht in Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview), met uitzondering van het in het microsoft 365-Beveiligingscentrum, met uitzondering van in het microsoft-Beveiligingscentrum, met uitzondering van gegevens over apparaten, e-mailberichten, apps en identiteiten uit Microsoft Defender ATP, Office 365 ATP, Microsoft Cloud app Security en Azure ATP Als u de geavanceerde jacht wilt gebruiken, [schakelt u Microsoft Threat Protection in](mtp-enable.md).
 
 ## <a name="get-started-with-advanced-hunting"></a>Aan de slag met geavanceerde jacht
 
-We raden aan om verschillende stappen te doorlopen om snel aan de slag te gaan met geavanceerde jacht.
+We raden u aan meerdere stappen uit te voeren om snel aan de slag te gaan met de geavanceerde jacht.
 
-| Leerdoel | Beschrijving | Resource |
+| Leer doel | Beschrijving | Materialen |
 |--|--|--|
-| **Krijg een gevoel voor de taal** | Geavanceerde jacht is gebaseerd op [Kusto query taal,](https://docs.microsoft.com/azure/kusto/query/)ondersteuning van dezelfde syntaxis en operators. Begin met het leren van de querytaal door uw eerste query uit te voeren. | [Overzicht van querytaal](advanced-hunting-query-language.md) |
-| **Meer informatie over het gebruik van de queryresultaten** | Meer informatie over grafieken en verschillende manieren waarop u uw resultaten bekijken of exporteren. Ontdek hoe u query's snel aanpassen, inzoomen op rijkere informatie en reactieacties uitvoeren. | - [Werken met queryresultaten](advanced-hunting-query-results.md)<br>- [Actie ondernemen op queryresultaten](advanced-hunting-take-action.md) |
-| **Meer informatie over het schema** | Krijg een goed inzicht op hoog niveau in de tabellen in het schema en hun kolommen. Zo u bepalen waar u gegevens moet zoeken en hoe u uw query's construeren. | [Schemaverwijzing](advanced-hunting-schema-tables.md) |
-| **Vooraf gedefinieerde query's gebruiken** | Verken verzamelingen van vooraf gedefinieerde query's die verschillende scenario's voor bedreigingsjacht bestrijken. | - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)<br>- [Ga jagen](advanced-hunting-go-hunt.md) |
-| **Query's optimaliseren** | Lees hoe u efficiënte query's en query's maakt die gegevens van e-mails en apparaten combineren. | - [Aanbevolen procedures voor query's](advanced-hunting-shared-queries.md) <br>- [Hunt op verschillende apparaten en e-mails](advanced-hunting-best-practices.md) |
-| **Aangepaste detectieregels maken** | Begrijp hoe u geavanceerde jachtquery's gebruiken om waarschuwingen te activeren en reactieacties automatisch toe te passen. | - [Overzicht van aangepaste detecties](custom-detections-overview.md)<br>- [Aangepaste detectieregels](custom-detection-rules.md) |
+| **Zorg voor de taal** | De geavanceerde jacht is gebaseerd op de [querytaal Kusto](https://docs.microsoft.com/azure/kusto/query/), die dezelfde syntaxis en operatoren ondersteunt. Begin met het leren van de querytaal door uw eerste query uit te voeren. | [Overzicht van query taal](advanced-hunting-query-language.md) |
+| **Meer informatie over het gebruik van de queryresultaten** | Meer informatie over grafieken en verschillende manieren waarop u uw resultaten kunt weergeven of exporteren. Ontdek hoe u snel aan de slag kunt met query's, inzoomen om meer informatie te verkrijgen en antwoord acties te ondernemen. | - [Werken met queryresultaten](advanced-hunting-query-results.md)<br>- [Actie ondernemen op queryresultaten](advanced-hunting-take-action.md) |
+| **Meer informatie over het schema** | U kunt beter inzicht krijgen in de tabellen in het schema en de bijbehorende kolommen. Dit helpt u bij de locatie van de zoekresultaten en de manier waarop u query's opstelt. | [Overzicht van schema](advanced-hunting-schema-tables.md) |
+| **Voor gebruik van vooraf gedefinieerde query's** | Verken verzamelingen van vooraf gedefinieerde query's met verschillende scenario's voor bedreigings jacht. | - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)<br>- [Ga naar zoeken](advanced-hunting-go-hunt.md) |
+| **Query's optimaliseren** | Meer informatie over hoe u efficiënte query's en query's maakt waarmee u gegevens uit e-mailberichten en apparaten kunt combineren. | - [Aanbevolen procedures voor query's](advanced-hunting-shared-queries.md) <br>- [Over apparaten en e-mailberichten doorzoeken](advanced-hunting-best-practices.md) |
+| **Aangepaste detectieregels maken** | Meer informatie over hoe u geavanceerde zoekopdrachten kunt gebruiken om waarschuwingen te activeren en antwoord acties automatisch toe te passen. | - [Overzicht van aangepaste detectie](custom-detections-overview.md)<br>- [Aangepaste detectieregels](custom-detection-rules.md) |
 
 ## <a name="get-access"></a>Toegang krijgen
-Als u geavanceerde jacht- of andere [Microsoft Threat Protection-mogelijkheden](microsoft-threat-protection.md) wilt gebruiken, moet u een passende rol krijgen toegewezen in Azure AD. Houd er rekening mee dat uw toegang tot eindpuntgegevens wordt beïnvloed door op rollen gebaseerde toegangscontrole-instellingen in Microsoft Defender ATP. [Lees meer over het beheren van toegang tot Microsoft Threat Protection](mtp-permissions.md)
+Als u de geavanceerde jacht of andere mogelijkheden van [Microsoft Threat Protection](microsoft-threat-protection.md) wilt gebruiken, moet u beschikken over de juiste rol in azure AD. Houd er rekening mee dat uw toegang tot eindpuntgegevens wordt beïnvloed door de instellingen voor toegangsbeheer op basis van rollen in Microsoft Defender ATP. [Lees meer over het beheren van de toegang tot Microsoft Threat Protection](mtp-permissions.md)
 
-## <a name="data-freshness-and-update-frequency"></a>Versheid van gegevens en updatefrequentie
-Geavanceerde jachtgegevens kunnen worden onderverdeeld in twee verschillende typen, elk verschillend geconsolideerd.
+## <a name="data-freshness-and-update-frequency"></a>Gegevens versheid en frequentie bijwerken
+Geavanceerde jacht-gegevens kunnen worden ingedeeld in twee verschillende typen, elk samengevoegd.
 
-- **Gebeurtenis- of activiteitsgegevens** : vult tabellen over waarschuwingen, beveiligingsgebeurtenissen, systeemgebeurtenissen en routinebeoordelingen. Geavanceerde jacht ontvangt deze gegevens vrijwel onmiddellijk nadat de sensoren die ze verzamelen ze met succes naar de bijbehorende cloudservices sturen. U bijvoorbeeld beginnen met het opvragen van gebeurtenisgegevens van gezonde sensoren op werkstations of domeincontrollers, vrijwel direct nadat ze beschikbaar zijn op Microsoft Defender ATP en Azure ATP.
-- **Entiteitsgegevens** : vult tabellen met geconsolideerde informatie over gebruikers en apparaten. Deze gegevens zijn afkomstig van zowel relatief statische gegevensbronnen, zoals Active Directory-vermeldingen, als dynamische bronnen, zoals gebeurtenislogboeken. Om nieuwe gegevens te verstrekken, worden tabellen elke 15 minuten bijgewerkt met nieuwe informatie, waarbij rijen worden toegevoegd die mogelijk niet volledig zijn ingevuld. Elke 24 uur worden gegevens geconsolideerd om een record in te voegen dat de nieuwste, meest uitgebreide gegevensset over elke entiteit bevat.
+- **Gegevens uit een gebeurtenis of activiteit** : hierin worden tabellen over waarschuwingen, beveiligingsgebeurtenissen, systeemgebeurtenissen en routine beoordelingen ingevuld. De geavanceerde jacht ontvangt deze gegevens bijna direct na de sensoren die de sensoren met succesvol verzamelen naar de bijbehorende cloudservices. U kunt bijvoorbeeld een query uitvoeren op gegevens van een evenement met een goede sensoren op een werkstation of domeincontroller bijna direct nadat deze beschikbaar zijn in Microsoft Defender ATP en Azure ATP.
+- **Entiteitsgegevens** : tabellen met geconsolideerde informatie over gebruikers en apparaten vullen. Deze gegevens zijn afkomstig uit niet-tamelijk statische gegevensbronnen, zoals Active Directory-vermeldingen en dynamische bronnen, zoals gebeurtenislogboeken. Als u nieuwe gegevens wilt weergeven, worden tabellen elke 15 minuten bijgewerkt met nieuwe gegevens, waarbij het toevoegen van rijen die mogelijk niet volledig zijn ingevuld, wordt toegevoegd. Elke 24 uur worden gegevens samengevoegd om een record in te voegen die de meest recente gegevensverzameling bevat voor elke entiteit.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Werken met queryresultaten](advanced-hunting-query-results.md)
-- [Actie ondernemen op queryresultaten](advanced-hunting-take-action.md)
+- [Actie ondernem op queryresultaten](advanced-hunting-take-action.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)
+- [Zoeken naar bedreigingen op meerdere apparaten en e-mailberichten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)
 - [Overzicht van aangepaste detectie](custom-detections-overview.md)

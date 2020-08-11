@@ -1,5 +1,5 @@
 ---
-title: Een inhoudscentrum maken (Voorbeeld)
+title: Een inhouds centrum maken (preview)
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -8,20 +8,20 @@ audience: admin
 ms.topic: article
 ms.service: ''
 search.appverid: ''
-localization_priority: Normal
+localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
-description: Meer informatie over het maken van een inhoudscentrum.
-ms.openlocfilehash: ced47f8029079910479dd9aa5c43b39870a56aea
-ms.sourcegitcommit: ea5e2f85bd6b609658545b120c7e08789b9686fd
+description: Leer hoe u een inhouds centrum maakt.
+ms.openlocfilehash: 5332ffa195519aebd5ae8dd2c26d7d62fd9b3267
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46537223"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612748"
 ---
-# <a name="create-a-content-center-preview"></a>Een inhoudscentrum maken (Voorbeeld)
+# <a name="create-a-content-center-preview"></a>Een inhouds centrum maken (preview)
 
 > [!Note] 
-> De inhoud in dit artikel is voor Project Cortex Private Preview. [Lees meer over Project Cortex](https://aka.ms/projectcortex).</br>
+> De inhoud in dit artikel is bedoeld voor project cortex private preview. [Lees meer over project cortex](https://aka.ms/projectcortex).</br>
 
 </br>
 
@@ -29,30 +29,30 @@ ms.locfileid: "46537223"
 
 </br>
 
-Als u modellen voor het begrijpen van documenten wilt maken en beheren, hebt u eerst een inhoudscentrum nodig. Het inhoudscentrum is de interface voor het maken van modellen en bevat ook informatie over welke documentbibliotheken gepubliceerde modellen zijn toegepast.</br>
+Voor het maken en beheren van documenten met modellen hebt u eerst een inhouds centrum nodig. Het inhouds centrum is de interface voor het maken van modellen en bevat ook informatie over de publicatie van documentbibliotheken gepubliceerde modellen.</br>
 
    ![Een documentbibliotheek selecteren](../media/content-understanding/content-center-page.png)</br>
 
-Tijdens de [installatie](set-up-content-understanding.md)wordt een eerste inhoudscentrum gemaakt, maar een SharePoint-beheerder kan ervoor kiezen om indien nodig extra te maken. Hoewel een enkel inhoudscentrum mogelijk prima is voor omgevingen waarin u een oprol van alle modelactiviteit wilt zien, u extra services hebben als u meerdere afdelingen binnen uw organisatie hebt die mogelijk verschillende behoeften en vereisten voor hun modellen hebben.
+Er wordt een initieel inhouds centrum gemaakt tijdens de [installatie](set-up-content-understanding.md), maar een SharePoint-beheerder kan desgewenst extra bestanden maken. Hoewel een bepaald inhouds centrum geschikt is voor omgevingen waarvan u een uitvouwing van alle model activiteiten wilt zien, kunt u deze mogelijk extra weergeven als uw organisatie meerdere afdelingen binnen uw organisatie heeft die verschillende behoeften en vereisten voor hun modellen hebben.
 
-Een SharePoint-beheerder kan een inhoudscentrumsite maken zoals elke [andere SharePoint-site](https://docs.microsoft.com/sharepoint/create-site-collection) zou maken via een sitesjabloon.
+Een SharePoint-beheerder kan een inhouds centrum site maken alsof deze een [andere SharePoint-site maakt](https://docs.microsoft.com/sharepoint/create-site-collection) , via een sitesjabloon.
 
-Ga als een nieuw inhoudscentrum:
+Een nieuw inhouds centrum maken:
 
-1. Ga in het Microsoft 365-beheercentrum naar het SharePoint-beheercentrum.
-2. Selecteer in het SharePoint-beheercentrum onder **Sites**de optie **Actieve sites**.
-3. Klik op de pagina **Actieve sites** op **Maken**en selecteer **Vervolgens Andere opties**.
-4. Selecteer **inhoudscentrum**in het menu Kies een **sjabloon** .
-5. Geef voor de nieuwe site een **sitenaam,** **primaire beheerder**en een **taal**op .</br>
+1. Ga in het Microsoft 365-Beheercentrum naar het SharePoint-Beheercentrum.
+2. Selecteer in het SharePoint-Beheercentrum, onder **sites**, de optie **actieve sites**.
+3. Klik op de pagina **actieve sites** op **maken**en selecteer vervolgens **andere opties**.
+4. Selecteer in het menu **een sjabloon kiezen** de optie **inhouds centrum**.
+5. Geef voor de nieuwe site een **sitenaam**, **primaire beheerder**en een **taal**op.</br>
 
 > [!Note] 
-> U een inhoudscentrumsite selecteren die u wilt weergeven in een van de beschikbare talen, maar houd er rekening mee dat momenteel alleen modellen kunnen worden gemaakt voor Engelse bestanden.</br>
+> U kunt een inhouds centrum site selecteren om weer te geven in een van de beschikbare talen, maar houd er rekening mee dat momenteel alleen voor Engelse bestanden kunnen worden gemaakt.</br>
 
-6. Klik **op Voltooid**.
+6. Klik op **gereed**.
 
-### <a name="give-access-to-additional-users"></a>Geef toegang tot extra gebruikers
+### <a name="give-access-to-additional-users"></a>Toegang verlenen aan extra gebruikers
  
-Nadat de site is gemaakt, u extra gebruikers toegang geven tot de site via het standaard [model voor machtigingen voor SharePoint-site.](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions)
+Nadat de site is gemaakt, kunt u extra gebruikers toegang geven tot de site via het standaard [model van SharePoint-site machtigingen](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions).
 
 
 
@@ -60,10 +60,10 @@ Nadat de site is gemaakt, u extra gebruikers toegang geven tot de site via het s
 
 ## <a name="see-also"></a>Zie ook
 [Een classificatie maken](create-a-classifier.md)</br>
-[Een afzuiger maken](create-an-extractor.md)</br>
-[Een inhoudscentrum maken](create-a-content-center.md) 
- [Overzicht van documentbegrip](document-understanding-overview.md)</br>
-[Een formulierverwerkingsmodel maken](create-a-form-processing-model.md)</br>
+[Een extractor maken](create-an-extractor.md)</br>
+[Een inhouds centrum maken](create-a-content-center.md) 
+ [Overzicht van document](document-understanding-overview.md)</br>
+[Een formulier verwerkings model maken](create-a-form-processing-model.md)</br>
 [Een model toepassen](apply-a-model.md)    
 
 

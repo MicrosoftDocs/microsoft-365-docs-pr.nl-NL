@@ -1,5 +1,5 @@
 ---
-title: Gebruikersmachtigingen geven aan het onderwerpcentrum (Voorbeeld)
+title: Gebruikersmachtigingen verlenen voor het onderwerp (preview)
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -8,56 +8,56 @@ audience: admin
 ms.topic: article
 ms.service: ''
 search.appverid: ''
-localization_priority: Normal
+localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
-description: Meer informatie over het machtigen van gebruikers om taken uit te voeren in het Onderwerpcentrum
-ms.openlocfilehash: 0e4e05d0addfdb754459e67acfdff3f61c7c812e
-ms.sourcegitcommit: ea5e2f85bd6b609658545b120c7e08789b9686fd
+description: Informatie over het verlenen van gebruikersmachtigingen voor taken in het onderwerp centrum
+ms.openlocfilehash: 2b7c745146b0386ff7f8bc2dcaf126a530b77598
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46537361"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612570"
 ---
-# <a name="give-user-permissions-to-the-topic-center-preview"></a>Gebruikersmachtigingen geven aan het onderwerpcentrum (Voorbeeld)
+# <a name="give-user-permissions-to-the-topic-center-preview"></a>Gebruikersmachtigingen verlenen voor het onderwerp (preview)
 
 > [!Note] 
-> De inhoud in dit artikel is voor Project Cortex Private Preview. [Meer informatie over Project Cortex](https://aka.ms/projectcortex) 
+> De inhoud in dit artikel is bedoeld voor project cortex private preview. [Meer informatie over project cortex](https://aka.ms/projectcortex) 
 
-Om in het onderwerpcentrum te werken, moet u over de vereiste machtigingen beschikken. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens [het instellen van kennisbeheer](set-up-knowledge-network.md)of nieuwe gebruikers kunnen achteraf worden toegevoegd.
+Om in het onderwerp te kunnen werken, moet u beschikken over de vereiste machtigingen. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens het instellen van een [kennisbeheer](set-up-knowledge-network.md), of nieuwe gebruikers kunnen later worden toegevoegd.
 
-Gebruikers van het onderwerpcentrum kunnen twee sets machtigingen krijgen:
+De gebruikers van het onderwerp centrum kunnen twee groepen machtigingen krijgen:
 
-- **Onderwerpen maken en bewerken:** Nieuwe onderwerpen maken of onderwerpinhoud bijwerken, zoals de beschrijving, documenten en geassocieerde personen
-- **Onderwerpen beheren:** gebruik het dashboard voor onderwerpbeheer om onderwerpen in de hele organisatie te bekijken. Gebruikers kunnen acties uitvoeren, zoals het bevestigen en afwijzen van onbevestigde onderwerpen.
+- **Onderwerpen maken en bewerken**: nieuwe onderwerpen maken of inhoud van een onderwerp bijwerken, zoals de beschrijving, documenten en gekoppelde personen
+- **Onderwerpen beheren**: gebruik het dashboard van het onderwerp-beheer om de onderwerpen binnen de organisatie te reviseren. Gebruikers kunnen acties uitvoeren, zoals het bevestigen en weigeren van niet-bevestigde onderwerpen.
 
-Een gebruiker kan beide sets machtigingen krijgen, of slechts één indien nodig. 
+Een gebruiker kan beide sets machtigingen krijgen, of slechts één, indien nodig. 
 
-Als een gebruiker tijdens de installatie geen machtigingen krijgt, kan een beheerder de volgende machtigingen geven aan gebruikers via het Microsoft 365-beheercentrum:
+Als een gebruiker geen machtigingen heeft, kan een beheerder de volgende gebruikersmachtigingen geven via het Microsoft 365-Beheercentrum:
 
-Ga als een gebruiker toestemmingen geven voor het beheren van onderwerpen:
+U geeft als volgt een gebruikersmachtigingen voor het beheren van onderwerpen:
 
-1. Selecteer in het Microsoft 365-beheercentrum in het navigatiedeelvenster de optie **Instellen.**
-2. Selecteer in de sectie **Organisatorische kennis** onder **Mensen verbinden met kennis**de optie **Weergave**.
-3. Selecteer **op** de pagina Mensen verbinden met kennis de optie **Beheren.**
-4. Selecteer op de pagina **Kennisnetwerk** het tabblad **Onderwerpmachtigingen.**
-5. Selecteer **Weergave**op het tabblad **Onderwerpmachtigingen** onder **Wie onderwerpen kan beheren**.
-6.  Voeg de gebruiker op de pagina **Wie onderwerpen kan beheren** toe aan het vak Alleen geselecteerde gebruikers of **beveiligingsgroepen.**
-7. Nadat u uw gebruiker hebt toegevoegd, selecteert u **Toevoegen**.
-3. Selecteer **Weergave**onder wie **onderwerpen kan maken en bewerken.**
-4. Voeg de gebruiker toe aan het vak **Alleen geselecteerde gebruikers of beveiligingsgroepen.**
+1. Selecteer in het Microsoft 365-Beheercentrum in het navigatiedeelvenster de optie **instellen**.
+2. Selecteer in de sectie **kennis van organisatie** onder **personen aan kennis verbinden**de optie **weergeven**.
+3. Selecteer op de pagina **personen verbinden met kennis** de optie **beheren**.
+4. Selecteer op de pagina **Knowledge-netwerk** het tabblad **machtigingen voor onderwerp** .
+5. Selecteer op het tabblad **machtigingen voor onderwerp** onder **wie kan de onderwerpen beheren**de optie **weergeven**.
+6.  Voeg op de pagina **wie kan onderwerpen beheren** de gebruiker toe aan het vak **alleen geselecteerde gebruikers of beveiligingsgroepen** .
+7. Selecteer **toevoegen**nadat u de gebruiker hebt toegevoegd.
+3. Selecteer **weergave**onder de optie **wie kan een onderwerp maken en bewerken**.
+4. De gebruiker toevoegen aan het vak **alleen geselecteerde gebruikers of beveiligingsgroepen** .
 5. Kies **Toevoegen**.
 
-Ga als een gebruiker toestemming geeft om onderwerpen te maken en te bewerken:
+U geeft als volgt een gebruikersmachtigingen voor het maken en bewerken van onderwerpen:
 
-1. Selecteer Op het tabblad **Onderwerpmachtigingen** onder **Wie onderwerpen kan maken en bewerken**de optie **Weergave**.
-2. Voeg de gebruiker toe aan het vak **Alleen geselecteerde gebruikers of beveiligingsgroepen.**
+1. Selecteer op het tabblad **onderwerp machtigingen** onder **wie kan onderwerpen maken en bewerken**de optie **weergeven**.
+2. De gebruiker toevoegen aan het vak **alleen geselecteerde gebruikers of beveiligingsgroepen** .
 3. Kies **Toevoegen**.
 
 
 
 ## <a name="see-also"></a>Zie ook
   
-[Werken met onderwerpen in het Onderwerpcentrum](work-with-topics.md)
+[Werken met onderwerpen in het onderwerp centrum](work-with-topics.md)
 
 
 

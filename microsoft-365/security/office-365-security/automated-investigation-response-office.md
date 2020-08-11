@@ -1,5 +1,5 @@
 ---
-title: Overzicht van geautomatiseerd onderzoek en respons (AIR)
+title: Automatisch onderzoek en antwoord (lucht) overzicht
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -13,130 +13,130 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-description: Krijg een overzicht van geautomatiseerde onderzoeks- en reactiemogelijkheden in Office 365 Advanced Threat Protection Plan 2.
+description: Lees een overzicht van geautomatiseerde functies voor onderzoek en antwoorden in Office 365 Advanced Threat Protection-abonnement 2.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: d62d24a8f4cbd0541099ece91e46a23d3fbc786c
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: c977aa3f57c981cdc29037ca6f9f7803b7accd03
+ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208909"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46601895"
 ---
-# <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-365"></a>Een overzicht van geautomatiseerd onderzoek en reactie (AIR) in Microsoft 365
+# <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-365"></a>Een overzicht van automatisch onderzoek en antwoord (lucht) in Microsoft 365
 
-Als beveiligingswaarschuwingen worden geactiveerd, is het aan uw beveiligingsteam om deze waarschuwingen te bekijken en stappen te ondernemen om uw organisatie te beschermen. Soms kunnen beveiligingsteams zich overweldigd voelen door het aantal waarschuwingen dat wordt geactiveerd. Geautomatiseerde mogelijkheden voor onderzoek en respons (AIR) kunnen helpen. AIR stelt uw beveiligingsteam in staat om efficiënter en effectiever te werken. Air-mogelijkheden omvatten geautomatiseerde onderzoeksprocessen in reactie op bekende bedreigingen die vandaag de dag bestaan. De juiste herstelacties wachten op goedkeuring, zodat uw beveiligingsteam kan reageren op gedetecteerde bedreigingen. 
+Wanneer beveiligingswaarschuwingen worden geactiveerd, kunt u het beste uw beveiligingsteam raadplegen met deze waarschuwingen en de stappen ondernemen om uw organisatie te beveiligen. Soms kunnen beveiligingsactiviteiten teams overspoeld zijn door het volume van waarschuwingen dat wordt geactiveerd. De mogelijkheden voor automatisch onderzoek en antwoord (lucht) kunnen helpen. AIR zorgt ervoor dat uw beveiligingsteam efficiënter en effectiever functioneert. De lucht mogelijkheden zijn geautomatiseerd onderzoek processen in antwoord naar bekende bedreigingen die vandaag zijn. Juiste herstelacties wachten op goedkeuring, zodat het team van uw beveiligingsactiviteiten kan reageren op gedetecteerde bedreigingen. 
 
-Dit artikel geeft een overzicht van AIR. Wanneer u klaar bent om aan de slag te gaan met AIR, [raadpleegt u Automatisch bedreigingen onderzoeken en erop reageren.](office-365-air.md)
+Dit artikel bevat een overzicht van lucht. Wanneer u klaar bent om aan de slag te gaan met lucht, raadpleegt u [automatisch onderzoek en reageren op bedreigingen](office-365-air.md).
 
-## <a name="at-a-high-level"></a>Op een hoog niveau
+## <a name="at-a-high-level"></a>Met een hoog niveau
 
-Als waarschuwingen worden geactiveerd, worden beveiligingsplaybooks van kracht. Afhankelijk van de situatie kan een [geautomatiseerd onderzoeksproces](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) beginnen. Tijdens en na een geautomatiseerd onderzoek worden [herstelacties](air-remediation-actions.md) aanbevolen. Er worden niet automatisch acties uitgevoerd in Office 365 Advanced Threat Protection. Uw beveiligingsteam controleert en [keurt vervolgens elke herstelactie goed of weigert](air-review-approve-pending-completed-actions.md)deze , en wanneer dit is gedaan, wordt elk onderzoek voltooid. Al deze activiteiten worden bijgehouden en zichtbaar in het Security & Compliance Center (zie [Details van een onderzoek weergeven).](air-view-investigation-results.md#view-details-of-an-investigation)
+Wanneer waarschuwingen worden geactiveerd, wordt beveiligings playbooks naar kracht. Afhankelijk van de situatie kan een [proces voor automatisch onderzoek](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) beginnen. Tijdens en na een automatisch onderzoek worden [herstelacties](air-remediation-actions.md) aanbevolen. Er worden geen acties automatisch uitgevoerd in Office 365 Advanced Threat Protection. Uw beveiligingsactiviteiten team reviseert en [keurt vervolgens elke herstelactie goed en keurt](air-review-approve-pending-completed-actions.md)ze en wanneer dit is gebeurd, wordt elk onderzoek uitgevoerd. Al deze activiteiten worden bijgehouden en weergegeven in de beveiligings & nalevings centrum (Zie [Details van een onderzoek weergeven](air-view-investigation-results.md#view-details-of-an-investigation)).
 
-In de volgende secties vindt u meer informatie over waarschuwingen, beveiligingsplaybooks en voorbeelden van AIR in actie.
+In de volgende secties vindt u meer informatie over waarschuwingen, beveiligings playbooks en voorbeelden van lucht in actie.
 
 ## <a name="alerts"></a>Waarschuwingen
 
-[Waarschuwingen](../../compliance/alert-policies.md#viewing-alerts) vertegenwoordigen triggers voor beveiligingswerkstromen voor beveiligingsbewerkingen voor incidentrespons. Het prioriteren van de juiste set waarschuwingen voor onderzoek, terwijl ervoor zorgen dat bedreigingen niet worden aangepakt, is een uitdaging. Wanneer onderzoeken naar waarschuwingen handmatig worden uitgevoerd, moeten security operations-teams entiteiten (zoals inhoud, apparaten en gebruikers) op jagen en correleren die risico lopen op bedreigingen. Dergelijke taken en workflows kunnen zeer tijdrovend zijn en meerdere tools en systemen omvatten. Met AIR worden onderzoek en respons voor beveiligingsgebeurtenissen geautomatiseerd door dat belangrijke waarschuwingen voor beveiligings- en bedreigingsbeheer automatisch playbooks voor beveiligingsreacties activeren. 
+[Waarschuwingen](../../compliance/alert-policies.md#viewing-alerts) vertegenwoordigen triggers voor bedrijfswerk stroom van beveiligings processen voor Incident Response. Prioriteit geven aan de juiste set waarschuwingen voor onderzoek, terwijl u er zeker van bent dat er geen bedreigingen zijn voor het ongedaan maken van problemen. Wanneer een onderzoek naar waarschuwingen handmatig wordt uitgevoerd, moeten beveiligingsbewerkingen teams de entiteiten (zoals inhoud, apparaten en gebruikers) die het risico van bedreigingen ondervinden, doorlopen en correleren. Het kan zeer lang duren voor taken en werkstromen en meerdere hulpprogramma's en systemen bestaan. Met lucht, onderzoek en reacties van beveiligingsgebeurtenissen zijn geautomatiseerde functies met waarschuwingen voor sleutelbeveiliging en risicobeheer automatisch antwoord playbooks. 
 
-Momenteel voor AIR worden waarschuwingen die worden gegenereerd uit de volgende soorten waarschuwingsbeleid automatisch onderzocht:  
+Op dit moment worden waarschuwingen die zijn gegenereerd op basis van de volgende soorten waarschuwings beleidsregels, automatisch onderzocht:  
 
-- Er is een mogelijk kwaadaardige URL-klik gedetecteerd
-- E-mail gerapporteerd door gebruiker als phish*
-- E-mailberichten met malware verwijderd na levering*
-- E-mailberichten met phish-URL's die na levering zijn verwijderd*
-- Verdachte e-mailverzendpatronen gedetecteerd #
-- Gebruiker beperkt van het verzenden van e-mail #
-
-> [!NOTE]
-> Aan de waarschuwingen met een sterretje (*) wordt een *informatieve* ernst toegewezen in het desbetreffende waarschuwingsbeleid binnen het Security & Compliance Center, waarbij e-mailmeldingen zijn uitgeschakeld. E-mailmeldingen kunnen worden ingeschakeld via [de configuratie van het waarschuwingsbeleid.](../../compliance/alert-policies.md#alert-policy-settings) Waarschuwingen die zijn gemarkeerd met een hash (#) zijn algemeen beschikbare waarschuwingen die zijn gekoppeld aan openbare preview-playbooks.
-
-Als u waarschuwingen wilt weergeven, kiest u in het Beveiligingscentrum & **de**optie  >  **Waarschuwingen weergeven.** Selecteer een waarschuwing om de details te bekijken en gebruik vanaf daar de koppeling **Onderzoek bekijken** om naar het desbetreffende [onderzoek](air-view-investigation-results.md#investigation-graph)te gaan.  
+- Er is een mogelijk schadelijke URL gevonden
+- Door gebruiker gemeldd e-mailen als phishing *
+- E-mailberichten met malware verwijderd na levering *
+- E-mailberichten met phishing-Url's verwijderd na levering *
+- Verdachte e-mails voor het verzenden van patronen gedetecteerd #
+- Gebruiker beperkt geen e-mail verzenden #
 
 > [!NOTE]
-> Informatieve waarschuwingen worden standaard verborgen in de waarschuwingsweergave. Als u ze wilt zien, wijzigt u het waarschuwingsfilter om informatieve waarschuwingen op te nemen.
+> De waarschuwingen die zijn gemarkeerd met een sterretje (*) krijgen een *informatie over* de ernst van de informatie in het betreffende waarschuwings beleid binnen het beveiligings & nalevings centrum, met meldingen per e-mail uitgeschakeld. U kunt e-mail meldingen inschakelen via [configuratie van waarschuwings beleid](../../compliance/alert-policies.md#alert-policy-settings). Waarschuwingen die zijn gemarkeerd met een hash (#), zijn in het algemeen beschikbare waarschuwingen over de openbare preview-versie van playbooks.
 
-Als uw organisatie uw beveiligingswaarschuwingen beheert via een waarschuwingsbeheersysteem, servicebeheersysteem of SIEM-systeem (Security Information and Event Management), u waarschuwingen naar dat systeem verzenden via een e-mailmelding of via de [Office 365 Management Activity API.](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference) De meldingen van waarschuwingen voor onderzoek via e-mail of API bevatten koppelingen om toegang te krijgen tot de waarschuwingen in het Security & Compliance Center, zodat de toegewezen beveiligingsbeheerder snel naar het onderzoek kan navigeren.
+Als u waarschuwingen wilt bekijken, kiest u in het beveiligings & nalevings centrum **waarschuwingen**  >  **weergeven**. Selecteer een melding om de details ervan weer te geven en gebruik vervolgens de link **onderzoek weergeven** om naar het bijbehorende [onderzoek](air-view-investigation-results.md#investigation-graph)te gaan.  
 
-![Waarschuwingen die verband houden met onderzoeken](../../media/air-alerts-page-details.png) 
+> [!NOTE]
+> Informatieve waarschuwingen zijn standaard verborgen in de weergave waarschuwingen. Als u ze wilt weergeven, wijzigt u de waarschuwingen filters, zodat informatieve meldingen worden opgenomen.
 
-## <a name="security-playbooks"></a>Beveiligingsplaybooks
+Als uw organisatie uw beveiligingswaarschuwingen beheert via een waarschuwings beheersysteem, servicebeheersysteem of beveiligings-en SIEM, kunt u via een e-mailbericht of via de [Office 365 Management Activity API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)een melding naar dat systeem verzenden. De meldingen van onderzoek meldingen via e-mail of API bevatten koppelingen naar de waarschuwingen in het beveiligings & nalevings centrum, zodat de toegewezen beveiligingsbeheerder snel naar het onderzoek kan navigeren.
 
-Playbooks voor beveiliging zijn back-endbeleid dat centraal staat in de automatisering van Office Advanced Threat Protection en Microsoft Threat Protection. De beveiligingsplaybooks in AIR zijn gebaseerd op veelvoorkomende echte beveiligingsscenario's en zijn ontwikkeld op basis van feedback van Security Operations-teams. Een beveiligingsplaybook wordt automatisch gestart wanneer specifieke waarschuwingen binnen uw organisatie worden geactiveerd. Zodra de waarschuwing wordt geactiveerd, wordt het bijbehorende draaiboek uitgevoerd door het Air-systeem (Automated Investigation and Response). Het onderzoek wordt uitgevoerd door analyse van de waarschuwing op basis van het draaiboek van die specifieke waarschuwing, kijkend naar alle bijbehorende metagegevens (inclusief e-mailberichten, gebruikers, onderwerpen, afzenders, enz.). Op basis van de bevindingen van het onderzoeksplaybook beveelt AIR een reeks acties aan die het beveiligingsteam van uw organisatie kan ondernemen om de dreiging te beheersen en te beperken. 
+![Waarschuwingen die zijn gekoppeld aan onderzoek](../../media/air-alerts-page-details.png) 
 
-De beveiligingsplaybooks die je met AIR krijgt, zijn ontworpen om de meest voorkomende bedreigingen aan te pakken die organisaties vandaag de dag tegenkomen met e-mail. Ze zijn gebaseerd op input van Security Operations- en Incident Response-teams, inclusief degenen die microsoft en de activa van onze klanten helpen verdedigen.
+## <a name="security-playbooks"></a>Beveiligings playbooks
 
-### <a name="security-playbooks-are-rolling-out-in-phases"></a>Beveiligingsplaybooks worden gefaseerd uitgerold
+Beveiligings playbooks zijn een back-end beleid dat zich bevindt op de kern van automatisering in Office Advanced Threat Protection en Microsoft Threat Protection. De beveiligings playbooks verstrekt in de lucht, gebaseerd op veelvoorkomende scenario's van realtime beveiligings scenario's en ontwikkeld op basis van feedback van beveiligingsactiviteiten teams. Een beveiligings Playbook wordt automatisch gestart wanneer bepaalde waarschuwingen binnen uw organisatie worden geactiveerd. Wanneer de signaal trigger is geactiveerd, wordt het bijbehorende Playbook uitgevoerd door het systeem voor geautomatiseerde onderzoek en Reacties (lucht). De vernieuwings stappen voor de beoordeling van de waarschuwing op basis van de Playbook, de gekoppelde metagegevens (waaronder e-mailberichten, gebruikers, onderwerpen, afzenders enzovoort). Op basis van de conclusies van het onderzoek Playbook, adviseert lucht een reeks acties te beheren die het beveiligingsteam van uw organisatie kan overnemen en de bedreiging van de bedreiging te beperken. 
 
-Als onderdeel van AIR worden veiligheidsplaybooks gefaseerd uitgerold. Fase 1 is nu algemeen beschikbaar en bevat verschillende playbooks die aanbevelingen bevatten voor acties die beveiligingsbeheerders kunnen controleren en goedkeuren:
+De beveiligings playbooks die u met AIR ontvangt, is zo ontworpen dat de meest voorkomende bedreigingen met een e-mailadres worden geconfronteerd. De persoon maakt op basis van de invoer van beveiligingsactiviteiten en de teams-antwoord teams, waaronder degene die Microsoft en onze klanten middelen helpt te beschermen.
 
-- Door de gebruiker gerapporteerdphishbericht
-- URL klik vonnis wijzigen
-- Malware gedetecteerd na levering (Malware ZAP)
-- Phish gedetecteerd post-delivery ZAP (Phish ZAP)
+### <a name="security-playbooks-are-rolling-out-in-phases"></a>Beveiligings playbooks worden in fasen geïmplementeerd
 
-Fase 1 bevat ook ondersteuning voor door de beheerder geactiveerde e-mailonderzoeken (met Behulp van [Threat Explorer).](threat-explorer.md)
+Als onderdeel van lucht werken beveiligings playbooks in fasen. Fase 1 is nu algemeen beschikbaar en bevat diverse playbooks die aanbevelingen bieden voor acties die beveiligingsbeheerders kunnen controleren en goedkeuren:
 
-Fase 2 is nu vooruitgang met de volgende playbooks in **openbare preview,** met aanbevelingen voor acties en het helpen van beveiligingsbeheerders bij het onderzoeken van problemen:
+- Bericht met een door de gebruiker gemelde phishing
+- URL klik op Verdict Change
+- Malware gedetecteerd na levering (malware ZAP)
+- Phishing gevonden na levering van de geadresseerde (Phish ZAP)
 
-- Gebruiker gerapporteerd als gecompromitteerd (openbare preview)
+Fase 1 omvat ook ondersteuning voor door de beheerder geactiveerde e-mail onderzoek (met behulp van [bedreigings Verkenner](threat-explorer.md)).
 
-Verdere playbooks zullen worden vrijgegeven als ze zijn voltooid. Bezoek de [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) om te zien wat er nog meer is gepland en binnenkort.
+Fase 2 is nu bezig met de volgende playbooks in de **openbare preview-versie**, met aanbevelingen voor acties en beveiligingsbeheerders ter onderzoek:
 
-### <a name="playbooks-include-investigation-and-recommendations"></a>Playbooks bevatten onderzoek en aanbevelingen
+- Door gebruiker gemeldd als aangetast (openbare preview)
 
-In AIR bevat elk beveiligingsdraaiboek: 
+Verdere playbooks worden uitgebracht wanneer ze zijn voltooid. Ga naar het [Microsoft 365-wegwijzer](https://www.microsoft.com/microsoft-365/roadmap) om te zien wat er nog meer is gepland en binnenkort beschikbaar is.
 
-- een root-onderzoek van de entiteiten van een e-mail (bestanden, URL's, ontvangers, IP-adressen, enz.),
-- verder op zoek naar soortgelijke e-mails ontvangen door de organisatie 
-- stappen die zijn genomen om andere potentiële bedreigingen te identificeren en te correleren, en 
-- aanbevolen acties voor het herstellen van bedreigingen.
+### <a name="playbooks-include-investigation-and-recommendations"></a>Playbooks omvat onderzoek en aanbevelingen
 
-Elke stap op hoog niveau bevat een aantal substappen die worden uitgevoerd om een diep, gedetailleerd en uitputtend antwoord op bedreigingen te bieden.
+In AIR bevat elke beveiligings Playbook: 
 
-## <a name="example-a-user-reported-phish-message-launches-an-investigation-playbook"></a>Voorbeeld: Een door de gebruiker gerapporteerd phish-bericht lanceert een onderzoeksplaybook
+- een hoofdonderzoek van de entiteiten van een e-mailbericht (bestanden, Url's, ontvangers, IP-adressen, etc.)
+- verdere jacht voor gelijkaardige e-mailberichten die zijn ontvangen van de organisatie 
+- stappen voor het identificeren en correleren van andere potentiële bedreigingen en 
+- Aanbevolen acties voor het herstel van bedreigingen.
 
-Stel dat een gebruiker in uw organisatie een e-mail ontvangt waarvan hij denkt dat het een phishing-poging is. De gebruiker, die is getraind om dergelijke berichten te rapporteren, gebruikt de [invoegtoepassing Rapportbericht](enable-the-report-message-add-in.md) om deze naar Microsoft te verzenden voor analyse. De indiening wordt ook naar uw systeem verzonden en is zichtbaar in Explorer in de weergave **Inzendingen** (voorheen aangeduid als de weergave Door de **gebruiker gerapporteerde** weergave). Bovendien activeert het door de gebruiker gerapporteerde bericht nu een systeemgebaseerde informatieve waarschuwing, die automatisch het onderzoeksplaybook start.
+Elke stap van hoog niveau bevat diverse substappen die worden uitgevoerd om een uitgebreide, gedetailleerde en volledige reactie te bieden aan bedreigingen.
 
-Tijdens de wortelonderzoeksfase worden verschillende aspecten van de e-mail beoordeeld. Dit zijn onder andere:
+## <a name="example-a-user-reported-phish-message-launches-an-investigation-playbook"></a>Voorbeeld: een door een gebruiker gemelde phishing-bericht opent een onderzoek Playbook
 
-- Een bepaling over wat voor soort bedreiging het zou kunnen zijn;
-- Wie heeft het verzonden;
-- Waar de e-mail is verzonden vanuit (verzendende infrastructuur);
-- Of andere exemplaren van de e-mail zijn bezorgd of geblokkeerd;
+Stel dat een gebruiker in uw organisatie een e-mailbericht ontvangt waarvan de persoon een malafide e-mailbericht is. De gebruiker die is getraind voor het melden van dergelijke berichten, gebruikt de [invoegtoepassing bericht melden](enable-the-report-message-add-in.md) om deze naar Microsoft te verzenden voor analyse. De opdracht verzenden wordt ook naar uw systeem verzonden en wordt weergegeven in Explorer in de weergave ingediende **items** (voorheen de door de **gebruiker gerapporteerde** weergave genoemd). Daarnaast wordt in het door de gebruiker gerapporteerde bericht nu een informatiesysteem geactiveerd waarmee onderzoek automatisch wordt gestart.
+
+Tijdens de fase onderzoek worden verschillende aspecten van het e-mailbericht geëvalueerd. Dit zijn onder andere:
+
+- Een bepaling van wat voor soort bedreiging het kan zijn;
+- Wie heeft de persoon verzonden;
+- De locatie waarvandaan de e-mail is verzonden (verzenden infrastructuur);
+- Of andere e-mailberichten zijn bezorgd of geblokkeerd;
 - Een beoordeling van onze analisten;
-- Of de e-mail is gekoppeld aan bekende campagnes;
-- en meer.
+- Of het e-mailadres aan een bekende campagne is gekoppeld;
+- en nog veel meer.
 
-Nadat het hoofdonderzoek is voltooid, bevat het draaiboek een lijst met aanbevolen acties die u moet uitvoeren op de oorspronkelijke e-mail en entiteiten die eraan zijn gekoppeld.
+Wanneer het hoofdonderzoek is voltooid, biedt de Playbook een lijst met aanbevolen acties die u kunt uitvoeren met het oorspronkelijke e-mailbericht en de gekoppelde entiteiten.
   
-Vervolgens worden verschillende dreigingsonderzoeken en jachtstappen uitgevoerd:
+Vervolgens worden diverse bedreigingen voor onderzoek en de jacht stappen uitgevoerd:
 
-- Vergelijkbare e-mailberichten worden geïdentificeerd via zoekopdrachten in het e-mailcluster.
-- Het signaal wordt gedeeld met andere platforms, zoals [Microsoft Defender ATP.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
-- Een bepaling wordt gemaakt over de vraag of gebruikers hebben geklikt via een kwaadaardige links in verdachte e-mailberichten.
-- Er wordt gecontroleerd in Exchange Online Protection[(EOP)](exchange-online-protection-overview.md)en Office 365 Advanced Threat Protection[(ATP)](office-365-atp.md)om te zien of er andere soortgelijke berichten zijn gerapporteerd door gebruikers.
-- Een controle wordt gedaan om te zien of een gebruiker is gecompromitteerd. Met deze controle worden signalen in Office 365, [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)en Azure Active [Directory](https://docs.microsoft.com/azure/active-directory)gecontroleerd, waarbij eventuele gerelateerde afwijkingen van gebruikersactiviteiten worden aangetast.
+- Vergelijkbare e-mailberichten worden aangeduid via e-mail cluster zoekopdrachten.
+- Het signaal wordt gedeeld met andere platforms, zoals [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection).
+- U wordt bepaald of gebruikers op schadelijke koppelingen in verdachte e-mailberichten klikken.
+- U kunt een controle uitvoeren via Exchange Online Protection ([EOP](exchange-online-protection-overview.md)) en Office 365 Advanced Threat Protection ([ATP](office-365-atp.md)) om te zien of er andere soortgelijke berichten door gebruikers worden gerapporteerd.
+- Als u wilt controleren of een gebruiker is aangetast. Met deze controle wordt geprofiteerd van signalen in Office 365, de beveiliging van de [Cloud-app van Microsoft](https://docs.microsoft.com/cloud-app-security)en [Azure Active Directory](https://docs.microsoft.com/azure/active-directory), met betrekking tot afwijkingen van gebruikersactiviteiten.
 
-Tijdens de jachtfase worden risico's en bedreigingen toegewezen aan verschillende jachtstappen. 
+Tijdens de jacht-fase worden Risico's en bedreigingen toegewezen aan diverse jacht stappen. 
 
-Herstel is de laatste fase van het draaiboek. In deze fase worden saneringsmaatregelen genomen op basis van de onderzoeks- en jachtfasen. 
+Herstelfase is de laatste fase van de Playbook. Tijdens deze fase worden herstel stappen verricht, op basis van de activiteiten onderzoek en jacht. 
 
-## <a name="example-a-security-administrator-triggers-an-investigation-from-threat-explorer"></a>Voorbeeld: een beveiligingsbeheerder activeert een onderzoek vanuit Threat Explorer
+## <a name="example-a-security-administrator-triggers-an-investigation-from-threat-explorer"></a>Voorbeeld: een beveiligingsbeheerder activeert een onderzoek vanuit de bedreigings Verkenner
 
-Naast automatische onderzoeken die worden geactiveerd door een waarschuwing, kan het beveiligingsteam van uw organisatie een automatisch onderzoek starten vanuit een weergave in [Threat Explorer.](threat-explorer.md)
+Naast automatische verificaties die worden geactiveerd door een waarschuwing, kan het team van uw organisatie beveiligings processen een automatisch onderzoek doen via een weergave in de [bedreigings Verkenner](threat-explorer.md).
 
-Stel dat u de weergave **Malware** gebruikt in Threat Explorer. Met de tabbladen onder de grafiek selecteert u het tabblad **E-mail.** Als u een of meer items in de lijst selecteert, wordt de knop **+ Acties** geactiveerd. 
+Stel dat u de **malware** -weergave in de bedreigings Verkenner gebruikt. Met de tabbladen onder de grafiek, selecteert u het tabblad **e-mail** . Als u een of meer items in de lijst selecteert, wordt de knop **+ acties** geactiveerd. 
 
-:::image type="content" source="../../media/Explorer-Malware-Email-ActionsInvestigate.png" alt-text="Explorer met geselecteerde berichten":::
+![Verkenner met geselecteerde berichten](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
 
-In het menu **Acties** u **Onderzoek activeren**selecteren.
+Via het menu **acties** kunt u het **onderzoek activeren**.
 
-:::image type="content" source="../../media/explorer-malwareview-selectedemails-actions.jpg" alt-text="Menu Acties voor geselecteerde berichten":::
+![Menu acties voor geselecteerde berichten](../../media/explorer-malwareview-selectedemails-actions.jpg)
 
-Net als bij playbooks die worden geactiveerd door een waarschuwing, bevatten automatische onderzoeken die vanuit een weergave in Explorer worden geactiveerd een root-onderzoek, stappen om bedreigingen te identificeren en te correleren en aanbevolen acties om deze bedreigingen te beperken.
+Vergelijkbaar met playbooks die worden geactiveerd door een waarschuwing, zijn automatisch onderzoek die worden geactiveerd via een weergave in de Explorer een hoofdonderzoek, stappen voor het identificeren en correleren van bedreigingen en aanbevolen acties om deze bedreigingen te beperken.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Aan de slag met AIR](office-365-air.md)
+- [Aan de slag met lucht](office-365-air.md)
 
-- [Bezoek de Microsoft 365 Roadmap om te zien wat er binnenkort komt en uitrol](https://www.microsoft.com/microsoft-365/roadmap?filters=)
+- [Ga naar het Microsoft 365-wegwijzer om te zien wat er binnenkort beschikbaar is en rollen](https://www.microsoft.com/microsoft-365/roadmap?filters=)

@@ -1,6 +1,6 @@
 ---
-title: 'Inhoudsbegrip instellen (Voorbeeld) '
-description: Project Cortex instellen?
+title: 'Inhoudelijke informatie instellen (preview) '
+description: Project cortex instellen.
 author: efrene
 ms.author: efrene
 manager: pamgreen
@@ -9,78 +9,78 @@ audience: admin
 ms.topic: article
 ms.service: ''
 search.appverid: ''
-localization_priority: Normal
+localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fca80e45dfa45ee5da9521854c6eebfbd87d8859
-ms.sourcegitcommit: 91c82a79962387205c4dd4dd8d61322b79fed55f
+ms.openlocfilehash: 5fcc7f78bfc12faae19ce2a3fbc77c4348da01de
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46539902"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612700"
 ---
-# <a name="set-up-content-understanding-preview"></a>Inhoudsbegrip instellen (Voorbeeld)
+# <a name="set-up-content-understanding-preview"></a>Inhoudelijke informatie instellen (preview)
 
 > [!Note] 
-> De inhoud in dit artikel is voor Project Cortex Private Preview. [Lees meer over Project Cortex](https://aka.ms/projectcortex).
+> De inhoud in dit artikel is bedoeld voor project cortex private preview. [Lees meer over project cortex](https://aka.ms/projectcortex).
 
-Beheerders kunnen het Microsoft 365-beheercentrum gebruiken om inhoudsbegrip in te stellen en te configureren. 
+Beheerders kunnen het Microsoft 365-Beheercentrum gebruiken om informatie over de inhoud in te stellen en te configureren. 
 
-Voordat u de installatie instelt, moet u plannen voor de beste manier om inhoudsbegrip in uw omgeving in te stellen en te configureren. U moet bijvoorbeeld overwegingen maken over het volgende:
-- Welke SharePoint-sites schakelt u formulierverwerking in? Allemaal, sommige, of selecteer sites?
-- Naam van uw inhoudscentrum en wie is de primaire sitebeheerder?
+Zorg er eerst voor dat u op de hoogte bent van de beste manier om inhoud in uw omgeving in te stellen en te configureren. U moet bijvoorbeeld overwegingen voor het volgende doen:
+- Welke SharePoint-sites gebruikt u om de formulierverwerking in te schakelen? Allemaal, of selecteer sites?
+- Naam van uw inhouds centrum en wie is de primaire sitebeheerder?
 
-Een beheerder kan ook wijzigingen aanbrengen in uw geselecteerde instellingen op elk gewenst moment na de installatie via de instellingen voor het begrijpen van inhoud in het Microsoft 365-beheercentrum.
+Een beheerder kan ook op elk gewenst moment na de installatie van de inhoud wijzigingen aanbrengen in de instellingen voor beheer in het Microsoft 365-Beheercentrum.
 
 
 ## <a name="requirements"></a>Vereisten 
-U moet globale beheerders- of SharePoint-beheerdersmachtigingen hebben om toegang te krijgen tot het Microsoft 365-beheercentrum en inhoudsbegrip in te stellen.
+U moet beschikken over de machtigingen van een globale beheerder of SharePoint-beheerder om toegang te krijgen tot het Microsoft 365-Beheercentrum en de informatie over de inhoud ervan kunt instellen.
 
 
-## <a name="to-set-up-content-understanding"></a>Inhoudsbegrip instellen
+## <a name="to-set-up-content-understanding"></a>Inhoud begrijpen
 
-1. Selecteer **Setup**in het Microsoft 365-beheercentrum en bekijk de sectie **Kennis organisatie.**
-2. Selecteer **inhoudsbegrip automatiseren**in de sectie **Organisatiekennis** .<br/>
+1. Selecteer in het Microsoft 365-Beheercentrum de optie **instellen**en bekijk vervolgens de sectie **bedrijfsinformatie** .
+2. Selecteer in de sectie **kennis van organisatie** de optie **inhouds inzicht automatiseren**.<br/>
 
-    ![Pagina voor het instellen van organisatiekennis](../media/content-understanding/admin-org-knowledge-options.png)</br>
+    ![Pagina voor het instellen van de organisatie](../media/content-understanding/admin-org-knowledge-options.png)</br>
 
-3. Klik op de pagina **Inhoudsbegrip automatiseren** op Aan de **slag** om u door het installatieproces te leiden.<br/>
+3. Klik op de pagina meer informatie **over het automatisch** maken op aan de **slag** om het installatieproces te doorlopen.<br/>
 
-    ![Begin met instellen](../media/content-understanding/admin-content-understanding-get-started.png)</br>
+    ![Beginnen met instellen](../media/content-understanding/admin-content-understanding-get-started.png)</br>
 
 
-4. Op de pagina **Formulierverwerking configureren** u kiezen of u gebruikers AI Builder wilt laten gebruiken om formulierverwerkingsmodellen te maken in specifieke SharePoint-documentbibliotheken. Er is een menuoptie beschikbaar op het lint van de documentbibliotheek om **een formulierverwerkingsmodel** te maken in SharePoint-documentbibliotheken waarin deze is ingeschakeld.
+4. Op de pagina voor het verwerken van de **formulier** kunt u aangeven of u de gebruikers van AI Builder de mogelijkheid wilt bieden om formulier verwerkings modellen te maken met specifieke documentenbibliotheken van SharePoint. Er is een menuoptie beschikbaar op het lint van de documentbibliotheek om **een formulier verwerkings model te maken** in SharePoint-documentbibliotheken waarin dit is ingeschakeld.
  
-     Voor **welke SharePoint-bibliotheken de optie moeten weergeven om een formulierverwerkingsmodel te maken,** u het gewenste selecteren:</br>
-    - **Alle SharePoint-bibliotheken** om deze beschikbaar te maken voor alle SharePoint-bibliotheken in uw tenant.</br>
-    - **Alleen bibliotheken in geselecteerde sites**en selecteer vervolgens de sites waarin u deze beschikbaar wilt maken.</br>
-    - **Geen SharePoint-bibliotheken** als u deze momenteel niet beschikbaar wilt maken voor sites (u dit na de installatie wijzigen).
+     Voor **welke SharePoint-bibliotheken moet de optie voor het maken van een formulier voor het bewerken van een formulier worden weergegeven**:</br>
+    - **Alle SharePoint-bibliotheken** als u deze beschikbaar wilt maken voor alle SharePoint-bibliotheken in uw Tenant.</br>
+    - **Alleen bibliotheken op geselecteerde sites**en selecteer vervolgens de sites waarvan u de site beschikbaar wilt maken.</br>
+    - **Geen SharePoint-bibliotheken** als u deze momenteel niet beschikbaar wilt maken voor sites (u kunt dit wijzigen na de installatie).
 </br>
 
    ![Formulierverwerking configureren](../media/content-understanding/admin-configforms.png)
 </br>
 
    > [!Note]
-   > Als u deze instelling inschakelt in een SharePoint-documentbibliotheek, heeft dit geen invloed op bestaande modellen die op de bibliotheek worden toegepast of op de mogelijkheid om modellen voor documentbegrip toe te passen op een bibliotheek. 
+   > Als u deze instelling inschakelt voor een SharePoint-documentbibliotheek, heeft dit geen invloed op bestaande modellen die zijn toegepast op de bibliotheek of de mogelijkheid om documenten toe te passen op een bibliotheek. 
 
     
-5. Op de pagina **Inhoudscentrum maken** u een SharePoint-inhoudscentrumsite maken waarop uw gebruikers modellen voor het begrijpen van documenten kunnen maken en beheren. </br>
-    a. Typ voor **Sitenaam**de naam die u uw inhoudscentrumsite wilt geven.</br>
-    b. Het **siteadres** toont de URL voor uw site, op basis van wat u hebt geselecteerd voor de sitenaam.</br>
+5. Op de pagina **inhouds centrum maken** kunt u een SharePoint-inhouds centrum site maken waarop uw gebruikers document leren maken en beheren. </br>
+    a. Voor de naam van de **site**typt u de naam die uw inhouds centrum site moet opgeven.</br>
+    b. Het **adres** van de site toont de URL voor uw site, op basis van de optie die u hebt geselecteerd voor de sitenaam.</br>
 
     > [!Note] 
-    > Hoewel u alle ondersteunde taal selecteren, moet u er rekening mee houden dat modellen voor het begrijpen van inhoud alleen voor Engels kunnen worden gemaakt.</br>
+    > U kunt alle ondersteunde talen selecteren, maar u kunt de inhoud van modellen begrijpen, maar ook voor Engels.</br>
 
-      ![Contentcentrum maken](../media/content-understanding/admin-cu-create-cc.png)</br>
+      ![Inhouds centrum maken](../media/content-understanding/admin-cu-create-cc.png)</br>
 
 
     Selecteer **Volgende**.
-6. Op de pagina **Voltooien en controleren** u de geselecteerde instelling bekijken en ervoor kiezen wijzigingen aan te brengen. Als u tevreden bent met uw selecties, selecteert u **Activeren**.
+6. Op de pagina **Voltooien en controleren** ziet u de geselecteerde instelling en kiest u om wijzigingen aan te brengen. Als u tevreden bent met uw selecties, selecteert u **activeren**.
 
 
 
-7. De geactiveerde pagina **Inhoudsbegrip** wordt weergegeven, waarin wordt bevestigd dat het systeem uw voorkeuren voor formulierverwerking heeft toegevoegd en de site van het Content Center is geworden. Selecteer **Gereed**.
+7. Op de pagina ' **geactiveerde informatie over de geactiveerde** pagina ' wordt gecontroleerd of het systeem uw voorkeuren voor formulierverwerking heeft toegevoegd en de site van het inhouds centrum te maken. Selecteer **Gereed**.
 
-8. Je wordt teruggestuurd naar de pagina **Inhoudsbegrip automatiseren.** Op deze pagina u **Beheren** selecteren om wijzigingen aan te brengen in uw configuratie-instellingen. 
+8. U gaat terug naar de pagina informatie **over het automatiseren** van de inhoud. Op deze pagina kunt u **beheren** selecteren om wijzigingen aan te brengen in de configuratie-instellingen. 
 
 ## <a name="see-also"></a>Zie ook
 

@@ -1,5 +1,5 @@
 ---
-title: Overzicht documentbegrip (voorbeeld)
+title: Overzicht van document (preview)
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -8,19 +8,19 @@ audience: admin
 ms.topic: article
 ms.service: ''
 search.appverid: ''
-localization_priority: Normal
+localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
-description: Krijg een overzicht van het documentbegrip in Project Cortex.
-ms.openlocfilehash: 13b0aa3742c6cf1c0c1123996c683d13c6577876
-ms.sourcegitcommit: ea5e2f85bd6b609658545b120c7e08789b9686fd
+description: U krijgt een overzicht van het document wat u in Project cortex.
+ms.openlocfilehash: bdebc8a8726a7b9a77eb9a1095f83e937cf36cb1
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46537133"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612712"
 ---
-# <a name="document-understanding-overview-preview"></a>Overzicht documentbegrip (voorbeeld)
+# <a name="document-understanding-overview-preview"></a>Overzicht van document (preview)
 > [!Note] 
-> Project Cortex is momenteel in Preview. [Lees meer over Project Cortex](https://aka.ms/projectcortex).
+> Project cortex is momenteel beschikbaar in de preview-versie. [Lees meer over project cortex](https://aka.ms/projectcortex).
 
 </br>
 
@@ -28,28 +28,28 @@ ms.locfileid: "46537133"
 
 </br>
 
-Document understanding maakt gebruik van AI-modellen om de classificatie van bestanden en het verwijderen van informatie te automatiseren. Het werkt het beste met ongestructureerde documenten, zoals brieven of contracten. De documenten moeten tekst hebben die kan worden geïdentificeerd op basis van zinnen of patronen. De geïdentificeerde tekst kan zowel het type bestand aanwijzen (de classificatie ervan) als wat u wilt extraheren (de uittreksels).
+Document Understanding maakt gebruik van AI-modellen om de indeling van bestanden en het extraheren van gegevens te automatiseren. Het werkt het beste met niet-gestructureerde documenten, zoals brieven of contracten. De documenten moeten tekst bevatten die kunnen worden geïdentificeerd op basis van woordgroepen of patronen. Met de geïdentificeerde tekst kunt u zowel het type bestand als het bestand (de classificatie) opgeven en wat u wilt extraheren (de uitgepakte bestanden).
 
-Document understanding modellen worden gemaakt en beheerd in een type SharePoint-site genaamd een inhoudscentrum. Wanneer het model wordt toegepast op een SharePoint-documentbibliotheek, is het gekoppeld aan een inhoudstype met kolommen om de uitgepakte informatie op te slaan. Het inhoudstype dat u maakt, wordt opgeslagen in de galerie met SharePoint-inhoudstype. U er ook voor kiezen om bestaande inhoudstypen te gebruiken om hun schema te gebruiken.
+Document leren hoe modellen worden gemaakt en beheerd in een type SharePoint-site met de naam een inhouds centrum. Wanneer dit wordt toegepast op een SharePoint-documentbibliotheek, is het model gekoppeld aan een inhoudstype waarvan de kolom kolommen bevat om de verzamelde gegevens op te slaan. Het inhoudstype dat u maakt, wordt opgeslagen in de SharePoint-galerie met inhoudstypen. U kunt er ook voor kiezen om bestaande inhoudstypen te gebruiken om hun schema te gebruiken.
 
-U *classificaties* en *uittreksels* toevoegen aan de modellen voor het begrijpen van documenten om het volgende te doen: 
+U kunt *classificaties* en *extracten* aan uw document toevoegen om te begrijpen hoe modellen u het volgende kunt doen: 
 
-- Classificaties worden gebruikt om documenten te identificeren en te classificeren die naar de documentbibliotheek zijn geüpload. Een classificatie kan bijvoorbeeld worden 'getraind' om alle *contractverlengingsdocumenten* te identificeren die naar de bibliotheek zijn geüpload. Het inhoudstype contractverlenging wordt door u gedefinieerd wanneer u uw classificatie maakt.
+- Classificaties worden gebruikt voor het identificeren en classificeren van documenten die worden geüpload naar de documentbibliotheek. Een classificatie kan bijvoorbeeld ' opgeleid ' worden *om alle documenten* te identificeren die worden geüpload naar de bibliotheek. Het inhoudstype voor het verlengen van het contract wordt door u gedefinieerd wanneer u de classificatie maakt.
 
-- Extractors halen informatie uit deze documenten. Voor alle contractverlengingsdocumenten die in uw documentbibliotheek zijn geïdentificeerd, worden kolommen bijvoorbeeld weergegeven in uw weergave met de *begindatum* van de service en *de client* voor elk document voor contractverlenging. 
+- Extracten trekken informatie uit deze documenten. Als u bijvoorbeeld alle documenten in de documentbibliotheek wilt verlengen, worden kolommen weergegeven in uw weergave, waarin de *begindatum* en- *client* van de service ook voor elk document met het verlengen van de service wordt weergegeven. 
 
-U gebruikt voorbeeldbestanden om uw classificaties en extractors in uw model te trainen en te testen. Voorbeeldbestanden geven uw modelvoorbeelden van waar u op moet letten wanneer u gegevens uit bestanden probeert te identificeren en te extraheren. U traint bijvoorbeeld uw classificeerders en uitsinoordgers voor contractverlenging met voorbeelden van contractverlengingsdocumenten waarmee uw bedrijf werkt. U ook voorbeeldbestanden gebruiken om de effectiviteit van uw model te testen.
+U gebruikt voorbeeldbestanden om classificaties en extracten in uw model te trainen en testen. Voorbeeldbestanden hier vindt u voorbeelden van de modellen waarnaar u moet kijken wanneer u gegevens uit bestanden probeert te identificeren en uit te pakken. U kunt bijvoorbeeld het verlengen van de classificaties en extracties van een contract trainen met voorbeelden van documenten voor het verlengen van de contracten waarmee uw bedrijf werkt. U kunt ook voorbeeldbestanden gebruiken om de effectiviteit van uw model te testen.
 
-Nadat u uw model hebt gepubliceerd, gebruikt u het inhoudscentrum om het toe te passen op elke SharePoint-documentbibliotheek waar u toegang toe hebt.  
+Nadat u uw model hebt gepubliceerd, kunt u het inhouds centrum gebruiken om het toe te passen op een SharePoint-documentbibliotheek waartoe u toegang hebt.  
 
 
 ## <a name="see-also"></a>Zie ook
 [Een classificatie maken](create-a-classifier.md)</br>
-[Een afzuiger maken](create-an-extractor.md)</br>
-[Een inhoudscentrum maken](create-a-content-center.md) 
- [Een formulierverwerkingsmodel maken](create-a-form-processing-model.md)</br>
+[Een extractor maken](create-an-extractor.md)</br>
+[Een inhouds centrum maken](create-a-content-center.md) 
+ [Een formulier verwerkings model maken](create-a-form-processing-model.md)</br>
 [Een model toepassen](apply-a-model.md)   
-[Verschil tussen een documentbegrip en een formulierverwerkingsmodel](difference-between-document-understanding-and-form-processing-model.md)  
+[Het verschil tussen een document en een formulier verwerkings model](difference-between-document-understanding-and-form-processing-model.md)  
 [Overzicht van formulierverwerking](form-processing-overview.md)
 
 

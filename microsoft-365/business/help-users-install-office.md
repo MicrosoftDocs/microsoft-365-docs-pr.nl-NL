@@ -1,5 +1,5 @@
 ---
-title: Uw gebruikers helpen Office te installeren op Windows 10-apparaten
+title: Gebruikers helpen Office te installeren op Windows 10-apparaten
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -26,19 +26,19 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
-description: Help uw gebruikers Office-apps te installeren op Windows 10-apparaten en Office eenvoudig te installeren op Windows 10-pc's vanuit het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 9c670ba6727d47276291b1d1ba35b6431a293200
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: Gebruikers helpen bij het installeren van Office-apps op Windows 10-apparaten en eenvoudig Office installeren op Windows 10-Pc's via het Microsoft 365-Beheercentrum.
+ms.openlocfilehash: 680c1c4e43a037c6afd109220090f387b207f8b1
+ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786232"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46601978"
 ---
-# <a name="help-your-users-install-office-on-windows-10-devices"></a>Uw gebruikers helpen Office te installeren op Windows 10-apparaten
+# <a name="help-your-users-install-office-on-windows-10-devices"></a>Gebruikers helpen Office te installeren op Windows 10-apparaten
 
 [![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-U Office snel en eenvoudig installeren op Windows 10-pc's vanuit het Microsoft 365-beheercentrum.
+U kunt snel en eenvoudig Office installeren op Pc's met Windows 10 vanuit het Beheercentrum van Microsoft 365.
   
 Lees [Office-clientinstallatie voorbereiden](prepare-for-office-client-deployment.md) voordat u begint als u wilt weten hoe dit werkt met eerder geïnstalleerde Office-apps.
 
@@ -50,18 +50,17 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voo
 
 ## <a name="manage-office-deployments"></a>Office-implementaties beheren
 
-1. Ga naar het beheercentrum en <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> meld u aan met globale beheerdersreferenties. 
+1. Ga naar het Beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> en meld u aan met de referenties van een globale beheerder. 
 
-2. Ga naar **Setup** in het linkernavigatiedeelvenster en schuif op de pagina **Setup** naar **Apps en updates**.
+2. Ga naar **Setup** in het linker navigatiedeelvenster en blader op de **installatie** pagina naar **apps en updates**.
     > [!NOTE]
-    > U ziet deze kaart mogelijk niet als al uw gebruikers Office-apps hebben geïnstalleerd.
+    > U ziet deze kaart mogelijk niet als alle gebruikers Office-apps hebben geïnstalleerd.
   
-3. Kies **Weergave**en ga vervolgens aan de **slag**op de **Help-gebruikers die hun Office-apps-kaart installeren.**
+3. Kies **weergave**in de gebruikers van de **gebruikers kunnen de Office-apps installeren** , en ga aan de **slag**.
     
-4. Selecteer in het **e-maildeel gebruikers een koppeling om Office-paneel te downloaden** de gebruikers die u wilt e-mailen en **vervolgens geselecteerde gebruikers e-mailen**.
+4. Selecteer de gebruikers van wie u **een** e-mail wilt verzenden, en selecteer vervolgens **e-mailberichten**in de gebruikers.
 
-    
-      :::image type="content" source="../media/sendemailtousers.png" alt-text="Selecteer gebruikers die e-mail verzenden met de downloadkoppeling van Office.":::
+   ![Selecteer gebruikers om e-mail te verzenden met de downloadkoppeling van Office.](../media/sendemailtousers.png)
 
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Voor meer informatie over het instellen en gebruiken van Microsoft 365 Business Premium
 

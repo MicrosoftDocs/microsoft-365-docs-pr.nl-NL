@@ -1,6 +1,6 @@
 ---
-title: 'Werken met onderwerpen in het onderwerpcentrum(Voorbeeld) '
-description: Hoe te werken met onderwerpen in het Topic Center.
+title: 'Werken met onderwerpen in het onderwerp centrum (preview) '
+description: Werken met onderwerpen in het onderwerp centrum.
 author: efrene
 ms.author: efrene
 manager: pamgreen
@@ -10,94 +10,94 @@ ms.topic: article
 ms.service: ''
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
-localization_priority: Normal
-ms.openlocfilehash: 3519b8a1ddcaae09779ae8761ac368e3bd84294f
-ms.sourcegitcommit: 91c82a79962387205c4dd4dd8d61322b79fed55f
+localization_priority: None
+ms.openlocfilehash: e4a9917464e22c6220d26619e7b5ca60f090abb7
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46539861"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612488"
 ---
-# <a name="work-with-topics-in-the-topic-center-preview"></a>Werken met onderwerpen in het onderwerpcentrum (Voorbeeld)
+# <a name="work-with-topics-in-the-topic-center-preview"></a>Werken met onderwerpen in het onderwerp centrum (preview)
 
 > [!Note] 
-> De inhoud in dit artikel is voor Project Cortex Private Preview. [Lees meer over Project Cortex](https://aka.ms/projectcortex).
+> De inhoud in dit artikel is bedoeld voor project cortex private preview. [Lees meer over project cortex](https://aka.ms/projectcortex).
 
 
-In het onderwerpcentrum kan een kennismanager onderwerpen bekijken die zijn gedolven en ontdekt in de SharePoint-bronlocaties die u hebt opgegeven, en kan deze bevestigen of weigeren. Een kennismanager kan ook nieuwe onderwerppagina's maken en publiceren als deze niet in onderwerpdetectie is gevonden, of bestaande pagina's bewerken als deze moeten worden bijgewerkt.
+In het onderwerp centrum kan een Knowledge Manager onderwerpen controleren die zijn mined en gedetecteerd in de door u opgegeven SharePoint-bronlocaties, en deze kunnen ofwel bevestigen of weigeren. Een Knowledge Manager kan ook nieuwe topic pagina's maken en publiceren als die niet is gevonden in het detecteren van een onderwerp of bestaande pagina's bewerken als ze moeten worden bijgewerkt.
 
 ## <a name="requirements"></a>Vereisten
 
-Om in het onderwerpcentrum te werken, moet u over de vereiste machtigingen beschikken. Uw beheerder kan u toevoegen tijdens [de installatie van kennisbeheer,](set-up-knowledge-network.md)of nieuwe gebruikers kunnen achteraf worden [toegevoegd.](give-user-permissions-to-the-topic-center.md)
+Om in het onderwerp te kunnen werken, moet u beschikken over de vereiste machtigingen. Uw beheerder kan u tijdens het [instellen van Knowledge Management](set-up-knowledge-network.md)toevoegen of nieuwe gebruikers kunnen [later worden toegevoegd](give-user-permissions-to-the-topic-center.md).
 
-Gebruikers van het onderwerpcentrum kunnen twee sets machtigingen krijgen:
+De gebruikers van het onderwerp centrum kunnen twee groepen machtigingen krijgen:
 
-- Onderwerpen maken en bewerken: nieuwe onderwerpen maken of onderwerpinhoud bijwerken, zoals de beschrijving, documenten en geassocieerde personen
-- Onderwerpen beheren: gebruik het dashboard voor onderwerpbeheer om onderwerpen in de hele organisatie te bekijken. Gebruikers kunnen acties uitvoeren, zoals onderwerpen bevestigen en afwijzen
-
-
-## <a name="review-unconfirmed-topics"></a>Onbevestigde onderwerpen bekijken
-
-Op de startpagina van het onderwerpcentrum worden onderwerpen die zijn ontdekt in de opgegeven SharePoint-bronlocaties weergegeven op het tabblad **Onbevestigd.** Een gebruiker met machtigingen voor het beheren van onderwerpen kan onbevestigde onderwerpen bekijken en ervoor kiezen deze te bevestigen of te weigeren.
+- Onderwerpen maken en bewerken: nieuwe onderwerpen maken of inhoud van een onderwerp bijwerken, zoals de beschrijving, documenten en gekoppelde personen
+- Onderwerpen beheren: gebruik het dashboard van het onderwerp-beheer om de onderwerpen binnen de organisatie te reviseren. Gebruikers kunnen acties uitvoeren, zoals onderwerpen voor bevestigen en negeren
 
 
-Een onbevestigd onderwerp bekijken:
+## <a name="review-unconfirmed-topics"></a>Onbevestigde onderwerpen controleren
 
-1. Selecteer op het tabblad **Niet bevestigd** het onderwerp om de onderwerppagina te openen.</br>
+Op de startpagina van het onderwerp Center worden de onderwerpen die zijn gevonden in de opgegeven SharePoint-bronlocaties weergegeven op het tabblad **onbevestigd** . Een gebruiker met machtigingen voor het beheren van onderwerpen kan onbevestigde onderwerpen controleren en ervoor zorgen dat deze worden bevestigd of genegeerd.
 
-2. Bekijk op de onderwerppagina de onderwerppagina en selecteer **Bewerken** als u wijzigingen aan de pagina wilt aanbrengen.
-3. Op de startpagina van het Kenniscentrum u voor het geselecteerde onderwerp:</br>
-    a. Selecteer de controle om te bevestigen dat u het onderwerp wilt behouden.</br>
-    b. Selecteer de **x** als u het onderwerp wilt weigeren.</br>
 
-    Bevestigde onderwerpen worden verwijderd uit de **lijst Onbevestigde** en worden nu weergegeven op het tabblad **Bevestigd.**</br>
+Een niet-bevestigd onderwerp bekijken:
 
-    Afgewezen onderwerpen worden verwijderd uit de **lijst Onbevestigde** en worden nu weergegeven op het tabblad **Afgewezen of Uitgesloten.**</br>
+1. Selecteer op het tabblad niet- **bevestigd** het onderwerp om de onderwerpenpagina te openen.</br>
+
+2. Op de pagina onderwerp controleert u het onderwerp en selecteert u **bewerken** als u wijzigingen wilt aanbrengen aan de pagina.
+3. Op de startpagina van het kennis centrum voor het geselecteerde onderwerp, kunt u het volgende doen:</br>
+    a. Selecteer de controleren om te bevestigen dat u het onderwerp wilt bewaren.</br>
+    b. Selecteer de **x** als u het onderwerp wilt negeren.</br>
+
+    Bevestigde onderwerpen worden verwijderd uit de niet- **bevestigde** lijst en worden nu weergegeven op het tabblad **bevestigd** .</br>
+
+    Genegeerde onderwerpen worden verwijderd uit de niet- **bevestigde** lijst en worden nu weergegeven in het tabblad **afgekeurd of uitgesloten** .</br>
     
    
 ## <a name="create-a-new-topic"></a>Een nieuw onderwerp maken
 
-Een gebruiker met onderwerpmachtigingen maken of bewerken kan indien nodig een nieuw onderwerp maken. Het kan nodig zijn om dit te doen als het onderwerp niet werd ontdekt door ontdekking of als de AI-technologie niet genoeg bewijs gevonden om het vast te stellen als een onderwerp.
+Gebruikers met de machtiging onderwerp maken of bewerken kunnen een nieuw onderwerp maken, indien nodig. U moet dit mogelijk doen als het onderwerp niet is gevonden via Discovery of als de AI-technologie niet voldoende bewijs heeft gevonden om dit als onderwerp te verkrijgen.
 
 Een nieuw onderwerp maken:
-1. Selecteer op de pagina in het onderwerpcentrum **Nieuw**en selecteer **Onderwerppagina**.</br>
+1. Selecteer op de pagina onderwerp centrum de optie **Nieuw**en selecteer vervolgens **onderwerpenpagina**.</br>
 
     ![Nieuw onderwerp](../media/content-understanding/k-new-topic.png) </br>
 
-2. Op de nieuwe onderwerppagina u de informatie over de nieuwe onderwerpsjabloon invullen:</br>
-    a. Typ in de sectie **Naam van dit onderwerp** de naam van het nieuwe onderwerp.</br>
-    b. Typ in de sectie **Alternatieve namen** namen of afkortingen die ook worden gebruikt om naar het onderwerp te verwijzen.</br>
-    c. Typ in de sectie **Korte beschrijving** een beschrijving van één of twee zinnen van het onderwerp. Deze tekst wordt gebruikt voor de bijbehorende onderwerpkaart.</br>
-    d. Typ in de sectie **Personen** de namen van vakexperts voor het onderwerp.</br>
-    e. Selecteer in de sectie **Bestanden en pagina's** de optie **Toevoegen** en vervolgens u op de volgende pagina gekoppelde OneDrive-bestanden of SharePoint Online-pagina's selecteren.</br>
-    f. Selecteer **toevoegen**in de sectie **Sites** . Selecteer in het deelvenster **Sites** die worden weergegeven de sites die aan het onderwerp zijn gekoppeld.</br>
+2. Op de nieuwe pagina voor het onderwerp kunt u de gegevens invullen van de nieuwe sjabloon:</br>
+    a. Typ in het gedeelte **naam van dit onderwerp** de naam van het nieuwe onderwerp.</br>
+    b. Typ in de sectie **alternatieve namen** de namen of acroniemen die ook worden gebruikt om het onderwerp te raadplegen.</br>
+    c. Typ in het gedeelte **korte beschrijving** de beschrijving van een of twee zinnen van het onderwerp. Deze tekst wordt gebruikt voor het bijbehorende onderwerpvenster.</br>
+    d. Typ in de sectie **personen** de namen van de experts voor het onderwerp.</br>
+    e. Selecteer in de sectie **bestanden en pagina's** de optie **toevoegen** en op de volgende pagina kunt u de bijbehorende OneDrive-bestanden of SharePoint Online-pagina's selecteren.</br>
+    f. Selecteer in de sectie **sites** de optie **toevoegen**. Selecteer de sites die zijn gekoppeld aan het onderwerp in het deelvenster **sites** dat wordt weergegeven.</br>
 
-    ![Nieuwe onderwerppagina](../media/content-understanding/k-new-topic-page.png) </br>
-3. Als u andere onderdelen aan de pagina moet toevoegen, zoals tekst, afbeeldingen, webonderdelen, koppelingen, enz., selecteert u het canvaspictogram in het midden van de pagina om ze te zoeken en toe te voegen.
-    ![Items toevoegen aan pagina](../media/content-understanding/static-icon.png) </br> 
+    ![Nieuwe onderwerpenpagina](../media/content-understanding/k-new-topic-page.png) </br>
+3. Als u andere onderdelen aan de pagina wilt toevoegen, zoals tekst, afbeeldingen, webonderdelen, koppelingen, enzovoort, selecteert u het canvas pictogram in het midden van de pagina om deze te zoeken en toe te voegen.
+    ![Items aan een pagina toevoegen](../media/content-understanding/static-icon.png) </br> 
 
-4. Wanneer u klaar bent, selecteert u **Publiceren** om de onderwerppagina te publiceren. Gepubliceerde onderwerppagina's worden weergegeven op het tabblad **Pagina's.**
+4. Wanneer u klaar bent, selecteert u **publiceren** om de onderwerpenpagina te publiceren. Gepubliceerde topic pagina's worden weergegeven op het tabblad **pagina's** .
 
 > [!Note] 
-> De nieuwe onderwerppagina bestaat uit webonderdelen die *kennisnetwerkbewust*zijn. Dit betekent dat als AI meer informatie over het onderwerp verzamelt, de informatie in deze webonderdelen zal worden bijgewerkt met suggesties om de pagina nuttiger te maken voor gebruikers.
+> De nieuwe topic wordt gemaakt van webonderdelen die bekend zijn met het *kennis netwerk*. Dit betekent dat zo veel meer informatie over het onderwerp wordt verzameld, maar de informatie in deze webonderdelen wordt bijgewerkt met suggesties om de pagina nuttiger te maken voor gebruikers.
 
 
-## <a name="edit-an-existing-topic-page"></a>Een bestaande onderwerppagina bewerken
+## <a name="edit-an-existing-topic-page"></a>Een bestaande onderwerpenpagina bewerken
 
-Bestaande onderwerppagina's zijn te vinden op de pagina **Pagina's.** 
+Bestaande topic pagina's vindt u op de pagina **pagina's** . 
 
-1. Selecteer **pagina's**op de pagina Onderwerpcentrum .</br>
-2. Op de pagina **Pagina's** ziet u een lijst met onderwerppagina's. Gebruik het vak Zoeken om de onderwerppagina te vinden die u wilt bijwerken. Klik op de naam van de onderwerppagina die u wilt bewerken.</br>
-3. Selecteer **bewerken**op de onderwerppagina . </br>
-4. Breng de wijzigingen aan die u nodig hebt op de pagina. Dit omvat updates voor de volgende velden:</br>
+1. Selecteer op de pagina onderwerp centrum de optie **pagina's**.</br>
+2. Op de pagina **pagina's** ziet u een lijst met onderwerpen over pagina's. Gebruik het zoekvak om te zoeken naar het onderwerp dat u wilt bijwerken. Klik op de naam van het onderwerp dat u wilt bewerken.</br>
+3. Selecteer **bewerken**op de pagina onderwerp. </br>
+4. Breng de gewenste wijzigingen aan in de pagina. Dit omvat updates voor de volgende velden:</br>
     a. Alternatieve namen</br>
     b. Beschrijving</br>
     c. Personen</br>
     d. Bestanden en pagina's</br>
     e. Sites</br>
-    f. U ook statische items aan de pagina toevoegen, zoals tekst, afbeeldingen of koppeling, door het canvaspictogram te selecteren.</br>
+    f. U kunt ook statische items toevoegen aan de pagina, zoals tekst, afbeeldingen of koppeling, door het papier pictogram te selecteren.</br>
 
-5. Selecteer **Opnieuw publiceren** om de wijzigingen op te slaan.
+5. Selecteer **opnieuw publiceren** om uw wijzigingen op te slaan.
 
 ## <a name="see-also"></a>Zie ook
 

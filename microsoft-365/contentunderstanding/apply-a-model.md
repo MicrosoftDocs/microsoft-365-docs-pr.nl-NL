@@ -1,5 +1,5 @@
 ---
-title: Een documentinzichtmodel toepassen op een documentbibliotheek (Voorbeeld)
+title: Een document in overeenstemming brengen met een documentbibliotheek (preview)
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -8,20 +8,20 @@ audience: admin
 ms.topic: article
 ms.service: ''
 search.appverid: ''
-localization_priority: Normal
+localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
-description: Meer informatie over het toepassen van een gepubliceerd model op een SharePoint-documentbibliotheek.
-ms.openlocfilehash: 7e5f3f02c2679769515b27026918a15c901c896e
-ms.sourcegitcommit: ea5e2f85bd6b609658545b120c7e08789b9686fd
+description: Meer informatie over het toepassen van een model op een SharePoint-documentbibliotheek.
+ms.openlocfilehash: 0658710704273ed04e9f2067413d1141773ef4aa
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46537252"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612678"
 ---
-# <a name="apply-a-document-understanding-model-preview"></a>Een documentbegripmodel toepassen (voorbeeld)
+# <a name="apply-a-document-understanding-model-preview"></a>Een document met informatie over model toepassen (preview)
 
 > [!Note] 
-> De inhoud in dit artikel is voor Project Cortex Private Preview. [Lees meer over Project Cortex](https://aka.ms/projectcortex).
+> De inhoud in dit artikel is bedoeld voor project cortex private preview. [Lees meer over project cortex](https://aka.ms/projectcortex).
 
 </br>
 
@@ -29,58 +29,58 @@ ms.locfileid: "46537252"
 
 </br>
 
-Nadat u het model voor het begrijpen van documenten hebt gepubliceerd, u dit toepassen op een SharePoint-documentbibliotheek in uw Microsoft 365-tenant.
+Nadat u het document hebt gepubliceerd, kunt u dit toepassen op een SharePoint-documentbibliotheek in uw Microsoft 365-Tenant.
 
 > [!Note]
-> U het model alleen toepassen op documentbibliotheken waar u toegang toe hebt.
+> U kunt alleen het model toepassen op documentbibliotheken waartoe u toegang hebt.
 
 
-## <a name="apply-your-model-to-a-document-library"></a>Pas uw model toe op een documentbibliotheek.
+## <a name="apply-your-model-to-a-document-library"></a>Uw model toepassen op een documentbibliotheek.
 
-Ga als voorbeeld van uw model naar een SharePoint-documentbibliotheek:
+Uw model toepassen op een SharePoint-documentbibliotheek:
 
-1. Selecteer op de startpagina van het model op de tegel **Model toepassen** op bibliotheken de optie **Model publiceren**. U **ook +Bibliotheek toevoegen** in de **bibliotheken selecteren met deze modelsectie.** </br>
+1. Selecteer op de startpagina van het model op de tegel **model toepassen op bibliotheken** de optie **model publiceren**. U kunt ook in de sectie **bibliotheken met behulp van deze model** sectie **+ bibliotheek toevoegen** selecteren. </br>
 
     ![Model toevoegen aan bibliotheek](../media/content-understanding/apply-to-library.png)</br>
 
-2. U vervolgens de SharePoint-site selecteren die de documentbibliotheek bevat waarop u het model wilt toepassen. Als de site niet wordt weergegeven in de lijst, gebruikt u het zoekvak om deze te zoeken.</br>
+2. Vervolgens kunt u de SharePoint-site met de documentbibliotheek selecteren waarop u het model wilt toepassen. Als de site niet in de lijst wordt weergegeven, gebruikt u het zoekvak om het te vinden.</br>
 
-    ![Een site selecteren](../media/content-understanding/site-search.png)</br>
+    ![Selecteer een site](../media/content-understanding/site-search.png)</br>
 
     > [!Note]
-    > U moet *machtigingen voor lijst beheren* of De rechten voor de documentbibliotheek *waarop* u het model toepast, bewerken.</br>
+    > U moet beschikken over machtigingen voor *lijst beheren* of rechten *bewerken* voor de documentbibliotheek waarop u het model wilt toepassen.</br>
 
-3. Nadat u de site hebt geselecteerd, moet u de documentbibliotheek selecteren waarop u het model wilt toepassen. In het voorbeeld selecteren we de documentbibliotheek *Documenten* op de *contoso-site voor het bijhouden van de aanvraag.*</br>
+3. Wanneer u de site hebt geselecteerd, moet u de documentbibliotheek selecteren waarop u het model wilt toepassen. In dit voorbeeld selecteren we de documentbibliotheek *documenten* op de site van *Contoso zaken bijhouden* .</br>
 
     ![Een documentbibliotheek selecteren](../media/content-understanding/select-doc-library.png)</br>
 
-4. Aangezien het model is gekoppeld aan een inhoudstype, wordt bij het toepassen van het model een weergave gemaakt voor het inhoudstype met de labels die u als kolommen hebt geëxtraheerd. Deze weergave is standaard de standaardweergave van de bibliotheek, maar u er optioneel voor kiezen om deze niet de standaardweergave te laten zijn door **Geavanceerde instellingen** te selecteren en deze nieuwe weergave **als standaard**instellen uit te stellen.</br>
+4. Aangezien het model is gekoppeld aan een inhoudstype, wordt er een weergave gemaakt voor het inhoudstype waarvan de etiketten zijn uitgepakt als kolommen wanneer u deze toepast op de bibliotheek. Deze weergave is standaard de standaardweergave van een bibliotheek, maar u kunt er ook voor kiezen om de standaardweergave niet te gebruiken door **Geavanceerde instellingen** te selecteren en **deze nieuwe weergave als standaard wilt instellen**.</br>
 
-    ![Bibliotheekweergave](../media/content-understanding/library-view.png)</br>
+    ![Bibliotheek weergave](../media/content-understanding/library-view.png)</br>
 
-5. Selecteer **Toevoegen** om het model toe te passen op de bibliotheek. 
-6. Op de startpagina van het model, in de **sectie Bibliotheken met dit model,** ziet u de URL naar de SharePoint-site vermeld.</br>
+5. Selecteer **toevoegen** om het model op de bibliotheek toe te passen. 
+6. Op de startpagina van het model, in de sectie **bibliotheken met dit model** , wordt de URL naar de SharePoint-site weergegeven.</br>
 
-    ![Bibliotheekweergave](../media/content-understanding/selected-library.png)</br>
+    ![Bibliotheek weergave](../media/content-understanding/selected-library.png)</br>
 
-7. Ga naar uw documentbibliotheek en zorg ervoor dat u zich in de documentbibliotheekweergave van het model bevindt. U zult merken dat als u de informatieknop naast de naam van de documentbibliotheek selecteert, er een bericht wordt weergegeven dat uw model is toegepast op de documentbibliotheek.
+7. Ga naar de documentbibliotheek en zorg ervoor dat de documentbibliotheek van het model wordt weergegeven. Als u de knop informatie naast de naam van de documentbibliotheek selecteert, ziet u dat u in een bericht ziet dat uw model is toegepast op de documentbibliotheek.
 
-    ![Bibliotheekweergave](../media/content-understanding/info-du.png)</br> 
+    ![Bibliotheek weergave](../media/content-understanding/info-du.png)</br> 
 
 
-Nadat u het model hebt toegepast op de documentbibliotheek, u beginnen met het uploaden van documenten naar de site en de resultaten bekijken.
+Nadat u het model hebt toegepast op de documentbibliotheek, kunt u beginnen met het uploaden van documenten naar de site en de resultaten bekijken.
 
-Het model identificeert alle bestanden met het bijbehorende inhoudstype van het model en geeft deze in uw weergave weer. Als uw model uitstanden heeft, worden in de weergave kolommen weergegeven voor de gegevens die u uit elk bestand haalt.
+Het model identificeert alle bestanden met het bijbehorende inhoudstype van het model en geeft ze weer in uw weergave. Als uw model uitpaknen bevat, worden in de weergave kolommen weergegeven voor de gegevens die u uit elk bestand uitpakt.
 
-### <a name="apply-the-model-to-files-already-in-the-document-library"></a>Het model toepassen op bestanden die al in de documentbibliotheek staan
+### <a name="apply-the-model-to-files-already-in-the-document-library"></a>Het model toepassen op al uw bestanden in de documentbibliotheek
 
-Hoewel een toegepast model alle bestanden verwerkt die naar de documentbibliotheek zijn geüpload nadat het is toegepast, u ook het volgende uitvoeren om het model uit te voeren op bestanden die al in de documentbibliotheek bestonden voordat het model werd toegepast:
+Wanneer een toegepast model alle bestanden die zijn geüpload naar de documentbibliotheek, uitvoert, kunt u ook het volgende doen om het model uit te voeren op bestanden die al waren opgenomen in de documentbibliotheek voordat het model wordt toegepast:
 
-1. Selecteer in uw documentbibliotheek de bestanden die u door uw model wilt verwerken.
-2. Nadat u uw bestanden hebt geselecteerd, wordt **Classificeren en extraheren** weergegeven op het lint van de documentbibliotheek. Selecteer **Classificeren en uitpakken**.
-3. De geselecteerde bestanden worden toegevoegd aan de wachtrij die moet worden verwerkt.
+1. Selecteer in de documentbibliotheek de bestanden die u wilt laten verwerken door uw model.
+2. Nadat u de bestanden hebt geselecteerd, worden **classificeerder en extract** weergegeven op het lint van de documentbibliotheek. Selecteer **classificeren en uitpakken**.
+3. De bestanden die u hebt geselecteerd, worden toegevoegd aan de wachtrij, zodat u deze kunt verwerken.
 
-      ![Classificeren en extraheren](../media/content-understanding/extract-classify.png)</br> 
+      ![Classificeren en uitpakken](../media/content-understanding/extract-classify.png)</br> 
 
 
 
@@ -88,9 +88,9 @@ Hoewel een toegepast model alle bestanden verwerkt die naar de documentbibliothe
 
 ## <a name="see-also"></a>Zie ook
 [Een classificatie maken](create-a-classifier.md)</br>
-[Een afzuiger maken](create-an-extractor.md)</br>
-[Overzicht van documentbegrip](document-understanding-overview.md)</br>
-[Een formulierverwerkingsmodel maken](create-a-form-processing-model.md)  
+[Een extractor maken](create-an-extractor.md)</br>
+[Overzicht van document](document-understanding-overview.md)</br>
+[Een formulier verwerkings model maken](create-a-form-processing-model.md)  
 
 
 
