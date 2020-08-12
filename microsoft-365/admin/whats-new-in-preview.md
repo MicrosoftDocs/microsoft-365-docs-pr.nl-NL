@@ -21,12 +21,12 @@ description: 'Het Microsoft 365-Beheercentrum: Hier vindt u meer informatie over
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 11a48ecf78c09c8e597d94821f747bf6ebd7e444
-ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
+ms.openlocfilehash: 84932e13a336d225894683f9e328cb44df8c0e78
+ms.sourcegitcommit: 6319e73b3690b4cf1b7932f2b9f51c2c99e70eaa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46602007"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46635020"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuw in het Microsoft 365-Beheercentrum
 
@@ -52,6 +52,17 @@ En als u meer wilt weten over de nieuwe functies in Microsoft-cloudservices, gaa
 - [Wat is er nieuw in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)
 - [Nieuwe functies in het SharePoint-Beheercentrum](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 - [Office-updates](https://docs.microsoft.com/OfficeUpdates/)
+
+## <a name="june-2020"></a>Juni 2020
+
+### <a name="keeping-up-with-office-whats-new-management"></a>Bijhouden wat het nieuwe beheer is van Office
+
+Een paar maanden geleden, hebben we een instelling toegevoegd waarmee u de [nieuwe berichten kunt beheren die in de Office-apps van een gebruiker worden weergegeven](#office-whats-new-management). Deze maand heb een nieuwe kaart met een startpagina uitgebracht waarmee u snel aan de slag kunt gaan met de **nieuwe** berichten die u wilt laten zien aan de gebruikers in uw organisatie.
+
+### <a name="docs-training-and-videos-june"></a>Documenten, cursussen en Video's (juni)
+
+- [Aan de slag met teams](https://support.microsoft.com/office/184f1aba-2f91-43f0-86e1-9fae607e24f6)
+
 
 ## <a name="may-2020"></a>Mei 2020
 

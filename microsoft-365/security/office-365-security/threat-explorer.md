@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het gebruik van de Verkenner en de real-time detectie van beveiligings &amp; compliance om bedreigingen effectiever en efficiënt te onderzoeken en te beantwoorden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 42cb7d2ef4fd04875c4bedc5f783e87cc99c13f5
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 635f7f32d16f18f49aa1920d82efd77bf27dc328
+ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577525"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46641639"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigings Verkenner en real-time ontdekken
 
@@ -207,6 +207,20 @@ Als u de Url's van de phishing in berichten en op Url's in phishingberichten wil
 
    > [!NOTE]
    > In het dialoogvenster URL-flyout worden de filters voor e-mailberichten verwijderd om de volledige weergave van de belichtings van de URL in uw omgeving te zien. Hiermee kunt u e-mailberichten in Explorer filteren, zodat u specifieke Url's kunt zoeken die potentiële bedreigingen zijn en vervolgens uw inzicht krijgen in de URL-belichting in uw omgeving (via het dialoogvenster URL-details) zonder dat u URL-filters hoeft toe te voegen aan de Verkenner-weergave.
+
+
+**Interpretatie van verschillende klikken op Verdicts**
+
+Binnen de E-mail-of URL-flyout, met de bovenste klikken en in onze filter ervaring, ziet u verschillende waarden als onderdeel van de jacht-ervaring. Hieronder ziet u de mogelijke waarden van klik Verdicts en de interpretatie ervan:
+
+- **Geen**: de verdict voor de URL is niet vastgelegd. De gebruiker heeft mogelijk geklikt door de URL.
+- **Toegestaan**: de gebruiker heeft toegestaan om naar de URL te navigeren.
+- **Geblokkeerd**: de gebruiker is geblokkeerd om naar de URL te navigeren.
+- **In behandeling verdict**: de gebruiker heeft weergegeven met de pagina detonatie in behandeling.
+- **Geblokkeerde overschreven**: de gebruiker is geblokkeerd en navigeert niet naar de URL. de gebruiker overrode het blok echter om naar de URL te gaan.
+- **Verdict in behandeling**: de gebruiker heeft weergegeven met de detonatie pagina. de gebruiker overrode echter de pagina om naar de URL te navigeren.
+- **Fout**: de gebruiker heeft de foutpagina weergegeven. Dit kan ook betekenen dat er een fout is opgetreden bij het vastleggen van de Verdict.
+- **Fout**: er is een onbekende uitzondering opgetreden tijdens het vastleggen van de Verdict. De gebruiker heeft mogelijk geklikt door de URL. 
 
 ## <a name="review-email-messages-reported-by-users"></a>Door gebruikers verzonden e-mailberichten bekijken
 
