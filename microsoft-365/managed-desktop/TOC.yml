@@ -103,6 +103,13 @@
     - name: Werken met Microsoft Managed Desktop
       href: working-with-managed-desktop/index.md
       items:
+        - name: Werken met rapporten
+          href: working-with-managed-desktop/reports.md
+          items:
+            - name: Compliancerapport voor apparaat
+              href: working-with-managed-desktop/device-compliance-report.md
+            - name: Inventarisrapport voor apparaat
+              href: working-with-managed-desktop/device-inventory-report.md
         - name: Werken met inzichten
           href: working-with-managed-desktop/insights.md
           items:
