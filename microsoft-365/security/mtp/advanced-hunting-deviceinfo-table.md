@@ -1,7 +1,7 @@
 ---
-title: DeviceInfo-tabel in het geavanceerde jachtschema
-description: Meer informatie over besturingssysteem, computernaam en andere machine-informatie in de DeviceInfo-tabel van het geavanceerde jachtschema
-keywords: geavanceerde jacht, bedreiging jacht, cyber bedreiging jacht, Microsoft threat protection, Microsoft 365, mtp, m365, zoeken, query, telemetrie, schema referentie, kusto, tabel, kolom, gegevenstype, beschrijving, machineinfo, DeviceInfo, apparaat, machine, OS, platform, gebruikers
+title: DeviceInfo-tabel in het geavanceerde jacht schema
+description: Meer informatie over het besturingssysteem, de computernaam en andere informatie over de computer in de tabel DeviceInfo van het schema geavanceerde jacht
+keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema naslag, kusto, tabel, kolom, gegevenstype, beschrijving, machineinfo, DeviceInfo, apparaat, computer, systeem, platform, gebruikers
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 526e210a472862593f2652e9b2b21957702c48f0
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 342e5747f2c59022ffef76f30e4845f26550c88a
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899277"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649083"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -31,31 +31,31 @@ ms.locfileid: "44899277"
 
 
 
-De `DeviceInfo` tabel in het geavanceerde [jachtschema](advanced-hunting-overview.md) bevat informatie over machines in de organisatie, waaronder de OS-versie, actieve gebruikers en de computernaam. Gebruik deze verwijzing om query's te construeren die informatie uit deze tabel retourneren.
+De `DeviceInfo` tabel in het [Geavanceerde bejachts](advanced-hunting-overview.md) schema bevat informatie over de computers in de organisatie, waaronder versie van het besturingssysteem, actieve gebruikers en computernaam. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
 
-Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor informatie over andere tabellen in het geavanceerde jachtschema.
+Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `Timestamp` | Datetime | Datum en tijdstip waarop de gebeurtenis is geregistreerd |
-| `DeviceId` | Tekenreeks | Unieke id voor de machine in de service |
-| `DeviceName` | Tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van de machine |
-| `ClientVersion` | Tekenreeks | Versie van de eindpuntagent of -sensor die op de machine wordt uitgevoerd |
-| `PublicIP` | Tekenreeks | Openbaar IP-adres dat door de ingebouwde machine wordt gebruikt om verbinding te maken met de Microsoft Defender ATP-service. Dit kan het IP-adres zijn van de machine zelf, een NAT-apparaat of een proxy |
-| `OSArchitecture` | Tekenreeks | Architectuur van het besturingssysteem dat op de machine draait |
-| `OSPlatform` | Tekenreeks | Platform van het besturingssysteem dat op de machine draait. Dit duidt op specifieke besturingssystemen, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7 |
-| `OSBuild` | Tekenreeks | Bouwversie van het besturingssysteem dat op de machine draait |
-| `IsAzureADJoined` | Booleaanse | Booleaanse indicator van de vraag of de machine is verbonden met de Azure Active Directory |
-| `LoggedOnUsers` | Tekenreeks | Lijst van alle gebruikers die op het moment van de gebeurtenis op de machine zijn aangemeld in de JSON-arrayindeling |
-| `RegistryDeviceTag` | Tekenreeks | Machinetag toegevoegd via het register |
-| `ReportId` | Lange | Gebeurtenis-id op basis van een herhalende teller. Om unieke gebeurtenissen te identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen DeviceName en Timestamp |
-| `OSVersion` | Tekenreeks | Versie van het besturingssysteem dat op de machine draait |
-| `MachineGroup` | Tekenreeks | Machinegroep van de machine. Deze groep wordt gebruikt door op rollen gebaseerde toegangscontrole om de toegang tot de machine te bepalen |
+| `Timestamp` | tijd | De datum en tijd waarop de gebeurtenis is vastgelegd |
+| `DeviceId` | tekenreeks | Unieke id voor de computer in de service |
+| `DeviceName` | tekenreeks | FQDN-naam (Fully Qualified Domain Name) van de computer |
+| `ClientVersion` | tekenreeks | Versie van de eindpunt-agent of-sensor die op de computer wordt uitgevoerd |
+| `PublicIP` | tekenreeks | Openbaar IP-adres dat wordt gebruikt door de gehoste computer om verbinding te maken met de Microsoft Defender ATP-service. Dit kan het IP-adres van de computer, een NAT-apparaat of een proxy zijn |
+| `OSArchitecture` | tekenreeks | Architectuur van het besturingssysteem dat op de computer wordt uitgevoerd |
+| `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat op de computer wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties in dezelfde familie, zoals Windows 10 en Windows 7 |
+| `OSBuild` | tekenreeks | Build-versie van het besturingssysteem dat op de computer wordt uitgevoerd |
+| `IsAzureADJoined` | Boolean | Booleaanse aanduiding of de computer is verbonden met Azure Active Directory |
+| `LoggedOnUsers` | tekenreeks | Lijst met alle gebruikers die op de computer zijn aangemeld wanneer de gebeurtenis in de JSON-matrix indeling wordt gebruikt |
+| `RegistryDeviceTag` | tekenreeks | De code van de computer die is toegevoegd via het register |
+| `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de naam van het apparaat en de timestamp-kolommen. |
+| `OSVersion` | tekenreeks | Versie van het besturingssysteem dat op de computer wordt uitgevoerd |
+| `MachineGroup` | tekenreeks | Computergroep van de computer. Deze groep wordt gebruikt door toegangsbeheer op basis van rollen om de toegang tot de computer te bepalen. |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)
+- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

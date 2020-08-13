@@ -1,7 +1,7 @@
 ---
-title: E-mailEvenementen tabel in de geavanceerde jacht schema
-description: Meer informatie over gebeurtenissen die zijn gekoppeld aan Microsoft 365-e-mails in de tabel E-events van het geavanceerde jachtschema
-keywords: geavanceerde jacht, bedreiging jacht, cyber bedreiging jacht, Microsoft threat protection, Microsoft 365, mtp, m365, zoeken, query, telemetrie, schema referentie, kusto, tabel, kolom, gegevenstype, beschrijving, E-mailevents, netwerkbericht id, afzender, ontvanger, bijlage id, bijlage naam, malware verdict, phishing verdict, bijlage tellen, link tellen, url tellen
+title: EmailEvents-tabel in het geavanceerde jacht schema
+description: Meer informatie over gebeurtenissen die zijn gekoppeld aan Microsoft 365-e-mails in de tabel EmailEvents van het schema geavanceerde jacht
+keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat-jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema Reference, kusto, tabel, Column, datatype, een beschrijving, EmailEvents, de naam van de bijlage, de afzender, de naam van de e-mail, het aantal koppelingen, het aantal url's
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: eefd6848e5ae0ddb077db576d55aaf9555e33729
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: c4f7f578aef3612696a8d5ab2a76111ff16d27b7
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44898991"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648885"
 ---
 # <a name="emailevents"></a>EmailEvents
 
@@ -31,43 +31,43 @@ ms.locfileid: "44898991"
 
 
 
-De `EmailEvents` tabel in het geavanceerde [jachtschema](advanced-hunting-overview.md) bevat informatie over gebeurtenissen met betrekking tot de verwerking van e-mails op Office 365 ATP. Gebruik deze verwijzing om query's te construeren die informatie uit deze tabel retourneren.
+De `EmailEvents` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over gebeurtenissen die betrekking hebben op het verwerken van e-mailberichten in Office 365 ATP. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
 
-Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor informatie over andere tabellen in het geavanceerde jachtschema.
+Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `Timestamp` | Datetime | Datum en tijdstip waarop de gebeurtenis is geregistreerd |
-| `EmailId` | Tekenreeks | Unieke e-mail- en ontvanger-id |
-| `NetworkMessageId` | Tekenreeks | Unieke id voor de e-mail, gegenereerd door Microsoft 365 |
-| `InternetMessageId` | Tekenreeks | Openbare id voor de e-mail die is ingesteld door het verzendende e-mailsysteem |
-| `SenderMailFromAddress` | Tekenreeks | E-mailadres verzenden in de koptekst MAIL FROM, ook wel bekend als de afzender van de envelop of het adres Retourpad |
-| `SenderFromAddress` | Tekenreeks | E-mailadres van afzender in de koptekst VAN, die zichtbaar is voor e-mailontvangers op hun e-mailclients |
-| `SenderMailFromDomain` | Tekenreeks | Afzenderdomein in de koptekst MAIL FROM, ook wel de afzender van de envelop of het adres Retourpad genoemd |
-| `SenderFromDomain` | Tekenreeks | Afzenderdomein in de kop van FROM, dat zichtbaar is voor e-mailontvangers op hun e-mailclients |
-| `SenderIPv4` | Tekenreeks | IPv4-adres van de laatst gedetecteerde e-mailserver die het bericht heeft doorgegeven |
-| `SenderIPv6` | Tekenreeks | IPv6-adres van de laatst gedetecteerde e-mailserver die het bericht heeft doorgegeven |
-| `RecipientEmailAddress` | Tekenreeks | E-mailadres van de ontvanger of e-mailadres van de ontvanger na uitbreiding van de distributielijst |
-| `Subject` | Tekenreeks | Onderwerp van de e-mail |
-| `EmailClusterId` | Tekenreeks | Identificatie voor de groep van soortgelijke e-mails geclusterd op basis van heuristische analyse van de inhoud ervan |
-| `EmailDirection` | Tekenreeks | Richting van de e-mail ten opzichte van uw netwerk: Binnenkomend, Uitgaand, Intra-org |
-| `DeliveryAction` | Tekenreeks | Leveringsactie van de e-mail: geleverd, ge junked, geblokkeerd of vervangen |
-| `DeliveryLocation` | Tekenreeks | Locatie waar de e-mail is bezorgd: Postvak IN/map, On-premises/Extern, Ongewenste e-mail, Quarantaine, Mislukt, Verwijderd, Verwijderde items |
-| `PhishFilterVerdict` | Tekenreeks | Oordeel van de e-mail filteren stack op de vraag of de e-mail is phish: Phish of Niet Phish |
-| `PhishDetectionMethod` | Tekenreeks | Methode die wordt gebruikt om de e-mail te detecteren als een phish: Kwaadaardige URL reputatie, ATP Safe Links URL Detonation, Advanced phish filter, General phish filter, Anti-Spoof: Intra-org, Anti-spoof: external domain, Domain imitatation, User imitatation, Brand imitatation |
-| `MalwareFilterVerdict` | Tekenreeks | Oordeel van de e-mail filteren stack op de vraag of de e-mail bevat malware: Malware, Niet malware |
-| `MalwareDetectionMethod` | Tekenreeks | Methode die wordt gebruikt om malware in de e-mail te detecteren: Antimalware engine, Bestandsreputatie, ATP Safe Attachments |
-| `FinalEmailAction` | Tekenreeks | Definitieve actie op de e-mail op basis van filteroordeel, beleid en gebruikersacties: Bericht verplaatsen naar map ongewenste e-mail, X-header toevoegen, onderwerp wijzigen, Bericht omleiden, bericht verwijderen, verzenden naar quarantaine, Geen actie ondernomen, BCC-bericht |
-| `FinalEmailActionPolicy` | Tekenreeks | Actie beleid dat van kracht werd: Antispam high-confidence, Antispam, Antispam bulk mail, Antispam phishing, Anti-phishing domein imitatie, Anti-phishing gebruiker imitatie, Anti-phishing spoof, Anti-phishing grafiek imitatie, Antimalware, Safe Attachments, Enterprise Transport Rules (ETR) |
-| `FinalEmailActionPolicyGuid` | Tekenreeks | Unieke id voor het beleid dat de uiteindelijke e-mailactie heeft bepaald |
-| `AttachmentCount` | Int | Aantal bijlagen in de e-mail |
-| `UrlCount` | Int | Aantal ingesloten URL's in de e-mail |
-| `EmailLanguage` | Tekenreeks | Gedetecteerde taal van de e-mailinhoud |
+| `Timestamp` | tijd | De datum en tijd waarop de gebeurtenis is vastgelegd |
+| `EmailId` | tekenreeks | Unieke e-mail en geadresseerden-id |
+| `NetworkMessageId` | tekenreeks | Unieke id voor de e-mail, gegenereerd door Microsoft 365 |
+| `InternetMessageId` | tekenreeks | Openbare id voor het e-mailbericht dat wordt ingesteld door het verzendende e-mailsysteem |
+| `SenderMailFromAddress` | tekenreeks | E-mailadres van afzender in de header E-mail van, ook wel bekend als de afzender voor de envelop of het adres van de afzender. |
+| `SenderFromAddress` | tekenreeks | Het e-mailadres van de afzender in de header van, die zichtbaar is voor e-mail geadresseerden op de e-mailclients |
+| `SenderMailFromDomain` | tekenreeks | Het domein van de afzender in de header E-mail van, ook wel bekend als de afzender voor de envelop of het adres van de afzender. |
+| `SenderFromDomain` | tekenreeks | Het domein van de afzender in de van-header, die zichtbaar is voor e-mail geadresseerden op de e-mailclients |
+| `SenderIPv4` | tekenreeks | IPv4-adres van de laatst gedetecteerde e-mailserver die het bericht heeft doorgestuurd |
+| `SenderIPv6` | tekenreeks | IPv6-adres van de laatst gedetecteerde e-mailserver die het bericht heeft doorgestuurd |
+| `RecipientEmailAddress` | tekenreeks | Het e-mailadres van de geadresseerde of het e-mailadres van de geadresseerde na expansie van distributielijst |
+| `Subject` | tekenreeks | Onderwerp van de e-mail |
+| `EmailClusterId` | tekenreeks | Id van de groep verwante e-mailberichten gegroepeerd op basis van een heuristische analyse van de inhoud |
+| `EmailDirection` | tekenreeks | Richting van de e-mail ten opzichte van uw netwerk: binnenkomende, uitgaande, intra organisatie |
+| `DeliveryAction` | tekenreeks | Bezorgings actie van de e-mail: bezorgd, ongewenst, geblokkeerd of vervangen |
+| `DeliveryLocation` | tekenreeks | De locatie waar het e-mailbericht is bezorgd: Postvak in/map, on-premises/extern, ongewenste E-mail, Quarantine, mislukt, neergezette, verwijderde items |
+| `PhishFilterVerdict` | tekenreeks | Verdict van de filters stapel voor het filteren van e-mail of het e-mailbericht is gephishd: phishing of niet phishing |
+| `PhishDetectionMethod` | tekenreeks | Methode die wordt gebruikt om het e-mailbericht als een phishing op te sporen: schadelijke URL-reputatie, vrije-vorm-URL-detonatie, algemeen phishing-filter, algemeen phishing-filter, anti-bedrog: intra organisatie, anti-spoof: extern domein, domein imitatie, gebruikers imitatie, merk persoon |
+| `MalwareFilterVerdict` | tekenreeks | Verdict van de filters stapel voor e-mail om te bepalen of het e-mailbericht malware bevat: malware, geen malware |
+| `MalwareDetectionMethod` | tekenreeks | Methode voor het detecteren van malware in de e-mail: antimalware-engine, reputatie van bestanden, veilige bijlagen van ATP |
+| `FinalEmailAction` | tekenreeks | Laatste actie van de e-mail op basis van filter Verdict, beleidsregels en gebruikersacties: bericht verplaatsen naar map Ongewenste e-mail, X-header toevoegen, onderwerp wijzigen, bericht omleiden, geen actie ondernomen, berichten verzenden naar Quarantine |
+| `FinalEmailActionPolicy` | tekenreeks | Actiebeleid dat heeft geduurd: spam hoge betrouwbaarheid, spam, spam bulkmail, spam phishing, anti phishing Domain disuserion, anti phishing, anti phishing Graph, anti phishing Graph, anti malafide Graph, anti malafide Graph, anti malafide Graph (ETR toe) |
+| `FinalEmailActionPolicyGuid` | tekenreeks | Unieke id voor het beleid dat de definitieve actie heeft bepaald |
+| `AttachmentCount` | int | Aantal bijlagen in het e-mailbericht |
+| `UrlCount` | int | Aantal ingesloten Url's in het e-mailbericht |
+| `EmailLanguage` | tekenreeks | Gedetecteerde taal van de e-mail inhoud |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)
+- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

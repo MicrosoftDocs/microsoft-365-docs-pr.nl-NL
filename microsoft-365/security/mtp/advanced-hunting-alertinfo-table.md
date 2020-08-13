@@ -1,7 +1,7 @@
 ---
-title: AlertInfo-tabel in het geavanceerde jachtschema
-description: Meer informatie over gebeurtenissen voor het genereren van waarschuwingen in de AlertInfo-tabel van het geavanceerde jachtschema
-keywords: geavanceerde jacht, bedreiging jacht, cyber bedreiging jacht, Microsoft threat protection, Microsoft 365, mtp, m365, zoeken, query, telemetrie, schema referentie, kusto, tabel, kolom, gegevenstype, beschrijving, AlertInfo, alert, ernst, categorie, MITRE, ATT&CK, Microsoft Defender ATP, MDATP, Office 365 ATP, Microsoft Cloud App Security, MCAS, en Azure ATP
+title: AlertInfo-tabel in het geavanceerde jacht schema
+description: Meer informatie over gebeurtenissen voor het genereren van waarschuwingen in de tabel AlertInfo van het schema geavanceerde jacht
+keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema Reference, kusto, Table, Column, datatype, Description, AlertInfo, alert,, categorie, Mitre,&ATT, de versie van Microsoft-apps, MDATP, Office 365, MCAS
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: a1290ee415073a9cb3948bc4b0cc6bb3ae13285b
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 36e76ae097dc31c6d7eb7eeff18dd2128ff0cc5c
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899015"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649485"
 ---
 # <a name="alertinfo"></a>AlertInfo
 
@@ -31,25 +31,25 @@ ms.locfileid: "44899015"
 
 
 
-De `AlertInfo` tabel in het geavanceerde [jachtschema](advanced-hunting-overview.md) bevat informatie over waarschuwingen van Microsoft Defender ATP, Office 365 ATP, Microsoft Cloud App Security en Azure ATP. Gebruik deze verwijzing om query's te construeren die informatie uit deze tabel retourneren.
+De `AlertInfo` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over waarschuwingen uit Microsoft Defender atp, Office 365 ATP, Microsoft Cloud app Security en Azure ATP. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
 
-Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor informatie over andere tabellen in het geavanceerde jachtschema.
+Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `Timestamp` | Datetime | Datum en tijdstip waarop de gebeurtenis is geregistreerd |
-| `AlertId` | Tekenreeks | Unieke id voor de waarschuwing |
-| `Title` | Tekenreeks | Titel van de waarschuwing |
-| `Category` | Tekenreeks | Type bedreigingsindicator of inbreukactiviteit die door de waarschuwing wordt geïdentificeerd |
-| `Severity` | Tekenreeks | Geeft de potentiële impact (hoog, gemiddeld of laag) aan van de dreigingsindicator of inbreukactiviteit die door de waarschuwing wordt geïdentificeerd |
-| `ServiceSource` | Tekenreeks | Product of dienst die de waarschuwingsinformatie heeft verstrekt |
-| `DetectionSource` | Tekenreeks | Detectietechnologie of sensor die de opmerkelijke component of activiteit identificeerde |
-| `AttackTechniques` | Tekenreeks | MITRE ATT&CK-technieken die zijn gekoppeld aan de activiteit die de waarschuwing heeft geactiveerd |
+| `Timestamp` | tijd | De datum en tijd waarop de gebeurtenis is vastgelegd |
+| `AlertId` | tekenreeks | Unieke id voor de waarschuwing |
+| `Title` | tekenreeks | Titel van de waarschuwing |
+| `Category` | tekenreeks | Type bedreigings indicator of schendings activiteit aangegeven door de waarschuwing |
+| `Severity` | tekenreeks | Hiermee wordt de potentiële impact (hoog, normaal of laag) aangegeven van de bedreigings indicator of de melding over de overtreding, aangegeven door de waarschuwing |
+| `ServiceSource` | tekenreeks | Het product of de service die de waarschuwingsinformatie heeft verstrekt |
+| `DetectionSource` | tekenreeks | Detectie-technologie of-sensor waarmee de opmerkelijke component of activiteit wordt aangegeven |
+| `AttackTechniques` | tekenreeks | MITRE ATT&verzonken technieken die zijn gekoppeld aan de activiteit waarmee de waarschuwing is geactiveerd |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)
+- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

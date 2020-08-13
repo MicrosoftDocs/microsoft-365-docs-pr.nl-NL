@@ -1,5 +1,5 @@
 ---
-title: Spam-, spam- en phishingberichten melden aan Microsoft
+title: Spam, geen spam en phishingberichten melden bij Microsoft
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,29 +15,30 @@ search.appverid:
 ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen meer te weten komen over de verschillende manieren om goede en slechte berichten en bestanden aan Microsoft te melden voor analyse.
-ms.openlocfilehash: f77346b1f7551ade572c695e1c2d29e402c6c2a2
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+description: Beheerders kunnen informatie vinden over de verschillende manieren waarop u goede en beschadigde berichten en bestanden aan Microsoft kunt rapporteren voor analyse.
+ms.openlocfilehash: 44254aa6e5c43e0eac1d63c153b1212b4f099840
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206452"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652823"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Berichten en bestanden rapporteren aan Microsoft
 
-In Microsoft 365-organisaties met postvakken in Exchange Online- of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken, hebben zowel gebruikers als beheerders verschillende methoden voor het rapporteren van e-mailberichten en bestanden aan Microsoft.
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken kunnen gebruikers en beheerders verschillende methoden voor het melden van e-mailberichten en bestanden voor Microsoft.
 
-|||
+****
+
+|Methode|Beschrijving|
 |---|---|
-|**Methode**|**Beschrijving**|
-|[Beheerbeheer gebruiken om vermoedelijke spam, phish, URL's en bestanden bij Microsoft in te dienen](admin-submission.md)|De aanbevolen rapportagemethode voor beheerders in organisaties met Exchange Online-postvakken (niet beschikbaar in zelfstandige EOP).|
-|[De invoegtoepassing Bericht rapporteren inschakelen](enable-the-report-message-add-in.md)|Werkt met Outlook, Outlook voor Mac en de webversie van Outlook (voorheen outlook web app) en is de aanbevolen invoegtoepassing. <br/><br/> Afhankelijk van uw abonnement zijn berichten die gebruikers met de invoegtoepassing hebben gerapporteerd, beschikbaar in [de portal Voor beheerdersinzendingen,](admin-submission.md) [de resultaten van geautomatiseerd onderzoek en respons (AIR),](air-view-investigation-results.md)het [rapport met door de gebruiker gerapporteerde berichten](view-email-security-reports.md#user-reported-messages-report)en Threat [Explorer](threat-explorer-views.md#email--submissions). <br/><br/> U configureren dat gerapporteerde berichten worden gekopieerd of doorgestuurd naar een postvak dat u opgeeft. Zie [Een postvak opgeven voor het indienen van spam en phishingberichten in EOP voor](user-submission.md)meer informatie.|
-|[De invoegtoepassing Voor het melden van ongewenste e-mail voor Microsoft Outlook installeren en gebruiken](junk-email-reporting-add-in-for-microsoft-outlook.md)|Werkt alleen in Outlook.|
-|[Ongewenste en phishing-e-mail melden in de webversie van Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)|Gebruik de ingebouwde mogelijkheden in de webversie van Outlook voor organisaties met Exchange Online-postvakken (niet beschikbaar in zelfstandige EOP). <br/><br/> Berichten die gebruikers rapporteren, zijn beschikbaar in [de portal Voor inzendingen beheerder](admin-submission.md). <br/><br/> U configureren dat gerapporteerde berichten worden gekopieerd of doorgestuurd naar een postvak dat u opgeeft. Zie [Een postvak opgeven voor het indienen van spam- en phishingberichten in Exchange online](user-submission.md)voor meer informatie.|
-|[Berichten handmatig verzenden naar Microsoft voor analyse](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)|Koppelberichten handmatig verzenden naar specifieke Microsoft-e-mailadressen voor spam, geen spam en phishing.|
-|[Regels voor e-mailstromen gebruiken om te zien wat uw gebruikers melden bij Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)|Meer informatie over het maken van een regel voor e-mailstroom (ook wel transportregel genoemd) die u op de hoogte stelt wanneer gebruikers berichten rapporteren aan Microsoft voor analyse.|
+|[Gebruik beheer ter verzending om verdachte spam, phishing, Url's en bestanden bij Microsoft te verzenden.](admin-submission.md)|De aanbevolen rapportagemethode voor beheerders in organisaties met postvakken van Exchange Online (niet beschikbaar in zelfstandige EOP).|
+|[De invoegtoepassing Bericht rapporteren inschakelen](enable-the-report-message-add-in.md)|Werkt met Outlook, Outlook voor Mac, en de webversie van Outlook (voorheen Outlook Web app), en de aanbevolen invoegtoepassing. <br/><br/> Afhankelijk van uw abonnement zijn berichten die gebruikers hebben gerapporteerd met de invoegtoepassing beschikbaar in [de portal van de beheerder-Portal](admin-submission.md), het [geautomatiseerde onderzoek antwoord en de reactie resultaten (lucht)](air-view-investigation-results.md), het rapport door de [gebruiker gerapporteerde berichten](view-email-security-reports.md#user-reported-messages-report)en de [Threat Explorer](threat-explorer-views.md#email--submissions) <br/><br/> U kunt gerapporteerde berichten configureren voor kopiëren of omleiden naar een door u opgegeven postvak. Zie voor meer informatie [een postvak opgeven voor het verzenden van spamberichten en phishingberichten in EOP](user-submission.md).|
+|[De invoegtoepassing voor het rapporteren van ongewenste E-mail voor Microsoft Outlook installeren en gebruiken](junk-email-reporting-add-in-for-microsoft-outlook.md)|Werkt alleen in Outlook.|
+|[Ongewenste e-mail en phishingberichten rapporteren in de webversie van Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)|De ingebouwde mogelijkheden in de webversie van Outlook gebruiken voor organisaties met postvakken van Exchange Online (niet beschikbaar in zelfstandige EOP). <br/><br/> Berichten die gebruikers rapporteren, zijn beschikbaar in [de portal van de beheerder ingediende beheerders](admin-submission.md). <br/><br/> U kunt gerapporteerde berichten configureren voor kopiëren of omleiden naar een door u opgegeven postvak. Zie voor meer informatie [een postvak opgeven voor het overzetten van gebruikers van spam en phishing-berichten in Exchange Online](user-submission.md).|
+|[Berichten handmatig bij Microsoft indienen voor analyse](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)|Handmatig bijgevoegde berichten verzenden naar specifieke Microsoft-e-mailadressen voor spam, geen spam en phishing.|
+|[Regels voor e-mailstromen gebruiken om te zien wat uw gebruikers melden bij Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)|In dit artikel leest u hoe u een e-mail stroom regel (ook wel een transportregel genoemd) maakt waarmee u wordt gewaarschuwd wanneer gebruikers berichten aan Microsoft voor analyse rapporteren.
 |||
-|[Malware en niet-malware indienen bij Microsoft voor analyse](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Gebruik de Microsoft Security Intelligence-site om bijlagen en andere bestanden in te dienen.|
+|[Malware en niet-malware indienen bij Microsoft voor analyse](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Via de Microsoft Security Intelligence-site kunt u bijlagen en andere bestanden verzenden.|
 |
 
-Als de spam- of phishingberichten in quarantaine zijn geplaatst in plaats van geleverd, kunnen gebruikers de berichten aan Microsoft rapporteren via de quarantaineportal in het Security & Compliance Center. Zie In [quarantaine geplaatste berichten zoeken en vrijgeven als gebruiker in Microsoft 365](find-and-release-quarantined-messages-as-a-user.md).
+Als de spam of phishing-berichten zijn gequarantined in plaats van bezorgd, kunnen gebruikers de berichten aan Microsoft melden via de portal voor beveiliging & naleving. Voor meer informatie raadpleegt u geplaatste [berichten als een gebruiker in Microsoft 365 zoeken en vrijgeven](find-and-release-quarantined-messages-as-a-user.md).

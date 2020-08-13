@@ -1,7 +1,7 @@
 ---
-title: MailAttachmentInfo tabel in het geavanceerde jachtschema
-description: Meer informatie over e-mailbijlagen vindt u in de tabel EmailAttachmentInfo van het geavanceerde jachtschema
-keywords: geavanceerde jacht, bedreiging jacht, cyber bedreiging jacht, Microsoft threat protection, Microsoft 365, mtp, m365, zoeken, query, telemetrie, schema referentie, kusto, tabel, kolom, gegevenstype, beschrijving, EmailAttachmentInfo, netwerk bericht id, afzender, ontvanger, bijlage id, bijlage naam, malware verdict
+title: EmailAttachmentInfo-tabel in het geavanceerde jacht schema
+description: Meer informatie over e-mailbijlage gegevens in de tabel EmailAttachmentInfo van het schema geavanceerde jacht
+keywords: geavanceerde jacht, bedreigings jacht, Cyber bedreigings jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema Reference, kusto, Table, Column, datatype, een beschrijving, EmailAttachmentInfo, e-mail type, naam van schadelijke software verdict
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: c396689942a72a03120f0acd41d0d76abb720702
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 2f050885d731563c27100b2d14a3c32cd1a84df1
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899397"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648907"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -31,27 +31,27 @@ ms.locfileid: "44899397"
 
 
 
-De `EmailAttachmentInfo` tabel in het geavanceerde [jachtschema](advanced-hunting-overview.md) bevat informatie over bijlagen in e-mails die door Office 365 ATP worden verwerkt. Gebruik deze verwijzing om query's te construeren die informatie uit deze tabel retourneren.
+De `EmailAttachmentInfo` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over bijlagen voor e-mailberichten die zijn verwerkt door Office 365 ATP. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
 
-Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor informatie over andere tabellen in het geavanceerde jachtschema.
+Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `Timestamp` | Datetime | Datum en tijdstip waarop de gebeurtenis is geregistreerd |
-| `AttachmentId` | Tekenreeks | Unieke id voor e-mailbijlagen |
-| `NetworkMessageId` | Tekenreeks | Unieke id voor de e-mail, gegenereerd door Microsoft 365 |
-| `SenderFromAddress` | Tekenreeks | E-mailadres van afzender in de koptekst VAN, die zichtbaar is voor e-mailontvangers op hun e-mailclients |
-| `RecipientEmailAddress` | Tekenreeks | E-mailadres van de ontvanger of e-mailadres van de ontvanger na uitbreiding van de distributielijst |
-| `FileName` | Tekenreeks | Naam van het bestand waarop de geregistreerde actie is toegepast |
-| `FileType` | Tekenreeks | Type bestandsextensie |
-| `SHA256` | Tekenreeks | SHA-256 van het bestand waarop de geregistreerde actie is toegepast. Dit veld wordt meestal niet ingevuld - gebruik de SHA1-kolom indien beschikbaar. |
-| `MalwareFilterVerdict` | Tekenreeks | Oordeel van de e-mail filteren stack op de vraag of de e-mail bevat malware: Malware, Niet malware |
-| `MalwareDetectionMethod` | Tekenreeks | Methode die wordt gebruikt om malware in de e-mail te detecteren: Antimalware engine, Bestandsreputatie, ATP Safe Attachments |
+| `Timestamp` | tijd | De datum en tijd waarop de gebeurtenis is vastgelegd |
+| `AttachmentId` | tekenreeks | Unieke e-mailbijlage-id |
+| `NetworkMessageId` | tekenreeks | Unieke id voor de e-mail, gegenereerd door Microsoft 365 |
+| `SenderFromAddress` | tekenreeks | Het e-mailadres van de afzender in de header van, die zichtbaar is voor e-mail geadresseerden op de e-mailclients |
+| `RecipientEmailAddress` | tekenreeks | Het e-mailadres van de geadresseerde of het e-mailadres van de geadresseerde na expansie van distributielijst |
+| `FileName` | tekenreeks | De naam van het bestand waarop de opgenomen actie is toegepast |
+| `FileType` | tekenreeks | Type bestandsextensie |
+| `SHA256` | tekenreeks | SHA-256 van het bestand waarop de opgenomen actie is toegepast. Dit veld wordt meestal niet ingevuld, met behulp van de SHA1-kolom. |
+| `MalwareFilterVerdict` | tekenreeks | Verdict van de filters stapel voor e-mail om te bepalen of het e-mailbericht malware bevat: malware, geen malware |
+| `MalwareDetectionMethod` | tekenreeks | Methode voor het detecteren van malware in de e-mail: antimalware-engine, reputatie van bestanden, veilige bijlagen van ATP |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)
+- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

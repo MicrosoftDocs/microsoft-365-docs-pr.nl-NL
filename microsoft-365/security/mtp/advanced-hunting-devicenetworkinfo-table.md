@@ -1,7 +1,7 @@
 ---
-title: DeviceNetworkInfo-tabel in het geavanceerde jachtschema
-description: Meer informatie over netwerkconfiguratie-informatie in de tabel DeviceNetworkInfo van het geavanceerde jachtschema
-keywords: geavanceerde jacht, bedreiging jacht, cyber bedreiging jacht, Microsoft threat protection, Microsoft 365, mtp, m365, zoeken, query, telemetrie, schema referentie, kusto, tabel, kolom, datatype, beschrijving, machinenetworkinfo, DeviceNetworkInfo, apparaat, machine, mac, ip, adapter, dns, dhcp, gateway, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel, tunnel
+title: DeviceNetworkInfo-tabel in het geavanceerde jacht schema
+description: Meer informatie over Netwerkconfiguratiegegevens in de tabel DeviceNetworkInfo van het schema geavanceerde jacht
+keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema naslag, kusto, tabel, kolom, gegevenstype, beschrijving, machinenetworkinfo, DeviceNetworkInfo, apparaat, computer, Mac, IP, adapter, computer, Mac, IP, adapter, DNS, DHCP, gateway, tunnel
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 0fd6000f4d3a4b9fafb0eede74cbbe4e6c3d494e
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 141d2589c5e3c5d8746ba58de01dd63ef0f0c576
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899241"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649365"
 ---
 # <a name="devicenetworkinfo"></a>DeviceNetworkInfo
 
@@ -31,32 +31,32 @@ ms.locfileid: "44899241"
 
 
 
-De `DeviceNetworkInfo` tabel in het geavanceerde [jachtschema](advanced-hunting-overview.md) bevat informatie over netwerkconfiguratie van machines, waaronder netwerkadapters, IP- en MAC-adressen en verbonden netwerken of domeinen. Gebruik deze verwijzing om query's te construeren die informatie uit deze tabel retourneren.
+De `DeviceNetworkInfo` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over de netwerkconfiguratie van machines, waaronder netwerkadapters, IP-adressen en MAC-adressen, en verbonden netwerken of domeinen. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
 
-Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor informatie over andere tabellen in het geavanceerde jachtschema.
+Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `Timestamp` | Datetime | Datum en tijdstip waarop de gebeurtenis is geregistreerd |
-| `DeviceId` | Tekenreeks | Unieke id voor de machine in de service |
-| `DeviceName` | Tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van de machine |
-| `ReportId` | Lange | Gebeurtenis-id op basis van een herhalende teller. Om unieke gebeurtenissen te identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen DeviceName en Timestamp |
-| `NetworkAdapterName` | Tekenreeks | Naam van de netwerkadapter |
-| `MacAddress` | Tekenreeks | MAC-adres van de netwerkadapter |
-| `NetworkAdapterType` | Tekenreeks | Type netwerkadapter. Voor de mogelijke waarden, verwijzen naar [deze opsoming](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2) |
-| `NetworkAdapterStatus` | Tekenreeks | Operationele status van de netwerkadapter. Voor de mogelijke waarden, verwijzen naar [deze opsoming](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.operationalstatus?view=netframework-4.7.2) |
-| `TunnelType` | Tekenreeks | Tunnelingprotocol, als de interface hiervoor wordt gebruikt, bijvoorbeeld 6to4, Teredo, ISATAP, PPTP, SSTP en SSH |
-| `ConnectedNetworks` | Tekenreeks | Netwerken waarmee de adapter is verbonden. Elke JSON-array bevat de netwerknaam, categorie (openbaar, privé of domein), een beschrijving en een vlag die aangeeft of deze openbaar is verbonden met internet |
-| `DnsAddresses` | Tekenreeks | DNS-serveradressen in JSON-arrayindeling |
-| `IPv4Dhcp` | Tekenreeks | IPv4-adres van DHCP-server |
-| `IPv6Dhcp` | Tekenreeks | IPv6-adres van DHCP-server |
-| `DefaultGateways` | Tekenreeks | Standaardgatewayadressen in JSON-arrayindeling |
-| `IPAddresses` | Tekenreeks | JSON-array met alle IP-adressen die aan de adapter zijn toegewezen, samen met hun respectieve subnetvoorvoegsel en IP-adresruimte, zoals openbaar, privé of linklokal |
+| `Timestamp` | tijd | De datum en tijd waarop de gebeurtenis is vastgelegd |
+| `DeviceId` | tekenreeks | Unieke id voor de computer in de service |
+| `DeviceName` | tekenreeks | FQDN-naam (Fully Qualified Domain Name) van de computer |
+| `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de naam van het apparaat en de timestamp-kolommen. |
+| `NetworkAdapterName` | tekenreeks | Naam van de netwerkadapter |
+| `MacAddress` | tekenreeks | MAC-adres van de netwerkadapter |
+| `NetworkAdapterType` | tekenreeks | Type netwerkadapter. Voor de mogelijke waarden raadpleegt u [deze inventarisatie](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2) |
+| `NetworkAdapterStatus` | tekenreeks | De operationele status van de netwerkadapter. Voor de mogelijke waarden raadpleegt u [deze inventarisatie](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.operationalstatus?view=netframework-4.7.2) |
+| `TunnelType` | tekenreeks | Protocol voor tunneling, als de interface voor dit doel wordt gebruikt, bijvoorbeeld 6to4, Teredo, ISATAP, PPTP, SSTP en SSH |
+| `ConnectedNetworks` | tekenreeks | Netwerken waarmee de adapter is verbonden. Elke JSON-matrix bevat de netwerknaam, categorie (openbaar, privé of domein), een beschrijving en een vlag waarmee wordt aangegeven of de verbinding openbaar met internet is verbonden. |
+| `DnsAddresses` | tekenreeks | DNS-serveradressen in JSON-matrix indeling |
+| `IPv4Dhcp` | tekenreeks | IPv4-adres van DHCP-server |
+| `IPv6Dhcp` | tekenreeks | IPv6-adres van DHCP-server |
+| `DefaultGateways` | tekenreeks | Standaardgatewayadressen in de JSON-matrix indeling |
+| `IPAddresses` | tekenreeks | JSON-matrix met alle IP-adressen die zijn toegewezen aan de adapter, samen met hun bijbehorende subnet prefix en IP-adresruimte, zoals openbaar, privé, of link-local |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)
+- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

@@ -16,118 +16,121 @@ search.appverid:
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen meer te weten komen over bedreigingsbeveiliging in Microsoft 365 en configureren hoe deze voor uw organisatie kunnen worden gebruikt.
+description: Beheerders kunnen informatie lezen over bedreigingsbeveiliging in Microsoft 365 en configureren hoe u deze voor uw organisatie gebruikt.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 54500500095392ebfc3d93080701fa4715fc8448
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 8c2786ebda18b5730e1cbe93316f0d6cc319f6a9
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617394"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656625"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
-Microsoft 365 bevat een verscheidenheid aan functies voor bedreigingsbescherming. Hier is een handleiding die u gebruiken als checklist om ervoor te zorgen dat uw functies voor bedreigingsbescherming zijn ingesteld voor uw organisatie. Als u de functies voor bedreigingsbeveiliging in Office 365 nieuw bent of als u niet zeker weet waar u moet beginnen, gebruikt u de volgende richtlijnen als uitgangspunt.
+Microsoft 365 omvat diverse functies voor beveiliging tegen bedreigingen. Aan de slag met een handleiding kunt u ervoor zorgen dat de functies voor beveiliging van bedreigingen voor uw organisatie zijn ingesteld. Als u nog niet bekend bent met de functies voor beveiliging van bedreigingen in Office 365, of als u niet zeker weet waar u moet beginnen, kunt u de volgende richtlijnen gebruiken als uitgangspunt.
 
 > [!IMPORTANT]
-> **Initiële aanbevolen instellingen zijn inbegrepen voor elk soort beleid; er zijn echter veel opties beschikbaar en u uw instellingen aanpassen aan de behoeften van uw specifieke organisatie.** Sta ongeveer 30 minuten toe voor uw beleid of wijzigingen om zich een weg te banen door uw datacenter.
+> De **Aanbevolen instellingen worden voor elk type beleid opgenomen, maar er zijn veel opties beschikbaar en u kunt de instellingen aanpassen aan de behoeften van uw specifieke organisatie**. Sta ongeveer 30 minuten toe aan uw beleidsregels of wijzigingen die u kunt gebruiken in uw datacenter.
 
 ## <a name="requirements"></a>Vereisten
 
-### <a name="subscriptions"></a>Abonnementen
+### <a name="subscriptions"></a>Halen
 
-Functies voor bedreigingsbescherming zijn opgenomen in alle Microsoft 365-abonnementen; Sommige abonnementen bevatten echter meer geavanceerde functies. In de volgende tabel vindt u de beveiligingsfuncties in dit artikel samen met de minimale abonnementsvereisten.<br/>
+De functies voor bedreigingsbeveiliging zijn opgenomen in alle Microsoft 365-abonnementen. Sommige abonnementen bevatten echter meer geavanceerde functies. De volgende tabel bevat een overzicht van de beveiligingsfuncties die in dit artikel zijn opgenomen, samen met de minimale abonnements vereisten.
 
-|||
+****
+
+|Type beveiliging|Vereisten voor het abonnement|
 |---|---|
-|**Beveiligingstype**|**Abonnementsvereiste**|
 |Beveiliging tegen malware|[Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) (EOP)|
-|Bescherming tegen schadelijke URL's en bestanden in e-mail- en Office-documenten|[Atp (Advanced Threat Protection) voor Office 365 (Advanced Threat Protection)](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
-|Bescherming tegen phishing|[Eop](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
-|Geavanceerde bescherming tegen phishing|[Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
-|Beveiliging tegen ongewenste e-mail|[Eop](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
-|Zero-hour automatische zuivering (voor e-mail)|[Eop](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
+|Beveiliging van schadelijke Url's en bestanden in e-mail en Office-documenten|[Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) (ATP)|
+|Bescherming tegen phishing|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
+|Geavanceerde anti malafide beveiliging|[Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|Beveiliging tegen ongewenste e-mail|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
+|Automatisch wissen van 0 uur (voor e-mail)|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Controlelogboekregistratie (dit wordt gebruikt voor rapportagedoeleinden)|[Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)|
 |
 
 ### <a name="roles-and-permissions"></a>Rollen en machtigingen
 
-U moet een geschikte rol toegewezen krijgen om beleid te configureren in het [Security & Compliance Center](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center). De volgende tabel bevat enkele voorbeelden:
+U moet beschikken over de juiste rol voor het configureren van beleid in de [beveiligings & nalevings centrum](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center). De volgende tabel bevat enkele voorbeelden:
 
-|Rol of rollengroep|Waar meer informatie te leren|
-|---------|---------|
+****
+
+|Rol of rollengroep|Waar vind ik meer informatie?|
+|---|---|
 |globale beheerder|[Over Microsoft 365-beheersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
 |Beveiligingsbeheerder|[Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Exchange Online Organisatiebeheer|[Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>En<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
+|Beheer van organisatie van Exchange Online|[Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>en<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
 |
 
-Zie [Machtigingen in het Security &amp; Compliance Center voor](permissions-in-the-security-and-compliance-center.md)meer informatie.
+Zie [machtigingen in het beveiligings &amp; centrum](permissions-in-the-security-and-compliance-center.md)voor meer informatie.
 
-## <a name="part-1---anti-malware-protection"></a>Deel 1 - Bescherming tegen malware
+## <a name="part-1---anti-malware-protection"></a>Deel 1 – bescherming tegen malware
 
-[Bescherming tegen malware](anti-malware-protection.md) is beschikbaar in abonnementen die [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)bevatten.
+[Beveiliging tegen malware](anti-malware-protection.md) is beschikbaar in abonnementen die [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)bevatten.
 
-1. Kies in het [Security & Compliance Center](https://protection.office.com)voor Threat **management**  >  **Policy**  >  **Anti-malware**.
+1. Kies in het [beveiligings & compliance](https://protection.office.com)de optie **Threat management**  >  **Policy**  >  **anti-malware**van beleid voor bedreigings beheer.
 
-2. Dubbelklik op het **standaardbeleid** en kies **instellingen**.
+2. Dubbelklik op het **standaard** beleid en kies vervolgens **instellingen**.
 
 3. Geef de volgende instellingen op:
 
-    - Houd in de sectie **Malwaredetectierespons** de standaardinstelling van **Nr.**
+    - In de sectie **Detectieantwoord van malware** moet u de standaardinstelling **Nee**opgeven.
 
-    - Kies in de sectie **Filter gemeenschappelijke bijlagetypen** de optie **Aan**.
+    - Kies in de sectie **common Attachment types filter** de optie **on**.
 
 4. Klik op **Opslaan**.
 
-Zie [Anti-malwarebeleid configureren](configure-anti-malware-policies.md)voor meer informatie over beleidsopties voor malwarebestrijding.
+Zie [beleid voor malware van malware configureren](configure-anti-malware-policies.md)voor meer informatie over beleidsopties voor anti malware.
 
-## <a name="part-2---protection-from-malicious-urls-and-files"></a>Deel 2 - Bescherming tegen kwaadaardige URL's en bestanden
+## <a name="part-2---protection-from-malicious-urls-and-files"></a>Deel 2-beveiliging van schadelijke Url's en bestanden
 
-Tijd-van-klik bescherming tegen kwaadaardige URL's en bestanden is beschikbaar in abonnementen die [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) (ATP) bevatten en is ingesteld via [ATP Safe Attachments](atp-safe-attachments.md) en [ATP Safe Links](atp-safe-links.md) beleid.
+Beveiliging tegen tijd van schadelijke Url's en bestanden is beschikbaar in abonnementen die [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) (ATP) bevatten en wordt ingesteld via [ATP veilige bijlagen](atp-safe-attachments.md) en profielen voor [veilige koppelingen](atp-safe-links.md) .
 
-### <a name="atp-safe-attachments-policies"></a>Atp-beleid voor veilige bijlagen
+### <a name="atp-safe-attachments-policies"></a>Beleid voor veilige bijlagen met ATP
 
-Als u [ATP Safe Attachments](atp-safe-attachments.md)wilt instellen, moet u ten minste één ATP-beleid voor veilige bijlagen definiëren.
+Voor het instellen van documenten met ATP voor de [vrije](atp-safe-attachments.md)tijd moet u minimaal één beleid voor veilige bijlagen met ATP definiëren.
 
-1. Kies in het [Security & Compliance Center](https://protection.office.com)de ATP-veilige bijlagen voor **bedreigingsbeheerbeleid**  >  **Policy**  >  **ATP safe attachments**.
+1. Kies in het [beveiligings & compliance](https://protection.office.com)de optie voor het oplossen van **bedreigings beheer**  >  **beleid**voor  >  **veilige bijlagen**.
 
-2. Selecteer de optie **ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams**.
+2. Selecteer de optie **ATP inschakelen voor SharePoint, OneDrive en Microsoft teams**.
 
-3. Klik in de sectie **E-mailbijlagen beveiligen** op het plusteken ( **+** ).
+3. Klik in de sectie **e-mailbijlagen beveiligen** op het plusteken ( **+** ).
 
 4. Geef de volgende instellingen op:
 
-   - Typ **in** het vak Naam `Block malware` .
+   - Typ in het vak **naam** de tekst `Block malware` .
 
-   - Kies in de sectie Antwoord de optie **Blokkeren**.
+   - Kies in de sectie antwoord de optie **blok**.
 
-   - Selecteer in de sectie **Bijlage Omleiden** de optie **Omleiding inschakelen**en geef vervolgens het e-mailadres op voor de beveiligingsbeheerder of -operator van uw organisatie die gedetecteerde bestanden controleert.
+   - Selecteer in de sectie **bijlage omleiden** de optie **omleiden inschakelen**en geef vervolgens het e-mailadres op van de beveiligingsbeheerder of operator van uw organisatie die gedetecteerde bestanden moet controleren.
 
-   - Kies **in** de sectie Toegepast op **de optie Het domein van de ontvanger is**. Selecteer vervolgens uw domein, kies **Toevoegen**en klik op **OK**.
+   - Kies in de sectie **toegepast op** **het domein van de ontvanger**. Selecteer uw domein, kies **toevoegen**en klik vervolgens op **OK**.
 
 5. Klik op **Opslaan**.
 
-6. (**Aanbevolen extra stap**) Voer als globale beheerder of SharePoint Online-beheerder de cmdlet **[Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** uit met de parameter **DisallowInfectedFileDownload** ingesteld op *true* voor uw Microsoft 365-omgeving. (Dit voorkomt dat mensen bestanden openen, verplaatsen, kopiëren of delen die als kwaadaardig worden gedetecteerd.)
+6. (**Aanbevolen extra stap**) Als globale beheerder of een SharePoint Online-beheerder voert u de cmdlet **[set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** uit waarbij de **DisallowInfectedFileDownload** -parameter is ingesteld op *waar* voor uw Microsoft 365-omgeving. (Hiermee voorkomt u dat gebruikers bestanden openen, verplaatsen, kopiëren of delen die als schadelijk zijn gevonden.)
 
-Zie [Office 365 ATP Safe Attachments-beleid instellen](set-up-atp-safe-attachments-policies.md) en Office [365 ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams voor](turn-on-atp-for-spo-odb-and-teams.md)meer informatie.
+Zie voor meer informatie [office 365-beleid voor veilige bijlagen van office](set-up-atp-safe-attachments-policies.md) en [Schakel Office 365 ATP in voor SharePoint, OneDrive en Microsoft teams](turn-on-atp-for-spo-odb-and-teams.md).
 
-### <a name="atp-safe-links-policies"></a>ATP Safe Links beleid
+### <a name="atp-safe-links-policies"></a>Beleid voor veilige koppelingen voor ATP
 
-Als u [veilige verbindingsknopen ATP](atp-safe-links.md)wilt instellen, controleert en bewerkt u uw standaardbeleid en voegt u een beleid toe voor specifieke gebruikers.
+Voor het instellen van [veilige koppelingen voor ATP](atp-safe-links.md), controleert en bewerkt u uw standaardbeleid en voegt u een beleid toe voor specifieke gebruikers.
 
-1. Kies in het [Security & Compliance Center](https://protection.office.com)de ATP Safe Links voor **bedreigingsbeheerbeleid**  >  **Policy**  >  **ATP Safe Links**.
+1. Kies in het [beveiligings & nalevings centrum](https://protection.office.com)de optie veilige koppelingen voor het beleid voor **bedreigings beheer**  >  **Policy**  >  **ATP Safe Links**.
 
-2. Dubbelklik op het **standaardbeleid.**
+2. Dubbelklik op het **standaard** beleid.
 
-3. Selecteer in de sectie **Veilige koppelingen gebruiken in** de sectie De optie Microsoft **365 Apps voor bedrijven, Office voor iOS en Android**en klik vervolgens op **Opslaan**.
+3. Selecteer in de sectie **veilige koppelingen gebruiken in** de optie **Microsoft 365-apps voor Enterprise, Office voor IOS en Android**, en klik vervolgens op **Opslaan**.
 
-4. Klik in de sectie **Beleid dat van toepassing is op specifieke geadresseerden** op het plusteken ( **+** ).
+4. Klik in de sectie **beleidsregels die gelden voor specifieke geadresseerden** op het plusteken ( **+** ).
 
 5. Geef de volgende instellingen op:
 
-   - Typ in het vak **Naam** een naam, zoals `Safe Links` .
+   - Typ een naam in het vak **naam** , zoals `Safe Links` .
 
-   - Kies in **de sectie Selecteer de actie** de optie **Aan**.
+   - Kies in de sectie **Selecteer de actie** **aan**.
 
    - Selecteer de volgende opties:
 
@@ -135,96 +138,97 @@ Als u [veilige verbindingsknopen ATP](atp-safe-links.md)wilt instellen, controle
 
      - **Veilige koppelingen toepassen op e-mailberichten die binnen de organisatie worden verzonden**
 
-     - **Laat gebruikers niet doorklikken naar veilige links naar de oorspronkelijke URL**
+     - **Gebruikers niet laten klikken via veilige koppelingen naar de oorspronkelijke URL**
 
-   - Kies **in** de sectie Toegepast op **de optie Het domein van de ontvanger is**. Selecteer vervolgens uw domein, kies **Toevoegen**en klik op **OK**.
+   - Kies in de sectie **toegepast op** **het domein van de ontvanger**. Selecteer uw domein, kies **toevoegen**en klik vervolgens op **OK**.
 
 6. Klik op **Opslaan**.
 
 Zie [Beleid voor veilige koppelingen in ATP instellen in Office 365](set-up-atp-safe-links-policies.md) voor meer informatie.
 
-## <a name="part-3---anti-phishing-protection"></a>Deel 3 - Bescherming tegen phishing
+## <a name="part-3---anti-phishing-protection"></a>Deel 3: bescherming tegen phishing
 
 [Anti-phishing]
 
-[Bescherming tegen phishing](anti-phishing-protection.md) is beschikbaar in abonnementen die [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)bevatten. Geavanceerde anti-phishing bescherming is beschikbaar in [ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+[Bescherming tegen phishing](anti-phishing-protection.md) is beschikbaar in abonnementen die [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)bevatten. Geavanceerde beveiliging tegen phishing is beschikbaar in de [ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
 
-In de volgende procedure wordt beschreven hoe u een ATP-antiphishingbeleid configureert. De stappen zijn vergelijkbaar voor het configureren van een anti-phishing beleid (zonder ATP).
+In de volgende procedure wordt beschreven hoe u een ATP anti-phishingfilter kunt configureren. De stappen zijn vergelijkbaar voor het configureren van een anti-phishingfilter-beleid (zonder ATP).
 
-1. Kies in het [Security & Compliance Center](https://protection.office.com)voor **Threat management**  >  **Policy**  >  **ATP-antiphishing**van bedreigingsbeheerbeleid .
+1. Kies in het [beveiligings & nalevings centrum](https://protection.office.com)de optie voor het instellen van het beleid voor het **beheer van bedreiging**  >  **Policy**  >  **ATP anti-phishing**.
 
-2. Klik **op Standaardbeleid**.
+2. Klik op **standaardbeleid**.
 
-3. Klik in de sectie **Imitatie** op **Bewerken**en geef vervolgens de volgende instellingen op:
+3. Klik in het gedeelte **imitatie** op **bewerken**en geef de volgende instellingen op:
 
-   - Schakel op het tabblad **Gebruikers toevoegen om te beveiligen** de beveiliging in. Voeg vervolgens gebruikers toe, zoals de bestuursleden van uw organisatie, uw CEO, CFO en andere senior leiders. (U een individueel e-mailadres typen of klikken om een lijst weer te geven.)
+   - Schakel op het tabblad **gebruikers toevoegen om** beveiliging in. Vervolgens voegt u gebruikers toe, zoals leden van de afdeling van uw organisatie, uw CEO, CFO en andere Senior leiders. (U kunt een apart e-mailadres typen of klikken om een lijst weer te geven.)
 
-   - Schakel op het tabblad **Domeinen toevoegen om te beveiligen** automatisch de **domeinen op die ik bezit.** Als u aangepaste domeinen hebt, voegt u deze ook toe.
+   - Schakel op het tabblad **domein toevoegen om te beschermen** **de optie automatisch de domeinnamen toevoegen waarvan ik de eigenaar**is in. Als u aangepaste domeinen hebt, kunt u deze ook toevoegen.
 
-   - Selecteer **op** het tabblad Handelingen **het bericht in quarantaine** plaatsen voor zowel de **geïmiteerde gebruiker als** de **geïmiteerde domeinopties.** Schakel bovendien impersonatieveiligheidstips in.
+   - Selecteer op het tabblad **acties** **de optie quarantaine** voor de opties voor **geïmiteerde gebruiker** en **geïmiteerd domein** . Daarnaast schakelt u de veiligheidstips van de persoon in.
 
-   - Controleer op het tabblad **Inlichtingendienst Postvak** of de inlichtingendienst is ingeschakeld. Schakel bovendien de op basis van postvakintelligentie op basis van imitatiebeveiliging in. Kies in de **e-mail als e-mail wordt verzonden door een geïmiteerde gebruikerslijst,** **de optie Het bericht in quarantaine**plaatsen .
+   - Zorg dat op het tabblad **Postvak Intelligence** de optie Postvak Intelligence is ingeschakeld. Schakel daarnaast ook de bescherming van imitatie via postvak in. Kies in het **e-mailbericht wordt verzonden door een geïmiteerde gebruikers** lijst **de optie Quarantine the Message**.
 
-   - Geef op het tabblad **Vertrouwde afzenders en domeinen toevoegen** alle vertrouwde afzenders of domeinen op die u wilt toevoegen.
+   - Geef op het tabblad **vertrouwde afzenders en domeinen toevoegen** de vertrouwde afzenders of domeinen op die u wilt toevoegen.
 
-   - Klik op het tabblad **Instellingen controleren** nadat u uw instellingen hebt gecontroleerd op **Opslaan.**
+   - Wanneer u de instellingen hebt gecontroleerd, klikt u op het tabblad **uw instellingen controleren** op **Opslaan**.
 
-4. Klik in de sectie **Spoof** op **Bewerken**en geef de volgende instellingen op:
+4. Klik in de sectie **spoof** op **bewerken**en geef de volgende instellingen op:
 
-   - Controleer op het tabblad **Instellingen voor spoofingfilterinstellingen** of anti-spoofingbeveiliging is ingeschakeld.
+   - Zorg dat op het tabblad **instellingen voor spoofing filter** de optie anti-spoofing beveiliging is ingeschakeld.
 
-   - Kies **op** het tabblad Handelingen **het bericht in quarantaine**.
+   - Kies op het tabblad **acties** **de optie Quarantine the Message**.
 
-   - Klik op het tabblad **Instellingen controleren** nadat u uw instellingen hebt gecontroleerd op **Opslaan.** (Als u geen wijzigingen hebt aangebracht, klikt u op **Annuleren**.)
+   - Wanneer u de instellingen hebt gecontroleerd, klikt u op het tabblad **uw instellingen controleren** op **Opslaan**. (Als u geen wijzigingen hebt aangebracht, klikt u op **Annuleren**.)
 
-5. Sluit de pagina standaardbeleidsinstellingen.
+5. Sluit de standaardpagina met beleidsinstellingen.
 
-Zie [ATP-antiphishingbeleid configureren](configure-atp-anti-phishing-policies.md)voor meer informatie over uw anti-phishingbeleid.
+Zie voor meer informatie over de opties voor het [instellen](configure-atp-anti-phishing-policies.md)van een anti-phishingfilter beleid.
 
-## <a name="part-4---anti-spam-protection"></a>Deel 4 - Anti-spam bescherming
+## <a name="part-4---anti-spam-protection"></a>Deel 4-anti spam bescherming
 
-[Antispambeveiliging](anti-spam-protection.md) is beschikbaar in abonnementen die [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)bevatten.
+[Bescherming tegen ongewenste e-mail](anti-spam-protection.md) is beschikbaar in abonnementen die [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)bevatten.
 
-1. Kies in het [Security & Compliance Center](https://protection.office.com)voor Threat **management**  >  **Policy**  >  **Anti-spam**.
+1. Kies in het [beveiligings & compliance](https://protection.office.com)de optie **Threat management**  >  **Policy**  >  **anti-spam**beleid voor Threat Management.
 
-2. Schakel op het tabblad **Aangepast** **aangepaste instellingen** in.
+2. Schakel op het tabblad **aangepast** de optie **aangepaste instellingen** in.
 
-3. Uitvouwen **Standaard spam filter beleid,** klik op **Beleid bewerken**, en geef vervolgens de volgende instellingen:
+3. Vouw het **standaardbeleid voor spamfilters**uit, klik op **beleid bewerken**en geef de volgende instellingen op:
 
-   - Stel in de sectie **Spam- en bulkacties** de drempel in op een waarde van 5 of 6.
+   - In de sectie **spam en Bulkacties** stelt u de drempelwaarde in op de waarde 5 of 6.
 
-   - Controleer (en bewerk) in de sectie **Lijsten toestaan** uw toegestane afzenders en domeinen indient (en indien nodig) bewerkt.
+   - In het gedeelte **lijsten toestaan** controleert u de toegestane afzenders en domeinen en, indien nodig, bewerken.
 
 4. Klik op **Opslaan**.
 
-Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)voor meer informatie over uw antispambeleidsopties.
+Zie [Antispambeleid in EOP](configure-your-spam-filter-policies.md)voor meer informatie over de opties voor anti-spam beleid.
 
-## <a name="part-5---additional-settings-to-configure"></a>Deel 5 - Extra instellingen om te configureren
+## <a name="part-5---additional-settings-to-configure"></a>Deel 5-aanvullende instellingen voor het configureren van
 
-Naast het configureren van bescherming tegen malware, kwaadaardige URL's en bestanden, phishing en spam, raden we u aan uw instellingen voor automatische zuivering en controleregistratie van nul uur te configureren.
+U wordt aangeraden uw instellingen voor automatisch wissen van Zero-hours en logboekregistratie te configureren voor het automatisch opschonen van een uur van malware, schadelijke Url's en bestanden, phishing en spam.
 
-### <a name="zero-hour-auto-purge-for-email"></a>Zero-hour automatische zuivering voor e-mail
+### <a name="zero-hour-auto-purge-for-email"></a>Zero-Hour automatisch wissen voor e-mail
 
-[Zero-hour auto purge](zero-hour-auto-purge.md) (ZAP) is beschikbaar in abonnementen die [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)bevatten. Deze beveiliging is standaard ingeschakeld. aan de volgende voorwaarden moet echter worden voldaan om de bescherming van kracht te maken:
+[Het gebruik van Zero-Hour auto leegmaak](zero-hour-auto-purge.md) (ZAP) is beschikbaar in abonnementen die [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)bevatten. Deze bescherming is standaard ingeschakeld. u moet echter aan de volgende voorwaarden voldoen om beveiliging te activeren:
 
-- Spamacties zijn ingesteld op **Bericht verplaatsen naar map Ongewenste e-mail** in [antispambeleid.](anti-spam-protection.md)
+- Spam acties worden ingesteld op **bericht verplaatsen naar map Ongewenste e-mail** in [Antispambeleid](anti-spam-protection.md).
 
-- Gebruikers hebben hun standaard [instellingen voor ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)behouden en hebben de beveiliging van ongewenste e-mail niet uitgeschakeld.
+- Gebruikers hebben hun standaard [instellingen voor ongewenste](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)e-mail bewaard en hebben niet de bescherming tegen ongewenste e-mail uitgeschakeld.
 
-Zie voor meer informatie [de automatische zuivering van zero-uur - bescherming tegen spam en malware.](zero-hour-auto-purge.md)
+Voor meer informatie raadpleegt u [Zero-Hour auto opgeschoond-bescherming tegen spam en malware](zero-hour-auto-purge.md).
 
-### <a name="audit-logging-for-reporting-and-investigation"></a>Controleregistratie voor rapportage en onderzoek
+### <a name="audit-logging-for-reporting-and-investigation"></a>Controlelogboekregistratie voor rapportage en onderzoek
 
-Controlelogboekregistratie is beschikbaar in abonnementen die [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)bevatten. Als u gegevens wilt weergeven in rapporten over bedreigingsbescherming, zoals het [beveiligingsdashboard,](security-dashboard.md) [e-mailbeveiligingsrapporten](view-email-security-reports.md)en [Explorer,](threat-explorer.md)moet controleregistratie zijn ingeschakeld voor uw organisatie. Zie [Zoeken in of uit controleren op controlelogboek in- of uitschakelen](../../compliance/turn-audit-log-search-on-or-off.md)voor meer informatie.
+Controlelogboekregistratie is beschikbaar voor abonnementen die [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)omvatten. Als u gegevens wilt weergeven in rapporten over bedreigingsbeveiliging, zoals het [beveiligings dashboard](security-dashboard.md), de [rapporten voor e-mail beveiliging](view-email-security-reports.md)en de [Verkenner](threat-explorer.md), moet u logboekregistratie inschakelen voor uw organisatie. Voor meer informatie raadpleegt u de [zoekfunctie voor auditlogboeken in-of uitschakelen](../../compliance/turn-audit-log-search-on-or-off.md).
 
-## <a name="post-setup-tasks"></a>Taken na het instellen
+## <a name="post-setup-tasks"></a>Taken na de instelling
 
-Nadat u uw functies voor bedreigingsbeveiliging hebt geconfigureerd, controleert u hoe deze functies werken, controleert en herziet u uw beleid indien nodig en kijkt u naar nieuwe functies en service-updates.
+Nadat u uw beveiligingsfuncties hebt geconfigureerd, controleert u of de functies van deze functies werken, controleert u uw beleidsregels en wijzigt u deze naar wens, en bekijkt u de nieuwe functies en service-updates.
 
-|||
+****
+
+|Wat moet u doen?|Informatiebronnen|
 |---|---|
-|**Wat te doen**|**Informatiebronnen**|
-|Bekijk hoe functies voor bedreigingsbescherming voor uw organisatie werken door rapporten te bekijken|[Beveiligingsdashboard](security-dashboard.md)<br/>[Beveiligingsrapporten voor e-mail](view-email-security-reports.md)<br/>[Rapporten voor Office 365 ATP](view-reports-for-atp.md)<br/>[Bedreigingsverkenner](threat-explorer.md)|
-|Uw beleid voor bedreigingsbescherming periodiek herzien en herzien indien nodig|[Secure Score](../mtp/microsoft-secure-score.md)<br/>[Slimme rapporten en inzichten](reports-and-insights-in-security-and-compliance.md)<br/>[Microsoft 365-functies voor bedreigingsonderzoek en -reactie](keep-users-safe-with-office-365-ti.md)|
-|Kijk voor nieuwe functies en service-updates|[Standaard- en gerichte releaseopties](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365)<br/>[Berichtencentrum](https://docs.microsoft.com/microsoft-365/admin/manage/message-center)<br/>[Microsoft 365-routekaart](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Servicebeschrijvingen](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
+|Kijk hoe de functies voor bedreigingsbeveiliging voor uw organisatie werken door rapporten weer te geven|[Beveiligings dashboard](security-dashboard.md)<br/>[E-mail beveiligingsrapporten](view-email-security-reports.md)<br/>[Rapporten voor Office 365 ATP](view-reports-for-atp.md)<br/>[Bedreigingsverkenner](threat-explorer.md)|
+|Uw beveiligingsbeleid periodiek controleren en zo nodig herzien|[Secure Score](../mtp/microsoft-secure-score.md)<br/>[Slimme rapporten en inzichten](reports-and-insights-in-security-and-compliance.md)<br/>[Microsoft 365 Threat onderzoek en antwoord functies](keep-users-safe-with-office-365-ti.md)|
+|Bekijk de nieuwe functies en service-updates|[Standaard en gerichte release-opties](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365)<br/>[Berichtencentrum](https://docs.microsoft.com/microsoft-365/admin/manage/message-center)<br/>[Microsoft 365-wegwijzer](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Service beschrijvingen](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
 |

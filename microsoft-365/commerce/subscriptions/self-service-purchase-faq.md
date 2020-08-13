@@ -1,10 +1,10 @@
 ---
-title: Veelgestelde vragen over selfserviceaankopen
+title: Veelgestelde vragen over self-service aankopen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,141 +16,112 @@ ms.custom:
 - aka.ms/self-service-purchase-faq
 search.appverid:
 - MET150
-description: Vind antwoorden op veelgestelde vragen over selfservice-aankopen.
-ms.openlocfilehash: cc0a059c745c64c9c196deccf771fffa30a5fe63
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Hier vindt u antwoorden op veelgestelde vragen over self-service aankopen.
+ms.date: 08/12/2020
+ms.openlocfilehash: 78a7082a966a866f18ac2aa378198dbb33d8c158
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403208"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653699"
 ---
-# <a name="self-service-purchase-faq"></a>Veelgestelde vragen over selfserviceaankopen
+# <a name="self-service-purchase-faq"></a>Veelgestelde vragen over self-service aankopen
+
+Met selfservice aankopen kunnen gebruikers de mogelijkheid nieuwe technologieën uit te proberen en oplossingen te ontwikkelen die uiteindelijk een grotere organisatie voor u hebben. Centrale aanschaffing en IT-teams hebben inzicht in de aankoop van oplossingen voor Self-service aankopen en implementeren via het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-Beheercentrum</a>. Beheerders kunnen selfservice aankopen per product basis uitschakelen via PowerShell. Zie voor meer informatie [AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module](allowselfservicepurchase-powershell.md).
+
+Service voor selfservice aankoop is beschikbaar voor Power platform (Power BI, Power apps en Power Automatiseer), project en Visio.
 
 > [!NOTE]
-> De informatie in dit artikel is alleen van toepassing op Microsoft Power Platform-abonnementen (Power BI, Power Apps en Power Automate).
+> Service voor selfservice aankopen is niet beschikbaar in India en is niet beschikbaar voor klanten van de overheid of onderwijsinstellingen.
 
-Selfservice-aankopen zijn nu beschikbaar voor Power Platform in meerdere landen en regio's.
+## <a name="making-a-self-service-purchase"></a>Een self-service aankoop doen
 
-## <a name="general"></a>Algemeen
+### <a name="how-does-a-customer-make-a-self-service-purchase"></a>Hoe maakt een klant selfservice aankopen?
 
-### <a name="what-changes-did-microsoft-announce-around-self-service-purchases-for-the-power-platform-products"></a>Welke wijzigingen heeft Microsoft aangekondigd rond selfservice-aankopen voor de Power Platform-producten?
+Klanten kunnen Self-service online kopen via de product websites of vanuit de aankoop vragen in de app. Klanten wordt eerst gevraagd een e-mailadres in te voeren om ervoor te zorgen dat ze een gebruiker zijn in een bestaande Azure Active Directory (AD)-Tenant. Vervolgens worden ze doorgestuurd om me aan te melden met hun Azure AD-referenties. Nadat u zich hebt aangemeld, wordt de klant gevraagd te selecteren hoeveel abonnementen ze willen kopen en om creditcardbetaling te bieden. Wanneer de aankoop is voltooid, kunnen ze hun abonnement gaan gebruiken. De verkoper heeft toegang tot een beperkte weergave van het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-Beheercentrum</a> , waar zij licenties aan het product kunnen toewijzen voor andere personen in de organisatie.
 
-Op 19 november hebben we IT-beheerders een manier geboden om selfservice-aankopen per product via PowerShell uit te schakelen. Zie [AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module](allowselfservicepurchase-powershell.md)voor meer informatie over het gebruik ervan.
+### <a name="what-are-the-payment-options-for-self-service-purchases"></a>Wat zijn de betalingsopties voor Self-service aankopen?
 
-Om meer tijd te bieden om zich voor te bereiden op deze wijziging, werken we de lancering voor self-service aankoopmogelijkheden voor Power Platform-producten bij om op 14 januari met Power BI te beginnen voor alle commerciële cloudklanten.  
+Op dit moment is creditcard de enige beschikbare betaalwijze. Betaling via de facturering wordt niet ondersteund.
 
-Vanaf 14 januari 2020 zijn selfservice-aankopen, abonnements- en licentiebeheermogelijkheden voor Power Platform-producten (Power BI, Power Apps en Power Automate) beschikbaar voor commerciële cloudklanten in de Verenigde Staten. Self-service aankoop geeft gebruikers de kans om nieuwe technologieën uit te proberen en laat hen oplossingen ontwikkelen die uiteindelijk hun grotere organisaties ten goede zullen komen. Deze mogelijkheid is op dit moment niet beschikbaar voor huurders in de VS die door de overheid, non-profit of onderwijs zijn. Centrale inkoop- en IT-teams hebben inzicht in alle gebruikers die selfservice-inkoopoplossingen kopen en implementeren via het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-beheercentrum</a>en kunnen selfservice-inkoop per product via PowerShell uitschakelen.
+### <a name="who-can-buy-through-self-service-purchase"></a>Wie kan uw eigen service aankopen kopen?
 
-### <a name="why-is-microsoft-adding-a-self-service-purchase-option-for-the-power-platform-products"></a>Waarom voegt Microsoft een selfservice-aankoopoptie toe voor de Power Platform-producten?
+Gebruikers met een niet-gastgebruikersaccount in een beheerde Azure AD-Tenant kunnen selfservice aankopen doen. Service voor selfservice aankoop is niet beschikbaar voor tenants van Government-of onderwijs organisaties. Als dit van toepassing is op uw organisatie, hoeft u geen extra actie te ondernemen om de selfservice aankoop te bepalen.
 
-In de wereld van vandaag, eindgebruikers en afdelingen zijn steeds meer op zoek naar en het kopen van technologische oplossingen op hun eigen. We hebben talloze verzoeken van deze klanten ontvangen om selfservice-aankopen van Power Platform-producten mogelijk te maken. We spelen in op deze behoeften van de klant en balanceren tegelijkertijd de behoeften van IT-beheerders, die vaak de zichtbaarheid en controle verliezen wanneer individuen binnen hun organisatie oplossingen van derden aannemen zonder hun medeweten. Met de komende selfservice-mogelijkheden voor Power Platform-producten hebben IT-beheerders volledige zichtbaarheid voor alle selfservice-aankopen die binnen hun organisatie plaatsvinden, en het beleid voor gegevensbeheer dat op organisatieniveau is ingesteld, wordt gegenereerd door abonnementen die via selfservice zijn gekocht. Beheerders kunnen ook bestaande licenties toewijzen of aanvullende abonnementen van Power Platform-producten aanschaffen via bestaande overeenkomsten en prijzen voor gebruikers die zijn toegewezen aan selfservice-aankopen. Na het toewijzen van deze centraal aangeschafte licenties kunnen beheerders vervolgens vragen dat de kopers hun bestaande abonnementen opzeggen. Microsoft onderzoekt manieren om dit proces voor beheerders in de toekomst te vereenvoudigen en te stroomlijnen.
+Gebruikers in organisaties of markten die niet in aanmerking komen voor selfservice aankopen, zien een bericht waarin wordt gevraagd om contact op te nemen met hun IT-beheerder.
 
-### <a name="which-power-platform-products-are-available-for-self-service-purchase"></a>Welke Power Platform-producten zijn beschikbaar voor selfservice-aankoop?
+### <a name="can-guest-users-buy-through-self-service-purchase"></a>Kunnen gastgebruikers via selfservice aankopen kopen?
 
-Microsoft heeft self-service aankoop voor Power Platform (Power BI, Power Apps en Power Automate) gelanceerd voor klanten in de Verenigde Staten, met extra markten beschikbaar in de komende maanden. Deze mogelijkheid is op dit moment niet beschikbaar voor huurders in de VS die door de overheid, non-profit of onderwijs zijn.
+Nee, gastgebruikers kunnen geen selfservice aankopen voeren in een Tenant waarvan ze een gast zijn.
 
-### <a name="will-self-service-purchase-be-enabled-for-services-beyond-the-power-platform-products"></a>Wordt selfservice-aankoop ingeschakeld voor services buiten de Power Platform-producten?
+### <a name="can-users-synced-from-an-on-premises-active-directory-buy-through-self-service-purchase"></a>Kunnen gebruikers die worden gesynchroniseerd vanuit een on-premises Active Directory kopen via selfservice aankoop?
 
-Op dit moment worden alleen de Power Platform-familieproducten aangeboden via selfservice-aankoop.
+Als een gebruiker een actief gebruikersaccount heeft in de in aanmerking komende Azure AD-Tenant, kan hij of zij een selfservice aankoop voltooien.
 
-## <a name="making-a-self-service-purchase"></a>Het maken van een self-service aankoop
+### <a name="who-can-self-service-purchasers-assign-licenses-to"></a>Wie kan self-service-inkopen licenties toewijzen?
 
-### <a name="how-does-a-customer-make-a-self-service-purchase"></a>Hoe doet een klant een selfservice-aankoop?
+Selfservice aankopen kunnen alleen licenties toewijzen aan gebruikers in dezelfde Azure AD-Tenant. De verkoper heeft toegang tot een beperkte weergave van het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-Beheercentrum</a> om licenties toe te wijzen. Verkoper kan licenties toewijzen aan de producten die ze hebben gekocht via selfservice aankoop, en kunnen deze licenties alleen toewijzen aan gebruikers in dezelfde Azure AD-Tenant.
 
-Klanten kunnen online een selfservice-aankoop doen via de websites Microsoft Power BI, Power Apps en Power Automate. Klanten wordt eerst gevraagd een e-mailadres in te voeren om ervoor te zorgen dat ze een gebruiker zijn in een bestaande Azure Active Directory (AD)-tenant. Vervolgens worden ze door hen aangestuurd om in te loggen met behulp van hun Azure AD-referenties. Na het aanmelden wordt de klant gevraagd om te selecteren hoeveel abonnementen hij of zij wil kopen en creditcardbetalingen te bieden. Wanneer de aankoop is voltooid, kunnen ze hun abonnement gebruiken. De koper heeft ook toegang tot een beperkte weergave van het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-beheercentrum,</a> waar hij andere mensen in hun organisatie in staat kan stellen het product te gebruiken.
+### <a name="where-does-the-self-service-purchaser-see-and-manage-their-purchases"></a>Waar kan de selfservice verkoper hun aankopen zien en beheren?
 
-### <a name="what-are-the-payment-options-for-self-service-purchases"></a>Wat zijn de betalingsopties voor selfservice-aankopen?
+Selfservice aankopen kunnen hun aankopen beheren in de beperkte weergave van het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-Beheercentrum</a>. U kunt op elk gewenst punt voor de beheerder van de tegel **beheerder** in het startprogramma voor apps in het startprogramma voor apps van microsoft 365 en Dynamics online-apps het Beheercentrum openen. Kopers kunnen de aankopen bekijken die ze hebben aangebracht, extra abonnementen op dezelfde service kopen en licenties toewijzen aan andere gebruikers in hun organisatie. Aankoopers kunnen ook hun factuur bekijken en betalen, hun betaalmethode bijwerken en hun abonnement opzeggen.
 
-Momenteel is creditcard de enige beschikbare betalingsmethode. Betaling via facturatie wordt niet ondersteund.
+## <a name="pricing"></a>Koers
 
-### <a name="who-can-buy-through-self-service-purchase"></a>Wie kan kopen via self-service aankoop?
+### <a name="what-is-the-pricing-for-self-service-purchases"></a>Wat zijn de prijzen voor selfservice aankopen?
 
-Elke gebruiker met een niet-gastgebruikersaccount in een beheerde Azure AD-tenant kan kopen. Deze mogelijkheid is op dit moment niet beschikbaar voor huurders die overheids-, non-profit- of onderwijsinstellingen zijn. Als dit van toepassing is op uw organisatie, is er op dit moment geen extra actie vereist om de selfservice-aankoop te beheren.
-
-Gebruikers in organisaties of markten die niet in aanmerking komen voor selfservice-aankoop, zien een bericht waarin hen wordt gevraagd contact op te nemen met hun IT-beheerder zoals ze dat nu doen.
-
-### <a name="can-guest-users-buy-through-self-service-purchase"></a>Kunnen gastgebruikers kopen via self-service aankoop?
-
-Nee, gastgebruikers kunnen geen selfservice-aankoop voltooien in een tenant waarin ze te gast zijn.
-
-### <a name="can-users-synced-from-an-on-premises-active-directory-buy-through-self-service-purchase"></a>Kunnen gebruikers gesynchroniseerd vanaf een on-premises Active Directory kopen via self-service aankoop?
-
-Als een gebruiker een actief gebruikersaccount heeft in een in aanmerking komende Azure AD-tenant, kan deze een selfservice-aankoop voltooien.
-
-### <a name="who-can-self-service-purchasers-assign-licenses-to"></a>Aan wie kunnen selfservicekopers licenties toewijzen?
-
-Selfservice-kopers kunnen alleen licenties toewijzen aan gebruikers in dezelfde Azure AD-tenant. De koper heeft toegang tot een beperkte weergave van het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-beheercentrum</a> om licenties toe te wijzen. Ze hebben alleen zichtbaarheid en kunnen licenties toewijzen aan producten die ze hebben gekocht via selfservice-aankoop, en ze kunnen deze licenties alleen toewijzen aan gebruikers in dezelfde Azure AD-tenant.
-
-### <a name="where-does-the-self-service-purchaser-see-and-manage-their-purchases"></a>Waar ziet en beheert de selfservicekoper zijn aankopen?
-
-Selfservice-kopers kunnen hun aankopen beheren in de beperkte weergave van het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-beheercentrum.</a> Kopers kunnen altijd naar het beheercentrum gaan via de tegel **Beheerder** in het startprogramma voor apps die zijn ingebouwd in alle online-apps van Microsoft 365 en Dynamics. Ze kunnen de aankopen bekijken die ze hebben gedaan, extra abonnementen op dezelfde service kopen en licenties voor die abonnementen toewijzen aan andere gebruikers in hun organisatie. Bovendien kunnen kopers hun factuur bekijken en betalen, hun betalingsmethode bijwerken en hun abonnement opzeggen.
-
-**Bekijk het beperkte Microsoft 365-beheercentrum voor selfservicekopers:**
-
-![Schermafbeelding van het Microsoft 365-beheercentrum.](../../media/MACBillingProductsServicesSelfServicePurchaseIW.png)
-
-## <a name="pricing"></a>Prijzen
-
-### <a name="what-is-the-pricing-for-self-service-purchases"></a>Wat is de prijs voor selfservice-aankopen?
-
-Prijzen voor elk van de Power Platform-producten voor selfservice-aankopen zijn beschikbaar op de Microsoft-website en worden ook weergegeven als onderdeel van de afrekenervaring tijdens het uitvoeren van een selfservice-aankoop. Deze prijzen kunnen afwijken van de prijzen die een organisatie betaalt bij het doen van centrale aankopen of prijzen die via een partner worden aangeboden.
+De prijzen voor elk product voor selfservice-aankopen zijn beschikbaar op de website van Microsoft. Prijzen worden ook weergegeven als onderdeel van de uitcheck ervaring wanneer gebruikers selfservice aankopen doen. Deze prijzen kunnen verschillen van de prijzen die een organisatie betaalt bij het aangaan van centrale aankopen of prijzen via een partner.
 
 ### <a name="who-is-responsible-for-payment"></a>Wie is verantwoordelijk voor de betaling?
 
-De persoon die het abonnement koopt via self-service aankoop zal worden gefactureerd en is verantwoordelijk voor de betaling op basis van de voorwaarden en prijzen van de aankoop.
+De persoon die het abonnement via selfservice aankoop koopt, is de persoon die factureert en wie verantwoordelijk is voor de betaling op basis van de voorwaarden en prijzen van de aankoop.
 
-## <a name="admin-capabilities"></a>Beheerdersmogelijkheden
+## <a name="admin-capabilities"></a>Beheerders mogelijkheden
 
-### <a name="what-capabilities-does-an-admin-have-for-self-service-purchases"></a>Welke mogelijkheden heeft een beheerder voor selfservice-aankopen?
+### <a name="what-capabilities-does-an-admin-have-for-self-service-purchases"></a>Welke mogelijkheden biedt een beheerder voor Self-service-aankopen?
 
-Beheerders kunnen alle selfservice-aankopen in hun organisatie bekijken in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-beheercentrum.</a> Ze kunnen het product, de naam van de koper, gekochte abonnementen, vervaldatum, bestelgeschiedenis, aankoopprijs en toegewezen gebruikers voor elke selfservice-aankoop zien. In het Power Platform Admin Center kunnen beheerders ook de capaciteit voor selfservice-aankopen bekijken. Indien nodig voor hun organisatie, kunnen beheerders selfservice-aankopen per product via PowerShell uitschakelen. Beheerders hebben hetzelfde beleid voor gegevensbeheer en -toegang ten opzichte van producten die zijn gekocht via selfservice-aankopen of centraal.
+Beheerders kunnen alle selfservice aankopen weergeven die zijn gemaakt in hun organisatie in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-Beheercentrum</a>. Ze kunnen het product, de naam van de verkoper, aangeschafte abonnementen, vervaldatum, ordergeschiedenis, aankoopprijs en toegewezen gebruikers voor elke selfservice aankoop zien. In het Beheercentrum voor Power platform kunnen beheerders ook de capaciteit voor de eigen service aankopen bekijken. Indien nodig voor hun organisatie kunnen beheerders selfservice aankopen per product basis uitschakelen via PowerShell. Beheerders hebben dezelfde beleidsregels voor gegevensbeheer en toegang via producten die zijn gekocht via selfservice aankoop of centraal.
 
-Beheerders kunnen ook bepalen of gebruikers in hun organisatie zelfservice-aankopen kunnen doen. Zie [AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module voor](allowselfservicepurchase-powershell.md)meer informatie.
+Beheerders kunnen ook bepalen of gebruikers in hun organisatie selfservice aankopen kunnen verrichten. Zie voor meer informatie [AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module](allowselfservicepurchase-powershell.md).
 
-### <a name="how-is-microsoft-respecting-data-governance-and-compliance-by-enabling-self-service-purchase"></a>Hoe respecteert Microsoft het beheer en de naleving van gegevens door selfservice-aankopen mogelijk te maken?
+### <a name="how-is-microsoft-respecting-data-governance-and-compliance-by-enabling-self-service-purchase"></a>Hoe eerbiedigt Microsoft Data Governance en compliance door selfservice aankopen in te schakelen?
 
-Beheerders behouden controle over welke services en producten binnen hun tenant zijn ingeschakeld op basis van hun vereisten voor gegevensbeheer en naleving. Bovendien is alle beleid voor gegevensbeheer en -toegang, dat uw organisatie heeft ingeschakeld, van toepassing op selfserviceaangeschafte ingeschakelde services.
+Beheerders beheren de controle over welke services en producten beschikbaar zijn in hun Tenant, op basis van hun data governance en de nalevingsvereisten. Alle beleidsregels voor gegevensbeheer en toegang tot het beleid dat uw organisatie heeft ingeschakeld, zijn van toepassing op de beschikbare services die voor selfservice zijn gekocht.
 
-### <a name="who-owns-the-product-data-created-from-self-service-purchases"></a>Van wie zijn de productgegevens die zijn gemaakt met selfservice-aankopen?
+### <a name="who-owns-the-product-data-created-from-self-service-purchases"></a>Wie is de eigenaar van de productgegevens die zijn gemaakt met selfservice aankopen?
 
-Gegevens die zijn gemaakt van producten die via selfservice-aankoop zijn gekocht, zijn eigendom van en worden gecontroleerd door de organisatie.
+Gegevens die zijn gemaakt op basis van producten die zijn gekocht via selfservice aankoop, zijn eigendom van en worden beheerd door de organisatie.
 
-### <a name="how-do-i-centralize-the-purchases-made-through-self-service-purchase"></a>Hoe centraliseer ik de aankopen die worden gedaan door selfservice-aankoop?
+### <a name="how-do-i-centralize-the-purchases-made-through-self-service-purchase"></a>Hoe kan ik de aankopen op de eigen service aankopen centraliseren?
 
-Beheerders kunnen bestaande licenties toewijzen of aanvullende abonnementen van Power Platform-producten (Power BI, Power Apps en Power Automate) aanschaffen via bestaande overeenkomsten en prijzen voor gebruikers die zijn toegewezen aan selfservice-aankopen. Na het toewijzen van deze centraal aangeschafte licenties kunnen beheerders vervolgens vragen dat de kopers hun bestaande abonnementen opzeggen. Microsoft onderzoekt manieren om dit proces voor beheerders in de toekomst te vereenvoudigen en te stroomlijnen.
+Beheerders kunnen bestaande licenties toewijzen of extra abonnementen van selfservice aankopen kopen via bestaande overeenkomsten en prijzen voor gebruikers die zijn toegewezen aan selfservice aankopen. Nadat u deze met een centrale licentie aangeschafte licenties hebt toegewezen, kunnen beheerders vragen of ze hun bestaande abonnementen annuleren.
 
-### <a name="where-does-the-admin-see-self-service-purchases"></a>Waar ziet de beheerder selfservice-aankopen?
+### <a name="where-does-the-admin-see-self-service-purchases"></a>Waar ziet de beheerder selfservice aankopen?
 
-Globale en factureringsbeheerders kunnen abonnementen zien die via selfservice-aankoop zijn gekocht in **Facturering**  >  **Uw producten** in het Microsoft <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">365-beheercentrum,</a> samen met alle andere abonnementen die via centrale inkoop zijn gekocht. Ze kunnen de lijst filteren op alleen de abonnementen die via centrale inkoop zijn gekocht of abonnementen opnemen die via selfservice-aankoop zijn gekocht.
+Globale beheerders en facturerings beheerders kunnen via selfservice aankoop de door u gekochte abonnementen zien in de **facturering**van  >  **de producten** van het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-Beheercentrum</a>. Ze kunnen de lijst producten filteren om alleen de abonnementen weer te geven die zijn gekocht via de centrale aankoop, of voor het opnemen van abonnementen die zijn gekocht via selfservice purchase.
 
-Beheerders kunnen het product, de naam van de koper, het gekochte abonnement, de vervaldatum, de bestelgeschiedenis, de aankoopprijs en toegewezen gebruikers zien.
+Beheerders kunnen het product, de naam van de verkoper, het aangeschafte abonnement, de vervaldatum, de ordergeschiedenis, de aankoopprijs en de toegewezen gebruikers zien.
 
-## <a name="support-and-training"></a>Ondersteuning en opleiding
+## <a name="support-and-training"></a>Ondersteuning en training
 
-### <a name="are-customers-it-departments-or-partners-expected-to-support-products-bought-through-self-service-purchase"></a>Wordt van de IT-afdelingen of partners van klanten verwacht dat ze producten ondersteunen die via selfservice-aankopen worden gekocht?
+### <a name="are-customers-it-departments-or-partners-expected-to-support-products-bought-through-self-service-purchase"></a>Zijn de IT-afdelingen van klanten of partners de ondersteuning van producten die zijn gekocht via selfservice Purchase?
 
-IT-afdelingen en partners worden niet verwacht om ondersteuning te bieden voor producten die zijn gekocht via selfservice-aankoop. Microsoft biedt standaardondersteuning voor selfservicekopers.
+IT-afdelingen en partners verwachten geen ondersteuning te bieden voor producten die zijn gekocht via selfservice aankopen. Microsoft biedt standaard ondersteuning voor selfservice-inkopen.
 
-### <a name="if-a-self-service-purchaser-calls-support-will-they-use-the-customers-premier-support-incidents"></a>Als een selfservice-koper ondersteuning belt, gebruikt hij of zij dan de premier-ondersteuningsincidenten van de klant?
+### <a name="if-a-self-service-purchaser-calls-support-does-that-use-the-customers-premier-support-incidents"></a>Gebruik de premier-ondersteunings incidenten van de klant als een selfservice medewerker ondersteuning biedt.
 
-Selfservice-kopers gebruiken de Premier-ondersteuningsincidenten van een klant niet voor het ontvangen van ondersteuning voor hun selfservice-aankopen.
+Selfservice aankopen gebruiken geen klanten van de premier-ondersteuning van een klant om ondersteuning te krijgen voor hun selfservice aankopen.
 
-### <a name="how-are-users-expected-to-receive-training-on-the-products-they-buy-through-self-service-purchase"></a>Hoe worden gebruikers verwacht om training te krijgen over de producten die ze kopen via self-service aankoop?
+### <a name="how-are-users-expected-to-receive-training-on-the-products-they-buy-through-self-service-purchase"></a>Hoe verwachten de gebruikers training te ontvangen op de producten die ze kopen via een selfservice aankoop?
 
-Uitgebreide training voor gebruikers wordt aangeboden op de websites Microsoft Power BI, Power Apps en Power Automate. De producten hebben begeleid leren, documentatie, monsters, en sterke gemeenschappen om antwoorden en tips rechtstreeks van andere gebruikers te krijgen.
+Uitgebreide training voor gebruikers is beschikbaar op de product websites. De producten hebben geleide Learning, Documentatie, voorbeelden en krachtige community's om antwoorden en tips rechtstreeks van andere gebruikers te krijgen.
 
-### <a name="what-happens-to-a-self-service-purchase-if-a-user-leaves-the-organization"></a>Wat gebeurt er met een selfservice-aankoop als een gebruiker de organisatie verlaat?
+### <a name="what-happens-to-a-self-service-purchase-if-a-user-leaves-the-organization"></a>Wat gebeurt er met een selfservice aankoop als een gebruiker de organisatie verlaat?
 
-Geldige gebruikers blijven gedurende de duur van het abonnement volledig gebruik maken van de selfservice-aankoop. Het abonnement blijft actief totdat de koper het abonnement rechtstreeks opzegt of een beheerder verzoekt om het abonnement op te zeggen via de klantenservice. Beheerders kunnen er ook voor kiezen om een centraal aangeschafte licentie toe te wijzen aan gebruikers van het opgezegde abonnement.
+Als degene die het selfservice Purchase product oorspronkelijk heeft gekocht, de organisatie verlaat, blijven geldige gebruikers hun gehele product gebruiken voor de duur van het abonnement. Het abonnement blijft actief totdat de koper de klant direct annuleert of een beheerder vraagt de annulering van het abonnement door de klantondersteuning. Beheerders kunnen er ook voor kiezen een centraal aangeschafte licentie toe te wijzen aan gebruikers van het geannuleerde abonnement.
 
-## <a name="partners"></a>Partners
+## <a name="partners"></a>Relaties
 
-### <a name="whats-the-role-of-microsofts-partners-in-self-service-purchases"></a>Wat is de rol van microsoft-partners bij selfservice-aankopen?
+### <a name="whats-the-role-of-microsofts-partners-in-self-service-purchases"></a>Wat is de rol van de partners van Microsoft in selfservice-aankopen?
 
-Partners die beheerrechten hebben gedelegeerd, kunnen selfservice-aankopen zien in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-beheercentrum,</a>net als een beheerder. Partners kunnen helpen bij het ondersteunen van een organisatie die producten wil centraliseren die zijn gekocht via selfservice-aankopen. Daarnaast kunnen partners oplossingen bieden om de mogelijkheden van een selfservice-aankoop uit te breiden.
-
-## <a name="country-and-region-availability"></a>Beschikbaarheid van land en regio
-
-### <a name="in-which-countries-and-regions-can-i-make-a-self-service-purchase"></a>In welke landen en regio's kan ik een selfservice-aankoop doen?
-
-Selfservice-aankopen zijn beschikbaar in de volgende landen en regio's: Afghanistan, Åland eilanden, Albanië, Algerije, Amerikaans Samoa, Andorra, Angola, Anguilla, Antarctica, Antigua en Barbuda, Argentinië, Armenië, Aruba, Australië, Oostenrijk, Azerbeidzjan, Bahama's, Bahrein, Bangladesh, Barbados, Wit-Rusland, België, Bulgarije, Belize, Benin, Bermuda, Bhutan, Bolivia, Bonaire, Sint Eustatius en Saba, Bosnië en Herzegovina, Botswana, Bouvet Island, Brazilië, Brits Grondgebied van de Indische Oceaan, Britse Maagdeneilanden , Brunei, Burkina Faso, Burundi, Cabo Verde, Cambodja, Kameroen, Canada, Kaaimaneilanden, Centraal-Afrikaanse Republiek, Tsjaad, Chili, China, Kersteiland, Cocos (Keeling) Eilanden, Colombia, Comoren, Congo, Congo (DRC), Cook Eilanden, Costa Rica, Ivoorkust, Kroatië, Cyprus, Curaçao, Tsjechië, Denemarken, Djibouti, Dominica, Dominicaanse Republiek, Ecuador, Egypte, El Salvador, Equatoriaal-Guinea, Eritrea, Estland, Ethiopië, Falklandeilanden, Faeröer, Fiji, Finland, Frankrijk, Frans-Guian , Frans-Polynesië, Franse Zuidelijke Gebieden, Gabon, Gambia, Georgië, Duitsland, Ghana, Gibraltar, Groenland, Griekenland, Grenada, Guadeloupe, Guam, Guatemala, Guernsey, Guinee, Guinee-Bissau, Guyana, Haïti, Heard Island en McDonald-eilanden, Honduras, Hong Kong SAR, Hongarije, IJsland, Indonesië, Irak, Ierland, Isle of Man, Israël, Italië, Jamaica, Japan, Jersey, Jordanië, Kazachstan, Kenia, Kiribati, Korea, Kosovo, Koeweit, Kirgizië, Laos, Letland, Libanon, Lesotho, Liberia, Libië, Liechtenstein, Litouwen, Luxemburg , Macao SAR, Madagaskar, Malawi, Maleisië, Malediven, Mali, Malta, Marshalleilanden, Martinique, Mauritanië, Mauritius, Mayotte, Mexico, Micronesië, Moldavië, Monaco, Mongolië, Montenegro, Montserrat, Marokko, Mozambique, Myanmar, Namibië, Nauru, Nepal, Nederland, Nieuw-Caledonië, Nieuw-Zeeland, Nicaragua, Niger, Nigeria, Niue, Norfolk Island, Noord-Macedonië, Noordelijke Marianen, Noorwegen, Oman, Pakistan, Palau, Palestijnse Autoriteit, Panama, Papoea-Nieuw-Guinea, Paraguay, Peru, Filippijnen, Pitcairn-eilanden, Polen, Portugal, , Qatar, Réunion, Roemenië, Rusland, Rwanda, Saint Barthélemy, Saint Kitts en Nevis, Saint Lucia, Saint Martin, Saint Pierre en Miquelon, Saint Vincent en de Grenadines, Samoa, San marino, São Tomé en Príncipe, Saoedi-Arabië, Senegal, Servië, Seychellen, Sierra Leone, Singapore, Sint Maarten, Slowakije, Slovenië, Salomonseilanden, Somalië, Zuid-Afrika, Zuid-Georgië en Zuid-Soedan, Spanje, Sri Lanka, , Ascension, Tristan da Cunha, Suriname, Svalbard en Jan Mayen, Swaziland, Zweden, Zwitserland, Taiwan, Tadzjikistan, Tanzania, Thailand, Timor-Leste, Togo, Tokelau, Tonga, Trinidad en Tobago, Tunesië, Turkije, Turkmenistan, Turken en Caicoseilanden, Tuvalu, Vs. Eilanden, Amerikaanse Maagdeneilanden, Oeganda, Oekraïne, Verenigde Arabische Emiraten, Verenigd Koninkrijk, Verenigde Staten, Uruguay, Oezbekistan, Vanuatu, Vaticaanstad, Venezuela, Vietnam, Wallis en Futuna, Jemen, Zambia, En Zimbabwe.
+Partners die gedelegeerde beheerdersrechten hebben, kunnen selfservice aankopen bekijken in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-Beheercentrum</a>, net als een beheerder. Partners kunnen ondersteuning bieden voor ondersteuning van een organisatie die producten wil centraliseren die via selfservice aankopen op de eigen service zijn gekocht. Daarnaast kunnen partners oplossingen bieden om de mogelijkheden van een selfservice aankoop uit te breiden.

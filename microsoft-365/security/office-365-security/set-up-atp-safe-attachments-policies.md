@@ -1,5 +1,5 @@
 ---
-title: Office 365 ATP-beleid voor veilige bijlagen instellen
+title: Beleidsregels voor veilige bijlagen van Office 365 instellen
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,97 +16,100 @@ search.appverid:
 ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over het definiëren van beleid voor veilige bijlagen om uw organisatie te beschermen tegen schadelijke bestanden in e-mail.
+description: Meer informatie over het definiëren van beleidsregels voor veilige bijlagen om uw organisatie tegen kwaadwillende bestanden in een e-mail te beschermen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1569e8072f64ce751c44e76f971e98f37540afae
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: a8b69d114b1387a1ef76d962424149c1db93ce04
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430421"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656624"
 ---
-# <a name="set-up-office-365-atp-safe-attachments-policies"></a>Office 365 ATP-beleid voor veilige bijlagen instellen
+# <a name="set-up-office-365-atp-safe-attachments-policies"></a>Beleidsregels voor veilige bijlagen van Office 365 instellen
 
 > [!IMPORTANT]
-> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Zie [Geavanceerde Outlook.com beveiliging](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)als u een thuisgebruiker bent die op zoek is naar informatie over veilige bijlagen.
+> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Als u een thuisgebruiker bent die op zoek bent naar informatie over veilige bijlagen in Outlook, raadpleegt u [geavanceerde Outlook.com-beveiliging](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-Mensen verzenden, ontvangen en delen regelmatig bijlagen, zoals documenten, presentaties, spreadsheets en meer. Het is niet altijd gemakkelijk om te zien of een bijlage veilig of kwaadaardig is door alleen maar naar een e-mailbericht te kijken. En het laatste wat je wilt is een kwaadaardige gehechtheid te krijgen door, ravage aanrichten voor uw organisatie. Gelukkig kan [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) helpen. U [atp-beleid](atp-safe-attachments.md) voor veilige bijlagen instellen om ervoor te zorgen dat uw organisatie wordt beschermd tegen aanvallen door onveilige e-mailbijlagen.
+Mensen verzenden, ontvangen en delen van bijlagen, zoals documenten, presentaties, spreadsheets en meer. Het is niet altijd eenvoudig om te zien of een bijlage veilig of schadelijk is, net zoals u een e-mailbericht bekijkt. En het laatste wat u wilt, is een kwaadaardige bijlage, wreaking Havoc voor uw organisatie. Gelukkig kunt u met [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) helpen. U kunt beleidsregels voor een veilige beveiliging van de [bijlage](atp-safe-attachments.md) instellen om ervoor te zorgen dat uw organisatie is beveiligd tegen aanvallen via onveilige e-mailbijlagen.
 
-## <a name="what-to-do"></a>Wat te doen
+## <a name="what-to-do"></a>Wat moet u doen?
 
-1. De vereisten bekijken
+1. De vereisten controleren
 
-2. Een ATP-beleid voor veilige bijlagen instellen
+2. Een beleid instellen voor veilige bijlagen
 
-3. Meer informatie over beleidsopties voor ATP-veilige bijlagen
+3. Meer informatie over de beleidsopties voor het beveiligen van ATP
 
-## <a name="step-1-review-the-prerequisites"></a>Stap 1: Bekijk de vereisten
+## <a name="step-1-review-the-prerequisites"></a>Stap 1: de vereisten controleren
 
-- Zorg ervoor dat uw organisatie [geavanceerde bedreigingsbeveiliging van Office 365](office-365-atp.md)heeft.
+- Zorg ervoor dat uw organisatie [Office 365 Advanced Threat Protection](office-365-atp.md)heeft.
 
-- Zorg ervoor dat u over de benodigde machtigingen beschikt. Als u ATP-beleid wilt definiëren (of bewerken), moet u een Exchange Online Organization Management-rol toegewezen krijgen (globale beheerder is standaard aan deze rol toegewezen) of aan zowel exchange online hygiënebeheer- als beveiligingsbeheerdersrollen. Zie de volgende tabel voor meer informatie:
+- Zorg ervoor dat u de benodigde machtigingen hebt. Als u ATP-beleidsregels wilt definiëren (of bewerken), moet u beschikken over de rol van Organisatiebeheer van Exchange Online (de globale beheerder wordt standaard toegewezen aan deze rol) of beide Exchange Online-hygiëne beheer en beveiligingsbeheerders rollen. Zie de volgende tabel voor meer informatie:
 
-  |Rol|Waar/hoe toegewezen|
-  |---------|---------|
-  |globale beheerder |De persoon die zich aanmeldt om Microsoft 365 te kopen, is standaard een globale beheerder. (Zie [Over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.)|
+  ****
+
+  |Rol|Where/hoe toegewezen|
+  |---|---|
+  |globale beheerder |De persoon die zich registreert voor het kopen van Microsoft 365 is standaard een globale beheerder. (Zie [informatie over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.)|
   |Beveiligingsbeheerder |Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-  |Exchange Online Organization Management, Exchange Online Hygiene Management |Exchange-beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
+  |Exchange Online Organisatiebeheer, Exchange Online-hygiëne beheer |Exchange-Beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
   |
 
-  Zie [Machtigingen in het Security &amp; Compliance Center voor](permissions-in-the-security-and-compliance-center.md)meer informatie over rollen en machtigingen.
+  Zie [machtigingen in het beveiligings &amp; centrum](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rollen en machtigingen.
 
-- [Meer informatie over beleidsopties voor ATP Safe Attachments](#step-3-learn-about-atp-safe-attachments-policy-options) (in dit artikel). Sommige opties, zoals de opties Controleren of Vervangen, kunnen leiden tot een kleine vertraging van e-mail terwijl bijlagen worden gescand. Als u berichtvertragingen wilt voorkomen, u [overwegen Dynamische levering en voorbeelden te](dynamic-delivery-and-previewing.md)gebruiken.
+- [Meer informatie over ATP-beleidsopties voor het beveiligen van bijlagen](#step-3-learn-about-atp-safe-attachments-policy-options) (in dit artikel). Sommige opties, zoals de opties monitor of vervangen, kunnen een kleine vertraging van de e-mail veroorzaken wanneer bijlagen worden gescand. U kunt de vertragingen van berichten voorkomen door [dynamische levering te gebruiken en een voorbeeld te bekijken](dynamic-delivery-and-previewing.md).
 
-- Sta maximaal 30 minuten toe voor uw nieuwe of bijgewerkte beleid om zich te verspreiden naar alle Microsoft 365-datacenters.
+- Maximaal 30 minuten toegestaan voor uw nieuwe of bijgewerkte beleid voor alle Microsoft 365-datacenters.
 
-## <a name="step-2-set-up-or-edit-an-atp-safe-attachments-policy"></a>Stap 2: Een ATP-beleid voor veilige bijlagen instellen (of bewerken)
+## <a name="step-2-set-up-or-edit-an-atp-safe-attachments-policy"></a>Stap 2: een in-en uitzoomen op een beleid voor veilige bijlagen instellen (of bewerken)
 
-1. Ga naar [https://protection.office.com](https://protection.office.com) en meld je aan met je werk- of schoolaccount.
+1. Ga naar [https://protection.office.com](https://protection.office.com) en meld u aan met uw werk-of schoolaccount.
 
-2. Kies in het Security &amp; Compliance Center in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**de optie Veilige bijlagen **voor beleid** \> **Safe Attachments**.
+2. Kies in het &amp; gedeelte beveiligings compliance in het linker navigatiedeelvenster onder **Threat Management**de optie **beleids** \> **veilige bijlagen**.
 
-3. Als u **ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams**ziet, raden we u aan deze optie te selecteren. Hiermee [u Office 365 Advanced Threat Protection voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md) inschakelen voor uw Microsoft 365-omgeving.
+3. Als u **ATP voor SharePoint, OneDrive en Microsoft teams**ziet staan, is het raadzaam deze optie te selecteren. Hiermee wordt [Office 365 Advanced Threat Protection voor SharePoint, OneDrive en Microsoft teams](atp-for-spo-odb-and-teams.md) voor uw microsoft 365-omgeving ingeschakeld.
 
-4. Kies **Nieuw** (de knop Nieuw lijkt op een plusteken ( **+** )) om te beginnen met het maken van uw beleid.
+4. Kies **Nieuw** (de knop Nieuw lijkt op een plusteken ( **+** )) om uw beleid te gaan maken.
 
-5. Geef de naam, beschrijving en instellingen voor het beleid op.<br/><br/>**Voorbeeld:** Als u een beleid wilt instellen dat 'geen vertragingen' wordt genoemd en dat de berichten van iedereen onmiddellijk verzendt en vervolgens bijlagen opnieuw wordt bevestigd nadat deze zijn gescand, u de volgende instellingen opgeven:
+5. De naam, de beschrijving en de instellingen voor het beleid opgeven.<br/><br/>**Voorbeeld:** Voor het instellen van een beleid met de naam ' geen vertragingen ' waarmee iedereen berichten direct wordt bezorgd en vervolgens bijlagen opnieuw bijgevoegd na de scan, kunt u de volgende instellingen opgeven:
 
-   - Typ in het vak **Naam** geen vertragingen.
+   - Typ in het vak **naam** geen vertragingen.
 
-   - Typ in het vak **Beschrijving** een beschrijving zoals: Berichten wordt onmiddellijk verzonden en bijlagen na het scannen opnieuw bevestigen.
+   - Typ in het vak **Beschrijving** een beschrijving als een beschrijving, zodat de bijlagen direct na het scannen worden gevoegd.
 
-   - Kies in de sectie Antwoord de optie **Dynamische levering.** (Meer[informatie over dynamische levering en voorvertoning met ATP Safe Attachments](dynamic-delivery-and-previewing.md).)
+   - Kies in de sectie antwoord de optie **dynamische bezorgings** optie. ([Zie voor meer informatie over dynamische bezorging en voorbeelden met veilige bijlagen met ATP](dynamic-delivery-and-previewing.md).)
 
-   - Selecteer in de sectie **Bijlage omleiden** de optie om omleiding in te schakelen en typ het e-mailadres van uw globale beheerder, beveiligingsbeheerder of beveiligingsanalist die schadelijke bijlagen zal onderzoeken.
+   - Selecteer in de sectie **bijlage omleiden** de optie om omleiding in te schakelen en typ het e-mailadres van uw globale beheerder, beveiligingsbeheerder of beveiligings analist die schadelijke bijlagen gaat onderzoeken.
 
-   - Kies **in** de sectie Toegepast op **de optie Het domein van de ontvanger is**en selecteer vervolgens uw domein. Kies **Toevoegen**en kies **vervolgens OK**.
+   - Kies in de sectie **toegepast op** **het domein van de ontvanger**en selecteer uw domein. Kies **toevoegen**en kies vervolgens **OK**.
 
 6. Selecteer **Save**.
 
-Overweeg het instellen van meerdere ATP Safe Attachments-beleid voor uw organisatie. Dit beleid wordt toegepast in de volgorde waarin ze worden weergegeven op de pagina **Veilige bijlagen bij de ATP.** Nadat een beleid is gedefinieerd of bewerkt, moet u de politie ten minste 30 minuten toestaan om in alle Microsoft-datacenters van kracht te worden.
+Overweeg om meerdere ATP-beleidsregels voor veilige bijlagen in te stellen voor uw organisatie. Deze beleidsregels worden toegepast op de volgorde waarin ze worden weergegeven op de pagina met **veilige vrije** vormen. Nadat een beleid is gedefinieerd of bewerkt, mag de politie gedurende minimaal 30 minuten duren voordat de policies in Microsoft-datacenters worden doorgevoerd.
 
-## <a name="step-3-learn-about-atp-safe-attachments-policy-options"></a>Stap 3: Meer informatie over beleidsopties voor ATP-veilige bijlagen
+## <a name="step-3-learn-about-atp-safe-attachments-policy-options"></a>Stap 3: meer informatie over de beleidsopties voor het instellen van ATP voor veilige bijlagen
 
-Terwijl u uw ATP-beleid voor veilige bijlagen instelt, kiest u uit vele opties, waaronder Monitor, Blok, Vervangen, Dynamische levering, enzovoort. Als u zich afvraagt wat deze opties doen, wordt in de volgende tabel elk en het effect ervan samengevat.
+Wanneer u uw beleid voor veilige bijlagen voor ATP instelt, kiest u een van de vele opties, waaronder monitor, blok, vervangen, dynamische bezorging, enzovoort. Als u zich afvraagt wat deze opties zijn, kunt u in de onderstaande tabel een overzicht maken van de verschillende en bijbehorende gevolgen.
 
-||||
+****
+
+|Optie|Actief|Gebruik dit wanneer u het volgende wilt doen:|
 |---|---|---|
-|**Optie**|**Effect**|**Gebruik wanneer u het:**|
-|**Uit**|Scant geen bijlagen op malware  <br/> Vertraagt de bezorging van berichten niet|Scannen uitschakelen voor geselecteerde ontvangers.  <br/> Voorkom onnodige vertragingen bij het routeren van interne e-mail.  <br/> **Deze optie wordt niet aanbevolen voor de meeste gebruikers. U mag deze optie alleen gebruiken om het scannen van ATP Safe Attachments uit te schakelen voor ontvangers die alleen e-mails ontvangen van vertrouwde afzenders.**|
-|**Monitor**|Levert berichten met bijlagen en houdt vervolgens bij wat er gebeurt met gedetecteerde malware|Bekijk waar gedetecteerde malware naartoe gaat in uw organisatie|
-|**Blok**|Voorkomt dat berichten met gedetecteerde malware-bijlagen worden voortgezet  <br/> Stuurt berichten met gedetecteerde malware naar [quarantaine in Office 365](manage-quarantined-messages-and-files.md) waar een beveiligingsbeheerder of -analist deze berichten kan controleren en vrijgeven (of verwijderen)  <br/> Blokkeert toekomstige berichten en bijlagen automatisch|Bescherm uw organisatie tegen herhaalde aanvallen met dezelfde malware-bijlagen|
-|**Vervangen**|Verwijdert gedetecteerde malware-bijlagen  <br/> Ontvangers op de hoogte brengen dat bijlagen zijn verwijderd  <br/> Stuurt berichten met gedetecteerde malware naar [quarantaine in Office 365](manage-quarantined-messages-and-files.md) waar een beveiligingsbeheerder of -analist deze berichten kan controleren en vrijgeven (of verwijderen)|De zichtbaarheid van ontvangers vergroten dat bijlagen zijn verwijderd vanwege gedetecteerde malware|
-|**Dynamische levering**|Levert berichten onmiddellijk  <br/> Vervangt bijlagen door een tijdelijke aanduidingsbestand totdat het scannen is voltooid en plaatst de bijlagen opnieuw als er geen malware wordt gedetecteerd  <br/> Bevat mogelijkheden voor het bekijken van bijlagen voor de meeste PDF's en Office-bestanden tijdens het scannen  <br/> Stuurt berichten met gedetecteerde malware naar Quarantaine waar een beveiligingsbeheerder of -analist die berichten kan controleren en vrijgeven (of verwijderen)  <br/> [Meer informatie over dynamische levering en voorvertoning met ATP Safe-bijlagen](dynamic-delivery-and-previewing.md) <br/> |Voorkom berichtvertragingen terwijl ontvangers worden beschermd tegen schadelijke bestanden  <br/> Ontvangers in staat stellen bijlagen in de veilige modus te bekijken terwijl het scannen plaatsvindt|
-|**Omleiding inschakelen**|Van toepassing wanneer de optie Monitor, Blokkeren of Vervangen is gekozen  <br/> Hiermee stuurt u bijlagen naar een opgegeven e-mailadres waar beveiligingsbeheerders of -analisten|Beveiligingsbeheerders en analisten in staat stellen verdachte bijlagen te onderzoeken|
-|**De bovenstaande selectie toepassen als er een keer een storing optreedt bij het scannen van malware voor bijlagen**|Hiermee past u de actie toe die is geconfigureerd voor onveilige bijlagen op de bijlagen die niet kunnen worden gescand (vanwege een time-out of fout)|
+|**Uit**|De bijlagen voor malware worden niet gescand  <br/> De bezorging van berichten wordt niet vertraagd|Scan uitschakelen voor geselecteerde geadresseerden.  <br/> Onnodige vertragingen voor het routeren van interne e-mail voorkomen.  <br/> **Deze optie wordt niet aanbevolen voor de meeste gebruikers. U dient deze optie alleen te gebruiken om te controleren of de lijst met geblokkeerde gebruikersnamen automatisch e-mailberichten van vertrouwde afzenders ontvangt.**|
+|**Monitor**|Levert berichten met bijlagen en spoort wat er gebeurt met ontdekte malware|Zien waar de gedetecteerde malware in uw organisatie terechtkomt|
+|**Geheven**|Voorkomt dat berichten met schadelijke bijlagen voor schadelijke software worden voortgezet  <br/> Verzendt berichten met gedetecteerde malware [in Office 365](manage-quarantined-messages-and-files.md) , waarbij een beveiligingsbeheerder of een analist die berichten kan controleren en vrijgeven (of verwijderen)  <br/> Toekomstige berichten en bijlagen automatisch blokkeren|Uw organisatie beschermen tegen herhaalde aanvallen met dezelfde schadelijke bijlagen|
+|**Vervangen**|Verwijdert gedetecteerde schadelijke bijlagen  <br/> Laat geadresseerden u op de hoogte van de bijlagen verwijderen  <br/> Verzendt berichten met gedetecteerde malware [in Office 365](manage-quarantined-messages-and-files.md) , waarbij een beveiligingsbeheerder of een analist die berichten kan controleren en vrijgeven (of verwijderen)|De zichtbaarheid voor geadresseerden verhogen die bijlagen hebben verwijderd vanwege malware die zijn gedetecteerd|
+|**Dynamische bezorging**|Levert direct berichten  <br/> Hiermee worden bijlagen met een tijdelijke aanduiding voor bestanden vervangen totdat de scan is voltooid en de bijlagen opnieuw worden bijgevoegd als er geen malware is gedetecteerd  <br/> Inclusief bijlage Voorbeeldfuncties voor de meeste PDF-bestanden en Office-bestanden tijdens het scannen  <br/> Verzendt berichten met gedetecteerde malware in quarantaine, waar een beveiligingsbeheerder of analist de berichten kan controleren en vrijgeven (of verwijderen)  <br/> [Meer informatie over dynamische bezorgings berichten en voorbeelden van veilige bijlagen met ATP](dynamic-delivery-and-previewing.md) <br/> |Voorkom dat berichten worden vertraagd wanneer u geadresseerden tegen kwaadwillende bestanden beschermt  <br/> Voorbeelden van bijlagen weergeven in de veilige modus terwijl de scanfunctie plaatsvindt|
+|**Omleiden inschakelen**|Toepassen wanneer de optie monitor, blok of vervangen is geselecteerd  <br/> Hiermee worden bijlagen verzonden naar een opgegeven e-mailadres waar beveiligingsbeheerders of analisten kunnen onderzoeken|Beveiligingsbeheerders en analisten inschakelen voor onderzoek naar verdachte bijlagen|
+|**De bovenstaande selectie toepassen als malware wordt gescand op bijlagen wanneer de fout optreedt**|Hiermee past u de actie die is geconfigureerd voor onveilige bijlagen toe op de bijlagen die niet kunnen worden gescand (vanwege een time-out of fout)|
 |
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Zodra uw ATP Safe Attachments-beleid is ingevoerd, u zien hoe ATP voor uw organisatie werkt door rapporten te bekijken. Zie de volgende bronnen voor meer informatie:
+Wanneer u de beleidsregels voor veilige beveiliging van de ATP-beleidsregels hebt ingesteld, kunt u de weergave van de werkruimte voor uw organisatie bekijken door rapporten te bekijken. Raadpleeg de volgende bronnen voor meer informatie:
 
-- [Rapporten voor geavanceerde bedreigingsbeveiliging van Office 365 weergeven](view-reports-for-atp.md)
+- [Rapporten weergeven voor Office 365 Advanced Threat Protection](view-reports-for-atp.md)
 
-- [Explorer gebruiken in het Security & Compliance Center](threat-explorer.md)
+- [Verkenner gebruiken in de beveiligings & compliance Center](threat-explorer.md)
 
-Blijf op de hoogte van nieuwe functies die naar ATP komen. bezoek de [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) en leer meer over [nieuwe functies die worden toegevoegd aan ATP](office-365-atp.md#new-features-in-office-365-atp).
+Blijf op de hoogte van nieuwe functies die beschikbaar zijn in ATP. Ga naar het [Microsoft 365-wegwijzer](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) en leer meer over de [nieuwe functies die worden toegevoegd aan ATP](office-365-atp.md#new-features-in-office-365-atp).

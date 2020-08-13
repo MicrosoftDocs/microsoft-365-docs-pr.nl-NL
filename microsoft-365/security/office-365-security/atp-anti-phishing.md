@@ -16,50 +16,53 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Meer informatie over anti-phishing-mogelijkheden die deel uitmaken van Office 365 Advanced Threat Protection om bescherming te bieden voor & spear phishing-aanvallen.
-ms.openlocfilehash: dda94145dfbef7466ebd8e1fb9f01d592515f598
-ms.sourcegitcommit: 5e8901e7e571f20ede04f460bd3e7077dda004ca
+description: Lees meer over de functies die deel uitmaken van Office 365 Advanced Threat Protection ter bescherming tegen de bescherming tegen de bescherming tegen de bescherming tegen de bescherming tegen producties & spear phishing-aanvallen.
+ms.openlocfilehash: 238c841ec7ba45fe2675598a29979b550c1c4fa3
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44875415"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653362"
 ---
 # <a name="atp-anti-phishing-capabilities-in-office-365"></a>antiphishingfuncties voor ATP in Office 365
 
-ATP-antiphishing maakt deel uit van [Geavanceerde bedreigingsbeveiliging van Office 365.](office-365-atp.md) ATP anti-phishing past een set machine learning-modellen samen met imitatiedetectiealgoritmen toe op binnenkomende berichten om bescherming te bieden voor phishing-aanvallen op basis van grondstoffen en speer. Alle berichten zijn onderworpen aan een uitgebreide set van machine learning-modellen getraind om phishing-berichten te detecteren, samen met een set van geavanceerde algoritmen die worden gebruikt om te beschermen tegen verschillende gebruiker en domein imitatie aanvallen. ATP-antiphishing beschermt uw organisatie op basis van politiemensen die zijn ingesteld door uw algemene of beveiligingsbeheerders van Office 365.
+ATP anti-phishing is onderdeel van [Office 365 Advanced Threat Protection](office-365-atp.md). Als u op een anti-virus van ATP bent, past u een reeks machine leer modellen samen met imitatie detectie algoritmen voor inkomende berichten ter bescherming tegen grondstoffen en spear phishing-aanvallen. Alle berichten zijn onderhevig aan een uitgebreide set machine learning-modellen die zijn opgeleid voor het detecteren van phishingberichten, samen met een set geavanceerde algoritmen die worden gebruikt voor het beschermen tegen verschillende aanvallen van gebruikers en domein imitatie. ATP anti-phishing beschermt uw organisatie op basis van policies die zijn ingesteld door uw Office 365-globale beheerder of beveiligingsbeheerder.
   
-Zie [Anti-phishingbeleid instellen in Office 365](set-up-anti-phishing-policies.md)voor meer informatie.
+Zie [anti phishingfilter instellen in Office 365](set-up-anti-phishing-policies.md)voor meer informatie.
   
 > [!NOTE]
-> ATP-antiphishing is alleen beschikbaar in Advanced Threat Protection, dat is opgenomen in abonnementen, zoals [Microsoft 365 Enterprise,](https://www.microsoft.com/microsoft-365/enterprise/home) [Microsoft 365 Business,](https://www.microsoft.com/microsoft-365/business)Office 365 Enterprise E5, Office 365 Education A5, enz. Als uw organisatie een Office 365-abonnement heeft dat geen Office 365 ATP bevat, u ATP mogelijk als invoegtoepassing aanschaffen. Zie [Office 365 Advanced Threat Protection-abonnementen en -prijzen en](https://products.office.com/exchange/advance-threat-protection) de beschrijving van de [Geavanceerde bedreigingsbeveiliging van Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)voor geavanceerde bedreigingenservice voor meer informatie.
+> ATP anti-phishing is alleen beschikbaar in Advanced Threat Protection, dat deel uitmaakt van een abonnement, zoals [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5, Office 365 education A5, enzovoort. Als uw organisatie een Office 365-abonnement heeft dat geen Office 365-ATP bevat, kunt u ATP kopen als een invoegtoepassing. Zie voor meer informatie [office 365 Advanced Threat Protection-abonnementen en-prijzen](https://products.office.com/exchange/advance-threat-protection) en de beschrijving van de [Office 365 Advanced Threat Protection-Service](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
 
-## <a name="how-atp-anti-phishing-works"></a>Hoe ATP anti-phishing werkt
+## <a name="how-atp-anti-phishing-works"></a>De werking van ATP anti phishing
 
-ATP anti-phishing controleert inkomende berichten op indicatoren dat het bericht phishing kan zijn. Wanneer een gebruiker wordt gedekt door een ATP-beleid (veilige bijlagen, veilige links of anti-phishing) wordt het binnenkomende bericht geëvalueerd door meerdere machine learning-modellen die het bericht analyseren om te bepalen of het beleid van toepassing is op het bericht en de juiste actie wordt ondernomen, op basis van het geconfigureerde beleid.
+ATP anti-phishing controleert inkomende berichten voor indicatoren die het bericht kan phishing. Telkens wanneer een gebruiker is onderworpen aan een ATP-beleid (veilige bijlagen, veilige koppelingen of anti-phishing), wordt het inkomende bericht geëvalueerd door meerdere machine learning modellen waarmee het bericht wordt geanalyseerd om te bepalen of het beleid van toepassing is op het bericht en dat de juiste actie wordt uitgevoerd op basis van het geconfigureerde beleid.
   
-Met ATP-antiphishing kunnen wereldwijde beheerders of beveiligingsbeheerders van Office 365 beleid definiëren dat bescherming biedt tegen phishing-aanvallen die imitatie van gebruikers of domeinen omvatten. (of beide). Globale beheerders of beveiligingsbeheerders van Office 365 definiëren binnen het beleid welke gebruikers en domeinen moeten worden beschermd tegen imitatieaanvallen met behulp van een vaste lijst met gebruikers of domeinen of door postvakinformatie te gebruiken. Mailbox intelligence is een geavanceerd begrip van de e-mailgewoonten van een gebruiker en persoonlijke contacten. ATP leert hoe elke individuele gebruiker communiceert met andere gebruikers binnen en buiten de organisatie en bouwt een kaart op van deze relaties. Deze kaart stelt ATP in staat om meer details te begrijpen over hoe u ervoor zorgen dat de juiste berichten worden geïdentificeerd als imitatie.
+Met anti-phishing in Office 365 kunnen globale beheerders van Office of beveiligingsbeheerders beleidsregels definiëren die bescherming bieden tegen phishing-aanvallen, waaronder imitatie van gebruikers of domeinen. (of beide). Globale beheerders van Office 365 of beveiligingsbeheerders definiëren binnen het beleid welke gebruikers en domeinen moeten worden beveiligd tegen imitatie aanvallen via een vaste lijst met gebruikers of domeinen, of via postvak Intelligence. Postvak intelligentie is een uitgebreide uitleg van e-mail gewoonten en persoonlijke contactpersonen van een gebruiker. Met ATP leert u hoe elke afzonderlijke gebruiker communiceert met andere gebruikers binnen en buiten de organisatie en een kaart van deze relaties bouwt. In deze kaart mag ATP worden gebruikt voor meer informatie over hoe u ervoor zorgt dat de juiste berichten als imitatie worden geïdentificeerd.
   
-ATP-antiphishingpolitie kan worden toegepast op een specifieke groep mensen of groepen in uw organisatie, of op een heel domein of al uw aangepaste domeinen. Zie [Anti-phishingbeleid instellen in Office 365](set-up-anti-phishing-policies.md)voor meer informatie.
+U kunt op een specifieke groep personen of groepen in uw organisatie of in een volledig domein of al uw aangepaste domeinen toepassen. Zie [anti phishingfilter instellen in Office 365](set-up-anti-phishing-policies.md)voor meer informatie.
   
-## <a name="how-to-get-atp-anti-phishing"></a>Hoe atp anti-phishing te krijgen
+## <a name="how-to-get-atp-anti-phishing"></a>Hoe kan ik het anti-phishing van ATP
 
-ATP Anti-Phishing-functies maken deel uit van [Advanced Threat Protection;](office-365-atp.md) ATP-bescherming tegen phishing is echter van toepassing wanneer het anti-phishingbeleid wordt gedefinieerd. (Een voorbeeld is een op imitatie gebaseerd beleid.) Zie [Anti-phishingbeleid instellen in Office 365](set-up-anti-phishing-policies.md).
+De functies van de ATP-anti ervaring maken deel uit van [Advanced Threat Protection](office-365-atp.md). Er is echter wel een anti-phishing-bescherming van ATP van toepassing wanneer beleidsregels worden gedefinieerd. (Één voorbeeld is een beleid op basis van imitatie.) Zie [anti phishingfilter instellen in Office 365](set-up-anti-phishing-policies.md).
   
-## <a name="how-to-know-if-atp-anti-phishing-is-in-place"></a>Hoe weet je of ATP anti-phishing aanwezig is
+## <a name="how-to-know-if-atp-anti-phishing-is-in-place"></a>Hoe weet u of ATP anti-phishing is geïnstalleerd?
 
-Atp anti-phishing beleid moet worden gedefinieerd om bescherming van kracht te zijn. Controleer dit eerst om te controleren of de beveiliging is op zijn plaats.
+U moet een anti-phishingfilter-beleid definiëren om de bescherming van kracht te laten worden. Controleer eerst of de beveiliging is ingeschakeld.
 
-Daarnaast zijn rapporten beschikbaar om te laten zien hoe de service werkt voor uw organisatie. Zie [Rapporten voor Geavanceerde bedreigingsbeveiliging van Office 365 weergeven voor](view-reports-for-atp.md)meer informatie.
+Daarnaast zijn er rapporten beschikbaar om aan te geven hoe de service werkt voor uw organisatie. Zie [rapporten weergeven voor Office 365 Advanced Threat Protection voor](view-reports-for-atp.md)meer informatie.
 
-Als ATP-modellen voor machine learning-antiphishing actief zijn voor een bepaalde gebruiker, moet die gebruiker deel uitmaken van een gedefinieerd [ATP Safe-bijlagen,](atp-safe-attachments.md) [ATP Safe Links](atp-safe-links.md)of ATP Anti-Phishing-beleid. 
+Voor een bepaalde gebruiker moet de bewerkings modellen van een ATP-computer worden geactiveerd voor een bepaalde gebruiker, moet de gebruiker een deel uitmaken van een gedefinieerde, [veilige](atp-safe-attachments.md) [of vrije](atp-safe-links.md)lijst met ATP. 
 
-In de volgende tabel worden enkele voorbeeldscenario's beschreven. In elk van deze voorbeelden gebruikt de organisatie Office 365 Enterprise E5, waaronder Geavanceerde bedreigingsbescherming.
-  
-|**Voorbeeldscenario**|**Is ATP anti-phishing van toepassing in dit geval?**|
-|:-----|:-----|
-|Pat's organisatie heeft Office 365 Enterprise E5, maar niemand heeft beleid gedefinieerd voor ATP-veilige bijlagen, ATP-veilige links of ATP advanced phishing.|Nee. Hoewel de functie beschikbaar is, moet ten minste één ATP-beleid worden gedefinieerd om de ATP-machine learning-modellen te laten werken. Voor imitatie moet er ook een ATP-anti-phishingbeleid zijn.|
-|Lee is een medewerker op de verkoopafdeling van Contoso. Lee's organisatie heeft een ATP anti-phishing beleid in de plaats die alleen van toepassing is op de financiering van werknemers.|Nee. In dit geval zou ATP-anti-phishing (machinemodellen en imitatiebeveiliging) van toepassing zijn op werknemers in de financiële sector, maar andere werknemers, waaronder de verkoopafdeling, niet.|
-|Gisteren heeft een Office 365-beheerder van de organisatie van Jean een ATP-antiphishingbeleid ingesteld dat van toepassing is op alle werknemers. Eerder vandaag ontving Jean een e-mailbericht met daarin een imitatie die onder het beleid valt.|Ja. In dit voorbeeld heeft Jean een licentie voor Advanced Threat Protection en is een ATP-antiphishingbeleid dat Jean omvat gedefinieerd. Het duurt meestal ongeveer 30 minuten voordat een nieuw beleid van kracht wordt in verschillende datacenters; aangezien in dit geval een dag is verstreken, moet het beleid van kracht zijn.|
+In de volgende tabel ziet u enkele voorbeelden van scenario's. In elk van deze voorbeelden wordt de organisatie van Office 365 Enterprise E5 gebruikt, waaronder Advanced Threat Protection.
+
+****
+
+|Voorbeeld van scenario|Is er sprake van een anti-phishing van ATP op dit geval?|
+|---|---|
+|De organisatie van de Pat heeft Office 365 Enterprise E5, maar niemand heeft beleidsregels gedefinieerd voor veilige documenten met ATP, veilige koppelingen voor ATP of nog geavanceerde phishing.|Nee. Hoewel de functie beschikbaar is, moet ten minste één ATP-beleid zijn gedefinieerd om de bewerkings modellen van de ATP machine te kunnen gebruiken. Voor imitatie moet een ATP anti-phishingfilter ook plaatsvinden.|
+|Lee is een werknemer in de verkoopafdeling bij contoso. Voor de organisatie van Lee is een ATP anti phishing-beleid ter plaatse bedoeld voor de financiering van medewerkers.|Nee. In dit geval zijn de werknemers op basis van ATP (computermodellen en imitatie bescherming) van toepassing op werknemers, maar andere werknemers, waaronder de afdeling verkoop.|
+|Gisteren, een Office 365-beheerder van de organisatie van de Jean, die van toepassing is op alle werknemers. Eerder vandaag heeft Jean een e-mailbericht ontvangen met een imiteren die onder de beleidsregels valt.|Ja. In dit voorbeeld heeft Jean een licentie voor Advanced Threat Protection en is er een ATP anti-phishingfilter met de instelling Jean is gedefinieerd. Het duurt doorgaans ongeveer dertig minuten voordat een nieuw beleid is doorgevoerd in de datacenters; Aangezien een dag in dit geval is verstreken, moet het beleid van kracht zijn.|
+|
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
@@ -67,14 +70,14 @@ In de volgende tabel worden enkele voorbeeldscenario's beschreven. In elk van de
   
 [Beveiliging tegen phishing in Office 365](anti-phishing-protection.md)
   
-[Antiphishingbeleid instellen in Office 365](set-up-anti-phishing-policies.md)
+[Anti phishingfilter instellen in Office 365](set-up-anti-phishing-policies.md)
   
-[Veilige ATP-koppelingen in Office 365](atp-safe-links.md)
+[Veilige koppelingen voor ATP in Office 365](atp-safe-links.md)
   
-[Beleid voor veilige koppelingen atp instellen in Office 365](set-up-atp-safe-links-policies.md)
+[Beleidsregels voor veilige koppelingen instellen in Office 365](set-up-atp-safe-links-policies.md)
   
-[ATP-veilige bijlagen in Office 365](atp-safe-attachments.md)
+[In Office 365](atp-safe-attachments.md)
   
-[Beleid voor atp-veilige bijlagen instellen in Office 365](set-up-atp-safe-attachments-policies.md)
+[Beleidsregels voor veilige bijlagen instellen in Office 365](set-up-atp-safe-attachments-policies.md)
   
-[Bekijk de rapporten voor Advanced Threat Protection](view-reports-for-atp.md)
+[De rapporten voor Advanced Threat Protection weergeven](view-reports-for-atp.md)

@@ -1,7 +1,7 @@
 ---
-title: Leer de geavanceerde jachtquerytaal in Microsoft Threat Protection
-description: Maak uw eerste dreiging jacht query en meer informatie over gemeenschappelijke exploitanten en andere aspecten van de geavanceerde jacht query taal
-keywords: geavanceerde jacht, bedreiging jacht, cyber bedreiging jacht, Microsoft threat protection, Microsoft 365, mtp, m365, zoeken, query, taal, leren, eerste query, telemetrie, gebeurtenissen, telemetrie, aangepaste detecties, schema, kusto, operators, gegevenstypen, powershell download, query voorbeeld
+title: Meer informatie over de querytaal Advanced jacht in Microsoft Threat Protection
+description: Maak uw eerste bedreigings informatie en leer meer over de gangbare operatoren en andere aspecten van de geavanceerde jacht-querytaal
+keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, update, learn, First query, Telemetry, gebeurtenissen, telemetrie, aangepaste detectie, schema, telemetrie, en voorbeeld van gegevenstypen
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,23 +17,23 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 26b376fe3e804a3ebaa478e484807bea4c33d38b
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: 64f0b19cfd9588e975b06cb43ca73270b00c5e26
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049691"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649389"
 ---
-# <a name="learn-the-advanced-hunting-query-language"></a>Leer de geavanceerde jachtquerytaal
+# <a name="learn-the-advanced-hunting-query-language"></a>Meer informatie over de querytaal Advanced jacht
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-Geavanceerde jacht is gebaseerd op de [Kusto query taal.](https://docs.microsoft.com/azure/kusto/query/) U Kusto-syntaxis en operatoren gebruiken om query's te construeren die informatie in het [schema](advanced-hunting-schema-tables.md) vinden dat specifiek is gestructureerd voor geavanceerde jacht. Voer uw eerste query uit om deze concepten beter te begrijpen.
+Voor de geavanceerde jacht op basis van de [querytaal Kusto](https://docs.microsoft.com/azure/kusto/query/). U kunt de syntaxis van Kusto en operatoren gebruiken om query's te maken waarmee informatie in het [schema](advanced-hunting-schema-tables.md) specifiek wordt gestructureerd voor de geavanceerde jacht. Voor een betere uitleg van deze concepten voert u uw eerste query uit.
 
 ## <a name="try-your-first-query"></a>Probeer uw eerste query
 
-Ga in het Microsoft 365-beveiligingscentrum naar **Hunting** om uw eerste query uit te voeren. Gebruik het volgende voorbeeld:
+In Microsoft 365 Beveiligingscentrum gaat u naar **jacht** om uw eerste query uit te voeren. Gebruik het volgende voorbeeld:
 
 ```kusto
 // Finds PowerShell execution events that could involve a download
@@ -55,39 +55,39 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | top 100 by Timestamp
 ```
 
-Zo zal het eruit zien in de geavanceerde jacht.
+Dit ziet er zo uit in de geavanceerde jacht.
 
-![Afbeelding van microsoft Threat Protection geavanceerde jachtquery](../../media/advanced-hunting-query-example-2.png)
+![Afbeelding van Microsoft Threat Protection Advanced jacht query](../../media/advanced-hunting-query-example-2.png)
 
-### <a name="describe-the-query-and-specify-the-tables-to-search"></a>De query beschrijven en de tabellen opgeven die u moet zoeken
-Een korte opmerking is toegevoegd aan het begin van de query om te beschrijven waar het voor is. Dit helpt als u later besluit de query op te slaan en te delen met anderen in uw organisatie. 
+### <a name="describe-the-query-and-specify-the-tables-to-search"></a>De query beschrijven en de tabellen opgeven waarnaar moet worden gezocht
+Er is een korte opmerking toegevoegd aan het begin van de query om te beschrijven wat het is. Dit helpt u als u later besluit om de query op te slaan en te delen met anderen in uw organisatie. 
 
 ```kusto
 // Finds PowerShell execution events that could involve a download
 ```
 
-De query zelf begint meestal met een tabelnaam, gevolgd door een reeks elementen die door een pijp zijn gestart ( `|` ). In dit voorbeeld beginnen we met het maken van een unie van twee tabellen `DeviceProcessEvents` en voegen we zo nodig `DeviceNetworkEvents` leidingelementen toe.
+De query zelf begint meestal met een tabelnaam gevolgd door een reeks elementen die met een sluisteken () zijn gestart `|` . In dit voorbeeld beginnen we met het maken van een samenvoeging van twee tabellen, en het `DeviceProcessEvents` `DeviceNetworkEvents` toevoegen van elementen met een sluisteken.
 
 ```kusto
 union DeviceProcessEvents, DeviceNetworkEvents
 ```
 ### <a name="set-the-time-range"></a>Het tijdsbereik instellen
-Het eerste gepipeteerde element is een tijdfilter scoped naar de vorige zeven dagen. Als u het tijdsbereik zo smal mogelijk houdt, zorgt u ervoor dat query's goed presteren, beheersbare resultaten retourneren en geen time-out krijgen.
+Het eerste element met een pipet is een tijdfilter bereik dat de afgelopen zeven dagen is beperkt. Zorg dat het tijdsbereik zo smal mogelijk is dat query's goed worden uitgevoerd, retourneer kunnen komen en geen tijd in beslag kunnen gaan.
 
 ```kusto
 | where Timestamp > ago(7d)
 ```
 
 ### <a name="check-specific-processes"></a>Specifieke processen controleren
-Het tijdsbereik wordt onmiddellijk gevolgd door een zoekopdracht naar procesbestandsnamen die de PowerShell-toepassing vertegenwoordigen.
+Het tijdsbereik wordt direct gevolgd door een zoekopdracht naar proces bestandsnamen die de PowerShell-toepassing vertegenwoordigen.
 
 ```kusto
 // Pivoting on PowerShell processes
 | where FileName in~ ("powershell.exe", "powershell_ise.exe")
 ```
 
-### <a name="search-for-specific-command-strings"></a>Zoeken naar specifieke opdrachttekenreeksen
-Daarna zoekt de query naar tekenreeksen in opdrachtlijnen die doorgaans worden gebruikt om bestanden te downloaden met PowerShell.
+### <a name="search-for-specific-command-strings"></a>Zoeken naar specifieke opdrachtreeksen
+Vervolgens zoekt de query naar tekenreeksen in opdrachtregels die meestal worden gebruikt om bestanden te downloaden met PowerShell.
 
 ```kusto
 // Suspicious commands
@@ -101,8 +101,8 @@ Daarna zoekt de query naar tekenreeksen in opdrachtlijnen die doorgaans worden g
     "https")
 ```
 
-### <a name="customize-result-columns-and-length"></a>Resultaatkolommen en -lengte aanpassen 
-Nu uw query duidelijk de gegevens identificeert die u wilt vinden, u elementen toevoegen die bepalen hoe de resultaten eruit zien. `project`retourneert specifieke kolommen en `top` beperkt het aantal resultaten. Deze operatoren helpen ervoor te zorgen dat de resultaten goed zijn opgemaakt en redelijk groot en eenvoudig te verwerken zijn.
+### <a name="customize-result-columns-and-length"></a>Resultatenkolommen en lengte aanpassen 
+Wanneer de gegevens die u wilt zoeken duidelijk worden geïdentificeerd met de query, kunt u elementen toevoegen waarmee wordt gedefinieerd hoe de resultaten eruit komen te zien. `project`geeft als resultaat bepaalde kolommen en `top` beperkt het aantal resultaten. Met deze operatoren zorgt u ervoor dat de resultaten goed opgemaakt en redelijk zijn.
 
 ```kusto
 | project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
@@ -110,75 +110,75 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | top 100 by Timestamp
 ```
 
-Klik **op Query uitvoeren** om de resultaten te bekijken. Selecteer het pictogram uitvouwen rechtsboven in de queryeditor om u te concentreren op uw jachtquery en de resultaten. 
+Klik op **query uitvoeren** om de resultaten te bekijken. Selecteer het pictogram voor uitvouwen in de rechterbovenhoek van de query-editor om de focus te richten op de jacht-query en de resultaten. 
 
-![Afbeelding van de besturingselement Uitbreiden in de geavanceerde query-editor](../../media/advanced-hunting-expand.png)
+![Afbeelding van het besturingselement uitvouwen in de geavanceerde jacht query editor](../../media/advanced-hunting-expand.png)
 
 >[!TIP]
->U queryresultaten weergeven als grafieken en snel filters aanpassen. Lees voor advies [over het werken met queryresultaten](advanced-hunting-query-results.md)
+>U kunt queryresultaten weergeven als grafieken en de filters snel aanpassen. [Zie voor meer informatie over het werken met queryresultaten](advanced-hunting-query-results.md)
 
-## <a name="learn-common-query-operators-for-advanced-hunting"></a>Leer algemene queryoperators voor geavanceerde jacht
+## <a name="learn-common-query-operators-for-advanced-hunting"></a>Veelgebruikte query providers voor geavanceerde jacht
 
-Nu u uw eerste query hebt uitgevoerd en een algemeen idee hebt van de componenten, is het tijd om een beetje terug te krabbelen en een aantal basisprincipes te leren. De Kusto-querytaal die wordt gebruikt door geavanceerde jacht, ondersteunt een reeks operatoren, waaronder de volgende veelvoorkomende.
+Nu u uw eerste query hebt uitgevoerd en een algemeen idee van de onderdelen hebt, is het tijd om terugkeren iets een beetje te leren en de basisbeginselen te leren kennen. De Kusto querytaal die wordt gebruikt in de geavanceerde jacht, biedt ondersteuning voor een bereik van operatoren, waaronder de volgende algemene versies.
 
-| Operator | Beschrijving en gebruik |
+| Werk | Beschrijving en gebruik |
 |--|--|
-| `where` | Filter een tabel naar de subset van rijen die voldoen aan een predicaat. |
-| `summarize` | Maak een tabel die de inhoud van de invoertabel samenvoegt. |
-| `join` | Voeg de rijen van twee tabellen samen om een nieuwe tabel te vormen door waarden van de opgegeven kolom(en) uit elke tabel te matchen. |
-| `count` | Retourneert het aantal records in de invoerrecordset. |
-| `top` | Retourneert de eerste N-records gesorteerd op de opgegeven kolommen. |
-| `limit` | Ga terug naar het opgegeven aantal rijen. |
-| `project` | Selecteer de kolommen die u wilt opnemen, de naam of de daling wilt wijzigen en nieuwe berekende kolommen invoegen. |
-| `extend` | Maak berekende kolommen en plaats ze aan de resultatenset. |
-| `makeset` |  Retourleer een dynamische array (JSON) van de set afzonderlijke waarden die Expr in de groep opneemt. |
-| `find` | Zoek rijen die overeenkomen met een predicaat in een set tabellen. |
+| `where` | Een tabel filteren op de subset van rijen die op een predicaat voldoen. |
+| `summarize` | Een tabel maken waarmee de inhoud van de invoertabel wordt geaggregeerd. |
+| `join` | De rijen van twee tabellen samenvoegen om een nieuwe tabel te maken door te zoeken naar waarden van de opgegeven kolommen in elke tabel. |
+| `count` | Het aantal records in de invoerrecord retourneren. |
+| `top` | De eerste N records die op de opgegeven kolommen zijn gesorteerd, retourneren. |
+| `limit` | Naar het opgegeven aantal rijen gaan. |
+| `project` | Selecteer de kolommen die u wilt opnemen, waarvan u de naam wilt wijzigen of die u wilt verwijderen en voeg nieuwe berekende kolommen in. |
+| `extend` | Berekende kolommen maken en deze toevoegen aan de resultatenset. |
+| `makeset` |  Retourneert een dynamische (JSON) matrix van de reeks unieke waarden die in de groep worden gebruikt. |
+| `find` | Rijen zoeken die overeenkomen met een predicaat in een set tabellen. |
 
-Als u een live voorbeeld van deze operatoren wilt zien, voert u ze uit vanuit de sectie Aan de **slag** in geavanceerde jacht.
+Als u een voorbeeld van deze operatoren wilt zien, voert u deze uit in de sectie **aan de slag** in geavanceerde jacht.
 
-## <a name="understand-data-types-and-their-query-syntax-implications"></a>Gegevenstypen en de implicaties van querysyntaxis begrijpen
+## <a name="understand-data-types-and-their-query-syntax-implications"></a>Meer informatie over gegevenstypen en de syntaxis van de querysyntaxis
 
-Gegevens in geavanceerde jachttabellen worden over het algemeen ingedeeld in de volgende gegevenstypen.
+Gegevens in geavanceerde jagers tabellen worden algemeen ingedeeld in de volgende gegevenstypen.
 
-| Gegevenstype | Implicaties voor beschrijving en query |
+| Gegevenstype | Beschrijving van de gevolgen van de query |
 |--|--|
-| `datetime` | Gegevens en tijdsinformatie die doorgaans gebeurtenistimetamps vertegenwoordigen |
-| `string` | Tekentekenreeks |
+| `datetime` | Gegevens en tijds informatie die meestal tijdstempels voor gebeurtenissen vertegenwoordigen |
+| `string` | Tekenreeks |
 | `bool` | Waar of onwaar |
 | `int` | 32-bits numerieke waarde  |
 | `long` | 64-bits numerieke waarde |
 
-## <a name="get-help-as-you-write-queries"></a>Hulp krijgen bij het schrijven van query's
-Profiteer van de volgende functionaliteit om query's sneller te schrijven:
-- **Autosuggest** - als je schrijft query's, geavanceerde jacht biedt suggesties van IntelliSense. 
-- **Schemastructuur** : een schemaweergave met de lijst met tabellen en hun kolommen wordt naast uw werkgebied weergegeven. Voor meer informatie u de muisaanwijzer op een item laten zweven. Dubbelklik op een item om het in te voegen aan de queryeditor.
-- **[Schemaverwijzing](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — in-portalverwijzing met tabel- en kolombeschrijvingen, ondersteunde gebeurtenistypen `ActionType` (waarden) en voorbeeldquery's
+## <a name="get-help-as-you-write-queries"></a>Hulp vragen bij het schrijven van query's
+Profiteer van de volgende functies om query's sneller te schrijven:
+- **Suggesties, wanneer** u query's schrijft, biedt geavanceerde jacht suggesties voor IntelliSense. 
+- **Schemastructuur** : een schema weergave met daarin de lijst met tabellen en de bijbehorende kolommen wordt weergegeven naast uw werkruimte. Plaats de muisaanwijzer op een item voor meer informatie. Dubbelklik op een item om het in te voegen in de query editor.
+- Naslag voor **[schema verwijzingen](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** in de portal met beschrijvingen van tabellen en kolommen, en ondersteunde gebeurtenistypen ( `ActionType` waarden) en voorbeeldquery's
 
 ## <a name="work-with-multiple-queries-in-the-editor"></a>Werken met meerdere query's in de editor
-De queryeditor kan dienen als uw krasblok voor het experimenteren met meerdere query's. Ga als u meerdere query's gebruikt:
+Met de query editor kunt u ook uw Kladblok gebruiken om te experimenteren met meerdere query's. Meerdere query's gebruiken:
 
-- Scheid elke query met een lege regel.
-- Plaats de cursor op een deel van een query om die query te selecteren voordat u deze uitvoert. Hiermee wordt alleen de geselecteerde query uitgevoerd. Als u een andere query wilt uitvoeren, verplaatst u de cursor dienovereenkomstig en selecteert u **Query uitvoeren**.
+- Afzonderlijke query's met een lege regel scheiden.
+- Plaats de cursor op een deel van een query om die query te selecteren voordat u deze uitvoert. Hiermee wordt alleen de geselecteerde query uitgevoerd. Als u een andere query wilt uitvoeren, verplaatst u de cursor dienovereenkomstig en selecteert u **query uitvoeren**.
 
-![Afbeelding van de queryeditor met meerdere query's](../../media/mtp-ah/ah-multi-query.png)
+![Afbeelding van de query editor met meerdere query's](../../media/mtp-ah/ah-multi-query.png)
 
 ## <a name="use-sample-queries"></a>Voorbeeldquery's gebruiken
 
-De sectie **Aan de slag** biedt een paar eenvoudige query's met veelgebruikte operators. Probeer deze query's uit te voeren en kleine wijzigingen aan te brengen.
+De sectie **aan** de slag biedt een paar eenvoudige query's waarbij veelgebruikte operatoren worden gebruikt. Voer deze query's uit en wijzig deze met een kleine wijziging.
 
-![Beeld van geavanceerd jachtvenster](../../media/advanced-hunting-get-started.png)
+![Afbeelding van het venster Geavanceerde jacht](../../media/advanced-hunting-get-started.png)
 
 >[!NOTE]
->Naast de basisqueryvoorbeelden u ook toegang krijgen tot [gedeelde query's](advanced-hunting-shared-queries.md) voor specifieke scenario's voor bedreigingsjacht. Verken de gedeelde query's aan de linkerkant van de pagina of de GitHub-queryrepository.
+>Afgezien van de basisvoorbeelden van de query, hebt u ook toegang tot [gedeelde query's](advanced-hunting-shared-queries.md) voor specifieke scenario's voor bedreigings jacht. Verstudeer de gedeelde query's aan de linkerkant van de pagina of in de GitHub query-bibliotheek.
 
-## <a name="access-query-language-documentation"></a>Documentatie over querytaal openen
+## <a name="access-query-language-documentation"></a>Documentatie voor Access-querytalen
 
-Zie [Kusto querytaaldocumentatie](https://docs.microsoft.com/azure/kusto/query/)voor meer informatie over kusto-querytaal en ondersteunde operatoren.
+Zie de [documentatie bij de querytaal van Kusto](https://docs.microsoft.com/azure/kusto/query/)voor meer informatie over Kusto querytaal en ondersteunde operatoren.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [Werken met queryresultaten](advanced-hunting-query-results.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)
+- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

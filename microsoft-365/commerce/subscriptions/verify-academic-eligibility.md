@@ -1,5 +1,5 @@
 ---
-title: Controleer of de academische geschiktheid voor Microsoft 365 Education-abonnementen
+title: Zorg voor de Academic in aanmerking voor Microsoft 365 education-abonnementen
 f1.keywords:
 - CSH
 - FWLink 2135711
@@ -17,91 +17,91 @@ ms.collection:
 ms.custom: ''
 search.appverid:
 - MET150
-description: Meer informatie over hoe u controleren of uw school in aanmerking komt voor academische prijzen van Microsoft 365 Education.
+description: Meer informatie over het controleren van de geschiktheid van uw school voor Microsoft 365 education academische prijzen.
 ms.date: 07/21/2020
-ms.openlocfilehash: 948d001315c44e288d9fe3e363ec6e1ddeb8ff32
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 0bfb779880b94e309e266d8f57ed0a25b749e1f2
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560701"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653723"
 ---
-# <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>Controleer of de academische geschiktheid voor Microsoft 365 Education-abonnementen
+# <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>Zorg voor de Academic in aanmerking voor Microsoft 365 education-abonnementen
 
-Als u deel uitmaakt van een academische instelling, u zich aanmelden voor een gratis proefperiode van Microsoft 365 Education. Nadat Microsoft de academische geschiktheid van uw school heeft geverifieerd, u Microsoft 365-producten kopen tegen academische prijzen. Dit geldt ook voor producten die gratis beschikbaar zijn, zoals Office 365 A1 voor faculteiten en Office 365 A1 voor studenten. Je hebt tot het einde van de gratis proefperiode om het om te zetten naar een betaald abonnement tegen academische prijzen.
+Als u deel uitmaakt van een academische instelling, kunt u zich aanmelden voor een gratis proefversie van Microsoft 365 education. Nadat Microsoft de academische beschikbaarheid van uw school heeft gecontroleerd, kunt u Microsoft 365-producten kopen tegen academische prijzen. Dit omvat producten die gratis beschikbaar zijn, zoals Office 365 a1 voor faculteiten en Office 365 a1 voor leerlingen/studenten. U hebt tot aan het einde van de gratis proefperiode een abonnement te converteren naar een betaald abonnement tegen academische prijzen.
 
-In dit artikel wordt beschreven hoe u de academische geschiktheid van uw school verifiëren, de geschiktheidsstatus controleren en abonnementen kopen tegen academische prijzen nadat uw school is goedgekeurd.
+In dit artikel wordt uitgelegd hoe u het onderwijs recht van uw school controleert, de geschiktheids status controleert en abonnementen koopt tegen academische prijzen nadat uw school is goedgekeurd.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U moet al een Microsoft 365 Education-proefabonnement hebben. Als u geen proefabonnement hebt, [gaat u naar deze webpagina](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) en selecteert u Gratis aan de **slag.**
+U moet al een abonnement op Microsoft 365 education proef hebben. Als u geen proefabonnement hebt, [gaat u naar deze webpagina](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) en selecteert u **gratis aan de slag**.
 
 ## <a name="verify-that-you-have-a-trial-subscription"></a>Controleren of u een proefabonnement hebt
 
-Als u niet zeker weet of u een proefabonnement op Microsoft 365 Education hebt, gebruikt u deze stappen om te controleren of u dat doet.
+Als u niet zeker weet of u een abonnement hebt op Microsoft 365 education, gebruikt u deze stappen om te verifiëren dat u dit doet.
 
-1. Ga in het Microsoft 365-beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">van uw producten.</a>
-2. Zoek naar Proefversie van **Office 365 A1 voor proefversie** en **Office 365 A1 voor studenten.** Als u deze abonnementen niet vindt, [gaat u naar deze webpagina](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) en selecteert u Gratis aan de **slag.**
+1. Ga in het Microsoft 365-Beheercentrum naar **Billing** de \> pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
+2. Zoek naar **Office 365 a1 for faculteits proefversie** en **Office 365 a1 voor studenten proefabonnement**. Als u deze abonnementen niet vindt, [gaat u naar deze webpagina](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) en selecteert u **gratis aan de slag**.
 
-## <a name="verify-your-schools-academic-eligibility"></a>Controleer of de academische geschiktheid van uw school
+## <a name="verify-your-schools-academic-eligibility"></a>Het academische recht van uw school controleren
 
-Wanneer u zich in de meeste gevallen aanmeldt voor een gratis proefperiode en de wizard geschiktheidsverificatie voltooit om het domein van uw school te bieden, ontvangt u onmiddellijk goedkeuring of weigering van de geschiktheid van uw school. In sommige gevallen hebben we meer informatie nodig om een handmatige geschiktheidsbeoordeling in te vullen en zullen we contact met u opnemen met een vragenlijst om in te vullen. Deze beoordeling kan tot 10 werkdagen duren. Nadat we de geschiktheidsgegevens van je school hebben beoordeeld, sturen we een e-mail waarin je wordt op de hoogte van de status van je school.
+Wanneer u zich de meeste gevallen registreert voor een gratis proefversie en de wizard geschiktheid voor verificatie voltooien om het domein van uw school te verschaffen, ontvangt u direct een goedkeuring of weigering van uw school. In sommige gevallen is er meer informatie nodig om een handmatige beoordeling van de geschiktheid te voltooien en contact met u op te nemen met een vragenlijst om te voltooien. Dit kan maximaal 10 werkdagen in beslag nemen. Nadat we de geschiktheids informatie van uw school hebben gecontroleerd, sturen we een e-mail die u op de hoogte brengt van de status van uw school.
 
-U de wizard academische verificatie sluiten voordat u een domein betreedt en meteen het proefabonnement gaan gebruiken. U komt echter pas in aanmerking voor academische prijzen als u het verificatieproces hebt voltooid. U moet het proces voor het einde van uw gratis proefperiode voltooien om te converteren naar een betaald abonnement en het te blijven gebruiken. Dit geldt ook wanneer u overstapt op het gratis A1-abonnement.
+U kunt de wizard voor de academische verificatie sluiten voordat u een domein invoert en het proefabonnement direct aan het gaan gebruiken. U komt echter niet in aanmerking voor de academische prijzen totdat u de verificatieprocedure hebt voltooid. U moet het proces voor het einde van de gratis proefperiode voltooien om naar een betaald abonnement te converteren en verder te blijven werken. Dit geldt ook wanneer u converteert naar het gratis a1-abonnement.
 
 > [!IMPORTANT]
-> Als u de verificatiewizard hebt verlaten voordat u een domein binnengaat, u de wizard academische verificatie op elk gewenst moment tijdens uw gratis proefperiode [hervatten.](https://go.microsoft.com/fwlink/p/?linkid=2135255)
+> Als u de wizard verificatie hebt afgesloten voordat u een domein invoert, kunt u [de wizard voor de academische verificatie](https://go.microsoft.com/fwlink/p/?linkid=2135255) op ieder moment verlengen tijdens de gratis proefperiode.
 
-Als je academische geschiktheid wordt geweigerd, zie [mijn school niet in aanmerking komt. Wat moet ik nu doen?](#my-school-isnt-eligible-what-do-i-do-now)
+Als uw academische recht niet wordt toegestaan, raadpleegt u [geen geschikte school. Wat moet ik nu doen?](#my-school-isnt-eligible-what-do-i-do-now)
 
-## <a name="check-the-status-of-your-schools-academic-eligibility"></a>Controleer de status van de academische geschiktheid van uw school
+## <a name="check-the-status-of-your-schools-academic-eligibility"></a>De status van de Academic of school controleren
 
-Nadat u een proefversie van Microsoft 365 Education hebt, u op elk gewenst moment de status van de academische geschiktheid van uw school controleren.
+Wanneer u een Microsoft 365 education-proefabonnement hebt, kunt u op elk gewenst moment de status van de Academic of school nakijken.
 
-1. Ga naar het [Microsoft 365-beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2024339).
-2. Schuif op de startpagina naar beneden en zoek de **factureringskaart.\**
-    De **factureringskaart** geeft de status van het verificatieproces aan. De kaart toont een van de volgende statussen: goedgekeurd, in behandeling, geweigerd of voeg uw domein toe.
-
-    > [!NOTE]
-    > Als u een van deze statussen niet ziet, betekent dit dat u geen Microsoft 365 Education-proefabonnement hebt. Als u een gratis proefperiode wilt starten, [gaat u naar deze webpagina](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) en selecteert u Gratis aan de **slag.**
-
-## <a name="buy-subscriptions-at-academic-prices"></a>Koop abonnementen tegen academische prijzen
-
-Nadat de geschiktheid van uw school is geverifieerd, u abonnementen kopen tegen academische prijzen. U uw gratis proefperiode ook [converteren naar een betaald abonnement.](https://docs.microsoft.com/microsoft-365/commerce/buy-a-subscription-from-your-free-trial) Als u uw proefabonnement wilt converteren, moet u dit doen vóór het einde van de proefperiode.
-
-1. Ga in het Microsoft 365-beheercentrum naar de pagina **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Factureringsservices.</a>
-2. Als u academische aanbiedingen wilt bekijken, selecteert u het tabblad **Onderwijs.**
+1. Ga naar het [Microsoft 365-Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+2. Ga op de startpagina naar de **facturerings** kaart.
+    De **facturerings** kaart geeft de status van het verificatieproces aan. Op de kaart ziet u een van de volgende statuswaarden: goedgekeurd, in behandeling, geweigerd of toevoegen van uw domein.
 
     > [!NOTE]
-    > Het tabblad **Onderwijs** wordt niet weergegeven als u in aanmerking komt.
+    > Als u een van deze statussen niet ziet, betekent dit dat u geen abonnement voor Microsoft 365 education proefabonnement hebt. Als u een gratis proefversie wilt starten, [gaat u naar deze webpagina](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) en selecteert u **gratis aan de slag**.
 
-3. Wanneer u de aanbieding vindt die u wilt kopen, selecteert u deze en selecteert u **Kopen.**
-4. Voltooi het afrekenproces om het abonnement te kopen.
+## <a name="buy-subscriptions-at-academic-prices"></a>Abonnementen kopen tegen academische prijzen
 
-## <a name="when-does-my-free-trial-end"></a>Wanneer eindigt mijn gratis proefperiode?
+Wanneer het recht van uw school is bevestigd, kunt u abonnementen kopen tegen academische prijzen. U kunt [uw gratis proefabonnement ook omzetten in een betaald abonnement](https://docs.microsoft.com/microsoft-365/commerce/buy-a-subscription-from-your-free-trial). Als u uw proefabonnement wilt converteren, moet u dit doen vóór het einde van de proefperiode.
 
-U de vervaldatum voor uw gratis proefabonnement vinden op de pagina **Uw producten.** U de proefperiode ook verlengen.
+1. Ga in het Microsoft 365-Beheercentrum naar de pagina Services voor het kopen van **facturen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> .
+2. Als u academische aanbiedingen wilt bekijken, selecteert u het tabblad **opleiding** .
 
-1. Ga in het Microsoft 365-beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">van uw producten.</a>
+    > [!NOTE]
+    > Het tabblad **opleiding** wordt niet weergegeven als de in aanmerking komende.
+
+3. Wanneer u de aanbieding vindt die u wilt kopen, selecteert u deze en selecteert u vervolgens **kopen**.
+4. Voltooi het afreken proces voor het kopen van het abonnement.
+
+## <a name="when-does-my-free-trial-end"></a>Wanneer eindigt mijn gratis proefabonnement?
+
+U vindt de verloopdatum voor uw gratis proefabonnement op de pagina **uw producten** . U kunt ook de proefperiode verlengen.
+
+1. Ga in het Microsoft 365-Beheercentrum naar **Billing** de \> pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
 2. Zoek het proefabonnement.
-3. In de sectie **Facturering** wordt onder **Gratis proefabonnement**de vervaldatum weergegeven.
-4. Als u de proefperiode wilt verlengen, selecteert u **Proefversie verlengen**. U dit slechts één keer per gratis proefabonnement doen.
+3. In het gedeelte **facturering** onder **gratis proefabonnement**wordt de vervaldatum weergegeven.
+4. Als u de proefperiode wilt verlengen, kiest u **proefabonnement verlengen**. U kunt dit slechts één keer per gratis proefabonnement doen.
 
 ## <a name="my-school-isnt-eligible-what-do-i-do-now"></a>Mijn school komt niet in aanmerking. Wat moet ik nu doen?
 
-Als uw school niet in aanmerking komt als een Microsoft Qualified Academic Institution, **Billing** u nog steeds commerciële aanbiedingen kopen in het beheercentrum op de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Factureringskoopservices.</a> Als uw organisatie een non-profitgroep is, komt uw groep mogelijk in aanmerking voor abonnementen voor non-profitorganisaties. Zie [Kortingen en donaties voor non-profitorganisaties voor](https://www.microsoft.com/nonprofits/eligibility)meer informatie.
+Als uw school niet in aanmerking komt als een door Microsoft bevoegd onderwijsinstelling, kunt u nog wel commerciële aanbiedingen kopen in het Beheercentrum op de pagina voor het aanschaffen van **factuur** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Services</a> . Als uw organisatie een non-profit groep is, komt uw groep mogelijk in aanmerking voor abonnementen voor non-profit organisaties. Voor meer informatie raadpleegt u [kortingen en donaties voor non-profit organisaties](https://www.microsoft.com/nonprofits/eligibility).
 
-Als je vragen hebt over de academische geschiktheidsbeslissing van je school, neem [dan contact op met ondersteuning.](../../admin/contact-support-for-business-products.md)
+[Neem contact op met de ondersteuning](../../admin/contact-support-for-business-products.md)als u vragen hebt over het Academic decision decision van uw school.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Ga naar documentatie en bronnen van Microsoft 365 Education voor meer informatie over het implementeren van Microsoft [365 Education.](https://docs.microsoft.com/microsoft-365/education/deploy/) Vervolgens u [gebruikers toevoegen en tegelijkertijd licenties toewijzen.](../../admin/add-users/add-users.md) Als dat nodig is, u ook [meer licenties voor uw abonnement kopen.](../licenses/buy-licenses.md)
+Voor informatie over het implementeren van Microsoft 365 voor uw school bezoekt u de [documentatie en bronnen van Microsoft 365 education](https://docs.microsoft.com/microsoft-365/education/deploy/). Vervolgens kunt u [gebruikers toevoegen en licenties toewijzen](../../admin/add-users/add-users.md). Als u dat wilt, kunt u ook [meer licenties kopen voor uw abonnement](../licenses/buy-licenses.md).
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Microsoft 365 Onderwijsdocumentatie voor IT-beheerders](https://docs.microsoft.com/education/itadmins) (artikellinks)\
-[Microsoft Teams for Education](https://microsoft.com/education/products/teams/default.aspx) (productpagina)\
-[Abonnementen en licenties begrijpen in Microsoft 365 voor bedrijven](../licenses/subscriptions-and-licenses.md) (artikel)\
-[Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md) (artikel)\
-[Abonnementslicenties kopen of verwijderen](../licenses/buy-licenses.md) (artikel)\
+[Microsoft 365 education-documentatie voor IT-beheerders](https://docs.microsoft.com/education/itadmins) (artikel koppelingen) \
+[Microsoft teams voor onderwijs](https://microsoft.com/education/products/teams/default.aspx) (productpagina) \
+Meer [informatie over abonnementen en licenties in Microsoft 365 voor bedrijven](../licenses/subscriptions-and-licenses.md) (artikel) \
+[Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md) (artikel) \
+[Abonnementslicenties kopen of verwijderen](../licenses/buy-licenses.md) (artikel) \
 [Gebruikers verplaatsen naar een ander abonnement](move-users-different-subscription.md) (artikel)

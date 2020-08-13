@@ -1,7 +1,7 @@
 ---
-title: DeviceFileCertificateInfo-tabel in het geavanceerde jachtschema
-description: Meer informatie over informatie over het ondertekenen van bestanden vindt u in de tabel DeviceFileCertificateInfo van het geavanceerde jachtschema
-keywords: geavanceerde jacht, bedreiging jacht, cyber bedreiging jacht, Microsoft threat protection, Microsoft 365, mtp, m365, zoeken, query, telemetrie, schema referentie, kusto, tabel, kolom, gegevenstype, digitale handtekening, certificaat, bestand ondertekening, DeviceFileCertificateInfo
+title: DeviceFileCertificateInfo-tabel in het geavanceerde jacht schema
+description: Meer informatie over informatie over bestands ondertekening in de tabel DeviceFileCertificateInfo van het schema geavanceerde jacht
+keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema verwijzing, kusto, tabel, kolom, gegevenstype, digitale handtekening, certificaat, bestands ondertekening, DeviceFileCertificateInfo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,47 +17,47 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: cba27b5b43141c8c90f9a8bc7f70c55aabc1979d
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 33f9c726839f17afbb935c6d028cc4eaa5b74843
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899313"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649449"
 ---
 # <a name="devicefilecertificateinfo"></a>DeviceFileCertificateInfo
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-De `DeviceFileCertificateInfo` tabel in het geavanceerde [jachtschema](advanced-hunting-overview.md) bevat informatie over certificaten voor het ondertekenen van bestanden. Deze tabel maakt gebruik van gegevens die zijn verkregen uit certificaatverificatieactiviteiten die regelmatig worden uitgevoerd in bestanden op eindpunten.
+De `DeviceFileCertificateInfo` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over het ondertekenen van certificaten. In deze tabel worden de gegevens gebruikt die zijn verkregen van activiteiten voor certificaatverificatie, die regelmatig worden uitgevoerd voor bestanden op eindpunten.
 
-Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor informatie over andere tabellen in het geavanceerde jachtschema.
+Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `Timestamp` | Datetime | Datum en tijdstip waarop de gebeurtenis is geregistreerd |
-| `DeviceId` | Tekenreeks | Unieke id voor de machine in de service |
-| `DeviceName` | Tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van de machine |
-| `SHA1` | Tekenreeks | SHA-1 van het bestand waarop de geregistreerde actie is toegepast |
-| `IsSigned` | Booleaanse | Geeft aan of het bestand is ondertekend |
-| `SignatureType` | Tekenreeks | Geeft aan of handtekeninggegevens zijn gelezen als ingesloten inhoud in het bestand zelf of gelezen vanuit een extern catalogusbestand |
-| `Signer` | Tekenreeks | Informatie over de ondertekenaar van het bestand |
-| `SignerHash` | Tekenreeks | Unieke hashwaarde die de ondertekenaar identificeert |
-| `Issuer` | Tekenreeks | Informatie over de instantie van afgiftecertificaat (CA) |
-| `IssuerHash` | Tekenreeks | Unieke hashwaarde die de uitgiftecertificaatautoriteit (CA) identificeert |
-| `CertificateSerialNumber` | Tekenreeks | Identificatienummer voor het certificaat dat uniek is voor de instantie van afgiftecertificaat (CA) |
-| `CrlDistributionPointUrls` | Tekenreeks |  JSON-array met de URL's van netwerkshares die certificaten en certificaatintrekkingslijsten (CRL's) bevatten |
-| `CertificateCreationTime` | Datetime | Datum en tijd waarop het certificaat is gemaakt |
-| `CertificateExpirationTime` | Datetime | Datum en tijd waarop het certificaat is ingesteld om te verlopen |
-| `CertificateCountersignatureTime` | Datetime | Datum en tijd waarop het certificaat is ondertekend |
-| `IsTrusted` | Booleaanse | Geeft aan of het bestand wordt vertrouwd op basis van de resultaten van de functie WinVerifyTrust, die controleert op onbekende basiscertificaatgegevens, ongeldige handtekeningen, ingetrokken certificaten en andere twijfelachtige kenmerken |
-| `IsRootSignerMicrosoft` | Booleaanse | Geeft aan of de ondertekenaar van het basiscertificaat Microsoft is |
-| `ReportId` | Lange | Gebeurtenis-id op basis van een herhalende teller. Om unieke gebeurtenissen te identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen DeviceName en Timestamp. | 
+| `Timestamp` | tijd | De datum en tijd waarop de gebeurtenis is vastgelegd |
+| `DeviceId` | tekenreeks | Unieke id voor de computer in de service |
+| `DeviceName` | tekenreeks | FQDN-naam (Fully Qualified Domain Name) van de computer |
+| `SHA1` | tekenreeks | SHA-1 van het bestand waarop de opgenomen actie is toegepast |
+| `IsSigned` | Boolean | Geeft aan of het bestand is ondertekend |
+| `SignatureType` | tekenreeks | Hiermee wordt aangegeven of de gegevens in het bestand zelf zijn ingesloten in het bestand zelf en uit een extern catalogusbestand gelezen. |
+| `Signer` | tekenreeks | Informatie over de ondertekenaar van het bestand |
+| `SignerHash` | tekenreeks | Unieke hash-waarde die de ondertekenaar identificeert |
+| `Issuer` | tekenreeks | Informatie over de uitgevende certificeringsinstantie (CA) |
+| `IssuerHash` | tekenreeks | Unieke hashwaarde die een certificeringsinstantie (CA) identificeert |
+| `CertificateSerialNumber` | tekenreeks | De id van het certificaat dat uniek is voor de uitgevende certificeringsinstantie (CA) |
+| `CrlDistributionPointUrls` | tekenreeks |  JSON-matrix met de Url's van netwerkshares die certificaten en certificaatintrekkingslijsten (Crl's) bevatten |
+| `CertificateCreationTime` | tijd | De datum en tijd waarop het certificaat is gemaakt |
+| `CertificateExpirationTime` | tijd | Datum en tijd waarop het certificaat is ingesteld op verloopt |
+| `CertificateCountersignatureTime` | tijd | De datum en tijd waarop het certificaat is ondertekend |
+| `IsTrusted` | Boolean | Hiermee wordt aangegeven of het bestand wordt vertrouwd op basis van de resultaten van de functie WinVerifyTrust, waarmee wordt gecontroleerd op onbekende basis certificerings informatie, ongeldige handtekeningen, ingetrokken certificaten en andere betrouwbare kenmerken |
+| `IsRootSignerMicrosoft` | Boolean | Geeft aan of de ondertekenaar van het basiscertificaat Microsoft is |
+| `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de de naam van het apparaat en de timestamp-kolommen. | 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)
+- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

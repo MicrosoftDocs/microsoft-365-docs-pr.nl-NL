@@ -1,5 +1,5 @@
 ---
-title: Een aangepaste lijst met geblokkeerde URL's instellen met ATP-veilige koppelingen
+title: Een aangepaste lijst met geblokkeerde Url's met behulp van behulp van vrije verbindingen instellen
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -18,77 +18,82 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Meer informatie over het instellen van een lijst met geblokkeerde URL's voor uw organisatie met Behulp van Geavanceerde bedreigingsbeveiliging van Office 365.
-ms.openlocfilehash: 288aea848836a56108872c0e4d36d01f4d59ec42
-ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
+description: Meer informatie over het instellen van een lijst met geblokkeerde Url's voor uw organisatie met behulp van Office 365 Advanced Threat Protection.
+ms.openlocfilehash: 5f863a3ba61278d0bec5304034ed75d343f93c77
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533809"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656645"
 ---
-# <a name="set-up-a-custom-blocked-urls-list-using-atp-safe-links"></a>Een aangepaste lijst met geblokkeerde URL's instellen met ATP-veilige koppelingen
+# <a name="set-up-a-custom-blocked-urls-list-using-atp-safe-links"></a>Een aangepaste lijst met geblokkeerde Url's met behulp van behulp van vrije verbindingen instellen
 
 > [!IMPORTANT]
-> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Zie [Geavanceerde Outlook.com beveiliging](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)als u een thuisgebruiker bent die op zoek is naar informatie over veilige koppelingen.
+> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Als u een thuisgebruiker bent die op zoek bent naar informatie over veilige koppelingen in Outlook, raadpleegt u [geavanceerde Outlook.com-beveiliging](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-Met [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) kan uw organisatie een aangepaste lijst hebben met geblokkeerde websiteadressen (URL's). Wanneer een URL wordt geblokkeerd, worden mensen die op koppelingen naar de geblokkeerde URL klikken, naar een [waarschuwingspagina](atp-safe-links-warning-pages.md) geleid die lijkt op de volgende afbeelding:
+Met [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) kan uw organisatie een aangepaste lijst met websites adressen (url's) hebben die zijn geblokkeerd. Wanneer een URL is geblokkeerd, worden personen die op de koppeling naar de geblokkeerde URL klikken een [waarschuwingspagina](atp-safe-links-warning-pages.md) weergegeven die lijkt op de volgende afbeelding:
 
 ![Deze site is geblokkeerd](../../media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
 
-De lijst met geblokkeerde URL's wordt gedefinieerd door het Microsoft 365 for Business Security-team van uw organisatie en die lijst is van toepassing op iedereen in de organisatie die onder het beleid van Office 365 ATP Safe Links valt.
+De lijst met geblokkeerde Url's wordt gedefinieerd door het beveiligingsteam van Microsoft 365 voor bedrijven en de lijst is bedoeld voor iedereen in de organisatie die wordt bedekt met beleidsregels voor veilige koppelingen in Office 365.
 
-Lees dit artikel voor meer informatie over het instellen van de aangepaste lijst met geblokkeerde URL's van uw organisatie voor [ATP-veilige koppelingen in Office 365](atp-safe-links.md).
+Lees dit artikel voor meer informatie over het instellen van de lijst met geblokkeerde Url's van uw organisatie voor veilige weergave-instellingen [in Office 365](atp-safe-links.md).
 
-## <a name="view-or-edit-a-custom-list-of-blocked-urls"></a>Een aangepaste lijst met geblokkeerde URL's weergeven of bewerken
+## <a name="view-or-edit-a-custom-list-of-blocked-urls"></a>Een aangepaste lijst met geblokkeerde Url's weergeven of bewerken
 
-[ATP Safe Links in Office 365](atp-safe-links.md) gebruikt verschillende lijsten, waaronder de aangepaste lijst met geblokkeerde URL's van uw organisatie. Als u over de benodigde machtigingen beschikt, u de aangepaste lijst van uw organisatie instellen. U doet dit door het standaard beleid voor veilige koppelingen van uw organisatie te bewerken.
+[Voor veilige koppelingen in Office 365](atp-safe-links.md) worden verschillende lijsten gebruikt, waaronder de aangepaste lijst met geblokkeerde url's van uw organisatie. Als u de benodigde machtigingen hebt, kunt u de aangepaste lijst van uw organisatie instellen. Dit doet u door het standaardbeleid voor veilige koppelingen van uw organisatie te bewerken.
 
-Als u ATP-beleid wilt bewerken (of definiëren), moet u een van de rollen toegewezen krijgen die in de volgende tabel worden beschreven:
+Als u een ATP-beleid wilt bewerken (of definiëren), moet u een van de rollen krijgen die in de volgende tabel worden beschreven:
 
-|Rol|Waar/hoe toegewezen|
-|---------|---------|
-|globale beheerder|De persoon die zich aanmeldt om Microsoft 365 te kopen, is standaard een globale beheerder. (Zie [Over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.)|
+****
+
+|Rol|Where/hoe toegewezen|
+|---|---|
+|globale beheerder|De persoon die zich registreert voor het kopen van Microsoft 365 is standaard een globale beheerder. (Zie [informatie over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.)|
 |Beveiligingsbeheerder|Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-|Exchange Online Organisatiebeheer|Exchange-beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
+|Beheer van organisatie van Exchange Online|Exchange-Beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
+|
 
 > [!TIP]
-> Zie [Machtigingen in het Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rollen en machtigingen.
+> Als u meer wilt weten over rollen en machtigingen, raadpleegt u [machtigingen in de sectie beveiliging & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
 
-### <a name="to-view-or-edit-a-custom-blocked-urls-list"></a>Een aangepaste lijst met geblokkeerde URL's weergeven of bewerken
+### <a name="to-view-or-edit-a-custom-blocked-urls-list"></a>Een aangepaste lijst met geblokkeerde Url's weergeven of bewerken
 
-1. Ga naar [https://protection.office.com](https://protection.office.com) en meld je aan met je werk- of schoolaccount.
+1. Ga naar [https://protection.office.com](https://protection.office.com) en meld u aan met uw werk-of schoolaccount.
 
-2. Kies in de linkernavigatie onder **Bedreigingsbeheer** **De optie Veilige** \> **koppelingen voor**beleid .
+2. Kies in het linker navigatiegedeelte onder **Threat Management**de optie **beleids** \> **veilige koppelingen**.
 
-3. Selecteer **Policies that apply to the entire organization** **standaard**en kies **Vervolgens Bewerken** (de knop Bewerken lijkt op een potlood).<br/>![Klik op Bewerken om uw standaardbeleid voor beveiliging van veilige koppelingen te bewerken](../../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)<br/>Hiermee u uw lijst met geblokkeerde URL's bekijken. In eerste instantie zijn hier mogelijk geen URL's vermeld.<br/>![Lijst met geblokkeerde URL's in het standaardbeleid Veilige koppelingen](../../media/575e1449-6191-40ac-b626-030a2fd3fb11.png)
+3. Selecteer in de sectie **beleidsregels die van toepassing zijn op het hele organigram** de optie **standaard**en kies vervolgens **bewerken** (de knop bewerken lijkt op een potlood).<br/>![Klik op bewerken om uw standaardbeleid te bewerken voor beveiliging van beveiligde koppelingen](../../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)<br/>Hiermee kunt u de lijst met geblokkeerde Url's weergeven. Aanvankelijk zijn er mogelijk geen Url's weergegeven.<br/>![Lijst met geblokkeerde Url's in het standaardbeleid voor veilige koppelingen](../../media/575e1449-6191-40ac-b626-030a2fd3fb11.png)
 
-4. Selecteer het vak **Een geldige URL invoeren,** typ een URL en kies het plusteken ( **+** ).
+4. Selecteer het vak **een geldige URL opgeven** , typ een URL en kies het plusteken ( **+** ).
 
-5. Wanneer u klaar bent met het toevoegen van URL's, kiest u in de rechterbenedenhoek van het scherm **Opslaan**.
+5. Wanneer u klaar bent met het toevoegen van Url's, kiest u in de rechterbenedenhoek van het scherm de optie **Opslaan**.
 
-## <a name="a-few-things-to-keep-in-mind"></a>Een paar dingen om in gedachten te houden
+## <a name="a-few-things-to-keep-in-mind"></a>Enkele dingen om rekening mee te houden
 
-Houd rekening met de volgende punten terwijl u URL's aan uw lijst toevoegt:
+Let op de volgende punten wanneer u Url's toevoegt aan de lijst:
 
-- Voeg geen slash **/** (vooruit) toe aan het einde van de URL. Voer bijvoorbeeld in plaats van in te voeren `https://www.contoso.com/` `https://www.contoso.com` .
+- Neem geen schuine streep naar **/** het einde van de URL. U kunt bijvoorbeeld niet typen `https://www.contoso.com/` `https://www.contoso.com` .
 
-- U een url alleen voor het domein opgeven (like `contoso.com` of `tailspintoys.com` ). Hiermee worden klikken op elke URL die het domein bevat, geblokkeerd.
+- U kunt alleen een domein-URL (zoals `contoso.com` of `tailspintoys.com` ) opgeven. Dit blokkeert de klikken op een URL die het domein bevat.
 
-- U een subdomein (zoals) opgeven `toys.contoso.com*` zonder een volledig domein (zoals) te `contoso.com` blokkeren. Hiermee worden klikken op een URL die het subdomein bevat, geblokkeerd, maar wordt klikken niet geblokkeerd naar een URL die het volledige domein bevat.
+- U kunt een subdomein opgeven (like `toys.contoso.com*` ) zonder dat u een volledig domein (zoals `contoso.com` ) blokkeert. Dit blokkeert de klikken op een URL die het subdomein bevat, maar blokkeert geen klikken op een URL die het volledige domein bevat.
 
-- U maximaal drie wildcard sterretjes ( \* ) per URL. In de volgende tabel worden enkele voorbeelden weergegeven van wat u invoeren en welk effect deze vermeldingen hebben.
+- U kunt maximaal drie jokertekens ( \* ) per URL opnemen. In de volgende tabel ziet u enkele voorbeelden van wat u kunt invoeren en wat van invloed is op de invoer.
 
-|Voorbeeldvermelding|Wat het doet|
-|:-----|:-----|
-|`contoso.com`Of`*contoso.com*`|Blokkeert het domein, subdomeinen en paden, zoals `https://www.contoso.com` `https://sub.contoso.com` ,`https://contoso.com/abc`|
-|`https://contoso.com/a`|Blokkeert een `https://contoso.com/a` site, maar geen extra subpaden zoals`https://contoso.com/a/b`|
-|`https://contoso.com/a*`|Blokkeert een site `https://contoso.com/a` en extra subpaden zoals`https://contoso.com/a/b`|
-|`https://toys.contoso.com*`|Blokkeert een subdomein ("speelgoed" in dit geval), maar laat klikken naar andere domein-URL's (zoals `https://contoso.com` of `https://home.contoso.com` ).|
+****
 
+|Voorbeeld van invoer|Actie|
+|---|---|
+|`contoso.com`wel`*contoso.com*`|Blokkeert het domein, subdomeinen en paden, zoals `https://www.contoso.com` , `https://sub.contoso.com` en`https://contoso.com/abc`|
+|`https://contoso.com/a`|Blokkeert een site `https://contoso.com/a` maar geen extra subpadnamen zoals`https://contoso.com/a/b`|
+|`https://contoso.com/a*`|Blokkeert een site `https://contoso.com/a` en extra subpadnamen, zoals`https://contoso.com/a/b`|
+|`https://toys.contoso.com*`|Blokkeert een subdomein (' Toys ' in dit geval), maar sta klikken op andere Url's voor het domein (zoals `https://contoso.com` of `https://home.contoso.com` ) toe.|
+|
 
 > [!NOTE]
-> Standaard u slechts 500 URL's toevoegen aan de geblokkeerde URL-lijst in het standaardbeleid voor office 365 ATP Safe Links.
+> Standaard kunt u alleen 500-Url's toevoegen aan de lijst met geblokkeerde URL'S in het standaardbeleid van Office 365 voor standaardverbindingen.
 
 ## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>Uitzonderingen definiëren voor bepaalde gebruikers in een organisatie
 
-Als u wilt dat bepaalde groepen URL's kunnen bekijken die mogelijk voor anderen zijn geblokkeerd, u een ATP-beleid voor veilige koppelingen opgeven dat van toepassing is op specifieke ontvangers. Zie [Een aangepaste url's-lijst 'niet herschrijven' instellen met ATP-veilige koppelingen](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md).
+Als u wilt dat bepaalde groepen Url's kunnen weergeven die mogelijk zijn geblokkeerd voor anderen, kunt u een beleid instellen voor veilige verbindingen voor specifieke geadresseerden. Zie [een aangepaste lijst met behulp van openbare koppelingen voor het maken van Url's instellen](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md).

@@ -1,5 +1,5 @@
 ---
-title: Services voor niet-klanten die e-mail naar Microsoft 365 verzenden
+title: Services voor niet-klanten die e-mail verzenden naar Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,49 +15,52 @@ search.appverid:
 ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
-description: Om het vertrouwen van gebruikers in het gebruik van e-mail te behouden, heeft Microsoft verschillende beleidsregels en technologieën ingevoerd om onze gebruikers te beschermen.
-ms.openlocfilehash: 3a3dc26d757de84f5abd46c85f3596db67d676ae
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+description: Microsoft heeft verschillende beleidsregels en technologieën ingevoerd om onze gebruikers te helpen beschermen voor het behoud van gebruikers vertrouwen in het gebruik van e-mail.
+ms.openlocfilehash: 74389d3b975a0ffaebdc1619be40fd3ac74d72f4
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208232"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652655"
 ---
-# <a name="services-for-non-customers-sending-mail-to-microsoft-365"></a>Services voor niet-klanten die e-mail naar Microsoft 365 verzenden
+# <a name="services-for-non-customers-sending-mail-to-microsoft-365"></a>Services voor niet-klanten die e-mail verzenden naar Microsoft 365
 
-E-mailmisbruik, ongewenste e-mail en frauduleuze e-mails (phishing) blijven het hele e-mailecosysteem belasten. Om het vertrouwen van gebruikers in het gebruik van e-mail te behouden, heeft Microsoft verschillende beleidsregels en technologieën ingevoerd om onze gebruikers te beschermen. Microsoft begrijpt echter dat legitieme e-mail niet negatief mag worden beïnvloed. Daarom hebben we een reeks services opgezet om afzenders te helpen hun vermogen om e-mail te leveren aan Microsoft 365-gebruikers te verbeteren door hun verzendreputatie proactief te beheren.
+E-mail misbruik, ongewenste e-mail en frauduleuze e-mailberichten blijven in het hele e-mailbericht doorlopen. Om gebruikers vertrouwen in het gebruik van e-mail te houden, heeft Microsoft diverse beleidsregels en technologieën ingevoerd om onze gebruikers te helpen beschermen. Microsoft begrijpt echter dat de betrouwbare e-mail niet negatief wordt beïnvloed. Daarom hebben we een suite met Services opgezet om afzenders te helpen de mogelijkheid e-mail te leveren aan Microsoft 365-gebruikers door te proactief hun eigen reputatie te beheren.
 
-In dit overzicht vindt u informatie over de voordelen die wij uw organisatie bieden, zelfs als u geen klant bent.
+Dit overzicht bevat informatie over de voordelen die we voor uw organisatie leveren, ook als u geen klant bent.
 
-## <a name="sender-solutions"></a>Verzendoplossingen
+## <a name="sender-solutions"></a>Oplossingen voor afzender
 
-|**Service**|**Voordelen**|
-|:-----|:-----|
-|Deze online help-inhoud|Biedt: <br/> Een startpunt voor vragen met betrekking tot het leveren van communicatie aan EOP-gebruikers. <br/><br/> Bevat een eenvoudige online gids met ons beleid en onze vereisten. <br/><br/> Een overzicht van de filters voor ongewenste e-mail en verificatietechnologieën die door Microsoft worden gebruikt.|
-|[Microsoft-ondersteuning](#microsoft-support)|Biedt zelfhulp en escalatieondersteuning voor leveringsproblemen.|
-|[Anti-Spam IP-delist Portal](#anti-spam-ip-delist-portal)|Een tool om IP-delist-aanvraag in te dienen. Alvorens dit verzoek in te dienen, is het de verantwoordelijkheid van de afzender om ervoor te zorgen dat verdere e-mail afkomstig van het betreffende IP niet beledigend of kwaadaardig is.|
-|[Melding van misbruik en spam voor ongewenste e-mail afkomstig van Exchange Online](#abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online)|Voorkomt dat spam en andere ongewenste e-mail wordt verzonden vanuit Exchange Online en verrommeling van het internet en uw e-mailsysteem.|
+****
 
-## <a name="microsoft-support"></a>Microsoft-ondersteuning
+|Service|Bene|
+|---|---|
+|Deze inhoud van online-Help|Wordt <br/> Een beginpunt voor vragen die betrekking hebben op het leveren van communicatie voor EOP-gebruikers. <br/><br/> Inclusief een eenvoudige online handleiding met ons beleid en de vereisten. <br/><br/> Een overzicht van de filters voor ongewenste e-mail en verificatietechnologieën die door Microsoft worden gebruikt.|
+|[Microsoft ondersteuning](#microsoft-support)|Biedt ondersteuning voor Self-Help en escalatie voor bezorgings problemen.|
+|[Portal voor IP-adressen met anti-spam](#anti-spam-ip-delist-portal)|Een hulpmiddel voor het verzenden van een aanvraag voor een IP-lijst. Voordat u deze aanvraag verzendt, is het de verantwoordelijkheid van de afzender om te controleren of verdere e-mail die afkomstig is van het IP-adres in kwestie, geen beledigend of kwaadief is.|
+|[Misbruik en spam van e-mailberichten die afkomstig zijn van Exchange Online](#abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online)|Zorgt dat ongewenste e-mail en andere ongewenste e-mail worden verzonden via Exchange Online en maak de Internet-en e-mail systemen onoverzichtelijk.|
+|
 
-Microsoft biedt verschillende ondersteuningsopties voor mensen die problemen hebben met het verzenden van e-mail naar Microsoft 365-ontvangers. Wij raden u aan:
+## <a name="microsoft-support"></a>Microsoft ondersteuning
 
-- Volg de instructies in een niet-leveringsrapport dat u ontvangt.
+Microsoft biedt diverse ondersteuningsopties voor personen die problemen hebben met het verzenden van e-mail naar Microsoft 365-geadresseerden. We raden u aan:
 
-- Bekijk de meest voorkomende problemen die niet-klanten ondervinden bij [het oplossen van e-mail die naar Office 365 wordt verzonden.](troubleshooting-mail-sent-to-office-365.md)
+- Volg de instructies in een rapport over niet-uitgevoerde bezorging.
 
-- Gebruik de [Microsoft 365-versieportal](https://sender.office.com) om een verzoek in te dienen om uw IP uit de lijst van de geblokkeerde afzender te laten verwijderen.
+- Bekijk de meest voorkomende problemen die niet-klanten kunnen vinden in het [oplossen van e-mailberichten die zijn verzonden naar Office 365](troubleshooting-mail-sent-to-office-365.md).
 
-- Lees de [Microsoft-communityforums](https://community.office365.com/f/).
+- Gebruik de [Portal van Microsoft 365](https://sender.office.com) om een aanvraag in te dienen om uw IP uit de lijst met geblokkeerde afzenders te laten verwijderen.
 
-- Neem contact op met de klant die u via een andere methode probeert te e-mailen en vraag hem of haar contact op te nemen met Microsoft Support en namens u een ondersteuningsticket te openen. In sommige gevallen moet Microsoft Support om juridische redenen rechtstreeks communiceren met de afzender die eigenaar is van de IP-ruimte die wordt geblokkeerd. Niet-klanten kunnen echter meestal geen ondersteuningstickets openen.
+- Lees de [Microsoft Community-Forums](https://community.office365.com/f/).
 
-  Zie [Ondersteuning](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/support)voor meer informatie over microsoft technical support voor Office 365.
+- Neem contact op met de klant die u per e-mail wilt verzenden en vraag contact op te nemen met Microsoft ondersteuning en een ondersteuningsticket namens u te openen. In sommige gevallen moet Microsoft Support rechtstreeks met de afzender communiceren die de eigenaar is van de geblokte IP-ruimte. Klanten van ondersteunings tickets kunnen echter niet worden geopend.
 
-## <a name="anti-spam-ip-delist-portal"></a>Anti-Spam IP-delist Portal
+  Zie [ondersteuning](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/support)voor meer informatie over Microsoft technische ondersteuning voor Office 365.
 
-Dit is een selfserviceportal die u gebruiken om uzelf te verwijderen uit de lijst met geblokkeerde afzenders van Microsoft 365. Gebruik deze portal als u een foutbericht ontvangt wanneer u een e-mail probeert te verzenden naar een ontvanger wiens e-mailadres in Microsoft 365 staat en u denkt dat u dat niet zou moeten zijn. Zie [De lijstportal gebruiken om uzelf uit de lijst met geblokkeerde afzenders te verwijderen](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)voor meer informatie.
+## <a name="anti-spam-ip-delist-portal"></a>Portal voor IP-adressen met anti-spam
 
-## <a name="abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online"></a>Melding van misbruik en spam voor ongewenste e-mail afkomstig van Exchange Online
+Dit is een selfservice portal die u kunt gebruiken om uzelf te verwijderen uit de lijst met geblokkeerde afzenders in Microsoft 365. Gebruik deze portal als u een foutbericht krijgt wanneer u probeert een e-mailbericht te verzenden naar een geadresseerde waarvan het e-mailadres zich in Microsoft 365 bevindt en u niet denkt dat u het zou moeten zijn. Voor meer informatie raadpleegt u [de lijst met geblokkeerde afzenders gebruiken om uzelf te verwijderen uit de lijst met geblokkeerde afzenders](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md).
 
-Soms wordt Microsoft365 door derden gebruikt om ongewenste e-mail te verzenden, in strijd met onze gebruiksvoorwaarden en beleid. Als u ongewenste e-mail van Office 365 ontvangt, u deze berichten melden aan Microsoft. Zie Berichten [en bestanden rapporteren aan Microsoft voor](report-junk-email-messages-to-microsoft.md)instructies.
+## <a name="abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online"></a>Misbruik en spam van e-mailberichten die afkomstig zijn van Exchange Online
+
+Soms wordt Microsoft365 door derden gebruikt om ongewenste e-mail te verzenden, in schending van onze gebruiksvoorwaarden en beleid. Als u ongewenste e-mail ontvangt van Office 365, kunt u deze berichten aan Microsoft rapporteren. Zie voor instructies [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).

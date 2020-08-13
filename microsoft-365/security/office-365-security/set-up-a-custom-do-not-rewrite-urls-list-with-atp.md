@@ -1,5 +1,5 @@
 ---
-title: Een aangepaste lijst met URL's die niet opnieuw worden herschreven instellen met atp-veilige koppelingen
+title: Een aangepaste lijst met niet-herschrijfbare Url's instellen met behulp van behulp van behulp van vrije verbindingen
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,74 +18,78 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Meer informatie over het instellen van aangepaste geblokkeerde URL's voor gebruikers en het niet herschrijven van de lijst met URL's voor een groep gebruikers in het beleid voor veilige koppelingen met Office 365 ATP.
-ms.openlocfilehash: 7d7c8ad3f5ae0f6a79bd839151ed09628e7f2dfd
-ms.sourcegitcommit: df59c83174d845b8ddec48b9be2659fbfb58bb7f
+description: Meer informatie over het instellen van aangepaste geblokkeerde Url's voor gebruikers en het niet-opnieuw schrijven van Url's voor een groep gebruikers in Office 365 ATP-beleid voor veilige koppelingen.
+ms.openlocfilehash: 7909e91b96f8bdbc38ffdceafe11fa47f5ebe897
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46517471"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656967"
 ---
-# <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>Een aangepaste lijst met URL's die niet opnieuw worden herschreven instellen met atp-veilige koppelingen
+# <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>Een aangepaste lijst met niet-herschrijfbare Url's instellen met behulp van behulp van behulp van vrije verbindingen
 
 > [!IMPORTANT]
-> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Zie [Geavanceerde Outlook.com beveiliging](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)als u een thuisgebruiker bent die op zoek is naar informatie over veilige koppelingen.
+> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Als u een thuisgebruiker bent die op zoek bent naar informatie over veilige koppelingen in Outlook, raadpleegt u [geavanceerde Outlook.com-beveiliging](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-Met [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) kan uw organisatie een aangepaste [geblokkeerde URL's](set-up-a-custom-blocked-urls-list-atp.md)hebben, zodat wanneer mensen op webadressen (URL's) in e-mailberichten of bepaalde Office-documenten klikken, ze niet naar die URL's kunnen gaan. Uw organisatie kan ook aangepaste 'niet herschrijven' lijsten voor specifieke groepen in uw organisatie hebben. Met een lijst 'niet herschrijven' kunnen sommige mensen URL's bezoeken die anders worden geblokkeerd door [ATP Safe Links in Office 365.](atp-safe-links.md)
+Met [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) kan uw organisatie een aangepaste, [geblokkeerde url's](set-up-a-custom-blocked-urls-list-atp.md)hebben, bijvoorbeeld wanneer mensen klikken op webadressen (url's) in e-mailberichten of bepaalde Office-documenten, kunnen ze niet naar deze url's gaan. Uw organisatie kan ook aangepaste lijsten met niet herschrijven maken voor specifieke groepen in uw organisatie. Met een ' niet herschrijven-lijst kunnen sommige personen Url's bezoeken die [in Office 365](atp-safe-links.md)anders worden geblokkeerd met veilige koppelingen voor ATP.
 
-In dit artikel wordt beschreven hoe u een lijst met URL's opgeeft die zijn uitgesloten van het scannen van ATP Safe Links en een paar belangrijke punten om in gedachten te houden.
+In dit artikel wordt uitgelegd hoe u een lijst met Url's opgeeft die zijn uitgesloten van een veilige scan van een vrije site en enkele belangrijke punten waarmee u rekening moet houden.
 
-## <a name="set-up-a-do-not-rewrite-list"></a>Een lijst 'niet herschrijven' instellen
+## <a name="set-up-a-do-not-rewrite-list"></a>Een lijst ' niet herschrijven ' instellen
 
-Atp Safe Links-beveiliging maakt gebruik van verschillende lijsten, waaronder de lijst met geblokkeerde URL's van uw organisatie en de lijsten 'niet herschrijven' voor uitzonderingen. Als u over de benodigde machtigingen beschikt, u uw aangepaste lijsten 'niet herschrijven' instellen. Dit doe je wanneer u het beleid voor veilige koppelingen toevoegt of bewerkt dat van toepassing is op specifieke ontvangers in uw organisatie.
+De bescherming van de standaardbeveiliging van ATP maakt gebruik van diverse lijsten, waaronder de lijst met geblokkeerde Url's van uw organisatie en de lijsten niet herschrijven voor uitzonderingen. Als u over de juiste machtigingen beschikt, kunt u uw aangepaste lijsten ' niet herschrijven ' instellen. U doet dit als u beleidsregels voor veilige koppelingen toevoegt of bewerkt die van toepassing zijn op bepaalde geadresseerden in uw organisatie.
 
-Als u ATP-beleid wilt bewerken (of definiëren), moet u een geschikte rol toegewezen krijgen. De volgende tabel bevat enkele voorbeelden. Zie [Machtigingen in het Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie.
+U moet de juiste rol krijgen als u het ATP-beleid wilt bewerken (of definiëren). De volgende tabel bevat enkele voorbeelden. Zie voor meer informatie [machtigingen in de beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
 
-|Rol  |Waar/hoe toegewezen  |
-|---------|---------|
-|globale beheerder |De persoon die zich aanmeldt om Microsoft 365 te kopen, is standaard een globale beheerder. (Zie [Over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.)         |
-|Beveiligingsbeheerder |Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-|Exchange Online Organisatiebeheer |Exchange-beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)) |
+|Rol|Where/hoe toegewezen|
+|---|---|
+|globale beheerder|De persoon die zich registreert voor het kopen van Microsoft 365 is standaard een globale beheerder. (Zie [informatie over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.)|
+|Beveiligingsbeheerder|Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
+|Beheer van organisatie van Exchange Online|Exchange-Beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
+|
 
 > [!TIP]
-> Zie [Machtigingen in het Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rollen en machtigingen.
+> Als u meer wilt weten over rollen en machtigingen, raadpleegt u [machtigingen in de sectie beveiliging & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
 
-### <a name="to-view-or-edit-a-custom-do-not-rewrite-urls-list"></a>Een aangepaste URL'slijst 'niet herschrijven' weergeven of bewerken
+### <a name="to-view-or-edit-a-custom-do-not-rewrite-urls-list"></a>Een aangepaste lijst met Url's weergeven of bewerken
 
-1. Ga naar [https://protection.office.com](https://protection.office.com) en meld je aan met je werk- of schoolaccount.
+1. Ga naar [https://protection.office.com](https://protection.office.com) en meld u aan met uw werk-of schoolaccount.
 
-2. In de linker navigatie, onder **Threat management** \> **Policy** \> **Safe Links**.
+2. Klik in het linker navigatiegedeelte **Threat management** op \> **Policy** \> **veilige koppelingen**onder beleid voor risicobeheer.
 
-3. Kies Nieuw (de knop **Nieuw** lijkt op een plusteken ( )) in de sectie **Beleid dat van toepassing is op specifieke geadresseerden** **+** om een nieuw beleid te maken. (U ook een bestaand beleid bewerken.)<br/>![Kies Nieuw om een beleid voor veilige koppelingen toe te voegen voor specifieke e-mailontvangers](../../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
+3. Kies in de sectie **beleidsregels die gelden voor specifieke geadresseerden** de optie **Nieuw** (de knop Nieuw lijkt op een plusteken ( **+** )) om een nieuw beleid te maken. (U kunt een bestaand beleid ook bewerken.)<br/>![Kies Nieuw om een beleid voor veilige koppelingen toe te voegen voor specifieke e-mail geadresseerden](../../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
 
-4. Geef een naam en beschrijving op voor uw polis.
+4. Geef een naam en beschrijving voor het beleid op.
 
-5. URL's **inschakelen** wordt herschreven en gecontroleerd aan de hand van een lijst met bekende schadelijke koppelingen wanneer gebruikers op de link klikken.
+5. Url's **inschakelen** worden herschreven en gecontroleerd tegen een lijst met bekende kwaadaardige koppelingen wanneer de gebruiker klikt op de koppeling.
 
-6. Selecteer in de sectie **De volgende URL's niet herschrijven** het vak **Een geldige URL invoeren,** voer een URL in en kies vervolgens het plusteken (+).
+6. Selecteer in de sectie **niet herschrijven de volgende url's** het vak **Voer een geldige URL** in, voer een URL in en kies vervolgens het plusteken (+).
 
-7. Kies in de sectie **Toegepast op** de ontvanger **lid van**de groep(en) die u in uw polis wilt opnemen. Kies **Toevoegen**en kies **vervolgens OK**.
+7. Kies in de sectie **toegepast op** **de geadresseerde lid van**en kies vervolgens de groep (en) die u wilt opnemen in uw beleid. Kies **toevoegen**en kies vervolgens **OK**.
 
-8. Wanneer u klaar bent met het toevoegen van URL's, kiest u in de rechterbenedenhoek van het scherm **Opslaan**.
+8. Wanneer u klaar bent met het toevoegen van Url's, kiest u in de rechterbenedenhoek van het scherm de optie **Opslaan**.
 
 > [!NOTE]
-> Controleer de aangepaste lijst met geblokkeerde URL's van uw organisatie. Zie [Een aangepaste lijst met geblokkeerde URL's instellen met ATP-veilige koppelingen](set-up-a-custom-blocked-urls-list-atp.md).
+> Zorg ervoor dat u de aangepaste lijst met geblokkeerde Url's van uw organisatie bekijkt. Zie [een aangepaste lijst met geblokkeerde Url's instellen met behulp van veilige koppelingen](set-up-a-custom-blocked-urls-list-atp.md)
 
-## <a name="important-points-to-keep-in-mind"></a>Belangrijke punten om in gedachten te houden
+## <a name="important-points-to-keep-in-mind"></a>Belangrijke punten waarmee u rekening moet houden
 
-- URL's die u opgeeft in de lijst 'niet herschrijven' zijn uitgesloten van het scannen van ATP Safe Links voor de ontvangers die u opgeeft.
+- Url's die u in de lijst ' niet herschrijven ' opgeeft, worden niet opgenomen in de lijst met veilige koppelingen voor de geadresseerden die u opgeeft.
 
-- Overweeg veelgebruikte interne URL's toe te voegen aan de lijst 'niet herschrijven' om de gebruikerservaring te verbeteren. Als u bijvoorbeeld on-premises services hebt, zoals Skype voor Bedrijven of Sharepoint, u hun URL's aan de lijst toevoegen om ze uit te sluiten van scannen.
+- Overweeg veelgebruikte interne Url's toe te voegen aan de lijst niet herschrijven om de gebruikerservaring te verbeteren. Als u bijvoorbeeld on-premises Services hebt, zoals Skype voor bedrijven of SharePoint, kunt u hun Url's toevoegen aan de lijst, zodat u ze niet kunt scannen.
 
-- Als u al een lijst met URL's in uw lijst 'niet herschrijven' hebt, moet u die lijst bekijken en wildcards toevoegen. Als uw bestaande lijst bijvoorbeeld een vermelding heeft zoals `https://contoso.com/a` en u subpaden zoals in uw beleid wilt `https://contoso.com/a/b` opnemen, voegt u een wildcard toe aan uw item zodat het eruit ziet `https://contoso.com/a/*` als .
+- Als u al een lijst met Url's hebt in de lijst niet opnieuw schrijven, controleert u de lijst en voegt u de gewenste jokertekens toe. Als uw bestaande lijst bijvoorbeeld een item bevat `https://contoso.com/a` en u wilt ook subpaden opnemen `https://contoso.com/a/b` in uw beleid, voegt u een jokerteken toe aan uw bericht, zodat het er zo uitziet `https://contoso.com/a/*` .
 
-- Wanneer u een lijst 'niet herschrijven' opgeeft voor een ATP-beleid voor veilige koppelingen, u maximaal drie jokertekens \* () opnemen. Jokertekens bevatten expliciet voorvoegsels of subdomeinen. De vermelding is bijvoorbeeld `contoso.com` niet hetzelfde als `*.contoso.com/*` , omdat `*.contoso.com/*` mensen subdomeinen en paden in het opgegeven domein kunnen bezoeken.
+- Wanneer u een lijst ' niet herschrijven ' opgeeft voor een beleid voor veilige verbindingen voor vrije verbindingen, kunt u maximaal drie jokertekens ( \* ) opnemen. Jokertekens zijn expliciet voorvoegsels of subdomeinen. U kunt bijvoorbeeld niet gelijk zijn aan de invoer `contoso.com` `*.contoso.com/*` omdat `*.contoso.com/*` gebruikers subdomeinen en paden kunnen vinden in het opgegeven domein.
 
-In de volgende tabel worden voorbeelden weergegeven van wat u invoeren en welk effect deze vermeldingen hebben.
+De volgende tabel bevat voorbeelden van wat u kunt invoeren en welke gevolgen deze vermeldingen hebben.
 
-|Voorbeeldvermelding|Wat het doet|
-|:-----|:-----|
-|`contoso.com`|Hiermee kunnen ontvangers een site bezoeken, `https://contoso.com` maar geen subdomeinen of paden.|
-|`*.contoso.com/*`|Hiermee kunnen ontvangers een domein, subdomeinen en paden bezoeken, zoals `https://www.contoso.com` , `https://www.contoso.com` , of `https://maps.contoso.com` `https://www.contoso.com/a` . <br/><br/> Dit item is inherent beter `*contoso.com*` dan, omdat het geen potentieel frauduleuze sites bevat, zoals `https://www.falsecontoso.com` of`https://www.false.contoso.completelyfalse.com`|
-|`https://contoso.com/a`|Hiermee kunnen specifieke ontvangers een site bezoeken zoals `https://contoso.com/a` , maar geen subpaden zoals`https://contoso.com/a/b`|
-|`https://contoso.com/a/*`|Hiermee kunnen specifieke ontvangers een site zoals `https://contoso.com/a` en subpaden bezoeken, zoals`https://contoso.com/a/b`|
+****
+
+|Voorbeeld van invoer|Actie|
+|---|---|
+|`contoso.com`|Hiermee kunnen geadresseerden een site bezoeken, zoals `https://contoso.com` subdomeinen of paden.|
+|`*.contoso.com/*`|Hiermee kunnen geadresseerden een domein, subdomeinen en paden bezoeken, bijvoorbeeld,, `https://www.contoso.com` `https://www.contoso.com` `https://maps.contoso.com` of `https://www.contoso.com/a` . <br/><br/> Deze vermelding is inherent `*contoso.com*` aan het gebruik, omdat dit geen potentiële frauduleuze sites bevat, zoals `https://www.falsecontoso.com` of`https://www.false.contoso.completelyfalse.com`|
+|`https://contoso.com/a`|Hiermee kunnen bepaalde geadresseerden een site niet vinden `https://contoso.com/a` , zoals`https://contoso.com/a/b`|
+|`https://contoso.com/a/*`|Hiermee kunnen bepaalde geadresseerden een site zoals `https://contoso.com/a` en subpad bezoeken als`https://contoso.com/a/b`|
+|

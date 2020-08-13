@@ -11,68 +11,69 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
-description: Volg deze aanbevelingen voor de beste praktijken voor standalone Exchange Online Protection (EOP) om u op te zetten voor succes en veelvoorkomende configuratiefouten te voorkomen.
-ms.openlocfilehash: e5e87883e9c8aad21552ebf306a9716f14532884
-ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
+description: Volg deze aanbevolen aanbevelingen voor standalone Exchange Online Protection (EOP) om ervoor te zorgen dat er geen veelvoorkomende configuratiefouten zijn opgetreden.
+ms.openlocfilehash: 880e61538f4de588b01a9ec107fcf629a0e7eeed
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44739084"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653195"
 ---
-# <a name="best-practices-for-configuring-standalone-eop"></a>Aanbevolen procedures voor het configureren van standalone EOP
+# <a name="best-practices-for-configuring-standalone-eop"></a>Aanbevolen procedures voor het configureren van zelfstandige EOP
 
-Volg deze aanbevelingen voor de beste praktijken voor standalone Exchange Online Protection (EOP) om u op te zetten voor succes en veelvoorkomende configuratiefouten te voorkomen. In dit onderwerp wordt ervan uitgegaan dat u het installatieproces al hebt voltooid. Zie Uw [EOP-service instellen](set-up-your-eop-service.md)als u de EOP-installatie nog niet hebt voltooid.
+Volg deze aanbevolen aanbevelingen voor standalone Exchange Online Protection (EOP) om ervoor te zorgen dat er geen veelvoorkomende configuratiefouten zijn opgetreden. In dit onderwerp wordt ervan uitgegaan dat u het installatieproces al hebt voltooid. Als u EOP niet hebt geïnstalleerd, raadpleegt u [uw EOP-service instellen](set-up-your-eop-service.md).
 
-## <a name="use-a-test-domain"></a>Een testdomein gebruiken
+## <a name="use-a-test-domain"></a>Een test domein gebruiken
 
-We raden u aan een testdomein, subdomein of domein met een laag volume te gebruiken voor het uitproberen van servicefuncties voordat u deze implementeert op uw productiedomeinen met een groter volume.
+U wordt geadviseerd om een test domein, subdomein of volume met een laag volume te gebruiken voor het uitvoeren van servicefuncties voordat u deze implementeert op een groter volume, productie domeinen.
 
-## <a name="synchronize-recipients"></a>Ontvangers synchroniseren
+## <a name="synchronize-recipients"></a>Geadresseerden synchroniseren
 
-Als uw organisatie bestaande gebruikersaccounts heeft in een on-premises Active Directory-omgeving, u deze accounts synchroniseren met Azure Active Directory in de cloud. Het gebruik van adreslijstsynchronisatie wordt aanbevolen. Zie [EOP beheren](manage-mail-users-in-eop.md)voor meer informatie over de voordelen van het gebruik van adreslijstsynchronisatie en de stappen voor het instellen ervan.
+Als uw organisatie bestaande gebruikersaccounts bevat in een on-premises Active Directory-omgeving, kunt u deze accounts synchroniseren met Azure Active Directory in de Cloud. Het gebruik van adreslijstsynchronisatie is aanbevolen. Zie [e-mail gebruikers beheren in EOP](manage-mail-users-in-eop.md)voor meer informatie over de voordelen van het gebruik van adreslijstsynchronisatie en de stappen voor het instellen hiervan.
 
 ## <a name="recommended-settings"></a>Aanbevolen instellingen
 
-We stellen beveiligingsbeheerders in staat om hun beveiligingsinstellingen aan te passen aan de behoeften van hun organisatie. Hoewel er in de regel twee beveiligingsniveaus in EOP en Office 365 ATP zijn die we aanbevelen: Standaard en Streng. Deze instellingen worden weergegeven in de [aanbevolen instellingen voor EOP- en Office 365 ATP-beveiliging.](recommended-settings-for-eop-and-office365-atp.md)
+Beveiligingsbeheerders worden geadviseerd hun beveiligingsinstellingen aan te passen en te voldoen aan de behoeften van hun organisatie. Hoewel het in het algemeen een regel is, zijn er twee beveiligingsniveaus in EOP en in Office 365 ATP: standaard en strikte. Deze instellingen worden weergegeven in de [Aanbevolen instellingen voor EOP en Office 365 ATP-beveiliging](recommended-settings-for-eop-and-office365-atp.md).
 
-### <a name="miscellaneousnon-policy-settings"></a>Diverse/niet-beleidsinstellingen
+### <a name="miscellaneousnon-policy-settings"></a>Diversen/niet-beleidsinstellingen
 
-Deze instellingen hebben betrekking op een reeks functies die buiten het beveiligingsbeleid vallen.
+Met deze instellingen wordt een reeks functies besproken die buiten het beveiligingsbeleid vallen.
 
-|||||
+****
+
+|Naam van beveiligingsfunctie|Verre|Klep|Opmerking|
 |---|---|---|---|
-|**Naam beveiligingsfunctie**|**Standaard**|**Strikte**|**Opmerking**|
 |[SPF instellen om adresvervalsing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Ja|Ja||
 |[DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein in Office 365](use-dkim-to-validate-outbound-email.md)|Ja|Ja||
-|[DMARC gebruiken om e-mail in Office 365 te valideren](use-dmarc-to-validate-email.md)|Ja|Ja|Gebruik `action=quarantine` voor Standaard, en `action=reject` voor Streng.|
-|De [invoegtoepassing Rapportbericht](enable-the-report-message-add-in.md) implementeren om de rapportage van verdachte e-mail door eindgebruikers te verbeteren|Ja|Ja||
-|Malware- en spamrapporten plannen|Ja|Ja||
-|Automatisch doorsturen naar externe domeinen moet worden geweigerd of gecontroleerd|Ja|Ja||
-|Unified Auditing moet worden ingeschakeld|Ja|Ja||
-|[IMAP-verbinding met postvak](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Uitgeschakeld|Uitgeschakeld||
-|[POP-connectiviteit met postvak](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Uitgeschakeld|Uitgeschakeld||
-|Geverifieerde SMTP-indiening|Uitgeschakeld|Uitgeschakeld|Geverifieerde client SMTP indiening (ook bekend als client SMTP indiening of SMTP AUTH) is vereist voor POP3 en IMAP4 klanten om e-mail te sturen.|
-|EWS-connectiviteit met postvak|Uitgeschakeld|Uitgeschakeld||
-|[PowerShell-connectiviteit](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)|Uitgeschakeld|Uitgeschakeld|Beschikbaar voor postvakgebruikers of [e-mailgebruikers](https://docs.microsoft.com/powershell/module/exchange/get-user) (gebruikersobjecten die worden geretourneerd door de cmdlet van de gebruiker).|
-|Gebruik [spoofinformatie](learn-about-spoof-intelligence.md) om afzenders toe te voegen aan uw lijst met toestaan|Ja|Ja||
-|[Directory-based edge blocking (DBEB)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Ingeschakeld|Ingeschakeld|Domeintype = Gezaghebbend|
+|[DMARC gebruiken om e-mail in Office 365 te valideren](use-dmarc-to-validate-email.md)|Ja|Ja|Gebruik `action=quarantine` voor standaard en `action=reject` voor strikte uitvoering.|
+|De [invoegtoepassing bericht rapporteren](enable-the-report-message-add-in.md) implementeren om het rapporteren van verdachte e-mail van eindgebruikers te verbeteren|Ja|Ja||
+|Rapporten van malware en spam plannen|Ja|Ja||
+|Automatisch doorsturen naar externe domeinen moet zijn toegestaan of gecontroleerd|Ja|Ja||
+|Unified audit moet worden ingeschakeld|Ja|Ja||
+|[IMAP-connectiviteit met Postvak](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Uitgeschakeld|Uitgeschakeld||
+|[POP-verbinding met Postvak](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Uitgeschakeld|Uitgeschakeld||
+|Geverifieerde SMTP-verzending|Uitgeschakeld|Uitgeschakeld|Authenticatie van geverifieerde client (ook wel bekend als client SMTP Submission of SMTP-AUTH) is vereist voor POP3-en IMAP4-clients om e-mail te verzenden.|
+|EWS-verbinding met Postvak|Uitgeschakeld|Uitgeschakeld||
+|[PowerShell-connectiviteit](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)|Uitgeschakeld|Uitgeschakeld|Beschikbaar voor Postvak gebruikers of e-mail gebruikers (gebruikersobjecten die worden geretourneerd door de cmdlet [Get-User](https://docs.microsoft.com/powershell/module/exchange/get-user) ).|
+|Gebruik [spoof Intelligence](learn-about-spoof-intelligence.md) om afzenders toe te voegen aan uw lijst toestaan|Ja|Ja||
+|[Op mappen gebaseerde rand blokkeren (DBEB)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Ingeschakeld|Ingeschakeld|Domein type = gezaghebbend|
 |[Meervoudige verificatie instellen voor alle beheerdersaccounts](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)|Ingeschakeld|Ingeschakeld||
 |
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 
-Los algemene problemen en trends op met behulp van de rapporten in het beheercentrum. Zoek specifieke gegevens over één punt over een bericht met behulp van het hulpprogramma voor berichttracering. Meer informatie over rapportage [bij Rapportage en berichttracering in Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md). Meer informatie over het hulpprogramma voor berichttracering vindt [plaats in het Security & Compliance Center](message-trace-scc.md).
+Algemene problemen en trends oplossen met behulp van de rapporten in het Beheercentrum. Zoek met behulp van het hulpprogramma voor bericht tracering enkele punten met bepaalde gegevens over een bericht. Meer informatie over rapporteren bij [rapportage en bericht traceren in Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md). Meer informatie over het hulpprogramma voor bericht tracering vindt u [in het artikel over de beveiligings & nalevings centrum](message-trace-scc.md).
 
-## <a name="report-false-positives-and-false-negatives-to-microsoft"></a>Valse positieven en valse negatieven melden aan Microsoft
+## <a name="report-false-positives-and-false-negatives-to-microsoft"></a>Negatieve en onjuiste negatieven rapporteren aan Microsoft
 
-Om te helpen bij het verbeteren van spam filtering in de service voor iedereen, moet u valse positieven (goede e-mail gemarkeerd als slecht) en valse negatieven (slechte e-mail toegestaan) aan Microsoft voor analyse. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
+Als u het filteren van ongewenste e-mail in de service voor iedereen wilt verbeteren, meldt u fout-positieven (goede e-mailberichten die als beschadigd zijn gemarkeerd) en onjuiste negatieven (onjuiste e-mail toegestaan) aan Microsoft voor analyse. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
-## <a name="create-mail-flow-rules"></a>Regels voor e-mailstroom maken
+## <a name="create-mail-flow-rules"></a>Regels voor e-mail stroom maken
 
-Maak regels voor e-mailstroom (ook wel transportregels genoemd) of aangepaste filters om aan uw bedrijfsbehoeften te voldoen.
+Maak regels voor de e-mail stroom (ook wel een transportregel genoemd) of aangepaste filters om aan uw bedrijfsbehoeften te voldoen.
 
-Wanneer u een nieuwe regel implementeert voor de productie, selecteert u eerst een van de testmodi om het effect van de regel te zien. Zodra u ervan overtuigd bent dat de regel werkt op de beoogde manier, wijzigt u de regelmodus om af te **dwingen.**
+Wanneer u een nieuwe regel implementeert voor de productie, selecteert u eerst een van de test modi om het effect van de regel te zien. Wanneer u hebt nagegaan dat de regel op de juiste manier functioneert, moet u de regelmodus wijzigen in **afdwingen**.
 
-Wanneer u nieuwe regels implementeert, u overwegen de aanvullende actie van **incidentrapport genereren** toe te voegen om de regel in actie te controleren.
+Wanneer u nieuwe regels implementeert, kunt u overwegen om de extra actie voor het **genereren van incidenten** toe te voegen om de regel in actie te volgen.
 
-Houd in hybride omgevingen waar uw organisatie zowel on-premises Exchange als Exchange Online omvat, rekening met de voorwaarden die u gebruikt in e-mailstroomregels. Als u wilt dat de regels van toepassing zijn op de hele organisatie, moet u de voorwaarden gebruiken die beschikbaar zijn in zowel on-premises Exchange als in Exchange Online. Hoewel de meeste omstandigheden beschikbaar zijn in beide omgevingen, zijn er een paar die alleen beschikbaar zijn in de ene of de andere omgeving. Meer informatie bij [Mail flow rules (transportregels) in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules).
+In hybride omgevingen waarbij uw organisatie zowel on-premises Exchange als Exchange Online bevat, kunt u de voorwaarden in de e-mail stroom regels gebruiken. Als u de regels wilt toepassen op de hele organisatie, moet u ervoor zorgen dat voorwaarden worden gebruikt die beschikbaar zijn in de on-premises Exchange-versie en in Exchange Online. Hoewel de meeste voorwaarden in beide omgevingen beschikbaar zijn, zijn er slechts enkele in één omgeving te vinden. Meer informatie vindt u [in e-mail stroom regels (transportregels) in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules).

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Rapporten voor Office 365 Advanced Threat Protection zoeken en gebruiken in het beveiligings &amp; compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 194ce245e02490a313effdeaad0715fdd8035a19
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: dc68df40e6b7b576644be607697d7b1ed0a33660
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577982"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653531"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Rapporten weergeven voor Office 365 Advanced Threat Protection
 
@@ -265,14 +265,17 @@ Als u wilt teruggaan naar de weergave rapporten, klikt u op **rapport weergeven*
 
 Naast de in dit onderwerp beschreven ATP-rapporten, zijn er nog enkele andere rapporten beschikbaar, zoals wordt beschreven in de volgende tabel:
 
+****
+
 |Rapport|Rond|
 |---|---|
 |**Verkenner** (ATP abonnement 2) of **realtime-detecties** (ATP abonnement 1)|[Bedreigingsverkenner (en realtime detecties)](threat-explorer.md)|
 |**Beveiligingsrapporten voor e-mail**, zoals het rapport belangrijkste afzenders en geadresseerden, het rapport spoofberichten en het rapport detectie van ongewenste e-mail.|[Beveiligingsrapporten voor e-mail weergeven in het beveiligings & nalevings centrum](view-email-security-reports.md)|
 |**E-mail stroom rapporten**, zoals het doorsturen van rapporten, het rapport status van de mail stroom en het rapport meest voorkomende afzenders en geadresseerden.|[De e-mail stroom rapporten weergeven in het beveiligings & nalevings centrum](view-mail-flow-reports.md)|
 |**URL-tracering voor veilige koppelingen met ATP** (alleen PowerShell). De uitvoer van deze cmdlet toont u de resultaten van in de afgelopen zeven dagen gepaarde ATP-acties.|[Get-UrlTrace](https://docs.microsoft.com/powershell/module/exchange/get-urltrace)|
-|**Resultaten van e-mail verkeer voor EOP en ATP** (alleen PowerShell). De uitvoer van deze cmdlet bevat informatie over domein, datum, evenement type, richting, actie en aantal berichten.|[Get-MailTrafficATPReport](https://docs.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport) <br/><br/> |
+|**Resultaten van e-mail verkeer voor EOP en ATP** (alleen PowerShell). De uitvoer van deze cmdlet bevat informatie over domein, datum, evenement type, richting, actie en aantal berichten.|[Get-MailTrafficATPReport](https://docs.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport)|
 |**E-mail detailrapporten voor EOP en ATP-detectie** (alleen PowerShell). De uitvoer van deze cmdlet bevat details over schadelijke bestanden of Url's, phishing-pogingen, imitatie en andere potentiële bedreigingen in e-mail of bestanden.|[Get-MailDetailATPReport](https://docs.microsoft.com/powershell/module/exchange/get-maildetailatpreport)|
+|
 
 ## <a name="what-permissions-are-needed-to-view-the-atp-reports"></a>Welke machtigingen zijn vereist voor het weergeven van de ATP-rapporten?
 

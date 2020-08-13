@@ -12,271 +12,274 @@ localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen berichttracering gebruiken in het Security & Compliance Center om erachter te komen wat er met berichten is gebeurd.
-ms.openlocfilehash: cb24b9a5f5540f1858ac17b5b4ec3de0c77b47d1
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Beheerders kunnen de functie voor bericht tracering gebruiken in het beveiligings & nalevings centrum om erachter te komen wat er is gebeurd met berichten.
+ms.openlocfilehash: 7c0b87b1bb882714692a04b857bfc054305dee8c
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819338"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653639"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Berichttracering in het Beveiligings- en compliancecentrum
 
-## <a name="message-trace-features"></a>Functies voor berichttracering
+## <a name="message-trace-features"></a>Functies voor bericht tracering
 
-Berichttracering in het Security & Compliance Center volgt e-mailberichten terwijl ze door uw Exchange Online-organisatie reizen. U bepalen of een bericht is ontvangen, afgewezen, uitgesteld of geleverd door de service. Het toont ook welke acties werden ondernomen op het bericht voordat het zijn definitieve status bereikt.
+Bericht tracering in het beveiligings & compliance volgen worden e-mailberichten verzonden wanneer ze worden verzonden via uw Exchange Online-organisatie. U kunt bepalen of een bericht is ontvangen, afgewezen, uitgesteld of geleverd door de service. Ook ziet u welke acties zijn uitgevoerd op het bericht voordat het de definitieve status bereikte.
 
-Berichttracering in het Security & Compliance Center verbetert de oorspronkelijke berichttracering die beschikbaar was in het Exchange-beheercentrum (EAC). U de informatie uit berichttracering gebruiken om vragen van gebruikers over wat er met berichten is gebeurd efficiënt te beantwoorden, problemen met de e-mailstroom op te lossen en beleidswijzigingen te valideren.
+Bericht tracering in het nalevings centrum voor beveiliging & verbetert de oorspronkelijke bericht tracering die beschikbaar is in het Exchange Admin Center (SBV). U kunt de gegevens van de bericht tracering gebruiken om op efficiënte wijze vragen van gebruikers te beantwoorden over wat er is gebeurd met berichten, problemen met de e-mail stroom oplossen en beleidswijzigingen valideren.
 
 > [!NOTE]
-> • Om een berichttracering uit te voeren, moet u lid zijn van de rolgroepen Organisatiebeheer, Compliance Management of Helpdesk. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie. <br/><br/>• Het maximum aantal berichten dat in de resultaten wordt weergegeven, is afhankelijk van het rapporttype dat u hebt geselecteerd (zie de sectie [Rapporttype kiezen](#choose-report-type) voor meer informatie). De [cmdlet Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/get-historicalsearch) in Exchange Online PowerShell of standalone EOP PowerShell retourneert alle berichten in de resultaten.
+>
+> - Als u een bericht tracering wilt uitvoeren, moet u lid zijn van de rollen groepen Organisatiebeheer, Compliance Management of Help Desk. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+>
+> - De maximale hoeveelheid berichten die in de resultaten worden weergegeven, is afhankelijk van het type rapport dat u hebt geselecteerd (Zie de sectie [Rapporttype kiezen](#choose-report-type) voor meer informatie). Met de cmdlet [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/get-historicalsearch) in Exchange Online PowerShell of zelfstandige EOP PowerShell worden alle berichten in de resultaten als resultaat gegeven.
 
-## <a name="open-message-trace"></a>Berichttracering openen
+## <a name="open-message-trace"></a>Bericht tracering openen
 
-1. Open het Security & Compliance Center op <https://protection.office.com> .
+1. Open het beveiligings & nalevings centrum op <https://protection.office.com> .
 
-2. Vouw **e-mailstroom**uit en selecteer **Vervolgens Berichttracering**.
+2. Vouw de **e-mail stroom**uit en selecteer vervolgens **bericht traceren**.
 
-## <a name="message-trace-page"></a>Berichttraceringspagina
+## <a name="message-trace-page"></a>Pagina bericht traceren
 
-Vanaf hier u een nieuw standaardtraceringsspoor starten door op de knop **Een trace starten te** klikken. Hiermee wordt gezocht naar alle berichten voor alle afzenders en ontvangers van de afgelopen twee dagen. U ook een van de opgeslagen query's uit de beschikbare querycategorieën gebruiken en deze als is uitvoeren of als uitgangspunten gebruiken voor uw eigen query's:
+Van hieruit kunt u een nieuwe standaardtracering starten door te klikken op de knop **een spoor starten** . Hiermee wordt gezocht naar alle berichten voor alle afzenders en geadresseerden voor de afgelopen twee dagen. U kunt ook een van de opgeslagen query's uit de beschikbare query categorieën gebruiken en deze vervolgens als uitgangspunt gebruiken als uitgangspunt voor uw eigen query's:
 
-- **Standaardquery's**: Ingebouwde query's van Microsoft 365.
+- **Standaardquery's**: ingebouwde Query's van microsoft 365.
 
-- **Aangepaste query's:** query's die door beheerders in uw organisatie zijn opgeslagen voor toekomstig gebruik.
+- **Aangepaste query's**: query's die zijn opgeslagen door beheerders in uw organisatie voor toekomstig gebruik.
 
-- **Automatisch opgeslagen query's**: de laatste tien meest recent uitgevoerde query's. Deze lijst maakt het eenvoudig om verder te gaan waar je gebleven was.
+- Voor het uitvoeren van **query's die niet zijn opgeslagen**: de laatste tien meest recente query's. In deze lijst kunt u eenvoudig verdergaan waar u gebleven was.
 
-Ook op deze pagina is een **downloadbare rapporten** sectie voor de verzoeken die u hebt ingediend, evenals de rapporten zelf wanneer er beschikbaar zijn om te downloaden.
+Op deze pagina vindt u een sectie met **downloadbare rapporten** voor de verzoeken die u hebt ingediend, en de rapporten zelf wanneer ze kunnen worden gedownload.
 
-## <a name="options-for-a-new-message-trace"></a>Opties voor een nieuw berichttracering
+## <a name="options-for-a-new-message-trace"></a>Opties voor een nieuwe bericht tracering
 
 ### <a name="filter-by-senders-and-recipients"></a>Filteren op afzenders en geadresseerden
 
-De standaardwaarden zijn **Alle afzenders** en **Alle geadresseerden,** maar u de volgende velden gebruiken om de resultaten te filteren:
+De standaardwaarden zijn **alle afzenders** en **alle geadresseerden**, maar u kunt de volgende velden gebruiken om de resultaten te filteren:
 
-- **Door deze personen**: Klik in dit veld om een of meer afzenders uit uw organisatie te selecteren. U ook beginnen met het typen van een naam en de items in de lijst worden gefilterd op wat u hebt getypt, net als hoe een zoekpagina zich gedraagt.
+- **Door deze personen**: Klik in dit veld om een of meer afzenders van uw organisatie te selecteren. U kunt ook een naam typen en de items in de lijst worden gefilterd door wat u hebt getypt, net zoals een zoekpagina.
 
-- **Aan deze personen**: Klik in dit veld om een of meer ontvangers in uw organisatie te selecteren.
+- **Voor deze personen**: Klik in dit veld om een of meer geadresseerden in uw organisatie te selecteren.
 
 > [!NOTE]
-> U ook de e-mailadressen van externe afzenders en ontvangers typen. Jokertekens worden ondersteund `*@contoso.com` (bijvoorbeeld), maar u niet meerdere jokeritems tegelijk in hetzelfde veld gebruiken. <br/><br/> U meerdere afzenders of geadresseerdenlijsten plakken, gescheiden door puntkomma's ( `;` ). spaties ( `\s` , vervoer retouren ( `\r` ), of volgende lijnen ( `\n` ).
+> U kunt ook de e-mailadressen van externe afzenders en geadresseerden typen. Jokertekens worden ondersteund (bijvoorbeeld `*@contoso.com` ), maar u kunt niet meerdere jokertekens gebruiken in hetzelfde veld. <br/><br/> U kunt meerdere lijsten van afzenders of geadresseerden plakken, gescheiden door puntkomma's ( `;` ). spaties ( `\s` ), regeleinden ( `\r` ) of volgende regels ( `\n` ).
 
 ### <a name="time-range"></a>Tijdsbereik
 
-De standaardwaarde is **2 dagen,** maar u datum-/tijdbereiken van maximaal 90 dagen opgeven. Wanneer u datum-/tijdsbereiken gebruikt, moet u rekening houden met de volgende problemen:
+De standaardwaarde is **2 dagen**, maar u kunt datum/tijd-bereiken opgeven van maximaal 90 dagen. Wanneer u datum/tijd-bereiken gebruikt, kunt u het volgende doen:
 
-- Standaard selecteert u het tijdsbereik in de **schuifregelaarweergave** met een tijdsregel. U alleen de dag- of tijdinstellingen selecteren die worden weergegeven. Als u een tussenwaarde probeert te selecteren, wordt de begin-/eindbel uitgelijnd op de dichtstbijzijnde weergegeven instelling.
+- Standaard selecteert u het tijdsbereik in de **schuifregelaar** met een tijdlijn. U kunt alleen de dag-en tijdinstellingen selecteren die worden weergegeven. Als u probeert een in-tussen waarde te selecteren, wordt de Bel begin/einde uitgelijnd met de dichtstbijzijnde weergegeven instelling.
 
-  ![Een schuifregelaartijdbereik in een nieuw berichttracering in het Security & Compliance Center](../../media/55a9e9c1-f7d5-4047-b217-824e8b976bcb.png)
+  ![Een bereik van de schuifregelaar in het beveiligings & nalevings centrum](../../media/55a9e9c1-f7d5-4047-b217-824e8b976bcb.png)
 
-  U echter ook overschakelen naar **aangepaste** weergave waar u de **waarden begindatum** en **einddatum** (inclusief tijden) opgeven en u ook de **tijdzone** voor het datum-tijdbereik selecteren. Houd er rekening mee dat de **instelling Tijdzone** van toepassing is op zowel uw query-invoer als uw queryresultaten.
+  U kunt ook overschakelen naar een **aangepaste** weergave, waarin u de waarden voor de **begindatum** en de **einddatum** kunt opgeven (waaronder tijden), en u kunt ook de **Tijdzone** voor het datum/tijd-bereik selecteren. Houd er rekening mee dat de **Tijdzone** instelling van toepassing is op zowel de query-invoer als de queryresultaten.
 
-  ![Een aangepast tijdsbereik in een nieuw berichttracering in het Security & Compliance Center](../../media/ed4c8d50-9ea5-4694-93f9-ee3ab6660b4f.png)
+  ![Een aangepast tijdsbereik in een nieuwe bericht tracering in het nalevings centrum voor beveiligings &](../../media/ed4c8d50-9ea5-4694-93f9-ee3ab6660b4f.png)
 
-  Gedurende 10 dagen of minder zijn de resultaten direct beschikbaar als **samenvattend** rapport. Als u een tijdsbereik opgeeft dat zelfs iets groter is dan 10 dagen, worden de resultaten vertraagd omdat ze alleen beschikbaar zijn als een downloadbaar CSV-bestand **(Uitgebreide samenvatting** of **uitgebreide** rapporten).
+  Voor 10 dagen of minder zijn de resultaten direct beschikbaar als **overzichts** rapport. Als u een tijdsbereik opgeeft dat nog iets langer is dan 10 dagen, wordt het resultaat vertraagd omdat dit alleen beschikbaar is als het downloadbare CSV-bestand ( **uitgebreide samenvatting** of **uitgebreide** rapporten).
 
-  Zie de sectie [Rapporttype kiezen](#choose-report-type) in dit onderwerp voor meer informatie over de verschillende rapporttypen.
+  Zie voor meer informatie over de verschillende soorten rapporten de sectie [Rapporttype kiezen](#choose-report-type) in dit onderwerp.
 
-  **Opmerking**: Uitgebreide overzichts- en uitgebreide rapporten worden opgesteld met behulp van gearchiveerde berichttraceringsgegevens en het kan enkele uren duren voordat uw rapport kan worden gedownload. Afhankelijk van het aantal andere beheerders dat rond dezelfde tijd ook rapportaanvragen heeft ingediend, u ook een vertraging opmerken voordat de verwerking voor uw aanvraag in de wachtrij wordt gestart.
+  **Opmerking**: een uitgebreide samenvatting en uitgebreide rapporten worden gemaakt met behulp van gearchiveerde berichten traceringsgegevens, en het kan tot enkele uren duren voordat het rapport kan worden gedownload. Afhankelijk van het aantal andere beheerders heeft ook een vertraging ingediend voor het uitvoeren van de verwerking voor uw aanvraag in de wachtrij, voordoend.
 
-- Als u een query opslaat in de weergave **Schuifregelaar,** wordt het relatieve tijdbereik opgeslagen (bijvoorbeeld 3 dagen vanaf vandaag). Als u een query opslaat in **de aangepaste** weergave, wordt het absolute datum/tijdsbereik opgeslagen (bijvoorbeeld 2018-05-06 13:00 tot 2018-05-08 18:00).
+- Wanneer u een query opslaat in de **Schuif** weergave, wordt het relatieve tijdsbereik opgeslagen (bijvoorbeeld 3 dagen na vandaag). Wanneer u een query opslaat in de **aangepaste** weergave, wordt het absolute datum/tijdbereik opgeslagen, bijvoorbeeld 2018-05-06 13:00 in 2018-05-08 18:00).
 
 ### <a name="more-search-options"></a>Meer zoekopties
 
 #### <a name="delivery-status"></a>Leveringsstatus
 
-U de standaardwaarde **Helemaal** geselecteerd laten of u een van de volgende waarden selecteren om de resultaten te filteren:
+U kunt de standaardwaarde voor **alle** geselecteerde waarden wijzigen of een van de volgende waarden selecteren om de resultaten te filteren:
 
-- **Geleverd**: Het bericht is geleverd op de beoogde bestemming.
+- **Bezorgd**: het bericht is afgeleverd op de bestemming.
 
-- **In behandeling**: Levering van het bericht wordt geprobeerd of opnieuw geprobeerd.
+- **In behandeling**: de bezorging van het bericht wordt (opnieuw) geprobeerd.
 
-- **Uitgebreid**: Een ontvanger van een distributiegroep is uitgebreid voordat deze aan de afzonderlijke leden van de groep wordt geleverd.
+- **Uitgebreid**: een ontvanger van een distributiegroep is uitgebreid vóór de levering aan de afzonderlijke leden van de groep.
 
-- **Mislukt:** het bericht is niet bezorgd.
+- **Mislukt**: het bericht is niet bezorgd.
 
-- **In quarantaine**geplaatst : het bericht is in quarantaine geplaatst (als spam, bulkmail of phishing). Zie [EOP in quarantaine geplaatst](quarantine-email-messages.md)voor meer informatie.
+- **Quarantaine**: het bericht is in quarantaine geplaatst (als spam, bulkmail of phishing). Zie voor meer informatie [Gequarantinee e-mailberichten in EOP](quarantine-email-messages.md).
 
-- **Gefilterd als spam**: Het bericht is geïdentificeerd spam, en werd afgewezen of geblokkeerd (niet in quarantaine geplaatst).
+- **Gefilterd als spam**: het bericht heeft spam genoemd, en is geweigerd of geblokkeerd (niet quarantaine).
 
-- **Status krijgen:** Het bericht is onlangs ontvangen door Microsoft 365, maar er zijn nog geen andere statusgegevens beschikbaar. Kom over een paar minuten terug.
+- **Status verkrijgen:** Het bericht is onlangs ontvangen door Microsoft 365, maar er zijn nog geen statusgegevens beschikbaar. Kom over enkele minuten terug.
 
-**Opmerking:** de waarden **in behandeling,** **in quarantaine geplaatst**en Filter als **spam** zijn alleen beschikbaar voor zoekopdrachten van minder dan 10 dagen. Ook kan er een vertraging van 5 tot 10 minuten tussen de werkelijke en gerapporteerde levering status.
+**Opmerking**: de waarden **die in behandeling** **zijn**, worden weergegeven en **als spam filteren** , zijn alleen beschikbaar voor zoekopdrachten van minder dan 10 dagen. Er kan ook een 5 tot 10 minuut vertraging zijn tussen de werkelijke en gemelde afleverings status.
 
 #### <a name="message-id"></a>Bericht-id
 
-Dit is de internetbericht-id (ook wel client-id genoemd) die wordt gevonden in het **veld Message-ID:** koptekst in de berichtkop. Gebruikers kunnen u deze waarde geven om specifieke berichten te onderzoeken.
+Dit is de internetbericht-ID (ook wel bekend als de client-ID) die wordt gevonden in het veld **bericht-id:** koptekst in de kop van het bericht. Gebruikers kunnen u deze waarde geven om specifieke berichten te onderzoeken.
 
-Deze waarde is constant voor de levensduur van het bericht. Voor berichten die zijn gemaakt in Microsoft 365 of Exchange, is de waarde in de indeling `<GUID@ServerFQDN>` , inclusief de hoekhaakjes ( \< \> ). Bijvoorbeeld `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`. Andere berichtensystemen kunnen verschillende syntaxis of waarden gebruiken. Deze waarde wordt verondersteld uniek te zijn, maar niet alle e-mailsystemen volgen strikt deze eis. Als het **bericht-ID:** koptekstveld niet bestaat of leeg is voor binnenkomende berichten uit externe bronnen, wordt een willekeurige waarde toegewezen.
+Deze waarde is constant voor de levenscyclus van het bericht. Voor berichten die zijn gemaakt in Microsoft 365 of Exchange, heeft de waarde de notatie `<GUID@ServerFQDN>` , inclusief de punthaken ( \< \> ). Bijvoorbeeld `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`. Voor andere berichtensystemen kunnen verschillende syntaxis waarden worden gebruikt. Deze waarde moet uniek zijn, maar niet op alle e-mail systemen voldoet aan deze vereiste. Als het veld **bericht-id:** geen koptekst bevat of leeg is voor inkomende berichten van externe bronnen, wordt een willekeurige waarde toegewezen.
 
-Wanneer u **Bericht-id** gebruikt om de resultaten te filteren, moet u de volledige tekenreeks opnemen, inclusief eventuele hoekbeugels.
+Wanneer u de **bericht-id** gebruikt om de resultaten te filteren, moet u ervoor zorgen dat u de volledige tekenreeks opneemt, ook geen punthaken.
 
 #### <a name="direction"></a>Richting
 
-U de standaardwaarde **helemaal** geselecteerd laten of u **Binnenkomende** berichten selecteren die naar geadresseerden in uw organisatie zijn verzonden) of **Uitgaande** (berichten die van gebruikers in uw organisatie worden verzonden) om de resultaten te filteren.
+U kunt de standaardwaarde **allemaal** selecteren, of u kunt **inkomende** berichten (berichten verzonden naar geadresseerden in uw organisatie) of **uitgaande** berichten (berichten die zijn verzonden door gebruikers in uw organisatie) selecteren om de resultaten te filteren.
 
-#### <a name="original-client-ip-address"></a>Origineel IP-adres voor client
+#### <a name="original-client-ip-address"></a>Oorspronkelijk IP-adres van client
 
-U de resultaten filer door client IP-adres om gehackte computers die grote hoeveelheden spam of malware te onderzoeken. Hoewel de berichten van meerdere afzenders lijken te komen, is het waarschijnlijk dat dezelfde computer alle berichten genereert.
+U kunt de resultaten van client IP addressiseren om gehacke computers te onderzoeken die grote hoeveelheden spam of malware verzenden. Hoewel het lijkt alsof de berichten afkomstig zijn van meerdere afzenders, is het mogelijk dat dezelfde computer alle berichten genereert.
 
-**Opmerking**: De IP-adresgegevens van de client zijn slechts 10 dagen beschikbaar en zijn alleen beschikbaar in het **uitgebreide overzicht** of **uitgebreide** rapporten (downloadbare CSV-bestanden).
+**Opmerking**: de IP-adresgegevens van de client zijn slechts tien dagen beschikbaar en zijn alleen beschikbaar in de **uitgebreide samenvatting** of **uitgebreide** rapporten (downloadbare CSV-bestanden).
 
 ### <a name="choose-report-type"></a>Rapporttype kiezen
 
 De beschikbare rapporttypen zijn:
 
-- **Overzicht**: Beschikbaar als het tijdsbereik minder dan 10 dagen is en geen extra filteropties vereist. De resultaten zijn vrijwel direct beschikbaar nadat u op Zoeken hebt **geklikt.** Het rapport retourneert tot 20000 resultaten.
+- **Overzicht**: beschikbaar als het tijdsbereik kleiner is dan 10 dagen en geen extra filteropties vereist. De resultaten zijn bijna direct beschikbaar nadat u op **zoeken**hebt geklikt. Het rapport levert tot 20000 resultaten.
 
-- **Uitgebreide samenvatting** of **Uitgebreid**: Deze rapporten zijn alleen beschikbaar als downloadbare CSV-bestanden en vereisen een of meer van de volgende filteropties, ongeacht het tijdsbereik: **Door deze personen**, Voor deze **personen**of **Message ID**. U wildcards gebruiken voor de afzenders of de ontvangers (bijvoorbeeld \* @contoso.com). Het uitgebreide overzichtsrapport retourneert tot 50000 resultaten. Het uitgebreide rapport retourneert maximaal 1000 resultaten.
+- **Uitgebreid overzicht** of **uitgebreid**: deze rapporten zijn alleen beschikbaar als CSV-bestanden die kunnen worden gedownload en u hebt een of meer van de volgende filteropties, ongeacht het tijdsbereik: **door deze personen**, **voor deze personen**of **bericht-id**vereist. U kunt jokertekens gebruiken voor de afzenders of de geadresseerden (bijvoorbeeld \* @contoso. com). Het verbeterde overzichtsrapport levert tot 50000 resultaten. Het uitgebreide rapport levert tot 1000 resultaten.
 
 **Opmerkingen**:
 
-- Uitgebreide overzichts- en uitgebreide rapporten worden opgesteld met behulp van gearchiveerde berichttraceringsgegevens en het kan enkele uren duren voordat uw rapport beschikbaar is om te downloaden. Afhankelijk van het aantal andere beheerders dat rond dezelfde tijd ook rapportaanvragen heeft ingediend, u ook een vertraging opmerken voordat uw aanvraag in de wachtrij wordt verwerkt.
+- Uitgebreide samenvattings-en uitgebreide rapporten worden gemaakt met behulp van gearchiveerde berichten traceringsgegevens, en het kan tot enkele uren duren voordat het rapport kan worden gedownload. Afhankelijk van het aantal andere beheerders heeft ook een vertraging voor het verzenden van een aanvraag ingediend, maar u kunt ook een vertraging doen voordat uw aanvraag in de wachtrij wordt verwerkt.
 
-- Hoewel u een uitgebreide samenvatting of uitgebreid rapport selecteren voor een datum/tijdsbereik, zijn de laatste vier uur gearchiveerde gegevens meestal nog niet beschikbaar voor deze twee typen rapporten.
+- Hoewel u een uitgebreid overzicht of uitgebreid rapport voor datum/tijd-bereik kunt selecteren, zijn meestal de laatste vier uur gearchiveerde gegevens niet beschikbaar voor deze twee typen rapporten.
 
-Wanneer u op **Volgende**klikt, krijgt u een overzichtspagina te zien met de filteropties die u hebt geselecteerd, een unieke (bewerkbare) titel voor het rapport en het e-mailadres dat de melding ontvangt wanneer het bericht wordt voltooid (ook bewerkbaar en moet in een van de geaccepteerde domeinen van uw organisatie staan). Klik **op Rapport voorbereiden** om het berichttracering in te dienen. Op de hoofdpagina **van het bericht tracering** u de status van het rapport zien in de sectie **Downloadbare rapporten.**
+Wanneer u op **volgende**klikt, wordt er een overzichtspagina weergegeven met de filteropties die u hebt geselecteerd, een unieke (bewerkbaar) titel voor het rapport en het e-mailadres dat de melding ontvangt wanneer de bericht tracering wordt voltooid (ook in een van de geaccepteerde domeinen van uw organisatie). Klik op **rapport voorbereiden** voor het verzenden van de bericht tracering. Op de hoofdpagina van **bericht tracering** ziet u de status van het rapport in de sectie **downloadbare rapporten** .
 
-Zie de volgende sectie voor meer informatie over de informatie die wordt geretourneerd in de verschillende rapporttypen.
+Zie de volgende sectie voor meer informatie over de gegevens die worden geretourneerd in de verschillende rapporttypen.
 
-## <a name="message-trace-results"></a>Resultaten van berichttracering
+## <a name="message-trace-results"></a>Resultaten van bericht tracering
 
-De verschillende rapporttypen geven verschillende informatieniveaus weer. De informatie die beschikbaar is in de verschillende rapporten wordt beschreven in de volgende secties.
+De verschillende soorten rapporten retourneren verschillende niveaus met informatie. In de volgende secties vindt u een beschrijving van de informatie die beschikbaar is in de verschillende rapporten.
 
-### <a name="summary-report-output"></a>Samenvatting rapport output
+### <a name="summary-report-output"></a>Uitvoer van overzichtsrapport
 
-Na het uitvoeren van de berichttracering worden de resultaten weergegeven, gesorteerd op aflopende datum/tijd (meest recente eerste).
+Na het uitvoeren van de bericht tracering, worden de resultaten weergegeven, gesorteerd op aflopende datum/tijd (nieuwste eerst).
 
-![Resultaten van het overzichtsrapport voor berichttracering in het Security & Compliance Center](../../media/0664bafe-0b03-477b-b571-0b046ac8c977.png)
+![Resultaten van het overzichtsrapport voor bericht tracering in het Beveiligingscentrum beveiligings &](../../media/0664bafe-0b03-477b-b571-0b046ac8c977.png)
 
-Het samenvattende rapport bevat de volgende informatie:
+Het overzichtsrapport bevat de volgende informatie:
 
-- **Datum**: de datum en het tijdstip waarop het bericht door de service is ontvangen, met behulp van de geconfigureerde UTC-tijdzone.
+- **Datum**: de datum en tijd waarop het bericht is ontvangen door de service, volgens de geconfigureerde UTC-tijdzone.
 
-- **Afzender**: Het e-mailadres van de afzender*alias* @ *(aliasdomein).*
+- **Afzender**: het e-mailadres van de afzender (*alias* @ *domein*).
 
-- **Ontvanger**: Het e-mailadres van de ontvanger of ontvangers. Voor een bericht dat naar meerdere ontvangers wordt verzonden, is er één regel per ontvanger. Als de ontvanger een distributiegroep, dynamische distributiegroep of beveiligingsgroep met e-mail is, is de groep de eerste ontvanger en staat elk lid van de groep op een aparte regel.
+- **Geadresseerde**: het e-mailadres van de ontvanger of geadresseerden. Voor een bericht dat naar meerdere geadresseerden is verzonden, staat er één regel per geadresseerde. Als de ontvanger een distributiegroep, een dynamische distributiegroep of een beveiligingsgroep met e-mail is, is de groep de eerste geadresseerde en moet elk lid van de groep op een afzonderlijke regel worden ingesteld.
 
-- **Onderwerp**: De eerste 256 tekens van het onderwerp van het **bericht:** veld.
+- **Onderwerp**: de eerste 256 tekens van het veld **onderwerp:** van het bericht.
 
-- **Status**: Deze waarden worden beschreven in de sectie [Weergavestatus.](#delivery-status)
+- **Status**: deze waarden worden beschreven in de sectie [bezorgings status](#delivery-status) .
 
-Standaard worden de eerste 250 resultaten geladen en direct beschikbaar. Wanneer u naar beneden scrolt, is er een lichte pauze wanneer de volgende batch van de resultaten worden geladen. In plaats van te scrollen, u op **Alles laden** klikken om alle resultaten tot maximaal 10.000 te laden.
+De eerste 250 resultaten worden standaard geladen en direct verkrijgbaar. Wanneer u omlaag schuift, wordt er een kleine onderbreking met de volgende batch resultaten geladen. In plaats van schuiven, kunt u op **Alles laden** klikken om alle resultaten van maximaal 10.000 te laden.
 
-U op de kolomkoppen klikken om de resultaten te sorteren op de waarden in die kolom in oplopende of aflopende volgorde.
+U kunt op de kolomkoppen klikken om de resultaten te sorteren op de waarden in deze kolom in oplopende of aflopende volgorde.
 
-U op **Resultaten filteren** klikken om de resultaten te filteren op een of meer kolommen.
+U kunt op **resultaten filteren** klikken om de resultaten te filteren op een of meer kolommen.
 
-U de resultaten exporteren nadat u een of meer rijen hebt geselecteerd door op **Exportresultaten** te klikken en vervolgens **Alle resultaten**exporteren, **Geladen resultaten exporteren**of Exporteren **geselecteerd**te selecteren.
+U kunt de resultaten exporteren nadat u een of meer rijen hebt geselecteerd door te klikken op **resultaten exporteren** en vervolgens **alle resultaten exporteren**, **geladen resultaten exporteren**of **exporteren**selecteren.
 
-#### <a name="find-related-records-for-this-message"></a>Gerelateerde records voor dit bericht zoeken
+#### <a name="find-related-records-for-this-message"></a>Gerelateerde records zoeken voor dit bericht
 
-Gerelateerde berichtrecords zijn records die dezelfde bericht-id hebben gedeeld. Vergeet niet dat zelfs een enkel bericht dat tussen twee personen wordt verzonden, meerdere records kan genereren. Het aantal records neemt toe wanneer het bericht wordt beïnvloed door uitbreiding van de distributiegroep, doorsturen, regels voor e-mailstroom (ook wel transportregels genoemd), enz.
+Gerelateerde berichten records zijn records die dezelfde bericht-ID hebben. Vergeet niet dat er slechts één bericht tussen twee personen kan worden gegenereerd. Het aantal records is groter als het bericht van invloed is op de expansie van distributiegroepen, doorstuur berichten, e-mail stroom regels (ook wel een zogenaamde transportregels genoemd), enzovoort.
 
-Nadat u het selectievakje van een rij hebt ingecheckt, u gerelateerde records voor het bericht zoeken door te klikken op de knop **Gerelateerde zoeken** die wordt weergegeven of door meer opties meer **More options** ![ ](../../media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **zoekgerelateerde records voor dit bericht te**selecteren).
+Nadat u het selectievakje van een rij hebt geselecteerd, kunt u verwante records voor het bericht vinden door te klikken op de knop **gerelateerde zoeken** die wordt weergegeven, of door **meer opties** ![ ](../../media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **voor het zoeken naar gerelateerde records zoeken voor dit bericht**te selecteren.
 
-Zie de sectie Bericht-id eerder in dit onderwerp voor meer informatie over de bericht-id.
+Zie voor meer informatie over de bericht-ID de sectie bericht-ID eerder in dit onderwerp.
 
-#### <a name="message-trace-details"></a>Details berichttracering
+#### <a name="message-trace-details"></a>Details van bericht tracering
 
-In de uitvoer van het overzichtsrapport u details over een bericht bekijken met behulp van een van de volgende methoden:
+U kunt in de uitvoer van het overzichtsrapport Details van een bericht weergeven door een van de volgende methoden te gebruiken:
 
-- Schakel de rij in (klik op een willekeurige plaats in de rij, behalve het selectievakje).
+- Selecteer de rij (Klik ergens in de rij, behalve het selectievakje).
 
-- Schakel het selectievakje van de rij in en klik op **Meer opties** ![ Meer ](../../media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **berichtdetails weergeven**.
+- Schakel het selectievakje van de rij in en klik op meer **Opties** ![ Details van het ](../../media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **bericht weergeven**.
 
-   ![Details na dubbelklikken op een rij in het overzichtsberichtberichttraceren resulteert in het Security & Compliance Center](../../media/e50ee7cd-810a-4c06-8b58-e56ffd7028d1.png)
+   ![Details wanneer u dubbelklikt op een rij in de resultaten van de bericht tracering van het overzichtsrapport in het Beveiligingscentrum voor beveiliging &](../../media/e50ee7cd-810a-4c06-8b58-e56ffd7028d1.png)
 
-De details van het berichttracering bevatten de volgende aanvullende informatie die niet in het samenvattende rapport aanwezig is:
+De details van de bericht tracering bevatten de volgende aanvullende informatie die niet aanwezig is in het overzichtsrapport:
 
-- **Berichtgebeurtenissen:** deze sectie bevat classificaties die helpen bij het categoriseren van de acties die de service op berichten uitvoert. **Enkele van de meer interessante gebeurtenissen** die je zou kunnen tegenkomen zijn:
+- **Berichtgebeurtenissen**: deze sectie bevat classificaties waarmee de acties worden gecategoriseerd die de service bij berichten aanneemt. **Enkele van de interessantste gebeurtenissen** die u mogelijk ondervindt, zijn:
 
-  - **Ontvangen**: Het bericht is ontvangen door de service.
+  - **Ontvangen**: het bericht is ontvangen door de service.
 
-  - **Verzenden**: Het bericht is verzonden door de service.
+  - **Verzenden**: het bericht is verzonden door de service.
 
-  - **Mislukken:** het bericht kan niet worden bezorgd.
+  - **Mislukt**: het bericht kan niet worden bezorgd.
 
-  - **Afleveren**: Het bericht is bezorgd bij een brievenbus.
+  - **Delivery**: het bericht is afgeleverd in een postvak.
 
-  - **Uitvouwen**: Het bericht is verzonden naar een distributiegroep die is uitgebreid.
+  - **Expand**: het bericht is verzonden naar een distributiegroep die is uitgevouwen.
 
-  - **Overdracht**: Ontvangers zijn verplaatst naar een gespleten bericht vanwege inhoudsconversie, limieten voor berichtontvangers of agents.
+  - **Overdracht**: geadresseerden zijn verplaatst naar een gesplitst bericht vanwege inhoudsconversie, limieten voor geadresseerden van berichten of agenten.
 
-  - **Uitstellen**: De bezorging van het bericht is uitgesteld en kan later opnieuw worden geprobeerd.
+  - **Defer**: de bezorging van het bericht is uitgesteld en er wordt later mogelijk een nieuwe poging gedaan.
 
-  - **Opgelost**: het bericht is doorgestuurd naar een nieuw adres van de ontvanger op basis van een Active Directory-opzoek. Wanneer dit gebeurt, wordt het oorspronkelijke adres van de ontvanger weergegeven in een aparte rij in het berichtspoor, samen met de uiteindelijke leveringsstatus voor het bericht.
+  - **Opgelost**: het bericht wordt doorgestuurd naar een nieuw adres voor de ontvanger op basis van een zoekactie in Active Directory. Wanneer dit wordt weergegeven, wordt het oorspronkelijke adres van de ontvanger in een aparte rij in de bericht tracering weergegeven, samen met de laatste bezorgingsstatus van het bericht.
 
   Opmerkingen:
 
-  - Een saai bericht dat met succes wordt afgeleverd, genereert meerdere **gebeurtenisvermeldingen** in het berichttracering.
+  - Als een bericht wordt weergegeven dat met succesvol is afgeleverd, worden er meerdere **gebeurtenissen** in de bericht tracering gegenereerd.
 
-  - Deze lijst is niet bedoeld om volledig te zijn. Zie [Gebeurtenistypen in het logboek voor het bijhouden](https://docs.microsoft.com/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log)van berichten voor beschrijvingen van meer gebeurtenissen. Houd er rekening mee dat deze koppeling een Exchange Server -onderwerp (on-premises Exchange) is.
+  - Deze lijst is niet volledig bedoeld. Zie [gebeurtenistypen in het logboek voor het bijhouden van berichten](https://docs.microsoft.com/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log)voor beschrijvingen van meer gebeurtenissen. Let op: deze koppeling is een Exchange-Server (on-premises Exchange) onderwerp.
 
-- **Meer informatie**: Deze sectie bevat de volgende details:
+- **Meer informatie**: deze sectie bevat de volgende informatie:
 
-  - **Bericht-id:** deze waarde wordt eerder in dit onderwerp beschreven in de sectie [Bericht-id.](#message-id) Bijvoorbeeld `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`.
+  - **Bericht-id**: deze waarde wordt beschreven in de sectie [bericht-id](#message-id) , eerder in dit onderwerp. Bijvoorbeeld `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`.
 
   - **Berichtgrootte**
 
-  - **Vanaf IP:** Het IP-adres van de computer die het bericht heeft verzonden. Voor uitgaande berichten die vanuit Exchange Online worden verzonden, is deze waarde leeg.
+  - **Van IP**: het IP-adres van de computer die het bericht heeft verzonden. Voor uitgaande berichten verzonden via Exchange Online is deze waarde leeg.
 
-  - **Naar IP:** Het IP-adres of adressen waar de service probeerde het bericht af te leveren. Als het bericht meerdere ontvangers heeft, worden deze weergegeven. Voor binnenkomende berichten die naar Exchange Online worden verzonden, is deze waarde leeg.
+  - **Naar IP**: het IP-adres of de adressen waarop de service heeft geprobeerd het bericht te bezorgen. Als het bericht meerdere geadresseerden heeft, worden deze weergegeven. Voor inkomende berichten die naar Exchange Online worden verzonden, is deze waarde leeg.
 
-### <a name="enhanced-summary-reports"></a>Uitgebreide overzichtsrapporten
+### <a name="enhanced-summary-reports"></a>Verbeterde overzichtsrapporten
 
-Beschikbare (voltooide) uitgebreide overzichtsrapporten zijn beschikbaar in de sectie **Downloadbare rapporten** bij het beginberichttracering. De volgende informatie is beschikbaar in het rapport:
+In het gedeelte **downloadbare rapporten** kunnen beschikbare (voltooide) verbeterde overzichtsrapporten worden weergegeven wanneer u begint met het traceren van berichten. De volgende informatie is beschikbaar in het rapport:
 
-- **origin_timestamp** <sup>*</sup> : De datum en tijd waarop het bericht in eerste instantie door de service is ontvangen, met behulp van de geconfigureerde UTC-tijdzone.
+- **origin_timestamp** <sup>*</sup> : de datum en tijd waarop het bericht oorspronkelijk is ontvangen door de service, volgens de geconfigureerde UTC-tijdzone.
 
-- **sender_address**: Het e-mailadres van de afzender*alias* @ *(aliasdomein).*
+- **sender_address**: het e-mailadres van de afzender (*alias* @ *domein*).
 
-- **Recipient_status**: De status van de levering van het bericht aan de ontvanger. Als het bericht naar meerdere ontvangers is verzonden, worden alle geadresseerden en de bijbehorende status voor elk bericht weergegeven in de indeling: \<*email address*\> ## \<*status*\> . Bijvoorbeeld:
+- **Recipient_status**: de status van de bezorging van het bericht aan de geadresseerde. Als het bericht naar meerdere geadresseerden is verzonden, worden alle geadresseerden en de bijbehorende status weergegeven in de indeling: \<*email address*\> ## \<*status*\> . Bijvoorbeeld:
 
-  - **##Receive, Verzenden** betekent dat het bericht is ontvangen door de service en naar de beoogde bestemming is verzonden.
+  - **# #Receive, verzenden** betekent dat het bericht is ontvangen door de service en naar de bestemming is verzonden.
 
-  - **##Receive, Fail** betekent dat het bericht is ontvangen door de service, maar de levering aan de beoogde bestemming is mislukt.
+  - **# #Receive, mislukt** betekent dat het bericht is ontvangen door de service, maar dat de levering voor de bestemming mislukt.
 
-  - **##Receive, Deliver** means the message is received by the service and was delivered to the recipient's mailbox.
+  - **# #Receive, delivert** dit betekent dat het bericht is ontvangen door de service en is bezorgd in het postvak van de geadresseerde.
 
-- **message_subject**: De eerste 256 tekens van het veld **Onderwerp** van het bericht.
+- **message_subject**: de eerste 256 tekens van het veld **onderwerp** van het bericht.
 
-- **total_bytes:** de grootte van het bericht in bytes, inclusief bijlagen.
+- **total_bytes**: de grootte van het bericht in bytes, inclusief bijlagen.
 
-- **message_id**: Deze waarde wordt eerder in dit onderwerp beschreven in de sectie [Bericht-id.](#message-id) Bijvoorbeeld `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`.
+- **message_id**: deze waarde wordt beschreven in de sectie [bericht-id](#message-id) , eerder in dit onderwerp. Bijvoorbeeld `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`.
 
-- **network_message_id:** een unieke bericht-ID-waarde die blijft bestaan in alle kopieën van het bericht die mogelijk worden gemaakt als gevolg van uitbreiding van de splitsing of distributiegroep. Een voorbeeldwaarde is `1341ac7b13fb42ab4d4408cf7f55890f` .
+- **network_message_id**: een unieke id voor de bericht-id die wordt doorgevoerd in alle kopieën van het bericht dat kan worden gemaakt vanwege bifurcation of distributiegroepen. Een voorbeeld van een waarde is `1341ac7b13fb42ab4d4408cf7f55890f` .
 
-- **original_client_ip**: Het IP-adres van de klant van de afzender.
+- **original_client_ip**: het IP-adres van de client van de afzender.
 
-- **directionaliteit**: geeft aan of het bericht binnenkomend (1) naar uw organisatie is verzonden of dat het uitgaande (2) vanuit uw organisatie is verzonden.
+- **richting**: Hiermee wordt aangegeven of het bericht inkomende (1) naar uw organisatie is verzonden of uitgaande (2) uit uw organisatie is verzonden.
 
-- **connector_id**: de naam van de bron- of bestemmingsconnector. Zie [E-mailstroom configureren met connectoren in Office 365 voor](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)meer informatie over connectoren in Exchange Online.
+- **connector_id**: de naam van de bron-of doel verbindingslijn. Zie voor meer informatie over connectors in Exchange Online de [e-mail stroom configureren met connectors in Office 365](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
-- **delivery_priority** <sup>*</sup> : Of het bericht nu is verzonden met **hoge,** **lage**of **normale** prioriteit.
+- **delivery_priority** <sup>*</sup> : of het bericht is verzonden met de prioriteit **hoog**, **laag**of **normaal** .
 
 <sup>*</sup>Deze eigenschappen zijn alleen beschikbaar in uitgebreide overzichtsrapporten.
 
 ### <a name="extended-reports"></a>Uitgebreide rapporten
 
-Beschikbare (voltooide) uitgebreide rapporten zijn beschikbaar in de sectie **Downloadbare rapporten** aan het begin van berichttracering. Vrijwel alle informatie uit een uitgebreid samenvattend rapport is beschikbaar in een uitgebreid rapport (met uitzondering van **origin_timestamp** en **delivery_priority).** De volgende aanvullende informatie is alleen beschikbaar in een uitgebreid rapport:
+Beschikbare (voltooide) uitgebreide rapporten zijn beschikbaar in de sectie **downloadbare rapporten** , aan het begin van de bericht tracering. Vrijwel alle informatie in een uitgebreid overzichtsrapport is beschikbaar in een uitgebreid rapport (met uitzondering van **origin_timestamp** en **delivery_priority**). De volgende aanvullende informatie is alleen beschikbaar in een uitgebreid rapport:
 
-- **client_ip**: het IP-adres van de e-mailserver of berichtenclient die het bericht heeft verzonden.
+- **client_ip**: het IP-adres van de e-mailserver of Messaging-client die het bericht heeft ingediend.
 
-- **client_hostname**: de hostnaam of FQDN van de e-mailserver of berichtenclient die het bericht heeft verzonden.
+- **client_hostname**: de hostnaam of de FQDN-naam van de e-mailserver of de Messaging-client die het bericht heeft ingediend.
 
-- **server_ip**: Het IP-adres van de bron- of doelserver.
+- **server_IP**: het IP-adres van de bron-of doelserver.
 
-- **server_hostname**: De hostnaam of FQDN van de doelserver.
+- **server_hostname**: de HOSTNAAM of FQDN-naam van de doelserver.
 
-- **source_context**: Extra informatie in verband met het **bronveld.** Bijvoorbeeld:
+- **source_context**: extra informatie die is gekoppeld aan het **bron** veld. Bijvoorbeeld:
 
   - `Protocol Filter Agent`
 
   - `3489061114359050000`
 
-- **bron**: De Exchange Online-component die verantwoordelijk is voor de gebeurtenis. Bijvoorbeeld:
+- **bron**: het onderdeel Exchange Online dat verantwoordelijk is voor de gebeurtenis. Bijvoorbeeld:
 
   - `AGENT`
 
@@ -284,111 +287,120 @@ Beschikbare (voltooide) uitgebreide rapporten zijn beschikbaar in de sectie **Do
 
   - `SMTP`
 
-- **event_id:** deze komen overeen met de **gebeurteniswaarden van het bericht** die worden uitgelegd in de sectie [Gerelateerde records zoeken voor dit bericht.](#find-related-records-for-this-message)
+- **event_id**: deze corresponderen met de waarden van de **bericht gebeurtenis** die worden beschreven in de sectie [gerelateerde records zoeken voor dit bericht](#find-related-records-for-this-message) .
 
-- **internal_message_id:** een bericht-id die is toegewezen door de Exchange Online-server die het bericht momenteel verwerkt.
+- **internal_message_id**: een bericht-id die is toegewezen door de Exchange Online-server die het bericht momenteel verwerkt.
 
-- **recipient_address**: De e-mailadressen van de ontvangers van het bericht. Meerdere e-mailadressen worden gescheiden door het puntkommateken (;).
+- **recipient_address**: de e-mailadressen van de geadresseerden van het bericht. Meerdere e-mailadressen worden gescheiden door puntkomma's (;).
 
-- **recipient_count**: het totale aantal ontvangers in het bericht.
+- **recipient_count**: het totale aantal geadresseerden in het bericht.
 
-- **related_recipient_address**: Gebruikt met `EXPAND` en gebeurtenissen om andere `REDIRECT` `RESOLVE` e-mailadressen van de geadresseerden weer te geven die aan het bericht zijn gekoppeld.
+- **related_recipient_address**: gebruikt met `EXPAND` , `REDIRECT` en `RESOLVE` gebeurtenissen om andere e-mailadressen van de geadresseerde weer te geven die aan het bericht zijn gekoppeld.
 
-- **referentie**: Dit veld bevat aanvullende informatie voor specifieke soorten gebeurtenissen. Bijvoorbeeld:
+- **naslag**: dit veld bevat aanvullende informatie over specifieke typen gebeurtenissen. Bijvoorbeeld:
 
-  - **DSN**: bevat de rapportkoppeling, de **message_id** waarde van de bijbehorende melding van de leveringsstatus (ook bekend als een DSN-, niet-leveringsrapport, NDR of bouncebericht) als er een DSN wordt gegenereerd na deze gebeurtenis. Als dit een DSN-bericht is, bevat dit veld de **message_id** waarde van het oorspronkelijke bericht waarvoor het DSN is gegenereerd.
+  - **DSN**: bevat de koppeling van het rapport, dit is de **message_id** waarde van de bijbehorende melding voor de afleverings status (ook wel bekend als DSN, bericht over niet-uitgevoerde bezorging, NDR of stuiteren) als er een DSN wordt gegenereerd voor deze gebeurtenis. Als dit een DSN-bericht is, bevat dit veld de **message_id** waarde van het oorspronkelijke bericht waarvoor de DSN is gegenereerd.
 
-  - **UITVOUWEN**: Bevat de **related_recipient_address** waarde van de gerelateerde berichten.
+  - **Expand**: bevat de **related_recipient_address** waarde van de gerelateerde berichten.
 
-  - **ONTVANGEN**: Kan de **message_id** waarde van het gerelateerde bericht bevatten als het bericht is gegenereerd door andere processen (bijvoorbeeld regels voor Postvak IN).
+  - **Receive**: kan de **message_id** waarde van het bijbehorende bericht bevatten als het bericht is gegenereerd door andere processen (bijvoorbeeld regels voor Postvak in).
 
-  - **VERZENDEN**: Bevat de **internal_message_id** waarde van DSN-berichten.
+  - **Verzenden**: bevat de **internal_message_id** waarde van eventuele DSN-berichten.
 
-  - **OVERDRACHT**: bevat de **internal_message_id** waarde van het bericht dat wordt gevorkt (bijvoorbeeld door inhoudsconversie, limieten voor berichtontvangers of agents).
+  - **Transfer**: bevat de **internal_message_id** waarde van het bericht dat wordt gevorkeerd (bijvoorbeeld via inhoudsconversie, limieten voor geadresseerden van berichten of agenten).
 
-  - **MAILBOXRULE**: bevat de **internal_message_id** waarde van het binnenkomende bericht waardoor de regel Postvak IN het uitgaande bericht heeft gegenereerd.
+  - **MAILBOXRULE**: bevat de **internal_message_id** waarde van het inkomende bericht waarmee de regel voor Postvak in het uitgaande bericht heeft gegenereerd.
 
-    Voor andere soorten gebeurtenissen is dit veld meestal leeg.
+    Voor andere typen gebeurtenissen is dit veld meestal leeg.
 
-- **return_path**: het e-mailadres voor retouren dat is opgegeven door de opdracht **MAIL FROM** waarmee het bericht is verzonden. Hoewel dit veld nooit leeg is, kan de waarde van het adres null-afzender worden weergegeven als `<>` .
+- **return_path**: het retour-e-mailadres dat is opgegeven met de opdracht **mail from en** die het bericht heeft verzonden. Hoewel dit veld nooit leeg is, kan de waarde van het adres voor de null-afzender worden weergegeven `<>` .
 
-- **message_info**: Aanvullende informatie over het bericht. Bijvoorbeeld:
+- **message_info**: aanvullende informatie over het bericht. Bijvoorbeeld:
 
-  - De bericht origination datum-tijd in UTC voor `DELIVER` en `SEND` gebeurtenissen. De datum van oorsprong is het tijdstip waarop het bericht voor het eerst de Exchange Online-organisatie is binnengekomen. De UTC-datumtijd wordt weergegeven in de datumtijdnotatie ISO 8601: `yyyy-mm-ddThh:mm:ss.fffZ` , waarbij `yyyy` = jaar, = `mm` `dd` maand, = dag, `T` het begin van de tijdcomponent aangeeft, `hh` = uur, = `mm` minuut, = `ss` tweede, = fracties van een `fff` seconde, en betekent , wat een `Z` andere manier is om `Zulu` UTC aan te duiden.
+  - De datum en tijd van het bericht voor de oorsprong van de gebeurtenissen in UTC voor `DELIVER` en `SEND` gebeurtenissen. De datum en tijd van de origine is de tijd waarop het bericht de Exchange Online-organisatie voor het eerst heeft ingevoerd. De UTC-datum en-tijd worden weergegeven in de ISO 8601-notatie voor datum-/tijdnotatie: `yyyy-mm-ddThh:mm:ss.fffZ` , waarbij `yyyy` = jaar, `mm` = maand, `dd` = dag, `T` de waarde van het begin van de tijdcomponent, = `hh` Hour, `mm` = minuut, `ss` = seconde, `fff` = fracties van een seconde en `Z` `Zulu` een andere manier om UTC aan te duiden.
 
-  - Verificatiefouten. U ziet bijvoorbeeld de waarde `11a` en het type verificatie dat is gebruikt toen de verificatiefout zich voordeed.
+  - Verificatiefouten. U kunt bijvoorbeeld de waarde `11a` en het type verificatie zien dat is gebruikt toen de verificatiefout optrad.
 
-- **tenant_id**: een GUID-waarde die de Exchange Online-organisatie vertegenwoordigt `39238e87-b5ab-4ef6-a559-af54c6b07b42` (bijvoorbeeld).
+- **tenant_id**: een GUID-waarde die staat voor de Exchange Online-organisatie (bijvoorbeeld `39238e87-b5ab-4ef6-a559-af54c6b07b42` ).
 
-- **original_server_ip**: Het IP-adres van de oorspronkelijke server.
+- **original_server_ip**: het IP-adres van de oorspronkelijke server.
 
-- **custom_data**: Bevat gegevens met betrekking tot specifieke gebeurtenistypen. Zie de volgende secties voor meer informatie.
+- **custom_data**: bevat gegevens met betrekking tot specifieke gebeurtenistypen. Zie de volgende secties voor meer informatie.
 
-#### <a name="custom_data-values"></a>custom_data waarden
+#### <a name="custom_data-values"></a>waarden custom_data
 
-Het **custom_data** veld voor een `AGENTINFO` gebeurtenis wordt door verschillende Exchange Online-agents gebruikt om gegevens over de verwerking van berichten te registreren. Enkele van de meer interessante agenten worden beschreven in de volgende secties.
+Het **custom_data** veld voor een `AGENTINFO` gebeurtenis wordt gebruikt door diverse Exchange Online-agenten om gegevens in te voeren voor het verwerken van berichten. De volgende secties bevatten een beschrijving van de meest interessante medewerkers.
 
-#### <a name="spam-filter-agent"></a>Spamfilteragent
+#### <a name="spam-filter-agent"></a>Spam filter agent
 
-Een **custom_data** waarde die begint met `S:SFA` is van de spam filter agent. De belangrijkste details worden beschreven in de volgende tabel:
+Een **custom_data** waarde waarmee begint met `S:SFA` van de spamfilter agent. De belangrijkste gegevens worden beschreven in de volgende tabel:
 
-|**Value**|**Beschrijving**|
-|:-----|:-----|
-|`SFV=NSPM`|Het bericht is gemarkeerd als niet-spam en is verzonden naar de beoogde ontvangers.|
-|`SFV=SPM`|Het bericht is gemarkeerd als spam door antispamfiltering (ook wel contentfiltering genoemd).|
-|`SFV=BLK`|Filtering is overgeslagen en het bericht is geblokkeerd omdat het afkomstig is van een geblokkeerde afzender.|
-|`SFV=SKS`|Het bericht is gemarkeerd als spam voordat het werd verwerkt door antispamfiltering. Dit omvat berichten waarin het bericht overeenkomt met een e-mailstroomregel (ook wel een transportregel genoemd) om het automatisch als spam te markeren en alle extra filtering te omzeilen.|
-|`SCL=<number>`|Zie [Spamvertrouwensniveaus](spam-confidence-levels.md)voor meer informatie over de verschillende SCL-waarden en wat ze betekenen.|
-|`PCL=<number>`|De pcl-waarde (Phishing Confidence Level) van het bericht. Deze kunnen op dezelfde manier worden geïnterpreteerd als de SCL-waarden die zijn gedocumenteerd in [het vertrouwensniveau van spam.](spam-confidence-levels.md)|
+****
+
+|Value|Beschrijving|
+|---|---|
+|`SFV=NSPM`|Het bericht is gemarkeerd als niet-spam en is verzonden naar de geadresseerden.|
+|`SFV=SPM`|Het bericht is gemarkeerd als spam door antispam filteren (ook wel het filteren van inhoud genoemd).|
+|`SFV=BLK`|Filteren is overgeslagen en het bericht is geblokkeerd, omdat het afkomstig is van een geblokkeerde afzender.|
+|`SFV=SKS`|Het bericht is gemarkeerd als spam voordat ze werden verwerkt door antispam filters. Dit omvat berichten die het bericht heeft vergeleken met een e-mail stroom regel (ook wel een transportregel genoemd) om deze automatisch als spam te markeren en alle extra filters over te slaan.|
+|`SCL=<number>`|Voor meer informatie over de verschillende SCL-waarden en wat ze betekenen, raadpleegt u [spam niveaus](spam-confidence-levels.md).|
+|`PCL=<number>`|De waarde van het PCL-betrouwbaarheidsniveau van het bericht. Dit kan op dezelfde manier worden geïnterpreteerd als de waarden van SCL die worden beschreven in de [betrouwbaarheid van spam niveaus](spam-confidence-levels.md).|
 |`DI=SB`|De afzender van het bericht is geblokkeerd.|
 |`DI=SQ`|Het bericht is in quarantaine geplaatst.|
 |`DI=SD`|Het bericht is verwijderd.|
-|`DI=SJ`|Het bericht is verzonden naar de map Ongewenste e-mail van de ontvanger.|
-|`DI=SN`|Het bericht is doorgestuurd via de normale uitgaande bezorgpool.|
-|`DI=SO`|Het bericht is doorgestuurd via de pool met een hoger risico. Zie [Een hoog risicobezorggroep voor uitgaande berichten voor](high-risk-delivery-pool-for-outbound-messages.md)meer informatie.|
-|`SFS=[a]|SFS=[b]`|Dit geeft aan dat spamregels zijn afgestemd.|
-|`IPV=CAL`|Het bericht is toegestaan via de spamfilters omdat het IP-adres is opgegeven in een IP Allow-lijst in het verbindingsfilter.|
+|`DI=SJ`|Het bericht is verzonden naar de map Ongewenste E-mail van de geadresseerde.|
+|`DI=SN`|Het bericht is gerouteerd via de normale uitgaande bezorgings groep.|
+|`DI=SO`|Het bericht is gerouteerd via de meer bezorgings pool voor risico risico. Zie voor meer informatie de [groep hoog risico voor uitgaande berichten](high-risk-delivery-pool-for-outbound-messages.md).|
+|`SFS=[a]|SFS=[b]`|Dit betekent dat de spam regels overeenkomen.|
+|`IPV=CAL`|Het bericht is toegestaan door de spamfilters, omdat het IP-adres is opgegeven in een lijst met toegestane IP-adressen in het verbindings filter.|
 |`H=<EHLOstring>`|De HELO- of EHLO-tekenreeks van de verbindende e-mailserver.|
 |`PTR=<ReverseDNS>`|De PTR-record van het verzendende IP-adres, ook wel het omgekeerde DNS-adres genoemd.|
+|
 
-Een voorbeeld **custom_data** waarde voor een bericht dat is gefilterd voor spam als dit:
+Een voorbeeld **custom_data** waarde voor een bericht dat is gefilterd op spam als volgt:
 
 `S:SFA=SUM|SFV=SPM|IPV=CAL|SRV=BULK|SFS=470454002|SFS=349001|SCL=9|SCORE=-1|LIST=0|DI=SN|RD=ftmail.inc.com|H=ftmail.inc.com|CIP=98.129.140.74|SFP=1501|ASF=1|CTRY=US|CLTCTRY=|LANG=en|LAT=287|LAT=260|LAT=18;`
 
-#### <a name="malware-filter-agent"></a>Malwarefilteragent
+#### <a name="malware-filter-agent"></a>Filter agent voor schadelijke software
 
-Een **custom_data** waarde die begint met `S:AMA` is van de malware filter agent. De belangrijkste details worden beschreven in de volgende tabel:
+Een **custom_data** waarde waarmee begint met `S:AMA` van de malware-filter agent. De belangrijkste gegevens worden beschreven in de volgende tabel:
 
-|**Value**|**Beschrijving**|
-|:-----|:-----|
-|`AMA=SUM|v=1|`Of`AMA=EV|v=1`|Het bericht was vastbesloten om malware te bevatten. `SUM`geeft aan dat de malware kan zijn gedetecteerd door een aantal motoren. `EV`geeft aan dat de malware werd gedetecteerd door een specifieke engine. Wanneer malware wordt gedetecteerd door een engine dit activeert de volgende acties.|
+****
+
+|Value|Beschrijving|
+|---|---|
+|`AMA=SUM|v=1|`wel`AMA=EV|v=1`|Het bericht is gevonden voor het opnemen van malware. `SUM`Hiermee wordt aangegeven dat de malware is gedetecteerd door een aantal motoren. `EV`Hiermee wordt aangegeven dat de malware is gedetecteerd door een bepaalde engine. Wanneer malware wordt gedetecteerd door een engine, worden de volgende acties geactiveerd.|
 |`Action=r`|Het bericht is vervangen.|
-|`Action=p`|Het bericht is omzeild.|
+|`Action=p`|Het bericht is overgeslagen.|
 |`Action=d`|Het bericht is uitgesteld.|
 |`Action=s`|Het bericht is verwijderd.|
-|`Action=st`|Het bericht is omzeild.|
-|`Action=sy`|Het bericht is omzeild.|
-|`Action=ni`|Het bericht is afgewezen.|
-|`Action=ne`|Het bericht is afgewezen.|
+|`Action=st`|Het bericht is overgeslagen.|
+|`Action=sy`|Het bericht is overgeslagen.|
+|`Action=ni`|Het bericht is geweigerd.|
+|`Action=ne`|Het bericht is geweigerd.|
 |`Action=b`|Het bericht is geblokkeerd.|
-|`Name=<malware>`|De naam van de malware die werd gedetecteerd.|
-|`File=<filename>`|De naam van het bestand dat de malware bevatte.|
+|`Name=<malware>`|De naam van de schadelijke software die is gedetecteerd.|
+|`File=<filename>`|De naam van het bestand dat de schadelijke software bevat.|
+|
 
-Een voorbeeld **custom_data** waarde voor een bericht dat malware bevat ziet er als volgt uit:
+Een voorbeeld **custom_data** waarde voor een bericht dat schadelijke software bevat, ziet er als volgt uit:
 
 `S:AMA=SUM|v=1|action=b|error=|atch=1;S:AMA=EV|engine=M|v=1|sig=1.155.974.0|name=DOS/Test_File|file=filename;S:AMA=EV|engine=A|v=1|sig=201707282038|name=Test_File|file=filename`
 
-#### <a name="transport-rule-agent"></a>Transportregel agent
+#### <a name="transport-rule-agent"></a>Transport regel agent
 
-Een **custom_data** waarde die begint met `S:TRA` is van de Transport Rule agent voor e-mail flow regels (ook wel bekend als transportregels). De belangrijkste details worden beschreven in de volgende tabel:
+Een **custom_data** waarde die begint met `S:TRA` , is afkomstig van de transport regel agent voor de regels voor de e-mail stroom (ook wel een transportregel genoemd). De belangrijkste gegevens worden beschreven in de volgende tabel:
 
-|**Value**|**Beschrijving**|
-|:-----|:-----|
-|`ETR|ruleId=<guid>`|De regel-ID die is gekoppeld.|
-|`St=<datetime>`|De datum en tijd in UTC wanneer de regelmatch heeft plaatsgevonden.|
-|`Action=<ActionDefinition>`|De actie die is toegepast. Zie Acties van de [e-mailstroomregel in Exchange Online voor](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)een lijst met beschikbare acties.|
-|`Mode=<Mode>`|De wijze van de regel. Geldige waarden zijn: <br/>* **Afdwingen**: Alle acties op de regel worden afgedwongen. <br/>* **Test met beleidstips:**: Er worden beleidstipacties verzonden, maar andere handhavingsacties worden niet uitgevoerd. <br/>* **Test zonder beleidstips**: Acties worden vermeld in een logboekbestand, maar afzenders worden op geen enkele manier op de hoogte gesteld en er wordt niet op handhavingsacties gereageerd.|
+****
 
-Een voorbeeld **custom_data** waarde voor een bericht dat overeenkomt met de voorwaarden van een e-mailstroomregel ziet er als volgt uit:
+|Value|Beschrijving|
+|---|---|
+|`ETR|ruleId=<guid>`|De regel-ID die overeenkomt.|
+|`St=<datetime>`|De datum en tijd in UTC waarop de regel overeenkomst is opgetreden.|
+|`Action=<ActionDefinition>`|De actie die is toegepast. Zie [acties voor e-mail stroom regels in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)voor een lijst met beschikbare acties.|
+|`Mode=<Mode>`|De modus van de regel. Geldige waarden zijn: <br/>* **Afdwingen**: alle acties op de regel worden afgedwongen. <br/>* **Test met beleids tips:**: alle acties voor beleidsregels worden verzonden, maar andere afdwing acties worden niet uitgevoerd. <br/>* **Test zonder beleids tips**: acties worden weergegeven in een logboekbestand, maar afzenders worden op geen enkele manier op de hoogte gesteld en handhavings acties worden niet uitgevoerd.|
+|
+
+Een voorbeeld **custom_data** waarde voor een bericht die voldoet aan de voorwaarden van een e-mail stroom regel, ziet er als volgt uit:
 
 `S:TRA=ETR|ruleId=19a25eb2-3e43-4896-ad9e-47b6c359779d|st=7/17/2017 12:31:25 AM|action=ApplyHtmlDisclaimer|sev=1|mode=Enforce`

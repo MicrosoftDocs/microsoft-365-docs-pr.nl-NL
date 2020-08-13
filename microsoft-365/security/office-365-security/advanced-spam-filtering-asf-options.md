@@ -1,5 +1,5 @@
 ---
-title: Asf-instellingen in EOP
+title: ASF-instellingen in EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,83 +17,88 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen meer te weten komen over de instellingen voor geavanceerde spamfilters (Asf) die beschikbaar zijn in antispambeleid in Exchange Online Protection (EOP).
-ms.openlocfilehash: 691539b8abd4fcd2e749c71d7fd337b0105d66ae
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+description: Beheerders kunnen informatie lezen over de instellingen voor geavanceerde spam filters (ASF) die beschikbaar zijn in het antispambeleid van Exchange Online Protection (EOP).
+ms.openlocfilehash: b314b8b2a2de72987d9acff688602df0e0947293
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352474"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653339"
 ---
-# <a name="advanced-spam-filter-asf-settings-in-eop"></a>Instellingen voor geavanceerde spamfilters (AsF) in EOP
+# <a name="advanced-spam-filter-asf-settings-in-eop"></a>Geavanceerde instellingen voor spam filter (ASF) in EOP
 
 > [!NOTE]
-> Asf-instellingen die momenteel beschikbaar zijn in antispambeleid worden momenteel afgeschaft. We raden u aan deze instellingen niet te gebruiken in het antispambeleid. De functionaliteit van deze AsF-instellingen wordt opgenomen in andere delen van de filterstapel. Zie [EOP-beleidsinstellingen voor antispam](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)voor meer informatie .
+> ASF-instellingen die momenteel beschikbaar zijn in het antispambeleid worden verouderd. U wordt aangeraden deze instellingen niet te gebruiken in antispambeleid. De functionaliteit van deze ASF-instellingen wordt opgenomen in andere onderdelen van de filterstack. Zie voor meer informatie [EOP antispam beleidsinstellingen](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings).
 
-In Microsoft 365-organisaties met postvakken in Exchange Online- of zelfstandige Exchange Online Protection-organisaties (EOP)-organisaties zonder Exchange Online-postvakken kunnen beheerders met de instellingen voor geavanceerd spamfilter (AdZG) in antispambeleid (ook wel spamfilterbeleid of beleid voor inhoudsfilter genoemd) beheerders toestaan berichten te markeren als spam op basis van specifieke berichteigenschappen. Asf richt zich specifiek op deze eigenschappen omdat ze vaak worden gevonden in spam. Afhankelijk van de eigenschap, asf detecties zal ofwel markeren het bericht als **Spam** of **Hoog vertrouwen spam**.
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder postvakken van Exchange Online worden de ASF-instellingen (Advanced spam filter) in Antispambeleid (ook wel spamfilter beleid of inhouds filterbeleid) toegestaan om beheerders te markeren als spam op basis van specifieke berichteigenschappen. ASF verrichtt specifiek op deze eigenschappen, omdat deze vaak worden gevonden in spam. Afhankelijk van de eigenschap, markeren ASF-detectie berichten als **spam** of spam met een **hoge betrouwbaarheid**.
 
 > [!NOTE]
-> Het inschakelen van een of meer van de AsF-instellingen is een agressieve benadering van spamfiltering. U geen berichten rapporteren die door AsF worden gefilterd als false positives. U berichten identificeren die door AsF zijn gefilterd door: <ul><li>Periodieke spamquarantainemeldingen voor eindgebruikers.</li><li>De aanwezigheid van gefilterde berichten in quarantaine.</li><li>De specifieke `X-CustomSpam:` X-headervelden die worden toegevoegd aan berichten zoals beschreven in dit onderwerp.</li></ul>
+> Het inschakelen van een of meer ASF-instellingen is een agressieve aanpak van spamfilters. U kunt geen berichten rapporteren die met ASF zijn gefilterd als onwaar, positief. U kunt berichten identificeren die door ASF zijn gefilterd door:
+> - Periodieke meldingen van de Quarantine voor eindgebruikers van spam.
+>
+> - De aanwezigheid van gefilterde berichten in quarantaine.
+>
+> - De specifieke `X-CustomSpam:` X-header velden die worden toegevoegd aan berichten, zoals beschreven in dit onderwerp.
 
-In de volgende secties worden de AsF-instellingen en -opties beschreven die beschikbaar zijn in antispambeleid in het Security & Compliance Center en in Exchange Online PowerShell of standalone EOP PowerShell[(New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/new-hostedcontentfilterpolicy) en [Set-HostedContentFilterPolicy).](https://docs.microsoft.com/powershell/module/exchange/set-hostedcontentfilterpolicy) Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
+In de volgende secties worden de ASF-instellingen en-opties beschreven die beschikbaar zijn in Antispambeleid in het beveiligings & compliance Center, en in Exchange Online PowerShell of standalone EOP PowerShell ([New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/new-hostedcontentfilterpolicy) en [set-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/set-hostedcontentfilterpolicy)). Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
 
-## <a name="enable-disable-or-test-asf-settings"></a>Asf-instellingen in- of uitschakelen of testen
+## <a name="enable-disable-or-test-asf-settings"></a>ASF-instellingen in-of uitschakelen of testen
 
-Voor elke Asf-instelling zijn de volgende opties beschikbaar in antispambeleid:
+Voor elke instelling van ASF zijn de volgende opties beschikbaar in Antispambeleid:
 
-- **Op**: AsF voegt de bijbehorende X-header veld aan het bericht, en ofwel markeert het bericht als **Spam** (SCL 5 of 6 voor [Verhoging spam score instellingen)](#increase-spam-score-settings)of Hoog vertrouwen **spam** (SCL 9 voor Mark [als spam-instellingen).](#mark-as-spam-settings)
+- **Aan**: ASF voegt het bijbehorende veld van de X-header toe aan het bericht en markeert het bericht als **spam** (SCL 5 of 6 voor het verhogen van de [instellingen voor spam score](#increase-spam-score-settings)) of **hoge betrouwbaarheid van spam** (SCL 9 voor [markeren als spam instellingen](#mark-as-spam-settings)).
 
-- **Uit:** de AsF-instelling is uitgeschakeld. Dit is de standaardwaarde en we raden u aan deze niet te wijzigen.
+- **Uitgeschakeld**: de instelling ASF is uitgeschakeld. Dit is de standaardwaarde en het is raadzaam deze niet te wijzigen.
 
-- **Test:** AsF voegt het bijbehorende X-header veld toe aan het bericht. Wat er met het bericht gebeurt, wordt bepaald door de waarde **testmodus** *(TestModeAction):*
+- **Test**: ASF voegt het bijbehorende veld met de X-header toe aan het bericht. Wat gebeurt er met het bericht, wordt bepaald door de waarde van de **test modus opties** (*TestModeAction*):
 
-  - **Geen**: Berichtroutering en -levering wordt niet beïnvloed door de AsF-detectie. Het bericht is nog steeds onderhevig aan andere soorten filtering en regels in EOP.
+  - **Geen**: voor de detectie van een bericht wordt de ASF-detectie niet beïnvloed. Het bericht is nog steeds onderworpen aan andere typen filtering en regels in EOP.
 
-  - **Standaard tekst met x-header toevoegen (*AddXHeader*)**: De x-headerwaarde `X-CustomSpam: This message was filtered by the custom spam filter option` wordt aan het bericht toegevoegd. U deze waarde gebruiken in regels voor Postvak IN of e-mailstroomregels (ook wel transportregels genoemd) om de routering en levering van het bericht te beïnvloeden.
+  - **Standaardtekst met de x-header (*AddXHeader*) toevoegen**: de x-headerwaarde `X-CustomSpam: This message was filtered by the custom spam filter option` wordt toegevoegd aan het bericht. U kunt deze waarde gebruiken in regels voor Postvak in of de e-mail stroom regels (ook wel de gebruikte transportregels) om de Routering en bezorging van het bericht te beïnvloeden.
 
-  - **Bcc-bericht verzenden (*BCCMessage*)**: De opgegeven e-mailadressen (de parameterwaarde *TestModeBccToRecipients* in PowerShell) worden toegevoegd aan het bcc-veld van het bericht en het bericht wordt geleverd aan de BCC-ontvangers. In het Security & Compliance Center scheidt u meerdere e-mailadressen per puntkomma (; ). In PowerShell scheidt u meerdere e-mailadressen per komma.
+  - **BCC-bericht verzenden (*BccMessage*)**: de opgegeven e-mailadressen (de *TestModeBccToRecipients* -parameterwaarde in PowerShell) worden toegevoegd aan het veld BCC van het bericht en het bericht wordt bezorgd bij de BCC-geadresseerden. In het beveiligings & nalevings centrum scheidt u meerdere e-mailadressen met een puntkomma (;). In PowerShell scheidt u meerdere e-mailadressen met komma's.
 
   **Opmerkingen**:
 
-  - De testmodus is niet beschikbaar voor de volgende Asf-instellingen:
+  - De test modus is niet beschikbaar voor de volgende ASF-instellingen:
 
-    - **Voorwaardelijke sender ID filtering: hard fail** *(MarkAsSpamFromAddressAuthFail)*
+    - **Filteren van voorwaardelijke Sender-ID: harde fout** (*MarkAsSpamFromAddressAuthFail*)
+    - **Ndr's Backscatter**(*MarkAsSpamNdrBackscatter*)
+    - **SPF-record: vast failed** (*MarkAsSpamSpfRecordHardFail*)
 
-    - **NDR backscatter**(*MarkAsSpamNdrBackscatter*)
+  - De actie op de testmodus wordt toegepast op *alle* ASF-instellingen die zijn ingesteld om te worden **getest**. U kunt verschillende stappen voor de testmodus niet configureren voor verschillende ASF-instellingen.
 
-    - **SPF record: hard fail** *(MarkAsSpamSpfRecordHardFail)*
+## <a name="increase-spam-score-settings"></a>Instellingen voor de spam score verhogen
 
-  - Dezelfde testmodusactie wordt toegepast op *alle* AsF-instellingen die zijn ingesteld op **Testen.** U geen verschillende testmodusacties configureren voor verschillende Asf-instellingen.
+Met de volgende ASF-instellingen wordt het betrouwbaarheidsniveau (SCL) van gevonden berichten ingesteld op 5 of 6, dat overeenkomt met het **spam** filter verdict en de bijbehorende actie in antispambeleid.
 
-## <a name="increase-spam-score-settings"></a>Instellingen voor spamscore verhogen
+****
 
-De volgende AsF-instellingen stellen het spamvertrouwensniveau (SCL) van gedetecteerde berichten in op 5 of 6, wat overeenkomt met **het** spamfiltervonnis en de bijbehorende actie in het antispambeleid.
-
-||||
+|Beleidsinstelling voor anti spam beleid|Beschrijving|Toegevoegde X-koptekst|
 |---|---|---|
-|**Instelling voor antispambeleid**|**Beschrijving**|**X-header toegevoegd**|
-|**Afbeeldingskoppelingen naar externe sites** <br/><br/> *VerhogingScoreWithImageLinks*|Berichten die `<Img>` HTML-tagkoppelingen naar externe sites bevatten (bijvoorbeeld via http) worden gemarkeerd als spam.|`X-CustomSpam: Image links to remote sites`|
-|**URL-omleiding naar andere poort** <br/><br/> *VerhogingScoreWithRedirecttoOtherPort*|Berichten met hyperlinks die worden omgeleid naar andere TCP-poorten dan 80 (HTTP), 8080 (alternatieve HTTP) of 443 (HTTPS) worden gemarkeerd als spam.|`X-CustomSpam: URL redirect to other port`|
-|**Numeriek IP-adres in URL** <br/><br/> *IncreaseScorewithNumericIps*|Berichten die op numerieke basis URL's bevatten (meestal IP-adressen) worden gemarkeerd als spam.|`X-CustomSpam: Numeric IP in URL`|
-|**URL naar .biz of .info websites** <br/><br/> *IncreaseScoreWithBizOrInfoUrls*|Berichten die .biz- of .info-links in de hoofdtekst van het bericht bevatten, worden gemarkeerd als spam.|`X-CustomSpam: URL to .biz or .info websites`|
+|**Afbeeldingskoppelingen naar externe sites** <br/><br/> *IncreaseScoreWithImageLinks*|Berichten met `<Img>` HTML-code koppelingen naar externe sites (bijvoorbeeld http gebruiken) worden als spam gemarkeerd.|`X-CustomSpam: Image links to remote sites`|
+|**URL-omleiding naar andere poort** <br/><br/> *IncreaseScoreWithRedirectToOtherPort*|Bericht met hyperlinks die verwijzen naar andere TCP-poorten dan 80 (HTTP), 8080 (alternatief HTTP) of 443 (HTTPS) als spam worden gemarkeerd.|`X-CustomSpam: URL redirect to other port`|
+|**Het numerieke IP-adres in de URL** <br/><br/> *IncreaseScoreWithNumericIps*|Berichten die numerieke Url's (doorgaans IP-adressen) bevatten, zijn gemarkeerd als spam.|`X-CustomSpam: Numeric IP in URL`|
+|**URL naar. info-of. info-websites** <br/><br/> *IncreaseScoreWithBizOrInfoUrls*|Berichten die de koppelingen. voor-en informatie bevatten in de hoofdtekst van het bericht, zijn gemarkeerd als spam.|`X-CustomSpam: URL to .biz or .info websites`|
 |
 
-## <a name="mark-as-spam-settings"></a>Markeren als spam-instellingen
+## <a name="mark-as-spam-settings"></a>Instellingen voor spam markeren
 
-De volgende AsF-instellingen stellen de SCL van gedetecteerde berichten in op 9, wat overeenkomt met het oordeel van het **spamfilter** met veel vertrouwen en de bijbehorende actie in het antispambeleid.
+Met de volgende ASF-instellingen wordt de SCL met gevonden berichten ingesteld op 9, wat overeenkomt met het filter verdict voor **hoge betrouwbaarheid** en de bijbehorende actie in antispambeleid.
 
-||||
+****
+
+|Beleidsinstelling voor anti spam beleid|Beschrijving|Toegevoegde X-koptekst|
 |---|---|---|
-|**Instelling voor antispambeleid**|**Beschrijving**|**X-header toegevoegd**|
-|**Lege berichten** <br/><br/> *MarkAsSpamEmptyMessages*|Berichten zonder onderwerp, geen inhoud in de berichttekst en geen bijlagen worden gemarkeerd als spam met een hoog vertrouwen.|`X-CustomSpam: Empty Message`|
-|**JavaScript of VBScript in HTML** <br/><br/> *MarkasspamJavaScriptinhtml*|Berichten die JavaScript of Visual Basic Script Edition in HTML gebruiken, worden gemarkeerd als spam met een hoog vertrouwen. <br/><br/> Deze scripttalen worden gebruikt in e-mailberichten om ervoor te zorgen dat specifieke acties automatisch plaatsvinden.|`X-CustomSpam: Javascript or VBscript tags in HTML`|
-|**Frame- of IFrame-tags in HTML** <br><br/> *Markasspamframesinhtml*|Berichten die `<frame>` HTML-tags bevatten of `<iframe>` worden gemarkeerd als spam met een hoog vertrouwen. <br/><br/> Deze tags worden gebruikt in e-mailberichten om de pagina op te maken voor het weergeven van tekst of afbeeldingen.|`X-CustomSpam: IFRAME or FRAME in HTML`|
-|**Objecttags in HTML** <br><br/> *Markasspamobjecttagsinhtml*|Berichten die `<object>` HTML-tags bevatten, worden gemarkeerd als spam met een hoog vertrouwen. <br/><br/> Met deze tag kunnen plug-ins of toepassingen worden uitgevoerd in een HTML-venster.|`X-CustomSpam: Object tag in html`|
-|**Tags insluiten in HTML** <br><br/> *Markasspamembedtagsinhtml*|Berichten met `<embed>` HTML-tags worden gemarkeerd als spam met een hoog vertrouwen. <br/><br/> Met deze tag kunnen verschillende soorten documenten van verschillende gegevenstypen in een HTML-document worden ingesloten (bijvoorbeeld geluiden, films of afbeeldingen).|`X-CustomSpam: Embed tag in html`|
-|**Formuliertags in HTML** <br><br/> *Markasspamformtagsinhtml*|Berichten die `<form>` HTML-tags bevatten, worden gemarkeerd als spam met een hoog vertrouwen. <br/><br/> Deze tag wordt gebruikt om websiteformulieren te maken. E-mailadvertenties bevatten vaak deze tag om informatie van de ontvanger te vragen.|`X-CustomSpam: Form tag in html`|
-|**Webbugs in HTML** <br><br/> *MarkasspamWebbugsinhtml*|Een *webbug* (ook wel *webbeacon genoemd)* is een grafisch element (vaak zo klein als één pixel per pixel) dat wordt gebruikt in e-mailberichten om te bepalen of het bericht is gelezen. <br/><br/> Berichten die webbugs bevatten, worden gemarkeerd als spam met een hoog vertrouwen. <br/><br/> Legitieme nieuwsbrieven kunnen webbugs gebruiken, hoewel velen dit als een inbreuk op de privacy beschouwen. |`X-CustomSpam: Web bug`|
-|**Gevoelige woordenlijst toepassen** <br><br/> *MarkasspamSensitiveWordList*|Microsoft onderhoudt een dynamische, maar niet-bewerkbare lijst met woorden die zijn gekoppeld aan mogelijk aanstootgevende berichten. <br/><br/> Berichten die woorden uit de gevoelige woordenlijst in de onderwerp- of berichttekst bevatten, worden gemarkeerd als spam met een hoog vertrouwen.|`X-CustomSpam: Sensitive word in subject/body`|
-|**SPF-record: harde fail** <br><br/> *MarkasspamSpfRecordHardFail*|Berichten die worden verzonden vanaf een IP-adres dat niet is opgegeven in de SPF Sender Policy Framework (SPF)-record in DNS voor het brone-maildomein, worden gemarkeerd als spam met een hoog vertrouwen. <br/><br/> De testmodus is niet beschikbaar voor deze instelling.|`X-CustomSpam: SPF Record Fail`|
-|**Voorwaardelijke Sender ID-filtering: hard mislukken** <br><br/> *MarkasspamfromAddressAuthFail*|Berichten die hard mislukken bij een voorwaardelijke sender id-controle worden gemarkeerd als spam. <br/><br/> Deze instelling combineert een SPF-controle met een Sender ID-controle om te beschermen tegen berichtkoppen die vervalste afzenders bevatten. <br/><br/> De testmodus is niet beschikbaar voor deze instelling.|`X-CustomSpam: SPF From Record Fail`|
-|**NDR backscatter** <br><br/> *MarkAsSpamNdrBackscatter MarkAsSpamNdrBackscatter*|*Backscatter* is nutteloos niet-levering rapporten (ook bekend als NDR's of bounce berichten) veroorzaakt door vervalste afzenders in e-mailberichten. Zie [Backscatter-berichten en EOP voor](backscatter-messages-and-eop.md)meer informatie. <br/><br/> U hoeft deze instelling niet te configureren in de volgende omgevingen, omdat legitieme NDR's worden geleverd en backscatter is gemarkeerd als spam: <ul><li>Microsoft 365-organisaties met Exchange Online-postvakken.</li><li>On-premises e-mailorganisaties waar u uitgaande e-mail *routevia* EOP.</li></ul><br/> In zelfstandige EOP-omgevingen die binnenkomende e-mail naar on-premises postvakken beschermen, heeft het in- of uitschakelen van deze instelling het volgende resultaat: <ul><li> **Aan:** Legitieme NDR's worden geleverd en backscatter is gemarkeerd als spam.</li><li>**Uit:** Legitieme NDR's en backscatter gaan door normale spam filtering. De meeste legitieme NDr's worden geleverd aan de oorspronkelijke afzender van het bericht. Sommige, maar niet alle, backscatter zijn gemarkeerd als een hoog vertrouwen spam. Per definitie kan backscatter alleen worden geleverd aan de vervalste afzender, niet aan de oorspronkelijke afzender.</li></ul><br/> De testmodus is niet beschikbaar voor deze instelling.|`X-CustomSpam: Backscatter NDR`|
+|**Lege berichten** <br/><br/> *MarkAsSpamEmptyMessages*|Berichten zonder onderwerp, geen inhoud in de berichttekst en geen bijlagen zijn gemarkeerd als spam van hoge betrouwbaarheid.|`X-CustomSpam: Empty Message`|
+|**JavaScript of VBScript in HTML** <br/><br/> *MarkAsSpamJavaScriptInHtml*|Berichten die gebruikmaken van JavaScript of Visual Basic Scripting Edition in HTML, zijn gemarkeerd als spam van hoge betrouwbaarheid. <br/><br/> Deze scripttalen worden in e-mailberichten gebruikt om bepaalde acties automatisch te laten uitvoeren.|`X-CustomSpam: Javascript or VBscript tags in HTML`|
+|**Tags van het kader of IFrame in HTML** <br><br/> *MarkAsSpamFramesInHtml*|Berichten met de `<frame>` `<iframe>` HTML-code worden gemarkeerd als spam van hoge betrouwbaarheid. <br/><br/> Deze tags worden in e-mailberichten gebruikt om de pagina in te delen voor het weergeven van tekst of afbeeldingen.|`X-CustomSpam: IFRAME or FRAME in HTML`|
+|**Object Tags in HTML** <br><br/> *MarkAsSpamObjectTagsInHtml*|Berichten die `<object>` HTML-code bevatten, zijn gemarkeerd als spam van hoge betrouwbaarheid. <br/><br/> Met deze tag kunnen invoegtoepassingen of toepassingen worden uitgevoerd in een HTML-venster.|`X-CustomSpam: Object tag in html`|
+|**Tags insluiten in HTML** <br><br/> *MarkAsSpamEmbedTagsInHtml*|Berichten die `<embed>` HTML-code bevatten, zijn gemarkeerd als spam van hoge betrouwbaarheid. <br/><br/> Met deze tag kunnen verschillende soorten documenten worden ingesloten van verschillende gegevenstypen in een HTML-document, bijvoorbeeld geluiden, films of afbeeldingen.|`X-CustomSpam: Embed tag in html`|
+|**Formulier Tags in HTML** <br><br/> *MarkAsSpamFormTagsInHtml*|Berichten die `<form>` HTML-code bevatten, zijn gemarkeerd als spam van hoge betrouwbaarheid. <br/><br/> Dit label wordt gebruikt om website formulieren te maken. Voor e-mail advertenties wordt dit label vaak opgenomen om informatie van de ontvanger te vragen.|`X-CustomSpam: Form tag in html`|
+|**Web fouten in HTML** <br><br/> *MarkAsSpamWebBugsInHtml*|Een *Web-fout* (ook wel een *webbaken*genoemd) is een grafisch element (vaak slechts één pixel voor één pixel) dat wordt gebruikt in een e-mailbericht om te bepalen of het bericht is gelezen. <br/><br/> Berichten die web-fouten bevatten, zijn gemarkeerd als spam van hoge betrouwbaarheid. <br/><br/> U kunt ook web bugs gebruiken, maar veel van deze Invasion privacy. |`X-CustomSpam: Web bug`|
+|**Gevoelige woordenlijst toepassen** <br><br/> *MarkAsSpamSensitiveWordList*|Microsoft houdt een dynamische maar niet-bewerkbare lijst met woorden die zijn gekoppeld aan mogelijk aanstootgevende berichten. <br/><br/> Berichten met woorden uit de lijst met gevoelige woorden in het onderwerp of de hoofdtekst van het bericht worden gemarkeerd als spam van hoge betrouwbaarheid.|`X-CustomSpam: Sensitive word in subject/body`|
+|**SPF-record: moeilijk mislukt** <br><br/> *MarkAsSpamSpfRecordHardFail*|Berichten die zijn verzonden via een IP-adres dat niet is opgegeven in de SPF Sender Policy Framework-record (SPF Sender Policy Framework) van het bron-e-mail domein, worden gemarkeerd als spam van hoge betrouwbaarheid. <br/><br/> De test modus is niet beschikbaar voor deze instelling.|`X-CustomSpam: SPF Record Fail`|
+|**Filteren van voorwaardelijke Sender-ID: moeilijk mislukt** <br><br/> *MarkAsSpamFromAddressAuthFail*|Berichten die een voorwaardelijke afzender van een voorwaardelijke Sender-ID niet hebben gecontroleerd, worden als spam gemarkeerd. <br/><br/> Met deze instelling wordt een SPF-controle gecombineerd met een afzender-ID-controle om berichten te beschermen tegen berichtkoppen die vervalste afzenders bevatten. <br/><br/> De test modus is niet beschikbaar voor deze instelling.|`X-CustomSpam: SPF From Record Fail`|
+|**NDR'S Backscatter** <br><br/> *MarkAsSpamNdrBackscatter*|*Backscatter* is overbodige rapporten over niet-uitgevoerde bezorging (ook wel ndr's genoemd), veroorzaakt door vervalste afzenders in e-mailberichten. Zie [Backscatter-berichten en EOP](backscatter-messages-and-eop.md)voor meer informatie. <br/><br/> U hoeft deze instelling niet te configureren in de volgende omgevingen omdat er originele Ndr's worden afgeleverd en Backscatter is gemarkeerd als spam: <ul><li>Microsoft 365-organisaties met postvakken van Exchange Online.</li><li>On-premises e-mail organisaties waarbij u *uitgaande* e-mail omrouteeert via EOP.</li></ul><br/> In zelfstandige EOP-omgevingen die de instelling van inkomende e-mail naar on-premises postvakken beschermen, heeft dit het volgende resultaat: <ul><li> **Op**: legitieme ndr's worden afgeleverd en Backscatter is gemarkeerd als spam.</li><li>**Uit**: legitieme ndr's en Backscatter gaan normaal spam filteren. De meest legitieme Ndr's worden afgeleverd bij de oorspronkelijke afzender van het bericht. Een aantal, maar niet alle Backscatter zijn gemarkeerd als spam van hoge betrouwbaarheid. Per definitie kan Backscatter alleen worden afgeleverd bij de vervalste afzender, niet aan de oorspronkelijke afzender.</li></ul><br/> De test modus is niet beschikbaar voor deze instelling.|`X-CustomSpam: Backscatter NDR`|
 |

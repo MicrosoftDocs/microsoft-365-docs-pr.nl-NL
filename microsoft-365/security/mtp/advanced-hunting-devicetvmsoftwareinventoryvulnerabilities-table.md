@@ -1,7 +1,7 @@
 ---
-title: Tabel DeviceTvmSoftwareInventoryVulnerabilities in het geavanceerde jachtschema
-description: Meer informatie over de inventaris van software in uw apparaten en hun kwetsbaarheden in de tabel DeviceTvmSoftwareInventoryVulnerabilities van het geavanceerde jachtschema.
-keywords: geavanceerde jacht, dreigingjacht, cyberdreigingsjacht, bescherming tegen microsoft-dreigingen, microsoft 365, mtp, m365, zoekopdracht, query, telemetrie, schemareferentie, kusto, tabel, kolom, gegevenstype, beschrijving, bedreiging & kwetsbaarheidsbeheer, TVM, apparaatbeheer, software, inventaris, kwetsbaarheden, CVE ID, OS DeviceTvmSoftwareInventoryVulnerabilities
+title: DeviceTvmSoftwareInventoryVulnerabilities-tabel in het geavanceerde jacht schema
+description: Meer informatie over de inventarisatie van de software op uw apparaten en de zwakke plekken in de tabel DeviceTvmSoftwareInventoryVulnerabilities van het schema geavanceerde jacht.
+keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat-jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema Reference, kusto, tabel, Column, datatype, beschrijving, beveiliging & beveiligingslek, TVM, Apparaatbeheer, software, inventarisatie,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,45 +17,45 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 0a7ac5a68bcdb12b3cdcd94cac8012c7807a6e2b
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 70b687a185538b11cf0a8975eebf2a5d8b53ec11
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327946"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648951"
 ---
 # <a name="devicetvmsoftwareinventoryvulnerabilities"></a>DeviceTvmSoftwareInventoryVulnerabilities
 
-**Geldt voor:**
+**Van toepassing op:**
 - Microsoft Threat Protection
 
 
 
-De `DeviceTvmSoftwareInventoryVulnerabilities` tabel in het geavanceerde jachtschema bevat de threat & Vulnerability [Management](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) inventaris van software op uw apparaten en eventuele bekende kwetsbaarheden in deze softwareproducten. Deze tabel bevat ook informatie over het besturingssysteem, CVE-id's en informatie over de ernst van kwetsbaarheden. Gebruik deze verwijzing om query's te construeren die informatie uit de tabel retourneren.
+De `DeviceTvmSoftwareInventoryVulnerabilities` tabel in het geavanceerde jacht-schema bevat de bedreiging voor de & bedreiging van de software voor het [beveiligingsbeheer](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) van de software op uw apparaten en bekende beveiligingsproblemen in deze softwareproducten. Deze tabel bevat ook informatie over het besturingssysteem, CVE-Id's en informatie over het beveiligingsniveau. Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.
 
-Voor informatie over andere tabellen in de geavanceerde jacht schema, zie [de geavanceerde jacht referentie](advanced-hunting-schema-tables.md).
+Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `DeviceId` | Tekenreeks | Unieke id voor de machine in de service |
-| `DeviceName` | Tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van de machine |
-| `OSPlatform` | Tekenreeks | Platform van het besturingssysteem dat op de machine draait. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. |
-| `OSVersion` | Tekenreeks | Versie van het besturingssysteem die op de machine draait |
-| `OSArchitecture` | Tekenreeks | Architectuur van het besturingssysteem dat op de machine draait |
-| `SoftwareVendor` | Tekenreeks | Naam van de softwareleverancier |
-| `SoftwareName` | Tekenreeks | Naam van het softwareproduct |
-| `SoftwareVersion` | Tekenreeks | Versienummer van het softwareproduct |
-| `CveId` | Tekenreeks | Unieke id die is toegewezen aan het beveiligingslek onder het CVE-systeem (Common Vulnerabilities and Exposures) |
-| `VulnerabilitySeverityLevel` | Tekenreeks | Ernstniveau toegewezen aan het beveiligingslek op basis van de CVSS-score en dynamische factoren die worden beïnvloed door het dreigingslandschap |
+| `DeviceId` | tekenreeks | Unieke id voor de computer in de service |
+| `DeviceName` | tekenreeks | FQDN-naam (Fully Qualified Domain Name) van de computer |
+| `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat op de computer wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, met inbegrip van variaties in dezelfde familie, zoals Windows 10 en Windows 7. |
+| `OSVersion` | tekenreeks | Versie van het besturingssysteem dat op de computer wordt uitgevoerd |
+| `OSArchitecture` | tekenreeks | Architectuur van het besturingssysteem dat op de computer wordt uitgevoerd |
+| `SoftwareVendor` | tekenreeks | Naam van de softwareleverancier |
+| `SoftwareName` | tekenreeks | Naam van het SOFTWAREPRODUCT |
+| `SoftwareVersion` | tekenreeks | Versienummer van het SOFTWAREPRODUCT |
+| `CveId` | tekenreeks | Unieke id die is toegewezen aan het beveiligingsprobleem onder het systeem veelvoorkomende problemen en blootstellingen (CVE) |
+| `VulnerabilitySeverityLevel` | tekenreeks | Prioriteitsniveau dat is toegewezen aan het beveiligingsprobleem op basis van de CVSS-Score en dynamische factoren die worden beïnvloed door de bedreigings niveau liggend |
 
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Proactief op zoek naar bedreigingen](advanced-hunting-overview.md)
+- [Proactief zoeken naar bedreigingen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Zoek naar bedreigingen op verschillende apparaten en e-mails](advanced-hunting-query-emails-devices.md)
+- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)
-- [Overzicht van Threat & Vulnerability Management](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
+- [Overzicht van Threat & beveiligingslek](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

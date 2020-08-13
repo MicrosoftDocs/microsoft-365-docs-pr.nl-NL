@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Lees meer over de slimme rapporten en inzichten die beschikbaar zijn in het beveiligings & compliance en hoe u ze kunt gebruiken om gegevens te bekijken en te verkennen en snelle acties uit te voeren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1f38ed081ce73af737b58a38692ac2fa0519972d
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 5d100aca53f3683d477fd15469ae53ecb7a2901b
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577184"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652775"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>Slimme rapporten en inzichten in het beveiligings- en compliancecentrum
 
@@ -40,7 +40,9 @@ Naast het markeren van probleemgebieden, zijn slimme rapporten en inzichten ook 
 ## <a name="types-of-reports-in-the-security--compliance-center"></a>Typen rapporten in het Beveiligingscentrum beveiligings &
 
 U hebt een groot aantal verschillende rapporten beschikbaar in de beveiligings & nalevings centrum. (Ga naar **rapporten** \> **Dashboard** voor een volledige weergave.) In de volgende tabel vindt u de beschikbare rapporten met koppelingen voor meer informatie:
-  
+
+****
+
 |Type gegevens|Hoe kan ik dit vinden?|Waar vind ik meer informatie?|
 |---|---|---|
 |**Beveiligings & rapporten voor nalevings centrum**  <br/> Belangrijkste inzichten en aanbevelingen, en koppelingen naar beveiligings & nalevings rapporten, waaronder rapporten voor preventie van gegevensverlies, etiketten, e-mail beveiligingsrapporten, Advanced Threat Protection-rapporten en meer|Ga in het beveiligings & compliance naar **Reports** \> **Dashboard** rapporten|[Rapporten in het Microsoft 365-Beveiligingscentrum bewaken en weergeven](../mtp/monitoring-and-reporting.md)|
@@ -53,6 +55,7 @@ U hebt een groot aantal verschillende rapporten beschikbaar in de beveiligings &
 |**AVG naleving** <br/> Informatie over de compliance van AVG, waaronder koppelingen naar gegevens onderwerpen, label trends en Active & gesloten zaken|Ga in het beveiligings & compliance naar het **Data privacy** \> **Dashboard** data privacy AVG|[Office 365 Information Protection voor de AVG](https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr)|
 |**Controlelogboek** <br/> Informatie over activiteiten, gebruikers, bestanden en mappen van Microsoft 365 en meer|Ga in het beveiligings & compliance naar **Zoek & onderzoek** \> **audit logboek zoeken**|[Zoeken in het auditlogboek in het beveiligings & nalevings centrum](../../compliance/search-the-audit-log-in-security-and-compliance.md)|
 |**Nalevings rapporten** <br/> FedRAMP-rapporten, beheermiddelen, risico-en compliance rapporten, informatierapporten over ISO-informatie en de service organisatie besturingselementen voor controle-en beoordelingsrapporten|Ga in het beveiligings & nalevings centrum naar **Service assurance** \> **compliance-rapporten** van service Assurance|[Beveiligings & naleving in Office 365](../../compliance/plan-for-security-and-compliance.md)|
+|
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

@@ -1,6 +1,6 @@
 ---
-title: Aangepaste rapportageoplossingen gebruiken met geautomatiseerd onderzoek en respons
-keywords: AIR, autoIR, ATP, geautomatiseerd, onderzoek, respons, sanering, bedreigingen, geavanceerd, bedreiging, bescherming
+title: Aangepaste rapportage oplossingen gebruiken met automatisch onderzoek en antwoord
+keywords: AIR, autoIR, ATP, automatisch, onderzoek, antwoord, herstel, bedreiging, Geavanceerd, bedreiging, bescherming
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -14,29 +14,32 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-description: Meer informatie over het integreren van geautomatiseerd onderzoek en respons met een aangepaste of externe rapportageoplossing.
-ms.openlocfilehash: 4bd53de9a880fc774814588ed84dce2284535922
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Leer hoe u een geautomatiseerd onderzoek en antwoord kunt integreren met een aangepaste oplossing of een rapportage oplossing van derden.
+ms.openlocfilehash: cd7eb016ecd250eef56039e0135237c1caebadf8
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634716"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656895"
 ---
-# <a name="use-the-management-activity-api-for-custom-or-third-party-reporting-solutions"></a>Gebruik de API voor beheeractiviteit voor aangepaste of externe rapportageoplossingen
+# <a name="use-the-management-activity-api-for-custom-or-third-party-reporting-solutions"></a>De API voor beheeractiviteiten gebruiken voor aangepaste oplossingen of oplossingen voor rapportage van derden
 
-Met [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)krijgt u gedetailleerde informatie over [geautomatiseerde onderzoeken.](air-view-investigation-results.md) Sommige organisaties gebruiken echter ook een aangepaste of externe rapportageoplossing. Als uw organisatie informatie over geautomatiseerde onderzoeken met een dergelijke oplossing wil integreren, u de Office 365 Management Activity API gebruiken.
+Met [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)kunt u [gedetailleerde informatie raadplegen over geautomatiseerde onderzoeken](air-view-investigation-results.md). Sommige organisaties gebruiken echter ook een aangepaste oplossing of een rapportage oplossing van derden. Als uw organisatie informatie wil integreren over een geautomatiseerd onderzoek met een dergelijke oplossing, kunt u gebruikmaken van de API Office 365 Management Activity.
 
 Gebruik de volgende bronnen om dit in te stellen:
 
-|Resource  |Beschrijving  |
-|---------|---------|
-|[Overzicht van Office 365 Management API's](https://docs.microsoft.com/office/office-365-management-api/office-365-management-apis-overview)     |De Office 365 Management Activity API bevat informatie over verschillende gebruikers-, beheerders-, systeem- en beleidsacties en -gebeurtenissen uit Microsoft 365- en Azure Active Directory-activiteitslogboeken.         |
-|[Aan de slag met Office 365 Management API's](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)     |De Office 365 Management API maakt gebruik van Azure AD om verificatieservices voor uw toepassing te bieden om toegang te krijgen tot Microsoft 365-gegevens. Volg de stappen in dit artikel om dit in te stellen.          |
-|[Verwijzing naar api-activiteit voor Office 365-beheer](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)     |U de Office 365 Management Activity API gebruiken om informatie over gebruikers-, beheerders-, systeem- en beleidsacties en -gebeurtenissen op te halen uit microsoft 365- en Azure AD-activiteitslogboeken. Lees dit artikel voor meer informatie over hoe dit werkt.        |
-|[Api-schema voor activiteitsbeheer office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema)     |Krijg een overzicht van het [common-schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#common-schema) en het [Office 365 ATP- en bedreigingsonderzoeks- en reactieschema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) voor meer informatie over specifieke soorten gegevens die beschikbaar zijn via de Office 365 Management Activity API.         |
+****
+
+|Materialen|Beschrijving|
+|---|---|
+|[Overzicht van Office 365 Management Api's](https://docs.microsoft.com/office/office-365-management-api/office-365-management-apis-overview)|De Office 365 Management Activity API biedt informatie over diverse acties en gebeurtenissen van gebruikers, beheerders, systemen en beleid uit Microsoft 365 en Azure Active Directory-activiteitenlogboeken.|
+|[Aan de slag met Api's van Office 365 Management](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)|De Office 365-beheer-API maakt gebruik van Azure AD om authenticatie services te bieden voor de toepassing om toegang te krijgen tot gegevens van Microsoft 365. Voer de stappen in dit artikel uit om dit in te stellen.|
+|[Naslag voor Office 365 Management Activity API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)|U kunt de Office 365 Management Activity API gebruiken om informatie op te halen over acties en gebeurtenissen van gebruikers, beheerders, systemen en beleid uit Microsoft 365 en Azure AD-activiteitenlogboeken. Lees dit artikel voor meer informatie over hoe dit werkt.|
+|[Office 365 Management Activity API-schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema)|Bekijk een overzicht van het [gemeenschappelijke schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#common-schema) en het [schema Office 365 ATP-en risico onderzoek en antwoordschema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) voor informatie over specifieke soorten gegevens die beschikbaar zijn via de Office 365 Management Activity API.|
+|
 
 ## <a name="related-articles"></a>Verwante artikelen
 
 - [Office 365 Advanced Threat Protection](office-365-atp.md)
 
-- [Meer informatie over geautomatiseerd onderzoek en reactie in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Meer informatie over het geautomatiseerde onderzoek en antwoord in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

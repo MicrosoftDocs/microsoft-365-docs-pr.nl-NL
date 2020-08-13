@@ -1,5 +1,5 @@
 ---
-title: Office 365 ATP-beleid voor veilige koppelingen instellen
+title: Beleidsregels voor veilige koppelingen in Office 365 instellen
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,142 +16,155 @@ search.appverid:
 ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
-description: Stel beleid voor veilige koppelingen in om uw organisatie te beschermen tegen schadelijke koppelingen in Word-, Excel-, PowerPoint- en Visio-bestanden en in e-mailberichten.
-ms.openlocfilehash: 54b896616cf09c84525b812fed6fb3f35b07bf10
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+description: Stel beleidsregels voor veilige koppelingen in om uw organisatie te beschermen tegen kwaadaardige koppelingen in Word-, Excel-, PowerPoint-en Visio-bestanden, evenals e-mailberichten.
+ms.openlocfilehash: 4aa6947af114856d73c3e048b829daf8f47f0f48
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617216"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652643"
 ---
-# <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP-beleid voor veilige koppelingen instellen
+# <a name="set-up-office-365-atp-safe-links-policies"></a>Beleidsregels voor veilige koppelingen in Office 365 instellen
 
 > [!IMPORTANT]
-> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Zie [Geavanceerde Outlook.com beveiliging](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)als u een thuisgebruiker bent die op zoek is naar informatie over veilige koppelingen.
+> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Als u een thuisgebruiker bent die op zoek bent naar informatie over veilige koppelingen in Outlook, raadpleegt u [geavanceerde Outlook.com-beveiliging](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-[ATP Safe Links](atp-safe-links.md), een functie van [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP), kan uw organisatie beschermen tegen schadelijke links die worden gebruikt bij phishing en andere aanvallen. Als u over de benodigde [machtigingen beschikt voor het Security &amp; Compliance Center,](permissions-in-the-security-and-compliance-center.md)u atp-beleid voor veilige koppelingen instellen om ervoor te zorgen dat wanneer mensen op webadressen (URL's klikken), uw organisatie wordt beschermd. Uw ATP-beleid voor veilige koppelingen kan worden geconfigureerd om URL's in e-mail en URL's in Office-documenten te scannen.
+[Veilige koppelingen voor ATP](atp-safe-links.md), een functie van [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP), kan u helpen uw organisatie te beschermen tegen kwaadaardige koppelingen die worden gebruikt in phishing en andere aanvallen. Als u over de benodigde [machtigingen beschikt voor het nalevings centrum voor de beveiliging &](permissions-in-the-security-and-compliance-center.md), kunt u het beleid voor veilige koppelingen van ATP instellen om ervoor te zorgen dat wanneer mensen op webadressen (url's) klikken, uw organisatie is beveiligd. Uw beleidsregels voor veilige koppelingen voor Office kunnen worden geconfigureerd voor het scannen van Url's in e-mail en Url's in Office-documenten.
 
-Als een gebruiker op een koppeling in een e-mail klikt en de URL is geblokkeerd door de aangepaste geblokkeerde URL-lijst van uw organisatie of als de URL als kwaadaardig is, wordt een waarschuwingspagina geopend.
-  
-[Nieuwe functies worden voortdurend toegevoegd aan ATP.](office-365-atp.md#new-features-in-office-365-atp) Als er nieuwe functies worden toegevoegd, moet u mogelijk uw bestaande ATP Safe Links-beleid aanpassen.
+Wanneer een gebruiker een e-mailbericht op een koppeling in een e-mailbericht op een koppeling in een e-mailbericht klikt, wordt de pagina met geblokkeerde URL'S van de organisatie geblokkeerd, of als de URL is vastgesteld om schadelijk te zijn, wordt een waarschuwingspagina geopend.
 
-## <a name="what-to-do"></a>Wat te doen 
-  
-1. Bekijk de vereisten.
-    
-2. Controleer en bewerk het standaard ATP Safe Links-beleid dat voor iedereen van toepassing is. U bijvoorbeeld [de aangepaste lijst met geblokkeerde URL's instellen voor ATP-veilige koppelingen.](set-up-a-custom-blocked-urls-list-atp.md)
-    
-3. Beleidsregels toevoegen of bewerken voor specifieke e-mailontvangers, waaronder [het instellen van de aangepaste URL's voor ATP Safe Links.](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
-    
-4. Meer informatie over beleidsopties voor veilige koppelingen atp (in dit artikel), inclusief instellingen voor recente wijzigingen.
-    
-## <a name="step-1-review-the-prerequisites"></a>Stap 1: Bekijk de vereisten
+[Nieuwe functies worden continu toegevoegd aan ATP](office-365-atp.md#new-features-in-office-365-atp). Wanneer nieuwe functies worden toegevoegd, moet u mogelijk de bestaande beleidsregels voor veilige koppelingen van de toepassing aanpassen.
 
-- Zorg ervoor dat uw organisatie [geavanceerde bedreigingsbeveiliging van Office 365](office-365-atp.md)heeft.
-    
-- Zorg ervoor dat u over de benodigde machtigingen beschikt. Als u ATP-beleid wilt definiëren (of bewerken), moet u een geschikte rol toegewezen krijgen. Enkele voorbeelden worden beschreven in de volgende tabel: <br>
+## <a name="what-to-do"></a>Wat moet u doen?
 
-    |Rol  |Waar/hoe toegewezen  |
-    |---------|---------|
-    |globale beheerder |De persoon die zich aanmeldt om Microsoft 365 te kopen, is standaard een globale beheerder. (Zie [Over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.)         |
-    |Beveiligingsbeheerder |Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-    |Exchange Online Organisatiebeheer |Exchange-beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)) |
+1. Controleer de vereisten.
 
-    Zie [Machtigingen in het Security &amp; Compliance Center voor](permissions-in-the-security-and-compliance-center.md)meer informatie over rollen en machtigingen.
+2. Het standaardbeleid voor het instellen van vrije verbindingen voor alle gebruikers bekijken en bewerken. U kunt bijvoorbeeld [de lijst met aangepaste geblokkeerde url's instellen voor veilige koppelingen met ATP](set-up-a-custom-blocked-urls-list-atp.md).
 
-- Zorg ervoor dat Office-clients zijn geconfigureerd voor het gebruik [van moderne verificatie](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016) (dit is voor de beveiliging van ATP-veilige koppelingen in Office-documenten).
-    
-- [Meer informatie over beleidsopties voor veilige koppelingen bij ATP](#step-4-learn-about-atp-safe-links-policy-options) (in dit artikel). 
+3. Hiermee kunt u beleidsregels voor specifieke e-mail geadresseerden toevoegen of bewerken, waaronder [het instellen van de lijst met url's die niet opnieuw schrijven niet herschrijven voor veilige koppelingen met ATP](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md).
 
-- Sta maximaal 30 minuten toe voor uw nieuwe of bijgewerkte beleid om zich te verspreiden naar alle Microsoft 365-datacenters.
-    
-## <a name="step-2-define-or-review-the-atp-safe-links-policy-that-applies-to-everyone"></a>Stap 2: Het ATP-beleid voor veilige koppelingen definiëren (of controleren) dat voor iedereen van toepassing is
+4. Meer informatie over de beleidsopties voor het instellen van vrije koppelingen (in dit artikel), waaronder instellingen voor recente wijzigingen.
 
-Wanneer u [Office 365 Advanced Threat Protection hebt,](office-365-atp.md)hebt u een standaard ATP-beleid voor veilige koppelingen dat van toepassing is op iedereen in uw organisatie. Zorg ervoor dat u uw standaardbeleid controleert en indien nodig bewerkt.
-  
-1. Ga naar [https://protection.office.com](https://protection.office.com) en meld je aan met je werk- of schoolaccount. 
-    
-2. Kies in de linkernavigatie onder **Bedreigingsbeheer**De optie Veilige **koppelingen voor** **beleid \> ** .
-    
-3. Selecteer **Policies that apply to the entire organization** **standaard**en kies **Vervolgens Bewerken** (de knop Bewerken lijkt op een potlood).<br/>![Klik op Bewerken om uw standaardbeleid voor beveiliging van veilige koppelingen te bewerken](../../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)
-  
-4. Geef in de sectie **Url's blokkeren** een of meer URL's op die u wilt voorkomen dat mensen in uw organisatie een bezoek bezoeken. (Zie [Een aangepaste lijst met geblokkeerde URL's instellen met ATP-veilige koppelingen](set-up-a-custom-blocked-urls-list-atp.md).)
-    
-5. Selecteer (of schakel) in de **sectie Instellingen die van toepassing zijn op inhoud, behalve op e-mail,** de opties die u wilt gebruiken in de sectie Instellingen die van toepassing zijn op inhoud, behalve op e-mail, in (of wissen). (We raden u aan alle opties te selecteren.) 
-    
+## <a name="step-1-review-the-prerequisites"></a>Stap 1: de vereisten controleren
+
+- Zorg ervoor dat uw organisatie [Office 365 Advanced Threat Protection](office-365-atp.md)heeft.
+
+- Zorg ervoor dat u de benodigde machtigingen hebt. Als u ATP-beleidsregels wilt definiëren (of bewerken), moet aan u de juiste rol zijn toegewezen. In de volgende tabel worden enkele voorbeelden beschreven:
+
+    |Rol|Where/hoe toegewezen|
+    |---|---|
+    |globale beheerder|De persoon die zich registreert voor het kopen van Microsoft 365 is standaard een globale beheerder. (Zie [informatie over Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.)|
+    |Beveiligingsbeheerder|Azure Active Directory-beheercentrum ( <https://aad.portal.azure.com> )|
+    |Beheer van organisatie van Exchange Online|Exchange-Beheercentrum ( <https://outlook.office365.com/ecp> ) <br>of <br>  PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
+
+    Als u meer wilt weten over rollen en machtigingen, raadpleegt u [machtigingen in de sectie beveiliging & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
+
+- Zorg dat Office-clients zijn geconfigureerd voor het gebruik van [moderne verificatie](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016) (deze optie is bedoeld voor beveiliging van vrije documenten in Office-documenten).
+
+- [Meer informatie over de beleidsopties voor het instellen van vrije koppelingen](#step-4-learn-about-atp-safe-links-policy-options) in dit artikel.
+
+- Maximaal 30 minuten toegestaan voor uw nieuwe of bijgewerkte beleid voor alle Microsoft 365-datacenters.
+
+## <a name="step-2-define-or-review-the-atp-safe-links-policy-that-applies-to-everyone"></a>Stap 2: het beleid voor veilige verbindingen voor ATP definiëren (of controleren) dat van toepassing is op iedereen
+
+Wanneer u [Office 365 Advanced Threat Protection](office-365-atp.md)hebt, beschikt u over het standaardbeleid voor veilige koppelingen voor vrije verbindingen dat van toepassing is op iedereen in uw organisatie. Zorg ervoor dat u het standaardbeleid controleert en zonodig bewerkt.
+
+1. Ga naar <https://protection.office.com> en meld u aan met uw werk-of schoolaccount.
+
+2. Kies in het linker navigatiegedeelte onder **Threat Management**de **optie \> beleids** **veilige koppelingen**.
+
+3. Selecteer in de sectie **beleidsregels die van toepassing zijn op het hele organigram** de optie **standaard**en kies vervolgens **bewerken** (de knop bewerken lijkt op een potlood).
+
+   ![Klik op bewerken om uw standaardbeleid te bewerken voor beveiliging van beveiligde koppelingen](../../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)
+
+4. Geef in de sectie **de volgende Url's blokkeren** een of meer url's op die u wilt voorkomen dat de personen in uw organisatie bezoeken. (Zie [een aangepaste lijst met geblokkeerde Url's instellen met behulp van behulp van ATP voor veilige koppelingen](set-up-a-custom-blocked-urls-list-atp.md).)
+
+5. Selecteer in de sectie **instellingen die van toepassing zijn op inhoud behalve e-mail** de optie die u wilt gebruiken (of wissen). (U kunt het beste alle opties selecteren.)
+
 6. Selecteer **Save**.
-    
-## <a name="step-3-add-or-edit-atp-safe-links-policies-that-apply-to-specific-email-recipients"></a>Stap 3: ATP-beleid voor veilige koppelingen toevoegen (of bewerken) dat van toepassing is op specifieke e-mailontvangers
 
-Nadat u het standaard ATP-beleid voor veilige koppelingen hebt gecontroleerd (of bewerkt) dat op iedereen van toepassing is, is uw volgende stap het definiëren van aanvullende beleidsregels die van toepassing zijn op specifieke ontvangers. U bijvoorbeeld uitzonderingen op uw standaardbeleid opgeven door een aanvullend beleid te definiëren. 
-  
-1. Ga naar [https://protection.office.com](https://protection.office.com) en meld je aan met je werk- of schoolaccount. 
-    
-2. Kies **beleid**in de linkernavigatie onder **Bedreigingsbeheer**.
-    
-3. Kies **Veilige links**.
-    
-4. Kies Nieuw in de sectie **Beleid dat van toepassing is op specifieke ontvangers** **(de** knop Nieuw lijkt op een plusteken ( **+** )).<br/>![Kies Nieuw om een beleid voor veilige koppelingen toe te voegen voor specifieke e-mailontvangers](../../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
-  
-5. Geef de naam, beschrijving en instellingen voor uw beleid op.<br/>**Voorbeeld:** Als u een beleid wilt instellen dat 'geen directe doorklik' wordt genoemd, waarmee mensen in een bepaalde groep in uw organisatie niet kunnen doorklikken naar een specifieke website zonder bescherming tegen veilige koppelingen van ATP, u de volgende aanbevolen instellingen opgeven: 
-    
-    - Typ **in** het vak Naam geen directe klik.
+## <a name="step-3-add-or-edit-atp-safe-links-policies-that-apply-to-specific-email-recipients"></a>Stap 3: het beleid voor veilige koppelingen voor ATP toevoegen (of bewerken) en toepassen op specifieke e-mail geadresseerden
 
-    - Typ in het vak **Beschrijving** een beschrijving zoals: Voorkomt dat mensen in bepaalde groepen doorklikken naar een website zonder verificatie van ATP Safe Links.
+Nadat u het standaardbeleid voor veilige verbindingen voor ATP hebt gecontroleerd (of bewerkt) dat van toepassing is op iedereen, moet u extra beleidsregels definiëren die van toepassing zijn op bepaalde geadresseerden. U kunt bijvoorbeeld uitzonderingen opgeven voor uw standaardbeleid door een extra beleid te definiëren.
 
-    - Kies in **de sectie Selecteer de actie** de optie **Aan**.
+1. Ga naar <https://protection.office.com> en meld u aan met uw werk-of schoolaccount.
 
-    - Selecteer **Real-time URL-scannen toepassen op verdachte koppelingen en koppelingen die verwijzen naar bestanden** als u URL-detonatie wilt inschakelen voor verdachte en bestandswijzende URL's (aanbevolen). En selecteer **Wachten tot URL-scannen is voltooid voordat u het bericht afgeeft** als u alleen wilt dat gebruikers berichten ontvangen nadat de URL's volledig zijn gescand.
+2. Kies in het linker navigatiegedeelte onder **Threat Management**de optie **beleid**.
 
-    - Selecteer **Veilige koppelingen toepassen op berichten die binnen de organisatie worden verzonden** als u veilige koppelingen wilt inschakelen voor berichten die worden verzonden tussen gebruikers binnen uw organisatie (aanbevolen).
+3. Kies **veilige koppelingen**.
 
-    - Selecteer **De gebruiker niet toestaan door te klikken naar de oorspronkelijke URL** als u niet wilt dat de afzonderlijke gebruikers een lopende *scan* of *URL-geblokkeerde* meldingspagina's overschrijven.
+4. Kies in de sectie **beleidsregels die gelden voor specifieke geadresseerden** de optie **Nieuw** (de knop Nieuw lijkt op een plusteken ( **+** )).
 
-    - (Dit is optioneel) Geef in de sectie **De volgende URL's niet opnieuw te schrijven** een of meer URL's op die als veilig voor uw organisatie worden beschouwd. (Zie [Een aangepaste URL's'niet herschrijven instellen met ATP Safe Links)](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
+   ![Kies Nieuw om een beleid voor veilige koppelingen toe te voegen voor specifieke e-mail geadresseerden](../../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
 
-    - Kies in de sectie **Toegepast op** de ontvanger **lid van**de groep(en) die u in uw polis wilt opnemen. Kies **Toevoegen**en kies **vervolgens OK**.
-    
+5. Geef de naam, de beschrijving en de instellingen op voor uw beleid.
+
+   **Voorbeeld:** Als u een beleid met de naam ' niet rechtstreeks klikken ' wilt instellen, kunt u niet dat personen in een bepaalde groep in uw organisatie op de hoogte worden geklikt op een specifieke website zonder dat de beschermings beveiliging vrij is, u kunt de volgende aanbevolen instellingen opgeven:
+
+   - Typ in het vak **naam** niet direct klikken.
+
+   - Typ in het vak **Beschrijving** een beschrijving als beschrijving, zodat personen in bepaalde groepen niet kunnen klikken op een website zonder dat de verificatie voor veilige koppelingen wordt gecontroleerd.
+
+   - Kies in de sectie **Selecteer de actie** **aan**.
+
+   - Selecteer **realtime doorzoeken van Url's toepassen op verdachte koppelingen en koppelingen die verwijzen naar bestanden** als u de detonatie van url's wilt inschakelen voor verdachte bestanden en url's voor bestanden waarnaar wordt verwezen (aanbevolen). En selecteer **wachten tot het scannen van de URL moet voltooien voordat u het bericht** ontvangt als u wilt dat gebruikers alleen berichten kunnen ontvangen nadat de url's volledig zijn gecontroleerd.
+
+   - Selecteer **veilige koppelingen toepassen op berichten die binnen de organisatie worden verzonden** als u veilige koppelingen wilt inschakelen voor berichten die tussen gebruikers binnen uw organisatie worden verzonden (aanbevolen).
+
+   - Selecteer **gebruikers niet toestaan om door te gaan naar de oorspronkelijke URL** als u niet wilt dat de afzonderlijke gebruikers een *Scan* worden overschreven of meldingen met *URL-geblokkeerde* pagina's.
+
+   - (Dit is optioneel) Geef in de sectie **niet herschrijven de volgende url's** een of meer url's op die als veilig worden beschouwd voor uw organisatie. (Zie [een aangepaste lijst van url's die niet opnieuw schrijven is met behulp van behulp van openbare koppelingen instellen](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
+
+   - Kies in de sectie **toegepast op** **de geadresseerde lid van**en kies vervolgens de groep (en) die u wilt opnemen in uw beleid. Kies **toevoegen**en kies vervolgens **OK**.
+
 6. Selecteer **Save**.
 
 > [!NOTE]
-> ATP Safe Links beleid met een hogere prioriteit zal voorrang hebben. Als een gebruiker is onderworpen aan twee of meer politie, alleen de hogere prioriteit beleid van kracht.
-    
-## <a name="step-4-learn-about-atp-safe-links-policy-options"></a>Stap 4: Meer informatie over beleidsopties voor VEILIGE KOPPELINGEN BIJ ATP
+> Beleidsregels voor veilige koppelingen met een hogere prioriteit hebben voorrang. Als een gebruiker twee of meer politiet, wordt alleen het beleid voor de hoogste prioriteit van kracht.
 
-Als u uw ATP Safe Links-beleid instelt of bewerkt, worden er verschillende opties beschikbaar. In het geval u zich afvraagt wat deze opties zijn, beschrijft de volgende tabel elk en het effect ervan. Vergeet niet dat er twee belangrijke soorten ATP Safe Links-beleid zijn om te definiëren of te bewerken:
-- een [standaardbeleid](#default-policy-options) dat voor iedereen van toepassing is; En  
-- aanvullend [beleid voor specifieke ontvangers](#policies-that-apply-to-specific-email-recipients) 
+## <a name="step-4-learn-about-atp-safe-links-policy-options"></a>Stap 4: meer informatie over de beleidsopties voor het instellen van ATP voor veilige koppelingen
 
-### <a name="default-policy-options"></a>Standaardbeleidsopties
+Wanneer u uw beleid voor veilige koppelingen voor vrije documenten instelt of bewerkt, ziet u diverse beschikbare opties. Als u zich afvraagt wat deze opties zijn, worden deze in de onderstaande tabel beschreven. Houd er rekening mee dat u het volgende moet doen:
 
-Standaardbeleidsopties zijn van toepassing op iedereen in uw organisatie.
+- een [standaardbeleid](#default-policy-options) dat van toepassing is op iedereen; en
+- extra [beleidsregels voor specifieke geadresseerden](#policies-that-apply-to-specific-email-recipients)
 
-|Deze optie  |Doet dit  |
-|---------|---------|
-| **De volgende URL's blokkeren** <br/>    | Hiermee kan uw organisatie een aangepaste lijst met URL's hebben die automatisch worden geblokkeerd. Wanneer gebruikers op een URL in deze lijst klikken, worden ze naar een [waarschuwingspagina](atp-safe-links-warning-pages.md) geleid waarin wordt uitgelegd waarom de URL is geblokkeerd. Zie [Een aangepaste lijst met geblokkeerde URL's instellen met veilige koppelingen voor Office 365 ATP](set-up-a-custom-blocked-urls-list-atp.md)voor meer informatie. |
-| **Microsoft 365-apps voor bedrijven, Office voor iOS en Android** <br/>    | Wanneer deze optie is geselecteerd, wordt de bescherming van ATP Safe Links toegepast op URL's in Word-, Excel- en PowerPoint-bestanden in Windows of Mac OS, e-mailberichten in Outlook, Office-documenten op iOS- of Android-apparaten, Visio 2016-bestanden in Windows en bestanden die worden geopend in de webversies van Office-apps (Word, PowerPoint, Excel, Outlook en OneNote), op voorwaarde dat de gebruiker zich heeft aangemeld bij Office 365. |
-| **Niet bijhouden wanneer gebruikers op veilige koppelingen atp klikken** <br/>  | Wanneer deze optie is geselecteerd, wordt de klik op gegevens voor URL's in Word, Excel, PowerPoint, Visio-documenten en Outlook-e-mailberichten niet opgeslagen.  <br/> |
-|**Laat gebruikers niet door atp-veilige koppelingen klikken naar de oorspronkelijke URL** <br/> |Wanneer deze optie is geselecteerd, kunnen gebruikers niet voorbij een [waarschuwingspagina](atp-safe-links-warning-pages.md) naar een URL gaan waarvan wordt vastgesteld dat deze schadelijk is.  <br/> |
+### <a name="default-policy-options"></a>Standaard beleidsopties
 
-### <a name="policies-that-apply-to-specific-email-recipients"></a>Beleidsregels die van toepassing zijn op specifieke e-mailontvangers
+Standaard beleidsopties gelden voor iedereen in uw organisatie.
 
-|Deze optie  |Doet dit  |
-|---------|---------|
-|**Uit** <br/> |Scant geen URL's in e-mailberichten.  <br/> Hiermee u een uitzonderingsregel definiëren, zoals een regel die geen URL's in e-mailberichten scant voor een specifieke groep geadresseerden.  <br/> |
-|**Aan** <br/> |Herschrijft URL's om gebruikers te routeren via atp-beveiliging voor veilige koppelingen wanneer de gebruikers op URL's in e-mailberichten klikken en ATP Safe Links in Outlook (C2R) op Windows inschakelen.  <br/> Hiermee wordt een URL gecontroleerd wanneer wordt geklikt op een lijst met geblokkeerde of schadelijke URL's en wordt asynchroon een ontploffing van de URL op de achtergrond geactiveerd als de URL geen geldige reputatie heeft.  <br/> |
-|**Real-time URL-scannen toepassen op verdachte koppelingen en koppelingen die verwijzen naar bestanden** <br/> |Wanneer deze optie is geselecteerd, worden verdachte URL's en koppelingen die verwijzen naar downloadbare inhoud gescand.  <br/> |
-|**Wacht tot het scannen van url's is voltooid voordat u het bericht aflevert** <br/> |Wanneer deze optie is geselecteerd, worden berichten met URL's die moeten worden gescand, bewaard totdat de URL's klaar zijn met scannen en worden bevestigd dat ze veilig zijn voordat de berichten worden bezorgd.  <br/> |
-|**Veilige koppelingen toepassen op berichten die binnen de organisatie worden verzonden** <br/> | Wanneer deze optie beschikbaar en geselecteerd is, wordt de bescherming van ATP Safe Links toegepast op e-mailberichten die worden verzonden tussen mensen in uw organisatie, op voorwaarde dat de e-mailaccounts worden gehost in Office 365.  <br/> |
-|**Klikken van gebruikers niet bijhouden** <br/> |Wanneer deze optie is geselecteerd, worden klikgegevens voor URL's in e-mail van externe afzenders niet opgeslagen. URL-kliktracking voor koppelingen in e-mailberichten die binnen de organisatie worden verzonden, wordt momenteel niet ondersteund.  <br/> |
-|**Gebruikers niet toestaan door te klikken naar de oorspronkelijke URL** <br/> |Wanneer deze optie is geselecteerd, kunnen gebruikers niet voorbij een [waarschuwingspagina](atp-safe-links-warning-pages.md) naar een URL gaan waarvan wordt vastgesteld dat deze schadelijk is.  <br/> |
-|**De volgende URL's niet herschrijven** <br/> |Laat URL's zoals ze zijn. Hiermee houdt u een aangepaste lijst bij met veilige URL's die niet hoeven te worden gescand op een specifieke groep e-mailontvangers in uw organisatie.  Zie Een [aangepaste URL's-lijst 'Niet herschrijven' instellen met ATP Safe Links](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) instellen voor meer informatie, inclusief recente wijzigingen in de ondersteuning van wildcard-sterretjes ( \* ).  <br/> |
-   
+****
+
+|Optie|Doet dit|
+|---|---|
+|**De volgende Url's blokkeren**|Hiermee kan uw organisatie een aangepaste lijst met Url's maken die automatisch worden geblokkeerd. Wanneer gebruikers op een URL in deze lijst klikken, wordt een [waarschuwingspagina](atp-safe-links-warning-pages.md) weergegeven waarin u uitlegt waarom de URL is geblokkeerd. Zie voor meer informatie [een aangepaste lijst met geblokkeerde Url's instellen met behulp van Office 365](set-up-a-custom-blocked-urls-list-atp.md).|
+|**Microsoft 365-apps voor Enterprise, Office voor iOS en Android**| Wanneer deze optie is geselecteerd, beveiliging van ATP voor veilige koppelingen wordt toegepast op Url's in Word-, Excel-en PowerPoint-bestanden in Windows of Mac OS, e-mailberichten in Outlook, Office-documenten op een iOS-of Android-apparaat, Visio 2016-bestanden in Windows en bestanden die zijn geopend in de webversie van Office-apps (Word, PowerPoint, Excel, Outlook en OneNote), mits de 365|
+|**Niet bijhouden wanneer gebruikers klikken op veilige koppelingen voor ATP**|Wanneer deze optie is geselecteerd, klikt u op gegevens voor Url's in Word, Excel, PowerPoint, Visio-documenten en e-mailberichten in Outlook worden niet opgeslagen.|
+|**Gebruikers niet laten klikken via ATP veilige koppelingen naar de oorspronkelijke URL**|Wanneer deze optie is geselecteerd, kunnen gebruikers niet verdergaan met een [waarschuwingspagina](atp-safe-links-warning-pages.md) op een URL die is ingesteld als schadelijk.|
+|
+
+### <a name="policies-that-apply-to-specific-email-recipients"></a>Beleidsregels die gelden voor bepaalde geadresseerden voor e-mail
+
+****
+
+|Optie|Doet dit|
+|---|---|
+|**Uit**|Scant geen Url's in e-mailberichten.  <br/> Hiermee kunt u een uitzonderingsregel definiëren, zoals een regel die Url's in e-mailberichten voor een bepaalde groep geadresseerden niet scant.|
+|**Aan**|Url's opnieuw schrijven voor het doorsturen van gebruikers via een veilige beveiliging van de gebruikerslijst als de gebruikers op Url's in e-mailberichten klikken en veilige verbindingen van ATP in Outlook (C2R) inschakelen.  <br/> Controleert een URL wanneer erop wordt geklikt in een lijst met geblokkeerde of schadelijke Url's en Hiermee wordt de detonatie van de URL op de achtergrond asynchroon geactiveerd als de URL geen geldige reputatie heeft.|
+|**Het scannen van realtime-URL'S toepassen op verdachte koppelingen en koppelingen die verwijzen naar bestanden**|Wanneer deze optie is geselecteerd, worden verdachte Url's en koppelingen die verwijzen naar downloadbare inhoud gescand.|
+|**Wachten tot URL-Scan is voltooid voordat het bericht wordt bezorgd**|Wanneer deze optie is geselecteerd, worden berichten met Url's die moeten worden gescand bewaard totdat de Url's zijn gecontroleerd en bevestigd zijn dat u veilig bent voordat u berichten ontvangt.|
+|**Veilige koppelingen toepassen op berichten die binnen de organisatie zijn verzonden** <br/> | Wanneer u deze optie inschakelt en selecteert, wordt de bescherming van beschikbare verbindingen van ATP toegepast op e-mailberichten die worden verzonden tussen de personen in uw organisatie, mits de e-mailaccounts worden gehost in Office 365.|
+|**Geclickte gebruikers niet bijhouden**|Wanneer deze optie is geselecteerd, klikt u op gegevens voor Url's in e-mail van externe afzenders worden niet opgeslagen. URL klik op controleren voor koppelingen in e-mailberichten die binnen de organisatie worden verstuurd, worden momenteel niet ondersteund.|
+|**Gebruikers kunnen niet naar de oorspronkelijke URL klikken**|Wanneer deze optie is geselecteerd, kunnen gebruikers niet verdergaan met een [waarschuwingspagina](atp-safe-links-warning-pages.md) op een URL die is ingesteld als schadelijk.|
+|**De volgende Url's niet opnieuw schrijven**|Laat Url's doorlopen. Hiermee wordt een aangepaste lijst bijgehouden met veilige Url's die u niet nodig hebt om een specifieke groep e-mail geadresseerden in uw organisatie te doorzoeken. Zie [een aangepaste lijst voor het toevoegen van url's met behulp van ATP](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) voor meer informatie, waaronder recente wijzigingen in de ondersteuning voor jokertekens ( \* ).|
+|
+
 ## <a name="next-steps"></a>Volgende stappen
 
-Zodra uw ATP Safe Links-beleid is ingevoerd, u zien hoe ATP werkt voor uw organisatie door rapporten te bekijken. Zie de volgende bronnen voor meer informatie:
+Wanneer u het beleid voor veilige koppelingen voor de vrije ruimte gebruikt, kunt u zien hoe de ATP voor uw organisatie werkt door rapporten te bekijken. Raadpleeg de volgende bronnen voor meer informatie:
 
-- [Rapporten voor geavanceerde bedreigingsbeveiliging van Office 365 weergeven](view-reports-for-atp.md)
+- [Rapporten weergeven voor Office 365 Advanced Threat Protection](view-reports-for-atp.md)
 
-- [Explorer gebruiken in het Security &amp; Compliance Center](threat-explorer.md)
+- [Verkenner gebruiken in de beveiligings & compliance Center](threat-explorer.md)
 
-Blijf op de hoogte van nieuwe functies die naar ATP komen. bezoek de [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=O365).
+Blijf op de hoogte van nieuwe functies die beschikbaar zijn in ATP. Ga naar het [Microsoft 365-wegwijzer](https://www.microsoft.com/microsoft-365/roadmap?filters=O365).

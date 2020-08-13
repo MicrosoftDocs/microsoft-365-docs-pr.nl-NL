@@ -15,57 +15,57 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen leren hoe u de instellingen voor ongewenste e-mail configureert in Exchange Online-postvakken. Veel van deze instellingen zijn beschikbaar voor gebruikers in Outlook of Outlook in de webversie.
-ms.openlocfilehash: 4e40e3fa2186022a64c8ccdf66f62db24b9f9794
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+description: Beheerders kunnen de instellingen voor ongewenste e-mail in postvakken van Exchange Online leren configureren. Veel van deze instellingen zijn beschikbaar voor gebruikers in Outlook of de webversie van Outlook.
+ms.openlocfilehash: 5da4aad41f5c5f00f65fa1ceb4fc4c0fad773779
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755258"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653039"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
 
-In Microsoft 365-organisaties met mailboxen in Exchange Online worden de instellingen voor antispam van organisaties beheerd door Exchange Online Protection (EOP). Zie [Antispambeveiliging in EOP](anti-spam-protection.md)voor meer informatie.
+In Microsoft 365-organisaties met postvakken in Exchange Online worden de antispam instellingen voor de organisatie bestuurd via Exchange Online Protection (EOP). Zie [bescherming tegen spam in EOP](anti-spam-protection.md)voor meer informatie.
 
-Maar er zijn ook specifieke antispaminstellingen die beheerders kunnen configureren op afzonderlijke postvakken in Exchange Online:
+Er zijn ook specifieke antispam instellingen die beheerders kunnen configureren voor afzonderlijke postvakken in Exchange Online:
 
-- **De regel voor ongewenste e-mail in- of uitschakelen:** de regel voor ongewenste e-mail is een verborgen regel voor postvak IN met de naam Ongewenste e-mailregel die standaard is ingeschakeld in elk postvak. De regel voor ongewenste e-mail bepaalt de volgende functies:
+- **De regel voor ongewenste E-mail in-of uitschakelen**: de regel voor ongewenste e-mail is een verborgen regel voor het postvak in met de naam ongewenste e-mail regel die standaard is ingeschakeld in elk postvak. De regel voor ongewenste e-mail beheert de volgende functies:
 
-  - **Berichten verplaatsen naar de map Ongewenste e-mail op basis van antispambeleid:** Wanneer een antispambeleid is geconfigureerd met de actie **Bericht verplaatsen naar de map Ongewenste e-mail** voor een oordeel over het filteren van spam, wordt het bericht verplaatst naar de map Ongewenste e-mail nadat het bericht in het postvak is bezorgd. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)voor meer informatie over het filteren van spam in antispambeleid. Als zap (ZERO-hour auto purge) vaststelt dat een geleverd bericht spam of phish is, wordt het bericht met de filterregel ongewenste e-mail verplaatst naar de map Ongewenste e-mail voor **Bericht verplaatsen naar ongewenste e-mailmap** spamfilteringsuitslagen. Zie [Zero-hour auto purge (ZAP) in Exchange Online voor](zero-hour-auto-purge.md)meer informatie over ZAP.
+  - **Berichten verplaatsen naar de map Ongewenste e-mail op basis van een antispam**beleid: wanneer een Antispambeleid is geconfigureerd met de **map actie verplaatsen naar de map Ongewenste** e-mail voor een spamfilter Verdict, wordt het bericht in de filterregel voor ongewenste e-mail verplaatst naar de map Ongewenste e-mail nadat het bericht in het postvak is bezorgd. Zie [Antispambeleid in EOP](configure-your-spam-filter-policies.md)voor meer informatie over het filteren van ongewenste e-mail Verdicts in antispambeleid. Ook als het automatisch wissen van nul (ZAP) een bezorgd bericht voor spam of phishing afneemt, verplaatst de regel voor het filter voor ongewenste e-mail het bericht naar de map Ongewenste E-mail voor het verplaatsen van een **bericht naar** de map Ongewenste e-mail voor ongewenste e-mail verdict-acties. Zie voor meer informatie over ZAP de rijen [automatisch wissen van nul (ZAP) in Exchange Online](zero-hour-auto-purge.md).
 
-  - **Instellingen voor ongewenste e-mail die gebruikers zelf configureren in Outlook of Outlook op de web:** De _safelist-verzameling_ is de lijst Veilige afzenders, de lijst Veilige geadresseerden en de lijst Afzenders blokkeren in elk postvak. De vermeldingen in deze lijsten bepalen of de regel voor ongewenste e-mail het bericht verplaatst naar het postvak IN of de map Ongewenste e-mail. Gebruikers kunnen de safelist-verzameling voor hun eigen postvak configureren in Outlook of Outlook op de web (voorheen Outlook Web App genoemd). Beheerders kunnen de safelist-verzameling configureren in het postvak van elke gebruiker.
+  - **Instellingen voor ongewenste e-mail die gebruikers zelf configureren in Outlook of de webversie van Outlook**: de _veilige lijst-verzameling_ is de lijst met veilige afzenders, de lijst met veilige geadresseerden en de lijst afzenders blokkeren voor elk postvak. Met de vermeldingen in deze lijsten wordt bepaald of het bericht in de regel voor ongewenste e-mail naar het postvak in of de map Ongewenste E-mail wordt verplaatst. Gebruikers kunnen de veilige lijst-verzameling configureren voor hun eigen postvak in Outlook of de webversie van Outlook (voorheen Outlook Web app). Beheerders kunnen de veilige lijst-verzameling configureren voor het postvak van een gebruiker.
 
-Wanneer de regel voor ongewenste e-mail is ingeschakeld in het postvak, kan EOP berichten verplaatsen naar de map Ongewenste e-mail op basis van de actie voor het filteren van **spam-regels Bericht verplaatsen naar map Ongewenste e-mail** of de lijst Afzenders blokkeren in het postvak, en voorkomen dat berichten worden bezorgd in de map Ongewenste e-mail (op basis van de lijst Veilige afzenders in het postvak).
+Wanneer de regel ongewenste e-mail is ingeschakeld in het postvak, kunnen berichten in EOP worden verplaatst naar de map Ongewenste E-mail op basis van de actie spam filteren Verdict, **bericht verplaatsen naar map Ongewenste e-mail** of de lijst met geblokkeerde afzenders in het postvak, en voorkomen dat berichten worden bezorgd in de map Ongewenste e-mail (op basis van de lijst met veilige afzenders in het Postvak).
 
- Wanneer de regel voor ongewenste e-mail is uitgeschakeld in het postvak, kan EOP geen berichten verplaatsen naar de map Ongewenste e-mail op basis van de actie voor het filteren van **spam-regels Bericht verplaatsen naar map Ongewenste e-mail** of de safelistverzameling in het postvak.
+ Wanneer de regel voor ongewenste e-mail in het postvak is uitgeschakeld, kunnen er geen berichten worden verplaatst naar de map Ongewenste e-mail op basis van het spamfilter verdict actie **bericht verplaatsen naar map Ongewenste e-mail** of de verzameling veilige lijst in het postvak.
 
-Beheerders kunnen Exchange Online PowerShell gebruiken om de status van de regel voor ongewenste e-mail in postvakken uit te schakelen, in te schakelen en te bekijken. Beheerders kunnen Exchange Online PowerShell ook gebruiken om vermeldingen in de kluisverzameling op postvakken te configureren (de lijst Met veilige afzenders, de lijst Veilige geadresseerden en de lijst Afzenders blokkeren).
+Beheerders kunnen Exchange Online PowerShell gebruiken om de status van de regel voor ongewenste e-mail op postvakken uit te schakelen, in te schakelen en te bekijken. Beheerders kunnen ook Exchange Online PowerShell gebruiken voor het configureren van vermeldingen in de veilige lijst-verzameling in postvakken (de lijst met veilige afzenders, de lijst met veilige geadresseerden en de lijst afzenders blokkeren).
 
 > [!NOTE]
-> Berichten van afzenders die gebruikers hebben toegevoegd aan hun eigen lijsten met veilige afzenders, slaan verbindingsfiltering over als onderdeel van EOP (de SCL is -1). Als u wilt voorkomen dat gebruikers vermeldingen toevoegen aan hun lijst met veilige afzenders in Outlook, gebruikt u groepsbeleid zoals vermeld in de [sectie Over ongewenste e-mail in Outlook,](#about-junk-email-settings-in-outlook) later in dit onderwerp. Beleidsfiltering, Content filtering en Advanced Threat Protection (ATP) controles worden nog steeds toegepast op de berichten.
+> Berichten van afzenders die gebruikers hebben toegevoegd aan hun eigen lijsten met veilige afzenders, worden gebruikt om het filteren van verbindingen over te slaan als onderdeel van EOP (de SCL is-1). Als u wilt voorkomen dat gebruikers items kunnen toevoegen aan hun lijst met veilige afzenders in Outlook, gebruikt u Groepsbeleid zoals vermeld in de sectie [over instellingen voor ongewenste e-mail in Outlook](#about-junk-email-settings-in-outlook) verderop in dit onderwerp. Beleids filters voor beleids filters, het filteren van inhoud en de Advanced Threat Protection-controles worden op de berichten toegepast.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U Exchange Online PowerShell alleen gebruiken om deze procedures uit te voeren. Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
+- U kunt alleen Exchange Online PowerShell gebruiken om deze procedures uit te voeren. Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
-- U moet machtigingen toegewezen krijgen voordat u deze procedures uitvoeren. U hebt in het bijzonder de rol **E-mailontvangers** (die standaard is toegewezen aan de rolgroepen **Organisatiebeheer,** **Organisatiebeheer**en **Aangepaste e-mailontvangers)** of de rol **Gebruikersopties** (die standaard is toegewezen aan de rolgroepen **Organisatiebeheer** en **Helpdesk)** nodig. Zie [Rolgroepen wijzigen in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups)als u gebruikers wilt toevoegen aan rolgroepen in Exchange Online. Houd er rekening mee dat een gebruiker met standaardmachtigingen dezelfde procedures kan uitvoeren op zijn eigen postvak, zolang deze toegang heeft [tot Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell).
+- U moet machtigingen zijn toegewezen voordat u deze procedures kunt uitvoeren. Met name hebt u de rol van **e-mail geadresseerden** nodig (die standaard is toegewezen aan de rollen groepen **Organisatiebeheer**, **ontvanger**en **aangepaste e-mail geadresseerden** ) of de rol van **gebruikersopties** (die standaard zijn toegewezen aan de rollen groepen **Organisatiebeheer** en **Help Desk** . Zie [rollen groepen wijzigen in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups)voor informatie over het toevoegen van gebruikers aan rollen groepen in Exchange Online. Houd er rekening mee dat een gebruiker met standaardmachtigingen dezelfde procedures op hun eigen postvak kan uitvoeren, mits deze [toegang hebben tot Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell).
 
 - In standalone EOP-omgevingen waar EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de EOP-spamfilterbeoordeling te vertalen, zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. 
 
-- Veilige afzenders voor gedeelde postvakken worden niet gesynchroniseerd met Azure AD en EOP by design.
+- Veilige afzenders voor gedeelde postvakken worden niet gesynchroniseerd met Azure AD en EOP op ontwerp.
 
-## <a name="use-exchange-online-powershell-to-enable-or-disable-the-junk-email-rule-in-a-mailbox"></a>Exchange Online PowerShell gebruiken om de regel voor ongewenste e-mail in een postvak in te schakelen of uit te schakelen
+## <a name="use-exchange-online-powershell-to-enable-or-disable-the-junk-email-rule-in-a-mailbox"></a>Exchange Online PowerShell gebruiken om de regel voor ongewenste e-mail in een postvak in of uit te schakelen
 
 > [!NOTE]
-> U de cmdlet **Set-MailboxJunkEmailConfiguration** alleen gebruiken om de regel voor ongewenste e-mail uit te schakelen in een postvak dat is geopend in Outlook (in de exchange-modus in cache) of de webversie van Outlook. Als het postvak niet is geopend, ontvangt u de foutmelding: `The Junk Email configuration couldn't be set. The user needs to sign in to Outlook Web App before they can modify their Safe Senders and Recipients or Blocked Senders lists.` Als u deze fout voor bulkbewerkingen wilt onderdrukken, u toevoegen aan de opdracht `-ErrorAction SlientlyContinue` **Set-MailboxJunkEmailConfiguration.**
+> U kunt alleen de **set-MailboxJunkEmailConfiguration** -cmdlet gebruiken om de regel voor ongewenste e-mail te deactiveren voor een postvak dat is geopend in Outlook (in de Exchange-modus met cache) of de webversie van Outlook. Als het postvak niet is geopend, krijgt u de foutmelding: `The Junk Email configuration couldn't be set. The user needs to sign in to Outlook Web App before they can modify their Safe Senders and Recipients or Blocked Senders lists.` Als u deze fout wilt onderdrukken voor bulkbewerkingen, kunt u deze toevoegen `-ErrorAction SlientlyContinue` aan de opdracht **set-MailboxJunkEmailConfiguration** .
 
-Als u de regel voor ongewenste e-mail in een postvak wilt in- of uitschakelen, gebruikt u de volgende syntaxis:
+Gebruik de volgende syntaxis om de regel voor ongewenste e-mail in een postvak in of uit te schakelen:
 
 ```PowerShell
 Set-MailboxJunkEmailConfiguration -Identity <MailboxIdentity> -Enabled <$true | $false>
 ```
 
-In dit voorbeeld wordt de regel voor ongewenste e-mail op de mailbox van Ori Epstein uitgeschakeld.
+In dit voorbeeld wordt de regel voor ongewenste e-mail in het postvak van de ori-Epstein uitgeschakeld.
 
 ```PowerShell
 Set-MailboxJunkEmailConfiguration -Identity "Ori Epstein" -Enabled $false
@@ -77,141 +77,142 @@ In dit voorbeeld wordt de regel voor ongewenste e-mail uitgeschakeld voor alle p
 $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All | foreach {Set-MailboxJunkEmailConfiguration $_.Name -Enabled $false}
 ```
 
-Zie [Set-MailboxJunkEmailConfiguration voor](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration)gedetailleerde syntaxis- en parametergegevens .
+Zie [set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration)voor gedetailleerde syntaxis-en parameterinformatie.
 
 > [!NOTE]
-> 
-> - Als de gebruiker zijn postvak nooit heeft geopend, ontvangt u mogelijk een foutmelding wanneer u de vorige opdracht uitvoert. Als u deze fout voor bulkbewerkingen wilt onderdrukken, voegt u de `-ErrorAction SlientlyContinue` opdracht **Set-MailboxJunkEmailConfiguration toe aan de opdracht Set-MailboxJunkEmailConfiguration.**
-> 
-> - Zelfs als u de regel voor ongewenste e-mail uitschakelt, kan het Outlook-filter voor ongewenste e-mail (afhankelijk van hoe het is geconfigureerd) ook bepalen of een bericht spam is en berichten verplaatsen naar de map Postvak IN of Ongewenste e-mail op basis van het eigen spam-vonnis en de verzameling van de safelist in het postvak. Zie de sectie [Over ongewenste e-mail in Outlook in](#about-junk-email-settings-in-outlook) dit onderwerp voor meer informatie.
+>
+> - Als de gebruiker het postvak niet heeft geopend, wordt er mogelijk een fout weergegeven wanneer u de vorige opdracht uitvoert. Als u deze fout wilt onderdrukken voor bulkbewerkingen, voegt u deze toe `-ErrorAction SlientlyContinue` aan de opdracht **set-MailboxJunkEmailConfiguration** .
+>
+> - Ook als u de regel voor ongewenste e-mail uitschakelt, kan het filter voor ongewenste e-mail van Outlook (afhankelijk van de configuratie van het bestand) bepalen of een bericht spam bevat, en kan berichten naar het postvak in of de map Ongewenste E-mail verplaatsen op basis van de spam verdict en de veilige lijst-verzameling in het postvak. Zie voor meer informatie het artikel [over de instellingen voor ongewenste e-mail in Outlook](#about-junk-email-settings-in-outlook) in dit onderwerp.
 
 ### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
-Als u wilt controleren of u de regel voor ongewenste e-mail in een postvak hebt ingeschakeld of uitgeschakeld, gebruikt u een van de volgende procedures:
+Ga op een van de volgende manieren te werk om te controleren of de regel voor ongewenste e-mail is ingeschakeld of uitgeschakeld voor een postvak:
 
-- Vervang _\<MailboxIdentity\>_ de naam, alias of het e-mailadres van het postvak en voer de volgende opdracht uit om de waarde van de **eigenschap Ingeschakeld** te verifiëren:
+- Vervang door _\<MailboxIdentity\>_ de naam, alias of het e-mailadres van het postvak en voer de volgende opdracht uit om de **ingeschakelde** eigenschapswaarde te verifiëren:
 
   ```PowerShell
   Get-MailboxJunkEmailConfiguration -Identity "<MailboxIdentity>" | Format-List Enabled
   ```
 
-## <a name="use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox"></a>Exchange Online PowerShell gebruiken om de safelist-verzameling op een postvak te configureren
+## <a name="use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox"></a>Exchange Online PowerShell gebruiken om de veilige lijst-verzameling te configureren voor een postvak
 
-De safelist-verzameling in een postvak bevat de lijst Veilige afzenders, de lijst Veilige geadresseerden en de lijst Met geblokkeerde afzenders. Standaard kunnen gebruikers de safelist-verzameling configureren in hun eigen postvak in Outlook of outlook in de web. Beheerders kunnen de bijbehorende parameters op de **cmdlet Set-MailboxJunkEmailConfiguration** gebruiken om de safelist-verzameling op het postvak van een gebruiker te configureren. Deze parameters worden beschreven in de volgende tabel.
+De veilige lijst-verzameling in een postvak bevat de lijst met veilige afzenders, de lijst met veilige geadresseerden en de lijst met geblokkeerde afzenders. Gebruikers kunnen standaard de veilige lijst-verzameling configureren voor een eigen postvak in Outlook of de webversie van Outlook. Beheerders kunnen de bijbehorende parameters op de **set-MailboxJunkEmailConfiguration-** cmdlet gebruiken om de veilige lijst-verzameling in het postvak van een gebruiker te configureren. In de volgende tabel worden de volgende parameters beschreven.
 
-|||
+****
+
+|Parameter voor set-MailboxJunkEmailConfiguration|Instelling van de webversie van Outlook|
 |---|---|
-|**Parameter op Set-MailboxJunkEmailConfiguratie**|**Webinstelling van Outlook**|
-|_GeblokkeerdeSendersAndDomains_|**E-mail van deze afzenders of domeinen verplaatsen naar mijn map Ongewenste e-mail**|
-|_Contactpersonenvertrouwen_|**E-mail van mijn contactpersonen vertrouwen**|
-|_TrustedListsOnly_|**Vertrouw alleen e-mailadressen van adressen in mijn lijst met veilige afzenders en domeinen en veilige mailinglijsten**|
-|_TrustedSendersAndDomains_<sup>\*</sup>|**Verplaats e-mail van deze afzenders niet naar mijn map Ongewenste e-mail**|
+|_BlockedSendersAndDomains_|**E-mail van deze afzenders of domeinen naar de map Ongewenste E-mail verplaatsen**|
+|_ContactsTrusted_|**E-mail van mijn contactpersonen vertrouwen**|
+|_TrustedListsOnly_|**E-mail van adressen alleen vertrouwen in de lijsten met veilige afzenders en domeinen en de lijst met veilige adressen**|
+|_TrustedSendersAndDomains_<sup>\*</sup>|**E-mail van deze afzenders niet naar mijn map Ongewenste E-mail verplaatsen**|
 |
 
-<sup>\*</sup>**Toelichting :**
+<sup>\*</sup>**Opmerkingen**:
 
-- In Exchange Online worden **domeinvermeldingen** in de lijst Veilige afzenders of de parameter _TrustedSendersAndDomains_ niet herkend, dus gebruik alleen e-mailadressen. In standalone EOP met adreslijstsynchronisatie worden domeinvermeldingen niet standaard gesynchroniseerd, maar u synchronisatie voor domeinen inschakelen. Zie [KB3019657](https://support.microsoft.com/help/3019657)voor meer informatie.
+- In Exchange Online worden **domein vermeldingen** in de lijst met veilige afzenders of _TrustedSendersAndDomains_ niet herkend, dus gebruik alleen e-mailadressen. Bij zelfstandige EOP met adreslijstsynchronisatie worden domein vermeldingen niet standaard gesynchroniseerd, maar u kunt wel synchronisatie voor domeinen inschakelen. Zie [KB3019657](https://support.microsoft.com/help/3019657)voor meer informatie.
 
-- U de lijst Veilige geadresseerden niet rechtstreeks wijzigen met de cmdlet **Set-MailboxJunkEmailConfiguration** (de parameter _TrustedRecipientsAndDomains_ werkt niet). U wijzigt de lijst Met veilige afzenders en deze wijzigingen worden gesynchroniseerd met de lijst Veilige geadresseerden.
+- U kunt de lijst met veilige geadresseerden niet rechtstreeks wijzigen met behulp van de cmdlet **set-MailboxJunkEmailConfiguration** (de parameter _TrustedRecipientsAndDomains_ werkt niet). U wijzigt de lijst met veilige afzenders en deze wijzigingen worden gesynchroniseerd met de lijst met veilige geadresseerden.
 
-Als u de safelist-verzameling in een postvak wilt configureren, gebruikt u de volgende syntaxis:
+Gebruik de volgende syntaxis om de veilige lijst-verzameling te configureren voor een postvak:
 
 ```PowerShell
 Set-MailboxJunkEmailConfiguration <MailboxIdentity> -BlockedSendersAndDomains <EmailAddressesOrDomains | $null> -ContactsTrusted <$true | $false> -TrustedListsOnly <$true | $false> -TrustedSendersAndDomains  <EmailAddresses | $null>
 ```
 
-Als u meerdere waarden wilt invoeren en bestaande vermeldingen voor de parameters _BlockedSendersAndDomains_ en _TrustedSendersAndDomains_ wilt overschrijven, gebruikt u de volgende syntaxis: `"<Value1>","<Value2>"...` . Als u een of meer waarden wilt toevoegen of verwijderen zonder dat dit gevolgen heeft voor andere bestaande vermeldingen, gebruikt u de volgende syntaxis:`@{Add="<Value1>","<Value2>"... ; Remove="<Value3>","<Value4>...}`
+Als u meerdere waarden wilt invoeren en de bestaande vermeldingen voor de parameters voor _BlockedSendersAndDomains_ en _TrustedSendersAndDomains_ wilt overschreven, gebruikt u de volgende syntaxis: `"<Value1>","<Value2>"...` . Gebruik de volgende syntaxis om een of meer waarden toe te voegen of te verwijderen zonder dat dit van invloed is op andere bestaande vermeldingen:`@{Add="<Value1>","<Value2>"... ; Remove="<Value3>","<Value4>...}`
 
-In dit voorbeeld worden de volgende instellingen geconfigureerd voor de safelist-verzameling op het postvak van Ori Epstein:
+In dit voorbeeld worden de volgende instellingen geconfigureerd voor de veilige lijst-verzameling in het postvak van ori Epstein:
 
-- Voeg de waarde shopping@fabrikam.com toe aan de lijst Geblokkeerde afzenders.
+- Voeg de waarde shopping@fabrikam.com toe aan de lijst met geblokkeerde afzenders.
 
-- Verwijder de waarde chris@fourthcoffee.com uit de lijst Veilige afzenders en de lijst Veilige geadresseerden.
+- Verwijder de waarde chris@fourthcoffee.com uit de lijst met veilige afzenders en de lijst met veilige geadresseerden.
 
-- Hiermee configureert u contactpersonen in de map Contactpersonen om te worden behandeld als vertrouwde afzenders.
+- Hiermee worden contactpersonen in de map met contactpersonen geconfigureerd zodat ze als vertrouwde afzenders worden beschouwd.
 
 ```PowerShell
 Set-MailboxJunkEmailConfiguration "Ori Epstein" -BlockedSendersAndDomains @{Add="shopping@fabrikam.com"} -TrustedSendersAndDomains @{Remove="chris@fourthcoffee.com"} -ContactsTrusted $true
 ```
 
-In dit voorbeeld wordt het domein contoso.com verwijderd uit de lijst Geblokkeerde afzenders in alle gebruikerspostvakken in de organisatie.
+In dit voorbeeld wordt de contoso.com van de lijst met geblokkeerde afzenders in alle gebruikerspostvakken van de organisatie verwijderd.
 
 ```PowerShell
 $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All | foreach {Set-MailboxJunkEmailConfiguration $_.Name -BlockedSendersAndDomains @{Remove="contoso.com"}}
 ```
 
-Zie [Set-MailboxJunkEmailConfiguration voor](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration)gedetailleerde syntaxis- en parametergegevens .
+Zie [set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration)voor gedetailleerde syntaxis-en parameterinformatie.
 
 > [!NOTE]
-> 
-> - Als de gebruiker zijn postvak nooit heeft geopend, ontvangt u mogelijk een foutmelding wanneer u de vorige opdrachten uitvoert. Als u deze fout voor bulkbewerkingen wilt onderdrukken, voegt u de `-ErrorAction SlientlyContinue` opdracht **Set-MailboxJunkEmailConfiguration toe aan de opdracht Set-MailboxJunkEmailConfiguration.**
-> 
-> - Zelfs als de regel voor ongewenste e-mail is uitgeschakeld in het postvak, u de verzameling van de safelist nog steeds configureren en kan het filter Ongewenste e-mail van Outlook berichten verplaatsen naar het postvak IN of de map Ongewenste e-mail. Zie de sectie [Over ongewenste e-mail in Outlook in](#about-junk-email-settings-in-outlook) dit onderwerp voor meer informatie.
-> 
-> - Het Filter ongewenste e-mail van Outlook heeft extra instellingen voor het verzamelen van safelists (voeg bijvoorbeeld **automatisch mensen toe die ik e-mail aan de lijst Veilige afzenders).** Zie [Filters voor ongewenste e-mail gebruiken om te bepalen welke berichten u ziet](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077)voor meer informatie.
+>
+> - Als de gebruiker het postvak niet heeft geopend, wordt er mogelijk een fout weergegeven wanneer u de vorige opdrachten uitvoert. Als u deze fout wilt onderdrukken voor bulkbewerkingen, voegt u deze toe `-ErrorAction SlientlyContinue` aan de opdracht **set-MailboxJunkEmailConfiguration** .
+>
+> - Zelfs als de regel voor ongewenste e-mail is uitgeschakeld voor het postvak, kunt u de veilige lijst-verzameling nog steeds configureren, en het filter voor ongewenste E-mail van Outlook kan berichten naar het postvak in of de map Ongewenste E-mail verplaatsen. Zie voor meer informatie het artikel [over de instellingen voor ongewenste e-mail in Outlook](#about-junk-email-settings-in-outlook) in dit onderwerp.
+>
+> - Het filter voor ongewenste E-mail van Outlook bevat extra instellingen voor de veilige lijst-verzameling (bijvoorbeeld **automatisch e-mailberichten toevoegen aan de lijst met veilige afzenders**). Zie voor meer informatie de [filters voor ongewenste E-mail gebruiken om te bepalen welke berichten worden weer](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077)gegeven.
 
 ### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
-Als u wilt controleren of u de safelist-verzameling in een postvak hebt geconfigureerd, gebruikt u een van de volgende procedures:
+Voer een van de volgende procedures uit om te controleren of u de veilige lijst-verzameling hebt geconfigureerd voor een postvak:
 
-- Vervang _\<MailboxIdentity\>_ de naam, alias of het e-mailadres van het postvak en voer de volgende opdracht uit om de eigenschapswaarden te verifiëren:
+- Vervang door _\<MailboxIdentity\>_ de naam, alias of het e-mailadres van het postvak en voer de volgende opdracht uit om de eigenschapwaarden te controleren:
 
   ```PowerShell
   Get-MailboxJunkEmailConfiguration -Identity "<MailboxIdentity>" | Format-List trusted*,contacts*,blocked*
   ```
 
-  Als de lijst met waarden te lang is, gebruikt u deze syntaxis:
+  Als de lijst met waarden te lang is, gebruikt u de volgende syntaxis:
 
   ```PowerShell
   (Get-MailboxJunkEmailConfiguration -Identity <MailboxIdentity>).BlockedSendersAndDomains
   ```
 
-## <a name="about-junk-email-settings-in-outlook"></a>Informatie over instellingen voor ongewenste e-mail in Outlook
+## <a name="about-junk-email-settings-in-outlook"></a>Instellingen voor ongewenste e-mail in Outlook
 
-Als u de instellingen voor ongewenste e-mailfilter aan de clientzijde die beschikbaar zijn in Outlook, wilt in- en configureren, gebruikt u Groepsbeleid. Zie [Instellingen voor beheerderssjabloonbestanden (ADMX/ADML) en Office Customization Tool voor Microsoft 365 Apps voor bedrijven, Office 2019 en Office 2016](https://www.microsoft.com/download/details.aspx?id=49030) en [Instellingen voor ongewenste e-mail implementeren, zoals de lijst Veilige afzenders, voor](https://support.microsoft.com/help/2252421)meer informatie met groepsbeleid.
+Als u de instellingen voor het filter voor ongewenste E-mail aan de clientzijde wilt inschakelen, uitschakelen en configureren, gebruikt u Groepsbeleid. Zie voor meer informatie [Administrative template files (ADMX/ADML) en Office Customization Tool voor Microsoft 365-apps voor Enterprise, office 2019 en office 2016](https://www.microsoft.com/download/details.aspx?id=49030) en [hoe u instellingen voor ongewenste e-mail, zoals de lijst met veilige afzenders, via Groepsbeleid](https://support.microsoft.com/help/2252421).
 
-Wanneer het Outlook-filter voor ongewenste e-mail is ingesteld op de standaardwaarde **Geen automatische filtering** in opties voor ongewenste e-mailopties **voor** ongewenste \> **Junk** \> **e-mail** \> **Options**thuis, probeert Outlook massages niet te classificeren als spam, maar gebruikt u nog steeds de safelist-verzameling (de lijst Met veilige afzenders, lijst Met veilige geadresseerden en lijst Met geblokkeerde afzenders) om berichten na levering naar de map Ongewenste e-mail te verplaatsen. Zie Overzicht van het [filter ongewenste e-mail](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)voor meer informatie over deze instellingen.
+Wanneer het filter voor ongewenste **e-mail van Outlook** is ingesteld op de standaardwaarde in de opties voor het uitschakelen **van ongewenste e-mail** in \> **Junk** \> **Junk E-Mail Options** \> **Options**Outlook, wordt niet geprobeerd massages te classificeren als spam, maar wordt de veilige lijst-verzameling (de lijst met veilige afzenders, de lijst met veilige geadresseerden en de lijst met geblokkeerde afzenders) gebruikt om berichten te verplaatsen naar de map Ongewenste e-mail na levering. Zie [overzicht van het filter voor ongewenste e-mail](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)voor meer informatie over deze instellingen.
 
-Wanneer het filter ongewenste e-mail van Outlook is ingesteld **op Laag** of **Hoog,** gebruikt het filter Ongewenste e-mail van Outlook zijn eigen SmartScreen-filtertechnologie om spam te identificeren en te verplaatsen naar de map Ongewenste e-mail. Deze spamclassificatie staat los van het spamvertrouwensniveau (SCL) dat wordt bepaald door EOP. In feite negeert Outlook de SCL van EOP (tenzij EOP het bericht heeft gemarkeerd om spamfiltering over te slaan) en gebruikt het zijn eigen criteria om te bepalen of het bericht spam is. Natuurlijk is het mogelijk dat de spam uitspraak van EOP en Outlook hetzelfde zou kunnen zijn. Zie [Het beschermingsniveau wijzigen in het filter ongewenste e-mail wijzigen](https://support.microsoft.com/office/e89c12d8-9d61-4320-8c57-d982c8d52f6b)voor meer informatie over deze instellingen.
+Wanneer het filter voor ongewenste e-mail van Outlook is ingesteld op **slecht** of **hoog**, gebruikt het filter voor ongewenste e-mail van Outlook een eigen versie van het filter om ongewenste e-mail te identificeren en te verplaatsen naar de map Ongewenste e-mail. Deze categorie voor ongewenste e-mail is losstaat van het spam betrouwbaarheidsniveau (SCL) dat wordt bepaald door EOP. In feite negeert Outlook de SCL van EOP (tenzij EOP het bericht heeft gemarkeerd om spam te filteren) en worden de eigen criteria gebruikt om te bepalen of het bericht spam bevat. U kunt natuurlijk natuurlijk ook de spam verdict van EOP en Outlook. Zie [het beschermingsniveau voor ongewenste E-mail wijzigen](https://support.microsoft.com/office/e89c12d8-9d61-4320-8c57-d982c8d52f6b)voor meer informatie over deze instellingen.
 
 > [!NOTE]
-> In november 2016 is Microsoft gestopt met het produceren van spamdefinitie-updates voor de SmartScreen-filters in Exchange en Outlook. De bestaande SmartScreen spam definities werden achtergelaten op zijn plaats, maar hun effectiviteit zal waarschijnlijk degraderen na verloop van tijd. Zie [Ondersteuning voor SmartScreen deprecating in Outlook en Exchange voor](https://techcommunity.microsoft.com/t5/exchange-team-blog/deprecating-support-for-smartscreen-in-outlook-and-exchange/ba-p/605332)meer informatie.
+> In november 2016 hebben Microsoft geen updates van de definities van spam updates voor de SmartScreen-filters in Exchange en Outlook. De bestaande definities voor de SmartScreen-spam werden weggegaan, maar de effectiviteit ervan is waarschijnlijk slecht. Voor meer informatie raadpleegt u ondersteuning voor het weergeven van [ondersteuning voor SmartScreen in Outlook en Exchange](https://techcommunity.microsoft.com/t5/exchange-team-blog/deprecating-support-for-smartscreen-in-outlook-and-exchange/ba-p/605332).
 
-Het filter ongewenste e-mail van Outlook kan dus de safelist-verzameling van het postvak en de eigen spamclassificatie gebruiken om berichten naar de map Ongewenste e-mail te verplaatsen, zelfs als de regel voor ongewenste e-mail is uitgeschakeld in het postvak.
+Het filter voor ongewenste E-mail van Outlook kan de veilige lijst-verzameling van het postvak en de afzonderlijke indeling voor ongewenste e-mail gebruiken voor het verplaatsen van berichten naar de map Ongewenste E-mail, zelfs als de regel voor ongewenste e-mail is uitgeschakeld in het postvak.
 
-Outlook en Outlook op de web ondersteunen beide de safelist-verzameling. De safelist-verzameling wordt opgeslagen in het Exchange Online-postvak, zodat wijzigingen in de safelist-verzameling in Outlook in de web en vice versa worden weergegeven.
+De webversie van Outlook en de webversie van Outlook biedt ondersteuning voor de veilige lijst-verzameling. De veilige lijst-verzameling wordt opgeslagen in het postvak van Exchange Online, dus wijzigingen in de veilige lijst-verzameling in Outlook worden weergegeven in de webversie van Outlook, en omgekeerd.
 
-## <a name="limits-for-junk-email-settings"></a>Limieten voor instellingen voor ongewenste e-mail
+## <a name="limits-for-junk-email-settings"></a>Limieten voorinstellingen voor ongewenste e-mail
 
-De safelist-verzameling (de lijst Met veilige afzenders, lijst met veilige geadresseerden en lijst met geblokkeerde afzenders) die is opgeslagen in het postvak van de gebruiker, wordt ook gesynchroniseerd met EOP. Met adreslijstsynchronisatie wordt de safelist-verzameling gesynchroniseerd met Azure AD.
+De verzameling veilige lijst (de lijst met veilige afzenders, de lijst met veilige geadresseerden en de lijst met geblokkeerde afzenders) die zijn opgeslagen in het postvak van de gebruiker, wordt ook gesynchroniseerd met EOP. Met adreslijstsynchronisatie wordt de veilige lijst-verzameling gesynchroniseerd met Azure AD.
 
-- De safelist verzameling in het postvak van de gebruiker heeft een limiet van 510 KB, die alle lijsten bevat, plus extra ongewenste e-mail filterinstellingen. Als een gebruiker deze limiet overschrijdt, ontvangt hij/zij een Outlook-fout die er als volgt uitziet:
+- De veilige lijst-verzameling in het postvak van de gebruiker heeft een limiet van 510 KB, dit omvat alle lijsten, plus aanvullende instellingen voor het filter voor ongewenste e-mail. Als een gebruiker deze limiet overschrijdt, wordt er een Outlook-fout weergegeven die er als volgt uitziet:
 
-  > Kan/kan niet worden toegevoegd aan de e-maillijsten van de server. U bent meer dan de grootte toegestaan op de server. Het filter Ongewenste e-mail op de server wordt uitgeschakeld totdat uw ongewenste e-maillijsten zijn teruggebracht tot de grootte die door de server is toegestaan.
+  > Kan/kan niet worden toegevoegd aan de lijsten voor ongewenste E-mail van de server. U hebt de grootte van de server overschreden. Het filter voor ongewenste E-mail op de server wordt uitgeschakeld totdat uw lijsten met ongewenste E-mail zijn beperkt tot de grootte die door de server is toegestaan.
 
-  Zie [KB2669081](https://support.microsoft.com/help/2669081)voor meer informatie over deze limiet en hoe u deze wijzigen.
+  Zie [KB2669081](https://support.microsoft.com/help/2669081)voor meer informatie over deze limiet en hoe u deze kunt wijzigen.
 
-- De gesynchroniseerde safelist verzameling in EOP heeft de volgende synchronisatielimieten:
+- De gesynchroniseerde veilige lijst-verzameling in EOP heeft de volgende synchronisatie beperkingen:
 
-  - 1024 totaalvermeldingen in de lijst Veilige afzenders, de lijst Veilige geadresseerden en externe contactpersonen als **e-mail vertrouwen van mijn contactpersonen** is ingeschakeld.
-  - 500 in totaal vermeldingen in de lijst Geblokkeerde afzenders en Geblokkeerde domeinen.
+  - 1024 totale vermeldingen in de lijst met veilige afzenders, de lijst met veilige geadresseerden en externe contactpersonen als de functie **e-mail van mijn contactpersonen vertrouwen** is ingeschakeld.
+  - 500 totale vermeldingen in de lijst met geblokkeerde afzenders en geblokkeerde domeinen.
 
-  Wanneer de 1024-instaplimiet is bereikt, gebeuren de volgende dingen:
+  Wanneer de 1024-invoer limiet is bereikt, gebeurt het volgende:
 
-  - De lijst stopt met het accepteren van items in PowerShell en Outlook op het web, maar er wordt geen fout weergegeven.
+  - In de lijst worden geen vermeldingen geaccepteerd in PowerShell en de webversie van Outlook, maar er wordt geen foutbericht weergegeven.
 
-    Outlook-gebruikers kunnen meer dan 1024-vermeldingen blijven toevoegen totdat ze de Outlook-limiet van 510 KB hebben bereikt. Outlook kan deze extra vermeldingen gebruiken, zolang een EOP-filter het bericht niet blokkeert voordat het aan het postvak wordt bezorgd (regels voor e-mailstroom, anti-spoofing, enz.).
+    Outlook-gebruikers kunnen meer dan 1024-vermeldingen toevoegen totdat ze de Outlook-limiet van 510 KB bereiken. In Outlook kunnen deze extra vermeldingen worden gebruikt, zolang een EOP-filter het bericht niet blokkeert voordat het wordt bezorgd in het postvak (e-mail stroom regels, anti-spoofing, enzovoort).
 
 - Met adreslijstsynchronisatie worden de vermeldingen in de volgende volgorde gesynchroniseerd met Azure AD:
 
-  1. **E-mailcontactpersonen als e-mail vertrouwen van mijn contactpersonen** is ingeschakeld.
-  2. De lijst met veilige afzenders en de lijst veilige geadresseerden worden gecombineerd, gedupliceerd en alfabetisch gesorteerd wanneer er een wijziging wordt aangebracht voor de eerste 1024-vermeldingen.
+  1. Contactpersonen verzenden als **e-mail van mijn contactpersonen vertrouwen** is ingeschakeld.
+  2. De lijst met veilige afzenders en lijst met veilige geadresseerden worden gecombineerd, opnieuw gedupliceerd en alfabetisch gesorteerd wanneer een wijziging wordt aangebracht voor de eerste 1024-vermeldingen.
 
-  De eerste 1024 vermeldingen worden gebruikt en relevante informatie wordt gestempeld in de berichtkoppen.
+  De eerste 1024-vermeldingen worden gebruikt en de relevante informatie wordt in de berichtkoppen vastgelegd.
 
-  Items van meer dan 1024 die niet zijn gesynchroniseerd met Azure AD, worden verwerkt door Outlook (niet outlook op de web) en er wordt geen informatie gestempeld in de berichtkoppen.
+  Vermeldingen via 1024 die niet zijn gesynchroniseerd met Azure AD, worden verwerkt door Outlook (niet in de webversie van Outlook) en er worden geen gegevens in de berichtkoppen weergegeven.
 
-Zoals u zien, vermindert het inschakelen van de **e-mail Vertrouwen vanuit mijn contactpersoneninstelling** het aantal veilige afzenders en veilige geadresseerden dat kan worden gesynchroniseerd. Als dit een probleem is, raden we u aan groepsbeleid te gebruiken om deze functie uit te schakelen:
+Zoals u ziet, is het mogelijk dat de instelling **e-mail van mijn contactpersonen vertrouwen** het aantal veilige afzenders en veilige geadresseerden die kan worden gesynchroniseerd, reduceert. Als dit het geval is, is het raadzaam om Groepsbeleid te gebruiken om deze functie uit te schakelen:
 
-- Bestandsnaam: outlk16.opax
-- Beleidsinstelling: **E-mail vertrouwen van contactpersonen**
+- Bestandsnaam: outlk16. opax
+- Beleidsinstelling: **e-mail van contactpersonen vertrouwen**
