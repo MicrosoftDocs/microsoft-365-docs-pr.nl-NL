@@ -135,7 +135,7 @@
                   href: mtp/advanced-hunting-take-action.md
                 - name: Gedeelde query's gebruiken
                   href: mtp/advanced-hunting-shared-queries.md
-                - name: Op apparaten en e-mailberichten opsporen
+                - name: 'Opsporen op apparaten en in e-mailberichten, apps en identiteiten'
                   href: mtp/advanced-hunting-query-emails-devices.md
                 - name: Beginnen met opsporen
                   href: mtp/advanced-hunting-go-hunt.md
