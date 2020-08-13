@@ -21,12 +21,12 @@ search.appverid:
 description: Ontvang technische en factureringsondersteuning via het telefoonnummer dat wordt weergegeven voor uw land of regio of door uw serviceaanvraag online te versturen.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 6a7daed145294fa0e1c02ac47144d06cfdf26884
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 1db89882db693c2102ca5c8dcb28f7ceb3ebf12e
+ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552444"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46641583"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Manieren om contact op te nemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders
 
@@ -56,6 +56,9 @@ Bespaar tijd door uw serviceaanvraag online in te dienen. Wij helpen u bij het z
 Ondersteuning voor facturering is beschikbaar in het Engels van 09:00 tot 17:00 uur (09:00 tot 18:00 uur in Australië), van maandag t/m vrijdag.\
 Technische ondersteuning is beschikbaar in het Engels, 24 uur per dag, 7 dagen per week.\
 Beheerders: houd uw accountgegevens bij de hand wanneer u belt.
+
+> [!NOTE]
+> Om uw organisatie beter te beveiligen, hebben we een verificatiestap met pincode toegevoegd aan ons bestaande verificatieproces met telefoon. Als u contact met ons opneemt vanaf een nummer dat niet is geregistreerd bij uw organisatieprofiel, dan stuurt de ondersteuningsmedewerker van Microsoft een verificatiecode naar het geregistreerde e-mailadres of telefoonnummer in het profiel van uw Microsoft 365-beheercentrum. U moet deze code opgeven aan de ondersteuningsmedewerker om die toegang te geven tot het account van uw organisatie.
 
 - **In de Verenigde Staten belt u 1 800 865 9408.**
 

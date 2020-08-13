@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
-ms.openlocfilehash: d8a8ab2f5c7de5d57f50ec6b1c26e0fc71ac6616
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: 2241f48877019cb20484aea0dd1fcf7b9e7b8bb5
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434047"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653603"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -45,9 +45,11 @@ Office 365 ATP (Advanced Threat Protection) beschermt uw organisatie tegen kwaad
 
 De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement.
 
-| Office 365 ATP-abonnement 1 | Office 365 ATP-abonnement 2 |
+****
+
+|Office 365 ATP-abonnement 1|Office 365 ATP-abonnement 2|
 |---|---|
-|Functies voor configuratie, beveiliging en detectie:<br/>• [Veilige bijlagen](atp-safe-attachments.md)<br/>• [Veilige koppelingen](atp-safe-links.md)<br/>• [ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>• [ATP-bescherming tegen phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)<br/>• [Realtime detectie](threat-explorer.md)|Functies van Office 365 ATP-abonnement 1<br/>--- plus ---<br/>Functies voor automatisering, onderzoek, herstel en onderwijs:<br/>• [Bedreigingsoverzichten](threat-trackers.md)<br/>• [Bedreigingsverkenner](threat-explorer.md)<br/>• [Geautomatiseerd onderzoek en reactie](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) <br/>• [Aanvalssimulator](attack-simulator.md) |
+|<br/>Functies voor configuratie, beveiliging en detectie: <ul><li>[Veilige bijlagen](atp-safe-attachments.md)</li><li>[Veilige koppelingen](atp-safe-links.md)</li><li>[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[ATP-bescherming tegen phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)</li><li>[Detecties in realtime](threat-explorer.md)</li></ul>|Functies van Office 365 ATP-abonnement 1<br/>--- plus ---<br/>Functies voor automatisering, onderzoek, herstel en onderwijs:</li><li>[Bedreigingsoverzichten](threat-trackers.md)</li><li>[Bedreigingsverkenner](threat-explorer.md)</li><li>[Geautomatiseerd onderzoek en reactie](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)</li><li>[Aanvalssimulator](attack-simulator.md)</li></ul>|
 |
 
 - Office 365 ATP-abonnement 2 is inbegrepen in Office 365 E5, Office 365 A5 en Microsoft 365 E5.
@@ -112,11 +114,11 @@ Office 365 ATP-abonnement 2 bevat de beste [hulpmiddelen voor bedreigingsonderzo
 U moet een passende rol zijn toegewezen om toegang te krijgen tot ATP-functies in het Beveiligings- en compliancecentrum. De volgende tabel bevat enkele voorbeelden:
 
 |Rol of rollengroep|Informatiebronnen|
-|---------|---------|
-|Globale beheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum) |[Over Microsoft 365-beheersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
-|Beveiligingsbeheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum) |[Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[Rapporten in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|
+|---|---|
+|Globale beheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum)|[Over Microsoft 365-beheersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
+|Beveiligingsbeheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum)|[Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[Rapporten in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|
 |Exchange Online Organization Management (die wordt toegewezen in Exchange Online)|[Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)<br><br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
-|Zoeken en opschonen (die wordt alleen toegewezen in het beveiligings- en compliancecentrum) |[Machtigingen in het Beveiligings- en compliancecentrum](machtigingen-in-het-beveiligings-en-compliance-centrum.md|
+|Zoeken en opschonen (die wordt alleen toegewezen in het beveiligings- en compliancecentrum)|[Machtigingen in het Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|
 
 Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 

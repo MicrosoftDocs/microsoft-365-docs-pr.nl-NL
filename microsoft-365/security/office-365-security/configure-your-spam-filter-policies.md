@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
-ms.openlocfilehash: 60b53e21978867321f6fe824da35db683dc76663
-ms.sourcegitcommit: a53af7a228bb1f58cb8128a69a19da49f9e28700
+ms.openlocfilehash: fea1ae4a43ee3002c49bd6511a55a3d490723fc2
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45372559"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656813"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -118,19 +118,24 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
      - Een vinkje ( ![vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)) geeft aan dat de actie beschikbaar is (niet alle acties zijn beschikbaar voor alle spamfilterbeoordelingen).
      - Een asterisk (<sup>\*</sup>) na het vinkje geeft de standaardactie aan voor de spamfilterbeoordeling. 
 
-    |||||||
-    |:---|:---:|:---:|:---:|:---:|:---:|
-    ||**Spam**|**Hoogst<br/>waarschijnlijk<br/>Spam**|**Phishing-<br/>e-mail**|**Hoogst<br/>waarschijnlijk <br/>Phishing<br/>-e-mail**|**Bulk-<br/>e-mail**|
-    |**Bericht verplaatsen naar de map Ongewenste e-mail**: het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
-    |**X-kop toevoegen**: hiermee wordt een X-kop toegevoegd aan de berichtkop en het bericht bezorgd in het postvak. <br/> U voert de veldnaam (niet de waarde) van de X-kop later in het vak **Deze X-koptekst toevoegen** in.  <br/><br/> Bij de beoordelingen **Spam** en **Hoogstwaarschijnlijk spam** wordt het bericht verplaatst nar de map Ongewenste e-mail.<sup>1,2</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
-    |**Onderwerpregel vooraan uitbreiden met tekst**: hiermee wordt tekst toegevoegd aan het begin van de onderwerpregel van het bericht. Het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1,2</sup> <br/> U voert de tekst later in het vak **Voeg deze tekst toe vooraan de onderwerpregel** in.|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-    |**Bericht naar e-mailadres omleiden**: hiermee wordt het bericht omgeleid naar andere geadresseerden in plaats van de beoogde geadresseerde. <br/> U geeft de geadresseerden later op in het vak **Omleiden naar dit e-mailadres**.|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-    |**Bericht verwijderen**: hiermee wordt het volledige bericht verwijderd, inclusief alle bijlagen.|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-    |**Bericht in quarantaine**: hiermee wordt het bericht in quarantaine geplaatst in plaats van verzonden naar de beoogde geadresseerden. <br/> U geeft later in het vak **Quarantaine** aan hoelang het bericht in quarantaine moet blijven.|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-    |**Geen actie**|||||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-    |
+     ****
 
-    > <sup>1</sup> In Exchange Online wordt het bericht verplaatst naar de map Ongewenste e-mail als de regel Ongewenste e-mail is ingeschakeld voor het postvak (standaard is die regel ingeschakeld). Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.<br/>In standalone EOP-omgevingen waar EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de EOP-spamfilterbeoordeling te vertalen, zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. <br/><br/><sup>2</sup> U kunt deze waarde gebruiken als voorwaarde in e-mailstroomregels (ook wel transportregels) om het bericht te filteren of om te leiden.
+     |<span>|Spam|Hoog<br/>betrouwbaarheid<br/>spam|Phishing<br/>e-mail|Hoog<br/>betrouwbaarheid<br/>phishing<br/>e-mail|Bulk<br/>e-mail|
+     |---|:---:|:---:|:---:|:---:|:---:|
+     |**Bericht verplaatsen naar de map Ongewenste e-mail**: het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
+     |**X-kop toevoegen**: hiermee wordt een X-kop toegevoegd aan de berichtkop en het bericht bezorgd in het postvak. <br/> U voert de veldnaam (niet de waarde) van de X-kop later in het vak **Deze X-koptekst toevoegen** in.  <br/><br/> Bij de beoordelingen **Spam** en **Hoogstwaarschijnlijk spam** wordt het bericht verplaatst nar de map Ongewenste e-mail.<sup>1,2</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
+     |**Onderwerpregel vooraan uitbreiden met tekst**: hiermee wordt tekst toegevoegd aan het begin van de onderwerpregel van het bericht. Het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1,2</sup> <br/> U voert de tekst later in het vak **Voeg deze tekst toe vooraan de onderwerpregel** in.|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+     |**Bericht naar e-mailadres omleiden**: hiermee wordt het bericht omgeleid naar andere geadresseerden in plaats van de beoogde geadresseerde. <br/> U geeft de geadresseerden later op in het vak **Omleiden naar dit e-mailadres**.|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+     |**Bericht verwijderen**: hiermee wordt het volledige bericht verwijderd, inclusief alle bijlagen.|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+     |**Bericht in quarantaine**: hiermee wordt het bericht in quarantaine geplaatst in plaats van verzonden naar de beoogde geadresseerden. <br/> U geeft later in het vak **Quarantaine** aan hoelang het bericht in quarantaine moet blijven.|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+     |**Geen actie**|||||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+     |
+
+     > <sup>1</sup> In Exchange Online wordt het bericht verplaatst naar de map Ongewenste e-mail als de regel Ongewenste e-mail is ingeschakeld voor het postvak (standaard is die regel ingeschakeld). Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
+     >
+     > In standalone EOP-omgevingen waar EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de EOP-spamfilterbeoordeling te vertalen, zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. 
+     >
+     > <sup>2</sup> U kunt deze waarde gebruiken als voorwaarde in e-mailstroomregels (ook wel transportregels) om het bericht te filteren of om te leiden.
 
    - **De drempelwaarde selecteren**: hiermee wordt het bulkklachtniveau (BCL) van een bericht aangegeven dat de gespecificeerde actie activeert voor de **Bulk-e-mail**-spamfilterbeoordeling (groter dan de opgegeven waarde, niet groter dan of gelijk aan). Een hogere waarde geeft aan dat het bericht minder wenselijk is (grotere kans dat het bericht spam is). De standaardwaarde is 7. Zie [Bulkklachtniveau (BCL) in EOP](bulk-complaint-level-values.md) en [Wat is het verschil tussen ongewenste e-mail en bulk-e-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md) voor meer informatie.
 
@@ -169,7 +174,10 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 5. (Optioneel) Vouw de sectie **Lijsten toestaan** uit om op basis van e-mailadres of e-maildomein afzenders van berichten te configureren die de spamfilters mogen overslaan:
 
    > [!CAUTION]
-   > • Denk goed na voordat u hier domeinen toevoegt. Zie [Lijsten met veilige afzenders maken in EOP](create-safe-sender-lists-in-office-365.md) voor meer informatie. <br/><br/> • Voeg nooit geaccepteerde domeinen (domeinen waarvan u eigenaar bent) of algemene domeinen (bijv.: microsoft.com of office.com) toe aan de lijst met toegestane domeinen. Hiermee kunnen kwaadwillende gebruikers e-mail verzenden die de e-mailspamfilters in uw bedrijf overslaat.
+   >
+   > - Denk goed na voordat u hier domeinen toevoegt. Zie [Lijsten met veilige afzenders maken in EOP](create-safe-sender-lists-in-office-365.md) voor meer informatie.
+   >
+   > - Voeg nooit geaccepteerde domeinen (domeinen waarvan u eigenaar bent) of algemene domeinen (bijv.: microsoft.com of office.com) toe aan de lijst met toegestane domeinen. Hiermee kunnen kwaadwillende gebruikers e-mail verzenden die de e-mailspamfilters in uw bedrijf overslaat.
 
    - **Afzender toelaten**: klik op **Bewerken**. In het deelvenster **Lijst met toegestane afzenders** dat wordt weergegeven:
 

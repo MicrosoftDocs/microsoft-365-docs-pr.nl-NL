@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat berichten die worden verzonden vanuit uw aangepaste domein worden vertrouwd door de ontvangende e-mailsystemen.
-ms.openlocfilehash: 4ec5f7c8779e9d6b6709c8fc3311ec9c0e99b680
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 36e62600836c66b9e7be61ddd07a6081af4ffbeb
+ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754842"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46632161"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein
 
@@ -227,7 +227,7 @@ Wacht een paar minuten voordat u deze stappen uitvoert om te bevestigen dat u de
 
 - Verzend een bericht vanuit een account in uw Microsoft 365-domein met ingeschakelde DKIM naar een ander e-mailaccount, zoals outlook.com of Hotmail.com.
 
-- Gebruik geen aol.com-account voor testdoeleinden. AOL kan het DKIM-controle overslaan als de SPF-controle slaagt. De test wordt hierdoor zinloos.
+- Gebruik geen aol.com-account voor testdoeleinden. AOL kan de DKIM-controle overslaan als de SPF-controle slaagt. De test wordt hierdoor zinloos.
 
 - Open het bericht en bekijk de berichtkop. De instructies voor het bekijken van berichtkop tekst kan variëren afhankelijk van uw e-mailclient. Voor instructies over het bekijken van berichtkoppen in Outlook, raadpleegt u [Internetberichtkoppen bekijken in Outlook](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c).
 
@@ -331,6 +331,16 @@ In dit voorbeeld, om dit resultaat te bereiken, moet u het volgende doen:
    > sender@**contoso.com**
 
    > d=**contoso.com**
+   
+## <a name="identify-domains-that-do-not-send-email"></a>Domeinen identificeren die geen e-mail verzenden
+
+Organisaties moeten het duidelijk aangeven als een domein geen e-mail verzendt, door `v=DKIM1; p=` op te geven in de DKIM-record voor die domeinen. Dit geeft aan ontvangende e-mailservers aan dat er geen geldige openbare sleutels zijn voor het domein en e-mails die beweren van dat domein afkomstig te zijn, moeten worden geweigerd. U moet dit voor elk domein en subdomein doen met een DKIM met jokerteken.
+
+De DKIM-record zou er bijvoorbeeld als volgt uitzien:
+
+```console
+*._domainkey.SubDomainThatShouldntSendMail.contoso.com. TXT "v=DKIM1; p="
+```
 
 ## <a name="next-steps-after-you-set-up-dkim-for-microsoft-365"></a>Volgende stappen: nadat u DKIM hebt ingesteld voor Microsoft 365
 <a name="DKIMNextSteps"> </a>

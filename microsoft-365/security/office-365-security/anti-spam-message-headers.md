@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen meer informatie krijgen over de velden met berichtkoppen die door Exchange Online Protection (EOP) worden toegevoegd aan berichten. Deze koptekstvelden bieden informatie over het bericht en hoe dit is verwerkt.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ce0b906bb627a7de11e5a8a6db02c9c6f330a62
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 5073e0721e82e969dbeaa850cc38cb13100a7947
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755354"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653423"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Berichtkoppen tegen ongewenste e-mail in Microsoft 365
 
@@ -43,9 +43,10 @@ De afzonderlijke velden en waarden worden beschreven in de volgende tabel.
 > [!NOTE]
 > De koptekst **X-Forefront-Antispam-Report** bevat vele verschillende koptekstvelden en -waarden. Andere velden in deze kop die niet worden beschreven in de tabel worden uitsluitend door het Microsoft-antispamteam voor diagnostische doeleinden gebruikt.
 
-|||
+****
+
+|Berichtkopveld|Beschrijving|
 |---|---|
-|**Berichtkopveld**|**Beschrijving**|
 |ARC|Het ARC-protocol heeft de volgende berichtkoppen: <ul><li>AAR: hiermee wordt de inhoud van de berichtkop met verificatieresultaten van DMARC vastgelegd.</li><li>AMS: deze kop bevat cryptografische handtekeningen van het bericht.</li><li>AS: bevat cryptografische handtekeningen van de berichtkoppen. Deze koptekst bevat een tag voor een ketenvalidatie met de naam 'cv=', die het resultaat van de ketenvalidatie bevat als **none**, **pass** of **fail**.</li></ul>|
 |CAT:|De categorie beveiligingsbeleid, toegepast op het bericht: <ul><li>BULK: bulk</li><li>DIMP: imitatie van domein</li><li>GIMP: op imitatie gebaseerde postvakintelligentie</li><li>HPHSH or HPHISH: phishing van hoge waarschijnlijkheid</li><li>HSPM: spam van hoge waarschijnlijkheid</li><li>MALW: malware</li><li>PHSH: phishing</li><li>SPM: spam</li><li>SPOOF: spoofing</li><li>UIMP: imitatie van gebruiker</li><li>AMP: anti-malware</li><li>SAP: veilige bijlagen</li><li>OSPM: uitgaande spam</li></ul><br/>Een inkomend bericht kan zijn gemarkeerd door meerdere beveiligingswijzen en meerdere detectiescans. Beleidsregels hebben verschillende prioriteiten en de regel met de hoogste prioriteit wordt het eerst toegepast. Zie [Welke beleidsregel wordt toegepast wanneer meerdere beveiligingswijzen en detectiescans op uw e-mail worden uitgevoerd?](how-policies-and-protections-are-combined.md) voor meer informatie.|
 |CIP: \[IP-adres\]|Het IP-verbindingsadres. U kunt dit IP-adres gebruiken in de IP-acceptatielijst of IP-blokkeringslijst. Zie [Verbindingsfiltering configureren](configure-the-connection-filter-policy.md) voor meer informatie.|
@@ -75,9 +76,10 @@ De afzonderlijke velden en waarden worden beschreven in de volgende tabel.
 
 In de volgende tabel worden nuttige velden in de berichtkop **X-Microsoft-Antispam** beschreven. Andere velden in deze kop worden uitsluitend door het Microsoft-antispamteam voor diagnostische doeleinden gebruikt.
 
-|||
+****
+
+|Berichtkopveld|Beschrijving|
 |---|---|
-|**Berichtkopveld**|**Beschrijving**|
 |BCL|Het bulkklachtniveau (BCL) van het bericht. Een hogere BCL duidt op een bulk-e-mailbericht (ook wel _gray mail_ genoemd) en levert vermoedelijk meer klachten op (en is dus vermoedelijk spam). Zie [Bulkklachtniveau (BCL)](bulk-complaint-level-values.md) voor meer informatie.|
 |
 
@@ -140,9 +142,10 @@ dmarc=fail action=oreject header.from=contoso.com
 
 In deze tabel worden de velden en mogelijke waarden voor elke e-mailverificatie beschreven.
 
-|||
+****
+
+|Berichtkopveld|Beschrijving|
 |---|---|
-|**Berichtkopveld**|**Beschrijving**|
 |actie|Hiermee wordt aangegeven welke actie door het spamfilter is uitgevoerd op basis van de resultaten van de DMARC-controle. Bijvoorbeeld: <ul><li>**oreject** of **o.reject**: staat voor weigering negeren. In dit geval gebruikt Microsoft 365 deze actie als een bericht wordt ontvangen dat de DMARC-controle niet doorstaat van een domein met een DMARC TXT-record met beleidsregel p=reject. In plaats van het bericht te verwijderen of te weigeren, wordt het bericht in Microsoft 365 als spam gemarkeerd. Zie [Verwerken van inkomende e-mailberichten in Microsoft 365 die DMARC niet doorstaan](use-dmarc-to-validate-email.md#how-microsoft-365-handles-inbound-email-that-fails-dmarc) voor meer informatie over de manier waarom Microsoft 365 op deze manier wordt geconfigureerd.</li><li>**pct.quarantine**: hiermee wordt aangegeven dat minder dan 100% van de berichten die DMARC niet doorstaan, toch wordt bezorgd. Dit betekent dat het bericht DMARC niet heeft doorstaan en dat de beleidsregel is ingesteld op quarantine, maar dat het percentageveld niet is ingesteld op 100% en dat het systeem willekeurig heeft bepaald dat de actie DMARC niet wordt toegepast, conform het beleid van het opgegeven domein.</li><li>**pct.reject**: hiermee wordt aangegeven dat minder dan 100% van de berichten die DMARC niet doorstaan, toch wordt bezorgd. Dit betekent dat het bericht DMARC niet heeft doorstaan en dat de beleidsregel is ingesteld op reject, maar dat het percentageveld niet is ingesteld op 100% en dat het systeem willekeurig heeft bepaald dat de actie DMARC niet wordt toegepast, conform het beleid van het opgegeven domein.</li><li>**permerror**: er is een permanente fout opgetreden tijdens de DMARC-evaluatie, zoals bij een verkeerd geformuleerd DMARC TXT-record in DNS. Het opnieuw verzenden van dit bericht, leidt hoogstwaarschijnlijk tot hetzelfde resultaat. U kunt contact opnemen met de eigenaar van het domein om het probleem op te lossen.</li><li>**temperror**: er is een tijdelijke fout opgetreden tijdens de DMARC-evaluatie. U kunt de afzender vragen het bericht later opnieuw te verzenden om het e-mailbericht correct te kunnen verwerken.</li></ul>|
 |compauth|Resultaat van samengestelde verificatie. Wordt gebruikt voor Microsoft 365 om meerdere typen verificatie te combineren, zoals SPF, DKIM, DMARC of een ander deel van het bericht om te bepalen of het bericht al dan niet wordt geverifieerd. Hierbij wordt het domein Van: gebruikt als basis voor de evaluatie.|
 |dkim|Beschrijft de resultaten van de DKIM-controle van het bericht. Mogelijke waarden zijn: <ul><li>**pass**: hiermee wordt aangegeven dat de DKIM-controle van het bericht is geslaagd.</li><li>**fail (reden)**: hiermee wordt aangegeven dat de DKIM-controle van het bericht is mislukt en de reden waarom. Bijvoorbeeld als het bericht niet is ondertekend of als de handtekening niet is gecontroleerd.</li><li>**none**: hiermee wordt aangegeven dat het bericht niet is ondertekend. Dit kan al of niet betekenen dat het domein een DKIM-record heeft of dat het DKIM-record geen resultaat oplevert. Het betekent in elk geval dat dit bericht niet is ondertekend.</li></ul>|

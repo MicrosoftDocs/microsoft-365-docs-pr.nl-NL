@@ -15,12 +15,12 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: Informatie over het configureren van DMARC (Domain-based Message Authentication, Reporting, and Conformance) om berichten te valideren die zijn verzonden vanuit uw organisatie.
-ms.openlocfilehash: 56e557a3ca970540288c00d5fb8a30549c252776
-ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
+ms.openlocfilehash: 09c06d30d118078e310c5e3d0743ef5236ec77ba
+ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46601871"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46632115"
 ---
 # <a name="use-dmarc-to-validate-email"></a>DMARC gebruiken om e-mail te valideren
 
@@ -39,7 +39,7 @@ ms.locfileid: "46601871"
 
 SPF gebruikt een DNS TXT-record om een lijst weer te geven van gemachtigde IP-verzendadressen voor een bepaald domein. Normaalgesproken worden SPF-controles alleen uitgevoerd op het 5321.MailFrom-adres. Dit betekent dat het 5322.From-adres niet wordt geverifieerd wanneer u alleen SPF zelf gebruikt. Hierdoor is een scenario mogelijk dat een gebruiker een bericht ontvangt dat door een SPF-controle komt, maar een vervalst 5322.From-afzenderadres heeft. Bekijk bijvoorbeeld het volgende SMTP-transcript:
 
-```text
+```console
 S: Helo woodgrovebank.com
 S: Mail from: phish@phishing.contoso.com
 S: Rcpt to: astobes@tailspintoys.com
@@ -76,7 +76,7 @@ Net zoals DNS-records voor SPF, is het DMARC-record een DNS-tekstrecord (TXT) da
 
 Een DMARC TXT-record van Microsoft ziet er ongeveer als volgt uit:
 
-```text
+```console
 _dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com; fo=1"
 ```
 
@@ -114,7 +114,7 @@ Nu u een lijst hebt met alle geldige afzenders, kunt u de stappen volgen in [SPF
 
 Ervan uitgaande dat contoso.com bijvoorbeeld e-mail verzendt van Exchange Online, een on-premises Exchange-server met IP-adres 192.168.0.1 en een webtoepassing met IP-adres 192.168.100.100, dan ziet het SPF TXT-record er als volgt uit:
 
-```text
+```console
 contoso.com  IN  TXT  " v=spf1 ip4:192.168.0.1 ip4:192.168.100.100 include:spf.protection.outlook.com -all"
 ```
 
@@ -132,7 +132,7 @@ Zie [DKIM gebruiken voor het valideren van uitgaande e-mail die is verzonden van
 
 Dit zijn de meestgebruikte opties voor Microsoft 365, hoewel er ook andere syntaxis-opties zijn die hier niet worden genoemd. Maak het DMARC TXT-record voor uw domein in de indeling:
 
-```text
+```console
 _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
 ```
 
@@ -152,19 +152,19 @@ Voorbeelden:
 
 - Beleid ingesteld op geen
 
-    ```text
+    ```console
     _dmarc.contoso.com 3600 IN  TXT  "v=DMARC1; p=none"
     ```
 
 - Beleid ingesteld op quarantaine
 
-    ```text
+    ```console
     _dmarc.contoso.com 3600 IN  TXT  "v=DMARC1; p=quarantine"
     ```
 
 - Beleid ingesteld op weigeren
 
-    ```text
+    ```console
     _dmarc.contoso.com  3600 IN  TXT  "v=DMARC1; p=reject"
     ```
 
@@ -187,6 +187,16 @@ U kunt DMARC geleidelijk implementeren zonder gevolgen voor de rest van uw e-mai
 3. Verzoeken dat externe e-mailsystemen geen berichten accepteren waarvan de DMARC-controle is mislukt
 
     De laatste stap is het implementeren van weigeringsbeleid. Weigeringsbeleid is een DMARC TXT-record waarvan het beleid is ingesteld op weigeren (p=weigeren). Wanneer u dit doet, vraagt u DMARC-ontvangers geen berichten te accepteren waarvan de DMARC-controle is mislukt.
+    
+4. DMARC instellen voor subdomein
+
+DMARC wordt geïmplementeerd door beleid te publiceren als TXT-record in DNS en is hiërarchisch (beleid dat is gepubliceerd voor contoso.com is bijvoorbeeld van toepassing op sub.domain.contoso.com, tenzij voor het subdomein expliciet ander beleid is bepaald). Dit is handig, want organisaties kunnen zo een kleiner aantal DMARC-records op hoog niveau afgeven voor een bredere dekking. Het is belangrijk expliciete DMARC-records voor subdomeinen te configureren wanneer u niet wilt dat de subdomeinen de DMARC-record van het hoogste niveau overnemen.
+
+U kunt ook beleid met een jokerteken toevoegen voor DMARC wanneer subdomeinen geen e-mail mogen verzenden door de waarde `sp=reject` toe te voegen. Bijvoorbeeld:
+
+```console
+_dmarc.contoso.com. TXT "v=DMARC1; p=reject; sp=reject; ruf=mailto:authfail@contoso.com; rua=mailto:aggrep@contoso.com"
+```
 
 ## <a name="how-microsoft-365-handles-outbound-email-that-fails-dmarc"></a>Hoe Microsoft 365 omgaat met uitgaande e-mail waarvan de DMARC-controle is mislukt
 
@@ -220,7 +230,7 @@ Als u de MX-records van uw domein zo hebt geconfigureerd dat EOP niet het eerste
 
 Als u een klant bent en het primaire MX-record van uw domein verwijst niet naar EOP, krijgt u niet de voordelen van DMARC. DMARC werkt bijvoorbeeld niet als uw MX-record verwijst naar uw on-premises mailserver en de e-mail dan routeert naar EOP via een connector. In dit scenario is het ontvangende domein een van uw geaccepteerde domeinen, maar is EOP niet de primaire MX. Stel bijvoorbeeld dat contoso.com het MX-record naar zichzelf laat verwijzen en EOP gebruikt als secundair MX-record, dan ziet het MX-record van contoso.com er als volgt uit:
 
-```text
+```console
 contoso.com     3600   IN  MX  0  mail.contoso.com
 contoso.com     3600   IN  MX  10 contoso-com.mail.protection.outlook.com
 ```

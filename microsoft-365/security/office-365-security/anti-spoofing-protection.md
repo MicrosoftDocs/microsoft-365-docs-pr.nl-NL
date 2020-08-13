@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Beheerders kunnen meer informatie krijgen over de functies tegen adresvervalsing die beschikbaar zijn in EOP (Exchange Online Protection) die kunnen beschermen tegen phishing-aanvallen van vervalste afzenders en domeinen.
-ms.openlocfilehash: b9d8d3b0118083886f2a5d18f64b5d12e1d432af
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 25e1c73a58ffc89ecf4723fbb7cb872ff7d16071
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577846"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653411"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Beveiliging tegen adresvervalsing in EOP
 
@@ -129,8 +129,7 @@ Mailinglijsten (ook wel discussielijsten genoemd) staan erom bekend dat ze probl
 
 Stel dat Gabriela Laureano (glaureano@contoso.com) geïnteresseerd is in vogels spotten en lid wordt van de mailinglijst vogelspotters@fabrikam.com. Ze stuurt het volgende bericht naar de lijst:
 
-> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br/> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br/> 
-**Betreft:** Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <br/><br/>Wil iedereen de bezichtiging zien deze week vanaf de Wageningse Berg?
+> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br/> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br/> **Betreft:** Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <br/><br/>Wil iedereen de bezichtiging zien deze week vanaf de Wageningse Berg?
 
 De mailinglijstserver ontvangt het bericht, wijzigt de inhoud ervan en speelt het opnieuw af voor de leden van de lijst. Het opnieuw afgespeelde bericht heeft hetzelfde Van-adres (glaureano@contoso.com), maar er wordt een label aan de onderwerpregel toegevoegd en er wordt een voettekst onder aan het bericht toegevoegd. Dit type wijziging komt veel voor in mailinglijsten en kan leiden tot fout-positieven voor spoofing.
 
