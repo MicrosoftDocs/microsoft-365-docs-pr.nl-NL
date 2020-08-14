@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Stel beleidsregels voor veilige koppelingen in om uw organisatie te beschermen tegen kwaadaardige koppelingen in Word-, Excel-, PowerPoint-en Visio-bestanden, evenals e-mailberichten.
-ms.openlocfilehash: 4aa6947af114856d73c3e048b829daf8f47f0f48
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: f935002a300bd5f4553cbab429318dad4104b208
+ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652643"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662252"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Beleidsregels voor veilige koppelingen in Office 365 instellen
 
@@ -82,13 +82,13 @@ Wanneer u [Office 365 Advanced Threat Protection](office-365-atp.md)hebt, beschi
 5. Selecteer in de sectie **instellingen die van toepassing zijn op inhoud behalve e-mail** de optie die u wilt gebruiken (of wissen). (U kunt het beste alle opties selecteren.)
 
 6. Selecteer **Save**.
+    
+## <a name="step-3-add-or-edit-atp-safe-links-policies-that-apply-to-all-or-specific-email-recipients"></a>Stap 3: het beleid voor veilige koppelingen voor ATP toevoegen (of bewerken) en toepassen op alle of bepaalde geadresseerden
 
-## <a name="step-3-add-or-edit-atp-safe-links-policies-that-apply-to-specific-email-recipients"></a>Stap 3: het beleid voor veilige koppelingen voor ATP toevoegen (of bewerken) en toepassen op specifieke e-mail geadresseerden
-
-Nadat u het standaardbeleid voor veilige verbindingen voor ATP hebt gecontroleerd (of bewerkt) dat van toepassing is op iedereen, moet u extra beleidsregels definiëren die van toepassing zijn op bepaalde geadresseerden. U kunt bijvoorbeeld uitzonderingen opgeven voor uw standaardbeleid door een extra beleid te definiëren.
-
-1. Ga naar <https://protection.office.com> en meld u aan met uw werk-of schoolaccount.
-
+Nadat u het standaardbeleid voor veilige verbindingen voor ATP hebt gecontroleerd (of bewerkt) dat van toepassing is op iedereen, moet u extra beleidsregels definiëren die worden toegepast op alle of bepaalde geadresseerden. U kunt bijvoorbeeld uitzonderingen voor uw standaardbeleid opgeven door een extra beleid te definiëren of meer granulaire beperkingen te creëren voor alle werknemers.
+  
+1. Ga naar <https://protection.office.com> en meld u aan met uw werk-of schoolaccount. 
+    
 2. Kies in het linker navigatiegedeelte onder **Threat Management**de optie **beleid**.
 
 3. Kies **veilige koppelingen**.
@@ -120,7 +120,7 @@ Nadat u het standaardbeleid voor veilige verbindingen voor ATP hebt gecontroleer
 6. Selecteer **Save**.
 
 > [!NOTE]
-> Beleidsregels voor veilige koppelingen met een hogere prioriteit hebben voorrang. Als een gebruiker twee of meer politiet, wordt alleen het beleid voor de hoogste prioriteit van kracht.
+> Beleidsregels voor veilige koppelingen met een hogere prioriteit hebben voorrang. Als een gebruiker twee of meer beleidsregels bevat, wordt alleen het beleid voor de hoogste prioriteit van kracht. Als u wilt dat het beleid voor de klant prioriteit heeft, moet u de prioriteit van het beleid verhogen.
 
 ## <a name="step-4-learn-about-atp-safe-links-policy-options"></a>Stap 4: meer informatie over de beleidsopties voor het instellen van ATP voor veilige koppelingen
 
