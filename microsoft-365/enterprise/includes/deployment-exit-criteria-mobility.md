@@ -1,5 +1,0 @@
-- Intune is ingesteld, met inbegrip van het maken van Azure AD-gebruikers en -groepen om de regels van uw organisatie voor apparaten toe te passen.
-- U hebt apparaten ingeschreven bij Intune, zodat de apparaten het beleid kunnen ontvangen dat u maakt.
-- Apps worden toegevoegd aan apparaten, zodat uw gebruikers toegang krijgen tot de Microsoft 365-cloudservices van uw organisatie, zoals Exchange Online en SharePoint Online.
-- Functies en instellingen zijn geconfigureerd en toegepast op uw apparaten met behulp van de Azure AD-gebruikers en -groepen die u maakt, wat het inschakelen van een antivirusprogramma en het beperken van specifieke apps kan omvatten.
-- Nalevingsbeleid is zodanig ingesteld dat een firewall of wachtwoordlengte op een apparaat is vereist. Als apparaten niet compatibel zijn, wordt met voorwaardelijke toegang de toegang tot de gegevens van uw organisatie geblokkeerd.
