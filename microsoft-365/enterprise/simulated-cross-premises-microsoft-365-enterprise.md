@@ -9,7 +9,7 @@ ms.date: 11/14/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
@@ -17,92 +17,92 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: seo-marvel-apr2020
 description: 'Samenvatting: maak een gesimuleerd cross-premises virtueel netwerk in Microsoft Azure als een Microsoft 365-testomgeving.'
-ms.openlocfilehash: 6a9eb7377ff7ce3aa5b251d345e57ae2a25ba926
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
-ms.translationtype: HT
+ms.openlocfilehash: afbf294d0637c3454cedadec3268e74411a3c399
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817069"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685722"
 ---
-# <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a><span data-ttu-id="bce9a-103">Gesimuleerd cross-premises virtueel netwerk in een Microsoft 365-testomgeving</span><span class="sxs-lookup"><span data-stu-id="bce9a-103">Simulated cross-premises virtual network in a Microsoft 365 test environment</span></span>
+# <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a><span data-ttu-id="0c854-103">Gesimuleerd cross-premises virtueel netwerk in een Microsoft 365-testomgeving</span><span class="sxs-lookup"><span data-stu-id="0c854-103">Simulated cross-premises virtual network in a Microsoft 365 test environment</span></span>
 
-<span data-ttu-id="bce9a-104">*Deze testlabrichtlijnen kunnen worden gebruikt voor zowel Microsoft 365 Enterprise- als Office 365 Enterprise-testomgevingen.*</span><span class="sxs-lookup"><span data-stu-id="bce9a-104">*This Test Lab Guide can be used for both Microsoft 365 Enterprise and Office 365 Enterprise test environments.*</span></span>
+<span data-ttu-id="0c854-104">*U kunt deze test lab-handleiding gebruiken voor zowel Microsoft 365 voor Enterprise als Office 365 Enterprise test omgevingen.*</span><span class="sxs-lookup"><span data-stu-id="0c854-104">*This Test Lab Guide can be used for both Microsoft 365 for enterprise and Office 365 Enterprise test environments.*</span></span>
 
-<span data-ttu-id="bce9a-105">In dit artikel wordt stapsgewijs uitgelegd hoe u een gesimuleerde hybride cloudomgeving met Microsoft Azure maakt met behulp van twee virtuele Azure-netwerken.</span><span class="sxs-lookup"><span data-stu-id="bce9a-105">This article steps you through creating a simulated hybrid cloud environment with Microsoft Azure using two Azure virtual networks.</span></span> <span data-ttu-id="bce9a-106">Dit is de resulterende configuratie.</span><span class="sxs-lookup"><span data-stu-id="bce9a-106">Here is the resulting configuration.</span></span> 
+<span data-ttu-id="0c854-105">In dit artikel wordt stapsgewijs uitgelegd hoe u een gesimuleerde hybride cloudomgeving met Microsoft Azure maakt met behulp van twee virtuele Azure-netwerken.</span><span class="sxs-lookup"><span data-stu-id="0c854-105">This article steps you through creating a simulated hybrid cloud environment with Microsoft Azure using two Azure virtual networks.</span></span> <span data-ttu-id="0c854-106">Dit is de resulterende configuratie.</span><span class="sxs-lookup"><span data-stu-id="0c854-106">Here is the resulting configuration.</span></span> 
   
 ![Fase 3 van de testomgeving met de gesimuleerde cross-premises virtueel netwerkomgeving, met de virtuele DC2 machine in het XPrem VNet](../media/simulated-cross-premises-microsoft-365-enterprise/df458c56-022b-4688-ab18-056c3fd776b4.png)
   
-<span data-ttu-id="bce9a-108">Hiermee wordt een Azure IaaS-productieomgeving met een hybride cloud gesimuleerd. Deze bestaat uit:</span><span class="sxs-lookup"><span data-stu-id="bce9a-108">This simulates an Azure IaaS hybrid cloud production environment and consists of:</span></span>
+<span data-ttu-id="0c854-108">Hiermee wordt een Azure IaaS-productieomgeving met een hybride cloud gesimuleerd. Deze bestaat uit:</span><span class="sxs-lookup"><span data-stu-id="0c854-108">This simulates an Azure IaaS hybrid cloud production environment and consists of:</span></span>
   
-- <span data-ttu-id="bce9a-109">Een gesimuleerd en vereenvoudigd on-premises netwerk dat wordt gehost in een virtueel Azure-netwerk (het virtuele netwerk van TestLab).</span><span class="sxs-lookup"><span data-stu-id="bce9a-109">A simulated and simplified on-premises network hosted in an Azure virtual network (the TestLab virtual network).</span></span>
+- <span data-ttu-id="0c854-109">Een gesimuleerd en vereenvoudigd on-premises netwerk dat wordt gehost in een virtueel Azure-netwerk (het virtuele netwerk van TestLab).</span><span class="sxs-lookup"><span data-stu-id="0c854-109">A simulated and simplified on-premises network hosted in an Azure virtual network (the TestLab virtual network).</span></span>
     
-- <span data-ttu-id="bce9a-110">Een gesimuleerd cross-premises virtueel netwerk dat wordt gehost in Azure (XPrem).</span><span class="sxs-lookup"><span data-stu-id="bce9a-110">A simulated cross-premises virtual network hosted in Azure (XPrem).</span></span>
+- <span data-ttu-id="0c854-110">Een gesimuleerd cross-premises virtueel netwerk dat wordt gehost in Azure (XPrem).</span><span class="sxs-lookup"><span data-stu-id="0c854-110">A simulated cross-premises virtual network hosted in Azure (XPrem).</span></span>
     
-- <span data-ttu-id="bce9a-111">Een VNet-peeringrelatie tussen de twee virtuele netwerken.</span><span class="sxs-lookup"><span data-stu-id="bce9a-111">A VNet peering relationship between the two virtual networks.</span></span>
+- <span data-ttu-id="0c854-111">Een VNet-peeringrelatie tussen de twee virtuele netwerken.</span><span class="sxs-lookup"><span data-stu-id="0c854-111">A VNet peering relationship between the two virtual networks.</span></span>
     
-- <span data-ttu-id="bce9a-112">Een secundaire domeincontroller in het virtuele XPrem-netwerk.</span><span class="sxs-lookup"><span data-stu-id="bce9a-112">A secondary domain controller in the XPrem virtual network.</span></span>
+- <span data-ttu-id="0c854-112">Een secundaire domeincontroller in het virtuele XPrem-netwerk.</span><span class="sxs-lookup"><span data-stu-id="0c854-112">A secondary domain controller in the XPrem virtual network.</span></span>
     
-<span data-ttu-id="bce9a-113">Dit biedt een basis en een gemeenschappelijk startpunt van waaruit u kunt:</span><span class="sxs-lookup"><span data-stu-id="bce9a-113">This provides a basis and common starting point from which you can:</span></span> 
+<span data-ttu-id="0c854-113">Dit biedt een basis en een gemeenschappelijk startpunt van waaruit u kunt:</span><span class="sxs-lookup"><span data-stu-id="0c854-113">This provides a basis and common starting point from which you can:</span></span> 
   
-- <span data-ttu-id="bce9a-114">Toepassingen in een gesimuleerde Azure IaaS hybride cloud-omgeving ontwikkelen en testen.</span><span class="sxs-lookup"><span data-stu-id="bce9a-114">Develop and test applications in a simulated Azure IaaS hybrid cloud environment.</span></span>
+- <span data-ttu-id="0c854-114">Toepassingen in een gesimuleerde Azure IaaS hybride cloud-omgeving ontwikkelen en testen.</span><span class="sxs-lookup"><span data-stu-id="0c854-114">Develop and test applications in a simulated Azure IaaS hybrid cloud environment.</span></span>
     
-- <span data-ttu-id="bce9a-115">Testconfiguraties van computers maken, sommige binnen het virtuele TestLab-netwerk en sommige binnen het virtuele XPrem-netwerk, om hybride cloudgebaseerde IT-workloads te simuleren.</span><span class="sxs-lookup"><span data-stu-id="bce9a-115">Create test configurations of computers, some within the TestLab virtual network and some within the XPrem virtual network, to simulate hybrid cloud-based IT workloads.</span></span>
+- <span data-ttu-id="0c854-115">Testconfiguraties van computers maken, sommige binnen het virtuele TestLab-netwerk en sommige binnen het virtuele XPrem-netwerk, om hybride cloudgebaseerde IT-workloads te simuleren.</span><span class="sxs-lookup"><span data-stu-id="0c854-115">Create test configurations of computers, some within the TestLab virtual network and some within the XPrem virtual network, to simulate hybrid cloud-based IT workloads.</span></span>
     
-<span data-ttu-id="bce9a-116">Er zijn drie belangrijke fasen om deze testomgeving in te stellen:</span><span class="sxs-lookup"><span data-stu-id="bce9a-116">There are three major phases to setting up this test environment:</span></span>
+<span data-ttu-id="0c854-116">Er zijn drie belangrijke fasen om deze testomgeving in te stellen:</span><span class="sxs-lookup"><span data-stu-id="0c854-116">There are three major phases to setting up this test environment:</span></span>
   
-1. <span data-ttu-id="bce9a-117">Het virtuele TestLab-netwerk configureren.</span><span class="sxs-lookup"><span data-stu-id="bce9a-117">Configure the TestLab virtual network.</span></span>
+1. <span data-ttu-id="0c854-117">Het virtuele TestLab-netwerk configureren.</span><span class="sxs-lookup"><span data-stu-id="0c854-117">Configure the TestLab virtual network.</span></span>
     
-2. <span data-ttu-id="bce9a-118">Het cross-premises virtuele netwerk maken.</span><span class="sxs-lookup"><span data-stu-id="bce9a-118">Create the cross-premises virtual network.</span></span>
+2. <span data-ttu-id="0c854-118">Het cross-premises virtuele netwerk maken.</span><span class="sxs-lookup"><span data-stu-id="0c854-118">Create the cross-premises virtual network.</span></span>
     
-3. <span data-ttu-id="bce9a-119">DC2 configureren.</span><span class="sxs-lookup"><span data-stu-id="bce9a-119">Configure DC2.</span></span>
+3. <span data-ttu-id="0c854-119">DC2 configureren.</span><span class="sxs-lookup"><span data-stu-id="0c854-119">Configure DC2.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="bce9a-120">Voor deze configuratie is een betaald Azure-abonnement vereist.</span><span class="sxs-lookup"><span data-stu-id="bce9a-120">This configuration requires a paid Azure subscription.</span></span> 
+> <span data-ttu-id="0c854-120">Voor deze configuratie is een betaald Azure-abonnement vereist.</span><span class="sxs-lookup"><span data-stu-id="0c854-120">This configuration requires a paid Azure subscription.</span></span> 
 
-<span data-ttu-id="bce9a-121">U kunt de resulterende omgeving gebruiken om de functies en functionaliteit van [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise) zelfstandig of met behulp van extra [Testlabrichtlijnen](m365-enterprise-test-lab-guides.md) te testen.</span><span class="sxs-lookup"><span data-stu-id="bce9a-121">You can use the resulting environment to test the features and functionality of [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise) with additional [Test Lab Guides](m365-enterprise-test-lab-guides.md) or on your own.</span></span>
+<span data-ttu-id="0c854-121">U kunt de beschikbare omgeving gebruiken om de functies en functionaliteit van [Microsoft 365 te testen voor Enterprise](https://www.microsoft.com/microsoft-365/enterprise) met extra testlab- [handleidingen](m365-enterprise-test-lab-guides.md) of zelf een eigen omgeving.</span><span class="sxs-lookup"><span data-stu-id="0c854-121">You can use the resulting environment to test the features and functionality of [Microsoft 365 for enterprise](https://www.microsoft.com/microsoft-365/enterprise) with additional [Test Lab Guides](m365-enterprise-test-lab-guides.md) or on your own.</span></span>
 
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> <span data-ttu-id="bce9a-123">Ga naar de [Testlabrichtlijnen-stack van Microsoft 365](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de stack van Microsoft 365 voor Enterprise-testlabrichtlijnen.</span><span class="sxs-lookup"><span data-stu-id="bce9a-123">Go to [Microsoft 365 Enterprise Test Lab Guide Stack](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) for a visual map to all the articles in the Microsoft 365 Enterprise Test Lab Guide stack.</span></span>
+> <span data-ttu-id="0c854-123">Ga naar [Microsoft 365 for Enterprise test lab Guide](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) for a Visual Maps to the the the microsoft 365 for Enterprise test lab Guide.</span><span class="sxs-lookup"><span data-stu-id="0c854-123">Go to [Microsoft 365 for enterprise Test Lab Guide Stack](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) for a visual map to all the articles in the Microsoft 365 for enterprise Test Lab Guide stack.</span></span>
 
-## <a name="phase-1-configure-the-testlab-virtual-network"></a><span data-ttu-id="bce9a-124">Fase 1: het virtuele TestLab-netwerk configureren.</span><span class="sxs-lookup"><span data-stu-id="bce9a-124">Phase 1: Configure the TestLab virtual network</span></span>
+## <a name="phase-1-configure-the-testlab-virtual-network"></a><span data-ttu-id="0c854-124">Fase 1: het virtuele TestLab-netwerk configureren.</span><span class="sxs-lookup"><span data-stu-id="0c854-124">Phase 1: Configure the TestLab virtual network</span></span>
 
-<span data-ttu-id="bce9a-125">Gebruik de instructies in **fase 1** van de [gesimuleerde enterprise base-configuratie](simulated-ent-base-configuration-microsoft-365-enterprise.md) om de DC1-, APP1- en CLIENT1-computers in het virtuele Azure-netwerk met de naam TestLab te configureren.</span><span class="sxs-lookup"><span data-stu-id="bce9a-125">Use the instructions in **Phase 1** of the [simulated enterprise base configuration](simulated-ent-base-configuration-microsoft-365-enterprise.md) to configure the DC1, APP1, and CLIENT1 computers in the Azure virtual network named TestLab.</span></span>
+<span data-ttu-id="0c854-125">Gebruik de instructies in **fase 1** van de [gesimuleerde enterprise base-configuratie](simulated-ent-base-configuration-microsoft-365-enterprise.md) om de DC1-, APP1- en CLIENT1-computers in het virtuele Azure-netwerk met de naam TestLab te configureren.</span><span class="sxs-lookup"><span data-stu-id="0c854-125">Use the instructions in **Phase 1** of the [simulated enterprise base configuration](simulated-ent-base-configuration-microsoft-365-enterprise.md) to configure the DC1, APP1, and CLIENT1 computers in the Azure virtual network named TestLab.</span></span>
   
-<span data-ttu-id="bce9a-126">Dit is de huidige configuratie.</span><span class="sxs-lookup"><span data-stu-id="bce9a-126">This is your current configuration.</span></span> 
+<span data-ttu-id="0c854-126">Dit is de huidige configuratie.</span><span class="sxs-lookup"><span data-stu-id="0c854-126">This is your current configuration.</span></span> 
   
 ![De gesimuleerde Enterprise-basisconfiguratie in Azure](../media/simulated-cross-premises-microsoft-365-enterprise/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
   
-## <a name="phase-2-create-the-xprem-virtual-network"></a><span data-ttu-id="bce9a-128">Fase 2: het virtuele netwerk XPrem maken</span><span class="sxs-lookup"><span data-stu-id="bce9a-128">Phase 2: Create the XPrem virtual network</span></span>
+## <a name="phase-2-create-the-xprem-virtual-network"></a><span data-ttu-id="0c854-128">Fase 2: het virtuele netwerk XPrem maken</span><span class="sxs-lookup"><span data-stu-id="0c854-128">Phase 2: Create the XPrem virtual network</span></span>
 
-<span data-ttu-id="bce9a-129">In deze fase maakt en configureert u het nieuwe virtuele netwerk XPrem en verbindt u het vervolgens door middel van VNet-peering met het virtuele netwerk van TestLab.</span><span class="sxs-lookup"><span data-stu-id="bce9a-129">In this phase, you create and configure the new XPrem virtual network and then connect it to the TestLab virtual network with VNet peering.</span></span>
+<span data-ttu-id="0c854-129">In deze fase maakt en configureert u het nieuwe virtuele netwerk XPrem en verbindt u het vervolgens door middel van VNet-peering met het virtuele netwerk van TestLab.</span><span class="sxs-lookup"><span data-stu-id="0c854-129">In this phase, you create and configure the new XPrem virtual network and then connect it to the TestLab virtual network with VNet peering.</span></span>
   
-<span data-ttu-id="bce9a-130">Start eerst een Azure PowerShell-prompt op uw lokale computer.</span><span class="sxs-lookup"><span data-stu-id="bce9a-130">First, start an Azure PowerShell prompt on your local computer.</span></span>
+<span data-ttu-id="0c854-130">Start eerst een Azure PowerShell-prompt op uw lokale computer.</span><span class="sxs-lookup"><span data-stu-id="0c854-130">First, start an Azure PowerShell prompt on your local computer.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="bce9a-131">De volgende opdrachtsets gebruiken de nieuwste versie van Azure PowerShell.</span><span class="sxs-lookup"><span data-stu-id="bce9a-131">The following command sets use the latest version of Azure PowerShell.</span></span> <span data-ttu-id="bce9a-132">Zie [Aan de slag met Azure PowerShell-cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/).</span><span class="sxs-lookup"><span data-stu-id="bce9a-132">See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/).</span></span> 
+> <span data-ttu-id="0c854-131">De volgende opdrachtsets gebruiken de nieuwste versie van Azure PowerShell.</span><span class="sxs-lookup"><span data-stu-id="0c854-131">The following command sets use the latest version of Azure PowerShell.</span></span> <span data-ttu-id="0c854-132">Zie [Aan de slag met Azure PowerShell-cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/).</span><span class="sxs-lookup"><span data-stu-id="0c854-132">See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/).</span></span> 
   
-<span data-ttu-id="bce9a-133">Meld u aan bij uw Azure-account met behulp van de volgende opdracht.</span><span class="sxs-lookup"><span data-stu-id="bce9a-133">Sign in to your Azure account with this command.</span></span>
+<span data-ttu-id="0c854-133">Meld u aan bij uw Azure-account met behulp van de volgende opdracht.</span><span class="sxs-lookup"><span data-stu-id="0c854-133">Sign in to your Azure account with this command.</span></span>
   
 ```powershell
 Connect-AzAccount
 ```
 
-<span data-ttu-id="bce9a-134">Haal de naam van uw abonnement op met behulp van de volgende opdracht.</span><span class="sxs-lookup"><span data-stu-id="bce9a-134">Get your subscription name using this command.</span></span>
+<span data-ttu-id="0c854-134">Haal de naam van uw abonnement op met behulp van de volgende opdracht.</span><span class="sxs-lookup"><span data-stu-id="0c854-134">Get your subscription name using this command.</span></span>
   
 ```powershell
 Get-AzSubscription | Sort Name | Select Name
 ```
 
-<span data-ttu-id="bce9a-135">Stel uw Azure-abonnement in.</span><span class="sxs-lookup"><span data-stu-id="bce9a-135">Set your Azure subscription.</span></span> <span data-ttu-id="bce9a-136">Vervang alles binnen de aanhalingstekens, inclusief de \< and >-tekens, met de juiste namen.</span><span class="sxs-lookup"><span data-stu-id="bce9a-136">Replace everything within the quotes, including the \< and > characters, with the correct names.</span></span>
+<span data-ttu-id="0c854-135">Stel uw Azure-abonnement in.</span><span class="sxs-lookup"><span data-stu-id="0c854-135">Set your Azure subscription.</span></span> <span data-ttu-id="0c854-136">Vervang alles binnen de aanhalingstekens, inclusief de \< and >-tekens, met de juiste namen.</span><span class="sxs-lookup"><span data-stu-id="0c854-136">Replace everything within the quotes, including the \< and > characters, with the correct names.</span></span>
   
 ```powershell
 $subscrName="<subscription name>"
 Select-AzSubscription -SubscriptionName $subscrName
 ```
 
-<span data-ttu-id="bce9a-137">Maak vervolgens het virtuele XPrem-netwerk en beveilig dit met een netwerkbeveiligingsgroep met deze opdrachten.</span><span class="sxs-lookup"><span data-stu-id="bce9a-137">Next, create the XPrem virtual network and protect it with a network security group with these commands.</span></span>
+<span data-ttu-id="0c854-137">Maak vervolgens het virtuele XPrem-netwerk en beveilig dit met een netwerkbeveiligingsgroep met deze opdrachten.</span><span class="sxs-lookup"><span data-stu-id="0c854-137">Next, create the XPrem virtual network and protect it with a network security group with these commands.</span></span>
   
 ```powershell
 $rgName="<name of the resource group that you used for your TestLab virtual network>"
@@ -117,7 +117,7 @@ Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name "Testnet" -AddressP
 $vnet | Set-AzVirtualNetwork
 ```
 
-<span data-ttu-id="bce9a-138">Vervolgens maakt u met de volgende opdrachten de VNet-peeringrelatie tussen het TestLab en XPrem VNets.</span><span class="sxs-lookup"><span data-stu-id="bce9a-138">Next, you create the VNet peering relationship between the TestLab and XPrem VNets with these commands.</span></span>
+<span data-ttu-id="0c854-138">Vervolgens maakt u met de volgende opdrachten de VNet-peeringrelatie tussen het TestLab en XPrem VNets.</span><span class="sxs-lookup"><span data-stu-id="0c854-138">Next, you create the VNet peering relationship between the TestLab and XPrem VNets with these commands.</span></span>
   
 ```powershell
 $rgName="<name of the resource group that you used for your TestLab virtual network>"
@@ -127,15 +127,15 @@ Add-AzVirtualNetworkPeering -Name TestLab2XPrem -VirtualNetwork $vnet1 -RemoteVi
 Add-AzVirtualNetworkPeering -Name XPrem2TestLab -VirtualNetwork $vnet2 -RemoteVirtualNetworkId $vnet1.Id
 ```
 
-<span data-ttu-id="bce9a-139">Dit is de huidige configuratie.</span><span class="sxs-lookup"><span data-stu-id="bce9a-139">This is your current configuration.</span></span> 
+<span data-ttu-id="0c854-139">Dit is de huidige configuratie.</span><span class="sxs-lookup"><span data-stu-id="0c854-139">This is your current configuration.</span></span> 
   
 ![Fase 2 van de gesimuleerde cross-premises virtuele netwerktestomgeving, met de XPrem VNet en de VNet-peering-relatie](../media/simulated-cross-premises-microsoft-365-enterprise/cac5e999-69c7-4f4c-bfce-a7f4006115ef.png)
   
-## <a name="phase-3-configure-dc2"></a><span data-ttu-id="bce9a-141">Fase 3: DC2 configureren</span><span class="sxs-lookup"><span data-stu-id="bce9a-141">Phase 3: Configure DC2</span></span>
+## <a name="phase-3-configure-dc2"></a><span data-ttu-id="0c854-141">Fase 3: DC2 configureren</span><span class="sxs-lookup"><span data-stu-id="0c854-141">Phase 3: Configure DC2</span></span>
 
-<span data-ttu-id="bce9a-142">In deze fase maakt u de virtuele DC2-machine in het virtuele XPrem-netwerk en configureert u deze vervolgens als een replicadomeincontroller.</span><span class="sxs-lookup"><span data-stu-id="bce9a-142">In this phase, you create the DC2 virtual machine in the XPrem virtual network and then configure it as a replica domain controller.</span></span>
+<span data-ttu-id="0c854-142">In deze fase maakt u de virtuele DC2-machine in het virtuele XPrem-netwerk en configureert u deze vervolgens als een replicadomeincontroller.</span><span class="sxs-lookup"><span data-stu-id="0c854-142">In this phase, you create the DC2 virtual machine in the XPrem virtual network and then configure it as a replica domain controller.</span></span>
   
-<span data-ttu-id="bce9a-143">Maak eerst een virtuele machine voor DC2.</span><span class="sxs-lookup"><span data-stu-id="bce9a-143">First, create a virtual machine for DC2.</span></span> <span data-ttu-id="bce9a-144">Voer deze opdrachten uit vanaf de opdrachtprompt van Azure PowerShell op uw lokale computer.</span><span class="sxs-lookup"><span data-stu-id="bce9a-144">Run these commands at the Azure PowerShell command prompt on your local computer.</span></span>
+<span data-ttu-id="0c854-143">Maak eerst een virtuele machine voor DC2.</span><span class="sxs-lookup"><span data-stu-id="0c854-143">First, create a virtual machine for DC2.</span></span> <span data-ttu-id="0c854-144">Voer deze opdrachten uit vanaf de opdrachtprompt van Azure PowerShell op uw lokale computer.</span><span class="sxs-lookup"><span data-stu-id="0c854-144">Run these commands at the Azure PowerShell command prompt on your local computer.</span></span>
   
 ```powershell
 $rgName="<your resource group name>"
@@ -155,33 +155,33 @@ $vm=Add-AzVMDataDisk -VM $vm -Name "DC2-DataDisk1" -CreateOption Attach -Managed
 New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
-<span data-ttu-id="bce9a-145">Maak vervolgens verbinding met de nieuwe virtuele DC2-machine vanuit de [Microsoft Azure-portal](https://portal.azure.com) met de naam en het wachtwoord van de lokale beheerdersaccount.</span><span class="sxs-lookup"><span data-stu-id="bce9a-145">Next, connect to the new DC2 virtual machine from the [Azure portal](https://portal.azure.com) using its local administrator account name and password.</span></span>
+<span data-ttu-id="0c854-145">Maak vervolgens verbinding met de nieuwe virtuele DC2-machine vanuit de [Microsoft Azure-portal](https://portal.azure.com) met de naam en het wachtwoord van de lokale beheerdersaccount.</span><span class="sxs-lookup"><span data-stu-id="0c854-145">Next, connect to the new DC2 virtual machine from the [Azure portal](https://portal.azure.com) using its local administrator account name and password.</span></span>
   
-<span data-ttu-id="bce9a-146">Configureer vervolgens een Windows Firewall-regel om verkeer toe te staan voor elementaire connectiviteitstests.</span><span class="sxs-lookup"><span data-stu-id="bce9a-146">Next, configure a Windows Firewall rule to allow traffic for basic connectivity testing.</span></span> <span data-ttu-id="bce9a-147">Voer deze opdrachten uit vanaf een Windows PowerShell-opdrachtprompt op beheerdersniveau op DC2.</span><span class="sxs-lookup"><span data-stu-id="bce9a-147">From an administrator-level Windows PowerShell command prompt on DC2, run these commands.</span></span> 
+<span data-ttu-id="0c854-146">Configureer vervolgens een Windows Firewall-regel om verkeer toe te staan voor elementaire connectiviteitstests.</span><span class="sxs-lookup"><span data-stu-id="0c854-146">Next, configure a Windows Firewall rule to allow traffic for basic connectivity testing.</span></span> <span data-ttu-id="0c854-147">Voer deze opdrachten uit vanaf een Windows PowerShell-opdrachtprompt op beheerdersniveau op DC2.</span><span class="sxs-lookup"><span data-stu-id="0c854-147">From an administrator-level Windows PowerShell command prompt on DC2, run these commands.</span></span> 
   
 ```powershell
 Set-NetFirewallRule -DisplayName "File and Printer Sharing (Echo Request - ICMPv4-In)" -enabled True
 ping dc1.corp.contoso.com
 ```
 
-<span data-ttu-id="bce9a-148">Het ping-commando moet resulteren in vier succesvolle antwoorden vanaf IP-adres 10.0.0.4.</span><span class="sxs-lookup"><span data-stu-id="bce9a-148">The ping command should result in four successful replies from IP address 10.0.0.4.</span></span> <span data-ttu-id="bce9a-149">Dit is een test van het verkeer binnen de VNet-peering-relatie.</span><span class="sxs-lookup"><span data-stu-id="bce9a-149">This is a test of traffic across the VNet peering relationship.</span></span> 
+<span data-ttu-id="0c854-148">Het ping-commando moet resulteren in vier succesvolle antwoorden vanaf IP-adres 10.0.0.4.</span><span class="sxs-lookup"><span data-stu-id="0c854-148">The ping command should result in four successful replies from IP address 10.0.0.4.</span></span> <span data-ttu-id="0c854-149">Dit is een test van het verkeer binnen de VNet-peering-relatie.</span><span class="sxs-lookup"><span data-stu-id="0c854-149">This is a test of traffic across the VNet peering relationship.</span></span> 
   
-<span data-ttu-id="bce9a-150">Voeg vervolgens de extra gegevensschijf toe als een nieuw volume met de stationsletter F: met deze opdracht vanaf de opdrachtprompt van Windows PowerShell op DC2.</span><span class="sxs-lookup"><span data-stu-id="bce9a-150">Next, add the extra data disk as a new volume with the drive letter F: with this command from the Windows PowerShell command prompt on DC2.</span></span>
+<span data-ttu-id="0c854-150">Voeg vervolgens de extra gegevensschijf toe als een nieuw volume met de stationsletter F: met deze opdracht vanaf de opdrachtprompt van Windows PowerShell op DC2.</span><span class="sxs-lookup"><span data-stu-id="0c854-150">Next, add the extra data disk as a new volume with the drive letter F: with this command from the Windows PowerShell command prompt on DC2.</span></span>
   
 ```powershell
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
 ```
 
-<span data-ttu-id="bce9a-151">Configureer vervolgens DC2 als een replicadomeincontroller voor het corp.contoso.com-domein.</span><span class="sxs-lookup"><span data-stu-id="bce9a-151">Next, configure DC2 as a replica domain controller for the corp.contoso.com domain.</span></span> <span data-ttu-id="bce9a-152">Voer deze opdrachten uit vanaf de Windows PowerShell-opdrachtprompt op DC2.</span><span class="sxs-lookup"><span data-stu-id="bce9a-152">Run these commands from the Windows PowerShell command prompt on DC2.</span></span>
+<span data-ttu-id="0c854-151">Configureer vervolgens DC2 als een replicadomeincontroller voor het corp.contoso.com-domein.</span><span class="sxs-lookup"><span data-stu-id="0c854-151">Next, configure DC2 as a replica domain controller for the corp.contoso.com domain.</span></span> <span data-ttu-id="0c854-152">Voer deze opdrachten uit vanaf de Windows PowerShell-opdrachtprompt op DC2.</span><span class="sxs-lookup"><span data-stu-id="0c854-152">Run these commands from the Windows PowerShell command prompt on DC2.</span></span>
   
 ```powershell
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 Install-ADDSDomainController -Credential (Get-Credential CORP\User1) -DomainName "corp.contoso.com" -InstallDns:$true -DatabasePath "F:\NTDS" -LogPath "F:\Logs" -SysvolPath "F:\SYSVOL"
 ```
 
-<span data-ttu-id="bce9a-153">Merk op dat u wordt gevraagd om zowel het CORP\\ User1-wachtwoord als een Directory Services Restore Mode (DSRM) -wachtwoord op te geven en DC2 opnieuw te starten.</span><span class="sxs-lookup"><span data-stu-id="bce9a-153">Note that you are prompted to supply both the CORP\\User1 password and a Directory Services Restore Mode (DSRM) password, and to restart DC2.</span></span> 
+<span data-ttu-id="0c854-153">Merk op dat u wordt gevraagd om zowel het CORP\\ User1-wachtwoord als een Directory Services Restore Mode (DSRM) -wachtwoord op te geven en DC2 opnieuw te starten.</span><span class="sxs-lookup"><span data-stu-id="0c854-153">Note that you are prompted to supply both the CORP\\User1 password and a Directory Services Restore Mode (DSRM) password, and to restart DC2.</span></span> 
   
-<span data-ttu-id="bce9a-154">Nu het virtuele XPrem-netwerk een eigen DNS-server (DC2) heeft, moet u het virtuele XPrem-netwerk configureren om deze DNS-server te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="bce9a-154">Now that the XPrem virtual network has its own DNS server (DC2), you must configure the XPrem virtual network to use this DNS server.</span></span> <span data-ttu-id="bce9a-155">Voer deze opdrachten uit vanaf de opdrachtprompt van Azure PowerShell op uw lokale computer.</span><span class="sxs-lookup"><span data-stu-id="bce9a-155">Run these commands from the Azure PowerShell command prompt on your local computer.</span></span>
+<span data-ttu-id="0c854-154">Nu het virtuele XPrem-netwerk een eigen DNS-server (DC2) heeft, moet u het virtuele XPrem-netwerk configureren om deze DNS-server te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="0c854-154">Now that the XPrem virtual network has its own DNS server (DC2), you must configure the XPrem virtual network to use this DNS server.</span></span> <span data-ttu-id="0c854-155">Voer deze opdrachten uit vanaf de opdrachtprompt van Azure PowerShell op uw lokale computer.</span><span class="sxs-lookup"><span data-stu-id="0c854-155">Run these commands from the Azure PowerShell command prompt on your local computer.</span></span>
   
 ```powershell
 $vnet=Get-AzVirtualNetwork -ResourceGroupName $rgName -name "XPrem"
@@ -190,7 +190,7 @@ Set-AzVirtualNetwork -VirtualNetwork $vnet
 Restart-AzVM -ResourceGroupName $rgName -Name "DC2"
 ```
 
-<span data-ttu-id="bce9a-156">Maak vanuit de Microsoft Azure-portal op uw lokale computer verbinding met DC1 met de CORP\\User1-referenties.</span><span class="sxs-lookup"><span data-stu-id="bce9a-156">From the Azure portal on your local computer, connect to DC1 with the CORP\\User1 credentials.</span></span> <span data-ttu-id="bce9a-157">Om het CORP-domein zo te configureren dat computers en gebruikers hun lokale domeincontroller gebruiken voor verificatie, voert u deze opdrachten uit vanaf een Windows PowerShell-opdrachtprompt op beheerdersniveau op DC1.</span><span class="sxs-lookup"><span data-stu-id="bce9a-157">To configure the CORP domain so that computers and users use their local domain controller for authentication, run these commands from an administrator-level Windows PowerShell command prompt on DC1.</span></span>
+<span data-ttu-id="0c854-156">Maak vanuit de Microsoft Azure-portal op uw lokale computer verbinding met DC1 met de CORP\\User1-referenties.</span><span class="sxs-lookup"><span data-stu-id="0c854-156">From the Azure portal on your local computer, connect to DC1 with the CORP\\User1 credentials.</span></span> <span data-ttu-id="0c854-157">Om het CORP-domein zo te configureren dat computers en gebruikers hun lokale domeincontroller gebruiken voor verificatie, voert u deze opdrachten uit vanaf een Windows PowerShell-opdrachtprompt op beheerdersniveau op DC1.</span><span class="sxs-lookup"><span data-stu-id="0c854-157">To configure the CORP domain so that computers and users use their local domain controller for authentication, run these commands from an administrator-level Windows PowerShell command prompt on DC1.</span></span>
   
 ```powershell
 New-ADReplicationSite -Name "TestLab" 
@@ -199,26 +199,26 @@ New-ADReplicationSubnet -Name "10.0.0.0/8" -Site "TestLab"
 New-ADReplicationSubnet -Name "192.168.0.0/16" -Site "XPrem"
 ```
 
-<span data-ttu-id="bce9a-158">Dit is de huidige configuratie.</span><span class="sxs-lookup"><span data-stu-id="bce9a-158">This is your current configuration.</span></span> 
+<span data-ttu-id="0c854-158">Dit is de huidige configuratie.</span><span class="sxs-lookup"><span data-stu-id="0c854-158">This is your current configuration.</span></span> 
   
 ![Fase 3 van de testomgeving met de gesimuleerde cross-premises virtueel netwerkomgeving, met de virtuele DC2 machine in het XPrem VNet](../media/simulated-cross-premises-microsoft-365-enterprise/df458c56-022b-4688-ab18-056c3fd776b4.png)
   
-<span data-ttu-id="bce9a-160">De gesimuleerde Azure hybride cloudomgeving is nu gereed om getest te worden.</span><span class="sxs-lookup"><span data-stu-id="bce9a-160">Your simulated Azure hybrid cloud environment is now ready for testing.</span></span>
+<span data-ttu-id="0c854-160">De gesimuleerde Azure hybride cloudomgeving is nu gereed om getest te worden.</span><span class="sxs-lookup"><span data-stu-id="0c854-160">Your simulated Azure hybrid cloud environment is now ready for testing.</span></span>
   
-<span data-ttu-id="bce9a-161">U bent nu gereed om te experimenteren met de extra functies van [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise).</span><span class="sxs-lookup"><span data-stu-id="bce9a-161">You are now ready to experiment with additional features of [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise).</span></span>
+<span data-ttu-id="0c854-161">U bent nu klaar om te experimenteren met de extra functies van [Microsoft 365 for Enterprise](https://www.microsoft.com/microsoft-365/enterprise).</span><span class="sxs-lookup"><span data-stu-id="0c854-161">You are now ready to experiment with additional features of [Microsoft 365 for enterprise](https://www.microsoft.com/microsoft-365/enterprise).</span></span>
   
-## <a name="next-steps"></a><span data-ttu-id="bce9a-162">Volgende stappen</span><span class="sxs-lookup"><span data-stu-id="bce9a-162">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="0c854-162">Volgende stappen</span><span class="sxs-lookup"><span data-stu-id="0c854-162">Next steps</span></span>
 
-<span data-ttu-id="bce9a-163">Verken de volgende extra sets testlabrichtlijnen:</span><span class="sxs-lookup"><span data-stu-id="bce9a-163">Explore these additional sets of Test Lab Guides:</span></span>
+<span data-ttu-id="0c854-163">Verken de volgende extra sets testlabrichtlijnen:</span><span class="sxs-lookup"><span data-stu-id="0c854-163">Explore these additional sets of Test Lab Guides:</span></span>
   
-- [<span data-ttu-id="bce9a-164">Identiteit</span><span class="sxs-lookup"><span data-stu-id="bce9a-164">Identity</span></span>](m365-enterprise-test-lab-guides.md#identity)
-- [<span data-ttu-id="bce9a-165">Mobile Device Management</span><span class="sxs-lookup"><span data-stu-id="bce9a-165">Mobile device management</span></span>](m365-enterprise-test-lab-guides.md#mobile-device-management)
-- [<span data-ttu-id="bce9a-166">Gegevensbeveiliging</span><span class="sxs-lookup"><span data-stu-id="bce9a-166">Information protection</span></span>](m365-enterprise-test-lab-guides.md#information-protection)
+- [<span data-ttu-id="0c854-164">Identiteit</span><span class="sxs-lookup"><span data-stu-id="0c854-164">Identity</span></span>](m365-enterprise-test-lab-guides.md#identity)
+- [<span data-ttu-id="0c854-165">Mobile Device Management</span><span class="sxs-lookup"><span data-stu-id="0c854-165">Mobile device management</span></span>](m365-enterprise-test-lab-guides.md#mobile-device-management)
+- [<span data-ttu-id="0c854-166">Gegevensbeveiliging</span><span class="sxs-lookup"><span data-stu-id="0c854-166">Information protection</span></span>](m365-enterprise-test-lab-guides.md#information-protection)
 
-## <a name="see-also"></a><span data-ttu-id="bce9a-167">Zie ook</span><span class="sxs-lookup"><span data-stu-id="bce9a-167">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0c854-167">Zie ook</span><span class="sxs-lookup"><span data-stu-id="0c854-167">See also</span></span>
 
-[<span data-ttu-id="bce9a-168">Microsoft 365 Enterprise-testlabrichtlijnen</span><span class="sxs-lookup"><span data-stu-id="bce9a-168">Microsoft 365 Enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
+[<span data-ttu-id="0c854-168">Microsoft 365 Enterprise-testlabrichtlijnen</span><span class="sxs-lookup"><span data-stu-id="0c854-168">Microsoft 365 for enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
 
-[<span data-ttu-id="bce9a-169">Microsoft 365 Enterprise implementeren</span><span class="sxs-lookup"><span data-stu-id="bce9a-169">Deploy Microsoft 365 Enterprise</span></span>](deploy-microsoft-365-enterprise.md)
+[<span data-ttu-id="0c854-169">Overzicht van Microsoft 365 voor ondernemingen</span><span class="sxs-lookup"><span data-stu-id="0c854-169">Microsoft 365 for enterprise overview</span></span>](microsoft-365-overview.md)
 
-[<span data-ttu-id="bce9a-170">Microsoft 365 Enterprise-documentatie</span><span class="sxs-lookup"><span data-stu-id="bce9a-170">Microsoft 365 Enterprise documentation</span></span>](https://docs.microsoft.com/microsoft-365-enterprise/)
+[<span data-ttu-id="0c854-170">Documentatie voor Microsoft 365 for Enterprise</span><span class="sxs-lookup"><span data-stu-id="0c854-170">Microsoft 365 for enterprise documentation</span></span>](https://docs.microsoft.com/microsoft-365-enterprise/)

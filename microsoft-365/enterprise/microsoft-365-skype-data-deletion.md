@@ -1,0 +1,72 @@
+---
+title: Gegevens verwijderen in Office 365 Skype voor bedrijven
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: laurawi
+audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+localization_priority: Normal
+search.appverid:
+- MET150
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
+f1.keywords:
+- NOCSH
+description: In dit artikel vindt u een beschrijving van de verwijdering van gegevens in Skype voor bedrijven, met inbegrip van de typen inhoud die niet behouden blijven.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: bf317f2ecd3d547ae8601553a34fb43fb4b5bd9d
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46689379"
+---
+# <a name="skype-for-business-data-deletion-in-office-365"></a><span data-ttu-id="4896e-103">Skype voor bedrijven-data verwijdering in Office 365</span><span class="sxs-lookup"><span data-stu-id="4896e-103">Skype for Business Data Deletion in Office 365</span></span>
+
+<span data-ttu-id="4896e-104">Skype voor bedrijven biedt de archivering van chatberichten van peer-to-peer, chatberichten met meer informatie en activiteiten voor het uploaden van inhoud in vergaderingen.</span><span class="sxs-lookup"><span data-stu-id="4896e-104">Skype for Business provides archiving of peer-to-peer instant messages, multiparty instant messages, and content upload activities in meetings.</span></span> <span data-ttu-id="4896e-105">Voor de archiveringsfunctie is Exchange vereist en deze wordt beheerd door het in-place bewarings kenmerk van de gebruiker, waarin zowel e-mail als Skype voor bedrijven-inhoud wordt gearchiveerd.</span><span class="sxs-lookup"><span data-stu-id="4896e-105">The archiving capability requires Exchange and is controlled by the user's Exchange mailbox In-Place Hold attribute, which archives both email and Skype for Business contents.</span></span>
+
+<span data-ttu-id="4896e-106">Alle archiveringsfuncties in Skype voor bedrijven worden als ' archivering op gebruikersniveau ' beschouwd, omdat u het in-of uitschakelt voor een of meer specifieke gebruikers of groepen gebruikers door een beleidsregels voor archivering op gebruikersniveau te maken, configureren en toepassen voor deze gebruikers.</span><span class="sxs-lookup"><span data-stu-id="4896e-106">All archiving in Skype for Business is considered "user-level archiving" because you enable or disable it for one or more specific users or groups of users by creating, configuring, and applying a user-level archiving policy for those users.</span></span> <span data-ttu-id="4896e-107">Er is geen directe controle van de archiveringsinstellingen in het Skype voor bedrijven-Beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="4896e-107">There is no direct control of archiving settings from within the Skype for Business admin center.</span></span>
+
+<span data-ttu-id="4896e-108">De volgende soorten inhoud worden niet gearchiveerd in Skype voor bedrijven:</span><span class="sxs-lookup"><span data-stu-id="4896e-108">The following types of content are not archived in Skype for Business:</span></span>
+
+- <span data-ttu-id="4896e-109">Peer-to-peer-bestandsoverdracht</span><span class="sxs-lookup"><span data-stu-id="4896e-109">Peer-to-peer file transfers</span></span>
+- <span data-ttu-id="4896e-110">Audio/video voor chatberichten en conferenties van peer-to-peer</span><span class="sxs-lookup"><span data-stu-id="4896e-110">Audio/video for peer-to-peer instant messages and conferences</span></span>
+- <span data-ttu-id="4896e-111">Toepassingen delen voor chatberichten en vergaderingen van peer-to-peer</span><span class="sxs-lookup"><span data-stu-id="4896e-111">Application sharing for peer-to-peer instant messages and conferences</span></span>
+- <span data-ttu-id="4896e-112">Aantekeningen voor vergaderingen</span><span class="sxs-lookup"><span data-stu-id="4896e-112">Conferencing annotations</span></span> 
+
+## <a name="meeting-content-retention"></a><span data-ttu-id="4896e-113">Bewaren van inhoud van de vergadering</span><span class="sxs-lookup"><span data-stu-id="4896e-113">Meeting Content Retention</span></span>
+
+<span data-ttu-id="4896e-114">Klanten die Skype voor bedrijven gebruiken, kunnen inhoud naar een Skype voor bedrijven-vergadering uploaden als bijlage, zoals PowerPoint-presentaties, OneNote-bestanden en andere bestanden.</span><span class="sxs-lookup"><span data-stu-id="4896e-114">Customers using Skype for Business can upload content to a Skype for Business meeting as attachments, such as PowerPoint presentations, OneNote files, and other files.</span></span> <span data-ttu-id="4896e-115">De bewaarperiode voor inhoud die is geüpload naar een vergadering, luidt als volgt:</span><span class="sxs-lookup"><span data-stu-id="4896e-115">The retention period for content that has been uploaded to a meeting is as follows:</span></span>
+
+- <span data-ttu-id="4896e-116">**Eenmalige vergadering** -inhoud wordt 15 dagen lang bewaard vanaf wanneer de laatste persoon de vergadering verlaat.</span><span class="sxs-lookup"><span data-stu-id="4896e-116">**One-time meeting** - Content is retained for 15 days starting from when the last person leaves the meeting.</span></span>
+- <span data-ttu-id="4896e-117">**Terugkerende vergadering** -inhoud blijft 15 dagen lang geldig nadat de laatste persoon de laatste sessie van de vergadering verlaat.</span><span class="sxs-lookup"><span data-stu-id="4896e-117">**Recurring meeting** - Content is retained for 15 days after the last person leaves the last session of the meeting.</span></span> <span data-ttu-id="4896e-118">De Bewaar timer wordt opnieuw ingesteld als iemand binnen 15 dagen aan dezelfde Vergader sessie deelneemt.</span><span class="sxs-lookup"><span data-stu-id="4896e-118">The retention timer resets if someone joins the same meeting session within 15 days.</span></span> <span data-ttu-id="4896e-119">Als u bijvoorbeeld een vergadering in Skype voor bedrijven voor één jaar wekelijks plant, en een bestand wordt geüpload naar de vergadering tijdens het eerste exemplaar.</span><span class="sxs-lookup"><span data-stu-id="4896e-119">For example, assume a Skype for Business meeting is scheduled to occur on a weekly basis for one year, and a file is uploaded to the meeting during the first instance.</span></span> <span data-ttu-id="4896e-120">Als ten minste één persoon elke week aan de vergadering deelneemt, blijft het bestand in Skype voor bedrijven online-servers voor het hele jaar en 15 dagen na de laatste persoon de laatste vergadering van de reeks verlaten.</span><span class="sxs-lookup"><span data-stu-id="4896e-120">If at least one person joins the meeting session every week, the file is retained in Skype for Business Online servers for the entire year plus 15 days after the last person leaves the last meeting of the series.</span></span>
+- <span data-ttu-id="4896e-121">**Nu vergaderen** -inhoud wordt gedurende 8 uur na de eindtijd van de vergadering bewaard.</span><span class="sxs-lookup"><span data-stu-id="4896e-121">**Meet Now meeting** - Content is retained for 8 hours after the meeting end time.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="4896e-122">Als een gebruiker geen licentie heeft of is uitgeschakeld (bijvoorbeeld als **msRTCSIP-userenabled** is ingesteld op *Onwaar*) en dan opnieuw een licentie voor de vergadering blijft behouden of opnieuw inschakelt, wordt de inhoud van de vergadering niet bewaard.</span><span class="sxs-lookup"><span data-stu-id="4896e-122">If a user is unlicensed or disabled (e.g., if **msRTCSIP-userenabled** is set to *False*), and is then re-licensed or reenabled, meeting content is not retained.</span></span>
+
+## <a name="meeting-expiration"></a><span data-ttu-id="4896e-123">Verloop van vergadering</span><span class="sxs-lookup"><span data-stu-id="4896e-123">Meeting Expiration</span></span>
+
+<span data-ttu-id="4896e-124">Gebruikers hebben toegang tot een specifieke vergadering nadat de vergadering is beëindigd, met inachtneming van de volgende verloopperiode:</span><span class="sxs-lookup"><span data-stu-id="4896e-124">Users can access a specific meeting after the meeting has ended, subject to the following expiration time periods:</span></span>
+
+- <span data-ttu-id="4896e-125">**Eenmalige vergadering** -vergadering verloopt 14 dagen na de geplande eindtijd van de vergadering.</span><span class="sxs-lookup"><span data-stu-id="4896e-125">**One-time meeting** - Meeting expires 14 days after the scheduled meeting end time.</span></span>
+- <span data-ttu-id="4896e-126">**Terugkerende vergadering met einddatum** -de vergadering verloopt 14 dagen na de geplande eindtijd van het laatste exemplaar van de vergadering.</span><span class="sxs-lookup"><span data-stu-id="4896e-126">**Recurring meeting with end date** - Meeting expires 14 days after the scheduled end time of the last meeting occurrence.</span></span>
+- <span data-ttu-id="4896e-127">Verg **aderen tot nu** toe: de vergadering verloopt na acht uur.</span><span class="sxs-lookup"><span data-stu-id="4896e-127">**Meet Now meeting** - Meeting expires after 8 hours.</span></span>
+
+## <a name="whiteboard-collaboration"></a><span data-ttu-id="4896e-128">Samenwerken met Whiteboard</span><span class="sxs-lookup"><span data-stu-id="4896e-128">Whiteboard Collaboration</span></span>
+
+<span data-ttu-id="4896e-129">Aantekeningen op whiteboards worden weergegeven door alle deelnemers.</span><span class="sxs-lookup"><span data-stu-id="4896e-129">Annotations made on whiteboards will be seen by all participants.</span></span> <span data-ttu-id="4896e-130">Wanneer u een whiteboard opslaat, worden het whiteboard en alle aantekeningen opgeslagen op een Skype voor bedrijven-server en wordt het op de server bewaard op basis van het verloopbeleid voor de inhoud van de beheerder.</span><span class="sxs-lookup"><span data-stu-id="4896e-130">When saving a whiteboard, the whiteboard and all annotations will be stored on a Skype for Business server, and it will be retained on the server according to meeting content expiration policies set by the administrator.</span></span>
+
+## <a name="audio-test-service"></a><span data-ttu-id="4896e-131">Service voor audio tests</span><span class="sxs-lookup"><span data-stu-id="4896e-131">Audio Test Service</span></span>
+
+<span data-ttu-id="4896e-132">Tijdens de audio test service wordt een kort voorbeeld van de audio test opgenomen.</span><span class="sxs-lookup"><span data-stu-id="4896e-132">A short (approximately 5 seconds) sample of your voice is recorded during the Audio Test Service call.</span></span> <span data-ttu-id="4896e-133">Het spraak voorbeeld wordt door u gebruikt om de geluidskwaliteit van uw gesprekken in Skype voor bedrijven te controleren en/of te verifiëren op basis van de kwaliteit van de opname.</span><span class="sxs-lookup"><span data-stu-id="4896e-133">The voice sample is used by you to check and/or verify the sound quality of your Skype for Business call based on the quality of the recording.</span></span> <span data-ttu-id="4896e-134">Wanneer de audio test service oproep eindigt, wordt het spraak voorbeeld verwijderd.</span><span class="sxs-lookup"><span data-stu-id="4896e-134">When the Audio Test Service call ends, the voice sample is deleted.</span></span>
+
+## <a name="persistent-group-chat"></a><span data-ttu-id="4896e-135">Permanente chat voor groepen</span><span class="sxs-lookup"><span data-stu-id="4896e-135">Persistent Group Chat</span></span>
+
+<span data-ttu-id="4896e-136">Permanente groepsgesprek slaat de inhoud van de groepsgesprekken op.</span><span class="sxs-lookup"><span data-stu-id="4896e-136">Persistent Group Chat stores the content of group chat conversations.</span></span> <span data-ttu-id="4896e-137">Als deze functie is ingeschakeld, kan de beheerder de bewaarperiode beheren, de server waarop deze informatie is opgeslagen, en de geschiedenis van een groepsgesprek wordt gearchiveerd voor compliance of andere doeleinden en de eigenschappen van een ruimte beheren/wijzigen.</span><span class="sxs-lookup"><span data-stu-id="4896e-137">If enabled, the administrator can control the retention period, the server on which this information is stored, if Group Chat history is archived for compliance or other purposes, and manage/modify any properties on a room.</span></span> <span data-ttu-id="4896e-138">Gebruikers met verschillende rollen hebben als volgt verschillende toegang tot de permanente gegevens:</span><span class="sxs-lookup"><span data-stu-id="4896e-138">Users with different roles have different access to the persisted data, as follows:</span></span>
+
+- <span data-ttu-id="4896e-139">Beheerders kunnen oudere inhoud verwijderen (bijvoorbeeld inhoud die vóór een bepaalde datum is gepubliceerd) vanuit een chatruimte, zodat de grootte van de database sterk opvalt.</span><span class="sxs-lookup"><span data-stu-id="4896e-139">Administrators can delete older content (for example, content posted before a certain date) from any chat room to keep the size of the database from growing greatly.</span></span> <span data-ttu-id="4896e-140">U kunt ook berichten verwijderen of vervangen als ongepaste berichten die niet geschikt zijn voor een bepaalde chatruimte (of als niet-bruikbaar).</span><span class="sxs-lookup"><span data-stu-id="4896e-140">Or, they can remove or replace messages considered inappropriate for a given chat room (or considered unsuitable).</span></span>
+- <span data-ttu-id="4896e-141">Eindgebruikers, waaronder schrijvers van berichten, kunnen geen inhoud verwijderen uit een chatruimte.</span><span class="sxs-lookup"><span data-stu-id="4896e-141">End-users, including message authors, cannot delete content from any chat room.</span></span>
+- <span data-ttu-id="4896e-142">Beheerders van een chat ruimte kunnen kamers uitschakelen, maar ruimten niet verwijderen.</span><span class="sxs-lookup"><span data-stu-id="4896e-142">Chat room managers can disable rooms but cannot delete rooms.</span></span> <span data-ttu-id="4896e-143">Alleen beheerders kunnen een chatruimte verwijderen nadat deze is gemaakt.</span><span class="sxs-lookup"><span data-stu-id="4896e-143">Only administrators can delete a chat room after it is created.</span></span>
