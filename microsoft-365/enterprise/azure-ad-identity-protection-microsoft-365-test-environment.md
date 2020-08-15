@@ -1,5 +1,5 @@
 ---
-title: Azure AD-identiteitsbeveiliging voor uw Microsoft 365 Enterprise-testomgeving
+title: Azure AD-identiteitsbeveiliging voor uw Microsoft 365 voor Enterprise testomgeving
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,65 +14,63 @@ ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
-description: Configureer Azure AD-identiteitsbeveiliging en analyseer de huidige accounts in uw Microsoft 365 Enterprise-testomgeving.
-ms.openlocfilehash: 3f3740e42c7ec909f44a3c761dfc743359b3f030
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Azure AD Identity Protection configureren en de huidige accounts in uw Microsoft 365 voor Enterprise testomgeving analyseren.
+ms.openlocfilehash: bd1e7560e978b13d24e9e93a99a2567adca95c75
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42806079"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46694988"
 ---
-# <a name="azure-ad-identity-protection-for-your-microsoft-365-enterprise-test-environment"></a>Azure AD-identiteitsbeveiliging voor uw Microsoft 365 Enterprise-testomgeving
+# <a name="azure-ad-identity-protection-for-your-microsoft-365-for-enterprise-test-environment"></a>Azure AD-identiteitsbeveiliging voor uw Microsoft 365 voor Enterprise testomgeving
 
-*Deze Test Lab Guide kan alleen worden gebruikt voor Microsoft 365 Enterprise-testomgevingen.*
+*Deze test lab-gids kan alleen worden gebruikt voor Microsoft 365 voor Enterprise test omgevingen.*
 
-Met Azure Active Directory (Azure AD) Identity Protection u mogelijke kwetsbaarheden detecteren die de identiteit van uw organisatie beïnvloeden, geautomatiseerde antwoorden configureren en incidenten onderzoeken. In dit artikel wordt beschreven hoe u Azure AD-identiteitsbeveiliging gebruiken om de analyse van uw testomgevingsaccounts weer te geven.
+Met identiteitsbeveiliging van Azure Active Directory (Azure AD) kunt u mogelijke problemen detecteren die van invloed zijn op de identiteiten van uw organisatie, automatische antwoorden configureren en incidenten onderzoeken. In dit artikel wordt uitgelegd hoe u Azure AD-identiteitsbeveiliging kunt gebruiken om de analyse van uw test omgevings accounts te bekijken.
 
-Er zijn twee fasen om Azure AD-identiteitsbeveiliging in te stellen in uw Microsoft 365 Enterprise-testomgeving:
+Er zijn twee fasen om Azure AD-identiteitsbeveiliging in te stellen in uw Microsoft 365 voor Enterprise testomgeving:
 
-1. Maak de Microsoft 365 Enterprise-testomgeving.
-2. Gebruik Azure AD-identiteitsbeveiliging.
+1. Maak de testomgeving Microsoft 365 for Enterprise.
+2. Azure Active Directory-identiteitsbeveiliging gebruiken.
 
-![Test Lab-hulplijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de Microsoft 365 Enterprise Test Lab Guide stack.
+> Klik op [Hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de stack van Microsoft 365 voor Enterprise-testlabrichtlijnen.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: Uw Microsoft 365 Enterprise-testomgeving uitbouwen
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: uw Microsoft 365-omgeving voor Enterprise testomgeving maken
 
-Als u Azure AD Identity Protection alleen op een lichtgewicht manier wilt testen met de minimumvereisten, volgt u de instructies in [lichtgewicht basisconfiguratie](lightweight-base-configuration-microsoft-365-enterprise.md).
+Als u alleen de bescherming van Azure AD-identiteit op een lichte manier wilt testen aan de minimumvereisten, volgt u de instructies in de [Lightweight Base configuration](lightweight-base-configuration-microsoft-365-enterprise.md).
   
-Als u Azure AD-identiteitsbeveiliging wilt testen in een gesimuleerde onderneming, volgt u de instructies in [Pass-through-verificatie](pass-through-auth-m365-ent-test-environment.md).
+Als u Azure AD-identiteitsbeveiliging wilt testen in een gesimuleerde onderneming, volgt u de instructies in de [Pass Through-verificatie](pass-through-auth-m365-ent-test-environment.md).
   
 > [!NOTE]
-> Het testen van Azure AD-identiteitsbeveiliging vereist niet de gesimuleerde bedrijfstestomgeving, die een gesimuleerd intranet bevat dat is verbonden met internet- en adreslijstsynchronisatie voor een AD DS-forest (Active Directory Domain Services). Het wordt hier als optie geleverd, zodat u Azure AD-identiteitsbescherming testen en ermee experimenteren in een omgeving die een typische organisatie vertegenwoordigt. 
+> Voor Azure Active Directory-identiteitsbeveiliging is geen gesimuleerde Enterprise-testomgeving vereist, dat een gesimuleerd intranet bevat dat verbonden is met internet en adreslijstsynchronisatie van een Active Directory Domain Services (AD DS)-forest. U kunt dit als optie gebruiken, zodat u de beveiliging van Azure AD-identiteit kunt testen en een proef kunt uitvoeren in een omgeving die een typische organisatie voorstelt. 
   
 ## <a name="phase-2-use-azure-ad-identity-protection"></a>Fase 2: Azure AD-identiteitsbeveiliging gebruiken
 
-1. Open een privé-exemplaar van uw browser en [https://portal.azure.com](https://portal.azure.com) meld u aan bij de Azure-portal met het globale beheerdersaccount van uw Microsoft 365 Enterprise-testomgeving.
-2. Typ in de Azure-portal **identiteitsbeveiliging** in het zoekvak en klik op **Azure AD-identiteitsbeveiliging**.
-3. Klik in het **blade voor identiteitsbescherming - op** elk van de rapporten om te zien wat ze rapporteren.
-4. Klik onder **Aanmelden**op **Gebruikers met risico gedetecteerde waarschuwingen**.
-5. Selecteer **Users at risk detected alerts** **Medium**.
-6. Als **e-mails naar de volgende gebruikers worden verzonden,** klikt u op **Opgenomen** en controleert u of uw globale beheerdersaccount zich in de lijst met geselecteerde leden bevindt.
+1. Open een privé-exemplaar van uw browser en meld u aan bij de Azure-Portal [https://portal.azure.com](https://portal.azure.com) met het account van de globale beheerder van uw Microsoft 365 voor Enterprise-testomgeving.
+2. Typ in het vak Zoeken in de Azure-Portal de tekst **identiteitsbeveiliging** en klik vervolgens op **Azure AD Identity Protection**.
+3. Klik in de blad **identiteitsbeveiliging-overzicht** op elk rapport om te zien wat ze rapporteren.
+4. Klik onder **waarschuwen**op **gebruikers met risico gedetecteerde meldingen**.
+5. Selecteer in het deelvenster **gebruikers van risico gedetecteerde signalen** de optie **normaal**.
+6. Voor **e-mailberichten worden de volgende gebruikers verzonden**: Klik op **opgenomen** en controleer of uw globale beheerdersaccount in de lijst met geselecteerde leden staat.
 7. Klik op **Opslaan**.
 
-Klik door het verschillende beleid onder **Beveiligen** om te zien hoe u ze configureert. Als u een beleid maakt en activeert, moet u ervoor zorgen dat het de toegang niet blokkeert voor een te breed scala aan voorwaarden, of als u zich mogelijk niet aanmelden, zelfs niet als globale beheerder.
+Klik op de verschillende beleidsregels onder **beveiligen** om te zien hoe u deze kunt configureren. Als u een beleid maakt en activeert, moet u ervoor zorgen dat de toegang niet te veel voorwaarden blokkeert, of dat u zich mogelijk niet kunt aanmelden, ook niet als globale beheerder.
 
-Zie [Risicogebeurtenissen simuleren](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-playbook)voor verder onderzoek en experimenten.
-
-Zie de stap [Beveiligen tegen het compromitteren van referenties](identity-secure-user-sign-ins.md#identity-ident-prot) in de identiteitsfase voor informatie en koppelingen om Azure AD-identiteitsbeveiliging in productie te implementeren.
+Zie [risico gebeurtenissen simuleren](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-playbook)voor verdere testen en experimenteren.
 
 ## <a name="next-step"></a>Volgende stap
 
-Ontdek extra [identiteitsfuncties](m365-enterprise-test-lab-guides.md#identity) en -mogelijkheden in uw testomgeving.
+Verken aanvullende [identiteits](m365-enterprise-test-lab-guides.md#identity)functies en -mogelijkheden in uw testomgeving.
 
 ## <a name="see-also"></a>Zie ook
 
-[Fase 2: Identiteit](identity-infrastructure.md)
+[Identiteitskaart](identity-roadmap-microsoft-365.md)
 
-[Microsoft 365 Enterprise Test Lab-handleidingen](m365-enterprise-test-lab-guides.md)
+[Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise-implementatie](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise-documentatie](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)

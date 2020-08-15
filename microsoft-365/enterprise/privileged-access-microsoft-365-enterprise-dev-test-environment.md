@@ -1,5 +1,5 @@
 ---
-title: Privileged access management voor uw Microsoft 365 Enterprise-testomgeving
+title: Toegangsbeheer met toegangsrechten voor uw testomgeving Microsoft 365 for Enterprise
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -14,104 +14,104 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 ms.custom: Ent_TLGs
-description: Gebruik deze Test Lab-handleiding om beheer van privileged access uw Microsoft 365 Enterprise-testomgeving in te schakelen.
-ms.openlocfilehash: 1a81c62124177a328209f175262ac13455ca0899
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+description: Gebruik deze test lab-handleiding om het toegangsbeheer voor uw Microsoft 365 voor Enterprise testomgeving in te schakelen.
+ms.openlocfilehash: 28fd27c3059fe25da5da8aaf8700b84c5989b408
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352520"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46695144"
 ---
-# <a name="privileged-access-management-for-your-microsoft-365-enterprise-test-environment"></a>Privileged access management voor uw Microsoft 365 Enterprise-testomgeving
+# <a name="privileged-access-management-for-your-microsoft-365-for-enterprise-test-environment"></a>Toegangsbeheer met toegangsrechten voor uw testomgeving Microsoft 365 for Enterprise
 
-*Deze testlabrichtlijnen kunnen worden gebruikt voor zowel Microsoft 365 Enterprise- als Office 365 Enterprise-testomgevingen.*
+*U kunt deze test lab-handleiding gebruiken voor zowel Microsoft 365 voor Enterprise als Office 365 Enterprise test omgevingen.*
 
-Met de instructies in dit artikel configureert u beheer van bevoegde toegang om de beveiliging in uw Microsoft 365 Enterprise-testomgeving te verhogen.
+Aan de hand van de instructies in dit artikel configureert u het toegangsbeheer om het beveiligingsniveau van uw Microsoft 365 voor Enterprise testomgeving te verbeteren.
 
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 >[!TIP]
->Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart met alle artikelen in de stack met Microsoft 365 Enterprise-testlabrichtlijnen.
+>Klik op [Hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de stack van Microsoft 365 voor Enterprise-testlabrichtlijnen.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: uw Microsoft 365 Enterprise-testomgeving uitbouwen
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: uw Microsoft 365-omgeving voor Enterprise testomgeving maken
 
-Als u alleen privileged access management op een lichtgewicht manier wilt configureren met de minimale vereisten, volgt u de instructies in [lichtgewicht basisconfiguratie.](lightweight-base-configuration-microsoft-365-enterprise.md)
+Als u alleen een eenvoudig toegangsbeheer wilt configureren met de minimale vereisten, volgt u de instructies in de [Lightweight Base configuration](lightweight-base-configuration-microsoft-365-enterprise.md).
   
-Als u privileged access management in een gesimuleerde onderneming wilt configureren, volgt u de instructies in [Pass-through-verificatie.](pass-through-auth-m365-ent-test-environment.md)
+Als u het toegangsbeheer voor bevoegdheden in een gesimuleerde onderneming wilt configureren, volgt u de instructies in de [verificatie](pass-through-auth-m365-ent-test-environment.md)procedure.
   
 >[!NOTE]
->Voor het testen van privileged access management is geen gesimuleerde bedrijfstestomgeving vereist, waaronder een gesimuleerd intranet dat is verbonden met internet en adreslijstsynchronisatie voor een AD DS-forest. Het wordt hier als optie aangeboden, zodat u privileged access management testen en ermee experimenteren in een omgeving die een typische organisatie vertegenwoordigt. 
+>Voor het testen van het toegangsbeheer is het niet mogelijk de gesimuleerde Enterprise testomgeving te gebruiken, waaronder een gesimuleerd intranet dat verbonden is met internet en adreslijstsynchronisatie van een AD DS-forest. Dit wordt hier als optie geboden, zodat u het beheer van de toegangsrechten kunt testen en een proef kunt uitvoeren in een omgeving die een typische organisatie voorstelt. 
 
-## <a name="phase-2-configure-privileged-access-management"></a>Fase 2: Privileged Access Management configureren
+## <a name="phase-2-configure-privileged-access-management"></a>Fase 2: geprivilegieerd toegangsbeheer configureren
 
-In deze fase configureert u een groep fiatteurs en schakelt u privileged access management in voor uw Microsoft 365 Enterprise-testomgeving. Zie Privileged access management in Office [365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview)voor meer informatie en een overzicht van privileged access management.
+In deze fase configureert u een groep goedkeurders en schakelt u het beheer van de juiste toegang in voor uw Microsoft 365 voor Enterprise-testomgeving. Zie [toegangsbeheer](../compliance/privileged-access-management-overview.md)voor meer informatie en een overzicht van toegangsbeheer met bevoegdheden.
 
-Volg de volgende stappen voor het instellen en gebruiken van bevoorrechte toegang in uw organisatie:
+Voer de volgende stappen uit om geprivilegieerde toegang in uw organisatie in te stellen en te gebruiken:
 
-- [Stap 1: De groep van een goedkeurder maken](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-configuration#step-1-create-an-approvers-group)
+- [Stap 1: een groep goedkeurder maken](../compliance/privileged-access-management-configuration.md#step-1-create-an-approvers-group)
 
-    Voordat u toegang tot bevoegdheden gaat gebruiken, bepaalt u wie de goedkeuringsinstantie heeft voor binnenkomende aanvragen voor toegang tot verhoogde en bevoorrechte taken. Elke gebruiker die deel uitmaakt van de groep Van de Fiatse goedkeurden, kan toegangsverzoeken goedkeuren. Dit wordt ingeschakeld door een beveiligingsgroep met e-mail te maken in Office 365. Maak een nieuwe beveiligingsgroep met de naam 'Voorkeurstoegangsgoeden' in uw testomgeving en voeg de 'Gebruiker 3' toe die eerder is gemaakt in eerdere testlabhandleidingstappen.
+    Voordat u bevoegdheden toegang kunt gaan gebruiken, moet u bepalen wie de goedkeuringsbevoegdheid heeft voor binnenkomende verzoeken om toegang te krijgen tot taken met verhoogde bevoegdheid en bevoegdheden. Gebruikers die lid zijn van de groep goedkeurders, kunnen toegangsaanvragen goedkeuren. Dit is ingeschakeld door een beveiligingsgroep met e-mail te maken in Microsoft 365. Maak een nieuwe beveiligingsgroep met de naam ' goedkeurders van toegankelijkheid ' in uw testomgeving, en voeg de ' gebruiker 3 ' toe die eerder is gemaakt in de stappen voor voorafgaand test lab-handleiding.
 
-- [Stap 2: Bevoorrechte toegang inschakelen](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-configuration#step-2-enable-privileged-access)
+- [Stap 2: geprivilegieerde toegang inschakelen](../compliance/privileged-access-management-configuration.md#step-2-enable-privileged-access)
 
-    Bevoegde toegang moet expliciet worden ingeschakeld in Office 365 met de standaardgroep voor goedgekeurde accounts en een set systeemaccounts die u wilt uitsluiten van het toegangsbeheer voor toegang met toegang tot toegang. Zorg ervoor dat u bevoorrechte toegang in uw organisatie inschakelt voordat u fase 3 van deze handleiding start.
+    Geautoriseerde toegang moet expliciet worden ingeschakeld in Microsoft 365 met de standaardgroep goedkeurder en met een reeks systeemaccounts die u wilt uitsluiten van het toegangsbeheer toegangsbeheer. Zorg ervoor dat u de toegang tot uw organisatie hebt ingeschakeld voordat u fase 3 van deze handleiding start.
 
-## <a name="phase-3-verify-that-approval-is-required-for-elevated-and-privileged-tasks"></a>Fase 3: Controleren of goedkeuring vereist is voor verhoogde en bevoorrechte taken
+## <a name="phase-3-verify-that-approval-is-required-for-elevated-and-privileged-tasks"></a>Fase 3: controleren of de goedkeuring is vereist voor verhoogde en geprivilegieerde taken
 
-In deze fase controleert u of het beleid voor bevoegde toegang werkt en dat gebruikers goedkeuring nodig hebben om gedefinieerde verhoogde en bevoorrechte taken uit te voeren.
+In deze fase dient u te controleren of het beleid voor toegangsrechten en de gebruikers moeten worden goedgekeurd voor het uitvoeren van gedefinieerde, uitgebreide en geprivilegieerde taken.
 
-### <a name="test-ability-to-execute-a-task-not-defined-in-a-privileged-access-policy"></a>De mogelijkheid testen om een taak uit te voeren die NIET is gedefinieerd in een beleid voor bevoegde toegang
+### <a name="test-ability-to-execute-a-task-not-defined-in-a-privileged-access-policy"></a>De mogelijkheid om een taak uit te voeren die niet is gedefinieerd in een beleid voor toegangsrechten testen
 
-Maak eerst verbinding met Exchange Management PowerShell met de referenties van een gebruiker die is geconfigureerd als globale beheerder in uw testomgeving en probeer een nieuwe Journal-regel te maken. De taak [Nieuw-JournalRule](https://docs.microsoft.com/powershell/module/exchange/new-journalrule?view=exchange-ps) is momenteel niet gedefinieerd in een beleid voor bevoegde toegang voor uw organisatie.
+Maak eerst verbinding met Exchange Management PowerShell met de referenties van een gebruiker die is geconfigureerd als globale beheerder in uw testomgeving en probeer een nieuwe logboek regel te maken. De [nieuwe JournalRule-](https://docs.microsoft.com/powershell/module/exchange/new-journalrule?view=exchange-ps) taak is op dit moment niet gedefinieerd in het toegangsbeleid voor uw organisatie.
 
-1. Open op uw lokale computer de Exchange Online Remote PowerShell-module bij **Microsoft Corporation**Microsoft Exchange Online  >  **Remote PowerShell Module** met behulp van het Global Admin-account voor uw testomgeving.
+1. Open op uw lokale computer de naam van de Exchange Online Remote PowerShell-module op **Microsoft Corporation**  >  **Microsoft Exchange Online Remote PowerShell-module** met behulp van het globale beheerdersaccount voor uw testomgeving.
 
-2. Maak in Exchange Management PowerShell een nieuwe Journal-regel voor uw organisatie:
+2. Maak in Exchange Management PowerShell een nieuwe logboek regel voor uw organisatie:
 
 ```ExchangeManagementPowerShell
 New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -JournalEmailAddress barbara@adatum.com -Scope Global -Enabled $true
 ```
 
-4. Bekijk dat de nieuwe logboekregel is gemaakt in Exchange Management PowerShell.
+4. Weergave van de nieuwe logboek regel is gemaakt in Exchange Management PowerShell.
 
-### <a name="create-a-new-privileged-access-policy-for-the-new-journalrule-task"></a>Een nieuw toegangsbeleid voor bevoegde toegang maken voor de taak Nieuw-JournalRule
+### <a name="create-a-new-privileged-access-policy-for-the-new-journalrule-task"></a>Een nieuw beleid voor toegangsrechten maken voor de nieuwe taak JournalRule
 
 >[!NOTE]
->Als u de stappen 1 en 2 van fase 2 van deze handleiding nog niet hebt voltooid, moet u de stappen volgen om de groep van een goedkeurder met de naam 'Privilege Access-goedkeurders' te maken en bevoorrechte toegang in uw testomgeving in te schakelen.
+>Als u de stappen 1 en 2 uit fase 2 van deze handleiding nog niet hebt uitgevoerd, moet u de stappen uitvoeren om de groep met bevoegdheden voor het goedkeuren van bevoegdheden te maken en geprivilegieerde toegang in uw testomgeving in te schakelen.
 
-1. Meld u aan bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com) met referenties het Global Admin-account voor uw testomgeving.
+1. Meld u aan bij het [Microsoft 365-Beheercentrum](https://admin.microsoft.com) met behulp van het gebruikersaccount van de globale beheerder voor uw testomgeving.
 
-2. Ga in het beheercentrum naar **Settings**  >  **Instellingenbeveiliging & Toegang**  >  **tot privacybevoegde toegang**.
+2. Ga in het Beheercentrum naar **instellingen**  >  **beveiliging & privacy**  >  **bevoorrechte toegang**.
 
-3. Selecteer **Toegangsbeleid en -aanvragen beheren**.
+3. Selecteer **toegangsbeleidsregels en aanvragen beheren**.
 
-4. Selecteer **Beleid configureren** en selecteer Een beleid **toevoegen**.
+4. Selecteer **beleid configureren** en selecteer **een beleid toevoegen**.
 
-5. Selecteer of voer in de vervolgkeuzelijst de volgende waarden in:
+5. Selecteer of typ de volgende waarden in de vervolgkeuzelijst:
 
-    **Beleidstype**: Taak
+    **Beleidstype**: taak
 
-    **Beleidsscope**: Uitwisseling
+    **Beleids bereik**: Exchange
 
-    **Beleidsnaam**: Nieuwe journaalregel
+    **Beleidsnaam**: nieuwe logboek regel
 
-    **Goedkeuringstype**: Handleiding
+    **Goedkeurings type**: handmatig
 
-    **Goedkeuringsgroep**: Fiatteurs met bevoorrechte toegang
+    **Goedkeuringsgroep**: geautoriseerde toegang goedkeurders
 
-6. Selecteer **Maken** en vervolgens **Sluiten**. Het kan enkele minuten duren voordat het beleid volledig is geconfigureerd en ingeschakeld. Zorg ervoor dat u de tijd toestaat om het beleid volledig in te schakelen voordat u de goedkeuringsvereiste in de volgende stap test.
+6. Selecteer **maken** en vervolgens **sluiten**. Het kan een paar minuten duren voordat het beleid volledig is geconfigureerd en is ingeschakeld. Zorg ervoor dat het beleid volledig is ingeschakeld voordat u de goedkeurings vereiste gaat testen in de volgende stap.
 
-### <a name="test-approval-requirement-for-the-new-journalrule-task-defined-in-a-privileged-access-policy"></a>Goedkeuringsvereiste testen voor de taak Nieuw-JournalRule die is gedefinieerd in een beleid voor bevoorrechte toegang
+### <a name="test-approval-requirement-for-the-new-journalrule-task-defined-in-a-privileged-access-policy"></a>Goedkeurings vereiste testen voor de nieuwe JournalRule-taak die is gedefinieerd in een toegangsbeleid
 
-1. Open op uw lokale computer de Exchange Online Remote PowerShell-module bij **Microsoft Corporation**Microsoft Exchange Online  >  **Remote PowerShell Module** met behulp van een account globale beheer voor uw testomgeving.
+1. Open op uw lokale computer, open en meld u aan bij de Microsoft Exchange Online Remote PowerShell-module op **Microsoft Corporation**  >  **Microsoft Exchange Online Remote PowerShell-module** met behulp van een account van de globale beheerder voor uw testomgeving.
 
-2. Maak in Exchange Management PowerShell een nieuwe Journal-regel voor uw organisatie:
+2. Maak in Exchange Management PowerShell een nieuwe logboek regel voor uw organisatie:
 
 ```ExchangeManagementPowerShell
 New-JournalRule -Name "JournalRule2" -Recipient user1@<your subscription domain> -JournalEmailAddress user1@<your subscription domain> -Scope Global -Enabled $true
 ```
 
-3. Fout 'Onvoldoende machtigingen' weergeven in Exchange Management PowerShell:
+3. De fout ' onvoldoende machtigingen ' in Exchange Management PowerShell weergeven:
 
 ```ExchangeManagementPowerShell
 Insufficient permissions. Please raise an elevated access request for this task.
@@ -121,58 +121,58 @@ Insufficient permissions. Please raise an elevated access request for this task.
     + PSComputerName        : outlook.office365.com
 ```
 
-### <a name="request-access-to-create-a-new-journal-rule-using-the-new-journalrule-task"></a>Toegang aanvragen om een nieuwe journaalregel te maken met de taak Nieuw-JournalRule
+### <a name="request-access-to-create-a-new-journal-rule-using-the-new-journalrule-task"></a>Toegang aanvragen voor het maken van een nieuwe logboek regel met de taak New-JournalRule
 
-1. Meld u aan bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com) met het global admin-account voor uw testomgeving.
+1. Meld u aan bij het [Microsoft 365-Beheercentrum](https://admin.microsoft.com) met het account van de globale beheerder voor uw testomgeving.
 
-2. Ga in het beheercentrum naar **Settings**  >  **Instellingenbeveiliging & Toegang**  >  **tot privacybevoegde toegang**.
+2. Ga in het Beheercentrum naar **instellingen**  >  **beveiliging & privacy**  >  **bevoorrechte toegang**.
 
-3. Selecteer **Toegangsbeleid en -aanvragen beheren**.
+3. Selecteer **toegangsbeleidsregels en aanvragen beheren**.
 
-4. Selecteer **Nieuw verzoek**. Selecteer in de vervolgkeuzelijst de juiste waarden voor uw organisatie:
+4. Selecteer **nieuwe aanvraag**. Selecteer in de vervolgkeuzelijsten de juiste waarden voor uw organisatie:
 
-    **Aanvraagtype**: Taak
+    **Type aanvraag**: taak
 
     **Aanvraagbereik**: Exchange
 
-    **Aanvraag voor**: Nieuwe journaalregel
+    **Aanvraag voor**: nieuwe logboek regel
 
     **Duur (uren)**: 2
 
-    **Opmerkingen**: Toestemming vragen om een nieuwe logboekregel te maken
+    **Opmerkingen**: vraagt om toestemming voor het maken van een nieuwe logboek regel
 
-5. Selecteer **Opslaan** en vervolgens **Sluiten**. Uw verzoek wordt via e-mail naar de groep van de goedkeurder gestuurd.
+5. Selecteer **Opslaan** en vervolgens **sluiten**. Uw verzoek wordt via e-mail naar de groep van de goedkeurder verzonden.
 
-### <a name="approve-privileged-access-request-for-the-creation-of-a-new-journal-rule"></a>Voorkeurstoegangsaanvraag goedkeuren voor het maken van een nieuwe journaalregel
+### <a name="approve-privileged-access-request-for-the-creation-of-a-new-journal-rule"></a>Aanvraag voor toegangsrechten goedkeuren voor het maken van een nieuwe logboek regel
 
-1. Meld u aan bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com) met behulp van de referenties voor gebruiker 3 in uw testomgeving (lid van de beveiligingsgroep 'Bevoegde toegangs-approvers' in uw testomgeving).
+1. Meld u aan bij het [Microsoft 365-Beheercentrum](https://admin.microsoft.com) met behulp van de referenties voor gebruikers 3 in uw testomgeving (lid van de beveiligingsgroep geautoriseerde toegang goedkeurders in uw testomgeving).
 
-2. Ga in het beheercentrum naar **Settings**  >  **Instellingenbeveiliging & Toegang**  >  **tot privacybevoegde toegang**.
+2. Ga in het Beheercentrum naar **instellingen**  >  **beveiliging & privacy**  >  **bevoorrechte toegang**.
 
-3. Selecteer **Toegangsbeleid en -aanvragen beheren**.
+3. Selecteer **toegangsbeleidsregels en aanvragen beheren**.
 
-4. Selecteer de aanvraag in behandeling en selecteer **Goedkeuren** om toegang te verlenen tot het global admin-account om een nieuwe logboekregel te maken. Een e-mail met een melding waarin wordt bevestigd dat er goedkeuring is verleend, wordt verzonden naar het Global Admin-account (de verzoekende gebruiker).  
+4. Selecteer de aanvraag in behandeling en selecteer **goedkeuren** om toegang te verlenen aan het account van de globale beheerder om een nieuwe logboek regel te maken. Een e-mailbericht met de mededeling dat de goedkeuring is verleend, wordt verzonden naar het account van de globale beheerder (de aanvraag voor de gebruiker).  
 
-### <a name="test-creating-a-new-journal-rule-with-privileged-access-approved-for-the-new-journalrule-task"></a>Een nieuwe logboekregel maken met bevoorrechte toegang die is goedgekeurd voor de taak Nieuw-JournalRule
+### <a name="test-creating-a-new-journal-rule-with-privileged-access-approved-for-the-new-journalrule-task"></a>Test het maken van een nieuwe logboek regel met geprivilegieerde toegang goedgekeurd voor de nieuwe taak JournalRule
 
-1. Open op uw lokale computer de Exchange Online Remote PowerShell-module bij **Microsoft Corporation**Microsoft Exchange Online  >  **Remote PowerShell Module** met behulp van het Global Admin-account voor uw testomgeving.
+1. Open op uw lokale computer de naam van de Exchange Online Remote PowerShell-module op **Microsoft Corporation**  >  **Microsoft Exchange Online Remote PowerShell-module** met behulp van het globale beheerdersaccount voor uw testomgeving.
 
-2. Maak in Exchange Management PowerShell een nieuwe Journal-regel voor uw organisatie:
+2. Maak in Exchange Management PowerShell een nieuwe logboek regel voor uw organisatie:
 
 ```ExchangeManagementPowerShell
 New-JournalRule -Name "JournalRule2" -Recipient user1@<your subscription domain> -JournalEmailAddress user1@<your subscription domain> -Scope Global -Enabled $true
 ```
 
-3. Bekijk dat de nieuwe logboekregel is gemaakt in Exchange Management PowerShell.
+3. Weergave van de nieuwe logboek regel is gemaakt in Exchange Management PowerShell.
 
 ## <a name="next-step"></a>Volgende stap
 
-Ontdek aanvullende functies en mogelijkheden voor [informatiebescherming](m365-enterprise-test-lab-guides.md#information-protection) in uw testomgeving.
+Verken de functies en mogelijkheden van extra [informatiebescherming](m365-enterprise-test-lab-guides.md#information-protection) in uw testomgeving.
 
 ## <a name="see-also"></a>Zie ook
 
 [Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise implementeren](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise-documentatie](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)

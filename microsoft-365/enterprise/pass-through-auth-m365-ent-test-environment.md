@@ -9,7 +9,7 @@ ms.date: 11/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
@@ -18,16 +18,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Samenvatting: Configureer Pass Through-verificatie voor uw Microsoft 365-testomgeving.'
-ms.openlocfilehash: 8a9a8847d79e1d114f0ddfb4843cbb7b9f9f0d4c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+ms.openlocfilehash: 1b5540f2e16ac0267bf33faf42defe6bca6d25cd
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631415"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46695192"
 ---
 # <a name="pass-through-authentication-for-your-microsoft-365-test-environment"></a>Pass Through-verificatie voor uw Microsoft 365-testomgeving
 
-*Deze testlabrichtlijnen kunnen worden gebruikt voor zowel Microsoft 365 Enterprise- als Office 365 Enterprise-testomgevingen.*
+*U kunt deze test lab-handleiding gebruiken voor zowel Microsoft 365 voor Enterprise als Office 365 Enterprise test omgevingen.*
 
 Organisaties die rechtstreeks gebruik willen maken van hun on-premises infrastructuur met Active Directory Domain Services (AD DS) voor verificatie bij Microsoft-cloudservices en -toepassingen, kunnen Pass Through-verificatie gebruiken. In dit artikel wordt beschreven hoe u uw Microsoft 365-testomgeving kunt configureren voor Pass Through-verificatie, met de volgende configuratie als resultaat:
   
@@ -41,7 +41,7 @@ Er zijn twee fasen om deze testomgeving in te stellen:
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart met alle artikelen over de Microsoft 365 Enterprise-testlabrichtlijnen.
+> Klik op [Hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de stack van Microsoft 365 voor Enterprise-testlabrichtlijnen.
   
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Fase 1: Configureer wachtwoord-hash-synchronisatie voor uw Microsoft 365-testomgeving
 
@@ -51,7 +51,7 @@ Volg de instructies in [wachtwoord-hash-synchronisatie voor Microsoft 365](passw
   
 Deze configuratie bestaat uit: 
   
-- Een betaald of proefabonnement op Microsoft 365 E5 of Office 365 E5.
+- Microsoft 365 E5-proefabonnement of betaald abonnement.
 - Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. Azure AD Connect wordt uitgevoerd op APP1 om het AD DS-domein TESTLAB te synchroniseren met de Azure AD-tenant van uw Microsoft 365-abonnement.
 
 ## <a name="phase-2-configure-azure-ad-connect-on-app1-for-pass-through-authentication"></a>Fase 2: Azure AD Connect op APP1 configureren voor Pass Through-verificatie
@@ -80,13 +80,13 @@ In deze fase configureert u Azure AD Connect op APP1 voor het gebruik van Pass T
 
 10.    Klik op **Pass Through-verificatie**. In het deelvenster **Pass Through-verificatie** worden de servers weergegeven waarop uw verificatie-agenten zijn geïnstalleerd. U ziet nu APP1 in de lijst. Sluit het deelvenster **Pass Through-verificatie**.
 
-Test vervolgens of u zich kunt aanmelden bij uw abonnement met <strong>gebruiker1@testlab.</strong>\<uw openbare domein> gebruikersnaam van het account Gebruiker1.
+Test vervolgens de mogelijkheid om u aan te melden bij uw abonnement met het <strong>user1@testlab.</strong>\<your public domain> van het gebruiker1-account.
 
 1. Meld u af bij APP1 en meld u weer aan met een ander account.
 
-2. Wanneer u om een gebruikersnaam en wachtwoord wordt gevraagd, typt u <strong>gebruiker1@testlab.</strong>\<uw openbare domein> en het wachtwoord voor Gebruiker1. U moet u nu kunnen aanmelden als Gebruiker1.
+2. Wanneer u om een gebruikersnaam en wachtwoord wordt gevraagd, typt u <strong>gebruiker1@testlab.</strong>\<your public domain> en het wachtwoord voor gebruiker1. U moet u nu kunnen aanmelden als Gebruiker1.
 
-Zoals u ziet, heeft Gebruiker1 de machtigingen van een domeinbeheerder voor het TESTLAB AD DS-domein, maar Gebruiker1 is geen globale beheerder. Daarom wordt het pictogram van de **-beheerder** niet weergegeven als optie.
+Zoals u ziet, heeft Gebruiker1 de machtigingen van een domeinbeheerder voor het TESTLAB AD DS-domein, maar Gebruiker1 is geen globale beheerder. Daarom wordt het pictogram van de **Beheerder** niet weergegeven als optie.
 
 Dit is de resulterende configuratie:
 
@@ -94,7 +94,7 @@ Dit is de resulterende configuratie:
  
 Deze configuratie bestaat uit:
 
-- Een betaald of proefabonnement op Microsoft 365 E5 of Office 365 E5 met het DNS-domein testlab.\<uw domeinnaam> geregistreerd.
+- Een Microsoft 365 E5-proefabonnement of betaalde abonnementen met de DNS-domein testlab.\<your domain name> geregistreerd.
 - Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. Er wordt een verificatieagent uitgevoerd op APP1 voor het verwerken van Pass Through-verificatieaanvragen van de Azure AD-tenant van uw Microsoft 365-abonnement.
 
 ## <a name="next-step"></a>Volgende stap
@@ -105,6 +105,6 @@ Verken aanvullende [identiteits](m365-enterprise-test-lab-guides.md#identity)fun
 
 [Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise implementeren](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise-documentatie](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)

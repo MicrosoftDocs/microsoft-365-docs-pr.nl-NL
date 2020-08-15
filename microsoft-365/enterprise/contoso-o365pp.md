@@ -9,18 +9,18 @@ ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ontdek hoe Contoso Microsoft Endpoint Configuration Manager gebruikt om Microsoft 365-apps voor ondernemingen te implementeren.
-ms.openlocfilehash: 4a36e33a6f2ef6df880864dd852f0f63056946e6
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
-ms.translationtype: HT
+ms.openlocfilehash: de6a5348a49a490afa3c3ac632e66026966e2ef3
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679036"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46695156"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Implementatie van Microsoft 365-apps voor ondernemingen voor Contoso
 
@@ -79,12 +79,12 @@ Dit is de implementatie-architectuur van de installatie van Microsoft 365-apps v
  
 ## <a name="next-step"></a>Volgende stap
 
-[Meer informatie](contoso-mdm.md) over hoe Contoso Microsoft Intune gebruikt in Microsoft 365 Enterprise voor het beheren van haar apparaten en de apps die erop in de gehele organisatie worden uitgevoerd.
+[Meer informatie](contoso-mdm.md) over hoe contoso gebruikmaakt van Microsoft intune in microsoft 365 for Enterprise voor het beheren van de apparaten en de apps die in de organisatie worden uitgevoerd.
 
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft 365-apps voor ondernemingen voor Microsoft 365 Enterprise](office365proplus-infrastructure.md)
+[Microsoft 365-apps voor ondernemingen](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
 
-[Implementatiehandleiding](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
 [Testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
