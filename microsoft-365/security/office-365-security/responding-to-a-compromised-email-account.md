@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Lees hoe u een gehackt e-mailaccount kunt herkennen en hierop kunt reageren met behulp van de hulpmiddelen die beschikbaar zijn in Microsoft 365.
-ms.openlocfilehash: cd9e5b4f9951bd332950cdc22ba3f3740d084dfb
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: d412f40a6c3e1e2f1182437419ce9e0d28ed10eb
+ms.sourcegitcommit: 929ca8f4d5fc006c3827f7a8b7d2b43e54c1b42a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527778"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46674612"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Reageren op een gehackt e-mailaccount
 
@@ -68,11 +68,8 @@ Als een gebruiker een van de bovenstaande problemen meldt, moet u nader onderzoe
 - **Azure AD-aanmeldingslogboeken en andere risicorapporten in de Azure AD-portal**: Bekijk de waarden in deze kolommen:
 
   - Controleer het IP-adres
-
   - aanmeldingslocaties
-
   - aanmeldingstijden
-
   - geslaagde of misluke aanmeldingen
 
 ## <a name="how-to-secure-and-restore-email-function-to-a-suspected-compromised-microsoft-365-account-and-mailbox"></a>E-mailfunctionaliteit van een vermoedelijk gehackt Microsoft 365-account en -postvak beveiligen en herstellen
@@ -85,31 +82,31 @@ U moet de volgende stappen uitvoeren om weer toegang te krijgen tot uw account. 
 
 ### <a name="step-1-reset-the-users-password"></a>Stap 1 Stel het gebruikerswachtwoord opnieuw in
 
-> [!WARNING]
-> Stuur het nieuwe wachtwoord niet via e-mail naar de bedoelde gebruiker, aangezien de hacker op dit moment nog steeds toegang tot het postvak heeft.
+Volg de procedures in [Een zakelijk wachtwoord opnieuw instellen voor iemand](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords#reset-my-admin-password).
 
-1. Volg de procedures voor het opnieuw instellen van een wachtwoord van iemand anders voor Microsoft 365-apps voor ondernemingen in [Wachtwoorden voor Microsoft 365-apps voor ondernemingen opnieuw instellen](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords)
-
-**Opmerkingen**:
-
-- Zorg ervoor dat het wachtwoord sterk is en dat het hoofdletters en kleine letters, tenminste één cijfer en tenminste één speciaal teken bevat.
-
-- Gebruik uw laatste vijf wachtwoorden niet opnieuw. Hoewel u volgens de vereisten voor wachtwoordgeschiedenis een recenter wachtwoord opnieuw kunt gebruiken, is het verstandig om iets te selecteren dat de hacker niet kan raden.
-
-- Als uw identiteit op locatie federatief is met Microsoft 365, moet u uw wachtwoord op locatie wijzigen en uw beheerder op de hoogte stellen van de aanval.
-
-> [!TIP]
-> We raden u ten zeerste aan om meervoudige verificatie in te schakelen om een inbreuk te voorkomen, met name voor accounts met beheerdersbevoegdheden.  Voor meer informatie over MFA gaat u naar [Meervoudige verificatie instellen](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication).
+> [!IMPORTANT]
+>
+> - Stuur het nieuwe wachtwoord niet via e-mail naar de bedoelde gebruiker, aangezien de hacker op dit moment nog steeds toegang tot het postvak heeft.
+>
+> - Zorg ervoor dat het wachtwoord sterk is en dat het hoofdletters en kleine letters, tenminste één cijfer en tenminste één speciaal teken bevat.
+>
+> - Gebruik uw laatste vijf wachtwoorden niet opnieuw. Hoewel u volgens de vereisten voor wachtwoordgeschiedenis een recenter wachtwoord opnieuw kunt gebruiken, is het verstandig om iets te selecteren dat de hacker niet kan raden.
+>
+> - Als uw identiteit op locatie federatief is met Microsoft 365, moet u uw wachtwoord op locatie wijzigen en uw beheerder op de hoogte stellen van de aanval.
+>
+> - Vergeet niet om app-wachtwoorden bij te werken. App-wachtwoorden worden niet automatisch ingetrokken bij het opnieuw instellen van een wachtwoord voor een gebruikersaccount. De gebruiker moet bestaande app-wachtwoorden verwijderen en nieuwe app-wachtwoorden maken. Voor meer informatie, zie [App-wachtwoorden maken en verwijderen op de pagina Aanvullende beveiligingsverificatie](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page).
+>
+> - We raden u ten zeerste aan om meervoudige verificatie in te schakelen om een inbreuk te voorkomen, met name voor accounts met beheerdersbevoegdheden. Voor meer informatie over MFA gaat u naar [Meervoudige verificatie instellen](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication).
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>Stap 2 E-mailadressen verwijderen die verdachte mails doorsturen
 
-1. Open het **Microsoft 365-beheercentrum > Actieve gebruikers**.
+1. Het Microsoft 365-beheercentrum openen in <https://admin.microsoft.com>
 
-2. Zoek het gebruikersaccount in kwestie en vouw **E-mail instellingen** uit.
+2. Ga naar **Gebruikers** \> **Actieve gebruikers**. Zoek het desbetreffende gebruikersaccount en selecteer de gebruiker (rij) zonder het selectievakje in te schakelen.
 
-3. Kies **Bewerken** bij **E-mail doorsturen**.
+3. Selecteer in de flyout met details, het tabblad **E-mail**.
 
-4. Verwijder alle verdachte doorstuuradressen.
+4. Als de waarde in de sectie **E-mail doorsturen** is **Toegepast**, klikt u op **E-mail doorsturen beheren**. Schakel in de flyout **E-mail doorsturen beheren**, **Alle e-mailberichten naar dit postvak IN doorsturen** uit en klik vervolgens op **Wijzigingen opslaan**.
 
 ### <a name="step-3-disable-any-suspicious-inbox-rules"></a>Stap 3 Alle verdachte regels voor Postvak IN uitschakelen
 
@@ -132,50 +129,50 @@ Om ervoor te zorgen dat er weer mails kunnen worden verzonden vanuit dit postvak
 > [!IMPORTANT]
 > U kunt ervoor zorgen dat er niet meer ingelogd kan worden bij het vermoedelijk gehackte account tot u ervan overtuigd bent dat het veilig is om de blokkering op te heffen.
 
-1. Ga naar het Microsoft 365-beheercentrum.
+1. Ga in het Microsoft 365-beheercentrum naar **Gebruikers** \> **Actieve gebruikers**.
 
-2. Selecteer **Gebruikers** in het Microsoft 365-beheercentrum.
+2. Zoek en selecteer het gebruikersaccount, klik op ![Meer](../../media/ITPro-EAC-MoreOptionsIcon.png)en selecteer vervolgens **Aanmeldstatus bewerken**.
 
-3. Selecteer de werknemer die u wilt blokkeren en kies **Bewerken** naast **Aanmeldstatus** in het gebruikersdeelvenster.
+3. Selecteer in het deelvenster **Aanmelding blokkeren** de optie **Aanmelden van deze gebruiker blokkeren** en klik vervolgens op **Wijzigingen opslaan**.
 
-4. Kies in het deelvenster **Aanmeldstatus** de optie **Aanmelding geblokkeerd** en klik vervolgens op **Opslaan**.
+4. Open het Exchange-Beheercentrum (SBV) op <admin.protection.outlook.com/ecp/> en ga naar **Geadresseerden > Postvakken**.
 
-5. Vouw in het Beheercentrum, in het navigatievenster linksonder, **Beheercentra** uit en selecteer **Exchange**.
+5. Zoek en selecteer de gebruiker. In het detailvenster voert u de volgende stappen uit:
 
-6. Ga in het Exchange-beheercentrum naar **Ontvangers > Postvakken**.
+   - Voer de volgende stappen uit in de sectie **Telefoon- en spraakfuncties** :
 
-7. Selecteer de gebruiker en klik op de pagina met gebruikerseigenschappen onder **Mobiele apparaten** op **Exchange ActiveSync uitschakelen** en **OWA voor apparaten uitschakelen** en klik bij beide items op **Ja**.
+     - Selecteer **Exchange ActiveSync uitschakelen** en klik vervolgens op **Ja** in het waarschuwingsbericht.
+     - Selecteer **OWA voor apparaten uitschakelen** en klik vervolgens op **Ja** in het waarschuwingsbericht.
 
-8. Klik onder **E-mailconnectiviteit** op **Uitschakelen** en klik op **Ja**.
+   - Klik in de sectie **E-mailconnectiviteit** voor de webversie van Outlook op **Uitschakelen** en klik vervolgens op **Ja** in het waarschuwingsbericht.
 
 ### <a name="step-6-optional-remove-the-suspected-compromised-account-from-all-administrative-role-groups"></a>Stap 6 Optioneel: Verwijder het vermoedelijk gehackte account uit alle beheerdersrollen.
 
 > [!NOTE]
 > Het lidmaatschap van de administratieve rolgroep kan worden hersteld nadat het account is beveiligd.
 
-1. Meld u met een algemeen beheerdersaccount aan bij het Microsoft 365-beheercentrum en open **Actieve gebruikers**.
+1. Meld u aan met een globale beheerdersaccount:
 
-2. Zoek het vermoedelijk gehackte account en controleer handmatig of er beheerdersrollen aan het account zijn toegewezen.
+2. Voer de volgende stappen uit in het Microsoft 365-beheercentrum:
 
-3. Open het **Beveiligings- en compliancecentrum**.
+   1. Ga naar **Gebruikers** \> **Actieve gebruikers**.
+   2. Zoek en selecteer het gebruikersaccount, klik op ![Meer](../../media/ITPro-EAC-MoreOptionsIcon.png) en selecteer vervolgens **Rollen beheren**.
+   3. Verwijder alle beheerrollen die aan het account zijn toegewezen. Wanneer u gereed bent, klikt u op **Wijzigingen opslaan**.
 
-4. Klik op **Machtigingen**.
+3. Voer de volgende stappen uit in het beveiligings- en compliancecentrum op <https://protection.office.com>:
 
-5. Bekijk de rolgroepen handmatig om te zien of het vermoedelijk gehackte account lid is van een van deze groepen.  Zo ja:
+   Selecteer **Machtigingen**, selecteer elke rollengroep in de lijst en zoek het gebruikersaccount in de sectie **Leden** in de flyout met details. Als de rollengroep het gebruikersaccount bevat, voert u de volgende stappen uit:
 
-   a. Klik op de rolgroep en klik op **Rolgroep bewerken**.
+   a. Klik op **Bewerken** naast **Leden**.
+   b. Klik in de flyout **Bewerken van leden kiezen** op **Bewerken**.
+   c. Selecteer in de flyout **Leden kiezen** het gebruikersaccount en klik vervolgens op **Verwijderen**. Wanneer u gereed bent, klikt u op **Gereed**, **Opslaan** en vervolgens op **Sluiten**.
 
-   b. Klik op **Leden kiezen** en **Bewerken** om de gebruiker uit de rolgroep te verwijderen.
+4. Voer de volgende stappen uit in het Exchange-beheercentrum SBV via <admin.protection.outlook.com/ecp/>:
 
-6. Open het **Exchange-beheercentrum**.
+   Selecteer **Machtigingen**, selecteer elke rollengroep handmatig en controleer de gebruikersaccounts in de sectie **Leden** in het detailvenster.  Als de rollengroep het gebruikersaccount bevat, voert u de volgende stappen uit:
 
-7. Klik op **Machtigingen**.
-
-8. Bekijk de rolgroepen handmatig om te zien of het vermoedelijk gehackte account lid is van een van deze groepen. Zo ja:
-
-   a. Klik op de rolgroep en klik op **Bewerken**.
-
-   b. Gebruik de **leden**-sectie om de gebruiker uit de rolgroep te verwijderen.
+   a. Selecteer de rollengroep, klik op **Bewerken** ![Pictogram bewerken](../../media/ITPro-EAC-EditIcon.png).
+   b. Selecteer in de sectie **Lid** het gebruikersaccount en klik vervolgens op **Verwijderen** ![Pictogram verwijderen](../../media/ITPro-EAC-RemoveIcon.gif). Wanneer u gereed bent, klikt u op **Opslaan**.
 
 ### <a name="step-7-optional-additional-precautionary-steps"></a>Stap 7 Optioneel: Extra voorzorgsmaatregelen
 

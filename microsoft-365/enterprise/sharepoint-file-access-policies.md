@@ -1,5 +1,5 @@
 ---
-title: Aanbevolen beveiligings document beleid-Microsoft 365 Enterprise | Microsoft docs
+title: Aanbevolen beveiligings document beleid-Microsoft 365 for Enterprise | Microsoft docs
 description: Een beschrijving van de beleidsregels voor Microsoft-aanbevelingen over het beveiligen van toegang tot SharePoint-bestanden.
 author: BrendaCarter
 manager: laurawi
@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 784a4d617d74916ae7b0ec4b431cc298ce45531e
-ms.sourcegitcommit: d6b641d0ef92f4176da9f4a98d3d5aa3d4f2e184
+ms.openlocfilehash: 25f58582ae912211f72aaf17c2dab338ebb21c7e
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46617184"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46695036"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Beleids aanbevelingen voor het beveiligen van SharePoint-sites en-bestanden
 
@@ -85,5 +85,4 @@ In de afbeelding:
 - Als James een gevoelige of zeer gereglementeerde site opent die lid is van zijn PC, is de toegang van de persoon, mits deze compatibel is met de PC.
 - Als James een gevoelige site opent die lid is van zijn niet-beheerde telefoon, die is toegestaan voor gebruikers met een basislijn, ontvangt hij of zij alleen browser toegang tot de gevoelige site vanwege het toegangsbeleid voor apparaten die voor deze site is geconfigureerd.
 - Als James een zeer gereglementeerde site opent die hij lid is van zijn niet-beheerde telefoon, wordt hij geblokkeerd vanwege het voor deze site geconfigureerde toegangsbeleid. Hij kan alleen toegang krijgen tot deze site via zijn beheerde en compatibele PC.
-
 
