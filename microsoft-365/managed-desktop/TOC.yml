@@ -106,8 +106,6 @@
         - name: Werken met rapporten
           href: working-with-managed-desktop/reports.md
           items:
-            - name: Compliancerapport voor apparaat
-              href: working-with-managed-desktop/device-compliance-report.md
             - name: Inventarisrapport voor apparaat
               href: working-with-managed-desktop/device-inventory-report.md
         - name: Werken met inzichten
