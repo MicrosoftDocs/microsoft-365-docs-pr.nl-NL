@@ -1,5 +1,5 @@
 ---
-title: Verbeterde Microsoft 365-beveiliging voor uw Microsoft 365 Enterprise-testomgeving
+title: Verbeterde Microsoft 365-beveiliging voor uw Microsoft 365 voor Enterprise testomgeving
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -13,116 +13,114 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
-description: Gebruik deze Test Lab-handleiding om extra Microsoft 365-beveiligingsinstellingen in te schakelen in uw Microsoft 365 Enterprise-testomgeving.
-ms.openlocfilehash: 53205f0626ce55c5a9627339f3631964e3374a19
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Gebruik deze test lab-handleiding voor het inschakelen van extra Microsoft 365-beveiligingsinstellingen voor uw Microsoft 365 voor Enterprise test omgeving.
+ms.openlocfilehash: 06273bda00635a65ed9821b2bac23c3a3ee1366a
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631667"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686800"
 ---
-# <a name="increased-microsoft-365-security-for-your-microsoft-365-enterprise-test-environment"></a>Verbeterde Microsoft 365-beveiliging voor uw Microsoft 365 Enterprise-testomgeving
+# <a name="increased-microsoft-365-security-for-your-microsoft-365-for-enterprise-test-environment"></a>Verbeterde Microsoft 365-beveiliging voor uw Microsoft 365 voor Enterprise testomgeving
 
-*Deze testlabrichtlijn kan alleen worden gebruikt voor Microsoft 365 Enterprise-testomgevingen.*
+*Deze test lab-gids kan alleen worden gebruikt voor Microsoft 365 voor Enterprise test omgevingen.*
 
-Met de instructies in dit artikel configureert u extra Microsoft 365-instellingen om de beveiliging in uw Microsoft 365 Enterprise-testomgeving te verhogen.
+Aan de hand van de instructies in dit artikel configureert u aanvullende instellingen voor Microsoft 365 om de beveiliging in uw Microsoft 365 voor Enterprise testomgeving te verbeteren.
 
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart met alle artikelen over de Microsoft 365 Enterprise-testlabrichtlijnen.
+> Klik op [Hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de stack van Microsoft 365 voor Enterprise-testlabrichtlijnen.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: uw Microsoft 365 Enterprise-testomgeving uitbouwen
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: uw Microsoft 365-omgeving voor Enterprise testomgeving maken
 
-Als u alleen de verbeterde Microsoft 365-beveiliging op een lichtgewicht manier wilt configureren met de minimale vereisten, volgt u de instructies in [lichtgewicht basisconfiguratie.](lightweight-base-configuration-microsoft-365-enterprise.md)
+Als u de beveiliging voor Microsoft 365 slechts op een lichte manier met de minimumvereisten wilt configureren, volgt u de instructies in de [Lightweight Base configuration](lightweight-base-configuration-microsoft-365-enterprise.md).
   
-Als u de verbeterde Microsoft 365-beveiliging in een gesimuleerde onderneming wilt configureren, volgt u de instructies in [pass-through-verificatie.](pass-through-auth-m365-ent-test-environment.md)
+Als u een verbeterde Microsoft 365-beveiliging in een gesimuleerde onderneming wilt configureren, volgt u de instructies in de [Pass Through-verificatie](pass-through-auth-m365-ent-test-environment.md).
   
 > [!NOTE]
-> Testen verhoogde Microsoft 365-beveiliging vereist geen gesimuleerde bedrijfstestomgeving, die een gesimuleerd intranet bevat dat is verbonden met internet en directorysynchronisatie voor een AD DS-forest (Active Directory Domain Services). Het wordt hier als optie verstrekt, zodat u geautomatiseerde licenties en groepslidmaatschap testen en ermee experimenteren in een omgeving die een typische organisatie vertegenwoordigt. 
+> Voor het testen van de beveiliging van Microsoft 365 is de gesimuleerde Enterprise-testomgeving niet vereist, dat een gesimuleerd intranet bevat dat verbonden is met internet en adreslijstsynchronisatie van een Active Directory Domain Services (AD DS)-forest. U kunt dit hier opgeven als optie, zodat u geautomatiseerde licenties en groepslidmaatschappen kunt testen en experimenteert in een omgeving die een typische organisatie voorstelt. 
 
-## <a name="phase-2-configure-increased-microsoft-365-security"></a>Fase 2: Verbeterde Microsoft 365-beveiliging configureren
+## <a name="phase-2-configure-increased-microsoft-365-security"></a>Fase 2: verbeterde Microsoft 365-beveiliging configureren
 
-In deze fase schakelt u meer Microsoft 365-beveiliging in voor uw Microsoft 365 Enterprise-testomgeving. Zie [Uw tenant configureren voor meer beveiliging voor](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)meer informatie en instellingen.
+In deze fase schakelt u de verbeterde Microsoft 365-beveiliging in voor uw Microsoft 365 voor Enterprise testomgeving. Zie voor meer informatie en instellingen [uw Tenant configureren voor een betere beveiliging](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
 
-### <a name="configure-sharepoint-online-to-block-apps-that-dont-support-modern-authentication"></a>SharePoint Online configureren om apps te blokkeren die geen moderne verificatie ondersteunen
+### <a name="configure-sharepoint-online-to-block-apps-that-dont-support-modern-authentication"></a>SharePoint Online configureren voor het blokkeren van apps die moderne verificatie niet ondersteunen
 
-Apps die geen moderne verificatie ondersteunen, kunnen geen [identiteits- en apparaattoegangsconfiguraties](microsoft-365-policies-configurations.md) op deze apps toepassen, wat een belangrijk element is van het beveiligen van uw Microsoft 365-abonnement en de digitale elementen ervan. 
+Voor apps waarvoor geen ondersteuning biedt voor moderne verificatie, gelden geen [identiteits-en Apparaattoegang-configuraties](microsoft-365-policies-configurations.md) , wat een belangrijk element is van het beveiligen van uw microsoft 365-abonnement en de bijbehorende digitale activa. 
 
-1. Ga naar het Microsoft 365-beheercentrum ( )[https://portal.microsoft.com](https://portal.microsoft.com)en meld u aan bij uw Microsoft 365-testlababonnement met uw wereldwijde beheerdersaccount.
+1. Ga naar het Microsoft 365-Beheercentrum ( [https://portal.microsoft.com](https://portal.microsoft.com) ) en meld u aan bij uw Microsoft 365-test abonnement met uw globale beheerdersaccount.
     
-  - Als u de lichtgewicht Microsoft 365-testomgeving gebruikt, meldt u zich aan vanaf uw lokale computer.
+  - Als u de testomgeving lichtgewicht Microsoft 365 gebruikt, meldt u zich aan bij uw lokale computer.
     
-  - Als u de gesimuleerde Microsoft 365-testomgeving voor ondernemingen gebruikt, gebruikt u de [Azure-portal](https://portal.azure.com) om verbinding te maken met de virtuele client1-machine en meldt u zich aan vanuit CLIENT1.
+  - Als u de gesimuleerde Enterprise Microsoft 365 testomgeving gebruikt, kunt u de [Azure-Portal](https://portal.azure.com) gebruiken om verbinding te maken met de virtuele computer van CLIENT1 en vervolgens aan te melden bij CLIENT1.
  
-2. Klik op het nieuwe tabblad **Microsoft 365-beheercentrum** onder **Beheercentra** in het linkernavigatiedeelvenster op **SharePoint**.
-3. Klik op het nieuwe tabblad **SharePoint-beheercentrum** op **Beleid > Toegangsbeheer**.
-4. Klik op **Apps die geen moderne verificatie ondersteunen,** selecteer Toegang **blokkeren**en klik vervolgens op **Opslaan**.
+2. Klik op het nieuwe **Microsoft 365-Beheercentrum** , onder **beheer centra** in het linker navigatiedeelvenster, op **SharePoint**.
+3. Klik op het tabblad nieuw **SharePoint-Beheercentrum** op **beleids > toegangsbeheer**.
+4. Klik op **apps die moderne verificatie niet ondersteunen**, selecteer **toegang blokkeren**en klik op **Opslaan**.
 
 
-### <a name="enable-advanced-threat-protection-for-sharepoint-onedrive-for-business-and-microsoft-teams"></a>Geavanceerde bescherming tegen bedreigingen inschakelen voor SharePoint, OneDrive voor Bedrijven en Microsoft Teams
+### <a name="enable-advanced-threat-protection-for-sharepoint-onedrive-for-business-and-microsoft-teams"></a>Geavanceerde Bedreigingsbeveiliging inschakelen voor SharePoint, OneDrive voor bedrijven en Microsoft teams
 
-Office 365 Advanced Threat Protection (ATP) voor SharePoint, OneDrive en Microsoft Teams beschermt uw organisatie tegen het per ongeluk delen van schadelijke bestanden.
+Office 365 Advanced Threat Protection (ATP) voor SharePoint, OneDrive en Microsoft teams beschermt uw organisatie per ongeluk om kwaadaardige bestanden te delen.
 
-1. Ga naar het [Security & Compliance Center](https://protection.office.com) en meld u aan met uw wereldwijde beheerdersaccount.
+1. Ga naar de [beveiligings & nalevings centrum](https://protection.office.com) en meld u aan met uw globale beheerdersaccount.
 
-2. Klik in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**op **Beleid**en klik vervolgens op **VEILIGE BIJLAGEN van ATP**. 
+2. Klik in het linker navigatiedeelvenster onder **bedreigings beheer**op **beleidsregels**en klik vervolgens op **veilige bijlagen voor ATP**. 
 
-3. Onder **Bestanden beveiligen in SharePoint, OneDrive en Microsoft Teams**. selecteer **ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams**.
+3. Onder **bestanden beschermen in SharePoint, OneDrive en Microsoft teams**. Selecteer **ATP inschakelen voor SharePoint, OneDrive en Microsoft teams**.
 
 4. Klik op **Opslaan**.
 
 
-### <a name="enable-anti-malware"></a>Anti-malware inschakelen
+### <a name="enable-anti-malware"></a>Schakel anti malware in
 
-Malware bestaat uit virussen en spyware. Virussen infecteren andere programma's en gegevens, en ze verspreiden zich over uw computer op zoek naar programma's te infecteren. Spyware verwijst naar malware die uw persoonlijke gegevens verzamelt, zoals aanmeldingsgegevens en persoonlijke gegevens, en stuurt deze terug naar de malwareauteur. 
+Malware is samengesteld uit virussen en spyware. Virussen infecteren andere Programma's en gegevens, en de personen die op de computer worden verspreid, op zoek naar Programma's. Spyware verwijst naar malware waarmee uw persoonlijke gegevens worden verzameld, zoals aanmeldingsgegevens en persoonlijke gegevens, en stuurt u de malware vervolgens terug naar de auteur van de malware. 
 
-Microsoft 365 heeft ingebouwde malware- en spamfiltermogelijkheden die binnenkomende en uitgaande berichten beschermen tegen schadelijke software en u helpen beschermen tegen spam. Zie [Anti-spam & bescherming tegen malware in Office 365 voor](https://docs.microsoft.com/office365/securitycompliance/anti-spam-and-anti-malware-protection) meer informatie
+Microsoft 365 heeft ingebouwde functies voor het filteren van malware en spam en helpt inkomende en uitgaande berichten van schadelijke software te beschermen en u te helpen beschermen tegen ongewenste e-mail. Zie [antispam & bescherming tegen malware](../security/office-365-security/anti-spam-and-anti-malware-protection.md)voor meer informatie.
 
-Ga als verkenner om ervoor te zorgen dat de verwerking tegen malware wordt uitgevoerd op bestanden met algemene bestandstypen voor bijlagen:
+U kunt als volgt controleren of de verwerking van schadelijke software wordt uitgevoerd voor bestanden met veelgebruikte bestandstypen voor bijlagen:
 
-1. Klik op de knop Vorige in uw browser om terug te gaan naar de **pagina Beleid.**
-2. Klik **op Anti-malware**.
-3. Dubbelklik op het beleid met de naam **Standaard**.
-4. Klik in het **beleidsvenster Anti-malware** op **Instellingen**.
-4. Selecteer onder **het filter Algemene bijlagetypen**de optie **Aan**en klik op **Opslaan**.
-
-
-## <a name="phase-3-examine-the-security-dashboard"></a>Fase 3: Het beveiligingsdashboard onderzoeken
-
-Met Office 365-bedreigingsbeheer u de toegang van mobiele apparaten tot de gegevens van uw organisatie beheren en beheren, uw organisatie beschermen tegen gegevensverlies en inkomende en uitgaande berichten helpen beschermen tegen schadelijke software en spam. U gebruikt ook bedreigingsbeheer om de reputatie van uw domein te beschermen en om te bepalen of afzenders kwaadwillig accounts uit uw domein spoofen. 
-
-Ga als u op het beveiligingsdashboard:
-
-1. Ga indien nodig naar het [Security & Compliance Center](https://protection.office.com) en meld u aan met uw wereldwijde beheerdersaccount.
-
-2. Klik in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**op **Dashboard**.
-
-Neem een kijkje op alle kaarten op het dashboard om vertrouwd te raken met de verstrekte informatie.
-
-Zie [Beveiligingsdashboard voor](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-dashboard)meer informatie.
+1. Klik op de knop terug in uw browser om terug te gaan naar de pagina **beleid** .
+2. Klik op **anti malware**.
+3. Dubbelklik op het beleid met de naam **standaard**.
+4. Klik in het venster **anti-malwarebeleid** op **instellingen**.
+4. Selecteer onder **algemene typen bijlagen**de optie **aan**en klik vervolgens op **Opslaan**.
 
 
-## <a name="phase-4-examine-microsoft-secure-score"></a>Fase 4: Microsoft Secure Score onderzoeken
+## <a name="phase-3-examine-the-security-dashboard"></a>Fase 3: het beveiligings dashboard onderzoeken
 
-Microsoft Secure Score toont uw beveiligingshouding als een getal, wat aangeeft dat uw huidige niveau ten opzichte van de functies die beschikbaar zijn in uw abonnement. Het geeft je ook een lijst met verbeteracties die je ondernemen om je score te verbeteren.
+Met behulp van risicobeheer in Microsoft 365 kunt u de toegang tot de gegevens van uw organisatie beheren en beheren, uw organisatie beschermen tegen gegevensverlies en inkomende en uitgaande berichten beschermen tegen schadelijke software en spam. U kunt ook risicobeheer gebruiken om de reputatie van uw domein te beschermen en te bepalen of een van de afzenders schadelijk accounts zijn van uw domein. 
 
-1. Maak een nieuw tabblad in uw browser en ga naar het [Microsoft 365-beveiligingscentrum](https://security.microsoft.com/)en klik vervolgens op **Beveiligde score**.
-2. Noteer op het tabblad **Overzicht** uw huidige beveiligde score en hoe deze zich verhoudt tot het globale gemiddelde en abonnementen met een vergelijkbaar aantal licenties.
-3. Lees op het tabblad **Verbeteringsacties** de lijst met acties die u uitvoeren om uw score te verhogen.
+Het beveiligings dashboard weergeven:
 
-Zie [Microsoft Secure Score voor](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score)meer informatie.
+1. Ga zo nodig naar de [beveiligings & nalevings centrum](https://protection.office.com) en meld u aan met uw globale beheerdersaccount.
+
+2. Klik in het linker navigatiedeelvenster onder **Threat Management**op **Dashboard**.
+
+Neem contact op met alle kaarten op het dashboard om uzelf vertrouwd te maken met de verstrekte informatie.
+
+Zie voor meer informatie het [beveiligings dashboard](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-dashboard).
+
+
+## <a name="phase-4-examine-microsoft-secure-score"></a>Fase 4: Microsoft Secure Score bestuderen
+
+Secure Score van Microsoft toont uw beveiligings-Posture als een getal, dat uw huidige niveau aangeeft ten opzichte van de functies die beschikbaar zijn in uw abonnement. U hebt ook een lijst met verduidelijkings acties die u kunt ondernemen om de score te verbeteren.
+
+1. Maak een nieuw tabblad in uw browser en ga naar het [Microsoft 365-Beveiligingscentrum](https://security.microsoft.com/)en klik op **Secure Score**.
+2. Op het tabblad **overzicht**  kunt u uw huidige beveiligde Score en de manier waarop deze worden vergeleken met het algemene gemiddelde en de abonnementen met een vergelijkbaar aantal licenties.
+3. Lees in de lijst met acties op het tabblad **kwaliteits verbeteringen** de actie die u kunt uitvoeren om de score te verhogen.
+
+Zie [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score)voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Zie de stap [Verbeterde beveiliging configureren voor Microsoft 365](infoprotect-configure-increased-security-office-365.md) in de fase **Informatiebeveiliging** voor informatie en koppelingen om deze instellingen in productie te configureren.
-
-Ontdek aanvullende functies en mogelijkheden voor [informatiebescherming](m365-enterprise-test-lab-guides.md#information-protection) in uw testomgeving.
+Verken de functies en mogelijkheden van extra [informatiebescherming](m365-enterprise-test-lab-guides.md#information-protection) in uw testomgeving.
 
 ## <a name="see-also"></a>Zie ook
 
 [Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise implementeren](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise-documentatie](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)

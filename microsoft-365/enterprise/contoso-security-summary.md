@@ -1,5 +1,5 @@
 ---
-title: Overzicht van Microsoft 365 Enterprise-beveiliging voor de Contoso Corporation
+title: Overzicht van Microsoft 365 for Enterprise Security voor Contoso Corporation
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
@@ -9,22 +9,22 @@ ms.date: 10/02/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
-description: De manier waarop Contoso de beveiligingsfuncties in Microsoft 365 Enterprise gebruikt.
-ms.openlocfilehash: c0f3497eb49a0490fccf6c0ec5174d932a21005e
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
-ms.translationtype: HT
+description: Hoe contoso gebruikmaakt van de beveiligingsfuncties in Microsoft 365 for Enterprise.
+ms.openlocfilehash: 2244f13f8e8f56edbadd40d1e85cb309d70f7744
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268396"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686438"
 ---
-# <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Overzicht van Microsoft 365 Enterprise-beveiliging voor de Contoso Corporation
+# <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Overzicht van Microsoft 365 for Enterprise Security voor Contoso Corporation
 
-Er is een grondige beveiligingsevaluatie uitgevoerd om akkoord te krijgen voor de implementatie van Microsoft 365 Enterprise door de IT-afdeling. Dit zijn de beveiligingsvereisten van Contoso voor de cloud:
+Om het afmelden van de implementatie van Microsoft 365 for Enterprise op de IT-afdeling te verkrijgen, is een grondige beveiligings beoordeling uitgevoerd. Dit zijn de beveiligingsvereisten van Contoso voor de cloud:
 
 - De sterkste verificatiemethoden worden gebruikt voor toegang van werknemers tot cloudresources
 - Er wordt voor gezorgd dat pc's en mobiele apparaten op veilige wijze verbinding maken met toepassingen
@@ -36,7 +36,7 @@ Er is een grondige beveiligingsevaluatie uitgevoerd om akkoord te krijgen voor d
 
 ## <a name="contosos-path-to-microsoft-365-security-readiness"></a>De weg van Contoso naar Microsoft 365-beveiligingsgereedheid
 
-Contoso heeft de volgende stappen gebruikt om hun beveiliging gereed te maken voor de implementatie van Microsoft 365 Enterprise:
+Contoso gebruikt de volgende stappen om de beveiliging voor de implementatie van Microsoft 365 for Enterprise voor te bereiden:
 
 1. Het aantal beheerdersaccounts voor de cloud is beperkt
 
@@ -44,13 +44,13 @@ Contoso heeft de volgende stappen gebruikt om hun beveiliging gereed te maken vo
 
 2. Contoso heeft op drie niveaus analyse van gegevensclassificatie uitgevoerd
 
-   Contoso heeft de drie niveaus zorgvuldig beoordeeld en vastgesteld. Die werden gebruikt om de Microsoft 365 Enterprise-functies vast te stellen om de meest waardevolle gegevens van Contoso te beveiligen.
+   Contoso heeft een zorgvuldige beoordeling uitgevoerd en de drie niveaus vastgesteld die zijn gebruikt voor het bepalen van de meest waardevolle Microsoft 365 voor Enterprise-functies.
 
 3. Beleid voor toegang, retentie en gegevensbescherming voor gegevensniveaus bepaald
 
    Op basis van de gegevensniveaus heeft Contoso gedetailleerde vereisten vastgesteld, die worden gebruikt om toekomstige IT-werkbelastingen te kwalificeren die naar de cloud worden verplaatst.
 
-Conform de aanbevolen procedures voor beveiliging en Microsoft 365 Enterprise-implementatievereisten hebben de beveiligingsbeheerders en IT-afdeling van Contoso veel beveiligingsfuncties en -mogelijkheden geïmplementeerd, zoals beschreven in de volgende secties.
+In overeenstemming met de aanbevolen procedures voor Microsoft 365 en Microsoft voor Enterprise-implementatievereisten heeft de beveiligingsbeheerders en IT-afdeling van Contoso een groot aantal beveiligingsfuncties en-functionaliteit geïmplementeerd, zoals beschreven in de volgende secties.
 
 ## <a name="identity--access-management"></a>Identiteits- en toegangsbeheer 
 

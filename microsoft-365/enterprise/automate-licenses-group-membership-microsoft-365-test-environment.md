@@ -1,5 +1,5 @@
 ---
-title: Licentie- en groepslidmaatschap voor uw Microsoft 365 Enterprise-testomgeving automatiseren
+title: Licentie en groepslidmaatschap voor uw Microsoft 365 voor Enterprise testomgeving automatiseren
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,97 +14,97 @@ ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
-description: Groepsgebaseerde licenties en dynamisch groepslidmaatschap configureren in uw Microsoft 365 Enterprise-testomgeving.
-ms.openlocfilehash: 266ae8cb133eccf74ea75382b400ca8241782ec5
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Configureer licenties voor op groepen gebaseerde licenties en groepslidmaatschap voor dynamische groepen in uw Microsoft 365 voor Enterprise testomgeving.
+ms.openlocfilehash: a25a47b81ce8c119e7aeb44660af32bb9cafb08a
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42806816"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685556"
 ---
-# <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a>Licentie- en groepslidmaatschap voor uw Microsoft 365 Enterprise-testomgeving automatiseren
+# <a name="automate-licensing-and-group-membership-for-your-microsoft-365-for-enterprise-test-environment"></a>Licentie en groepslidmaatschap voor uw Microsoft 365 voor Enterprise testomgeving automatiseren
 
-*Deze Test Lab Guide kan alleen worden gebruikt voor Microsoft 365 Enterprise-testomgevingen.*
+*Deze test lab-gids kan alleen worden gebruikt voor Microsoft 365 voor Enterprise test omgevingen.*
 
-Groepslicenties worden automatisch toegeschreven of verwijderd licenties voor een gebruikersaccount op basis van groepslidmaatschap. Dynamisch groepslidmaatschap voegt leden toe of verwijdert leden aan een groep op basis van de eigenschappen van gebruikersaccounts, zoals Afdeling of Land. In dit artikel wordt een demonstratie van beide in uw Microsoft 365 Enterprise-testomgeving gegeven.
+Voor licenties op basis van een groep worden automatisch licenties toegewezen of verwijderd voor een gebruikersaccount op basis van groepslidmaatschap. Groepslidmaatschap voor dynamische groepen Hiermee voegt u leden toe of verwijdert u deze aan een groep op basis van de eigenschappen van gebruikersaccounts, zoals afdeling of land. In dit artikel wordt u stapsgewijs begeleid bij het uitvoeren van de testomgeving van Microsoft 365 voor bedrijven.
 
-Er zijn twee fasen voor het instellen van automatisch licentie- en dynamisch groepslidmaatschap in uw Microsoft 365 Enterprise-testomgeving:
+Voor het instellen van automatische licentieverlening en dynamisch groepslidmaatschap in uw Microsoft 365 voor Enterprise testomgeving bestaan twee fasen:
 
-1. Maak de Microsoft 365 Enterprise-testomgeving.
-2. Dynamisch groepslidmaatschap en automatische licenties configureren en testen.
+1. Maak de testomgeving Microsoft 365 for Enterprise.
+2. Dynamische groepslidmaatschappen en automatische licentieverlening configureren en testen.
 
-![Lab-handleidingen testen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de Microsoft 365 Enterprise Test Lab Guide stack.
+> Klik op [Hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de stack van Microsoft 365 voor Enterprise-testlabrichtlijnen.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: Uw Microsoft 365 Enterprise-testomgeving uitbouwen
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: uw Microsoft 365-omgeving voor Enterprise testomgeving maken
 
-Als u alleen geautomatiseerde licenties en groepslidmaatschap op een lichtgewicht manier wilt testen met de minimale vereisten, volgt u de instructies in [lichtgewicht basisconfiguratie.](lightweight-base-configuration-microsoft-365-enterprise.md)
+Als u alleen de automatische licentieverlening en groepslidmaatschap op een lichte manier wilt testen aan de minimumvereisten, volgt u de instructies in de [Lightweight Base configuration](lightweight-base-configuration-microsoft-365-enterprise.md).
   
-Als u geautomatiseerde licenties en groepslidmaatschap in een gesimuleerde onderneming wilt testen, volgt u de instructies in [pass-through-verificatie.](pass-through-auth-m365-ent-test-environment.md)
+Als u automatische licentieverlening en groepslidmaatschap in een gesimuleerde onderneming wilt testen, volgt u de instructies in [Pass-Through-verificatie](pass-through-auth-m365-ent-test-environment.md).
   
 > [!NOTE]
-> Voor het testen van geautomatiseerde licenties en groepslidmaatschap is geen gesimuleerde bedrijfstestomgeving vereist, waaronder een gesimuleerd intranet dat is verbonden met internet en adreslijstsynchronisatie voor een AD DS-forest (Active Directory Domain Services). Het wordt hier als optie verstrekt, zodat u geautomatiseerde licenties en groepslidmaatschap testen en ermee experimenteren in een omgeving die een typische organisatie vertegenwoordigt. 
+> Voor het testen van de geautomatiseerde licentie-en groepslidmaatschappen is de gesimuleerde Enterprise testomgeving niet vereist, waaronder een gesimuleerd intranet dat verbonden is met internet en adreslijstsynchronisatie van een Active Directory Domain Services (AD DS)-forest. U kunt dit hier opgeven als optie, zodat u geautomatiseerde licenties en groepslidmaatschappen kunt testen en experimenteert in een omgeving die een typische organisatie voorstelt. 
   
-## <a name="phase-2-configure-and-test-dynamic-group-membership-and-automatic-licensing"></a>Fase 2: Dynamisch groepslidmaatschap en automatische licenties configureren en testen
+## <a name="phase-2-configure-and-test-dynamic-group-membership-and-automatic-licensing"></a>Fase 2: dynamisch groepslidmaatschap en automatische licentie configureren en testen
 
-Eerst maakt u een nieuwe verkoopgroep en voegt u een dynamische groepslidmaatschapsregel toe, zodat gebruikersaccounts met de afdeling die is ingesteld op Verkoop automatisch worden toegevoegd aan de groep Verkoop.
+Eerst maakt u een nieuwe verkoopgroep en voegt u een regel voor dynamische groepslidmaatschappen toe, zodat gebruikersaccounts waarbij de afdeling is ingesteld op verkoop, automatisch worden toegevoegd aan de groep verkopen.
 
-1. Meld u met een privé-exemplaar van uw internetbrowser [https://portal.office.com](https://portal.office.com) aan bij de Office 365-portal met het globale beheerdersaccount van uw Microsoft 365 E5-testlababonnement.
-2. Ga op een apart tabblad van uw [https://portal.azure.com](https://portal.azure.com)browser naar de Azure-portal op .
-3. Typ in de Azure-portal **groepen** in het zoekvak en klik op **Groepen**.
-4. Klik in het deelvenster **Alle groepen** op **Nieuwe groep**.
-5. Selecteer **Office 365**in **Groepstype**.
-6. Typ **Verkoop**in **groepsnaam**.
-7. Selecteer **Dynamische gebruiker**in **lidmaatschapstype**.
-8. Klik **op Dynamische gebruikersleden**.
-9. Ga als volgt te werk in het deelvenster **Regels voor lidmaatschap van Dynamic:** 
-   - Selecteer de eigenschap van de **afdeling.**
-   - Selecteer de **operator Gelijken.**
-   - Typ **Verkoop** in **waarde**.
+1. Meld u met een persoonlijk exemplaar van uw Internet browser aan bij het [Microsoft 365-Beheercentrum](https://admin.microsoft.com) met het account van de globale beheerder van uw abonnement op microsoft 365 E5-test lab.
+2. Ga op een apart tabblad van uw browser naar de Azure-Portal op [https://portal.azure.com](https://portal.azure.com) .
+3. Typ in het dialoogvenster van Azure Portal **groepen** in het zoekvak en klik vervolgens op **groepen**.
+4. Klik in het deelvenster **alle groepen** op **nieuwe groep**.
+5. Selecteer bij **type groep**de optie **Microsoft 365**.
+6. Typ in **groepsnaam** **verkopen**.
+7. Selecteer **dynamische gebruiker**bij **type lidmaatschap**.
+8. Klik op **dynamische gebruikers leden**.
+9. In het deelvenster **dynamische lidmaatschapsregels** : 
+   - Selecteer de eigenschap **afdeling** .
+   - Selecteer de operator **gelijkteken** .
+   - Typ **verkoop** in **waarde**.
 10. Klik op **Opslaan**.
-11. Klik **op Maken**.
+11. Klik op **Maken**.
 
-Vervolgens configureert u de groep Verkoop, zodat leden automatisch de Microsoft 365 E5-licentie toegewezen krijgen.
+Vervolgens configureert u de groep verkoop, zodat leden automatisch de Microsoft 365 E5-licentie toewijzen.
 
-1. Klik op de groep **Verkoop** en klik vervolgens op **Licenties**.
-2. Selecteer **Microsoft 365 E5**in het deelvenster **Licentietoewijzingen** bijwerken en klik op **Opslaan**.
-3. Sluit het tabblad Azure-portal in uw browser.
+1. Klik op de groep **verkoop** en klik vervolgens op **licenties**.
+2. Selecteer in het deelvenster **licentietoewijzingen bijwerken** de optie **Microsoft 365 E5**en klik vervolgens op **Opslaan**.
+3. Sluit het tabblad Microsoft Azure-portal in uw browser.
 
-Vervolgens test u dynamisch groepslidmaatschap en automatische licenties op het account Gebruiker 4. 
+Test vervolgens dynamisch groepslidmaatschap en automatische licentieverlening op de account gebruiker 4. 
 
-1. Klik op het tabblad **Microsoft Office Start** in uw browser op **Beheerder**.
-2. Klik op het tabblad **Microsoft 365-beheercentrum** op **Actieve gebruikers**.
-3. Klik op de pagina **Actieve gebruikers** op het account **Gebruiker 4.**
-4. Klik **in** het deelvenster Gebruiker 4 op **Bewerken** voor **productlicenties**.
-5. Schakel in het deelvenster **Productlicenties** de **Microsoft 365 E5-licentie** uit en klik op **> sluiten opslaan**.
-6. Controleer in de eigenschappen van het account Gebruiker 4 of er geen productlicenties zijn toegewezen en dat er geen groepslidmaatschappen zijn.
-7. Klik **op Bewerken** voor **contactgegevens**.
-8. Klik in het deelvenster **Contactgegevens bewerken** op **Contactgegevens**.
-9. Typ **verkoop** in **Sales**het veld Afdeling en klik op **> sluiten opslaan**.
-10. Wacht een paar minuten en klik vervolgens regelmatig op het vernieuwingspictogram rechtsboven in het accountvenster Gebruiker 4. 
+1. Klik op het tabblad **Start van Microsoft Office** in uw browser op **beheerder**.
+2. Klik op het tabblad **Microsoft 365-Beheercentrum** op **actieve gebruikers**.
+3. Klik op de pagina **actieve gebruikers** op de account **gebruiker 4** .
+4. Klik in het deelvenster **gebruiker 4** op **bewerken** voor **product licenties**.
+5. Schakel in het deelvenster **product licenties** de **Microsoft 365 E5** -licentie uit en klik op **Opslaan > sluiten**.
+6. Ga naar de eigenschappen van de account van de gebruiker 4 en zorg dat er geen productlicenties zijn toegewezen en dat er geen groepslidmaatschappen zijn.
+7. Klik op **bewerken** voor **contact gegevens**.
+8. Klik in het deelvenster **contactgegevens bewerken** op **contactgegevens**.
+9. In het veld **afdeling** typt u **verkoop**en klikt u op **Opslaan > sluiten**.
+10. Wacht een paar minuten en klik vervolgens regelmatig op het pictogram Vernieuwen in de rechterbovenhoek van het deelvenster account van gebruiker 4. 
 
-Na verloop van tijd zou je de:
+U ziet nu het volgende:
 
-- **Groepslidmaatschappen,** bijgewerkt met de **groep Verkoop.**
-- **Eigenschap productlicenties** bijgewerkt met de **Microsoft 365 E5-licentie.**
+- De eigenschap **groepslidmaatschappen** bijgewerkt met de groep **verkoop** .
+- Eigenschap **product licenties** bijgewerkt met de **Microsoft 365 E5** -licentie.
 
-Bekijk deze stappen in de identiteitsfase voor informatie en koppelingen voor het implementeren van dynamisch groepslidmaatschap en automatische licenties in productie:
+Zie de volgende artikelen voor meer informatie over het implementeren van dynamische groepslidmaatschappen en automatische licentieverlening in de productie:
 
-- [Automatische licenties instellen](identity-use-group-management.md#identity-group-license)
-- [Dynamisch groepslidmaatschap instellen](identity-use-group-management.md#identity-dyn-groups)
+- TBD AANKOPPELEN
+- TBD AANKOPPELEN
 
 ## <a name="next-step"></a>Volgende stap
 
-Ontdek extra [identiteitsfuncties](m365-enterprise-test-lab-guides.md#identity) en -mogelijkheden in uw testomgeving.
+Verken aanvullende [identiteits](m365-enterprise-test-lab-guides.md#identity)functies en -mogelijkheden in uw testomgeving.
 
 ## <a name="see-also"></a>Zie ook
 
-[Fase 2: Identiteit](identity-infrastructure.md)
+[Identiteitskaart](identity-roadmap-microsoft-365.md)
 
-[Microsoft 365 Enterprise Test Lab-handleidingen](m365-enterprise-test-lab-guides.md)
+[Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise-implementatie](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise-documentatie](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)

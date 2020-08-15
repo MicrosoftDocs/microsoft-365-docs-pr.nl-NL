@@ -9,18 +9,18 @@ ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Lees meer over de basisstructuur van Contoso's on-premises IT-infrastructuur en hoe Microsoft 365 Enterprise in haar zakelijke behoeften voorziet.
-ms.openlocfilehash: 3899466e6c8ad50ad3a3d97863d1368ba1d8af20
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
-ms.translationtype: HT
+description: Inzicht in de basisstructuur van de on-premises IT-infrastructuur van Contoso en de manier waarop de bedrijfsbehoeften zijn behaald door Microsoft 365 for Enterprise.
+ms.openlocfilehash: 3dd744a8d936307c61303bf8ba0f2f198af59d91
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011195"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685828"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>De IT-infrastructuur en zakelijke behoeften van Contoso
 
@@ -112,20 +112,20 @@ Management:
 
   Automatiseer de installatie van updates voor het Windows-besturingssysteem en Microsoft 365-apps voor ondernemingen in de hele organisatie.
 
-## <a name="mapping-contosos-business-needs-to-microsoft-365-enterprise"></a>De zakelijke behoeften van Contoso toewijzen aan Microsoft 365 Enterprise
+## <a name="mapping-contosos-business-needs-to-microsoft-365-for-enterprise"></a>De zakelijke behoeften van Contoso toewijzen aan Microsoft 365 voor ondernemingen
 
 De IT-afdeling van Contoso heeft voorafgaand aan de implementatie de volgende informatie over de zakelijke behoeften aan Microsoft 365 E5-functies bepaald:
 
-||||
+
+| Categorie | Zakelijke behoefte | Microsoft 365 voor Enterprise-producten of-functies |
 |:-------|:-----|:-----|
-| **Categorie** | **Zakelijke behoefte** | **Producten of functies van Microsoft 365 Enterprise** |
 | Productiviteit |  |  |
 |  | Eenvoudiger samenwerken | Microsoft Teams, SharePoint, OneDrive |
 |  | Verbeter de productiviteit voor externe en mobiele werknemers | Werkbelasting en cloud-gebaseerde gegevens voor Microsoft 365 |
 |  | Verbeter de creativiteit en innovatie | Windows Ink, Cortana op het werk, PowerPoint |
 | Beveiliging |  |  |
 |  | Identiteits- en toegangsbeheer | Toegewijde wereldwijde beheerdersaccounts met Azure meervoudige verificatie (MFA) en Azure AD Privileged Identity Management (PIM) <BR> MFA voor alle gebruikersaccounts <BR> Voorwaardelijke toegang <BR> Windows Hello <BR> Windows Credential Guard |
-|  | Bedreigingsbeveiliging | Advanced Threat Analytics <BR> Windows Defender <BR> Advanced Threat Protection <BR> Office 365 Advanced Threat Protection <BR> Dreigingsonderzoek en -antwoord in Office 365 <BR> |
+|  | Bedreigingsbeveiliging | Advanced Threat Analytics <BR> Windows Defender <BR> Advanced Threat Protection <BR> Office 365 Advanced Threat Protection <BR> Microsoft 365 Threat onderzoek en-antwoord <BR> |
 |  | Gegevensbeveiliging | Azure-gegevensbeveiliging <BR> Preventie van gegevensverlies (DLP, Data Loss Prevention) <BR> Windows-gegevensbescherming (WIP) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | Beveiligingsbeheer | Azure Security Center  <BR> Windows Defender-Beveiligingscentrum |
 | Externe en mobiele toegang en zakelijke partners |  |  |
@@ -133,7 +133,7 @@ De IT-afdeling van Contoso heeft voorafgaand aan de implementatie de volgende in
 |  | De infrastructuur voor externe toegang voor werknemers reduceren | Werkbelasting en cloud-gebaseerde gegevens voor Microsoft 365 |
 |  | Zorgen voor betere connectiviteit en lagere overhead voor B2B-transacties | Federatieve verificatie en cloudgebaseerde bronnen |
 | Naleving |  |  |
-|  | Voldoen aan regionale wettelijke voorschriften | AVG-functies in Office 365 |
+|  | Voldoen aan regionale wettelijke voorschriften | AVG-functies in Microsoft 365 |
 | Beheer |  |  |
 |  | Verlaag de IT-overhead voor het installeren van client-updates | Implementatieringen. <BR> Updates voor Windows 10 Enterprise <BR> Updates voor Microsoft 365-apps voor ondernemingen |
 ||||
@@ -144,6 +144,6 @@ De IT-afdeling van Contoso heeft voorafgaand aan de implementatie de volgende in
 
 ## <a name="see-also"></a>Zie ook
 
-[Implementatiehandleiding](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
 [Testlabrichtlijnen](m365-enterprise-test-lab-guides.md)

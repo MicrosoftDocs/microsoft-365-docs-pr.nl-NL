@@ -9,18 +9,18 @@ ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: De Contoso-netwerkinfrastructuur en hoe deze de SD-WAN-technologie gebruikt voor optimale netwerkprestaties bij Microsoft 365 Enterprise-cloudservices begrijpen.
-ms.openlocfilehash: 4e649796b30b96db3b36de2dabec1f276728d3ea
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+description: Inzicht in de infrastructuur van Contoso netwerken en hoe deze wordt gebruikt voor optimale netwerkprestaties voor Microsoft 365 voor Enterprise cloudservices.
+ms.openlocfilehash: bc2ae68917258b94ed46ef0c1257f56e0736105c
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625276"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685816"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Netwerken voor de Contoso Corporation
 
@@ -50,7 +50,7 @@ Afbeelding 1 toont de netwerkinfrastructuur van Contoso en de bijbehorende verbi
 
 ## <a name="use-of-sd-wan-for-optimal-network-connectivity-to-microsoft"></a>Gebruik van SD-WAN voor optimale netwerkconnectiviteit met Microsoft
 
-Contoso heeft de [Beginselen voor Microsoft 365-netwerkconnectiviteit](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles) gevolgd om:
+Contoso heeft de [Beginselen voor Microsoft 365-netwerkconnectiviteit](microsoft-365-network-connectivity-principles.md) gevolgd om:
 
 1. Netwerkverkeer van Microsoft 365 te identificeren en te onderscheiden
 2. Lokale uitgangen van netwerkverbindingen te regelen
@@ -83,17 +83,17 @@ Afbeelding 2 toont het percentage van netwerkverkeer bij het verkrijgen van toeg
 
 Voor gebruikers op satelliet- of regionale hub-kantoren kan 60% van de resources die nodig zijn voor werknemers worden bediend door satelliet- en regionale kantoorservers. De extra 40% van de resourceaanvragen moet via de WAN-koppeling naar de campus in Parijs worden geleid.
 
-## <a name="contosos-network-analysis-and-preparation-of-their-network-for-microsoft-365-enterprise"></a>Netwerkanalyse en -voorbereiding van Contoso voor Microsoft 365 Enterprise
+## <a name="contosos-network-analysis-and-preparation-of-their-network-for-microsoft-365-for-enterprise"></a>De netwerkanalyse en-voorbereiding van Contoso voor het netwerk voor Microsoft 365 for Enterprise
 
-Een succesvolle ingebruikname van Microsoft 365 Enterprise-services door de gebruikers van Contoso is afhankelijk van goed beschikbare en presterende verbinding met het internet of rechtstreekse verbinding met de cloudservices van Microsoft. Contoso nam de volgende stappen voor het plannen en implementeren van geoptimaliseerde connectiviteit met de cloudservices van Microsoft 365 Enterprise:
+De aanneming van Microsoft 365 voor Enterprise Services door de gebruikers van Contoso is afhankelijk van uiterst beschikbare en uitvoering van connectiviteit met internet, of rechtstreeks naar Microsoft-cloudservices. Contoso heeft de volgende stappen uitgevoerd voor het plannen en implementeren van geoptimaliseerde verbindingen met Microsoft 365 voor Enterprise cloudservices:
 
 1. Een WAN-netwerkdiagram van het bedrijf gemaakt om te helpen bij de planning
 
    Contoso heeft de netwerkplanning gestart door een diagram te maken met de bijbehorende locaties, de bestaande netwerkconnectiviteit, de bestaande apparaten voor de netwerkperimeter en de klassen van de service die worden beheerd op het netwerk. Ze hebben deze diagram gebruikt voor elke daaropvolgende stap in de planning en tijdens de implementatie van netwerkconnectiviteit.
 
-2. Een plan gemaakt voor de Microsoft 365 Enterprise-netwerkconnectiviteit
+2. Een plan gemaakt voor Microsoft 365 voor Enterprise Network Connectivity
 
-   Contoso heeft de [Basisprincipes voor Microsoft 365-netwerkconnectiviteit](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles) en netwerkarchitecturen ter referentie geleverd om SD-WAN vast te leggen als gewenste topologie voor Microsoft 365-connectiviteit.
+   Contoso heeft de [Basisprincipes voor Microsoft 365-netwerkconnectiviteit](microsoft-365-network-connectivity-principles.md) en netwerkarchitecturen ter referentie geleverd om SD-WAN vast te leggen als gewenste topologie voor Microsoft 365-connectiviteit.
 
 3. Het verbruik van de internetverbinding en de MPLS WAN-bandbreedte op elke kantoor geanalyseerd en de bandbreedte indien nodig verhoogd
 
@@ -109,7 +109,7 @@ Een succesvolle ingebruikname van Microsoft 365 Enterprise-services door de gebr
 
 6. Gevalideerd netwerkeindpunt en poortconnectiviteit
 
-   Contoso heeft testhulpprogramma's voor netwerkconnectiviteit van Microsoft gebruikt om de connectiviteit voor de cloudservices van Microsoft 365 Enterprise te valideren.
+   Contoso heeft testhulpprogramma's voor netwerkverbindingen van Microsoft uitgevoerd om de connectiviteit voor Microsoft 365 te valideren voor Enterprise cloudservices.
 
 7. Computers van werknemers geoptimaliseerd voor netwerkconnectiviteit
 
@@ -121,8 +121,8 @@ Een succesvolle ingebruikname van Microsoft 365 Enterprise-services door de gebr
 
 ## <a name="see-also"></a>Zie ook
 
-[Netwerken voor Microsoft 365 Enterprise](networking-infrastructure.md)
+[Netwerkkaart voor Microsoft 365](networking-roadmap-microsoft-365.md)
 
-[Implementatiehandleiding](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
 [Testlabrichtlijnen](m365-enterprise-test-lab-guides.md)

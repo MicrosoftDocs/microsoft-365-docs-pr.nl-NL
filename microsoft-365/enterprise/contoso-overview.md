@@ -9,18 +9,18 @@ ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Meer informatie over Contoso Corporation als bedrijf en de trapsgewijze structuur van de wereldwijde kantoren.
-ms.openlocfilehash: 856363881c749b06a530dc7cc4f0eb82dc155054
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
-ms.translationtype: HT
+ms.openlocfilehash: 206017744a004ba4e51b6e0d157b172cbe145c66
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42808781"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686450"
 ---
 # <a name="overview-of-the-contoso-corporation"></a>Overzicht van de Contoso Corporation
 
@@ -58,9 +58,9 @@ Wereldwijde Contoso-kantoren volgen een drielaags ontwerp.
 
 Vijfentwintig procent van het personeelsbestand van Contoso is alleen mobiel, met een hoger percentage mobiele medewerkers in de regionale hubs en satellietkantoren. Een betere ondersteuning voor mobiele medewerkers is een belangrijk zakelijk doel voor Contoso.
 
-## <a name="design-considerations-for-microsoft-365-enterprise"></a>Ontwerpoverwegingen voor Microsoft 365 Enterprise
+## <a name="design-considerations-for-microsoft-365-for-enterprise"></a>Ontwerpoverwegingen voor Microsoft 365 for Enterprise
 
-De IT-architecten van Contoso hebben de volgende ontwerpvereisten en overwegingen voor de implementatie van Microsoft 365 Enterprise geïdentificeerd: 
+De IT-architecten van Contoso identificeren de volgende ontwerpvereisten en overwegingen bij de implementatie van Microsoft 365 for Enterprise: 
 
 - Meerdere geografische locaties met lokale regelingen en nalevingsvereisten
 - Een centraal intranet-datacenter in het hoofdkantoor en regionale toepassingsservers die de interne reeks bedrijfstoepassingen hosten
@@ -74,11 +74,11 @@ De IT-architecten van Contoso hebben de volgende ontwerpvereisten en overweginge
 
 ## <a name="next-step"></a>Volgende stap
 
-[Meer informatie](contoso-infra-needs.md) over de on-premises IT-infrastructuur van Contoso Corporation en hoe hun bedrijfsbehoeften zijn aangepakt met Microsoft 365 Enterprise.
+[Lees meer](contoso-infra-needs.md) over de on-premises IT-infrastructuur van Contoso Corporation en de manier waarop hun bedrijfsbehoeften zijn besproken in microsoft 365 for Enterprise.
 
 ## <a name="see-also"></a>Zie ook
 
-[Implementatiehandleiding](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
 [Testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 

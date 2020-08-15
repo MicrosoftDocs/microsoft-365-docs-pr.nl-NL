@@ -1,6 +1,6 @@
 ---
-title: Aanbevolen teams-beleid - Microsoft 365 Enterprise | Microsoft Documenten
-description: Beschrijft het beleid voor Microsoft-aanbevelingen over het beveiligen van de communicatie en bestandstoegang van Teams.
+title: 'Aanbevolen beleidsregels voor teams: Microsoft 365 for Enterprise | Microsoft docs'
+description: Een beschrijving van de beleidsregels voor Microsoft-aanbevelingen over het beveiligen van de communicatie van teams en toegang tot bestanden.
 author: MicrosoftHeidi
 manager: serdars
 ms.prod: microsoft-365-enterprise
@@ -16,107 +16,107 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: f1a4a4ea69efc3c68bdc8ed66aa18833a28feb94
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 41ead64a7a94dcd5afb22a311d7637326949fc7c
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636721"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685652"
 ---
-# <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Beleidsaanbevelingen voor het beveiligen van Teams-chats, -groepen en -bestanden
+# <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Beleids aanbevelingen voor het beveiligen van teams-chats,-groepen en-bestanden
 
-In dit artikel wordt beschreven hoe u het aanbevolen beleid voor identiteits- en apparaattoegangs implementeren om Teams-chats, -groepen en -inhoud zoals bestanden en agenda's te beschermen. Deze richtlijnen bouwen voort op het [beleid voor algemene identiteits- en apparaattoegangsbeleid,](identity-access-policies.md)met aanvullende informatie die teamsspecifiek is. Omdat Teams integreert met onze andere producten, zie ook [beleidsaanbevelingen voor het beveiligen van SharePoint-sites en bestanden](sharepoint-file-access-policies.md) en [beleidsaanbevelingen voor het beveiligen van e-mail.](secure-email-recommended-policies.md)
+In dit artikel wordt uitgelegd hoe u de aanbevolen identiteit en het beleid voor het openen van een apparaat implementeert om teams-chats, groepen en inhoud zoals bestanden en agenda's te beschermen. Deze richtlijnen zijn van toepassing op de [veelgebruikte beleidsregels voor identiteit en Apparaattoegang](identity-access-policies.md), met aanvullende informatie die specifiek is voor teams. Aangezien teams met onze andere producten integreren, zie ook [beleids aanbevelingen voor het beveiligen van SharePoint-sites en-bestanden](sharepoint-file-access-policies.md) en- [aanbevelingen voor het beveiligen van e-mail](secure-email-recommended-policies.md).
 
-Deze aanbevelingen zijn gebaseerd op drie verschillende beveiligings- en beschermingsniveaus voor teams die kunnen worden toegepast op basis van de granulariteit van uw behoeften: basislijn, gevoelig en sterk gereguleerd. Meer informatie over deze beveiligingsniveaus en het aanbevolen beleid waarnaar wordt verwezen in deze aanbevelingen vindt u in de [configuraties voor identiteits- en apparaattoegang.](microsoft-365-policies-configurations.md)
+Deze aanbevelingen maken deel uit van drie verschillende niveaus voor beveiliging en bescherming voor teams die op de granulatie van uw behoeften kunnen worden toegepast: basislijn, gevoelige en nadrukkelijk gereglementeerde. U vindt meer informatie over deze beveiligingslagen en de aanbevolen beleidsregels waarnaar wordt verwezen door deze aanbevelingen in de [configuraties voor identiteit en Apparaattoegang](microsoft-365-policies-configurations.md).
 
-Aanvullende aanbevelingen die specifiek zijn voor de implementatie van Teams zijn opgenomen in dit artikel voor specifieke verificatieomstandigheden, ook voor gebruikers buiten uw organisatie. U moet deze richtlijnen volgen voor een volledige beveiligingservaring.
+In dit artikel vindt u aanvullende aanbevelingen die specifiek zijn voor de implementatie van teams, waaronder specifieke verificatie omstandigheden, waaronder gebruikers van buiten uw organisatie. U dient deze richtlijnen te volgen voor een volledige beveiligings ervaring.
 
-## <a name="getting-started-with-teams-before-other-dependent-services"></a>Aan de slag met Teams voor andere afhankelijke services
+## <a name="getting-started-with-teams-before-other-dependent-services"></a>Aan de slag met teams vóór andere afhankelijke services
 
-U hoeft afhankelijke services niet in te schakelen om aan de slag te gaan met Microsoft Teams. Deze zullen allemaal "gewoon werken." U moet echter wel bereid zijn om het volgende te beheren:
+U hoeft geen afhankelijke services in te schakelen om aan de slag te gaan met Microsoft teams. Dit is allemaal alles wat u allemaal hoeft te gebruiken. U moet echter wel voorbereid zijn om het volgende te beheren:
 
 - Microsoft 365-groepen
 - SharePoint-teamsites
 - OneDrive voor Bedrijven
-- Postvakken
-- Video's en Planner-abonnementen streamen (als deze services zijn ingeschakeld)
+- Postbus
+- Video's en planner-abonnementen streamen (als deze services zijn ingeschakeld)
 
-## <a name="updating-common-policies-to-include-teams"></a>Algemeen beleid bijwerken om Teams op te nemen
+## <a name="updating-common-policies-to-include-teams"></a>Veelgebruikte beleidsregels bijwerken voor het opnemen van teams
 
-In het volgende diagram wordt de set aanbevolen beleidsregels voor het beschermen van chat, groepen en inhoud in Teams weergegeven. Het potloodpictogram geeft aan welk beleid opnieuw moet worden bekeken om er zeker van te zijn dat Teams en afhankelijke services zijn opgenomen in de toewijzing van cloud-apps.
+In het volgende diagram ziet u de set aanbevolen beleidsregels voor de bescherming van chatberichten, groepen en inhoud in teams. Met het potloodpictogram wordt aangeduid welke beleidsregels moeten worden revisited om te controleren of teams en afhankelijke services zijn opgenomen in de toewijzing van Cloud-apps.
 
-![Een diagram met informatie over het gebruik van Microsoft Teams op verschillende apparaten.](../media/identity-access-ruleset-teams.png)
+![Een diagram waarin wordt getoond hoe u Microsoft teams kunt gebruiken op verschillende apparaten.](../media/identity-access-ruleset-teams.png)
 
-Dit zijn de afhankelijke services die moeten worden opgenomen in de toewijzing van cloud-apps voor Teams:
+Dit zijn de afhankelijke services die moeten worden opgenomen in de toewijzing van Cloud-apps voor teams:
 
 - Microsoft Teams
-- SharePoint Online en OneDrive voor Bedrijven
+- SharePoint Online en OneDrive voor bedrijven
 - Exchange Online
 - Skype voor Bedrijven Online
-- Microsoft Stream (vergaderopnamen)
-- Microsoft Planner (Planner-taken en plangegevens)
+- Microsoft stream (opnamen van vergaderingen)
+- Microsoft planner (taken plannen en gegevens plannen)
 
-In deze tabel worden de beleidsregels weergegeven die opnieuw moeten worden bekeken en wordt koppelingen naar elk beleid weergegeven in [het beleid voor algemene identiteits- en apparaattoegangsbeleid](identity-access-policies.md), dat de bredere regelset heeft voor alle Office-toepassingen.
+In deze tabel vindt u een overzicht van de beleidsregels die moeten worden Revisited en koppelingen naar de verschillende beleidsregels dienen te worden [gebruikt](identity-access-policies.md), met de bredere regels voor alle Office-toepassingen.
 
-|Beschermingsniveau|Beleid|Meer informatie voor de implementatie van teams|
+|Beveiligingsniveau|Lijnen|Meer informatie voor de implementatie van teams|
 |:---------------|:-------|:----------------|
-|**Basislijn**|[MFA vereisen wanneer het aanmeldingsrisico *gemiddeld* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Zorg ervoor dat Teams en afhankelijke services zijn opgenomen in de lijst met apps. Teams hebben ook gasttoegangs- en externe toegangsregels om rekening mee te houden, u vindt hier later in dit artikel meer over.|
-|        |[Cliënten blokkeren die geen moderne verificatie ondersteunen](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Neem Teams en afhankelijke services op in de toewijzing van cloud-apps.|
-|        |[Gebruikers met een hoog risico moeten het wachtwoord wijzigen](identity-access-policies.md#high-risk-users-must-change-password)|Dwingt Teams-gebruikers om hun wachtwoord te wijzigen wanneer ze zich aanmelden als activiteit met een hoog risico wordt gedetecteerd voor hun account. Zorg ervoor dat Teams en afhankelijke services zijn opgenomen in de lijst met apps.|
-|        |[App-beleid voor gegevensbescherming toepassen](identity-access-policies.md#apply-app-data-protection-policies)|Zorg ervoor dat Teams en afhankelijke services zijn opgenomen in de lijst met apps. Werk het beleid voor elk platform (iOS, Android, Windows) bij.|
-|        |[Goedgekeurde apps en APP-beveiliging vereisen](identity-access-policies.md#require-approved-apps-and-app-protection)|Neem teams en afhankelijke services op in dit beleid.|
-|        |[Nalevingsbeleid voor apparaten definiëren](identity-access-policies.md#define-device-compliance-policies)|Neem teams en afhankelijke services op in dit beleid.|
-|        |[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Neem teams en afhankelijke services op in dit beleid.|
-|**Gevoelig**|[MFA vereisen wanneer het aanmeldingsrisico *laag,* *gemiddeld* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Teams hebben ook gasttoegangs- en externe toegangsregels om rekening mee te houden, u vindt hier later in dit artikel meer over. Neem teams en afhankelijke services op in dit beleid.|
-|         |[Compatibele pc's *en* mobiele apparaten vereisen](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Neem teams en afhankelijke services op in dit beleid.|
-|**Sterk gereglementeerd**|[*Altijd* mfa nodig](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Ongeacht de gebruikersidentiteit wordt MFA gebruikt door uw organisatie. Neem teams en afhankelijke services op in dit beleid.
+|**Basislijn**|[MFA vereisen wanneer het aanmeld risico *normaal* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Zorg ervoor dat teams en afhankelijke services zijn opgenomen in de lijst met apps. Voor teams zijn gasttoegang en regels voor externe toegang ter overweging, u vindt hier meer informatie over deze verderop in dit artikel.|
+|        |[Clients blokkeren die moderne verificatie niet ondersteunen](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Teams en afhankelijke services opnemen in de toewijzing van Cloud-apps.|
+|        |[Gebruikers met een hoog risico moeten het wachtwoord wijzigen](identity-access-policies.md#high-risk-users-must-change-password)|Zorgt ervoor dat teams gebruikers hun wachtwoord kunnen wijzigen bij het aanmelden als er een High Risk-activiteit voor hun account wordt gedetecteerd. Zorg ervoor dat teams en afhankelijke services zijn opgenomen in de lijst met apps.|
+|        |[Beleid voor APP-gegevensbeveiliging toepassen](identity-access-policies.md#apply-app-data-protection-policies)|Zorg ervoor dat teams en afhankelijke services zijn opgenomen in de lijst met apps. Werk het beleid voor elk platform (iOS, Android, Windows) bij.|
+|        |[Goedgekeurde apps en APP-beveiliging vereisen](identity-access-policies.md#require-approved-apps-and-app-protection)|Teams en afhankelijke services opnemen in dit beleid.|
+|        |[Beleidsregels voor naleving van apparaten definiëren](identity-access-policies.md#define-device-compliance-policies)|Teams en afhankelijke services opnemen in dit beleid.|
+|        |[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Teams en afhankelijke services opnemen in dit beleid.|
+|**Gevoelig**|[MFA vereisen wanneer het aanmeld risico *slecht*, *gemiddeld* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Voor teams zijn gasttoegang en regels voor externe toegang ter overweging, u vindt hier meer informatie over deze verderop in dit artikel. Teams en afhankelijke services opnemen in dit beleid.|
+|         |[Compatibele Pc's *en* mobiele apparaten vereisen](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Teams en afhankelijke services opnemen in dit beleid.|
+|**Sterk gereglementeerd**|[*Altijd* MFA vereisen](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Ongeacht de gebruikersidentiteit wordt MFA gebruikt door uw organisatie. Teams en afhankelijke services opnemen in dit beleid.
 | | |
 
-## <a name="teams-dependent-services-architecture"></a>Teams afhankelijke services architectuur
+## <a name="teams-dependent-services-architecture"></a>Architectuur van gebonden Services voor teams
 
-Ter referentie illustreert het volgende diagram de services waarop Teams vertrouwt. Zie Microsoft Teams en [gerelateerde productiviteitsservices in Microsoft 365 voor IT-architecten voor](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects)meer informatie en aanvullende illustraties.
+In het volgende diagram ziet u een overzicht van de services teams. Zie [Microsoft teams en bijbehorende productiviteitsservices in Microsoft 365 voor IT-architecten](../solutions/productivity-illustrations.md)voor meer informatie en andere illustraties.
 
-![Diagram met afhankelijkheden van Teams van SharePoint Online, OneDrive voor Bedrijven en Exchange.](../media/identity-access-logical-architecture-teams.png)
+![Diagram met de afhankelijkheden van teams in SharePoint Online, OneDrive voor bedrijven en Exchange.](../media/identity-access-logical-architecture-teams.png)
 
-## <a name="enabling-guest-and-external-access-for-teams"></a>Gast- en externe toegang voor Teams inschakelen
+## <a name="enabling-guest-and-external-access-for-teams"></a>Gast en externe toegang inschakelen voor teams
 
-In Azure AD zijn gast- en externe gebruikers hetzelfde. Het gebruikerstype voor beide is Gast. Gastgebruikers zijn B2B-gebruikers. Microsoft Teams maakt onderscheid tussen gastgebruikers en externe gebruikers in de app. Hoewel het belangrijk is om te begrijpen hoe elk van deze worden behandeld in Teams, zijn beide typen gebruikers B2B-gebruikers in Azure AD en zijn de aanbevolen beleidsregels voor B2B-gebruikers op beide van toepassing. Zie Beleid voor het toestaan [van gast- en externe B2B-toegang](identity-access-policies-guest-access.md)voor aanbevolen beleidsregels om gasttoegang toe te staan.
+In azure AD zijn gast en externe gebruikers hetzelfde. Het gebruikerstype voor beide gebruikers is gast. Gastgebruikers zijn B2B-gebruikers. In Microsoft teams wordt onderscheid gemaakt tussen gastgebruikers en externe gebruikers in de app. In het belangrijk om te begrijpen hoe elk van deze in teams wordt behandeld, zijn beide soorten gebruikers B2B-gebruikers in azure AD en zijn de aanbevolen beleidsregels voor B2B-gebruikers van toepassing. Zie beleidsregels voor het toestaan van gast- [en externe B2B-toegang](identity-access-policies-guest-access.md)voor aanbevolen beleidsregels voor het toestaan van gasttoegang.
 
 ### <a name="guest-access-in-teams"></a>Gasttoegang in teams
 
-Naast het beleid voor gebruikers die intern zijn in uw bedrijf of organisatie, kunnen beheerders gasttoegang toestaan om per gebruiker mensen die zich buiten uw bedrijf of organisatie bevinden, toegang te geven tot Teams-bronnen en interactie te hebben met interne mensen voor zaken als groepsgesprekken, chat en vergaderingen. Meer informatie over gasttoegang vindt u via de volgende link: [Teams gasttoegang](https://docs.microsoft.com/microsoftteams/guest-access)
+Naast de beleidsregels voor gebruikers die intern zijn voor uw bedrijf of organisatie, kunnen beheerders de toegang voor gasten toestaan, gebruikers die buiten uw bedrijf of organisatie deelnemen aan teams-bronnen en interactie met interne personen voor zaken zoals groepsgesprekken, chatten en vergaderingen. U vindt meer informatie over gasttoegang via de volgende koppeling: [gasttoegang voor teams](https://docs.microsoft.com/microsoftteams/guest-access)
 
-### <a name="external-access-in-teams"></a>Externe toegang in Teams
+### <a name="external-access-in-teams"></a>Externe toegang in teams
 
-Externe toegang wordt soms verward met gasttoegang, dus het is belangrijk om duidelijk te zijn dat deze twee niet-interne toegangsmechanismen eigenlijk heel anders zijn. Terwijl gasttoegang plaatsvindt per gebruiker (u voegt één gebruiker tegelijk toe), u met een beheerder alle gebruikers van een extern domein tegelijkertijd aan Teams toevoegen. Deze externe gebruikers hebben echter minder toegang en functionaliteit dan een persoon die is toegevoegd via gasttoegang. Externe toeganggebruikers kunnen chatten met uw interne gebruikers via Teams.
+Externe toegang wordt soms niet verward met gasttoegang, dus het is belangrijk dat deze twee niet-interne toegangs mechanismen werkelijk afwijken. Hoewel gasttoegang wordt uitgevoerd per gebruiker (u voegt één gebruiker tegelijk toe), wanneer een beheerder deze functie toestaat, kunt u alle gebruikers van een extern domein tegelijk toevoegen aan teams. Deze externe gebruikers hebben echter minder toegang en functionaliteit dan een persoon die via gasttoegang is toegevoegd. Gebruikers van externe toegang kunnen met uw interne gebruikers chatten via teams.
 
-Voor meer informatie over externe toegang en hoe u deze implementeren als dat nodig is, raadpleegt [u Externe toegang beheren in Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-external-access)
+Zie [externe toegang beheren in Microsoft teams](https://docs.microsoft.com/microsoftteams/manage-external-access) voor meer informatie over externe toegang en hoe u dit zo nodig kunt implementeren.
 
-## <a name="teams-policies"></a>Teambeleid
+## <a name="teams-policies"></a>Beleidsregels voor teams
 
-Buiten de hierboven genoemde algemene beleidsregels zijn er teamsspecifieke beleidsregels die kunnen en moeten worden geconfigureerd om verschillende Teams-functionaliteiten te beheren.
+Buiten de hierboven vermelde veelgebruikte beleidsregels zijn er specifieke beleidsregels die kunnen worden geconfigureerd voor het beheren van diverse team functies.
 
-### <a name="teams-and-channels-policies"></a>Beleid voor teams en kanalen
+### <a name="teams-and-channels-policies"></a>Beleidsregels voor teams en kanalen
 
-Teams en kanalen zijn twee veelgebruikte elementen in Microsoft Teams en er zijn beleidsregels die u invoeren om te bepalen wat gebruikers wel en niet kunnen doen bij het gebruik van teams en kanalen. Hoewel u een wereldwijd team maken, als uw organisatie 5000 gebruikers of minder heeft, zult u het waarschijnlijk nuttig vinden om kleinere teams en kanalen voor specifieke doeleinden te hebben, in overeenstemming met uw organisatorische behoeften.
+Teams en kanalen zijn twee veelgebruikte elementen in Microsoft teams, en er zijn beleidsregels die u kunt gebruiken om te bepalen wat gebruikers met teams en kanalen kunnen doen. Hoewel u een algemeen team kunt maken en uw organisatie 5000-gebruikers of minder weet, kunt u waarschijnlijk het beste kleinere teams en kanalen voor specifieke doeleinden voor specifieke doeleinden, in overeenstemming met de behoeften van uw organisatie.
 
-Het standaardbeleid wijzigen of aangepaste beleidsregels maken wordt aanbevolen en u meer informatie vinden over het beheren van uw beleid op deze koppeling: [Teambeleid beheren in Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-policies).
+U wordt aangeraden het standaardbeleid te wijzigen of aangepaste beleidsregels te maken en u vindt hier meer informatie over het beheren van uw beleidsregels op deze koppeling: [beleidsregels voor teams in Microsoft teams beheren](https://docs.microsoft.com/microsoftteams/teams-policies).
 
-### <a name="messaging-policies"></a>Berichtenbeleid
+### <a name="messaging-policies"></a>Berichten beleid
 
-Berichten of chatberichten kunnen ook worden beheerd via het standaardalgemene beleid of via aangepaste beleidsregels, en dit kan uw gebruikers helpen met elkaar te communiceren op een manier die geschikt is voor uw organisatie. Deze informatie kan worden beoordeeld op [Het beheer van berichtenbeleid in Teams.](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams)
+U kunt berichten en chatberichten ook beheren via het standaard globale beleid, of via een aangepast beleid, zodat uw gebruikers kunnen communiceren op een andere manier die geschikt is voor uw organisatie. U kunt deze informatie nakijken via [berichten beleid beheren in teams](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams).
 
-### <a name="meeting-policies"></a>Vergaderbeleid
+### <a name="meeting-policies"></a>Beleidsregels voor vergaderingen
 
-Geen discussie over Teams zou compleet zijn zonder het plannen en implementeren van beleid rond Teams-vergaderingen. Vergaderingen zijn een essentieel onderdeel van Teams, waardoor mensen elkaar formeel kunnen ontmoeten en aan veel gebruikers tegelijk kunnen presenteren, en inhoud kunnen delen die relevant is voor de vergadering. Het is essentieel om het juiste beleid voor uw organisatie rond vergaderingen vast te stellen.
+Geen enkele discussie van teams kon worden voltooid zonder een beleid te plannen en te implementeren rond teams-vergaderingen. Vergaderingen zijn een essentieel onderdeel van teams, zodat personen formeel kunnen vergaderen en presenteren aan veel gebruikers tegelijk, en de inhoud van de vergadering delen. Het juiste beleid instellen voor uw organisatie is van essentieel belang.
 
-Raadpleeg het [beleid voor vergaderen beheren in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams) voor meer informatie.
+Lees hoe u [vergaderings beleidsregels beheert in teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams) voor meer informatie.
 
-### <a name="app-permission-policies"></a>Machtigingenbeleid voor apps
+### <a name="app-permission-policies"></a>App-machtigingsbeleid
 
-Met teams u ook apps gebruiken op verschillende plaatsen, zoals kanalen of persoonlijke chats. Het hebben van beleid rond welke apps kunnen worden toegevoegd en gebruikt, en waar, is essentieel voor het behoud van een inhoud-rijke omgeving die ook veilig is.
+In teams kunt u ook apps gebruiken op verschillende plaatsen, zoals kanalen of persoonlijke chats. Met beleidsregels rond welke apps kunnen worden toegevoegd en gebruikt, en waar is het essentieel dat u een omgeving met uitgebreide inhoud die ook veilig is.
 
-Voor meer informatie over het beleid voor machtigingen voor apps raadpleegt u [Het beleid voor app-machtigingen beheren in Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-permission-policies).
+Zie [machtigingsbeleid voor apps in Microsoft teams beheren](https://docs.microsoft.com/microsoftteams/teams-app-permission-policies)voor meer informatie over machtigingsbeleid voor apps.
 
 ## <a name="next-steps"></a>Volgende stappen
 

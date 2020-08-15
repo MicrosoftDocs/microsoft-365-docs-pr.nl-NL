@@ -9,7 +9,7 @@ ms.date: 12/13/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
@@ -18,29 +18,29 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Samenvatting: configureer en test het opnieuw instellen van het wachtwoord voor uw Microsoft 365-testomgeving.'
-ms.openlocfilehash: 96a8b03ca978ac2b2174742c0208444d853ba7c9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+ms.openlocfilehash: 98e6b8d8432c86e9d1c432128ed6d223da83610e
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632885"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686534"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Opnieuw instellen van het wachtwoord voor uw Microsoft 365-testomgeving
 
-*Deze testlabrichtlijn kan alleen worden gebruikt voor Microsoft 365 Enterprise-testomgevingen.*
+*Deze test lab-gids kan alleen worden gebruikt voor Microsoft 365 voor Enterprise test omgevingen.*
 
 Met de Azure Active Directory (Azure AD) selfservice voor het opnieuw instellen van wachtwoorden (SSPR) kunnen gebruikers hun wachtwoorden of accounts opnieuw instellen of ontgrendelen. 
 
 In dit artikel wordt beschreven hoe u wachtwoordinstellingen in uw Microsoft 365-testomgeving in drie fasen kunt configureren en testen:
 
-1.    Maak de Microsoft 365 Enterprise-testomgeving.
+1.    Maak de testomgeving Microsoft 365 for Enterprise.
 2.  Wachtwoord terugschrijven inschakelen.
 3.    Configureer en test het opnieuw instellen van het wachtwoord voor het gebruikersaccount 3.
     
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart met alle artikelen over de Microsoft 365 Enterprise-testlabrichtlijnen.
+> Klik op [Hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de stack van Microsoft 365 voor Enterprise-testlabrichtlijnen.
 
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Fase 1: configureer wachtwoord-hash-synchronisatie voor uw Microsoft 365-testomgeving
 
@@ -50,7 +50,7 @@ Volg eerst de instructies in [wachtwoord-hash-synchronisatie](password-hash-sync
   
 Deze configuratie bestaat uit: 
   
-- Een betaald of proefabonnement op Microsoft 365 E5 of Office 365 E5.
+- Een proef- of betaald abonnement op Microsoft 365 E5.
 - Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. 
 - Azure AD Connect draait op APP1 om het TESTLAD AD DS-domein (Active Directory Domain Services) te synchroniseren met de Azure AD-tenant van uw Microsoft 365-abonnement.
 
@@ -89,8 +89,6 @@ Configureer en test vervolgens het opnieuw instellen van het wachtwoord voor het
 11. Typ in **Ga terug naar uw account** een nieuw wachtwoord voor het account van Gebruiker 3 en klik vervolgens op **voltooien**. Noteer het gewijzigde wachtwoord van het account van gebruiker 3 en bewaar het op een veilige locatie.
 12. Ga op een afzonderlijk tabblad van dezelfde browser naar [https://portal.office.com](https://portal.office.com), en meld u vervolgens aan met de naam van het account voor gebruikers 3 en het nieuwe wachtwoord. U zou de pagina van **Microsoft Office voor Thuisgebruik** moeten zien.
 
-Zie de stap [Vereenvoudig het opnieuw instellen van wachtwoorden](identity-secure-your-passwords.md#identity-pw-reset) in de Identiteitsfase voor informatie en koppelingen om het opnieuw instellen van wachtwoorden in productie te configureren.
-
 ## <a name="next-step"></a>Volgende stap
 
 Verken aanvullende [identiteits](m365-enterprise-test-lab-guides.md#identity)functies en -mogelijkheden in uw testomgeving.
@@ -99,6 +97,6 @@ Verken aanvullende [identiteits](m365-enterprise-test-lab-guides.md#identity)fun
 
 [Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise implementeren](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise-documentatie](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)

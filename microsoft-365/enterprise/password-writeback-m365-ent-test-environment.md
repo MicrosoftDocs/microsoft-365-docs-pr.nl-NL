@@ -9,7 +9,7 @@ ms.date: 11/22/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
@@ -18,16 +18,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Overzicht: Wachtwoord terugschrijven configureren voor uw Microsoft 365-testomgeving.'
-ms.openlocfilehash: cc71b581730001d8dc021b5074e300fed636e3d9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+ms.openlocfilehash: b8c89ca7ef967c423b89db4559ef04f715a5f869
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632873"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686224"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Wachtwoord terugschrijven voor uw Microsoft 365-testomgeving
 
-*Deze testlabrichtlijn kan alleen worden gebruikt voor Microsoft 365 Enterprise-testomgevingen.*
+*Deze test lab-gids kan alleen worden gebruikt voor Microsoft 365 voor Enterprise test omgevingen.*
 
 Met Wachtwoord terugschrijven kunnen gebruikers hun wachtwoorden opnieuw instellen via Azure Active Directory (Azure AD), die vervolgens worden gerepliceerd naar uw lokale Active Directory Domain Services (AD DS). Met het terugschrijven van wachtwoorden hoeven gebruikers hun wachtwoorden niet bij te werken via de on-premises AD DS waar de originele gebruikersaccounts zijn opgeslagen. Dit is handig bij roaming en gebruikers die extern werken die geen RAS-verbinding met het on-premises netwerk hebben.
 
@@ -41,7 +41,7 @@ Er zijn twee fasen om dit in te stellen:
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart met alle artikelen over de Microsoft 365 Enterprise-testlabrichtlijnen.
+> Klik op [Hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de stack van Microsoft 365 voor Enterprise-testlabrichtlijnen.
   
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Fase 1: configureer wachtwoord-hash-synchronisatie voor uw Microsoft 365-testomgeving
 
@@ -51,7 +51,7 @@ Volg eerst de instructies in [wachtwoord-hash-synchronisatie](password-hash-sync
   
 Deze configuratie bestaat uit: 
   
-- Een betaald of proefabonnement op Microsoft 365 E5 of Office 365 E5.
+- Een proef- of betaald abonnement op Microsoft 365 E5.
 - Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. 
 - Azure AD Connect wordt uitgevoerd op APP1 om het AD DS-domein TESTLAB te synchroniseren met de Azure AD-tenant van uw Microsoft 365-abonnement.
 
@@ -128,12 +128,10 @@ Dit is de resulterende configuratie:
 
 Deze configuratie bestaat uit:
 
-- Een betaald of proefabonnement op Microsoft 365 E5 of Office 365 E5 met het DNS-domein TESTLAB.\<uw domeinnaam> geregistreerd.
+- Een Microsoft 365 E5-proefabonnement of betaalde abonnementen met de DNS-domein TESTLAB.\<your domain name> geregistreerd.
 - Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. 
 - Azure AD Connect draait op APP1 om de lijst van accounts en groepen van de Azure AD-tenant van uw Microsoft 365-abonnement te synchroniseren met het TESTLAB AD DS-domein. 
 - Wachtwoord terugschrijven is ingeschakeld, zodat gebruikers hun wachtwoorden kunnen wijzigen via Azure AD, zonder te zijn verbonden met het vereenvoudigde intranet.
-
-Zie de stap [Vereenvoudig het updaten van wachtwoorden](identity-add-user-accounts.md#identity-pw-writeback) in de Identiteitsfase voor informatie en koppelingen om Wachtwoord terugschrijven in productie te configureren.
 
 ## <a name="next-step"></a>Volgende stap
 
@@ -143,8 +141,8 @@ Verken aanvullende [identiteits](m365-enterprise-test-lab-guides.md#identity)fun
 
 [Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise implementeren](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise-documentatie](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)
 
 

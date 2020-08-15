@@ -1,5 +1,5 @@
 ---
-title: IOS- en Android-apparaten inschrijven in uw Microsoft 365 Enterprise-testomgeving
+title: IOS-en Android-apparaten registreren in uw Microsoft 365 voor Enterprise-testomgeving
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -13,74 +13,74 @@ localization_priority: Normal
 ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 49c7758a-1c01-4153-9b63-5eae3f6305ce
-description: Gebruik deze Test Lab Guide om apparaten in te schrijven in uw Microsoft 365-testomgeving en deze op afstand te beheren.
-ms.openlocfilehash: ae6ff9e704fc239638b5951a95ae23c45e85b7be
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Gebruik deze test lab-handleiding om apparaten in uw Microsoft 365-test omgeving te registreren en deze extern te beheren.
+ms.openlocfilehash: b4a95b2c7e58239c0a8d0d3b5045e7337f43de6b
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42805668"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686008"
 ---
-# <a name="enroll-ios-and-android-devices-in-your-microsoft-365-enterprise-test-environment"></a>IOS- en Android-apparaten inschrijven in uw Microsoft 365 Enterprise-testomgeving
+# <a name="enroll-ios-and-android-devices-in-your-microsoft-365-for-enterprise-test-environment"></a>IOS-en Android-apparaten registreren in uw Microsoft 365 voor Enterprise-testomgeving
 
-*Deze Test Lab Guide kan alleen worden gebruikt voor Microsoft 365 Enterprise-testomgevingen.*
+*Deze test lab-gids kan alleen worden gebruikt voor Microsoft 365 voor Enterprise test omgevingen.*
 
-Door de instructies in dit artikel op te volgen, u de basismogelijkheden voor het beheer van mobiele apparaten voor iOS- en Android-apparaten inschrijven en testen in uw Microsoft 365 Enterprise-testomgeving.
+Door de instructies in dit artikel te volgen, kunt u de functies voor het beheren van mobiele apparaten voor iOS-en Android-apparaten registreren en testen in uw Microsoft 365 voor Enterprise testomgeving.
 
-![Test Lab-hulplijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
   
 > [!TIP]
-> Klik [hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de Microsoft 365 Enterprise Test Lab Guide stack.
+> Klik op [Hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de stack van Microsoft 365 voor Enterprise-testlabrichtlijnen.
 
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: Uw Microsoft 365 Enterprise-testomgeving uitbouwen
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: uw Microsoft 365-omgeving voor Enterprise testomgeving maken
 
-Als je iOS- en Android-apparaten alleen op een lichtgewicht manier wilt inschrijven met de minimumvereisten, volg dan de instructies in [lichtgewicht basisconfiguratie.](lightweight-base-configuration-microsoft-365-enterprise.md)
+Als u alleen iOS-en Android-apparaten op een lichte manier wilt registreren met de minimumvereisten, volgt u de instructies in de [Lightweight Base configuration](lightweight-base-configuration-microsoft-365-enterprise.md).
   
-Als u iOS- en Android-apparaten wilt inschrijven in een gesimuleerde onderneming, volgt u de instructies in [Pass-through-verificatie](pass-through-auth-m365-ent-test-environment.md).
+Als u iOS-en Android-apparaten wilt registreren in een gesimuleerde onderneming, volgt u de instructies in [Pass Through-verificatie](pass-through-auth-m365-ent-test-environment.md).
   
 > [!NOTE]
-> Het testen van geautomatiseerde licenties en groepslidmaatschap vereist niet de gesimuleerde bedrijfstestomgeving, die een gesimuleerd intranet bevat dat is verbonden met internet en adreslijstsynchronisatie voor een AD DS-forest (Active Directory Domain Services). Het wordt hier als optie geleverd, zodat u geautomatiseerde licenties en groepslidmaatschap testen en ermee experimenteren in een omgeving die een typische organisatie vertegenwoordigt. 
+> Voor het testen van de geautomatiseerde licentie-en groepslidmaatschappen is de gesimuleerde Enterprise testomgeving niet vereist, waaronder een gesimuleerd intranet dat verbonden is met internet en adreslijstsynchronisatie van een Active Directory Domain Services (AD DS)-forest. U kunt dit hier opgeven als optie, zodat u geautomatiseerde licenties en groepslidmaatschappen kunt testen en experimenteert in een omgeving die een typische organisatie voorstelt. 
 >  
 
-## <a name="phase-2-enroll-your-ios-and-android-devices"></a>Fase 2: Schrijf je iOS- en Android-apparaten in
+## <a name="phase-2-enroll-your-ios-and-android-devices"></a>Fase 2: uw iOS-en Android-apparaten registreren
 
-Gebruik eerst de instructies in [Installeren en meld u aan bij de Bedrijfsportal-app](https://docs.microsoft.com/intune-user-help/install-and-sign-in-to-the-intune-company-portal-app-ios) om de Microsoft Intune Company Portal-app aan te passen aan uw testomgeving.
+Gebruik eerst de instructies in [installeren en meld u aan bij de bedrijfsportal-app](https://docs.microsoft.com/intune-user-help/install-and-sign-in-to-the-intune-company-portal-app-ios) om de app Microsoft intune Company portal aan te passen aan uw testomgeving.
 
-Gebruik vervolgens de instructies in [Het instellen van toegang tot uw bedrijfsbronnen](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-ios) om een iOS-apparaat in te schrijven.
+Volg vervolgens de instructies in [toegang tot uw bedrijfsbronnen instellen](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-ios) om een IOS-apparaat in te schrijven.
 
-Gebruik vervolgens de instructies in [Schrijf je Android-apparaat in Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-android) om een Android-apparaat in te schrijven.
+Volg vervolgens de instructies in [uw Android-apparaat in intune registreren](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-android) om een Android-apparaat in te schrijven.
 
-## <a name="phase-3-manage-your-ios-and-android-devices-remotely"></a>Fase 3: Beheer je iOS- en Android-apparaten op afstand
+## <a name="phase-3-manage-your-ios-and-android-devices-remotely"></a>Fase 3: uw iOS-en Android-apparaten extern beheren
 
-Microsoft Intune biedt zowel mogelijkheden voor het vergrendelen als het resetten van toegangscodes. Als iemand zijn apparaat verliest, u het apparaat op afstand vergrendelen. Als iemand zijn toegangscode vergeet, u deze op afstand opnieuw instellen.
+Microsoft intune biedt de functies voor het opnieuw instellen van wachtwoorden voor extern vergrendelen. Als iemand zijn of haar apparaat kwijtraakt, kunt u het apparaat extern vergrendelen. Als iemand zijn of haar wachtwoord vergeet, kunt u dit extern herstellen.
   
-Een iOS- of Android-apparaat op afstand vergrendelen:
+Een iOS-of Android-apparaat op afstand vergrendelen:
 
-1. Meld u aan bij [https://portal.azure.com](https://portal.azure.com) de Azure-portal met de referenties van uw globale beheerdersaccount.
-2. Typ Op het tabblad Azure-portal in uw browser **Intune** in het zoekvak en klik vervolgens op **Intune**.
-3. Klik op **Apparaten > alle apparaten**.
-4. Klik in de lijst met apparaten op een iOS- of Android-apparaat en klik vervolgens op de actie **Extern vergrendelen.**
+1. Meld u aan bij de Azure-Portal [https://portal.azure.com](https://portal.azure.com) met de referenties van uw globale beheerdersaccount.
+2. Typ in het dialoogvenster van uw browser op het tabblad Azure Portal de tekst **intune** in het zoekvak en klik vervolgens op **intune**.
+3. Klik op **apparaten > alle apparaten**.
+4. Klik op een iOS-of Android-apparaat in de lijst met apparaten en klik vervolgens op de actie op **afstand vergrendelen** .
 
     
-Ga als reactie op het instellen van de toegangscode op afstand:
+De wachtwoordcode extern opnieuw instellen:
 
-1. Meld u indien nodig aan [https://portal.azure.com](https://portal.azure.com) bij de Azure-portal met de referenties van uw globale beheerdersaccount.
-2. Typ Op het tabblad Azure-portal in uw browser **Intune** in het zoekvak en klik vervolgens op **Intune**.
-3. Klik op **Apparaten > alle apparaten**.
-4. Klik in de lijst met apparaten die u beheert op een iOS- of Android-apparaat en kies **... Meer**. Kies vervolgens de externe actie **voor toegangscodes verwijderen.**
+1. Meld u indien nodig aan bij de Azure-Portal [https://portal.azure.com](https://portal.azure.com) met de referenties van uw globale beheerdersaccount.
+2. Typ in het dialoogvenster van uw browser op het tabblad Azure Portal de tekst **intune** in het zoekvak en klik vervolgens op **intune**.
+3. Klik op **apparaten > alle apparaten**.
+4. Klik in de lijst met apparaten die u beheert op een iOS-of Android-apparaat en kies **... Meer informatie**. Kies vervolgens de actie op de computer met de actie **wachtwoordcode verwijderen** .
 
-Zie [Beschikbare apparaatacties](https://docs.microsoft.com/intune/device-management#available-device-actions)voor extra experimenten.
+Zie [beschikbare acties voor apparaten](https://docs.microsoft.com/intune/device-management#available-device-actions)voor een extra proef.
 
     
 ## <a name="next-step"></a>Volgende stap
 
-Ontdek extra functies en mogelijkheden [voor het beheer](m365-enterprise-test-lab-guides.md#mobile-device-management) van mobiele apparaten in uw testomgeving.
+Verken de extra functies en mogelijkheden van het [beheer van mobiele apparaten](m365-enterprise-test-lab-guides.md#mobile-device-management) in uw testomgeving.
 
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft 365 Enterprise Test Lab-handleidingen](m365-enterprise-test-lab-guides.md)
+[Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
   
-[Apparaatnalevingsbeleid voor uw Microsoft 365 Enterprise-testomgeving](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
+[Beleid voor apparaatcompatibiliteit voor uw Microsoft 365 voor Enterprise testomgeving](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
   
-[Microsoft 365 Enterprise implementeren](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 

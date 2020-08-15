@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Enterprise voor Contoso Corporation
+title: Microsoft 365 voor Enterprise voor contoso B.v.
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
@@ -9,26 +9,26 @@ ms.date: 06/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_O365_Enterprise
 - M365-subscription-management
 ms.custom: ''
-description: Hoe een fictieve maar representatieve wereldwijde organisatie Microsoft 365 Enterprise in gebruik heeft genomen.
-ms.openlocfilehash: dd9bf2dcb7a8bff453746a0084faaf69650bf6fd
-ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
-ms.translationtype: HT
+description: Hoe een fictief maar representatieve wereldwijde organisatie Microsoft 365 for Enterprise heeft overgenomen.
+ms.openlocfilehash: fe9003531ada50374c0447c9b05a99798f883e47
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854256"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685984"
 ---
-# <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Microsoft 365 Enterprise voor Contoso Corporation
+# <a name="microsoft-365-for-enterprise-for-the-contoso-corporation"></a>Microsoft 365 voor Enterprise voor contoso B.v.
 
-Microsoft 365 Enterprise is een uitstekende cloudaanbieding van Microsoft waarin lokale en cloudproductiviteitsapps en -services worden gecombineerd met Windows 10 Enterprise en geavanceerde beveiligingsfuncties tot een volledige, intelligente oplossing waarmee iedereen op een veilige manier creatief kan zijn en met anderen kan samenwerken. 
+Microsoft 365 voor Enterprise is de premier Cloud-oplossing van Microsoft waarmee de apps en services die op de Cloud en de cloud worden gecombineerd met Windows 10 Enterprise en geavanceerde beveiligingsfuncties in een complete, intelligente oplossing, zodat iedereen veilig kan samenwerken. 
 
-Contoso Corporation is een fictief maar representatief wereldwijd productieconglomeraat met het hoofdkantoor in Parijs, Frankrijk. Contoso heeft Microsoft 365 Enterprise geïmplementeerd en aandacht heeft besteed aan belangrijke ontwerpbeslissingen en implementatiedetails voor netwerken, identiteiten, Windows 10 Enterprise, Microsoft 365-apps voor ondernemingen, beheer van mobiele apparaten, gegevensbescherming en beveiliging. 
+Contoso Corporation is een fictief maar representatief wereldwijd productieconglomeraat met het hoofdkantoor in Parijs, Frankrijk. Contoso heeft Microsoft 365 geïmplementeerd voor Enterprise en is geadresseerd aan de implementatiedetails van het ontwerp en de implementatiedetails voor netwerken, identiteiten, Windows 10 Enterprise, Microsoft 365-apps voor Enterprise, het beheer van mobiele apparaten, informatiebescherming en beveiliging. 
 
-Het algehele doel van Contoso voor Microsoft 365 Enterprise is hun digitale transformatie te versnellen door met cloudservices werknemers, partners, gegevens en processen samen te brengen om klantwaarde te genereren en hun concurrentievoordeel te behouden in een digitale wereld.
+Het algemene doel van Contoso voor Microsoft 365 voor Enterprise is het versnellen van de digitale transformatie door gebruik te maken van cloudservices om de werknemers, partners, gegevens en processen samen te voegen om de klantwaarde te creëren en het concurrentievoordeel van een digitale eerste wereld te onderhouden.
 
 Zie de volgende artikelen voor meer informatie:
 
@@ -62,11 +62,11 @@ Zie de volgende artikelen voor meer informatie:
 
 - [Gegevensbeveiliging](contoso-info-protect.md)
 
-  Om er zeker van te zijn dat zowel algemene gegevens als gegevens met een hoge waarde worden geïdentificeerd en gelabeld en in aanmerking komen voor een beveiligingslaag, dwingt Contoso hun beleid voor gegevensbeveiliging af met Microsoft 365 Enterprise-gegevensbeveiliging.
+  Om ervoor te zorgen dat zowel veelgebruikte als High-valuegegevens worden geïdentificeerd, aangeduid met gelabelde en onderhevige lagen, dwingt contoso het beleid voor gegevensbeveiliging af met Microsoft 365 voor Enterprise Information Protection.
 
-- [Overzicht van de beveiliging van Microsoft 365 Enterprise](contoso-security-summary.md)
+- [Overzicht van Microsoft 365 for Enterprise Security](contoso-security-summary.md)
 
-  Contoso gebruikt het volledige spectrum van de beveiligingsfuncties van Microsoft 365 Enterprise voor identiteits- en toegangsbeheer, bedreigingsbeveiliging, gegevensbeveiliging en beveiligingsbeheer.
+  Contoso maakt gebruik van de volledige versie van Microsoft 365 voor beveiligingsfuncties voor identiteits-en toegangsbeheer, beveiliging tegen bedreigingen, informatiebescherming en beveiligingsbeheer.
 
 - [Team voor een zeer geheim project](../solutions/contoso-team-for-top-secret-project.md)
 
@@ -78,12 +78,12 @@ Zie de volgende artikelen voor meer informatie:
 
 ## <a name="next-step"></a>Volgende stap
 
-[Lees](contoso-overview.md) over Contoso Corporation, hun wereldwijde kantoren en de ontwerpoverwegingen bij de implementatie van Microsoft 365 Enterprise.
+[Meer informatie](contoso-overview.md) over de Contoso Corporation, de wereldwijde kantoren en de overwegingen met betrekking tot het implementeren van microsoft 365 for Enterprise.
 
 
 ## <a name="see-also"></a>Zie ook
 
-[Implementatiehandleiding](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
 [Testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 

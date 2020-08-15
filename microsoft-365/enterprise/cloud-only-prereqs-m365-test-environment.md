@@ -9,24 +9,24 @@ ms.date: 12/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Maak een Microsoft 365-omgeving voor het testen van identiteits- en apparaattoegang met de vereisten voor verificatie alleen in de cloud.
-ms.openlocfilehash: 94d3f5cdff7c8515ab775ae8070b74dd9b80df0f
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
-ms.translationtype: HT
+ms.openlocfilehash: a8025a2543a53a229be13d19c246165fe88ad433
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153780"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685782"
 ---
 # <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a>Vereisten voor identiteits- en apparaattoegang voor de cloud alleen in uw Microsoft 365-testomgeving.
 
-*Deze testlabrichtlijn kan alleen worden gebruikt voor Microsoft 365 Enterprise-testomgevingen.*
+*Deze test lab-gids kan alleen worden gebruikt voor Microsoft 365 voor Enterprise test omgevingen.*
 
-[Configuraties voor identiteits- en apparaattoegang](microsoft-365-policies-configurations.md) zijn een reeks configuraties en beleidsvoorwaarden voor voorwaardelijke toegang om de toegang tot alle services te beveiligen die zijn geïntegreerd met Azure Active Directory (Azure AD), met inbegrip van Office 365 en Microsoft Intune in Microsoft 365 Enterprise.
+[Configuraties voor identiteits-en Apparaattoegang](microsoft-365-policies-configurations.md) zijn een set configuraties en regels voor voorwaardelijke toegang om toegang te beschermen tot alle services die zijn geïntegreerd in azure Active Directory (Azure AD).
 
 In dit artikel wordt beschreven hoe een Microsoft 365-testomgeving kan worden geconfigureerd die voldoet aan de voorwaarden van de [vereiste configuratie alleen in de cloud](identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang.
 
@@ -116,10 +116,10 @@ Gebruik [algemeen beleid voor identiteits- en apparaattoegang](identity-access-p
 
 [Aanvullende testlabrichtlijnen voor identiteit](m365-enterprise-test-lab-guides.md#identity)
 
-[Fase 2: Identiteit](identity-infrastructure.md)
+[Identiteitskaart](identity-roadmap-microsoft-365.md)
 
 [Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise-implementatie](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise-documentatie](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)

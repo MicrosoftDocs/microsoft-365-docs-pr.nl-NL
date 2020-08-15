@@ -9,22 +9,22 @@ ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ontdek hoe Contoso Microsoft Endpoint Configuration Manager gebruikte om in-place upgrades voor Windows 10 Enterprise te implementeren.
-ms.openlocfilehash: c66be4ad5ee383301c4fb10cf2590f7cbbed033f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+ms.openlocfilehash: a100eb07408053fd270c26f388265696549fff9f
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630679"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686416"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Windows 10 Enterprise-implementatie voor Contoso
 
-Vóór de brede implementatie van Microsoft 365 Enterprise waren de pc’s van Contoso compatibel met Windows en werd er een combinatie van Windows 7 (10%), Windows 8.1 (65%) en Windows 10 (25%) uitgevoerd. Contoso wilde haar pc’s upgraden, omdat Windows 10 Enterprise gebruikmaakt van geavanceerde beveiliging en IT-overhead vermindert door automatische implementatie van updates. 
+Voor de grote implementatie van Microsoft 365 for Enterprise hadden contoso Windows-compatibele Pc's en apparaten met een menging van Windows 7 (10%), Windows 8,1 (65%) en Windows 10 (25%). Contoso wilde haar pc’s upgraden, omdat Windows 10 Enterprise gebruikmaakt van geavanceerde beveiliging en IT-overhead vermindert door automatische implementatie van updates. 
 
 Na het evalueren van hun infrastructuur en bedrijfsbehoeften identificeerde Contoso deze belangrijke vereisten voor de implementatie:
 
@@ -95,8 +95,8 @@ Deze infrastructuur bestaat uit:
 
 ## <a name="see-also"></a>Zie ook
 
-[Windows 10 Enterprise voor Microsoft 365 Enterprise](windows10-infrastructure.md)
+[Windows 10 Enterprise](https://docs.microsoft.com/windows/deployment/)
 
-[Implementatiehandleiding](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
 [Testlabrichtlijnen](m365-enterprise-test-lab-guides.md)

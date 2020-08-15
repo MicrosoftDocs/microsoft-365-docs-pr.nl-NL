@@ -9,18 +9,18 @@ ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Begrijp wat Microsoft doet tijdens een service-incident, zodat u uw bedrijfscontinuïteitsplannen beter kunt voorbereiden.
-ms.openlocfilehash: 3d4a1d6c3a69be4cb3051125d5527b1f0b25b375
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
-ms.translationtype: HT
+ms.openlocfilehash: 5486ad2ae8c2e5d97b466a8cbd2a4dbab416b29b
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42809875"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686116"
 ---
 # <a name="enterprise-business-continuity-management-customer-and-cloud-partner-responsibilities"></a>Management van verantwoordelijkheden rondom bedrijfscontinuïteit voor klanten en cloudpartners
 
@@ -65,7 +65,7 @@ Beschouw gebeurtenissen die gevolgen zouden hebben voor uw personeel, zoals een 
 
 ### <a name="location"></a>Locatie
 Veel organisaties vereisen dat werknemers zich op specifieke fysieke of netwerklocaties bevinden om verbinding te maken met bedrijfssystemen en cloudservices.  
-Microsoft publiceert [basisprincipes voor netwerkverbindingen](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles) die bedrijven begeleiden via aanbevolen procedures voor het instellen van netwerkverbindingen met cloudresources. Voorbeelden van optimalisering zijn het implementeren van VPN's met gesplitste tunnels om verbindingen rechtstreeks vanuit het netwerk van een gebruiker toe te staan in plaats van via een VPN-tunnel.  Hoewel deze verbindingsprincipes belangrijk zijn voor het onderhouden van verbindingen met een lage latentie, zijn voor een veerkrachtige service alternatieve methoden vereist om verbinding te maken met bedrijfsbronnen voor algemene samenwerking.
+Microsoft publiceert [basisprincipes voor netwerkverbindingen](microsoft-365-network-connectivity-principles.md) die bedrijven begeleiden via aanbevolen procedures voor het instellen van netwerkverbindingen met cloudresources. Voorbeelden van optimalisering zijn het implementeren van VPN's met gesplitste tunnels om verbindingen rechtstreeks vanuit het netwerk van een gebruiker toe te staan in plaats van via een VPN-tunnel.  Hoewel deze verbindingsprincipes belangrijk zijn voor het onderhouden van verbindingen met een lage latentie, zijn voor een veerkrachtige service alternatieve methoden vereist om verbinding te maken met bedrijfsbronnen voor algemene samenwerking.
 
 ### <a name="systems"></a>Systemen
 Veel samenwerkingsoplossingen zijn afhankelijk van systemen, zoals het bedrijfsbrede netwerk (WAN). Hoe zou uw organisatie reageren als die systemen niet beschikbaar zijn?

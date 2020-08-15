@@ -9,24 +9,19 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 3e42e39067c6bf89f94cfd0fe7593ea86dbf20a7
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 6981bdc0c0e79952701fdba91b1d43b317003af9
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46613035"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686236"
 ---
 # <a name="work-with-reports"></a>Werken met rapporten
 
 Microsoft Managed Desktop biedt rapporten die de IT-beheerder in uw Tenant kan gebruiken om inzicht te krijgen in verschillende aspecten van de bevolking van apparaten. U opent de rapporten in de [beheerportal ](https://aka.ms/mmdportal)onder **rapportage**.
 
 
-## <a name="device-compliance-report"></a>Rapport over apparaatcompatibiliteit
 
-In de hoofdweergave ziet u het percentage van uw door Microsoft beheerde bureaublad apparaten dat voldoet aan nalevings beleidsregels die zijn ingesteld in Microsoft intune. U kunt ook specifieke informatie bekijken voor alle door Microsoft beheerde bureaublad apparaten of alleen apparaten die niet voldoen aan nalevingsbeleid en een bestand met dezelfde informatie exporteren.
-
-Meer informatie over het [verslag van apparaatcompatibiliteit](device-compliance-report.md).
-
-## <a name="device-inventory-report"></a>Rapport over inventarisatie van apparatuur
+## <a name="device-inventory-report"></a>Inventarisrapport voor apparaat
 
 De weergave **apparaten** biedt een tabblad **Alles exporteren** waarmee [een gedetailleerd inventarisrapport wordt gedownload](device-inventory-report.md).

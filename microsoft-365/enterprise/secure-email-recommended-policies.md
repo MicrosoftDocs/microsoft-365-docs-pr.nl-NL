@@ -1,5 +1,5 @@
 ---
-title: Beveiligingsbeleid voor aanbevolen e-mail-Microsoft 365 Enterprise | Microsoft docs
+title: 'Aanbevolen beleidsregels voor beveiliging van e-mail: Microsoft 365 for Enterprise | Microsoft docs'
 description: Een beschrijving van de beleidsregels voor Microsoft-aanbevelingen over het toepassen van e-mail beleidsregels en configuraties.
 author: brendacarter
 manager: laurawi
@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: c2eabd160cf221f7e2bb7b81f07c205135476cc9
-ms.sourcegitcommit: d6b641d0ef92f4176da9f4a98d3d5aa3d4f2e184
+ms.openlocfilehash: 39e7be86c06a471a4eefc0cacd3657c363eddae6
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46617172"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685604"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Beleids aanbevelingen voor beveiliging van e-mail
 

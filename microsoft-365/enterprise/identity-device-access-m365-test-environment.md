@@ -9,24 +9,24 @@ ms.date: 04/23/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Maak een Microsoft 365-omgeving om de toegang tot identiteiten en apparaten te testen.
-ms.openlocfilehash: 45749140698553a75df50ed1111cdbfc8eb15684
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
-ms.translationtype: HT
+ms.openlocfilehash: c5bc0fbbb3ae3839cb7aa71e8c840784ae4a4cad
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153736"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685852"
 ---
 # <a name="identity-and-device-access-for-your-microsoft-365-test-environment"></a>Identiteit en apparaattoegang voor uw Microsoft 365-testomgeving
 
-*Deze testlabrichtlijn kan alleen worden gebruikt voor Microsoft 365 Enterprise-testomgevingen.*
+*Deze test lab-gids kan alleen worden gebruikt voor Microsoft 365 voor Enterprise test omgevingen.*
 
-[Configuraties voor identiteit en apparaattoegang](microsoft-365-policies-configurations.md) bestaan uit een set van configuraties en beleidsregels voor voorwaardelijke toegang om de toegang te beveiligen tot alle services die zijn geïntegreerd met Azure Active Directory (Azure AD), met inbegrip van Office 365 en Microsoft Intune in Microsoft 365 Enterprise.
+[Configuraties voor identiteits-en Apparaattoegang](microsoft-365-policies-configurations.md) zijn een set functies en regels voor voorwaardelijke toegang om de toegang te beschermen tot alle services die zijn geïntegreerd in azure Active Directory (Azure AD).
 
 U kunt als volgt een testomgeving met deze beleidsregels maken:
 
@@ -42,10 +42,10 @@ U kunt als volgt een testomgeving met deze beleidsregels maken:
 
 [Aanvullende testlabrichtlijnen voor identiteit](m365-enterprise-test-lab-guides.md#identity)
 
-[Fase 2: Identiteit](identity-infrastructure.md)
+[Identiteitskaart](identity-roadmap-microsoft-365.md)
 
 [Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise-implementatie](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise-documentatie](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
 description: Leer het domein kiezen dat u wilt gebruiken voor het maken van Microsoft 365-groepen door e-mailadres beleidsregels te configureren met PowerShell.
-ms.openlocfilehash: a4bc5bd499652109586c30462d484a12a6cbe876
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 5ce0068f1b4562c37b2ccf2b1fb9a928b392a7ee
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662558"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686728"
 ---
 # <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Het domein kiezen dat u wilt gebruiken voor het maken van Microsoft 365-groepen
 
@@ -71,7 +71,7 @@ Stel dat u wilt bepalen in welke subdomeinen Microsoft 365-groepen worden gemaak
   New-EmailAddressPolicy -Name FacultyGroups -IncludeUnifiedGroupRecipients -EnabledEmailAddressTemplates "SMTP:@faculty.groups.contoso.com","smtp:@groups.contoso.com" -ManagedByFilter {Department -eq 'Faculty' -or EmailAddresses -like "*faculty.contoso.com*"} -Priority 2
   ```
 
-- Alle andere gebruikers terechtkomen in het domein groups.contoso.com. Gebruik deze opdracht:
+- Groepen die zijn gemaakt door iemand anders, worden gemaakt in het groups.contoso.com-domein. Gebruik deze opdracht:
     
   ```
   New-EmailAddressPolicy -Name OtherGroups -IncludeUnifiedGroupRecipients -EnabledPrimarySMTPAddressTemplate "SMTP:@groups.contoso.com" -Priority 3

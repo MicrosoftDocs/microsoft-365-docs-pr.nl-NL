@@ -9,22 +9,22 @@ ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Hoe Contoso gebruikmaakt van Identiteit als een service (IDaaS) en cloud-based verificatie voor haar werknemers en federatieve verificatie voor haar partners en klanten verstrekt.
-ms.openlocfilehash: 77c90740fd39080ccc204552bc8407aa107e354a
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
-ms.translationtype: HT
+ms.openlocfilehash: 795fb7dcb886c792c80d3bb251c9cb5774f1bf97
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42812762"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686032"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Identiteit voor Contoso Corporation
 
-Microsoft biedt een Identiteit als een service (IDaaS)aan voor zijn cloud-diensten met Azure Active Directory (Azure AD). Om Microsoft 365 Enterprise toe te passen, moest de IDaaS-oplossing van Contoso gebruikmaken van de lokale identiteitsprovider, maar wel met federatieve verificatie met hun bestaande vertrouwde derde identiteitsproviders.
+Microsoft biedt een Identiteit als een service (IDaaS)aan voor zijn cloud-diensten met Azure Active Directory (Azure AD). Ter aanneming van Microsoft 365 for Enterprise kon de IDaaS-oplossing van Contoso gebruikmaken van hun on-premises identiteitsprovider en ook federatieve authenticatie opnemen met hun bestaande, van derden vertrouwde identiteitsproviders.
 
 ## <a name="contosos-active-directory-domain-services-forest"></a>Contoso‘s Active Directory Domain Services-forest
 
@@ -55,7 +55,7 @@ Contoso besloot de infrastructuur te behouden en deze in te zetten voor klant- e
 
 Contoso wilde een lokale AD DS-forest gebruiken voor verificatie bij cloudresources van Microsoft 365. Ze besloten wachtwoord-hash-synchronisatie (PHS) toe te passen.
 
-PHS synchroniseert het lokale AD DS-forest met de Azure AD-tenant van hun Microsoft 365 Enterprise-abonnement, en kopieert gebruikers-en groepsaccounts en een gehashte versie van gebruikersaccountswachtwoorden. 
+PHS synchroniseert het on-premises AD DS-forest met de Azure AD-Tenant van hun Microsoft 365 for Enterprise-abonnement, het kopiëren van gebruikers-en groepsaccounts en een gehasheerde versie van wachtwoorden van gebruikersaccounts. 
 
 Om de doorlopende adreslijstsynchronisatie uit te voeren, heeft Contoso het Azure AD Connect-hulpprogramma geïmplementeerd op een server op zijn datacenter in Parijs. 
 
@@ -81,8 +81,8 @@ Hieronder ziet u Contoso‘s resultatenset van Voorwaardelijke toegangsbeleidsre
 
 ## <a name="see-also"></a>Zie ook
 
-[Identiteit voor Microsoft 365 Enterprise](identity-infrastructure.md)
+[Identiteitskaart voor Microsoft 365](identity-roadmap-microsoft-365.md)
 
-[Implementatiehandleiding](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
 [Testlabrichtlijnen](m365-enterprise-test-lab-guides.md)

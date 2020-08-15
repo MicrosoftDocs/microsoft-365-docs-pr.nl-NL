@@ -9,7 +9,7 @@ ms.date: 11/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
@@ -17,37 +17,37 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
-description: Gebruik deze Testlabrichtlijnen om een gesimuleerde Enterprise-testomgeving te maken voor Microsoft 365 Enterprise.
-ms.openlocfilehash: 486429bf9e1c0a88c9beb01a092f968256c1fa77
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
-ms.translationtype: HT
+description: Met deze test lab-gids maakt u een gesimuleerde Enterprise-test omgeving voor Microsoft 365 for Enterprise.
+ms.openlocfilehash: 9f4cbb300946109368759d6ec8f1120332e1ed92
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818493"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685674"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>De basisconfiguratie voor een gesimuleerde Enterprise
 
-*Deze testlabrichtlijnen kunnen worden gebruikt voor zowel Microsoft 365 Enterprise- en Office 365 Enterprise-testomgevingen.*
+*U kunt deze test lab-handleiding gebruiken voor zowel Microsoft 365 voor Enterprise als Office 365 Enterprise test omgevingen.*
 
-In dit artikel vindt u stapsgewijze instructies voor het maken van een vereenvoudigde omgeving voor Microsoft 365 Enterprise die het volgende bevat:
+In dit artikel vindt u stapsgewijze instructies voor het maken van een vereenvoudigde omgeving voor Microsoft 365 for Enterprise, waaronder:
 
 - Een proef- of betaald abonnement op Microsoft 365 E5.
 - Een vereenvoudigde organisatie die via intranet is verbonden met internet, bestaande uit drie virtuele machines op een virtueel Azure-netwerk (DC1, APP1 en CLIENT1).
  
 ![De basisconfiguratie voor een gesimuleerde Enterprise](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
 
-U kunt de resulterende omgeving gebruiken om de functies en functionaliteit van [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise) zelfstandig of met behulp van extra [Testlabrichtlijnen](m365-enterprise-test-lab-guides.md) te testen.
+U kunt de beschikbare omgeving gebruiken om de functies en functionaliteit van [Microsoft 365 te testen voor Enterprise](https://www.microsoft.com/microsoft-365/enterprise) met extra testlab- [handleidingen](m365-enterprise-test-lab-guides.md) of zelf een eigen omgeving.
 
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Ga naar de [Testlabrichtlijnen-stack van Microsoft 365](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de stack van Microsoft 365 voor Enterprise-testlabrichtlijnen.
+> Ga naar [Microsoft 365 for Enterprise test lab Guide](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) for a Visual Maps to the the the microsoft 365 for Enterprise test lab Guide.
 
 ## <a name="phase-1-create-a-simulated-intranet"></a>Fase 1: Creëer een gesimuleerd intranet
 
 In deze fase maakt u een gesimuleerd intranet in Azure-infrastructuurservices met een AD DS-domeincontroller (Active Directory Domain Services), een toepassingsserver en een clientcomputer. 
 
-U gebruikt deze computers in extra [Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md) om de hybride identiteit en andere mogelijkheden te configureren en demonstreren.
+U gebruikt deze computers in extra [Microsoft 365 voor Enterprise test lab-handleidingen voor](m365-enterprise-test-lab-guides.md) het configureren en demonstreren van de Hybrid Identity en andere mogelijkheden.
 
 ### <a name="method-1-build-your-simulated-intranet-with-an-azure-resource-manager-template"></a>Methode 1: Maak uw gesimuleerde intranet met een Azure Resource Manager-sjabloon
 
@@ -371,7 +371,7 @@ In deze fase maakt u een nieuw Microsoft 365 E5-abonnement aan dat gebruikmaakt 
 
 Maak verbinding met CLIENT1 met het CORP\Gebruiker1-account van de Azure-Portal.
 
-Als u een nieuw Office 365 E5-proefabonnement wilt maken, volgt u de instructies uit [Fase 1](lightweight-base-configuration-microsoft-365-enterprise.md#phase-1-create-your-office-365-e5-subscription) van de Testlabrichtlijnen voor eenvoudige basisconfiguratie.
+Als u een nieuw Office 365 E5-proefabonnement wilt maken, volgt u de instructies uit [Fase 1](lightweight-base-configuration-microsoft-365-enterprise.md#phase-1-create-your-microsoft-365-e5-subscription) van de Testlabrichtlijnen voor eenvoudige basisconfiguratie.
 
 Als u uw nieuwe Office 365 E5-proefabonnement wilt maken, volgt u de instructies uit [Fase 2](lightweight-base-configuration-microsoft-365-enterprise.md#phase-2-configure-your-office-365-trial-subscription) van de Testlabrichtlijnen voor eenvoudige basisconfiguratie.
 
@@ -379,7 +379,7 @@ Als u uw nieuwe Office 365 E5-proefabonnement wilt maken, volgt u de instructies
 
 Als u alleen een Office 365-testomgeving nodig hebt, kunt u hier stoppen. 
 
-Zie [Microsoft 365 Enterprise-Testlabrichtlijnen](m365-enterprise-test-lab-guides.md) voor extra Testlabrichtlijnen die van toepassing zijn op Office 365 en Microsoft 365.
+Zie [Microsoft 365 voor Enterprise test lab-handleidingen](m365-enterprise-test-lab-guides.md) voor extra test lab-gidsen die van toepassing zijn op microsoft 365 en Office 365.
 
 ### <a name="add-a-microsoft-365-e5-trial-subscription"></a>Een Microsoft 365 E5-proefabonnement toevoegen.
 
@@ -398,7 +398,7 @@ Dit is uw definitieve configuratie.
   
 ![Fase 2 van de basisconfiguratie van de gesimuleerde enterprise](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
   
-U bent nu klaar om te experimenteren met de extra functies van [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise).
+U bent nu klaar om te experimenteren met de extra functies van [Microsoft 365 for Enterprise](https://www.microsoft.com/microsoft-365/enterprise).
   
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -412,6 +412,6 @@ Verken de volgende extra sets testlabrichtlijnen:
 
 [Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise implementeren](deploy-microsoft-365-enterprise.md)
+[Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise-documentatie](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)

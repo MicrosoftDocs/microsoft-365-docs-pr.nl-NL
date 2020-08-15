@@ -1,6 +1,6 @@
 ---
-title: Functies voor bedreigingsbeveiliging implementeren in Microsoft 365
-description: Meer informatie over het implementeren van Threat Protection-Services en-functies in Microsoft 365 E5.
+title: Beveiligings bedreiging voor netwerkbeveiliging implementeren in Microsoft 365
+description: Meer informatie over het implementeren van beveiligingsfuncties voor Threat Protection en de functies voor IT-netwerken in Microsoft 365 E5.
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -14,18 +14,19 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 312df25bf4fe2b91bb60b4122378b4457b25723c
-ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
+ms.openlocfilehash: 0736151f1ceacecb888c8a3eb3dd88183cc3a060
+ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588182"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662318"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Functies voor bedreigingsbeveiliging implementeren in Microsoft 365
 
-Malware en geavanceerde cyberattacks, zoals bedreigingen met een [kwaadaardige](https://docs.microsoft.com/windows/security/threat-protection/intelligence/understanding-malware) [bedreiging](https://docs.microsoft.com/windows/security/threat-protection/intelligence/fileless-threats), zijn een gangbare gebeurtenis. Bedrijven dienen zichzelf en hun klanten te beschermen. Aanvallen via een aanval kunnen grote problemen veroorzaken voor uw organisatie, variërend van een vertrouwensrelatie met financieel Woes, Business-bedreigen en meer. Het is belangrijk om te beschermen tegen bedreigingen, maar het kan lastig zijn om te bepalen waar de tijd, inspanning en resources van uw organisatie zich richten. 
+Malware en geavanceerde cyberattacks, zoals bedreigingen met een [kwaadaardige](https://docs.microsoft.com/windows/security/threat-protection/intelligence/understanding-malware) [bedreiging](https://docs.microsoft.com/windows/security/threat-protection/intelligence/fileless-threats), zijn een gangbare gebeurtenis. Bedrijven dienen zichzelf te beschermen en hun klanten met de juiste beveiligingsfuncties voor IT-netwerken. Dit kan leiden tot grote problemen voor uw organisatie, variërend van een vertrouwensrelatie met financieel Woes, bedrijfsrisico's en meer. Het is belangrijk om te beschermen tegen bedreigingen, maar het kan lastig zijn om te bepalen waar de tijd, inspanning en resources van uw organisatie zich richten. 
 
-Microsoft-beveiligingsoplossingen zijn ingebouwd in onze producten en services. De mogelijkheden van automatisering en machine learning verlagen de belasting van uw beveiligings teams om te zorgen dat de juiste items zijn geadresseerd. En de dosering van Microsoft-beveiligingsoplossingen is ontwikkeld op triljoen punten die we elke dag in onze [intelligente beveiligings grafiek](https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph)verwerken. Microsoft 365-beveiligingsoplossingen bestaan uit [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection), waarmee signalen voor uw e-mail, gegevens, apparaten en identiteiten worden gecombineerd om een afbeelding van geavanceerde bedreigingen te schilderen tegen uw organisatie.
+Microsoft-beveiligingsoplossingen zijn ingebouwd in onze producten en services. De mogelijkheden van automatisering en machine learning verlagen de belasting van uw beveiligings teams om te zorgen dat de juiste items zijn geadresseerd. En de sterkte van de beveiligingsoplossingen voor Microsoft-netwerken is ontwikkeld op triljoen punten die elke dag in onze [intelligente beveiligings grafiek](https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph)verwerkt. Microsoft 365-beveiligingsoplossingen zijn [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection), een oplossing waarmee signalen voor e-mail, gegevens, apparaten en identiteiten worden gebruikt om een afbeelding van geavanceerde bedreigingen te schilderen tegen uw organisatie.
+
 
 Bekijk deze video voor een overzicht van het implementatieproces.
 
@@ -73,7 +74,7 @@ Om ervoor te zorgen dat uw organisatie de beste beveiliging heeft, kunt u de vol
 7. [De status controleren en acties ondernemen](deploy-threat-protection-configure.md#step-7-monitor-status-and-take-actions)
 8. [Gebruikers wegwijs maken](deploy-threat-protection-configure.md#step-8-train-users)
 
-Uw functies voor risico beveiliging kunnen parallel worden geconfigureerd, dus als u meerdere beveiligings teams verantwoordelijk hebt voor verschillende services, kunnen ze de beveiligingsfuncties van uw organisatie op hetzelfde moment configureren. In het volgende diagram ziet u het proces voor het uitvoeren van bedreigingen voor beveiliging op hoog niveau. 
+Uw functies voor beveiliging tegen bedreigingen kunnen parallel worden geconfigureerd, dus als u meerdere netwerk beveiligings teams hebt die verantwoordelijk zijn voor verschillende services, kunnen ze de beveiligingsfuncties van uw organisatie op hetzelfde moment configureren. In het volgende diagram ziet u het proces voor het uitvoeren van bedreigingen voor beveiliging op hoog niveau. 
 
 ![Proces voor de implementatie van functies voor bedreigingsbeveiliging](../media/solutions-architecture-center/deploy-threat-protection-across-m365-grid.png) 
 

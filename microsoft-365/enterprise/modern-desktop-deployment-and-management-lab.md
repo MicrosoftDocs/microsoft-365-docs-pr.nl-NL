@@ -2,31 +2,31 @@
 title: Windows en Office Deployment Lab Kit
 f1.keywords:
 - NOCSH
-ms.author: jogruszc
-author: JGruszczyk
-manager: jemed
-ms.date: 06/10/2019
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: laurawi
+ms.date: 08/10/2020
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: a52d2ef1570509150aa1b44c7d7d767287e308f1
-ms.sourcegitcommit: 020b89b0d558a866ea68d35b5170db76f6d8d74d
-ms.translationtype: HT
+ms.openlocfilehash: 751d2a04daa707049c59b9b7cabb18ca06a598d1
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45052723"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685496"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit
 
-Deze labs zijn bedoeld om u te helpen bij het plannen, testen en valideren van uw implementatie en het beheer van desktops met Windows 10 Enterprise en Microsoft 365-apps voor ondernemingen. De labs bevatten de stappen en hulpmiddelen die worden beschreven in het desktopimplementatiewiel, en omvatten Microsoft Endpoint Configuration Manager, Desktop Analytics, Office Customization Tool, OneDrive, Windows Autopilot en meer.
+Deze Labs is bedoeld om u te helpen bij het plannen, testen en valideren van uw implementatie en het beheer van desktops met Windows 10 Enterprise en Microsoft 365-apps voor Enterprise. De Labs-kap met Microsoft endpoint Configuration Manager, Desktop Analytics, Office Customization Tool, OneDrive, Windows auto pilot en meer.
 
-Deze training wordt sterk aanbevolen voor organisaties die zich voorbereiden op het einde van Windows 7, maar is ook van toepassing als u momenteel Windows 10 en Microsoft 365-apps voor ondernemingen (voorheen Office 365 ProPlus) of Office 2019 gebruikt. Als een geïsoleerde omgeving is het lab bovendien ideaal voor het verkennen van het implementatieprogramma en het testen van uw implementatie.
+Dit pakket wordt ten zeerste aanbevolen voor organisaties die Windows 8-Upgrades voorbereiden en zijn ook van toepassing als u momenteel Windows 10 gebruikt, Microsoft 365-apps voor Enterprise (voorheen Office 365 ProPlus) of Office 2019. Als een geïsoleerde omgeving is het lab bovendien ideaal voor het verkennen van het implementatieprogramma en het testen van uw implementatie.
 
 [Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
@@ -46,9 +46,8 @@ Met het lab beschikt u over een automatisch ingerichte virtuele testomgeving, in
 
 Bovendien is het lab ontwikkeld om te worden verbonden met proefversies voor: 
 
-  - Microsoft 365 E5, of
-  - Office 365 Enterprise E5
-  - Enterprise Mobility + Security
+  - Microsoft 365 E5
+  - Office 365 Enterprise E5 met Enterprise Mobility + Security (EMS)
 
 ## <a name="step-by-step-labs"></a>Stapsgewijze labs
 
@@ -57,14 +56,14 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 ### <a name="device-and-app-readiness"></a>Gereedheid van apparaten en apps
 
   - Desktop Analytics
-  - NIEUW! De nieuwe Microsoft Edge implementeren en bijwerken 
-  - NIEUW! Cloud Management Gateway (CMG) installeren en configureren 
+  - De nieuwe Microsoft Edge implementeren en bijwerken 
+  - Cloud Management Gateway (CMG) installeren en configureren 
   - Internet Explorer-modus 
   - Application Guard 
 
 ### <a name="directory-and-network-readiness"></a>Gereedheid van mappen en netwerken
 
-  - NIEUW! Windows 10 Update Delivery Optimization 
+  - Windows 10 Update Delivery Optimization 
   - Co-beheer van Configuration Manager en Microsoft Intune
   - Externe toegang (VPN)
 
@@ -110,7 +109,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
   - Microsoft 365-apps voor ondernemingen beheren met Configuration Manager
   - NIEUW! Office-updates met Configuration Manager en Intune
   
-### <a name="new-windows-virtual-desktop"></a>NIEUW! Windows Virtual Desktop
+### <a name="windows-virtual-desktop"></a>Windows Virtual Desktop
   - Windows Virtual Desktop: voorbereiden, implementeren, optimaliseren 
 
 ### <a name="download-the-windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit downloaden
@@ -120,8 +119,6 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 *Gebruik een grote bandbreedte om deze inhoud sneller te kunnen te downloaden. Houd rekening met 30-45 minuten voor automatische inrichting. De labomgeving vereist minimaal 16 GB beschikbaar geheugen en 150 GB beschikbare schijfruimte. Voor optimale prestaties wordt 32 GB beschikbaar geheugen aanbevolen. Het lab verloopt op 12 september 2020. Voor die tijd wordt een nieuwe versie gepubliceerd.*
 
 ## <a name="additional-guidance"></a>Aanvullende richtlijnen
-
-  - [Desktop Deployment Center](https://www.aka.ms/howtoshift) (Implementatiecentrum voor desktops)
 
   - [Desktop Deployment series videos from Microsoft Mechanics](https://www.aka.ms/watchhowtoshift) (Desktopimplementatie-video's van Microsoft Mechanics)
 
