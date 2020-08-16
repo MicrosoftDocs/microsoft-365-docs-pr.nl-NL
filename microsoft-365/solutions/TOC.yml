@@ -105,6 +105,42 @@
               href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: Casestudy voor multinationale bedrijven
               href: 'https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Samenwerkingsbeheer
+          items:
+            - name: Overzicht
+              href: collaboration-governance-overview.md
+            - name: Beheer eerst
+              href: collaboration-governance-first.md
+            - name: Groepen met SharePoint
+              href: groups-sharepoint-governance.md
+            - name: 'Groepen, SharePoint en Teams'
+              href: groups-sharepoint-teams-governance.md
+            - name: Verwijzing naar service-interacties
+              href: groups-services-interactions.md
+            - name: Access
+              href: groups-teams-access-governance.md
+            - name: Compliance
+              href: groups-teams-compliance-governance.md
+            - name: Communicatie
+              href: groups-teams-communication-governance.md
+            - name: Organisatie en levenscyclus
+              items:
+                - name: Organisatie- en levenscyclusbeheer
+                  href: plan-organization-lifecycle-governance.md
+                - name: Het aanmaken van groepen beheren
+                  href: manage-creation-of-groups.md
+                - name: Beleid voor naamgeving
+                  href: groups-naming-policy.md
+                - name: Vervalbeleid
+                  href: microsoft-365-groups-expiration-policy.md
+                - name: Gasttoegang per groep
+                  href: per-group-guest-access.md
+                - name: Beleid voor Verzenden als
+                  href: allow-members-to-send-as-or-send-on-behalf-of-group.md
+                - name: Domein voor het aanmaken van groepen
+                  href: choose-domain-to-create-groups.md
+                - name: Opties voor Einde van levenscyclus
+                  href: end-life-cycle-groups-teams-sites-yammer.md
         - name: Samenwerken aan bestanden in SharePoint met Microsoft 365
           href: 'https://docs.microsoft.com/sharepoint/deploy-file-collaboration?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Een intelligent SharePoint-intranet plannen

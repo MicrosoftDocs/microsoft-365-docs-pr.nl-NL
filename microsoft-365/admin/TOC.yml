@@ -133,20 +133,8 @@
               href: create-groups/add-or-remove-members-from-groups.md
             - name: Een verwijderde groep herstellen
               href: create-groups/restore-deleted-group.md
-            - name: Plannen voor beheer van groepen
-              href: create-groups/plan-for-groups-governance.md
-            - name: Maken van groepen beheren
-              href: create-groups/manage-creation-of-groups.md
-            - name: Domein voor groepen kiezen
-              href: create-groups/choose-domain-to-create-groups.md
-            - name: Overzicht van beleid voor naamgeving van groepen
-              href: create-groups/groups-naming-policy.md
-            - name: Leden toestaan e-mail te verzenden naar en vanuit groepen
-              href: create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md
             - name: Gasttoegang tot groepen beheren
               href: create-groups/manage-guest-access-in-groups.md
-            - name: Vertrouwelijkheidslabels gebruiken met groepen
-              href: ../compliance/sensitivity-labels-teams-groups-sites.md
     - name: E-mail en agenda's beheren
       href: email/index.yml
       items:
