@@ -22,13 +22,13 @@ ms.custom:
 search.appverid:
 - MET150
 description: Handleiding over het toewijzen van licenties aan gebruikers.
-ms.date: 07/01/2020
-ms.openlocfilehash: 648a3433bf5c2bd9bb96abb90335f56ee4fb6bee
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.date: 08/14/2020
+ms.openlocfilehash: e1f28107f7774fa4eccbecb3882cbd002a6eea1a
+ms.sourcegitcommit: 919b5d0f33b41b4beaca5fbb06e1c75d65027b7e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015945"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46757555"
 ---
 # <a name="assign-licenses-to-users"></a>Licenties aan gebruikers toewijzen
 
@@ -160,6 +160,25 @@ Wanneer u de pagina **Actieve gebruikers** gebruikt om licenties toe te wijzen, 
 5. Selecteer onderaan het deelvenster **Productlicenties** de opties **Opslaan** \> **Sluiten** \> **Sluiten**.
 
 ::: moniker-end
+
+## <a name="assign-a-license-to-a-guest-user"></a>Een licentie toewijzen aan een gastgebruiker
+
+U kunt gastgebruikers uitnodigen om samen te werken met uw organisatie in Azure Active Directory-Beheercentrum. Raadpleeg [Wat is gastgebruikerstoegang in Azure Active Directory B2B?](https://docs.microsoft.com/azure/active-directory/external-identities/what-is-b2b) voor meer informatie over gastgebruikers. Raadpleeg [Snelstart: Gastgebruikers toevoegen aan uw adreslijst in de Azure-portal](https://docs.microsoft.com/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal) als u geen gastgebruikers hebt.
+
+> [!IMPORTANT]
+> U moet een globale beheerder zijn om deze stappen uit te voeren.
+
+1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2067268" target="_blank">Azure Active Directory-beheercentrum</a>
+2. Kies **Gebruikers** in het navigatiedeelvenster.
+3. Kies **Filters toevoegen** op de pagina **Gebruikers | Alle gebruikers (Preview)**.
+4. Kies **Gebruikerstype** in het menu **Een veld kiezen** en vervolgens **Toepassen**.
+5. Kies **Gast** in het volgende menu.
+6. Kies in de lijst met resultaten de gebruiker die een licentie nodig heeft.
+7. Kies **Licenties** onder **Beheren**.
+8. Kies **Opdrachten**.
+9. Kies het product waarvoor u een licentie wilt toewijzen op de pagina **Licentietoewijzingen bijwerken**.
+10. Schakel aan de rechterkant de selectievakjes uit voor de services waarvoor u wilt dat de gastgebruiker geen toegang heeft.
+11. Kies **Opslaan**.
 
 ## <a name="next-steps"></a>Volgende stappen
 

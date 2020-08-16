@@ -16,18 +16,18 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: 'Status van Microsoft 365-service '
-ms.openlocfilehash: 26a9983528072054606cc399ad871d0f99fd22fb
-ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
+ms.openlocfilehash: f7bb310452f841c04eabdd683d3ec82b4ad2b57a
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43583355"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686600"
 ---
 # <a name="microsoft-365-network-health-status"></a>Status van Microsoft 365-netwerk
 
 Vanwege de toegenomen vraag naar de cloudservices van Microsoft tijdens de COVID-19-crisis, bieden we informatie over de gezondheid van het wereldwijde netwerk van Microsoft. Ook verschaffen we informatie over problemen met de netwerkkwaliteit die onze klanten mogelijk ondervinden, maar die we niet onder controle hebben.
 
-Deze informatie omvat netwerkproblemen die van invloed zijn op al onze software als serviceaanbiedingen, inclusief Office 365.
+Deze informatie omvat netwerkproblemen die van invloed zijn op al onze Software als service-aanbiedingen, inclusief Microsoft 365.
 
 _Er kunnen vertragingen optreden in de updates op deze pagina. We werken deze handmatig bij terwijl we een meer geautomatiseerde oplossing bouwen._
 
@@ -43,6 +43,6 @@ Wanneer we belangrijke problemen in het wereldwijde netwerk van Microsoft vastst
 
 Gebruik deze bronnen om uw netwerkgebruik voor Microsoft-services te verbeteren.
 
-- [Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel)
-- [Office 365-principes van netwerkconnectiviteit](https://aka.ms/pnc)
+- [Microsoft 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](microsoft-365-vpn-split-tunnel.md)
+- [Microsoft 365-principes van netwerkconnectiviteit](https://aka.ms/pnc)
 - [Extern werken met Azure-netwerkservices](https://docs.microsoft.com/azure/networking/working-remotely-support)
