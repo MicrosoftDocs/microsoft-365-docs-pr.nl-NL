@@ -36,7 +36,7 @@
               href: dns-records-for-office-365-dod.md
             - name: DNS-records voor Office 365 GCC High
               href: dns-records-for-office-365-gcc-high.md
-        - name: Snelstartgids voor Netwerk voor contentlevering (CDN)
+        - name: Snelstartgids voor CDN (Content Delivery Network)
           href: office-365-cdn-quickstart.md
         - name: CDN gebruiken met SharePoint Online
           href: use-microsoft-365-cdn-with-spo.md
