@@ -28,8 +28,10 @@
           href: service-description/device-services.md
         - name: Apparaatconfiguratie
           href: service-description/device-policies.md
-        - name: Beveiliging
+        - name: Beveiligingstechnologieën
           href: service-description/security.md
+        - name: Beveiligingsoperations
+          href: service-description/security-operations.md
         - name: Updates
           href: service-description/updates.md
         - name: Ondersteuning
