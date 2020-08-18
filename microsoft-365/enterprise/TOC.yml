@@ -30,7 +30,15 @@
               href: microsoft-365-ip-web-service.md
             - name: Aanvullende eindpunten die niet zijn opgenomen in de webservice
               href: additional-office365-ip-addresses-and-urls.md
-        - name: Office 365 CDN gebruiken met SharePoint Online
+            - name: Aanvullende vereisten voor netwerkbeveiliging voor Office 365 GCC High en DOD
+              href: additional-network-security-requirements-for-office-365-gcchigh-and-dod.md
+            - name: DNS-records voor Office 365 DoD
+              href: dns-records-for-office-365-dod.md
+            - name: DNS-records voor Office 365 GCC High
+              href: dns-records-for-office-365-gcc-high.md
+        - name: Snelstartgids voor Netwerk voor contentlevering (CDN)
+          href: office-365-cdn-quickstart.md
+        - name: CDN gebruiken met SharePoint Online
           href: use-microsoft-365-cdn-with-spo.md
         - name: De connectiviteit voor externe gebruikers optimaliseren
           items:
@@ -45,6 +53,8 @@
         - name: ExpressRoute voor Office 365
           href: azure-expressroute.md
           items:
+            - name: ExpressRoute implementeren
+              href: implementing-expressroute.md
             - name: Routeren met ExpressRoute voor Office 365
               href: routing-with-expressroute.md
     - name: Beheren
@@ -53,6 +63,8 @@
           items:
             - name: Microsoft 365-eindpunten
               href: microsoft-365-endpoints.md
+            - name: Office 365-eindpunten beheren
+              href: managing-office-365-endpoints.md
             - name: Wereldwijde eindpunten
               href: urls-and-ip-address-ranges.md
             - name: Eindpunten voor U.S. Government DoD
@@ -395,6 +407,8 @@
   items:
     - name: Roadmap
       href: client-server-software-roadmap-microsoft-365.md
+    - name: 'Architectuurmodellen voor SharePoint, Exchange, Skype voor Bedrijven en Lync'
+      href: architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md
     - name: Abonnement
       items:
         - name: Plan uw upgrade

@@ -6,8 +6,6 @@
       href: compliance-quick-tasks.md
     - name: Wat is er nieuw in het compliancecentrum?
       href: whats-new.md
-    - name: Recente updates voor compliance-inhoud
-      href: recently-updated-topics-mcc.md
     - name: Microsoft 365-compliancecentrum
       href: microsoft-365-compliance-center.md
     - name: Microsoft 365-oplossingscatalogus
@@ -341,13 +339,13 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=867039'
     - name: Records Management
       items:
-        - name: Records Management
+        - name: Meer informatie over Records Management
           href: records-management.md
-        - name: Meer informatie over records
-          href: records.md
+        - name: Aan de slag met Records Management
+          href: get-started-with-records-management.md
         - name: Records declareren
           href: declare-records.md
-        - name: Versiebeheer van records
+        - name: Versiebeheer van records gebruiken
           href: record-versioning.md
 - name: eDiscovery beheren
   items:
