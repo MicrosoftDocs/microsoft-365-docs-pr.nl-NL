@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Meer informatie over hoe u kunt bepalen welke gebruikers Microsoft 365-groepen kunnen maken.
-ms.openlocfilehash: 49fdaa98d0b88b306b9fd3d84e52bcf52d9fdf7f
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: f2b2837a762398bb065d36c7f849b2fdcbbb5816
+ms.sourcegitcommit: 6fb2a1c404ea3c3573b0f7803bf17459a9387891
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662570"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788882"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Beheren wie Microsoft 365-groepen kunnen maken
 
@@ -163,7 +163,7 @@ Als u in de toekomst de gebruikte beveiligingsgroep wilt wijzigen, kunt u het sc
 
 Als u de beperking voor het maken van een groep wilt uitschakelen en alle gebruikers de mogelijkheid wilt bieden om groepen te maken, stelt u $GroupName in op ' ' en ' $AllowGroupCreation ' en voert u het script opnieuw uit.
     
-## <a name="step-4-verify-that-it-works"></a>Stap 4: Controleer of dit werkt
+## <a name="step-3-verify-that-it-works"></a>Stap 3: controleren of het werkt
 
 Het kan dertig minuten of langer duren voordat de wijzigingen zijn doorgevoerd. U kunt de nieuwe instellingen als volgt controleren:
 

@@ -22,33 +22,32 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Meer informatie over het beveiligen van Windows 10-pc's nadat u Microsoft 365 Business Premium hebt ingesteld.
-ms.openlocfilehash: f18447db445bf051a44b99053d41e10f3ed34fc3
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: Meer informatie over het beveiligen van Windows 10-Pc's nadat u Microsoft 365 Business Premium hebt ingesteld.
+ms.openlocfilehash: a70fcd330fe6ef330fac08512aded4d8913313d5
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785794"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778379"
 ---
 # <a name="secure-windows-10-computers"></a>Windows 10-computers beveiligen
 
 Dit artikel is van toepassing op Microsoft 365 Business Premium.
 
-Nadat u Microsoft 365 Business Premium hebt [ingesteld,](set-up.md) is het tijd om de Windows 10-computers in uw organisatie te beschermen tegen diefstal en schadelijke bedreigingen zoals virussen en malware.
-Bekijk deze video voor een overzicht van hoe u beleid instelt om uw Windows 10-computers te beveiligen.<br><br>
+Nadat u Microsoft 365 Business Premium hebt [ingesteld](set-up.md) , is het tijd om de Windows 10-computers in uw organisatie te beschermen tegen diefstal, en kwaadaardige bedreigingen als virussen en malware.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4kcAF] 
+## <a name="to-secure-your-windows-10-pcs"></a>Uw Windows 10-Pc's beveiligen
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+1. Meld u aan bij [Microsoft 365-beheercentrum](https://admin.microsoft.com) met uw globale-beheerdersreferenties. 
+2. Selecteer in het navigatievenster aan de linkerkant de optie **installeren** en kies vervolgens onder **Aanmelden en beveiliging** **de optie Beveilig uw Windows 10-computers**. Kies **weergave** om aan de slag te gaan.
+3. Op de pagina **een Windows 10-computer beveiligen** leest u alle informatie om te begrijpen wat u aanschakelt en wat de gevolgen voor de gebruiker zijn.
 
-## <a name="to-secure-your-windows-10-pcs"></a>Uw Windows 10-pc's beveiligen
+    Kies boven aan de pagina de optie **aan de slag**.
 
-1. Meld u aan bij [microsoft 365-beheercentrum](https://admin.microsoft.com) met behulp van uw globale beheerdersreferenties. 
-2. Selecteer aan de linkerkant **Setup** en kies onder Aanmelden en beveiliging **de optie Uw Windows 10-computers beveiligen.** **Sign-in and security** Kies **Weergave** om aan de slag te gaan.
-3. Lees op de pagina **Secure your Windows 10-computers** alle informatie om te begrijpen wat u inschakelt en wat de impact van de gebruiker is.
+4. Selecteer in het deelvenster **uw Windows 10-computer beveiligen** de opties die u wilt inschakelen. Zie [Windows 10-apparaten beveiligen](secure-windows-10-devices.md)voor meer informatie over de instellingen. 
+    
+    Voor de meeste organisaties bieden deze opties een goed beveiligingsniveau, maar als uw organisatie meer ingewikkelde beveiligingsbehoeften heeft, kunt u ook vooraf gedefinieerde beveiligings lijnen gebruiken om uw Windows 10-apparaten te beveiligen. Zie [beveiligings basislijnen voor Windows 10-apparaten](https://docs.microsoft.com/mem/intune/protect/security-baselines)voor meer informatie.   
 
-    Kies boven aan de pagina de optie **Aan de slag**.
+1. Kies **instellingen toepassen**.
 
-4. Selecteer in de Windows 10-instelling de opties die u wilt inschakelen. Zie [Windows 10-apparaten beveiligen](secure-windows-10-devices.md)voor meer informatie over de instellingen. 
-5. Kies naar wie in uw organisatie het beleid wilt toepassen en kies **wijzigingen opslaan.**
-
+    Deze instellingen zijn van toepassing op alle gebruikers in uw organisatie. Zie [instellingen voor apparaatinstellingen voor Windows 10-Pc's instellen](protection-settings-for-windows-10-pcs.md)voor informatie over het instellen van verschillende beleidsregels voor verschillende beveiligingsgroepen.

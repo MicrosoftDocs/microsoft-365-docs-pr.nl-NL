@@ -20,18 +20,22 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie lezen over spam meldingen voor eindgebruikers voor berichten in quarantaine in Exchange Online Protection (EOP).
-ms.openlocfilehash: b196a9e11d54d9d86acc991ba877279f1fa3d115
-ms.sourcegitcommit: 51f040a4edb8dd52521a5d7b0f7a975986a1af10
+ms.openlocfilehash: 2786c90f6f5fb66cbb96b0375dacf7793894f72e
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46608297"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778502"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Gebruik spam meldingen van gebruikers om berichten in quarantaine vrij te geven en te rapporteren
 
 In Microsoft 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken worden potentieel gevaarlijke of ongewenste berichten in quarantaine geplaatst. Zie voor meer informatie [quarantaine berichten in EOP](quarantine-email-messages.md).
 
 Standaard zijn meldingen voor spam van eindgebruikers uitgeschakeld in antispambeleid. Wanneer een beheerder [meldingen voor spam van eindgebruikers](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)uitschakelt, ontvangen geadresseerden (inclusief gedeelde postvakken met automatisch toewijzen ingeschakeld) periodieke meldingen over hun berichten die zijn gequarantined als spam, bulk-e-mail, of (vanaf april 2020) phishing.
+
+Voor gedeelde postvakken worden meldingen voor spam van eindgebruikers alleen ondersteund voor gebruikers aan wie de machtiging machtiging fullaccess is verleend voor het gedeelde Postvak. Zie voor meer informatie [gedeeld postvak delegering bewerken](https://docs.microsoft.com/Exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation).
+
+Spam melding voor eindgebruikers wordt niet ondersteund voor groepen.
 
 > [!NOTE]
 > Berichten die zijn gequarantined als phishing van hoge betrouwbaarheid, malware of via e-mail stroom regels (ook wel bekend als transportregels), zijn alleen beschikbaar voor beheerders. Zie [Berichten en bestanden in quarantaine beheren als EOP-beheerder](manage-quarantined-messages-and-files.md).
