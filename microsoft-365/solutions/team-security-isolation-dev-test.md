@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 08/14/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.collection:
 - remotework
 ms.custom: ''
 description: Configureer de beveiliging en infrastructuur waardoor uw werknemers altijd en overal op afstand kunnen werken.
-ms.openlocfilehash: c8d56d3dd6e2c46db6ef1938dee8383b56e8966c
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 62361126ad0b843fd909b98807eeb186f13e75bb
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522251"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778335"
 ---
 # <a name="configure-a-team-with-security-isolation-in-a-devtest-environment"></a>Een team configureren met beveiligingsisolatie in een ontwikkel-/testomgeving
 
@@ -33,15 +33,15 @@ Gebruik deze ontwikkel-/testomgeving om te experimenteren en instellingen af te 
   
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: uw Microsoft 365 Enterprise-testomgeving uitbouwen
 
-Als u alleen gevoelige en zeer vertrouwelijke teams op een eenvoudige manier wilt testen met de minimale vereisten, volgt u de instructies in [Lichtgewicht basisconfiguratie](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise).
+Als u alleen gevoelige en zeer vertrouwelijke teams op een eenvoudige manier wilt testen met de minimale vereisten, volgt u de instructies in [Lichtgewicht basisconfiguratie](../enterprise/lightweight-base-configuration-microsoft-365-enterprise.md).
 
-Als u gevoelige en zeer vertrouwelijke teams in een gesimuleerde onderneming wilt testen, volgt u de instructies in [Wachtwoord-hash-synchronisatie](https://docs.microsoft.com/microsoft-365/enterprise/password-hash-sync-m365-ent-test-environment).
+Als u gevoelige en zeer vertrouwelijke teams in een gesimuleerde onderneming wilt testen, volgt u de instructies in [Wachtwoord-hash-synchronisatie](../enterprise/password-hash-sync-m365-ent-test-environment.md).
 
 >[!Note]
 >Voor het testen van een team met beveiligingsisolatie is de testomgeving van een gesimuleerde onderneming niet nodig. Deze omgeving bevat een gesimuleerd intranet dat verbonden is met internet en adreslijstsynchronisatie van een AD DS-forest (Active Directory Domain Services). Dit wordt hier als optie gegeven, zodat u een team met beveiligingsisolatie kunt testen en ermee kunt experimenteren in een omgeving die een standaardorganisatie voorstelt.
 >
     
-## <a name="phase-2-create-and-configure-your-azure-active-directory-ad-group-and-users"></a>Fase 2: uw Microsoft Azure AD-groep (Active Directory) en -gebruikers maken en configureren
+## <a name="phase-2-create-and-configure-your-azure-active-directory-azure-ad-group-and-users"></a>Fase 2: uw Microsoft Azure AD-groep (Active Directory) en -gebruikers maken en configureren
 
 In deze fase maakt en configureert u de Microsoft Azure AD-groep en -gebruikers voor uw fictieve organisatie.
   
@@ -63,7 +63,7 @@ Maak eerst een beveiligingsgroep met de Azure Portal.
       
 5. Klik op **Maken** en sluit vervolgens de blade**Groep**.
     
-Configureer vervolgens automatische licentie zodat leden van de nieuwe **C-Suite** automatisch een Microsoft 365 E5-licentie krijgen toegewezen.
+Configureer vervolgens automatische licentieverlening, zodat leden van de nieuwe **C-Suite** automatisch een Microsoft 365 E5-licentie krijgen toegewezen.
   
 1. Klik in de Microsoft Azure-portal op **licenties voor Azure Active Directory > alle producten**.
     
@@ -77,7 +77,7 @@ Configureer vervolgens automatische licentie zodat leden van de nieuwe **C-Suite
     
 6. Sluit het tabblad Microsoft Azure-portal in uw browser.
     
-Maak nu [verbinding met de Windows PowerShell voor Graph-module van Microsoft Azure Active Directory](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Maak nu [verbinding met de Windows PowerShell voor Graph-module van Microsoft Azure Active Directory](../enterprise/connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
   
 Vul de naam van uw organisatie, uw locatie en een gemeenschappelijk wachtwoord in en voer vervolgens deze opdrachten uit in de opdrachtprompt van Windows PowerShell of de Integrated Scripting Environment (ISE) om nieuwe gebruikersaccounts te maken en toe te voegen aan de groep C-Suite:
   
@@ -115,7 +115,7 @@ Volg deze stappen om te controleren of de licentieverlening op groepsbasis corre
 
 In deze fase maakt en configureert u een team met beveiligingsisolatie voor leden van het senior management voor het samenwerken aan de bedrijfsstrategie.
 
-Schakel eerst gevoeligheidslabels in om de inhoud van Microsoft Teams, Office 365-groepen en SharePoint-sites te beveiligen voordat u verder gaat met de stappen in [dit artikel](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Schakel eerst gevoeligheidslabels in om de inhoud van Microsoft Teams, Office 365-groepen en SharePoint-sites te beveiligen voordat u verder gaat met de stappen in [dit artikel](../compliance/sensitivity-labels-teams-groups-sites.md).
 
 Maak nu het team:
 
@@ -126,9 +126,15 @@ Maak nu het team:
 5. Klik onder **privacy** op **persoonlijk**.
 6. Typ **Bedrijfsstrategie** en klik op **Maken** > **Sluiten**.
 
+Beperk vervolgens het creëren van privékanalen tot eigenaren van de Bedrijfsstrategiegroep.
+
+1. In het team klikt u op **Meer opties**en klikt u vervolgens op **Team beheren**.
+2. Vouw op het tabblad **Instellingen** de optie **Machtigingen voor leden** uit.
+3. Schakel het selectievakje **Leden toestaan privékanalen te maken** uit.
+
 U moet nu een gevoeligheidslabel configureren met de volgende instellingen:
 
-- De naam van het label is Bedrijfsstrategie
+- De naam is Bedrijfsstrategie
 - Versleuteling is ingeschakeld.
 - De groep Bedrijfsstrategie heeft cocreatie-machtigingen
 
@@ -199,10 +205,6 @@ Hier is de resulterende configuratie voor het bedrijfsstrategieteam.
 
 ![Configuratie voor het geïsoleerde bedrijfsstrategieteam.](../media/team-security-isolation-dev-test/team-security-isolation-dev-test-config.png)
 
-Leden van de groep Bedrijfsstrategie kunnen het gevoeligheidslabel Bedrijfsstrategie toewijzen aan bestanden in het team. Hier volgt een voorbeeld.
-
-![Voorbeeld van een bestand waarop het gevoeligheidslabel Bedrijfsstrategie is toegepast](../media/team-security-isolation-dev-test/team-security-isolation-dev-test-config-example.png)
- 
 ## <a name="next-step"></a>Volgende stap
 
-Wanneer u klaar bent voor productie-implementatie, raadpleegt u [Een team configureren met beveiligingsisolatie](secure-teams-security-isolation.md) voor gedetailleerde informatie over de configuratie.
+Als u klaar bent voor de productie-implementatie, raadpleegt u deze [configuratie-instructies](secure-teams-security-isolation.md).
