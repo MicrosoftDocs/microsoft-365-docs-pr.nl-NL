@@ -17,21 +17,22 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: d0024282276e0c67c68a802cf439e90824ec1962
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 90decdbcf3e0a4d767fc57b02259352cd11eaee2
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649011"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797908"
 ---
 # <a name="deviceregistryevents"></a>DeviceRegistryEvents
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-
-
 De `DeviceRegistryEvents` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over het maken en bewerken van registervermeldingen. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
+
+>[!TIP]
+> Voor gedetailleerde informatie over de typen gebeurtenissen ( `ActionType` waarden) die door een tabel worden ondersteund, gebruikt u de [ingebouwde schema verwijzing](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) die beschikbaar is in het Beveiligingscentrum.
 
 Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
 
@@ -40,7 +41,7 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 | `Timestamp` | tijd | De datum en tijd waarop de gebeurtenis is vastgelegd |
 | `DeviceId` | tekenreeks | Unieke id voor de computer in de service |
 | `DeviceName` | tekenreeks | FQDN-naam (Fully Qualified Domain Name) van de computer |
-| `ActionType` | tekenreeks | Type activiteit waarmee de gebeurtenis wordt geactiveerd |
+| `ActionType` | tekenreeks | Type activiteit waarmee de gebeurtenis wordt geactiveerd. Zie de [verwijzingen naar het portal schema](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) voor Details |
 | `RegistryKey` | tekenreeks | Registersleutel waarop de opgenomen actie is toegepast |
 | `RegistryValueType` | tekenreeks | Gegevenstype, zoals binair of tekenreeks, van de registerwaarde waarop de opgenomen actie is toegepast |
 | `RegistryValueName` | tekenreeks | Naam van de registerwaarde waarop de opgenomen actie is toegepast |
@@ -70,6 +71,6 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
+- [Opsporen op apparaten en in e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

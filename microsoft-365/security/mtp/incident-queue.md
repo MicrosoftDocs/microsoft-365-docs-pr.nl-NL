@@ -1,6 +1,6 @@
 ---
-title: Prioriteit geven aan incidenten in Microsoft Threat Protection
-description: Meer informatie over het prioriteren van incidenten vanuit de wachtrij voor incidenten in Microsoft Threat Protection
+title: Incidenten prioriteren in Microsoft Threat Protection
+description: Meer informatie over het instellen van een prioriteit aan de incidenten wachtrij in Microsoft Threat Protection
 keywords: incident, wachtrij, overzicht, apparaten, identiteiten, gebruikers, postvak, e-mail, incidenten
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,78 +19,76 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d827484a440b291bccd45b58e977fbcb280680f2
-ms.sourcegitcommit: 94f2f8e3e6bc3946d8b3cf798b3eb77a49ffd12a
+ms.openlocfilehash: a08ff27d6d33317df9bd4bf61c0c2ee4cf0ee14e
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45148134"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797756"
 ---
-# <a name="prioritize-incidents-in-microsoft-threat-protection"></a>Prioriteit geven aan incidenten in Microsoft Threat Protection
+# <a name="prioritize-incidents-in-microsoft-threat-protection"></a>Incidenten prioriteren in Microsoft Threat Protection
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
 
 
-Microsoft Threat Protection past correlatieanalyses toe en verzamelt alle gerelateerde waarschuwingen en onderzoeken van verschillende producten in één incident. Microsoft Threat Protection activeert ook unieke waarschuwingen over activiteiten die alleen als kwaadaardig kunnen worden geïdentificeerd, gezien de end-to-end zichtbaarheid die Microsoft Threat Protection heeft over het hele landgoed en een reeks producten. Door dit te doen, Microsoft Threat Protection vertelt de bredere aanval verhaal, waardoor een security operations analist te begrijpen en omgaan met complexe bedreigingen in de hele organisatie.
+Microsoft Threat Protection past correlatie analyses toe en voegt alle bijbehorende waarschuwingen en onderzoek van verschillende producten samen tot één voorval. Microsoft Threat Protection zorgt ook voor unieke meldingen over activiteiten die alleen als schadelijk kunnen worden geïdentificeerd aan de end-to-end zichtbaarheid van Microsoft Threat Protection voor het hele erfgoed en de suite met producten. Op deze manier beschermt Microsoft Threat Protection het bredere verhaal van een verhaal, waardoor een beveiligings analist de analist begrijpt en begrijpt met ingewikkelde bedreigingen binnen de organisatie.
 
 
-In **de wachtrij Incidenten** wordt een verzameling incidenten weergegeven die zijn gemarkeerd vanaf verschillende apparaten, gebruikers en postvakken. Het helpt u bij het sorteren van incidenten om prioriteit te geven en een weloverwogen beslissing over cyberbeveiliging te creëren.
+In de **wachtrij incidenten** wordt een verzameling incidenten weergegeven die zijn gemarkeerd voor alle apparaten, gebruikers en postvakken. Met deze functie kunt u een weloverwogen Cyber Security-antwoord beslissing stellen en een weloverwogen antwoord beslissing stellen.
 
 
-![Afbeelding van incidentenwachtrij](../../media/incidents-queue.png) 
+![Afbeelding van een wachtrij voor incidenten](../../media/incidents-queue.png) 
 
-Standaard wordt in de wachtrij in het Microsoft 365-beveiligingscentrum incidenten weergegeven die in de afgelopen 30 dagen zijn gezien, waarbij het meest recente incident bovenaan de lijst wordt weergegeven, zodat u eerst de meest recente incidenten zien.
+Standaard worden in de wachtrij in het Microsoft 365-Beveiligingscentrum de incidenten weergegeven die in de afgelopen 30 dagen worden weergegeven, met het meest recente incident dat bovenaan de lijst wordt weergegeven, zodat u eerst de meest recente aanvragen kunt zien.
 
-De incidentwachtrij stelt aanpasbare kolommen bloot die u inzicht geven in verschillende kenmerken van het incident of de opgenomen entiteiten, zodat u een weloverwogen beslissing nemen over prioritering van incidenten die moeten worden verwerkt.
+In de wachtrij voor incidenten worden aanpasbare kolommen gemaakt waarmee u inzicht krijgt in verschillende kenmerken van het incident of de opgenomen entiteiten, zodat u een weloverwogen beslissing moet nemen over de prioriteit van incidenten.
 
-Voor extra zichtbaarheid in één oogopslag genereert automatische incidentnaamgeving, die momenteel in openbare preview is, incidentnamen op basis van waarschuwingskenmerken, zoals het aantal getroffen eindpunten, de getroffen gebruikers, detectiebronnen of categorieën. Hierdoor u snel inzicht krijgen in de omvang van het incident.
+Voor meer inzicht in één oogopslag worden namen van geadresseerden automatisch de naam van een incident gegenereerd op basis van waarschuwings kenmerken, zoals het aantal desbetreffende eindpunten, gebruikers die worden getroffen, detectie bronnen of categorieën. Zo kunt u snel inzicht krijgen in de reikwijdte van het incident.
 
-Bijvoorbeeld: *Multi-stage incident op meerdere eindpunten gerapporteerd door meerdere bronnen.*
+Voorbeeld: een *incident van meerdere stappen op meerdere eindpunten, gerapporteerd door meerdere bronnen.*
 
 > [!NOTE]
-> Incidenten die vóór de uitrol van automatische incidentnaamgeving bestonden, worden niet gewijzigd.
+> Voor incidenten die bestonden vóór de implementatie van de naam van het automatische incident, is de naam niet gewijzigd.
 
-Meer informatie over [het inschakelen van voorbeeldfuncties](preview.md#turn-on-preview-features).
-
-De incidentwachtrij stelt ook meerdere filteropties bloot, waarmee u, wanneer deze wordt toegepast, kiezen om een breed onderzoek uit te voeren van alle bestaande incidenten in uw omgeving, of besluit zich te concentreren op een specifiek scenario of bedreiging. Het toepassen van filters op de incidentwachtrij kan helpen bepalen welk incident onmiddellijke aandacht vereist. 
+In de wachtrij voor incidenten worden ook meerdere filteropties getoond die u kunt gebruiken om ervoor te zorgen dat al uw bestaande incidenten in uw omgeving meerdere keren worden opruimen of dat u zich kunt richten op een specifiek scenario of bedreiging. Door filters toe te passen op de incident wachtrij, kunt u bepalen welk incident directe aandacht vereist. 
 
 ## <a name="available-filters"></a>Beschikbare filters
 
 ### <a name="status"></a>Status
-U ervoor kiezen om de lijst met weergegeven incidenten te beperken op basis van hun status om te zien welke incidenten actief of opgelost zijn.
+U kunt ervoor kiezen de lijst te beperken van de namen die worden weergegeven op basis van hun status, zodat u kunt zien welke gebeurtenissen actief zijn of worden opgelost.
 
 ### <a name="severity"></a>Ernst
-De ernst van een incident is indicatief voor de impact die het kan hebben in uw activa. Hoe hoger de ernst, hoe groter de impact en vereist meestal de meest directe aandacht. 
+De ernst van een incident is van invloed op de invloed die dit kan hebben op uw activa. Hoe hoger de ernst, hoe groter de impact en is meestal de enige directe aandacht. 
 
 ### <a name="assigned-to-owner"></a>Toegewezen aan (eigenaar)
-U ervoor kiezen om de lijst te filteren door toegewezen te selecteren aan iedereen of degenen die aan u zijn toegewezen.
+Als u de lijst wilt filteren, selecteert u de gewenste optie voor iedereen of degene die aan u is toegewezen.
 
-### <a name="multiple-alerts"></a>Meerdere waarschuwingen 
-Filter alleen incidenten met meer dan één waarschuwing. Dit kan een indicatie zijn voor een aanval die complexer is of vorderde in de kill chain. 
+### <a name="multiple-alerts"></a>Meerdere meldingen 
+Filteren om alleen aanvragen weer te geven die meer dan één waarschuwing bevatten. Dit kan een aanwijzing zijn voor een aanval met een complexere of een afgang van de werk keten. 
 
 
 ### <a name="multiple-service-sources"></a>Meerdere servicebronnen 
-Filter alleen om incidenten te zien die waarschuwingen uit verschillende bronnen bevatten (Microsoft Defender ATP, Microsoft Cloud App Security, Azure ATP, Office 365 ATP)
-### <a name="service-sources"></a>Servicebronnen
-Door een specifieke bron te kiezen, u zich richten op incidenten die ten minste één waarschuwing van die gekozen bron bevatten. 
+Filteren om alleen incidenten weer te geven die waarschuwingen van verschillende bronnen bevatten (Microsoft Defender ATP, beveiliging van Microsoft Cloud app, Azure ATP, Office 365 ATP)
+### <a name="service-sources"></a>Service bronnen
+Als u een specifieke bron kiest, kunt u zich richten op incidenten met minstens één waarschuwing van de gekozen bron. 
 
-### <a name="multiple-categories"></a>Meerdere rubrieken 
-U ervoor kiezen om alleen incidenten te zien die zijn toegewezen aan meerdere categorieën van de kill chain en mogelijk meer schade kunnen veroorzaken. 
+### <a name="multiple-categories"></a>Meerdere categorieën 
+U kunt ervoor kiezen om alleen aanvragen weer te geven die zijn toegewezen aan meerdere categorieën van de Kill-chain en hierdoor meer schade kan veroorzaken. 
 
 ### <a name="categories"></a>Categorieën
-Kies specifieke categorieën om je te concentreren op een specifieke stap in de kill chain
+Kies specifieke categorieën om te focussen op een specifieke stap in de keten afbreken
 
-### <a name="data-sensitivity"></a>Gegevensgevoeligheid
-Sommige aanvallen richten zich op targeting om gevoelige of waardevolle gegevens te exfiltreren. Door een filter toe te passen om te zien of er gevoelige gegevens bij het incident betrokken zijn, u snel bepalen of gevoelige informatie mogelijk is gecompromitteerd en prioriteit geven aan het aanpakken van deze incidenten.
+### <a name="data-sensitivity"></a>Gegevens gevoeligheid
+Sommige aanvallen richten op het bereiken van exfiltrate gevoelige of waardevolle gegevens. Door een filter toe te passen om te zien of de gevoelige gegevens bij het incident passen, kunt u snel vaststellen of gevoelige informatie al mogelijk is aangetast en de prioriteit van die incidenten bepalen.
 
 >[!NOTE]
->Alleen van toepassing als Microsoft Information Protection is ingeschakeld.
+>Alleen van toepassing als Microsoft-informatiebeveiliging is ingeschakeld.
 
 
 ## <a name="next-steps"></a>Volgende stappen
-Nadat u hebt vastgesteld welk incident de hoogste prioriteit vereist, u verder onderzoek doen naar een incident.
+Nadat u hebt vastgesteld voor welk incident de hoogste prioriteit is vereist, kunt u doorgaan met het verdere onderzoek verder werken aan een incident.
 - [Incidenten onderzoeken](investigate-incidents.md)
 
 

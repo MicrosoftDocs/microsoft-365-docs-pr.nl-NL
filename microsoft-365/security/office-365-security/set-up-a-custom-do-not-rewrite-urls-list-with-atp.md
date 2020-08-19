@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het instellen van aangepaste geblokkeerde Url's voor gebruikers en het niet-opnieuw schrijven van Url's voor een groep gebruikers in Office 365 ATP-beleid voor veilige koppelingen.
-ms.openlocfilehash: 7909e91b96f8bdbc38ffdceafe11fa47f5ebe897
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 17828566769f438439eebcb4e460ecac1147a648
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656967"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798328"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>Een aangepaste lijst met niet-herschrijfbare Url's instellen met behulp van behulp van behulp van vrije verbindingen
 
@@ -34,6 +34,9 @@ ms.locfileid: "46656967"
 Met [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) kan uw organisatie een aangepaste, [geblokkeerde url's](set-up-a-custom-blocked-urls-list-atp.md)hebben, bijvoorbeeld wanneer mensen klikken op webadressen (url's) in e-mailberichten of bepaalde Office-documenten, kunnen ze niet naar deze url's gaan. Uw organisatie kan ook aangepaste lijsten met niet herschrijven maken voor specifieke groepen in uw organisatie. Met een ' niet herschrijven-lijst kunnen sommige personen Url's bezoeken die [in Office 365](atp-safe-links.md)anders worden geblokkeerd met veilige koppelingen voor ATP.
 
 In dit artikel wordt uitgelegd hoe u een lijst met Url's opgeeft die zijn uitgesloten van een veilige scan van een vrije site en enkele belangrijke punten waarmee u rekening moet houden.
+
+> [!NOTE]
+> Als uw organisatie beleidsregels voor veilige koppelingen gebruikt, is de lijst niet herschrijven de enige ondersteunde methode voor phishing van derden.
 
 ## <a name="set-up-a-do-not-rewrite-list"></a>Een lijst ' niet herschrijven ' instellen
 
@@ -89,7 +92,7 @@ De volgende tabel bevat voorbeelden van wat u kunt invoeren en welke gevolgen de
 |Voorbeeld van invoer|Actie|
 |---|---|
 |`contoso.com`|Hiermee kunnen geadresseerden een site bezoeken, zoals `https://contoso.com` subdomeinen of paden.|
-|`*.contoso.com/*`|Hiermee kunnen geadresseerden een domein, subdomeinen en paden bezoeken, bijvoorbeeld,, `https://www.contoso.com` `https://www.contoso.com` `https://maps.contoso.com` of `https://www.contoso.com/a` . <br/><br/> Deze vermelding is inherent `*contoso.com*` aan het gebruik, omdat dit geen potentiële frauduleuze sites bevat, zoals `https://www.falsecontoso.com` of`https://www.false.contoso.completelyfalse.com`|
-|`https://contoso.com/a`|Hiermee kunnen bepaalde geadresseerden een site niet vinden `https://contoso.com/a` , zoals`https://contoso.com/a/b`|
-|`https://contoso.com/a/*`|Hiermee kunnen bepaalde geadresseerden een site zoals `https://contoso.com/a` en subpad bezoeken als`https://contoso.com/a/b`|
+|`*.contoso.com/*`|Hiermee kunnen geadresseerden een domein, subdomeinen en paden bezoeken, bijvoorbeeld,, `https://www.contoso.com` `https://www.contoso.com` `https://maps.contoso.com` of `https://www.contoso.com/a` . <br/><br/> Deze vermelding is inherent `*contoso.com*` aan het gebruik, omdat dit geen potentiële frauduleuze sites bevat, zoals `https://www.falsecontoso.com` of `https://www.false.contoso.completelyfalse.com`|
+|`https://contoso.com/a`|Hiermee kunnen bepaalde geadresseerden een site niet vinden `https://contoso.com/a` , zoals `https://contoso.com/a/b`|
+|`https://contoso.com/a/*`|Hiermee kunnen bepaalde geadresseerden een site zoals `https://contoso.com/a` en subpad bezoeken als `https://contoso.com/a/b`|
 |

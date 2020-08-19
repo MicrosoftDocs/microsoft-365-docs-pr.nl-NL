@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 64f0b19cfd9588e975b06cb43ca73270b00c5e26
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 15e298edfad2d04079322a070615a36bb5df64ad
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649389"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797850"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Meer informatie over de querytaal Advanced jacht
 
@@ -66,7 +66,7 @@ Er is een korte opmerking toegevoegd aan het begin van de query om te beschrijve
 // Finds PowerShell execution events that could involve a download
 ```
 
-De query zelf begint meestal met een tabelnaam gevolgd door een reeks elementen die met een sluisteken () zijn gestart `|` . In dit voorbeeld beginnen we met het maken van een samenvoeging van twee tabellen, en het `DeviceProcessEvents` `DeviceNetworkEvents` toevoegen van elementen met een sluisteken.
+De query zelf begint meestal met een tabelnaam gevolgd door een reeks elementen die met een sluisteken () zijn gestart `|` . In dit voorbeeld beginnen we met het maken van een samenvoeging van twee tabellen, en het  `DeviceProcessEvents` `DeviceNetworkEvents` toevoegen van elementen met een sluisteken.
 
 ```kusto
 union DeviceProcessEvents, DeviceNetworkEvents
@@ -102,7 +102,7 @@ Vervolgens zoekt de query naar tekenreeksen in opdrachtregels die meestal worden
 ```
 
 ### <a name="customize-result-columns-and-length"></a>Resultatenkolommen en lengte aanpassen 
-Wanneer de gegevens die u wilt zoeken duidelijk worden geïdentificeerd met de query, kunt u elementen toevoegen waarmee wordt gedefinieerd hoe de resultaten eruit komen te zien. `project`geeft als resultaat bepaalde kolommen en `top` beperkt het aantal resultaten. Met deze operatoren zorgt u ervoor dat de resultaten goed opgemaakt en redelijk zijn.
+Wanneer de gegevens die u wilt zoeken duidelijk worden geïdentificeerd met de query, kunt u elementen toevoegen waarmee wordt gedefinieerd hoe de resultaten eruit komen te zien. `project` geeft als resultaat bepaalde kolommen en `top` beperkt het aantal resultaten. Met deze operatoren zorgt u ervoor dat de resultaten goed opgemaakt en redelijk zijn.
 
 ```kusto
 | project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
@@ -117,7 +117,7 @@ Klik op **query uitvoeren** om de resultaten te bekijken. Selecteer het pictogra
 >[!TIP]
 >U kunt queryresultaten weergeven als grafieken en de filters snel aanpassen. [Zie voor meer informatie over het werken met queryresultaten](advanced-hunting-query-results.md)
 
-## <a name="learn-common-query-operators-for-advanced-hunting"></a>Veelgebruikte query providers voor geavanceerde jacht
+## <a name="learn-common-query-operators"></a>Veelgebruikte queryoperators
 
 Nu u uw eerste query hebt uitgevoerd en een algemeen idee van de onderdelen hebt, is het tijd om terugkeren iets een beetje te leren en de basisbeginselen te leren kennen. De Kusto querytaal die wordt gebruikt in de geavanceerde jacht, biedt ondersteuning voor een bereik van operatoren, waaronder de volgende algemene versies.
 
@@ -136,7 +136,7 @@ Nu u uw eerste query hebt uitgevoerd en een algemeen idee van de onderdelen hebt
 
 Als u een voorbeeld van deze operatoren wilt zien, voert u deze uit in de sectie **aan de slag** in geavanceerde jacht.
 
-## <a name="understand-data-types-and-their-query-syntax-implications"></a>Meer informatie over gegevenstypen en de syntaxis van de querysyntaxis
+## <a name="understand-data-types"></a>Meer informatie over gegevenstypen
 
 Gegevens in geavanceerde jagers tabellen worden algemeen ingedeeld in de volgende gegevenstypen.
 
@@ -147,6 +147,8 @@ Gegevens in geavanceerde jagers tabellen worden algemeen ingedeeld in de volgend
 | `bool` | Waar of onwaar |
 | `int` | 32-bits numerieke waarde  |
 | `long` | 64-bits numerieke waarde |
+
+Meer informatie over deze gegevenstypen en de implicaties hiervan [vindt u in Kusto scalaire gegevenstypen](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalar-data-types/).
 
 ## <a name="get-help-as-you-write-queries"></a>Hulp vragen bij het schrijven van query's
 Profiteer van de volgende functies om query's sneller te schrijven:
@@ -179,6 +181,6 @@ Zie de [documentatie bij de querytaal van Kusto](https://docs.microsoft.com/azur
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [Werken met queryresultaten](advanced-hunting-query-results.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
+- [Opsporen op apparaten en in e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

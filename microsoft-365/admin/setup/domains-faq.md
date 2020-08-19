@@ -23,13 +23,13 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
-description: Meer informatie over domeinen door antwoorden te vinden op uw veelgestelde vragen.
-ms.openlocfilehash: c588586ddd3d57fdbe78d7751131f61e6aa53eba
-ms.sourcegitcommit: dc5de2064706137256307f100b8dc61e9797bd1c
+description: Meer informatie over domeinen vindt u in antwoorden op uw veelgestelde vragen.
+ms.openlocfilehash: bb949dbd4e32bb62f10dfd0323df70697fdc5404
+ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45068101"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804194"
 ---
 # <a name="domains-faq"></a>Veelgestelde vragen over domeinen
 
@@ -50,11 +50,12 @@ In dit artikel
 - [Hoe kan ik SPF-records voor mijn domein valideren?](#how-can-i-validate-spf-records-for-my-domain)
 - [Wat is een domeinnaam?](#what-is-a-domain-name)
 - [Wat gebeurt er als mijn DNS-provider geen ondersteuning biedt voor bepaalde recordtypen?](#what-happens-if-my-dns-provider-doesnt-support-certain-record-types)
-- [Hoe stel ik het standaarddomein in of wijzig ik deze in Microsoft 365?](#how-do-i-set-or-change-the-default-domain-in-microsoft-365)
+- [Hoe kan ik het standaarddomein instellen of wijzigen in Microsoft 365?](#how-do-i-set-or-change-the-default-domain-in-microsoft-365)
 - [Kan ik aangepaste subdomeinen of meerdere domeinen toevoegen aan Microsoft 365?](#can-i-add-custom-subdomains-or-multiple-domains-to-microsoft-365)
+- [Hoe kan ik een domein van Microsoft 365 overbrengen naar een andere host?]
 - [Waarom heb ik een domein met de naam onmicrosoft.com?](#why-do-i-have-an-onmicrosoftcom-domain)
-- [Waarom heb ik een 'onmicrosoft.de'-domein?](#why-do-i-have-an-onmicrosoftde-domain)
-- [Hoe verifieer ik mijn status zonder winstoogoogs naar een opleiding?](#how-do-i-verify-my-nonprofit-or-education-status)
+- [Waarom heb ik een onmicrosoft.de-domein?](#why-do-i-have-an-onmicrosoftde-domain)
+- [Hoe controleer ik de status van een non-profit of onderwijs?](#how-do-i-verify-my-nonprofit-or-education-status)
     
 ## <a name="what-is-mx-priority"></a>Wat is MX-prioriteit?
 
@@ -72,7 +73,7 @@ E-mail wordt bezorgd bij de Mail Exchange-server met het laagste voorkeursgetal 
     
 ## <a name="how-can-i-validate-spf-records-for-my-domain"></a>Hoe kan ik SPF-records voor mijn domein valideren?
 
-Het is belangrijk dat u **slechts één TXT-record voor SPF hebt**of maakt. Als u al een SPF-record hebt, moet u de nieuwe Microsoft 365-waarden eraan toederen in plaats van er een nieuwe te maken. Nadat u uw SPF-record voor Microsoft-e-mail hebt toegevoegd of bijgewerkt, moet u controleren of de syntaxis correct is met een van de volgende hulpprogramma's: 
+Het is belangrijk dat u  **maar één TXT-record voor SPF**hebt gemaakt. Als u al een SPF-record hebt, moet u de nieuwe Microsoft 365-waarden toevoegen aan de record, en niet een nieuwe maken. Wanneer u de SPF-record voor Microsoft-e-mail hebt toegevoegd of bijgewerkt, controleert u of de syntaxis in een van de volgende hulpprogramma's correct is: 
   
 - [Hulpprogramma's voor het testen van SPF-records](http://www.kitterman.com/spf/validate.html)
     
@@ -84,13 +85,13 @@ Het is belangrijk dat u **slechts één TXT-record voor SPF hebt**of maakt. Als 
 
 Een domein is een unieke naam die na het **@** -teken wordt weergegeven in een e-mailadres en na **www.** in een webadres. Meestal bestaat deze uit de naam van uw organisatie en een standaard-internetachtervoegsel, zoals  *uwbedrijf.com*  of  *universiteit.edu*  . 
   
-Het gebruik van een aangepast domein zoals "**rob \@ contoso.com**" met Microsoft 365 kan helpen bij het opbouwen van geloofwaardigheid en erkenning voor uw merk. 
+Met behulp van een aangepast domein zoals '**rob \@ contoso.com**' met Microsoft 365 kunt u geloofwaardigheid en herkenning voor uw merk opbouwen. 
   
-U [een domein kopen in Microsoft 365 en we stellen het automatisch in,](../get-help-with-domains/buy-a-domain-name.md)of u er een kopen of meenemen die u al bezit van een domeinregistrar.
+U kunt [een domein kopen in Microsoft 365 en we stellen dit automatisch in](../get-help-with-domains/buy-a-domain-name.md)of u kunt een domein kopen of ophalen dat u al hebt gekocht bij een domeinregistratie.
     
 ## <a name="what-happens-if-my-dns-provider-doesnt-support-certain-record-types"></a>Wat gebeurt er als mijn DNS-provider geen ondersteuning biedt voor bepaalde recordtypen?
 
-Als u uw eigen DNS-records beheert en uw DNS-host niet alle DNS-records ondersteunt die Microsoft 365 nodig heeft, werken sommige Microsoft 365-functies niet. U wordt aangeraden uw domein over te zetten naar een registrar die ondersteuning biedt voor alle vereiste DNS-records.
+Als u uw eigen DNS-records beheert en uw DNS-host geen ondersteuning biedt voor alle DNS-records die in Microsoft 365 zijn vereist, werken sommige functies van Microsoft 365 niet. U wordt aangeraden uw domein over te zetten naar een registrar die ondersteuning biedt voor alle vereiste DNS-records.
   
 Providers die ondersteuning bieden voor alle vereiste DNS-records:
   
@@ -100,7 +101,7 @@ Providers die ondersteuning bieden voor alle vereiste DNS-records:
     
 - Europe Registry
     
-- Godaddy
+- GoDaddy
     
 - Hover
     
@@ -118,9 +119,9 @@ Providers die ondersteuning bieden voor alle vereiste DNS-records:
     
 - Register.com
   
-## <a name="how-do-i-set-or-change-the-default-domain-in-microsoft-365"></a>Hoe stel ik het standaarddomein in of wijzig ik deze in Microsoft 365?
+## <a name="how-do-i-set-or-change-the-default-domain-in-microsoft-365"></a>Hoe kan ik het standaarddomein instellen of wijzigen in Microsoft 365?
 
-U moet ten minste één aangepast domein hebben dat u aan Microsoft 365 hebt toegevoegd voordat u een standaarddomein kiezen.
+U moet minimaal één aangepast domein aan Microsoft 365 hebben toegevoegd voordat u een standaarddomein kunt kiezen.
 
 ::: moniker range="o365-worldwide"
 
@@ -140,7 +141,7 @@ U moet ten minste één aangepast domein hebben dat u aan Microsoft 365 hebt toe
 
 ::: moniker-end
     
-2. Selecteer op de pagina **Domeinen** het domein dat u wilt instellen als standaard voor nieuwe e-mailadressen. 
+2. Selecteer op de pagina **Domains** het domein dat u als standaard wilt instellen voor nieuwe e-mailadressen. 
     
 3. Selecteer **Als standaard instellen**.
     
@@ -152,13 +153,13 @@ U kunt de naam van uw initiële  *.onmicrosoft.com*  -domein niet wijzigen.
 
 ::: moniker range="o365-germany"
 
-U de naam van uw oorspronkelijke *.onmicrosoft.de-domein* niet wijzigen. 
+U kunt de naam van uw initiële  *. ononmicrosoft.de*  -domein niet wijzigen. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-U de naam van uw oorspronkelijke *.partner.onmschina.cn-domein* niet wijzigen. 
+U kunt de naam van uw initiële  *. onpartner.onmschina.cn*  -domein niet wijzigen. 
 
 ::: moniker-end
 
@@ -166,79 +167,87 @@ U de naam van uw oorspronkelijke *.partner.onmschina.cn-domein* niet wijzigen.
 
 ::: moniker range="o365-worldwide"
 
-Ja. Als u subdomeinen wilt toevoegen, moet u uw eigen DNS-instellingen beheren op de website van uw registrar. Als u Microsoft uw DNS-instellingen laat beheren met NS-records of als u het domein bij Microsoft hebt gekocht, u geen subdomeinen toevoegen.
+Ja. Als u subdomeinen wilt toevoegen, moet u uw eigen DNS-instellingen beheren op de website van de registratieserver. Als u Microsoft uw DNS-instellingen met NS-records wilt laten beheren, of als u het domein van Microsoft hebt gekocht, kunt u geen subdomeinen toevoegen.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Ja! Als u subdomeinen wilt toevoegen, moet u uw eigen DNS-instellingen beheren op de website van uw registrar. Als u Microsoft uw DNS-instellingen laat beheren met NS-records of als u het domein bij Microsoft hebt gekocht, u geen subdomeinen toevoegen.
+Ja! Als u subdomeinen wilt toevoegen, moet u uw eigen DNS-instellingen beheren op de website van de registratieserver. Als u Microsoft uw DNS-instellingen met NS-records wilt laten beheren, of als u het domein van Microsoft hebt gekocht, kunt u geen subdomeinen toevoegen.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Ja! Als u subdomeinen wilt toevoegen, moet u uw eigen DNS-instellingen beheren op de website van uw registrar. Als u 21Vianet uw DNS-instellingen laat beheren met NS-records, u geen subdomeinen toevoegen.
+Ja! Als u subdomeinen wilt toevoegen, moet u uw eigen DNS-instellingen beheren op de website van de registratieserver. Als u 21Vianet uw DNS-instellingen met NS-records beheert, kunt u geen subdomeinen toevoegen.
 
 ::: moniker-end
 
-Normaal gesproken u maximaal 900 domeinen toevoegen aan uw Microsoft 365-abonnement.
+Meestal kunt u maximaal 900 domeinen toevoegen aan uw Microsoft 365-abonnement.
   
 U kunt bijvoorbeeld de domeinen contoso.com en contosomarketing.com toevoegen, en vervolgens de subdomeinen www.contoso.com, www.partners.contoso.com, www.partners.marketing.contoso.com enzovoort.
   
-Wanneer u een subdomein toevoegt, wordt deze automatisch geverifieerd op basis van het bovenliggende domein dat wordt geverifieerd.
+Wanneer u een subdomein toevoegt, wordt dit automatisch gecontroleerd op basis van het bovenliggende domein dat wordt geverifieerd.
   
-Wanneer u meerdere domeinen toevoegt aan Microsoft 365, u een van de services (zoals e-mail) hosten op een van de domeinen die u hebt toegevoegd.  *Wanneer u uw e-mail wijzigt naar Microsoft 365, door de MX-record van een domein bij te werken, begint ALLE e-mail die naar dat domein wordt verzonden, naar Microsoft 365 te komen.* 
+Als u meerdere domeinen toevoegt aan Microsoft 365, kunt u alle services (zoals e-mail) hosten in elk van de domeinen die u hebt toegevoegd.  *Wanneer u uw e-mailadres wijzigt in Microsoft 365, worden alle e-mailberichten die naar het domein worden verzonden, doorgestuurd naar Microsoft 365.* 
  
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
-> Als u een contoso.com domein hebt toegevoegd aan een Microsoft 365-abonnement, u het subdomein ook toevoegen xyz.contoso.com aan een andere Microsoft 365-organisatie. Wanneer u het subdomein toevoegt, wordt u gevraagd een TXT-record toe te voegen aan de DNS-hostingprovider.
+> Als u een contoso.com-domein hebt toegevoegd aan een Microsoft 365-abonnement, kunt u ook de subdomein-xyz.contoso.com toevoegen aan een andere Microsoft 365-organisatie. Wanneer u het subdomein toevoegt, wordt u gevraagd een TXT-record toe te voegen aan de DNS-hosting provider.
+
+## <a name="how-do-i-transfer-a-domain-from-microsoft-365-to-another-host"></a>Hoe kan ik een domein van Microsoft 365 overbrengen naar een andere host?
+
+Zie [een domein van Microsoft overbrengen naar een andere host](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host)voor de procedure voor het overdragen van een domein.
+
+## <a name="pilot-microsoft-365-from-my-custom-domain"></a>Testfase van Microsoft 365 uitvoeren vanaf mijn aangepaste domein
+
+Voor de procedure voor het testen van de Microsoft 365-e-mail functionaliteit van een aangepast domein naar een Microsoft 365-postvak, raadpleegt u [Microsoft 365 van mijn aangepaste domein testen](https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain).
 
 ## <a name="why-do-i-have-an-onmicrosoftcom-domain"></a>Waarom heb ik een domein met de naam onmicrosoft.com?
 
-Microsoft 365 maakt een domein voor u, zoals *contoso.onmicrosoft.com,* wanneer u zich aanmeldt bij de service. De gebruikersnaam die u maakt wanneer u zich aanmeldt, bevat het domein, zoals *alan@contoso.onmicrosoft.com*. 
+Microsoft 365 maakt een domein voor u, zoals *contoso.onmicrosoft.com*, wanneer u zich aanmeldt bij de service. De gebruikers-ID die u maakt wanneer u zich registreert, omvat het domein, bijvoorbeeld *Alan@contoso.onmicrosoft.com*. 
   
- **Als u uw e-mail eruit wilt laten zien als *alan \@ contoso.com:*** [koop het domein](../get-help-with-domains/buy-a-domain-name.md) of volg gewoon de stappen in Uw gebruikers en domein toevoegen aan Microsoft [365](add-domain.md) als u het al bezit. 
+ **Als u uw e-mail wilt weergeven als *Alan \@ contoso.com*:** [Koop het domein](../get-help-with-domains/buy-a-domain-name.md) of volg de stappen in [uw gebruikers en domein toevoegen aan Microsoft 365](add-domain.md) als u het al bent. 
   
-- **U kunt de naam van het onmicrosoft-domein niet meer wijzigen nadat u zich hebt geregistreerd.** Als u tijdens het registreren bijvoorbeeld in eerste instantie fourthcoffee.onmicrosoft.com hebt gekozen, kunt u deze naam niet meer wijzigen in fabrikam.onmicrosoft.com. Als u een ander onmicrosoft.com domein wilt gebruiken, moet u een nieuw abonnement starten met Microsoft 365. 
+- **U kunt de naam van het onmicrosoft-domein niet meer wijzigen nadat u zich hebt geregistreerd.** Als u tijdens het registreren bijvoorbeeld in eerste instantie fourthcoffee.onmicrosoft.com hebt gekozen, kunt u deze naam niet meer wijzigen in fabrikam.onmicrosoft.com. Als u een ander onmicrosoft.com-domein wilt gebruiken, moet u een nieuw abonnement beginnen met Microsoft 365. 
     
-- **U de naam van de URL van uw teamsite niet wijzigen.** De URL van uw teamsite is gebaseerd op uw onmicrosoft.com domeinnaam. Vanwege de manier waarop de SharePoint Online-architectuur werkt, u de naam van de teamsite helaas niet wijzigen. 
+- **U kunt de URL van uw team site niet wijzigen.** De URL van uw team site is gebaseerd op de onmicrosoft.com-domeinnaam. Helaas kunt u de naam van de team site niet wijzigen vanwege de manier waarop SharePoint Online Architecture werkt. 
     
-- **U kunt uw onmicrosoft-domein niet verwijderen.** Microsoft 365 moet het rond houden omdat het achter de schermen wordt gebruikt voor uw abonnement. U hoeft het domein echter zelf niet te gebruiken nadat u een aangepast domein hebt toegevoegd. 
+- **U kunt uw onmicrosoft-domein niet verwijderen.** Microsoft 365 moet aan de slag gaan, omdat dit wordt gebruikt achter de scènes voor uw abonnement. U hoeft het domein echter zelf niet te gebruiken nadat u een aangepast domein hebt toegevoegd. 
     
 U kunt het onmicrosoft.com-domein blijven gebruiken, ook nadat u uw domein hebt toegevoegd. Dit domein werkt nog steeds voor e-mail en andere services, dus de keuze is aan u.
   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-## <a name="why-do-i-have-an-onmicrosoftde-domain"></a>Waarom heb ik een 'onmicrosoft.de'-domein?
+## <a name="why-do-i-have-an-onmicrosoftde-domain"></a>Waarom heb ik een onmicrosoft.de-domein?
 
-Microsoft 365 maakt een domein voor u, zoals *contoso.onmicrosoft.de,* wanneer u zich aanmeldt bij de service. De gebruikersnaam die u maakt wanneer u zich aanmeldt, bevat het domein, zoals *alan@contoso.onmicrosoft.de*. 
+Microsoft 365 maakt een domein voor u, zoals *contoso.onmicrosoft.de*, wanneer u zich aanmeldt bij de service. De gebruikers-ID die u maakt wanneer u zich registreert, omvat het domein, bijvoorbeeld *Alan@contoso.onmicrosoft.de*. 
   
- **Als u uw e-mail eruit wilt laten zien als *alan@contoso.de:*** [koop het domein](../get-help-with-domains/buy-a-domain-name.md) of volg gewoon de stappen in Uw gebruikers en domein toevoegen aan Microsoft [365](add-domain.md) als u het al bezit. 
+ **Ga als volgt te werk als u uw e-mail wilt weergeven als *Alan@contoso.de*:** [het domein kopen](../get-help-with-domains/buy-a-domain-name.md) of voer de stappen uit in [uw gebruikers en domein toevoegen aan Microsoft 365](add-domain.md) als u de e-mail al hebt gekocht. 
   
-- **U kunt de naam van het onmicrosoft-domein niet meer wijzigen nadat u zich hebt geregistreerd.** Als het oorspronkelijke domein dat u hebt gekozen bijvoorbeeld fourthcoffee.onmicrosoft.de, u het niet wijzigen om te worden fabrikam.onmicrosoft.de. Als u een ander onmicrosoft.de domein wilt gebruiken, moet u een nieuw abonnement starten met Microsoft 365. 
+- **U kunt de naam van het onmicrosoft-domein niet meer wijzigen nadat u zich hebt geregistreerd.** Als het eerste domein dat u hebt gekozen bijvoorbeeld fourthcoffee.onmicrosoft.de, kunt u dit niet wijzigen in fabrikam.onmicrosoft.de. Als u een ander onmicrosoft.de-domein wilt gebruiken, moet u een nieuw abonnement beginnen met Microsoft 365. 
     
-- **U de naam van de URL van uw teamsite niet wijzigen.** De URL van uw teamsite is gebaseerd op uw onmicrosoft.de domeinnaam. Vanwege de manier waarop de SharePoint Online-architectuur werkt, u de naam van de teamsite helaas niet wijzigen. 
+- **U kunt de URL van uw team site niet wijzigen.** De URL van uw team site is gebaseerd op de onmicrosoft.de-domeinnaam. Helaas kunt u de naam van de team site niet wijzigen vanwege de manier waarop SharePoint Online Architecture werkt. 
     
-- **U kunt uw onmicrosoft-domein niet verwijderen.** Microsoft 365 moet het rond houden omdat het achter de schermen wordt gebruikt voor uw abonnement. U hoeft het domein echter zelf niet te gebruiken nadat u een aangepast domein hebt toegevoegd. 
+- **U kunt uw onmicrosoft-domein niet verwijderen.** Microsoft 365 moet aan de slag gaan, omdat dit wordt gebruikt achter de scènes voor uw abonnement. U hoeft het domein echter zelf niet te gebruiken nadat u een aangepast domein hebt toegevoegd. 
     
-U de initiële onmicrosoft.de domein blijven gebruiken, zelfs nadat u uw domein hebt toegevoegd. Dit domein werkt nog steeds voor e-mail en andere services, dus de keuze is aan u.
+U kunt het initiële ononmicrosoft.de-domein blijven gebruiken, zelfs nadat u uw domein hebt toegevoegd. Dit domein werkt nog steeds voor e-mail en andere services, dus de keuze is aan u.
   
 ::: moniker-end
 
-## <a name="how-do-i-verify-my-nonprofit-or-education-status"></a>Hoe verifieer ik mijn status zonder winstoogoogs naar een opleiding?
+## <a name="how-do-i-verify-my-nonprofit-or-education-status"></a>Hoe controleer ik de status van een non-profit of onderwijs?
 
-1. Selecteer **Setup** in het [beheercentrum](https://docs.microsoft.com/microsoft-365/admin/admin-home) om de wizard te starten. (Meld u eerst aan bij Microsoft 365.) 
+1. Selecteer **Setup** in het [Beheercentrum](https://docs.microsoft.com/microsoft-365/admin/admin-home) om de wizard te starten. (Zorg ervoor dat u zich eerst aanmeldt bij Microsoft 365.) 
     
-2. Als u beheerder van uw school wilt worden, selecteert u de optie **Een beheerder worden** in Microsoft 365. 
+2. Als u de beheerder van uw school wilt worden, selecteert u de optie  **een beheerder worden** in microsoft 365. 
     
-3. U wordt gevraagd om een TXT DNS-record toe te voegen op de DNS-hostwebsite voor uw domein. Waarom? Omdat u door u aan te melden bij de DNS-host en een record voor uw domein toe te voegen, aan Microsoft 365 bewijst dat u eigenaar bent van de domeinnaam.
+3. U wordt gevraagd om een TXT DNS-record toe te voegen op de website van de DNS-host voor uw domein. Waarom? Door u aan te melden bij de DNS-host en een record voor uw domein toe te voegen, meldt u Microsoft 365 dat u de eigenaar van de domeinnaam bent.
     
-4. Nadat u de record hebt toegevoegd, gaat u terug naar de Microsoft 365-portal en bevestigt u dat u deze hebt toegevoegd, zodat Microsoft 365 deze kan controleren.
+4. Nadat u de record hebt toegevoegd, gaat u terug naar de Microsoft 365-Portal en bevestigt u dat u deze hebt toegevoegd, zodat micro 365 Soft kan controleren.
     
-Heb je een non-profitorganisatie en wil je Microsoft 365? [Zorg ervoor dat uw organisatie in aanmerking komt](https://www.microsoft.com/en-us/nonprofits/eligibility) en meld u vervolgens aan voor de service. 
+Hebt u een non-profit organisatie en wilt u Microsoft 365 aanschaffen? [Zorg ervoor dat uw organisatie in aanmerking komt](https://www.microsoft.com/en-us/nonprofits/eligibility) en registreert voor de service. 
   
-Wilt u meer weten over het worden van de admin voor uw school? [Leer er alles over.](https://docs.microsoft.com/microsoft-365/education/deploy/becoming-an-admin-in-office-365-education
-)
+Wilt u meer weten over de beheerder voor uw school? [Meer informatie hierover](https://docs.microsoft.com/microsoft-365/education/deploy/becoming-an-admin-in-office-365-education
+).

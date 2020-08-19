@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ad3cfe34c697cbef09a99efdcbe1c1bd6ced1ca2
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: e5f17da63f7bb0306c4b5899771d2e324770705c
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649461"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798024"
 ---
 # <a name="deviceevents"></a>DeviceEvents
 
@@ -33,6 +33,9 @@ ms.locfileid: "46649461"
 
 De diverse gebeurtenissen of `DeviceEvents` tabellen voor gebeurtenissen in het [geavanceerde jacht](advanced-hunting-overview.md) schema bevatten informatie over verschillende gebeurtenistypen, waaronder gebeurtenissen die zijn geactiveerd door beveiligings besturingselementen, zoals Windows Defender antivirus en exploit Protection. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
 
+>[!TIP]
+> Voor gedetailleerde informatie over de typen gebeurtenissen ( `ActionType` waarden) die door een tabel worden ondersteund, gebruikt u de [ingebouwde schema verwijzing](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) die beschikbaar is in het Beveiligingscentrum.
+
 Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
 
 
@@ -41,7 +44,7 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 | `Timestamp` | tijd | De datum en tijd waarop de gebeurtenis is vastgelegd |
 | `DeviceId` | tekenreeks | Unieke id voor de computer in de service |
 | `DeviceName` | tekenreeks | FQDN-naam (Fully Qualified Domain Name) van de computer |
-| `ActionType` | tekenreeks | Type activiteit waarmee de gebeurtenis wordt geactiveerd |
+| `ActionType` | tekenreeks | Type activiteit waarmee de gebeurtenis wordt geactiveerd. Zie de [verwijzingen naar het portal schema](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) voor Details |
 | `FileName` | tekenreeks | De naam van het bestand waarop de opgenomen actie is toegepast |
 | `FolderPath` | tekenreeks | Map met het bestand waarop de opgenomen actie is toegepast |
 | `SHA1` | tekenreeks | SHA-1 van het bestand waarop de opgenomen actie is toegepast |
@@ -89,6 +92,6 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
+- [Opsporen op apparaten en in e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

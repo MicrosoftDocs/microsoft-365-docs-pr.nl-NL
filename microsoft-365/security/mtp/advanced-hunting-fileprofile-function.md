@@ -1,7 +1,7 @@
 ---
-title: FileProfile() functie in geavanceerde jacht op Microsoft Threat Protection
-description: Meer informatie over het gebruik van de FileProfile() om informatie over bestanden te verrijken in uw geavanceerde resultaten voor jachtquery's
-keywords: geavanceerde jacht, bedreiging jacht, cyber bedreiging jacht, Microsoft threat protection, Microsoft 365, mtp, m365, zoeken, query, telemetrie, schema referentie, kusto, FileProfile, bestandsprofiel, functie, verrijking
+title: FileProfile (), functie in geavanceerde jacht voor Microsoft Threat Protection
+description: Meer informatie over het gebruik van de FileProfile () om informatie te verrijken over bestanden in uw geavanceerde zoekresultaten voor de jacht
+keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema naslag, kusto, FileProfile, bestands profiel, functie, verrijking
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,38 +17,38 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6465821ff1b8e8ea23cc5cf6b205f65a483bbe82
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: d0fd359bb6f56f7c20b0a39b7fd45ec551e7e49e
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204945"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797780"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-De `FileProfile()` functie is een verrijkingsfunctie in geavanceerde [jacht](advanced-hunting-overview.md) die de volgende gegevens toevoegt aan bestanden die door de query worden gevonden.
+De `FileProfile()` functie is een verrijkings functie in de [geavanceerde jacht](advanced-hunting-overview.md) waarmee de volgende gegevens worden toegevoegd aan bestanden die door de query zijn gevonden.
 
 | Kolom | Gegevenstype | Beschrijving |
 |------------|-------------|-------------|
-| SHA1 SHA1 | Tekenreeks | SHA-1 van het bestand waarop de geregistreerde actie is toegepast |
-| SHA256 SHA256 | Tekenreeks | SHA-256 van het bestand waarop de geregistreerde actie is toegepast |
-| MD5 MD5 | Tekenreeks | MD5-hash van het bestand waarop de geregistreerde actie is toegepast |
-| Bestandsgrootte | Int | Grootte van het bestand in bytes |
-| GlobalPrevalence | Int | Aantal exemplaren van de entiteit die wereldwijd door Microsoft wordt waargenomen |
-| GlobalFirstSeen | Datetime | Datum en tijd waarop de entiteit wereldwijd voor het eerst werd waargenomen door Microsoft |
-| GlobalLastSeen | Datetime | Datum en tijd waarop de entiteit wereldwijd voor het laatst door Microsoft is waargenomen |
-| Ondertekenaar | Tekenreeks | Informatie over de ondertekenaar van het bestand |
-| Uitgevende instelling | Tekenreeks | Informatie over de instantie van afgiftecertificaat (CA) |
-| OndertekenaarHash | Tekenreeks | Unieke hashwaarde die de ondertekenaar identificeert |
-| IsCertificateValid | Booleaanse | Of het certificaat dat wordt gebruikt om het bestand te ondertekenen geldig is |
-| IsRootSignerMicrosoft IsRootSignerMicrosoft | Booleaanse | Geeft aan of de ondertekenaar van het basiscertificaat Microsoft is |
-| IsExecutable | Booleaanse | Of het bestand een PE-bestand (Portable Executable) is |
-| ThreatName ThreatName | Tekenreeks | Detectienaam voor malware of andere bedreigingen gevonden |
-| Publisher | Tekenreeks | Naam van de organisatie die het bestand heeft gepubliceerd |
-| SoftwareName | Tekenreeks | Naam van het softwareproduct |
+| SHA1 | tekenreeks | SHA-1 van het bestand waarop de opgenomen actie is toegepast |
+| SHA256 | tekenreeks | SHA-256 van het bestand waarop de opgenomen actie is toegepast |
+| MD5 () | tekenreeks | MD5-hash van het bestand waarop de opgenomen actie is toegepast |
+| FileSize | int | Bestandsgrootte in bytes |
+| GlobalPrevalence | int | Aantal exemplaren van de entiteit die is waargenomen door Microsoft Global |
+| GlobalFirstSeen | tijd | De datum en tijd waarop de entiteit voor het eerst werd gevolgd door Microsoft Global |
+| GlobalLastSeen | tijd | De datum en tijd waarop de entiteit voor het laatst is geobserveerd door Microsoft Global |
+| Ondertekenaar | tekenreeks | Informatie over de ondertekenaar van het bestand |
+| Verstrekker | tekenreeks | Informatie over de uitgevende certificeringsinstantie (CA) |
+| SignerHash | tekenreeks | Unieke hash-waarde die de ondertekenaar identificeert |
+| IsCertificateValid | Boolean | Opgeven of het certificaat dat wordt gebruikt om het bestand te ondertekenen geldig is |
+| IsRootSignerMicrosoft | Boolean | Geeft aan of de ondertekenaar van het basiscertificaat Microsoft is |
+| IsExecutable | Boolean | Opgeven of het bestand een bestand is van een Portable Executable (PE) |
+| Bedreiging | tekenreeks | Detectie naam voor malware of andere bedreigingen gevonden |
+| Rand | tekenreeks | Naam van de organisatie die het bestand heeft gepubliceerd |
+| Softwarenaam | tekenreeks | Naam van het SOFTWAREPRODUCT |
 
 ## <a name="syntax"></a>Syntaxis
 
@@ -58,12 +58,12 @@ invoke FileProfile(x,y)
 
 ## <a name="arguments"></a>Argumenten
 
-- **x** — kolom bestands-id om te gebruiken: `SHA1` , , of , functie gebruikt als `SHA256` `InitiatingProcessSHA1` `InitiatingProcessSHA256` `SHA1` niet-gespecificeerd
-- **y** — beperking van het aantal records om te verrijken, 1-1000; functie gebruikt 100 als niet-gespecificeerd
+- **x** — kolom bestand-id voor gebruik: `SHA1` , `SHA256` , `InitiatingProcessSHA1` of `InitiatingProcessSHA256` ; functie gebruikt indien niet `SHA1` opgegeven
+- **y** : Beperk het aantal records tot rijk, 1-1000; functie gebruikt 100 indien niet opgegeven
 
 ## <a name="examples"></a>Voorbeelden
 
-### <a name="project-only-the-sha1-column-and-enrich-it"></a>Projecteer alleen de SHA1-kolom en verrijk deze
+### <a name="project-only-the-sha1-column-and-enrich-it"></a>Project only the SHA1-kolom en verrijken
 
 ```kusto
 DeviceFileEvents
@@ -73,7 +73,7 @@ DeviceFileEvents
 | invoke FileProfile()
 ```
 
-### <a name="enrich-the-first-500-records-and-list-low-prevalence-files"></a>De eerste 500 records verrijken en lage prevalentiebestanden aanbieden
+### <a name="enrich-the-first-500-records-and-list-low-prevalence-files"></a>De eerste 500 records verrijken en bestanden met lage prevalentie verrijken
 
 ```kusto
 DeviceFileEvents
@@ -87,3 +87,4 @@ DeviceFileEvents
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
+- [Voorbeelden van meer query](advanced-hunting-shared-queries.md)

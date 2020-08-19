@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over het anti-phishings beleid dat beschikbaar is in Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: a7db287b8a8efb5c41488529fcaa8789b2f594b5
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: b492d37bea6135bccb770571f9984f9866c7cfd3
+ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652715"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804276"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti malafide beleid in Microsoft 365
 
@@ -50,15 +50,37 @@ Het hoge niveau van de verschillen tussen anti-phishingfilter en ATP anti-phishi
 |Geavanceerde phishingberichten||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |
 
-<sup>\*</sup>In het standaardbeleid zijn de Beleidsnaam en-beschrijving alleen-lezen (de beschrijving is leeg) en kunt u niet opgeven wie het beleid van toepassing is op het standaardbeleid voor alle geadresseerden.
+<sup>\*</sup> In het standaardbeleid zijn de Beleidsnaam en-beschrijving alleen-lezen (de beschrijving is leeg) en kunt u niet opgeven wie het beleid van toepassing is op het standaardbeleid voor alle geadresseerden.
 
-Zie de volgende onderwerpen voor meer informatie over het configureren van een anti phishing-beleid:
+Zie de volgende artikelen voor meer informatie over het configureren van een anti phishing-beleid:
 
 - [Anti-phishings beleid configureren in EOP](configure-anti-phishing-policies-eop.md)
 
 - [ATP anti-phishing configureren in Microsoft 365](configure-atp-anti-phishing-policies.md)
 
-In de rest van dit onderwerp worden de instellingen beschreven die beschikbaar zijn in anti-phishings beleid en het anti-phishingfilter van ATP.
+In de rest van dit artikel worden de instellingen beschreven die beschikbaar zijn in anti-phishings beleid en het anti-phishingfilter van ATP.
+
+## <a name="policy-settings"></a>Beleidsinstellingen
+
+De volgende beleidsinstellingen zijn beschikbaar in anti phishingfilter en op een anti-phishingfilter-beleid:
+
+- **Naam**: u kunt de naam van het standaard anti-Phishingfilter niet wijzigen, maar u kunt wel een naam geven en aangepaste beleidsregels maken die u zelf maakt.
+
+- Een **Beschrijving** van U kunt geen beschrijving toevoegen aan het standaard anti-phishingfilter, maar u kunt wel een beschrijving toevoegen en wijzigen voor aangepaste beleidsregels die u maakt.
+
+- **Toegepast op**: identificeert interne geadresseerden waarop het anti-phishingfilter-beleid van toepassing is. Deze waarde is vereist in aangepaste beleidsregels en niet beschikbaar in het standaardbeleid (het standaardbeleid is van toepassing op alle geadresseerden).
+
+  U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
+
+  - De **ontvanger is**: een of meer postvakken, e-mail gebruikers of contactpersonen in uw organisatie.
+  - **De ontvanger is lid van**: een of meer groepen in uw organisatie.
+  - **Het domein van de ontvanger is**: een of meer van de geconfigureerde domeinen in microsoft 365.
+
+  - **Behalve wanneer**: uitzonderingen voor de regel. De instellingen en het gedrag zijn exact hetzelfde als de voorwaarden:
+
+    - **Geadresseerde is**
+    - **De ontvanger is lid van**
+    - **Het domein van de ontvanger is**
 
 ## <a name="spoof-settings"></a>Spoof-instellingen
 
@@ -75,28 +97,34 @@ De volgende spoof-instellingen zijn beschikbaar in anti-phishingfilter en op een
 
   - **Bericht verplaatsen naar map Ongewenste e-mail**: dit is de standaardwaarde. Het bericht wordt bezorgd in het postvak en wordt verplaatst naar de map Ongewenste E-mail. Het bericht wordt verplaatst naar de map Ongewenste e-mail in Exchange Online als de regel voor ongewenste e-mail is ingeschakeld voor het postvak (deze optie is standaard ingeschakeld). Zie voor meer informatie [instellingen voor ongewenste E-mail configureren in Exchange Online-postvakken in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
-  - **Quarantine het bericht**: verzendt het bericht naar Quarantine in plaats van de bedoelde geadresseerden. Zie de volgende artikelen voor meer informatie over quarantaine:
+  - **Quarantine het bericht**: verzendt het bericht naar Quarantine in plaats van de bedoelde geadresseerden. Zie de volgende artikelen voor informatie over quarantaine:
 
     - [Quarantaine in Microsoft 365](quarantine-email-messages.md)
     - [Geplaatste berichten en bestanden beheren als beheerder in Microsoft 365](manage-quarantined-messages-and-files.md)
     - [Geplaatste berichten zoeken en vrijgeven als een gebruiker in Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
 
-- **Niet-geverifieerde afzender**: Hiermee wordt de identiteit van een niet-geïdentificeerde afzender in Outlook uitgeschakeld of uitgeschakeld. Precies
+- **Niet-geverifieerde afzender**: Zie de beschrijving in het volgende gedeelte.
 
-  - U kunt een vraagteken (?) toevoegen aan de foto van de afzender als het bericht SPF-of DKIM-controles niet doorschakelt **en** het bericht geen DMARC of [samengestelde verificatie](email-validation-and-authentication.md#composite-authentication)passeert.
+### <a name="unauthenticated-sender"></a>Niet-geverifieerde afzender
 
-  - Met de tag via (chris@contoso.com <u>via</u> Michelle@fabrikam.com) wordt de toevoeging van het domein in het van-adres (de afzender van het bericht dat wordt weergegeven in e-mail cliënten) anders dan het domein in de-handtekening of het **e-mail** adres. Zie voor meer informatie over deze adressen [een overzicht van e-mail standaarden](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
+Niet-geverifieerde afzender-identificatie maakt deel uit van de [spoof-instellingen](#spoof-settings) die beschikbaar zijn in anti-phishingfilter en op een anti-PHISHINGFILTER van ATP zoals beschreven in de vorige sectie.
 
-  Als u wilt voorkomen dat deze id's worden toegevoegd aan berichten van specifieke afzenders, hebt u de volgende opties:
+Met de instelling **niet-geverifieerde afzender** schakelt u de identificatie van niet-geïdentificeerde afzender in Outlook in of uit. Precies
 
-  - Laat de afzender spoofen in het beleid voor spoof Intelligence. Zie voor instructies voor instructies het artikel [spoof Intelligence configureren in Microsoft 365](learn-about-spoof-intelligence.md).
+- U kunt een vraagteken (?) toevoegen aan de foto van de afzender als het bericht SPF-of DKIM-controles niet doorschakelt **en** het bericht geen DMARC of [samengestelde verificatie](email-validation-and-authentication.md#composite-authentication)passeert.
 
-  - [Configureer e-mail verificatie](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) voor het domein van de afzender.
+- Met de tag via (chris@contoso.com <u>via</u> Michelle@fabrikam.com) wordt de toevoeging van het domein in het van-adres (de afzender van het bericht dat wordt weergegeven in e-mail cliënten) anders dan het domein in de-handtekening of het **e-mail** adres. Zie voor meer informatie over deze adressen [een overzicht van e-mail standaarden](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
+
+Als u wilt voorkomen dat deze id's worden toegevoegd aan berichten van specifieke afzenders, hebt u de volgende opties:
+
+- Laat de afzender spoofen in het beleid voor spoof Intelligence. Zie voor instructies voor instructies het artikel [spoof Intelligence configureren in Microsoft 365](learn-about-spoof-intelligence.md).
+
+- [Configureer e-mail verificatie](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) voor het domein van de afzender.
   
-    - Voor het vraagteken in de foto van de afzender, SPF of DKIM zijn de belangrijkste punten.
-    - Voor de via-tag bevestigt u het domein in de DKIM-handtekening of het e-mail adres dat overeenkomt met het **e-mail** adres of het subdomein van het domein in het van-adres.
+  - Voor het vraagteken in de foto van de afzender, SPF of DKIM zijn de belangrijkste punten.
+  - Voor de via-tag bevestigt u het domein in de DKIM-handtekening of het e-mail adres dat overeenkomt met het **e-mail** adres of het subdomein van het domein in het van-adres.
 
-  Zie voor meer informatie [verdachte berichten identificeren in Outlook.com en de webversie van Outlook](https://support.microsoft.com/office/3d44102b-6ce3-4f7c-a359-b623bec82206)
+Zie voor meer informatie [verdachte berichten identificeren in Outlook.com en de webversie van Outlook](https://support.microsoft.com/office/3d44102b-6ce3-4f7c-a359-b623bec82206)
 
 ## <a name="exclusive-settings-in-atp-anti-phishing-policies"></a>Exclusieve instellingen in ATP anti-phishings beleid
 
@@ -105,34 +133,11 @@ In dit gedeelte worden de beleidsinstellingen beschreven die alleen beschikbaar 
 > [!NOTE]
 > Standaard zijn de instellingen voor exclusief ATP niet geconfigureerd of ingeschakeld, zelfs in het standaardbeleid. Als u deze functies wilt gebruiken, moet u deze functie in-of uitschakelen in het standaard-anti-phishingfilter van ATP, of aangepaste ATP anti phishingfilter-beleidsregels maken en configureren.
 
-### <a name="policy-settings-in-atp-anti-phishing-policies"></a>Beleidsinstellingen in ATP anti-phishings beleid
-
-De volgende beleidsinstellingen zijn alleen beschikbaar in het ATP anti-phishings beleid:
-
-- **Naam**: u kunt de naam van het standaard anti-Phishingfilter niet wijzigen, maar u kunt wel een naam geven en aangepaste beleidsregels maken die u zelf maakt.
-
-- Een **Beschrijving** van U kunt geen beschrijving toevoegen aan het standaard anti-phishingfilter, maar u kunt wel een beschrijving toevoegen en wijzigen voor aangepaste beleidsregels die u maakt.
-
-- **Toegepast op**: identificeert interne geadresseerden waarop het ATP anti-phishingfilter van toepassing is. Deze waarde is vereist in aangepaste beleidsregels en niet beschikbaar in het standaardbeleid (het standaardbeleid is van toepassing op alle geadresseerden).
-
-    U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
-
-  - De **ontvanger is**: een of meer postvakken, e-mail gebruikers of contactpersonen in uw organisatie.
-  - **De ontvanger is lid van**: een of meer groepen in uw organisatie.
-  - **Het domein van de ontvanger is**: een of meer van de geconfigureerde domeinen in microsoft 365.
-
-  - **Behalve wanneer**: uitzonderingen voor de regel. De instellingen en het gedrag zijn exact hetzelfde als de voorwaarden:
-
-    - **Geadresseerde is**
-    - **De ontvanger is lid van**
-    - **Het domein van de ontvanger is**
-
 ### <a name="impersonation-settings-in-atp-anti-phishing-policies"></a>Imitatie-instellingen in ATP anti-phishingfilter
 
 Met imitatie wordt het e-mail domein van de afzender of het e-mail domein van de afzender in een bericht vergelijkbaar met een echte afzender of een domein:
 
 - Een voorbeeld van imitatie van de domein contoso.com is ćóntoso.com.
-
 - Een voorbeeld van imitatie van de User michelle@contoso.com is michele@contoso.com.
 
 Mogelijk wordt een geïmiteerd domein ook als legitiem beschouwd (geregistreerd domein, geconfigureerde e-mail verificatie records, etc.), behalve dat de intentie van de geadresseerden de geadresseerden moet opzeggen.
@@ -155,7 +160,7 @@ De volgende imitatie-instellingen zijn alleen beschikbaar in het ATP anti-phishi
 
   - **Bericht verplaatsen naar map Ongewenste**E-mail: het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail. Het bericht wordt verplaatst naar de map Ongewenste e-mail in Exchange Online als de regel voor ongewenste e-mail is ingeschakeld voor het postvak (deze optie is standaard ingeschakeld). Zie voor meer informatie [instellingen voor ongewenste E-mail configureren in Exchange Online-postvakken in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
-    - **Quarantine het bericht**: verzendt het bericht naar Quarantine in plaats van de bedoelde geadresseerden. Zie de volgende artikelen voor meer informatie over quarantaine:
+    - **Quarantine het bericht**: verzendt het bericht naar Quarantine in plaats van de bedoelde geadresseerden. Zie de volgende artikelen voor informatie over quarantaine:
 
     - [Quarantaine in Microsoft 365](quarantine-email-messages.md)
     - [Geplaatste berichten en bestanden beheren als beheerder in Microsoft 365](manage-quarantined-messages-and-files.md)

@@ -1,5 +1,5 @@
 ---
-title: Anti-phishingbeleid configureren in EOP
+title: Anti-phishings beleid configureren in EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,366 +13,362 @@ localization_priority: Normal
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen leren hoe u het anti-phishingbeleid maakt, wijzigt en verwijdert dat beschikbaar is in EOP-organisaties (Exchange Online Protection) met of zonder Exchange Online-postvakken.
-ms.openlocfilehash: b6b95515ad44a65dbdd8a7516d8e6c8b2a386450
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+description: Beheerders kunnen leren hoe u het anti-phishingfilter kunt maken, wijzigen en verwijderen dat beschikbaar is in organisaties met een Exchange Online-bescherming (EOP) met of zonder postvakken van Exchange Online.
+ms.openlocfilehash: a00cb2d17ff4824200b97514047aeb52176a28f7
+ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726783"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804252"
 ---
-# <a name="configure-anti-phishing-policies-in-eop"></a>Anti-phishingbeleid configureren in EOP
+# <a name="configure-anti-phishing-policies-in-eop"></a>Anti-phishings beleid configureren in EOP
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken, is er een standaard antiphishingbeleid dat een beperkt aantal anti-spoofingfuncties bevat die standaard zijn ingeschakeld. Zie [Spoofinstellingen in het antiphishingbeleid](set-up-anti-phishing-policies.md#spoof-settings)voor meer informatie.
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken is er een standaard anti-phishingfilter met een beperkt aantal anti-spoofings functies die standaard zijn ingeschakeld. Zie voor meer informatie [spoofberichten instellingen in anti-phishingfilter](set-up-anti-phishing-policies.md#spoof-settings).
 
-Beheerders kunnen het standaard antiphishingbeleid weergeven, bewerken en configureren (maar niet verwijderen). Voor meer granulariteit u ook aangepaste antiphishingbeleid maken dat van toepassing is op specifieke gebruikers, groepen of domeinen in uw organisatie. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
+Beheerders kunnen het standaard anti phishingfilter-beleid bekijken, bewerken en configureren (maar niet verwijderen). Voor een betere granulatie kunt u ook een aangepast anti-phishings beleid maken dat van toepassing is op specifieke gebruikers, groepen of domeinen in uw organisatie. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
 
-Organisaties met Exchange Online-postvakken kunnen antiphishingbeleid configureren in het Security & Compliance Center of in Exchange Online PowerShell. Zelfstandige EOP-organisaties kunnen alleen het Security & Compliance Center gebruiken.
+Organisaties met Exchange Online-postvakken kunnen anti-phishings beleid in het beveiligings & nalevings centrum of in Exchange Online PowerShell configureren. Zelfstandige EOP-organisaties kunnen alleen gebruikmaken van de beveiligings & nalevings centrum.
 
-Zie ATP-antiphishingbeleid configureren voor informatie over het maken en wijzigen van het geavanceerdere [ATP-antiphishingbeleid](configure-atp-anti-phishing-policies.md)dat beschikbaar is in Office 365 Advanced Threat Protection (Office 365 ATP).
+Zie voor meer informatie over het maken en aanpassen van het meer geavanceerd ATP anti- [virus beleid dat](configure-atp-anti-phishing-policies.md)beschikbaar is in Office 365 Advanced Threat Protection (Office 365 ATP).
 
-## <a name="anti-phishing-policies-in-the-security--compliance-center-vs-powershell"></a>Anti-phishingbeleid in het Security & Compliance Center vs PowerShell
+De basisonderdelen van een anti phishingfilter zijn:
 
-De basiselementen van een anti-phishing beleid zijn:
+- **Het anti-virus beleid**: Hiermee geeft u de phishing-beveiliging op om in of uit te schakelen, en de acties voor het toepassen van opties.
+- **De anti-phishings regel**: Hiermee geeft u de prioriteiten en de filters voor geadresseerden op (wie het beleid van toepassing is) voor een anti-phishing beleid.
 
-- **Het anti-phish-beleid**: Hiermee geeft u de bescherming tegen phishing op om in te schakelen of uit te schakelen en de acties om opties toe te passen.
+Het verschil tussen deze twee elementen is niet duidelijk wanneer u een anti-phishing beleid beheert in de beveiligings & nalevings centrum:
 
-- **De anti-phish regel**: Hiermee geeft u de prioriteit en ontvanger filters (die het beleid van toepassing is op) voor een anti-phish beleid.
+- Wanneer u een anti-Phishingfilter maakt, maakt u in feite een anti-phishings regel en het bijbehorende anti-phishings beleid op hetzelfde moment met dezelfde naam voor beide.
+- Wanneer u een anti-phishingfilter wijzigt, worden de instellingen voor de naam, prioriteit, ingeschakeld of uitgeschakeld en de filters voor geadresseerden gewijzigd. Alle andere instellingen wijzigen het bijbehorende anti-phishings beleid.
+- Wanneer u een anti phishingfilter verwijdert, worden de anti-phishings regel en het bijbehorende anti-onphishings beleid verwijderd.
 
-Het verschil tussen deze twee elementen is niet duidelijk wanneer u anti-phishingbeleid beheert in het Security & Compliance Center:
+In Exchange Online PowerShell beheert u het beleid en de regel afzonderlijk. Zie voor meer informatie de sectie [Exchange Online PowerShell gebruiken voor het configureren van anti-phishingfilter](#use-exchange-online-powershell-to-configure-anti-phishing-policies) -secties verderop in dit onderwerp.
 
-- Wanneer u een anti-phishingbeleid maakt in het Security & Compliance Center, maakt u eigenlijk een anti-phish-regel en het bijbehorende anti-phish-beleid tegelijkertijd met dezelfde naam voor beide.
+Elke organisatie heeft een ingebouwd anti-phishingfilter met de naam Office365 AntiPhish standaard met de volgende eigenschappen:
 
-- Wanneer u een antiphishingbeleid wijzigt in het Security & Compliance Center, wijzigen instellingen met betrekking tot de naam, prioriteit, ingeschakeld of uitgeschakeld, en ontvangersfilters de anti-phishregel. Alle andere instellingen wijzigen het bijbehorende anti-phish-beleid.
+- Het beleid wordt toegepast op alle geadresseerden in de organisatie, ook al is er geen anti-avond regel (Recipient filters) gekoppeld aan het beleid.
+- Het beleid heeft de aangepaste prioriteits **waarde die** u niet kunt wijzigen (het beleid wordt altijd de laatste toegepast). Aangepaste beleidsregels die u maakt, hebben altijd een hogere prioriteit.
+- Het beleid is het standaardbeleid (de eigenschap **IsDefault** heeft de waarde `True` ) en u kunt het standaardbeleid niet verwijderen.
 
-- Wanneer u een anti-phishingbeleid verwijdert uit het Security & Compliance Center, worden de anti-phishregel en het bijbehorende anti-phish-beleid verwijderd.
-
-In Exchange Online PowerShell is het verschil tussen anti-phish beleid en anti-phish regels duidelijk. Je beheert anti-phish beleid met behulp van de ** \* -AntiPhishPolicy** cmdlets, en je beheert anti-phish regels met behulp van de ** \* -AntiPhishRule** cmdlets.
-
-- In PowerShell maakt u eerst het anti-phish-beleid en vervolgens maakt u de anti-phish-regel die het beleid identificeert waarop de regel van toepassing is.
-
-- In PowerShell wijzigt u de instellingen in het anti-phish-beleid en de anti-phish-regel afzonderlijk.
-
-### <a name="default-atp-anti-phishing-policy"></a>Standaard ATP-antiphishingbeleid
-
-Elke organisatie heeft een ingebouwd antiphishingbeleid met de naam Office365 AntiPhish Default met de volgende eigenschappen:
-
-- Het beleid met de naam Office365 AntiPhish Default wordt toegepast op alle ontvangers in de organisatie, ook al is er geen anti-phish regel (geadresseerdefilters) gekoppeld aan het beleid.
-
-- Het beleid met de naam Office365 AntiPhish Default heeft de aangepaste **prioriteitswaarde Laagste** die u niet wijzigen (het beleid wordt altijd als laatste toegepast). Alle aangepaste beleidsregels die u maakt, hebben altijd een hogere prioriteit dan het beleid met de naam Office365 AntiPhish Default.
-
-- Het beleid met de naam Office365 AntiPhish Default is het standaardbeleid (de eigenschap **IsDefault** heeft de `True` waarde) en u het standaardbeleid niet verwijderen.
-
-Om de effectiviteit van anti-phishing-bescherming te vergroten, u aangepaste anti-phishing-beleid met strengere instellingen die worden toegepast op specifieke gebruikers of groepen gebruikers.
+Voor een grotere effectiviteit van de bescherming tegen phishing is het mogelijk om een aangepast anti-phishings beleid te maken met strikte instellingen die worden toegepast op specifieke gebruikers of groepen gebruikers.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de **anti-phishingpagina** wilt gaan, gebruikt u <https://protection.office.com/antiphishing> .
+- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de **anti malafide** pagina wilt gaan, gebruikt u <https://protection.office.com/antiphishing> .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
-  U het beleid voor phishing niet beheren in standalone EOP PowerShell.
+  U kunt geen anti-phishings beleid beheren in standalone EOP PowerShell.
 
-- U moet machtigingen krijgen voordat u de procedures in dit onderwerp uitvoeren:
+- U moet beschikken over bepaalde machtigingen om de procedures in dit onderwerp te kunnen uitvoeren:
 
-  - Als u antiphishingbeleid wilt toevoegen, wijzigen en verwijderen, moet u lid zijn van een van de volgende rolgroepen:
+  - Als u een anti-phishingfilter wilt toevoegen, wijzigen of verwijderen, moet u lid zijn van een van de volgende groepen rollen:
 
-    - **Organisatiebeheer** of **beveiligingsbeheerder** in het [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).
-    - **Organisatiebeheer** of **hygiënebeheer** in [Exchange Online.](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)
+    - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
+    - **Organisatiebeheer** of **Hygiënebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-  - Voor alleen-lezen toegang tot antiphishingbeleid moet u lid zijn van een van de volgende rolgroepen:
+  - Voor alleen-lezen toegang tot anti phishingfilter moet u lid zijn van een van de volgende rollen groepen:
 
-    - **Security Reader** in het [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).
-    - **Alleen-weergeven organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+    - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
+    - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-- Om antispambeleid in standalone EOP te kunnen maken en wijzigen, moet u iets doen waarvoor _hydratatie_ voor uw tenant vereist is. In het Exchange-beheercentrum (EAC) u bijvoorbeeld naar het tabblad **Machtigingen** gaan, een bestaande rolgroep selecteren, **op** ![ pictogram Bewerken ](../../media/ITPro-EAC-EditIcon.png) klikken en een rol verwijderen (die u uiteindelijk weer toevoegt). Als uw tenant nooit is gehydrateerd, krijgt u een dialoogvenster met de naam **Organisatie-instellingen bijwerken** met een voortgangsbalk die moet worden voltooid. Zie de cmdlet [Enable-OrganizationCustomization](https://docs.microsoft.com/powershell/module/exchange/enable-organizationcustomization) (die niet beschikbaar is in standalone EOP PowerShell of in het Security & Compliance Center) voor meer informatie over hydratatie.
+- Als u een anti-spam beleid wilt kunnen maken en wijzigen in standalone EOP, moet u iets doen waarvoor _bidons_ voor uw Tenant is vereist. In het Exchange-Beheercentrum gaat u bijvoorbeeld naar het tabblad **machtigingen** , selecteert u een bestaande rollen groep, klikt u op **Edit** ![ pictogram bewerken bewerken ](../../media/ITPro-EAC-EditIcon.png) en verwijdert u een functie (die u uiteindelijk later gaat toevoegen). Als uw Tenant nooit is gehydrateerd, krijgt u een dialoogvenster met de naam **organisatie-instellingen bijwerken** met een voortgangsbalk die succesvol moet worden voltooid. Als u meer wilt weten over bidons, raadpleegt u de cmdlet [Enable-OrganizationCustomization](https://docs.microsoft.com/powershell/module/exchange/enable-organizationcustomization) (die niet beschikbaar is in een zelfstandige EOP PowerShell of in het beveiligings & nalevings centrum).
 
-- Zie [EOP-standaardbeleidsinstellingen voor antiphishing voor](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings)onze aanbevolen instellingen voor antiphishingbeleid.
+- Voor de aanbevolen instellingen voor het anti-phishings beleid raadpleegt u [EOP standaard anti phishingfilter-beleidsinstellingen](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings).
 
-- Sta maximaal 30 minuten toe om het bijgewerkte beleid toe te passen.
+- Maximaal 30 minuten toegestaan voor het nieuwe beleid dat u wilt toepassen.
 
-- Zie [Volgorde en voorrang van e-mailbeveiliging](how-policies-and-protections-are-combined.md)voor informatie over waar antiphishingbeleid wordt toegepast in de filterpijplijn.
+- Zie de [volgorde en prioriteit van e-mail beveiliging](how-policies-and-protections-are-combined.md)voor informatie over waar anti phishingfilter in de filter pijplijn wordt toegepast.
 
-## <a name="use-the-security--compliance-center-to-create-anti-phishing-policies"></a>Gebruik het Security & Compliance Center om antiphishingbeleid te maken
+## <a name="use-the-security--compliance-center-to-create-anti-phishing-policies"></a>Beveiligings & voor compliance gebruiken om een anti-phishings beleid te maken
 
-Als u een aangepast antiphishingbeleid maakt in het Security & Compliance Center, worden tegelijkertijd de anti-phish-regel en het bijbehorende anti-phish-beleid met dezelfde naam voor beide gemaakt.
+Als u een aangepast anti-Phishingfilter maakt in het compliance-& Beveiligingscentrum, maakt u op hetzelfde moment de anti-phishing regel en het bijbehorende anti-phishings beleid met dezelfde naam voor beide.
 
-Wanneer u een antiphishingbeleid maakt, u alleen de beleidsnaam, de beschrijving en het ontvangerfilter opgeven waarop wordt aangegeven op wie het beleid van toepassing is. Nadat u het beleid hebt gemaakt, u het beleid wijzigen om de standaardinstellingen voor antiphishing te wijzigen of te bekijken.
+Wanneer u een anti Phishingfilter maakt, kunt u alleen de Beleidsnaam, de beschrijving en het filter voor de ontvanger opgeven waarmee wordt aangegeven voor wie het beleid van toepassing is. Nadat u het beleid hebt gemaakt, kunt u het beleid wijzigen, zodat u de standaardinstellingen voor anti phishing kunt wijzigen of bekijken.
 
-1. Ga in het Security & Compliance Center naar **Threat management** \> **Policy** \> **Anti-phishing**.
+1. Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> **anti-phishing**beleid voor Threat Management.
 
-2. Klik op de pagina **Anti-phishing** op **Maken**.
+2. Op de **anti phishing** -pagina klikt u op **maken**.
 
-3. De wizard Een nieuw beleid maken met **een ander beleid maken** wordt geopend. Configureer op de pagina **Naam van uw beleid** de volgende instellingen:
+3. De wizard **nieuw anti-phishingfilterbeleid maken** wordt geopend. Configureer de volgende instellingen op de pagina **naam van uw beleid** :
 
    - **Naam**: een unieke beschrijvende naam voor het beleid.
 
    - **Beschrijving**: voer een optionele beschrijving in voor het beleid.
 
-   Klik op **Volgende**als u klaar bent.
+   Wanneer u klaar bent, klikt u op **volgende**.
 
-4. Identificeer **op** de pagina Toegepast op die wordt weergegeven de interne ontvangers waarop het beleid van toepassing is.
+4. Op de pagina **toegepast op** die wordt weergegeven, identificeert u de interne geadresseerden waarop het beleid van toepassing is.
 
    U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
 
-   Klik **op Een voorwaarde toevoegen**. Selecteer in de vervolgkeuzelijst die wordt weergegeven een voorwaarde onder **Toegepast als**:
+   Klik op **een voorwaarde toevoegen**. Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven **als**:
 
-   - **De ontvanger is:** Hiermee geeft u een of meer postvakken, e-mailgebruikers of e-mailcontactpersonen in uw organisatie op.
-   - **De ontvanger is lid van**: Hiermee geeft u een of meer groepen in uw organisatie op.
+   - **De ontvanger is**: geeft een of meer postvakken, e-mail gebruikers of e-mail contactpersonen in uw organisatie op.
+   - **De ontvanger is lid van**: Hiermee geeft u een of meer groepen op in uw organisatie.
    - **Het domein van de geadresseerde is**: specificeert geadresseerden in een of meer van de geconfigureerde domeinen in uw organisatie.
 
-   Nadat u de voorwaarde hebt geselecteerd, wordt een overeenkomstige vervolgkeuzelijst weergegeven met **een van deze** opties.
+   Wanneer u de voorwaarde hebt geselecteerd, wordt een bijbehorende vervolgkeuzelijst weergegeven met een **van deze** vakken.
 
    - Klik in het vak en blader door de lijst met waarden die u wilt selecteren.
-   - Klik in het vak en begin met typen om de lijst te filteren en een waarde te selecteren.
-   - Als u extra waarden wilt toevoegen, klikt u in een leeg gebied in het vak.
-   - Als u afzonderlijke vermeldingen wilt verwijderen, **klikt** u ![ op pictogram Verwijderen verwijderen op de ](../../media/scc-remove-icon.png) waarde.
-   - Als u de hele **Remove** voorwaarde wilt verwijderen, klikt u ![ op pictogram Verwijderen op de ](../../media/scc-remove-icon.png) voorwaarde verwijderen.
+   - Klik in het vak en begin te typen om de lijst te filteren en een waarde te selecteren.
+   - Als u extra waarden wilt toevoegen, klikt u op een leeg gebied in het vak.
+   - Als u afzonderlijke vermeldingen wilt verwijderen **, klikt u** op ![ het pictogram verwijderen ](../../media/scc-remove-icon.png) van de waarde.
+   - Als u de hele voorwaarde wilt verwijderen **, klikt u op** ![ pictogram verwijderen ](../../media/scc-remove-icon.png) in de voorwaarde.
 
-   Als u een aanvullende voorwaarde wilt toevoegen, klikt u op **Een voorwaarde toevoegen** en selecteert u een resterende waarde onder Toegepast **als**.
+   Als u een extra voorwaarde wilt toevoegen, klikt u op **een voorwaarde toevoegen** en selecteert u een resterende waarde onder **toegepast als**.
 
-   Als u uitzonderingen wilt toevoegen, klikt u op **Een voorwaarde toevoegen** en selecteert u een uitzondering onder Behalve **als**. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
+   Als u uitzonderingen wilt toevoegen, klikt u op **een voorwaarde toevoegen** en selecteert u een uitzondering onder **behalve als**. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
 
-   Klik op **Volgende**als u klaar bent.
+   Wanneer u klaar bent, klikt u op **volgende**.
 
-5. Controleer **op** de pagina Uw instellingen die wordt weergegeven de instellingen controleren. U op Elke instelling op **Bewerken** klikken om deze te wijzigen.
+5. Controleer de instellingen op de pagina **uw instellingen bekijken** die wordt weergegeven. U kunt op de verschillende instellingen klikken om de **bewerking** te wijzigen.
 
-   Klik op **Dit beleid maken**als u klaar bent.
+   Wanneer u klaar bent, klikt u op **dit beleid maken**.
 
-6. Klik op **OK** in het bevestigingsdialoogvenster dat wordt weergegeven.
+6. Klik op **OK** in het bevestigingsvenster dat wordt weergegeven.
 
-Nadat u het antiphishingbeleid hebt gemaakt met deze algemene beleidsinstellingen, gebruikt u de instructies in de volgende sectie om de beveiligingsinstellingen in het beleid te configureren.
+Nadat u het anti phishingfilter met deze algemene beleidsinstellingen hebt gemaakt, volgt u de instructies in het volgende gedeelte om de beveiligingsinstellingen in het beleid te configureren.
 
-## <a name="use-the-security--compliance-center-to-modify-anti-phishing-policies"></a>Gebruik het Security & Compliance Center om het antiphishingbeleid te wijzigen
+## <a name="use-the-security--compliance-center-to-modify-anti-phishing-policies"></a>De beveiligings & voor compliance gebruiken om een anti-phishings beleid te wijzigen
 
-Gebruik de volgende procedures om het antiphishingbeleid te wijzigen: een nieuw beleid dat u hebt gemaakt of een bestaand beleid dat u al hebt aangepast.
+Gebruik de volgende procedures om een anti-phishingfilter te wijzigen: een nieuwe beleidsregels die u hebt gemaakt of bestaande beleidsregels die u al hebt aangepast.
 
-1. Als u er nog niet bent, opent u het Security & Compliance Center en gaat u naar **Threat management** \> **Policy** \> **Anti-phishing**.
+1. Als u dit nog niet hebt gedaan, opent u het beveiligings & nalevings centrum en gaat u naar beleid voor **Threat Management** \> **Policy** \> **anti-phishing**.
 
-2. Selecteer het aangepaste anti-phishingbeleid dat u wilt wijzigen. Als het al is geselecteerd, schakelt u de selectie uit en selecteert u het opnieuw.
+2. Selecteer het aangepaste anti-phishingfilter dat u wilt wijzigen. Als de optie al is geselecteerd, schakelt u deze uit en selecteert u het opnieuw.
 
-3. De flyout **van uw beleid \<name\> bewerken** wordt weergegeven. Als u op **Bewerken** in een sectie klikt, krijgt u toegang tot de instellingen in die sectie.
+3. De flyout **uw beleid \<name\> bewerken** wordt weergegeven. Als u in een sectie op **bewerken** klikt, krijgt u toegang tot de instellingen in deze sectie.
 
-   - De volgende stappen worden weergegeven in de volgorde waarin de secties worden weergegeven, maar ze zijn niet opeenvolgend (u de secties in willekeurige volgorde selecteren en wijzigen).
+   - De volgende stappen worden weergegeven in de volgorde waarin de secties worden weergegeven, maar ze zijn niet opeenvolgend (u kunt de secties in een willekeurige volgorde selecteren en wijzigen).
 
-   - Nadat u in een sectie op Bewerken hebt **geklikt,** worden de beschikbare instellingen weergegeven in een wizard-indeling, maar u in willekeurige volgorde binnen de pagina's springen en op **Opslaan** op een pagina klikken (of pictogram **Annuleren** of **Sluiten sluiten** om terug te keren naar de pagina Uw beleid ![ ](../../media/scc-remove-icon.png) ** \<name\> bewerken** (u hoeft de laatste pagina van de wizard niet te bezoeken om op te slaan of te vertrekken).
+   - Nadat u op **bewerken** in een sectie hebt geklikt, worden de beschikbare instellingen in de wizard indeling weergegeven, maar u kunt wel binnen de pagina's in een willekeurige Volg **Cancel** orde springen **Close** , en u kunt op de pagina **Opslaan** of sluiten klikken op het pictogram voor het ![ ](../../media/scc-remove-icon.png) **bewerken van uw beleid \<name\> ** (u hoeft niet te klikken op de laatste pagina van de wizard om de pagina te openen
 
-4. **Beleidsinstelling**: klik op **Bewerken** om dezelfde instellingen te wijzigen die beschikbaar waren toen u [het beleid](#use-the-security--compliance-center-to-create-anti-phishing-policies) in de vorige sectie maakte:
+4. **Beleidsinstelling**: Klik op **bewerken** als u de instellingen wilt wijzigen die beschikbaar waren wanneer u [het beleid hebt gemaakt](#use-the-security--compliance-center-to-create-anti-phishing-policies) in de vorige sectie:
 
    - **Naam**
    - **Beschrijving**
    - **Toegepast op**
-   - **Uw instellingen bekijken**
+   - **De instellingen bekijken**
 
    Wanneer u klaar bent, klikt u op **Opslaan** op een willekeurige pagina.
 
-5. **Spoof**: klik op **Bewerken** om spoofinformatie in of uit te schakelen, de identificatie van niet-geverifieerde afzenders in Of uit te schakelen en de actie te configureren die van toepassing is op berichten van geblokkeerde vervalste afzenders. Zie [Spoofinstellingen in het antiphishingbeleid](set-up-anti-phishing-policies.md#spoof-settings)voor meer informatie.
+5. **Spoof**: Klik op **bewerken** als u de identiteit van spoofing wilt in-of uitschakelen, schakel de identificatie van niet-geverifieerde afzenders in Outlook in of uit en configureer de actie die u wilt toepassen op berichten van geblokkeerde vervalste afzenders. Zie voor meer informatie [spoofberichten instellingen in anti-phishingfilter](set-up-anti-phishing-policies.md#spoof-settings).
 
-   Houd er rekening mee dat dezelfde instellingen ook beschikbaar zijn in het ATP-anti-phishingbeleid.
+   Deze instellingen zijn ook beschikbaar in het ATP anti-phishings beleid.
 
-   - **Instellingen voor spoofingfilters:** de standaardwaarde is **ingeschakeld**en we raden u aan deze aan te laten. Als u deze wilt uitschakelen, schuift u de schakelaar naar **Uit**. Zie [Spoofintelligentie configureren in EOP](learn-about-spoof-intelligence.md)voor meer informatie.
+   - **Instellingen voor spoofing filter**: de standaardwaarde is **ingeschakeld**en u wordt aangeraden deze in te stellen. Verschuif de wissel **knop om deze**uit te schakelen. Zie voor meer informatie [spoof Intelligence configureren in EOP](learn-about-spoof-intelligence.md).
 
      > [!NOTE]
-     > U hoeft de bescherming tegen spoofing niet uit te schakelen als uw MX-record niet naar Microsoft 365 wijst; u in plaats daarvan Uitgebreide filtering voor connectoren inschakelt. Zie Uitgebreide [filtering voor connectoren in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)voor instructies.
+     > U hoeft geen anti-spoofing-beveiliging uit te schakelen als uw MX-record niet verwijst naar Microsoft 365. u kunt in plaats hiervan uitgebreid filteren op connectors. Zie voor meer informatie het artikel [uitgebreid filteren op connectors in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
-   - **Functie niet-geverifieerde afzender inschakelen:** de standaardwaarde is **ingeschakeld.** Als u deze wilt uitschakelen, schuift u de schakelaar naar **Uit**.
+   - **Functie niet-geverifieerde afzender inschakelen**: de standaardwaarde is **ingeschakeld**. Verschuif de wissel **knop om deze**uit te schakelen.
 
-   - **Acties**: Geef de actie op die moet worden uitgevoerd op berichten die niet intelligentie hebben:
+   - **Acties**: de actie opgeven die moet worden uitgevoerd voor berichten die geen spoof Intelligence hebben:
 
-     **Als e-mail wordt verzonden door iemand die uw domein niet mag spoofen:**
+     **Als e-mail wordt verzonden door iemand die uw domein niet mag vervalsen, doet u het**volgende:
 
-     - **Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden**
-     - **Quarantaine het bericht**
+     - **Bericht verplaatsen naar de mappen ongewenste E-mail van de geadresseerde**
+     - **Het bericht Quarantine**
 
-   - **Uw instellingen bekijken:** In plaats van op elke afzonderlijke stap te klikken, worden de instellingen weergegeven in een overzicht.
+   - **Controleer uw instellingen**: in plaats van op elke afzonderlijke stap te klikken, worden de instellingen in een overzicht weergegeven.
 
-     - U in elke sectie op **Bewerken** klikken om terug te springen naar de desbetreffende pagina.
-     - U de volgende instellingen rechtstreeks **in-** of **uitschakelen** op deze pagina:
+     - U kunt in elke sectie op **bewerken** klikken om terug te gaan naar de gewenste pagina.
+     - U kunt de volgende instellingen rechtstreeks op deze pagina **in** -of **uitschakelen** :
 
-       - **Bescherming tegenpoofing inschakelen**
-       - **Functie niet-geverifieerde afzender inschakelen**
+       - **Antispoofing-beveiliging inschakelen**
+       - **Niet-geverifieerde afzender functie inschakelen**
 
    Wanneer u klaar bent, klikt u op **Opslaan** op een willekeurige pagina.
 
-6. Terug op de pagina **Uw beleid \<Name\> bewerken,** uw instellingen controleren en vervolgens op **Sluiten**.
+6. Ga op de pagina ** \<Name\> beleid bewerken** naar de instellingen en klik op **sluiten**.
 
-### <a name="use-the-security--compliance-center-to-modify-the-default-anti-phishing-policy"></a>Gebruik het Security & Compliance Center om het standaard anti-phishingbeleid te wijzigen
+### <a name="use-the-security--compliance-center-to-modify-the-default-anti-phishing-policy"></a>Met behulp van het nalevings centrum voor beveiliging & u het standaard anti-phishingfilter beleid wijzigen
 
-Het standaardbeleid voor antiphishing wordt Office365 AntiPhish Default genoemd en wordt niet weergegeven in de lijst met beleidsregels. Als u het standaardbeleid voor antiphishing wilt wijzigen, voert u de volgende stappen uit:
+Het standaard anti-Phishingfilter wordt de naam Office365 AntiPhish standaard genoemd en wordt niet weergegeven in de lijst met beleidsregels. Ga als volgt te werk om het standaard anti-phishingfilter te wijzigen:
 
-1. Ga in het Security & Compliance Center naar **Threat management** \> **Policy** \> **Anti-phishing**.
+1. Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> **anti-phishing**beleid voor Threat Management.
 
-2. Klik op de pagina **Antiphishing** op **Standaardbeleid**.
+2. Klik op de pagina **anti phishing** op **standaardbeleid**.
 
-3. De pagina **Office365 AntiPhish Default-standaard** van het beleid bewerken, wordt weergegeven. De volgende secties zijn beschikbaar, die identieke instellingen bevatten voor wanneer u [een aangepast beleid wijzigt.](#use-the-security--compliance-center-to-modify-anti-phishing-policies)
+3. De standaardpagina voor het **bewerken van uw beleid Office365 AntiPhish** wordt weergegeven. De volgende secties zijn beschikbaar, met een identieke instelling voor [het wijzigen van een aangepast beleid](#use-the-security--compliance-center-to-modify-anti-phishing-policies).
 
    - **Imitatie**
-   - **Spoof**
+   - **Met**
    - **Geavanceerde instellingen**
 
    De volgende instellingen zijn niet beschikbaar wanneer u het standaardbeleid wijzigt:
 
-   - U de sectie **Beleidsinstelling** en waarden zien, maar er is geen koppeling **bewerken,** dus u de instellingen niet wijzigen (beleidsnaam, beschrijving en op wie het beleid van toepassing is (het is van toepassing op alle ontvangers)).
-   - U het standaardbeleid niet verwijderen.
-   - U de prioriteit van het standaardbeleid niet wijzigen (het wordt altijd als laatste toegepast).
+   - U ziet de secties en waarden van de **beleidsinstelling** , maar er is geen koppeling voor **bewerken** , zodat u de instellingen (Beleidsnaam en beschrijving, en wie het beleid van toepassing is op alle geadresseerden), niet kunt wijzigen.
+   - U kunt het standaardbeleid niet verwijderen.
+   - Het is niet mogelijk om de prioriteit van het standaardbeleid te wijzigen (dit wordt altijd als laatste toegepast).
 
-4. Bekijk op de pagina **Office365 AntiPhish Default bewerken** de instellingen en klik op **Sluiten**.
+4. Controleer de instellingen op de pagina **uw beleid Office365 AntiPhish standaard** instellen en klik op **sluiten**.
 
-### <a name="enable-or-disable-custom-anti-phishing-policies"></a>Aangepast antiphishingbeleid in- of uitschakelen
+### <a name="enable-or-disable-custom-anti-phishing-policies"></a>Aangepast anti-phishings beleid in-of uitschakelen
 
-1. Ga in het Security & Compliance Center naar **Threat management** \> **Policy** \> **Anti-phishing**.
+1. Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> **anti-phishing**beleid voor Threat Management.
 
-2. Let op de waarde in de kolom **Status:**
+2. Let op de waarde in de kolom **status** :
 
-   - Schuif de schakel naar **Uit** om het beleid uit te schakelen.
+   - Schuif de wisselknop naar **uit** om het beleid uit te schakelen.
 
-   - Schuif de schakelaar **naar Aan** om het beleid in te schakelen.
+   - Schuif de wisselknop naar **aan om het beleid in te** schakelen.
 
-U het standaardbeleid voor antiphishing niet uitschakelen.
+U kunt het standaard anti-Phishingfilter niet uitschakelen.
 
-### <a name="set-the-priority-of-custom-anti-phishing-policies"></a>De prioriteit van aangepast antiphishingbeleid instellen
+### <a name="set-the-priority-of-custom-anti-phishing-policies"></a>De prioriteit van een aangepast anti-phishings beleid instellen
 
-Antiphishingbeleid krijgt standaard een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere beleidsregels hebben een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee verschillende beleidsregels kunnen niet dezelfde prioriteit hebben.
+Standaard krijgt u een anti-phishingfilter met een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere beleidsregels zijn een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). U kunt geen enkele beleidsregels instellen voor het verwerken van het beleid en het verwerken van beleid stopt na het eerste beleid.
 
-Aangepaste anti-phishingbeleid wordt weergegeven in de volgorde waarin ze worden verwerkt (het eerste beleid heeft de **prioriteitswaarde** 0). Het standaardbeleid voor antiphishing met de naam Office365 AntiPhish Default heeft de aangepaste **prioriteitswaarde Laagste**en u deze niet wijzigen.
+Zie de [volgorde en prioriteit van e-mail beveiliging](how-policies-and-protections-are-combined.md)voor meer informatie over de volgorde van prioriteit en de manier waarop meerdere beleidsregels worden geëvalueerd en toegepast.
 
- **Opmerking:** In het Security & Compliance Center u de prioriteit van het antiphishingbeleid alleen wijzigen nadat u het hebt gemaakt. In PowerShell u de standaardprioriteit overschrijven wanneer u de anti-phish-regel maakt (die van invloed kan zijn op de prioriteit van bestaande regels).
+Een aangepast anti-phishings beleid wordt weergegeven in de volgorde waarin ze worden verwerkt ( **het eerste** beleid heeft de waarde 0). Het standaard anti-phishingfilter met de naam Office365 AntiPhish standaard heeft de waarde van een aangepaste **prioriteit en kunt**deze niet wijzigen.
 
-Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhogen** of **Prioriteit verlagen** in de eigenschappen van het beleid (u het **prioriteitsnummer** niet direct wijzigen in het Security & Compliance Center). Het wijzigen van de prioriteit van een beleid heeft alleen zin als u meerdere beleidsregels hebt.
+ **Opmerking**: in het beveiligings & nalevings centrum kunt u de prioriteit van het anti phishingfilter wijzigen nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit negeren wanneer u de regel voor de anti-phishing maakt (die van invloed kunnen zijn op de prioriteit van bestaande regels).
 
-1. Ga in het Security & Compliance **Threat management** Center naar \> **Policy** \> **AtP-antiphishing**van threat management.
+Als u de prioriteit van een beleid wilt wijzigen, klikt u op **prioriteit verhogen** of **prioriteit verlagen** in de eigenschappen van het beleid (u kunt het **prioriteits** nummer niet rechtstreeks wijzigen in de beveiligings & compliance Center). Als u meerdere beleidsregels hebt, kunt u de prioriteit van een beleid alleen wijzigen.
 
-2. Selecteer het beleid dat u wilt wijzigen. Als het al is geselecteerd, schakelt u de selectie uit en selecteert u het opnieuw.
+1. Ga in het beveiligings & compliance naar het compliance-beleid voor het **beheer** van behulp van een \> **Policy** \> **anti-phishing**.
 
-3. De flyout **van uw beleid \<name\> bewerken** wordt weergegeven.
+2. Selecteer het beleid dat u wilt wijzigen. Als de optie al is geselecteerd, schakelt u deze uit en selecteert u het opnieuw.
 
-   - Het aangepaste anti-phishingbeleid met de **prioriteitswaarde** **0** heeft alleen de knop **Prioriteit verlagen** beschikbaar.
+3. De flyout **uw beleid \<name\> bewerken** wordt weergegeven.
 
-   - Het aangepaste anti-phishingbeleid met de laagste **prioriteitswaarde** (bijvoorbeeld **3)** heeft alleen de knop **Prioriteit verhogen** beschikbaar.
+   - Het aangepaste anti-phishingfilter met de **prioriteits** waarde **0** heeft slechts de knop **prioriteit verlagen** .
 
-   - Als u drie of meer aangepaste antiphishingbeleid hebt, hebben beleidsregels tussen de hoogste en laagste prioriteitswaarden zowel de knoppen **Prioriteit Verhogen** als **Prioriteitsknoppen verlagen** beschikbaar.
+   - Het aangepaste anti-phishingfilter met de laagste **prioriteits** waarde (bijvoorbeeld **3**) is slechts de knop **prioriteit verhogen** beschikbaar.
 
-4. Klik **op Prioriteit verhogen** of Prioriteit **verlagen** om de **prioriteitswaarde** te wijzigen.
+   - Als u beschikt over drie of meer aangepaste anti phishingfilter-beleidsregels, hebben beleidsregels tussen de hoogste en laagste prioriteit de knoppen **prioriteit verhogen** en **prioriteit verlagen** .
+
+4. Klik op **prioriteit verhogen** of **prioriteit verkleinen** om de **prioriteits** waarde te wijzigen.
 
 5. Klik op **Sluiten** wanneer u gereed bent.
 
-## <a name="use-the-security--compliance-center-to-view-anti-phishing-policies"></a>Gebruik het Security & Compliance Center om antiphishingbeleid te bekijken
+## <a name="use-the-security--compliance-center-to-view-anti-phishing-policies"></a>Het Beveiligingscentrum voor beveiliging & gebruiken om anti phishingfilter te bekijken
 
-1. In het Security & Compliance Center en ga naar **Threat management** \> **Policy** \> **Anti-phishing**.
+1. Ga in het beveiligings & compliance Center naar het beleid voor **bedreigings beheer** en ga \> **Policy** \> **tegen phishing**.
 
-2. Een van de volgende stappen uitvoeren:
+2. Voer een van de volgende stappen uit:
 
-   - Selecteer een aangepast antiphishingbeleid dat u wilt weergeven. Als het al is geselecteerd, schakelt u de selectie uit en selecteert u het opnieuw.
+   - Selecteer een aangepast anti-phishingfilter dat u wilt bekijken. Als de optie al is geselecteerd, schakelt u deze uit en selecteert u het opnieuw.
 
-   - Klik **op Standaardbeleid** om het standaardbeleid voor phishing weer te geven.
+   - Klik op **standaardbeleid** om het standaard anti-phishingfilter te bekijken.
 
-3. De flyout **van uw beleid \<name\> bewerken** wordt weergegeven, waar u de instellingen en waarden bekijken.
+3. De flyout voor het **beleid \<name\> bewerken** wordt weergegeven, waarin u de instellingen en waarden kunt weergeven.
 
-## <a name="use-the-security--compliance-center-to-remove-anti-phishing-policies"></a>Gebruik het Security & Compliance Center om antiphishingbeleid te verwijderen
+## <a name="use-the-security--compliance-center-to-remove-anti-phishing-policies"></a>De beveiligings & gebruiken om anti phishings beleid te verwijderen
 
-1. Ga in het Security & Compliance Center naar **Threat management** \> **Policy** \> **Anti-phishing**.
+1. Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> **anti-phishing**beleid voor Threat Management.
 
-2. Selecteer het beleid dat u wilt verwijderen. Als het al is geselecteerd, schakelt u de selectie uit en selecteert u het opnieuw.
+2. Selecteer het beleid dat u wilt verwijderen. Als de optie al is geselecteerd, schakelt u deze uit en selecteert u het opnieuw.
 
-3. Klik in de flyout **beleid \<name\> bewerken** die wordt weergegeven op **Beleid verwijderen**en klik vervolgens op **Ja** in het waarschuwingsdialoogvenster dat wordt weergegeven.
+3. Klik in het vervolgmenu **uw beleidsregels \<name\> bewerken** dat wordt weergegeven op **beleid verwijderen**en klik vervolgens op **Ja** in het waarschuwingsvenster dat wordt weergegeven.
 
 U kunt het standaardbeleid niet verwijderen.
 
-## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies"></a>Exchange Online PowerShell gebruiken om antiphishingbeleid te configureren
+## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies"></a>Een anti phishingfilter configureren met Exchange Online PowerShell
 
-De volgende procedures zijn niet beschikbaar in zelfstandige EOP-organisaties.
+Zoals hierboven beschreven, bestaat een anti-spam beleid en een anti-phishings regel.
 
-### <a name="use-powershell-to-create-anti-phishing-policies"></a>PowerShell gebruiken om antiphishingbeleid te maken
+In Exchange Online PowerShell is het verschil tussen anti-malwarebeleid en anti-phishing regels zichtbaar. U een anti-phishings beleid beheert met behulp van de cmdlets ** \* AntiPhishPolicy** en u beheert de anti-phishings regels met behulp van de cmdlets voor ** \* AntiPhishRule** .
 
-Het maken van een anti-phishing beleid in PowerShell is een proces in twee stappen:
+- In PowerShell maakt u eerst het anti-phishings beleid en vervolgens maakt u een anti-phishings regel waarmee het beleid wordt aangegeven waarop de regel van toepassing is.
+- In PowerShell wijzigt u de instellingen van het anti-phishings beleid en de anti-phishing regel afzonderlijk.
+- Wanneer u een anti-phishings beleid verwijdert uit PowerShell, wordt de overeenkomstige anti-phishing regel niet automatisch verwijderd en vice versa.
 
-1. Maak het anti-phish beleid.
+> [!NOTE]
+> De volgende PowerShell-procedures zijn niet beschikbaar in zelfstandige EOP-organisaties die gebruikmaken van Exchange Online Protection PowerShell.
 
-2. Maak de anti-phish regel die het anti-phish beleid aangeeft waarop de regel van toepassing is.
+### <a name="use-powershell-to-create-anti-phishing-policies"></a>PowerShell gebruiken om een anti-phishings beleid te maken
+
+Het maken van een anti-phishingfilter in PowerShell is een procedure die bestaat uit twee stappen:
+
+1. Maak het anti-phishings beleid.
+2. Maak de anti-phishings regel waarmee het anti-phishings beleid wordt aangegeven waarop de regel van toepassing is.
 
  **Opmerkingen**:
 
-- U een nieuwe anti-phish regel maken en er een bestaand, niet-gekoppeld anti-phish beleid aan toewijzen. Een anti-phish regel kan niet worden geassocieerd met meer dan een anti-phish beleid.
+- U kunt een nieuwe anti-phishings regel maken en er een bestaande, niet-bijbehorend anti-phishings beleid aan toewijzen. Een anti-phishings regel kan niet worden gekoppeld aan meer dan een anti-phishings beleid.
 
-- U de volgende instellingen voor nieuw antifromancebeleid configureren in PowerShell die pas beschikbaar zijn in het Security & Compliance Center nadat u het beleid hebt gemaakt:
+- U kunt de volgende instellingen configureren voor nieuwe anti-phishings beleidsregels in PowerShell die niet beschikbaar zijn in het beveiligings & compliance Center totdat u het beleid hebt gemaakt:
 
-  - Maak het nieuwe beleid als uitgeschakeld (_Ingeschakeld_ `$false` op de cmdlet **Nieuw-AntiPhishRule).**
+  - Het nieuwe beleid maken als uitgeschakeld (_ingeschakeld_ `$false` in de **nieuwe AntiPhishRule-** cmdlet).
+  - De prioriteit van het beleid instellen voor het maken_Priority_ van de _\<Number\>_ **nieuwe AntiPhishRule-** cmdlet (prioriteit).
 
-  - Stel de prioriteit van het beleid in tijdens het maken _(Prioriteit)_ _\<Number\>_ op de cmdlet **Nieuw-AntiPhishRule).**
+- Een nieuw anti-phishings beleid dat u in PowerShell maakt, is niet zichtbaar in het beveiligings & nalevings centrum tot u het beleid aan een anti-phishing regel toewijst.
 
-- Een nieuw anti-phish-beleid dat u maakt in PowerShell, is niet zichtbaar in het Security & Compliance Center totdat u het beleid toewijst aan een anti-phish regel.
+#### <a name="step-1-use-powershell-to-create-an-anti-phish-policy"></a>Stap 1: PowerShell gebruiken om een anti-phishings beleid te maken
 
-#### <a name="step-1-use-powershell-to-create-an-anti-phish-policy"></a>Stap 1: PowerShell gebruiken om een anti-phish-beleid te maken
-
-Als u een anti-phish-beleid wilt maken, gebruikt u deze syntaxis:
+Voor het maken van een anti-phishings beleid gebruikt u de volgende syntaxis:
 
 ```PowerShell
 New-AntiPhishPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-EnableAntiSpoofEnforcement <$true | $false>] [-AuthenticationFailAction <MoveToJmf | Quarantine>] [-EnableUnauthenticatedSender <$true | $false>]
 ```
 
-In dit voorbeeld wordt een anti-phish-beleid met de naam Research Quarantine gemaakt met de volgende instellingen:
+In dit voorbeeld wordt een anti-phishings beleid met de naam onderzoek quarantaine gemaakt met de volgende instellingen:
 
-- Het beleid is ingeschakeld (we gebruiken de parameter _Ingeschakeld niet_ en de standaardwaarde is `$true` ).
-- De beschrijving is: Onderzoek afdelingsbeleid.
-- Hiermee wijzigt u de standaardactie voor spoofing in Quarantaine.
+- Het beleid is ingeschakeld (de parameter _enabled_ wordt niet gebruikt en de standaardwaarde is `$true` ).
+- De beschrijving luidt: afdelings beleid voor onderzoek.
+- Wijzigt de standaardactie voor spoofing in Quarantine.
 
 ```powershell
 New-AntiPhishPolicy -Name "Monitor Policy" -AdminDisplayName "Research department policy" -AuthenticationFailAction Quarantine
 ```
 
-Zie [Nieuw-AntiPhishPolicy voor](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishPolicy)gedetailleerde syntaxis- en parametergegevens .
+Zie [New-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishPolicy)voor gedetailleerde syntaxis-en parameterinformatie.
 
-#### <a name="step-2-use-powershell-to-create-an-anti-phish-rule"></a>Stap 2: PowerShell gebruiken om een anti-phish-regel te maken
+#### <a name="step-2-use-powershell-to-create-an-anti-phish-rule"></a>Stap 2: PowerShell gebruiken om een anti-phishings regel te maken
 
-Als u een anti-phish-regel wilt maken, gebruikt u deze syntaxis:
+Voor het maken van een anti-phishing regel gebruikt u de volgende syntaxis:
 
 ```PowerShell
 New-AntiPhishRule -Name "<RuleName>" -AntiPhishPolicy "<PolicyName>" <Recipient filters> [<Recipient filter exceptions>] [-Comments "<OptionalComments>"]
 ```
 
-In dit voorbeeld wordt een anti-phish-regel met de naam Research Department gemaakt met de volgende voorwaarden:
+In dit voorbeeld wordt een anti-phishing regel genaamd onderzoek afdeling met de volgende voorwaarden gemaakt:
 
-- De regel is gekoppeld aan het anti-phish beleid genaamd Research Quarantine.
-- De regel is van toepassing op leden van de groep met de naam Research Department.
-- Omdat we de parameter _Prioriteit_ niet gebruiken, wordt de standaardprioriteit gebruikt.
+- De regel is verbonden met het anti-phishings beleid met de naam onderzoek quarantaine.
+- De regel geldt voor de leden van de groep met de naam onderzoek afdeling.
+- Aangezien we de _prioriteits_ parameter niet gebruiken, wordt de standaardprioriteit gebruikt.
 
 ```powershell
 New-AntiPhishRule -Name "Research Department" -AntiPhishPolicy "Research Quarantine" -SentToMemberOf "Research Department"
 ```
 
-Zie [Nieuw-AntiPhishRule voor](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishRule)gedetailleerde syntaxis- en parametergegevens .
+Zie [New-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishRule)voor gedetailleerde syntaxis-en parameterinformatie.
 
-### <a name="use-powershell-to-view-anti-phish-policies"></a>PowerShell gebruiken om anti-phish-beleid te bekijken
+### <a name="use-powershell-to-view-anti-phish-policies"></a>PowerShell gebruiken om een anti-phishings beleid te bekijken
 
-Als u bestaande anti-phish-beleid wilt weergeven, gebruikt u de volgende syntaxis:
+Gebruik de volgende syntaxis om de bestaande anti-phishings beleidsregels te bekijken:
 
 ```PowerShell
 Get-AntiPhishPolicy [-Identity "<PolicyIdentity>"] [| <Format-Table | Format-List> <Property1,Property2,...>]
 ```
 
-In dit voorbeeld wordt een overzichtslijst geretourneerd met alle anti-phish-beleidsregels, samen met de opgegeven eigenschappen.
+In dit voorbeeld wordt een overzichtslijst met alle anti-phishing-beleidsregels en de opgegeven eigenschappen geretourneerd.
 
 ```PowerShell
 Get-AntiPhishPolicy | Format-Table Name,IsDefault
 ```
 
-In dit voorbeeld worden alle eigenschapswaarden geretourneerd voor het anti-phish-beleid met de naam Executives.
+In het volgende voorbeeld worden alle eigenschapswaarden geretourneerd voor het anti-phishings beleid met de naam leidinggevenden.
 
 ```PowerShell
 Get-AntiPhishPolicy -Identity "Executives"
 ```
 
-Zie [Get-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishPolicy)voor gedetailleerde syntaxis- en parameterinformatie .
+Zie [Get-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishPolicy)voor gedetailleerde syntaxis-en parameterinformatie.
 
-### <a name="use-powershell-to-view-anti-phish-rules"></a>PowerShell gebruiken om anti-phish regels te bekijken
+### <a name="use-powershell-to-view-anti-phish-rules"></a>PowerShell gebruiken om anti-phishings regels te bekijken
 
-Als u bestaande anti-phishregels wilt weergeven, gebruikt u de volgende syntaxis:
+Gebruik de volgende syntaxis om bestaande anti-phishings regels weer te geven:
 
 ```PowerShell
 Get-AntiPhishRule [-Identity "<RuleIdentity>"] [-State <Enabled | Disabled] [| <Format-Table | Format-List> <Property1,Property2,...>]
 ```
 
-In dit voorbeeld wordt een overzichtslijst van alle anti-phishregels samen met de opgegeven eigenschappen geretourneerd.
+In het volgende voorbeeld wordt een overzichtslijst met alle anti-phishing regels met de opgegeven eigenschappen geretourneerd.
 
 ```PowerShell
 Get-AntiPhishRule | Format-Table Name,Priority,State
@@ -388,55 +384,55 @@ Get-AntiPhishRule -State Disabled | Format-Table Name,Priority
 Get-AntiPhishRule -State Enabled | Format-Table Name,Priority
 ```
 
-In dit voorbeeld worden alle eigenschapswaarden geretourneerd voor de anti-phish-regel met de naam Contoso Executives.
+In het volgende voorbeeld worden alle eigenschapwaarden voor de anti-phishing-regel genaamd contoso leidinggevenden geretourneerd.
 
 ```PowerShell
 Get-AntiPhishRule -Identity "Contoso Executives"
 ```
 
-Zie [Get-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishrule)voor gedetailleerde syntaxis- en parameterinformatie .
+Zie [Get-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishrule)voor gedetailleerde syntaxis-en parameterinformatie.
 
-### <a name="use-powershell-to-modify-anti-phish-policies"></a>PowerShell gebruiken om anti-phish-beleid te wijzigen
+### <a name="use-powershell-to-modify-anti-phish-policies"></a>PowerShell gebruiken om een anti-phishings beleid te wijzigen
 
-Anders dan de volgende items zijn dezelfde instellingen beschikbaar wanneer u een anti-phish-beleid wijzigt in PowerShell als wanneer u het beleid maakt zoals beschreven in stap 1: PowerShell gebruiken om eerder in dit onderwerp [een anti-phish beleidssectie te maken.](#step-1-use-powershell-to-create-an-anti-phish-policy)
+Met uitzondering van de volgende items zijn dezelfde instellingen beschikbaar wanneer u een anti-phishings beleid in PowerShell aanpast wanneer u het beleid maakt zoals wordt beschreven in de sectie [stap 1: gebruik PowerShell om een anti-phishings sectie te maken](#step-1-use-powershell-to-create-an-anti-phish-policy) eerder in dit onderwerp.
 
-- De _Schakelaar Fout maken_ die het opgegeven beleid verandert in het standaardbeleid (toegepast op iedereen, altijd **laagste** prioriteit en u deze niet verwijderen) is alleen beschikbaar wanneer u een anti-phish-beleid wijzigt in PowerShell.
+- De schakeloptie _MakeDefault_ waarmee het opgegeven beleid wordt omgezet in het standaardbeleid (voor iedereen, de **laagste** prioriteit en het niet verwijderen) is alleen beschikbaar wanneer u een anti-Echobeleid wijzigt in PowerShell.
 
-- U de naam van een anti-phish-beleid niet wijzigen (de cmdlet **Set-AntiPhishPolicy** heeft geen parameter _Name)._ Wanneer u de naam van een anti-phishingbeleid wijzigt in het Security & Compliance _rule_Center, wijzigt u alleen de anti-phish-regel .
+- U kunt niet de naam van een anti-phishings beleid wijzigen (de cmdlet **set-AntiPhishPolicy** heeft geen _naam_ parameter). Wanneer u de naam van een anti-phishingfilter wijzigt in de beveiligings & nalevings centrum, kunt u de naam van de anti-phishing _regel_alleen wijzigen.
 
-Als u een anti-phish-beleid wilt wijzigen, gebruikt u deze syntaxis:
+Voor het wijzigen van een anti-phishings beleid gebruikt u de volgende syntaxis:
 
 ```PowerShell
 Set-AntiPhishPolicy -Identity "<PolicyName>" <Settings>
 ```
 
-Zie [Set-AntiPhishPolicy voor](https://docs.microsoft.com/powershell/module/exchange/Set-AntiPhishPolicy)gedetailleerde syntaxis- en parametergegevens .
+Zie [set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Set-AntiPhishPolicy)voor gedetailleerde syntaxis-en parameterinformatie.
 
-### <a name="use-powershell-to-modify-anti-phish-rules"></a>PowerShell gebruiken om anti-phish regels te wijzigen
+### <a name="use-powershell-to-modify-anti-phish-rules"></a>PowerShell gebruiken om anti-phishings regels te wijzigen
 
-De enige instelling die niet beschikbaar is wanneer u een anti-phish regel wijzigt in PowerShell, is de parameter _Ingeschakeld_ waarmee u een uitgeschakelde regel maken. Zie de volgende sectie om bestaande anti-phishregels in of uit te schakelen.
+De enige instelling die niet beschikbaar is wanneer u een anti-phishings regel wijzigt in PowerShell is de _ingeschakelde_ parameter waarmee u een uitgeschakelde regel kunt maken. Zie de volgende sectie als u bestaande anti-Phish regels wilt in-of uitschakelen.
 
-Anders zijn er geen extra instellingen beschikbaar wanneer u een anti-phish-regel wijzigt in PowerShell. Dezelfde instellingen zijn beschikbaar wanneer u een regel maakt zoals beschreven in stap 2: PowerShell gebruiken om eerder in dit onderwerp [een anti-phish regelsectie te maken.](#step-2-use-powershell-to-create-an-anti-phish-rule)
+Anders zijn er geen extra instellingen beschikbaar wanneer u een anti-phishing regel wijzigt in PowerShell. U kunt dezelfde instellingen gebruiken wanneer u een regel maakt zoals wordt beschreven in [stap 2: PowerShell gebruiken om een anti-phishings sectie te maken](#step-2-use-powershell-to-create-an-anti-phish-rule) eerder in dit onderwerp.
 
-Als u een anti-phishregel wilt wijzigen, gebruikt u deze syntaxis:
+Gebruik de volgende syntaxis om een anti-phishing regel te wijzigen:
 
 ```PowerShell
 Set-AntiPhishRule -Identity "<RuleName>" <Settings>
 ```
 
-Zie [Set-AntiPhishRule voor](https://docs.microsoft.com/powershell/module/exchange/set-antiphishrule)gedetailleerde syntaxis- en parametergegevens .
+Zie [set-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/set-antiphishrule)voor gedetailleerde syntaxis-en parameterinformatie.
 
-### <a name="use-powershell-to-enable-or-disable-anti-phish-rules"></a>PowerShell gebruiken om anti-phishregels in te schakelen of uit te schakelen
+### <a name="use-powershell-to-enable-or-disable-anti-phish-rules"></a>PowerShell gebruiken om anti-phishings regels in of uit te schakelen
 
-Het in- of uitschakelen van een anti-phish-regel in PowerShell maakt het hele anti-phishingbeleid (de anti-phish-regel en het toegewezen anti-phish-beleid) mogelijk of uitgeschakeld. U het standaardbeleid voor antiphishing niet in- of uitschakelen (het wordt altijd toegepast op alle ontvangers).
+Wanneer u een anti-phishing regel in-of uitschakelt in PowerShell, schakelt u het volledige anti-phishings beleid in of uit (de anti-phishings regel en het door u toegekende anti-phishings beleid). U kunt het standaard anti-phishingfilter-beleid niet in-of uitschakelen (het wordt altijd toegepast op alle geadresseerden).
 
-Als u een anti-phishregel in PowerShell wilt in- of uitschakelen, gebruikt u deze syntaxis:
+U kunt een anti-phishings regel in PowerShell in-of uitschakelen met behulp van de volgende syntaxis:
 
 ```PowerShell
 <Enable-AntiPhishRule | Disable-AntiPhishRule> -Identity "<RuleName>"
 ```
 
-In dit voorbeeld wordt de anti-phish-regel met de naam Marketing Department uitgeschakeld.
+In dit voorbeeld wordt de anti-phishing regel genaamd marketing afdeling uitgeschakeld.
 
 ```PowerShell
 Disable-AntiPhishRule -Identity "Marketing Department"
@@ -448,13 +444,13 @@ In dit voorbeeld wordt dezelfde regel ingeschakeld.
 Enable-AntiPhishRule -Identity "Marketing Department"
 ```
 
-Zie [Enable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/enable-AntiPhishrule) en [AntiPhishRule uitschakelen](https://docs.microsoft.com/powershell/module/exchange/disable-AntiPhishrule)voor gedetailleerde syntaxis- en parametergegevens .
+Zie [Enable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/enable-AntiPhishrule) en [Disable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/disable-AntiPhishrule)voor gedetailleerde syntaxis-en parameterinformatie.
 
-### <a name="use-powershell-to-set-the-priority-of-anti-phish-rules"></a>PowerShell gebruiken om de prioriteit van anti-phish regels in te stellen
+### <a name="use-powershell-to-set-the-priority-of-anti-phish-rules"></a>PowerShell gebruiken om de prioriteit van anti-phishings regels in te stellen
 
 De hoogste prioriteit die u in kunt stellen op een regel is 0. De laagste prioriteit die u kunt instellen is afhankelijk van het aantal regels. Als u bijvoorbeeld vijf regels hebt, kunt u de waarden 0 t/m 4 gebruiken. Het wijzigen van de prioriteit van een bestaande regel kan een domino-effect hebben op andere regels. Als u bijvoorbeeld vijf aangepaste regels hebt (prioriteiten 0 t/m 4) en u wijzigt de prioriteit van een regel in 2, dan wordt de bestaande regel met prioriteit 2 gewijzigd in 3 en de regel met prioriteit 3 wordt gewijzigd in 4.
 
-Als u de prioriteit van een anti-phishregel wilt instellen in PowerShell, gebruikt u de volgende syntaxis:
+Als u de prioriteit wilt instellen van een anti-Phish regel in PowerShell, gebruikt u de volgende syntaxis:
 
 ```PowerShell
 Set-AntiPhishRule -Identity "<RuleName>" -Priority <Number>
@@ -468,56 +464,56 @@ Set-AntiPhishRule -Identity "Marketing Department" -Priority 2
 
 **Opmerkingen**:
 
-- Als u de prioriteit van een nieuwe regel wilt instellen wanneer u deze maakt, gebruikt u in plaats daarvan de parameter _Prioriteit_ op de cmdlet **Nieuw-AntiPhishRule.**
+- Als u de prioriteit wilt instellen van een nieuwe regel wanneer u deze maakt, gebruikt u de parameter _Priority_ op de cmdlet **New-AntiPhishRule** .
 
-- De standaard anti-phish beleid heeft geen overeenkomstige anti-phish regel, en het heeft altijd de onmodifiable **prioriteitswaarde Laagste**.
+- Het anti-phishings beleid heeft geen overeenkomstige anti-phishings regel, en het is altijd de **laagste**ongewijzigde prioriteitswaarde.
 
-### <a name="use-powershell-to-remove-anti-phish-policies"></a>PowerShell gebruiken om anti-phish-beleid te verwijderen
+### <a name="use-powershell-to-remove-anti-phish-policies"></a>PowerShell gebruiken om een anti-phishings beleid te verwijderen
 
-Wanneer u PowerShell gebruikt om een anti-phish-beleid te verwijderen, wordt de bijbehorende anti-phishregel niet verwijderd.
+Wanneer u PowerShell gebruikt om een anti-phishings beleid te verwijderen, wordt de overeenkomstige anti-phishings regel niet verwijderd.
 
-Als u een anti-phish-beleid in PowerShell wilt verwijderen, gebruikt u deze syntaxis:
+Gebruik de volgende syntaxis om een anti-phishings beleid te verwijderen in PowerShell:
 
 ```PowerShell
 Remove-AntiPhishPolicy -Identity "<PolicyName>"
 ```
 
-In dit voorbeeld wordt het anti-phish-beleid met de naam Marketing Department verwijderd.
+In dit voorbeeld wordt het anti-phishings beleid met de naam marketing afdeling verwijderd.
 
 ```PowerShell
 Remove-AntiPhishPolicy -Identity "Marketing Department"
 ```
 
-Zie [Remove-AntiPhishPolicy voor](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishPolicy)gedetailleerde syntaxis- en parametergegevens .
+Zie [Remove-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishPolicy)voor gedetailleerde syntaxis-en parameterinformatie.
 
-### <a name="use-powershell-to-remove-anti-phish-rules"></a>PowerShell gebruiken om anti-phish regels te verwijderen
+### <a name="use-powershell-to-remove-anti-phish-rules"></a>PowerShell gebruiken om anti-phishings regels te verwijderen
 
-Wanneer u PowerShell gebruikt om een anti-phish-regel te verwijderen, wordt het bijbehorende anti-phish-beleid niet verwijderd.
+Als u PowerShell gebruikt om een anti-phishing regel te verwijderen, wordt het bijbehorende anti-phishings beleid niet verwijderd.
 
-Als u een anti-phishregel in PowerShell wilt verwijderen, gebruikt u deze syntaxis:
+Gebruik de volgende syntaxis om een anti-phishings regel te verwijderen in PowerShell:
 
 ```PowerShell
 Remove-AntiPhishRule -Identity "<PolicyName>"
 ```
 
-In dit voorbeeld wordt de anti-phish-regel met de naam Marketing Department verwijderd.
+In dit voorbeeld wordt de anti-phishing regel genaamd marketing afdeling verwijderd.
 
 ```PowerShell
 Remove-AntiPhishRule -Identity "Marketing Department"
 ```
 
-Zie [Remove-AntiPhishRule voor](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishRule)gedetailleerde syntaxis- en parametergegevens .
+Zie [Remove-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishRule)voor gedetailleerde syntaxis-en parameterinformatie.
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 
-Als u wilt controleren of u het ATP-antiphishingbeleid hebt geconfigureerd, voert u een van de volgende stappen uit:
+Voer een of meer van de volgende stappen uit om te controleren of u het juiste beleid voor het gebruik van ATP anti phishing hebt geconfigureerd:
 
-- Ga in het Security & Compliance Center naar **Threat management** \> **Policy** \> **Anti-phishing**. Controleer de lijst met beleidsregels, **hun statuswaarden** en de **prioriteitswaarden.** Als u meer details wilt weergeven, voert u een van de volgende stappen uit:
+- Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> **anti-phishing**beleid voor Threat Management. Controleer de lijst met beleidsregels, de **status** waarden en de waarden van de **prioriteit** . Ga op een van de volgende manieren te werk om meer informatie weer te geven:
 
-  - Selecteer het beleid in de lijst en bekijk de details in de flyout.
-  - Klik **op Standaardbeleid** en bekijk de details in de flyout.
+  - Selecteer een beleid in de lijst en Bekijk de details in de vervolgkeuzelijst.
+  - Klik op **standaardbeleid** en Bekijk de details in het vervolgmenu.
 
-- Vervang in Exchange Online PowerShell \<Name\> de naam van het beleid of de regel en voer de volgende opdracht uit en verifieer de instellingen:
+- In Exchange Online PowerShell vervangt u \<Name\> de naam van het beleid of de regel en voert u de volgende opdracht uit en controleert u de instellingen:
 
   ```PowerShell
   Get-AntiPhishPolicy -Identity "<Name>"

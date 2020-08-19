@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 308337f806d54f1beb7ae6112b2ed883707d4513
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: d9b5fd9bfe881ec1313afb26da5d19cd96054862
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649293"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797826"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Meer informatie over het schema voor geavanceerde jacht
 
@@ -46,7 +46,7 @@ Om snel toegang te krijgen tot de schema verwijzing, selecteert u de **verwijzin
 
 ![Afbeelding van naslaginformatie over het gebruik van naslaginformatie over Portal in de portal ](../../media/mtp-ah/ah-reference.png) 
 
-## <a name="schema-tables"></a>Schema tabellen
+## <a name="learn-the-schema-tables"></a>Meer informatie over de schema tabellen
 In de volgende naslag worden alle tabellen in het schema weergegeven. Met elke tabelnaam wordt een koppeling naar een pagina gemaakt met een beschrijving van de kolomnamen voor de tabel. De namen van tabellen en kolommen worden ook weergegeven in het Beveiligingscentrum, als onderdeel van de schema weergave in het scherm Geavanceerde jacht.
 
 | Tabelnaam | Beschrijving |
@@ -72,6 +72,7 @@ In de volgende naslag worden alle tabellen in het schema weergegeven. Met elke t
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | Microsoft 365-e-mail gebeurtenissen, waaronder e-mail bezorging en blokkering van gebeurtenissen |
 | **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | Beveiligingsgebeurtenissen die na na ontvangst plaatsvinden, nadat Microsoft 365 de e-mail heeft bezorgd in het postvak van de geadresseerde |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Info over Url's voor e-mailberichten |
+| **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | Gebeurtenissen waarbij een on-premises domeincontroller met Active Directory (AD) wordt uitgevoerd. Deze tabel omvat een bereik van gebeurtenissen die betrekking hebben op de identiteit en de systeemgebeurtenissen op de domeincontroller. |
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Account gegevens van diverse bronnen, waaronder Azure Active Directory |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Verificatiegebeurtenissen in Active Directory en Microsoft Online Services |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Query activiteiten die worden uitgevoerd op Active Directory-objecten, zoals gebruikers, groepen, apparaten en domeinen |
@@ -81,5 +82,5 @@ In de volgende naslag worden alle tabellen in het schema weergegeven. Met elke t
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Werken met queryresultaten](advanced-hunting-query-results.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
+- [Opsporen op apparaten en in e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: aec5bf5dfe29dd55bf5e5df471126db46fdfcb4c
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 86212bdecb58b2e79a94d0129a0a531ef22bd6e4
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648825"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797838"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
@@ -30,6 +30,9 @@ ms.locfileid: "46648825"
 - Microsoft Threat Protection
 
 De `IdentityLogonEvents` tabel in het [Geavanceerde](advanced-hunting-overview.md) begeleidings schema bevat informatie over verificatie activiteiten die zijn gemaakt via uw on-premises Active Directory, vastgelegd door Azure ATP en authenticatie activiteiten met betrekking tot Microsoft Online-Services die zijn vastgelegd via beveiliging van de Microsoft Cloud-app. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
+
+>[!TIP]
+> Voor gedetailleerde informatie over de typen gebeurtenissen ( `ActionType` waarden) die door een tabel worden ondersteund, gebruikt u de [ingebouwde schema verwijzing](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) die beschikbaar is in het Beveiligingscentrum.
 
 >[!NOTE]
 >Deze tabel bevat een overzicht van de aanmeldings activiteiten van Azure Active Directory (AD) die worden bijgehouden door de beveiliging van Cloud apps, specifiek voor interactieve aanmelding en verificatie activiteiten met behulp van ActiveSync en andere oudere protocollen. Niet-interactieve aanmeldingen die niet beschikbaar zijn in deze tabel, kunnen worden weergegeven in het Azure AD auditlogboek. [Meer informatie over het verbinden van de beveiliging van de Cloud-app met Microsoft 365](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
@@ -39,7 +42,7 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
 | `Timestamp` | tijd | De datum en tijd waarop de gebeurtenis is vastgelegd |
-| `ActionType` | tekenreeks | Type activiteit waarmee de gebeurtenis wordt geactiveerd |
+| `ActionType` | tekenreeks | Type activiteit waarmee de gebeurtenis wordt geactiveerd. Zie de [verwijzingen naar het portal schema](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) voor Details |
 | `LogonType` | tekenreeks | Type aanmeldingssessie, met name:<br><br> - **Interactieve** gebruiker werkt fysiek samen met de computer met het lokale toetsenbord en scherm<br><br> - **Externe interactieve (RDP) aanmeldinging** -gebruikers onderlinge interactie met de computer met behulp van extern bureaublad, Terminal Services, hulp op afstand of andere RDP-clients<br><br> - **Netwerk** -sessie gestart wanneer de computer wordt geopend met behulp van PsExec of wanneer gedeelde bronnen op de computer, zoals printers en gedeelde mappen, worden geopend<br><br> - **Batch** -sessie geïnitieerd door geplande taken<br><br> - **Service** -sessie gestart door een service als deze wordt gestart |
 | `Application` | tekenreeks | De toepassing die de opgenomen actie heeft uitgevoerd |
 | `Protocol` | tekenreeks | Gebruikte netwerkprotocollen |
@@ -67,6 +70,6 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
+- [Opsporen op apparaten en in e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)
