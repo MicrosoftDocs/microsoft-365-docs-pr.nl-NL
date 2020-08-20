@@ -22,215 +22,213 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Meer informatie over het verwijderen van een oud domein uit Microsoft 365 en het verplaatsen van gebruikers en groepen naar een ander domein.
-ms.openlocfilehash: 6f5e36a897316c8cdc057a725957c54e7eb53edc
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 57e52cc4f44e41d31200b8b5469aed6c36b63d24
+ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45079759"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814418"
 ---
-# <a name="remove-a-domain"></a><span data-ttu-id="90540-103">Een domein verwijderen</span><span class="sxs-lookup"><span data-stu-id="90540-103">Remove a domain</span></span>
+# <a name="remove-a-domain"></a><span data-ttu-id="d07db-103">Een domein verwijderen</span><span class="sxs-lookup"><span data-stu-id="d07db-103">Remove a domain</span></span>
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> <span data-ttu-id="90540-104">Het beheercentrum wordt gewijzigd.</span><span class="sxs-lookup"><span data-stu-id="90540-104">The admin center is changing.</span></span> <span data-ttu-id="90540-105">Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span><span class="sxs-lookup"><span data-stu-id="90540-105">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span></span>
+> <span data-ttu-id="d07db-104">Het beheercentrum wordt gewijzigd.</span><span class="sxs-lookup"><span data-stu-id="d07db-104">The admin center is changing.</span></span> <span data-ttu-id="d07db-105">Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span><span class="sxs-lookup"><span data-stu-id="d07db-105">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span></span>
 
 ::: moniker-end
   
- <span data-ttu-id="90540-106">**[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt.</span><span class="sxs-lookup"><span data-stu-id="90540-106">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
+ <span data-ttu-id="d07db-106">**[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt.</span><span class="sxs-lookup"><span data-stu-id="d07db-106">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
   
-<span data-ttu-id="90540-107">Verwijdert u uw domein omdat u het wilt toevoegen aan een ander Microsoft 365-abonnement?</span><span class="sxs-lookup"><span data-stu-id="90540-107">Are you removing your domain because you want to add it to a different Microsoft 365 subscription plan?</span></span> <span data-ttu-id="90540-108">Of wilt u uw abonnement gewoon opzeggen?</span><span class="sxs-lookup"><span data-stu-id="90540-108">Or do you just want to cancel your subscription?</span></span> <span data-ttu-id="90540-109">U kunt [uw abonnement wijzigen](../../commerce/subscriptions/switch-to-a-different-plan.md) of [uw abonnement opzeggen](../../commerce/subscriptions/cancel-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="90540-109">You can [change your plan or subscription](../../commerce/subscriptions/switch-to-a-different-plan.md) or [cancel your subscription](../../commerce/subscriptions/cancel-your-subscription.md).</span></span>
+<span data-ttu-id="d07db-107">Verwijdert u uw domein omdat u het aan een ander abonnement van Microsoft 365 wilt toevoegen?</span><span class="sxs-lookup"><span data-stu-id="d07db-107">Are you removing your domain because you want to add it to a different Microsoft 365 subscription plan?</span></span> <span data-ttu-id="d07db-108">Of wilt u uw abonnement gewoon opzeggen?</span><span class="sxs-lookup"><span data-stu-id="d07db-108">Or do you just want to cancel your subscription?</span></span> <span data-ttu-id="d07db-109">U kunt [uw abonnement wijzigen](../../commerce/subscriptions/switch-to-a-different-plan.md) of [uw abonnement opzeggen](../../commerce/subscriptions/cancel-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="d07db-109">You can [change your plan or subscription](../../commerce/subscriptions/switch-to-a-different-plan.md) or [cancel your subscription](../../commerce/subscriptions/cancel-your-subscription.md).</span></span>
   
-### <a name="step-1-move-users-to-another-domain"></a><span data-ttu-id="90540-110">Stap 1: Gebruikers verplaatsen naar een ander domein</span><span class="sxs-lookup"><span data-stu-id="90540-110">Step 1: Move users to another domain</span></span>
+### <a name="step-1-move-users-to-another-domain"></a><span data-ttu-id="d07db-110">Stap 1: Gebruikers verplaatsen naar een ander domein</span><span class="sxs-lookup"><span data-stu-id="d07db-110">Step 1: Move users to another domain</span></span>
 
-#### <a name="move-users"></a><span data-ttu-id="90540-111">Gebruikers verplaatsen</span><span class="sxs-lookup"><span data-stu-id="90540-111">Move users</span></span>
+#### <a name="move-users"></a><span data-ttu-id="d07db-111">Gebruikers verplaatsen</span><span class="sxs-lookup"><span data-stu-id="d07db-111">Move users</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="90540-112">Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">beheercentrum</a>.</span><span class="sxs-lookup"><span data-stu-id="90540-112">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>.</span></span>
+1. <span data-ttu-id="d07db-112">Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Beheercentrum</a>.</span><span class="sxs-lookup"><span data-stu-id="d07db-112">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>.</span></span>
 
-2. <span data-ttu-id="90540-113">Selecteer **Actieve** gebruikers van Gebruikers > **Active users**.</span><span class="sxs-lookup"><span data-stu-id="90540-113">Select **Users** > **Active users**.</span></span>
+2. <span data-ttu-id="d07db-113">Selecteer **gebruikers** van de > **actieve**gebruiker.</span><span class="sxs-lookup"><span data-stu-id="d07db-113">Select **Users** > **Active users**.</span></span>
 
-3. <span data-ttu-id="90540-114">Selecteer de vakken naast de namen van alle gebruikers die u wilt verplaatsen.</span><span class="sxs-lookup"><span data-stu-id="90540-114">Select the boxes next to the names of all the users you want to move.</span></span>
+3. <span data-ttu-id="d07db-114">Schakel de selectievakjes in naast de namen van de gebruikers die u wilt verplaatsen.</span><span class="sxs-lookup"><span data-stu-id="d07db-114">Select the boxes next to the names of all the users you want to move.</span></span>
 
-4. <span data-ttu-id="90540-115">Selecteer **Meer opties** (**...**) boven aan de pagina en kies **Domeinen wijzigen**.</span><span class="sxs-lookup"><span data-stu-id="90540-115">Select **More options** (**…**), at the top of the page, and then choose **Change domains**.</span></span>
+4. <span data-ttu-id="d07db-115">Selecteer **meer opties** (**...**) boven aan de pagina en kies vervolgens **domeinen wijzigen**.</span><span class="sxs-lookup"><span data-stu-id="d07db-115">Select **More options** (**…**), at the top of the page, and then choose **Change domains**.</span></span>
 
-5. <span data-ttu-id="90540-116">Selecteer in het deelvenster **Domeinen wijzigen** een ander domein.</span><span class="sxs-lookup"><span data-stu-id="90540-116">In the **Change domains** pane, select a different domain.</span></span>
+5. <span data-ttu-id="d07db-116">Selecteer een ander domein in het deelvenster **domeinen wijzigen** .</span><span class="sxs-lookup"><span data-stu-id="d07db-116">In the **Change domains** pane, select a different domain.</span></span>
 
-<span data-ttu-id="90540-p103">U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verwijderen. Wanneer u het domein voor uw account bewerkt, moet u zich afmelden en weer aanmelden met het nieuwe domein dat u kiest om door te gaan.</span><span class="sxs-lookup"><span data-stu-id="90540-p103">You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.</span></span>
+<span data-ttu-id="d07db-p103">U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verwijderen. Wanneer u het domein voor uw account bewerkt, moet u zich afmelden en weer aanmelden met het nieuwe domein dat u kiest om door te gaan.</span><span class="sxs-lookup"><span data-stu-id="d07db-p103">You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="90540-119">Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a>.</span><span class="sxs-lookup"><span data-stu-id="90540-119">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">admin center</a>.</span></span>  
+1. <span data-ttu-id="d07db-119">Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Beheercentrum</a>.</span><span class="sxs-lookup"><span data-stu-id="d07db-119">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">admin center</a>.</span></span>  
 
-2. <span data-ttu-id="90540-120">Selecteer **Actieve** gebruikers van Gebruikers > **Active users**.</span><span class="sxs-lookup"><span data-stu-id="90540-120">Select **Users** > **Active users**.</span></span>
+2. <span data-ttu-id="d07db-120">Selecteer **gebruikers** van de > **actieve**gebruiker.</span><span class="sxs-lookup"><span data-stu-id="d07db-120">Select **Users** > **Active users**.</span></span>
 
-3. <span data-ttu-id="90540-121">Selecteer de vakken naast de namen van alle gebruikers die u wilt verplaatsen.</span><span class="sxs-lookup"><span data-stu-id="90540-121">Select the boxes next to the names of all the users you want to move.</span></span>
+3. <span data-ttu-id="d07db-121">Schakel de selectievakjes in naast de namen van de gebruikers die u wilt verplaatsen.</span><span class="sxs-lookup"><span data-stu-id="d07db-121">Select the boxes next to the names of all the users you want to move.</span></span>
 
-4. <span data-ttu-id="90540-122">Kies boven aan de pagina **Meer** > **domeinen bewerken**.</span><span class="sxs-lookup"><span data-stu-id="90540-122">At the top of the page, choose **More** > **Edit domains**.</span></span>
+4. <span data-ttu-id="d07db-122">Kies boven aan de pagina **meer** > **bewerkings domeinen**.</span><span class="sxs-lookup"><span data-stu-id="d07db-122">At the top of the page, choose **More** > **Edit domains**.</span></span>
 
-5. <span data-ttu-id="90540-123">Selecteer in het deelvenster **Domeinen bewerken** een ander domein.</span><span class="sxs-lookup"><span data-stu-id="90540-123">In the **Edit domains** pane, select a different domain.</span></span>
+5. <span data-ttu-id="d07db-123">Selecteer een ander domein in het deelvenster **domeinen bewerken** .</span><span class="sxs-lookup"><span data-stu-id="d07db-123">In the **Edit domains** pane, select a different domain.</span></span>
   
-<span data-ttu-id="90540-p104">U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verwijderen. Wanneer u het domein voor uw account bewerkt, moet u zich afmelden en weer aanmelden met het nieuwe domein dat u kiest om door te gaan.</span><span class="sxs-lookup"><span data-stu-id="90540-p104">You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.</span></span>
+<span data-ttu-id="d07db-p104">U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verwijderen. Wanneer u het domein voor uw account bewerkt, moet u zich afmelden en weer aanmelden met het nieuwe domein dat u kiest om door te gaan.</span><span class="sxs-lookup"><span data-stu-id="d07db-p104">You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="90540-126">Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a>.</span><span class="sxs-lookup"><span data-stu-id="90540-126">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center</a>.</span></span>  
+1. <span data-ttu-id="d07db-126">Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Beheercentrum</a>.</span><span class="sxs-lookup"><span data-stu-id="d07db-126">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center</a>.</span></span>  
 
-2. <span data-ttu-id="90540-127">Selecteer **Actieve** gebruikers van Gebruikers > **Active users**.</span><span class="sxs-lookup"><span data-stu-id="90540-127">Select **Users** > **Active users**.</span></span>
+2. <span data-ttu-id="d07db-127">Selecteer **gebruikers** van de > **actieve**gebruiker.</span><span class="sxs-lookup"><span data-stu-id="d07db-127">Select **Users** > **Active users**.</span></span>
 
-3. <span data-ttu-id="90540-128">Selecteer de vakken naast de namen van alle gebruikers die u wilt verplaatsen.</span><span class="sxs-lookup"><span data-stu-id="90540-128">Select the boxes next to the names of all the users you want to move.</span></span>
+3. <span data-ttu-id="d07db-128">Schakel de selectievakjes in naast de namen van de gebruikers die u wilt verplaatsen.</span><span class="sxs-lookup"><span data-stu-id="d07db-128">Select the boxes next to the names of all the users you want to move.</span></span>
 
-4. <span data-ttu-id="90540-129">Kies boven aan de pagina **Meer** > **domeinen bewerken**.</span><span class="sxs-lookup"><span data-stu-id="90540-129">At the top of the page, choose **More** > **Edit domains**.</span></span>
+4. <span data-ttu-id="d07db-129">Kies boven aan de pagina **meer** > **bewerkings domeinen**.</span><span class="sxs-lookup"><span data-stu-id="d07db-129">At the top of the page, choose **More** > **Edit domains**.</span></span>
 
-5. <span data-ttu-id="90540-130">Selecteer in het deelvenster **Domeinen bewerken** een ander domein.</span><span class="sxs-lookup"><span data-stu-id="90540-130">In the **Edit domains** pane, select a different domain.</span></span>
+5. <span data-ttu-id="d07db-130">Selecteer een ander domein in het deelvenster **domeinen bewerken** .</span><span class="sxs-lookup"><span data-stu-id="d07db-130">In the **Edit domains** pane, select a different domain.</span></span>
   
-<span data-ttu-id="90540-p105">U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verwijderen. Wanneer u het domein voor uw account bewerkt, moet u zich afmelden en weer aanmelden met het nieuwe domein dat u kiest om door te gaan.</span><span class="sxs-lookup"><span data-stu-id="90540-p105">You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.</span></span>
+<span data-ttu-id="d07db-p105">U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verwijderen. Wanneer u het domein voor uw account bewerkt, moet u zich afmelden en weer aanmelden met het nieuwe domein dat u kiest om door te gaan.</span><span class="sxs-lookup"><span data-stu-id="d07db-p105">You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.</span></span>
 
 ::: moniker-end
 
-#### <a name="move-yourself"></a><span data-ttu-id="90540-133">Beweeg jezelf</span><span class="sxs-lookup"><span data-stu-id="90540-133">Move yourself</span></span>
+#### <a name="move-yourself"></a><span data-ttu-id="d07db-133">Uzelf verplaatsen</span><span class="sxs-lookup"><span data-stu-id="d07db-133">Move yourself</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="90540-134">Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a>.</span><span class="sxs-lookup"><span data-stu-id="90540-134">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center</a>.</span></span>
+1. <span data-ttu-id="d07db-134">Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Beheercentrum</a>.</span><span class="sxs-lookup"><span data-stu-id="d07db-134">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center</a>.</span></span>
 
-2. <span data-ttu-id="90540-135">Ga naar **Actieve** \> **gebruikers en**selecteer uw account in de lijst.</span><span class="sxs-lookup"><span data-stu-id="90540-135">Go to **Users** \> **Active Users**, and select your account from the list.</span></span>
+2. <span data-ttu-id="d07db-135">Ga naar **gebruikers** \> van **actieve gebruikers**en selecteer uw account in de lijst.</span><span class="sxs-lookup"><span data-stu-id="d07db-135">Go to **Users** \> **Active Users**, and select your account from the list.</span></span>
 
-3. <span data-ttu-id="90540-136">Selecteer **op** het tabblad Account de optie **Gebruikersnaam beheren**en kies vervolgens een ander domein.</span><span class="sxs-lookup"><span data-stu-id="90540-136">On the **Account** tab, select **Manage username**, and then choose a different domain.</span></span>
+3. <span data-ttu-id="d07db-136">Selecteer op het tabblad **account** de optie **gebruikersnaam beheren**en kies een ander domein.</span><span class="sxs-lookup"><span data-stu-id="d07db-136">On the **Account** tab, select **Manage username**, and then choose a different domain.</span></span>
   
-4. <span data-ttu-id="90540-137">Selecteer boven aan uw accountnaam en selecteer **Afmelden**.</span><span class="sxs-lookup"><span data-stu-id="90540-137">At the top, select your account name, then select **Sign Out**.</span></span>
+4. <span data-ttu-id="d07db-137">Selecteer bovenaan de naam van uw account en selecteer **Afmelden**.</span><span class="sxs-lookup"><span data-stu-id="d07db-137">At the top, select your account name, then select **Sign Out**.</span></span>
 
-5. <span data-ttu-id="90540-138">Meld u aan met het nieuwe domein en hetzelfde wachtwoord.</span><span class="sxs-lookup"><span data-stu-id="90540-138">Sign in with the new domain and your same password.</span></span>
+5. <span data-ttu-id="d07db-138">Meld u aan met het nieuwe domein en hetzelfde wachtwoord.</span><span class="sxs-lookup"><span data-stu-id="d07db-138">Sign in with the new domain and your same password.</span></span>
 
-<span data-ttu-id="90540-139">U kunt ook PowerShell gebruiken om gebruikers te verplaatsen naar een ander domein.</span><span class="sxs-lookup"><span data-stu-id="90540-139">You can also use PowerShell to move users to another domain.</span></span> <span data-ttu-id="90540-140">Zie [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="90540-140">See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information.</span></span> <span data-ttu-id="90540-141">Gebruik [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0) om het standaarddomein in te stellen.</span><span class="sxs-lookup"><span data-stu-id="90540-141">To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
+<span data-ttu-id="d07db-139">U kunt ook PowerShell gebruiken om gebruikers te verplaatsen naar een ander domein.</span><span class="sxs-lookup"><span data-stu-id="d07db-139">You can also use PowerShell to move users to another domain.</span></span> <span data-ttu-id="d07db-140">Zie [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="d07db-140">See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information.</span></span> <span data-ttu-id="d07db-141">Gebruik [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0) om het standaarddomein in te stellen.</span><span class="sxs-lookup"><span data-stu-id="d07db-141">To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="90540-142">Ga **Users** naar \> **Actieve gebruikers**en selecteer uw naam in de lijst.</span><span class="sxs-lookup"><span data-stu-id="90540-142">Go to **Users** \> **Active Users**, and select your name in the list.</span></span>
+1. <span data-ttu-id="d07db-142">Ga naar **gebruikers** \> van **actieve gebruikers**en selecteer uw naam in de lijst.</span><span class="sxs-lookup"><span data-stu-id="d07db-142">Go to **Users** \> **Active Users**, and select your name in the list.</span></span>
 
-2. <span data-ttu-id="90540-143">Selecteer **bewerken**in de sectie **Gebruikersnaam /E-mail** en kies vervolgens een ander domein.</span><span class="sxs-lookup"><span data-stu-id="90540-143">In the **Username / Email** section, select **Edit**, and then choose a different domain.</span></span>
+2. <span data-ttu-id="d07db-143">Selecteer in de sectie **gebruikersnaam/e-mailen** de optie **bewerken**en kies vervolgens een ander domein.</span><span class="sxs-lookup"><span data-stu-id="d07db-143">In the **Username / Email** section, select **Edit**, and then choose a different domain.</span></span>
 
-3. <span data-ttu-id="90540-144">Selecteer **Instellen als primair** sluiten > **Save** > **opslaan**.</span><span class="sxs-lookup"><span data-stu-id="90540-144">Select **Set as primary** > **Save** > **Close**.</span></span>
+3. <span data-ttu-id="d07db-144">Selecteer **instellen als primair** > **Opslaan** > **sluiten**.</span><span class="sxs-lookup"><span data-stu-id="d07db-144">Select **Set as primary** > **Save** > **Close**.</span></span>
   
-4. <span data-ttu-id="90540-145">Selecteer boven aan uw accountnaam en selecteer **Afmelden**.</span><span class="sxs-lookup"><span data-stu-id="90540-145">At the top, select your account name, then select **Sign Out**.</span></span>
+4. <span data-ttu-id="d07db-145">Selecteer bovenaan de naam van uw account en selecteer **Afmelden**.</span><span class="sxs-lookup"><span data-stu-id="d07db-145">At the top, select your account name, then select **Sign Out**.</span></span>
 
-5. <span data-ttu-id="90540-146">Meld u aan met het nieuwe domein en hetzelfde wachtwoord.</span><span class="sxs-lookup"><span data-stu-id="90540-146">Sign in with the new domain and your same password.</span></span>
+5. <span data-ttu-id="d07db-146">Meld u aan met het nieuwe domein en hetzelfde wachtwoord.</span><span class="sxs-lookup"><span data-stu-id="d07db-146">Sign in with the new domain and your same password.</span></span>
 
-<span data-ttu-id="90540-147">U kunt ook PowerShell gebruiken om gebruikers te verplaatsen naar een ander domein.</span><span class="sxs-lookup"><span data-stu-id="90540-147">You can also use PowerShell to move users to another domain.</span></span> <span data-ttu-id="90540-148">Zie [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="90540-148">See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information.</span></span> <span data-ttu-id="90540-149">Gebruik [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0) om het standaarddomein in te stellen.</span><span class="sxs-lookup"><span data-stu-id="90540-149">To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
+<span data-ttu-id="d07db-147">U kunt ook PowerShell gebruiken om gebruikers te verplaatsen naar een ander domein.</span><span class="sxs-lookup"><span data-stu-id="d07db-147">You can also use PowerShell to move users to another domain.</span></span> <span data-ttu-id="d07db-148">Zie [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="d07db-148">See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information.</span></span> <span data-ttu-id="d07db-149">Gebruik [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0) om het standaarddomein in te stellen.</span><span class="sxs-lookup"><span data-stu-id="d07db-149">To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="90540-150">Ga **Users** naar \> **Actieve gebruikers**en selecteer uw naam in de lijst.</span><span class="sxs-lookup"><span data-stu-id="90540-150">Go to **Users** \> **Active Users**, and select your name in the list.</span></span>
+1. <span data-ttu-id="d07db-150">Ga naar **gebruikers** \> van **actieve gebruikers**en selecteer uw naam in de lijst.</span><span class="sxs-lookup"><span data-stu-id="d07db-150">Go to **Users** \> **Active Users**, and select your name in the list.</span></span>
 
-2. <span data-ttu-id="90540-151">Selecteer **bewerken**in de sectie **Gebruikersnaam /E-mail** en kies vervolgens een ander domein.</span><span class="sxs-lookup"><span data-stu-id="90540-151">In the **Username / Email** section, select **Edit**, and then choose a different domain.</span></span>
+2. <span data-ttu-id="d07db-151">Selecteer in de sectie **gebruikersnaam/e-mailen** de optie **bewerken**en kies vervolgens een ander domein.</span><span class="sxs-lookup"><span data-stu-id="d07db-151">In the **Username / Email** section, select **Edit**, and then choose a different domain.</span></span>
 
-3. <span data-ttu-id="90540-152">Selecteer **Instellen als primair** sluiten > **Save** > **opslaan**.</span><span class="sxs-lookup"><span data-stu-id="90540-152">Select **Set as primary** > **Save** > **Close**.</span></span>
+3. <span data-ttu-id="d07db-152">Selecteer **instellen als primair** > **Opslaan** > **sluiten**.</span><span class="sxs-lookup"><span data-stu-id="d07db-152">Select **Set as primary** > **Save** > **Close**.</span></span>
   
-4. <span data-ttu-id="90540-153">Selecteer boven aan uw accountnaam en selecteer **Afmelden**.</span><span class="sxs-lookup"><span data-stu-id="90540-153">At the top, select your account name, then select **Sign Out**.</span></span>
+4. <span data-ttu-id="d07db-153">Selecteer bovenaan de naam van uw account en selecteer **Afmelden**.</span><span class="sxs-lookup"><span data-stu-id="d07db-153">At the top, select your account name, then select **Sign Out**.</span></span>
 
-5. <span data-ttu-id="90540-154">Meld u aan met het nieuwe domein en hetzelfde wachtwoord.</span><span class="sxs-lookup"><span data-stu-id="90540-154">Sign in with the new domain and your same password.</span></span>
+5. <span data-ttu-id="d07db-154">Meld u aan met het nieuwe domein en hetzelfde wachtwoord.</span><span class="sxs-lookup"><span data-stu-id="d07db-154">Sign in with the new domain and your same password.</span></span>
 
-<span data-ttu-id="90540-155">U kunt ook PowerShell gebruiken om gebruikers te verplaatsen naar een ander domein.</span><span class="sxs-lookup"><span data-stu-id="90540-155">You can also use PowerShell to move users to another domain.</span></span> <span data-ttu-id="90540-156">Zie [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="90540-156">See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information.</span></span> <span data-ttu-id="90540-157">Gebruik [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0) om het standaarddomein in te stellen.</span><span class="sxs-lookup"><span data-stu-id="90540-157">To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
+<span data-ttu-id="d07db-155">U kunt ook PowerShell gebruiken om gebruikers te verplaatsen naar een ander domein.</span><span class="sxs-lookup"><span data-stu-id="d07db-155">You can also use PowerShell to move users to another domain.</span></span> <span data-ttu-id="d07db-156">Zie [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="d07db-156">See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information.</span></span> <span data-ttu-id="d07db-157">Gebruik [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0) om het standaarddomein in te stellen.</span><span class="sxs-lookup"><span data-stu-id="d07db-157">To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
 
 ::: moniker-end
 
-### <a name="step-2-move-groups-to-another-domain"></a><span data-ttu-id="90540-158">Stap 2: Groepen naar een ander domein verplaatsen</span><span class="sxs-lookup"><span data-stu-id="90540-158">Step 2: Move groups to another domain</span></span>
+### <a name="step-2-move-groups-to-another-domain"></a><span data-ttu-id="d07db-158">Stap 2: Groepen naar een ander domein verplaatsen</span><span class="sxs-lookup"><span data-stu-id="d07db-158">Step 2: Move groups to another domain</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="90540-159">Ga in het beheercentrum **Groups** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepen groepen.</a></span><span class="sxs-lookup"><span data-stu-id="90540-159">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> page.</span></span>
+1. <span data-ttu-id="d07db-159">Ga in het Beheercentrum naar de pagina **groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen</a> .</span><span class="sxs-lookup"><span data-stu-id="d07db-159">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> page.</span></span>
   
-2. <span data-ttu-id="90540-160">Selecteer de groepsnaam en selecteer vervolgens op het tabblad **Algemeen** onder **E-mailadres Primair**, selecteer **Bewerken**.</span><span class="sxs-lookup"><span data-stu-id="90540-160">Select the group name, and then on the **General** tab under **Email address, Primary**, select **Edit**.</span></span>
+2. <span data-ttu-id="d07db-160">Selecteer de groepsnaam en selecteer vervolgens op het tabblad **Algemeen** onder **e-mailadres, primair**, **bewerken**.</span><span class="sxs-lookup"><span data-stu-id="d07db-160">Select the group name, and then on the **General** tab under **Email address, Primary**, select **Edit**.</span></span>
 
-3. <span data-ttu-id="90540-161">Gebruik de vervolgkeuzelijst om een ander domein te kiezen.</span><span class="sxs-lookup"><span data-stu-id="90540-161">Use the drop-down list to choose another domain.</span></span>
+3. <span data-ttu-id="d07db-161">Gebruik de vervolgkeuzelijst om een ander domein te kiezen.</span><span class="sxs-lookup"><span data-stu-id="d07db-161">Use the drop-down list to choose another domain.</span></span>
 
-4. <span data-ttu-id="90540-162">Selecteer **Opslaan** en vervolgens **Sluiten**.</span><span class="sxs-lookup"><span data-stu-id="90540-162">Select **Save**, then **Close**.</span></span> <span data-ttu-id="90540-163">Herhaal dit proces voor alle groepen of distributielijsten die zijn gekoppeld aan het domein dat u wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="90540-163">Repeat this process for any groups or distribution lists associated with the domain that you want to remove.</span></span>
+4. <span data-ttu-id="d07db-162">Selecteer **Opslaan** en vervolgens **Sluiten**.</span><span class="sxs-lookup"><span data-stu-id="d07db-162">Select **Save**, then **Close**.</span></span> <span data-ttu-id="d07db-163">Herhaal dit proces voor alle groepen of distributielijsten die zijn gekoppeld aan het domein dat u wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="d07db-163">Repeat this process for any groups or distribution lists associated with the domain that you want to remove.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="90540-164">Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a>naar de pagina **Groups** > **Groepen groepen.**</span><span class="sxs-lookup"><span data-stu-id="90540-164">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">admin center</a>,  go to the **Groups** > **Groups** page.</span></span>
+1. <span data-ttu-id="d07db-164">Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Beheercentrum</a>naar de pagina **groepen** > **groepen** .</span><span class="sxs-lookup"><span data-stu-id="d07db-164">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">admin center</a>,  go to the **Groups** > **Groups** page.</span></span>
 
-2. <span data-ttu-id="90540-165">Selecteer de groepsnaam en selecteer **Bewerken** naast **Naam**.</span><span class="sxs-lookup"><span data-stu-id="90540-165">Select the group name, and then select **Edit** next to **Name**.</span></span>
+2. <span data-ttu-id="d07db-165">Selecteer de groepsnaam en selecteer vervolgens **bewerken** naast **naam**.</span><span class="sxs-lookup"><span data-stu-id="d07db-165">Select the group name, and then select **Edit** next to **Name**.</span></span>
 
-3. <span data-ttu-id="90540-166">Gebruik de vervolgkeuzelijst om een ander domein te kiezen.</span><span class="sxs-lookup"><span data-stu-id="90540-166">Use the drop-down list to choose another domain.</span></span>
+3. <span data-ttu-id="d07db-166">Gebruik de vervolgkeuzelijst om een ander domein te kiezen.</span><span class="sxs-lookup"><span data-stu-id="d07db-166">Use the drop-down list to choose another domain.</span></span>
 
-4. <span data-ttu-id="90540-167">Selecteer **Opslaan** en vervolgens **Sluiten**.</span><span class="sxs-lookup"><span data-stu-id="90540-167">Select **Save**, then **Close**.</span></span> <span data-ttu-id="90540-168">Herhaal dit proces voor alle groepen of distributielijsten die zijn gekoppeld aan het domein dat u wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="90540-168">Repeat this process for any groups or distribution lists associated with the domain that you want to remove.</span></span>
+4. <span data-ttu-id="d07db-167">Selecteer **Opslaan** en vervolgens **Sluiten**.</span><span class="sxs-lookup"><span data-stu-id="d07db-167">Select **Save**, then **Close**.</span></span> <span data-ttu-id="d07db-168">Herhaal dit proces voor alle groepen of distributielijsten die zijn gekoppeld aan het domein dat u wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="d07db-168">Repeat this process for any groups or distribution lists associated with the domain that you want to remove.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="90540-169">Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a>naar de pagina **Groups** > **Groepen groepen.**</span><span class="sxs-lookup"><span data-stu-id="90540-169">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center</a>,  go to the **Groups** > **Groups** page.</span></span>
+1. <span data-ttu-id="d07db-169">Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Beheercentrum</a>naar de pagina **groepen** > **groepen** .</span><span class="sxs-lookup"><span data-stu-id="d07db-169">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center</a>,  go to the **Groups** > **Groups** page.</span></span>
 
-2. <span data-ttu-id="90540-170">Selecteer de groepsnaam en selecteer **Bewerken** naast **Naam**.</span><span class="sxs-lookup"><span data-stu-id="90540-170">Select the group name, and then select **Edit** next to **Name**.</span></span>
+2. <span data-ttu-id="d07db-170">Selecteer de groepsnaam en selecteer vervolgens **bewerken** naast **naam**.</span><span class="sxs-lookup"><span data-stu-id="d07db-170">Select the group name, and then select **Edit** next to **Name**.</span></span>
 
-3. <span data-ttu-id="90540-171">Gebruik de vervolgkeuzelijst om een ander domein te kiezen.</span><span class="sxs-lookup"><span data-stu-id="90540-171">Use the drop-down list to choose another domain.</span></span>
+3. <span data-ttu-id="d07db-171">Gebruik de vervolgkeuzelijst om een ander domein te kiezen.</span><span class="sxs-lookup"><span data-stu-id="d07db-171">Use the drop-down list to choose another domain.</span></span>
 
-4. <span data-ttu-id="90540-172">Selecteer **Opslaan** en vervolgens **Sluiten**.</span><span class="sxs-lookup"><span data-stu-id="90540-172">Select **Save**, then **Close**.</span></span> <span data-ttu-id="90540-173">Herhaal dit proces voor alle groepen of distributielijsten die zijn gekoppeld aan het domein dat u wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="90540-173">Repeat this process for any groups or distribution lists associated with the domain that you want to remove.</span></span>
+4. <span data-ttu-id="d07db-172">Selecteer **Opslaan** en vervolgens **Sluiten**.</span><span class="sxs-lookup"><span data-stu-id="d07db-172">Select **Save**, then **Close**.</span></span> <span data-ttu-id="d07db-173">Herhaal dit proces voor alle groepen of distributielijsten die zijn gekoppeld aan het domein dat u wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="d07db-173">Repeat this process for any groups or distribution lists associated with the domain that you want to remove.</span></span>
 
 ::: moniker-end
 
-### <a name="step-3-remove-the-old-domain"></a><span data-ttu-id="90540-174">Stap 3: Het oude domein verwijderen</span><span class="sxs-lookup"><span data-stu-id="90540-174">Step 3: Remove the old domain</span></span>
+### <a name="step-3-remove-the-old-domain"></a><span data-ttu-id="d07db-174">Stap 3: Het oude domein verwijderen</span><span class="sxs-lookup"><span data-stu-id="d07db-174">Step 3: Remove the old domain</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="90540-175">Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.</span><span class="sxs-lookup"><span data-stu-id="90540-175">In the admin center, go to the **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="d07db-175">Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.</span><span class="sxs-lookup"><span data-stu-id="d07db-175">In the admin center, go to the **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="90540-176">Ga in het beheercentrum **Setup** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domeinen</a> instellen.</span><span class="sxs-lookup"><span data-stu-id="90540-176">In the admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="d07db-176">Ga in het Beheercentrum naar de pagina **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">domeinen</a> instellen.</span><span class="sxs-lookup"><span data-stu-id="d07db-176">In the admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="90540-177">Ga in het beheercentrum **Setup** naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domeinen</a> instellen.</span><span class="sxs-lookup"><span data-stu-id="90540-177">In the admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="d07db-177">Ga in het Beheercentrum naar de pagina **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">domeinen</a> instellen.</span><span class="sxs-lookup"><span data-stu-id="d07db-177">In the admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> page.</span></span>
 
 ::: moniker-end
   
-2. <span data-ttu-id="90540-178">Selecteer op de pagina **Domeinen** het domein dat u wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="90540-178">On the **Domains** page, select the domain that you want to remove.</span></span>
+2. <span data-ttu-id="d07db-178">Selecteer op de pagina **Domains** het domein dat u wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="d07db-178">On the **Domains** page, select the domain that you want to remove.</span></span>
 
-3. <span data-ttu-id="90540-179">Selecteer **Verwijderen**in het rechterdeelvenster .</span><span class="sxs-lookup"><span data-stu-id="90540-179">In the right pane, select **Remove**.</span></span>
+3. <span data-ttu-id="d07db-179">Selecteer in het rechterdeelvenster de optie **verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="d07db-179">In the right pane, select **Remove**.</span></span>
 
-4. <span data-ttu-id="90540-180">Volg eventuele aanvullende aanwijzingen en selecteer **Sluiten**.</span><span class="sxs-lookup"><span data-stu-id="90540-180">Follow any additional prompts, and then select **Close**.</span></span>
+4. <span data-ttu-id="d07db-180">Volg eventuele aanvullende aanwijzingen en selecteer **sluiten**.</span><span class="sxs-lookup"><span data-stu-id="d07db-180">Follow any additional prompts, and then select **Close**.</span></span>
 
-## <a name="how-long-does-it-take-for-a-domain-to-be-removed"></a><span data-ttu-id="90540-181">Hoe lang duurt het voordat een domein is verwijderd?</span><span class="sxs-lookup"><span data-stu-id="90540-181">How long does it take for a domain to be removed?</span></span>
+## <a name="how-long-does-it-take-for-a-domain-to-be-removed"></a><span data-ttu-id="d07db-181">Hoe lang duurt het voordat een domein is verwijderd?</span><span class="sxs-lookup"><span data-stu-id="d07db-181">How long does it take for a domain to be removed?</span></span>
 
-<span data-ttu-id="90540-182">Het kan slechts 5 minuten duren voordat Microsoft 365 een domein verwijdert als er niet op veel plaatsen wordt verwezen, zoals beveiligingsgroepen, distributielijsten, gebruikers en Microsoft 365-groepen.</span><span class="sxs-lookup"><span data-stu-id="90540-182">It can take as little as 5 minutes for Microsoft 365 to remove a domain if it's not referenced in a lot of places such as security groups, distribution lists, users, and Microsoft 365 groups.</span></span> <span data-ttu-id="90540-183">Als er veel verwijzingen zijn waarin het domein wordt gebruikt, kan het enkele uren (een dag) duren voordat het domein is verwijderd.</span><span class="sxs-lookup"><span data-stu-id="90540-183">If there are many references that use the domain it can take several hours (a day) for the domain to be removed.</span></span>
+<span data-ttu-id="d07db-182">Het kan lang duren voordat 5 minuten voor Microsoft 365 een domein is verwijderd als er geen verwijzingen zijn, zoals beveiligingsgroepen, distributielijsten, gebruikers en Microsoft 365 groepen.</span><span class="sxs-lookup"><span data-stu-id="d07db-182">It can take as little as 5 minutes for Microsoft 365 to remove a domain if it's not referenced in a lot of places such as security groups, distribution lists, users, and Microsoft 365 groups.</span></span> <span data-ttu-id="d07db-183">Als er veel verwijzingen zijn waarin het domein wordt gebruikt, kan het enkele uren (een dag) duren voordat het domein is verwijderd.</span><span class="sxs-lookup"><span data-stu-id="d07db-183">If there are many references that use the domain it can take several hours (a day) for the domain to be removed.</span></span>
   
-<span data-ttu-id="90540-p113">Als u honderden of duizenden gebruikers hebt, gebruikt u PowerShell om alle gebruikers te zoeken en ze vervolgens naar een ander domein te verplaatsen. Anders is het mogelijk dat een klein aantal gebruikers in de UI over het hoofd wordt gezien. Wanneer u het domein vervolgens wilt verwijderen, lukt dit niet en weet u niet waarom. Zie [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) voor meer informatie. Gebruik [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0) om het standaarddomein in te stellen.</span><span class="sxs-lookup"><span data-stu-id="90540-p113">If you have hundreds or thousands of users, use PowerShell to query for all users and then move them to another domain. Otherwise, it's possible for a handful of users to be missed in the UI, and then when you go to remove the domain, you won't be able to and you won't know why. See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information. To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
+<span data-ttu-id="d07db-p113">Als u honderden of duizenden gebruikers hebt, gebruikt u PowerShell om alle gebruikers te zoeken en ze vervolgens naar een ander domein te verplaatsen. Anders is het mogelijk dat een klein aantal gebruikers in de UI over het hoofd wordt gezien. Wanneer u het domein vervolgens wilt verwijderen, lukt dit niet en weet u niet waarom. Zie [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) voor meer informatie. Gebruik [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0) om het standaarddomein in te stellen.</span><span class="sxs-lookup"><span data-stu-id="d07db-p113">If you have hundreds or thousands of users, use PowerShell to query for all users and then move them to another domain. Otherwise, it's possible for a handful of users to be missed in the UI, and then when you go to remove the domain, you won't be able to and you won't know why. See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information. To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
   
-## <a name="still-need-help"></a><span data-ttu-id="90540-188">Meer hulp nodig?</span><span class="sxs-lookup"><span data-stu-id="90540-188">Still need help?</span></span>
+## <a name="still-need-help"></a><span data-ttu-id="d07db-188">Meer hulp nodig?</span><span class="sxs-lookup"><span data-stu-id="d07db-188">Still need help?</span></span>
 
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
-> <span data-ttu-id="90540-189">U kunt het ['.onmicrosoft.com'](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)-domein niet uit uw account verwijderen.</span><span class="sxs-lookup"><span data-stu-id="90540-189">You can't remove the [".onmicrosoft.com"](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) domain from your account.</span></span>
+> <span data-ttu-id="d07db-189">U kunt het ['.onmicrosoft.com'](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)-domein niet uit uw account verwijderen.</span><span class="sxs-lookup"><span data-stu-id="d07db-189">You can't remove the [".onmicrosoft.com"](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) domain from your account.</span></span>
   
-<span data-ttu-id="90540-p114">Werkt het nog steeds niet? Uw domein moet mogelijk handmatig worden verwijderd. [Bel ons gerust](../contact-support-for-business-products.md). We helpen u graag.</span><span class="sxs-lookup"><span data-stu-id="90540-p114">Still not working? Your domain might need to be manually removed. [Give us a call](../contact-support-for-business-products.md) and we'll help you take care of it!</span></span>
+<span data-ttu-id="d07db-p114">Werkt het nog steeds niet? Uw domein moet mogelijk handmatig worden verwijderd. [Bel ons gerust](../contact-support-for-business-products.md). We helpen u graag.</span><span class="sxs-lookup"><span data-stu-id="d07db-p114">Still not working? Your domain might need to be manually removed. [Give us a call](../contact-support-for-business-products.md) and we'll help you take care of it!</span></span>
   
 ::: moniker-end
 
-## <a name="related-articles"></a><span data-ttu-id="90540-193">Verwante artikelen</span><span class="sxs-lookup"><span data-stu-id="90540-193">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="d07db-193">Verwante artikelen</span><span class="sxs-lookup"><span data-stu-id="d07db-193">Related articles</span></span>
 
-[<span data-ttu-id="90540-194">Veelgestelde vragen over domeinen</span><span class="sxs-lookup"><span data-stu-id="90540-194">Domains FAQ</span></span>](../setup/domains-faq.md)
+[<span data-ttu-id="d07db-194">Veelgestelde vragen over domeinen</span><span class="sxs-lookup"><span data-stu-id="d07db-194">Domains FAQ</span></span>](../setup/domains-faq.md)
 
-[<span data-ttu-id="90540-195">Hulp krijgen bij Microsoft 365-domeinen</span><span class="sxs-lookup"><span data-stu-id="90540-195">Get help with Microsoft 365 domains</span></span>](get-help-with-domains.md)
+[<span data-ttu-id="d07db-195">Overstappen op een ander Microsoft 365 voor Bedrijven-abonnement</span><span class="sxs-lookup"><span data-stu-id="d07db-195">Switch to a different Microsoft 365 for business plan</span></span>](../../commerce/subscriptions/switch-to-a-different-plan.md)
 
-[<span data-ttu-id="90540-196">Overstappen op een ander Microsoft 365 voor Bedrijven-abonnement</span><span class="sxs-lookup"><span data-stu-id="90540-196">Switch to a different Microsoft 365 for business plan</span></span>](../../commerce/subscriptions/switch-to-a-different-plan.md)
-
-[<span data-ttu-id="90540-197">Uw abonnement opzeggen</span><span class="sxs-lookup"><span data-stu-id="90540-197">Cancel your subscription</span></span>](../../commerce/subscriptions/cancel-your-subscription.md)
+[<span data-ttu-id="d07db-196">Uw abonnement opzeggen</span><span class="sxs-lookup"><span data-stu-id="d07db-196">Cancel your subscription</span></span>](../../commerce/subscriptions/cancel-your-subscription.md)

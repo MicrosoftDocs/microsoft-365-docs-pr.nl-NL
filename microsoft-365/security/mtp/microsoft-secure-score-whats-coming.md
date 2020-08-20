@@ -1,7 +1,7 @@
 ---
-title: Wat komt er naar Microsoft Secure Score
-description: Beschrijft welke nieuwe wijzigingen er komen voor Microsoft Secure Score in het Microsoft 365-beveiligingscentrum.
-keywords: beveiliging, malware, Microsoft 365, M365, secure score, security center, verbeteracties
+title: Wat is er beschikbaar voor de beveiligde Score van Microsoft
+description: Beschrijft welke nieuwe wijzigingen beschikbaar zijn in Microsoft 365 Beveiligingscentrum.
+keywords: beveiliging, malware, Microsoft 365, M365, Secure Score, Security Center, verbeterings acties
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -17,31 +17,26 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 634f4194e450a7f3835ae0003c5632220a63108e
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 1b6bd81bc194a3b8d972661eaca393571b1ad199
+ms.sourcegitcommit: 22fd8517707ed3ab6ef996247ad2aa372535ee56
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200048"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46815217"
 ---
-# <a name="whats-coming-to-microsoft-secure-score"></a><span data-ttu-id="c8d80-104">Wat komt er naar Microsoft Secure Score</span><span class="sxs-lookup"><span data-stu-id="c8d80-104">What's coming to Microsoft Secure Score</span></span>
+# <a name="whats-coming-to-microsoft-secure-score"></a><span data-ttu-id="2691d-104">Wat is er beschikbaar voor de beveiligde Score van Microsoft</span><span class="sxs-lookup"><span data-stu-id="2691d-104">What's coming to Microsoft Secure Score</span></span>
 
-<span data-ttu-id="c8d80-105">Om [van Microsoft Secure Score](microsoft-secure-score.md) een betere vertegenwoordiger van uw beveiligingshouding te maken en de bruikbaarheid te verbeteren, voeren we in de nabije toekomst enkele wijzigingen door.</span><span class="sxs-lookup"><span data-stu-id="c8d80-105">To make [Microsoft Secure Score](microsoft-secure-score.md) a better representative of your security posture and improve usability, we are making some changes in the near future.</span></span> <span data-ttu-id="c8d80-106">Uw score en de maximaal mogelijke score kunnen veranderen.</span><span class="sxs-lookup"><span data-stu-id="c8d80-106">Your score and the maximum possible score may change.</span></span>
+<span data-ttu-id="2691d-105">Om de [Microsoft Secure Score](microsoft-secure-score.md) te zorgen voor een betere medewerker van uw beveiligings Posture en het verbeteren van de betrouwbaarheid, maken we enkele wijzigingen in de nabije toekomst.</span><span class="sxs-lookup"><span data-stu-id="2691d-105">To make [Microsoft Secure Score](microsoft-secure-score.md) a better representative of your security posture and improve usability, we are making some changes in the near future.</span></span> <span data-ttu-id="2691d-106">Uw score en de maximaal mogelijke score kunnen wijzigen.</span><span class="sxs-lookup"><span data-stu-id="2691d-106">Your score and the maximum possible score may change.</span></span>
 
-## <a name="proposed-changes"></a><span data-ttu-id="c8d80-107">Voorgestelde wijzigingen</span><span class="sxs-lookup"><span data-stu-id="c8d80-107">Proposed changes</span></span>
+## <a name="proposed-changes"></a><span data-ttu-id="2691d-107">Voorgestelde wijzigingen</span><span class="sxs-lookup"><span data-stu-id="2691d-107">Proposed changes</span></span>
 
-<span data-ttu-id="c8d80-108">Deze wijzigingen komen mogelijk binnenkort naar uw Microsoft Secure Score, afhankelijk van uw licentie.</span><span class="sxs-lookup"><span data-stu-id="c8d80-108">These these changes may be coming to your Microsoft Secure Score soon, depending on your license.</span></span> <span data-ttu-id="c8d80-109">Zie Wat is er nieuw in Microsoft Secure Score voor meer informatie over recente [wijzigingen?](microsoft-secure-score-whats-new.md)</span><span class="sxs-lookup"><span data-stu-id="c8d80-109">To learn about recent changes, see [What's new in Microsoft Secure Score?](microsoft-secure-score-whats-new.md)</span></span>
+<span data-ttu-id="2691d-108">Het is mogelijk dat deze wijzigingen binnenkort beschikbaar zijn voor uw Microsoft Secure Score, afhankelijk van uw licentie.</span><span class="sxs-lookup"><span data-stu-id="2691d-108">These these changes may be coming to your Microsoft Secure Score soon, depending on your license.</span></span> <span data-ttu-id="2691d-109">Zie [nieuwe functies in Microsoft Secure Score](microsoft-secure-score-whats-new.md) voor informatie over recente wijzigingen.</span><span class="sxs-lookup"><span data-stu-id="2691d-109">To learn about recent changes, see [What's new in Microsoft Secure Score?](microsoft-secure-score-whats-new.md)</span></span>
 
-### <a name="adding-improvement-actions-for-azure-advanced-threat-protection"></a><span data-ttu-id="c8d80-110">Verbeteringsacties toevoegen voor Azure Advanced Threat Protection</span><span class="sxs-lookup"><span data-stu-id="c8d80-110">Adding improvement actions for Azure Advanced Threat Protection</span></span>
+- <span data-ttu-id="2691d-110">De maximum score wijzigen van 7 in 8 voor de actie voor het verzorgen van Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="2691d-110">Changing the maximum score from 7 to 8 for the Azure Active Directory improvement action called "Enable policy to block legacy authentication"</span></span>
 
-- <span data-ttu-id="c8d80-111">Riskante zijwaartse bewegingspaden</span><span class="sxs-lookup"><span data-stu-id="c8d80-111">Risky lateral movement paths</span></span>
-- <span data-ttu-id="c8d80-112">Ontveiligde accountkenmerken</span><span class="sxs-lookup"><span data-stu-id="c8d80-112">Unsecure account attributes</span></span>
-- <span data-ttu-id="c8d80-113">Beveiligingsfuncties inschakelen op Active Directory-vertrouwensrelaties</span><span class="sxs-lookup"><span data-stu-id="c8d80-113">Enable security features on Active Directory trusts</span></span>
-- <span data-ttu-id="c8d80-114">Onveilige SID-geschiedeniskenmerken verwijderen uit entiteiten</span><span class="sxs-lookup"><span data-stu-id="c8d80-114">Remove unsecure SID history attributes from entities</span></span>
+## <a name="related-resources"></a><span data-ttu-id="2691d-111">Verwante informatiebronnen</span><span class="sxs-lookup"><span data-stu-id="2691d-111">Related resources</span></span>
 
-## <a name="related-resources"></a><span data-ttu-id="c8d80-115">Verwante informatiebronnen</span><span class="sxs-lookup"><span data-stu-id="c8d80-115">Related resources</span></span>
-
-- [<span data-ttu-id="c8d80-116">Overzicht van Microsoft Secure Score</span><span class="sxs-lookup"><span data-stu-id="c8d80-116">Microsoft Secure Score overview</span></span>](microsoft-secure-score.md)
-- [<span data-ttu-id="c8d80-117">Beoordeel uw beveiligingshouding</span><span class="sxs-lookup"><span data-stu-id="c8d80-117">Assess your security posture</span></span>](microsoft-secure-score-improvement-actions.md)
-- [<span data-ttu-id="c8d80-118">Uw Microsoft Secure Score-geschiedenis bijhouden en doelen bereiken</span><span class="sxs-lookup"><span data-stu-id="c8d80-118">Track your Microsoft Secure Score history and meet goals</span></span>](microsoft-secure-score-history-metrics-trends.md)
-- [<span data-ttu-id="c8d80-119">Wat is er nieuw</span><span class="sxs-lookup"><span data-stu-id="c8d80-119">What's new</span></span>](microsoft-secure-score-whats-new.md)
+- [<span data-ttu-id="2691d-112">Overzicht van Microsoft Secure Score</span><span class="sxs-lookup"><span data-stu-id="2691d-112">Microsoft Secure Score overview</span></span>](microsoft-secure-score.md)
+- [<span data-ttu-id="2691d-113">Uw beveiligingspositie vaststellen</span><span class="sxs-lookup"><span data-stu-id="2691d-113">Assess your security posture</span></span>](microsoft-secure-score-improvement-actions.md)
+- [<span data-ttu-id="2691d-114">De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken</span><span class="sxs-lookup"><span data-stu-id="2691d-114">Track your Microsoft Secure Score history and meet goals</span></span>](microsoft-secure-score-history-metrics-trends.md)
+- [<span data-ttu-id="2691d-115">Wat is er nieuw</span><span class="sxs-lookup"><span data-stu-id="2691d-115">What's new</span></span>](microsoft-secure-score-whats-new.md)
