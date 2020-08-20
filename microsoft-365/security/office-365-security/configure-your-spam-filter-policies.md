@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
-ms.openlocfilehash: fea1ae4a43ee3002c49bd6511a55a3d490723fc2
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 21e2142eb62c25a7301e2ea5f9160ef6d6ef7947
+ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656813"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804218"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -31,39 +31,24 @@ Beheerders kunnen het standaardbeleid bekijken, bewerken en configureren (maar n
 
 U kunt antispambeleid configureren in het Beveiligings- en compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; standalone EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
-## <a name="anti-spam-policies-in-the-security--compliance-center-vs-powershell"></a>Antispambeleid in het Beveiligings- en compliancecentrum versus PowerShell
-
-De basiselementen van antispambeleid in EOP zijn: 
+De basiselementen van antispambeleid zijn: 
 
 - **Het spamfilterbeleid**: omschrijft de acties voor spamfilterbeoordelingen en de meldingsopties.
-
 - **De spamfilterregel**: omschrijft de prioriteits- en geadresseerdenfilters (waarop het beleid van toepassing is) voor spamfilterbeleid.
 
 Het verschil tussen deze twee elementen is niet overduidelijk wanneer u antispambeleid beheert in het Beveiligings- en compliancecentrum:
 
-- Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum maakt u in feite tegelijkertijd een spamfilterregel en het bijbehorende spamfilterbeleid met dezelfde naam voor beide.
+- Wanneer u antispambeleid maakt, maakt u in feite tegelijkertijd een spamfilterregel en het bijbehorende spamfilterbeleid met dezelfde naam voor beide.
+- Wanneer u antispambeleid wijzigt, wordt de spamfilterregel gewijzigd door instellingen met betrekking tot de naam, prioriteit, in- of uitgeschakeld en geadresseerdenfilters. Alle andere instellingen wijzigen het bijbehorende spamfilterbeleid.
+- Wanneer u antispambeleid verwijdert, worden de spamfilterregel en het bijbehorende spamfilterbeleid verwijderd.
 
-- Wanneer u antispambeleid wijzigt in het Beveiligings- en compliancecentrum wordt de spamfilterregel gewijzigd door instellingen met betrekking tot de naam, prioriteit, in- of uitgeschakeld en geadresseerdenfilters. Alle andere instellingen wijzigen het bijbehorende spamfilterbeleid.
-
-- Wanneer u antispambeleid verwijdert uit het Beveiligings- en compliancecentrum worden de spamfilterregel en het bijbehorende spamfilterbeleid verwijderd.
-
-In Exchange Online PowerShell of standalone EOP PowerShell is het verschil tussen spamfilterbeleid en spamfilterregels duidelijk. U beheert spamfilterbeleid door de cmdlets **\*-HostedContentFilterPolicy** te gebruiken en u beheert spamfilterregels door de cmdlets **\*-HostedContentFilterRule** te gebruiken. 
-
-- In PowerShell maakt u eerst het spamfilterbeleid en vervolgens maakt u de spamfilterregel die het beleid identificeert waarop de regel van toepassing is.
-
-- In PowerShell wijzigt u de instellingen in het spamfilterbeleid en de spamfilterregel afzonderlijk.
-
-- Wanneer u spamfilterbeleid verwijdert uit PowerShell, wordt de bijbehorende spamfilterregel niet automatisch verwijderd en omgekeerd.
-
-### <a name="default-anti-spam-policy"></a>Standaardantispambeleid
+In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid en de regel afzonderlijk. Zie de sectie [Exchange Online PowerShell of standalone EOP PowerShell gebruiken om antispambeleid te configureren](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies) later in dit hoofdstuk voor meer informatie.
 
 Elk bedrijf heeft een ingebouwd antispambeleid met de naam Standaard met de volgende eigenschappen:
 
-- Het spamfilterbeleid met de naam Standaard wordt toegepast op alle geadresseerden in het bedrijf, ook als is er geen spamfilterregel (geadresseerdenregels) gekoppeld aan het beleid.
-
-- Het beleid met de naam Standaard heeft de prioriteit **Laagste** die u niet kunt wijzigen (het beleid wordt altijd als laatste toegepast). Alle beleid dat u maakt heeft altijd een hogere prioriteit dan het beleid met de naam Standaard.
-
-- Het beleid met de naam Standaard is het standaardbeleid (de eigenschap **IsDefault** heeft de waarde `True`) en u kunt het standaardbeleid niet verwijderen.
+- Het beleid wordt toegepast op alle geadresseerden in het bedrijf, ook al is er geen spamfilterregel (geadresseerdenregels) gekoppeld aan het beleid.
+- Het beleid heeft de prioriteit **Laagste** die u niet kunt wijzigen (het beleid wordt altijd als laatste toegepast). Alle beleid dat u maakt heeft altijd een hogere prioriteit.
+- Het beleid is het standaardbeleid (de eigenschap **IsDefault** heeft de waarde `True`) en u kunt het standaardbeleid niet verwijderen.
 
 Om de effectiviteit van spamfilters te verhogen, kunt u aangepast antispambeleid maken met strengere instellingen dat wordt toegepast op specifieke gebruikers of groepen gebruikers.
 
@@ -320,7 +305,9 @@ U kunt het standaardantispambeleid niet uitschakelen.
 
 ### <a name="set-the-priority-of-custom-anti-spam-policies"></a>De prioriteit instellen voor aangepast antispambeleid
 
-Standaard krijgt antispambeleid een prioriteit op basis van de volgorde waarin het is gemaakt (nieuwer beleid heeft een hogere prioriteit dan ouder beleid). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee verschillende beleidsregels kunnen niet dezelfde prioriteit hebben.
+Standaard krijgt antispambeleid een prioriteit op basis van de volgorde waarin het is gemaakt (nieuwer beleid heeft een hogere prioriteit dan ouder beleid). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
+
+Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen van een beleid, raadpleegt u [volgorde en prioriteit van e-mailbeveiliging](how-policies-and-protections-are-combined.md).
 
 Aangepast antispambeleid wordt weergegeven in de volgorde waarin het wordt verwerkt (het eerste beleid heeft de **Prioriteit**swaarde 0). Het standaardantispambeleid met de naam **Standaardbeleid voor spamfilters** heeft de prioriteitswaarde **Laagste** en dat kunt u niet wijzigen.
 
@@ -383,6 +370,14 @@ U kunt het standaardbeleid niet verwijderen.
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies"></a>Exchange Online PowerShell of standalone EOP PowerShell gebruiken om antispambeleid te configureren
 
+Zoals eerder beschreven, bestaat een antispambeleid uit een spamfilterbeleid en een spamfilterregel.
+
+In Exchange Online PowerShell of standalone EOP PowerShell is het verschil tussen spamfilterbeleid en spamfilterregels duidelijk. U beheert spamfilterbeleid door de cmdlets **\*-HostedContentFilterPolicy** te gebruiken en u beheert spamfilterregels door de cmdlets **\*-HostedContentFilterRule** te gebruiken. 
+
+- In PowerShell maakt u eerst het spamfilterbeleid en vervolgens maakt u de spamfilterregel die het beleid identificeert waarop de regel van toepassing is.
+- In PowerShell wijzigt u de instellingen in het spamfilterbeleid en de spamfilterregel afzonderlijk.
+- Wanneer u spamfilterbeleid verwijdert uit PowerShell, wordt de bijbehorende spamfilterregel niet automatisch verwijderd en omgekeerd.
+
 De volgende antispambeleidsinstellingen zijn alleen beschikbaar in PowerShell:
 
 - De parameter _MarkAsSpamBulkMail_, die standaard `On` is. De gevolgen van deze instelling zijn eerder in dit artikel uitgelegd in de sectie [Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te maken](#use-the-security--compliance-center-to-create-anti-spam-policies).
@@ -398,7 +393,6 @@ De volgende antispambeleidsinstellingen zijn alleen beschikbaar in PowerShell:
 Antispambeleid maken in PowerShell bestaat uit twee stappen:
 
 1. Het spamfilterbeleid maken.
-
 2. De spamfilterbeleidsregel maken die het spamfilterbeleid opgeeft waarop de regel van toepassing is.
 
  **Opmerkingen**:
@@ -408,7 +402,6 @@ Antispambeleid maken in PowerShell bestaat uit twee stappen:
 - U kunt de volgende instellingen voor nieuw spamfilterbeleid configureren in PowerShell die niet beschikbaar zijn in het Beveiligings- en compliancecentrum tot nadat u het beleid hebt gemaakt:
 
   - Schakel het nieuwe beleid uit (_Ingeschakeld_ `$false` in het cmdlet **New-HostedContentFilterRule**).
-
   - Stel de prioriteit van het beleid in tijdens het maken (_Prioriteit_ _\<Number\>_) in de cmdlet **New-HostedContentFilterRule**).
 
 - Nieuw spamfilterbeleid dat u maakt in PowerShell is niet zichtbaar in het Beveiligings- en compliancecentrum totdat u het beleid toewijst aan een spamfilterregel.
