@@ -1,7 +1,7 @@
 ---
-title: Nieuwe gegevens in Microsoft Secure Score
-description: Beschrijft welke nieuwe wijzigingen er zijn gebeurd met Microsoft Secure Score in het Microsoft 365-beveiligingscentrum.
-keywords: beveiliging, malware, Microsoft 365, M365, secure score, security center, verbeteracties
+title: Nieuw in Microsoft Secure Score
+description: Beschrijft welke nieuwe wijzigingen zijn doorgevoerd in Microsoft Secure Score in het Microsoft 365-Beveiligingscentrum.
+keywords: beveiliging, malware, Microsoft 365, M365, Secure Score, Security Center, verbeterings acties
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -20,69 +20,78 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 4f9f4f40b9cd88cad1676417d467d04367eaa0be
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 644e12d3b9dfecc0a31c8d464033e41670bc7b88
+ms.sourcegitcommit: 22fd8517707ed3ab6ef996247ad2aa372535ee56
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200119"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46815229"
 ---
-# <a name="whats-new-in-microsoft-secure-score"></a>Nieuwe gegevens in Microsoft Secure Score
+# <a name="whats-new-in-microsoft-secure-score"></a>Nieuw in Microsoft Secure Score
 
-Om van Microsoft Secure Score een betere vertegenwoordiger van uw beveiligingshouding te maken, hebben we enkele wijzigingen aangebracht. Zie Wat komt er in Microsoft Secure Score voor meer informatie over geplande [wijzigingen?](microsoft-secure-score-whats-coming.md)
+Als u Microsoft Secure Score een betere vertegenwoordiger van uw beveiligings Posture wilt maken, hebben we enkele wijzigingen aangebracht. Zie voor meer informatie over geplande wijzigingen wat er wordt weergegeven [in Microsoft Secure Score?](microsoft-secure-score-whats-coming.md).
+
+## <a name="july-2020"></a>Juli 2020
+
+### <a name="adding-improvement-actions-for-azure-advanced-threat-protection"></a>Verbeterings acties toevoegen voor Azure Advanced Threat Protection
+
+- Riskante verplaatsings paden
+- Kenmerken van onbeveiligde accounts
+- Beveiligingsfuncties inschakelen voor Active Directory-vertrouwensrelaties
+- Kenmerken van onveilige SID-geschiedenis van entiteiten verwijderen
 
 ## <a name="june-2020"></a>Juni 2020
 
-### <a name="removed-improvement-action-for-microsoft-defender-advanced-threat-protection"></a>Verwijderde verbeteringsactie voor Geavanceerde bedreigingsbeveiliging van Microsoft Defender
+### <a name="removed-improvement-action-for-microsoft-defender-advanced-threat-protection"></a>Actie voor verbetering verwijderd van Microsoft Defender Advanced Threat Protection
 
-* Regels voor attack surface reduction inschakelen
+* Beperking voor oppervlakte-aanvals regels inschakelen
 
-### <a name="added-improvement-actions-for-microsoft-defender-advanced-threat-protection"></a>Verbeterde acties voor Microsoft Defender Advanced Threat Protection
+### <a name="added-improvement-actions-for-microsoft-defender-advanced-threat-protection"></a>Extra verbeterings acties voor Microsoft Defender Advanced Threat Protection
 
-* Adobe Reader blokkeren voor het maken van onderliggende processen
-* Gebruik geavanceerde bescherming tegen ransomware
-* Alle Office-toepassingen blokkeren bij het maken van onderliggende processen
-* Office-toepassingen blokkeren bij het maken van uitvoerbare inhoud
-* JavaScript of VBScript blokkeren bij het starten van gedownloade uitvoerbare inhoud
-* De uitvoering van mogelijk versluierde scripts blokkeren
+* Voorkomen dat Adobe Reader onderliggende processen kan maken
+* Geavanceerde beveiliging gebruiken voor Ransomware
+* Alle Office-toepassingen blokkeren om onderliggende processen te maken
+* Voorkomen dat Office-toepassingen uitvoerbare inhoud kunnen maken
+* JavaScript of VBScript blokkeren voor het starten van downloadbare inhoud
+* Het uitvoeren van mogelijk af te schrijven scripts blokkeren
 * Uitvoerbare inhoud blokkeren van e-mailclient en webmail
-* Office-communicatietoepassing blokkeren bij het maken van onderliggende processen
-* Niet-vertrouwde en niet-ondertekende processen blokkeren die worden uitgevoerd vanaf USB
-* Persistentie blokkeren via WMI-evenementabonnement
-* Office-toepassingen blokkeren om code in andere processen te injecteren
-* Uitvoerbare bestanden blokkeren voor het uitvoeren van bestanden, tenzij ze voldoen aan een prevalentie-, leeftijds- of vertrouwde lijstcriterium
-* Procescreaties blokkeren die afkomstig zijn van OPDRACHTEN PSExec en WMI
-* Het stelen van referenties blokkeren van het subsysteem van de windows-lokale beveiligingsautoriteit (lsass.exe)
+* Voor het maken van onderliggende processen voor Office-communicatietoepassingen blokkeren
+* Niet-vertrouwde en niet-ondertekende processen blokkeren die vanaf USB worden uitgevoerd
+* Permanente hand stenen via een WMI-gebeurtenisabonnement
+* Voorkomen dat Office-toepassingen code in andere processen invoegen
+* Voorkomen dat uitvoerbare bestanden worden uitgevoerd, tenzij ze voldoen aan een invloed, ouderdom of vertrouwd lijst criterium
+* Proces creatie blokkeren vanuit PSExec en WMI-opdrachten
+* Referenties blokkeren van het subsysteem Windows Local Security Authority (lsass.exe)
 * Win32 API-aanroepen blokkeren vanuit Office-macro's
 
-## <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>Onverenigbaarheid met Identity Secure Score en Graph API
+## <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>Incompatibiliteit met identificatie beveiligings Score en Graph-API
 
-In de recente release van Microsoft Secure Score is een verbeterd scoremodel uitgebracht. Deze wijzigingen zorgen voor een flexibeler en nauwkeuriger beeld van uw beveiligingshouding. Deze updates hebben Microsoft Secure Score echter tijdelijk onverenigbaar gemaakt met Identity Secure Score en de Graph API.
+In de recente versie van Microsoft Secure Score is een verbeterd score model uitgebracht. Met deze wijzigingen kunt u een flexibele en nauwkeurige weergave van uw beveiligings posture. Deze updates hebben echter de Microsoft Secure Score tijdelijk niet compatibel gemaakt met identiteitsbeveiliging en de Graph API.
 
-Na verloop van tijd zullen Identity Secure Score en de Graph API het nieuwe scoremodel aannemen. Tot die tijd zien klanten verschillen in de scores die worden gerapporteerd door Microsoft Secure Score, Identity Secure Score en de Graph API. Onze excuses voor het ongemak dat dit veroorzaakt, en werken om ervoor te zorgen dat deze ervaringen meer compatibel zijn in de toekomst.
+In tijd wordt de identiteitsbeveiliging Score en de Graph API het nieuwe score model. Vervolgens zien klanten verschillen in de scores die zijn gerapporteerd door Microsoft Secure Score, Identity Secure Score en Graph API. Onze excuses voor het ongemak, en werken om ervoor te zorgen dat deze functies in de toekomst verder compatibel zijn.
 
-## <a name="updated-improvement-actions"></a>Bijgewerkte verbeteringsacties
+## <a name="updated-improvement-actions"></a>Gewijzigde acties voor verbetering
 
-- Azure Active Directory-verbeteringsacties toegevoegd
-- Azure Advanced Threat Protection-verbeteringsacties toegevoegd
-- Ondersteuning voor microsoft Defender ATP [Threat & Beveiligingsaanbevelingen voor kwetsbaarheidsbeheer](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
-    - Alle vrijgegeven beveiligingsaanbevelingen geleverd door TVM zijn nu beschikbaar
+- Azure Active Directory-verbeterings acties toegevoegd
+- Actie voor verbetering van Azure Advanced Threat Protection toegevoegd
+- Ondersteuning voor de Microsoft Defender ATP- [& bedreiging](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) beveiligingsaanbevelingen van beveiligingsaanbevelingen
+    - Alle vrijgegeven beveiligingsaanbevelingen van TVM zijn nu beschikbaar
 
 ## <a name="updated-interface-and-functionality"></a>Bijgewerkte interface en functionaliteit
 
-* Alle nieuwe statistieken en trends weergaven voor CISO en lead level discussies
-* Nieuwe manieren om je score bij te houden en te benchmarken
-* Beter volgen en begrijpen voor scoreregressies
-* Uw verbeteracties filteren, taggen, zoeken en groeperen
-* Beheer richting uw toekomstige doelen met behulp van scoreprojecties en geplande acties
-* En nog veel meer!
+* Alle nieuwe metrische en trends weergaven voor discussies voor CISO en potentiële klanten
+* Nieuwe manieren om uw score bij te houden en te verenigen
+* Betere tracking en uitleg voor Score regressies
+* De acties voor verbetering filteren, markeren, zoeken en groeperen
+* Uw toekomstige doelen beheren met behulp van Score projecties en geplande acties
+* En nog veel meer.
 
-## <a name="we-want-to-hear-from-you"></a>We willen graag van u horen
+## <a name="we-want-to-hear-from-you"></a>We horen graag van u
 
-Als je problemen hebt, laat het ons weten door een bericht te plaatsen in de [community Beveiliging, privacy & Compliance.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) We houden de gemeenschap in de gaten en zullen hulp bieden.
+Als u problemen ondervindt, kunt u ons laten weten dat u de community [beveiliging, de Privacy & nalevings](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) Community moet posten. We volgen de community en bieden hulp.
 
 ## <a name="related-resources"></a>Verwante informatiebronnen
 
-- [Beoordeel uw beveiligingshouding](microsoft-secure-score-improvement-actions.md)
-- [Uw Microsoft Secure Score-geschiedenis bijhouden en doelen bereiken](microsoft-secure-score-history-metrics-trends.md)
+- [Uw beveiligingspositie vaststellen](microsoft-secure-score-improvement-actions.md)
+- [De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken](microsoft-secure-score-history-metrics-trends.md)
 - [Binnenkort beschikbaar](microsoft-secure-score-whats-coming.md)

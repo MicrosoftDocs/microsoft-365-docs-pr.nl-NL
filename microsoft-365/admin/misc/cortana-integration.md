@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: Als u zich hebt aangemeld met geldige werk-of school accounts, kunnen gebruikers ondersteuningsservices op de Cloud krijgen met Cortana in Microsoft 365-ervaringen die voldoen aan de privacy, beveiliging en nalevingsvereisten voor Office 365.
-ms.openlocfilehash: 29e04726b04fafb0b79e5ba4625dce2ae74bfc67
-ms.sourcegitcommit: 6fb2a1c404ea3c3573b0f7803bf17459a9387891
+ms.openlocfilehash: e7464525774e15d5b54f1b2321948aef5d998558
+ms.sourcegitcommit: c692bdc186fb29499816e8bb2addcddef34d23d3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788846"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46818299"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana in Microsoft 365
 
@@ -101,6 +101,8 @@ Individuele gebruikers kunnen de Cortana-spraakondersteuning uitproberen in de m
 
 4. Zet de wisselknop op aan of uit, afhankelijk van of u Cortana-spraakondersteuning op dit apparaat wilt hebben.
 
+[Meer informatie over Cortana-spraakondersteuning in teams](https://support.microsoft.com/en-us/office/using-cortana-voice-assistance-in-teams-274bb2f0-d962-4182-b45d-307435cea256?ui=en-us&rs=en-us&ad=us)
+
 ### <a name="play-my-emails"></a>Mijn e-mailberichten afspelen
 
 Het afspelen van mijn e-mailberichten (vanaf Outlook Mobile) is een spraak gerichte, handsfree ervaring waarmee gebruikers zich kunnen afluisteren naar nieuwe berichten in het postvak in met prioriteit en hun dag te wijzigen via de luidsprekers op hun telefoon, koptelefoon of aangesloten audioapparaat. Gebruikers kunnen Cortana vragen hun recente e-mailberichten hardop voor te laten lezen en vragen om een actie uit te voeren, zoals vlag toevoegen, archiveren, verwijderen en berichten overslaan. Deze functie is vooral handig als u uw e-mail wilt bijpraten terwijl u onderweg bent, multitasken of onderweg. Wanneer de gebruiker zich aanmeldt bij Cortana in mijn e-mailberichten afspelen, gaat het spraak-audio verzoek rechtstreeks naar Cortana Enterprise-Services. Een tekst-naar-spraak-info over de e-mail van de gebruiker wordt verwerkt binnen de cloud van Office 365. Tijdens dit proces worden geen Office 365-gegevens verwerkt op het mobiele apparaat van de gebruiker en worden er geen e-mail gegevens opgeslagen. Een transcriptie van gesproken opdrachten (bijvoorbeeld ' markeren als gelezen ', ' volgende ', ' vlag ', etc.) mag worden bewaard overeenkomstig de voorwaarden van de gegevensbescherming in de Microsoft [Online Services-voor](https://www.microsoft.com/licensing/product-licensing/products)waarden.
@@ -133,7 +135,7 @@ Beheerders kunnen in Exchange Online informatie voor hun organisatie configurere
 
 We gaan verder met het introduceren van de productiviteit van uw organisatie om uw productiviteit te verbeteren.
 
-Meer informatie over de [aanbiedingen van Microsoft naleving](https://docs.microsoft.com/microsoft-365/compliance/offering-home).
+[Meer informatie over de aanbiedingen van Microsoft compliance](https://docs.microsoft.com/microsoft-365/compliance/offering-home)
 
 ## <a name="how-is-the-delivery-of-cortana-enterprise-services-different-from-the-delivery-of-other-cortana-features-i-may-have-previously-experienced"></a>Hoe kan ik de bezorging van Cortana Enterprise-Services afwijken van de bezorging van andere Cortana-functies die ik eerder heb ervaring heb gehad?
 

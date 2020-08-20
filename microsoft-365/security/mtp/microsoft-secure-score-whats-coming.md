@@ -1,7 +1,7 @@
 ---
-title: Wat komt er naar Microsoft Secure Score
-description: Beschrijft welke nieuwe wijzigingen er komen voor Microsoft Secure Score in het Microsoft 365-beveiligingscentrum.
-keywords: beveiliging, malware, Microsoft 365, M365, secure score, security center, verbeteracties
+title: Wat is er beschikbaar voor de beveiligde Score van Microsoft
+description: Beschrijft welke nieuwe wijzigingen beschikbaar zijn in Microsoft 365 Beveiligingscentrum.
+keywords: beveiliging, malware, Microsoft 365, M365, Secure Score, Security Center, verbeterings acties
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -17,31 +17,26 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 634f4194e450a7f3835ae0003c5632220a63108e
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 1b6bd81bc194a3b8d972661eaca393571b1ad199
+ms.sourcegitcommit: 22fd8517707ed3ab6ef996247ad2aa372535ee56
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200048"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46815217"
 ---
-# <a name="whats-coming-to-microsoft-secure-score"></a>Wat komt er naar Microsoft Secure Score
+# <a name="whats-coming-to-microsoft-secure-score"></a>Wat is er beschikbaar voor de beveiligde Score van Microsoft
 
-Om [van Microsoft Secure Score](microsoft-secure-score.md) een betere vertegenwoordiger van uw beveiligingshouding te maken en de bruikbaarheid te verbeteren, voeren we in de nabije toekomst enkele wijzigingen door. Uw score en de maximaal mogelijke score kunnen veranderen.
+Om de [Microsoft Secure Score](microsoft-secure-score.md) te zorgen voor een betere medewerker van uw beveiligings Posture en het verbeteren van de betrouwbaarheid, maken we enkele wijzigingen in de nabije toekomst. Uw score en de maximaal mogelijke score kunnen wijzigen.
 
 ## <a name="proposed-changes"></a>Voorgestelde wijzigingen
 
-Deze wijzigingen komen mogelijk binnenkort naar uw Microsoft Secure Score, afhankelijk van uw licentie. Zie Wat is er nieuw in Microsoft Secure Score voor meer informatie over recente [wijzigingen?](microsoft-secure-score-whats-new.md)
+Het is mogelijk dat deze wijzigingen binnenkort beschikbaar zijn voor uw Microsoft Secure Score, afhankelijk van uw licentie. Zie [nieuwe functies in Microsoft Secure Score](microsoft-secure-score-whats-new.md) voor informatie over recente wijzigingen.
 
-### <a name="adding-improvement-actions-for-azure-advanced-threat-protection"></a>Verbeteringsacties toevoegen voor Azure Advanced Threat Protection
-
-- Riskante zijwaartse bewegingspaden
-- Ontveiligde accountkenmerken
-- Beveiligingsfuncties inschakelen op Active Directory-vertrouwensrelaties
-- Onveilige SID-geschiedeniskenmerken verwijderen uit entiteiten
+- De maximum score wijzigen van 7 in 8 voor de actie voor het verzorgen van Azure Active Directory
 
 ## <a name="related-resources"></a>Verwante informatiebronnen
 
 - [Overzicht van Microsoft Secure Score](microsoft-secure-score.md)
-- [Beoordeel uw beveiligingshouding](microsoft-secure-score-improvement-actions.md)
-- [Uw Microsoft Secure Score-geschiedenis bijhouden en doelen bereiken](microsoft-secure-score-history-metrics-trends.md)
+- [Uw beveiligingspositie vaststellen](microsoft-secure-score-improvement-actions.md)
+- [De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken](microsoft-secure-score-history-metrics-trends.md)
 - [Wat is er nieuw](microsoft-secure-score-whats-new.md)

@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Voeg uw domein toe aan Microsoft 365 in het Microsoft 365-Beheercentrum door een DNS-record toe te voegen aan uw DNS-host. De installatiewizard begeleidt u bij het proces.
-ms.openlocfilehash: 8b70466e5cf82d9cf5be67162263f28ab5bd0d5d
-ms.sourcegitcommit: 20c219332270f1013d48b39773dd0e48dabad9e4
+ms.openlocfilehash: 0adf8b4dcd5d7bd31038b74a574f449f32bfb037
+ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46592296"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814430"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Een domein toevoegen aan Microsoft 365
 
@@ -96,7 +96,7 @@ ms.locfileid: "46592296"
   
     2. Kies **Ik voeg de DNS-records zelf toe** als u alleen bepaalde microsoft 365-Services wilt toevoegen aan uw domein of als u dit later wilt overslaan. **Kies deze optie als u precies weet wat u doet.**
     
-7. Als u ervoor kiest om *DNS-records zelf toe te voegen* , selecteert u **volgende** en ziet u een pagina met alle records die u moet toevoegen aan uw registratie website om uw domein in te stellen. 
+7. Als u ervoor kiest om  *DNS-records zelf toe te voegen*  , selecteert u **volgende** en ziet u een pagina met alle records die u moet toevoegen aan uw registratie website om uw domein in te stellen. 
     
   
   
@@ -163,5 +163,3 @@ Als uw bedrijf een website heeft, blijft die gewoon werken. De installatiestappe
 [Een domeinnaam kopen in Microsoft 365](../get-help-with-domains/buy-a-domain-name.md)
 
 [Uw domein instellen (host-specifieke instructies)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md)
-
-[Hulp vragen bij domeinen](../get-help-with-domains/get-help-with-domains.md)

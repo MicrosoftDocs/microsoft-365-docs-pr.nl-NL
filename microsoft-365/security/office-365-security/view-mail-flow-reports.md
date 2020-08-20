@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie vinden over de e-mail stroom rapporten die beschikbaar zijn in het dashboard voor beveiliging & in het compliance-Beveiligingscentrum.
 ms.custom: ''
-ms.openlocfilehash: acf74136fc61d38ea9aac47f36d96aa51a7b9905
-ms.sourcegitcommit: 6319e73b3690b4cf1b7932f2b9f51c2c99e70eaa
+ms.openlocfilehash: 98b27497b758a202ccbb741f6cb10e4ec65570e9
+ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46635032"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814498"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>De e-mail stroom rapporten weergeven in het Dashboard rapporten in de beveiligings & nalevings centrum
 
@@ -233,7 +233,7 @@ Wanneer u het rapport opent, is het tabblad **type** standaard geselecteerd. Dez
 
 De grafiek is ingedeeld op basis van de waarden in het **type** .
 
-U kunt deze filters wijzigen door op **filter** te klikken of door op een waarde in de grafieklegenda te klikken.
+U kunt deze filters wijzigen door te klikken op **filter** of door te klikken op een waarde in de legenda van de grafiek.
 
 De gegevenstabel bevat de volgende informatie:
 
@@ -279,6 +279,123 @@ Voor de weergave Details kunt u alleen de gegevens voor één dag exporteren. Al
 Elk geëxporteerde CSV-bestand mag maximaal 150.000 rijen hebben. Als de gegevens voor die dag meer dan 150.000 rijen bevatten, worden er meerdere. CSV-bestanden gemaakt.
 
 ![Richtings weergave in het rapport status van de telestroom ](../../media/mail-flow-status-report-direction-view.png)
+
+### <a name="funnel-view-for-the-mailflow-status-report"></a>Trechter weergave voor het rapport status van de mailflow
+
+In de weergave **trechter** ziet u hoe de functies voor e-mail risico beveiliging van Microsoft inkomende en uitgaande e-mail in uw organisatie filteren. Dit bevat details over het totale aantal e-mails en hoe de geconfigureerde functies van bedreigingen voor beveiliging, waaronder Edge-beveiliging, anti-spam, anti-spam en anti-spoofing van invloed zijn op dit aantal.
+
+Als u op het tabblad **trechter** klikt, bevat deze weergave standaard een grafiek en een gegevenstabel die is geconfigureerd met de volgende filters:
+
+- **Datum**: de laatste 7 dagen.
+
+- **Richting**:
+
+  - **Bound**
+  - **Transfer**
+  - **Intra organisatie**: dit aantal is bestemd voor berichten die binnen een Tenant worden verzonden; verzender abc@domain.com verzendt naar de xyz@domain.com van de geadresseerde (geteld van de inkomende en uitgaande waarde).
+
+De weergave geaggregeerde weergave en gegevenstabel bieden ondersteuning voor 90 dagen van filteren.
+
+Als u op **filter**klikt, kunt u zowel de grafiek als de gegevenstabel filteren.
+
+In dit diagram ziet u het aantal e-mailberichten ingedeeld op:
+
+  - **Totaal aantal e-mail**
+  - **E-mail na bescherming van de Edge**
+  - **E-mail na anti-malware, bestands reputatie, bestandstype blok**
+  - **E-mail na anti-spam, URL-reputatie, merkloze persoon, anti-spoof**
+  - **E-mail na anti-spam, filteren van bulk e-mail**
+  - **E-mail nadat gebruikers-en domein imitatie**<sup>1</sup>
+  - **E-mail na bestand en URL-detonatie**<sup>1</sup>
+  - **E-mail waarvan de bescherming na de bezorging is verdacht**
+
+<sup>1</sup> Office 365 alleen ATP
+
+Als u het e-mailbericht dat u hebt gefilterd op EOP of ATP afzonderlijk wilt bekijken, klikt u op de waarde in de grafieklegenda.
+
+De gegevenstabel bevat de volgende informatie, weergegeven in aflopende volgorde van datum:
+
+ - **Einddatum**
+ - **Totaal aantal e-mail**
+ - **Edge-bescherming**
+ - **Anti malware, bestands reputatie, bestandstype blok**
+ - **Anti-phishing, URL-reputatie, merk imitatie, anti-spoof**
+ - **Anti spam, filteren van bulk e-mail**
+ - **Dispersonatie van gebruikers en domeinen (ATP)**
+ - **Bestand en URL-detonatie (ATP)**
+ - **Beveiligingsupdate voor de na ontvangst en ZAP (ATP) of ZAP (EOP)**
+
+Als u een rij in de gegevenstabel selecteert, worden in het vervolgmenu een extra uitsplitsing van het aantal e-mailberichten weergegeven.
+
+**Exporteren**:
+
+Nadat u op **exporteren** hebt **geklikt, kunt**u een van de volgende waarden selecteren:
+
+- **Samenvatting (met de gegevens voor de laatste 90 dagen)**
+- **Details (met gegevens voor de laatste 30 dagen op de meeste)**
+
+Kies een bereik onder **datum**en klik vervolgens op **toepassen**. De gegevens voor de huidige filters worden geëxporteerd naar een. CSV-bestand.
+
+Elk geëxporteerde CSV-bestand mag maximaal 150.000 rijen hebben. Als de gegevens meer dan 150.000 rijen bevatten, worden er meerdere CSV-bestanden gemaakt.
+
+ ![Trechter weergave in het rapport status van de telestroom ](../../media/mail-flow-status-report-funnel-view.png)
+
+ ### <a name="tech-view-for-the-mailflow-status-report"></a>Technische weergave voor het rapport status van de telestroom
+
+De **technische weergave** is vergelijkbaar met de **trechter** weergave, met meer gedetailleerde informatie over de geconfigureerde functies voor bedreigingsbeveiliging. U kunt in de grafiek zien hoe berichten zijn gecategoriseerd in de verschillende stadia van bedreigings bescherming.
+
+Als u op het tabblad **tech View** klikt, bevat deze weergave standaard een grafiek en een gegevenstabel die is geconfigureerd met de volgende filters:
+
+- **Datum**: de laatste 7 dagen.
+
+- **Richting**:
+
+  - **Bound**
+  - **Transfer**
+  - **Intra organisatie**: dit aantal is bedoeld voor berichten in een Tenant, d.w.z. Sender abc@domain.com verzendt naar de xyz@domain.com van de geadresseerde (geteld op een afzonderlijke waarde van inkomend en uitgaand)
+
+De weergave geaggregeerde weergave en gegevenstabel bieden ondersteuning voor 90 dagen van filteren.
+
+Als u op **filter**klikt, kunt u zowel de grafiek als de gegevenstabel filteren.
+
+In dit diagram ziet u berichten die zijn ingedeeld in de volgende categorieën:
+
+  - **Totaal aantal e-mail**
+  - **Rand toegestaan, gefilterd rand**
+  - **Geen malware, detectie van detectie van schadelijke bijlagen, detectie van malware van malware, regelblok**
+  - **Niet phishing, DMARC mislukking, imitatie detectie, phishing detectie, phishing detection**
+  - **Geen detectie met URL-detonatie, URL-detonatie detectie (ATP)**
+  - **Geen spam, spam**
+  - **Niet-kwaadaardige e-mail, detectie van veilige koppelingen (ATP), ZAP**
+
+Wanneer u de muisaanwijzer op een categorie in de grafiek houdt, ziet u het aantal berichten in die categorie.
+
+De gegevenstabel bevat de volgende informatie, weergegeven in aflopende volgorde van datum:
+
+  - **Einddatum**  
+  - **Totaal aantal e-mail**
+  - **Gefilterde rand**
+  - **Anti malware-engine, veilige bijlagen, gefilterde regel**
+  - **DMARC, imitatie, spoofing, phishing gefilterd**
+  - **Detectie van URL-detonatie**
+  - **Anti spam gefilterd**
+  - **ZAP verwijderd**
+  - **Detectie via veilige koppelingen**
+
+Als u een rij in de gegevenstabel selecteert, worden in het vervolgmenu een extra uitsplitsing van het aantal e-mailberichten weergegeven.
+
+**Exporteren**:
+
+Bij klikken op **exporteren**kunt u onder **Opties** een van de volgende waarden selecteren:
+
+- **Samenvatting (met de gegevens voor de laatste 90 dagen)**
+- **Details (met gegevens voor de laatste 30 dagen op de meeste)**
+
+Kies een bereik onder **datum**en klik vervolgens op **toepassen**. De gegevens voor de huidige filters worden geëxporteerd naar een. CSV-bestand.
+
+Elk geëxporteerde CSV-bestand mag maximaal 150.000 rijen hebben. Als de gegevens meer dan 150.000 rijen bevatten, worden er meerdere CSV-bestanden gemaakt.
+
+ ![Tech-weergave in het rapport status van de telestroom ](../../media/mail-flow-status-report-Tech-view.png)
 
 ## <a name="sent-and-received-email-report"></a>E-mail verzonden en ontvangen
 
