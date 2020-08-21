@@ -6,7 +6,7 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.date: ''
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u het anti-phishingfilter kunt maken, wijzigen en verwijderen dat beschikbaar is in organisaties met een Exchange Online-bescherming (EOP) met of zonder postvakken van Exchange Online.
-ms.openlocfilehash: a00cb2d17ff4824200b97514047aeb52176a28f7
-ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
+ms.openlocfilehash: af6577d32d43300867d29a365baaa4e1e7e1b5e3
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46804252"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46825747"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Anti-phishings beleid configureren in EOP
 
@@ -47,8 +47,8 @@ In Exchange Online PowerShell beheert u het beleid en de regel afzonderlijk. Zie
 Elke organisatie heeft een ingebouwd anti-phishingfilter met de naam Office365 AntiPhish standaard met de volgende eigenschappen:
 
 - Het beleid wordt toegepast op alle geadresseerden in de organisatie, ook al is er geen anti-avond regel (Recipient filters) gekoppeld aan het beleid.
-- Het beleid heeft de aangepaste prioriteits **waarde die** u niet kunt wijzigen (het beleid wordt altijd de laatste toegepast). Aangepaste beleidsregels die u maakt, hebben altijd een hogere prioriteit.
-- Het beleid is het standaardbeleid (de eigenschap **IsDefault** heeft de waarde `True` ) en u kunt het standaardbeleid niet verwijderen.
+- Het beleid heeft de prioriteit **Laagste** die u niet kunt wijzigen (het beleid wordt altijd als laatste toegepast). Alle beleid dat u maakt heeft altijd een hogere prioriteit.
+- Het beleid is het standaardbeleid (de eigenschap **IsDefault** heeft de waarde `True`) en u kunt het standaardbeleid niet verwijderen.
 
 Voor een grotere effectiviteit van de bescherming tegen phishing is het mogelijk om een aangepast anti-phishings beleid te maken met strikte instellingen die worden toegepast op specifieke gebruikers of groepen gebruikers.
 
@@ -219,9 +219,9 @@ U kunt het standaard anti-Phishingfilter niet uitschakelen.
 
 ### <a name="set-the-priority-of-custom-anti-phishing-policies"></a>De prioriteit van een aangepast anti-phishings beleid instellen
 
-Standaard krijgt u een anti-phishingfilter met een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere beleidsregels zijn een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). U kunt geen enkele beleidsregels instellen voor het verwerken van het beleid en het verwerken van beleid stopt na het eerste beleid.
+Standaard krijgt u een anti-phishingfilter met een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere beleidsregels zijn een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
 
-Zie de [volgorde en prioriteit van e-mail beveiliging](how-policies-and-protections-are-combined.md)voor meer informatie over de volgorde van prioriteit en de manier waarop meerdere beleidsregels worden geëvalueerd en toegepast.
+Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen van een beleid, raadpleegt u [volgorde en prioriteit van e-mailbeveiliging](how-policies-and-protections-are-combined.md).
 
 Een aangepast anti-phishings beleid wordt weergegeven in de volgorde waarin ze worden verwerkt ( **het eerste** beleid heeft de waarde 0). Het standaard anti-phishingfilter met de naam Office365 AntiPhish standaard heeft de waarde van een aangepaste **prioriteit en kunt**deze niet wijzigen.
 

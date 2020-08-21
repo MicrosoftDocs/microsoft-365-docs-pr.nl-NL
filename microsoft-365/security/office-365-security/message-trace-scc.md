@@ -6,19 +6,19 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen de functie voor bericht tracering gebruiken in het beveiligings & nalevings centrum om erachter te komen wat er is gebeurd met berichten.
-ms.openlocfilehash: 7c0b87b1bb882714692a04b857bfc054305dee8c
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: c6e1f8f9280c84ab6ff6a1572d902ed1d4d4caa3
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653639"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827049"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Berichttracering in het Beveiligings- en compliancecentrum
 
@@ -369,7 +369,7 @@ Een **custom_data** waarde waarmee begint met `S:AMA` van de malware-filter agen
 
 |Value|Beschrijving|
 |---|---|
-|`AMA=SUM|v=1|`wel`AMA=EV|v=1`|Het bericht is gevonden voor het opnemen van malware. `SUM`Hiermee wordt aangegeven dat de malware is gedetecteerd door een aantal motoren. `EV`Hiermee wordt aangegeven dat de malware is gedetecteerd door een bepaalde engine. Wanneer malware wordt gedetecteerd door een engine, worden de volgende acties geactiveerd.|
+|`AMA=SUM|v=1|` wel `AMA=EV|v=1`|Het bericht is gevonden voor het opnemen van malware. `SUM` Hiermee wordt aangegeven dat de malware is gedetecteerd door een aantal motoren. `EV` Hiermee wordt aangegeven dat de malware is gedetecteerd door een bepaalde engine. Wanneer malware wordt gedetecteerd door een engine, worden de volgende acties geactiveerd.|
 |`Action=r`|Het bericht is vervangen.|
 |`Action=p`|Het bericht is overgeslagen.|
 |`Action=d`|Het bericht is uitgesteld.|
@@ -398,7 +398,7 @@ Een **custom_data** waarde die begint met `S:TRA` , is afkomstig van de transpor
 |`ETR|ruleId=<guid>`|De regel-ID die overeenkomt.|
 |`St=<datetime>`|De datum en tijd in UTC waarop de regel overeenkomst is opgetreden.|
 |`Action=<ActionDefinition>`|De actie die is toegepast. Zie [acties voor e-mail stroom regels in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)voor een lijst met beschikbare acties.|
-|`Mode=<Mode>`|De modus van de regel. Geldige waarden zijn: <br/>* **Afdwingen**: alle acties op de regel worden afgedwongen. <br/>* **Test met beleids tips:**: alle acties voor beleidsregels worden verzonden, maar andere afdwing acties worden niet uitgevoerd. <br/>* **Test zonder beleids tips**: acties worden weergegeven in een logboekbestand, maar afzenders worden op geen enkele manier op de hoogte gesteld en handhavings acties worden niet uitgevoerd.|
+|`Mode=<Mode>`|De modus van de regel. Geldige waarden zijn:<ul><li>**Afdwingen**: alle acties op de regel worden afgedwongen.</li><li>**Test met beleids tips:**: alle acties voor beleidsregels worden verzonden, maar andere afdwing acties worden niet uitgevoerd.</li><li>**Test zonder beleids tips**: acties worden weergegeven in een logboekbestand, maar afzenders worden op geen enkele manier op de hoogte gesteld en handhavings acties worden niet uitgevoerd.</li></ul>|
 |
 
 Een voorbeeld **custom_data** waarde voor een bericht die voldoet aan de voorwaarden van een e-mail stroom regel, ziet er als volgt uit:

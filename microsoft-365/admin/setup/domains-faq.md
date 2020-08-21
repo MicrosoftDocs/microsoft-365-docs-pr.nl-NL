@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: Meer informatie over domeinen vindt u in antwoorden op uw veelgestelde vragen.
-ms.openlocfilehash: bb949dbd4e32bb62f10dfd0323df70697fdc5404
-ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
+ms.openlocfilehash: fe602c45059be1b273b7ebe3a11cd91adf89a479
+ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46804194"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845842"
 ---
 # <a name="domains-faq"></a>Veelgestelde vragen over domeinen
 
@@ -52,7 +52,7 @@ In dit artikel
 - [Wat gebeurt er als mijn DNS-provider geen ondersteuning biedt voor bepaalde recordtypen?](#what-happens-if-my-dns-provider-doesnt-support-certain-record-types)
 - [Hoe kan ik het standaarddomein instellen of wijzigen in Microsoft 365?](#how-do-i-set-or-change-the-default-domain-in-microsoft-365)
 - [Kan ik aangepaste subdomeinen of meerdere domeinen toevoegen aan Microsoft 365?](#can-i-add-custom-subdomains-or-multiple-domains-to-microsoft-365)
-- [Hoe kan ik een domein van Microsoft 365 overbrengen naar een andere host?]
+- [Hoe kan ik een domein van Microsoft 365 overbrengen naar een andere host?](#how-do-i-transfer-a-domain-from-microsoft-365-to-another-host)
 - [Waarom heb ik een domein met de naam onmicrosoft.com?](#why-do-i-have-an-onmicrosoftcom-domain)
 - [Waarom heb ik een onmicrosoft.de-domein?](#why-do-i-have-an-onmicrosoftde-domain)
 - [Hoe controleer ik de status van een non-profit of onderwijs?](#how-do-i-verify-my-nonprofit-or-education-status)

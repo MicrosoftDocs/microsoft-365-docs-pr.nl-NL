@@ -1,22 +1,22 @@
 ---
-title: Nieuwe domeinen worden doorgestuurd via e-mail
+title: Inzicht in nieuwe domeinen waarnaar e-mails worden doorgestuurd
 f1.keywords:
 - NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Beheerders kunnen informatie over het gebruik van de nieuwe domeinen waarmee e-mail inzicht wordt doorgestuurd in het moderne Exchange-Beheercentrum om te onderzoeken wanneer gebruikers in hun organisatie berichten doorsturen naar externe domeinen waarnaar nooit is doorgestuurd.
-ms.openlocfilehash: 81a596d48696f28d62d68594f27081435487d17f
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 0b4cd0490feebc8e05deb889b3cf54e1ea9f5928
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46578392"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826927"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>Nieuwe domeinen worden doorgestuurd via e-mail inzicht in de beveiligings & nalevings centrum
 
@@ -26,7 +26,7 @@ De **nieuwe domeinen waarnaar u e-mail inzicht wordt doorgestuurd** wanneer gebr
 
 Dit inzicht wordt alleen weergegeven als het probleem zich voordoet, en wordt weergegeven op de pagina voor het [doorsturen van rapporten](view-mail-flow-reports.md#forwarding-report) .
 
-![Nieuwe domeinen worden doorgestuurd via e-mail](../../media/mfi-new-domains-being-forwarded.png)
+![Inzicht in nieuwe domeinen waarnaar e-mails worden doorgestuurd](../../media/mfi-new-domains-being-forwarded.png)
 
 Wanneer u op de widget klikt, verschijnt er een flyout waar u meer informatie kunt vinden over de doorgestuurde berichten, waaronder een koppeling terug naar het [doorstuur rapport](view-mail-flow-reports.md#forwarding-report).
 

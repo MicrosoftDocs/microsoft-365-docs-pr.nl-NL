@@ -8,7 +8,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie vinden over de toepassings volgorde van beveiligingsregels in Exchange Online Protection (EOP) en de manier waarop de prioriteitswaarde in beveiligingsbeleid bepaalt welk beleid wordt toegepast.
-ms.openlocfilehash: 7775f0a37751289e7f0116575e2f6b2733683b6b
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 9556d2262eb59224357e20027a1f0e63404081f2
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653675"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827407"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Volgorde en prioriteit van e-mail beveiliging
 
@@ -47,7 +47,7 @@ Er zijn twee belangrijke factoren die bepalen welke beleidsregels op een bericht
   |8:00<sup>\*</sup>|Gebruikers imitatie (beveiligde domeinen)|UIMP|[ATP-beleid tegen phishing configureren](configure-atp-anti-phishing-policies.md)|
   |
 
-  <sup>\*</sup>Deze functies zijn alleen beschikbaar in het ATP anti-phishings beleid.
+  <sup>\*</sup> Deze functies zijn alleen beschikbaar in het ATP anti-phishings beleid.
 
 - **De prioriteit van het beleid**: voor elk beveiligingstype (antispam, anti-malware, anti-phishing, etc.) is er een standaardbeleid voor iedereen, maar u kunt wel aangepaste beleidsregels maken die van toepassing zijn op specifieke gebruikers. Elk aangepast beleid heeft een prioriteitswaarde waarmee wordt bepaald in welke volgorde het beleid wordt toegepast. Het standaardbeleid wordt altijd als laatste toegepast.
 

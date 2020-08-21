@@ -5,7 +5,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen de instellingen voor ongewenste e-mail in postvakken van Exchange Online leren configureren. Veel van deze instellingen zijn beschikbaar voor gebruikers in Outlook of de webversie van Outlook.
-ms.openlocfilehash: 5da4aad41f5c5f00f65fa1ceb4fc4c0fad773779
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 171eca8535958f01a7f749ad678e6ea9dd83d80c
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653039"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46825711"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
 
@@ -42,7 +42,7 @@ Wanneer de regel ongewenste e-mail is ingeschakeld in het postvak, kunnen berich
 Beheerders kunnen Exchange Online PowerShell gebruiken om de status van de regel voor ongewenste e-mail op postvakken uit te schakelen, in te schakelen en te bekijken. Beheerders kunnen ook Exchange Online PowerShell gebruiken voor het configureren van vermeldingen in de veilige lijst-verzameling in postvakken (de lijst met veilige afzenders, de lijst met veilige geadresseerden en de lijst afzenders blokkeren).
 
 > [!NOTE]
-> Berichten van afzenders die gebruikers hebben toegevoegd aan hun eigen lijsten met veilige afzenders, worden gebruikt om het filteren van verbindingen over te slaan als onderdeel van EOP (de SCL is-1). Als u wilt voorkomen dat gebruikers items kunnen toevoegen aan hun lijst met veilige afzenders in Outlook, gebruikt u Groepsbeleid zoals vermeld in de sectie [over instellingen voor ongewenste e-mail in Outlook](#about-junk-email-settings-in-outlook) verderop in dit onderwerp. Beleids filters voor beleids filters, het filteren van inhoud en de Advanced Threat Protection-controles worden op de berichten toegepast.
+> Berichten van afzenders die gebruikers hebben toegevoegd aan hun eigen lijsten met veilige afzenders, worden gebruikt om het filteren van verbindingen over te slaan als onderdeel van EOP (de SCL is-1). Als u wilt voorkomen dat gebruikers items kunnen toevoegen aan hun lijst met veilige afzenders in Outlook, gebruikt u Groepsbeleid zoals vermeld in de sectie  [over instellingen voor ongewenste e-mail in Outlook](#about-junk-email-settings-in-outlook) verderop in dit onderwerp. Beleids filters voor beleids filters, het filteren van inhoud en de Advanced Threat Protection-controles worden op de berichten toegepast.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -57,7 +57,7 @@ Beheerders kunnen Exchange Online PowerShell gebruiken om de status van de regel
 ## <a name="use-exchange-online-powershell-to-enable-or-disable-the-junk-email-rule-in-a-mailbox"></a>Exchange Online PowerShell gebruiken om de regel voor ongewenste e-mail in een postvak in of uit te schakelen
 
 > [!NOTE]
-> U kunt alleen de **set-MailboxJunkEmailConfiguration** -cmdlet gebruiken om de regel voor ongewenste e-mail te deactiveren voor een postvak dat is geopend in Outlook (in de Exchange-modus met cache) of de webversie van Outlook. Als het postvak niet is geopend, krijgt u de foutmelding: `The Junk Email configuration couldn't be set. The user needs to sign in to Outlook Web App before they can modify their Safe Senders and Recipients or Blocked Senders lists.` Als u deze fout wilt onderdrukken voor bulkbewerkingen, kunt u deze toevoegen `-ErrorAction SlientlyContinue` aan de opdracht **set-MailboxJunkEmailConfiguration** .
+> U kunt alleen de **set-MailboxJunkEmailConfiguration** -cmdlet gebruiken om de regel voor ongewenste e-mail te deactiveren voor een postvak dat is geopend in Outlook (in de Exchange-modus met cache) of de webversie van Outlook. Als het postvak niet is geopend, krijgt u de foutmelding: `The Junk Email configuration couldn't be set. The user needs to sign in to Outlook Web App before they can modify their Safe Senders and Recipients or Blocked Senders lists.` Als u deze fout wilt onderdrukken voor bulkbewerkingen, kunt u deze toevoegen `-ErrorAction SilentlyContinue` aan de opdracht **set-MailboxJunkEmailConfiguration** .
 
 Gebruik de volgende syntaxis om de regel voor ongewenste e-mail in een postvak in of uit te schakelen:
 
@@ -81,7 +81,7 @@ Zie [set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/mo
 
 > [!NOTE]
 >
-> - Als de gebruiker het postvak niet heeft geopend, wordt er mogelijk een fout weergegeven wanneer u de vorige opdracht uitvoert. Als u deze fout wilt onderdrukken voor bulkbewerkingen, voegt u deze toe `-ErrorAction SlientlyContinue` aan de opdracht **set-MailboxJunkEmailConfiguration** .
+> - Als de gebruiker het postvak niet heeft geopend, wordt er mogelijk een fout weergegeven wanneer u de vorige opdracht uitvoert. Als u deze fout wilt onderdrukken voor bulkbewerkingen, voegt u deze toe `-ErrorAction SilentlyContinue` aan de opdracht **set-MailboxJunkEmailConfiguration** .
 >
 > - Ook als u de regel voor ongewenste e-mail uitschakelt, kan het filter voor ongewenste e-mail van Outlook (afhankelijk van de configuratie van het bestand) bepalen of een bericht spam bevat, en kan berichten naar het postvak in of de map Ongewenste E-mail verplaatsen op basis van de spam verdict en de veilige lijst-verzameling in het postvak. Zie voor meer informatie het artikel [over de instellingen voor ongewenste e-mail in Outlook](#about-junk-email-settings-in-outlook) in dit onderwerp.
 
@@ -121,7 +121,7 @@ Gebruik de volgende syntaxis om de veilige lijst-verzameling te configureren voo
 Set-MailboxJunkEmailConfiguration <MailboxIdentity> -BlockedSendersAndDomains <EmailAddressesOrDomains | $null> -ContactsTrusted <$true | $false> -TrustedListsOnly <$true | $false> -TrustedSendersAndDomains  <EmailAddresses | $null>
 ```
 
-Als u meerdere waarden wilt invoeren en de bestaande vermeldingen voor de parameters voor _BlockedSendersAndDomains_ en _TrustedSendersAndDomains_ wilt overschreven, gebruikt u de volgende syntaxis: `"<Value1>","<Value2>"...` . Gebruik de volgende syntaxis om een of meer waarden toe te voegen of te verwijderen zonder dat dit van invloed is op andere bestaande vermeldingen:`@{Add="<Value1>","<Value2>"... ; Remove="<Value3>","<Value4>...}`
+Als u meerdere waarden wilt invoeren en de bestaande vermeldingen voor de parameters voor _BlockedSendersAndDomains_ en _TrustedSendersAndDomains_ wilt overschreven, gebruikt u de volgende syntaxis: `"<Value1>","<Value2>"...` . Gebruik de volgende syntaxis om een of meer waarden toe te voegen of te verwijderen zonder dat dit van invloed is op andere bestaande vermeldingen: `@{Add="<Value1>","<Value2>"... ; Remove="<Value3>","<Value4>...}`
 
 In dit voorbeeld worden de volgende instellingen geconfigureerd voor de veilige lijst-verzameling in het postvak van ori Epstein:
 
@@ -145,7 +145,7 @@ Zie [set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/mo
 
 > [!NOTE]
 >
-> - Als de gebruiker het postvak niet heeft geopend, wordt er mogelijk een fout weergegeven wanneer u de vorige opdrachten uitvoert. Als u deze fout wilt onderdrukken voor bulkbewerkingen, voegt u deze toe `-ErrorAction SlientlyContinue` aan de opdracht **set-MailboxJunkEmailConfiguration** .
+> - Als de gebruiker het postvak niet heeft geopend, wordt er mogelijk een fout weergegeven wanneer u de vorige opdrachten uitvoert. Als u deze fout wilt onderdrukken voor bulkbewerkingen, voegt u deze toe `-ErrorAction SilentlyContinue` aan de opdracht **set-MailboxJunkEmailConfiguration** .
 >
 > - Zelfs als de regel voor ongewenste e-mail is uitgeschakeld voor het postvak, kunt u de veilige lijst-verzameling nog steeds configureren, en het filter voor ongewenste E-mail van Outlook kan berichten naar het postvak in of de map Ongewenste E-mail verplaatsen. Zie voor meer informatie het artikel [over de instellingen voor ongewenste e-mail in Outlook](#about-junk-email-settings-in-outlook) in dit onderwerp.
 >

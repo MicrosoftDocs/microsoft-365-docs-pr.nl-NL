@@ -1,22 +1,22 @@
 ---
-title: Nieuwe gebruikers die e-mail inzicht doorsturen
+title: Inzicht in nieuwe gebruikers die e-mails doorsturen
 f1.keywords:
 - NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Beheerders kunnen informatie over het gebruik van de nieuwe gebruikers die e-mail inzicht doorsturen in het beveiligings & Conformiteitscentrum gebruiken om te onderzoeken wanneer gebruikers in hun organisatie berichten doorsturen naar nieuwe domeinen.
-ms.openlocfilehash: 73ab6d1c9601ad40d469984b0ba18191a0917941
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: cb2e16d321e181916219e3425c26e59ebe31b866
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46578374"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826969"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>Nieuwe gebruikers die e-mail inzicht doorsturen in de beveiligings & nalevings centrum
 
@@ -26,7 +26,7 @@ De **nieuwe domeinen waarnaar u e-mail inzicht wordt doorgestuurd** wanneer nieu
 
 Dit inzicht wordt alleen weergegeven als het probleem zich voordoet, en wordt weergegeven op de pagina voor het [doorsturen van rapporten](view-mail-flow-reports.md#forwarding-report) .
 
-![Nieuwe gebruikers die e-mail inzicht doorsturen](../../media/mfi-new-users-forwarding-email.png)
+![Inzicht in nieuwe gebruikers die e-mails doorsturen](../../media/mfi-new-users-forwarding-email.png)
 
 Wanneer u op de widget klikt, verschijnt er een flyout waar u meer informatie kunt vinden over de doorgestuurde berichten, waaronder een koppeling naar het [rapport met doorsturen van wijzigingen](#forwarding-modifications-report) , zoals verderop in dit onderwerp wordt beschreven.
 
@@ -58,11 +58,11 @@ De volgende grafieken zijn beschikbaar in de rapportweergave:
 
 - **Gegevens weergeven voor: nieuwe doorstuur gebruikers**:
 
-  ![Nieuwe weergave voor het doorsturen van gebruikers in het rapport met doorgestuurde wijzigingen](../../media/forwarding-modificiations-report-new-forwarding-users.png)
+  ![Nieuwe weergave voor het doorsturen van gebruikers in het rapport met doorgestuurde wijzigingen](../../media/forwarding-modifications-report-new-forwarding-users.png)
 
 - **Gegevens weergeven voor: nieuwe forwarding domains**:
 
-  ![Nieuwe weergave van doorgestuurd domein in het rapport voor het doorsturen van wijzigingen](../../media/forwarding-modificiations-report-new-forwarded-domains.png)
+  ![Nieuwe weergave van doorgestuurd domein in het rapport voor het doorsturen van wijzigingen](../../media/forwarding-modifications-report-new-forwarded-domains.png)
 
 Als u op **filters** in een rapportweergave klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.
 

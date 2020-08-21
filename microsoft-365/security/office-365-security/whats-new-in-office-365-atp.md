@@ -1,7 +1,7 @@
 ---
-title: Nieuwe gegevens in Geavanceerde bedreigingsbeveiliging van Office 365
-description: Meer informatie over de nieuwe functies en functionaliteit die beschikbaar zijn in de nieuwste versie van Microsoft Office 365 ATP.
-keywords: nieuwe informatie in Office 365 atp, ga, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuw
+title: Nieuw in Office 365 Advanced Threat Protection
+description: Meer informatie over de nieuwe functies en functies die beschikbaar zijn in de nieuwste versie van Microsoft Office 365 ATP.
+keywords: Nieuw in Office 365 ATP, NH, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuw
 search.appverid: met150
 ms.service: O365-seccomp
 ms.sitesec: library
@@ -15,88 +15,93 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 07/23/2020
+ms.date: 08/20/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 92ad1b644dd0b3cac04657d01f70cfb274b7e517
-ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
+ms.openlocfilehash: 39ef79f685c216732aa1e3e0ccb28a4ab6e2b07a
+ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45391552"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845854"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Nieuw in Office 365 ATP
 
 **Van toepassing op:**
 
-- [Office 365 Advanced Threat Protection (AtP voor Office 365)](office-365-atp.md)
+- [Office 365 Advanced Threat Protection (Office 365 ATP)](office-365-atp.md)
 
-In dit artikel worden nieuwe functies weergegeven in de nieuwste versie van Office 365 ATP. Functies die zich momenteel in de preview bevinden, worden aangeduid met **(voorbeeld).**
+Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van Office 365 ATP. Functies die momenteel in de preview-versie worden weergegeven, worden aangeduid met **(preview)**.
 
 > [!TIP]
-> Heeft u nog geen AtP van Office 365? [Neem contact op met sales om een proef te starten.](https://go.microsoft.com/fwlink/p/?LinkId=518644)
+> Hebt u nog geen Office 365-ATP? [Neem contact op met de verkoop om een proefabonnement te starten](https://go.microsoft.com/fwlink/p/?LinkId=518644).
 
-## <a name="julyaugust-2020"></a>Juli/augustus 2020 
+## <a name="septemberoctober-2020"></a>September/oktober 2020 
 
-- [Ervaar verbeteringen in de jachtervaring](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
-- [Aanbevolen instellingen eenvoudig toepassen met vooraf ingesteld beveiligingsbeleid](preset-security-policies.md)
+- [Uw beleidsregels controleren met behulp van configuratie analyse](configuration-analyzer-for-security-policies.md)
+- [Filter Verdicts handmatig negeren met behulp van de lijst Tenant toestaan/blokkeren](tenant-allow-block-list.md)
 
-## <a name="marchapril-2020"></a>Maart/april 2020
+## <a name="julyaugust-2020"></a>Juli 2020 
 
-- De mogelijkheid om [gecompromitteerde gebruikersaccounts aan](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) te pakken met geautomatiseerd onderzoek en reactie is nu algemeen beschikbaar.
+- [Ervaring met de ervaring voor de jacht](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
+- [Eenvoudig aanbevolen instellingen toepassen via vooraf ingestelde beveiligingsbeleidsregels](preset-security-policies.md)
 
-## <a name="januaryfebruary-2020"></a>Januari/februari 2020
+## <a name="marchapril-2020"></a>Maart 2020
 
-- [Algemene beschikbaarheid van campagneweergaven in office 365-ATP](campaigns.md)
-- Verbeteringen aan [Threat Explorer](threat-explorer.md) om beveiligingsteams in staat te stellen op meerdere velden te zoeken en te filteren terwijl ze [e-mail onderzoeken:](investigate-malicious-email-that-was-delivered.md)
-    - Leveringslocatie en speciale acties
-    - Directionaliteit (inbound, outbound of intra-org)
-    - Overschrijvingen (gebruikersblokkeren of toestaan)
-    - URL-bedreiging (malware, phish, spam of geen)
-    - Geavanceerde NOT-filters (dit zijn geavanceerde filteropties die geen, omvat niet, enz.)
-    - Gedetailleerde tijdfilters (dag, uur, half uur) 
+- De mogelijkheid voor het [oplossen van gebruikersaccounts met gemanipuleerde gebruikersaccounts met automatisch onderzoek en antwoord](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) is nu meestal beschikbaar.
 
-- De widget **Incidenten** is nu de widget **Actiecentrum.** (Ga naar **Bedreigingsbeheer**  >  om uw beveiligingswidgets te bekijken in het Security & Compliance Center **Recensie**.)
+## <a name="januaryfebruary-2020"></a>Januari 2020
 
-- [Veilige documenten in Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(voorbeeld)**
+- [Algemene beschikbaarheid van campagne weergaven in Office 365 ATP](campaigns.md)
+- Uitbreidingen voor de [bedreigings Verkenner](threat-explorer.md) voor het in-en uitschakelen van beveiligingsactiviteiten teams om meerdere velden te doorzoeken en te filteren tijdens het [onderzoeken van e-mail](investigate-malicious-email-that-was-delivered.md):
+    - Bezorgingslocatie en speciale acties
+    - Richting (inkomend, uitgaand of intra organisatie)
+    - Overschrijvingen (gebruikers blokkeren of toestaan)
+    - URL-bedreiging (malware, phishing, spam of geen)
+    - Geavanceerde niet-filters (dit zijn Geavanceerde filteropties die geen deel uitmaken van de optie geen, enzovoort).
+    - Granulaire tijdfilters (dag, uur, half uur) 
+
+- De widget **incidenten** is nu de widget van het **Actiecentrum** . (Als u uw beveiligings widgets wilt bekijken, gaat u naar het beveiligings & nalevings centrum en gaat u naar **risicobeheer**  >  **Reviseren**.)
+
+- [Veilige documenten in Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(preview)**
 
 ## <a name="december-2019"></a>December 2019
 
-- [URL-klikgegevens exporteren voor offline analyse](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP-abonnement 1 of Plan 2)
+- [URL exporteren Klik op gegevens voor offline analyse](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP-abonnement 1 of abonnement 2)
 
-- [Campagneweergaven gebruiken in Office 365 ATP **(voorbeeld**)](campaigns.md)
+- [Campagne weergaven gebruiken in Office 365 ATP (**Preview**)](campaigns.md)
 
 ## <a name="november-2019"></a>November 2019
 
-- [Bekijk nieuwe gecompromitteerde gebruikersdetectie- en reactiemogelijkheden](address-compromised-users-quickly.md) **(preview**) (Office 365 ATP Plan 2)
+- [Nieuwe functies voor het detecteren en beantwoorden van gebruikers uitchecken](address-compromised-users-quickly.md) (**Preview**) (Office 365 ATP-abonnement 2)
 
 ## <a name="september-2019"></a>September 2019
 
-- [Geautomatiseerde onderzoeks- en reactiemogelijkheden gebruiken](automated-investigation-response-office.md) (Office 365 ATP-abonnement 2)
+- [Automatisch onderzoek en antwoord functies gebruiken](automated-investigation-response-office.md) (Office 365 ATP-abonnement 2)
 
-- [Integreren met geautomatiseerde onderzoeks- en antwoordgebeurtenissen van Office 365 ATP met de Office 365-beheeractiviteitS API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (Office 365 ATP-abonnement 2)
+- [Integratie van office 365 ATP automatisch onderzoek en antwoord gebeurtenissen met behulp van de office 365 Management Activity API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (Office 365 ATP-abonnement 2)
 
-- [Bekijk de e-mailkoppen en download de e-mailtekst](investigate-malicious-email-that-was-delivered.md) (Office 365 ATP Plan 1 of Plan 2)
+- [De e-mailbericht koppen weergeven en de hoofdtekst van het bericht downloaden](investigate-malicious-email-that-was-delivered.md) (Office 365 ATP abonnement 1 of abonnement 2)
 
 ## <a name="august-2019"></a>Augustus 2019
 
-- [De tijdlijn van e-mail weergeven](investigate-malicious-email-that-was-delivered.md#view-the-timeline-of-your-email) (Office 365 ATP-abonnement 1 of Abonnement 2)
+- [De tijdlijn met e-mail](investigate-malicious-email-that-was-delivered.md#view-the-timeline-of-your-email) (Office 365 ATP abonnement 1 of abonnement 2) weergeven
 
 ## <a name="july-2019"></a>Juli 2019
 
-- [De leveringsactie en locatie van e-mailberichten controleren](investigate-malicious-email-that-was-delivered.md#check-the-delivery-action-and-location) (Office 365 ATP-abonnement 1 of 2)
+- [Controleer de bezorgings actie en locatie van e-mailberichten](investigate-malicious-email-that-was-delivered.md#check-the-delivery-action-and-location) (Office 365 ATP-abonnement 1 of 2)
 
 ## <a name="june-2019"></a>Juni 2019
 
-- [Gegevens over phishing-URL's weergeven en op vonnis klikken](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (Office 365 ATP-abonnement 1 of Abonnement 2)
+- [Bekijk gegevens over phishingberichten en klik op Verdict](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (Office 365 ATP abonnement 1 of abonnement 2)
 
 ## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP-abonnement 1 en -abonnement 2
 
-Wist u dat Office 365 ATP beschikbaar is in twee abonnementen? [Meer informatie over wat elk abonnement bevat.](office-365-atp.md#office-365-atp-plan-1-and-plan-2)
+Wist u dat Office 365 ATP beschikbaar is in twee abonnementen? Meer [informatie over wat elk abonnement omvat](office-365-atp.md#office-365-atp-plan-1-and-plan-2).
 
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft 365-routekaart](https://www.microsoft.com/microsoft-365/roadmap)
+[Microsoft 365-wegwijzer](https://www.microsoft.com/microsoft-365/roadmap)
 
-[Beschrijving van office 365 ATP-service](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+[Service beschrijving in Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
 

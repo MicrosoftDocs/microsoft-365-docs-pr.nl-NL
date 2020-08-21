@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrisda
 author: chrisda
 manager: dansimp
-ms.date: 02/14/2020
+ms.date: ''
 audience: Admin
 ms.topic: conceptual
 f1_keywords:
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 description: Beheerders krijgen de machtigingen die beschikbaar zijn in het Microsoft 365-beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6cf0913b4aebad5199b1da4a1794542c9c2d5362
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: be26607ce261dd109ce6c61cfa3f8e63f43fecb4
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653615"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826835"
 ---
 # <a name="permissions-in-the-security--compliance-center"></a>Rapporten in het beveiligings- en compliancecentrum
 
@@ -60,7 +60,7 @@ Als u wilt weten hoe u toegang verleent tot de beveiligings & nalevings centrum,
 |**Inhouds viewer van inhouds Verkenner**|De inhoud van de inhoud van inhouds Verkenner weergeven.|Inhoudsweergave van gegevens classificaties|
 |**Inhouds Verkenner lijst viewer**|Alle items in de inhouds Verkenner alleen weergeven in de lijstopmaak.|Gegevensclassificatie lijst viewer|
 |**Gegevens onderzoeker**|Leden kunnen zoekopdrachten uitvoeren in postvakken, SharePoint-sites en OneDrive-accounts.|Communicatie <br/><br/> Zoekopdracht voor compliance <br/><br/> Bewaard <br/><br/> Gegevens onderzoek beheer <br/><br/> Voeren<br/><br/> Voorbeeld <br/><br/> RMS ontsleutelen <br/><br/> Gereviseerd<br/><br/> Zoeken en wissen|
-|**eDiscovery-Manager**|Leden kunnen zoekopdrachten uitvoeren en bewaren voor postvakken, SharePoint Online-sites en OneDrive voor bedrijven-locaties. Leden kunnen ook eDiscovery-aanvragen maken en beheren, leden toevoegen aan of verwijderen uit een zaak, inhouds zoekopdrachten maken en bewerken die met een zaak zijn geassocieerd, en toegang krijgen tot de gegevens van een zaak in Advanced eDiscovery. <br/><br/> Een eDiscovery-beheerder is een lid van de rollen groep van de eDiscovery-beheerder waaraan extra machtigingen zijn toegewezen. Naast de taken die een eDiscovery-beheerder kan uitvoeren, kan een eDiscovery-beheerder het volgende doen: <br/>* Alle eDiscovery-aanvragen in de organisatie weergeven. <br/>* Beheer van een eDiscovery-zaak na toevoeging als lid van de zaak. <br/><br/> Het belangrijkste verschil tussen een eDiscovery-Manager en een eDiscovery-beheerder is dat een eDiscovery-beheerder toegang heeft tot alle cases die worden weergegeven op de pagina **eDiscovery-aanvragen** in het beveiligings & nalevings centrum. Een eDiscovery-Manager kan alleen toegang krijgen tot de aanvragen die ze hebben gemaakt of zaken waarvan ze lid zijn. Zie [eDiscovery-machtigingen toewijzen in het beveiligings & nalevings centrum](../../compliance/assign-ediscovery-permissions.md)voor meer informatie over het instellen van een eDiscovery-beheerder.|Case beheer <br/><br/> Communicatie <br/><br/> Zoekopdracht voor compliance <br/><br/> Bewaard <br/><br/> Voeren <br/><br/> Stellen <br/><br/> Voorbeeld <br/><br/> RMS ontsleutelen <br/><br/> Gereviseerd|
+|**eDiscovery-Manager**|Leden kunnen zoekopdrachten uitvoeren en bewaren voor postvakken, SharePoint Online-sites en OneDrive voor bedrijven-locaties. Leden kunnen ook eDiscovery-aanvragen maken en beheren, leden toevoegen aan of verwijderen uit een zaak, inhouds zoekopdrachten maken en bewerken die met een zaak zijn geassocieerd, en toegang krijgen tot de gegevens van een zaak in Advanced eDiscovery. <br/><br/> Een eDiscovery-beheerder is een lid van de rollen groep van de eDiscovery-beheerder waaraan extra machtigingen zijn toegewezen. Naast de taken die een eDiscovery-beheerder kan uitvoeren, kan een eDiscovery-beheerder het volgende doen:<ul><li>Alle eDiscovery-aanvragen in de organisatie weergeven.</li><li>Het beheren van eDiscovery-zaak na het toevoegen van een zaak als lid van de zaak.</li></ul> <br/> Het belangrijkste verschil tussen een eDiscovery-Manager en een eDiscovery-beheerder is dat een eDiscovery-beheerder toegang heeft tot alle cases die worden weergegeven op de pagina **eDiscovery-aanvragen** in het beveiligings & nalevings centrum. Een eDiscovery-Manager kan alleen toegang krijgen tot de aanvragen die ze hebben gemaakt of zaken waarvan ze lid zijn. Zie [eDiscovery-machtigingen toewijzen in het beveiligings & nalevings centrum](../../compliance/assign-ediscovery-permissions.md)voor meer informatie over het instellen van een eDiscovery-beheerder.|Case beheer <br/><br/> Communicatie <br/><br/> Zoekopdracht voor compliance <br/><br/> Bewaard <br/><br/> Voeren <br/><br/> Stellen <br/><br/> Voorbeeld <br/><br/> RMS ontsleutelen <br/><br/> Gereviseerd|
 |**Algemene lezer**|Leden hebben alleen-lezen toegang tot rapporten, waarschuwingen en kunnen alle configuraties en instellingen bekijken.<br/><br/> Het belangrijkste verschil tussen algemene lezer en beveiligings lezer is dat een globale lezer toegang heeft tot **configuratie en instellingen**.|Beveiligings lezer <br/><br/> Vertrouwelijkheids label lezer <br/><br/> Service Assurance-weergave <br/><br/> Alleen-lezen audit logboeken <br/><br/> View-only DLP compliance beheren <br/><br/> Alleen-lezen apparaten beheer <br/><br/> View-only Compliance Management <br/><br/> Alleen-lezen waarschuwingen beheren <br/><br/> Geadresseerden voor alleen weergeven <br/><br/> Record beheer alleen weergeven <br/><br/> Voorbeeld van Bewaar beheer|
 |**Insider Risk Management**|Met deze functiegroep kunt u Insider Risk Management voor uw organisatie in één groep beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten en onderzoekers, kunt u Insider Risk Management-machtigingen in één groep configureren. Deze groep rollen bevat alle machtigingen van het Insider-risicobeheer. Dit is de eenvoudigste manier om snel aan de slag te gaan met Insider Risk Management en geschikt voor organisaties waarvoor geen aparte machtigingen nodig zijn voor afzonderlijke groepen gebruikers.|Case beheer <br/><br/> Insider Risk Management-beheerder <br/><br/> Insider Risk Management-analyse <br/><br/> Insider Risk Management-onderzoek <br/><br/> Tijdelijke bijdrage Insider Risk Management|
 |**Insider Risk Management-beheerders**|Gebruik deze groep voor het eerst Insider Risk Management en later om Insider Risk-beheerders te scheiden in een gedefinieerde groep. Gebruikers in deze rollen groep kunnen Insider Risk Management Policies, globale instellingen en toewijzingen van rollen groepen maken, lezen, bijwerken en verwijderen.|Case beheer <br/><br/> Insider Risk Management-beheerder|

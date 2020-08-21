@@ -6,7 +6,7 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.date: ''
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u het geavanceerde anti-phishingfilter kunt maken, wijzigen en verwijderen, dat beschikbaar is in organisaties met Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: b55bfb8b75506837e968b5845bc7a8239ad9b015
-ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
+ms.openlocfilehash: f7770945e6b99a3d2f3fa2b12daa13b2cc3c2612
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46804230"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46825735"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>ATP-beleid tegen phishing configureren
 
@@ -49,8 +49,8 @@ In Exchange Online PowerShell beheert u het beleid en de regel afzonderlijk. Zie
 Elke Office 365 ATP-organisatie heeft een ingebouwde ATP anti-phishingfilter met de naam Office365 AntiPhish standaard met de volgende eigenschappen:
 
 - Het beleid wordt toegepast op alle geadresseerden in de organisatie, ook al is er geen anti-avond regel (Recipient filters) gekoppeld aan het beleid.
-- Het beleid heeft de aangepaste prioriteits **waarde die** u niet kunt wijzigen (het beleid wordt altijd de laatste toegepast). Aangepaste beleidsregels die u maakt, hebben altijd een hogere prioriteit.
-- Het beleid is het standaardbeleid (de eigenschap **IsDefault** heeft de waarde `True` ) en u kunt het standaardbeleid niet verwijderen.
+- Het beleid heeft de prioriteit **Laagste** die u niet kunt wijzigen (het beleid wordt altijd als laatste toegepast). Alle beleid dat u maakt heeft altijd een hogere prioriteit.
+- Het beleid is het standaardbeleid (de eigenschap **IsDefault** heeft de waarde `True`) en u kunt het standaardbeleid niet verwijderen.
 
 Om de effectiviteit van bescherming tegen phishing te bevorderen, kunt u aangepaste ATP anti-phishingfilter-beleidsregels maken met strikte instellingen die worden toegepast op specifieke gebruikers of groepen gebruikers.
 
@@ -200,7 +200,7 @@ Gebruik de volgende procedures voor het wijzigen van het gebruik van ATP anti-Ph
      - **Tip weergeven voor geïmiteerde domeinen**: de standaardwaarde is **uitgeschakeld**. Schuif de wisselknop **naar aan om**deze optie in te schakelen.
      - **Tip voor ongebruikelijk tekens weergeven**: de standaardwaarde is **uitgeschakeld**. Schuif de wisselknop **naar aan om**deze optie in te schakelen.
 
-     Wanneer u gereed bent, klikt u op **Opslaan**.
+     Klik op **Opslaan** wanneer u gereed bent.
 
    - **Postvak informatie**:
 
@@ -318,9 +318,9 @@ U kunt het standaard anti-Phishingfilter niet uitschakelen.
 
 ### <a name="set-the-priority-of-custom-atp-anti-phishing-policies"></a>De prioriteit van een aangepast ATP anti-phishings beleid instellen
 
-Standaard krijgt u in het geval van een anti-phishingfilter een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere beleidsregels zijn een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). U kunt geen enkele beleidsregels instellen voor het verwerken van het beleid en het verwerken van beleid stopt na het eerste beleid.
+Standaard krijgt u in het geval van een anti-phishingfilter een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere beleidsregels zijn een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
 
-Zie de [volgorde en prioriteit van e-mail beveiliging](how-policies-and-protections-are-combined.md)voor meer informatie over de volgorde van prioriteit en de manier waarop meerdere beleidsregels worden geëvalueerd en toegepast.
+Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen van een beleid, raadpleegt u [volgorde en prioriteit van e-mailbeveiliging](how-policies-and-protections-are-combined.md).
 
 Aangepast ATP anti-phishingfilter worden weergegeven in de volgorde waarin ze zijn verwerkt (het eerste beleid heeft **de waarde 0** ). Het standaard anti-phishingfilter met de naam Office365 AntiPhish standaard heeft de waarde van een aangepaste **prioriteit en kunt**deze niet wijzigen.
 

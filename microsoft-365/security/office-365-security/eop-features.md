@@ -7,17 +7,17 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: De volgende tabel bevat een overzicht van de functies die beschikbaar zijn in de Exchange Online Protection (EOP) hosting email filtering service.
-ms.openlocfilehash: 5a882edd91e8502d7340bf86f74e8114be9cd07b
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 0df2f9afa8be6feba6734d2b07e7b7de5c13c994
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652871"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827771"
 ---
 # <a name="eop-features"></a>EOP-functies
 
@@ -34,7 +34,7 @@ De volgende tabel bevat een overzicht van de functies die beschikbaar zijn in de
 |Detectie van inkomende spam|Zie [bescherming tegen spam in Microsoft 365](anti-spam-protection.md)voor meer informatie. <br/><br/> In standalone EOP-omgevingen waar EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de EOP-spamfilterbeoordeling te vertalen, zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail. Zie voor meer informatie [STANDALONE EOP voor het bezorgen van spam op de map Ongewenste e-mail in hybride omgevingen](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)|
 |Uitgaande spam detectie|Beveiliging tegen ongewenste e-mail wordt altijd ingeschakeld als u de service gebruikt voor het verzenden van uitgaande e-mail. Zie [uitgaande spam bescherming](outbound-spam-controls.md)voor meer informatie.|
 |Backscatter-bescherming|Zie [Backscatter en EOP](backscatter-messages-and-eop.md)voor meer informatie.|
-|Filters voor bulk mail filteren|EOP gebruikt de drempelwaarde voor bulk klachten (BCL) om bulk-e-mailberichten als spam te markeren. Lees de volgende onderwerpen voor meer informatie: <br/><br/> [Wat is het verschil tussen ongewenste e-mail en bulkmail?](what-s-the-difference-between-junk-email-and-bulk-email.md) <br/> [Bulk klachten niveau (BCL) in EOP](bulk-complaint-level-values.md) <br/> [Beleid tegen ongewenste e-mail configureren](configure-your-spam-filter-policies.md)|
+|Filters voor bulk mail filteren|EOP gebruikt de drempelwaarde voor bulk klachten (BCL) om bulk-e-mailberichten als spam te markeren. Zie de volgende onderwerpen voor meer informatie: <br/><br/> [Wat is het verschil tussen ongewenste e-mail en bulkmail?](what-s-the-difference-between-junk-email-and-bulk-email.md) <br/> [Bulk klachten niveau (BCL) in EOP](bulk-complaint-level-values.md) <br/> [Beleid tegen ongewenste e-mail configureren](configure-your-spam-filter-policies.md)|
 |Lijst met schadelijke URL-blok lijsten|EOP gebruikt verschillende URL-blok lijsten waarmee bekende kwaadaardige koppelingen binnen berichten kunnen worden gedetecteerd.|
 |Bescherming tegen phishing|EOP bevat 750.000-domeinen met bekende spammers.|
 |Beveiliging tegen adresvervalsing|Zie [bescherming tegen spoofing](anti-spoofing-protection.md)voor meer informatie.|
@@ -85,8 +85,8 @@ De volgende tabel bevat een overzicht van de functies die beschikbaar zijn in de
 |Webgebaseerde rapporten|De e-mail beveiligingsrapporten in het compliance-& Beveiligingscentrum zorgen voor berichten gegevens. U kunt bijvoorbeeld controleren hoeveel spam en malware wordt gedetecteerd, of hoe vaak de regels voor de e-mail stroom worden vergeleken. Met deze interactieve rapporten kunt u snel een visueel rapport met overzichtsgegevens weergeven en meer details over afzonderlijke berichten weergeven, met een afstand van 90 dagen. Zie voor meer informatie [rapporten over e-mail beveiliging gebruiken om gegevens over malware, spam en regel detectie te bekijken](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports).|
 |Controlelogboekregistratie|Het rapport rollen groep van beheerder en het controlelogboek van de beheerder zijn beschikbaar voor EOP-beheerders. Zie [rapporten controleren in EOP](auditing-reports-in-eop.md)voor meer informatie.|
 |**Serviceniveau overeenkomsten (Service overeenkomst) en support**||
-|SLA effectiviteit van de spam|\>99%|
-|SLA met positieve verhouding|\<1:250000|
+|SLA effectiviteit van de spam|\> 99%|
+|SLA met positieve verhouding|\< 1:250000|
 |Virus detectie en de blokkering van SLA|100% van bekende virussen|
 |SLA de maandelijkse uptime|99,999%|
 |Technische ondersteuning van telefoon en Web, 24 uur per dag, zeven dagen per week|Zie [Help en ondersteuning voor EOP](help-and-support-for-eop.md)voor meer informatie over de EOP-Help en ondersteuningsopties.|

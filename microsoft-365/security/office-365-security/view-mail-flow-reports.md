@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie vinden over de e-mail stroom rapporten die beschikbaar zijn in het dashboard voor beveiliging & in het compliance-Beveiligingscentrum.
 ms.custom: ''
-ms.openlocfilehash: 98b27497b758a202ccbb741f6cb10e4ec65570e9
-ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
+ms.openlocfilehash: 9e9249eab5d3519dac0e33acf40d600d471b7cb2
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814498"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826455"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>De e-mail stroom rapporten weergeven in het Dashboard rapporten in de beveiligings & nalevings centrum
 
@@ -51,7 +51,7 @@ De volgende grafieken zijn beschikbaar in de rapportweergave:
   - **Vanaf internet zonder connector**
   - **Naar Internet zonder connector**
   - Een specifieke connector die u hebt geconfigureerd.
-  
+
   Als u de gegevens in de grafiek wilt isoleren, gebruikt u de optie **gegevens weergeven voor** besturingselement om een van deze opties of **alle e-mail stromen**te selecteren.
 
   ![Gegevens weergeven op e-mail stroom in het verbindings rapport](../../media/connector-report-view-data-by-mail-flow.png)
@@ -206,7 +206,7 @@ Als u terug wilt gaan naar de weergave rapporten, klikt u op **rapport weergeven
 
 ## <a name="mailflow-status-report"></a>Rapport over de status van de telestroom
 
-Het rapport over de e-mail **stroom status** is vergelijkbaar met het [verzonden en ontvangen van e-mail](#sent-and-received-email-report), met aanvullende informatie over het toestaan of blokkeren van e-mailberichten op de rand. Dit is het enige rapport met informatie over Edge-bescherming en geeft aan hoeveel e-mailberichten worden geblokkeerd voordat deze worden toegelaten door de service Exchange Online Protection (EOP). Het is belangrijk om te weten dat wanneer een bericht wordt verzonden naar vijf geadresseerden, de waarde wordt geteld als vijf verschillende berichten en niet één bericht.  
+Het rapport over de e-mail **stroom status** is vergelijkbaar met het [verzonden en ontvangen van e-mail](#sent-and-received-email-report), met aanvullende informatie over het toestaan of blokkeren van e-mailberichten op de rand. Dit is het enige rapport met informatie over Edge-bescherming en geeft aan hoeveel e-mailberichten worden geblokkeerd voordat deze worden toegelaten door de service Exchange Online Protection (EOP). Het is belangrijk om te weten dat wanneer een bericht wordt verzonden naar vijf geadresseerden, de waarde wordt geteld als vijf verschillende berichten en niet één bericht.
 Als u het rapport wilt weergeven, opent u het [beveiligings & nalevings centrum](https://protection.office.com), gaat u naar **rapporten** \> **Dashboard** en selecteert u het rapport over de status van de **telestroom**. Als u rechtstreeks naar het **rapport met de e-mail stroom status**wilt gaan, opent u het <https://protection.office.com/mailflowStatusReport> .
 
 ![Widget statusrapport van de transstroom status in het Dashboard rapporten](../../media/mail-flow-status-report-widget.png)
@@ -300,14 +300,14 @@ Als u op **filter**klikt, kunt u zowel de grafiek als de gegevenstabel filteren.
 
 In dit diagram ziet u het aantal e-mailberichten ingedeeld op:
 
-  - **Totaal aantal e-mail**
-  - **E-mail na bescherming van de Edge**
-  - **E-mail na anti-malware, bestands reputatie, bestandstype blok**
-  - **E-mail na anti-spam, URL-reputatie, merkloze persoon, anti-spoof**
-  - **E-mail na anti-spam, filteren van bulk e-mail**
-  - **E-mail nadat gebruikers-en domein imitatie**<sup>1</sup>
-  - **E-mail na bestand en URL-detonatie**<sup>1</sup>
-  - **E-mail waarvan de bescherming na de bezorging is verdacht**
+- **Totaal aantal e-mail**
+- **E-mail na bescherming van de Edge**
+- **E-mail na anti-malware, bestands reputatie, bestandstype blok**
+- **E-mail na anti-spam, URL-reputatie, merkloze persoon, anti-spoof**
+- **E-mail na anti-spam, filteren van bulk e-mail**
+- **E-mail nadat gebruikers-en domein imitatie**<sup>1</sup>
+- **E-mail na bestand en URL-detonatie**<sup>1</sup>
+- **E-mail waarvan de bescherming na de bezorging is verdacht**
 
 <sup>1</sup> Office 365 alleen ATP
 
@@ -315,15 +315,15 @@ Als u het e-mailbericht dat u hebt gefilterd op EOP of ATP afzonderlijk wilt bek
 
 De gegevenstabel bevat de volgende informatie, weergegeven in aflopende volgorde van datum:
 
- - **Einddatum**
- - **Totaal aantal e-mail**
- - **Edge-bescherming**
- - **Anti malware, bestands reputatie, bestandstype blok**
- - **Anti-phishing, URL-reputatie, merk imitatie, anti-spoof**
- - **Anti spam, filteren van bulk e-mail**
- - **Dispersonatie van gebruikers en domeinen (ATP)**
- - **Bestand en URL-detonatie (ATP)**
- - **Beveiligingsupdate voor de na ontvangst en ZAP (ATP) of ZAP (EOP)**
+- **Einddatum**
+- **Totaal aantal e-mail**
+- **Edge-bescherming**
+- **Anti malware, bestands reputatie, bestandstype blok**
+- **Anti-phishing, URL-reputatie, merk imitatie, anti-spoof**
+- **Anti spam, filteren van bulk e-mail**
+- **Dispersonatie van gebruikers en domeinen (ATP)**
+- **Bestand en URL-detonatie (ATP)**
+- **Beveiligingsupdate voor de na ontvangst en ZAP (ATP) of ZAP (EOP)**
 
 Als u een rij in de gegevenstabel selecteert, worden in het vervolgmenu een extra uitsplitsing van het aantal e-mailberichten weergegeven.
 
@@ -340,7 +340,7 @@ Elk geëxporteerde CSV-bestand mag maximaal 150.000 rijen hebben. Als de gegeven
 
  ![Trechter weergave in het rapport status van de telestroom ](../../media/mail-flow-status-report-funnel-view.png)
 
- ### <a name="tech-view-for-the-mailflow-status-report"></a>Technische weergave voor het rapport status van de telestroom
+### <a name="tech-view-for-the-mailflow-status-report"></a>Technische weergave voor het rapport status van de telestroom
 
 De **technische weergave** is vergelijkbaar met de **trechter** weergave, met meer gedetailleerde informatie over de geconfigureerde functies voor bedreigingsbeveiliging. U kunt in de grafiek zien hoe berichten zijn gecategoriseerd in de verschillende stadia van bedreigings bescherming.
 
@@ -360,27 +360,27 @@ Als u op **filter**klikt, kunt u zowel de grafiek als de gegevenstabel filteren.
 
 In dit diagram ziet u berichten die zijn ingedeeld in de volgende categorieën:
 
-  - **Totaal aantal e-mail**
-  - **Rand toegestaan, gefilterd rand**
-  - **Geen malware, detectie van detectie van schadelijke bijlagen, detectie van malware van malware, regelblok**
-  - **Niet phishing, DMARC mislukking, imitatie detectie, phishing detectie, phishing detection**
-  - **Geen detectie met URL-detonatie, URL-detonatie detectie (ATP)**
-  - **Geen spam, spam**
-  - **Niet-kwaadaardige e-mail, detectie van veilige koppelingen (ATP), ZAP**
+- **Totaal aantal e-mail**
+- **Rand toegestaan, gefilterd rand**
+- **Geen malware, detectie van detectie van schadelijke bijlagen, detectie van malware van malware, regelblok**
+- **Niet phishing, DMARC mislukking, imitatie detectie, phishing detectie, phishing detection**
+- **Geen detectie met URL-detonatie, URL-detonatie detectie (ATP)**
+- **Geen spam, spam**
+- **Niet-kwaadaardige e-mail, detectie van veilige koppelingen (ATP), ZAP**
 
 Wanneer u de muisaanwijzer op een categorie in de grafiek houdt, ziet u het aantal berichten in die categorie.
 
 De gegevenstabel bevat de volgende informatie, weergegeven in aflopende volgorde van datum:
 
-  - **Einddatum**  
-  - **Totaal aantal e-mail**
-  - **Gefilterde rand**
-  - **Anti malware-engine, veilige bijlagen, gefilterde regel**
-  - **DMARC, imitatie, spoofing, phishing gefilterd**
-  - **Detectie van URL-detonatie**
-  - **Anti spam gefilterd**
-  - **ZAP verwijderd**
-  - **Detectie via veilige koppelingen**
+- **Einddatum**
+- **Totaal aantal e-mail**
+- **Gefilterde rand**
+- **Anti malware-engine, veilige bijlagen, gefilterde regel**
+- **DMARC, imitatie, spoofing, phishing gefilterd**
+- **Detectie van URL-detonatie**
+- **Anti spam gefilterd**
+- **ZAP verwijderd**
+- **Detectie via veilige koppelingen**
 
 Als u een rij in de gegevenstabel selecteert, worden in het vervolgmenu een extra uitsplitsing van het aantal e-mailberichten weergegeven.
 

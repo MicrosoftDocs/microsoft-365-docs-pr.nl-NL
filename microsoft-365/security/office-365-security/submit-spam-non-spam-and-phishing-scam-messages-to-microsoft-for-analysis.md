@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders en eindgebruikers kunnen zien hoe u e-mailberichten (goede e-mailberichten die zijn gemarkeerd als beschadigd of niet toegestaan) in Microsoft voor analyse.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e90382b39b0cebb70568a53ac5aaeb40ac935f92
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 94f00f8399164a84d2cb9dae0c4c416b73dfb0dc
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653591"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827807"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Berichten handmatig bij Microsoft indienen voor analyse
 
@@ -45,9 +45,9 @@ Als u een bericht ontvangt dat via spam filtert dat als spam of phishing werd he
 
 1. Maak een nieuw, leeg e-mailbericht met een van de volgende geadresseerden:
 
-   - **Ongewenste e-mail**:`junk@office365.microsoft.com`
+   - **Ongewenste e-mail**: `junk@office365.microsoft.com`
 
-   - **Phishing**:`phish@office365.microsoft.com`
+   - **Phishing**: `phish@office365.microsoft.com`
 
 2. Sleep de ongewenste e-mail of het bericht naar het nieuwe bericht. Hierdoor wordt het ongewenste e-mailbericht of het bericht opgeslagen als een bijlage in het nieuwe bericht. Kopieer en plak de inhoud van het bericht niet of stuur het bericht door (we hebben het oorspronkelijke bericht nodig, zodat we de berichtkoppen kunnen controleren).
 

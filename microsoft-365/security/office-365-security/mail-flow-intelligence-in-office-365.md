@@ -1,137 +1,137 @@
 ---
-title: Informatie over de e-mailstroom
+title: Mail flow Intelligence
 f1.keywords:
 - NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
-description: Beheerders kunnen meer te weten komen over de foutcodes die zijn gekoppeld aan het bezorgen van berichten met behulp van connectors (ook wel mailflow intelligence genoemd).
-ms.openlocfilehash: 55b57e4b487444abb57bcc184ef6fd742ea9dc1d
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+description: Beheerders kunnen de foutcodes voor de bezorging van berichten achterhalen via connectors (ook wel e-mail stroom informatie genoemd).
+ms.openlocfilehash: b345b52f572efca2aca1fde6ba720d733e521cc4
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206614"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827711"
 ---
-# <a name="mail-flow-intelligence-in-eop"></a>Mail flow intelligence in EOP
+# <a name="mail-flow-intelligence-in-eop"></a>E-mailstroomanalyse in EOP
 
-In Microsoft 365-organisaties met postvakken in Exchange Online- of zelfstandige Exchange Online Protection-organisaties (EOP)-organisaties zonder Exchange Online-postvakken, gebruikt u meestal een connector om e-mailberichten van EOP naar uw on-premises e-mailomgeving te routeren. U ook een connector gebruiken om berichten van Microsoft 365 naar een partnerorganisatie te routeren. Wanneer Microsoft 365 deze berichten niet via de connector kan verzenden, staan ze in de wachtrij in Microsoft 365. Microsoft 365 blijft de levering voor elk bericht gedurende 24 uur opnieuw proberen. Na 24 uur verloopt het bericht in de wachtrij en wordt het bericht teruggestuurd naar de oorspronkelijke afzender in een rapport zonder levering (ook wel een NDR- of bouncebericht genoemd).
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken gebruikt u meestal een verbindingslijn voor het routeren van e-mailberichten van EOP naar uw on-premises e-mail omgeving. U kunt ook een connector gebruiken om berichten van Microsoft 365 door te sturen naar een partnerorganisatie. Wanneer Microsoft 365 deze berichten niet via de connector bezorgt, worden deze in de wachtrij geplaatst in Microsoft 365. Microsoft 365 blijft gedurende 24 uur opnieuw proberen voor elk bericht. Na 24 uur verloopt het bericht in de wachtrij en wordt het verzonden naar de oorspronkelijke afzender in een rapport over niet-uitgevoerde bezorging (ook wel een NDR genoemd of een bericht met een stuiter bericht).
 
-Microsoft 365 genereert een fout wanneer een bericht niet kan worden geleverd met behulp van een connector. De meest voorkomende fouten en hun oplossingen worden beschreven in dit onderwerp. Gezamenlijk staan wachtrij- en meldingsfouten voor niet-leverbare berichten die via connectors worden verzonden, bekend als _mailflow intelligence._
+In Microsoft 365 wordt een fout gegenereerd wanneer een bericht niet kan worden afgeleverd via een verbindingslijn. In dit onderwerp worden de meest voorkomende fouten en hun oplossingen beschreven. Gezamenlijk, Queuing-en meldings fouten voor niet-bezorg bare berichten die via connectors worden verzonden, worden ook wel _e-mail stroom informatie_genoemd.
 
-## <a name="error-code-450-44312-dns-query-failed"></a>Foutcode: DNS-query 450 4.4.312 is mislukt
+## <a name="error-code-450-44312-dns-query-failed"></a>Foutcode: 450 4.4.312 DNS-query mislukt
 
-Deze fout betekent doorgaans dat Microsoft 365 heeft geprobeerd verbinding te maken met de slimme host die is opgegeven in de connector, maar de DNS-query om de IP-adressen van de slimme host te vinden, is mislukt. De mogelijke oorzaken voor deze fout zijn:
+Deze fout betekent meestal dat Microsoft 365 probeert verbinding te maken met de Smart host die is opgegeven in de connector, maar de DNS-query voor het zoeken van de IP-adressen van de Smart host is mislukt. De mogelijke oorzaken van deze fout zijn:
 
-- Er is een probleem met de DNS-hostingservice van uw domein (de partij die de gezaghebbende naamservers voor uw domein onderhoudt).
+- Er is een probleem met de DNS-hostingservice van uw domein (de partij die de gezaghebbende naamservers voor uw domein beheert).
 
 - Uw domein is onlangs verlopen, zodat de MX-record niet kan worden opgehaald.
 
-- De MX-record van uw domein is onlangs gewijzigd en de DNS-servers hebben nog steeds eerder DNS-gegevens voor uw domein in de cache opgeslagen.
+- De MX-record van uw domein is onlangs gewijzigd en de DNS-servers hebben nog steeds eerder DNS-gegevens in de cache voor uw domein.
 
-### <a name="how-do-i-fix-error-code-450-44312"></a>Hoe los ik foutcode 450 4.4.312 op?
+### <a name="how-do-i-fix-error-code-450-44312"></a>Hoe los ik foutcode 450 4.4.312?
 
-- Werk samen met uw DNS-hostingservice om het probleem met uw domein te identificeren en op te lossen.
+- Werk samen met uw DNS-hostingservice om het probleem met uw domein op te sporen en op te lossen.
 
-- Als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudserviceprovider), neemt u contact op met uw partner om het probleem op te lossen.
+- Neem contact op met uw partner om dit probleem op te lossen als de fout zich bevindt in uw partnerorganisatie (bijvoorbeeld een derde Cloud serviceprovider).
 
-## <a name="error-code-450-44315-connection-timed-out"></a>Foutcode: er is een time-out van de verbindingscode 450 4.4.315
+## <a name="error-code-450-44315-connection-timed-out"></a>Foutcode: 4.4.315-verbinding voor 450 is verlopen
 
-Dit betekent doorgaans dat Microsoft 365 geen verbinding kan maken met de e-mailserver van de bestemming. De foutdetails verklaren het probleem. Bijvoorbeeld:
+Dit betekent meestal dat Microsoft 365 geen verbinding kan maken met de doel-e-mailserver. Het probleem wordt uitgelegd met de foutgegevens. Bijvoorbeeld:
 
-- Uw on-premises e-mailserver is uitgeschakeld.
+- Uw on-premises e-mailserver is niet beschikbaar.
 
-- Er is een fout in de slimme host-instellingen van de connector, dus Microsoft 365 probeert verbinding te maken met het verkeerde IP-adres.
+- Er is een fout opgetreden in de instellingen van de Smart host van de connector, dus Microsoft 365 probeert verbinding te maken met het verkeerde IP-adres.
 
-### <a name="how-do-i-fix-error-code-450-44315"></a>Hoe los ik foutcode 450 4.4.315 op?
+### <a name="how-do-i-fix-error-code-450-44315"></a>Hoe los ik foutcode 450 4.4.315?
 
-- Ontdek welk scenario op u van toepassing is en breng de nodige correcties aan. Als de e-mailstroom bijvoorbeeld correct heeft gewerkt en u de verbindingsinstellingen niet hebt gewijzigd, moet u uw on-premises e-mailomgeving controleren om te zien of de server is uitgeschakeld of als er wijzigingen zijn aangebracht in uw netwerkinfrastructuur (u hebt bijvoorbeeld internetproviders gewijzigd, zodat u nu verschillende IP-adressen hebt).
+- Kijk welke scenario op u van toepassing is en breng de benodigde wijzigingen aan. Als de e-mail stroom bijvoorbeeld goed werkte en u de instellingen voor de connector niet hebt gewijzigd, moet u uw on-premises e-mail omgeving controleren om te zien of de server offline is, of dat er wijzigingen zijn aangebracht in de netwerkinfrastructuur, zodat u nu verschillende IP-adressen hebt gewijzigd.
 
-- Als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudserviceprovider), neemt u contact op met uw partner om het probleem op te lossen.
+- Neem contact op met uw partner om dit probleem op te lossen als de fout zich bevindt in uw partnerorganisatie (bijvoorbeeld een derde Cloud serviceprovider).
 
-## <a name="error-code-450-44316-connection-refused"></a>Foutcode: 450 4.4.316 Verbinding geweigerd
+## <a name="error-code-450-44316-connection-refused"></a>Foutcode: 450 4.4.316 verbinding geweigerd
 
-Deze fout betekent doorgaans dat Microsoft 365 een verbindingsfout heeft ondervonden toen het verbinding probeerde te maken met de e-mailserver van de bestemming. Een waarschijnlijke oorzaak voor deze fout is dat uw firewall verbindingen blokkeert van Microsoft 365 IP-adressen. Deze fout kan ook worden gemaakt als u uw on-premises e-mailsysteem volledig hebt gemigreerd naar Microsoft 365 en uw on-premises e-mailomgeving hebt afgesloten.
+Dit betekent meestal dat er in Microsoft 365 een verbindingsfout is opgetreden bij het proberen verbinding te maken met de doel-e-mailserver. Deze fout is waarschijnlijk veroorzaakt doordat de firewall verbindingen van Microsoft 365 IP-adressen blokkeert. Of de fout kan door ontwerp zijn als u uw on-premises e-mailsysteem volledig hebt gemigreerd naar Microsoft 365 en uw on-premises e-mail omgeving afsluit.
 
-### <a name="how-do-i-fix-error-code-450-44316"></a>Hoe los ik foutcode 450 4.4.316 op?
+### <a name="how-do-i-fix-error-code-450-44316"></a>Hoe los ik foutcode 450 4.4.316?
 
-- Als u postvakken in uw on-premises omgeving hebt, moet u uw firewall-instellingen wijzigen om verbindingen van Microsoft 365 IP-adressen op TCP-poort 25 toe te staan met uw on-premises e-mailservers. Zie [Microsoft 365-URL's en IP-adresbereiken](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)voor een lijst met de IP-adressen van Microsoft 365.
+- Als u postvakken hebt in uw on-premises omgeving, moet u de firewallinstellingen wijzigen om verbindingen van Microsoft 365 IP-adressen op TCP-poort 25 toe te staan voor uw on-premises e-mailservers. Zie [url's en IP-adresbereiken voor Microsoft 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)voor een lijst met de microsoft 365 IP-adressen.
 
-- Als er geen berichten meer naar uw on-premises omgeving worden verzonden, klikt u **op Nu oplossen** in de waarschuwing, zodat Microsoft 365 de berichten met ongeldige ontvangers onmiddellijk kan weigeren. Dit vermindert het risico van overschrijding van het quotum van uw organisatie voor ongeldige ontvangers, wat van invloed kan zijn op de normale berichtbezorging. U ook de volgende instructies gebruiken om het probleem handmatig op te lossen:
+- Als u geen berichten meer wilt ontvangen in uw on-premises omgeving, klikt u op **nu herstellen** in de melding zodat microsoft 365 de berichten met ongeldige geadresseerden direct kan afwijzen. Hierdoor wordt het risico voor het overschrijden van het quotum van de organisatie voor ongeldige geadresseerden verminderd, wat van invloed kan zijn op de bezorging van normaal berichten. U kunt ook de volgende instructies gebruiken om het probleem handmatig op te lossen:
 
-  - Schakel in het [Exchange-beheercentrum (EAC)](https://docs.microsoft.com/Exchange/exchange-admin-center)de connector uit die e-mail van Microsoft 365 naar uw on-premises e-mailomgeving levert uit of verwijder deze:
+  - In het [Exchange-Beheercentrum](https://docs.microsoft.com/Exchange/exchange-admin-center), schakelt u de connector voor E-mail van microsoft 365 in de on-premises e-mail omgeving uit of verwijdert u deze.
 
-    1. Ga in de EAC naar **Mail flow** \> **Connectors**.
+    1. Ga in het Exchange-Beheercentrum naar **e-mail stroom** \> **verbindingslijnen**.
 
-    2. Selecteer de connector met **de** **Van-waarde Office 365** en **de** **e-mailserver** van uw organisatie en doe een van de volgende stappen:
+    2. Selecteer de connector met de **From** waarde van **Office 365** en de waarde **voor** de **e-mailserver van uw organisatie** en voer een van de volgende stappen uit:
 
-       - De connector verwijderen door op pictogram **Verwijderen** te klikken ![](../../media/adf01106-cc79-475c-8673-065371c1897b.gif)
+       - Als u de verbindingslijn wilt verwijderen **, klikt u** op het ![ pictogram verwijderen](../../media/adf01106-cc79-475c-8673-065371c1897b.gif)
 
-       - Schakel de connector uit door op het pictogram Bewerken **bewerken** te klikken ![ en schakel het ](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **uitschakeling in .**
+       - Schakel de verbindingslijn uit **Edit** door te klikken op het ![ pictogram bewerken bewerken ](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) en **het**selectievakje in te schakelen.
 
-  - Wijzig het geaccepteerde domein in Microsoft 365 dat is gekoppeld aan uw on-premises e-mailomgeving van **Intern relay** naar **gezaghebbend**. Zie [Geaccepteerde domeinen beheren in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)voor instructies .
+  - Wijzig het geaccepteerde domein in Microsoft 365 dat is gekoppeld aan uw on-premises e-mail omgeving van **interne** doorgifte naar **gezaghebbend**. Zie [geaccepteerde domeinen beheren in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)voor instructies.
 
-  **Opmerking:** Deze wijzigingen duren doorgaans tussen de 30 minuten en een uur. Controleer na een uur of u de fout niet meer ontvangt.
+  **Opmerking**: deze wijzigingen treden doorgaans tussen 30 minuten en één uur in werking. Na één uur controleert u of u de fout niet meer ontvangt.
 
-- Als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudserviceprovider), moet u contact opnemen met uw partner om het probleem op te lossen.
+- Neem contact op met uw partner om dit probleem op te lossen als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudservice provider).
 
-## <a name="error-code-450-44317-cannot-connect-to-remote-server"></a>Foutcode: 450 4.4.317 Kan geen verbinding maken met externe server
+## <a name="error-code-450-44317-cannot-connect-to-remote-server"></a>Foutcode: 450 4.4.317 kan geen verbinding maken met de externe server
 
-Deze fout betekent doorgaans dat Microsoft 365 is verbonden met de e-mailserver van de bestemming, maar de server heeft onmiddellijk gereageerd op een fout of niet voldoet aan de verbindingsvereisten. De foutdetails verklaren het probleem. Bijvoorbeeld:
+Dit betekent meestal dat Microsoft 365 is verbonden met de doel-e-mailserver, maar de server heeft gereageerd met een onmiddellijke fout of niet aan de verbindings vereisten voldoet. Het probleem wordt uitgelegd met de foutgegevens. Bijvoorbeeld:
 
-- De e-mailserver van de bestemming heeft gereageerd met een fout 'Service niet beschikbaar', wat aangeeft dat de server de communicatie met Microsoft 365 niet kan onderhouden.
+- De doel-e-mailserver heeft gereageerd op de fout ' service niet beschikbaar ', wat aangeeft dat de server geen communicatie kan bijhouden met Microsoft 365.
 
-- De connector is geconfigureerd om TLS te vereisen, maar de e-mailserver van de bestemming ondersteunt TLS niet.
+- De connector is geconfigureerd om TLS te vereisen, maar de doel-e-mailserver biedt geen ondersteuning voor TLS.
 
-### <a name="how-do-i-fix-error-code-450-44317"></a>Hoe los ik foutcode 450 4.4.317 op?
+### <a name="how-do-i-fix-error-code-450-44317"></a>Hoe los ik foutcode 450 4.4.317?
 
-- Controleer de TLS-instellingen en -certificaten op uw on-premises e-mailservers en de TLS-instellingen op de connector.
+- Controleer de TLS-instellingen en certificaten op uw on-premises e-mailservers en de TLS-instellingen op de connector.
 
-- Als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudserviceprovider), moet u contact opnemen met uw partner om het probleem op te lossen.
+- Neem contact op met uw partner om dit probleem op te lossen als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudservice provider).
 
-## <a name="error-code-450-44318-connection-was-closed-abruptly"></a>Foutcode: 450 4.4.318 Verbinding werd abrupt gesloten
+## <a name="error-code-450-44318-connection-was-closed-abruptly"></a>Foutcode: 450-verbinding voor 4.4.318 is plotseling gesloten
 
-Deze fout betekent doorgaans dat Microsoft 365 moeite heeft met het communiceren met uw on-premises e-mailomgeving, zodat de verbinding is verbroken. De mogelijke oorzaken voor deze fout zijn:
+Deze fout betekent meestal dat Microsoft 365 geen problemen ondervindt met de on-premises e-mail omgeving, zodat de verbinding is verbroken. De mogelijke oorzaken van deze fout zijn:
 
-- Uw firewall maakt gebruik van SMTP-regels voor pakketonderzoek en deze regels werken niet goed.
+- De firewall gebruikt regels voor SMTP-pakket onderzoek en deze regels werken niet goed.
 
-- Uw on-premises e-mailserver werkt niet correct (bijvoorbeeld serviceloopt, loopt vast of systeembronnen is laag), waardoor de server een time-out krijgt en de verbinding met Microsoft 365 sluit.
+- Uw on-premises e-mailserver werkt niet goed (bijvoorbeeld de service loopt vast, loopt vast of onvoldoende systeembronnen), waardoor de server een time-out heeft en sluit de verbinding met Microsoft 365.
 
 - Er zijn netwerkproblemen tussen uw on-premises omgeving en Microsoft 365.
 
-### <a name="how-do-i-fix-error-code-450-44318"></a>Hoe los ik foutcode 450 4.4.318 op?
+### <a name="how-do-i-fix-error-code-450-44318"></a>Hoe los ik foutcode 450 4.4.318?
 
-- Ontdek welk scenario op u van toepassing is en breng de nodige correcties aan.
+- Kijk welke scenario op u van toepassing is en breng de benodigde wijzigingen aan.
 
-- Als het probleem wordt veroorzaakt door netwerkproblemen tussen uw on-premises omgeving en Microsoft 365, neemt u contact op met uw netwerkteam om het probleem op te lossen.
+- Als het probleem wordt veroorzaakt door netwerkproblemen tussen uw on-premises omgeving en Microsoft 365, neemt u contact op met uw netwerkteam om dit probleem op te lossen.
 
-- Als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudserviceprovider), moet u contact opnemen met uw partner om het probleem op te lossen.
+- Neem contact op met uw partner om dit probleem op te lossen als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudservice provider).
 
-## <a name="error-code-450-47320-certificate-validation-failed"></a>Foutcode: validatie 450 4.7.320 certificaat is mislukt
+## <a name="error-code-450-47320-certificate-validation-failed"></a>Foutcode: certificaatvalidatie 450 4.7.320 is mislukt
 
-Deze fout betekent doorgaans dat Microsoft 365 een fout heeft opgelopen terwijl het certificaat van de e-mailserver van de bestemming wordt gevalideerd. De foutdetails verklaren de fout. Bijvoorbeeld:
+Dit betekent meestal dat Microsoft 365 een fout heeft ontdekt bij het valideren van het certificaat van de doel-e-mailserver. In de foutdetails wordt de fout uitgelegd. Bijvoorbeeld:
 
 - Certificaat verlopen
 
-- Mismatch certificaatonderwerp
+- Certificaatonderwerp komt niet overeen
 
 - Certificaat is niet langer geldig
 
-### <a name="how-do-i-fix-error-code-450-47320"></a>Hoe los ik foutcode 450 4.7.320 op?
+### <a name="how-do-i-fix-error-code-450-47320"></a>Hoe los ik foutcode 450 4.7.320?
 
-- Bevestig het certificaat of de instellingen op de connector, zodat berichten in microsoft 365 in de wachtrij kunnen worden bezorgd.
+- Los het certificaat of de instellingen op de connector op, zodat berichten in de wachtrij in Microsoft 365 kunnen worden geleverd.
 
-- Als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudserviceprovider), moet u contact opnemen met uw partner om het probleem op te lossen.
+- Neem contact op met uw partner om dit probleem op te lossen als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudservice provider).
 
 ## <a name="other-error-codes"></a>Andere foutcodes
 
-Microsoft 365 heeft moeite met het bezorgen van berichten op uw on-premises of partnere-mailserver. Gebruik de **doelservergegevens** in de fout om het probleem in uw omgeving te onderzoeken of de connector te wijzigen als er een configuratiefout optreedt.
+Microsoft 365 biedt problemen met het bezorgen van berichten aan uw on-premises e-mailserver of partner. Gebruik de **doelserver** gegevens in de fout om het probleem in uw omgeving te bekijken, of wijzig de connector als er een configuratiefout is opgetreden.
 
-Als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudserviceprovider), moet u contact opnemen met uw partner om het probleem op te lossen.
+Neem contact op met uw partner om dit probleem op te lossen als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudservice provider).

@@ -7,17 +7,17 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 34674847-a6b7-4a7e-9eaa-b64f22bc150d
 description: Meer informatie over de machtigingen die vereist zijn voor taken op zelfstandige Exchange Online Protection
-ms.openlocfilehash: 2f653fbae49087b8fc1ebc3a97586512965df970
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: f9c0f0549ba5a0a65fa3bbe3af1afbfddc6e735c
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652895"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826623"
 ---
 # <a name="permissions-in-standalone-eop"></a>Machtigingen in standalone EOP
 
@@ -114,7 +114,7 @@ In de volgende tabel worden de ingebouwde rollen beschreven die beschikbaar zijn
 |Voorbeeld van bedreigings informatie<sup>\*</sup>||De organizationmanagement <br/><br/> SecurityAdministrator <br/><br/> SecurityReader|
 |
 
-<sup>\*</sup>Hoewel deze functie beschikbaar is, kunt u de functie eigenlijk niet gebruiken in een zelfstandige EOP.
+<sup>\*</sup> Hoewel deze functie beschikbaar is, kunt u de functie eigenlijk niet gebruiken in een zelfstandige EOP.
 
 ## <a name="microsoft-365-permissions-in-standalone-eop"></a>Microsoft 365-machtigingen in zelfstandige EOP
 

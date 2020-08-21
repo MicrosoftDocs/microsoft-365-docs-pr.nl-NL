@@ -8,7 +8,7 @@ manager: dansimp
 ms.reviewer: mcostea
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over campagne weergaven in Office 365 Advanced Threat Protection.
-ms.openlocfilehash: b7078188d8e01f27e6941c3f61f4ef20a004606c
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: f0f5d2305b4f17c7018d32eebd155b4ad2d459e7
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653231"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46825795"
 ---
 # <a name="campaign-views-in-atp"></a>Campagne weergaven in ATP
 
@@ -237,9 +237,9 @@ Het diagram bevat de volgende informatie:
   |**ZAP**|n/b|[Zero-Hour auto leegmaak actie (ZAP)](zero-hour-auto-purge.md) heeft de actie uitgevoerd op het bezorgde bericht overeenkomstig de instellingen van uw Antispambeleid (verplaatst naar de map Ongewenste e-mail of in quarantaine).|
   |
 
-  <sup>\*</sup>Controleer uw Antispambeleid, omdat het toegestane bericht waarschijnlijk door de dienst werd geblokkeerd.
+  <sup>\*</sup> Controleer uw Antispambeleid, omdat het toegestane bericht waarschijnlijk door de dienst werd geblokkeerd.
 
-  <sup>\*\*</sup>Controleer uw Antispambeleid, omdat deze berichten in quarantaine moeten worden geplaatst.
+  <sup>\*\*</sup> Controleer uw Antispambeleid, omdat deze berichten in quarantaine moeten worden geplaatst.
 
 - **Bezorgingslocaties**: u wilt waarschijnlijk berichten onderzoeken die daadwerkelijk voor geadresseerden zijn afgeleverd (naar het postvak in of de map Ongewenste e-mail), zelfs als gebruikers niet op de URL van de nettolading in het bericht klikken. U kunt ook de in quarantaine geplaatste berichten verwijderen uit quarantaine. Zie voor meer informatie [Gequarantinee e-mailberichten in EOP](quarantine-email-messages.md).
 
@@ -317,7 +317,7 @@ Op de tabbladen in de weergave campagne Details kunt u de campagne verder onderz
   - **URL**<sup>\*</sup>
   - **Totaal aantal**
 
-<sup>\*</sup>Als u op deze waarde klikt, wordt een nieuwe flyout geopend met meer informatie over het opgegeven item (gebruiker, URL, etc.) boven aan de weergave campagne Details. Als u wilt teruggaan naar de weergave met campagnegegevens, klikt u op **gereed** in de vervolgmenu nieuw.
+<sup>\*</sup> Als u op deze waarde klikt, wordt een nieuwe flyout geopend met meer informatie over het opgegeven item (gebruiker, URL, etc.) boven aan de weergave campagne Details. Als u wilt teruggaan naar de weergave met campagnegegevens, klikt u op **gereed** in de vervolgmenu nieuw.
 
 ### <a name="buttons"></a>Hardwareknoppen
 

@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -18,50 +18,50 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
-description: Beheerders kunnen meer te weten komen over de functies voor bescherming tegen phishing in Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: 657224d3a18d7cae1581eaf6c603d1c04c3b41f3
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+description: Beheerders kunnen leren werken met de functies van bescherming tegen phishing in Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (Office 365 ATP).
+ms.openlocfilehash: 5594c4e7033ab70a622403bca7759cd4b89f111a
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588310"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827443"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Bescherming tegen phishing in Microsoft 365
 
-*Phishing* is een e-mailaanval die probeert gevoelige informatie te stelen in berichten die afkomstig lijken te zijn van legitieme of vertrouwde afzenders. Er zijn specifieke categorieën van phishing. Bijvoorbeeld:
+*Phishing* is een aanval via een e-mailbericht dat probeert gevoelige informatie te stelen in berichten die afkomstig lijken te zijn van legitieme of vertrouwde afzenders. Phishing bevat specifieke soorten phishing. Bijvoorbeeld:
 
-- **Spear phishing** maakt gebruik van zeer gerichte en aangepaste inhoud die specifiek is afgestemd op de beoogde ontvangers (meestal, na verkenning op de ontvangers door de aanvaller).
+- Met **spear phishing** wordt zeer gerichte en aangepaste inhoud gebruikt die specifiek is afgestemd op de gerichte geadresseerden (meestal na Reconnaissance op de geadresseerden van de aanvaller).
 
-- **Walvisvangst** is gericht op leidinggevenden of andere hoge waarde doelen binnen een organisatie voor maximaal effect.
+- **Whaling** wordt op de werknemers of andere high-value-doelen binnen een organisatie omgeleid voor de maximale kracht.
 
-- **Business email compromise (BEC)** maakt gebruik van vervalste vertrouwde afzenders (financial officers, klanten, vertrouwde partners, enz.) in een poging om de ontvanger te verleiden tot het goedkeuren van betalingen, het overmaken van fondsen of het vrijgeven van klantgegevens.
+- **Aanval van zakelijke e-mail (BEC)** maakt gebruik van vertrouwde vertrouwde afzenders (financiële medewerkers, klanten, vertrouwde partners, etc.) in een inspanning om de ontvanger te leiden tot het goedkeuren van betalingen, het overdragen van bedragen of het afsluiten van klantgegevens.
 
-- **Ransomware** die uw gegevens versleutelt en eist betaling te decoderen bijna altijd begint in phishing-berichten. Anti-phishing bescherming kan u niet helpen bij het decoderen van versleutelde bestanden, maar het kan helpen bij het detecteren van de eerste phishing-berichten die zijn gekoppeld aan de ransomware campagne. Voor meer informatie over het herstellen van een ransomware aanval, zie [Herstellen van een ransomware aanval in Microsoft 365](recover-from-ransomware.md).
+- **Ransomware** waarmee u uw gegevens kunt versleutelen en betaling hoeft te decoderen om te voorkomen dat u in phishingberichten begint. Met anti malafide bescherming kunt u versleutelde bestanden niet ontsleutelen, maar u kunt wel de eerste Phishingberichten detecteren die aan de campagne van Ransomware zijn gekoppeld. Zie [herstel van een Ransomware aanval in Microsoft 365](recover-from-ransomware.md)voor meer informatie over het herstellen van een Ransomware-aanval.
 
-Met de toenemende complexiteit van aanvallen is het zelfs moeilijk voor getrainde gebruikers om geavanceerde phishingberichten te identificeren. Gelukkig kunnen Exchange Online Protection (EOP) en de extra functies in Office 365 Advanced Threat Protection (Office 365 ATP) helpen.
+Met de toenemende complexiteit van aanvallen is het zelfs moeilijk voor gebruikers met een opgeleid, zodat ze een verfijnde malafide bericht kunnen vinden. Gelukkig kan Exchange Online Protection (EOP) en de extra functies in Office 365 Advanced Threat Protection (Office 365 ATP) helpen.
 
 ## <a name="anti-phishing-protection-in-eop"></a>Bescherming tegen phishing in EOP
 
-EOP (dat wil zeggen Microsoft 365-organisaties zonder ATP) bevat functies die uw organisatie kunnen beschermen tegen phishingbedreigingen:
+EOP (dat wil zeggen Microsoft 365-organisaties zonder ATP) bevat functies waarmee u uw organisatie tegen phishing kunt beschermen:
 
-- **Spoof-intelligentie**: bekijk vervalste berichten van afzenders in interne en externe domeinen en sta die afzenders toe of blokkeer ze. Zie [Spoofintelligentie configureren in EOP](learn-about-spoof-intelligence.md)voor meer informatie.
+- **Spoof-intelligentie**: bekijk vervalste berichten van afzenders in interne en externe domeinen en sta die afzenders toe of blokkeer ze. Zie voor meer informatie [spoof Intelligence configureren in EOP](learn-about-spoof-intelligence.md).
 
-- **Anti-phishingbeleid in EOP:** Schakel spoofinformatie in of uit, schakel de identificatie van niet-geverifieerde afzenders in of uit en geef de actie op voor geblokkeerde vervalste afzenders (naar map Ongewenste e-mail of quarantaine). Zie [Anti-phishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)voor meer informatie.
+- **Anti-phishingfilter in EOP**: Schakel spoof Intelligence in of uit, schakel de id van niet-geverifieerde afzenders in Outlook in of uit en geef de actie op voor geblokkeerde spoof afzenders (verplaatsen naar map Ongewenste e-mail of Quarantine). Zie [anti-phishings beleid in EOP](configure-anti-phishing-policies-eop.md)voor meer informatie.
 
-- **Impliciete e-mailverificatie**: EOP verbetert standaard e-mailverificatiecontroles voor binnenkomende e-mail[(SPF,](set-up-spf-in-office-365-to-help-prevent-spoofing.md) [DKIM](use-dkim-to-validate-outbound-email.md)en [DMARC)](use-dmarc-to-validate-email.md)met reputatie van afzender, afzendergeschiedenis, geschiedenis van de ontvanger, gedragsanalyse en andere geavanceerde technieken om vervalste afzenders te identificeren. Zie [E-mailverificatie in Microsoft 365](email-validation-and-authentication.md) voor meer informatie.
+- **Impliciete e-mail verificatie**: EOP verbetert standaardverificatie van e-mail verificatie voor inkomende E-mail ([SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [dkim](use-dkim-to-validate-outbound-email.md)en [DMARC](use-dmarc-to-validate-email.md)) met de reputatie van de afzender, de geschiedenis van de afzender, de geschiedenis van de ontvanger, de gedrags analyse en andere geavanceerde technieken om vervalste afzenders te helpen identificeren. Zie [E-mailverificatie in Microsoft 365](email-validation-and-authentication.md) voor meer informatie.
 
-## <a name="additional-anti-phishing-protection-in-office-365-atp"></a>Aanvullende bescherming tegen phishing in office 365-atp
+## <a name="additional-anti-phishing-protection-in-office-365-atp"></a>Extra bescherming tegen phishing in Office 365 ATP
 
-Office 365 ATP bevat aanvullende en geavanceerdere antiphishingfuncties:
+Office 365 ATP bevat extra en meer geavanceerde functies voor het anti-phishing van Office:
 
-- **ATP-beleid voor antiphishing:** maak nieuwe aangepaste beleidsregels, configureer instellingen voor anti-imitatie (bescherm gebruikers en domeinen tegen imitatie), instellingen voor postvakintelligentie en aanpasbare geavanceerde phishingdrempels. Zie [ATP-beleid voor antiphishing configureren in Microsoft 365](configure-atp-anti-phishing-policies.md)voor meer informatie. Zie [Anti-phishingbeleid in Microsoft 365](set-up-anti-phishing-policies.md)voor meer informatie over de verschillen tussen antiphishingbeleid en ATP-beleid voor antiphishing.
+- **ATP anti-phishingfilter**: Maak nieuwe aangepaste beleidsregels en Configureer instellingen voor de anti-personele instellingen (gebruikers en domeinen beschermen tegen imitatie), Postvak informatie-instellingen en instelbare geavanceerde phishing. Zie voor meer informatie [het artikel ATP anti-phishing configureren in Microsoft 365](configure-atp-anti-phishing-policies.md). Zie [anti phishing Policies in Microsoft 365](set-up-anti-phishing-policies.md)voor meer informatie over de verschillen tussen een anti-phishings beleid en een anti-phishingfilter.
 
-- **Campagneweergaven**: Machine learning en andere heuristiek identificeren en analyseren berichten die betrokken zijn bij gecoördineerde phishing-aanvallen tegen de hele service en uw organisatie. Zie [Campagneweergaven in Office 365 ATP](campaigns.md)voor meer informatie.
+- **Campagne weergaven**: machine learning en andere heuristische analyses identificeren en analyseren van berichten die betrokken zijn bij gecoördineerde phishing-aanvallen tegen de hele service en uw organisatie. Zie voor meer informatie [campagne weergaven in Office 365 ATP](campaigns.md).
 
-- **Aanval simulator:** Admins kunnen nep phishing-berichten te maken en stuur ze naar interne gebruikers als een onderwijs tool. Zie [Attack Simulator in Office 365 ATP voor](attack-simulator.md)meer informatie.
+- **Aanvals Simulator**: beheerders kunnen valse phishingberichten maken en ze verzenden naar interne gebruikers als een Education-programma. Zie [aanvals Simulator in Office 365 ATP](attack-simulator.md)voor meer informatie.
 
-## <a name="other-anti-phishing-resources"></a>Andere anti-phishing bronnen
+## <a name="other-anti-phishing-resources"></a>Andere anti malafide bronnen
 
-- Voor eindgebruikers: [Bescherm uzelf tegen phishing-programma's en andere vormen van online fraude.](https://support.microsoft.com/office/be0de46a-29cd-4c59-aaaf-136cf177d593)
+- Voor eindgebruikers: [Bescherm uzelf tegen phishing en andere vormen van online fraude](https://support.microsoft.com/office/be0de46a-29cd-4c59-aaaf-136cf177d593).
 
-- [Hoe Microsoft 365 het Adres Van valideert om phishing te voorkomen.](how-office-365-validates-the-from-address.md)
+- [Hoe Microsoft 365 het van-adres valideert om phishing te voorkomen](how-office-365-validates-the-from-address.md).

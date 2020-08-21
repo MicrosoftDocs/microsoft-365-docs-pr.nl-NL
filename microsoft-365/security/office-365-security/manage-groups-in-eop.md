@@ -7,19 +7,19 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders in zelfstandige Exchange Online Protection-organisaties (EOP) kunnen leren hoe u distributiegroepen en beveiligingsgroepen met e-mail kunt maken, wijzigen en verwijderen in het Exchange Admin Center (PowerShell) en zelfstandige Exchange Online Protection (EOP) PowerShell.
-ms.openlocfilehash: 813735d4024c3b8424a6bbac51ebef7b4c53e590
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: e7b93b9d05fda7e4f5f8abea02fbe3f1c70a6c74
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653651"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826551"
 ---
 # <a name="manage-groups-in-eop"></a>Groepen beheren in EOP
 
@@ -192,7 +192,7 @@ Update-EOPDistributionGroupMember -Identity <GroupIdentity> -Members @("User1","
 In dit voorbeeld wordt het primaire SMTP-adres (ook wel antwoordadres genoemd) voor de groep werknemers in de Seattle gebruikt in sea.employees@contoso.com.
 
 ```PowerShell
-Set-EOPDistributionGroup "Seattle Employees" -PrimarysmptAddress "sea.employees@contoso.com"
+Set-EOPDistributionGroup "Seattle Employees" -PrimarySmtpAddress "sea.employees@contoso.com"
 ```
 
 In dit voorbeeld worden de huidige leden van de groep beveiligings team vervangen door grappige Petersen en Tyson Fawcett.

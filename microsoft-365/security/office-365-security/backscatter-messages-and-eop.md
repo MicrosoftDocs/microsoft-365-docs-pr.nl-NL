@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -18,20 +18,20 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel vindt u meer informatie over Backscatter en Microsoft Exchange Online Protection (EOP)
-ms.openlocfilehash: e30fa27ac359ad28e042b2d4bd446d34a2e4f1e9
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: f1705fd7fc30c9a8cde5f6acfaf145861de3af08
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209629"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827783"
 ---
 # <a name="backscatter-in-eop"></a>Backscatter in EOP
 
-*Backscatter* is niet-levering rapporten (ook wel bekend als NDR's of bounce berichten) die u ontvangt voor berichten die u niet hebt verzonden. Spammers smeden (spoof) de Van: adres van hun berichten, en ze gebruiken vaak echte e-mailadressen om geloofwaardigheid te verlenen aan hun berichten. Dus, wanneer spammers onvermijdelijk berichten sturen naar niet-bestaande ontvangers (spam is een high-volume operatie), de bestemming e-mailserver is in wezen misleid in het retourneren van de niet-leverbare bericht in een NDR naar de vervalste afzender in de Van: adres.
+*Backscatter* is rapporten over niet-uitgevoerde bezorging (ook wel ndr's genoemd of berichten verzenden) die u ontvangt voor berichten die u niet heb verzonden. Spammers smeden (spoof) The from: adres van hun berichten, en ze gebruiken vaak realtime e-mailadressen om geloofwaardigheid te lenen aan hun berichten. Wanneer spammers via een zeer grote transactie geen berichten naar niet-bestaande geadresseerden sturen (spam is een high-volume-actie), wordt de doel-e-mailserver in feite omgezet in een NDR naar de vervalste afzender in het adres van:.
 
-In Microsoft 365-organisaties met postvakken in Exchange Online- of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken, doet EOP er alles aan om berichten van dubieuze bronnen te identificeren en in stilte te droppen zonder een NDR te genereren. Maar, op basis van het enorme volume e-mail stroomt door de dienst, is er altijd de mogelijkheid dat EOP onbedoeld backscatter zal sturen.
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken, zorgt EOP ervoor dat elke inspanning berichten van dubious-bronnen identificeert en ongestilled verwijdert zonder een NDR te genereren. Op basis van het e-mailadres van doorschijnende, kunt u altijd Backscatter de mogelijkheid bieden om te verzenden.
 
-Backscatterer.org een bloklijst (ook wel DNS-bloklijst of DNSBL) bijhoudt van e-mailservers die verantwoordelijk waren voor het verzenden van backscatter, en EOP-servers kunnen in deze lijst worden weergegeven. Maar, we proberen niet om onszelf te verwijderen uit de Backscatterer.org blok lijst, want het is niet een lijst van spammers (door hun eigen toelating).
+Backscatterer.org onderhoudt een blokkeringslijst (ook wel bekend als DNS-bloklijst of DNSBL) van e-mailservers die verantwoordelijk zijn voor het verzenden van Backscatter en EOP servers mogelijk in deze lijst worden weergegeven. Maar we proberen onszelf niet te verwijderen uit de lijst met Backscatterer.org-blokken omdat dit geen lijst is met spammers (op basis van eigen invoer).
 
 > [!TIP]
-> De Backscatter.org website ( <http://www.backscatterer.org/?target=usage> ) raadt het gebruik van hun service om inkomende e-mail te controleren in de veilige modus in plaats van Reject-modus (grote e-maildiensten bijna altijd een aantal backscatter).
+> De Backscatter.org-website ( <http://www.backscatterer.org/?target=usage> ) adviseert hun service te gebruiken voor het controleren van inkomende e-mail in de veilige modus in plaats van de reject-modus (grootschalige e-mailservices verzenden bijna altijd een aantal Backscatter).

@@ -6,7 +6,7 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: overview
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -17,23 +17,21 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Meer informatie over het gebruik van aanvals Simulator voor het uitvoeren van simulaties voor phishing en wachtwoorden in uw Microsoft 365 E5 of op een organisatie met het abonnement 2.
-ms.openlocfilehash: 6aa1d2027915caeffe2c20ba8f75f3658c336dbe
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+description: Beheerders kunnen leren hoe u met behulp van Hack Simulator een aanval uitvoert met phishing en wachtwoorden in hun Microsoft 365 E5-of ATP-abonnement 2-organisaties.
+ms.openlocfilehash: 017376d8002811398fe3ce2d94f7c207cd718a78
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653219"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46825831"
 ---
 # <a name="attack-simulator-in-atp"></a>Aanvals Simulator in ATP
 
-**Overzicht** Als u een globale beheerder of een beveiligingsbeheerder bent en uw organisatie Office 365 Advanced Threat Protection (abonnement 2) bevat, met inbegrip van het [onderzoek en de antwoord mogelijkheden](office-365-ti.md)van uw organisatie, kunt u met aanvals functie in uw organisatie realistische aanvalsscenario's uitvoeren. Dit kan u helpen gebruikers kwetsbaar te maken en te vinden voordat een echte aanval van invloed is op de laagste regel. Lees dit artikel voor meer informatie.
+Als uw organisatie Office 365 Advanced Threat Protection (ATP) heeft, waaronder het [onderzoek en de antwoord mogelijkheden](office-365-ti.md)van Office, kunt u met behulp van aanvals functie in het beveiligings & nalevings centrum realistische aanvalsscenario's in uw organisatie uitvoeren. Met de gesimuleerde aanvallen kunt u gebruikers kwetsbaar maken en kwetsbaar maken voor een echte aanval met uw onderste regel. Lees dit artikel voor meer informatie.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Ga naar <https://protection.office.com/> om het Beveiligings- en compliancecentrum te openen. Er is een aanvals Simulator beschikbaar op de **bedreigings beheer** \> **aanval Simulator**.
-
-  ![Threat Management-aanvals Simulator](../../media/ThreatMgmt-AttackSimulator.png)
+- Ga naar <https://protection.office.com/> om het Beveiligings- en compliancecentrum te openen. Er is een aanvals Simulator beschikbaar op de **bedreigings beheer** \> **aanval Simulator**. Ga rechtstreeks naar aanval Simulator, open <https://protection.office.com/attacksimulator> .
 
 - Zie voor meer informatie over de beschikbaarheid van een aanvals functie in diverse Microsoft 365-abonnementen de [Beschrijving van Office 365 Advanced Threat Protection Service](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
 
@@ -41,23 +39,19 @@ ms.locfileid: "46653219"
 
 - Uw account moet worden geconfigureerd voor multi-factor Authentication (MFA) voor het maken en beheren van campagnes in aanvals Simulator. Zie [multi-factor Authentication instellen](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)voor instructies.
 
-Als een aanval succesvol kan worden gestart, controleert u of het account dat u gebruikt voor het uitvoeren van gesimuleerde aanvallen gebruikmaken van multi-factor Authentication. Daarnaast moet u een globale beheerder of een beveiligingsbeheerder zijn. Ga voor meer informatie over rollen en machtigingen naar [machtigingen in het artikel beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).)
-
 - Phishingberichten verzamelen en verwerken activiteiten gedurende 30 dagen. Actuele campagnegegevens zijn beschikbaar voor 90 dagen nadat u de campagne hebt gestart.
 
 - Er zijn geen bijbehorende PowerShell-cmdlets voor Attack Simulator.
 
 ## <a name="spear-phishing-campaigns"></a>Met Spear verphishings campagnes
 
-*Phishing* is een algemene term voor e-mail aanvallen waarbij gevoelige informatie wordt gestolen voor berichten die afkomstig lijken te zijn van legitieme of vertrouwde afzenders. *Spear phishing* is een gerichte phishing-aanval waarbij zeer gerichte en aangepaste inhoud worden gebruikt die speciaal is afgestemd op de gerichte geadresseerden (meestal na Reconnaissance van de geadresseerden van de aanvaller).
-
-- U bent een globale beheerder of beveiligingsbeheerder
+*Phishing* is een algemene term voor e-mail aanvallen waarbij gevoelige informatie wordt gestolen voor berichten die afkomstig lijken te zijn van legitieme of vertrouwde afzenders. *Spear phishing* is een gerichte malafide aanval waarbij gerichte en aangepaste inhoud worden gebruikt die specifiek is afgestemd op de gerichte geadresseerden (meestal na Reconnaissance op de geadresseerden van de aanvaller).
 
 In het geval van een aanvals Simulator zijn er twee verschillende typen vergelijkende phishingberichten beschikbaar:
 
-- Voor minstens het globale beheerdersaccount en beveiligingsbeheerders die een aanvals functie gebruiken, is het gebruik van [meerdere factor verificatie/voorwaardelijke toegang](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication) ingeschakeld. (In het ideale geval is meervoudige verificatie/voorwaardelijke toegang ingeschakeld voor alle gebruikers in uw organisatie.)
+- **Spear phishing (credentials oogst)**: de aanval probeert de geadresseerden te overtuigen om op een URL in het bericht te klikken. Als u op de koppeling klikt, wordt u gevraagd hun referenties in te voeren. Als dat het geval is, worden deze in een van de volgende locaties gezet:
 
-  - Een standaardpagina waarmee wordt uitgelegd dat dit een enkele test is en tips voor het herkennen van phishingberichten.
+  - Een standaardpagina waarmee wordt uitgelegd dat dit een enkele test is en geeft tips voor het herkennen van phishingberichten.
 
     ![Welke gebruikers zien of ze op de phishing-koppeling klikken en hun referenties invoeren](../../media/attack-simulator-phishing-result.png)
 
@@ -131,9 +125,9 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
    De HTML-opmaak kan zo eenvoudig of ingewikkeld zijn als u deze nodig hebt. U kunt afbeeldingen en tekst invoegen om de beknopte van het bericht in de e-mailclient van de ontvanger te bevorderen.
 
-   - `${username}`voegt de naam van de geadresseerde in.
+   - `${username}` voegt de naam van de geadresseerde in.
 
-   - `${loginserverurl}`Hiermee voegt u de URL-naam van de phishingwebsite voor de **phishingwebsite** in met de vorige stap.
+   - `${loginserverurl}` Hiermee voegt u de URL-naam van de phishingwebsite voor de **phishingwebsite** in met de vorige stap.
 
    Wanneer u klaar bent, klikt u op **volgende**.
 
@@ -212,9 +206,9 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
    De HTML-opmaak kan zo eenvoudig of ingewikkeld zijn als u deze nodig hebt. U kunt afbeeldingen en tekst invoegen om de beknopte van het bericht in de e-mailclient van de ontvanger te bevorderen.
 
-   - `${username}`voegt de naam van de geadresseerde in.
+   - `${username}` voegt de naam van de geadresseerde in.
 
-   - `${loginserverurl}`Hiermee voegt u de URL-naam van de phishingwebsite van de **phishingwebsite** in.
+   - `${loginserverurl}` Hiermee voegt u de URL-naam van de phishingwebsite van de **phishingwebsite** in.
 
    U moet de koppeling in de hoofdtekst van het bericht verwijderen (in de **meeste** gevallen moet het bericht zowel een koppeling **als** een bijlage bevatten, en koppelings klikken worden niet bijgehouden in een bijlage campagne).
 

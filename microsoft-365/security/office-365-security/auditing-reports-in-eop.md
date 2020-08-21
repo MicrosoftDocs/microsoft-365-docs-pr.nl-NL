@@ -1,5 +1,5 @@
 ---
-title: Controlerapporten in zelfstandige EOP
+title: Controlerapporten in standalone EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -7,24 +7,24 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
-description: Beheerders kunnen meer te weten komen over de beheerderscontrolerapporten die beschikbaar zijn in Exchange Online Protection (EOP)
-ms.openlocfilehash: 1553bb3e076c97d7539107509aaf903b0607eefc
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+description: Beheerders kunnen informatie vinden over de beheerders controlerapporten die beschikbaar zijn in Exchange Online Protection (EOP)
+ms.openlocfilehash: ab2c1af7197094b456d8e1b4151dd42791d992a1
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213314"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46825783"
 ---
-# <a name="auditing-reports-in-standalone-eop"></a>Controlerapporten in zelfstandige EOP
+# <a name="auditing-reports-in-standalone-eop"></a>Controlerapporten in standalone EOP
 
-In zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken kunnen controlerapporten u helpen te voldoen aan de vereisten voor regelgeving, naleving en geschillen voor uw organisatie. U op elk gewenst moment controlerapporten verkrijgen om de wijzigingen te bepalen die zijn aangebracht in uw EOP-configuratie. Met deze rapporten u configuratieproblemen oplossen of de oorzaak vinden van beveiligingsproblemen of compliance-gerelateerde problemen.
+In zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken kunnen controlerapporten voldoen aan wettelijke vereisten, compliance en juridische vereisten voor uw organisatie. U kunt op elk gewenst moment controlerapporten verkrijgen om te bepalen welke wijzigingen zijn aangebracht in uw EOP-configuratie. Deze rapporten kunnen u helpen bij het oplossen van problemen met de configuratie of voor het oplossen van problemen met betrekking tot beveiligingsproblemen of compliance.
 
-Er zijn twee controlerapporten beschikbaar in standalone EOP:
+Er zijn twee controlerapporten beschikbaar via zelfstandige EOP:
 
-- **Groepsrapport voor beheerdersrollen**: met het groepsrapport voor beheerdersrollen u zien wanneer een gebruiker wordt toegevoegd aan of verwijderd uit het lidmaatschap van een beheerdersrolgroep. U dit rapport gebruiken om wijzigingen in de beheerdersmachtigingen te controleren die zijn toegewezen aan gebruikers in uw organisatie. Zie [Een rapport met een beheerdersrolgroep uitvoeren in zelfstandig EOP](run-an-administrator-role-group-report-in-eop-eop.md)voor meer informatie.
+- **Rapport rollen groep met beheerders**: in het rapport rollen groep beheerder kunt u zien wanneer een gebruiker aan het lidmaatschap van een beheerderrol wordt toegevoegd of hieruit wordt verwijderd. U kunt dit rapport gebruiken voor het controleren van de wijzigingen aan de beheerdersmachtigingen die zijn toegewezen aan gebruikers in uw organisatie. Zie voor meer informatie [het rapport rollen groep van beheerder uitvoeren in zelfstandige EOP](run-an-administrator-role-group-report-in-eop-eop.md).
 
-- **Beheerderscontrolelogboek**: Het controlelogboek van de beheerder registreert elke actie (op basis van zelfstandige EOP PowerShell-cmdlets) door een beheerder of een gebruiker met beheerdersbevoegdheden. Zie [Het controlelogboek van de beheerder in Exchange Online weergeven](https://docs.microsoft.com/exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log)voor meer informatie.
+- **Auditlogboek beheerders**: het controlelogboek van de beheerder registreert elke actie (gebaseerd op zelfstandige EOP PowerShell-cmdlets) van een beheerder of gebruiker met beheerdersbevoegdheden. Zie voor meer informatie [het controlelogboek van de beheerder weergeven in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log).

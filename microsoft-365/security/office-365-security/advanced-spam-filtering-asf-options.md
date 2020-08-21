@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie lezen over de instellingen voor geavanceerde spam filters (ASF) die beschikbaar zijn in het antispambeleid van Exchange Online Protection (EOP).
-ms.openlocfilehash: b314b8b2a2de72987d9acff688602df0e0947293
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 2a79a6721a587e3033e71e6e46856a21cffe7bcc
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653339"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827335"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>Geavanceerde instellingen voor spam filter (ASF) in EOP
 
@@ -34,6 +34,7 @@ In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige 
 
 > [!NOTE]
 > Het inschakelen van een of meer ASF-instellingen is een agressieve aanpak van spamfilters. U kunt geen berichten rapporteren die met ASF zijn gefilterd als onwaar, positief. U kunt berichten identificeren die door ASF zijn gefilterd door:
+>
 > - Periodieke meldingen van de Quarantine voor eindgebruikers van spam.
 >
 > - De aanwezigheid van gefilterde berichten in quarantaine.

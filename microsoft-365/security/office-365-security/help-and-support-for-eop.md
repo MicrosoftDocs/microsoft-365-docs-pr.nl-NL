@@ -7,17 +7,17 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft biedt hulp bij EOP op diverse locaties en methoden, waaronder ondersteuning voor ondersteuning en ondersteuning.
-ms.openlocfilehash: 959f842e05939e4a6cfc54d1b860de96bd8546e6
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 7b6fc805a91ee1f0a6dd6f1954f4b470028c8e52
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656931"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826587"
 ---
 # <a name="help-and-support-for-eop"></a>Help en ondersteuning voor EOP
 
@@ -76,7 +76,7 @@ Microsoft biedt lokale of gratis telefoonnummers voor productondersteuning overa
 |Brazilië|Gratis: 08007621146 <br/> Lokaal: 1147001999|Datzelfde|
 |Frankrijk|Gratis: 0805 540 594 <br/> Lokaal: 01 57 32 42 97|Datzelfde|
 |Duitsland|Gratis: 0800 589 2332 <br/>  Lokaal: 069 380 789 508|Datzelfde|
-|Japan|Gratis: 0120-628860 <br/> Lokaal: 343326257|Gratis: 0120-996680 <br/> Lokaal: 357679793|
+|Japan |Gratis: 0120-628860 <br/> Lokaal: 343326257|Gratis: 0120-996680 <br/> Lokaal: 357679793|
 |Korea|Gratis: 080-495-0880 <br/> Lokaal: 234831937|Datzelfde|
 |Spanje|Gratis: 900 814 197 <br/> Lokaal: 912 718 160|Datzelfde|
 |Verenigd Koninkrijk|Gratis: 0800 032 6417 <br/> Lokaal: 0203 450 6455|Datzelfde|

@@ -7,44 +7,44 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
 ms.custom:
 - seo-marvel-apr2020
 description: Dit onderwerp bevat veelgestelde vragen en antwoorden voor Microsoft-partners en resellers die gedelegeerde Microsoft 365-beheertaken willen uitvoeren.
-ms.openlocfilehash: d1522973292b290fd9f66f534ca23aeaa55ee756
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 01781437bbc7e8fe5c035ea23e4392e734e0231f
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209521"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827085"
 ---
 # <a name="delegated-administration-faq"></a>Veelgestelde vragen over gedelegeerd beheer
 
-Dit onderwerp biedt veelgestelde vragen en antwoorden voor Microsoft-partners en resellers die gedelegeerde beheertaken willen uitvoeren, waaronder de mogelijkheid om Exchange Online Protection (EOP) voor andere tenants (bedrijven) te beheren.
+In dit onderwerp vindt u veelgestelde vragen en antwoorden voor Microsoft-partners en resellers die gedelegeerd beheertaken willen uitvoeren, waaronder de mogelijkheid om Exchange Online Protection (EOP) te beheren voor andere tenants (bedrijven).
 
-## <a name="im-a-reseller-and-i-need-to-manage-my-customers-tenants-how-does-this-work"></a>Ik ben een reseller en ik moet de huurders van mijn klant beheren; hoe werkt dit?
+## <a name="im-a-reseller-and-i-need-to-manage-my-customers-tenants-how-does-this-work"></a>Ik ben een wederverkoper en ik moet de tenants van mijn klant beheren. Hoe werkt dit?
 
-Als u een Microsoft-partner of -reseller bent en u zich hebt aangemeld om Microsoft-adviseur te zijn, u toestemming vragen om hun tenant te beheren in het beheercentrum. Dit staat bekend als gedelegeerd beheer en hiermee u hun Microsoft 365-tenant (inclusief EOP-instellingen) beheren alsof u een beheerder binnen hun organisatie bent. De stappen voor het uitvoeren van gedelegeerd beheer zijn als volgt:
+Als u een Microsoft-partner of-wederverkoper bent en u zich hebt aangemeld voor een Microsoft-adviseur, kunt u toestemming vragen om hun Tenant te beheren in het Beheercentrum. Dit is een zogehets beheer van gedelegeerden en biedt u de mogelijkheid hun Microsoft 365-Tenant (met inbegrip van de EOP-instellingen) te beheren alsof u een beheerder binnen hun organisatie bent. De stappen voor het uitvoeren van gedelegeerd beheer zijn als volgt:
 
-1. Meld u aan om [Microsoft Office 365-adviseur](https://aka.ms/cloudbenefits)te worden.
+1. Meld u aan als een [Microsoft Office 365-adviseur](https://aka.ms/cloudbenefits).
 
-2. Meld u aan voor gedelegeerd beheer. Voordat u beginnen met het beheren van het account van een klant, moeten ze u autoriseren als gedelegeerdbeheerder. Om hun goedkeuring te verkrijgen, stuurt u hen eerst [een aanbod voor gedelegeerd beheer.](https://support.microsoft.com/office/26530dc0-ebba-415b-86b1-b55bc06b073e) (U uw klant op een later tijdstip ook gedelegeerd beheer aanbieden.)
+2. Registreer u voor gedelegeerd beheer. Voordat u het account van een klant kunt beheren, moet ze u machtigen als gedelegeerde beheerder. Voor een goedkeuring stuurt u eerst [een aanbieding voor gedelegeerd beheer](https://support.microsoft.com/office/26530dc0-ebba-415b-86b1-b55bc06b073e). (U kunt op een later tijdstip gedelegeerd beheer bieden aan uw klant.)
 
-3. Maak het gedelegeerde beheerdersaccount met de stappen in Een partner voor [abonnementsadviseur toevoegen, wijzigen of verwijderen.](https://docs.microsoft.com/office365/admin/misc/add-partner)
+3. Maak het gedelegeerde beheerdersaccount met behulp van de stappen in [een abonnements adviseur toevoegen, wijzigen of verwijderen](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner).
 
-Partners [bezoeken: bouw uw bedrijf op en beheer het partnerabonnement](https://support.office.com/article/30dd1681-47e0-4cbc-abfe-a222cd111319) voor meer informatie over het instellen van gedelegeerd beheer.
+Ga naar [partners: uw abonnement voor bedrijven en partners samenstellen en beheren](https://support.microsoft.com/office/30dd1681-47e0-4cbc-abfe-a222cd111319) voor meer informatie over het instellen van gedelegeerd beheer.
 
-## <a name="im-a-customer-not-a-reseller-how-can-set-up-delegated-administrator-for-my-sub-tenants"></a>Ik ben een klant, geen reseller, hoe kan gedelegeerde beheerder instellen voor mijn subhuurders?
+## <a name="im-a-customer-not-a-reseller-how-can-set-up-delegated-administrator-for-my-sub-tenants"></a>Ik ben een klant, geen wederverkoper, en hoe kan gedelegeerde beheerder worden ingesteld voor mijn subtenants?
 
-Gedelegeerd beheer is op dit moment alleen beschikbaar voor resellers en partners. We hebben echter een voorbeeld van Windows PowerShell-script waarmee u beleid toepassen op uw subtenants (bedrijven). Zie [Voorbeeldscript voor het toepassen van EOP-instellingen op meerdere tenants](sample-script-for-applying-eop-settings-to-multiple-tenants.md)voor meer informatie.
+Gedelegeerd beheer is op dit moment alleen beschikbaar voor wederverkopers en partners. We hebben echter een voorbeeld van een Windows PowerShell-script gegeven waarmee u beleidsregels kunt toepassen op subtenants (bedrijven). Zie voor meer informatie [voorbeeldscript voor het toepassen van EOP-instellingen op meerdere tenants](sample-script-for-applying-eop-settings-to-multiple-tenants.md).
 
-## <a name="can-i-prevent-my-sub-tenant-admin-from-modifying-my-policy"></a>Kan ik voorkomen dat mijn subtenantbeheerder mijn beleid wijzigt?
+## <a name="can-i-prevent-my-sub-tenant-admin-from-modifying-my-policy"></a>Kan ik voorkomen dat mijn subtenant beheerder mijn beleid wijzigt?
 
-Microsoft 365 beschikt momenteel niet over deze mogelijkheid.
+Microsoft 365 biedt momenteel geen mogelijkheid.
 
-## <a name="can-i-get-consolidated-reporting-across-all-of-my-sub-tenants"></a>Kan ik geconsolideerde rapportage krijgen voor al mijn subhuurders?
+## <a name="can-i-get-consolidated-reporting-across-all-of-my-sub-tenants"></a>Kan ik uitgaand rapporteren in al mijn subtenants?
 
-Geconsolideerde rapportage over de bedrijven die u beheert, is op dit moment niet beschikbaar voor de rapporten van het Microsoft 365-beheercentrum. U dit echter doen met [Microsoft Graph](https://docs.microsoft.com/graph/overview).
+U kunt op dit moment niet in de rapporten van het Microsoft 365-Beheercentrum rapporteren. U kunt dit echter doen met [Microsoft Graph](https://docs.microsoft.com/graph/overview).

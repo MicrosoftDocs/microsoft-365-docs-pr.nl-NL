@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: 12/09/2016
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -15,25 +15,25 @@ search.appverid:
 ms.assetid: 351c932e-99c1-4512-a6e8-788e90b7838f
 ms.custom:
 - seo-marvel-apr2020
-description: In dit artikel leert u hoe u de juiste certificaten naar Office 365 publiceert voordat u s/mime-beveiligde berichten verzendt in Exchange Online.
-ms.openlocfilehash: f9e0bef2f7d2125e2daeb86b3cf44ae433aae117
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: In dit artikel leert u hoe u de juiste certificaten kunt publiceren naar Office 365 voordat u S/MIME-beveiligde berichten verzendt in Exchange Online.
+ms.openlocfilehash: 634b65e45b01186a27f9ae61c91d4b27f1a11635
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035210"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826479"
 ---
 # <a name="sync-user-certificates-to-office-365-for-smime"></a>Gebruikerscertificaten synchroniseren met Office 365 voor S/MIME
 
-Voordat iemand s/mime-beveiligde berichten kan verzenden in Exchange Online, moeten de juiste certificaten worden ingesteld. Om versleutelde berichten via Exchange Online te verzenden, gebruikt de e-mailapp van de afzender het openbare certificaat van de ontvanger om het bericht te versleutelen. Dit openbare X.509-certificaat moet worden gepubliceerd naar Office 365.
+Voordat iedereen S/MIME-beveiligde berichten kan verzenden in Exchange Online, moeten de juiste certificaten zijn ingesteld. Voor het verzenden van versleutelde berichten via Exchange Online moet de e-mail-app van de afzender het openbare certificaat van de geadresseerde gebruiken om het bericht te versleutelen. Dit openbare X. 509-certificaat moet worden gepubliceerd naar Office 365.
 
-## <a name="to-sync-certificates-that-support-smime"></a>Certificaten synchroniseren die S/MIME ondersteunen
+## <a name="to-sync-certificates-that-support-smime"></a>Certificaten synchroniseren die ondersteuning bieden voor S/MIME
 
-Begin met het instellen van S/MIME door certificaten uit te geven en te publiceren in uw lokale Active Directory Domain Service. Zie [Overzicht van Active Directory Certificate Services](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831740(v=ws.11))voor meer informatie.
+U kunt S/MIME instellen met behulp van certificaten en deze publiceren in de lokale Active Directory-domein service. Zie [overzicht van Active Directory Certificate Services](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831740(v=ws.11))voor meer informatie.
 
-Nadat uw certificaten zijn gepubliceerd, gebruikt u het hulpprogramma Azure AD Connect om gebruikersgegevens van uw on-premises Exchange-omgeving te synchroniseren met Office 365. Zie [Azure AD Connect-synchronisatie: Synchronisatie begrijpen en aanpassen](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)voor meer informatie over dit proces.
+Nadat uw certificaten zijn gepubliceerd, gebruikt u het hulpprogramma van Azure AD Connect om gebruikersgegevens van de on-premises Exchange-omgeving te synchroniseren met Office 365. Zie voor meer informatie over dit proces [Azure AD Connect-synchronisatie: de synchronisatie begrijpen en aanpassen](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis).
 
-Samen met het synchroniseren van andere directorygegevens synchroniseert het hulpprogramma voor S/MIME-doeleinden de **gebruikerscertificaat-** en **gebruikersmimecertificaatkenmerken** voor elk gebruikersobject, zodat de gegevens kunnen worden gebruikt om berichten te ondertekenen en te versleutelen.
+Samen met het synchroniseren van andere directorygegevens voor S/MIME-redenen, worden met het hulpprogramma de kenmerken  **userCertificate** en **userSMIMECertificate** voor elk gebruikersobject gesynchroniseerd, zodat de gegevens kunnen worden gebruikt om berichten te ondertekenen en te versleutelen.
 
 ## <a name="more-information"></a>Meer informatie
 
