@@ -1,5 +1,5 @@
 ---
-title: S/MIME voor versleuteling in Exchange Online - Office 365
+title: S/MIME voor versleuteling in Exchange Online-Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -7,78 +7,80 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
-description: Beheerders kunnen meer te weten komen over het gebruik van S/MIME (Secure/Multipurpose Internet Mail Extensions) in Exchange Online om e-mails te versleutelen en digitaal te ondertekenen.
+description: Beheerders kunnen e-mail uitbreidingen (Secure/Multipurpose Internet Mail Extensions) in Exchange Online leren gebruiken voor het versleutelen van e-mailberichten en deze digitaal ondertekenen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 95bbab5161f9e4133223a247f8937c68f29c0590
-ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
+ms.openlocfilehash: ca865fa8ef658b4715d18e09fe9cbc1cffb201e6
+ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44811012"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845918"
 ---
-# <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>S/MIME voor het ondertekenen van berichten en versleuteling in Exchange Online
+# <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>S/MIME voor de ondertekening van berichten en versleuteling in Exchange Online
 
-S/MIME (Secure/Multipurpose Internet Mail Extensions) is een algemeen aanvaarde methode (of beter gezegd, een protocol) voor het verzenden van digitaal ondertekende en versleutelde berichten. Met S/MIME u e-mails versleutelen en digitaal ondertekenen. Wanneer u S/MIME met een e-mailbericht gebruikt, helpt dit de mensen die dat bericht ontvangen er zeker van te zijn dat wat ze in hun postvak IN zien het exacte bericht is dat is begonnen met de afzender. Het zal ook helpen mensen die berichten ontvangen om er zeker van te zijn dat het bericht afkomstig is van de specifieke afzender en niet van iemand die zich voordoet als de afzender. Hiervoor biedt S/MIME cryptografische beveiligingsservices zoals authenticatie, berichtintegriteit en niet-verwerping van oorsprong (met behulp van digitale handtekeningen). Het helpt ook de privacy- en gegevensbeveiliging (met behulp van encryptie) voor elektronische berichten te verbeteren. Zie [Inzicht in S/MIME](https://docs.microsoft.com/previous-versions/tn-archive/aa995740(v=exchg.65))voor een meer volledige achtergrond over de geschiedenis en architectuur van S/MIME in de context van e-mail.
+S/MIME (Secure/Multipurpose Internet Mail Extensions) is een uitgebreide geaccepteerde methode (of een specifiek Protocol) voor het verzenden van digitaal ondertekende en versleutelde berichten. Met S/MIME kunt u e-mailberichten versleutelen en digitaal ondertekenen. Wanneer u S/MIME met een e-mailbericht gebruikt, kunnen de personen die het bericht ontvangen, weten dat wat ze in hun postvak in hebben, het exacte bericht is dat met de afzender is begonnen. Daarnaast helpt de persoon die berichten ontvangt om te weten dat het bericht afkomstig is van de specifieke afzender en niet van iemand die de afzender moet zijn. Om dit te doen, bieden S/MIME-beveiliging voor cryptografische beveiligingsservices zoals verificatie, integriteit van berichten en non-afwijzing van oorsprong (met behulp van digitale handtekeningen). Dit helpt ook privacy en gegevensbeveiliging te verbeteren (met versleuteling) voor elektronische berichten. Zie [S/MIME-informatie](https://docs.microsoft.com/previous-versions/tn-archive/aa995740(v=exchg.65))voor een uitgebreide achtergrondinformatie over de geschiedenis en architectuur van s/mime in de context van e-mail.
 
-Als Exchange Online-beheerder u s/MIME-gebaseerde beveiliging inschakelen voor de postvakken in uw organisatie. Gebruik de richtlijnen in de onderwerpen die hier zijn gekoppeld samen met Exchange Online PowerShell om S/MIME in te stellen. Als u S/MIME wilt gebruiken in ondersteunde e-mailclients, moeten de gebruikers in uw organisatie certificaten hebben uitgegeven voor ondertekenings- en versleutelingsdoeleinden en gegevens die zijn gepubliceerd op uw on-premises Active Directory Domain Service (AD DS). Uw AD DS moet zich bevinden op computers op een fysieke locatie die u bestuurt en niet op een externe faciliteit of cloudservice ergens op het internet. Zie Overzicht van [Active Directory Domain Services](https://docs.microsoft.com/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)voor meer informatie over AD DS.
+Als Exchange Online-beheerder kunt u de beveiliging S/MIME op basis van de postvakken in uw organisatie inschakelen. Volg de richtlijnen in de onderstaande onderwerpen, samen met Exchange Online PowerShell om S/MIME in te stellen. Als u S/MIME in ondersteunde e-mailclients wilt gebruiken, moeten de gebruikers in uw organisatie certificaten hebben die zijn afgegeven voor ondertekening en versleuteling, en gegevens die worden gepubliceerd in uw on-premises Active Directory Domain Services (AD DS). De AD DS moet zich bevinden op een fysieke locatie die u bestuurt, en niet op een externe locatie of op de cloud gebaseerde service van een andere locatie op internet. Zie [overzicht van Active Directory Domain Services](https://docs.microsoft.com/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)voor meer informatie over AD DS.
 
 ## <a name="supported-scenarios-and-technical-considerations"></a>Ondersteunde scenario's en technische overwegingen
 
-U S/MIME instellen om met een van de volgende eindpunten te werken:
+U kunt S/MIME instellen voor gebruik met een van de volgende eindpunten:
 
-- Outlook 2010 of hoger
-
-- Outlook op de web (voorheen bekend als Outlook Web App)
-
+- Outlook 2010 of later
+- De webversie van Outlook (voorheen Outlook Web app)
 - Exchange ActiveSync (EAS)
 
-De stappen die u volgt om S/MIME in te stellen met elk van deze eindpunten zijn iets anders. Over het algemeen moet u de volgende stappen uitvoeren:
+De stappen die u volgt om S/MIME in te stellen met elk van deze eindpunten, wijken af enigszins af. In het algemeen dient u de volgende stappen uit te voeren:
 
-1. Installeer een op Windows gebaseerde certificeringsinstantie en stel een openbare sleutelinfrastructuur in om S/MIME-certificaten uit te geven. Certificaten die zijn uitgegeven door externe certificaatproviders worden ook ondersteund. Zie Overzicht van [Active Directory Certificate Services](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831740(v=ws.11))voor meer informatie.
+1. Een certificeringsinstantie (CA) voor Windows installeren en een openbare sleutelinfrastructuur instellen voor het verlenen van S/MIME-certificaten. Certificaten die worden verstrekt door leveranciers van derden worden ook ondersteund. Zie [overzicht van Active Directory Certificate Services](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831740(v=ws.11))voor meer informatie.
 
-2. Publiceer het gebruikerscertificaat in een on-premises AD DS-account in de kenmerken **UserSMIMECertificate** en/of **UserCertificate.**
+   **Opmerkingen**:
 
-3. Synchroniseer voor Exchange Online-organisaties de gebruikerscertificaten van AD DS naar Azure Active Directory met behulp van een geschikte versie van Azure AD Connect. Deze certificaten worden vervolgens gesynchroniseerd van Azure Active Directory naar Exchange Online-map en worden gebruikt bij het versleutelen van een bericht naar een ontvanger.
+   - Certificaten die zijn uitgegeven door een externe certificeringsinstantie, bieden het voordeel dat ze automatisch worden vertrouwd door alle clients en apparaten. Certificaten die zijn uitgegeven door een interne, persoonlijke certificeringsinstantie, worden niet automatisch vertrouwd door clients en apparaten, en niet alle apparaten (bijvoorbeeld telefoons) kunnen worden geconfigureerd om persoonlijke certificaten te vertrouwen.
 
-4. Stel een virtuele certificaatverzameling in om S/MIME te valideren. Deze informatie wordt gebruikt door de webversie van Outlook bij het valideren van de handtekening van een e-mail en ervoor te zorgen dat deze is ondertekend door een vertrouwd certificaat.
+   - Overweeg om een tussenliggend certificaat te gebruiken in plaats van het basiscertificaat om certificaten te verlenen aan gebruikers. Op die manier kunt u, als u de certificaten ooit opnieuw moet intrekken en opnieuw uitgeven, de basis certificering blijft behouden.
 
-5. Stel het eindpunt van Outlook of EAS in om S/MIME te gebruiken.
+2. Publiceer het gebruikerscertificaat in een on-premises AD DS-account in de **UserSMIMECertificate** -en **UserCertificate** -kenmerken.
+
+3. Voor Exchange Online-organisaties synchroniseert u de gebruikerscertificaten van AD DS naar Azure Active Directory met een juiste versie van Azure AD Connect. Deze certificaten worden vervolgens gesynchroniseerd vanuit Azure Active Directory naar de map Exchange Online en worden gebruikt wanneer een bericht wordt versleuteld naar een geadresseerde.
+
+4. Stel een virtuele certificaat verzameling in om S/MIME te valideren. Deze informatie wordt door de webversie van Outlook gebruikt bij het valideren van de handtekening van een e-mailbericht en ervoor te zorgen dat deze door een vertrouwd certificaat is ondertekend.
+
+5. Het eindpunt van Outlook of EA'S instellen voor gebruik van S/MIME.
 
 > [!NOTE]
-> U S/MIME-besturingselementen niet installeren in het web van Outlook op Mac, iOS, Android of andere niet-Windows-apparaten. Zie [Berichten versleutelen met S/MIME in de webversie van Outlook voor](https://support.microsoft.com/office/878c79fc-7088-4b39-966f-14512658f480)meer informatie.
+> U kunt S/MIME-besturing niet installeren in de webversie van Outlook op een Mac-, iOS-, Android-of ander niet-Windows-apparaat. Zie [berichten versleutelen met S/MIME in de webversie van Outlook](https://support.microsoft.com/office/878c79fc-7088-4b39-966f-14512658f480)voor meer informatie.
 
 ## <a name="setup-smime-with-outlook-on-the-web"></a>S/MIME instellen met de webversie van Outlook
 
 Het instellen van S/MIME voor Exchange Online met de webversie van Outlook omvat de volgende belangrijke stappen:
 
 1. [S/MIME-instellingen voor de webversie van Outlook configureren](configure-s-mime-settings-for-outlook-web-app.md)
-
 2. [Verzameling van virtuele certificaten instellen om S/MIME te valideren](set-up-virtual-certificate-collection-to-validate-s-mime.md)
-
 3. [Gebruikerscertificaten synchroniseren met Office 365 voor S/MIME](sync-user-certificates-to-office-365-for-s-mime.md)
 
-## <a name="related-message-encryption-technologies"></a>Gerelateerde technologie voor het versleutelen van berichten
+## <a name="related-message-encryption-technologies"></a>Technologieën voor gerelateerde berichten versleutelen
 
-Naarmate berichtbeveiliging belangrijker wordt, moeten beheerders de principes en concepten van veilige berichten begrijpen. Dit inzicht is vooral belangrijk vanwege de groeiende verscheidenheid aan beschermingsgerelateerde technologieën (waaronder S/MIME) die beschikbaar zijn. Zie Inzicht in [S/MIME](https://docs.microsoft.com/previous-versions/tn-archive/aa995740(v=exchg.65))voor meer informatie over S/MIME en hoe deze werkt in de context van e-mail. Een verscheidenheid aan versleutelingstechnologieën werkt samen om bescherming te bieden voor berichten in rust en onderweg. S/MIME kan gelijktijdig werken met de volgende technologieën, maar is er niet van afhankelijk:
+Aangezien de beveiliging van een bericht belangrijker wordt, moeten beheerders de principes en concepten van beveiligde berichten begrijpen. Dit is met name belangrijk vanwege de groeiende uiteenlopende technologieën van de bescherming en de beschikbaarheid van technologieën (waaronder S/MIME). Als u meer wilt weten over S/MIME en de werking van de e-mail, raadpleegt u [S/MIME](https://docs.microsoft.com/previous-versions/tn-archive/aa995740(v=exchg.65)). Tal van versleutelings technologieën werken samen voor een betere bescherming tegen de rest en in de transit. S/MIME kan tegelijk met de volgende technologieën werken, maar is niet afhankelijk van de technologieën:
 
-- **Transport Layer Security (TLS)** versleutelt de tunnel of de route tussen e-mailservers om pottenkijkers en afluisteren te voorkomen.
+- **TLS (Transport Layer Security)** versleutelt de tunnel of route tussen e-mailservers om te voorkomen dat u kunt luisteren en luisteren.
 
-- **Secure Sockets Layer (SSL)** versleutelt de verbinding tussen e-mailclients en Microsoft 365-servers.
+- **Secure Sockets Layer (SSL)** versleutelt de verbinding tussen e-mailclients en microsoft 365-servers.
 
-- **BitLocker** versleutelt de gegevens op een harde schijf in een datacenter, zodat als iemand ongeautoriseerde toegang krijgt, deze niet kan worden gelezen.
+- **BitLocker** versleutelt de gegevens op een harde schijf in een datacenter, zodat de persoon deze niet kan lezen als iemand onbevoegd toegang krijgt.
 
-### <a name="smime-compared-with-office-365-message-encryption"></a>S/MIME vergeleken met Office 365-berichtversleuteling
+### <a name="smime-compared-with-office-365-message-encryption"></a>S/MIME vergeleken met Office 365-bericht versleuteling
 
-S/MIME vereist een certificaat- en publicatie-infrastructuur die vaak wordt gebruikt in business-to-business- en business-to-consumer-situaties. De gebruiker beheert de cryptografische sleutels in S/MIME en kan kiezen of deze worden gebruikt voor elk bericht dat ze verzenden. E-mailprogramma's zoals Outlook zoeken op een vertrouwde locatie van de rootcertificaatautoriteit om de handtekening digitaal te ondertekenen en te verifiëren. Office 365 Message Encryption is een beleidsgebaseerde versleutelingsservice die kan worden geconfigureerd door een beheerder en niet door een individuele gebruiker, om e-mail te versleutelen die naar iemand binnen of buiten de organisatie wordt verzonden. Het is een online service die is gebouwd op Azure Rights Management (RMS) en niet afhankelijk is van een infrastructuur met openbare sleutels. Office 365 Message Encryption biedt ook extra mogelijkheden, zoals de mogelijkheid om de e-mail aan te passen aan het merk van de organisatie. Zie [Versleuteling in Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption)voor meer informatie over Office 365-berichtversleuteling.
+S/MIME vereist een certificaat-en publicatie-infrastructuur die vaak wordt gebruikt in Business-to-Business en zaken-naar-consument. De gebruiker beheert de cryptografiesleutels in S/MIME en kan kiezen of ze ze gebruiken voor elk bericht dat ze verzenden. E-mailprogramma's, zoals Outlook, zoeken naar een vertrouwde basiscertificeringsinstantie van een certificeringsinstantie om digitale ondertekening en verificatie van de handtekening uit te voeren. Office 365-bericht versleuteling is een beleidstoepassing die kan worden geconfigureerd door een beheerder, en geen afzonderlijke gebruiker, om e-mail te versleutelen die naar iedereen binnen of buiten de organisatie is verzonden. Het is een online dienst die is gebaseerd op Azure Rights Management (RMS) en die niet is gebaseerd op de infrastructuur van openbare sleutel. Office 365-bericht versleuteling biedt ook extra mogelijkheden, zoals de mogelijkheid om het e-mailadres aan te passen met het merk van uw organisatie. Zie voor meer informatie over het versleutelen van Office 365-berichten [versleutelen in Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption).
 
 ## <a name="more-information"></a>Meer informatie
 
-[Webversie van Outlook](https://docs.microsoft.com/exchange/exchange-admin-center)
+[De webversie van Outlook](https://docs.microsoft.com/exchange/exchange-admin-center)
 
-[Beveiligde e-mail (2000)](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc962043(v=technet.10))
+[E-mail beveiligen (2000)](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc962043(v=technet.10))

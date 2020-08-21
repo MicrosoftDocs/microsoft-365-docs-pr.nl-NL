@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie over het gebruik van de portal voor uitnodigingen van de beveiligings & nalevings centrum voor het verzenden van verdachte e-mailberichten, verdachte e-mailberichten, spam en andere mogelijk schadelijke berichten, Url's en bestanden aan Microsoft voor het scannen.
-ms.openlocfilehash: 4d0737d881334db9cc4aeda43037ab89d7444618
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 1b3715e3ed6f0472d9202573ff0cab92f7240ffa
+ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577868"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845964"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Gebruik beheer ter verzending om verdachte spam, phishing, Url's en bestanden bij Microsoft te verzenden.
 
@@ -52,11 +52,9 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 ## <a name="report-suspicious-content-to-microsoft"></a>Verdachte inhoud rapporteren aan Microsoft
 
-1. Ga in het beveiligings & compliance naar beheerberichten voor **risicobeheer** door \> **geven** \> **Admin submission messages**.
+1. Ga in het beveiligings & compliance naar uitnodigingen voor **risicobeheer** \> **Submissions**, ga na of u het tabblad **admin-submissies** gebruikt, en klik vervolgens op **nieuwe indiening**.
 
-2. Op de pagina **items** die wordt weergegeven, klikt u op de knop **nieuwe aanvraag** .
-
-3. Gebruik de nieuwe flyout voor **indienen** die wordt weergegeven om het bericht, de URL of de bijlage te verzenden, zoals beschreven in de volgende secties.
+2. Gebruik de nieuwe flyout voor **indienen** die wordt weergegeven om het bericht, de URL of de bijlage te verzenden, zoals beschreven in de volgende secties.
 
 ### <a name="submit-a-questionable-email-to-microsoft"></a>Een dubieuze e-mail naar Microsoft verzenden
 
@@ -114,9 +112,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 ## <a name="view-admin-submissions"></a>Beheerders inzendingen weergeven
 
-1. Ga in het beveiligings & compliance naar beheerberichten voor **risicobeheer** door \> **geven** \> **Admin submission messages**.
-
-2. Op de pagina **items** die wordt weergegeven, controleert u of het tabblad **beheerder submissies** is geselecteerd.
+Ga in het beveiligings & compliance naar uitnodigingen voor **risicobeheer** \> **Submissions**, ga na of u het tabblad **admin-submissies** gebruikt, en klik vervolgens op **nieuwe indiening**.
 
 Boven aan de pagina kunt u een begindatum, een einddatum en (standaard) filteren met **id voor indienen** (een GUID-waarde die is toegewezen aan elke verzending) door een waarde in te voeren in het vak en op de ![ knop Vernieuwen te klikken ](../../media/scc-quarantine-refresh.png) . U kunt meerdere waarden opgeven, gescheiden door komma's.
 
@@ -152,7 +148,7 @@ U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe t
 - **Typebesturingselement**
 - **Besturingselementbron**
 
-  <sup>\*</sup>Als u op deze waarde klikt, wordt er meer informatie weergegeven in een flyout.
+  <sup>\*</sup> Als u op deze waarde klikt, wordt er meer informatie weergegeven in een flyout.
 
 ### <a name="view-admin-url-submissions"></a>Ingediende items van de beheerders-URL weergeven
 
@@ -167,7 +163,7 @@ U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe t
 - **Type levering**
 - **Status**<sup>\*</sup>
 
-  <sup>\*</sup>Als u op deze waarde klikt, wordt er meer informatie weergegeven in een flyout.
+  <sup>\*</sup> Als u op deze waarde klikt, wordt er meer informatie weergegeven in een flyout.
 
 ### <a name="view-admin-attachment-submissions"></a>Ingediende beheerders bijlagen weergeven
 
@@ -182,15 +178,15 @@ U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe t
 - **Type levering**
 - **Status**<sup>\*</sup>
 
-  <sup>\*</sup>Als u op deze waarde klikt, wordt er meer informatie weergegeven in een flyout.
+  <sup>\*</sup> Als u op deze waarde klikt, wordt er meer informatie weergegeven in een flyout.
 
 ## <a name="view-user-submissions-to-microsoft"></a>Naar Microsoft verzonden gebruikers inzendingen weergeven
 
 Als u de [invoegtoepassing bericht rapporteren](enable-the-report-message-add-in.md)hebt geïmplementeerd of personen de [ingebouwde rapporten gebruiken in de webversie van Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md), kunt u zien wat gebruikers rapporteren op het tabblad **gebruikers** namen.
 
-1. Ga in het beveiligings & compliance naar beheerberichten voor **risicobeheer** door \> **geven** \> **Admin submission messages**.
+1. Ga in het beveiligings & compliance naar inzendingen van **risicobeheer** \> **Submissions**.
 
-2. Op de pagina **items** die wordt weergegeven, klikt u op het tabblad **gebruikers items** .
+2. Selecteer het tabblad **gebruikers submissies** en klik vervolgens op **nieuwe verzending**.
 
 U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe te voegen aan of te verwijderen uit de weergave:
 
@@ -201,7 +197,7 @@ U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe t
 - **IP van afzender**<sup>\*</sup>
 - **Type levering**
 
-<sup>\*</sup>Als u op deze waarde klikt, wordt er meer informatie weergegeven in een flyout.
+<sup>\*</sup> Als u op deze waarde klikt, wordt er meer informatie weergegeven in een flyout.
 
 Boven aan de pagina kunt u een begindatum, een einddatum en (standaard) u kunt filteren op **afzender** door een waarde in te voeren in het vak en op de ![ knop Vernieuwen te klikken ](../../media/scc-quarantine-refresh.png) . U kunt meerdere waarden opgeven, gescheiden door komma's.
 
@@ -221,9 +217,9 @@ Als u de resultaten wilt exporteren, klikt u boven aan de pagina op **exporteren
 
 Als u [een aangepast postvak hebt geconfigureerd](user-submission.md) om door de gebruiker gerapporteerde berichten te ontvangen, kunt u berichten weergeven en ook verzenden die zijn bezorgd in het rapportage postvak.
 
-1. Ga in het beveiligings & compliance naar beheerberichten voor **risicobeheer** door \> **geven** \> **Admin submission messages**.
+1. Ga in het beveiligings & compliance naar inzendingen van **risicobeheer** \> **Submissions**.
 
-2. Op de pagina **items** die wordt weergegeven, klikt u op het tabblad **aangepast postvak** .
+2. Selecteer het tabblad **aangepast postvak** .
 
 U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe te voegen aan of te verwijderen uit de weergave:
 
