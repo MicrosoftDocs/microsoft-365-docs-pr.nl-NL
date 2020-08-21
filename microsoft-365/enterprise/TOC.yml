@@ -610,7 +610,7 @@
         - name: Voeg een domein toe aan de tenancy van een client met Windows PowerShell voor gedelegeerde Access-partners
           href: add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-pe.md
         - name: Verbinding maken met Exchange Online via externe Windows PowerShell voor gedelegeerde Access-partners
-          href: connect-to-exchange-online-tenants-with-remote-windows-powershell-for-delegated.md
+          href: 'https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell'
         - name: Rapportgegevens van klanten ophalen via Windows PowerShell voor gedelegeerde Access-partners
           href: retrieve-customer-tenant-reporting-data-with-windows-powershell-for-delegated-ac.md
     - name: Microsoft Teams beheren
