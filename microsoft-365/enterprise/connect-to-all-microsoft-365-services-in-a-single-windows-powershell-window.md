@@ -17,7 +17,7 @@ ms.custom:
 - O365ITProTrain
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
-description: 'Samenvatting: verbindt Windows PowerShell met alle Microsoft 365-services in één Windows PowerShell-venster.'
+description: 'Samenvatting: Verbind Windows PowerShell met alle Microsoft 365-services in één Windows PowerShell-venster.'
 ms.openlocfilehash: d4e4bf6ec07ee4a0a5b2f8cb1c83ffacd221eaa0
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: HT
@@ -27,11 +27,11 @@ ms.locfileid: "46689304"
 ---
 # <a name="connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window"></a>Verbinding maken met alle Microsoft 365-services in één Windows PowerShell-venster
 
-Wanneer u PowerShell gebruikt om Microsoft 365 te beheren, is het mogelijk om maximaal vijf verschillende Windows PowerShell-sessies tegelijkertijd open te hebben die overeenkomen met het Microsoft 365-beheercentrum, SharePoint Online, Exchange Online, Skype voor Bedrijven Online, Microsoft Teams en het Beveiligings &amp;-compliancecentrum. Met vijf verschillende verbindingsmethoden in afzonderlijke Windows PowerShell-sessies kan het bureaublad er zo uitzien:
+Wanneer u PowerShell gebruikt om Microsoft 365 te beheren, is het mogelijk om maximaal vijf verschillende Windows PowerShell-sessies tegelijkertijd open te hebben die overeenkomen met het Microsoft 365-beheercentrum, SharePoint Online, Exchange Online, Skype voor Bedrijven Online, Microsoft Teams en het Beveiligings- en compliancecentrum. Met vijf verschillende verbindingsmethoden in afzonderlijke Windows PowerShell-sessies kan het bureaublad er zo uitzien:
   
 ![Vijf Windows PowerShell-consoles die tegelijk worden uitgevoerd](../media/a1a852c2-89ea-4e8e-8d8b-dcdf596763d1.png)
   
-Dit is niet optimaal voor het beheer van Microsoft 365, omdat u geen gegevens kunt uitwisselen tussen die vijf vensters voor servicebeheer. In dit onderwerp wordt beschreven hoe u één exemplaar van Windows PowerShell gebruikt van waaruit u Microsoft 365-accounts, Skype voor Bedrijven Online, Exchange Online, SharePoint Online, Microsoft Teams en het Beveiligings &amp;-compliancecentrum kunt beheren.
+Dit is niet optimaal voor het beheer van Microsoft 365, omdat u geen gegevens kunt uitwisselen tussen die vijf vensters voor servicebeheer. In dit onderwerp wordt beschreven hoe u één instantie van Windows PowerShell gebruikt van waaruit u Microsoft 365-accounts, Skype voor Bedrijven Online, Exchange Online, SharePoint Online, Microsoft Teams en het Beveiligings- en compliancecentrum kunt beheren.
 
 >[!Note]
 >Dit artikel bevat momenteel alleen de opdrachten om verbinding te maken met de wereldwijde (+GCC) cloud. Aanvullende notities bevatten koppelingen naar artikelen met informatie over het maken van verbinding met de andere Microsoft 365-clouds.
@@ -69,9 +69,9 @@ Voordat u Microsoft 365 vanuit één exemplaar van Windows PowerShell kunt beher
    - [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251)
    - [Skype voor Bedrijven Online, Windows PowerShell-module](https://go.microsoft.com/fwlink/p/?LinkId=532439)
    - [Exchange Online PowerShell V2](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
-   - [Overzicht van Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
+   - [Overzicht van PowerShell voor Teams](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
     
--  Windows PowerShell moet worden geconfigureerd voor het uitvoeren van ondertekende scripts voor Skype voor Bedrijven Online en Het Beveiligings &amp;-compliancecentrum. U doet dit door de volgende opdracht uit te voeren in een verhoogde Windows PowerShell-sessie (een Windows PowerShell-venster dat u opent door **Als administrator uitvoeren** te selecteren).
+-  Windows PowerShell moet worden geconfigureerd voor het uitvoeren van ondertekende scripts voor Skype voor Bedrijven Online en het Beveiligings- en compliancecentrum. U doet dit door de volgende opdracht uit te voeren in een Windows PowerShell-sessie met verhoogde bevoegdheden (een Windows PowerShell-venster dat u opent door **Als administrator uitvoeren** te selecteren).
     
    ```powershell
    Set-ExecutionPolicy RemoteSigned
@@ -95,23 +95,23 @@ Hier volgen de stappen voor het maken van verbinding met alle services in één 
    Connect-AzureAD -Credential $credential
    ```
   
-   Als u de Microsoft Azure Active Directory-module voor Windows PowerShell-module gebruikt, voert u deze opdracht uit.
+   Als u de Microsoft Azure Active Directory-module voor Windows PowerShell gebruikt, voert u deze opdracht uit.
       
    ```powershell
    Connect-MsolService -Credential $credential
    ```
 
    > [!Note]
-   > PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell-module en cmdlets met **Msol** in hun naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
+   > PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell en cmdlets met **Msol** in hun naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
 
-4. Voer deze opdrachten uit om verbinding te maken met SharePoint Online. Geef de naam van de organisatie op voor uw domein. Voor bijvoorbeeld 'litwareinc.onmicrosoft.com' is de waarde van de organisatienaam 'litwareinc'.
+4. Voer deze opdrachten uit om verbinding te maken met SharePoint Online. Geef de naam van de organisatie op voor uw domein. Voor 'litwareinc.onmicrosoft.com' is de waarde van de organisatienaam bijvoorbeeld 'litwareinc'.
     
    ```powershell
    $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
    Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $userCredential
    ```
 
-5. Voer deze opdrachten uit om verbinding te maken met Skype voor Bedrijven Online. Een waarschuwing over het verhogen van de `WSMan NetworkDelayms`-waarde wordt verwacht de eerste keer dat u verbinding maakt; deze moet worden genegeerd.
+5. Voer deze opdrachten uit om verbinding te maken met Skype voor Bedrijven Online. Een waarschuwing over het verhogen van de `WSMan NetworkDelayms`-waarde wordt verwacht als u voor het eerst verbinding maakt; deze waarschuwing kunt u negeren.
      
    ```powershell
    Import-Module SkypeOnlineConnector
@@ -126,9 +126,9 @@ Hier volgen de stappen voor het maken van verbinding met alle services in één 
    ```
 
    > [!Note]
-   > Als u verbinding wilt maken met Exchange Online voor Microsoft 365-clouds anders dan wereldwijd, gebruikt u de **ExchangeEnvironmentName**-parameter. Zie [Connect-ExchangeOnline](https://docs.microsoft.com/powershell/module/exchange/powershell-v2-module/connect-exchangeonline?view=exchange-ps) voor meer informatie.
+   > Als u verbinding wilt maken met andere Exchange Online voor Microsoft 365-clouds dan 'Worldwide', gebruikt u de **ExchangeEnvironmentName**-parameter. Zie [Verbinding maken met Exchange Online](https://docs.microsoft.com/powershell/module/exchange/powershell-v2-module/connect-exchangeonline?view=exchange-ps) voor meer informatie.
 
-7. Voer deze opdrachten uit om verbinding te maken met Teams PowerShell.
+7. Voer deze opdrachten uit om verbinding te maken met PowerShell voor Teams.
     
    ```powershell
    Import-Module MicrosoftTeams
@@ -136,9 +136,9 @@ Hier volgen de stappen voor het maken van verbinding met alle services in één 
    ```
   
    > [!Note]
-   > Zie [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) om verbinding te maken met andere Microsoft Teams-clouds dan wereldwijd.
+   > Zie [Verbinding maken met Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) om verbinding te maken met andere Microsoft Teams-clouds dan 'Worldwide'.
 
-8. Voer deze opdrachten uit om verbinding te maken met het Beveiligings &amp;-compliancecentrum.
+8. Voer deze opdrachten uit om verbinding te maken met het Beveiligings- en compliancecentrum.
     
    ```powershell
    $SccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $credential -Authentication "Basic" -AllowRedirection
@@ -146,7 +146,7 @@ Hier volgen de stappen voor het maken van verbinding met alle services in één 
    ```
 
    > [!Note]
-   > Zie [Verbinding maken met Beveiligings- en compliancecentrum PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) om verbinding te maken met het Security &amp; compliancecentrum voor Microsoft 365-clouds anders dan wereldwijd.
+   > Raadpleeg dit artikel over [het verbinding maken met Powershell voor het Beveiligings- en compliancecentrum](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) (Engelstalig) om verbinding te maken met het Beveiligings- en compliancecentrum voor andere Microsoft 365-clouds dan 'Worldwide'.
 
 Hier vindt u alle opdrachten in één blok wanneer u de Azure Active Directory PowerShell voor Graph-module gebruikt. Geef de naam op van uw domeinhost en voer ze allemaal tegelijk uit.
   
@@ -166,7 +166,7 @@ Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
 
-Als alternatief zijn hier alle opdrachten in één blok bij gebruik van de Microsoft Azure Active Directory-module voor Windows PowerShell-module. Geef de naam op van uw domeinhost en voer ze allemaal tegelijk uit.
+Als alternatief zijn hier alle opdrachten in één blok bij gebruik van de Microsoft Azure Active Directory-module voor Windows PowerShell. Geef de naam op van uw domeinhost en voer ze allemaal tegelijk uit.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -184,7 +184,7 @@ Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
 
-Wanneer u klaar bent om het Windows PowerShell-venster te sluiten, voert u deze opdracht uit om de actieve sessies naar Skype voor Bedrijven Online, SharePoint Online, het Security &amp;-nalevingscentrum en Teams te verwijderen:
+Wanneer u klaar bent om het Windows PowerShell-venster te sluiten, voert u deze opdracht uit om de actieve sessies naar Skype voor Bedrijven Online, SharePoint Online, het Beveiligings- en compliancecentrum en Teams te verwijderen:
   
 ```powershell
 Remove-PSSession $sfboSession ; Remove-PSSession $SccSession ; Disconnect-SPOService ; Disconnect-MicrosoftTeams 
@@ -211,7 +211,7 @@ Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
 
-Als alternatief zijn hier alle opdrachten bij gebruik van de Microsoft Azure Active Directory-module voor Windows PowerShell-module.
+Als alternatief zijn hier alle opdrachten bij gebruik van de Microsoft Azure Active Directory-module voor Windows PowerShell.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -230,7 +230,7 @@ Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
 
-Zie voor het Beveiligings &amp;-compliancecentrum [Verbinding maken met Beveiligings- en compliancecentrum PowerShell met behulp van meervoudige verificatie](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell?view=exchange-ps) om verbinding te maken met behulp van meervoudige verificatie:
+Zie voor het Beveiligings- en compliancecentrum dit artikel over [het verbinding maken met Powershell voor het Beveiligings- en compliancecentrum met behulp van meervoudige verificatie](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell?view=exchange-ps) (Engelstalig) om verbinding te maken met behulp van meervoudige verificatie:
 
 ## <a name="see-also"></a>Zie ook
 
