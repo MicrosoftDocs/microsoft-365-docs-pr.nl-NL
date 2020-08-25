@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 search.appverid:
 - MET150
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Beheerders kunnen meer informatie krijgen over hoe Exchange Online Protection (EOP) e-mailverificatie (SPF, DKIM en DMARC) gebruikt om adresvervalsing, phishing en spam te helpen voorkomen.
-ms.openlocfilehash: c79a75f1ae520a0c4f885c923b4a56cdb0f7fb87
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: cc9489a258608080118e88bf1375e4d5f35f8c77
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209497"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826647"
 ---
 # <a name="email-authentication-in-eop"></a>E-mailverificatie in EOP
 
@@ -41,7 +41,7 @@ In de rest van dit artikel wordt uitgelegd hoe deze technologieën werken en hoe
 
 ## <a name="use-email-authentication-to-help-prevent-spoofing"></a>E-mailverificatie gebruiken om spoofing te voorkomen
 
-DMARC voorkomt spoofing door het **Van**-adres te onderzoeken in berichten (het e-mailadres van de afzender dat gebruikers zien in de e-mailclient). Ontvangende e-mailorganisaties kunnen ook controleren of het e-maildomein door SPF of DKIM is geverifieerd, wat betekent dat het domein is geverifieerd en dus niet is vervalst. 
+DMARC voorkomt spoofing door het **Van**-adres te onderzoeken in berichten (het e-mailadres van de afzender dat gebruikers zien in de e-mailclient). Ontvangende e-mailorganisaties kunnen ook controleren of het e-maildomein door SPF of DKIM is geverifieerd, wat betekent dat het domein is geverifieerd en dus niet is vervalst.
 
 Het probleem is echter dat SPF-, DKIM- en DMARC-records in DNS voor e-mailverificatie (gezamenlijk bekend als e-mailverificatiebeleid) volledig optioneel zijn. Daarom zijn domeinen met een sterk verificatiebeleid zoals microsoft.com en skype.com beschermd tegen adresvervalsing, maar domeinen die een zwakker verificatiebeleid hanteren, of helemaal geen beleid, zijn doelen om te worden vervalst.
 
@@ -61,7 +61,7 @@ Zie [A Sea of Phish Part 2 - Enhanced Anti-spoofing in Microsoft 365](https://te
 
 Hoewel SPF, DKIM en DMARC op zichzelf allemaal nuttig zijn, geven ze niet genoeg verificatie-informatie wanneer een bericht geen expliciete verificatierecords heeft. Microsoft heeft een algoritme voor impliciete e-mailverificatie ontwikkeld waarin meerdere signalen worden gecombineerd tot één waarde met de naam _samengestelde verificatie_, of compauth. De compauth-waarde wordt in de koptekst **verificatie-resultaten** in de berichtkoppen gestempeld.
 
-> Verificatie-resultaten:<br/>&nbsp;&nbsp;&nbsp;compauth=\<mislukt | geslaagd | softpass | geen\> reden=\<yyy\>
+> Verificatie-resultaten:<br/>&nbsp;&nbsp;&nbsp;compauth=\<fail | pass | softpass | none\> reason=\<yyy\>
 
 Deze waarden worden uitgelegd in de [berichtkop Verificatie-resultaten](anti-spam-message-headers.md#authentication-results-message-header).
 
