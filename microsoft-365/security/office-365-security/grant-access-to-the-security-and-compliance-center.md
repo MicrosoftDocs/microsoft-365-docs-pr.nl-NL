@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: Gebruikers moeten zijn toegewezen machtigingen in het Microsoft 365-beveiligings & nalevings centrum voordat ze de functies voor beveiliging of compliance kunnen beheren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d21fef9458c02bd09d6d5ce2129b95571e0f8371
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: b51007221257b9adac46c31295e13b20b12342ab
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826599"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868919"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>Gebruikers toegang geven tot de beveiligings & nalevings centrum
 
@@ -42,54 +42,48 @@ Als u meer wilt weten over de verschillende machtigingen die u aan gebruikers ku
 
 - Machtigingen voor gedelegeerde toegangsmachtigingen (DAP) met de machtiging beheren namens (AOBO) hebben geen toegang tot de beveiligings & nalevings centrum.
 
-## <a name="use-the-admin-center-to-give-another-user-access-to-the-security--compliance-center"></a>Met het Beheercentrum kunt u een andere gebruiker toegang geven tot de beveiligings & nalevings centrum
+## <a name="use-the-security--compliance-center-to-give-another-user-access-to-the-security--compliance-center"></a>Met behulp van het beveiligings & nalevings centrum kunt u een andere gebruiker toegang geven tot de beveiligings & nalevings centrum
 
-1. [Meld u aan en ga naar het Beheercentrum](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center).
+1. Open het beveiligings & nalevings centrum aan <https://protection.office.com> en ga vervolgens naar **machtigingen**. Ga direct naar het tabblad **machtigingen** en open <https://protection.office.com/permissions> .
 
-2. Open in het Microsoft 365-Beheercentrum **beheer centra** en klik vervolgens op **beveiliging & naleving**.
+2. Kies in de lijst met rollen groepen de rollen groep en klik vervolgens op het **Edit** ![ pictogram bewerken bewerken ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) .
 
-3. Ga in het beveiligings & nalevings centrum naar **machtigingen**.
+3. Klik op de pagina eigenschappen van rollen groep **Members**, onder leden **, op** ![ pictogram toevoegen ](../../media/ITPro-EAC-AddIcon.gif) en selecteer de naam van de gebruiker (s) die u wilt toevoegen.
 
-4. Kies in de lijst de rollen groep waaraan u de gebruiker wilt toevoegen en klik op het **Edit** ![ pictogram bewerken bewerken ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) .
+4. Wanneer u alle gebruikers hebt geselecteerd die u wilt toevoegen aan de rollen groep, klikt u op **toevoegen \> ** en vervolgens op **OK**.
 
-5. Klik op de pagina eigenschappen van rollen groep **Members**, onder leden **, op** ![ pictogram toevoegen ](../../media/ITPro-EAC-AddIcon.gif) en selecteer de naam van de gebruiker (s) die u wilt toevoegen.
+5. Wanneer u gereed bent, klikt u op **Opslaan**.
 
-6. Wanneer u alle gebruikers hebt geselecteerd die u wilt toevoegen aan de rollen groep, klikt u op **toevoegen \> ** en vervolgens op **OK**.
-
-7. Klik op **Opslaan** om de wijzigingen in de groep rollen op te slaan.
-
-### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
-
-1. Ga in het beveiligings & nalevings centrum naar **machtigingen**.
-
-2. Selecteer in de lijst de rollen groep om de leden weer te geven.
-
-3. Aan de rechterkant, in de groep Details van rollen, kunt u de leden van de groep rollen weergeven.
-
-## <a name="use-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>PowerShell gebruiken om een andere gebruiker toegang te geven tot de beveiligings & nalevings centrum
+## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Beveiligings & PowerShell gebruiken om een andere gebruiker toegang te geven tot de beveiligings & nalevings centrum
 
 1. [Maak verbinding met beveiliging & nalevings centrum voor PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
-2. Gebruik de opdracht **add-RoleGroupMember** om een gebruiker toe te voegen aan de rol van Organisatiebeheer, zoals in het volgende voorbeeld wordt weergegeven.
+2. Gebruik de volgende syntaxis:
+
+   ```powershell
+   Add-RoleGroupMember -Identity <RoleGroup> -Member <UserIdentity>
+
+   - _Identity_ is the role group.
+   - _Member_ is the user or universal security group (USG). You can specify only one member at a time.
+
+   This example adds MatildaS to the Organization Management role group.
 
    ```PowerShell
    Add-RoleGroupMember -Identity "Organization Management" -Member MatildaS
    ```
 
-   **Parameters**:
-
-   - _Identiteit_ is de rollen groep waaraan u een lid wilt toevoegen.
-
-   - _Lid_ is het postvak, de universele beveiligingsgroep (USG) of de computer die u wilt toevoegen aan de rollen groep. U kunt slechts één lid tegelijk opgeven.
-
-Zie [add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember)voor meer informatie over de syntaxis en parameters.
+Zie [add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember) voor gedetailleerde syntaxis-en Parameterproblemen.
 
 ### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
-Als u wilt controleren of u de gebruiker toegang wilt geven tot de beveiligings & nalevings centrum, gebruikt u de cmdlet **Get-RoleGroupMember** om de leden in de rollen groep Organisatiebeheer weer te geven, zoals in het volgende voorbeeld wordt weergegeven.
+Voer een van de volgende stappen uit om te controleren of u toegang hebt tot de beveiligings & nalevings centrum:
 
-```PowerShell
-Get-RoleGroupMember -Identity "Organization Management"
-```
+- Ga in het beveiligings & nalevings centrum naar **machtigingen** en selecteer de rolgroep. Controleer de leden van de groep rollen in het flyout Details dat wordt geopend. 
 
-Zie [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember)voor meer informatie over de syntaxis en parameters.
+- In het beveiligings & nalevings centrum voor PowerShell, vervangt u \<RoleGroupName\> de naam van de rolgroep en voert u de volgende opdracht uit:
+
+  ```powershell
+  Get-RoleGroupMember -Identity "<RoleGroupName>"
+  ```
+
+  Zie [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember)voor gedetailleerde syntaxis-en parameterinformatie.

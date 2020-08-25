@@ -16,20 +16,20 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen leren hoe u met de wizard Configuratie analyse beveiligingsbeleidsregels met instellingen onder de standaardbeveiliging en strikte beveiliging vooraf beveiligt.
-ms.openlocfilehash: 4515efcd73d40eae93523c6ef139553420e48677
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+description: Beheerders kunnen leren hoe u met de wizard Configuratie analyse beveiligingsbeleid onder de standaardbeveiliging en strikte beveiligings beleidsregels voor beveiliging kunt vinden en oplossen.
+ms.openlocfilehash: 39bec980ac95681ec2c2300914582d5e8786c884
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825771"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46867161"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-office-365-atp"></a>Configuratie analyse voor beveiligingsbeleid in EOP en Office 365 ATP
 
 > [!NOTE]
 > De functies die in dit onderwerp worden beschreven, zijn in voorbeeld, zijn niet beschikbaar in alle organisaties en zijn onderhevig aan wijzigingen.
 
-Configuratie-analyse in het compliance van beveiligings & biedt een centrale locatie voor het zoeken naar en herstellen van uw beveiligingsbeleid met instellingen die onder de standaardbeveiliging en strikte bescherming van profielinstellingen in [vooraf ingesteld beveiligingsbeleid](preset-security-policies.md)bevatten.
+Configuratie-analyse in het compliance van beveiligings & biedt een centrale locatie voor het zoeken naar en herstellen van beveiligingsbeleid waarbij de instellingen onder de standaardbeveiliging en strikte bescherming van profielinstellingen in [vooraf ingesteld beveiligingsbeleid](preset-security-policies.md).
 
 De volgende typen beleidsregels worden geanalyseerd door de Configuration Analyzer:
 
@@ -59,7 +59,7 @@ De **standaard** waarden en **strikte** beleidsinstelling waarden die worden geb
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om de procedures in dit onderwerp te kunnen uitvoeren:
+- U moet machtigingen zijn toegewezen voordat u de procedures in dit artikel kunt uitvoeren:
 
   - Als u de Configuration Analyzer wilt gebruiken **en** beveiligingsbeleidsregels wilt bijwerken, moet u lid zijn van een van de volgende groepen rollen:
 
@@ -81,7 +81,7 @@ De configuratie analyse bestaat uit twee hoofdtabbladen:
 
 - **Instellingen en aanbevelingen**: u kunt standaard of strict selecteren en deze instellingen vergelijken met uw bestaande beveiligingsbeleidsregels. In de resultaten kunt u de waarden van uw instellingen aanpassen, zodat ze op hetzelfde niveau als standaard of strikt worden weergegeven.
 
-- Configuratie van overstappen **en geschiedenis van configuratie**overstappen: in deze weergave kunt u de wijzigingen die u hebt aangebracht in de beleidsregels bijhouden op basis van de resultaten van de Configuration Analyzer.
+- Configuratie van de overstappen **en geschiedenis**van de configuratie van de overstappen, zodat u de beleidswijzigingen in de tijd kunt bijhouden.
 
 ### <a name="setting-and-recommendations-tab-in-the-configuration-analyzer"></a>Tabblad instelling en aanbevelingen in de configuratie-analyse
 
@@ -89,7 +89,7 @@ Standaard wordt het tabblad op de vergelijking met het standaardbeveiligingsprof
 
 ![De weergave van instellingen en aanbevelingen in de configuratie-analyse](../../media/configuration-analyzer-settings-and-recommendations-view.png)
 
-Standaard bevat de kolom **Beleidsgroep/naam** van gebruikersnaam een samengevouwen weergave van de verschillende typen beveiligings policies en het aantal instellingen in de beleidsregels die moeten worden verbeterd (indien aanwezig). De typen beleidsregels zijn:
+De kolom **Beleidsgroep/naam van instelling** bevat standaard een samengevouwen weergave van de verschillende typen beveiligingsbeleidsregels en het aantal instellingen dat moet worden verbeterd (indien van toepassing). De typen beleidsregels zijn:
 
 - **Anti spam**
 - **Anti phishing**
@@ -97,11 +97,11 @@ Standaard bevat de kolom **Beleidsgroep/naam** van gebruikersnaam een samengevou
 - **Veilige bijlage van ATP** (als uw abonnement de ATP omvat)
 - **Veilige koppelingen voor ATP** (als uw abonnement de ATP omvat)
 
-In de standaardweergave is alles samengevouwen. Naast elk beleid, een samenvatting van vergelijkingsresultaten van uw beleid (die u kunt wijzigen) en de instellingen in het bijbehorende beleid voor de standaard-of strikte beveiligingsprofielen (die u niet kunt wijzigen) worden weergegeven. U ziet de volgende informatie:
+In de standaardweergave is alles samengevouwen. Naast elk beleid bevindt zich een samenvatting van vergelijkingsresultaten van uw beleid (die u kunt wijzigen) en de instellingen in het bijbehorende beleid voor de standaard-of strikte beveiligingsprofielen (die u niet kunt wijzigen). U ziet de volgende informatie voor het beveiligingsprofiel waarmee u een vergelijking maakt:
 
-- **Groen**: alle instellingen in alle bestaande beleidsregels zijn ten minste veilig als het beveiligingsprofiel waarmee u gaat vergelijken.
-- **Geel**: een klein aantal instellingen in het bestaande beleid is niet veilig als het beveiligingsprofiel waarmee u gaat vergelijken.
-- **Rood**: een groot aantal instellingen in het bestaande beleid is niet beveiligd als het beveiligingsprofiel waarmee u gaat vergelijken. Dit kan een paar instellingen zijn voor veel beleidsregels of veel instellingen in één beleid.
+- **Groen**: alle instellingen in alle bestaande beleidsregels zijn ten minste veilig als het beveiligingsprofiel.
+- **Geel**: een klein aantal instellingen in het bestaande beleid is niet veilig als het beveiligingsprofiel.
+- **Rood**: een groot aantal instellingen in het bestaande beleid is niet veilig als het beveiligingsprofiel. Dit kan een paar instellingen zijn voor veel beleidsregels of veel instellingen in één beleid.
 
 Voor gunstige vergelijkingen ziet u de tekst: bij **alle instellingen volgen** de \<**Standard** or **Strict**\> **aanbevelingen**. Anders ziet u het aantal aanbevolen instellingen dat u wilt wijzigen.
 
@@ -113,7 +113,7 @@ Als de vergelijking geen aanbevelingen oplevert voor verbetering (groen), onthul
 
 - **Beleid**: de naam van het betreffende beleid dat de instelling bevat.
 
-- **Toegepast op**: het aantal gebruikers waarvoor het desbetreffende beleid wordt toegepast.
+- **Toepassen op**: het aantal gebruikers waarop het desbetreffende beleid wordt toegepast.
 
 - **Huidige configuratie**: de huidige waarde van de instelling.
 
@@ -123,7 +123,7 @@ Als de vergelijking geen aanbevelingen oplevert voor verbetering (groen), onthul
 
 ### <a name="configuration-drift-analysis-and-history-tab-in-the-configuration-analyzer"></a>Configuratie van configuratie van drijfman en historie van configuratie-analyse
 
-Op dit tabblad kunt u de wijzigingen die u hebt aangebracht in uw aangepaste beveiligingsbeleid bijhouden op basis van de gegevens in de Security Analyzer. Standaard wordt de volgende informatie weergegeven:
+Op dit tabblad kunt u de wijzigingen bijhouden die u in uw aangepaste beveiligingsbeleid hebt aangebracht. Standaard wordt de volgende informatie weergegeven:
 
 - **Laatst gewijzigd**
 - **Gewijzigd door**

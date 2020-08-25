@@ -1,7 +1,7 @@
 ---
-title: Gegevensbewaking & rapportage - Security center
-description: Lees hoe u gebruikersactiviteiten bijhouden die kunnen leiden tot ongeautoriseerde openbaarmaking van gegevens in het Beveiligingscentrum van Microsoft 365.
-keywords: beveiliging, malware, Microsoft 365, M365, security center, monitor, rapport, gegevens
+title: Gegevens bewaking & rapportage-Beveiligingscentrum
+description: In dit artikel leest u hoe u gebruikersactiviteiten kunt bijhouden die kunnen leiden tot gegevensverstrekking in Microsoft 365 Beveiligingscentrum.
+keywords: beveiliging, malware, Microsoft 365, M365, beveiliging centrum, monitor, rapport, gegevens
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -15,22 +15,22 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9bb0a7d0ce7def52089ec64a35edc5a2475b342
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 79113aa4097da26a3a12a9ed99b1c5a8b3ad3d81
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034008"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866741"
 ---
-# <a name="data-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Gegevensbewaking en -rapportage in het Microsoft 365-beveiligingscentrum
+# <a name="data-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Gegevenscontrole en rapportage in het Microsoft 365-Beveiligingscentrum
 
-De categorie **Gegevens** helpt bij het bijhouden van gebruikersactiviteiten die kunnen leiden tot ongeautoriseerde openbaarmaking van gegevens. Dit zijn de herbewerking van bestaande DLP-beleidsrapporten plus een DLP-beleidsovereenkomstrapport van derden.
+De categorie **gegevens** helpt bij het traceren van gebruikersactiviteiten die kan leiden tot het vrijgeven van gegevens. Ze zijn de herwerking van bestaande DLP-beleids rapporten plus een rapport van DLP-beleids overeenkomsten van derden.
 
-U zien:
+U ziet het volgende:
 
-* Gebruikers die de meeste bestanden delen vanuit cloud-apps
-* Hoeveel DLP-beleidsovereenkomsten hebben plaatsgevonden
-* Hoeveel DLP-beleidsregels of false positives worden gerapporteerd
-* Hoeveel DLP-beleidsovereenkomsten vonden er plaats in cloudservices van derden via Microsoft Cloud App Security
+- Gebruikers die de meeste bestanden delen vanuit Cloud-apps
+- Hoeveel DLP-beleids overeenkomsten zijn opgetreden
+- Hoeveel DLP-beleids overschrijvingen of fout-positieven worden gerapporteerd
+- Hoeveel DLP-beleids overeenkomsten zijn opgetreden in cloudservices van derden via de Microsoft Cloud app-beveiliging
 
-![Gegevenscategorie van rapportenpagina](../../media/data.png)
+![De pagina gegevenscategorie van rapporten](../../media/data.png)

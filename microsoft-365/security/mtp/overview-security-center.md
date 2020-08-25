@@ -1,7 +1,7 @@
 ---
-title: Overzicht van het Microsoft 365-beveiligingscentrum
-description: Beschrijft het nieuwe huis voor het bewaken en beheren van beveiliging in uw Microsoft-identiteiten, gegevens, apparaten en apps.
-keywords: beveiliging, malware, Microsoft 365, M365, security center, monitor, rapport, identiteiten, gegevens, apparaten, apps
+title: Overzicht van het Microsoft 365-Beveiligingscentrum
+description: Een beschrijving van de nieuwe woning voor het bewaken en beheren van beveiliging voor alle Microsoft-identiteiten, gegevens, apparaten en apps.
+keywords: beveiliging, malware, Microsoft 365, M365, beveiliging centrum, monitor, rapport, Identities, gegevens, apparaten, apps
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -14,58 +14,60 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: f7357c204105772ef1780ef94f211e9d711ec735
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: f831e952b20d04796f69a6c3c00ba4d69d332951
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560881"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46867231"
 ---
-# <a name="overview-of-the-microsoft-365-security-center"></a>Overzicht van het Microsoft 365-beveiligingscentrum
+# <a name="overview-of-the-microsoft-365-security-center"></a>Overzicht van het Microsoft 365-Beveiligingscentrum
 
-Het beheren van de beveiliging van uw bedrijf om te beschermen tegen een steeds evoluerend dreigingslandschap brengt veel uitdagingen met zich mee. U hebt misschien te veel beveiligingsoplossingen met verschillende plaatsen om veel besturingselementen te configureren en weet niet welke besturingselementen het meest effectief zijn en welke nieuwe uitdagingen voor uw personeel zullen introduceren. Het kan moeilijk zijn voor beveiligingsteams om de juiste balans tussen beveiliging en productiviteit te vinden.
+Het beheren van de beveiliging van uw bedrijf om te beschermen tegen een ooit veranderende bedreiging, biedt veel uitdagingen. Misschien hebt u te veel beveiligingsoplossingen met diverse locaties om veel besturingselementen te configureren. U kunt het lastig zijn om te weten welke besturingselementen het doel treffen en wat nieuwe uitdaging is voor uw personeelsleden. Het kan lastig zijn dat beveiligings teams het juiste evenwicht van beveiliging en productiviteit ontdekken.
 
-Voer microsoft 365-beveiligingscentrum in: het nieuwe thuis voor het bewaken en beheren van beveiliging in uw Microsoft-identiteiten, gegevens, apparaten, apps en infrastructuur. Hier u eenvoudig de beveiligingsstatus van uw organisatie bekijken, reageren op het configureren van apparaten, gebruikers en apps en meldingen ontvangen voor verdachte activiteiten. Het Microsoft 365-beveiligingscentrum is specifiek bedoeld voor beveiligingsbeheerders en beveiligingsteams om hun organisatie beter te beheren en te beschermen.
+Voer Microsoft 365-Beveiligingscentrum in, de nieuwe functies voor het bewaken en beheren van beveiliging voor Microsoft identities, gegevens, apparaten, apps en infrastructuur. U kunt hier eenvoudig de beveiligingsstatus van uw organisatie bekijken, uw apparaten, gebruikers en apps configureren en waarschuwingen ontvangen voor verdachte activiteiten. Het Microsoft 365 Beveiligingscentrum is bedoeld om beveiligingsbeheerders en beveiliging van beveiligings processen te helpen bij het beheren en beveiligen van de organisatie.
 
-Het nieuwe Microsoft 365-beveiligingscentrum en [het Microsoft 365-compliancecentrum](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) zijn gespecialiseerde werkruimten die zijn ontworpen om te voldoen aan de behoeften van beveiligingsteams en complianceteams. Deze oplossingen zijn geïntegreerd in Microsoft 365-services en bieden bruikbare inzichten om risico's te verminderen en uw digitale landgoed te beschermen.
+Het nieuwe Microsoft 365-Beveiligingscentrum en [Microsoft 365 compliance](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) zijn gespecialiseerde werkruimten, ontworpen om te voldoen aan de behoeften van beveiligings-en compliance teams. Deze oplossingen zijn geïntegreerd in Microsoft 365-Services en bieden actie-inzichten om Risico's te beperken en uw digitale functie te beschermen.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4BmvV]
 
-Ga naar het Microsoft 365-beveiligingscentrum op [https://security.microsoft.com](https://security.microsoft.com) . 
+Ga naar het Microsoft 365-Beveiligingscentrum [https://security.microsoft.com](https://security.microsoft.com) . 
 
 > [!NOTE]
-> U moet een passende rol toegewezen krijgen, zoals Global Administrator, Security Administrator, Security Operator of Security Reader in Azure Active Directory om toegang te krijgen tot het Microsoft 365-beveiligingscentrum.
+> U moet beschikken over een vereiste rol, zoals globale beheerder, beveiligingsbeheerder, beveiligings operator of beveiligings lezer in azure Active Directory, om toegang te krijgen tot het Microsoft 365-Beveiligingscentrum.
 
 
-## <a name="lets-take-a-closer-look"></a>Laten we eens een kijkje nemen
+## <a name="lets-take-a-closer-look"></a>De aandacht trekken
 
-De **startpagina** toont veel van de gemeenschappelijke kaarten die beveiligingsteams nodig hebben. De samenstelling van kaarten en gegevens is afhankelijk van de gebruikersrol. Omdat het Microsoft 365-beveiligingscentrum gebruik maakt van op rollen gebaseerde toegangscontrole, worden in verschillende rollen kaarten weergegeven die relevanter zijn voor hun dagelijkse taken.  
+Op de **Start** pagina ziet u veel van de gangbare kaarten die beveiligings teams nodig hebben. De samenstelling van kaarten en gegevens is afhankelijk van de rol van de gebruiker. Aangezien het Microsoft 365-Beveiligingscentrum gebruikmaakt van toegangsbeheer op basis van rollen, zien verschillende rollen cards die een duidelijke beschrijving hebben van de dag-naar-dag-taken.  
 
-Deze informatie in één oogopslag helpt u op de hoogte te blijven van de nieuwste activiteiten in uw organisatie. Het Microsoft 365-beveiligingscentrum brengt signalen uit verschillende bronnen samen om een holistische weergave van uw Microsoft 365-omgeving te presenteren.
+Deze informatie biedt u een overzicht van de nieuwste activiteiten binnen uw organisatie. Het Microsoft 365-Beveiligingscentrum presenteert signalen van verschillende bronnen om een holistische weergave van uw Microsoft 365-omgeving te presenteren.
 
-Het Microsoft 365-beveiligingscentrum bevat:
+Het Microsoft 365 Beveiligingscentrum omvat:
 
-* **Home** – Krijg in één oogopslag een overzicht van de algehele beveiligingsstatus van uw organisatie.
-* **Incidenten** - Bekijk het bredere verhaal van een aanval door de punten van afzonderlijke waarschuwingen op entiteiten met elkaar te verbinden. Je weet precies waar een aanval is begonnen, welke apparaten worden beïnvloed, wie er worden beïnvloed en waar de dreiging is gebleven.
-* **Waarschuwingen** : heb meer inzicht in alle waarschuwingen in uw Microsoft 365-omgeving, inclusief waarschuwingen van Microsoft Cloud App Security, Office 365 ATP, Azure AD, Azure ATP en Microsoft Defender ATP. Beschikbaar voor E3- en E5-klanten.  
-* **Onderhoudscentrum** - Verminder het aantal waarschuwingen dat uw beveiligingsteam handmatig moet aanpakken, zodat uw beveiligingsteam zich kan concentreren op meer geavanceerde bedreigingen en andere waardevolle initiatieven.
-* **Rapporten** : krijg de details en informatie die u nodig hebt om uw gebruikers, apparaten, apps en meer beter te beschermen.
-* **Veilige score** – Verbeter uw algehele beveiligingshouding met Microsoft Secure Score. Deze pagina bevat een overzicht van de verschillende beveiligingsfuncties en -mogelijkheden die u hebt ingeschakeld en bevat aanbevelingen voor gebieden om te verbeteren.
-* **Geavanceerde jacht** - Proactief zoeken naar malware, verdachte bestanden en activiteiten in uw Microsoft 365-organisatie.
-* **Classificatie** : help gegevensverlies te beschermen door labels toe te voegen om documenten, e-mailberichten, documenten, sites en meer te classificeren. Wanneer een label wordt toegepast (automatisch of door de gebruiker), wordt de inhoud of site beschermd op basis van de instellingen die u kiest. U bijvoorbeeld labels maken die bestanden versleutelen, inhoudsmarkeringen toevoegen en de toegang van gebruikers tot specifieke sites beheren.
-* **Beleid** : Stel beleid in om apparaten te beheren, te beschermen tegen bedreigingen en waarschuwingen te ontvangen over verschillende activiteiten in uw organisatie.
-* **Machtigingen** - Beheren wie in uw organisatie toegang heeft tot microsoft 365-beveiligingscentrum om inhoud te bekijken en taken uit te voeren. U ook Microsoft 365-machtigingen toewijzen in de Azure AD-portal.
+* **Thuis** : Bekijk in een oogopslag de algehele beveiligingsstatus van uw organisatie.
+* **Incidenten** -Zie de bredere verhalen van een aanval door de stippen te verbinden voor afzonderlijke waarschuwingen op de entiteiten. U weet exact waar een aanval is gestart, welke apparaten worden beïnvloed, welke gevolgen werden beïnvloed en waar de bedreiging is verdwenen.
+* **Waarschuwingen** : Lees meer inzicht in alle meldingen in uw microsoft 365-omgeving. Dit omvat waarschuwingen uit beveiliging van de Microsoft Cloud-app, Office 365 ATP, Azure Active Directory, Azure ATP en Microsoft Defender ATP. Beschikbaar voor de klanten E3 en E5.  
+* **Actiecentrum** : het volume van waarschuwingen verminderen uw beveiligingsteam moet handmatig een adres invullen, zodat uw beveiligingsteam de aandacht biedt voor geavanceerdere bedreigingen en andere initiatieven voor hoge waarden.
+* **Rapporten** : de details en informatie die u nodig hebt om uw gebruikers, apparaten, apps en meer te beschermen.
+* **Secure Score** – Verbeter uw volledige beveiligings Posture met Microsoft Secure Score. Deze pagina bevat een volledig overzicht van de verschillende beveiligingsfuncties en mogelijkheden die u hebt ingeschakeld, inclusief aanbevelingen voor gebieden die u wilt verbeteren.
+* **Geavanceerde jacht** : Zoek met malware, verdachte bestanden en activiteiten in uw microsoft 365-organisatie.
+* **Classificatie** : u kunt gegevensverlies beschermen door labels toe te voegen voor het classificeren van documenten, e-mailberichten, documenten, sites en meer. Wanneer een label wordt toegepast (automatisch of door de gebruiker), is de inhoud of site beveiligd op basis van de instellingen die u kiest. U kunt bijvoorbeeld labels maken waarmee u bestanden versleutelt, inhouds merken toevoegt en gebruikers toegang beheert tot specifieke sites.
+* **Beleid** : Stel beleidsregels in om apparaten te beheren, te beschermen tegen bedreigingen en waarschuwingen te ontvangen over diverse activiteiten in uw organisatie.
+* **Machtigingen** : beheer wie in uw organisatie toegang heeft tot het weergeven van inhoud en het uitvoeren van taken in het microsoft 365-Beveiligingscentrum. U kunt ook Microsoft 365-machtigingen toewijzen in de Azure AD-Portal.
 
-## <a name="learn-more"></a>Meer informatie 
+## <a name="learn-more"></a>Meer informatie
 
-Bekijk deze onderwerpen over het bewaken, beoordelen en reageren op uw beveiligingsbehoeften:
-- Verbind de punten op waarschuwingen via [incidenten](incident-queue.md)
-- Bedreigingen automatisch verhelpen met [geautomatiseerd onderzoek en herstel](mtp-autoir.md)
-- Uw beveiligingshouding holistisch bekijken en verbeteren met [Microsoft Secure Score](microsoft-secure-score.md)
-- Apparaten in uw netwerk [weergeven](device-profile.md)
-- [De](monitoring-and-reporting.md) status van uw identiteit, gegevens, apparaten, apps en infrastructuur rapporteren
-- [Proactief op zoek gaan naar bedreigingen](advanced-hunting-overview.md) voor inbraakpogingen en inbreukactiviteiten die uw e-mail, gegevens, apparaten en accounts beïnvloeden
-- [Inzicht in de nieuwste aanvalscampagnes](latest-attack-campaigns.md) en -technieken met threat analytics
+In deze onderwerpen vindt u informatie over het controleren, reviseren en beantwoorden van uw beveiligingsbehoeften:
 
-## <a name="related-topics"></a>Verwante onderwerpen
+- De puntjes op meldingen met [incidenten](incident-queue.md) verbinden
+- Automatisch bedreigingen oplossen via [automatisch onderzoek en herstel](mtp-autoir.md)
+- Uw beveiligings Posture holistische onderzoeken en verbeteren met [Microsoft Secure Score](microsoft-secure-score.md)
+- [Apparaten](device-profile.md) in uw netwerk weergeven
+- De status van uw identiteiten, gegevens, apparaten, apps en infrastructuur [rapporteren](monitoring-and-reporting.md)
+- U kunt op elk gewenst [bedreigingen](advanced-hunting-overview.md) voor indringers en inbreuk activiteiten van invloed zijn op uw e-mail, gegevens, apparaten en accounts.
+- Meer [informatie over de meest recente aanvals campagnes](latest-attack-campaigns.md) en-technieken met bedreigings analyses
+
+## <a name="see-also"></a>Zie ook
+
 - [Microsoft-beveiligingsportals](portals.md)

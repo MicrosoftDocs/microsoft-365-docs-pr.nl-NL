@@ -1,7 +1,7 @@
 ---
-title: Integreer ServiceNow-tickets in het Microsoft 365-beveiligingscentrum en het compliancecenter
-description: Meer informatie over het maken en bijhouden van tickets in ServiceNow vanuit het Microsoft 365-beveiligingscentrum en het compliancecenter.
-keywords: beveiliging, Microsoft 365, M365, compliance, compliance center, security center, ServiceNow, tickets, taken, SNOW, verbinding
+title: ServiceNow tickets integreren in Microsoft 365 Beveiligingscentrum en compliance Center
+description: Informatie over het maken en bijhouden van tickets in ServiceNow vanuit het Microsoft 365 Beveiligingscentrum en compliance Center.
+keywords: beveiliging, Microsoft 365, M365, compliance, compliance Center, Beveiligingscentrum, ServiceNow, tickets, taken, sneeuw, verbinding
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -19,117 +19,117 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: d258bf3ec4c04eafd22e850329ca925b4c974e94
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.openlocfilehash: 12ac7d0a3d07749e16443e645f50de8fda185658
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086665"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866777"
 ---
-# <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>Integreer ServiceNow-tickets in het Microsoft 365-beveiligingscentrum en het compliancecenter
+# <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>ServiceNow tickets integreren in Microsoft 365 Beveiligingscentrum en compliance Center
 
 [!include[Prerelease information](../includes/prerelease.md)]
 
-ServiceNow is een populair cloud computing-platform dat bedrijven helpt bij het beheren van digitale workflows voor bedrijfsactiviteiten. Hun Now-platform heeft IT-workflows, workflows voor werknemers en workflows voor klanten. [Meer informatie over ServiceNow](https://www.servicenow.com/)
+ServiceNow is een populaire Cloud computing platform waarmee bedrijven digitale werkstromen voor bedrijfsactiviteiten kunnen beheren. Hun platform bevat IT-werkstromen, werkstromen voor werknemers en workflows van klanten. [Meer informatie over ServiceNow](https://www.servicenow.com/)
 
-Microsoft werkt samen met ServiceNow om het voor IT-beheerders gemakkelijker te maken om hun tickets en taken op beide platforms te beheren. [Microsoft 365 security center](overview-security-center.md) en het [Microsoft 365 compliance center](https://docs.microsoft.commicrosoft-365/compliance/microsoft-365-compliance-center) worden uitgebreid met de mogelijkheid om native tickets te maken en bij te houden in ServiceNow.
+Microsoft heeft een samenwerkingsverband gemaakt met ServiceNow, zodat IT-beheerders hun tickets en taken op beide platforms kunnen beheren. [Microsoft 365-Beveiligingscentrum](overview-security-center.md) en het [Microsoft 365 compliance-centrum](https://docs.microsoft.commicrosoft-365/compliance/microsoft-365-compliance-center) worden uitgebreid met de mogelijkheid om in ServiceNow in te stellen en tickets te volgen.
 
-- [**ServiceNow-tickets beheren in het beveiligingscentrum**](tickets-security-center.md)
-- **ServiceNow-tickets beheren in het compliance center** (binnenkort beschikbaar)
+- [**ServiceNow tickets beheren in het Beveiligingscentrum**](tickets-security-center.md)
+- **ServiceNow tickets beheren in het compliance Center** (binnenkort beschikbaar)
 
 ## <a name="prerequisites"></a>Vereisten
 
-Heb toegang tot het Microsoft 365-beveiligingscentrum of compliance center en een ServiceNow-exemplaar met:  
+Toegang hebben tot het Microsoft 365-Beveiligingscentrum of het compliance Center en een ServiceNow-exemplaar met:  
 
 * Kingston of hogere versie
-* Beheerders-HI-referenties hebben
-* Beheerdersbevoegdheden hebben op de instantie van uw doelleverancier
+* Beheerders HI-referenties hebben
+* Beheerdersrechten hebben voor de instantie van uw doel leverancier
 
-ServiceNow raadt gebruikers aan de standaardinstellingen in uw ServiceNow-exemplaar te behouden. Het hebben van aanpassingen kan fouten veroorzaken bij het invullen van de installatiechecklist en integratie met het Microsoft 365-beveiligingscentrum.
+U wordt aangeraden gebruikers standaardinstellingen te behouden in uw ServiceNow-exemplaar. Het kan zijn dat bij het voltooien van de installatie checklist en integratie met het Microsoft 365-Beveiligingscentrum fouten zijn opgetreden bij het voltooien
 
 ## <a name="data-exchange"></a>Gegevensuitwisseling
 
-Wanneer u het Microsoft 365-beveiligingscentrum of het compliancecenter verbindt met ServiceNow, ontvangt Microsoft de volgende aanvullende gegevens:
+Wanneer u het Microsoft 365 Beveiligingscentrum of compliance Center verbindt met ServiceNow, ontvangt Microsoft de volgende aanvullende gegevens:
 
-* Naam serviceNow-instantie
-* ServiceNow-client-id
-* ServiceNow-clientgeheim
-* ServiceNow-toegang & tokens vernieuwen
+* Naam van ServiceNow-exemplaar
+* ServiceNow client-ID
+* ServiceNow client Secret
+* ServiceNow Access-& vernieuwingstokens
 
-Wanneer u een ServiceNow-ticket maakt vanuit het Microsoft 365-beveiligingscentrum of compliance center, worden de volgende gegevens naar ServiceNow verzonden:
+Wanneer u een ServiceNow-ticket maakt via het Microsoft 365-Beveiligingscentrum of nalevings centrum, worden de volgende gegevens naar ServiceNow verzonden:
 
-* Gebruikersnaam waarmee het ticket wordt gestart
+* Gebruikers-ID waarmee het maken van tickets wordt gestart
 * Taaknaam
 * Taakbeschrijving
 * Priority
 * Vervaldatum
-* Aanbevelingsbron (Aanbeveling van de gebruiker of Aanbeveling van Microsoft)
-* Aanbevelingscategorie (Apparaten, Gegevens, Apps, Identiteit, Infrastructuur)
+* Bron voor aanbevelingen (gebruikers aanbevelingen of Microsoft aanbevelingen)
+* Aanbevelings categorie (apparaten, gegevens, apps, identiteit, infrastructuur)
 
 ## <a name="connect-to-servicenow"></a>Verbinding maken met ServiceNow
 
-Ga naar [ServiceNow-tickets maken en bijhouden in het Microsoft 365-beveiligingscentrum](tickets-security-center.md) voor meer informatie over hoe u verbinding maken met ServiceNow. Verbinding maken vanuit het Microsoft 365 compliance center is binnenkort beschikbaar.
+Ga naar [ServiceNow tickets maken en bijhouden in het Microsoft 365-Beveiligingscentrum](tickets-security-center.md) voor informatie over hoe u verbinding maakt met ServiceNow. Verbinding maken via het nalevings centrum voor Microsoft 365 is binnenkort beschikbaar.
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 
-### <a name="you-receive-an-error-in-the-first-step-of-the-installation-checklist-oauth-creation"></a>U ontvangt een foutmelding in de eerste stap van de installatiechecklist (OAuth creation)
+### <a name="you-receive-an-error-in-the-first-step-of-the-installation-checklist-oauth-creation"></a>U ontvangt een foutbericht in de eerste stap van de installatie Controlelijst (OAuth-maken)
 
-**Foutbericht**: Lees de bewerking tegen 'oauth_entity' van scope 'x_mioms_m365ticket' is geweigerd vanwege het toegangsbeleid voor de verschillende scopes van de tabel
+**Foutbericht**: leesbewerking voor ' oauth_entity ' van de scope ' x_mioms_m365ticket ' is geweigerd vanwege het toegangsbeleid voor meerdere regels via meerdere bereiken
 
-De app gaat ervan uit dat elke beheerder op de ServiceNow-instantie OAuth-entiteiten kan maken en lezen. Deze fout kan worden veroorzaakt door een aanpassing in uw exemplaar van ServiceNow, die beperkt wie OAuth-entiteiten kan maken/lezen.
+De app ervan uitgaat dat de beheerder van het ServiceNow-exemplaar OAuth-entiteiten kan maken en lezen. Deze fout kan worden veroorzaakt door aanpassingen in uw exemplaar van ServiceNow die beperkingen opleggen voor het maken of lezen van OAuth-entiteiten.
 
-**ServiceNow raadt gebruikers aan de standaardfunctionaliteit te behouden.**
+**ServiceNow adviseert dat gebruikers standaardfunctionaliteit behouden.**
 
-Stel de tabelconfiguraties 'toepassingsregisters' in op standaard:
+De tabel configuraties van Application registers instellen op standaard:
 
-* Label = Toepassingsregisters
+* Label = Application registraties
 * Naam = oauth_entity
-* Toegankelijk vanaf = Alle toepassingsscopes
-* Kan lezen = selectievakje ingeschakeld
+* Toegankelijk van = alle toepassings bereiken
+* Vak kan lezen = selectievakje is geselecteerd
 
-### <a name="how-to-validate-the-oauth-entity-created-for-microsoft-365-security--compliance-connector"></a>De OAuth-entiteit valideren die is gemaakt voor Microsoft 365 Security & Compliance-connector
+### <a name="how-to-validate-the-oauth-entity-created-for-microsoft-365-security--compliance-connector"></a>De OAuth-entiteit die is gemaakt voor Microsoft 365-beveiliging valideren & compliance connector
 
-Ga naar de tabel toepassingsregisters **(Menu > System OAuth > Application Registry)** in ServiceNow en zoek de OAuth-entiteit die door u is gemaakt, met de naam die u hebt toegewezen.
+Ga naar de tabel toepassingen registers (**Menu > systeem > voor toepassing toepassing**) in ServiceNow. Zoek de OAuth-entiteit die u hebt gemaakt, met de naam die u eraan hebt toegewezen.
 
-### <a name="logging-in-as-the-integration-user"></a>Inloggen als integratiegebruiker
+### <a name="signing-in-as-the-integration-user"></a>Aanmelden als de integratiegebruiker
 
-Voordat u de verbinding tussen Microsoft 365-beveiligingscentrum en ServiceNow autoriseert, moet u de aanmelding en het wachtwoord van de integratiegebruiker gebruiken die u in de installatiestappen hebt gemaakt. Gebruik uw persoonlijke referenties niet.
+Voordat u de verbinding tussen Microsoft 365 Beveiligingscentrum en ServiceNow machtigt, moet u ervoor zorgen dat u de gebruikers van de gebruikersaanmelding gebruikt en het wachtwoord dat u hebt gemaakt tijdens de installatiestappen. Gebruik geen persoonlijke gegevens.
 
-1. Ga naar de autorisatiepagina in ServiceNow.
-2. Als u bent aangemeld met uw persoonlijke referenties, selecteert u de koppeling **Niet u** in de rechterbovenhoek.
-3. Meld u aan bij ServiceNow als de integratiegebruiker die u eerder hebt gemaakt vanuit de installatiechecklist.  
-4. Selecteer **Toestaan** op de ServiceNow-pagina waarin wordt gevraagd of de Security + Compliance Connector verbinding kan maken met uw ServiceNow-account.
-5. Ga verder met de installatiestappen.
+1. Ga naar de autorisatie pagina in ServiceNow.
+2. Als u bent aangemeld met uw persoonlijke referenties, selecteert u de koppeling **niet** in de rechterbovenhoek.
+3. Meld u aan bij ServiceNow als de integratiegebruiker die u eerder hebt gemaakt in de installatie controlelijst.  
+4. Selecteer **toestaan** op de ServiceNow-pagina om te vragen of de Security + compliance connector verbinding kan maken met uw ServiceNow-account.
+5. Ga verder met de instellingsstappen.
 
-### <a name="how-to-validate-the-integration-user-created-with-the-installation-checklist-for-microsoft-365-security--compliance-connector"></a>De integratiegebruiker valideren die is gemaakt met de installatiechecklist voor Microsoft 365 Security & Compliance-connector
+### <a name="how-to-validate-the-integration-user-created-with-the-installation-checklist-for-microsoft-365-security--compliance-connector"></a>De berekeningswijze valideren die is gemaakt met de installatie controlelijst voor Microsoft 365 Security & compliance connector
 
-Ga naar Gebruikerstabel **(menu > gebruikersbeheer > gebruikers)** in ServiceNow en zoek de integratiegebruiker die door u is gemaakt, met de naam die u hebt toegewezen.
+Ga naar de tabel gebruikers **(Menu > Gebruikersbeheer > gebruikers**) in ServiceNow en zoek de integratie-gebruiker die door u is gemaakt, met de naam die u eraan hebt toegewezen.
 
-### <a name="your-company-has-single-sign-on-enabled-which-prevents-you-from-connecting-to-servicenow-through-the-microsoft-365-security-center"></a>Uw bedrijf heeft één aanmelding ingeschakeld waardoor u geen verbinding maken met ServiceNow via het Microsoft 365-beveiligingscentrum
+### <a name="your-company-has-single-sign-on-enabled-which-prevents-you-from-connecting-to-servicenow-through-the-microsoft-365-security-center"></a>Voor uw bedrijf is eenmalige aanmelding ingeschakeld waarmee u geen verbinding kunt maken met ServiceNow via het Microsoft 365-Beveiligingscentrum.
 
-Als uw bedrijf eenmalige aanmelding heeft ingeschakeld en u een fout ontvangt of als u niet inlogt, volgt u een van de twee oplossingen.
+Als uw bedrijf eenmalige aanmelding heeft ingeschakeld en u een foutmelding krijgt of als het niet lukt om u aan te melden, voert u een van de twee oplossingen uit.
 
-#### <a name="log-into-servicenow-as-the-integration-user"></a>Log in bij ServiceNow als integratiegebruiker
+#### <a name="sign-in-to-servicenow-as-the-integration-user"></a>Meld u aan bij ServiceNow als de gebruikers van de integratie
 
-1. Navigeer terug naar de autorisatiepagina in ServiceNow.
-2. Selecteer de koppeling **Niet u** in de rechterbovenhoek.
-3. Meld u aan bij ServiceNow als de integratiegebruiker die u eerder hebt gemaakt vanuit de installatiechecklist.  
-4. Selecteer **Toestaan** op de ServiceNow-pagina waarin wordt gevraagd of de Security + Compliance Connector verbinding kan maken met uw ServiceNow-account.
-5. Ga verder met de installatiestappen.
+1. Ga terug naar de autorisatie pagina in ServiceNow.
+2. Selecteer de koppeling **niet die u** in de rechterbovenhoek.
+3. Meld u aan bij ServiceNow als de integratiegebruiker die u eerder hebt gemaakt in de installatie controlelijst.  
+4. Selecteer **toestaan** op de ServiceNow-pagina om te vragen of de Security + compliance connector verbinding kan maken met uw ServiceNow-account.
+5. Ga verder met de instellingsstappen.
 
-#### <a name="create-a-security-admin-user"></a>Een beveiligingsbeheerder maken
+#### <a name="create-a-security-admin-user"></a>Een gebruiker met een beveiligingsbeheerder maken
 
-1. Maak een gebruiker met beveiligingsbeheerbevoegdheden in Azure Active Directory. De gebruiker moet dezelfde naam en e-mailadres hebben als de integratiegebruiker die u hebt gemaakt vanuit de installatiechecklist. U de rol van de beveiligingsbeheerder verwijderen zodra de aanmelding en verbinding is voltooid.
-2. Meld u als gebruiker aan bij het Microsoft 365-beveiligingscentrum en volg de installatiestappen.
+1. Maak een gebruiker met bevoegdheden voor beveiligingsbeheerders in azure Active Directory. De gebruiker moet dezelfde naam en hetzelfde e-mailadres hebben als de integratiegebruiker die u hebt gemaakt vanuit de installatie controlelijst. U kunt de functie beveiligingsbeheerder verwijderen zodra de aanmelding en de verbinding zijn voltooid.
+2. Meld u aan bij het Microsoft 365-Beveiligingscentrum als deze gebruiker en volg de instellingsstappen.
 
-### <a name="ip-filtering"></a>IP-filtering
+### <a name="ip-filtering"></a>IP-filters
 
-Als u IP-filtering hebt ingeschakeld, moet u mogelijk expliciet IP-adressen toestaan. Zie [IP-adrestoegangsbeheer](https://docs.servicenow.com/bundle/orlando-platform-administration/page/administer/login/task/t_AccessControl.html) voor informatie over het toestaan van IP-bereiken in ServiceNow. Zie [Azure IP Ranges and Service Tags - Public Cloud](https://www.microsoft.com/en-us/download/details.aspx?id=56519) for a list of IP addresses to allow.
+Als u IP-filtering hebt ingeschakeld, moet u mogelijk IP-adressen expliciet toestaan. Zie [toegangsbeheer voor IP-adressen](https://docs.servicenow.com/bundle/orlando-platform-administration/page/administer/login/task/t_AccessControl.html) voor informatie over het toestaan van IP-bereiken in ServiceNow. Zie [Azure IP-bereiken en service Tags-openbare Cloud](https://www.microsoft.com/en-us/download/details.aspx?id=56519) voor een lijst met IP-adressen die u wilt toestaan.
 
-### <a name="installation-is-complete-but-dont-see-tickets-and-cant-share"></a>De installatie is voltooid, maar zie geen tickets en kan niet delen
+### <a name="installation-is-complete-but-dont-see-tickets-and-cant-share"></a>De installatie is voltooid, maar u ziet geen tickets en kan niet delen
 
-Als de installatie- en installatiestappen zijn voltooid, maar u de ServiceNow-kaarten niet op de startpagina ziet en niet delen met ServiceNow vanuit Microsoft Secure Score, controleert u de status van de inrichtingspagina op https://security.microsoft.com/ticketProvisioning . Selecteer **Autoriseren** en ga terug naar de startpagina. De kaarten moeten verschijnen.
+Als u klaar bent met de installatie-en configuratiestappen, maar de ServiceNow-kaarten op de startpagina niet worden weergegeven en u deze niet kunt delen met ServiceNow vanuit Microsoft Secure Score, controleert u de status van de inrichtings pagina op https://security.microsoft.com/ticketProvisioning . Selecteer **geautoriseerd** en ga terug naar de startpagina. De kaarten worden weergegeven.
 
 ## <a name="resources"></a>Resources
 
-- [ServiceNow-tickets beheren in het beveiligingscentrum](tickets-security-center.md)
+- [ServiceNow tickets beheren in het Beveiligingscentrum](tickets-security-center.md)

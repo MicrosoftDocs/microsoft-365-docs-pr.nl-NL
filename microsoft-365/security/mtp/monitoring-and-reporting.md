@@ -1,7 +1,7 @@
 ---
-title: Rapporten bewaken en bekijken - Beveiligingscentrum
-description: Beschrijft hoe het Microsoft 365-beveiligingscentrum in één oogopslag een overzicht biedt van de beveiligings- en beveiligingsstatus.
-keywords: beveiliging, malware, Microsoft 365, M365, security center, monitor, rapport, status
+title: 'Rapporten bijhouden en weergeven: Beveiligingscentrum'
+description: In dit artikel wordt beschreven hoe u in een oogopslag kunt zien wat de bescherming en de beveiligingsstatus zijn van Microsoft 365 Beveiligingscentrum.
+keywords: beveiliging, malware, Microsoft 365, M365, Beveiligingscentrum, monitor, rapport, status
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -15,31 +15,31 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 987f3a60b514874bd970b93bdcc2c08832345b4b
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 90d9fcc45e768abd5fddef948fcafdaf9e77f5fb
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033984"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866717"
 ---
-# <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Rapporten controleren en weergeven in het Microsoft 365-beveiligingscentrum
+# <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Rapporten in het Microsoft 365-Beveiligingscentrum bewaken en weergeven
 
-Het Microsoft 365-beveiligingscentrum biedt in één oogopslag een overzicht van de beveiligings- en beveiligingsstatus in uw Microsoft 365-omgeving.
+Het Microsoft 365 Beveiligingscentrum biedt een overzicht van de beschermings-en beveiligingsstatus in uw Microsoft 365-omgeving.
 
-Het beveiligingscentrum bevat een sectie **Rapporten** met een groot aantal kaarten die betrekking hebben op een verscheidenheid aan gebieden die beveiligingsanalisten en beheerders bijhouden als onderdeel van hun dagelijkse activiteiten. Bij inzoomen bieden kaarten gedetailleerde rapporten en, in sommige gevallen, beheeropties.
+Het Beveiligingscentrum bevat een sectie **rapporten** die een host van kaarten bestrijkt die verschillende gebieden bestrijken. Beveiligings analisten en beheerders kunnen de kaarten bijhouden als onderdeel van de dagelijkse activiteiten. Bij inzoomen biedt kaarten uitgebreide rapporten en in sommige gevallen beheeropties.
 
 ## <a name="customize-views"></a>Weergaven aanpassen
 
-Standaard worden kaarten gegroepeerd in deze categorieën:
+Kaarten zijn standaard gegroepeerd in de volgende categorieën:
   
-* [Identiteiten](monitor-and-report-identities.md) - gebruikersaccounts en referenties
-* [Gegevens](monitor-data.md) - e-mail- en documentinhoud
-* [Apparaten](monitor-devices.md) - computers, mobiele telefoons en andere apparaten
-* [Apps](monitor-apps.md) - programma's en gekoppelde online services
+* [Identiteiten](monitor-and-report-identities.md) -gebruikersaccounts en referenties
+* [Gegevens](monitor-data.md) -e-mail en documentinhoud
+* [Apparaten](monitor-devices.md) : computers, mobiele telefoons en andere apparaten
+* [Apps](monitor-apps.md) -Programma's en bijgevoegde Online Services
 
-Schakel naar **Groeperen op onderwerp**om de kaarten te herschikken en te groeperen in het volgende:
+Ga naar **groeperen op onderwerp**als u de kaarten wilt herschikken en ze wilt groeperen in de volgende onderwerpen:
 
-* **Risico** - kaarten die entiteiten markeren, zoals accounts en apparaten, die mogelijk in gevaar zijn. Deze kaarten benadrukken ook mogelijke bronnen van risico's, zoals nieuwe bedreigingscampagnes en bevoorrechte cloud-apps  
-* **Detectietrends** - kaarten die nieuwe bedreigingsdetecties, anomalieën en beleidsschendingen markeren
-* **Configuratie en status** - kaarten die betrekking hebben op de configuratie en implementatie van beveiligingscontroles, inclusief apparaatonboarding-statussen voor beheerservices
-* **Andere** - alle andere kaarten niet gecategoriseerd onder andere onderwerpen
+* **Risico** kaarten die entiteiten markeren, zoals accounts en apparaten, zijn mogelijk risico. Deze kaarten markeren ook mogelijke risico bronnen, zoals nieuwe Threat campagnes en geautoriseerde Cloud-apps  
+* **Detectie trends** : kaarten die de nieuwe bedreigings detectie, afwijkingen en beleidsschendingen markeren
+* **Configuraties en Health** -kaarten voor de configuratie en implementatie van beveiligings besturing, waaronder de statussen voor het apparaat voor beheerservices
+* **Overige** : alle andere kaarten die niet zijn gecategoriseerd onder andere onderwerpen

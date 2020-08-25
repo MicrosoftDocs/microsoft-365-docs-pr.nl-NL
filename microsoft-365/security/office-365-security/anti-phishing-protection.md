@@ -19,22 +19,22 @@ ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
 description: Beheerders kunnen leren werken met de functies van bescherming tegen phishing in Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: 5594c4e7033ab70a622403bca7759cd4b89f111a
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: f6d864a7f9995de64f3714dffcd1838b2480a627
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827443"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46867173"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Bescherming tegen phishing in Microsoft 365
 
 *Phishing* is een aanval via een e-mailbericht dat probeert gevoelige informatie te stelen in berichten die afkomstig lijken te zijn van legitieme of vertrouwde afzenders. Phishing bevat specifieke soorten phishing. Bijvoorbeeld:
 
-- Met **spear phishing** wordt zeer gerichte en aangepaste inhoud gebruikt die specifiek is afgestemd op de gerichte geadresseerden (meestal na Reconnaissance op de geadresseerden van de aanvaller).
+- Met **Spear Phishingfilter** gerichte inhoud die speciaal is afgestemd op de gerichte geadresseerden (meestal na Reconnaissance van de aanvaller).
 
 - **Whaling** wordt op de werknemers of andere high-value-doelen binnen een organisatie omgeleid voor de maximale kracht.
 
-- **Aanval van zakelijke e-mail (BEC)** maakt gebruik van vertrouwde vertrouwde afzenders (financiële medewerkers, klanten, vertrouwde partners, etc.) in een inspanning om de ontvanger te leiden tot het goedkeuren van betalingen, het overdragen van bedragen of het afsluiten van klantgegevens.
+- **Misbruik van zakelijke e-mail (BEC)** maakt gebruik van vertrouwde vertrouwde afzenders (financiële medewerkers, klanten, vertrouwde partners, etc.) om geadresseerden te laten overgaan op betaling, het overdragen van bedragen of het onthullen van klantgegevens.
 
 - **Ransomware** waarmee u uw gegevens kunt versleutelen en betaling hoeft te decoderen om te voorkomen dat u in phishingberichten begint. Met anti malafide bescherming kunt u versleutelde bestanden niet ontsleutelen, maar u kunt wel de eerste Phishingberichten detecteren die aan de campagne van Ransomware zijn gekoppeld. Zie [herstel van een Ransomware aanval in Microsoft 365](recover-from-ransomware.md)voor meer informatie over het herstellen van een Ransomware-aanval.
 

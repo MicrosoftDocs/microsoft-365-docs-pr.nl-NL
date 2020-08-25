@@ -1,7 +1,7 @@
 ---
-title: App-monitoring & rapportage - Beveiligingscentrum
-description: Ontdek hoe u meer inzicht krijgt in het gebruik van cloud-apps in uw organisatie, inclusief wat voor soort apps, hun risiconiveau en waarschuwingen.
-keywords: beveiliging, malware, Microsoft 365, M365, security center, monitor, rapport, apps
+title: App-bewaking & rapportage-Beveiligingscentrum
+description: Meer informatie over hoe u kunt zien hoe u in uw organisatie meer inzicht krijgt in de Cloud-app. Inclusief verschillende typen apps, het risiconiveau en waarschuwingen.
+keywords: beveiliging, malware, Microsoft 365, M365, beveiliging centrum, monitor, rapport, apps
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -15,55 +15,55 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cd7a86751ac58f60051891544c9fd68c51b439e1
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: f370a537b9355a99b90f21faab5eda75d7f84cdf
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034020"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866847"
 ---
-# <a name="app-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>App-monitoring en rapportage in het Microsoft 365-beveiligingscentrum
+# <a name="app-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Apps volgen en rapporteren in het Microsoft 365-Beveiligingscentrum
 
-Deze rapporten geven meer inzicht in hoe cloud-apps worden gebruikt in uw organisatie, inclusief wat voor soort apps, hun risiconiveau en waarschuwingen.
+Deze rapporten bieden meer inzicht in de manier waarop Cloud-apps in uw organisatie worden gebruikt. Inclusief verschillende typen apps, het risiconiveau en waarschuwingen.
 
-## <a name="monitor-email-accounts-at-risk"></a>E-mailaccounts in gevaar houden
+## <a name="monitor-email-accounts-at-risk"></a>E-mailaccounts van risico controleren
 
-**E-mailbeveiliging** toont e-mailaccounts die risico lopen. U op een account klikken om verder te onderzoeken in Microsoft Defender Security Center.
+**E-mail beveiliging** toont het risico voor e-mailaccounts. U kunt een account selecteren dat u verder wilt onderzoeken in Microsoft Defender-Beveiligingscentrum.
 
-![E-mailbeveiligingskaart](../../media/email-protection.png)
+![E-mail beveiligingskaart](../../media/email-protection.png)
 
-## <a name="monitor-app-permissions-granted-by-users"></a>App-machtigingen controleren die door gebruikers worden verleend
+## <a name="monitor-app-permissions-granted-by-users"></a>App-machtigingen controleren die gebruikers hebben toegestaan
 
-**Cloud App Security - OAuth-apps** bevatten apps die zijn ontdekt door Cloud App Security en die door gebruikers machtigingen hebben gekregen. De risicocatalogus van Cloud App Security bevat meer dan 16.000 apps die worden beoordeeld aan de hand van meer dan 70 risicofactoren.
+**Beveiligings-app voor de Cloud app** de apps van de Cloud-app die door gebruikers zijn gedetecteerd, worden weergegeven. De risico catalogus van de Cloud app-beveiliging omvat meer dan 16.000-apps die worden beoordeeld met meer dan 70 risicofactoren.
 
-De risicofactoren gaan uit van algemene informatie, zoals de uitgever van de app, tot beveiligingsmaatregelen en besturingselementen, zoals of de app ondersteuning biedt voor versleuteling in rust of een controlelogboek van gebruikersactiviteit biedt.
+De risicofactoren beginnen met algemene gegevens, zoals de App-uitgever. Vervolgens gaat u naar beveiligingsmaatregelen en-besturingselementen, zoals of de app versleuteling voor de rest ondersteunt of een auditlogboek van gebruikersactiviteiten biedt.
 
-![Cloud App Security OAuth apps kaart](../../media/cloud-app-security-oauth-apps.png)
+![Kaart voor OAuth-apps voor Cloud app-beveiliging](../../media/cloud-app-security-oauth-apps.png)
 
-## <a name="monitor-cloud-app-user-accounts"></a>Gebruikersaccounts van cloud-apps controleren
+## <a name="monitor-cloud-app-user-accounts"></a>Gebruikersaccounts van de Cloud app bewaken
 
-**Cloud-app-accounts voor revisie** lijsten accounts die mogelijk aandacht vereisen.
+**Cloud-app-accounts voor nakijken naar** accounts waarvan de aandacht moet worden besteed.
 
-![Cloud App-accounts voor beoordelingskaart](../../media/cloud-app-accounts-for-review.png)
+![Cloud app-accounts voor de beoordeling van de kaart](../../media/cloud-app-accounts-for-review.png)
 
-## <a name="understand-which-cloud-apps-are-used"></a>Begrijpen welke cloud-apps worden gebruikt
+## <a name="understand-which-cloud-apps-are-used"></a>Inzicht in de gebruikte Cloud apps
 
-**Gedetecteerde cloud-apps (categorieën)** laten zien welke soorten apps in uw organisatie worden gebruikt en koppelingen naar het Cloud Discovery-dashboard in Cloud App Security. Zie [Snelstart: Werken met gedetecteerde apps](https://docs.microsoft.com/cloud-app-security/discovered-apps)voor meer informatie.  
+**Gedetecteerde Cloud-apps (categorieën)** tonen welke soorten apps in uw organisatie worden gebruikt. De koppeling naar het Cloud Discovery-dashboard in de beveiliging van de Cloud-app. Zie voor meer informatie [Snelstartgids: werken met ontdekte apps](https://docs.microsoft.com/cloud-app-security/discovered-apps).  
 
-![Kaart voor categorieën van gedetecteerde cloud-apps](../../media/discovered-cloud-apps-categories.png)
+![Kaart met categorieën Cloud apps gedetecteerd](../../media/discovered-cloud-apps-categories.png)
 
-## <a name="monitor-where-users-access-cloud-apps"></a>Controleren waar gebruikers toegang hebben tot cloud-apps
+## <a name="monitor-where-users-access-cloud-apps"></a>Controleren waar gebruikers toegang hebben tot Cloud-apps
 
-**Locaties voor activiteit in de cloud-app** laten zien waar gebruikers toegang hebben tot cloud-apps.
+**Locaties van de Cloud app-activiteit** geven aan waar gebruikers toegang hebben tot Cloud-apps.
 
-![Cloud App activiteit locaties kaart](../../media/cloud-app-activity-locations.png)
+![De kaart voor de activiteiten van de Cloud-app](../../media/cloud-app-activity-locations.png)
 
-## <a name="monitor-health-for-infrastructure-workloads"></a>Status controleren op infrastructuurworkloads
+## <a name="monitor-health-for-infrastructure-workloads"></a>De status van infrastructuur van infrastructuur controleren
 
-**De status van de** infrastructuur toont statuswaarschuwingen voor infrastructuurworkloads in Azure Security Center.
+**Infrastructuur** status toont waarschuwingen voor de integriteit van infrastructuur in azure Security Center.
 
-Azure Security Center biedt uniform beveiligingsbeheer en geavanceerde bescherming tegen bedreigingen voor on-premises en cloudworkloads. U beveiligingsgegevens uit verschillende bronnen verzamelen, doorzoeken en analyseren, waaronder firewalls en andere partneroplossingen.
+Azure Security Center biedt Unified Security Management en Advanced Threat Protection in on-premises en in de Cloud workloads. U kunt in verschillende bronnen beveiligingsgegevens verzamelen, zoeken en analyseren, waaronder firewalls en andere Partneroplossingen.
 
-Zie [Azure Security Center Documentation](https://docs.microsoft.com/azure/security-center/)voor meer informatie.
+Zie de [documentatie van Azure Beveiligingscentrum](https://docs.microsoft.com/azure/security-center/)voor meer informatie.
 
-![Infrastructuurgezondheidskaart](../../media/infrastructure-health.png)
+![Infrastructuur, status kaart](../../media/infrastructure-health.png)

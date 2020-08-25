@@ -1,7 +1,7 @@
 ---
-title: ServiceNow-tickets maken en bijhouden in het Microsoft 365-beveiligingscentrum
-description: Meer informatie over het maken en bijhouden van tickets in ServiceNow vanuit microsoft 365-beveiligingscentrum.
-keywords: beveiliging, Microsoft 365, M365, secure score, security center, ServiceNow, tickets, taken
+title: ServiceNow tickets maken en bijhouden in het Microsoft 365-Beveiligingscentrum
+description: Informatie over het maken en bijhouden van tickets in ServiceNow vanuit het Microsoft 365 Beveiligingscentrum.
+keywords: beveiliging, Microsoft 365, M365, Secure Score, beveiliging centrum, ServiceNow, tickets, taken
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -19,56 +19,56 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: 16ee37b1c7bf33c902db35af2d29744f42830ea7
-ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
+ms.openlocfilehash: bd5bf8533d38337c063acdf0dda073e4961e416a
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45094832"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46867243"
 ---
-# <a name="create-and-track-servicenow-tickets-in-the-microsoft-365-security-center"></a>ServiceNow-tickets maken en bijhouden in het Microsoft 365-beveiligingscentrum
+# <a name="create-and-track-servicenow-tickets-in-the-microsoft-365-security-center"></a>ServiceNow tickets maken en bijhouden in het Microsoft 365-Beveiligingscentrum
 
-Het [Microsoft 365-beveiligingscentrum](overview-security-center.md) is verbeterd met de mogelijkheid om in ServiceNow native tickets te maken en bij te houden. [Meer informatie over ServiceNow](https://www.servicenow.com/)
+Het [Microsoft 365 Beveiligingscentrum](overview-security-center.md) is verbeterd met de mogelijkheid voor het zelf maken en bijhouden van tickets in ServiceNow. [Meer informatie over ServiceNow](https://www.servicenow.com/)
 
-In het beveiligingscentrum kunnen beveiligingsbeheerders een [microsoft secure score-verbeteringsactie](microsoft-secure-score.md) rechtstreeks naar ServiceNow verzenden en een ticket maken. Zowel incident management en change management tickets kunnen worden gemaakt. Ze kunnen vervolgens worden gevolgd op de startpagina van het beveiligingscentrum en ServiceNow.
+In het Beveiligingscentrum kunnen beveiligingsbeheerders rechtstreeks een actie ondernemen voor het oplossen van beveiligings punten voor [Microsoft](microsoft-secure-score.md) voor ServiceNow en een ticket maken. Beide ticket beheer en het wijzigen van beheer tickets kunnen worden gemaakt. Spoor tickets in de startpagina van het Beveiligingscentrum en in ServiceNow.
 
 - [**Meer informatie over vereisten, gegevensuitwisseling en probleemoplossing**](tickets.md)
-- **ServiceNow-tickets beheren in het compliance center** (binnenkort beschikbaar)
+- **ServiceNow tickets beheren in het compliance Center** (binnenkort beschikbaar)
 
-## <a name="connect-microsoft-365-security-center-to-servicenow"></a>Microsoft 365-beveiligingscentrum verbinden met ServiceNow
+## <a name="connect-microsoft-365-security-center-to-servicenow"></a>Microsoft 365-Beveiligingscentrum verbinden met ServiceNow
 
-Navigeer naar de startpagina van het Microsoft 365-beveiligingscentrum om de ServiceNow-verbindingskaart te bekijken.
+Ga naar de startpagina van het Microsoft 365-Beveiligingscentrum om de ServiceNow-verbindings kaart weer te geven.
 
 ![Gebruikt u ServiceNow](../../media/do-you-use-servicenow-250.png)
 
-Selecteer 'Verbinding maken met ServiceNow' om naar de servicenow-instellingspagina te gaan. Volg de instructies voor het autoriseren van de Microsoft 365 Connector-app.
+Selecteer "verbinding maken met ServiceNow" om naar de instellingenpagina van ServiceNow te gaan. Volg de instructies om de Microsoft 365 connector-app te machtigen.
 
 > [!NOTE]
-> Voordat u de verbinding tussen Microsoft 365-beveiligingscentrum en ServiceNow autoriseert, moet u de aanmelding en het wachtwoord van de integratiegebruiker gebruiken die u in de installatiestappen hebt gemaakt. Gebruik uw persoonlijke referenties niet.
+> Voordat u de verbinding tussen Microsoft 365 Beveiligingscentrum en ServiceNow machtigt, moet u ervoor zorgen dat u de aanmeldingsgegevens van gebruikers en wachtwoorden van de gebruikers die u in de installatiestappen hebt gemaakt, gebruikt. Gebruik geen persoonlijke referenties.
 
-Nadat u de aanwijzingen hebt gevolgd en de verbinding hebt geautoriseerd, bekijkt u de verbindingsstatus op zowel de verbindingspagina van microsoft 365-beveiligingscentrum als in de ServiceNow Microsoft 365 Ticketing Connector-app-ervaring. Nu bent u helemaal klaar om te beginnen met het maken van taken!
+Nadat u de instructies hebt gevolgd en de verbinding hebt geautoriseerd, bekijkt u de status van de verbinding op de verbinding van het Microsoft 365-Beveiligingscentrum en in de ServiceNow Microsoft 365 ticketing connector app Experience. U bent nu klaar om taken te maken.
 
 ### <a name="troubleshooting"></a>Problemen oplossen
 
-Lees algemene fouten die u in het verbindingsproces tegenkomen en hoe u deze beperken in de [sectie Probleemoplossing](tickets.md#troubleshooting).
+Veelvoorkomende fouten bij het maken van een verbindingsprocedure en de manier waarop u deze problemen kunt oplossen, vindt u in de [sectie Probleemoplossing](tickets.md#troubleshooting).
 
-## <a name="create-a-task-and-share-it-to-servicenow"></a>Een taak maken en delen met ServiceNow
+## <a name="create-a-task-and-share-it-to-servicenow"></a>Een taak maken en delen in ServiceNow
 
-Zodra de integratie is ingesteld, maakt u ServiceNow-taken op basis van specifieke microsoft Secure Score-verbeteringsacties. [Microsoft Secure Score](microsoft-secure-score.md) Ga naar een verbeteringsactie in Secure Score in de Microsoft 365-beveiligingscentrumportal en selecteer **Delen**. Een van de vervolgkeuzeopties is ServiceNow.
+Wanneer de integratie is geconfigureerd, maakt u ServiceNow taken op basis van specifieke acties van [Microsoft Secure scores](microsoft-secure-score.md) . Ga naar het Microsoft 365-Beveiligingscentrum en selecteer **delen**. Een van de opties voor vervolgkeuzelijsten is ServiceNow.
 
-Er wordt een taak gegenereerd waarin u de prioriteit instellen en de naam, beschrijving of vervaldatum bewerken. Zodra alle vereiste velden zijn ingevuld, stuurt u de taak naar ServiceNow.
+Er wordt een taak gegenereerd waarbij u de prioriteit kunt instellen en de naam, de beschrijving of de vervaldatum kunt wijzigen. Wanneer alle verplichte velden zijn ingevuld, verzendt u de taak naar ServiceNow.
 
-De taak is zichtbaar in ServiceNow als een Microsoft 365-aanvraag voor beveiligings- en configuratiewijziging.
+De taak wordt weergegeven in ServiceNow als een aanvraag voor het wijzigen van de beveiligings-en configuratie van Microsoft 365.
 
-## <a name="track-tickets"></a>Tickets volgen
+## <a name="track-tickets"></a>Tickets bijhouden
 
-Zodra ServiceNow change management en incident management tickets zijn gemaakt, worden ze weergegeven op kaarten in de Microsoft 365 security center startpagina. Met deze kaarten u een ticket maken, alle tickets bekijken of de ServiceNow-configuratie beheren.
+Wanneer ServiceNow-en ticket beheer tickets zijn gemaakt, worden deze weergegeven op kaarten op de startpagina van het Microsoft 365-Beveiligingscentrum. Met deze kaarten kunt u een ticket maken, alle tickets weergeven of de ServiceNow-configuratie beheren.
 
-![ServiceNow wijzigbeheertickets](../../media/change-management-375.png)  ![ServiceNow incident management tickets](../../media/incident-management-375.png)
+![ServiceNow tickets voor wijzigingsbeheer](../../media/change-management-375.png)  ![ServiceNow-tickets voor incidentbeheer](../../media/incident-management-375.png)
 
-Als u uw ServiceNow-integratie in het Microsoft 365-beveiligingscentrum opnieuw wilt inrichten of beheren, selecteert u **ServiceNow-configuratie beheren** op een van de kaarten. Verwijder van daaruit de huidige ServiceNow-verbinding en pas de namen van de ticketstatus aan.
+Als u uw ServiceNow-integratie wilt in het Microsoft 365-Beveiligingscentrum wilt inrichten of beheren, selecteert u **ServiceNow-configuratie beheren** op een van de kaarten. Vervolgens verwijdert u de huidige ServiceNow-verbinding en wijzigt u de namen van ticket Staten.
 
-Met ServiceNow-tickets die zichtbaar zijn in het Microsoft 365-beveiligingscentrum, wonen uw taken op een plaats waar ze kunnen worden gevolgd en waarop, naast uw andere beveiligingsdashboarditems, kan worden gereageerd.
+Met ServiceNow-tickets die zichtbaar zijn in het Microsoft 365-Beveiligingscentrum, worden uw taken weergegeven op een plaats waar ze op uw andere beveiligings dashboarditems kunnen worden bijgehouden en afgehandeld.
 
 ## <a name="resources"></a>Resources
 

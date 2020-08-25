@@ -17,20 +17,20 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 1b6bd81bc194a3b8d972661eaca393571b1ad199
-ms.sourcegitcommit: 22fd8517707ed3ab6ef996247ad2aa372535ee56
+ms.openlocfilehash: 4707b95c72200042b17c9e8ff9ae876933522d1f
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46815217"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866917"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Wat is er beschikbaar voor de beveiligde Score van Microsoft
 
-Om de [Microsoft Secure Score](microsoft-secure-score.md) te zorgen voor een betere medewerker van uw beveiligings Posture en het verbeteren van de betrouwbaarheid, maken we enkele wijzigingen in de nabije toekomst. Uw score en de maximaal mogelijke score kunnen wijzigen.
+We maken de nabije toekomst enkele wijzigingen in de nabije toekomst, zodat [Microsoft Secure Score](microsoft-secure-score.md) een betere medewerker is van uw beveiligings Posture en de bruikbaarheid verbeteren. Uw score en de maximaal mogelijke score kunnen wijzigen.
 
 ## <a name="proposed-changes"></a>Voorgestelde wijzigingen
 
-Het is mogelijk dat deze wijzigingen binnenkort beschikbaar zijn voor uw Microsoft Secure Score, afhankelijk van uw licentie. Zie [nieuwe functies in Microsoft Secure Score](microsoft-secure-score-whats-new.md) voor informatie over recente wijzigingen.
+Afhankelijk van uw licentie, worden deze wijzigingen ook doorgevoerd in uw Microsoft Secure Score. Zie [nieuwe functies in Microsoft Secure Score](microsoft-secure-score-whats-new.md) voor informatie over recente wijzigingen.
 
 - De maximum score wijzigen van 7 in 8 voor de actie voor het verzorgen van Azure Active Directory
 
