@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Beheerders kunnen meer informatie krijgen over de functies tegen adresvervalsing die beschikbaar zijn in EOP (Exchange Online Protection) die kunnen beschermen tegen phishing-aanvallen van vervalste afzenders en domeinen.
-ms.openlocfilehash: 490d0d137f654e06512622e3fd5825822286ba41
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 46adb8b666bd9f73cbd76860f58efedc8d3c1c59
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826659"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868877"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Beveiliging tegen adresvervalsing in EOP
 
@@ -162,3 +162,7 @@ U kunt ook contact opnemen met uw beheerder die een ondersteuningsticket kan gen
 ## <a name="considerations-for-anti-spoofing-protection"></a>Overwegingen bij de bescherming tegen spoofing
 
 Als u een beheerder bent die momenteel berichten naar Microsoft 365 stuurt, moet u ervoor zorgen dat uw e-mail correct is geverifieerd. Anders kan het als spam of phishing worden gemarkeerd. Zie voor meer informatie [oplossingen voor legitieme afzenders die niet-geverifieerde e-mail verzenden](email-validation-and-authentication.md#solutions-for-legitimate-senders-who-are-sending-unauthenticated-email).
+
+Afzenders in de lijst met veilige afzenders van een afzonderlijke gebruiker (of beheerder) slaan onderdelen van de filterstack over, met inbegrip van de beveiliging van spoofberichten. Zie [Outlook-lijsten met veilige afzenders](create-safe-sender-lists-in-office-365.md#use-outlook-safe-senders) voor meer informatie.
+
+Beheerders moeten (indien mogelijk) voorkomen dat toegestane afzenders of toegestane domeinlijsten gebruikt worden. Met deze afzenders worden alle spam, spoofing en phishing-bescherming en de verificatie van de afzender (SPF, DKIM, DMARC) overgeslagen. Zie [lijst met toegestane afzenders of toegestane domein lijsten gebruiken](create-safe-sender-lists-in-office-365.md#use-allowed-sender-lists-or-allowed-domain-lists)voor meer informatie.

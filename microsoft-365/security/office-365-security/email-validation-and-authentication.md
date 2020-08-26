@@ -17,17 +17,17 @@ ms.collection:
 - Strat_O365_IP
 ms.custom: TopSMBIssues
 localization_priority: Priority
-description: Beheerders kunnen meer informatie krijgen over hoe Exchange Online Protection (EOP) e-mailverificatie (SPF, DKIM en DMARC) gebruikt om adresvervalsing, phishing en spam te helpen voorkomen.
-ms.openlocfilehash: cc9489a258608080118e88bf1375e4d5f35f8c77
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+description: Beheerders kunnen meer informatie krijgen over hoe EOP e-mailverificatie (SPF, DKIM en DMARC) gebruikt om adresvervalsing, phishing en spam te helpen voorkomen.
+ms.openlocfilehash: 8db5045ec19c5552feba739628a2c9c1c508f620
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826647"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866633"
 ---
 # <a name="email-authentication-in-eop"></a>E-mailverificatie in EOP
 
-E-mailverificatie (ook wel e-mailvalidatie genoemd) is een groep standaarden die probeert om spoofing (e-mailberichten van vervalste afzenders) te stoppen. In Microsoft 365-organisaties met postvakken in Exchange Online en zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken worden deze standaarden gebruikt om binnenkomende e-mail te verifiëren:
+E-mailverificatie (ook wel e-mailvalidatie genoemd) is een groep standaarden die probeert om spoofing (e-mailberichten van vervalste afzenders) te stoppen. In alle Microsoft 365-organisaties maakt EOP gebruik van deze standaarden om binnenkomende e-mail te verifiëren:
 
 - [SPF](how-office-365-uses-spf-to-prevent-spoofing.md)
 
@@ -41,27 +41,30 @@ In de rest van dit artikel wordt uitgelegd hoe deze technologieën werken en hoe
 
 ## <a name="use-email-authentication-to-help-prevent-spoofing"></a>E-mailverificatie gebruiken om spoofing te voorkomen
 
-DMARC voorkomt spoofing door het **Van**-adres te onderzoeken in berichten (het e-mailadres van de afzender dat gebruikers zien in de e-mailclient). Ontvangende e-mailorganisaties kunnen ook controleren of het e-maildomein door SPF of DKIM is geverifieerd, wat betekent dat het domein is geverifieerd en dus niet is vervalst.
+DMARC voorkomt spoofing door het **Van** adres in berichten te onderzoeken. Het **Van** adres is het e-mailadres van de afzender dat gebruikers zien in de e-mailclient. E-mail organisaties kunnen er ook voor zorgen dat het e-mail domein is doorgegeven aan SPF of DKIM. Met andere woorden, het domein is geverifieerd en daarom is het e-mailadres van de afzender niet vervalst.
 
-Het probleem is echter dat SPF-, DKIM- en DMARC-records in DNS voor e-mailverificatie (gezamenlijk bekend als e-mailverificatiebeleid) volledig optioneel zijn. Daarom zijn domeinen met een sterk verificatiebeleid zoals microsoft.com en skype.com beschermd tegen adresvervalsing, maar domeinen die een zwakker verificatiebeleid hanteren, of helemaal geen beleid, zijn doelen om te worden vervalst.
+Echter, DNS-records voor SPF, DKIM en DMARC (gezamenlijk bekend als e-mail verificatiebeleid) zijn optioneel. Domeinen met een sterk e-mail verificatiebeleid, zoals microsoft.com en skype.com, worden beschermd tegen spoofing. Maar domeinen met een zwakkere e-mail verificatie, of helemaal geen beleid, zijn hoofddoelen om te worden vervalst.
 
 Slechts 9% van de domeinen van bedrijven in de Fortune 500 hanteerde in maart 2018 een sterk e-mailverificatiebeleid. De resterende 91% van de bedrijven kan door een kwaadwillende worden gespooft. Tenzij er een ander filtermechanisme voor e-mail aanwezig is, kan e-mail van vervalste afzenders in deze domeinen aan gebruikers worden bezorgd.
 
 ![DMARC-beleid van Fortune 500-bedrijven](../../media/84e77d34-2073-4a8e-9f39-f109b32d06df.jpg)
 
-Het aandeel kleine tot middelgrote bedrijven die niet in de Fortune 500 zitten en die een sterk e-mailverificatiebeleid hanteren is klein en nog kleiner voor domeinen buiten Noord-Amerika en West-Europa.
+Het aantal kleine en middelgrote bedrijven die een sterk e-mail verificatiebeleid publiceren, is kleiner. En het nummer is nog kleiner voor e-mail domeinen buiten Noord-Amerika en West-Europa.
 
-Dit is een groot probleem, want hoewel bedrijven zich misschien niet bewust zijn van hoe e-mailverificatie werkt, begrijpen aanvallers het volledig en profiteren ze ervan. Omdat phishing zo'n probleem is en vanwege de beperkte acceptatie van een sterk e-mailverificatiebeleid, gebruikt Microsoft *impliciete e-mailverificatie* om inkomende e-mail te controleren.
+Het ontbreken van een sterk beleid voor e-mailverificatie is een groot probleem. Hoewel organisaties niet kunnen zien hoe e-mailverificatie werkt, zijn hackers volledig op de hoogte en kunnen ze hiervan profiteren van. Vanwege phishing en de beperkte acceptatie van een sterk e-mailverificatiebeleid, gebruikt Microsoft *impliciete e-mailverificatie* om inkomende e-mail te controleren.
 
-Impliciete e-mailverificatie is gebaseerd op een groot aantal uitbreidingen van het reguliere e-mailbeleid. Deze extensies bevatten de reputatie van de afzender, de geschiedenis van de afzender, de geschiedenis van de ontvanger, gedragsanalyse en andere geavanceerde technieken. Een bericht dat wordt verzonden vanaf een domein dat geen e-mailverificatie hanteert, wordt gemarkeerd als spoof, tenzij het andere kenmerken bevat die aangeven dat het legitiem is.
+Impliciete e-mailverificatie is gebaseerd een uitbreiding van het reguliere e-mailbeleid. Deze extensies bevatten de reputatie van de afzender, de geschiedenis van de afzender, de geschiedenis van de ontvanger, gedragsanalyse en andere geavanceerde technieken. Als er geen andere signalen van deze extensies worden verzonden, worden berichten die zijn verzonden vanuit domeinen die geen beleid voor e-mail verificatie gebruiken, gemarkeerd als spoof.
 
 Zie [A Sea of Phish Part 2 - Enhanced Anti-spoofing in Microsoft 365](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Schooling-A-Sea-of-Phish-Part-2-Enhanced-Anti-spoofing/ba-p/176209) om de algemene aankondiging van Microsoft te lezen.
 
 ## <a name="composite-authentication"></a>Samengestelde verificatie
 
-Hoewel SPF, DKIM en DMARC op zichzelf allemaal nuttig zijn, geven ze niet genoeg verificatie-informatie wanneer een bericht geen expliciete verificatierecords heeft. Microsoft heeft een algoritme voor impliciete e-mailverificatie ontwikkeld waarin meerdere signalen worden gecombineerd tot één waarde met de naam _samengestelde verificatie_, of compauth. De compauth-waarde wordt in de koptekst **verificatie-resultaten** in de berichtkoppen gestempeld.
+Als een domein geen traditionele SPF-, DKIM-en DMARC-records heeft, communiceren deze recordcontroles niet voldoende informatie over de status van de verificatie. Microsoft heeft daarom een algoritme ontwikkeld voor impliciete e-mail verificatie. Dit algoritme combineert meerdere signalen tot één waarde met de naam _Samengestelde verificatie_, of `compauth` afgekort. De `compauth`-waarde wordt in de koptekst **Verificatie-resultaten** in de berichtkoppen gestempeld.
 
-> Verificatie-resultaten:<br/>&nbsp;&nbsp;&nbsp;compauth=\<fail | pass | softpass | none\> reason=\<yyy\>
+```text
+Authentication-Results:
+   compauth=<fail | pass | softpass | none> reason=<yyy>
+```
 
 Deze waarden worden uitgelegd in de [berichtkop Verificatie-resultaten](anti-spam-message-headers.md#authentication-results-message-header).
 
@@ -73,12 +76,11 @@ Alleen vertrouwen op records voor e-mailverificatie om te bepalen of een inkomen
 
 - Het verzendende domein heeft mogelijk niet de vereiste DNS-records of de records zijn onjuist geconfigureerd.
 
-- Het brondomein heeft correct geconfigureerde DNS-records, maar dat domein komt niet overeen met het domein in het Van-adres. SPF en DKIM vereisen niet dat het domein wordt gebruikt in het Van-adres. Hackers of legitieme services kunnen een domein registreren, SPF en DKIM configureren voor het domein, een geheel ander domein gebruiken in het Van-adres en dat bericht zal SPF en DKIM passeren.
+- Het brondomein heeft correct geconfigureerde DNS-records, maar dat domein komt niet overeen met het domein in het Van-adres. SPF en DKIM vereisen niet dat het domein wordt gebruikt in het Van-adres. Hackers of legitieme services kunnen een domein registreren, SPF en DKIM configureren voor het domein en een geheel ander domein gebruiken in het Van-adres. Berichten van afzenders in dit domein worden doorgegeven aan SPF en DKIM.
 
 Samengestelde verificatie kan deze beperkingen verhelpen door berichten door te geven die anders niet door de e-mailverificatie zouden komen.
 
-> [!NOTE]
-> Zoals eerder beschreven, gebruikt impliciete e-mailverificatie meerdere signalen om te bepalen of een bericht legitiem is. Voor de eenvoud zijn de volgende voorbeelden gericht op resultaten van e-mailverificatie. Andere intelligentiefactoren in de back-end kunnen berichten die e-mailverificatie doorstaan identificeren als vervalst, of berichten die e-mailverificatie niet doorstaan identificeren als legitiem.
+Voor de eenvoud zijn de volgende voorbeelden gericht op resultaten van e-mailverificatie. Andere intelligentiefactoren in de back-end kunnen berichten die e-mailverificatie doorstaan identificeren als vervalst, of berichten die e-mailverificatie niet doorstaan identificeren als legitiem.
 
 Het domein fabrikam.com heeft bijvoorbeeld geen SPF-, DKIM- of DMARC-records. Berichten van afzenders van het fabrikam.com-domein kunnen samengestelde verificatie niet doorstaan (noteer de `compauth`waarde en reden):
 
@@ -91,7 +93,7 @@ From: chris@fabrikam.com
 To: michelle@contoso.com
 ```
 
-Als fabrikam.com een SPF-record configureert zonder een DKIM-record, kan het bericht samengestelde verificatie doorstaan, omdat het domein dat de SPF heeft doorgegeven, overeenkomt met het domein in het Van-adres:
+Als fabrikam.com een SPF-record zonder DKIM configureert, kan het bericht samengestelde verificatie doorgeven. Het domein waaraan SPF-controles zijn doorgegeven, wordt uitgelijnd met het domein in het Van-adres:
 
 ```text
 Authentication-Results: spf=pass (sender IP is 10.2.3.4)
@@ -102,7 +104,7 @@ From: chris@fabrikam.com
 To: michelle@contoso.com
 ```
 
-Als fabrikam.com een DKIM-record zonder een SPF-record configureert, kan het bericht samengestelde verificatie doorgeven, omdat het domein in de doorgegeven DKIM-handtekening overeenkomt met het domein in het Van-adres:
+Als fabrikam.com een DKIM-record zonder SPF-record configureert, kan het bericht samengestelde verificatie doorgeven. Het domein in het DKIM-handtekening wordt uitgelijnd met het domein in het Van-adres:
 
 ```text
 Authentication-Results: spf=none (sender IP is 10.2.3.4)
@@ -128,7 +130,7 @@ To: michelle@fabrikam.com
 
 ## <a name="solutions-for-legitimate-senders-who-are-sending-unauthenticated-email"></a>Oplossingen voor legitieme afzenders die niet-geverifieerde e-mail verzenden
 
-In Microsoft 365 wordt bijgehouden wie niet-geverifieerde e-mail naar uw organisatie verzendt. Als de service denkt dat de afzender niet legitiem is, wordt deze gemarkeerd als een samengestelde verificatiefout. U kunt dit voorkomen door de aanbevelingen in deze sectie te gebruiken.
+In Microsoft 365 wordt bijgehouden wie niet-geverifieerde e-mail naar uw organisatie verzendt. Als de service denkt dat de afzender niet legitiem is, worden berichten van deze afzender gemarkeerd als een samengestelde verificatiefout. U kunt dit voorkomen door de aanbevelingen in deze sectie te gebruiken.
 
 ### <a name="configure-email-authentication-for-domains-you-own"></a>Configureer e-mailverificatie voor uw domeinen
 
@@ -152,7 +154,7 @@ fabrikam.com IN TXT "v=spf1 include:spf.fabrikam.com ?all"
 
 Dit voorbeeld betekent dat e-mail van uw bedrijfsinfrastructuur e-mailverificatie doorstaat, maar e-mail van onbekende bronnen wordt gemarkeerd als neutraal.
 
-Microsoft 365 behandelt inkomende e-mail van uw bedrijfsinfrastructuur als geverifieerd, maar e-mail van niet-geïdentificeerde bronnen kan nog steeds als spoof worden gemarkeerd (afhankelijk van of Microsoft 365 het impliciet kan verifiëren). Dit is echter nog steeds een verbetering in plaats van dat alle e-mail door Microsoft 365 als spoof wordt gemarkeerd.
+Microsoft 365 behandelt inkomende e-mail van uw bedrijfsinfrastructuur als geverifieerd. E-mail van niet-geïdentificeerde bronnen wordt mogelijk nog steeds gemarkeerd als spoof als de impliciete verificatie mislukt. Dit is echter nog steeds een verbetering in plaats van dat alle e-mail door Microsoft 365 als spoof wordt gemarkeerd.
 
 Als u eenmaal bent begonnen met een SPF-terugvalbeleid van `?all`, kunt u geleidelijk meer e-mailbronnen voor uw berichten ontdekken en opnemen en vervolgens uw SPF-record bijwerken met een strikter beleid.
 

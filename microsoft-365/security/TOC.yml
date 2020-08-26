@@ -313,6 +313,8 @@
                       href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
                     - name: Ongewenste e-mail en phishing melden in de webversie van Outlook
                       href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
+                    - name: Ongewenste e-mail en phishing melden in de webversie van Outlook voor iOS en Android
+                      href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md
                     - name: Berichten handmatig aan Microsoft verzenden
                       href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
                     - name: Regels voor e-mailstromen gebruiken om te zien wat uw gebruikers melden bij Microsoft
@@ -382,6 +384,8 @@
                   href: ./office-365-security/support-for-validation-of-dkim-signed-messages.md
                 - name: DMARC gebruiken om e-mail te valideren
                   href: ./office-365-security/use-dmarc-to-validate-email.md
+            - name: Application Guard installeren voor Office
+              href: ./office-365-security/install-app-guard.md
             - name: Slimme rapporten en inzichten in het beveiligings- en compliancecentrum
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
             - name: Overzicht van beveiligingsdashboard
