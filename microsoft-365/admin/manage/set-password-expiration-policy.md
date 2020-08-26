@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Informatie over het instellen van een verloopbeleid voor wachtwoorden voor uw bedrijf in het Microsoft 365-beheercentrum. '
-ms.openlocfilehash: 053b3214862d477cbd122ff6336a6b53a98e5421
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: e95184bda631a5efaad0376c766ce5408c0a95e7
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597363"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868865"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Het wachtwoordverloopbeleid voor uw organisatie instellen:
 
@@ -50,7 +50,7 @@ Volg onderstaande stappen als u wilt instellen dat gebruikerswachtwoorden na een
 > [!IMPORTANT]
 > Alleen [globale beheerders](../add-users/about-admin-roles.md) kunnen deze stappen uitvoeren.
   
-1. Ga in het beheercentrum naar **Instellingen** \> **Instellingen**.
+1. Ga in het beheercentrum naar **Instellingen** \> **Organisatie-instellingen**.
 
 2. Ga naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Beveiliging en privacy</a>.
  Als u geen globale beheerder bent, ziet u de optie Beveiliging en privacy niet.
