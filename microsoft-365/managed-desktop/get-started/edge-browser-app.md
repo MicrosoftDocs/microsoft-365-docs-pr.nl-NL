@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 95bf8ca693ac4b45be569870ff732c4053be39d2
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: 089d9dc79da568a43c1d5701d7bc52d9bed0f4f5
+ms.sourcegitcommit: c76c025fe75cd9c06eccbf9c7fc887b09da36659
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597495"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46903869"
 ---
 # <a name="new-microsoft-edge-app"></a>Nieuwe Microsoft Edge-app
 
@@ -25,13 +25,13 @@ De nieuwe [browser Microsoft Edge](https://www.microsoft.com/edge) biedt wereldw
 
 Als u uw Microsoft Managed Desktop-apparaten wilt migreren naar de nieuwe Microsoft Edge-browser, kunt u een IT-ondersteunings ticket via de beheerde bureaublad portal van Microsoft opslaan. We implementeren de Edge stabiel kanaal naar de test groep wanneer u het ticket bijwerkt en het vervolgens in elke volgende implementatiegroep elke 24 uur implementeren. Als u de implementatie wilt onderbreken, moet u een ander ticket vragen om te worden bewaard.
 
-Het [bèta-kanaal] ( https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) is ook beschikbaar op aanvraag voor een vertegenwoordiger van de validering binnen uw organisatie. Microsoft Managed Desktop implementeert de toepassing als vereist voor de test en de eerste groepen, zodat al deze gebruikers het bèta-kanaal hebben, naast het stabiele kanaal. Voor alle extra gebruikers die toegang hebben tot het bèta kanaal, voegt u ze toe aan de groep van de **moderne gebruikers van de werkplek** en kunnen ze deze installeren via de bedrijfs portal.
+Het [bèta kanaal](https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) is ook beschikbaar wanneer u daarom aanvraag onderneemt voor een representatieve validering binnen uw organisatie. Microsoft Managed Desktop implementeert de toepassing als vereist voor de test en de eerste groepen, zodat al deze gebruikers het bèta-kanaal hebben, naast het stabiele kanaal. Voor alle extra gebruikers die toegang hebben tot het bèta kanaal, voegt u ze toe aan de groep van de **moderne gebruikers van de werkplek** en kunnen ze deze installeren via de bedrijfs portal.
 
 ## <a name="updates-to-microsoft-edge"></a>Updates voor Microsoft Edge
 
 Microsoft Managed Desktop implementeert het [stabiele kanaal](https://docs.microsoft.com/deployedge/microsoft-edge-channels#stable-channel) van Microsoft Edge die elke zes weken automatisch wordt bijgewerkt. Updates op het stabiele kanaal worden [progressief](https://docs.microsoft.com/deployedge/microsoft-edge-update-progressive-rollout) uitgeworpen door de productgroep Microsoft Edge om ervoor te zorgen dat ze de beste ervaring voor klanten zijn. 
 
-Het [bèta-kanaal] ( https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) wordt geïmplementeerd op apparaten in zowel de test als de eerste groepen voor een vertegenwoordiger van de validering binnen de organisatie. Dit kanaal wordt volledig ondersteund en wordt telkens zes weken automatisch bijgewerkt met nieuwe functies.
+Het [bèta kanaal](https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) wordt geïmplementeerd op apparaten in zowel de test als de eerste groepen voor de representatieve validatie binnen de organisatie. Dit kanaal wordt volledig ondersteund en wordt telkens zes weken automatisch bijgewerkt met nieuwe functies.
 
 U kunt ervoor zorgen dat Microsoft Edge correct wordt bijgewerkt door de [Update beleidsregels](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies)voor Microsoft Edge niet te wijzigen.
 
@@ -49,7 +49,7 @@ Met de beveiligings basis voor Microsoft Edge on Microsoft Managed Desktop devic
 #### <a name="extension-installation-blocklist"></a>Extensies installeren blokkeringslijst geplaatst
 **Standaardwaarde:** Al
 
-Microsoft Managed Desktop stelt dit beleid in om te voorkomen dat chroom extensies worden geïnstalleerd op beheerde eindpunten. Er is een bekend risico sassociated met het Chroom-uitbreidings model, waaronder beveiliging tegen verlies van gegevensverlies, privacy en andere Risico's waarmee apparaten kunnen worden aangetast. 
+Microsoft Managed Desktop stelt dit beleid in om te voorkomen dat chroom extensies worden geïnstalleerd op beheerde eindpunten. Er zijn bekende Risico's die zijn gekoppeld aan het Chroom-uitbreidings model, waaronder beveiliging tegen bescherming van gegevensverlies, privacy en andere Risico's waarmee apparaten kunnen worden aangetast. 
 
 #### <a name="allow-user-level-native-messaging-hosts-installed-without-admin-permissions"></a>Native berichten hosten op gebruikersniveau toestaan (geïnstalleerd zonder beheerdersmachtigingen)
 
@@ -71,7 +71,7 @@ Als u het minder veilige TLS 1,1 wilt gebruiken, kunt u dit aanvragen.
 
 We raden u aan deze instelling niet in te schakelen omdat gebruikers sites kunnen bezoeken met een SSL-fout.
 
-### <a name="microsoft-defender-smart-screen"></a>Microsoft Defender slim scherm
+### <a name="microsoft-defender-smartscreen"></a>Microsoft Defender SmartScreen
 
 #### <a name="configure-windows-defender-smartscreen"></a>Windows Defender SmartScreen configureren
 

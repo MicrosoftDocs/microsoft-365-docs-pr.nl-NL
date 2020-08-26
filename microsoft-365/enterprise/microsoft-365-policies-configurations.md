@@ -1,14 +1,14 @@
 ---
 title: Configuraties voor identiteits-en Apparaattoegang-Microsoft 365 for Enterprise
 description: Beschrijving van Microsoft-aanbevelingen en basisconcepten voor het implementeren van beveiligde e-mail, documenten en het configureren van beveiligde e-mail, documenten en apps.
-author: brendacarter
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 09/11/2018
 f1.keywords:
 - NOCSH
-ms.author: bcarter
 ms.reviewer: martincoetzer
 ms.custom:
 - it-pro
@@ -17,12 +17,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: f39b5d72de630674ea6d58c30eadf211917de10d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: e76ed8869f2e3bc3198eeff6dc4fcec777d0ce26
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686624"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898162"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
@@ -64,15 +64,14 @@ Elke bedrijfstak heeft ook een eigen set gespecialiseerde voorschriften. In plaa
 
 In deze richtlijnen wordt uitgelegd hoe u beveiliging voor identiteiten en apparaten kunt implementeren voor elk van deze beveiligingsniveaus. U kunt deze richtlijnen gebruiken als uitgangspunt voor uw organisatie en de beleidsregels aanpassen zodat ze voldoen aan de specifieke vereisten van uw organisatie.
 
-Het is belangrijk dat u een consistent beveiligingsniveau gebruikt voor uw gegevens, identiteiten en apparaten. Als u bijvoorbeeld deze richtlijnen implementeert, moet u ervoor zorgen dat u uw gegevens beveiligt tegen vergelijkbare niveaus. In deze architectuur modellen wordt aangegeven welke mogelijkheden vergelijkbaar zijn.
+Het is belangrijk dat u een consistent beveiligingsniveau gebruikt voor uw gegevens, identiteiten en apparaten. Als u bijvoorbeeld deze richtlijnen implementeert, moet u ervoor zorgen dat u uw gegevens beveiligt tegen vergelijkbare niveaus. 
 
-**Identiteit en bescherming van apparaten voor Office 365**<br/>
+De **identiteit en beveiliging van Office 365** Architecture-model laat u zien welke mogelijkheden vergelijkbaar zijn.
+
 ![Miniatuur van poster en beveiliging van identiteit en apparaat voor Office 365](../media/O365_Identity_device_protection_thumb.png)<br/>
 [PDF-bestand](https://go.microsoft.com/fwlink/p/?linkid=841656)  |  [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657)  |  [Meer talen](https://www.microsoft.com/download/details.aspx?id=55032)
 
-**File Protection Solutions in Office 365** (Oplossingen voor bestandsbeveiliging in Office 365)<br/>
-![Miniatuur van een poster met oplossingen voor bestandsbeveiliging in Office 365](../media/24be68b5-d852-4fdb-94ad-94491a19edd8.png)<br/>
-[PDF](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
+Zie ook de oplossing [gegevensbescherming implementeren voor data privacy Regulation](../solutions/information-protection-deploy.md) voor informatie over de bescherming van informatie die is opgeslagen in microsoft 365.
 
 ## <a name="security-and-productivity-trade-offs"></a>Beveiliging en productiviteits commerciële commerciële afschrijving
 

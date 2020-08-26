@@ -1,13 +1,13 @@
 ---
 title: 'Aanbevolen beleidsregels voor beveiliging van e-mail: Microsoft 365 for Enterprise | Microsoft docs'
 description: Een beschrijving van de beleidsregels voor Microsoft-aanbevelingen over het toepassen van e-mail beleidsregels en configuraties.
-author: brendacarter
-manager: laurawi
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: Laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.author: bcarter
 ms.reviewer: martincoetzer
 ms.custom:
 - it-pro
@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 39e7be86c06a471a4eefc0cacd3657c363eddae6
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 9c289006fc1501865b0cf5529c308a0986895504
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685604"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898138"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Beleids aanbevelingen voor beveiliging van e-mail
 
@@ -39,7 +39,7 @@ In het volgende diagram ziet u de gangbare beleidsregels voor identiteits-en App
 
 [Een grotere versie van deze afbeelding weergeven](https://raw.githubusercontent.com/MicrosoftDocs/microsoft-365-docs/public/microsoft-365/media/identity-access-ruleset-mail.png)
 
-Als u Exchange Online en Outlook hebt opgenomen in het bereik van de beleidsregels wanneer u deze instelt, hoeft u alleen het nieuwe beleid te maken om ActiveSync-clients te blokkeren. Bekijk de beleidsregels die in de volgende tabel worden vermeld en maak de aanbevolen toevoegingen, of Controleer of deze al zijn opgenomen. Elke regel koppelt aan de gekoppelde configuratie-instructies in het artikel [veelgebruikte beleidsregels voor identiteit en Apparaattoegang](identity-access-policies.md) .
+Als u Exchange Online en Outlook hebt opgenomen in het bereik van de beleidsregels wanneer u deze instelt, hoeft u alleen het nieuwe beleid te maken om ActiveSync-clients te blokkeren. Bekijk de beleidsregels die in de volgende tabel worden vermeld en maak de aanbevolen toevoegingen, of Controleer of deze al zijn opgenomen. Elke regel wordt gekoppeld aan de gekoppelde configuratie-instructies in een [gemeenschappelijk identiteits-en toegangsbeleid voor apparaten](identity-access-policies.md).
 
 |Beveiligingsniveau|Lijnen|Meer informatie|
 |:---------------|:-------|:----------------|

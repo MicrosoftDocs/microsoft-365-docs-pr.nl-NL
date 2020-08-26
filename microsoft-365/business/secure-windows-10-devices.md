@@ -26,19 +26,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
-description: Meer informatie over het configureren van de instellingen van het standaardapparaatbeleid dat elk Windows 10-apparaat ontvangt wanneer u zich aanmeldt bij hun werk- of schoolaccount.
-ms.openlocfilehash: 03ae86861ddb0cb83cd39b7834f19e01bf3e99e2
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: Lees meer over het configureren van de instellingen van het standaardbeleid voor apparaten die een Windows 10-apparaat ontvangt wanneer ze zich aanmelden bij hun werk-of schoolaccount.
+ms.openlocfilehash: b586e687d6b61873b77fac8586396ab51fd90b9b
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470622"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898063"
 ---
 # <a name="secure-windows-10-devices"></a>Windows 10-apparaten beveiligen
 
 Dit artikel is van toepassing op Microsoft 365 Business Premium.
 
-De instellingen die u hier configureert, maken deel uit van het standaardapparaatbeleid voor Windows 10. Alle gebruikers die een Windows 10-apparaat, inclusief mobiele apparaten en pc's, verbinden door zich aan te melden met hun werkaccount, ontvangen deze instellingen automatisch. Het is raadzaam om het standaardbeleid tijdens de installatie te accepteren en later beleidsregels toe te voegen die zijn afgestemd op specifieke groepen gebruikers.
+De instellingen die u hier configureert, maken deel uit van het standaardapparaatbeleid voor Windows 10. Alle gebruikers die verbinding maken met een Windows 10-apparaat, waaronder mobiele apparaten en Pc's, ontvangen automatisch de volgende instellingen als ze zich aanmelden met hun werkaccount. Het is raadzaam om het standaardbeleid tijdens de installatie te accepteren en later beleidsregels toe te voegen die zijn afgestemd op specifieke groepen gebruikers.
   
 ## <a name="settings-to-secure-windows-10-devices"></a>Instellingen voor het beveiligen van Windows 10-apparaten
 
@@ -51,8 +51,4 @@ Alle instellingen zijn standaard **ingeschakeld**. De volgende instellingen zijn
 |Bescherm pc's tegen internetdreigingen in Microsoft Edge  <br/> |Hiermee worden instellingen in Edge ingeschakeld die gebruikers helpen beschermen tegen schadelijke websites en downloads.  <br/> |
 |Apparaatscherm uitschakelen indien inactief gedurende deze periode  <br/> |Hiermee weet u zeker dat bedrijfsgegevens beveiligd zijn als een gebruiker niet actief is. Een gebruiker kan in een openbare locatie werken, zoals een café, en even weggaan of afgeleid worden, waardoor de informatie op het apparaat gemakkelijk door onbekenden bekeken kan worden. Met deze instelling kunt u bepalen hoelang de gebruiker inactief kan zijn voordat het scherm wordt uitgeschakeld.  <br/> |
 |Gebruikers toestaan om apps te downloaden vanuit de Microsoft Store  <br/> |Hiermee kunnen gebruikers apps downloaden en installeren vanuit de Microsoft Store. Omdat apps kunnen variëren van spelletjes tot productiviteitsprogramma's, laten we deze instelling **ingeschakeld**, maar u kunt de instelling uitschakelen voor extra beveiliging.  <br/> |
-|Gebruikers toestaan om Cortana te openen  <br/> |Cortana kan zeer nuttig zijn! Cortana kan instellingen voor u in- of uitschakelen, aanwijzingen geven en ervoor zorgen dat u op tijd bent voor afspraken, zodat we deze **instelling** standaard aan houden.  <br/> |
-|Gebruikers toestaan om Windows-tips en reclame van Microsoft te ontvangen  <br/> |Windows-tips kunnen handig zijn en gebruikers op weg helpen wanneer er nieuwe functies beschikbaar zijn.  <br/> |
-|Windows 10-apparaten automatisch bijwerken  <br/> |Hiermee ontvangen Windows 10-apparaten automatisch de nieuwste updates.  <br/> |
-   
-
+|

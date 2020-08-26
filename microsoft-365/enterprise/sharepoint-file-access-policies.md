@@ -1,13 +1,13 @@
 ---
 title: Aanbevolen beveiligings document beleid-Microsoft 365 for Enterprise | Microsoft docs
 description: Een beschrijving van de beleidsregels voor Microsoft-aanbevelingen over het beveiligen van toegang tot SharePoint-bestanden.
-author: BrendaCarter
-manager: laurawi
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: Laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.author: bcarter
 ms.date: 06/07/2018
 ms.reviewer: martincoetzer
 ms.custom:
@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 25f58582ae912211f72aaf17c2dab338ebb21c7e
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 1cd56b7b02dedfbdb544b49410d231f08a0d4c67
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695036"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898150"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Beleids aanbevelingen voor het beveiligen van SharePoint-sites en-bestanden
 

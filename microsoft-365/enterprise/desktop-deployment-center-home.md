@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Het bereiken van de bronnen die overeenkomen met het afgeschafte Bureaubladimplementatie centrum.
-ms.openlocfilehash: 6db35ba51f06c7cca025112ebd1bb8d718b7842c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0dc5816959c5284739de4dee31dde7cc520bde55
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686128"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898014"
 ---
 # <a name="desktop-deployment-center-deprecated"></a>Bureaubladimplementatie centrum (afgeschaft)
 
@@ -33,7 +33,7 @@ Gebruik deze informatiebronnen om moderne bureaubladen te implementeren:
 
 U kunt ook de Video's voor de [bureaubladimplementatie weergeven vanuit Microsoft-mechanismen](https://www.aka.ms/watchhowtoshift).
 
-U kunt ook [zoeken naar hulp](https://aka.ms/mddhelp) voor uw desktopimplementatie van Microsoft-partners en FastTrack-services.
+U kunt ook hulp krijgen van uw bureaubladimplementatie van Microsoft partners en [FastTrack](https://www.microsoft.com/fasttrack/microsoft-365).
 
 ## <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit
 

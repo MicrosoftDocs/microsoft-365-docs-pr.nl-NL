@@ -1,5 +1,5 @@
 ---
-title: Externe e-mail doorsturen configureren en beheren, Automatisch doorsturen, 5.7.520 Access Denied, uitschakelen van extern doorsturen, Uw beheerder heeft extern doorsturen uitgeschakeld, uitgaand antispambeleid
+title: Externe e-mailberichten configureren en beheren, automatisch doorsturen, 5.7.520 toegang geweigerd, externe forwarding uitschakelen, de beheerder heeft extern doorsturen uitgeschakeld, beleid voor uitgaand Antispambeleid
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -14,38 +14,43 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: 88c3dae4f5a6786fe4eddea0d5e1c61dda837a87
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 7cb2ab9c6987900f2b53a17c3eda49001bca4d84
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080111"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898050"
 ---
-# <a name="configuring-external-email-forwarding-in-office-365"></a>Externe e-mail doorsturen configureren in Office 365
+# <a name="configuring-external-email-forwarding-in-office-365"></a>Externe e-mail forwarding configureren in Office 365
 
-Extern doorsturen wordt beheerd door het *uitgaande antispambeleid* en scoped naar gebruikers op basis van de geconfigureerde instelling. Momenteel worden 3 instellingen ondersteund:
+Extern doorsturen wordt bepaald door het *uitgaande Antispambeleid* en de reikwijdte van de gebruikers op basis van de geconfigureerde instelling. Momenteel worden de instellingen voor 3 weer geboden:
 
-- **Automatisch** - In deze modus is het systeem verantwoordelijk voor de beslissing of een doorgestuurd bericht is toegestaan of niet.  Dit is de standaardmodus en in deze modus blokkeert het systeem automatisch extern doorsturen.
+- **Automatisch** : in deze modus is het systeem verantwoordelijk voor het bepalen of een doorgestuurd bericht wel of niet is toegestaan.  Dit is de standaardmodus en in deze modus wordt het automatisch extern doorsturen van het systeem blokkeren.
 
-- **Aan** – Automatisch extern doorsturen is toegestaan en niet beperkt.
+- **On** -automatisch extern doorsturen is toegestaan en niet beperkt.
 
-- **Uit** - Automatisch extern doorsturen is uitgeschakeld en resulteert in een Non-delivery report (NDR) aan de eindgebruiker.
+- **Uitgeschakeld** – automatisch extern doorsturen is uitgeschakeld en resulteert in een rapport over niet-uitgevoerde bezorging (NDR) voor de eindgebruiker.
 
-Zie [Uitgaande spamfiltering configureren in EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide) voor meer informatie over het configureren van deze instellingen.
+Zie [uitgaande spamfilters configureren in EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide) voor meer informatie over het configureren van deze instellingen.
 
 ## <a name="controlling-external-email-forwarding"></a>Externe e-mail doorsturen beheren
 
-Als beheerder van een organisatie u bedrijfsvereisten hebben om te beperken of te bepalen wie e-mails automatisch kan doorsturen met behulp van inboxregels of SMTP-doorsturen buiten de organisatie. E-mail doorsturen kan een nuttige functie zijn, maar kan ook een risico vormen door de mogelijke openbaarmaking van informatie, zelfs door het verstrekken van informatie aan aanvallers die kunnen worden gebruikt om de organisatie of haar partners aan te vallen.
+Als beheerder van een organisatie hebt u mogelijk de mogelijkheid om te bepalen welke e-mailberichten automatisch kunnen worden doorgestuurd met behulp van regels voor Postvak in of het doorsturen van SMTP, buiten de organisatie. Het doorsturen van e-mail kan een handige functie zijn, maar kan ook een risico vormen via de potentiële informatie informatie, zelfs door informatie te verstrekken aan kwaadwillende gebruikers die kunnen worden gebruikt om de organisatie of haar partners te bezorgen.
 
-Office 365 staat geen automatische externe doorschakeling toe via inboxregels of postvakconfiguratie, wat een veilig standaardbeleid biedt. De beheerder kan deze instellingen echter wijzigen voor alle of sommige gebruikers in de organisatie. Het doorsturen van berichten tussen interne gebruikers wordt niet beïnvloed door een dergelijke wijziging.
+In Office 365 is automatisch extern doorsturen niet toegestaan door regels voor Postvak in of de configuratie van het e-mailbericht, dat een veilig standaardbeleid biedt. De beheerder kan deze instellingen echter wijzigen voor alle gebruikers in de organisatie. Het doorsturen van berichten tussen interne gebruikers wordt niet beïnvloed door een wijziging.
 
 > [!NOTE]
-> Het uitschakelen van automatisch doorsturen naar externe adressen in Office 365 wordt gefaseerd uitgerold, waarbij details worden gecommuniceerd via [berichten in het Berichtencentrum.](https://admin.microsoft.com/Adminportal/Home?source=applauncher&ref=/MessageCenter) Om beheerders te helpen zich voor te bereiden op deze wijzigingen, moet u het beleid van tevoren wijzigen om ervoor te zorgen dat er geen verstoring is voor hun gebruikers.
+> Als u automatisch doorsturen naar externe adressen in Office 365 uitschakelt, wordt deze uitgerold in fasen met details die zijn gecommuniceerd via berichten in het [berichtencentrum](https://admin.microsoft.com/Adminportal/Home?source=applauncher&ref=/MessageCenter) . Om te voorkomen dat deze wijzigingen door de beheerder worden voorgezet, kunnen ze beleidsregels op een juiste moment wijzigen om ervoor te zorgen dat hun gebruikers geen onderbrekingen hebben.
 
-Meer informatie over gebruikers die automatisch doorsturen gebruiken (regels voor inbox of SMTP-doorsturen) in uw organisatie, vindt u in het [rapport automatisch doorgestuurde berichten.](https://docs.microsoft.com/microsoft-365/security/office-365-security/mfi-auto-forwarded-messages-report?view=o365-worldwide)
+Meer informatie over gebruikers die automatisch doorsturen (regels voor Postvak in of het doorsturen van e-mail) in uw organisatie worden gebruikt, vindt u in het [rapport automatisch doorgestuurde berichten](https://docs.microsoft.com/microsoft-365/security/office-365-security/mfi-auto-forwarded-messages-report?view=o365-worldwide).
 
-## <a name="the-blocked-email-forwarding-message"></a>Het geblokkeerde e-mailbericht
+## <a name="how-does-this-policy-work-with-other-automatic-forwarding-controls"></a>Hoe werkt dit beleid met andere besturingselementen voor automatisch doorsturen
 
-Wanneer een bericht wordt gedetecteerd als automatisch doorgestuurd en het organisatiebeleid *blokkeert* dat de activiteit een **Non-delivery rapport (NDR)** zal worden gegenereerd terug naar de eindgebruiker. Het rapport geeft aan dat het bericht niet is bezorgd. De NDR heeft de volgende indeling: 
+Als beheerder hebt u mogelijk al een ander typebesturingselement ter plaatse, zodat het automatisch doorsturen in [externe domeinen](https://docs.microsoft.com/exchange/mail-flow-best-practices/remote-domains/remote-domains) en het gebruik van een ETR toe (Exchange-Transport regel) wordt geblokkeerd. Beide besturingselementen zijn niet van toepassing op deze specifieke functie, bijvoorbeeld als u automatisch doorsturen wilt toestaan voor een extern domein, maar automatisch doorsturen wilt blokkeren via het uitgaande spam beleid. Ook als u automatisch doorsturen in het beleid voor uitgaande spam toestaat maar dit blokkeert in een ETR toe of een extern domein, wordt het bericht geblokkeerd door een van deze besturingselementen. U kunt bijvoorbeeld automatisch doorsturen in het beleid voor uitgaande spam toestaan en externe domeinen gebruiken om te bepalen met welke domeinen gebruikers automatisch berichten kunnen doorsturen.
+
+
+## <a name="the-blocked-email-forwarding-message"></a>Bericht met doorsturen van geblokkeerde e-mail
+
+Wanneer een bericht wordt weergegeven als automatisch doorgeschakeld en het organisatiebeleid *blokkeert* deze activiteit, wordt een **NDR-rapport (Non-Delivery Report)** weergegeven voor de eindgebruiker. In het rapport wordt aangegeven dat het bericht niet is afgeleverd. De NDR heeft de volgende indeling: 
 
 `5.7.520 Access Denied – Your administrator has disabled external forwarding – AS(XXXX)`

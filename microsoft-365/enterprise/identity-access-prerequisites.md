@@ -1,13 +1,13 @@
 ---
 title: Vereisten voor het implementeren van identiteits-en Apparaattoegang-beleid-Microsoft 365 for Enterprise | Microsoft docs
 description: Een beschrijving van de beleidsregels voor Microsoft aanbevelingen voor het toepassen van beleidsregels en configuraties voor identiteiten en apparaten.
-author: BrendaCarter
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: Laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.author: bcarter
 ms.reviewer: martincoetzer
 ms.custom:
 - it-pro
@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 295e1c713b97740fcf40e9607e650c242a68c035
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: a81e17cad1722c58f5bf13b2a36c16fc2ff5cba4
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685876"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898038"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Vereisten voor het implementeren van identiteits-en Apparaattoegang
 

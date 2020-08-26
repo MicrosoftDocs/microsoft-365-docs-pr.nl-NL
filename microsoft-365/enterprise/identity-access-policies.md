@@ -1,13 +1,13 @@
 ---
 title: Gangbare beleidsregels voor identiteit en Apparaattoegang-Microsoft 365 for Enterprise | Microsoft docs
 description: Een beschrijving van de beleidsregels voor Microsoft aanbevelingen voor het toepassen van beleidsregels en configuraties voor identiteiten en apparaten.
-author: BrendaCarter
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: Laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.author: bcarter
 ms.reviewer: martincoetzer
 ms.custom:
 - it-pro
@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 676a37752e24b238117ec238bc171b9df723e247
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 699bc04c8e286c004e1f47ae6825ae311434d9cb
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685972"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898114"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Algemeen beleid voor identiteiten en apparaattoegang
 In dit artikel wordt het aanbevolen beleid beschreven voor de beveiliging van de toegang tot cloudservices, waaronder on-premises toepassingen die zijn gepubliceerd met de Azure AD-toepassings proxy. 
@@ -179,8 +179,8 @@ Meld u aan bij de [Microsoft Azure https://portal.azure.com) -Portal (](https://
 
 | Type | Eigenschappen | Waarden                  | Opmerkingen |
 |:-----|:-----------|:------------------------|:------|
-|      | Toegang     | Toegang toestaan            | Waar  |
-|      | Toegang     | Wachtwoord wijzigen vereist | Waar  |
+|      | Access     | Toegang toestaan            | Waar  |
+|      | Access     | Wachtwoord wijzigen vereist | Waar  |
 
 **Revisie:** niet van toepassing
 
@@ -250,7 +250,7 @@ Maak een beleid voor elk platform:
 - Android Enterprise
 - iOS-iPadOS
 - macOS
-- Windows Phone 8,1
+- Windows Phone 8.1
 - Windows 8,1 en hoger
 - Windows 10 en hoger
 
@@ -275,14 +275,14 @@ De volgende instellingen worden aanbevolen voor Windows 10.
 
 |Type|Eigenschappen|Waarden|Opmerkingen|
 |:---|:---------|:-----|:----|
-|Versie van besturingssysteem|Al|Niet geconfigureerd||
+|Versie van besturingssysteem|Alles|Niet geconfigureerd||
 
 **Systeembeveiliging**
 
 |Type|Eigenschappen|Waarden|Opmerkingen|
 |:---|:---------|:-----|:----|
 |Wachtwoord|Een wachtwoord vereisen om mobiele apparaten te ontgrendelen|Dient||
-||Eenvoudige wachtwoorden|Geheven||
+||Eenvoudige wachtwoorden|Blokkeren||
 ||Type wachtwoord|Apparaat standaard||
 ||Minimale wachtwoordlengte|zes||
 ||Maximum aantal minuten van inactiviteit voordat wachtwoord is vereist|15|Deze instelling wordt ondersteund voor Android-versies 4,0 en hoger of KNOX 4,0 en hoger. Voor iOS-apparaten is de ondersteuning voor iOS 8,0 en hoger.|

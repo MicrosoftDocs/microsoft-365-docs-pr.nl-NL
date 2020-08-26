@@ -1,13 +1,13 @@
 ---
 title: Beleid voor identiteits-en toegangsbeleid voor het verlenen van toegang via gast en externe B2B-Microsoft 365 voor Enterprise | Microsoft docs
 description: Een beschrijving van de aanbevolen voorwaardelijke toegang en gerelateerde beleidsregels voor de bescherming van de toegang van gasten en externe gebruikers.
-author: BrendaCarter
-manager: johmar
 ms.prod: microsoft-365-enterprise
 ms.topic: article
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: Laurawi
 f1.keywords:
 - NOCSH
-ms.author: bcarter
 ms.reviewer: martincoetzer
 ms.custom:
 - it-pro
@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 0ab4a2d48a1ac90f48bbfee82239fc0c4c1d55d5
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: ad1203543db1c2bd0ea9e9bdd3433aad58db320b
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686824"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898102"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Beleid voor het toestaan van toegang via gast en externe B2B
 In dit artikel wordt uitgelegd hoe u de aanbevolen beleidsregels voor identiteiten en toegang tot toegangsrechten voor B2B-accounts (gast en externe gebruikers) kunt aanpassen. Deze richtlijnen zijn van toepassing op de [veelgebruikte beleidsregels voor identiteit en toegang tot apparaten](identity-access-policies.md).
