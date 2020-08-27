@@ -17,12 +17,12 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 description: Deze Azure-beheerdersrollen beheren in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: d35daab57446fd2a6a052f7e0fca29af7910c5f9
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: afb025feb6e867b16be7a844a5f48ef42759b543
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432469"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898026"
 ---
 # <a name="azure-active-directory-roles-in-the-microsoft-365-admin-center"></a>Azure Activity Directory-rollen in het Microsoft 365-beheercentrum
 
@@ -68,6 +68,7 @@ Hieronder ziet u een lijst met alle beheerdersrollen die beschikbaar zijn in het
 |Privacy-lezer voor berichtencentrum     |    Toegang tot privacy-berichten in Berichtencentrum, ontvangt e-mail meldingen.     |
 |Berichtencentrumlezer     | Leest en deelt normale berichten in Berichtencentrum, ontvangt wekelijkse e-mailsamenvattingen, heeft alleen-lezen toegang tot gebruikers, groepen, domeinen en abonnementen.     |
 |Office-apps beheerder    |   Beheert cloudgebaseerd beleid voor Office en de nieuwe inhoud die gebruikers in hun Office-apps zien.   |
+|Wachtwoordbeheerder    |   Wachtwoorden opnieuw instellen voor gebruikers die niet-beheerders of leden van de volgende rollen zijn: adreslijstlezers, gastuitnodiger, wachtwoordbeheerder. Deze rol kan het beheren van serviceaanvragen of het controleren van de servicestatus niet toestaan.   |
 |Power BI-beheerder    |   Volledige toegang tot Power BL-beheertaken, beheert serviceaanvragen en bewaakt de servicestatus.   |
 |Power platform-beheerder     |    Volledige toegang tot Microsoft Dynamics 365, PowerApps, beleid voor preventie van gegevensverlies en Microsoft Flow.     |
 |Beheerder van rolbevoegdheden     |    Hiermee beheert u roltoewijzingen en alle toegangsbeheerfuncties voor het beheer van vertrouwde identiteiten.     |
