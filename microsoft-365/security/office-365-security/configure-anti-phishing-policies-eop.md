@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u het anti-phishingfilter kunt maken, wijzigen en verwijderen dat beschikbaar is in organisaties met een Exchange Online-bescherming (EOP) met of zonder postvakken van Exchange Online.
-ms.openlocfilehash: af6577d32d43300867d29a365baaa4e1e7e1b5e3
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 3b83bcd3c60dbd779d727a79f6689fdf0004d340
+ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825747"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255755"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Anti-phishings beleid configureren in EOP
 
@@ -42,7 +42,7 @@ Het verschil tussen deze twee elementen is niet duidelijk wanneer u een anti-phi
 - Wanneer u een anti-phishingfilter wijzigt, worden de instellingen voor de naam, prioriteit, ingeschakeld of uitgeschakeld en de filters voor geadresseerden gewijzigd. Alle andere instellingen wijzigen het bijbehorende anti-phishings beleid.
 - Wanneer u een anti phishingfilter verwijdert, worden de anti-phishings regel en het bijbehorende anti-onphishings beleid verwijderd.
 
-In Exchange Online PowerShell beheert u het beleid en de regel afzonderlijk. Zie voor meer informatie de sectie [Exchange Online PowerShell gebruiken voor het configureren van anti-phishingfilter](#use-exchange-online-powershell-to-configure-anti-phishing-policies) -secties verderop in dit onderwerp.
+In Exchange Online PowerShell beheert u het beleid en de regel afzonderlijk. Zie voor meer informatie de sectie [Exchange Online PowerShell gebruiken voor het configureren van anti-phishingfilter](#use-exchange-online-powershell-to-configure-anti-phishing-policies) -secties verderop in dit artikel.
 
 Elke organisatie heeft een ingebouwd anti-phishingfilter met de naam Office365 AntiPhish standaard met de volgende eigenschappen:
 
@@ -60,7 +60,7 @@ Voor een grotere effectiviteit van de bescherming tegen phishing is het mogelijk
 
   U kunt geen anti-phishings beleid beheren in standalone EOP PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om de procedures in dit onderwerp te kunnen uitvoeren:
+- U moet machtigingen zijn toegewezen voordat u de procedures in dit artikel kunt uitvoeren:
 
   - Als u een anti-phishingfilter wilt toevoegen, wijzigen of verwijderen, moet u lid zijn van een van de volgende groepen rollen:
 
@@ -72,7 +72,7 @@ Voor een grotere effectiviteit van de bescherming tegen phishing is het mogelijk
     - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
     - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-- Als u een anti-spam beleid wilt kunnen maken en wijzigen in standalone EOP, moet u iets doen waarvoor _bidons_ voor uw Tenant is vereist. In het Exchange-Beheercentrum gaat u bijvoorbeeld naar het tabblad **machtigingen** , selecteert u een bestaande rollen groep, klikt u op **Edit** ![ pictogram bewerken bewerken ](../../media/ITPro-EAC-EditIcon.png) en verwijdert u een functie (die u uiteindelijk later gaat toevoegen). Als uw Tenant nooit is gehydrateerd, krijgt u een dialoogvenster met de naam **organisatie-instellingen bijwerken** met een voortgangsbalk die succesvol moet worden voltooid. Als u meer wilt weten over bidons, raadpleegt u de cmdlet [Enable-OrganizationCustomization](https://docs.microsoft.com/powershell/module/exchange/enable-organizationcustomization) (die niet beschikbaar is in een zelfstandige EOP PowerShell of in het beveiligings & nalevings centrum).
+- Als u een anti-phishings beleid wilt maken en wijzigen in een zelfstandige EOP, moet u iets doen waarvoor _bidons_ voor uw Tenant is vereist. In het Exchange-Beheercentrum gaat u bijvoorbeeld naar het tabblad **machtigingen** , selecteert u een bestaande rollen groep, klikt u op **Edit** ![ pictogram bewerken bewerken ](../../media/ITPro-EAC-EditIcon.png) en verwijdert u een functie (die u uiteindelijk later gaat toevoegen). Als uw Tenant nooit is gehydrateerd, krijgt u een dialoogvenster met de naam **organisatie-instellingen bijwerken** met een voortgangsbalk die succesvol moet worden voltooid. Als u meer wilt weten over bidons, raadpleegt u de cmdlet [Enable-OrganizationCustomization](https://docs.microsoft.com/powershell/module/exchange/enable-organizationcustomization) (die niet beschikbaar is in een zelfstandige EOP PowerShell of in het beveiligings & nalevings centrum).
 
 - Voor de aanbevolen instellingen voor het anti-phishings beleid raadpleegt u [EOP standaard anti phishingfilter-beleidsinstellingen](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings).
 
@@ -269,7 +269,7 @@ U kunt het standaardbeleid niet verwijderen.
 
 ## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies"></a>Een anti phishingfilter configureren met Exchange Online PowerShell
 
-Zoals hierboven beschreven, bestaat een anti-spam beleid en een anti-phishings regel.
+Zoals hierboven beschreven, bestaat een anti-phishings beleid en een anti-phishings regel.
 
 In Exchange Online PowerShell is het verschil tussen anti-malwarebeleid en anti-phishing regels zichtbaar. U een anti-phishings beleid beheert met behulp van de cmdlets ** \* AntiPhishPolicy** en u beheert de anti-phishings regels met behulp van de cmdlets voor ** \* AntiPhishRule** .
 
@@ -306,9 +306,8 @@ Voor het maken van een anti-phishings beleid gebruikt u de volgende syntaxis:
 New-AntiPhishPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-EnableAntiSpoofEnforcement <$true | $false>] [-AuthenticationFailAction <MoveToJmf | Quarantine>] [-EnableUnauthenticatedSender <$true | $false>]
 ```
 
-In dit voorbeeld wordt een anti-phishings beleid met de naam onderzoek quarantaine gemaakt met de volgende instellingen:
+In het volgende voorbeeld wordt een anti-phishings beleid met de naam onderzoek Quarantine gemaakt met de volgende instellingen:
 
-- Het beleid is ingeschakeld (de parameter _enabled_ wordt niet gebruikt en de standaardwaarde is `$true` ).
 - De beschrijving luidt: afdelings beleid voor onderzoek.
 - Wijzigt de standaardactie voor spoofing in Quarantine.
 
@@ -394,7 +393,7 @@ Zie [Get-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/Ge
 
 ### <a name="use-powershell-to-modify-anti-phish-policies"></a>PowerShell gebruiken om een anti-phishings beleid te wijzigen
 
-Met uitzondering van de volgende items zijn dezelfde instellingen beschikbaar wanneer u een anti-phishings beleid in PowerShell aanpast wanneer u het beleid maakt zoals wordt beschreven in de sectie [stap 1: gebruik PowerShell om een anti-phishings sectie te maken](#step-1-use-powershell-to-create-an-anti-phish-policy) eerder in dit onderwerp.
+Met uitzondering van de volgende items zijn dezelfde instellingen beschikbaar wanneer u een anti-phishings beleid in PowerShell aanpast wanneer u een beleid maakt zoals wordt beschreven in [stap 1: PowerShell gebruiken om een anti-phishings beleid te maken](#step-1-use-powershell-to-create-an-anti-phish-policy) eerder in dit artikel.
 
 - De schakeloptie _MakeDefault_ waarmee het opgegeven beleid wordt omgezet in het standaardbeleid (voor iedereen, de **laagste** prioriteit en het niet verwijderen) is alleen beschikbaar wanneer u een anti-Echobeleid wijzigt in PowerShell.
 
@@ -410,9 +409,9 @@ Zie [set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/
 
 ### <a name="use-powershell-to-modify-anti-phish-rules"></a>PowerShell gebruiken om anti-phishings regels te wijzigen
 
-De enige instelling die niet beschikbaar is wanneer u een anti-phishings regel wijzigt in PowerShell is de _ingeschakelde_ parameter waarmee u een uitgeschakelde regel kunt maken. Zie de volgende sectie als u bestaande anti-Phish regels wilt in-of uitschakelen.
+De enige instelling die niet beschikbaar is wanneer u een anti-phishing regel wijzigt in PowerShell is de _ingeschakelde_ parameter waarmee u een uitgeschakelde regel kunt maken. Zie de volgende sectie als u bestaande anti-Phish regels wilt in-of uitschakelen.
 
-Anders zijn er geen extra instellingen beschikbaar wanneer u een anti-phishing regel wijzigt in PowerShell. U kunt dezelfde instellingen gebruiken wanneer u een regel maakt zoals wordt beschreven in [stap 2: PowerShell gebruiken om een anti-phishings sectie te maken](#step-2-use-powershell-to-create-an-anti-phish-rule) eerder in dit onderwerp.
+U kunt ook dezelfde instellingen gebruiken als u een regel maakt zoals wordt beschreven in [stap 2: PowerShell gebruiken voor het maken van een anti-phishing](#step-2-use-powershell-to-create-an-anti-phish-rule) sectie, eerder in dit artikel.
 
 Gebruik de volgende syntaxis om een anti-phishing regel te wijzigen:
 
@@ -444,7 +443,7 @@ In dit voorbeeld wordt dezelfde regel ingeschakeld.
 Enable-AntiPhishRule -Identity "Marketing Department"
 ```
 
-Zie [Enable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/enable-AntiPhishrule) en [Disable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/disable-AntiPhishrule)voor gedetailleerde syntaxis-en parameterinformatie.
+Zie [Enable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/enable-antiphishrule) en [Disable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/disable-antiphishrule)voor gedetailleerde syntaxis-en parameterinformatie.
 
 ### <a name="use-powershell-to-set-the-priority-of-anti-phish-rules"></a>PowerShell gebruiken om de prioriteit van anti-phishings regels in te stellen
 
@@ -513,7 +512,7 @@ Voer een of meer van de volgende stappen uit om te controleren of u het juiste b
   - Selecteer een beleid in de lijst en Bekijk de details in de vervolgkeuzelijst.
   - Klik op **standaardbeleid** en Bekijk de details in het vervolgmenu.
 
-- In Exchange Online PowerShell vervangt u \<Name\> de naam van het beleid of de regel en voert u de volgende opdracht uit en controleert u de instellingen:
+- In Exchange Online PowerShell vervangt u de \<Name\> naam van het beleid of de regel door de volgende opdracht uit te voeren en de instellingen te controleren:
 
   ```PowerShell
   Get-AntiPhishPolicy -Identity "<Name>"

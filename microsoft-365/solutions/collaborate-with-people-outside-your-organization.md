@@ -1,5 +1,5 @@
 ---
-title: Samenwerken met mensen buiten uw organisatie
+title: Samenwerken met personen buiten uw organisatie
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -15,51 +15,51 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
-description: Meer informatie over het configureren van Microsoft 365 voor samenwerking met mensen buiten uw organisatie.
-ms.openlocfilehash: 8bde8a3ffe4ab4ec8d0a0ada8e7c6030d00a549b
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+description: Configureer Microsoft 365 zodat delen en extra beveiliging wordt ingeschakeld wanneer u externe gebruikers uitnodigt om samen te werken in teams en SharePoint-sites te delen.
+ms.openlocfilehash: f8dc81ae32bed7a12daf21955ada60ab852d4617
+ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527846"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255789"
 ---
-# <a name="collaborating-with-people-outside-your-organization"></a>Samenwerken met mensen buiten uw organisatie
+# <a name="collaborating-with-people-outside-your-organization"></a>Samenwerken met personen buiten uw organisatie
 
-De externe mogelijkheden voor delen in Microsoft 365 bieden mensen in uw organisatie de mogelijkheid om samen te werken met partners, leveranciers, klanten en anderen die geen account in uw directory hebben. U hele teams of sites delen met mensen buiten uw organisatie, of alleen met afzonderlijke bestanden.
+De mogelijkheden voor extern delen in Microsoft 365 bieden een mogelijkheid voor personen in uw organisatie om samen te werken met partners, leveranciers, klanten en andere personen die geen account in de adreslijst hebben. U kunt hele teams of sites delen met personen buiten uw organisatie of alleen met afzonderlijke bestanden.
 
-Samenwerken met mensen buiten uw organisatie bestaat uit twee belangrijke onderdelen:
+Samenwerken met personen buiten uw organisatie bestaat uit twee belangrijke onderdelen:
 
-- **Delen inschakelen** : configureer de besturingselementen voor delen in Azure Active Directory, Teams, Microsoft 365-groepen en SharePoint om het gewenste niveau van delen voor uw organisatie mogelijk te maken.
-- **Extra beveiliging inschakelen** - Hoewel de basisfuncties voor delen kunnen worden geconfigureerd om mensen buiten uw organisatie te verplichten zich te verifiëren, biedt Microsoft 365 veel extra beveiligings- en nalevingsfuncties om u te helpen uw gegevens te beschermen en uw governancebeleid te onderhouden terwijl u extern wordt gedeeld.
+- **Delen inschakelen** -Configureer de besturingselementen voordelen in azure Active Directory, teams, microsoft 365-groepen en SharePoint om het gewenste niveau voordelen toe te staan voor uw organisatie.
+- **Extra veiligheid inschakelen** -hoewel de functies voordelen van basisbeheer kunnen worden geconfigureerd om personen van buiten uw organisatie te verifiëren, biedt microsoft 365 tal van extra beveiligings-en compliance functies waarmee u uw gegevens kunt beschermen en uw beheerbeleid kunt behouden terwijl u extern deelt.
 
 ## <a name="enable-sharing"></a>Delen inschakelen
 
-Standaard is delen met mensen buiten uw organisatie in Microsoft 365 ingeschakeld voor SharePoint en OneDrive, maar uitgeschakeld voor Teams. Veel scenario's voor extern delen van SharePoint en OneDrive werken zonder verdere configuratie. Als u de instellingen wilt bevestigen voor een scenario dat u gebruikt of een nieuw scenario wilt inschakelen, kiest u uit de volgende opties:
+Standaard is in Microsoft 365 delen met personen buiten uw organisatie ingeschakeld voor SharePoint en OneDrive, maar uitgeschakeld voor teams. Tal van SharePoint-en OneDrive-scenario's voor extern delen werken zonder verdere configuratie. Kies een van de volgende opties als u de instellingen wilt controleren voor een scenario dat u gebruikt, of dat u een nieuw scenario wilt inschakelen:
 
-- [Samenwerken aan documenten](collaborate-on-documents.md) : lees hoe u Microsoft 365 configureert om delen en samenwerken met mensen buiten uw organisatie (zowel gasten als niet-geverifieerde gebruikers) op bestanden en mappen mogelijk te maken.
-- [Samenwerken in een site](collaborate-in-site.md) - Meer informatie over het configureren van Microsoft 365 om het delen van SharePoint-sites met gasten mogelijk te maken.
-- [Samenwerken als een team](collaborate-as-team.md) - Meer informatie over het configureren van Microsoft 365 om samenwerking met gasten in Teams mogelijk te maken.
+- [Samenwerken aan documenten](collaborate-on-documents.md) : informatie over het configureren van microsoft 365 zodat delen en samenwerken met mensen buiten uw organisatie (zowel gasten als niet-geverifieerde gebruikers) in bestanden en mappen kunnen worden gedeeld.
+- [Samenwerken aan een site](collaborate-in-site.md) : informatie over het configureren van microsoft 365 voor het delen van SharePoint-sites met gasten.
+- [Samenwerken als een team](collaborate-as-team.md) -Leer hoe u microsoft 365 kunt configureren om de samenwerking van gasten in teams in te schakelen.
 
-Zie [Microsoft 365-instellingen voor het delen van gasten](microsoft-365-guest-settings.md)voor een uitgebreide kijk op de instellingen voor het delen van gasten die beschikbaar zijn in Microsoft 365.
+Voor een uitgebreide weergave van de instellingen voor het delen van gasten die beschikbaar zijn in Microsoft 365, raadpleegt u [Microsoft 365 instellingen](microsoft-365-guest-settings.md)voor het delen van gasten.
 
 ## <a name="enable-additional-security"></a>Extra beveiliging inschakelen
 
-Als u het scenario hebt ingeschakeld dat u wilt gebruiken om te delen met mensen buiten uw organisatie, u aanvullende beveiligingen overwegen om uw inhoud te beschermen tegen onbedoeld of opzettelijk ongepast delen.
+Als u het scenario hebt ingeschakeld dat u wilt gebruiken om te delen met personen buiten uw organisatie, kunt u extra beveiligingsmaatregelen nemen om uw inhoud tegen accidenteel of opzettelijk delen te beschermen.
 
-- [Aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers](best-practices-anonymous-sharing.md) - Meer informatie over aanbevolen procedures voor het delen met niet-geverifieerde gebruikers.
-- [Beperk onbedoelde blootstelling](share-limit-accidental-exposure.md) - Leer hoe u de kans op het per ongeluk delen van gevoelige inhoud met mensen buiten uw organisatie verkleinen.
-- [Een veilige omgeving](create-secure-guest-sharing-environment.md) voor het delen van gasten maken - Meer informatie over de hulpprogramma's in Microsoft 365 om ervoor te zorgen dat delen met mensen buiten uw organisatie op een veilige en veilige manier gebeurt en voldoet aan uw governancevereisten.
+- [Aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers](best-practices-anonymous-sharing.md) : meer informatie over aanbevolen procedures voor het delen van gegevens met gebruikers die niet zijn geverifieerd.
+- [Beperking van Accidental blootstelling](share-limit-accidental-exposure.md) -Leer hoe u een onopzettelijke beperking van gevoelige inhoud kunt delen met personen buiten uw organisatie.
+- [Een beveiligde omgeving](create-secure-guest-sharing-environment.md) voor het delen van inhoud maken: meer informatie over de hulpmiddelen in microsoft 365 om te zorgen dat delen met personen buiten uw organisatie op een veilige en veilige manier geschiedt en voldoen aan de vereisten van uw beheer.
 
 ## <a name="collaborate-with-partner-companies"></a>Samenwerken met partnerbedrijven
 
-Wanneer u werkt aan een groot project waarbij veel gasten uit een andere organisatie betrokken zijn, of als u een doorlopende leveranciersrelatie hebt waarin gasten vaak veranderen, u rechtenbeheer gebruiken in Azure Active Directory om het gastbeheer te vereenvoudigen en het partnerbedrijf in staat te stellen die verantwoordelijkheid te delen. Zie [Maak een B2B-extranet met beheerde gasten](b2b-extranet.md) voor meer informatie.
+Wanneer u aan een groot project werkt dat veel gasten van een andere organisatie omvat, of als u een aanhoudende leveranciers relatie hebt waarin gasten vaak veranderen, kunt u het beheer van de eigenaars in azure Active Directory gebruiken om het beheer van de organisatie te vereenvoudigen en te zorgen dat de organisatie van deze verantwoordelijkheden deelt. Zie [een B2B-extranet met beheerde gasten maken](b2b-extranet.md) voor meer informatie.
 
 ## <a name="limit-sharing"></a>Delen beperken
 
-Zie [Delen beperken in Microsoft 365](microsoft-365-limit-sharing.md) voor meer informatie over opties voor het beperken van delen als sommige van de functies voor delen in Microsoft 365 in strijd zijn met uw governancebeleid.
+Als sommige van de functies voordelen in Microsoft 365 conflicteren met uw beheerbeleid, raadpleegt u [beperkingen voordelen in Microsoft 365](microsoft-365-limit-sharing.md) voor meer informatie over opties voor het beperken van delen.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Intro om samenwerking in Microsoft 365 in te dienen](https://docs.microsoft.com/sharepoint/intro-to-file-collaboration)
+[Inleiding tot samenwerken aan bestanden in Microsoft 365](https://docs.microsoft.com/sharepoint/intro-to-file-collaboration)
 
-[Bestandssamenwerking plannen in SharePoint met Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration)
+[Samenwerken aan bestanden plannen in SharePoint met Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration)

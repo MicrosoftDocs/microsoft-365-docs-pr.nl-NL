@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1fa80d79c1802d96fc755def3b8ec15af13b0c9
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 75d709cc1f98a12bb6f5a5b6539583a33be500b6
+ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649401"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255743"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Ervaring opzeggen met een geavanceerde jacht in Microsoft Threat Protection
 
@@ -51,7 +51,7 @@ We raden u aan meerdere stappen uit te voeren om snel aan de slag te gaan met de
 | **Meer informatie over het gebruik van de queryresultaten** | Meer informatie over grafieken en verschillende manieren waarop u uw resultaten kunt weergeven of exporteren. Ontdek hoe u snel aan de slag kunt met query's, inzoomen om meer informatie te verkrijgen en antwoord acties te ondernemen. | - [Werken met queryresultaten](advanced-hunting-query-results.md)<br>- [Actie ondernemen op queryresultaten](advanced-hunting-take-action.md) |
 | **Meer informatie over het schema** | U kunt beter inzicht krijgen in de tabellen in het schema en de bijbehorende kolommen. Dit helpt u bij de locatie van de zoekresultaten en de manier waarop u query's opstelt. | [Overzicht van schema](advanced-hunting-schema-tables.md) |
 | **Voor gebruik van vooraf gedefinieerde query's** | Verken verzamelingen van vooraf gedefinieerde query's met verschillende scenario's voor bedreigings jacht. | - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)<br>- [Ga naar zoeken](advanced-hunting-go-hunt.md) |
-| **Query's optimaliseren** | Meer informatie over hoe u efficiënte query's en query's maakt waarmee u gegevens uit e-mailberichten en apparaten kunt combineren. | - [Aanbevolen procedures voor query's](advanced-hunting-shared-queries.md) <br>- [Over apparaten en e-mailberichten doorzoeken](advanced-hunting-best-practices.md) |
+| **Query's optimaliseren** | Meer informatie over hoe u efficiënte query's en query's maakt waarmee u gegevens uit e-mailberichten en apparaten kunt combineren. | - [Aanbevolen procedures voor query's](advanced-hunting-best-practices.md) <br>- [Over apparaten en e-mailberichten doorzoeken](advanced-hunting-query-emails-devices.md) |
 | **Aangepaste detectieregels maken** | Meer informatie over hoe u geavanceerde zoekopdrachten kunt gebruiken om waarschuwingen te activeren en antwoord acties automatisch toe te passen. | - [Overzicht van aangepaste detectie](custom-detections-overview.md)<br>- [Aangepaste detectieregels](custom-detection-rules.md) |
 
 ## <a name="get-access"></a>Toegang krijgen
@@ -63,12 +63,15 @@ Geavanceerde jacht-gegevens kunnen worden ingedeeld in twee verschillende typen,
 - **Gegevens uit een gebeurtenis of activiteit** : hierin worden tabellen over waarschuwingen, beveiligingsgebeurtenissen, systeemgebeurtenissen en routine beoordelingen ingevuld. De geavanceerde jacht ontvangt deze gegevens bijna direct na de sensoren die de sensoren met succesvol verzamelen naar de bijbehorende cloudservices. U kunt bijvoorbeeld een query uitvoeren op gegevens van een evenement met een goede sensoren op een werkstation of domeincontroller bijna direct nadat deze beschikbaar zijn in Microsoft Defender ATP en Azure ATP.
 - **Entiteitsgegevens** : tabellen met geconsolideerde informatie over gebruikers en apparaten vullen. Deze gegevens zijn afkomstig uit niet-tamelijk statische gegevensbronnen, zoals Active Directory-vermeldingen en dynamische bronnen, zoals gebeurtenislogboeken. Als u nieuwe gegevens wilt weergeven, worden tabellen elke 15 minuten bijgewerkt met nieuwe gegevens, waarbij het toevoegen van rijen die mogelijk niet volledig zijn ingevuld, wordt toegevoegd. Elke 24 uur worden gegevens samengevoegd om een record in te voegen die de meest recente gegevensverzameling bevat voor elke entiteit.
 
+## <a name="time-zone"></a>Tijdzone
+Alle tijdinformatie in de geavanceerde jacht bevindt zich in de UTC-tijdzone.
+
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Werken met queryresultaten](advanced-hunting-query-results.md)
 - [Actie ondernem op queryresultaten](advanced-hunting-take-action.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
+- [Opsporen op apparaten en in e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)
 - [Overzicht van aangepaste detectie](custom-detections-overview.md)
