@@ -1,6 +1,6 @@
 ---
 title: Toegewezen stations voorbereiden voor Microsoft Managed Desktop
-description: Belangrijke stappen om ervoor te zorgen
+description: Belangrijke stappen om ervoor te zorgen dat
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,47 +9,47 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e6311c0ad11d68c870b0c8185974b8913735e2a2
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 04c3901155ecd80fad472e07e7e46620c3ddee1f
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530173"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289271"
 ---
 #  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Toegewezen stations voorbereiden voor Microsoft Managed Desktop
 
-Veel bedrijfsomgevingen hebben verouderde vereisten voor toegewezen stations, zodat hun gebruikers of teams bestanden kunnen delen en opslaan, of voor on-premises toepassingen. Microsoft raadt het gebruik van toegewezen schijven met de Microsoft Managed Desktop af. In plaats daarvan raden we u aan uw oplossingen voor bestandstoegang als volgt te moderniseren:
+Veel ondernemingsomgevingen hebben oudere vereisten voor toegewezen stations, zodat ze hun gebruikers of teams in staat stellen bestanden te delen en op te slaan, of voor on-premises toepassingen. Microsoft adviseert het gebruik van toegewezen stations niet via het Microsoft beheerde bureaublad. U wordt aangeraden om de volgende oplossingen voor bestandstoegang te gebruiken:
   
-- Gemigreerde stations migreren die door individuele gebruikers worden gebruikt naar OneDrive voor Bedrijven. 
-- Gemigreerde stations migreren die door teams worden gebruikt om bestanden te delen naar SharePoint Online. 
-- Moderniseer of vervang toepassingen die on-premises bestandsshares gebruiken om die vereiste te verwijderen.
+- Migreer toegewezen stations die door individuele gebruikers worden gebruikt in OneDrive voor bedrijven. 
+- Migreer toegewezen stations die door teams worden gebruikt om bestanden te delen met SharePoint Online. 
+- U kunt toepassingen die gebruikmaken van on-premises bestandsshares moderniseren of vervangen om die vereiste te verwijderen.
   
-Door deze services te moderniseren, u de beste eindgebruikerservaring bieden met Microsoft Managed Desktop. Microsoft FastTrack Services kan u helpen bij het moderniseren van uw omgeving met Behulp van Microsoft Cloud Services. U controleren of u in aanmerking komt voor FastTrack-services bij [in aanmerking komende services en abonnementen](https://docs.microsoft.com/fasttrack/m365-eligible-services-and-plans) en vervolgens rechtstreeks contact met hen opnemen om u voor te bereiden op Microsoft Managed Desktop. Zie [Gegevensmigratie](https://docs.microsoft.com/fasttrack/o365-data-migration)voor achtergrondinformatie over FastTrack OneDrive voor Bedrijven of SharePoint Online-migratie.
+Voor de beste gebruikerservaring met Microsoft Managed Desktop is de beste ervaring met de services. Met behulp van Microsoft-Cloud Services kan Microsoft FastTrack Services u helpen uw omgeving te moderniseren. U kunt controleren of u in aanmerking komt voor FastTrack Services in [in aanmerking komende Services en plannen](https://docs.microsoft.com/fasttrack/m365-eligible-services-and-plans) en ze rechtstreeks contact met hen opneemt voor de voorbereiding voor Microsoft Managed Desktop. Zie [gegevensmigratie](https://docs.microsoft.com/fasttrack/o365-data-migration)voor achtergrondinformatie over FastTrack OneDrive voor bedrijven of SharePoint Online-migratie.
 
-## <a name="mapped-drives-on-microsoft-managed-desktop"></a>Toegewezen schijven op Microsoft Managed Desktop
+## <a name="mapped-drives-on-microsoft-managed-desktop"></a>Toegewezen stations op Microsoft Managed Desktop
  
-Als u voor sommige gebruiksaanvragen geen toegewezen stations verwijderen of vervangen, dient u een ondersteuningsverzoek in de Microsoft Managed Desktop-beheerportal in te dienen om deze te laten implementeren voor Microsoft Managed Desktop-gebruikers.
+Als u toegewezen stations niet kunt verwijderen of vervangen voor een aantal use cases, moet u een ondersteuningsverzoek indienen in de portal van Microsoft Managed Desktop admin zodat ze kunnen worden geïmplementeerd voor Microsoft Managed desktop users.
     
-Voor een dergelijk verzoek moet u de volgende gegevens opgeven in het ondersteuningsverzoek: 
+Voor een dergelijk verzoek dient u de volgende gegevens in het ondersteuningsverzoek te verstrekken: 
 
-- Alle UNC-paden naar locaties voor bestandsshare die moeten worden toegewezen voor Microsoft Managed Desktop-apparaten 
-- Gebruikersgroepen die toegang tot deze locaties voor bestandsshare vereisen 
-- Elke specifieke drive letter die moet worden toegewezen (indien nodig)
+- Alle UNC-paden naar locaties voor het delen van bestanden die moeten worden toegewezen voor Microsoft beheerde bureaublad apparaten 
+- Gebruikersgroepen die toegang moeten hebben tot deze locaties voor het delen van bestanden 
+- Elke specifieke stationsletter die moet worden toegewezen (indien nodig)
 
 Bijvoorbeeld:
 
 | Stationsletter | UNC-pad | Gebruikersgroep |
 |--------------|----------|------------|
-| X:  | \\\server\share\Marketing | ContosoMarketing |
+| X  | \\\server\share\Marketing | ContosoMarketing |
 
-Het is volledig uw verantwoordelijkheid om ervoor te zorgen dat gebruikers en groepen de juiste machtigingen hebben en behouden om toegang te krijgen tot locaties voor bestandsshare en dat de on-premises bestandsservices toegankelijk blijven. Ook moet u uw vereisten voor dergelijke bestandsshares zo snel mogelijk verwijderen.
+Het is uw verantwoordelijkheid om ervoor te zorgen dat gebruikers en groepen de juiste machtigingen hebben en de juiste machtigingen hebben voor toegang tot de bestandsshare locaties en de on-premises Bestandsservices toegankelijk blijven. Daarnaast dient u zo snel mogelijk uw vereisten voor bestandsshares te verwijderen.
 
-### <a name="to-have-mapped-drives-deployed-in-microsoft-managed-desktop"></a>Stations in kaart brengen die zijn geïmplementeerd in Microsoft Managed Desktop
+### <a name="to-have-mapped-drives-deployed-in-microsoft-managed-desktop"></a>Toegewezen stations implementeren in Microsoft Managed Desktop
  
-Zorg ervoor dat toegewezen stations niet kunnen worden vermeden en u de vereisten zorgvuldig hebt beoordeeld voordat u een serviceaanvraag indient. Volg dan de volgende stappen:
+Zorg ervoor dat de stationstoewijzingen niet worden vermeden en dat u de vereisten zorgvuldig door hebt bekeken voordat u een serviceaanvraag verzendt. Voer daarna de volgende stappen uit:
 
-1. Navigeer naar de [Microsoft Managed Desktop-portal](https://aka.ms/mmdportal).  
-2. Dien een ondersteuningsverzoek in met de titel 'Mapped drives deployment' via de sectie **Ondersteuning > Ondersteuningsaanvragen** en alle vereiste gegevens voor bestandsdeling opgeven.  
-3. Microsoft Managed Desktop IT Operations adviseert door gebruik te maken van updates voor ondersteuningsverzoeken wanneer de aanvraag is voltooid. In eerste instantie wordt deze configuratie alleen geïmplementeerd op apparaten in de implementatiegroep Testen.  
-4. U moet testen en bevestigen of de configuratie die is geïmplementeerd door de Microsoft Managed Desktop IT Operations werkt zoals u verwacht. Antwoord op het tabblad Discussie in het ondersteuningsverzoek om Microsoft Managed Desktop IT Operations op de hoogte te stellen zodra u uw tests hebt voltooid.  
-5. Microsoft Managed Desktop IT Operations-team implementeert de configuratie vervolgens naar de andere implementatiegroepen. 
+1. Ga naar de [Microsoft beheerde bureaublad Portal](https://aka.ms/mmdportal).  
+2. U kunt een ondersteuningsaanvraag met de naam ' toegewezen schijven implementeren ' verzenden via het ondersteuningsverzoek **> ondersteuningsverzoeken** en alle vereiste gegevens voor de bestandsdeling opgeven.  
+3. Microsoft Managed Desktop IT IT zal u adviseren met updates van ondersteuningsaanvragen wanneer de aanvraag is voltooid. Deze configuratie wordt in eerste instantie alleen geïmplementeerd op apparaten in de groep test implementatie.  
+4. U moet testen en controleren of de configuratie die is geïmplementeerd door het Microsoft beheerde bureaublad IT, werkt zoals u verwacht. Antwoord met het tabblad discussie in het ondersteuningsverzoek voor het melden van het IT-proces van Microsoft Managed Desktop wanneer u klaar bent met het testen.  
+5. Microsoft beheerde bureaublad IT Operations team implementeert vervolgens de configuratie naar de andere implementatie groepen. 

@@ -1,6 +1,6 @@
 ---
 title: Technologieën in Microsoft Managed Desktop
-description: In dit onderwerp worden de technologieën en apps weergegeven die worden gebruikt in Microsoft Managed Desktop.
+description: Dit onderwerp bevat een overzicht van de technologieën en apps die worden gebruikt in Microsoft Managed Desktop.
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,45 +9,45 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1f82c339e8cbe4426c87eae045107d26201b0025
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: f4af346877b41b03c07750508ff93661cc642ec4
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530017"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289103"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Technologieën in Microsoft Managed Desktop
 
-In dit onderwerp worden de technologieën en apps weergegeven die worden gebruikt in Microsoft Managed Desktop.
+Dit onderwerp bevat een overzicht van de technologieën en apps die worden gebruikt in Microsoft Managed Desktop.
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- in O365 table, standard suite, removed this sentence "Please see the Installation of Project/Visio 64bit Click to Run Addendum for important deployment instructions. -->
 
-Microsoft 365 Enterprise-licenties zijn vereist voor alle Microsoft Managed Desktop-gebruikers. Zie [Vereisten voor Microsoft Managed Desktop voor](../get-ready/prerequisites.md)meer informatie over licentievereisten voor de service.
+Voor alle door Microsoft beheerde bureaubladgebruikers is Microsoft 365 Enterprise Licensing vereist. Zie [vereisten voor Microsoft Managed Desktop](../get-ready/prerequisites.md)voor meer informatie over licentievereisten voor de service.
 
-In dit onderwerp worden de componenten samengevat die zijn opgenomen in de vereiste Enterprise-licenties, met een beschrijving van hoe de service elk onderdeel gebruikt met Microsoft Managed Desktop-apparaten. Specifieke rollen en verantwoordelijkheden voor elk gebied worden beschreven in de documentatie van Microsoft Managed Desktop. 
+Dit onderwerp bevat een overzicht van de onderdelen die deel uitmaken van de vereiste Enterprise-licenties, met een beschrijving van de manier waarop de service elk onderdeel gebruikt met Microsoft beheerde bureaublad apparaten. Voor elk gebied gelden specifieke rollen en verantwoordelijkheden in het Microsoft-beheer document. 
 
 ## <a name="office-365-e3-or-e5"></a>Office 365 E3 of E5
  |
  --- | ---
-Microsoft 365-apps voor bedrijven (64-bits) | Deze Office-toepassingen worden verzonden met het apparaat: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype voor Bedrijven, OneNote.<br><br>De 64-bits volledige versies van Microsoft Project en Microsoft Visio zijn niet inbegrepen. Aangezien de installatie van deze toepassingen echter afhankelijk is van de Microsoft 365-apps voor bedrijfsinstallatie, heeft Microsoft Managed Desktop standaard Microsoft Intune-implementaties en beveiligingsgroepen gemaakt die u vervolgens gebruiken om deze toepassingen te implementeren voor gelicentieerde eindgebruikers. Zie [Microsoft Project of Microsoft Visio installeren op Microsoft Managed Desktop-apparaten voor](../get-started/project-visio.md)meer informatie.
-OneDrive voor Bedrijven |Azure Active Directory Single Sign On is ingeschakeld voor eindgebruikers bij het eerste inloggen bij OneDrive voor Bedrijven.<br><br>Bekende mapomleiding voor mappen 'Bureaublad', 'Document' en 'Afbeeldingen' is inbegrepen; ingeschakeld en geconfigureerd door Microsoft Managed Desktop. 
-Apps opslaan |    Microsoft Sway en Power BI worden niet met het apparaat verzonden. Deze apps zijn beschikbaar om te downloaden in de Microsoft Store.
-Win32-toepassingen |    Teams worden niet met het apparaat verzonden, maar worden verpakt en geleverd door Microsoft voor Microsoft Managed Desktop-apparaten. Azure Information Protection Client wordt niet verzonden met het apparaat, maar u deze pakket voor implementatie. 
-Webtoepassingen |  Yammer, Office in een browser, Delve, Flow, StaffHub, PowerApps en Planner worden niet met het apparaat verzonden. Gebruikers hebben toegang tot de webversie van deze toepassingen met een browser.
+Microsoft 365-apps voor Enterprise (64-bits) | Deze Office-toepassingen worden met het apparaat verzonden: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype voor bedrijven, OneNote.<br><br>De 64-bits volledige versies van Microsoft Project en Microsoft Visio zijn niet opgenomen. Aangezien de installatie van deze toepassingen afhankelijk is van de installatie van de Microsoft 365-apps voor de Enterprise-installatie, heeft Microsoft Managed Desktop standaard Microsoft intune-implementaties en beveiligingsgroepen gemaakt, die u vervolgens kunt gebruiken om deze toepassingen te implementeren voor gelicentieerde gebruikers. Zie [Microsoft Project of Microsoft Visio installeren op door Microsoft beheerde bureaublad apparaten](../get-started/project-visio.md)voor meer informatie.
+OneDrive voor Bedrijven |Azure Active Directory eenmalige aanmelding is ingeschakeld voor gebruikers bij de eerste aanmelding bij OneDrive voor bedrijven.<br><br>Bekende Mapomleiding voor ' Bureaublad ', ' document ' en ' afbeeldingen ' bevat mappen. is ingeschakeld en geconfigureerd voor Microsoft Managed Desktop. 
+Store-apps |    Microsoft Sway en Power BI worden niet met het apparaat verzonden. U kunt deze apps downloaden in de Microsoft Store.
+Win32-toepassingen |    Teams worden niet geleverd met het apparaat, maar is verpakt en geleverd door Microsoft van Microsoft beheerde bureaublad apparaten. Azure Information Protection-client wordt niet met het apparaat verzonden, maar u kunt dit pakket wel voor implementatie. 
+Webtoepassingen |  Yammer, Office in een browser, Delve, flow, StaffHub, PowerApps en planner worden niet met het apparaat verzonden. Gebruikers hebben toegang tot de webversie van deze toepassingen via een browser.
 
 
 ## <a name="windows-10-enterprise-e3-or-e5"></a>Windows 10 Enterprise E3 of E5
 
  |
  --- | ---
-Toepassingsvirtualisatie (App-V) |    Klanten kunnen App-V-pakketten implementeren met behulp van de Intune Win32-appbeheerclient.
-Microsoft Defender Advanced Threat Protection |  Microsoft Managed Desktop gebruikt dit om de beveiliging van apparaten te controleren. 
+Application Virtualization (app-V) |    Klanten kunnen app-V-pakketten implementeren met behulp van de intune Win32®-app voor app-beheer.
+Microsoft Defender Advanced Threat Protection |  Microsoft Managed Desktop gebruikt deze om de beveiliging van apparaten te bewaken. 
 
-## <a name="enterprise-mobility--security-e5"></a>Bedrijfsmobiliteit + Beveiliging E5
+## <a name="enterprise-mobility--security-e5"></a>Enterprise Mobility + Security E5
 
  |
  --- | ---
-Bedrijfsmobiliteit + Beveiliging E3<br>Azure Active Directory Premium P2 |    U alle functies van Enterprise Mobility + Security E3 en Azure Active Directory Premium P2 gebruiken om MDM-apparaten te beheren.
-Microsoft Cloud App Security |  U deze optionele functie gebruiken met Microsoft Managed Desktop.
-Azure Information Protection P2  | U deze optionele functie gebruiken met Microsoft Managed Desktop.
+Enterprise Mobility + beveiligings E3<br>Azure Active Directory Premium P2 |    U kunt alle functies voor Enterprise Mobility + Security E3 en Azure Active Directory Premium P2 gebruiken voor het beheren van MDM-apparaten.
+Microsoft Cloud App Security |  U kunt deze optionele functie gebruiken bij Microsoft Managed Desktop.
+Azure Information Protection P2  | U kunt deze optionele functie gebruiken bij Microsoft Managed Desktop.

@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: a9ff0e76448df183ac5c34c5832155e0b135d313
-ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
+ms.openlocfilehash: 51c241c46a4c8745bcae169a1c1d89e5c4393f2f
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868985"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289137"
 ---
 # <a name="register-existing-devices-yourself"></a>Bestaande apparaten zelf registreren
 
@@ -155,9 +155,9 @@ U kunt de voortgang van apparaatregistratie controleren op de hoofdpagina **met 
 |---------------|-------------|
 | AutopilotRegistrationRequested | De registratie is nog niet voltooid. Ga later terug. |
 | Registratie mislukt | Registreren kon niet worden voltooid. Zie [problemen met apparaatregistratie oplossen](#troubleshooting-device-registration) voor meer informatie. |
-| Klaar voor gebruiker | De registratie is gelukt en het apparaat kan nu worden afgeleverd bij de eindgebruiker. Microsoft Managed Desktop verstuurt deze door de eerste keer instellen, dus u hoeft verder geen voorbereidingen te treffen. |
-| Actief | Het apparaat is afgeleverd bij de eindgebruiker en is geregistreerd bij uw Tenant. Dit geeft ook aan dat ze regelmatig gebruikmaken van het apparaat. |
-| Inactief | Het apparaat is afgeleverd bij de eindgebruiker en is geregistreerd bij uw Tenant. Ze hebben dit echter niet onlangs gebruikt (in de afgelopen 7 dagen).  | 
+| Klaar voor gebruiker | De registratie is gelukt en het apparaat is nu gereed voor levering aan de gebruiker. Microsoft Managed Desktop verstuurt deze door de eerste keer instellen, dus u hoeft verder geen voorbereidingen te treffen. |
+| Actief | Het apparaat is doorgegeven aan de gebruiker en is geregistreerd bij uw Tenant. Dit geeft ook aan dat ze regelmatig gebruikmaken van het apparaat. |
+| Inactief | Het apparaat is doorgegeven aan de gebruiker en is geregistreerd bij uw Tenant. Ze hebben dit echter niet onlangs gebruikt (in de afgelopen 7 dagen).  | 
 
 #### <a name="troubleshooting-device-registration"></a>Problemen met apparaatregistratie oplossen
 

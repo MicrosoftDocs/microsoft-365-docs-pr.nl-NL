@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: 'Ga naar de stapsgewijze instructies voor het overzetten van een domein van Microsoft naar een andere bewaarder. '
-ms.openlocfilehash: 7e00f5ae2c36a06803a3f7a8acd825dcab90805c
-ms.sourcegitcommit: 6fb2a1c404ea3c3573b0f7803bf17459a9387891
+ms.openlocfilehash: c5c1e98ed14c3ac975e55aadbff65e52165a6f8b
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788977"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289169"
 ---
 # <a name="transfer-a-domain-from-microsoft-to-another-host"></a>Een domein van Microsoft overbrengen naar een andere host
 
@@ -43,7 +43,7 @@ Ga als volgt te werk om een code te vinden bij Microsoft 365 en ga vervolgens na
 
 1. Ga in het Beheercentrum naar  **instellingen**   >  **domeinen**.
 
-2. <op de pagina **domeinen** selecteert u het microsoft 365-domein dat u naar een andere domeinregistratie wilt overzetten en selecteert u vervolgens **status controleren**.
+2. Selecteer op de pagina **Domains** het microsoft 365-domein dat u wilt overzetten naar een andere domeinregistratie, en selecteer vervolgens **status controleren**.
 
 3. Selecteer boven aan de pagina de optie **domein overbrengen**.
 
