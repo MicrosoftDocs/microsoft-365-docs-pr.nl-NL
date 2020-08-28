@@ -6,43 +6,43 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 58d3355788d9af4297ba454c404b4b2b920c358e
-ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
+ms.openlocfilehash: bf3d1745030561102b5b7b25611001a4d7698ef0
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43790691"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289649"
 ---
-# <a name="microsoft-managed-desktop-supported-regions-and-languages"></a><span data-ttu-id="d4c91-104">Door Microsoft Managed Desktop ondersteunde regio's en talen</span><span class="sxs-lookup"><span data-stu-id="d4c91-104">Microsoft Managed Desktop supported regions and languages</span></span>
+# <a name="microsoft-managed-desktop-supported-regions-and-languages"></a><span data-ttu-id="35dc7-104">Ondersteunde regio's en talen door Microsoft worden beheerd op het bureaublad</span><span class="sxs-lookup"><span data-stu-id="35dc7-104">Microsoft Managed Desktop supported regions and languages</span></span>
 
-<span data-ttu-id="d4c91-105">In dit artikel vindt u informatie over regio's en talen die worden ondersteund door Microsoft Managed Desktop en de regio's waar u het gebruiken.</span><span class="sxs-lookup"><span data-stu-id="d4c91-105">This article provides details about regions and languages supported by Microsoft Managed Desktop and the regions where you can use it.</span></span>
+<span data-ttu-id="35dc7-105">Dit artikel bevat informatie over de regio's en talen die worden ondersteund door Microsoft Managed Desktop en de regio's waar u deze kunt gebruiken.</span><span class="sxs-lookup"><span data-stu-id="35dc7-105">This article provides details about regions and languages supported by Microsoft Managed Desktop and the regions where you can use it.</span></span>
 
-## <a name="supported-languages"></a><span data-ttu-id="d4c91-106">Ondersteunde talen</span><span class="sxs-lookup"><span data-stu-id="d4c91-106">Supported languages</span></span>
+## <a name="supported-languages"></a><span data-ttu-id="35dc7-106">Ondersteunde talen</span><span class="sxs-lookup"><span data-stu-id="35dc7-106">Supported languages</span></span>
 
-<span data-ttu-id="d4c91-107">Engels is de enige taal die beschikbaar is voor gebruikers van Microsoft Managed Desktop.</span><span class="sxs-lookup"><span data-stu-id="d4c91-107">English is the only language available to users of Microsoft Managed Desktop.</span></span> <span data-ttu-id="d4c91-108">Dit omvat alle gebruikersinterfaces voor zowel eindgebruikers als beheerders en alle interacties met zowel [beheerdersondersteuning](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) als [ondersteuning voor eindgebruikers.](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support)</span><span class="sxs-lookup"><span data-stu-id="d4c91-108">This includes all user interfaces for both end users and administrators and all interactions with both [admin support](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) and [end-user support](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support).</span></span>
+<span data-ttu-id="35dc7-107">Engels is de enige beschikbare taal voor gebruikers van Microsoft Managed Desktop.</span><span class="sxs-lookup"><span data-stu-id="35dc7-107">English is the only language available to users of Microsoft Managed Desktop.</span></span> <span data-ttu-id="35dc7-108">Dit geldt ook voor alle gebruikersinterfaces voor gebruikers en beheerders en alle interacties met ondersteuning voor [beheerders](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) en de [ondersteuning voor eindgebruikers](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support).</span><span class="sxs-lookup"><span data-stu-id="35dc7-108">This includes all user interfaces for both users and administrators and all interactions with both [admin support](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) and [end-user support](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support).</span></span>
 
 
-<span data-ttu-id="d4c91-109">U nog steeds beheerde apparaten buiten Engelstalige regio's gebruiken zonder onderbreking van de Microsoft Managed Desktop-service.</span><span class="sxs-lookup"><span data-stu-id="d4c91-109">You can still use managed devices outside of English-speaking regions without an interruption to the Microsoft Managed Desktop service.</span></span> <span data-ttu-id="d4c91-110">Een werknemer in het Verenigd Koninkrijk kan bijvoorbeeld veilig werken en updates ontvangen op zijn of haar beheerde apparaat terwijl hij door Azië, Europa of Zuid-Amerika reist.</span><span class="sxs-lookup"><span data-stu-id="d4c91-110">For example, an employee based in the United Kingdom can work securely and receive updates on their managed device while traveling Asia, Europe, or South America.</span></span> 
+<span data-ttu-id="35dc7-109">U kunt nog steeds beheerde apparaten buiten het Engels gebruiken zonder dat u een onderbreking hoeft te hebben voor de Microsoft beheerde desktop service.</span><span class="sxs-lookup"><span data-stu-id="35dc7-109">You can still use managed devices outside of English-speaking regions without an interruption to the Microsoft Managed Desktop service.</span></span> <span data-ttu-id="35dc7-110">Een werknemer op basis van het Verenigd Koninkrijk kan bijvoorbeeld veilig en via hun beheerde toestel updates ontvangen tijdens de reis van Azië, Europa of Zuid-Amerika.</span><span class="sxs-lookup"><span data-stu-id="35dc7-110">For example, an employee based in the United Kingdom can work securely and receive updates on their managed device while traveling Asia, Europe, or South America.</span></span> 
 
-<span data-ttu-id="d4c91-111">Zie Ondersteuning voor Microsoft Managed Desktop [voor](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/support)meer informatie over gebruikersondersteuning met Microsoft Managed Desktop.</span><span class="sxs-lookup"><span data-stu-id="d4c91-111">For more information about user support with Microsoft Managed Desktop, see [Support for Microsoft Managed Desktop](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/support).</span></span>
+<span data-ttu-id="35dc7-111">Zie [ondersteuning voor Microsoft beheerde bureaublad](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/support)voor meer informatie over de ondersteuning van gebruikers bij Microsoft Managed Desktop.</span><span class="sxs-lookup"><span data-stu-id="35dc7-111">For more information about user support with Microsoft Managed Desktop, see [Support for Microsoft Managed Desktop](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/support).</span></span>
 
-## <a name="availability-of-the-service"></a><span data-ttu-id="d4c91-112">Beschikbaarheid van de dienst</span><span class="sxs-lookup"><span data-stu-id="d4c91-112">Availability of the service</span></span>
+## <a name="availability-of-the-service"></a><span data-ttu-id="35dc7-112">Beschikbaarheid van de service</span><span class="sxs-lookup"><span data-stu-id="35dc7-112">Availability of the service</span></span>
 
-<span data-ttu-id="d4c91-113">Organisaties in de volgende landen kunnen zich abonneren op Microsoft Managed Desktop:</span><span class="sxs-lookup"><span data-stu-id="d4c91-113">Organizations in the following countries can subscribe to Microsoft Managed Desktop:</span></span>
+<span data-ttu-id="35dc7-113">Organisaties in de volgende landen kunnen zich aanmelden bij Microsoft Managed Desktop:</span><span class="sxs-lookup"><span data-stu-id="35dc7-113">Organizations in the following countries can subscribe to Microsoft Managed Desktop:</span></span>
 
-- <span data-ttu-id="d4c91-114">Verenigde Staten</span><span class="sxs-lookup"><span data-stu-id="d4c91-114">United States</span></span>
-- <span data-ttu-id="d4c91-115">Canada (exclusief Quebec)</span><span class="sxs-lookup"><span data-stu-id="d4c91-115">Canada (excluding Quebec)</span></span>
-- <span data-ttu-id="d4c91-116">Verenigd Koninkrijk</span><span class="sxs-lookup"><span data-stu-id="d4c91-116">United Kingdom</span></span>
-- <span data-ttu-id="d4c91-117">Ierland</span><span class="sxs-lookup"><span data-stu-id="d4c91-117">Ireland</span></span>
-- <span data-ttu-id="d4c91-118">België</span><span class="sxs-lookup"><span data-stu-id="d4c91-118">Belgium</span></span>
-- <span data-ttu-id="d4c91-119">Luxemburg</span><span class="sxs-lookup"><span data-stu-id="d4c91-119">Luxembourg</span></span>
-- <span data-ttu-id="d4c91-120">Nederland</span><span class="sxs-lookup"><span data-stu-id="d4c91-120">Netherlands</span></span>
-- <span data-ttu-id="d4c91-121">Zweden</span><span class="sxs-lookup"><span data-stu-id="d4c91-121">Sweden</span></span>
-- <span data-ttu-id="d4c91-122">Finland</span><span class="sxs-lookup"><span data-stu-id="d4c91-122">Finland</span></span>
-- <span data-ttu-id="d4c91-123">Noorwegen</span><span class="sxs-lookup"><span data-stu-id="d4c91-123">Norway</span></span>
-- <span data-ttu-id="d4c91-124">Denemarken</span><span class="sxs-lookup"><span data-stu-id="d4c91-124">Denmark</span></span>
-- <span data-ttu-id="d4c91-125">IJsland</span><span class="sxs-lookup"><span data-stu-id="d4c91-125">Iceland</span></span>
-- <span data-ttu-id="d4c91-126">Australië</span><span class="sxs-lookup"><span data-stu-id="d4c91-126">Australia</span></span>
-- <span data-ttu-id="d4c91-127">Nieuw-Zeeland</span><span class="sxs-lookup"><span data-stu-id="d4c91-127">New Zealand</span></span>
+- <span data-ttu-id="35dc7-114">Verenigde Staten</span><span class="sxs-lookup"><span data-stu-id="35dc7-114">United States</span></span>
+- <span data-ttu-id="35dc7-115">Canada (met uitzondering van Quebec)</span><span class="sxs-lookup"><span data-stu-id="35dc7-115">Canada (excluding Quebec)</span></span>
+- <span data-ttu-id="35dc7-116">Verenigd Koninkrijk</span><span class="sxs-lookup"><span data-stu-id="35dc7-116">United Kingdom</span></span>
+- <span data-ttu-id="35dc7-117">Ierland</span><span class="sxs-lookup"><span data-stu-id="35dc7-117">Ireland</span></span>
+- <span data-ttu-id="35dc7-118">België</span><span class="sxs-lookup"><span data-stu-id="35dc7-118">Belgium</span></span>
+- <span data-ttu-id="35dc7-119">Luxemburg</span><span class="sxs-lookup"><span data-stu-id="35dc7-119">Luxembourg</span></span>
+- <span data-ttu-id="35dc7-120">Nederland</span><span class="sxs-lookup"><span data-stu-id="35dc7-120">Netherlands</span></span>
+- <span data-ttu-id="35dc7-121">Zweden</span><span class="sxs-lookup"><span data-stu-id="35dc7-121">Sweden</span></span>
+- <span data-ttu-id="35dc7-122">Finland</span><span class="sxs-lookup"><span data-stu-id="35dc7-122">Finland</span></span>
+- <span data-ttu-id="35dc7-123">Noorwegen</span><span class="sxs-lookup"><span data-stu-id="35dc7-123">Norway</span></span>
+- <span data-ttu-id="35dc7-124">Denemarken</span><span class="sxs-lookup"><span data-stu-id="35dc7-124">Denmark</span></span>
+- <span data-ttu-id="35dc7-125">IJsland</span><span class="sxs-lookup"><span data-stu-id="35dc7-125">Iceland</span></span>
+- <span data-ttu-id="35dc7-126">Australië</span><span class="sxs-lookup"><span data-stu-id="35dc7-126">Australia</span></span>
+- <span data-ttu-id="35dc7-127">Nieuw-Zeeland</span><span class="sxs-lookup"><span data-stu-id="35dc7-127">New Zealand</span></span>
 
-<span data-ttu-id="d4c91-128">Zowel eindgebruikers als beheerders in deze regio's moeten Engels gebruiken voor hun apparaten en beheertools.</span><span class="sxs-lookup"><span data-stu-id="d4c91-128">Both end users and administrators in these regions must use English for their devices and management tools.</span></span> 
+<span data-ttu-id="35dc7-128">Beide gebruikers en beheerders in deze regio's moeten Engels gebruiken voor hun apparaten en beheerprogramma's.</span><span class="sxs-lookup"><span data-stu-id="35dc7-128">Both users and administrators in these regions must use English for their devices and management tools.</span></span> 
