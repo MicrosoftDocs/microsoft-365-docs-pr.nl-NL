@@ -8,12 +8,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: debd21a975ce209677bdd054952e31f34260e405
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 1e50b07208df46b199aada9c2ccbe04cc1c1ae72
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778254"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289481"
 ---
 # <a name="security-technologies-in-microsoft-managed-desktop"></a>Beveiligingstechnologieën in Microsoft Managed Desktop
 
@@ -62,7 +62,7 @@ Klanten zijn verantwoordelijk voor netwerkbeveiliging.
 
 Service | Beschrijving
 --- | ---
-NETWERK | Klanten hebben hun eigen VPN-infrastructuur, om ervoor te zorgen dat ze niet meer kunnen worden weergegeven op het intranet.<br><br>Minimum vereiste: door Microsoft beheerde bureaubladtoepassing is een met Windows 10 compatibele en ondersteunde VPN-oplossing vereist. Als binnen uw organisatie een VPN-oplossing nodig is, moet deze Windows 10 ondersteunen en worden verpakt en geïmplementeerd via intune. Neem contact op met uw software uitgever voor meer informatie.<br><br>Raden<br>-Microsoft raadt een moderne VPN-oplossing aan die gemakkelijk kan worden geïmplementeerd via intune voor push VPN-profielen. Dit biedt een altijd, naadloos, betrouwbaar en veiligere manier om toegang te krijgen tot het bedrijfsnetwerk. Zie [[VPN-instellingen in intune]](https://docs.microsoft.com/intune/vpn-settings-configure)voor meer informatie.<br>-Dikke VPN-clients of oudere VPN-clients worden niet aanbevolen door Microsoft wanneer ze de omgeving voor eindgebruikers gebruiken die van invloed kunnen zijn op de omgeving voor eindgebruikers.<br>-Microsoft raadt aan dat het uitgaande webverkeer rechtstreeks naar Internet gaat zonder het VPN te passeren om prestatieproblemen te voorkomen.<br>In het ideale geval raden Microsoft aan het gebruik van de app Azure Active Directory te gebruiken in plaats van een VPN.
+NETWERK | Klanten hebben hun eigen VPN-infrastructuur, om ervoor te zorgen dat ze niet meer kunnen worden weergegeven op het intranet.<br><br>Minimum vereiste: door Microsoft beheerde bureaubladtoepassing is een met Windows 10 compatibele en ondersteunde VPN-oplossing vereist. Als binnen uw organisatie een VPN-oplossing nodig is, moet deze Windows 10 ondersteunen en worden verpakt en geïmplementeerd via intune. Neem contact op met uw software uitgever voor meer informatie.<br><br>Raden<br>-Microsoft raadt een moderne VPN-oplossing aan die gemakkelijk kan worden geïmplementeerd via intune voor push VPN-profielen. Dit biedt een altijd, naadloos, betrouwbaar en veiligere manier om toegang te krijgen tot het bedrijfsnetwerk. Zie [[VPN-instellingen in intune]](https://docs.microsoft.com/intune/vpn-settings-configure)voor meer informatie.<br>-Dikke VPN-clients of oudere VPN-clients worden niet aanbevolen door Microsoft wanneer ze door Microsoft worden beheerd op de gebruikersomgeving.<br>-Microsoft raadt aan dat het uitgaande webverkeer rechtstreeks naar Internet gaat zonder het VPN te passeren om prestatieproblemen te voorkomen.<br>In het ideale geval raden Microsoft aan het gebruik van de app Azure Active Directory te gebruiken in plaats van een VPN.
 
 
 ## <a name="information-security"></a>Gegevensbeveiliging

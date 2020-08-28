@@ -15,12 +15,12 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 description: Veelgestelde vragen (FAQ) over het Microsoft Home Use Program.
-ms.openlocfilehash: 9d37afb952374b3d01d3ef3212b82cfd1ccde7a7
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: f4848e5f84081152fb42e41887b581d7290dfe2f
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46903489"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294684"
 ---
 # <a name="microsoft-home-use-program-frequently-asked-questions-faq"></a>Veelgestelde vragen over Microsoft Home Use Program
 
@@ -34,14 +34,13 @@ Alle andere klanten hebben toegang tot HUP door deze stap te gebruiken:
 
 Met het Microsoft Home Use Program (HUP) kunnen werknemers die in aanmerking komen om Microsoft-consumentenproducten te kopen tegen korting. U kunt de huidige kortingen voor elk product dat u wilt controleren op de [productpagina van het Home Use Program](https://www.microsoft.com/home-use-program)kijken.
 
-## <a name="in-which-countries-is-this-benefit-available"></a>In welke landen is deze vergoeding beschikbaar?
+## <a name="in-which-markets-is-the-home-use-program-offered"></a>In welke markten is het Home Use Program verkrijgbaar?
 
-Wanneer u hier uw voordeel te activeren (in Microsoft Store voor bedrijven), zijn HUP-kortingen voor Microsoft-producten in de meeste landen wereldwijd beschikbaar voor medewerkers, met uitzondering van:
+Kortingen voor Microsoft 365-serie en persoonlijke abonnementen worden voor in aanmerking komende bedrijven wereldwijd aangeboden met de volgende uitzonderingen:
 
-- Rusland
-- Venezuela
-
-HUP kortingen kunnen ook verkrijgbaar zijn via aankopen van oppervlak-en accessoires en Xbox-games. Zie [Microsoft 365-abonnementen](https://go.microsoft.com/fwlink/p/linkid=2139192)voor de beschikbaarheid.
+- Macau, Rusland en Venezuela: deze aanbieding is niet beschikbaar op deze markten.
+- China en Hongkong: een abonnement voor één jaar is verkrijgbaar op deze markten. Voor China bezoekt u [Microsoft 365 in China](https://www.microsoftstore.com.cn/home-use-program/invite). Voor Hongkong Ga naar [Microsoft 365 kopen tegen een gereduceerde prijs](https://www.microsoftestore.com.hk/partner/hup?locale=en_HK).
+- Japan: Microsoft 365-serie is niet beschikbaar.
 
 ## <a name="how-does-an-organization-qualify-for-hup-discounts"></a>Hoe komt een organisatie in aanmerking voor HUP kortingen?
 
@@ -64,12 +63,6 @@ Voor het bijwerken en moderniseren van het Home Use Program voor een bredere ree
 U moet een speciale record in DNS maken om bewijzen dat u de eigenaar bent van uw bedrijfsdomein, bijvoorbeeld ex:contoso. com.
 
 Zie een niet- [beheerde Directory overnemen van een beheerder in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)voor een stapsgewijs proces voor het maken van een beheerde Tenant.
-
-## <a name="where-can-i-find-marketing-materials-to-help-promote-the-program-within-my-company"></a>Waar vind ik marketingmateriaal om het programma binnen mijn bedrijf te promoten?
-
-U vindt het onboarding marketingmateriaal van uw bedrijf in de sectie _over_ van uw beheerportal onder de koppeling van het Microsoft Home Use Program.
-
-U kunt ook snel reclamemateriaal vinden op de pagina IT/HR-beheerder resources. Ga naar de [introductiepagina van het Home Use Program](https://www.microsoft.com/home-use-program/resources) en blader omlaag naar de sectie _met promotie bronnen voor Programma's voor thuisgebruik_ van de pagina.
 
 ## <a name="what-resources-are-available-to-help-promote-the-home-use-program-benefit-to-employees"></a>Welke bronnen zijn er beschikbaar om het Home Use Program te helpen promoten voor medewerkers?
 

@@ -1,6 +1,6 @@
 ---
 title: Toegang voorbereiden tot on-premises bronnen voor Microsoft Managed Desktop
-description: Belangrijke stappen om ervoor te zorgen dat een Azure AD kan communiceren met on-premises AD om verificatie te bieden
+description: Belangrijke stappen om ervoor te zorgen dat een Azure AD kan communiceren met on-premises AD om verificatie te verschaffen
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,71 +9,71 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 7caeee6f476fea7881884cea20bd2a59db2c13d9
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 7181e81a2db94ce26fb8601f8b9156c65084c439
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530041"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289577"
 ---
 #  <a name="prepare-on-premises-resources-access-for-microsoft-managed-desktop"></a>Toegang voorbereiden tot on-premises bronnen voor Microsoft Managed Desktop
 
-In Microsoft Managed Desktop worden apparaten automatisch verbonden met Azure Active Directory (Azure AD). Dit betekent dat als u een on-premises Active Directory gebruikt, u een aantal dingen moet controleren om ervoor te zorgen dat apparaten die zijn aangesloten bij Azure AD kunnen communiceren met uw on-premises Active Directory. 
+In Microsoft Managed Desktop worden apparaten automatisch lid geworden van Azure Active Directory (Azure AD). Dit betekent dat als u een on-premises Active Directory gebruikt, u een aantal zaken moet controleren om ervoor te zorgen dat apparaten die deel uitmaken van Azure AD, kunnen communiceren met uw on-premises Active Directory. 
 
 > [!NOTE]  
-> *Hybride Hybride* Azure AD join wordt niet ondersteund door Microsoft Managed Desktop.
+> *Hybride* Azure AD join wordt niet ondersteund door Microsoft Managed Desktop.
 
-Met Azure Active Directory kunnen uw gebruikers profiteren van Single Sign-On (SSO), wat betekent dat ze doorgaans niet elke keer dat ze resources gebruiken referenties hoeven te verstrekken.
+Azure Active Directory zorgt ervoor dat uw gebruikers gebruikmaken van eenmalige aanmelding (SSO), wat betekent dat ze normaliter niet telkens wanneer ze bronnen gebruiken.
 
-Raadpleeg Hoe: Uw [Azure AD join-implementatie](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan)plannen voor informatie over lid worden van Azure Active Directory. Zie [Hoe SSO-on-premises resources werken op Azure AD-apparaten voor](https://docs.microsoft.com/azure/active-directory/devices/azuread-join-sso#how-it-works)achtergrondinformatie over SSO -apparaten die zijn aangesloten bij Azure AD.
-
-
-In dit onderwerp wordt uitgelegd wat u moet controleren om ervoor te zorgen dat apps en andere bronnen die afhankelijk zijn van lokale Active Directory-connectiviteit, soepel werken met Microsoft Managed Desktop.
+Zie voor meer informatie over het deelnemen aan Azure Active Directory [: de implementatie van Azure AD bijwonen plannen](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan). Voor achtergrondinformatie over eenmalige aanmelding (SSO) op apparaten die deel uitmaken van Azure AD, raadpleegt [u hoe SSO-on-premises resources werken op aan Azure AD gekoppelde apparaten](https://docs.microsoft.com/azure/active-directory/devices/azuread-join-sso#how-it-works).
 
 
-## <a name="single-sign-on-for-on-premises-resources"></a>Eén aanmelding voor on-premises bronnen
+In dit onderwerp wordt uitgelegd wat u moet controleren om ervoor te zorgen dat apps en andere bronnen die afhankelijk zijn van lokale Active Directory-connectiviteit, soepel werken via Microsoft Managed Desktop.
 
-Single Sign-On (SSO) met BEHULP VAN UPN en wachtwoord is standaard ingeschakeld op Microsoft Managed Desktop Devices. Maar uw gebruikers kunnen ook Windows Hello voor Bedrijven gebruiken, wat extra installatiestappen vereist. 
 
-### <a name="single-sign-on-by-using-upn-and-password"></a>Eenmalige aanmelding met UPN en wachtwoord
+## <a name="single-sign-on-for-on-premises-resources"></a>Eenmalige aanmelding voor on-premises resources
 
-In de meeste organisaties kunnen uw gebruikers SSO gebruiken om te verifiëren met UPN en wachtwoord op Microsoft Managed Desktop Devices. Echter, om ervoor te zorgen dat dit zal werken, moet u dubbel controleren het volgende:
+Eenmalige aanmelding (SSO) met behulp van UPN en wachtwoord is standaard ingeschakeld op door Microsoft beheerde bureaublad apparaten. Maar uw gebruikers kunnen ook Windows hello voor bedrijven gebruiken, waarvoor extra instellingsstappen zijn vereist. 
 
-- Controleer of Azure AD Connect is ingesteld en gebruik maakt van een on-premises Active Directory-server met Windows Server 2008 R2 of hoger.
-- Controleer of Azure AD Connect een ondersteunde versie uitvoert en is ingesteld om deze drie kenmerken te synchroniseren met Azure AD: 
-    - DNS-domeinnaam van de on-premises Active Directory (waar de eindgebruikers zich bevinden)
-    - NetBIOS van uw on-premises Active Directory (waar de eindgebruikers zich bevinden)
+### <a name="single-sign-on-by-using-upn-and-password"></a>Eenmalige aanmelding met behulp van UPN en wachtwoord
+
+In de meeste organisaties kunnen de gebruikers eenmalige aanmelding gebruiken om verificatie via UPN en wachtwoord op door Microsoft beheerde bureaublad apparaten te gebruiken. Als u er zeker van wilt zijn dat dit werkt, controleert u het volgende:
+
+- Ga na of Azure AD Connect is ingesteld en gebruikmaakt van een on-premises Active Directory-server waarop Windows Server 2008 R2 of later wordt uitgevoerd.
+- Ga na of Azure AD Connect een ondersteunde versie voert en is ingesteld voor het synchroniseren van deze drie kenmerken met Azure AD: 
+    - DNS-domeinnaam van de on-premises Active Directory (waar de gebruikers zich bevinden)
+    - NetBIOS van uw on-premises Active Directory (waar de gebruikers zich bevinden)
     - SAM-accountnaam van de gebruiker
 
 
-### <a name="single-sign-on-by-using-windows-hello-for-business"></a>Eén aanmelding met Windows Hello voor Bedrijven
+### <a name="single-sign-on-by-using-windows-hello-for-business"></a>Eenmalige aanmelding met Windows hello voor bedrijven
 
-Microsoft Managed Desktop-apparaten bieden uw gebruikers ook een snelle, wachtwoordloze ervaring door Windows Hello for Business in te zetten. Ga naar [Azure AD-apparaten configureren voor on-premises aanmeldingsapparaten voor on-premises eenmalig aanmelden met Windows Hello voor Bedrijven](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base) om de vereisten te controleren en vervolgens de stappen te volgen die daar zijn vermeld.
-
-
-## <a name="apps-and-resources-that-use-authentication"></a>Apps en bronnen die verificatie gebruiken
-
-Raadpleeg [Overwegingen voor toepassingen en resources begrijpen](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan#understand-considerations-for-applications-and-resources) in de Azure-inhoudsset voor volledige richtlijnen voor het instellen van apps om met Azure Active Directory te werken. Samengevat:
+Microsoft beheerde bureaublad apparaten bieden uw gebruikers ook een snelle, wacht woordloze ervaring met Windows hello voor bedrijven. Als u er zeker van wilt zijn dat Windows hello voor bedrijven werkt zonder dat uw gebruikers de juiste UPN en het wachtwoord moeten opgeven, gaat u naar [Azure ad-apparaten met een on-premises eenmalige aanmelding configureren voor on-premises eenmalige aanmelding met Windows hello voor bedrijven](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base) om de vereisten te controleren en volgt u de stappen die hier worden beschreven.
 
 
-- Als u cloudgebaseerde apps gebruikt, zoals apps die zijn toegevoegd aan de Azure **AD-app-galerij,** hebben de meeste geen verdere voorbereiding nodig om met Microsoft Managed Desktop te werken. Alle Win32-apps die geen gebruik maken van Web Account Manager (WAM) kunnen gebruikers echter nog steeds om verificatie vragen.
+## <a name="apps-and-resources-that-use-authentication"></a>Apps en bronnen die gebruikmaken van authenticatie
 
-- Voor apps die **on-premises**worden gehost, moet u deze apps toevoegen aan de lijst met vertrouwde sites in uw browsers. Hierdoor kan Windows-verificatie naadloos werken, zonder dat gebruikers om referenties worden gevraagd. Raadpleeg hiervoor Vertrouwde [sites](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/config-setting-ref#trusted-sites) in de [referentie Configureerbare instellingen](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/config-setting-ref).
+Zie informatie over de manier waarop u [toepassingen en bronnen](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan#understand-considerations-for-applications-and-resources) in de Azure-inhoudsset hebt ingesteld voor uitgebreide informatie over het instellen van apps voor gebruik met Azure Active Directory. In het overzicht:
 
-- Als u Active Directory Federated Services gebruikt, controleert u of SSO is ingeschakeld met de stappen in [Het verifiëren en beheren van eenmalige aanmelding met AD FS](https://docs.microsoft.com/previous-versions/azure/azure-services/jj151809(v=azure.100)). 
 
-- Voor apps die **on-premises zijn en oudere protocollen gebruiken,** is geen extra installatie vereist, zolang de apparaten toegang hebben tot een on-premises domeincontroller om te verifiëren. Als u echter veilige toegang voor deze toepassingen wilt bieden, moet u Azure AD Application Proxy implementeren. Zie [Externe toegang tot on-premises toepassingen via de Application Proxy van Azure Active Directory voor](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)meer informatie.
+- Als u **Cloud-apps**gebruikt, zoals de apps die zijn toegevoegd aan de galerie van Azure AD-apps, is er geen verdere voorbereiding voor het gebruik van Microsoft beheerde bureaublad. Voor alle Win32-apps die niet gebruikmaken van web account manager (WAM), wordt er mogelijk wel gezocht naar gebruikers voor verificatie.
 
-- Apps die on-premises worden uitgevoerd **en afhankelijk zijn van machineverificatie** worden niet ondersteund, dus u moet overwegen deze te vervangen door nieuwere versies.
+- Voor apps die **on-premises worden gehost**, dient u deze apps toe te voegen aan de lijst met vertrouwde websites in uw browsers. Dit schakelt Windows-verificatie in om naadloos samen te werken, zonder dat de gebruiker om referenties wordt gevraagd. U doet dit door te verwijzen naar [vertrouwde websites](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/config-setting-ref#trusted-sites) in de [naslag voor configureerbare instellingen](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/config-setting-ref).
 
-### <a name="network-shares-that-use-authentication"></a>Netwerkshares die verificatie gebruiken
+- Als u gebruikmaakt van Active Directory federatieve Services, controleert u of EENMALIGe aanmelding is ingeschakeld met behulp van de stappen in [eenmalige aanmelding controleren en beheren met AD FS](https://docs.microsoft.com/previous-versions/azure/azure-services/jj151809(v=azure.100)). 
 
-Er is geen extra installatie vereist voor gebruikers om toegang te krijgen tot netwerkshares, zolang de apparaten toegang hebben tot een on-premises domeincontroller met behulp van een UNC-pad.
+- Voor apps die **on-premises zijn en oudere protocollen gebruiken**, is geen extra configuratie vereist, zolang de apparaten toegang hebben tot een on-premises domeincontroller om te verifiëren. Als u de toegang tot deze toepassingen wilt waarborgen, moet u ook Azure AD-toepassings proxy implementeren. Zie [externe toegang tot on-premises toepassingen via de toepassings proxy van Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)voor meer informatie.
 
-### <a name="printers"></a>Printers
+- Apps die **on-premises worden uitgevoerd en afhankelijk zijn van computerauthenticatie** worden niet ondersteund, dus kunt u het beste deze vervangen door nieuwere versies.
 
-Microsoft Managed Desktop-apparaten kunnen geen verbinding maken met printers die zijn gepubliceerd op uw on-premises Active Directory, tenzij u [Hybride cloudafdruk](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy)hebt geconfigureerd.
+### <a name="network-shares-that-use-authentication"></a>Netwerkshares die gebruikmaken van authenticatie
 
-Hoewel printers niet automatisch kunnen worden gedetecteerd in een cloudomgeving, kunnen uw gebruikers on-premises printers gebruiken met behulp van het printerpad of het printerwachtrijpad, zolang de apparaten toegang hebben tot een on-premises domeincontroller.
+U hoeft geen extra instellingen voor gebruikers toegang te krijgen tot netwerkshares, mits de apparaten toegang hebben tot een on-premises domeincontroller via een UNC-pad.
+
+### <a name="printers"></a>Faxprinter
+
+Beheerde bureaublad apparaten van Microsoft kunnen geen verbinding maken met printers die zijn gepubliceerd in een on-premises Active Directory, tenzij u [hybride Cloud afdrukken](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy)hebt geconfigureerd.
+
+Hoewel printers niet automatisch worden gedetecteerd in een omgeving met alleen Cloud, kunnen gebruikers on-premises printers gebruiken met behulp van het pad of de naam van de printer, mits de apparaten toegang hebben tot een on-premises domeincontroller.
 
 <!--add fuller material on printers when available-->

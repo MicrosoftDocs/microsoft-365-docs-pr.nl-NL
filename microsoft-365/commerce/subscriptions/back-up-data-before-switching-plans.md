@@ -1,5 +1,5 @@
 ---
-title: Back-up van gegevens voordat u plannen wijzigt
+title: Een back-up van gegevens maken voordat u van abonnement verandert
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,35 +21,37 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
-description: Maak een back-up van Outlook-, OneDrive-, Yammer- en SharePoint-inhoud voordat u Microsoft 365-abonnementen wijzigt.
-ms.openlocfilehash: 9acc97f65bb5b471cb992d7f01cd299192b74a52
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Back-up van Outlook-, OneDrive-, Yammer-en SharePoint-inhoud maken voordat u Microsoft 365-abonnementen wijzigt.
+ms.openlocfilehash: 1158a98fc35c586ae900ef64579b52b9d64a85e6
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818529"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294715"
 ---
-# <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Back-up van gegevens voordat u van Microsoft 365 overschakelt voor bedrijfsabonnementen
+# <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Back-up van gegevens maken voordat u overstapt op Microsoft 365 voor bedrijven-abonnementen
 
-Als een gebruiker wordt overgeschakeld naar een ander abonnement dat minder gegevensgerelateerde services heeft of als een gebruiker de organisatie verlaat, kan een kopie van zijn gegevens die zijn opgeslagen in Microsoft 365 worden gedownload voordat deze worden overgeschakeld naar het nieuwe abonnement.
+Als een gebruiker overschakelt naar een ander abonnement met minder gegevensservices of een gebruiker de organisatie verlaat, kunt u een kopie van de gegevens die zijn opgeslagen in Microsoft 365 downloaden voordat ze overstappen op het nieuwe abonnement.
+
+Als u een gebruiker overstapt naar een abonnement met dezelfde of meer services, hoeft u geen back-up van gebruikersgegevens te maken. Zie [gebruikers verplaatsen naar een ander abonnement](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/move-users-different-subscription).
   
 ## <a name="save-a-copy-of-outlook-information"></a>Een kopie van Outlook-gegevens opslaan
 
-Als gebruikers Outlook hebben, kunnen ze [e-mail, contactpersonen en agenda exporteren of back-upen naar een PST-bestand van Outlook](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91) voordat hun abonnement wordt ingeschakeld.
+Als gebruikers Outlook hebben, kunnen ze [e-mail, contactpersonen en agenda exporteren of een back-up maken van een PST-bestand van Outlook](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91) voordat het abonnement wordt gewijzigd.
   
-Nadat de overschakeling naar het nieuwe abonnement is voltooid, kunnen gebruikers [e-mail, contactpersonen en agenda importeren uit een PST-bestand in Outlook](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac).
+Nadat de overstap naar het nieuwe abonnement is voltooid, kunnen gebruikers [e-mail, contactpersonen en agenda importeren uit een. PST-bestand van Outlook](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac).
   
-## <a name="save-files-stored-in-onedrive-for-business"></a>Bestanden opslaan die zijn opgeslagen in OneDrive voor Bedrijven
+## <a name="save-files-stored-in-onedrive-for-business"></a>Bestanden opslaan die zijn opgeslagen in OneDrive voor bedrijven
 
-Voordat gebruikers worden overgeschakeld naar een ander abonnement, kunnen gebruikers [bestanden en mappen downloaden van OneDrive of SharePoint](https://support.microsoft.com/office/5c7397b7-19c7-4893-84fe-d02e8fa5df05) naar een andere locatie, zoals een map op de harde schijf van hun computer of een bestandsshare in het netwerk van de organisatie.
+Gebruikers kunnen [bestanden en mappen in OneDrive of SharePoint downloaden](https://support.microsoft.com/office/5c7397b7-19c7-4893-84fe-d02e8fa5df05) naar een andere locatie, zoals een map op de harde schijf van hun computer of een bestandsshare op het netwerk van de organisatie, voordat ze overstappen op een ander abonnement.
   
 ## <a name="save-yammer-information"></a>Yammer-gegevens opslaan
 
-Beheerders kunnen alle berichten, notities, bestanden, onderwerpen, gebruikers en groepen exporteren naar een ZIP-bestand. Zie [Gegevens exporteren uit Yammer Enterprise](https://docs.microsoft.com/yammer/manage-security-and-compliance/export-yammer-enterprise-data)voor meer informatie. Ontwikkelaars kunnen de [Yammer API](https://go.microsoft.com/fwlink/p/?linkid=842495) ook gebruiken om dit te doen.
+Beheerders kunnen alle berichten, notities, bestanden, onderwerpen, gebruikers en groepen exporteren naar een ZIP-bestand. Zie [gegevens exporteren uit Yammer Enterprise](https://docs.microsoft.com/yammer/manage-security-and-compliance/export-yammer-enterprise-data)voor meer informatie. Ontwikkelaars kunnen dit ook doen met behulp van de [Yammer-API](https://go.microsoft.com/fwlink/p/?linkid=842495) .
   
 ## <a name="how-to-save-sharepoint-information"></a>SharePoint-gegevens opslaan
 
-Als een gebruiker wordt overgeschakeld van een abonnement met SharePoint Online naar een abonnement dat het niet heeft, wordt de **SharePoint-tegel** niet meer weergegeven in het Microsoft 365-menu.
+Als een gebruiker overstapt van een abonnement dat SharePoint Online heeft en een abonnement dat niet voorkomt, wordt de **SharePoint-** tegel niet langer weergegeven in het menu microsoft 365.
   
 Als het nieuwe abonnement zich echter binnen dezelfde organisatie bevindt als het vorige abonnement, hebben gebruikers nog steeds toegang tot de teamsite van SharePoint. Ze kunnen notitieblokken, documenten, taken en agenda's bekijken en bijwerken via de rechtstreekse URL naar de teamsite.
   
@@ -62,7 +64,7 @@ De URL van de teamwebsite heeft standaard de volgende vorm:
 https://<orgDomain>/_layouts/15/start.aspx#/SitePages/Home.aspx
 ```
 
-waar _\<orgDomain\>_ is de URL van de organisatie.
+waarbij  _\<orgDomain\>_ de URL van de organisatie is.
   
 Bijvoorbeeld, als het domein van de organisatie contoso.onmicrosoft.com is, dan is de rechtstreekse URL naar de teamsite https://contoso.onmicrosoft.com/_layouts/15/start.aspx#/SitePages/Home.aspx.
   

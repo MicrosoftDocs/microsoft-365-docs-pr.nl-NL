@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 08/20/2020
+ms.date: 08/27/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 39ef79f685c216732aa1e3e0ccb28a4ab6e2b07a
-ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
+ms.openlocfilehash: 8eda787a92228fc9705bd329f0df7203b9a1175c
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845854"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294773"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Nieuw in Office 365 ATP
 
@@ -39,6 +39,9 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 
 - [Uw beleidsregels controleren met behulp van configuratie analyse](configuration-analyzer-for-security-policies.md)
 - [Filter Verdicts handmatig negeren met behulp van de lijst Tenant toestaan/blokkeren](tenant-allow-block-list.md)
+- [Uitgebreide functies in de bedreigings Verkenner, waaronder populaire gebruikers, transportregels en connectors](threat-explorer.md#extended-capabilities-in-Threat-Explorer.md)
+- Weergegeven overschrijft informatie in de [bedreigings Verkenner](threat-explorer.md) (e-mail is door Tenant/gebruikersbeleid toegestaan/geblokkeerd)
+- Weergegeven URL Threats in de [Threat Explorer](threat-explorer.md) (malware, phishing, spam of geen)
 
 ## <a name="julyaugust-2020"></a>Juli 2020 
 
@@ -55,8 +58,6 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 - Uitbreidingen voor de [bedreigings Verkenner](threat-explorer.md) voor het in-en uitschakelen van beveiligingsactiviteiten teams om meerdere velden te doorzoeken en te filteren tijdens het [onderzoeken van e-mail](investigate-malicious-email-that-was-delivered.md):
     - Bezorgingslocatie en speciale acties
     - Richting (inkomend, uitgaand of intra organisatie)
-    - Overschrijvingen (gebruikers blokkeren of toestaan)
-    - URL-bedreiging (malware, phishing, spam of geen)
     - Geavanceerde niet-filters (dit zijn Geavanceerde filteropties die geen deel uitmaken van de optie geen, enzovoort).
     - Granulaire tijdfilters (dag, uur, half uur) 
 
@@ -103,5 +104,4 @@ Wist u dat Office 365 ATP beschikbaar is in twee abonnementen? Meer [informatie 
 [Microsoft 365-wegwijzer](https://www.microsoft.com/microsoft-365/roadmap)
 
 [Service beschrijving in Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
-
 

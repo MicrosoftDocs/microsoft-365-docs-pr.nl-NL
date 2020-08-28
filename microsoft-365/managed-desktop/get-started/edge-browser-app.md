@@ -1,6 +1,6 @@
 ---
 title: Nieuwe Microsoft Edge-apps
-description: ''
+description: Hoe de nieuwe Edge-browser wordt geïmplementeerd en bijgewerkt
 keywords: browser, Microsoft beheerde desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 089d9dc79da568a43c1d5701d7bc52d9bed0f4f5
-ms.sourcegitcommit: c76c025fe75cd9c06eccbf9c7fc887b09da36659
+ms.openlocfilehash: 60ffdcddcd069330d3cde2f9cc6b2635cf205a90
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46903869"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294672"
 ---
 # <a name="new-microsoft-edge-app"></a>Nieuwe Microsoft Edge-app
 
@@ -35,7 +35,6 @@ Het [bèta kanaal](https://docs.microsoft.com/deployedge/microsoft-edge-channels
 
 U kunt ervoor zorgen dat Microsoft Edge correct wordt bijgewerkt door de [Update beleidsregels](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies)voor Microsoft Edge niet te wijzigen.
 
-### <a name="microsoft-edge-beta-channel"></a>Microsoft Edge bèta-kanaal
 
 
 ## <a name="settings-managed-by-microsoft-managed-desktop"></a>Instellingen die worden beheerd door Microsoft Managed Desktop
@@ -44,7 +43,7 @@ Microsoft Managed Desktop heeft een standaardreeks beleidsregels voor Microsoft 
 
 ### <a name="microsoft-edge-extensions"></a>Microsoft Edge-extensies
 
-Met de beveiligings basis voor Microsoft Edge on Microsoft Managed Desktop devices stelt u twee beleidsregels in om alle Chrome-extensies en veilige eindgebruikers uit te schakelen. Als u extensies wilt inschakelen en implementeren in uw omgeving, raadpleegt u instellingen die u beheert. 
+Met de beveiligings basis voor Microsoft Edge on Microsoft Managed Desktop devices stelt u twee beleidsregels in om alle chroom extensies en beveiligde gebruikers uit te schakelen. Als u extensies wilt inschakelen en implementeren in uw omgeving, raadpleegt u instellingen die u beheert. 
 
 #### <a name="extension-installation-blocklist"></a>Extensies installeren blokkeringslijst geplaatst
 **Standaardwaarde:** Al
@@ -77,7 +76,7 @@ We raden u aan deze instelling niet in te schakelen omdat gebruikers sites kunne
 
 **Standaardwaarde:** Enabled
 
-Standaard ingeschakeld om eindgebruikers te helpen beschermen.
+Deze optie is standaard ingeschakeld om gebruikers te helpen beschermen.
 
 #### <a name="windows-defender-smartscreen-prompts-for-sites"></a>Windows Defender SmartScreen vraagt voor sites
 
@@ -105,7 +104,7 @@ We raden u niet aan gebruik te maken van Flash vanwege bijbehorende beveiligings
 
 **Standaardwaarde:** Uitgeschakeld
 
-U wordt aangeraden eindgebruikers niet in staat te stellen om wachtwoorden op hun apparaat op te slaan.
+U wordt aangeraden gebruikers niet in staat te stellen om wachtwoorden op hun apparaat op te slaan.
 
 ### <a name="internet-explorer-mode-in-microsoft-edge"></a>Internet Explorer-modus in Microsoft Edge
 Met de IE-modus op Microsoft Edge kunt u eenvoudig gebruikmaken van alle sites die uw organisatie nodig heeft in één browser. Met de geïntegreerde toepassing van chroom voor sites die compatibel zijn met de chroom beeldrendering-engine, wordt de Trident MSHTML-engine van Internet Explorer 11 (IE11) gebruikt voor sites die geen of geen afhankelijkheden hebben van de IE-functionaliteit. [Meer informatie] (https://docs.microsoft.com/DeployEdge/edge-ie-mode) 

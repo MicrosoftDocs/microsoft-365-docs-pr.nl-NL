@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u een postvak configureert om spam en phishing-e-mail te verzamelen die door gebruikers worden gerapporteerd.
-ms.openlocfilehash: b21a95629e3b84ea77bbee5a988f84c1d55d717f
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 458938105d03cb82dfa4e9a7824f8b026fddec5d
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866929"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294751"
 ---
 # <a name="specify-a-mailbox-for-user-submissions-of-spam-and-phishing-messages-in-exchange-online"></a>Een postvak opgeven voor de verzending van spam en phishing-berichten in Exchange Online
 
@@ -47,10 +47,10 @@ Door gebruiker gerapporteerde berichten te verzenden naar een aangepast postvak 
 
   - Als u de configuratie van gebruikers inzendingen wilt wijzigen, moet u lid zijn van een van de volgende rollen groepen:
 
-    - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
+    - **[Exchange-beheerder](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** in azure AD **, Organisatiebeheer** of **beveiligingsbeheerder** , en in het [beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
     - **Organisatiebeheer** of **Hygiënebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-  - Voor alleen-lezen toegang tot gebruikers inzendingen moet u lid zijn van een van de volgende rollen groepen:
+  - Voor alleen-lezen toegang tot gebruikers inzendingen moet u lid zijn van de volgende groepen rollen:
 
     - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
     - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
@@ -73,7 +73,7 @@ Door gebruiker gerapporteerde berichten te verzenden naar een aangepast postvak 
 
       - **Na verzending**: Klik op ![ pictogram uitvouwen ](../../media/scc-expand-icon.png) . Voer in de vakken **titel** en **bevestigingsbericht** de beschrijvende tekst in die gebruikers zien nadat ze een bericht hebben gerapporteerd via de invoegtoepassing bericht rapporteren. U kunt de variabele% type% gebruiken om het type levering op te nemen.
 
-      Wanneer u gereed bent, klikt u op **Opslaan**. Als u deze waarden wilt wissen, klikt u op de pagina voor het **aanbrengen** van **gebruikers** op terug herstellen.
+      Klik op **Opslaan** wanneer u gereed bent. Als u deze waarden wilt wissen, klikt u op de pagina voor het **aanbrengen** van **gebruikers** op terug herstellen.
 
       - **Verstuur de gerapporteerde berichten naar**: Voer een van de volgende opties in:
 

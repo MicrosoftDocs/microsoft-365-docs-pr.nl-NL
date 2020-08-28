@@ -20,16 +20,22 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: e31389705ddd8de4854a3477012d7fa90b78c7ee
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 8b0fda2d8a0b7d9cb6b2c6a4cca2e8e34a876fec
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866893"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289421"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Nieuw in Microsoft Secure Score
 
 Als u Microsoft Secure Score een betere vertegenwoordiger van uw beveiligings Posture wilt maken, hebben we enkele wijzigingen aangebracht. Zie voor meer informatie over geplande wijzigingen wat er wordt weergegeven [in Microsoft Secure Score?](microsoft-secure-score-whats-coming.md).
+
+## <a name="august-2020"></a>Augustus 2020
+
+### <a name="update-improvement-action-for-azure-active-directory"></a>Update voor verbetering van de actie in azure Active Directory
+
+- Beleid inschakelen voor het blokkeren van oudere verificatie
 
 ## <a name="july-2020"></a>Juli 2020
 

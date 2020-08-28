@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 4707b95c72200042b17c9e8ff9ae876933522d1f
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 596d67d4967886a2df985793f38f968b40d2c3a9
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866917"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289661"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Wat is er beschikbaar voor de beveiligde Score van Microsoft
 
@@ -30,9 +30,8 @@ We maken de nabije toekomst enkele wijzigingen in de nabije toekomst, zodat [Mic
 
 ## <a name="proposed-changes"></a>Voorgestelde wijzigingen
 
-Afhankelijk van uw licentie, worden deze wijzigingen ook doorgevoerd in uw Microsoft Secure Score. Zie [nieuwe functies in Microsoft Secure Score](microsoft-secure-score-whats-new.md) voor informatie over recente wijzigingen.
-
-- De maximum score wijzigen van 7 in 8 voor de actie voor het verzorgen van Azure Active Directory
+### <a name="september-2020"></a>September 2020
+- Geen wijzigingen gepland
 
 ## <a name="related-resources"></a>Verwante informatiebronnen
 

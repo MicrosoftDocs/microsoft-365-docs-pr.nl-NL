@@ -10,69 +10,69 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 9efe6ba6704b0e1633973d157c38827221316bbd
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 0b76a14a30caeb75cfdcb8acc5715fe6710e0625
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430445"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289457"
 ---
 # <a name="work-with-app-control"></a>Werken met App-beheer
 
-Zodra app-besturingselement in uw omgeving is geïmplementeerd, hebben zowel u als Microsoft Managed Desktop Operations lopende verantwoordelijkheden. U bijvoorbeeld een nieuwe app in de omgeving toevoegen of een vertrouwde ondertekenaar toevoegen (of verwijderen). Om de beveiliging te verbeteren, moeten alle apps zijn ondertekend met code voordat u ze vrijlaat aan eindgebruikers. De uitgeversgegevens van een app bevatten informatie over de ondertekenaar.
+Wanneer het app-besturingselement is geïmplementeerd in uw omgeving, hebben zowel u als door Microsoft beheerde bureaublad bewerkingen voortdurend verantwoordelijkheden. U kunt bijvoorbeeld een nieuwe app toevoegen aan de omgeving of een vertrouwde ondertekenaar toevoegen of verwijderen. Ter verbetering van de beveiliging moeten alle apps met een code zijn ondertekend voordat u ze vrijgeeft aan gebruikers. De details van de app van een app bevatten informatie over de ondertekenaar.
 
 
 ## <a name="add-a-new-app"></a>Een nieuwe app toevoegen
 
 Voer de volgende stappen uit om een nieuwe app toe te voegen:
 
-1. Voeg de app toe aan [Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-win32-app-management).
-2. Implementeer de app op elk apparaat in de testring. 
-3. Test uw app op basis van uw standaard bedrijfsprocessen. 
-4. Controleer Logboeken onder **Toepassings- en Serviceslogboeken\Microsoft\Windows\AppLocker**, op zoek naar **8003-** of **8006-gebeurtenissen.** Deze gebeurtenissen geven aan dat de app zou worden geblokkeerd. Zie [Logboeken gebruiken met AppLocker voor](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/using-event-viewer-with-applocker)meer informatie over alle App Locker-evenementen en hun betekenissen.
-5. Als u een van deze gebeurtenissen vindt, opent u een aanvraag voor ondertekenaars met Microsoft Managed Desktop Operations.
+1. Voeg de app toe aan [Microsoft intune](https://docs.microsoft.com/mem/intune/apps/apps-win32-app-management).
+2. Implementeer de app op een willekeurig apparaat in de test ring. 
+3. Test de app op basis van uw standaardbedrijfsprocessen. 
+4. Ga naar Logboekinzage onder **toepassingen en services Logs\Microsoft\Windows\AppLocker**en zoek naar gebeurtenissen van **8003** of **8006** . Deze gebeurtenissen geven aan dat de app wordt geblokkeerd. Zie voor meer informatie over de app-waarschuwingen en hun betekenissen [Logboeken met behulp van AppLocker](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/using-event-viewer-with-applocker).
+5. Als u een van deze gebeurtenissen vindt, opent u een aanvraag voor een afzender met Microsoft beheerde bureaublad bewerkingen.
 
 ## <a name="add-or-remove-a-trusted-signer"></a>Een vertrouwde ondertekenaar toevoegen (of verwijderen)
 
-Wanneer u een ondertekenaaraanvraag opent, moet u eerst een aantal belangrijke uitgeversgegevens opgeven. Volg dan de volgende stappen:
+Wanneer u een Onderteken aanvraag opent, moet u eerst enkele belangrijke details van de uitgever geven. Voer daarna de volgende stappen uit:
 
-1. [Gegevens van uitgevers verzamelen.](#gather-publisher-details)
-2. Open een ticket met Microsoft Managed Desktop Operations om de ondertekenaarregel op te vragen en de volgende details op te nemen:  
-    - Toepassingsnaam 
+1. [Details van de uitgever verzamelen](#gather-publisher-details).
+2. Open een ticket met door Microsoft beheerde bureaublad bewerkingen om de ondertekenaars regel te aanvragen en de volgende details weer te geven:  
+    - Naam van toepassing 
     - Toepassingsversie 
     - Beschrijving 
-    - Type wijzigen ('toevoegen' of 'verwijderen')  
-    - Uitgeversgegevens (bijvoorbeeld: "O= <publisher name> ,L= <location> ,S=State,C=Country") 
+    - Type wijzigen (' toevoegen ' of ' verwijderen ')  
+    - Details van de uitgever (bijvoorbeeld: "O = <publisher name> , L = <location> , S = staat, C = Country") 
 
 > [!NOTE]
-> Als u vertrouwen voor een app wilt verwijderen, voert u dezelfde stappen uit, maar stelt **u Type Wijzigen** in om te *verwijderen.*
+> Als u het vertrouwen voor een app wilt verwijderen, voert u dezelfde stappen uit maar stelt u het **type wijzigen** in dat u wilt *verwijderen*.
 
-Operations implementeert geleidelijk beleid naar implementatiegroepen volgens deze planning:
+Met bewerkingen worden de beleidsregels progressief geïmplementeerd voor implementatie groepen die het volgende schema volgen:
 
 
-|Implementatiegroep  |Beleidstype  |Timing  |
+|Implementatiegroep  |Beleidstype  |Tijdsinstellingen  |
 |---------|---------|---------|
-|Test     |  Audit       |  Dag 0       |
+|Wedstrijden     |  Oordeel       |  Dag 0       |
 |Eerste     | Afgedwongen        | Dag 1        |
-|Snel     | Afgedwongen        |  Dag 2       |
-|Brede     | Afgedwongen        |  Dag 3       |
+|Razendsnelle     | Afgedwongen        |  Dag 2       |
+|Scala     | Afgedwongen        |  Dag 3       |
 
 
-U de implementatie op elk gewenst moment tijdens de implementatie onderbreken of terugdraaien. Open hiervoor een andere serviceaanvraag met Operations.
+U kunt op elk gewenst moment tijdens de implementatie de implementatie onderbreken of terugdraaien. Open hiervoor een andere serviceaanvraag met bewerkingen.
 
 > [!NOTE]
-> Als u de release van een ondertekenaarregel onderbreekt, moet deze regel worden teruggedraaid of voltooid voordat een andere implementatie kan worden gestart.
+> Als u de release van een handtekeningregel onderbreekt, moet die regel worden hersteld of voltooid voordat een andere implementatie kan worden gestart.
 
-## <a name="gather-publisher-details"></a>Uitgeversgegevens verzamelen
+## <a name="gather-publisher-details"></a>Details van de uitgever verzamelen
 
-Voer de volgende stappen uit om toegang te krijgen tot de uitgeversgegevens voor een app:
+Voer de volgende stappen uit om toegang te krijgen tot de gegevens van de uitgever van de app:
 
-1. Zoek een Microsoft Managed Desktop-apparaat in de testring waarop een controlemodusbeleid is toegepast. 
+1. Zoek een Microsoft-beheerapparaat in de test ring waarop een beleid voor controlemodus is toegepast. 
 2. Probeer de app op het apparaat te installeren.
-3. Open Logboeken op dat apparaat. 
-4. Navigeer in Logboeken naar **toepassings- en serviceslogboeken\Microsoft\Windows**en selecteer **vervolgens AppLocker**. 
-5. Zoek een gebeurtenis van **8003** of **8006** en kopieer vervolgens informatie uit de gebeurtenis: 
-    - Toepassingsnaam 
+3. Open de logboek viewer op dat apparaat. 
+4. Ga in logboeken naar **toepassingen en services Logs\Microsoft\Windows**en selecteer vervolgens **AppLocker**. 
+5. Zoek een willekeurige gebeurtenis in **8003** of **8006** en kopieer de gegevens uit de gebeurtenis: 
+    - Naam van toepassing 
     - Toepassingsversie 
     - Beschrijving 
-    - Uitgeversgegevens (bijvoorbeeld: "O= <publisher name> , L= <location> , S=State, C=Country") 
+    - Details van de uitgever (bijvoorbeeld: "O = <publisher name> , L = <location> , S = staat, C = Country") 
