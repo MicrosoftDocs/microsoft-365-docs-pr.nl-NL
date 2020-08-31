@@ -78,8 +78,51 @@
     - name: Klanten-lockbox
       href: customer-lockbox-requests.md
 - name: Informatiebescherming beheren
-  href: protect-information.md
   items:
+    - name: 'Uw gegevens kennen, uw gegevens beschermen, gegevensverlies voorkomen'
+      href: protect-information.md
+    - name: Typen gevoelige informatie
+      items:
+        - name: Definities van entiteiten van het type Gevoelige informatie
+          href: sensitive-information-type-entity-definitions.md
+        - name: Doel van de DLP-functies
+          href: what-the-dlp-functions-look-for.md
+        - name: Een uitgebreid overzicht over het aanpassen van DLP bekijken
+          href: 'https://go.microsoft.com/fwlink/?linkid=852306'
+        - name: Een ingebouwd type gevoelige informatie aanpassen
+          href: customize-a-built-in-sensitive-information-type.md
+        - name: Aangepaste typen gevoelige informatie
+          href: custom-sensitive-info-types.md
+        - name: Aangepaste typen gevoelige informatie maken met exacte gegevensovereenkomsten
+          href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
+        - name: Een aangepast type gevoelige informatie maken in het beveiligings- en compliancecentrum
+          href: create-a-custom-sensitive-information-type.md
+        - name: Een aangepast type gevoelige informatie maken met Windows PowerShell
+          href: create-a-custom-sensitive-information-type-in-scc-powershell.md
+        - name: Een woordenlijst met trefwoorden maken
+          href: create-a-keyword-dictionary.md
+        - name: Fingerprinting van documenten
+          href: document-fingerprinting.md
+        - name: DLP-functies voor gevoelige informatie
+          href: what-the-dlp-functions-look-for.md
+    - name: Trainbare classificaties
+      items:
+        - name: Aan de slag met trainbare classificaties (preview)
+          href: classifier-getting-started-with.md
+        - name: Een ingebouwde classificatie gebruiken (preview)
+          href: classifier-using-a-ready-to-use-classifier.md
+        - name: Een classificatie maken en trainen (preview)
+          href: classifier-creating-a-trainable-classifier.md
+    - name: Gegevensclassificatie
+      items:
+        - name: Inzicht in gegevensclassificatie
+          href: data-classification-overview.md
+        - name: Aan de slag met de inhoudsverkenner
+          href: data-classification-content-explorer.md
+        - name: Aan de slag met de activiteitenverkenner
+          href: data-classification-activity-explorer.md
+        - name: Opmerkingen bij de release van gegevensclassificatie
+          href: data-classification-pub-preview-relnotes.md
     - name: Vertrouwelijkheidslabels
       items:
         - name: Meer informatie over vertrouwelijkheidslabels
@@ -100,9 +143,77 @@
           href: sensitivity-labels-sharepoint-onedrive-files.md
         - name: Vertrouwelijkheidslabels gebruiken in Office-apps
           href: sensitivity-labels-office-apps.md
-    - name: Preventie van gegevensverlies (DLP)
-      href: data-loss-prevention-policies.md
+    - name: Versleuteling
       items:
+        - name: Informatie over versleuteling
+          href: encryption.md
+        - name: Dubbele sleutelcodering (preview)
+          href: double-key-encryption.md
+        - name: Versleuteling van Office 365-service
+          href: office-365-service-encryption.md
+        - name: Klantsleutel
+          items:
+            - name: Serviceversleuteling met klantsleutel in Office 365
+              href: customer-key-overview.md
+            - name: Klantsleutel instellen voor Office 365
+              href: customer-key-set-up.md
+            - name: Klantsleutel beheren voor Office 365
+              href: customer-key-manage.md
+            - name: Een klantsleutel of een beschikbaarheidssleutel rollen of draaien
+              href: customer-key-availability-key-roll.md
+            - name: Meer informatie over de beschikbaarheidssleutel voor de klantsleutel
+              href: customer-key-availability-key-understand.md
+        - name: E-mailversleuteling
+          href: email-encryption.md
+          items:
+            - name: Office 365-berichtversleuteling (OME)
+              href: ome.md
+            - name: De nieuwe mogelijkheden van Office 365-berichtversleuteling instellen
+              href: set-up-new-message-encryption-capabilities.md
+            - name: E-mailstroomregels definiëren voor het versleutelen van e-mailberichten in Office 365
+              href: define-mail-flow-rules-to-encrypt-email.md
+            - name: Het huismerk van uw organisatie toevoegen aan uw versleutelde berichten
+              href: add-your-organization-brand-to-encrypted-messages.md
+            - name: Een beleid voor het type Gevoelige informatie voor uw organisatie maken met Office 365-berichtversleuteling
+              href: ome-sensitive-info-types.md
+            - name: Office 365-berichtversleuteling beheren
+              href: manage-office-365-message-encryption.md
+            - name: Office 365 Advanced Message Encryption
+              href: ome-advanced-message-encryption.md
+            - name: Een vervaldatum instellen voor e-mailberichten die zijn versleuteld met Office 365 Advanced Message Encryption
+              href: ome-advanced-expiration.md
+            - name: E-mailberichten intrekken die zijn versleuteld met Office 365 Advanced Message Encryption
+              href: revoke-ome-encrypted-mail.md
+            - name: Versies van OME vergelijken
+              href: ome-version-comparison.md
+            - name: Veelgestelde vragen over Office 365-berichtversleuteling
+              href: ome-faq.md
+            - name: Hoe Exchange Online uw e-mailgeheimen kan beveiligen
+              href: exchange-online-secures-email-secrets.md
+            - name: Hoe Exchange Online TLS gebruikt voor het beveiligen van e-mailverbindingen in Office 365
+              href: exchange-online-uses-tls-to-secure-email-connections.md
+            - name: BitLocker en Distributed Key Manager (DKM) voor versleuteling
+              href: office-365-bitlocker-and-distributed-key-manager-for-encryption.md
+            - name: OME (verouderd)
+              items:
+                - name: Verouderde informatie voor Office 365-berichtversleuteling
+                  href: legacy-information-for-message-encryption.md
+                - name: Azure Rights Management instellen voor de vorige versie van Office 365-berichtversleuteling
+                  href: set-up-azure-rms-for-previous-version-message-encryption.md
+        - name: SharePoint IRM
+          href: set-up-irm-in-sp-admin-center.md
+        - name: Technische naslaginformatie
+          href: technical-reference-details-about-encryption.md
+        - name: Stopzetten van TLS 1.0 en 1.1 voor Office 365
+          href: tls-1.0-and-1.1-deprecation-for-office-365.md
+        - name: Stopzetten van TLS 1.0 en 1.1 in Office 365 GCC High en DoD
+          href: tls-1-2-in-office-365-gcc.md
+        - name: TLS 1.2 in Office 365
+          href: prepare-tls-1.2-in-office-365.md
+    - name: Preventie van gegevensverlies (DLP)
+      items:
+        - name: Meer informatie over DLP
+          href: data-loss-prevention-policies.md
         - name: DLP en Microsoft Teams
           href: dlp-microsoft-teams.md
         - name: Meer informatie over preventie van gegevensverlies van eindpunten (preview)
@@ -131,116 +242,42 @@
           href: form-a-query-to-find-sensitive-data-stored-on-sites.md
         - name: De werking van DLP tussen het Beveiligings- en compliancecentrum en het Exchange-beheercentrum
           href: how-dlp-works-between-admin-centers.md
-    - name: Typen gevoelige informatie
-      items:
-        - name: Definities van entiteiten van het type Gevoelige informatie
-          href: sensitive-information-type-entity-definitions.md
-        - name: Doel van de DLP-functies
-          href: what-the-dlp-functions-look-for.md
-        - name: Een uitgebreid overzicht over het aanpassen van DLP bekijken
-          href: 'https://go.microsoft.com/fwlink/?linkid=852306'
-        - name: Een ingebouwd type gevoelige informatie aanpassen
-          href: customize-a-built-in-sensitive-information-type.md
-        - name: Aangepaste typen gevoelige informatie
-          href: custom-sensitive-info-types.md
-        - name: Aangepaste typen gevoelige informatie maken met de classificatie van exacte gegevensovereenkomsten
-          href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
-        - name: Een aangepast type gevoelige informatie maken in het Beveiligings- en compliancecentrum
-          href: create-a-custom-sensitive-information-type.md
-        - name: Een aangepast type gevoelige informatie maken met PowerShell
-          href: create-a-custom-sensitive-information-type-in-scc-powershell.md
-        - name: Een woordenlijst met trefwoorden maken
-          href: create-a-keyword-dictionary.md
-        - name: Fingerprinting van documenten
-          href: document-fingerprinting.md
-        - name: DLP-functies voor gevoelige informatie
-          href: what-the-dlp-functions-look-for.md
-    - name: Versleuteling in Microsoft 365
-      href: encryption.md
-    - name: Versleuteling van Office 365-service
-      href: office-365-service-encryption.md
-    - name: Technische naslaginformatie over versleuteling in Office 365
-      href: technical-reference-details-about-encryption.md
-    - name: Stopzetten van TLS 1.0 en 1.1 voor Office 365
-      href: tls-1.0-and-1.1-deprecation-for-office-365.md
-    - name: Stopzetten van TLS 1.0 en 1.1 in Office 365 GCC High en DoD
-      href: tls-1-2-in-office-365-gcc.md
-    - name: TLS 1.2 in Office 365
-      href: prepare-tls-1.2-in-office-365.md
-    - name: Dubbele sleutelcodering voor de openbare preview-versie van Microsoft 365
-      href: double-key-encryption.md
-    - name: Klantsleutel
-      items:
-        - name: Serviceversleuteling met klantsleutel in Office 365
-          href: customer-key-overview.md
-        - name: Klantsleutel instellen voor Office 365
-          href: customer-key-set-up.md
-        - name: Klantsleutel beheren voor Office 365
-          href: customer-key-manage.md
-        - name: Een klantsleutel of een beschikbaarheidssleutel rollen of draaien
-          href: customer-key-availability-key-roll.md
-        - name: Meer informatie over de beschikbaarheidssleutel voor de klantsleutel
-          href: customer-key-availability-key-understand.md
-    - name: Versleuteling van data-in-transit
-      href: office-365-encryption-for-data-in-transit.md
-    - name: E-mailversleuteling
-      href: email-encryption.md
-      items:
-        - name: Office 365-berichtversleuteling (OME)
-          href: ome.md
-        - name: De nieuwe mogelijkheden van Office 365-berichtversleuteling instellen
-          href: set-up-new-message-encryption-capabilities.md
-        - name: E-mailstroomregels definiëren voor het versleutelen van e-mailberichten in Office 365
-          href: define-mail-flow-rules-to-encrypt-email.md
-        - name: Het huismerk van uw organisatie toevoegen aan uw versleutelde berichten
-          href: add-your-organization-brand-to-encrypted-messages.md
-        - name: Een beleid voor het type Gevoelige informatie voor uw organisatie maken met Office 365-berichtversleuteling
-          href: ome-sensitive-info-types.md
-        - name: Office 365-berichtversleuteling beheren
-          href: manage-office-365-message-encryption.md
-        - name: Office 365 Advanced Message Encryption
-          href: ome-advanced-message-encryption.md
-        - name: Een vervaldatum instellen voor e-mailberichten die zijn versleuteld met Office 365 Advanced Message Encryption
-          href: ome-advanced-expiration.md
-        - name: E-mailberichten intrekken die zijn versleuteld met Office 365 Advanced Message Encryption
-          href: revoke-ome-encrypted-mail.md
-        - name: Versies van OME vergelijken
-          href: ome-version-comparison.md
-        - name: Veelgestelde vragen over Office 365-berichtversleuteling
-          href: ome-faq.md
-        - name: Hoe Exchange Online uw e-mailgeheimen kan beveiligen
-          href: exchange-online-secures-email-secrets.md
-        - name: Hoe Exchange Online TLS gebruikt voor het beveiligen van e-mailverbindingen in Office 365
-          href: exchange-online-uses-tls-to-secure-email-connections.md
-        - name: BitLocker en Distributed Key Manager (DKM) voor versleuteling
-          href: office-365-bitlocker-and-distributed-key-manager-for-encryption.md
-        - name: OME (verouderd)
-          items:
-            - name: Verouderde informatie voor Office 365-berichtversleuteling
-              href: legacy-information-for-message-encryption.md
-            - name: Azure Rights Management instellen voor de vorige versie van Office 365-berichtversleuteling
-              href: set-up-azure-rms-for-previous-version-message-encryption.md
-    - name: IRM instellen in het SharePoint-beheercentrum
-      href: set-up-irm-in-sp-admin-center.md
-    - name: Inzicht in gegevensclassificatie
-      href: data-classification-overview.md
-      items:
-        - name: Aan de slag met de inhoudsverkenner
-          href: data-classification-content-explorer.md
-        - name: Aan de slag met de activiteitenverkenner
-          href: data-classification-activity-explorer.md
-        - name: Opmerkingen bij de release van gegevensclassificatie
-          href: data-classification-pub-preview-relnotes.md
-        - name: Aan de slag met trainbare classificaties (preview)
-          href: classifier-getting-started-with.md
-        - name: Een ingebouwde classificatie gebruiken (preview)
-          href: classifier-using-a-ready-to-use-classifier.md
-        - name: Een classificatie maken en trainen (preview)
-          href: classifier-creating-a-trainable-classifier.md
 - name: Gegevensbeheer beheren
   items:
-    - name: Gegevensbeheer beheren
+    - name: Uw gegevens beheren
       href: manage-information-governance.md
+    - name: Gegevens behouden en verwijderen
+      items:
+        - name: Meer informatie over retentie
+          items:
+            - name: Bewaarbeleid en retentielabels
+              href: retention.md
+            - name: Retentie voor SharePoint en OneDrive
+              href: retention-policies-sharepoint.md
+            - name: Retentie voor Microsoft Teams
+              href: retention-policies-teams.md
+            - name: Retentie voor Exchange
+              href: retention-policies-exchange.md
+        - name: Aan de slag met retentie
+          href: get-started-with-retention.md
+        - name: Bewaarbeleid maken
+          href: create-retention-policies.md
+        - name: Bestandsplan gebruiken
+          href: file-plan-manager.md
+        - name: Retentielabels maken en deze toepassen in apps
+          href: create-apply-retention-labels.md
+        - name: Een retentielabel automatisch toepassen op inhoud
+          href: apply-retention-labels-automatically.md
+        - name: Voldoen aan SEC Rule 17a-4
+          href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
+        - name: Retentielabels maken met PowerShell
+          href: bulk-create-publish-labels-using-powershell.md
+        - name: Retentie starten als zich een gebeurtenis voordoet
+          href: event-driven-retention.md
+        - name: Bewaaretiketten gebruiken om levenscycli van documenten te beheren
+          href: auto-apply-retention-labels-scenario.md
+        - name: Gegevensverwerking beheren
+          href: disposition.md
     - name: Postvakgegevens importeren
       items:
         - name: Overzicht van het importeren van PST-bestanden
@@ -287,38 +324,6 @@
           href: enable-unlimited-archiving.md
         - name: Een archief- en verwijderingsbeleid instellen voor postvakken
           href: set-up-an-archive-and-deletion-policy-for-mailboxes.md
-    - name: Gegevens behouden en verwijderen
-      items:
-        - name: Meer informatie over retentie
-          items:
-            - name: Bewaarbeleid en retentielabels
-              href: retention.md
-            - name: Retentie voor SharePoint en OneDrive
-              href: retention-policies-sharepoint.md
-            - name: Retentie voor Microsoft Teams
-              href: retention-policies-teams.md
-            - name: Retentie voor Exchange
-              href: retention-policies-exchange.md
-        - name: Aan de slag met retentie
-          href: get-started-with-retention.md
-        - name: Bewaarbeleid maken
-          href: create-retention-policies.md
-        - name: Bestandsplan gebruiken
-          href: file-plan-manager.md
-        - name: Retentielabels maken en deze toepassen in apps
-          href: create-apply-retention-labels.md
-        - name: Een retentielabel automatisch toepassen op inhoud
-          href: apply-retention-labels-automatically.md
-        - name: Voldoen aan SEC Rule 17a-4
-          href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
-        - name: Retentielabels maken met PowerShell
-          href: bulk-create-publish-labels-using-powershell.md
-        - name: Retentie starten als zich een gebeurtenis voordoet
-          href: event-driven-retention.md
-        - name: Bewaaretiketten gebruiken om levenscycli van documenten te beheren
-          href: auto-apply-retention-labels-scenario.md
-        - name: Gegevensverwerking beheren
-          href: disposition.md
     - name: Inactieve postvakken beheren
       items:
         - name: Overzicht van inactieve postvakken
@@ -333,10 +338,8 @@
           href: restore-an-inactive-mailbox.md
         - name: Een inactief postvak verwijderen
           href: delete-an-inactive-mailbox.md
-    - name: Meer informatie over gegevensbeheer
-      items:
-        - name: Video's bekijken van het team van Microsoft-gegevensbeheer
-          href: 'https://go.microsoft.com/fwlink/?linkid=867039'
+    - name: Video's bekijken van het gegevensbeheerteam
+      href: 'https://go.microsoft.com/fwlink/?linkid=867039'
     - name: Records Management
       items:
         - name: Meer informatie over Records Management
