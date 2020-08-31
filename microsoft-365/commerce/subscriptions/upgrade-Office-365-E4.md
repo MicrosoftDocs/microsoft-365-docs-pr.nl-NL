@@ -20,12 +20,12 @@ search.appverid:
 description: Leer hoe u een upgrade uitvoert van een Office 365 E4-abonnement.
 ms.date: 08/14/2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3ab3ac1c85dc3726585f9c414449ff4847626fc8
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 2587732a6c4092dcb7b53daf9493e7cee2f1987c
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689361"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308003"
 ---
 # <a name="upgrade-from-an-office-365-e4-subscription"></a>Een upgrade uitvoeren van een abonnement op Office 365 E4
 
@@ -130,7 +130,7 @@ Voordat u verder gaat met de volgende stap, is het belangrijk om te zorgen dat a
 Met het Microsoft 365-Beheercentrum kunt u opnieuw licenties toewijzen voor maximaal 20 gebruikers tegelijk. Zie [gebruikers verplaatsen naar een ander abonnement](move-users-different-subscription.md)voor meer informatie.
 
 > [!TIP]
-> Als u veel gebruikers hebt, kunt u [Office 365 PowerShell gebruiken om gebruikerslicenties bulksgewijs toe te wijzen](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
+> Als u veel gebruikers hebt, kunt u [Office 365 PowerShell gebruiken om gebruikerslicenties bulksgewijs toe te wijzen](https://docs.microsoft.com/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell).
 
 ### <a name="step-4-cancel-the-office-365-e4-subscription"></a>Stap 4: het Office 365 E4-abonnement opzeggen
 

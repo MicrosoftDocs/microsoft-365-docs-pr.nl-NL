@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Overzicht van Microsoft-productiviteits Score.
-ms.openlocfilehash: 66ab028282fb8c74087713083e43e22cf6708897
-ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
+ms.openlocfilehash: 47675f37e9146586b3fe0dd8d974887fd2435bf3
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868853"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307475"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Microsoft-productiviteits Score (preview)
 
@@ -44,7 +44,7 @@ We bieden gegevens, inzichten en aanbevelingen in twee gedeelten:
 
 - **Technologie ervaring:** De productiviteit is afhankelijk van betrouwbare en bedrijfsgebruikers en de efficiëntste versie van Microsoft 365. We bieden [eindpunts analyses](https://aka.ms/endpointanalytics), zodat u kunt zien hoe de productiviteit van uw gebruikers kan worden beïnvloed door de prestatie-en status problemen met uw eindpunttoewijzer en-software, terwijl de aanbevolen acties voor het herstel van de gebruikers worden uitgevoerd. en wij bieden Microsoft 365 Network Connectivity Insights voor uw organisatie.
 
-Zie [Wat is Eindpunts analyse](https://docs.microsoft.com/mem/analytics/overview) voor een overzicht en de vereiste gegevens. Lees [het overzicht van netwerkverbinding](https://docs.microsoft.com/office365/enterprise/office-365-networking-overview)voor meer informatie over microsoft 365 Network Connectivity Insights.
+Zie [Wat is Eindpunts analyse](https://docs.microsoft.com/mem/analytics/overview) voor een overzicht en de vereiste gegevens. Lees [het overzicht van netwerkverbinding](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview)voor meer informatie over microsoft 365 Network Connectivity Insights.
   
 
 ## <a name="how-the-score-is-calculated"></a>Hoe de score wordt berekend

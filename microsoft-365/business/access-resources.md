@@ -1,5 +1,5 @@
 ---
-title: On-premises bronnen openen vanaf een azure ad-apparaat in Microsoft 365 Business
+title: On-premises resources openen vanuit een Azure AD-apparaat in Microsoft 365 Business
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -20,21 +20,21 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
-description: Meer informatie over het openen van on-premises bronnen, zoals branche-apps, bestandsshares en printers vanaf een azure Active Directory-apparaat dat is aangesloten bij Windows 10.
-ms.openlocfilehash: 9615ecc9469992d3e5a7479f4799c610db11fb41
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: Meer informatie over hoe u toegang krijgt tot on-premises bronnen, zoals line-of-Business-Apps, bestandsshares en printers van een Azure Active Directory-apparaat met Windows 10.
+ms.openlocfilehash: 9b83781afee746b06bbdf90962de0f55ffbcb118
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44471246"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307488"
 ---
-# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>On-premises bronnen openen vanaf een azure ad-apparaat in Microsoft 365 Business Premium
+# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>On-premises resources openen vanuit een Azure AD-domein dat is gekoppeld aan Microsoft 365 Business Premium
 
 Dit artikel is van toepassing op Microsoft 365 Business Premium.
 
-Elk Windows 10-apparaat dat azure Active Directory is aangesloten, heeft toegang tot alle cloudbronnen, zoals uw Microsoft 365-apps, en kan worden beschermd door Microsoft 365 Business Premium. U ook toegang verlenen tot on-premises bronnen, zoals LOB-apps, bestandsshares en printers. Als u toegang wilt toestaan, gebruikt [u Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) om uw on-premises Active Directory te synchroniseren met Azure Active Directory. 
+Een Windows 10-apparaat dat Azure Active Directory is aangemeld, heeft toegang tot alle bronnen op basis van de Cloud, zoals uw Microsoft 365-apps, en kan worden beveiligd door Microsoft 365 Business Premium. U kunt ook toegang verlenen tot on-premises bronnen, zoals LOB-apps (line of Business), bestandsshares en printers. Als u toegang wilt toestaan, gebruikt u [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) om uw on-premises Active Directory te synchroniseren met Azure Active Directory. 
 
-Zie [Inleiding tot apparaatbeheer in Azure Active Directory voor](https://docs.microsoft.com/azure/active-directory/device-management-introduction)meer informatie.
+Zie [Inleiding tot Apparaatbeheer in azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction)voor meer informatie.
 De stappen worden ook samengevat in de volgende secties.
 
 > [!IMPORTANT]
@@ -42,28 +42,28 @@ De stappen worden ook samengevat in de volgende secties.
  
 ## <a name="run-azure-ad-connect"></a>Azure AD Connect uitvoeren
 
-Voer de volgende stappen uit om de azure ad-apparaten van uw organisatie toegang te geven tot on-premises bronnen.
+Voer de volgende stappen uit om in te stellen dat de Azure Active Directory-apparaten van uw organisatie toegang hebben tot on-premises resources.
   
-1. Als u uw gebruikers, groepen en contactpersonen van lokale Active Directory wilt synchroniseren met Azure Active Directory, voert u de wizard Mapsynchronisatie en Azure AD Connect uit zoals beschreven in [Mapsynchronisatie instellen voor Office 365.](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization)
+1. Als u uw gebruikers, groepen en contactpersonen wilt synchroniseren van lokale Active Directory naar Azure Active Directory, voert u de wizard adreslijstsynchronisatie en Azure AD Connect uit, zoals wordt beschreven in [adreslijstsynchronisatie instellen voor Office 365](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization).
     
-2. Nadat de mapsynchronisatie is voltooid, controleert u of de Windows 10-apparaten van uw organisatie Azure AD zijn aangesloten. Deze stap wordt individueel uitgevoerd op elk Windows 10-apparaat. Zie [Windows-apparaten instellen voor Microsoft 365 Business Premium-gebruikers](set-up-windows-devices.md) voor meer informatie. 
+2. Wanneer de adreslijstsynchronisatie is voltooid, controleert u of de Windows 10-apparaten van uw organisatie aan Azure AD zijn toegevoegd. Deze stap gaat afzonderlijk op elk Windows 10-apparaat. Zie [Windows-apparaten instellen voor gebruikers van Microsoft 365 Business Premium](set-up-windows-devices.md) voor meer informatie. 
     
-3. Zodra de Windows 10-apparaten azure ad zijn aangesloten, moet elke gebruiker zijn apparaten opnieuw opstarten en zich aanmelden met zijn Microsoft 365 Business Premium-referenties. Alle apparaten hebben nu ook toegang tot on-premises bronnen.
+3. Wanneer de Windows 10-apparaten Azure AD zijn toegevoegd, moet elke gebruiker zijn of haar apparaten opnieuw opstarten en zich aanmelden met de referenties van Microsoft 365 Business Premium. Alle apparaten hebben nu ook toegang tot on-premises resources.
     
-Er zijn geen extra stappen vereist om toegang te krijgen tot on-premises bronnen voor azure AD-apparaten. Deze functionaliteit is ingebouwd in Windows 10. 
+Er zijn geen extra stappen nodig om toegang te krijgen tot on-premises bronnen voor gekoppelde apparaten in azure AD. Deze functionaliteit is ingebouwd in Windows 10. 
 
-Als u van plan bent om in te loggen op het AADJ-apparaat, met uitzondering van wachtwoordmethode Zoals pin/bio-metric via het inloggen op whfb-referentiegegevens en vervolgens toegang te krijgen tot on-premise bronnen (shares,printers.. etc), volg danhttps://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
+Als u een abonnement hebt om u aan te melden bij het AADJ-apparaat, zoals pincode/bio-metric via WHFB Credential login en vervolgens toegang tot on-premises resources (shares, printers. etc), kunt u het volgende doen https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
   
-Als uw organisatie niet klaar is om te implementeren in de hierboven beschreven azure AD joined-apparaatconfiguratie, u overwegen de configuratie van [hybride Azure AD Joined in](manage-windows-devices.md)te stellen.
+Als uw organisatie niet klaar is om te implementeren in de hierboven beschreven configuratie van Azure AD, kunt u overwegen om de configuratie van de [hybride Azure AD-apparaat](manage-windows-devices.md)in te stellen.
   
-### <a name="considerations-when-you-join-windows-devices-to-azure-ad"></a>Overwegingen wanneer u Windows-apparaten aansluit bij Azure AD
+### <a name="considerations-when-you-join-windows-devices-to-azure-ad"></a>Aandachtspunten wanneer u deelneemt aan Windows-apparaten aan Azure AD
 
-Als het Windows-apparaat waarmee Azure-AD is lid geworden, eerder is aangesloten bij het domein of in een werkgroep, moet u de volgende beperkingen overwegen:
+Als het Windows-apparaat waarvan u Azure-AD lid bent geworden, eerder domein of een werkgroep is, kunt u de volgende beperkingen overwegen:
   
-- Wanneer een apparaat azure AD wordt samengevoegd, maakt het een nieuwe gebruiker zonder te verwijzen naar een bestaand profiel. Profielen moeten handmatig worden gemigreerd. Een gebruikersprofiel bevat informatie zoals favorieten, lokale bestanden, browserinstellingen en menu-instellingen starten. Een beste aanpak is het vinden van een tool van derden om bestaande bestanden en instellingen in kaart te brengen aan het nieuwe profiel.
+- Wanneer een apparaat van Azure AD wordt samengevoegd, wordt er een nieuwe gebruiker gemaakt zonder op een bestaand profiel te verwijzen. Profielen moeten handmatig worden gemigreerd. Een gebruikersprofiel bevat informatie, zoals Favorieten, lokale bestanden, browserinstellingen en menu Start-menu instellingen. Een beste manier is om een hulpmiddel van een derde partij te zoeken waarmee u bestaande bestanden en instellingen kunt toewijzen aan het nieuwe profiel.
 
-- Als het apparaat Groepsbeleidsobjecten (GPO' s) gebruikt, hebben sommige GPO's mogelijk geen vergelijkbare [Configuration Service Provider](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) (CSP) in Intune. Voer de [MMAT-tool](https://www.microsoft.com/download/details.aspx?id=45520) uit om vergelijkbare CSP's voor bestaande GPO's te vinden.
+- Als het apparaat gebruikmaakt van groepsbeleidsobjecten (groepsbeleidsobjecten), hebben sommige Gpo's mogelijk geen vergelijkbaar [Configuration service provider](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) (CSP) in intune. Voer het [hulpprogramma MMAT](https://www.microsoft.com/download/details.aspx?id=45520) uit om vergelijkbare csp's voor bestaande gpo's te zoeken.
 
-- Gebruikers kunnen zich niet verifiëren voor toepassingen die afhankelijk zijn van Active Directory-verificatie. Evalueer de verouderde app en overweeg om te updaten naar een app die gebruik maakt van de moderne Auth, indien mogelijk.
+- Gebruikers kunnen zich niet verifiëren met toepassingen die afhankelijk zijn van Active Directory-verificatie. Evalueer de oudere app en overweeg, indien mogelijk, bij te werken naar een app die gebruikmaakt van moderne auth.
 
-- Active Directory-printerdetectie werkt niet. U directe printerpaden bieden voor alle gebruikers of [Hybride cloudprint](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy)gebruiken.
+- Active Directory-Printer detectie werkt niet. U kunt voor alle gebruikers direct printer paden maken of [hybride Cloud afdrukken](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy)gebruiken.

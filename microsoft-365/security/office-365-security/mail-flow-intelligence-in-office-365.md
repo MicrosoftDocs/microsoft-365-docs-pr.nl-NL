@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Beheerders kunnen de foutcodes voor de bezorging van berichten achterhalen via connectors (ook wel e-mail stroom informatie genoemd).
-ms.openlocfilehash: b345b52f572efca2aca1fde6ba720d733e521cc4
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: e8427f3e0341ccb381121b6cdc83d20727713d4c
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827711"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307915"
 ---
 # <a name="mail-flow-intelligence-in-eop"></a>E-mailstroomanalyse in EOP
 
@@ -62,7 +62,7 @@ Dit betekent meestal dat er in Microsoft 365 een verbindingsfout is opgetreden b
 
 ### <a name="how-do-i-fix-error-code-450-44316"></a>Hoe los ik foutcode 450 4.4.316?
 
-- Als u postvakken hebt in uw on-premises omgeving, moet u de firewallinstellingen wijzigen om verbindingen van Microsoft 365 IP-adressen op TCP-poort 25 toe te staan voor uw on-premises e-mailservers. Zie [url's en IP-adresbereiken voor Microsoft 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)voor een lijst met de microsoft 365 IP-adressen.
+- Als u postvakken hebt in uw on-premises omgeving, moet u de firewallinstellingen wijzigen om verbindingen van Microsoft 365 IP-adressen op TCP-poort 25 toe te staan voor uw on-premises e-mailservers. Zie [url's en IP-adresbereiken voor Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)voor een lijst met de microsoft 365 IP-adressen.
 
 - Als u geen berichten meer wilt ontvangen in uw on-premises omgeving, klikt u op **nu herstellen** in de melding zodat microsoft 365 de berichten met ongeldige geadresseerden direct kan afwijzen. Hierdoor wordt het risico voor het overschrijden van het quotum van de organisatie voor ongeldige geadresseerden verminderd, wat van invloed kan zijn op de bezorging van normaal berichten. U kunt ook de volgende instructies gebruiken om het probleem handmatig op te lossen:
 

@@ -1,5 +1,5 @@
 ---
-title: DNS-records maken bij Hostgator voor Microsoft
+title: DNS-records bij Hostgator maken voor Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,24 +20,24 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5f0c840e-4140-4571-88ed-cf235ff142d6
-description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Hostgator voor Microsoft.
-ms.openlocfilehash: 8adfc4b6154dad0da7dd2fe037c73fcfc4f84d58
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op Hostgator voor Microsoft.
+ms.openlocfilehash: 103da87956beae868cda84b727a3401dfd9991d9
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400435"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306969"
 ---
-# <a name="create-dns-records-at-hostgator-for-microsoft"></a>DNS-records maken bij Hostgator voor Microsoft
+# <a name="create-dns-records-at-hostgator-for-microsoft"></a>DNS-records bij Hostgator maken voor Microsoft
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
 Als Hostgator uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail, Skype voor Bedrijven Online, enzovoort in te stellen.
   
 > [!IMPORTANT]
-> U moet de eerste procedure hieronder uitvoeren, [Uw domein naar uw hostingaccount](#point-your-domain-to-your-hosting-account)wijzen voordat u DNS-records toevoegt met behulp van een van de andere procedures in dit artikel. 
+> U moet de eerste procedurebelow uitvoeren, [uw domein naar uw hosting account laten verwijzen](#point-your-domain-to-your-hosting-account)voordat u de DNS-records toevoegt met behulp van een van de overige procedures in dit artikel. 
 
-Nadat u al deze wijzigingen hebt aangebracht bij Hostgator, wordt uw domein ingesteld om te werken met Microsoft-services.
+Wanneer u alle wijzigingen hebt aangebracht op Hostgator, wordt uw domein ingesteld voor gebruik met Microsoft-services.
   
 
   
@@ -54,15 +54,15 @@ Volg deze stappen om uw domein en hostingaccounts te koppelen.
   
 1. Ga eerst naar uw pagina voor domeinbeheer bij Hostgator via [deze koppeling](https://portal.hostgator.com/). U wordt gevraagd u aan te melden.
     
-2. Selecteer **Domeinen** aan de linkerkant.
+2. Selecteer **domeinen** aan de linkerkant.
   
-3. Selecteer **op** de pagina Domeinen beheren het domein dat u wilt bijwerken. 
+3. Selecteer op de pagina **domeinen beheren** het domein dat u wilt bijwerken. 
   
-4. Selecteer **naamservers**in het pop-outmenu aan de linkerkant .
+4. Selecteer in het pop-outmenu aan de linkerkant de optie **name servers**.
   
-5. Kies op de pagina **Naamservers** voor uw domein in de vervolgkeuzelijst Automatisch dit domein naar de vervolgkeuzelijst **Mijn hostingaccount,** de hostingaccount die aan uw domein is gekoppeld. 
+5. Op de pagina **name servers** voor uw domein, in de vervolgkeuzelijst **dit domein automatisch naar de** vervolgkeuzelijst van mijn host-account, kiest u het hosting account dat is gekoppeld aan uw domein. 
   
-6. Selecteer **Naamservers opslaan**.
+6. Selecteer **Save name servers**.
     
   
 ## <a name="add-a-txt-record-for-verification"></a>Een TXT-record toevoegen voor verificatie
@@ -78,21 +78,21 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
   
 1. Als u wilt beginnen, gaat u naar de pagina cPanel bij Hostgator. U wordt gevraagd u eerst aan te melden.
     
-    (Aan elk gehost account bij Hostgator is een uniek cPanel-adres toegewezen. Het adres van uw cPanel ziet er ongeveer als volgt uit: https://YourSiteAddress:secure-port-number nummer-beveiligde-poort. De aanmeldingsmail die u van Hostgator hebt ontvangen, geeft dat **Hosting** adres op en er is ook een cPanel-koppeling beschikbaar op de hostingpagina.)
+    (Aan elk gehost account bij Hostgator is een uniek cPanel-adres toegewezen. Het adres van uw cPanel ziet er ongeveer als volgt uit: https://YourSiteAddress:secure-port-number nummer-beveiligde-poort. De registratie-e-mail die u hebt ontvangen van Hostgator, geeft dit adres aan en u kunt ook een koppeling voor cPanel **op de beschikbare pagina** weergeven.)
     
     > [!IMPORTANT]
-    > Als u cPanel aan uw domein wilt koppelen, hebt u een hostingaccount bij Hostgator nodig. Om aan de slag te gaan met Microsoft, u een hostingaccount kopen bij Hostgator of [uw naamservers opnieuw delegeren om naar Microsoft te wijzen.](change-nameservers-at-hostgator.md) 
+    > Als u cPanel aan uw domein wilt koppelen, hebt u een hostingaccount bij Hostgator nodig. Als u aan de slag wilt met Microsoft, kunt u een hosting account kopen bij Hostgator of [uw naamservers delegeren naar Microsoft](change-nameservers-at-hostgator.md). 
   
-2. Selecteer op de pagina **Configuratiescherm** in het gebied **Domeinen** de optie **Geavanceerde zoneeditor**.
+2. Selecteer op de pagina **Control Panel** , in het gebied **Domains** , de optie **Advanced zone editor**.
     
-3. Typ of kopieer en plak de waarden uit de volgende tabel op de pagina **Advanced Zone Editor** in het gebied Een record **toevoegen** in de vakken voor de nieuwe record. 
+3. Typ of kopieer en plak in het gebied add a record in de vakken voor de nieuwe record de waarden uit de volgende tabel op de pagina **Advanced zone editor** in het gebied **add a record** in de vakken voor de nieuwe record. 
     
     (Kies in de vervolgkeuzelijst de waarde **Type**). 
     
     |||||
     |:-----|:-----|:-----|:-----|
     |**Name** <br/> |**TTL** <br/> |**Type** <br/> |**TXT Data** <br/> |
-    |Gebruik je *domain_name.* (bijvoorbeeld fourthcoffee.com)  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |1  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
+    |Gebruik uw  *Domain_Name*. (bijvoorbeeld fourthcoffee.com)  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |1  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
    
 4. Selecteer **Record toevoegen**.
     
@@ -121,31 +121,31 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 1. Als u wilt beginnen, gaat u naar de pagina cPanel bij Hostgator. U wordt gevraagd u eerst aan te melden.
     
-    (Aan elk gehost account bij Hostgator is een uniek cPanel-adres toegewezen. Het adres van uw cPanel ziet er ongeveer als volgt uit: https://YourSiteAddress:secure-port-number nummer-beveiligde-poort. De aanmeldingsmail die u van Hostgator hebt ontvangen, geeft dat **Hosting** adres op en er is ook een cPanel-koppeling beschikbaar op de hostingpagina.)
+    (Aan elk gehost account bij Hostgator is een uniek cPanel-adres toegewezen. Het adres van uw cPanel ziet er ongeveer als volgt uit: https://YourSiteAddress:secure-port-number nummer-beveiligde-poort. De registratie-e-mail die u hebt ontvangen van Hostgator, geeft dit adres aan en u kunt ook een koppeling voor cPanel **op de beschikbare pagina** weergeven.)
     
     > [!IMPORTANT]
-    > Als u cPanel aan uw domein wilt koppelen, hebt u een hostingaccount bij Hostgator nodig. Om aan de slag te gaan met Microsoft, u een hostingaccount kopen bij Hostgator of [uw naamservers opnieuw delegeren om naar Microsoft te wijzen.](change-nameservers-at-hostgator.md) 
+    > Als u cPanel aan uw domein wilt koppelen, hebt u een hostingaccount bij Hostgator nodig. Als u aan de slag wilt met Microsoft, kunt u een hosting account kopen bij Hostgator of [uw naamservers delegeren naar Microsoft](change-nameservers-at-hostgator.md). 
   
-2. Selecteer **MX-invoer**op de pagina **Configuratiescherm** in het gebied **E-mail** .
+2. Selecteer op de pagina **Control Panel** in het gebied **mail** de optie **MX Entry**.
     
  
 3. Selecteer **Remote Mail Exchanger** in het gebied **Email Routing**.
 
 4. Selecteer **Wijzigen**.
   
-5. Typ of kopieer en plak de waarden uit de volgende tabel in het gebied **Een nieuwe record toevoegen** in de vakken voor de nieuwe record. 
+5. Typ of kopieer en plak de waarden uit de volgende tabel in het gebied **add a new record** in de vakken voor de nieuwe record. 
     
     |**Priority**|**Destination**|
     |:-----|:-----|
-    |0  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> | *\<domain-key\>*.mail.protection.outlook.com  <br/> **Let op:** Haal uw \< *domain-key*  \> van uw Microsoft-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
+    |0  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Opmerking:** Haal uw \< *domain-key*  \> uit uw Microsoft-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
   
-6. Selecteer **Nieuwe record toevoegen**.
+6. Selecteer **add new record**.
    
  
 7. Als er andere MX-records in de sectie **MX Records** staan, verwijdert u elke record. 
 
     
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Voeg de zes CNAME-records toe die nodig zijn voor Microsoft
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>De zes CNAME-records toevoegen die vereist zijn voor Microsoft
 <a name="BKMK_add_CNAME"> </a>
 
 > [!IMPORTANT]
@@ -153,33 +153,33 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 1. Als u wilt beginnen, gaat u naar de pagina cPanel bij Hostgator. U wordt gevraagd u eerst aan te melden.
     
-    (Aan elk gehost account bij Hostgator is een uniek cPanel-adres toegewezen. Het adres van uw cPanel ziet er ongeveer als volgt uit: https://YourSiteAddress:secure-port-number nummer-beveiligde-poort. De aanmeldingsmail die u van Hostgator hebt ontvangen, geeft dat **Hosting** adres op en er is ook een cPanel-koppeling beschikbaar op de hostingpagina.)
+    (Aan elk gehost account bij Hostgator is een uniek cPanel-adres toegewezen. Het adres van uw cPanel ziet er ongeveer als volgt uit: https://YourSiteAddress:secure-port-number nummer-beveiligde-poort. De registratie-e-mail die u hebt ontvangen van Hostgator, geeft dit adres aan en u kunt ook een koppeling voor cPanel **op de beschikbare pagina** weergeven.)
     
     > [!IMPORTANT]
-    > Als u cPanel aan uw domein wilt koppelen, hebt u een hostingaccount bij Hostgator nodig. Om aan de slag te gaan met Microsoft, u een hostingaccount kopen bij Hostgator of [uw naamservers opnieuw delegeren om naar Microsoft te wijzen.](change-nameservers-at-hostgator.md) 
+    > Als u cPanel aan uw domein wilt koppelen, hebt u een hostingaccount bij Hostgator nodig. Als u aan de slag wilt met Microsoft, kunt u een hosting account kopen bij Hostgator of [uw naamservers delegeren naar Microsoft](change-nameservers-at-hostgator.md). 
   
-2. Selecteer op de pagina **Configuratiescherm** in het gebied **Domeinen** de optie **Geavanceerde zoneeditor**.
+2. Selecteer op de pagina **Control Panel** , in het gebied **Domains** , de optie **Advanced zone editor**.
     
 3. Voeg de eerste van de zes CNAME-records toe.
     
-    Typ of kopieer en plak de waarden uit de eerste rij in de volgende tabel op de pagina **Advanced Zone Editor** in het gebied Een record **toevoegen** in de vakken voor de nieuwe record. 
+    Typ of kopieer en plak in het gebied **add a record** in de vakken voor de nieuwe record de waarden uit de eerste rij van de volgende tabel in de vakken voor de nieuwe record op de pagina **Advanced zone editor** . 
     
     (Kies in de vervolgkeuzelijst de waarde **Type**). 
     
     |**Name**|**TTL**|**Type**|**CNAME**|
     |:-----|:-----|:-----|:-----|
-    |autodiscover. *domain_name*. (bijvoorbeeld autodiscover.fourthcoffee.com.)  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |CNAME  <br/> |autodiscover.outlook.com  <br/> |
-    |sip. *domain_name*. (bijvoorbeeld sip.fourthcoffee.com.)  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |CNAME  <br/> |sipdir.online.lync.com  <br/> |
-    |lyncdiscover. *domain_name*. (bijvoorbeeld lyncdiscover.fourthcoffee.com.)  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |CNAME  <br/> |webdir.online.lync.com  <br/> |
-    |enterpriseregistration. *domain_name*. (bijvoorbeeld enterpriseregistration.fourthcoffee.com).  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |CNAME  <br/> |enterpriseregistration.windows.net  <br/> |
-    |enterpriseenrollment. *domain_name*. (bijvoorbeeld enterpriseregistration.fourthcoffee.com).  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |CNAME  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
+    |autodiscover. *Domain_Name*. (bijvoorbeeld autodiscover.fourthcoffee.com.)  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |CNAME  <br/> |autodiscover.outlook.com  <br/> |
+    |sip. *Domain_Name*. (bijvoorbeeld sip.fourthcoffee.com.)  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |CNAME  <br/> |sipdir.online.lync.com  <br/> |
+    |lyncdiscover. *Domain_Name*. (bijvoorbeeld lyncdiscover.fourthcoffee.com.)  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |CNAME  <br/> |webdir.online.lync.com  <br/> |
+    |enterpriseregistration. *Domain_Name*. (bijvoorbeeld enterpriseregistration.fourthcoffee.com).  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |CNAME  <br/> |enterpriseregistration.windows.net  <br/> |
+    |enterpriseenrollment. *Domain_Name*. (bijvoorbeeld enterpriseregistration.fourthcoffee.com).  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |CNAME  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
 
   
 4. Selecteer **Record toevoegen**.
 
 5. Voeg als volgt de andere vijf CNAME-records toe:
     
-    Maak **in** de sectie Een record toevoegen een record met de waarden uit de volgende rij in de tabel en selecteer vervolgens opnieuw **Record toevoegen** om die record te voltooien. 
+    Maak in de sectie **add a record** een record met behulp van de waarden uit de volgende rij van de tabel en selecteer vervolgens opnieuw **add record** om deze record te voltooien. 
     
     Herhaal deze procedure totdat u alle zes CNAME-records hebt gemaakt.
     
@@ -187,19 +187,19 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats hiervan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u beschikt over één SPF-record waarin beide sets waarden zijn opgenomen. Hebt u voorbeelden nodig? Bekijk deze [Externe Domain Name System-records voor Microsoft](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records#bkmk_spfrecords). Voor het valideren van uw SPF-record, kunt u een van deze [SPF-validatiehulpmiddelen](../setup/domains-faq.md) gebruiken. 
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats hiervan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u beschikt over één SPF-record waarin beide sets waarden zijn opgenomen. Hebt u voorbeelden nodig? Bekijk deze [Externe Domain Name System-records voor Microsoft](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records#bkmk_spfrecords). Voor het valideren van uw SPF-record, kunt u een van deze [SPF-validatiehulpmiddelen](../setup/domains-faq.md) gebruiken. 
   
 > [!IMPORTANT]
 > Voer voordat u deze procedure uitvoert eerst de procedure uit in het eerste gedeelte van dit artikel: [Uw domein naar uw hostingaccount laten verwijzen](#point-your-domain-to-your-hosting-account). 
   
 1. Als u wilt beginnen, gaat u naar de pagina cPanel bij Hostgator. U wordt gevraagd u eerst aan te melden.
     
-    (Aan elk gehost account bij Hostgator is een uniek cPanel-adres toegewezen. Het adres van uw cPanel ziet er ongeveer als volgt uit: https://YourSiteAddress:secure-port-number nummer-beveiligde-poort. De aanmeldingsmail die u van Hostgator hebt ontvangen, geeft dat **Hosting** adres op en er is ook een cPanel-koppeling beschikbaar op de hostingpagina.)
+    (Aan elk gehost account bij Hostgator is een uniek cPanel-adres toegewezen. Het adres van uw cPanel ziet er ongeveer als volgt uit: https://YourSiteAddress:secure-port-number nummer-beveiligde-poort. De registratie-e-mail die u hebt ontvangen van Hostgator, geeft dit adres aan en u kunt ook een koppeling voor cPanel **op de beschikbare pagina** weergeven.)
     
     > [!IMPORTANT]
-    > Als u cPanel aan uw domein wilt koppelen, hebt u een hostingaccount bij Hostgator nodig. Om aan de slag te gaan met Microsoft, u een hostingaccount kopen bij Hostgator of [uw naamservers opnieuw delegeren om naar Microsoft te wijzen.](change-nameservers-at-hostgator.md) 
+    > Als u cPanel aan uw domein wilt koppelen, hebt u een hostingaccount bij Hostgator nodig. Als u aan de slag wilt met Microsoft, kunt u een hosting account kopen bij Hostgator of [uw naamservers delegeren naar Microsoft](change-nameservers-at-hostgator.md). 
   
-2. Selecteer op de pagina **Configuratiescherm** in het gebied **Domeinen** de optie **Geavanceerde zoneeditor**.
+2. Selecteer op de pagina **Control Panel** , in het gebied **Domains** , de optie **Advanced zone editor**.
     
 3. Typ of kopieer en plak de waarden uit de volgende tabel in het gebied **Add a Record** in de vakken voor de nieuwe record op de pagina **Advanced DNS Zone Editor**. 
     
@@ -207,7 +207,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     |**Name**|**TTL**|**Type**|**TXT Data**|
     |:-----|:-----|:-----|:-----|
-    |Gebruik je *domain_name.* (bijvoorbeeld fourthcoffee.com)  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
+    |Gebruik uw  *Domain_Name*. (bijvoorbeeld fourthcoffee.com)  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
   
 4. Selecteer **Record toevoegen**.
     
@@ -219,12 +219,12 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 1. Als u wilt beginnen, gaat u naar de pagina cPanel bij Hostgator. U wordt gevraagd u eerst aan te melden.
     
-    (Aan elk gehost account bij Hostgator is een uniek cPanel-adres toegewezen. Het adres van uw cPanel ziet er ongeveer als volgt uit: https://YourSiteAddress:secure-port-number nummer-beveiligde-poort. De aanmeldingsmail die u van Hostgator hebt ontvangen, geeft dat **Hosting** adres op en er is ook een cPanel-koppeling beschikbaar op de hostingpagina.)
+    (Aan elk gehost account bij Hostgator is een uniek cPanel-adres toegewezen. Het adres van uw cPanel ziet er ongeveer als volgt uit: https://YourSiteAddress:secure-port-number nummer-beveiligde-poort. De registratie-e-mail die u hebt ontvangen van Hostgator, geeft dit adres aan en u kunt ook een koppeling voor cPanel **op de beschikbare pagina** weergeven.)
     
     > [!IMPORTANT]
-    > Als u cPanel aan uw domein wilt koppelen, hebt u een hostingaccount bij Hostgator nodig. Om aan de slag te gaan met Microsoft, u een hostingaccount kopen bij Hostgator of [uw naamservers opnieuw delegeren om naar Microsoft te wijzen.](change-nameservers-at-hostgator.md) 
+    > Als u cPanel aan uw domein wilt koppelen, hebt u een hostingaccount bij Hostgator nodig. Als u aan de slag wilt met Microsoft, kunt u een hosting account kopen bij Hostgator of [uw naamservers delegeren naar Microsoft](change-nameservers-at-hostgator.md). 
   
-2. Selecteer op de pagina **Configuratiescherm** in het gebied **Domeinen** de optie **Geavanceerde zoneeditor**.
+2. Selecteer op de pagina **Control Panel** , in het gebied **Domains** , de optie **Advanced zone editor**.
 
     
 3. Voeg de eerste van de twee SRV-records toe.
@@ -235,8 +235,8 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     |**Name**|**TTL**|**Type**|**Prioriteit**|**Gewicht**|**Poort**|**Target**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip._tls. *domain_name*. (bijvoorbeeld _sip._tls.fourthcoffee.com.)  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls._tcp. *domain_name*. (bijvoorbeeld _sipfederationtls._tcp.fourthcoffee.com.)  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip. _tls. *Domain_Name*. (bijvoorbeeld _sip. _tls. fourthcoffee. com.)  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls. _tcp. *Domain_Name*. (bijvoorbeeld _sipfederationtls. _tcp. fourthcoffee. com.)  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
 
 4. Selecteer **Record toevoegen**.
@@ -244,7 +244,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 5. Voeg de andere SRV-record toe.
     
-    Maak **in** de sectie Een record toevoegen een record met de waarden uit de volgende rij in de tabel en selecteer vervolgens opnieuw **Record toevoegen** om die record te voltooien. 
+    Maak in de sectie **add a record** een record met behulp van de waarden uit de volgende rij van de tabel en selecteer vervolgens opnieuw **add record** om deze record te voltooien. 
     
 > [!NOTE]
 > Het duurt meestal ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd](../get-help-with-domains/find-and-fix-issues.md). 

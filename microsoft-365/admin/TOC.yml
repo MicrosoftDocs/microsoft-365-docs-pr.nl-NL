@@ -22,6 +22,8 @@
               href: setup/setup-apps-for-business.md
         - name: De instellingspagina en wizard verkennen
           href: setup/o365-setup-wizard-and-setup-page.md
+        - name: Windows 10-computers beveiligen
+          href: ../business/secure-win-10-pcs.md
         - name: Office-apps installeren
           href: setup/install-applications.md
         - name: Windows-apparaten instellen

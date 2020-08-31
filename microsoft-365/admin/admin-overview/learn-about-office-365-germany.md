@@ -21,31 +21,31 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: Meer informatie over Office 365 Duitsland.
-ms.openlocfilehash: e17ce259837167dd4b2b0ab894b00318103f73a5
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 694f1a2ebbe3740c09cb306a26729b6482497d0b
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386791"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307275"
 ---
 # <a name="learn-about-office-365-germany"></a>Meer informatie over Office 365 Duitsland
 
 > [!NOTE]
-> Office 365 Duitsland accepteert niet langer nieuwe klanten of implementeert geen nieuwe services meer. De nieuwe cloudregio's in Duitsland, beschikbaar in het eerste kwartaal van 2020 voor Microsoft 365 en Office 365, bieden zowel de belangrijkste klantendataresidentie binnen Duitsland als volledige connectiviteit met het wereldwijde cloudnetwerk van Microsoft.
+> Office 365 Duitsland aanvaardt geen nieuwe klanten meer of de implementatie van nieuwe services. De nieuwe Cloud regio's in Duitsland, die beschikbaar zijn in het eerste kwartaal van 2020 voor Microsoft 365 en Office 365, bieden zowel kern klantgegevens woonplaats in Duitsland, en de volledige connectiviteit met het Microsoft Global Cloud netwerk.
 
-Office 365 Duitsland was een gedifferentieerde optie voor de Office 365-services die in heel Europa beschikbaar zijn. Het hielp om tegemoet te komen aan de behoeften van de meest gereguleerde klanten in Duitsland, de Europese Unie (EU) en de European Free Trade Association (EVA) door het leveren van onze toonaangevende productiviteitsdiensten voor digitaal werk, vanuit Duitse datacenters, met dataresidentie in Duitsland, en strikte maatregelen voor toegang tot en controle van gegevens via een uniek model voor gegevensbeheerders dat onder de Duitse wetgeving valt.
+Office 365 Duitsland was een gedifferentieerde optie voor de Office 365-services die in Europa beschikbaar zijn. Hij heeft geholpen de behoeften van de meest gereglementeerde klanten in Duitsland, de Europese Unie (EU) en de Europese gratis handels Association (EVA) op te lossen door onze toonaangevende productiviteitsservices te leveren voor digitale werk, van Duitsland, en strikte informatie-en beheer maatregelen via een uniek gegevens vertrouwensmodel, onder de Duitse wetgeving.
   
 De gegevensbeheerder, T-Systems International, een onafhankelijk Duits bedrijf en dochteronderneming van Deutsche Telekom, controleert de fysieke en logische toegang tot de klantgegevens. Klantgegevens zijn niet toegankelijk zonder goedkeuring van of supervisie door de gegevensbeheerder, onderhevig aan de Duitse wetgeving.
   
-De behoeften van klanten zijn verschoven en de isolatie van Office 365 Duitsland legde beperkingen op aan zijn vermogen om de flexibiliteit en consistentie aan te pakken die klanten wensen. Sinds augustus 2018 accepteren we geen nieuwe klanten meer of implementeren we geen nieuwe services meer vanuit de momenteel beschikbare Microsoft Cloud Germany. Zie voor meer informatie deze blogpost: [Microsoft gaat in 2019 cloudservices leveren vanuit nieuwe datacenters in Duitsland om te voldoen aan de veranderende behoeften van klanten.](https://go.microsoft.com/fwlink/p/?linkid=839016)
+De behoeften van Office 365 Duitsland en de afscherming van Office Duitsland vastgestelde beperkingen ter versoepeling van de flexibiliteit en consistentie van klanten. Sedert augustus 2018 accepteren we geen nieuwe klanten meer of zullen er geen nieuwe services worden geïmplementeerd via de momenteel beschikbare Microsoft Cloud Duitsland. Voor meer informatie raadpleegt u dit blogbericht: [Microsoft voor het leveren van cloudservices van nieuwe datacentres in Duitsland in 2019 om te voldoen aan de behoeften](https://go.microsoft.com/fwlink/p/?linkid=839016)van de klant.
   
 ## <a name="what-microsoft-online-services-are-available-in-office-365-germany"></a>Welke Microsoft-onlineservices zijn beschikbaar in Office 365 Germany.
 
-Office 365 Germany-abonnementen zijn zoveel mogelijk afgestemd op wereldwijde aanbiedingen in deze geïsoleerde omgeving. Uitgesloten zijn Yammer-gerelateerde abonnementen, abonnementen aan het einde van de levenscyclus en abonnementen die beschikbaar zijn via non-profitprogramma's. Office 365 E5, SPE en andere services zijn beschikbaar na algemene beschikbaarheid van Office 365 Duitsland. 
+De aanbiedingen van Office 365 Duitsland zijn zo veel mogelijk afgestemd op de wereldwijde aanbiedingen in deze geïsoleerde omgeving. Uitgesloten zijn Yammer-gerelateerde abonnementen, abonnementen aan het einde van de levenscyclus en abonnementen die beschikbaar zijn via non-profitprogramma's. Office 365 E5, SPE en andere services zijn beschikbaar na de algemene beschikbaarheid van Office 365 Duitsland. 
   
 De volgende services en functies zijn beschikbaar in bepaalde [Office 365 Germany-abonnementen](https://go.microsoft.com/fwlink/p/?linkid=839016). Zie daarnaast de [Gebruiksrechtovereenkomst voor onlineservices](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=46).
   
-- Microsoft 365 Apps voor bedrijven, Office 2016 en Office 2013<sup>1</sup>. Houd er rekening mee dat voor Office 2013 [moderne verificatie van Office 365 met Office-clients](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)vereist is.
+- Microsoft 365-apps voor Enterprise, Office 2016 en Office 2013<sup>1</sup>. Houd er rekening mee dat in Office 2013 [moderne verificatie met Office-clients is 365](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016)vereist.
     
 - Exchange Online
     
@@ -67,7 +67,7 @@ De volgende services en functies zijn beschikbaar in bepaalde [Office 365 German
     
 - Groepen
     
-- Security &amp; Compliance Center
+- Beveiligings &amp; Conformiteitscentrum
     
 - Klanten-lockbox
     
@@ -83,21 +83,21 @@ De volgende services en functies zijn beschikbaar in bepaalde [Office 365 German
     
 - Power BI Pro
     
-- Verdiepen
+- Delve
     
-<sup>1.</sup> Office 365 Germany-abonnementen omvatten clientsoftwaretoepassingen die zijn geïnstalleerd en uitgevoerd op het apparaat van een eindgebruiker ('clientsoftwaretoepassingen'), zoals Microsoft 365 Apps voor bedrijven, Office 2013 en Office 2016. Clientsoftwaretoepassingen werken niet uitsluitend in Duitse datacenters en kunnen een eindgebruiker ook in staat stellen om toegang te krijgen tot onlineservices die geen [Duitse onlineservices](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58) zijn. In het kader van uw overeenkomst met Microsoft zijn clientsoftwaretoepassingen geen [Duitse onlineservices](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). Zowel de afspraken met betrekking tot de aanwezigheid van de gegevens in Duitsland als het toegangsbeheer door de Duitse gegevensbeheerder is alleen van toepassing op de [Duitse onlineservices](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58).
+<sup>1</sup> Office 365 Duitsland-abonnementen bestaan uit clientsoftware toepassingen die zijn geïnstalleerd en worden uitgevoerd op het apparaat van een eindgebruiker (' clientsoftware toepassingen '), zoals Microsoft 365-apps voor Enterprise, Office 2013 en Office 2016. Clientsoftwaretoepassingen werken niet uitsluitend in Duitse datacenters en kunnen een eindgebruiker ook in staat stellen om toegang te krijgen tot onlineservices die geen [Duitse onlineservices](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58) zijn. In het kader van uw overeenkomst met Microsoft zijn clientsoftwaretoepassingen geen [Duitse onlineservices](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). Zowel de afspraken met betrekking tot de aanwezigheid van de gegevens in Duitsland als het toegangsbeheer door de Duitse gegevensbeheerder is alleen van toepassing op de [Duitse onlineservices](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58).
   
 ## <a name="general-information"></a>Algemene gegevens
 
 |||
 |-----|-----|
 |Aanmeldingsportal  <br/> |[https://portal.office.de](https://portal.office.de)  <br/> |
-|Abonnementen, facturering en technische ondersteuning  <br/> |Ondersteuning op basis van Duitsland beschikbaar in het Duits en Engels Voor meer informatie raadpleegt [u Contact met ondersteuning voor zakelijke producten - Admin Help](../contact-support-for-business-products.md).  <br/> |
-|IP-adressen en URL's  <br/> |Zie [Office 365 Germany endpoints](https://docs.microsoft.com/office365/enterprise/office-365-germany-endpoints).  <br/> |
+|Abonnementen, facturering en technische ondersteuning  <br/> |Zie [contact opnemen met ondersteuning voor bedrijfsproducten-Help voor beheerders](../contact-support-for-business-products.md)voor meer informatie over Duitsland in het Duits en Engels.  <br/> |
+|IP-adressen en URL's  <br/> |Zie [Office 365 Germany endpoints](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-germany-endpoints).  <br/> |
 |Yammer  <br/> |Niet beschikbaar.  <br/> |
-|Versies van Office die ouder zijn dan Office 2013 of Microsoft 365 Apps voor onderneming<sup>1</sup> <br/> |Niet ondersteund.  <br/> |
+|Versies van Office die ouder zijn dan Office 2013 of Microsoft 365-apps voor Enterprise<sup>1</sup> <br/> |Niet ondersteund.  <br/> |
 |Office Lens  <br/> |Niet beschikbaar.  <br/> |
-|Mogelijkheid om een domein te kopen vanuit Microsoft 365  <br/> |Niet beschikbaar.  <br/> |
+|Mogelijkheid om een domein te kopen in Microsoft 365  <br/> |Niet beschikbaar.  <br/> |
 |SharePoint-winkel  <br/> |Elke app die beschikbaar is in een Microsoft-appstore wordt aangeboden door Microsoft of een derde app-uitgever, en is onderhevig aan een afzonderlijke privacyverklaring en voorwaarden. Gegevens die worden geleverd door middel van een Microsoft-appstore en een app, zijn mogelijk toegankelijk voor Microsoft respectievelijk de derde app-uitgever van de app, en kunnen worden overgedragen naar, opgeslagen en verwerkt in de Verenigde Staten of een ander land waar Microsoft of de uitgever van de app en hun gelieerde ondernemingen of serviceproviders vestigingen hebben. Werk samen met de uitgever van de app om ervoor te zorgen dat de app voldoet aan de vereisten voor uw Office 365 Germany-implementatie.  <br/> |
    
-Zie de [Microsoft 365-servicebeschrijving](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description)voor een meer gedetailleerde blik op de services die beschikbaar zijn voor elk Microsoft 365-abonnement.
+Zie de beschrijving van de [service van Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description)voor een gedetailleerd overzicht van de beschikbare services voor elk abonnement voor microsoft 365.

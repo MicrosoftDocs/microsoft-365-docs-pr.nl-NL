@@ -21,12 +21,12 @@ search.appverid:
 description: Ontvang technische en factureringsondersteuning via het telefoonnummer dat wordt weergegeven voor uw land of regio of door uw serviceaanvraag online te versturen.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 1db89882db693c2102ca5c8dcb28f7ceb3ebf12e
-ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
+ms.openlocfilehash: f508607bb19a15fa089cf13eecfd7047f2e6f7bf
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46641583"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307359"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Manieren om contact op te nemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders
 
@@ -35,7 +35,7 @@ ms.locfileid: "46641583"
 > [!IMPORTANT]
 > U moet beheerder zijn van een bedrijfsabonnement om deze ondersteuningsmethoden te kunnen gebruiken. Als u geen bedrijfsbeheerder bent, gebruikt u [deze ondersteuningspagina](https://support.microsoft.com/help/contactus).
 
-Begin met [het bekijken van de huidige status van uw services](https://docs.microsoft.com/office365/enterprise/view-service-health). U kunt gedetailleerde informatie over huidige en eerdere problemen bekijken op het <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">Servicestatus-dashboard</a>. Als u een probleem ondervindt dat niet vermeld wordt, kunt u op een van de volgende manieren ondersteuning krijgen:
+Begin met [het bekijken van de huidige status van uw services](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health). U kunt gedetailleerde informatie over huidige en eerdere problemen bekijken op het <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">Servicestatus-dashboard</a>. Als u een probleem ondervindt dat niet vermeld wordt, kunt u op een van de volgende manieren ondersteuning krijgen:
 
 ## <a name="online-support"></a>Online-ondersteuning 
 

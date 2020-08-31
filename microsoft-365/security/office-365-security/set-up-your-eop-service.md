@@ -14,12 +14,12 @@ ms.custom:
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: Beheerders kunnen informatie lezen over het instellen van zelfstandige Exchange Online Protection (EOP) om on-premises e-mail omgevingen te beschermen.
-ms.openlocfilehash: cf49cf4b0784731c23c0c36de44d3b0b2cb78dc8
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: e6ca3965dd82bf0e6ed7e361984758ab34e3eea0
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827819"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307589"
 ---
 # <a name="set-up-your-standalone-eop-service"></a>Uw zelfstandige EOP-service instellen
 
@@ -64,7 +64,7 @@ Controleer de e-mail stroom tussen de service en uw omgeving. Zie voor meer info
 
 ## <a name="step-4-allow-inbound-port-25-smtp-access"></a>Stap 4: binnenkomende poort 25 SMTP-toegang toestaan
 
-Nadat u de connectors hebt geconfigureerd, wacht u 72 uur om het doorsturen van uw DNS-record toe te staan. Daarom beperkt u de inkomende e-mail van het SMTP-e-mailprogramma op uw firewall of e-mailservers, zodat alleen e-mail wordt ontvangen van de EOP-datacenters, specifiek van de IP-adressen die worden vermeld op [IP-adressen van Exchange Online Protection](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). Hiermee beschermt u uw on-premises omgeving door het bereik van inkomende inkomende berichten te beperken. Als u de instellingen op uw e-mailserver hebt die bepalen welke IP-adressen verbinding kunnen maken voor e-mail relay, moet u deze instellingen ook bijwerken.
+Nadat u de connectors hebt geconfigureerd, wacht u 72 uur om het doorsturen van uw DNS-record toe te staan. Daarom beperkt u de inkomende e-mail van het SMTP-e-mailprogramma op uw firewall of e-mailservers, zodat alleen e-mail wordt ontvangen van de EOP-datacenters, specifiek van de IP-adressen die worden vermeld op [IP-adressen van Exchange Online Protection](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges). Hiermee beschermt u uw on-premises omgeving door het bereik van inkomende inkomende berichten te beperken. Als u de instellingen op uw e-mailserver hebt die bepalen welke IP-adressen verbinding kunnen maken voor e-mail relay, moet u deze instellingen ook bijwerken.
 
 > [!TIP]
 > Configureer de instellingen op de SMTP-server met een verbindingstijd van 60 seconden. Deze instelling is toegestaan voor de meeste situaties, zodat u wat vertraging in het geval van een bericht met een grote bijlage kunt verzenden.

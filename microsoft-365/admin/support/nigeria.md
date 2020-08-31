@@ -11,30 +11,30 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1db3deb6be37fc9b22f4de73e55e8f59e2c5d35b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: adce3f2525c92b8cee565f759a94081bc2f75231
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44393915"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306513"
 ---
-# <a name="contact-support-for-nigeria"></a>Contact met ondersteuning voor Nigeria
+# <a name="contact-support-for-nigeria"></a>Neem contact op met de ondersteuning voor Nigeria
 
-[Zoek een ander land of regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Telefoonnummer
-01 271 0156
+01 912 5070
 
 Optie 9 selecteren
 
-Code 7705 invoeren
+Voer code 7705 in
 
 ## <a name="hours"></a>Uren
-### <a name="billing-support"></a>Factureringsondersteuning:
+### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Engels: ma-vr 9:00-17:00 uur
+Engels: ma t/m vr 9 AM-5 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 

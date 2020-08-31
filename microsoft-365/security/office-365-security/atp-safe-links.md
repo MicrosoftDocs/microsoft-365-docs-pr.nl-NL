@@ -25,12 +25,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: In dit artikel vindt u informatie over het gebruik van veilige koppelingen om uw organisatie tegen phishing en andere aanvallen te beschermen.
-ms.openlocfilehash: 5baf18c249d67551c7ae1eeb643a401ea16d2b6c
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: d9b3c981cb282c286a5b6edcea367c8c57ffd4d3
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656979"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307635"
 ---
 # <a name="atp-safe-links"></a>Veilige ATP-koppelingen
 
@@ -57,7 +57,7 @@ Aangezien [nieuwe functies worden toegevoegd aan ATP](office-365-atp.md#new-feat
 
 - Beleidsregels voor veilige koppelingen voor e-mail worden ingesteld voor e-mail-en voor Office-documenten. (Zie [beleid voor veilige koppelingen van ATP instellen](set-up-atp-safe-links-policies.md).)
 
-- Microsoft 365-client-apps zijn geconfigureerd voor het gebruik van moderne verificatie (dit is voor veilige koppelingen in Office-documenten). (Zie [moderne verificatie voor Office 2016](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016).)
+- Microsoft 365-client-apps zijn geconfigureerd voor het gebruik van moderne verificatie (dit is voor veilige koppelingen in Office-documenten). (Zie [moderne verificatie voor Office 2016](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016).)
 
 - Gebruikers hebben zich aangemeld met hun werk-of schoolaccount. (Zie [Aanmelden bij Office](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426).)
 

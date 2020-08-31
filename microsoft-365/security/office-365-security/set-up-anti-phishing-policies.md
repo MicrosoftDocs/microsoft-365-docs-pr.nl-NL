@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over het anti-phishings beleid dat beschikbaar is in Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: f671588ff4232c6ca1c1342475f48802bf1a0076
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 7118bca15102fd52e7825ee873187fa11d9fc0f9
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825099"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308193"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti malafide beleid in Microsoft 365
 
@@ -81,6 +81,9 @@ De volgende beleidsinstellingen zijn beschikbaar in anti phishingfilter en op ee
     - **Geadresseerde is**
     - **De ontvanger is lid van**
     - **Het domein van de ontvanger is**
+
+  > [!NOTE]
+  > De instelling **voor toepassen op** is vereist in een aangepast anti-phishingfilter om te identificeren <u>of het beleid van toepassing is op de</u> **ontvanger** . Een anti-phishing-beleid voor vrije gebruikers hebben ook [imitatie-instellingen](#impersonation-settings-in-atp-anti-phishing-policies) waar u <u>de</u> e-mailadressen of e-mailadressen van afzonderlijke e-mailadressen van de afzender kunt opgeven, zoals verderop in dit onderwerp wordt beschreven.
 
 ## <a name="spoof-settings"></a>Spoof-instellingen
 
@@ -144,13 +147,21 @@ Mogelijk wordt een geïmiteerd domein ook als legitiem beschouwd (geregistreerd 
 
 De volgende imitatie-instellingen zijn alleen beschikbaar in het ATP anti-phishings beleid:
 
-- **Te beschermen gebruikers**: zorgt ervoor dat de opgegeven interne of externe gebruikers niet worden geïmiteerd. Bijvoorbeeld leidinggevenden (intern) en College leden (extern). U kunt maximaal 60 interne en externe adressen toevoegen. Deze lijst met beveiligde gebruikers is niet hetzelfde als de lijst met geadresseerden waarvoor het beleid van toepassing is in de instelling **toegepast op** .
+- **Te beschermen gebruikers**: voorkomt dat de opgegeven interne of externe e-mailadressen worden geïmiteerd **als afzenders van berichten**. Bijvoorbeeld leidinggevenden (interne afzenders) en bord leden (externe afzenders). U kunt maximaal 60 interne en externe afzender e-mailadressen toevoegen om te beschermen tegen imitatie. Deze lijst met **afzenders** die zijn beveiligd tegen imitatie, verschilt van de lijst met **geadresseerden** waarop het beleid van toepassing is.
 
-  U kunt bijvoorbeeld Felipe Apodaca (felipea@contoso.com) opgeven als een beveiligde gebruiker in een beleid dat van toepassing is op de groep met de naam leidinggevenden. Binnenkomende berichten die zijn verzonden naar leden van de groep leidinggevenden waarbij Felipe Apodaca imiteert, worden uitgevoerd door het beleid (de actie die u configureert voor geïmiteerde gebruikers).
+  Het standaardbeleid is van toepassing op berichten die naar alle geadresseerden worden verzonden, terwijl aangepaste beleidsregels alleen van toepassing zijn op berichten die zijn **verzonden naar de** geadresseerden die u definieert in de sectie [beleidsinstellingen](#policy-settings) .
 
-- **Te beschermen domeinen**: voorkomen dat de opgegeven domeinen worden geïmiteerd. Voorbeelden van alle domeinen die u eigenaar bent ([geaccepteerde domeinen](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)) of specifieke domeinen (domeinen die u bezit of een partnerdomein). Deze lijst met beveiligde domeinen wijkt af van de lijst met domeinen waarop het beleid van toepassing is in de instelling **toegepast op** .
+  Standaard worden er geen e-mailadressen van de afzender geconfigureerd voor imitatie bescherming in **gebruikers**. Daarom zijn de e-mailadressen van de afzender standaard niet onder de bescherming van de imitatie, hetzij in het standaardbeleid of in aangepaste beleidsregels.
 
-  U kunt bijvoorbeeld tailspintoys.com opgeven als een beveiligd domein in een beleid dat van toepassing is op de leden van de groep met de naam leidinggevenden. Binnenkomende berichten die zijn verzonden naar leden van de groep leidinggevenden waarbij tailspintoys.com wordt geïmiteerd, worden uitgevoerd door het beleid (de actie die u configureert voor geïmiteerde domeinen).
+  Wanneer u interne of externe e-mailadressen toevoegt aan de **gebruikers die** de lijst beveiligen, zijn berichten van deze **afzenders** onderworpen aan controles van de bescherming van de imitatie. Het bericht wordt gecontroleerd op imitatie **als** het bericht wordt verzonden naar een **geadresseerde** waarop het beleid van toepassing is (alle geadresseerden voor het standaardbeleid; Dit **geldt voor** geadresseerden in een aangepast beleid. Als er in het e-mailadres van de afzender in het e-mailadres van de afzender gebruik wordt gemaakt van imitatie, worden de acties voor imitatie bescherming voor gebruikers toegepast op het bericht (de actie voor het bericht, de melding voor geïmiteerde gebruikers, enzovoort).
+
+- **Te beschermen domeinen**: voorkomt dat de opgegeven domeinen worden geïmiteerd **in het domein van de afzender van het bericht**. Voorbeelden van alle domeinen die u eigenaar bent ([geaccepteerde domeinen](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)) of specifieke domeinen (domeinen die u bezit of een partnerdomein). In de lijst met geadresseerden waarvoor het beleid van toepassing is, is de **lijst met de** **geadresseerden** waarvoor het beleid van toepassing is, anders.
+
+  Het standaardbeleid is van toepassing op berichten die naar alle geadresseerden worden verzonden, terwijl aangepaste beleidsregels alleen van toepassing zijn op berichten die zijn **verzonden naar de** geadresseerden die u definieert in de sectie [beleidsinstellingen](#policy-settings) .
+
+  Standaard worden er geen verzender domeinen geconfigureerd voor de bescherming van imitatie in **domeinen**. Daarom worden niet-gegroepeerde domeinnamen bedoeld met de bescherming van de imitatie, hetzij in het standaardbeleid of aangepaste beleidsregels.
+
+  Wanneer u domeinen toevoegt aan de **domeinen die u wilt beveiligen** , zijn berichten van **afzenders in die domeinen** onderhevig aan imitatie beschermings controles. Het bericht wordt gecontroleerd op imitatie **als** het bericht wordt verzonden naar een **geadresseerde** waarop het beleid van toepassing is (alle geadresseerden voor het standaardbeleid; Dit **geldt voor** geadresseerden in een aangepast beleid. Als er in het domein van de afzender een imitatie wordt gedetecteerd, worden de acties voor de bescherming van de bescherming voor domeinen toegepast op het bericht (de actie in het bericht, de beveiligings Tip van het domein, enzovoort).
 
 - **Acties voor beveiligde gebruikers of domeinen**: Kies de actie die u wilt uitvoeren op inkomende berichten met de gewenste beschermings pogingen voor de beveiligde gebruikers en beveiligde domeinen in het beleid. U kunt verschillende acties opgeven voor imitatie van beveiligde gebruikers versus imitatie van beveiligde domeinen:
 

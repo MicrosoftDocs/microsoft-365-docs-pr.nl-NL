@@ -19,12 +19,12 @@ ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 ms.custom:
 - seo-marvel-apr2020
 description: In dit onderwerp wordt u begeleid bij de aanbevolen configuratie voorinstellingen voor de gehele Tenant die van invloed zijn op de beveiliging van uw Microsoft 365-omgeving.
-ms.openlocfilehash: 821221e9a7602b7eaaf6850284468abd486cf501
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 3a69a27aa544880e428562892832b6d33a2508e4
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653555"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308217"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Uw Microsoft 365-Tenant configureren voor een betere beveiliging
 
@@ -77,7 +77,7 @@ Veel van de besturingselementen voor beveiliging en beveiliging in het Exchange-
 |Ziet|Een standaardbeleid bevat|Aanbeveling|
 |---|---|---|
 |**E-mail stroom** (e-mail stroom regels, ook wel een zogenaamde transportregels genoemd)|Nee|Voeg een e-mail stroom regel toe om u te helpen beschermen tegen Ransomware door uitvoerbare bestandstypen en typen Office-bestanden met macro's te blokkeren. Zie voor meer informatie de [regels voor e-mail stroom gebruiken om berichten bijlagen te controleren in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments). <br/><br/> Bekijk de volgende aanvullende onderwerpen: <br/>* [Beveilig tegen Ransomware](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/secure-your-business-data#ransomware)<br/>* [Malware en Ransomware-beveiliging in Office 365](https://docs.microsoft.com/Office365/Enterprise/office-365-malware-and-ransomware-protection) <br/>* [Herstel van een Ransomware aanval in Office 365](recover-from-ransomware.md) <br/><br/> Maak een e-mail stroom regel om het automatisch doorsturen van e-mail naar externe domeinen te voorkomen. Zie voor meer informatie het artikel [beperken van externe doorstuurregels van clients met een beveiligde Score](https://docs.microsoft.com/archive/blogs/office365security/mitigating-client-external-forwarding-rules-with-secure-score). <br/><br/> Meer informatie: [e-mail stroom regels (transportregels) in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)|
-|**Moderne verificatie inschakelen**|Nee|Moderne verificatie is een vereiste voor het gebruik van multi-factor Authentication (MFA). MFA wordt aanbevolen voor het beveiligen van de toegang tot Cloud bronnen, waaronder e-mail. <br/><br/> Zie de volgende onderwerpen: <br/>* [Moderne verificatie in-of uitschakelen in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) <br/>* [Skype voor bedrijven online: uw Tenant inschakelen voor moderne verificatie](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx) <br/><br/> Moderne verificatie is standaard ingeschakeld voor Office 2016-clients, SharePoint Online en OneDrive voor bedrijven. <br/><br/> Meer informatie: de werking [van moderne verificatie voor office 2013 en office 2016-clienttoepassingen](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)|
+|**Moderne verificatie inschakelen**|Nee|Moderne verificatie is een vereiste voor het gebruik van multi-factor Authentication (MFA). MFA wordt aanbevolen voor het beveiligen van de toegang tot Cloud bronnen, waaronder e-mail. <br/><br/> Zie de volgende onderwerpen: <br/>* [Moderne verificatie in-of uitschakelen in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) <br/>* [Skype voor bedrijven online: uw Tenant inschakelen voor moderne verificatie](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx) <br/><br/> Moderne verificatie is standaard ingeschakeld voor Office 2016-clients, SharePoint Online en OneDrive voor bedrijven. <br/><br/> Meer informatie: de werking [van moderne verificatie voor office 2013 en office 2016-clienttoepassingen](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016)|
 |
 
 ## <a name="configure-tenant-wide-sharing-policies-in-sharepoint-admin-center"></a>Beleidsregels voor het delen van de gehele Tenant configureren in het SharePoint-Beheercentrum

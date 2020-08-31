@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Stel beleidsregels voor veilige koppelingen in om uw organisatie te beschermen tegen kwaadaardige koppelingen in Word-, Excel-, PowerPoint-en Visio-bestanden, evenals e-mailberichten.
-ms.openlocfilehash: f935002a300bd5f4553cbab429318dad4104b208
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 121de6137e392ae0c66d9961fd2138f003a9d9fa
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662252"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307759"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Beleidsregels voor veilige koppelingen in Office 365 instellen
 
@@ -59,7 +59,7 @@ Wanneer een gebruiker een e-mailbericht op een koppeling in een e-mailbericht op
 
     Als u meer wilt weten over rollen en machtigingen, raadpleegt u [machtigingen in de sectie beveiliging & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
 
-- Zorg dat Office-clients zijn geconfigureerd voor het gebruik van [moderne verificatie](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016) (deze optie is bedoeld voor beveiliging van vrije documenten in Office-documenten).
+- Zorg dat Office-clients zijn geconfigureerd voor het gebruik van [moderne verificatie](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016) (deze optie is bedoeld voor beveiliging van vrije documenten in Office-documenten).
 
 - [Meer informatie over de beleidsopties voor het instellen van vrije koppelingen](#step-4-learn-about-atp-safe-links-policy-options) in dit artikel.
 

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat berichten die worden verzonden vanuit uw aangepaste domein worden vertrouwd door de ontvangende e-mailsystemen.
-ms.openlocfilehash: 36e62600836c66b9e7be61ddd07a6081af4ffbeb
-ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
+ms.openlocfilehash: d2035ed0805215f1bd8e343f9edf1c557035b5c1
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46632161"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307845"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein
 
@@ -83,7 +83,7 @@ Aangezien zowel 1024- als 2048-bits voor DKIM-sleutels worden ondersteund, wordt
 
 1. Wanneer u **al DKIM hebt geconfigureerd**, wijzigt u de hoeveelheid bits als volgt:
 
-   1. [Maak verbinding met de Office 365-workloads via PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (De cmdlet is afkomstig van Exchange Online.)
+   1. [Maak verbinding met de Office 365-workloads via PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (De cmdlet is afkomstig van Exchange Online.)
    1. Voer de volgende opdracht uit:
 
       ```powershell 
@@ -92,7 +92,7 @@ Aangezien zowel 1024- als 2048-bits voor DKIM-sleutels worden ondersteund, wordt
 
 1. Of voor een **nieuwe implementatie van DKIM**:
 
-   1. [Maak verbinding met de Office 365-workloads via PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (Dit is de cmdlet van Exchange Online.)
+   1. [Maak verbinding met de Office 365-workloads via PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (Dit is de cmdlet van Exchange Online.)
    1. Voer de volgende opdracht uit:
 
       ```powershell

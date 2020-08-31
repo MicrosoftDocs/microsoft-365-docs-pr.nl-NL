@@ -1,5 +1,5 @@
 ---
-title: Problemen met e-mail oplossen die naar Microsoft 365 is verzonden
+title: Problemen met e-mailberichten die worden verzonden naar Microsoft 365 oplossen
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,117 +17,117 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: In dit artikel vindt u informatie over het oplossen van problemen met het verzenden van e-mail naar inboxen in Microsoft 365 & aanbevolen procedures voor bulkmailingnaar Microsoft 365-klanten.
-ms.openlocfilehash: 0d9c1646aa7491b3da458c7cb0ddeb908873153a
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+description: Dit artikel bevat informatie over het oplossen van problemen met het verzenden van e-mail naar postvakken in Microsoft 365 & best practices voor bulk mailing naar klanten met Microsoft 365.
+ms.openlocfilehash: 4243f46746cb21425fc2dc7493c69818f095e71f
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208595"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307577"
 ---
-# <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Problemen met e-mail oplossen die naar Microsoft 365 is verzonden
+# <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Problemen met e-mailberichten die worden verzonden naar Microsoft 365 oplossen
 
-In dit artikel vindt u informatie over probleemoplossing voor afzenders die problemen ondervinden wanneer ze e-mail naar inboxen in Microsoft 365 proberen te verzenden en aanbevolen procedures voor bulkmailingnaar klanten.
+Dit artikel bevat informatie over het oplossen van problemen met afzenders die problemen ondervinden wanneer u e-mail probeert te verzenden naar postvakken in Microsoft 365 en best practices voor bulk mailing naar klanten.
 
-## <a name="are-you-managing-your-ip-and-domains-sending-reputation"></a>Beheert u de verzendreputatie van uw IP en domein?
+## <a name="are-you-managing-your-ip-and-domains-sending-reputation"></a>Beheert u de reputatie van uw IP en domein?
 
-EOP-filtertechnologieën zijn ontworpen om antispambescherming te bieden voor Microsoft 365 en andere Microsoft-producten zoals Exchange Server. We maken ook gebruik van SPF, DKIM en DMARC; e-mailverificatietechnologieën die helpen bij het oplossen van het probleem van spoofing en phishing door te controleren of het domein dat de e-mail verzendt, daartoe is gemachtigd. EOP-filtering wordt beïnvloed door een aantal factoren die verband houden met het verzenden van IP, domein, authenticatie, lijstnauwkeurigheid, klachtenpercentages, inhoud en meer. Van deze, een van de belangrijkste factoren in het rijden van de reputatie van een afzender en hun vermogen om e-mail te leveren is hun junk e-mail klacht tarief.
+EOP filter technologieën zijn ontworpen om antispam beveiliging voor Microsoft 365 en andere Microsoft-producten zoals Exchange server te bieden. We kunnen ook gebruikmaken van SPF, DKIM en DMARC; verificatietechnologieën voor e-mail die u helpen bij het oplossen van problemen met spoofing en phishing verifieert het domein dat het e-mailbericht verzendt, is geautoriseerd. EOP filteren wordt beïnvloed door een aantal factoren die verband houden met het verzenden van IP, domein, authenticatie, nauwkeurigheid van klachten, klachten tarieven, inhoud en meer. Een van de belangrijkste factoren in het rijden van de reputatie van een afzender en de mogelijkheid om e-mail te bezorgen is hun klachten tarief voor ongewenste e-mail.
 
-## <a name="are-you-sending-email-from-new-ip-addresses"></a>Stuurt u e-mail vanaf nieuwe IP-adressen?
+## <a name="are-you-sending-email-from-new-ip-addresses"></a>Verzendt u e-mail van nieuwe IP-adressen?
 
-IP-adressen die niet eerder werden gebruikt om e-mail te verzenden, hebben doorgaans geen reputatie opgebouwd in onze systemen. Als gevolg hiervan hebben e-mails van nieuwe IP's meer kans op leveringsproblemen. Zodra het IP een reputatie heeft opgebouwd voor het niet verzenden van spam, zal EOP meestal zorgen voor een betere e-maillevering.
+IP-adressen die u niet eerder hebt gebruikt voor het verzenden van e-mail, hebben doorgaans geen reputatie opgebouwd in onze systemen. Daarom hebben e-mailberichten van nieuwe IPs waarschijnlijker problemen met de bezorging. Wanneer het IP-adres voor het versturen van spam niet via spam is opgebouwd, kan EOP u meestal een betere e-mail bezorgings ervaring bieden.
 
-Nieuwe IP's die worden toegevoegd voor domeinen die zijn geverifieerd onder bestaande SPF-records, ervaren doorgaans het extra voordeel van het overnemen van een deel van de verzendreputatie van het domein. Als uw domein heeft een goede serverreputatie nieuwe IP's kunnen ervaren een snellere oprit tijd. Een nieuwe IP kan verwachten volledig worden opvoeren binnen een paar weken of eerder, afhankelijk van het volume, lijst nauwkeurigheid, en ongewenste e-mail klachtenpercentages.
+Nieuwe IP-adressen die worden toegevoegd voor domeinen die zijn geverifieerd onder bestaande SPF-records, hebben meestal het extra voordeel van het overnemen van een deel van het domein. Als uw domein een goede vernieuwings ervaring heeft, kunnen de nieuwe IPs sneller worden uitgevoerd. Een nieuw IP-adres kan naar verwachting binnen een paar weken of sneller worden afgehandeld, afhankelijk van volume, nauwkeurigheid van de lijst en een spam tarief voor ongewenste e-mail.
 
-## <a name="confirm-that-your-dns-is-set-up-correctly"></a>Controleren of uw DNS correct is ingesteld
+## <a name="confirm-that-your-dns-is-set-up-correctly"></a>Controleren of uw DNS juist is ingesteld
 
-Voor instructies over het maken en onderhouden van DNS-records, inclusief de MX-record die vereist is voor e-mailroutering, moet u contact opnemen met uw DNS-hostingprovider.
+Als u wilt weten hoe u DNS-records maakt en onderhoudt, waaronder de MX-record die nodig is voor e-mail routering, moet u contact opnemen met uw DNS-hosting provider.
 
-## <a name="ensure-that-you-do-not-advertise-yourself-as-a-non-routable-ip"></a>Zorg ervoor dat u niet adverteren jezelf als een niet-routeerbare IP
+## <a name="ensure-that-you-do-not-advertise-yourself-as-a-non-routable-ip"></a>Ervoor zorgen dat u zichzelf niet adverteert als een niet-routeerbaar IP-adres
 
-We accepteren geen e-mail van afzenders die niet op zoek zijn naar reverse-DNS. In sommige gevallen adverteren legitieme afzenders zichzelf verkeerd als een niet-internet routeerbaar IP wanneer ze een verbinding met EOP proberen te openen. IP-adressen die zijn gereserveerd voor privénetwerken (niet-routeerbaar) zijn onder andere:
+We accepteren mogelijk geen e-mailberichten van afzenders die een opzoek service voor omkering van de DNS hebben. In sommige gevallen adverteert legitiem afzenders zichzelf onjuist als een niet-Internet routeerbaar IP-adres bij het openen van een verbinding met EOP. IP-adressen die zijn gereserveerd voor privé-netwerken (niet-routeerbaar), zijn:
 
-- 192.168.0.0/16 (of 192.168.0 - 192.168.255.255)
+- 192.168.0.0/16 (of 192.168.0.0-192.168.255.255)
 
-- 10.0.0.0/8 (of 10.0.0.0 - 10.255.255.255)
+- 10.0.0.0/8 (of 10.0.0.0-10.255.255.255)
 
-- 172.16.0.0/11 (of 172.16.0.0 - 172.31.255.255)
+- 172.16.0.0/11 (of 172.16.0.0-172.31.255.255)
 
-## <a name="you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365"></a>U hebt een NDR (Non-Delivery Report) ontvangen bij het verzenden van e-mail naar een gebruiker in Office 365
+## <a name="you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365"></a>U hebt een NDR van een niet-uitgevoerde bezorging van een e-mailbericht ontvangen voor het verzenden van e-mail naar een gebruiker in Office 365
 
-Sommige leveringsproblemen zijn het gevolg van het feit dat het IP-adres van de afzender wordt geblokkeerd door Microsoft of omdat het gebruikersaccount is geïdentificeerd als geblokkeerde afzender vanwege eerdere spamactiviteiten. Als u van mening bent dat u de NDR ten onrechte hebt ontvangen, volgt u eerst alle instructies in het NDR-bericht om het probleem op te lossen.
+Sommige bezorgings problemen zijn het gevolg van het IP-adres van de afzender dat door Microsoft wordt geblokkeerd of omdat het gebruikersaccount wordt herkend als niet-geblokkeerde afzender vanwege eerdere spam activiteiten. Als u van mening bent dat u de NDR een foutmelding hebt ontvangen, volgt u eerst de instructies in het NDR-bericht om het probleem op te lossen.
 
-Zie de lijst met foutcodes in rapporten zonder [bezorging e-mail in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)voor meer informatie over de fout die u hebt ontvangen.
+Als u meer wilt weten over de fout die u hebt ontvangen, raadpleegt u de lijst met foutcodes in [rapporten over niet-uitgevoerde bezorging van e-mail in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online).
 
- Als u bijvoorbeeld de volgende NDR ontvangt, geeft dit aan dat het verzendende IP-adres door Microsoft is geblokkeerd:
+ Als u bijvoorbeeld de volgende NDR ontvangt, wordt aangegeven dat het verzendende IP-adres door Microsoft is geblokkeerd:
 
  `550 5.7.606-649 Access denied, banned sending IP [x.x.x.x]; To request removal from this list please visit https://sender.office.com/ and follow the directions.`
 
-Als u verwijdering uit deze lijst wilt aanvragen, u [de lijstmetnaamportal gebruiken om uzelf uit de lijst met geblokkeerde afzenders te verwijderen.](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)
+Als u de lijst wilt verwijderen, kunt u deze [uit de lijst met geblokkeerde afzenders verwijderen via de portal delijstte](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md).
 
-## <a name="my-email-landed-in-the-recipients-junk-email-folder"></a>Mijn e-mail is geland in de map Ongewenste e-mail van de ontvanger
+## <a name="my-email-landed-in-the-recipients-junk-email-folder"></a>Mijn e-mailbericht in de map Ongewenste E-mail van de geadresseerde
 
-Als een bericht door EOP ten onrechte als spam is geïdentificeerd, u samenwerken met de ontvanger om dit fout-positieve bericht in te dienen bij het Microsoft Spam Analysis Team, dat het bericht evalueert en analyseert. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
+Als een bericht onjuist is geïdentificeerd als spam via EOP, kunt u met de ontvanger werken om dit foutbericht te verzenden naar het Microsoft spam Analysis-Team, dat het bericht evalueert en analyseert. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
-## <a name="traffic-from-my-ip-address-is-throttled-by-eop"></a>Verkeer vanaf mijn IP-adres wordt beperkt door EOP
+## <a name="traffic-from-my-ip-address-is-throttled-by-eop"></a>Verkeer van mijn IP-adres wordt vertraagd door EOP
 
-Als u een NDR van EOP ontvangt die aangeeft dat uw IP-adres wordt beperkt door EOP, bijvoorbeeld:
+Als u een NDR ontvangt van EOP, wordt aangegeven dat uw IP-adres wordt vertraagd door EOP, bijvoorbeeld:
 
  `host xxxx.outlook.com [x.x.x.x]: 451 4.7.550 Access denied, please try again later`
 
-U hebt de NDR ontvangen omdat verdachte activiteit is gedetecteerd vanaf het IP-adres en deze tijdelijk is beperkt terwijl deze verder wordt geëvalueerd. Als de verdenking wordt opgehelderd door middel van evaluatie, zal deze beperking binnenkort worden opgeheven.
+U ontving de NDR omdat verdachte activiteiten zijn gedetecteerd van het IP-adres, en het tijdelijk niet is beperkt terwijl de actie wordt voortgezet. Als het vermoeden is opgeheven via evaluatie, wordt deze beperking kort weergegeven.
 
 ## <a name="i-cant-receive-email-from-senders-in-microsoft-365"></a>Ik kan geen e-mail ontvangen van afzenders in Microsoft 365
 
- Om berichten van onze gebruikers te ontvangen, moet u ervoor zorgen dat uw netwerk verbindingen toestaat vanaf de IP-adressen die EOP in onze datacenters gebruikt. Zie [IP-adressen van Exchange Online Protection](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)voor meer informatie .
+ Als u berichten van onze gebruikers wilt ontvangen, moet u ervoor zorgen dat uw netwerkverbindingen toestaat van de IP-adressen die EOP in onze datacenters gebruikt. Zie [IP-adressen voor Exchange Online Protection](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)voor meer informatie.
 
-## <a name="best-practices-for-bulk-emailing-to-microsoft-365-users"></a>Aanbevolen procedures voor bulke-mailen naar Microsoft 365-gebruikers
+## <a name="best-practices-for-bulk-emailing-to-microsoft-365-users"></a>Best practices voor bulksgewijs e-mailen naar Microsoft 365-gebruikers
 
-Als u vaak bulke-mailcampagnes uitvoert met Microsoft 365-gebruikers en ervoor wilt zorgen dat uw e-mails op een veilige en tijdige manier binnenkomen, volgt u de tips in deze sectie.
+Als u vaak grote hoeveelheden e-mail campagnes doet voor Microsoft 365-gebruikers en u er zeker van wilt zijn dat uw e-mailberichten op een veilige en tijd uitkomen, volgt u de tips in deze sectie.
 
-### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>Ervoor zorgen dat de naam Van weergeeft wie het bericht verzendt
+### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>Ervoor zorgen dat de van-naam weerspiegelt de persoon die het bericht verzendt
 
-Het onderwerp moet een korte samenvatting van wat het bericht over gaat, en de bericht lichaam moet duidelijk en beknopt aangeven wat het aanbod, de dienst, of het product over gaat. Bijvoorbeeld:
+Het onderwerp moet een kort overzicht zijn van de inhoud van het bericht en de hoofdtekst van het bericht moet duidelijk en bondig aangeven wat de aanbieding, de service of het product benadert. Bijvoorbeeld:
 
-Juiste:
+Juist:
 
-> Van: marketing@shoppershandbag.com <br/> Onderwerp: Updated catalog for the Christmas season!
+> Van: marketing@shoppershandbag.com <br/> Onderwerp: heeft een catalogus voor een kerst seizoen bijgewerkt.
 
-Onjuiste:
+Onjuist:
 
-> Van: someone@outlook.com <br/> Onderwerp: Catalogi
+> Van: someone@outlook.com <br/> Onderwerp: catalogi
 
-Hoe makkelijker je het maakt voor mensen om te weten wie je bent en wat je doet, hoe minder moeite je zult hebben leveren door de meeste spamfilters.
+Het eenvoudiger maken om te weten wie u bent en wat u aan het doen bent, hoe minder problemen u te bieden via de meeste spamfilters.
 
-### <a name="always-include-an-unsubscribe-option-in-campaign-emails"></a>Voeg altijd een afmeldoptie toe in campagne-e-mails
+### <a name="always-include-an-unsubscribe-option-in-campaign-emails"></a>De optie voor het afschrijven van een abonnement altijd opnemen in e-mail van een campagne
 
-Marketing e-mails, met name nieuwsbrieven, moet altijd een manier van afmelden van toekomstige e-mails. Bijvoorbeeld:
+Marketing e-mailberichten, met name nieuwsbrieven, moeten altijd een e-mailbericht over het afmelden bij toekomstige e-mailberichten bevatten. Bijvoorbeeld:
 
  `This email was sent to example@contoso.com by sender@fabrikam.com.`
 
  `Update Profile/Email Address | Instant removal with SafeUnsubscribe&trade; | Privacy Policy`
 
-Sommige afzenders bevatten deze optie door ontvangers te verplichten een e-mail te sturen naar een bepaalde alias met 'Afmelden' in het onderwerp. Dit is niet te verkiezen boven het bovenstaande voorbeeld met één klik. Als u ervoor kiest dat ontvangers een e-mail verzenden, moet u ervoor zorgen dat wanneer ze op de koppeling klikken, alle vereiste velden vooraf zijn ingevuld.
+Sommige afzenders bevatten deze optie, omdat geadresseerden een e-mailbericht naar een bepaalde alias moeten verzenden met ' Afmelden ' in het onderwerp. Dit is niet de voorkeur voor één klik hierboven. Als u wilt dat geadresseerden een e-mailbericht moeten verzenden, moet u ervoor zorgen dat de vereiste velden vooraf zijn ingevuld wanneer ze op de koppeling klikken.
 
-### <a name="use-the-double-opt-in-option-for-marketing-email-or-newsletter-registration"></a>Gebruik de dubbele opt-in optie voor het op de markt brengen van e-mail of nieuwsbriefregistratie
+### <a name="use-the-double-opt-in-option-for-marketing-email-or-newsletter-registration"></a>Gebruik de optie voor dubbele opt-in voor marketing-e-mail of nieuwsbrief registratie
 
-Deze best practice wordt aanbevolen als uw bedrijf gebruikers nodig heeft of aanmoedigt om hun contactgegevens te registreren om toegang te krijgen tot uw product of services. Sommige bedrijven maken het een praktijk om automatisch aanmelden hun gebruikers voor marketing e-mails of e-nieuwsbrieven tijdens het registratieproces, maar dit wordt beschouwd als een twijfelachtige marketing praktijk in de wereld van e-mail filtering.
+Deze beste gewoonte is raadzaam als uw bedrijf gebruikers informatie wil registreren of aan te moedigen om toegang te krijgen tot uw product of services. Met sommige bedrijven wordt het automatisch om gebruikers voor marketing-e-mailberichten of e-mail nieuwsbrieven automatisch aan te melden voor het registreren van een e-mailbericht, maar dit wordt beschouwd als een dubieuze marketing procedure in de wereld van e-mail filtering.
 
-Tijdens het registratieproces, als het "Ja, stuur me uw nieuwsbrief" of "Ja, stuur me speciale aanbiedingen" checkbox is standaard ingeschakeld, gebruikers die niet goed opletten kan onbedoeld aanmelden voor marketing e-mail of nieuwsbrieven die ze niet willen ontvangen.
+Als u tijdens het registratieproces het selectievakje ' Ja, stuur mij uw nieuwsbrief verzenden ' of ' Ja, kies mij een speciale aanbieding ' is ingeschakeld, kunnen gebruikers die niet kunnen worden ingeschreven, registreren voor marketing-e-mailberichten of nieuwsbrieven die ze niet willen ontvangen.
 
- In plaats daarvan raden we de dubbele opt-in-optie aan, wat betekent dat het selectievakje voor marketinge-mails of nieuwsbrieven standaard niet is aangevinkt. Bovendien, zodra het registratieformulier is ingediend, wordt een verificatie-e-mail verzonden naar de gebruiker met een URL die hen in staat stelt om hun beslissing om marketing e-mails te ontvangen te bevestigen.
+ We raden u aan in plaats daarvan de optie voor dubbele opt-in, wat betekent dat het selectievakje voor marketing-e-mails of nieuwsbrief nieuwsbrieven standaard niet wordt ingeschakeld. Wanneer het registratieformulier is ingediend, wordt er een verificatie-e-mailbericht naar de gebruiker verzonden met een URL, zodat ze hun beslissing kunnen bevestigen voor het ontvangen van marketing-e-mailberichten.
 
- Dit helpt ervoor te zorgen dat alleen gebruikers die marketinge-mail willen ontvangen, worden aangemeld voor de e-mails, en vervolgens het verzendende bedrijf van twijfelachtige e-mailmarketingpraktijken wissen.
+ Dit helpt ervoor te zorgen dat alleen gebruikers van marketing via e-mail een e-mailbericht ontvangen voor de e-mailberichten, en dan de verstuurde vennootschap van een willekeurige e-mail marketing procedure.
 
-### <a name="ensure-that-email-message-content-is-transparent-and-traceable"></a>Ervoor zorgen dat de inhoud van e-mailberichten transparant en traceerbaar is
+### <a name="ensure-that-email-message-content-is-transparent-and-traceable"></a>Zorg ervoor dat de inhoud van het e-mailbericht transparant en vervolgen is
 
-Net zo belangrijk als de manier waarop de e-mails worden verzonden is de inhoud die ze bevatten. Wanneer u e-mailinhoud maakt, gebruikt u de volgende aanbevolen procedures om ervoor te zorgen dat uw e-mails niet worden gemarkeerd door e-mailfilterservices:
+Net zo belangrijk als de manier waarop e-mailberichten worden verzonden, is de inhoud die deze bevat. Wanneer u e-mail inhoud maakt, kunt u de volgende aanbevolen procedures gebruiken om ervoor te zorgen dat uw e-mailberichten niet worden gemarkeerd met een filterservice voor e-mail:
 
-- Wanneer in het e-mailbericht wordt gevraagd dat ontvangers de afzender aan het adresboek toevoegen, moet duidelijk worden vermeld dat een dergelijke actie geen garantie voor levering is.
+- Als het e-mailbericht verzoekt dat geadresseerden de afzender toevoegen aan het adresboek, moet u duidelijk aangeven dat deze actie geen garantie biedt.
 
-- Omleidingen opgenomen in de hoofdtekst van het bericht moeten vergelijkbaar en consistent zijn, en niet meervoudig en gevarieerd. Een omleiding in deze context is alles wat wijst weg van het bericht, zoals links en documenten. Als je veel advertenties hebt of Links afmelden of De profielkoppelingen bijwerken, moeten ze allemaal naar hetzelfde domein verwijzen. Bijvoorbeeld:
+- Omleidingen die in de hoofdtekst van het bericht zijn opgenomen, moeten vergelijkbaar en consistent zijn, en niet meerdere en geen variabele. Een omleiding in deze context is iets dat verwijst naar het bericht, bijvoorbeeld koppelingen en documenten. Als u veel reclame of de koppeling naar het profiel wilt bijwerken of de profielkoppelingen wilt bijwerken, moeten deze allemaal naar hetzelfde domein verwijzen. Bijvoorbeeld:
 
-  Juiste:
+  Juist:
 
   `unsubscribe.bulkmailer.com`
 
@@ -135,7 +135,7 @@ Net zo belangrijk als de manier waarop de e-mails worden verzonden is de inhoud 
 
   `options.bulkmailer.com`
 
-  Onjuiste:
+  Onjuist:
 
   `unsubscribe.bulkmailer.com`
 
@@ -143,10 +143,10 @@ Net zo belangrijk als de manier waarop de e-mails worden verzonden is de inhoud 
 
   `options.yahoo.com`
 
-- Vermijd inhoud met grote afbeeldingen en bijlagen of berichten die uitsluitend uit een afbeelding zijn samengesteld.
+- Vermijd inhoud met grote afbeeldingen en bijlagen, of berichten die uitsluitend uit een afbeelding bestaan.
 
-- Uw openbare privacy- of P3P-instellingen moeten duidelijk de aanwezigheid van trackingpixels (webbugs of beacons) vermelden.
+- De aanwezigheid van uw openbare privacy-of P3P-instellingen moet duidelijk duidelijk zijn voor het bijhouden van pixels (web bugs of beacons).
 
-### <a name="remove-incorrect-email-aliases-from-your-databases"></a>Onjuiste e-mailaliassen uit uw databases verwijderen
+### <a name="remove-incorrect-email-aliases-from-your-databases"></a>Onjuiste e-mail aliassen verwijderen uit uw databases
 
-Elke e-mailalias in uw database die een bounce-back creëert, is niet nodig en brengt uw uitgaande e-mails in gevaar voor verdere controle door e-mailfilterservices. Zorg ervoor dat uw e-maildatabase up-to-date is.
+Elke e-mail alias in de database die een stuiterende stuiter maakt, is overbodig en zet uw uitgaande e-mailberichten op het risico voor verder onderzoek via e-mail filter Services. Zorg ervoor dat uw e-mail database up-to-date is.

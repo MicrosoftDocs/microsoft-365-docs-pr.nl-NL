@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Via het Microsoft 365-beveiligingscentrum of het Microsoft 365-compliancecentrum kunt u machtigingen centraal beheren voor alle taken die zijn gerelateerd aan beveiliging of naleving.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a7ca90bfc4a8d323b67528ca850f60059abeb12
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: c18f50fcad7b934e02c2110fa05196874ab0169a
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652835"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307771"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Machtigingen in het Microsoft 365-compliancecentrum en het Microsoft 365-beveiligingscentrum
 
@@ -101,7 +101,7 @@ Gebruikers met deze rol hebben machtigingen voor het beheren van beveiligingsfun
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Informatie over gebruikers, apparaten, implementatie, configuratie en toepassingen bekijken. <br/><br/> **Kan** geen wijzigingen doorvoeren in Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Beheerders, beleid en instellingen toevoegen, logboeken uploaden en beheeracties uitvoeren.|
 |[**Azure Security Center**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) (binnenkort beschikbaar)|Beveiligingsbeleid en beveiligingsstatus bekijken, beveiligingsbeleid bewerken, meldingen en aanbevelingen bekijken en meldingen en aanbevelingen verwijderen.|
-|[**Office 365-servicestatus**](https://docs.microsoft.com/office365/enterprise/view-service-health)|De status van Office 365-services bekijken.|
+|[**Office 365-servicestatus**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|De status van Office 365-services bekijken.|
 |
 
 ### <a name="security-operator"></a>Beveiligingsoperator
@@ -119,7 +119,7 @@ Gebruikers met deze rol kunnen meldingen beheren en hebben globale alleen-lezent
 |**Windows Defender ATP en EDR**|Doe alles wat de Beveiligingslezer kan. <br/><br/> Meldingen bekijken, onderzoeken en hierop reageren.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Informatie over gebruikers, apparaten, implementatie, configuratie en toepassingen bekijken. <br/><br/> **Kan** geen wijzigingen doorvoeren in Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Doe alles wat de Beveiligingslezer, plus meldingen bekijken en verwijderen.|
-|[**Office 365-servicestatus**](https://docs.microsoft.com/office365/enterprise/view-service-health)|De status van Office 365-services bekijken.|
+|[**Office 365-servicestatus**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|De status van Office 365-services bekijken.|
 |
 
 ### <a name="security-reader"></a>Beveiligingslezer
@@ -138,7 +138,7 @@ Gebruikers met deze rol hebben globale alleen-lezentoegang tot beveiligingsfunct
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Informatie over gebruikers, apparaten, implementatie, configuratie en toepassingen bekijken. <br/><br/> **Kan** geen wijzigingen doorvoeren in Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Alleen-lezen machtigingen gebruiken om informatie te bekijken. <br/><br/> Waarschuwingen beheren.|
 |[**Azure Security Center**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)|Aanbevelingen en meldingen bekijken. <br/><br/> Beveiligingsbeleid bekijken. <br/><br/> Beveiligingsstatus bekijken, maar geen wijzigingen aanbrengen.|
-|[**Office 365-servicestatus**](https://docs.microsoft.com/office365/enterprise/view-service-health)|De status van Office 365-services bekijken.|
+|[**Office 365-servicestatus**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|De status van Office 365-services bekijken.|
 |
 
 ## <a name="global-administrators-can-manage-roles-in-azure-active-directory"></a>Globale beheerders kunnen rollen beheren in Azure Active Directory

@@ -21,12 +21,12 @@ description: 'Het Microsoft 365-Beheercentrum: Hier vindt u meer informatie over
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 84932e13a336d225894683f9e328cb44df8c0e78
-ms.sourcegitcommit: 6319e73b3690b4cf1b7932f2b9f51c2c99e70eaa
+ms.openlocfilehash: 7504fa085c6dd5413a1dcddbb71f3d015ded72c1
+ms.sourcegitcommit: 97ef8f846939c3d31bb0638edf07bb89463ace0b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46635020"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300449"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuw in het Microsoft 365-Beheercentrum
 
@@ -39,10 +39,6 @@ ms.locfileid: "46635020"
 
 We toevoegen voortdurend nieuwe functies aan [het Microsoft 365-Beheercentrum](microsoft-365-admin-center-preview.md), zorgen voor oplossing voor het oplossen van problemen en het aanbrengen van wijzigingen op basis van uw feedback. Bekijk hieronder wat voor u beschikbaar is. Sommige functies worden met een verschillend toerental uitgerold voor onze klanten. Als u nog geen functie ziet, [probeer dan uzelf toe te voegen aan de targeted release](manage/release-options-in-office-365.md).
 
-> [!IMPORTANT]
-> **' Klassiek ' Beheercentrum, vanaf maart**<br><br>
-Wanneer u zich aanmeldt bij het Microsoft 365-Beheercentrum, gaat u nu telkens met het nieuwe Beheercentrum. In maart is de mogelijkheid om terug te schakelen naar het klassieke Beheercentrum uitgeschakeld. Voortaan kunt u nog steeds terugschakelen, maar als het nieuwe Beheercentrum een pariteit is (en deze overschrijdt), wordt de schakeloptie voor alle organisaties uitgeschakeld. <br><br> *Laatst bijgewerkt: 11 mei 2020*
-
 En als u meer wilt weten over de nieuwe functies in Microsoft-cloudservices, gaat u als volgt te werk:
 
 - [Nieuw in azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/whats-new)
@@ -53,6 +49,34 @@ En als u meer wilt weten over de nieuwe functies in Microsoft-cloudservices, gaa
 - [Nieuwe functies in het SharePoint-Beheercentrum](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 - [Office-updates](https://docs.microsoft.com/OfficeUpdates/)
 
+## <a name="july-2020"></a>Juli 2020
+
+### <a name="getting-ready-for-ignite-2020"></a>Voorbereiden voor Ignite 2020
+
+Wanneer wij overstappen op het Ignite-seizoen van Microsoft, bieden we u niet een groot aantal functies, zodat we u gedurende onze sessies een heleboel te spreken. 
+
+De volgende update voor dit artikel gaat over op een openingsdatum van onze eerste online-Ignite. Dit jaar is gratis. Uitchecken, Meld u aan: [Microsoft Ignite 2020](https://www.microsoft.com/ignite).
+
+### <a name="your-products"></a>Uw producten
+
+Er is veel werk gedaan in het abonnementen beheer om de pagina sneller te laden, zodat u sneller vindt wat u zoekt, en om te voldoen aan de standaarden voor web acessibility ([WCAG 2,1](http://www.w3.org/TR/WCAG21/)).
+
+- Opnieuw **ontwerpen van tabel**: de tabel is opnieuw ontworpen, zodat u vergelijkbare abonnementen kunt groeperen. Ga naar de **facturering**van  >  **uw producten**.
+- **Product gegevens**: Ga voor meer informatie naar uw abonnementen en selecteer het product in de lijst.
+- **Alles van hieruit**: en u hoeft niet te navigeren rond meerdere pagina's om één product te kunnen beheren. Als u bijvoorbeeld een abonnement moet opzeggen, wordt het deelvenster geopend om daar actie te ondernemen.
+
+![De pagina producten met het deelvenster abonnement annuleren geopend.](../media/MAC-WN-SubscrDetails.png)
+
+### <a name="domains"></a>Domeinen
+
+Domeinbeheer kan ingewikkeld zijn en we hebben een nieuwe functie uitgebracht om dit eenvoudiger te maken. Ga naar instellingen > domeinen en selecteer een domein om meer informatie over uw domein en de status van het domein te vinden.
+
+:::image type="content" source="../media/MAC-WN-DomainDNS.PNG" alt-text="Pagina Domain Details voor contoso.com":::
+
+### <a name="docs-training-and-videos"></a>Documenten, cursussen en Video's
+
+[Nieuw in Microsoft 365](https://youtu.be/m1Nu8WJgCDY) -VideoReeks: deze maand bieden we de nieuwe Yammer-ervaring voor het web en mobiele telefoons, en leren hoe u de app Yammer Community's voor Microsoft teams, nieuwe beleids pakketten voor ondersteuning van firstline Workers-werknemers en-managers, en meer.
+
 ## <a name="june-2020"></a>Juni 2020
 
 ### <a name="keeping-up-with-office-whats-new-management"></a>Bijhouden wat het nieuwe beheer is van Office
@@ -62,7 +86,6 @@ Een paar maanden geleden, hebben we een instelling toegevoegd waarmee u de [nieu
 ### <a name="docs-training-and-videos-june"></a>Documenten, cursussen en Video's (juni)
 
 - [Aan de slag met teams](https://support.microsoft.com/office/184f1aba-2f91-43f0-86e1-9fae607e24f6)
-
 
 ## <a name="may-2020"></a>Mei 2020
 
@@ -90,7 +113,7 @@ Zie voor meer informatie over deze rollen [beheerdersrollen](https://docs.micros
 
 We horen van een heleboel beheerders die ze nodig hebben om informatie over groepen en hun gebruik te delen met personen die geen toegang hebben tot de beheer centra. U kunt de lijst met groepen nu exporteren naar een CSV-bestand om controledoeleinden te doen, wat betekent dat u dit oude PowerShell-script kunt weggooien. Als u dit wilt doen, gaat u naar **groepen**  >  **groepen**en selecteert u **groepen exporteren** op de opdrachtbalk.
 
-### <a name="microsoft-365-solution-and-architecture-center"></a>Microsoft 365-oplossingen- en -architectuurcentrum
+### <a name="microsoft-365-solution-and-architecture-center"></a>Microsoft 365-oplossings- en architectuurcentrum
 
 Alleen deze maand hebben we een nieuwe site gepubliceerd op [https://docs.microsoft.com](https://docs.microsoft.com) de zogeheten [microsoft 365-oplossing en architectuur centrum](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center), waaronder de technische richtlijnen die u moet volgen, plannen en implementeren van geïntegreerde Microsoft 365-oplossingen voor veilig en compatibel samenwerken. In dit centrum vindt u:
 
@@ -100,9 +123,9 @@ Alleen deze maand hebben we een nieuwe site gepubliceerd op [https://docs.micros
 - Branchespecifieke richtlijnen
 - Ontwerp-principals voor Enterprise Architecture
 
-### <a name="docs-training-and-videos"></a>Documenten, cursussen en Video's
+### <a name="docs-training-and-videos-may"></a>Documenten, cursussen en Video's (mei)
 
-- **Nieuwe functies in Microsoft 365-VideoReeks**: deze maand bieden de nieuwe ondersteuningservaring in de teams-beheerder en beveiliging en compliance Centers, planner-integratie met het berichtencentrum en de nieuwe 3x3 video-indeling in Microsoft teams. [Nieuw in Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096)
+- **Nieuwe functies in Microsoft 365-VideoReeks**: deze maand bieden de nieuwe ondersteuningservaring in de teams-beheerder en beveiliging en compliance Centers, planner-integratie met het berichtencentrum en de nieuwe 3x3 video-indeling in Microsoft teams. 
 - De pagina Help-hub voor [Microsoft 365-Beheercentrum](https://docs.microsoft.com/microsoft-365/admin/) is bijgewerkt, zodat u gemakkelijker kunt vinden wat u zoekt. En als u nu naar deze pagina gaat, hebben we een kaart toegevoegd om u op de hoogte te stellen van belangrijke updates en wijzigingen.
 
 ## <a name="april-2020"></a>April 2020
@@ -334,7 +357,7 @@ In november hebben we een paar leer paden voor [Microsoft Learn](https://docs.mi
 - [Microsoft 365-modernisering van uw Enterprise-implementatie met Windows 10 en Microsoft 365-apps voor Enterprise](https://docs.microsoft.com/learn/paths/m365-getmodern/)
 - [Uw Enterprise-implementatie beheren met Microsoft 365](https://docs.microsoft.com/learn/paths/manage-enterprise-deployment-m365/)
 - [Upgrade Microsoft Office voor IT-formaat](https://docs.microsoft.com/learn/paths/m365-office-for-it/)
-- [Externe bureaubladen en apps leveren vanuit Azure met Windows Virtual Desktop](https://docs.microsoft.com/learn/paths/m365-wvd/)
+- [Externe bureaubladen en apps leveren vanuit Azure met Windows Virtual Desktop ](https://docs.microsoft.com/learn/paths/m365-wvd/)
 - [Uw werk met Microsoft 365 en Surface voor bedrijven moderniseren](https://docs.microsoft.com/learn/paths/modernize-workplace-with-m365-and-surface/)
 - [Identiteit en toegang met Microsoft 365 beveiligen](https://docs.microsoft.com/learn/paths/m365-identity/)
 - [Enterprise-informatie beschermen met Microsoft 365](https://docs.microsoft.com/learn/paths/m365-information-protection/)
@@ -382,7 +405,7 @@ Wanneer een belangrijke Office-functie wordt uitgebracht voor een Office-app, kr
 
 Technisch gesproken is dit niet het nieuws van het Microsoft 365-Beheercentrum om te zien, maar we zijn zo enthousiast dat we dit nieuws kunnen zien:
 > [!IMPORTANT]
-> U kunt nu toegang tot uw SharePoint-Beheercentrum met een gewone URL:[https://admin.microsoft.com/SharePoint](https://admin.microsoft.com/SharePoint)
+> U kunt nu toegang tot uw SharePoint-Beheercentrum met een gewone URL: [https://admin.microsoft.com/SharePoint](https://admin.microsoft.com/SharePoint)
 
 Zie [nieuwe functies in het SharePoint-Beheercentrum](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)voor meer informatie.
 

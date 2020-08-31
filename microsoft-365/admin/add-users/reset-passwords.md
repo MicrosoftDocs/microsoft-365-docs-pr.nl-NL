@@ -26,13 +26,13 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
-description: 'Meer informatie over het opnieuw instellen van een wachtwoord voor een gebruiker in een Microsoft 365-abonnement voor bedrijven. '
-ms.openlocfilehash: d1c17448a1f9993b056fa2dc428980acf8ef82b4
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: 'Meer informatie over het opnieuw instellen van een wachtwoord voor een gebruiker in Microsoft 365 for Business-abonnement. '
+ms.openlocfilehash: 6159b62cb6c1e09cb86732cc27cc4c4c87328a42
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780563"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307287"
 ---
 # <a name="reset-passwords"></a>Wachtwoorden opnieuw instellen
 
@@ -46,9 +46,9 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine
 
 We raden u sterk aan de selfservice voor het opnieuw instellen van wachtwoorden te configureren.  U hoeft dan de wachtwoorden van uw gebruikers niet handmatig opnieuw in te stellen. Raadpleeg [Personen hun eigen wachtwoorden opnieuw laten instellen in Office 365](let-users-reset-passwords.md) voor meer informatie.
   
-## <a name="reset-a-business-password-for-someone-else"></a>Een bedrijfswachtwoord voor iemand anders opnieuw instellen
+## <a name="reset-a-business-password-for-someone-else"></a>Een zakelijk wachtwoord voor iemand anders opnieuw instellen
 
-Deze stappen zijn alleen voor mensen die een Microsoft 365 voor bedrijfsplan gebruiken. Als u de stappen wilt uitvoeren, moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](../admin-overview/admin-overview.md)
+Deze stappen zijn alleen bedoeld voor personen met een Microsoft 365 voor bedrijven-abonnement. Als u de stappen wilt uitvoeren, moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](../admin-overview/admin-overview.md)
 
  
 ::: moniker range="o365-worldwide"
@@ -78,13 +78,13 @@ Deze stappen zijn alleen voor mensen die een Microsoft 365 voor bedrijfsplan geb
   
 ## <a name="reset-my-admin-password"></a>Mijn beheerderswachtwoord opnieuw instellen
 
-Gebruik deze stappen als u uw wachtwoord bent vergeten, maar u zich aanmelden bij Microsoft 365 omdat uw wachtwoord bijvoorbeeld in uw browser wordt opgeslagen: 
+Volg deze stappen als u uw wachtwoord bent vergeten, maar u zich wel kunt aanmelden bij Microsoft 365, bijvoorbeeld omdat uw wachtwoord is opgeslagen in uw browser: 
     
-1. Selecteer uw naam (pictogram) in de rechterbovenhoek > Persoonlijke gegevens **van mijn account**  >  **Personal Info**. 
+1. Selecteer uw naam (pictogram) in de rechterbovenhoek > **Mijn account**  >  **persoonlijke gegevens**. 
           
-2. Controleer **onder Contactgegevens**of uw **alternatieve e-mail** juist is en of u een mobiel telefoonnummer hebt opgegeven. Als dit niet zo is, wijzigt u deze nu. 
+2. Controleer onder **contact gegevens**of het **alternatieve e-mailadres** juist is en of u een mobiel telefoonnummer hebt opgegeven. Als dit niet zo is, wijzigt u deze nu. 
         
-3. Afmelden: selecteer uw naam in de rechterbovenhoek (in de bovenstaande afbeelding, weergegeven als **Diane)** \> **Afmelden**. 
+3. Afmelden: Selecteer uw naam in de rechterbovenhoek (in de bovenstaande afbeelding, weergegeven als **Willeke**) \> **Afmelden**. 
         
 4. Meld u nu weer aan: typ uw gebruikersnaam van de gebruiker \> **Volgende** \> en selecteer vervolgens **Wachtwoord vergeten**. 
     
@@ -94,14 +94,14 @@ Als u uw wachtwoord bent vergeten en u zich niet kunt aanmelden:
     
 - Vraag een andere globale beheerder in uw bedrijf uw wachtwoord opnieuw in te stellen.
 
-- Zorg ervoor dat u alternatieve contactgegevens hebt verstrekt, waaronder een mobiel telefoonnummer. 
+- Zorg dat u alternatieve contactgegevens hebt opgegeven, waaronder een mobiel telefoonnummer. 
     
 - U kunt ook [Microsoft Ondersteuning bellen](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). 
     
-## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>Alle bedrijfswachtwoorden voor iedereen in uw organisatie tegelijkertijd opnieuw instellen
+## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>Alle zakelijke wachtwoorden voor iedereen in uw organisatie op hetzelfde moment opnieuw instellen
 <a name="bkmk_forgot"> </a>
 
-Deze stappen werken voor een bedrijf met tienduizenden gebruikers. Als u honderden of duizenden gebruikers hebt, raadpleegt u de volgende sectie over het opnieuw instellen van wachtwoorden in bulk (maximaal 40 gebruikers tegelijk).
+Deze stappen werken voor een bedrijf met tienduizenden gebruikers. Als u honderden of duizenden gebruikers hebt, raadpleegt u de volgende sectie over het opnieuw instellen van wachtwoorden voor bulk (maximaal 40 gebruikers per keer).
   
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
     
@@ -115,14 +115,14 @@ Deze stappen werken voor een bedrijf met tienduizenden gebruikers. Als u honderd
     
 
   
-## <a name="reset-business-passwords-in-bulk"></a>Zakelijke wachtwoorden in bulk opnieuw instellen
+## <a name="reset-business-passwords-in-bulk"></a>Bedrijfs wachtwoorden bulksgewijs opnieuw instellen
 <a name="bkmk_forgot"> </a>
 
 PowerShell gebruiken! Lees deze post van Eyal Doron: [Het beheren van wachtwoorden met PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).
   
-Hier ziet u een gerelateerd artikel: [Wachtwoorden voor meerdere gebruikersaccounts instellen](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).
+Hier ziet u een gerelateerd artikel: [Wachtwoorden voor meerdere gebruikersaccounts instellen](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-with-microsoft-365-powershell).
   
-Zie [PowerShell voor Microsoft 365-beheerders voor overzichtsinformatie](https://support.microsoft.com/office/40fdcbd4-c34f-42ab-8678-8b3751137ef1).
+Zie [PowerShell voor Microsoft 365-beheerders](https://support.microsoft.com/office/40fdcbd4-c34f-42ab-8678-8b3751137ef1)voor overzichtsinformatie.
   
 ## <a name="force-a-password-change-for-all-users-in-your-business"></a>Wijzigen van het wachtwoord voor alle gebruikers in uw bedrijf forceren
 <a name="bkmk_forgot"> </a>
