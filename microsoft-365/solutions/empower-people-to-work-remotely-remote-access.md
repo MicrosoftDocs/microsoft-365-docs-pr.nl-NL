@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-remotework
 ms.custom: ''
 description: Zorg ervoor dat uw externe medewerkers toegang hebben tot on-premises informatiebronnen terwijl de toegang tot Microsoft 365-cloudservices wordt geoptimaliseerd.
-ms.openlocfilehash: 4327f6d7e4815a8720ecc05c7e4dd48ca89ac3d8
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 7c928718a4d0f0d47fb601e6ab6e51f25c88a04a
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521527"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308389"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>Stap 2. Externe toegang bieden tot on-premises apps en services
 
@@ -54,13 +54,13 @@ Microsoft 365-verkeer moet een indirecte route gebruiken binnen uw organisatie d
 
 Met split tunneling kunt u uw VPN-client zo configureren dat specifieke typen verkeer niet via de VPN-verbinding naar het bedrijfsnetwerk worden verzonden.
 
-Configureer uw split tunneling VPN-clients zodanig dat verkeer wordt uitgesloten naar de Microsoft 365-eindpuntcategorie **Optimaliseren** over de VPN-verbinding om toegang tot Microsoft 365-cloudresources te optimaliseren. Zie [Office 365-eindpuntcategorieën](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#new-office-365-endpoint-categories) voor meer informatie.  Bekijk [hier](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) de lijst met eindpunten met categorie Optimaliseren.
+Configureer uw split tunneling VPN-clients zodanig dat verkeer wordt uitgesloten naar de Microsoft 365-eindpuntcategorie **Optimaliseren** over de VPN-verbinding om toegang tot Microsoft 365-cloudresources te optimaliseren. Zie [Office 365-eindpuntcategorieën](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles#new-office-365-endpoint-categories) voor meer informatie.  Bekijk [hier](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) de lijst met eindpunten met categorie Optimaliseren.
 
 ![Netwerkverkeer van VPN-clients met tunneling](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-after-tunneling.png)
 
 Hiermee kan de VPN-client cruciaal Microsoft 365-cloudserviceverkeer direct over internet verzenden en ontvangen en via het dichtstbijzijnde ingangspunt in het Microsoft-netwerk.
 
-Bekijk [Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel) voor meer informatie en richtlijnen.
+Bekijk [Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel??) voor meer informatie en richtlijnen.
 
 ## <a name="deploy-remote-access-when-all-your-apps-are-web-apps-and-you-have-hybrid-identity"></a>Externe toegang implementeren wanneer al uw apps web-apps zijn en u een hybride identiteit hebt
 
@@ -116,7 +116,7 @@ Zie [dit artikel](https://www.microsoft.com/security/blog/2020/04/16/security-gu
 ## <a name="admin-technical-resources-for-remote-access"></a>Technische bronnen voor beheerders voor externe toegang
 
 - [Office 365-verkeer snel optimaliseren voor externe medewerkers en de belasting van uw infrastructuur verminderen](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
-- [Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel)
+- [Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel?)
 
 ## <a name="results-of-step-2"></a>Resultaten van stap 2
 

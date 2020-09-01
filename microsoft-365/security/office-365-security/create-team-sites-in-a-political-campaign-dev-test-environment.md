@@ -18,12 +18,12 @@ search.appverid:
 ms.custom: seo-marvel-apr2020
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: 'Overzicht: Maak openbare, privé, gevoelige en zeer vertrouwelijke SharePoint Online-teamsites in een ontwikkel-/testomgeving voor uw politieke campagne.'
-ms.openlocfilehash: d22ada823877d4c0996be942c379e12929242eaf
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 220056c8bb234d762b44431739c683164d7a9905
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755234"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308425"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
 
@@ -419,7 +419,7 @@ Als u een document met Azure Information Protection en dit nieuwe label wilt bev
   
 [Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes](configure-groups-and-users-for-a-political-campaign-dev-test-environment.md)
   
-[Cloud adoption Test Lab Guides (TLGs)](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Cloud adoption Test Lab Guides (TLGs)](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
   
 [Cloud adoption and hybrid solutions](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
 

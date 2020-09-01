@@ -15,110 +15,110 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
-description: Gebruik deze stapsgewijze implementatiehandleiding om een geïsoleerde SharePoint Online-teamsite te maken en te configureren in Microsoft Office 365.
-ms.openlocfilehash: 05fdbcfff792805708bfe0b8027e955d54a1ec6f
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+description: Gebruik deze stapsgewijze instructies voor het maken en configureren van een geïsoleerde SharePoint Online-team site in Microsoft Office 365.
+ms.openlocfilehash: 3465ec28db8c2045bad6e6c48112861818629524
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755222"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308413"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>Een geïsoleerde SharePoint Online-teamsite implementeren
 
- **Samenvatting:** Implementeer een nieuwe geïsoleerde SharePoint Online-teamsite met deze stapsgewijze instructies.
+ **Overzicht:** Implementeer een nieuwe, geïsoleerde SharePoint Online-team site met deze stapsgewijze instructies.
   
-Dit artikel is een stapsgewijze implementatiehandleiding voor het maken en configureren van een geïsoleerde SharePoint Online-teamsite in Microsoft Office 365. In deze stappen wordt uitgegaan van het gebruik van de drie standaardSharePoint-groepen en de bijbehorende machtigingsniveaus, met één toegangsgroep (Azure Active Directory) voor elk toegangsniveau.
+Dit artikel bevat stapsgewijze instructies voor het maken en configureren van een geïsoleerde SharePoint Online-team site in Microsoft Office 365. Bij deze stappen wordt uitgegaan van de drie standaardgroepen met SharePoint en de bijbehorende machtigingsniveaus, met één Azure Active Directory-toepassing op basis van Azure Active Directory (AD) voor elk toegangsniveau.
   
-## <a name="phase-1-create-and-populate-the-team-site-access-groups"></a>Fase 1: de toegangsgroepen van de teamsite maken en vullen
+## <a name="phase-1-create-and-populate-the-team-site-access-groups"></a>Fase 1: de toegangsgroepen voor de team site maken en vullen
 
-In deze fase maakt u de drie Azure AD-gebaseerde toegangsgroepen voor de drie standaardSharePoint-groepen en vult u deze met de juiste gebruikersaccounts.
+In deze fase maakt u de drie groepen Azure AD-based Access voor de drie standaardgroepen in SharePoint en vult u ze met de juiste gebruikersaccounts in.
   
 > [!NOTE]
-> Bij de volgende stappen wordt ervan uitgegaan dat alle benodigde gebruikersaccounts al bestaan en de juiste licenties worden toegewezen. Zo niet, voeg ze dan toe en wijs licenties toe voordat u doorgaat naar stap 1. 
+> Bij de volgende stappen wordt ervan uitgegaan dat alle benodigde gebruikersaccounts al bestaan en de juiste licenties zijn toegewezen. Als dat niet zo is, kunt u ze toevoegen en licenties toewijzen voordat u verder gaat met stap 1. 
   
-### <a name="step-1-list-the-sharepoint-online-admins-for-the-site"></a>Stap 1: De SharePoint Online-beheerders voor de site aanbieden
+### <a name="step-1-list-the-sharepoint-online-admins-for-the-site"></a>Stap 1: de SharePoint Online-beheerders voor de site weergeven
 
-Bepaal de set gebruikersaccounts die overeenkomen met de SharePoint Online-beheerders voor de geïsoleerde teamsite.
+De set gebruikersaccounts bepalen die overeenkomen met de SharePoint Online-beheerders voor de geïsoleerde team site.
   
-Als u gebruikersaccounts en -groepen beheert via Microsoft 365 en Windows PowerShell wilt gebruiken, maakt u een lijst met de belangrijkste namen van de gebruiker (UPN) (voorbeeld UPN: belindan@contoso.com).
+Als u gebruikersaccounts en groepen beheert via Microsoft 365 en u Windows PowerShell wilt gebruiken, maakt u een lijst met de gebruikers-principal-namen (Upn's) (belindan@contoso.com).
   
-### <a name="step-2-list-the-members-for-the-site"></a>Stap 2: Lijst van de leden voor de site
+### <a name="step-2-list-the-members-for-the-site"></a>Stap 2: de leden voor de site weergeven
 
-Bepaal de set gebruikersaccounts die overeenkomen met de leden voor de geïsoleerde teamsite, degenen die samenwerken aan bronnen die zijn opgeslagen op de site.
+Het bepalen van de gebruikersaccounts die overeenkomen met de leden van de geïsoleerde team site, degene die samenwerken aan resources die zijn opgeslagen in de site.
   
-Als u gebruikersaccounts en groepen beheert via Microsoft 365 en PowerShell wilt gebruiken, maakt u een lijst met hun UPNs. Als er veel siteleden zijn, u de lijst met UPN's opslaan in een tekstbestand en ze allemaal toevoegen met één PowerShell-opdracht.
+Als u gebruikersaccounts en groepen beheert via Microsoft 365 en u PowerShell wilt gebruiken, moet u een lijst maken van de Upn's. Als er veel siteleden zijn, kunt u de lijst met Upn's opslaan in een tekstbestand en ze allemaal met één PowerShell-opdracht toevoegen.
   
-### <a name="step-3-list-the-viewers-for-the-site"></a>Stap 3: De kijkers voor de site aanbieden
+### <a name="step-3-list-the-viewers-for-the-site"></a>Stap 3: de kijkers voor de site weergeven
 
-Bepaal de set gebruikersaccounts die overeenkomen met de kijkers van de geïsoleerde teamsite, degenen die de bronnen kunnen bekijken die op de site zijn opgeslagen, maar deze niet kunnen wijzigen of rechtstreeks samenwerken aan de inhoud ervan.
+Bepalen welke gebruikersaccounts overeenkomen met de gebruikers van de geïsoleerde team site, met welke gebruikers de bronnen die op de site zijn opgeslagen, niet kunnen wijzigen of rechtstreeks samenwerken aan hun inhoud.
   
-Als u gebruikersaccounts en groepen beheert via Microsoft 365 en PowerShell wilt gebruiken, maakt u een lijst met hun UPNs. Als er veel siteleden zijn, u de lijst met UPN's opslaan in een tekstbestand en ze allemaal toevoegen met één PowerShell-opdracht.
+Als u gebruikersaccounts en groepen beheert via Microsoft 365 en u PowerShell wilt gebruiken, moet u een lijst maken van de Upn's. Als er veel siteleden zijn, kunt u de lijst met Upn's opslaan in een tekstbestand en ze allemaal met één PowerShell-opdracht toevoegen.
   
-Kijkers voor de site kunnen bestaan uit uitvoerend management, juridisch advies of interdepartementale belanghebbenden.
+Kijkers voor de site kunnen directeuren, juridische adviseur of belanghebbenden van de afdeling zijn.
   
-### <a name="step-4-create-the-three-access-groups-for-the-site-in-azure-ad"></a>Stap 4: De drie toegangsgroepen voor de site maken in Azure AD
+### <a name="step-4-create-the-three-access-groups-for-the-site-in-azure-ad"></a>Stap 4: de drie toegangsgroepen maken voor de site in azure AD
 
-U moet de volgende toegangsgroepen maken in Azure AD:
+U moet de volgende toegangsgroepen maken in azure AD:
   
-- Sitebeheerders (die de lijst van stap 1 bevatten)
+- Site beheerders (die de lijst uit stap 1) hebben
     
-- Siteleden (die de lijst van stap 2 bevatten)
+- Site leden (die de lijst uit stap 2 bevatten)
     
-- Sitekijkers (die de lijst van stap 3 bevatten)
+- Site bezoekers (die de lijst uit stap 3 bevatten)
     
-1. Ga in uw browser naar de Azure-portal [https://portal.azure.com](https://portal.azure.com) en meld u aan met de referenties van een account dat is toegewezen aan de rol Gebruikersbeheerbeheerder of bedrijfsbeheerder.
+1. Ga in uw browser naar de Azure-Portal op [https://portal.azure.com](https://portal.azure.com) en meld u aan met de referenties van een account dat is toegewezen aan de beheerder van het Gebruikersbeheer of de beheerder van het bedrijf.
     
 2. Klik in de Microsoft Azure-portal op **Microsoft Azure Active Directory > Groepen**.
     
 3. Klik in de blade **Groepen: Alle groepen** op **+ Nieuwe groep**.
     
-4. Op het **nieuwe groepsblad:**
+4. Op de **nieuwe groeps** Blade:
     
     - Selecteer **Beveiliging** bij **Groepstype**.
 
-    - Typ de groepsnaam in **Naam**.
+    - Typ een **naam**voor de groep.
 
-    - Typ een beschrijving van de groep in **groepsbeschrijving**.
+    - Typ een beschrijving van de groep in de **groepsbeschrijving**.
 
     - Selecteer **Toegewezen** bij **Lidmaatschapstype**.
     
 5. Klik op **Maken** en sluit vervolgens de blade**Groep**.
     
-6. Herhaal stap 3-5 voor uw extra groepen.
+6. Herhaal stappen 3-5 voor uw extra groepen.
     
 > [!NOTE]
-> U moet de Azure-portal gebruiken om de groepen zo te maken dat Office-functies zijn ingeschakeld. Als een geïsoleerde SharePoint Online-site later is geconfigureerd als een zeer vertrouwelijke site met een Azure Information Protection-label om bestanden te versleutelen en toestemming toe te wijzen aan specifieke groepen, moeten de toegestane groepen zijn gemaakt met Office-functies ingeschakeld. U de instelling voor Office-functies van een Azure AD-groep niet wijzigen nadat deze is gemaakt. 
+> U moet de Azure-Portal gebruiken om de groepen te maken, zodat de Office-functies beschikbaar zijn. Als een geïsoleerde SharePoint Online-site later is geconfigureerd als een zeer vertrouwelijke site met een Azure Information Protection-label om bestanden te versleutelen en machtigingen toe te wijzen aan specifieke groepen, moeten de toegestane groepen zijn gemaakt met de Office-functies ingeschakeld. U kunt de instelling Office-functies van een Azure AD-groep niet wijzigen nadat deze is gemaakt. 
   
-Hier is uw resulterende configuratie met de drie sitetoegangsgroepen.
+Hier ziet u de resultaten van de configuratie met de drie groepen site toegang.
   
-![De drie toegangsgroepen voor uw implementatie van een geïsoleerde SharePoint Online-site.](../../media/c2557f61-478b-4494-95e9-d79fe5909e8b.png)
+![De drie toegangsgroepen voor de implementatie van een geïsoleerde SharePoint Online-site.](../../media/c2557f61-478b-4494-95e9-d79fe5909e8b.png)
   
-### <a name="step-5-add-the-user-accounts-to-the-access-groups"></a>Stap 5. De gebruikersaccounts toevoegen aan de toegangsgroepen
+### <a name="step-5-add-the-user-accounts-to-the-access-groups"></a>Stap 5. De gebruikersaccounts toevoegen aan de Access-groepen
 
-Ga in deze stap als volgt te werk:
+In deze stap doet u het volgende:
   
-1. De lijst met gebruikers van stap 1 toevoegen aan de toegangsgroep voor sitebeheerders
+1. De lijst met gebruikers uit stap 1 toevoegen aan de groep sitebeheerders toegang
     
-2. De lijst met gebruikers van stap 2 toevoegen aan de toegangsgroep voor siteleden
+2. Voeg de lijst met gebruikers uit stap 2 toe aan de groep toegang tot siteleden
     
-3. De lijst met gebruikers van stap 3 toevoegen aan de toegangsgroep voor sitekijkers
+3. De lijst met gebruikers uit stap 3 toevoegen aan de groep toegang tot sitebezoekers
     
-Als u gebruikersaccounts en groepen beheert via Ad DS (Active Directory Domain Services), voegt u gebruikers toe aan de juiste toegangsgroepen met behulp van uw normale AD DS-gebruikers- en groepsbeheerprocedures en wacht u op synchronisatie met uw Microsoft 365-abonnement.
+Als u gebruikersaccounts en groepen beheert via Active Directory Domain Services (AD DS), voegt u gebruikers toe aan de juiste toegangsgroepen met behulp van uw normale Active Directory-gebruikers-en groepsbeheer procedures en wacht op synchronisatie met uw Microsoft 365-abonnement.
   
-Als u gebruikersaccounts en groepen beheert via Office 365, u het Microsoft 365-beheercentrum of PowerShell gebruiken. Als u dubbele groepsnamen hebt voor een van de toegangsgroepen, moet u het Microsoft 365-beheercentrum gebruiken.
+Als u gebruikersaccounts en groepen beheert via Office 365, kunt u het Microsoft 365-Beheercentrum of PowerShell gebruiken. Als u een groepsnaam hebt voor een van de toegangsgroepen, dient u het Microsoft 365-Beheercentrum te gebruiken.
   
-Meld u voor het Microsoft 365-beheercentrum aan met een gebruikersaccount waaraan de rol Gebruikersaccountbeheerder of bedrijfsbeheerder is toegewezen en gebruik Groepen om de juiste gebruikersaccounts en groepen toe te voegen aan de juiste toegangsgroepen.
+Voor het Microsoft 365-Beheercentrum, meldt u zich aan met een gebruikersaccount waaraan de rol van beheerder of beheerder van het bedrijf is toegewezen en groepen om de juiste gebruikersaccounts en groepen toe te voegen aan de juiste toegangsgroepen.
   
-Maak voor PowerShell eerst [verbinding met de module Azure Active Directory PowerShell voor Grafiek](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Maak voor PowerShell eerst [verbinding met de Azure Active Directory PowerShell voor Graph module](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell?view=o365-worldwide#connect-with-the-azure-active-directory-powershell-for-graph-module).
   
-Gebruik vervolgens het volgende opdrachtblok om een individueel gebruikersaccount toe te voegen aan een toegangsgroep:
+Gebruik vervolgens de volgende opdracht blokkering om een afzonderlijk gebruikersaccount toe te voegen aan een Access-groep:
   
 ```powershell
 $userUPN="<UPN of the user account>"
 $grpName="<display name of the access group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
 ```
-Als u de UPN's van gebruikersaccounts hebt opgeslagen voor een van de toegangsgroepen in een tekstbestand, u het volgende PowerShell-opdrachtblok gebruiken om ze allemaal tegelijk toe te voegen:
+Als u de Upn's van gebruikersaccounts voor een van de toegangsgroepen in een tekstbestand hebt opgeslagen, kunt u deze met het volgende PowerShell-opdracht blok allemaal tegelijk toevoegen:
   
 ```powershell
 $grpName="<display name of the access group>"
@@ -127,7 +127,7 @@ $grpID=(Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
 Get-Content $fileName | ForEach { $userUPN=$_; Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -ObjectID $grpID }
 ```
 
-Gebruik voor PowerShell het volgende opdrachtblok om een afzonderlijke groep toe te voegen aan een toegangsgroep:
+Gebruik voor PowerShell de volgende opdracht blokkering om een groep toe te voegen aan een Access-groep:
   
 ```powershell
 $nestedGrpName="<display name of the group to add to the access group>"
@@ -136,104 +136,104 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADGroup | Where { $_.DisplayName -
 
 ```
 
-De resultaten moeten als volgt worden vastgesteld:
+U moet het volgende doen:
   
-- De Azure AD-groep van de sitebeheerder bevat de gebruikersaccounts of groepen van de sitebeheerder
+- De groep sitebeheerders Azure AD bevat de gebruikersaccounts of groepen van de sitebeheerder
     
-- De Azure AD-groep van de siteleden bevat gebruikersaccounts of groepen van het sitelid
+- De groep Siteleden Azure AD bevat de gebruikersaccounts of groepen van de siteleden
     
-- De Azure AD-groep van de sitekijkers bevat de gebruikersaccounts of groepen die alleen de site-inhoud kunnen bekijken
+- De groep site viewers Azure AD bevat de gebruikersaccounts of groepen waarmee de site-inhoud kan worden weergegeven.
     
-Valideer de lijst met groepsleden voor elke toegangsgroep met het Microsoft 365-beheercentrum of met het volgende PowerShell-opdrachtblok:
+Valideer de lijst met groepsleden voor elke toegangsgroep met het Microsoft 365-Beheercentrum of met het volgende PowerShell-opdracht blok:
   
 ```powershell
 $grpName="<display name of the access group>"
 Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID | Sort UserPrincipalName | Select UserPrincipalName,DisplayName,UserType
 ```
 
-Hier is uw resulterende configuratie met de drie sitetoegangsgroepen gevuld met gebruikersaccounts of groepen.
+Hier ziet u de resultaten van de drie groepen toegang krijgen tot de sitegroepen, met gebruikersaccounts of groepen.
   
-![De drie toegangsgroepen gevuld met gebruikersaccounts.](../../media/2320107c-dad6-4c8f-94e5-f6427c125e71.png)
+![De drie toegangsgroepen die zijn gevuld met gebruikersaccounts.](../../media/2320107c-dad6-4c8f-94e5-f6427c125e71.png)
   
-## <a name="phase-2-create-and-configure-the-isolated-team-site"></a>Fase 2: De geïsoleerde teamsite maken en configureren
+## <a name="phase-2-create-and-configure-the-isolated-team-site"></a>Fase 2: de geïsoleerde team site maken en configureren
 
-In deze fase maakt u de geïsoleerde SharePoint Online-site en configureert u de machtigingen voor de standaard machtigingsniveaus voor SharePoint Online om uw nieuwe Azure AD-gebaseerde toegangsgroepen te gebruiken. Nieuwe teamsites bevatten standaard een Microsoft 365-groep en andere gerelateerde bronnen, maar in dit geval maken we een teamsite zonder Microsoft 365-groep. Hierdoor kunnen machtigingen volledig via SharePoint worden gehandhaafd.
+In deze fase maakt u de geïsoleerde SharePoint Online-site en configureert u de machtigingen voor de standaard-SharePoint Online-machtigingsniveaus voor het gebruik van uw nieuwe Azure AD-toegangsgroepen. Nieuwe team sites bevatten standaard een Microsoft 365-groep en andere verwante bronnen, maar in dit geval maken we een team site zonder een Microsoft 365-groep. Hiermee kunt u machtigingen volledig beheren via SharePoint.
   
-Maak eerst de SharePoint Online-teamsite met deze stappen.
+Maak eerst de SharePoint Online-team site met deze stappen.
   
-1. Meld u aan bij het Microsoft 365-beheercentrum met een account dat ook wordt gebruikt voor het beheer van de SharePoint Online-teamsite (een SharePoint Online-beheerder). Zie [Waar kan ik me aanmelden in Office 365?](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4) voor hulp.
+1. Meld u aan bij het Microsoft 365-Beheercentrum met een account dat ook wordt gebruikt voor het beheren van de SharePoint Online-team site (een beheerder van SharePoint Online). Zie [Waar kan ik me aanmelden in Office 365?](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4) voor hulp.
 
-2. Klik in het Microsoft 365-beheercentrum onder **Beheercentra**op **SharePoint**.
+2. Klik in het Microsoft 365-Beheercentrum onder **beheer centra**op **SharePoint**.
 
-3. Vouw **sites** uit in het SharePoint-beheercentrum en klik op **Actieve sites**.
+3. In het SharePoint-Beheercentrum, vouwt u **sites** uit en klikt u op **actieve sites**.
 
-4. Klik **op Maken**en kies andere **opties**.
+4. Klik op **maken**en kies **andere opties**.
 
-5. Kies in de lijst **Een sjabloon** kiezen **de optie Teamsite**.
+5. Kies in de lijst **een sjabloon kiezen** de optie **team site**.
    
-6. Typ in **De naam van**de site een naam voor de teamsite. 
+6. Typ in **site naam**een naam voor de team site. 
     
-7. Typ in **Primaire beheerder**het account waarmee u bent ingelogd.
+7. Typ bij **primaire beheerder**het account waarmee u bent aangemeld.
  
 8. Klik op **Voltooien**.
     
-Configureer vervolgens vanaf de nieuwe SharePoint Online-teamsite machtigingen.
+Vervolgens configureert u op de nieuwe SharePoint Online-team site machtigingen.
   
 1. Klik in de werkbalk op het pictogram Instellingen en vervolgens op **Site-machtigingen**.
 
-2. Klik onder **Sitedelen**op **Wijzigen hoe leden kunnen delen**.
+2. Klik onder **site delen**op **wijzigen hoe leden kunnen delen**.
 
-3. Kies de **enige site-eigenaren kunnen bestanden, mappen en de site delen.**
+3. Kies de **enige site-eigenaren kunnen bestanden, mappen en de site delen**.
 
-4. **Accessaanvragen toestaan** instellen op **Uit**.
+4. Stel **toegangsaanvragen toestaan** in op **uit**.
 
 5. Klik op **Opslaan**.
     
-6. Klik in het deelvenster **Machtigingen** op **Instellingen voor geavanceerde machtigingen**.
+6. Klik in het deelvenster **machtigingen** op **Geavanceerde instellingen voor machtigingen**.
     
-7. Klik op het tabblad **Machtigingen** van uw browser op ** \<site name> Leden** in de lijst.
+7. Klik op het tabblad **machtigingen** van uw browser op ** \<site name> leden** in de lijst.
     
-8. Klik **in Personen en groepen**op **Nieuw**.
+8. Klik in **personen en groepen**op **Nieuw**.
     
-9. Typ in het dialoogvenster **Delen** de naam van de toegangsgroep van siteleden, selecteer deze en klik op **Delen**.
+9. Typ in het dialoogvenster **delen** de naam van de groep toegang tot siteleden, Selecteer deze en klik vervolgens op **delen**.
     
 10. Klik op de terugknop in uw browser.
     
-11. Klik ** \<site name> op Eigenaren** in de lijst.
+11. Klik op ** \<site name> eigenaren** in de lijst.
     
-12. Klik **in Personen en groepen**op **Nieuw**.
+12. Klik in **personen en groepen**op **Nieuw**.
     
-13. Typ in het dialoogvenster **Delen** de naam van de toegangsgroep van sitebeheerders, selecteer deze en klik op **Delen**.
+13. Typ in het dialoogvenster **delen** de naam van de groep sitebeheerders toegang, Selecteer deze en klik vervolgens op **delen**.
     
 14. Klik op de terugknop in uw browser.
     
-15. Klik ** \<site name> op Bezoekers** in de lijst.
+15. Klik op ** \<site name> bezoekers** in de lijst.
     
-16. Klik **in Personen en groepen**op **Nieuw**.
+16. Klik in **personen en groepen**op **Nieuw**.
     
-17. Typ in het dialoogvenster **Delen** de naam van de toegangsgroep voor sitekijkers, selecteer deze en klik op **Delen**.
+17. Typ in het dialoogvenster **delen** de naam van de groep toegang tot site kijkers, Selecteer deze en klik vervolgens op **delen**.
     
-18. Sluit het tabblad **Machtigingen** van uw browser.
+18. Sluit het tabblad **machtigingen** van uw browser.
     
 De resultaten van deze machtigingsinstellingen zijn:
   
-- De ** \<site name> SharePoint-groep Eigenaren** bevat de toegangsgroep sitebeheerders, waarin alle leden het **machtigingsniveau Volledig beheer** hebben.
+- De SharePoint-groep ** \<site name> eigenaren** bevat de groep sitebeheerders toegang, waarbij alle leden het machtigingsniveau **volledig beheer** hebben.
     
-- De ** \<site name> SharePoint-groep leden** bevat de toegangsgroep voor siteleden, waarin alle leden het **machtigingsniveau Bewerken** hebben.
+- De SharePoint-groep ** \<site name> leden** bevat de groep toegang tot siteleden, waarbij alle leden het machtigingsniveau voor **bewerken** hebben.
     
-- De **SharePoint-groep \<site name> Bezoekers** bevat de toegangsgroep voor sitekijkers, waarin alle leden het machtigingsniveau **Lezen** hebben.
+- De SharePoint-groep ** \<site name> bezoekers** bevat de groep gebruikers van de site met de machtiging voor het **lezen** van de site.
     
-- De mogelijkheid voor leden om andere leden uit te nodigen of voor niet-leden om toegang aan te vragen is uitgeschakeld.
+- De mogelijkheid om leden te uitnodigen andere leden uit te nodigen of voor niet-leden om toegang aan te vragen is uitgeschakeld.
     
-Hier volgt uw resulterende configuratie met de drie SharePoint-groepen voor de site die zijn geconfigureerd om de drie toegangsgroepen te gebruiken, die zijn gevuld met gebruikersaccounts of Azure AD-groepen.
+Hier ziet u de resultaten van de SharePoint-groepen waarmee de site is geconfigureerd voor het gebruik van de drie toegangsgroepen, die zijn gevuld met gebruikersaccounts of Azure AD-groepen.
   
-![De uiteindelijke configuratie van uw geïsoleerde SharePoint Online-site met toegangsgroepen en gebruikersaccounts.](../../media/e7618971-06ab-447b-90ff-d8be3790fe63.png)
+![De laatste configuratie van de geïsoleerde SharePoint Online-site met toegangsgroepen en gebruikersaccounts.](../../media/e7618971-06ab-447b-90ff-d8be3790fe63.png)
   
-U en de leden van de site, door groepslidmaatschap in een van de toegangsgroepen, kunnen nu samenwerken met behulp van de bronnen van de site.
+U en de leden van de site, via groepslidmaatschap in een van de toegangsgroepen, kunnen nu samenwerken via de bronnen van de site.
   
 ## <a name="next-step"></a>Volgende stap
 
-Zie Een [geïsoleerde SharePoint Online-teamsite](manage-an-isolated-sharepoint-online-team-site.md)beheren als u het lidmaatschap van de groep voor sitetoegang wilt wijzigen of een documentmap met aangepaste machtigingen moet maken.
+Zie [een geïsoleerde SharePoint Online-team site beheren](manage-an-isolated-sharepoint-online-team-site.md)als u lidmaatschap van een site toegangsgroep wilt wijzigen of een map wilt maken met aangepaste machtigingen.
   
 ## <a name="see-also"></a>Zie ook
 

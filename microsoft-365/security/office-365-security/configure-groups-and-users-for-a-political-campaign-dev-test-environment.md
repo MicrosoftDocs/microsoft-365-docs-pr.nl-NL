@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: 'Overzicht: maak proefabonnementen voor Office 365 en Enterprise Mobility + Security (EMS) met gebruikers en groepen voor een ontwikkel-/testomgeving voor politieke campagnes.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d8c315364e9a00a49ad825ef2652ff4e8a7476b
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 7282659399d2541b50c43dffc9fc8690baecd803
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755270"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308437"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
 
@@ -133,7 +133,7 @@ Vervolgens configureert u de groepen zo dat er automatisch Office 365 E5- en EMS
 
 In deze fase voegt u de voorbeeldgebruikersaccounts voor uw politieke campagne toe.
 
-Eerst maakt u [Verbinding met de Windows PowerShell voor Graph-module van Azure Active Directory](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Eerst maakt u [Verbinding met de Windows PowerShell voor Graph-module van Azure Active Directory](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
 
 Vervolgens vult u de naam van uw organisatie in, uw locatie en een gemeenschappelijk wachtwoord in en voert u vervolgens deze opdrachten uit in de opdrachtprompt van Windows PowerShell of de Integrated Scripting Environment (ISE):
 
@@ -206,6 +206,6 @@ Maak de vier verschillende soorten SharePoint Online-teamsites in deze ontwikkel
 
 [Team sites maken in een ontwikkel-en testomgeving voor politieke campagnes](create-team-sites-in-a-political-campaign-dev-test-environment.md)
 
-[Testlabrichtlijnen voor cloudacceptatie (TLG's)](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Testlabrichtlijnen voor cloudacceptatie (TLG's)](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
 
 [Cloud adoption and hybrid solutions](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)

@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 427d266ea46c184a87b8b0b4fbe242adfb8deff1
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: 7c83d3f202851008e93c3f3e9d0c7bc89c49bf20
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597541"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308365"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Om de identiteit en verder te leren lopen: één gezichtspunt van een architect
 
@@ -113,7 +113,7 @@ Dit type whiteboard-tekening laat zien waar beveiligingsbeleid in de stroom van 
 
 We hebben Chasing de dromen van [eenmalige aanmelding](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on) (SSO) voor wat u kunt onthouden. Sommige klanten geloven dat ze dit kunnen bereiken door de STS-provider (' rechts ' Federatie) te kiezen. Azure AD kan u helpen om [eenmalige SSO-functies in te schakelen](https://docs.microsoft.com/azure/active-directory/manage-apps/plan-sso-deployment) , maar geen STS is magische. Er zijn te veel verouderde Authenticatiemethoden die nog voor kritieke toepassingen worden gebruikt. Azure AD verlengen met [Partneroplossingen](https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list) kan veel van deze scenario's bepakken. Eenmalige aanmelding is een strategie en een rit. U kunt geen [van de standaarden voor toepassingen](https://docs.microsoft.com/azure/active-directory/develop/v2-app-types)vinden zonder dat dit van toepassing is op de normen. Dit onderwerp is een rit met een [wacht woordloze](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless) verificatie die ook geen magische-antwoord heeft. 
 
-[Multi-factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks) [(MFA](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/your-pa-word-doesn-t-matter/ba-p/731984) ) is vandaag de essentieel. Toevoegen aan de [gebruikers werking van de gebruikers werking](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-risk-based-sspr-mfa) en u hebt een oplossing waarmee u kunt voorkomen dat u vaak vaak Cyber-aanvallen kunt uitvoeren. Zelfs voor de consumenten dienst is MFA vereist. Daarom ben ik nog steeds bijeen met veel klanten die niet naar [moderne verificatie](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) methoden willen overstappen. Het grootste argument dat ik hoor, is van invloed op gebruikers en oudere toepassingen. Soms kunnen klanten met een goede weg helpen om on-Exchange Online- [wijzigingen](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-auth-and-exchange-online-february-2020-update/ba-p/1191282)door te gaan. Er zijn nu veel Azure AD- [rapporten](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-block-legacy-authentication) beschikbaar waarmee klanten met deze overgang kunnen werken.
+[Multi-factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks) [(MFA](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/your-pa-word-doesn-t-matter/ba-p/731984) ) is vandaag de essentieel. Toevoegen aan de [gebruikers werking van de gebruikers werking](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-risk-based-sspr-mfa) en u hebt een oplossing waarmee u kunt voorkomen dat u vaak vaak Cyber-aanvallen kunt uitvoeren. Zelfs voor de consumenten dienst is MFA vereist. Daarom ben ik nog steeds bijeen met veel klanten die niet naar [moderne verificatie](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview) methoden willen overstappen. Het grootste argument dat ik hoor, is van invloed op gebruikers en oudere toepassingen. Soms kunnen klanten met een goede weg helpen om on-Exchange Online- [wijzigingen](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-auth-and-exchange-online-february-2020-update/ba-p/1191282)door te gaan. Er zijn nu veel Azure AD- [rapporten](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-block-legacy-authentication) beschikbaar waarmee klanten met deze overgang kunnen werken.
 
 
 
@@ -187,12 +187,12 @@ In deze scenario's met meerdere tenants kunnen klanten vaak bepaalde configurati
 
 ### <a name="multi-geo"></a>Meerdere geografische 
 
-Naar [meerdere geografische](https://docs.microsoft.com/office365/enterprise/office-365-multi-geo) of niet naar meerdere geografische gebieden, dat wil zeggen de vraag. Met Office 365 multi-geo kunt u gegevens in de geo-locaties richten en bewaren die u hebt gekozen om te voldoen aan de vereisten voor [Data-woonplaats](https://docs.microsoft.com/office365/enterprise/o365-data-locations) . Er zijn veel mishaalbaarheiden voor deze functie. Houd het volgende in gedachten: 
+Naar [meerdere geografische](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo) of niet naar meerdere geografische gebieden, dat wil zeggen de vraag. Met Office 365 multi-geo kunt u gegevens in de geo-locaties richten en bewaren die u hebt gekozen om te voldoen aan de vereisten voor [Data-woonplaats](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations) . Er zijn veel mishaalbaarheiden voor deze functie. Houd het volgende in gedachten: 
 - Het biedt geen prestatievoordelen. Dit kan de prestaties nadelig beïnvloeden als het [netwerkontwerp](https://aka.ms/office365networking) niet klopt. Zorg dat u de apparaten ' Sluit ' naar het Microsoft-netwerk verzorgt, niet noodzakelijkerwijs voor uw gegevens.
 - Het is geen oplossing voor [AVG compliance](https://www.microsoft.com/trust-center/privacy/gdpr-overview). AVG is niet op de focus van gegevens soevereiniteit of opslaglocaties. Er zijn andere compliance frameworks.
 - Het delegeren van de beheerder (zie hieronder) of [informatie barrières](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)wordt niet opgelost.
 - Het is niet hetzelfde als een meervoudige Tenant en de werkstroom extra [inrichten van gebruikers](https:/docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation) is vereist.
-- [Uw Tenant](https://docs.microsoft.com/office365/enterprise/moving-data-to-new-datacenter-geos) (Azure AD) wordt niet verplaatst naar een andere geografie. 
+- [Uw Tenant](https://docs.microsoft.com/microsoft-365/enterprise/moving-data-to-new-datacenter-geos) (Azure AD) wordt niet verplaatst naar een andere geografie. 
 
 ## <a name="delegation-of-administration"></a>Delegatie van beheer
 
@@ -202,7 +202,7 @@ In de meeste grote organisaties is scheiding van rechten en toegangsbeheer op ba
 
 Er is een lang en toenemende lijst met [ingebouwde rollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles). Elke rol bestaat uit een lijst met rolmachtigingen gegroepeerd, zodat specifieke acties kunnen worden uitgevoerd. U vindt deze machtigingen in het tabblad ' Beschrijving ' binnen elke rol. U kunt ook een meer menselijke leesbare versie van deze personen zien in het Microsoft 365-Beheercentrum. De definities voor ingebouwde rollen kunnen niet worden gewijzigd. Ik Groepeer deze in drie categorieën:
 
-- **Globale beheerder** : deze functie ' alles krachtig ' moet [zeer veilig](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts) zijn, net zoals in andere systemen. Typische aanbevelingen zijn: geen permanente toewijzing en gebruik van Azure AD bevoorrechte Identity Management (PIM). sterke verificatie; enzovoort. Deze rol biedt u niet standaard toegang tot alles. Normaalgesproken wordt er verwarring weergegeven over nalevings toegang en Azure Access, dat later wordt besproken. Deze rol kan echter altijd toegang tot andere services toewijzen aan de Tenant. 
+- **Globale beheerder** : deze functie ' alles krachtig ' moet [zeer veilig](https://docs.microsoft.com/microsoft-365/enterprise/protect-your-global-administrator-accounts) zijn, net zoals in andere systemen. Typische aanbevelingen zijn: geen permanente toewijzing en gebruik van Azure AD bevoorrechte Identity Management (PIM). sterke verificatie; enzovoort. Deze rol biedt u niet standaard toegang tot alles. Normaalgesproken wordt er verwarring weergegeven over nalevings toegang en Azure Access, dat later wordt besproken. Deze rol kan echter altijd toegang tot andere services toewijzen aan de Tenant. 
 - **Specifieke servicebeheerders** : sommige services (Exchange, SharePoint, Power bi, etc.) verbruiken op hoog niveau van beheerdersrollen via Azure AD. Dit is niet consistent voor alle services en er worden later meer service-specifieke rollen besproken.
 - **Functioneel** : er is een lange (en groeiende) lijst met rollen die zijn gericht aan specifieke bewerkingen (gast uitnodiging, enzovoort). Deze worden regelmatig toegevoegd, op basis van klantbehoeften.
 
@@ -248,8 +248,8 @@ Zoals eerder is vermeld, willen veel klanten een meer granulair delegerings mode
   + **Nalevings grenzen**  -  [https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries ](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries )
   + **Geavanceerd eDiscovery**  -  [https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 ](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 )
 - **Yammer** - [https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins](https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins) 
-- **Meerdere geografische** - [https://docs.microsoft.com/office365/enterprise/add-a-sharepoint-geo-admin](https://docs.microsoft.com/office365/enterprise/add-a-sharepoint-geo-admin) 
-- **Dynamics 365** –[https://docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) <br>
+- **Meerdere geografische** - [https://docs.microsoft.com/microsoft-365/enterprise/add-a-sharepoint-geo-admin](https://docs.microsoft.com/microsoft-365/enterprise/add-a-sharepoint-geo-admin) 
+- **Dynamics 365** – [https://docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) <br>
   Opmerking: deze koppeling gaat naar de hoofdsite van de documentatie. Er bestaan meerdere soorten services met variaties in het model voor de beheerder/overdracht.
 - **Power platform**  -  [https://docs.microsoft.com/power-platform/admin/admin-documentation ](https://docs.microsoft.com/power-platform/admin/admin-documentation )
   + **Power-apps**  -  [https://docs.microsoft.com/power-platform/admin/wp-security ](https://docs.microsoft.com/power-platform/admin/wp-security ) <br>

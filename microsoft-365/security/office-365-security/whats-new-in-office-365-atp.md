@@ -8,8 +8,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -17,12 +17,13 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 08/27/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8eda787a92228fc9705bd329f0df7203b9a1175c
-ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
+ms.reviewer: vippand
+ms.openlocfilehash: 2e6638480ec3a687b1bed9f2a176b6bf21278ef2
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47294773"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308377"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Nieuw in Office 365 ATP
 
@@ -39,7 +40,7 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 
 - [Uw beleidsregels controleren met behulp van configuratie analyse](configuration-analyzer-for-security-policies.md)
 - [Filter Verdicts handmatig negeren met behulp van de lijst Tenant toestaan/blokkeren](tenant-allow-block-list.md)
-- [Uitgebreide functies in de bedreigings Verkenner, waaronder populaire gebruikers, transportregels en connectors](threat-explorer.md#extended-capabilities-in-Threat-Explorer.md)
+- [Uitgebreide functies in de bedreigings Verkenner, waaronder populaire gebruikers, transportregels en connectors](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections)
 - Weergegeven overschrijft informatie in de [bedreigings Verkenner](threat-explorer.md) (e-mail is door Tenant/gebruikersbeleid toegestaan/geblokkeerd)
 - Weergegeven URL Threats in de [Threat Explorer](threat-explorer.md) (malware, phishing, spam of geen)
 
