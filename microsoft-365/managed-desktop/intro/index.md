@@ -9,37 +9,37 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 80d6066872f02c673a48964c7c1bd69b16cec932
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: abd6a123cdc06a84ce094a93eac06f50fe23a315
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530005"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289731"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Wat is Microsoft Managed Desktop?
 
 
 Microsoft Managed Desktop is een cloudservice die [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview) (inclusief [Windows 10](https://docs.microsoft.com/windows/windows-10/) Enterprise en [Office 365 Enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)) samenbrengt en deze functies toevoegt:
 
-- Implementatie van eindgebruiker-apparaat
+- Implementatie van gebruikersapparaat
 - IT-servicebeheer en -activiteiten
 - Beveiligingscontrole en -antwoord
 - Ondersteuning voor gebruikers
 
 Microsoft Managed Desktop biedt een oplossing voor verschillende van de uitdagingen waarmee bedrijven en hun personeel vandaag de dag worden geconfronteerd:
 - De overgang naar de snelle wereld van software-as-a-service is lastig.
-- Eindgebruikers willen een krachtige, verbonden werkervaring.
+- Gebruikers willen een krachtige, verbonden werkervaring.
 - Veel van de huidige IT-beheer- en beveiligingsprocessen zijn verouderd, tijdrovend en duur.
 - Bedrijven willen zich concentreren op wat hen succesvol maakt, in plaats van het onderhouden van digitale infrastructuur.
 
-Uw eindgebruikers zullen genieten van de nieuwste versies van Windows 10 en Microsoft 365 Apps voor Ondernemingen (en meer), met apparaten en software die zijn gekozen en grondig zijn getest voor de beste prestaties en betrouwbaarheid. Bovendien hoeft u zich nooit zorgen te maken over het up-to-date houden van deze software, omdat dat automatisch gebeurt, volgens een zorgvuldige uitrolprocedure die stap voor stap wordt gevolgd. En geregistreerde apparaten worden 24x7 bewaakt op technische en beveiligingsproblemen, dus als er iets misgaat, is er hulp onderweg.
+Uw gebruikers zullen profiteren van de nieuwste versies van Windows 10 en Microsoft 365-apps voor ondernemingen (en meer), met apparaten en software die zijn gekozen en grondig zijn getest voor de beste prestaties en betrouwbaarheid. Bovendien hoeft u zich nooit zorgen te maken over het up-to-date houden van deze software, omdat dat automatisch gebeurt, volgens een zorgvuldige uitrolprocedure die stap voor stap wordt gevolgd. En geregistreerde apparaten worden 24x7 bewaakt op technische en beveiligingsproblemen, dus als er iets misgaat, is er hulp onderweg.
 
 
 ## <a name="unique-to-microsoft-managed-desktop"></a>Uniek voor Microsoft Managed Desktop
 
 Natuurlijk weerhoudt niets u ervan om uw eigen apparaten en Microsoft 365-implementaties zelf te verkrijgen en te beheren. Dus wat biedt Microsoft Managed Desktop nog meer?
 
-Ons beleid en onze beveiligingsfocus bieden uw eindgebruikers deze voordelen:
+Ons beleid en onze beveiligingsbasislijn bieden uw gebruikers deze voordelen:
 
 - Opstarttijden voor Microsoft Managed Desktop-apparaten nemen ongeveer een kwart van de tijd in beslag.
 - Ten minste tweemaal de batterijduur
@@ -56,7 +56,7 @@ Uw IT-beheerders profiteren van de volgende functies:
 ## <a name="device-management"></a>Apparaatbeheer
 Microsoft Managed Desktop neemt de last op zich van het beheren van geregistreerde apparaten en de Microsoft-software die ze gebruiken.
 
-- **Hardware:** in plaats van dat uw IT-afdeling apparaten (en hun stuurprogramma's) moet onderzoeken en testen, worden specifieke apparaten zorgvuldig getest door Microsoft Managed Desktop, wat resulteert in een samengestelde [lijst van apparaten](../service-description/device-list.md) die voldoen aan de prestatievereisten op bedrijfsniveau en die gegarandeerd werken met de service. U kunt apparaten zelf aanschaffen (of met een partner samenwerken), of apparaten die u al heeft opnieuw gebruiken, op voorwaarde dat ze op de goedgekeurde lijst staan. Apparaten registreren is eenvoudig en ongecompliceerd en voordat ze worden geïmplementeerd, kunt u ook bepaalde aspecten van de apparaatervaring [aanpassen](../working-with-managed-desktop/config-setting-overview.md) voor uw eindgebruikers.
+- **Hardware:** in plaats van dat uw IT-afdeling apparaten (en hun stuurprogramma's) moet onderzoeken en testen, worden specifieke apparaten zorgvuldig getest door Microsoft Managed Desktop, wat resulteert in een samengestelde [lijst van apparaten](../service-description/device-list.md) die voldoen aan de prestatievereisten op bedrijfsniveau en die gegarandeerd werken met de service. U kunt apparaten zelf aanschaffen (of met een partner samenwerken), of apparaten die u al heeft opnieuw gebruiken, op voorwaarde dat ze op de goedgekeurde lijst staan. Apparaten registreren is eenvoudig en duidelijk. Voordat ze worden geïmplementeerd, kunt u ook bepaalde aspecten van de apparaatervaring [aanpassen](../working-with-managed-desktop/config-setting-overview.md) voor uw gebruikers.
 - **Updates:** Microsoft Managed Desktop stelt alle aspecten van [implementatiegroepen](../service-description/updates.md) in en beheert deze voor kwaliteits- en functie-updates van Windows 10, stuurprogramma's, firmware, antivirusdefinities en updates van Microsoft 365 Apps voor Ondernemingen. Dit omvat uitgebreide testen en verificatie van alle updates, om ervoor te zorgen dat geregistreerde apparaten altijd up-to-date zijn en om verstoringen te minimaliseren, waardoor uw IT-afdeling van die doorlopende taak wordt bevrijd.
 - **Apps:** als onderdeel van Microsoft 365 Enterprise biedt (en beheert) Microsoft verschillende belangrijke Microsoft-apps voor u. Maar er zijn waarschijnlijk ook andere apps die u nodig heeft voor uw bedrijf. In plaats van dat uw IT-afdeling die apps moet testen, verpakken en implementeren, helpt Microsoft u bij het implementeren ervan en kan indien nodig helpen met [Desktop App Assure](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure). Meer informatie vindt u op [Apps in Microsoft Managed Desktop](../get-ready/apps.md).
 
@@ -71,7 +71,7 @@ We controleren ook de status van apparaten en geven inzicht in de prestaties van
 ## <a name="need-more-details"></a>Meer informatie nodig?
 Zie [Microsoft Managed Desktop](https://aka.ms/mmd) voor meer informatie over de waarde van Microsoft Managed Desktop, inclusief verhalen van klanten. Handige plaatsen om aan de slag te gaan zijn de [Wegwijzer](https://aka.ms/AA6jiam), een [Forrester Total Economic Impact-casestudy](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/intro/downloads/forrester-tei-study.pdf) en een downloadbare [samenvatting van één pagina](https://aka.ms/AA6ob3h). U vindt het laatste nieuws op de Microsoft Managed Desktop-[blog](https://aka.ms/AA6l2dd).
 
-Als Microsoft Managed Desktop geschikt lijkt voor uw organisatie, kunt u zich verdiepen in aanvullende documentatie die meer uitleg geeft over de service, hoe u uw organisatie kunt voorbereiden op de aanmelding, hoe u aan de slag kunt met de service en de doorlopende activiteiten erna, inclusief hoe u en uw gebruikers indien nodig gemakkelijk hulp kunnen krijgen. Als u klaar bent om aan boord te komen, neemt u contact op met uw [lokale accountteam](https://pages.email.office.com/contactmmd/).
+Als Microsoft Managed Desktop geschikt lijkt voor uw organisatie, kunt u zich verdiepen in aanvullende documentatie die meer uitleg geeft over de service, hoe u uw organisatie kunt voorbereiden op de registratie, hoe u aan de slag kunt met de service en de doorlopende activiteiten erna, inclusief hoe u en uw gebruikers gemakkelijk hulp kunnen krijgen, indien nodig. Als u klaar bent om aan boord te komen, neemt u contact op met uw [lokale accountteam](https://pages.email.office.com/contactmmd/).
 
 **Meer informatie en achtergrond** Deze onderwerpen zijn voornamelijk bedoeld voor technische en zakelijke besluitvormers en beschrijven de rolverdeling en verantwoordelijkheden tussen uw organisatie en Microsoft. Ze omvatten meer informatie over de technologieën die worden gebruikt in Microsoft Managed Desktop en hoe de service past in een bredere strategie als onderdeel van het ITIL-raamwerk.
 
@@ -90,9 +90,9 @@ Als Microsoft Managed Desktop geschikt lijkt voor uw organisatie, kunt u zich ve
 - [Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop](../get-ready/certs-wifi-lan.md)
 - [Apps in Microsoft Managed Desktop](../get-ready/apps.md)
 
-**Aan de slag** Zodra u klaar bent om u in te schrijven, bevat dit gedeelte de stappen die u moet volgen om u daadwerkelijk aan te melden bij de service, apparaten te verkrijgen en in te stellen, uw gebruikers voor te bereiden en apps te implementeren.
+**Aan de slag** Zodra u klaar bent om te registreren, bevat dit gedeelte de stappen die u moet volgen om u daadwerkelijk aan te melden bij de service, apparaten te verkrijgen en in te stellen, uw gebruikers voor te bereiden en apps te implementeren.
 
-- [Contactpersonen voor beheer toevoegen en verifiëren in de Beheerportal](../get-started/add-admin-contacts.md)
+- [Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal](../get-started/add-admin-contacts.md)
 - [Voorwaardelijke toegang aanpassen](../get-started/conditional-access.md)
 - [Licenties toewijzen](../get-started/assign-licenses.md)
 - [InTune-bedrijfsportal installeren op apparaten](../get-started/company-portal.md)
@@ -101,10 +101,10 @@ Als Microsoft Managed Desktop geschikt lijkt voor uw organisatie, kunt u zich ve
 - [Uw gebruikers voorbereiden om apparaten te gebruiken](../get-started/get-started-devices.md)
 - [Apps implementeren op apparaten](../get-started/deploy-apps.md)
 
-**Werken met Microsoft Managed Desktop** Dit gedeelte bevat informatie over uw dagelijkse omgang met de service, zoals hoe uw IT-beheerders indien nodig ondersteuning kunnen krijgen, hoe uw eindgebruikers ondersteuning krijgen, uw apps beheren zodra ze zijn geïmplementeerd en hoe u de aanpasbare instellingen op apparaten instelt.
+**Werken met Microsoft Managed Desktop** Dit gedeelte bevat informatie over uw dagelijkse omgang met de service, zoals hoe uw IT-beheerders, indien nodig, ondersteuning kunnen krijgen, hoe uw gebruikers ondersteuning krijgen, uw apps beheren zodra ze zijn geïmplementeerd en hoe u de aanpasbare instellingen op apparaten instelt.
 
 - [Ondersteuning voor beheerders voor Microsoft Managed Desktop](../working-with-managed-desktop/admin-support.md)
-- [Hulpinformatie opvragen voor gebruikers](../working-with-managed-desktop/end-user-support.md)
+- [Help-informatie opvragen voor gebruikers](../working-with-managed-desktop/end-user-support.md)
 - [Configureerbare instellingen - Microsoft Managed Desktop](../working-with-managed-desktop/config-setting-overview.md)
 
 
