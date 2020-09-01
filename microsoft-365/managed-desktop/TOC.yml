@@ -102,6 +102,8 @@
               href: get-started/project-visio.md
             - name: Nieuwe Microsoft Edge-apps
               href: get-started/edge-browser-app.md
+            - name: Microsoft 365-apps voor ondernemingen
+              href: get-started/m365-apps.md
     - name: Werken met Microsoft Managed Desktop
       href: working-with-managed-desktop/index.md
       items:
@@ -123,7 +125,7 @@
               href: working-with-managed-desktop/security-update-insights.md
         - name: Ondersteuning voor beheerders
           href: working-with-managed-desktop/admin-support.md
-        - name: Ondersteuning voor eindgebruikers
+        - name: Ondersteuning voor gebruikers
           href: working-with-managed-desktop/end-user-support.md
         - name: Apps beheren
           href: working-with-managed-desktop/manage-apps.md

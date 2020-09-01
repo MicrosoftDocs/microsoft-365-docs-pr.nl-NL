@@ -212,6 +212,8 @@
           href: manage/set-password-expiration-policy.md
         - name: Het startprogramma voor apps aanpassen
           href: manage/customize-the-app-launcher.md
+        - name: Apps vastmaken aan het startprogramma voor apps van gebruikers
+          href: manage/pin-apps-to-app-launcher.md
         - name: Gebruikers upgraden naar de nieuwste apps
           href: setup/upgrade-users-to-latest-office-client.md
         - name: Vereisten voor gecentraliseerde implementatie van invoegtoepassingen
@@ -220,6 +222,8 @@
           href: manage/manage-deployment-of-add-ins.md
         - name: Invoegtoepassingen beheren in het beheercentrum
           href: manage/manage-addins-in-the-admin-center.md
+        - name: Instellingen voor Office-scripts beheren
+          href: manage/manage-office-scripts-settings.md
         - name: Veelgestelde vragen over Gecentraliseerde implementatie
           href: manage/centralized-deployment-faq.md
         - name: Een partner of wederverkoper zoeken
@@ -293,7 +297,7 @@
           items:
             - name: Instellingen valideren op Android of iOS
               href: ../business/validate-settings-on-android-or-ios.md
-        - name: Instellingen voor apparaatbeveiliging instellen voor Windows 10-pc’s
+        - name: Beveiligingsinstellingen voor apparaten bewerken of maken voor Windows 10-pc’s
           href: ../business/protection-settings-for-windows-10-pcs.md
           items:
             - name: Instellingen valideren op Windows 10-pc's
