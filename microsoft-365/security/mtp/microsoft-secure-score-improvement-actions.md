@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: ab75e7ddbf3ada01c3f1247e58d8dc9472ecae77
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 3b913b3d53abf8c46fbcc9e053f91f512864c9d8
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866973"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315829"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Evalueer uw beveiligings Posture met Microsoft Secure Score
 
@@ -35,7 +35,7 @@ Voor de gegevens die u nodig hebt om sneller te kunnen werken, zijn Microsoft-ve
 
 * Identiteit (Azure Active Directory-accounts & rollen)
 * Gegevens (Microsoft-informatiebescherming)
-* Apparaat (Microsoft Defender ATP, oftewel [Configuration Score](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configuration-score))
+* Apparaat (Microsoft Defender ATP, genaamd [Microsoft Secure score voor apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
 * App (e-mail en Cloud-apps, waaronder Office 365 en de beveiligingsupdates van Microsoft Cloud apps)
 * Infrastructuur (geen stappen voor verbetering)
 
@@ -121,4 +121,4 @@ Als u problemen ondervindt, kunt u het ons laten weten dat u de community [bevei
 - [Overzicht van Microsoft Secure Score](microsoft-secure-score.md)
 - [De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken](microsoft-secure-score-history-metrics-trends.md)
 - [Binnenkort beschikbaar](microsoft-secure-score-whats-coming.md)
-- [Wat is er nieuw](microsoft-secure-score-whats-new.md)
+- [Nieuwe functies](microsoft-secure-score-whats-new.md)

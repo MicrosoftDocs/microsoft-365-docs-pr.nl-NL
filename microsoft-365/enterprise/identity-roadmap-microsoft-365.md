@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: De routekaart voor de identiteit van Microsoft 365.
-ms.openlocfilehash: 206d8598bab294e6ecb9502599e5530dd4942a59
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 2eae98d891672e9fc9adb68e1fee2426fe4934dd
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689561"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315797"
 ---
 # <a name="identity-roadmap-for-microsoft-365"></a>Identiteitskaart voor Microsoft 365
 
@@ -42,16 +42,16 @@ U kunt [deze poster ook downloaden](https://github.com/MicrosoftDocs/microsoft-3
 
 ## <a name="plan"></a>Abonnement
 
-In de planning fase van uw identiteits implementatie:
+Voor het plannen van uw identiteits implementatie:
 
 - [Meer informatie over de verschillende identiteits modellen](about-microsoft-365-identity.md)
 - [Hybrid Identity-en Directory synchronisatie plannen](plan-for-directory-synchronization.md)
 
 ## <a name="deploy"></a>Implementeren
 
-In de implementatiefase van uw identiteits implementatie:
+Uw identiteits implementatie implementeren:
 
-- [Uw globale beheerdersaccounts beveiligen](protect-your-global-administrator-accounts.md)
+- [Uw globale-beheerdersaccounts beveiligen](protect-your-global-administrator-accounts.md)
 - [Alleen Cloud identiteiten configureren en gebruiken](cloud-only-identities.md)
 - [Hybrid Identities configureren en gebruiken](prepare-for-directory-synchronization.md)
 - [Adreslijstsynchronisatie instellen](set-up-directory-synchronization.md)
@@ -59,14 +59,14 @@ In de implementatiefase van uw identiteits implementatie:
 
 ### <a name="identity-and-device-access-recommendations"></a>Aanbevelingen voor identiteiten en apparaattoegang
 
-Microsoft biedt een aantal aanbevelingen voor [identiteits- en apparaattoegang](microsoft-365-policies-configurations.md) om te zorgen dat uw personeel veilig en productief blijft. Gebruik voor identiteiten de aanbevelingen en instellingen in de volgende artikelen, samen met de stappen in deze fase:
+Microsoft biedt een aantal aanbevelingen voor [identiteits- en apparaattoegang](microsoft-365-policies-configurations.md) om te zorgen dat uw personeel veilig en productief blijft. Gebruik voor Identity de aanbevelingen en instellingen in deze artikelen:
 
 - [Vereisten](identity-access-prerequisites.md)
 - [Algemeen beleid voor identiteiten en apparaattoegang](identity-access-policies.md)
 
 ## <a name="manage"></a>Beheren
 
-In de beheer fase van uw identiteits implementatie:
+Uw identiteits implementatie beheren:
 
 - [Licenties toewijzen en gebruikersaccounts beheren](assign-licenses-to-user-accounts.md)
 - [Directory synchronisatie controleren](view-directory-synchronization-status.md)
@@ -83,9 +83,6 @@ Lees hoe IT-experts bij Microsoft [identiteiten en beveiligde toegang beheren](h
 
 Bekijk hoe Contoso Corporation, een fictieve maar representatieve multinational, [een hybride identiteitsinfrastructuur heeft geïmplementeerd](contoso-identity.md) voor Microsoft 365-cloudservices.
 
-![Contoso Corporation](../media/contoso-overview/contoso-icon.png)
-
 ## <a name="next-step"></a>Volgende stap
 
 Begin met het plannen van uw identiteit met [identiteits modellen](about-microsoft-365-identity.md).
-

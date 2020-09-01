@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: De routekaart voor het instellen van de cloudservices voor Microsoft 365.
-ms.openlocfilehash: 2b6b69f25888305232ba93d9d738319fe5137019
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 4e9630ad84b5e442f0c8fd6ab95ca9d0c48c780a
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689367"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315763"
 ---
 # <a name="cloud-services-roadmap-for-microsoft-365"></a>Cloud Services-wegwijzer voor Microsoft 365
 
@@ -28,11 +28,11 @@ Als u beschikt over bestaande implementaties voor Exchange, SharePoint of Skype 
 
 ## <a name="deploy"></a>Implementeren
 
-In de implementatiefase van de cloudservices:
+U implementeert de cloudservices als volgt:
 
 - [Uw services voorbereiden](configure-services-and-applications.md)
 - [Uw on-premises gegevens migreren naar Microsoft 365](migrate-data-to-office-365.md)
-- De cloudservices implementeren
+- De cloudservices instellen voor uw gebruikers
   - [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online)
   - [SharePoint Online](https://docs.microsoft.com/sharepoint/sharepoint-online)
   - [Skype voor Bedrijven](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
@@ -42,7 +42,7 @@ In de implementatiefase van de cloudservices:
 
 ## <a name="manage"></a>Beheren
 
-In de beheer fase van de cloudservices: 
+Uw cloudservices beheren: 
 
 - [De servicestatus controleren](view-service-health.md)
 - [Meer informatie over de ondersteuningsopties](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

@@ -15,12 +15,12 @@ ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
 description: De routekaart voor het instellen van Apparaatbeheer voor Microsoft 365.
-ms.openlocfilehash: 1c5a06c75ede11697e2ecf17c47eb035e78dcd27
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 1a1bdb449aa1d1ba12cf1de422b3e279df6c1376
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689180"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315739"
 ---
 # <a name="device-management-roadmap-for-microsoft-365"></a>Wegwijzer voor Apparaatbeheer voor Microsoft 365
 
@@ -47,17 +47,11 @@ Begin [hier](https://support.microsoft.com/office/set-up-basic-mobility-and-secu
  
 ## <a name="identity-and-device-access-recommendations"></a>Aanbevelingen voor identiteiten en apparaattoegang
 
-Microsoft biedt een aantal aanbevelingen voor [identiteits- en apparaattoegang](microsoft-365-policies-configurations.md) om te zorgen dat uw personeel veilig en productief blijft. Gebruik voor toegang tot apparaten de aanbevelingen en instellingen in de volgende artikelen, samen met de stappen in deze fase:
+Microsoft biedt een aantal aanbevelingen voor [identiteits- en apparaattoegang](microsoft-365-policies-configurations.md) om te zorgen dat uw personeel veilig en productief blijft. Gebruik voor toegang tot apparaten de aanbevelingen en instellingen in deze artikelen:
 
 - [Vereisten](identity-access-prerequisites.md)
 - [Algemeen beleid voor identiteiten en apparaattoegang](identity-access-policies.md)
 
-## <a name="how-microsoft-does-device-management-for-microsoft-365"></a>How Microsoft doet Apparaatbeheer voor Microsoft 365
-
-Meer informatie over hoe IT-experts op Microsoft [apparaten beheren met EMS](https://www.microsoft.com/itshowcase/deploying-and-managing-microsoft-365#primaryR8).
-
 ## <a name="how-contoso-did-device-management-for-microsoft-365"></a>Hoe contoso Apparaatbeheer voor Microsoft 365
 
 Bekijk de manier waarop Contoso Corporation, een fictief maar representatief Business-Business, [de infrastructuur voor mobiel Apparaatbeheer](contoso-mdm.md) en de cloudservices van microsoft 365.
-
-![Contoso Corporation](../media/contoso-overview/contoso-icon.png)

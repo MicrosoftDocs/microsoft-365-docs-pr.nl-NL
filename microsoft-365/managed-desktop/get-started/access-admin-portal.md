@@ -10,31 +10,54 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 420cdaabb607eacf0d7a7109827fe5437e2f999c
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 8a5de1673a7b67481c368c5c76444e817f237fe7
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530221"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315775"
 ---
 # <a name="access-the-admin-portal"></a>Toegang tot de beheerportal
 
-Uw gateway naar de Microsoft Managed Desktop-service is de Microsoft [Azure-portal](https://portal.azure.com). Zie de [Azure-portaldocumentatie](https://docs.microsoft.com/azure/azure-portal/)voor meer informatie over het gebruik en aanpassen van uw Azure-portalervaring in het algemeen. Nu beschikbaar in preview, u ook Microsoft Managed Desktop vinden in [Microsoft Endpoint Manager.](https://endpoint.microsoft.com/) Als u niet bekend bent met de mogelijkheden van deze portal voor apparaatbeheer, raadpleegt u de [documentatie van Microsoft Endpoint Manager](https://docs.microsoft.com/mem/).
+De gateway naar de Microsoft beheerde bureaublad service is de Microsoft [Azure-Portal](https://portal.azure.com). Zie de [documentatie van Azure Portal](https://docs.microsoft.com/azure/azure-portal/)voor meer informatie over het gebruiken en aanpassen van uw Azure Portal-ervaring. Nu beschikbaar in het voorbeeld kunt u Microsoft Managed Desktop ook vinden in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/). Als u niet bekend bent met de mogelijkheden van deze portal voor Apparaatbeheer, raadpleegt u de [documentatie Microsoft Endpoint Manager](https://docs.microsoft.com/mem/).
 
-Uw beheeraccount heeft specifieke machtigingen nodig om toegang te krijgen tot de Microsoft Managed Desktop Admin-portal. U de toegang van beheerders tot deze functies binnen uw organisatie beheren met behulp van Role-based Access Control (RBAC). Zie [Machtigingen administratorrol in Azure Active Directory voor](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)meer informatie over Azure Active Directory-rollen.
+Voor het beheren van de Microsoft beheerde bureaubladfuncties voor de beheerfuncties van Azure portal of Microsoft-eindpunten hebt u specifieke machtigingen nodig. U kunt beheerderstoegang tot deze functies binnen uw organisatie beheren via toegangsbeheer op basis van rollen (RBAC). Er zijn verschillende Azure AD-beheerdersrollen en ingebouwde aangepaste rollen beschikbaar voor een uitgebreidere controle over verschillende functies in de portal van de beheerde bureaublad beheerder. Zie [machtigingen voor beheerdersrollen in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)voor meer informatie over de functies van Azure Active Directory. In tegenstelling tot de beheerdersrollen die van toepassing zijn op diverse Microsoft-producten en-services, zijn aangepaste rollen specifiek voor Microsoft Managed Desktop en garanderen ze alleen toegang tot de beheerfuncties voor deze service. Beheerders kunnen aangepaste rollen aan gebruikers afzonderlijk of in combinatie met beheerdersrollen toewijzen om Microsoft beheerde bureaublad machtigingen toe te voegen aan bestaande beheerdersaccounts.
 
-Wijs uw beheerdersaccounts een van de volgende rollen toe om toegang te garanderen:
+Met de onderstaande rollen kunnen verschillende toegangsniveaus worden toegewezen:
 
-|Azure AD-rol  |Machtigingen voor Microsoft Managed Desktop  |
+|Functie Azure AD  |Beheerde Microsoft-bureaublad machtigingen  |
 |---------|---------|
-|Globale beheerder     | Beheerders met deze rol hebben **lees- en schrijfmachtigingen** voor alle functies in de Microsoft Managed Desktop Admin-portal.         |
-|Global Reader     | Beheerders met deze rol hebben **alleen-lezen machtigingen** voor alle functies in de Microsoft Managed Desktop Admin-portal.         |
-|Intune-servicebeheerder     |  Beheerders met deze rol hebben **lees- en schrijfmachtigingen** voor alle functies in de Microsoft Managed Desktop Admin-portal.       |
-|Beheerder van serviceondersteuning     | Beheerders met deze rol hebben **lees- en schrijfmachtigingen** voor alle functies in de Microsoft Managed Desktop Admin-portal.         |
+|Globale beheerder     | Beheerders die met deze rol werken, hebben **Lees-en schrijfmachtigingen** voor alle functies in de portal van Microsoft beheerde bureaubladbeheer.         |
+|Algemene lezer     | Beheerders met deze rol hebben **alleen-lezen machtigingen** voor alle functies in de Microsoft beheerde portal van de bureaublad beheerder.         |
+|InTune-service beheerder     |  Beheerders die met deze rol werken, hebben **Lees-en schrijfmachtigingen** voor alle functies in de portal van Microsoft beheerde bureaubladbeheer. **Wijziging:** De basis beheerders van september 2020 hebben geen toegang tot beveiligingsfuncties die door Microsoft worden beheerd op het bureaublad.       |
+|Service ondersteuningsbeheerder     | Beheerders die met deze rol werken, hebben **Lees-en schrijfmachtigingen** voor alle functies in de portal van Microsoft beheerde bureaubladbeheer. **Wijziging:** De basis beheerders van september 2020 hebben geen toegang tot beveiligingsfuncties die door Microsoft worden beheerd op het bureaublad.         |
+|Beveiligingsbeheerder | **(In Preview September 2020)** Beheerders met deze rol hebben alleen-lezen machtigingen voor alle functies en schrijfmachtigingen voor gerelateerde functies in Microsoft Managed desktop in de beheerportal. |
+|Beveiligings lezer | **(In Preview September 2020)**  Beheerders met deze rol hebben alleen-lezen machtigingen voor alle functies in de Microsoft beheerde portal van de bureaublad beheerder.|
 
 > [!IMPORTANT]
-> Alleen de rol Global Administrator heeft de benodigde machtigingen om uw organisatie in te *schrijven* in Microsoft Managed Desktop. Houd er rekening mee dat Azure Active Directory-rollen gebruikersaccounts bevoegdheden geven voor verschillende Microsoft-services. Nadat u de inschrijving bij Microsoft Managed Desktop hebt voltooid, moet u altijd de rol gebruiken met de *minste* bevoegdheden die nodig zijn om uw andere taken uit te voeren.
+> Alleen de rol van globale beheerder heeft de juiste machtigingen voor het *registreren* van uw organisatie in Microsoft Managed Desktop. Azure Active Directory-rollen bieden gebruikersaccounts bevoegdheden in diverse Microsoft-services. Wanneer u de registratie hebt voltooid met Microsoft Managed Desktop, dient u altijd de rol te gebruiken met de *minste* bevoegdheden die nodig zijn om uw andere taken uit te voeren.
+
+ 
+|Aangepaste rol  |Beheerde Microsoft-bureaublad machtigingen  |
+|---------|---------|
+|Microsoft beheerde bureaublad service beheerder  | **(In Preview September 2020)** Wanneer een gebruiker aan een gebruiker is toegewezen, biedt deze rol de beheerder **lees & schrijfmachtigingen voor functies die niet gerelateerd zijn aan beveiliging** in de Microsoft Managed Desktop-beheerportal.  |
+|Microsoft beheerde bureaublad service lezer | **(In Preview September 2020)** Wanneer de gebruiker aan een gebruiker is toegewezen, biedt deze rol de beheerder de **machtiging alleen-lezen voor functies die niet gerelateerd zijn aan de beveiliging** van de beheerde portal van de Microsoft-bureaublad beheerder. |
+|Microsoft beheerde bureaublad beveiligingsbeheer | **(In Preview September 2020)** Wanneer de gebruiker aan een gebruiker is toegewezen, biedt deze rol de beheerder **alleen & schrijfmachtigingen voor de beveiligingsfuncties** van de Microsoft beheerde bureaubladbeheer Portal.   |
+
+> [!NOTE]
+> De beveiligingsfuncties omvatten beveiligingskwesties, beheer van beveiligings contactpersonen, het beheer van beveiligingsaanvragen voor de beveiliging, en toegang tot gerelateerde rapporten. 
 
 ## <a name="assigning-roles-to-administrators"></a>Rollen toewijzen aan beheerders
 
-Zie [Machtigingen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)voor beheerdersrol in Azure Active Directory als u hulp nodig hebt bij het toewijzen van Azure Active Directory-rollen.
+Als u hulp nodig hebt bij het toewijzen van Azure Active Directory-rollen, raadpleegt u [machtigingen voor beheerdersrollen in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles).
+
+Voor een eenvoudig beheer van de ingebouwde rollen is een beveiligingsgroep gemaakt voor elke aangepaste rol (bijvoorbeeld ' rollen van modern Workplace-Security Manager '). Voer de volgende stappen uit als u gebruikers wilt toewijzen aan een van de beveiligingsgroepen:
+1.  Ga naar de Azure-Portal en ga naar de Azure Active Directory-Blade.
+2.  Selecteer groepen aan de linkerkant.
+3.  Zoek naar rollen voor moderne werkplekken en selecteer de groep die is gekoppeld aan de rol die u wilt toewijzen. 
+4.  Selecteer leden aan de linkerkant en selecteer vervolgens + leden toevoegen op de opdrachtbalk.
+5.  Voer het e-mailadres in van de persoon die wordt toegevoegd. Als ze een externe gebruiker zijn, moet u deze uitnodigen voordat u de groep kunt toewijzen.
+6.  Selecteer onderaan selecteren.
+
+> [!NOTE]
+> Het nesten van beveiligingsgroepen voor roltoewijzing wordt momenteel niet ondersteund. 

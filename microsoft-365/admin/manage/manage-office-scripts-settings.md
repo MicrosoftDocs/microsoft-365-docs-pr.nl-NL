@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Meer informatie over het beheren van de instellingen van Office-scripts voor gebruikers in uw organisatie.
-ms.openlocfilehash: 12a80f277f6d17a8e7f5228f6948e70b7a93be11
-ms.sourcegitcommit: 97ef8f846939c3d31bb0638edf07bb89463ace0b
+ms.openlocfilehash: 44e2a5c0e0577db344fdbb00a110674df3e71bdc
+ms.sourcegitcommit: 04f196528a7a91b404478553433af3fa94d7eee7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47300829"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47317491"
 ---
 # <a name="manage-office-scripts-settings"></a>Instellingen voor Office-scripts beheren
 
@@ -35,7 +35,7 @@ Met Office-scripts kunnen gebruikers taken automatiseren door scripts op te neme
 
     - Microsoft 365 Business Standard
     - Microsoft 365-apps voor bedrijven
-    - Microsoft 365-apps voor ondernemingen
+    - Microsoft 365 Apps voor ondernemingen
     - Office 365 E3
     - Office 365 E5
     - Office 365 a3
@@ -80,7 +80,7 @@ Met Office-scripts kunnen gebruikers taken automatiseren door scripts op te neme
 
 7. Kies **Opslaan**.
 
-    Het kan tot 48 uur duren voordat wijzigingen in de instellingen van het Office-script worden doorgevoerd.
+    Het kan tot 48 uur duren voordat de instellingen van Office-scripts van kracht worden.
 
 ## <a name="next-steps"></a>Volgende stappen
 

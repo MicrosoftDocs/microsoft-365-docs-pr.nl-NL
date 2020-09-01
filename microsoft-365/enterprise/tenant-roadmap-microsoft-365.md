@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: De routekaart voor het instellen van uw tenants voor Microsoft 365.
-ms.openlocfilehash: db7054d1f6afc7e4835507dc6415e0b240918c1f
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 540d1bc53ac06b85d22a8a60a62e51761e10339c
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689503"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315751"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>Tenant plattegrond voor Microsoft 365
 
@@ -30,7 +30,7 @@ Een goed geplande en uitgevoerde Tenant configuratie is essentieel voor het voor
 
 ## <a name="plan"></a>Abonnement
 
-In de planningsfase van de Tenant-implementatie:
+Voor het plannen van uw Tenant-implementatie:
 
 - [Meer informatie over abonnementen, licenties en Azure AD-tenants (Azure Active Directory)](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 - [Meer informatie over het gebruik van SSL-certificaten van derden](plan-for-third-party-ssl-certificates.md)
@@ -44,7 +44,7 @@ In de planningsfase van de Tenant-implementatie:
 
 ## <a name="deploy"></a>Implementeren
 
-In de implementatiefase van de Tenant implementatie [voegt u de DNS-domeinen](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) voor uw organisatie toe.
+Voor de implementatie van de Tenant [voegt u de DNS-domeinen](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) voor uw organisatie toe.
 
 ## <a name="tenants-with-multiple-geographic-locations"></a>Tenants met meerdere geografische locaties
 
@@ -52,7 +52,7 @@ Met Microsoft 365 multi-geo kan uw organisatie zijn Microsoft 365-aanwezigheid u
 
 [Ga](microsoft-365-multi-geo.md) aan de slag met inzicht in informatie, planning, configuratie en beheer met microsoft 365 multi-geo.
 
-## <a name="moving-a-tenants-geographic-locations"></a>De geografische locaties van een Tenant verplaatsen
+## <a name="move-a-tenants-geographic-locations"></a>De geografische locaties van een Tenant verplaatsen
 
 Microsoft gaat verder met het openen van nieuwe geografische locaties (GEOS) voor Microsoft 365-Services. Deze nieuwe datacenter GEOS voegt capaciteit toe en berekent bronnen voor de ondersteuning van de vraag en de gebruiks groei van de klant. Daarnaast biedt de nieuwe datacenter GEOS een in-geo data woonplaats voor de primaire klantgegevens.
 
