@@ -1,9 +1,9 @@
 ---
-title: Verbinding maken met alle Microsoft 365-services in één Windows PowerShell-venster
+title: Verbinding maken met alle Microsoft 365-services in een enkel PowerShell-venster
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/10/2020
+ms.date: 08/26/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -17,24 +17,22 @@ ms.custom:
 - O365ITProTrain
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
-description: 'Samenvatting: Verbind Windows PowerShell met alle Microsoft 365-services in één Windows PowerShell-venster.'
-ms.openlocfilehash: d4e4bf6ec07ee4a0a5b2f8cb1c83ffacd221eaa0
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: 'Samenvatting: verbinding maken met alle Microsoft 365-services in een enkel PowerShell-venster.'
+ms.openlocfilehash: af676434017cbe7025baa5e8509e6203a5d59674
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689304"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307623"
 ---
-# <a name="connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window"></a>Verbinding maken met alle Microsoft 365-services in één Windows PowerShell-venster
+# <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a>Verbinding maken met alle Microsoft 365-services in een enkel PowerShell-venster
 
-Wanneer u PowerShell gebruikt om Microsoft 365 te beheren, is het mogelijk om maximaal vijf verschillende Windows PowerShell-sessies tegelijkertijd open te hebben die overeenkomen met het Microsoft 365-beheercentrum, SharePoint Online, Exchange Online, Skype voor Bedrijven Online, Microsoft Teams en het Beveiligings- en compliancecentrum. Met vijf verschillende verbindingsmethoden in afzonderlijke Windows PowerShell-sessies kan het bureaublad er zo uitzien:
+Wanneer u PowerShell gebruikt om Microsoft 365 te beheren, is het mogelijk om meerdere Windows PowerShell-sessies tegelijkertijd open te hebben die overeenkomen met het beheren van gebruikersaccounts, SharePoint Online, Exchange Online, Skype voor Bedrijven Online, Microsoft Teams en het Beveiligings- &amp; en compliancecentrum. 
   
-![Vijf Windows PowerShell-consoles die tegelijk worden uitgevoerd](../media/a1a852c2-89ea-4e8e-8d8b-dcdf596763d1.png)
-  
-Dit is niet optimaal voor het beheer van Microsoft 365, omdat u geen gegevens kunt uitwisselen tussen die vijf vensters voor servicebeheer. In dit onderwerp wordt beschreven hoe u één instantie van Windows PowerShell gebruikt van waaruit u Microsoft 365-accounts, Skype voor Bedrijven Online, Exchange Online, SharePoint Online, Microsoft Teams en het Beveiligings- en compliancecentrum kunt beheren.
+Dit is niet optimaal voor het beheer van Microsoft 365, omdat u geen gegevens kunt uitwisselen tussen deze vensters voor servicebeheer. In dit onderwerp wordt beschreven hoe u één exemplaar van Windows PowerShell kunt gebruiken van waaruit u Microsoft 365-accounts, Skype voor Bedrijven Online, Exchange Online, SharePoint Online, Microsoft Teams en het Beveiligings- &amp;en compliancecentrum kunt beheren.
 
 >[!Note]
->Dit artikel bevat momenteel alleen de opdrachten om verbinding te maken met de wereldwijde (+GCC) cloud. Aanvullende notities bevatten koppelingen naar artikelen met informatie over het maken van verbinding met de andere Microsoft 365-clouds.
+>Dit artikel bevat momenteel alleen de opdrachten om verbinding te maken met de wereldwijde (+GCC) cloud. Notities bevatten koppelingen naar artikelen met informatie over het maken van verbinding met de andere Microsoft 365-clouds.
 >
 
 ## <a name="before-you-begin"></a>Voordat u begint
@@ -71,7 +69,7 @@ Voordat u Microsoft 365 vanuit één exemplaar van Windows PowerShell kunt beher
    - [Exchange Online PowerShell V2](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
    - [Overzicht van PowerShell voor Teams](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
     
--  Windows PowerShell moet worden geconfigureerd voor het uitvoeren van ondertekende scripts voor Skype voor Bedrijven Online en het Beveiligings- en compliancecentrum. U doet dit door de volgende opdracht uit te voeren in een Windows PowerShell-sessie met verhoogde bevoegdheden (een Windows PowerShell-venster dat u opent door **Als administrator uitvoeren** te selecteren).
+-  Windows PowerShell moet worden geconfigureerd voor het uitvoeren van ondertekende scripts voor Skype voor Bedrijven Online en het Beveiligings- &amp; en compliancecentrum. U doet dit door de volgende opdracht uit te voeren in een Windows PowerShell-sessie met een verhoogde bevoegdheid (een Windows PowerShell-venster dat u opent door **Als beheerder uitvoeren** te selecteren).
     
    ```powershell
    Set-ExecutionPolicy RemoteSigned
@@ -166,7 +164,7 @@ Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
 
-Als alternatief zijn hier alle opdrachten in één blok bij gebruik van de Microsoft Azure Active Directory-module voor Windows PowerShell. Geef de naam op van uw domeinhost en voer ze allemaal tegelijk uit.
+U ziet hier ook alle opdrachten in één blok bij gebruik van de Microsoft Azure Active Directory-module voor Windows PowerShell. Geef de naam op van uw domeinhost en voer ze allemaal tegelijk uit.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -184,7 +182,7 @@ Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
 
-Wanneer u klaar bent om het Windows PowerShell-venster te sluiten, voert u deze opdracht uit om de actieve sessies naar Skype voor Bedrijven Online, SharePoint Online, het Beveiligings- en compliancecentrum en Teams te verwijderen:
+Wanneer u gereed bent om het Windows PowerShell-venster te sluiten, voert u deze opdracht uit om de actieve sessies naar Skype voor Bedrijven Online, SharePoint Online, het Beveiligings- &amp; en compliancecentrum en Teams te verwijderen:
   
 ```powershell
 Remove-PSSession $sfboSession ; Remove-PSSession $SccSession ; Disconnect-SPOService ; Disconnect-MicrosoftTeams 
@@ -211,7 +209,7 @@ Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
 
-Als alternatief zijn hier alle opdrachten bij gebruik van de Microsoft Azure Active Directory-module voor Windows PowerShell.
+U ziet hier ook alle opdrachten bij gebruik van de Microsoft Azure Active Directory-module voor Windows PowerShell.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -237,4 +235,3 @@ Zie voor het Beveiligings- en compliancecentrum dit artikel over [het verbinding
 - [Verbinding maken met Microsoft 365 met PowerShell](connect-to-microsoft-365-powershell.md)
 - [SharePoint Online beheren met PowerShell](manage-sharepoint-online-with-microsoft-365-powershell.md)
 - [Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
-- [Windows PowerShell gebruiken om rapporten te maken in Microsoft 365](use-windows-powershell-to-create-reports-in-microsoft-365.md)

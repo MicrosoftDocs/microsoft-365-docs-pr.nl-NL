@@ -21,12 +21,12 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: Configuratieaanbevelingen voor het beveiligen van bestanden in Microsoft Teams.
-ms.openlocfilehash: d0c3d065da912c37ca21e6ea4300a30c5e7195b8
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: aea542d92e981e286062fc07b7e559b5f36427d4
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527800"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307725"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Teams met drie beschermingsniveaus configureren
 
@@ -42,11 +42,8 @@ De configuraties in dit artikel zijn in overeenstemming met de aanbevelingen van
 
 - Bescherming van zeer gevoelige gegevens
 
-Zie de volgende bronnen voor meer informatie over deze lagen en functionaliteiten voor elke laag.
+Voor meer informatie over deze lagen en aanbevolen functionaliteiten voor elke afzonderlijke laag, ga naar [Illustraties voor Microsoft Cloud voor Enterprise Architects](https://docs.microsoft.com/microsoft-365/solutions/cloud-architecture-models)
 
-- [Identity and Device Protection for Office 365](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#identity-and-device-protection-for-office-365) (Bescherming van identiteiten en apparaten in Office 365)
-
-- [File Protection Solutions in Office 365](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#file-protection-solutions-in-office-365) (Oplossingen voor bestandsbeveiliging in Office 365)
 
 ## <a name="three-tiers-at-a-glance"></a>Drie lagen in een oogopslag
 

@@ -17,12 +17,12 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 description: Deze Azure-beheerdersrollen beheren in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: afb025feb6e867b16be7a844a5f48ef42759b543
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: 2295a003fa73cb1805fad3231ff62b37930d0306
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898026"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289091"
 ---
 # <a name="azure-active-directory-roles-in-the-microsoft-365-admin-center"></a>Azure Activity Directory-rollen in het Microsoft 365-beheercentrum
 
@@ -62,6 +62,8 @@ Hieronder ziet u een lijst met alle beheerdersrollen die beschikbaar zijn in het
 |Groepsbeheerder   |Maakt groepen en beheert alle groepsinstellingen in beheercentra.|
 |Gast invite     |    Beheert uitnodigingen voor Azure Active Directory B2B-gastgebruikers.     |
 |Helpdesk-beheerder     | Stelt wachtwoorden opnieuw in en verifieert opnieuw voor alle niet-beheerders en sommige beheerdersrollen, beheert serviceaanvragen en bewaakt de servicestatus.      |
+|Insights-beheerder     | Beheert alle aspecten van de Microsoft 365 Insights-toepassing, leest Azure Active Directory-gegevens, kan de servicestatus controleren en serviceaanvragen maken en beheren.      |
+|Insights-bedrijfsbeheerder     | Lees rapporten en inzichten in de Microsoft 365 Insights-toepassing.      |
 |Intune-beheerder     | Volledige toegang tot intune, beheert gebruikers en apparaten om beleid te koppelen, maakt en beheert groepen.      |
 |Kaizala-beheerder     |    Volledige toegang tot alle Kaizala-beheerfuncties en -gegevens, beheert serviceaanvragen.     |
 |Licentiebeheerder     |     Wijst licenties toe en verwijdert deze van gebruikers en bewerkt hun gebruikslocatie.    |
