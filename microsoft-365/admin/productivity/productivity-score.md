@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Overzicht van Microsoft-productiviteits Score.
-ms.openlocfilehash: 47675f37e9146586b3fe0dd8d974887fd2435bf3
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: a7f6fc5fef9189f7478bcc67e1d24bdf037f561d
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307475"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324432"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Microsoft-productiviteits Score (preview)
 
@@ -40,9 +40,9 @@ We bieden gegevens, inzichten en aanbevelingen in twee gedeelten:
 
 - **Werknemers ervaring:** We meten de manier waarop mensen aan inhoud samenwerken, hoe ze Microsoft 365-producten gebruiken voor communicatie en of ze Microsoft 365 gebruiken op verschillende platforms. 
 
-    We bieden deze inzichten omdat ze online samenwerken, maar ze besparen tijd. Wanneer hij of zij de vrijheid is om op elk apparaat te werken, zijn ze productief en tevreden. Als ze op een flexibele manier kunnen communiceren, zijn ze efficiënter, vormen betere relaties en uw organisatie is uniform. Zie [Forrester Report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf)voor bewijzen.
+    We bieden deze inzichten omdat ze online samenwerken, maar ze besparen tijd. Met de vrijheid om op elk apparaat te werken, zijn ze productief en tevreden. Door een flexibele manier te communiceren, maakt u mensen efficiënter, maakt u betere relaties en uw organisatie samen. Zie [Forrester Report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf)voor bewijzen.
 
-- **Technologie ervaring:** De productiviteit is afhankelijk van betrouwbare en bedrijfsgebruikers en de efficiëntste versie van Microsoft 365. We bieden [eindpunts analyses](https://aka.ms/endpointanalytics), zodat u kunt zien hoe de productiviteit van uw gebruikers kan worden beïnvloed door de prestatie-en status problemen met uw eindpunttoewijzer en-software, terwijl de aanbevolen acties voor het herstel van de gebruikers worden uitgevoerd. en wij bieden Microsoft 365 Network Connectivity Insights voor uw organisatie.
+- **Technologie ervaring:** De productiviteit is afhankelijk van betrouwbare en bedrijfsgebruikers en de efficiëntste versie van Microsoft 365. We bieden [eindpunts analyses](https://aka.ms/endpointanalytics), zodat u kunt zien hoe de productiviteit van uw gebruikers kan worden beïnvloed door problemen met de prestaties en de status van uw eindpunttoewijzer en-software. We bieden ook aanbevolen acties om ze te herstellen en ook voor Microsoft 365 Network Connectivity Insights voor uw organisatie.
 
 Zie [Wat is Eindpunts analyse](https://docs.microsoft.com/mem/analytics/overview) voor een overzicht en de vereiste gegevens. Lees [het overzicht van netwerkverbinding](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview)voor meer informatie over microsoft 365 Network Connectivity Insights.
   
@@ -66,7 +66,7 @@ De productiviteits Score is gebaseerd op de gecombineerde cijfers van de categor
 
 Productiviteits Score bevat gegevens van Exchange, SharePoint, OneDrive, teams, Word, Excel, PowerPoint, OneNote, Outlook, Yammer en Skype.
 
-Uw score wordt dagelijks bijgewerkt en weerspiegelt de acties van gebruikers die zijn voltooid in de laatste 28 tot 180 dagen (inclusief de huidige dag).
+Uw score wordt dagelijks bijgewerkt en weerspiegelt de acties van gebruikers die zijn voltooid in de laatste 28 (inclusief de huidige dag).
 
 
 ## <a name="pre-requisites"></a>Vereisten 
@@ -111,15 +111,15 @@ Elke pagina met categorie Details toont de primaire inzichten en ondersteunings 
 
 ### <a name="content-collaboration-details"></a>Details van samenwerking aan inhoud
 
-De belangrijkste inzichten voor de samenwerking van inhoud is het aantal personen dat online maakt, lezen en samenwerken (bewerken en delen). Deze meetwaarden zijn belangrijk omdat onderzoek wordt getoond dat bij het samenwerken aan bestanden van gebruikers met online bestanden een gemiddelde van 100 minuten of bijna 2 uur per week wordt opgeslagen.
+De belangrijkste inzichten voor de samenwerking van inhoud is het aantal personen dat online maakt, lezen en samenwerken (bewerken en delen). Deze meetwaarden zijn belangrijk omdat onderzoek laat zien dat elke persoon een gemiddelde van bijna 2 uur per week opslaat.
 
-We definiëren de samenwerking van inhoud als één persoon die een Office-bestand maakt en deelt, en minstens één andere persoon die het bewerkt. 
+We definiëren de samenwerking van inhoud als één persoon die een Office-bestand maakt en deelt, en minstens één andere persoon het lezen. 
 
-Lezers: personen die online bestanden openen of downloaden in OneDrive of SharePoint.
+**Lezers**: personen die online bestanden openen of downloaden in OneDrive of SharePoint.
 
 **Makers:** Personen die online OneDrive-of SharePoint-bestanden maken, wijzigen, uploaden, synchroniseren, inchecken, kopiëren of verplaatsen.
 
-Medewerkers: personen die met online bestanden werken via OneDrive of SharePoint. Twee personen zijn medewerkers als ze een online Word-, Excel-, PowerPoint-, PowerPoint-of PDF-document met een andere persoon lezen of bewerken, nadat de andere persoon het document heeft gemaakt of gewijzigd, binnen een venster van 28 dagen.
+Medewerkers **: personen**die met online bestanden werken via OneDrive of SharePoint. Twee personen zijn medewerkers wanneer ze een online Office-app of een PDF-document met een online-app of een document bewerken nadat de andere persoon het document heeft gemaakt of gewijzigd, binnen een venster van 28 dagen.
 
 De bestandstypen die worden overwogen voor samenwerking zijn Word-, Excel-, PowerPoint-, OneNote-en PDF-bestanden.
 
@@ -127,7 +127,7 @@ We bieden inzichten aan de start tijden en kunnen instellen voor apparaten in uw
 
 ### <a name="communication-details"></a>Communicatiedetails
 
-Het belangrijkste inzicht in de communicatie is hoe vaak mensen in uw organisatie e-mail, chatberichten en community-berichten gebruiken om te communiceren. Dit inzicht is van belang omdat gebruikers een verscheidenheid aan realtime communicatieprogramma's gebruiken, kunnen ze de modus van communicatie selecteren waarmee ze de meeste efficiënt kunnen zijn en ze dan ook hulpmiddelen zoals chatten en community's bieden waarmee ze relaties tussen Office-locaties kunnen ontwikkelen.
+Het belangrijkste inzicht in de communicatie is hoe vaak mensen in uw organisatie e-mail, chatberichten en community-berichten gebruiken om te communiceren. Wanneer mensen een verscheidenheid aan realtime communicatieprogramma's gebruiken, kunnen ze de modus van communicatie kiezen waarmee ze de meeste efficiënt kunnen zijn, zoals chatten en community's, zodat ze relaties op Office-locaties kunnen ontwikkelen.
 
 ### <a name="mobility-details"></a>Mobiliteits gegevens
 
@@ -141,7 +141,7 @@ Het rapport bedrijfscontinuïteit is een tijdsbeperking voor het bedrijfscontinu
 
 Dit rapport helpt voor leidinggevenden op de hoogte: 
 
-- De werking van de werk dienst voor samenwerking en communicatie van invloed op op afstand. 
+- De manier waarop samenwerking en communicatie worden beïnvloed door de dienst voor extern werken. 
 
 - De invloed op de duur van het werk wanneer personen aanpassen aan het thuis werken. 
 

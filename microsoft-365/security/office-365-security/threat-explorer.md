@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het gebruik van de Verkenner en de real-time detectie van beveiligings &amp; compliance om bedreigingen effectiever en efficiënt te onderzoeken en te beantwoorden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 635f7f32d16f18f49aa1920d82efd77bf27dc328
-ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
+ms.openlocfilehash: 4220c850e5ef7f830f7fc6ec57bb220cca29eaf4
+ms.sourcegitcommit: 4ac96855d7c269a0055ca8943000b762a70ca4ba
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46641639"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47322014"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigings Verkenner en real-time ontdekken
 
@@ -30,7 +30,7 @@ Als uw organisatie [office 365 Advanced Threat Protection](office-365-atp.md) (O
 
 |Met ATP abonnement 2 ziet u het volgende:|Met ATP abonnement 1 ziet u het volgende:|
 |---|---|
-|![Bedreigings Verkenner](../../media/threatmgmt-explorer.png)|![Realtime detectie](../../media/threatmgmt-realtimedetections.png)|
+|![Bedreigings Verkenner](../../media/threatmgmt-explorer.png)|![Detecties in realtime](../../media/threatmgmt-realtimedetections.png)|
 |
 
 Met de Verkenner (of realtime detectie) hebt u een krachtig rapport waarmee uw beveiligingsactiviteiten team op hun eigen en efficiënte manier kunnen onderzoeken en beantwoorden. Het rapport is vergelijkbaar met de volgende afbeelding:
@@ -78,8 +78,39 @@ U moet ook aanvullende informatie binnen het product zien. Bijvoorbeeld het tota
 
 ![Info over product weergeven](../../media/ProductInfo.png)
 
+## <a name="extended-capabilities-in-threat-explorer"></a>Uitgebreide mogelijkheden in de bedreigings Verkenner
 
-## <a name="new-features-in-real-time-detections"></a>Nieuwe functies in real-time ontdekken
+### <a name="top-targeted-users"></a>Belangrijkste gerichte gebruikers
+
+De lijst met de belangrijkste gebruikers wordt nu weergegeven in de malware-weergave voor e-mailberichten (binnen de sectie belangrijkste Malware-families). Deze weergave wordt ook binnen phishing en alle e-mail weergaven uitgebreid, waar u de vijf beste bedoelende gebruikers kunt zien, samen met het aantal pogingen voor elke gebruiker voor de bijbehorende weergave (bijvoorbeeld voor de phishing-weergave).
+U kunt de lijst met gerichte gebruikers ook exporteren naar een limiet van 3000, samen met het aantal pogingen tot offline analyse voor elke e-mail weergave. U kunt ook Nee selecteren. met pogingen (met uitzonde maal 13 pogingen) opent u een gefilterde weergave in de bedreigings Verkenner, zodat u meer details kunt bekijken voor e-mailberichten en bedreigingen voor die gebruiker. 
+
+![Belangrijkste gerichte gebruikers](../../media/Top_Targeted_Users.png)
+
+
+### <a name="exchange-transport-rules"></a>Exchange-transportregels
+Als onderdeel van gegevens verrijking dient u ook alle verschillende transportregels te zien die zijn toegepast op een bericht. Deze informatie wordt weergegeven in de weergave voor het weergeven van de E-mail (als u dit wilt bekijken, selecteert u kolom opties in het raster en voegt u een Exchange-Transport regel toe via de kolom opties in het raster) en de flyout Details in het e-mailbericht.
+U kunt zowel de GUID als de naam van de transportregels zien die op het bericht zijn toegepast. U kunt ook zoeken naar de berichten met behulp van de naam van de transportregel. Dit is een ' contain '-zoekopdracht, wat betekent dat u kunt zoeken met gedeeltelijke zoekopdrachten. 
+
+#### <a name="important-note"></a>Belangrijke opmerking: 
+De ETR toe zoeken en de beschikbaarheid van namen is afhankelijk van de specifieke rol die aan u is toegewezen. U moet beschikken over een van de volgende rollen/machtigingen om de namen en zoekopdrachten van ETR toe te kunnen bekijken.  Als u niet beschikt over de volgende rollen die aan u zijn toegewezen, kunt u niet de namen van de transportregels zien en de naam van de berichten zoeken met behulp van de namen van de ETR toe. U kunt echter het ETR toe-label en de GUID-informatie in de e-mail gegevens zien. Uw andere ervaring rond het weergeven van records in e-mail rasters, e-mail flyout, filters en exporteren worden niet beïnvloed. 
+ 
+- Alleen EXO-preventie van gegevensverlies: alles
+- Alleen EXO: O365SupportViewConfig: all
+- AAD of EXO-beveiligingsbeheerder: alle
+- AAD of EXO-beveiligings lezer: alles
+- Alleen EXO-transport regels: alle
+- Alleen EXO-view-only Configuration: all
+
+In het raster, het detail menu van de e-mail en de geëxporteerde CSV-gegevens, worden de Etr's weergegeven met een naam/GUID zoals hieronder weergegeven. 
+
+![Exchange-Transport regels](../../media/ETR_Details.png)
+
+### <a name="inbound-connectors"></a>Binnenkomende connectors 
+
+Connectors zijn een verzameling instructies waarmee u de manier kunt wijzigen waarop uw e-mailberichten overlopen van en naar uw Microsoft 365-of Office 365-organisatie, en de mogelijkheid om beveiligingsbeperkingen of besturingselementen toe te passen. U kunt in de Threat Explorer nu de verbindingslijnen weergeven die zijn gerelateerd aan een e-mailbericht en zoeken naar e-mailberichten met de namen van de verbindingslijnen. De zoekfunctie van connectors is ' bevat ', wat betekent dat u ook gepaarde trefwoord zoekopdrachten werkt. In de hoofdweergave voor details, de vervolgkeuze info en de geëxporteerde CSV-indeling, worden de connectors weergegeven in de indeling naam/GUID, zoals hieronder wordt weergegeven: 
+
+![Details van connector](../../media/Connector_Details.png)
 
 ## <a name="new-features-in-threat-explorer-and-real-time-detections"></a>Nieuwe functies in de bedreigings Verkenner en de real-time detectie
 
@@ -294,4 +325,3 @@ Zie de volgende bronnen voor meer informatie over rollen en machtigingen:
 - U vindt meer filterfuncties en de beschikbare acties in de **Threat Explorer**.
 
 Zie het artikel over de [beschikbaarheid van functies in Office 365 ATP-service beschrijving](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)voor meer informatie.
-

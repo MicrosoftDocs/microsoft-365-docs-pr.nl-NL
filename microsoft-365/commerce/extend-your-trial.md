@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,18 +16,15 @@ ms.collection:
 - commerce
 ms.custom: AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 ms.assetid: 75533195-f1f6-4c2c-8ceb-0b5597790d7b
-description: Meer informatie over hoe u uw proefabonnement met nog eens 30 dagen verlengen.
-ms.openlocfilehash: 50f0548ddcd2eeef36a853cfb08b279cee8095a9
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Leer hoe u uw proefabonnement verlengt voor een andere periode van 30 dagen.
+ms.openlocfilehash: c1c4134f944b07b177a92e03fc3e5ba2d9b362ef
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402152"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324314"
 ---
 # <a name="extend-your-trial"></a>Uw proefabonnement verlengen
 
@@ -38,24 +35,21 @@ ms.locfileid: "44402152"
 
 ::: moniker-end
 
-Heeft u meer tijd nodig om de functies van Microsoft 365 voor bedrijven uit te proberen voordat u koopt? Als uw proefabonnement binnen vijftien dagen afloopt en het proefabonnement voor die datum nog niet is verlengd, kunt u het proefabonnement met dertig dagen verlengen. Dit is slechts één keer mogelijk.
+Hebt u meer tijd nodig om de functies van Microsoft 365 voor bedrijven uit te proberen voordat u ze koopt? Als uw proefabonnement binnen vijftien dagen afloopt en het proefabonnement voor die datum nog niet is verlengd, kunt u het proefabonnement met dertig dagen verlengen. Dit is slechts één keer mogelijk.
 
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
-
-2. Zoek op de pagina **Uw producten** het proefabonnement dat u wilt verlengen. Selecteer in de sectie **Instellingen & Acties** de optie Proef **verlengen**.
-
-3. Bekijk de extensiegegevens en wijzig indien nodig uw betalingsmethode. Wanneer u klaar bent, selecteert u **De proef verlengen**.
+2. Selecteer op het tabblad **Products** het proefabonnement dat u wilt verlengen. 
+3. Selecteer op de pagina Details van abonnement in de sectie **Abonnementen en betalings instellingen** de optie **einddatum verlengen**.
+4. Controleer de gegevens van de toestel in het deelvenster **einddatum verlengen** en Selecteer indien nodig een betalingswijze. Wanneer u klaar bent, selecteert u **proefabonnement verlengen**.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
-
-2. Selecteer **op** de pagina Abonnementen het proefabonnement dat u wilt verlengen en selecteer vervolgens onder de vervaldatum **De optie Proef verlengen.**
-
+2. Selecteer op de pagina **abonnementen** het proefabonnement dat u wilt verlengen en selecteer vervolgens onder de verloopdatum de optie **proefabonnement verlengen**.
 3. Voltooi de stappen in de wizard.
 
 ::: moniker-end
@@ -63,11 +57,9 @@ Heeft u meer tijd nodig om de functies van Microsoft 365 voor bedrijven uit te p
 ::: moniker range="o365-21vianet"
 
 1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
-
-2. Selecteer **op** de pagina Abonnementen het proefabonnement dat u wilt verlengen en selecteer vervolgens onder de vervaldatum **De optie Proef verlengen.**
-
+2. Selecteer op de pagina **abonnementen** het proefabonnement dat u wilt verlengen en selecteer vervolgens onder de verloopdatum de optie **proefabonnement verlengen**.
 3. Voltooi de stappen in de wizard.
 
 ::: moniker-end
 
-Zie [Uw proefversie kopen](buy-a-subscription-from-your-free-trial.md)als u klaar bent om te kopen.
+Als u klaar bent om te kopen, raadpleegt u [de proefversie kopen](buy-a-subscription-from-your-free-trial.md).
