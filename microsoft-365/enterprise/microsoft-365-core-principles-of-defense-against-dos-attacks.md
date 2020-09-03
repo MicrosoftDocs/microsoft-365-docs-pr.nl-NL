@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 core-principes van verdediging tegen Denial-in-service-aanvallen
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -15,14 +15,14 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Hoe Microsoft gebruikmaakt van de kern beginselen van absorptie, detectie en vermindering van de verdediging tegen een denial-of-service (DoS)-aanval.
-ms.openlocfilehash: b04ec717f7c97e44c6ed4011156666e8c27f06c0
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: fb3446570dd8e99ccdb3005a6a7c90ca90a81aee
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689151"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331906"
 ---
-# <a name="core-principles-of-defense-against-denial-of-service-attacks"></a>Kern beginselen van de bescherming tegen Denial-in-service aanvallen
+# <a name="core-principles-of-defense-against-denial-of-service-attacks"></a>Belangrijke principes van bescherming tegen denial-of-service-aanvallen
 
 De drie belangrijkste principes voor het verdedigen van bescherming tegen een netwerk, zijn absorptie, detectie en beperking. Absorptie vindt plaats vóór de detectie, en er vindt een detectie plaats vóór de beperking. Absorptie is de beste verdediging tegen een DoS-aanval. Als de aanval niet kan worden gedetecteerd, kan deze niet worden beperkt. Maar indien zelfs de kleinste aanval niet kan worden geabsorbeerd, blijven de services niet lang genoeg genoeg totdat de aanval wordt gedetecteerd.
 

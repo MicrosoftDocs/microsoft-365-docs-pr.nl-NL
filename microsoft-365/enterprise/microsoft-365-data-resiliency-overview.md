@@ -1,7 +1,7 @@
 ---
 title: Gegevens tolerantie in Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: In dit artikel vindt u meer informatie over het ontwerp en de beginselen van gegevens tolerantie en herstel in Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a0e6ca643fe9842a71102fbabd3c05324ba52b70
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 2474417100c68139c53d71e6031bbbe13b994677
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689139"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331882"
 ---
 # <a name="data-resiliency-in-microsoft-365"></a>Gegevens tolerantie in Microsoft 365
 
@@ -52,7 +52,7 @@ Door het maken van onze cloudservices aan deze principes, met krachtige testen e
 
 ## <a name="related-links"></a>Verwante koppelingen
 
-- [Omgaan met gegevensbeschadiging](microsoft-365-dealing-with-data-corruption.md)
-- [Malware en Ransomware-beveiliging](microsoft-365-malware-and-ransomware-protection.md)
-- [Volgen en zelfherstel](microsoft-365-monitoring-and-self-healing.md)
+- [Omgaan met gegevenscorruptie](microsoft-365-dealing-with-data-corruption.md)
+- [Malware en bescherming tegen ransomware](microsoft-365-malware-and-ransomware-protection.md)
+- [Controle en zelfherstel](microsoft-365-monitoring-and-self-healing.md)
 - [Gegevens tolerantie Exchange](microsoft-365-exchange-data-resiliency.md)

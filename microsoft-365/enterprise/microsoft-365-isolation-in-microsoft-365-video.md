@@ -1,7 +1,7 @@
 ---
 title: Tenant isolatie in Office 365 video
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: In dit artikel vindt u een beschrijving van de manier waarop de afzonderlijke Video's van de Tenant in Office 365 video worden bewaard.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3f46812bb2bf9432252c2de6bb46fbb47cb71221
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 626a995fc5a3ac971c48cc87bec1017134e87b88
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689279"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332242"
 ---
 # <a name="tenant-isolation-in-office-365-video"></a>Tenant isolatie in Office 365 video
 

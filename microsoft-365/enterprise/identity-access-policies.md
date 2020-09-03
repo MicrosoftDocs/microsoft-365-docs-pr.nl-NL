@@ -1,6 +1,6 @@
 ---
 title: Gangbare beleidsregels voor identiteit en Apparaattoegang-Microsoft 365 for Enterprise | Microsoft docs
-description: Een beschrijving van de beleidsregels voor Microsoft aanbevelingen voor het toepassen van beleidsregels en configuraties voor identiteiten en apparaten.
+description: Een beschrijving van de aanbevolen beleidsregels en configuraties voor het openen van identiteiten en apparaten.
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: Laurawi
@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 699bc04c8e286c004e1f47ae6825ae311434d9cb
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: 9819c161cc421117730cb4c58d1db06859125476
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898114"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332095"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Algemeen beleid voor identiteiten en apparaattoegang
 In dit artikel wordt het aanbevolen beleid beschreven voor de beveiliging van de toegang tot cloudservices, waaronder on-premises toepassingen die zijn gepubliceerd met de Azure AD-toepassings proxy. 
@@ -32,8 +32,8 @@ In deze richtlijnen wordt uitgelegd hoe u de aanbevolen beleidsregels implemente
 
 In het volgende diagram wordt de aanbevolen set beleidsregels getoond. In dit voorbeeld wordt aangegeven welke beveiligings bescherming elk beleid van toepassing is en of het beleid van toepassing is op Pc's of telefoons en tablets, of op beide soorten apparaten. Ook wordt aangegeven waar dit beleid is geconfigureerd.
 
-[ ![ Veelgebruikte beleidsregels voor het configureren van de identiteit en Apparaattoegang bieden](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png) 
- [een grotere versie van deze afbeelding weer](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
+[ ![ Veelgebruikte beleidsregels voor het configureren van de identiteit en Apparaattoegang bieden](../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) 
+ [een grotere versie van deze afbeelding weer](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
 
 In de rest van dit artikel wordt uitgelegd hoe u deze beleidsregels configureert. 
 
@@ -63,13 +63,13 @@ U wordt geadviseerd een Azure AD-groep te maken voor de uitsluiting van voorwaar
 
 Het volgende diagram bevat een voorbeeld van gebruikers opdrachten en uitsluitingen.
 
-![Voorbeeld van gebruikerstoewijzing en uitsluitingen van MFA-regels](../media/identity-access-policies-assignment.png)
+![Voorbeeld van gebruikerstoewijzing en uitsluitingen van MFA-regels](../media/microsoft-365-policies-configurations/identity-access-policies-assignment.png)
 
 In de afbeelding het ' belangrijkste Secret Project X team ' is een beleid voor voorwaardelijke toegang toegewezen waarvoor MFA *altijd*is vereist. Wees zorgvuldig wanneer u een hoger beveiligingsniveau toepast voor gebruikers. Leden van dit projectteam dienen twee soorten verificatie te bieden telkens wanneer ze zich aanmelden, ook als ze geen sterk gereguleerde inhoud weergeven.  
 
-Alle Azure AD-groepen die als onderdeel van deze aanbevelingen zijn gemaakt, moeten worden gemaakt als Microsoft 365-groepen. Dit is vooral belangrijk voor de implementatie van Azure Information Protection (beheerders) bij het beveiligen van documenten in SharePoint Online.
+Alle Azure AD-groepen die als onderdeel van deze aanbevelingen zijn gemaakt, moeten worden gemaakt als Microsoft 365-groepen. Dit is vooral belangrijk voor de implementatie van tekstlabels bij het beveiligen van documenten in SharePoint Online.
 
-![Schermafbeelding van het maken van Microsoft 365-groepen](../media/identity-device-AAD-groups.png)
+![Schermafbeelding van het maken van Microsoft 365-groepen](../media/microsoft-365-policies-configurations/identity-device-AAD-groups.png)
 
 
 ## <a name="require-mfa-based-on-sign-in-risk"></a>MFA vereisen op basis van aanmeldings risico
@@ -289,7 +289,7 @@ De volgende instellingen worden aanbevolen voor Windows 10.
 ||Wachtwoord verloopt (dagen)|41||
 ||Aantal eerdere wachtwoorden om hergebruik te voorkomen|vijf||
 ||Wachtwoord vereisen wanneer het apparaat niet-actief is (mobiele en Holographic)|Dient|Beschikbaar voor Windows 10 en nieuwere versies|
-|Sleutel|Versleuteling van gegevensopslag op apparaat|Dient||
+|Versleuteling|Versleuteling van gegevensopslag op apparaat|Dient||
 |Beveiliging van apparaten|Blokkeert|Dient||
 ||Antivirussoftware|Dient||
 ||Programma's|Dient|Voor deze instelling is een anti spyware-oplossing vereist die is geregistreerd met Windows Beveiligingscentrum|

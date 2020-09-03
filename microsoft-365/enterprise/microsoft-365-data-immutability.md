@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 data Immutability
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Meer informatie over hoe Microsoft 365 gegevens bewaart in het herstelbare formulier om reglementaire compliance, interne governance-vereisten en geschillen Risico's te behouden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2c070eea4498aca89d7cdb8fea233d9b9596491a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: ce3b3f0f5036ab76be714747d7e95fe86139dd75
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689150"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331918"
 ---
 # <a name="immutability-in-microsoft-365"></a>Immutability in Microsoft 365
 

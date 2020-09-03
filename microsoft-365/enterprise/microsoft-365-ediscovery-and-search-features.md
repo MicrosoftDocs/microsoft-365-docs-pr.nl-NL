@@ -1,7 +1,7 @@
 ---
 title: Overzicht van Microsoft 365 eDiscovery en zoekfuncties
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Een overzicht van de eDiscovery-functie en andere zoekfuncties in Microsoft 365 voor controle gebruik en transparantie.
-ms.openlocfilehash: 6a30e1aa687807d61b788bd75fcc63129ff0aa0b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: ea7b221ab8fe2ff41d089bb344d2dce58002d0f5
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689393"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331857"
 ---
 # <a name="microsoft-365-ediscovery-and-search-features-overview"></a>Overzicht van Microsoft 365 eDiscovery en zoekfuncties 
 
@@ -48,7 +48,7 @@ In de volgende tabel vindt u een overzicht van de informatie die wordt weergegev
 | ClientIP | IPv4-of IPv6-adres van het apparaat dat bij het registreren van de activiteit is gebruikt. |
 | CreationTime | De datum en tijd in Coordinated Universal Time (UTC) toen de gebruiker de activiteit uitvoerde. |
 | Source | Hiermee wordt aangegeven dat er een gebeurtenis heeft plaatsgevonden. Mogelijke waarden zijn SharePoint en ObjectModel. |
-| -ID | ID van het rapportitem. De ID heeft een unieke aanduiding voor het rapport. |
+| ID | ID van het rapportitem. De ID heeft een unieke aanduiding voor het rapport. |
 | Opdracht | Naam van de gebruiker of activiteit, die overeenkomt met de waarde die is geselecteerd in de weergave resultaten van deze gebruikersactiviteit. |
 | OrganizationId | GUID voor de Microsoft 365-service van de organisatie waarbij de gebeurtenis plaatsvond. |
 | User | Informatie over de browser van de gebruiker, weergegeven in de browser. |

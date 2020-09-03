@@ -1,7 +1,7 @@
 ---
 title: Gegevensretentie, verwijdering en vernietiging in Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Een overzicht van Microsoft-beleidsregels voor Microsoft 365 met betrekking tot gegevens behoud, verwijdering en vernietiging.
-ms.openlocfilehash: c522c1a1a4de46a4fc36bd87a031be8b47c5523d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 9708ed618528ce0ad5ef8656a85ffd4311395deb
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689138"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331894"
 ---
 # <a name="data-retention-deletion-and-destruction-in-microsoft-365"></a>Gegevensretentie, verwijdering en vernietiging in Microsoft 365
 
@@ -53,8 +53,8 @@ Zie [uw abonnement opzeggen](https://docs.microsoft.com/microsoft-365/commerce/s
 
 ## <a name="related-links"></a>Verwante koppelingen
 
-- [Gegevens vernietiging](microsoft-365-data-destruction.md)
+- [Gegevensvernietiging](microsoft-365-data-destruction.md)
 - [Immutability in Office 365](microsoft-365-data-immutability.md)
-- [Gegevens uit Exchange Online verwijderen](microsoft-365-exchange-online-data-deletion.md)
-- [Gegevens verwijderen uit SharePoint Online](microsoft-365-sharepoint-online-data-deletion.md)
-- [Gegevens uit Skype voor bedrijven verwijderen](microsoft-365-skype-data-deletion.md)
+- [Exchange online gegevensverwijdering](microsoft-365-exchange-online-data-deletion.md)
+- [SharePoint online gegevensverwijdering](microsoft-365-sharepoint-online-data-deletion.md)
+- [Skype voor bedrijven gegevensverwijdering](microsoft-365-skype-data-deletion.md)

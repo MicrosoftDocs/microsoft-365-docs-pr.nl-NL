@@ -1,7 +1,7 @@
 ---
 title: Ondersteuning voor Microsoft 365-client apps – eenmalige aanmelding
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: In dit artikel vindt u informatie over welke platforms, clients en PowerShell-modules eenmalige aanmelding voor Microsoft 365 ondersteunen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0171e277d6072515e7fe0ca8ede8b8005ad8fe2
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 8ab973fcfb0cc61378ee06c115264e308d8ec3ad
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689158"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332002"
 ---
 # <a name="microsoft-365-client-app-support--single-sign-on"></a>Ondersteuning voor Microsoft 365-client apps – eenmalige aanmelding
 

@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: Ent_Solutions
 ms.assetid: 91266aac-4d00-4b5f-b424-86a1a837792c
 description: 'Overzicht: Configureer de Microsoft Azure-infrastructuur voor het hosten van hoge beschikbaarheid federatieve authenticatie voor Microsoft 365.'
-ms.openlocfilehash: a99259e8c60346665f76aeba3a8a440e0f9061f0
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d2a9fe3c31468cd53576a82639e0e61901192d8e
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689462"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332338"
 ---
 # <a name="high-availability-federated-authentication-phase-1-configure-azure"></a>Federatieve authenticatiefase van hoge beschikbaarheid 1: Azure configureren
 
@@ -57,7 +57,7 @@ Voor de eerste drie subnetten geeft u een naam en een enkele IP-adresruimte op o
     
 2. Zet de resultaten van de omliggende bits om in decimalen en druk deze als een adresruimte met de lengte van het voorvoegsel in op de grootte van het gateway subnet.
     
-Zie de Adresboek tijdtoren [voor Azure gateway-subnetten](https://gallery.technet.microsoft.com/scriptcenter/Address-prefix-calculator-a94b6eed) voor een PowerShell-opdrachten blok en C#-of python-consoletoepassing waarmee deze berekening wordt uitgevoerd.
+Zie de Adresboek tijdtoren [voor Azure gateway-subnetten](address-space-calculator-for-azure-gateway-subnets.md) voor een PowerShell-opdrachten blok en C#-of python-consoletoepassing waarmee deze berekening wordt uitgevoerd.
   
 Werk samen met uw IT-afdeling om te bepalen welke adresruimten de virtuele netwerklocatie van het adres heeft.
   
@@ -314,7 +314,7 @@ Gebruik [fase 2: configureer domeincontrollers](high-availability-federated-auth
   
 [Federatieve identiteit voor uw Microsoft 365 dev/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
-[Microsoft 365-oplossingen- en -architectuurcentrum](../solutions/solution-architecture-center.md)
+[Microsoft 365-oplossings- en architectuurcentrum](../solutions/solution-architecture-center.md)
 
 [Informatie over Microsoft 365 identiteit en Azure Active Directory](about-microsoft-365-identity.md)
 
