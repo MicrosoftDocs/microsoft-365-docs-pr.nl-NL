@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,19 +18,15 @@ ms.custom:
 - SaRA
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-- GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
-description: 'Meer informatie over het verlengen van uw Microsoft 365 voor bedrijven-abonnement met een productcode en het in- en uitschakelen van terugkerende facturering. '
-ms.openlocfilehash: 8dd9697f95e238ff759b90b1fef7544be9196c85
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lees hoe u uw Microsoft 365 kunt verlengen door terugkerende facturering uit of in te schakelen.
+ms.openlocfilehash: 1bf6d3957479d1cb695075e139dc4af2a09db3df
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403220"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324302"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Microsoft 365 voor bedrijven verlengen
 
@@ -57,18 +53,15 @@ Als u vooraf voor uw abonnement hebt betaald met een productcode, verloopt uw ab
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
-
-2. Kies het abonnement waarvan u de terugkerende facturering wilt beheren.
-
-3. Selecteer onder **Facturering**, naast **Wordt verlengd op** of **Verloopt op**, de optie **Bewerken**.
-
-4. Schakel in het deelvenster **Terugkerende factureringsinstellingen** **Uitschakelen** om het uit te schakelen. Als terugkerende facturering al is uitgeschakeld, selecteert u **Maandelijks** of **Eenmaal** om deze in te schakelen.
-
-5. Selecteer **Wijziging verzenden**.
+2. Selecteer het abonnement waarvan u de terugkerende facturering wilt beheren.
+3. Selecteer op de pagina Abonnementsgegevens onder **Instellingen voor abonnementen en betalingen**, **Terugkerende facturering bewerken**.
+4. In het deelvenster **Terugkerende facturering bewerken** selecteert u **Aan**, **Aan, met eenmaal verlengen**of **Uitschakelen**.
+5. Selecteer **Opslaan**.
 
     > [!NOTE]
     > - U kunt **Terugkerende facturering** alleen in- of uitschakelen als uw abonnement de status Actief heeft. Als uw abonnement is verlopen of uitgeschakeld, moet u [het opnieuw activeren](reactivate-your-subscription.md) voordat u **Terugkerende facturering** kunt in- of uitschakelen.
-    > - Wanneer **Terugkerende facturering** is uitgeschakeld, wordt het abonnement niet direct opgezegd. Het blijft actief totdat het verloopt. U kunt de vervaldatum bekijken in het gedeelte **Facturering** van de abonnementsgegevens op de pagina **Mijn producten**.
+    > - Wanneer **Terugkerende facturering** is uitgeschakeld, wordt het abonnement niet opgezegd. Als u het abonnement actief wilt houden, moet u de factuur handmatig betalen.
+    > - Als u **Terugkerende facturering** uitschakelt, blijft het abonnement actief totdat het verloopt. U kunt de verloopdatum bekijken op de pagina met Abonnementsgegevens in de sectie **Instellingen voor abonnementen en betalingen**.
     > - Zie [Mijn abonnement opzeggen](cancel-your-subscription.md) voor meer informatie over het direct opzeggen van een abonnement.
 
 ::: moniker-end
