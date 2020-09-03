@@ -297,7 +297,7 @@
           items:
             - name: Instellingen valideren op Android of iOS
               href: ../business/validate-settings-on-android-or-ios.md
-        - name: Beveiligingsinstellingen voor apparaten bewerken of maken voor Windows 10-pc’s
+        - name: Beveiligingsinstellingen voor apparaten bewerken of maken voor Windows 10-pc's
           href: ../business/protection-settings-for-windows-10-pcs.md
           items:
             - name: Instellingen valideren op Windows 10-pc's
