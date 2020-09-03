@@ -18,12 +18,12 @@ ms.locfileid: "47289433"
 ---
 # <a name="working-with-microsoft-managed-desktop"></a>Werken met Microsoft Managed Desktop
 
-Deze sectie bevat informatie over uw dagelijkse interactie met de service, zoals hoe uw IT-beheerders, indien nodig, ondersteuning kunnen krijgen, hoe uw gebruikers ondersteuning krijgen, hoe u uw apps beheert na implementatie en hoe u de aanpasbare instellingen op apparaten instelt.
+Deze sectie bevat informatie over uw dagelijkse interactie met de service, zoals hoe uw IT-beheerders eventueel ondersteuning kunnen krijgen, hoe uw gebruikers ondersteuning krijgen, hoe u uw apps beheert na implementatie en hoe u de aanpasbare instellingen op apparaten instelt.
 
 
 - [Werken met inzichten](insights.md)
 - [Ondersteuning voor beheerders voor Microsoft Managed Desktop](admin-support.md)
-- [Help-informatie opvragen voor gebruikers](end-user-support.md)
+- [Hulp aanvragen voor gebruikers](end-user-support.md)
 - [Line-Of-Business-apps beheren in Microsoft Managed Desktop](manage-apps.md)
 - [App-bediening](../service-description/app-control.md)
 - [Configureerbare instellingen - Microsoft Managed Desktop](config-setting-overview.md)

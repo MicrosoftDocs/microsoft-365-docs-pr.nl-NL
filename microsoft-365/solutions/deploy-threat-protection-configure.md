@@ -13,12 +13,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: fb1290a0f0b884fdbc630cbfcd10cd1102c8acae
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: a5f3f93ad70210143cbe774c2a4e96542b1cfd34
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597507"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332674"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Functies voor bedreigingsbeveiliging configureren in Microsoft 365
 
@@ -32,12 +32,12 @@ Voor [multi-factor Authentication](https://docs.microsoft.com/azure/active-direc
 Microsoft heeft een specifieke set voorwaardelijke toegang en gerelateerde beleidsregels getest voor de bescherming van de toegang tot alle SaaS-toepassingen, met name Microsoft 365. Beleidsregels worden aanbevolen voor basislijn-, gevoelige en sterk gereguleerde bescherming. Begin met het implementeren van de beleidsregels voor basisbescherming. 
 
 
-[ ![ Veelgebruikte beleidsregels voor het configureren van de identiteit en Apparaattoegang bieden](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png) 
- [een grotere versie van deze afbeelding weer](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
+[ ![ Veelgebruikte beleidsregels voor het configureren van de identiteit en Apparaattoegang bieden](../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) 
+ [een grotere versie van deze afbeelding weer](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
 
 ### <a name="to-implement-baseline-protection-for-microsoft-365"></a>Basislijn beveiliging voor Microsoft 365 implementeren
 
-![Proces voor de implementatie van functies voor bedreigingsbeveiliging](../media/solutions-architecture-center/deploy-threat-protection-identity-access-steps.png) 
+![Basisbeginselen voor de implementatie van basislijn beveiliging](../media/solutions-architecture-center/deploy-threat-protection-identity-access-steps.png) 
 
 1. [Vereisten configureren, waaronder Azure identiteits bescherming](../enterprise/identity-access-prerequisites.md).
 2. [Veelgebruikte beleidsregels voor identiteit en Apparaattoegang configureren](../enterprise/identity-access-policies.md) voor basisbescherming.
@@ -60,7 +60,7 @@ Azure ATP schakelt beveiligingsactiviteiten (SecOps) analisten en beveiligings p
 
 ### <a name="to-set-up-azure-atp"></a>Azure ATP instellen
 
-![Proces voor de implementatie van functies voor bedreigingsbeveiliging](../media/solutions-architecture-center/deploy-azure-atp-steps.png) 
+![Installatie van Azure ATP voorbereiden](../media/solutions-architecture-center/deploy-azure-atp-steps.png) 
 
 1. [Azure ATP instellen](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) om uw primaire omgeving te beschermen.
 2. Beveilig al uw [domeincontrollers](https://docs.microsoft.com/azure-advanced-threat-protection/atp-sensor-monitoring) en [forests](https://docs.microsoft.com/azure-advanced-threat-protection/atp-multi-forest).
@@ -80,7 +80,7 @@ Microsoft Threat Protection beveiligt waarschuwingen, incidenten, geautomatiseer
 
 ### <a name="to-set-up-microsoft-threat-protection"></a>Microsoft Threat Protection instellen
 
-![Proces voor de implementatie van functies voor bedreigingsbeveiliging](../media/solutions-architecture-center/deploy-mtp-steps.png) 
+![Installatie van Microsoft Threat Protection](../media/solutions-architecture-center/deploy-mtp-steps.png) 
 
 1. [Controleer de vereisten](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites).
 2. [Schakel Microsoft Threat Protection in](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable).
@@ -97,14 +97,14 @@ Microsoft Threat Protection beveiligt waarschuwingen, incidenten, geautomatiseer
 
 |Functies voor configuratie, beveiliging en detectie|Automatiserings-, onderzoek-, herstel-en onderwijs mogelijkheden|
 |---|---|
-|[Veilige bijlagen](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[Veilige koppelingen](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[Veilige documenten](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[ATP voor SharePoint, OneDrive en Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[ATP anti malafide beveiliging](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[Bedreigingsoverzichten](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[Bedreigingsverkenner](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[Geautomatiseerd onderzoek en reactie](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[Aanvalssimulator](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
+|[Veilige bijlagen](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[Veilige koppelingen](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[Veilige documenten](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[ATP voor SharePoint, OneDrive en Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[ATP-bescherming tegen phishing](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[Bedreigingsoverzichten](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[Bedreigingsverkenner](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[Geautomatiseerd onderzoek en reactie](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[Aanvalssimulator](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
 |
 
 Met Office 365 ATP kunnen medewerkers in uw organisatie veiliger communiceren en samenwerken met behulp van bedreigingsbeveiliging voor hun e-mail inhoud en Office-documenten.
 
 ### <a name="to-set-up-office-365-atp"></a>Office 365 ATP instellen
 
-![Proces voor de implementatie van functies voor bedreigingsbeveiliging](../media/solutions-architecture-center/deploy-office365-atp-steps.png) 
+![Installatie van Office 365 ATP voorbereiden](../media/solutions-architecture-center/deploy-office365-atp-steps.png) 
 
 1. [Stel uw Office 365 ATP-beleid in en configureer](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)dit.
 2. [Uw Office 365 ATP-rapporten weergeven en gebruiken](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp).
@@ -122,7 +122,7 @@ Met [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/w
 
 ### <a name="set-up-microsoft-defender-atp"></a>Microsoft Defender ATP instellen
 
-![Proces voor de implementatie van functies voor bedreigingsbeveiliging](../media/solutions-architecture-center/deploy-mdatp-steps.png) 
+![Installatie van Microsoft Defender ATP voorbereiden](../media/solutions-architecture-center/deploy-mdatp-steps.png) 
 
 1. [Uw Microsoft Defender ATP-implementatie voorbereiden](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases).
 2. [Uw implementatie van Microsoft Defender ATP instellen](https://docs.microsoft.com/windows/security/threat-protection/micros.oft-defender-atp/production-deployment)
@@ -140,7 +140,7 @@ Met [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/w
 
 ### <a name="set-up-microsoft-cloud-app-security"></a>Beveiligingsinstellingen voor Microsoft Cloud-app instellen
 
-![Proces voor de implementatie van functies voor bedreigingsbeveiliging](../media/solutions-architecture-center/deploy-mcas-steps.png) 
+![Installatie van de Microsoft Cloud app-beveiliging](../media/solutions-architecture-center/deploy-mcas-steps.png) 
 
 1. [Stel de portal en andere basisvereisten](https://docs.microsoft.com/cloud-app-security/general-setup)in.
 2. Apps Discovery en Connect- [apps](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps) [instellen](https://docs.microsoft.com/cloud-app-security/set-up-cloud-discovery) .

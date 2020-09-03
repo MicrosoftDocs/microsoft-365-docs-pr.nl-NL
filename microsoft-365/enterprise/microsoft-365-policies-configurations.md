@@ -17,12 +17,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: 9eaea7579faedace50ca76a69997fbfd83e452bb
-ms.sourcegitcommit: 4ac96855d7c269a0055ca8943000b762a70ca4ba
+ms.openlocfilehash: 72344e1918a85de65ab7de8a60b7ace0b2629ac6
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321904"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332747"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
@@ -161,7 +161,7 @@ U wordt aangeraden apparaten te beheren via intune of domein, zodat u extra besc
 ![Stappen voor het configureren van identiteit en toegang tot apparaten.](../media/microsoft-365-policies-configurations/identity-device-access-steps.png)
 
 1. Configureer vereisten voor de identiteit en de instellingen hiervan.
-2. Configureer de meest voorkomende identiteit en toegang tot regels voor voorwaardelijke toegang.
+2. Configureer de algemene identiteit en toegang tot regels voor voorwaardelijke toegang.
 3. Beleidsregels voor voorwaardelijke toegang configureren voor gast en externe gebruikers.
 4. Beleidsregels voor voorwaardelijke toegang configureren voor Microsoft 365 Cloud-apps zoals Microsoft teams, Exchange Online en SharePoint.
 

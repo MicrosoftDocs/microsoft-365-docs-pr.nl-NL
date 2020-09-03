@@ -1,7 +1,7 @@
 ---
 title: Enterprise Access-besturingselementen voor Microsoft 365 Yammer
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Dit artikel bevat een beknopt overzicht van de besturingselementen voor Enterprise-toegangsbeheer in de productieomgeving.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8bdf357ddd7f5c0b549d291fd4732924608085b9
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: b7e1ceae1b7ddda4c2eac96cd581a612768f1461
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695765"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332662"
 ---
 # <a name="yammer-enterprise-access-controls"></a>Enterprise Access-besturingselementen voor Yammer 
 

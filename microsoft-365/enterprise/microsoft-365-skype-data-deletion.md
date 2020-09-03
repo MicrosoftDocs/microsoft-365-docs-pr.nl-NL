@@ -1,7 +1,7 @@
 ---
 title: Gegevens verwijderen in Office 365 Skype voor bedrijven
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: In dit artikel vindt u een beschrijving van de verwijdering van gegevens in Skype voor bedrijven, met inbegrip van de typen inhoud die niet behouden blijven.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf317f2ecd3d547ae8601553a34fb43fb4b5bd9d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0a47df4dd0dfdf5551668f8cafc9baa023bd6db1
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689379"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332710"
 ---
 # <a name="skype-for-business-data-deletion-in-office-365"></a>Skype voor bedrijven-data verwijdering in Office 365
 

@@ -1,7 +1,7 @@
 ---
 title: Tenant isolatie in Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Dit artikel bevat een overzicht van hoe Microsoft Tenant isolatie afdwingt in cloudservices zoals Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ea97cbe9b6c23f7ed0006fbe78a4deb5f35b5ab7
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 7aca35fc61d03e94225375fcf67970e13dd691c9
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689331"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332686"
 ---
 # <a name="tenant-isolation-in-microsoft-365"></a>Tenant isolatie in Microsoft 365
 
@@ -45,10 +45,10 @@ De hierboven genoemde bescherming biedt een robuuste logische isolatie regeling 
 
 ## <a name="related-links"></a>Verwante koppelingen
 
-- [Isolatie en toegangsbeheer in azure Active Directory](microsoft-365-isolation-in-azure-active-directory.md)
+- [Isolatie en toegankelijkheid beheren in Azure Active Directory](microsoft-365-isolation-in-azure-active-directory.md)
 - [Tenant isolatie in Office Graph en Delve](microsoft-365-isolation-in-graph-and-delve.md)
 - [Tenant isolatie in Microsoft 365 zoeken](microsoft-365-isolation-in-microsoft-365-search.md)
 - [Tenant isolatie in Office 365 video](microsoft-365-isolation-in-microsoft-365-video.md)
-- [Resource limieten](microsoft-365-resource-limits.md)
+- [Resourcelimieten](microsoft-365-resource-limits.md)
 - [Tenant grenzen controleren en testen](microsoft-365-monitoring-and-testing.md)
 - [Isolatie en toegangsbeheer in Microsoft 365](microsoft-365-isolation-in-microsoft-365.md)

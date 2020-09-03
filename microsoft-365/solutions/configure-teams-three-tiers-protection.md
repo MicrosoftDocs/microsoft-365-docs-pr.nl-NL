@@ -42,7 +42,7 @@ De configuraties in dit artikel zijn in overeenstemming met de aanbevelingen van
 
 - Bescherming van zeer gevoelige gegevens
 
-Voor meer informatie over deze lagen en aanbevolen functionaliteiten voor elke afzonderlijke laag, ga naar [Illustraties voor Microsoft Cloud voor Enterprise Architects](https://docs.microsoft.com/microsoft-365/solutions/cloud-architecture-models)
+Voor meer informatie over deze lagen en aanbevolen functionaliteiten voor elke afzonderlijke laag, gaat u naar [Illustraties voor Microsoft Cloud voor Enterprise Architects](https://docs.microsoft.com/microsoft-365/solutions/cloud-architecture-models)
 
 
 ## <a name="three-tiers-at-a-glance"></a>Drie lagen in een oogopslag
