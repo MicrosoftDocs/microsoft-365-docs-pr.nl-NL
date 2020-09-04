@@ -13,16 +13,16 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u het e-mail stroom status inzicht van de belangrijkste domein kunt gebruiken in het dashboard voor e-mail stroom in het nalevings centrum voor beveiliging & voor het oplossen van problemen met de e-mail stroom in hun e-mail domeinen.
-ms.openlocfilehash: 9640d5e37932efeb7c0c8f8c56d0a15bc7f07e5b
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 34b80bee48bd91524fbd95961c473f50fbe394b7
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827013"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358310"
 ---
 # <a name="top-domain-mail-flow-status-insight-in-the-security--compliance-center"></a>Belangrijkste status inzicht in de e-mail stroom van het domein in het beveiligings & nalevings centrum
 
-Met de **belangrijkste status van de e-mail stroom** van de e-mail in het Beveiligingscentrum van de e-mail in het compliance [-&](mail-flow-insights-v2.md) Beveiligingscentrum beschikt u over de huidige status voor de domeinen van uw organisatie in de voorwaarden voor de e-mail stroom. Met deze functie kunt u problemen met domeinen identificeren en oplossen die problemen met de ***e-mail stroom*** kunnen veroorzaken (bijvoorbeeld om externe e-mail te ontvangen), met name domein vervaldatums of domeinen met onjuiste MX-records.
+Met de **belangrijkste status van de e-mail stroom** van de e-mail in het Beveiligingscentrum van de e-mail in het [compliance-& Beveiligingscentrum](https://protection.office.com) beschikt u over de huidige status voor de domeinen van uw organisatie in de voorwaarden voor de e-mail stroom. [Mail flow dashboard](mail-flow-insights-v2.md) Met deze functie kunt u problemen met domeinen identificeren en oplossen die problemen met de ***e-mail stroom*** kunnen veroorzaken (bijvoorbeeld om externe e-mail te ontvangen), met name domein vervaldatums of domeinen met onjuiste MX-records.
 
 ![De widget hoofddomein stroom status in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum](../../media/mfi-top-domain-mail-flow-status-widget.png)
 

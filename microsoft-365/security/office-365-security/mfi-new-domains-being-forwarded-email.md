@@ -11,18 +11,18 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Beheerders kunnen informatie over het gebruik van de nieuwe domeinen waarmee e-mail inzicht wordt doorgestuurd in het moderne Exchange-Beheercentrum om te onderzoeken wanneer gebruikers in hun organisatie berichten doorsturen naar externe domeinen waarnaar nooit is doorgestuurd.
-ms.openlocfilehash: 0b4cd0490feebc8e05deb889b3cf54e1ea9f5928
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 0f0622fc686cb9c90790630e16c187bf9f69d918
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826927"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358256"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>Nieuwe domeinen worden doorgestuurd via e-mail inzicht in de beveiligings & nalevings centrum
 
 Hoewel u waarschijnlijk geldige zakelijke redenen hebt voor het doorsturen van e-mailberichten naar externe geadresseerden in specifieke domeinen, is het verdacht Wanneer gebruikers in uw organisatie zich op een plotselinge manier van berichten doorsturen naar externe domeinen, en niemand in de organisatie ooit berichten heeft doorgestuurd naar die domeinen vóór (nieuwe domeinen). Deze voorwaarde kan betekenen dat de gebruikersaccounts worden aangetast. Als u vermoedt dat de accounts zijn aangetast, raadpleegt u [reageren op een gemanipuleerd e-mailaccount](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account).
 
-De **nieuwe domeinen waarnaar u e-mail inzicht wordt doorgestuurd** wanneer gebruikers in uw organisatie berichten doorsturen naar nieuwe domeinen.
+De **nieuwe domeinen waarnaar e-mail inzicht wordt doorgestuurd** in de [beveiliging & nalevings centrum](https://protection.office.com) u ontvangt een melding wanneer gebruikers in uw organisatie berichten doorsturen naar nieuwe domeinen.
 
 Dit inzicht wordt alleen weergegeven als het probleem zich voordoet, en wordt weergegeven op de pagina voor het [doorsturen van rapporten](view-mail-flow-reports.md#forwarding-report) .
 

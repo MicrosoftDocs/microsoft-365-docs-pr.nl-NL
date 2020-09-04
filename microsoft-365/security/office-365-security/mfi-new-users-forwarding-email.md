@@ -11,18 +11,18 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Beheerders kunnen informatie over het gebruik van de nieuwe gebruikers die e-mail inzicht doorsturen in het beveiligings & Conformiteitscentrum gebruiken om te onderzoeken wanneer gebruikers in hun organisatie berichten doorsturen naar nieuwe domeinen.
-ms.openlocfilehash: cb2e16d321e181916219e3425c26e59ebe31b866
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 4d8c88cef182ab1c521d23970797e4746e188916
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826969"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357364"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>Nieuwe gebruikers die e-mail inzicht doorsturen in de beveiligings & nalevings centrum
 
 Het verdacht wanneer nieuwe gebruikersaccounts in uw organisatie zich plotseling voor het doorsturen van e-mailberichten naar externe domeinen.
 
-De **nieuwe domeinen waarnaar u e-mail inzicht wordt doorgestuurd** wanneer nieuwe gebruikers in uw organisatie berichten doorsturen naar externe domeinen. Deze voorwaarde kan worden gebruikt voor het maken van beheerdersaccounts waarmee de nieuwe gebruikers zijn gemanipuleerd. Als u vermoedt dat de accounts zijn aangetast, raadpleegt u [reageren op een gemanipuleerd e-mailaccount](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account).
+De **nieuwe domeinen waarnaar e-mail inzicht wordt doorgestuurd** in de [beveiliging & nalevings centrum](https://protection.office.com) meldt dat u een melding krijgt wanneer nieuwe gebruikers in uw organisatie berichten doorsturen naar externe domeinen. Deze voorwaarde kan worden gebruikt voor het maken van beheerdersaccounts waarmee de nieuwe gebruikers zijn gemanipuleerd. Als u vermoedt dat de accounts zijn aangetast, raadpleegt u [reageren op een gemanipuleerd e-mailaccount](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account).
 
 Dit inzicht wordt alleen weergegeven als het probleem zich voordoet, en wordt weergegeven op de pagina voor het [doorsturen van rapporten](view-mail-flow-reports.md#forwarding-report) .
 

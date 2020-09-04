@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: Beheerders kunnen informatie over het gebruik van de widget wachtrijen in het dashboard voor e-mail stroom in het beveiligings & nalevings centrum om de niet-geslaagde e-mail stroom te controleren aan hun on-premises of partnerorganisaties via uitgaande connectoren.
-ms.openlocfilehash: 79523533306e847988fa0d4e2dd70eca22f7c76c
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: bcd78a50f017aae65e82185bf167ea7a227656fa
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826903"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357386"
 ---
 # <a name="queues-insight-in-the-security--compliance-center"></a>Inzicht in wachtrijen in het beveiligings & nalevings centrum
 
@@ -29,7 +29,7 @@ Microsoft 365 blijft opnieuw proberen na 24 uur. Na 24 uur verloopt de berichten
 
 Als het e-mail volume in de wachtrij de vooraf gedefinieerde drempelwaarde overschrijdt (de standaardwaarde is 200-berichten), is de informatie beschikbaar op de volgende locaties:
 
-- De **wachtrijen** zijn te zien in het [Dashboard voor de e-mail stroom](mail-flow-insights-v2.md) van het beveiligings & nalevings centrum. Zie voor meer informatie de [wachtrijen inzichtelijk in de sectie e-mail stroom dashboard](#queues-insight-in-the-mail-flow-dashboard) in dit onderwerp.
+- De **wachtrijen** zijn te zien in het [Dashboard voor de e-mail stroom](mail-flow-insights-v2.md) van het [beveiligings & nalevings centrum](https://protection.office.com). Zie voor meer informatie de [wachtrijen inzichtelijk in de sectie e-mail stroom dashboard](#queues-insight-in-the-mail-flow-dashboard) in dit onderwerp.
   
 - Er wordt een waarschuwing weergegeven bij **recente meldingen** het dashboard waarschuwingen in het [compliance-Beveiligingscentrum van beveiligings &](https://protection.office.com) (**waarschuwingen** \> **Dashboard** of <https://protection.office.com/alertsdashboard> ).
 

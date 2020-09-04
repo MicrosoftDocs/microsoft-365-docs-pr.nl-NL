@@ -13,16 +13,16 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie over het gebruik van het rapport over niet-uitgevoerde bezorgings gegevens in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum voor het bewaken van de meest voorkomende foutcodes in rapporten over niet-uitgevoerde bezorging (ook wel Ndr's of stuiteren) van afzenders in uw organisatie.
-ms.openlocfilehash: bdc2a2a16f76f4e6ada629c82b86423422ab56c9
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: f9017a7f041037c5db2dc9b9f4f5155b038bf2c7
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826915"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357408"
 ---
 # <a name="non-delivery-report-in-the-security--compliance-center"></a>Rapport over niet-uitgevoerde bezorging van de beveiligings & nalevings centrum
 
-Het **rapport over niet-** uitgevoerde bezorging van het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in het beveiligingscentrum van beveiligings & bevat de belangrijkste foutcodes in rapporten over niet-uitgevoerde bezorging (ook wel ndr's genoemd) voor gebruikers in uw organisatie. Dit rapport toont de details van Ndr's, zodat u problemen met de bezorging van e-mail kunt oplossen.
+Het **rapport over niet-** uitgevoerde bezorging van het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in het [Beveiligingscentrum van beveiligings &](https://protection.office.com) bevat de belangrijkste foutcodes in rapporten over niet-uitgevoerde bezorging (ook wel ndr's genoemd) voor gebruikers in uw organisatie. Dit rapport toont de details van Ndr's, zodat u problemen met de bezorging van e-mail kunt oplossen.
 
 ![Widget rapport over niet-uitgevoerde bezorging in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum](../../media/mfi-non-delivery-report-widget.png)
 

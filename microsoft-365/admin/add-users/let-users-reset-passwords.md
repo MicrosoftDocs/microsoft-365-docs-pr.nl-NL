@@ -23,70 +23,74 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
-description: Ontdek hoe u uw wachtwoorden opnieuw instellen met behulp van de selfservice tool voor het opnieuw instellen van wachtwoorden.
-ms.openlocfilehash: 288613023ee61626bf12f7090ad0ff73139ef06d
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: Meer informatie over het opnieuw instellen van uw wachtwoorden met het hulpprogramma voor het zelf opnieuw instellen van wachtwoorden.
+ms.openlocfilehash: 1684afd1baf32acc6c4245938b2ac7ee024d7374
+ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780587"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47361805"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 
-Wordt u overspoeld door mensen die u vragen hun wachtwoord opnieuw in te stellen? Als Microsoft 365-beheerder u mensen de [selfservice-tool](https://go.microsoft.com/fwlink/p/?LinkId=522677) voor het opnieuw instellen van wachtwoorden laten gebruiken, zodat u wachtwoorden niet hoeft te resetten. Zo hoeft u zelf minder te doen! 
+Als Microsoft 365-beheerder kunt u toestaan dat gebruikers het [hulpprogramma voor het zelf opnieuw instellen van wacht](https://go.microsoft.com/fwlink/p/?LinkId=522677) woorden gebruiken, zodat u hun wachtwoorden niet opnieuw hoeft in te stellen. Zo hoeft u zelf minder te doen!
   
-Hier volgen enkele dingen die u moet weten:
+## <a name="before-you-begin"></a>Voordat u begint
   
-- U krijgt gratis selfservicewachtwoorden opnieuw instellen voor **cloudgebruikers** met een betaald Microsoft 365-abonnement voor bedrijven, onderwijs of non-profitorganisaties. Het werkt niet met Microsoft 365 trial.
+- U ontvangt selfservice voor wachtwoordherstel voor Cloud gebruikers **gratis** bij een microsoft 365-abonnement voor bedrijven, onderwijs of non-profit betaling. Het werkt niet met de proefversie van Microsoft 365.
 
 - Deze maakt gebruik van Azure. Deze functie ontvangt u in Azure automatisch **gratis** wanneer u deze stappen uitvoert. Het kost u niets als u selfservice voor wachtwoordherstel inschakelt als u geen andere Azure-functies gebruikt.
 
 - **Als u on-premises Active Directory gebruikt**, zijn de twee bovenstaande punten niet van toepassing. U kunt dit instellen, maar **u hebt hiervoor wel een betaald abonnement op Azure AD Premium nodig**.
 
-Bekijk een korte video over het laten resetten van hun eigen wachtwoorden door gebruikers. <br><br>
+Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een bedrijf, school of non-profitorganisatie opstellen. Om deze stappen te voltooien, moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](../admin-overview/admin-overview.md)
+
+U moet een [globale beheerder of wachtwoordbeheerder](about-admin-roles.md) zijn om deze stappen te kunnen uitvoeren.
+
+## <a name="watch-let-users-reset-their-own-passwords"></a>Kijken: gebruikers hun eigen wachtwoorden opnieuw laten instellen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S]
 
 Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-## <a name="let-people-reset-their-own-passwords"></a>Laat mensen hun eigen wachtwoorden resetten
+## <a name="steps-let-people-reset-their-own-passwords"></a>Stappen: gebruikers hun eigen wachtwoorden opnieuw laten instellen
 
 Met deze stappen wordt selfservice voor wachtwoordherstel ingeschakeld voor iedereen in uw bedrijf.
   
 ::: moniker range="o365-worldwide"
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">beheercentrum</a>naar de **Settings** > **instellingenpagina van instellingen.**
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Beheercentrum</a>naar de pagina **instellingen** voor > **org** .
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a>naar de **Settings** \> ** &amp; privacypagina Instellingenbeveiliging.**
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Beheercentrum</a>naar de pagina **Settings** \> **beveiligings &amp; Privacy** van instellingen.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a>naar de **Settings** \> **Settings** \> ** &amp; privacypagina** Instellingen beveiliging.
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Beheercentrum</a>naar de pagina **instellingen** \> **Settings** \> **beveiliging beveiliging &amp; ** .
 
 ::: moniker-end
 
-2. Selecteer boven aan de pagina Instellingen voor **Organisatie** het tabblad **Beveiliging & privacy.**
+2. Selecteer boven aan de pagina **instellingen voor organisatie** het tabblad **beveiliging & privacy** .
   
-3. Selecteer **Selfservice Wachtwoord opnieuw instellen**.
+3. Selecteer **selfservice voor wachtwoordherstel**.
 
-4. Selecteer Onder **Selfservice-wachtwoord opnieuw instellen**de optie **Ga naar de Azure-portal om het resetten van zelfservicewachtwoorden in te schakelen.**
+4. Selecteer onder **selfservice voor wachtwoordherstel**de optie **Ga naar de Azure-Portal om selfservice voor wachtwoordherstel in te schakelen**.
 
-5. Selecteer **gebruikers in**het linkernavigatiedeelvenster en vervolgens op de **Gebruikers | Alle gebruikers** pagina, selecteer **Wachtwoord resetten**.
+5. Selecteer **gebruikers**in het linker navigatiedeelvenster en klik vervolgens op de **gebruikers | Pagina alle gebruikers** , selecteer **wachtwoord opnieuw instellen**.
   
-6. Selecteer **Alles** op de pagina **Eigenschappen** om het voor iedereen in uw bedrijf in te schakelen en selecteer **Opslaan**.
+6. Selecteer **Alles** op de pagina **Eigenschappen** om dit in te schakelen voor iedereen in uw bedrijf, en selecteer vervolgens **Opslaan**.
   
-7. Wanneer uw gebruikers zich aanmelden, wordt hen gevraagd om aanvullende contactgegevens in te voeren waarmee ze hun wachtwoord in de toekomst opnieuw kunnen instellen.
+7. Wanneer de gebruiker zich aanmeldt, wordt u gevraagd aanvullende contactgegevens op te geven waarmee ze in de toekomst hun wachtwoord opnieuw kunnen instellen.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Het wachtwoordverloopbeleid voor uw organisatie instellen:](../manage/set-password-expiration-policy.md)
-  
+
 [Het wachtwoord van een gebruiker zo instellen dat het nooit verloopt](set-password-to-never-expire.md)
 
 [Trainingsvideo's voor Microsoft 365 Business](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

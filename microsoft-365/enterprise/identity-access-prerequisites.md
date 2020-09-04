@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: ca898fa76ff45fe15a6dc48e7ad8bcae3e94951c
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: 40910c00a91a1e98d01fe2e25a4f9aed828a024a
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332546"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357972"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Vereisten voor het implementeren van identiteits-en Apparaattoegang
 
@@ -87,7 +87,7 @@ U wordt aangeraden de volgende clients te bezorgen wanneer een beleid voor bevei
 
 |Platform|Word/Excel/PowerPoint|OneNote|OneDrive-app|SharePoint-app|[OneDrive-synchronisatieclient](https://docs.microsoft.com/onedrive/enable-conditional-access)|
 |:-------|:-----|:------------|:-------|:-------------|:-----|
-|Windows 8,1|Ondersteund|Ondersteund|N.v.t.|N.v.t.|Ondersteund|
+|Windows 8.1|Ondersteund|Ondersteund|N.v.t.|N.v.t.|Ondersteund|
 |Windows 10|Ondersteund|Ondersteund|N.v.t.|N.v.t.|Ondersteund|
 |Android|Ondersteund|Ondersteund|Ondersteund|Ondersteund|N.v.t.|
 |Apparaten|Ondersteund|Ondersteund|Ondersteund|Ondersteund|N.v.t.|
@@ -116,6 +116,6 @@ Hier volgen enkele aanvullende aanbevelingen:
 
 ## <a name="next-step"></a>Volgende stap
 
-![Stap 2: Configureer de gangbare identiteit en toegang tot regels voor voorwaardelijke toegang...](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)
+![Stap 2: de gangbare identiteit configureren en toegang tot regels voor voorwaardelijke toegang beheren](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)
 
 [De veelgebruikte beleidsregels voor identiteit en toegang tot apparaten configureren](identity-access-policies.md)

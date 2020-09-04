@@ -13,16 +13,16 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u de e-mail stroom plattegrond kunt gebruiken in het dashboard voor e-mail stroom in het beveiligings & nalevings centrum voor het visualiseren en bijhouden van de manier waarop e-mail stromen van en naar hun organisatie via connectors en zonder connectors worden gebruikt.
-ms.openlocfilehash: d27513b905a2b6c1a7ae366040e9e29b2d67b258
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: e144d1d42603fbf2a8f031b1cf7584b6e6ed5c7b
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826999"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358588"
 ---
 # <a name="mail-flow-map-in-the-security--compliance-center"></a>De kaart voor de e-mail stroom in het Beveiligingscentrum beveiligings &
 
-De **e-mail stroom kaart** in het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in het Beveiligingscentrum beveiligings & biedt inzicht in de manier waarop e-mail stromen via uw organisatie worden doorgevoerd. U kunt deze gegevens gebruiken om patronen te ontdekken, afwijkingen te identificeren en problemen op te lossen.
+De **e-mail stroom kaart** in het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in het [Beveiligingscentrum beveiligings &](https://protection.office.com) biedt inzicht in de manier waarop e-mail stromen via uw organisatie worden doorgevoerd. U kunt deze gegevens gebruiken om patronen te ontdekken, afwijkingen te identificeren en problemen op te lossen.
 
 ![Widget e-mail stroom in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum](../../media/mfi-mail-flow-map-widget.png)
 

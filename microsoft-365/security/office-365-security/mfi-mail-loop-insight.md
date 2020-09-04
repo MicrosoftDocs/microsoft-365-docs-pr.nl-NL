@@ -13,18 +13,18 @@ ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u met behulp & van het hulpprogramma voor het oplossen van e-mail lussen in hun organisatie e-mail lussen kunt identificeren en oplossen.
-ms.openlocfilehash: 162752ce6981e27d6ae2923aeb0fc33aec42bb0f
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 063906195488aa7d65093c538d9045002448e181
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826951"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358268"
 ---
 # <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>Mogelijke oplossing voor e-mail lussen in de beveiligings & nalevings centrum
 
 Een lus voor e-mailberichten is slecht omdat dit de systeembronnen verspilt, het volume quotum van uw organisatie gebruikt en geen rapporten van niet-uitgevoerde bezorging (ook wel Ndr's genoemd) aan de oorspronkelijke afzenders stuurt.
 
-In het gedeelte **voor** het aanvullen van e-mail van het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in de & beveiligings **Update** wordt u gewaarschuwd wanneer een e-mail in uw organisatie wordt gedetecteerd. Dit inzicht wordt alleen weergegeven nadat de voorwaarde is vastgesteld (als u geen e-mail lussen hebt, ziet u het inzicht niet).
+In het gedeelte **voor** het aanvullen van e-mail van het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in de [& beveiligings](https://protection.office.com) **Update** wordt u gewaarschuwd wanneer een e-mail in uw organisatie wordt gedetecteerd. Dit inzicht wordt alleen weergegeven nadat de voorwaarde is vastgesteld (als u geen e-mail lussen hebt, ziet u het inzicht niet).
 
 ![Meer inzicht in langzame e-mail stroom regels op het gebied aanbevolen voor u in het dashboard voor e-mail stroom](../../media/mfi-fix-possible-mail-loop.png)
 

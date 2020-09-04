@@ -14,12 +14,12 @@ ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u het probleem kunt verhelpen met behulp van het artikel over het oplossen van problemen in de beveiliging & nalevings centrum voor het identificeren en oplossen van onjuiste of verbroken e-mail stroom regels (ook wel een transportregel genoemd) in hun organisatie.
-ms.openlocfilehash: 6319633c47e34d7b62c4f68bfbda7fe298c0deb3
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: c933a6816c82161d0f4a6199ff1a339dd8a10eae
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826879"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357342"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Inzicht in langzame e-mail stroom regels in het nalevings centrum voor beveiliging &
 
@@ -29,7 +29,7 @@ In de efficiëntie regels voor de e-mail stroom (ook wel transport-regels genoem
 - Voorwaarden die gebruikmaken van complexe reguliere expressies (regex)-patroon.
 - Voorwaarden voor het gebruik van inhouds controle in bijlagen.
 
-Met het beleid voor **trage e-mail stroom** kunt u het aanbevolen gebied van het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in het Beveiligingscentrum **voor** e-mail stroom op de beveiliging & Dit inzicht wordt alleen weergegeven nadat de voorwaarde is vastgesteld (als u geen e-mail lussen hebt, ziet u het inzicht niet).
+Met het beleid voor **trage e-mail stroom** kunt u het aanbevolen gebied van het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in het [Beveiligingscentrum](https://protection.office.com) **voor** e-mail stroom op de beveiliging & Dit inzicht wordt alleen weergegeven nadat de voorwaarde is vastgesteld (als u geen e-mail lussen hebt, ziet u het inzicht niet).
 
 U kunt deze melding gebruiken om de regels voor de e-mail stroom te identificeren en te perfectioneren, zodat de vertragingen van e-mailberichten kunnen worden beperkt.
 

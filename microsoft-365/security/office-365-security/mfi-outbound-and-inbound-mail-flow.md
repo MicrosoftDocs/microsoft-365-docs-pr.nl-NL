@@ -12,16 +12,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f2738dec-41b0-43c4-b814-84c0a4e45c6d
 description: Beheerders kunnen inzicht krijgen in de uitgaand en binnenkomende e-mail stroom informatie in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum.
-ms.openlocfilehash: 920c1212f4d6dee508704c93272e48140e199710
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 87ea7faed2e2387c31fdb06abaf242a2a3aea76e
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826891"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357420"
 ---
 # <a name="outbound-and-inbound-mail-flow-insight-in-the-security--compliance-center"></a>Uitgaand en binnenkomende e-mail stroom inzicht in de beveiligings & nalevings centrum
 
-De **uitgaande en binnenkomende e-mail stroom** informatie in het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in de beveiligings & nalevings centrum combineert de informatie uit het [verbindings rapport](view-mail-flow-reports.md#connector-report) en het voormalige **TLS-overzichtsrapport** op één plaats.
+De **uitgaande en binnenkomende e-mail stroom** informatie in het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in de [beveiligings & nalevings centrum](https://protection.office.com) combineert de informatie uit het [verbindings rapport](view-mail-flow-reports.md#connector-report) en het voormalige **TLS-overzichtsrapport** op één plaats.
 
 Het object geeft de TLS-versleuteling weer die wordt gebruikt voor de verbinding wanneer berichten worden bezorgd en van uw organisatie. De verbindingen die zijn gemaakt met andere e-mailservices, worden versleuteld door TLS wanneer TLS aan beide kanten wordt aangeboden. De widget biedt een momentopname van de laatste week van de e-mail stroom.
 

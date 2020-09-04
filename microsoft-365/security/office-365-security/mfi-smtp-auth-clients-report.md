@@ -13,16 +13,16 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u het SMTP-authenticatie inzicht en rapporten kunt gebruiken in het dashboard voor de beveiliging van de e-mail in het beveiligings & nalevings centrum om e-mail afzenders in hun organisatie met geverifieerde SMTP-verificatie (SMTP-verificatie) te controleren en e-mailberichten te verzenden.
-ms.openlocfilehash: 65e5569bcd79caef071ee2103d18a4e985c19dbb
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 4123edcfa08e31217dcd6a29186492bc036fa7a0
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826867"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357432"
 ---
 # <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>Client-auth-clients inzicht en rapporteren in de beveiligings & nalevings centrum
 
-De **SMTP auth-clients** bieden inzicht in in het [Dashboard voor de e-mail stroom](mail-flow-insights-v2.md) en het bijbehorende SMTP auth-client [rapport](#smtp-auth-clients-report) markeren het gebruik van het SMTP-verificatieprotocol voor clientgebruikers of systeemaccounts in uw organisatie. Dit oudere protocol (met het eindpunt smtp.office365.com) biedt alleen basisverificatie en kan worden gebruikt door gemanipuleerde accounts om e-mail te verzenden. In het inzicht en de rapportage kunt u controleren op ongebruikelijke activiteiten voor e-mail inzendingen van SMTP-verificatie. Ook de TLS-gebruiksgegevens voor clients of apparaten worden weergegeven met SMTP-AUTH.
+De **SMTP auth-clients** bieden inzicht in in het [Dashboard voor de e-mail stroom](mail-flow-insights-v2.md) en het bijbehorende [SMTP-](#smtp-auth-clients-report) auth-client rapport in het [nalevings centrum voor beveiligings &](https://protection.office.com) het gebruik van het SMTP-verificatieprotocol voor clientverificatie door gebruikers of systeemaccounts in uw organisatie. Dit oudere protocol (met het eindpunt smtp.office365.com) biedt alleen basisverificatie en kan worden gebruikt door gemanipuleerde accounts om e-mail te verzenden. In het inzicht en de rapportage kunt u controleren op ongebruikelijke activiteiten voor e-mail inzendingen van SMTP-verificatie. Ook de TLS-gebruiksgegevens voor clients of apparaten worden weergegeven met SMTP-AUTH.
 
 De widget geeft het aantal gebruikers of serviceaccounts aan dat het SMTP-authenticatieprotocol in de afgelopen 7 dagen heeft gebruikt.
 
