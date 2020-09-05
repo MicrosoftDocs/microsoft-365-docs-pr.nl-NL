@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 75d709cc1f98a12bb6f5a5b6539583a33be500b6
-ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
+ms.openlocfilehash: ae0105fd5eba134c7896daef34136748802e9010
+ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255743"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47394679"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Ervaring opzeggen met een geavanceerde jacht in Microsoft Threat Protection
 
@@ -39,7 +39,7 @@ Geavanceerd zoeken is een probleem met de hulpmiddelen op basis van een query di
 
 U kunt dezelfde aanvals opdrachten gebruiken om aangepaste detectieregels te maken. Deze regels worden automatisch uitgevoerd om diverse gebeurtenissen en systeem statussen te controleren en te beantwoorden, waaronder verdachte inbreuk activiteiten en onjuist geconfigureerde computers.
 
-Deze functie is vergelijkbaar met de [geavanceerde jacht in Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview), met uitzondering van het in het microsoft 365-Beveiligingscentrum, met uitzondering van in het microsoft-Beveiligingscentrum, met uitzondering van gegevens over apparaten, e-mailberichten, apps en identiteiten uit Microsoft Defender ATP, Office 365 ATP, Microsoft Cloud app Security en Azure ATP Als u de geavanceerde jacht wilt gebruiken, [schakelt u Microsoft Threat Protection in](mtp-enable.md).
+Deze mogelijkheid is vergelijkbaar met de [geavanceerde jacht in Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview), met uitzondering van de geavanceerde jacht in Microsoft Threat Protection, dat beschikbaar is in het microsoft 365-Beveiligingscentrum, biedt ondersteuning voor query's die in gegevens van diverse werkruimten kijken, waaronder informatie over apparaten, e-mailberichten, apps en identiteiten, en van Azure ATP voor Office 365. Als u de geavanceerde jacht wilt gebruiken, [schakelt u Microsoft Threat Protection in](mtp-enable.md).
 
 ## <a name="get-started-with-advanced-hunting"></a>Aan de slag met geavanceerde jacht
 

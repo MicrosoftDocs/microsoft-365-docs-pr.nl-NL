@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: b26250c54c30b2da4dbda50a5909a168f09bbe73
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 40d0ffa779b0ab13a0bdd887b12d69c20892662d
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866681"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399347"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Best scoren in bedrijfstak tests
 
@@ -37,7 +37,7 @@ De kern van de test aanpak van MITRE is een aanval van de constante, zodat u kun
 
 - ATT&op basis van de navolgende evaluatie van Microsoft Threat Protection-mei 2020: [voor onze wereld detectie](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/)
 
-    Microsoft Threat Protection biedt bijna 100 procent behoefte aan de verschillende beveiligingsmaatregelen. Het bevindt zich in de richting van een aanval. De zichtbaarheid verkleint het handmatige werk voor de bedrijfsactiviteiten centrum en de leveranciers oplossingen die specifiek zijn voor specifieke configuratiewijzigingen. De beschikbaarheid heeft ook de minste hiaten in de zichtbaarheid en vermindert de mogelijkheid van aanvaller om niet gedetecteerd te worden.
+    Microsoft Threat Protection biedt bijna 100 procent behoefte aan de verschillende beveiligingsmaatregelen. Het bevindt zich in de richting van een aanval. De zichtbaarheid verkleint het handmatige werk voor de bedrijfsactiviteiten centrum en de leveranciers oplossingen die specifiek zijn voor specifieke configuratiewijzigingen. Microsoft Threat Protection heeft ook de minste hiaten in de zichtbaarheid gehad, zodat de mogelijkheid van hackers niet wordt gedetecteerd.
 
 ## <a name="next-generation-protection"></a>Volgende generatie beveiliging
 
@@ -45,15 +45,17 @@ De kern van de test aanpak van MITRE is een aanval van de constante, zodat u kun
 
 Microsoft Defender antivirus is de [volgende generatie beschermings](https://www.youtube.com/watch?v=Xy3MOxkX_o4) functie in de [beveiligings stack van Microsoft Defender ATP voor Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) waarmee de nieuwste en meest verfijnde bedreigingen vandaag worden geadresseerd. In sommige gevallen kunnen klanten zelfs niet weten dat ze beschermd zijn omdat een cyberattack wordt beëindigd [Wanneer een campagne begint](https://cloudblogs.microsoft.com/microsoftsecure/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign). Dat komt doordat de malware van Microsoft Defender antivirus en andere functies voor het [Endpoint Protection-platform (EPP)](https://www.microsoft.com/security/blog/2019/08/23/gartner-names-microsoft-a-leader-in-2019-endpoint-protection-platforms-magic-quadrant/) in Microsoft Defender ATP detecteren en de malware tegen het eerste gezicht beëindigen. Ze gebruiken [machine learning](https://cloudblogs.microsoft.com/microsoftsecure/2018/06/07/machine-learning-vs-social-engineering), [kunstmatige informatie](https://cloudblogs.microsoft.com/microsoftsecure/2018/02/14/how-artificial-intelligence-stopped-an-emotet-outbreak), gedrags analyse en andere geavanceerde technologieën.
 
-### <a name="av-test-protection-score-of-5560-in-the-latest-test"></a>AV-toets: beveiligings Score van 5,5/6.0 in de nieuwste test
+### <a name="av-test-protection-score-of-6060-in-the-latest-test"></a>AV-toets: beveiligings Score van 6.0/6.0 in de nieuwste test
 
 Het onderzoek en de certificering van een AV-TEST product op drie categorieën: beveiliging, prestaties en bruikbaarheid. De volgende scores zijn bedoeld voor de categorie beveiliging met twee scores: realtime testen en de AV-TEST Reference (bekend als ' bekende malware ').
 
 **Download het meest recente transparantie rapport: [onderzoek van AV-test resultaten, januari-februari 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)**
 
-- Maart, april 2020 AV-TEST zakelijke gebruikers test: [beveiligings score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/) <sup>**nieuwste**</sup>
+- Mei 2020 AV-TEST zakelijke gebruikers test: [beveiligings score 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2020/microsoft-windows-defender-antivirus-4.18-202513/) <sup>**nieuwste**</sup>
 
-    Microsoft Defender antivirus heeft een algemene beschermings Score van 5,5/6.0 behaald met de voorbeelden van 20.540 malware.
+    Microsoft Defender antivirus bereikte een perfecte beveiligings Score van 6.0/6.0 met 100% in mei en juni. voorbeelden van malware in 22.190.
+
+- Maart, april 2020 AV-TEST zakelijke gebruikers test: [beveiligings score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)
 
 - Januari: februari 2020 AV-test zakelijke gebruikers test: [beveiligings score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [analyse](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)
 
@@ -65,13 +67,13 @@ Het onderzoek en de certificering van een AV-TEST product op drie categorieën: 
 
 - Mei 2019 AV-test zakelijke gebruikers test: [beveiligings score 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2019/microsoft-windows-defender-antivirus-4.18-192415/)  |  [analyse](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
 
-### <a name="av-comparatives-protection-rating-of-995-in-the-latest-test"></a>AV-comparatieve: beveiligings beoordeling van 99,5% in de meest recente test
+### <a name="av-comparatives-protection-rating-of-997-in-the-latest-test"></a>AV-comparatieve: beveiligings beoordeling van 99,7% in de meest recente test
 
 De beveiligings test voor bedrijven bestaat uit drie hoofdonderdelen: de proefversie van de bescherming van malware waarmee online aanvallen met schadelijke software worden nagebootst, de malware-beschermings test waarbij de malware het systeem van buiten internet binnenkomt (bijvoorbeeld USB), en de prestatie proef die de invloed op de prestaties van het systeem controleert.
 
-- Business Security test 2020 factsheet (maart, april): [realtime beveiligings rente 99,5%](https://www.av-comparatives.org/tests/business-security-test-march-april-2020-factsheet/) <sup>**laatste**</sup>
+- Business Security test 2020 (maart – juni): [realtime beveiligings rente 99,7%](https://www.av-comparatives.org/tests/business-security-test-2020-march-june/) <sup>**laatste**</sup>
 
-    Microsoft Defender antivirus heeft gedurende het afgelopen jaar voortdurend een hoge bescherming onderzocht met 99,5% in de meest recente proefversie.
+    Microsoft Defender antivirus heeft gedurende het afgelopen jaar voortdurend een hoge bescherming onderzocht met 99,7% in de meest recente proefversie.
 
 - Business Security test 2019 (augustus – november): [realtime beschermings tarief 99,6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) 
 
@@ -85,9 +87,11 @@ SE Labs test een reeks oplossingen die door producten en services worden gebruik
 
 **Download het meest recente transparantie rapport: [testresultaten van SE Labs, januari-maart 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)**
 
-- Enterprise Endpoint Protection januari: maart 2020: [AAA Award](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
+- Enterprise Endpoint Protection april — juni 2020: [AAA Award](https://selabs.uk/reports/epp-ent-20q2-security-testing/)
 
-    De nieuwe beveiliging van Microsoft is een naam van een van de toonaangevende producten, waarbij alle gerichte aanvallen en allemaal maar één openbare bedreiging worden stopgezet.
+    De nieuwe beveiliging van Microsoft-gen bedroeg een van de belangrijkste producten, zodat u zich kunt beschermen tegen alle openbare en gerichte aanvallen. Microsoft Defender antivirus bereikte dergelijke goede resultaten met de mogelijkheid om kwaadaardige Url's te blokkeren, misbruik te maken en originele toepassingen en websites correct te classificeren.
+
+- Enterprise Endpoint Protection januari: maart 2020: [AAA Award](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
 
 - Oktober Enterprise Endpoint Protection, december 2019: [AAA Award](https://selabs.uk/download/enterprise/epp/2019/oct-dec-2019-enterprise.pdf) <sup>**PDF**</sup>
 
@@ -101,7 +105,7 @@ SE Labs test een reeks oplossingen die door producten en services worden gebruik
 
 De detectie- [en antwoord](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response) mogelijkheden van Microsoft Defender ATP voor Microsoft Defender bieden geavanceerde aanvals detectie die bij realtime en op actie kan worden uitgevoerd. Beveiligings analisten kunnen waarschuwingen effectiever uitstellen, inzicht krijgen in de volledige reikwijdte van een overtreding en antwoord acties uitvoeren om bedreigingen te herstellen.
 
-De functies EDR en Endpoint Protection van Microsoft Defender kunnen positieve resultaten ontvangen van hoogopgeleide tests en publicaties. [Sc Labs geschatte beveiligingshulpprogramma's voor eindpunten](https://www.scmagazine.com/home/reviews/sc-product-reviews-endpoint-security/) in juni 2020 en gaf Microsoft Defender ATP [5/5 sterren](https://www.scmagazine.com/review/microsoft-defender-advanced-threat-protection/). De persoon heeft de mogelijkheid Microsoft Defender ATP te beschermen voor de bescherming van organisaties tegen een modern risico met een volledige reeks beveiligingsmogelijkheden. Ze hebben ook de beveiligingsoplossing van het eindpunt geïdentificeerd als holistisch en uniform. Ze hebben ook de convergentie van Endpoint Protection met detectie van eindpunt detectie en-functionaliteit bevestigd, aangezien de hacker nu volledig wordt besproken in oplossingen.
+De functies EDR en Endpoint Protection van Microsoft Defender kunnen positieve resultaten ontvangen van hoogopgeleide tests en publicaties. [Sc Labs geschatte beveiligingshulpprogramma's voor eindpunten](https://www.scmagazine.com/home/reviews/sc-product-reviews-endpoint-security/) in juni 2020 en gaf Microsoft Defender ATP [5/5 sterren](https://www.scmagazine.com/review/microsoft-defender-advanced-threat-protection/). De persoon heeft de mogelijkheid Microsoft Defender ATP te beschermen voor de bescherming van organisaties tegen een modern risico met een volledige reeks beveiligingsmogelijkheden. Met SC Labs is ook de beveiligingsoplossing voor het eindpunt geïdentificeerd als holistisch en uniform. Ze hebben ook de convergentie van Endpoint Protection met detectie van eindpunt detectie en-functionaliteit bevestigd, aangezien de hacker nu volledig wordt besproken in oplossingen.
 
 ### <a name="mitre-industry-leading-optics-and-detection-capabilities"></a>MITRE: toonaangevende mogelijkheden voor de detectie en detectie
 
@@ -115,7 +119,7 @@ MITRE getest de mogelijkheid van producten voor het detecteren van technieken di
 
 Onafhankelijke beveiligings laboratoria testen streven ernaar de beste antivirus-en beveiligingsproducten op een onobjectiefe wijze te evalueren. In Microsoft ziet u echter een bredere en bredere set bedreigingen met een uitgaand onderzoek wat is getest in dit artikel. De beveiligingsproducten van Microsoft identificeren in een maand gemiddeld een nieuwe bedreiging van 100.000.000. Zelfs als een onafhankelijke tester 1% van deze bedreigingen kan verkrijgen en testen, is dit een miljoen proef van 20 of 30 producten. Met andere woorden: de enorme hoeveelheid bescherming van de malware zorgt ervoor dat u moeilijk de kwaliteit van de bescherming tegen werkelijke wereld bedreigingen evalueert.
 
-De mogelijkheden in Microsoft Defender ATP bieden [extra beschermingsniveaus](https://cloudblogs.microsoft.com/microsoftsecure/2017/12/11/detonating-a-bad-rabbit-windows-defender-antivirus-and-layered-machine-learning-defenses) die niet worden gefactoreerd voor antivirus tests en de nieuwste en de meest gebruikte bedreigingen. Wanneer u AV van de rest van Microsoft Defender ATP isoleert, wordt er een deel van de beveiligings stack van Microsoft in de praktijk gebruikgemaakt. Als u bijvoorbeeld de beperking voor risico detectie en de detectie van een aanval &, kunt u ervoor zorgen dat malware niet op de eerste plaats van de apparaten kan worden opgehaald. We hebben bewezen dat Microsoft [Defender ATP onderdelen werkelijk monsters ondervangen](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2ouJA) , wat Microsoft Defender antivirus in deze bedrijfstak tests mist. De beveiligingssuite van Microsoft verveiligt klanten op de wereld.
+De mogelijkheden in Microsoft Defender ATP bieden [extra beschermingsniveaus](https://cloudblogs.microsoft.com/microsoftsecure/2017/12/11/detonating-a-bad-rabbit-windows-defender-antivirus-and-layered-machine-learning-defenses) die niet worden gefactoreerd voor antivirus tests en de nieuwste en de meest gebruikte bedreigingen. Wanneer u AV van de rest van Microsoft Defender ATP isoleert, wordt er een deel van de beveiligings stack van Microsoft in de praktijk gebruikgemaakt. Als u bijvoorbeeld de beperking voor risico detectie en de detectie van een aanval &, kunt u ervoor zorgen dat malware niet op de eerste plaats van de apparaten kan worden opgehaald. We hebben bewezen dat Microsoft [Defender ATP onderdelen werkelijk monsters ondervangen](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2ouJA) , wat Microsoft Defender antivirus in deze bedrijfstak tests mist. Het is meer medewerker van Microsoft de beveiligingssuite van Microsoft beschermt klanten in de praktijk.
 
 [Lees meer over Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) en evalueer dit in uw eigen netwerk door u aan te melden voor een [proefversie van 90 voor Microsoft Defender](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp)of [voor het inschakelen van Voorbeeldfuncties voor bestaande tenants](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/preview).
 
