@@ -20,13 +20,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
-description: 'Informatie over het instellen van een verloopbeleid voor wachtwoorden voor uw bedrijf in het Microsoft 365-beheercentrum. '
-ms.openlocfilehash: e95184bda631a5efaad0376c766ce5408c0a95e7
-ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
+description: Informatie over het instellen van een verloopbeleid voor wachtwoorden voor uw bedrijf in het Microsoft 365-beheercentrum.
+ms.openlocfilehash: 59e9f4e36843d7c5d977a49d42ae0a11e9a2db25
+ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868865"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47362107"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Het wachtwoordverloopbeleid voor uw organisatie instellen:
 
@@ -37,11 +37,17 @@ ms.locfileid: "46868865"
 
 ::: moniker-end
 
-Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een bedrijf, school of non-profitorganisatie opstellen.  
+## <a name="before-you-begin"></a>Voordat u begint
+
+Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een bedrijf, school of non-profitorganisatie opstellen. Voor het uitvoeren van deze stappen moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](../admin-overview/admin-overview.md).
+
+U moet een [globale beheerder of wachtwoordbeheerder](../add-users/about-admin-roles.md) zijn om deze stappen uit te voeren.
 
 Als u een gebruiker bent, bent u niet gemachtigd om uw wachtwoord zo in te stellen dat het nooit verloopt. Vraag de technische ondersteuning van uw werk of school om de stappen in dit artikel voor u uit te voeren.
 
-Als beheerder kunt u instellen dat gebruikerswachtwoorden na een bepaald aantal dagen verlopen of dat deze nooit verlopen. 
+Als beheerder kunt u instellen dat gebruikerswachtwoorden na een bepaald aantal dagen verlopen of dat deze nooit verlopen.
+
+## <a name="set-password-expiration-policy"></a>Wachtwoordverloopbeleid instellen
 
 > [!Tip]
 > Wachtwoorden verlopen standaard na 90 dagen. Recent onderzoek geeft sterk aan dat verplichte wachtwoordwijzigingen meer kwaad dan goed doen. Gebruikers kiezen dan voor zwakkere wachtwoorden, hergebruik van wachtwoorden of ze werken oude wachtwoorden bij op een manier die eenvoudig te raden is voor hackers. Als u de wachtwoorden instelt om nooit te verlopen, raden we u aan [meervoudige verificatie](../security-and-compliance/set-up-multi-factor-authentication.md) in te schakelen.
@@ -62,7 +68,7 @@ Volg onderstaande stappen als u wilt instellen dat gebruikerswachtwoorden na een
 5. Geef op hoe vaak wachtwoorden moeten verlopen. Kies een aantal dagen tussen 14 en 730.
   
 6. Geef in het tweede vak op wanneer gebruikers een melding ontvangen over het verlopen van het wachtwoord en selecteer vervolgens **Opslaan**. Kies een aantal dagen tussen 1 en 30.
-    
+
 7. Wanneer het wachtwoord van de gebruiker verloopt, krijgt deze een melding die wordt weergegeven in de rechterbenedenhoek van het scherm.
   
 ## <a name="important-things-you-need-to-know-about-the-password-expiration-feature"></a>Belangrijke dingen die u moet weten over de functie voor verlopen wachtwoorden
@@ -70,9 +76,9 @@ Volg onderstaande stappen als u wilt instellen dat gebruikerswachtwoorden na een
 Hier volgen enkele belangrijke punten over de huidige werking van deze functie sinds januari 2018:
   
 - Personen die alleen gebruikmaken van de Outlook-app worden niet gedwongen hun Microsoft 365-beheerderswachtwoord opnieuw in te stellen voordat het in de cache is verlopen. Dit kan enkele dagen na de feitelijke verloopdatum in beslag nemen. Op beheerdersniveau is er geen tijdelijke oplossing voor dit probleem.
-    
+
 - Gebruikers ontvangen geen melding per e-mail dat hun wachtwoord binnen X aantal dagen verloopt. Wilt u deze functie gebruiken? **[Stem hier](https://office365.uservoice.com/forums/273493-office-365-admin/suggestions/15028344-office-365-password-email-notification)**
-    
+
 ## <a name="prevent-last-password-from-being-used-again"></a>Voorkomen dat laatste wachtwoord opnieuw wordt gebruikt
 
 Als u wilt voorkomen dat uw gebruikers oude wachtwoorden opnieuw gebruiken, kunt u dit doen door Wachtwoordgeschiedenis afdwingen in te stellen in on-premises Active Directory (AD). Raadpleeg [Een aangepast wachtwoordbeleid aanmaken](https://docs.microsoft.com/azure/active-directory-domain-services/password-policy#create-a-custom-password-policy).
@@ -85,9 +91,18 @@ Dit artikel gaat over het instellen van het vervalbeleid voor gebruikers die all
   
 Zie [Wachtwoordhashsynchronisatie met Azure AD Connect-synchronisatie implementeren](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization) voor informatie over het synchroniseren van gebruikerswachtwoordhashes in een on-premises AD met gebruikerswachtwoordhashes in Azure AD.
 
+## <a name="password-policies-and-account-restrictions-in-azure-active-directory"></a>Wachtwoordbeleid en accountbeperkingen in Azure Active Directory.
+
+U kunt meer wachtwoordbeleidsregels en beperkingen in Azure Active Directory instellen. Voor meer informatie, gaat u naar [Wachtwoordbeleid en accountbeperkingen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy).
 
 ## <a name="update-password-policy"></a>Wachtwoordbeleid bijwerken
 
 Met de cmdlet Set-MsolPasswordPolicy wordt het wachtwoordbeleid van een opgegeven domein of tenant bijgewerkt. Er zijn twee instellingen vereist. De eerste is om aan te geven hoe lang een wachtwoord geldig mag blijven voordat het moet worden gewijzigd en de tweede is om het aantal dagen aan te geven tot de vervaldatum van het wachtwoord, wat de eerste melding activeert die gebruikers ontvangen en hen vertelt dat het wachtwoord binnenkort vervalt.
 
 Voor meer informatie over het bijwerken van wachtwoordbeleid voor een specifiek domein of tenant, raadpleegt u [Set-MsolPasswordPolicy](https://docs.microsoft.com/powershell/module/msonline/set-msolpasswordpolicy?view=azureadps-1.0).
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen](../add-users/let-users-reset-passwords.md)
+
+[Wachtwoorden opnieuw instellen](../add-users/reset-passwords.md)

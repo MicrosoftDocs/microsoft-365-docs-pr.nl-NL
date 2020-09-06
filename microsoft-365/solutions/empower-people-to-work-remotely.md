@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 07/23/2020
+ms.date: 09/02/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: Configureer de beveiligings- en service-infrastructuur waardoor uw werknemers altijd en overal op afstand kunnen werken.
-ms.openlocfilehash: 17cc826f5cf28ff375deaf1e6a4b192700eebf2f
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: b0f6816ad758f374f2512076939cfa6392b748de
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898126"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357300"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Externe werknemers mogelijkheden bieden met Microsoft 365
 
@@ -37,13 +37,33 @@ Microsoft 365 biedt de mogelijkheden om uw werknemers in staat te stellen om op 
 
 ![Uw externe werknemers mogelijkheden bieden met Microsoft 365](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
 
-| Belangrijkste functie | Beschrijving |
-|:-------|:-----|
-| Verbonden | Externe werknemers hebben overal ter wereld en op elk gewenst moment toegang tot: <ul><li>Op de cloud gebaseerde services en gegevens in uw Microsoft 365-abonnement. </li><li>Resources van de organisatie, zoals de resources van on-premises toepassingsdatacenters.</li></ul> |
-| Beveiligd | Aanmeldingen worden beveiligd met meervoudige verificatie (MFA) en ingebouwde beveiligingsfuncties van Microsoft 365 en Windows 10 beveiligen tegen malware, kwaadwillige aanvallen en gegevensverlies. |
-| Beheerd | De apparaten van uw externe werknemers kunnen worden beheerd vanuit de cloud met beveiligingsinstellingen, toegestane apps en door naleving van de systeemstatus te vereisen. |
-| Samenwerking en productiviteit | Uw externe werknemers kunnen net zo productief zijn als op kantoor in een omgeving waar samenwerking eenvoudig is met: <ul><li>Online vergaderingen en chatsessies met Teams. </li><li>Gedeelde werkruimten voor cloudopslag met wereldwijde toegankelijkheid en realtime samenwerking met SharePoint en OneDrive. </li><li>Gedeelde taken en werkstromen om het werk te verdelen en taken uit te voeren. </li></ul> |
-|||
+Bekijk deze video voor een overzicht van het implementatieproces.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4F1af]
+
+Deze oplossing biedt de volgende belangrijke mogelijkheden.
+
+- Verbonden
+
+  Externe werknemers hebben overal ter wereld en op elk gewenst moment toegang tot: 
+
+  - Op de cloud gebaseerde services en gegevens in uw Microsoft 365-abonnement. 
+  - Resources van de organisatie, zoals de resources van on-premises toepassingsdatacenters.
+
+- Beveiligd
+
+  Aanmeldingen worden beveiligd met meervoudige verificatie (MFA) en ingebouwde beveiligingsfuncties van Microsoft 365 en Windows 10 beveiligen tegen malware, kwaadwillige aanvallen en gegevensverlies.
+
+- Beheerd
+
+  De apparaten van uw externe werknemers kunnen worden beheerd vanuit de cloud met beveiligingsinstellingen, toegestane apps en door naleving van de systeemstatus te vereisen.
+
+- Samenwerking en productiviteit
+
+  Uw externe werknemers kunnen net zo productief zijn als op kantoor in een omgeving waar samenwerking eenvoudig is met:
+  - Online vergaderingen en chatsessies met Teams. 
+  - Gedeelde werkruimten voor cloudopslag met wereldwijde toegankelijkheid en realtime samenwerking met SharePoint en OneDrive.
+  - Gedeelde taken en werkstromen om het werk te verdelen en taken uit te voeren. 
 
 Voor een naadloze aanmelding moeten de on-premise gebruikersaccounts van Active Directory Domain Services (AD DS) worden gesynchroniseerd met Azure Active Directory (Azure AD). Als u uw Windows 10-apparaten wilt beveiligen, moeten ze worden ingeschreven in Intune. Dit is een algemeen overzicht van de infrastructuur.
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. De Servicebeheerder opent bijvoorbeeld supporttickets met Microsoft.
-ms.openlocfilehash: 361c6599dfccbe7a80fa520bcd1fa988a1fae536
-ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
+ms.openlocfilehash: d80207ac264cb1b649f631d358c86809c2992a8e
+ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506283"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47361771"
 ---
 # <a name="about-admin-roles"></a>Informatie over beheerdersrollen
 
@@ -40,6 +40,10 @@ Zoekt u een volledige lijst met uitgebreide beschrijvingen van Azure AD-rollen d
 Zoekt u een volledige lijst met uitgebreide beschrijvingen van Intune-rollen die u kunt beheren in het Microsoft 365-Beheercentrum?  Bekijk [op rollen gebaseerd toegangsbeheer (RBAC) met Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control).
 
 Zie [beheerdersrollen toewijzen](assign-admin-roles.md)voor meer informatie over het toewijzen van rollen in het Microsoft 365-beheercentrum.
+
+### <a name="watch-what-is-an-admin"></a>Bekijk: Wat is een beheerder?
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SRc0]
 
 ## <a name="security-guidelines-for-assigning-roles"></a>Beveiligingsrichtlijnen voor het toewijzen van rollen
 
