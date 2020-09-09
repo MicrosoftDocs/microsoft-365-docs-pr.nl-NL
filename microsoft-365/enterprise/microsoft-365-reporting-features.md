@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Meer informatie over diverse rapportfuncties in Microsoft 365, waaronder Azure Active Directory en Exchange Online.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3beb327bd5cb995c378a414e19cc54dea8ad1304
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: 59a7569518ad3e4704b3528d175c092b0a19b819
+ms.sourcegitcommit: 294a51ef0ff48dddb659c602e047d7fd98f91172
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332734"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47407914"
 ---
 # <a name="microsoft-365-reporting-features"></a>Rapportagefuncties in Microsoft 365
 
@@ -71,9 +71,9 @@ Controlerapporten van Exchange Online bevatten informatie over toegang tot het p
 
 ## <a name="device-compliance-reports"></a>Rapporten over apparaatcompatibiliteit
 
-U beheert en verveiligt mobiele apparaten die zijn verbonden met uw abonnement met behulp van het MDM (Mobile Device Management) van Microsoft 365. Mobiele apparaten die worden gebruikt om toegang te krijgen tot e-mail, agenda, contactpersonen en documenten speelt een belangrijk deel aan om ervoor te zorgen dat werknemers overal en overal kunnen werken. Het is belangrijk dat u de gegevens van uw organisatie beschermt. U gebruikt Microsoft 365 MDM om beveiligingsbeleid en toegangsregels voor apparaten in te stellen. Als u gaat verloren of gestolen, gebruikt u Microsoft 365 MDM ook om mobiele apparaten te wissen.
+U beheert en verveiligt mobiele apparaten die zijn verbonden met uw abonnement met basis mobiliteit en beveiliging voor Microsoft 365. Mobiele apparaten die worden gebruikt om toegang te krijgen tot e-mail, agenda, contactpersonen en documenten speelt een belangrijk deel aan om ervoor te zorgen dat werknemers overal en overal kunnen werken. Het is belangrijk dat u de gegevens van uw organisatie beschermt. Met basis mobiliteit en beveiliging voor Microsoft 365 kunt u beveiligingsbeleid en toegangsregels voor apparaten instellen. Als u gaat verloren of gestolen, gebruikt u ook eenvoudige mobiliteit en beveiliging voor Microsoft 365 om mobiele apparaten te wissen.
 
-Nalevings rapporten van MDM bieden een overzicht van beleidsregels die door een organisatie zijn ingesteld voor het beveiligen van mobiele apparaten die toegang hebben tot gegevens van Microsoft 365. In het rapport kunt u apparaten filteren op nalevingsstatus, gerapporteerde overtredingen, geblokkeerde apparaten en het aantal apparaten dat wordt gewist als gevolg van beveiligingsbeleid. Zie voor meer informatie [overzicht van Mobile Device Management voor Microsoft 365](https://support.microsoft.com/office/overview-of-mobile-device-management-mdm-for-microsoft-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a).
+Basisrapporten met mobiliteit en beveiligings naleving bieden een overzicht van beleidsregels die door een organisatie zijn ingesteld voor het beveiligen van mobiele apparaten die toegang hebben tot gegevens van Microsoft 365. In het rapport kunt u apparaten filteren op nalevingsstatus, gerapporteerde overtredingen, geblokkeerde apparaten en het aantal apparaten dat wordt gewist als gevolg van beveiligingsbeleid. Zie voor meer informatie een [overzicht van basis mobiliteit en beveiliging voor Microsoft 365](https://support.microsoft.com/office/overview-of-basic-mobility-and-security-for-microsoft-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a).
 
 ## <a name="data-loss-prevention"></a>Preventie van gegevensverlies
 

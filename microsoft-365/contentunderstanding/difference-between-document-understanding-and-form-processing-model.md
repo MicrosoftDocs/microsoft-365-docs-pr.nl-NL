@@ -11,12 +11,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: In dit artikel wordt het verschil beschreven tussen document begrijpt en formulier verwerkings modellen.
-ms.openlocfilehash: 7c480b91c1ddd75016b4bd35faa3d5692cacd103
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 972fa9e8446a44f6220baa7cde3f484172c50da6
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612736"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405615"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models-preview"></a>Verschil tussen document begrijpt en formulier verwerkings modellen (preview)
 
@@ -31,7 +31,7 @@ Met inhoud kunt u *modellen* maken waarmee de benodigde gegevens worden geïdent
 - [Documenten begrijpen met modellen](document-understanding-overview.md)
 - [Formulier verwerkings modellen](form-processing-overview.md)
 
-Hoewel beide modellen voor algemeen dezelfde doeleinden worden gebruikt, zijn er belangrijke verschillen die van invloed kunnen zijn op welke modellen u kunt gebruiken.
+Hoewel beide modellen voor algemeen dezelfde doeleinden worden gebruikt, is er sprake van belangrijke verschillen die van invloed zijn op de manier waarop u kunt kiezen.
 
 
 ## <a name="structured-versus-unstructured-and-semi-structured-content"></a>Gestructureerd versus niet-gestructureerd en gedeeltelijk gestructureerde inhoud
@@ -46,7 +46,7 @@ Document leren hoe modellen worden gemaakt en beheerd op een SharePoint-inhouds 
 
 Wanneer u een document maakt wat het model is, maakt u een nieuw [SharePoint-inhoudstype](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978) dat is opgeslagen in de galerie met SharePoint-inhoudstypen. U kunt eventueel bestaande inhoudstypen gebruiken om zo nodig uw model te definiëren.
 
-Formulier verwerkings modellen worden gemaakt in PowerApps [AI Builder](https://docs.microsoft.com/ai-builder/overview), maar het maken van een SharePoint-document bibliotheek wordt direct geïnitieerd. Het maken van een model voor formulierverwerking moet zijn ingeschakeld in de documentbibliotheek om een gebruiker hiervoor een formulier verwerkings model te kunnen maken, en een beheerder kan dit doen met de inhoud van de beheerdersinstellingen. Formulier verwerkings modellen gebruiken PowerAutomate-stromen om bestanden te verwerken wanneer ze worden geüpload naar de documentbibliotheek.
+Formulier verwerkings modellen worden gemaakt in PowerApps [AI Builder](https://docs.microsoft.com/ai-builder/overview), maar het maken van een SharePoint-documentbibliotheek wordt direct geïnitieerd. Het maken van een model voor formulierverwerking moet zijn ingeschakeld in de documentbibliotheek om een gebruiker hiervoor een formulier verwerkings model te kunnen maken, en een beheerder kan dit doen met de inhoud van de beheerdersinstellingen. Formulier verwerkings modellen gebruiken PowerAutomate-stromen om bestanden te verwerken wanneer ze worden geüpload naar de documentbibliotheek.
 
 Voor formulier verwerkings modellen worden ook nieuwe [SharePoint-inhoudstypen](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978)gemaakt, die ook zijn opgeslagen in de galerie met SharePoint-inhoudstypen.
 

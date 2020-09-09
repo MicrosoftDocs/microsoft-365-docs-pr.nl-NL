@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Wat zijn de aanbevolen procedures voor beveiligingsinstellingen van Exchange Online Protection (EOP) en Advanced Threat Protection (ATP)? Wat is de huidige aanbevelingen voor standaardbeveiliging? Wat moet worden gebruikt als u striktere informatie wilt? En welke extra's ontvangt u als u ook Advanced Threat Protection (ATP) gebruikt?
-ms.openlocfilehash: ea1c04c503fa6ecac66a6378ec466c7ea6cc4133
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 1022accb992fbc0aee92b8da97f9d8a48cbe35f2
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653573"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405381"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Aanbevolen instellingen voor EOP en Office 365 ATP-beveiliging
 
@@ -49,7 +49,7 @@ Zie [Antispambeleid in Office 365 configureren](configure-your-spam-filter-polic
 
 ****
 
-|Naam van beveiligingsfunctie|Verre|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standard|Klep|Opmerking|
 |---|---|---|---|
 |**Spam** detectie actie <br/><br/> _SpamAction_|**Bericht verplaatsen naar map Ongewenste e-mail** <br/><br/> `MoveToJmf`|**Quarantaine bericht** <br/><br/> `Quarantine`||
 |**Hoge betrouwbaarheid van spam** detectie actie <br/><br/> _HighConfidenceSpamAction_|**Quarantaine bericht** <br/><br/> `Quarantine`|**Quarantaine bericht** <br/><br/> `Quarantine`||
@@ -103,7 +103,7 @@ Zie [limieten verzenden](https://docs.microsoft.com/office365/servicedescription
 
 ****
 
-|Naam van beveiligingsfunctie|Verre|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standard|Klep|Opmerking|
 |---|---|---|---|
 |**Maximum aantal geadresseerden per gebruiker: extern uur limiet** <br/><br/> _RecipientLimitExternalPerHour_|500|400||
 |**Maximaal aantal geadresseerden per gebruiker: intern uur limiet** <br/><br/> _RecipientLimitInternalPerHour_|1000|800||
@@ -117,7 +117,7 @@ Zie [anti malware-beleidsregels in Office 365 configureren](configure-anti-malwa
 
 ****
 
-|Naam van beveiligingsfunctie|Verre|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standard|Klep|Opmerking|
 |---|---|---|---|
 |**Wilt u geadresseerden informeren wanneer hun berichten in quarantaine worden geplaatst?** <br/><br/> _Actierij_|Nee <br/><br/> _DeleteMessage_|Nee <br/><br/> _DeleteMessage_|Als er malware in een e-mailbijlage is gedetecteerd, wordt het bericht in quarantaine geplaatst en kan het alleen door een beheerder worden vrijgegeven.|
 |**Algemene bijlage typen filter** <br/><br/> _EnableFileFilter_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Met deze instelling worden berichten in quarantaine geplaatst die uitvoerbare bijlagen bevatten op basis van bestandstypen, ongeacht de inhoud van de bijlage.|
@@ -132,7 +132,7 @@ Zie [spoof Settings (spoof Settings](set-up-anti-phishing-policies.md#spoof-sett
 
 ****
 
-|Naam van beveiligingsfunctie|Verre|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standard|Klep|Opmerking|
 |---|---|---|---|
 |**Anti spoofing-beveiliging inschakelen** <br/><br/> _EnableAntispoofEnforcement_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
 |**Niet-geverifieerde afzender inschakelen** <br/><br/> _EnableUnauthenticatedSender_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Voegt een vraagteken (?) toe aan de foto van de afzender in Outlook voor niet-aangewezen vervalste afzenders. Zie voor meer informatie [spoofberichten instellingen in anti-phishingfilter](set-up-anti-phishing-policies.md).|
@@ -146,7 +146,7 @@ Extra beveiligingsvoordelen worden geleverd met een abonnement op Office 365 Adv
 Office 365 ATP bevat de beleidsregels voor veilige bijlagen en veilige koppelingen om e-mail met mogelijk schadelijke bijlagen te voorkomen, en om te voorkomen dat gebruikers op mogelijk onveilige Url's klikken.
 
 > [!IMPORTANT]
-> Geavanceerde anti-phishing is een van de voordelen van een ATP-abonnement van Office 365. Hoewel het standaard is ingeschakeld, ***moet*** u minimaal één anti-phishings beleid configureren voordat u e-mail kunt filteren. Een beperking voor het configureren van een anti-phishingfilter-beleid kan gebruikers voor een risicovolle e-mail bebloot stellen. Zorg ervoor dat u uw anti phishingberichten configureert wanneer u een Office 365-ATP-abonnement toevoegt.
+> Geavanceerde anti-phishing is een van de voordelen van een ATP-abonnement van Office 365. Het standaard ATP anti phishingfilter biedt de bescherming van de [spoofing](set-up-anti-phishing-policies.md#spoof-settings) voor alle geadresseerden. De beschikbare instellingen voor [imitatie beveiliging](#impersonation-settings-in-atp-anti-phishing-policies) van bepaalde afzenders of het verzenden van domeinen worden echter niet geconfigureerd of ingeschakeld in het standaardbeleid. Als u de bescherming van de bescherming van de bescherming wilt inschakelen, moet u minimaal één anti-phishings beleid configureren.
 
 Als u een Office 365 ATP-abonnement hebt toegevoegd aan uw EOP, moet u de volgende configuraties instellen.
 
@@ -160,7 +160,7 @@ Zie voor meer informatie over deze instellingen de [instelling in een anti-phish
 
 ****
 
-|Naam van beveiligingsfunctie|Verre|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standard|Klep|Opmerking|
 |---|---|---|---|
 |Beveiligde gebruikers: **gebruikers toevoegen om te beschermen** <br/><br/> _EnableTargetedUserProtection_ <br/><br/> _TargetedUsersToProtect_|Aan <br/><br/> `$true` <br/><br/> \<list of users\>|Aan <br/><br/> `$true` <br/><br/> \<list of users\>|Afhankelijk van uw organisatie, wordt u aangeraden gebruikers toe te voegen in belangrijke rollen. Intern zijn dit mogelijk de directeur, CFO en andere leidinggevenden. Extern kunnen dit deelnemen aan de leden van de Raad of van het bord van directeur.|
 |Beveiligde domeinen: **automatisch de domeinen opnemen waarvan ik eigenaar ben** <br/><br/> _EnableOrganizationDomainsProtection_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
@@ -183,7 +183,7 @@ Dit zijn de instellingen die beschikbaar zijn in de instellingen voor [Antispamb
 
 ****
 
-|Naam van beveiligingsfunctie|Verre|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standard|Klep|Opmerking|
 |---|---|---|---|
 |**Anti spoofing-beveiliging inschakelen** <br/><br/> _EnableAntispoofEnforcement_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
 |**Niet-geverifieerde afzender inschakelen** <br/><br/> _EnableUnauthenticatedSender_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Voegt een vraagteken (?) toe aan de foto van de afzender in Outlook voor niet-aangewezen vervalste afzenders. Zie voor meer informatie [spoofberichten instellingen in anti-phishingfilter](set-up-anti-phishing-policies.md).|
@@ -196,7 +196,7 @@ Zie voor meer informatie over deze instelling [Geavanceerde phishingberichten in
 
 ****
 
-|Naam van beveiligingsfunctie|Verre|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standard|Klep|Opmerking|
 |---|---|---|---|
 |**Geavanceerde phishingberichten** <br/><br/> _PhishThresholdLevel_|**2-agressief** <br/><br/> `2`|**3-meer agressief** <br/><br/> `3`||
 
@@ -210,21 +210,21 @@ Zie [beleidsregels voor veilige koppelingen van Office 365 instellen](set-up-atp
 
 ****
 
-|Naam van beveiligingsfunctie|Verre|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standard|Klep|Opmerking|
 |---|---|---|---|
 |**Veilige koppelingen gebruiken in: Office 365-toepassingen** <br/><br/> _EnableSafeLinksForO365Clients_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Gebruik op de PC-en Mobile-clients van Office 365 Office.|
-|**Veilige koppelingen gebruiken in: Office Web Access-assistenten** <br/><br/> _EnableSafeLinksForWebAccessCompanion_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Gebruik in Office Web apps de veilige ATP-koppelingen.|
+|**Veilige koppelingen gebruiken in: Office Web Access-assistenten** <br/><br/> _EnableSafeLinksForWebAccessCompanion_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Gebruik in Office Web apps de veilige ATP-koppelingen. Let op: deze instelling kan niet worden geconfigureerd.|
 |**Niet bijhouden wanneer gebruikers op veilige koppelingen klikken** <br/><br/> _TrackClicks_|Uit <br/><br/> `$true`|Uit <br/><br/> `$true`||
 |**Gebruikers niet laten klikken via veilige koppelingen naar de oorspronkelijke URL** <br/><br/> _AllowClickThrough_|Aan <br/><br/> `$false`|Aan <br/><br/> `$false`||
 |
 
 #### <a name="safe-links-policy-settings-in-custom-policies-for-specific-users"></a>Beleidsinstellingen voor veilige koppelingen in aangepaste beleidsregels voor specifieke gebruikers
 
-**Opmerking**: in PowerShell gebruikt u de cmdlets [New-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy) en [set-SafeLinksPolicy] ( https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy ] voor deze instellingen.
+**Opmerking**: in PowerShell gebruikt u de cmdlets [New-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy) en [set-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) voor deze instellingen.
 
 ****
 
-|Naam van beveiligingsfunctie|Verre|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standard|Klep|Opmerking|
 |---|---|---|---|
 |**Selecteer de actie voor onbekende, mogelijk schadelijke Url's in berichten** <br/><br/> _IsEnabled_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
 |**Selecteer de actie voor onbekende of mogelijk schadelijke Url's in Microsoft teams** <br/><br/> _EnableSafeLinksForTeams_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
@@ -245,7 +245,7 @@ Als u deze instellingen wilt configureren, raadpleegt u [Office 365 ATP voor vei
 
 ****
 
-|Naam van beveiligingsfunctie|Verre|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standard|Klep|Opmerking|
 |---|---|---|---|
 |**ATP voor SharePoint, OneDrive en Microsoft Teams inschakelen** <br/><br/> _EnableATPForSPOTeamsODB_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
 |**Veilige documenten voor Office-clients inschakelen**<bt/><br/> _EnableSafeDocs_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||Deze instelling is alleen beschikbaar in de beveiligings licenties voor Microsoft 365 E5 of Microsoft 365 E5. Zie voor meer informatie [veilige documenten in Office 365 Advanced Threat Protection](safe-docs.md).|
@@ -258,9 +258,9 @@ Als u deze instellingen wilt configureren, raadpleegt u [Office 365 ATP voor vei
 
 ****
 
-|Naam van beveiligingsfunctie|Verre|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standard|Klep|Opmerking|
 |---|---|---|---|
-|**Veilige bijlagen onbekende schadelijk malware-antwoord** <br/><br/> _Actierij_|Geheven <br/><br/> `Block`|Geheven <br/><br/> `Block`||
+|**Veilige bijlagen onbekende schadelijk malware-antwoord** <br/><br/> _Actierij_|Blokkeren <br/><br/> `Block`|Blokkeren <br/><br/> `Block`||
 |**Bijlage omleiden bij detectie** : **omleiden inschakelen** <br/><br/> _Omleiden_ <br/><br/> _RedirectAddress_|Op en opgeven van een e-mailadres. <br/><br/> `$true` <br/><br/> een e-mailadres|Op en opgeven van een e-mailadres. <br/><br/> `$true` <br/><br/> een e-mailadres|Berichten doorsturen naar een beveiligingsbeheerder voor revisie.|
 |**De bovenstaande selectie toepassen als malware wordt gescand op bijlagen wanneer de fout optreedt.** <br/><br/> _ActionOnError_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
 |

@@ -13,17 +13,29 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 72155563a3249aa61075bc9f246b2a553e7b5191
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: f1606e62813aa63225113b38414338c4e2ff7d57
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289601"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405675"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Geschiedenis voor Microsoft Managed Desktop-documentatie wijzigen
 
 In dit artikel vindt u nieuwe en bijgewerkte artikelen in de [documentatie Microsoft Managed Desktop](index.yml). De artikelen ' updated ' zijn de artikelen die materieel zijn toegevoegd of correcties: tijdelijke oplossingen zoals correctie van typefouten, stijl of opmaakproblemen worden niet vermeld. U kunt altijd de geschiedenis van specifieke doorvoeren (inclusief details van eventuele wijzigingen) weergeven door te kijken [naar het repo op github](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
 
+## <a name="august-2020"></a>Augustus 2020
+Nieuw of gewijzigd artikel | Beschrijving
+--- | ---
+[Inventarisrapport voor apparaat](working-with-managed-desktop/device-inventory-report.md) | Nieuw artikel
+[Nieuwe Microsoft Edge-app](get-started/edge-browser-app.md) | Bijgewerkt artikel
+[Nieuwe apparaten zelf registreren](get-started/register-devices-self.md) | Bijgewerkt artikel
+[Bestaande apparaten zelf registreren](get-started/register-reused-devices-self.md) | Bijgewerkt artikel
+[Vereisten voor Microsoft Managed Desktop](get-ready/prerequisites.md) | Bijgewerkt artikel
+[Beveiligingsbewerkingen in Microsoft beheerde desktop](service-description/security-operations.md) | Nieuw artikel
+[Toegang tot de beheerportal](get-started/access-admin-portal.md) | Bijgewerkt artikel
+[Microsoft 365-apps voor ondernemingen](get-started/m365-apps.md) | Nieuw artikel
+[Privacy en persoonlijke gegevens](service-description/privacy-personal-data.md) | Nieuw artikel
 
 ## <a name="july-2020"></a>Juli 2020
 Nieuw of gewijzigd artikel | Beschrijving
@@ -51,7 +63,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 ## <a name="may-2020"></a>Mei 2020
 Nieuw of gewijzigd artikel | Beschrijving
 --- | ---
-[Help-informatie opvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Bijgewerkt artikel
+[Hulp aanvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Bijgewerkt artikel
 [Stappen voor partners om apparaten te registreren](get-started/register-devices-partner.md) | Bijgewerkt artikel
 [Beheerde bureaublad apparaten van Microsoft](service-description/device-list.md) | Bijgewerkt artikel
 [Nieuwe apparaten zelf registreren](get-started/register-devices-self.md) | Bijgewerkt artikel
@@ -91,7 +103,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 Nieuw of gewijzigd artikel | Beschrijving
 --- | ---
 [Uw gebruikers voorbereiden om apparaten te gebruiken](get-started/get-started-devices.md)| Bijgewerkt artikel
-[Contactpersonen voor beheer toevoegen en verifiëren in de Beheerportal](get-started/add-admin-contacts.md) | Bijgewerkt artikel
+[Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal](get-started/add-admin-contacts.md) | Bijgewerkt artikel
 [Apparaatconfiguratie](service-description/device-policies.md) | Bijgewerkt artikel
 
 
@@ -121,7 +133,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 Nieuw of gewijzigd artikel | Beschrijving
 --- | ---
 [Uitzonderingen op het serviceplan](service-description/customizing.md) | Nieuw artikel
-[Help-informatie opvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Bijgewerkt artikel
+[Hulp aanvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Bijgewerkt artikel
 [Ondersteuning voor beheerders voor Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md) | Bijgewerkt artikel
 [Servicewijzigingen en communicatie](service-description/servicechanges.md) | Nieuw artikel
 [Nieuwe apparaten zelf registreren](get-started/register-devices-self.md) | Bijgewerkt artikel
@@ -135,7 +147,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 Nieuw of gewijzigd artikel | Beschrijving
 --- | ---
 [Technologieën in Microsoft Managed Desktop](intro/technologies.md) | Bijgewerkt artikel
-[Help-informatie opvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Bijgewerkt artikel
+[Hulp aanvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Bijgewerkt artikel
 [Beheerde bureaublad apparaten van Microsoft](service-description/device-list.md) | Bijgewerkt artikel
 [Configureerbare instellingen implementeren en bijhouden: Microsoft Managed Desktop](working-with-managed-desktop/config-setting-deploy.md) | Bijgewerkt artikel
 [Ondersteuning voor beheerders voor Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md) | Bijgewerkt artikel
@@ -150,7 +162,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 --- | ---
 [Werken met Microsoft Consulting Services](get-ready/apps-mcs.md) | Bijgewerkt artikel
 [Ondersteuning voor beheerders voor Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md) | Bijgewerkt artikel
-[Help-informatie opvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Bijgewerkt artikel
+[Hulp aanvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Bijgewerkt artikel
 [Vereisten voor Microsoft Managed Desktop](get-ready/prerequisites.md) | Bijgewerkt artikel
 [Technologieën in Microsoft Managed Desktop](intro/technologies.md) | Bijgewerkt artikel
 
@@ -183,7 +195,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 [Toegewezen stations voorbereiden voor Microsoft Managed Desktop](get-ready/mapped-drives.md) | Nieuw artikel
 [Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop](get-ready/certs-wifi-lan.md) | Nieuw artikel
 [Microsoft beheerde bureaublad apparaten ordenen](get-started/devices.md) | Bijgewerkt artikel
-[Help-informatie opvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Nieuw artikel
+[Hulp aanvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Nieuw artikel
 
 ## <a name="april-2019"></a>April 2019
 Nieuw of gewijzigd artikel | Beschrijving

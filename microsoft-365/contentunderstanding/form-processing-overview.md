@@ -11,27 +11,27 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over het verwerken van formulieren in Project cortex.
-ms.openlocfilehash: dbea06cdf2dbb232a7ea48c78d7ea968dd18b9c0
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 44ae5d9cbfbabc5615a751dba5f6c13290fc7b35
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612724"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405626"
 ---
 # <a name="form-processing-overview-preview"></a>Overzicht van formulierverwerking (preview)
 > [!Note]
 > De inhoud in dit artikel is bedoeld voor project cortex private preview. [Lees meer over project cortex](https://aka.ms/projectcortex).
 
 Project cortex gebruikt Microsoft PowerApps [AI Builder Builder](https://docs.microsoft.com/ai-builder/overview) -formulierverwerking voor het maken van modellen binnen SharePoint-documentbibliotheken.
-U kunt de verwerking van een AI Builder-formulier gebruiken om AI-modellen te maken die gebruikmaken van machine learning Technology om sleutel-/waardeparen te identificeren en te extraheren uit gestructureerde of gedeeltelijk gestructureerde documenten, zoals formulier en facturen.
+U kunt de formulierverwerking van de AI-opbouwfunctie gebruiken om AI-modellen te maken die gebruikmaken van machine learning Technology om sleutel-/waardeparen te identificeren en te extraheren uit gestructureerd of gedeeltelijk gestructureerde documenten, zoals formulieren en facturen.
 
 Bedrijven ontvangen vaak grote hoeveelheden en van diverse bronnen, zoals e-mail, Fax, e-mailadres of persoon. Door deze documenten te verwerken en handmatig in te voeren in de database, kan dit veel tijd in beslag nemen. Met AI voor het extraheren van de tekst, sleutel-/waardeparen en tabellen uit uw documenten, wordt dit proces door de formulierverwerking geautomatiseerd. 
 
 U kunt bijvoorbeeld een formulier voor formulier verwerkings modellen maken waarmee alle documenten voor de aankooporders worden geïdentificeerd die worden geüpload naar de documentbibliotheek. Met een van de aankooporders kunt u specifieke gegevens die belangrijk voor u zijn, ophalen en weergeven, zoals *ko-nummer*, *datum*of *totale kosten*.
 
-U gebruikt voorbeeldbestanden om uw model uit te leggen en te definiëren welke gegevens uit het formulier worden opgehaald. De lay-out van uw document wordt geleerd door een training voor uw model. U hebt maar vijf formulier documenten nodig om aan de slag te gaan. AI-opbouwen analyseert uw voorbeeldbestanden voor de paren met sleutelwaarden en u kunt ze ook handmatig identificeren die niet zijn gevonden.  Met de AI-opbouwfunctie kunt u de nauwkeurigheid van uw model testen op uw voorbeeldbestanden.
+U gebruikt voorbeeldbestanden om uw model uit te leggen en te definiëren welke gegevens uit het formulier worden opgehaald. De lay-out van uw document wordt geleerd door een training voor uw model. U hebt maar vijf formulier documenten nodig om aan de slag te gaan. Met de AI-opbouwfunctie worden de voorbeeldbestanden geanalyseerd voor de paren met sleutelwaarden en kunt u deze handmatig identificeren.  Met de AI-opbouwfunctie kunt u de nauwkeurigheid van uw model testen op uw voorbeeldbestanden.
 
-Nadat u uw model hebt onderbouwd en gepubliceerd, kunt u een [Power Automatiseer-stroom](https://docs.microsoft.com/power-automate/getting-started) maken die wordt uitgevoerd als een bestand wordt geüpload naar de SharePoint-documentbibliotheek en de gegevens die zijn gevonden in het model, ophalen. De opgehaalde gegevens worden weergegeven in kolommen in de documentbibliotheekweergave van uw model.
+Wanneer u uw model hebt opgetraind en gepubliceerd, kunt u het gebruiken om een stroom [automatisering](https://docs.microsoft.com/power-automate/getting-started)te maken. De stroom wordt uitgevoerd wanneer een bestand wordt geüpload naar de SharePoint-documentbibliotheek en gegevens worden opgehaald die in het model zijn gevonden. De opgehaalde gegevens worden weergegeven in kolommen in de documentbibliotheekweergave van uw model.
 
 Een beheerder van Office 365 moet de [formulierverwerking inschakelen](https://docs.microsoft.com/microsoft-365/contentunderstanding/set-up-content-understanding?view=o365-worldwide#to-set-up-content-understanding) voor de SharePoint-documentbibliotheek, zodat gebruikers [een formulier verwerkings model kunnen maken](create-a-form-processing-model.md) .
 

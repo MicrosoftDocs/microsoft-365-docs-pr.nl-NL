@@ -1,22 +1,22 @@
-- name: Aan de slag met het begrijpen van inhoud
+- name: Aan de slag met uitleg over inhoud
   items:
-    - name: Overzicht van documentbegrip
+    - name: Overzicht van document
       href: document-understanding-overview.md
     - name: Overzicht van formulierverwerking
       href: form-processing-overview.md
-    - name: Verschil tussen een documentbegrip en formulierverwerkingsmodellen
+    - name: Het verschil tussen document begrijpt en formulier verwerkings modellen
       href: difference-between-document-understanding-and-form-processing-model.md
-    - name: Een inhoudscentrum maken
+    - name: Een inhouds centrum maken
       href: create-a-content-center.md
     - name: Een classificatie maken
       href: create-a-classifier.md
-    - name: Een afzuiger maken
+    - name: Een extractor maken
       href: create-an-extractor.md
     - name: Een model toepassen
       href: apply-a-model.md
-    - name: Een formulierverwerkingsmodel maken
+    - name: Een formulier verwerkings model maken
       href: create-a-form-processing-model.md
-- name: Aan de slag met setup
+- name: Aan de slag met Setup
   items:
-    - name: Inhoudsbegrip instellen
+    - name: Inhoud begrijpen
       href: set-up-content-understanding.md

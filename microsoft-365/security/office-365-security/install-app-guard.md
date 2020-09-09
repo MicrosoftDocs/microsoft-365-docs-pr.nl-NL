@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Geniet van de nieuwste isolatie op basis van hardware. Voorkomen dat huidige en opkomende aanvallen, zoals misbruik of kwaadaardige koppelingen, geen productiviteit voor werknemers en beveiliging van de werknemers kunnen storen.
-ms.openlocfilehash: d0a89e8f8874c9ad298bf862384019b9e1ace0bf
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 32a8705255bf4ae4f0e3678de9cd812b64107cfd
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867390"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405539"
 ---
 # <a name="application-guard-for-office-public-preview-for-admins"></a>Application Guard voor Office (openbare preview) voor beheerders
 
@@ -45,7 +45,7 @@ Microsoft Defender Application Guard voor Office (Application Guard voor Office)
 
 * **Windows 10**: Windows 10 Enterprise Edition, client Build versie 2004 (20H1) Build 19041
 * **Office**: Office Beta-kanaal Build versie 2008 16.0.13212 of hoger
-* **Update pakket**: cumulatieve maandelijkse beveiligingsupdates voor Windows 10 [KB4566782](https://support.microsoft.com/help/4566782/windows-10-update-kb4566782) 
+* **Update pakket**: cumulatieve maandelijkse beveiligingsupdates voor Windows 10 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756) 
 
 Voor gedetailleerde systeemvereisten raadpleegt u [systeemvereisten voor Microsoft Defender Application Guard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/reqs-md-app-guard). Zie aan de slag met [Office Insider-builds](https://insider.office.com/business/deploy)voor meer informatie over versies van Office Insider preview.
 
@@ -56,28 +56,9 @@ Voor gedetailleerde systeemvereisten raadpleegt u [systeemvereisten voor Microso
 
 ### <a name="enable-application-guard-for-office"></a>Application Guard voor Office inschakelen
 
-1.  Download en installeer de **cumulatieve maandelijkse beveiligingsupdates voor Windows 10 KB4566782**. 
+1.  Download en installeer de **cumulatieve maandelijkse beveiligingsupdates voor Windows 10 KB4571756**. 
 
-2. Download en Installeer [**Application Guard voor Office feature Guard package**](https://download.microsoft.com/download/e/4/c/e4c1180a-fcff-462a-8324-4151c44973a8/Windows%20Preview%20-%20WDAG%20Office%20070920%2001.msi). Met dit pakket installeert u een Groepsbeleid met de naam ' KB4559004 issue 001 preview ' onder Gebruikersconfiguratie\Beheersjablonen\Windows-onderdelen\Windows **sjablonen**. Stel dit groepsbeleid in op **ingeschakeld**.
-     ![Lokale groepsbeleidsobject editor](../../media/ag01-deploy.png)
-
-     ![KB4559004 probleem 001 preview](../../media/ag02-deploy.png)
-
-    U kunt ook de volgende registersleutels rechtstreeks instellen: 
-    
-    ```
-    reg add HKLM\SYSTEM\CurrentControlSet\Policies\Microsoft\FeatureManagement\Overrides /v 3457697930 /t REG_DWORD /d 1 
-    ```
-    ```
-    reg add HKLM\SYSTEM\CurrentControlSet\Policies\Microsoft\FeatureManagement\Overrides /v 94539402 /t REG_DWORD /d 1 
-    ```
-    Voer vervolgens deze PowerShell-opdracht uit: 
-    
-    ```powershell
-    Get-ScheduledTask -TaskName "ReconcileFeatures" -TaskPath "\Microsoft\Windows\Flighting\FeatureConfig\" | Start-ScheduledTask 
-    ```
-
-3.  Selecteer **Microsoft Defender Application Guard** onder Windows-functies en selecteer **OK**. Als u de functie Application Guard inschakelt, wordt de computer opnieuw opgestart. U kunt ervoor kiezen om nu opnieuw te starten of na stap 4.
+2.  Selecteer **Microsoft Defender Application Guard** onder Windows-functies en selecteer **OK**. Als u de functie Application Guard inschakelt, wordt de computer opnieuw opgestart. U kunt ervoor kiezen om nu of na stap 3 opnieuw te starten.
 
     ![Het dialoogvenster Windows-functies met AG](../../media/ag03-deploy.png)
     
@@ -87,7 +68,7 @@ Voor gedetailleerde systeemvereisten raadpleegt u [systeemvereisten voor Microso
     Enable-WindowsOptionalFeature -online -FeatureName Windows-Defender-ApplicationGuard 
     ```
 
-4.  Kijk voor de Microsoft Defender Application Guard in de bewerkingsmodus Groepsbeleid van de **computer configuratie \\ \\ Windows-onderdelen \\ Microsoft Defender Application Guard**. Zet dit beleid aan door de waarde onder opties als **2** of **3** in te stellen en klik vervolgens op **OK** of **toepassen**.
+3.  Kijk voor de Microsoft Defender Application Guard in de bewerkingsmodus Groepsbeleid van de **computer configuratie \\ \\ Windows-onderdelen \\ Microsoft Defender Application Guard**. Zet dit beleid aan door de waarde onder opties als **2** of **3** in te stellen en klik vervolgens op **OK** of **toepassen**.
 
     ![AG inschakelen in de beheerde modus](../../media/ag04-deploy.png)
   
@@ -98,7 +79,7 @@ Voor gedetailleerde systeemvereisten raadpleegt u [systeemvereisten voor Microso
     <br>Waarde: **2**
 
 
-5.  Start het systeem opnieuw op.
+4.  Start het systeem opnieuw op.
 
 ### <a name="set-diagnostics--feedback-to-send-full-data"></a>Diagnostische gegevens instellen & feedback voor het verzenden van volledige gegevens
 

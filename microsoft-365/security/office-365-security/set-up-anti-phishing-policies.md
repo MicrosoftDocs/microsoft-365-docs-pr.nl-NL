@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over het anti-phishings beleid dat beschikbaar is in Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: 7118bca15102fd52e7825ee873187fa11d9fc0f9
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: a68baf8f2598b8ca0cd13e45d18919ecfdccdacc
+ms.sourcegitcommit: 294a51ef0ff48dddb659c602e047d7fd98f91172
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308193"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47407926"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti malafide beleid in Microsoft 365
 
@@ -106,21 +106,23 @@ De volgende spoof-instellingen zijn beschikbaar in anti-phishingfilter en op een
     - [Geplaatste berichten en bestanden beheren als beheerder in Microsoft 365](manage-quarantined-messages-and-files.md)
     - [Geplaatste berichten zoeken en vrijgeven als een gebruiker in Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
 
-- **Niet-geverifieerde afzender**: Zie de beschrijving in het volgende gedeelte.
+- **Niet-geverifieerde afzender**: Zie de informatie in het volgende gedeelte.
 
 ### <a name="unauthenticated-sender"></a>Niet-geverifieerde afzender
 
 Niet-geverifieerde afzender-identificatie maakt deel uit van de [spoof-instellingen](#spoof-settings) die beschikbaar zijn in anti-phishingfilter en op een anti-PHISHINGFILTER van ATP zoals beschreven in de vorige sectie.
 
-Met de instelling **niet-geverifieerde afzender** schakelt u de identificatie van niet-geïdentificeerde afzender in Outlook in of uit. Precies
+Met de instelling niet- **geverifieerde afzender** schakelt u de identificatie van niet-geverifieerde afzender in Outlook in of uit. Precies
 
-- U kunt een vraagteken (?) toevoegen aan de foto van de afzender als het bericht SPF-of DKIM-controles niet doorschakelt **en** het bericht geen DMARC of [samengestelde verificatie](email-validation-and-authentication.md#composite-authentication)passeert.
+- U kunt een vraagteken (?) toevoegen aan de foto van de afzender als het bericht SPF-of DKIM-controles niet doorschakelt **en** het bericht geen DMARC of [samengestelde verificatie](email-validation-and-authentication.md#composite-authentication)passeert. Als u niet-geverifieerde afzender uitschakelt, wordt het vraagteken niet toegevoegd aan de foto van de afzender.
 
-- Met de tag via (chris@contoso.com <u>via</u> Michelle@fabrikam.com) wordt de toevoeging van het domein in het van-adres (de afzender van het bericht dat wordt weergegeven in e-mail cliënten) anders dan het domein in de-handtekening of het **e-mail** adres. Zie voor meer informatie over deze adressen [een overzicht van e-mail standaarden](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
+- Met de tag via (chris@contoso.com <u>via</u> Michelle@fabrikam.com) wordt de toevoeging van het domein in het van-adres (de afzender van het bericht dat wordt weergegeven in e-mail cliënten) anders dan het domein in de-handtekening of het **e-mail** adres. Zie [een overzicht van de standaarden voor e-mailberichten](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)voor meer informatie over deze adressen.
 
-Als u wilt voorkomen dat deze id's worden toegevoegd aan berichten van specifieke afzenders, hebt u de volgende opties:
+  Niet-geverifieerde afzender-id wordt niet voorkomen dat de via-code kan worden toegevoegd als het domein in het van-adres afwijkt van het domein in de DKIM-handtekening of het e-MAIL adres.
 
-- Laat de afzender spoofen in het beleid voor spoof Intelligence. Zie voor instructies voor instructies het artikel [spoof Intelligence configureren in Microsoft 365](learn-about-spoof-intelligence.md).
+U hebt de volgende opties om te voorkomen dat het vraagteken of via tag wordt toegevoegd aan berichten van specifieke afzenders:
+
+- Laat de afzender spoofen in het beleid voor spoof Intelligence. Met deze actie wordt voorkomen dat de via-code in berichten van de afzender wordt weergegeven als de id van de niet-geverifieerde afzender is uitgeschakeld. Zie voor instructies voor instructies het artikel [spoof Intelligence configureren in Microsoft 365](learn-about-spoof-intelligence.md).
 
 - [Configureer e-mail verificatie](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) voor het domein van de afzender.
   

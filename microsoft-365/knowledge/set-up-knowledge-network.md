@@ -11,12 +11,12 @@ ms.service: ''
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: ba8cb8ceb3c98019099bfe5438d274c9d2b32280
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: d6495f297f09ddc167d7c36835ac82a15abc91ac
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612546"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405645"
 ---
 # <a name="set-up-knowledge-management-preview"></a>Kennisbeheer instellen (preview)
 
@@ -71,11 +71,27 @@ Uw kennis netwerk instellen:
    
 5. In de sectie **onderwerpen uitsluiten van naam** kunt u kiezen of u namen wilt opnemen van onderwerpen die u niet wilt opnemen in de gedetecteerde resultaten. Gebruik deze instelling om te voorkomen dat vertrouwelijke onderwerpen worden opgenomen als onderdeel van het kennis netwerk. De opties zijn:</br>
     a. **Geen onderwerpen uitsluiten** </br>
-    b. **Onderwerp met deze voorwaarden uitsluiten**: als u onderwerpen hebt die u niet wilt weergeven aan gebruikers als onderdeel van het kennis netwerk.
-   -De opgegeven sjabloon downloaden.
-   -Voer de namen van de onderwerpen in die u wilt uitsluiten. U moet het type overeenkomst als gelijk of gedeeltelijk opgeven. Met exact vergelijken worden de onderwerpen die aan de exacte term voldoen, uitgesloten. Gedeeltelijke overeenkomst is strict, en houdt in dat onderwerpen die de term bevatten, niet worden uitgesloten. Als u bijvoorbeeld *doc* opgeeft als de naam van het onderwerp, wordt *document assemblage* uitgesloten voor de *dokweergave* . Onderwerp namen zijn hoofdlettergevoelig.  
-        -Selecteer  **+**   deze optie om het voltooide CSV-bestand te importeren. Selecteer vervolgens **uploaden**. U ziet een groen vinkje als het bestand is verwerkt. Selecteer **Volgende**.</br>
+    b. **Onderwerpen uitsluiten op naam**: als u onderwerpen hebt die u niet wilt weergeven aan gebruikers als onderdeel van het kennis netwerk.</br>
 
+    ![Onderwerpen uitsluiten](../media/content-understanding/topics-excluded-by-name.png) </br>
+
+    #### <a name="how-to-exclude-topics-by-name"></a>Onderwerpen uitsluiten op naam    
+
+    Als u onderwerpen wilt uitsluiten, selecteert u **de sjabloon. csv downloaden**als u **onderwerpen uitsluiten op naam**selecteert. Gebruik Excel. CSV-sjabloon voor een lijst met onderwerpen die u niet wilt opnemen in de resultaten van detectie.
+
+    ![Onderwerpen in CSV-sjabloon uitsluiten](../media/content-understanding/csv1.png) </br>
+
+    Voer de volgende informatie over de onderwerpen die u wilt uitsluiten in het CSV-sjabloon in:
+
+    - **Naam**: Typ de naam van het onderwerp dat u wilt uitsluiten. U kunt dit op twee manieren doen:</br>
+        - Exacte overeenkomst: u kunt de exacte naam of het acroniem opnemen, bijvoorbeeld *Contoso* of *ATL*.</br>
+        - Gedeeltelijke overeenkomst: u kunt alle onderwerpen met een specifiek woord uitsluiten.  Met de *boog* worden bijvoorbeeld alle onderwerpen met het woord *boog* weggelaten, zoals *boog cirkel*, *plasma boog lassen*of *boog boog*. Houd er rekening mee dat onderwerpen waarvan de tekst deel uitmaakt van een woord, zoals de *architectuur*, niet worden uitgesloten.</br>
+    - **Expansie (optioneel)**: als u een acroniem wilt uitsluiten, typt u de woorden waarop het acroniem staat.</br>
+    - **MatchType-exact/gedeeltelijk**: Typ of de ingevoerde naam een *exact* of *gedeeltelijk* overeenkomend type is.</br>
+
+    Wanneer u het CSV-sjabloonbestand hebt voltooid en opgeslagen, selecteert u **Bladeren** om naar het bestand te zoeken en te selecteren.
+    
+    Selecteer **Volgende**.</br>
 
 6. In de pagina **wie kan de onderwerpen zien en waar ze deze kunnen zien** , wordt de zichtbaarheid van het onderwerp geconfigureerd. In de instelling **wie kan de onderwerpen zien in de instelling van het kennis netwerk** , kiest u wie toegang heeft tot de details van het onderwerp, zoals gemarkeerde onderwerpen, topic cards, onderwerp Answers in Search en topic Pages. U kunt kiezen voor:</br>
     a. **Iedereen in uw organisatie**</br>
