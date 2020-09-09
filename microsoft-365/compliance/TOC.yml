@@ -548,10 +548,10 @@
         - name: Casegegevens exporteren
           href: exporting-data-ediscover20.md
           items:
+            - name: Documenten downloaden vanuit een controleset
+              href: download-documents-from-review-set.md
             - name: Documenten exporteren vanuit een controleset
               href: export-documents-from-review-set.md
-            - name: Exporttaken downloaden
-              href: download-export-jobs.md
         - name: Taken beheren
           href: managing-jobs-ediscovery20.md
         - name: Case-instellingen configureren
