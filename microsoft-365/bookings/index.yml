@@ -1,0 +1,41 @@
+### YamlMime:Hub
+title: Microsoft Bookings
+summary: Informatie over het instellen van Microsoft Bookings om klanten op de hoogte te stellen van een afspraak.
+brand: m365
+metadata:
+  title: Microsoft Bookings
+  description: Informatie over het instellen van Microsoft Bookings om klanten op de hoogte te stellen van een afspraak.
+  ms.service: bookings
+  ms.topic: hub-page
+  author: dmaguire
+  ms.author: dmaguire
+  manager: serdars
+  audience: Admin
+  ms.date: 09/04/2020
+  ms.openlocfilehash: 8c7158c72700a7db866051a4de10bbc890ad4478
+  ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 09/09/2020
+  ms.locfileid: "47419477"
+additionalContent:
+  sections:
+  - items:
+    - title: Wat is Microsoft Bookings?
+      summary: U kunt afspraken plannen en beheren met een op internet gebaseerde boekings agenda en app, waaronder de Outlook-integratie voor uw medewerkers en geautomatiseerde e-mail meldingen.
+      url: bookings-overview.md
+    - title: Uw bedrijfsgegevens invoeren
+      summary: Voer uw informatie over de VS-pagina in, inclusief bedrijfsnaam, adres, telefoonnummer, website-URL, logo en kantooruren in Microsoft bookings.
+      url: enter-business-information.md
+    - title: De app Bookings openen
+      summary: Wijzig het kleurenthema en stel in hoe de boekings pagina van de externe klant eruit ziet.
+      url: customize-booking-page.md
+    - title: Medewerkers toevoegen aan Bookings
+      summary: Uw personeelslijst maken en gegevens van personeelsleden beheren, zoals de naam, het telefoonnummer en het e-mailadres.
+      url: add-staff.md
+    - title: Sluitingstijden van het bedrijf, verlof en vakanties plannen
+      summary: Plan Office-afsluitingen en-werknemers in de boekings agenda, zodat werknemers tijdens de opgegeven tijden niet beschikbaar zijn gemarkeerd voor bookings.
+      url: schedule-closures-time-off-vacation.md
+    - title: Werkuren voor werknemers in Microsoft Bookings
+      summary: Werktijden en beschikbaarheid van werknemers instellen in Microsoft bookings.
+      url: employee-hours.md

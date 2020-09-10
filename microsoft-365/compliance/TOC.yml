@@ -936,7 +936,7 @@
 - name: Complianceopties
   items:
     - name: Microsoft complianceopties
-      href: offering-home.md
+      href: offering-home.yml
     - name: Wereldwijd
       items:
         - name: CIS Benchmark
