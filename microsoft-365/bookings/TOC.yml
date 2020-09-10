@@ -1,0 +1,45 @@
+- name: Microsoft Bookings
+  href: bookings-overview.md
+  items:
+    - name: Configuratie
+      items:
+        - name: Toegang krijgen tot Bookings
+          href: get-access.md
+        - name: Uw bedrijfsgegevens invoeren
+          href: enter-business-information.md
+        - name: Uw serviceaanbiedingen definiëren
+          href: define-service-offerings.md
+        - name: Sluitings-en verlof activiteiten plannen
+          href: schedule-closures-time-off-vacation.md
+        - name: Uw planningsbeleidsregels instellen
+          href: set-scheduling-policies.md
+        - name: Uw reserverings pagina aanpassen en publiceren
+          href: customize-booking-page.md
+        - name: Handmatig reserveren maken
+          href: create-a-manual-booking.md
+        - name: Sluitings-en verlof activiteiten plannen
+          href: schedule-closures-time-off-vacation.md
+        - name: Werknemeruren
+          href: employee-hours.md
+        - name: Aangepaste en vereiste vragen toevoegen aan de reserverings pagina
+          href: add-questions.md
+        - name: Buffertijd instellen
+          href: set-buffer-time.md
+        - name: Metrische gegevens en activiteiten bijhouden
+          href: metrics-and-activity-tracking.md
+        - name: Taal en tijdzone instellen
+          href: set-language-time-zones.md
+    - name: De app Bookings openen
+      href: get-bookings-app.md
+    - name: Bookings-app en virtuele bezoeken in Microsoft teams
+      href: 'https://docs.microsoft.com/en-us/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
+    - name: Vergelijkings grafiek-Web-app versus teams-app
+      href: comparison-chart.md
+    - name: Een boekings agenda verwijderen
+      href: delete-calendar.md
+    - name: Microsoft bookings in-of uitschakelen
+      href: turn-bookings-on-or-off.md
+    - name: Rapport informatie voor Microsoft Bookings
+      href: reporting-info.md
+    - name: Veelgestelde vragen over Microsoft Bookings
+      href: bookings-faq.md

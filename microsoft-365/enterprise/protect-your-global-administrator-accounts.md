@@ -3,7 +3,7 @@ title: Uw globale beheerdersaccounts van Microsoft 365 beveiligen
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/15/2020
+ms.date: 09/08/2020
 audience: Admin
 ms.topic: get-started-article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ f1.keywords:
 ms.assetid: 6b4ded77-ac8d-42ed-8606-c014fd947560
 description: Dit artikel bevat informatie over het beveiligen van globale beheerderstoegang tot uw abonnement op Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 08e0960e7150395b2997dbd9ff0a1818822e17e2
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: fb8f85b3ee5c0f72c2dd93517e68784459c32e7e
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695717"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416384"
 ---
 # <a name="protect-your-microsoft-365-global-administrator-accounts"></a>Uw globale beheerdersaccounts van Microsoft 365 beveiligen
 
@@ -43,13 +43,14 @@ Microsoft biedt mogelijkheden om uw organisatie te beschermen, maar ze zijn alle
     
 2. Configureer meervoudige verificatie voor uw toegewezen globale beheerdersaccounts van Microsoft 365 en gebruik de krachtigste vorm van secundaire verificatie.
     
-> [! NOTITIES] Hoewel dit artikel is gericht op algemene beheerdersaccounts, kunt u overwegen om te bepalen of extra accounts met uitgebreide machtigingen voor toegang tot de gegevens in uw abonnement, zoals eDiscovery-beheerders of beveiligings-en compliance beheerdersaccounts, op dezelfde manier moeten worden beveiligd. <br > U kunt een globaal beheerdersaccount maken zonder licenties toe te voegen.
+> [!Note]
+> Hoewel dit artikel gericht is op algemene beheerdersaccounts, moet u overwegen om te bepalen of extra accounts met uitgebreide machtigingen voor toegang tot de gegevens in uw abonnement, zoals eDiscovery-beheerder of beveiligings-of compliance beheerdersaccounts, op dezelfde manier moeten worden beveiligd. <br > U kunt een globaal beheerdersaccount maken zonder licenties toe te voegen.
   
 ## <a name="step-1-create-dedicated-microsoft-365-global-administrator-accounts-and-use-them-only-when-necessary"></a>Stap 1. Speciale beheerdersaccounts van Microsoft 365 maken en deze alleen gebruiken wanneer dat nodig is
 
 Er zijn relatief weinig beheertaken, zoals het toewijzen van rollen aan gebruikersaccounts waarvoor globale beheerdersbevoegdheden zijn vereist. Voer de volgende stappen uit in plaats van alledaagse gebruikersaccounts te gebruiken aan de globale beheerdersrol.
   
-1. Bepaal de set gebruikersaccounts waaraan de globale beheerdersrol is toegewezen. U kunt dit doen met de opdracht Azure Active Directory PowerShell voor de opdracht grafiek:
+1. Bepaal de set gebruikersaccounts waaraan de globale beheerdersrol is toegewezen. U kunt dit doen met de volgende Azure Active Directory (Azure AD) PowerShell-opdracht voor grafieken:
   
   ```powershell
   Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
@@ -120,15 +121,15 @@ Als u een grotere organisatie bent en gebruikmaakt van een hybride Microsoft 365
     
 Als de beveiligingsinfrastructuur voor de gewenste sterkere verificatiemethode niet is ingesteld en functioneert voor Microsoft 365 MFA, raden we u ten zeerste aan dat u toegewezen globale beheerdersaccounts met MFA configureert met behulp van de Microsoft Authenticator-app, een telefoongesprek of een verificatiecode voor SMS-berichten die naar een smartphone worden verzonden voor uw globale-beheerdersaccounts, als tussentijdse beveiligingsmaatregel. Laat uw eigen accounts voor globale beheerders niet verlaten zonder de extra beveiliging van MFA.
   
-Zie [Meervoudige verificatie plannen voor Microsoft 365-implementaties](https://docs.microsoft.com/office365/admin/security-and-compliance/multi-factor-authentication-plan)voor meer informatie.
+Zie [MFA voor Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)voor meer informatie.
   
 Als u verbinding wilt maken met Microsoft 365-Services met MFA en PowerShell, raadpleegt u de volgende artikelen:
 
 - [PowerShell voor Microsoft 365 voor gebruikersaccounts, groepen en licenties](connect-to-microsoft-365-powershell.md)
 - [Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
-- [Exchange Online](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-by-using-mfa)
+- [Exchange Online](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa)
 - [SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online#to-connect-with-multifactor-authentication-mfa)
-- [Skype voor bedrijven online] Manage-Skype-for-Business-Online-met-Microsoft-365-PowerShell # Connect-online-online-gebruikers-online-account-met-multi-factor-Authentication)
+- [Skype voor Bedrijven Online](manage-skype-for-business-online-with-microsoft-365-powershell.md#connect-using-a-skype-for-business-online-administrator-account-with-multi-factor-authentication)
 
 ## <a name="additional-protections-for-enterprise-organizations"></a>Extra bescherming voor Enterprise-organisaties
 

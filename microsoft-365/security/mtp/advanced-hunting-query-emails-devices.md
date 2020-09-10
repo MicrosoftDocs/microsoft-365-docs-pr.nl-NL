@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ccb7b049ee3bc2aa25847886b57341ae936d20b9
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: c24f5891573b8541a97a35d228c57642766fe4a0
+ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649341"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47419142"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>Zoeken naar bedreigingen op apparaten, e-mailberichten, apps en identiteiten
 
@@ -62,9 +62,6 @@ EmailEvents
 
 U kunt rekening namen en andere accountgegevens aanvragen door de [tabel IdentityInfo](advanced-hunting-identityinfo-table.md)samen te voegen of eraan deel te nemen. De onderstaande query biedt de lijst met opsporings-en malware-detecties van de [tabel EmailEvents](advanced-hunting-emailevents-table.md) en voegt vervolgens deze informatie toe aan de `IdentityInfo` tabel voor gedetailleerde informatie over de geadresseerden. 
 
->[!Tip]
-> Met deze query wordt `kind=inner` een [inner join](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor)opgegeven waarmee ontdubbeling van waarden van links of de e-mailadressen van de ontvanger wordt voorkomen.
-
 ```kusto
 EmailEvents
 | where Timestamp > ago(7d)
@@ -81,6 +78,9 @@ Department, City, Country
 
 ### <a name="get-device-information"></a>Apparaatgegevens achterhalen
 Het [geavanceerde jacht-schema](advanced-hunting-schema-tables.md) biedt uitgebreide informatie over apparaten in diverse tabellen. De [tabel DeviceInfo](advanced-hunting-deviceinfo-table.md) bevat bijvoorbeeld uitgebreide informatie over apparaten op basis van de gebeurtenisgegevens die regelmatig zijn samengeteld. Met deze query wordt de `DeviceInfo` tabel gebruikt om te controleren of een gebruiker met een risico gemanipuleerd ( `<account-name>` ) is aangemeld bij een willekeurige computer en welke waarschuwingen op die apparaten zijn geactiveerd.
+
+>[!Tip]
+> Met deze query wordt `kind=inner` een [inner join](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor)opgegeven waarmee ontdubbeling van de linkerkant van waarden wordt voorkomen `DeviceId` .
 
 ```kusto
 DeviceInfo

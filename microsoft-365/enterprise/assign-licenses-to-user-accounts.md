@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Hierin wordt beschreven hoe u Microsoft 365-licenties toewijst aan gebruikersaccounts, afzonderlijk of op basis van groepslidmaatschap.
-ms.openlocfilehash: 60936e52bffa58d50419f771e670848ee76271fd
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: e132a8c2d65c401899624b9d255050385f2cb721
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46688995"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417096"
 ---
 # <a name="assign-microsoft-365-licenses-to-user-accounts"></a>Microsoft 365-licenties toewijzen aan gebruikersaccounts
 
@@ -58,5 +58,5 @@ Met de volledige set gebruikersaccounts waaraan een licentie is toegewezen, kunt
 
 - [Beveiliging implementeren](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
 - [Clientsoftware installeren, zoals Microsoft 365-apps](https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps)
-- [Mobile Device Management instellen in Microsoft 365](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd)
+- [Basis mobiliteit en beveiliging instellen in Microsoft 365](https://support.microsoft.com/office/set-up-basic-mobility-and-security-dd892318-bc44-4eb1-af00-9db5430be3cd)
 - [Services en toepassingen configureren](configure-services-and-applications.md)
