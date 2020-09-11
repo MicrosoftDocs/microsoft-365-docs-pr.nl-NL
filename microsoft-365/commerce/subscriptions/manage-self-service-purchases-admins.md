@@ -1,5 +1,5 @@
 ---
-title: Selfservice-aankopen beheren (beheerders)
+title: Selfservice aankopen beheren (beheerders)
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -14,13 +14,13 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Beheerders kunnen leren hoe ze selfservice-aankopen kunnen beheren die door gebruikers in hun organisatie worden gedaan.
-ms.openlocfilehash: 562e0e26d9ca7d10d71a46b8cf2d87c487c1b529
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Beheerders kunnen informatie lezen over het beheren van selfservice aankopen van gebruikers in hun organisatie.
+ms.openlocfilehash: f10f525f8efc6bc63e2fa042c299a6d03c77d0cb
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403268"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429996"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Selfservice-aankopen beheren (Beheerders)
 
@@ -31,65 +31,90 @@ ms.locfileid: "44403268"
 
 ::: moniker-end
 
-Als beheerder u selfservice-aankopen zien die door mensen in uw organisatie zijn gedaan. U het product, de naam van de koper, de gekochte abonnementen, de vervaldatum, de aankoopprijs en toegewezen gebruikers voor elke selfserviceaankoop bekijken. Indien nodig voor uw organisatie, u self-service inkoop per product via PowerShell uitschakelen. U hebt hetzelfde beleid voor gegevensbeheer en -toegang ten opzichte van producten die zijn gekocht via selfservice-aankoop of centraal.
+Als beheerder kunt u zelf aankopen van personen in uw organisatie bekijken. U ziet de productnaam, de naam van de aankoop, de aangeschafte abonnementen, de vervaldatum, de aankoopprijs en de toegewezen gebruikers voor elke selfservice aankoop. Als dit nodig is voor uw organisatie, kunt u selfservice aankopen per product basis uitschakelen via PowerShell. U hebt dezelfde beleidsregels voor gegevensbeheer en toegang via producten die zijn gekocht via selfservice aankoop of centraal.
 
-U ook bepalen of gebruikers in uw organisatie zelfservice-aankopen kunnen doen. Zie [AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module voor](allowselfservicepurchase-powershell.md)meer informatie.
+U kunt ook bepalen of gebruikers in uw organisatie selfservice aankopen kunnen verrichten. Zie voor meer informatie [AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module](allowselfservicepurchase-powershell.md).
 
-## <a name="view-self-service-subscriptions"></a>Selfservice-abonnementen weergeven
+## <a name="view-self-service-subscriptions"></a>Selfservice abonnementen weergeven
 
-1. Ga in het beheercentrum naar de pagina **Facturering**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het Beheercentrum naar de pagina **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
+2. Als u de **resultaten wilt verfijnen**, kiest u in de vervolgkeuzelijst **account type** de optie **selfservice**.
+3. Als u meer informatie over een abonnement wilt bekijken, kiest u een abonnement in de lijst.
 
-2. Kies naast **Resultaten verfijnen**in de vervolgkeuzelijst **Accounttype** de optie **Selfservice**.
+## <a name="view-who-has-licenses-for-a-self-service-purchase-subscription"></a>Weergeven wie licenties heeft voor een self-service Purchase-abonnement
 
-3. Als u meer details over een abonnement wilt bekijken, kiest u er een in de lijst.
-
-## <a name="view-who-has-licenses-for-a-self-service-purchase-subscription"></a>Zien wie licenties heeft voor een abonnement op selfservice-aankoop
-
-1. Ga in het beheercentrum naar de pagina **Factureringslicenties.**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a>
-
-2. Kies het filterpictogram en kies **Self-service**.
-
-3. Selecteer een product om licenties te zien die aan mensen zijn toegewezen.
-
+1. Ga in het Beheercentrum naar de pagina **factuur**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenties</a> .
+2. Kies het pictogram filter en kies vervolgens **self-service**.
+3. Selecteer een product om licenties te zien die zijn toegewezen aan personen.
     > [!NOTE]
-    > Als er meerdere aankopen voor een product zijn, wordt dat product slechts één keer vermeld en wordt in de kolom **Beschikbare hoeveelheid** het totaal van alle abonnementen weergegeven die voor dat product zijn gekocht.
+    > Als er meerdere aankopen voor een product zijn, wordt dat product slechts eenmaal vermeld en wordt in de kolom **beschikbare hoeveelheid** de som van alle abonnementen die voor dat product zijn gekocht weergegeven.
+4. De lijst **gebruikers** wordt gegroepeerd op de namen van personen die selfservice aankopen hebben gedaan.
+5. Als u een lijst wilt exporteren met gebruikers met een licentie voor deze abonnementen, kiest u de abonnementen die u wilt exporteren en vervolgens kiest u **gebruikers exporteren**.
 
-4. De lijst **Gebruikers** wordt gegroepeerd op de namen van mensen die selfservice-aankopen hebben gedaan.
+## <a name="disable-or-enable-self-service-purchases"></a>Service voor selfservice aankopen in-of uitschakelen
 
-5. Als u een lijst met gebruikers met licenties voor deze abonnementen wilt exporteren, kiest u de abonnementen die u wilt exporteren en kiest u **Gebruikers exporteren**.
+U kunt selfservice aankopen van gebruikers in uw organisatie uitschakelen of inschakelen. De **MSCommerce** PowerShell-module bevat een **PolicyID** -parameterwaarde voor **AllowSelfServicePurchase** waarmee u kunt bepalen of gebruikers in uw organisatie selfservice aankopen kunnen voeren en voor welke producten.
 
-## <a name="disable-or-enable-self-service-purchases"></a>Selfservice-aankopen uitschakelen of inschakelen
+U kunt de **MSCommerce** PowerShell-module gebruiken voor het volgende:
 
-U selfservice-aankopen voor gebruikers in uw organisatie uitschakelen of inschakelen. De **MSCommerce** PowerShell-module bevat een **PolicyID-parameterwaarde** voor **AllowSelfServicePurchase** waarmee u bepalen of gebruikers in uw organisatie selfservice-aankopen kunnen doen en voor welke producten.
+- De standaardstatus van de parameterwaarde van **AllowSelfServicePurchase** weergeven, ongeacht of deze is ingeschakeld of uitgeschakeld voor de productversie
+- Een lijst met beschikbare producten weergeven en of selfservice aankoop is in-of uitgeschakeld
+- De huidige instelling voor een specifiek product weergeven of wijzigen om dit in of uit te schakelen
 
-U de **MSCommerce** PowerShell-module gebruiken om:
-
-- De standaardstatus van de parameter **AllowSelfServicePurchase weergeven,** &mdash; ongeacht of deze is ingeschakeld of uitgeschakeld per product
-- Bekijk een lijst met toepasselijke producten en of selfservice-aankoop is ingeschakeld of uitgeschakeld
-- De huidige instelling voor een specifiek product weergeven of wijzigen om het in te schakelen of uit te schakelen
-
-Zie [AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module voor](allowselfservicepurchase-powershell.md)meer informatie.
+Zie voor meer informatie [AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module](allowselfservicepurchase-powershell.md).
 
 ## <a name="centralize-licenses-under-a-single-subscription"></a>Licenties centraliseren onder één abonnement
 
-U bestaande licenties toewijzen of aanvullende abonnementen aanschaffen via bestaande overeenkomsten voor gebruikers die zijn toegewezen aan selfservice-aankopen. Nadat u deze centraal aangeschafte licenties hebt toegewezen, u kopers vragen hun bestaande abonnementen op te zeggen.
+U kunt bestaande licenties toewijzen of extra abonnementen kopen via bestaande overeenkomsten voor gebruikers die zijn toegewezen aan selfservice aankopen. Nadat u deze met een centraal aangeschafte licenties hebt toegewezen, kunt u vragen of kopers hun bestaande abonnementen annuleren.
 
-1. Meld u aan bij het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">beheercentrum</a> met uw globale beheerder- of factureringsbeheeraccount.
-
-2. Ga naar de pagina **Services voor**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">factureringsaankopen.</a>
-
-3. Zoek en kies het product dat u wilt kopen en kies **kopen**.
-
+1. Meld u aan bij het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Beheercentrum</a> met het account van uw globale beheerder of factureringsbeheerder.
+2. Ga **naar de**pagina voor het  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">aanschaffen van services</a> .
+3. Zoek en selecteer het product dat u wilt kopen en kies vervolgens **kopen**.
 4. Voer de resterende stappen uit om uw aankoop te voltooien.
+5. Volg de stappen in [weergave met licenties voor een zelf gekocht abonnement](#view-who-has-licenses-for-a-self-service-purchase-subscription) voor het exporteren van een lijst met gebruikers waarnaar wordt verwezen in stap 6.
+6. Wijs licenties toe aan iedereen die een licentie heeft in het andere abonnement. Zie [licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md)voor de volledige stappen.
+7. Neem contact op met de persoon die het self-service Purchase-abonnement heeft gekocht en vraag of ze het zelf willen opzeggen.
 
-5. Volg de stappen in [Weergave met licenties voor een selfservicegekocht abonnement](#view-who-has-licenses-for-a-self-service-purchase-subscription) om een lijst met gebruikers te exporteren om te verwijzen in stap 6.
+## <a name="take-over-a-self-service-purchase-subscription"></a>Een self-service Purchase-abonnement nemen
 
-6. Licenties toewijzen aan iedereen die een licentie heeft in het andere abonnement. Zie [Licenties toewijzen aan gebruikers voor](../../admin/manage/assign-licenses-to-users.md)volledige stappen.
+U kunt een self-service Purchase-abonnement nemen die door een gebruiker in uw organisatie is gemaakt. Wanneer u een self-service Purchase-abonnement overneemt, hebt u twee opties:
 
-7. Neem contact op met de persoon die het abonnement voor selfservice-aankopen heeft gekocht en vraag hem of zij het abonnement op te zeggen.
+1. Verplaats de gebruikers naar een ander abonnement en Annuleer het oorspronkelijke abonnement.
+2. Het selfservice aankoop abonnement annuleren en licenties van toegewezen gebruikers verwijderen.
+
+### <a name="move-users-to-a-different-subscription"></a>Gebruikers naar een ander abonnement overzetten
+
+Wanneer u gebruikers naar een ander abonnement verplaatst, wordt het oude abonnement automatisch geannuleerd. De gebruiker die het selfservice aankoop abonnement oorspronkelijk heeft gekocht, ontvangt een e-mail met de mededeling dat het abonnement is geannuleerd.
+
+> [!NOTE]
+> U moet een beschikbare licentie hebben voor elke gebruiker die u overgaat in het abonnement waarnaar u gebruikers verplaatst.
+
+1. Ga in het Beheercentrum naar de pagina **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
+2. Selecteer op het tabblad **Products** het pictogram filter en selecteer vervolgens **selfservice**.
+3. Selecteer het abonnement dat u wilt overnemen.
+4. Selecteer op de pagina Details van abonnement in het gedeelte **Abonnementen en instellingen** de optie **beheer van dit abonnement overnemen**.
+5. Selecteer in het rechterdeelvenster de optie **gebruikers verplaatsen**.
+6. Selecteer het product waarnaar u de gebruikers wilt verplaatsen en selecteer **gebruikers verplaatsen**.
+7. Selecteer in het vak **gebruikers verplaatsen naar** de optie **gebruikers verplaatsen**. Het verplaatsings proces kan enkele minuten duren. Sluit uw browser niet tijdens het uitvoeren van het proces.
+8. Wanneer het proces is voltooid, sluit u het **deelvenster doorgaan met voltooien**.
+9. Op de pagina Details van abonnement wordt de status van het **abonnement** voor het aangeschafte abonnement voor selfservice en **verwijderd**weergegeven.
+
+### <a name="cancel-a-self-service-purchase-subscription"></a>Een self-service Purchase-abonnement opzeggen
+
+Wanneer u ervoor kiest een abonnement voor selfservice aankopen te annuleren, hebben gebruikers met licenties geen toegang tot het product. De gebruiker die het selfservice aankoop abonnement oorspronkelijk heeft gekocht, ontvangt een e-mail met de mededeling dat het abonnement is geannuleerd.
+
+1. Ga in het Beheercentrum naar de pagina **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
+2. Selecteer op het tabblad **Products** het pictogram filter en selecteer vervolgens **selfservice**.
+3. Selecteer het abonnement dat u wilt opzeggen.
+4. Selecteer op de pagina Details van abonnement in het gedeelte **Abonnementen en instellingen** de optie **beheer van dit abonnement overnemen**.
+5. Selecteer in het rechterdeelvenster de optie **abonnement opzeggen**.
+6. Selecteer een reden voor de annulering in de vervolgkeuzelijst en selecteer vervolgens **abonnement opzeggen**.
+7. Selecteer in het vak **weet u zeker dat u wilt annuleren?** de optie **abonnement opzeggen**.
+8. Sluit het rechterdeelvenster.
+9. Op de pagina Details van abonnement wordt de status van het **abonnement** weergegeven als **verwijderd**.
 
 ## <a name="need-help-contact-us"></a>Hulp nodig? Neem contact met ons op.
 
-Zie Veelgestelde vragen over [selfservice-aankopen](self-service-purchase-faq.md)voor veelgestelde vragen over selfservice-aankopen.
+Zie Veelgestelde vragen over [selfservice aankopen](self-service-purchase-faq.md)voor veelgestelde vragen over selfservice aankopen.
 
-Als u vragen hebt of hulp nodig hebt bij selfservice-aankopen, neemt u [contact op met de ondersteuning.](../../admin/contact-support-for-business-products.md)
+[Neem contact op met de ondersteuning](../../admin/contact-support-for-business-products.md)als u vragen hebt of hulp nodig hebt bij selfservice aankopen.

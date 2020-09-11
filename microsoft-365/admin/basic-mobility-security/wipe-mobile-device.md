@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Gebruik ingebouwde basis mobiliteit en beveiliging om informatie van ingeschreven apparaten te verwijderen.
-ms.openlocfilehash: 4d854c7d4d81cd0b49ec7f81a49de5478b08f049
-ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
+ms.openlocfilehash: 4627b0cb2d0963ae724c425a6a7ea6279f271856
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47336815"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429948"
 ---
 # <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>Een mobiel apparaat wissen in eenvoudige mobiliteit en beveiliging
 
@@ -39,7 +39,7 @@ Op mobiele apparaten kunnen gevoelige organisatiegegevens worden opgeslagen en k
 
 - **Wanneer een apparaat wordt gewist (Factory opnieuw instellen of verwijderen van bedrijfsgegevens)**, wordt het apparaat verwijderd uit de lijst met beheerde apparaten.
     
-- **Automatisch een apparaat opnieuw instellen**: u kunt een basisniveau voor mobiliteit en beveiliging instellen waarmee automatisch de instelling van een apparaat wordt hersteld nadat de gebruiker het wachtwoord van het apparaat een bepaald aantal keren probeert in te voeren. Als u dit wilt doen, volgt u de stappen in [beveiligingsbeleid voor apparaat maken in eenvoudige mobiliteit en beveiliging](create-device-security-policies-in-basic-mmobility-and-security.md).
+- **Automatisch een apparaat opnieuw instellen**: u kunt een basisniveau voor mobiliteit en beveiliging instellen waarmee automatisch de instelling van een apparaat wordt hersteld nadat de gebruiker het wachtwoord van het apparaat een bepaald aantal keren probeert in te voeren. Als u dit wilt doen, volgt u de stappen in [beveiligingsbeleid voor apparaat maken in eenvoudige mobiliteit en beveiliging](create-device-security-policies.md).
     
 - **Als u wilt weten wat de gebruikerservaring** zijn wanneer u zijn of haar apparaat wist, raadpleegt u  [Wat zijn de gevolgen voor gebruiker en apparaat?](#whats-the-user-and-device-impact).   
 
@@ -91,4 +91,4 @@ Het wissen wordt onmiddellijk naar het mobiele apparaat verzonden en het apparaa
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Eenvoudige mobiliteit en beveiliging instellen](set-up-basic-mobility-and-security.md)
+[Eenvoudige mobiliteit en beveiliging instellen](set-up.md)

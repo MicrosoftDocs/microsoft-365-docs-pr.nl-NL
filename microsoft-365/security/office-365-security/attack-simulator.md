@@ -18,16 +18,19 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u met behulp van Hack Simulator een aanval uitvoert met phishing en wachtwoorden in hun Microsoft 365 E5-of ATP-abonnement 2-organisaties.
-ms.openlocfilehash: 017376d8002811398fe3ce2d94f7c207cd718a78
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 9fc28cdecc07f5325918e3d5176e52d1051a626c
+ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825831"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47426991"
 ---
 # <a name="attack-simulator-in-atp"></a>Aanvals Simulator in ATP
 
 Als uw organisatie Office 365 Advanced Threat Protection (ATP) heeft, waaronder het [onderzoek en de antwoord mogelijkheden](office-365-ti.md)van Office, kunt u met behulp van aanvals functie in het beveiligings & nalevings centrum realistische aanvalsscenario's in uw organisatie uitvoeren. Met de gesimuleerde aanvallen kunt u gebruikers kwetsbaar maken en kwetsbaar maken voor een echte aanval met uw onderste regel. Lees dit artikel voor meer informatie.
+
+> [!NOTE]
+> Simulatie van aanval en opleidingen met betrekking tot de training voor Microsoft 365-Services met andere klantgegevens. Zie [Microsoft 365-gegevenslocaties](/microsoft-365/enterprise/o365-data-locations)voor meer informatie.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 

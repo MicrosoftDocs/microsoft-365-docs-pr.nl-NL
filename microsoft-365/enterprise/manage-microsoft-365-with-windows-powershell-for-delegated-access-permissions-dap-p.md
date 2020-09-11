@@ -16,30 +16,31 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: be497751-596f-431d-b256-0a89d36a47ce
-description: 'Overzicht: RSS-en Cloud Solution Provider-partners kunnen Windows PowerShell gebruiken voor het beheren van tenants van Microsoft 365 Customer.'
-ms.openlocfilehash: d4109c09a14fb5644d34daf24383053536440871
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Hoe u met Windows PowerShell Microsoft 365-partners voor klanten van Syndicating en Cloud Solution Providers kunt beheren met Windows PowerShell.
+ms.openlocfilehash: a7b2fbb5423e3b923e17aa2d9c488e7dd085be35
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689410"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429876"
 ---
-# <a name="manage-microsoft-365-with-windows-powershell-for-delegated-access-permissions-dap-partners"></a>Microsoft 365 met Windows PowerShell beheren voor partners met een gedelegeerde toegangsrechten (DAP)
+# <a name="how-to-manage-microsoft-365-with-windows-powershell-for-delegated-access-permissions-partners"></a>Microsoft 365 beheren met Windows PowerShell voor de partners voor gedelegeerde toegang
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-De partners van de gedelegeerde toegang (machtigingen) zijn syndicaties en partners van een Cloud solution provider. Vaak zijn ze netwerk-of telecommunicatie providers van andere bedrijven. Ze bundelt Microsoft 365-abonnementen in hun serviceaanbiedingen voor hun klanten. Wanneer iemand een Microsoft 365-abonnement verkoopt, worden er automatisch beheermachtigingen verleend namens (AOBO) aan de klant tenancies zodat ze de klant tenancies kunnen beheren en rapporteren. U kunt dit moeilijkst en tijdrovend maken in het Microsoft 365-Beheercentrum. Het is veel eenvoudiger om beheertaken uit te voeren, zoals het weergeven van alle klanten **TenantIds** en hun domein, of het identificeren van alle gebruikers in een klant pacht en welke licenties ze met behulp van PowerShell voor microsoft 365 zijn toegewezen. In sommige gevallen is het mogelijk deze beheertaken alleen uit te voeren in PowerShell voor Microsoft 365. Hier volgen een aantal voorbeelden van scenario's die van toepassing zijn op het tenancies van een scenario met syndicaties en cryptografie partners:
-  
-## 
+De partners van de gedelegeerde toegang (machtigingen) zijn syndicaties en partners van een Cloud solution provider. Veel zijn netwerk-of telecommunicatie providers. Ze bundelt Microsoft 365-abonnementen in hun serviceaanbiedingen. Wanneer ze een Microsoft 365-abonnement verkopen, krijgen ze automatisch beheermachtigingen toegewezen aan de tenancies van de klant, zodat ze deze kunnen beheren en rapporteren op deze tenancies. Deze taken zijn moeilijk te doen in het Microsoft 365-Beheercentrum. Het is veel gemakkelijker om PowerShell voor Microsoft 365 te gebruiken voor beheertaken zoals:
+- Alle klanten **TenantIds** en hun domein weergeven 
+- Identificeer alle gebruikers in een klant pacht en de toegewezen licenties
+> [!NOTE]
+> Sommige beheertaken kunnen alleen worden uitgevoerd in PowerShell.
 
+In de volgende artikelen wordt uitgelegd hoe u met behulp van een PowerShell-partners van syndicaties en CSP'S de klant-tenancies kunt beheren:
+  
 - [Microsoft 365-tenants beheren met Windows PowerShell voor Microsoft gemachtigde toegangsmachtigingen (DAP)-partners](manage-microsoft-365-tenants-with-windows-powershell-for-delegated-access-permissio.md)
     
 - [Een domein toevoegen aan een client, pacht met Windows PowerShell voor gedelegeerde toegangsrechten (DAP)-partners](add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-pe.md)
     
-- [Verbinding maken met Exchange Online-tenants met Remote Windows PowerShell voor gedelegeerde toegangsmachtigingen (DAP)](connect-to-exchange-online-tenants-with-remote-windows-powershell-for-delegated.md)
+- [Verbinding maken met Exchange Online PowerShell](connect-to-exchange-online-tenants-with-remote-windows-powershell-for-delegated.md)
     
 - [Gegevens van de Tenant met informatie van klanten ophalen met Windows PowerShell voor partners met een gedelegeerde toegangsrechten (DAP)](retrieve-customer-tenant-reporting-data-with-windows-powershell-for-delegated-ac.md)
-    
-
-    
-
+   

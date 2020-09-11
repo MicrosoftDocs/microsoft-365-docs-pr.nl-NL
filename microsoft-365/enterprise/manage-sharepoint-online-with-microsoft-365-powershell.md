@@ -1,5 +1,5 @@
 ---
-title: SharePoint Online beheren met PowerShell
+title: SharePoint beheren met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,21 +19,21 @@ ms.custom:
 - SPO_Content
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
-description: In dit artikel vindt u informatie over het gebruik van PowerShell voor Microsoft 365 voor het beheren van SharePoint Online-gebruikers,-groepen en-sitegroepen.
-ms.openlocfilehash: 6885452441bccff92469587d36bc57c6ba43fa09
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Meer informatie over het gebruik van PowerShell voor Microsoft 365 voor het beheren van gebruikers, groepen en sitegroepen.
+ms.openlocfilehash: dd3ae1ee27d0a3e7c46eb4b62b42165279656aeb
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689409"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429804"
 ---
-# <a name="manage-sharepoint-online-with-powershell"></a>SharePoint Online beheren met PowerShell
+# <a name="manage-sharepoint-with-powershell"></a>SharePoint beheren met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Een van de primaire taken van een SharePoint Online-beheerder beheert sites, sitegroepen en gebruikers. Hoewel u enkele van deze taken kunt uitvoeren in het Microsoft 365-Beheercentrum, zijn andere taken veel sneller en eenvoudiger in PowerShell. Zie de volgende onderwerpen voor meer informatie:
+SharePoint-beheerders moeten sites, sitegroepen en gebruikers beheren. Hoewel u enkele van deze taken kunt uitvoeren in het Microsoft 365-Beheercentrum, zijn anderen eenvoudiger in PowerShell. Zie de volgende artikelen voor meer informatie:
 
-- [Verbinding maken met SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+- [Aan de slag met SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
   
 - [SharePoint Online-sites maken en gebruikers toevoegen met PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
     

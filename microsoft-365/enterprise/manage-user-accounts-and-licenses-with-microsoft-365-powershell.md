@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365-gebruikersaccounts, licenties en groepen beheren met PowerShell
+title: Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,21 +16,21 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: 26b9ff81-93b0-4251-beaf-3c9f1d7c80c8
-description: In dit artikel leest u hoe u Microsoft 365-gebruikersaccounts, licenties en groepen beheert met PowerShell.
-ms.openlocfilehash: a262cbb62cd457e3a22550af2f773551cf67bb43
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Meer informatie over het beheren van gebruikersaccounts, licenties en groepen van Microsoft 365 met PowerShell.
+ms.openlocfilehash: 0c6ca6a4165b616097405a9de178c254aa489a3c
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695742"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429984"
 ---
-# <a name="manage-microsoft-365-user-accounts-licenses-and-groups-with-powershell"></a>Microsoft 365-gebruikersaccounts, licenties en groepen beheren met PowerShell
+# <a name="manage-microsoft-365-user-accounts-licenses-and-groups-with-powershell"></a>Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Een van de primaire taken van een Microsoft 365-beheerder beheert gebruikersaccounts, licenties en groepen. Hoewel u de meeste aspecten van deze taken kunt uitvoeren in het Microsoft 365-Beheercentrum, zijn andere taken veel sneller en eenvoudiger met PowerShell. 
+Microsoft 365-beheerders moeten gebruikersaccounts, licenties en groepen beheren. Hoewel u de meeste van deze taken kunt uitvoeren in het Microsoft 365-Beheercentrum, zijn sommige eenvoudiger in PowerShell.
 
-Zie de volgende onderwerpen voor meer informatie.
+Zie de volgende artikelen voor meer informatie.
 
 ## <a name="user-accounts"></a>Gebruikersaccounts
 
@@ -43,15 +43,14 @@ Zie de volgende onderwerpen voor meer informatie.
 
 ## <a name="licenses-and-services"></a>Licenties en services
 - [Licenties en services weergeven](view-licenses-and-services-with-microsoft-365-powershell.md)
-- [Gebruikers met licentie en gebruikers zonder licentie weergeven](view-licensed-and-unlicensed-users-with-microsoft-365-powershell.md)
-- [Licenties toewijzen aan gebruikersaccounts](assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)
-- [Account licentie en servicedetails bekijken](view-account-license-and-service-details-with-microsoft-365-powershell.md)
+- [Gelicentieerde en niet-gelicentieerde gebruikers weergeven](view-licensed-and-unlicensed-users-with-microsoft-365-powershell.md)
+- [Licenties aan gebruikersaccounts toewijzen](assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)
+- [Accountlicentie-en servicedetails weergeven](view-account-license-and-service-details-with-microsoft-365-powershell.md)
 - [Toegang tot services uitschakelen](disable-access-to-services-with-microsoft-365-powershell.md)
   - [Toegang tot Sway uitschakelen](disable-access-to-sway-with-microsoft-365-powershell.md)
-  - [Toegang tot services uitschakelen tijdens het toewijzen van gebruikerslicenties](disable-access-to-services-while-assigning-user-licenses.md)
-- [Licenties verwijderen uit gebruikersaccounts](remove-licenses-from-user-accounts-with-microsoft-365-powershell.md)
+  - [Toegang tot services uitschakelen bij het toewijzen van gebruikerslicenties](disable-access-to-services-while-assigning-user-licenses.md)
+- [Licenties van gebruikersaccounts intrekken](remove-licenses-from-user-accounts-with-microsoft-365-powershell.md)
 
 ## <a name="groups"></a>Groepen
 - [Groepslidmaatschap onderhouden](maintain-group-membership-with-microsoft-365-powershell.md)
-- [Microsoft 365-groepen beheren](manage-microsoft-365-groups-with-powershell.md)
-
+- [Microsoft 365-groepen](manage-microsoft-365-groups-with-powershell.md)
