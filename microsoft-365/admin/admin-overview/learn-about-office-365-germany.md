@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: Meer informatie over Office 365 Duitsland.
-ms.openlocfilehash: 694f1a2ebbe3740c09cb306a26729b6482497d0b
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: a9ad8f88f48315c77d17ca51855d75d1c443f6f2
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307275"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545916"
 ---
 # <a name="learn-about-office-365-germany"></a>Meer informatie over Office 365 Duitsland
 
@@ -35,11 +35,11 @@ ms.locfileid: "47307275"
 
 Office 365 Duitsland was een gedifferentieerde optie voor de Office 365-services die in Europa beschikbaar zijn. Hij heeft geholpen de behoeften van de meest gereglementeerde klanten in Duitsland, de Europese Unie (EU) en de Europese gratis handels Association (EVA) op te lossen door onze toonaangevende productiviteitsservices te leveren voor digitale werk, van Duitsland, en strikte informatie-en beheer maatregelen via een uniek gegevens vertrouwensmodel, onder de Duitse wetgeving.
   
-De gegevensbeheerder, T-Systems International, een onafhankelijk Duits bedrijf en dochteronderneming van Deutsche Telekom, controleert de fysieke en logische toegang tot de klantgegevens. Klantgegevens zijn niet toegankelijk zonder goedkeuring van of supervisie door de gegevensbeheerder, onderhevig aan de Duitse wetgeving.
+De gegevensbeheerder, T-Systems International, een onafhankelijk Duits bedrijf en dochteronderneming van Deutsche Telekom, controleert de fysieke en logische toegang tot de klantgegevens. Klantgegevens kunnen niet worden geopend zonder toestemming van of toezicht door een gegevensbeheerder, die wordt bepaald door de Duitse wetgeving.
   
-De behoeften van Office 365 Duitsland en de afscherming van Office Duitsland vastgestelde beperkingen ter versoepeling van de flexibiliteit en consistentie van klanten. Sedert augustus 2018 accepteren we geen nieuwe klanten meer of zullen er geen nieuwe services worden geïmplementeerd via de momenteel beschikbare Microsoft Cloud Duitsland. Voor meer informatie raadpleegt u dit blogbericht: [Microsoft voor het leveren van cloudservices van nieuwe datacentres in Duitsland in 2019 om te voldoen aan de behoeften](https://go.microsoft.com/fwlink/p/?linkid=839016)van de klant.
+De behoeften van Office 365 Duitsland en de afscherming van Office Duitsland vastgestelde beperkingen voor de flexibiliteit en consistentie van de gewenste klanten. Sinds 2018 augustus kunnen we geen nieuwe klanten accepteren of nieuwe diensten implementeren via de momenteel beschikbare Microsoft Cloud Duitsland. Voor meer informatie raadpleegt u dit blogbericht: [Microsoft voor het leveren van cloudservices van nieuwe datacentres in Duitsland in 2019 om te voldoen aan de behoeften van de klant](https://go.microsoft.com/fwlink/p/?linkid=839016).
   
-## <a name="what-microsoft-online-services-are-available-in-office-365-germany"></a>Welke Microsoft-onlineservices zijn beschikbaar in Office 365 Germany.
+## <a name="which-microsoft-online-services-are-available-in-office-365-germany"></a>Welke Microsoft-Online Services zijn beschikbaar in Office 365 Duitsland?
 
 De aanbiedingen van Office 365 Duitsland zijn zo veel mogelijk afgestemd op de wereldwijde aanbiedingen in deze geïsoleerde omgeving. Uitgesloten zijn Yammer-gerelateerde abonnementen, abonnementen aan het einde van de levenscyclus en abonnementen die beschikbaar zijn via non-profitprogramma's. Office 365 E5, SPE en andere services zijn beschikbaar na de algemene beschikbaarheid van Office 365 Duitsland. 
   
@@ -89,7 +89,7 @@ De volgende services en functies zijn beschikbaar in bepaalde [Office 365 German
   
 ## <a name="general-information"></a>Algemene gegevens
 
-|||
+|Item|Informatie|
 |-----|-----|
 |Aanmeldingsportal  <br/> |[https://portal.office.de](https://portal.office.de)  <br/> |
 |Abonnementen, facturering en technische ondersteuning  <br/> |Zie [contact opnemen met ondersteuning voor bedrijfsproducten-Help voor beheerders](../contact-support-for-business-products.md)voor meer informatie over Duitsland in het Duits en Engels.  <br/> |

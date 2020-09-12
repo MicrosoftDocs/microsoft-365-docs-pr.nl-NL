@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Meer informatie over hoe u een SharePoint-site kunt verplaatsen naar een andere geografische locatie binnen uw omgeving met meerdere geografische gebieden en de verwachtingen van de wijzigingen aan uw gebruikers kunt communiceren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e96c422b1d2685c9fe3d4c8c45aa8437a6776621
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 819496b9f7612afa1db902e6fc5a0844e99d7a8e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46688931"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545634"
 ---
 # <a name="move-a-sharepoint-site-to-a-different-geo-location"></a>Een SharePoint-site verplaatsen naar een andere geografische locatie
 
@@ -36,13 +36,13 @@ U kunt de volgende typen sites verplaatsen tussen geo-locaties:
 U moet een globale beheerder of SharePoint-beheerder zijn als u een site wilt verplaatsen tussen de geografische locaties.
 
 Er is een alleen-lezen venster voor de geografische site 4-6 van een SharePoint-site, afhankelijk van de inhoud van de site.
- 
+
 ## <a name="best-practices"></a>Aanbevolen procedures
 
-- Probeer een SharePoint-site op een testsite te zetten om de procedure te leren kennen. 
-- Controleer of de site kan worden verplaatst voordat u de verhuizing plant of uitvoert. 
+- Probeer een SharePoint-site op een testsite te zetten om de procedure te leren kennen.
+- Controleer of de site kan worden verplaatst voordat u de verhuizing plant of uitvoert.
 - Wanneer mogelijke planning van cross-geografische sites gedurende buiten kantooruren verloopt, kunt u de gevolgen van de gebruikers verminderen.
-- Communiceer met beïnvloede gebruikers voordat ze overstappen op de sites. 
+- Communiceer met beïnvloede gebruikers voordat ze overstappen op de sites.
 
 ## <a name="communicating-to-your-users"></a>Communiceren met uw gebruikers
 
@@ -62,10 +62,11 @@ U kunt instellen dat de SharePoint-site vooraf wordt gepland (verderop in dit ar
 
 - U kunt maximaal 4.000 verplaatsen.
 - Zoals de verhuizing begint, kunt u meer plannen, met een maximum van 4.000 in behandeling in de wachtrij en op een bepaald moment.
- 
+
 Als u een SharePoint-site wilt plannen voor een later tijdstip, moet u een van de volgende parameters toevoegen wanneer u de verhuizing begint:
+
 - `PreferredMoveBeginDate` -De verhuizing begint waarschijnlijk op deze opgegeven tijd.
-- `PreferredMoveEndDate` – De verhuizing wordt waarschijnlijk op basis van de opgegeven tijd voltooid. 
+- `PreferredMoveEndDate` – De verhuizing wordt waarschijnlijk op basis van de opgegeven tijd voltooid.
 
 Voor beide parameters moet de tijd worden opgegeven in Coordinated Universal Time (UTC).
 
@@ -73,19 +74,22 @@ Voor beide parameters moet de tijd worden opgegeven in Coordinated Universal Tim
 
 Voor het verplaatsen van een SharePoint-site moet de locatie van de SharePoint-beheerder verbinding maken en de overstappen van de SharePoint-beheer-URL
 
-Als de URL van de site bijvoorbeeld is https://contosohealthcare.sharepoint.com/sites/Turbines , maakt u verbinding met de SharePoint-beheer-URL op https://contosohealthcare-admin.sharepoint.com:
+Als u bijvoorbeeld de URL van de site hebt <https://contosohealthcare.sharepoint.com/sites/Turbines> , maakt u verbinding met de SharePoint-beheer-URL op <https://contosohealthcare-admin.sharepoint.com> :
 
-`Connect-SPOService -url https://contosohealthcare-admin.sharepoint.com`
+```powershell
+Connect-SPOService -Url https://contosohealthcare-admin.sharepoint.com
+```
 
-![](../media/move-onedrive-between-geo-locations-image1.png)
- 
+![SharePoint Online management shell-venster met de opdracht verbinding-SPOService](../media/move-onedrive-between-geo-locations-image1.png)
+
 ### <a name="validating-the-environment"></a>De omgeving valideren
 
 We raden u aan om te controleren of de site kan worden verplaatst voordat u de verhuizing van een site plant.
 
 We bieden geen ondersteuning voor het verplaatsen van sites met:
--    Business Connectivity Services
--    InfoPath-formulieren 
+
+- Business Connectivity Services
+- InfoPath-formulieren
 - IRM-sjablonen (Information Rights Management)
 
 Voer de opdracht uit om ervoor te zorgen dat alle geo-locaties compatibel zijn `Get-SPOGeoMoveCrossCompatibilityStatus` . Hiermee worden al uw geografische locaties weergegeven en wordt aangegeven of de omgeving compatibel is met de geografische locatie van de doellocatie.
@@ -102,15 +106,17 @@ Hierdoor wordt het *resultaat als* de site klaar is om te worden verplaatst of *
 
 De aanvankelijke URL voor de site wordt standaard gewijzigd in de URL van de geografische locatie van de bestemming. Bijvoorbeeld:
 
-https://Contoso.sharepoint.com/sites/projectx Aan https://ContosoEUR.sharepoint.com/sites/projectx
+<https://Contoso.sharepoint.com/sites/projectx> Aan <https://ContosoEUR.sharepoint.com/sites/projectx>
 
 Voor sites zonder de groeps koppeling van Microsoft 365 kunt u ook de naam van de site wijzigen met behulp van de `-DestinationUrl` parameter. Bijvoorbeeld:
 
-https://Contoso.sharepoint.com/sites/projectx Aan https://ContosoEUR.sharepoint.com/sites/projecty
+<https://Contoso.sharepoint.com/sites/projectx> Aan <https://ContosoEUR.sharepoint.com/sites/projecty>
 
 Voer het volgende uit om de site te verplaatsen:
 
-`Start-SPOSiteContentMove -SourceSiteUrl <siteURL> -DestinationDataLocation <DestinationDataLocation> -DestinationUrl <DestinationSiteURL>`
+```powershell
+Start-SPOSiteContentMove -SourceSiteUrl <siteURL> -DestinationDataLocation <DestinationDataLocation> -DestinationUrl <DestinationSiteURL>
+```
 
 ![Schermafbeelding van het PowerShell-venster met de cmdlet start-SPOSiteContentMove](../media/multi-geo-sharepoint-site-move-powershell.png)
 
@@ -124,7 +130,8 @@ De PDL voor een Microsoft 365-groep instellen:
 Set-SPOUnifiedGroup -PreferredDataLocation <PDL> -GroupAlias <GroupAlias>
 Get-SPOUnifiedGroup -GroupAlias <GroupAlias>
 ```
-Wanneer u de PDL-update hebt bijgewerkt, kunt u de verhuizing van de site starten: 
+
+Wanneer u de PDL-update hebt bijgewerkt, kunt u de verhuizing van de site starten:
 
 ```PowerShell
 Start-SPOUnifiedGroupMove -GroupAlias <GroupAlias> -DestinationDataLocation <DestinationDataLocation>
@@ -139,19 +146,22 @@ U kunt een geografische verplaatsing van een SharePoint-site stoppen, mits de ov
 Met behulp van de volgende cmdlets kunt u de status van een site bepalen in ons van de geo waarmee u bent verbonden.
 
 - [Get-SPOSiteContentMoveState](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spositecontentmovestate) (niet met een groep verbonden sites)
-- Get-SPOUnifiedGroupMoveState (met een groep verbonden sites)
+- [Get-SPOUnifiedGroupMoveState](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spounifiedgroupmovestate) (met een groep verbonden sites)
 
 Met behulp `-SourceSiteUrl` van de parameter kunt u de site opgeven waarvoor u de status van verplaatsen wilt weergeven.
 
 De verplaatsings status wordt beschreven in de volgende tabel.
 
+****
+
 |Status|Beschrijving|
-|:-----|:----------|
+|---|---|
 |Klaar om te activeren|De verhuizing is niet gestart.|
 |Geplande|De verhuizing bevindt zich in de wachtrij maar is nog niet gestart.|
 |Invoortgang (n/4)|De verplaatsing wordt uitgevoerd in een van de volgende staten: validering (1/4), back-up (2/4), herstellen (3/4), opruimen (4/4).|
 |Bevestiging|De verhuizing is voltooid.|
 |Mislukt|Verplaatsen mislukt.|
+|
 
 U kunt ook de `-Verbose` optie gebruiken om aanvullende informatie over de verhuizing te zien.
 
@@ -215,4 +225,4 @@ PowerApps moet opnieuw worden gemaakt op de doellocatie.
 
 ### <a name="data-movement-between-geo-locations"></a>Gegevensverplaatsing tussen geo-locaties
 
-SharePoint gebruikt Azure Blob Storage voor de inhoud, terwijl de metagegevens van sites en de bijbehorende bestanden in SharePoint zijn opgeslagen. Wanneer de site van de geografische locatie van de site naar de geografische locatie van de doellocatie wordt verplaatst, wordt de bijbehorende Blobopslag ook verplaatst met de service. Blobopslag wordt met een gehele 40 dagen afgerond. 
+SharePoint gebruikt Azure Blob Storage voor de inhoud, terwijl de metagegevens van sites en de bijbehorende bestanden in SharePoint zijn opgeslagen. Wanneer de site van de geografische locatie van de site naar de geografische locatie van de doellocatie wordt verplaatst, wordt de bijbehorende Blobopslag ook verplaatst met de service. Blobopslag wordt met een gehele 40 dagen afgerond.

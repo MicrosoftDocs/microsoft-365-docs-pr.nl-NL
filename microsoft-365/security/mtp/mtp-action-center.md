@@ -1,9 +1,9 @@
 ---
-title: Ga naar het Actiecentrum om uw geautomatiseerde onderzoeks- en hersteltaken te bekijken en goed te keuren
-description: Het Onderhoudscentrum gebruiken om details over geautomatiseerd onderzoek te bekijken en lopende acties goed te keuren
-keywords: Action Center, bescherming van bedreigingen, onderzoek, alert, in afwachting, geautomatiseerd, detectie
+title: Ga naar het Actiecentrum voor het weergeven en goedkeuren van uw automatisch onderzoek en hersteltaken
+description: In het Actiecentrum vindt u meer informatie over geautomatiseerde onderzoek en het goedkeuren van acties met de status
+keywords: Onderhoudscentrum, bedreigingsbeveiliging, onderzoek, waarschuwing, in behandeling, automatisch, detectie
 search.appverid: met150
-ms.prod: M365-security-compliance
+ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -18,85 +18,85 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 77bc0f088a9779396a56a9cc8cc9ae6ecbdadea7
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: 2dc641d22432e245980b905051bddd3b7dd4ed07
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46503101"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547984"
 ---
 # <a name="the-action-center"></a>Het Actiecentrum
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-Gebruik het Onderhoudscentrum om de resultaten van huidige en eerdere onderzoeken te bekijken op de apparaten en postvakken van uw organisatie. Afhankelijk van het type bedreiging en het daaruit voortvloeiende vonnis, worden [herstelacties](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-remediation-actions) automatisch of na goedkeuring door het beveiligingsteam van uw organisatie uitgevoerd. Alle herstelacties, of ze nu goedgekeurd zijn of al zijn goedgekeurd, worden geconsolideerd in het Actiecentrum. 
+Met behulp van het Actiecentrum kunt u de resultaten van huidig en vorig onderzoek op de apparaten en postvakken van uw organisatie bekijken. Afhankelijk van het type bedreiging en het resultaat Verdict, worden [herstelacties](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-remediation-actions) automatisch of na goedkeuring uitgevoerd door het team van uw organisatie. Alle herstelacties, of ze nu moeten worden goedgekeurd of al zijn goedgekeurd, worden in het Actiecentrum geconsolideerd. 
 
 ![Actiecentrum](../../media/air-actioncenter.png)
 
-## <a name="a-single-pane-of-glass-experience"></a>Een "enkele ruit" ervaring
+## <a name="a-single-pane-of-glass-experience"></a>Een "één ruit glas"-ervaring
 
-Het Actiecentrum biedt een "enkel glasvenster" ervaring voor taken, zoals:
-- Goedkeuring in afwachting van herstelacties;
-- Een controlelogboek van reeds goedgekeurde herstelacties weergeven; En
-- Voltooide herstelacties bekijken.
+Het Actiecentrum biedt een ' één ruit ruit ' voor taken, zoals:
+- Acties voor herstel in behandeling goedkeuren;
+- Een auditlogboek met al goedgekeurde herstelacties weergeven. en
+- U bekijkt voltooide herstelbewerkingen.
 
-Uw beveiligingsteam kan effectiever en efficiënter werken, omdat het Onderhoudscentrum een uitgebreid overzicht biedt van Microsoft Threat Protection op het werk.
+Uw team van beveiligingsactiviteiten kan effectiever en efficiënt werken omdat het Actiecentrum een uitgebreide weergave biedt van Microsoft Threat Protection op het werk.
 
-## <a name="go-to-the-action-center"></a>Naar het actiecentrum gaan
+## <a name="go-to-the-action-center"></a>Ga naar het Actiecentrum
 
-1. Ga naar [https://security.microsoft.com](https://security.microsoft.com) en meld je aan. 
+1. Ga naar [https://security.microsoft.com](https://security.microsoft.com) en meld u aan. 
 
-2. Kies in het navigatiedeelvenster **Het centrum van Actie**. 
+2. Kies in het navigatiedeelvenster de optie **Onderhoudscentrum**. 
 
-3. In het Onderhoudscentrum ziet u twee tabbladen: **In behandeling** en **geschiedenis**.
+3. In het Actiecentrum ziet u twee tabbladen: **in behandeling** en **geschiedenis**.
 
-    - Op het tabblad **In behandeling** worden onderzoeken weergegeven waarvoor iemand in uw beveiligingsteam moet worden gecontroleerd en goedgekeurd om door te gaan. Zorg ervoor dat u objecten in behandeling bekijkt en actie onderneemt voor lopende objecten die u hier ziet.
+    - Het tabblad **in behandeling** bevat verificatieverzoeken die moeten worden gecontroleerd en goedgekeurd door iemand in uw Beveiligingsteam om door te gaan. Zorg ervoor dat u de items die in behandeling zijn, controleert en actie onderneemt.
 
-    - Op het tabblad **Geschiedenis** worden eerdere onderzoeken en herstelacties weergegeven die automatisch zijn uitgevoerd. U gegevens van de afgelopen dag, week, maand of zes maanden bekijken.
+    - Het tabblad **geschiedenis** bevat eerdere onderzoeken-en herstelacties die automatisch zijn doorgevoerd. U kunt de gegevens voor de afgelopen dag, week, maand of zes maanden weergeven.
 
-4. Als u alleen de kolommen wilt **weergeven**die u wilt zien, selecteert u Kolommen aanpassen .<br/>![Onderhoudscentrum in Microsoft Threat Protection](../../media/mtp-action-center.png)
+4. Als u alleen de kolommen wilt weergeven die u wilt weergeven, selecteert u **kolommen aanpassen**.<br/>![Onderhoudscentrum in Microsoft Threat Protection](../../media/mtp-action-center.png)
 
-5. Selecteer een item in de lijst om meer details over een onderzoek weer te geven. De weergave details van het onderzoek wordt geopend.<br/>![Onderzoeksdetails](../../media/mtp-air-investdetails.png)
+5. Selecteer een item in de lijst om meer details over een onderzoek te bekijken. De weergave Details van onderzoek wordt geopend.<br/>![Details van onderzoek](../../media/mtp-air-investdetails.png)
 
-    - Als het onderzoek betrekking heeft op e-mailinhoud (zoals de entiteit een postvak), worden de onderzoeksgegevens geopend in het Security & Compliance Center ( [https://protection.office.com/threatinvestigation](https://protection.office.com/threatinvestigation) ). 
+    - Als het onderzoek betrekking heeft op e-mail inhoud (zoals de entiteit is een postvak), worden details van onderzoek geopend in het beveiligings & compliance Center ( [https://protection.office.com/threatinvestigation](https://protection.office.com/threatinvestigation) ). 
 
-    - Als het onderzoek een apparaat betreft, openen de onderzoeksdetails in het veiligheidscentrum ( [https://security.microsoft.com](https://security.microsoft.com) ). 
+    - Als het onderzoek een apparaat omvat, worden details van het onderzoek geopend in het Beveiligingscentrum ( [https://security.microsoft.com](https://security.microsoft.com) ). 
 
 > [!TIP]
-> Als u denkt dat er iets is gemist of ten onrechte is gedetecteerd door geautomatiseerde onderzoeks- en reactiefuncties in Microsoft Threat Protection, laat het ons dan weten! Zie [Hoe foutieve positieven/negatieven te rapporteren in geautomatiseerde mogelijkheden voor onderzoek en respons (AIR) in Microsoft Threat Protection](mtp-autoir-report-false-positives-negatives.md).
+> Laat het ons weten als u denkt dat er een fout is opgetreden met een automatisch onderzoek en antwoord functies in Microsoft Threat Protection. Lees [hoe u in Microsoft Threat Protection onjuiste positief en negatief kunt rapporteren in de functies voor automatisch onderzoek en Reacties (lucht)](mtp-autoir-report-false-positives-negatives.md).
 
 ## <a name="available-actions"></a>Beschikbare acties
 
-Als herstelacties worden uitgevoerd, worden ze weergegeven op het tabblad Geschiedenis in het Centrum van Het Actiecentrum. Dergelijke acties omvatten het volgende:
+Wanneer herstelacties worden uitgevoerd, worden deze weergegeven op het tabblad geschiedenis in het Actiecentrum. Dit zijn onder andere de volgende acties:
 
-- Verzamel onderzoekspakket 
+- Onderzoek pakket verzamelen 
 - Apparaat isoleren (deze actie kan ongedaan worden gemaakt) 
-- Buitenboordmachine 
-- Uitvoering van de code vrijgeven 
-- Loslaten uit quarantaine 
-- Voorbeeld aanvragen 
-- Codeuitvoering beperken (deze actie kan ongedaan worden gemaakt) 
-- Antivirusscan uitvoeren 
-- Stoppen en in quarantaine 
+- Verwijderen-computer 
+- Uitvoering van release code 
+- Release van quarantaine 
+- Voorbeeld van aanvraag 
+- Uitvoering van code beperken (deze actie kan ongedaan worden gemaakt) 
+- Antivirus scan uitvoeren 
+- Stoppen en quarantineen 
 
-## <a name="required-permissions-for-action-center-tasks"></a>Vereiste machtigingen voor Action Center-taken
+## <a name="required-permissions-for-action-center-tasks"></a>Vereiste machtigingen voor taken in het Actiecentrum
 
-Als u lopende acties in het Onderhoudscentrum wilt goedkeuren of afwijzen, moet u machtigingen hebben toegewezen die zijn toegewezen in de volgende tabel:
+Als u in het Actiecentrum in behandeling zijnde acties wilt goedkeuren of weigeren, moet u beschikken over de machtigingen die zijn toegewezen aan de hand van de volgende tabel:
 
-|Saneringsactie |Vereiste rollen en machtigingen |
+|Herstelactie |Vereiste rollen en machtigingen |
 |--|----|
-|Microsoft Defender ATP-herstel (apparaten) |Rol beveiligingsbeheerder toegewezen in Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of het Microsoft 365-beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>--- of ---<br/>Rol actieve herstelacties toegewezen in Microsoft Defender ATP <br/> <br/> Zie de volgende bronnen voor meer informatie: <br/>- [Machtigingen voor beheerdersrol in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Rollen maken en beheren voor toegangscontrole op basis van rollen (Microsoft Defender ATP)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles)  |
-|Office 365 ATP-herstel (Office-inhoud en -e-mail)  |Rol beveiligingsbeheerder toegewezen in Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of het Microsoft 365-beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>--- en --- <br/>Zoek- en zuiveringsrol toegewezen aan het Security & Compliance Center ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**BELANGRIJK:** als u de rol beveiligingsbeheerder alleen hebt toegewezen in het Security & Compliance Center, hebt u geen toegang tot het Onderhoudscentrum of de mogelijkheden voor Microsoft Threat Protection. U moet de rol Beveiligingsbeheerder hebben toegewezen in Azure Active Directory of het Microsoft 365-beheercentrum. <br/><br/>Zie de volgende bronnen voor meer informatie: <br/>- [Machtigingen voor beheerdersrol in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Machtigingen in het Security & Compliance Center](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
+|Microsoft Defender ATP voor herbemiddeling (apparaten) |Rollen van beveiligingsbeheerders toegewezen in azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of het Microsoft 365-Beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>------<br/>De rol actieve herstelacties toegewezen in Microsoft Defender ATP <br/> <br/> Zie de volgende bronnen voor meer informatie: <br/>- [Machtigingen voor beheerdersrollen in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Rollen maken en beheren voor toegangsbeheer op basis van rollen (Microsoft Defender ATP)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles)  |
+|Office 365 ATP voor herbemiddeling (Office-inhoud en e-mail)  |Rollen van beveiligingsbeheerders toegewezen in azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of het Microsoft 365-Beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>---en--- <br/>Rol zoeken en wissen toegewezen aan de beveiligings & compliance Center ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**Belangrijk**: als u de rol van beveiligingsbeheerder alleen hebt toegewezen aan de beveiligings & nalevings centrum, hebt u geen toegang tot de functies van het Actiecentrum of Microsoft Threat Protection. U moet de rol van beveiligingsbeheerder zijn toegewezen in azure Active Directory of het Microsoft 365-Beheercentrum. <br/><br/>Zie de volgende bronnen voor meer informatie: <br/>- [Machtigingen voor beheerdersrollen in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Machtigingen in het nalevings centrum voor beveiligings &](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
 
 > [!NOTE]
-> Gebruikers die de rol Global Administrator hebben toegewezen in Azure Active Directory, kunnen elke lopende actie in het Onderhoudscentrum goedkeuren of weigeren. Als aanbevolen procedures moet uw organisatie echter het aantal mensen beperken dat de rol Global Administrator heeft toegewezen. We raden u aan de hierboven genoemde machtigingen voor het Onderhoudscentrum te gebruiken voor machtigingen voor het Onderhoudscentrum.
+> Gebruikers met de rol van globale beheerder die zijn toegewezen aan Azure Active Directory, kunnen een actie in behandeling goedkeuren of weigeren in het Actiecentrum. De beste manier om het aantal personen met de rol van globale beheerder in de organisatie te beperken. U wordt aangeraden gebruik te maken van de bovenstaande beveiligingsbeheerder, actieve herstelacties en de hierboven vermelde functies voor het Actiecentrum.
 
 ## <a name="next-steps"></a>Volgende stappen 
 
 - [Meer informatie over incidenten in Microsoft Threat Protection](incidents-overview.md)
 
-- [Bekijk de resultaten van een geautomatiseerd onderzoek](mtp-autoir-results.md)
+- [De resultaten van een geautomatiseerd onderzoek weergeven](mtp-autoir-results.md)
 
-- [Meer informatie over jagen in Microsoft Threat Protection](advanced-hunting-overview.md)
+- [Meer informatie over de jacht in Microsoft Threat Protection](advanced-hunting-overview.md)
 

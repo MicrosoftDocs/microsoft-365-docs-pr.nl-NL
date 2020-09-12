@@ -16,16 +16,16 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 41ead64a7a94dcd5afb22a311d7637326949fc7c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 4dde82ef9deb4d515ea5223470f7c96c1fe28a26
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685652"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546348"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Beleids aanbevelingen voor het beveiligen van teams-chats,-groepen en-bestanden
 
-In dit artikel wordt uitgelegd hoe u de aanbevolen identiteit en het beleid voor het openen van een apparaat implementeert om teams-chats, groepen en inhoud zoals bestanden en agenda's te beschermen. Deze richtlijnen zijn van toepassing op de [veelgebruikte beleidsregels voor identiteit en Apparaattoegang](identity-access-policies.md), met aanvullende informatie die specifiek is voor teams. Aangezien teams met onze andere producten integreren, zie ook [beleids aanbevelingen voor het beveiligen van SharePoint-sites en-bestanden](sharepoint-file-access-policies.md) en- [aanbevelingen voor het beveiligen van e-mail](secure-email-recommended-policies.md).
+In dit artikel wordt uitgelegd hoe u de aanbevolen identiteit en het beleid voor het openen van een apparaat kunt implementeren om Microsoft teams-chats, groepen en inhoud, zoals bestanden en agenda's, te beschermen. Deze richtlijnen zijn van toepassing op de [veelgebruikte beleidsregels voor identiteit en Apparaattoegang](identity-access-policies.md), met aanvullende informatie die specifiek is voor teams. Aangezien teams met onze andere producten integreren, zie ook [beleids aanbevelingen voor het beveiligen van SharePoint-sites en-bestanden](sharepoint-file-access-policies.md) en- [aanbevelingen voor het beveiligen van e-mail](secure-email-recommended-policies.md).
 
 Deze aanbevelingen maken deel uit van drie verschillende niveaus voor beveiliging en bescherming voor teams die op de granulatie van uw behoeften kunnen worden toegepast: basislijn, gevoelige en nadrukkelijk gereglementeerde. U vindt meer informatie over deze beveiligingslagen en de aanbevolen beleidsregels waarnaar wordt verwezen door deze aanbevelingen in de [configuraties voor identiteit en Apparaattoegang](microsoft-365-policies-configurations.md).
 
@@ -38,25 +38,27 @@ U hoeft geen afhankelijke services in te schakelen om aan de slag te gaan met Mi
 - Microsoft 365-groepen
 - SharePoint-teamsites
 - OneDrive voor Bedrijven
-- Postbus
+- Exchange-postvakken
 - Video's en planner-abonnementen streamen (als deze services zijn ingeschakeld)
 
 ## <a name="updating-common-policies-to-include-teams"></a>Veelgebruikte beleidsregels bijwerken voor het opnemen van teams
 
-In het volgende diagram ziet u de set aanbevolen beleidsregels voor de bescherming van chatberichten, groepen en inhoud in teams. Met het potloodpictogram wordt aangeduid welke beleidsregels moeten worden revisited om te controleren of teams en afhankelijke services zijn opgenomen in de toewijzing van Cloud-apps.
+In het volgende diagram ziet u welke beleidsregels u moet bijwerken vanuit de veelgebruikte beleidsregels voor identiteits-en toegangsbeleid om chatten, groepen en inhoud in teams te beschermen. Zorg ervoor dat teams en afhankelijke services zijn opgenomen in de toewijzing van Cloud-apps voor elk beleid dat u wilt bijwerken.
 
-![Een diagram waarin wordt getoond hoe u Microsoft teams kunt gebruiken op verschillende apparaten.](../media/identity-access-ruleset-teams.png)
+[![Overzicht van beleidsupdates voor de bescherming van de toegang tot teams en de afhankelijke services](../media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)
+
+[Een grotere versie van deze afbeelding weergeven](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)
 
 Dit zijn de afhankelijke services die moeten worden opgenomen in de toewijzing van Cloud-apps voor teams:
 
 - Microsoft Teams
-- SharePoint Online en OneDrive voor bedrijven
+- SharePoint en OneDrive voor Bedrijven
 - Exchange Online
 - Skype voor Bedrijven Online
 - Microsoft stream (opnamen van vergaderingen)
 - Microsoft planner (taken plannen en gegevens plannen)
 
-In deze tabel vindt u een overzicht van de beleidsregels die moeten worden Revisited en koppelingen naar de verschillende beleidsregels dienen te worden [gebruikt](identity-access-policies.md), met de bredere regels voor alle Office-toepassingen.
+In deze tabel vindt u een overzicht van de beleidsregels die moeten worden Revisited en koppelingen naar de verschillende beleidsregels moeten worden opgenomen in het [beleid voor veelgebruikte identiteits-en Apparaattoegang](identity-access-policies.md), waarvan de bredere beleidsregels voor alle Office-toepassingen zijn ingesteld.
 
 |Beveiligingsniveau|Lijnen|Meer informatie voor de implementatie van teams|
 |:---------------|:-------|:----------------|
@@ -76,7 +78,7 @@ In deze tabel vindt u een overzicht van de beleidsregels die moeten worden Revis
 
 In het volgende diagram ziet u een overzicht van de services teams. Zie [Microsoft teams en bijbehorende productiviteitsservices in Microsoft 365 voor IT-architecten](../solutions/productivity-illustrations.md)voor meer informatie en andere illustraties.
 
-![Diagram met de afhankelijkheden van teams in SharePoint Online, OneDrive voor bedrijven en Exchange.](../media/identity-access-logical-architecture-teams.png)
+![Diagram met de afhankelijkheden van teams in SharePoint, OneDrive voor bedrijven en Exchange](../media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
 
 ## <a name="enabling-guest-and-external-access-for-teams"></a>Gast en externe toegang inschakelen voor teams
 
@@ -120,6 +122,10 @@ Zie [machtigingsbeleid voor apps in Microsoft teams beheren](https://docs.micros
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Meer informatie over het inschakelen van voorwaardelijke toegang voor Exchange Online](secure-email-recommended-policies.md)
+![Stap 4: beleidsregels voor Microsoft 365 Cloud-apps](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
+Beleidsregels voor voorwaardelijke toegang configureren voor:
+
+- [Exchange Online](secure-email-recommended-policies.md)
+- [SharePoint](secure-email-recommended-policies.md)
 

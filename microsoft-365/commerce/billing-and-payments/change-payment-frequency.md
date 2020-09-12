@@ -1,10 +1,10 @@
 ---
-title: Uw factureringsfrequentie wijzigen
+title: De frequentie van facturering wijzigen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,15 +20,15 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Meer informatie over hoe u wijzigen hoe vaak u wordt gefactureerd voor uw zakelijke abonnement.
-ms.openlocfilehash: 439e5b9c7e3c628b2b0834b624696e6c2ae19bb6
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+description: Meer informatie over hoe u kunt wijzigen hoe vaak u factureert voor uw bedrijfs abonnement.
+ms.openlocfilehash: 0a4dccd69092c849637a5c79bd1bfe6d7faa1202
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430000"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545928"
 ---
-# <a name="change-your-billing-frequency"></a>Uw factureringsfrequentie wijzigen
+# <a name="change-your-billing-frequency"></a>De frequentie van facturering wijzigen
 
 ::: moniker range="o365-21vianet"
 
@@ -37,10 +37,9 @@ ms.locfileid: "45430000"
 
 ::: moniker-end
 
-Wanneer u een abonnement koopt, kiest u voor maandelijkse of jaarlijkse facturering. Als u wilt wijzigen hoe vaak u voor een abonnement wordt gefactureerd, voert u de volgende stappen uit.
+Wanneer u een abonnement koopt, kiest u maandelijks of jaarlijks facturering. Gebruik de volgende stappen om te wijzigen hoe vaak u gefactureerd voor een abonnement wilt betalen.
 
-1. Ga in het beheercentrum naar de pagina **Facturering van** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
-
-2. Zoek het abonnement dat u wilt wijzigen. Selecteer bewerken in de sectie **Facturering,** naast **maandelijks gefactureerd** of **gefactureerd ,** de optie **Bewerken**.
-
-3. Kies de optie voor hoe vaak u in rekening wilt worden gebracht en selecteer **Vervolgens Wijzigen.**
+1. Ga in het Beheercentrum naar de pagina **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
+2. Selecteer op het tabblad **Products** het abonnement dat u wilt wijzigen.
+3. Selecteer op de pagina Details van abonnement in de sectie **Abonnementen en betalings instellingen** de optie **Factureringsfrequentie bewerken**.
+4. Kies in het deelvenster **Factureringsfrequentie bewerken** de optie voor hoe vaak u een factuur wilt ontvangen en selecteer vervolgens **wijzigen**.

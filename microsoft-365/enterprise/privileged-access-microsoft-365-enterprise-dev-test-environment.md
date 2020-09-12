@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: Gebruik deze test lab-handleiding om het toegangsbeheer voor uw Microsoft 365 voor Enterprise testomgeving in te schakelen.
-ms.openlocfilehash: 28fd27c3059fe25da5da8aaf8700b84c5989b408
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d8d92aa86076e323e4b5bb5c8eb1385edcac420c
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695144"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545940"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-for-enterprise-test-environment"></a>Toegangsbeheer met toegangsrechten voor uw testomgeving Microsoft 365 for Enterprise
 
@@ -62,7 +62,7 @@ In deze fase dient u te controleren of het beleid voor toegangsrechten en de geb
 
 ### <a name="test-ability-to-execute-a-task-not-defined-in-a-privileged-access-policy"></a>De mogelijkheid om een taak uit te voeren die niet is gedefinieerd in een beleid voor toegangsrechten testen
 
-Maak eerst verbinding met Exchange Management PowerShell met de referenties van een gebruiker die is geconfigureerd als globale beheerder in uw testomgeving en probeer een nieuwe logboek regel te maken. De [nieuwe JournalRule-](https://docs.microsoft.com/powershell/module/exchange/new-journalrule?view=exchange-ps) taak is op dit moment niet gedefinieerd in het toegangsbeleid voor uw organisatie.
+Maak eerst verbinding met Exchange Management PowerShell met de referenties van een gebruiker die is geconfigureerd als globale beheerder in uw testomgeving en probeer een nieuwe logboek regel te maken. De [nieuwe JournalRule-](https://docs.microsoft.com/powershell/module/exchange/new-journalrule) taak is op dit moment niet gedefinieerd in het toegangsbeleid voor uw organisatie.
 
 1. Open op uw lokale computer de naam van de Exchange Online Remote PowerShell-module op **Microsoft Corporation**  >  **Microsoft Exchange Online Remote PowerShell-module** met behulp van het globale beheerdersaccount voor uw testomgeving.
 
@@ -169,7 +169,7 @@ New-JournalRule -Name "JournalRule2" -Recipient user1@<your subscription domain>
 
 Verken de functies en mogelijkheden van extra [informatiebescherming](m365-enterprise-test-lab-guides.md#information-protection) in uw testomgeving.
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Raadpleeg ook
 
 [Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 

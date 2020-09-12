@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Hierin wordt beschreven hoe u gebruikers en groepen maakt wanneer uw Microsoft 365-abonnement gebruikmaakt van Cloud-only-identiteit.
-ms.openlocfilehash: 4c8e7d4a29f548fca2fef9696f488dc333743ef9
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 6ec727ea3648f1daa3af42763e5f497715b987a2
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689091"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547756"
 ---
 # <a name="microsoft-365-cloud-only-identity"></a>Microsoft 365 Cloud-only-identiteit
 
@@ -71,4 +71,4 @@ U maakt nieuwe ***groepen*** met:
 
 ## <a name="next-step-for-cloud-only-identity"></a>Volgende stap voor Cloud-only-identiteit
 
-[Licenties toewijzen aan gebruikersaccounts](assign-licenses-to-user-accounts.md)
+[Licenties aan gebruikersaccounts toewijzen](assign-licenses-to-user-accounts.md)

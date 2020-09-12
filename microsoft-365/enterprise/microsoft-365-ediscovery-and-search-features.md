@@ -16,14 +16,14 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Een overzicht van de eDiscovery-functie en andere zoekfuncties in Microsoft 365 voor controle gebruik en transparantie.
-ms.openlocfilehash: ea7b221ab8fe2ff41d089bb344d2dce58002d0f5
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: d18d3d4776c434788ee8fef7fb8be9edf339ff04
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331857"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547768"
 ---
-# <a name="microsoft-365-ediscovery-and-search-features-overview"></a>Overzicht van Microsoft 365 eDiscovery en zoekfuncties 
+# <a name="microsoft-365-ediscovery-and-search-features-overview"></a>Overzicht van Microsoft 365 eDiscovery en zoekfuncties
 
 ## <a name="ediscovery"></a>eDiscovery
 
@@ -67,6 +67,6 @@ Voor uitgebreide stappen voor het zoeken naar Microsoft 365-controlelogboeken ra
 
 ## <a name="search-unified-audit-log"></a>Uniform auditlogboek zoeken
 
-Gebruik de zoekfunctie voor audit Logboeken om in het Unified audit logboek te zoeken. Microsoft 365 biedt ook de mogelijkheid om te zoeken in dit logboek met Remote PowerShell. Met de [cmdlet Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/Search-UnifiedAuditLog?view=exchange-ps) in Exchange Online PowerShell wordt het geïntegreerde auditlogboek van gebeurtenissen in verband met gebruikers bewerkingen in Exchange Online, SharePoint Online, OneDrive voor bedrijven en Azure AD gezocht. 
+Gebruik de zoekfunctie voor audit Logboeken om in het Unified audit logboek te zoeken. Microsoft 365 biedt ook de mogelijkheid om te zoeken in dit logboek met Remote PowerShell. Met de [cmdlet Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) in Exchange Online PowerShell wordt het geïntegreerde auditlogboek van gebeurtenissen in verband met gebruikers bewerkingen in Exchange Online, SharePoint Online, OneDrive voor bedrijven en Azure AD gezocht.
 
 U kunt alle gebeurtenissen in een bepaald datumbereik zoeken, of u kunt de resultaten filteren op basis van bepaalde criteria, zoals een specifieke actie, de gebruiker die de actie heeft uitgevoerd of het doelobject. Beheerders kunnen met maximaal drie tegelijk PowerShell-sessies van Exchange Online gebruiken om grote hoeveelheden zoekopdrachten op te splitsen.

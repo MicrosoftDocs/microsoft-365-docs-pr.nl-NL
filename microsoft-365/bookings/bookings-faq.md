@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Microsoft Bookings Veelgestelde vragen.
-ms.openlocfilehash: db04c2759187f66503bcc28660b5177f636eaa6c
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: ee0de2d1412aa5ec38759a3a2512de05b9e02621
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419537"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545714"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft Bookings
 
@@ -180,7 +180,7 @@ U kunt geen tijdzone instellen voor medewerkers in bookings. De tijdzone van de 
 
 ### <a name="can-email-notifications-be-sent-as-the-tenant-domain-name"></a>Kunnen er e-mail meldingen worden verzonden als de Tenant domeinnaam?
 
-De e-mailadressen worden gecontroleerd en beheerd op het niveau van Microsoft 365 en zijn afhankelijk van de instellingen van de domeinconfiguratie. Meer informatie vindt u [hier](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-accepteddomain?view=exchange-ps).
+De e-mailadressen worden gecontroleerd en beheerd op het niveau van Microsoft 365 en zijn afhankelijk van de instellingen van de domeinconfiguratie. Meer informatie vindt u [hier](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain).
 
 ### <a name="is-the-ability-to-send-sms-messages-dependent-on-a-different-service-or-specific-configuration"></a>Is de mogelijkheid om SMS-berichten te verzenden die afhankelijk zijn van een andere service of een specifieke configuratie?
 
@@ -366,7 +366,7 @@ Neem contact op met de ondersteuning als na een langere periode deze fout wordt 
 
   - [Uw reserverings pagina aanpassen en publiceren](customize-booking-page.md)
 
-  - [Configuratie van Tenant Postvak](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-accepteddomain?view=exchange-ps)
+  - [Configuratie van Tenant Postvak](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain)
 
   - [Groeps Bookings](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)
 

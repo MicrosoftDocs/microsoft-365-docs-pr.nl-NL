@@ -4,7 +4,7 @@ author: msfttracyp
 ms.author: tracyp
 manager: dansimp
 ms.topic: article
-ms.service: Microsoft Threat Protection
+ms.service: O365-seccomp
 audience: admin
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Bedreiging voor herbemiddeling
 appliesto:
 - Microsoft Threat Protection
-ms.openlocfilehash: 44f20b29dcc88b1d991f9e93929aacc0e8aece32
-ms.sourcegitcommit: c76c025fe75cd9c06eccbf9c7fc887b09da36659
+ms.openlocfilehash: 2542f7af8a34088a79aae8a14f7ccdb8ea8fd121
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46903881"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547238"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Kwaadwillende e-mailberichten herstellen die worden bezorgd in Office 365
 
@@ -39,7 +39,6 @@ Voor zaken zoals berichtkoppen weergeven of e-mail inhoud downloaden, moet u een
 |Het gebruik van bedreigings Verkenner (en real-time detecties) om bedreigingen te analyseren |Globale beheerder <br> Beveiligingsbeheerder <br> Beveiligings lezer|Nee|
 |De weergave van bedreigingen (en realtime detectie) gebruiken om kopteksten voor e-mailberichten weer te geven en de gequarantinee e-mailberichten te bekijken en te downloaden|Globale beheerder <br> Beveiligingsbeheerder <br>Beveiligings lezer|Nee|
 |Met behulp van de bedreigings Verkenner kopteksten en e-mailberichten die zijn bezorgd bij postvakken weergeven|Globale beheerder <br>Beveiligingsbeheerder <br> Beveiligings lezer <br> Voorbeeld|Ja|
-
 
 > [!NOTE]
 > Voorbeeld is een *rol*, geen *rollen groep*. De rol van voorbeeld moet worden toegevoegd aan een bestaande rollen groep voor Office 365. De *rol van globale beheerder* wordt toegewezen in het [Microsoft 365-Beheercentrum](https://admin.microsoft.com). De rollen Beveiligingsbeheerder en beveiligings lezer worden toegewezen in de [beveiligings-en compliance Centers](https://protection.office.com). Zie [machtigingen in de sectie Beveiliging en compliance](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rollen en machtigingen.

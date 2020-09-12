@@ -13,12 +13,12 @@ ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 ms.collection: Strat_SP_gtc
 description: Meer informatie over het gebruik van de regio parameter voor het configureren van eDiscovery voor gebruik in de locaties van de satellieten in Microsoft 365 multi-geo.
-ms.openlocfilehash: 83141f824c76ca5531e1b390b91adcdb4f3874de
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 216012791473776395d27821293e8fc565568c2c
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689115"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547948"
 ---
 # <a name="microsoft-365-multi-geo-ediscovery-configuration"></a>Microsoft 365 multi-geo eDiscovery-configuratie
 
@@ -35,7 +35,7 @@ Wanneer de rol van eDiscovery-beheerder of beheerder is ingesteld voor een bepaa
 
 Het beveiligings filter voor naleving voor een gebied instellen:
 
-1. [PowerShell-beveiliging verbinding maken met Microsoft 365 beveiligings & nalevings centrum](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
+1. [PowerShell-beveiliging verbinding maken met Microsoft 365 beveiligings & nalevings centrum](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
 
 2. Gebruik de volgende syntaxis:
 
@@ -49,4 +49,4 @@ Het beveiligings filter voor naleving voor een gebied instellen:
    New-ComplianceSecurityFilter -Action All -FilterName "NAM eDiscovery Managers" -Region NAM -Users adwood@contoso.onmicrosoft.com
    ```
 
-Zie het [nieuwe ComplianceSecurityFilter-](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesecurityfilter) artikel voor aanvullende parameters en syntaxis.
+Zie het [nieuwe ComplianceSecurityFilter-](https://docs.microsoft.com/powershell/module/exchange/new-compliancesecurityfilter) artikel voor aanvullende parameters en syntaxis.

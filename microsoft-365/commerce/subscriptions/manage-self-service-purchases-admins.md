@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Beheerders kunnen informatie lezen over het beheren van selfservice aankopen van gebruikers in hun organisatie.
-ms.openlocfilehash: f10f525f8efc6bc63e2fa042c299a6d03c77d0cb
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: ca25bf0c3e3539196e81dcc289592028cc4dfa47
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429996"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546672"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Selfservice-aankopen beheren (Beheerders)
 
@@ -38,13 +38,13 @@ U kunt ook bepalen of gebruikers in uw organisatie selfservice aankopen kunnen v
 ## <a name="view-self-service-subscriptions"></a>Selfservice abonnementen weergeven
 
 1. Ga in het Beheercentrum naar de pagina **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
-2. Als u de **resultaten wilt verfijnen**, kiest u in de vervolgkeuzelijst **account type** de optie **selfservice**.
+2. Selecteer op het tabblad **Products** het pictogram filter en selecteer vervolgens **selfservice**.
 3. Als u meer informatie over een abonnement wilt bekijken, kiest u een abonnement in de lijst.
 
 ## <a name="view-who-has-licenses-for-a-self-service-purchase-subscription"></a>Weergeven wie licenties heeft voor een self-service Purchase-abonnement
 
 1. Ga in het Beheercentrum naar de pagina **factuur**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenties</a> .
-2. Kies het pictogram filter en kies vervolgens **self-service**.
+2. Selecteer het filterpictogram en kies vervolgens **self-service**.
 3. Selecteer een product om licenties te zien die zijn toegewezen aan personen.
     > [!NOTE]
     > Als er meerdere aankopen voor een product zijn, wordt dat product slechts eenmaal vermeld en wordt in de kolom **beschikbare hoeveelheid** de som van alle abonnementen die voor dat product zijn gekocht weergegeven.
@@ -67,13 +67,12 @@ Zie voor meer informatie [AllowSelfServicePurchase gebruiken voor de MSCommerce 
 
 U kunt bestaande licenties toewijzen of extra abonnementen kopen via bestaande overeenkomsten voor gebruikers die zijn toegewezen aan selfservice aankopen. Nadat u deze met een centraal aangeschafte licenties hebt toegewezen, kunt u vragen of kopers hun bestaande abonnementen annuleren.
 
-1. Meld u aan bij het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Beheercentrum</a> met het account van uw globale beheerder of factureringsbeheerder.
-2. Ga **naar de**pagina voor het  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">aanschaffen van services</a> .
-3. Zoek en selecteer het product dat u wilt kopen en kies vervolgens **kopen**.
-4. Voer de resterende stappen uit om uw aankoop te voltooien.
-5. Volg de stappen in [weergave met licenties voor een zelf gekocht abonnement](#view-who-has-licenses-for-a-self-service-purchase-subscription) voor het exporteren van een lijst met gebruikers waarnaar wordt verwezen in stap 6.
-6. Wijs licenties toe aan iedereen die een licentie heeft in het andere abonnement. Zie [licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md)voor de volledige stappen.
-7. Neem contact op met de persoon die het self-service Purchase-abonnement heeft gekocht en vraag of ze het zelf willen opzeggen.
+1. Ga **in het Beheercentrum naar de** \> pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Services voor aankopen van aankopen</a> .
+2. Zoek en selecteer het product dat u wilt kopen en kies vervolgens **kopen**.
+3. Voer de resterende stappen uit om uw aankoop te voltooien.
+4. Volg de stappen in [weergave met licenties voor een zelf gekocht abonnement](#view-who-has-licenses-for-a-self-service-purchase-subscription) voor het exporteren van een lijst met gebruikers waarnaar wordt verwezen in de volgende stap.
+5. Wijs licenties toe aan iedereen die een licentie heeft in het andere abonnement. Zie [licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md)voor de volledige stappen.
+6. Neem contact op met de persoon die het self-service Purchase-abonnement heeft gekocht en vraag of ze het zelf willen [opzeggen](manage-self-service-purchases-users.md#cancel-a-subscription).
 
 ## <a name="take-over-a-self-service-purchase-subscription"></a>Een self-service Purchase-abonnement nemen
 

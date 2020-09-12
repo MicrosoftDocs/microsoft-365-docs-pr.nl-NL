@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Meer informatie over het configureren van de zoekfunctie in een omgeving met meerdere geografische omgevingen. Slechts sommige klanten, zoals OneDrive voor bedrijven, kunnen resultaten retourneren in een omgeving met meerdere geografische omgevingen.
-ms.openlocfilehash: 22c71661e8f3b643a1fd7afa33b38584a1cd1be5
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: e213e93cfbc967a723b4d27f4b36a83fe6687da9
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695059"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547150"
 ---
 # <a name="configure-search-for-microsoft-365-multi-geo"></a>Zoekfunctie configureren voor Microsoft 365 multi-geo
 
@@ -30,15 +30,11 @@ Een gebruiker in een geografische locatie kan bijvoorbeeld zoeken naar inhoud di
 
 Deze clients kunnen resultaten van alle geografische locaties retourneren:
 
--   OneDrive voor Bedrijven
-
--   Delve
-
--   De SharePoint-Startpagina
-
--   Het zoekcentrum
-
--   Aangepaste zoektoepassingen die gebruikmaken van de zoek-API van SharePoint
+- OneDrive voor Bedrijven
+- Delve
+- De SharePoint-Startpagina
+- Het zoekcentrum
+- Aangepaste zoektoepassingen die gebruikmaken van de zoek-API van SharePoint
 
 ### <a name="onedrive-for-business"></a>OneDrive voor Bedrijven
 
@@ -136,14 +132,12 @@ Een aantal van de zoekfuncties die u mogelijk kent, wordt niet ondersteund in ee
 
 Alle zoek clients gebruiken de bestaande SharePoint Search REST-Api's om te werken met de zoekindexen.
 
-<img src="../media/configure-search-for-multi-geo-image1-1.png" />
+![Diagram waarin wordt weergegeven hoe de REST van de zoekactie van SharePoint interactie met de zoekindexen veroorzaakt](../media/configure-search-for-multi-geo-image1-1.png)
 
 1. Een zoekopdracht roept het eindpunt van de zoek REST aan met de queryeigenschap EnableMultiGeoSearch = True.
 2. De query wordt verzonden naar alle geografische locaties in de Tenant.
 3. De zoekresultaten van de geografische locatie worden samengevoegd en geclassificeerd.
 4. De client ontvangt Unified Search Results.
-
-
 
 <span id="_Set_up_a" class="anchor"><span id="_Ref501388384" class="anchor"></span></span>De zoekresultaten worden niet samengevoegd totdat we resultaten van alle geografische locaties hebben ontvangen. Dit betekent dat er in meerdere geo-zoekopdrachten een extra latentie heeft vergeleken met zoekopdrachten in een omgeving met maar één geografische locatie.
 
@@ -152,29 +146,32 @@ Alle zoek clients gebruiken de bestaande SharePoint Search REST-Api's om te werk
 
 Elk zoekcentrum heeft diverse verticaal en u moet elke verticaal apart instellen.
 
-1.  Zorg ervoor dat u deze stappen uitvoert met een account dat gemachtigd is om de pagina met zoekresultaten en het webonderdeel zoekresultaten te bewerken.
+1. Zorg ervoor dat u deze stappen uitvoert met een account dat gemachtigd is om de pagina met zoekresultaten en het webonderdeel zoekresultaten te bewerken.
 
-2.  Ga naar de pagina met zoekresultaten (Zie de [lijst](https://support.office.com/article/174d36e0-2f85-461a-ad9a-8b3f434a4213) met pagina's met zoekresultaten).
+2. Ga naar de pagina met zoekresultaten (Zie de [lijst](https://support.office.com/article/174d36e0-2f85-461a-ad9a-8b3f434a4213) met pagina's met zoekresultaten).
 
-3.  Selecteer de verticaal die u wilt instellen, klik op het tandwiel pictogram **instellingen** in de rechterbovenhoek en klik vervolgens op **pagina bewerken**. De pagina met zoekresultaten wordt geopend in de bewerkingsmodus.
+3. Selecteer de verticaal die u wilt instellen, klik op het tandwiel pictogram **instellingen** in de rechterbovenhoek en klik vervolgens op **pagina bewerken**. De pagina met zoekresultaten wordt geopend in de bewerkingsmodus.
 
-     ![](../media/configure-search-for-multi-geo-image2.png)
-1.  In het webonderdeel Zoekresultaten plaatst u de aanwijzer in de rechterbovenhoek van het webonderdeel, klikt u op de pijl en klikt u vervolgens op **webonderdeel bewerken** in het menu. Het taakvenster van het webonderdeel Zoekresultaten wordt geopend onder het lint in de rechterbovenhoek van de pagina. ![](../media/configure-search-for-multi-geo-image3.png)
+   ![Paginaselectie in instellingen bewerken](../media/configure-search-for-multi-geo-image2.png)
 
-1.  Selecteer in het taakvenster van het webonderdeel, in de sectie **instellingen** , onder **instellingen voor besturingselementen voor resultaten**de optie **Meervoudige geografische resultaten weergeven** om het webonderdeel zoekresultaten weer te geven voor resultaten van alle geo-locaties.
+4. In het webonderdeel Zoekresultaten plaatst u de aanwijzer in de rechterbovenhoek van het webonderdeel, klikt u op de pijl en klikt u vervolgens op **webonderdeel bewerken** in het menu. Het taakvenster van het webonderdeel Zoekresultaten wordt geopend onder het lint in de rechterbovenhoek van de pagina.
 
-2.  Klik op **OK** om uw wijzigingen op te slaan en het taakvenster van het webonderdeel te sluiten.
+   ![Selectie van webonderdeel bewerken](../media/configure-search-for-multi-geo-image3.png)
 
-3.  Controleer de wijzigingen in het webonderdeel zoekresultaten door te klikken op **inchecken** op het tabblad pagina van het hoofdmenu.
+5. Selecteer in het taakvenster van het webonderdeel, in de sectie **instellingen** , onder **instellingen voor besturingselementen voor resultaten**de optie **Meervoudige geografische resultaten weergeven** om het webonderdeel zoekresultaten weer te geven voor resultaten van alle geo-locaties.
 
-4.  Publiceer de wijzigingen via de koppeling die is opgenomen in de notitie boven aan de pagina.
+6. Klik op **OK** om uw wijzigingen op te slaan en het taakvenster van het webonderdeel te sluiten.
+
+7. Controleer de wijzigingen in het webonderdeel zoekresultaten door te klikken op **inchecken** op het tabblad pagina van het hoofdmenu.
+
+8. Publiceer de wijzigingen via de koppeling die is opgenomen in de notitie boven aan de pagina.
 
 <span id="_Get_custom_search" class="anchor"><span id="_Ref501388387" class="anchor"></span></span>
 ## <a name="get-custom-search-applications-to-show-results-from-all-or-some-geo-locations"></a>Aangepaste zoektoepassingen aanvragen voor het weergeven van resultaten van alle of een aantal geografische locaties
 
 Aangepaste zoektoepassingen resulteren in resultaten van alle of enkele geo-locaties door parameters op te geven, met de aanvraag voor de REST van de SharePoint Search REST-API.Afhankelijk van de parameters van de query is de query fanned naar alle geografische locaties of naar een aantal geografische locaties. Als u bijvoorbeeld alleen een subset van geografische locaties hoeft te doorzoeken om relevante informatie te vinden, kunt u de waaier slechts voor deze elementen regelen. Als het verzoek slaagt, levert de REST van de SharePoint-Zoek REST-API antwoordgegevens op.
 
-**Vereiste**
+### <a name="requirement"></a>Vereiste
 
 Voor elke geografische locatie moet u ervoor zorgen dat alle gebruikers in de organisatie het machtigingsniveau **lezen** voor de hoofdwebsite hebben gekregen (bijvoorbeeld contoso**APAC**. SharePoint.com/en contoso**EU**. SharePoint.com/). [Meer informatie over machtigingen](https://support.office.com/article/understanding-permission-levels-in-sharepoint-87ecbb0e-6550-491a-8826-c075e4859848).
 
@@ -231,14 +228,12 @@ MultiGeoSearchStatus: dit is een eigenschap die de SharePoint-zoek-API retournee
 <td align="left">Partijdig</td>
 <td align="left">Gedeeltelijke resultaten van een of meer geo-locaties. De resultaten zijn onvolledig vanwege een tijdelijke fout.</td>
 </tr>
-
 </tbody>
 </table>
 
 ### <a name="query-using-the-rest-service"></a>Query met behulp van de REST dienst
 
 Met een aanvraag voor ophalen geeft u de queryparameters op in de URL. Met een bericht na een bericht geeft u de queryparameters in de hoofdtekst in de JSON-indeling (Object Notation) door.
-
 
 #### <a name="request-headers"></a>Kopteksten aanvragen
 
@@ -270,8 +265,9 @@ https:// \<tenant\> / \_ API/search/query? QueryText = ' site ' &ClientType = ' 
 
 #### <a name="sample-post-request-thats-fanned-out-to-all-geo-locations"></a>Voorbeeld van een bericht dat is fanned naar **alle** geografische locaties
 
+```text
     {
-        "request": {
+    "request": {
             "__metadata": {
             "type": "Microsoft.Office.Server.Search.REST.SearchRequest"
         },
@@ -290,11 +286,11 @@ https:// \<tenant\> / \_ API/search/query? QueryText = ' site ' &ClientType = ' 
         "ClientType": "my_client_id"
         }
     }
-
+```
 
 #### <a name="sample-post-request-thats-fanned-out-to-some-geo-locations"></a>Voorbeeld van een bericht dat is fanned naar **een aantal** geografische locaties
 
-
+```text
     {
         "request": {
             "Querytext": "SharePoint",
@@ -319,13 +315,15 @@ https:// \<tenant\> / \_ API/search/query? QueryText = ' site ' &ClientType = ' 
             }
         }
     }
+```
 
 ### <a name="query-using-csom"></a>Query met behulp van CSOM
 
 Hier ziet u een voorbeeld van een CSOM-query die is fanned voor **alle** geo-locaties:
 
-    var keywordQuery = new KeywordQuery(ctx);
-    keywordQuery.QueryText = query.SearchQueryText;
-    keywordQuery.ClientType = <enter a string here>;
-    keywordQuery["EnableMultiGeoSearch"] = true;
-
+```text
+var keywordQuery = new KeywordQuery(ctx);
+keywordQuery.QueryText = query.SearchQueryText;
+keywordQuery.ClientType = <enter a string here>;
+keywordQuery["EnableMultiGeoSearch"] = true;
+```

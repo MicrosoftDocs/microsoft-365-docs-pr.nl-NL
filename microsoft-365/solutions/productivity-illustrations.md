@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 043f5882dcaa15576317958523d6e57d4667ef45
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: ae4a8b51111c53c2245005a5d863354737335ae2
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308083"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546181"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Illustraties van Microsoft 365-productiviteit
 
@@ -57,13 +57,13 @@ Sommige hulpprogramma's zijn beter geschikt voor bepaalde architecturen, afhanke
 
 
 <a name="BKMK_O365IDP"></a>
-### <a name="identity-and-device-protection-for-office-365"></a>Identiteits-en apparaatbescherming voor Office 365
+### <a name="identity-and-device-protection-for-microsoft-365"></a>Identiteit en beveiliging van apparaten voor Microsoft 365
 
-Aanbevolen mogelijkheden voor het beschermen van identiteiten en apparaten die toegang krijgen tot Office 365, andere SaaS-Services en on-premises toepassingen die worden gepubliceerd met de Azure AD-toepassingsproxy.
+Aanbevolen functies voor het beschermen van identiteiten en apparaten die toegang hebben tot Microsoft 365, andere SaaS-Services en on-premises toepassingen die zijn gepubliceerd met de Azure AD-toepassings proxy.
 
 |**Item**|**Beschrijving**|
 |:-----|:-----|
-|[![Poster van model: Identiteits- en apparaatbescherming voor Office 365 en andere SaaS-toepassingen](../media/solutions-architecture-center/O365-Identity-device-protection-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=55032) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) \| [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) \| [Meer talen](https://www.microsoft.com/download/details.aspx?id=55032) <br/> Laatst bijgewerkt: november 2018|Het is belangrijk dat u een consistent beveiligingsniveau gebruikt voor uw gegevens, identiteiten en apparaten. In dit document ziet u welke mogelijkheden vergelijkbaar zijn en krijgt u meer informatie over mogelijkheden om identiteiten en apparaten te beveiligen.  <br/> |
+|[![Model poster: identiteit en bescherming van apparaten voor Microsoft 365](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [Weergeven als een PDF-bestand](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als een PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als een Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> Bijgewerkt op september 2020|Het is belangrijk dat u een consistent beveiligingsniveau gebruikt voor uw gegevens, identiteiten en apparaten. In dit model ziet u welke mogelijkheden vergelijkbaar zijn met meer informatie over mogelijkheden om identiteiten en apparaten te beschermen.  <br/> |
    
 <!--
 

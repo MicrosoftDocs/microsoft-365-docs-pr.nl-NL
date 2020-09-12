@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 3a1ea1a6-edbd-4922-9ad3-0b075f7f9009
 description: Zoek de naslaginformatie over Microsoft 365 PowerShell-cmdlets voor informatie over Azure AD, Exchange Online, SharePoint Online, Skype voor bedrijven online en beveiliging & naleving.
-ms.openlocfilehash: 4905c20216e6df02399fe372ec31fe3bedfde6c4
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 8f2aa4b123e3b7e3f92aabee7f9e8adeeb9c154f
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689366"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547116"
 ---
 # <a name="cmdlet-references-for-microsoft-365-services"></a>Cmdlet-verwijzingen voor Microsoft 365-Services
 
@@ -42,7 +42,7 @@ Zie [verbinding maken met Microsoft 365 via PowerShell](connect-to-microsoft-365
   
 ## <a name="exchange-online-powershell-cmdlets"></a>PowerShell-cmdlets voor Exchange Online
 
-Naslaginformatie over de cmdlets voor Exchange Online-cmdlets bevinden zich in de sectie **verwijzingen** van de [Exchange Online PowerShell-documentatie](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps).
+Naslaginformatie over de cmdlets voor Exchange Online-cmdlets bevinden zich in de sectie **verwijzingen** van de [Exchange Online PowerShell-documentatie](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell).
   
 Voor verbindings instructies voor Exchange Online PowerShell klikt [u op verbinding maken met Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
   
@@ -61,17 +61,14 @@ Voor naslaginformatie over de cmdlets voor Skype voor bedrijven online: Klik op 
   
 Voor de verbindings instructies voor de PowerShell voor Skype voor bedrijven online, klikt u op [Skype voor bedrijven online beheren met PowerShell](manage-skype-for-business-online-with-microsoft-365-powershell.md).
 
-## <a name="security-amp-compliance-center-powershell-cmdlets"></a>&amp;PowerShell-cmdlets voor het beveiligings compliantie centrum
+## <a name="security--compliance-center-powershell-cmdlets"></a>PowerShell-cmdlets voor beveiliging & nalevings centrum
 
-Naslaginformatie over de cmdlets voor Microsoft 365 Security &amp; compliance Center vindt u in het gedeelte **verwijzingen** van de [Exchange Online PowerShell-documentatie](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps).
+Naslaginformatie over de cmdlets voor Microsoft 365 Security & compliance in de sectie **Naslaginformatie** van de [PowerShell-documentatie voor naleving van beveiligings &](https://docs.microsoft.com/powershell/exchange/scc-powershell).
   
-&amp;Klik op [verbinding maken met de &amp; PowerShell van het beveiligings compliance voor de](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps)verbindings instructies voor het beveiligings compliance-shell centrum.
+Klik op [verbinding maken met de PowerShell-& nalevings centrum voor de](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)verbindings instructies voor de beveiligings & nalevings centrum PowerShell.
 
-
-  
 ## <a name="see-also"></a>Zie ook
 
 [Microsoft 365 beheren met PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Aan de slag met PowerShell voor Microsoft 365](getting-started-with-microsoft-365-powershell.md)
-

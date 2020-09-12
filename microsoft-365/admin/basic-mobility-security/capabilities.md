@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Met basis mobiliteit en beveiliging kunt u mobiele apparaten beschermen en beheren.
-ms.openlocfilehash: a88afd539209d20046a778f8c6d16cadd51b5a9a
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: aed4f4c2d252e487d24496ac00f3de24bc57ab55
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430145"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545894"
 ---
 # <a name="capabilities-of-basic-mobility-and-security"></a>Mogelijkheden van eenvoudige mobiliteit en beveiliging
 
@@ -166,9 +166,9 @@ Met de volgende optie kunnen gebruikers verhinderen dat ze toegang hebben tot hu
 |Verbinding met Verwisselbare opslag blokkeren |Ja|Ja|Nee|
 |Bluetooth-verbinding blokkeren |Ja|Ja|Nee|
 
-##  <a name="additional-settings"></a>Meer instellingen 
+## <a name="additional-settings"></a>Meer instellingen
 
-U kunt de volgende extra beleidsinstellingen instellen met behulp van PowerShell-cmdlets. Zie [beveiligings & PowerShell voor nalevings centrum](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps)voor meer informatie.
+U kunt de volgende aanvullende beleidsinstellingen instellen met behulp van de PowerShell-cmdlets voor het & Beveiligingscentrum. Zie [beveiligings & PowerShell voor nalevings centrum](https://docs.microsoft.com/powershell/exchange/scc-powershell)voor meer informatie.
 
 |**Naam instellen**|**iOS 7,1 en hoger**|**Android 5 en hoger**|
 |:-----|:-----|:-----|
