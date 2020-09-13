@@ -2,7 +2,7 @@
 title: Microsoft 365-apps voor ondernemingen
 description: Microsoft 365-Apps implementeren, hoe deze worden bijgewerkt en hoe instellingen worden beheerd
 keywords: wijzigingsoverzicht
-ms.prod: m365-md
+ms.service: m365-md
 ms.sitesec: library
 author: jaimeo
 f1.keywords:
@@ -10,12 +10,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: b3843da0d35d78486ed22af6d057930ee4ad5bc9
-ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
+ms.openlocfilehash: 767489ba9f9ac63bc1a2d8b4999b6634335b1aef
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47295259"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547744"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365-apps voor ondernemingen
 
@@ -27,7 +27,7 @@ Microsoft Managed Desktop zorgt ervoor dat Microsoft 365-apps voor Enterprise (6
 - Excel
 - PowerPoint
 - Outlook
-- Rand
+- Publisher
 - Access
 - Skype voor Bedrijven
 - OneNote

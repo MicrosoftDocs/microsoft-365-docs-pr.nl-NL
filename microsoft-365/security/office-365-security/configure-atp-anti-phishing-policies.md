@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u het geavanceerde anti-phishingfilter kunt maken, wijzigen en verwijderen, dat beschikbaar is in organisaties met Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: f7770945e6b99a3d2f3fa2b12daa13b2cc3c2612
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 83f100cab12c91af1405ffc5f386ff51028710a9
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825735"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547650"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>ATP-beleid tegen phishing configureren
 
@@ -544,7 +544,7 @@ In dit voorbeeld wordt dezelfde regel ingeschakeld.
 Enable-AntiPhishRule -Identity "Marketing Department"
 ```
 
-Zie [Enable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/enable-AntiPhishrule) en [Disable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/disable-AntiPhishrule)voor gedetailleerde syntaxis-en parameterinformatie.
+Zie [Enable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/enable-antiphishrule) en [Disable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/disable-antiphishrule)voor gedetailleerde syntaxis-en parameterinformatie.
 
 ### <a name="use-powershell-to-set-the-priority-of-anti-phish-rules"></a>PowerShell gebruiken om de prioriteit van anti-phishings regels in te stellen
 

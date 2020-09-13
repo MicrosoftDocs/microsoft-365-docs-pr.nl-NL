@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 7c83d3f202851008e93c3f3e9d0c7bc89c49bf20
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: a1e85b2089663208e8b6004462211263a1b27242
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308365"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547791"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Om de identiteit en verder te leren lopen: één gezichtspunt van een architect
 
@@ -272,7 +272,7 @@ Office 365 heeft een [Uniform auditlogboek](https://docs.microsoft.com/microsoft
 
 Hier volgen enkele voorbeelden van de logboeken van Microsoft 365 die worden weergegeven via de andere API:
 - [Azure AD](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings) (activiteiten die niet gerelateerd zijn aan Office 365)
-- [Exchange-berichten traceren](https://docs.microsoft.com/powershell/module/exchange/get-messagetrace?view=exchange-ps)
+- [Exchange-berichten traceren](https://docs.microsoft.com/powershell/module/exchange/get-messagetrace)
 - Threat/UEBA Systems hierboven besproken (bijvoorbeeld Azure AD Identity Protection, Microsoft Cloud app Security, Microsoft Defender ATP, etc.)
 - [Microsoft-informatiebescherming](https://docs.microsoft.com/microsoft-365/compliance/data-classification-activity-explorer?view=o365-worldwide)
 - [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)
