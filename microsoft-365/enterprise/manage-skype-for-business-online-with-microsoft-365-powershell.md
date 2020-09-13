@@ -13,28 +13,28 @@ f1.keywords:
 - NOCSH
 ms.custom: ''
 ms.assetid: 054c16e6-9fd1-4e85-a0e6-81788b8410ea
-description: 'Overzicht: Gebruik PowerShell voor Microsoft 365 om beleidsregels voor Skype voor Bedrijven Online, beleid per gebruiker en vergaderingsinstellingen te beheren.'
-ms.openlocfilehash: aea78d135a5d7ffbb5d8480c549d0fdee88f7d51
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Gebruik PowerShell voor Microsoft 365 om beleidsregels voor Skype voor Bedrijven Online, beleidsregels per gebruiker en vergaderingsinstellingen te beheren.
+ms.openlocfilehash: d50f35d7d5e81622eb8dfc3bbf8328a8c43e9676
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689403"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47430032"
 ---
 # <a name="manage-skype-for-business-online-with-powershell"></a>Skype voor Bedrijven Online beheren met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Een van de belangrijkste taken van een beheerder van Skype voor Bedrijven Online is beleidsbeheer. Hoewel u sommige van deze taken kunt uitvoeren in het Microsoft 365-beheercentrum, is het uitvoeren van andere taken veel sneller en eenvoudiger in PowerShell. 
+De beheerders van Skype voor Bedrijven Online zijn verantwoordelijk voor het beleidsbeheer. Sommige van deze taken zijn uit te voeren in het Microsoft 365-beheercentrum. Andere taken zijn gemakkelijker uit te voeren in PowerShell.
 
 ## <a name="before-you-start"></a>Voordat u van start gaat
 
-Download en installeer de [Skype voor Business Online-connectormodule](https://www.microsoft.com/download/details.aspx?id=39366) en start vervolgens uw computer opnieuw op.
+Download en installeer de [Skype voor Business Online Windows PowerShell-module](https://www.microsoft.com/download/details.aspx?id=39366) en start de computer vervolgens opnieuw op.
 
 
-## <a name="connect-using-a-skype-for-business-online-administrator-account-name-and-password"></a>Verbinding maken met een administrator-accountnaam en wachtwoord voor Skype voor Bedrijven Online
+## <a name="connect-using-skype-for-business-online-admin-credentials"></a>Verbinding maken met de beheerdersreferenties van Skype voor Bedrijven Online
 
-1. Open een opdrachtprompt van Windows PowerShell en voer de volgende opdrachten uit: 
+1. Open een opdrachtpromptvenster van Windows PowerShell en voer de volgende opdrachten uit:
     
    ```powershell
    Import-Module SkypeOnlineConnector
@@ -43,12 +43,12 @@ Download en installeer de [Skype voor Business Online-connectormodule](https://w
    Import-PSSession $sfbSession
    ```
 
-2. Typ in het dialoogvenster **Referentieaanvraag voor Windows PowerShell** uw administrator-accountnaam en wachtwoord voor Skype voor Bedrijven Online en klik vervolgens op **OK**.
+2. Voer in het dialoogvenster **Referentieaanvraag voor Windows PowerShell** de naam en het wachtwoord van uw administratoraccount voor Skype voor Bedrijven Online en klik **OK**.
 
 
-## <a name="connect-using-a-skype-for-business-online-administrator-account-with-multi-factor-authentication"></a>Verbinding maken met een administrator-account voor Skype voor Bedrijven Online met meervoudige verificatie
+## <a name="connect-using-an-admin-account-with-multi-factor-authentication"></a>Verbinding maken met een beheerdersaccount met meervoudige verificatie
 
-1. Open een opdrachtprompt van Windows PowerShell en voer de volgende opdrachten uit:
+1. Open een Windows PowerShell-opdrachtpromptvenster en voer de volgende opdrachten uit:
 
    ```powershell
    Import-Module SkypeOnlineConnector
@@ -58,11 +58,11 @@ Download en installeer de [Skype voor Business Online-connectormodule](https://w
 
 2. Voer uw administrator-accountnaam voor Skype voor Bedrijven Online in wanneer de **New-CsOnlineSession**-opdracht u hierom vraagt.
 
-3. Typ in het dialoogvenster **Aanmelden bij uw account** uw administrator-wachtwoord voor Skype voor Bedrijven Online en klik vervolgens op **Aanmelden**.
+3. Voer in het dialoogvenster **Aanmelden bij uw account** uw administrator-wachtwoord voor Skype voor Bedrijven Online en klik op **Aanmelden**.
 
-4. Volg de instructies in het dialoogvenster **Aanmelden bij uw account** om aanvullende verificatiegegevens op te geven, zoals een verificatiecode, en klik vervolgens op **Bevestigen**.
+4. Volg de instructies in het dialoogvenster **Aanmelden bij uw account** om verificatiegegevens toe te voegen, zoals een verificatiecode. Klik vervolgens op **Bevestigen**.
 
-Zie de volgende onderwerpen voor meer informatie:
+Zie voor meer informatie:
   
 - [Beleidsregels voor Skype voor Bedrijven Online beheren met PowerShell](manage-skype-for-business-online-policies-with-microsoft-365-powershell.md)
     
@@ -75,4 +75,3 @@ Zie de volgende onderwerpen voor meer informatie:
 [Aan de slag met PowerShell voor Microsoft 365](getting-started-with-microsoft-365-powershell.md)
 
 [PowerShell-cmdlet-verwijzingen voor Skype voor Bedrijven](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-
