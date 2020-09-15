@@ -32,7 +32,7 @@
     - name: De app Bookings openen
       href: get-bookings-app.md
     - name: Bookings-app en virtuele bezoeken in Microsoft teams
-      href: 'https://docs.microsoft.com/en-us/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
+      href: 'https://docs.microsoft.com/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
     - name: Vergelijkings grafiek-Web-app versus teams-app
       href: comparison-chart.md
     - name: Een boekings agenda verwijderen
