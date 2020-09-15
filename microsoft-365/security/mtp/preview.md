@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ff610cee46b2b48815af82fa86d0b30aa99f4b5c
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: 502dc87b45c42f0ae95ea9da898c4d4589b19671
+ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46798232"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47649947"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Preview-functies voor Microsoft Threat Protection
 
@@ -50,13 +50,14 @@ Schakel de optie voorbeeld van de ervaring in op de eerste manier om de volgende
 
 3. Selecteer **Voorbeeldfuncties**om  >  **Voorbeeldfuncties in te schakelen**. 
 
-3. Kies **Opslaan**.
+3. Selecteer **Opslaan**.
 
 U weet dat u de preview-functies hebt ingeschakeld wanneer u het selectievakje **Voorbeeldfuncties inschakelen** hebt ingeschakeld. 
 
 ## <a name="preview-features"></a>Voorbeeldfuncties
 De volgende functies en verbeteringen zijn momenteel beschikbaar in de preview-versie:
 
+- **[Microsoft Threat Protection-api's](api-overview.md)** : met de Microsoft-Api's voor Microsoft Threat Protection kunt u werkstromen automatiseren op basis van de gedeelde incident en de geavanceerde jacht tabellen. 
 - **[IdentityDirectoryEvents-tabel in geavanceerde jacht](advanced-hunting-identitydirectoryevents-table.md)** : vind gebeurtenissen met een on-premises domeincontroller waarop Active Directory (AD) wordt uitgevoerd. Deze tabel omvat een bereik van gebeurtenissen die betrekking hebben op de identiteit en de systeemgebeurtenissen op de domeincontroller.
 - **[AssignedIPAddresses (), functie](advanced-hunting-assignedipaddresses-function.md)** : gebruik deze functie in geavanceerde jacht om snel de nieuwste IP-adressen te verkrijgen die zijn toegewezen aan een apparaat of de meest recente IP-adressen vanaf een bepaald moment.
 - **[Onderneem actie in de geavanceerde jacht](advanced-hunting-take-action.md)** en bevat snel bedreigingen of compromisloze activa die u vindt in de [geavanceerde jacht](advanced-hunting-overview.md).

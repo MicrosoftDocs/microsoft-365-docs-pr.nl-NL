@@ -6,7 +6,7 @@ author: JoeDavies-MSFT
 manager: laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/31/2020
+ms.date: 09/14/2020
 f1.keywords:
 - NOCSH
 ms.reviewer: martincoetzer
@@ -17,26 +17,33 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: 375e58214e19960d3e3100a0c1051fe7c4924aae
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: be35663fc32a2d214e1ca0ae91161079a5f672a3
+ms.sourcegitcommit: a13f43a3e981c90f1e0b9805c9c16a56f67fc650
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546640"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47651142"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
-In deze reeks artikelen wordt uitgelegd hoe u veilige toegang kunt krijgen tot cloudservices via Microsoft 365 voor Enterprise-producten door een aanbevolen omgeving en configuratie te implementeren, waaronder een vooraf ingestelde verzameling beleidsregels voor voorwaardelijke toegang en gerelateerde functies. U kunt deze richtlijnen gebruiken voor het beschermen van de toegang tot alle services die geïntegreerd zijn in azure Active Directory (Azure AD), waaronder Microsoft 365-Services, andere SaaS-Services en on-premises toepassingen die zijn gepubliceerd met de Azure AD-toepassings proxy.
+De moderne beveiligings verbinding van uw organisatie breidt nu buiten het netwerk tot het gebruik van gebruikers van Cloud apps vanaf elke locatie met een groot aantal apparaten. Uw beveiligingsinfrastructuur moet bepalen of een bepaalde toegangsaanvraag moet worden toegewezen en onder welke voorwaarden. 
 
-Deze aanbevelingen:
+Deze bepaling moet gebaseerd zijn op de aanmelding van het gebruikersaccount, het apparaat dat wordt gebruikt, de apps die de gebruiker probeert te openen, de locatie van waaraf de toegangsaanvraag wordt ingediend en een beoordeling van het risico van de aanvraag. Met deze functie kunt u ervoor zorgen dat alleen goedgekeurde gebruikers en apparaten toegang hebben tot uw cruciale bronnen.
 
-- Wordt uitgelijnd met de [Secure Score van Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) en [van de Score Score in azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score), en de scores van uw organisatie toenemen.
-- U wordt aangeraden deze [vijf stappen uit te voeren om uw identiteits infrastructuur te beschermen](https://docs.microsoft.com/azure/security/azure-ad-secure-steps). 
+In deze reeks artikelen wordt beschreven welke configuraties van de vereisten voor identiteiten en toegang hebben tot uw apparaten en een set van Azure Active Directory (Azure AD) voorwaardelijke toegang, Microsoft intune en andere beleidsregels om de toegang tot Microsoft 365 te beveiligen voor Office 365-apps en-services, andere SaaS-Services en on-premises toepassingen die zijn gepubliceerd met Azure AD Application proxy.
+
+De instellingen en het beleid voor identiteit en toegang worden in drie lagen geadviseerd: basisbescherming, gevoelige bescherming en bescherming voor omgevingen met zeer gereguleerde of geclassificeerde gegevens. Deze lagen en de bijbehorende configuraties zorgen voor een consistente bescherming van uw gegevens, identiteiten en apparaten.
+
+Deze mogelijkheden en de bijbehorende aanbevelingen:
+
+- Wordt ondersteund in Microsoft 365 E3 en Microsoft 365 E5.
+- Worden afgestemd op de [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) en de [Score Score in azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score), en zullen deze scores voor uw organisatie toenemen.
+- U wordt aangeraden deze [vijf stappen uit te voeren om uw identiteits infrastructuur te beschermen](https://docs.microsoft.com/azure/security/azure-ad-secure-steps).
 
 Als uw organisatie unieke omgevings eisen of complexe vereisten heeft, kunt u deze aanbevelingen als uitgangspunt gebruiken. De meeste organisaties kunnen deze aanbevelingen evenwel implementeren.
 
 >[!Note]
->Microsoft verkoopt ook licenties voor Enterprise Mobility + Security (EMS) voor Office 365-abonnementen. EMS E3-en EMS E5-mogelijkheden komen ongeveer overeen met die in Microsoft 365 E3 en Microsoft 365 E5. Zie [EMS-abonnementen](https://www.microsoft.com/en-us/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing) voor de details.
+>Microsoft verkoopt ook licenties voor Enterprise Mobility + Security (EMS) voor Office 365-abonnementen. EMS E3 en EMS E5 zijn gelijk aan de mogelijkheden van Microsoft 365 E3 en Microsoft 365 E5. Zie [EMS-abonnementen](https://www.microsoft.com/en-us/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing) voor de details.
 >
 
 ## <a name="intended-audience"></a>Doelgroep

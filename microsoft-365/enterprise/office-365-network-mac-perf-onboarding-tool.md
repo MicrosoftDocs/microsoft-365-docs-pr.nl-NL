@@ -1,9 +1,9 @@
 ---
-title: Microsoft 365 Connectivity test (preview) in het Microsoft 365-Beheercentrum
+title: Test voor Microsoft 365-netwerkverbindingen (preview)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 04/21/2020
+ms.date: 09/14/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -13,22 +13,22 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: Microsoft 365 connectiviteitstest in het M365-Beheercentrum (preview)
-ms.openlocfilehash: 421df459e2a8a1c1c62680b2d3658f5bdd297b25
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Test voor Microsoft 365-netwerkverbindingen (preview)
+ms.openlocfilehash: 92bd850c98261df1808219ee1f28c75da370d443
+ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689232"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47649992"
 ---
-# <a name="microsoft-365-connectivity-test-in-the-microsoft-365-admin-center-preview"></a>Microsoft 365-connectiviteitstest in het Microsoft 365-Beheercentrum (preview)
+# <a name="microsoft-365-network-connectivity-test-preview"></a>Test voor Microsoft 365-netwerkverbindingen (preview)
 
-De Microsoft 365 connectiviteitstest bevindt zich op <https://connectivity.office.com> . Het is een adjunct-hulpmiddel voor de netwerk inzichten en de netwerk Score informatie die beschikbaar is in het Microsoft 365-Beheercentrum, onder de **status | Menu netwerkprestaties** .
+Het testprogramma voor Microsoft 365-netwerkconnectiviteit bevindt zich op <https://connectivity.office.com> . Het is een adjunct-hulpmiddel voor de netwerkanalyse-en netwerk inzichten-informatie die beschikbaar is in het Microsoft 365-Beheercentrum, onder de **status | Verbindings** menu.
 
 >[!NOTE]
->Het hulpprogramma voor onboarding ondersteunt tenants in de Duitse commerciële versie en GCC matig, maar niet GCC High, DoD, Duitsland of China.
+>Het testprogramma voor Netwerkverbindingen ondersteunt tenants in de Duitse commerciële versie en Duitsland, maar niet GCC, GCC High, DoD of China.
 
-De netwerk inzichten in het Microsoft 365-Beheercentrum zijn gebaseerd op de maateenheden van het product voor uw Microsoft 365-Tenant. In vergelijking worden de netwerk inzichten van de Microsoft 365 connectiviteitstest lokaal uitgevoerd in het hulpprogramma. Tests die in het product kunnen worden uitgevoerd, zijn beperkt en door tests te voeren die voor de gebruiker toegankelijk zijn, kunnen de gegevens worden verzameld met een betere inzichten. Houd er rekening mee dat de netwerk inzichten in het Microsoft 365-Beheercentrum op een specifieke locatie van Office een netwerkprobleem voor gebruik van Microsoft 365. Met behulp van de Microsoft 365 Connectivity test kunt u de hoofdoorzaak van dit probleem achterhalen en de aanbevolen actie voor netwerk prestatieverbetering.
+De netwerk inzichten in het Microsoft 365-Beheercentrum op basis van regelmatige productafmetingen voor uw Microsoft 365-Tenant, die elke dag worden geaggregeerd. In vergelijking worden de netwerk inzichten van de test voor netwerkverbindingen van Microsoft 365 lokaal en met één keer via het hulpprogramma uitgevoerd. Tests die in het product kunnen worden uitgevoerd, zijn beperkt en door tests te voeren die voor de gebruiker toegankelijk zijn, kunnen de gegevens worden verzameld met een betere inzichten. Houd er rekening mee dat de netwerk inzichten in het Microsoft 365-Beheercentrum op een specifieke locatie van Office een netwerkprobleem voor gebruik van Microsoft 365. Met behulp van de Microsoft 365 Connectivity test kunt u de hoofdoorzaak van dit probleem achterhalen en de aanbevolen actie voor netwerk prestatieverbetering.
 
 We raden u aan dat ze samen gebruiken waar de status van netwerkkwaliteit kan worden geëvalueerd voor elke Office-locatie in het Microsoft 365-Beheercentrum en dat specifiekere informatie kan worden gevonden na de implementatie van de test op basis van de Microsoft 365-connectiviteitstest.
 
@@ -37,91 +37,185 @@ We raden u aan dat ze samen gebruiken waar de status van netwerkkwaliteit kan wo
 
 ## <a name="the-advanced-tests-client-application"></a>De clienttoepassing geavanceerde tests
 
-Er zijn twee gedeelten voor de Microsoft 365-connectiviteitstest. Er is <https://connectivity.office.com> een website en er is een downloadbare Windows-clienttoepassing. De downloadbare client voert geavanceerde aansluitingen voor de netwerkverbinding uit, en de meeste van de tests vereisen dat deze worden uitgevoerd.
+Er zijn twee onderdelen voor het testen van de netwerkverbinding van Microsoft 365. de website <https://connectivity.office.com> en een downloadbare Windows-clienttoepassing die geavanceerde netwerk connectiviteitstests uitvoert. Voor de meeste tests moet de toepassing worden uitgevoerd. De zoekresultaten worden weergegeven op de webpagina wanneer deze wordt uitgevoerd.
 
-U kunt de geavanceerde client test uitvoeren via de website en de resultaten worden weergegeven op de webpagina wanneer deze wordt uitgevoerd.
+U wordt gevraagd om de geavanceerde client testtoepassing van de website te downloaden na voltooiing van de webbrowser tests. Open het bestand en voer het uit wanneer hierom wordt gevraagd.
 
-![Voorbeeld van testresultaten van het O365-netwerk](../media/m365-mac-perf/m365-mac-perf-onboarding-tool-tests.png)
+![Geavanceerde tests clienttoepassing](../media/m365-mac-perf/m365-mac-perf-open-run-file.png)
 
-## <a name="user-office-location"></a>Locatie van gebruiker
+## <a name="sharing-your-test-report"></a>Uw testrapport delen
 
-De locatie van de gebruikers Office wordt gedetecteerd in de browser van de gebruikers. Dit wordt gebruikt voor het identificeren van de afstand van een netwerk tot bepaalde delen van de netwerkverbinding van het bedrijf.
+Voor het testrapport is aanmelding met uw Office 365-account vereist. De beheerder selecteert de manier waarop u uw testrapport kunt delen.
+
+### <a name="sharing-your-report-with-your-administrator"></a>Uw rapport delen met uw beheerder
+
+Alle testrapporten terwijl u bent aangemeld, worden gedeeld met de beheerder.
+
+### <a name="sharing-with-your-microsoft-account-team-support-or-other-personnel"></a>Delen met uw Microsoft-accountteam, ondersteunings-of andere medewerkers
+
+Test rapporten met uitzondering van persoonlijke identificatie worden gedeeld met Microsoft-werknemers. Dit is standaard ingeschakeld en kan door uw beheerder worden uitgeschakeld in de **status | Pagina netwerkverbinding** in het Microsoft 365-Beheercentrum.
+
+### <a name="sharing-with-other-users-who-sign-in-to-the-same-office-365-tenant"></a>Delen met andere gebruikers die zich aanmelden bij dezelfde Office 365-Tenant
+
+U kunt gebruikers selecteren met wie u het rapport wilt delen en dit is standaard ingeschakeld. De beheerder kan ook worden uitgeschakeld door de beheerder.
+
+![Een koppeling naar de testresultaten delen met een gebruiker](../media/m365-mac-perf/m365-mac-perf-share-to-user.png)
+
+### <a name="sharing-with-anyone-using-a-reportid-link"></a>Delen met iedereen die een koppeling naar ReportID gebruikt
+
+U kunt uw testverslag delen met iedereen door toegang te bieden tot een ReportID-koppeling. Hiermee wordt een URL gegenereerd die u naar iemand kunt verzenden, zodat ze het testrapport kunnen weergeven zonder dat ze zich hoeven aan te melden. Deze functie is standaard uitgeschakeld en moet worden ingeschakeld door de beheerder.
+
+![Een koppeling naar de testresultaten delen](../media/m365-mac-perf/m365-mac-perf-share-link.png)
+
+## <a name="network-connectivity-test-results"></a>Resultaten van netwerk verbindings test
+
+De resultaten worden weergegeven op de tabbladen **overzicht** en **Details** . Het tabblad Overzicht bevat een overzicht van de gedetecteerde netwerkverbinding en een vergelijking van de netwerk beoordeling met andere klanten van Office 365 in de buurt. Het biedt ook ondersteuning voordelen van het testrapport. Zo ziet de weergave overzichtsresultaten eruit.
+
+![Samenvattings resultaten van testhulpprogramma's voor netwerkverbindingen](../media/m365-mac-perf/m365-mac-perf-summary-page.png)
+
+Hier ziet u een voorbeeld van de uitvoer van het tabblad Details dat bij het hulpmiddel wordt weergegeven. Op het tabblad Details wordt een groene cirkel vinkje weergegeven als het resultaat de nadruk met een drempel is. We tonen een rood uitroepteken met een rode driehoek als het resultaat een drempelwaarde heeft overschreden die een netwerk inzicht aangeeft. In de volgende secties worden de resultaten rijen van het tabblad Details beschreven en worden de drempelwaarden voor netwerk inzichten beschreven.
+
+![Testresultaten van testprogramma voor netwerkconnectiviteit](../media/m365-mac-perf/m365-mac-perf-all-details.png)
+
+### <a name="your-location-information"></a>De locatiegegevens
+
+In deze sectie worden de testresultaten met betrekking tot uw locatie weergegeven.
+
+#### <a name="your-location"></a>Uw locatie
+
+De locatie van de gebruiker wordt gedetecteerd in de gebruikers browser of de gebruikersnaam kan worden getypt bij de optie gebruikers. Dit wordt gebruikt voor het identificeren van de afstand van een netwerk tot bepaalde delen van de netwerkverbinding van het bedrijf. Alleen de plaats van deze locatie detectie en de afstand tot andere netwerk punten worden in het rapport opgeslagen.
 
 De werklocatie van de gebruiker wordt weergegeven in de kaartweergave.
 
-## <a name="distance-to-the-network-egress-location"></a>Afstand tot de locatie van de netwerk uitgang
+#### <a name="network-egress-location-the-location-where-your-network-connects-to-your-isp"></a>Locatie van netwerk uitgang (de locatie waar uw netwerkverbinding maakt met uw INTERNETPROVIDER)
 
-We identificeren het IP-adres van het IP-adres van uw netwerk aan de serverzijde. Location-databases worden gebruikt voor het opzoeken van de geschatte locatie van de netwerk uitgang en het bepalen van de afstand tot de kantoorlocatie. Dit wordt weergegeven als een netwerk inzicht als de afstand groter is dan 500 km (800 kilometer).
+We identificeren het IP-adres van het IP-adres van uw netwerk aan de serverzijde. Location-databases worden gebruikt voor het opzoeken van de geschatte locatie van de netwerk uitgang. Deze databases hebben meestal de juiste nauwkeurigheid van 90% van IP-adressen. Als de locatie die u hebt opgezocht van het IP-adres van het netwerk, niet nauwkeurig is, zou dit leiden tot een Onwaar resultaat van deze toets. Als u wilt controleren of deze fout optreedt voor een specifiek IP-adres, kunt u op websites met algemeen toegankelijke netwerklocaties voor IP-adressen werken om deze te vergelijken met uw werkelijke locatie.
+
+#### <a name="your-distance-from-the-network-egress-location"></a>Uw afstand vanaf de locatie van de netwerk uitgang
+
+We bepalen de afstand vanaf die locatie naar de kantoorlocatie. Dit wordt weergegeven als een netwerk inzicht als de afstand groter is dan **500 kilometer** (800 kilometer), omdat dit de TCP-latentie waarschijnlijk hoger is dan 25ms en kan de gebruikerservaring beïnvloeden.
 
 De locatie van netwerk uitgang wordt weergegeven in de kaartweergave en verbonden met de kantoorlocatie van de gebruiker, die aangeeft dat de netwerk-backhaul in de Enterprise-WAN.
 
-De locatie die is opgezocht vanuit het IP-adres van het netwerk, is mogelijk niet nauwkeurig en resulteert in een foutmelding. Als u wilt controleren of deze fout optreedt voor een specifiek IP-adres, kunt u weblocaties voor algemeen toegankelijke netwerklocaties gebruiken.
-
 Het implementeren van lokale en rechtstreekse netwerk uitgang van gebruikers Office-locaties op Internet wordt aangeraden voor de Microsoft 365-netwerkverbinding. Verbeteringen aan lokale en direct aflossing zijn de beste manier om dit netwerk inzicht te verhelpen.
 
-## <a name="exchange-online-service-front-door"></a>Voor deur van Exchange Online service
+#### <a name="proxy-server-information"></a>Gegevens van de proxy server
 
-De Exchange Online-service voor Exchange Online wordt aangegeven op dezelfde manier als in Outlook dit doet, en de TCP-latentie van de gebruiker wordt gemeten van de werkplek in de netwerklocatie. Deze worden weergegeven en de Exchange Online-serviceas van Exchange wordt vergeleken met de lijst met aanbevolen optimale service voor de huidige locatie. Dit wordt weergegeven als een netwerk inzicht als een niet-optimale Exchange Online-service de front deur gebruikt.
+We identificeren welke proxyserver (s) zijn geconfigureerd op de lokale computer. We identificeren of een van deze zijn geconfigureerd in het netwerkpad voor de categorie Microsoft 365-netwerkverkeer optimaliseren. We identificeren de afstand van de werklocatie van de gebruiker naar de proxyservers. De afstand wordt eerst getest door ICMP ping en als dit niet lukt, testen met TCP ping en ten slotte als dit niet lukt, het IP-adres van de proxyserver wordt opgezocht in een database voor een IP-adreslocatie. We tonen een netwerk inzicht als de proxyserver verder is dan **500 km** (800 kilometer) buiten de kantoorlocatie van de gebruiker.
 
-Het gebruik van een niet-optimale omruil bare Exchange Online-service kan worden veroorzaakt door netwerk backhaul voordat het bedrijfsnetwerk wordt uitgevoerd, zodat het een lokale en rechtstreekse netwerk uitgang voor u aanbeveelt. Dit kan ook worden veroorzaakt door het gebruik van een externe DNS recursieve resolver-server, maar het is raadzaam de DNS recursieve resolver server uit te lijnen met het netwerk uitgang.
+#### <a name="virtual-private-network-vpn-you-use-to-connect-to-your-organization"></a>VPN (Virtual Private Network) dat u gebruikt om verbinding te maken met uw organisatie
 
-De TCP-latentie van de Exchange Online-service voor de front-deur wordt mogelijk verbeterd. Dit houdt in dat u de geteste netwerklatentie van de geteste gebruikerslocatie en de netwerklatentie aftrekt van de huidige locatie naar de vertrekken Exchange Online-service voor de klep. Het verschil vertegenwoordigt de potentiële verkoopkans voor verbetering.
+Hiermee wordt vastgesteld of u een VPN gebruikt om verbinding te maken met Office 365. Een doorgegeven resultaat wordt weergegeven als u geen VPN hebt, of als u een VPN hebt met de aanbevolen gesplitste tunnelconfiguratie voor Office 365.
 
-## <a name="comparison-of-performance-of-customers-in-the-area"></a>Vergelijking van de prestaties van klanten in het gebied
+#### <a name="vpn-split-tunnel"></a>Gesplitste VPN-tunnel
 
-De TCP-latentie van de gebruiker in de gebruikerslocatie van de Exchange Online-service wordt vergeleken met andere klanten van Microsoft 365 in hetzelfde metro gebied. Een netwerk inzicht wordt weergegeven als 10% of meer van klanten in hetzelfde metro gebied betere prestaties hebben.
+Elke categorie route optimaliseren voor Exchange Online, SharePoint Online en Microsoft teams wordt getest om te zien of deze tunnelled is op het VPN of niet. Een uitgesplitste werkbelasting vermijdt de VPN-verbinding geheel. Er wordt een tunnelled-werkbelasting verzonden via de VPN. Een selectief tunnelled-werkbelasting bevat enkele routes die via de VPN-verbinding zijn verzonden en een deel van de gesplitste. Een doorgegeven resultaat wordt weergegeven als alle werkbelastingen zijn uitgesplitst of selectief tunnelled.
+
+#### <a name="customers-in-your-metropolitan-area-with-better-performance"></a>Klanten in uw stedelijke regio, met betere prestaties
+
+De TCP-latentie van de gebruiker in de gebruikerslocatie van de Exchange Online-service wordt vergeleken met andere klanten van Microsoft 365 in hetzelfde metro gebied. Een netwerk inzicht wordt weergegeven als 10% of meer van klanten in hetzelfde metro gebied betere prestaties hebben. Dit betekent dat hun gebruikers betere prestaties kunnen hebben in de gebruikersinterface van Microsoft 365.
 
 Dit netwerk inzicht wordt gegenereerd op basis van de voorwaarden dat alle gebruikers in een stad toegang hebben tot dezelfde telecommunicatie infrastructuur en dezelfde dicht bij Internet circuits en van het Microsoft-netwerk.
 
-## <a name="in-use-default-gateway"></a>Bij standaardgateway gebruiken
-
-De standaardgateway in gebruik is de router die de test-client heeft geconfigureerd voor routerings-TCP/IP-netwerkverbindingen.
-
-Dit wordt uitsluitend ter informatie verstrekt en geen bijdrage aan een netwerk inzicht.
-
-## <a name="in-use-dns-servers"></a>DNS-servers gebruiken
+#### <a name="time-to-make-a-dns-request-on-your-network"></a>Tijd voor het maken van een DNS-aanvraag op uw netwerk
 
 Hier ziet u de DNS-server die is geconfigureerd op de clientcomputer waarmee de tests worden uitgevoerd. Het kan een DNS recursieve resolver server zijn, maar dit is niet gebruikelijk. Het is waarschijnlijk een DNS-doorstuurserver waarmee DNS-resultaten worden gecached en DNS-aanvragen worden doorgestuurd naar een andere DNS-server.
 
 Dit wordt uitsluitend ter informatie verstrekt en geen bijdrage aan een netwerk inzicht.
 
-## <a name="identified-dns-recursive-resolver-server"></a>Aangegeven DNS recursieve resolver server
+#### <a name="your-distance-from-andor-time-to-connect-to-a-dns-recursive-resolver"></a>Uw afstand van en/of tijd om verbinding te maken met een DNS recursieve resolver
 
-De DNS recursieve resolver in gebruik wordt aangegeven door een specifieke DNS-aanvraag in te stellen en vervolgens de DNS-naam server te vragen voor het IP-adres waarvan het dezelfde aanvraag heeft ontvangen. Dit IP-adres is de recursieve resolver DNS en wordt weergegeven in databases van IP-adres locaties om de locatie te vinden. De afstand van de locatie van de werkplek van de gebruiker naar de locatie van de DNS recursieve resolver server wordt vervolgens berekend. Dit wordt weergegeven als een netwerk inzicht als de afstand groter is dan 500 km (800 kilometer).
+De DNS recursieve resolver in gebruik wordt aangegeven door een specifieke DNS-aanvraag in te stellen en vervolgens de DNS-naam server te vragen voor het IP-adres waarvan het dezelfde aanvraag heeft ontvangen. Dit IP-adres is de recursieve resolver DNS en wordt weergegeven in databases van IP-adres locaties om de locatie te vinden. De afstand van de locatie van de werkplek van de gebruiker naar de locatie van de DNS recursieve resolver server wordt vervolgens berekend. Dit wordt weergegeven als een netwerk inzicht als de afstand groter is dan **500 km** (800 kilometer).
 
 De locatie die is opgezocht vanuit het IP-adres van het netwerk, is mogelijk niet nauwkeurig en resulteert in een foutmelding. Als u wilt controleren of deze fout optreedt voor een specifiek IP-adres, kunt u weblocaties voor algemeen toegankelijke netwerklocaties gebruiken.
 
 Dit netwerk inzicht is specifiek van invloed op de selectie van de Exchange Online-service-voor deur. Als u dit inzicht lokaal en direct netwerk uitgang wilt verhelpen, moet u eerst een vereiste zijn en moet DNS recursieve resolver bevinden bij het afsluiten van de netwerkverbinding.
 
-## <a name="dns-lookup-of-exchange-online-front-end-server-and-sharepoint-online-front-end-server"></a>DNS-lookup van Exchange Online front end server en SharePoint Online front end server
+### <a name="exchange-online"></a>Exchange Online
 
-De DNS-record voor de front cover van de service wordt weergegeven voor deze twee workloads van Microsoft 365. Ze worden uitsluitend ter informatie verstrekt en er is geen bijbehorend netwerk inzicht.
+In deze sectie worden testresultaten met betrekking tot Exchange Online weergegeven.
 
-## <a name="proxy-server-identification"></a>Proxy serveridentificatie
+#### <a name="exchange-service-front-door-location"></a>Locatie van Exchange service-voor deur
 
-We identificeren welke proxyserver (s) zijn geconfigureerd op de lokale computer. We identificeren of een van deze zijn geconfigureerd in het netwerkpad voor de categorie Microsoft 365-netwerkverkeer optimaliseren. We identificeren de afstand van de werklocatie van de gebruiker naar de proxyservers. De afstand wordt eerst getest door ICMP ping en als dit niet lukt, testen met TCP ping en ten slotte als dit niet lukt, het IP-adres van de proxyserver wordt opgezocht in een database voor een IP-adreslocatie. We tonen een netwerk inzicht als de proxyserver verder is dan 500 km (800 kilometer) buiten de kantoorlocatie van de gebruiker.
+De gebruikersinterface voor Exchange service wordt op dezelfde manier aangeduid als in Outlook en de TCP-latentie van de netwerk wordt gemeten. De TCP-latentie wordt weergegeven en de front-updeur van de Exchange-service wordt vergeleken met de lijst met de beste deuren voor de huidige locatie. Dit wordt weergegeven als een netwerk inzicht wanneer een van de beste Exchange-Servicevoorwaarden niet wordt gebruikt.
 
-## <a name="media-quality-checks"></a>Controles van media kwaliteit
+Het niet gebruiken van een van de best mogelijke Exchange-Servicevoorwaarden kon worden veroorzaakt door de netwerk backhaul voordat het bedrijfsnetwerk wordt uitgewerkt, zodat het een lokale en rechtstreekse netwerk uitgang is. Dit kan ook worden veroorzaakt door het gebruik van een externe DNS recursieve resolver-server, maar het is raadzaam de DNS recursieve resolver server uit te lijnen met het netwerk uitgang.
 
-Met deze toets wordt het hulpprogramma voor het uitvoeren van de Skype voor bedrijven-netwerk beoordeling geïnstalleerd en wordt de resultaten interpreteert. Het hulpmiddel is te vinden op [https://www.microsoft.com/download/details.aspx?id=53885](https://www.microsoft.com/download/details.aspx?id=53885) .
+U berekent een potentiële verbetering van de TCP-latentie (MS) met de front cover voor de Exchange-service. Dit doet u door de netwerklatentie van de geteste gebruikerslocatie van de gebruiker te bekijken en de netwerklatentie af te trekken van de huidige locatie naar de de front deur van de Exchange-service. Het verschil vertegenwoordigt de potentiële verkoopkans voor verbetering.
 
-Dit zijn UDP-protocol tests die worden gebruikt door Microsoft teams-functies voor audio-en videogesprekken en vergaderingen. We testen voor UDP-pakketverlies, UDP-netwerklatentie, UDP-jitter en UDP pakket opnieuw ordenen. Een netwerk inzicht wordt weergegeven als een van deze voor het toegestane bereik valt.
+#### <a name="best-exchange-service-front-doors-for-your-location"></a>Best preexchange service-voorkeuren voor uw locatie
 
-## <a name="tcp-connectivity-tests"></a>TCP-connectiviteitstests
+Hier vindt u een overzicht van de beste locaties voor de Exchange-service voor uw locatie.
+
+#### <a name="service-front-door-recorded-in-the-client-dns"></a>Service-voor deur vastgelegd in de client-DNS
+
+Hier ziet u de DNS-naam en het IP-adres van de Exchange service-Server voor de front-server waarnaar u bent doorgestuurd. Het wordt alleen ter informatie verstrekt en er is geen netwerk inzicht.
+
+### <a name="sharepoint-online"></a>SharePoint Online
+
+In deze sectie ziet u de testresultaten met betrekking tot SharePoint Online en OneDrive.
+
+#### <a name="the-service-front-door-location"></a>De locatie van de service-voor deur
+
+De SharePoint-Service voor de SharePoint-site wordt op dezelfde manier geïdentificeerd als de OneDrive-client, en de TCP-latentie van de gebruiker wordt gemeten van de werkplek in de client.
+
+#### <a name="download-speed"></a>Download snelheid
+
+We waarderen de downloadsnelheid van een 15Mb-bestand vanuit de front cover van de SharePoint-service. Het resultaat wordt in megabytes per seconde weergegeven om aan te geven welk bestandsgrootte in megabytes van SharePoint of OneDrive binnen **één seconde**kan worden gedownload. Het cijfer moet gelijk zijn aan één tiende van de minimale bandbreedte in megabits per seconde. Als u bijvoorbeeld een 100 Mbps internetverbinding hebt, verwacht u mogelijk 10 megabytes per seconde (10MBps).
+
+#### <a name="buffer-bloat"></a>Buffer groter
+
+Tijdens de 15Mb-Download waarderen we de TCP-latentie naar de SharePoint-Service-voor deur. Dit is de latentie onder laden en wordt vergeleken met de latentie wanneer dit niet onder belasting valt. De verlengen van de latentie indien vaak wordt verrekend aan de buffers van het consumenten netwerkapparaat dat wordt geladen (of gestegen). Een netwerk inzicht wordt weergegeven voor alle andere 1.000.
+
+#### <a name="service-front-door-recorded-in-the-client-dns"></a>Service-voor deur vastgelegd in de client-DNS
+
+Hier ziet u de DNS-naam en het IP-adres van de front wiel-server van de SharePoint-Service waarnaar u bent doorgestuurd. Het wordt alleen ter informatie verstrekt en er is geen netwerk inzicht.
+
+### <a name="microsoft-teams"></a>Microsoft Teams
+
+In deze sectie worden testresultaten met betrekking tot Microsoft teams weergegeven.
+
+#### <a name="media-connectivity-audio-video-and-application-sharing"></a>Media verbinding (audio, video en toepassingen delen)
+
+Deze tests voor UDP-connectiviteit met de Microsoft teams-service-voor deur. Als dit wordt geblokkeerd, werkt Microsoft teams mogelijk nog steeds via TCP, maar het geluid en de video worden met verminderde kwaliteit weergegeven. Meer informatie over deze UDP-netwerk metingen die ook van toepassing zijn op Microsoft teams op [Media kwaliteit en prestaties van de netwerkverbinding in Skype voor bedrijven online](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)
+
+#### <a name="packet-loss"></a>Pakketverlies
+
+Het UDP-pakketverlies gemeten in een 10 seconden test audio oproep van de client naar de Microsoft teams-service voor de klep. Dit moet lager zijn dan **1,00%** voor een doorgifte.
+
+### <a name="latency"></a>Tijd
+
+Geeft de gemeten UDP-latentie weer, wat lager moet zijn dan **100 MS**.
+
+#### <a name="jitter"></a>Jitter
+
+Geeft de gemeten UDP-jitter weer, wat lager moet zijn dan **30ms**.
+
+#### <a name="connectivity"></a>Connectivity
 
 We testen for HTTP Connectivity van de gebruikerslocatie van de gebruiker op alle vereiste Microsoft 365-netwerkeindpunten. Deze worden gepubliceerd op [https://aka.ms/o365ip](https://aka.ms/o365ip) . Er wordt een netwerk inzicht weergegeven voor alle vereiste netwerkeindpunten waarop geen verbinding kan worden gemaakt.
 
 Connectiviteits ay worden geblokkeerd door een proxyserver, firewall of een ander netwerk beveiligingsapparaat in het netwerk van het bedrijf of wordt gebruikt als Cloud proxy.
 
-## <a name="ssl-interception-tests"></a>SSL-onderschepings tests
-
 We testen het SSL-certificaat op elk vereist Microsoft 365-netwerk eindpunt in de categorie optimaliseren of toestaan zoals gedefinieerd [https://aka.ms/o365ip](https://aka.ms/o365ip) . Als een van de tests een Microsoft SSL-certificaat niet vindt, moet het versleutelde netwerk zijn onderschept door een tussenliggend netwerkapparaat. Een netwerk inzicht wordt weergegeven op een geintercepteerde, versleutelde netwerkeindpunten.
 
 Wanneer er een SSL-certificaat wordt gevonden dat niet wordt geleverd door Microsoft, wordt de FQDN getoond voor de test en de eigenaar van het SSL-certificaat. Dit SSL-certificaat mag de leveranciers van een proxyserver zijn, of dit is een zelf ondertekend certificaat van een onderneming.
 
-## <a name="network-path-diagnostics"></a>Diagnostische gegevens voor netwerk
+#### <a name="network-path"></a>Netwerkpad
 
-In deze sectie ziet u de resultaten van een ICMP-traceroute naar de front-van de Exchange Online-service, de front-service van de SharePoint Online-service en de front-service van Microsoft teams. Het wordt alleen ter informatie verstrekt en er is geen netwerk inzicht.
+In deze sectie ziet u de resultaten van een ICMP-traceroute naar de front-van de Exchange Online-service, de front-service van de SharePoint Online-service en de front-service van Microsoft teams. Het wordt alleen ter informatie verstrekt en er is geen netwerk inzicht. Er zijn drie traceroutes. Een traceroute naar _Outlook.office365.com_, een traceroute van de SharePoint-front-end voor klanten of voor _Microsoft.SharePoint.com_ als deze niet is opgegeven en een traceroute aan _World.tr.teams.Microsoft.com_.
+
+## <a name="connectivity-reports"></a>Verbindings rapporten
+
+Wanneer u bent aangemeld, kunt u vorige rapporten die u hebt uitgevoerd, bekijken. U kunt ze ook delen of uit de lijst verwijderen.
+
+![Rapporten](../media/m365-mac-perf/m365-mac-perf-reports-list.png)
+
+## <a name="network-health-status"></a>Netwerkstatus
+
+Dit toont eventuele belangrijke problemen met het wereldwijde netwerk van Microsoft, wat van invloed kan zijn op Microsoft 365-klanten.
+
+![Netwerkstatus](../media/m365-mac-perf/m365-mac-perf-status-page.png)
 
 ## <a name="faq"></a>Veelgestelde vragen
 
@@ -129,17 +223,17 @@ Hier vindt u antwoorden op enkele van onze veelgestelde vragen.
 
 ### <a name="is-this-tool-released-and-supported-by-microsoft"></a>Is dit hulpprogramma vrijgegeven en ondersteund door Microsoft?
 
-Het is momenteel een proefversie van het concept en we gaan updates regelmatig leveren totdat we de algemene beschikbaarheid van de versie met ondersteuning van Microsoft bereiken. Geef feedback om ons te helpen verbeteren. Er is een overzicht van de introductiehandleiding voor Office 365 voor het netwerk als onderdeel van dit hulpprogramma dat voor de organisatie is aangepast door de testresultaten.
+Dit is momenteel een preview en we gaan updates regelmatig aanbrengen totdat we de algemene beschikbaarheid van de beschikbaarheid met ondersteuning van Microsoft bereiken. Geef feedback om ons te helpen verbeteren. Er is een overzicht van de introductiehandleiding voor Office 365 voor het netwerk als onderdeel van dit hulpprogramma dat voor de organisatie is aangepast door de testresultaten.
 
 ### <a name="what-is-microsoft-365-service-front-door"></a>Wat is de front cover van de Microsoft 365-service?
 
 De Microsoft 365-service front deur is een toegangspunt voor het globale netwerk van Microsoft waar Office-clients en-services hun netwerkverbinding beëindigen. Voor een optimale netwerkverbinding met Microsoft 365 wordt u aangeraden uw netwerkverbinding te beëindigen met de dichtstbijzijnde Microsoft 365-voor deur in uw stad of metro.
 
-Opmerking: de front cover van de Microsoft 365-service heeft geen directe relatie met de ' Azure-service voor de front-deur ', die beschikbaar is in azure Marketplace.
+Opmerking: de front cover van de Microsoft 365-service heeft geen directe relatie met het serviceproduct van **Azure voor de voor deur** dat beschikbaar is in azure Marketplace.
 
-### <a name="what-is-an-optimal-microsoft-365-service-front-door"></a>Wat is een optimale front cover-service van Microsoft 365.
+### <a name="what-is-the-best-microsoft-365-service-front-door"></a>Wat is de beste Front Cover-service van Microsoft 365.
 
-Een optimale front-service van Microsoft 365 is een service die het meest geschikt is voor uw netwerk uitgang, in het algemeen in het gebied plaats of metro. Gebruik het hulpprogramma voor prestatiehulpprogramma's van Microsoft 365 om te bepalen waar u de Microsoft 365-service voor de voor deur en de optimale service klep kunt gebruiken. Als het hulpprogramma bepaalt dat de front-in-de voorgrond van uw gebruik optimaal is, maakt u optimaal verbinding met het wereldwijde netwerk van Microsoft.
+Een Best preversie van de Microsoft 365-service (voorheen een optimale service-voor deur) is een optie die het meest geschikt is voor uw netwerk uitgang, in het algemeen in het gebied plaats of metro. Gebruik het hulpprogramma voor prestatiehulpprogramma's van Microsoft 365 om de locatie te bepalen van uw computer met het Microsoft-programma voor Microsoft 365 en de best presterende dienst (s). Als het hulpprogramma bepaalt dat de front deur van uw voorkeur wordt gebruikt, kunt u het beste een fantastische verbinding verwachten van het globale netwerk van Microsoft.
 
 ### <a name="what-is-an-internet-egress-location"></a>Wat is een locatie voor uitgaand Internet?
 
