@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Voeg uw domein toe aan Microsoft 365 in het Microsoft 365-Beheercentrum door een DNS-record toe te voegen aan uw DNS-host. De installatiewizard begeleidt u bij het proces.
-ms.openlocfilehash: 3da99644f339eac2db6f1904e4eb50a7f584bc80
-ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
+ms.openlocfilehash: a9a0c12d5207db210b4a08ce58abeb44270c8506
+ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "47315715"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47775157"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Een domein toevoegen aan Microsoft 365
 
@@ -83,34 +83,26 @@ ms.locfileid: "47315715"
     
 5. Kies hoe u wilt bevestigen dat u de eigenaar van het domein bent.
     
-    1. Als uw domeinregistratie voor domein verbinding gebruikmaakt van [domein verbinding](#domain-connect-registrars-integrating-with-microsoft-365), selecteert u **Aanmelden bij**  >  **volgende** en [wordt uw records](../get-help-with-domains/domain-connect.md)in Microsoft automatisch ingesteld.
+    1. Als bij uw domeinregistratie [domein verbinding](#domain-connect-registrars-integrating-with-microsoft-365)wordt gebruikt, [worden uw records](../get-help-with-domains/domain-connect.md) in Microsoft automatisch ingesteld op basis van de registratie en wordt de verbinding met Microsoft 365 bevestigd. U gaat terug naar het Beheercentrum en Microsoft zal uw domein vervolgens automatisch laten verifiëren.
+    2. U kunt een TXT-record gebruiken om uw domein te verifiëren. Selecteer dit en selecteer **volgende** om instructies te zien voor het toevoegen van deze DNS-record aan de website van uw bewaarder. Dit kan 30 minuten duren voordat u de record hebt toegevoegd. 
+    3. U kunt een tekstbestand toevoegen aan de website van uw domein. Selecteer en Download het txt-bestand via de wizard Setup en upload het bestand naar de map op het hoogste niveau van uw website. Het pad naar het bestand moet er ongeveer als volgt `http://mydomain.com/ms39978200.txt` uitzien: U wordt bevestigd dat u de eigenaar bent van het domein door het bestand op uw website te zoeken.
     
-    2. U kunt een e-mailbericht met een verificatiecode laten verzenden naar de geregistreerde contactpersoon voor het domein. Als u het e-mailadres van de e-mail niet kent of als u toegang hebt tot de persoon, kunt u de derde optie gebruiken.
+6. Kies hoe u de DNS-wijzigingen wilt aanbrengen voor Microsoft zodat uw domein wordt gebruikt.
     
-    3. U kunt een TXT-record gebruiken om uw domein te verifiëren. Selecteer dit en selecteer **volgende** om instructies te zien voor het toevoegen van deze DNS-record aan de website van uw bewaarder. Dit kan 30 minuten duren voordat u de record hebt toegevoegd. 
-
-    4. U kunt een tekstbestand toevoegen aan de website van uw domein. Selecteer en Download het txt-bestand via de wizard Setup en upload het bestand naar de map op het hoogste niveau van uw website. Het pad naar het bestand moet er ongeveer als volgt `http://mydomain.com/ms39978200.txt` uitzien: U wordt bevestigd dat u de eigenaar bent van het domein door het bestand op uw website te zoeken.
-    
-6. Kies hoe u de DNS-wijzigingen wilt aanbrengen voor uw domein door Office te gebruiken.
-    
-    1. Kies **de DNS-records voor mij toevoegen** als u wilt dat Office uw DNS automatisch configureert. 
-    
-  
+    1. Kies **de DNS-records voor mij toevoegen** als uw registratie [domein verbinding](#domain-connect-registrars-integrating-with-microsoft-365)ondersteunt, en Microsoft [uw records automatisch instelt](../get-help-with-domains/domain-connect.md) door u aan te melden bij uw registratie en om de verbinding met Microsoft 365 te bevestigen.
     2. Kies **Ik voeg de DNS-records zelf toe** als u alleen bepaalde microsoft 365-Services wilt toevoegen aan uw domein of als u dit later wilt overslaan. **Kies deze optie als u precies weet wat u doet.**
-    
-7. Als u ervoor kiest om  *DNS-records zelf toe te voegen*  , selecteert u **volgende** en ziet u een pagina met alle records die u moet toevoegen aan uw registratie website om uw domein in te stellen. 
-    
-  
-  
+
+7. Als u ervoor kiest om *DNS-records zelf toe te voegen*  , selecteert u **volgende** en ziet u een pagina met alle records die u moet toevoegen aan uw registratie website om uw domein in te stellen. 
+
     Als uw domeinregistrar niet wordt herkend door de portal, kunt u [deze algemene instructies volgen.](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
     
     Bekijk onze lijst met [hostspecifieke instructies](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions) om uw host te vinden en volg de stappen om alle records toe te voegen die u nodig hebt. 
     
     Als u niet weet wie de DNS-hostingprovider of domeinregistrar voor uw domein is, raadpleegt u [Zoeken naar uw domeinregistrar of DNS-hostingprovider](../get-help-with-domains/find-your-domain-registrar.md).
     
-    Als u op een later tijdstip wilt wachten, schuift u naar beneden en selecteert u **deze stap overslaan**.
+    Als u op een later tijdstip wilt wachten, selecteert u alle services opheffen en klikt u op **Doorgaan**, of in de vorige verbindings stap voor domein kiest u **meer opties** en selecteert u **deze voortaan overslaan**.
     
-8. Selecteer **Voltooien** -u bent klaar. 
+8. Selecteer **Voltooien** -u bent klaar.
 
 ## <a name="add-or-edit-custom-dns-records"></a>Aangepaste DNS-records toevoegen of bewerken
 
@@ -126,7 +118,7 @@ Voer de onderstaande stappen uit om een aangepaste record toe te voegen voor een
 
 5. Selecteer het type DNS-record dat u wilt toevoegen en typ de gegevens voor de nieuwe record.
     
-6. Kies **Opslaan**.
+6. Selecteer **Opslaan**.
 
 ## <a name="registrars-with-domain-connect"></a>Registraties met domein verbinding
 
@@ -140,15 +132,16 @@ In de wizard wordt bevestigd dat u de eigenaar van het domein bent en worden de 
 ### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>Domein Connect-service registraties integreren met Microsoft 365
 
 - [1 &amp; 1 IONOS](https://www.1and1.com/)
-- [Uitvouwen](https://www.123-reg.co.uk/)
+- [EuroDNS](https://www.eurodns.com/)
 - [Cloudflare](https://www.cloudflare.com/)
 - [GoDaddy](https://www.godaddy.com/)
 - [WordPress](https://wordpress.com/)
 - [Plesk](https://www.plesk.com/)
 - [MediaTemple](https://mediatemple.net/)
 - SecureServer of WildWestDomains (GoDaddy resellers met SecureServer DNS-hosting)
-    - [MadDog-domeinen](https://www.maddogdomains.com/)
-    - [CheapNames](https://www.cheapnames.com)
+    - Voorbeelden:
+        - [DomainsPricedRight](https://www.domainspricedright.com/products/domain-registration)
+        - [DomainRightNow](https://www.domainrightnow.com/)
 
 ### <a name="what-happens-to-my-email-and-website"></a>Wat gebeurt er met mijn e-mail en website?
 

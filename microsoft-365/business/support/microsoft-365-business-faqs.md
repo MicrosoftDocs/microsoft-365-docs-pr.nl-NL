@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, MKB, FAQ, veelgestelde vragen, antwoorden, zakelijk
 ms.date: 07/21/2020
-ms.openlocfilehash: 614da177df9250045ca3cc18c0b071e0aa43b7ec
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: e056f0c33aec180080a0d4e27e182d2d98877e6e
+ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560794"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47775080"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft 365 Business
 
@@ -33,13 +33,13 @@ Microsoft 365 is een geïntegreerde oplossing die de beste productiviteitstools,
 * Zakelijke apps van Office (Bookings, MileIQ<sup>[1](#footnote1)</sup>). 
  
 **Apparaatbeheer en beveiligingsmogelijkheden op bedrijfsniveau** 
-- Helpt bescherming te bieden tegen externe bedreigingen zoals phishing en geavanceerde malware met Office 365 Advanced Threat Protection Plan 1 en Microsoft Defender Exploit Guard. 
+- Zorgt voor bescherming tegen externe bedreigingen als phishing en verfijnde malware met Office 365 Advanced Threat Protection (abonnement 1) en Microsoft Defender exploit Guard. 
 -  Helpt bij het controleren en beheren van hoe gevoelige informatie wordt geopend en verzonden, met beleid ter voorkoming van gegevensverlies en Azure Information Protection Plan 1. 
 -  Beschermt en behoudt uw gegevens en maakt er een back-up van met Exchange Online Archiving.  
 -   App-bescherming voor Office en andere mobiele apps met Intune App Protection. 
--  Apparaatbeheer voor Windows 10-pc's, macOS en mobiele apparaten met Intune-apparaatbeheer. 
+-  Apparaatbeheer voor Windows 10-Pc's, macOS en mobiele apparaten met intune-apparaten beheer. 
 -  Identiteitsbescherming met meervoudige verificatie, self-service voor wachtwoordherstel en voorwaardelijke toegang.
--  Consistente beveiligingsconfiguratie op verschillende apparaten &mdash; voor de beveiliging van bedrijfsgegevens op verschillende apparaten; Microsoft Defender Antivirus, dat altijd op en up-to-date is. 
+-  Consistente beveiligingsconfiguratie voor de &mdash; bescherming van bedrijfsgegevens op verschillende apparaten; Microsoft Defender antivirus, altijd aan en up-to-date. 
  
  
 **Vereenvoudigde apparaatimplementatie en gebruikersconfiguratie** 
@@ -49,7 +49,7 @@ Microsoft 365 is een geïntegreerde oplossing die de beste productiviteitstools,
 * Gestroomlijnde implementatie van pc's met Windows AutoPilot.
 
 **Overige toeslagen** 
-- Microsoft 365 Business Premium-klanten hebben ook toegang tot de functionaliteit van Windows Virtual Desktop en Office Shared Computer Activation. Lees de [Microsoft 365 Business Premium blog](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog) voor meer informatie. Zie ook de [Beschrijving van Microsoft 365 voor zakelijke service.](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)
+- Microsoft 365 Business Premium-klanten hebben ook toegang tot de functionaliteit van Windows Virtual Desktop en Office Shared Computer Activation. Lees de [Microsoft 365 Business Premium blog](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog) voor meer informatie. Zie ook de [servicebeschrijving van Microsoft 365 voor bedrijven](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description).
 
 ### <a name="who-should-consider-adopting-microsoft-365-business-premium"></a>Wie zou moeten overwegen om Microsoft 365 Business Premium te gebruiken? 
 Microsoft 365 Business Premium is een uitgebreide, cloudgebaseerde beveiligingsoplossing waarmee u:  
@@ -86,7 +86,7 @@ De compatibiliteit van de bestaande desktop (Win32) -toepassingen met Windows 10
 ### <a name="what-is-windows-10-business"></a>Wat is Windows 10 Business? 
 Windows 10 Business is een set cloudservices en apparaatbeheerfuncties die een aanvulling vormt op Windows 10 Pro en die het centrale beheer en de besturingselementen voor beveiliging van Microsoft 365 Business Premium inschakelt.
 
-Windows 10 Business wordt ook geleverd met bepaalde premium Microsoft Defender-functies zoals Controlled Folder Access en Network Protection voor webgebaseerde bedreigingen. Het bevat ook Windows AutoPilot, een service die de implementatie van nieuwe Windows 10 pc's stroomlijnt.
+Windows 10 Business is ook uitgerust met bepaalde Premium Microsoft Defender-functies, zoals Controlled folder Access en Network Protection voor web-based threats. Het bevat ook Windows AutoPilot, een service die de implementatie van nieuwe Windows 10 pc's stroomlijnt.
 
 Als u apparaten hebt met een licentie voor Windows 7, 8 en 8.1 Professional, biedt Microsoft 365 Business Premium een upgrade naar Windows 10 Pro, wat een vereiste is voor de implementatie van Windows 10 Business.
 > [!IMPORTANT]
@@ -98,14 +98,14 @@ Veel werknemers geven er de voorkeur aan hun eigen mobiele telefoons of tablets 
 Microsoft 365 Business Premium biedt klanten een eenvoudige maar krachtige manier om werknemers in staat te stellen hun persoonlijke apparaten voor hun werk te gebruiken. Daarnaast wordt uw bedrijf de mogelijkheid geboden om te voorkomen dat die apparaten toegang krijgen tot bedrijfsgegevens of deze bewaren en/of delen. Meer specifiek: 
 * **App-bescherming voor mobiele Office-apps** helpt Office-gegevens te beschermen, inclusief e-mail, agenda, contacten en documenten op mobiele iOS- en Android-apparaten. Het dwingt beleid af, zoals het automatisch verwijderen van bedrijfsgegevens na een voorgeschreven tijd dat er geen verbinding met de service is gemaakt, waardoor die informatie alleen wordt opgeslagen in OneDrive voor Bedrijven. Een ander beleid is een pincode of vingerafdrukverificatie te vereisen om toegang te krijgen tot Office-apps, om te voorkomen dat bedrijfsgegevens vanuit een Office-app worden gekopieerd naar persoonlijke apps. Beheer van mobiele applicaties voor andere mobiele apps via Intune is ook beschikbaar voor Microsoft 365 Business Premium-abonnees. 
   
-* **Apparaatbeheer voor Windows 10-pc's** stelt bedrijven in staat om mogelijkheden in te stellen en af te dwingen, zoals Microsoft Defender Antivirus-bescherming voor malware, automatische updates en het uitschakelen van schermen na een voorgeschreven hoeveelheid tijd. Bovendien kunnen zakelijke applicaties en gegevens van verloren of gestolen Windows 10-apparaten via het beheercentrum volledig worden verwijderd. 
+* Met **Apparaatbeheer voor Windows 10-pc's** kunnen bedrijven functies, zoals Microsoft Defender antivirus beveiliging voor malware, automatische updates en het uitschakelen van schermen na een vastgestelde tijdsperiode, instellen en afdwingen. Bovendien kunnen zakelijke applicaties en gegevens van verloren of gestolen Windows 10-apparaten via het beheercentrum volledig worden verwijderd. 
 
-* **Apparaatbeheer voor iOS, Android & macOS-functies** helpt bedrijven om veilig een divers apparaatecosysteem te beheren dat iOS-, Android-, Windows- en macOS-apparaten omvat. 
+* Met **Apparaatbeheer voor IOS-en Android-& macOS-** functies kunnen bedrijven een uiteenlopende systeemecosystem met IOS-, Android-, Windows-en macOS-apparaten veilig beheren. 
 
 ### <a name="how-does-microsoft-365-business-premium-help-protect-pcs-in-my-organization-from-malicious-attacks"></a>Hoe beschermt Microsoft 365 Business Premium computers in mijn organisatie tegen schadelijke aanvallen? 
-Pc's die worden beheerd met Microsoft 365 Business Premium zijn beveiligd met Microsoft Defender Antivirus, de nr. 1 antivirusfunctie op Windows 10, die meer computers beschermt tegen virussen, malware, spyware en andere bedreigingen dan welke andere oplossing dan ook. Met Microsoft 365 Business Premium kunnen organisaties ervoor zorgen dat de beveiliging van Microsoft Defender Antivirus wordt uitgevoerd en altijd up-to-date is op al hun Windows 10-apparaten.  
+Pc's die worden beheerd met Microsoft 365 Business Premium, zijn beveiligd met Microsoft Defender antivirus, het nummer. 1 antivirusfunctie op Windows 10, die meer computers beschermt tegen virussen, malware, spyware en andere bedreigingen dan welke andere oplossing dan ook. Met Microsoft 365 Business Premium kunnen organisaties ervoor zorgen dat Microsoft Defender antivirus beveiliging wordt uitgevoerd en altijd up-to-date is op al uw Windows 10-apparaten.  
  
-Windows 10 Business bevat ook Microsoft Defender Exploit Guard, een nieuwe set van inbraakpreventie mogelijkheden. Een van de functies, gecontroleerde toegang tot mappen, stopt ransomware door het vergrendelen van mappen en het voorkomen van onbevoegde apps van de toegang tot belangrijke bestanden van een gebruiker. 
+Windows 10 Business omvat ook Microsoft Defender exploit Guard, een nieuwe set functies voor preventie van bescherming. Een van zijn functies, gecontroleerde maptoegang, stopt Ransomware door mappen te vergrendelen om te voorkomen dat ongeautoriseerde apps toegang krijgen tot belangrijke bestanden van een gebruiker. 
 
 ### <a name="whats-the-difference-between-microsoft-365-business-standard-microsoft-365-business-premium-and-microsoft-365-enterprise"></a>Wat is het verschil tussen Microsoft 365 Business Standard, Microsoft 365 Business Premium en Microsoft 365 Enterprise? 
 Microsoft heeft verschillende mogelijkheden voor productiviteit en beveiligingsbeheer die kleine tot middelgrote klanten in overweging kunnen nemen bij het upgraden van hun desktop- en apparaatinfrastructuur, die elk steeds krachtigere functies en functionaliteit bieden. 
@@ -126,7 +126,7 @@ Microsoft 365 Business Premium is beschikbaar voor alle partners en klanten waar
 Er is een proefabonnement op Microsoft 365 Business Premium beschikbaar voor CSP's. Een proefabonnement voor eindgebruikers komt later beschikbaar. 
  
 ### <a name="what-should-customers-and-partners-know-before-running-microsoft-365-business-premium-within-their-organization"></a>Wat moeten klanten en partners weten voordat ze Microsoft 365 Business Premium binnen hun organisatie gebruiken? 
-Klanten die de volledige mogelijkheden van Microsoft 365 Business Premium willen ervaren, moeten Windows 7, 8.1 of 10 Pro<sup>[2](#footnote2)</sup> op hun bestaande desktops gebruiken. Op bestaande Windows 10 Pro-pc's moet de Creator-update worden uitgevoerd als deze nog niet is uitgevoerd. 
+Voor klanten die de volledige functionaliteit van Microsoft 365 Business Premium willen voordoen, moet Windows 7, 8,1 of 10 Pro<sup>[2](#footnote2)</sup> op hun bestaande desktops worden uitgevoerd. Op bestaande Windows 10 Pro-pc's moet de Creator-update worden uitgevoerd als deze nog niet is uitgevoerd. 
 
 ## <a name="deployment"></a>Implementatie
 
@@ -134,16 +134,16 @@ Klanten die de volledige mogelijkheden van Microsoft 365 Business Premium willen
 De eenvoudigste manier voor een succesvolle implementatie van Microsoft 365 Business Premium is door contact op te nemen met een Microsoft-partner. Ze hebben uitgebreide training en ervaring met een breed scala aan klantscenario's en zijn het best uitgerust om uw omgeving en behoeften te begrijpen. Klanten die ervaren IT-personeel hebben, kunnen <a href="https://docs.microsoft.com/microsoft-365/business/microsoft-365-business-overview" target="_blank">Aan de slag met Microsoft 365 Business Premium</a> gebruiken om hen te helpen bij hun Microsoft 365 Business Premium-implementatie. 
 
 ### <a name="does-microsoft-365-business-premium-include-the-full-capabilities-of-microsoft-intune"></a>Omvat Microsoft 365 Business Premium de volledige functionaliteit van Microsoft Intune? 
-Ja, Microsoft 365 Business Premium-abonnees hebben een licentie om volledige Intune-mogelijkheden te gebruiken voor iOS, Android, macOS en ander cross-platform apparaatbeheer. Functies die niet beschikbaar zijn in de vereenvoudigde beheerconsole in Microsoft 365 Business Premium, zoals app-beheer van derden, configuratie van Wi-Fi-profielen en VPN-certificaten, kunnen worden beheerd in de volledige Intune-console. 
+Ja, Microsoft 365 Business Premium-abonnees hebben een licentie voor het gebruik van volledige intune-mogelijkheden voor iOS, Android, macOS en ander Apparaatbeheer. Functies die niet beschikbaar zijn in de vereenvoudigd beheerconsole van Microsoft 365 Business Premium, zoals het beheer van apps van derden, de configuratie van Wi-Fi-profielen en VPN-certificaten, kunnen worden beheerd in de volledige intune-console. 
   
 
-### <a name="does-azure-active-directory-azure-ad-premium-p1-come-with-microsoft-365-business-premium"></a>Wordt Azure Active Directory (Azure AD) Premium P1 geleverd met Microsoft 365 Business Premium? 
+### <a name="does-azure-active-directory-azure-ad-premium-p1-come-with-microsoft-365-business-premium"></a>Is Azure Active Directory (Azure AD) Premium P1 meegeleverd met Microsoft 365 Business Premium? 
 
-Ja, Azure AD Premium P1 is inbegrepen bij Microsoft Business Premium.
+Ja, Azure AD Premium P1 is inbegrepen in Microsoft Business Premium.
  
  
 ### <a name="does-microsoft-365-business-premium-allow-customers-to-manage-macs"></a>Biedt Microsoft 365 Business Premium klanten de mogelijkheid Macs te beheren? 
-Intune helpt u iOS-, Android-, Windows- en macOS-apparaten veilig te beheren. 
+Met intune kunt u op een veilige manier apparaten van iOS, Android, Windows en macOS beheren. 
  
 ### <a name="what-is-windows-autopilot"></a>Wat is Windows AutoPilot? 
 Windows AutoPilot is een service die de implementatie van nieuwe Windows 10-pc's stroomlijnt. Dit proces kan worden uitgevoerd wanneer de eindgebruiker zich voor het eerst aanmeldt bij Microsoft 365 Business Premium &mdash;zonder dat de IT-afdeling het apparaat ooit aanraakt&mdash;, door gebruik te maken van de gecentraliseerde beheercontroles van Microsoft 365 Business Premium. U kunt Windows AutoPilot ook gebruiken voor bestaande pc's met Windows 10 Professional Creators Update (of hoger) en die zijn teruggezet naar de fabrieksinstellingen. Details over Windows AutoPilot zijn te vinden in <a href="https://blogs.technet.microsoft.com/windowsitpro/2017/06/29/modernizing-windows-deployment-with-windows-autopilot/" target="_blank">dit blogbericht van juni 2017</a>.
@@ -151,13 +151,13 @@ Windows AutoPilot is een service die de implementatie van nieuwe Windows 10-pc's
 ## <a name="compatibility"></a>Compatibiliteit
 
 ### <a name="can-i-add-office-365-add-ons-to-microsoft-365-business-premium"></a>Kan ik Office 365-invoegtoepassingen toevoegen aan Microsoft 365 Business Premium? 
-Alle invoegtoepassingen die kunnen worden toegevoegd aan Microsoft 365 Business Standard, kunnen ook worden toegevoegd aan Microsoft 365 Business Premium. Dit betekent dat u Office 365 Cloud App Security, Advanced Compliance, Threat Intelligence, MyAnalytics, Power BI Pro en Audio Conferencing aanschaffen. 
+Alle invoegtoepassingen die kunnen worden toegevoegd aan Microsoft 365 Business Standard, kunnen ook worden toegevoegd aan Microsoft 365 Business Premium. Dit betekent dat u de beveiliging van de Cloud app van Office 365, geavanceerde compliance, Threat Intelligence, MyAnalytics, Power BI Pro en audio vergaderingen kunt aanschaffen. 
  
 ### <a name="can-i-add-phone-system-and-calling-plans-to-microsoft-365-business-premium"></a>Kan ik telefoonsysteem en oproepabonnementen toevoegen aan Microsoft 365 Business Premium? 
-Ja, u een Business Voice-abonnement aanschaffen. [Business Voice](https://docs.microsoft.com/microsoftteams/business-voice/whats-business-voice) is een telefonieoplossing die is ontworpen voor kleine en middelgrote bedrijven van maximaal 300 gebruikers die telefoonsysteem, audioconferenties, een binnenlands belplan en meer bundelt. De mogelijkheden van het telefoonsysteem die u krijgt, zijn onder andere voicemail, beller-ID, oproeppark, doorschakelen van gesprekken, autobedienden en oproepwachtrijen. <br> Zie Beschikbaarheid van land en regio voor Business Voice voor de beschikbaarheid van Bedrijven en regio's voor informatie over de beschikbaarheid van [Business Voice.](https://docs.microsoft.com/microsoftteams/business-voice/country-region-availability) Zie [Prijzen voor Zakelijke spraak voor](https://go.microsoft.com/fwlink/?linkid=2127221)prijsinformatie.
+Ja, u kunt een abonnement voor voice mail kopen. [Business Voice](https://docs.microsoft.com/microsoftteams/business-voice/whats-business-voice) is een telefoon oplossing voor kleine en middelgrote bedrijven van 300-gebruikers die telefoonsystemen, audio vergaderingen, een abonnement voor binnenlandse gesprekken bundelen en meer. De mogelijkheden van telefoonsystemen die u ontvangt, zijn onder andere voicemail nummers, nummerweergave, oproep Park, gesprekken doorschakelen, auto attendants en oproep wachtrijen. <br> Als u wilt weten of zakelijke spraak beschikbaar is in uw land of regio, raadpleegt u [beschikbare landen en regio's voor zakelijke spraak](https://docs.microsoft.com/microsoftteams/business-voice/country-region-availability). Zie [tarieven voor zakelijke spraak](https://go.microsoft.com/fwlink/?linkid=2127221)voor prijsinformatie.
  
-### <a name="can-microsoft-365-business-premium-customers-use--microsoft-defender-advanced-threat-protection"></a>Kunnen Microsoft 365 Business Premium-klanten Microsoft Defender Advanced Threat Protection gebruiken? 
-Ja, Microsoft Defender Advanced Threat Protection is beschikbaar als add-on voor Microsoft 365 Business Premium-klanten.
+### <a name="can-microsoft-365-business-premium-customers-use--microsoft-defender-advanced-threat-protection"></a>Kunnen klanten met Microsoft 365 Business Premium gebruikmaken van geavanceerde bedreigings bescherming van Microsoft Defender? 
+Ja, Microsoft Defender Advanced Threat Protection is beschikbaar als een invoegtoepassing voor Microsoft 365 Business Premium, indien aangeschaft bij een [Microsoft Cloud Solution Provider](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
 
 ## <a name="partner-opportunity"></a>Kansen voor partners
 

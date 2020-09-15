@@ -15,30 +15,30 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: De routekaart voor de identiteit van Microsoft 365.
-ms.openlocfilehash: 2eae98d891672e9fc9adb68e1fee2426fe4934dd
-ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
+ms.openlocfilehash: e268422fcd6cfba36b1a971629036d29827806f6
+ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "47315797"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47775121"
 ---
 # <a name="identity-roadmap-for-microsoft-365"></a>Identiteitskaart voor Microsoft 365
 
-In Microsoft 365 voor Enterprise is een goed geplande en uitgevoerde identificatie structuur Paves de manier voor een sterkere beveiliging en toegang tot uw productiviteits belastingen en hun gegevens uitsluitend door geverifieerde gebruikers en apparaten.
+In Microsoft 365 voor Enterprise is een goed geplande en uitgevoerde identificatie structuur Paves de manier voor een sterkere beveiliging, zoals het beperken van toegang tot uw productiviteits belastingen en hun gegevens aan geverifieerde gebruikers en apparaten.
 
-Bekijk deze video voor een overzicht van identiteits modellen en verificatie voor Microsoft 365 for Enterprise.
+Bekijk deze video voor een overzicht van identiteits modellen en verificatie voor Microsoft 365 for Enterprise:
 
 <p> </p>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
 
-Voor de identiteits functies van elk Microsoft 365 for Enterprise-abonnement, de rol van Azure Active Directory (Azure AD), on-premises en Cloud onderdelen en de meest gebruikte verificatie configuraties, raadpleegt u de [poster voor identiteits infrastructuur](../downloads/m365e-identity-infra.pdf).
+Voor informatie over de identiteits functies van elk Microsoft 365 for Enterprise-abonnement, de rol van Azure Active Directory, de on-premises en Cloud onderdelen en de meest gebruikte verificatie configuraties, raadpleegt u de [poster voor identiteits infrastructuur](../downloads/m365e-identity-infra.pdf).
 
 [![De poster Identiteitsinfrastructuur](../downloads/m365e-identity-infra.png)](../downloads/m365e-identity-infra.pdf)
 
-De poster met twee pagina's is een snelle manier om te berampen over identiteits concepten en configuraties voor Microsoft 365 for Enterprise.
+Bekijk deze tweepaginas poster om snel te beoordeelen over identiteits concepten en configuraties voor Microsoft 365 for Enterprise.
 
-U kunt [deze poster ook downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/m365e-identity-infra.pdf) en afdrukken in het formaat Letter, Legal of Tabloid (11 x 17).
+U kunt [deze poster ook downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/m365e-identity-infra.pdf). U kunt de indeling letter, Legal of tabloid (11 x 17) afdrukken.
 
 ## <a name="plan"></a>Abonnement
 
@@ -59,7 +59,7 @@ Uw identiteits implementatie implementeren:
 
 ### <a name="identity-and-device-access-recommendations"></a>Aanbevelingen voor identiteiten en apparaattoegang
 
-Microsoft biedt een aantal aanbevelingen voor [identiteits- en apparaattoegang](microsoft-365-policies-configurations.md) om te zorgen dat uw personeel veilig en productief blijft. Gebruik voor Identity de aanbevelingen en instellingen in deze artikelen:
+Microsoft biedt een set aanbevelingen voor de [toegang van identiteiten en apparaten](microsoft-365-policies-configurations.md)om een veilig en productief personeel te helpen. Gebruik voor Identity de aanbevelingen en instellingen in deze artikelen:
 
 - [Vereisten](identity-access-prerequisites.md)
 - [Algemeen beleid voor identiteiten en apparaattoegang](identity-access-policies.md)
@@ -76,12 +76,12 @@ Uw identiteits implementatie beheren:
 Lees hoe IT-experts bij Microsoft [identiteiten en beveiligde toegang beheren](https://www.microsoft.com/en-us/itshowcase/managing-user-identities-and-secure-access-at-microsoft).
 
 >[!Note]
->Deze IT-presentatie is alleen beschikbaar in het Engels.
+>Deze informatiebron is alleen beschikbaar in het Engels.
 >
 
 ## <a name="how-contoso-did-identity-for-microsoft-365"></a>De werking van Contoso voor Microsoft 365
 
-Bekijk hoe Contoso Corporation, een fictieve maar representatieve multinational, [een hybride identiteitsinfrastructuur heeft geïmplementeerd](contoso-identity.md) voor Microsoft 365-cloudservices.
+Voor een voorbeeld van de manier waarop een fictieve maar representatieve multinationale organisatie een hybride identiteits infrastructuur voor Microsoft 365-cloudservices implementeert, raadpleegt u [de identiteit voor de Contoso Corporation](contoso-identity.md).
 
 ## <a name="next-step"></a>Volgende stap
 
