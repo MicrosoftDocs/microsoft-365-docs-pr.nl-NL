@@ -1,7 +1,7 @@
 ---
 title: Uw testomgeving voor Microsoft Threat Protection voorbereiden
-description: Het afmelden van een belanghebbende, tijdlijnen, milieuoverwegingen en acceptatie order voorbereiden bij het instellen van uw Microsoft Threat Protection-proef omgeving voor Lab
-keywords: MTP trial prep, implementeren, voorbereiden, belanghebbende, tijdlijn, omgeving, abonnement, Server, beheer, acceptatie
+description: Het afmelden van een belanghebbende, tijdlijnen, overwegingen voor de omgeving en de acceptatie bestellen bij het instellen van uw Microsoft Threat Protection-proefversie voor het lab of de proef omgeving
+keywords: MTP-proefabonnement, MTP pilot prep, prep voor het uitvoeren van een MTP pilot-project, uitvoering van een testprogramma voor MTP-project, implementatie, voorbereiden, belanghebbende, tijdlijn, omgeving, eindpunt, Server, beheer, acceptatie
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: w10
@@ -15,31 +15,31 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ad2f34fbb94cafd22976c6ff7c75cdd254e913e3
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: a684f49ab8c70a19a17ff43195197677bccbf95b
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650091"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816767"
 ---
-# <a name="prepare-your-microsoft-threat-protection-trial-lab-environment"></a>Uw testomgeving voor Microsoft Threat Protection voorbereiden
+# <a name="prepare-your-microsoft-threat-protection-trial-lab-or-pilot-environment"></a>Uw proefabonnement voor Microsoft Threat Protection of een testomgeving voorbereiden
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-Het maken van een testomgeving voor Microsoft Threat Protection voor het testen van een lab en de implementatie van een programma met drie fasen
+U maakt een Microsoft Threat Protection-proefversie voor proef omgevingen of pilot omgevingen en de implementatie hiervan is een proces van drie fasen:
 
 <br>
 <table border="0" width="100%" align="center">
   <tr style="text-align:center;">
     <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Uw testomgeving voor Microsoft Threat Protection voorbereiden" />
+        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Uw proefabonnement voor Microsoft Threat Protection of een testomgeving voorbereiden" />
       <br/>Fase 1: voorbereiding </a><br>
     </td>
      <td align="center"  >
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval">
-        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Uw omgeving voor Microsoft Threat Protection proef Lab instellen" />
+        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Uw Microsoft Threat Protection-proefversie Lab of pilot omgeving instellen" />
       <br/>Fase 2: instellen </a><br>
         </td>
     <td align="center">
@@ -64,13 +64,13 @@ Het maken van een testomgeving voor Microsoft Threat Protection voor het testen 
 U bevindt zich in de voorbereidende fase.
 
 
-De voorbereiding is essentieel voor een succesvolle implementatie. In deze sectie wordt uitgelegd wat u moet doen als u een proef scenario voor de implementatie van Microsoft Threat Protection maakt.
+De voorbereiding is essentieel voor een succesvolle implementatie. In deze sectie wordt uitgelegd wat u moet doen als u een proefabonnement voor de implementatie van Microsoft Threat Protection maakt.
 
 ## <a name="prerequisites"></a>Vereisten
 Meer informatie over de licenties, hardware-en softwarevereisten en andere configuratie-instellingen voor het inrichten en gebruiken van Microsoft Threat Protection. Zie de minimale vereisten voor [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites?view=o365-worldwide), [Microsoft Defender atp](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements), [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description), [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites), beveiliging van de [Microsoft Cloud-app](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites).
 
 ## <a name="stakeholders-and-sign-off"></a>Belanghebbenden en afmelden
-In het volgende gedeelte wordt aangegeven welke belanghebbenden deel uitmaken van het project en wie moet zich mogelijk willen registreren, herzien of op de hoogte blijven, zelfs voor een evaluatie of een proef concept van de droge proefperiode.
+In het volgende gedeelte wordt aangegeven welke belanghebbenden deel uitmaken van het project en wie kan zich mogelijk registreren, raadplegen of op de hoogte blijven van de belanghebbenden, of het nu gaat om evaluatie of het uitvoeren van een pilot.
 
 >[!NOTE]
 >Het kan zijn dat niet alle organisaties de beveiliging van de organisatie hebben voor deze rollen. Neem in dat geval contact op met uw leiderschaps team over controle en goedkeuring accountabilities.
@@ -92,7 +92,7 @@ Voeg belanghebbenden toe aan de onderstaande tabel voor uw organisatie.
 | Voer naam en e-mailadres in | **Beveiligings analist** *een vertegenwoordiger van het CDOC-team wie invoer kan geven op de detectiemogelijkheden, de gebruikerservaring en de algehele bruikbaarheid van deze wijziging vanuit een oogpunt van beveiligingsactiviteiten.* | Vind      |
 
 ## <a name="prepare-your-azure-active-directory"></a>Azure Active Directory voorbereiden
-Sla deze stap over als u al synchronisatie tussen Active Directory en Azure Active Directory hebt ingeschakeld. Bekijk bestaande documentatie voor aanbevolen procedures van Azure Active Directory. De volgende stappen zijn geoptimaliseerd voor het evalueren van Microsoft Threat Protection.
+Sla deze stap over als u al synchronisatie tussen Active Directory en Azure Active Directory hebt ingeschakeld. Bekijk bestaande documentatie voor aanbevolen procedures van Azure Active Directory. De volgende stappen zijn geoptimaliseerd voor het evalueren of uitvoeren van een pilot Microsoft Threat Protection-project.
 
 1. Ga naar [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade) Portal > **Azure AD Connect**. 
 ![Afbeelding van Azure Active Directory-portal pagina](../../media/mtp-eval-1.png) <br> 
@@ -122,7 +122,7 @@ U kunt nu [gebruikers en groepen toevoegen aan Active Directory](https://docs.mi
 
 
 ## <a name="configuration-order"></a>Configuratie volgorde
-In de volgende tabel ziet u de volgorde waarin Microsoft adviseert om de Microsoft Threat Protection-onderdelen voor de implementatie van proef lab-omgevingen te configureren.
+In de volgende tabel ziet u de volgorde waarin Microsoft adviseert om de Microsoft Threat Protection-onderdelen voor de implementatie van een proefabonnement of pilot omgeving te configureren.
 
 | Invoert                               | Beschrijving                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Rangschikking van de configuratie volgorde |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
@@ -132,5 +132,5 @@ In de volgende tabel ziet u de volgorde waarin Microsoft adviseert om de Microso
 |Microsoft Defender Advanced Threat Protection | De detectie-en antwoord mogelijkheden van Microsoft Defender ATP voor Microsoft Defender bieden geavanceerde aanvals detectie die bij realtime en op actie kan worden uitgevoerd. Beveiligings analisten kunnen waarschuwingen effectiever uitstellen, inzicht krijgen in de volledige reikwijdte van een overtreding en antwoord acties uitvoeren om bedreigingen te herstellen. <br> [Meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |3                   |                                                                                                                                                                                                                                    
 
 ## <a name="next-step"></a>Volgende stap
-![Fase 2: instellen](../../media/setup.png) <br>[Fase 2: instellen](setup-mtpeval.md)<br> Uw Microsoft Threat Protection proef lab-omgeving instellen
+![Fase 2: instellen](../../media/setup.png) <br>[Fase 2: instellen](setup-mtpeval.md)<br> Uw Microsoft Threat Protection-proefversie Lab of pilot omgeving instellen
 

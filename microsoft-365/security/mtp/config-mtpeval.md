@@ -1,52 +1,34 @@
 ---
-title: Pijlers voor microsoft threat protection configureren voor de proeflabomgeving
-description: Pijlers voor microsoft threat protection configureren, Office 365 ATP, Azure ATP, Microsoft Cloud App Security en Microsoft Defender ATP voor uw proeflabomgeving
-keywords: microsoft Threat Protection-proefversie configureren, microsoft threat protection-proefconfiguratie, microsoft threat protection-pijlers configureren, pijlers voor Microsoft Threat Protection
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
-ms.prod: w10
-ms.mktglfcycl: deploy
-ms.sitesec: library
-ms.pagetype: security
-ms.author: dolmont
-author: DulceMontemayor
-ms.localizationpriority: medium
-manager: dansimp
-audience: ITPro
-ms.collection: M365-security-compliance
-ms.topic: article
-ms.openlocfilehash: 8a435b220343bd0353f2e0ef85ddf856ebf3e8aa
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
-ms.translationtype: MT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049938"
+Titel: Microsoft Threat Protection voor de beschrijving van de proefversie en de omgeving van de prototype: Microsoft Threat Protection (Microsoft Threat Protection): Office 365 ATP, Azure ATP, Microsoft Cloud app Security en Microsoft Defender ATP voor uw proefversie of pilot omgeving.
+Trefwoorden: Microsoft Threat Protection-proefversie, configuratie van Microsoft Threat Protection-proefabonnement, Microsoft Threat Protection pilotproject configureren, Microsoft Threat Protection-de pijlers configureren, Microsoft Threat Protection, Search. product: eADQiWindows 10XVcnh Search. appverid: met150 MS. Prod: W10 MS. mktglfcycl: MS. sitesec. Library MS. PageType: MS. Author: dolmont  
+Auteur: DulceMontemayor MS. localizationpriority: medium Manager: dansimp doelgroep: ITPro MS. Collection: M365-Security-compliance MS. topic: artikel 
 ---
-# <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-environment"></a>Pijlers voor Microsoft Threat Protection configureren voor uw proeflabomgeving
+
+# <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-or-pilot-environment"></a>Microsoft Threat Protection-pijlers configureren voor uw proefversie of pilot omgeving
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
 
-Het maken van een Microsoft Threat Protection-proeflabomgeving en het implementeren ervan is een proces in drie fasen:
+U maakt een Microsoft Threat Protection-proefversie voor proef omgevingen of pilot omgevingen en de implementatie hiervan is een proces van drie fasen:
 
 <br>
 <table border="0" width="100%" align="center">
   <tr style="text-align:center;">
     <td align="center" style="width:25%; border:0;" >
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval?view=o365-worldwide"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Uw Microsoft Threat Protection-proeflabomgeving voorbereiden" />
-      <br/>Fase 1: Voorbereiden</a><br>
+        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Uw proefabonnement voor Microsoft Threat Protection of een testomgeving voorbereiden" />
+      <br/>Fase 1: voorbereiding </a><br>
     </td>
      <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval?view=o365-worldwide">
-        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Uw Microsoft Threat Protection-proefomgeving instellen" />
-      <br/>Fase 2: Setup</a><br>
+        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab or pilot environment" title="Uw Microsoft Threat Protection-proefversie Lab of pilot omgeving instellen" />
+      <br/>Fase 2: instellen </a><br>
     </td>
     <td align="center" bgcolor="#d5f5e3">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide">
-        <img src="../../media/config-onboard.png" alt="Configure & Onboard" title="Configureer elke Microsoft Threat Protection-pijler voor uw Microsoft Threat Protection-proeflabomgeving en on-board-eindpunten" />
-      <br/>Fase 3: & onboard configureren</a><br>
+        <img src="../../media/config-onboard.png" alt="Configure & Onboard" title="Configureer elke Microsoft Threat Protection-pijler voor uw proefabonnement voor Microsoft Threat Protection of een proef omgeving en de interne eindpunten" />
+      <br/>Fase 3: & onboard configureren </a><br>
 </td>
 
 
@@ -56,200 +38,200 @@ Het maken van een Microsoft Threat Protection-proeflabomgeving en het implemente
 U bevindt zich momenteel in de configuratiefase.
 
 
-Voorbereiding is de sleutel tot een succesvolle implementatie. In dit artikel wordt u begeleid op de punten die u moet overwegen als u zich voorbereidt op de implementatie van Microsoft Defender ATP.
+De voorbereiding is essentieel voor een succesvolle implementatie. In dit artikel wordt u begeleid over de punten die u in overweging moet nemen wanneer u de implementatie van Microsoft Defender ATP gaat voorbereiden.
 
 
-## <a name="microsoft-threat-protection-pillars"></a>Pijlers voor Microsoft Threat Protection
-Microsoft Threat Protection bestaat uit vier pijlers. Hoewel één pijler al waarde kan bieden aan de beveiliging van uw netwerkorganisatie, biedt het inschakelen van de vier pijlers van Microsoft Threat Protection uw organisatie de meeste waarde.
+## <a name="microsoft-threat-protection-pillars"></a>Microsoft Threat Protection-pijlers
+Microsoft Threat Protection bestaat uit vier pijlers. Hoewel u met de vier Microsoft Threat Protection-gebruikers al een waarde kunt opgeven voor de veiligheid van uw netwerkorganisatie, kunt u de meeste waarden opgeven voor de vier Microsoft Threat Protection-pijler.
 
-![Image of_Microsoft Threat Protection-oplossing voor gebruikers, Azure Advanced Threat Protection, voor endpoints Microsoft Defender Advanced Threat Protection, voor cloud-apps, Microsoft Cloud App Security en voor gegevens, Office 365 Advanced Threat Protection  ](../../media/mtp-eval-31.png) <br>
+![Afbeelding of_Microsoft oplossing voor beveiliging van bedreigingen voor gebruikers, Azure Advanced Threat Protection voor eindpunten van Microsoft Defender Advanced Threat Protection, voor Cloud-apps, Microsoft Cloud app Security en voor gegevens, Office 365 Advanced Threat Protection  ](../../media/mtp-eval-31.png) <br>
 
-In deze sectie u het volgende configureren:
+In deze sectie wordt u begeleid bij de configuratie:
 -   Office 365 Advanced Threat Protection
 -   Azure Advanced Threat Protection 
 -   Microsoft Cloud App Security
 -   Microsoft Defender Advanced Threat Protection
 
 
-## <a name="configure-office-365-advanced-threat-protection"></a>Geavanceerde bedreigingsbeveiliging van Office 365 configureren
+## <a name="configure-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection configureren
 >[!NOTE]
 >Sla deze stap over als u Office 365 Advanced Threat Protection al hebt ingeschakeld. 
 
-Er is een PowerShell-module genaamd de *Office 365 Advanced Threat Protection Recommended Configuration Analyzer (ORCA)* die helpt bij het bepalen van een aantal van deze instellingen. Wanneer deze als beheerder in uw tenant wordt uitgevoerd, helpt get-ORCAReport bij het genereren van een beoordeling van de instellingen voor antispam, anti-phish en andere instellingen voor berichthygiëne. U deze module downloaden van https://www.powershellgallery.com/packages/ORCA/ . 
+Er is een PowerShell-module genaamd *Office 365 Advanced Threat Protection recommended configuration Analyzer (Orca)* waarmee enkele van deze instellingen kunnen worden vastgesteld. Als u een beheerder van de Tenant uitvoert, kunt u met Get-ORCAReport een beoordeling maken van de antispam, anti-spam en andere instellingen voor bericht hygiëne. U kunt deze module downloaden van https://www.powershellgallery.com/packages/ORCA/ . 
 
-1. Navigeer naar het beleid [voor het beheer van](https://protection.office.com/homepage)& Compliance  >  **Center- beschermingsbeheer**  >  **Policy**.
-![Image of_Office 365 Security & Compliance Center Threat management policy page](../../media/mtp-eval-32.png) <br>
+1. Ga naar de [beveiligings & beleid voor nalevings centrum van Office 365](https://protection.office.com/homepage)  >  **Threat management**  >  **Policy**.
+![Afbeelding of_Office 365 beveiligings & beleidsregels voor het beleid voor nalevings centrum](../../media/mtp-eval-32.png) <br>
  
-2. Klik **op ATP-antiphishing,** selecteer **Maken** en vul de beleidsnaam en -beschrijving in. Klik op **Volgende**.
-![Afbeelding of_Office 365 Pagina & compliance center-beleidspagina waar u uw beleid benoemen](../../media/mtp-eval-33.png) <br>
+2. Klik op **ATP anti-phishing**, selecteer **maken** en vul de Beleidsnaam en-beschrijving in. Klik op **Volgende**.
+![Afbeelding of_Office 365 beveiligings & beleids pagina voor naleving van het nalevings centrum, waarin u uw beleid kunt benoemen](../../media/mtp-eval-33.png) <br>
 
 >[!NOTE]
->Bewerk uw geavanceerde ATP-antiphishingbeleid. Geavanceerde **phishingdrempel wijzigen** in **2 - Agressief.**
+>Uw Advanced ATP anti phishingfilter-beleid bewerken. Wijzig de **Geavanceerde fraude drempel** in **2-agressief**.
 <br>
 
-3. Klik **op** het vervolgkeuzemenu Een voorwaarde toevoegen en selecteer uw domein(en) als geadresseerdedomein. Klik op **Volgende**.
-![Afbeelding of_Office 365 Security & Compliance Center anti-phishing beleidspagina waar u een voorwaarde voor de toepassing toevoegen](../../media/mtp-eval-34.png) <br>
+3. Klik op het vervolgkeuzemenu **een voorwaarde toevoegen** en selecteer uw domein (en) als domein van de ontvanger. Klik op **Volgende**.
+![Afbeelding of_Office 365 beveiligings & beleid voor naleving van het anti-phishingfilter waarop u een voorwaarde voor de toepassing kunt toevoegen](../../media/mtp-eval-34.png) <br>
  
-4. Bekijk je instellingen. Klik **op Dit beleid maken** om dit te bevestigen. 
-![Afbeelding of_Office 365 Pagina voor beveiligingsprogramma & Compliance Center waar u uw instellingen bekijken en op de knop Dit beleid maken klikken](../../media/mtp-eval-35.png) <br>
+4. Controleer uw instellingen. Klik op **dit beleid maken** om te bevestigen. 
+![Afbeelding of_Office 365 beveiligings & beleidsregels voor nalevings centrum waar u de instellingen kunt controleren en klikt u op de knop dit beleid maken](../../media/mtp-eval-35.png) <br>
  
-5. Selecteer **ATP Safe-bijlagen** en selecteer de optie **ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams.**  
-![Afbeelding of_Office 365 pagina Beveiliging & Compliance Center waar u ATP voor SharePoint, OneDrive en Microsoft Teams inschakelen](../../media/mtp-eval-36.png) <br>
+5. Selecteer **veilige ATP-bijlagen** en schakel de optie **ATP voor SharePoint, OneDrive en Microsoft teams inschakelen in** .  
+![Afbeelding of_Office 365 beveiligings & compliance Center waarop u ATP kunt inschakelen voor SharePoint, OneDrive en Microsoft teams](../../media/mtp-eval-36.png) <br>
 
-6. Klik op het +-pictogram om een nieuw beleid voor veilige bijlagen te maken en het als geadresseerderdomein toe te passen op uw domeinen. Klik op **Opslaan**.
-![Afbeelding of_Office 365-pagina Beveiliging & Compliance Center waar u een nieuw beveiligingsbeleid maken](../../media/mtp-eval-37.png) <br>
+6. Klik op het pictogram + om een nieuw beleid voor veilige bijlagen te maken, wanneer u dit wilt toepassen als het domein van de geadresseerde voor uw domeinen. Klik op **Opslaan**.
+![Afbeelding of_Office 365 beveiligings & compliance Center-pagina waar u een nieuw beleid voor het maken van een veilige bijlage kunt maken](../../media/mtp-eval-37.png) <br>
  
-7. Selecteer vervolgens het **atp-beleid voor veilige koppelingen** en klik vervolgens op het potloodpictogram om het standaardbeleid te bewerken.
+7. Vervolgens selecteert u het beleid voor **veilige koppelingen voor vrije verbindingen** en klikt u op het potloodpictogram om het standaardbeleid te bewerken.
 
-8. Zorg ervoor dat de optie **Niet volgen wanneer gebruikers op veilige koppelingen klikken,** niet is geselecteerd, terwijl de rest van de opties is geselecteerd. Zie [Instellingen voor veilige koppelingen](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp?view=o365-worldwide) voor meer informatie. Klik op **Opslaan**. 
-![Afbeelding of_Office 365 Pagina Beveiliging & Compliance Center waaruit blijkt dat de optie Niet bijhouden wanneer gebruikers op safe klikken, niet is geselecteerd](../../media/mtp-eval-38.png) <br>
+8. Zorg ervoor dat de optie **niet bijhouden wanneer gebruikers op optie voor veilige koppelingen klikken** niet is geselecteerd, terwijl de andere opties zijn geselecteerd. Zie [instellingen voor veilige koppelingen](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp) voor meer informatie. Klik op **Opslaan**. 
+![Afbeelding of_Office 365 beveiligings & compliance Center waarin wordt aangegeven dat de optie niet wordt bijgehouden wanneer gebruikers op veilig klikken niet is geselecteerd.](../../media/mtp-eval-38.png) <br>
 
-9. Selecteer vervolgens het **antimalwarebeleid,** selecteer de standaardinstelling en kies het potloodpictogram.
+9. Selecteer vervolgens het **anti-malwarebeleid** , selecteer het standaardbeleid en kies het potloodpictogram.
 
-10. Klik **op Instellingen** en selecteer Ja en gebruik de **standaardmeldingstekst** om **malwaredetectiereactie**in te schakelen. Schakel het **filter Algemene bijlagetypen** in. Klik op **Opslaan**.
-<br>![Afbeelding of_Office 365 Pagina Beveiliging & Compliance Center waaruit blijkt dat de reactie op malwaredetectie is ingeschakeld met standaardmelding en het filter voor algemene bijlagetypen is ingeschakeld](../../media/mtp-eval-39.png) <br>
+10. Klik op **instellingen** en selecteer **Ja en gebruik de standaard Meldingstekst om het** detecteren van **malware**te activeren. Schakel het **filter common Attachment types** in. Klik op **Opslaan**.
+<br>![Afbeelding of_Office 365 beveiligings & pagina nalevings centrum waarin wordt aangegeven dat de antwoord op de malware-detectie is ingeschakeld met standaard melding en dat het filter common Attachment types is ingeschakeld.](../../media/mtp-eval-39.png) <br>
   
-11. Navigeer naar [Office 365 Security & Search](https://protection.office.com/homepage)  >  **Audit-logboekcontrole**van het Compliance Center en schakel Controle  >  **Audit log search** in.  
-![Afbeelding of_Office 365-pagina Beveiliging & Compliance Center waar u de zoekopdracht voor controlelogboek inschakelen](../../media/mtp-eval-40.png) <br>
+11. Ga naar het [Office 365-beveiligings & compliance](https://protection.office.com/homepage)  >  **Search**  >  **audit log Search** en Schakel controle in.  
+![Afbeelding of_Office 365 beveiligings & compliance Center waarop u de zoekopdracht in het audit logboek kunt inschakelen](../../media/mtp-eval-40.png) <br>
 
-12. Integreer Office 365 ATP met Microsoft Defender ATP. Navigeer naar [Office 365 Security & Compliance Center](https://protection.office.com/homepage)Threat  >  **Management**  >  **Explorer** en selecteer **WDATP-instellingen** in de rechterbovenhoek van het scherm. Schakel verbinding **maken met Windows ATP**in het dialoogvenster Microsoft Defender ATP in .
-![Afbeelding of_Office 365-pagina Beveiliging & Compliance Center waar u de ATP-verbinding van Windows Defender inschakelen](../../media/mtp-eval-41.png) <br>
+12. Integreer Office 365 ATP met Microsoft Defender ATP. Ga naar de [beveiligings & van het compliance-Beheercentrum van Office 365](https://protection.office.com/homepage)  >  **Threat management**  >  **Explorer** en selecteer **WDATP instellingen** in de rechterbovenhoek van het scherm. Schakel in het dialoogvenster verbinding met Microsoft Defender ATP de optie **verbinding maken met Windows ATP**in.
+![Afbeelding of_Office 365 beveiligings & compliance Center, waarop u de Windows Defender ATP-verbinding kunt inschakelen](../../media/mtp-eval-41.png) <br>
 
 ## <a name="configure-azure-advanced-threat-protection"></a>Azure Advanced Threat Protection configureren
 >[!NOTE]
 >Sla deze stap over als u Azure Advanced Threat Protection al hebt ingeschakeld
 
 
-1. Navigeer naar [Microsoft 365 Security Center](https://security.microsoft.com/info) > selecteer Meer **resources**Azure Advanced  >  **Threat Protection**.
-![Afbeelding of_Microsoft pagina 365 Security Center waar een optie is om Azure Advanced Threat Protection te openen](../../media/mtp-eval-42.png) <br>
+1. Ga naar [Microsoft 365 Beveiligingscentrum](https://security.microsoft.com/info) > Selecteer **meer bronnen**  >  **Azure Advanced Threat Protection**.
+![Of_Microsoft pagina van het Beveiligingscentrum van 365 waarbij er een optie is om Azure Advanced Threat Protection te openen](../../media/mtp-eval-42.png) <br>
 
-2. Klik **op Maken** om de wizard Azure Advanced Threat Protection te starten. 
-<br>![Afbeelding of_Azure wizard Geavanceerde bedreigingsbeveiligingpagina waar u op knop Maken moet klikken](../../media/mtp-eval-43.png) <br>
+2. Klik op **maken** om de wizard van Azure Advanced Threat Protection te starten. 
+<br>![Afbeelding of_Azure pagina van de wizard geavanceerde beveiliging van bedreiging waarop u moet klikken op de knop maken](../../media/mtp-eval-43.png) <br>
 
-3. Kies **Een gebruikersnaam en wachtwoord opgeven om verbinding te maken met uw Active Directory-forest**.  
-![Welkomstpagina of_Azure Geavanceerde bedreigingsbescherming](../../media/mtp-eval-44.png) <br>
+3. Kies **een gebruikersnaam en wachtwoord opgeven om verbinding te maken met uw Active Directory-forest**.  
+![Afbeelding of_Azure welkomstpagina van Advanced Threat Protection](../../media/mtp-eval-44.png) <br>
 
-4. Voer uw on-premises active directory-referenties in. Dit kan elk gebruikersaccount zijn dat leestoegang tot Active Directory heeft.
-![Afbeelding of_Azure pagina met Geavanceerde Threat Protection Directory-services waar u uw referenties moet plaatsen](../../media/mtp-eval-45.png) <br>
+4. Voer uw on-premises Active Directory-referenties in. Dit kan elk gebruikersaccount zijn met leestoegang tot Active Directory.
+![Afbeelding of_Azure pagina met adreslijstservices van Advanced Threat Protection, waar u uw referenties moet invoeren](../../media/mtp-eval-45.png) <br>
 
-5. Kies vervolgens **Sensor setup downloaden** en het bestand overzetten naar uw domeincontroller. 
-![Afbeelding of_Azure pagina voor geavanceerde bedreigingsbescherming waar u De installatie van downloadsensoren selecteren](../../media/mtp-eval-46.png) <br>
+5. Kies vervolgens **Update sensoren** en zet bestand over naar uw domeincontroller. 
+![Afbeelding of_Azure pagina Geavanceerde beveiliging van bedreiging, waarop u de instellingen voor de Download sensor kunt selecteren](../../media/mtp-eval-46.png) <br>
 
-6. Voer de Azure ATP Sensor Setup uit en begin met het volgen van de wizard.
-<br>![Afbeelding of_Azure pagina Geavanceerde bedreigingsbeveiliging waarop u naast de wizard Azure ATP-sensor moet klikken om de wizard Azure ATP-sensor te volgen](../../media/mtp-eval-47.png) <br>
+6. Voer de installatie van de Azure ATP-sensor uit en voer de wizard uit.
+<br>![Afbeelding of_Azure pagina Geavanceerde beveiliging tegen bedreigingen waarop u moet klikken op volgende om de wizard Azure ATP-sensor te volgen](../../media/mtp-eval-47.png) <br>
  
-7. Klik **op Volgende** bij het type sensorimplementatie.
-<br>![Afbeelding of_Azure pagina Geavanceerde bedreigingsbeveiliging waarop u naast de wizard Azure ATP-sensor moet klikken om de wizard Azure ATP-sensor te volgen](../../media/mtp-eval-48.png) <br>
+7. Klik op **volgende** bij het implementatietype van de sensor.
+<br>![Afbeelding of_Azure pagina Geavanceerde beveiliging tegen bedreigingen waarop u moet klikken op volgende om de wizard Azure ATP-sensor te volgen](../../media/mtp-eval-48.png) <br>
  
-8. Kopieer de toegangssleutel zoals u deze vervolgens in de wizard moet invoeren.
-![Afbeelding of_the pagina met sensoren waar u de toegangssleutel moet kopiëren die u moet invoeren op de volgende wizard Azure ATP-sensorinstellendingspagina](../../media/mtp-eval-49.png) <br>
+8. Kopieer de toegangscode omdat u deze moet typen, naast de wizard.
+![Of_the afbeelding van de pagina met sensoren waar u de toegangstoets moet typen die u moet typen op de volgende pagina van de wizard Setup van Azure ATP-sensor](../../media/mtp-eval-49.png) <br>
  
-9. Kopieer de toegangssleutel naar de wizard en klik op **Installeren**. 
-<br>![Afbeelding of_Azure wizard Advanced Threat Protection Azure ATP-sensorpagina waar u de toegangssleutel moet bieden en vervolgens op de installatieknop klikt](../../media/mtp-eval-50.png) <br>
+9. Kopieer de toegangstoets in de wizard en klik op **installeren**. 
+<br>![Afbeelding of_Azure pagina met geavanceerde Bedreigingsbeveiliging Azure ATP-sensor, waar u de toegangscode moet invoeren en klik vervolgens op de knop installeren.](../../media/mtp-eval-50.png) <br>
 
 10. Gefeliciteerd, u hebt Azure Advanced Threat Protection geconfigureerd op uw domeincontroller.
-![Image of_Azure Advanced Threat Protection Azure ATP sensor wizard installation completion where you should click the finish button Image of_Azure Advanced Threat Protection Azure ATP sensor wizard installation completion where you should click the finish button Image of_Azure Advanced Threat Protection Azure ATP sensor wizard installation completion where you should click the finish button Image](../../media/mtp-eval-51.png) <br>
+![Afbeelding of_Azure geavanceerde Bedreigingsbeveiliging Azure ATP-sensor wizard Installatie voltooien waarbij u op de knop Voltooien klikt](../../media/mtp-eval-51.png) <br>
  
-11. Selecteer onder de sectie [Azure Azure ATP-instellingen](https://go.microsoft.com/fwlink/?linkid=2040449) de optie **Windows Defender ATP**en schakel de schakelaar in. Klik op **Opslaan**. 
-![Afbeelding of_the Azure Azure ATP-instellingenpagina waar u de Windows Defender ATP-schakelaar moet inschakelen](../../media/mtp-eval-52.png) <br>
+11. Selecteer in de sectie instellingen van [Azure Azure ATP](https://go.microsoft.com/fwlink/?linkid=2040449) de optie **Windows Defender ATP**en zet vervolgens de wisselknop. Klik op **Opslaan**. 
+![Afbeelding of_the pagina instellingen van Azure Azure ATP waarop u de wisselknop Windows Defender ATP moet inschakelen](../../media/mtp-eval-52.png) <br>
 
 >[!NOTE]
->Windows Defender ATP is omgedoopt tot Microsoft Defender ATP. Rebranding veranderingen in al onze portalen worden uitgerold voor consistentie.
+>Windows Defender ATP is opnieuw aangemerkt als Microsoft Defender ATP. Wijzigingen die u in alle portals aanbrengt, worden doorgevoerd in de consistentie.
 
 
-## <a name="configure-microsoft-cloud-app-security"></a>Beveiliging van Microsoft Cloud App configureren
+## <a name="configure-microsoft-cloud-app-security"></a>Beveiligingsupdates voor Microsoft Cloud app configureren
 >[!NOTE]
->Sla deze stap over als u microsoft cloud app-beveiliging al hebt ingeschakeld. 
+>Sla deze stap over als u de beveiligingsversie van de Microsoft Cloud-app al hebt ingeschakeld. 
 
-1. Navigeer naar [Microsoft 365 Security Center](https://security.microsoft.com/info)Meer  >  **bronnen**Microsoft Cloud  >  **App Security**.
-![Afbeelding of_Microsoft pagina 365 Security Center waar u Microsoft Cloud App-kaart zien en op de knop openen klikt](../../media/mtp-eval-53.png) <br>
+1. Ga naar het [Microsoft 365-Beveiligingscentrum](https://security.microsoft.com/info)voor  >  **meer informatie**over beveiliging van de  >  **Microsoft Cloud-app**.
+![Pagina of_Microsoft 365 Beveiligingscentrum, waarop u de Microsoft Cloud app Card kunt zien en moet klikken op de knop openen](../../media/mtp-eval-53.png) <br>
 
-2. Selecteer Azure **ATP-gegevensintegratie inschakelen**bij de informatieprompt voor de integratie van Azure ATP. 
-<br>![Afbeelding of_the informatieprompt om Azure ATP te integreren, waarbij u de koppeling Azure ATP-gegevensintegratie moet selecteren](../../media/mtp-eval-54.png) <br>
+2. Als u de informatie wilt hebben over het integreren van Azure ATP, selecteert u **Azure ATP Data Integration inschakelen**. 
+<br>![Afbeelding of_the informatie vraagt om Azure ATP te integreren waarbij u de koppeling Azure ATP-gegevensintegratie moet selecteren](../../media/mtp-eval-54.png) <br>
 
 >[!NOTE]
->Als u deze prompt niet ziet, kan dit betekenen dat uw Azure ATP-gegevensintegratie al is ingeschakeld. Als u het echter niet zeker weet, neemt u contact op met uw IT-beheerder om dit te bevestigen. 
+>Als u deze vraag niet ziet, betekent dit dat uw Azure ATP-gegevensintegratie al is ingeschakeld. Als u dat nog niet weet, neemt u contact op met uw IT-beheerder om te bevestigen. 
 
-3. Ga naar **Instellingen,** schakel de inschakelschakelschakelschakelschakeling van Azure **ATP-integratie** in en klik op **Opslaan**. 
-![Afbeelding of_the instellingenpagina waar u de azure ATP-integratie moet inschakelen en vervolgens op opslaan moet klikken](../../media/mtp-eval-55.png) <br>
+3. Ga naar **instellingen**, schakel de wisselknop **Azure ATP-integratie** in en klik op **Opslaan**. 
+![Afbeelding of_the pagina instellingen waarop u de wisselknop Azure ATP-integratie moet inschakelen en klik op opslaan](../../media/mtp-eval-55.png) <br>
 >[!NOTE]
->Voor nieuwe Azure ATP-exemplaren wordt deze integratieknop automatisch ingeschakeld. Controleer of uw Azure ATP-integratie is ingeschakeld voordat u naar de volgende stap gaat.
+>Voor nieuwe exemplaren van Azure ATP wordt deze schakeloptie voor integratie automatisch ingeschakeld. Controleer of de Azure ATP-integratie is ingeschakeld voordat u verder gaat met de volgende stap.
  
-4. Selecteer onder de instellingen voor clouddetectie de optie **Microsoft Defender ATP-integratie**en schakel de integratie in. Klik op **Opslaan**.
-![Afbeelding of_the Microsoft Defender ATP-pagina waarop het selectievakje niet-goedgekeurde apps blokkeren onder Microsoft Defender ATP-integratie is geselecteerd. Klik op opslaan.](../../media/mtp-eval-56.png) <br>
+4. Selecteer onder de instellingen voor Cloud detectie de optie **Microsoft Defender ATP-integratie**en schakel vervolgens de integratie in. Klik op **Opslaan**.
+![Afbeelding of_the Microsoft Defender ATP-pagina waar het selectievakje niet-goedgekeurde apps blokkeren onder Microsoft Defender ATP-integratie is geselecteerd. Selecteer opslaan.](../../media/mtp-eval-56.png) <br>
 
-5. Selecteer onder Instellingen voor clouddetectie de optie **Gebruikersverrijking**en schakel de integratie met Azure Active Directory in.
-![Afbeelding van de sectie Gebruikersverrijking waarin het selectievakje Gedetecteerde gebruikers-id's verrijken met Azure Active Directory-gebruikersnamen is geselecteerd](../../media/mtp-eval-57.png) <br>
+5. Selecteer onder instellingen voor Cloud detectie de optie **gebruikers verrijking**en schakel vervolgens integratie met Azure Active Directory in.
+![Afbeelding van de sectie voor het verrijking van gebruikers waarbij het selectievakje verrijkte gebruikers-id's met Azure Active Directory-gebruikersnamen is geselecteerd](../../media/mtp-eval-57.png) <br>
 
-## <a name="configure-microsoft-defender-advanced-threat-protection"></a>Geavanceerde bedreigingsbeveiliging van Microsoft Defender configureren
+## <a name="configure-microsoft-defender-advanced-threat-protection"></a>Microsoft Defender Advanced Threat Protection configureren
 >[!NOTE]
->Sla deze stap over als u microsoft Defender Advanced Threat Protection al hebt ingeschakeld.
+>Sla deze stap over als u Microsoft Defender Advanced Threat Protection al hebt ingeschakeld.
 
-1. Navigeer naar [Microsoft 365 Security Center](https://security.microsoft.com/info)Meer  >  **bronnen**Microsoft Defender  >  **Security Center**. Klik op **Openen**.
-<br>![Afbeelding of_Microsoft Defender Security Center op de pagina Microsoft 365 Security Center](../../media/mtp-eval-58.png) <br>
+1. Ga naar het [Microsoft 365-Beveiligingscentrum](https://security.microsoft.com/info)  >  **meer bronnen**  >  **Microsoft Defender-Beveiligingscentrum**. Klik op **openen**.
+<br>![De optie afbeelding of_Microsoft Defender-Beveiligingscentrum op de pagina Microsoft 365 Security Center](../../media/mtp-eval-58.png) <br>
  
-2. Volg de wizard Geavanceerde bedreigingsbeveiliging van Microsoft Defender. Klik op **Volgende**. 
-<br>![Afbeelding of_the welkomstwizardpagina van Microsoft Defender Security Center](../../media/mtp-eval-59.png) <br>
+2. Volg de wizard Microsoft Defender Advanced Threat Protection. Klik op **Volgende**. 
+<br>![Pagina of_the van de welkomst wizard van het Microsoft Defender-Beveiligingscentrum](../../media/mtp-eval-59.png) <br>
 
-3. Kies op basis van de locatie van uw gewenste gegevensopslag, beleid voor gegevensbewaring, organisatiegrootte en opt-in voor voorbeeldfuncties. 
-<br>![Afbeelding of_the pagina om uw land voor gegevensopslag, bewaarbeleid en organisatiegrootte te selecteren. Klik op volgende wanneer u klaar bent met selecteren.](../../media/mtp-eval-60.png) <br>
+3. Kies op basis van de gewenste locatie voor gegevensopslag, het bewaarbeleid voor de gegevens, de organisatie grootte en opt-in voor Voorbeeldfuncties. 
+<br>![Afbeelding of_the pagina voor het selecteren van het land voor de opslag van de gegevens, het bewaarbeleid en de grootte van de organisatie. Klik op volgende wanneer u klaar bent met selecteren.](../../media/mtp-eval-60.png) <br>
 >[!NOTE]
->U sommige instellingen, zoals de locatie van de gegevensopslag, achteraf niet wijzigen. 
+>U kunt een aantal instellingen, zoals de opslaglocatie van de gegevens, achteraf niet wijzigen. 
 <br>
 
 Klik op **Volgende**. 
 
-4. Klik **op Doorgaan** en hiermee wordt uw Microsoft Defender ATP-tenant invoorziening getroffen.
-<br>![Afbeelding of_the pagina met de vraag of u op de knop Doorgaan klikt om uw cloud-exemplaar te maken](../../media/mtp-eval-61.png) <br>
+4. Klik op **Doorgaan** om uw Microsoft Defender ATP-Tenant te richten.
+<br>![Afbeelding of_the pagina waarin u wordt gevraagd Klik op de knop Doorgaan om een Cloud exemplaar te maken](../../media/mtp-eval-61.png) <br>
 
-5. Sluit uw eindpunten aan via groepsbeleid, Microsoft Endpoint Manager of door een lokaal script uit te voeren op Microsoft Defender ATP. Voor de eenvoud maakt deze handleiding gebruik van het lokale script.
+5. Haal uw eindpunten binnen via Groepsbeleid, Microsoft Endpoint Manager of door een lokaal script uit te voeren in Microsoft Defender ATP. Voor de eenvoud wordt in deze handleiding het lokale script gebruikt.
 
-6. Klik **op Pakket downloaden** en kopieer het onboarding-script naar uw eindpunt(en).  
-<br>![Afbeelding of_page u vraagt op de knop Pakket downloaden klikken om het onboarding-script naar uw eindpunt of eindpunten te kopiëren](../../media/mtp-eval-62.png) <br>
+6. Klik op **pakket downloaden** en kopieer het onboarding-script naar uw eindpunt (en).  
+<br>![Afbeelding of_page u wordt gevraagd op de knop pakket downloaden te klikken om het onboarding-script naar uw eindpunt of eindpunten te kopiëren.](../../media/mtp-eval-62.png) <br>
 
-7. Voer op uw eindpunt het onboarding-script uit als administrator en kies Y.
-<br>![Afbeelding of_the commandline waar u het onboarding-script uitvoert en Y kiest om verder te gaan](../../media/mtp-eval-63.png) <br>
+7. Voer op het eindpunt het onboarding-script uit als beheerder en kies Y.
+<br>![Afbeelding of_the commandline waarbij u het onboarding-script uitvoert en kies Y om door te gaan](../../media/mtp-eval-63.png) <br>
 
-8. Gefeliciteerd, je hebt je eerste eindpunt in gebruik.  
-<br>![Afbeelding of_the commandline waar u de bevestiging krijgt dat u uw eerste eindpunt hebt ingebouwde. Druk op elke toets om door te gaan](../../media/mtp-eval-64.png) <br>
+8. Gefeliciteerd, u hebt het eerste eindpunt geboardd.  
+<br>![Afbeelding of_the commandline waarbij u de bevestiging ontvangt dat u het eerste eindpunt hebt binnengebracht. Druk op een toets om door te gaan](../../media/mtp-eval-64.png) <br>
 
-9. Kopieer-plak de detectietest van de wizard Microsoft Defender ATP.
-<br>![Afbeelding of_the een detectietest stap uit te voeren waarbij u op Kopiëren moet klikken om het detectietestscript te kopiëren dat u in de opdrachtprompt moet plakken](../../media/mtp-eval-65.png) <br>
+9. Kopieer-de detectietest wordt in de wizard van Microsoft Defender ATP geplakt.
+<br>![Afbeelding of_the een detectietest stap uitvoeren waarbij u op kopiëren klikt om het opsporings testscript te kopiëren dat u in de opdrachtprompt moet plakken](../../media/mtp-eval-65.png) <br>
 
-10. Kopieer het PowerShell-script naar een opdrachtprompt met verhoogde bevoegdheid en voer het uit. 
-<br>![Afbeelding of_command vragen waar u het PowerShell-script naar een verhoogde opdrachtprompt moet kopiëren en deze moet uitvoeren](../../media/mtp-eval-66.png) <br>
+10. Kopieer het PowerShell-script naar een opdrachtprompt met verhoogde bevoegdheid en voer deze opdracht uit. 
+<br>![Afbeelding of_command aanwijzing waar u het PowerShell-script moet kopiëren naar een opdrachtprompt met verhoogde bevoegdheid en deze kunt uitvoeren](../../media/mtp-eval-66.png) <br>
 
-11. Selecteer **Microsoft Defender ATP starten in** de wizard.
-<br>![Afbeelding of_the bevestigingsprompt van de wizard waar u op Start met Microsoft Defender ATP moet klikken](../../media/mtp-eval-67.png) <br>
+11. Selecteer in de wizard aan de **slag met Microsoft Defender ATP** .
+<br>![Afbeelding of_the bevestigingsprompt van de wizard, waarop u moet klikken op beginnen met Microsoft Defender ATP](../../media/mtp-eval-67.png) <br>
  
-12. Ga naar het [Microsoft Defender Security Center](https://securitycenter.windows.com/). Ga naar **Instellingen** en selecteer **Geavanceerde functies**. 
-<br>![Afbeelding of_Microsoft menu Instellingen van Defender Security Center waarin u geavanceerde functies moet selecteren](../../media/mtp-eval-68.png) <br>
+12. Ga naar het [Microsoft Defender-Beveiligingscentrum](https://securitycenter.windows.com/). Ga naar **instellingen** en selecteer **geavanceerde functies**. 
+<br>![Afbeelding of_Microsoft menu instellingen van het Beveiligingscentrum van Defender, waarin u geavanceerde functies moet selecteren](../../media/mtp-eval-68.png) <br>
 
-13. Schakel de integratie in met **Azure Advanced Threat Protection**.  
-<br>![Image of_Microsoft Defender Security Center Geavanceerde functies, Azure Advanced Threat Protection optie schakelen die u moet inschakelen](../../media/mtp-eval-69.png) <br>
+13. Schakel de integratie met **Azure Advanced Threat Protection**in.  
+<br>![Afbeelding van geavanceerde functies in de of_Microsoft van het Defender-Beveiligingscentrum, de optie voor de geavanceerde beveiliging van de optie Azure-beveiliging van bedreiging die u moet inschakelen](../../media/mtp-eval-69.png) <br>
 
-14. Schakel de integratie in met **Office 365 Threat Intelligence**.
-<br>![Afbeelding of_Microsoft Defender Security Center Geavanceerde functies, Office 365 Threat Intelligence-optie die u moet inschakelen](../../media/mtp-eval-70.png) <br>
+14. Schakel de integratie met **Office 365 Threat Intelligence**in.
+<br>![Afbeelding van geavanceerde functies in de of_Microsoft van het Defender-Beveiligingscentrum, de optie Office 365 Threat Intelligence, die u moet inschakelen](../../media/mtp-eval-70.png) <br>
 
-15. Schakel integratie met **Microsoft Cloud App Security**in .
-<br>![Afbeelding of_Microsoft Defender Security Center Geavanceerde functies, Microsoft Cloud App Security optie schakelen die u moet inschakelen](../../media/mtp-eval-71.png) <br>
+15. Schakel integratie met **Microsoft Cloud app Security**in.
+<br>![Afbeelding of_Microsoft geavanceerde functies in het Beveiligingscentrum van Defender, de optie voor beveiliging van de Microsoft Cloud-app, die u moet inschakelen](../../media/mtp-eval-71.png) <br>
 
 16. Schuif omlaag en klik op **Voorkeuren opslaan** om de nieuwe integraties te bevestigen.
-<br>![Knop Afbeelding of_Save voorkeuren waarop u moet klikken](../../media/mtp-eval-72.png) <br>
+<br>![Afbeelding of_Save knop Voorkeuren waarop u moet klikken](../../media/mtp-eval-72.png) <br>
 
 ## <a name="start-the-microsoft-threat-protection-service"></a>Microsoft Threat Protection-service starten
 >[!NOTE]
->Vanaf 1 juni 2020 schakelt Microsoft automatisch Microsoft Threat Protection-functies in voor alle in aanmerking komende tenants. Zie dit [Microsoft Tech Community-artikel over licentiegeschiktheid](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/microsoft-threat-protection-will-automatically-turn-on-for/ba-p/1345426) voor meer informatie. 
+>Vanaf 1 juni 2020 maakt Microsoft automatisch functies in Microsoft Threat Protection voor alle in aanmerking komende tenants. Zie het [artikel Microsoft Tech Community](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/microsoft-threat-protection-will-automatically-turn-on-for/ba-p/1345426) voor meer informatie over licenties. 
 <br>
 
-Ga naar [Microsoft 365 Security Center](https://security.microsoft.com/homepage). Navigeer naar **Instellingen** en selecteer **Microsoft Threat Protection**.
-<br>![Image of_Microsoft Threat Protection option screenshot van de pagina Microsoft 365 Security Center Settings](../../media/mtp-eval-72b.png) <br>
+Ga naar [Microsoft 365 Beveiligingscentrum](https://security.microsoft.com/homepage). Ga naar **instellingen** en selecteer vervolgens **Microsoft Threat Protection**.
+<br>![Schermafbeelding van de optie voor beveiliging van de optie afbeelding of_Microsoft bedreiging op de pagina instellingen van Microsoft 365-Beveiligingscentrum ](../../media/mtp-eval-72b.png) <br>
 
-Zie [Microsoft-bedreigingsbeveiliging inschakelen](mtp-enable.md)voor een uitgebreidere richtlijnen. 
+Zie [Microsoft Threat Protection inschakelen](mtp-enable.md)voor uitgebreide informatie. 
 
-Gefeliciteerd! U hebt zojuist uw Microsoft Threat Protection-proeflabomgeving gemaakt! Nu u vertrouwd raken met de Microsoft Threat Protection-gebruikersinterface! Bekijk wat u leren en hoe u elke dashboards gebruiken voor uw dagelijkse beveiligingstaken: [interactieve handleiding voor Microsoft Threat Protection](https://aka.ms/MTP-Interactive-Guide).
+Gefeliciteerd! U hebt zojuist een proefabonnement voor Microsoft Threat Protection gemaakt, of pilot omgeving. U kunt nu vertrouwd raken met de gebruikersinterface van Microsoft Threat Protection. Lees wat u kunt leren en leer hoe u elk dashboard gebruikt voor uw dagelijkse beveiligingsbewerkingen: [Microsoft Threat Protection Interactive Guide](https://aka.ms/MTP-Interactive-Guide).
 
-Vervolgens u een aanval simuleren en zien hoe de cross-productmogelijkheden detecteren, waarschuwingen maken en automatisch reageren op een bestandloze aanval op een eindpunt.
+Vervolgens kunt u een aanval simuleren en kijken hoe de functies voor cross product detectie, waarschuwingen maken en automatisch reageren op een aanval met een bestand op een eindpunt.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Een testwaarschuwing genereren](generate-test-alert.md).
+[Genereer een testwaarschuwing](generate-test-alert.md).

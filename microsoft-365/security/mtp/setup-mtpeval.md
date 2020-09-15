@@ -1,7 +1,7 @@
 ---
-title: Uw Microsoft Threat Protection proef lab-omgeving instellen
-description: Ga vervolgens naar Microsoft 365-Beveiligingscentrum en stel de omgeving Microsoft Threat Protection trial Lab in
-keywords: Instellingen voor Microsoft Threat Protection-proefabonnement, Microsoft Threat Protection, Microsoft Threat Protection Evaluation Lab instellen
+title: Uw Microsoft Threat Protection-proefversie Lab of pilot omgeving instellen
+description: Ga naar Microsoft 365-Beveiligingscentrum en stel uw omgeving voor Microsoft Threat Protection trial Lab in
+keywords: Instellingen voor Microsoft Threat Protection-proefabonnement, Microsoft Threat Protection voor de proefversie, Microsoft Threat Protection, Microsoft Threat Protection Evaluation Lab instellen
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: w10
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 69a883263952b7c20225659ae023399e0242606d
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 60c1a39e350a9a1d5d43c9b59ab12c4a6ad3f12a
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650067"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47817179"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Uw Microsoft Threat Protection proef lab-omgeving instellen 
 
@@ -28,26 +28,26 @@ ms.locfileid: "47650067"
 - Microsoft Threat Protection 
 
 
-Het maken van een testomgeving voor Microsoft Threat Protection voor het testen van een lab en de implementatie van een programma met drie fasen
+U maakt een Microsoft Threat Protection-proefversie voor proef omgevingen of pilot omgevingen en de implementatie hiervan is een proces van drie fasen:
 
 <br>
 <table border="0" width="100%" align="center">
   <tr style="text-align:center;">
     <td align="center" style="width:25%; border:0;" >
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval?view=o365-worldwide"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Uw Microsoft Threat Protection-evaluatie lab voorbereiden" />
+        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Uw Microsoft Threat Protection evaluatie lab of testomgeving voorbereiden" />
       <br/>Fase 1: voorbereiding </a><br>
     </td>
      <td align="center"bgcolor="#d5f5e3">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval?view=o365-worldwide">
-        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Uw Microsoft Threat Protection-evaluatie lab instellen" />
+        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab or pilot environment" title="Uw Microsoft Threat Protection-proefversie Lab of pilot omgeving instellen" />
       <br/>Fase 2: instellen </a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide">
         <img src="../../media/config-onboard.png" alt="
-Configure each Microsoft Threat Protection pillar for your Microsoft Threat Protection trial lab environment and onboard your endpoints" title="
-Configureer elke Microsoft Threat Protection-pijler voor de testomgeving voor Microsoft Threat Protection en de eindpunten" />
+Configure each Microsoft Threat Protection pillar for your Microsoft Threat Protection trial lab or pilot environment and onboard your endpoints" title="
+Configureer elke Microsoft Threat Protection-pijler voor uw proefabonnement voor Microsoft Threat Protection of een proef omgeving en haal uw eindpunten over." />
       <br/>Fase 3: & onboard configureren </a><br>
 </td>
 
@@ -55,12 +55,12 @@ Configureer elke Microsoft Threat Protection-pijler voor de testomgeving voor Mi
   </tr>
 </table>
 
-U bevindt zich momenteel in de configuratiefase. Voer de stappen uit voor het openen van het Microsoft 365-Beveiligingscentrum en voer vervolgens de testomgeving in.
+U bevindt zich momenteel in de configuratiefase. Voer de volgende stappen uit om toegang te krijgen tot het Microsoft 365-Beveiligingscentrum en vervolgens uw proefabonnement of pilot omgeving in te stellen.
 
 Registreer u voor een Office 365-of Azure Active Directory-abonnement om een *. onmicrosoft.com* -Tenant te genereren die u kunt gebruiken om zich aan te melden voor uw microsoft 365 E5-licentie. 
 
 >[!NOTE]
->Als u al een bestaand Office 365-of Azure Active Directory-abonnement hebt, kunt u de stappen voor het maken van de proefversie van Office 365 E5 overslaan.
+>Als u al een bestaand abonnement voor Office 365 of Azure Active Directory hebt, kunt u de stappen voor het maken van een proefversie van Office 365 E5 overslaan.
 
 In deze fase wordt u begeleid bij het volgende:
 - Een Office 365 E5-proef Tenant maken
@@ -88,7 +88,7 @@ In deze fase wordt u begeleid bij het volgende:
 5. Stel de aangepaste domeinnaam voor de Tenant in en klik op **volgende**.
 <br>![Voorbeeld van een pagina voor het instellen van een proefabonnement op of_Office 365 E5 waarop u uw aangepaste domeinnaam kunt instellen](../../media/mtp-eval-13.png) <br>
  
-6. De eerste identiteit instellen die een globale beheerder voor de Tenant wordt. Voer **naam** en **wachtwoord**in. Klik op **Aanmelden**.
+6. U kunt de eerste identiteit instellen, wat een globale beheerder voor de Tenant wordt. Voer **naam** en **wachtwoord**in. Klik op **Aanmelden**.
 ![Voorbeeld van een pagina voor het instellen van een proefabonnement op of_Office 365 E5 waarop u uw bedrijfsidentiteit kunt instellen](../../media/mtp-eval-14.png) <br>
 
 7. Klik op **Ga naar Setup** om de inlevering van de Office 365 E5-proefversie te voltooien.
@@ -97,7 +97,7 @@ In deze fase wordt u begeleid bij het volgende:
 8. Verbind uw bedrijfsdomein met de Office 365-Tenant. Option Kies **al uw eigen domein verbinden** en typ uw domeinnaam. Klik op **Volgende**.
 <br>![Installatiepagina voor afbeelding of_Office 365 E5 waarop u uw aanmeldings-en e-mailadres aan uw persoonlijke voorkeur kunt aanpassen](../../media/mtp-eval-16.png) <br>
  
-9. U dient een TXT-of MX-record toe te voegen om het eigendom van het domein te valideren. Wanneer u de TXT-of MX-record aan uw domein hebt toegevoegd, selecteert u **verifiëren**.
+9. Een TXT-of MX-record toevoegen om de eigendom van het domein te valideren. Wanneer u de TXT-of MX-record aan uw domein hebt toegevoegd, selecteert u **verifiëren**.
 <br>![Installatiepagina voor afbeelding of_Office 365 E5 waarop u een TXT of MX-record moet toevoegen om uw domein te bevestigen](../../media/mtp-eval-17.png) <br>
  
 10. Option Maak meer gebruikersaccounts voor uw Tenant. U kunt deze stap overslaan door te klikken op **volgende**.
@@ -149,4 +149,4 @@ In deze fase wordt u begeleid bij het volgende:
 
 
 ## <a name="next-step"></a>Volgende stap
-![Fase 3: & onboard configureren](../../media/config-onboard.png) <br>[Fase 3: & onboard configureren](config-mtpeval.md) <br>Configureer elke Microsoft Threat Protection-pijler voor uw Microsoft Threat Protection Evaluation Lab en haal uw eindpunten over.
+![Fase 3: & onboard configureren](../../media/config-onboard.png) <br>[Fase 3: & onboard configureren](config-mtpeval.md) <br>Configureer elke Microsoft Threat Protection-pijler voor uw proefabonnement voor Microsoft Threat Protection of een proef omgeving en haal uw eindpunten over.

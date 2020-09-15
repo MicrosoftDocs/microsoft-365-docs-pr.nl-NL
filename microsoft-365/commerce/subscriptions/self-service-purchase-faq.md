@@ -17,13 +17,13 @@ ms.custom:
 search.appverid:
 - MET150
 description: Hier vindt u antwoorden op veelgestelde vragen over self-service aankopen.
-ms.date: 08/12/2020
-ms.openlocfilehash: 78a7082a966a866f18ac2aa378198dbb33d8c158
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.date: 09/15/2020
+ms.openlocfilehash: 81143dfe3794bc4f42bea879905bf08750f498b4
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653699"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816923"
 ---
 # <a name="self-service-purchase-faq"></a>Veelgestelde vragen over self-service aankopen
 
@@ -32,7 +32,7 @@ Met selfservice aankopen kunnen gebruikers de mogelijkheid nieuwe technologieën
 Service voor selfservice aankoop is beschikbaar voor Power platform (Power BI, Power apps en Power Automatiseer), project en Visio.
 
 > [!NOTE]
-> Service voor selfservice aankopen is niet beschikbaar in India en is niet beschikbaar voor klanten van de overheid of onderwijsinstellingen.
+> Service voor selfservice aankopen is niet beschikbaar in India of voor Government-of onderwijs klanten. Project en Visio zijn niet beschikbaar voor selfservice aankopen in Brazilië en de Democratische Republiek Congo.
 
 ## <a name="making-a-self-service-purchase"></a>Een self-service aankoop doen
 
