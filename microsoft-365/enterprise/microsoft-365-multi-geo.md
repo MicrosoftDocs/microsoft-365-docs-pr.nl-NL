@@ -1,9 +1,9 @@
 ---
-title: Microsoft 365 multi-geografische
+title: Microsoft 365 Multi-Geo
 ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,22 +13,22 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: In dit artikel vindt u meer informatie over hoe u uw Microsoft 365-aanwezigheid uitbreidt naar meerdere geografische regio's met Microsoft 365 meerdere geografische regio's.
-ms.openlocfilehash: a5843b98b5d64dfb3872c3d8a5d48c0e56949c02
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 41069490a8c824bb58a8f4247987abd3ce0901b6
+ms.sourcegitcommit: 62a8c226422eac9c085cc886b4836b037f95ef6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689376"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47825351"
 ---
-# <a name="microsoft-365-multi-geo"></a>Microsoft 365 multi-geografische
+# <a name="microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo
 
 Met Microsoft 365 multi-geo kan uw organisatie zijn Microsoft 365-aanwezigheid uitbreiden naar meerdere geografische regio's en/of landen binnen de bestaande Tenant. Neem contact op met uw Microsoft-account team om u aan te melden bij uw Microsoft-account team voor Microsoft 365-multi-geo.
   
 Met Microsoft 365 in Microsoft kunt u gegevens inrichten en bewaren op de geografische locaties die u hebt gekozen om te voldoen aan de vereisten voor gegevens woonplaats, en tegelijk de wereldwijde samenvatting van de moderne productiviteitsfuncties voor uw werknemers ontgrendelen.
 
-#### <a name="video-introducing-microsoft-365-multi-geo"></a>Video: Inleiding tot Microsoft 365 multi-geo
+Voor een video-inleiding tot Microsoft 365 multi-geo raadpleegt [u SharePoint Online en OneDrive meerdere geografische locaties om te bepalen waar uw gegevens zich bevinden](https://www.youtube.com/watch?v=Do9U3JuROhk).
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1Yk6B?autoplay=false]
+## <a name="multi-geo-architecture"></a>Meerdere geo-architecturen
 
 In een omgeving met meerdere geografische gebieden bevat uw Microsoft 365-Tenant een centrale locatie (waarbij uw Microsoft 365-abonnement oorspronkelijk is ingericht) en een of meer satelliet locaties. In een Tenant met meerdere geo-gebruikers wordt de informatie over geo-locaties, groepen en gebruikers informatie gemastereerd in azure Active Directory (Azure AD). Omdat uw Tenant gegevens centraal zijn gemastereerd en worden gesynchroniseerd in elke geografische locatie, delen en ervaring waarbij iedereen van uw bedrijf wereldwijde informatie bevat.
 

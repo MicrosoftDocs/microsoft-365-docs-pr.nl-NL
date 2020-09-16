@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 92d5d2840963ae00ae0f03e3359f287371f770ee
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 9e92a0328d2e7fb9cfe7461241dd866081926876
+ms.sourcegitcommit: 62a8c226422eac9c085cc886b4836b037f95ef6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650258"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47825372"
 ---
 # <a name="advanced-hunting-apis"></a>Geavanceerde jacht-Api's
 
@@ -37,8 +37,10 @@ ms.locfileid: "47650258"
 ## <a name="limitations"></a>Beperkingen
 1. U kunt alleen een query uitvoeren op gegevens van de afgelopen 30 dagen.
 2. De resultaten hebben een maximum van 100.000 rijen.
-3. Het aantal uitvoeringen is beperkt per Tenant: tot 15 oproepen per minuut, 15 minuten per uur, met een tijd per uur en 4 uur.
+3. Het aantal uitvoeringen is beperkt per Tenant: tot 10 oproepen per minuut, 10 minuten per uur, met een tijdsduur van telkens een dag en 4 uur.
 4. De maximale uitvoeringstijd van één aanvraag duurt 10 minuten.
+5. 429-antwoord geeft een limiet aan voor het bereiken van de quotumlimiet per aantal aanvragen of door processor. De antwoordtekst van 429 geeft ook de tijd aan waarop de quota worden verlengd. 
+
 
 ## <a name="permissions"></a>Machtigingen
 U moet een van de volgende machtigingen hebben om deze API te kunnen bellen. Zie [de Api's Microsoft Threat Protection openen](api-access.md) voor meer informatie, waaronder de manier waarop u machtigingen kiest.
